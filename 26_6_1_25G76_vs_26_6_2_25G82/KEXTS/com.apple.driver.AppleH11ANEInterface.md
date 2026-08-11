@@ -2,18 +2,6 @@
 
 > `com.apple.driver.AppleH11ANEInterface`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__cstring`
-- `__DATA.__data`
-- `__DATA_CONST.__auth_got`
-- `__DATA_CONST.__got`
-- `__DATA_CONST.__mod_init_func`
-- `__DATA_CONST.__mod_term_func`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__kalloc_var`
-- `__DATA_CONST.__kalloc_type`
-
 ```diff
 
  9.512.0.0.0
@@ -44,11 +32,5 @@ Functions:
 ~ __ZN24ANEProgramLegacyResource34populateProcedureMutableKernelInfoEP26ANEProgramCreateArgsOutputj : 820 -> 824
 ~ __ZN24ANEProgramLegacyResource29populateProcedureLiveInParamsEP26ANEProgramCreateArgsOutputj : 3068 -> 3216
 CStrings:
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.E8nWUy/Sources/AppleH11ANEInterface_kexts/ANEResource/ANEProgramRTResource.h"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.E8nWUy/Sources/AppleH11ANEInterface_kexts/ANEScheduler/ANEEvent.cpp"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.E8nWUy/Sources/AppleH11ANEInterface_kexts/aneexclave/ANELoader/src/ZinComputeProgramLoader.cpp"
 + "[ERROR] %s: %s: Number of SNE ops exceeded max allowed: %u for procID: %d\n"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.w5Kvua/Sources/AppleH11ANEInterface_kexts/ANEResource/ANEProgramRTResource.h"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.w5Kvua/Sources/AppleH11ANEInterface_kexts/ANEScheduler/ANEEvent.cpp"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.w5Kvua/Sources/AppleH11ANEInterface_kexts/aneexclave/ANELoader/src/ZinComputeProgramLoader.cpp"
 ```

@@ -4,7 +4,6 @@
 
 ### Sections with Same Size but Changed Content
 
-- `__TEXT.__cstring`
 - `__TEXT.__unwind_info`
 - `__DATA_CONST.__const`
 - `__DATA_CONST.__cfstring`
@@ -19,11 +18,4 @@
    __TEXT.__cstring: 0xbca
 Functions:
 ~ sub_1000110f4 : 2204 -> 2220
-CStrings:
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.MZtLay/Sources/AppleFSCompression_executables/Common/ChunkCompression.cpp"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.MZtLay/Sources/AppleFSCompression_executables/Common/commonUtilsUser.c"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.MZtLay/Sources/AppleFSCompression_executables/Libraries/CompressData/CompressData.c"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.hBXq91/Sources/AppleFSCompression_executables/Common/ChunkCompression.cpp"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.hBXq91/Sources/AppleFSCompression_executables/Common/commonUtilsUser.c"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.hBXq91/Sources/AppleFSCompression_executables/Libraries/CompressData/CompressData.c"
 ```

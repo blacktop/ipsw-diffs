@@ -8,8 +8,6 @@
 
 ```diff
 CStrings:
-+ "Jul 31 2026 23:29:02"
 + "WiFiAnalytics-806.3 Jul 31 2026 23:28:58"
-- "Jul 13 2026 20:05:03"
 - "WiFiAnalytics-806.3 Jul 13 2026 20:04:57"
 ```

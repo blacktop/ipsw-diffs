@@ -2,10 +2,6 @@
 
 > `/usr/lib/libMatch.1.dylib`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__unwind_info`
-
 ```diff
 
 -49.0.0.0.0

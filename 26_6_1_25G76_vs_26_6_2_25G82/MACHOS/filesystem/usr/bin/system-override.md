@@ -5,7 +5,6 @@
 ### Sections with Same Size but Changed Content
 
 - `__TEXT.__objc_methlist`
-- `__TEXT.__cstring`
 - `__TEXT.__gcc_except_tab`
 - `__TEXT.__unwind_info`
 - `__DATA_CONST.__const`
@@ -31,15 +30,4 @@
    Symbols:   144
    CStrings:  435
  
-CStrings:
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Mgr5df/Sources/AppleCredentialManager_ClientLibs/ACMLib/ACMLib.c"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Mgr5df/Sources/AppleCredentialManager_ClientLibs/common/CommonUtil.c"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Mgr5df/Sources/AppleCredentialManager_ClientLibs/common/LibCall.c"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Mgr5df/Sources/AppleCredentialManager_ClientLibs/common/LibCallBlock.c"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Mgr5df/Sources/AppleCredentialManager_ClientLibs/common/LibSerialization.c"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.2BQrQO/Sources/AppleCredentialManager_ClientLibs/ACMLib/ACMLib.c"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.2BQrQO/Sources/AppleCredentialManager_ClientLibs/common/CommonUtil.c"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.2BQrQO/Sources/AppleCredentialManager_ClientLibs/common/LibCall.c"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.2BQrQO/Sources/AppleCredentialManager_ClientLibs/common/LibCallBlock.c"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.2BQrQO/Sources/AppleCredentialManager_ClientLibs/common/LibSerialization.c"
 ```

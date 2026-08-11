@@ -11,7 +11,6 @@
 - `__TEXT.__eh_frame`
 - `__DATA_CONST.__got`
 - `__DATA.__data`
-- `__DATA.__bss`
 
 ```diff
 
@@ -30,9 +29,4 @@
    __DATA.__data: 0x3208
    __DATA.__bss: 0x8459
    __DATA.__common: 0x2ba
-CStrings:
-+ "18:57:28"
-+ "Jul 31 2026"
-- "15:08:33"
-- "Jul 11 2026"
 ```

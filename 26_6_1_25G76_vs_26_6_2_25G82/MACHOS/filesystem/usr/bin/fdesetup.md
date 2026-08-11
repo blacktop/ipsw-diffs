@@ -6,7 +6,6 @@
 
 - `__TEXT.__objc_methlist`
 - `__TEXT.__gcc_except_tab`
-- `__TEXT.__cstring`
 - `__TEXT.__unwind_info`
 - `__DATA_CONST.__const`
 - `__DATA_CONST.__cfstring`
@@ -30,17 +29,6 @@
 -  Functions: 743
 +  Functions: 742
    Symbols:   379
-   CStrings:  1803
+   CStrings:  1802
  
-CStrings:
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Mgr5df/Sources/AppleCredentialManager_ClientLibs/ACMLib/ACMLib.c"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Mgr5df/Sources/AppleCredentialManager_ClientLibs/common/CommonUtil.c"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Mgr5df/Sources/AppleCredentialManager_ClientLibs/common/LibCall.c"
-+ "01:21:06"
-+ "Aug  1 2026"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.2BQrQO/Sources/AppleCredentialManager_ClientLibs/ACMLib/ACMLib.c"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.2BQrQO/Sources/AppleCredentialManager_ClientLibs/common/CommonUtil.c"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.2BQrQO/Sources/AppleCredentialManager_ClientLibs/common/LibCall.c"
-- "21:43:32"
-- "Jul 11 2026"
 ```

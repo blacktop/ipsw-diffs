@@ -5,8 +5,6 @@
 ### Sections with Same Size but Changed Content
 
 - `__TEXT.__cstring`
-- `__AUTH_CONST.__const`
-- `__DATA.__data`
 
 ```diff
 CStrings:

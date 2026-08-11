@@ -2,32 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/Safari.framework/Versions/A/Safari`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__const`
-- `__TEXT.__constg_swiftt`
-- `__TEXT.__swift5_typeref`
-- `__TEXT.__swift5_proto`
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift_as_ret`
-- `__TEXT.__eh_frame`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_nlcatlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_superrefs`
-- `__DATA_CONST.__objc_arraydata`
-- `__AUTH_CONST.__const`
-- `__AUTH_CONST.__objc_const`
-- `__AUTH_CONST.__objc_intobj`
-- `__AUTH_CONST.__objc_dictobj`
-- `__AUTH_CONST.__objc_arrayobj`
-- `__AUTH.__objc_data`
-- `__AUTH.__data`
-- `__DATA.__data`
-- `__DATA_DIRTY.__objc_data`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -624.4.5.11.5
@@ -115,21 +89,7 @@ Symbols:
 - _objc_msgSend$_safari_indexOfCharacterInCString:startOffset:
 - _objc_msgSend$safari_certificateFromMultipartData
 CStrings:
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Imje0j/Sources/Safari/Mac/Safari/BrowserMiscellany/NetworkConfigurationController.mm"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Imje0j/Sources/Safari/Mac/Safari/Debug/DebugUtilities.mm"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Imje0j/Sources/Safari/Mac/Safari/History/HistoryItem.mm"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Imje0j/Sources/Safari/Mac/Safari/Reader/ArticleFinderJSController.mm"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Imje0j/Sources/Safari/Mac/Safari/Reader/ReaderController.mm"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Imje0j/Sources/Safari/Mac/Safari/Reader/ReaderPageTest.mm"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Imje0j/Sources/Safari/Mac/Safari/mac/Preferences.subproj/DeveloperPreferences.mm"
 - "--"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.2QF0mu/Sources/Safari/Mac/Safari/BrowserMiscellany/NetworkConfigurationController.mm"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.2QF0mu/Sources/Safari/Mac/Safari/Debug/DebugUtilities.mm"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.2QF0mu/Sources/Safari/Mac/Safari/History/HistoryItem.mm"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.2QF0mu/Sources/Safari/Mac/Safari/Reader/ArticleFinderJSController.mm"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.2QF0mu/Sources/Safari/Mac/Safari/Reader/ReaderController.mm"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.2QF0mu/Sources/Safari/Mac/Safari/Reader/ReaderPageTest.mm"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.2QF0mu/Sources/Safari/Mac/Safari/mac/Preferences.subproj/DeveloperPreferences.mm"
 - "Added certificate to keychain"
 - "Failed to add certificate to keychain"
 - "_addCertificateToKeyChain"

@@ -2,26 +2,6 @@
 
 > `/usr/lib/swift/libswiftCore.dylib`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__init_offsets`
-- `__TEXT.__objc_methlist`
-- `__TEXT.__cstring`
-- `__TEXT.__const`
-- `__TEXT.__swift5_typeref`
-- `__TEXT.__constg_swiftt`
-- `__TEXT.__eh_frame`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_selrefs`
-- `__AUTH_CONST.__const`
-- `__AUTH_CONST.__objc_const`
-- `__AUTH.__objc_data`
-- `__AUTH.__data`
-- `__DATA.__data`
-- `__DATA_DIRTY.__objc_data`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
  6.3.2.1.11
@@ -60,7 +40,4 @@ Functions:
 ~ __ZN5swift25ConcurrentReadableHashMapIN12_GLOBAL__N_121ConformanceCacheEntryENS_9LazyMutexEE4findINS1_19ConformanceCacheKeyEEENSt3__14pairIPS2_jEERKT_NS4_12IndexStorageEmS9_ : 356 -> 560
 ~ __ZN5swift25ConcurrentReadableHashMapIN12_GLOBAL__N_121ConformanceCacheEntryENS_9LazyMutexEE6resizeENS4_12IndexStorageEhPS2_ : 624 -> 836
 + __ZN5swift25ConcurrentReadableHashMapIN12_GLOBAL__N_121ConformanceCacheEntryENS_9LazyMutexEE6resizeEPNS4_14ElementStorageEm
-CStrings:
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.DSYIvK/Sources/swiftlang_stdlib_Core/swift/lib/Demangling/Demangler.cpp"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ckfyRU/Sources/swiftlang_stdlib_Core/swift/lib/Demangling/Demangler.cpp"
 ```

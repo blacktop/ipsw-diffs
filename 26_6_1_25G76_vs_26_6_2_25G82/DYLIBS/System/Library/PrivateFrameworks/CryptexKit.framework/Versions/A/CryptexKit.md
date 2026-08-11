@@ -2,30 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/CryptexKit.framework/Versions/A/CryptexKit`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__objc_methlist`
-- `__TEXT.__const`
-- `__TEXT.__constg_swiftt`
-- `__TEXT.__swift5_typeref`
-- `__TEXT.__swift5_types`
-- `__TEXT.__swift5_proto`
-- `__TEXT.__swift5_types2`
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift_as_ret`
-- `__TEXT.__swift5_protos`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_selrefs`
-- `__AUTH_CONST.__const`
-- `__AUTH_CONST.__objc_const`
-- `__AUTH.__objc_data`
-- `__AUTH.__data`
-- `__DATA.__data`
-- `__DATA_DIRTY.__objc_data`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -662.160.18.0.0
@@ -76,11 +52,9 @@ Symbols:
 - _$s10CryptexKit10Image4AuthV8evaluate10ticketData4type9configurey10Foundation0G0V_s13OpaquePointerVSgyALKXEtKF04$s10a5Kit10cd68V4read8property4froms6UInt64VSgAA0C12PropertySpecVyAHG_10Foundation4g8VtKFys13kL6VXEfU_AA0ctU0Vys0P0VGARSPyARGSgTf1nncn_n
 - _$s10CryptexKit10Image4AuthV8evaluate10ticketData4type9configurey10Foundation0G0V_s13OpaquePointerVSgyALKXEtKF04$s10a5Kit10cd69V12authenticate8fileData7with4cc7againsty10Foundation0G0V_SSAJtKFys13kL6VXEfU_AJSSTf1nncn_n
 CStrings:
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.krNWXy/Binaries/libcryptex/install/Symbols/CryptexKit"
 + "662.161.1"
 + "@(#)VERSION:Darwin Cryptex Framework Version 1.0.0: Mon Aug  3 20:34:52 PDT 2026; root:libcryptex-662.161.1~1/CryptexKit/RELEASE_ARM64E"
 + "Darwin Cryptex Framework Version 1.0.0: Mon Aug  3 20:34:52 PDT 2026; root:libcryptex-662.161.1~1/CryptexKit/RELEASE_ARM64E"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.qAMdk6/Binaries/libcryptex/install/Symbols/CryptexKit"
 - "662.160.18"
 - "@(#)VERSION:Darwin Cryptex Framework Version 1.0.0: Sat Jul 11 20:18:56 PDT 2026; root:libcryptex-662.160.18~22/CryptexKit/RELEASE_ARM64E"
 - "Darwin Cryptex Framework Version 1.0.0: Sat Jul 11 20:18:56 PDT 2026; root:libcryptex-662.160.18~22/CryptexKit/RELEASE_ARM64E"

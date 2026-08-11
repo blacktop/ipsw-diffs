@@ -5,14 +5,12 @@
 ### Sections with Same Size but Changed Content
 
 - `__TEXT.__init_offsets`
-- `__TEXT.__cstring`
 - `__TEXT.__gcc_except_tab`
 - `__TEXT.__unwind_info`
 - `__TEXT.__eh_frame`
 - `__DATA_CONST.__const`
 - `__DATA.__la_symbol_ptr`
 - `__DATA.__data`
-- `__DATA.__bss`
 
 ```diff
 
@@ -24,7 +22,4 @@
    __TEXT.__init_offsets: 0x5f8
 Functions:
 ~ __ZL13getAttributesRN4llvm11LLVMContextENS_15GenISAIntrinsic2IDE : 384 -> 400
-CStrings:
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.JfqxwC/Sources/GPUDriversIntel/igc/gfx-driver/Source/visa/iga/GEDLibrary/GED_internal/Source/ged/xcoder/ged_ins.cpp"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rpK2s8/Sources/GPUDriversIntel/igc/gfx-driver/Source/visa/iga/GEDLibrary/GED_internal/Source/ged/xcoder/ged_ins.cpp"
 ```

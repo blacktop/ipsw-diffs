@@ -34,15 +34,7 @@
  
 CStrings:
 + "%s: non-canonical or unaligned output address %#llx"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.MPgxy1/Sources/SPTM/sptm/boot/hib/hibernate_restore.c"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.MPgxy1/Sources/SPTM/sptm/core/sptm_hibentry.c"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.MPgxy1/Sources/SPTM/sptm/iommu/dart/t6000dart.c"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.MPgxy1/Sources/SPTM/sptm/iommu/dart/t8110dart.c"
 + "SPTM-611.161.4|2026-07-31:18:16:29.470735|"
 + "hib_validate_io_buffer_page"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yCgSDZ/Sources/SPTM/sptm/boot/hib/hibernate_restore.c"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yCgSDZ/Sources/SPTM/sptm/core/sptm_hibentry.c"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yCgSDZ/Sources/SPTM/sptm/iommu/dart/t6000dart.c"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yCgSDZ/Sources/SPTM/sptm/iommu/dart/t8110dart.c"
 - "SPTM-611.161.3|2026-07-11:14:35:03.433987|"
 ```

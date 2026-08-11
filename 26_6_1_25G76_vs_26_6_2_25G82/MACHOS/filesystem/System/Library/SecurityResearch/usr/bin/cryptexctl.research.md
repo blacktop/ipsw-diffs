@@ -24,19 +24,9 @@
    __TEXT.__ustring: 0xa
    __TEXT.__gcc_except_tab: 0x2e0
 CStrings:
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.65qxMR/Binaries/libcryptex_executables/install/Symbols/cryptexctl.research"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.65qxMR/Sources/libcryptex_executables/cryptexctl/cmd/create.c"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.65qxMR/Sources/libcryptex_executables/hlutil/amfi.c"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.65qxMR/Sources/libcryptex_executables/hlutil/hdi.m"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.65qxMR/Sources/libcryptex_executables/hlutil/libarchive.c"
 + "662.161.1"
 + "@(#)VERSION:Darwin Cryptex Management Interface Version 2.0.0: Mon Aug  3 20:42:06 PDT 2026; root:libcryptex_executables-662.161.1~1/cryptexctl/WEN_ETA_ARM64E"
 + "Darwin Cryptex Management Interface Version 2.0.0: Mon Aug  3 20:42:06 PDT 2026; root:libcryptex_executables-662.161.1~1/cryptexctl/WEN_ETA_ARM64E"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/Symbols/cryptexctl.research"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Sources/libcryptex_executables/cryptexctl/cmd/create.c"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Sources/libcryptex_executables/hlutil/amfi.c"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Sources/libcryptex_executables/hlutil/hdi.m"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Sources/libcryptex_executables/hlutil/libarchive.c"
 - "662.160.18"
 - "@(#)VERSION:Darwin Cryptex Management Interface Version 2.0.0: Sat Jul 11 20:35:21 PDT 2026; root:libcryptex_executables-662.160.18~56/cryptexctl/WEN_ETA_ARM64E"
 - "Darwin Cryptex Management Interface Version 2.0.0: Sat Jul 11 20:35:21 PDT 2026; root:libcryptex_executables-662.160.18~56/cryptexctl/WEN_ETA_ARM64E"

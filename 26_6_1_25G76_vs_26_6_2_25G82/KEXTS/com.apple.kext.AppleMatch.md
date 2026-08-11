@@ -2,12 +2,6 @@
 
 > `com.apple.kext.AppleMatch`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA.__data`
-- `__DATA_CONST.__kalloc_type`
-- `__DATA_CONST.__kalloc_var`
-
 ```diff
 
 -49.0.0.0.0

@@ -8,10 +8,8 @@
 
 ```diff
 CStrings:
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.CAOrYW/Binaries/libxpc_executables/install/Symbols/smd"
 + "@(#)VERSION:Darwin Privileged Tool Bootstrapper Version 2.0.0: Fri Jul 31 21:19:44 PDT 2026; root:libxpc_executables-3102.160.5~130/smd/RELEASE_ARM64E"
 + "Darwin Privileged Tool Bootstrapper Version 2.0.0: Fri Jul 31 21:19:44 PDT 2026; root:libxpc_executables-3102.160.5~130/smd/RELEASE_ARM64E"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.CIxLKE/Binaries/libxpc_executables/install/Symbols/smd"
 - "@(#)VERSION:Darwin Privileged Tool Bootstrapper Version 2.0.0: Sat Jul 11 17:48:31 PDT 2026; root:libxpc_executables-3102.160.5~104/smd/RELEASE_ARM64E"
 - "Darwin Privileged Tool Bootstrapper Version 2.0.0: Sat Jul 11 17:48:31 PDT 2026; root:libxpc_executables-3102.160.5~104/smd/RELEASE_ARM64E"
 ```

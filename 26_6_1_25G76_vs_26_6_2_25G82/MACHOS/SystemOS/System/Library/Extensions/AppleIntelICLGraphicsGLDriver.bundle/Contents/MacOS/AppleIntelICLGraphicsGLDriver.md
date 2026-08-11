@@ -10,8 +10,6 @@
 - `__TEXT.__eh_frame`
 - `__DATA_CONST.__const`
 - `__DATA.__data`
-- `__DATA.__bss`
-- `__DATA.__common`
 
 ```diff
 
@@ -24,10 +22,6 @@
 Functions:
 ~ __ZL13getAttributesRN4llvm11LLVMContextENS_15GenISAIntrinsic2IDE : 384 -> 400
 CStrings:
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.JfqxwC/Sources/GPUDriversIntel/igc/gfx-driver/Source/visa/iga/GEDLibrary/GED_internal/Source/ged/xcoder/ged_ins.cpp"
 + "1.2(Jul 31 2026 22:33:22)"
-+ "Jul 31 2026 22:33:22"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rpK2s8/Sources/GPUDriversIntel/igc/gfx-driver/Source/visa/iga/GEDLibrary/GED_internal/Source/ged/xcoder/ged_ins.cpp"
 - "1.2(Jul 11 2026 18:27:33)"
-- "Jul 11 2026 18:27:33"
 ```

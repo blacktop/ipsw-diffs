@@ -5,7 +5,6 @@
 ### Sections with Same Size but Changed Content
 
 - `__TEXT.__const`
-- `__TEXT.__cstring`
 - `__TEXT.__swift5_entry`
 - `__TEXT.__swift5_typeref`
 - `__TEXT.__constg_swiftt`
@@ -33,17 +32,4 @@
    Symbols:   399
    CStrings:  969
  
-CStrings:
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Mgr5df/Sources/AppleCredentialManager_ClientLibs/ACMLib/ACMLib.c"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Mgr5df/Sources/AppleCredentialManager_ClientLibs/common/CommonUtil.c"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Mgr5df/Sources/AppleCredentialManager_ClientLibs/common/LibCall.c"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Mgr5df/Sources/AppleCredentialManager_ClientLibs/common/LibCallBlock.c"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Mgr5df/Sources/AppleCredentialManager_ClientLibs/common/LibSerialization.c"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.RtibFY/Sources/AppleKeyStore/applekeystored/applekeystored_xpc_helpers.c"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.2BQrQO/Sources/AppleCredentialManager_ClientLibs/ACMLib/ACMLib.c"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.2BQrQO/Sources/AppleCredentialManager_ClientLibs/common/CommonUtil.c"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.2BQrQO/Sources/AppleCredentialManager_ClientLibs/common/LibCall.c"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.2BQrQO/Sources/AppleCredentialManager_ClientLibs/common/LibCallBlock.c"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.2BQrQO/Sources/AppleCredentialManager_ClientLibs/common/LibSerialization.c"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AK1cbf/Sources/AppleKeyStore/applekeystored/applekeystored_xpc_helpers.c"
 ```

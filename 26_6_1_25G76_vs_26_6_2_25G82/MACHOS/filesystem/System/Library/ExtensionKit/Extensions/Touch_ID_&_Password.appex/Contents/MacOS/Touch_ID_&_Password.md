@@ -6,7 +6,6 @@
 
 - `__TEXT.__objc_methlist`
 - `__TEXT.__const`
-- `__TEXT.__cstring`
 - `__TEXT.__constg_swiftt`
 - `__TEXT.__swift5_typeref`
 - `__TEXT.__swift_as_entry`
@@ -40,25 +39,4 @@
    Symbols:   660
    CStrings:  1625
  
-CStrings:
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Mgr5df/Sources/AppleCredentialManager_ClientLibs/ACMLib/ACMLib.c"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Mgr5df/Sources/AppleCredentialManager_ClientLibs/common/CommonUtil.c"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Mgr5df/Sources/AppleCredentialManager_ClientLibs/common/LibCall.c"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Mgr5df/Sources/AppleCredentialManager_ClientLibs/common/LibCallBlock.c"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Mgr5df/Sources/AppleCredentialManager_ClientLibs/common/LibSerialization.c"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UEfMbD/Sources/AppleKeyStore_libs/aeskeywrap.c"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UEfMbD/Sources/AppleKeyStore_libs/backup_serialize.c"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UEfMbD/Sources/AppleKeyStore_libs/platform/platform.c"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UEfMbD/Sources/AppleKeyStore_libs/platform/platform_lib.c"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UEfMbD/Sources/AppleKeyStore_libs/shared_crypto.c"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.2BQrQO/Sources/AppleCredentialManager_ClientLibs/ACMLib/ACMLib.c"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.2BQrQO/Sources/AppleCredentialManager_ClientLibs/common/CommonUtil.c"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.2BQrQO/Sources/AppleCredentialManager_ClientLibs/common/LibCall.c"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.2BQrQO/Sources/AppleCredentialManager_ClientLibs/common/LibCallBlock.c"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.2BQrQO/Sources/AppleCredentialManager_ClientLibs/common/LibSerialization.c"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.EU55BS/Sources/AppleKeyStore_libs/aeskeywrap.c"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.EU55BS/Sources/AppleKeyStore_libs/backup_serialize.c"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.EU55BS/Sources/AppleKeyStore_libs/platform/platform.c"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.EU55BS/Sources/AppleKeyStore_libs/platform/platform_lib.c"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.EU55BS/Sources/AppleKeyStore_libs/shared_crypto.c"
 ```

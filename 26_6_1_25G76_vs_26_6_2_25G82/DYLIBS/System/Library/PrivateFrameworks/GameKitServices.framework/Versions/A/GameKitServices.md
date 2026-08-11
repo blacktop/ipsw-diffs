@@ -2,18 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/GameKitServices.framework/Versions/A/GameKitServices`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA_CONST.__got`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_arraydata`
-- `__AUTH_CONST.__cfstring`
-- `__AUTH_CONST.__objc_intobj`
-- `__AUTH_CONST.__objc_arrayobj`
-- `__DATA.__data`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
  2215.5.1.0.0
@@ -78,10 +66,10 @@
    - /usr/lib/libz.1.dylib
 -  Functions: 1633
 -  Symbols:   3171
--  CStrings:  3425
+-  CStrings:  3424
 +  Functions: 1655
 +  Symbols:   3210
-+  CStrings:  3453
++  CStrings:  3452
  
 Symbols:
 + +[GKVoiceChatDictionary expectedActualDictionaryKeyTypes]
@@ -128,41 +116,7 @@ Symbols:
 - GCC_except_table13
 - ___block_descriptor_57_e8_32o40r_e22_v16?0"NSDictionary"8l
 CStrings:
-+ " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IbOnob/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/BWE/BWE_GCK.c:%d: GCK_BWE_CreateHandle failed"
-+ " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IbOnob/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/BWE/BWE_GCK.c:%d: calloc(%d) failed"
-+ " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IbOnob/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: Couldn't find pCList for [%08X]"
-+ " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IbOnob/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: Maximum # of nodes reached.  Ignoring node [%08X]\n"
-+ " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IbOnob/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: No more node allowed"
-+ " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IbOnob/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: No network interface found."
-+ " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IbOnob/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: SendUDPPacketCList failed(%X)"
-+ " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IbOnob/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: StartEventCallbackThread failed(%X)"
-+ " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IbOnob/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: Wrong Connection Data. Participant ID from remote connection data = %08X, local participant ID = %08X\n"
-+ " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IbOnob/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: bind failed(%X) for all ports in range"
-+ " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IbOnob/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: calloc(%d) failed"
-+ " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IbOnob/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: calloc(%d) failed(%X)"
-+ " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IbOnob/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: cannot add any more nodes"
-+ " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IbOnob/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: gckSessionCreate failed(%X)"
-+ " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IbOnob/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: gckSessionSendHello failed(%X)"
-+ " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IbOnob/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: gckSessionWaitForHello failed(%X)"
-+ " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IbOnob/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: getaddrinfo failed(%X)"
-+ " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IbOnob/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: getaddrinfo returned NULL"
-+ " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IbOnob/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: getsockname failed(%X)"
-+ " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IbOnob/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: iRemoteConnectionDataSize wrong(%d)"
-+ " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IbOnob/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: packet iLen=%d exceeds dest capacity=%d; dropping"
-+ " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IbOnob/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: pthread_create failed(%X)"
-+ " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IbOnob/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: pthread_mutexattr_init failed(%X)"
-+ " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IbOnob/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: recv failed(%d)"
-+ " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IbOnob/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: recv(%d) failed(%X)"
-+ " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IbOnob/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: recv(%d) returned 0: Shutting down connection"
-+ " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IbOnob/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: recvmsg(%d) failed(%X)"
-+ " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IbOnob/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: recvmsg(%d) returned 0: empty message"
-+ " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IbOnob/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: remoteID is invalid"
-+ " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IbOnob/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: select failed(%X)"
-+ " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IbOnob/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: socket failed(%X)"
-+ " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IbOnob/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GKSession_Internal.m:%d: Local side accepted but PID (0x%08X) disconnected. event->eventType = %d"
-+ " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IbOnob/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GKSession_Internal.m:%d: PID 0x%08X timed out, but not known to us."
-+ " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IbOnob/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GKSession_Internal.m:%d: Received unknown event->status %08x (%d) for an unknown PID (0x%08X)"
-+ " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IbOnob/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/OSPF.c:%d: malloc failed"
++ " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: packet iLen=%d exceeds dest capacity=%d; dropping"
 + " [%s] %s:%d Failed to mutableCopy decoded actualDictionary"
 + " [%s] %s:%d GKVoiceChatDictionary decoded actualDictionary failed key/value validation"
 + " [%s] %s:%d GKVoiceChatDictionary decoded actualDictionary is not an NSDictionary"
@@ -172,13 +126,6 @@ CStrings:
 + " [%s] %s:%d parseConnectedPeers got non-array plist"
 + " [%s] %s:%d parseConnectedPeers got oversize array count=%lu max=%d"
 + "+[GKVoiceChatDictionary isValidActualDictionary:]"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IbOnob/Sources/AVConference/GameKitServices.subproj/Sources/CDX/CDXClient.m"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IbOnob/Sources/AVConference/GameKitServices.subproj/Sources/CDX/cdxticketgen.c:%d: Assert Failed (%s)\n"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IbOnob/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GKNATTraversal.m"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IbOnob/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GKSession_Internal.m"
-+ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IbOnob/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GKVoiceChatServicePrivate.m"
-+ "00:44:41"
-+ "Aug  1 2026"
 + "GKDiscoveryBonjourTxtContext"
 + "T@\"GKDiscoveryBonjour\",N,V_owner"
 + "T@?,C,N,V_callback"
@@ -198,46 +145,5 @@ CStrings:
 + "setCallback:"
 + "setOwner:"
 + "setServiceRef:"
-- " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QBS2yy/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/BWE/BWE_GCK.c:%d: GCK_BWE_CreateHandle failed"
-- " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QBS2yy/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/BWE/BWE_GCK.c:%d: calloc(%d) failed"
-- " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QBS2yy/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: Couldn't find pCList for [%08X]"
-- " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QBS2yy/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: Maximum # of nodes reached.  Ignoring node [%08X]\n"
-- " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QBS2yy/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: No more node allowed"
-- " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QBS2yy/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: No network interface found."
-- " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QBS2yy/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: SendUDPPacketCList failed(%X)"
-- " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QBS2yy/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: StartEventCallbackThread failed(%X)"
-- " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QBS2yy/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: Wrong Connection Data. Participant ID from remote connection data = %08X, local participant ID = %08X\n"
-- " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QBS2yy/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: bind failed(%X) for all ports in range"
-- " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QBS2yy/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: calloc(%d) failed"
-- " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QBS2yy/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: calloc(%d) failed(%X)"
-- " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QBS2yy/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: cannot add any more nodes"
-- " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QBS2yy/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: gckSessionCreate failed(%X)"
-- " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QBS2yy/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: gckSessionSendHello failed(%X)"
-- " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QBS2yy/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: gckSessionWaitForHello failed(%X)"
-- " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QBS2yy/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: getaddrinfo failed(%X)"
-- " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QBS2yy/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: getaddrinfo returned NULL"
-- " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QBS2yy/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: getsockname failed(%X)"
-- " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QBS2yy/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: iRemoteConnectionDataSize wrong(%d)"
-- " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QBS2yy/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: pthread_create failed(%X)"
-- " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QBS2yy/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: pthread_mutexattr_init failed(%X)"
-- " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QBS2yy/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: recv failed(%d)"
-- " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QBS2yy/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: recv(%d) failed(%X)"
-- " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QBS2yy/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: recv(%d) returned 0: Shutting down connection"
-- " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QBS2yy/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: recvmsg(%d) failed(%X)"
-- " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QBS2yy/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: recvmsg(%d) returned 0: empty message"
-- " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QBS2yy/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: remoteID is invalid"
-- " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QBS2yy/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: select failed(%X)"
-- " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QBS2yy/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GCKSession.c:%d: socket failed(%X)"
-- " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QBS2yy/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GKSession_Internal.m:%d: Local side accepted but PID (0x%08X) disconnected. event->eventType = %d"
-- " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QBS2yy/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GKSession_Internal.m:%d: PID 0x%08X timed out, but not known to us."
-- " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QBS2yy/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GKSession_Internal.m:%d: Received unknown event->status %08x (%d) for an unknown PID (0x%08X)"
-- " [%s] %s:%d /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QBS2yy/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/OSPF.c:%d: malloc failed"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QBS2yy/Sources/AVConference/GameKitServices.subproj/Sources/CDX/CDXClient.m"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QBS2yy/Sources/AVConference/GameKitServices.subproj/Sources/CDX/cdxticketgen.c:%d: Assert Failed (%s)\n"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QBS2yy/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GKNATTraversal.m"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QBS2yy/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GKSession_Internal.m"
-- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QBS2yy/Sources/AVConference/GameKitServices.subproj/Sources/Gecko/GKVoiceChatServicePrivate.m"
-- "20:59:59"
-- "Jul 11 2026"
 - "T@?,C,N,V_resolveTimeoutHandler"
 ```

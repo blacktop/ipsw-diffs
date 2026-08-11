@@ -20,12 +20,6 @@
    __TEXT.__chain_starts: 0x40
    __DATA._rtk_boot: 0x3000
 CStrings:
-+ "18:11:28"
-+ "18:17:16"
 + "AppleSPUFirmware-2186.120.6~1227"
-+ "Jul 31 2026"
-- "14:22:10"
-- "14:30:56"
 - "AppleSPUFirmware-2186.120.6~974"
-- "Jul 11 2026"
 ```
