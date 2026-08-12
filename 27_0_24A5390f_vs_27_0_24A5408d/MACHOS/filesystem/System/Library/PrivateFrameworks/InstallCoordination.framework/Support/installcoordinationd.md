@@ -33,10 +33,6 @@
    __TEXT.__objc_classname: 0x847
    __TEXT.__objc_methtype: 0x2532
 CStrings:
-+ "00:03:25"
-+ "Aug  4 2026"
 + "To help you manage payments, this app cannot be deleted while your device is under contract."
-- "01:04:54"
-- "Jul 11 2026"
 - "While this device is under contract, this app will stay installed to help you manage your payments."
 ```

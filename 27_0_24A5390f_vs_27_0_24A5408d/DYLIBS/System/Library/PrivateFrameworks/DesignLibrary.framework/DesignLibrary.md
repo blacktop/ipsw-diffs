@@ -2,21 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/DesignLibrary.framework/DesignLibrary`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift_as_ret`
-- `__TEXT.__swift_as_cont`
-- `__TEXT.__swift5_types2`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__objc_superrefs`
-- `__AUTH_CONST.__cfstring`
-- `__DATA_DIRTY.__objc_data`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -8.0.79.1.101

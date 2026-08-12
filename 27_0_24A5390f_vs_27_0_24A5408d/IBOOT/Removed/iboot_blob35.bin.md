@@ -1,57 +1,57 @@
 ## iboot_blob35.bin
 
-- `InductiveTxLogFreebuf`
-- `smc/iphone/pmu_adc_amuxa.cpp`
-- `POP: %s: adP=%d pct=%d initPoutMax=%d`
-- `nfcEvent_ScanStarted:%d`
-- `%s: scan later`
-- `ui8NfcState: read`
-- `ui8NfcState called for unrecognized key: 0x%X`
-- `nfcEvent_NoPowerScanTimer: state:%d`
-- `ui8NfcPowerPause: ironmanMessage_RequestPowerPause`
-- `ui8NfcDisplayState: write: state:%d, gNfcDisplayOn:%d`
-- `ui8NfcControllerReady: write: power:%d, scan`
-- `getInitialPoutMax`
-- `smc/panic.cpp`
-- `ui8NfcTagsList: read`
-- `nfcEvent_PowerPauseStarted`
-- `ui8NfcPowerPause: write`
-- `smc/inductive/poutPolicy.cpp`
-- `ui8NfcPowerPause called for unrecognized key: 0x%X`
-- `nfcEvent_ScanCompleted: state:%d, gNfcStateAfterScan:%d`
 - `ui8NfcDisplayState called for unrecognized key: 0x%X`
+- `nfcEvent_PowerPauseStarted`
+- `Unknown panic action %u`
+- `scan completed outside of power pause`
+- `nfcHandleMessage: messageType: ironmanMessage_Power(%d) state:%d`
+- `ui8NfcDisplayState: write: state:%d, power:%d`
+- `ui8NfcPowerPause: ironmanMessage_RequestPowerPause`
+- `scanTimeoutHandlerstate:%d`
+- `nfcHandleMessage: messageType: ironmanMessage_NoPower: scan later`
+- `ui8NfcState: write`
+- `ui8NfcControllerReady called for unrecognized key: 0x%X`
+- `POP: ovr:%lld h:%d chg=%d soc:%d t:%d isAL=%d pMax=%d pCalc=%lld thrm=%d%% pCfg=%lld`
+- `InductiveTxLogFreebuf`
+- `PMU: vPmuAdcSensorsReadCycle() failed to read adc 0x%x rc=%d`
+- `smc/inductive/poutPolicy.cpp`
+- `nfcHandleMessage: messageType: ironmanMessage_NoPower: state:%d`
+- `smc/iphone/pmu_adc_amuxa.cpp`
+- `ui8NfcDisplayState: read`
+- `ui8MagnetEvent called for unrecognized key: 0x%X`
+- `ui8NfcDisplayState: write: state:%d, gNfcDisplayOn:%d`
+- `Remotely triggered SMC panic`
+- `ui8NfcDisplayState: write: state:%d`
+- `smc/iphone/nfc.cpp`
+- `Panic trigger received on interrupt #%u`
+- `nfcEvent_ScanStarted:%d`
+- `POP: %s: adP=%d pct=%d initPoutMax=%d`
 - `nfcHandleMessage: messageType: ironmanMessage_Power: idle later`
 - ` Migration successful (v0x%04x -> v0x%04x)`
-- `Unknown panic action %u`
-- `Unknown panic trigger interrupt #%u`
-- `ui8MagnetEvent: write: state:%d`
-- `ui8NfcDisplayState: write: state:%d, power:%d`
-- `%s: gNfcState:%d`
-- `%s: scan in power pause`
-- `nfcHandleMessage: messageType: ironmanMessage_NoPower: state:%d`
-- `nfcHandleMessage: messageType: ironmanMessage_Power(%d) state:%d`
+- `smc/panic.cpp`
 - `nfcEvent_PowerPauseSecondScanTimer`
-- `nfcHandleMessage: messageType: ironmanMessage_ReadyForNfc`
-- `POP: %s: reset not done; lazy reset`
-- `smc/iphone/nfc.cpp`
-- `schedule re-scan for power pause`
-- `ui8NfcControllerReady: write`
-- `ui8NfcDisplayState: write: state:%d`
-- `ui8NfcControllerReady: write: power:%d`
-- `scanTimeoutHandlerstate:%d`
-- `PMU: vPmuAdcSensorsReadCycle() failed to read adc 0x%x rc=%d`
-- `scan completed outside of power pause`
 - `smc/key_tree.cpp`
-- `ui8NfcDisplayState: read`
-- `smc/miscworkloop.cpp`
-- `nfcHandleMessage: messageType:%d`
+- `%s: gNfcState:%d`
+- `ui8NfcState: read`
+- `ui8NfcPowerPause: write`
+- `POP: %s: reset not done; lazy reset`
+- `getInitialPoutMax`
+- `nfcHandleMessage: messageType: ironmanMessage_ReadyForNfc`
 - `ui8NfcTagsList: write: gNfcTagsList.value:0x%x, gLastMessageType:%d`
-- `Panic trigger received on interrupt #%u`
-- `POP: ovr:%lld h:%d chg=%d soc:%d t:%d isAL=%d pMax=%d pCalc=%lld thrm=%d%% pCfg=%lld`
-- `ui8NfcState: write`
-- `nfcHandleMessage: messageType: ironmanMessage_NoPower: scan later`
-- `ui8MagnetEvent called for unrecognized key: 0x%X`
-- `ui8NfcControllerReady called for unrecognized key: 0x%X`
+- `Unknown panic trigger interrupt #%u`
+- `nfcEvent_ScanCompleted: state:%d, gNfcStateAfterScan:%d`
+- `ui8NfcControllerReady: write`
+- `ui8NfcControllerReady: write: power:%d`
 - `ui8NfcTagsList called for unrecognized key: 0x%X`
-- `Remotely triggered SMC panic`
+- `nfcEvent_NoPowerScanTimer: state:%d`
+- `schedule re-scan for power pause`
+- `nfcHandleMessage: messageType:%d`
+- `ui8MagnetEvent: write: state:%d`
+- `ui8NfcState called for unrecognized key: 0x%X`
+- `ui8NfcTagsList: read`
 - `%s: upo_state=%d, clearUPOConConnect=%d`
+- `ui8NfcControllerReady: write: power:%d, scan`
+- `smc/miscworkloop.cpp`
+- `%s: scan in power pause`
+- `ui8NfcPowerPause called for unrecognized key: 0x%X`
+- `%s: scan later`

@@ -8,7 +8,6 @@
 - `__TEXT.__swift5_capture`
 - `__TEXT.__swift5_mpenum`
 - `__DATA.__objc_data`
-- `__DATA.__common`
 
 ```diff
 

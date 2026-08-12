@@ -2,13 +2,6 @@
 
 > `/System/Library/Frameworks/AudioToolbox.framework/AudioCodecs`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__eh_frame`
-- `__DATA_CONST.__got`
-- `__AUTH_CONST.__weak_auth_got`
-- `__DATA.__data`
-
 ```diff
 
 -815.0.0.0.0
@@ -50,10 +43,10 @@
    - /usr/lib/libc++.1.dylib
 -  Functions: 9743
 -  Symbols:   17064
--  CStrings:  3568
+-  CStrings:  3567
 +  Functions: 9829
 +  Symbols:   17174
-+  CStrings:  3595
++  CStrings:  3594
  
 Symbols:
 + GCC_except_table100
@@ -2173,12 +2166,10 @@ CStrings:
 + "%25s:%-5d  Unexpected number of SFBs"
 + "%25s:%-5d WARNING: Error deserializing lossless extension."
 + "%25s:%-5d WARNING: Extension packet size mismatch."
-+ "22:37:27"
 + "AACEnhancedLowDelaySBREncoder.h"
 + "ACLowDelayScalableLosslessDecoder"
 + "ACLowDelayScalableLosslessEncoder"
 + "Apple LLVM 21.0.0 (clang-2100.3.31.1) [+internal-os]"
-+ "Aug  3 2026"
 + "CalculatePatch"
 + "Low Delay Scalable Lossless Decoder"
 + "Low Delay Scalable Lossless Encoder"
@@ -2190,8 +2181,6 @@ CStrings:
 + "res == 0"
 + "tBits == tBitsEst"
 + "writeLosslessExtension"
-- "01:11:16"
 - "Apple LLVM 21.0.0 (clang-2100.3.27.1) [+internal-os]"
-- "Jul 10 2026"
 - "bundle"
 ```

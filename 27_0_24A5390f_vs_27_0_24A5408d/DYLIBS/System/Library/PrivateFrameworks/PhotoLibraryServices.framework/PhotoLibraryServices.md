@@ -2,21 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/PhotoLibraryServices.framework/PhotoLibraryServices`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_reflstr`
-- `__TEXT.__swift5_mpenum`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__weak_got`
-- `__DATA_CONST.__objc_protorefs`
-- `__AUTH_CONST.__weak_auth_got`
-- `__AUTH_CONST.__objc_doubleobj`
-- `__AUTH_CONST.__objc_floatobj`
-- `__AUTH.__data`
-- `__DATA_DIRTY.__objc_data`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -910.33.102.0.0

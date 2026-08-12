@@ -19,7 +19,6 @@
 - `__PDATA.__const`
 - `__PDATA.__data`
 - `__PDATA.__shared_cache`
-- `__PDATA.__common`
 
 ```diff
 

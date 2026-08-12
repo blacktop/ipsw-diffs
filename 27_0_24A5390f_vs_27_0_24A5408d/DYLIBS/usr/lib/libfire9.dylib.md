@@ -2,12 +2,6 @@
 
 > `/usr/lib/libfire9.dylib`
 
-### Sections with Same Size but Changed Content
-
-- `__AUTH_CONST.__const`
-- `__AUTH_CONST.__weak_auth_got`
-- `__DATA.__data`
-
 ```diff
 
 -30.0.0.0.0
@@ -101,7 +95,6 @@ Symbols:
 CStrings:
 + "#fgd,reset"
 + "@(#)Broadcom GLL ver. 172.20.28 670616, 2026/Jul/16, 16:02:15, build_job_id:__BUILDJOBID__, %s://depot/client/core/rel/Olympic/OSX_20.28.658483.v9.0/...\n"
-+ "Aug  3 2026, 21:35:14"
 + "ChipData_GRABSNQ_670616"
 + "ERROR: LTO/RTO mimatch. Expected %s, got %s\n"
 + "FIRE@32 GLL@670616"
@@ -116,7 +109,6 @@ CStrings:
 - "ChipData_GRABSNQ_669867"
 - "FIRE@30 GLL@669867"
 - "FireMessageHandler"
-- "Jul 10 2026, 01:09:00"
 - "abnormalStopCrash"
 - "esw_gll_patch_generator.py:://depot/client/core/rel/Olympic/OSX_20.28.658483.v9.0/proprietary/deliverables/esw5_dev:LOX_A8@$Change: 669866 $"
 - "esw_gll_patch_generator.py:://depot/client/core/rel/Olympic/OSX_20.28.658483.v9.0/proprietary/deliverables/esw5_dev:LOX_B0@$Change: 669866 $"

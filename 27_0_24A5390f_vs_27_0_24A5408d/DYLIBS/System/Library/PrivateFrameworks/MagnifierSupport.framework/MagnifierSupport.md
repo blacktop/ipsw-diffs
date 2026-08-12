@@ -2,24 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/MagnifierSupport.framework/MagnifierSupport`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__objc_methlist`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_mpenum`
-- `__TEXT.__gcc_except_tab`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__weak_got`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__objc_superrefs`
-- `__AUTH_CONST.__cfstring`
-- `__AUTH_CONST.__weak_auth_got`
-- `__AUTH_CONST.__objc_doubleobj`
-- `__DATA.__objc_stublist`
-
 ```diff
 
 -283.0.0.0.0

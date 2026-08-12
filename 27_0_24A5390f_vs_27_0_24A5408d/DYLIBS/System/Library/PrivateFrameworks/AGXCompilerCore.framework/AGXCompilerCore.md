@@ -2,16 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/AGXCompilerCore.framework/AGXCompilerCore`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA_CONST.__weak_got`
-- `__DATA_CONST.__objc_selrefs`
-- `__AUTH_CONST.__const`
-- `__AUTH_CONST.__cfstring`
-- `__AUTH_CONST.__weak_auth_got`
-- `__AUTH.__data`
-- `__AUTH.__thread_vars`
-
 ```diff
 
 -360.32.0.0.0

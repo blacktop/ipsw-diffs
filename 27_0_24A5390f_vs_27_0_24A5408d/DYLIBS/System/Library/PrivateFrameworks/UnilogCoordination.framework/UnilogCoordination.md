@@ -2,16 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/UnilogCoordination.framework/UnilogCoordination`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__objc_methlist`
-- `__TEXT.__swift5_types`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_assocty`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-
 ```diff
 
 -2.1.0.0.0

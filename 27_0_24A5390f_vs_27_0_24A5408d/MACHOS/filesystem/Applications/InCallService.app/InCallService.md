@@ -25,7 +25,6 @@
 - `__DATA_CONST.__objc_arraydata`
 - `__DATA_CONST.__objc_arrayobj`
 - `__DATA.__objc_stublist`
-- `__DATA.__common`
 
 ```diff
 

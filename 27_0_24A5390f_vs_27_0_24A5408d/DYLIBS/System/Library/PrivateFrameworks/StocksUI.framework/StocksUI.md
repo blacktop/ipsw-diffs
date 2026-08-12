@@ -2,15 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/StocksUI.framework/StocksUI`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift5_mpenum`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_catlist`
-- `__AUTH_CONST.__cfstring`
-- `__DATA.__objc_stublist`
-
 ```diff
 
 -2022.0.0.0.0

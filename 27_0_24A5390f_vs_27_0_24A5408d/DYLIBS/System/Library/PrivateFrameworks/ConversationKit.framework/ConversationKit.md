@@ -2,21 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/ConversationKit.framework/ConversationKit`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__cstring`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift_as_ret`
-- `__TEXT.__swift_as_cont`
-- `__TEXT.__swift5_mpenum`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__objc_superrefs`
-- `__AUTH_CONST.__cfstring`
-- `__DATA.__objc_stublist`
-
 ```diff
 
 -615.100.3.0.0

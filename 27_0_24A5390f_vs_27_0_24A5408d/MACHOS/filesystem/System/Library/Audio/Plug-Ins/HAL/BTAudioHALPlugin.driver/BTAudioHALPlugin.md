@@ -14,7 +14,6 @@
 - `__DATA.__objc_const`
 - `__DATA.__objc_selrefs`
 - `__DATA.__data`
-- `__DATA.__bss`
 
 ```diff
 

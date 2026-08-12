@@ -2,25 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/SiriTTS.framework/SiriTTS`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__objc_methlist`
-- `__TEXT.__eh_frame`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__weak_got`
-- `__DATA_CONST.__objc_selrefs`
-- `__DATA_CONST.__objc_arraydata`
-- `__AUTH_CONST.__const`
-- `__AUTH_CONST.__cfstring`
-- `__AUTH_CONST.__objc_const`
-- `__AUTH_CONST.__weak_auth_got`
-- `__AUTH_CONST.__objc_intobj`
-- `__AUTH_CONST.__objc_arrayobj`
-- `__AUTH_CONST.__objc_floatobj`
-- `__AUTH.__data`
-- `__DATA.__data`
-
 ```diff
 
 -3600.81.1.0.0

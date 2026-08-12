@@ -2,15 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/PrivateMLClient.framework/PrivateMLClient`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_mpenum`
-- `__TEXT.__swift5_protos`
-- `__DATA_CONST.__objc_selrefs`
-- `__AUTH.__objc_data`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -212.0.0.0.0

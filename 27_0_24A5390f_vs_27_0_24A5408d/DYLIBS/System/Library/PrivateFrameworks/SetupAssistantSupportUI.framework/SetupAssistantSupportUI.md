@@ -2,16 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/SetupAssistantSupportUI.framework/SetupAssistantSupportUI`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_mpenum`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__objc_superrefs`
-- `__DATA_CONST.__objc_arraydata`
-- `__AUTH_CONST.__objc_dictobj`
-- `__AUTH_CONST.__objc_doubleobj`
-
 ```diff
 
 -565.0.0.0.0

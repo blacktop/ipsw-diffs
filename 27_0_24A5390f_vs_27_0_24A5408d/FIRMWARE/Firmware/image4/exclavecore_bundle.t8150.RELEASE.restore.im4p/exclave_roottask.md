@@ -22,7 +22,6 @@
 - `__DATA.__auth_ptr`
 - `__DATA.__got`
 - `__DATA.__thread_vars`
-- `__DATA.__common`
 
 ```diff
 

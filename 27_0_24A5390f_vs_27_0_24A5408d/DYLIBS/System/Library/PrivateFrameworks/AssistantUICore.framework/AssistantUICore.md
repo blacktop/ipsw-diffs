@@ -2,19 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/AssistantUICore.framework/AssistantUICore`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_capture`
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift_as_ret`
-- `__TEXT.__swift_as_cont`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_selrefs`
-- `__AUTH.__objc_data`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -73.0.12.0.0

@@ -2,17 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/ImagePlaygroundInternal.framework/ImagePlaygroundInternal`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__gcc_except_tab`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_superrefs`
-- `__DATA_CONST.__vfx_script_tby`
-- `__DATA_CONST.__vfx_script_tbx`
-- `__AUTH_CONST.__cfstring`
-- `__DATA.__objc_stublist`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -194.1.0.0.0

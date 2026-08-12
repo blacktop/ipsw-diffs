@@ -2,18 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/SiriInstrumentation.framework/SiriInstrumentation`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_fieldmd`
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_protos`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__AUTH.__data`
-- `__DATA_DIRTY.__objc_data`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -3600.80.1.0.0

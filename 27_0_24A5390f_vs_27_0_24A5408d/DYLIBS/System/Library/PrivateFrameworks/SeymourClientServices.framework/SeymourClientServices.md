@@ -2,26 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/SeymourClientServices.framework/SeymourClientServices`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__objc_methlist`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_capture`
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift_as_ret`
-- `__TEXT.__swift_as_cont`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_selrefs`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__got`
-- `__AUTH_CONST.__cfstring`
-- `__AUTH_CONST.__objc_const`
-- `__DATA_DIRTY.__objc_data`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -2027.0.134.0.0

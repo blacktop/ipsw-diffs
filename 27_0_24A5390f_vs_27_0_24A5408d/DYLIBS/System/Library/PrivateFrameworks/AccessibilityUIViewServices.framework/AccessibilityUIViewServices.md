@@ -2,13 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/AccessibilityUIViewServices.framework/AccessibilityUIViewServices`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__unwind_info`
-- `__DATA_CONST.__objc_classlist`
-- `__AUTH_CONST.__objc_const`
-- `__AUTH.__objc_data`
-
 ```diff
 
 -3237.1.0.0.0

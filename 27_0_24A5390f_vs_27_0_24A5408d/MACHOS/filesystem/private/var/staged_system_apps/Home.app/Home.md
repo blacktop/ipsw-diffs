@@ -26,8 +26,6 @@
 - `__DATA_CONST.__objc_dictobj`
 - `__DATA.__objc_ivar`
 - `__DATA.__objc_data`
-- `__DATA.__bss`
-- `__DATA.__common`
 
 ```diff
 

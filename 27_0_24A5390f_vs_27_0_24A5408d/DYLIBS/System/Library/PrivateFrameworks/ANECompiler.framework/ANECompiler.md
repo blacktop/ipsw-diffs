@@ -2,14 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/ANECompiler.framework/ANECompiler`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__eh_frame`
-- `__DATA_CONST.__weak_got`
-- `__DATA_CONST.__got`
-- `__AUTH_CONST.__weak_auth_got`
-- `__AUTH.__thread_vars`
-
 ```diff
 
 -10.24.3.0.0

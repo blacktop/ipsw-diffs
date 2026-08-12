@@ -2,22 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/iWorkImport.framework/Frameworks/TSDrawables.framework/TSDrawables`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__init_offsets`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__eh_frame`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__weak_got`
-- `__DATA_CONST.__got`
-- `__AUTH_CONST.__weak_auth_got`
-- `__AUTH_CONST.__objc_floatobj`
-- `__AUTH_CONST.__objc_intobj`
-- `__AUTH_CONST.__objc_dictobj`
-- `__DATA.__data`
-- `__DATA_DIRTY.__objc_data`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -487.0.0.0.0

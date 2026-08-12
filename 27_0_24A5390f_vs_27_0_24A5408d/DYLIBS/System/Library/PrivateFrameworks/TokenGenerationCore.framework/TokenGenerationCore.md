@@ -2,35 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/TokenGenerationCore.framework/TokenGenerationCore`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__objc_methlist`
-- `__TEXT.__gcc_except_tab`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_mpenum`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_proto`
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift5_capture`
-- `__TEXT.__swift_as_cont`
-- `__TEXT.__swift_as_ret`
-- `__TEXT.__swift5_types2`
-- `__TEXT.__eh_frame`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__weak_got`
-- `__DATA_CONST.__objc_selrefs`
-- `__DATA_CONST.__objc_superrefs`
-- `__DATA_CONST.__got`
-- `__AUTH_CONST.__cfstring`
-- `__AUTH_CONST.__objc_const`
-- `__AUTH_CONST.__weak_auth_got`
-- `__AUTH.__data`
-- `__AUTH.__thread_vars`
-- `__DATA.__data`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -301.1.0.5.0

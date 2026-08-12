@@ -2,14 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__const`
-- `__DATA_CONST.__objc_arraydata`
-- `__AUTH_CONST.__objc_intobj`
-- `__AUTH_CONST.__objc_arrayobj`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -4630.1.102.0.0

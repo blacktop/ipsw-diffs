@@ -2,17 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/ContactlessReaderUI.framework/ContactlessReaderUI`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_mpenum`
-- `__TEXT.__swift5_types2`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__vfx_script_tby`
-
 ```diff
 
 -150.32.0.0.0

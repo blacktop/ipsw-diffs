@@ -6,7 +6,6 @@
 
 - `__TEXT.__const`
 - `__TEXT.__gcc_except_tab`
-- `__TEXT.__cstring`
 - `__TEXT.__swift5_typeref`
 - `__TEXT.__swift5_fieldmd`
 - `__TEXT.__swift5_protos`
@@ -95,14 +94,12 @@
 -  Functions: 1518
 +  Functions: 1529
    Symbols:   621
--  CStrings:  2560
-+  CStrings:  2564
+-  CStrings:  2559
++  CStrings:  2563
  
 CStrings:
-+ "00:55:24"
 + "@\"NSProgress\"32@0:8Q16@?<v@?B@\"NSError\">24"
 + "@32@0:8Q16@?24"
-+ "Aug  5 2026"
 + "loadHistoryForChatWithGUID:chatIdentifiers:style:services:limit:beforeGUID:afterGUID:threadIdentifier:options:reply:"
 + "resumeExecutorWithGroupName:lane:phase:completionHandler:"
 + "runExecutorWithTaskLimit:groupName:lane:phase:completionHandler:"
@@ -115,8 +112,6 @@ CStrings:
 + "v84@0:8@\"NSString\"16@\"NSArray\"24C32@\"NSArray\"36q44@\"NSString\"52@\"NSString\"60@\"NSString\"68@?<v@?@\"NSArray\"@\"NSArray\">76"
 + "v92@0:8@\"NSString\"16@\"NSArray\"24C32@\"NSArray\"36q44@\"NSString\"52@\"NSString\"60@\"NSString\"68Q76@?<v@?@\"NSArray\"@\"NSArray\"BB>84"
 + "v92@0:8@16@24C32@36q44@52@60@68Q76@?84"
-- "23:08:10"
-- "Jul 15 2026"
 - "resumeExecutorWithGroupName:lane:completionHandler:"
 - "runExecutorWithTaskLimit:groupName:lane:completionHandler:"
 - "shouldTranslateMessageItems:"

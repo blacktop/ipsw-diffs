@@ -2,26 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/FitnessCanvasUI.framework/FitnessCanvasUI`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__constg_swiftt`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_proto`
-- `__TEXT.__swift5_types`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift_as_ret`
-- `__TEXT.__swift_as_cont`
-- `__TEXT.__swift5_mpenum`
-- `__TEXT.__eh_frame`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_selrefs`
-- `__DATA_CONST.__got`
-- `__AUTH_CONST.__objc_const`
-- `__AUTH.__data`
-
 ```diff
 
 -2027.0.134.0.0

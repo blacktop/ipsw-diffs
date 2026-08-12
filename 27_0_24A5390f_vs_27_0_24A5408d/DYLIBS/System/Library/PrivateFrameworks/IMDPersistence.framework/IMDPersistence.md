@@ -2,20 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/IMDPersistence.framework/IMDPersistence`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__dlopen_cstrs`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_mpenum`
-- `__TEXT.__swift5_types2`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_selrefs`
-- `__DATA_CONST.__objc_arraydata`
-- `__DATA_CONST.__got`
-- `__AUTH_CONST.__objc_intobj`
-- `__AUTH_CONST.__objc_arrayobj`
-- `__AUTH_CONST.__objc_dictobj`
-
 ```diff
 
 -1487.100.6.2.2

@@ -2,21 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/_OnDeviceStorage_JetEngine.framework/_OnDeviceStorage_JetEngine`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__objc_methlist`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_proto`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_mpenum`
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__unwind_info`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_selrefs`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__objc_superrefs`
-- `__AUTH_CONST.__cfstring`
-
 ```diff
 
 -3.0.54.0.0

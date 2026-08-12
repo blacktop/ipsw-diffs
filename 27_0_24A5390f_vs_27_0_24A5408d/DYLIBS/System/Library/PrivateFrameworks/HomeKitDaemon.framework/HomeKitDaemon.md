@@ -2,18 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/HomeKitDaemon.framework/HomeKitDaemon`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_mpenum`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__weak_got`
-- `__DATA_CONST.__objc_arraydata`
-- `__AUTH_CONST.__weak_auth_got`
-- `__AUTH_CONST.__objc_arrayobj`
-- `__AUTH_CONST.__objc_dictobj`
-- `__AUTH_CONST.__objc_floatobj`
-
 ```diff
 
 -1490.2.0.1.1

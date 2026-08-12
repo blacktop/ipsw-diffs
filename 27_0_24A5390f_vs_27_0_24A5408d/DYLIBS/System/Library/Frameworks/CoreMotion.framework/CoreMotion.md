@@ -2,34 +2,6 @@
 
 > `/System/Library/Frameworks/CoreMotion.framework/CoreMotion`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_typeref`
-- `__TEXT.__constg_swiftt`
-- `__TEXT.__swift5_proto`
-- `__TEXT.__swift5_types`
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift_as_ret`
-- `__TEXT.__swift_as_cont`
-- `__TEXT.__eh_frame`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__weak_got`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__objc_superrefs`
-- `__DATA_CONST.__objc_arraydata`
-- `__DATA_CONST.__got`
-- `__AUTH_CONST.__weak_auth_got`
-- `__AUTH_CONST.__objc_arrayobj`
-- `__AUTH_CONST.__objc_dictobj`
-- `__AUTH_CONST.__objc_intobj`
-- `__AUTH_CONST.__objc_floatobj`
-- `__AUTH.__objc_data`
-- `__AUTH.__data`
-- `__DATA.__data`
-- `__DATA_DIRTY.__objc_data`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -3183.0.0.0.0
@@ -110,10 +82,10 @@
    - /usr/lib/swift/libswiftos.dylib
 -  Functions: 12363
 -  Symbols:   1772
--  CStrings:  11072
+-  CStrings:  11071
 +  Functions: 12331
 +  Symbols:   1776
-+  CStrings:  11105
++  CStrings:  11104
  
 Symbols:
 + _CMSuppressionType2ClientEvent
@@ -126,7 +98,6 @@ CStrings:
 + ", platformSource, %ld, testType, %ld"
 + "-[CMBody _startUpdatingBodyToken:]"
 + "-[CMBody _stopUpdatingBodyToken:]"
-+ "00:06:53"
 + "Assertion failed: !empty(), file /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/CoreMotionFramework/Oscar/CMVectorBuffer.h, line 141,front() on empty buffer."
 + "Assertion failed: !empty(), file /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/CoreMotionFramework/Oscar/CMVectorBuffer.h, line 147,back() on empty buffer."
 + "Assertion failed: !empty(), file /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/CoreMotionFramework/Oscar/CMVectorBuffer.h, line 163,maxElement() on empty buffer."
@@ -147,7 +118,6 @@ CStrings:
 + "Assertion failed: start <= end && end <= fCapacity, file /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/CoreMotionFramework/Oscar/CMQueue.h, line 267,start=%zu end=%zu fCapacity=%u."
 + "Assertion failed: static_cast<uint32_t>(Cap) == fCapacity, file /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/CoreMotionFramework/Oscar/CMQueue.h, line 252,fastIndex Cap=%zu mismatches fCapacity=%u."
 + "Assertion failed: t >= 0 && t <= 1, file /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/CoreMotionFramework/Oscar/Math/CMOQuaternion.cpp, line 300,Invalid time t for slerp."
-+ "Aug  5 2026"
 + "CMVector<T, 3> CMFactoredMatrix<float, 3>::biermanObservationalUpdateSkew3(T, T, T, T, T, T, T) [T = float, N = 3, Dummy = void]"
 + "VOEvent"
 + "[CMBody] _startUpdatingBodyToken:%{public}@"
@@ -197,7 +167,6 @@ CStrings:
 - "%@, <recordId, %lu, startDate, %@, workoutType, %ld, sessionId, %@, durationInSeconds, %f, pointCount, %llu, hrMax, %f, hrMin, %f, meanHr, %f, meanVo2, %f, meanSpeed, %f, meanGrade, %f, meanHrConfidence, %f, meanHrCadenceAgreement, %f, meanCadence, %f, vo2MaxModelSource, %ld, sessionType, %ld>"
 - "-[CMBody _startUpdatingMotionManager:]"
 - "-[CMBody _stopUpdatingMotionManager:]"
-- "19:30:32"
 - "Assertion failed: !empty(), file /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/CoreMotionFramework/Oscar/CMVectorBuffer.h, line 139,front() on empty buffer."
 - "Assertion failed: !empty(), file /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/CoreMotionFramework/Oscar/CMVectorBuffer.h, line 145,back() on empty buffer."
 - "Assertion failed: !empty(), file /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/CoreMotionFramework/Oscar/CMVectorBuffer.h, line 161,maxElement() on empty buffer."
@@ -219,7 +188,6 @@ CStrings:
 - "Assertion failed: t >= 0 && t <= 1, file /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/CoreMotionFramework/Oscar/Math/CMOQuaternion.cpp, line 375,Invalid time t for slerp."
 - "Element &CMVectorBufferBase<float, 1>::operator[](const size_t) [T = float, N = 1]"
 - "Element &CMVectorBufferBase<float, 3>::operator[](const size_t) [T = float, N = 3]"
-- "Jul 11 2026"
 - "T &CMVector<float, 12>::operator[](const size_t) [T = float, N = 12]"
 - "T &CMVector<float, 4>::operator[](const size_t) [T = float, N = 4]"
 - "T &CMVector<float, 6>::operator[](const size_t) [T = float, N = 6]"

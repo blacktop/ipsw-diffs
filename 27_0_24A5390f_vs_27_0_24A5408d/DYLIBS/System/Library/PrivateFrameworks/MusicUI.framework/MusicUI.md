@@ -2,16 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/MusicUI.framework/MusicUI`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_mpenum`
-- `__DATA_CONST.__objc_catlist`
-- `__AUTH_CONST.__cfstring`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -4026.100.81.0.0

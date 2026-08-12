@@ -1,40 +1,40 @@
 ## iboot_blob35.bin
 
-- `BMSScratchpad: Performing migration from version 0x%04x to 0x%04x`
-- `BMSScratchpad: Failed to read BMSS region (rc=%d), zeroing scratchpad`
-- `BMSScratchpad: write_bmss_region called with null PMU`
-- `BMSScratchpad: Uninitialized, initializing with version 0x%04x`
-- `BMSScratchpad: Unsupported version 0x%04x`
-- `BMSScratchpad: Not initialized, call init() first`
-- `BMSScratchpad: Valid BMSS data found (version=0x%04x)`
-- `BMSScratchpad: Future version detected (0x%04x > 0x%04x), zeroing`
-- `inductiveCL: crx_tgt_pwr=%dmW, rampdown_pwr=%dmW (stepdown=%dmW), vrect_target=%dmV`
-- `rc_irq == RTK_ST_OK`
-- `LVR interrupt for unknown PTD region: 0x%08x`
-- `frc == RTK_ST_OK`
-- `BMSScratchpad: Migration successful (v0x%04x -> v0x%04x)`
-- `%s: %s:%d: %s, Unable to disable interrupt for pack %d, PTD 0x%08x: %d`
-- `ULTRA: allow_crx_switching=%u txVBoostMax=%u vBoostMaxReached=%u crx_power_target_limit=%u`
-- `BMSScratchpad: Failed to mirror key=%d to legacy region (rc=%d)`
-- `%s: wq full, drop:%d`
-- `BMSScratchpad: Checksum verification failed, zeroing scratchpad`
-- `BMSScratchpad: Migration failed, zeroing scratchpad`
-- `BMSScratchpad: Failed to write migrated data (rc=%d)`
-- `%s: upo_state=%d, clear_upo_on_connect=%d`
-- `BMSScratchpad: Unknown key for BMSS read`
-- `BMSScratchpad: Failed to write zeroed BMSS region (rc=%d)`
-- `ULTRA: hv_gate=%u 9W_time=%llu 7W_time=%llu`
-- `Failed to initialize LVR for pack %d: rc = %u`
-- `BMSScratchpad: read_bmss_region called with null PMU`
-- `Unable to enable interrupt for pack %d, PTD region 0x%08x: rc = %u`
-- `%s: %s:%d: %s, Unable to enable interrupt for pack %d, PTD 0x%08x: %d`
-- `BMSScratchpad: Old version detected (0x%04x), migrating to 0x%04x`
-- `BMSScratchpad: Unknown key for BMSS write`
-- `BMSScratchpad: Failed to read key=%d from legacy region (rc=%d)`
-- `BMSScratchpad: Read count (%u) exceeds field size (%u), truncating`
-- `Unable to set handler for pack %d, PTD region 0x%08x: rc = %u`
-- `BMSScratchpad: BMSS region supported (size=%u bytes)`
-- `BMSScratchpad: Write count (%u) exceeds field size (%u), truncating`
 - `BMSScratchpad: key=%d mismatch between BMSS and legacy regions`
-- `Unable to get data from AON PTD for pack %d, PTD 0x%08x: rc:%u`
+- `Failed to initialize LVR for pack %d: rc = %u`
+- `BMSScratchpad: Failed to write zeroed BMSS region (rc=%d)`
+- `BMSScratchpad: write_bmss_region called with null PMU`
+- `BMSScratchpad: Future version detected (0x%04x > 0x%04x), zeroing`
 - `BMSScratchpad: BMSS region not supported, using legacy mode`
+- `Unable to get data from AON PTD for pack %d, PTD 0x%08x: rc:%u`
+- `BMSScratchpad: Migration successful (v0x%04x -> v0x%04x)`
+- `inductiveCL: crx_tgt_pwr=%dmW, rampdown_pwr=%dmW (stepdown=%dmW), vrect_target=%dmV`
+- `%s: %s:%d: %s, Unable to disable interrupt for pack %d, PTD 0x%08x: %d`
+- `rc_irq == RTK_ST_OK`
+- `BMSScratchpad: Write count (%u) exceeds field size (%u), truncating`
+- `ULTRA: hv_gate=%u 9W_time=%llu 7W_time=%llu`
+- `BMSScratchpad: Checksum verification failed, zeroing scratchpad`
+- `BMSScratchpad: Unsupported version 0x%04x`
+- `BMSScratchpad: Unknown key for BMSS write`
+- `BMSScratchpad: BMSS region supported (size=%u bytes)`
+- `BMSScratchpad: Valid BMSS data found (version=0x%04x)`
+- `BMSScratchpad: Failed to write migrated data (rc=%d)`
+- `BMSScratchpad: Migration failed, zeroing scratchpad`
+- `BMSScratchpad: Uninitialized, initializing with version 0x%04x`
+- `LVR interrupt for unknown PTD region: 0x%08x`
+- `%s: %s:%d: %s, Unable to enable interrupt for pack %d, PTD 0x%08x: %d`
+- `frc == RTK_ST_OK`
+- `BMSScratchpad: read_bmss_region called with null PMU`
+- `BMSScratchpad: Failed to read key=%d from legacy region (rc=%d)`
+- `BMSScratchpad: Failed to read BMSS region (rc=%d), zeroing scratchpad`
+- `%s: wq full, drop:%d`
+- `BMSScratchpad: Failed to mirror key=%d to legacy region (rc=%d)`
+- `Unable to set handler for pack %d, PTD region 0x%08x: rc = %u`
+- `%s: upo_state=%d, clear_upo_on_connect=%d`
+- `ULTRA: allow_crx_switching=%u txVBoostMax=%u vBoostMaxReached=%u crx_power_target_limit=%u`
+- `BMSScratchpad: Not initialized, call init() first`
+- `BMSScratchpad: Unknown key for BMSS read`
+- `BMSScratchpad: Performing migration from version 0x%04x to 0x%04x`
+- `BMSScratchpad: Old version detected (0x%04x), migrating to 0x%04x`
+- `Unable to enable interrupt for pack %d, PTD region 0x%08x: rc = %u`
+- `BMSScratchpad: Read count (%u) exceeds field size (%u), truncating`

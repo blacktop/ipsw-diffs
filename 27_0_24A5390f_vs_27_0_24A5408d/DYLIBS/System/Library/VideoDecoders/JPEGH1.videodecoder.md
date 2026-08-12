@@ -2,12 +2,6 @@
 
 > `/System/Library/VideoDecoders/JPEGH1.videodecoder`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__unwind_info`
-- `__DATA_CONST.__const`
-- `__AUTH_CONST.__const`
-
 ```diff
 
 -3350.71.2.11.1

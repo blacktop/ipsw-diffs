@@ -2,43 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/Polaris.framework/Polaris`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__objc_methlist`
-- `__TEXT.__const`
-- `__TEXT.__swift5_typeref`
-- `__TEXT.__swift5_fieldmd`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_proto`
-- `__TEXT.__swift5_types`
-- `__TEXT.__swift5_capture`
-- `__TEXT.__swift5_mpenum`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__unwind_info`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__weak_got`
-- `__DATA_CONST.__objc_selrefs`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__objc_superrefs`
-- `__DATA_CONST.__objc_arraydata`
-- `__DATA_CONST.__got`
-- `__AUTH_CONST.__const`
-- `__AUTH_CONST.__cfstring`
-- `__AUTH_CONST.__objc_const`
-- `__AUTH_CONST.__weak_auth_got`
-- `__AUTH_CONST.__objc_intobj`
-- `__AUTH_CONST.__objc_arrayobj`
-- `__AUTH_CONST.__objc_dictobj`
-- `__AUTH.__objc_data`
-- `__AUTH.__data`
-- `__AUTH.__thread_vars`
-- `__DATA.__data`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -256.0.3.0.0
@@ -90,13 +53,9 @@
 -  Functions: 7539
 +  Functions: 7540
    Symbols:   9342
--  CStrings:  3681
-+  CStrings:  3682
+-  CStrings:  3680
++  CStrings:  3681
  
 CStrings:
-+ "08:51:35"
-+ "Aug  4 2026"
 + "Cannot restart deployments as we have already established a connection to polarisd"
-- "00:50:40"
-- "Jul 11 2026"
 ```

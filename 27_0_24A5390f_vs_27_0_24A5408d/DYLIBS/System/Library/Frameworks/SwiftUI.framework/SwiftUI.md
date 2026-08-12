@@ -5,17 +5,6 @@
 ### Sections with Same Size but Changed Content
 
 - `__TEXT.__swift5_reflstr`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_types2`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_superrefs`
-- `__DATA_CONST.__objc_arraydata`
-- `__AUTH_CONST.__cfstring`
-- `__AUTH_CONST.__lazy_load_got`
-- `__AUTH_CONST.__objc_dictobj`
-- `__AUTH.__objc_data`
-- `__DATA.__objc_stublist`
-- `__DATA_DIRTY.__common`
 
 ```diff
 

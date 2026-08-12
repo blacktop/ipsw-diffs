@@ -2,15 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/FontServices.framework/libGSFont.dylib`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__cstring`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_arraydata`
-- `__AUTH_CONST.__const`
-- `__AUTH_CONST.__cfstring`
-- `__AUTH_CONST.__objc_dictobj`
-
 ```diff
 
 -168.0.0.0.0

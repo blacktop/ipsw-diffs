@@ -2,19 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/UserProfilesCore.framework/UserProfilesCore`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__const`
-- `__TEXT.__swift5_typeref`
-- `__TEXT.__constg_swiftt`
-- `__TEXT.__swift5_proto`
-- `__TEXT.__eh_frame`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_protolist`
-- `__AUTH_CONST.__const`
-- `__AUTH.__data`
-- `__DATA.__data`
-
 ```diff
 
 -299.0.7.0.0

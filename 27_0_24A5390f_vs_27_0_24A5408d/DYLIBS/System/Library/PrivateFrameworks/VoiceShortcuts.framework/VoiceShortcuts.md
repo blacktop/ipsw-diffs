@@ -2,13 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/VoiceShortcuts.framework/VoiceShortcuts`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_mpenum`
-- `__AUTH_CONST.__objc_intobj`
-- `__AUTH_CONST.__objc_dictobj`
-
 ```diff
 
 -5034.0.12.100.0

@@ -2,22 +2,6 @@
 
 > `/System/Library/Frameworks/AVKit.framework/AVKit`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_mpenum`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__objc_superrefs`
-- `__AUTH_CONST.__objc_arrayobj`
-- `__AUTH_CONST.__objc_intobj`
-- `__AUTH_CONST.__objc_doubleobj`
-- `__DATA_DIRTY.__objc_data`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -1360.69.1.0.0

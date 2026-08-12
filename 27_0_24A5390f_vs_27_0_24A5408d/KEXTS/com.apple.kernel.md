@@ -2,23 +2,6 @@
 
 > `com.apple.kernel`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__copyio_vectors`
-- `__TEXT.__eh_frame`
-- `__DATA_CONST.__kalloc_type`
-- `__DATA_CONST.__kalloc_var`
-- `__DATA_CONST.__exclaves_bt`
-- `__DATA_CONST.__kern_brk_desc`
-- `__DATA_CONST.__mod_init_func`
-- `__DATA_CONST.__auth_ptr`
-- `__LASTDATA_CONST.__mod_init_func`
-- `__KLDDATA.__mod_init_func`
-- `__KLDDATA.__mod_term_func`
-- `__DATA.__data`
-- `__BOOTDATA.__init`
-- `__BOOTDATA.__static_ifinit`
-
 ```diff
 
 -13432.0.94.502.2

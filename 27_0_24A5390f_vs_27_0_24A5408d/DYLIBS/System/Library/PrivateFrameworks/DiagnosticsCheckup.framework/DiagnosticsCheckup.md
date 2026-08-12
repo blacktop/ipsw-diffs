@@ -2,11 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/DiagnosticsCheckup.framework/DiagnosticsCheckup`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_fieldmd`
-- `__AUTH.__data`
-
 ```diff
 
 -1374.0.27.0.0

@@ -2,20 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/AccessibilitySharedSupport.framework/AccessibilitySharedSupport`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_protos`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_superrefs`
-- `__DATA_CONST.__objc_arraydata`
-- `__AUTH_CONST.__objc_arrayobj`
-- `__AUTH_CONST.__objc_intobj`
-- `__AUTH_CONST.__objc_dictobj`
-- `__AUTH_CONST.__objc_floatobj`
-- `__DATA_DIRTY.__objc_data`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -584.0.0.0.0

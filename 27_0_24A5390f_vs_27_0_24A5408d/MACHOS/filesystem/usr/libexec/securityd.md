@@ -25,7 +25,6 @@
 - `__DATA_CONST.__objc_dictobj`
 - `__DATA_CONST.__objc_arrayobj`
 - `__DATA.__data`
-- `__DATA.__bss`
 
 ```diff
 

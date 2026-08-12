@@ -2,10 +2,6 @@
 
 > `/System/Library/Frameworks/CoreTelephony.framework/Support/CTParser.framework/XPCServices/CTParserService.xpc/CTParserService`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__cstring`
-
 ```diff
 
 -13482.1.0.0.0

@@ -2,19 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/DormancyCore.framework/DormancyCore`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__objc_methlist`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_capture`
-- `__TEXT.__swift5_mpenum`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_superrefs`
-- `__AUTH.__objc_data`
-
 ```diff
 
 -27.0.57.0.0

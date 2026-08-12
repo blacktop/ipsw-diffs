@@ -2,17 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/SwiftMedia.framework/SwiftMedia`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_mpenum`
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift_as_ret`
-- `__TEXT.__swift_as_cont`
-- `__TEXT.__swift5_protos`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_selrefs`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -60.67.1.0.0

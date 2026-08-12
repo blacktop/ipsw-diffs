@@ -2,24 +2,6 @@
 
 > `/System/Library/Frameworks/QuartzCore.framework/QuartzCore`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__objc_arraydata`
-- `__AUTH_CONST.__weak_auth_got`
-- `__AUTH_CONST.__objc_floatobj`
-- `__AUTH_CONST.__objc_doubleobj`
-- `__AUTH_CONST.__objc_intobj`
-- `__AUTH_CONST.__objc_dictobj`
-- `__AUTH_CONST.__objc_arrayobj`
-- `__AUTH_CONST.__auth_got`
-- `__AUTH.__data`
-- `__DATA.__data`
-- `__DATA_DIRTY.__objc_data`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -1223.0.8.2.0

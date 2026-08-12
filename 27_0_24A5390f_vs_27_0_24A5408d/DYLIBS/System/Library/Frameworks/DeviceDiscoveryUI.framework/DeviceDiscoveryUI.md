@@ -2,18 +2,6 @@
 
 > `/System/Library/Frameworks/DeviceDiscoveryUI.framework/DeviceDiscoveryUI`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_mpenum`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__objc_superrefs`
-- `__AUTH_CONST.__cfstring`
-- `__AUTH_CONST.__objc_intobj`
-
 ```diff
 
 -2126.10.4.0.0

@@ -2,16 +2,6 @@
 
 > `com.apple.driver.AppleT8150CLPC`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA_CONST.__mod_init_func`
-- `__DATA_CONST.__mod_term_func`
-- `__DATA_CONST.__kalloc_type`
-- `__DATA_CONST.__kalloc_var`
-- `__DATA_CONST.__auth_got`
-- `__DATA_CONST.__got`
-- `__DATA_CONST.__auth_ptr`
-
 ```diff
 
 -1794.0.24.0.0

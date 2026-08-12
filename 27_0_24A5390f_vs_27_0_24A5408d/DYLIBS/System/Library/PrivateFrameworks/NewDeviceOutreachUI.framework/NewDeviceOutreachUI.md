@@ -2,23 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/NewDeviceOutreachUI.framework/NewDeviceOutreachUI`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__objc_methlist`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_types`
-- `__TEXT.__swift5_mpenum`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_selrefs`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__objc_superrefs`
-- `__AUTH_CONST.__cfstring`
-- `__AUTH.__objc_data`
-- `__DATA_DIRTY.__objc_data`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -624.0.4.0.0

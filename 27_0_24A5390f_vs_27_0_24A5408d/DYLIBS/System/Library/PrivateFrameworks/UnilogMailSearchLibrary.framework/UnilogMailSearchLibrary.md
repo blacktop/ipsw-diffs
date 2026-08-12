@@ -2,12 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/UnilogMailSearchLibrary.framework/UnilogMailSearchLibrary`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_mpenum`
-- `__AUTH.__data`
-
 ```diff
 
 -2.0.9.0.0

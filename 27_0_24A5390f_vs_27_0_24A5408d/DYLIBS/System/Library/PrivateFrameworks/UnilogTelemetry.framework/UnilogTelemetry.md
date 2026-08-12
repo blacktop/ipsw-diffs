@@ -2,21 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/UnilogTelemetry.framework/UnilogTelemetry`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_proto`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_capture`
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift_as_ret`
-- `__TEXT.__swift_as_cont`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_selrefs`
-- `__AUTH.__objc_data`
-- `__AUTH.__data`
-
 ```diff
 
 -3600.13.1.0.0

@@ -2,11 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/SafariUsageRetentionFramework.framework/SafariUsageRetentionFramework`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_protos`
-- `__TEXT.__unwind_info`
-
 ```diff
 
 -6.0.6.0.0

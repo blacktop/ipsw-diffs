@@ -2,20 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/FrontBoard.framework/FrontBoard`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__const`
-- `__TEXT.__dlopen_cstrs`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__objc_arraydata`
-- `__AUTH_CONST.__const`
-- `__AUTH_CONST.__objc_intobj`
-- `__AUTH_CONST.__objc_arrayobj`
-- `__AUTH.__objc_data`
-- `__DATA.__data`
-
 ```diff
 
 -1150.0.0.0.0

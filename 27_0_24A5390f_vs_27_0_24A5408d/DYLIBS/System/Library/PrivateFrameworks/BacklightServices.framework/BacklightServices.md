@@ -2,19 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/BacklightServices.framework/BacklightServices`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__gcc_except_tab`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__weak_got`
-- `__DATA_CONST.__objc_protorefs`
-- `__AUTH_CONST.__const`
-- `__AUTH_CONST.__weak_auth_got`
-- `__DATA.__data`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -6.0.38.0.0

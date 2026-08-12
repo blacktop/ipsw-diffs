@@ -2,14 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/ScreenTimeSettingsFoundation.framework/ScreenTimeSettingsFoundation`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_mpenum`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA.__objc_stublist`
-
 ```diff
 
 -91.1.0.0.0

@@ -2,22 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/ManagedAppsCore.framework/ManagedAppsCore`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_capture`
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift_as_ret`
-- `__TEXT.__swift_as_cont`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_mpenum`
-- `__TEXT.__unwind_info`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__AUTH.__objc_data`
-
 ```diff
 
 -113.0.2.0.0

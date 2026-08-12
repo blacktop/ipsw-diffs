@@ -2,20 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/OnDeviceDaemon.framework/OnDeviceDaemon`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__objc_methlist`
-- `__TEXT.__swift5_fieldmd`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_proto`
-- `__TEXT.__swift5_types`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_selrefs`
-- `__DATA_CONST.__objc_protorefs`
-- `__AUTH_CONST.__const`
-
 ```diff
 
 -3.0.54.0.0

@@ -2,16 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/HybridSearchAdapter.framework/HybridSearchAdapter`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_mpenum`
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_protos`
-- `__DATA_CONST.__const`
-- `__AUTH_CONST.__cfstring`
-- `__AUTH.__objc_data`
-
 ```diff
 
 -62.1.0.0.0

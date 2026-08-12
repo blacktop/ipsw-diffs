@@ -2,21 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/AppIntentsIndex.framework/AppIntentsIndex`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__objc_methlist`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_proto`
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift_as_ret`
-- `__TEXT.__swift_as_cont`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__AUTH_CONST.__objc_const`
-
 ```diff
 
 -301.0.45.4.101

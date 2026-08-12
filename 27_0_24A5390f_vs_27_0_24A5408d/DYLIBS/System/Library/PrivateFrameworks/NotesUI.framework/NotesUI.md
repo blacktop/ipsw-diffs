@@ -2,35 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/NotesUI.framework/NotesUI`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__init_offsets`
-- `__TEXT.__constg_swiftt`
-- `__TEXT.__swift5_fieldmd`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_proto`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift_as_ret`
-- `__TEXT.__swift_as_cont`
-- `__TEXT.__swift5_mpenum`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_catlist2`
-- `__DATA_CONST.__weak_got`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__objc_superrefs`
-- `__DATA_CONST.__objc_arraydata`
-- `__AUTH_CONST.__weak_auth_got`
-- `__AUTH_CONST.__objc_arrayobj`
-- `__AUTH_CONST.__objc_intobj`
-- `__AUTH_CONST.__objc_doubleobj`
-- `__AUTH_CONST.__objc_dictobj`
-- `__AUTH.__objc_data`
-- `__DATA.__objc_stublist`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -2998.0.0.0.0

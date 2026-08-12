@@ -2,14 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/ClassroomKit.framework/ClassroomKit`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_arraydata`
-- `__AUTH_CONST.__objc_dictobj`
-- `__AUTH_CONST.__objc_arrayobj`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -142.0.0.0.0

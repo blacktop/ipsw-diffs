@@ -2,23 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/CoreMediaSwiftUpwardLinkingTrampoline.framework/CoreMediaSwiftUpwardLinkingTrampoline`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_typeref`
-- `__TEXT.__constg_swiftt`
-- `__TEXT.__swift5_fieldmd`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_proto`
-- `__TEXT.__swift5_protos`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__got`
-- `__AUTH.__objc_data`
-- `__AUTH.__data`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -3350.71.2.11.1

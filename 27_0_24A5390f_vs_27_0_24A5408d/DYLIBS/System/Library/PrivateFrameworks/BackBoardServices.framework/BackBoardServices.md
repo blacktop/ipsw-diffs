@@ -2,18 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/BackBoardServices.framework/BackBoardServices`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_arraydata`
-- `__DATA_CONST.__got`
-- `__AUTH_CONST.__objc_intobj`
-- `__AUTH_CONST.__objc_dictobj`
-- `__AUTH_CONST.__objc_arrayobj`
-- `__AUTH_CONST.__objc_floatobj`
-- `__AUTH.__objc_data`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -873.100.0.0.0

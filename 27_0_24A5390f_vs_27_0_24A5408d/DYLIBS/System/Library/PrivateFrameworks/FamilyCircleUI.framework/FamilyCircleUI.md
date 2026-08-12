@@ -2,21 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/FamilyCircleUI.framework/FamilyCircleUI`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_proto`
-- `__TEXT.__swift5_mpenum`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_superrefs`
-- `__DATA_CONST.__objc_arraydata`
-- `__AUTH_CONST.__cfstring`
-- `__AUTH_CONST.__objc_dictobj`
-- `__AUTH_CONST.__objc_intobj`
-- `__AUTH_CONST.__objc_doubleobj`
-- `__DATA.__data`
-- `__DATA.__objc_stublist`
-
 ```diff
 
 -285.0.0.0.0

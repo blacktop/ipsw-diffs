@@ -2,13 +2,6 @@
 
 > `/usr/lib/libARI.dylib`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA_CONST.__weak_got`
-- `__AUTH_CONST.__cfstring`
-- `__AUTH_CONST.__weak_auth_got`
-- `__AUTH.__data`
-
 ```diff
 
 -1638.0.0.0.0

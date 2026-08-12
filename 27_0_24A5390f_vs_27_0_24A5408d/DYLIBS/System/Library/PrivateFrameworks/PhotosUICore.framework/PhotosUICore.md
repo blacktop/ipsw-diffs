@@ -2,23 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/PhotosUICore.framework/PhotosUICore`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_mpenum`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__weak_got`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__vfx_script_tbl`
-- `__AUTH_CONST.__weak_auth_got`
-- `__AUTH_CONST.__objc_doubleobj`
-- `__AUTH_CONST.__objc_dictobj`
-- `__AUTH_CONST.__objc_intobj`
-- `__AUTH_CONST.__objc_arrayobj`
-- `__AUTH_CONST.__objc_floatobj`
-- `__DATA.__objc_stublist`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -910.33.102.0.0

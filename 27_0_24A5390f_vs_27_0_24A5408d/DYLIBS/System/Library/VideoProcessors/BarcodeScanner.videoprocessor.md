@@ -2,10 +2,6 @@
 
 > `/System/Library/VideoProcessors/BarcodeScanner.videoprocessor`
 
-### Sections with Same Size but Changed Content
-
-- `__AUTH_CONST.__const`
-
 ```diff
 
 -761.0.0.0.3

@@ -48,8 +48,8 @@
 -  Functions: 668
 +  Functions: 672
    Symbols:   341
--  CStrings:  3427
-+  CStrings:  3444
+-  CStrings:  3426
++  CStrings:  3443
  
 CStrings:
 + "%lld %d AVE %s: %s Enter %d %d %p %d %d %d %p"
@@ -74,7 +74,6 @@ CStrings:
 + "%lld %d AVE %s: %s:%d %s | wrong params, %d %p %d %d %d\n"
 + "%lld %d AVE %s: fail to send PS %p %p %d, dropping frame"
 + "%lld %d AVE %s: fail to send PS %p %p %d, dropping frame\n"
-+ "21:54:42"
 + "913.43.1"
 + "AVE_MCTFFnumChangeResetMCTF"
 + "AVE_MCTFGatingType"
@@ -87,7 +86,6 @@ CStrings:
 + "AVE_Prop_MCTF_GetMCTFPreFiltAdjType"
 + "AVE_Prop_MCTF_SetMCTFGatingType"
 + "AVE_Prop_MCTF_SetMCTFPreFiltAdjType"
-+ "Aug  5 2026"
 + "MCTFGatingType"
 + "MCTFGatingType = %d\n"
 + "MCTFPreFiltAdjType"
@@ -115,10 +113,8 @@ CStrings:
 - "%lld %d AVE %s: %s:%d %s | wrong params, %p %d %d %d %p\n"
 - "%lld %d AVE %s: %s::%s:%d %s | fail to send PS %p %p"
 - "%lld %d AVE %s: %s::%s:%d %s | fail to send PS %p %p\n"
-- "21:39:53"
 - "913.29.1"
 - "AVE_MCTF_GetGatingType"
 - "AVE_MCTF_GetPreFiltAdjType"
-- "Jul 14 2026"
 - "psData != __null && eDevType > AVE_DevType_None && eDevType < AVE_DevType_Max && eWorkMode > AVE_MCTF_WorkMode_None && eWorkMode < AVE_MCTF_WorkMode_Max && eLatencyMode > AVE_MCTF_Mode_Invalid && eLatencyMode < AVE_MCTF_Mode_Max"
 ```

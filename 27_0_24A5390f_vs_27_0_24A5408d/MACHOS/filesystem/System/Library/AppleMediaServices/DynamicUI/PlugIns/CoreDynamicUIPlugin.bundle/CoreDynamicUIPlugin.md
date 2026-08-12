@@ -16,7 +16,6 @@
 - `__DATA_CONST.__got`
 - `__DATA.__objc_const`
 - `__DATA.__objc_selrefs`
-- `__DATA.__common`
 
 ```diff
 

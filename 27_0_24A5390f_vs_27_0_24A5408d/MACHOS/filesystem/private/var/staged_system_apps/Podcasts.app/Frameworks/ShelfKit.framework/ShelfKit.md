@@ -16,7 +16,6 @@
 - `__DATA_CONST.__objc_protorefs`
 - `__DATA_CONST.__objc_superrefs`
 - `__DATA_CONST.__objc_intobj`
-- `__DATA.__common`
 
 ```diff
 

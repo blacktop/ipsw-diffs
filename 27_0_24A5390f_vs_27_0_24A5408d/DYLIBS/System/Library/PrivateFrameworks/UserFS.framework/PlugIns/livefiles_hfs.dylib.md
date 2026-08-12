@@ -2,14 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/UserFS.framework/PlugIns/livefiles_hfs.dylib`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__const`
-- `__TEXT.__unwind_info`
-- `__DATA_CONST.__weak_got`
-- `__AUTH.__data`
-- `__DATA.__data`
-
 ```diff
 
 -750.0.0.0.0

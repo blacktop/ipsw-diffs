@@ -2,28 +2,6 @@
 
 > `/System/Library/Frameworks/Security.framework/Security`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__dof_codesign`
-- `__TEXT.__dof_security_`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__weak_got`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__objc_superrefs`
-- `__DATA_CONST.__objc_arraydata`
-- `__DATA_CONST.__got`
-- `__AUTH_CONST.__weak_auth_got`
-- `__AUTH_CONST.__lazy_load_got`
-- `__AUTH_CONST.__objc_arrayobj`
-- `__AUTH_CONST.__objc_intobj`
-- `__AUTH_CONST.__objc_dictobj`
-- `__AUTH.__objc_data`
-- `__AUTH.__data`
-- `__DATA.__data`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -62460.0.55.0.1

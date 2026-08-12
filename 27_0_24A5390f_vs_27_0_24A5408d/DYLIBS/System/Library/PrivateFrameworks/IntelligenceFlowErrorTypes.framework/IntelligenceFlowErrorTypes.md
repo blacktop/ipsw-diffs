@@ -2,15 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/IntelligenceFlowErrorTypes.framework/IntelligenceFlowErrorTypes`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_capture`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_selrefs`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -3600.151.4.501.6

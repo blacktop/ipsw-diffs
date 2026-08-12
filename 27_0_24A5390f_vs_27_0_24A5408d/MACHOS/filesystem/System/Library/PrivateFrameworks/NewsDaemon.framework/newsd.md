@@ -4,7 +4,6 @@
 
 ### Sections with Same Size but Changed Content
 
-- `__TEXT.__cstring`
 - `__TEXT.__swift5_fieldmd`
 - `__TEXT.__constg_swiftt`
 - `__TEXT.__swift5_builtin`
@@ -23,8 +22,6 @@
 - `__DATA_CONST.__objc_superrefs`
 - `__DATA_CONST.__objc_arrayobj`
 - `__DATA.__objc_data`
-- `__DATA.__bss`
-- `__DATA.__common`
 
 ```diff
 

@@ -2,19 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/AssistantActionSuggestionSupport.framework/AssistantActionSuggestionSupport`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__objc_methlist`
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_mpenum`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_selrefs`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA.__data`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -667.0.0.0.0

@@ -2,17 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/AppPrivateData.framework/AppPrivateData`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__objc_methlist`
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_mpenum`
-- `__TEXT.__swift5_proto`
-- `__TEXT.__swift_as_entry`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_classlist`
-
 ```diff
 
 -3.0.0.0.0

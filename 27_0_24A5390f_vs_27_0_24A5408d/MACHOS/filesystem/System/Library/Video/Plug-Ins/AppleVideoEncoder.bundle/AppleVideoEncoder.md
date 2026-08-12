@@ -48,10 +48,10 @@
    - /usr/lib/libobjc.A.dylib
 -  Functions: 1968
 -  Symbols:   496
--  CStrings:  7520
+-  CStrings:  7515
 +  Functions: 1637
 +  Symbols:   494
-+  CStrings:  7093
++  CStrings:  7090
  
 Symbols:
 - _AVE_Plugin_AV1_CreateInstance
@@ -81,9 +81,6 @@ CStrings:
 + "%lld %d AVE %s: %s:%d %s | wrong params, %d %p %d %d %d\n"
 + "%lld %d AVE %s: fail to send PS %p %p %d, dropping frame"
 + "%lld %d AVE %s: fail to send PS %p %p %d, dropping frame\n"
-+ "21:54:13"
-+ "21:54:14"
-+ "21:54:15"
 + "913.43.1"
 + "AVE_MCTFFnumChangeResetMCTF"
 + "AVE_MCTFGatingType"
@@ -100,7 +97,6 @@ CStrings:
 + "AVE_Prop_HEVC_GetMCTFPreFiltAdjType"
 + "AVE_Prop_HEVC_SetMCTFGatingType"
 + "AVE_Prop_HEVC_SetMCTFPreFiltAdjType"
-+ "Aug  5 2026"
 + "MCTFGatingType"
 + "MCTFGatingType = %d\n"
 + "MCTFPreFiltAdjType"
@@ -211,11 +207,6 @@ CStrings:
 - "%lld %d AVE %s: FIG: crop bottom %d right %d\n"
 - "(0) <= iMaxQP && iMaxQP <= (255)"
 - "(0) <= iMinQP && iMinQP <= (255)"
-- "21:39:16"
-- "21:39:18"
-- "21:39:19"
-- "21:39:20"
-- "21:39:21"
 - "913.29.1"
 - "AV1_Main_2_0"
 - "AV1_Main_2_1"
@@ -575,7 +566,6 @@ CStrings:
 - "AVE_Session_AV1_StartSession"
 - "AVE_Session_AV1_StartTileSession"
 - "AVE_Session_AV1_Stop"
-- "Jul 14 2026"
 - "Professional"
 - "TileLayout"
 - "TileLayoutNumberOfColumns"

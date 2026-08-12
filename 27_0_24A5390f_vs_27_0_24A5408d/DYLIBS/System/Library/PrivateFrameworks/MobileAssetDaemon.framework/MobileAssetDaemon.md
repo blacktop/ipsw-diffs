@@ -2,20 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/MobileAssetDaemon.framework/MobileAssetDaemon`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__constg_swiftt`
-- `__TEXT.__swift5_typeref`
-- `__TEXT.__swift5_proto`
-- `__TEXT.__eh_frame`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_protorefs`
-- `__AUTH_CONST.__objc_intobj`
-- `__AUTH_CONST.__objc_dictobj`
-- `__AUTH.__data`
-- `__DATA_DIRTY.__objc_data`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -2215.0.16.0.0

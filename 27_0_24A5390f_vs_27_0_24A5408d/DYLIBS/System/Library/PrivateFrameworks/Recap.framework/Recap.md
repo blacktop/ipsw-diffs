@@ -2,19 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/Recap.framework/Recap`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_superrefs`
-- `__DATA_CONST.__got`
-- `__AUTH_CONST.__objc_arrayobj`
-- `__AUTH.__objc_data`
-- `__DATA.__data`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -198.0.0.0.0
@@ -72,10 +59,10 @@
    - /usr/lib/libobjc.A.dylib
 -  Functions: 1026
 -  Symbols:   2849
--  CStrings:  396
+-  CStrings:  395
 +  Functions: 1033
 +  Symbols:   2862
-+  CStrings:  397
++  CStrings:  396
  
 Symbols:
 + +[RCPEventSenderProperties genericPencilGestureSender]
@@ -92,11 +79,7 @@ Symbols:
 + _objc_msgSend$setPlaybackOptions:
 + _objc_msgSend$wantsDisplayUUID
 CStrings:
-+ "09:36:05"
-+ "Aug  4 2026"
 + "B"
 + "pencilGesture"
-- "03:28:05"
 - "A"
-- "Jul  8 2026"
 ```

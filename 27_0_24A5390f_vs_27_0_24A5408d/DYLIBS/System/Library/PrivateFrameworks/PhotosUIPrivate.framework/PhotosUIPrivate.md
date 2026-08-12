@@ -2,21 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/PhotosUIPrivate.framework/PhotosUIPrivate`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_proto`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_mpenum`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_catlist2`
-- `__DATA_CONST.__objc_superrefs`
-- `__DATA_CONST.__vfx_script_tbl`
-- `__AUTH_CONST.__objc_arrayobj`
-- `__AUTH_CONST.__objc_dictobj`
-- `__AUTH_CONST.__objc_doubleobj`
-- `__DATA.__objc_stublist`
-
 ```diff
 
 -910.33.102.0.0

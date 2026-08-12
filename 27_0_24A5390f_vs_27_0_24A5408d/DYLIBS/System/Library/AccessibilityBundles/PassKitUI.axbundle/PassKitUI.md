@@ -2,16 +2,6 @@
 
 > `/System/Library/AccessibilityBundles/PassKitUI.axbundle/PassKitUI`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__AUTH_CONST.__const`
-- `__AUTH_CONST.__objc_intobj`
-- `__DATA.__data`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -3045.0.0.0.0

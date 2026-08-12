@@ -2,28 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/RemoteUI.framework/RemoteUI`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift_as_ret`
-- `__TEXT.__swift_as_cont`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_mpenum`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_superrefs`
-- `__DATA_CONST.__objc_arraydata`
-- `__AUTH_CONST.__cfstring`
-- `__AUTH_CONST.__objc_floatobj`
-- `__AUTH_CONST.__objc_intobj`
-- `__AUTH_CONST.__objc_dictobj`
-- `__AUTH_CONST.__objc_arrayobj`
-- `__AUTH_CONST.__objc_doubleobj`
-- `__DATA.__objc_ivar`
-- `__DATA.__objc_stublist`
-- `__DATA_DIRTY.__objc_data`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -635.0.0.0.0

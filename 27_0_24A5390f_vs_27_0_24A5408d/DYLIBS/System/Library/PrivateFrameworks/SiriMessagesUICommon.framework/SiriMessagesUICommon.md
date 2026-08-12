@@ -2,20 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/SiriMessagesUICommon.framework/SiriMessagesUICommon`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_proto`
-- `__TEXT.__swift5_capture`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_mpenum`
-- `__DATA_CONST.__objc_classlist`
-- `__AUTH_CONST.__objc_const`
-- `__AUTH.__objc_data`
-- `__DATA_DIRTY.__objc_data`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -3600.47.13.0.0

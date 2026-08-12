@@ -2,16 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/PrivateCloudComputeDaemon.framework/PrivateCloudComputeDaemon`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__objc_methlist`
-- `__TEXT.__swift_as_cont`
-- `__TEXT.__swift5_mpenum`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_selrefs`
-- `__AUTH.__objc_data`
-- `__AUTH.__data`
-
 ```diff
 
 -2570.0.25.502.2

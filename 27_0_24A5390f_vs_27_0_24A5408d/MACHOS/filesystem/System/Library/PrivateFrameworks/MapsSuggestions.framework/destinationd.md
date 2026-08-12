@@ -74,8 +74,8 @@
 -  Functions: 1298
 +  Functions: 1299
    Symbols:   591
--  CStrings:  2261
-+  CStrings:  2263
+-  CStrings:  2260
++  CStrings:  2262
  
 Functions:
 ~ sub_100010644 : 300 -> 332
@@ -85,10 +85,6 @@ Functions:
 + sub_10002f118
 - sub_10002f120
 CStrings:
-+ "16:36:05"
-+ "Aug  4 2026"
 + "_connectionInvalidated"
 + "connectionWasInvalidatedExternally"
-- "23:35:49"
-- "Jul 13 2026"
 ```

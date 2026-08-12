@@ -2,10 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/ANEClientSignals.framework/ANEClientSignals`
 
-### Sections with Same Size but Changed Content
-
-- `__AUTH_CONST.__cfstring`
-
 ```diff
 
 -10.16.2.0.0

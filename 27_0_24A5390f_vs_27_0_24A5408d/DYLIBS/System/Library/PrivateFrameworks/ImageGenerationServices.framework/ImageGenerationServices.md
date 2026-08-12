@@ -2,15 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/ImageGenerationServices.framework/ImageGenerationServices`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__gcc_except_tab`
-- `__TEXT.__swift5_protos`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__weak_got`
-- `__AUTH_CONST.__weak_auth_got`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -194.1.0.0.0

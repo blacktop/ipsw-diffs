@@ -2,30 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/ContainerManagerCommon.framework/ContainerManagerCommon`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_typeref`
-- `__TEXT.__constg_swiftt`
-- `__TEXT.__swift5_fieldmd`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_proto`
-- `__TEXT.__swift5_mpenum`
-- `__TEXT.__swift5_capture`
-- `__TEXT.__eh_frame`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__objc_arraydata`
-- `__DATA_CONST.__got`
-- `__AUTH_CONST.__const`
-- `__AUTH_CONST.__objc_dictobj`
-- `__AUTH_CONST.__objc_arrayobj`
-- `__AUTH.__objc_data`
-- `__AUTH.__data`
-- `__DATA.__data`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -833.0.3.0.0
@@ -101,10 +77,10 @@
    - /usr/lib/swift/libswiftos.dylib
 -  Functions: 3653
 -  Symbols:   8474
--  CStrings:  2012
+-  CStrings:  2011
 +  Functions: 3659
 +  Symbols:   8476
-+  CStrings:  2024
++  CStrings:  2023
  
 Symbols:
 + -[MCMClientIdentity _descriptionRedacting:]
@@ -327,10 +303,8 @@ Symbols:
 - _objc_msgSend$initWithDescriber:
 CStrings:
 + "-[MCMFileManager addExclusionFromBackupToURL:error:]_block_invoke"
-+ "22:29:48"
 + "Ambiguous persona with identifier: [🔒%{private}s]"
 + "Attempt to create a container identity without a user identity when one is required; identifier = [🔒%{private}@], class = %{public}@"
-+ "Aug  3 2026"
 + "Completed Performing Exclude From Backup Migration [%@] on %@; success = %d"
 + "Exclude from backup identifiers malformed"
 + "ExcludePSCFromBackup"
@@ -382,7 +356,6 @@ CStrings:
 + "excludeFromBackupIdentifiers"
 + "nil path when trying to add backup exclusion"
 + "open(O_NOFOLLOW) of %s for chown failed: %s"
-- "02:13:54"
 - "<%@: %p; UID = %u, primaryGID = %u, name = [%@], homeDirectoryURL = [%@]>"
 - "<cm-redacted>"
 - "@\"NSString\"12@?0B8"
@@ -393,7 +366,6 @@ CStrings:
 - "Failed to invalidate code signing info for %@ : %@"
 - "Invalid app group identifier [%{public}@]"
 - "Invalid size (%lld) from dirstats on %{public}s using fallback: (err %d) %s"
-- "Jul  8 2026"
 - "MobileContainerManager-833.0.3~136"
 - "POSIX permission [%{public}@] value is not in a recognizable format; expected = POSIX mode bit string, got = %{public}@, errno = %{darwin.errno}d"
 - "Read [%{public}@], length = %{public}lu, options = 0x%{public}lx"

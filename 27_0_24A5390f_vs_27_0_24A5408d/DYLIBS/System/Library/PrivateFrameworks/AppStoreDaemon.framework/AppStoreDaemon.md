@@ -2,21 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/AppStoreDaemon.framework/AppStoreDaemon`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__gcc_except_tab`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__objc_superrefs`
-- `__DATA_CONST.__objc_arraydata`
-- `__AUTH_CONST.__objc_intobj`
-- `__AUTH_CONST.__objc_dictobj`
-- `__AUTH_CONST.__objc_arrayobj`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -13.0.43.0.0

@@ -2,22 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/MagnifierServices.framework/MagnifierServices`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__constg_swiftt`
-- `__TEXT.__swift5_fieldmd`
-- `__TEXT.__swift5_types`
-- `__TEXT.__swift5_proto`
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift_as_ret`
-- `__TEXT.__swift_as_cont`
-- `__TEXT.__swift5_assocty`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__AUTH.__objc_data`
-- `__AUTH.__data`
-
 ```diff
 
 -283.0.0.0.0

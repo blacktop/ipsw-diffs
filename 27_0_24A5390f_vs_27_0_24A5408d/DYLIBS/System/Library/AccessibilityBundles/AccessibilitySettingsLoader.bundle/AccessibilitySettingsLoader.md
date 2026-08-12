@@ -2,15 +2,6 @@
 
 > `/System/Library/AccessibilityBundles/AccessibilitySettingsLoader.bundle/AccessibilitySettingsLoader`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__objc_arraydata`
-- `__AUTH_CONST.__objc_arrayobj`
-- `__AUTH.__objc_data`
-- `__DATA.__data`
-
 ```diff
 
 -3237.1.0.0.0

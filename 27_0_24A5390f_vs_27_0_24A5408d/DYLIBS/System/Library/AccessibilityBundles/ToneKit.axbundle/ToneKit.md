@@ -2,11 +2,6 @@
 
 > `/System/Library/AccessibilityBundles/ToneKit.axbundle/ToneKit`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__unwind_info`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -3045.0.0.0.0

@@ -2,18 +2,6 @@
 
 > `com.apple.filesystems.apfs`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA.__data`
-- `__DATA_CONST.__mod_init_func`
-- `__DATA_CONST.__mod_term_func`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__kalloc_type`
-- `__DATA_CONST.__kalloc_var`
-- `__DATA_CONST.__assert`
-- `__DATA_CONST.__got`
-- `__DATA_CONST.__auth_ptr`
-
 ```diff
 
 -3283.0.13.0.0
@@ -39,8 +27,8 @@
 -  Functions: 2400
 +  Functions: 2396
    Symbols:   0
--  CStrings:  6952
-+  CStrings:  6954
+-  CStrings:  6951
++  CStrings:  6952
  
 CStrings:
 + "%s:%d: %s (dstream_id %lld, flags %x) made %u evictions retries number of blocks to evict %llu, number of evicted blocks till now %llu\n"
@@ -58,10 +46,7 @@ CStrings:
 + "%s:%d: %s ubc_create_upl failed for ino %llu @ [%lld, %lld)\n"
 + "%s:%d: %s zero-fill bitmap alloc failed for ino %llu, pages %u\n"
 + "2026/08/05"
-+ "21:46:35"
-+ "21:46:36"
 + "3288.2.1"
-+ "Aug  5 2026"
 + "apfs-3288.2.1"
 + "apfs_zerofill_chunk_cb"
 + "apfs_zerofill_unwritten_range"
@@ -84,9 +69,7 @@ CStrings:
 - "%s:%d: %s nx_panic_on_cp_corruption set to false\n"
 - "%s:%d: %s preallocated range %llu+%zu is not covered by UNWRITTEN fexts, error %d\n"
 - "2026/07/14"
-- "21:11:49"
 - "3283.0.13"
-- "Jul 14 2026"
 - "apfs-3283.0.13"
 - "check_snap_meta_devt"
 - "decrement_dstream_id_for_deletion"

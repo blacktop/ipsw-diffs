@@ -2,15 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/_GeoServices_GeoToolbox.framework/_GeoServices_GeoToolbox`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__const`
-- `__TEXT.__swift5_typeref`
-- `__TEXT.__constg_swiftt`
-- `__TEXT.__swift5_proto`
-- `__TEXT.__unwind_info`
-- `__AUTH_CONST.__const`
-
 ```diff
 
 -34.30.6.12.9

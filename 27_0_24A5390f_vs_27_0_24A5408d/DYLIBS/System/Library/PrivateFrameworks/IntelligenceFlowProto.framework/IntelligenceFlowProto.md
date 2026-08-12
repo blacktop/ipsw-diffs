@@ -2,10 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/IntelligenceFlowProto.framework/IntelligenceFlowProto`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -3600.151.4.501.6

@@ -2,17 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/QueryUnderstanding.framework/QueryUnderstanding`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__weak_got`
-- `__DATA_CONST.__objc_arraydata`
-- `__AUTH_CONST.__weak_auth_got`
-- `__AUTH_CONST.__objc_arrayobj`
-- `__AUTH_CONST.__objc_intobj`
-- `__DATA.__data`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -3600.31.18.0.0

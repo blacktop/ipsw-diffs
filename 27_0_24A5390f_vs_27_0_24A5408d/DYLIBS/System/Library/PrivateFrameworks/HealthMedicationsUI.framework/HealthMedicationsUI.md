@@ -2,22 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/HealthMedicationsUI.framework/HealthMedicationsUI`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_mpenum`
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift_as_ret`
-- `__TEXT.__swift_as_cont`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_catlist2`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA.__objc_stublist`
-- `__DATA_DIRTY.__objc_data`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -7027.0.67.2.1

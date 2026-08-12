@@ -2,20 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift_as_ret`
-- `__TEXT.__swift_as_cont`
-- `__TEXT.__swift5_protos`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__AUTH_CONST.__const`
-- `__AUTH_CONST.__objc_dictobj`
-- `__AUTH_CONST.__objc_doubleobj`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -3237.1.0.0.0

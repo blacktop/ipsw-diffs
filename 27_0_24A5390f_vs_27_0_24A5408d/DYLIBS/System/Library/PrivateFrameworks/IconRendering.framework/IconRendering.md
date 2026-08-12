@@ -2,16 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/IconRendering.framework/IconRendering`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift_as_ret`
-- `__TEXT.__swift_as_cont`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_catlist`
-
 ```diff
 
 -116.0.0.0.0

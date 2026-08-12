@@ -6,7 +6,6 @@
 
 - `__TEXT.__objc_methlist`
 - `__TEXT.__const`
-- `__TEXT.__cstring`
 - `__TEXT.__gcc_except_tab`
 - `__TEXT.__swift5_typeref`
 - `__TEXT.__constg_swiftt`
@@ -24,8 +23,6 @@
 - `__DATA.__objc_selrefs`
 - `__DATA.__objc_data`
 - `__DATA.__data`
-- `__DATA.__bss`
-- `__DATA.__common`
 
 ```diff
 

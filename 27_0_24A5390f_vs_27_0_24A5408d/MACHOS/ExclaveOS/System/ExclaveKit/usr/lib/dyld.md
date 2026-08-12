@@ -9,7 +9,6 @@
 - `__AUTH_CONST.__const`
 - `__AUTH.__data`
 - `__DATA.__data`
-- `__DATA.__bss`
 - `__DATA_DIRTY.__all_image_info`
 
 ```diff

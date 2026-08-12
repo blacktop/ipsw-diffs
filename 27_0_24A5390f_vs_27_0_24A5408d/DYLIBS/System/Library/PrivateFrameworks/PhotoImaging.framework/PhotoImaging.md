@@ -2,31 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/PhotoImaging.framework/PhotoImaging`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__constg_swiftt`
-- `__TEXT.__swift5_reflstr`
-- `__TEXT.__swift5_fieldmd`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_mpenum`
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_proto`
-- `__TEXT.__swift5_types`
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift_as_ret`
-- `__TEXT.__swift_as_cont`
-- `__TEXT.__eh_frame`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__weak_got`
-- `__DATA_CONST.__objc_protorefs`
-- `__AUTH_CONST.__weak_auth_got`
-- `__AUTH_CONST.__objc_intobj`
-- `__AUTH_CONST.__objc_doubleobj`
-- `__AUTH_CONST.__objc_arrayobj`
-- `__AUTH_CONST.__objc_floatobj`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -910.33.102.0.0

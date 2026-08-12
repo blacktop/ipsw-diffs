@@ -128,10 +128,10 @@
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 32383
 -  Symbols:   2951
--  CStrings:  33048
+-  CStrings:  33047
 +  Functions: 32460
 +  Symbols:   2962
-+  CStrings:  33252
++  CStrings:  33251
  
 Symbols:
 + _IDSMessageContextLocalTraceIdentifierKey
@@ -151,7 +151,6 @@ CStrings:
 + "%s: %{bool}d"
 + "%s: Local delivery complete for materialID=%s, gc=%u"
 + "-[IDSDAccount(Registration) _unregisterAccount:]"
-+ "09:44:29"
 + "<eja-redacted>"
 + "@\"IDSEnhancedJunkAnalysisController\""
 + "@\"IDSSOSLogger\""
@@ -161,7 +160,6 @@ CStrings:
 + "Adding vetted alias to aliases dictionary: %@ {service: %@, uniqueID: %@, addToCurrentHandlesIfNeeded: %{BOOL}d, forceAdd: %{BOOL}d, status: %ld}"
 + "Apple detected a message from a sender who may be trying to harm your iPhone or compromise your privacy. The most important step you can take to protect yourself and others from similar attacks is to share the message with Apple.\n\nSender: %@"
 + "Are you sure you don't want to share the message with Apple?"
-+ "Aug  4 2026"
 + "Cached decision %@ for sender %@"
 + "Captured pending guid %@ (sender=%@, topic=%@, hasPlaintext=%@)"
 + "Deferring sentinel repair until account is authenticated {status: %d, account: %@}"
@@ -397,7 +395,6 @@ CStrings:
 - " => Auto adding vetted emails: %@ to URI set"
 - "%s: Local delivery complete for materialID=%s"
 - "-[IDSDAccount(Registration) _unregisterAccount]"
-- "22:11:10"
 - "Adding sentinel alias to existing account for repair {uniqueIdentifier: %@, account: %@}"
 - "Adding vetted alias to aliases dictionary: %@"
 - "Finished acks for GUID %@ success: %@ error: %@"
@@ -413,7 +410,6 @@ CStrings:
 - "GUID %{public}s finished token filtering"
 - "IDSGroupEncryptionControllerGroup[group=%s].receiveLocalMKM: SUCCESS - material %s for participant %s delivered to session"
 - "INCOMING-APS_DELIVERY:%@ SERVICE:%@"
-- "Jul 14 2026"
 - "Not re-selecting user-disabled alias on vetted refresh {alias: %@, reason: %ld}"
 - "OUTGOING-LOCAL_SEND:%@ SERVICE:%@"
 - "OUTGOING-PUSH_FULLY_SENT:%@ SERVICE:%@"

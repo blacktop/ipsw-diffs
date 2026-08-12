@@ -2,24 +2,6 @@
 
 > `/System/Library/Frameworks/VideoToolbox.framework/VideoToolbox`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_typeref`
-- `__TEXT.__constg_swiftt`
-- `__TEXT.__swift5_proto`
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift_as_ret`
-- `__TEXT.__swift_as_cont`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_selrefs`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__objc_superrefs`
-- `__AUTH_CONST.__objc_intobj`
-- `__AUTH.__objc_data`
-- `__AUTH.__data`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -3350.71.2.11.1

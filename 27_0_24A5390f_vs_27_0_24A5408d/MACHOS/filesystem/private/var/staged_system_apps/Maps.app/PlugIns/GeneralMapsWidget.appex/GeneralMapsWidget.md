@@ -22,7 +22,6 @@
 - `__DATA.__objc_selrefs`
 - `__DATA.__objc_data`
 - `__DATA.__data`
-- `__DATA.__bss`
 
 ```diff
 

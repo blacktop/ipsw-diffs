@@ -2,21 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/WorkflowEditor.framework/WorkflowEditor`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_builtin`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__objc_superrefs`
-- `__DATA_CONST.__objc_arraydata`
-- `__AUTH_CONST.__objc_intobj`
-- `__AUTH_CONST.__objc_arrayobj`
-- `__AUTH_CONST.__objc_dictobj`
-- `__AUTH_CONST.__objc_floatobj`
-- `__DATA.__objc_stublist`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -5034.0.12.100.0

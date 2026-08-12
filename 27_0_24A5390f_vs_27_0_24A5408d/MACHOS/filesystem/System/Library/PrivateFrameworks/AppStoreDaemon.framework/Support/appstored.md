@@ -18,8 +18,6 @@
 - `__DATA_CONST.__objc_arrayobj`
 - `__DATA_CONST.__objc_dictobj`
 - `__DATA_CONST.__auth_ptr`
-- `__DATA.__bss`
-- `__DATA.__common`
 
 ```diff
 
@@ -117,10 +115,10 @@
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 13610
 -  Symbols:   2261
--  CStrings:  14893
+-  CStrings:  14892
 +  Functions: 13635
 +  Symbols:   2262
-+  CStrings:  14937
++  CStrings:  14936
  
 Symbols:
 + _LSDefaultApplicationManagementDomain
@@ -134,8 +132,6 @@ Symbols:
 - _property_getName
 CStrings:
 + "/var/mobile/Media/iTunes_Control/iTunes/ShowWarranty"
-+ "16:21:06"
-+ "Aug  4 2026"
 + "CREATE TABLE IF NOT EXISTS app_install (pid INTEGER, account_id INTEGER, apple_id TEXT, arcade INTEGER NOT NULL DEFAULT 0, alt_dsid TEXT, alternate_icon_name TEXT, artwork_url URL, auto_install_override INTEGER NOT NULL DEFAULT 0, automatic_type INTEGER NOT NULL DEFAULT 0, bundle_directory_name TEXT, bundle_id TEXT, bundle_name TEXT, bundle_url URL, bundle_version TEXT, bootstrapped INTEGER NOT NULL DEFAULT 2, cancel_download_url URL, cancel_if_duplicate INTEGER NOT NULL DEFAULT 0, companion_bundle_id TEXT, check_store_queue_reason INTEGER NOT NULL DEFAULT 0, client_id TEXT, client_type INTEGER NOT NULL DEFAULT 0, coordinator_id UUID, coordinator_intent INTEGER NOT NULL DEFAULT 1, default_browser INTEGER NOT NULL DEFAULT 0, delta_error BLOB, device_based_vpp INTEGER, downloader_id INTEGER, download_path TEXT, external_id UUID, external_order INTEGER, evid INTEGER, extension_placeholder_data BLOB, failure_error BLOB, gizmo_pairing_id UUID, has_background_assets_extension INTEGER NOT NULL DEFAULT 0, has_messages_extension INTEGER NOT NULL DEFAULT 0, install_finished_timestamp DATETIME, install_options INTEGER NOT NULL DEFAULT 0, install_verification_token TEXT, install_volume TEXT, item_id INTEGER, last_start_date DATETIME, launch_prohibited INTEGER NOT NULL DEFAULT 0, log_code TEXT, messages_artwork_url URL, metrics_fields JSON, one_shot_bootstrap INTEGER NOT NULL DEFAULT 0, optimal_download_duration INTEGER, optimal_download_start INTEGER, metrics_install_type INTEGER NOT NULL DEFAULT 0, order_index INTEGER, persona_identifier TEXT, phase INTEGER NOT NULL DEFAULT 10, policy JSON, placeholder_entitlements BLOB, placeholder_path TEXT, post_processing_state INTEGER NOT NULL DEFAULT 0, preorder INTEGER NOT NULL DEFAULT 0, previous_galette_mode INTEGER, priority INTEGER NOT NULL DEFAULT 0, quarantine INTEGER NOT NULL DEFAULT 0, receipt BLOB, recovery_count INTEGER NOT NULL DEFAULT 0, redownload INTEGER NOT NULL DEFAULT 0, remote_install INTEGER NOT NULL DEFAULT 0, requires_rosetta INTEGER NOT NULL DEFAULT 0, restore_state INTEGER NOT NULL DEFAULT 0, restore_retry_count INTEGER NOT NULL DEFAULT 0, restore_type INTEGER NOT NULL DEFAULT 0, runs_on_apple_silicon INTEGER NOT NULL DEFAULT 1, runs_on_intel INTEGER NOT NULL DEFAULT 1,software_platform INTEGER NOT NULL DEFAULT 0, source_type INTEGER NOT NULL DEFAULT 0, storefront TEXT, store_cohort TEXT, store_metadata BLOB, supports_32bit_only INTEGER NOT NULL DEFAULT 0, supress_dialogs INTEGER NOT NULL DEFAULT 0, switch_distributor INTEGER NOT NULL DEFAULT 0, timestamp DATETIME DEFAULT (timestamp()), transaction_id TEXT, tv_provider INTEGER NOT NULL DEFAULT 0, update_type INTEGER NOT NULL DEFAULT 0, vid UUID, vendor_name TEXT, watch_type INTEGER NOT NULL DEFAULT 0, PRIMARY KEY(pid));"
 + "Checking to see if dynamically-scheduled activities need scheduling"
 + "Daily scheduled check"
@@ -222,14 +218,12 @@ CStrings:
 + "v40@0:8@\"NSData\"16@\"NSString\"24@?<v@?@\"NSArray\"@\"NSError\">32"
 + "v40@0:8@\"NSData\"16@\"NSUUID\"24@?<v@?@\"NSArray\"@\"NSError\">32"
 - "%{public}@ Query for remote app library failed for %{public}@: %{public}@ error: %{public}@"
-- "05:44:34"
 - "CREATE TABLE IF NOT EXISTS app_install (pid INTEGER, account_id INTEGER, apple_id TEXT, arcade INTEGER NOT NULL DEFAULT 0, alt_dsid TEXT, alternate_icon_name TEXT, artwork_url URL, auto_install_override INTEGER NOT NULL DEFAULT 0, automatic_type INTEGER NOT NULL DEFAULT 0, bundle_directory_name TEXT, bundle_id TEXT, bundle_name TEXT, bundle_url URL, bundle_version TEXT, bootstrapped INTEGER NOT NULL DEFAULT 2, cancel_download_url URL, cancel_if_duplicate INTEGER NOT NULL DEFAULT 0, companion_bundle_id TEXT, check_store_queue_reason INTEGER NOT NULL DEFAULT 0, client_id TEXT, client_type INTEGER NOT NULL DEFAULT 0, coordinator_id UUID, coordinator_intent INTEGER NOT NULL DEFAULT 1, default_browser INTEGER NOT NULL DEFAULT 0, delta_error BLOB, device_based_vpp INTEGER, downloader_id INTEGER, download_path TEXT, external_id UUID, external_order INTEGER, evid INTEGER, extension_placeholder_data BLOB, failure_error BLOB, gizmo_pairing_id UUID, has_background_assets_extension INTEGER NOT NULL DEFAULT 0, has_messages_extension INTEGER NOT NULL DEFAULT 0, install_finished_timestamp DATETIME, install_verification_token TEXT, install_volume TEXT, item_id INTEGER, last_start_date DATETIME, launch_prohibited INTEGER NOT NULL DEFAULT 0, log_code TEXT, messages_artwork_url URL, metrics_fields JSON, one_shot_bootstrap INTEGER NOT NULL DEFAULT 0, optimal_download_duration INTEGER, optimal_download_start INTEGER, metrics_install_type INTEGER NOT NULL DEFAULT 0, order_index INTEGER, persona_identifier TEXT, phase INTEGER NOT NULL DEFAULT 10, policy JSON, placeholder_entitlements BLOB, placeholder_path TEXT, post_processing_state INTEGER NOT NULL DEFAULT 0, preorder INTEGER NOT NULL DEFAULT 0, previous_galette_mode INTEGER, priority INTEGER NOT NULL DEFAULT 0, quarantine INTEGER NOT NULL DEFAULT 0, receipt BLOB, recovery_count INTEGER NOT NULL DEFAULT 0, redownload INTEGER NOT NULL DEFAULT 0, remote_install INTEGER NOT NULL DEFAULT 0, requires_rosetta INTEGER NOT NULL DEFAULT 0, restore_state INTEGER NOT NULL DEFAULT 0, restore_retry_count INTEGER NOT NULL DEFAULT 0, restore_type INTEGER NOT NULL DEFAULT 0, runs_on_apple_silicon INTEGER NOT NULL DEFAULT 1, runs_on_intel INTEGER NOT NULL DEFAULT 1,sinfless_install INTEGER NOT NULL DEFAULT 0, software_platform INTEGER NOT NULL DEFAULT 0, source_type INTEGER NOT NULL DEFAULT 0, storefront TEXT, store_cohort TEXT, store_metadata BLOB, supports_32bit_only INTEGER NOT NULL DEFAULT 0, supress_dialogs INTEGER NOT NULL DEFAULT 0, switch_distributor INTEGER NOT NULL DEFAULT 0, timestamp DATETIME DEFAULT (timestamp()), transaction_id TEXT, tv_provider INTEGER NOT NULL DEFAULT 0, update_type INTEGER NOT NULL DEFAULT 0, vid UUID, vendor_name TEXT, watch_type INTEGER NOT NULL DEFAULT 0, PRIMARY KEY(pid));"
 - "Checking to see if sbsync needs scheduling"
 - "Daily sbsync scheduled check"
 - "G"
 - "Invalid expression type '%lu' in expression: %@"
 - "Invalid key path '%@' in expression: %@"
-- "Jul 11 2026"
 - "No buy params available from Media API lookup"
 - "PredicateValidator"
 - "SFL"

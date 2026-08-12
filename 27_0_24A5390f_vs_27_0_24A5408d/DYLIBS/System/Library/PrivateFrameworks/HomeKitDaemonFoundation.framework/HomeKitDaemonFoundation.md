@@ -2,23 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/HomeKitDaemonFoundation.framework/HomeKitDaemonFoundation`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_mpenum`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_capture`
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift_as_ret`
-- `__TEXT.__swift_as_cont`
-- `__TEXT.__eh_frame`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_selrefs`
-- `__AUTH_CONST.__objc_const`
-- `__AUTH.__objc_data`
-- `__AUTH.__data`
-
 ```diff
 
 -1490.2.0.1.1

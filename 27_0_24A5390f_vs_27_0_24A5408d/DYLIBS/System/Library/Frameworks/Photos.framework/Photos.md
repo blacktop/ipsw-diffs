@@ -2,27 +2,6 @@
 
 > `/System/Library/Frameworks/Photos.framework/Photos`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__const`
-- `__TEXT.__constg_swiftt`
-- `__TEXT.__swift5_typeref`
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift_as_ret`
-- `__TEXT.__swift_as_cont`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__eh_frame`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__objc_superrefs`
-- `__AUTH_CONST.__const`
-- `__AUTH_CONST.__objc_intobj`
-- `__AUTH_CONST.__objc_arrayobj`
-- `__AUTH_CONST.__objc_doubleobj`
-- `__AUTH_CONST.__objc_floatobj`
-- `__AUTH.__data`
-- `__DATA_DIRTY.__objc_data`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -910.33.102.0.0

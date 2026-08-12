@@ -2,19 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__init_offsets`
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift5_mpenum`
-- `__DATA_CONST.__objc_catlist`
-- `__AUTH_CONST.__weak_auth_got`
-- `__AUTH_CONST.__objc_doubleobj`
-- `__AUTH_CONST.__objc_dictobj`
-- `__AUTH_CONST.__objc_floatobj`
-- `__DATA.__objc_stublist`
-- `__DATA.__uikit_ipl`
-
 ```diff
 
 -9127.0.79.1.102

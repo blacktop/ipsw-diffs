@@ -17,7 +17,6 @@
 - `__DATA_CONST.__auth_ptr`
 - `__DATA.__objc_data`
 - `__DATA.__data`
-- `__DATA.__common`
 
 ```diff
 

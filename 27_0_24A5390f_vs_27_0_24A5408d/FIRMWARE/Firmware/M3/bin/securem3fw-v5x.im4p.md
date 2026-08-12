@@ -20,10 +20,6 @@
    __TEXT.__cstring: 0x2cb
    __TEXT.__constructor: 0x0
 CStrings:
-+ "22:57:08"
 + "6.18"
-+ "Aug  5 2026"
-- "23:49:48"
 - "6.14.1"
-- "Jul 15 2026"
 ```

@@ -2,20 +2,6 @@
 
 > `/System/Library/SubFrameworks/CoreAIDelegates.framework/CoreAIDelegates`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_mpenum`
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift_as_ret`
-- `__TEXT.__swift_as_cont`
-- `__TEXT.__swift5_capture`
-- `__TEXT.__swift5_protos`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_selrefs`
-- `__AUTH_CONST.__objc_const`
-- `__AUTH.__objc_data`
-
 ```diff
 
 -3600.79.1.0.0

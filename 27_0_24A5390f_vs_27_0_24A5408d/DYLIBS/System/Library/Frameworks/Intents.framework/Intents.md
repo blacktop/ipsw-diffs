@@ -2,25 +2,6 @@
 
 > `/System/Library/Frameworks/Intents.framework/Intents`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__oslogstring`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__weak_got`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__objc_superrefs`
-- `__DATA_CONST.__got`
-- `__AUTH_CONST.__weak_auth_got`
-- `__AUTH_CONST.__objc_intobj`
-- `__AUTH_CONST.__objc_doubleobj`
-- `__AUTH_CONST.__objc_dictobj`
-- `__AUTH.__objc_data`
-- `__DATA.__data`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -4016.0.45.3.0

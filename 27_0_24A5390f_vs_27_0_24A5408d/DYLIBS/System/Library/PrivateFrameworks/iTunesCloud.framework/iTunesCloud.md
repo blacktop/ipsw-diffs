@@ -2,17 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/iTunesCloud.framework/iTunesCloud`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__const`
-- `__TEXT.__eh_frame`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_arraydata`
-- `__AUTH_CONST.__objc_arrayobj`
-- `__AUTH_CONST.__objc_dictobj`
-- `__DATA_DIRTY.__objc_data`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -4026.110.81.1.0

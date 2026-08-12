@@ -2,19 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/TextToSpeechVoiceBankingUI.framework/TextToSpeechVoiceBankingUI`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_proto`
-- `__TEXT.__swift5_types`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_mpenum`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_classlist`
-- `__AUTH_CONST.__cfstring`
-- `__AUTH.__objc_data`
-
 ```diff
 
 -720.0.0.0.0

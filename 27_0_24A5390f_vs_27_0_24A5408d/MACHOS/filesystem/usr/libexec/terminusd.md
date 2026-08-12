@@ -27,7 +27,6 @@
 - `__DATA_CONST.__auth_got`
 - `__DATA_CONST.__got`
 - `__DATA.__data`
-- `__DATA.__common`
 
 ```diff
 
@@ -102,8 +101,8 @@
 -  Functions: 4016
 +  Functions: 3973
    Symbols:   1536
--  CStrings:  11650
-+  CStrings:  11675
+-  CStrings:  11649
++  CStrings:  11674
  
 Symbols:
 + _nrXPCKeyAllDevices
@@ -154,11 +153,9 @@ CStrings:
 + "-[NRLinkManagerBluetooth startConnectPeripheralWatchdogIfNeeded]"
 + "-[NRLinkManagerBluetooth stopConnectPeripheralWatchdog]"
 + "-[NRVirtualMulticastManager registerPeerWithAddress:interfaceName:name:routeBitmap:linkType:completion:]_block_invoke"
-+ "21:58:54"
 + "914.0.34.0.4"
 + "@\"NRAnalyticsMeshConvergence\""
 + "@\"NRAnalyticsMeshDataSession\""
-+ "Aug  5 2026"
 + "Failed to serialize all devices"
 + "Mesh already registered with a different identifier"
 + "Mesh registered with a different identifier"
@@ -257,11 +254,9 @@ CStrings:
 - "-[NRBabelManager updateDistributees:]"
 - "-[NRLinkDirector setPersistentMesh:meshIdentifier:operationalProperties:]"
 - "-[NRVirtualMulticastManager registerPeerWithAddress:interfaceName:name:routeBitmap:completion:]_block_invoke"
-- "21:55:12"
 - "914.0.22.0.1"
 - "B24@0:8@?16"
 - "B40@0:8r*16Q24^(sockaddr_in_4_6={sockaddr=CC[14c]}{__sockaddr_header=CC}{sockaddr_in=CCS{in_addr=I}[8c]}{sockaddr_in6=CCSI{in6_addr=(?=[16C][8S][4I])}I})32"
-- "Jul 14 2026"
 - "T@\"NSArray\",&,N,V_routeEntriesSnapshot"
 - "T@\"NSMutableArray\",&,N,V_peers"
 - "T@\"NSMutableArray\",&,N,V_receivedDatagrams"

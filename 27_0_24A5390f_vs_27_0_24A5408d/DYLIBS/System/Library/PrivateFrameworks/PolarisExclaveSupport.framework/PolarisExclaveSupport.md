@@ -2,23 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/PolarisExclaveSupport.framework/PolarisExclaveSupport`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__constg_swiftt`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_proto`
-- `__TEXT.__swift5_types`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_mpenum`
-- `__TEXT.__swift5_types2`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_classlist`
-- `__AUTH.__objc_data`
-- `__AUTH.__data`
-- `__DATA_DIRTY.__objc_data`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -256.0.3.0.0

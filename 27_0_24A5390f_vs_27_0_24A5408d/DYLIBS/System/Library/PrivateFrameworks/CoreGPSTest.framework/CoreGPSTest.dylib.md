@@ -2,33 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/CoreGPSTest.framework/CoreGPSTest.dylib`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__init_offsets`
-- `__TEXT.__objc_methlist`
-- `__TEXT.__constg_swiftt`
-- `__TEXT.__swift5_typeref`
-- `__TEXT.__swift5_fieldmd`
-- `__TEXT.__swift5_capture`
-- `__TEXT.__swift5_proto`
-- `__TEXT.__swift5_types`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__eh_frame`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__weak_got`
-- `__DATA_CONST.__objc_selrefs`
-- `__DATA_CONST.__objc_superrefs`
-- `__DATA_CONST.__got`
-- `__AUTH_CONST.__cfstring`
-- `__AUTH_CONST.__objc_const`
-- `__AUTH_CONST.__weak_auth_got`
-- `__AUTH_CONST.__objc_intobj`
-- `__AUTH_CONST.__objc_doubleobj`
-- `__AUTH.__objc_data`
-- `__AUTH.__data`
-
 ```diff
 
 -365.0.9.0.0
@@ -87,10 +60,10 @@
    - /usr/lib/swift/libswiftos.dylib
 -  Functions: 2655
 -  Symbols:   4333
--  CStrings:  1360
+-  CStrings:  1358
 +  Functions: 2684
 +  Symbols:   4382
-+  CStrings:  1370
++  CStrings:  1368
  
 Symbols:
 + GCC_except_table101
@@ -239,9 +212,6 @@ CStrings:
 + "#gdm,handleReset,device,%{public}p"
 + "#gdm,stop,alreadyInFlight,ignore"
 + "#version,CoreGPS-365.0.9.0.1,machContSec,%{public}.3f,BuildTime,{Aug  5 2026,21:57:45}"
-+ "21:57:42"
-+ "22:00:31"
-+ "Aug  5 2026"
 + "GnssClientManager,handleInterrupt,restarting,%{public}llu,ms"
 + "GnssClientManager,ingressRequest,full,type,%{public}d"
 + "GnssClientManager,ingressRequest,restarting,nak,type,%{public}d"
@@ -254,9 +224,6 @@ CStrings:
 + "glonass,invalid vector size,return zeros"
 - "#gdm,handleReset,notBuilt,skip"
 - "#version,CoreGPS-365.0.9,machContSec,%{public}.3f,BuildTime,{Jul 14 2026,21:29:22}"
-- "21:29:17"
-- "21:32:57"
 - "GnssClientManager,gpsdDisconnected,sendingExit"
-- "Jul 14 2026"
 - "glonassExternalCalMeters,%{public}.2f"
 ```

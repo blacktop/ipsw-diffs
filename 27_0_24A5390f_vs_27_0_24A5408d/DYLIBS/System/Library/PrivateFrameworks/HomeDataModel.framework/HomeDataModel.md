@@ -2,17 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/HomeDataModel.framework/HomeDataModel`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_types2`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__objc_superrefs`
-- `__AUTH_CONST.__lazy_load_got`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -1238.0.0.0.0

@@ -2,12 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/UnifiedMessagingKit.framework/UnifiedMessagingKit`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA_CONST.__const`
-- `__DATA.__objc_stublist`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -3.0.41.0.0

@@ -110,8 +110,8 @@
 -  Functions: 112648
 +  Functions: 112961
    Symbols:   2892
--  CStrings:  83925
-+  CStrings:  84135
+-  CStrings:  83922
++  CStrings:  84132
  
 Symbols:
 + _HKSampleSortIdentifierEndDate
@@ -189,8 +189,6 @@ CStrings:
 + "-[CLSmootherMonitor createReconstructionIntervalWithStartDate:endDate:is1HzData:isContinuationOfPriorBatch:]"
 + "-[CMStrideCalibrator(CLNotifiers) startLocationUpdates]"
 + "-[CMStrideCalibrator(CLNotifiers) stopLocationUpdates]"
-+ "22:24:45"
-+ "22:35:55"
 + "::CLP::LogEntry::PrivateData::ExtendedOrientationNotification_NotificationType_IsValid(value)"
 + "::CLP::LogEntry::PrivateData::GnssFailureStatusUpdate_Status_IsValid(value)"
 + "::CLP::LogEntry::PrivateData::OrientationNotification_NotificationType_IsValid(value)"
@@ -221,8 +219,6 @@ CStrings:
 + "Assertion failed: start <= end && end <= fCapacity, file /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/CoreLocation/Oscar/CMQueue.h, line 267,start=%zu end=%zu fCapacity=%u."
 + "Assertion failed: static_cast<uint32_t>(Cap) == fCapacity, file /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/CoreLocation/Oscar/CMQueue.h, line 252,fastIndex Cap=%zu mismatches fCapacity=%u."
 + "Assertion failed: t >= 0 && t <= 1, file /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/CoreLocation/Oscar/Math/CMOQuaternion.cpp, line 300,Invalid time t for slerp."
-+ "Aug  5 2026"
-+ "Aug  5 2026 22:29:33"
 + "B1840@0:8{NotificationData={CLDaemonLocation=i{?=dd}ddddddddidi{?=dd}diIiiidB}{CLDaemonLocationPrivate=dddddfffBi{?=dd}diiB{?=ddBBidqddd}{?={?=iddddd{?=dd}dd}iQiiiidB}{?=dd}if{?=dd}ddiBddddddddBB{?=dd}diddddddB{shared_ptr<const CLDaemonLocationPrivate::AboveHorizonSatelliteVisibilityReport>=^{AboveHorizonSatelliteVisibilityReport}^{__shared_weak_count}}i{AltitudeInfo=dddi}CdddCCBii{?=I}{?=if}iiiBffffd{?=dddffffff}}{shared_ptr<CLBatchedLocations>=^{CLBatchedLocations}^{__shared_weak_count}}{TechnologyStatus=iB}Bd{?=dddd}{?=dd}{XtraFileAvailable=d{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}}i{LocationDerivedSpeed=ddd}{?=dddi}{?=ddddddB[3[3d]]dddQi}{shared_ptr<const gnss::MeasurementData>=^{MeasurementData}^{__shared_weak_count}}i{?=idddddd[5d]ddddii}{CLStrongPtr<NSData *>=@}{PredictedGnssAvailability=iidd}{CLBasebandTimeFreqTransfer=d{CLBasebandSystemClock=Qffdfd}Qf{LeapSecondInfo=sC{LeapSecondChange=Qs}}}{CLGnssBasebandCausesL1InterferenceGnssBandChangeData=ii}{CLRhythmicGnssStatusUpdate=iBi{bitset<2UL>=Q}BI}{CLRhythmicStreamingControl=B}{CLGNSSStateQueryAssertionReportData=ddd}{ProactiveLocationSessionStats=id}B{RecentLocationsRevised=ddd}{MapMatchingDriftSignal=iidddddid}{CLPIOSample=dddfffffffffffffffffffffCCCCCCS}{AnomalousGnssDetectionInfo=BBB}CC}16"
 + "B40@0:8@16@24d32"
 + "Body metrics snapshot,weight,%f,vo2max,%f,runvo2max,%f,personalizedvo2max,%f,hrmin,%f,hrmax,%f,pal,%f,hronset,%f,sedentaryhrmin,%f"
@@ -464,8 +460,6 @@ CStrings:
 - "#wci,usmon,evaluated,nowMctSec,%{public}.3f,sinceLastEvalSec,%{public}.1f,latDeg,%{sensitive}.7f,lonDeg,%{sensitive}.7f,region,%{public}d,isUS,%{private}d,borderDistM,%{private}.1f,fenceM,%{public}.1f,changed,%{public}d"
 - "%@,<recordId %llu, startTime %f, activityEndTime %f, workoutSessionId %@, workoutType %d, hrRecovery %f, lambda %f, hrMax %f, hrMinAdjusted, %f, recoveryOnsetTime, %f, steadyStateHR, %f, status, %d, sessionHrRecovery, %f, peakHR, %f, hrRecoveryReference, %f>"
 - "-[CLSmootherMonitor createReconstructionIntervalWithStartDate:endDate:is1HzData:]"
-- "22:33:11"
-- "22:43:19"
 - "@128@0:8Q16d24d32@40i48d52d60d68d76d84d92i100d104d112d120"
 - "@24@0:8r^{HRRecoverySession=Qddd[16C]qddddddidddddBB}16"
 - "@72@0:8d16d24@32@40@48B56Q60B68"
@@ -499,8 +493,6 @@ CStrings:
 - "CMStepArbitrator,mergedStepEntry,time,%f,steps,%d,distance,%f,isPedNet,%d,pedNetStep,startTime,%f,endTime,%f,steps,%d,distance,%f,currentPace,%f,legacyStep,time,%f,steps,%d,distance,%f,currentPace,%f"
 - "INSERT INTO HRRecoverySessionHistory (startTime, activityEndTime, workoutSessionId, workoutType, hrRecovery, lambda, hrMax, hrMinAdjusted, recoveryOnsetTime, steadyStateHR, status, sessionHrRecovery, peakHR, hrRecoveryReference) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"
 - "INSERT INTO VO2MaxHistory SELECT NULL, startTime, workoutType, estimatedVo2Max, durationInSeconds, hrMax, hrMin, sessionId, variance, filteredVo2Max, sessionType, eligibleForHealthKit, eligibleForCalorimetry, numWorkoutsContrToEstimate, estimatedHRResponseParam, estimatedHRRecoveryParam, sessionVo2Max, platformSource FROM VO2MaxStagingHistory"
-- "Jul 14 2026"
-- "Jul 14 2026 22:38:29"
 - "LCPM,stopping gps and clearing throttle state"
 - "Legacy step buffer too large, %zu, removing oldest entry, %lf"
 - "METS consumed,startTime,%.3f,computeTime,%.3f,now,%.3f,activity,%d,userMets,%f,wrMets,%f,rawWRMets,%f,physicalEffortMets, %f, rawTruthMets,%f,avgTruthMets,%f,basalMets,%f,duration,%lf,stored,%d,%s,rawHRMets,%f,rawFMMets,%f,totalCalories,%lld,basalCalories,%lld,VectorMag,%f,pushCount,%d,activityWithoutOverride,%d,isStanding,%d,isMotionOverrideSet,%d, mediaType, %d,pedDistance,%f,distanceConfig,%s,currentPace,%f,metsSource,%d"

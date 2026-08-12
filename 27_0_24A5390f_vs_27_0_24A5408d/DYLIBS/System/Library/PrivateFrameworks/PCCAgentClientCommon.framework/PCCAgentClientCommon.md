@@ -2,19 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/PCCAgentClientCommon.framework/PCCAgentClientCommon`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_mpenum`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift_as_ret`
-- `__TEXT.__swift_as_cont`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_selrefs`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -47.0.0.0.0

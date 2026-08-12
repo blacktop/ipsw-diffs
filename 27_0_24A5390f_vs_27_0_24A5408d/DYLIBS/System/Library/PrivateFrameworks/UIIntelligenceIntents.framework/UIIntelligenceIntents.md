@@ -2,23 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/UIIntelligenceIntents.framework/UIIntelligenceIntents`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__constg_swiftt`
-- `__TEXT.__swift5_typeref`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_proto`
-- `__TEXT.__swift5_types`
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift5_protos`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__AUTH.__data`
-- `__DATA.__data`
-
 ```diff
 
 -9127.0.78.0.0

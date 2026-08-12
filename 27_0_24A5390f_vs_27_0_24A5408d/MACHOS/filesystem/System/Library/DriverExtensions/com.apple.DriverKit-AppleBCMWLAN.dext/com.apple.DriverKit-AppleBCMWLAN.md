@@ -56,7 +56,6 @@ Symbols:
 CStrings:
 + "\"AppleBCMWLANV3_driverkit-1580.73\""
 + "AppleBCMWLANV3_driverkit-1580.73"
-+ "Aug  3 2026 21:23:43"
 + "[dk] %s@%d:APB CB not accessible before readOTP\n"
 + "[dk] %s@%d:Dext PCIe config not ready for MMIO.\n"
 + "[dk] %s@%d:Failed to read or parse OTP data. Failing start\n"
@@ -68,7 +67,6 @@ CStrings:
 + "checkPCIeMMIOReadiness"
 - "\"AppleBCMWLANV3_driverkit-1580.68\""
 - "AppleBCMWLANV3_driverkit-1580.68"
-- "Jul 10 2026 21:53:28"
 - "[dk] %s@%d:APB CB error-log registers before readOTP:\n"
 - "[dk] %s@%d:CB0[0x%x] = 0x%08x\n"
 - "[dk] %s@%d:CB0[0x%x] read failed: 0x%x\n"

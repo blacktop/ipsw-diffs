@@ -2,21 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/FileIndexerDaemon.framework/FileIndexerDaemon`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_fieldmd`
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_proto`
-- `__TEXT.__swift5_types`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_mpenum`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__AUTH_CONST.__cfstring`
-- `__AUTH.__objc_data`
-
 ```diff
 
 -4838.0.93.0.0

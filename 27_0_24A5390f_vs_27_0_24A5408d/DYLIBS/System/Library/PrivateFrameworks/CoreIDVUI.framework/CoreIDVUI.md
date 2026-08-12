@@ -2,19 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/CoreIDVUI.framework/CoreIDVUI`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_mpenum`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__objc_superrefs`
-- `__AUTH_CONST.__lazy_load_got`
-- `__DATA.__objc_stublist`
-- `__DATA_DIRTY.__objc_data`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -9.38.0.0.0

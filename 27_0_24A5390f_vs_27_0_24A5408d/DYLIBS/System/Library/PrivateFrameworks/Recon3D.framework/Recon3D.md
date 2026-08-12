@@ -2,19 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/Recon3D.framework/Recon3D`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__eh_frame`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__weak_got`
-- `__DATA_CONST.__objc_selrefs`
-- `__DATA_CONST.__got`
-- `__AUTH_CONST.__cfstring`
-- `__AUTH_CONST.__weak_auth_got`
-- `__AUTH_CONST.__objc_intobj`
-- `__AUTH.__data`
-- `__AUTH.__thread_vars`
-
 ```diff
 
 -9.26.6.16.1

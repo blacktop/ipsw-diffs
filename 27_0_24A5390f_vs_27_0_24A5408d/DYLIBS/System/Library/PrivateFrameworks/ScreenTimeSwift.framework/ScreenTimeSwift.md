@@ -2,14 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/ScreenTimeSwift.framework/ScreenTimeSwift`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_builtin`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -649.0.0.0.0

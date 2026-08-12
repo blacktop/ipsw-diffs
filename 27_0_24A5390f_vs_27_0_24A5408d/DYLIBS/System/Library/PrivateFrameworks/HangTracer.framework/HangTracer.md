@@ -2,14 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/HangTracer.framework/HangTracer`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__gcc_except_tab`
-- `__DATA_CONST.__objc_superrefs`
-- `__AUTH_CONST.__objc_intobj`
-- `__AUTH_CONST.__objc_doubleobj`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -424.0.0.0.0

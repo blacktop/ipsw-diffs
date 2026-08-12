@@ -2,12 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/MediaCoreUI.framework/MediaCoreUI`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_protos`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA.__common`
-
 ```diff
 
 -4026.100.58.0.0

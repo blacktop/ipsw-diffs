@@ -2,12 +2,6 @@
 
 > `/usr/lib/libImage4_V2.dylib`
 
-### Sections with Same Size but Changed Content
-
-- `__AUTH_CONST.__const`
-- `__DATA.__data`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
  27.0.3.0.0

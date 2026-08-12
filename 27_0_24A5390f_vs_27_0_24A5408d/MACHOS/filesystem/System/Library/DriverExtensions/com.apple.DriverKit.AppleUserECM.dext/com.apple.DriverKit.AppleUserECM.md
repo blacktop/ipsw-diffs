@@ -4,7 +4,6 @@
 
 ### Sections with Same Size but Changed Content
 
-- `__TEXT.__cstring`
 - `__DATA_CONST.__osclassinfo`
 - `__DATA_CONST.__auth_got`
 - `__DATA_CONST.__got`

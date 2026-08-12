@@ -2,23 +2,6 @@
 
 > `/System/Library/Frameworks/CoreLocation.framework/CoreLocation`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__weak_got`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__objc_arraydata`
-- `__DATA_CONST.__got`
-- `__AUTH_CONST.__weak_auth_got`
-- `__AUTH_CONST.__objc_arrayobj`
-- `__AUTH_CONST.__objc_doubleobj`
-- `__AUTH_CONST.__objc_dictobj`
-- `__AUTH_CONST.__objc_intobj`
-- `__DATA.__data`
-- `__DATA_DIRTY.__objc_data`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -3183.0.0.0.0
@@ -83,17 +66,16 @@
    - /usr/lib/libz.1.dylib
 -  Functions: 5203
 -  Symbols:   1083
--  CStrings:  5541
+-  CStrings:  5540
 +  Functions: 5216
 +  Symbols:   1084
-+  CStrings:  5556
++  CStrings:  5555
  
 Symbols:
 + _CLFlushErrorDomain
 CStrings:
 + "-[CLLocationManager notifyWhenFlushedBufferedLocationsThroughDate:timeout:completion:]"
 + "-[CLLocationManager notifyWhenFlushedBufferedLocationsThroughDate:timeout:completion:]_block_invoke"
-+ "00:18:13"
 + "Assertion failed: col < N, file /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/CoreLocationFramework/Oscar/Math/CMFactoredMatrix.h, line 255,invalid col %zu > %zu."
 + "Assertion failed: col < N, file /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/CoreLocationFramework/Oscar/Math/CMMatrix.h, line 71,invalid col %zu > %zu."
 + "Assertion failed: col < N, file /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/CoreLocationFramework/Oscar/Math/CMMatrix.h, line 78,invalid col %zu > %zu."
@@ -102,7 +84,6 @@ CStrings:
 + "Assertion failed: ldx < M*N, file /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/CoreLocationFramework/Oscar/Math/CMMatrix.h, line 84,invalid element %zu >= %zu."
 + "Assertion failed: row < M, file /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/CoreLocationFramework/Oscar/Math/CMMatrix.h, line 70,invalid row %zu > %zu."
 + "Assertion failed: row < M, file /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/CoreLocationFramework/Oscar/Math/CMMatrix.h, line 77,invalid row %zu > %zu."
-+ "Aug  5 2026"
 + "CLFlushErrorDomain"
 + "CLMM,%{public}.1lf,Propagating,lat,%{sensitive}.8lf,lon,%{sensitive}.8lf,course,%{public}.3lf,speed,%{public}.1lf,speedLimit,%{public}.1lf,rampSpeed,%{public}.1lf,speedAtPropagationStart,%{public}.1lf"
 + "SimulateBufferedGnssPlatform"
@@ -119,7 +100,6 @@ CStrings:
 + "flush timeout must be a positive, finite number"
 + "isContinuationOfPriorBatch"
 + "v24@?0q8@\"NSString\"16"
-- "19:39:25"
 - "Assertion failed: col < N, file /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/CoreLocationFramework/Oscar/Math/CMFactoredMatrix.h, line 242,invalid col %zu > %zu."
 - "Assertion failed: col < N, file /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/CoreLocationFramework/Oscar/Math/CMMatrix.h, line 73,invalid col %zu > %zu."
 - "Assertion failed: col < N, file /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/CoreLocationFramework/Oscar/Math/CMMatrix.h, line 80,invalid col %zu > %zu."
@@ -129,7 +109,6 @@ CStrings:
 - "Assertion failed: ldx < M*N, file /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/CoreLocationFramework/Oscar/Math/CMMatrix.h, line 86,invalid element %zu >= %zu."
 - "Assertion failed: row < M, file /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/CoreLocationFramework/Oscar/Math/CMMatrix.h, line 72,invalid row %zu > %zu."
 - "Assertion failed: row < M, file /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/CoreLocationFramework/Oscar/Math/CMMatrix.h, line 79,invalid row %zu > %zu."
-- "Jul 11 2026"
 - "T CMVector<double, 2>::operator[](const size_t) const [T = double, N = 2]"
 - "[Umeyama]:problem is infeasible"
 ```

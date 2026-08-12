@@ -2,19 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/IntelligenceSimulation.framework/IntelligenceSimulation`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_typeref`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_proto`
-- `__TEXT.__swift5_types`
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_capture`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_selrefs`
-- `__AUTH_CONST.__objc_const`
-- `__AUTH.__data`
-
 ```diff
 
 -3600.22.11.0.0

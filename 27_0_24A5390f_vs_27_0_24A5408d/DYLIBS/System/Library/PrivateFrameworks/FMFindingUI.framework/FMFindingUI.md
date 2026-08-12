@@ -2,23 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/FMFindingUI.framework/FMFindingUI`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_types`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift_as_ret`
-- `__TEXT.__swift_as_cont`
-- `__TEXT.__swift5_mpenum`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__vfx_script_tbx`
-- `__DATA.__objc_stublist`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -104.30.6.14.9

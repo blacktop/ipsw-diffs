@@ -21,8 +21,6 @@
 - `__DATA_CONST.__objc_superrefs`
 - `__DATA_CONST.__objc_arrayobj`
 - `__DATA_CONST.__objc_intobj`
-- `__DATA.__bss`
-- `__DATA.__common`
 
 ```diff
 

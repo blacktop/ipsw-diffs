@@ -2,14 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/GeoUIFramework.framework/GeoUIFramework`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_mpenum`
-- `__DATA_CONST.__objc_classlist`
-- `__AUTH_CONST.__objc_const`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -3600.36.14.0.0

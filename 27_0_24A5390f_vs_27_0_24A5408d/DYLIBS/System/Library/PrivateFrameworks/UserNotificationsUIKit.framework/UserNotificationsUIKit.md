@@ -2,25 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/UserNotificationsUIKit.framework/UserNotificationsUIKit`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_mpenum`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift_as_ret`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__objc_arraydata`
-- `__AUTH_CONST.__objc_intobj`
-- `__AUTH_CONST.__objc_arrayobj`
-- `__AUTH_CONST.__objc_dictobj`
-- `__AUTH_CONST.__objc_doubleobj`
-- `__AUTH.__data`
-- `__DATA.__objc_stublist`
-
 ```diff
 
 -1070.0.0.0.0

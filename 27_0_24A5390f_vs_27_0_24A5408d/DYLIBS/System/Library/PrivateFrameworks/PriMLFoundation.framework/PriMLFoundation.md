@@ -2,19 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/PriMLFoundation.framework/PriMLFoundation`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__objc_methlist`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_mpenum`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__AUTH.__objc_data`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -38.0.0.0.0

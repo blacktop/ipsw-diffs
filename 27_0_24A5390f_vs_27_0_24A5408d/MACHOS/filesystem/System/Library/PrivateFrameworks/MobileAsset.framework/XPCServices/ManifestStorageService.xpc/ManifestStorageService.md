@@ -5,7 +5,6 @@
 ### Sections with Same Size but Changed Content
 
 - `__TEXT.__const`
-- `__TEXT.__cstring`
 
 ```diff
 
@@ -14,9 +13,4 @@
    __TEXT.__text: 0x347c
    __TEXT.__auth_stubs: 0x3f0
    __TEXT.__objc_stubs: 0x8e0
-CStrings:
-+ "05:52:23"
-+ "Aug  4 2026"
-- "21:50:37"
-- "Jul 10 2026"
 ```

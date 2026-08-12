@@ -40,7 +40,7 @@
 +  __DATA.__zerofill: 0x5b6af8
 +  Functions: 9883
    Symbols:   0
--  CStrings:  18821
+-  CStrings:  18820
 +  CStrings:  19030
  
 CStrings:
@@ -83,7 +83,6 @@ CStrings:
 + "*outsize >= sizeof(struct sCIspCmdTraceEnable)"
 + "./h10isp/drivers/Algorithm/LensShading/CLensShadingH6.cpp"
 + "./h10isp/drivers/Extrinsics/CExtMultiDrv.cpp"
-+ "23:04:33"
 + "CAICamAnstResV2.cpp"
 + "CERDcnProcH11.cpp"
 + "CFidDebugUtils.cpp"
@@ -257,8 +256,6 @@ CStrings:
 + "safeNumCh <= MAX_CHANNELS"
 + "tbl[%u] module %#x:%c (%#02x) rev %#02x\n"
 + "value == ISP_FREQ_DITHER_DISABLED || value == ISP_FREQ_DITHER_4MS || value == ISP_FREQ_DITHER_8MS || value == ISP_FREQ_DITHER_16MS"
-- "23:57:35"
-- "Jul 15 2026"
 - "Long Tune the knob Value: %f \n"
 - "Not sending tuningset to algoctrl due to last frame (idx %u) is raw only\n"
 ```

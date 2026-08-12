@@ -2,18 +2,6 @@
 
 > `com.apple.driver.AppleAVE2`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA.__data`
-- `__DATA_CONST.__mod_init_func`
-- `__DATA_CONST.__mod_term_func`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__kalloc_type`
-- `__DATA_CONST.__kalloc_var`
-- `__DATA_CONST.__auth_got`
-- `__DATA_CONST.__got`
-- `__DATA_CONST.__auth_ptr`
-
 ```diff
 
 -913.29.1.0.0
@@ -36,8 +24,8 @@
 -  Functions: 2994
 +  Functions: 2995
    Symbols:   0
--  CStrings:  9847
-+  CStrings:  9867
+-  CStrings:  9846
++  CStrings:  9866
  
 CStrings:
 + "%lld %d AVE %s: %p %lld MCTFGatingType %d"
@@ -60,12 +48,8 @@ CStrings:
 + "%p MCTFGatingType %d\n"
 + "%p MCTFPreFiltAdjType %d"
 + "%p MCTFPreFiltAdjType %d\n"
-+ "21:52:03"
 + "913.43.1"
 + "AVE_SVESched_ClearOrder"
-+ "Aug  5 2026"
-- "21:36:33"
 - "913.29.1"
-- "Jul 14 2026"
 - "pCHM != nullptr && pSurface != nullptr && pSize != nullptr && psCBufInfo != nullptr"
 ```

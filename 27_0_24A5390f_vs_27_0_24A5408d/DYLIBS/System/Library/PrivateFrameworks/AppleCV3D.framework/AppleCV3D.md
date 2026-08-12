@@ -2,16 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/AppleCV3D.framework/AppleCV3D`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA_CONST.__weak_got`
-- `__DATA_CONST.__objc_selrefs`
-- `__DATA_CONST.__got`
-- `__AUTH_CONST.__cfstring`
-- `__AUTH_CONST.__weak_auth_got`
-- `__AUTH.__data`
-- `__AUTH.__thread_vars`
-
 ```diff
 
 -9.26.6.16.5

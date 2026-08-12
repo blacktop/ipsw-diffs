@@ -10,7 +10,6 @@
 - `__DATA_CONST.__objc_classlist`
 - `__DATA_CONST.__objc_protolist`
 - `__DATA_CONST.__objc_protorefs`
-- `__DATA.__common`
 
 ```diff
 

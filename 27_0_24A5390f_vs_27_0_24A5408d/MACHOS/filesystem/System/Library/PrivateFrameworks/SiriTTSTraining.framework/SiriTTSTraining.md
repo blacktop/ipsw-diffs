@@ -8,7 +8,6 @@
 - `__TEXT.__objc_methlist`
 - `__TEXT.__const`
 - `__TEXT.__swift5_typeref`
-- `__TEXT.__cstring`
 - `__TEXT.__constg_swiftt`
 - `__TEXT.__gcc_except_tab`
 - `__TEXT.__unwind_info`

@@ -2,14 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/HealthArchivableViews.framework/HealthArchivableViews`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_capture`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_selrefs`
-- `__AUTH_CONST.__const`
-- `__AUTH_CONST.__objc_const`
-
 ```diff
 
 -7027.0.67.2.1

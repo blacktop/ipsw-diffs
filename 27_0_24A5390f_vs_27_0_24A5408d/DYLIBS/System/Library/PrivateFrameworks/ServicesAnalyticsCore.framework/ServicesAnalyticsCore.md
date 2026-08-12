@@ -5,9 +5,6 @@
 ### Sections with Same Size but Changed Content
 
 - `__TEXT.__swift5_reflstr`
-- `__TEXT.__swift5_types2`
-- `__TEXT.__swift5_capture`
-- `__AUTH.__data`
 
 ```diff
 

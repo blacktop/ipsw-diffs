@@ -2,21 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/CoreDuet.framework/CoreDuet`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__gcc_except_tab`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__objc_superrefs`
-- `__DATA_CONST.__objc_arraydata`
-- `__AUTH_CONST.__cfstring`
-- `__AUTH_CONST.__objc_doubleobj`
-- `__AUTH_CONST.__objc_arrayobj`
-- `__AUTH_CONST.__objc_dictobj`
-- `__AUTH.__objc_data`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -1967.0.0.0.0

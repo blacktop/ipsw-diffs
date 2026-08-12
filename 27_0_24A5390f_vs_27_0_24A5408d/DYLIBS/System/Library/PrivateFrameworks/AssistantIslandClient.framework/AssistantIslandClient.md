@@ -2,16 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/AssistantIslandClient.framework/AssistantIslandClient`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_mpenum`
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift_as_ret`
-- `__TEXT.__swift_as_cont`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-
 ```diff
 
 -73.0.12.0.0

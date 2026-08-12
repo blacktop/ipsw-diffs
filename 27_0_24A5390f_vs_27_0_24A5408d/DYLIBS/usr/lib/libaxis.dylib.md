@@ -2,14 +2,6 @@
 
 > `/usr/lib/libaxis.dylib`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__eh_frame`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__got`
-- `__AUTH_CONST.__weak_auth_got`
-- `__AUTH.__data`
-
 ```diff
 
 -8.1.9.0.0

@@ -2,15 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/SiriCalendar.framework/SiriCalendar`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__eh_frame`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_selrefs`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -3600.18.5.0.0

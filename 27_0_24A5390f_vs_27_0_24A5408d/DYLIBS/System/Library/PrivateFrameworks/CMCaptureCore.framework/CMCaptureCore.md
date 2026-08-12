@@ -2,12 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/CMCaptureCore.framework/CMCaptureCore`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__unwind_info`
-- `__DATA_CONST.__objc_selrefs`
-- `__DATA.__data`
-
 ```diff
 
 -761.0.0.0.3

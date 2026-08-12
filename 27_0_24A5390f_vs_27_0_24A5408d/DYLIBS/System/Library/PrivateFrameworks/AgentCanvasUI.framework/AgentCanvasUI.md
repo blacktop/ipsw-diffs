@@ -2,13 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/AgentCanvasUI.framework/AgentCanvasUI`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_protos`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -73.0.12.0.0

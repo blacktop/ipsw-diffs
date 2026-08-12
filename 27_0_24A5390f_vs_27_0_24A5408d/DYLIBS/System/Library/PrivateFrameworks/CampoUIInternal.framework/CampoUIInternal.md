@@ -2,14 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/CampoUIInternal.framework/CampoUIInternal`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__AUTH_CONST.__objc_doubleobj`
-- `__AUTH_CONST.__objc_intobj`
-
 ```diff
 
 -73.0.12.0.0

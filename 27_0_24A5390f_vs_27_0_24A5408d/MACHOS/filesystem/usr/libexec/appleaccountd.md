@@ -20,7 +20,6 @@
 - `__DATA_CONST.__objc_superrefs`
 - `__DATA_CONST.__auth_got`
 - `__DATA.__objc_stublist`
-- `__DATA.__common`
 
 ```diff
 

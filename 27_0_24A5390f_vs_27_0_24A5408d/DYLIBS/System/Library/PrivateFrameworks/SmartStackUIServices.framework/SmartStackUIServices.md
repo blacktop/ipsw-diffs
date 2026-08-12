@@ -2,16 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/SmartStackUIServices.framework/SmartStackUIServices`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__constg_swiftt`
-- `__TEXT.__swift5_typeref`
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_proto`
-- `__TEXT.__swift5_types`
-- `__TEXT.__eh_frame`
-- `__AUTH_CONST.__const`
-
 ```diff
 
 -326.0.0.0.0

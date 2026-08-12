@@ -2,22 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/MediaExperience.framework/MediaExperience`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__weak_got`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__objc_arraydata`
-- `__AUTH_CONST.__weak_auth_got`
-- `__AUTH_CONST.__lazy_load_got`
-- `__AUTH_CONST.__objc_arrayobj`
-- `__AUTH_CONST.__objc_intobj`
-- `__AUTH_CONST.__objc_dictobj`
-- `__AUTH_CONST.__objc_doubleobj`
-- `__AUTH.__data`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -360.70.2.0.0
@@ -98,10 +82,10 @@
    - /usr/lib/libobjc.A.dylib
 -  Functions: 11574
 -  Symbols:   16164
--  CStrings:  14222
+-  CStrings:  14221
 +  Functions: 10098
 +  Symbols:   15985
-+  CStrings:  9876
++  CStrings:  9875
  
 Symbols:
 + +[MXSessionManager sendTelemetryForMatchRingtoneVolumeToggleChange]
@@ -683,8 +667,6 @@ CStrings:
 + "-[MXSystemCastingExtensionInstance startApplicationWithURL:applicationID:launchType:withCompletionHandler:]_block_invoke_2"
 + "-[MXSystemMediaCastingController_Client handleAsyncResult:]"
 + "-[MXVolumeClientManager postNotificationToAVVolumeClientsWithAudioVideoCategoryAndVolume]"
-+ "08:54:07"
-+ "Aug  4 2026"
 + "CMSMMDE_Initialize_block_invoke_2"
 + "Extension was unresponsive to a request"
 + "FigRoutingManagerContextUtilities_AddCurrentlyActivatingEndpoint_block_invoke_2"
@@ -3160,7 +3142,6 @@ CStrings:
 - "-stark mode- %s: carPlayEndpoint or currentExtendedEndpoint is NULL"
 - "-stark mode- %s: controller is NULL"
 - "0 for ShadowingAudioSessionID, must be non-zero"
-- "22:44:50"
 - "AN"
 - "AVAILABLE"
 - "AVSystemController.m"
@@ -3789,7 +3770,6 @@ CStrings:
 - "IsRecordingMutedForRemoteDevice requires FF support"
 - "IsRemoteDeviceInputControlAllowed requires FF support"
 - "IsSharePlayCapableCallSession needs to have phone call behavior"
-- "Jul 10 2026"
 - "Long-form video routing session manager not yet allocated.  Call FigRoutingSessionManagerInit first"
 - "LookupEndpointUIAgentByObjectIDForConnection"
 - "LookupRouteDiscovererByObjectIDForConnection"

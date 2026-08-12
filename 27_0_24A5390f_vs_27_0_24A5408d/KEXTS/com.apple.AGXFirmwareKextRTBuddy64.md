@@ -2,10 +2,6 @@
 
 > `com.apple.AGXFirmwareKextRTBuddy64`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA.__data`
-
 ```diff
 
 -360.32.0.0.0

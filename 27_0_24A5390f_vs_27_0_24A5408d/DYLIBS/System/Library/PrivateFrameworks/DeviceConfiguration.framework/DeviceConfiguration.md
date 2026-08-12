@@ -2,16 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/DeviceConfiguration.framework/DeviceConfiguration`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_mpenum`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__AUTH_CONST.__cfstring`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -27.0.0.0.0

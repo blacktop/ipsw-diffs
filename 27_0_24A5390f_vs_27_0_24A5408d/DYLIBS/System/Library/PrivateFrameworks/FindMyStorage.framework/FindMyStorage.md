@@ -2,18 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/FindMyStorage.framework/FindMyStorage`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_capture`
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_mpenum`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift_as_ret`
-- `__TEXT.__swift_as_cont`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -106.30.6.14.7

@@ -2,20 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/CampoServices.framework/CampoServices`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_capture`
-- `__TEXT.__swift_as_entry`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__AUTH.__objc_data`
-- `__AUTH.__data`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -73.0.12.0.0

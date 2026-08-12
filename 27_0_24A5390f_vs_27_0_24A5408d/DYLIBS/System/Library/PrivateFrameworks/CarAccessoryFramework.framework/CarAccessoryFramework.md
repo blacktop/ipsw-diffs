@@ -2,16 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/CarAccessoryFramework.framework/CarAccessoryFramework`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA_CONST.__objc_catlist`
-- `__AUTH_CONST.__const`
-- `__AUTH_CONST.__objc_arrayobj`
-- `__AUTH_CONST.__objc_floatobj`
-- `__AUTH_CONST.__objc_intobj`
-- `__AUTH_CONST.__objc_doubleobj`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -540.1.0.0.0

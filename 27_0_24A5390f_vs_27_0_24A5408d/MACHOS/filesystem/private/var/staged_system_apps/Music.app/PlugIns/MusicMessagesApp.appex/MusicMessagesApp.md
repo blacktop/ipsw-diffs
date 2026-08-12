@@ -19,7 +19,6 @@
 - `__DATA.__objc_selrefs`
 - `__DATA.__objc_data`
 - `__DATA.__objc_stublist`
-- `__DATA.__common`
 
 ```diff
 

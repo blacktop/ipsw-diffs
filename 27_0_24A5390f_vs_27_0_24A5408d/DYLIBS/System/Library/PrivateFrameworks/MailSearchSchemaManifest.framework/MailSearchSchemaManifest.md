@@ -2,11 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/MailSearchSchemaManifest.framework/MailSearchSchemaManifest`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_protos`
-- `__AUTH.__data`
-
 ```diff
 
 -2.0.9.0.0

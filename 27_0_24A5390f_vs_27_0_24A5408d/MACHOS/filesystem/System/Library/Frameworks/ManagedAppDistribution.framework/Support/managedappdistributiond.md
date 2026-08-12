@@ -9,7 +9,6 @@
 - `__TEXT.__swift5_protos`
 - `__TEXT.__eh_frame`
 - `__DATA_CONST.__auth_ptr`
-- `__DATA.__common`
 
 ```diff
 

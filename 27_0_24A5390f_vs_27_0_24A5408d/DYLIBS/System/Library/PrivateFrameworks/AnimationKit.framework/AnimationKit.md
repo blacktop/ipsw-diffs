@@ -2,15 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/AnimationKit.framework/AnimationKit`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_types2`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_mpenum`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-
 ```diff
 
 -9127.0.79.1.102

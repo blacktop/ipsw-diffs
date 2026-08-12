@@ -63,7 +63,5 @@ Functions:
 ~ sub_fffffc0000029394 -> sub_fffffc0000029870 : 2088 -> 2216
 ~ sub_fffffc000003c574 -> sub_fffffc000003cad0 : 332 -> 324
 CStrings:
-+ "Aug  5 2026 21:56:55"
 + "kAGFIPIORegionTypeAFRD2DNIRegisters"
-- "Jul 14 2026 21:16:39"
 ```

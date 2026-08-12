@@ -2,21 +2,6 @@
 
 > `/System/Library/VideoDecoders/AVD.videodecoder`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__objc_methlist`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_selrefs`
-- `__DATA_CONST.__objc_superrefs`
-- `__AUTH_CONST.__const`
-- `__AUTH_CONST.__cfstring`
-- `__AUTH_CONST.__objc_const`
-- `__AUTH_CONST.__weak_auth_got`
-- `__AUTH_CONST.__objc_intobj`
-- `__AUTH.__objc_data`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -991.0.0.0.0
@@ -41,10 +26,10 @@
    - /usr/lib/libobjc.A.dylib
 -  Functions: 4120
 -  Symbols:   3390
--  CStrings:  2073
+-  CStrings:  2070
 +  Functions: 4124
 +  Symbols:   3393
-+  CStrings:  2074
++  CStrings:  2072
  
 Symbols:
 + __ZN14CAVDAvxDecoder15validateRefBufsEv
@@ -66,13 +51,6 @@ Functions:
 + __ZN22AppleAVDCommandBuilder15allocRVRAMemoryEjj
 ~ __ZN15CAVDHevcDecoder24decodeGetRenderTargetRefEjPP9_vsurface : 900 -> 916
 CStrings:
-+ "21:54:05"
-+ "21:54:07"
 + "AppleAVD: INFO: %{public}s(): GUARDED: ref[%u] buf=%p dec_buf=%p\n"
-+ "Aug  5 2026"
 + "validateRefBufs"
-- "21:35:53"
-- "21:35:54"
-- "21:35:55"
-- "Jul 14 2026"
 ```

@@ -2,22 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/GameStoreKit.framework/GameStoreKit`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__gcc_except_tab`
-- `__TEXT.__swift5_mpenum`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__objc_superrefs`
-- `__DATA_CONST.__objc_arraydata`
-- `__DATA_CONST.__vfx_script_tbx`
-- `__AUTH_CONST.__cfstring`
-- `__AUTH_CONST.__objc_arrayobj`
-- `__AUTH_CONST.__objc_intobj`
-- `__DATA.__common`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -3.0.35.0.0

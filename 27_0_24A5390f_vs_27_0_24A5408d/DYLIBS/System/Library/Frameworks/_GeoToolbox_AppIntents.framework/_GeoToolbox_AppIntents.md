@@ -2,18 +2,6 @@
 
 > `/System/Library/Frameworks/_GeoToolbox_AppIntents.framework/_GeoToolbox_AppIntents`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__const`
-- `__TEXT.__swift5_typeref`
-- `__TEXT.__constg_swiftt`
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift_as_ret`
-- `__TEXT.__swift_as_cont`
-- `__TEXT.__eh_frame`
-- `__DATA_CONST.__objc_selrefs`
-- `__AUTH_CONST.__const`
-
 ```diff
 
 -34.30.6.12.9

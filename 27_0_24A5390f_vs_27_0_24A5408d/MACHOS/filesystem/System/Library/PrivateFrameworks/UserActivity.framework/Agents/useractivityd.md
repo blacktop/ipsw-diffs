@@ -38,9 +38,6 @@
    __TEXT.__unwind_info: 0x2548
    __DATA_CONST.__const: 0x1890
 CStrings:
-+ "01:08:41"
-+ "01:09:07"
-+ "Aug  4 2026"
 + "Screen state %@"
 + "TB,GisScreenOn,V_screenOn"
 + "Ti,V_screenBlankedToken"
@@ -52,10 +49,7 @@ CStrings:
 + "screenOn"
 + "setScreenBlankedToken:"
 + "setScreenOn:"
-- "04:37:45"
-- "04:38:11"
 - "Backlight %@"
-- "Jul 11 2026"
 - "TB,GisBacklightOn,V_backlightOn"
 - "Ti,V_backlightLevelToken"
 - "_backlightLevelToken"

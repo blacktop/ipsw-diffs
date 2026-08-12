@@ -2,12 +2,6 @@
 
 > `/System/Library/VideoEncoders/JPEGH1.videoencoder`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA_CONST.__const`
-- `__AUTH_CONST.__const`
-- `__DATA.__data`
-
 ```diff
 
 -3350.71.2.11.1

@@ -2,18 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/ClockAppIntentsSupport.framework/ClockAppIntentsSupport`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__constg_swiftt`
-- `__TEXT.__swift5_fieldmd`
-- `__TEXT.__swift5_proto`
-- `__DATA_CONST.__objc_classlist`
-- `__AUTH_CONST.__objc_const`
-- `__AUTH.__objc_data`
-- `__DATA_DIRTY.__objc_data`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -302.0.0.0.0

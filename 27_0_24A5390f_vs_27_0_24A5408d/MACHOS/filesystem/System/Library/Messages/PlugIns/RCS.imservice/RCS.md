@@ -17,8 +17,6 @@
 - `__DATA_CONST.__objc_protolist`
 - `__DATA_CONST.__objc_protorefs`
 - `__DATA_CONST.__auth_ptr`
-- `__DATA.__bss`
-- `__DATA.__common`
 
 ```diff
 

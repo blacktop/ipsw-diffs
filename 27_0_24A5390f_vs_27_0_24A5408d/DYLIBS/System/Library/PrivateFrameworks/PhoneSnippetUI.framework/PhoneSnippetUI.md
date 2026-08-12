@@ -2,15 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/PhoneSnippetUI.framework/PhoneSnippetUI`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_mpenum`
-- `__DATA_CONST.__objc_classlist`
-- `__AUTH_CONST.__objc_const`
-- `__AUTH.__objc_data`
-
 ```diff
 
 -3600.38.16.0.0

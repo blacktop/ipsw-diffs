@@ -2,17 +2,6 @@
 
 > `com.apple.driver.AppleMobileFileIntegrity`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA_CONST.__mod_init_func`
-- `__DATA_CONST.__mod_term_func`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__kalloc_type`
-- `__DATA_CONST.__kalloc_var`
-- `__DATA_CONST.__assert`
-- `__DATA_CONST.__got`
-- `__DATA_CONST.__auth_ptr`
-
 ```diff
 
 -1171.0.3.0.0
@@ -41,15 +30,13 @@
 -  Functions: 916
 +  Functions: 917
    Symbols:   0
--  CStrings:  1162
-+  CStrings:  1169
+-  CStrings:  1161
++  CStrings:  1168
  
 CStrings:
 + "%s: Hash type is SHA1"
-+ "21:45:38"
 + "AMFI: Platform binary with platform identifier not in trust cache\n"
 + "AMFI: bailing out because of restricted entitlements.\n"
-+ "Aug  5 2026"
 + "Code has restricted entitlements, but the validation of its code signature failed.\nUnsatisfied Entitlements: %s"
 + "com.apple.amfi.developer_mode_state"
 + "developer_app_executions"
@@ -57,7 +44,5 @@ CStrings:
 + "lockdown_mode_state"
 + "platform binary with platform identifier not in trust cache\n"
 - "%s: Hash type is not SHA256 (%u) but %u."
-- "21:12:38"
-- "Jul 14 2026"
 - "com.apple.backboardd"
 ```

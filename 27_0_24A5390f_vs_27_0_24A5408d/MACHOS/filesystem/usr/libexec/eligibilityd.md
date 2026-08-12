@@ -26,7 +26,6 @@
 - `__DATA.__objc_selrefs`
 - `__DATA.__objc_data`
 - `__DATA.__data`
-- `__DATA.__bss`
 
 ```diff
 
@@ -68,18 +67,14 @@
    - /usr/lib/swift/libswiftos.dylib
    Functions: 1402
    Symbols:   644
--  CStrings:  2019
-+  CStrings:  2020
+-  CStrings:  2018
++  CStrings:  2019
  
 Functions:
 ~ sub_1000325d0 : 1368 -> 1356
 ~ sub_100039738 -> sub_10003972c : 796 -> 784
 CStrings:
-+ "00:03:56"
 + "446.2.1"
-+ "Aug  4 2026"
 + "BlockChina"
-- "00:57:27"
 - "446.0.2"
-- "Jul 10 2026"
 ```

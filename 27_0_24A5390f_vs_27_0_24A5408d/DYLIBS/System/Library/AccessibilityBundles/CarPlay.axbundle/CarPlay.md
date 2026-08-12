@@ -2,12 +2,6 @@
 
 > `/System/Library/AccessibilityBundles/CarPlay.axbundle/CarPlay`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__got`
-- `__AUTH_CONST.__const`
-
 ```diff
 
 -3045.0.0.0.0

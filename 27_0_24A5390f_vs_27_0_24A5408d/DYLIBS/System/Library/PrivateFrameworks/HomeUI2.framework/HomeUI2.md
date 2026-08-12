@@ -2,14 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/HomeUI2.framework/HomeUI2`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_mpenum`
-- `__AUTH_CONST.__lazy_load_got`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -1238.0.0.0.0

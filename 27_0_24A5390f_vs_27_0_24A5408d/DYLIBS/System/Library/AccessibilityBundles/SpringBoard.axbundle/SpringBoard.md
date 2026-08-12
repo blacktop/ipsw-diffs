@@ -2,16 +2,6 @@
 
 > `/System/Library/AccessibilityBundles/SpringBoard.axbundle/SpringBoard`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__objc_arraydata`
-- `__AUTH_CONST.__objc_intobj`
-- `__AUTH_CONST.__objc_arrayobj`
-- `__DATA.__data`
-
 ```diff
 
 -3045.0.0.0.0

@@ -2,10 +2,6 @@
 
 > `com.apple.driver.AppleGameControllerPersonality`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA.__data`
-
 ```diff
 
 -14.0.21.0.0

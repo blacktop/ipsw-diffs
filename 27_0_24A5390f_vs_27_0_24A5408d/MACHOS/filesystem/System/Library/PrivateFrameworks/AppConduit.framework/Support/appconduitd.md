@@ -70,11 +70,9 @@
 +  CStrings:  3666
  
 CStrings:
-+ "Aug  4 2026"
 + "T@\"NSArray\",C,N,V_architectureSlices"
 + "_architectureSlices"
 + "architectureSlices"
 + "architectureSlicesForCompanionAppRecord:"
 + "setArchitectureSlices:"
-- "Jul 10 2026"
 ```

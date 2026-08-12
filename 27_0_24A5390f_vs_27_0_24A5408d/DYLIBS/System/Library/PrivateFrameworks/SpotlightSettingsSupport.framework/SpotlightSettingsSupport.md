@@ -2,10 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/SpotlightSettingsSupport.framework/SpotlightSettingsSupport`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -236.0.11.100.0

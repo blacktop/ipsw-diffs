@@ -2,18 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/AlarmAppIntents.framework/AlarmAppIntents`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__constg_swiftt`
-- `__TEXT.__swift5_fieldmd`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_proto`
-- `__TEXT.__swift5_capture`
-- `__TEXT.__swift5_protos`
-- `__DATA_CONST.__const`
-- `__AUTH_CONST.__const`
-
 ```diff
 
 -302.0.0.0.0

@@ -2,15 +2,6 @@
 
 > `/System/Library/AccessibilityBundles/QuickSpeak.bundle/QuickSpeak`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__got`
-- `__AUTH_CONST.__const`
-- `__DATA.__data`
-
 ```diff
 
 -3237.1.0.0.0

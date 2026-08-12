@@ -2,17 +2,6 @@
 
 > `com.apple.driver.AppleMSG`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA.__data`
-- `__DATA_CONST.__mod_init_func`
-- `__DATA_CONST.__mod_term_func`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__kalloc_type`
-- `__DATA_CONST.__kalloc_var`
-- `__DATA_CONST.__auth_got`
-- `__DATA_CONST.__got`
-
 ```diff
 
 -420.0.1.0.0
@@ -39,18 +28,14 @@
 -  Functions: 1772
 +  Functions: 1770
    Symbols:   0
--  CStrings:  1013
-+  CStrings:  1011
+-  CStrings:  1012
++  CStrings:  1010
  
 CStrings:
 + "\"_msgDriver reference is NULL!\" @%s:%d"
-+ "21:51:44"
-+ "Aug  5 2026"
 + "_msgDriver != nullptr"
 - "\"msgService reference is NULL!\" @%s:%d"
 - "\"msgService->_msgDriver reference is NULL!\" @%s:%d"
-- "21:20:48"
-- "Jul 14 2026"
 - "msgService != nullptr"
 - "msgService->_msgDriver != nullptr"
 ```

@@ -2,15 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/VoiceOverServices.framework/VoiceOverServices`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_superrefs`
-- `__AUTH_CONST.__objc_intobj`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -3237.1.0.0.0

@@ -2,21 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/IntelligenceTasksEngine.framework/IntelligenceTasksEngine`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_types`
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_capture`
-- `__TEXT.__cstring`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_proto`
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift_as_ret`
-- `__TEXT.__swift_as_cont`
-- `__TEXT.__swift5_acfuncs`
-- `__AUTH.__objc_data`
-
 ```diff
 
 -247.0.1.0.0

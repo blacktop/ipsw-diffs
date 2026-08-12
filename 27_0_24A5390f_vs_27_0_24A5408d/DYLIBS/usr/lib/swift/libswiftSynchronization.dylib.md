@@ -2,20 +2,6 @@
 
 > `/usr/lib/swift/libswiftSynchronization.dylib`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__const`
-- `__TEXT.__constg_swiftt`
-- `__TEXT.__swift5_types2`
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_proto`
-- `__TEXT.__swift5_types`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__eh_frame`
-- `__AUTH_CONST.__const`
-- `__AUTH.__data`
-
 ```diff
 
 -6.4.0.27.101

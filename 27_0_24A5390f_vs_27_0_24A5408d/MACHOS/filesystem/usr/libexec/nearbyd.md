@@ -21,8 +21,6 @@
 - `__DATA_CONST.__got`
 - `__DATA_CONST.__auth_ptr`
 - `__DATA.__data`
-- `__DATA.__bss`
-- `__DATA.__common`
 
 ```diff
 

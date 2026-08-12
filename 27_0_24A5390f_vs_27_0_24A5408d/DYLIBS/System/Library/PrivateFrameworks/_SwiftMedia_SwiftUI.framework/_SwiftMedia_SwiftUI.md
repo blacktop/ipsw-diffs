@@ -2,15 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/_SwiftMedia_SwiftUI.framework/_SwiftMedia_SwiftUI`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_mpenum`
-- `__TEXT.__swift5_protos`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_classlist`
-- `__AUTH.__objc_data`
-
 ```diff
 
 -60.67.1.0.0

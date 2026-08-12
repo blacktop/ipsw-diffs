@@ -5,9 +5,6 @@
 ### Sections with Same Size but Changed Content
 
 - `__TEXT.__cstring`
-- `__TEXT.__swift5_fieldmd`
-- `__TEXT.__constg_swiftt`
-- `__DATA_CONST.__objc_selrefs`
 
 ```diff
 

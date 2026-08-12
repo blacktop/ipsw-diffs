@@ -22,7 +22,6 @@
 - `__DATA.__objc_selrefs`
 - `__DATA.__objc_data`
 - `__DATA.__data`
-- `__DATA.__bss`
 
 ```diff
 
@@ -87,10 +86,10 @@
    - /usr/lib/swift/libswiftos.dylib
 -  Functions: 10097
 -  Symbols:   15516
--  CStrings:  2551
+-  CStrings:  2549
 +  Functions: 10145
 +  Symbols:   15594
-+  CStrings:  2569
++  CStrings:  2567
  
 Symbols:
 + /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/CoreGPS/install/Symbols/BuiltProducts/libGPSDaemon.a(GpsdClientManager-23f8c4a442d92b24d005adb3aa3c4b98.o)
@@ -272,9 +271,6 @@ CStrings:
 + "#gdm,handleReset,device,%{public}p"
 + "#gdm,stop,alreadyInFlight,ignore"
 + "#version,CoreGPS-365.0.9.0.1,machContSec,%{public}.3f,BuildTime,{Aug  5 2026,21:57:45}"
-+ "21:57:42"
-+ "22:00:31"
-+ "Aug  5 2026"
 + "ExitCompletedWatchdog"
 + "GnssClientManager,handleInterrupt,restarting,%{public}llu,ms"
 + "GnssClientManager,ingressRequest,full,type,%{public}d"
@@ -293,8 +289,6 @@ CStrings:
 + "gnss::Exception,%{public}s,%{public}s,%{public}d,payload,%{public}d,#gdh,exitCompletedWatchdog,noExitCompleted,forceExit"
 - "#gdm,handleReset,notBuilt,skip"
 - "#version,CoreGPS-365.0.9,machContSec,%{public}.3f,BuildTime,{Jul 14 2026,21:29:22}"
-- "21:29:17"
-- "21:32:57"
 - "GnssClientManager,gpsdDisconnected,sendingExit"
 - "GpsdGnssDeviceRpc,handleRequest(buffer),pendingNotEmpty,type,%{public}d"
 - "GpsdGnssDeviceRpc,handleRequest(buffer),shmemFull,park,type,%{public}d,size,%{public}zu"
@@ -302,6 +296,5 @@ CStrings:
 - "GpsdGnssDeviceRpc,handleRequest,sendBusy,park,type,%{public}d"
 - "GpsdGnssDeviceRpc,sendPendingRequest,type,%{public}d,bufferSize,%{public}zu"
 - "GpsdGnssDeviceRpc,stats,pending,%{public}d"
-- "Jul 14 2026"
 - "glonassExternalCalMeters,%{public}.2f"
 ```

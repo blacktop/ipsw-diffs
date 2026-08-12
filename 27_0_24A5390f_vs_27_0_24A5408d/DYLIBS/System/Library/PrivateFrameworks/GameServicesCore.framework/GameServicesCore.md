@@ -2,16 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/GameServicesCore.framework/GameServicesCore`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_mpenum`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -821.0.20.0.0

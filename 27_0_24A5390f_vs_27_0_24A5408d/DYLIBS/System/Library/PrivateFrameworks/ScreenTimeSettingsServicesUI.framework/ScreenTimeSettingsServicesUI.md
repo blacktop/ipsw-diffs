@@ -2,14 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/ScreenTimeSettingsServicesUI.framework/ScreenTimeSettingsServicesUI`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__AUTH_CONST.__cfstring`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -91.1.0.0.0

@@ -2,14 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/MediaLibraryCore.framework/MediaLibraryCore`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__weak_got`
-- `__DATA_CONST.__got`
-- `__AUTH_CONST.__const`
-- `__AUTH_CONST.__cfstring`
-
 ```diff
 
 -4026.100.72.0.0

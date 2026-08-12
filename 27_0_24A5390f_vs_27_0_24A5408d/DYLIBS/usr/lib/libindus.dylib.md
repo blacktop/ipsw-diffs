@@ -2,15 +2,6 @@
 
 > `/usr/lib/libindus.dylib`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__weak_got`
-- `__AUTH_CONST.__const`
-- `__AUTH_CONST.__cfstring`
-- `__AUTH_CONST.__weak_auth_got`
-- `__AUTH.__data`
-
 ```diff
 
 -217.0.0.0.0
@@ -52,7 +43,6 @@ CStrings:
 + "%10u %s%c %s: IOCreatePlugInInterfaceForService retry %d/%d\n"
 + "%10u %s%c %s: IOServiceGetMatchingService - failed after %d retries\n"
 + "%10u %s%c %s: IOServiceGetMatchingService retry %d/%d\n"
-+ "Aug  3 2026"
 + "Disabled!  "
 + "Pre_Positioning:  Clearing Sleep_Sub_us_Time, time_diff %g --> %d us"
 + "v2.215.1.2026-07-16"
@@ -64,7 +54,6 @@ CStrings:
 - " (Disabled!)      "
 - "%10u %s%c %s: IOCreatePlugInInterfaceForService ,%s\n"
 - "(Disabled!)  "
-- "Jul  9 2026"
 - "Pre_Positioning:  Clearing Sleep_Sub_us_Time, time_diff %d --> %d us"
 - "v2.214.0.2026-06-03"
 ```

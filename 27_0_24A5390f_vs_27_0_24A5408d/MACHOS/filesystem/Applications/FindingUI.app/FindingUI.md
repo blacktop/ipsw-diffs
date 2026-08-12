@@ -11,8 +11,6 @@
 - `__TEXT.__swift_as_ret`
 - `__TEXT.__swift5_mpenum`
 - `__TEXT.__swift5_protos`
-- `__DATA.__bss`
-- `__DATA.__common`
 
 ```diff
 

@@ -2,18 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/VisualIntelligenceUI.framework/VisualIntelligenceUI`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_mpenum`
-- `__TEXT.__swift5_protos`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__vfx_script_tbl`
-- `__DATA.__objc_stublist`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -234.0.0.0.0

@@ -2,18 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/UARPKit.framework/UARPKit`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__objc_superrefs`
-- `__DATA_CONST.__got`
-- `__AUTH.__objc_data`
-- `__DATA.__data`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -1587.0.27.0.0

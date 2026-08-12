@@ -2,14 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/CoreTransparency.framework/CoreTransparency`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_types`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_mpenum`
-- `__TEXT.__swift5_types2`
-
 ```diff
 
 -1766.0.39.0.2

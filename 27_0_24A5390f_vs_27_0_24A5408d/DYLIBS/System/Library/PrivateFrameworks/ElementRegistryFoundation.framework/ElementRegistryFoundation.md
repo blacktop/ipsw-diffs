@@ -2,19 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/ElementRegistryFoundation.framework/ElementRegistryFoundation`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_mpenum`
-- `__TEXT.__swift5_protos`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__AUTH_CONST.__cfstring`
-- `__AUTH.__data`
-- `__DATA.__data`
-
 ```diff
 
 -18.0.0.0.0

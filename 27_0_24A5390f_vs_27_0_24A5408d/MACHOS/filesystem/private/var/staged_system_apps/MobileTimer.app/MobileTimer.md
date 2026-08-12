@@ -19,8 +19,6 @@
 - `__DATA_CONST.__objc_intobj`
 - `__DATA_CONST.__objc_arraydata`
 - `__DATA_CONST.__objc_arrayobj`
-- `__DATA.__bss`
-- `__DATA.__common`
 
 ```diff
 

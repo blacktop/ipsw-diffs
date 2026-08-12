@@ -5,19 +5,6 @@
 ### Sections with Same Size but Changed Content
 
 - `__TEXT.__oslogstring`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_capture`
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_mpenum`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__objc_superrefs`
-- `__AUTH_CONST.__objc_intobj`
-- `__AUTH_CONST.__objc_arrayobj`
-- `__AUTH_CONST.__objc_dictobj`
-- `__AUTH_CONST.__objc_doubleobj`
-- `__DATA_DIRTY.__objc_data`
 
 ```diff
 

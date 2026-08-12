@@ -28,7 +28,6 @@
 - `__DATA_CONST.__got`
 - `__DATA_CONST.__auth_ptr`
 - `__DATA.__objc_stublist`
-- `__DATA.__common`
 
 ```diff
 

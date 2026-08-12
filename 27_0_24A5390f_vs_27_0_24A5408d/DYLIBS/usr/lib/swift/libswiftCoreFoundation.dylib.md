@@ -2,16 +2,6 @@
 
 > `/usr/lib/swift/libswiftCoreFoundation.dylib`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__const`
-- `__TEXT.__swift5_typeref`
-- `__TEXT.__constg_swiftt`
-- `__TEXT.__swift5_proto`
-- `__TEXT.__unwind_info`
-- `__TEXT.__eh_frame`
-- `__AUTH_CONST.__const`
-
 ```diff
 
  2412.0.0.0.0

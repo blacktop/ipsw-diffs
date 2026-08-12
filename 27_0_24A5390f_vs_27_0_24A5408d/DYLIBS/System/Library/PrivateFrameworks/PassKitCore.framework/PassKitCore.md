@@ -2,22 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/PassKitCore.framework/PassKitCore`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift_as_ret`
-- `__TEXT.__swift_as_cont`
-- `__TEXT.__swift5_types2`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__objc_arraydata`
-- `__AUTH_CONST.__objc_arrayobj`
-- `__AUTH_CONST.__objc_dictobj`
-- `__AUTH_CONST.__objc_doubleobj`
-- `__AUTH.__thread_vars`
-- `__DATA_DIRTY.__objc_data`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -1689.3.0.0.0

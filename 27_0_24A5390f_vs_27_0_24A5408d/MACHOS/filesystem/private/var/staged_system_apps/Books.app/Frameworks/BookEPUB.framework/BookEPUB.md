@@ -4,7 +4,6 @@
 
 ### Sections with Same Size but Changed Content
 
-- `__TEXT.__cstring`
 - `__TEXT.__const`
 - `__TEXT.__swift5_typeref`
 - `__TEXT.__constg_swiftt`
@@ -25,8 +24,6 @@
 - `__DATA_CONST.__auth_ptr`
 - `__DATA.__objc_data`
 - `__DATA.__data`
-- `__DATA.__bss`
-- `__DATA.__common`
 
 ```diff
 

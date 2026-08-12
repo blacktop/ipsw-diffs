@@ -26,8 +26,6 @@
 - `__DATA_CONST.__got`
 - `__DATA.__objc_data`
 - `__DATA.__data`
-- `__DATA.__bss`
-- `__DATA.__common`
 
 ```diff
 

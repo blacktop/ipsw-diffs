@@ -8,8 +8,6 @@
 - `__DATA_CONST.__const`
 - `__DATA_CONST.__cfstring`
 - `__DATA.__data`
-- `__DATA.__common`
-- `__DATA.__bss`
 
 ```diff
 

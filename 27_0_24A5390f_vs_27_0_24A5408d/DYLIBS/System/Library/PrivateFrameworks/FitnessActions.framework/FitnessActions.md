@@ -2,16 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/FitnessActions.framework/FitnessActions`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__objc_methlist`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_mpenum`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_classlist`
-- `__AUTH_CONST.__objc_const`
-
 ```diff
 
 -2027.0.134.0.0

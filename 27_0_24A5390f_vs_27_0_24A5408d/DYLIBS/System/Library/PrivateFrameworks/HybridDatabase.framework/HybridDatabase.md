@@ -2,25 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/HybridDatabase.framework/HybridDatabase`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__init_offsets`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_capture`
-- `__TEXT.__swift5_mpenum`
-- `__TEXT.__swift5_protos`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__weak_got`
-- `__DATA_CONST.__objc_selrefs`
-- `__DATA_CONST.__got`
-- `__AUTH_CONST.__cfstring`
-- `__AUTH_CONST.__objc_const`
-- `__AUTH_CONST.__weak_auth_got`
-- `__AUTH.__data`
-- `__AUTH.__thread_vars`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -49.0.1.0.0

@@ -14,13 +14,10 @@
 - `__DATA.__mod_init_func`
 - `__DATA.__shared_cache`
 - `__DATA.__got`
-- `__DATA.__thread_bss`
-- `__DATA.__common`
 - `__PDATA.__auth_ptr`
 - `__PDATA.__const`
 - `__PDATA.__data`
 - `__PDATA.__shared_cache`
-- `__PDATA.__common`
 
 ```diff
 
@@ -149,7 +146,6 @@ CStrings:
 + "SCA: applying lower thresholds"
 + "SCA: restoring normal thresholds (lower thresholds window ended)"
 + "Swift/BorrowingSequence.swift"
-+ "Tue Aug  4 06:17:21 PDT 2026"
 + "[EIC] MMIO read: addr=%p value=0x%llx\n"
 + "[EIC] MMIO read: addr=%p value=0x%x\n"
 + "[EIC] MMIO write: addr=%p value=0x%x\n"
@@ -222,7 +218,6 @@ CStrings:
 - "Setting UI Brightness "
 - "Soft boundary minimum ontime not met"
 - "Switched to MIB ramp up mode during brightness ramp down, ignoring this frame."
-- "Thu Jul 16 00:30:01 PDT 2026"
 - "Underflow in contrast failure session recovery check, "
 - "Underflow in soft boundary SIL session start grace period evaluation - "
 - "Underflow when checking minimum ontime for soft boundary"

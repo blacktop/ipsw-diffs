@@ -2,15 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/FitnessAppRoot.framework/FitnessAppRoot`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_builtin`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__AUTH.__objc_data`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -2027.0.134.0.0

@@ -2,15 +2,6 @@
 
 > `/System/Library/Frameworks/CoreTelephony.framework/Support/libCommCenterKCommandDrivers.dylib`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__cstring`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__weak_got`
-- `__DATA_CONST.__got`
-- `__AUTH_CONST.__cfstring`
-- `__AUTH_CONST.__weak_auth_got`
-
 ```diff
 
 -13482.1.0.0.0

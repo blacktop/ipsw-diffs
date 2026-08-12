@@ -2,17 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/CMCapture.framework/CMCapture`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__AUTH_CONST.__weak_auth_got`
-- `__AUTH_CONST.__objc_floatobj`
-- `__AUTH_CONST.__objc_dictobj`
-- `__AUTH_CONST.__objc_doubleobj`
-- `__AUTH.__data`
-
 ```diff
 
 -761.0.0.0.3
@@ -104,10 +93,10 @@
    - /usr/lib/libtailspin.dylib
 -  Functions: 41663
 -  Symbols:   67152
--  CStrings:  38929
+-  CStrings:  38928
 +  Functions: 36743
 +  Symbols:   65806
-+  CStrings:  20459
++  CStrings:  20458
  
 Symbols:
 + +[BWMultiCamConfiguration configurationWithUnsynchronizedActiveStreamsPortTypes:synchronizedActiveStreamsGroupsPortTypes:stereoVideoCaptureEnabled:multiCamClientCompositingEnabled:exclusivelyForSecureProcessing:builtInMicrophoneIsRecording:]
@@ -2139,7 +2128,6 @@ CStrings:
 + "-[BWPhotonicEngineNode handleStillImagePrewarmWithSettings:resourceConfig:forInput:]_block_invoke_4"
 + "-[FigCaptureClientApplicationStateMonitor _resolveApplicationStateWithRawBackgroundedState:]"
 + "-[FigCaptureMovieFileSinkHeadPipeline _buildMovieFileSinkHeadPipeline:videoSourceCaptureOutputsByConnectionID:sourceStreamingSensorRawOutput:sourceStreamingHueMapOutput:sourceStreamingSemanticMasksOutput:audioSourceCaptureOutput:audioSourceCinematicAudioCaptureOutput:smartCameraInferenceOutput:detectedObjectBoxedMetadataOutputs:objectDetectionSourceOutput:metadataSourcePipelineOutputs:graph:parentPipeline:inferenceScheduler:captureDevicesByConnectionID:audioSourceDelegate:fileCoordinatorStatusDelegate:irisRequestDelegate:masterClock:workgroup:videoGreenGhostMitigationEnabled:]"
-+ "00:19:31"
 + "<<< FigVirtualCaptureCard >>> %s: Insufficient remaining capacity to reserve: %lli"
 + "<<< FigVirtualCaptureCard >>> %s: Releasing un-saved reservation %@"
 + "<<< FigVirtualCaptureCard >>> %s: symlinkTargetURLCString %s, saveToFileURL %@, preallocatedFileURL %@"
@@ -2159,7 +2147,6 @@ CStrings:
 + "<<<< FigCaptureSourceServer >>>> %s: Failed to find source for sourceToken %d"
 + "AUVoiceIOClients/"
 + "AVGQG37DCWSL47LUT3OXNYCVIFJC5M"
-+ "Aug  5 2026"
 + "BuiltInMicrophoneIsRecording"
 + "FigVirtualCaptureCard_SetCapacity_block_invoke_2"
 + "Frame sender is nil during render.  Skipping sending frame."
@@ -5822,7 +5809,6 @@ CStrings:
 - "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/CameraCapture/VideoProcessors/VideoStabilizationX/Utilities/GVSOverscanPredictor.m %s: focalLength is null"
 - "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/CameraCapture/VideoProcessors/VideoStabilizationX/Utilities/GVSOverscanPredictor.m %s: pole must be between 0 and 1"
 - "0 / 1 pre-bracket frame, "
-- "03:44:45"
 - "0420660d42bf570c07c108cda1c5525f4661f842"
 - "1 / 1 pre-bracket frame, "
 - "1.0x"
@@ -18372,7 +18358,6 @@ CStrings:
 - "JPEG"
 - "JasperColorStillsExecutor"
 - "JasperDisparityProcessor"
-- "Jul 11 2026"
 - "Key not registered"
 - "Keyspace not valid"
 - "L: %1.4f %d H: %1.4f %d"

@@ -2,14 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/SiriSetup.framework/SiriSetup`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_superrefs`
-- `__AUTH_CONST.__cfstring`
-- `__AUTH_CONST.__objc_intobj`
-- `__DATA.__objc_stublist`
-
 ```diff
 
 -3600.62.36.1.1

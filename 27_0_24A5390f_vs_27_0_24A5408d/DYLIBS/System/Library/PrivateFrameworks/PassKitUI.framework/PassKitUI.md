@@ -2,18 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/PassKitUI.framework/PassKitUI`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_mpenum`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__vfx_script_tbl`
-- `__AUTH_CONST.__lazy_load_got`
-- `__AUTH_CONST.__objc_dictobj`
-- `__AUTH_CONST.__objc_floatobj`
-- `__DATA.__objc_stublist`
-- `__DATA_DIRTY.__objc_data`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -1689.3.0.0.0

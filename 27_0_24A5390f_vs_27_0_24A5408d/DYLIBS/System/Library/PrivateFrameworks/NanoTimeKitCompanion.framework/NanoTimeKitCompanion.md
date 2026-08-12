@@ -2,10 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/NanoTimeKitCompanion.framework/NanoTimeKitCompanion`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA.__data`
-
 ```diff
 
 -2483.512.0.0.0

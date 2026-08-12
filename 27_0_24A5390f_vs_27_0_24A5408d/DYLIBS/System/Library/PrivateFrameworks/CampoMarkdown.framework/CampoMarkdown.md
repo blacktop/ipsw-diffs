@@ -2,19 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/CampoMarkdown.framework/CampoMarkdown`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__const`
-- `__TEXT.__swift5_typeref`
-- `__TEXT.__constg_swiftt`
-- `__TEXT.__eh_frame`
-- `__DATA_CONST.__const`
-- `__AUTH_CONST.__const`
-- `__AUTH_CONST.__objc_const`
-- `__AUTH.__data`
-- `__DATA_DIRTY.__objc_data`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -73.0.12.0.0

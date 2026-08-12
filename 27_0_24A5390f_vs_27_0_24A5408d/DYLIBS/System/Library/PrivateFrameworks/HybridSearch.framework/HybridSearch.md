@@ -2,21 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/HybridSearch.framework/HybridSearch`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__objc_methlist`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_mpenum`
-- `__TEXT.__swift5_types2`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__AUTH_CONST.__objc_const`
-- `__AUTH.__objc_data`
-
 ```diff
 
 -62.1.0.0.0

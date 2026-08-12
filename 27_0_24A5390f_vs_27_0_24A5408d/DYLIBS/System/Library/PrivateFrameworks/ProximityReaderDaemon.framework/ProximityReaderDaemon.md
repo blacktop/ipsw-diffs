@@ -2,19 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/ProximityReaderDaemon.framework/ProximityReaderDaemon`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_mpenum`
-- `__TEXT.__swift5_protos`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__AUTH.__objc_data`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -150.32.0.0.0

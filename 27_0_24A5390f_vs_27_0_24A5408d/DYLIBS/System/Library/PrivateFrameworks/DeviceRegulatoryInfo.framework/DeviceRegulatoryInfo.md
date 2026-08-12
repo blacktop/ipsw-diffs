@@ -2,16 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/DeviceRegulatoryInfo.framework/DeviceRegulatoryInfo`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_mpenum`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_classlist`
-- `__AUTH_CONST.__objc_const`
-- `__AUTH.__objc_data`
-
 ```diff
 
 -2027.0.2.0.0

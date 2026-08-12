@@ -2,11 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/IntelligenceFlowRuntime.framework/IntelligenceFlowRuntime`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_types2`
-- `__DATA_CONST.__const`
-
 ```diff
 
 -3600.151.4.501.6

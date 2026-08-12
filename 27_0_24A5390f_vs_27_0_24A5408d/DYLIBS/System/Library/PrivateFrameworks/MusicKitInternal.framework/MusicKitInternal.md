@@ -2,19 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/MusicKitInternal.framework/MusicKitInternal`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_acfuncs`
-- `__TEXT.__swift5_mpenum`
-- `__TEXT.__swift5_types2`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__objc_superrefs`
-- `__AUTH_CONST.__cfstring`
-- `__AUTH_CONST.__objc_intobj`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -4026.100.89.0.0

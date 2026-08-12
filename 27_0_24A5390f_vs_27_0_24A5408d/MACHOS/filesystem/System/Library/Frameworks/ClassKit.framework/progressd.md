@@ -6,7 +6,6 @@
 
 - `__TEXT.__objc_methlist`
 - `__TEXT.__const`
-- `__TEXT.__cstring`
 - `__TEXT.__eh_frame`
 - `__DATA_CONST.__const`
 

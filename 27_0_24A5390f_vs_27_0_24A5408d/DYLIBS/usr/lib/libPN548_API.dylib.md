@@ -2,12 +2,6 @@
 
 > `/usr/lib/libPN548_API.dylib`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__const`
-- `__AUTH_CONST.__const`
-- `__AUTH_CONST.__cfstring`
-
 ```diff
 
 -370.40.2.0.0

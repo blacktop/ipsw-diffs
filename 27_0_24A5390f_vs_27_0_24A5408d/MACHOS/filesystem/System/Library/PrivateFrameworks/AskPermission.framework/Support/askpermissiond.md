@@ -83,10 +83,10 @@
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 1150
 -  Symbols:   545
--  CStrings:  2129
+-  CStrings:  2128
 +  Functions: 1154
 +  Symbols:   547
-+  CStrings:  2137
++  CStrings:  2136
  
 Symbols:
 + _CGContextScaleCTM
@@ -94,9 +94,7 @@ Symbols:
 CStrings:
 + "%{public}@: %@ (%@) Kill Switch: %d"
 + "%{public}@: AskTo Kill Switch ON *or* FeatureFlag disabled - Checking if we can send via PeopleClient"
-+ "12:38:53"
 + "AskTo"
-+ "Aug  4 2026"
 + "Bag is NIL when checking %@ (%@) kill switch - defaulting to allow"
 + "Completion Handler is NIL when checking %@ (%@) kill switch - ATB request won't be sent"
 + "Messages"
@@ -106,6 +104,4 @@ CStrings:
 + "enable-ks-via-askto"
 - "%{public}@: AskToIntegration Feature Flag disabled - Checking if we can send via PeopleClient"
 - "%{public}@: canSendViaMessages: %d - kill switch: %d"
-- "05:38:49"
-- "Jul 11 2026"
 ```

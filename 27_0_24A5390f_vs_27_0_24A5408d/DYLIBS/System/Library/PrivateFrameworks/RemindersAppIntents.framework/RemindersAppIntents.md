@@ -2,23 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/RemindersAppIntents.framework/RemindersAppIntents`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__objc_methlist`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__cstring`
-- `__TEXT.__swift5_capture`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_mpenum`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__got`
-- `__AUTH_CONST.__objc_const`
-- `__AUTH.__objc_data`
-- `__DATA_DIRTY.__objc_data`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -4043.0.0.0.0

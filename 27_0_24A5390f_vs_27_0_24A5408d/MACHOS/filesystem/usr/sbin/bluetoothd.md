@@ -83,12 +83,10 @@
 -  Functions: 37368
 +  Functions: 37354
    Symbols:   1801
--  CStrings:  43025
-+  CStrings:  43027
+-  CStrings:  43024
++  CStrings:  43026
  
 CStrings:
-+ "22:14:55"
-+ "Aug  5 2026"
 + "BandSwitchManager: HRB band change for device %{public}s failed status:%d. Current band is still %d"
 + "BandSwitchManager: Ignoring the current band %d"
 + "BandSwitchManager: No Usable Band Found, Switching to ISM2.4"
@@ -117,10 +115,8 @@ CStrings:
 + "v32@0:8^{_OI_HCI_CONNECTION={?=SCI^?SsSSCBBSBCB^{_OI_HCI_CONNECTION}}(?={?={?=[6C]}CI^{_OI_HCI_CONNECTION}I^{?}^{?}^v^{_ESCO_SETUP_PARAMS}^{?}^{?}^{?}SSSSCiCCC^{_L2CAP_RECV_DATA}^{_L2CAP_RECV_DATA}I{?=iSSSS}BBBBBBBBB{?=is}BB^vBBBCB[4C][8C]IIIBB{?=[8C]}{?=[8C]}SCCBIICCBC{?=ICCCCSS}B^viSSBBBBBB}{?=^{_OI_HCI_CONNECTION}CCCCCC}{LE_CONNECTION_RECORD={LE_Address=C{?=[6C]}}B{LE_Address=C{?=[6C]}}{LE_Address=C{?=[6C]}}C^{_OI_HCI_CONNECTION}SSSSSSSSSSSSSSSSSSSC[5C]CBBBBBiiiiiBBB{?=SSSSSSB}CCCC{?=[8C]}{?=[32C]}II^{_L2CAP_RECV_DATA}IiBIIB^{s_linkedListHolder}BBi^v{?=CIIS}BBBQBSSSSBBC{?=CSCCCCCCCCSSCSSSSSCC}{?=CSCCCCCCCCSSCSSSSSCCSCCCC}BBC{?=is}IB}{LE_CIS_RECORD=^{_OI_HCI_CONNECTION}CCCC{LE_ISO_DATA=SSII{LE_ISO_RECV_DATA=*SS}}{LE_CIS_EST_DATA=SIIIICCCCCCCSSS}i}{LE_BIS_RECORD=CC{LE_ISO_DATA=SSII{LE_ISO_RECV_DATA=*SS}}i}{OTHER_CONNECTION_RECORD=^{_OI_HCI_CONNECTION}IC^{_L2CAP_RECV_DATA}})}16i24c28"
 + "v36@0:8I16i20^{_OI_HCI_CONNECTION={?=SCI^?SsSSCBBSBCB^{_OI_HCI_CONNECTION}}(?={?={?=[6C]}CI^{_OI_HCI_CONNECTION}I^{?}^{?}^v^{_ESCO_SETUP_PARAMS}^{?}^{?}^{?}SSSSCiCCC^{_L2CAP_RECV_DATA}^{_L2CAP_RECV_DATA}I{?=iSSSS}BBBBBBBBB{?=is}BB^vBBBCB[4C][8C]IIIBB{?=[8C]}{?=[8C]}SCCBIICCBC{?=ICCCCSS}B^viSSBBBBBB}{?=^{_OI_HCI_CONNECTION}CCCCCC}{LE_CONNECTION_RECORD={LE_Address=C{?=[6C]}}B{LE_Address=C{?=[6C]}}{LE_Address=C{?=[6C]}}C^{_OI_HCI_CONNECTION}SSSSSSSSSSSSSSSSSSSC[5C]CBBBBBiiiiiBBB{?=SSSSSSB}CCCC{?=[8C]}{?=[32C]}II^{_L2CAP_RECV_DATA}IiBIIB^{s_linkedListHolder}BBi^v{?=CIIS}BBBQBSSSSBBC{?=CSCCCCCCCCSSCSSSSSCC}{?=CSCCCCCCCCSSCSSSSSCCSCCCC}BBC{?=is}IB}{LE_CIS_RECORD=^{_OI_HCI_CONNECTION}CCCC{LE_ISO_DATA=SSII{LE_ISO_RECV_DATA=*SS}}{LE_CIS_EST_DATA=SIIIICCCCCCCSSS}i}{LE_BIS_RECORD=CC{LE_ISO_DATA=SSII{LE_ISO_RECV_DATA=*SS}}i}{OTHER_CONNECTION_RECORD=^{_OI_HCI_CONNECTION}IC^{_L2CAP_RECV_DATA}})}24c32"
 - " - Thread ON"
-- "20:42:58"
 - "BandSwitchManager: HRB band change for device %{public}s failed status:%d. Current band is still %s"
 - "Creation of WRMXPCMsg failed"
-- "Jul 16 2026"
 - "ManagerStateWatchdog %s %llu ms Armed!"
 - "ManagerStateWatchdog %s destroyed!"
 - "ManagerStateWatchdog %s timer expired"

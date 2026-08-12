@@ -40,13 +40,11 @@
 +  __DATA.__zerofill: 0x1f5000
 +  Functions: 1373
    Symbols:   0
--  CStrings:  3426
-+  CStrings:  2311
+-  CStrings:  3425
++  CStrings:  2310
  
 CStrings:
 + "%s .Sanity check failure!\n"
-+ "00:59:08"
-+ "Aug  4 2026"
 + "Couldn't find ShareMemInfoItem to free !!!\n"
 + "IPC Endpoint cmd failed %d"
 + "IPC Endpoint cmd failure"
@@ -233,7 +231,6 @@ CStrings:
 - "0 == ret"
 - "0/1"
 - "1"
-- "21:52:37"
 - "<=== CMMU_LOGGER_FFW_ASSERT from %s\n"
 - "================="
 - "===================================================================================================="
@@ -446,7 +443,6 @@ CStrings:
 - "Invalid log operation"
 - "IpcEndpointSet"
 - "IpcEndpointUnset"
-- "Jul 10 2026"
 - "Kernel : bufferIndex %d"
 - "Key[%lld]: 0x%zx"
 - "KickStartCe"

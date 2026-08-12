@@ -2,21 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/TextToSpeechBundleSupport.framework/TextToSpeechBundleSupport`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_capture`
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_mpenum`
-- `__TEXT.__swift5_proto`
-- `__TEXT.__swift5_types`
-- `__TEXT.__swift_as_entry`
-- `__DATA_CONST.__weak_got`
-- `__AUTH_CONST.__cfstring`
-- `__AUTH_CONST.__weak_auth_got`
-- `__AUTH.__data`
-- `__DATA.__objc_stublist`
-
 ```diff
 
 -720.0.0.0.0

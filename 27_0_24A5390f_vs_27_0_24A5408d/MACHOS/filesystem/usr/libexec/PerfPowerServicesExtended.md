@@ -4,7 +4,6 @@
 
 ### Sections with Same Size but Changed Content
 
-- `__TEXT.__cstring`
 - `__DATA_CONST.__cfstring`
 - `__DATA.__objc_selrefs`
 

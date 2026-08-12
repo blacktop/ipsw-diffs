@@ -2,15 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/IntelligenceFlow.framework/IntelligenceFlow`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_acfuncs`
-- `__TEXT.__swift5_mpenum`
-- `__AUTH.__objc_data`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -3600.151.4.501.6

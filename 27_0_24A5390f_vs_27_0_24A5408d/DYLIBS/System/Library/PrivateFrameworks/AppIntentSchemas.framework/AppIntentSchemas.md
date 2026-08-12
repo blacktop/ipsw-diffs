@@ -2,18 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/AppIntentSchemas.framework/AppIntentSchemas`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_capture`
-- `__TEXT.__swift5_builtin`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_selrefs`
-- `__AUTH_CONST.__objc_const`
-- `__AUTH.__data`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -3502.0.45.4.0

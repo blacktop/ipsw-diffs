@@ -2,21 +2,6 @@
 
 > `/System/Library/Frameworks/USDKit.framework/USDKit`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_types2`
-- `__TEXT.__swift5_capture`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_mpenum`
-- `__DATA_CONST.__weak_got`
-- `__DATA_CONST.__objc_selrefs`
-- `__AUTH_CONST.__const`
-- `__AUTH_CONST.__cfstring`
-- `__AUTH_CONST.__weak_auth_got`
-- `__AUTH.__tf_func`
-- `__DATA.__data`
-
 ```diff
 
 -106.0.7.0.0

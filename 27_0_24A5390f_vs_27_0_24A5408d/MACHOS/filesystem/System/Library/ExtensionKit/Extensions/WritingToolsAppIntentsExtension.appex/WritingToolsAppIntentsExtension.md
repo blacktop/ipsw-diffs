@@ -25,7 +25,6 @@
 - `__DATA_CONST.__got`
 - `__DATA_CONST.__auth_ptr`
 - `__DATA.__objc_data`
-- `__DATA.__bss`
 
 ```diff
 

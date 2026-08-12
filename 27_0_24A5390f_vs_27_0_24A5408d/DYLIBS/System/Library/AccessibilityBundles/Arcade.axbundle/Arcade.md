@@ -2,12 +2,6 @@
 
 > `/System/Library/AccessibilityBundles/Arcade.axbundle/Arcade`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__const`
-- `__DATA_CONST.__got`
-- `__AUTH_CONST.__const`
-
 ```diff
 
 -3045.0.0.0.0

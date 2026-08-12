@@ -2,18 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/SmartNameSuggestions.framework/SmartNameSuggestions`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_proto`
-- `__TEXT.__swift5_protos`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__AUTH_CONST.__const`
-- `__AUTH_CONST.__cfstring`
-
 ```diff
 
 -21.0.0.0.0

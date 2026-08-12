@@ -2,19 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/IntelligenceFlowAppIntentsPreviewToolSupport.framework/IntelligenceFlowAppIntentsPreviewToolSupport`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__const`
-- `__TEXT.__swift5_typeref`
-- `__TEXT.__constg_swiftt`
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift_as_ret`
-- `__TEXT.__swift_as_cont`
-- `__TEXT.__cstring`
-- `__TEXT.__eh_frame`
-- `__AUTH_CONST.__const`
-- `__AUTH.__data`
-
 ```diff
 
 -3600.151.4.501.6

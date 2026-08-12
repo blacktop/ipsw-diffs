@@ -2,19 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/FlowToolsShared.framework/FlowToolsShared`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__const`
-- `__TEXT.__swift5_typeref`
-- `__TEXT.__constg_swiftt`
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift_as_ret`
-- `__TEXT.__swift_as_cont`
-- `__TEXT.__eh_frame`
-- `__AUTH_CONST.__const`
-- `__AUTH.__data`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -3600.65.26.1.1

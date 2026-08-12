@@ -2,11 +2,6 @@
 
 > `/usr/lib/libbsm.0.dylib`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__unwind_info`
-- `__DATA_CONST.__const`
-
 ```diff
 
 -90.0.0.0.0

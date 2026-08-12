@@ -2,13 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/ClockUIFramework.framework/ClockUIFramework`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__eh_frame`
-- `__DATA_CONST.__objc_classlist`
-- `__AUTH_CONST.__objc_const`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -3600.26.11.0.0

@@ -6,7 +6,6 @@
 
 - `__TEXT.__init_offsets`
 - `__TEXT.__objc_methlist`
-- `__TEXT.__cstring`
 - `__TEXT.__gcc_except_tab`
 - `__TEXT.__constg_swiftt`
 - `__TEXT.__swift5_typeref`

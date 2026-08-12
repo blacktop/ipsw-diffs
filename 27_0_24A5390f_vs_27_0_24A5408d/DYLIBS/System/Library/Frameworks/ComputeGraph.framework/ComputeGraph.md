@@ -2,15 +2,6 @@
 
 > `/System/Library/Frameworks/ComputeGraph.framework/ComputeGraph`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__objc_methlist`
-- `__TEXT.__swift5_types2`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_selrefs`
-- `__DATA_CONST.__objc_protorefs`
-
 ```diff
 
 -27.0.0.0.0

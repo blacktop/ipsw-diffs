@@ -2,21 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/GenerativeAssistantActions.framework/GenerativeAssistantActions`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__const`
-- `__TEXT.__constg_swiftt`
-- `__TEXT.__swift5_typeref`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_selrefs`
-- `__DATA_CONST.__got`
-- `__AUTH_CONST.__const`
-- `__AUTH_CONST.__objc_const`
-- `__AUTH.__objc_data`
-- `__AUTH.__data`
-- `__DATA.__data`
-
 ```diff
 Symbols:
 + _$s26GenerativeAssistantActions19DefaultModelSessionC8generate9userQuery9useCaseID17keepAliveCallbackAA0E8ResponseVSS_0aB6Common0ab3UseK0OyyctYaKF04$s26ab9Actions17e82OrchestratorV17generateAndPrompt9userQuery15requestMetadata13mediaToUpload21intento44Manager17enableBrowserTool11appBundleIDAA0D8P94VSS_AA0a7RequestL0VAA15UploadableMediaOSgAA06IntentqR0VSbSSSgtYaKFALyYaKcfU0_yycAScfu1_yycfu2_AA06IntentO7ManagerVTf1nnnEn_n

@@ -23,7 +23,6 @@
 - `__DATA_CONST.__objc_intobj`
 - `__DATA.__objc_data`
 - `__DATA.__objc_stublist`
-- `__DATA.__common`
 
 ```diff
 

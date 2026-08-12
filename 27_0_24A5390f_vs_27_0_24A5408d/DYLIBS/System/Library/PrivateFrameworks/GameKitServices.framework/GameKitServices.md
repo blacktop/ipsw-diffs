@@ -2,21 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/GameKitServices.framework/GameKitServices`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__objc_arraydata`
-- `__DATA_CONST.__got`
-- `__AUTH_CONST.__cfstring`
-- `__AUTH_CONST.__weak_auth_got`
-- `__AUTH_CONST.__objc_intobj`
-- `__AUTH_CONST.__objc_doubleobj`
-- `__AUTH_CONST.__objc_arrayobj`
-- `__DATA.__data`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -2235.57.1.0.0
@@ -79,10 +64,10 @@
    - /usr/lib/libz.1.dylib
 -  Functions: 1614
 -  Symbols:   3119
--  CStrings:  1891
+-  CStrings:  1890
 +  Functions: 1634
 +  Symbols:   3157
-+  CStrings:  1901
++  CStrings:  1900
  
 Symbols:
 + +[GKVoiceChatDictionary expectedActualDictionaryKeyTypes]
@@ -138,8 +123,4 @@ CStrings:
 + " [%s] %s:%d parseConnectedPeers got non-array plist"
 + " [%s] %s:%d parseConnectedPeers got oversize array count=%lu max=%d"
 + "+[GKVoiceChatDictionary isValidActualDictionary:]"
-+ "10:49:15"
-+ "Aug  4 2026"
-- "04:38:29"
-- "Jul 11 2026"
 ```

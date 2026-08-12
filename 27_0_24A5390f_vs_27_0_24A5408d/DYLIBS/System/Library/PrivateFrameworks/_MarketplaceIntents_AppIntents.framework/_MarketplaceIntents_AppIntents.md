@@ -2,19 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/_MarketplaceIntents_AppIntents.framework/_MarketplaceIntents_AppIntents`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__const`
-- `__TEXT.__swift5_typeref`
-- `__TEXT.__constg_swiftt`
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift_as_ret`
-- `__TEXT.__swift_as_cont`
-- `__TEXT.__unwind_info`
-- `__TEXT.__eh_frame`
-- `__DATA_CONST.__const`
-- `__AUTH_CONST.__const`
-
 ```diff
 
  3600.22.15.0.0

@@ -2,16 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/NewsUI2.framework/NewsUI2`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_mpenum`
-- `__TEXT.__swift_as_entry`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_catlist2`
-- `__AUTH_CONST.__cfstring`
-- `__DATA.__objc_stublist`
-
 ```diff
 
 -5926.0.0.0.0

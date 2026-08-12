@@ -2,30 +2,6 @@
 
 > `/usr/lib/usd/libusd_ms.dylib`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_fieldmd`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_types`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_types2`
-- `__TEXT.__swift5_capture`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__weak_got`
-- `__DATA_CONST.__objc_selrefs`
-- `__DATA_CONST.__objc_arraydata`
-- `__AUTH_CONST.__const`
-- `__AUTH_CONST.__cfstring`
-- `__AUTH_CONST.__objc_const`
-- `__AUTH_CONST.__weak_auth_got`
-- `__AUTH_CONST.__objc_intobj`
-- `__AUTH_CONST.__objc_dictobj`
-- `__AUTH.__data`
-- `__AUTH.__mtlx_registry`
-- `__AUTH.pxrctor`
-- `__AUTH.__tf_func`
-
 ```diff
 
 -24.1.26.0.0
@@ -157,9 +133,7 @@ Symbols:
 - _$ss25BorrowingIteratorProtocolP8nextSpan12maximumCounts0E0Vy7ElementQzGSi_tFTq
 CStrings:
 + "22:35:51)"
-+ "Aug  3 2026"
 + "Could not allocate asset buffer"
 + "PointInstancer sparse binding handler failed after pre-validation: <%s>"
 - "00:37:45)"
-- "Jul 11 2026"
 ```

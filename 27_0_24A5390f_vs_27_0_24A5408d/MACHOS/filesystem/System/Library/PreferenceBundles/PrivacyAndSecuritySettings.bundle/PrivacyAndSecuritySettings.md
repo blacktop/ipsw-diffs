@@ -25,7 +25,6 @@
 - `__DATA_CONST.__objc_intobj`
 - `__DATA.__objc_const`
 - `__DATA.__objc_data`
-- `__DATA.__bss`
 
 ```diff
 

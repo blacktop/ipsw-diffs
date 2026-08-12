@@ -2,21 +2,6 @@
 
 > `/System/Library/Frameworks/_USDKit_RealityKit.framework/_USDKit_RealityKit`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__objc_methlist`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_types2`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_mpenum`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__weak_got`
-- `__DATA_CONST.__objc_selrefs`
-- `__DATA_CONST.__objc_protorefs`
-- `__AUTH_CONST.__weak_auth_got`
-- `__AUTH.__tf_func`
-
 ```diff
 
 -106.0.7.0.0

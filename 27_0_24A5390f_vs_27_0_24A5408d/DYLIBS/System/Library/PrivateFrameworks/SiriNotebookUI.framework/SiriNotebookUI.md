@@ -2,15 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/SiriNotebookUI.framework/SiriNotebookUI`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift_as_cont`
-- `__TEXT.__swift_as_ret`
-- `__TEXT.__swift5_protos`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -3600.28.13.0.0

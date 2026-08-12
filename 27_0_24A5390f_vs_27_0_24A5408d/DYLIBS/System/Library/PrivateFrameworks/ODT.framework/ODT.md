@@ -2,18 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/ODT.framework/ODT`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__eh_frame`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__weak_got`
-- `__DATA_CONST.__objc_selrefs`
-- `__DATA_CONST.__got`
-- `__AUTH_CONST.__cfstring`
-- `__AUTH_CONST.__weak_auth_got`
-- `__AUTH.__data`
-- `__AUTH.__thread_vars`
-
 ```diff
 
 -26.5.0.0.0

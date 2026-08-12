@@ -2,14 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/Bom.framework/Bom`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__unwind_info`
-- `__DATA_CONST.__const`
-- `__AUTH_CONST.__const`
-- `__AUTH_CONST.__cfstring`
-- `__AUTH.__data`
-
 ```diff
 
 -277.0.0.0.0
@@ -204,7 +196,5 @@ Functions:
 ~ _BOMCopierSandbox_boxup : 444 -> 468
 ~ _BOMCopierSandbox_opendir : 460 -> 476
 CStrings:
-+ "Aug  3 2026"
 - "Could not create empty hardlink path\n"
-- "Jul  8 2026"
 ```

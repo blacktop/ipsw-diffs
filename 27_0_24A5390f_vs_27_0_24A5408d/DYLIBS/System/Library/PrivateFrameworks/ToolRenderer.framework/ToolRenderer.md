@@ -2,16 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/ToolRenderer.framework/ToolRenderer`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift5_protos`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_selrefs`
-- `__AUTH_CONST.__objc_const`
-- `__AUTH.__data`
-
 ```diff
 
 -5034.0.12.100.0

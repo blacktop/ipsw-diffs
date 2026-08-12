@@ -2,19 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/CAFCombine.framework/CAFCombine`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_capture`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift_as_ret`
-- `__TEXT.__swift_as_cont`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__eh_frame`
-- `__AUTH_CONST.__const`
-- `__DATA_DIRTY.__objc_data`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -540.1.0.0.0

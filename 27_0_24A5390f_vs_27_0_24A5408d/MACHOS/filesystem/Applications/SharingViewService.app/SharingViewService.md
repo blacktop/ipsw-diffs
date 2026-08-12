@@ -7,7 +7,6 @@
 - `__TEXT.__const`
 - `__TEXT.__constg_swiftt`
 - `__TEXT.__swift5_typeref`
-- `__TEXT.__cstring`
 - `__TEXT.__swift5_capture`
 - `__TEXT.__swift5_mpenum`
 - `__TEXT.__swift_as_entry`
@@ -28,8 +27,6 @@
 - `__DATA.__objc_const`
 - `__DATA.__objc_data`
 - `__DATA.__data`
-- `__DATA.__bss`
-- `__DATA.__common`
 
 ```diff
 

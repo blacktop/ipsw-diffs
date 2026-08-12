@@ -2,14 +2,6 @@
 
 > `com.apple.driver.AppleMobileDispH18P-DCP`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA.__data`
-- `__DATA_CONST.__mod_init_func`
-- `__DATA_CONST.__mod_term_func`
-- `__DATA_CONST.__kalloc_var`
-- `__DATA_CONST.__got`
-
 ```diff
 
 -700.50.85.0.0

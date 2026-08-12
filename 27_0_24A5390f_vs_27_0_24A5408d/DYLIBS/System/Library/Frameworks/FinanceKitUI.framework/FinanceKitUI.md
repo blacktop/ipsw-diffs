@@ -2,19 +2,6 @@
 
 > `/System/Library/Frameworks/FinanceKitUI.framework/FinanceKitUI`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_types2`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_catlist2`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__objc_superrefs`
-- `__AUTH_CONST.__cfstring`
-- `__DATA.__objc_stublist`
-- `__DATA_DIRTY.__objc_data`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -366.1.0.0.0

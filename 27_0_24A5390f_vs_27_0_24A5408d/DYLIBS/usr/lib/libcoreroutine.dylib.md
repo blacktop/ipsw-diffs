@@ -2,34 +2,6 @@
 
 > `/usr/lib/libcoreroutine.dylib`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__objc_methlist`
-- `__TEXT.__const`
-- `__TEXT.__swift5_typeref`
-- `__TEXT.__swift5_capture`
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift_as_ret`
-- `__TEXT.__swift_as_cont`
-- `__TEXT.__constg_swiftt`
-- `__TEXT.__swift5_fieldmd`
-- `__TEXT.__eh_frame`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_selrefs`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__objc_superrefs`
-- `__AUTH_CONST.__const`
-- `__AUTH_CONST.__objc_const`
-- `__AUTH_CONST.__objc_arrayobj`
-- `__AUTH_CONST.__objc_doubleobj`
-- `__AUTH_CONST.__objc_floatobj`
-- `__AUTH.__objc_data`
-- `__DATA.__data`
-- `__DATA_DIRTY.__objc_data`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -1119.0.0.0.0
@@ -94,10 +66,10 @@
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 22020
 -  Symbols:   45813
--  CStrings:  16422
+-  CStrings:  16421
 +  Functions: 22022
 +  Symbols:   45816
-+  CStrings:  16420
++  CStrings:  16419
  
 Symbols:
 + -[RTBGSystemTaskScheduler _reportTaskFinishedWithIdentifier:stimulationDate:error:didDefer:systemRequestedDeferral:]
@@ -132,8 +104,6 @@ CStrings:
 + "%@, ignoring provider error and labeling visit with remaining placeInferences, error, %@"
 + "%@.%@.BGSTRegisterLaunchHandler.%@"
 + "%@.%@.BGSTSubmitTaskRequest.%@"
-+ "13:46:21"
-+ "Aug  4 2026"
 + "ignoring provider error and labeling visit with remaining placeInferences, error, %@"
 + "systemRequestedDeferral"
 - "#altimeter,added grouped segment,floorIndex,%d,startTime,%.3f,endTime,%.3f,altitude,%.3f,visitUUID,%{private}@"
@@ -151,7 +121,5 @@ CStrings:
 - "%@, %@, task deferred by client, identifier: %@"
 - "%@, %@, task expired by system, identifier: %@"
 - "%@, %@, task failed, identifier: %@, error: %@"
-- "06:38:08"
 - "@min.doubleValue"
-- "Jul 11 2026"
 ```

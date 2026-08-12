@@ -2,16 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/GPUCompiler.framework/Versions/32023/Libraries/libGPUCompilerImpl.dylib`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__init_offsets`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__weak_got`
-- `__AUTH_CONST.__weak_auth_got`
-- `__AUTH.__thread_vars`
-- `__DATA.__data`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -32023.921.0.0.0

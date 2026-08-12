@@ -2,14 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/SafariSharedUI.framework/SafariSharedUI`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_mpenum`
-- `__AUTH_CONST.__weak_auth_got`
-- `__AUTH_CONST.__objc_doubleobj`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -625.1.24.10.1

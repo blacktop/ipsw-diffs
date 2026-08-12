@@ -2,14 +2,6 @@
 
 > `com.apple.driver.AppleSmartBatteryManagerEmbedded`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA.__data`
-- `__DATA_CONST.__mod_init_func`
-- `__DATA_CONST.__mod_term_func`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__kalloc_type`
-
 ```diff
 
 -2043.0.31.0.0

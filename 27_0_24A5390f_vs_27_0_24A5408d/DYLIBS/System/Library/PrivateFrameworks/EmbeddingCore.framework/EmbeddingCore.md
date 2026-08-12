@@ -2,23 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/EmbeddingCore.framework/EmbeddingCore`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__const`
-- `__TEXT.__swift5_typeref`
-- `__TEXT.__constg_swiftt`
-- `__TEXT.__swift5_proto`
-- `__TEXT.__eh_frame`
-- `__DATA_CONST.__weak_got`
-- `__AUTH_CONST.__const`
-- `__AUTH_CONST.__weak_auth_got`
-- `__AUTH_CONST.__objc_dictobj`
-- `__AUTH_CONST.__objc_floatobj`
-- `__AUTH.__objc_data`
-- `__AUTH.__data`
-- `__AUTH.__thread_vars`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -435.73.2.0.0

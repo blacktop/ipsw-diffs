@@ -2,16 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/OmniSearchClient.framework/OmniSearchClient`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__objc_methlist`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift_as_cont`
-- `__TEXT.__swift5_assocty`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_selrefs`
-- `__DATA_CONST.__objc_protorefs`
-
 ```diff
 
 -3600.56.27.0.0

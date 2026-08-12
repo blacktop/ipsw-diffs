@@ -2,17 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/AppleAccountTransparency.framework/AppleAccountTransparency`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_proto`
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_mpenum`
-- `__DATA_CONST.__objc_selrefs`
-- `__AUTH.__objc_data`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -445.0.0.0.0

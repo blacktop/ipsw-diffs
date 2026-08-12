@@ -2,18 +2,6 @@
 
 > `/System/Library/VideoCodecs/ave.videoencoder`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__init_offsets`
-- `__TEXT.__gcc_except_tab`
-- `__TEXT.__unwind_info`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__weak_got`
-- `__DATA_CONST.__objc_selrefs`
-- `__AUTH_CONST.__weak_auth_got`
-- `__DATA.__data`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -913.29.1.0.0
@@ -52,10 +40,10 @@
    - /usr/lib/libobjc.A.dylib
 -  Functions: 1527
 -  Symbols:   2329
--  CStrings:  6331
+-  CStrings:  6329
 +  Functions: 1535
 +  Symbols:   2337
-+  CStrings:  6355
++  CStrings:  6353
  
 Symbols:
 + __Z23AVE_MCTF_AdjustStrengthPK19_S_AVE_ISP_MetadataS1_14_E_AVE_DevType20_E_AVE_MCTF_WorkModePiP24_E_AVE_MCTF_ParamSetTypeS4_S4_
@@ -97,8 +85,6 @@ CStrings:
 + "%lld %d AVE %s: %s:%d %s | wrong params, %d %p %d %d %d\n"
 + "%lld %d AVE %s: fail to send PS %p %p %d, dropping frame"
 + "%lld %d AVE %s: fail to send PS %p %p %d, dropping frame\n"
-+ "21:51:08"
-+ "21:51:09"
 + "913.43.1"
 + "AVE_MCTFFnumChangeResetMCTF"
 + "AVE_MCTFGatingType"
@@ -115,7 +101,6 @@ CStrings:
 + "AVE_Prop_HEVC_GetMCTFPreFiltAdjType"
 + "AVE_Prop_HEVC_SetMCTFGatingType"
 + "AVE_Prop_HEVC_SetMCTFPreFiltAdjType"
-+ "Aug  5 2026"
 + "MCTFGatingType"
 + "MCTFGatingType = %d\n"
 + "MCTFPreFiltAdjType"
@@ -144,11 +129,8 @@ CStrings:
 - "%lld %d AVE %s: %s:%d %s | wrong params, %p %d %d %d %p\n"
 - "%lld %d AVE %s: %s::%s:%d %s | fail to send PS %p %p"
 - "%lld %d AVE %s: %s::%s:%d %s | fail to send PS %p %p\n"
-- "21:35:16"
-- "21:35:17"
 - "913.29.1"
 - "AVE_MCTF_GetGatingType"
 - "AVE_MCTF_GetPreFiltAdjType"
-- "Jul 14 2026"
 - "psData != __null && eDevType > AVE_DevType_None && eDevType < AVE_DevType_Max && eWorkMode > AVE_MCTF_WorkMode_None && eWorkMode < AVE_MCTF_WorkMode_Max && eLatencyMode > AVE_MCTF_Mode_Invalid && eLatencyMode < AVE_MCTF_Mode_Max"
 ```

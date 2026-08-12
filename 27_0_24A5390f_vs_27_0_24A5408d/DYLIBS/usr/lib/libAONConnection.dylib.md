@@ -2,11 +2,6 @@
 
 > `/usr/lib/libAONConnection.dylib`
 
-### Sections with Same Size but Changed Content
-
-- `__AUTH_CONST.__cfstring`
-- `__AUTH_CONST.__weak_auth_got`
-
 ```diff
 
 -251.0.7.0.0

@@ -2,30 +2,6 @@
 
 > `/System/Library/Frameworks/AudioToolbox.framework/libAudioDSP.dylib`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__objc_methlist`
-- `__TEXT.__const`
-- `__TEXT.__unwind_info`
-- `__TEXT.__eh_frame`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_selrefs`
-- `__DATA_CONST.__objc_superrefs`
-- `__DATA_CONST.__objc_arraydata`
-- `__DATA_CONST.__got`
-- `__AUTH_CONST.__cfstring`
-- `__AUTH_CONST.__objc_const`
-- `__AUTH_CONST.__weak_auth_got`
-- `__AUTH_CONST.__objc_intobj`
-- `__AUTH_CONST.__objc_dictobj`
-- `__AUTH_CONST.__objc_arrayobj`
-- `__AUTH_CONST.__objc_doubleobj`
-- `__AUTH.__objc_data`
-- `__AUTH.__data`
-- `__DATA.__data`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -881.112.0.0.0
@@ -70,10 +46,10 @@
    - /usr/lib/libobjc.A.dylib
 -  Functions: 11213
 -  Symbols:   17568
--  CStrings:  10810
+-  CStrings:  10807
 +  Functions: 11214
 +  Symbols:   17567
-+  CStrings:  10811
++  CStrings:  10808
  
 Symbols:
 + GCC_except_table10016
@@ -2494,13 +2470,5 @@ Symbols:
 - ___copy_helper_block_ea8_32c56_ZTSNSt3__110shared_ptrIN5caulk10concurrent9messengerEEE
 - ___destroy_helper_block_ea8_32c56_ZTSNSt3__110shared_ptrIN5caulk10concurrent9messengerEEE
 CStrings:
-+ "10:18:27"
-+ "10:18:35"
-+ "10:18:52"
-+ "Aug  4 2026"
 + "TemperatureResponseRateFactor"
-- "22:31:28"
-- "22:31:36"
-- "22:31:52"
-- "Jul 10 2026"
 ```

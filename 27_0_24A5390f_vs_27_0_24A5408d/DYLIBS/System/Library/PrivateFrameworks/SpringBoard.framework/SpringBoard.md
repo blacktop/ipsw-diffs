@@ -2,15 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/SpringBoard.framework/SpringBoard`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__init_offsets`
-- `__TEXT.__eh_frame`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_nlcatlist`
-- `__AUTH_CONST.__weak_auth_got`
-- `__AUTH_CONST.__objc_dictobj`
-
 ```diff
 
 -4630.1.102.0.0

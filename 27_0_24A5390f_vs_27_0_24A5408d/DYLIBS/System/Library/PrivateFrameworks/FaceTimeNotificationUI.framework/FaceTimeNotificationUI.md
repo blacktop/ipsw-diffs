@@ -2,18 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/FaceTimeNotificationUI.framework/FaceTimeNotificationUI`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_mpenum`
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift_as_cont`
-- `__TEXT.__swift_as_ret`
-- `__TEXT.__swift5_protos`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-
 ```diff
 
 -3068.100.3.0.0

@@ -2,19 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/MessageDispatch.framework/MessageDispatch`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__objc_methlist`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__oslogstring`
-- `__TEXT.__swift5_mpenum`
-- `__TEXT.__swift5_acfuncs`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__AUTH.__data`
-
 ```diff
 
 -2027.0.12.0.0

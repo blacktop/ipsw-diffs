@@ -2,19 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/IMDaemonCore.framework/IMDaemonCore`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_mpenum`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__objc_superrefs`
-- `__DATA_CONST.__objc_arraydata`
-- `__AUTH_CONST.__objc_arrayobj`
-- `__AUTH_CONST.__objc_floatobj`
-- `__AUTH_CONST.__objc_dictobj`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -1487.100.6.2.2

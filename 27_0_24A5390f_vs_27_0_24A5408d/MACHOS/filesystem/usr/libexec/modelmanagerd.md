@@ -17,7 +17,6 @@
 - `__DATA_CONST.__objc_protorefs`
 - `__DATA.__objc_selrefs`
 - `__DATA.__objc_data`
-- `__DATA.__bss`
 
 ```diff
 

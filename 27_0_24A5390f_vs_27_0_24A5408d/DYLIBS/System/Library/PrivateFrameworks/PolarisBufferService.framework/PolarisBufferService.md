@@ -2,17 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/PolarisBufferService.framework/PolarisBufferService`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__unwind_info`
-- `__DATA_CONST.__weak_got`
-- `__DATA_CONST.__objc_selrefs`
-- `__AUTH_CONST.__const`
-- `__AUTH_CONST.__cfstring`
-- `__AUTH_CONST.__weak_auth_got`
-- `__AUTH.__data`
-- `__DATA.__data`
-
 ```diff
 
 -256.0.3.0.0
@@ -55,10 +44,10 @@
    - /usr/lib/libobjc.A.dylib
 -  Functions: 1993
 -  Symbols:   2270
--  CStrings:  1543
+-  CStrings:  1542
 +  Functions: 1992
 +  Symbols:   2276
-+  CStrings:  1547
++  CStrings:  1546
  
 Symbols:
 + __ZL16targetModuleNamei
@@ -75,8 +64,6 @@ Symbols:
 - _ps_comms_invoke_registry_callback
 CStrings:
 + "(unknown:%#x)"
-+ "08:48:48"
-+ "Aug  4 2026"
 + "PLS_MOD_COMMS_SERVER"
 + "PLS_MOD_MANIFEST_AGENT_SERVICE"
 + "PLS_MOD_RESOURCE_FACTORY"
@@ -90,8 +77,6 @@ CStrings:
 + "PSCommsServer: cannot register server \"%s\", MAX_CLI_INFO (%d) reached"
 + "reply port %#x\n"
 - "%s:%d PSCommsServer: Unknow message recevied! msgh_id=%#x\n"
-- "00:47:11"
-- "Jul 11 2026"
 - "PSCommsServer: PLS_MOD_MANIFEST_AGENT_SERVICE\n"
 - "PSCommsServer: PLS_MOD_RESOURCE_FACTORY\n"
 - "PSCommsServer: PLS_MOD_STREAM_SERVER\n"

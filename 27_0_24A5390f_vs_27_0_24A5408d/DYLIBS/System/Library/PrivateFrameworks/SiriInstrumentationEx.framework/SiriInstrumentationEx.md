@@ -2,11 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/SiriInstrumentationEx.framework/SiriInstrumentationEx`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__constg_swiftt`
-- `__TEXT.__swift5_typeref`
-
 ```diff
 
 -3600.80.1.0.0

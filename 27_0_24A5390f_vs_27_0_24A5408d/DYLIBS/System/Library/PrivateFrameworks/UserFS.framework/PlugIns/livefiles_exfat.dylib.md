@@ -2,13 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/UserFS.framework/PlugIns/livefiles_exfat.dylib`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__const`
-- `__TEXT.__unwind_info`
-- `__DATA_CONST.__objc_selrefs`
-- `__AUTH.__data`
-
 ```diff
 
 -561.0.1.0.0

@@ -15,8 +15,6 @@
 - `__DATA_CONST.__objc_classlist`
 - `__DATA.__objc_const`
 - `__DATA.__objc_selrefs`
-- `__DATA.__bss`
-- `__DATA.__common`
 
 ```diff
 

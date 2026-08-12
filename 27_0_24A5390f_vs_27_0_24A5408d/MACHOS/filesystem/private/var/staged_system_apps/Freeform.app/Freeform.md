@@ -22,7 +22,6 @@
 - `__DATA_CONST.__objc_intobj`
 - `__DATA_CONST.__got`
 - `__DATA.__objc_stublist`
-- `__DATA.__common`
 
 ```diff
 

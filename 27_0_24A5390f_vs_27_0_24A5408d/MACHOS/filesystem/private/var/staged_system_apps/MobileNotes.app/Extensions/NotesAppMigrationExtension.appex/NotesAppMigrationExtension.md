@@ -17,8 +17,6 @@
 - `__TEXT.__swift_as_entry`
 - `__DATA_CONST.__objc_classlist`
 - `__DATA_CONST.__objc_catlist`
-- `__DATA.__bss`
-- `__DATA.__common`
 
 ```diff
 

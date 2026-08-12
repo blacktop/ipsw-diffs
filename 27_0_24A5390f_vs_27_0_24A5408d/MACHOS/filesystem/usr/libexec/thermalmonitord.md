@@ -11,7 +11,6 @@
 - `__DATA_CONST.__objc_dictobj`
 - `__DATA.__objc_selrefs`
 - `__DATA.__data`
-- `__DATA.__common`
 
 ```diff
 

@@ -2,23 +2,6 @@
 
 > `/System/Library/Frameworks/StoreKit.framework/StoreKit`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_protos`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__objc_superrefs`
-- `__DATA_CONST.__objc_arraydata`
-- `__AUTH_CONST.__objc_intobj`
-- `__AUTH_CONST.__objc_dictobj`
-- `__AUTH.__objc_data`
-- `__DATA.__objc_ivar`
-- `__DATA_DIRTY.__objc_data`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -816.0.41.0.0
@@ -105,10 +88,10 @@
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 15483
 -  Symbols:   8318
--  CStrings:  1362
+-  CStrings:  1361
 +  Functions: 15695
 +  Symbols:   8377
-+  CStrings:  1363
++  CStrings:  1362
  
 Symbols:
 + _OBJC_CLASS_$_AMSRestrictions
@@ -189,15 +172,11 @@ Symbols:
 - _symbolic _____y_____G s22KeyedDecodingContainerV 8StoreKit26OfferCodeRedemptionRequestV10CodingKeys33_974E01167AC5E8883EC5069562A25F93LLO
 - _symbolic _____y_____G s22KeyedEncodingContainerV 8StoreKit26OfferCodeRedemptionRequestV10CodingKeys33_974E01167AC5E8883EC5069562A25F93LLO
 CStrings:
-+ "19:49:07"
-+ "Aug  6 2026"
 + "developerErrorCode"
 + "developerErrorMessage"
 + "dialog"
 + "options"
-- "05:47:57"
 - "Error displaying offer code redemption: "
-- "Jul 11 2026"
 - "dialog.developerErrorCode"
 - "dialog.developerErrorMessage"
 ```

@@ -2,16 +2,6 @@
 
 > `/System/Library/Frameworks/_PermissionKit_SwiftUI.framework/_PermissionKit_SwiftUI`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__constg_swiftt`
-- `__TEXT.__swift5_types`
-- `__TEXT.__swift5_capture`
-- `__TEXT.__swift5_assocty`
-- `__TEXT.__swift5_proto`
-- `__AUTH_CONST.__const`
-- `__AUTH.__data`
-
 ```diff
 
 -93.0.0.0.0

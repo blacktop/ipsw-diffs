@@ -114,10 +114,10 @@
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 36989
 -  Symbols:   1788
--  CStrings:  7097
+-  CStrings:  7096
 +  Functions: 37803
 +  Symbols:   1792
-+  CStrings:  7126
++  CStrings:  7125
  
 Symbols:
 + _$sSh11descriptionSSvg
@@ -134,8 +134,6 @@ CStrings:
 + " is not supported for StoreKit Testing"
 + " is using Octane per forced overrides, skipping signature check"
 + ". Returning cached value."
-+ "19:59:14"
-+ "Aug  6 2026"
 + "Authenticating account for request parameters."
 + "Backing off for sync error "
 + "Busting AMSBagCache for "
@@ -171,11 +169,9 @@ CStrings:
 + "setHostAuditTokenData:"
 + "setPurchaseInfo:"
 + "storekit-cache-query-interval"
-- "05:56:33"
 - "Awaiting app transaction sync task already in progress."
 - "Deleting all transactions for "
 - "Invalid device serial number for AppTransaction request."
-- "Jul 11 2026"
 - "Missing account token for AppTransaction request."
 - "Replacing app transaction sync task with lower priority."
 - "Syncing app transaction. forceAuth: "

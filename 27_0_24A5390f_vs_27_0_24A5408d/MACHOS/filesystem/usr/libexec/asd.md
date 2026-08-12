@@ -31,7 +31,6 @@
 - `__DATA_CONST.__objc_arrayobj`
 - `__DATA_CONST.__auth_got`
 - `__DATA_CONST.__got`
-- `__DATA.__bss`
 
 ```diff
 

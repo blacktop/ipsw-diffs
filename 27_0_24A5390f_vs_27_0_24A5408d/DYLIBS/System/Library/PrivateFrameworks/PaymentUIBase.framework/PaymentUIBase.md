@@ -2,16 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/PaymentUIBase.framework/PaymentUIBase`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift_as_ret`
-- `__TEXT.__swift5_protos`
-- `__DATA_CONST.__objc_classlist`
-- `__AUTH.__objc_data`
-- `__AUTH.__data`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -1689.3.0.0.0

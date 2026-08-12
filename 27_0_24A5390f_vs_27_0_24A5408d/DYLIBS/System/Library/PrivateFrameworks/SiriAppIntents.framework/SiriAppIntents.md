@@ -2,14 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/SiriAppIntents.framework/SiriAppIntents`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__objc_methlist`
-- `__TEXT.__swift5_capture`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_DIRTY.__objc_data`
-
 ```diff
 
 -3600.82.20.0.0

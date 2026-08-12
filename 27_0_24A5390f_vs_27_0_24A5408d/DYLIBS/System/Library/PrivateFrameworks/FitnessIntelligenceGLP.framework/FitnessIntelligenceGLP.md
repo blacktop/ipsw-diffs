@@ -2,13 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/FitnessIntelligenceGLP.framework/FitnessIntelligenceGLP`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__unwind_info`
-- `__DATA_CONST.__objc_classlist`
-- `__AUTH_CONST.__objc_const`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -2027.0.74.0.0

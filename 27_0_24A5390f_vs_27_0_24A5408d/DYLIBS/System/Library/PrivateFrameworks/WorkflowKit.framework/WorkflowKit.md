@@ -2,12 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/WorkflowKit.framework/WorkflowKit`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_mpenum`
-- `__AUTH_CONST.__objc_intobj`
-- `__AUTH_CONST.__objc_doubleobj`
-
 ```diff
 
 -5034.0.12.100.0

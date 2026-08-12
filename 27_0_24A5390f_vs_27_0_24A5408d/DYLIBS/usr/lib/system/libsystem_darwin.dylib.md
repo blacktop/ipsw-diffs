@@ -2,13 +2,6 @@
 
 > `/usr/lib/system/libsystem_darwin.dylib`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__const`
-- `__DATA_CONST.__const`
-- `__AUTH_CONST.__const`
-- `__DATA.__data`
-
 ```diff
 
 -1786.0.1.0.0

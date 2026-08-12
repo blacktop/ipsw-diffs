@@ -18,8 +18,6 @@
 - `__AUTH.__objc_data`
 - `__AUTH.__data`
 - `__DATA.__data`
-- `__DATA.__common`
-- `__DATA.__bss`
 
 ```diff
 

@@ -11,7 +11,6 @@
 - `__TEXT.__eh_frame`
 - `__DATA_CONST.__const`
 - `__DATA.__data`
-- `__DATA.__bss`
 
 ```diff
 

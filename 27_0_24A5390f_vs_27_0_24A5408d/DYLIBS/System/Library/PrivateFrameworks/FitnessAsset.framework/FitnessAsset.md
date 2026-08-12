@@ -2,13 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/FitnessAsset.framework/FitnessAsset`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_capture`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_DIRTY.__data`
-
 ```diff
 
 -2027.0.134.0.0

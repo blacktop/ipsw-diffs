@@ -2,15 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/CoreRealityIO.framework/CoreRealityIO`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA_CONST.__const`
-- `__AUTH_CONST.__cfstring`
-- `__AUTH.__tf_func`
-- `__AUTH.__data`
-- `__AUTH.__thread_vars`
-- `__DATA.__data`
-
 ```diff
 
 -235.0.4.0.0

@@ -19,8 +19,6 @@
 - `__DATA.__data`
 - `__DATA.__objc_dictobj`
 - `__DATA.__auth_ptr`
-- `__DATA.__bss`
-- `__DATA.__common`
 
 ```diff
 

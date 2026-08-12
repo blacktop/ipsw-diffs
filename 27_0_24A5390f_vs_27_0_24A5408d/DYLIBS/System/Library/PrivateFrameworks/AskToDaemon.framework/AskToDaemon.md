@@ -2,11 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/AskToDaemon.framework/AskToDaemon`
 
-### Sections with Same Size but Changed Content
-
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-
 ```diff
 
 -93.0.0.0.0

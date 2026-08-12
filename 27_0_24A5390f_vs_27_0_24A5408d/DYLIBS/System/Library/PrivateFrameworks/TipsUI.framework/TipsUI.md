@@ -2,24 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/TipsUI.framework/TipsUI`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__gcc_except_tab`
-- `__TEXT.__swift_as_entry`
-- `__TEXT.__swift_as_cont`
-- `__TEXT.__swift_as_ret`
-- `__TEXT.__swift5_mpenum`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__eh_frame`
-- `__DATA_CONST.__const`
-- `__DATA_CONST.__objc_catlist`
-- `__DATA_CONST.__objc_protolist`
-- `__DATA_CONST.__objc_protorefs`
-- `__DATA_CONST.__objc_superrefs`
-- `__DATA_CONST.__got`
-- `__AUTH_CONST.__cfstring`
-- `__DATA.__objc_stublist`
-
 ```diff
 
 -857.0.0.0.0

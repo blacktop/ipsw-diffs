@@ -2,23 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/WebGPU.framework/WebGPU`
 
-### Sections with Same Size but Changed Content
-
-- `__TEXT.__objc_methlist`
-- `__TEXT.__swift5_fieldmd`
-- `__TEXT.__swift5_builtin`
-- `__TEXT.__swift5_proto`
-- `__TEXT.__swift5_types`
-- `__TEXT.__swift5_protos`
-- `__TEXT.__swift5_types2`
-- `__DATA_CONST.__objc_classlist`
-- `__DATA_CONST.__objc_selrefs`
-- `__DATA_CONST.__objc_superrefs`
-- `__AUTH_CONST.__objc_const`
-- `__AUTH_CONST.__weak_auth_got`
-- `__AUTH.__objc_data`
-- `__AUTH.__data`
-
 ```diff
 
 -625.1.24.10.1
