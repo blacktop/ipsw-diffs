@@ -1,0 +1,644 @@
+## AccessorySensorManagerServices
+
+> `/System/Library/PrivateFrameworks/AccessorySensorManagerServices.framework/Versions/A/AccessorySensorManagerServices`
+
+```diff
+
+ 11.28.0.0.0
+-  __TEXT.__text: 0x3b24
+-  __TEXT.__auth_stubs: 0x1b0
+-  __TEXT.__objc_methlist: 0x46c
+-  __TEXT.__const: 0x60
+-  __TEXT.__gcc_except_tab: 0x58
+-  __TEXT.__cstring: 0x124e
+-  __TEXT.__unwind_info: 0x220
+-  __TEXT.__objc_classname: 0xcb
+-  __TEXT.__objc_methname: 0xa60
+-  __TEXT.__objc_methtype: 0x303
+-  __TEXT.__objc_stubs: 0x4c0
+-  __DATA_CONST.__got: 0x40
+-  __DATA_CONST.__const: 0x58
+-  __DATA_CONST.__objc_classlist: 0x20
++  __TEXT.__text: 0x8e80
++  __TEXT.__auth_stubs: 0x1e0
++  __TEXT.__objc_methlist: 0x988
++  __TEXT.__const: 0x65
++  __TEXT.__gcc_except_tab: 0xb0
++  __TEXT.__cstring: 0x2002
++  __TEXT.__unwind_info: 0x350
++  __TEXT.__objc_classname: 0xf4
++  __TEXT.__objc_methname: 0x1902
++  __TEXT.__objc_methtype: 0x3fe
++  __TEXT.__objc_stubs: 0xe60
++  __DATA_CONST.__got: 0x68
++  __DATA_CONST.__const: 0xd0
++  __DATA_CONST.__objc_classlist: 0x28
+   __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x210
++  __DATA_CONST.__objc_selrefs: 0x550
+   __DATA_CONST.__objc_protorefs: 0x10
+-  __DATA_CONST.__objc_superrefs: 0x10
+-  __AUTH_CONST.__auth_got: 0xe8
+-  __AUTH_CONST.__const: 0x260
+-  __AUTH_CONST.__cfstring: 0x60
+-  __AUTH_CONST.__objc_const: 0xa70
+-  __DATA.__objc_ivar: 0x44
+-  __DATA.__data: 0x260
+-  __DATA_DIRTY.__objc_data: 0x140
++  __DATA_CONST.__objc_superrefs: 0x18
++  __AUTH_CONST.__auth_got: 0x100
++  __AUTH_CONST.__const: 0x2f0
++  __AUTH_CONST.__cfstring: 0x3e0
++  __AUTH_CONST.__objc_const: 0x1628
++  __DATA.__objc_ivar: 0xd4
++  __DATA.__data: 0x340
++  __DATA_DIRTY.__objc_data: 0x190
+   - /System/Library/Frameworks/CoreBluetooth.framework/Versions/A/CoreBluetooth
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /System/Library/PrivateFrameworks/CoreUtils.framework/Versions/A/CoreUtils
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 163
+-  Symbols:   304
+-  CStrings:  202
++  Functions: 315
++  Symbols:   567
++  CStrings:  510
+ 
+Symbols:
++ +[ASMPeripheralSecurePairingServices supportsSecureCoding]
++ -[ASMPeripheralConfig .cxx_destruct]
++ -[ASMPeripheralConfig abortOngoingCapture]
++ -[ASMPeripheralConfig ambientSpeech]
++ -[ASMPeripheralConfig audioScene]
++ -[ASMPeripheralConfig circularRegionRadius]
++ -[ASMPeripheralConfig compressionConfig]
++ -[ASMPeripheralConfig enableAutoExposure]
++ -[ASMPeripheralConfig enableCompression]
++ -[ASMPeripheralConfig enableContextualAlarm]
++ -[ASMPeripheralConfig enableDebugMode]
++ -[ASMPeripheralConfig enableEncryption]
++ -[ASMPeripheralConfig enableKinoCapture]
++ -[ASMPeripheralConfig headRotationAngle]
++ -[ASMPeripheralConfig kinoCaptureMode]
++ -[ASMPeripheralConfig kinoCaptureRate]
++ -[ASMPeripheralConfig kinoSensorConfigNeedsUpdateForPeripheral:]
++ -[ASMPeripheralConfig leftPixelHeight]
++ -[ASMPeripheralConfig leftPixelWidth]
++ -[ASMPeripheralConfig leftXAxisOffset]
++ -[ASMPeripheralConfig leftYAxisOffset]
++ -[ASMPeripheralConfig pixelBin]
++ -[ASMPeripheralConfig pixelHeight]
++ -[ASMPeripheralConfig pixelWidth]
++ -[ASMPeripheralConfig postureChange]
++ -[ASMPeripheralConfig rightPixelHeight]
++ -[ASMPeripheralConfig rightPixelWidth]
++ -[ASMPeripheralConfig rightXAxisOffset]
++ -[ASMPeripheralConfig rightYAxisOffset]
++ -[ASMPeripheralConfig sendTestImage]
++ -[ASMPeripheralConfig setAbortOngoingCapture:]
++ -[ASMPeripheralConfig setAmbientSpeech:]
++ -[ASMPeripheralConfig setAudioScene:]
++ -[ASMPeripheralConfig setCircularRegionRadius:]
++ -[ASMPeripheralConfig setCompressionConfig:]
++ -[ASMPeripheralConfig setEnableAutoExposure:]
++ -[ASMPeripheralConfig setEnableCompression:]
++ -[ASMPeripheralConfig setEnableContextualAlarm:]
++ -[ASMPeripheralConfig setEnableDebugMode:]
++ -[ASMPeripheralConfig setEnableEncryption:]
++ -[ASMPeripheralConfig setEnableKinoCapture:]
++ -[ASMPeripheralConfig setHeadRotationAngle:]
++ -[ASMPeripheralConfig setKinoCaptureMode:]
++ -[ASMPeripheralConfig setKinoCaptureRate:]
++ -[ASMPeripheralConfig setLeftPixelHeight:]
++ -[ASMPeripheralConfig setLeftPixelWidth:]
++ -[ASMPeripheralConfig setLeftXAxisOffset:]
++ -[ASMPeripheralConfig setLeftYAxisOffset:]
++ -[ASMPeripheralConfig setPixelBin:]
++ -[ASMPeripheralConfig setPixelHeight:]
++ -[ASMPeripheralConfig setPixelWidth:]
++ -[ASMPeripheralConfig setPostureChange:]
++ -[ASMPeripheralConfig setRightPixelHeight:]
++ -[ASMPeripheralConfig setRightPixelWidth:]
++ -[ASMPeripheralConfig setRightXAxisOffset:]
++ -[ASMPeripheralConfig setRightYAxisOffset:]
++ -[ASMPeripheralConfig setSendTestImage:]
++ -[ASMPeripheralConfig setXAxisOffset:]
++ -[ASMPeripheralConfig setYAxisOffset:]
++ -[ASMPeripheralConfig toKinoCapturePlan:]
++ -[ASMPeripheralConfig toKinoConfig]
++ -[ASMPeripheralConfig toResourceCategory]
++ -[ASMPeripheralConfig toStartStreamPayloadDataForPeripheral:error:]
++ -[ASMPeripheralConfig toStopStreamPayloadDataForPeripheral:]
++ -[ASMPeripheralConfig xAxisOffset]
++ -[ASMPeripheralConfig yAxisOffset]
++ -[ASMPeripheralControlServices _clearSensorAvailabilityMap]
++ -[ASMPeripheralControlServices _recordSensorAvailability:forPeripheral:]
++ -[ASMPeripheralControlServices isSensorAvailableForPeripheral:]
++ -[ASMPeripheralControlServices peripheralSensorAvailabilityChangedHandler]
++ -[ASMPeripheralControlServices sensorAvailabilityChanged:forPeripheral:]
++ -[ASMPeripheralControlServices setIndicatorForPeripheral:completion:]
++ -[ASMPeripheralControlServices setPeripheralSensorAvailabilityChangedHandler:]
++ -[ASMPeripheralControlServices subscribeToSensorAvailabilityChange:]
++ -[ASMPeripheralControlServices unsubscribeFromSensorAvailabilityChange:]
++ -[ASMPeripheralInertialOdometryConfig .cxx_destruct]
++ -[ASMPeripheralInertialOdometryConfig enableInertialOdometryStream]
++ -[ASMPeripheralInertialOdometryConfig enableSigning]
++ -[ASMPeripheralInertialOdometryConfig inertialOdometryCaptureRate]
++ -[ASMPeripheralInertialOdometryConfig setEnableInertialOdometryStream:]
++ -[ASMPeripheralInertialOdometryConfig setEnableSigning:]
++ -[ASMPeripheralInertialOdometryConfig setInertialOdometryCaptureRate:]
++ -[ASMPeripheralInertialOdometryConfig toStartInertialOdometryStreamPayloadDataForPeripheral]
++ -[ASMPeripheralInertialOdometryConfig toStopInertialOdometryStreamPayloadDataForPeripheral]
++ -[ASMPeripheralSecurePairingServices .cxx_destruct]
++ -[ASMPeripheralSecurePairingServices _ensureXPCStarted]
++ -[ASMPeripheralSecurePairingServices _interrupted]
++ -[ASMPeripheralSecurePairingServices _invalidated]
++ -[ASMPeripheralSecurePairingServices clientID]
++ -[ASMPeripheralSecurePairingServices description]
++ -[ASMPeripheralSecurePairingServices dispatchQueue]
++ -[ASMPeripheralSecurePairingServices encodeWithCoder:]
++ -[ASMPeripheralSecurePairingServices initWithCoder:]
++ -[ASMPeripheralSecurePairingServices init]
++ -[ASMPeripheralSecurePairingServices interruptionHandler]
++ -[ASMPeripheralSecurePairingServices invalidate]
++ -[ASMPeripheralSecurePairingServices invalidationHandler]
++ -[ASMPeripheralSecurePairingServices isSystemContext]
++ -[ASMPeripheralSecurePairingServices setClientID:]
++ -[ASMPeripheralSecurePairingServices setDispatchQueue:]
++ -[ASMPeripheralSecurePairingServices setInterruptionHandler:]
++ -[ASMPeripheralSecurePairingServices setInvalidationHandler:]
++ OBJC_IVAR_$_ASMPeripheralConfig._abortOngoingCapture
++ OBJC_IVAR_$_ASMPeripheralConfig._ambientSpeech
++ OBJC_IVAR_$_ASMPeripheralConfig._audioScene
++ OBJC_IVAR_$_ASMPeripheralConfig._circularRegionRadius
++ OBJC_IVAR_$_ASMPeripheralConfig._compressionConfig
++ OBJC_IVAR_$_ASMPeripheralConfig._enableAutoExposure
++ OBJC_IVAR_$_ASMPeripheralConfig._enableContextualAlarm
++ OBJC_IVAR_$_ASMPeripheralConfig._enableDebugMode
++ OBJC_IVAR_$_ASMPeripheralConfig._enableEncryption
++ OBJC_IVAR_$_ASMPeripheralConfig._enableKinoCapture
++ OBJC_IVAR_$_ASMPeripheralConfig._headRotationAngle
++ OBJC_IVAR_$_ASMPeripheralConfig._kinoCaptureMode
++ OBJC_IVAR_$_ASMPeripheralConfig._kinoCaptureRate
++ OBJC_IVAR_$_ASMPeripheralConfig._leftPixelHeight
++ OBJC_IVAR_$_ASMPeripheralConfig._leftPixelWidth
++ OBJC_IVAR_$_ASMPeripheralConfig._leftXAxisOffset
++ OBJC_IVAR_$_ASMPeripheralConfig._leftYAxisOffset
++ OBJC_IVAR_$_ASMPeripheralConfig._pixelBin
++ OBJC_IVAR_$_ASMPeripheralConfig._postureChange
++ OBJC_IVAR_$_ASMPeripheralConfig._rightPixelHeight
++ OBJC_IVAR_$_ASMPeripheralConfig._rightPixelWidth
++ OBJC_IVAR_$_ASMPeripheralConfig._rightXAxisOffset
++ OBJC_IVAR_$_ASMPeripheralConfig._rightYAxisOffset
++ OBJC_IVAR_$_ASMPeripheralConfig._sendTestImage
++ OBJC_IVAR_$_ASMPeripheralControlServices._peripheralSensorAvailabilityChangedHandler
++ OBJC_IVAR_$_ASMPeripheralControlServices._sensorAvailabilityMap
++ OBJC_IVAR_$_ASMPeripheralInertialOdometryConfig._enableInertialOdometryStream
++ OBJC_IVAR_$_ASMPeripheralInertialOdometryConfig._enableSigning
++ OBJC_IVAR_$_ASMPeripheralInertialOdometryConfig._inertialOdometryCaptureRate
++ OBJC_IVAR_$_ASMPeripheralSecurePairingServices._clientID
++ OBJC_IVAR_$_ASMPeripheralSecurePairingServices._dispatchQueue
++ OBJC_IVAR_$_ASMPeripheralSecurePairingServices._interruptionHandler
++ OBJC_IVAR_$_ASMPeripheralSecurePairingServices._invalidateCalled
++ OBJC_IVAR_$_ASMPeripheralSecurePairingServices._invalidateDone
++ OBJC_IVAR_$_ASMPeripheralSecurePairingServices._invalidationHandler
++ OBJC_IVAR_$_ASMPeripheralSecurePairingServices._xpcCnx
++ _ASMErrorF
++ _ASMKinoSensorIdentifierActive1024_WRR
++ _ASMKinoSensorIdentifierAmbient320_BU
++ _NSDecodeObjectIfPresent
++ _OBJC_CLASS_$_ASMKinoSensorInfo
++ _OBJC_CLASS_$_ASMPeripheralSecurePairingServices
++ _OBJC_CLASS_$_NSData
++ _OBJC_CLASS_$_NSMutableData
++ _OBJC_METACLASS_$_ASMPeripheralSecurePairingServices
++ __48-[ASMPeripheralSecurePairingServices invalidate]_block_invoke
++ __50-[ASMPeripheralSecurePairingServices _interrupted]_block_invoke
++ __55-[ASMPeripheralSecurePairingServices _ensureXPCStarted]_block_invoke
++ __68-[ASMPeripheralControlServices subscribeToSensorAvailabilityChange:]_block_invoke
++ __68-[ASMPeripheralControlServices subscribeToSensorAvailabilityChange:]_block_invoke_2
++ __69-[ASMPeripheralControlServices setIndicatorForPeripheral:completion:]_block_invoke
++ __69-[ASMPeripheralControlServices setIndicatorForPeripheral:completion:]_block_invoke_2
++ __72-[ASMPeripheralControlServices sensorAvailabilityChanged:forPeripheral:]_block_invoke
++ __72-[ASMPeripheralControlServices unsubscribeFromSensorAvailabilityChange:]_block_invoke
++ __72-[ASMPeripheralControlServices unsubscribeFromSensorAvailabilityChange:]_block_invoke_2
++ __OBJC_$_CLASS_METHODS_ASMPeripheralSecurePairingServices
++ __OBJC_$_CLASS_PROP_LIST_ASMPeripheralSecurePairingServices
++ __OBJC_$_INSTANCE_METHODS_ASMPeripheralSecurePairingServices
++ __OBJC_$_INSTANCE_VARIABLES_ASMPeripheralConfig
++ __OBJC_$_INSTANCE_VARIABLES_ASMPeripheralInertialOdometryConfig
++ __OBJC_$_INSTANCE_VARIABLES_ASMPeripheralSecurePairingServices
++ __OBJC_$_PROP_LIST_ASMPeripheralConfig
++ __OBJC_$_PROP_LIST_ASMPeripheralInertialOdometryConfig
++ __OBJC_$_PROP_LIST_ASMPeripheralSecurePairingServices
++ __OBJC_CLASS_PROTOCOLS_$_ASMPeripheralSecurePairingServices
++ __OBJC_CLASS_RO_$_ASMPeripheralSecurePairingServices
++ __OBJC_METACLASS_RO_$_ASMPeripheralSecurePairingServices
++ ___48-[ASMPeripheralSecurePairingServices invalidate]_block_invoke
++ ___50-[ASMPeripheralSecurePairingServices _interrupted]_block_invoke
++ ___53-[ASMPeripheralSecurePairingServices isSystemContext]_block_invoke
++ ___55-[ASMPeripheralSecurePairingServices _ensureXPCStarted]_block_invoke
++ ___68-[ASMPeripheralControlServices subscribeToSensorAvailabilityChange:]_block_invoke
++ ___68-[ASMPeripheralControlServices subscribeToSensorAvailabilityChange:]_block_invoke_2
++ ___69-[ASMPeripheralControlServices setIndicatorForPeripheral:completion:]_block_invoke
++ ___69-[ASMPeripheralControlServices setIndicatorForPeripheral:completion:]_block_invoke_2
++ ___72-[ASMPeripheralControlServices sensorAvailabilityChanged:forPeripheral:]_block_invoke
++ ___72-[ASMPeripheralControlServices unsubscribeFromSensorAvailabilityChange:]_block_invoke
++ ___72-[ASMPeripheralControlServices unsubscribeFromSensorAvailabilityChange:]_block_invoke_2
++ ___block_descriptor_56_e8_32s40s48bs_e5_v8?0l
++ ___copy_helper_block_e8_32s40s48b
++ ___destroy_helper_block_e8_32s40s48s
++ _gLogCategory_ASMPeripheralConfig
++ _gLogCategory_ASMPeripheralSecurePairingServices
++ _objc_autorelease
++ _objc_msgSend$_clearSensorAvailabilityMap
++ _objc_msgSend$_recordSensorAvailability:forPeripheral:
++ _objc_msgSend$ambientSpeech
++ _objc_msgSend$appendBytes:length:
++ _objc_msgSend$appendData:
++ _objc_msgSend$audioScene
++ _objc_msgSend$autoExposureEnabled
++ _objc_msgSend$capturePixelHeight
++ _objc_msgSend$capturePixelWidth
++ _objc_msgSend$circularRegionRadius
++ _objc_msgSend$compressionConfig
++ _objc_msgSend$copyWithZone:
++ _objc_msgSend$data
++ _objc_msgSend$dataWithBytes:length:
++ _objc_msgSend$debugModeEnabled
++ _objc_msgSend$enableAutoExposure
++ _objc_msgSend$enableContextualAlarm
++ _objc_msgSend$enableDebugMode
++ _objc_msgSend$enableEncryption
++ _objc_msgSend$enableKinoCapture
++ _objc_msgSend$encodeInteger:forKey:
++ _objc_msgSend$encodeObject:forKey:
++ _objc_msgSend$encryptionEnabled
++ _objc_msgSend$headRotationAngle
++ _objc_msgSend$isEqual:
++ _objc_msgSend$isSensorAvailableForPeripheral:
++ _objc_msgSend$kinoCaptureEnabled
++ _objc_msgSend$kinoCaptureMode
++ _objc_msgSend$kinoCaptureRate
++ _objc_msgSend$kinoSensorInfoWithIdentifier:
++ _objc_msgSend$leftPixelHeight
++ _objc_msgSend$leftPixelWidth
++ _objc_msgSend$leftXAxisOffset
++ _objc_msgSend$leftYAxisOffset
++ _objc_msgSend$length
++ _objc_msgSend$pendingStartStreamConfig
++ _objc_msgSend$pixelBin
++ _objc_msgSend$postureChange
++ _objc_msgSend$rightPixelHeight
++ _objc_msgSend$rightPixelWidth
++ _objc_msgSend$rightXAxisOffset
++ _objc_msgSend$rightYAxisOffset
++ _objc_msgSend$sendTestImage
++ _objc_msgSend$setAbortOngoingCapture:
++ _objc_msgSend$setAmbientSpeech:
++ _objc_msgSend$setAudioScene:
++ _objc_msgSend$setCircularRegionRadius:
++ _objc_msgSend$setCompressionConfig:
++ _objc_msgSend$setEnableAutoExposure:
++ _objc_msgSend$setEnableContextualAlarm:
++ _objc_msgSend$setEnableDebugMode:
++ _objc_msgSend$setEnableEncryption:
++ _objc_msgSend$setEnableKinoCapture:
++ _objc_msgSend$setHeadRotationAngle:
++ _objc_msgSend$setIndicator:forPeripheral:completion:
++ _objc_msgSend$setKinoCaptureMode:
++ _objc_msgSend$setKinoCaptureRate:
++ _objc_msgSend$setLeftPixelHeight:
++ _objc_msgSend$setLeftPixelWidth:
++ _objc_msgSend$setLeftXAxisOffset:
++ _objc_msgSend$setLeftYAxisOffset:
++ _objc_msgSend$setPixelBin:
++ _objc_msgSend$setPostureChange:
++ _objc_msgSend$setRightPixelHeight:
++ _objc_msgSend$setRightPixelWidth:
++ _objc_msgSend$setRightXAxisOffset:
++ _objc_msgSend$setRightYAxisOffset:
++ _objc_msgSend$setSendTestImage:
++ _objc_msgSend$subscribeToSensorAvailabilityChange:forPeripheral:
++ _objc_msgSend$testImageEnabled
++ _objc_msgSend$toKinoCapturePlan:
++ _objc_msgSend$toKinoConfig
++ _objc_msgSend$toResourceCategory
++ _objc_msgSend$unsignedCharValue
++ _objc_msgSend$unsignedIntValue
++ _objc_msgSend$unsignedLongValue
++ _objc_msgSend$unsubscribeFromSensorAvailabilityChange:forPeripheral:
+CStrings:
++ "### setIndicatorForPeripheral failed to start XPC"
++ "### setIndicatorForPeripheral no XPC"
++ "### subscribeToSensorAvailabilityChange failed to start XPC"
++ "### subscribeToSensorAvailabilityChange no XPC"
++ "### unsubscribeFromSensorAvailabilityChange failed to start XPC"
++ "### unsubscribeFromSensorAvailabilityChange no XPC"
++ "+"
++ ", Abrt Cptr: %s"
++ ", Ambt Spch : %s"
++ ", Audo Scne : %s"
++ ", Auto Expr: %s"
++ ", Cptr Mode: %s"
++ ", Cptr Rate: %@"
++ ", CrRg Rdus : %@"
++ ", Ctxt Alrm: %s"
++ ", En IO Stream: %s"
++ ", En signing: %s"
++ ", Enbl Cmpr: %s"
++ ", Enbl Cptr: %s"
++ ", Enbl DbgM: %s"
++ ", Enbl Ecpt: %s"
++ ", HdRt Angl : %@"
++ ", IO Cptr Rate: %@"
++ ", LPxl Hght: %@"
++ ", LPxl Wdth: %@"
++ ", LXAxs Ofst: %@"
++ ", LYAxs Ofst: %@"
++ ", Pstr Chng : %s"
++ ", Pxl Bin: %s"
++ ", RPxl Hght: %@"
++ ", RPxl Wdth: %@"
++ ", RXAxs Ofst: %@"
++ ", RYAxs Ofst: %@"
++ ", Test Imag: %s"
++ "-[ASMPeripheralConfig kinoSensorConfigNeedsUpdateForPeripheral:]"
++ "-[ASMPeripheralConfig toKinoConfig]"
++ "-[ASMPeripheralConfig toStopStreamPayloadDataForPeripheral:]"
++ "-[ASMPeripheralControlServices sensorAvailabilityChanged:forPeripheral:]_block_invoke"
++ "-[ASMPeripheralControlServices setIndicatorForPeripheral:completion:]_block_invoke"
++ "-[ASMPeripheralControlServices setIndicatorForPeripheral:completion:]_block_invoke_2"
++ "-[ASMPeripheralControlServices subscribeToSensorAvailabilityChange:]_block_invoke"
++ "-[ASMPeripheralControlServices subscribeToSensorAvailabilityChange:]_block_invoke_2"
++ "-[ASMPeripheralControlServices unsubscribeFromSensorAvailabilityChange:]_block_invoke"
++ "-[ASMPeripheralControlServices unsubscribeFromSensorAvailabilityChange:]_block_invoke_2"
++ "-[ASMPeripheralSecurePairingServices _ensureXPCStarted]"
++ "-[ASMPeripheralSecurePairingServices _interrupted]_block_invoke"
++ "-[ASMPeripheralSecurePairingServices _invalidated]"
++ "-[ASMPeripheralSecurePairingServices invalidate]_block_invoke"
++ "@\"NSNumber\""
++ "@32@0:8@16^@24"
++ "ASMPeripheralSecurePairingServices"
++ "ASMPeripheralSecurePairingServices, CID 0x%X"
++ "AbOC"
++ "AmSp"
++ "Attempting to get start stream payload when stream start is not requested: %@"
++ "AuEx"
++ "AuSc"
++ "Auto"
++ "B24@0:8@16"
++ "Bin0"
++ "Bin1"
++ "Bin2"
++ "C"
++ "C16@0:8"
++ "CRRa"
++ "CmCp"
++ "Compression must be enabled for passive capture: %@"
++ "Debug setting must be enabled if setting values for autoExposure, compressionConfig, enableEncryption %@"
++ "EnCA"
++ "EnDM"
++ "EnEc"
++ "EnIO"
++ "EnKC"
++ "EnSg"
++ "HRAn"
++ "IORt"
++ "Interrupted"
++ "Invalid peripheral config %@ to get kino config"
++ "KCMd"
++ "KCRt"
++ "LPHt"
++ "LPWd"
++ "LXOf"
++ "LYOf"
++ "Off"
++ "PiBn"
++ "PoCh"
++ "QP10"
++ "QP100"
++ "QP20"
++ "QP30"
++ "QP40"
++ "QP50"
++ "QP60"
++ "QP70"
++ "QP80"
++ "QP90"
++ "RPHt"
++ "RPWd"
++ "RXOf"
++ "RYOf"
++ "SdTI"
++ "Sensor availability changed for peripheral %@: %s -> %s"
++ "Stop stream payload with shouldAbortOngoingCapture: %s"
++ "T@\"NSNumber\",&,N"
++ "T@\"NSNumber\",&,N,V_circularRegionRadius"
++ "T@\"NSNumber\",&,N,V_headRotationAngle"
++ "T@\"NSNumber\",&,N,V_inertialOdometryCaptureRate"
++ "T@\"NSNumber\",&,N,V_kinoCaptureRate"
++ "T@\"NSNumber\",&,N,V_leftPixelHeight"
++ "T@\"NSNumber\",&,N,V_leftPixelWidth"
++ "T@\"NSNumber\",&,N,V_leftXAxisOffset"
++ "T@\"NSNumber\",&,N,V_leftYAxisOffset"
++ "T@\"NSNumber\",&,N,V_rightPixelHeight"
++ "T@\"NSNumber\",&,N,V_rightPixelWidth"
++ "T@\"NSNumber\",&,N,V_rightXAxisOffset"
++ "T@\"NSNumber\",&,N,V_rightYAxisOffset"
++ "T@?,C,N,V_peripheralSensorAvailabilityChangedHandler"
++ "TC,N,V_compressionConfig"
++ "TC,N,V_pixelBin"
++ "TI,N,V_kinoCaptureMode"
++ "Tc,N"
++ "Tc,N,V_abortOngoingCapture"
++ "Tc,N,V_ambientSpeech"
++ "Tc,N,V_audioScene"
++ "Tc,N,V_enableAutoExposure"
++ "Tc,N,V_enableContextualAlarm"
++ "Tc,N,V_enableDebugMode"
++ "Tc,N,V_enableEncryption"
++ "Tc,N,V_enableInertialOdometryStream"
++ "Tc,N,V_enableKinoCapture"
++ "Tc,N,V_enableSigning"
++ "Tc,N,V_postureChange"
++ "Tc,N,V_sendTestImage"
++ "_abortOngoingCapture"
++ "_ambientSpeech"
++ "_audioScene"
++ "_circularRegionRadius"
++ "_clearSensorAvailabilityMap"
++ "_compressionConfig"
++ "_enableAutoExposure"
++ "_enableContextualAlarm"
++ "_enableDebugMode"
++ "_enableEncryption"
++ "_enableInertialOdometryStream"
++ "_enableKinoCapture"
++ "_enableSigning"
++ "_headRotationAngle"
++ "_inertialOdometryCaptureRate"
++ "_kinoCaptureMode"
++ "_kinoCaptureRate"
++ "_leftPixelHeight"
++ "_leftPixelWidth"
++ "_leftXAxisOffset"
++ "_leftYAxisOffset"
++ "_peripheralSensorAvailabilityChangedHandler"
++ "_pixelBin"
++ "_postureChange"
++ "_recordSensorAvailability:forPeripheral:"
++ "_rightPixelHeight"
++ "_rightPixelWidth"
++ "_rightXAxisOffset"
++ "_rightYAxisOffset"
++ "_sendTestImage"
++ "_sensorAvailabilityMap"
++ "abortOngoingCapture"
++ "active"
++ "ambientSpeech"
++ "appendBytes:length:"
++ "appendData:"
++ "audioScene"
++ "autoExposureEnabled"
++ "c"
++ "c16@0:8"
++ "capturePixelHeight"
++ "capturePixelWidth"
++ "changing ambient speech %s --> %s"
++ "changing audio scene %s --> %s"
++ "changing auto exposure %s --> %s"
++ "changing circular region radius %@ --> %@"
++ "changing head rotation angle %@ --> %@"
++ "changing kino capture mode %s --> %s"
++ "changing kino capture rate %@ --> %@"
++ "changing left pixel height %@ --> %@"
++ "changing left pixel width %@ --> %@"
++ "changing left x-axis offset %@ --> %@"
++ "changing left y-axis offset %@ --> %@"
++ "changing pixel bin %s --> %s"
++ "changing posture updates %s --> %s"
++ "changing right pixel height %@ --> %@"
++ "changing right pixel width %@ --> %@"
++ "changing right x-axis offset %@ --> %@"
++ "changing right y-axis offset %@ --> %@"
++ "circularRegionRadius"
++ "compressionConfig"
++ "data"
++ "dataWithBytes:length:"
++ "debugModeEnabled"
++ "enableAutoExposure"
++ "enableCompression"
++ "enableContextualAlarm"
++ "enableDebugMode"
++ "enableEncryption"
++ "enableInertialOdometryStream"
++ "enableKinoCapture"
++ "enableSigning"
++ "enabling compression %s --> %s"
++ "enabling contextual alarm %s --> %s"
++ "enabling debug mode %s --> %s"
++ "enabling encryption %s --> %s"
++ "enabling kino capture %s --> %s"
++ "enabling test image %s --> %s"
++ "encodeInteger:forKey:"
++ "encodeObject:forKey:"
++ "encryptionEnabled"
++ "headRotationAngle"
++ "inertialOdometryCaptureRate"
++ "isEqual:"
++ "isSensorAvailableForPeripheral:"
++ "kinoCaptureEnabled"
++ "kinoCaptureMode"
++ "kinoCaptureRate"
++ "kinoSensorConfigNeedsUpdateForPeripheral:"
++ "kinoSensorInfoWithIdentifier:"
++ "leftPixelHeight"
++ "leftPixelWidth"
++ "leftXAxisOffset"
++ "leftYAxisOffset"
++ "length"
++ "no"
++ "no pending capture, allowing another single shot capture"
++ "passive"
++ "pendingStartStreamConfig"
++ "peripheralSensorAvailabilityChangedHandler"
++ "pixelBin"
++ "pixelHeight"
++ "pixelWidth"
++ "postureChange"
++ "rightPixelHeight"
++ "rightPixelWidth"
++ "rightXAxisOffset"
++ "rightYAxisOffset"
++ "sendTestImage"
++ "sensorAvailabilityChanged:forPeripheral:"
++ "setAbortOngoingCapture:"
++ "setAmbientSpeech:"
++ "setAudioScene:"
++ "setCircularRegionRadius:"
++ "setCompressionConfig:"
++ "setEnableAutoExposure:"
++ "setEnableCompression:"
++ "setEnableContextualAlarm:"
++ "setEnableDebugMode:"
++ "setEnableEncryption:"
++ "setEnableInertialOdometryStream:"
++ "setEnableKinoCapture:"
++ "setEnableSigning:"
++ "setHeadRotationAngle:"
++ "setIndicator:forPeripheral:completion:"
++ "setIndicatorForPeripheral %@, CID 0x%X"
++ "setIndicatorForPeripheral:completion:"
++ "setInertialOdometryCaptureRate:"
++ "setKinoCaptureMode:"
++ "setKinoCaptureRate:"
++ "setLeftPixelHeight:"
++ "setLeftPixelWidth:"
++ "setLeftXAxisOffset:"
++ "setLeftYAxisOffset:"
++ "setPeripheralSensorAvailabilityChangedHandler:"
++ "setPixelBin:"
++ "setPixelHeight:"
++ "setPixelWidth:"
++ "setPostureChange:"
++ "setRightPixelHeight:"
++ "setRightPixelWidth:"
++ "setRightXAxisOffset:"
++ "setRightYAxisOffset:"
++ "setSendTestImage:"
++ "setXAxisOffset:"
++ "setYAxisOffset:"
++ "sps"
++ "subscribeToSensorAvailabilityChange for %@, CID 0x%X"
++ "subscribeToSensorAvailabilityChange:"
++ "subscribeToSensorAvailabilityChange:forPeripheral:"
++ "testImageEnabled"
++ "toKinoCapturePlan:"
++ "toKinoConfig"
++ "toResourceCategory"
++ "toStartInertialOdometryStreamPayloadDataForPeripheral"
++ "toStartStreamPayloadDataForPeripheral:error:"
++ "toStopInertialOdometryStreamPayloadDataForPeripheral"
++ "toStopStreamPayloadDataForPeripheral:"
++ "unknown"
++ "unsignedCharValue"
++ "unsignedIntValue"
++ "unsignedLongValue"
++ "unsubscribeFromSensorAvailabilityChange for %@, CID 0x%X"
++ "unsubscribeFromSensorAvailabilityChange:"
++ "unsubscribeFromSensorAvailabilityChange:forPeripheral:"
++ "v20@0:8C16"
++ "v20@0:8c16"
++ "v32@0:8@\"ASMPeripheralControlServices\"16@\"NSString\"24"
++ "v32@0:8@16@?24"
++ "v40@0:8@\"ASMPeripheralControlServices\"16@\"NSString\"24@?<v@?@\"NSError\">32"
++ "xAxisOffset"
++ "yAxisOffset"
++ "yes"
++ "{?={?=SSSSC}{?=SSSSC}}16@0:8"
+```

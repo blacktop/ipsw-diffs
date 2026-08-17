@@ -1,0 +1,43 @@
+## com.apple.driver.AppleMobileFileIntegrity
+
+> `com.apple.driver.AppleMobileFileIntegrity`
+
+```diff
+
+-1045.160.3.0.0
+-  __TEXT.__cstring: 0x1b9c0
++1045.160.3.700.2
++  __TEXT.__cstring: 0x1b9ea
+   __TEXT.__const: 0x1b68
+   __TEXT.__os_log: 0x47a
+   __TEXT_EXEC.__text: 0x34964
+
+   __DATA_CONST.__auth_ptr: 0x28
+   __DATA_CONST.__mod_init_func: 0x20
+   __DATA_CONST.__mod_term_func: 0x20
+-  __DATA_CONST.__const: 0xbf78
++  __DATA_CONST.__const: 0xbf88
+   __DATA_CONST.__kalloc_type: 0x12c0
+   __DATA_CONST.__kalloc_var: 0x1310
+   __DATA_CONST.__assert: 0xdc
+   Functions: 1032
+   Symbols:   2078
+-  CStrings:  3375
++  CStrings:  3376
+ 
+Symbols:
++ __ZZL27_process_matches_constraintP4procyE21kalloc_type_view_5235
++ __ZZL27_process_matches_constraintP4procyE21kalloc_type_view_5258
++ __ZZN20StaticPlatformPolicyILb1ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELb1ELb0ELb1ELb0ELb0ELb1ELb0ELj2ELb1ELb0EE15check_signatureEP13VnodeLazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_3005
++ __ZZN20StaticPlatformPolicyILb1ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELb1ELb0ELb1ELb0ELb0ELb1ELb0ELj2ELb1ELb0EE15check_signatureEP13VnodeLazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_3245
++ __ZZN20StaticPlatformPolicyILb1ELb1ELb1ELb1ELb1ELb1ELb1ELb0ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELj1ELb1ELb0EE15check_signatureEP13VnodeLazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_3005
++ __ZZN20StaticPlatformPolicyILb1ELb1ELb1ELb1ELb1ELb1ELb1ELb0ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELj1ELb1ELb0EE15check_signatureEP13VnodeLazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_3245
+- __ZZL27_process_matches_constraintP4procyE21kalloc_type_view_5234
+- __ZZL27_process_matches_constraintP4procyE21kalloc_type_view_5257
+- __ZZN20StaticPlatformPolicyILb1ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELb1ELb0ELb1ELb0ELb0ELb1ELb0ELj2ELb1ELb0EE15check_signatureEP13VnodeLazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_3004
+- __ZZN20StaticPlatformPolicyILb1ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELb1ELb0ELb1ELb0ELb0ELb1ELb0ELj2ELb1ELb0EE15check_signatureEP13VnodeLazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_3244
+- __ZZN20StaticPlatformPolicyILb1ELb1ELb1ELb1ELb1ELb1ELb1ELb0ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELj1ELb1ELb0EE15check_signatureEP13VnodeLazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_3004
+- __ZZN20StaticPlatformPolicyILb1ELb1ELb1ELb1ELb1ELb1ELb1ELb0ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELj1ELb1ELb0EE15check_signatureEP13VnodeLazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_3244
+CStrings:
++ "com.apple.SafariTechnologyPreview.History"
+```

@@ -1,0 +1,238 @@
+## HeadphoneManager
+
+> `/System/Library/PrivateFrameworks/HeadphoneManager.framework/Versions/A/HeadphoneManager`
+
+```diff
+
+ 35.14.0.0.0
+-  __TEXT.__text: 0x132cd4
++  __TEXT.__text: 0x1355c0
+   __TEXT.__auth_stubs: 0x15b0
+   __TEXT.__objc_methlist: 0x100c
+-  __TEXT.__const: 0x72e8
++  __TEXT.__const: 0x7478
+   __TEXT.__oslogstring: 0x1855
+-  __TEXT.__swift5_typeref: 0x13f4
++  __TEXT.__swift5_typeref: 0x1406
+   __TEXT.__swift5_capture: 0x3364
+-  __TEXT.__constg_swiftt: 0x304c
++  __TEXT.__constg_swiftt: 0x3160
+   __TEXT.__swift5_builtin: 0x3e8
+-  __TEXT.__swift5_reflstr: 0x22ed
++  __TEXT.__swift5_reflstr: 0x231d
+   __TEXT.__swift5_assocty: 0x668
+   __TEXT.__cstring: 0x30de
+-  __TEXT.__swift5_proto: 0x274
+-  __TEXT.__swift5_types: 0x1ac
+-  __TEXT.__swift5_fieldmd: 0x14ac
++  __TEXT.__swift5_proto: 0x280
++  __TEXT.__swift5_types: 0x1b8
++  __TEXT.__swift5_fieldmd: 0x153c
+   __TEXT.__swift5_protos: 0x18
+   __TEXT.__swift_as_entry: 0x10
+   __TEXT.__swift_as_ret: 0x10
+-  __TEXT.__unwind_info: 0x25f8
++  __TEXT.__unwind_info: 0x2678
+   __TEXT.__eh_frame: 0xc2c
+-  __TEXT.__objc_classname: 0x55c
+-  __TEXT.__objc_methname: 0x4bfc
++  __TEXT.__objc_classname: 0x5eb
++  __TEXT.__objc_methname: 0x4c4c
+   __TEXT.__objc_methtype: 0xdd7
+-  __TEXT.__objc_stubs: 0x22e0
++  __TEXT.__objc_stubs: 0x2320
+   __DATA_CONST.__got: 0x508
+-  __DATA_CONST.__const: 0x1258
+-  __DATA_CONST.__objc_classlist: 0xb0
++  __DATA_CONST.__const: 0x1298
++  __DATA_CONST.__objc_classlist: 0xc8
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x48
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xf48
++  __DATA_CONST.__objc_selrefs: 0xf58
+   __DATA_CONST.__objc_protorefs: 0x30
+   __AUTH_CONST.__auth_got: 0xae0
+-  __AUTH_CONST.__const: 0x9150
+-  __AUTH_CONST.__objc_const: 0x32a8
++  __AUTH_CONST.__const: 0x91b0
++  __AUTH_CONST.__objc_const: 0x3570
+   __AUTH.__objc_data: 0x10a0
+-  __AUTH.__data: 0xa48
++  __AUTH.__data: 0xc40
+   __DATA.__data: 0xd80
+   __DATA.__common: 0x7c
+   __DATA_DIRTY.__objc_data: 0x1ac8
+-  __DATA_DIRTY.__data: 0x1160
+-  __DATA_DIRTY.__bss: 0xd80
++  __DATA_DIRTY.__data: 0x11d0
++  __DATA_DIRTY.__bss: 0xd90
+   __DATA_DIRTY.__common: 0x90
+   - /System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 7622
+-  Symbols:   10627
+-  CStrings:  1323
++  Functions: 7698
++  Symbols:   10772
++  CStrings:  1330
+ 
+Symbols:
++ $s16HeadphoneManager8AADeviceC12securePairedSbvM.resume
++ $s16HeadphoneManager8AADeviceC13$securePaired7Combine9PublishedV9PublisherVySb_GvM.resume
++ $s16HeadphoneManager8AADeviceC22secureSensorCapabilitySo09AAFeatureF0VvM.resume
++ $s16HeadphoneManager8AADeviceC23$secureSensorCapability7Combine9PublishedV9PublisherVySo09AAFeatureF0V_GvM.resume
++ _$s16HeadphoneManager18B518FeatureContentC2id15headphoneDeviceACSgs6UInt32V_AA0aH0CtcfC
++ _$s16HeadphoneManager18B518FeatureContentC2id15headphoneDeviceACSgs6UInt32V_AA0aH0CtcfCTj
++ _$s16HeadphoneManager18B518FeatureContentC2id15headphoneDeviceACSgs6UInt32V_AA0aH0CtcfCTq
++ _$s16HeadphoneManager18B518FeatureContentC2id15headphoneDeviceACSgs6UInt32V_AA0aH0Ctcfc
++ _$s16HeadphoneManager18B518FeatureContentC6deviceAA0A6DeviceCvg
++ _$s16HeadphoneManager18B518FeatureContentC6deviceAA0A6DeviceCvpMV
++ _$s16HeadphoneManager18B518FeatureContentC6deviceAA0A6DeviceCvpWvd
++ _$s16HeadphoneManager18B518FeatureContentC9productIDs6UInt32Vvg
++ _$s16HeadphoneManager18B518FeatureContentC9productIDs6UInt32VvpMV
++ _$s16HeadphoneManager18B518FeatureContentC9productIDs6UInt32VvpWvd
++ _$s16HeadphoneManager18B518FeatureContentCAA0adE4TypeA2aDP2id15headphoneDevicexSgs6UInt32V_AA0aI0CtcfCTW
++ _$s16HeadphoneManager18B518FeatureContentCAA0adE4TypeA2aDP6deviceAA0A6DeviceCvgTW
++ _$s16HeadphoneManager18B518FeatureContentCAA0adE4TypeA2aDP9productIDs6UInt32VvgTW
++ _$s16HeadphoneManager18B518FeatureContentCAA0adE4TypeAAMc
++ _$s16HeadphoneManager18B518FeatureContentCAA0adE4TypeAAWP
++ _$s16HeadphoneManager18B518FeatureContentCMF
++ _$s16HeadphoneManager18B518FeatureContentCMa
++ _$s16HeadphoneManager18B518FeatureContentCMf
++ _$s16HeadphoneManager18B518FeatureContentCMm
++ _$s16HeadphoneManager18B518FeatureContentCMn
++ _$s16HeadphoneManager18B518FeatureContentCMo
++ _$s16HeadphoneManager18B518FeatureContentCMu
++ _$s16HeadphoneManager18B518FeatureContentCN
++ _$s16HeadphoneManager18B518FeatureContentCfD
++ _$s16HeadphoneManager18B518FeatureContentCfd
++ _$s16HeadphoneManager18B522FeatureContentC2id15headphoneDeviceACSgs6UInt32V_AA0aH0CtcfC
++ _$s16HeadphoneManager18B522FeatureContentC2id15headphoneDeviceACSgs6UInt32V_AA0aH0CtcfCTj
++ _$s16HeadphoneManager18B522FeatureContentC2id15headphoneDeviceACSgs6UInt32V_AA0aH0CtcfCTq
++ _$s16HeadphoneManager18B522FeatureContentC2id15headphoneDeviceACSgs6UInt32V_AA0aH0Ctcfc
++ _$s16HeadphoneManager18B522FeatureContentC6deviceAA0A6DeviceCvg
++ _$s16HeadphoneManager18B522FeatureContentC6deviceAA0A6DeviceCvpMV
++ _$s16HeadphoneManager18B522FeatureContentC6deviceAA0A6DeviceCvpWvd
++ _$s16HeadphoneManager18B522FeatureContentC9productIDs6UInt32Vvg
++ _$s16HeadphoneManager18B522FeatureContentC9productIDs6UInt32VvpMV
++ _$s16HeadphoneManager18B522FeatureContentC9productIDs6UInt32VvpWvd
++ _$s16HeadphoneManager18B522FeatureContentCAA0adE4TypeA2aDP2id15headphoneDevicexSgs6UInt32V_AA0aI0CtcfCTW
++ _$s16HeadphoneManager18B522FeatureContentCAA0adE4TypeA2aDP6deviceAA0A6DeviceCvgTW
++ _$s16HeadphoneManager18B522FeatureContentCAA0adE4TypeA2aDP9productIDs6UInt32VvgTW
++ _$s16HeadphoneManager18B522FeatureContentCAA0adE4TypeAAMc
++ _$s16HeadphoneManager18B522FeatureContentCAA0adE4TypeAAWP
++ _$s16HeadphoneManager18B522FeatureContentCMF
++ _$s16HeadphoneManager18B522FeatureContentCMa
++ _$s16HeadphoneManager18B522FeatureContentCMf
++ _$s16HeadphoneManager18B522FeatureContentCMm
++ _$s16HeadphoneManager18B522FeatureContentCMn
++ _$s16HeadphoneManager18B522FeatureContentCMo
++ _$s16HeadphoneManager18B522FeatureContentCMu
++ _$s16HeadphoneManager18B522FeatureContentCN
++ _$s16HeadphoneManager18B522FeatureContentCfD
++ _$s16HeadphoneManager18B522FeatureContentCfd
++ _$s16HeadphoneManager18B790FeatureContentC2id15headphoneDeviceACSgs6UInt32V_AA0aH0CtcfC
++ _$s16HeadphoneManager18B790FeatureContentC2id15headphoneDeviceACSgs6UInt32V_AA0aH0CtcfCTj
++ _$s16HeadphoneManager18B790FeatureContentC2id15headphoneDeviceACSgs6UInt32V_AA0aH0CtcfCTq
++ _$s16HeadphoneManager18B790FeatureContentC2id15headphoneDeviceACSgs6UInt32V_AA0aH0Ctcfc
++ _$s16HeadphoneManager18B790FeatureContentC6deviceAA0A6DeviceCvg
++ _$s16HeadphoneManager18B790FeatureContentC6deviceAA0A6DeviceCvpMV
++ _$s16HeadphoneManager18B790FeatureContentC6deviceAA0A6DeviceCvpWvd
++ _$s16HeadphoneManager18B790FeatureContentC9productIDs6UInt32Vvg
++ _$s16HeadphoneManager18B790FeatureContentC9productIDs6UInt32VvpMV
++ _$s16HeadphoneManager18B790FeatureContentC9productIDs6UInt32VvpWvd
++ _$s16HeadphoneManager18B790FeatureContentCAA0adE4TypeA2aDP2id15headphoneDevicexSgs6UInt32V_AA0aI0CtcfCTW
++ _$s16HeadphoneManager18B790FeatureContentCAA0adE4TypeA2aDP6deviceAA0A6DeviceCvgTW
++ _$s16HeadphoneManager18B790FeatureContentCAA0adE4TypeA2aDP9productIDs6UInt32VvgTW
++ _$s16HeadphoneManager18B790FeatureContentCAA0adE4TypeAAMc
++ _$s16HeadphoneManager18B790FeatureContentCAA0adE4TypeAAWP
++ _$s16HeadphoneManager18B790FeatureContentCMF
++ _$s16HeadphoneManager18B790FeatureContentCMa
++ _$s16HeadphoneManager18B790FeatureContentCMf
++ _$s16HeadphoneManager18B790FeatureContentCMm
++ _$s16HeadphoneManager18B790FeatureContentCMn
++ _$s16HeadphoneManager18B790FeatureContentCMo
++ _$s16HeadphoneManager18B790FeatureContentCMu
++ _$s16HeadphoneManager18B790FeatureContentCN
++ _$s16HeadphoneManager18B790FeatureContentCfD
++ _$s16HeadphoneManager18B790FeatureContentCfd
++ _$s16HeadphoneManager8AADeviceC12securePairedSbvM
++ _$s16HeadphoneManager8AADeviceC12securePairedSbvMTq
++ _$s16HeadphoneManager8AADeviceC12securePairedSbvg
++ _$s16HeadphoneManager8AADeviceC12securePairedSbvgTj
++ _$s16HeadphoneManager8AADeviceC12securePairedSbvgTq
++ _$s16HeadphoneManager8AADeviceC12securePairedSbvpACTK
++ _$s16HeadphoneManager8AADeviceC12securePairedSbvpACTk
++ _$s16HeadphoneManager8AADeviceC12securePairedSbvpMV
++ _$s16HeadphoneManager8AADeviceC12securePairedSbvpfF
++ _$s16HeadphoneManager8AADeviceC12securePairedSbvpfP
++ _$s16HeadphoneManager8AADeviceC12securePairedSbvs
++ _$s16HeadphoneManager8AADeviceC12securePairedSbvsTq
++ _$s16HeadphoneManager8AADeviceC13$securePaired7Combine9PublishedV9PublisherVySb_GvM
++ _$s16HeadphoneManager8AADeviceC13$securePaired7Combine9PublishedV9PublisherVySb_GvMTq
++ _$s16HeadphoneManager8AADeviceC13$securePaired7Combine9PublishedV9PublisherVySb_Gvg
++ _$s16HeadphoneManager8AADeviceC13$securePaired7Combine9PublishedV9PublisherVySb_GvgTj
++ _$s16HeadphoneManager8AADeviceC13$securePaired7Combine9PublishedV9PublisherVySb_GvgTq
++ _$s16HeadphoneManager8AADeviceC13$securePaired7Combine9PublishedV9PublisherVySb_GvpACTK
++ _$s16HeadphoneManager8AADeviceC13$securePaired7Combine9PublishedV9PublisherVySb_GvpACTk
++ _$s16HeadphoneManager8AADeviceC13$securePaired7Combine9PublishedV9PublisherVySb_GvpMV
++ _$s16HeadphoneManager8AADeviceC13$securePaired7Combine9PublishedV9PublisherVySb_Gvs
++ _$s16HeadphoneManager8AADeviceC13$securePaired7Combine9PublishedV9PublisherVySb_GvsTq
++ _$s16HeadphoneManager8AADeviceC13_securePaired33_FEF26E52F86F520AB75A7766CE4554E3LL7Combine9PublishedVySbGvg
++ _$s16HeadphoneManager8AADeviceC13_securePaired33_FEF26E52F86F520AB75A7766CE4554E3LL7Combine9PublishedVySbGvpWvd
++ _$s16HeadphoneManager8AADeviceC13_securePaired33_FEF26E52F86F520AB75A7766CE4554E3LL7Combine9PublishedVySbGvpfi
++ _$s16HeadphoneManager8AADeviceC13_securePaired33_FEF26E52F86F520AB75A7766CE4554E3LL7Combine9PublishedVySbGvs
++ _$s16HeadphoneManager8AADeviceC22secureSensorCapabilitySo09AAFeatureF0VvM
++ _$s16HeadphoneManager8AADeviceC22secureSensorCapabilitySo09AAFeatureF0VvMTq
++ _$s16HeadphoneManager8AADeviceC22secureSensorCapabilitySo09AAFeatureF0Vvg
++ _$s16HeadphoneManager8AADeviceC22secureSensorCapabilitySo09AAFeatureF0VvgTj
++ _$s16HeadphoneManager8AADeviceC22secureSensorCapabilitySo09AAFeatureF0VvgTq
++ _$s16HeadphoneManager8AADeviceC22secureSensorCapabilitySo09AAFeatureF0VvpACTK
++ _$s16HeadphoneManager8AADeviceC22secureSensorCapabilitySo09AAFeatureF0VvpACTk
++ _$s16HeadphoneManager8AADeviceC22secureSensorCapabilitySo09AAFeatureF0VvpMV
++ _$s16HeadphoneManager8AADeviceC22secureSensorCapabilitySo09AAFeatureF0VvpfF
++ _$s16HeadphoneManager8AADeviceC22secureSensorCapabilitySo09AAFeatureF0VvpfP
++ _$s16HeadphoneManager8AADeviceC22secureSensorCapabilitySo09AAFeatureF0Vvs
++ _$s16HeadphoneManager8AADeviceC22secureSensorCapabilitySo09AAFeatureF0VvsTq
++ _$s16HeadphoneManager8AADeviceC23$secureSensorCapability7Combine9PublishedV9PublisherVySo09AAFeatureF0V_GvM
++ _$s16HeadphoneManager8AADeviceC23$secureSensorCapability7Combine9PublishedV9PublisherVySo09AAFeatureF0V_GvMTq
++ _$s16HeadphoneManager8AADeviceC23$secureSensorCapability7Combine9PublishedV9PublisherVySo09AAFeatureF0V_Gvg
++ _$s16HeadphoneManager8AADeviceC23$secureSensorCapability7Combine9PublishedV9PublisherVySo09AAFeatureF0V_GvgTj
++ _$s16HeadphoneManager8AADeviceC23$secureSensorCapability7Combine9PublishedV9PublisherVySo09AAFeatureF0V_GvgTq
++ _$s16HeadphoneManager8AADeviceC23$secureSensorCapability7Combine9PublishedV9PublisherVySo09AAFeatureF0V_GvpACTK
++ _$s16HeadphoneManager8AADeviceC23$secureSensorCapability7Combine9PublishedV9PublisherVySo09AAFeatureF0V_GvpACTk
++ _$s16HeadphoneManager8AADeviceC23$secureSensorCapability7Combine9PublishedV9PublisherVySo09AAFeatureF0V_GvpMV
++ _$s16HeadphoneManager8AADeviceC23$secureSensorCapability7Combine9PublishedV9PublisherVySo09AAFeatureF0V_Gvs
++ _$s16HeadphoneManager8AADeviceC23$secureSensorCapability7Combine9PublishedV9PublisherVySo09AAFeatureF0V_GvsTq
++ _$s16HeadphoneManager8AADeviceC23_secureSensorCapability33_FEF26E52F86F520AB75A7766CE4554E3LL7Combine9PublishedVySo09AAFeatureF0VGvg
++ _$s16HeadphoneManager8AADeviceC23_secureSensorCapability33_FEF26E52F86F520AB75A7766CE4554E3LL7Combine9PublishedVySo09AAFeatureF0VGvpWvd
++ _$s16HeadphoneManager8AADeviceC23_secureSensorCapability33_FEF26E52F86F520AB75A7766CE4554E3LL7Combine9PublishedVySo09AAFeatureF0VGvpfi
++ _$s16HeadphoneManager8AADeviceC23_secureSensorCapability33_FEF26E52F86F520AB75A7766CE4554E3LL7Combine9PublishedVySo09AAFeatureF0VGvs
++ __DATA__TtC16HeadphoneManager18B518FeatureContent
++ __DATA__TtC16HeadphoneManager18B522FeatureContent
++ __DATA__TtC16HeadphoneManager18B790FeatureContent
++ __IVARS__TtC16HeadphoneManager18B518FeatureContent
++ __IVARS__TtC16HeadphoneManager18B522FeatureContent
++ __IVARS__TtC16HeadphoneManager18B790FeatureContent
++ __METACLASS_DATA__TtC16HeadphoneManager18B518FeatureContent
++ __METACLASS_DATA__TtC16HeadphoneManager18B522FeatureContent
++ __METACLASS_DATA__TtC16HeadphoneManager18B790FeatureContent
++ _objc_msgSend$securePaired
++ _objc_msgSend$secureSensorCapability
++ _symbolic _____ 16HeadphoneManager18B518FeatureContentC
++ _symbolic _____ 16HeadphoneManager18B522FeatureContentC
++ _symbolic _____ 16HeadphoneManager18B790FeatureContentC
+CStrings:
++ "_TtC16HeadphoneManager18B518FeatureContent"
++ "_TtC16HeadphoneManager18B522FeatureContent"
++ "_TtC16HeadphoneManager18B790FeatureContent"
++ "_securePaired"
++ "_secureSensorCapability"
++ "securePaired"
++ "secureSensorCapability"
+```

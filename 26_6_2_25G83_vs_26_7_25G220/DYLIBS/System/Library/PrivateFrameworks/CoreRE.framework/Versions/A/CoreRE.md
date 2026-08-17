@@ -1,0 +1,211 @@
+## CoreRE
+
+> `/System/Library/PrivateFrameworks/CoreRE.framework/Versions/A/CoreRE`
+
+```diff
+
+-403.120.1.0.0
+-  __TEXT.__text: 0x1551df0
+-  __TEXT.__auth_stubs: 0x7fe0
++403.120.1.102.1
++  __TEXT.__text: 0x154e3f0
++  __TEXT.__auth_stubs: 0x7fd0
+   __TEXT.__objc_methlist: 0x44a8
+-  __TEXT.__const: 0xf17d0
++  __TEXT.__const: 0xf17c0
+   __TEXT.__constg_swiftt: 0x44
+   __TEXT.__swift5_typeref: 0x2f
+   __TEXT.__swift5_fieldmd: 0x44
+   __TEXT.__swift5_reflstr: 0x1f
+   __TEXT.__swift5_types: 0x8
+-  __TEXT.__cstring: 0xb7873
++  __TEXT.__cstring: 0xb7583
+   __TEXT.__gcc_except_tab: 0xdab4
+-  __TEXT.__oslogstring: 0x4cf7b
++  __TEXT.__oslogstring: 0x4cea9
+   __TEXT.__ustring: 0x1a
+   __TEXT.__dlopen_cstrs: 0xb0
+   __TEXT.__unwind_info: 0x5cd8
+
+   __DATA_CONST.__objc_protorefs: 0x48
+   __DATA_CONST.__objc_superrefs: 0x1e8
+   __DATA_CONST.__objc_arraydata: 0x308
+-  __AUTH_CONST.__auth_got: 0x4008
+-  __AUTH_CONST.__const: 0x97840
++  __AUTH_CONST.__auth_got: 0x4000
++  __AUTH_CONST.__const: 0x977d0
+   __AUTH_CONST.__cfstring: 0x12440
+   __AUTH_CONST.__objc_const: 0x83f0
+   __AUTH_CONST.__objc_intobj: 0x4f8
+
+   __AUTH_CONST.__objc_dictobj: 0x50
+   __AUTH_CONST.__objc_floatobj: 0x10
+   __AUTH.__objc_data: 0x1090
+-  __AUTH.__data: 0x14e8
++  __AUTH.__data: 0x1620
+   __AUTH.__thread_vars: 0xc0
+   __AUTH.__thread_bss: 0x310
+   __DATA.__objc_ivar: 0x4a4
+
+   __DATA.__common: 0x6620
+   __DATA_DIRTY.__objc_ivar: 0x110
+   __DATA_DIRTY.__objc_data: 0x5a0
+-  __DATA_DIRTY.__data: 0x3398
+-  __DATA_DIRTY.__bss: 0x40a38
+-  __DATA_DIRTY.__common: 0x3778
++  __DATA_DIRTY.__data: 0x3268
++  __DATA_DIRTY.__bss: 0x40a28
++  __DATA_DIRTY.__common: 0x3768
+   - /System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+   - /System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 81212
+-  Symbols:   117805
+-  CStrings:  25634
++  Functions: 81159
++  Symbols:   117777
++  CStrings:  25616
+ 
+Symbols:
++ __ZN12_GLOBAL__N_119SharedEngineContext12retainOrInitEij
++ __ZN2re12_GLOBAL__N_112g_jobServiceE
++ __ZN2re16RenderGraphLogic31registerDefaultRenderGraphNodesERNS_23RenderGraphNodeRegistryE
++ __ZN2re16RenderGraphLogic34registerDefaultRenderGraphEmittersERNS_26RenderGraphEmitterRegistryE
++ __ZN2re20sharedJobServiceInitENS_14JobServiceTypeEjbPNS_9AllocatorEPNS_16AlignedAllocatorE
++ __ZZN2re27renderGraphNodeRegistryItemINS_14DepthPatchNodeEEEPKNS_31RenderGraphNodeRegistryItemBaseEvE4item
++ __ZZN2re27renderGraphNodeRegistryItemINS_16MXIMeshCrackNodeEEEPKNS_31RenderGraphNodeRegistryItemBaseEvE4item
++ __ZZN2re27renderGraphNodeRegistryItemINS_17MXIDepthPatchNodeEEEPKNS_31RenderGraphNodeRegistryItemBaseEvE4item
++ __ZZN2re27renderGraphNodeRegistryItemINS_17MXIFullscreenNodeEEEPKNS_31RenderGraphNodeRegistryItemBaseEvE4item
++ __ZZN2re27renderGraphNodeRegistryItemINS_18RenderGraphMRCNodeEEEPKNS_31RenderGraphNodeRegistryItemBaseEvE4item
++ __ZZN2re27renderGraphNodeRegistryItemINS_18RenderGraphVFXNodeEEEPKNS_31RenderGraphNodeRegistryItemBaseEvE4item
++ __ZZN2re27renderGraphNodeRegistryItemINS_19ImmersivePortalNodeEEEPKNS_31RenderGraphNodeRegistryItemBaseEvE4item
++ __ZZN2re27renderGraphNodeRegistryItemINS_19RenderGraphMeshNodeEEEPKNS_31RenderGraphNodeRegistryItemBaseEvE4item
++ __ZZN2re27renderGraphNodeRegistryItemINS_19RenderGraphTextNodeEEEPKNS_31RenderGraphNodeRegistryItemBaseEvE4item
++ __ZZN2re27renderGraphNodeRegistryItemINS_20BtStencilPrepassNodeEEEPKNS_31RenderGraphNodeRegistryItemBaseEvE4item
++ __ZZN2re27renderGraphNodeRegistryItemINS_20RenderGraphDebugNodeEEEPKNS_31RenderGraphNodeRegistryItemBaseEvE4item
++ __ZZN2re27renderGraphNodeRegistryItemINS_22RenderGraphCALayerNodeEEEPKNS_31RenderGraphNodeRegistryItemBaseEvE4item
++ __ZZN2re27renderGraphNodeRegistryItemINS_22RenderGraphComputeNodeEEEPKNS_31RenderGraphNodeRegistryItemBaseEvE4item
++ __ZZN2re27renderGraphNodeRegistryItemINS_22RenderGraphResolveNodeEEEPKNS_31RenderGraphNodeRegistryItemBaseEvE4item
++ __ZZN2re27renderGraphNodeRegistryItemINS_22StencilPtInjectionNodeEEEPKNS_31RenderGraphNodeRegistryItemBaseEvE4item
++ __ZZN2re27renderGraphNodeRegistryItemINS_25RenderGraphFillBufferNodeEEEPKNS_31RenderGraphNodeRegistryItemBaseEvE4item
++ __ZZN2re27renderGraphNodeRegistryItemINS_25RenderGraphFullscreenNodeEEEPKNS_31RenderGraphNodeRegistryItemBaseEvE4item
++ __ZZN2re27renderGraphNodeRegistryItemINS_25RenderGraphTargetCopyNodeEEEPKNS_31RenderGraphNodeRegistryItemBaseEvE4item
++ __ZZN2re27renderGraphNodeRegistryItemINS_26MXIColorConversionTileNodeEEEPKNS_31RenderGraphNodeRegistryItemBaseEvE4item
++ __ZZN2re27renderGraphNodeRegistryItemINS_26RenderGraphCameraSetupNodeEEEPKNS_31RenderGraphNodeRegistryItemBaseEvE4item
++ __ZZN2re27renderGraphNodeRegistryItemINS_26RenderGraphDummyNigiriNodeEEEPKNS_31RenderGraphNodeRegistryItemBaseEvE4item
++ __ZZN2re27renderGraphNodeRegistryItemINS_28RenderGraphMultiPassMeshNodeEEEPKNS_31RenderGraphNodeRegistryItemBaseEvE4item
++ __ZZN2re27renderGraphNodeRegistryItemINS_28RenderGraphMultiViewMeshNodeEEEPKNS_31RenderGraphNodeRegistryItemBaseEvE4item
++ __ZZN2re27renderGraphNodeRegistryItemINS_29RenderGraphDebugMaterialsNodeEEEPKNS_31RenderGraphNodeRegistryItemBaseEvE4item
++ __ZZN2re27renderGraphNodeRegistryItemINS_29RenderGraphVFXNotifyFrameNodeEEEPKNS_31RenderGraphNodeRegistryItemBaseEvE4item
++ __ZZN2re27renderGraphNodeRegistryItemINS_30RenderGraphGenerateMipmapsNodeEEEPKNS_31RenderGraphNodeRegistryItemBaseEvE4item
++ __ZZN2re27renderGraphNodeRegistryItemINS_30RenderGraphMaterialReplaceNodeEEEPKNS_31RenderGraphNodeRegistryItemBaseEvE4item
++ __ZZN2re27renderGraphNodeRegistryItemINS_30RenderGraphProfilerOverlayNodeEEEPKNS_31RenderGraphNodeRegistryItemBaseEvE4item
++ __ZZN2re27renderGraphNodeRegistryItemINS_30RenderGraphSelectionRenderNodeEEEPKNS_31RenderGraphNodeRegistryItemBaseEvE4item
++ __ZZN2re27renderGraphNodeRegistryItemINS_32ImmersiveEnvironmentMaskBlurNodeEEEPKNS_31RenderGraphNodeRegistryItemBaseEvE4item
++ __ZZN2re27renderGraphNodeRegistryItemINS_32RenderGraphSynchronizeBufferNodeEEEPKNS_31RenderGraphNodeRegistryItemBaseEvE4item
++ __ZZN2re27renderGraphNodeRegistryItemINS_32RenderGraphSynchronizeTargetNodeEEEPKNS_31RenderGraphNodeRegistryItemBaseEvE4item
++ __ZZN2re27renderGraphNodeRegistryItemINS_34RenderGraphCommitCommandBufferNodeEEEPKNS_31RenderGraphNodeRegistryItemBaseEvE4item
++ __ZZN2re27renderGraphNodeRegistryItemINS_35RenderGraphMultiViewCameraSetupNodeEEEPKNS_31RenderGraphNodeRegistryItemBaseEvE4item
++ __ZZN2re27renderGraphNodeRegistryItemINS_40RenderGraphCopyEntityAttributeBufferNodeEEEPKNS_31RenderGraphNodeRegistryItemBaseEvE4item
++ __ZZN2re30renderGraphEmitterRegistryItemINS_20RenderGraphAREmitterEEEPKNS_34RenderGraphEmitterRegistryItemBaseEvE4item
++ __ZZN2re30renderGraphEmitterRegistryItemINS_27RenderGraphSelectionEmitterEEEPKNS_34RenderGraphEmitterRegistryItemBaseEvE4item
++ __ZZN2re30renderGraphEmitterRegistryItemINS_31RenderGraphSimpleForwardEmitterEEEPKNS_34RenderGraphEmitterRegistryItemBaseEvE4item
++ __ZZN2re30renderGraphEmitterRegistryItemINS_32RenderGraphSFBSystemShellEmitterEEEPKNS_34RenderGraphEmitterRegistryItemBaseEvE4item
++ __func__._ZN2re20sharedJobServiceInitENS_14JobServiceTypeEjbPNS_9AllocatorEPNS_16AlignedAllocatorE
+- __ZN12_GLOBAL__N_115fiberEntryPointEN5boost7context10transfer_tE
+- __ZN12_GLOBAL__N_119SharedEngineContext12retainOrInitEijj
+- __ZN2re10FixedArrayINS_15FiberJobManager9FiberNodeEE6deinitEv
+- __ZN2re10FixedArrayINS_8internal21JobProfilerDataBufferINS1_18JobProfilerJobDataEEEE6deinitEv
+- __ZN2re10FixedArrayINS_8internal21JobProfilerDataBufferINS1_20JobProfilerFiberDataEEEE6deinitEv
+- __ZN2re10FixedArrayINS_8internal21JobProfilerDataBufferINS1_21JobProfilerThreadDataEEEE6deinitEv
+- __ZN2re10FixedArrayINSt3__111__thread_idEE6deinitEv
+- __ZN2re10FixedArrayINSt3__16atomicIPNS_3JobEEEE4initIJEEEvPNS_9AllocatorEmDpOT_
+- __ZN2re10FixedArrayINSt3__16atomicIPNS_3JobEEEE6deinitEv
+- __ZN2re10FixedArrayIPNS_8internal12WorkerThreadEE6deinitEv
+- __ZN2re11JobProfiler6deinitEv
+- __ZN2re11JobProfilerD2Ev
+- __ZN2re12DynamicArrayINS_8internal13FiberWaitInfoEE11setCapacityEm
+- __ZN2re12DynamicArrayINS_8internal13FiberWaitInfoEE12growCapacityEm
+- __ZN2re12DynamicArrayINS_8internal13FiberWaitInfoEE14removeStableAtEm
+- __ZN2re12DynamicArrayINS_8internal13FiberWaitInfoEE3addEOS2_
+- __ZN2re12DynamicArrayINS_8internal13FiberWaitInfoEE6deinitEv
+- __ZN2re12DynamicArrayINS_8internal18JobProfilerJobDataEE11setCapacityEm
+- __ZN2re12DynamicArrayINS_8internal18JobProfilerJobDataEE6deinitEv
+- __ZN2re12DynamicArrayINS_8internal18JobProfilerJobDataEEC2ERKS3_
+- __ZN2re12DynamicArrayINS_8internal20JobProfilerFiberDataEE11setCapacityEm
+- __ZN2re12DynamicArrayINS_8internal20JobProfilerFiberDataEE6deinitEv
+- __ZN2re12DynamicArrayINS_8internal21JobProfilerThreadDataEE11setCapacityEm
+- __ZN2re12DynamicArrayINS_8internal21JobProfilerThreadDataEE6deinitEv
+- __ZN2re15FiberJobManager13fiberFunctionEPv
+- __ZN2re15FiberJobManager17getFreeFiberIndexEv
+- __ZN2re15FiberJobManager18addFiberToWaitListEjPNSt3__16atomicIiEE
+- __ZN2re15FiberJobManager3runERNS_3JobE
+- __ZN2re15FiberJobManager7waitForEPNSt3__16atomicIiEEb
+- __ZN2re15FiberJobManager8getFiberEj
+- __ZN2re15FiberJobManager8profilerEv
+- __ZN2re15FiberJobManager8runAsyncEPNS_3JobEjPNSt3__16atomicIiEEb
+- __ZN2re15FiberJobManagerD0Ev
+- __ZN2re15FiberJobManagerD1Ev
+- __ZN2re15FiberJobManagerD2Ev
+- __ZN2re17WorkStealingQueueIPNS_3JobEE13CircularArray3putEyRKS2_
+- __ZN2re17WorkStealingQueueIPNS_3JobEE13CircularArray4growEyy
+- __ZN2re17WorkStealingQueueIPNS_3JobEE13CircularArray6deinitEv
+- __ZN2re17WorkStealingQueueIPNS_3JobEE4pushERKS2_
+- __ZN2re17WorkStealingQueueIPNS_3JobEE5stealEPS2_
+- __ZN2re17WorkStealingQueueIPNS_3JobEE6deinitEv
+- __ZN2re20sharedJobServiceInitENS_14JobServiceTypeEjjmbPNS_9AllocatorEPNS_16AlignedAllocatorE
+- __ZN2re8internal12WorkerThread14threadFunctionEv
+- __ZN2re8internal12WorkerThread15getWaitingFiberEPj
+- __ZN2re8internal12WorkerThread15postFiberSwitchEv
+- __ZN2re8internal12WorkerThread19switchToCustomFiberEj
+- __ZN2re8internal12WorkerThread19switchToThreadFiberEv
+- __ZN2re8internal12WorkerThread4initEPNS_15FiberJobManagerEbjPNS_16AlignedAllocatorE
+- __ZN2re8internal12WorkerThread6deinitEv
+- __ZN2re8internal12WorkerThread6getJobEPPNS_3JobE
+- __ZN2re8internal12WorkerThread8runAsyncEPNS_3JobEjPNSt3__16atomicIiEEb
+- __ZN2re8internal12WorkerThreadD2Ev
+- __ZN2re8internal21JobProfilerDataBufferINS0_18JobProfilerJobDataEE12deinitValuesEv
+- __ZN2re8internal21JobProfilerDataBufferINS0_20JobProfilerFiberDataEE12deinitValuesEv
+- __ZN2re8internal21JobProfilerDataBufferINS0_21JobProfilerThreadDataEE12deinitValuesEv
+- __ZN2re8internal5Fiber4initEPFvPvES2_m
+- __ZN2re9HashTableIPvPcNS_4HashIS1_EENS_7EqualToIS1_EELb1ELb0EE6deinitEv
+- __ZNK2re15FiberJobManager15numberOfThreadsEv
+- __ZNK2re15FiberJobManager19currentWorkerThreadEv
+- __ZNK2re15FiberJobManager24currentWorkerThreadIndexEv
+- __ZNK2re15FiberJobManager24highPriorityAndQOSOptoutEv
+- __ZNK2re17WorkStealingQueueIPNS_3JobEE13CircularArray3getEy
+- __ZNSt3__110unique_ptrINS_5tupleIJNS0_INS_15__thread_structENS_14default_deleteIS2_EEEEMN2re8internal12WorkerThreadEFvvEPS8_EEENS3_ISC_EEED1B9nqn210106Ev
+- __ZNSt3__114__thread_proxyB9nqn210106INS_5tupleIJNS_10unique_ptrINS_15__thread_structENS_14default_deleteIS3_EEEEMN2re8internal12WorkerThreadEFvvEPS9_EEEEEPvSE_
+- __ZTIN2re15FiberJobManagerE
+- __ZTSN2re15FiberJobManagerE
+- __ZTVN2re15FiberJobManagerE
+- __exit
+- __func__._ZN2re8internal12WorkerThread15postFiberSwitchEv
+- _g_jobService
+- _jump_fcontext
+- _make_fcontext
+- finish
+CStrings:
+- "Fiber count %d is too small, jobservice will create %d fibers"
+- "Fiber stack size %zu is too small, jobservice will create fibers stasks of size %zu"
+- "Job Service worker %d"
+- "Thread count %d is too small, jobservice will create one thread"
+- "assertion failure: '%s' (%s:line %i) Cannot resume dead fiber."
+- "assertion failure: '%s' (%s:line %i) Fiber ended without transferring control back to another fiber."
+- "assertion failure: '%s' (%s:line %i) Trying to get the index of a non-worker thread"
+- "assertion failure: '%s' (%s:line %i) Unknown fiber state."
+- "assertion failure: (!\"Unreachable code\") Cannot resume dead fiber."
+- "assertion failure: (!\"Unreachable code\") Fiber ended without transferring control back to another fiber."
+- "assertion failure: (!\"Unreachable code\") Unknown fiber state."
+- "assertion failure: (isWorkerThread()) Trying to get the index of a non-worker thread"
+- "fiberEntryPoint"
+- "fiberFunction"
+- "isWorkerThread()"
+- "postFiberSwitch"
+- "threading.fiberStackSize"
+- "threading.fibers"
+```

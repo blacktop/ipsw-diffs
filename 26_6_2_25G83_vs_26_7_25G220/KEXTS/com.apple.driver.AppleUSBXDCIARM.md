@@ -1,0 +1,128 @@
+## com.apple.driver.AppleUSBXDCIARM
+
+> `com.apple.driver.AppleUSBXDCIARM`
+
+```diff
+
+ 847.100.26.0.0
+   __TEXT.__const: 0x50
+-  __TEXT.__cstring: 0x43d0
+-  __TEXT.__os_log: 0x7754
+-  __TEXT_EXEC.__text: 0x3ccf0
++  __TEXT.__cstring: 0x440f
++  __TEXT.__os_log: 0x87a8
++  __TEXT_EXEC.__text: 0x43d7c
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+-  __DATA.__common: 0x1f0
++  __DATA.__common: 0x218
+   __DATA_CONST.__auth_got: 0x330
+   __DATA_CONST.__got: 0xd0
+-  __DATA_CONST.__mod_init_func: 0x58
+-  __DATA_CONST.__mod_term_func: 0x58
+-  __DATA_CONST.__const: 0x96e0
+-  __DATA_CONST.__kalloc_type: 0x2c0
+-  Functions: 395
+-  Symbols:   1358
+-  CStrings:  245
++  __DATA_CONST.__mod_init_func: 0x60
++  __DATA_CONST.__mod_term_func: 0x60
++  __DATA_CONST.__const: 0xa490
++  __DATA_CONST.__kalloc_type: 0x300
++  Functions: 428
++  Symbols:   1445
++  CStrings:  248
+ 
+Symbols:
++ _GLOBAL__sub_I_AppleT8152USBXDCI.cpp
++ _ZN17AppleT8152USBXDCI5startEP9IOService
++ __ZL21AppleT8152USBXDCI_ktv
++ __ZN17AppleT8152USBXDCI10gMetaClassE
++ __ZN17AppleT8152USBXDCI10superClassE
++ __ZN17AppleT8152USBXDCI15controllerResetEv
++ __ZN17AppleT8152USBXDCI20enumDoneTimerExpiredEP18IOTimerEventSource
++ __ZN17AppleT8152USBXDCI21applyPlatformTunablesEv
++ __ZN17AppleT8152USBXDCI23handleUSBConnectionDoneEv
++ __ZN17AppleT8152USBXDCI25getPeriodicBandwidthUsageEv
++ __ZN17AppleT8152USBXDCI26initializePlatformSettingsEv
++ __ZN17AppleT8152USBXDCI27updateSystemPowerManagementEN12AppleUSBXDCI26XDCIPeriodicBandwidthUsageE
++ __ZN17AppleT8152USBXDCI4freeEv
++ __ZN17AppleT8152USBXDCI5startEP9IOService
++ __ZN17AppleT8152USBXDCI7powerOnEv
++ __ZN17AppleT8152USBXDCI8powerOffEv
++ __ZN17AppleT8152USBXDCI9MetaClassC1Ev
++ __ZN17AppleT8152USBXDCI9MetaClassC2Ev
++ __ZN17AppleT8152USBXDCI9MetaClassD0Ev
++ __ZN17AppleT8152USBXDCI9MetaClassD1Ev
++ __ZN17AppleT8152USBXDCI9metaClassE
++ __ZN17AppleT8152USBXDCIC1EPK11OSMetaClass
++ __ZN17AppleT8152USBXDCIC1Ev
++ __ZN17AppleT8152USBXDCIC2EPK11OSMetaClass
++ __ZN17AppleT8152USBXDCIC2Ev
++ __ZN17AppleT8152USBXDCID0Ev
++ __ZN17AppleT8152USBXDCID1Ev
++ __ZN17AppleT8152USBXDCID2Ev
++ __ZN17AppleT8152USBXDCIdlEPvm
++ __ZN17AppleT8152USBXDCInwEm
++ __ZNK17AppleT8152USBXDCI12getMetaClassEv
++ __ZNK17AppleT8152USBXDCI9MetaClass5allocEv
++ __ZTV17AppleT8152USBXDCI
++ __ZTVN17AppleT8152USBXDCI9MetaClassE
++ __ZZN17AppleT8152USBXDCI15controllerResetEvE11_os_log_fmt
++ __ZZN17AppleT8152USBXDCI15controllerResetEvE11_os_log_fmt_0
++ __ZZN17AppleT8152USBXDCI15controllerResetEvE11_os_log_fmt_1
++ __ZZN17AppleT8152USBXDCI15controllerResetEvE11_os_log_fmt_2
++ __ZZN17AppleT8152USBXDCI20enumDoneTimerExpiredEP18IOTimerEventSourceE11_os_log_fmt
++ __ZZN17AppleT8152USBXDCI25getPeriodicBandwidthUsageEvE11_os_log_fmt
++ __ZZN17AppleT8152USBXDCI27updateSystemPowerManagementEN12AppleUSBXDCI26XDCIPeriodicBandwidthUsageEE11_os_log_fmt
++ __ZZN17AppleT8152USBXDCI5startEP9IOServiceE11_os_log_fmt
++ __ZZN17AppleT8152USBXDCI5startEP9IOServiceE11_os_log_fmt_0
++ __ZZN17AppleT8152USBXDCI5startEP9IOServiceE11_os_log_fmt_1
++ __ZZN17AppleT8152USBXDCI5startEP9IOServiceE11_os_log_fmt_2
++ __ZZN17AppleT8152USBXDCI5startEP9IOServiceE11_os_log_fmt_3
++ __ZZN17AppleT8152USBXDCI7powerOnEvE11_os_log_fmt
++ __ZZN17AppleT8152USBXDCI7powerOnEvE11_os_log_fmt_0
++ __ZZN17AppleT8152USBXDCI7powerOnEvE11_os_log_fmt_1
++ __ZZN17AppleT8152USBXDCI7powerOnEvE11_os_log_fmt_2
++ __ZZN17AppleT8152USBXDCI7powerOnEvE11_os_log_fmt_3
++ __ZZN17AppleT8152USBXDCI7powerOnEvE11_os_log_fmt_4
++ __ZZN17AppleT8152USBXDCI7powerOnEvE11_os_log_fmt_5
++ __ZZN17AppleT8152USBXDCI7powerOnEvE11_os_log_fmt_6
++ __ZZN17AppleT8152USBXDCI7powerOnEvE11_os_log_fmt_7
++ __ZZN17AppleT8152USBXDCI7powerOnEvE11_os_log_fmt_8
++ __ZZN17AppleT8152USBXDCI7powerOnEvE11_os_log_fmt_9
++ __ZZN17AppleT8152USBXDCI7powerOnEvE11_os_log_fmt__10_
++ __ZZN17AppleT8152USBXDCI7powerOnEvE11_os_log_fmt__11_
++ __ZZN17AppleT8152USBXDCI7powerOnEvE11_os_log_fmt__12_
++ __ZZN17AppleT8152USBXDCI7powerOnEvE11_os_log_fmt__13_
++ __ZZN17AppleT8152USBXDCI7powerOnEvE11_os_log_fmt__14_
++ __ZZN17AppleT8152USBXDCI7powerOnEvE11_os_log_fmt__15_
++ __ZZN17AppleT8152USBXDCI7powerOnEvE11_os_log_fmt__16_
++ __ZZN17AppleT8152USBXDCI7powerOnEvE11_os_log_fmt__17_
++ __ZZN17AppleT8152USBXDCI7powerOnEvE11_os_log_fmt__18_
++ __ZZN17AppleT8152USBXDCI7powerOnEvE11_os_log_fmt__19_
++ __ZZN17AppleT8152USBXDCI7powerOnEvE11_os_log_fmt__20_
++ __ZZN17AppleT8152USBXDCI7powerOnEvE11_os_log_fmt__21_
++ __ZZN17AppleT8152USBXDCI7powerOnEvE11_os_log_fmt__22_
++ __ZZN17AppleT8152USBXDCI7powerOnEvE11_os_log_fmt__23_
++ __ZZN17AppleT8152USBXDCI8powerOffEvE11_os_log_fmt
++ __ZZN17AppleT8152USBXDCI8powerOffEvE11_os_log_fmt_0
++ __ZZN17AppleT8152USBXDCI8powerOffEvE11_os_log_fmt_1
++ __ZZN17AppleT8152USBXDCI8powerOffEvE11_os_log_fmt_2
++ __ZZN17AppleT8152USBXDCI8powerOffEvE11_os_log_fmt_3
++ __ZZN17AppleT8152USBXDCI8powerOffEvE11_os_log_fmt_4
++ __ZZN17AppleT8152USBXDCI8powerOffEvE11_os_log_fmt_5
++ __ZZN17AppleT8152USBXDCI8powerOffEvE11_os_log_fmt_6
++ __ZZN17AppleT8152USBXDCI8powerOffEvE11_os_log_fmt_7
++ __ZZN17AppleT8152USBXDCI8powerOffEvE11_os_log_fmt_8
++ __ZZN17AppleT8152USBXDCI8powerOffEvE11_os_log_fmt_9
++ __ZZN17AppleT8152USBXDCI8powerOffEvE11_os_log_fmt__10_
++ __ZZN17AppleT8152USBXDCI8powerOffEvE11_os_log_fmt__11_
++ __ZZN17AppleT8152USBXDCI8powerOffEvE11_os_log_fmt__12_
++ __ZZN17AppleT8152USBXDCI8powerOffEvE11_os_log_fmt__13_
++ __ZZN17AppleT8152USBXDCI8powerOffEvE11_os_log_fmt__14_
+CStrings:
++ "AppleT8152USBXDCI"
++ "AppleT8152USBXDCI.cpp"
++ "site.AppleT8152USBXDCI"
+```

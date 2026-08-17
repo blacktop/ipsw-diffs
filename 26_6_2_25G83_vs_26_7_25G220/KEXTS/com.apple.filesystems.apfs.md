@@ -1,0 +1,358 @@
+## com.apple.filesystems.apfs
+
+> `com.apple.filesystems.apfs`
+
+```diff
+
+-2811.160.7.0.4
++2811.160.7.701.3
+   __TEXT.__const: 0xa28
+-  __TEXT.__cstring: 0x557d5
+-  __TEXT_EXEC.__text: 0x166404
++  __TEXT.__cstring: 0x5579c
++  __TEXT_EXEC.__text: 0x16631c
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x70c
+   __DATA_CONST.__auth_got: 0x1310
+
+   __DATA_CONST.__kalloc_type: 0x5e40
+   __DATA_CONST.__kalloc_var: 0x2e90
+   __DATA_CONST.__assert: 0x294
+-  Functions: 2505
+-  Symbols:   4571
++  Functions: 2504
++  Symbols:   4570
+   CStrings:  7328
+ 
+Symbols:
++ __ZL8get_apfsjP2nxPP4apfs
++ _fs_add_xattr.kalloc_type_view_23180
++ _fs_add_xattr.kalloc_type_view_23186
++ _fs_add_xattr.kalloc_type_view_23189
++ _fs_add_xattr.kalloc_type_view_23243
++ _fs_add_xattr.kalloc_type_view_23244
++ apfs_drop_allocated_unwritten_ranges.kalloc_type_view_16123
++ apfs_drop_rangelist_entries.kalloc_type_view_9117
++ apfs_drop_rangelist_entry.kalloc_type_view_9060
++ apfs_find_gaps_in_rangelist.kalloc_type_view_11825
++ apfs_flush_allocated_unwritten_ranges.kalloc_type_view_13502
++ apfs_flush_allocated_unwritten_ranges.kalloc_type_view_13560
++ apfs_io_common.kalloc_type_view_18014
++ apfs_io_common.kalloc_type_view_18052
++ apfs_io_common.kalloc_type_view_18063
++ apfs_io_common.kalloc_type_view_18081
++ apfs_io_common.kalloc_type_view_18099
++ apfs_io_common.kalloc_type_view_18115
++ apfs_io_common.kalloc_type_view_18139
++ apfs_io_common.kalloc_type_view_18222
++ apfs_io_common.kalloc_type_view_18243
++ apfs_io_common.kalloc_type_view_18254
++ apfs_io_common.kalloc_type_view_18272
++ apfs_io_common.kalloc_type_view_18291
++ apfs_io_common.kalloc_type_view_18304
++ apfs_io_common.kalloc_type_view_18325
++ apfs_io_common.kalloc_type_view_18337
++ apfs_io_common.kalloc_type_view_18344
++ apfs_iodone.kalloc_type_view_17496
++ apfs_iodone.kalloc_type_view_17535
++ apfs_locked_ids_destroy.kalloc_type_view_158
++ apfs_locked_ids_init.kalloc_type_view_144
++ apfs_punch_out_ranges_in_fext.kalloc_type_view_21475
++ apfs_punch_out_ranges_in_fext.kalloc_type_view_21482
++ apfs_record_intention_to_allocate.kalloc_type_view_9000
++ apfs_release_io_context.kalloc_type_view_17733
++ apfs_release_io_context.kalloc_type_view_17742
++ apfs_trim_ranges_in_region.kalloc_type_view_16730
++ apfs_update_ranges_on_allocation.kalloc_type_view_16821
++ apfs_update_reserved_ranges.kalloc_type_view_21618
++ apfs_update_reserved_ranges.kalloc_type_view_21623
++ apfs_vnop_blockmap.kalloc_type_view_17161
++ apfs_vnop_blockmap.kalloc_type_view_17429
++ apfs_vnop_getattrlistbulk.kalloc_type_view_18993
++ apfs_vnop_getattrlistbulk.kalloc_type_view_19006
++ apfs_vnop_getattrlistbulk.kalloc_type_view_19063
++ apfs_vnop_getattrlistbulk.kalloc_type_view_19087
++ apfs_vnop_readdir.kalloc_type_view_15749
++ apfs_vnop_readdir.kalloc_type_view_15771
++ apfs_vnop_readdir.kalloc_type_view_15863
++ apfs_vnop_readdir.kalloc_type_view_15873
++ apfs_vnop_readdir.kalloc_type_view_15894
++ arle_alloc_pending_entry.kalloc_type_view_21060
++ btree_evict_range.kalloc_type_view_6950
++ btree_evict_range.kalloc_type_view_6957
++ btree_evict_range.kalloc_type_view_7101
++ btree_iterate_nodes.kalloc_type_view_6390
++ btree_iterate_nodes.kalloc_type_view_6539
++ change_crypto_id_prot_class.kalloc_type_view_9835
++ change_crypto_id_prot_class.kalloc_type_view_9901
++ clone_fexts_.kalloc_type_view_14302
++ clone_fexts_.kalloc_type_view_14315
++ clone_fexts_.kalloc_type_view_14373
++ create_new_crypto_state_for_id.kalloc_type_view_7639
++ create_new_crypto_state_for_id.kalloc_type_view_7644
++ create_new_crypto_state_for_id.kalloc_type_view_7664
++ create_sibling_link.kalloc_type_view_11483
++ create_sibling_link.kalloc_type_view_11499
++ dir_rec_alloc_with_hash.kalloc_type_view_11118
++ dir_rec_alloc_with_hash.kalloc_type_view_11124
++ dir_rec_alloc_with_hash.kalloc_type_view_11148
++ dump_extents_of_stream.kalloc_type_view_18550
++ ek_to_crypto_state.kalloc_type_view_33363
++ er_state_allocate_roll_buffers.kalloc_type_view_8176
++ er_state_destroy_obj.kalloc_type_view_8820
++ er_state_free_roll_buffers.kalloc_type_view_8138
++ er_state_obj_create_phys_from_previous_version.kalloc_type_view_8218
++ er_state_upgrade_version.kalloc_type_view_8371
++ extent_evict_range.kalloc_type_view_25901
++ extent_evict_range.kalloc_type_view_26001
++ fext_collector.kalloc_type_view_14061
++ fext_collector.kalloc_type_view_14068
++ fext_collector_cleanup.kalloc_type_view_14043
++ fext_collector_reset.kalloc_type_view_14032
++ free_linkids.kalloc_type_view_11675
++ fs_get_xattr_ext.kalloc_type_view_23284
++ fs_get_xattr_ext.kalloc_type_view_23304
++ fs_init_bootcache_inodes_dstreams_info.kalloc_type_view_27854
++ fs_iterate_snapshots.kalloc_type_view_27067
++ fs_iterate_snapshots.kalloc_type_view_27114
++ fs_map_file_offset_ext.kalloc_type_view_22030
++ fs_map_file_offset_ext.kalloc_type_view_22062
++ fs_map_file_offset_ext.kalloc_type_view_22100
++ fs_map_file_offset_ext.kalloc_type_view_22123
++ fs_remove_xattr_with_nstream_inode.kalloc_type_view_23381
++ fs_remove_xattr_with_nstream_inode.kalloc_type_view_23397
++ fs_remove_xattr_with_nstream_inode.kalloc_type_view_23418
++ fs_remove_xattr_with_nstream_inode.kalloc_type_view_23538
++ icp_new_crypto.kalloc_type_view_7958
++ icp_new_crypto.kalloc_type_view_7970
++ icp_new_crypto.kalloc_type_view_8004
++ icp_new_crypto.kalloc_type_view_8029
++ icp_new_crypto.kalloc_type_view_8044
++ insert_linkid.kalloc_type_view_11623
++ jobj_allocate.kalloc_type_view_2652
++ jobj_allocate.kalloc_type_view_2655
++ jobj_allocate.kalloc_type_view_2659
++ jobj_allocate.kalloc_type_view_2665
++ jobj_allocate.kalloc_type_view_2669
++ jobj_allocate.kalloc_type_view_2675
++ jobj_allocate.kalloc_type_view_2678
++ jobj_allocate.kalloc_type_view_2681
++ jobj_allocate.kalloc_type_view_2684
++ jobj_allocate.kalloc_type_view_2687
++ jobj_allocate.kalloc_type_view_2691
++ jobj_allocate.kalloc_type_view_2694
++ jobj_allocate.kalloc_type_view_2697
++ jobj_allocate.kalloc_type_view_2704
++ jobj_allocate.kalloc_type_view_2707
++ jobj_allocate.kalloc_type_view_2716
++ jobj_allocate.kalloc_type_view_2719
++ jobj_allocate.kalloc_type_view_2722
++ jobj_release.kalloc_type_view_2744
++ jobj_release.kalloc_type_view_2747
++ jobj_release.kalloc_type_view_2750
++ jobj_release.kalloc_type_view_2755
++ jobj_release.kalloc_type_view_2759
++ jobj_release.kalloc_type_view_2762
++ jobj_release.kalloc_type_view_2768
++ jobj_release.kalloc_type_view_2775
++ jobj_release.kalloc_type_view_2779
++ jobj_release.kalloc_type_view_2782
++ jobj_release.kalloc_type_view_2785
++ jobj_release.kalloc_type_view_2792
++ jobj_release.kalloc_type_view_2799
++ jobj_release.kalloc_type_view_2809
++ jobj_release.kalloc_type_view_2813
++ jobj_release.kalloc_type_view_2819
++ legacy_get_ek.kalloc_type_view_34818
++ lookup_unfoldable_name_iterator.kalloc_type_view_17987
++ lookup_unfoldable_name_iterator.kalloc_type_view_17993
++ lookup_unfoldable_name_iterator.kalloc_type_view_18001
++ nx_volume_group_destitch_firmlinks.kalloc_type_view_1033
++ nx_volume_group_update.kalloc_type_view_826
++ nx_volume_groups_destroy.kalloc_type_view_1066
++ nx_volume_groups_destroy.kalloc_type_view_1069
++ simple_remove_xattr.kalloc_type_view_23323
++ simple_remove_xattr.kalloc_type_view_23336
++ update_parent_xattr.kalloc_type_view_20204
++ update_parent_xattr.kalloc_type_view_20334
++ xattr_cloner.kalloc_type_view_16634
++ xattr_cloner.kalloc_type_view_16677
++ xattr_ek_to_crypto_state.kalloc_type_view_34011
+- __ZL8get_apfsiP2nxPP4apfs
+- _apfs_is_original_volume_group_vol
+- _fs_add_xattr.kalloc_type_view_23178
+- _fs_add_xattr.kalloc_type_view_23184
+- _fs_add_xattr.kalloc_type_view_23187
+- _fs_add_xattr.kalloc_type_view_23241
+- _fs_add_xattr.kalloc_type_view_23242
+- apfs_drop_allocated_unwritten_ranges.kalloc_type_view_16125
+- apfs_drop_rangelist_entries.kalloc_type_view_9119
+- apfs_drop_rangelist_entry.kalloc_type_view_9062
+- apfs_find_gaps_in_rangelist.kalloc_type_view_11827
+- apfs_flush_allocated_unwritten_ranges.kalloc_type_view_13504
+- apfs_flush_allocated_unwritten_ranges.kalloc_type_view_13562
+- apfs_io_common.kalloc_type_view_18016
+- apfs_io_common.kalloc_type_view_18054
+- apfs_io_common.kalloc_type_view_18065
+- apfs_io_common.kalloc_type_view_18083
+- apfs_io_common.kalloc_type_view_18101
+- apfs_io_common.kalloc_type_view_18117
+- apfs_io_common.kalloc_type_view_18141
+- apfs_io_common.kalloc_type_view_18224
+- apfs_io_common.kalloc_type_view_18245
+- apfs_io_common.kalloc_type_view_18256
+- apfs_io_common.kalloc_type_view_18274
+- apfs_io_common.kalloc_type_view_18293
+- apfs_io_common.kalloc_type_view_18306
+- apfs_io_common.kalloc_type_view_18327
+- apfs_io_common.kalloc_type_view_18339
+- apfs_io_common.kalloc_type_view_18346
+- apfs_iodone.kalloc_type_view_17498
+- apfs_iodone.kalloc_type_view_17537
+- apfs_locked_ids_destroy.kalloc_type_view_150
+- apfs_locked_ids_init.kalloc_type_view_136
+- apfs_punch_out_ranges_in_fext.kalloc_type_view_21473
+- apfs_punch_out_ranges_in_fext.kalloc_type_view_21480
+- apfs_record_intention_to_allocate.kalloc_type_view_9002
+- apfs_release_io_context.kalloc_type_view_17735
+- apfs_release_io_context.kalloc_type_view_17744
+- apfs_trim_ranges_in_region.kalloc_type_view_16732
+- apfs_update_ranges_on_allocation.kalloc_type_view_16823
+- apfs_update_reserved_ranges.kalloc_type_view_21616
+- apfs_update_reserved_ranges.kalloc_type_view_21621
+- apfs_vnop_blockmap.kalloc_type_view_17163
+- apfs_vnop_blockmap.kalloc_type_view_17431
+- apfs_vnop_getattrlistbulk.kalloc_type_view_18995
+- apfs_vnop_getattrlistbulk.kalloc_type_view_19008
+- apfs_vnop_getattrlistbulk.kalloc_type_view_19065
+- apfs_vnop_getattrlistbulk.kalloc_type_view_19089
+- apfs_vnop_readdir.kalloc_type_view_15751
+- apfs_vnop_readdir.kalloc_type_view_15773
+- apfs_vnop_readdir.kalloc_type_view_15865
+- apfs_vnop_readdir.kalloc_type_view_15875
+- apfs_vnop_readdir.kalloc_type_view_15896
+- arle_alloc_pending_entry.kalloc_type_view_21058
+- btree_evict_range.kalloc_type_view_6948
+- btree_evict_range.kalloc_type_view_6955
+- btree_evict_range.kalloc_type_view_7099
+- btree_iterate_nodes.kalloc_type_view_6388
+- btree_iterate_nodes.kalloc_type_view_6537
+- change_crypto_id_prot_class.kalloc_type_view_9833
+- change_crypto_id_prot_class.kalloc_type_view_9899
+- clone_fexts_.kalloc_type_view_14300
+- clone_fexts_.kalloc_type_view_14313
+- clone_fexts_.kalloc_type_view_14371
+- create_new_crypto_state_for_id.kalloc_type_view_7637
+- create_new_crypto_state_for_id.kalloc_type_view_7642
+- create_new_crypto_state_for_id.kalloc_type_view_7662
+- create_sibling_link.kalloc_type_view_11481
+- create_sibling_link.kalloc_type_view_11497
+- dir_rec_alloc_with_hash.kalloc_type_view_11116
+- dir_rec_alloc_with_hash.kalloc_type_view_11122
+- dir_rec_alloc_with_hash.kalloc_type_view_11146
+- dump_extents_of_stream.kalloc_type_view_18548
+- ek_to_crypto_state.kalloc_type_view_33358
+- er_state_allocate_roll_buffers.kalloc_type_view_8174
+- er_state_destroy_obj.kalloc_type_view_8818
+- er_state_free_roll_buffers.kalloc_type_view_8136
+- er_state_obj_create_phys_from_previous_version.kalloc_type_view_8216
+- er_state_upgrade_version.kalloc_type_view_8369
+- extent_evict_range.kalloc_type_view_25899
+- extent_evict_range.kalloc_type_view_25999
+- fext_collector.kalloc_type_view_14059
+- fext_collector.kalloc_type_view_14066
+- fext_collector_cleanup.kalloc_type_view_14041
+- fext_collector_reset.kalloc_type_view_14030
+- free_linkids.kalloc_type_view_11673
+- fs_get_xattr_ext.kalloc_type_view_23282
+- fs_get_xattr_ext.kalloc_type_view_23302
+- fs_init_bootcache_inodes_dstreams_info.kalloc_type_view_27852
+- fs_iterate_snapshots.kalloc_type_view_27065
+- fs_iterate_snapshots.kalloc_type_view_27112
+- fs_map_file_offset_ext.kalloc_type_view_22028
+- fs_map_file_offset_ext.kalloc_type_view_22060
+- fs_map_file_offset_ext.kalloc_type_view_22098
+- fs_map_file_offset_ext.kalloc_type_view_22121
+- fs_remove_xattr_with_nstream_inode.kalloc_type_view_23379
+- fs_remove_xattr_with_nstream_inode.kalloc_type_view_23395
+- fs_remove_xattr_with_nstream_inode.kalloc_type_view_23416
+- fs_remove_xattr_with_nstream_inode.kalloc_type_view_23536
+- icp_new_crypto.kalloc_type_view_7956
+- icp_new_crypto.kalloc_type_view_7966
+- icp_new_crypto.kalloc_type_view_8002
+- icp_new_crypto.kalloc_type_view_8027
+- icp_new_crypto.kalloc_type_view_8042
+- insert_linkid.kalloc_type_view_11621
+- jobj_allocate.kalloc_type_view_2650
+- jobj_allocate.kalloc_type_view_2653
+- jobj_allocate.kalloc_type_view_2657
+- jobj_allocate.kalloc_type_view_2663
+- jobj_allocate.kalloc_type_view_2667
+- jobj_allocate.kalloc_type_view_2673
+- jobj_allocate.kalloc_type_view_2676
+- jobj_allocate.kalloc_type_view_2679
+- jobj_allocate.kalloc_type_view_2682
+- jobj_allocate.kalloc_type_view_2685
+- jobj_allocate.kalloc_type_view_2689
+- jobj_allocate.kalloc_type_view_2692
+- jobj_allocate.kalloc_type_view_2695
+- jobj_allocate.kalloc_type_view_2702
+- jobj_allocate.kalloc_type_view_2705
+- jobj_allocate.kalloc_type_view_2714
+- jobj_allocate.kalloc_type_view_2717
+- jobj_allocate.kalloc_type_view_2720
+- jobj_release.kalloc_type_view_2742
+- jobj_release.kalloc_type_view_2745
+- jobj_release.kalloc_type_view_2748
+- jobj_release.kalloc_type_view_2753
+- jobj_release.kalloc_type_view_2757
+- jobj_release.kalloc_type_view_2760
+- jobj_release.kalloc_type_view_2766
+- jobj_release.kalloc_type_view_2773
+- jobj_release.kalloc_type_view_2777
+- jobj_release.kalloc_type_view_2780
+- jobj_release.kalloc_type_view_2783
+- jobj_release.kalloc_type_view_2790
+- jobj_release.kalloc_type_view_2797
+- jobj_release.kalloc_type_view_2807
+- jobj_release.kalloc_type_view_2811
+- jobj_release.kalloc_type_view_2817
+- legacy_get_ek.kalloc_type_view_34813
+- lookup_unfoldable_name_iterator.kalloc_type_view_17985
+- lookup_unfoldable_name_iterator.kalloc_type_view_17991
+- lookup_unfoldable_name_iterator.kalloc_type_view_17999
+- nx_volume_group_destitch_firmlinks.kalloc_type_view_1039
+- nx_volume_group_update.kalloc_type_view_825
+- nx_volume_groups_destroy.kalloc_type_view_1072
+- nx_volume_groups_destroy.kalloc_type_view_1075
+- simple_remove_xattr.kalloc_type_view_23321
+- simple_remove_xattr.kalloc_type_view_23334
+- update_parent_xattr.kalloc_type_view_20206
+- update_parent_xattr.kalloc_type_view_20336
+- xattr_cloner.kalloc_type_view_16632
+- xattr_cloner.kalloc_type_view_16675
+- xattr_ek_to_crypto_state.kalloc_type_view_34006
+Functions:
+~ _nx_volume_group_update : 1464 -> 1496
+~ _nx_volume_group_destitch_firmlinks : 960 -> 908
+~ _get_firmlink_target : 660 -> 640
+- _apfs_is_original_volume_group_vol
+~ _iterate_raw_jobjs_with_hint : 1904 -> 1860
+~ _apfs_mount_livefs : 2044 -> 2116
+~ _apfs_init : 948 -> 996
+CStrings:
++ "%s:%d: %s mount force firmlinks\n"
++ "1121222111111122222222221111222222222211122222111122112221111221122211112211222111122112221111221121221221222221111111222222111222111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111112222211111211211122222221111121212212222111221122222112222222222222222222222222212222122222222222112222112211111111111221122122122222211222222121222222221222222212222222221111111111111111222222212212222221222122212221222122212221222122212221222122212221222122212221222122212221222122212221222122212221222122212221222122212221222122212221222122212221222122212221222122212221222122212221222122212221222122212221222122212221222122212221222122212221222122212221"
++ "2026/08/13"
++ "2811.160.7.701.3"
++ "apfs-2811.160.7.701.3"
++ "apfs_sanity_check"
++ "com.apple.private.apfs.force-firmlink-stitch"
+- "%s:%d: %s Failed to determine if volume is origin, error %d\n"
+- "%s:%d: %s nx_get_volume_group volume %s, failed with error %d\n"
+- "112122211111112222222222111122222222221112222211112211222111122112221111221122211112211222111122112122122122222111111122222211122211111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111222221111121121112222222111112121221222211122112222211222222222222222222222222221222212222222222211222211221111111111122112212212222221122222212122222221222222212222222221111111111111111222222212212222221222122212221222122212221222122212221222122212221222122212221222122212221222122212221222122212221222122212221222122212221222122212221222122212221222122212221222122212221222122212221222122212221222122212221222122212221222122212221222122212221222122212221"
+- "2026/08/06"
+- "2811.160.7.0.4"
+- "apfs-2811.160.7.0.4"
+- "apfs_is_original_volume_group_vol"
+```
