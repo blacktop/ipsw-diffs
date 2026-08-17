@@ -45,8 +45,8 @@
 -  __DATA.__objc_ivar: 0x54
 +  __DATA.__objc_ivar: 0x58
    __DATA.__data: 0xf8
+   __DATA.__bss: 0xb0
    __DATA_DIRTY.__objc_data: 0xa0
-   __DATA_DIRTY.__bss: 0x60
 
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libbootpolicy.dylib

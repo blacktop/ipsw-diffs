@@ -64,8 +64,8 @@
 -  __DATA.__objc_ivar: 0x1140
 +  __DATA.__objc_ivar: 0x1144
    __DATA.__data: 0x1eb0
+   __DATA.__bss: 0x2b20
    __DATA.__common: 0x70
-   __DATA_DIRTY.__objc_data: 0x14a0
 
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib

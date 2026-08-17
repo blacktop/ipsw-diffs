@@ -46,9 +46,9 @@
    __AUTH.__data: 0x1970
 -  __DATA.__data: 0x1b28
 +  __DATA.__data: 0x1b38
+   __DATA.__bss: 0xf540
    __DATA.__common: 0x378
    __DATA_DIRTY.__objc_data: 0x50
-   __DATA_DIRTY.__data: 0x740
 
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib

@@ -48,9 +48,9 @@
 -  __DATA.__data: 0x7c0
 +  __AUTH.__data: 0x2d8
 +  __DATA.__data: 0x7d0
+   __DATA.__bss: 0x5490
    __DATA.__common: 0x8
    - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
-   - /usr/lib/libSystem.B.dylib
 
    - /usr/lib/swift/libswift_Builtin_float.dylib
    - /usr/lib/swift/libswift_Concurrency.dylib

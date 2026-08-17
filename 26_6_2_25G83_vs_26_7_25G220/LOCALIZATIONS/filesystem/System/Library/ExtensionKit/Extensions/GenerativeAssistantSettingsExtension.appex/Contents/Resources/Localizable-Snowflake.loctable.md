@@ -1,0 +1,35 @@
+## GenerativeAssistantSettingsExtension
+
+> `filesystem/System/Library/ExtensionKit/Extensions/GenerativeAssistantSettingsExtension.appex/Contents/Resources/Localizable-Snowflake.loctable`
+
+```text
+en.Apple Intelligence & Siri → Qwen Extension = "Apple Intelligence \u0026 Siri → Qwen Extension"
+en.Confirm Qwen Requests = "Confirm Qwen Requests"
+en.Open Qwen Extension Settings = "Open Qwen Extension Settings"
+en.Open Qwen Extension → Set Up Qwen = "Open Qwen Extension → Set Up Qwen"
+en.Open Qwen Extension → Sign In to Qwen = "Open Qwen Extension → Sign In to Qwen"
+en.Open Qwen Extension → Sign Out = "Open Qwen Extension → Sign Out"
+en.Qwen Account = "Qwen Account"
+en.Qwen Extension = "Qwen Extension"
+en.Set Up Qwen = "Set Up Qwen"
+en.Setup Prompts = "Set-Up Prompts"
+en.Sign In to Qwen = "Sign In to Qwen"
+en.Sign Out = "Sign Out"
+en.The “Qwen Extension” setting is in the Settings app under the “Apple Intelligence & Siri” pane. This pane contains a list of system settings that control how Siri interacts with Qwen. = "The Qwen Extension setting is in the Settings app under the Apple Intelligence \u0026 Siri pane. This pane contains a list of system settings that control how Siri interacts with Qwen."
+en.This setting allows users to allow or disallow Siri to suggest setting up Qwen when Qwen hasn't been set up yet. = "This setting allows users to allow or disallow Siri to suggest setting up Qwen when Qwen hasn't been set up yet."
+en.This setting allows users to set up Qwen if Qwen is off, or turn off Qwen if Qwen is enabled. = "This setting allows users to set up Qwen if Qwen is off, or turn off Qwen if Qwen is enabled."
+en.This setting allows users to sign in or out of a Qwen account when Qwen is enabled. = "This setting allows users to sign in or out of a Qwen account when Qwen is enabled."
+en.This setting allows users to turn on or off the behavior where Siri asks the user for permission to forward the request to Qwen. = "This setting allows users to turn on or off the behaviour where Siri asks the user for permission to forward the request to Qwen."
+en.Use Qwen = "Use Qwen"
+en.disable qwen = "disable qwen"
+en.enable qwen = "enable qwen"
+en.let siri use qwen without permission = "let siri use qwen without permission"
+en.log in to qwen = "log in to qwen"
+en.log out of qwen = "log out of qwen"
+en.set up qwen = "set up qwen"
+en.sign in to qwen = "sign in to qwen"
+en.sign out of qwen = "sign out of qwen"
+en.stop siri from making me turn on qwen = "stop siri from making me turn on qwen"
+en.turn off qwen = "turn off qwen"
+en.turn on qwen = "turn on qwen"
+```

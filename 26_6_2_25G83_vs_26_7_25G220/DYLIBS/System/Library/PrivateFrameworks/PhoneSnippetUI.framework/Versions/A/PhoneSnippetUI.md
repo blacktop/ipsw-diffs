@@ -60,7 +60,9 @@
    __AUTH.__objc_data: 0x50
    __AUTH.__data: 0x1b50
 -  __DATA.__data: 0x1f80
+-  __DATA.__bss: 0xaca0
 +  __DATA.__data: 0x21f0
++  __DATA.__bss: 0xcf20
    __DATA.__common: 0x90
 +  - /System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
    - /System/Library/Frameworks/Combine.framework/Versions/A/Combine

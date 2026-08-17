@@ -12,7 +12,7 @@
 +  __TEXT_EXEC.__text: 0x7450
    __TEXT_EXEC.__auth_stubs: 0x0
    __DATA.__data: 0x2d0
-   __DATA.__common: 0x24
+   __DATA.__bss: 0xa1
 Symbols:
 + ppp_if_control.kalloc_type_view_861
 - ppp_if_control.kalloc_type_view_860

@@ -52,8 +52,8 @@
 -  __DATA.__objc_ivar: 0x3178
 +  __DATA.__objc_ivar: 0x3180
    __DATA.__data: 0x1aa0
+   __DATA.__bss: 0x7f8
    __DATA.__common: 0x8
-   __DATA_DIRTY.__objc_data: 0x2e90
 
    - /usr/lib/libAccessibility.dylib
    - /usr/lib/libSystem.B.dylib

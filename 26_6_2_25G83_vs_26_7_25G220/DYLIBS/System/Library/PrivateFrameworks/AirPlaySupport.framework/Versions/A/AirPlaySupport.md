@@ -39,8 +39,8 @@
    __AUTH_CONST.__objc_intobj: 0x30
    __AUTH.__objc_data: 0xf0
 
-   __DATA.__objc_ivar: 0x18
    __DATA.__data: 0x1ef8
+   __DATA.__bss: 0x8f0
    __DATA_DIRTY.__data: 0x988
 -  __DATA_DIRTY.__bss: 0x5f8
 +  __DATA_DIRTY.__bss: 0x610

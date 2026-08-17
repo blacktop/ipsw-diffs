@@ -52,8 +52,8 @@
 -  __DATA.__objc_ivar: 0xe4
 +  __DATA.__objc_ivar: 0xec
    __DATA.__data: 0x548
+   __DATA.__bss: 0x10
    __DATA_DIRTY.__objc_data: 0xf0
-   __DATA_DIRTY.__data: 0xe0
 
    - /System/Library/PrivateFrameworks/Rapport.framework/Versions/A/Rapport
    - /usr/lib/libSystem.B.dylib

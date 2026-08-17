@@ -41,8 +41,8 @@
 -  __DATA.__objc_ivar: 0x33c
 +  __DATA.__objc_ivar: 0x340
    __DATA.__data: 0x6a0
+   __DATA.__bss: 0x380
    __DATA_DIRTY.__objc_data: 0x1d60
-   __DATA_DIRTY.__data: 0x40
 
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib

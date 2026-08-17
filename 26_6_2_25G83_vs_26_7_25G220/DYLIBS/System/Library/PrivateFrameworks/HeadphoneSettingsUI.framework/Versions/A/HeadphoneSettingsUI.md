@@ -40,7 +40,9 @@
    __AUTH_CONST.__objc_const: 0x90
    __AUTH.__data: 0x98
 -  __DATA.__data: 0x48
+-  __DATA.__bss: 0x480
 +  __DATA.__data: 0x58
++  __DATA.__bss: 0x680
    __DATA.__common: 0x150
    - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
    - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit

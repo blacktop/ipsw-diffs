@@ -1,0 +1,72 @@
+## kernel
+
+> `System/Library/Kernels/kernel`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__eh_frame`
+- `__DATA.__data`
+- `__DATA_CONST.__kalloc_type`
+- `__DATA_CONST.__kalloc_var`
+- `__DATA_CONST.__assert`
+- `__DATA_CONST.__kern_brk_desc`
+- `__DATA_CONST.__sdt`
+- `__DATA_CONST.__mod_init_func`
+- `__DATA_CONST.__got`
+- `__KLDDATA.__init`
+- `__KLDDATA.__const`
+- `__KLDDATA.__static_ifinit`
+
+```diff
+
+-12377.161.14.0.0
+-  __TEXT.__text: 0x8ce1c0
+-  __TEXT.__const: 0x44d90
+-  __TEXT.__os_log: 0x47cfb
+-  __TEXT.__cstring: 0x9f03b
++12377.161.15.700.19
++  __TEXT.__text: 0x8cf360
++  __TEXT.__const: 0x44db0
++  __TEXT.__os_log: 0x47d4b
++  __TEXT.__cstring: 0x9f0bb
+   __TEXT.__eh_frame: 0x118
+   __DATA.__lock_grp: 0x15f10
+   __DATA.__data: 0x83520
+   __DATA.__percpu: 0x3de8
+   __DATA.__common: 0x1bcda0
+   __DATA.__bss: 0x7e8c0
+-  __DATA_CONST.__const: 0xa1098
++  __DATA_CONST.__const: 0xa1468
+   __DATA_CONST.__kalloc_type: 0x17140
+   __DATA_CONST.__kalloc_var: 0x7c60
+   __DATA_CONST.__assert: 0x974
+
+   __DATA_CONST.__mod_init_func: 0x2c8
+   __DATA_CONST.__got: 0x58
+   __KLDDATA.__init: 0x22ac0
+-  __KLDDATA.__init_entry_set: 0x13308
++  __KLDDATA.__init_entry_set: 0x13428
+   __KLDDATA.__const: 0x8ff0
+   __KLDDATA.__static_ifinit: 0x8
+   __KLDDATA.__cstring: 0x79c
+
+   __PRELINK_TEXT.__text: 0x0
+   __PRELINK_INFO.__info: 0x0
+   __LINKINFO.__symbolsets: 0x4d6d4
+-  __CTF.__ctf: 0xdd9a2
+-  Functions: 26461
++  __CTF.__ctf: 0xddaa5
++  Functions: 26465
+   Symbols:   23791
+-  CStrings:  25546
++  CStrings:  25551
+ 
+CStrings:
++ "%s: invalid pth_length %u (pkt %zu)"
++ "2211121111111222221112122212222222222222222222222222222222222222222222211111111111111111112112222222221122222222222211212221222221222222222222222222222222222211211112222222222222211112122112221122211222112222221122222222222222222222222111122122122222222221221221222211112222222222222222211222222222222221121222222222111111121122222222222222222222222222222222222211222221222221211112222122111111111111111111"
++ "Perf level 2 topology and cache geometry parameters"
++ "fsw_dev_input_netem_enqueue"
++ "perflevel2"
++ "pf: BAD ICMP %d:%d outer dst != inner src\n"
+- "221112111111122222111212221222222222222222222222222222222222222222222221111111111111111111211222222222112222222222221121222122222122222222222222222222222222221121111222222222222221111212211222112221122211222222112222222222222222222222211112212212222222222122122122221111222222222222222221122222222221121222222222111111121122222222222222222222222222222222222211222221222221211112222122111111111111111111"
+```

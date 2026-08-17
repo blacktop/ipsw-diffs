@@ -50,6 +50,15 @@
    __AUTH_CONST.__objc_const: 0x24f40
    __AUTH_CONST.__objc_arrayobj: 0x150
 
+   __AUTH.__data: 0x1128
+   __DATA.__objc_ivar: 0x1070
+   __DATA.__data: 0x3af8
+-  __DATA.__bss: 0x8500
++  __DATA.__bss: 0x8510
+   __DATA.__common: 0x20
+   __DATA_DIRTY.__objc_data: 0x2ba0
+   __DATA_DIRTY.__data: 0x5e8
+
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib

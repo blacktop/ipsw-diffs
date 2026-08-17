@@ -47,7 +47,7 @@
 +  __DATA.__objc_ivar: 0x964
    __DATA.__data: 0xcc8
    __DATA.__common: 0x8
-   __DATA_DIRTY.__objc_data: 0xff0
+   __DATA.__bss: 0x48
 
    - /System/Library/PrivateFrameworks/Sharing.framework/Versions/A/Sharing
    - /usr/lib/libSystem.B.dylib

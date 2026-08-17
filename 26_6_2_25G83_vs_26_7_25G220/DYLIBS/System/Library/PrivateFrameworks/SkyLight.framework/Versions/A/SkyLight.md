@@ -58,6 +58,11 @@
    __AUTH_CONST.__objc_intobj: 0x480
    __AUTH_CONST.__objc_arrayobj: 0x60
 
+   __DATA.__objc_ivar: 0x978
+   __DATA.__data: 0x28c0
+   __DATA.__crash_info: 0x148
+-  __DATA.__bss: 0x7590
++  __DATA.__bss: 0x7568
    __DATA.__common: 0x80
    __DATA_DIRTY.__objc_data: 0x230
    __DATA_DIRTY.__data: 0x1b0

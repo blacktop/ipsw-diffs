@@ -59,8 +59,8 @@
 +  __AUTH.__objc_data: 0x2c10
 +  __DATA.__objc_ivar: 0xb54
    __DATA.__data: 0x758
+   __DATA.__bss: 0xa70
    __DATA.__common: 0x60
-   __DATA_DIRTY.__objc_ivar: 0x68
 
    - /usr/lib/libsqlite3.dylib
    - /usr/lib/libxml2.2.dylib

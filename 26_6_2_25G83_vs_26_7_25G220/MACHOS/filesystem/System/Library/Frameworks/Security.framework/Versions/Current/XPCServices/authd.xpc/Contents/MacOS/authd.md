@@ -1,0 +1,16 @@
+## authd
+
+> `System/Library/Frameworks/Security.framework/Versions/Current/XPCServices/authd.xpc/Contents/MacOS/authd`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+
+```diff
+
+-61901.160.44.0.0
++61901.160.44.701.3
+   __TEXT.__text: 0x2d9fc
+   __TEXT.__auth_stubs: 0x14e0
+   __TEXT.__objc_stubs: 0xd80
+```

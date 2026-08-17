@@ -64,8 +64,10 @@
    __AUTH.__objc_data: 0x50
 -  __AUTH.__data: 0xaf8
 -  __DATA.__data: 0x10f8
+-  __DATA.__bss: 0xca00
 +  __AUTH.__data: 0x1820
 +  __DATA.__data: 0x1960
++  __DATA.__bss: 0x13300
    __DATA.__common: 0x38
 +  __DATA_DIRTY.__data: 0x10
 +  __DATA_DIRTY.__bss: 0x100

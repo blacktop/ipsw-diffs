@@ -80,10 +80,12 @@
 -  __AUTH.__data: 0x5058
 -  __DATA.__objc_ivar: 0x925c
 -  __DATA.__data: 0x1cbb8
+-  __DATA.__bss: 0x165e0
 -  __DATA.__common: 0x790
 +  __AUTH.__data: 0x5198
 +  __DATA.__objc_ivar: 0x9264
 +  __DATA.__data: 0x1cbd8
++  __DATA.__bss: 0x167e0
 +  __DATA.__common: 0x7a0
    __DATA_DIRTY.__objc_data: 0x15de8
    __DATA_DIRTY.__data: 0x3248

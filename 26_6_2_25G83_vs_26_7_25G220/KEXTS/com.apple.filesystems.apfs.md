@@ -13,7 +13,7 @@
 +  __TEXT_EXEC.__text: 0x16631c
    __TEXT_EXEC.__auth_stubs: 0x0
    __DATA.__data: 0x70c
-   __DATA_CONST.__auth_got: 0x1310
+   __DATA.__bss: 0xb60
 
    __DATA_CONST.__kalloc_type: 0x5e40
    __DATA_CONST.__kalloc_var: 0x2e90

@@ -23,8 +23,8 @@
 -  __AUTH_CONST.__cfstring: 0x1a60
 +  __AUTH_CONST.__cfstring: 0x1a80
    __DATA.__data: 0x58
+   __DATA.__bss: 0x4a8
    __DATA_DIRTY.__data: 0x298
-   __DATA_DIRTY.__bss: 0x2188
 
    - /usr/lib/libfakelink.dylib
    Functions: 780

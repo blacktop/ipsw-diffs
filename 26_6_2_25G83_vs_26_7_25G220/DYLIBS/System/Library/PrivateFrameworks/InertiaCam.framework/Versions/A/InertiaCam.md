@@ -9,7 +9,7 @@
    __DATA.__objc_ivar: 0x1e0
 -  __DATA.__data: 0x325b0
 +  __DATA.__data: 0x325a0
+   __DATA.__bss: 0x28
    __DATA_DIRTY.__objc_data: 0x320
    __DATA_DIRTY.__bss: 0x10
-   __DATA_DIRTY.__common: 0x10
 ```

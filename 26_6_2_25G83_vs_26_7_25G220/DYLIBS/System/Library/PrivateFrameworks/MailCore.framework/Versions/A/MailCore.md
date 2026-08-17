@@ -58,6 +58,11 @@
    __DATA.__objc_ivar: 0x798
    __DATA.__data: 0xdb0
    __DATA.__crash_info: 0x148
+-  __DATA.__bss: 0x1f8
++  __DATA.__bss: 0x208
+   __DATA_DIRTY.__objc_data: 0x1720
+   __DATA_DIRTY.__bss: 0x3f0
+   - /System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
 
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libicucore.A.dylib

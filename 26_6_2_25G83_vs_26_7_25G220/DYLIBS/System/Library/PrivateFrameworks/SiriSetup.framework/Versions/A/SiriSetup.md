@@ -61,7 +61,9 @@
    __AUTH.__data: 0x2720
    __DATA.__objc_ivar: 0x70
 -  __DATA.__data: 0x2b30
+-  __DATA.__bss: 0x7058
 +  __DATA.__data: 0x2b40
++  __DATA.__bss: 0x7158
    __DATA.__common: 0x1e8
    - /System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio
    - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation

@@ -48,6 +48,15 @@
    __DATA_CONST.__objc_superrefs: 0x220
    __DATA_CONST.__objc_arraydata: 0x18
 
+   __AUTH.__data: 0xa18
+   __DATA.__objc_ivar: 0x374
+   __DATA.__data: 0x2f60
+-  __DATA.__bss: 0x1a90
++  __DATA.__bss: 0x1aa0
+   - /System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib

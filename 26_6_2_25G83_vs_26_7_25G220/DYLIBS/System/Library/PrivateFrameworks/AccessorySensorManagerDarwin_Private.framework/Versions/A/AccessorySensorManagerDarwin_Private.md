@@ -44,6 +44,7 @@
    __AUTH.__objc_data: 0xf0
    __DATA.__objc_ivar: 0x18
 +  __DATA.__data: 0xe0
+   __DATA.__bss: 0x20
 +  - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
 +  - /System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
 +  - /System/Library/Frameworks/CoreImage.framework/Versions/A/CoreImage

@@ -63,8 +63,10 @@
    __AUTH.__objc_data: 0xa0
 -  __AUTH.__data: 0x15a8
 -  __DATA.__data: 0x2200
+-  __DATA.__bss: 0x12110
 +  __AUTH.__data: 0x16b8
 +  __DATA.__data: 0x2280
++  __DATA.__bss: 0x12a10
    __DATA.__common: 0x78
    - /System/Library/Frameworks/CloudKit.framework/Versions/A/CloudKit
    - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation

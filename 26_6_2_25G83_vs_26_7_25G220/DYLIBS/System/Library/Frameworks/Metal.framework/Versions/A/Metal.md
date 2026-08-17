@@ -53,8 +53,8 @@
 -  __DATA.__objc_ivar: 0x22f0
 +  __DATA.__objc_ivar: 0x2308
    __DATA.__data: 0x43d0
+   __DATA.__bss: 0x3a4
    __DATA.__common: 0x40
-   __DATA_DIRTY.__objc_data: 0x44c0
 
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libcompression.dylib

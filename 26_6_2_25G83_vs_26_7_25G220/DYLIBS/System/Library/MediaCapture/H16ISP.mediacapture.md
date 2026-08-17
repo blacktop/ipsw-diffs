@@ -38,9 +38,9 @@
    __AUTH_CONST.__objc_intobj: 0x30
 -  __DATA.__data: 0x3744a8
 +  __DATA.__data: 0x3744b8
+   __DATA.__bss: 0x261
    __DATA.__common: 0x14
    __DATA_DIRTY.__data: 0xf0
-   __DATA_DIRTY.__bss: 0x7b0
 
    - /usr/lib/libcompression.dylib
    - /usr/lib/libobjc.A.dylib

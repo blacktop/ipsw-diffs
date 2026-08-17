@@ -16,8 +16,8 @@
 -  __DATA.__data: 0x4834
 +  __DATA.__data: 0x5074
    __DATA.__common: 0x680
+   __DATA.__bss: 0x628
    __DATA_CONST.__auth_got: 0x820
-   __DATA_CONST.__got: 0x148
 
    __DATA_CONST.__kalloc_var: 0x3200
    __DATA_CONST.__kalloc_type: 0x3b80

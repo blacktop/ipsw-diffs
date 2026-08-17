@@ -29,9 +29,9 @@
 -  __DATA.__common: 0x3a9
 +  __DATA.__data: 0xbb94
 +  __DATA.__common: 0x3a1
+   __DATA.__bss: 0x4d8b0
    __DATA_DIRTY.__objc_data: 0xed0
    __DATA_DIRTY.__data: 0x2268
-   __DATA_DIRTY.__bss: 0x1a00
 
    - /usr/lib/swift/libswiftsimd.dylib
    Functions: 23377

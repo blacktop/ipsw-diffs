@@ -45,6 +45,7 @@
 -  __AUTH_CONST.__objc_const: 0xa70
 -  __DATA.__objc_ivar: 0x44
 -  __DATA.__data: 0x260
+-  __DATA.__bss: 0x20
 -  __DATA_DIRTY.__objc_data: 0x140
 +  __DATA_CONST.__objc_superrefs: 0x18
 +  __AUTH_CONST.__auth_got: 0x100
@@ -53,6 +54,7 @@
 +  __AUTH_CONST.__objc_const: 0x1628
 +  __DATA.__objc_ivar: 0xd4
 +  __DATA.__data: 0x340
++  __DATA.__bss: 0x30
 +  __DATA_DIRTY.__objc_data: 0x190
    - /System/Library/Frameworks/CoreBluetooth.framework/Versions/A/CoreBluetooth
    - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation

@@ -51,9 +51,10 @@
 +  __AUTH.__data: 0x4e8
    __DATA.__objc_classrefs: 0xc0
 -  __DATA.__data: 0x2148
++  __DATA.__data: 0x2158
+   __DATA.__bss: 0xc700
 -  __DATA_DIRTY.__data: 0x18e8
 -  __DATA_DIRTY.__bss: 0x9e80
-+  __DATA.__data: 0x2158
 +  __DATA_DIRTY.__data: 0x1900
 +  __DATA_DIRTY.__bss: 0xa000
    - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation

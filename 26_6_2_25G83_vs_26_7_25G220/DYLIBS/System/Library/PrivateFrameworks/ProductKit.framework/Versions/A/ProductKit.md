@@ -70,7 +70,9 @@
 +  __AUTH.__data: 0xcb8
    __DATA.__objc_ivar: 0x4
 -  __DATA.__data: 0x12c0
+-  __DATA.__bss: 0x6280
 +  __DATA.__data: 0x1400
++  __DATA.__bss: 0x7700
    __DATA.__common: 0x78
    - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
    - /System/Library/Frameworks/CloudKit.framework/Versions/A/CloudKit

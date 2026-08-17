@@ -55,6 +55,15 @@
    __AUTH_CONST.__objc_arrayobj: 0xf0
    __AUTH_CONST.__objc_dictobj: 0x168
 
+   __AUTH.__data: 0xd38
+   __DATA.__objc_ivar: 0x8d4
+   __DATA.__data: 0x2f68
+-  __DATA.__bss: 0x7d88
++  __DATA.__bss: 0x7d90
+   __DATA.__common: 0x18
+   __DATA_DIRTY.__objc_data: 0x2418
+   __DATA_DIRTY.__data: 0x58
+
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib

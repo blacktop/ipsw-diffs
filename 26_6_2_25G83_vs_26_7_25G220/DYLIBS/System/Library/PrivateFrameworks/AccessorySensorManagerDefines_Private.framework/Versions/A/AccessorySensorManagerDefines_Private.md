@@ -36,6 +36,7 @@
 +  __AUTH_CONST.__objc_intobj: 0x18
 +  __AUTH_CONST.__objc_arrayobj: 0x78
 +  __DATA.__objc_ivar: 0x34
+   __DATA.__bss: 0xc
 +  __DATA_DIRTY.__objc_data: 0x50
    __DATA_DIRTY.__bss: 0x10
    - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation

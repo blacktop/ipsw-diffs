@@ -40,10 +40,12 @@
 -  __AUTH_CONST.__auth_got: 0x40
 -  __AUTH_CONST.__const: 0x78
 -  __DATA.__data: 0x10
+-  __DATA.__bss: 0x200
 +  __AUTH_CONST.__auth_got: 0x310
 +  __AUTH_CONST.__const: 0x51d8
 +  __AUTH.__data: 0x720
 +  __DATA.__data: 0xe28
++  __DATA.__bss: 0xfe00
    - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
    - /System/Library/PrivateFrameworks/Tightbeam.framework/Versions/A/Tightbeam
    - /usr/lib/libSystem.B.dylib

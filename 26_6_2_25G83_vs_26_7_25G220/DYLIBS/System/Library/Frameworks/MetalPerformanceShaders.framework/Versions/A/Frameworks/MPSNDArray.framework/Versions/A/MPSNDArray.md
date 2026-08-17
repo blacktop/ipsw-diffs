@@ -46,7 +46,9 @@
    __AUTH.__objc_data: 0x190
    __DATA.__objc_ivar: 0x750
 -  __DATA.__data: 0x9c4
+-  __DATA.__bss: 0x600
 +  __DATA.__data: 0x9e8
++  __DATA.__bss: 0x630
    __DATA_DIRTY.__objc_data: 0x52d0
    __DATA_DIRTY.__bss: 0x78
    - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation

@@ -59,6 +59,7 @@
    __DATA.__objc_ivar: 0x28
    __DATA.__data: 0x12040
    __DATA.__objc_stublist: 0x8
+   __DATA.__bss: 0x1e0c8
    __DATA.__common: 0x1900
    __DATA_DIRTY.__objc_data: 0xb00
 -  __DATA_DIRTY.__data: 0x31a0

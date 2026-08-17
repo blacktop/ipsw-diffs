@@ -13,6 +13,7 @@
    __TEXT_EXEC.__auth_stubs: 0x0
    __DATA.__data: 0x4f8
    __DATA.__common: 0x4d8
+   __DATA.__bss: 0x1425
    __DATA_CONST.__auth_got: 0x520
    __DATA_CONST.__got: 0x20
 -  __DATA_CONST.__const: 0x1100

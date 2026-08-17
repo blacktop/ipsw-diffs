@@ -48,9 +48,9 @@
 -  __DATA.__data: 0x550
 +  __DATA.__objc_ivar: 0xac
 +  __DATA.__data: 0x5b0
+   __DATA.__bss: 0x100
    __DATA.__common: 0x20
    __DATA_DIRTY.__objc_data: 0xf0
-   __DATA_DIRTY.__bss: 0x40
 
    - /System/Library/PrivateFrameworks/login.framework/Versions/A/Frameworks/loginsupport.framework/Versions/A/loginsupport
    - /usr/lib/libSystem.B.dylib

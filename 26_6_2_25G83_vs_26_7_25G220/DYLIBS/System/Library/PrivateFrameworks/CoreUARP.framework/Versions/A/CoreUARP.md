@@ -50,6 +50,7 @@
 +  __AUTH.__objc_data: 0x1c70
 +  __DATA.__objc_ivar: 0xc4c
    __DATA.__data: 0x40d
+   __DATA.__bss: 0x1a1b
 -  __DATA_DIRTY.__objc_data: 0x28f0
 +  __DATA_DIRTY.__objc_data: 0x2cb0
    __DATA_DIRTY.__bss: 0x110

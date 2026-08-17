@@ -40,6 +40,15 @@
    __AUTH_CONST.__objc_intobj: 0x1e0
    __AUTH_CONST.__objc_arrayobj: 0xd8
 
+   __AUTH.__objc_data: 0x140
+   __DATA.__objc_ivar: 0x4f8
+   __DATA.__data: 0x5d0
+-  __DATA.__bss: 0x110
++  __DATA.__bss: 0x120
+   __DATA_DIRTY.__objc_data: 0xc30
+   __DATA_DIRTY.__bss: 0x78
+   __DATA_DIRTY.__common: 0x10
+
    - /usr/lib/swift/libswift_Builtin_float.dylib
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib

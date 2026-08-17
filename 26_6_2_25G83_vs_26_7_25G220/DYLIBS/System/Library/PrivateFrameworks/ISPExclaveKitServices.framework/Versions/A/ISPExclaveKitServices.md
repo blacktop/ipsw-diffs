@@ -31,8 +31,9 @@
 +  __AUTH_CONST.__cfstring: 0x6e0
 +  __DATA.__data: 0x116988
    __DATA.__common: 0x20
+   __DATA.__bss: 0x28
    - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
-   - /System/Library/PrivateFrameworks/Tightbeam.framework/Versions/A/Tightbeam
+
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib

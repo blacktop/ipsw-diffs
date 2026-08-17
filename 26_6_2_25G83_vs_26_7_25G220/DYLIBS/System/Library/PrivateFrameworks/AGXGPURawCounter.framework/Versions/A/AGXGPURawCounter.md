@@ -23,7 +23,9 @@
    __AUTH_CONST.__objc_intobj: 0x18
    __AUTH_CONST.__objc_arrayobj: 0x18
 -  __DATA.__data: 0x1f3
+-  __DATA.__bss: 0x8a8
 +  __DATA.__data: 0x223
++  __DATA.__bss: 0x970
    - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit

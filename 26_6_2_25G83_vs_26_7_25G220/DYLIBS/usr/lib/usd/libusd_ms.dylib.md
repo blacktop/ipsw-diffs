@@ -17,8 +17,8 @@
    __TEXT.__constg_swiftt: 0x5d3c
    __TEXT.__swift5_typeref: 0x38ce
 
-   __AUTH.__thread_bss: 0x44148
    __DATA.__data: 0x49210
+   __DATA.__bss: 0x24be40
    __DATA.__common: 0x5eb8
 -  __DATA_DIRTY.__mtlx_registry: 0x0
    __DATA_DIRTY.__tf_func: 0x0

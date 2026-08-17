@@ -43,6 +43,14 @@
    __AUTH_CONST.__cfstring: 0x45c0
    __AUTH_CONST.__objc_const: 0x2598
    __AUTH_CONST.__objc_intobj: 0x18
+   __AUTH.__data: 0x120
+   __DATA.__objc_ivar: 0x148
+   __DATA.__data: 0x8c8
+-  __DATA.__bss: 0x4190
++  __DATA.__bss: 0x41b0
+   __DATA_DIRTY.__objc_data: 0x6e0
+   __DATA_DIRTY.__data: 0x268
+   __DATA_DIRTY.__bss: 0x1690
 
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libc++.1.dylib

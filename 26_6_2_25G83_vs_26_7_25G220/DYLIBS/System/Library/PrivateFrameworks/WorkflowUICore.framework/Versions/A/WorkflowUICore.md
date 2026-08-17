@@ -40,6 +40,14 @@
    __AUTH_CONST.__cfstring: 0x340
    __AUTH_CONST.__objc_const: 0x4898
    __AUTH.__objc_data: 0x1700
+   __AUTH.__data: 0x25d8
+   __DATA.__objc_ivar: 0x68
+   __DATA.__data: 0x6d08
+-  __DATA.__bss: 0xc828
++  __DATA.__bss: 0xc838
+   __DATA.__common: 0x10
+   __DATA_DIRTY.__objc_data: 0x180
+   __DATA_DIRTY.__data: 0xa30
 
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib

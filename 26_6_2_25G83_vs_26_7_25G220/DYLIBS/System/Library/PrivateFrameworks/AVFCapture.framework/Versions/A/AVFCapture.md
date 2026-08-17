@@ -60,8 +60,8 @@
 -  __DATA.__objc_ivar: 0x2394
 +  __DATA.__objc_ivar: 0x23bc
    __DATA.__data: 0xfe8
+   __DATA.__bss: 0xa80
    __DATA.__common: 0x1a0
-   __DATA_DIRTY.__objc_data: 0x3430
 
    - /usr/lib/swift/libswift_Builtin_float.dylib
    - /usr/lib/swift/libswiftos.dylib

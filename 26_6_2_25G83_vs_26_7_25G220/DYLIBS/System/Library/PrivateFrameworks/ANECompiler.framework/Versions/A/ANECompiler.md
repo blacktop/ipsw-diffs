@@ -37,7 +37,9 @@
    __AUTH.__thread_bss: 0x188
 -  __DATA.__data: 0x7768
 +  __DATA.__data: 0x87d0
++  __DATA.__bss: 0x14050
    __DATA.__common: 0x16f0
+-  __DATA.__bss: 0x10940
    __DATA_DIRTY.__data: 0x80
 -  __DATA_DIRTY.__bss: 0xfa8
 +  __DATA_DIRTY.__bss: 0xfe0

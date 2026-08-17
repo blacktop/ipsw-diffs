@@ -33,6 +33,13 @@
    __TEXT_BOOT_EXEC.__bootcode: 0x5330
    __KLD.__text: 0xaf48
 
+   __DATA.__lock_grp: 0x16950
+   __DATA.__percpu: 0x7870
+   __DATA.__common: 0x9cac0
+-  __DATA.__bss: 0x48a88
++  __DATA.__bss: 0x48b38
+   __HIBDATA.__data: 0x41
+   __HIBDATA.__bss: 0x670
    __HIBDATA.__common: 0x108
    __BOOTDATA.__data: 0x18000
    __BOOTDATA.__init: 0x5be70

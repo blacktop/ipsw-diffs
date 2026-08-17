@@ -62,12 +62,14 @@
 -  __AUTH_CONST.__objc_const: 0x770
 -  __AUTH.__data: 0xa60
 -  __DATA.__data: 0x17a8
+-  __DATA.__bss: 0x10280
 +  __DATA_CONST.__objc_protorefs: 0x28
 +  __AUTH_CONST.__auth_got: 0x8e8
 +  __AUTH_CONST.__const: 0x6d30
 +  __AUTH_CONST.__objc_const: 0x918
 +  __AUTH.__data: 0xbb0
 +  __DATA.__data: 0x1db8
++  __DATA.__bss: 0x15900
    __DATA_DIRTY.__objc_data: 0x50
    __DATA_DIRTY.__data: 0x1558
 -  __DATA_DIRTY.__bss: 0x6980

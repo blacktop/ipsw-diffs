@@ -9,9 +9,9 @@
    __DATA.__objc_ivar: 0xc
 -  __DATA.__data: 0x8a0
 +  __DATA.__data: 0x8b0
+   __DATA.__bss: 0x18
    __DATA_DIRTY.__objc_data: 0x50
    __DATA_DIRTY.__bss: 0x10
-   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
 
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib

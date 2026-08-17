@@ -38,7 +38,9 @@
    __AUTH_CONST.__const: 0x3f0
    __AUTH.__data: 0x420
 -  __DATA.__data: 0x3c0
+-  __DATA.__bss: 0x538
 +  __DATA.__data: 0x3c8
++  __DATA.__bss: 0x638
    - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
    - /System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
    - /System/Library/PrivateFrameworks/SiriTimeAlarmInternal.framework/Versions/A/SiriTimeAlarmInternal

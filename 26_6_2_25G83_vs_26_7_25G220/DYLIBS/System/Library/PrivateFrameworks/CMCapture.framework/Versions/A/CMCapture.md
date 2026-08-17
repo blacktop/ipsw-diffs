@@ -56,7 +56,7 @@
 +  __DATA.__objc_ivar: 0x7b90
    __DATA.__data: 0x263c
    __DATA.__common: 0xb20
-   __DATA_DIRTY.__objc_data: 0x93d0
+   __DATA.__bss: 0x1228
 
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libc++.1.dylib

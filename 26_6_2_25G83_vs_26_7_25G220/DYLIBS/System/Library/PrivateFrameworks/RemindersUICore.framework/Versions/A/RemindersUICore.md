@@ -55,8 +55,8 @@
 -  __DATA.__data: 0xe640
 +  __DATA.__data: 0xe650
    __DATA.__objc_stublist: 0x18
+   __DATA.__bss: 0x22c98
    __DATA.__common: 0x328
-   __DATA_DIRTY.__objc_data: 0x4cc8
 
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib

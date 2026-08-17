@@ -49,9 +49,9 @@
    __AUTH.__data: 0x1e20
 -  __DATA.__data: 0x4c48
 +  __DATA.__data: 0x4c58
+   __DATA.__bss: 0x34d00
    __DATA.__common: 0x68
    __DATA_DIRTY.__objc_data: 0x5a8
-   __DATA_DIRTY.__data: 0x2188
 
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswift_StringProcessing.dylib

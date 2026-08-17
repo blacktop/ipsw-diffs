@@ -40,8 +40,8 @@
 -  __DATA.__objc_ivar: 0x534
 +  __DATA.__objc_ivar: 0x538
    __DATA.__data: 0xbd0
+   __DATA.__bss: 0x98
    __DATA.__common: 0x80
-   __DATA_DIRTY.__objc_data: 0x10e0
 
    - /System/Library/PrivateFrameworks/MediaExperience.framework/Versions/A/MediaExperience
    - /usr/lib/libSystem.B.dylib

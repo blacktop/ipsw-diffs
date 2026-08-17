@@ -35,6 +35,15 @@
    __AUTH_CONST.__objc_doubleobj: 0xe0
    __AUTH_CONST.__objc_intobj: 0x40c8
 
+   __AUTH.__data: 0x60
+   __DATA.__objc_ivar: 0x608
+   __DATA.__data: 0x1538
+-  __DATA.__bss: 0x397c
++  __DATA.__bss: 0x399c
+   __DATA.__common: 0x7
+   __DATA_DIRTY.__objc_data: 0x1b30
+   __DATA_DIRTY.__data: 0x5c1
+
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libxml2.2.dylib
    Functions: 12791

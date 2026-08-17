@@ -43,8 +43,8 @@
 -  __DATA.__objc_ivar: 0x58
 +  __DATA.__objc_ivar: 0x5c
    __DATA.__data: 0xcc
+   __DATA.__bss: 0x30
    __DATA_DIRTY.__objc_data: 0x50
-   - /System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork
 
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib

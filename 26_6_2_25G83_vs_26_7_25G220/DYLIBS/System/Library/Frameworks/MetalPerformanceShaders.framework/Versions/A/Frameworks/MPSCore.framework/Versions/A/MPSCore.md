@@ -45,7 +45,9 @@
    __DATA.__objc_ivar: 0x328
    __DATA.__data: 0x25a8
    __DATA.__common: 0x28
+-  __DATA.__bss: 0x34
 -  __DATA_DIRTY.__objc_ivar: 0x54
++  __DATA.__bss: 0x44
 +  __DATA_DIRTY.__objc_ivar: 0x64
    __DATA_DIRTY.__objc_data: 0xff0
    __DATA_DIRTY.__bss: 0x248

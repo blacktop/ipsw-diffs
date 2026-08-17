@@ -76,9 +76,11 @@
 -  __AUTH.__objc_data: 0x10d8
 -  __DATA.__objc_ivar: 0xe44
 -  __DATA.__data: 0x14d8
+-  __DATA.__bss: 0x5a0
 +  __AUTH.__objc_data: 0x1218
 +  __DATA.__objc_ivar: 0xec4
 +  __DATA.__data: 0x1608
++  __DATA.__bss: 0x730
    __DATA_DIRTY.__objc_data: 0x1918
    __DATA_DIRTY.__data: 0x1b8
    __DATA_DIRTY.__bss: 0x368

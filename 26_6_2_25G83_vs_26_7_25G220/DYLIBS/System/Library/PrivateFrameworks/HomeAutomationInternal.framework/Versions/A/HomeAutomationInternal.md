@@ -53,9 +53,9 @@
 -  __DATA.__data: 0x7288
 +  __AUTH.__data: 0x18978
 +  __DATA.__data: 0x7298
+   __DATA.__bss: 0x2ef00
    __DATA.__common: 0xae8
    __DATA_DIRTY.__objc_data: 0x708
-   __DATA_DIRTY.__data: 0xe60
 
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib

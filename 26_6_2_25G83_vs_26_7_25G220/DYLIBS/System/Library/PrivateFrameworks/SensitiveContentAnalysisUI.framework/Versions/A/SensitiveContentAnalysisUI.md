@@ -48,7 +48,7 @@
 +  __AUTH.__data: 0x3200
    __DATA.__objc_ivar: 0xcc
    __DATA.__data: 0x3ea0
-   __DATA.__common: 0x378
+   __DATA.__bss: 0x1a3d8
 
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib

@@ -51,6 +51,7 @@
    __AUTH.__data: 0x2510
 -  __DATA.__data: 0xe440
 +  __DATA.__data: 0xe460
+   __DATA.__bss: 0x77640
    __DATA.__common: 0xb58
    __DATA_DIRTY.__objc_data: 0x360
 -  __DATA_DIRTY.__data: 0xfb08

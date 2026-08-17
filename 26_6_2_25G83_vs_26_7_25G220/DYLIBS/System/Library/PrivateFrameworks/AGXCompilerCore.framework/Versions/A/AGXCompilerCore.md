@@ -28,7 +28,11 @@
 +  __AUTH.__data: 0x58
    __AUTH.__thread_vars: 0x30
    __AUTH.__thread_bss: 0x30
+-  __DATA.__bss: 0x3f38
++  __DATA.__bss: 0x41a8
    __DATA_DIRTY.__data: 0x80
+   __DATA_DIRTY.__bss: 0x1278
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
 
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib

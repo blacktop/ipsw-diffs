@@ -59,8 +59,8 @@
 -  __DATA.__objc_ivar: 0x277c
 +  __DATA.__objc_ivar: 0x2780
    __DATA.__data: 0x83e8
+   __DATA.__bss: 0x16c10
    __DATA.__common: 0x50
-   __DATA_DIRTY.__objc_data: 0x9d08
 
    - /usr/lib/swift/libswift_StringProcessing.dylib
    - /usr/lib/swift/libswiftos.dylib

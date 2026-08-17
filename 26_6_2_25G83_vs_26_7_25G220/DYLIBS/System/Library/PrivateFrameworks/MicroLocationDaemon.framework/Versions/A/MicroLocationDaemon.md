@@ -85,8 +85,10 @@
    __DATA.__objc_ivar: 0x5b4
 -  __DATA.__data: 0xd38
 -  __DATA.__common: 0x70
+-  __DATA.__bss: 0x2330
 +  __DATA.__data: 0x1248
 +  __DATA.__common: 0x80
++  __DATA.__bss: 0x2930
    __DATA_DIRTY.__objc_data: 0x2f68
    __DATA_DIRTY.__data: 0x298
    __DATA_DIRTY.__bss: 0xdc0
