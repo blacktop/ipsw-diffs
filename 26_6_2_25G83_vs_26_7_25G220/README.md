@@ -918,6 +918,24 @@
 
 - [Entitlements DIFF](Entitlements.md)
 
+## Sandbox Profiles
+
+### Collection (5)
+
+#### ⬆️ Updated (5)
+
+- [com.apple.opendirectoryd](SANDBOX/Collection/com.apple.opendirectoryd.md)
+- [no-internet](SANDBOX/Collection/no-internet.md)
+- [no-network](SANDBOX/Collection/no-network.md)
+- [no-write](SANDBOX/Collection/no-write.md)
+- [no-write-except-temporary](SANDBOX/Collection/no-write-except-temporary.md)
+
+### Platform Profile (1)
+
+#### ⬆️ Updated (1)
+
+- [platform](SANDBOX/Platform/platform.md)
+
 ## Firmware
 
 ### 🆕 NEW (1)
