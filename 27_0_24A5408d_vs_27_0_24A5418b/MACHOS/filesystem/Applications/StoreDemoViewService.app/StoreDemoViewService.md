@@ -1,0 +1,16 @@
+## StoreDemoViewService
+
+> `/Applications/StoreDemoViewService.app/StoreDemoViewService`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+
+```diff
+
+-1871.0.51.0.0
++1871.2.1.0.0
+   __TEXT.__text: 0x4a18
+   __TEXT.__auth_stubs: 0x3d0
+   __TEXT.__objc_stubs: 0x1780
+```

@@ -1,0 +1,373 @@
+## ChatKit
+
+> `/System/Library/PrivateFrameworks/ChatKit.framework/ChatKit`
+
+```diff
+
+-1491.100.1.2.11
+-  __TEXT.__text: 0xc21d70
++1491.100.1.2.23
++  __TEXT.__text: 0xc21e74
+   __TEXT.__delay_stubs: 0x1c0
+   __TEXT.__delay_helper: 0x3050
+-  __TEXT.__objc_methlist: 0x732f4
++  __TEXT.__objc_methlist: 0x7330c
+   __TEXT.__const: 0x42924
+   __TEXT.__gcc_except_tab: 0x207dc
+   __TEXT.__cstring: 0x3f657
+
+   __TEXT.__swift_as_cont: 0xe50
+   __TEXT.__swift5_protos: 0xdc
+   __TEXT.__swift5_mpenum: 0x140
+-  __TEXT.__unwind_info: 0x31bc8
++  __TEXT.__unwind_info: 0x31bd0
+   __TEXT.__eh_frame: 0x12d50
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+
+   __DATA_CONST.__objc_catlist: 0x568
+   __DATA_CONST.__objc_protolist: 0x13f8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x37518
++  __DATA_CONST.__objc_selrefs: 0x37520
+   __DATA_CONST.__objc_protorefs: 0x578
+   __DATA_CONST.__objc_superrefs: 0x19f8
+   __DATA_CONST.__objc_arraydata: 0xed0
+   __DATA_CONST.__got: 0x7d10
+   __AUTH_CONST.__const: 0x3f190
+   __AUTH_CONST.__cfstring: 0x24460
+-  __AUTH_CONST.__objc_const: 0x9dd40
++  __AUTH_CONST.__objc_const: 0x9dd48
+   __AUTH_CONST.__objc_arrayobj: 0xde0
+   __AUTH_CONST.__objc_intobj: 0xf18
+   __AUTH_CONST.__objc_doubleobj: 0x870
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 74865
+-  Symbols:   96550
++  Functions: 74866
++  Symbols:   96548
+   CStrings:  13244
+ 
+Symbols:
++ -[CKTranscriptCollectionViewController invalidateChatItemLayoutWithNewBalloonMaxWidth:marginInsets:traitCollection:getContentHeightChanged:]
++ GCC_except_table1000
++ GCC_except_table1002
++ GCC_except_table1006
++ GCC_except_table1008
++ GCC_except_table1010
++ GCC_except_table1016
++ GCC_except_table1018
++ GCC_except_table1021
++ GCC_except_table1027
++ GCC_except_table1034
++ GCC_except_table1039
++ GCC_except_table1045
++ GCC_except_table1050
++ GCC_except_table1054
++ GCC_except_table1077
++ GCC_except_table1080
++ GCC_except_table1086
++ GCC_except_table1093
++ GCC_except_table1124
++ GCC_except_table1126
++ GCC_except_table1149
++ GCC_except_table1154
++ GCC_except_table1156
++ GCC_except_table1201
++ GCC_except_table1203
++ GCC_except_table1205
++ GCC_except_table1207
++ GCC_except_table1211
++ GCC_except_table1215
++ GCC_except_table1218
++ GCC_except_table1220
++ GCC_except_table1222
++ GCC_except_table1230
++ GCC_except_table1248
++ GCC_except_table1259
++ GCC_except_table254
++ GCC_except_table259
++ GCC_except_table280
++ GCC_except_table284
++ GCC_except_table286
++ GCC_except_table292
++ GCC_except_table307
++ GCC_except_table359
++ GCC_except_table408
++ GCC_except_table414
++ GCC_except_table417
++ GCC_except_table419
++ GCC_except_table426
++ GCC_except_table430
++ GCC_except_table438
++ GCC_except_table440
++ GCC_except_table442
++ GCC_except_table453
++ GCC_except_table466
++ GCC_except_table469
++ GCC_except_table474
++ GCC_except_table476
++ GCC_except_table478
++ GCC_except_table480
++ GCC_except_table482
++ GCC_except_table485
++ GCC_except_table496
++ GCC_except_table505
++ GCC_except_table508
++ GCC_except_table515
++ GCC_except_table524
++ GCC_except_table526
++ GCC_except_table529
++ GCC_except_table535
++ GCC_except_table537
++ GCC_except_table543
++ GCC_except_table547
++ GCC_except_table549
++ GCC_except_table555
++ GCC_except_table573
++ GCC_except_table577
++ GCC_except_table586
++ GCC_except_table590
++ GCC_except_table593
++ GCC_except_table595
++ GCC_except_table602
++ GCC_except_table605
++ GCC_except_table609
++ GCC_except_table620
++ GCC_except_table623
++ GCC_except_table630
++ GCC_except_table633
++ GCC_except_table642
++ GCC_except_table648
++ GCC_except_table656
++ GCC_except_table659
++ GCC_except_table661
++ GCC_except_table665
++ GCC_except_table669
++ GCC_except_table673
++ GCC_except_table676
++ GCC_except_table679
++ GCC_except_table681
++ GCC_except_table686
++ GCC_except_table690
++ GCC_except_table695
++ GCC_except_table699
++ GCC_except_table703
++ GCC_except_table705
++ GCC_except_table707
++ GCC_except_table712
++ GCC_except_table715
++ GCC_except_table717
++ GCC_except_table721
++ GCC_except_table723
++ GCC_except_table725
++ GCC_except_table729
++ GCC_except_table731
++ GCC_except_table747
++ GCC_except_table749
++ GCC_except_table757
++ GCC_except_table760
++ GCC_except_table762
++ GCC_except_table764
++ GCC_except_table767
++ GCC_except_table769
++ GCC_except_table774
++ GCC_except_table776
++ GCC_except_table778
++ GCC_except_table786
++ GCC_except_table789
++ GCC_except_table791
++ GCC_except_table796
++ GCC_except_table801
++ GCC_except_table804
++ GCC_except_table829
++ GCC_except_table832
++ GCC_except_table836
++ GCC_except_table862
++ GCC_except_table871
++ GCC_except_table878
++ GCC_except_table887
++ GCC_except_table898
++ GCC_except_table901
++ GCC_except_table903
++ GCC_except_table926
++ GCC_except_table929
++ GCC_except_table946
++ GCC_except_table950
++ GCC_except_table953
++ GCC_except_table962
++ GCC_except_table966
++ GCC_except_table974
++ GCC_except_table976
++ GCC_except_table980
++ GCC_except_table983
++ GCC_except_table988
++ GCC_except_table990
++ GCC_except_table994
++ _objc_msgSend$invalidateChatItemLayoutWithNewBalloonMaxWidth:marginInsets:traitCollection:getContentHeightChanged:
+- GCC_except_table1001
+- GCC_except_table1004
+- GCC_except_table1007
+- GCC_except_table1009
+- GCC_except_table1014
+- GCC_except_table1017
+- GCC_except_table1020
+- GCC_except_table1026
+- GCC_except_table1032
+- GCC_except_table1036
+- GCC_except_table1043
+- GCC_except_table1049
+- GCC_except_table1053
+- GCC_except_table1076
+- GCC_except_table1079
+- GCC_except_table1085
+- GCC_except_table1092
+- GCC_except_table1123
+- GCC_except_table1125
+- GCC_except_table1148
+- GCC_except_table1153
+- GCC_except_table1155
+- GCC_except_table1200
+- GCC_except_table1202
+- GCC_except_table1204
+- GCC_except_table1206
+- GCC_except_table1209
+- GCC_except_table1214
+- GCC_except_table1216
+- GCC_except_table1219
+- GCC_except_table1221
+- GCC_except_table1229
+- GCC_except_table1247
+- GCC_except_table1258
+- GCC_except_table239
+- GCC_except_table258
+- GCC_except_table267
+- GCC_except_table275
+- GCC_except_table283
+- GCC_except_table293
+- GCC_except_table300
+- GCC_except_table305
+- GCC_except_table358
+- GCC_except_table377
+- GCC_except_table403
+- GCC_except_table407
+- GCC_except_table409
+- GCC_except_table418
+- GCC_except_table421
+- GCC_except_table424
+- GCC_except_table429
+- GCC_except_table437
+- GCC_except_table439
+- GCC_except_table441
+- GCC_except_table446
+- GCC_except_table452
+- GCC_except_table459
+- GCC_except_table463
+- GCC_except_table468
+- GCC_except_table472
+- GCC_except_table475
+- GCC_except_table477
+- GCC_except_table479
+- GCC_except_table481
+- GCC_except_table483
+- GCC_except_table492
+- GCC_except_table498
+- GCC_except_table506
+- GCC_except_table509
+- GCC_except_table525
+- GCC_except_table527
+- GCC_except_table536
+- GCC_except_table538
+- GCC_except_table542
+- GCC_except_table544
+- GCC_except_table548
+- GCC_except_table554
+- GCC_except_table572
+- GCC_except_table575
+- GCC_except_table585
+- GCC_except_table589
+- GCC_except_table592
+- GCC_except_table594
+- GCC_except_table600
+- GCC_except_table604
+- GCC_except_table606
+- GCC_except_table619
+- GCC_except_table621
+- GCC_except_table627
+- GCC_except_table632
+- GCC_except_table638
+- GCC_except_table647
+- GCC_except_table655
+- GCC_except_table658
+- GCC_except_table660
+- GCC_except_table663
+- GCC_except_table666
+- GCC_except_table671
+- GCC_except_table674
+- GCC_except_table678
+- GCC_except_table680
+- GCC_except_table685
+- GCC_except_table689
+- GCC_except_table693
+- GCC_except_table698
+- GCC_except_table702
+- GCC_except_table704
+- GCC_except_table706
+- GCC_except_table708
+- GCC_except_table713
+- GCC_except_table716
+- GCC_except_table719
+- GCC_except_table722
+- GCC_except_table724
+- GCC_except_table726
+- GCC_except_table730
+- GCC_except_table741
+- GCC_except_table748
+- GCC_except_table756
+- GCC_except_table759
+- GCC_except_table761
+- GCC_except_table763
+- GCC_except_table765
+- GCC_except_table768
+- GCC_except_table772
+- GCC_except_table775
+- GCC_except_table777
+- GCC_except_table783
+- GCC_except_table788
+- GCC_except_table790
+- GCC_except_table795
+- GCC_except_table797
+- GCC_except_table803
+- GCC_except_table828
+- GCC_except_table830
+- GCC_except_table835
+- GCC_except_table860
+- GCC_except_table870
+- GCC_except_table876
+- GCC_except_table886
+- GCC_except_table897
+- GCC_except_table900
+- GCC_except_table902
+- GCC_except_table925
+- GCC_except_table928
+- GCC_except_table945
+- GCC_except_table948
+- GCC_except_table952
+- GCC_except_table960
+- GCC_except_table964
+- GCC_except_table973
+- GCC_except_table975
+- GCC_except_table979
+- GCC_except_table982
+- GCC_except_table987
+- GCC_except_table989
+- GCC_except_table992
+- GCC_except_table997
+Functions:
+~ -[CKChatController _invalidateChatItemLayoutIfNecessary:] : 568 -> 576
+~ -[CKMediaObject shouldShowUnknownSendersPreview] : 676 -> 692
++ -[CKTranscriptCollectionViewController invalidateChatItemLayoutWithNewBalloonMaxWidth:marginInsets:traitCollection:getContentHeightChanged:]
+```

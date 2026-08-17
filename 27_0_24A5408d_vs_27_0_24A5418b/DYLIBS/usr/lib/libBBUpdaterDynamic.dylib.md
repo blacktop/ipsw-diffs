@@ -1,0 +1,408 @@
+## libBBUpdaterDynamic.dylib
+
+> `/usr/lib/libBBUpdaterDynamic.dylib`
+
+```diff
+
+ 1585.0.0.0.0
+-  __TEXT.__text: 0x1876e4
++  __TEXT.__text: 0x182b34
+   __TEXT.__init_offsets: 0x164
+-  __TEXT.__const: 0xab40
+-  __TEXT.__cstring: 0x29e44
++  __TEXT.__const: 0xaa20
++  __TEXT.__cstring: 0x281da
+   __TEXT.__oslogstring: 0xf4d4
+-  __TEXT.__gcc_except_tab: 0x14c50
+-  __TEXT.__unwind_info: 0x4928
++  __TEXT.__gcc_except_tab: 0x147a4
++  __TEXT.__unwind_info: 0x4890
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_methname: 0x0
+-  __DATA_CONST.__const: 0x1520
++  __DATA_CONST.__const: 0x1500
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__weak_got: 0x18
+   __DATA_CONST.__objc_selrefs: 0x70
+   __DATA_CONST.__got: 0x280
+-  __AUTH_CONST.__const: 0x7f80
++  __AUTH_CONST.__const: 0x7ed0
+   __AUTH_CONST.__cfstring: 0x3060
+   __AUTH_CONST.__weak_auth_got: 0x20
+-  __AUTH_CONST.__auth_got: 0x1b90
++  __AUTH_CONST.__auth_got: 0x1b20
+   __DATA.__data: 0x7b8
+   __DATA.__bss: 0x6e0
+   __DATA.__common: 0x90
+   __DATA_DIRTY.__data: 0x210
+   __DATA_DIRTY.__bss: 0x59a0
+-  __DATA_DIRTY.__common: 0x48
++  __DATA_DIRTY.__common: 0x38
+   - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  Functions: 3257
+-  Symbols:   5864
+-  CStrings:  4784
++  Functions: 3237
++  Symbols:   5818
++  CStrings:  4536
+ 
+Symbols:
++ GCC_except_table348
++ GCC_except_table361
++ GCC_except_table367
++ GCC_except_table370
++ GCC_except_table371
++ GCC_except_table384
++ GCC_except_table386
++ GCC_except_table387
++ GCC_except_table400
++ GCC_except_table407
++ GCC_except_table418
++ GCC_except_table420
++ GCC_except_table422
++ GCC_except_table430
++ GCC_except_table431
++ GCC_except_table433
++ GCC_except_table437
++ GCC_except_table439
++ GCC_except_table440
++ GCC_except_table453
++ GCC_except_table456
++ GCC_except_table469
++ GCC_except_table472
++ GCC_except_table485
++ __ZN15BBUpdaterCommon14redactedStringEPKc
+- GCC_except_table353
+- GCC_except_table366
+- GCC_except_table372
+- GCC_except_table375
+- GCC_except_table376
+- GCC_except_table389
+- GCC_except_table391
+- GCC_except_table392
+- GCC_except_table405
+- GCC_except_table412
+- GCC_except_table423
+- GCC_except_table425
+- GCC_except_table427
+- GCC_except_table435
+- GCC_except_table438
+- GCC_except_table441
+- GCC_except_table442
+- GCC_except_table444
+- GCC_except_table445
+- GCC_except_table458
+- GCC_except_table461
+- GCC_except_table474
+- GCC_except_table477
+- GCC_except_table490
+- _KTLParsePSIICETestModeResponse
+- _TelephonyBasebandWatchdogStartWithStackshot
+- _TelephonyBasebandWatchdogStop
+- __Z13_BBULogBinary9LogModuleiPKcS1_PKvmc
+- __ZN15BBUpdaterCommon23BBURegisterDebugSignalsEv
+- __ZN15BBUpdaterCommonL18handleDebugSignalsEiP9__siginfoPv
+- __ZN31BBUEURPersonalizationParameters10EURKeyHash18_HACK_overrideWithERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+- __ZN31BBUEURPersonalizationParameters15EURSerialNumber18_HACK_overrideWithERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+- __ZN31BBUEURPersonalizationParameters16EURPublicKeyHash18_HACK_overrideWithERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+- __ZN31BBUEURPersonalizationParameters8EURNonce18_HACK_overrideWithERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+- __ZN31BBUICEPersonalizationParameters10ICEKeyHash18_HACK_overrideWithERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+- __ZN31BBUICEPersonalizationParameters15ICESerialNumber18_HACK_overrideWithERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+- __ZN31BBUICEPersonalizationParameters16ICEPublicKeyHash18_HACK_overrideWithERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+- __ZN31BBUICEPersonalizationParameters8ICENonce18_HACK_overrideWithERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+- __ZN6config2hw11getBootArgsEv
+- __ZN7support2fs10fileExistsERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+- __ZNKSt3__110error_code7messageEv
+- __ZNKSt3__120__shared_ptr_pointerIP20BBULogCircularBufferNS_10shared_ptrI12BBULogBufferE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEE13__get_deleterERKSt9type_info
+- __ZNSt3__110shared_ptrIN3ctu7GestaltEED1B9noe220106Ev
+- __ZNSt3__115system_categoryEv
+- __ZNSt3__120__shared_ptr_pointerIP20BBULogCircularBufferNS_10shared_ptrI12BBULogBufferE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_pointerIP20BBULogCircularBufferNS_10shared_ptrI12BBULogBufferE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_pointerIP20BBULogCircularBufferNS_10shared_ptrI12BBULogBufferE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEED0Ev
+- __ZNSt3__120__shared_ptr_pointerIP20BBULogCircularBufferNS_10shared_ptrI12BBULogBufferE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEED1Ev
+- __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_NS_4lessIS6_EENS4_INS_4pairIKS6_S6_EEEEED2B9noe220106Ev
+- __ZNSt3__14__fs10filesystem11__file_sizeERKNS1_4pathEPNS_10error_codeE
+- __ZNSt3__14__fs10filesystem12__remove_allERKNS1_4pathEPNS_10error_codeE
+- __ZNSt3__14__fs10filesystem18__create_directoryERKNS1_4pathEPNS_10error_codeE
+- __ZNSt3__14__fs10filesystem6__copyERKNS1_4pathES4_NS1_12copy_optionsEPNS_10error_codeE
+- __ZTINSt3__120__shared_ptr_pointerIP20BBULogCircularBufferNS_10shared_ptrI12BBULogBufferE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEEE
+- __ZTSNSt3__110shared_ptrI12BBULogBufferE27__shared_ptr_default_deleteIS1_20BBULogCircularBufferEE
+- __ZTSNSt3__120__shared_ptr_pointerIP20BBULogCircularBufferNS_10shared_ptrI12BBULogBufferE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEEE
+- __ZTVNSt3__120__shared_ptr_pointerIP20BBULogCircularBufferNS_10shared_ptrI12BBULogBufferE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEEE
+- __ZZL13sLogBufferGetvE10sLogBuffer
+- __ZZL13sLogBufferGetvE4once
+- ___FUNCTION__._ZN15BBUFDRUtilities20isErrorImageNotFoundEP9__CFError
+- ___FUNCTION__._ZN15BBUFDRUtilities22isTrustErrorAcceptableEP9__CFError
+- ___FUNCTION__._ZN15BBUUpdateSource11loadOptionsEN3ctu2cf11CFSharedRefIK8__CFDataEE
+- ___FUNCTION__._ZN15BBUpdaterCommon17isNVRAMKeyPresentEPK10__CFString
+- ___FUNCTION__._ZN16BBULoaderVersion23createFromVersionStringERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
+- ___FUNCTION__._ZN16BBUZipDataSource4initERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEj
+- ___FUNCTION__._ZN20BBULogCircularBuffer6resizeEm
+- ___FUNCTION__._ZN5eUICC13ClearMetadata7PerformEbRNSt3__110unique_ptrINS_15eUICCVinylValveENS1_14default_deleteIS3_EEEE
+- ____ZN18BBUEUR20Programmer20isCPMSViaSPMIEnabledEv_block_invoke
+- _backtrace
+- _backtrace_symbols_fd
+- _sigaction
+CStrings:
++ "<< SNUM >>"
++ "WARNING: ChipID mismatch (DIAG vs. libTU); using libTU ChipID"
++ "WARNING: Serial number mismatch (DIAG vs. libTU + DIAG); using libTU + DIAG SNUM"
+- "        %s '%s' - Press [c] to continue ; [q] to quit: "
+- " -- middle of buffer snipped -- \n"
+- "!fDebugOptions.fFFBootup"
+- "!fDebugOptions.fFFCreateTransport"
+- "!fDebugOptions.fFFFirstStage"
+- "!fDebugOptions.fFFPing"
+- "%s SHA Hash:  %s\n"
+- "(snipped)\n"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/AppleBasebandServices/BBUpdater/Legacy/Framework/Initialization/Eureka/BBUEUR25Initializer.cpp"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/AppleBasebandServices/BBUpdater/Legacy/Framework/Support/BBUPurpleReverseProxy.cpp"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/AppleBasebandServices/BBUpdater/Legacy/Framework/eUICC/ClearMetadata/VinylClearMetadata.cpp"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/AppleBasebandServices/BBUpdater/Legacy/Framework/eUICC/CommandDrivers/eUICCVinylICEValve.cpp"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/AppleBasebandServices/BBUpdater/Legacy/Framework/eUICC/CommandDrivers/eUICCVinylMAVValve.cpp"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/AppleBasebandServices/BBUpdater/Legacy/Framework/eUICC/Perso/eUICCPerso.cpp"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/AppleBasebandServices/BBUpdater/Legacy/Framework/eUICC/Public/eUICCPublic.cpp"
+- "About to load"
+- "About to start"
+- "Assertion failure ( (libtuChipID == diagChipID) && \"ChipID mismatch (DIAG vs. libTU)\" )"
+- "Assertion failure ( (serialNumberValue == serialNumberBuff) && \"Serial number mismatch (DIAG vs. libTU + DIAG)\" )"
+- "Assertion failure ( false && \"Unrecognized BBU Capabilities digest type.\" )"
+- "AuthPerso"
+- "AuthenticatePersoDevice"
+- "BBUCreateCFError"
+- "BBUEURMIImage"
+- "BBUFDRLogHandler"
+- "BBULogPrintBinaryDelegate"
+- "BBUReadNVRAM"
+- "BBUReadNVRAM_block_invoke"
+- "BundleVersionsSupported"
+- "ClearMetadataForIccids"
+- "CreateDictionaryFromPlistData"
+- "CreateFromData"
+- "CreateValidationBlob"
+- "DeleteProfile"
+- "DumpRecords"
+- "Fail Forward: "
+- "Fail Forward: Fail to bootup baseband.\n"
+- "Fail Forward: Fail to create transport.\n"
+- "Fail Forward: Fail to ping baseband.\n"
+- "Fail to perform first stage"
+- "Failed formatting PSI enhanced command to run PSI test vector\n"
+- "Failed parsing test vector results\n"
+- "Failed receiving test vector results from device\n"
+- "Failed sending PSI command to run test vector\n"
+- "FinalizePerso"
+- "FinalizePersoDevice"
+- "ForcePerso"
+- "Found CPMS via SPMI enabled in boot-args"
+- "GetData"
+- "GetFirmwareInternal"
+- "GetListOfIccids"
+- "GetNonceServer"
+- "GetRecoveryForMac"
+- "GetVinylType"
+- "GetWrapKeyServer"
+- "Hit an error. "
+- "HowToProceed"
+- "InitPerso"
+- "InitPersoDevice"
+- "InitPersoServer"
+- "InitPlistAndMac"
+- "InstallTicket"
+- "MRC training commands"
+- "Perform"
+- "PostDataSync"
+- "Proceed for core dumps?"
+- "Quit after PBL connect requested - quitting..."
+- "Received test results: status = 0x%x, log_len = %u"
+- "Requested to force Restore Mode cookie"
+- "Requested to obliterate baseband EEPROM"
+- "Requested to run PSI test %x\n"
+- "Requested to run test vector %x, not programming firmware"
+- "ReverseProxyGetSettings"
+- "ReverseProxyGetSettings_block_invoke"
+- "Run"
+- "SendReceiptServer"
+- "Sending PSI enhanced command 'Run ICE Test Vector'\n"
+- "SerializeKeyValuePairsIntoPlistData"
+- "SetCardMode"
+- "Source"
+- "Step"
+- "StoreData"
+- "StreamFirmware"
+- "UpdateOutput"
+- "User request to ignore this failure and return success"
+- "ValidatePerso"
+- "ValidatePersoDevice"
+- "Watchdog timed out"
+- "bootloader"
+- "bootupInternal"
+- "captureRecord64Bit_nl"
+- "captureRecord_nl"
+- "caught signal %d\n"
+- "cbEventNotification"
+- "cbReadLogs"
+- "checkManifest"
+- "checkProvisionManifestStatus"
+- "cmdCopyIdentifier"
+- "collectCoreDump"
+- "collectCoredumpInternal"
+- "compareHash"
+- "connect"
+- "connectForImage_nl"
+- "copy"
+- "copyData"
+- "copyDataFromFile"
+- "copyFusingProfileArray"
+- "copyHashData"
+- "createFromVersionString"
+- "createImageFromData"
+- "createImageFromFDR"
+- "createImageFromFile"
+- "createTransport"
+- "createTransportNoEvents"
+- "createTransport_block_invoke_2"
+- "createWithFile"
+- "disable"
+- "disable_block_invoke_3"
+- "disconnectForImage_nl"
+- "dumpDebugLogBuffer"
+- "duplicateRecord"
+- "enable_block_invoke"
+- "enable_block_invoke_2"
+- "enabling debug log for coredump\n"
+- "eraseBasebandFilesystem"
+- "eraseEEPROM does not need additional parameters."
+- "eraseEEPROM does not need additional parameters.\n"
+- "execCommand"
+- "failed to create directory %s to store duplicate files, error code %d, error explanation: %s\n"
+- "failed to duplicate file %s due to duplicate directory string concatenation error\n"
+- "failed to duplicate file %s due to duplicate filename string concatenation error\n"
+- "failed to duplicate file %s to %s due to error code %d, error explanation: %s\n"
+- "failed to remove all files from duplicate directory %s due to error code %d, error explanation: %s\n"
+- "fetchPersonalizationParameters"
+- "file %s was successfully duplicated to %s, failed to get file size due to error code %d, error explanation: %s\n"
+- "file %s was successfully duplicated to %s, file size: %lu bytes\n"
+- "finalize"
+- "findRemoteData"
+- "forceRestoreModeCookie does not need additional parameters."
+- "freeTransport"
+- "freeTransportSync"
+- "freeTransportSync_block_invoke"
+- "freeTransportSync_block_invoke_2"
+- "fuse"
+- "fuseFromBB"
+- "gatherManifestInfo"
+- "gatherPersonalizationParameters"
+- "gatherProvisionParameters"
+- "getBasebandState"
+- "getCalibrationEntitlements"
+- "getDataSourceForPT"
+- "getECID_block_invoke"
+- "getFusingSource"
+- "getManifestSource"
+- "getNVRestoreSetting"
+- "getProgrammerSource"
+- "getProvisioningStatus"
+- "getSegmentRequestInternal_nl"
+- "getShouldFuseProvision"
+- "getUpdateSourceForCoredump"
+- "handleCapureProgress"
+- "handleCapureProgress64Bit"
+- "handleCommandMode"
+- "handleException"
+- "handleGetDDRCalData"
+- "handleHashesQuery"
+- "handleICETestModeVector"
+- "handleSaharaMode_nl"
+- "inRestoreOS_block_invoke"
+- "inRestoreOS_block_invoke_2"
+- "init32"
+- "init64"
+- "initSecFile"
+- "invalid input parameters\n"
+- "isAbsentOkay"
+- "isErrorImageNotFound"
+- "isNVRAMKeyPresent"
+- "isProcessLoaded"
+- "isTrustErrorAcceptable"
+- "loadBINFiles"
+- "loadDataSourceToData"
+- "loadEBLImage"
+- "loadELFFiles"
+- "loadFileMap"
+- "loadMRCData"
+- "loadNVMFiles"
+- "loadOptions"
+- "loadPSIImages"
+- "loadProvisioningData"
+- "logEUICCData"
+- "manual step operation aborted\n"
+- "mrcFastboot"
+- "mrcTrainInit"
+- "next image"
+- "no_transition"
+- "overriding Sahara Memory Read size %d\n"
+- "overriding product parameter in hello response with: %s\n"
+- "parseVersionString"
+- "performBootedStageInternal"
+- "performEUICCStageInternal"
+- "performFinalStageInternal"
+- "performFirstStageInternal"
+- "performManifestCheckInternal"
+- "performNVSync"
+- "performPingInternal"
+- "performSecondStageInternal"
+- "personalize"
+- "pingAndCheckForResponse"
+- "prepareRemoteData"
+- "processItems"
+- "process_event"
+- "programmer"
+- "pushImagesInternal"
+- "query"
+- "queryChipInfo"
+- "queryInfoBootedStageInternal"
+- "queryInfoEUICCInternal"
+- "queryInfoFirstStageInternal"
+- "queryInfoSecondStageInternal"
+- "registerIOABPControl_sync"
+- "registerIOABPControl_sync_block_invoke_3"
+- "resize"
+- "runTest: missing test number to run"
+- "running PSI Test Vector"
+- "saharaMemoryReadSize requires a parameters to override default size.\n"
+- "saveCoredumpEntry"
+- "saveDataToFile"
+- "saveFile"
+- "saveImages"
+- "saveMRCData"
+- "secure mode"
+- "sendEBL"
+- "sendImageInternal_nl"
+- "sendImageSegment"
+- "sendProductType requires a parameters to override product type and hardware config."
+- "sendProductType requires a parameters to override product type and hardware config.\n"
+- "sendSegmentInternal_nl"
+- "setBasebandCapabilities"
+- "setDebugParameters"
+- "shouldPerformEUICC"
+- "shouldPerformFusing"
+- "shouldPerformFusingVerification"
+- "skipPersonalize"
+- "statusCallback"
+- "switchSaharaMode"
+- "test 0 invalid, please run another test"
+- "unrecognized parameter:  %s\n"
+- "user requested to stall on baseband update failure"
+- "validateAndCopy"
+- "validateBootupItems"
+- "validateFusingData"
+```
