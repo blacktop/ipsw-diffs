@@ -7,6 +7,7 @@
 ## DIFFS
 
 <p><strong>Quick Nav:</strong>
+<a href="#ios-26-6">iOS 26.6</a> ·
 <a href="#ios-27-0-beta">iOS 27.0 beta</a> ·
 <a href="#ios-26-6-beta">iOS 26.6 beta</a> ·
 <a href="#ios-26-5">iOS 26.5</a> ·
@@ -610,6 +611,15 @@
   <summary>View diffs</summary>
 
 - [26.6 beta 3 (25G5052e) .vs 26.6 (25G72)](26_6_25G5052e_vs_26_6_25G72/README.md)
+
+</details>
+
+<a id="ios-26-6"></a>
+### iOS 26.6
+<details open>
+  <summary>View diffs</summary>
+
+- [26.6 (23G71) .vs 26.6.1 (23G83)](26_6_23G71_vs_26_6_1_23G83/README.md)
 
 </details>
 
