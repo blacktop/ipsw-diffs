@@ -1,0 +1,137 @@
+## LockdownModeUI
+
+> `/System/Library/PrivateFrameworks/LockdownModeUI.framework/Versions/A/LockdownModeUI`
+
+```diff
+
+-128.0.5.0.0
+-  __TEXT.__text: 0x18bcc
++128.0.8.0.0
++  __TEXT.__text: 0x18778
+   __TEXT.__objc_methlist: 0x1dc
+-  __TEXT.__const: 0x1024
+-  __TEXT.__swift5_typeref: 0x340e
+-  __TEXT.__swift5_capture: 0x184
++  __TEXT.__const: 0x1034
++  __TEXT.__swift5_typeref: 0x340a
++  __TEXT.__swift5_capture: 0x164
+   __TEXT.__constg_swiftt: 0x34c
+-  __TEXT.__swift5_reflstr: 0x21f
++  __TEXT.__swift5_reflstr: 0x21e
+   __TEXT.__swift5_assocty: 0xb0
+   __TEXT.__swift5_fieldmd: 0x248
+-  __TEXT.__swift5_builtin: 0x14
+-  __TEXT.__oslogstring: 0x842
++  __TEXT.__oslogstring: 0x812
+   __TEXT.__cstring: 0x39e
++  __TEXT.__swift5_builtin: 0x14
+   __TEXT.__swift5_proto: 0x20
+   __TEXT.__swift5_types: 0x30
+   __TEXT.__swift_as_entry: 0x28
+   __TEXT.__swift_as_ret: 0x24
+   __TEXT.__swift_as_cont: 0x40
+   __TEXT.__unwind_info: 0x710
+-  __TEXT.__eh_frame: 0x85c
++  __TEXT.__eh_frame: 0x854
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_selrefs: 0x238
+   __DATA_CONST.__objc_protorefs: 0x30
+   __DATA_CONST.__got: 0x378
+-  __AUTH_CONST.__const: 0x588
++  __AUTH_CONST.__const: 0x510
+   __AUTH_CONST.__objc_const: 0x4f8
+   __AUTH_CONST.__auth_got: 0x938
+   __AUTH.__objc_data: 0x190
+   __AUTH.__data: 0x340
+-  __DATA.__data: 0x8c8
++  __DATA.__data: 0x8a8
+   __DATA.__bss: 0x4c8
+   __DATA.__common: 0x48
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 534
+-  Symbols:   1830
++  Functions: 528
++  Symbols:   1825
+   CStrings:  70
+ 
+Symbols:
++ _$s14LockdownModeUI22LMUIExemptContactsViewV21handleContactSelected33_32E4962AFCDE7ABCFB4CD08ECD559B59LLyySo9CNContactCSgF
++ _$s14LockdownModeUI22LMUIExemptContactsViewV21handleContactSelected33_32E4962AFCDE7ABCFB4CD08ECD559B59LLyySo9CNContactCSgFyyYacfU_
++ _$s14LockdownModeUI22LMUIExemptContactsViewV21handleContactSelected33_32E4962AFCDE7ABCFB4CD08ECD559B59LLyySo9CNContactCSgFyyYacfU_TA
++ _$s14LockdownModeUI22LMUIExemptContactsViewV21handleContactSelected33_32E4962AFCDE7ABCFB4CD08ECD559B59LLyySo9CNContactCSgFyyYacfU_TATQ0_
++ _$s14LockdownModeUI22LMUIExemptContactsViewV21handleContactSelected33_32E4962AFCDE7ABCFB4CD08ECD559B59LLyySo9CNContactCSgFyyYacfU_TATu
++ _$s14LockdownModeUI22LMUIExemptContactsViewV21handleContactSelected33_32E4962AFCDE7ABCFB4CD08ECD559B59LLyySo9CNContactCSgFyyYacfU_TQ1_
++ _$s14LockdownModeUI22LMUIExemptContactsViewV21handleContactSelected33_32E4962AFCDE7ABCFB4CD08ECD559B59LLyySo9CNContactCSgFyyYacfU_TY0_
++ _$s14LockdownModeUI22LMUIExemptContactsViewV21handleContactSelected33_32E4962AFCDE7ABCFB4CD08ECD559B59LLyySo9CNContactCSgFyyYacfU_TY2_
++ _$s14LockdownModeUI22LMUIExemptContactsViewV21handleContactSelected33_32E4962AFCDE7ABCFB4CD08ECD559B59LLyySo9CNContactCSgFyyYacfU_Tu
++ _$s14LockdownModeUI22LMUIExemptContactsViewV4bodyQrvgAA0dE6PickerVyXEfU1_ySo9CNContactCSgYbcACYbcfu_yAIYbcfu0_TA
++ _$s14LockdownModeUI24LMUIExemptContactsPickerV11CoordinatorC11isPresented17onContactSelectedAE05SwiftC07BindingVySbG_ySo9CNContactCSgctcfC
++ _$s14LockdownModeUI24LMUIExemptContactsPickerV11CoordinatorC11isPresented17onContactSelectedAE05SwiftC07BindingVySbG_ySo9CNContactCSgctcfCTj
++ _$s14LockdownModeUI24LMUIExemptContactsPickerV11CoordinatorC11isPresented17onContactSelectedAE05SwiftC07BindingVySbG_ySo9CNContactCSgctcfCTq
++ _$s14LockdownModeUI24LMUIExemptContactsPickerV11CoordinatorC11isPresented17onContactSelectedAE05SwiftC07BindingVySbG_ySo9CNContactCSgctcfc
++ _$s14LockdownModeUI24LMUIExemptContactsPickerV11CoordinatorC11isPresented17onContactSelectedAE05SwiftC07BindingVySbG_ySo9CNContactCSgctcfcTf4ggn_n
++ _$s14LockdownModeUI24LMUIExemptContactsPickerV11CoordinatorC17onContactSelected33_6ACE41B17099C144ED8B63B9CDC68640LLyySo9CNContactCSgcvpWvd
++ _$s14LockdownModeUI24LMUIExemptContactsPickerV11isPresented17onContactSelectedAC05SwiftC07BindingVySbG_ySo9CNContactCSgctcfC
++ _$s14LockdownModeUI24LMUIExemptContactsPickerV17onContactSelectedyySo9CNContactCSgcvg
++ _$s14LockdownModeUI24LMUIExemptContactsPickerV17onContactSelectedyySo9CNContactCSgcvpMV
++ _$s14LockdownModeUI27LMUIExemptContactsViewModelC20addContactFromPickeryySo9CNContactCSgYaF
++ _$s14LockdownModeUI27LMUIExemptContactsViewModelC20addContactFromPickeryySo9CNContactCSgYaFTQ1_
++ _$s14LockdownModeUI27LMUIExemptContactsViewModelC20addContactFromPickeryySo9CNContactCSgYaFTQ3_
++ _$s14LockdownModeUI27LMUIExemptContactsViewModelC20addContactFromPickeryySo9CNContactCSgYaFTY0_
++ _$s14LockdownModeUI27LMUIExemptContactsViewModelC20addContactFromPickeryySo9CNContactCSgYaFTY2_
++ _$s14LockdownModeUI27LMUIExemptContactsViewModelC20addContactFromPickeryySo9CNContactCSgYaFTY4_
++ _$s14LockdownModeUI27LMUIExemptContactsViewModelC20addContactFromPickeryySo9CNContactCSgYaFTu
++ _symbolic So9CNContactCSg
++ _symbolic ySo9CNContactCSgc
+- $syXlyXlSo18NSComparisonResultVIeyByyd_ypypABIegnnd_TRTA
+- $sypypSo18NSComparisonResultVIgnnd_ypypABIegnnd_TRTA
+- _$s14LockdownModeUI22LMUIExemptContactsViewV06handleE8Selected33_32E4962AFCDE7ABCFB4CD08ECD559B59LLyySaySo9CNContactCGF
+- _$s14LockdownModeUI22LMUIExemptContactsViewV06handleE8Selected33_32E4962AFCDE7ABCFB4CD08ECD559B59LLyySaySo9CNContactCGFyyYacfU_
+- _$s14LockdownModeUI22LMUIExemptContactsViewV06handleE8Selected33_32E4962AFCDE7ABCFB4CD08ECD559B59LLyySaySo9CNContactCGFyyYacfU_TA
+- _$s14LockdownModeUI22LMUIExemptContactsViewV06handleE8Selected33_32E4962AFCDE7ABCFB4CD08ECD559B59LLyySaySo9CNContactCGFyyYacfU_TATQ0_
+- _$s14LockdownModeUI22LMUIExemptContactsViewV06handleE8Selected33_32E4962AFCDE7ABCFB4CD08ECD559B59LLyySaySo9CNContactCGFyyYacfU_TATu
+- _$s14LockdownModeUI22LMUIExemptContactsViewV06handleE8Selected33_32E4962AFCDE7ABCFB4CD08ECD559B59LLyySaySo9CNContactCGFyyYacfU_TQ1_
+- _$s14LockdownModeUI22LMUIExemptContactsViewV06handleE8Selected33_32E4962AFCDE7ABCFB4CD08ECD559B59LLyySaySo9CNContactCGFyyYacfU_TY0_
+- _$s14LockdownModeUI22LMUIExemptContactsViewV06handleE8Selected33_32E4962AFCDE7ABCFB4CD08ECD559B59LLyySaySo9CNContactCGFyyYacfU_TY2_
+- _$s14LockdownModeUI22LMUIExemptContactsViewV06handleE8Selected33_32E4962AFCDE7ABCFB4CD08ECD559B59LLyySaySo9CNContactCGFyyYacfU_Tu
+- _$s14LockdownModeUI22LMUIExemptContactsViewV4bodyQrvgAA0dE6PickerVyXEfU1_ySaySo9CNContactCGYbcACYbcfu_yAIYbcfu0_TA
+- _$s14LockdownModeUI24LMUIExemptContactsPickerV02onE8SelectedyySaySo9CNContactCGcvg
+- _$s14LockdownModeUI24LMUIExemptContactsPickerV02onE8SelectedyySaySo9CNContactCGcvpMV
+- _$s14LockdownModeUI24LMUIExemptContactsPickerV11CoordinatorC02onE8Selected33_6ACE41B17099C144ED8B63B9CDC68640LLyySaySo9CNContactCGcvpWvd
+- _$s14LockdownModeUI24LMUIExemptContactsPickerV11CoordinatorC11isPresented02onE8SelectedAE05SwiftC07BindingVySbG_ySaySo9CNContactCGctcfC
+- _$s14LockdownModeUI24LMUIExemptContactsPickerV11CoordinatorC11isPresented02onE8SelectedAE05SwiftC07BindingVySbG_ySaySo9CNContactCGctcfCTj
+- _$s14LockdownModeUI24LMUIExemptContactsPickerV11CoordinatorC11isPresented02onE8SelectedAE05SwiftC07BindingVySbG_ySaySo9CNContactCGctcfCTq
+- _$s14LockdownModeUI24LMUIExemptContactsPickerV11CoordinatorC11isPresented02onE8SelectedAE05SwiftC07BindingVySbG_ySaySo9CNContactCGctcfc
+- _$s14LockdownModeUI24LMUIExemptContactsPickerV11CoordinatorC11isPresented02onE8SelectedAE05SwiftC07BindingVySbG_ySaySo9CNContactCGctcfcTf4ggn_n
+- _$s14LockdownModeUI24LMUIExemptContactsPickerV11isPresented02onE8SelectedAC05SwiftC07BindingVySbG_ySaySo9CNContactCGctcfC
+- _$s14LockdownModeUI27LMUIExemptContactsViewModelC03addE10FromPickeryySaySo9CNContactCGYaF
+- _$s14LockdownModeUI27LMUIExemptContactsViewModelC03addE10FromPickeryySaySo9CNContactCGYaFTQ1_
+- _$s14LockdownModeUI27LMUIExemptContactsViewModelC03addE10FromPickeryySaySo9CNContactCGYaFTQ3_
+- _$s14LockdownModeUI27LMUIExemptContactsViewModelC03addE10FromPickeryySaySo9CNContactCGYaFTY0_
+- _$s14LockdownModeUI27LMUIExemptContactsViewModelC03addE10FromPickeryySaySo9CNContactCGYaFTY2_
+- _$s14LockdownModeUI27LMUIExemptContactsViewModelC03addE10FromPickeryySaySo9CNContactCGYaFTY4_
+- _$s14LockdownModeUI27LMUIExemptContactsViewModelC03addE10FromPickeryySaySo9CNContactCGYaFTu
+- _symbolic SaySo9CNContactCG
+- _symbolic ySaySo9CNContactCGc
+- block_copy_helper
+- block_descriptor
+- block_destroy_helper
+CStrings:
++ "Adding contact from picker"
++ "Contact '%s' has no phone number or email - calling completion with nil"
++ "Contact picker returned nil - contact failed to refetch"
++ "Contact selected from picker"
++ "Failed to refetch contact '%s': %s - calling completion with nil"
+- "Adding %ld contact(s) from picker"
+- "Contact '%s' has no phone number or email - calling completion with empty array"
+- "Contact picker returned empty array - all contacts failed to refetch"
+- "Contacts selected from picker: %ld"
+- "Failed to refetch contact '%s': %s - calling completion with empty array"
+```

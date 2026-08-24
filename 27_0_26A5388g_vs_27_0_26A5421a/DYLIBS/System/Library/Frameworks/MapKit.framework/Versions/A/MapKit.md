@@ -1,0 +1,697 @@
+## MapKit
+
+> `/System/Library/Frameworks/MapKit.framework/Versions/A/MapKit`
+
+```diff
+
+-2552.20.6.12.5
+-  __TEXT.__text: 0x21c300
+-  __TEXT.__objc_methlist: 0x21e14
++2552.20.6.12.13
++  __TEXT.__text: 0x21cb5c
++  __TEXT.__objc_methlist: 0x21e8c
+   __TEXT.__const: 0x6578
+   __TEXT.__dlopen_cstrs: 0x62
+-  __TEXT.__cstring: 0xe482
++  __TEXT.__cstring: 0xe4ad
+   __TEXT.__swift5_typeref: 0x15f4
+   __TEXT.__swift5_reflstr: 0x1460
+   __TEXT.__swift5_assocty: 0x1e8
+
+   __TEXT.__swift5_protos: 0x70
+   __TEXT.__swift5_proto: 0x208
+   __TEXT.__swift5_types: 0x2d0
+-  __TEXT.__oslogstring: 0x51fd
++  __TEXT.__oslogstring: 0x521c
+   __TEXT.__swift5_capture: 0x3a4
+   __TEXT.__swift_as_entry: 0x13c
+   __TEXT.__swift_as_ret: 0x134
+   __TEXT.__swift_as_cont: 0x1cc
+-  __TEXT.__gcc_except_tab: 0x46b0
++  __TEXT.__gcc_except_tab: 0x46b4
+   __TEXT.__ustring: 0x156
+-  __TEXT.__unwind_info: 0x9068
++  __TEXT.__unwind_info: 0x9080
+   __TEXT.__eh_frame: 0x241c
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x3558
+-  __DATA_CONST.__objc_classlist: 0x1010
++  __DATA_CONST.__objc_classlist: 0x1018
+   __DATA_CONST.__objc_catlist: 0x1b8
+   __DATA_CONST.__objc_protolist: 0x530
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__weak_got: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x12198
++  __DATA_CONST.__objc_selrefs: 0x121c8
+   __DATA_CONST.__objc_protorefs: 0xb8
+-  __DATA_CONST.__objc_superrefs: 0xc60
++  __DATA_CONST.__objc_superrefs: 0xc68
+   __DATA_CONST.__objc_arraydata: 0x3a8
+-  __DATA_CONST.__got: 0x20d0
+-  __AUTH_CONST.__const: 0xa5c8
++  __DATA_CONST.__got: 0x20d8
++  __AUTH_CONST.__const: 0xa5f8
+   __AUTH_CONST.__cfstring: 0xf800
+-  __AUTH_CONST.__objc_const: 0x3dde0
++  __AUTH_CONST.__objc_const: 0x3dee0
+   __AUTH_CONST.__weak_auth_got: 0x18
+   __AUTH_CONST.__objc_arrayobj: 0x228
+   __AUTH_CONST.__objc_intobj: 0xc18
+
+   __AUTH_CONST.__objc_dictobj: 0x1e0
+   __AUTH_CONST.__objc_floatobj: 0x70
+   __AUTH_CONST.__auth_got: 0x1db0
+-  __AUTH.__objc_data: 0x63f8
++  __AUTH.__objc_data: 0x6448
+   __AUTH.__data: 0x2d48
+-  __DATA.__objc_ivar: 0x2c5c
+-  __DATA.__data: 0x47f8
++  __DATA.__objc_ivar: 0x2c64
++  __DATA.__data: 0x4800
+   __DATA.__bss: 0x4118
+   __DATA.__common: 0x70
+   __DATA_DIRTY.__objc_data: 0x3750
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 13460
+-  Symbols:   29366
+-  CStrings:  2706
++  Functions: 13471
++  Symbols:   29397
++  CStrings:  2707
+ 
+Symbols:
++ +[MKPolygon _polygonWithCoordinates:count:interiorPolygons:vectorOverlayStyle:]
++ -[MKLocationManager _rescheduleWaitForAccurateLocationsTimerIfNeeded]
++ -[MKPitchControl viewDidChangeEffectiveAppearance]
++ -[MKPlaceCardRemoteUIHostViewController observeValueForKeyPath:ofObject:change:context:]
++ -[MKZoomControl viewDidChangeEffectiveAppearance]
++ -[_MKAccurateLocationWaiter .cxx_destruct]
++ -[_MKAccurateLocationWaiter deadline]
++ -[_MKAccurateLocationWaiter handler]
++ -[_MKAccurateLocationWaiter initWithDeadline:handler:]
++ -[_MKModernCompassView viewDidChangeEffectiveAppearance]
++ GCC_except_table10189
++ GCC_except_table10213
++ GCC_except_table10272
++ GCC_except_table10393
++ GCC_except_table10410
++ GCC_except_table10678
++ GCC_except_table10722
++ GCC_except_table10728
++ GCC_except_table10794
++ GCC_except_table10899
++ GCC_except_table10917
++ GCC_except_table10927
++ GCC_except_table10939
++ GCC_except_table10941
++ GCC_except_table10943
++ GCC_except_table10946
++ GCC_except_table10971
++ GCC_except_table10976
++ GCC_except_table10977
++ GCC_except_table10978
++ GCC_except_table10979
++ GCC_except_table10980
++ GCC_except_table10981
++ GCC_except_table10983
++ GCC_except_table10986
++ GCC_except_table1111
++ GCC_except_table11192
++ GCC_except_table11228
++ GCC_except_table11256
++ GCC_except_table11258
++ GCC_except_table11343
++ GCC_except_table11348
++ GCC_except_table11375
++ GCC_except_table11381
++ GCC_except_table1226
++ GCC_except_table1227
++ GCC_except_table1258
++ GCC_except_table1267
++ GCC_except_table1351
++ GCC_except_table1352
++ GCC_except_table1354
++ GCC_except_table1359
++ GCC_except_table1480
++ GCC_except_table1482
++ GCC_except_table1496
++ GCC_except_table1525
++ GCC_except_table1556
++ GCC_except_table1765
++ GCC_except_table1834
++ GCC_except_table1899
++ GCC_except_table1932
++ GCC_except_table2170
++ GCC_except_table2230
++ GCC_except_table2308
++ GCC_except_table2309
++ GCC_except_table2310
++ GCC_except_table2311
++ GCC_except_table2387
++ GCC_except_table2956
++ GCC_except_table3264
++ GCC_except_table3292
++ GCC_except_table3403
++ GCC_except_table3404
++ GCC_except_table3405
++ GCC_except_table3413
++ GCC_except_table3416
++ GCC_except_table3417
++ GCC_except_table3432
++ GCC_except_table3433
++ GCC_except_table3436
++ GCC_except_table3437
++ GCC_except_table3441
++ GCC_except_table3442
++ GCC_except_table3445
++ GCC_except_table3447
++ GCC_except_table3513
++ GCC_except_table3517
++ GCC_except_table3526
++ GCC_except_table3536
++ GCC_except_table3542
++ GCC_except_table3548
++ GCC_except_table3553
++ GCC_except_table3590
++ GCC_except_table3592
++ GCC_except_table3617
++ GCC_except_table3691
++ GCC_except_table3727
++ GCC_except_table3733
++ GCC_except_table3738
++ GCC_except_table3741
++ GCC_except_table3743
++ GCC_except_table3746
++ GCC_except_table3770
++ GCC_except_table3775
++ GCC_except_table3780
++ GCC_except_table3796
++ GCC_except_table3972
++ GCC_except_table3973
++ GCC_except_table4034
++ GCC_except_table4050
++ GCC_except_table4065
++ GCC_except_table4070
++ GCC_except_table4114
++ GCC_except_table4117
++ GCC_except_table4130
++ GCC_except_table4221
++ GCC_except_table4240
++ GCC_except_table4347
++ GCC_except_table4351
++ GCC_except_table4441
++ GCC_except_table4443
++ GCC_except_table4452
++ GCC_except_table4474
++ GCC_except_table4507
++ GCC_except_table4508
++ GCC_except_table4509
++ GCC_except_table4510
++ GCC_except_table4511
++ GCC_except_table4512
++ GCC_except_table4530
++ GCC_except_table4532
++ GCC_except_table4533
++ GCC_except_table4541
++ GCC_except_table4545
++ GCC_except_table4551
++ GCC_except_table4554
++ GCC_except_table4555
++ GCC_except_table4556
++ GCC_except_table4568
++ GCC_except_table4569
++ GCC_except_table4571
++ GCC_except_table4572
++ GCC_except_table4858
++ GCC_except_table4905
++ GCC_except_table4906
++ GCC_except_table4908
++ GCC_except_table4925
++ GCC_except_table4926
++ GCC_except_table4927
++ GCC_except_table4928
++ GCC_except_table4930
++ GCC_except_table4931
++ GCC_except_table4943
++ GCC_except_table4944
++ GCC_except_table4967
++ GCC_except_table5091
++ GCC_except_table5094
++ GCC_except_table5110
++ GCC_except_table5112
++ GCC_except_table5115
++ GCC_except_table5118
++ GCC_except_table5135
++ GCC_except_table5140
++ GCC_except_table5154
++ GCC_except_table5156
++ GCC_except_table5158
++ GCC_except_table5167
++ GCC_except_table5171
++ GCC_except_table5192
++ GCC_except_table5211
++ GCC_except_table5223
++ GCC_except_table5225
++ GCC_except_table5227
++ GCC_except_table5236
++ GCC_except_table5244
++ GCC_except_table5250
++ GCC_except_table5514
++ GCC_except_table5651
++ GCC_except_table5662
++ GCC_except_table5809
++ GCC_except_table5932
++ GCC_except_table5991
++ GCC_except_table5994
++ GCC_except_table6131
++ GCC_except_table6497
++ GCC_except_table6703
++ GCC_except_table6837
++ GCC_except_table6840
++ GCC_except_table7130
++ GCC_except_table717
++ GCC_except_table7199
++ GCC_except_table7234
++ GCC_except_table7240
++ GCC_except_table7253
++ GCC_except_table7264
++ GCC_except_table7267
++ GCC_except_table7268
++ GCC_except_table7269
++ GCC_except_table7270
++ GCC_except_table7271
++ GCC_except_table7272
++ GCC_except_table7351
++ GCC_except_table7403
++ GCC_except_table7440
++ GCC_except_table761
++ GCC_except_table7671
++ GCC_except_table7673
++ GCC_except_table7804
++ GCC_except_table7806
++ GCC_except_table7808
++ GCC_except_table7829
++ GCC_except_table783
++ GCC_except_table7831
++ GCC_except_table7833
++ GCC_except_table7834
++ GCC_except_table787
++ GCC_except_table7870
++ GCC_except_table7871
++ GCC_except_table7874
++ GCC_except_table7875
++ GCC_except_table7882
++ GCC_except_table7885
++ GCC_except_table7887
++ GCC_except_table7889
++ GCC_except_table7890
++ GCC_except_table7893
++ GCC_except_table7896
++ GCC_except_table7898
++ GCC_except_table7904
++ GCC_except_table7925
++ GCC_except_table7926
++ GCC_except_table812
++ GCC_except_table8201
++ GCC_except_table8317
++ GCC_except_table8325
++ GCC_except_table8334
++ GCC_except_table8338
++ GCC_except_table8340
++ GCC_except_table8342
++ GCC_except_table8346
++ GCC_except_table8390
++ GCC_except_table8392
++ GCC_except_table8416
++ GCC_except_table8438
++ GCC_except_table8442
++ GCC_except_table8444
++ GCC_except_table8445
++ GCC_except_table8446
++ GCC_except_table8449
++ GCC_except_table8453
++ GCC_except_table8457
++ GCC_except_table8458
++ GCC_except_table8460
++ GCC_except_table8461
++ GCC_except_table8462
++ GCC_except_table8466
++ GCC_except_table8544
++ GCC_except_table8545
++ GCC_except_table8552
++ GCC_except_table8579
++ GCC_except_table8581
++ GCC_except_table8794
++ GCC_except_table8795
++ GCC_except_table8796
++ GCC_except_table8797
++ GCC_except_table8798
++ GCC_except_table8801
++ GCC_except_table8812
++ GCC_except_table8813
++ GCC_except_table8814
++ GCC_except_table8815
++ GCC_except_table8816
++ GCC_except_table8947
++ GCC_except_table9007
++ GCC_except_table9145
++ GCC_except_table9151
++ GCC_except_table9156
++ GCC_except_table9235
++ GCC_except_table9246
++ GCC_except_table9251
++ GCC_except_table9262
++ GCC_except_table9263
++ GCC_except_table9264
++ GCC_except_table9265
++ GCC_except_table9268
++ GCC_except_table9269
++ GCC_except_table9270
++ GCC_except_table9818
++ GCC_except_table982
++ GCC_except_table992
++ GCC_except_table994
++ GCC_except_table995
++ GCC_except_table996
++ OBJC_IVAR_$_MKLocationManager._accurateLocationWaiters
++ OBJC_IVAR_$__MKAccurateLocationWaiter._deadline
++ OBJC_IVAR_$__MKAccurateLocationWaiter._handler
++ _MKPlaceCardRemoteUIHostAppearanceKVOContext
++ _OBJC_CLASS_$_NSMutableIndexSet
++ _OBJC_CLASS_$__MKAccurateLocationWaiter
++ _OBJC_METACLASS_$__MKAccurateLocationWaiter
++ __OBJC_$_INSTANCE_METHODS__MKAccurateLocationWaiter
++ __OBJC_$_INSTANCE_VARIABLES__MKAccurateLocationWaiter
++ __OBJC_$_PROP_LIST__MKAccurateLocationWaiter
++ __OBJC_CLASS_RO_$__MKAccurateLocationWaiter
++ __OBJC_METACLASS_RO_$__MKAccurateLocationWaiter
++ ___57-[MKLocationManager _waitForAccurateLocationsTimerFired:]_block_invoke
++ ___block_descriptor_56_e8_32s40s_e42_v32?0"_MKAccurateLocationWaiter"8Q16^B24l
++ __mapkit_userInterfaceStyleForAppearance
++ _objc_msgSend$_polygonWithCoordinates:count:interiorPolygons:vectorOverlayStyle:
++ _objc_msgSend$_rescheduleWaitForAccurateLocationsTimerIfNeeded
++ _objc_msgSend$addIndex:
++ _objc_msgSend$deadline
++ _objc_msgSend$handler
++ _objc_msgSend$indexSet
++ _objc_msgSend$initWithDeadline:handler:
++ _objc_msgSend$removeObjectsAtIndexes:
++ _objc_msgSend$updateInterfaceStyle:
+- -[MKPolygon _initWithCoordinates:count:interiorPolygons:vectorOverlayStyle:]
+- GCC_except_table10179
+- GCC_except_table10203
+- GCC_except_table10262
+- GCC_except_table10383
+- GCC_except_table10400
+- GCC_except_table10668
+- GCC_except_table10712
+- GCC_except_table10718
+- GCC_except_table10784
+- GCC_except_table10888
+- GCC_except_table10906
+- GCC_except_table10916
+- GCC_except_table10928
+- GCC_except_table10930
+- GCC_except_table10932
+- GCC_except_table10935
+- GCC_except_table10945
+- GCC_except_table10953
+- GCC_except_table10954
+- GCC_except_table10960
+- GCC_except_table10966
+- GCC_except_table10968
+- GCC_except_table10969
+- GCC_except_table10970
+- GCC_except_table10972
+- GCC_except_table1105
+- GCC_except_table11181
+- GCC_except_table11217
+- GCC_except_table11245
+- GCC_except_table11247
+- GCC_except_table11332
+- GCC_except_table11337
+- GCC_except_table11364
+- GCC_except_table11370
+- GCC_except_table1220
+- GCC_except_table1221
+- GCC_except_table1252
+- GCC_except_table1261
+- GCC_except_table1341
+- GCC_except_table1345
+- GCC_except_table1346
+- GCC_except_table1348
+- GCC_except_table1474
+- GCC_except_table1476
+- GCC_except_table1490
+- GCC_except_table1519
+- GCC_except_table1550
+- GCC_except_table1759
+- GCC_except_table1828
+- GCC_except_table1893
+- GCC_except_table1926
+- GCC_except_table2163
+- GCC_except_table2223
+- GCC_except_table2294
+- GCC_except_table2295
+- GCC_except_table2303
+- GCC_except_table2304
+- GCC_except_table2380
+- GCC_except_table2949
+- GCC_except_table3257
+- GCC_except_table3285
+- GCC_except_table3396
+- GCC_except_table3397
+- GCC_except_table3398
+- GCC_except_table3401
+- GCC_except_table3402
+- GCC_except_table3406
+- GCC_except_table3410
+- GCC_except_table3414
+- GCC_except_table3419
+- GCC_except_table3420
+- GCC_except_table3425
+- GCC_except_table3430
+- GCC_except_table3438
+- GCC_except_table3440
+- GCC_except_table3506
+- GCC_except_table3510
+- GCC_except_table3519
+- GCC_except_table3529
+- GCC_except_table3535
+- GCC_except_table3541
+- GCC_except_table3546
+- GCC_except_table3583
+- GCC_except_table3585
+- GCC_except_table3610
+- GCC_except_table3684
+- GCC_except_table3717
+- GCC_except_table3720
+- GCC_except_table3726
+- GCC_except_table3729
+- GCC_except_table3734
+- GCC_except_table3739
+- GCC_except_table3763
+- GCC_except_table3768
+- GCC_except_table3773
+- GCC_except_table3789
+- GCC_except_table3965
+- GCC_except_table3966
+- GCC_except_table4027
+- GCC_except_table4043
+- GCC_except_table4058
+- GCC_except_table4063
+- GCC_except_table4107
+- GCC_except_table4110
+- GCC_except_table4123
+- GCC_except_table4214
+- GCC_except_table4233
+- GCC_except_table4340
+- GCC_except_table4344
+- GCC_except_table4434
+- GCC_except_table4436
+- GCC_except_table4445
+- GCC_except_table4467
+- GCC_except_table4500
+- GCC_except_table4501
+- GCC_except_table4502
+- GCC_except_table4503
+- GCC_except_table4504
+- GCC_except_table4505
+- GCC_except_table4518
+- GCC_except_table4519
+- GCC_except_table4520
+- GCC_except_table4523
+- GCC_except_table4538
+- GCC_except_table4540
+- GCC_except_table4544
+- GCC_except_table4548
+- GCC_except_table4549
+- GCC_except_table4561
+- GCC_except_table4562
+- GCC_except_table4564
+- GCC_except_table4565
+- GCC_except_table4851
+- GCC_except_table4898
+- GCC_except_table4899
+- GCC_except_table4901
+- GCC_except_table4917
+- GCC_except_table4918
+- GCC_except_table4919
+- GCC_except_table4920
+- GCC_except_table4921
+- GCC_except_table4923
+- GCC_except_table4936
+- GCC_except_table4937
+- GCC_except_table4960
+- GCC_except_table5084
+- GCC_except_table5087
+- GCC_except_table5103
+- GCC_except_table5105
+- GCC_except_table5108
+- GCC_except_table5111
+- GCC_except_table5126
+- GCC_except_table5128
+- GCC_except_table5147
+- GCC_except_table5149
+- GCC_except_table5151
+- GCC_except_table5153
+- GCC_except_table5164
+- GCC_except_table5185
+- GCC_except_table5204
+- GCC_except_table5216
+- GCC_except_table5218
+- GCC_except_table5220
+- GCC_except_table5222
+- GCC_except_table5237
+- GCC_except_table5243
+- GCC_except_table5507
+- GCC_except_table5644
+- GCC_except_table5655
+- GCC_except_table5802
+- GCC_except_table5925
+- GCC_except_table5984
+- GCC_except_table5987
+- GCC_except_table6124
+- GCC_except_table6490
+- GCC_except_table6696
+- GCC_except_table6828
+- GCC_except_table6831
+- GCC_except_table711
+- GCC_except_table7121
+- GCC_except_table7190
+- GCC_except_table7225
+- GCC_except_table7231
+- GCC_except_table7241
+- GCC_except_table7244
+- GCC_except_table7246
+- GCC_except_table7252
+- GCC_except_table7258
+- GCC_except_table7260
+- GCC_except_table7262
+- GCC_except_table7263
+- GCC_except_table7342
+- GCC_except_table7394
+- GCC_except_table7431
+- GCC_except_table755
+- GCC_except_table7661
+- GCC_except_table7663
+- GCC_except_table777
+- GCC_except_table7794
+- GCC_except_table7796
+- GCC_except_table7798
+- GCC_except_table781
+- GCC_except_table7819
+- GCC_except_table7821
+- GCC_except_table7823
+- GCC_except_table7824
+- GCC_except_table7860
+- GCC_except_table7861
+- GCC_except_table7862
+- GCC_except_table7864
+- GCC_except_table7865
+- GCC_except_table7866
+- GCC_except_table7868
+- GCC_except_table7873
+- GCC_except_table7877
+- GCC_except_table7880
+- GCC_except_table7883
+- GCC_except_table7884
+- GCC_except_table7888
+- GCC_except_table7915
+- GCC_except_table7916
+- GCC_except_table806
+- GCC_except_table8191
+- GCC_except_table8307
+- GCC_except_table8312
+- GCC_except_table8315
+- GCC_except_table8316
+- GCC_except_table8320
+- GCC_except_table8324
+- GCC_except_table8328
+- GCC_except_table8380
+- GCC_except_table8382
+- GCC_except_table8406
+- GCC_except_table8427
+- GCC_except_table8428
+- GCC_except_table8429
+- GCC_except_table8432
+- GCC_except_table8433
+- GCC_except_table8434
+- GCC_except_table8435
+- GCC_except_table8436
+- GCC_except_table8440
+- GCC_except_table8448
+- GCC_except_table8451
+- GCC_except_table8452
+- GCC_except_table8456
+- GCC_except_table8534
+- GCC_except_table8535
+- GCC_except_table8542
+- GCC_except_table8569
+- GCC_except_table8571
+- GCC_except_table8783
+- GCC_except_table8784
+- GCC_except_table8785
+- GCC_except_table8786
+- GCC_except_table8787
+- GCC_except_table8788
+- GCC_except_table8791
+- GCC_except_table8792
+- GCC_except_table8804
+- GCC_except_table8805
+- GCC_except_table8806
+- GCC_except_table8937
+- GCC_except_table8997
+- GCC_except_table9126
+- GCC_except_table9131
+- GCC_except_table9135
+- GCC_except_table9225
+- GCC_except_table9226
+- GCC_except_table9238
+- GCC_except_table9241
+- GCC_except_table9242
+- GCC_except_table9243
+- GCC_except_table9249
+- GCC_except_table9254
+- GCC_except_table9255
+- GCC_except_table9260
+- GCC_except_table971
+- GCC_except_table976
+- GCC_except_table9808
+- GCC_except_table986
+- GCC_except_table988
+- GCC_except_table990
+- OBJC_IVAR_$_MKLocationManager._waitForAccurateLocationsHandlers
+- _objc_msgSend$_initWithCoordinates:count:interiorPolygons:vectorOverlayStyle:
+CStrings:
++ "No accurate locations received for %p; notifying %lu waiter(s) that hit their timeout"
++ "v32@?0@\"_MKAccurateLocationWaiter\"8Q16^B24"
+- "No accurate locations received for %p after %f seconds"
+```

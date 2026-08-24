@@ -1,0 +1,74 @@
+## com.apple.driver.AppleMobileFileIntegrity
+
+> `com.apple.driver.AppleMobileFileIntegrity`
+
+```diff
+
+-1171.0.3.0.0
+-  __TEXT.__cstring: 0x1b9c3
++1171.0.12.0.0
++  __TEXT.__cstring: 0x1b9cc
+   __TEXT.__const: 0x1998
+   __TEXT.__os_log: 0x47a
+-  __TEXT_EXEC.__text: 0x358ec
+-  __TEXT_EXEC.__auth_stubs: 0x1250
++  __TEXT_EXEC.__text: 0x3584c
++  __TEXT_EXEC.__auth_stubs: 0x1230
+   __DATA.__data: 0xa42
+   __DATA.__common: 0x100
+   __DATA.__bss: 0x151
+   __DATA_CONST.__mod_init_func: 0x20
+   __DATA_CONST.__mod_term_func: 0x30
+-  __DATA_CONST.__const: 0xbf98
++  __DATA_CONST.__const: 0xbfa8
+   __DATA_CONST.__kalloc_type: 0x1240
+   __DATA_CONST.__kalloc_var: 0x1310
+   __DATA_CONST.__assert: 0xdc
+-  __DATA_CONST.__auth_got: 0x928
++  __DATA_CONST.__auth_got: 0x918
+   __DATA_CONST.__got: 0xe0
+   __DATA_CONST.__auth_ptr: 0x20
+   Functions: 1042
+-  Symbols:   2033
+-  CStrings:  3382
++  Symbols:   2031
++  CStrings:  3383
+ 
+Symbols:
++ __ZZL27_process_matches_constraintP4procyE21kalloc_type_view_5369
++ __ZZL27_process_matches_constraintP4procyE21kalloc_type_view_5392
++ __ZZN15ProcessAccessordlEPvmE19kalloc_type_view_37
++ __ZZN15ProcessAccessornwEmE19kalloc_type_view_37
++ __ZZN20StaticPlatformPolicyILb1ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELb1ELb0ELb1ELb0ELb0ELb1ELb0ELj2ELb1ELb0EE15check_signatureEP13VnodeLazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_3086
++ __ZZN20StaticPlatformPolicyILb1ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELb1ELb0ELb1ELb0ELb0ELb1ELb0ELj2ELb1ELb0EE15check_signatureEP13VnodeLazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_3347
++ __ZZN20StaticPlatformPolicyILb1ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELb1ELb0ELb1ELb0ELb0ELb1ELb0ELj2ELb1ELb0EE25validateCodeDirectoryHashEP8LazyPathP7cs_blobPjS5_P14OSEntitlementsihbbPcbbbPbP25AMFIHashValidationResult_E6__desc
++ __ZZN20StaticPlatformPolicyILb1ELb1ELb1ELb1ELb1ELb1ELb1ELb0ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELj1ELb1ELb0EE15check_signatureEP13VnodeLazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_3086
++ __ZZN20StaticPlatformPolicyILb1ELb1ELb1ELb1ELb1ELb1ELb1ELb0ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELj1ELb1ELb0EE15check_signatureEP13VnodeLazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_3347
++ __ZZN20StaticPlatformPolicyILb1ELb1ELb1ELb1ELb1ELb1ELb1ELb0ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELj1ELb1ELb0EE25validateCodeDirectoryHashEP8LazyPathP7cs_blobPjS5_P14OSEntitlementsihbbPcbbbPbP25AMFIHashValidationResult_E6__desc
+- __ZZL27_process_matches_constraintP4procyE21kalloc_type_view_5362
+- __ZZL27_process_matches_constraintP4procyE21kalloc_type_view_5385
+- __ZZN15ProcessAccessordlEPvE19kalloc_type_view_44
+- __ZZN15ProcessAccessornwEmE19kalloc_type_view_39
+- __ZZN20StaticPlatformPolicyILb1ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELb1ELb0ELb1ELb0ELb0ELb1ELb0ELj2ELb1ELb0EE15check_signatureEP13VnodeLazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_3080
+- __ZZN20StaticPlatformPolicyILb1ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELb1ELb0ELb1ELb0ELb0ELb1ELb0ELj2ELb1ELb0EE15check_signatureEP13VnodeLazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_3340
+- __ZZN20StaticPlatformPolicyILb1ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELb1ELb0ELb1ELb0ELb0ELb1ELb0ELj2ELb1ELb0EE25validateCodeDirectoryHashEP8LazyPathP7cs_blobPjS5_P14OSEntitlementsihbbPcbbPbP25AMFIHashValidationResult_E6__desc
+- __ZZN20StaticPlatformPolicyILb1ELb1ELb1ELb1ELb1ELb1ELb1ELb0ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELj1ELb1ELb0EE15check_signatureEP13VnodeLazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_3080
+- __ZZN20StaticPlatformPolicyILb1ELb1ELb1ELb1ELb1ELb1ELb1ELb0ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELj1ELb1ELb0EE15check_signatureEP13VnodeLazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_3340
+- __ZZN20StaticPlatformPolicyILb1ELb1ELb1ELb1ELb1ELb1ELb1ELb0ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELj1ELb1ELb0EE25validateCodeDirectoryHashEP8LazyPathP7cs_blobPjS5_P14OSEntitlementsihbbPcbbPbP25AMFIHashValidationResult_E6__desc
+- _kmem_alloc_kobject
+- _kmem_free
+Functions:
+~ __ZN15ProcessAccessorD0Ev : 80 -> 64
+~ __Z29transmuteEntitlementsInDaemonP7cs_blobPPKhPm : 456 -> 392
+~ __ZL14postValidationP8LazyPathP7cs_blobjP12OSDictionaryhbjPKcPPcPm : 4656 -> 4648
+~ __Z23hsp_proc_check_map_anonP4procP5ucredyyiiPi : 960 -> 932
+~ __ZN14OSEntitlements22invalidateEntitlementsEv : 264 -> 220
+CStrings:
++ "%s: Hash type is SHA1"
++ "21:44:55"
++ "Aug 11 2026"
++ "com.apple.RepairKit.repaird"
+- "%s: Hash type is not SHA256 (%u) but %u."
+- "21:22:04"
+- "Jul 14 2026"
+```

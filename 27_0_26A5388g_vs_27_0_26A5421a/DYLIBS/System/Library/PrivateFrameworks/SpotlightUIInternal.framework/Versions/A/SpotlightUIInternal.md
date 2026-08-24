@@ -1,0 +1,262 @@
+## SpotlightUIInternal
+
+> `/System/Library/PrivateFrameworks/SpotlightUIInternal.framework/Versions/A/SpotlightUIInternal`
+
+```diff
+
+-236.0.11.401.0
+-  __TEXT.__text: 0x17a560
+-  __TEXT.__objc_methlist: 0x3da0
+-  __TEXT.__const: 0xcb24
+-  __TEXT.__cstring: 0x33dd
++236.0.21.401.0
++  __TEXT.__text: 0x181eac
++  __TEXT.__objc_methlist: 0x3df0
++  __TEXT.__const: 0xd5c4
++  __TEXT.__cstring: 0x33e7
+   __TEXT.__ustring: 0x6
+   __TEXT.__gcc_except_tab: 0x10
+-  __TEXT.__oslogstring: 0x2eaa
+-  __TEXT.__swift5_typeref: 0xc75e
+-  __TEXT.__swift5_capture: 0x163c
+-  __TEXT.__constg_swiftt: 0x849c
+-  __TEXT.__swift5_reflstr: 0x4430
+-  __TEXT.__swift5_fieldmd: 0x3dd8
+-  __TEXT.__swift5_types: 0x4b4
+-  __TEXT.__swift_as_entry: 0x11c
+-  __TEXT.__swift_as_ret: 0x154
+-  __TEXT.__swift_as_cont: 0x29c
+-  __TEXT.__swift5_assocty: 0x9a0
+-  __TEXT.__swift5_builtin: 0x1a4
+-  __TEXT.__swift5_proto: 0x5cc
++  __TEXT.__oslogstring: 0x32aa
++  __TEXT.__swift5_typeref: 0xc91c
++  __TEXT.__swift5_capture: 0x167c
++  __TEXT.__constg_swiftt: 0x8640
++  __TEXT.__swift5_reflstr: 0x44ca
++  __TEXT.__swift5_fieldmd: 0x3e7c
++  __TEXT.__swift5_types: 0x4d8
++  __TEXT.__swift_as_entry: 0x12c
++  __TEXT.__swift_as_ret: 0x16c
++  __TEXT.__swift_as_cont: 0x2bc
++  __TEXT.__swift5_assocty: 0xad8
++  __TEXT.__swift5_builtin: 0x21c
++  __TEXT.__swift5_proto: 0x624
+   __TEXT.__swift5_protos: 0x90
+   __TEXT.__swift5_mpenum: 0x38
+-  __TEXT.__unwind_info: 0x54c8
+-  __TEXT.__eh_frame: 0x41dc
++  __TEXT.__unwind_info: 0x5630
++  __TEXT.__eh_frame: 0x434c
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x598
+-  __DATA_CONST.__objc_classlist: 0x3c8
++  __DATA_CONST.__objc_classlist: 0x3d8
+   __DATA_CONST.__objc_catlist: 0x50
+   __DATA_CONST.__objc_catlist2: 0x8
+   __DATA_CONST.__objc_protolist: 0x298
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x3168
++  __DATA_CONST.__objc_selrefs: 0x31e8
+   __DATA_CONST.__objc_protorefs: 0x148
+   __DATA_CONST.__objc_superrefs: 0xb0
+   __DATA_CONST.__objc_arraydata: 0x148
+-  __DATA_CONST.__got: 0x1560
+-  __AUTH_CONST.__const: 0x7d78
++  __DATA_CONST.__got: 0x1588
++  __AUTH_CONST.__const: 0x7f60
+   __AUTH_CONST.__cfstring: 0xec0
+-  __AUTH_CONST.__objc_const: 0xa1c8
++  __AUTH_CONST.__objc_const: 0xa328
+   __AUTH_CONST.__objc_dictobj: 0x28
+   __AUTH_CONST.__objc_intobj: 0x18
+   __AUTH_CONST.__objc_arrayobj: 0x30
+-  __AUTH_CONST.__auth_got: 0x2910
+-  __AUTH.__objc_data: 0x6b00
+-  __AUTH.__data: 0x4fe0
++  __AUTH_CONST.__auth_got: 0x29a8
++  __AUTH.__objc_data: 0x6bd8
++  __AUTH.__data: 0x5108
+   __DATA.__objc_ivar: 0x1e0
+-  __DATA.__data: 0x3e10
++  __DATA.__data: 0x3f08
+   __DATA.__objc_stublist: 0x8
+-  __DATA.__bss: 0xac00
++  __DATA.__bss: 0xb7d0
+   __DATA.__common: 0x288
+   __DATA_DIRTY.__objc_data: 0x280
+   __DATA_DIRTY.__data: 0x88
+
+   - /System/Library/PrivateFrameworks/BackBoardServices.framework/Versions/A/BackBoardServices
+   - /System/Library/PrivateFrameworks/BiomeLibrary.framework/Versions/A/BiomeLibrary
+   - /System/Library/PrivateFrameworks/BiomeStreams.framework/Versions/A/BiomeStreams
++  - /System/Library/PrivateFrameworks/CampoServices.framework/Versions/A/CampoServices
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics
++  - /System/Library/PrivateFrameworks/DeviceManagement.framework/Versions/A/DeviceManagement
+   - /System/Library/PrivateFrameworks/FrontBoardServices.framework/Versions/A/FrontBoardServices
+   - /System/Library/PrivateFrameworks/GenerativePartnerService.framework/Versions/A/GenerativePartnerService
+   - /System/Library/PrivateFrameworks/GenerativePartnerServiceUI.framework/Versions/A/GenerativePartnerServiceUI
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 7852
+-  Symbols:   5058
+-  CStrings:  602
++  Functions: 8031
++  Symbols:   5136
++  CStrings:  614
+ 
+Symbols:
++ _NSStringFromPoint
++ _OBJC_CLASS_$_DMFPolicyMonitor
++ _OBJC_CLASS_$_NSCache
++ _OBJC_CLASS_$__TtC19SpotlightUIInternal36SPUIExternalGenerativePartnerManager
++ _OBJC_METACLASS_$__TtC19SpotlightUIInternal36SPUIExternalGenerativePartnerManager
++ _TLKCampoUIEnabled
++ __CLASS_METHODS__TtC19SpotlightUIInternal36SPUIExternalGenerativePartnerManager
++ __DATA__TtC19SpotlightUIInternal36SPUIExternalGenerativePartnerManager
++ __DATA__TtCC19SpotlightUIInternal36SPUIExternalGenerativePartnerManagerP33_A96508C3EE92D1DF1644A8F59FE141E316ProviderSnapshot
++ __INSTANCE_METHODS__TtC19SpotlightUIInternal36SPUIExternalGenerativePartnerManager
++ __IVARS__TtCC19SpotlightUIInternal36SPUIExternalGenerativePartnerManagerP33_A96508C3EE92D1DF1644A8F59FE141E316ProviderSnapshot
++ __METACLASS_DATA__TtC19SpotlightUIInternal36SPUIExternalGenerativePartnerManager
++ __METACLASS_DATA__TtCC19SpotlightUIInternal36SPUIExternalGenerativePartnerManagerP33_A96508C3EE92D1DF1644A8F59FE141E316ProviderSnapshot
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SUICompletionViewControllerDelegate
++ ___swift_memcpy50_8
++ __swift_closure_destructor.118Tm
++ __swift_closure_destructor.124Tm
++ __swift_closure_destructor.93Tm
++ _associated conformance So13NSWindowLevelaSHSCSQ
++ _associated conformance So13NSWindowLevelas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So13NSWindowLevelas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _associated conformance So17NSWindowStyleMaskVs10SetAlgebraSCSQ
++ _associated conformance So17NSWindowStyleMaskVs10SetAlgebraSCs25ExpressibleByArrayLiteral
++ _associated conformance So17NSWindowStyleMaskVs9OptionSetSCSY
++ _associated conformance So17NSWindowStyleMaskVs9OptionSetSCs0E7Algebra
++ _associated conformance So26NSWindowCollectionBehaviorVs10SetAlgebraSCSQ
++ _associated conformance So26NSWindowCollectionBehaviorVs10SetAlgebraSCs25ExpressibleByArrayLiteral
++ _associated conformance So26NSWindowCollectionBehaviorVs9OptionSetSCSY
++ _associated conformance So26NSWindowCollectionBehaviorVs9OptionSetSCs0E7Algebra
++ _keypath_get_selector_animationBehavior
++ _keypath_get_selector_autorecalculatesKeyViewLoop
++ _keypath_get_selector_backgroundColor
++ _keypath_get_selector_collectionBehavior
++ _keypath_get_selector_hasShadow
++ _keypath_get_selector_hidesOnDeactivate
++ _keypath_get_selector_isFloatingPanel
++ _keypath_get_selector_isMovable
++ _keypath_get_selector_isMovableByWindowBackground
++ _keypath_get_selector_isOpaque
++ _keypath_get_selector_isReleasedWhenClosed
++ _keypath_get_selector_isTitlebarHidden
++ _keypath_get_selector_level
++ _keypath_get_selector_styleMask
++ _keypath_get_selector_title
++ _keypath_get_selector_titleVisibility
++ _keypath_get_selector_titlebarAppearsTransparent
++ _keypath_get_selector_toolbarStyle
++ _keypath_get_selector_trackpadAppBrowseEnabled
++ _objc_msgSend$animationBehavior
++ _objc_msgSend$autorecalculatesKeyViewLoop
++ _objc_msgSend$hasShadow
++ _objc_msgSend$hidesOnDeactivate
++ _objc_msgSend$isFloatingPanel
++ _objc_msgSend$isMovable
++ _objc_msgSend$isMovableByWindowBackground
++ _objc_msgSend$isOpaque
++ _objc_msgSend$isReleasedWhenClosed
++ _objc_msgSend$isTitlebarHidden
++ _objc_msgSend$requestPoliciesForBundleIdentifiers:completionHandler:
++ _objc_msgSend$setTrackpadAppBrowseEnabled:
++ _objc_msgSend$styleMask
++ _objc_msgSend$titleVisibility
++ _objc_msgSend$titlebarAppearsTransparent
++ _objc_msgSend$toolbarStyle
++ _objc_msgSend$trackpadAppBrowseEnabled
++ _swift_continuation_throwingResume
++ _swift_continuation_throwingResumeWithError
++ _swift_setAtReferenceWritableKeyPath
++ _symbolic $ss10SetAlgebraP
++ _symbolic $ss25ExpressibleByArrayLiteralP
++ _symbolic $ss9OptionSetP
++ _symbolic Say_____G 13CampoServices15MontaraProviderV
++ _symbolic SbIegy_
++ _symbolic SccySDySSSo8NSNumberCG______pG s5ErrorP
++ _symbolic So8NSNumberC
++ _symbolic _____ 19SpotlightUIInternal36SPUIExternalGenerativePartnerManagerC
++ _symbolic _____ 19SpotlightUIInternal36SPUIExternalGenerativePartnerManagerC16ProviderSnapshot33_A96508C3EE92D1DF1644A8F59FE141E3LLC
++ _symbolic _____ So13NSWindowLevela
++ _symbolic _____ So17NSWindowStyleMaskV
++ _symbolic _____ So20NSWindowToolbarStyleV
++ _symbolic _____ So23NSWindowTitleVisibilityV
++ _symbolic _____ So25NSWindowAnimationBehaviorV
++ _symbolic _____ So26NSWindowCollectionBehaviorV
++ _symbolic _____Sg 13WindowManager24SystemGestureEventSourceO
++ _symbolic _____Sg 19SpotlightUIInternal23WindowSizingCoordinatorC07ContentD7Request33_0B7E9CFBBBB4165F0C308D1EB4DC58EFLLV
++ _symbolic ______p s5ErrorP
++ _symbolic _____yAAyAAyAAyAAyAAy__________y_____SgGG_____G_____G_____y_____GG_____G_____G 7SwiftUI15ModifiedContentV 19SpotlightUIInternal30IslandSearchResultsHostingViewV AA30_EnvironmentKeyWritingModifierV AA8MaterialV AA12_FrameLayoutV AA010_FixedSizeR0V AD06Windowt5AwareO0V AD019PresentationRequestutO033_ED53DEDAA555C26B5D055B1EFF3DB851LLV AA017_AllowsHitTestingO0V AA023AccessibilityAttachmentO0V
++ _symbolic _____yAAyAAyAAyAAyAAy__________y_____SgGG_____G_____G_____y_____GG_____G_____G______y_____yAAyAAyAAyAAyAAy_____y_____yAAy_____y_____y_____y_____yAAyAAyAAyAAyAAyAAy_____ANG_____G_____G_____ySbGG_____GA2_G_AAyAAyAAyAAy_____AHGAPGAYGA2_GQPGG_Qo__Qo______y_____GG_A17_Qo_GAYGAJGAHGA4_GA_G______Qo__SOQo_t 7SwiftUI15ModifiedContentV 19SpotlightUIInternal30IslandSearchResultsHostingViewV AA30_EnvironmentKeyWritingModifierV AA8MaterialV AA12_FrameLayoutV AA010_FixedSizeR0V AD06Windowt5AwareO0V AD019PresentationRequestutO033_ED53DEDAA555C26B5D055B1EFF3DB851LLV AA017_AllowsHitTestingO0V AA023AccessibilityAttachmentO0V AA0K0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AyAEAZA_A0__Qrqd___Sbyqd___qd__tctSQRd__lFQO AA21_GlassEffectContainerV AyAE12_glassEffect_2inQrAA6_GlassV_qd__tAA5ShapeRd__lFQO AyDE20windowAnimatedHeight_9alignmentQr12CoreGraphics7CGFloatVSg_AA9AlignmentVtFQO AyDE19windowAnimatedWidth_A9_QrA13__A15_tFQO AA6ZStackV AA05TupleD0V AD0ghI10MoreButtonV AA14_OpacityEffectV AA11_BlurEffectV AA010_AnimationO0V AA12_ScaleEffectV AD0ghI19PortalRepresentableV AA11_ClipEffectV AA16RoundedRectangleV AD0U20AnimationCoordinatorC
++ _symbolic _____ySSSo8NSNumberCG s18_DictionaryStorageC
++ _symbolic _____y_____G 19SpotlightUIInternal23WindowSizeAwareModifierV AA019PresentationRequestcdF033_ED53DEDAA555C26B5D055B1EFF3DB851LLV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13CampoServices15MontaraProviderV
++ _symbolic _____y___________y_____yADyADyADyADyADy__________y_____SgGG_____G_____G_____y_____GG_____G_____G______y_____yADyADyADyADyADy_____y_____yADy_____y_____y_____yACyADyADyADyADyADyADy_____AQG_____G_____G_____ySbGG_____GA4_G_ADyADyADyADy_____AKGASGA_GA4_GQPGG_Qo__Qo______y_____GG_A19_Qo_GA_GAMGAKGA6_GA1_G______Qo__SOQo_QPGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA12TupleContentV AA08ModifiedI0V 19SpotlightUIInternal026IslandSearchResultsHostingD0V AA30_EnvironmentKeyWritingModifierV AA8MaterialV AA06_FrameG0V AA010_FixedSizeG0V AL06Windowx5AwareT0V AL019PresentationRequestyxT033_ED53DEDAA555C26B5D055B1EFF3DB851LLV AA017_AllowsHitTestingT0V AA023AccessibilityAttachmentT0V AA0D0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO A5_AAEA6_A7_A8__Qrqd___Sbyqd___qd__tctSQRd__lFQO AA21_GlassEffectContainerV A5_AAE12_glassEffect_2inQrAA6_GlassV_qd__tAA5ShapeRd__lFQO A5_ALE20windowAnimatedHeight_9alignmentQr12CoreGraphics7CGFloatVSg_AA9AlignmentVtFQO A5_ALE19windowAnimatedWidth_A17_QrA21__A23_tFQO AA0F0V AL0mnO10MoreButtonV AA14_OpacityEffectV AA11_BlurEffectV AA010_AnimationT0V AA12_ScaleEffectV AL0mnO19PortalRepresentableV AA11_ClipEffectV AA16RoundedRectangleV AL0Y20AnimationCoordinatorC
++ _symbolic _____y_____y_____yACyACyACyACyACy__________y_____SgGG_____G_____G_____y_____GG_____G_____G______y_____yACyACyACyACyACy_____y_____yACy_____y_____yAAyAByACyACyACyACyACyACy_____APG_____G_____G_____ySbGG_____GA2_G_ACyACyACyACy_____AJGARGAYGA2_GQPGG_Qo__Qo______y_____GG_A17_Qo_GAYGALGAJGA4_GA_G______Qo__SOQo_QPGG 7SwiftUI6ZStackV AA12TupleContentV AA08ModifiedE0V 19SpotlightUIInternal30IslandSearchResultsHostingViewV AA30_EnvironmentKeyWritingModifierV AA8MaterialV AA12_FrameLayoutV AA010_FixedSizeT0V AH06Windowv5AwareQ0V AH019PresentationRequestwvQ033_ED53DEDAA555C26B5D055B1EFF3DB851LLV AA017_AllowsHitTestingQ0V AA023AccessibilityAttachmentQ0V AA0M0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO A1_AAEA2_A3_A4__Qrqd___Sbyqd___qd__tctSQRd__lFQO AA21_GlassEffectContainerV A1_AAE12_glassEffect_2inQrAA6_GlassV_qd__tAA5ShapeRd__lFQO A1_AHE20windowAnimatedHeight_9alignmentQr12CoreGraphics7CGFloatVSg_AA9AlignmentVtFQO A1_AHE19windowAnimatedWidth_A13_QrA17__A19_tFQO AH0ijK10MoreButtonV AA14_OpacityEffectV AA11_BlurEffectV AA010_AnimationQ0V AA12_ScaleEffectV AH0ijK19PortalRepresentableV AA11_ClipEffectV AA16RoundedRectangleV AH0W20AnimationCoordinatorC
++ _type_layout_string 19SpotlightUIInternal23WindowSizingCoordinatorC07ContentD7Request33_0B7E9CFBBBB4165F0C308D1EB4DC58EFLLV
++ get_witness_table 7SwiftUI6ZStackVyAA12TupleContentVyAA08ModifiedE0VyAGyAGyAGyAGyAGy19SpotlightUIInternal30IslandSearchResultsHostingViewVAA30_EnvironmentKeyWritingModifierVyAA8MaterialVSgGGAA12_FrameLayoutVGAA010_FixedSizeT0VGAH06Windowv5AwareQ0VyAH019PresentationRequestwvQ033_ED53DEDAA555C26B5D055B1EFF3DB851LLVGGAA017_AllowsHitTestingQ0VGAA023AccessibilityAttachmentQ0VG_AA0M0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyA10_AAEA11_A12_A13__Qrqd___Sbyqd___qd__tctSQRd__lFQOyAGyAGyAGyAGyAGyAA21_GlassEffectContainerVyA10_AAE12_glassEffect_2inQrAA6_GlassV_qd__tAA5ShapeRd__lFQOyAGyA10_AHE20windowAnimatedHeight_9alignmentQr12CoreGraphics7CGFloatVSg_AA9AlignmentVtFQOyA10_AHE19windowAnimatedWidth_A22_QrA26__A28_tFQOyACyAEyAGyAGyAGyAGyAGyAGyAH0ijK10MoreButtonVA1_GAA14_OpacityEffectVGAA11_BlurEffectVGAA010_AnimationQ0VySbGGAA12_ScaleEffectVGA41_G_AGyAGyAGyAGyAH0ijK19PortalRepresentableVASGA4_GA34_GA41_GQPGG_Qo__Qo_AA11_ClipEffectVyAA16RoundedRectangleVGG_A60_Qo_GA34_GAVGASGA44_GA37_G_AH0W20AnimationCoordinatorCQo__SOQo_QPGGAAA9_HPyHC
+- ___swift_memcpy64_8
+- ___unnamed_7
+- __swift_closure_destructor.104Tm
+- __swift_closure_destructor.110Tm
+- __swift_closure_destructor.4Tm
+- __swift_closure_destructor.79Tm
+- _keypath_get_selector_showApplications
+- _objc_msgSend$keyFocusObserverDismissSpotlight:
+- _objc_msgSend$setShowApplications:
+- _objc_msgSend$showApplications
+- _swift_getDynamicType
+- _symbolic ______p 19SpotlightUIInternal21WindowContentProviderP
+- _symbolic _____yAAyAAyAAyAAy__________y_____SgGG_____G_____G_____y_____GG_____G______y_____yAAyAAyAAyAAyAAy_____y_____yAAy_____y_____y_____y_____yAAyAAyAAyAAyAAyAAy_____ANG_____G_____G_____ySbGG_____GA0_G_AAyAAyAAyAAy_____AHGAPGAWGA0_GQPGG_Qo__Qo______y_____GG_A15_Qo_GAWGAJGAHGA2_GAYG______Qo__SOQo_t 7SwiftUI15ModifiedContentV 19SpotlightUIInternal30IslandSearchResultsHostingViewV AA30_EnvironmentKeyWritingModifierV AA8MaterialV AA12_FrameLayoutV AA010_FixedSizeR0V AD06Windowt5AwareO0V AD019PresentationRequestutO033_ED53DEDAA555C26B5D055B1EFF3DB851LLV AA017_AllowsHitTestingO0V AA0K0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AwAEAxyZ_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA21_GlassEffectContainerV AwAE12_glassEffect_2inQrAA6_GlassV_qd__tAA5ShapeRd__lFQO AwDE20windowAnimatedHeight_9alignmentQr12CoreGraphics7CGFloatVSg_AA9AlignmentVtFQO AwDE19windowAnimatedWidth_A7_QrA11__A13_tFQO AA6ZStackV AA05TupleD0V AD0ghI10MoreButtonV AA14_OpacityEffectV AA11_BlurEffectV AA010_AnimationO0V AA12_ScaleEffectV AD0ghI19PortalRepresentableV AA11_ClipEffectV AA16RoundedRectangleV AD0U20AnimationCoordinatorC
+- _symbolic _____y___________y_____yADyADyADyADy__________y_____SgGG_____G_____G_____y_____GG_____G______y_____yADyADyADyADyADy_____y_____yADy_____y_____y_____yACyADyADyADyADyADyADy_____AQG_____G_____G_____ySbGG_____GA2_G_ADyADyADyADy_____AKGASGAYGA2_GQPGG_Qo__Qo______y_____GG_A17_Qo_GAYGAMGAKGA4_GA_G______Qo__SOQo_QPGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA12TupleContentV AA08ModifiedI0V 19SpotlightUIInternal026IslandSearchResultsHostingD0V AA30_EnvironmentKeyWritingModifierV AA8MaterialV AA06_FrameG0V AA010_FixedSizeG0V AL06Windowx5AwareT0V AL019PresentationRequestyxT033_ED53DEDAA555C26B5D055B1EFF3DB851LLV AA017_AllowsHitTestingT0V AA0D0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO A3_AAEA4_A5_A6__Qrqd___Sbyqd___qd__tctSQRd__lFQO AA21_GlassEffectContainerV A3_AAE12_glassEffect_2inQrAA6_GlassV_qd__tAA5ShapeRd__lFQO A3_ALE20windowAnimatedHeight_9alignmentQr12CoreGraphics7CGFloatVSg_AA9AlignmentVtFQO A3_ALE19windowAnimatedWidth_A15_QrA19__A21_tFQO AA0F0V AL0mnO10MoreButtonV AA14_OpacityEffectV AA11_BlurEffectV AA010_AnimationT0V AA12_ScaleEffectV AL0mnO19PortalRepresentableV AA11_ClipEffectV AA16RoundedRectangleV AL0Y20AnimationCoordinatorC
+- _symbolic _____y_____y_____yACyACyACyACy__________y_____SgGG_____G_____G_____y_____GG_____G______y_____yACyACyACyACyACy_____y_____yACy_____y_____yAAyAByACyACyACyACyACyACy_____APG_____G_____G_____ySbGG_____GA0_G_ACyACyACyACy_____AJGARGAWGA0_GQPGG_Qo__Qo______y_____GG_A15_Qo_GAWGALGAJGA2_GAYG______Qo__SOQo_QPGG 7SwiftUI6ZStackV AA12TupleContentV AA08ModifiedE0V 19SpotlightUIInternal30IslandSearchResultsHostingViewV AA30_EnvironmentKeyWritingModifierV AA8MaterialV AA12_FrameLayoutV AA010_FixedSizeT0V AH06Windowv5AwareQ0V AH019PresentationRequestwvQ033_ED53DEDAA555C26B5D055B1EFF3DB851LLV AA017_AllowsHitTestingQ0V AA0M0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO A_AAEA0_A1_A2__Qrqd___Sbyqd___qd__tctSQRd__lFQO AA21_GlassEffectContainerV A_AAE12_glassEffect_2inQrAA6_GlassV_qd__tAA5ShapeRd__lFQO A_AHE20windowAnimatedHeight_9alignmentQr12CoreGraphics7CGFloatVSg_AA9AlignmentVtFQO A_AHE19windowAnimatedWidth_A11_QrA15__A17_tFQO AH0ijK10MoreButtonV AA14_OpacityEffectV AA11_BlurEffectV AA010_AnimationQ0V AA12_ScaleEffectV AH0ijK19PortalRepresentableV AA11_ClipEffectV AA16RoundedRectangleV AH0W20AnimationCoordinatorC
+- _type_layout_string 7SwiftUI4ViewRzl19SpotlightUIInternal20FluidWindowContainerVyxG
+- get_witness_table 7SwiftUI6ZStackVyAA12TupleContentVyAA08ModifiedE0VyAGyAGyAGyAGy19SpotlightUIInternal30IslandSearchResultsHostingViewVAA30_EnvironmentKeyWritingModifierVyAA8MaterialVSgGGAA12_FrameLayoutVGAA010_FixedSizeT0VGAH06Windowv5AwareQ0VyAH019PresentationRequestwvQ033_ED53DEDAA555C26B5D055B1EFF3DB851LLVGGAA017_AllowsHitTestingQ0VG_AA0M0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyA7_AAEA8_A9_A10__Qrqd___Sbyqd___qd__tctSQRd__lFQOyAGyAGyAGyAGyAGyAA21_GlassEffectContainerVyA7_AAE12_glassEffect_2inQrAA6_GlassV_qd__tAA5ShapeRd__lFQOyAGyA7_AHE20windowAnimatedHeight_9alignmentQr12CoreGraphics7CGFloatVSg_AA9AlignmentVtFQOyA7_AHE19windowAnimatedWidth_A19_QrA23__A25_tFQOyACyAEyAGyAGyAGyAGyAGyAGyAH0ijK10MoreButtonVA1_GAA14_OpacityEffectVGAA11_BlurEffectVGAA010_AnimationQ0VySbGGAA12_ScaleEffectVGA38_G_AGyAGyAGyAGyAH0ijK19PortalRepresentableVASGA4_GA31_GA38_GQPGG_Qo__Qo_AA11_ClipEffectVyAA16RoundedRectangleVGG_A57_Qo_GA31_GAVGASGA41_GA34_G_AH0W20AnimationCoordinatorCQo__SOQo_QPGGAAA6_HPyHC
+CStrings:
++ "%s Concluding in-progress interactive gesture to dismiss immediately."
++ "%s Skipping launch. Interactive gesture already in progress!"
++ "A dismissal was pending. Ignoring the interactive dismissal gesture %s and performing the dismissal"
++ "A dismissal was pending. perform it instead"
++ "Cancelling dismissal. success: %{bool}d"
++ "Cancelling invoke. success: %{bool}d"
++ "Cleaning up and calling completion. success: %{bool}d"
++ "Failed to start interactive dismissal %s"
++ "Invocation animation disabled or not requested. Invoking without animation."
++ "IslandSearchManager.didReceiveResponse: qid=%llu tier=%ld elevatable=%{bool}d priority=%{bool}d finished=%{bool}d currentState=%s"
++ "QueryController: search text changed, sending query to controller (queryLen: %ld"
++ "Skipped update for "
++ "Starting Show Apps failed to prepare %s"
++ "Starting Show Apps failed to start animation %s"
++ "Starting interactive dismissal %s"
++ "The AppBrowsing controller wasn't in the dismissed state, ignoring but that is unexpected, gesture %s"
++ "The spotlight controller is already in the dimissed state, ignoring the new interactive dismissal, gesture %s"
++ "The spotlight controller is already in the dismissing or invoking state, let's not start a new interactive dismissal, gesture %s"
++ "The spotlight controller is already in the dismissing or invoking state, let's not start a new interactive invocation, gesture %s"
++ "cancelling pending enter because of timeout"
++ "executing enter on siri even though there are no results"
++ "providers"
++ "trackpadAppBrowseEnabled preference changed, updating gestures registration"
+- "Cancelling dismissal."
+- "Cancelling invoke."
+- "Cleaning up and calling completion."
+- "Clearing system gestures"
+- "Failed to clear system gestures: %@"
+- "Failed to start Show Apps %s failed to start"
+- "Invocation animation disabled or not requested. Completing without animation."
+- "IslandSearchManager.didReceiveResponse: qid=%llu qualityTier=%ld siriWorthy=%{bool}d hasTopHit=%{bool}d hasResults=%{bool}d finished=%{bool}d priority=%{bool}d currentState=%s"
+- "cancelling pending enter because of timeout, query id: %llu"
+- "com.apple.SystemGestures"
+- "showApplications preference changed, updating gestures registration"
+```

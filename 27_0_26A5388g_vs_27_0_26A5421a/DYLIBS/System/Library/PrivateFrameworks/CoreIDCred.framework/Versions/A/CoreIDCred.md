@@ -1,0 +1,128 @@
+## CoreIDCred
+
+> `/System/Library/PrivateFrameworks/CoreIDCred.framework/Versions/A/CoreIDCred`
+
+```diff
+
+-9.38.0.0.0
+-  __TEXT.__text: 0x32c18
+-  __TEXT.__objc_methlist: 0x1edc
++9.41.1.0.0
++  __TEXT.__text: 0x323d0
++  __TEXT.__objc_methlist: 0x1f7c
+   __TEXT.__const: 0x3520
+   __TEXT.__cstring: 0x11ab
+-  __TEXT.__oslogstring: 0x21ad
+-  __TEXT.__swift5_typeref: 0xb4b
+-  __TEXT.__constg_swiftt: 0x800
++  __TEXT.__oslogstring: 0x2685
++  __TEXT.__swift5_typeref: 0xb37
++  __TEXT.__constg_swiftt: 0x7f4
+   __TEXT.__swift5_builtin: 0x1b8
+-  __TEXT.__swift5_reflstr: 0x334
+-  __TEXT.__swift5_fieldmd: 0x668
++  __TEXT.__swift5_reflstr: 0x324
++  __TEXT.__swift5_fieldmd: 0x650
+   __TEXT.__swift5_assocty: 0x78
+   __TEXT.__swift5_proto: 0x2cc
+   __TEXT.__swift5_types: 0xe8
+
+   __TEXT.__swift_as_entry: 0x2c
+   __TEXT.__swift_as_ret: 0xc
+   __TEXT.__swift_as_cont: 0x20
+-  __TEXT.__unwind_info: 0xee8
++  __TEXT.__unwind_info: 0xef0
+   __TEXT.__eh_frame: 0x9e8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+
+   __DATA_CONST.__objc_classlist: 0xe0
+   __DATA_CONST.__objc_protolist: 0x50
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xc18
++  __DATA_CONST.__objc_selrefs: 0xc40
+   __DATA_CONST.__objc_protorefs: 0x28
+   __DATA_CONST.__objc_superrefs: 0xa0
+-  __DATA_CONST.__got: 0x2e0
+-  __AUTH_CONST.__const: 0x1998
++  __DATA_CONST.__got: 0x2a8
++  __AUTH_CONST.__const: 0x1a20
+   __AUTH_CONST.__cfstring: 0x11e0
+-  __AUTH_CONST.__objc_const: 0x35b0
+-  __AUTH_CONST.__auth_got: 0x5c8
++  __AUTH_CONST.__objc_const: 0x35d8
++  __AUTH_CONST.__auth_got: 0x580
+   __AUTH.__objc_data: 0x240
+-  __AUTH.__data: 0x90
+   __DATA.__objc_ivar: 0x204
+-  __DATA.__data: 0xca0
++  __DATA.__data: 0xc30
+   __DATA.__bss: 0x5980
+   __DATA_DIRTY.__objc_data: 0x7d0
+   __DATA_DIRTY.__data: 0x158
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  Functions: 1701
+-  Symbols:   1715
+-  CStrings:  295
++  Functions: 1723
++  Symbols:   1738
++  CStrings:  310
+ 
+Symbols:
++ -[DCCredentialStore deleteCredential:reason:completion:]
++ -[DCCredentialStore deletePIIDataFromSyncableKeyStoreForIdentifier:keystoreType:piiDataType:credentialIdentifier:reason:completion:]
++ -[DCCredentialStore resetCredentialOperationLogForCredential:completion:]
++ -[DCCredentialStore retrieveCredentialOperationLogsWithCompletion:]
++ -[DCCredentialStoreClient deleteCredential:reason:completion:]
++ -[DCCredentialStoreClient deletePIIDataFromSyncableKeyStoreForIdentifier:keystoreType:piiDataType:credentialIdentifier:reason:completion:]
++ -[DCCredentialStoreClient resetCredentialOperationLogForCredential:completion:]
++ -[DCCredentialStoreClient retrieveCredentialOperationLogsWithCompletion:]
++ -[DCCredentialStoreClient storePIIDataInSyncableKeyStoreForIdentifier:data:keystoreType:piiDataType:credentialIdentifier:reason:completion:]
++ __138-[DCCredentialStoreClient deletePIIDataFromSyncableKeyStoreForIdentifier:keystoreType:piiDataType:credentialIdentifier:reason:completion:]_block_invoke_2
++ __140-[DCCredentialStoreClient storePIIDataInSyncableKeyStoreForIdentifier:data:keystoreType:piiDataType:credentialIdentifier:reason:completion:]_block_invoke_2
++ __62-[DCCredentialStoreClient deleteCredential:reason:completion:]_block_invoke
++ __73-[DCCredentialStoreClient retrieveCredentialOperationLogsWithCompletion:]_block_invoke_2
++ __79-[DCCredentialStoreClient resetCredentialOperationLogForCredential:completion:]_block_invoke
++ ___138-[DCCredentialStoreClient deletePIIDataFromSyncableKeyStoreForIdentifier:keystoreType:piiDataType:credentialIdentifier:reason:completion:]_block_invoke
++ ___138-[DCCredentialStoreClient deletePIIDataFromSyncableKeyStoreForIdentifier:keystoreType:piiDataType:credentialIdentifier:reason:completion:]_block_invoke_2
++ ___140-[DCCredentialStoreClient storePIIDataInSyncableKeyStoreForIdentifier:data:keystoreType:piiDataType:credentialIdentifier:reason:completion:]_block_invoke
++ ___140-[DCCredentialStoreClient storePIIDataInSyncableKeyStoreForIdentifier:data:keystoreType:piiDataType:credentialIdentifier:reason:completion:]_block_invoke_2
++ ___62-[DCCredentialStoreClient deleteCredential:reason:completion:]_block_invoke
++ ___73-[DCCredentialStoreClient retrieveCredentialOperationLogsWithCompletion:]_block_invoke
++ ___73-[DCCredentialStoreClient retrieveCredentialOperationLogsWithCompletion:]_block_invoke_2
++ ___79-[DCCredentialStoreClient resetCredentialOperationLogForCredential:completion:]_block_invoke
++ ___swift_memcpy40_8
++ _objc_msgSend$deleteCredential:reason:completion:
++ _objc_msgSend$deletePIIDataFromSyncableKeyStoreForIdentifier:keystoreType:piiDataType:credentialIdentifier:reason:completion:
++ _objc_msgSend$initWithCredentialIdentifier:presentmentKeyIdentifier:presentmentPublicKey:partition:docType:elements:authACL:readerAuthCertificateData:issuerSignerCertificateData:readerMetadata:readerAnalytics:region:issuingJurisdiction:credentialRevocationInfo:
++ _objc_msgSend$resetCredentialOperationLogForCredential:completion:
++ _objc_msgSend$retrieveCredentialOperationLogsWithCompletion:
++ _objc_msgSend$storePIIDataInSyncableKeyStoreForIdentifier:data:keystoreType:piiDataType:credentialIdentifier:reason:completion:
++ _type_layout_string 10CoreIDCred15DocumentRequestV
+- _swift_cvw_initStructMetadataWithLayoutString
+- _swift_cvw_initWithTake
+- _swift_getEnumTagSinglePayloadGeneric
+- _swift_getSingletonMetadata
+- _swift_storeEnumTagSinglePayloadGeneric
+- _symbolic _____Sg 10Foundation6LocaleV6RegionV
+- _symbolic _____Sg_ABt 10Foundation6LocaleV6RegionV
+CStrings:
++ "DCCredentialStoreClient deleteCredential:reason:"
++ "DCCredentialStoreClient deleteCredential:reason: returned successfully"
++ "DCCredentialStoreClient deleteCredential:reason: returned with error %{public}@"
++ "DCCredentialStoreClient deletePIIDataFromSyncableKeyStoreForIdentifier:reason:"
++ "DCCredentialStoreClient deletePIIDataFromSyncableKeyStoreForIdentifier:reason: returned successfully"
++ "DCCredentialStoreClient deletePIIDataFromSyncableKeyStoreForIdentifier:reason: returned with error %{public}@"
++ "DCCredentialStoreClient resetCredentialOperationLogForCredential"
++ "DCCredentialStoreClient resetCredentialOperationLogForCredential returned successfully"
++ "DCCredentialStoreClient resetCredentialOperationLogForCredential returned with error %{public}@"
++ "DCCredentialStoreClient retrieveCredentialOperationLogs"
++ "DCCredentialStoreClient retrieveCredentialOperationLogs returned successfully"
++ "DCCredentialStoreClient retrieveCredentialOperationLogs returned with error %{public}@"
++ "DCCredentialStoreClient storePIIDataInSyncableKeyStoreForIdentifier:reason:"
++ "DCCredentialStoreClient storePIIDataInSyncableKeyStoreForIdentifier:reason: returned successfully"
++ "DCCredentialStoreClient storePIIDataInSyncableKeyStoreForIdentifier:reason: returned with error %{public}@"
+```

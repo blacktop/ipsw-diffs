@@ -1,0 +1,15 @@
+## EnergyKit
+
+> `/System/iOSSupport/System/Library/Frameworks/EnergyKit.framework/Versions/A/EnergyKit`
+
+```diff
+
+-488.0.0.0.0
++490.1.4.0.0
+   __TEXT.__text: 0xc8ef4
+   __TEXT.__objc_methlist: 0x7b0
+   __TEXT.__const: 0xc068
+Symbols:
++ _$sSo15NSXPCConnectionC9EnergyKitE17remoteObjectProxy_15defaultResponseq_yx_yq_Sg_s5Error_pSgtctc_q_tYaKs8SendableR_r0_lFyScCyq_sAG_pGXEfU_AC0bC21PublicServiceProtocol_p_SSSgTg503$s9b72Kit14GridOperationsC6gridID8location10connectionSSSgSo10CLLocationC_So15a15CtYaKFZyAA0aB21klm9_p_yAG_s5I11_pSgtctcfU_So0V0CAC28XPCSandboxExtensionContainerCTf1nnnE_n
+- _$sSo15NSXPCConnectionC9EnergyKitE17remoteObjectProxy_15defaultResponseq_yx_yq_Sg_s5Error_pSgtctc_q_tYaKs8SendableR_r0_lFyScCyq_sAG_pGXEfU_AC0bC21PublicServiceProtocol_p_SSSgTg503$s9b72Kit14GridOperationsC6gridID8location10connectionSSSgSo10CLLocationC_So15a15CtYaKFZyAA0aB21klm9_p_yAG_s5I11_pSgtctcfU_So0V0CAC28XPCSandboxExtensionContainerCTf1nnnc_n
+```

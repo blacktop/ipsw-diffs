@@ -1,0 +1,226 @@
+## libSystemDetermination.dylib
+
+> `/System/Library/Frameworks/CoreTelephony.framework/Support/libSystemDetermination.dylib`
+
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__const`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__weak_auth_got`
+
+```diff
+
+-13482.0.0.0.0
+-  __TEXT.__text: 0x6f464
+-  __TEXT.__const: 0x3df9
+-  __TEXT.__gcc_except_tab: 0x592c
+-  __TEXT.__cstring: 0x2dcc
+-  __TEXT.__oslogstring: 0x9dbe
+-  __TEXT.__unwind_info: 0x23f8
+-  __TEXT.__auth_stubs: 0x13f0
++13487.1.0.0.0
++  __TEXT.__text: 0x6f77c
++  __TEXT.__const: 0x3e09
++  __TEXT.__gcc_except_tab: 0x59cc
++  __TEXT.__cstring: 0x2de8
++  __TEXT.__oslogstring: 0x9cf9
++  __TEXT.__unwind_info: 0x2430
++  __TEXT.__auth_stubs: 0x1410
+   __DATA_CONST.__const: 0xdf8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__weak_got: 0x10
+-  __DATA_CONST.__got: 0x250
+-  __AUTH_CONST.__const: 0x49e0
++  __DATA_CONST.__got: 0x258
++  __AUTH_CONST.__const: 0x4a10
+   __AUTH_CONST.__cfstring: 0x940
+   __AUTH_CONST.__weak_auth_got: 0x18
+-  __AUTH_CONST.__auth_got: 0x9e8
++  __AUTH_CONST.__auth_got: 0x9f8
+   __DATA_DIRTY.__data: 0x8
+   __DATA_DIRTY.__bss: 0x60
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /usr/lib/libTelephonyUtilDynamic.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 1788
+-  Symbols:   2927
+-  CStrings:  1445
++  Functions: 1794
++  Symbols:   2939
++  CStrings:  1437
+ 
+Symbols:
++ GCC_except_table119
++ GCC_except_table160
++ GCC_except_table176
++ GCC_except_table189
++ GCC_except_table194
++ GCC_except_table201
++ GCC_except_table204
++ GCC_except_table208
++ GCC_except_table211
++ GCC_except_table214
++ GCC_except_table218
++ GCC_except_table229
++ GCC_except_table230
++ GCC_except_table235
++ GCC_except_table241
++ GCC_except_table246
++ GCC_except_table258
++ GCC_except_table259
++ GCC_except_table264
++ GCC_except_table265
++ GCC_except_table270
++ GCC_except_table279
++ GCC_except_table282
++ GCC_except_table283
++ GCC_except_table286
++ GCC_except_table287
++ GCC_except_table295
++ GCC_except_table296
++ GCC_except_table349
++ GCC_except_table355
++ GCC_except_table358
++ GCC_except_table366
++ GCC_except_table373
++ GCC_except_table378
++ GCC_except_table381
++ GCC_except_table384
++ GCC_except_table392
++ GCC_except_table396
++ GCC_except_table401
++ GCC_except_table405
++ GCC_except_table413
++ GCC_except_table419
++ GCC_except_table428
++ GCC_except_table431
++ GCC_except_table441
++ GCC_except_table447
++ GCC_except_table452
++ GCC_except_table455
++ GCC_except_table458
++ GCC_except_table465
++ GCC_except_table468
++ GCC_except_table473
++ GCC_except_table474
++ GCC_except_table479
++ GCC_except_table482
++ GCC_except_table488
++ GCC_except_table492
++ GCC_except_table502
++ GCC_except_table505
++ GCC_except_table510
++ GCC_except_table513
++ GCC_except_table95
++ _CFAbsoluteTimeGetCurrent
++ _CFDateCreate
++ __ZN26SystemDeterminationManager23handleExitLowPower_syncEv
++ __ZN2sd23RCSSubscriberController14checkRegTimersEv
++ __ZN2sd23RCSSubscriberController21handleSystemWake_syncEv
++ __ZN2sd27IMSSubscriberControllerBase21handleSystemWake_syncEv
++ __ZN3ctu9SharedRefIK8__CFDateNS_2cf16cfretain_functorENS3_17cfrelease_functorES2_ED2Ev
++ __ZTI23PowerAssertionInterface
++ __ZThn48_N26SystemDeterminationManager23handleExitLowPower_syncEv
++ _time
+- GCC_except_table104
+- GCC_except_table174
+- GCC_except_table175
+- GCC_except_table188
+- GCC_except_table191
+- GCC_except_table196
+- GCC_except_table205
+- GCC_except_table213
+- GCC_except_table216
+- GCC_except_table222
+- GCC_except_table233
+- GCC_except_table237
+- GCC_except_table238
+- GCC_except_table243
+- GCC_except_table255
+- GCC_except_table257
+- GCC_except_table261
+- GCC_except_table262
+- GCC_except_table267
+- GCC_except_table277
+- GCC_except_table280
+- GCC_except_table281
+- GCC_except_table284
+- GCC_except_table285
+- GCC_except_table291
+- GCC_except_table292
+- GCC_except_table346
+- GCC_except_table348
+- GCC_except_table356
+- GCC_except_table364
+- GCC_except_table371
+- GCC_except_table374
+- GCC_except_table379
+- GCC_except_table380
+- GCC_except_table390
+- GCC_except_table394
+- GCC_except_table397
+- GCC_except_table403
+- GCC_except_table411
+- GCC_except_table417
+- GCC_except_table424
+- GCC_except_table429
+- GCC_except_table439
+- GCC_except_table445
+- GCC_except_table448
+- GCC_except_table453
+- GCC_except_table454
+- GCC_except_table459
+- GCC_except_table466
+- GCC_except_table469
+- GCC_except_table472
+- GCC_except_table477
+- GCC_except_table480
+- GCC_except_table484
+- GCC_except_table490
+- GCC_except_table498
+- GCC_except_table503
+- GCC_except_table508
+- GCC_except_table511
+- __os_log_debug_impl
+CStrings:
++ "5wi.ctr:: \t fExpirationTime = %ld, fRefreshTime = %ld (now = %ld)"
++ "IMSRegistrationActive: fExpirationTime=%ld, fRefreshTime=%ld (now=%ld)"
++ "PCSCF connected but no longer qualified to register - aborting"
++ "PCSCF connection ready for re-registration (TransientDisconnected)"
++ "RCSRegRefresh: Scheduled CPPower wake in %u seconds"
++ "abortRCSRegRefreshTimer: cleared fExpirationTime=%ld, fRefreshTime=%ld"
++ "checkRegTimers: not yet due, rescheduling with %u seconds remaining"
++ "checkRegTimers: now=%ld, fRefreshTime=%ld, fExpirationTime=%ld"
++ "checkRegTimers: refresh overdue by %lds, triggering now"
++ "checkRegTimers: registration expired during sleep (overdue by %lds), reconnecting"
++ "com.apple.sd.RCSRegRefresh."
++ "handleExitLowPower_sync: system woke, notifying %zu lazuli controllers"
++ "handleSystemWake_sync: system woke, checking reg timers"
++ "onRCSRegRefreshTimeout: in TD, trigger new PCSCF connection!"
++ "onRCSRegRefreshTimeout: not in TD, (still registered), directly initialize with existing connection!"
+- "Cellular footprint is not required for VoWiFi, ok to bring up IMS PDN"
+- "Current DataContext is: %s. Checking CB key is not needed"
+- "DCN already scheduled"
+- "DomesticRoamingUpdate: roaming state %{bool}d"
+- "EmergencyAccessNetworkInfoUpdate: Not in emergency call. Don't send emergency access network info update"
+- "ISIM info didn't change"
+- "ImsPdpActive: Lazuli mode. Country Of Origination not required"
+- "ImsPdpActive: Not in iWLAN mode. Country Of Origination not required"
+- "Not submitting RCSServiceDuration metric for zero duration"
+- "PCSCF connection ready for Push registration"
+- "RCSRegRefreshTimer: already registered, re-arming timer."
+- "Received PushURL: %{public}s"
+- "Returning isCellularFootprintSeen as %{bool}d"
+- "Roaming result remains as %s"
+- "RoamingUpdate: Ignore undetermined roaming state %s"
+- "Setting isCellularFootprintSeen to %{bool}d"
+- "Stored PushURL: %{public}s"
+- "Telephony was NOT %s successfully"
+- "Updating RCSPcscfPropertyList: \n"
+- "WiFiCalling-only mode: true. Baseband booted assertion required. iSimInfoReady: %{bool}d, deviceInfoReady: %{bool}d. BB booted assertion held: %{bool}d"
+- "addr = %s"
+- "fInCallImsPref is inactive!"
+- "handleCountryOfOrigination: mcc INT is: %u"
+```

@@ -1,0 +1,109 @@
+## com.apple.AGXG13G
+
+> `com.apple.AGXG13G`
+
+```diff
+
+-360.32.1.0.0
+-  __TEXT.__const: 0x26e4
+-  __TEXT.__os_log: 0x12b5
+-  __TEXT.__cstring: 0xdd24
+-  __TEXT_EXEC.__text: 0xb87cc
+-  __TEXT_EXEC.__auth_stubs: 0x1a50
++360.34.5.0.0
++  __TEXT.__const: 0x26ec
++  __TEXT.__os_log: 0x1314
++  __TEXT.__cstring: 0xdd1f
++  __TEXT_EXEC.__text: 0xb8c08
++  __TEXT_EXEC.__auth_stubs: 0x1a60
+   __DATA.__data: 0x21f0
+   __DATA.__common: 0x10
+   __DATA.__bss: 0x4428
+
+   __DATA_CONST.__const: 0x15b58
+   __DATA_CONST.__kalloc_type: 0x2140
+   __DATA_CONST.__kalloc_var: 0x2850
+-  __DATA_CONST.__auth_got: 0xd28
++  __DATA_CONST.__auth_got: 0xd30
+   __DATA_CONST.__got: 0x268
+   Functions: 2843
+-  Symbols:   4499
+-  CStrings:  1808
++  Symbols:   4502
++  CStrings:  1810
+ 
+Symbols:
++ __ZN14AGXAccelerator32populateLinearPowerTransferTableEPfj
++ __ZN17IOGPUFenceMachine13addEventFenceEP17IOGPUCommandQueueP15IOGPUEventFence
++ __ZZN11AGXFirmware23handleChannelErrorEventERK25AGFIChannelErrorEventArgsE11_os_log_fmt
++ __ZZN14AGXAccelerator16freeContextIDLUTEvE22kalloc_type_view_14036
++ __ZZN14AGXAccelerator19createCPUPIOMappingE17AGFIPIORegionTypejE21kalloc_type_view_6721
++ __ZZN14AGXAccelerator19createCPUPIOMappingE17AGFIPIORegionTypejE21kalloc_type_view_6738
++ __ZZN14AGXAccelerator22initializeContextIDLUTEvE22kalloc_type_view_14019
++ __ZZN20AGXCommandDescriptor10nopCommandEvE11_os_log_fmt
+- __ZN14AGXAccelerator32populateLinearPowerTransferTableEPjj
+- __ZZN14AGXAccelerator16freeContextIDLUTEvE22kalloc_type_view_13927
+- __ZZN14AGXAccelerator19createCPUPIOMappingE17AGFIPIORegionTypejE21kalloc_type_view_6688
+- __ZZN14AGXAccelerator19createCPUPIOMappingE17AGFIPIORegionTypejE21kalloc_type_view_6705
+- __ZZN14AGXAccelerator22initializeContextIDLUTEvE22kalloc_type_view_13910
+Functions:
+~ __ZN14AGXAccelerator38configurePowerAndPerformanceControllerEv : 1092 -> 1068
+~ __ZN14AGXAccelerator15configureDeviceEP9IOService : 10644 -> 10672
+~ __ZN14AGXAccelerator5startEP9IOService : 26060 -> 26048
+~ __ZN14AGXAccelerator37createHardwareMappingsAndBootFirmwareEv : 1896 -> 1892
+~ __ZN14AGXAccelerator20attributeEnergyEventEP22IOInterruptEventSourcei : 1372 -> 1376
+~ __ZN14AGXAccelerator32populateLinearPowerTransferTableEPjj -> __ZN14AGXAccelerator32populateLinearPowerTransferTableEPfj : 1352 -> 1620
+~ __ZN14AGXAccelerator11setGVDMModeEjjj : 300 -> 304
+~ __ZNK14AGXAccelerator21getPropertyGPUPerfMapEv : 804 -> 808
+~ __ZN10AGXChannel23allocateSpillBufferDataEP20AGXCommandDescriptorP12AGXSpillDescbP24AGXSpillBufferAllocError : 6896 -> 6884
+~ __ZN20AGXCommandDescriptor10nopCommandEv : 436 -> 516
+~ __ZN15AGXCommandQueue32processSharedEventSignalInternalEP20IOSurfaceSharedEventyyPK24AGXHardwareKernelCommand : 2128 -> 2576
+~ __ZN15AGXCommandQueue13processRenderERK24AGXHardwareKernelCommandRK30AGXRenderHardwareKernelCommandRK23AGXSegmentKernelCommandyybbP21CompositeSubtypeState : 1816 -> 1832
+~ __ZN15AGXCommandQueue25populateCommandHWDSIDDataERK24AGXHardwareKernelCommandP12IOGPUChanneljP20AGXCommandHWDSIDData : 2064 -> 2068
+~ __ZN19AGXDeviceUserClient20getSPTMEventCountersER21_AGXSPTMEventCounters : 304 -> 300
+~ __ZN20AGXFamilyAccelerator13getProbeScoreEv : 3192 -> 3160
+~ __ZN11AGXFirmware22drainFirmwareEventRingEv : 4284 -> 4324
+~ __ZN11AGXFirmware16initFirmwareDataEv : 4384 -> 4356
+~ __ZN14AGXArmFirmware32updateAvgPStateLimiterControllerEP12OSDictionary : 1144 -> 1136
+~ __ZN14AGXArmFirmware29setPowerZoneMinDutyCycleRatioEP8OSObject : 156 -> 160
+~ __ZN14AGXArmFirmware31setPowerZoneAvgProportionalGainEP8OSObject : 140 -> 136
+~ __ZN14AGXArmFirmware27setPowerZoneAvgIntegralGainEP8OSObject : 140 -> 136
+~ __ZN14AGXArmFirmware38setPowerZoneAvgInputFilterTimeConstantEP8OSObject : 140 -> 136
+~ __ZNK14AGXArmFirmware34getPowerZoneFilterTimeConstantDataEv : 776 -> 780
+~ __ZNK14AGXArmFirmware28getPowerZoneTargetoffsetDataEv : 776 -> 780
+~ __ZNK14AGXArmFirmware22getPowerZoneTargetDataEv : 776 -> 780
+~ __ZNK14AGXArmFirmware31getPowerZoneAvgProportionalGainEv : 28 -> 24
+~ __ZNK14AGXArmFirmware27getPowerZoneAvgIntegralGainEv : 28 -> 24
+~ __ZNK14AGXArmFirmware38getPowerZoneAvgInputFilterTimeConstantEv : 28 -> 24
+~ __ZN14AGXArmFirmware21requestPowerZoneResetEv : 200 -> 204
+~ __ZN14AGXArmFirmware27initPowerAndPerformanceDataEv : 10944 -> 10744
+~ __ZN14AGXArmFirmware16initFirmwareDataEv : 3740 -> 3744
+~ __ZN14AGXArmFirmware17allocFirmwareDataEv : 3120 -> 3116
+~ __ZN14AGXArmFirmware11setupConfigEv : 7444 -> 7412
+~ __ZN17AGXAcceleratorG1317isHWDSIDAvailableEh : 176 -> 180
+~ __ZN17AGXAcceleratorG1318dePrioritizeHWDSIDEh : 236 -> 240
+~ __ZN17AGXAcceleratorG1323generateCSCCoefficientsEv : 376 -> 580
+~ __ZN17AGXAcceleratorG1315configureDeviceEP9IOService : 396 -> 400
+~ __ZN21AGXAcceleratorG13G_A031populateMaximumPerformancePowerEv : 480 -> 484
+~ __ZN21AGXAcceleratorG13G_A026populateSRAMPowerScaleDataEv : 272 -> 276
+~ __ZN21AGXAcceleratorG13G_B031populateMaximumPerformancePowerEv : 480 -> 484
+~ __ZN21AGXAcceleratorG13G_B026populateSRAMPowerScaleDataEv : 272 -> 276
+~ __ZN21AGXLateEvalEventFence12notifyClientEv : 44 -> 192
+~ __ZN17AGXPerfCtrSampler18sourceSamplerStartEv : 720 -> 724
+~ __ZN17AGXPerfCtrSampler10lockAccessEbP9AGXShared : 1268 -> 1272
+~ __ZNK14AGXAccelerator12readGFXReg32Em : 5156 -> 5236
+~ __ZNK14AGXAccelerator13writeGFXReg32Emj : 5160 -> 5240
+CStrings:
++ "121111112112222122111111211222212211111121122221221111112112222122122222222222221122111111112222222211121121212112121121211212112121121211212112121121211212112121121211212111111222111222111222111222111222111222111222111222111222111222111222111222111222222221111221211212111111112222222222121122222222222222222222222222222222222222222222222222222222222222222222222222222222222212121122222222222222222222222222222222222222222222222222222222222222222111111221222222212221222111112212222222122212221111122122222221222122211111221222222212221222111112212222222122212221111122122222221222122211111221222222212221222111122211111222111112221111122211111222111112221111122211111222111112221111122211111222112111112211111221122111111111111111111111111111111111111111111111111111111111111222222222222222222222222222222122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222211111112222222"
++ "3.44.12"
++ "AGX: Channel error %u"
++ "AGX: NOP Command: proc %{public}s [%d] command type %d traceID 0x%016llx"
++ "Aug 11 2026 21:57:12"
++ "void AGXAccelerator::populateLinearFrequencyTransferTable(float *, uint32_t)"
++ "void AGXAccelerator::populateLinearPowerTransferTable(float *, uint32_t)"
+- "12111111211222212211111121122221221111112112222122111111211222212212222222222222112211111111222222221112112121211212112121121211212112121121211212112121121211212112121121211111122211122211122211122211122211122211122211122211122211122211122211122211122222222111122121121211111111222222222212112222222222222222222222222222222222222222222222222222222222222222222222222222222222221212112222222222222222222222222222222222222222222222222222222222222222211111122122222221222122211111221222222212221222111112212222222122212221111122122222221222122211111221222222212221222111112212222222122212221111122122222221222122211112221111122211111222111112221111122211111222111112221111122211111222111112221111122211211111221111122112211111111111111111111111111111111111111111111111111111111111222222222222222222222222222222122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222211111112222222"
+- "3.44.10"
+- "Jul 14 2026 21:36:06"
+- "void AGXAccelerator::populateLinearFrequencyTransferTable(uint32_t *, uint32_t)"
+- "void AGXAccelerator::populateLinearPowerTransferTable(uint32_t *, uint32_t)"
+```

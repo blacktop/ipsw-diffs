@@ -1,0 +1,67 @@
+## SiriLinkFlowPlugin
+
+> `/System/Library/Assistant/FlowDelegatePlugins/SiriLinkFlowPlugin.bundle/Contents/MacOS/SiriLinkFlowPlugin`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__const`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_intobj`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
+```diff
+
+-3600.8.7.0.0
+-  __TEXT.__text: 0x21a3d8
++3600.8.9.0.0
++  __TEXT.__text: 0x21a40c
+   __TEXT.__auth_stubs: 0x50b0
+   __TEXT.__objc_stubs: 0x5220
+   __TEXT.__objc_methlist: 0xedc
+
+   __TEXT.__swift_as_cont: 0x1704
+   __TEXT.__swift5_protos: 0x90
+   __TEXT.__swift5_mpenum: 0x148
+-  __TEXT.__unwind_info: 0x9f58
++  __TEXT.__unwind_info: 0x9f60
+   __TEXT.__eh_frame: 0x19fb8
+   __DATA_CONST.__const: 0x13440
+   __DATA_CONST.__cfstring: 0x600
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 13500
+-  Symbols:   29620
++  Functions: 13503
++  Symbols:   29618
+   CStrings:  2834
+ 
+Symbols:
++ _$s18SiriLinkFlowPlugin26VoiceShortcutClientWrapperC03geteF4Name14voiceCommandId0kf2ByM0SSSgSS_So07VCVoiceF0CSSYaKXEtYaFZ04$s18abc8Plugin26efgh20C03geteF4Name14voicel6Id0kf2n13M0SSSgSS_So07O55F0CSSYaKXEtYaFZfA0_AISSYaKYCcSo0ofG0Ccfu_AISSYaKYCcfu0_So0ofG0CTf1nEn_n
++ _$s18SiriLinkFlowPlugin26VoiceShortcutClientWrapperC03geteF4Name14voiceCommandId0kf2ByM0SSSgSS_So07VCVoiceF0CSSYaKXEtYaFZ04$s18abc8Plugin26efgh20C03geteF4Name14voicel6Id0kf2n13M0SSSgSS_So07O55F0CSSYaKXEtYaFZfA0_AISSYaKYCcSo0ofG0Ccfu_AISSYaKYCcfu0_So0ofG0CTf1nEn_nTQ1_
++ _$s18SiriLinkFlowPlugin26VoiceShortcutClientWrapperC03geteF4Name14voiceCommandId0kf2ByM0SSSgSS_So07VCVoiceF0CSSYaKXEtYaFZ04$s18abc8Plugin26efgh20C03geteF4Name14voicel6Id0kf2n13M0SSSgSS_So07O55F0CSSYaKXEtYaFZfA0_AISSYaKYCcSo0ofG0Ccfu_AISSYaKYCcfu0_So0ofG0CTf1nEn_nTY0_
++ _$s18SiriLinkFlowPlugin26VoiceShortcutClientWrapperC03geteF4Name14voiceCommandId0kf2ByM0SSSgSS_So07VCVoiceF0CSSYaKXEtYaFZ04$s18abc8Plugin26efgh20C03geteF4Name14voicel6Id0kf2n13M0SSSgSS_So07O55F0CSSYaKXEtYaFZfA0_AISSYaKYCcSo0ofG0Ccfu_AISSYaKYCcfu0_So0ofG0CTf1nEn_nTu
++ _$ss33_resumeUnsafeThrowingContinuationyySccyxs5Error_pG_xntlFSaySo14LNAutoShortcutCG_Tgq5Tm
++ _$ss42_resumeUnsafeThrowingContinuationWithErroryySccyxs0F0_pG_sAB_pntlFSaySo14LNAutoShortcutCG_Tgq5Tm
+- _$s18SiriLinkFlowPlugin26VoiceShortcutClientWrapperC03geteF4Name14voiceCommandId0kf2ByM0SSSgSS_So07VCVoiceF0CSSYaKXEtYaFZ04$s18abc8Plugin26efgh20C03geteF4Name14voicel6Id0kf2n13M0SSSgSS_So07O55F0CSSYaKXEtYaFZfA0_AISSYaKYCcSo0ofG0Ccfu_AISSYaKYCcfu0_So0ofG0CTf1ncn_n
+- _$s18SiriLinkFlowPlugin26VoiceShortcutClientWrapperC03geteF4Name14voiceCommandId0kf2ByM0SSSgSS_So07VCVoiceF0CSSYaKXEtYaFZ04$s18abc8Plugin26efgh20C03geteF4Name14voicel6Id0kf2n13M0SSSgSS_So07O55F0CSSYaKXEtYaFZfA0_AISSYaKYCcSo0ofG0Ccfu_AISSYaKYCcfu0_So0ofG0CTf1ncn_nTQ1_
+- _$s18SiriLinkFlowPlugin26VoiceShortcutClientWrapperC03geteF4Name14voiceCommandId0kf2ByM0SSSgSS_So07VCVoiceF0CSSYaKXEtYaFZ04$s18abc8Plugin26efgh20C03geteF4Name14voicel6Id0kf2n13M0SSSgSS_So07O55F0CSSYaKXEtYaFZfA0_AISSYaKYCcSo0ofG0Ccfu_AISSYaKYCcfu0_So0ofG0CTf1ncn_nTY0_
+- _$s18SiriLinkFlowPlugin26VoiceShortcutClientWrapperC03geteF4Name14voiceCommandId0kf2ByM0SSSgSS_So07VCVoiceF0CSSYaKXEtYaFZ04$s18abc8Plugin26efgh20C03geteF4Name14voicel6Id0kf2n13M0SSSgSS_So07O55F0CSSYaKXEtYaFZfA0_AISSYaKYCcSo0ofG0Ccfu_AISSYaKYCcfu0_So0ofG0CTf1ncn_nTu
+- _$ss33_resumeUnsafeThrowingContinuationyySccyxs5Error_pG_xntlFSaySo14LNAutoShortcutCG_Tgq5
+- _$ss33_resumeUnsafeThrowingContinuationyySccyxs5Error_pG_xntlFSo8LNActionC_Tgq5
+- _$ss42_resumeUnsafeThrowingContinuationWithErroryySccyxs0F0_pG_sAB_pntlFSaySo14LNAutoShortcutCG_Tgq5
+- _$ss42_resumeUnsafeThrowingContinuationWithErroryySccyxs0F0_pG_sAB_pntlFSo8LNActionC_Tgq5
+```

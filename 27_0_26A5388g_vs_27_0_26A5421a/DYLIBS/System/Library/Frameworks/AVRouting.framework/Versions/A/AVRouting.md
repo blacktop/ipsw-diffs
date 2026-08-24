@@ -1,0 +1,618 @@
+## AVRouting
+
+> `/System/Library/Frameworks/AVRouting.framework/Versions/A/AVRouting`
+
+```diff
+
+-360.70.2.0.0
+-  __TEXT.__text: 0x5bf88
+-  __TEXT.__objc_methlist: 0x6278
+-  __TEXT.__const: 0x110
+-  __TEXT.__cstring: 0xe05d
+-  __TEXT.__oslogstring: 0xb3aa
+-  __TEXT.__gcc_except_tab: 0x5b8
+-  __TEXT.__unwind_info: 0x1668
++360.75.1.0.0
++  __TEXT.__text: 0x46cd4
++  __TEXT.__objc_methlist: 0x62b0
++  __TEXT.__const: 0x108
++  __TEXT.__cstring: 0x99d2
++  __TEXT.__oslogstring: 0x5e76
++  __TEXT.__gcc_except_tab: 0x4f0
++  __TEXT.__unwind_info: 0x1580
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x7a8
++  __DATA_CONST.__const: 0x7b0
+   __DATA_CONST.__objc_classlist: 0x370
+   __DATA_CONST.__objc_protolist: 0xf0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1dd0
++  __DATA_CONST.__objc_selrefs: 0x1dd8
+   __DATA_CONST.__objc_superrefs: 0x2c8
+   __DATA_CONST.__got: 0xfd8
+-  __AUTH_CONST.__const: 0xe50
+-  __AUTH_CONST.__cfstring: 0x4380
+-  __AUTH_CONST.__objc_const: 0xb6a8
++  __AUTH_CONST.__const: 0xdf0
++  __AUTH_CONST.__cfstring: 0x43c0
++  __AUTH_CONST.__objc_const: 0xb718
+   __AUTH_CONST.__objc_intobj: 0x48
+   __AUTH_CONST.__auth_got: 0x0
+   __AUTH.__objc_data: 0x1220
+   __DATA.__objc_ivar: 0x538
+   __DATA.__data: 0xb70
+   __DATA.__bss: 0x88
+-  __DATA.__common: 0x90
++  __DATA.__common: 0x80
+   __DATA_DIRTY.__objc_data: 0x1040
+-  __DATA_DIRTY.__common: 0x160
++  __DATA_DIRTY.__common: 0x140
+   __DATA_DIRTY.__bss: 0xc8
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+
+   - /System/Library/PrivateFrameworks/MediaExperience.framework/Versions/A/MediaExperience
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 2490
+-  Symbols:   5225
+-  CStrings:  1563
++  Functions: 2389
++  Symbols:   5186
++  CStrings:  1082
+ 
+Symbols:
++ -[AVFigEndpointOutputDeviceImpl onlySupportsRealtimeAudio]
++ -[AVFigRouteDescriptorOutputDeviceImpl onlySupportsRealtimeAudio]
++ -[AVLocalOutputDeviceImpl onlySupportsRealtimeAudio]
++ -[AVOutputDevice onlySupportsRealtimeAudio]
++ GCC_except_table10
++ _AVOutputContextDeviceConnectionFailureReasonInfra6GSteerNoCandidate
++ _FigSignalErrorAtGM
++ ___91-[AVRoutingPlaybackArbiter _updateExternalPlaybackStatusNotificationListenerToParticipant:]_block_invoke_2
++ ___block_descriptor_52_e8_32o40o_e31_^{OpaqueFigRoutingContext=}8?0l
++ _objc_msgSend$onlySupportsRealtimeAudio
+- AVFigRouteDiscovererEndpointDescriptorChanged
+- AVFigRouteDiscovererRoutePresentChanged
+- GCC_except_table12
+- GCC_except_table32
+- _FigSignalErrorAt3
+- _OUTLINED_FUNCTION_100
+- _OUTLINED_FUNCTION_101
+- _OUTLINED_FUNCTION_102
+- _OUTLINED_FUNCTION_103
+- _OUTLINED_FUNCTION_104
+- _OUTLINED_FUNCTION_105
+- _OUTLINED_FUNCTION_82
+- _OUTLINED_FUNCTION_83
+- _OUTLINED_FUNCTION_84
+- _OUTLINED_FUNCTION_85
+- _OUTLINED_FUNCTION_86
+- _OUTLINED_FUNCTION_87
+- _OUTLINED_FUNCTION_88
+- _OUTLINED_FUNCTION_89
+- _OUTLINED_FUNCTION_90
+- _OUTLINED_FUNCTION_91
+- _OUTLINED_FUNCTION_92
+- _OUTLINED_FUNCTION_93
+- _OUTLINED_FUNCTION_94
+- _OUTLINED_FUNCTION_95
+- _OUTLINED_FUNCTION_96
+- _OUTLINED_FUNCTION_97
+- _OUTLINED_FUNCTION_98
+- _OUTLINED_FUNCTION_99
+- __119-[AVFigEndpointFigRoutingContextOutputDeviceTranslator addOutputDevice:withOptions:toRoutingContext:completionHandler:]_block_invoke
+- __119-[AVFigEndpointFigRoutingContextOutputDeviceTranslator setOutputDevice:withOptions:onRoutingContext:completionHandler:]_block_invoke
+- __120-[AVFigEndpointFigRoutingContextOutputDeviceTranslator setOutputDevices:withOptions:onRoutingContext:completionHandler:]_block_invoke
+- __124-[AVFigEndpointFigRoutingContextOutputDeviceTranslator removeOutputDevice:withOptions:fromRoutingContext:completionHandler:]_block_invoke
+- __126-[AVFigRouteDescriptorFigRoutingContextOutputDeviceTranslator addOutputDevice:withOptions:toRoutingContext:completionHandler:]_block_invoke
+- __126-[AVFigRouteDescriptorFigRoutingContextOutputDeviceTranslator setOutputDevice:withOptions:onRoutingContext:completionHandler:]_block_invoke
+- __127-[AVFigRouteDescriptorFigRoutingContextOutputDeviceTranslator setOutputDevices:withOptions:onRoutingContext:completionHandler:]_block_invoke
+- __131-[AVFigRouteDescriptorFigRoutingContextOutputDeviceTranslator removeOutputDevice:withOptions:fromRoutingContext:completionHandler:]_block_invoke
+- __69-[AVRoutingOperation _setStatus:error:resultingStatus:failureReason:]_block_invoke
+- __80-[AVFigRoutingContextInputContextImpl setInputDevice:options:completionHandler:]_block_invoke
+- __91-[AVRoutingPlaybackArbiter _updateExternalPlaybackStatusNotificationListenerToParticipant:]_block_invoke
+- ___block_descriptor_60_e8_32o40o48o_e31_^{OpaqueFigRoutingContext=}8?0l
+- ___block_descriptor_64_e8_32o40o48o56r_e5_v8?0l
+- ___block_descriptor_64_e8_32o40r_e5_v8?0l
+- ___copy_helper_block_e8_32o40o48o56r
+- ___destroy_helper_block_e8_32o40o48o56r
+- _gAVPlatformUtilitiesTrace
+- _gAVRoutingCallbackContextRegistryTrace
+- _gAVRoutingOperationTrace
+- _stringWithValidatedFormatString
+CStrings:
++ "%s signalled err=%d at <>:%d"
++ "AVOutputContextDeviceConnectionFailureReasonInfra6GSteerNoCandidate"
++ "Infra6GSteerNoCandidate"
++ "OnlySupportsRealtimeAudio"
+- "%s%s%s signalled err=%d (%s) (%s) at %s:%d"
+- "+[AVFigRoutingContextOutputContextImpl allSharedAudioOutputContextImpls]"
+- "+[AVFigRoutingContextOutputContextImpl outputContextExistsWithRemoteOutputDevice]"
+- "+[AVFigRoutingContextOutputContextImpl sharedSystemRemoteDisplayContext]"
+- "+[AVInputContext defaultInputContextImplClass]"
+- "+[AVOutputContext defaultOutputContextImplClass]"
+- "+[AVOutputContextManager outputContextManagerForAllOutputContexts]_block_invoke_2"
+- "+[AVOutputDevice(AVOutputDeviceFigEndpointImplFetching) outputDeviceWithFigEndpoint:]"
+- "+[AVOutputDevice(AVOutputDeviceFigEndpointImplFetching) outputDeviceWithFigEndpoint:routingContextFactory:]"
+- "+[AVOutputDevice(AVOutputDeviceFigEndpointImplFetching) outputDeviceWithFigEndpoint:volumeController:]"
+- "+[AVOutputDevice(FigRouteDescriptor) prefersRouteDescriptors]"
+- "+[AVOutputDeviceAuthorizationSession sharedAuthorizationSession]_block_invoke_2"
+- "+[AVRoutingOperation(ArrayOfOperations) statusOfOperations:error:]"
+- "+[AVRoutingSessionManager longFormVideoRoutingSessionManager]"
+- "-[AVFigCommChannelUUIDCommunicationChannelManager _didReceiveData:fromCommChannelUUID:]"
+- "-[AVFigCommChannelUUIDCommunicationChannelManager didCloseCommChannelUUID:]"
+- "-[AVFigCommChannelUUIDCommunicationChannelManager didCloseCommChannelUUID:]_block_invoke"
+- "-[AVFigCommChannelUUIDCommunicationChannelManager outgoingCommunicationChannel]"
+- "-[AVFigCommChannelUUIDCommunicationChannelManager outgoingCommunicationChannel]_block_invoke"
+- "-[AVFigEndpointFigRoutingContextOutputDeviceTranslator addOutputDevice:withOptions:toRoutingContext:completionHandler:]"
+- "-[AVFigEndpointFigRoutingContextOutputDeviceTranslator addOutputDevice:withOptions:toRoutingContext:completionHandler:]_block_invoke"
+- "-[AVFigEndpointFigRoutingContextOutputDeviceTranslator outputDeviceFromRoutingContext:]"
+- "-[AVFigEndpointFigRoutingContextOutputDeviceTranslator outputDevicesFromRoutingContext:]"
+- "-[AVFigEndpointFigRoutingContextOutputDeviceTranslator removeOutputDevice:withOptions:fromRoutingContext:completionHandler:]"
+- "-[AVFigEndpointFigRoutingContextOutputDeviceTranslator removeOutputDevice:withOptions:fromRoutingContext:completionHandler:]_block_invoke"
+- "-[AVFigEndpointFigRoutingContextOutputDeviceTranslator setOutputDevice:withOptions:onRoutingContext:completionHandler:]"
+- "-[AVFigEndpointFigRoutingContextOutputDeviceTranslator setOutputDevice:withOptions:onRoutingContext:completionHandler:]_block_invoke"
+- "-[AVFigEndpointFigRoutingContextOutputDeviceTranslator setOutputDevices:withOptions:onRoutingContext:completionHandler:]"
+- "-[AVFigEndpointFigRoutingContextOutputDeviceTranslator setOutputDevices:withOptions:onRoutingContext:completionHandler:]_block_invoke"
+- "-[AVFigEndpointOutputDeviceImpl _canSetEndpointVolumeDidChangeForEndpointWithID:]"
+- "-[AVFigEndpointOutputDeviceImpl _endpointVolumeControlTypeDidChangeForEndpointWithID:]"
+- "-[AVFigEndpointOutputDeviceImpl _figEndpointPropertyValueForKey:]"
+- "-[AVFigEndpointOutputDeviceImpl _volumeDidChangeForEndpointWithID:]"
+- "-[AVFigEndpointOutputDeviceImpl connectedPairedDevices]"
+- "-[AVFigEndpointOutputDeviceImpl deviceSubType]"
+- "-[AVFigEndpointOutputDeviceImpl deviceType]"
+- "-[AVFigEndpointOutputDeviceImpl initWithFigEndpoint:volumeController:routingContextFactory:useRouteConfigUpdatedNotification:]"
+- "-[AVFigEndpointOutputDeviceImpl isAppleAccessory]"
+- "-[AVFigEndpointOutputDeviceImpl isInEar]"
+- "-[AVFigEndpointOutputDeviceImpl isInUseByPairedDevice]"
+- "-[AVFigEndpointOutputDeviceImpl supportsDataOverACLProtocol]"
+- "-[AVFigEndpointUIAgentOutputContextManagerImpl _showErrorPromptForRouteDescriptor:reason:didFailToConnectToOutputDeviceDictionary:failureDetails:]"
+- "-[AVFigEndpointUIAgentOutputContextManagerImpl initWithEndpointUIAgent:]"
+- "-[AVFigEndpointUIAgentOutputDeviceAuthorizationSessionImpl _finishedWithPromptReason:]"
+- "-[AVFigEndpointUIAgentOutputDeviceAuthorizationSessionImpl _notifyCurrentRequestOfTerminalStatus:error:]"
+- "-[AVFigEndpointUIAgentOutputDeviceAuthorizationSessionImpl _startNewRequest:impl:]"
+- "-[AVFigEndpointUIAgentOutputDeviceAuthorizationSessionImpl initWithFigEndpointUIAgent:]"
+- "-[AVFigRouteDescriptorFigRoutingContextOutputDeviceTranslator addOutputDevice:withOptions:toRoutingContext:completionHandler:]"
+- "-[AVFigRouteDescriptorFigRoutingContextOutputDeviceTranslator addOutputDevice:withOptions:toRoutingContext:completionHandler:]_block_invoke"
+- "-[AVFigRouteDescriptorFigRoutingContextOutputDeviceTranslator outputDeviceFromRoutingContext:]"
+- "-[AVFigRouteDescriptorFigRoutingContextOutputDeviceTranslator outputDevicesFromRoutingContext:]"
+- "-[AVFigRouteDescriptorFigRoutingContextOutputDeviceTranslator predictedOutputDeviceFromRoutingContext:]"
+- "-[AVFigRouteDescriptorFigRoutingContextOutputDeviceTranslator removeOutputDevice:withOptions:fromRoutingContext:completionHandler:]"
+- "-[AVFigRouteDescriptorFigRoutingContextOutputDeviceTranslator removeOutputDevice:withOptions:fromRoutingContext:completionHandler:]_block_invoke"
+- "-[AVFigRouteDescriptorFigRoutingContextOutputDeviceTranslator setOutputDevice:withOptions:onRoutingContext:completionHandler:]"
+- "-[AVFigRouteDescriptorFigRoutingContextOutputDeviceTranslator setOutputDevice:withOptions:onRoutingContext:completionHandler:]_block_invoke"
+- "-[AVFigRouteDescriptorFigRoutingContextOutputDeviceTranslator setOutputDevices:withOptions:onRoutingContext:completionHandler:]"
+- "-[AVFigRouteDescriptorFigRoutingContextOutputDeviceTranslator setOutputDevices:withOptions:onRoutingContext:completionHandler:]_block_invoke"
+- "-[AVFigRouteDescriptorInputDeviceImpl initWithRouteDescriptor:routeDiscoverer:routingContextFactory:useRouteConfigUpdatedNotification:routingContext:]"
+- "-[AVFigRouteDescriptorInputDeviceImpl isAppleAccessory]"
+- "-[AVFigRouteDescriptorOutputDeviceImpl initWithRouteDescriptor:routeDiscoverer:volumeController:routingContextFactory:useRouteConfigUpdatedNotification:routingContext:]"
+- "-[AVFigRouteDescriptorOutputDeviceImpl isAppleAccessory]"
+- "-[AVFigRouteDescriptorOutputDeviceImpl protocolTypeIdentifier]"
+- "-[AVFigRouteDiscovererInputDeviceDiscoverySessionImpl _endpointDescriptorChanged]"
+- "-[AVFigRouteDiscovererInputDeviceDiscoverySessionImpl _routePresentChanged]"
+- "-[AVFigRouteDiscovererInputDeviceDiscoverySessionImpl availableInputDevices]"
+- "-[AVFigRouteDiscovererInputDeviceDiscoverySessionImpl devicePresenceDetected]"
+- "-[AVFigRouteDiscovererInputDeviceDiscoverySessionImpl fallbackInputDevice]"
+- "-[AVFigRouteDiscovererInputDeviceDiscoverySessionImpl initWithFigRouteDiscovererCreator:]"
+- "-[AVFigRouteDiscovererInputDeviceDiscoverySessionImpl inputDeviceDiscoverySessionDidChangeDiscoveryMode:forClientIdentifiers:]"
+- "-[AVFigRouteDiscovererOutputDeviceDiscoverySessionFactory outputDeviceDiscoverySessionOfClass:withDeviceFeatures:]"
+- "-[AVFigRouteDiscovererOutputDeviceDiscoverySessionImpl _endpointDescriptorChanged]"
+- "-[AVFigRouteDiscovererOutputDeviceDiscoverySessionImpl _routePresentChanged]"
+- "-[AVFigRouteDiscovererOutputDeviceDiscoverySessionImpl availableOutputDevicesObject]"
+- "-[AVFigRouteDiscovererOutputDeviceDiscoverySessionImpl devicePresenceDetected]"
+- "-[AVFigRouteDiscovererOutputDeviceDiscoverySessionImpl inactiveCustomProtocolIDs]"
+- "-[AVFigRouteDiscovererOutputDeviceDiscoverySessionImpl initWithFigRouteDiscovererCreator:]"
+- "-[AVFigRoutingContextInputContextImpl _canSetMainVolumeDidChangeForRoutingContextWithID:]"
+- "-[AVFigRoutingContextInputContextImpl _createSelectRouteOptionsForSetInputDeviceOptions:]"
+- "-[AVFigRoutingContextInputContextImpl _currentRouteChanged]"
+- "-[AVFigRoutingContextInputContextImpl _mainVolumeDidChangeForRoutingContextWithID:]"
+- "-[AVFigRoutingContextInputContextImpl _routeChangeEndedWithID:reason:]"
+- "-[AVFigRoutingContextInputContextImpl _routeChangeStartedWithID:]"
+- "-[AVFigRoutingContextInputContextImpl _routeConfigUpdatedWithID:reason:initiator:endedError:deviceID:previousDeviceIDs:]"
+- "-[AVFigRoutingContextInputContextImpl _serverConnectionDied]"
+- "-[AVFigRoutingContextInputContextImpl canSetInputGain]"
+- "-[AVFigRoutingContextInputContextImpl clearUserPreferredInputDevice:error:]"
+- "-[AVFigRoutingContextInputContextImpl initWithRoutingContextUUID:type:]"
+- "-[AVFigRoutingContextInputContextImpl initWithRoutingContextUUID:type:]_block_invoke"
+- "-[AVFigRoutingContextInputContextImpl inputDevice]"
+- "-[AVFigRoutingContextInputContextImpl inputGain]"
+- "-[AVFigRoutingContextInputContextImpl setInputDevice:options:completionHandler:]"
+- "-[AVFigRoutingContextInputContextImpl setInputDevice:options:completionHandler:]_block_invoke"
+- "-[AVFigRoutingContextInputContextImpl setInputGain:error:]"
+- "-[AVFigRoutingContextInputContextImpl userPreferredInputDevice:]"
+- "-[AVFigRoutingContextOutputContextCompletionContext dealloc]"
+- "-[AVFigRoutingContextOutputContextCompletionContext initWithCompletionHandler:outputDevices:figRoutingContext:]"
+- "-[AVFigRoutingContextOutputContextImpl _canMuteDidChangeForRoutingContextWithID:]"
+- "-[AVFigRoutingContextOutputContextImpl _canSetMasterVolumeDidChangeForRoutingContextWithID:]"
+- "-[AVFigRoutingContextOutputContextImpl _canUseForRoutingContextDidChangeForRoutingContextWIthID:]"
+- "-[AVFigRoutingContextOutputContextImpl _createSelectRouteOptionsForSetOutputDeviceOptions:]"
+- "-[AVFigRoutingContextOutputContextImpl _currentRouteChanged]"
+- "-[AVFigRoutingContextOutputContextImpl _groupConfigurationChanged]"
+- "-[AVFigRoutingContextOutputContextImpl _masterVolumeControlTypeDidChangeForRoutingContextWithID:]"
+- "-[AVFigRoutingContextOutputContextImpl _masterVolumeDidChangeForRoutingContextWithID:]"
+- "-[AVFigRoutingContextOutputContextImpl _muteDidChangeForRoutingContextWithID:]"
+- "-[AVFigRoutingContextOutputContextImpl _remoteControlChannelAvailabilityChanged]"
+- "-[AVFigRoutingContextOutputContextImpl _routeChangeEndedWithID:reason:]"
+- "-[AVFigRoutingContextOutputContextImpl _routeChangeStartedWithID:]"
+- "-[AVFigRoutingContextOutputContextImpl _routeConfigUpdatedWithID:reason:initiator:endedError:deviceID:previousDeviceIDs:]"
+- "-[AVFigRoutingContextOutputContextImpl _serverConnectionDied]"
+- "-[AVFigRoutingContextOutputContextImpl _systemPickerVideoRouteChanged]"
+- "-[AVFigRoutingContextOutputContextImpl addOutputDevice:options:completionHandler:]"
+- "-[AVFigRoutingContextOutputContextImpl associatedAudioDeviceID]"
+- "-[AVFigRoutingContextOutputContextImpl initWithFigRoutingContext:routingContextReplacementBlock:outputDeviceTranslator:volumeController:communicationChannelManagerCreator:]"
+- "-[AVFigRoutingContextOutputContextImpl initWithRoutingContextUUID:type:]"
+- "-[AVFigRoutingContextOutputContextImpl initWithRoutingContextUUID:type:]_block_invoke"
+- "-[AVFigRoutingContextOutputContextImpl outputDevice]"
+- "-[AVFigRoutingContextOutputContextImpl removeOutputDevice:options:completionHandler:]"
+- "-[AVFigRoutingContextOutputContextImpl setOutputDevice:options:completionHandler:]"
+- "-[AVFigRoutingContextOutputContextImpl setOutputDevices:options:completionHandler:]"
+- "-[AVInputContext ID]"
+- "-[AVInputContext encodeWithCoder:]"
+- "-[AVInputContext initWithCoder:]"
+- "-[AVInputContext initWithInputContextImpl:]"
+- "-[AVInputContext inputContextImpl:didExpireWithReplacement:]"
+- "-[AVInputContext inputDevice]"
+- "-[AVInputContextDestinationChange _setStatus:]"
+- "-[AVInputDevice initWithInputDeviceImpl:]"
+- "-[AVInputDeviceDiscoverySession devicePresenceDetected]"
+- "-[AVInputDeviceDiscoverySession initWithDeviceFeatures:]"
+- "-[AVInputDeviceDiscoverySession initWithInputDeviceDiscoverySessionImpl:]"
+- "-[AVInputDeviceDiscoverySession inputDeviceDiscoverySessionImplDidChangeAvailableInputDevices:]"
+- "-[AVInputDeviceDiscoverySession setAudioSessionID:]"
+- "-[AVOutputContext ID]"
+- "-[AVOutputContext encodeWithCoder:]"
+- "-[AVOutputContext initWithCoder:]"
+- "-[AVOutputContext initWithOutputContextImpl:]"
+- "-[AVOutputContext outputContextImpl:didExpireWithReplacement:]"
+- "-[AVOutputContext outputDevice]"
+- "-[AVOutputContext outputDevices]"
+- "-[AVOutputContextDestinationChange _setStatus:cancellationReason:]"
+- "-[AVOutputDevice initWithOutputDeviceImpl:commChannelManager:]"
+- "-[AVOutputDevice openCommunicationChannelWithOptions:completionHandler:]"
+- "-[AVOutputDeviceAuthorizationSession initWithOutputDeviceAuthorizationSessionImpl:]"
+- "-[AVOutputDeviceAuthorizationSession outputDeviceAuthorizationSessionImplDidExpireWithReplacementImpl:]"
+- "-[AVOutputDeviceAuthorizationSession setDelegate:]"
+- "-[AVOutputDeviceDiscoverySession availableOutputDevices]"
+- "-[AVOutputDeviceDiscoverySession devicePresenceDetected]"
+- "-[AVOutputDeviceDiscoverySession initWithOutputDeviceDiscoverySessionImpl:]"
+- "-[AVOutputDeviceDiscoverySession outputDeviceDiscoverySessionImplDidChangeAvailableOutputDeviceGroups:]"
+- "-[AVOutputDeviceDiscoverySession outputDeviceDiscoverySessionImplDidChangeAvailableOutputDevices:]"
+- "-[AVOutputDeviceDiscoverySession setAudioSessionID:]"
+- "-[AVOutputDeviceDiscoverySession setTargetAudioSession:]"
+- "-[AVOutputDeviceDiscoverySessionAvailableOutputDevices otherDevices]"
+- "-[AVOutputDeviceDiscoverySessionAvailableOutputDevices recentlyUsedDevices]"
+- "-[AVOutputDeviceGroup initWithOutputDeviceGroupImpl:]"
+- "-[AVOutputDeviceGroup outputDevices]"
+- "-[AVOutputDeviceHID initWithUUID:screenUUID:endpoint:]"
+- "-[AVOutputDeviceIcon initWithDict:]"
+- "-[AVOutputDeviceScreenBorrowToken initWithEndpoint:client:reason:]"
+- "-[AVOutputDeviceScreenInfo initWithDict:]"
+- "-[AVOutputDeviceTurnByTurnToken dealloc]"
+- "-[AVOutputDeviceTurnByTurnToken initWithEndpoint:]"
+- "-[AVOutputDeviceViewAreaInfo initWithViewArea:transitionControl:supportsFocusTransfer:statusBarEdge:safeArea:]"
+- "-[AVRoutingBlockOperation cancel]"
+- "-[AVRoutingBlockOperation start]"
+- "-[AVRoutingCallbackContextRegistry registerCallbackContextObject:]_block_invoke"
+- "-[AVRoutingCallbackContextRegistry unregisterCallbackContextForToken:]_block_invoke"
+- "-[AVRoutingContextCommandOutputDeviceConfigurationModification addPeerToHomeGroup:]"
+- "-[AVRoutingContextCommandOutputDeviceConfigurationModification removePeerWithIDFromHomeGroup:]"
+- "-[AVRoutingContextCommandOutputDeviceConfigurationModification setDeviceName:]"
+- "-[AVRoutingContextCommandOutputDeviceConfigurationModification setDevicePassword:]"
+- "-[AVRoutingContextCommandOutputDeviceConfigurationModification startAutomaticallyAllowingConnectionsFromPeersInHomeGroupAndRejectOtherConnections:]"
+- "-[AVRoutingContextCommandOutputDeviceConfigurationModification stopAutomaticallyAllowingConnectionsFromPeersInHomeGroup]"
+- "-[AVRoutingContextRouteChangeOperation _routeChangeComplete]"
+- "-[AVRoutingContextRouteChangeOperation _routeChangeStartedWithID:]"
+- "-[AVRoutingContextRouteChangeOperation _routeChangeStartedWithID:]_block_invoke"
+- "-[AVRoutingContextRouteChangeOperation _routeChangeWithID:endedWithReason:]"
+- "-[AVRoutingContextRouteChangeOperation _routeChangeWithID:endedWithReason:]_block_invoke"
+- "-[AVRoutingContextRouteChangeOperation start]"
+- "-[AVRoutingOperation _setStatus:error:resultingStatus:failureReason:]_block_invoke"
+- "-[AVRoutingOperation didEnterTerminalState]"
+- "-[AVRoutingOperation evaluateDependenciesAndMarkAsExecuting]"
+- "-[AVRoutingOperation markAsCancelled]"
+- "-[AVRoutingOperation markAsCompleted]"
+- "-[AVRoutingOperation markAsFailedWithError:]"
+- "-[AVRoutingPlaybackArbiter _updateExternalPlaybackStatusNotificationListenerToParticipant:]"
+- "-[AVRoutingPlaybackArbiter _updateExternalPlaybackStatusNotificationListenerToParticipant:]_block_invoke"
+- "-[AVRoutingPlaybackArbiter _updatePreferredParticipantForExternalPlaybackFrom:toParticipant:checkingAllParticipants:]"
+- "-[AVRoutingPlaybackArbiter _updatePreferredParticipantForNonMixableAudioRouteFrom:toParticipant:checkingAllParticipants:]"
+- "-[AVRoutingPlaybackArbiter(AVRoutingPlaybackParticipantRegistration) deregisterParticipant:]"
+- "-[AVRoutingPlaybackArbiter(AVRoutingPlaybackParticipantRegistration) registerParticipant:]"
+- "-[AVRoutingRouteConfigUpdatedFigRoutingContextRouteChangeOperation _routeConfigUpdateWithID:endedWithReason:]"
+- "-[AVRoutingRouteConfigUpdatedFigRoutingContextRouteChangeOperation start]"
+- "-[AVRoutingSessionManager allLikelyDestinations]"
+- "-[AVRoutingSessionManager currentRoutingSession]"
+- "-[AVRoutingSessionManager dealloc]"
+- "-[AVRoutingSessionManager likelyExternalDestinations]"
+- "-[AVRoutingSessionManager prefersLikelyDestinationsOverCurrentRoutingSession]"
+- "-[AVSystemRemotePoolOutputDeviceCommunicationChannelManager _didCloseCommChannelWithUUID:forDeviceWithID:]_block_invoke"
+- "-[AVSystemRemotePoolOutputDeviceCommunicationChannelManager dealloc]"
+- "-[AVSystemRemotePoolOutputDeviceCommunicationChannelManager initWithDeviceID:]"
+- "<<<< AVFigRoutingContextUtilities >>>> %s: Assuming route change with ID %@ corresponds to the route change we just initiated"
+- "<<<< AVFigRoutingContextUtilities >>>> %s: Called (notificationName=%@)"
+- "<<<< AVFigRoutingContextUtilities >>>> %s: Called (self=%p)"
+- "<<<< AVFigRoutingContextUtilities >>>> %s: Called (self=%p, routeChangeID=%@)"
+- "<<<< AVFigRoutingContextUtilities >>>> %s: Called (self=%p, routeChangeID=%@, reason=%@)"
+- "<<<< AVFigRoutingContextUtilities >>>> %s: Using AVRoutingErrorIncorrectPassword, since we do not know whether it was a PIN or password"
+- "<<<< AVFigRoutingContextUtilities >>>> %s: Using AVRoutingErrorUnknown, since we have no more detailed error information"
+- "<<<< AVFigRoutingContextUtilities >>>> %s: Using value %d for %@"
+- "<<<< AVFigRoutingContextUtilities >>>> %s: called (routingContext=%@, configuratorBlock=%@)"
+- "<<<< AVFigRoutingContextUtilities >>>> %s: called (self=%p)"
+- "<<<< AVFigRoutingContextUtilities >>>> %s: called (self=%p, deviceName=%@)"
+- "<<<< AVFigRoutingContextUtilities >>>> %s: called (self=%p, password=%@)"
+- "<<<< AVFigRoutingContextUtilities >>>> %s: called (self=%p, peer=%@)"
+- "<<<< AVFigRoutingContextUtilities >>>> %s: called (self=%p, peerID=%@)"
+- "<<<< AVFigRoutingContextUtilities >>>> %s: called (self=%p, rejectOtherConnections=%d)"
+- "<<<< AVFigRoutingContextUtilities >>>> %s: ignoring kFigRoutingContextNotification_RouteChangeEnded for ID %@ because it does not match the expected ID %@"
+- "<<<< AVFigRoutingContextUtilities >>>> %s: ignoring kFigRoutingContextNotification_RouteChangeEnded for ID %@ because we have not yet executed the route change operation"
+- "<<<< AVFigRoutingContextUtilities >>>> %s: ignoring kFigRoutingContextNotification_RouteChangeStarted for ID %@ because we already received a route change started notification"
+- "<<<< AVFigRoutingContextUtilities >>>> %s: ignoring kFigRoutingContextNotification_RouteChangeStarted for ID %@ because we have not yet executed the route change operation"
+- "<<<< AVFigRoutingContextUtilities >>>> %s: ignoring non-terminal route config update reason %@"
+- "<<<< AVFigRoutingContextUtilities >>>> %s: ignoring route change ID %@ because it does not match the expected ID %@"
+- "<<<< AVInputContext (FigRoutingContext) >>>> %s: FigRoutingContextCopyPredictedSelectedRouteDescriptorWithOptions yielded %@ (err: %d)"
+- "<<<< AVInputContext (FigRoutingContext) >>>> %s: FigRoutingContextCopySelectedRouteDescriptor yielded %@ (err: %d)"
+- "<<<< AVInputContext (FigRoutingContext) >>>> %s: FigRoutingContextResetPredictedSelectedRouteDescriptorWithOptions yielded (err: %d)"
+- "<<<< AVInputContext (FigRoutingContext) >>>> %s: FigVolumeControllerCanSetMainVolume yielded (err: %d)"
+- "<<<< AVInputContext (FigRoutingContext) >>>> %s: FigVolumeControllerGetMainVolumeOfRoutingContext yielded (err: %d)"
+- "<<<< AVInputContext (FigRoutingContext) >>>> %s: FigVolumeControllerSetMasterVolumeOfRoutingContext yielded (err: %d)"
+- "<<<< AVInputContext (FigRoutingContext) >>>> %s: Operation finished synchronously.  Blocking until completion handler is called, so that we preserve the synchronous nature of the operation"
+- "<<<< AVInputContext (FigRoutingContext) >>>> %s: Unhandled routing context type %d.  Falling back to fetching context by ID %@"
+- "<<<< AVInputContext (FigRoutingContext) >>>> %s: called (routingContext=%@, inputDevice=%@, options=%@)"
+- "<<<< AVInputContext (FigRoutingContext) >>>> %s: called (self=%p)"
+- "<<<< AVInputContext (FigRoutingContext) >>>> %s: called (self=%p, bundleID=%@)"
+- "<<<< AVInputContext (FigRoutingContext) >>>> %s: called (self=%p, contextUUID=%@)"
+- "<<<< AVInputContext (FigRoutingContext) >>>> %s: called (self=%p, inputDevice=%@, options=%@)"
+- "<<<< AVInputContext (FigRoutingContext) >>>> %s: called (self=%p, routeChangeID=%@)"
+- "<<<< AVInputContext (FigRoutingContext) >>>> %s: called (self=%p, routeChangeID=%@, reason=%@)"
+- "<<<< AVInputContext (FigRoutingContext) >>>> %s: called (self=%p, routeUpdateID=%@, reason=%@)"
+- "<<<< AVInputContext (FigRoutingContext) >>>> %s: called (self=%p, routingContext=%@, routingContextCreator=%@)"
+- "<<<< AVInputContext (FigRoutingContext) >>>> %s: called (self=%p, routingContextID=%@)"
+- "<<<< AVInputContext (FigRoutingContext) >>>> %s: kFigRoutingContextProperty_ContextUUID = %@ (err=%d)"
+- "<<<< AVInputContext (FigRoutingContext) >>>> %s: operation finished"
+- "<<<< AVInputContext (FigRoutingContext) >>>> %s: returning %@ (self=%p)"
+- "<<<< AVInputContext (FigRoutingContext) >>>> %s: using clientPID %d"
+- "<<<< AVInputContext >>>> %s: Defaulting to AVInputContext impl %@"
+- "<<<< AVInputContext >>>> %s: called (self=%p)"
+- "<<<< AVInputContext >>>> %s: called (self=%p, impl=%@)"
+- "<<<< AVInputContext >>>> %s: called (self=%p, impl=%@, replacementImpl=%@)"
+- "<<<< AVInputContext >>>> %s: called (self=%p, status=%d)"
+- "<<<< AVInputContext >>>> %s: contextID = %@"
+- "<<<< AVInputContext >>>> %s: inputDevice = %@"
+- "<<<< AVInputDevice (FigRouteDescriptor) >>>> %s: AVInputDevice %@ already bound to incompatible impl %@"
+- "<<<< AVInputDevice (FigRouteDescriptor) >>>> %s: GAPA feature not enabled"
+- "<<<< AVInputDevice (FigRouteDescriptor) >>>> %s: Listener should be the input device route discoverer queue"
+- "<<<< AVInputDevice (FigRouteDescriptor) >>>> %s: called (self=%p)"
+- "<<<< AVInputDevice >>>> %s: called (self=%p, impl=%@)"
+- "<<<< AVInputDeviceDiscoverySession (FigRouteDiscoverer) >>>> %s: FigRouteDiscovererCopyProperty / kFigRouteDiscovererProperty_AvailableRouteDescriptors returned: %@"
+- "<<<< AVInputDeviceDiscoverySession (FigRouteDiscoverer) >>>> %s: Returning %@"
+- "<<<< AVInputDeviceDiscoverySession (FigRouteDiscoverer) >>>> %s: called (payload=%@)"
+- "<<<< AVInputDeviceDiscoverySession (FigRouteDiscoverer) >>>> %s: called (self=%p)"
+- "<<<< AVInputDeviceDiscoverySession (FigRouteDiscoverer) >>>> %s: called (self=%p, routeDiscovererCreator=%@)"
+- "<<<< AVInputDeviceDiscoverySession (FigRouteDiscoverer) >>>> %s: kFigRouteDiscovererProperty_UserSelectionAvailable = %@"
+- "<<<< AVInputDeviceDiscoverySession >>>> %s: Cannot set audioSessionID on macOS"
+- "<<<< AVInputDeviceDiscoverySession >>>> %s: Posting %@"
+- "<<<< AVInputDeviceDiscoverySession >>>> %s: Returning %@"
+- "<<<< AVInputDeviceDiscoverySession >>>> %s: Unsupported device feature combination %d"
+- "<<<< AVInputDeviceDiscoverySession >>>> %s: called (self=%p, impl=%@)"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: Copying all audio contexts not supported!"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: Copying system remote display context not supported!"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: Failed to create AVOutputDevice for endpoint %@"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: Failed to create AVOutputDevice for route descriptor %@"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: FigRoutingContextCopyPredictedSelectedRouteDescriptor yielded %@ (err=%d)"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: FigRoutingContextCopySelectedRoute yielded %@NULL endpoint (err=%d)"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: FigRoutingContextCopySelectedRoute yielded endpoint %@ (err: %d)"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: FigRoutingContextCopySelectedRouteDescriptor yielded %@ (err: %d)"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: FigRoutingContextCopySelectedRouteDescriptors yielded %@ (err: %d)"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: FigRoutingContextCopySelectedRoutes yielded %@ (err: %d)"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: Listener should be the shared endpoint agent queue"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: No comm channel found for ID %@, synthesizing one for the delegate (self=%p)"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: Operation finished synchronously.  Blocking until completion handler is called, so that we preserve the synchronous nature of the operation"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: Output context exists with associated remote output device"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: Storing new outgoing communication channel (self=%p)"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: Trying comm channel ID %@ (self=%p)"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: Unhandled routing context type %d.  Falling back to fetching context by ID %@"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: Using comm channel ID %@ (self=%p)"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: Using pre-existing outgoing communication channel (self=%p)"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: called (%p)"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: called (modificationResult=%{public}@)"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: called (routingContext=%@)"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: called (routingContext=%@, outputDevice=%@, options=%@)"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: called (routingContext=%@, outputDevices=%@, options=%@)"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: called (self=%p)"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: called (self=%p, agent=%@)"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: called (self=%p, commChannelUUID=%@)"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: called (self=%p, contextUUID=%@)"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: called (self=%p, data=%@, commChannelUUID=%@)"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: called (self=%p, options=%@)"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: called (self=%p, outputDevice=%@, options=%@)"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: called (self=%p, outputDevices=%@, options=%@)"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: called (self=%p, reason=%@)"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: called (self=%p, routeChangeID=%@)"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: called (self=%p, routeChangeID=%@, reason=%@)"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: called (self=%p, routeUpdateID=%@, reason=%@)"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: called (self=%p, routingContext=%@, routingContextCreator=%@)"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: called (self=%p, routingContextID=%@)"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: kFigRoutingContextProperty_AssociatedAudioDevice = %@ (err: %d)"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: kFigRoutingContextProperty_ContextUUID = %@ (err=%d)"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: operation finished"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: returning %@ (self=%p)"
+- "<<<< AVOutputContext (FigRoutingContext) >>>> %s: using clientPID %d"
+- "<<<< AVOutputContext >>>> %s: Defaulting to AVOutputContext impl %@"
+- "<<<< AVOutputContext >>>> %s: Received notification %@"
+- "<<<< AVOutputContext >>>> %s: called (self=%p)"
+- "<<<< AVOutputContext >>>> %s: called (self=%p, impl=%@)"
+- "<<<< AVOutputContext >>>> %s: called (self=%p, impl=%@, channel=%@)"
+- "<<<< AVOutputContext >>>> %s: called (self=%p, impl=%@, data=%@, channel=%@)"
+- "<<<< AVOutputContext >>>> %s: called (self=%p, impl=%@, replacementImpl=%@)"
+- "<<<< AVOutputContext >>>> %s: called (self=%p, status=%d)"
+- "<<<< AVOutputContext >>>> %s: contextID = %@"
+- "<<<< AVOutputContext >>>> %s: outputDevice = %@"
+- "<<<< AVOutputContext >>>> %s: outputDevices = %@"
+- "<<<< AVOutputDevice (FigEndpoint) >>>> %s: AVOutputDevice %@ already bound to incompatible impl %@"
+- "<<<< AVOutputDevice (FigEndpoint) >>>> %s: Calling FigVolumeControllerGetMuteOfEndpointWithID (endpointID=%{private}@)"
+- "<<<< AVOutputDevice (FigEndpoint) >>>> %s: Endpoint property '%@' has value: %@"
+- "<<<< AVOutputDevice (FigEndpoint) >>>> %s: Endpoint property '%@' not supported"
+- "<<<< AVOutputDevice (FigEndpoint) >>>> %s: GAPA feature not enabled"
+- "<<<< AVOutputDevice (FigEndpoint) >>>> %s: Operations finished with status %d, error %@"
+- "<<<< AVOutputDevice (FigEndpoint) >>>> %s: RouteUID %@ or RouteName %@ is nil, can't construct description."
+- "<<<< AVOutputDevice (FigEndpoint) >>>> %s: Unrecognized head-tracked spatial audio mode %@"
+- "<<<< AVOutputDevice (FigEndpoint) >>>> %s: Unrecognized mode %@"
+- "<<<< AVOutputDevice (FigEndpoint) >>>> %s: Warning: FigEndpoint implementation is only intended for use on macOS.  Only a subset of possible device types can be communicated by FigEndpoint"
+- "<<<< AVOutputDevice (FigEndpoint) >>>> %s: Warning: FigEndpoint implementation is only intended for use on macOS.  There is no way to discover connected paired devices from FigEndpoint"
+- "<<<< AVOutputDevice (FigEndpoint) >>>> %s: Warning: FigEndpoint implementation is only intended for use on macOS.  There is no way to discover detailed device subtype for most devices from FigEndpoint"
+- "<<<< AVOutputDevice (FigEndpoint) >>>> %s: Warning: FigEndpoint implementation is only intended for use on macOS.  There is no way to get DataOverACL information from FigEndpoint"
+- "<<<< AVOutputDevice (FigEndpoint) >>>> %s: Warning: FigEndpoint implementation is only intended for use on macOS.  There is no way to get isInEar information from FigEndpoint"
+- "<<<< AVOutputDevice (FigEndpoint) >>>> %s: called (endpoint=%@)"
+- "<<<< AVOutputDevice (FigEndpoint) >>>> %s: called (endpointID=%@)"
+- "<<<< AVOutputDevice (FigEndpoint) >>>> %s: called (self=%p, ID=%@, endpointID=%@)"
+- "<<<< AVOutputDevice (FigEndpoint) >>>> %s: called (self=%p, configuratorBlock=%@, options=%@, completionHandler=%@)"
+- "<<<< AVOutputDevice (FigEndpoint) >>>> %s: called (self=%p, figEndpoint=%@)"
+- "<<<< AVOutputDevice (FigEndpoint) >>>> %s: called with endpoint %p"
+- "<<<< AVOutputDevice (FigEndpoint) >>>> %s: called with endpoint %p client %@ reason %@"
+- "<<<< AVOutputDevice (FigRouteDescriptor) >>>> %s: AVOutputDevice %@ already bound to incompatible impl %@"
+- "<<<< AVOutputDevice (FigRouteDescriptor) >>>> %s: Failed to unarchive UTTypeCodingBox: %{public}@"
+- "<<<< AVOutputDevice (FigRouteDescriptor) >>>> %s: GAPA feature not enabled"
+- "<<<< AVOutputDevice (FigRouteDescriptor) >>>> %s: Listener should be the output device route discoverer queue"
+- "<<<< AVOutputDevice (FigRouteDescriptor) >>>> %s: Operations finished with status %d, error %@"
+- "<<<< AVOutputDevice (FigRouteDescriptor) >>>> %s: Using value %d for %@"
+- "<<<< AVOutputDevice (FigRouteDescriptor) >>>> %s: called (endpointID=%@)"
+- "<<<< AVOutputDevice (FigRouteDescriptor) >>>> %s: called (self=%p, ID=%@, endpointID=%@)"
+- "<<<< AVOutputDevice (FigRouteDescriptor) >>>> %s: called (self=%p, configuratorBlock=%@, options=%@, completionHandler=%@)"
+- "<<<< AVOutputDevice (FigRouteDescriptor) >>>> %s: called (self=%p, routeDescriptor=%@)"
+- "<<<< AVOutputDevice >>>> %s: No Output Context to add to!"
+- "<<<< AVOutputDevice >>>> %s: called (self=%p, impl=%@)"
+- "<<<< AVOutputDevice >>>> %s: called (self=%p, options=%@, completionHandler=%p)"
+- "<<<< AVOutputDeviceAuthorizationSession (FigEndpointUIAgent) >>>> %s: called (self=%p)"
+- "<<<< AVOutputDeviceAuthorizationSession (FigEndpointUIAgent) >>>> %s: called (self=%p, request=%@, requestImpl=%@)"
+- "<<<< AVOutputDeviceAuthorizationSession (FigEndpointUIAgent) >>>> %s: called (self=%p, status=%d, error=%@)"
+- "<<<< AVOutputDeviceAuthorizationSession (FigEndpointUIAgent) >>>> %s: called (self=%p, uniqueID=%@, routeDescriptor=%@, pinMode=%d, reason=%@)"
+- "<<<< AVOutputDeviceAuthorizationSession >>>> %s: Received notification %@"
+- "<<<< AVOutputDeviceAuthorizationSession >>>> %s: called (self=%p)"
+- "<<<< AVOutputDeviceAuthorizationSession >>>> %s: called (self=%p, delegate=%@)"
+- "<<<< AVOutputDeviceAuthorizationSession >>>> %s: self=%p, impl=%@, replacementImpl=%@"
+- "<<<< AVOutputDeviceCommunicationChannel (FigRemoteControlSession) >>>> %s: Unrecognized event type: %@"
+- "<<<< AVOutputDeviceCommunicationChannelManager (System Remote Pool) >>>> %s: No AVOutputDevice to connect to!"
+- "<<<< AVOutputDeviceCommunicationChannelManager (System Remote Pool) >>>> %s: No System Remote Pool to add to!"
+- "<<<< AVOutputDeviceCommunicationChannelManager (System Remote Pool) >>>> %s: No comm channel found for ID %@ for device %@, synthesizing one for the delegate."
+- "<<<< AVOutputDeviceCommunicationChannelManager (System Remote Pool) >>>> %s: Removing comm channel UUID %@ for device with ID %@"
+- "<<<< AVOutputDeviceCommunicationChannelManager (System Remote Pool) >>>> %s: called (self=%p)"
+- "<<<< AVOutputDeviceCommunicationChannelManager (System Remote Pool) >>>> %s: called (self=%p, options=%@, completionHandler=%p)"
+- "<<<< AVOutputDeviceCommunicationChannelManager (System Remote Pool) >>>> %s: initialized (self=%p)"
+- "<<<< AVOutputDeviceDiscoverySession (FigRouteDiscoverer) >>>> %s: Failed to copy inactive protocols with err=%d"
+- "<<<< AVOutputDeviceDiscoverySession (FigRouteDiscoverer) >>>> %s: Failed to enable inactive protocols with err=%d"
+- "<<<< AVOutputDeviceDiscoverySession (FigRouteDiscoverer) >>>> %s: FigRouteDiscovererCopyProperty / kFigRouteDiscovererProperty_AvailableRouteDescriptors returned: %@"
+- "<<<< AVOutputDeviceDiscoverySession (FigRouteDiscoverer) >>>> %s: Got %ld inactive protocols from route discoverer"
+- "<<<< AVOutputDeviceDiscoverySession (FigRouteDiscoverer) >>>> %s: Returning %@"
+- "<<<< AVOutputDeviceDiscoverySession (FigRouteDiscoverer) >>>> %s: Returning %lu inactive protocol IDs"
+- "<<<< AVOutputDeviceDiscoverySession (FigRouteDiscoverer) >>>> %s: Successfully enabled inactive protocol discovery"
+- "<<<< AVOutputDeviceDiscoverySession (FigRouteDiscoverer) >>>> %s: Unsupported device feature combination %d"
+- "<<<< AVOutputDeviceDiscoverySession (FigRouteDiscoverer) >>>> %s: called (payload=%@)"
+- "<<<< AVOutputDeviceDiscoverySession (FigRouteDiscoverer) >>>> %s: called (payload=%@), (timeTaken: %llu ms)"
+- "<<<< AVOutputDeviceDiscoverySession (FigRouteDiscoverer) >>>> %s: called (self=%@, class=%@, deviceFeatures=%u)"
+- "<<<< AVOutputDeviceDiscoverySession (FigRouteDiscoverer) >>>> %s: called (self=%p)"
+- "<<<< AVOutputDeviceDiscoverySession (FigRouteDiscoverer) >>>> %s: called (self=%p, routeDiscovererCreator=%@)"
+- "<<<< AVOutputDeviceDiscoverySession (FigRouteDiscoverer) >>>> %s: called (self=%p, session=%p)"
+- "<<<< AVOutputDeviceDiscoverySession (FigRouteDiscoverer) >>>> %s: kFigRouteDiscovererProperty_AvailableRoutes = %@ (err=%d)"
+- "<<<< AVOutputDeviceDiscoverySession (FigRouteDiscoverer) >>>> %s: kFigRouteDiscovererProperty_UserSelectionAvailable = %@"
+- "<<<< AVOutputDeviceDiscoverySession >>>> %s: Available output devices: %@"
+- "<<<< AVOutputDeviceDiscoverySession >>>> %s: Cannot set audioqSessionID on macOS"
+- "<<<< AVOutputDeviceDiscoverySession >>>> %s: Cannot set targetAudioSession on macOS"
+- "<<<< AVOutputDeviceDiscoverySession >>>> %s: Posting %@"
+- "<<<< AVOutputDeviceDiscoverySession >>>> %s: Returning %@"
+- "<<<< AVOutputDeviceDiscoverySession >>>> %s: called (audioSessionID=%@)"
+- "<<<< AVOutputDeviceDiscoverySession >>>> %s: called (self=%p, impl=%@)"
+- "<<<< AVOutputDeviceDiscoverySession >>>> %s: called (targetAudioSession=%@)"
+- "<<<< AVOutputDeviceDiscoverySession >>>> %s: otherDevices = %@"
+- "<<<< AVOutputDeviceDiscoverySession >>>> %s: recentlyUsedDevices = %@"
+- "<<<< AVOutputDeviceGroup >>>> %s: called (self=%p, impl=%@)"
+- "<<<< AVOutputDeviceGroup >>>> %s: outputDevices = %@"
+- "<<<< AVOutputDeviceHID >>>> %s: called (uuid=%@, screenUUID=%@ endpoint=%p)"
+- "<<<< AVOutputDeviceIcon >>>> %s: called (dict=%@)"
+- "<<<< AVOutputDeviceViewAreaInfo >>>> %s: called (dict=%@)"
+- "<<<< AVOutputDeviceViewAreaInfo >>>> %s: called (viewArea=%@, transitionControl=%{BOOL}u, supportsFocusTransfer=%{BOOL}u, statusBarEdge=%@, safeArea=%@)"
+- "<<<< AVRoutingCallbackContextRegistry >>>> %s: registering observer %p (token %p), new observer count %d (self=%p)"
+- "<<<< AVRoutingCallbackContextRegistry >>>> %s: unregistering callback context token %p, new observer count %d (self=%p)"
+- "<<<< AVRoutingError >>>> %s: Could not load localized description for %@ %ld (%@)"
+- "<<<< AVRoutingError >>>> %s: Could not load localized failure reason for %@ %ld (%@)"
+- "<<<< AVRoutingError >>>> %s: Could not load localized recovery suggestion for %@ %ld (%@)"
+- "<<<< AVRoutingError >>>> %s: Could not load localized recovery suggestion or failure reason for %@ %ld (%@)"
+- "<<<< AVRoutingError >>>> %s: Invalid format string '%@', error %@, %@ %ld (%@)"
+- "<<<< AVRoutingOperation >>>> %s: Client block cancelled with status %d (self=%p)"
+- "<<<< AVRoutingOperation >>>> %s: Got unrecognized status %d"
+- "<<<< AVRoutingOperation >>>> %s: Ignoring attempt to cancel before execution has begun.  The expectation is that the implementation will notice the cancelled state as part of normal execution"
+- "<<<< AVRoutingOperation >>>> %s: advancing status from %d to %d (self=%p)"
+- "<<<< AVRoutingOperation >>>> %s: already cancelled (self=%p)"
+- "<<<< AVRoutingOperation >>>> %s: called (self=%@)"
+- "<<<< AVRoutingOperation >>>> %s: called (self=%@, error=%@)"
+- "<<<< AVRoutingOperation >>>> %s: called (self=%p)"
+- "<<<< AVRoutingOperation >>>> %s: called (self=%p, name=%@)"
+- "<<<< AVRoutingOperation >>>> %s: ignoring attempt to move from terminal status %d to status %d"
+- "<<<< AVRoutingOperation >>>> %s: marking as cancelled due to cancellation of dependency (self=%@)"
+- "<<<< AVRoutingOperation >>>> %s: marking as failed due to previous failure in dependency (self=%@)"
+- "<<<< AVRoutingPlaybackArbiter >>>> %s: clearing current external playback status notification listener. adding listener to participant %@"
+- "<<<< AVRoutingPlaybackArbiter >>>> %s: defer setting external playback priority"
+- "<<<< AVRoutingPlaybackArbiter >>>> %s: deregistering participant %@"
+- "<<<< AVRoutingPlaybackArbiter >>>> %s: received AVRoutingPlaybackParticipantExternalPlaybackStatusDidChangeNotification"
+- "<<<< AVRoutingPlaybackArbiter >>>> %s: registering participant %@"
+- "<<<< AVRoutingPlaybackArbiter >>>> %s: reset external playback priority to default for all participants"
+- "<<<< AVRoutingPlaybackArbiter >>>> %s: reset nonmixable audio priority to default for all participants"
+- "<<<< AVRoutingPlaybackArbiter >>>> %s: setting external playback priority on participant %@"
+- "<<<< AVRoutingPlaybackArbiter >>>> %s: setting preferred participant from %@ to %@"
+- "<<<< AVRoutingSessionManager >>>> %s: Returning %@"
+- "<<<< AVRoutingSessionManager >>>> %s: called (self=%p)"
+- "<<<< AVRoutingSessionManager >>>> %s: returning %@ (self=%p)"
+- "<<<< AVRoutingSessionManager >>>> %s: returning %d (self=%p)"
+- "AVDefaultRoutingContextFactory"
+- "AVFigEndpointOutputDeviceImplEndpointRoomVolumeDidChange"
+- "AVFigRouteDescriptorInputDeviceImpl.m"
+- "AVFigRouteDescriptorOutputDeviceImpl.m"
+- "AVFigRouteDescriptorOutputDeviceImplCanSetEndpointVolumeDidChange"
+- "AVFigRouteDescriptorOutputDeviceImplEndpointCanMuteDidChange"
+- "AVFigRouteDescriptorOutputDeviceImplEndpointMutedDidChange"
+- "AVFigRouteDescriptorOutputDeviceImplEndpointRoomVolumeDidChange"
+- "AVFigRouteDescriptorOutputDeviceImplEndpointVolumeControlTypeDidChange"
+- "AVFigRouteDescriptorOutputDeviceImplEndpointVolumeDidChange"
+- "AVFigRouteDiscovererAvailableRoutesChanged"
+- "AVFigRouteDiscovererDiscoveryModeChangedToNone"
+- "AVFigRouteDiscovererEndpointDescriptorChanged"
+- "AVFigRouteDiscovererInputDeviceDiscoverySessionImpl.m"
+- "AVFigRouteDiscovererRoutePresentChanged"
+- "AVFigRoutingContextInputContextImpl.m"
+- "AVFigRoutingContextModificationCallback"
+- "AVInputDeviceRouteDiscovererServerDeathNotificationCallback"
+- "AVOutputContextUsesRouteConfigUpdatedNotification"
+- "AVOutputDeviceCopyFigModeForSpatialAudioMode"
+- "AVOutputDeviceDescriptionsFromFigDescriptions"
+- "AVOutputDeviceGetFigEndpoint"
+- "AVOutputDeviceGetFigRouteDescriptor"
+- "AVOutputDeviceHeadTrackedSpatialAudioModeFromFigMode"
+- "AVOutputDeviceImplIsMutedForEndpointID"
+- "AVRoutingContextRouteChangeOperationRouteChangeComplete"
+- "AVRoutingLocalizedError"
+- "AVRoutingOperationStatusResolveOldAndNew"
+- "AVRoutingOperation_trace"
+- "AVRoutingRouteConfigUpdatedFigRoutingContextRouteChangeOperationRouteConfigUpdated"
+- "AVSystemRemotePoolOutputDeviceCommunicationChannelManagerDidCloseCommChannel"
+- "AVSystemRemotePoolOutputDeviceCommunicationChannelManagerDidReceiveData"
+- "Failed to copy predicted selected route descriptor"
+- "Failed to get CanSetVolume of routing context"
+- "Failed to get input volume of routing context"
+- "Failed to reset predicted selected route descriptor"
+- "Failed to set input volume of routing context"
+- "FigRouteDiscovererCopyProperty / kFigRouteDiscovererProperty_FallbackRouteDescriptor failed"
+- "No endpoint found for route descriptor"
+- "VolumeController failed to setup, returning"
+- "ccr_trace"
+- "err"
+- "kFigRouteDiscovererError_InvalidParameter"
+- "kMXError_AllocationFailed"
+- "non-"
+- "platformutilities_trace"
+- "stringWithValidatedFormatInteger"
+- "stringWithValidatedFormatString"
+```

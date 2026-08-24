@@ -1,0 +1,16 @@
+## AppNotificationsLoggingClient
+
+> `/System/Library/PrivateFrameworks/AppNotificationsLoggingClient.framework/Versions/A/AppNotificationsLoggingClient`
+
+```diff
+
+-667.0.0.0.0
++671.0.1.0.1
+   __TEXT.__text: 0x479c
+   __TEXT.__objc_methlist: 0x300
+-  __TEXT.__const: 0xc0
++  __TEXT.__const: 0xc8
+   __TEXT.__cstring: 0x787
+   __TEXT.__oslogstring: 0x522
+   __TEXT.__gcc_except_tab: 0x70
+```

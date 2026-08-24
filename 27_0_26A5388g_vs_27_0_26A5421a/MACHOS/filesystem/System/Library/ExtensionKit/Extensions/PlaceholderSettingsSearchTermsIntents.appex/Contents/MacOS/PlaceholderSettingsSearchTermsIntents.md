@@ -1,0 +1,456 @@
+## PlaceholderSettingsSearchTermsIntents
+
+> `/System/Library/ExtensionKit/Extensions/PlaceholderSettingsSearchTermsIntents.appex/Contents/MacOS/PlaceholderSettingsSearchTermsIntents`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_entry`
+
+```diff
+
+-2027.0.6.400.0
+-  __TEXT.__text: 0x659d8
+-  __TEXT.__auth_stubs: 0x680
+-  __TEXT.__objc_stubs: 0xc0
+-  __TEXT.__const: 0x14110
+-  __TEXT.__swift5_typeref: 0x3cec
+-  __TEXT.__swift5_reflstr: 0x3253
+-  __TEXT.__swift5_assocty: 0x2218
+-  __TEXT.__constg_swiftt: 0xf44
+-  __TEXT.__swift5_fieldmd: 0x1b14
+-  __TEXT.__cstring: 0x6685
+-  __TEXT.__swift5_proto: 0xf70
+-  __TEXT.__swift5_types: 0x228
+-  __TEXT.__swift_as_entry: 0x7d8
+-  __TEXT.__swift_as_ret: 0x548
+-  __TEXT.__swift_as_cont: 0x290
++2027.0.10.401.0
++  __TEXT.__text: 0x2d194
++  __TEXT.__auth_stubs: 0x480
++  __TEXT.__const: 0x7b60
++  __TEXT.__swift5_typeref: 0x1818
++  __TEXT.__swift5_reflstr: 0x1923
++  __TEXT.__swift5_assocty: 0xd18
++  __TEXT.__constg_swiftt: 0x5d8
++  __TEXT.__swift5_fieldmd: 0xddc
++  __TEXT.__cstring: 0x37c8
++  __TEXT.__swift5_proto: 0x5ec
++  __TEXT.__swift5_types: 0xd4
++  __TEXT.__swift_as_entry: 0x30c
++  __TEXT.__swift_as_ret: 0x208
++  __TEXT.__swift_as_cont: 0x104
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__objc_methname: 0x54
+-  __TEXT.__unwind_info: 0x2ec0
+-  __TEXT.__eh_frame: 0x25d4
+-  __DATA_CONST.__const: 0x5748
++  __TEXT.__unwind_info: 0x12c0
++  __TEXT.__eh_frame: 0xf40
++  __DATA_CONST.__const: 0x27b8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__auth_got: 0x348
+-  __DATA_CONST.__got: 0xb8
+-  __DATA_CONST.__auth_ptr: 0x8c0
+-  __DATA.__objc_selrefs: 0x30
+-  __DATA.__data: 0x2d40
+-  __DATA.__bss: 0x1f020
+-  __DATA.__common: 0x660
++  __DATA_CONST.__auth_got: 0x240
++  __DATA_CONST.__got: 0x78
++  __DATA_CONST.__auth_ptr: 0x618
++  __DATA.__data: 0x1178
++  __DATA.__bss: 0xbe50
++  __DATA.__common: 0x270
+   - /System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
+-  - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/ExtensionFoundation.framework/Versions/A/ExtensionFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+-  - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /System/Library/PrivateFrameworks/PreferencePanesSupport.framework/Versions/A/PreferencePanesSupport
+-  - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 3670
+-  Symbols:   84
+-  CStrings:  791
++  Functions: 1471
++  Symbols:   53
++  CStrings:  453
+ 
+Symbols:
+- _CFEqual
+- _CFGetTypeID
+- _CFNumberGetTypeID
+- _IOHIDEventSystemClientCopyServices
+- _IOHIDEventSystemClientCreateWithType
+- _IOHIDServiceClientCopyProperty
+- _IOIteratorNext
+- _IOMainPort
+- _IOObjectRelease
+- _IOServiceGetMatchingServices
+- _IOServiceMatching
+- _MobileGestalt_get_current_device
+- _MobileGestalt_get_deviceIsPortableMac
+- _OBJC_CLASS_$_MTTGestureBackEnd
+- _OBJC_CLASS_$_NSDictionary
+- _OBJC_CLASS_$_NSNumber
+- _OBJC_CLASS_$_NSUserDefaults
+- ___stack_chk_fail
+- ___stack_chk_guard
+- _kIOMainPortDefault
+- _objc_allocWithZone
+- _objc_msgSend
+- _objc_opt_self
+- _objc_release
+- _objc_retain
+- _objc_retainAutoreleasedReturnValue
+- _swift_dynamicCast
+- _swift_dynamicCastObjCClassUnconditional
+- _swift_getForeignTypeMetadata
+- _swift_getObjCClassMetadata
+- _swift_unknownObjectRelease
+CStrings:
+- "?ClockAppearance"
+- "?Game Controllers"
+- "?GenerativeAssistantSettingsView"
+- "?LocationSharing"
+- "?PurchaseSharing"
+- "?RemoteNotifications"
+- "?ScreenMirroring"
+- "?StartupSearchGroup"
+- "?com.apple.AppleMediaServicesUI.SpyglassPurchases"
+- "Add controls to Control Center"
+- "Announce the time"
+- "App Store subscriptions"
+- "Apple Account Settings"
+- "Apple Intelligence"
+- "AppleHIDMouseVersion"
+- "ApplePreferenceCapability"
+- "ApplePreferenceIdentifier"
+- "Automatic Graphics Switching"
+- "Automatically hide and show the menu bar"
+- "BNBMouseDevice"
+- "Back up and restore files"
+- "CDs & DVDs Settings"
+- "Change the screen saver"
+- "Change the wallpaper"
+- "Classroom Settings"
+- "Clock appearance"
+- "Close and restore windows"
+- "Currency designation"
+- "Date and number formats"
+- "Default web browser"
+- "Desktop & Dock Settings"
+- "Device Management Settings"
+- "Display the time with seconds in the menu bar"
+- "Extended Apple Intelligence & Siri"
+- "Flash the time separators in the menu bar"
+- "Game Center Settings"
+- "Game Controller settings"
+- "Game Controllers"
+- "Game Controllers Settings"
+- "General → Device Management"
+- "General → Language & Region"
+- "General → Startup Disk"
+- "General → Time Machine"
+- "HIDMouseAcceleration"
+- "HIDPointerAccelerationType"
+- "Handle CDs and DVDs"
+- "Hot Corner Shortcuts"
+- "IOBDBlockStorageDevice"
+- "IOCDBlockStorageDevice"
+- "IODVDBlockStorageDevice"
+- "Install, view, or remove configuration profiles"
+- "Keyboard and Mouse Shortcuts"
+- "Language & Region Settings"
+- "Language preference and priority"
+- "Location Sharing"
+- "Magic Mouse gestures"
+- "Media and Purchases"
+- "Menu Bar Settings"
+- "Mouse sensitivity"
+- "Notifications Settings"
+- "Notifications from iPhone"
+- "Notifications settings"
+- "Open Apple Account Settings"
+- "Open CDs & DVDs Settings"
+- "Open Classroom Settings"
+- "Open Desktop & Dock Settings"
+- "Open Device Management Settings"
+- "Open Family Settings"
+- "Open Focus Settings"
+- "Open Game Center Settings"
+- "Open Game Controllers Settings"
+- "Open Language & Region Settings"
+- "Open Menu Bar Settings"
+- "Open Mouse Settings"
+- "Open Notifications Settings"
+- "Open PowerPreferences Settings"
+- "Open Siri Settings"
+- "Open Startup Disk Settings"
+- "Open Time Machine Settings"
+- "Open Trackpad Settings"
+- "Open VPN Settings"
+- "Open Wallet & Apple\u00a0Pay Settings"
+- "Open Wallpaper Settings"
+- "Optimize video streaming"
+- "PowerPreferences Settings"
+- "Prevent automatic sleeping on power adapter when the display is off"
+- "Purchase Sharing"
+- "Recent documents, applications, and servers"
+- "Region for Internet Services"
+- "Show AM/PM in the menu bar"
+- "Show Accessibility Shortcuts in Control Center"
+- "Show Accessibility Shortcuts in the menu bar"
+- "Show AirDrop status in Control Center"
+- "Show AirDrop status in the menu bar"
+- "Show Bluetooth status in Control Center"
+- "Show Bluetooth status in the menu bar"
+- "Show Display status in Control Center"
+- "Show Display status in the menu bar"
+- "Show Do Not Disturb status in Control Center"
+- "Show Do Not Disturb status in the menu bar"
+- "Show Fast User Switching in Control Center"
+- "Show Fast User Switching in the menu bar"
+- "Show Focus status in Control Center"
+- "Show Focus status in the menu bar"
+- "Show Hearing in Control Center"
+- "Show Hearing in the menu bar"
+- "Show Now Playing status in Control Center"
+- "Show Now Playing status in the menu bar"
+- "Show Recognize Music in Control Center"
+- "Show Recognize Music in the menu bar"
+- "Show Siri in the menu bar"
+- "Show Spotlight in the menu bar"
+- "Show Time Machine status in the menu bar"
+- "Show VPN status in the menu bar"
+- "Show Weather in the menu bar"
+- "Show Wi‑Fi status in Control Center"
+- "Show Wi‑Fi status in the menu bar"
+- "Show battery percentage in the menu bar"
+- "Show battery status in Control Center"
+- "Show battery status in the menu bar"
+- "Show day of the week"
+- "Show keyboard brightness status in Control Center"
+- "Show keyboard brightness status in the menu bar"
+- "Show screen mirroring status in Control Center"
+- "Show screen mirroring status in the menu bar"
+- "Show volume in Control Center"
+- "Show volume in the menu bar"
+- "Slightly dim the display on battery"
+- "Stage Manager settings"
+- "Startup Disk Settings"
+- "Target Disk Mode"
+- "Time Machine Settings"
+- "Trackpad Settings"
+- "Trackpad gestures"
+- "Trackpad zooming"
+- "Translation Languages"
+- "Turn Siri on and off"
+- "Wake for network access"
+- "Wallet & Apple Pay"
+- "Wallet & Apple\u00a0Pay"
+- "Wallet & Apple\u00a0Pay Settings"
+- "Wallpaper Settings"
+- "account recovery"
+- "addControlsToControlCenter"
+- "announceTheTime"
+- "apple subscriptions"
+- "appleId"
+- "automaticGraphicsSwitching"
+- "automaticallyHideAndShowTheMenuBar"
+- "backUpAndRestoreFiles"
+- "battery"
+- "battery condition"
+- "battery longevity"
+- "batteryHealth"
+- "best graphics mode"
+- "boolForKey:"
+- "buddy controller"
+- "builtInTrackpadType"
+- "capture highlight"
+- "changeTheScreenSaver"
+- "changeTheWallpaper"
+- "classroom"
+- "clockAppearance"
+- "closeAndRestoreWindows"
+- "com.apple.AppleMultitouchMouse"
+- "com.apple.CD-DVD-Settings.extension"
+- "com.apple.Classroom-Settings.extension"
+- "com.apple.ControlCenter-Settings.extension"
+- "com.apple.Desktop-Settings.extension"
+- "com.apple.Family-Settings.extension"
+- "com.apple.Focus-Settings.extension"
+- "com.apple.Game-Center-Settings.extension"
+- "com.apple.Game-Controller-Settings.extension"
+- "com.apple.GameController"
+- "com.apple.Localization-Settings.extension"
+- "com.apple.Mouse-Settings.extension"
+- "com.apple.NetworkExtensionSettingsUI.NESettingsUIExtension"
+- "com.apple.Notifications-Settings.extension"
+- "com.apple.Profiles-Settings.extension"
+- "com.apple.Startup-Disk-Settings.extension"
+- "com.apple.Time-Machine-Settings.extension"
+- "com.apple.Trackpad-Settings.extension"
+- "com.apple.WalletSettingsExtension"
+- "com.apple.Wallpaper-Settings.extension"
+- "com.apple.graphic-icon.battery"
+- "com.apple.graphic-icon.energy"
+- "com.apple.systempreferences.AppleIDSettings"
+- "currencyDesignation"
+- "dateAndNumberFormats"
+- "decimal separator"
+- "defaultWebBrowser"
+- "desktop"
+- "device management"
+- "displayTheTimeWithSecondsInTheMenuBar"
+- "dockSettings"
+- "documents & data"
+- "extend battery life"
+- "extendedAppleIntelligenceAndSiri"
+- "family"
+- "first day of week"
+- "flashTheTimeSeparatorsInTheMenuBar"
+- "focus"
+- "forceClick"
+- "gameCenter"
+- "gameControllerSettings"
+- "handleCdsAndDvds"
+- "hotCornerShortcuts"
+- "iPhone notifications"
+- "icloud"
+- "important battery message"
+- "incoming network"
+- "increase storage"
+- "initWithSuiteName:"
+- "installViewOrRemoveConfigurationProfiles"
+- "integerValue"
+- "keyboard shortcut"
+- "keyboardAndMouseShortcuts"
+- "languagePreferenceAndPriority"
+- "listen for hey Siri"
+- "location sharing"
+- "locationSharing"
+- "lowPowerMode"
+- "magicMouseGestures"
+- "maximum capacity"
+- "mediaAndPurchases"
+- "mirrored notifications"
+- "monochrome widget"
+- "mouseButtons"
+- "mouseSensitivity"
+- "mouseZooming"
+- "music recognition"
+- "natural scrolling"
+- "notification center"
+- "notificationsFromIphone"
+- "notificationsSettings"
+- "optimize while on battery"
+- "optimizeVideoStreaming"
+- "optimized battery charging"
+- "parental controls"
+- "powerNap"
+- "preventAutomaticSleepingOnPowerAdapterWhenTheDisplayIsOff"
+- "purchaseSharing"
+- "recent applications"
+- "recentDocumentsApplicationsAndServers"
+- "reduce background activity"
+- "reduce energy usage"
+- "regionForInternetServices"
+- "remote notifications"
+- "select text in images"
+- "setUpSpaces"
+- "settings-navigation://com.apple.Settings.AppleAccount"
+- "settings-navigation://com.apple.Settings.Battery"
+- "settings-navigation://com.apple.Settings.CDs_DVDs"
+- "settings-navigation://com.apple.Settings.Classroom"
+- "settings-navigation://com.apple.Settings.ControlCenter"
+- "settings-navigation://com.apple.Settings.DesktopAndDock"
+- "settings-navigation://com.apple.Settings.DeviceManagement"
+- "settings-navigation://com.apple.Settings.Family"
+- "settings-navigation://com.apple.Settings.Focus"
+- "settings-navigation://com.apple.Settings.GameCenter"
+- "settings-navigation://com.apple.Settings.GameController"
+- "settings-navigation://com.apple.Settings.LanguageAndRegion"
+- "settings-navigation://com.apple.Settings.Mouse"
+- "settings-navigation://com.apple.Settings.Notifications"
+- "settings-navigation://com.apple.Settings.Siri"
+- "settings-navigation://com.apple.Settings.StartupDisk"
+- "settings-navigation://com.apple.Settings.TimeMachine"
+- "settings-navigation://com.apple.Settings.Trackpad"
+- "settings-navigation://com.apple.Settings.VPN"
+- "settings-navigation://com.apple.Settings.Wallet"
+- "settings-navigation://com.apple.Settings.Wallpaper"
+- "shared"
+- "shipping address"
+- "showAccessibilityShortcutsInControlCenter"
+- "showAccessibilityShortcutsInTheMenuBar"
+- "showAirdropStatusInControlCenter"
+- "showAirdropStatusInTheMenuBar"
+- "showAmPmInTheMenuBar"
+- "showBatteryPercentageInTheMenuBar"
+- "showBatteryStatusInControlCenter"
+- "showBatteryStatusInTheMenuBar"
+- "showBluetoothStatusInControlCenter"
+- "showBluetoothStatusInTheMenuBar"
+- "showDate"
+- "showDayOfTheWeek"
+- "showDisplayStatusInControlCenter"
+- "showDisplayStatusInTheMenuBar"
+- "showDoNotDisturbStatusInControlCenter"
+- "showDoNotDisturbStatusInTheMenuBar"
+- "showFastUserSwitchingInControlCenter"
+- "showFastUserSwitchingInTheMenuBar"
+- "showFocusStatusInControlCenter"
+- "showFocusStatusInTheMenuBar"
+- "showHearingInControlCenter"
+- "showHearingInTheMenuBar"
+- "showKeyboardBrightnessStatusInControlCenter"
+- "showKeyboardBrightnessStatusInTheMenuBar"
+- "showNowPlayingStatusInControlCenter"
+- "showNowPlayingStatusInTheMenuBar"
+- "showRecognizeMusicInControlCenter"
+- "showRecognizeMusicInTheMenuBar"
+- "showScreenMirroringStatusInControlCenter"
+- "showScreenMirroringStatusInTheMenuBar"
+- "showSiriInTheMenuBar"
+- "showSpotlightInTheMenuBar"
+- "showTimeMachineStatusInTheMenuBar"
+- "showVolumeInControlCenter"
+- "showVolumeInTheMenuBar"
+- "showVpnStatusInTheMenuBar"
+- "showWeatherInTheMenuBar"
+- "showWiFiStatusInControlCenter"
+- "showWiFiStatusInTheMenuBar"
+- "siri"
+- "slightlyDimTheDisplayOnBattery"
+- "stageManager"
+- "stageManagerSettings"
+- "startupDisk"
+- "subscriptions"
+- "swipe between fullscreen apps"
+- "swipe between pages"
+- "system administrator"
+- "targetDiskMode"
+- "trackpadGestures"
+- "trackpadSpeed"
+- "trackpadType"
+- "trackpadZooming"
+- "translationLanguages"
+- "trusted phone number"
+- "turnSiriOnAndOff"
+- "two-factor authentication"
+- "uninterruptible power"
+- "uninterruptible power supply"
+- "ups"
+- "voice variations"
+- "wakeForNetworkAccess"
+- "walletAndApplePay"
+- "widgetSettings"
+- "windowTiling"
+```

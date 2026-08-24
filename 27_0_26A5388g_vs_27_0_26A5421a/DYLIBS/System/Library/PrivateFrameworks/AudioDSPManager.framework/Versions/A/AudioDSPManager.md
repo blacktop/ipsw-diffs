@@ -1,0 +1,445 @@
+## AudioDSPManager
+
+> `/System/Library/PrivateFrameworks/AudioDSPManager.framework/Versions/A/AudioDSPManager`
+
+```diff
+
+-241.108.0.0.0
+-  __TEXT.__text: 0xbe740
++241.110.0.0.0
++  __TEXT.__text: 0xbdca8
+   __TEXT.__realtime: 0x170
+   __TEXT.__init_offsets: 0x10
+   __TEXT.__objc_methlist: 0x7a8
+-  __TEXT.__const: 0xefc8
++  __TEXT.__const: 0xed18
+   __TEXT.__dlopen_cstrs: 0x56
+   __TEXT.__swift5_typeref: 0x2768
+   __TEXT.__swift5_fieldmd: 0x188c
+
+   __TEXT.__swift5_types: 0x218
+   __TEXT.__swift5_reflstr: 0x13ac
+   __TEXT.__swift5_assocty: 0x4c8
+-  __TEXT.__cstring: 0x665f
++  __TEXT.__cstring: 0x642f
+   __TEXT.__swift_as_entry: 0x50
+   __TEXT.__swift_as_ret: 0x44
+   __TEXT.__swift_as_cont: 0x64
+
+   __TEXT.__swift5_mpenum: 0x54
+   __TEXT.__swift5_capture: 0x2cc
+   __TEXT.__gcc_except_tab: 0x7048
+-  __TEXT.__oslogstring: 0x3932
+-  __TEXT.__unwind_info: 0x3b60
++  __TEXT.__oslogstring: 0x3908
++  __TEXT.__unwind_info: 0x3b30
+   __TEXT.__eh_frame: 0x3578
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+
+   __DATA_CONST.__objc_selrefs: 0x560
+   __DATA_CONST.__objc_superrefs: 0x18
+   __DATA_CONST.__got: 0x5b8
+-  __AUTH_CONST.__const: 0x8178
++  __AUTH_CONST.__const: 0x8070
+   __AUTH_CONST.__cfstring: 0xf20
+   __AUTH_CONST.__objc_const: 0x1058
+   __AUTH_CONST.__weak_auth_got: 0x20
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 3587
+-  Symbols:   4420
+-  CStrings:  1203
++  Functions: 3573
++  Symbols:   4387
++  CStrings:  1198
+ 
+Symbols:
++ GCC_except_table1004
++ GCC_except_table1012
++ GCC_except_table1016
++ GCC_except_table1031
++ GCC_except_table1037
++ GCC_except_table1038
++ GCC_except_table1062
++ GCC_except_table1063
++ GCC_except_table1065
++ GCC_except_table1066
++ GCC_except_table1077
++ GCC_except_table1078
++ GCC_except_table1082
++ GCC_except_table1085
++ GCC_except_table1086
++ GCC_except_table1088
++ GCC_except_table1122
++ GCC_except_table1123
++ GCC_except_table1124
++ GCC_except_table1125
++ GCC_except_table1126
++ GCC_except_table1128
++ GCC_except_table1129
++ GCC_except_table1134
++ GCC_except_table1149
++ GCC_except_table1151
++ GCC_except_table1153
++ GCC_except_table1155
++ GCC_except_table1157
++ GCC_except_table1163
++ GCC_except_table1170
++ GCC_except_table1174
++ GCC_except_table1178
++ GCC_except_table1241
++ GCC_except_table1242
++ GCC_except_table1244
++ GCC_except_table1245
++ GCC_except_table1247
++ GCC_except_table1257
++ GCC_except_table1267
++ GCC_except_table1277
++ GCC_except_table1287
++ GCC_except_table1297
++ GCC_except_table1307
++ GCC_except_table1317
++ GCC_except_table1327
++ GCC_except_table1337
++ GCC_except_table1347
++ GCC_except_table1350
++ GCC_except_table1351
++ GCC_except_table1352
++ GCC_except_table1353
++ GCC_except_table1354
++ GCC_except_table1356
++ GCC_except_table1357
++ GCC_except_table1366
++ GCC_except_table1381
++ GCC_except_table1385
++ GCC_except_table1392
++ GCC_except_table1401
++ GCC_except_table1406
++ GCC_except_table1411
++ GCC_except_table1415
++ GCC_except_table1417
++ GCC_except_table1420
++ GCC_except_table1421
++ GCC_except_table1422
++ GCC_except_table1423
++ GCC_except_table1425
++ GCC_except_table1426
++ GCC_except_table1427
++ GCC_except_table1428
++ GCC_except_table1447
++ GCC_except_table1448
++ GCC_except_table1461
++ GCC_except_table1464
++ GCC_except_table1467
++ GCC_except_table1468
++ GCC_except_table1471
++ GCC_except_table1473
++ GCC_except_table1474
++ GCC_except_table1475
++ GCC_except_table1476
++ GCC_except_table1490
++ GCC_except_table1495
++ GCC_except_table1496
++ GCC_except_table1497
++ GCC_except_table1498
++ GCC_except_table1499
++ GCC_except_table1500
++ GCC_except_table1502
++ GCC_except_table1503
++ GCC_except_table1504
++ GCC_except_table1506
++ GCC_except_table1507
++ GCC_except_table1532
++ GCC_except_table1533
++ GCC_except_table1536
++ GCC_except_table1537
++ GCC_except_table1538
++ GCC_except_table1539
++ GCC_except_table1541
++ GCC_except_table1542
++ GCC_except_table1586
++ GCC_except_table1588
++ GCC_except_table1589
++ GCC_except_table1590
++ GCC_except_table1592
++ GCC_except_table1594
++ GCC_except_table1595
++ GCC_except_table1615
++ GCC_except_table1622
++ GCC_except_table1641
++ GCC_except_table1645
++ GCC_except_table1646
++ GCC_except_table1647
++ GCC_except_table1648
++ GCC_except_table1649
++ GCC_except_table1650
++ GCC_except_table1652
++ GCC_except_table1658
++ GCC_except_table1660
++ GCC_except_table1662
++ GCC_except_table1675
++ GCC_except_table1679
++ GCC_except_table1681
++ GCC_except_table1685
++ GCC_except_table1686
++ GCC_except_table1688
++ GCC_except_table1691
++ GCC_except_table1700
++ GCC_except_table1702
++ GCC_except_table1705
++ GCC_except_table1713
++ GCC_except_table1714
++ GCC_except_table1715
++ GCC_except_table1716
++ GCC_except_table1717
++ GCC_except_table1748
++ GCC_except_table892
++ GCC_except_table897
++ GCC_except_table898
++ GCC_except_table899
++ GCC_except_table900
++ GCC_except_table901
++ GCC_except_table902
++ GCC_except_table903
++ GCC_except_table905
++ GCC_except_table906
++ GCC_except_table907
++ GCC_except_table908
++ GCC_except_table911
++ GCC_except_table922
++ GCC_except_table927
++ GCC_except_table930
++ GCC_except_table932
++ GCC_except_table938
++ GCC_except_table951
++ GCC_except_table957
++ GCC_except_table960
++ GCC_except_table962
++ GCC_except_table963
++ GCC_except_table964
++ GCC_except_table965
++ GCC_except_table966
++ GCC_except_table967
++ GCC_except_table970
++ GCC_except_table971
++ GCC_except_table972
++ GCC_except_table992
++ GCC_except_table997
++ GCC_except_table999
+- GCC_except_table1009
+- GCC_except_table1010
+- GCC_except_table1022
+- GCC_except_table1023
+- GCC_except_table1025
+- GCC_except_table1026
+- GCC_except_table1033
+- GCC_except_table1034
+- GCC_except_table1035
+- GCC_except_table1042
+- GCC_except_table1048
+- GCC_except_table1049
+- GCC_except_table1055
+- GCC_except_table1056
+- GCC_except_table1095
+- GCC_except_table1099
+- GCC_except_table1101
+- GCC_except_table1104
+- GCC_except_table1106
+- GCC_except_table1114
+- GCC_except_table1116
+- GCC_except_table1118
+- GCC_except_table1120
+- GCC_except_table1121
+- GCC_except_table1140
+- GCC_except_table1144
+- GCC_except_table1146
+- GCC_except_table1152
+- GCC_except_table1160
+- GCC_except_table1165
+- GCC_except_table1167
+- GCC_except_table1169
+- GCC_except_table1171
+- GCC_except_table1173
+- GCC_except_table1175
+- GCC_except_table1177
+- GCC_except_table1179
+- GCC_except_table1181
+- GCC_except_table1188
+- GCC_except_table1210
+- GCC_except_table1214
+- GCC_except_table1259
+- GCC_except_table1260
+- GCC_except_table1262
+- GCC_except_table1263
+- GCC_except_table1265
+- GCC_except_table1275
+- GCC_except_table1285
+- GCC_except_table1295
+- GCC_except_table1305
+- GCC_except_table1315
+- GCC_except_table1325
+- GCC_except_table1335
+- GCC_except_table1345
+- GCC_except_table1365
+- GCC_except_table1369
+- GCC_except_table1370
+- GCC_except_table1371
+- GCC_except_table1373
+- GCC_except_table1374
+- GCC_except_table1375
+- GCC_except_table1386
+- GCC_except_table1399
+- GCC_except_table1402
+- GCC_except_table1403
+- GCC_except_table1408
+- GCC_except_table1410
+- GCC_except_table1424
+- GCC_except_table1429
+- GCC_except_table1433
+- GCC_except_table1438
+- GCC_except_table1439
+- GCC_except_table1440
+- GCC_except_table1441
+- GCC_except_table1443
+- GCC_except_table1445
+- GCC_except_table1446
+- GCC_except_table1453
+- GCC_except_table1455
+- GCC_except_table1479
+- GCC_except_table1480
+- GCC_except_table1482
+- GCC_except_table1484
+- GCC_except_table1485
+- GCC_except_table1486
+- GCC_except_table1489
+- GCC_except_table1494
+- GCC_except_table1513
+- GCC_except_table1514
+- GCC_except_table1515
+- GCC_except_table1518
+- GCC_except_table1519
+- GCC_except_table1520
+- GCC_except_table1521
+- GCC_except_table1522
+- GCC_except_table1524
+- GCC_except_table1525
+- GCC_except_table1526
+- GCC_except_table1527
+- GCC_except_table1528
+- GCC_except_table1529
+- GCC_except_table1534
+- GCC_except_table1550
+- GCC_except_table1551
+- GCC_except_table1553
+- GCC_except_table1554
+- GCC_except_table1555
+- GCC_except_table1556
+- GCC_except_table1557
+- GCC_except_table1559
+- GCC_except_table1560
+- GCC_except_table1604
+- GCC_except_table1606
+- GCC_except_table1607
+- GCC_except_table1608
+- GCC_except_table1610
+- GCC_except_table1612
+- GCC_except_table1613
+- GCC_except_table1633
+- GCC_except_table1640
+- GCC_except_table1659
+- GCC_except_table1663
+- GCC_except_table1665
+- GCC_except_table1666
+- GCC_except_table1667
+- GCC_except_table1668
+- GCC_except_table1670
+- GCC_except_table1678
+- GCC_except_table1680
+- GCC_except_table1682
+- GCC_except_table1693
+- GCC_except_table1694
+- GCC_except_table1697
+- GCC_except_table1699
+- GCC_except_table1704
+- GCC_except_table1706
+- GCC_except_table1709
+- GCC_except_table1718
+- GCC_except_table1720
+- GCC_except_table1721
+- GCC_except_table1723
+- GCC_except_table1731
+- GCC_except_table1732
+- GCC_except_table1733
+- GCC_except_table1734
+- GCC_except_table1735
+- GCC_except_table1766
+- GCC_except_table918
+- GCC_except_table920
+- GCC_except_table933
+- GCC_except_table934
+- GCC_except_table935
+- GCC_except_table939
+- GCC_except_table940
+- GCC_except_table942
+- GCC_except_table944
+- GCC_except_table945
+- GCC_except_table946
+- GCC_except_table947
+- GCC_except_table948
+- GCC_except_table950
+- GCC_except_table961
+- GCC_except_table974
+- GCC_except_table977
+- GCC_except_table978
+- GCC_except_table980
+- GCC_except_table981
+- GCC_except_table982
+- GCC_except_table983
+- GCC_except_table984
+- GCC_except_table985
+- GCC_except_table993
+- __ZN3adm4util8RTLogger3logIJRjPKcEEEvNS0_10RTLogLevelES5_DpOT_
+- __ZN3adm4util8RTLogger3logIJRjS3_PKcEEEvNS0_10RTLogLevelES5_DpOT_
+- __ZN3adm4util8RTLogger3logIJRmRKmPKcEEEvNS0_10RTLogLevelES7_DpOT_
+- __ZN5caulk10concurrent7details15rt_message_callIZN3adm4util8RTLogger5doLogIJRjPKcEEEvNS4_10RTLogLevelES9_DpOT_EUlvE_JEE10rt_cleanupD2Ev
+- __ZN5caulk10concurrent7details15rt_message_callIZN3adm4util8RTLogger5doLogIJRjPKcEEEvNS4_10RTLogLevelES9_DpOT_EUlvE_JEE7performEv
+- __ZN5caulk10concurrent7details15rt_message_callIZN3adm4util8RTLogger5doLogIJRjPKcEEEvNS4_10RTLogLevelES9_DpOT_EUlvE_JEED0Ev
+- __ZN5caulk10concurrent7details15rt_message_callIZN3adm4util8RTLogger5doLogIJRjPKcEEEvNS4_10RTLogLevelES9_DpOT_EUlvE_JEED1Ev
+- __ZN5caulk10concurrent7details15rt_message_callIZN3adm4util8RTLogger5doLogIJRjS7_PKcEEEvNS4_10RTLogLevelES9_DpOT_EUlvE_JEE10rt_cleanupD2Ev
+- __ZN5caulk10concurrent7details15rt_message_callIZN3adm4util8RTLogger5doLogIJRjS7_PKcEEEvNS4_10RTLogLevelES9_DpOT_EUlvE_JEE7performEv
+- __ZN5caulk10concurrent7details15rt_message_callIZN3adm4util8RTLogger5doLogIJRjS7_PKcEEEvNS4_10RTLogLevelES9_DpOT_EUlvE_JEED0Ev
+- __ZN5caulk10concurrent7details15rt_message_callIZN3adm4util8RTLogger5doLogIJRjS7_PKcEEEvNS4_10RTLogLevelES9_DpOT_EUlvE_JEED1Ev
+- __ZN5caulk10concurrent7details15rt_message_callIZN3adm4util8RTLogger5doLogIJRmRKmPKcEEEvNS4_10RTLogLevelESB_DpOT_EUlvE_JEE10rt_cleanupD2Ev
+- __ZN5caulk10concurrent7details15rt_message_callIZN3adm4util8RTLogger5doLogIJRmRKmPKcEEEvNS4_10RTLogLevelESB_DpOT_EUlvE_JEE7performEv
+- __ZN5caulk10concurrent7details15rt_message_callIZN3adm4util8RTLogger5doLogIJRmRKmPKcEEEvNS4_10RTLogLevelESB_DpOT_EUlvE_JEED0Ev
+- __ZN5caulk10concurrent7details15rt_message_callIZN3adm4util8RTLogger5doLogIJRmRKmPKcEEEvNS4_10RTLogLevelESB_DpOT_EUlvE_JEED1Ev
+- __ZTIN5caulk10concurrent7details12message_callIZN3adm4util8RTLogger5doLogIJRjPKcEEEvNS4_10RTLogLevelES9_DpOT_EUlvE_JEEE
+- __ZTIN5caulk10concurrent7details12message_callIZN3adm4util8RTLogger5doLogIJRjS7_PKcEEEvNS4_10RTLogLevelES9_DpOT_EUlvE_JEEE
+- __ZTIN5caulk10concurrent7details12message_callIZN3adm4util8RTLogger5doLogIJRmRKmPKcEEEvNS4_10RTLogLevelESB_DpOT_EUlvE_JEEE
+- __ZTIN5caulk10concurrent7details15rt_message_callIZN3adm4util8RTLogger5doLogIJRjPKcEEEvNS4_10RTLogLevelES9_DpOT_EUlvE_JEEE
+- __ZTIN5caulk10concurrent7details15rt_message_callIZN3adm4util8RTLogger5doLogIJRjS7_PKcEEEvNS4_10RTLogLevelES9_DpOT_EUlvE_JEEE
+- __ZTIN5caulk10concurrent7details15rt_message_callIZN3adm4util8RTLogger5doLogIJRmRKmPKcEEEvNS4_10RTLogLevelESB_DpOT_EUlvE_JEEE
+- __ZTSN5caulk10concurrent7details12message_callIZN3adm4util8RTLogger5doLogIJRjPKcEEEvNS4_10RTLogLevelES9_DpOT_EUlvE_JEEE
+- __ZTSN5caulk10concurrent7details12message_callIZN3adm4util8RTLogger5doLogIJRjS7_PKcEEEvNS4_10RTLogLevelES9_DpOT_EUlvE_JEEE
+- __ZTSN5caulk10concurrent7details12message_callIZN3adm4util8RTLogger5doLogIJRmRKmPKcEEEvNS4_10RTLogLevelESB_DpOT_EUlvE_JEEE
+- __ZTSN5caulk10concurrent7details15rt_message_callIZN3adm4util8RTLogger5doLogIJRjPKcEEEvNS4_10RTLogLevelES9_DpOT_EUlvE_JEEE
+- __ZTSN5caulk10concurrent7details15rt_message_callIZN3adm4util8RTLogger5doLogIJRjS7_PKcEEEvNS4_10RTLogLevelES9_DpOT_EUlvE_JEEE
+- __ZTSN5caulk10concurrent7details15rt_message_callIZN3adm4util8RTLogger5doLogIJRmRKmPKcEEEvNS4_10RTLogLevelESB_DpOT_EUlvE_JEEE
+- __ZTVN5caulk10concurrent7details15rt_message_callIZN3adm4util8RTLogger5doLogIJRjPKcEEEvNS4_10RTLogLevelES9_DpOT_EUlvE_JEEE
+- __ZTVN5caulk10concurrent7details15rt_message_callIZN3adm4util8RTLogger5doLogIJRjS7_PKcEEEvNS4_10RTLogLevelES9_DpOT_EUlvE_JEEE
+- __ZTVN5caulk10concurrent7details15rt_message_callIZN3adm4util8RTLogger5doLogIJRmRKmPKcEEEvNS4_10RTLogLevelESB_DpOT_EUlvE_JEEE
+- __ZZN3adm4util8RTLogger5doLogIJRjPKcEEEvNS0_10RTLogLevelES5_DpOT_ENKUlvE_clEv
+- __ZZN3adm4util8RTLogger5doLogIJRjS3_PKcEEEvNS0_10RTLogLevelES5_DpOT_ENKUlvE_clEv
+- __ZZN3adm4util8RTLogger5doLogIJRmRKmPKcEEEvNS0_10RTLogLevelES7_DpOT_ENKUlvE_clEv
+CStrings:
++ "updating terminal index to %lu"
+- "Host fault - contract violation: block size [%u] does not match negotiated block size [%u], render cycle  will abort in the future [%s]"
+- "Host fault - contract violation: number of provided input streams [%zu] does not match number of negotiated input streams [%zu], render cycle will abort in the future [%s]"
+- "Host fault - contract violation: number of provided output streams [%zu] does not match number of negotiated output streams [%zu], render cycle  will abort in the future [%s]"
+- "Maximum block size exceeded: %u, render cycle  will abort in the future [%s]"
+- "inbound terminal index set to %lu"
+- "updating inbound terminal index to %lu"
+```

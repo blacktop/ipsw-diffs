@@ -1,0 +1,1247 @@
+## MediaExperience
+
+> `/System/Library/PrivateFrameworks/MediaExperience.framework/Versions/A/MediaExperience`
+
+```diff
+
+-360.70.2.0.0
+-  __TEXT.__text: 0xbb4d4
++360.75.1.0.0
++  __TEXT.__text: 0x979d4
+   __TEXT.__delay_helper: 0xdc
+   __TEXT.__lazy_helpers: 0xa8
+-  __TEXT.__objc_methlist: 0x1e14
++  __TEXT.__objc_methlist: 0x1e1c
+   __TEXT.__const: 0x1e8
+-  __TEXT.__cstring: 0x17252
+-  __TEXT.__oslogstring: 0x17d19
+-  __TEXT.__gcc_except_tab: 0x1340
++  __TEXT.__cstring: 0x11d30
++  __TEXT.__oslogstring: 0xf6e0
++  __TEXT.__gcc_except_tab: 0x1010
+   __TEXT.__dlopen_cstrs: 0x16e
+-  __TEXT.__unwind_info: 0x1bc8
++  __TEXT.__unwind_info: 0x1b00
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x2760
++  __DATA_CONST.__const: 0x2738
+   __DATA_CONST.__objc_classlist: 0xf8
+   __DATA_CONST.__objc_protolist: 0x30
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1340
++  __DATA_CONST.__objc_selrefs: 0x1348
+   __DATA_CONST.__objc_superrefs: 0xd8
+   __DATA_CONST.__objc_arraydata: 0x70
+   __DATA_CONST.__got: 0x7d8
+   __AUTH_CONST.__const: 0x23c0
+-  __AUTH_CONST.__cfstring: 0xb000
++  __AUTH_CONST.__cfstring: 0xad80
+   __AUTH_CONST.__objc_const: 0x3308
+   __AUTH_CONST.__lazy_load_got: 0x8
+   __AUTH_CONST.__objc_dictobj: 0x118
+
+   __AUTH.__objc_data: 0x488
+   __DATA.__objc_ivar: 0x2b4
+   __DATA.__data: 0x3b4
+-  __DATA.__common: 0x220
+-  __DATA.__bss: 0x3b0
++  __DATA.__bss: 0x3e8
++  __DATA.__common: 0x1d0
+   __DATA_DIRTY.__objc_data: 0x528
+-  __DATA_DIRTY.__bss: 0x73c
+-  __DATA_DIRTY.__common: 0x90
++  __DATA_DIRTY.__bss: 0x6fc
++  __DATA_DIRTY.__common: 0x60
+   - /System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 3014
+-  Symbols:   5301
+-  CStrings:  3874
++  Functions: 2756
++  Symbols:   5217
++  CStrings:  2904
+ 
+Symbols:
++ -[MXEndpointDescriptorCache copyAvailableVAEndpoints:]
++ DisposeRoutingContextServerState
++ FigVolumeControllerCopySharedController.err
++ FigVolumeControllerCopySharedController.volumeController
++ GCC_except_table100
++ GCC_except_table109
++ GCC_except_table117
++ GCC_except_table121
++ GCC_except_table126
++ GCC_except_table131
++ GCC_except_table140
++ GCC_except_table172
++ GCC_except_table174
++ GCC_except_table176
++ GCC_except_table178
++ GCC_except_table180
++ GCC_except_table188
++ GCC_except_table192
++ GCC_except_table199
++ GCC_except_table201
++ GCC_except_table206
++ GCC_except_table210
++ GCC_except_table36
++ GCC_except_table40
++ GCC_except_table45
++ GCC_except_table47
++ GCC_except_table65
++ GCC_except_table67
++ GCC_except_table69
++ GCC_except_table71
++ GCC_except_table79
++ GCC_except_table84
++ GCC_except_table85
++ GCC_except_table87
++ GCC_except_table96
++ _FigSignalErrorAtGM
++ ___FigRoutingManagerContextUtilities_AddCurrentlyActivatingEndpoint_block_invoke_3
++ ____routingContextUtilities_checkActivationTimeout_block_invoke
++ ____routingContextUtilities_checkActivationTimeout_block_invoke_2
++ ___block_descriptor_48_e28_i16?0^{OpaqueFigEndpoint=}8l
++ ___block_descriptor_72_e8_32o40o48r56r_e5_v8?0l
++ _fig_log_get_emitter
++ _gMXSystemControllerList
++ _gMXSystemControllerListLock
++ _gSidekickMXSystemControllerList
++ _kFigEndpointDescriptorKey_OnlySupportsRealtimeAudio
++ _kFigEndpointUIAgentPromptInfo_ReasonErrorInfra6GSteerNoCandidate
++ _sCategoryToCategoryMapForTipi
++ _sCategoryToPriorityMapForTipi
++ endpointUIAgentHelper_UIAgentPasswordCallback
++ mxsmInteruptionActionMapper_setUpInterruptionPriorityDictionaries.onceToken
+- FigRouteDiscovererStartServer
+- FigRoutingContextCopyContextForUUID
+- FigRoutingContextCopySidePlayContext
+- FigRoutingContextCopySystemAudioContext
+- FigRoutingContextCopySystemAudioInputContext
+- FigRoutingContextCopySystemMirroringContext
+- FigRoutingContextCopySystemMusicContext
+- FigRoutingContextCopySystemRemoteDisplayContext
+- FigRoutingContextCopySystemRemotePoolContext
+- FigRoutingContextCreateAudioContext
+- FigRoutingContextCreateControlChannelOnlyContext
+- FigRoutingContextCreateVideoContext
+- FigRoutingContextStartServer
+- FigRoutingContextUtilities_LogCurrentState
+- FigRoutingCopyDisplayMenuVideoContext
+- FigVolumeControllerSaveRoutingContextState
+- GCC_except_table108
+- GCC_except_table113
+- GCC_except_table119
+- GCC_except_table123
+- GCC_except_table128
+- GCC_except_table139
+- GCC_except_table142
+- GCC_except_table175
+- GCC_except_table177
+- GCC_except_table179
+- GCC_except_table181
+- GCC_except_table183
+- GCC_except_table191
+- GCC_except_table198
+- GCC_except_table202
+- GCC_except_table207
+- GCC_except_table209
+- GCC_except_table213
+- GCC_except_table37
+- GCC_except_table41
+- GCC_except_table43
+- GCC_except_table57
+- GCC_except_table60
+- GCC_except_table66
+- GCC_except_table68
+- GCC_except_table70
+- GCC_except_table72
+- GCC_except_table81
+- GCC_except_table93
+- GCC_except_table94
+- GCC_except_table98
+- _FigSignalErrorAt3
+- _OUTLINED_FUNCTION_100
+- _OUTLINED_FUNCTION_101
+- _OUTLINED_FUNCTION_102
+- _OUTLINED_FUNCTION_103
+- _OUTLINED_FUNCTION_104
+- _OUTLINED_FUNCTION_105
+- _OUTLINED_FUNCTION_106
+- _OUTLINED_FUNCTION_107
+- _OUTLINED_FUNCTION_108
+- _OUTLINED_FUNCTION_109
+- _OUTLINED_FUNCTION_110
+- _OUTLINED_FUNCTION_49
+- _OUTLINED_FUNCTION_50
+- _OUTLINED_FUNCTION_51
+- _OUTLINED_FUNCTION_52
+- _OUTLINED_FUNCTION_53
+- _OUTLINED_FUNCTION_54
+- _OUTLINED_FUNCTION_55
+- _OUTLINED_FUNCTION_56
+- _OUTLINED_FUNCTION_57
+- _OUTLINED_FUNCTION_58
+- _OUTLINED_FUNCTION_59
+- _OUTLINED_FUNCTION_60
+- _OUTLINED_FUNCTION_61
+- _OUTLINED_FUNCTION_62
+- _OUTLINED_FUNCTION_63
+- _OUTLINED_FUNCTION_64
+- _OUTLINED_FUNCTION_65
+- _OUTLINED_FUNCTION_66
+- _OUTLINED_FUNCTION_67
+- _OUTLINED_FUNCTION_68
+- _OUTLINED_FUNCTION_69
+- _OUTLINED_FUNCTION_70
+- _OUTLINED_FUNCTION_71
+- _OUTLINED_FUNCTION_72
+- _OUTLINED_FUNCTION_73
+- _OUTLINED_FUNCTION_74
+- _OUTLINED_FUNCTION_75
+- _OUTLINED_FUNCTION_76
+- _OUTLINED_FUNCTION_77
+- _OUTLINED_FUNCTION_78
+- _OUTLINED_FUNCTION_79
+- _OUTLINED_FUNCTION_80
+- _OUTLINED_FUNCTION_81
+- _OUTLINED_FUNCTION_82
+- _OUTLINED_FUNCTION_83
+- _OUTLINED_FUNCTION_84
+- _OUTLINED_FUNCTION_85
+- _OUTLINED_FUNCTION_86
+- _OUTLINED_FUNCTION_87
+- _OUTLINED_FUNCTION_88
+- _OUTLINED_FUNCTION_89
+- _OUTLINED_FUNCTION_90
+- _OUTLINED_FUNCTION_91
+- _OUTLINED_FUNCTION_92
+- _OUTLINED_FUNCTION_93
+- _OUTLINED_FUNCTION_94
+- _OUTLINED_FUNCTION_95
+- _OUTLINED_FUNCTION_96
+- _OUTLINED_FUNCTION_97
+- _OUTLINED_FUNCTION_98
+- _OUTLINED_FUNCTION_99
+- __FigEndpointUIAgentRemoteXPC_EnsureClientEstablished_block_invoke
+- __FigRoutingManagerContextUtilities_AddCurrentlyActivatingEndpoint_block_invoke
+- ___FigRoutingContextUtilities_LogCurrentState_block_invoke
+- ___block_descriptor_80_e8_32o40o48r56r_e5_v8?0l
+- __discoveryManager_appendAvailableEndpoints_block_invoke
+- __discoveryManager_shouldSwitchDownBeDelayed_block_invoke
+- __volumeControllerRemote_ensureClientEstablished_block_invoke
+- _discoveryManager_logDiscoverers
+- _discoveryManager_resetSwitchDownTime
+- _gFigEndpointUIAgentXPCRemoteTrace
+- _gFigRouteDiscovererXPCServerTrace
+- _gFigRoutingContextResilientRemoteTrace
+- _gFigRoutingContextXPCRemoteTrace
+- _gFigRoutingContextXPCServerTrace
+- _gFigSystemControllerRemoteClient
+- _gFigSystemControllerTrace
+- _gFigVolumeControllerRemoteTrace
+- _gSTSTrace
+- _routingContextUtilities_getPickingStateString
+- _routingContextUtilities_getSharedContextUtilities
+- _routingManager_getAudioDeviceType
+- mxSystemAudio_removePickedAirPlayEndpoints
+- remoteSystemController_EnsureClientEstablished.err
+- routingContextResilientRemote_replaceRemoteContext
+- routingContextUtilities_getSharedContextUtilities
+CStrings:
++ "%s signalled err=%d at <>:%d"
++ "18:01:47"
++ "Aug  8 2026"
++ "FigRoutingManagerContextUtilities_AddCurrentlyActivatingEndpoint_block_invoke_2"
++ "Infra6GSteerNoCandidate"
++ "OnlySupportsRealtimeAudio"
++ "RouteChangeOptionKey_ReplacesActiveEndpoint"
++ "_routingContextUtilities_checkActivationTimeout_block_invoke"
+- " Auth Info should be valid"
+- " GroupID:%@::"
+- "%@ UUID:%@::"
+- "%s%s%s signalled err=%d (%s) (%s) at %s:%d"
+- "+[AVSystemControllerCommon postNotificationOnMainQueue:notification:object:]_block_invoke"
+- "+[MXSystemController(Common) mxSystemControllerListAddInstance:isSidekick:]"
+- "+[MXSystemController(Common) updateMXSystemControllerList]"
+- "-666"
+- "-AVSystemController_Common- %s:  failed: '%@'"
+- "-AVSystemController_Common- %s: [%p] %@ -> %@"
+- "-AVSystemController_Common- %s: [%p] %@ forKey:%@"
+- "-AVSystemController_Common- %s: [%p] posting notification '%@' with payload='%@'"
+- "-AVSystemController_Desktop- %s: Failed to create AVSystemController, [super init] returned nil"
+- "-AVSystemController_Desktop- %s: FigSystemControllerStartStevenoteManager returned err: %d"
+- "-CMSMUtilities- %s: notification '%@' being posted to client '%@'"
+- "-CMSMUtilities- %s: notification '%@' being posted to client '%@' for session '%@'"
+- "-FigEndpointDescriptorUtility- %s: endpoint or descriptor is NULL"
+- "-FigEndpointUIAgent- %s: Copy password %p for %@"
+- "-FigEndpointUIAgent- %s: Invalidate called %p"
+- "-FigEndpointUIAgent- %s: Set auth value for %p, prompt dismissed %d"
+- "-FigEndpointUIAgent- %s: Set password from keychain value for %p, "
+- "-FigEndpointUIAgentHelper- %s: AirPlay screen started"
+- "-FigEndpointUIAgentHelper- %s: AirPlay screen stopped"
+- "-FigEndpointUIAgentHelper- %s: AirPlayUIAgent callback %@"
+- "-FigEndpointUIAgentHelper- %s: AirPlayUIAgentPassword callback %@"
+- "-FigEndpointUIAgentHelper- %s: Clean up prompt for %@ %s password"
+- "-FigEndpointUIAgentHelper- %s: EndpointUIAgent (%p) notification received %@"
+- "-FigEndpointUIAgentHelper- %s: Prompt dismissed "
+- "-FigEndpointUIAgentHelper- %s: Saving password %@ "
+- "-FigEndpointUIAgentXPCRemote- %s:  EndpointUIAgent Remote Client created %d"
+- "-FigEndpointUIAgentXPCRemote- %s:  EndpointUIAgent created %p"
+- "-FigEndpointUIAgentXPCRemote- %s:  EndpointUIAgent device awake call %p"
+- "-FigEndpointUIAgentXPCRemote- %s:  EndpointUIAgent setting current ui agent %p (%d)"
+- "-FigEndpointUIAgentXPCRemote- %s: (%p)"
+- "-FigEndpointUIAgentXPCServer- %s: Completed opCode '%c%c%c%c' err = %d"
+- "-FigEndpointUIAgentXPCServer- %s: Endpoint agent %p not found"
+- "-FigEndpointUIAgentXPCServer- %s: FigEndpointUIAgent Server Started"
+- "-FigEndpointUIAgentXPCServer- %s: Number of Endpoint Agents %ld"
+- "-FigEndpointUIAgentXPCServer- %s: Posting %@ on Agent %p"
+- "-FigEndpointUIAgentXPCServer- %s: Posting %@ on CURRENT Agent %p"
+- "-FigEndpointUIAgentXPCServer- %s: Posting %@ on agent %p"
+- "-FigEndpointUIAgentXPCServer- %s: Posting %@ on current Agent %p"
+- "-FigEndpointUIAgentXPCServer- %s: Remove endpoint agent %p "
+- "-FigEndpointUIAgentXPCServer- %s: Server not created! "
+- "-FigEndpointUIAgentXPCServer- %s: Set AuthInfo %p "
+- "-FigEndpointUIAgentXPCServer- %s: Set password from keychain %p "
+- "-FigEndpointUIAgentXPCServer- %s: Starting opCode '%c%c%c%c'"
+- "-FigEndpointUIAgentXPCServer- %s: Unknown opCode: 0x%0x"
+- "-FigEndpointUIAgentXPCServer- %s: Updating to current agent %p"
+- "-FigEndpointUIAgentXPCServer- %s: Updating to current agent %p to %{public}@"
+- "-FigRouteDiscoverer- %s: (%p) %@"
+- "-FigRouteDiscoverer- %s: Posting availableRoutesChanged for discoverer %p"
+- "-FigRouteDiscoverer- %s: Posting notification routePresentChanged for discoverer %p clientName: %{public}@ type: %{public}@"
+- "-FigRouteDiscoverer- %s: Unexpected type %d"
+- "-FigRouteDiscoverer- %s: cache miss for %{public}@"
+- "-FigRouteDiscovererXPCRemote- %s: (%p) %@"
+- "-FigRouteDiscovererXPCRemote- %s: (%p) Discovered %d Endpoint(s)"
+- "-FigRouteDiscovererXPCRemote- %s: Dead connection callback %lld"
+- "-FigRouteDiscovererXPCServer- %s: %ld routes reported available by concrete endpoint discoverer"
+- "-FigRouteDiscovererXPCServer- %s: ->for cache endpoint in discoverer %p"
+- "-FigRouteDiscovererXPCServer- %s: Completed opCode '%c%c%c%c' err = %d"
+- "-FigRouteDiscovererXPCServer- %s: Discoverer has entitlements to access available routes: %d"
+- "-FigRouteDiscovererXPCServer- %s: FigRouteDiscoverer Server Started"
+- "-FigRouteDiscovererXPCServer- %s: Replying with objectAdditions %p containing %ld IDs"
+- "-FigRouteDiscovererXPCServer- %s: Replying with objectSubtractions %p containing %ld IDs"
+- "-FigRouteDiscovererXPCServer- %s: Starting opCode '%c%c%c%c'"
+- "-FigRouteDiscovererXPCServer- %s: Unknown opCode: 0x%0x"
+- "-FigRouteDiscoveryManager- %s: %@\n"
+- "-FigRouteDiscoveryManager- %s: AirPlay endpointPresent: %{public}@"
+- "-FigRouteDiscoveryManager- %s: Discovery manager not started!"
+- "-FigRouteDiscoveryManager- %s: Discovery mode: Desired %@ and aggregate: %@"
+- "-FigRouteDiscoveryManager- %s: Endpoint Present %@ for type %d"
+- "-FigRouteDiscoveryManager- %s: Endpoint manager=%@ does not support any of the requested features. Requested: %d, supported: %d"
+- "-FigRouteDiscoveryManager- %s: Error: Something is terribly wrong, we should never come here. Please file a bug against MediaExperience | all discoveryMode=%@"
+- "-FigRouteDiscoveryManager- %s: Invalid requested features"
+- "-FigRouteDiscoveryManager- %s: New discovery mode is higher. oldMode = %@, newMode = %@."
+- "-FigRouteDiscoveryManager- %s: No endpoint managers!"
+- "-FigRouteDiscoveryManager- %s: Number of available endpoints %ld for type %d"
+- "-FigRouteDiscoveryManager- %s: Number of discoverers (%ld)"
+- "-FigRouteDiscoveryManager- %s: Original Dictionary:"
+- "-FigRouteDiscoveryManager- %s: Posting availableRoutesChanged for discoverer %p"
+- "-FigRouteDiscoveryManager- %s: Posting notification to all discoverers %@"
+- "-FigRouteDiscoveryManager- %s: Registering a new discoverer (%p)"
+- "-FigRouteDiscoveryManager- %s: Resetting switch down time leaving discovery mode in detailed for type %d"
+- "-FigRouteDiscoveryManager- %s: Starting switch down timer for %lld leaving discovery mode in detailed for type %d"
+- "-FigRouteDiscoveryManager- %s: Store discoverer (%p) for type %u"
+- "-FigRouteDiscoveryManager- %s: Switch down timer expired updating discovery mode to latest requested for type %d"
+- "-FigRouteDiscoveryManager- %s: Switchdown timer fired"
+- "-FigRouteDiscoveryManager- %s: Unsupported feature %u"
+- "-FigRouteDiscoveryManager- %s: Updated Dictionary"
+- "-FigRouteDiscoveryManager- %s: Updating available endpoints"
+- "-FigRouteDiscoveryManager- %s: Waiting for timer expiry [current %lld, timeout %lld]- leaving discovery mode in detailed for type %d"
+- "-FigRouteDiscoveryManager- %s: inPowerLogEventName = %{public}@, powerLogData = %{private}@\n"
+- "-FigRouteDiscoveryManager- %s: posting notification: %{public}@ with payload: %{public}@"
+- "-FigRoutingContext- %s: (%p) %@"
+- "-FigRoutingContext- %s: Called"
+- "-FigRoutingContext- %s: Can't copy picked contexts (err = %d)"
+- "-FigRoutingContext- %s: Copied routingContext with context id: %@"
+- "-FigRoutingContext- %s: Copied system context of type %d"
+- "-FigRoutingContext- %s: Creating routingContext with context id: %@"
+- "-FigRoutingContext- %s: Dropped non-AirPlay endpoint %@"
+- "-FigRoutingContext- %s: Failed to get subendpoints for aggregate endpoint %@ (err=%d)"
+- "-FigRoutingContext- %s: Include AirPlay endpoint %@ in subendpoint list"
+- "-FigRoutingContext- %s: Include subendpoint %@ in picked endpoint list"
+- "-FigRoutingContext- %s: Include subendpoint %@ in subendpoint list"
+- "-FigRoutingContext- %s: Registered routingContext with context id: %@"
+- "-FigRoutingContext- %s: Subendpoint %@ has invalid type"
+- "-FigRoutingContext- %s: Subendpoint at index %d is NULL, skipping"
+- "-FigRoutingContext- %s: Subendpoint at index %ld is NULL, skipping"
+- "-FigRoutingContext- %s: [%@] Called"
+- "-FigRoutingContext- %s: completionContext is NULL!"
+- "-FigRoutingContext- %s: picked contexts: %@"
+- "-FigRoutingContext- %s: picked endpoints: %@"
+- "-FigRoutingContextResilientRemote- %s: Error replacing remote routing context: %d"
+- "-FigRoutingContextResilientRemote- %s: Error: %d"
+- "-FigRoutingContextResilientRemote- %s: Exceeded maximum retry count in %d tries, just failing (err=%d)"
+- "-FigRoutingContextResilientRemote- %s: Failed to post notification %@ from %p"
+- "-FigRoutingContextResilientRemote- %s: Forwarding notification %@ (listener=%p, notifyingObject=%p, payload=%@)"
+- "-FigRoutingContextResilientRemote- %s: No context type specified; falling back to creating a temporary context and asking it for its type.  This is subject to failure if mediaserverd crashes right...about...now"
+- "-FigRoutingContextResilientRemote- %s: Not forwarding notification %@ from not-current remote context %p (current remote context: %p)"
+- "-FigRoutingContextResilientRemote- %s: Server died: Let's make a new remote context (routingContext=%p)"
+- "-FigRoutingContextResilientRemote- %s: Server died: Over retry limit, not making a new remote context (routingContext=%p)"
+- "-FigRoutingContextResilientRemote- %s: Start listening to %@ on %p"
+- "-FigRoutingContextResilientRemote- %s: Stop listening to %@ on %p"
+- "-FigRoutingContextResilientRemote- %s: Successfully created a new remote context; resetting retry count (routingContext=%p)"
+- "-FigRoutingContextResilientRemote- %s: Unhandled routing context type %d.  Falling back to fetching context by ID with options %@"
+- "-FigRoutingContextResilientRemote- %s: Using shared audio context %@"
+- "-FigRoutingContextResilientRemote- %s: [%p] Replacement remote context: %p"
+- "-FigRoutingContextResilientRemote- %s: [%p] Start listening to remote context %p"
+- "-FigRoutingContextResilientRemote- %s: [%p] Stop listening to remote context %p"
+- "-FigRoutingContextXPCRemote- %s:  Copied existing remote context %p with objectID %llx"
+- "-FigRoutingContextXPCRemote- %s:  Copy context for UUID %@..."
+- "-FigRoutingContextXPCRemote- %s:  Copying a system context..."
+- "-FigRoutingContextXPCRemote- %s:  Created new remote context %p with objectID %llx"
+- "-FigRoutingContextXPCRemote- %s:  Creating new context..."
+- "-FigRoutingContextXPCRemote- %s:  Endpoint Name: %@"
+- "-FigRoutingContextXPCRemote- %s:  Routing Context Remote Client created %d"
+- "-FigRoutingContextXPCRemote- %s: (%p) %@"
+- "-FigRoutingContextXPCRemote- %s: (%p) objID %llx uuid %@"
+- "-FigRoutingContextXPCRemote- %s: Completed opCode '%c%c%c%c' err = %d"
+- "-FigRoutingContextXPCRemote- %s: Creating remote context with objectID %llx failed with err=%d"
+- "-FigRoutingContextXPCRemote- %s: Dead connection callback %016llx"
+- "-FigRoutingContextXPCRemote- %s: Failed to find entry for completionID %llu"
+- "-FigRoutingContextXPCRemote- %s: FigXPCRemoteClientRetainCopiedObject failed with err = %d"
+- "-FigRoutingContextXPCRemote- %s: Handling completion callback for entry %llu"
+- "-FigRoutingContextXPCRemote- %s: Removing UUID %@"
+- "-FigRoutingContextXPCRemote- %s: Routing context object ID is 0 for index=%ld"
+- "-FigRoutingContextXPCRemote- %s: Starting opCode '%c%c%c%c'"
+- "-FigRoutingContextXPCRemote- %s: Unknown opCode: 0x%0x"
+- "-FigRoutingContextXPCServer- %s:  Endpoint Name: %@"
+- "-FigRoutingContextXPCServer- %s: %ld endpoints reported available FigRoutingContextCopySelectedRoutes"
+- "-FigRoutingContextXPCServer- %s: Associate routingContext [%p] with client pid: %d, server state: [%p]"
+- "-FigRoutingContextXPCServer- %s: Completed opCode '%c%c%c%c' err = %d"
+- "-FigRoutingContextXPCServer- %s: Copying selected route"
+- "-FigRoutingContextXPCServer- %s: Disposing server state [%p]"
+- "-FigRoutingContextXPCServer- %s: FigRouting Context Server Started"
+- "-FigRoutingContextXPCServer- %s: Received send command completion callback for completionID %lld"
+- "-FigRoutingContextXPCServer- %s: Received send command message for completionID: %lld"
+- "-FigRoutingContextXPCServer- %s: Received send command message with no completionCallbackParams"
+- "-FigRoutingContextXPCServer- %s: Received send data completion callback for completionID %lld"
+- "-FigRoutingContextXPCServer- %s: Received send data message for completionID: %lld"
+- "-FigRoutingContextXPCServer- %s: Received send data message with no completionCallbackParams"
+- "-FigRoutingContextXPCServer- %s: Starting opCode '%c%c%c%c'"
+- "-FigRoutingContextXPCServer- %s: Unable to get client PID!"
+- "-FigRoutingContextXPCServer- %s: Unexpected contextType: %llu"
+- "-FigRoutingContextXPCServer- %s: Unknown opCode: 0x%0x"
+- "-FigRoutingContextXPCServer- %s: [%p] Closing commChannels: %@"
+- "-FigRoutingContextXPCServer- %s: [%p] Registered (%@, %@) ==> %@"
+- "-FigRoutingContextXPCServer- %s: [%p] Unregistered (%@, %@) ==> %@"
+- "-FigRoutingContextXPCServer- %s: routingContext isSystemRoutingContext: %d, and has entitlements to set endpoint: %d"
+- "-FigRoutingManager- %s: %@ %@ %@"
+- "-FigRoutingManager- %s: %@ endpointIDs=%@ %@"
+- "-FigRoutingManager- %s: Activating aggregate endpoint failed with error=%d"
+- "-FigRoutingManager- %s: Adding following options to the aggregate. %{public}@"
+- "-FigRoutingManager- %s: Authorization type is %@, there is no FigEndpointSetProperty associated with it"
+- "-FigRoutingManager- %s: Bluetooth endpoint manager created %p\n"
+- "-FigRoutingManager- %s: CFUUIDCreate resulted in NULL UUID"
+- "-FigRoutingManager- %s: Copying available endpoints from AirPlay endpoint manager returned err=%d"
+- "-FigRoutingManager- %s: Endpoint (%@) no longer picked for UUID %@, not deactivating"
+- "-FigRoutingManager- %s: Endpoint = %@ is already NOT active"
+- "-FigRoutingManager- %s: Error getting AirPlay endpoint manager"
+- "-FigRoutingManager- %s: FigRoutingManager_HandleDidReceiveDataFromCommChannelDelegate for commChannelUUID=%{public}@"
+- "-FigRoutingManager- %s: FigRoutingManager_HandleDidReceiveDataFromCommChannelDelegate for commChannelUUID=%{public}@, deviceID=%{private}@, endpointName=%{public}@"
+- "-FigRoutingManager- %s: No AirPlay endpoint manager was found"
+- "-FigRoutingManager- %s: Picking timeout for %@"
+- "-FigRoutingManager- %s: Queue creation failed for creating BT endpoint manager!"
+- "-FigRoutingManager- %s: Register context called"
+- "-FigRoutingManager- %s: Register context with UUID called"
+- "-FigRoutingManager- %s: Routing context options has both avoidAuthPrompt and SilentSender set to true. It should only be one!"
+- "-FigRoutingManager- %s: Sub endpoint info was not provided in the inFailureInfo dictionary"
+- "-FigRoutingManager- %s: called for [%p], routingContextUUID=%@"
+- "-FigRoutingManager- %s: endpoint is NULL"
+- "-FigRoutingManager- %s: endpointToDeactivate is NULL"
+- "-FigRoutingManager- %s: inCommChannelUUID is NULL"
+- "-FigRoutingManager- %s: inData is NULL"
+- "-FigRoutingManager- %s: inEndpoint is NULL"
+- "-FigRoutingManager- %s: inEndpoint is NULL!"
+- "-FigRoutingManager- %s: inFailureInfo is NULL"
+- "-FigRoutingManager- %s: inSubEndpoint is NULL!"
+- "-FigRoutingManager- %s: outGroupUUID is NULL"
+- "-FigRoutingManager- %s: routingContextUUID is NULL"
+- "-FigRoutingManagerContextUtilities- %s: %@"
+- "-FigRoutingManagerContextUtilities- %s: Adding activated endpoint [%p] for %@ (%@)"
+- "-FigRoutingManagerContextUtilities- %s: CMSession/MX: endpointToFindID was found to be NULL for device name=%@, type=%@"
+- "-FigRoutingManagerContextUtilities- %s: Checking if following context %@ (%@) has a picked endpoint"
+- "-FigRoutingManagerContextUtilities- %s: Error initializing ContextUtilities: no callback provided"
+- "-FigRoutingManagerContextUtilities- %s: Error initializing ContextUtilities: null ContextState"
+- "-FigRoutingManagerContextUtilities- %s: Leader existed, resetting the leader"
+- "-FigRoutingManagerContextUtilities- %s: Leader for other types should never be more than 1"
+- "-FigRoutingManagerContextUtilities- %s: No leader for UUID %@"
+- "-FigRoutingManagerContextUtilities- %s: Removing a leader, current leader count is %ld"
+- "-FigRoutingManagerContextUtilities- %s: Removing activated endpoint [%p] for %@ (%@)"
+- "-FigRoutingManagerContextUtilities- %s: Resetting UUID leader info for follower %@ (%@); no longer following %@ (%@)"
+- "-FigRoutingManagerContextUtilities- %s: Routing Context utilities created"
+- "-FigRoutingManagerContextUtilities- %s: Routing manager %p failed to create system routing context of type %@ with err: %d"
+- "-FigRoutingManagerContextUtilities- %s: RoutingContext type needs to be system video display menu"
+- "-FigRoutingManagerContextUtilities- %s: Set picking state to %@ for %@ (%@)"
+- "-FigRoutingManagerContextUtilities- %s: Setting UUID leader %@ (%@) for follower %@ (%@)"
+- "-FigRoutingManagerContextUtilities- %s: Starting following defaultLeaderUUID since pickedEndpoint is NULL for %@ (%@)"
+- "-FigRoutingManagerContextUtilities- %s: UUID  or endpoint is NULL"
+- "-FigRoutingManagerContextUtilities- %s: UUID  or routeUID is NULL"
+- "-FigRoutingManagerContextUtilities- %s: UUID %@ is unexpected"
+- "-FigRoutingManagerContextUtilities- %s: UUID %@ not found"
+- "-FigRoutingManagerContextUtilities- %s: Unexpected UUID %@"
+- "-FigRoutingManagerContextUtilities- %s: Unexpected index value %ld"
+- "-FigRoutingManagerContextUtilities- %s: Unexpected type %d"
+- "-FigRoutingManagerContextUtilities- %s: context was not found for UUID=%@"
+- "-FigRoutingManagerContextUtilities- %s: found leader context %@ (%@) has a picked endpoint"
+- "-FigRoutingManagerContextUtilities- %s: picking timer fired for '%@' '%@' (pickingState=%u)"
+- "-FigRoutingManagerContextUtilities- %s: routingContextUUID %@ not found"
+- "-FigRoutingManagerContextUtilities- %s: routingContextUUID is NULL"
+- "-FigRoutingManager_SystemRemotePool- %s: Extended endpoint is NULL for deviceID=%{private}@, commChannelUUID=%{public}@"
+- "-FigRoutingManager_SystemRemotePool- %s: Extended endpoint is NULL for deviceID=%{private}@, options=%{public}@"
+- "-FigRoutingManager_SystemRemotePool- %s: FigEndpointAggregateAddEndpoint returned err=%d"
+- "-FigRoutingManager_SystemRemotePool- %s: Sub endpoint info was not provided in the inFailureInfo dictionary. Delegate for error=%{public}d, failureType=%{public}@"
+- "-FigRoutingManager_SystemRemotePool- %s: commChannelUUID is NULL"
+- "-FigRoutingManager_SystemRemotePool- %s: completionContext is NULL!"
+- "-FigRoutingManager_SystemRemotePool- %s: data is NULL"
+- "-FigRoutingManager_SystemRemotePool- %s: deviceID is NULL"
+- "-FigRoutingManager_SystemRemotePool- %s: endpointToAdd is NULL - notify clients of no-op operation"
+- "-FigRoutingManager_SystemRemotePool- %s: endpointToRemove is NULL - notify clients of no-op operatio"
+- "-FigRoutingManager_SystemRemotePool- %s: inEndpoint is NULL"
+- "-FigRoutingManager_SystemRemotePool- %s: inFailureInfo is NULL"
+- "-FigRoutingManager_SystemRemotePool- %s: inSubEndpoint is NULL!"
+- "-FigRoutingManager_SystemRemotePool- %s: outCommChannelUUID is NULL"
+- "-FigRoutingManager_macOSAudio- %s: Picking non-AirPlay and non-NULL endpoint '%@' on context of type '%@'. This is NOT supported."
+- "-FigRoutingManager_macOSAudio- %s: Picking non-NULL endpoint '%@' on context of type '%@'. This is NOT supported."
+- "-FigRoutingManager_macOSCoreAudio- %s: Error, no bluetooth endpoints found, nothing to do here..."
+- "-FigRoutingManager_macOSCoreAudio- %s: Error=%d in copying deviceUID from deviceID=%u"
+- "-FigRoutingManager_macOSCoreAudio- %s: Error=%d in getting dataSize"
+- "-FigRoutingManager_macOSCoreAudio- %s: Error=%d in retrieving audio device type for deviceID=%u"
+- "-FigRoutingManager_macOSCoreAudio- %s: Number of audio devices is 0"
+- "-FigRoutingManager_macOSCoreAudio- %s: Unexpected endpoint type %@"
+- "-FigRoutingManager_macOSCoreAudio- %s: foundMatch=%d, BTAudioObjectID=%d, audioDeviceID=%d"
+- "-FigSTS_Common- %s:  did not find entry point %s of dylib %s"
+- "-FigSTS_Common- %s: Creation function for flavor %@"
+- "-FigSTS_Common- %s: did not find dylib %s - %s"
+- "-FigSystemController- %s: *** ** * Unknown property %@"
+- "-FigSystemController- %s: Failed to allocate property mapping dictionary"
+- "-FigSystemController- %s: Finalizing FigSystemController for client with PID %d"
+- "-FigSystemController- %s: [%p] created MXSystemController %p for client with PID: %d"
+- "-FigSystemController- %s: [%p] property %@"
+- "-FigSystemControllerRemote- %s: (%p/%016llx) property %@"
+- "-FigSystemControllerRemote- %s: (%p/%016llx) property %@ value %p"
+- "-FigSystemControllerRemote- %s: FigSystemController remote created %p/%016llx"
+- "-FigSystemControllerRemote- %s: FigSystemControllerRemoteClient is successfully created %p"
+- "-FigSystemControllerRemote- %s: FigXPCRemoteClientCreate failed with error=%d, gFigSystemControllerRemoteClient=%p"
+- "-FigSystemControllerServer- %s: Creating FigSystemController with ClientLinkedSDK=%d clientPID=%d"
+- "-FigSystemControllerServer- %s: Finished no-reply  opCode '%c%c%c%c' object %p/%016llx"
+- "-FigSystemControllerServer- %s: Finished opCode '%c%c%c%c' object %p/%016llx"
+- "-FigSystemControllerServer- %s: Starting no-reply opCode '%c%c%c%c' object %p/%016llx"
+- "-FigSystemControllerServer- %s: Starting opCode '%c%c%c%c' object %p/%016llx"
+- "-FigSystemControllerServer- %s: Unknown no-reply opCode: '%c%c%c%c'"
+- "-FigSystemControllerServer- %s: Unknown opCode: '%c%c%c%c'"
+- "-FigVolumeController- %s: ***** Reached finalize of singleton object = %p! File a bug for component 'CoreMedia Routing'. *****"
+- "-FigVolumeController- %s: Adding volumeNotificationListeners for endpoint = %@"
+- "-FigVolumeController- %s: FigVolumeController currently does not support routingContextUUID=%@, routingContextType=%@"
+- "-FigVolumeController- %s: Mute called for endppointID=%{public}@; however, endpoint is currently not picked! Mute is not set!"
+- "-FigVolumeController- %s: Posting %@ with payload = %@"
+- "-FigVolumeController- %s: Removing volume notification listeners for endpoint = %@"
+- "-FigVolumeController- %s: The Sub-Endpoint ID is Null!"
+- "-FigVolumeController- %s: Unable to find RoutingContextUUID for endpoint=%{public}@. Volume is not set!"
+- "-FigVolumeController- %s: Value for inVolume %f is out of range"
+- "-FigVolumeController- %s: Volume %.3f called for endpointName=%{public}@; however, endpoint is currently not picked! Volume is not set!"
+- "-FigVolumeController- %s: endpoint is NULL, unable to find maxSubEndpointVolume"
+- "-FigVolumeController- %s: endpoint is Null"
+- "-FigVolumeController- %s: endpoint is not a FigEndpoint"
+- "-FigVolumeController- %s: endpointName = %@, endpointID = %@, outSupportsVolumeControl = %s"
+- "-FigVolumeController- %s: endpointName = %@, endpointID = %@, outVolume = %f"
+- "-FigVolumeController- %s: get endpointVolume = %.3f for endpointName=%@"
+- "-FigVolumeController- %s: get mainVolume = %@"
+- "-FigVolumeController- %s: inEndpoint %p or inEndpointID %p is NULL"
+- "-FigVolumeController- %s: inEndpoint %p or outVolume %p is NULL"
+- "-FigVolumeController- %s: inEndpoint is NULL"
+- "-FigVolumeController- %s: inRoutingContext %p is NULL or outSupportsVolumeOperations %p is NULL"
+- "-FigVolumeController- %s: inRoutingContext %p or outMainVolumeControlSupported %p is NULL"
+- "-FigVolumeController- %s: inRoutingContext %p or outMainVolumeControlType %p is NULL"
+- "-FigVolumeController- %s: inRoutingContext is NULL"
+- "-FigVolumeController- %s: inRoutingContextUUID %@ is NULL"
+- "-FigVolumeController- %s: inRoutingContextUUID %@ is NULL or value for inVolume %f is out of range"
+- "-FigVolumeController- %s: inRoutingContextUUID %@ or outMainVolume %p is NULL"
+- "-FigVolumeController- %s: inRoutingContextUUID is NULL"
+- "-FigVolumeController- %s: inSubEndpoint is NULL"
+- "-FigVolumeController- %s: outVolumeController = %p, err = %d"
+- "-FigVolumeController- %s: outVolumeController is NULL"
+- "-FigVolumeController- %s: payload is not a CFDictionary"
+- "-FigVolumeController- %s: routingContext = %@, mainVolumeControlSupported = %s"
+- "-FigVolumeController- %s: routingContext = %@, mainVolumeControlType = %s"
+- "-FigVolumeController- %s: routingContext = %@, outVolume = %f"
+- "-FigVolumeController- %s: routingContext = %@, supportsVolumeOperations = %s"
+- "-FigVolumeController- %s: routingContextUUID %@ is NULL"
+- "-FigVolumeController- %s: set endpointVolume = %@ for endpointName=%@"
+- "-FigVolumeController- %s: set mainVolume = %@"
+- "-FigVolumeController- %s: subEndpointID %{public}@ is not part of PSG Cluster"
+- "-FigVolumeController- %s: supportsVolumeController = true because all endpoints are bluetooth"
+- "-FigVolumeController- %s: supportsVolumeController = true because endpoint is AirPlay aggregate and routing context supports volume controller"
+- "-FigVolumeController- %s: supportsVolumeController = true because endpoint subtype is 3rd party TV"
+- "-FigVolumeController- %s: volumeController = %p"
+- "-FigVolumeControllerServer- %s: Handle opCode '%c%c%c%c'"
+- "-FigVolumeControllerServer- %s: Invalid clientPID, Unable to get client name!"
+- "-FigVolumeControllerServer- %s: Unknown opCode: 0x%0x ('%c%c%c%c')"
+- "-FigVolumeControllerServer- %s: volumeController = %p, canUseForRoutingContext = %s"
+- "-FigVolumeControllerServer- %s: volumeController = %p, endpointID = %@, canSetEndpointVolume = %s"
+- "-FigVolumeControllerServer- %s: volumeController = %p, endpointID = %@, endpointVolumeControlType = %d"
+- "-FigVolumeControllerServer- %s: volumeController = %p, endpointID = %@, outVolume = %f"
+- "-FigVolumeControllerServer- %s: volumeController = %p, endpointID = %@, subEndpointID = %@, endpointVolumeControlType = %d"
+- "-FigVolumeControllerServer- %s: volumeController = %p, endpointID = %@, subendpointID = %@ outVolume = %f"
+- "-FigVolumeControllerServer- %s: volumeController = %p, objectID = %llu"
+- "-FigVolumeControllerServer- %s: volumeController = %p, routingContext = %@, canSetMasterVolume = %s"
+- "-FigVolumeControllerServer- %s: volumeController = %p, routingContext = %@, masterVolumeControlType = %d"
+- "-FigVolumeControllerServer- %s: volumeController = %p, routingContext = %@, outVolume = %f"
+- "-MXAggregateEndpoint- %s: Called endpoint (%p) inPropertyKey %{public}@"
+- "-MXAggregateEndpoint- %s: Calling FigEndpointActivateWithCompletionCallback endpoint (%p)"
+- "-MXAggregateEndpoint- %s: Calling FigEndpointAggregateAddEndpoint endpoint (%p)"
+- "-MXAggregateEndpoint- %s: Calling FigEndpointAggregateRemoveEndpoint endpoint (%p)"
+- "-MXAggregateEndpoint- %s: Calling FigEndpointCopyProperty endpoint (%p) inPropertyKey %{public}@"
+- "-MXAggregateEndpoint- %s: Calling FigEndpointDelegateAuthorization endpoint (%p)"
+- "-MXAggregateEndpoint- %s: Calling FigEndpointSendCommandWithCompletionCallback endpoint (%p)"
+- "-MXAggregateEndpoint- %s: Calling FigEndpointSendData endpoint (%p)"
+- "-MXAggregateEndpoint- %s: Calling FigEndpointSetDelegateRemoteControl endpoint (%p)"
+- "-MXAggregateEndpoint- %s: Calling FigEndpointSetDelegateRouting endpoint (%p)"
+- "-MXAggregateEndpoint- %s: Calling FigEndpointSetProperty endpoint (%p) inPropertyKey %{public}@"
+- "-MXAggregateEndpoint- %s: Received notification %{public}@"
+- "-MXAudioContext_macOS- %s: Sub endpoint info was not provided in the inFailureInfo dictionary"
+- "-MXAudioContext_macOS- %s: endpoint to deactivate is NULL"
+- "-MXAudioContext_macOS- %s: inAggregate is NULL, but it should have been created when the context %{private}@ was created"
+- "-MXAudioContext_macOS- %s: inCommChannelUUID is NULL"
+- "-MXAudioContext_macOS- %s: inData is NULL"
+- "-MXAudioContext_macOS- %s: inEndpoint is NULL"
+- "-MXAudioContext_macOS- %s: inEndpoint is NULL!"
+- "-MXAudioContext_macOS- %s: inFailureInfo is NULL"
+- "-MXAudioContext_macOS- %s: mxAudioContext_handleDidReceiveDataFromCommChannelDelegate for commChannelUUID=%{public}@"
+- "-MXCoreSession- %s: '%@' setting interruptionStyle: %s"
+- "-MXCoreSession- %s: Adding MXSession to existing list of MXCoreSession (%@)."
+- "-MXCoreSession- %s: BeginInterruption called for %@"
+- "-MXCoreSession- %s: Changing deprecated StopEveryoneAllowingResumption to %s"
+- "-MXCoreSession- %s: Client UUIDs = %{public}@"
+- "-MXCoreSession- %s: Client with CoreSessionID = %@, Name = %@, Category = %@, changed the mode to %@"
+- "-MXCoreSession- %s: Client with CoreSessionID = %@, Name = %@, changed the category to %@"
+- "-MXCoreSession- %s: Created a new list for MXCoreSession with ID = %@"
+- "-MXCoreSession- %s: Enabling BT recording preference for client %@, oldCategory = %@, new category = %@"
+- "-MXCoreSession- %s: Invalid interruptionStyle: %ld\n"
+- "-MXCoreSession- %s: Releasing MXCoreSession with ID = %@, clientPID = %@"
+- "-MXCoreSession- %s: Releasing MXSession(%llu), CoreSessionID = %@, number of MXSession(s) = %ld"
+- "-MXCoreSession- %s: Removing CoreSessionID = %@ and MXSession entries from the MapTable."
+- "-MXCoreSession- %s: Session %{public}@ is already active."
+- "-MXCoreSession- %s: Session %{public}@ is already inactive."
+- "-MXCoreSession- %s: Session %{public}@ is already playing or recording."
+- "-MXCoreSession- %s: Session %{public}@ is already playing or recording. Updating its playing state before deactivating."
+- "-MXCoreSession- %s: Setting modified MACAddress = %{public}@"
+- "-MXCoreSession- %s: deviceUUIDs unchanged (%@), skipping update and hijack"
+- "-MXCoreSession- %s: input/output = %{public}@, MACAddress = %{public}@"
+- "-MXCoreSession- %s: isModeValid(%@) for %@~%@"
+- "-MXCoreSession- %s: mixing -> non-mixing: calling BeginInterruption"
+- "-MXCoreSessionBase- %s: Client '%@' %@ recently activated"
+- "-MXCoreSessionBase- %s: Client '%@' is setting isActive to '%{BOOL}u'"
+- "-MXCoreSessionBase- %s: Releasing MXCoreSessionBase with ID = %@, clientPID = %@"
+- "-MXCoreSessionBase- %s: setting client name of [%p] to: '%@'"
+- "-MXCoreSessionSecureCommon- %s: '%@' setting CoreSessionID to %d"
+- "-MXCoreSessionSecureCommon- %s: Number of MXSessionSecure: %lu"
+- "-MXCoreSessionSecureCommon- %s: Number of MXSessions: %lu"
+- "-MXNowPlayingServices- %s: BundleID is %@, this is a browser."
+- "-MXNowPlayingServices- %s: BundleID is null, returning."
+- "-MXNowPlayingServices- %s: Cache = %@"
+- "-MXRoutingContextCallbackHelper- %s: Called (%p)"
+- "-MXSession- %s: Copying property = %@"
+- "-MXSession- %s: Deallocating MXSession (ID = %llu), CoreSessionID = (%llu), clientPID = %{public}@, displayID = %{public}@"
+- "-MXSession- %s: Ignoring ClientType for now as it will be AudioSession always."
+- "-MXSession- %s: Ignoring SubscribeToNotifications for now."
+- "-MXSession- %s: Re-setting/Clearing 'category' on CoreSession"
+- "-MXSession- %s: Re-setting/Clearing 'mode' on CoreSession"
+- "-MXSession- %s: Setting %@ from list of properties on CoreSession"
+- "-MXSession- %s: Setting IAmTheAssistant = %@ on CoreSession %@"
+- "-MXSession- %s: Setting IsEligibleForBTSmartRoutingConsideration = %{public}@."
+- "-MXSession- %s: Setting audioSessionID = %@ on CoreSession"
+- "-MXSession- %s: Setting bundleID = %@ on CoreSession"
+- "-MXSession- %s: Setting category = %@ from list of properties on CoreSession"
+- "-MXSession- %s: Setting category = %@ on CoreSession"
+- "-MXSession- %s: Setting clientName = %@ on CoreSession"
+- "-MXSession- %s: Setting clientName = %{public}@."
+- "-MXSession- %s: Setting deviceUUIDs = %{public}@."
+- "-MXSession- %s: Setting enableBluetoothRecordingPreference = %{public}@."
+- "-MXSession- %s: Setting isPlaying = %@ on CoreSession %@"
+- "-MXSession- %s: Setting isRecording = %@ on CoreSession"
+- "-MXSession- %s: Setting isUsingBuiltInMicForRecording = %@ on CoreSession %@"
+- "-MXSession- %s: Setting mode = %@ from list of properties on CoreSession"
+- "-MXSession- %s: Setting mode = %@ on CoreSession"
+- "-MXSession- %s: Setting property = %@"
+- "-MXSessionManager- %s: Going to request for ownership on shared route %@, isDoingIO = %{BOOL}u, score = %d, deviceID = %@"
+- "-MXSessionManager- %s: Not adding systemSounds to the list to be sent over to audioaccessoryd."
+- "-MXSessionManager- %s: Posting notification to session with ID %@"
+- "-MXSessionManager- %s: Removed CoreSession (%@) from CoreSessionMapTable."
+- "-MXSessionManager- %s: Session optedForInterruption = %{BOOL}u, session = %@"
+- "-MXSessionManagerInterruptionActionMapper- %s: Could not load InterruptionPriorityForTipi.plist"
+- "-MXSessionManagerInterruptionActionMapper- %s: playingInfo.displayID=%@, playingInfo.audioCategory=%@, playingInfo.audioMode=%@, priority=%d"
+- "-MXSessionManagerSecure- %s: Number of MXCoreSessionSecure: %lu"
+- "-MXSessionManagerSecure- %s: Number of MXCoreSessions: %lu"
+- "-MXSessionManagerUtilities_Desktop- %s: category = %@, enableBluetooth = %s, newCategory = %@"
+- "-MXSystemAudio_macOS- %s: Sub endpoint info was not provided in the inFailureInfo dictionary"
+- "-MXSystemAudio_macOS- %s: endpoint to deactivate is NULL"
+- "-MXSystemAudio_macOS- %s: endpointToAdd is NULL"
+- "-MXSystemAudio_macOS- %s: inAggregate is NULL, but it should have been created when the context %{private}@ was created"
+- "-MXSystemAudio_macOS- %s: inCommChannelUUID is NULL"
+- "-MXSystemAudio_macOS- %s: inData is NULL"
+- "-MXSystemAudio_macOS- %s: inEndpoint is NULL"
+- "-MXSystemAudio_macOS- %s: inFailureInfo is NULL"
+- "-MXSystemAudio_macOS- %s: mxSystemAudio_handleDidReceiveDataFromCommChannelDelegate for commChannelUUID=%{public}@"
+- "-MXSystemAudio_macOS- %s: routingContextUUID is NULL"
+- "-MXSystemController- %s: Copying property %@"
+- "-MXSystemController- %s: Did not find entry point 'APDemoManagerStartWithClientPid' of dylib '%s'"
+- "-MXSystemController- %s: Finalizing MXSystemController for Client with PID = %d"
+- "-MXSystemController- %s: MXSystemController created for Client with PID = %d/%d"
+- "-MXSystemController- %s: Notification %@ clientHasSubscribedToNotification %d "
+- "-MXSystemController- %s: Posting Notification %@ to MXSystemController %@"
+- "-MXSystemController- %s: Posting Notification %@ to registered MXSystemControllers."
+- "-MXSystemController- %s: Property %@ returned err = %d"
+- "-MXSystemController- %s: Setting Property %@ to value %@"
+- "-MXSystemController- %s: Starting APDemoManagerStartWithClientPid with pid: %d"
+- "-MXSystemController- %s: did not find dylib '%s': %s\n"
+- "-MXSystemController_Common- %s: Number of MXSidekickSystemController: %lu"
+- "-MXSystemController_Common- %s: Number of MXSystemController: %lu"
+- "-VolumeControllerRemote- %s: #### SINGLETON VOLUME CONTROLLER SHOULD NEVER BE FINALIZED. File a bug for CoreMedia AP Music. ####"
+- "-VolumeControllerRemote- %s: Discovered serverDied, releasing remote volumeController %p"
+- "-VolumeControllerRemote- %s: Need to acquire new remote volumeController..."
+- "-VolumeControllerRemote- %s: Posting notification = %@ with payload = %@"
+- "-VolumeControllerRemote- %s: VolumeController remote client created err = %d"
+- "-VolumeControllerRemote- %s: VolumeController singleton %p forgetting remote volumeController %p, new remote volumeController = %p"
+- "-VolumeControllerRemote- %s: remoteVolumeController = %p"
+- "-VolumeControllerRemote- %s: serverDied"
+- "-VolumeControllerRemote- %s: volumeController = %p, canUseForRoutingContext = %s"
+- "-VolumeControllerRemote- %s: volumeController = %p, endpointID = %@, canSetEndpointVolume = %s"
+- "-VolumeControllerRemote- %s: volumeController = %p, endpointID = %@, delta = %f"
+- "-VolumeControllerRemote- %s: volumeController = %p, endpointID = %@, mute = %s"
+- "-VolumeControllerRemote- %s: volumeController = %p, endpointID = %@, outCanSetMute = %s"
+- "-VolumeControllerRemote- %s: volumeController = %p, endpointID = %@, outEndpointMute = %s"
+- "-VolumeControllerRemote- %s: volumeController = %p, endpointID = %@, outEndpointVolume = %f"
+- "-VolumeControllerRemote- %s: volumeController = %p, endpointID = %@, outEndpointVolumeControlType = %d"
+- "-VolumeControllerRemote- %s: volumeController = %p, endpointID = %@, outMute = %s"
+- "-VolumeControllerRemote- %s: volumeController = %p, endpointID = %@, subEndpointID = %@, mute = %s"
+- "-VolumeControllerRemote- %s: volumeController = %p, endpointID = %@, volume = %f"
+- "-VolumeControllerRemote- %s: volumeController = %p, routingContext = %p, canSetMasterVolume = %s"
+- "-VolumeControllerRemote- %s: volumeController = %p, routingContext = %p, delta = %f"
+- "-VolumeControllerRemote- %s: volumeController = %p, routingContext = %p, masterVolumeControlType = %d"
+- "-VolumeControllerRemote- %s: volumeController = %p, routingContext = %p, mute = %s"
+- "-VolumeControllerRemote- %s: volumeController = %p, routingContext = %p, outCanSetMute = %s"
+- "-VolumeControllerRemote- %s: volumeController = %p, routingContext = %p, outMute = %s"
+- "-VolumeControllerRemote- %s: volumeController = %p, routingContext = %p, outVolume = %f"
+- "-VolumeControllerRemote- %s: volumeController = %p, routingContext = %p, volume = %f"
+- "-[AVSystemController init]"
+- "-[AVSystemController startStevenoteManager:]"
+- "-[AVSystemControllerCommon attributeForKey:]"
+- "-[AVSystemControllerCommon setAttribute:forKey:error:]"
+- "-[FigRemoteRoutingContextFactory copySidePlayContextWithAllocator:options:context:]"
+- "-[FigRemoteRoutingContextFactory copySystemAudioContextWithAllocator:options:context:]"
+- "-[FigRemoteRoutingContextFactory copySystemAudioInputContextWithAllocator:options:context:]"
+- "-[FigRemoteRoutingContextFactory copySystemMirroringContextWithAllocator:options:context:]"
+- "-[FigRemoteRoutingContextFactory copySystemMusicContextWithAllocator:options:context:]"
+- "-[FigRemoteRoutingContextFactory copySystemRemoteDisplayContextWithAllocator:options:context:]"
+- "-[MXCoreSession dealloc]"
+- "-[MXCoreSession isModeValidForCategory:]"
+- "-[MXCoreSession registerMXSession:mxCoreSessionID:]"
+- "-[MXCoreSession setEnableBluetoothRecordingPreference:]"
+- "-[MXCoreSession unregisterMXSession:]"
+- "-[MXCoreSessionBase dealloc]"
+- "-[MXCoreSessionBase setIsActive:]"
+- "-[MXCoreSessionBase updateClientName:]"
+- "-[MXCoreSessionBase wasRecentlyActivated]"
+- "-[MXCoreSessionSecure addMXSessionSecure:]"
+- "-[MXCoreSessionSecure removeMXSessionSecure:]"
+- "-[MXCoreSessionSecure setPropertyForKey:value:]_block_invoke"
+- "-[MXNowPlayingServices didAppRegisterForCanBeNowPlaying:]"
+- "-[MXNowPlayingServices isAppNowPlaying:]"
+- "-[MXRoutingContextCallbackHelper dealloc]"
+- "-[MXRoutingContextCallbackHelper initWithRoutingContext:routeConfigUpdateID:correlationID:callback:context:numberOfEndpoints:]"
+- "-[MXSession(InterfaceImpl) _dealloc]"
+- "-[MXSession(InterfaceImpl) _setProperties:]"
+- "-[MXSessionManager copyCoreSessionForID:]"
+- "-[MXSessionManager unregisterMXCoreSession:]"
+- "-[MXSessionManager(Common) getBluetoothCustomizedAlternateCategory:enableBluetooth:]"
+- "-[MXSessionManagerSecure addMXCoreSessionSecure:]"
+- "-[MXSessionManagerSecure removeMXCoreSessionSecure:]"
+- "-[MXSessionSecure copyPropertyForKeyInternal:valueOut:]"
+- "-[MXSessionSecure setPropertyForKeyInternal:value:fromPropertiesBatch:]"
+- "-[MXSystemController dealloc]"
+- "-[MXSystemController initWithPID:]_block_invoke"
+- "-[MXSystemController startStevenoteManagerInternal:]_block_invoke"
+- "-[MXSystemController(InternalUse) copyAttributeForKeyInternal:withValueOut:]"
+- "22:02:36"
+- "Add UIAgent listener failed!!"
+- "Add audio listener for default device failed!!"
+- "Add audio listener for device list failed!!"
+- "AudioCategory is NULL."
+- "AudioMode is NULL."
+- "CFDictionaryCreate failed!!"
+- "Calling process is not entitled to fetch system contexts"
+- "ClientName is NULL."
+- "ClientPID cannot be 0"
+- "ClientSecTask is NULL."
+- "Could not allocate PerUIAgent state"
+- "Could not create DiscovererServerState"
+- "Could not create RoutingContextServerState"
+- "Could not create endpointAgentServerState"
+- "Could not create endpointUIAgents"
+- "Couldn't find completion entry"
+- "CreateCompletionCallbackParametersFromMessageAndConnection"
+- "CreateDiscovererServerState"
+- "CreateEndpointAgentServerState"
+- "CreatePerUIAgentState"
+- "CreateRoutingContextServerState"
+- "Current Endpoints: %@ ::"
+- "Current Picked Endpoint Descriptors: %@ ::"
+- "CurrentUIAgent"
+- "DeviceUUIDs are NULL."
+- "DisplayID is NULL."
+- "DisposeRoutingContextServerState"
+- "Error copying options"
+- "Expected a FigVolumeController"
+- "Failed allocating array"
+- "Failed allocating cache queue"
+- "Failed allocating dictionary"
+- "Failed allocating mutex"
+- "Failed allocating notification queue"
+- "Failed allocating queue"
+- "Failed to allocate callback parameters"
+- "Failed to allocate queries"
+- "Failed to copy fallback route descriptor"
+- "Failed to copy predicted selected route descriptor"
+- "Failed to create MXSystemController"
+- "Failed to create notification queue"
+- "Failed to create remote context replacement queue"
+- "Failed to dlsym symbol AirPlayStartServicesInMXProcess"
+- "Failed to get a token for change notification"
+- "Failed to reset predicted route"
+- "FigEndpointUIAgent.m"
+- "FigEndpointUIAgentCopyCurrentEndpointUIAgent"
+- "FigEndpointUIAgentHelper_CleanupPromptWithReason"
+- "FigEndpointUIAgentHelper_NotifyAirPlayScreenStarted"
+- "FigEndpointUIAgentHelper_NotifyAirPlayScreenStopped"
+- "FigEndpointUIAgentRemoteXPC.m"
+- "FigEndpointUIAgentRemoteXPC_EnsureClientEstablished_block_invoke"
+- "FigEndpointUIAgentServerXPC.m"
+- "FigEndpointUIAgentStartServer"
+- "FigEndpointUIAgentXPCRemoteCreate"
+- "FigRemoteRoutingContextFactory.m"
+- "FigRouteDiscovererCopyUserSelectionAvailable"
+- "FigRouteDiscovererRemoteXPC_CopyProperty"
+- "FigRouteDiscovererRemoteXPC_SetProperty"
+- "FigRouteDiscovererServerXPC.m"
+- "FigRouteDiscovererStartServer"
+- "FigRouteDiscovererUpdateCachedRouteInformation"
+- "FigRouteDiscovereryManagerIsNewDiscoveryModeHigher"
+- "FigRouteDiscoveryManagerAddDiscoverer"
+- "FigRouteDiscoveryManagerCopyRoutePresentForType"
+- "FigRouteDiscoveryManagerCopyRoutesForTypeAndAudioSessionID"
+- "FigRouteDiscoveryManagerPowerLogDiscoveryLevelChange_block_invoke"
+- "FigRouteDiscoveryManagerStoreDiscoverer_block_invoke_2"
+- "FigRoutingContextCopyContextForUUID"
+- "FigRoutingContextCopySidePlayContext"
+- "FigRoutingContextCopySystemAudioContext"
+- "FigRoutingContextCopySystemAudioInputContext"
+- "FigRoutingContextCopySystemMirroringContext"
+- "FigRoutingContextCopySystemMusicContext"
+- "FigRoutingContextCopySystemRemoteDisplayContext"
+- "FigRoutingContextCopySystemRemotePoolContext"
+- "FigRoutingContextCreateAudioContext"
+- "FigRoutingContextCreateControlChannelOnlyContext"
+- "FigRoutingContextCreateVideoContext"
+- "FigRoutingContextRemoteCopyAllAudioContexts"
+- "FigRoutingContextResilientRemoteCopyContextForUUID"
+- "FigRoutingContextResilientRemoteCopyContextForUUID_block_invoke"
+- "FigRoutingContextResilientRemoteCopyDefaultContext"
+- "FigRoutingContextResilientRemoteCreate"
+- "FigRoutingContextServerStateCloseAndUnregisterAllCommChannels"
+- "FigRoutingContextServerStateRegisterCommChannelForDeviceID"
+- "FigRoutingContextServerStateUnregisterCommChannelForDeviceID"
+- "FigRoutingContextServerXPC.m"
+- "FigRoutingContextStartServer"
+- "FigRoutingContextUtilities_CopyLeaderUUIDArrayForContext_block_invoke"
+- "FigRoutingContextUtilities_CopyLeaderUUIDForContext_block_invoke"
+- "FigRoutingContextUtilities_CreateStateInfoStringForContext_block_invoke"
+- "FigRoutingContextUtilities_DoesArrayOfEndpointsContainEndpoint"
+- "FigRoutingContextUtilities_IsFollowingAnotherContext_block_invoke"
+- "FigRoutingContextUtilities_LogCurrentState"
+- "FigRoutingContextUtilities_LogCurrentState_block_invoke"
+- "FigRoutingContextUtilities_LogSystemContextCreationErrorIfNeeded"
+- "FigRoutingContextUtilities_RemoveLeaderUUIDFromContext_block_invoke"
+- "FigRoutingContextXPCHandleCopyPredictedSelectedRouteDescriptorMessage"
+- "FigRoutingContextXPCHandleCopySelectedRouteMessage"
+- "FigRoutingContextXPCHandleCopySelectedRoutesMessage"
+- "FigRoutingContextXPCHandleResetPredictedSelectedRouteDescriptorMessage"
+- "FigRoutingContextXPCHandleSendCommandMessage"
+- "FigRoutingContextXPCHandleSendDataForDeviceIDMessage"
+- "FigRoutingContextXPCHandleSendDataMessage"
+- "FigRoutingContextXPCHandleSetEndpointMessage"
+- "FigRoutingContextXPCHandleSetRouteDescriptorMessage"
+- "FigRoutingCopyDisplayMenuVideoContext"
+- "FigRoutingManagerAddEndpointToAggregate"
+- "FigRoutingManagerContextUtilities_AddActivatedEndpoint_block_invoke"
+- "FigRoutingManagerContextUtilities_AddCurrentlyActivatingEndpoint_block_invoke"
+- "FigRoutingManagerContextUtilities_AddCurrentlyActivatingSubEndpoints_block_invoke"
+- "FigRoutingManagerContextUtilities_CopyActivatedEndpointsInfo_block_invoke"
+- "FigRoutingManagerContextUtilities_CopyAggregateEndpointAsFigEndpointAggregate_block_invoke"
+- "FigRoutingManagerContextUtilities_CopyAggregateEndpointAsFigEndpoint_block_invoke"
+- "FigRoutingManagerContextUtilities_CopyArrayOfFollowerUUIDs_block_invoke"
+- "FigRoutingManagerContextUtilities_CopyCachedSelectedRouteDescriptors_block_invoke"
+- "FigRoutingManagerContextUtilities_CopyCurrentlyActivatingEndpointInfoAtIndex_block_invoke"
+- "FigRoutingManagerContextUtilities_CopyCurrentlyActivatingEndpointsInfo_block_invoke"
+- "FigRoutingManagerContextUtilities_CopyCurrentlyActivatingEndpoints_block_invoke"
+- "FigRoutingManagerContextUtilities_CopyCurrentlyActivatingSubEndpoints_block_invoke"
+- "FigRoutingManagerContextUtilities_CopyHijackID_block_invoke"
+- "FigRoutingManagerContextUtilities_CopyHypotheticalPickedEndpointAfterRemoval_block_invoke"
+- "FigRoutingManagerContextUtilities_CopyPickedEndpointAtIndex_block_invoke"
+- "FigRoutingManagerContextUtilities_CopyPickedEndpoints_block_invoke"
+- "FigRoutingManagerContextUtilities_GetActivationSeedForEndpoint_block_invoke"
+- "FigRoutingManagerContextUtilities_GetContextType_block_invoke"
+- "FigRoutingManagerContextUtilities_GetIndexOfCurrentlyActivatingEndpoint_block_invoke"
+- "FigRoutingManagerContextUtilities_GetMainVolumeScaleFactorForEndpointID_block_invoke"
+- "FigRoutingManagerContextUtilities_GetPickingState_block_invoke"
+- "FigRoutingManagerContextUtilities_IsContextSystemMusicAndIndependent_block_invoke"
+- "FigRoutingManagerContextUtilities_IsContextSystemRemoteDisplay_block_invoke"
+- "FigRoutingManagerContextUtilities_RemoveActivatedEndpoint_block_invoke"
+- "FigRoutingManagerContextUtilities_RemoveContext_block_invoke"
+- "FigRoutingManagerContextUtilities_RemoveCurrentlyActivatingEndpointInfoAtIndex_block_invoke"
+- "FigRoutingManagerContextUtilities_ResetCurrentlyActivatingEndpointInfo_block_invoke"
+- "FigRoutingManagerContextUtilities_SaveCommChannelUUID_block_invoke"
+- "FigRoutingManagerContextUtilities_SetMainVolumeScaleFactorForEndpointID_block_invoke"
+- "FigRoutingManagerContextUtilities_SetPickedEndpoints_block_invoke"
+- "FigRoutingManagerContextUtilities_SetPickingState_block_invoke"
+- "FigRoutingManagerContextUtilities_UpdateRouteDescriptorForGivenContext_block_invoke"
+- "FigRoutingManagerCopyAudioDevicesInfo"
+- "FigRoutingManagerCopyCoreAudioDeviceStream"
+- "FigRoutingManagerCopyCurrentGroupUUID"
+- "FigRoutingManagerCopyLocalAirPlayEndpoint"
+- "FigRoutingManagerCreateAndActivateAggregateEndpointForContext"
+- "FigRoutingManagerCreateEndpointActivateOptions"
+- "FigRoutingManagerCreateEndpointDeactivateOptions"
+- "FigRoutingManagerCreateSubEndpointAddOptions"
+- "FigRoutingManagerInitMacOSAudio"
+- "FigRoutingManagerPickEndpointForContext"
+- "FigRoutingManagerRegisterAndCopyContext"
+- "FigRoutingManagerRegisterContextWithUUID"
+- "FigRoutingManagerRemoveAllSubEndpointsFromAggregate"
+- "FigRoutingManager_HandleDidReceiveDataFromCommChannelDelegate_block_invoke"
+- "FigRoutingManager_SetAuthorizationOnEndpoint"
+- "FigRoutingManager_macOSHandleFigEndpointFeaturesDeactivation"
+- "FigSTSCreate"
+- "FigSTS_Common.m"
+- "FigSystemController.m"
+- "FigSystemControllerCreate"
+- "FigSystemController_Remote.m"
+- "FigSystemController_Server.m"
+- "FigVolumeControllerAddAirPlayVolumeNotificationListeners"
+- "FigVolumeControllerCopySharedController"
+- "FigVolumeControllerRemoteXPC.m"
+- "FigVolumeControllerRemoveAirPlayVolumeNotificationListeners"
+- "FigVolumeControllerServerXPC.m"
+- "Follower Type %@, "
+- "Follower context %@, "
+- "Following context %@ "
+- "HandleCopyAllAudioContextsMessage"
+- "HandleCopyRoutingContextForUUIDMessage"
+- "HandleCopySystemRoutingContextMessage"
+- "HandleCreateRoutingContextMessage"
+- "HandleCreateSystemControllerMessage"
+- "HandleDeviceWakeStatus"
+- "HandleEndpointUIAgentRemoteMessage"
+- "HandleNoReplySystemControllerMessage"
+- "HandleRouteDiscovererRemoteMessage"
+- "HandleRoutingContextRemoteMessage"
+- "HandleSetAuthInfo"
+- "HandleSetPasswordFromKeychain"
+- "HandleSystemControllerMessage"
+- "IAmTheAssistant is NULL."
+- "InterruptionStyle is NULL."
+- "Invalid context type"
+- "IsEligibleForBTSmartRoutingConsideration is NULL."
+- "IsPlaying is NULL."
+- "IsRecording is NULL."
+- "Jul 10 2026"
+- "LookupEndpointUIAgentByObjectIDForConnection"
+- "LookupRouteDiscovererByObjectIDForConnection"
+- "LookupRoutingContextByObjectIDForConnection"
+- "LookupSystemControllerByObjectIDForConnection"
+- "MXInitializationCommon.m"
+- "MXSessionCopyProperty"
+- "MXSessionCreate"
+- "MXSessionSecureCommon.m"
+- "MXSessionSetProperty"
+- "MXSession_Impl_Desktop.m"
+- "MXSystemRemotePool_AddEndpointToContext"
+- "MXSystemRemotePool_RemoveEndpointFromContext"
+- "Missing entitlement"
+- "Missing entitlement to set preferredOutputAudioScoreForSmartRouting"
+- "Must be properly entitled to use system output contexts"
+- "NOT CurrentUIAgent"
+- "NULL commChannelUUID"
+- "NULL command"
+- "NULL contextOut"
+- "NULL data"
+- "NULL deviceID"
+- "NULL initialRemoteContext"
+- "NULL mxSession"
+- "NULL mxSession."
+- "NULL mxSessionOut."
+- "NULL newRemoteContext"
+- "NULL oldRemoteContext"
+- "NULL outPropertyValue."
+- "NULL outRoutingContext"
+- "NULL propertyKey"
+- "NULL propertyKey."
+- "NULL propertyValueOut"
+- "NULL remoteContextCreationBlock"
+- "NULL valueOut"
+- "Object is not a FigEndpointUIAgent"
+- "Object is not a FigRouteDiscoverer"
+- "Object is not a FigRoutingContext"
+- "Object is not a FigSystemController"
+- "PostProcessing"
+- "PrefersAggressiveEchoCancellation is only supported for Siri sessions"
+- "PrefersNoInterruptions is NULL."
+- "Preprocessing"
+- "Preprocessing_RouteToHandoff"
+- "Processing"
+- "Processing_Activated"
+- "Processing_Activated_AudioPortsPublished"
+- "Processing_Activated_WaitingForAudioPortPublication"
+- "Processing_Activating"
+- "Processing_Activating_AudioPortsPublished"
+- "Processing_Activating_WaitingForAudioPortPublication"
+- "RefconDestructor"
+- "Route Discoverer Remote Client creation failed."
+- "RoutingContextModificationCallback"
+- "RoutingContextOut cannot be NULL"
+- "STSLoadCreateFunction"
+- "SendCommandCompletionCallback"
+- "SendDataCompletionCallback"
+- "Server connection was lost"
+- "SessionToken is NULL."
+- "Single SetProperty has failed"
+- "Unknown STS flavor"
+- "Unknown State"
+- "Wrong type for ClientSecTask"
+- "_routingContextUtilities_addLeader"
+- "_routingContextUtilities_copyPickedEndpoints"
+- "_routingContext_removeLeaderFromFollower"
+- "device does not have exclave mic input capability"
+- "discovererManager_getDiscoveryModeAsInt"
+- "discoverer_getTypeString"
+- "discoverer_postRoutePresentChangedIfNecessary_block_invoke"
+- "discoveryManager_appendAvailableEndpoints"
+- "discoveryManager_appendAvailableEndpoints_block_invoke"
+- "discoveryManager_copyHighestDiscoveryModeForDiscovererType"
+- "discoveryManager_macOSCopyAvailableEndpoints"
+- "discoveryManager_mapDiscovererTypeToEndpointFeatures"
+- "discoveryManager_removeFreedWeakRefs"
+- "discoveryManager_resetSwitchDownTime"
+- "discoveryManager_shouldSwitchDownBeDelayed"
+- "discoveryManager_shouldSwitchDownBeDelayed_block_invoke"
+- "discoveryManager_storeDiscoverer"
+- "don't save"
+- "enableBluetoothRecordingPreference is NULL."
+- "endpointAgentOut cannot be NULL"
+- "endpointAggregate_Activate_block_invoke"
+- "endpointAggregate_AddEndpoint_block_invoke"
+- "endpointAggregate_CopyProperty"
+- "endpointAggregate_CopyProperty_block_invoke"
+- "endpointAggregate_RemoveEndpoint_block_invoke"
+- "endpointAggregate_SendCommand_block_invoke"
+- "endpointAggregate_SendData_block_invoke"
+- "endpointAggregate_SetDelegateAuthorization_block_invoke"
+- "endpointAggregate_SetDelegateRemoteControl_block_invoke"
+- "endpointAggregate_SetDelegateRouting_block_invoke"
+- "endpointAggregate_SetProperty_block_invoke"
+- "endpointUIAgentHelper_UIAgentCallback"
+- "endpointUIAgentHelper_UIAgentNotificationCallback"
+- "endpointUIAgentHelper_UIAgentPasswordCallback"
+- "endpointuiagentremote_trace"
+- "err"
+- "figEndpointDescriptorUtility_addAirPlayDetailsToDescriptor"
+- "figEndpointDescriptorUtility_addBTDetailsToDescriptor"
+- "figEndpointDescriptorUtility_addSidePlayDetailsToDescriptor"
+- "figEndpointDescriptorUtility_setDescriptorKey"
+- "figEndpointUIAgentRemoteXPC_Finalize"
+- "figEndpointUIAgentRemoteXPC_deviceWakeStatus"
+- "figEndpointUIAgentRemoteXPC_setIsCurrentUIAgent"
+- "figEndpointUIAgent_Invalidate"
+- "figEndpointUIAgent_copyPasswordFromKeychain"
+- "figEndpointUIAgent_setAuthValue"
+- "figEndpointUIAgent_setPasswordFromKeychain"
+- "figRouteDiscovererRemoteXPC_EnsureClientEstablished"
+- "figRouteDiscovererXPCHandleCopyAvailableRoutesMessage"
+- "figsystemcontroller_trace"
+- "figsystemcontrollerremote_trace"
+- "figsystemcontrollerserver_trace"
+- "frcXPCServer_logEndpoints"
+- "fsc_createPropertyMappingDicts_block_invoke"
+- "invalid endpoint in the array"
+- "invalid param"
+- "invalidated"
+- "isTheAssistant is = NO"
+- "isUsingBuiltInMicForRecording is NULL."
+- "kCMBaseObjectError_AllocationFailed"
+- "kCMBaseObjectError_Invalidated"
+- "kCMBaseObjectError_ParamErr"
+- "kFigEndpointError_AllocationFailed"
+- "kFigEndpointUIAgentError_InvalidParameter"
+- "kFigEndpointUIAgentError_ServerConnectionFailed"
+- "kFigRouteDiscovererError_InvalidParameter"
+- "kFigRouteDiscovererError_ServerConnectionLost"
+- "kFigRoutingContextError_AllocationFailed"
+- "kFigRoutingContextError_FetchSystemContextUnentitled"
+- "kFigRoutingContextError_InvalidParameter"
+- "kFigRoutingContextError_InvalidState"
+- "kFigRoutingContextError_ServerConnectionLost"
+- "kFigSTSError_InvalidParameter"
+- "kFigSTSError_UnknownFlavor"
+- "kFigSystemControllerError_AllocationFailed"
+- "kFigSystemControllerError_InvalidParameter"
+- "kFigSystemControllerError_ServerConnectionLost"
+- "kFigVolumeControllerError_InvalidParameter"
+- "kFigVolumeControllerError_ServerConnectionLost"
+- "kMXError_AllocationFailed"
+- "kMXError_InvalidParameter"
+- "kMXError_OperationDenied_MissingEntitlement"
+- "kMXSessionError_MissingRequiredParameter"
+- "kMXSessionError_OperationDenied"
+- "kMXSessionError_OperationFailed"
+- "kMXSystemControllerError_InvalidParameter"
+- "mxAudioContext_processPickAirPlayEndpoints"
+- "mxSessionOut cannot be NULL"
+- "mxSystemAudio_processPickAirPlayEndpoints"
+- "mxsmInteruptionActionMapper_setUpInterruptionPriorityDictionaries_block_invoke"
+- "non-array ReporterIDs"
+- "non-boolean PrefersAggressiveEchoCancellation"
+- "non-data AuditToken"
+- "non-number ClientPID"
+- "non-number CoreSessionID"
+- "non-string AudioCategory"
+- "non-string AudioMode"
+- "non-string ClientName"
+- "non-string DisplayID"
+- "non-string propertyKey"
+- "options cannot be NULL"
+- "propertiesToSet is nil"
+- "remoteSystemController_EnsureClientEstablished"
+- "remoteSystemController_SetProperty"
+- "remoteSystemController_getObjectID"
+- "remoteXPCFigRoutingContext_HandleClientMessage"
+- "remoteXPCRouteDiscovererClient_DeadConnectionCallback"
+- "remoteXPCRouteDiscoverer_CopyAvailableEndpoints_block_invoke"
+- "remoteXPCRouteDiscoverer_CreateInternal"
+- "remoteXPCRouteDiscoverer_GetObjectID"
+- "remoteXPCRoutingContext_CreateInternal"
+- "remoteXPCRoutingContext_DeadConnectionCallback_block_invoke"
+- "remoteXPCRoutingContext_GetObjectID"
+- "remoteXPCRoutingContext_handleCompletionCallback_block_invoke"
+- "remoteXPCendpointAgent_GetObjectID"
+- "routediscovererserver_trace"
+- "routes_logEndpoints"
+- "routingContextRemoteXPC_AddToSelectedRouteDescriptors"
+- "routingContextRemoteXPC_AddToSelectedRoutes"
+- "routingContextRemoteXPC_CopyProperty"
+- "routingContextRemoteXPC_EnsureClientEstablished"
+- "routingContextRemoteXPC_EnsureClientEstablished_block_invoke"
+- "routingContextRemoteXPC_RemoveFromSelectedRouteDescriptors"
+- "routingContextRemoteXPC_RemoveFromSelectedRoutes"
+- "routingContextRemoteXPC_SelectRoutes"
+- "routingContextRemoteXPC_SendCommand"
+- "routingContextRemoteXPC_SendData"
+- "routingContextRemoteXPC_SendDataForDeviceID"
+- "routingContextRemoteXPC_SetProperty"
+- "routingContextResilientRemote_copySharedAudioContext_block_invoke"
+- "routingContextResilientRemote_fireAllPropertyChangeNotifications"
+- "routingContextResilientRemote_forwardNotificationFromRemoteContext"
+- "routingContextResilientRemote_replaceRemoteContext"
+- "routingContextResilientRemote_serverConnectionDied_block_invoke"
+- "routingContextResilientRemote_startObservingRemoteContext"
+- "routingContextResilientRemote_stopObservingRemoteContext"
+- "routingContextResilientRemote_withRemoteContext"
+- "routingContextServerXPC_CopyOptionsWithClientPIDAndName"
+- "routingContextUtilities_getFeatureString"
+- "routingContextUtilities_getSharedContextUtilities_block_invoke"
+- "routingContext_CopyProperty_block_invoke"
+- "routingContext_CopyRoute_block_invoke"
+- "routingContext_CopySelectedRouteDescriptor"
+- "routingContext_CopySelectedRouteDescriptors"
+- "routingContext_Finalize_block_invoke"
+- "routingContext_SelectRouteDescriptor_block_invoke"
+- "routingContext_SelectRoute_block_invoke"
+- "routingContext_copyAssociatedAudioDeviceForContextAndFeature"
+- "routingContext_copySystemContext"
+- "routingContext_create"
+- "routingContext_createWithUUID"
+- "routingManager_copyAudioDeviceUID"
+- "routingManager_createBluetoothEndpointManager"
+- "routingManager_generateContextUUID"
+- "routingManager_getAudioDeviceType"
+- "routingManager_pickingTimeoutCallback"
+- "routingcontextremote_trace"
+- "routingcontextresilientremote_trace"
+- "routingcontextserver_trace"
+- "save"
+- "singletonVolumeController_Finalize"
+- "singletonVolumeController_copyCachedRemoteVolumeController"
+- "singletonVolumeController_copyRemoteVolumeController"
+- "singletonVolumeController_handleRemoteVolumeControllerNotifications"
+- "singletonVolumeController_setCachedRemoteVolumController"
+- "stsFlavor NULL or not CFString"
+- "stsOut NULL"
+- "sts_trace"
+- "systemController_CopyProperty"
+- "systemController_Finalize"
+- "systemController_SetProperty"
+- "volumeControllerRemote_deadConnectionCallback"
+- "volumeControllerRemote_ensureClientEstablished_block_invoke"
+- "volumeControllerRemote_getObjectID"
+- "volumeControllerServer_getClientInfo"
+- "volumeControllerServer_handleCanSetEndpointVolumeMessage"
+- "volumeControllerServer_handleCanSetMasterVolumeMessage"
+- "volumeControllerServer_handleCanUseForRoutingContextMessage"
+- "volumeControllerServer_handleCopySharedControllerMessage"
+- "volumeControllerServer_handleGetEndpointVolumeControlTypeMessage"
+- "volumeControllerServer_handleGetEndpointVolumeMessage"
+- "volumeControllerServer_handleGetMasterVolumeControlTypeMessage"
+- "volumeControllerServer_handleGetMasterVolumeMessage"
+- "volumeControllerServer_handleGetSubEndpointVolumeControlTypeMessage"
+- "volumeControllerServer_handleGetSubEndpointVolumeMessage"
+- "volumeControllerServer_handleRemoteMessage"
+- "volumeControllerServer_lookupVolumeControllerByObjectIDForConnection"
+- "volumeController_AreVolumeOperationsSupportedForRoutingContext"
+- "volumeController_CanSetMuteOfSubEndpointWithID"
+- "volumeController_Finalize"
+- "volumeController_GetMainVolumeControlTypeForRoutingContext"
+- "volumeController_GetMainVolumeForRoutingContext"
+- "volumeController_GetMuteOfEndpointWithID"
+- "volumeController_GetMuteOfSubEndpointWithID"
+- "volumeController_GetVolumeControlTypeOfSubEndpointWithID"
+- "volumeController_GetVolumeForEndpointWithID"
+- "volumeController_IsMainVolumeControlSupportedForRoutingContext"
+- "volumeController_IsVolumeControlSupportedForEndpointWithID"
+- "volumeController_SetMuteOfSubEndpointWithID"
+- "volumeController_createOnce"
+- "volumeController_doesEndpointHaveSameID"
+- "volumeController_getMainVolume"
+- "volumeController_getMaxSubEndpointVolume"
+- "volumeController_getMuteByUserForRoutingContext"
+- "volumeController_getVolumeForEndpoint"
+- "volumeController_handleAirPlayVolumeControlTypeDidChangeNotification"
+- "volumeController_isVolumeControllerSupported"
+- "volumeController_postMuteOperationsSupportedForRoutingContextDidChangeNotification"
+- "volumeController_setMainVolume"
+- "volumeController_setVolumeForEndpoint"
+- "volumecontroller_getSubEndpointVolume"
+- "volumecontrollerremote_trace"
+- "was"
+- "wasn't"
+- "wrong type for ClientAuditToken"
+- "wrong type for SubscribeToNotifications"
+```

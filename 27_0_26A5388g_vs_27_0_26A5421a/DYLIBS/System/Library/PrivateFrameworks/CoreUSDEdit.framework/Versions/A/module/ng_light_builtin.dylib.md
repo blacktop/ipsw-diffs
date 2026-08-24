@@ -1,0 +1,109 @@
+## ng_light_builtin.dylib
+
+> `/System/Library/PrivateFrameworks/CoreUSDEdit.framework/Versions/A/module/ng_light_builtin.dylib`
+
+```diff
+
+-28.0.4.0.0
+-  __TEXT.__text: 0x1ce28
++28.0.8.0.0
++  __TEXT.__text: 0x1bb3c
+   __TEXT.__gcc_except_tab: 0x9cc
+-  __TEXT.__const: 0x359
++  __TEXT.__const: 0x32f
+   __TEXT.__cstring: 0x3940
+-  __TEXT.__unwind_info: 0x500
++  __TEXT.__unwind_info: 0x4d0
+   __TEXT.__auth_stubs: 0x0
+   __DATA_CONST.__weak_got: 0x128
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x990
++  __AUTH_CONST.__const: 0x918
+   __AUTH_CONST.__weak_auth_got: 0x180
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__data: 0x40
+
+   - /System/Library/Frameworks/Metal.framework/Versions/A/Metal
+   - /System/Library/Frameworks/MetalKit.framework/Versions/A/MetalKit
+   - /System/Library/Frameworks/Network.framework/Versions/A/Network
+-  - /System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL
+   - /System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+   - /System/Library/Frameworks/Security.framework/Versions/A/Security
+   - /System/Library/Frameworks/USDKit.framework/Versions/A/USDKit
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/usd/libusd_ms.dylib
+-  Functions: 216
+-  Symbols:   547
++  Functions: 204
++  Symbols:   524
+   CStrings:  134
+ 
+Symbols:
++ GCC_except_table39
++ GCC_except_table40
++ GCC_except_table49
++ GCC_except_table51
++ GCC_except_table56
++ GCC_except_table57
++ GCC_except_table60
++ GCC_except_table65
++ GCC_except_table67
++ GCC_except_table76
++ GCC_except_table77
++ GCC_except_table78
++ __ZN12CoreFunctionIFN9Imath_3_16Color3IfEEjffRfRK10NgLightLUTEE4copyIZZN2Ng23on_register_light_planeER5OfAppR10CoreVectorIP7OfClassEENK3$_5clER8OfObjectRKiPvEUljffS3_S6_E_EEvPT_SQ_
++ __ZN12CoreFunctionIFN9Imath_3_16Color3IfEEjffRfRK10NgLightLUTEE6invokeIZZN2Ng23on_register_light_planeER5OfAppR10CoreVectorIP7OfClassEENK3$_5clER8OfObjectRKiPvEUljffS3_S6_E_EES2_PT_OjOfSS_S3_S6_
++ __ZN12CoreFunctionIFN9Imath_3_16Color3IfEEjffRfRK10NgLightLUTEE7destroyIZZN2Ng23on_register_light_planeER5OfAppR10CoreVectorIP7OfClassEENK3$_5clER8OfObjectRKiPvEUljffS3_S6_E_EEvPT_
++ __ZZN2Ng23on_register_light_planeER5OfAppR10CoreVectorIP7OfClassEEN3$_48__invokeER8OfObjectPK11NgOptixItem
++ __ZZN2Ng23on_register_light_planeER5OfAppR10CoreVectorIP7OfClassEEN3$_58__invokeER8OfObjectRKiPv
++ __ZZN2Ng23on_register_light_planeER5OfAppR10CoreVectorIP7OfClassEEN3$_68__invokeER8OfObjectsP24GeometryResourceOverride
++ __ZZN2Ng24on_register_light_sphereER5OfAppR10CoreVectorIP7OfClassEEN3$_68__invokeER8OfObjectsP24GeometryResourceOverride
++ __ZZN2Ng26on_register_light_cylinderER5OfAppR10CoreVectorIP7OfClassEEN3$_68__invokeER8OfObjectsP24GeometryResourceOverride
++ __ZZN2Ng26on_register_light_geometryER5OfAppR10CoreVectorIP7OfClassEEN4$_128__invokeER8OfObjectsP24GeometryResourceOverride
+- GCC_except_table36
+- GCC_except_table37
+- GCC_except_table42
+- GCC_except_table43
+- GCC_except_table53
+- GCC_except_table59
+- GCC_except_table61
+- GCC_except_table69
+- GCC_except_table70
+- GCC_except_table71
+- GCC_except_table72
+- GCC_except_table80
+- GCC_except_table81
+- GCC_except_table83
+- __ZN12CoreFunctionIFN9Imath_3_16Color3IfEEjffRfRK10NgLightLUTEE4copyIZZN2Ng23on_register_light_planeER5OfAppR10CoreVectorIP7OfClassEENK3$_6clER8OfObjectRKiPvEUljffS3_S6_E_EEvPT_SQ_
+- __ZN12CoreFunctionIFN9Imath_3_16Color3IfEEjffRfRK10NgLightLUTEE6invokeIZZN2Ng23on_register_light_planeER5OfAppR10CoreVectorIP7OfClassEENK3$_6clER8OfObjectRKiPvEUljffS3_S6_E_EES2_PT_OjOfSS_S3_S6_
+- __ZN12CoreFunctionIFN9Imath_3_16Color3IfEEjffRfRK10NgLightLUTEE7destroyIZZN2Ng23on_register_light_planeER5OfAppR10CoreVectorIP7OfClassEENK3$_6clER8OfObjectRKiPvEUljffS3_S6_E_EEvPT_
+- __ZN7GlUtils12draw_frustumER10GlUtilsCtxRK14GMathMatrix4x4IdLb1EERKbRKdS9_S9_S9_
+- __ZN7GlUtils13draw_3d_arrowERK9GMathVec3IdES3_RKdRKb
+- __ZN7GlUtils15draw_area_lightER10GlUtilsCtxRK14GMathMatrix4x4IdLb1EERKbRKdS9_S9_
+- __ZN7GlUtils15draw_dome_lightER10GlUtilsCtxRK14GMathMatrix4x4IdLb1EE
+- __ZN7GlUtils16draw_point_lightER10GlUtilsCtxRK14GMathMatrix4x4IdLb1EE
+- __ZN7GlUtils18draw_distant_lightER10GlUtilsCtxRK14GMathMatrix4x4IdLb1EE
+- __ZN7GlUtils19draw_cylinder_lightER10GlUtilsCtxRK14GMathMatrix4x4IdLb1EERKdS7_
+- __ZNK14GMathMatrix4x4IdLb1EE9decomposeER9GMathVec3IdES3_S3_S3_S3_S3_
+- __ZNK14ModuleGlObject11get_gl_bboxER10GlUtilsCtx
+- __ZNK14ModuleGlObject12pre_paint_glER10GlUtilsCtx
+- __ZNK14ModuleGlObject15destroy_gl_dataER12GlUtilsGlCtx
+- __ZNK14ModuleGlObject8paint_glER10GlUtilsCtx
+- __ZTI23ModuleGlObjectCallbacks
+- __ZTS23ModuleGlObjectCallbacks
+- __ZZN2Ng21on_register_light_iesER5OfAppR10CoreVectorIP7OfClassEEN3$_68__invokeER8OfObjectR10GlUtilsCtx
+- __ZZN2Ng23on_register_light_planeER5OfAppR10CoreVectorIP7OfClassEEN3$_48__invokeER8OfObjectR10GlUtilsCtx
+- __ZZN2Ng23on_register_light_planeER5OfAppR10CoreVectorIP7OfClassEEN3$_58__invokeER8OfObjectPK11NgOptixItem
+- __ZZN2Ng23on_register_light_planeER5OfAppR10CoreVectorIP7OfClassEEN3$_68__invokeER8OfObjectRKiPv
+- __ZZN2Ng23on_register_light_planeER5OfAppR10CoreVectorIP7OfClassEEN3$_78__invokeER8OfObjectsP24GeometryResourceOverride
+- __ZZN2Ng24on_register_light_sphereER5OfAppR10CoreVectorIP7OfClassEEN3$_68__invokeER8OfObjectR10GlUtilsCtx
+- __ZZN2Ng24on_register_light_sphereER5OfAppR10CoreVectorIP7OfClassEEN3$_78__invokeER8OfObjectsP24GeometryResourceOverride
+- __ZZN2Ng26on_register_light_cylinderER5OfAppR10CoreVectorIP7OfClassEEN3$_68__invokeER8OfObjectR10GlUtilsCtx
+- __ZZN2Ng26on_register_light_cylinderER5OfAppR10CoreVectorIP7OfClassEEN3$_78__invokeER8OfObjectsP24GeometryResourceOverride
+- __ZZN2Ng26on_register_light_geometryER5OfAppR10CoreVectorIP7OfClassEEN4$_128__invokeER8OfObjectR10GlUtilsCtx
+- __ZZN2Ng26on_register_light_geometryER5OfAppR10CoreVectorIP7OfClassEEN4$_138__invokeER8OfObjectsP24GeometryResourceOverride
+- __ZZN2Ng29on_register_light_directionalER5OfAppR10CoreVectorIP7OfClassEEN3$_48__invokeER8OfObjectR10GlUtilsCtx
+- __ZZN2Ng29on_register_light_environmentER5OfAppR10CoreVectorIP7OfClassEEN3$_48__invokeER8OfObjectR10GlUtilsCtx
+```

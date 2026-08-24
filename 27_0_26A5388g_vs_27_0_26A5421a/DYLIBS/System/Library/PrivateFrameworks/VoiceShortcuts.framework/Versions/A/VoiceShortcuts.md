@@ -1,0 +1,1077 @@
+## VoiceShortcuts
+
+> `/System/Library/PrivateFrameworks/VoiceShortcuts.framework/Versions/A/VoiceShortcuts`
+
+```diff
+
+-5034.0.10.0.0
+-  __TEXT.__text: 0x1347c0
+-  __TEXT.__objc_methlist: 0x4eb4
+-  __TEXT.__const: 0x5da0
+-  __TEXT.__dlopen_cstrs: 0x2ae
+-  __TEXT.__constg_swiftt: 0x1e0c
+-  __TEXT.__swift5_typeref: 0x2eb7
++5037.0.17.0.0
++  __TEXT.__text: 0x144cf4
++  __TEXT.__objc_methlist: 0x4c7c
++  __TEXT.__const: 0x64e0
++  __TEXT.__dlopen_cstrs: 0x25a
++  __TEXT.__constg_swiftt: 0x2138
++  __TEXT.__swift5_typeref: 0x328f
+   __TEXT.__swift5_builtin: 0x140
+-  __TEXT.__swift5_reflstr: 0x11f1
+-  __TEXT.__swift5_fieldmd: 0x14b0
+-  __TEXT.__swift5_assocty: 0x570
+-  __TEXT.__swift5_proto: 0x39c
+-  __TEXT.__swift5_types: 0x1bc
+-  __TEXT.__cstring: 0xe68c
+-  __TEXT.__swift5_capture: 0x2b88
+-  __TEXT.__swift_as_entry: 0x2c0
+-  __TEXT.__swift_as_ret: 0x2e0
+-  __TEXT.__swift_as_cont: 0x6a4
+-  __TEXT.__oslogstring: 0xfdb3
+-  __TEXT.__swift5_protos: 0x44
++  __TEXT.__swift5_reflstr: 0x14d1
++  __TEXT.__swift5_fieldmd: 0x1794
++  __TEXT.__swift5_assocty: 0x5d0
++  __TEXT.__swift5_proto: 0x3e0
++  __TEXT.__swift5_types: 0x1ec
++  __TEXT.__cstring: 0xd963
++  __TEXT.__swift5_capture: 0x2bec
++  __TEXT.__oslogstring: 0xf8b6
++  __TEXT.__swift_as_entry: 0x2f0
++  __TEXT.__swift_as_ret: 0x320
++  __TEXT.__swift_as_cont: 0x720
++  __TEXT.__swift5_protos: 0x4c
+   __TEXT.__swift5_mpenum: 0x28
+-  __TEXT.__gcc_except_tab: 0xae0
++  __TEXT.__gcc_except_tab: 0x8f0
+   __TEXT.__ustring: 0xf0
+-  __TEXT.__unwind_info: 0x4710
+-  __TEXT.__eh_frame: 0x7684
++  __TEXT.__unwind_info: 0x4b50
++  __TEXT.__eh_frame: 0x871c
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x960
+-  __DATA_CONST.__objc_classlist: 0x2b0
+-  __DATA_CONST.__objc_catlist: 0x110
+-  __DATA_CONST.__objc_protolist: 0x208
++  __DATA_CONST.__const: 0x8c8
++  __DATA_CONST.__objc_classlist: 0x2c0
++  __DATA_CONST.__objc_catlist: 0x100
++  __DATA_CONST.__objc_protolist: 0x218
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x43d0
+-  __DATA_CONST.__objc_protorefs: 0x90
+-  __DATA_CONST.__objc_superrefs: 0x150
+-  __DATA_CONST.__objc_arraydata: 0x90
+-  __DATA_CONST.__got: 0x1850
+-  __AUTH_CONST.__const: 0xb390
+-  __AUTH_CONST.__cfstring: 0x4040
+-  __AUTH_CONST.__objc_const: 0x8bb8
++  __DATA_CONST.__objc_selrefs: 0x42f0
++  __DATA_CONST.__objc_protorefs: 0xa8
++  __DATA_CONST.__objc_superrefs: 0x148
++  __DATA_CONST.__objc_arraydata: 0x88
++  __DATA_CONST.__got: 0x1890
++  __AUTH_CONST.__const: 0xb738
++  __AUTH_CONST.__cfstring: 0x3d80
++  __AUTH_CONST.__objc_const: 0x8c50
+   __AUTH_CONST.__objc_intobj: 0xa8
+-  __AUTH_CONST.__objc_arrayobj: 0xc0
++  __AUTH_CONST.__objc_arrayobj: 0xa8
+   __AUTH_CONST.__objc_dictobj: 0x50
+-  __AUTH_CONST.__auth_got: 0x1e80
+-  __AUTH.__objc_data: 0x480
+-  __AUTH.__data: 0x8d8
+-  __DATA.__objc_ivar: 0x348
+-  __DATA.__data: 0x1cd8
+-  __DATA.__bss: 0x3650
+-  __DATA_DIRTY.__objc_data: 0x14b0
+-  __DATA_DIRTY.__data: 0x2d98
++  __AUTH_CONST.__auth_got: 0x1ef0
++  __AUTH.__objc_data: 0x628
++  __AUTH.__data: 0xbe0
++  __DATA.__objc_ivar: 0x31c
++  __DATA.__data: 0x1ef0
++  __DATA.__bss: 0x3e50
++  __DATA_DIRTY.__objc_data: 0x13b0
++  __DATA_DIRTY.__data: 0x2d08
+   __DATA_DIRTY.__crash_info: 0x148
+-  __DATA_DIRTY.__bss: 0x3220
+-  __DATA_DIRTY.__common: 0x38
++  __DATA_DIRTY.__bss: 0x3200
++  __DATA_DIRTY.__common: 0x30
+   - /System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
+   - /System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+   - /System/Library/Frameworks/CloudKit.framework/Versions/A/CloudKit
+
+   - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 7326
+-  Symbols:   6782
+-  CStrings:  2269
++  Functions: 7673
++  Symbols:   6713
++  CStrings:  2192
+ 
+Symbols:
++ +[WFFocusUtilities activityManager]
++ -[VCCKShortcutSyncService addDatabaseOperation:]
++ -[VCCKShortcutSyncService refetchStoredValuesWithPendingMinimumClientVersionWithCompletion:]
++ -[VCDaemonDatabaseProvider allDatabases]
++ -[VCDaemonDatabaseProvider databaseForWorkflowID:]
++ -[VCDaemonDatabaseProvider externalTriggerDatabaseWithError:]
++ -[VCDaemonDatabaseProvider externalTriggerDatabase]
++ -[VCDaemonDatabaseProvider externalTriggerQueue]
++ -[VCVoiceShortcutManager initWithDatabaseProvider:appShortcutsUpdater:]
++ -[VCVoiceShortcutManagerAccessWrapper databaseForWorkflowID:]
++ -[VCVoiceShortcutManagerAccessWrapper getTriggerExecutionBookmarkDataForUrlWrapper:completion:]
++ -[VCXPCServer initWithDatabaseProvider:syncDataEndpoint:runCoordinator:appShortcutsUpdater:]
++ -[VCXPCServer initWithXPCListener:databaseProvider:syncDataEndpoint:runCoordinator:appShortcutsUpdater:]
++ GCC_except_table1004
++ GCC_except_table1010
++ GCC_except_table1012
++ GCC_except_table1034
++ GCC_except_table1075
++ GCC_except_table1094
++ GCC_except_table1100
++ GCC_except_table1122
++ GCC_except_table1204
++ GCC_except_table1206
++ GCC_except_table1231
++ GCC_except_table1259
++ GCC_except_table1282
++ GCC_except_table1285
++ GCC_except_table1287
++ GCC_except_table1315
++ GCC_except_table1319
++ GCC_except_table1333
++ GCC_except_table1338
++ GCC_except_table1350
++ GCC_except_table1377
++ GCC_except_table1381
++ GCC_except_table1399
++ GCC_except_table1403
++ GCC_except_table1417
++ GCC_except_table1419
++ GCC_except_table1423
++ GCC_except_table1443
++ GCC_except_table1446
++ GCC_except_table1460
++ GCC_except_table230
++ GCC_except_table287
++ GCC_except_table307
++ GCC_except_table337
++ GCC_except_table346
++ GCC_except_table433
++ GCC_except_table452
++ GCC_except_table537
++ GCC_except_table545
++ GCC_except_table618
++ GCC_except_table632
++ GCC_except_table643
++ GCC_except_table661
++ GCC_except_table856
++ GCC_except_table89
++ GCC_except_table94
++ GCC_except_table95
++ GCC_except_table978
++ OBJC_IVAR_$_VCDaemonDatabaseProvider._externalTriggerDatabase
++ OBJC_IVAR_$_VCDaemonDatabaseProvider._externalTriggerQueue
++ _CKErrorDomain
++ _CKErrorRetryAfterKey
++ _OBJC_CLASS_$_LNSpotlightAppEntityMapper
++ _OBJC_CLASS_$_WFAlarmDataSource
++ _OBJC_CLASS_$_WFFocusUtilities
++ _OBJC_CLASS_$__TtC14VoiceShortcuts20WFFilesystemListener
++ _OBJC_CLASS_$__TtC14VoiceShortcuts23SpotlightDomainsCleaner
++ _OBJC_METACLASS_$_WFFocusUtilities
++ _OBJC_METACLASS_$__TtC14VoiceShortcuts20WFFilesystemListener
++ _OBJC_METACLASS_$__TtC14VoiceShortcuts23SpotlightDomainsCleaner
++ _OBJC_METACLASS_$__TtC14VoiceShortcutsP33_68B631DC608A8A97314907F4DE8DFBDE13EventListener
++ _OUTLINED_FUNCTION_218
++ _OUTLINED_FUNCTION_219
++ _OUTLINED_FUNCTION_220
++ _OUTLINED_FUNCTION_221
++ _OUTLINED_FUNCTION_222
++ _OUTLINED_FUNCTION_223
++ _OUTLINED_FUNCTION_224
++ _OUTLINED_FUNCTION_225
++ _OUTLINED_FUNCTION_226
++ _OUTLINED_FUNCTION_227
++ _OUTLINED_FUNCTION_228
++ _OUTLINED_FUNCTION_229
++ _OUTLINED_FUNCTION_230
++ _OUTLINED_FUNCTION_231
++ _OUTLINED_FUNCTION_232
++ _OUTLINED_FUNCTION_233
++ _OUTLINED_FUNCTION_234
++ _OUTLINED_FUNCTION_235
++ _OUTLINED_FUNCTION_236
++ _OUTLINED_FUNCTION_237
++ _OUTLINED_FUNCTION_238
++ _OUTLINED_FUNCTION_239
++ _OUTLINED_FUNCTION_240
++ _OUTLINED_FUNCTION_241
++ _OUTLINED_FUNCTION_242
++ _OUTLINED_FUNCTION_243
++ _WFShortcutSourceAPIPrefix
++ __92-[VCCKShortcutSyncService refetchStoredValuesWithPendingMinimumClientVersionWithCompletion:]_block_invoke
++ __CATEGORY_INSTANCE_METHODS_WFAutoShortcutContextualAction_$_VoiceShortcuts
++ __CATEGORY_INSTANCE_METHODS_WFContextualAction_$_VoiceShortcuts
++ __CATEGORY_PROPERTIES_WFContextualAction_$_VoiceShortcuts
++ __CATEGORY_PROTOCOLS_WFContextualAction_$_VoiceShortcuts
++ __CATEGORY_WFAutoShortcutContextualAction_$_VoiceShortcuts
++ __CATEGORY_WFContextualAction_$_VoiceShortcuts
++ __CLASS_METHODS__TtC14VoiceShortcuts20WFFilesystemListener
++ __CLASS_PROPERTIES__TtC14VoiceShortcuts20WFFilesystemListener
++ __DATA__TtC14VoiceShortcuts20WFFilesystemListener
++ __DATA__TtC14VoiceShortcuts23SpotlightDomainsCleaner
++ __DATA__TtC14VoiceShortcuts33UserDefaultsSpotlightVersionStore
++ __DATA__TtC14VoiceShortcuts38WFContextualActionSpotlightSyncService
++ __DATA__TtC14VoiceShortcutsP33_68B631DC608A8A97314907F4DE8DFBDE13EventListener
++ __INSTANCE_METHODS__TtC14VoiceShortcuts20WFFilesystemListener
++ __INSTANCE_METHODS__TtC14VoiceShortcuts23SpotlightDomainsCleaner
++ __IVARS__TtC14VoiceShortcuts20WFFilesystemListener
++ __IVARS__TtC14VoiceShortcuts23SpotlightDomainsCleaner
++ __IVARS__TtC14VoiceShortcuts33UserDefaultsSpotlightVersionStore
++ __IVARS__TtC14VoiceShortcuts38WFContextualActionSpotlightSyncService
++ __IVARS__TtC14VoiceShortcutsP33_68B631DC608A8A97314907F4DE8DFBDE13EventListener
++ __METACLASS_DATA__TtC14VoiceShortcuts20WFFilesystemListener
++ __METACLASS_DATA__TtC14VoiceShortcuts23SpotlightDomainsCleaner
++ __METACLASS_DATA__TtC14VoiceShortcuts33UserDefaultsSpotlightVersionStore
++ __METACLASS_DATA__TtC14VoiceShortcuts38WFContextualActionSpotlightSyncService
++ __METACLASS_DATA__TtC14VoiceShortcutsP33_68B631DC608A8A97314907F4DE8DFBDE13EventListener
++ __OBJC_$_CLASS_METHODS_VCCKShortcutSyncService(VoiceShortcuts|VoiceShortcuts1)
++ __OBJC_$_CLASS_METHODS_WFFocusUtilities
++ __OBJC_$_CLASS_PROP_LIST_WFFocusUtilities
++ __OBJC_$_INSTANCE_METHODS_VCCKShortcutSyncService(VoiceShortcuts|VoiceShortcuts1)
++ __OBJC_$_INSTANCE_METHODS_VCDaemonDatabaseProvider(VoiceShortcuts)
++ __OBJC_$_INSTANCE_METHODS__TtC14VoiceShortcuts27WFAppEntityContextualAction(VoiceShortcuts)
++ __OBJC_$_INSTANCE_METHODS__TtC14VoiceShortcutsP33_68B631DC608A8A97314907F4DE8DFBDE13EventListener(VoiceShortcuts|VoiceShortcuts1|VoiceShortcuts2)
++ __OBJC_$_PROP_LIST_FCActivityDescribing
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCActivityDescribing
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_WFAlarmObserver
++ __OBJC_$_PROTOCOL_METHOD_TYPES_FCActivityDescribing
++ __OBJC_$_PROTOCOL_METHOD_TYPES_WFAlarmObserver
++ __OBJC_$_PROTOCOL_REFS_FCActivityDescribing
++ __OBJC_$_PROTOCOL_REFS_WFAlarmObserver
++ __OBJC_CLASS_PROTOCOLS_$__TtC14VoiceShortcutsP33_68B631DC608A8A97314907F4DE8DFBDE13EventListener(VoiceShortcuts|VoiceShortcuts1|VoiceShortcuts2)
++ __OBJC_CLASS_RO_$_WFFocusUtilities
++ __OBJC_LABEL_PROTOCOL_$_FCActivityDescribing
++ __OBJC_LABEL_PROTOCOL_$_WFAlarmObserver
++ __OBJC_METACLASS_RO_$_WFFocusUtilities
++ __OBJC_PROTOCOL_$_FCActivityDescribing
++ __OBJC_PROTOCOL_$_WFAlarmObserver
++ ___54-[VCCKShortcutSyncService startWithCompletionHandler:]_block_invoke_3
++ ___54-[VCCKShortcutSyncService startWithCompletionHandler:]_block_invoke_4
++ ___61-[VCDaemonDatabaseProvider externalTriggerDatabaseWithError:]_block_invoke
++ ___92-[VCCKShortcutSyncService refetchStoredValuesWithPendingMinimumClientVersionWithCompletion:]_block_invoke
++ ___95-[VCVoiceShortcutManagerAccessWrapper getTriggerExecutionBookmarkDataForUrlWrapper:completion:]_block_invoke
++ ___block_descriptor_40_e8_32bs_e34_v24?0"NSDictionary"8"NSError"16l
++ ___block_descriptor_41_e8_32s_e5_v8?0l
++ ___swift_memcpy24_8
++ __swift_closure_destructor.155Tm
++ __swift_closure_destructor.238Tm
++ __swift_closure_destructor.25Tm
++ __swift_closure_destructor.32Tm
++ __swift_closure_destructor.67Tm
++ __swift_closure_destructor.85Tm
++ __swift_closure_destructor.97Tm
++ _associated conformance 14VoiceShortcuts14IndexingDomain33_68B631DC608A8A97314907F4DE8DFBDELLOSHAASQ
++ _associated conformance 14VoiceShortcuts14IndexingDomain33_68B631DC608A8A97314907F4DE8DFBDELLOs12CaseIterableAA8AllCasessAEP_Sl
++ _associated conformance 14VoiceShortcuts15EventDescriptor33_68B631DC608A8A97314907F4DE8DFBDELLVAA06DaemoncD0AA0C0AaEP_AA0lC0
++ _associated conformance 14VoiceShortcuts15EventDescriptor33_68B631DC608A8A97314907F4DE8DFBDELLVSHAASQ
++ _associated conformance 14VoiceShortcuts16UpgradeRefetchID33_3075E9ED4126F9A728464EE96FF8086CLLOSHAASQ
++ _associated conformance 14VoiceShortcuts16UpgradeRefetchID33_3075E9ED4126F9A728464EE96FF8086CLLOs12CaseIterableAA8AllCasessAEP_Sl
++ _associated conformance 14VoiceShortcuts26SpotlightAvailabilityErrorO10Foundation09LocalizedE0AAs0E0
++ _flat unique So14WFTriggerStore_p
++ _flat unique So20FCActivityDescribing_p
++ _get_enum_tag_for_layout_string 14VoiceShortcuts26SpotlightAvailabilityErrorO
++ _objc_msgSend$activityManager
++ _objc_msgSend$addDatabaseOperation:
++ _objc_msgSend$allDatabases
++ _objc_msgSend$applyRecoveredUnifiedTriggers:forWorkflowIdentifier:
++ _objc_msgSend$clientVersionForCompletedActivity:
++ _objc_msgSend$databaseForWorkflowID:
++ _objc_msgSend$eventNameEventInfoKey
++ _objc_msgSend$externalTriggerDatabaseWithError:
++ _objc_msgSend$externalTriggerQueue
++ _objc_msgSend$handleUploadedWorkflowRecordWithIdentifier:cloudKitMetadata:syncHash:encryptedSchemaVersion:uploadedTriggerUUIDs:error:
++ _objc_msgSend$initWithCursor:
++ _objc_msgSend$initWithDatabaseProvider:appShortcutsUpdater:
++ _objc_msgSend$initWithDatabaseProvider:syncDataEndpoint:runCoordinator:appShortcutsUpdater:
++ _objc_msgSend$initWithInteger:
++ _objc_msgSend$initWithUniqueID:
++ _objc_msgSend$initWithXPCListener:databaseProvider:syncDataEndpoint:runCoordinator:appShortcutsUpdater:
++ _objc_msgSend$markActivityCompleted:
++ _objc_msgSend$markUpgradeRefetchesCompletedOnFreshToken:
++ _objc_msgSend$migrateExternalTriggerWorkflowsFromMainDatabase:
++ _objc_msgSend$performPendingUpgradeRefetchesWithCompletion:
++ _objc_msgSend$propertyListWithData:options:format:error:
++ _objc_msgSend$refetchStoredValuesWithPendingMinimumClientVersionWithCompletion:
++ _objc_msgSend$searchableItemIdentifier
++ _objc_msgSend$serializedAutomationTriggersData
++ _objc_msgSend$setFetchRecordsCompletionBlock:
++ _objc_msgSend$setZoneID:
++ _objc_msgSend$tagCSSearchableItem:entityInstanceIdentifier:typeIdentifier:displayTitle:displaySubtitle:displaySynonyms:typeDisplayName:typeDisplaySynonyms:propertyDictionary:priority:schemaIdentifier:stableIdentifier:
++ _objc_msgSend$trackedFilesystemNodeForTriggerID:
++ _objc_msgSend$uniqueID
++ _objc_msgSend$unsignedLongLongValue
++ _objc_msgSend$wf_shortcutsExternalTriggersDirectoryURL
++ _swift_dynamicCastMetatypeUnconditional
++ _swift_isEscapingClosureAtFileLocation
++ _symbolic $s14VoiceShortcuts21IndexRemovalRequiringP
++ _symbolic $s14VoiceShortcuts21SpotlightVersionStoreP
++ _symbolic 5Event_____QzIeghn_ 14VoiceShortcuts21DaemonEventDescriptorP
++ _symbolic 5Event_____QzytIeghnr_ 14VoiceShortcuts21DaemonEventDescriptorP
++ _symbolic 6Output_____QzIeghn_ 14VoiceShortcuts9EventNodeP
++ _symbolic 6Output_____QzytIeghnr_ 14VoiceShortcuts9EventNodeP
++ _symbolic Ieg_Sg
++ _symbolic SDySSSo11WFDebouncerCG
++ _symbolic SDySS_____G 14VoiceShortcuts21VCDaemonTaskReferenceC
++ _symbolic SS3key______5valuet 14VoiceShortcuts9TaskQueue33_140FF4AD5A3C9CD397475339CE5392A2LLC07RunningC0V
++ _symbolic SaySSGSg
++ _symbolic SaySSGz_Xx
++ _symbolic SaySo14WFTriggerEventCG
++ _symbolic SaySo18WFContextualActionCG
++ _symbolic SaySo18WFWorkflowRunEventCG
++ _symbolic SaySo19WFUnifiedTriggerKeyCG
++ _symbolic SaySo29WFToggleAlarmContextualActionCG
++ _symbolic SaySo29WFToggleAlarmContextualActionCGIeAgHr_
++ _symbolic Say_____G 14VoiceShortcuts14IndexingDomain33_68B631DC608A8A97314907F4DE8DFBDELLO
++ _symbolic Say_____G 14VoiceShortcuts16UpgradeRefetchID33_3075E9ED4126F9A728464EE96FF8086CLLO
++ _symbolic Sayy______pYbcG 14VoiceShortcuts11DaemonEventP
++ _symbolic SayypG
++ _symbolic ScCy_____y___________pG_____G s6ResultOsRi_zRi0_zrlE So23VCCKShortcutSyncServiceC14VoiceShortcutsE04PageA033_3075E9ED4126F9A728464EE96FF8086CLLV s5ErrorP s5NeverO
++ _symbolic ScTyyt_____G s5NeverO
++ _symbolic Shy_____G 14VoiceShortcuts14IndexingDomain33_68B631DC608A8A97314907F4DE8DFBDELLO
++ _symbolic So13CKQueryCursorCSg
++ _symbolic So14NSUserDefaultsC
++ _symbolic So16CSSearchableItemCSgSo7NSErrorCSgIeyByy_
++ _symbolic So17WFAlarmDataSourceCSg
++ _symbolic So19WFCloudKitSyncTokenCIgg_
++ _symbolic So23VCCKShortcutSyncServiceC
++ _symbolic So23VCCKShortcutSyncServiceCSgXw
++ _symbolic So23VCCKShortcutSyncServiceCXDXMT
++ _symbolic So30WFAutoShortcutContextualActionC
++ _symbolic _____ 11WorkflowKit22FilesystemStateManagerC
++ _symbolic _____ 14VoiceShortcuts13EventListener33_68B631DC608A8A97314907F4DE8DFBDELLC
++ _symbolic _____ 14VoiceShortcuts13IndexingEvent33_68B631DC608A8A97314907F4DE8DFBDELLV
++ _symbolic _____ 14VoiceShortcuts13IndexingEvent33_68B631DC608A8A97314907F4DE8DFBDELLV011AppShortcutC4ModeO
++ _symbolic _____ 14VoiceShortcuts14IndexingDomain33_68B631DC608A8A97314907F4DE8DFBDELLO
++ _symbolic _____ 14VoiceShortcuts15EventDescriptor33_68B631DC608A8A97314907F4DE8DFBDELLV
++ _symbolic _____ 14VoiceShortcuts16UpgradeRefetchID33_3075E9ED4126F9A728464EE96FF8086CLLO
++ _symbolic _____ 14VoiceShortcuts18WFTriggerRegistrarC17RegistrationState33_1B6926D0426518554DFAE9174F1B0D2DLLV
++ _symbolic _____ 14VoiceShortcuts20WFFilesystemListenerC
++ _symbolic _____ 14VoiceShortcuts24UpgradeRefetchDescriptor33_3075E9ED4126F9A728464EE96FF8086CLLV
++ _symbolic _____ 14VoiceShortcuts26SpotlightAvailabilityErrorO
++ _symbolic _____ 14VoiceShortcuts33UserDefaultsSpotlightVersionStoreC
++ _symbolic _____ 14VoiceShortcuts38WFContextualActionSpotlightSyncServiceC
++ _symbolic _____ 14VoiceShortcuts9TaskQueue33_140FF4AD5A3C9CD397475339CE5392A2LLC07RunningC0V
++ _symbolic _____ 7ToolKit0A8DatabaseC7VersionV
++ _symbolic _____ So23VCCKShortcutSyncServiceC14VoiceShortcutsE10PageResult33_3075E9ED4126F9A728464EE96FF8086CLLV
++ _symbolic _____ So23VCCKShortcutSyncServiceC14VoiceShortcutsE12RefetchStats33_3075E9ED4126F9A728464EE96FF8086CLLV
++ _symbolic _____AAIegnr_ 14VoiceShortcuts13IndexingEvent33_68B631DC608A8A97314907F4DE8DFBDELLV
++ _symbolic _____Ieghn_ 14VoiceShortcuts10EmptyEventV
++ _symbolic _____Ieghn_ 14VoiceShortcuts13IndexingEvent33_68B631DC608A8A97314907F4DE8DFBDELLV
++ _symbolic _____Ieghn_ 14VoiceShortcuts17DaemonEventStreamV011XPCActivityD6SourceC0D0V
++ _symbolic _____Ieghn_ 14VoiceShortcuts17DaemonEventStreamV08CoreDuetD6SourceC0D0V
++ _symbolic _____Ieghn_ 14VoiceShortcuts18DaemonStartupEventV
++ _symbolic _____Ieghn_ 14VoiceShortcuts22TerminationEventSourceC0D0V
++ _symbolic _____Ieghn_ 14VoiceShortcuts23SpotlightDomainsCleanerC5EventV
++ _symbolic _____Ieghn_ 14VoiceShortcuts34DaemonSchedulerWillBecomeIdleEventV
++ _symbolic _____Ieghn_ 19VoiceShortcutClient16XPCFSEventStreamV5EventV
++ _symbolic _____Ieghn_ 19VoiceShortcutClient32XPCDarwinNotificationEventStreamV0F0V
++ _symbolic _____Ieghn_ 19VoiceShortcutClient37XPCDistributedNotificationStreamEventV
++ _symbolic _____Ieghn_ 19VoiceShortcutClient41XPCDiskArbitrationNotificationEventStreamV0G0V
++ _symbolic _____Iegr_ 14VoiceShortcuts13IndexingEvent33_68B631DC608A8A97314907F4DE8DFBDELLV
++ _symbolic _____Say_____y_____y______y_____GGGGIegno_ 14VoiceShortcuts17DaemonEventStreamV AA0D9DebouncerC AC0D5MergeC AA0D3MapC AA08IndexingD033_68B631DC608A8A97314907F4DE8DFBDELLV
++ _symbolic _____Sg 10Foundation4UUIDV
++ _symbolic _____Sg 11WorkflowKit31TriggerRegistrationUpdateReasonO
++ _symbolic _____Sg 14VoiceShortcuts20WFFilesystemListenerC
++ _symbolic _____Sg 14VoiceShortcuts38WFContextualActionSpotlightSyncServiceC
++ _symbolic _____Sg 14VoiceShortcuts9TaskQueue33_140FF4AD5A3C9CD397475339CE5392A2LLC07RunningC0V
++ _symbolic _____Sg 7ToolKit0A8DatabaseC7VersionV
++ _symbolic _____SgXw 14VoiceShortcuts20WFFilesystemListenerC
++ _symbolic _____SgXwz_Xx 14VoiceShortcuts20WFFilesystemListenerC
++ _symbolic __________Iegnr_ 14VoiceShortcuts10EmptyEventV AA08IndexingD033_68B631DC608A8A97314907F4DE8DFBDELLV
++ _symbolic __________Iegnr_ 14VoiceShortcuts17DaemonEventStreamV014DatabaseChangeD0V AA08IndexingD033_68B631DC608A8A97314907F4DE8DFBDELLV
++ _symbolic __________Iegnr_ 14VoiceShortcuts17DaemonEventStreamV03Appb7ChangedD0V AA08IndexingD033_68B631DC608A8A97314907F4DE8DFBDELLV
++ _symbolic __________Iegnr_ 14VoiceShortcuts23SpotlightDomainsCleanerC5EventV AA08IndexingF033_68B631DC608A8A97314907F4DE8DFBDELLV
++ _symbolic ___________pIegHnzo_ 14VoiceShortcuts13IndexingEvent33_68B631DC608A8A97314907F4DE8DFBDELLV s5ErrorP
++ _symbolic ______p 14VoiceShortcuts21IndexRemovalRequiringP
++ _symbolic ______p 14VoiceShortcuts21SpotlightVersionStoreP
++ _symbolic ______p So14WFTriggerStoreP
++ _symbolic ______p So20FCActivityDescribingP
++ _symbolic ______pIeghn_ 14VoiceShortcuts11DaemonEventP
++ _symbolic ______pIego_ s5ErrorP
++ _symbolic _____ySDySiSayy______pYbcGGG 2os21OSAllocatedUnfairLockV 14VoiceShortcuts11DaemonEventP
++ _symbolic _____ySDySiSayy______pYbcGG_____G s13ManagedBufferCsRi__rlE 14VoiceShortcuts11DaemonEventP So16os_unfair_lock_sV
++ _symbolic _____ySS3key______5valuetG s23_ContiguousArrayStorageC 14VoiceShortcuts9TaskQueue33_140FF4AD5A3C9CD397475339CE5392A2LLC07RunningF0V
++ _symbolic _____ySS_____G 11WorkflowKit17OrderedDictionaryV 14VoiceShortcuts9TaskQueue33_140FF4AD5A3C9CD397475339CE5392A2LLC07RunningG0V
++ _symbolic _____ySay______pGG 2os21OSAllocatedUnfairLockV 14VoiceShortcuts17DaemonEventSourceP
++ _symbolic _____ySay______pG_____G s13ManagedBufferCsRi__rlE 14VoiceShortcuts17DaemonEventSourceP So16os_unfair_lock_sV
++ _symbolic _____ySiG 2os21OSAllocatedUnfairLockV
++ _symbolic _____ySiSayy______pYbcGG s17_NativeDictionaryV 14VoiceShortcuts11DaemonEventP
++ _symbolic _____ySi_____G s13ManagedBufferCsRi__rlE So16os_unfair_lock_sV
++ _symbolic _____y_____G 14VoiceShortcuts8EventMapC AA08IndexingC033_68B631DC608A8A97314907F4DE8DFBDELLV
++ _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 14VoiceShortcuts18WFTriggerRegistrarC17RegistrationState33_1B6926D0426518554DFAE9174F1B0D2DLLV
++ _symbolic _____y_____G s11_SetStorageC 14VoiceShortcuts14IndexingDomain33_68B631DC608A8A97314907F4DE8DFBDELLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 14VoiceShortcuts16UpgradeRefetchID33_3075E9ED4126F9A728464EE96FF8086CLLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 14VoiceShortcuts24UpgradeRefetchDescriptor33_3075E9ED4126F9A728464EE96FF8086CLLV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 14VoiceShortcuts9TaskQueue33_140FF4AD5A3C9CD397475339CE5392A2LLC07RunningF0V
++ _symbolic _____y______G 14VoiceShortcuts17DaemonEventStreamV0D6SourceC AA0D10Descriptor33_68B631DC608A8A97314907F4DE8DFBDELLV
++ _symbolic _____y______GSgXw 14VoiceShortcuts17DaemonEventStreamV0D6SourceC AA0D10Descriptor33_68B631DC608A8A97314907F4DE8DFBDELLV
++ _symbolic _____y__________G s13ManagedBufferCsRi__rlE 14VoiceShortcuts18WFTriggerRegistrarC17RegistrationState33_1B6926D0426518554DFAE9174F1B0D2DLLV So16os_unfair_lock_sV
++ _symbolic _____y___________pG s6ResultOsRi_zRi0_zrlE So23VCCKShortcutSyncServiceC14VoiceShortcutsE04PageA033_3075E9ED4126F9A728464EE96FF8086CLLV s5ErrorP
++ _symbolic _____y______y_____GG 14VoiceShortcuts17DaemonEventStreamV0D5MergeC AA0D3MapC AA08IndexingD033_68B631DC608A8A97314907F4DE8DFBDELLV
++ _symbolic _____y_____ySS_____GG 2os21OSAllocatedUnfairLockV 11WorkflowKit17OrderedDictionaryV 14VoiceShortcuts9TaskQueue33_140FF4AD5A3C9CD397475339CE5392A2LLC07RunningK0V
++ _symbolic _____y_____ySS_____GG s16IndexingIteratorV 11WorkflowKit17OrderedDictionaryV 14VoiceShortcuts9TaskQueue33_140FF4AD5A3C9CD397475339CE5392A2LLC07RunningI0V
++ _symbolic _____y_____ySS_____G_____G s13ManagedBufferCsRi__rlE 11WorkflowKit17OrderedDictionaryV 14VoiceShortcuts9TaskQueue33_140FF4AD5A3C9CD397475339CE5392A2LLC07RunningI0V So16os_unfair_lock_sV
++ _symbolic _____y_____y______y_____GGG 14VoiceShortcuts14EventDebouncerC AA06DaemonC6StreamV0C5MergeC AA0C3MapC AA08IndexingC033_68B631DC608A8A97314907F4DE8DFBDELLV
++ _symbolic _____y_____y______y_____GGGSgXw 14VoiceShortcuts14EventDebouncerC AA06DaemonC6StreamV0C5MergeC AA0C3MapC AA08IndexingC033_68B631DC608A8A97314907F4DE8DFBDELLV
++ _symbolic _____y_____ypG s18_DictionaryStorageC s11AnyHashableV
++ _symbolic _____ytIeghnr_ 14VoiceShortcuts10EmptyEventV
++ _symbolic _____yy______pYbcG s23_ContiguousArrayStorageC 14VoiceShortcuts11DaemonEventP
++ _symbolic xIeghn_
++ _symbolic xytIeghnr_
++ _symbolic y5Event_____QzYbcSg 14VoiceShortcuts21DaemonEventDescriptorP
++ _symbolic y6Output_____QzYbcSg 14VoiceShortcuts9EventNodeP
++ _symbolic ySo8CKRecordCc
++ _symbolic y_____YbcSg 14VoiceShortcuts10EmptyEventV
++ _symbolic yxYbcSg
++ _type_layout_string 14VoiceShortcuts13IndexingEvent33_68B631DC608A8A97314907F4DE8DFBDELLV
++ _type_layout_string 14VoiceShortcuts13IndexingEvent33_68B631DC608A8A97314907F4DE8DFBDELLV011AppShortcutC4ModeO
++ _type_layout_string 14VoiceShortcuts15EventDescriptor33_68B631DC608A8A97314907F4DE8DFBDELLV
++ _type_layout_string 14VoiceShortcuts18WFTriggerRegistrarC17RegistrationState33_1B6926D0426518554DFAE9174F1B0D2DLLV
++ _type_layout_string 14VoiceShortcuts24UpgradeRefetchDescriptor33_3075E9ED4126F9A728464EE96FF8086CLLV
++ _type_layout_string 14VoiceShortcuts26SpotlightAvailabilityErrorO
++ _type_layout_string So23VCCKShortcutSyncServiceC14VoiceShortcutsE10PageResult33_3075E9ED4126F9A728464EE96FF8086CLLV
+- +[WFContextualActionSpotlightSyncService contextualActionsIndexVersion]
+- +[WFContextualActionSpotlightSyncService didCompleteAppShortcutDomainMigration]
+- +[WFContextualActionSpotlightSyncService setContextualActionsIndexVersion:]
+- +[WFContextualActionSpotlightSyncService setDidCompleteAppShortcutDomainMigration]
+- -[VCCKShortcutSyncService refetchStoredValuesWithPendingMinimumClientVersion]
+- -[VCVoiceShortcutManager contextualActionSyncService]
+- -[VCVoiceShortcutManager initWithDatabaseProvider:appShortcutsUpdater:contextualActionSyncService:]
+- -[VCVoiceShortcutManager setContextualActionSyncService:]
+- -[VCVoiceShortcutManager triggerFullContextualActionReindexWithCompletion:]
+- -[VCVoiceShortcutManagerAccessWrapper refreshTriggerWithWorkflowID:triggerUUID:urlWrapper:completion:]
+- -[VCVoiceShortcutManagerAccessWrapper triggerFullContextualActionReindexWithCompletion:]
+- -[VCXPCServer contextualActionSyncService]
+- -[VCXPCServer initWithDatabaseProvider:syncDataEndpoint:runCoordinator:appShortcutsUpdater:contextualActionSyncService:]
+- -[VCXPCServer initWithXPCListener:databaseProvider:syncDataEndpoint:runCoordinator:appShortcutsUpdater:contextualActionSyncService:]
+- -[WFAutoShortcutContextualAction(WFCSSearchableItemConvertible) generateSearchableItemWithCompletionBlock:]
+- -[WFContextualAction(WFCSSearchableItemConvertible) generateSearchableItemWithCompletionBlock:]
+- -[WFContextualActionSpotlightSyncService .cxx_destruct]
+- -[WFContextualActionSpotlightSyncService activity]
+- -[WFContextualActionSpotlightSyncService alarmDataSource]
+- -[WFContextualActionSpotlightSyncService applicationWasRegisteredWithCompletion:]
+- -[WFContextualActionSpotlightSyncService availableActivitiesDidChangeForManager:]
+- -[WFContextualActionSpotlightSyncService cellularSettingsUpdatedWithCompletion:]
+- -[WFContextualActionSpotlightSyncService collectionsDidChangeWithCompletion:]
+- -[WFContextualActionSpotlightSyncService daemonTaskScheduler]
+- -[WFContextualActionSpotlightSyncService dataSourceDidReload:]
+- -[WFContextualActionSpotlightSyncService databaseProvider]
+- -[WFContextualActionSpotlightSyncService dealloc]
+- -[WFContextualActionSpotlightSyncService deferredBundleIdentifiers]
+- -[WFContextualActionSpotlightSyncService domainCleanerDidClearDomains:]
+- -[WFContextualActionSpotlightSyncService focusModeSink]
+- -[WFContextualActionSpotlightSyncService indexAppShortcutsAllBundlesInFlightCount]
+- -[WFContextualActionSpotlightSyncService index]
+- -[WFContextualActionSpotlightSyncService initWithDaemonTaskScheduler:databaseProvider:]
+- -[WFContextualActionSpotlightSyncService migrateAppShortcutsAndReindexAllItemsIfNeededWithCompletion:]
+- -[WFContextualActionSpotlightSyncService needsFullReindexReplay]
+- -[WFContextualActionSpotlightSyncService queue]
+- -[WFContextualActionSpotlightSyncService queue_fetchWipeAndIndexActionsInDomainWithDescriptiveName:identifiers:batchSize:fetcher:completionBlock:]
+- -[WFContextualActionSpotlightSyncService queue_getAlarmContextualActionsWithCompletionHandler:]
+- -[WFContextualActionSpotlightSyncService queue_getFocusModeContextualActionsWithCompletionHandler:]
+- -[WFContextualActionSpotlightSyncService queue_getFolderAppEntityContextualActionsWithCompletionHandler:]
+- -[WFContextualActionSpotlightSyncService queue_getStaticContextualActionsWithCompletionHandler:]
+- -[WFContextualActionSpotlightSyncService queue_getToggleSettingContextualActionsWithCompletionHandler:]
+- -[WFContextualActionSpotlightSyncService queue_wipeIndexIfNotMigratedToNewDomainIdentifiersWithCompletionHandler:]
+- -[WFContextualActionSpotlightSyncService receiveAutoShortcutsUpdatedForBundleIdentifiers:completion:]
+- -[WFContextualActionSpotlightSyncService reindexAllSearchableItemsIfNeeded:completion:]
+- -[WFContextualActionSpotlightSyncService reindexAllSearchableItemsWithCompletion:]
+- -[WFContextualActionSpotlightSyncService reindexSearchableItems:appShortcutBundleIdentifiers:completion:]
+- -[WFContextualActionSpotlightSyncService searchableIndex:reindexAllSearchableItemsWithAcknowledgementHandler:]
+- -[WFContextualActionSpotlightSyncService searchableIndex:reindexSearchableItemsWithIdentifiers:acknowledgementHandler:]
+- -[WFContextualActionSpotlightSyncService setAlarmDataSource:]
+- -[WFContextualActionSpotlightSyncService setDatabaseProvider:]
+- -[WFContextualActionSpotlightSyncService setDeferredBundleIdentifiers:]
+- -[WFContextualActionSpotlightSyncService setIndexAppShortcutsAllBundlesInFlightCount:]
+- -[WFContextualActionSpotlightSyncService setNeedsFullReindexReplay:]
+- -[WFContextualActionSpotlightSyncService spotlightDomainsCleaner]
+- -[WFContextualActionSpotlightSyncService spotlightPreferencesChangedWithCompletion:]
+- -[WFContextualActionSpotlightSyncService startWithCompletion:]
+- -[WFContextualActionSpotlightSyncService systemLanguageUpdatedWithCompletion:]
+- GCC_except_table1000
+- GCC_except_table1006
+- GCC_except_table1008
+- GCC_except_table1030
+- GCC_except_table1072
+- GCC_except_table1087
+- GCC_except_table1113
+- GCC_except_table1186
+- GCC_except_table1194
+- GCC_except_table1249
+- GCC_except_table1267
+- GCC_except_table1272
+- GCC_except_table1275
+- GCC_except_table1329
+- GCC_except_table1342
+- GCC_except_table1349
+- GCC_except_table1353
+- GCC_except_table1362
+- GCC_except_table1364
+- GCC_except_table1366
+- GCC_except_table1368
+- GCC_except_table1370
+- GCC_except_table1371
+- GCC_except_table1382
+- GCC_except_table1416
+- GCC_except_table1420
+- GCC_except_table1434
+- GCC_except_table1439
+- GCC_except_table1451
+- GCC_except_table1457
+- GCC_except_table1478
+- GCC_except_table1482
+- GCC_except_table1500
+- GCC_except_table1504
+- GCC_except_table1518
+- GCC_except_table1520
+- GCC_except_table1524
+- GCC_except_table1544
+- GCC_except_table1547
+- GCC_except_table1561
+- GCC_except_table233
+- GCC_except_table290
+- GCC_except_table310
+- GCC_except_table340
+- GCC_except_table349
+- GCC_except_table436
+- GCC_except_table455
+- GCC_except_table536
+- GCC_except_table544
+- GCC_except_table616
+- GCC_except_table631
+- GCC_except_table642
+- GCC_except_table852
+- GCC_except_table92
+- GCC_except_table97
+- GCC_except_table974
+- GCC_except_table98
+- MobileTimerLibraryCore.frameworkLibrary
+- OBJC_IVAR_$_VCVoiceShortcutManager._contextualActionSyncService
+- OBJC_IVAR_$_VCXPCServer._contextualActionSyncService
+- OBJC_IVAR_$_WFContextualActionSpotlightSyncService._activity
+- OBJC_IVAR_$_WFContextualActionSpotlightSyncService._alarmDataSource
+- OBJC_IVAR_$_WFContextualActionSpotlightSyncService._daemonTaskScheduler
+- OBJC_IVAR_$_WFContextualActionSpotlightSyncService._databaseProvider
+- OBJC_IVAR_$_WFContextualActionSpotlightSyncService._deferredBundleIdentifiers
+- OBJC_IVAR_$_WFContextualActionSpotlightSyncService._focusModeSink
+- OBJC_IVAR_$_WFContextualActionSpotlightSyncService._index
+- OBJC_IVAR_$_WFContextualActionSpotlightSyncService._indexAppShortcutsAllBundlesInFlightCount
+- OBJC_IVAR_$_WFContextualActionSpotlightSyncService._needsFullReindexReplay
+- OBJC_IVAR_$_WFContextualActionSpotlightSyncService._queue
+- OBJC_IVAR_$_WFContextualActionSpotlightSyncService._spotlightDomainsCleaner
+- _MobileTimerLibrary
+- _OBJC_CLASS_$_WFContextualActionSpotlightSyncService
+- _OBJC_CLASS_$_WFFilesystemListener
+- _OBJC_CLASS_$_WFSpotlightDomainsCleaner
+- _OBJC_CLASS_$_WFSpotlightSettingsClient
+- _OBJC_METACLASS_$_WFContextualActionSpotlightSyncService
+- _OBJC_METACLASS_$_WFFilesystemListener
+- _OBJC_METACLASS_$_WFSpotlightDomainsCleaner
+- _OBJC_METACLASS_$_WFSpotlightSettingsClient
+- _WFAutoShortcutContextualActionDomainMigration
+- _WFContextualActionsIndexVersion
+- _WFShortcutsContextualActionsMigratedToNewDomainIdentifiersKey
+- _WFStaticContextualActionDefinitionsForSurface
+- __105-[WFContextualActionSpotlightSyncService reindexSearchableItems:appShortcutBundleIdentifiers:completion:]_block_invoke
+- __105-[WFContextualActionSpotlightSyncService reindexSearchableItems:appShortcutBundleIdentifiers:completion:]_block_invoke_2
+- __110-[WFContextualActionSpotlightSyncService searchableIndex:reindexAllSearchableItemsWithAcknowledgementHandler:]_block_invoke
+- __119-[WFContextualActionSpotlightSyncService searchableIndex:reindexSearchableItemsWithIdentifiers:acknowledgementHandler:]_block_invoke
+- __146-[WFContextualActionSpotlightSyncService queue_fetchWipeAndIndexActionsInDomainWithDescriptiveName:identifiers:batchSize:fetcher:completionBlock:]_block_invoke
+- __146-[WFContextualActionSpotlightSyncService queue_fetchWipeAndIndexActionsInDomainWithDescriptiveName:identifiers:batchSize:fetcher:completionBlock:]_block_invoke_2
+- __62-[WFContextualActionSpotlightSyncService dataSourceDidReload:]_block_invoke
+- __71-[WFContextualActionSpotlightSyncService domainCleanerDidClearDomains:]_block_invoke
+- __81-[WFContextualActionSpotlightSyncService availableActivitiesDidChangeForManager:]_block_invoke
+- __CATEGORY_CLASS_METHODS_CSSearchQuery_$_VoiceShortcuts
+- __CATEGORY_CSSearchQuery_$_VoiceShortcuts
+- __CATEGORY_INSTANCE_METHODS_WFUnifiedTriggerKey_$_VoiceShortcuts
+- __CATEGORY_PROPERTIES_WFUnifiedTriggerKey_$_VoiceShortcuts
+- __CATEGORY_WFUnifiedTriggerKey_$_VoiceShortcuts
+- __CLASS_METHODS_WFFilesystemListener
+- __CLASS_METHODS_WFSpotlightDomainsCleaner
+- __CLASS_METHODS_WFSpotlightSettingsClient
+- __CLASS_PROPERTIES_WFFilesystemListener
+- __CLASS_PROPERTIES_WFSpotlightDomainsCleaner
+- __CLASS_PROPERTIES_WFSpotlightSettingsClient
+- __DATA_WFFilesystemListener
+- __DATA_WFSpotlightDomainsCleaner
+- __DATA_WFSpotlightSettingsClient
+- __INSTANCE_METHODS_WFFilesystemListener
+- __INSTANCE_METHODS_WFSpotlightDomainsCleaner
+- __INSTANCE_METHODS_WFSpotlightSettingsClient
+- __INSTANCE_METHODS__TtC14VoiceShortcuts27WFAppEntityContextualAction
+- __IVARS_WFFilesystemListener
+- __IVARS_WFSpotlightDomainsCleaner
+- __METACLASS_DATA_WFFilesystemListener
+- __METACLASS_DATA_WFSpotlightDomainsCleaner
+- __METACLASS_DATA_WFSpotlightSettingsClient
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_WFAutoShortcutContextualAction_$_WFCSSearchableItemConvertible
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_WFContextualAction_$_WFCSSearchableItemConvertible
+- __OBJC_$_CATEGORY_WFAutoShortcutContextualAction_$_WFCSSearchableItemConvertible
+- __OBJC_$_CATEGORY_WFContextualAction_$_WFCSSearchableItemConvertible
+- __OBJC_$_CLASS_METHODS_WFContextualActionSpotlightSyncService
+- __OBJC_$_INSTANCE_METHODS_VCCKShortcutSyncService(VoiceShortcuts)
+- __OBJC_$_INSTANCE_METHODS_VCDaemonDatabaseProvider
+- __OBJC_$_INSTANCE_METHODS_WFContextualActionSpotlightSyncService
+- __OBJC_$_INSTANCE_VARIABLES_WFContextualActionSpotlightSyncService
+- __OBJC_$_PROP_LIST_WFContextualActionSpotlightSyncService
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_MTAlarmDataSourceObserver
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_MTAlarmDataSourceObserver
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_WFCSSearchableItemConvertible
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_WFSpotlightDomainsCleanerObserver
+- __OBJC_$_PROTOCOL_METHOD_TYPES_MTAlarmDataSourceObserver
+- __OBJC_$_PROTOCOL_METHOD_TYPES_WFCSSearchableItemConvertible
+- __OBJC_$_PROTOCOL_METHOD_TYPES_WFSpotlightDomainsCleanerObserver
+- __OBJC_CATEGORY_PROTOCOLS_$_WFContextualAction_$_WFCSSearchableItemConvertible
+- __OBJC_CLASS_PROTOCOLS_$_WFContextualActionSpotlightSyncService
+- __OBJC_CLASS_RO_$_WFContextualActionSpotlightSyncService
+- __OBJC_LABEL_PROTOCOL_$_MTAlarmDataSourceObserver
+- __OBJC_LABEL_PROTOCOL_$_WFCSSearchableItemConvertible
+- __OBJC_LABEL_PROTOCOL_$_WFSpotlightDomainsCleanerObserver
+- __OBJC_METACLASS_RO_$_WFContextualActionSpotlightSyncService
+- __OBJC_PROTOCOL_$_MTAlarmDataSourceObserver
+- __OBJC_PROTOCOL_$_WFCSSearchableItemConvertible
+- __OBJC_PROTOCOL_$_WFSpotlightDomainsCleanerObserver
+- __PROPERTIES__TtC14VoiceShortcuts27WFAppEntityContextualAction
+- __PROTOCOL_INSTANCE_METHODS_WFSpotlightDomainsCleanerObserver
+- __PROTOCOL_METHOD_TYPES_WFSpotlightDomainsCleanerObserver
+- __PROTOCOL_WFSpotlightDomainsCleanerObserver
+- ___102-[WFContextualActionSpotlightSyncService migrateAppShortcutsAndReindexAllItemsIfNeededWithCompletion:]_block_invoke
+- ___103-[WFContextualActionSpotlightSyncService queue_getToggleSettingContextualActionsWithCompletionHandler:]_block_invoke
+- ___105-[WFContextualActionSpotlightSyncService queue_getFolderAppEntityContextualActionsWithCompletionHandler:]_block_invoke
+- ___105-[WFContextualActionSpotlightSyncService reindexSearchableItems:appShortcutBundleIdentifiers:completion:]_block_invoke
+- ___105-[WFContextualActionSpotlightSyncService reindexSearchableItems:appShortcutBundleIdentifiers:completion:]_block_invoke_10
+- ___105-[WFContextualActionSpotlightSyncService reindexSearchableItems:appShortcutBundleIdentifiers:completion:]_block_invoke_2
+- ___105-[WFContextualActionSpotlightSyncService reindexSearchableItems:appShortcutBundleIdentifiers:completion:]_block_invoke_3
+- ___105-[WFContextualActionSpotlightSyncService reindexSearchableItems:appShortcutBundleIdentifiers:completion:]_block_invoke_4
+- ___105-[WFContextualActionSpotlightSyncService reindexSearchableItems:appShortcutBundleIdentifiers:completion:]_block_invoke_5
+- ___105-[WFContextualActionSpotlightSyncService reindexSearchableItems:appShortcutBundleIdentifiers:completion:]_block_invoke_6
+- ___105-[WFContextualActionSpotlightSyncService reindexSearchableItems:appShortcutBundleIdentifiers:completion:]_block_invoke_7
+- ___105-[WFContextualActionSpotlightSyncService reindexSearchableItems:appShortcutBundleIdentifiers:completion:]_block_invoke_8
+- ___105-[WFContextualActionSpotlightSyncService reindexSearchableItems:appShortcutBundleIdentifiers:completion:]_block_invoke_9
+- ___110-[WFContextualActionSpotlightSyncService searchableIndex:reindexAllSearchableItemsWithAcknowledgementHandler:]_block_invoke
+- ___119-[WFContextualActionSpotlightSyncService searchableIndex:reindexSearchableItemsWithIdentifiers:acknowledgementHandler:]_block_invoke
+- ___146-[WFContextualActionSpotlightSyncService queue_fetchWipeAndIndexActionsInDomainWithDescriptiveName:identifiers:batchSize:fetcher:completionBlock:]_block_invoke
+- ___146-[WFContextualActionSpotlightSyncService queue_fetchWipeAndIndexActionsInDomainWithDescriptiveName:identifiers:batchSize:fetcher:completionBlock:]_block_invoke_2
+- ___146-[WFContextualActionSpotlightSyncService queue_fetchWipeAndIndexActionsInDomainWithDescriptiveName:identifiers:batchSize:fetcher:completionBlock:]_block_invoke_3
+- ___62-[WFContextualActionSpotlightSyncService dataSourceDidReload:]_block_invoke
+- ___71-[WFContextualActionSpotlightSyncService domainCleanerDidClearDomains:]_block_invoke
+- ___77-[VCCKShortcutSyncService refetchStoredValuesWithPendingMinimumClientVersion]_block_invoke
+- ___77-[WFContextualActionSpotlightSyncService collectionsDidChangeWithCompletion:]_block_invoke
+- ___81-[WFContextualActionSpotlightSyncService availableActivitiesDidChangeForManager:]_block_invoke
+- ___87-[WFContextualActionSpotlightSyncService reindexAllSearchableItemsIfNeeded:completion:]_block_invoke
+- ___95-[WFContextualActionSpotlightSyncService queue_getAlarmContextualActionsWithCompletionHandler:]_block_invoke
+- ___95-[WFContextualActionSpotlightSyncService queue_getAlarmContextualActionsWithCompletionHandler:]_block_invoke_2
+- ___96-[WFContextualActionSpotlightSyncService queue_getStaticContextualActionsWithCompletionHandler:]_block_invoke
+- ___99-[WFContextualActionSpotlightSyncService queue_getFocusModeContextualActionsWithCompletionHandler:]_block_invoke
+- ___99-[WFContextualActionSpotlightSyncService queue_getFocusModeContextualActionsWithCompletionHandler:]_block_invoke_2
+- ___MobileTimerLibraryCore_block_invoke
+- ___WFToggleContextualActions_block_invoke
+- ___block_descriptor_104_e8_32s40s48s56s64s72s80bs_e17_v16?0"NSError"8l
+- ___block_descriptor_112_e8_32s40s48s56s64s72s80s88bs_e5_v8?0l
+- ___block_descriptor_32_e41_"NSString"24?0"WFContextualAction"8Q16l
+- ___block_descriptor_32_e45_v24?0"NSString"8?<v?"NSSet""NSError">16l
+- ___block_descriptor_32_e53_"WFContextualAction"24?0"WFWorkflowCollection"8Q16l
+- ___block_descriptor_32_e55_"WFContextualAction"24?0"<FCActivityDescribing>"8Q16l
+- ___block_descriptor_40_e8_32s_e17_v16?0"NSArray"8l
+- ___block_descriptor_40_e8_32s_e24_v16?0?<v?"NSError">8l
+- ___block_descriptor_40_e8_32s_e24_v32?0"NSArray"8Q16^B24l
+- ___block_descriptor_40_e8_32s_e30_"NSError"24?0"NSString"8Q16l
+- ___block_descriptor_40_e8_32s_e34_v16?0?<v?"NSArray""NSError">8l
+- ___block_descriptor_48_e8_32s40s_e17_v16?0"NSError"8l
+- ___block_descriptor_48_e8_32s40s_e24_v16?0?<v?"NSError">8l
+- ___block_descriptor_72_e8_32s40s48s56bs_e17_v16?0"NSError"8l
+- ___block_descriptor_80_e8_32s40s48s56s64bs_e17_v16?0"NSError"8l
+- ___block_descriptor_80_e8_32s40s48s56s64bs_e29_v24?0"NSArray"8"NSError"16l
+- ___block_descriptor_88_e8_32s40s48s56s64bs72bs_e5_v8?0l
+- ___block_descriptor_96_e8_32s40s48s56s64s72bs_e37_v32?0"NSSet"8"NSSet"16"NSError"24l
+- ___copy_helper_block_e8_32s40s48s56s64b
+- ___copy_helper_block_e8_32s40s48s56s64b72b
+- ___copy_helper_block_e8_32s40s48s56s64s72s80b
+- ___copy_helper_block_e8_32s40s48s56s64s72s80s88b
+- ___destroy_helper_block_e8_32s40s48s56s64s
+- ___destroy_helper_block_e8_32s40s48s56s64s72s80s
+- ___destroy_helper_block_e8_32s40s48s56s64s72s80s88s
+- ___getMTAlarmDataSourceClass_block_invoke
+- ___getMTAlarmManagerClass_block_invoke
+- __dispatch_main_q
+- __os_activity_create
+- __os_activity_current
+- __swift_closure_destructor.226Tm
+- __swift_closure_destructor.47Tm
+- __swift_closure_destructor.58Tm
+- __swift_closure_destructor.5Tm
+- __swift_closure_destructor.79Tm
+- __swift_closure_destructor.90Tm
+- _audit_stringMobileTimer
+- _dispatch_group_create
+- _dispatch_group_enter
+- _dispatch_group_leave
+- _dispatch_group_notify
+- _flat unique So33WFSpotlightDomainsCleanerObserver_p
+- _getFCActivityManagerClass
+- _getWFSpotlightSyncLogObject
+- _get_enum_tag_for_layout_string 14VoiceShortcuts15ToolTransformerC0cD5ErrorO
+- _objc_msgSend$alarmDataSource
+- _objc_msgSend$applicationWasRegisteredWithCompletion:
+- _objc_msgSend$arrayForKey:
+- _objc_msgSend$capitalizedString
+- _objc_msgSend$collectionsDidChangeWithCompletion:
+- _objc_msgSend$contextualActionSyncService
+- _objc_msgSend$contextualActionsIndexVersion
+- _objc_msgSend$didCompleteAppShortcutDomainMigration
+- _objc_msgSend$diskMountEventName
+- _objc_msgSend$domainCleanerDidClearDomains:
+- _objc_msgSend$handleEvent:
+- _objc_msgSend$handleUploadedWorkflowRecordWithIdentifier:cloudKitMetadata:syncHash:encryptedSchemaVersion:error:
+- _objc_msgSend$ignoreSubfolders
+- _objc_msgSend$index
+- _objc_msgSend$initWithAlarmManager:
+- _objc_msgSend$initWithDaemonTaskScheduler:databaseProvider:
+- _objc_msgSend$initWithDatabaseProvider:appShortcutsUpdater:contextualActionSyncService:
+- _objc_msgSend$initWithDatabaseProvider:syncDataEndpoint:runCoordinator:appShortcutsUpdater:contextualActionSyncService:
+- _objc_msgSend$initWithEventQueue:triggerStore:notificationManager:
+- _objc_msgSend$initWithIdentifier:displayTitle:entityType:
+- _objc_msgSend$initWithXPCListener:databaseProvider:syncDataEndpoint:runCoordinator:appShortcutsUpdater:contextualActionSyncService:
+- _objc_msgSend$integerForKey:
+- _objc_msgSend$legacySpotlightDomainIdentifier
+- _objc_msgSend$migrateAppShortcutsAndReindexAllItemsIfNeededWithCompletion:
+- _objc_msgSend$performDiffOfIdentifiers:inDomains:withItemFetcher:completionBlock:
+- _objc_msgSend$queueFireTriggerWith:force:eventInfo:completion:
+- _objc_msgSend$queueUnregisterTriggerWith:completionHandler:
+- _objc_msgSend$queue_fetchWipeAndIndexActionsInDomainWithDescriptiveName:identifiers:batchSize:fetcher:completionBlock:
+- _objc_msgSend$queue_getAlarmContextualActionsWithCompletionHandler:
+- _objc_msgSend$queue_getFocusModeContextualActionsWithCompletionHandler:
+- _objc_msgSend$queue_getFolderAppEntityContextualActionsWithCompletionHandler:
+- _objc_msgSend$queue_getToggleSettingContextualActionsWithCompletionHandler:
+- _objc_msgSend$queue_wipeIndexIfNotMigratedToNewDomainIdentifiersWithCompletionHandler:
+- _objc_msgSend$receiveAutoShortcutsUpdatedForBundleIdentifiers:completion:
+- _objc_msgSend$refetchStoredValuesWithPendingMinimumClientVersion
+- _objc_msgSend$registerObserver:
+- _objc_msgSend$reindexAllSearchableItemsIfNeeded:completion:
+- _objc_msgSend$reindexAllSearchableItemsWithCompletion:
+- _objc_msgSend$reindexSearchableItems:appShortcutBundleIdentifiers:completion:
+- _objc_msgSend$scheduleTaskWithIdentifier:priority:operation:
+- _objc_msgSend$setContextualActionsIndexVersion:
+- _objc_msgSend$setDidCompleteAppShortcutDomainMigration
+- _objc_msgSend$setTrackedNodeIdentifier:
+- _objc_msgSend$setValue:forKey:
+- _objc_msgSend$shared
+- _objc_msgSend$spotlightDomainIdentifierForEntityType:
+- _objc_msgSend$spotlightDomainsCleaner
+- _objc_msgSend$spotlightPreferencesChangedWithCompletion:
+- _objc_msgSend$startWithCompletion:
+- _objc_msgSend$systemLanguageUpdatedWithCompletion:
+- _objc_msgSend$triggerFullContextualActionReindexWithCompletion:
+- _objc_msgSend$triggerIDEventInfoKey
+- _objc_msgSend$unregisterObserver:
+- _objc_msgSend$updateFileAccessForTriggerKey:fileAccessURL:triggerStore:error:
+- _os_activity_apply
+- _os_activity_scope_enter
+- _os_activity_scope_leave
+- _swift_unknownObjectWeakAssign
+- _symbolic $s14VoiceShortcuts31SpotlightDomainsCleanerObserverP
+- _symbolic 5Event_____QzIegn_ 14VoiceShortcuts21DaemonEventDescriptorP
+- _symbolic 5Event_____QzytIegnr_ 14VoiceShortcuts21DaemonEventDescriptorP
+- _symbolic 6Output_____QzIegn_ 14VoiceShortcuts9EventNodeP
+- _symbolic 6Output_____QzytIegnr_ 14VoiceShortcuts9EventNodeP
+- _symbolic SDySiSayy______pcGG 14VoiceShortcuts11DaemonEventP
+- _symbolic SS3key______5valuet 14VoiceShortcuts9TaskQueue33_140FF4AD5A3C9CD397475339CE5392A2LLC07RunningC5StateV
+- _symbolic Say_____G 11WorkflowKit36WFUnifiedAutomationTriggerDescriptorC
+- _symbolic Say______pGSg 14VoiceShortcuts17DaemonEventSourceP
+- _symbolic Say_____y______pGG 19VoiceShortcutClient13WeakReferenceV 0A9Shortcuts31SpotlightDomainsCleanerObserverP
+- _symbolic Sayy______pcG 14VoiceShortcuts11DaemonEventP
+- _symbolic SbIeAgHr_
+- _symbolic SbIegd_
+- _symbolic SccySb_____G s5NeverO
+- _symbolic Sccyyt_____G s5NeverO
+- _symbolic ShySSGAA______pSgIegggg_ s5ErrorP
+- _symbolic So20WFFilesystemListenerC
+- _symbolic So20WFFilesystemListenerCSg
+- _symbolic So20WFFilesystemListenerCSgXw
+- _symbolic So20WFFilesystemListenerCSgXwz_Xx
+- _symbolic So38WFContextualActionSpotlightSyncServiceC
+- _symbolic So38WFContextualActionSpotlightSyncServiceCSg
+- _symbolic So5NSSetCABSo7NSErrorCSgIeyByyy_
+- _symbolic _____ 11WorkflowKit36WFUnifiedAutomationTriggerDescriptorC
+- _symbolic _____ 14VoiceShortcuts23SpotlightSettingsClientC
+- _symbolic _____ 14VoiceShortcuts9TaskQueue33_140FF4AD5A3C9CD397475339CE5392A2LLC07RunningC5StateV
+- _symbolic _____Iegd_ s5Int32V
+- _symbolic _____Iegn_ 14VoiceShortcuts10EmptyEventV
+- _symbolic _____Iegn_ 14VoiceShortcuts17DaemonEventStreamV011XPCActivityD6SourceC0D0V
+- _symbolic _____Iegn_ 14VoiceShortcuts17DaemonEventStreamV08CoreDuetD6SourceC0D0V
+- _symbolic _____Iegn_ 14VoiceShortcuts18DaemonStartupEventV
+- _symbolic _____Iegn_ 14VoiceShortcuts22TerminationEventSourceC0D0V
+- _symbolic _____Iegn_ 14VoiceShortcuts23SpotlightDomainsCleanerC5EventV
+- _symbolic _____Iegn_ 14VoiceShortcuts34DaemonSchedulerWillBecomeIdleEventV
+- _symbolic _____Iegn_ 19VoiceShortcutClient16XPCFSEventStreamV5EventV
+- _symbolic _____Iegn_ 19VoiceShortcutClient32XPCDarwinNotificationEventStreamV0F0V
+- _symbolic _____Iegn_ 19VoiceShortcutClient37XPCDistributedNotificationStreamEventV
+- _symbolic _____Iegn_ 19VoiceShortcutClient41XPCDiskArbitrationNotificationEventStreamV0G0V
+- _symbolic _____Iegr_ s5Int32V
+- _symbolic _____Say_____y_____y_____GGGIegno_ 14VoiceShortcuts17DaemonEventStreamV AA0D6FilterC AA0D3MapC AC014DatabaseChangeD0V
+- _symbolic _____Sg 14VoiceShortcuts9TaskQueue33_140FF4AD5A3C9CD397475339CE5392A2LLC07RunningC5StateV
+- _symbolic _____So7NSErrorCSgIeyByy_ 10ObjectiveC8ObjCBoolV
+- _symbolic ___________pIegHnzo_ 14VoiceShortcuts17DaemonEventStreamV03Appb7ChangedD0V s5ErrorP
+- _symbolic ______pIegn_ 14VoiceShortcuts11DaemonEventP
+- _symbolic _____ySS3key______5valuetG s23_ContiguousArrayStorageC 14VoiceShortcuts9TaskQueue33_140FF4AD5A3C9CD397475339CE5392A2LLC07RunningF5StateV
+- _symbolic _____ySS_____G 11WorkflowKit17OrderedDictionaryV 14VoiceShortcuts9TaskQueue33_140FF4AD5A3C9CD397475339CE5392A2LLC07RunningG5StateV
+- _symbolic _____ySiSayy______pcGG s17_NativeDictionaryV 14VoiceShortcuts11DaemonEventP
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 14VoiceShortcuts9TaskQueue33_140FF4AD5A3C9CD397475339CE5392A2LLC07RunningF5StateV
+- _symbolic _____y______pG 19VoiceShortcutClient13WeakReferenceV 0A9Shortcuts31SpotlightDomainsCleanerObserverP
+- _symbolic _____y_____ySS_____GG 2os21OSAllocatedUnfairLockV 11WorkflowKit17OrderedDictionaryV 14VoiceShortcuts9TaskQueue33_140FF4AD5A3C9CD397475339CE5392A2LLC07RunningK5StateV
+- _symbolic _____y_____ySS_____GG s16IndexingIteratorV 11WorkflowKit17OrderedDictionaryV 14VoiceShortcuts9TaskQueue33_140FF4AD5A3C9CD397475339CE5392A2LLC07RunningI5StateV
+- _symbolic _____y_____ySS_____G_____G s13ManagedBufferCsRi__rlE 11WorkflowKit17OrderedDictionaryV 14VoiceShortcuts9TaskQueue33_140FF4AD5A3C9CD397475339CE5392A2LLC07RunningI5StateV So16os_unfair_lock_sV
+- _symbolic _____y_____y______pGG s23_ContiguousArrayStorageC 19VoiceShortcutClient13WeakReferenceV 0D9Shortcuts31SpotlightDomainsCleanerObserverP
+- _symbolic _____ytIegnr_ 14VoiceShortcuts10EmptyEventV
+- _symbolic _____yy______pcG s23_ContiguousArrayStorageC 14VoiceShortcuts11DaemonEventP
+- _symbolic xIegn_
+- _symbolic xytIegnr_
+- _symbolic y5Event_____QzcSg 14VoiceShortcuts21DaemonEventDescriptorP
+- _symbolic y6Output_____QzcSg 14VoiceShortcuts9EventNodeP
+- _symbolic y_____cSg 14VoiceShortcuts10EmptyEventV
+- _symbolic yxcSg
+- getMTAlarmDataSourceClass.softClass
+- getMTAlarmManagerClass.softClass
+CStrings:
++ "%s Debouncer fired but invalid event name: %{public}@"
++ "%s Debouncer fired but missing eventName or diskName: %{public}@"
++ "%s Failed to create external-trigger database directory: %{public}@"
++ "%s Failed to initialize external-trigger database: %{public}@"
++ "%s Getting execution bookmark data for trigger"
++ "%s Invalid eventName in disk event. Ignoring: %@"
++ "%s No eventName in disk event. Ignoring."
++ "%s Not initializing the external-trigger database because the current user is `setup`, returning nil"
++ "(IndexingEvent in _68B631DC608A8A97314907F4DE8DFBDE)"
++ "), shouldClearIndex: "
++ ", appShortcutBundles: "
++ "-[VCCKShortcutSyncService refetchStoredValuesWithPendingMinimumClientVersionWithCompletion:]"
++ "-[VCCKShortcutSyncService refetchStoredValuesWithPendingMinimumClientVersionWithCompletion:]_block_invoke"
++ "-[VCDaemonDatabaseProvider externalTriggerDatabaseWithError:]_block_invoke"
++ "-[VCVoiceShortcutManagerAccessWrapper getTriggerExecutionBookmarkDataForUrlWrapper:completion:]"
++ "<Cancelling running DaemonTask due to shutdown: %{public}s, terminationResponsive=%{bool}d>"
++ "<Contextual Action Spotlight Indexing Event, domains: ("
++ "App Shortcuts updated for %s, triggering re-index"
++ "App Shortcuts updated for all bundles, triggering re-index"
++ "Collections changed, triggering resync of folder entities"
++ "Completed indexing pass"
++ "ContextualActionSpotlightSync"
++ "Deleting %ld contextual actions from index for domain %s"
++ "Deleting all searchable items from the index"
++ "Dropping run outcome — no database resolves workflow %s"
++ "Error fetching '%{public}s' record %{public}@ during upgrade refetch (%{public}s): %{public}@"
++ "Failed to delete all of the items: %@"
++ "Failed to delete trigger event %{public}s: %{public}@"
++ "Failed to index alarm toggles: %{public}@"
++ "Failed to index focus mode actions: %{public}@"
++ "Failed to index folders from database: %{public}@"
++ "Failed to index searchable items, since the service has not started yet"
++ "Failed to index system settings toggles: %{public}@"
++ "Failed to unregister trigger: (type: %{public}s, key: %{public}@): %{public}@"
++ "Fetch External Trigger Shortcuts"
++ "Found %ld existing indexed actions for domain %s"
++ "Got request to re-index everything"
++ "Migrated %ld notify-me-when automation(s) to the external-trigger DB"
++ "Post-upgrade refetch '%{public}s' starting (not yet complete)"
++ "Re-registering trigger (%{public}s); identifier: %{public}s; key: %{public}@"
++ "Re-registering trigger after firing: (type: %{public}s, key: %{public}@)"
++ "Reindex — indexed base tool count %{public}ld is below the healthy baseline %{public}ld; forcing a full reindex"
++ "Significant change, triggering force sync"
++ "Skipping reindex — ToolDatabase unchanged and Spotlight index populated"
++ "Skipping trigger with identifier: %{public}s, key: %{public}@ | isAvailable: %{bool,public}d, isValid: %{bool,public}d."
++ "Starting indexing pass for %{public}s"
++ "Termination grace period elapsed — cancelling any remaining termination-responsive tasks"
++ "Tool not visible in Spotlight: "
++ "Transient failure recovering triggers for workflow %{public}s during upgrade refetch; dropped, refetch will still mark complete"
++ "Trigger already registered with matching configuration; skipping re-registration; identifier: %{public}s; key: %{public}@"
++ "Unreadable automationTriggersData during upgrade refetch for record %{public}@"
++ "Unsatisfied requirement: "
++ "Updating tooldatabase spotlight version %{public}s"
++ "Upgrade refetch '%{public}s' complete; %ld record(s) over %ld page(s)"
++ "Upgrade refetch '%{public}s' query failed after %ld record(s) over %ld page(s), will retry next launch: %{public}@"
++ "VoiceShortcuts.EventListener"
++ "VoiceShortcuts.WFFilesystemListener"
++ "WFFocusUtilities.m"
++ "WFSpotlightIndexedSchemaVersion"
++ "WFSpotlightIndexedToolDatabaseVersion"
++ "Writing %ld contextual actions to index for domain %s"
++ "automationTriggersData"
++ "base spotlight tool index (if needed)"
++ "com.apple.shortcuts.VCDaemonDatabaseProvider.externalTrigger"
++ "fetchPage(refetch:cursor:)"
++ "reindex-if-needed"
++ "storedValues"
++ "unifiedTriggerWorkflows"
++ "upgrade refetch '"
++ "upgrade refetch: transient trigger-recovery failure for "
+- "%s Alarm data source reloaded, triggering re-index"
+- "%s App Shortcuts domain don't need migration, skipping"
+- "%s App Shortcuts need migration, wiping existing App Shortcuts"
+- "%s App Shortcuts updated for %@, triggering re-index"
+- "%s Available focus modes changes, triggering re-index"
+- "%s CSSearchableIndex requested full reindex"
+- "%s CSSearchableIndex requested index of items: %@"
+- "%s Cellular settings updated, triggering toggle sync"
+- "%s Checking if contextual actions index needs to be updated. Index version is: %{public}ld, needed index version is: %ld"
+- "%s Collections changed, triggering resync of folder entities"
+- "%s Contextual action indexing finished. Index is HEALTHY."
+- "%s Contextual action indexing finished. Index is UNHEALTHY. Unhealthy stages: %@, indexing errors: %@"
+- "%s Contextual actions index doesn't need to be updated"
+- "%s Couldn't get %@ contextual actions, let's not touch existing indexed ones: %@"
+- "%s Couldn't wipe domains %@ -- not indexing the fetched %lu %@ contextual actions, let's try again later: %@"
+- "%s Current index version is lower than the needed index version. Beginning re-index"
+- "%s Debouncer fired but missing triggerID or diskName: %{public}@"
+- "%s Deleted necessary %@ contextual actions from domains %@, indexing the new ones..."
+- "%s Deleting %lu contextual actions from domains %@"
+- "%s Domains wiped reindexing all contextual actions"
+- "%s Error deleting legacy App Shortcuts domain: %@"
+- "%s Error wiping Spotlight index. Not going to continue indexing new ones in, we'll try again later: %@"
+- "%s Failed to index %lu %@ contextual actions from domains %@: %@"
+- "%s Forcing re-index"
+- "%s Found %lu matching items in the index"
+- "%s Marking App Shortcut migration complete"
+- "%s New indexing stage: Indexing %@ contextual actions"
+- "%s No trigger store available for workflow %@ trigger %@"
+- "%s No triggerID in disk event. Ignoring."
+- "%s Refresh trigger and granting url access for workflow %@ trigger %@."
+- "%s Search query returned error: %@"
+- "%s Shortcuts app installed, triggering force sync"
+- "%s Spotlight indexing is not available."
+- "%s Spotlight preferences updated, triggering App Shortcut sync"
+- "%s Successfully indexed %lu %@ contextual actions. %@ contextual actions are in good shape!"
+- "%s Sync service doesn't support reindexing individual items, triggering full reindex"
+- "%s System language updated, triggering full reindex"
+- "%s Triggering full reindex"
+- ", "
+- "-[VCCKShortcutSyncService refetchStoredValuesWithPendingMinimumClientVersion]"
+- "-[VCCKShortcutSyncService refetchStoredValuesWithPendingMinimumClientVersion]_block_invoke"
+- "-[VCVoiceShortcutManagerAccessWrapper refreshTriggerWithWorkflowID:triggerUUID:urlWrapper:completion:]"
+- "-[WFContextualActionSpotlightSyncService applicationWasRegisteredWithCompletion:]"
+- "-[WFContextualActionSpotlightSyncService availableActivitiesDidChangeForManager:]_block_invoke"
+- "-[WFContextualActionSpotlightSyncService cellularSettingsUpdatedWithCompletion:]"
+- "-[WFContextualActionSpotlightSyncService collectionsDidChangeWithCompletion:]"
+- "-[WFContextualActionSpotlightSyncService dataSourceDidReload:]_block_invoke"
+- "-[WFContextualActionSpotlightSyncService domainCleanerDidClearDomains:]_block_invoke"
+- "-[WFContextualActionSpotlightSyncService initWithDaemonTaskScheduler:databaseProvider:]"
+- "-[WFContextualActionSpotlightSyncService migrateAppShortcutsAndReindexAllItemsIfNeededWithCompletion:]"
+- "-[WFContextualActionSpotlightSyncService migrateAppShortcutsAndReindexAllItemsIfNeededWithCompletion:]_block_invoke"
+- "-[WFContextualActionSpotlightSyncService queue_fetchWipeAndIndexActionsInDomainWithDescriptiveName:identifiers:batchSize:fetcher:completionBlock:]_block_invoke"
+- "-[WFContextualActionSpotlightSyncService queue_fetchWipeAndIndexActionsInDomainWithDescriptiveName:identifiers:batchSize:fetcher:completionBlock:]_block_invoke_2"
+- "-[WFContextualActionSpotlightSyncService queue_fetchWipeAndIndexActionsInDomainWithDescriptiveName:identifiers:batchSize:fetcher:completionBlock:]_block_invoke_3"
+- "-[WFContextualActionSpotlightSyncService receiveAutoShortcutsUpdatedForBundleIdentifiers:completion:]"
+- "-[WFContextualActionSpotlightSyncService reindexAllSearchableItemsIfNeeded:completion:]"
+- "-[WFContextualActionSpotlightSyncService reindexAllSearchableItemsWithCompletion:]"
+- "-[WFContextualActionSpotlightSyncService reindexSearchableItems:appShortcutBundleIdentifiers:completion:]_block_invoke"
+- "-[WFContextualActionSpotlightSyncService reindexSearchableItems:appShortcutBundleIdentifiers:completion:]_block_invoke_10"
+- "-[WFContextualActionSpotlightSyncService reindexSearchableItems:appShortcutBundleIdentifiers:completion:]_block_invoke_2"
+- "-[WFContextualActionSpotlightSyncService searchableIndex:reindexAllSearchableItemsWithAcknowledgementHandler:]_block_invoke"
+- "-[WFContextualActionSpotlightSyncService searchableIndex:reindexSearchableItemsWithIdentifiers:acknowledgementHandler:]_block_invoke"
+- "-[WFContextualActionSpotlightSyncService spotlightPreferencesChangedWithCompletion:]"
+- "-[WFContextualActionSpotlightSyncService systemLanguageUpdatedWithCompletion:]"
+- "/System/Library/PrivateFrameworks/MobileTimer.framework/Contents/MacOS/MobileTimer"
+- "@\"NSError\"24@?0@\"NSString\"8Q16"
+- "@\"NSString\"24@?0@\"WFContextualAction\"8Q16"
+- "@\"WFContextualAction\"24@?0@\"<FCActivityDescribing>\"8Q16"
+- "@\"WFContextualAction\"24@?0@\"WFWorkflowCollection\"8Q16"
+- "App Entities"
+- "AppShortcutsChangedEvent"
+- "Attempted to update file access for trigger that was not of type WFFilesystemTrigger in FilesystemListener: %{public}@"
+- "Cannot update trigger data for unregistered trigger %{public}@"
+- "Class getMTAlarmDataSourceClass(void)_block_invoke"
+- "Class getMTAlarmManagerClass(void)_block_invoke"
+- "Creating node id for recursive folder"
+- "Creating node id for single level folder"
+- "Disabled trigger %{public}@"
+- "Disabling %{public}ld trigger(s). Reason: %{public}s"
+- "Failed to disable %{public}ld trigger(s): database unavailable."
+- "Failed to fetch legacy trigger data for %{public}@: database unavailable."
+- "Failed to fetch next runnable trigger event: database unavailable."
+- "Failed to fetch notification level for trigger %{public}@: database unavailable; defaulting to .never"
+- "Failed to fetch trigger keys needing running notifications: database unavailable."
+- "Failed to log run for trigger %{public}@: database unavailable."
+- "Failed to look up workflow reference for trigger %{public}@: database unavailable: %{public}@"
+- "Failed to retrieve identifier for file or directory when granting trigger file access for %s"
+- "Failed to retrieve trigger for identifier %{public}@"
+- "Failed to serialize trigger data for trigger %{public}@"
+- "Failed to set run outcome (%{public}ld): database unavailable."
+- "Failed to unregister trigger: (key: %{public}@): %{public}@"
+- "Failed to update registration. Database unavailable."
+- "Fetch Shortcuts by Origin"
+- "Focus actions"
+- "MTAlarmDataSource"
+- "MTAlarmManager"
+- "Notification level requested for unregistered trigger %{public}@; defaulting to .never"
+- "Re-registering trigger after firing (key: %{public}@)"
+- "SBSearchDisabledBundles"
+- "Setting filesystem trigger tracked node id to %s"
+- "Skipping trigger: %{public}@ | isAvailable: %{bool,public}d, isValid: %{bool,public}d."
+- "SpotlightSchemaVersionHash"
+- "Successfully created bookmark for file with id %s while granting access"
+- "Toggle alarm actions"
+- "Toggle settings actions"
+- "Trigger already registered with matching configuration; skipping re-registration: %{public}@"
+- "Trigger configuration changed; re-registering: %{public}@"
+- "Trigger store not available"
+- "Unable to access Spotlight user defaults"
+- "Unavailable tool: "
+- "Unsatisfied requirment: "
+- "UpdateFileAccessForTriggerWithIdentifier error"
+- "VoiceShortcuts_Private.WFFilesystemListener"
+- "WFAutoShortcutContextualActionDomainMigration"
+- "WFContextualActionSpotlightSyncService.alarmDataSourceDidReload"
+- "WFContextualActionSpotlightSyncService.availableActivitiesDidChangeForManager"
+- "WFContextualActionSpotlightSyncService.domainCleanerDidClearDomains"
+- "WFContextualActionSpotlightSyncService.m"
+- "WFContextualActionSpotlightSyncService.reindexAllSearchableItemsWithAcknowledgementHandler"
+- "WFContextualActionSpotlightSyncService.reindexSearchableItemsWithIdentifiers"
+- "WFContextualActionsIndexVersion"
+- "WFToggleFocusModeContextualActionFocusMode *WFToggleFocusModeContextualActionFocusModeFromFocusMode(__strong id<FCActivityDescribing>)"
+- "alarm toggles"
+- "all bundles"
+- "applicationRegistered"
+- "collectionsDidChange"
+- "com.apple.VoiceShortcuts.WFContextualActionSpotlightSyncService"
+- "com.apple.spotlightui"
+- "contextual actions indexing stage"
+- "focus"
+- "focusMode"
+- "folder app entities"
+- "indexing contextual actions into spotlight"
+- "migrateAppShortcuts"
+- "receiveAutoShortcutsUpdatedNotification"
+- "settings toggles"
+- "softlink:r:path:/System/Library/PrivateFrameworks/MobileTimer.framework/MobileTimer"
+- "spotlight indexing"
+- "spotlightPreferencesChanged"
+- "systemLanguageUpdated"
+- "toolUnavailableForIndexing"
+- "v16@?0@?<v@?@\"NSArray\"@\"NSError\">8"
+- "v16@?0@?<v@?@\"NSError\">8"
+- "v24@?0@\"NSString\"8@?<v@?@\"NSSet\"@\"NSError\">16"
+- "v32@?0@\"NSArray\"8Q16^B24"
+- "v32@?0@\"NSSet\"8@\"NSSet\"16@\"NSError\"24"
+- "void *MobileTimerLibrary(void)"
+```

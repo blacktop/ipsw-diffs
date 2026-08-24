@@ -1,0 +1,236 @@
+## com.apple.iokit.IO80211Family
+
+> `com.apple.iokit.IO80211Family`
+
+```diff
+
+-1585.70.0.0.0
+-  __TEXT.__os_log: 0x9e36
++1585.79.0.0.0
++  __TEXT.__os_log: 0x9e58
+   __TEXT.__const: 0x2bec0
+-  __TEXT.__cstring: 0x98988
+-  __TEXT_EXEC.__text: 0x278cd0
++  __TEXT.__cstring: 0x98b09
++  __TEXT_EXEC.__text: 0x27a680
+   __TEXT_EXEC.__auth_stubs: 0x1420
+   __DATA.__data: 0x5ec8
+-  __DATA.__common: 0x2c70
++  __DATA.__common: 0x3160
+   __DATA.__bss: 0x3448
+-  __DATA_CONST.__mod_init_func: 0x550
+-  __DATA_CONST.__mod_term_func: 0x550
+-  __DATA_CONST.__const: 0x3a0d8
+-  __DATA_CONST.__kalloc_type: 0x9e00
++  __DATA_CONST.__mod_init_func: 0x558
++  __DATA_CONST.__mod_term_func: 0x558
++  __DATA_CONST.__const: 0x3a378
++  __DATA_CONST.__kalloc_type: 0x9ec0
+   __DATA_CONST.__kalloc_var: 0xa00
+   __DATA_CONST.__auth_got: 0xa10
+   __DATA_CONST.__got: 0x150
+   __DATA_CONST.__auth_ptr: 0x20
+-  Functions: 13085
+-  Symbols:   17107
+-  CStrings:  14876
++  Functions: 13130
++  Symbols:   17152
++  CStrings:  14885
+ 
+Symbols:
++ _GLOBAL__sub_I_IO80211PeerCacheManager.cpp
++ __FUNCTION__._ZN25IO80211P2PDataPathManager37removeAllAWDLPeerFromFWCachedPeerListEv
++ __ZL27IO80211PeerCacheManager_ktv
++ __ZN17IO80211Controller25getSharedPeerCacheManagerEv
++ __ZN17IO80211Controller34reportsPerInterfacePeerCacheLimitsEv
++ __ZN18IO80211PeerManager16getP2PSupervisorEv
++ __ZN20IO80211P2PSupervisor34isAWDLHotSpotConcurrencyInProgressEv
++ __ZN20IO80211P2PSupervisor35setAWDLHotSpotConcurrencyInProgressEb
++ __ZN22WCLDeviceConfiguration27isAllowToUseAllCoresForScanEv
++ __ZN23IO80211PeerCacheManager10gMetaClassE
++ __ZN23IO80211PeerCacheManager10superClassE
++ __ZN23IO80211PeerCacheManager12isConfiguredEv
++ __ZN23IO80211PeerCacheManager13setConfiguredEv
++ __ZN23IO80211PeerCacheManager15clearConfiguredEv
++ __ZN23IO80211PeerCacheManager15isPeerCacheFullEv
++ __ZN23IO80211PeerCacheManager19getFwCachedPeerListEv
++ __ZN23IO80211PeerCacheManager19getMaxPeerCacheSizeEv
++ __ZN23IO80211PeerCacheManager19setMaxPeerCacheSizeEj
++ __ZN23IO80211PeerCacheManager21isSoftapPeerCacheFullEv
++ __ZN23IO80211PeerCacheManager23getCurrentPeerCacheSizeEv
++ __ZN23IO80211PeerCacheManager23setCurrentPeerCacheSizeEj
++ __ZN23IO80211PeerCacheManager25getMaxSoftapPeerCacheSizeEv
++ __ZN23IO80211PeerCacheManager25setMaxSoftapPeerCacheSizeEj
++ __ZN23IO80211PeerCacheManager29decrementCurrentPeerCacheSizeEv
++ __ZN23IO80211PeerCacheManager29getCurrentSoftapPeerCacheSizeEv
++ __ZN23IO80211PeerCacheManager29incrementCurrentPeerCacheSizeEv
++ __ZN23IO80211PeerCacheManager29setCurrentSoftapPeerCacheSizeEj
++ __ZN23IO80211PeerCacheManager30ensureFwCachedPeerListCapacityEj
++ __ZN23IO80211PeerCacheManager35decrementCurrentSoftapPeerCacheSizeEv
++ __ZN23IO80211PeerCacheManager35incrementCurrentSoftapPeerCacheSizeEv
++ __ZN23IO80211PeerCacheManager4freeEv
++ __ZN23IO80211PeerCacheManager6createEv
++ __ZN23IO80211PeerCacheManager9MetaClassC1Ev
++ __ZN23IO80211PeerCacheManager9MetaClassC2Ev
++ __ZN23IO80211PeerCacheManager9MetaClassD0Ev
++ __ZN23IO80211PeerCacheManager9MetaClassD1Ev
++ __ZN23IO80211PeerCacheManager9metaClassE
++ __ZN23IO80211PeerCacheManagerC1EPK11OSMetaClass
++ __ZN23IO80211PeerCacheManagerC1Ev
++ __ZN23IO80211PeerCacheManagerC2EPK11OSMetaClass
++ __ZN23IO80211PeerCacheManagerC2Ev
++ __ZN23IO80211PeerCacheManagerD0Ev
++ __ZN23IO80211PeerCacheManagerD1Ev
++ __ZN23IO80211PeerCacheManagerD2Ev
++ __ZN23IO80211PeerCacheManagerdlEPvm
++ __ZN23IO80211PeerCacheManagernwEm
++ __ZNK23IO80211PeerCacheManager12getMetaClassEv
++ __ZNK23IO80211PeerCacheManager9MetaClass5allocEv
++ __ZTV23IO80211PeerCacheManager
++ __ZTVN23IO80211PeerCacheManager9MetaClassE
++ __ZZL10setNAN_CTLP17IO80211ControllerP23IO80211SkywalkInterfaceP20IO80211APIUserClientP13apple80211reqE21kalloc_type_view_1862
++ __ZZL10setNAN_CTLP17IO80211ControllerP23IO80211SkywalkInterfaceP20IO80211APIUserClientP13apple80211reqE21kalloc_type_view_1910
++ __ZZL11setAWDL_CTLP17IO80211ControllerP23IO80211SkywalkInterfaceP20IO80211APIUserClientP13apple80211reqE21kalloc_type_view_1089
++ __ZZL11setAWDL_CTLP17IO80211ControllerP23IO80211SkywalkInterfaceP20IO80211APIUserClientP13apple80211reqE21kalloc_type_view_1137
++ __ZZL16setRANGING_STARTP17IO80211ControllerP23IO80211SkywalkInterfaceP20IO80211APIUserClientP13apple80211reqE21kalloc_type_view_1521
++ __ZZL16setRANGING_STARTP17IO80211ControllerP23IO80211SkywalkInterfaceP20IO80211APIUserClientP13apple80211reqE21kalloc_type_view_1547
++ __ZZL17setRANGING_ENABLEP17IO80211ControllerP23IO80211SkywalkInterfaceP20IO80211APIUserClientP13apple80211reqE21kalloc_type_view_1491
++ __ZZL17setRANGING_ENABLEP17IO80211ControllerP23IO80211SkywalkInterfaceP20IO80211APIUserClientP13apple80211reqE21kalloc_type_view_1510
++ __ZZN14IO80211NANPeer23lowlatencyGetStatisticsEP11IO80211PeerE21kalloc_type_view_1853
++ __ZZN14IO80211NANPeer23lowlatencyGetStatisticsEP11IO80211PeerE21kalloc_type_view_1871
++ __ZZN14WCL11axManager15freeActionFrameEPvE20kalloc_type_view_858
++ __ZZN14WCL11axManager15initWithOptionsEP13WCLControllerP16WCLBulletinBoardE20kalloc_type_view_161
++ __ZZN14WCL11axManager22send11axAsrActionFrameEhhPhjE21kalloc_type_view_1158
++ __ZZN14WCL11axManager24sendHsLpEmlsrActionFrameEbbjE21kalloc_type_view_1208
++ __ZZN14WCL11axManager4freeEvE20kalloc_type_view_121
++ __ZZN14WCLScanRequest18initWCLScanRequestEP20apple80211_scan_dataR17scanRequestParamsE20kalloc_type_view_362
++ __ZZN17IO80211Controller4freeEvE20kalloc_type_view_837
++ __ZZN17IO80211Controller4freeEvE20kalloc_type_view_873
++ __ZZN17IO80211Controller4initEP12OSDictionaryE20kalloc_type_view_660
++ __ZZN18IO80211ScanRequest22initIO80211ScanRequestEP20apple80211_scan_data8scanTypeE20kalloc_type_view_439
++ __ZZN18IO80211ScanRequest23getScanRequestForDriverER21apple80211ScanRequestRjRybE11_os_log_fmt__22_
++ __ZZN20IO80211P2PSupervisor17initWithInterfaceEP23IO80211VirtualInterfaceE20kalloc_type_view_117
++ __ZZN20IO80211P2PSupervisor17initWithInterfaceEP23IO80211VirtualInterfaceE20kalloc_type_view_172
++ __ZZN20IO80211P2PSupervisor4freeEvE20kalloc_type_view_202
++ __ZZN20IO80211P2PSupervisor4freeEvE20kalloc_type_view_208
++ __ZZN21IO80211NANAttributeTx15initWithManagerEP21IO80211NANPeerManagerE21kalloc_type_view_1362
++ __ZZN21IO80211NANAttributeTx4freeEvE21kalloc_type_view_1376
++ __ZZN21WCLNetPowerStateAgent15initWithOptionsEP27WCLNetPowerStateAgentParamsE19kalloc_type_view_74
++ __ZZN21WCLNetPowerStateAgent4freeEvE19kalloc_type_view_61
++ __ZZN22IO80211AWDLPeerManager10growAFRingEvE22kalloc_type_view_19428
++ __ZZN22IO80211AWDLPeerManager10growAFRingEvE22kalloc_type_view_19440
++ __ZZN22IO80211AWDLPeerManager12shrinkAFRingEvE22kalloc_type_view_19464
++ __ZZN22IO80211AWDLPeerManager12shrinkAFRingEvE22kalloc_type_view_19476
++ __ZZN22IO80211AWDLPeerManager22initAWDLStateTrackInfoEvE22kalloc_type_view_24978
++ __ZZN22IO80211AWDLPeerManager28freeAwdlPacketDescriptorPoolEvE22kalloc_type_view_40696
++ __ZZN22IO80211AWDLPeerManager28initAwdlPacketDescriptorPoolEjE22kalloc_type_view_40680
++ __ZZN22IO80211AWDLPeerManager33realTimeStatsGetSkywalkStatisticsEvE22kalloc_type_view_30609
++ __ZZN22IO80211AWDLPeerManager33realTimeStatsGetSkywalkStatisticsEvE22kalloc_type_view_30639
++ __ZZN23IO80211PeerCacheManager4freeEvE19kalloc_type_view_48
++ __ZZN23IO80211PeerCacheManager6createEvE19kalloc_type_view_35
++ __ZZN25IO80211NANDataPathManager17deleteNanInfoListEPP13ndp_info_nodeE21kalloc_type_view_5113
++ __ZZN25IO80211NANDataPathManager19addEntryNanInfoListEPP13ndp_info_nodePhtjjE21kalloc_type_view_5062
++ __ZZN25IO80211P2PDataPathManager19initWithPeerManagerEP18IO80211PeerManagerE19kalloc_type_view_55
++ __ZZN25IO80211P2PDataPathManager4freeEvE19kalloc_type_view_95
++ _ndcAvail
++ _storeNANNDCAttributes
++ _validateNANNDCAttribute
+- __FUNCTION__._ZN14IO80211NANPeer23handlePasnActionFrameRxEP41apple80211_nan_pasn_act_frm_rx_event_data
+- __FUNCTION__._ZN14IO80211NANPeer32handleNANManagementActionFrameRxEPvt
+- __FUNCTION__._ZN25IO80211P2PDataPathManager19initCommonResourcesEv
+- __ZL11_configured
+- __ZL17_fwCachedPeerList
+- __ZL17_maxPeerCacheSize
+- __ZL21_currentPeerCacheSize
+- __ZL23_maxSoftapPeerCacheSize
+- __ZL23validateNANNDCAttributeP24apple80211_nan_attribute
+- __ZL27_currentSoftapPeerCacheSize
+- __ZL33_inProgressAWDLHotSpotConcurrency
+- __ZZL10setNAN_CTLP17IO80211ControllerP23IO80211SkywalkInterfaceP20IO80211APIUserClientP13apple80211reqE21kalloc_type_view_1868
+- __ZZL10setNAN_CTLP17IO80211ControllerP23IO80211SkywalkInterfaceP20IO80211APIUserClientP13apple80211reqE21kalloc_type_view_1916
+- __ZZL11setAWDL_CTLP17IO80211ControllerP23IO80211SkywalkInterfaceP20IO80211APIUserClientP13apple80211reqE21kalloc_type_view_1095
+- __ZZL11setAWDL_CTLP17IO80211ControllerP23IO80211SkywalkInterfaceP20IO80211APIUserClientP13apple80211reqE21kalloc_type_view_1143
+- __ZZL16setRANGING_STARTP17IO80211ControllerP23IO80211SkywalkInterfaceP20IO80211APIUserClientP13apple80211reqE21kalloc_type_view_1527
+- __ZZL16setRANGING_STARTP17IO80211ControllerP23IO80211SkywalkInterfaceP20IO80211APIUserClientP13apple80211reqE21kalloc_type_view_1553
+- __ZZL17setRANGING_ENABLEP17IO80211ControllerP23IO80211SkywalkInterfaceP20IO80211APIUserClientP13apple80211reqE21kalloc_type_view_1497
+- __ZZL17setRANGING_ENABLEP17IO80211ControllerP23IO80211SkywalkInterfaceP20IO80211APIUserClientP13apple80211reqE21kalloc_type_view_1516
+- __ZZN14IO80211NANPeer23lowlatencyGetStatisticsEP11IO80211PeerE21kalloc_type_view_1827
+- __ZZN14IO80211NANPeer23lowlatencyGetStatisticsEP11IO80211PeerE21kalloc_type_view_1845
+- __ZZN14WCL11axManager15freeActionFrameEPvE20kalloc_type_view_854
+- __ZZN14WCL11axManager15initWithOptionsEP13WCLControllerP16WCLBulletinBoardE20kalloc_type_view_157
+- __ZZN14WCL11axManager22send11axAsrActionFrameEhhPhjE21kalloc_type_view_1154
+- __ZZN14WCL11axManager24sendHsLpEmlsrActionFrameEbbjE21kalloc_type_view_1204
+- __ZZN14WCL11axManager4freeEvE20kalloc_type_view_117
+- __ZZN14WCLScanRequest18initWCLScanRequestEP20apple80211_scan_dataR17scanRequestParamsE20kalloc_type_view_358
+- __ZZN17IO80211Controller4freeEvE20kalloc_type_view_834
+- __ZZN17IO80211Controller4freeEvE20kalloc_type_view_868
+- __ZZN17IO80211Controller4initEP12OSDictionaryE20kalloc_type_view_657
+- __ZZN18IO80211ScanRequest22initIO80211ScanRequestEP20apple80211_scan_data8scanTypeE20kalloc_type_view_434
+- __ZZN20IO80211P2PSupervisor17initWithInterfaceEP23IO80211VirtualInterfaceE20kalloc_type_view_116
+- __ZZN20IO80211P2PSupervisor17initWithInterfaceEP23IO80211VirtualInterfaceE20kalloc_type_view_171
+- __ZZN20IO80211P2PSupervisor4freeEvE20kalloc_type_view_201
+- __ZZN20IO80211P2PSupervisor4freeEvE20kalloc_type_view_207
+- __ZZN21IO80211NANAttributeTx15initWithManagerEP21IO80211NANPeerManagerE21kalloc_type_view_1396
+- __ZZN21IO80211NANAttributeTx4freeEvE21kalloc_type_view_1410
+- __ZZN21WCLNetPowerStateAgent15initWithOptionsEP27WCLNetPowerStateAgentParamsE19kalloc_type_view_78
+- __ZZN21WCLNetPowerStateAgent4freeEvE19kalloc_type_view_65
+- __ZZN22IO80211AWDLPeerManager10growAFRingEvE22kalloc_type_view_19420
+- __ZZN22IO80211AWDLPeerManager10growAFRingEvE22kalloc_type_view_19432
+- __ZZN22IO80211AWDLPeerManager12shrinkAFRingEvE22kalloc_type_view_19456
+- __ZZN22IO80211AWDLPeerManager12shrinkAFRingEvE22kalloc_type_view_19468
+- __ZZN22IO80211AWDLPeerManager22initAWDLStateTrackInfoEvE22kalloc_type_view_24970
+- __ZZN22IO80211AWDLPeerManager28freeAwdlPacketDescriptorPoolEvE22kalloc_type_view_40689
+- __ZZN22IO80211AWDLPeerManager28initAwdlPacketDescriptorPoolEjE22kalloc_type_view_40673
+- __ZZN22IO80211AWDLPeerManager33realTimeStatsGetSkywalkStatisticsEvE22kalloc_type_view_30601
+- __ZZN22IO80211AWDLPeerManager33realTimeStatsGetSkywalkStatisticsEvE22kalloc_type_view_30631
+- __ZZN25IO80211NANDataPathManager17deleteNanInfoListEPP13ndp_info_nodeE21kalloc_type_view_5100
+- __ZZN25IO80211NANDataPathManager19addEntryNanInfoListEPP13ndp_info_nodePhtjjE21kalloc_type_view_5049
+- __ZZN25IO80211P2PDataPathManager19initWithPeerManagerEP18IO80211PeerManagerE19kalloc_type_view_60
+- __ZZN25IO80211P2PDataPathManager4freeEvE20kalloc_type_view_101
+CStrings:
++ " allow using all cores for scan \n"
++ "\"IO80211_kexts-1585.79\""
++ "%s: Received NAN OOB action frame from %02X:%02X:%02X:%02X:%02X:%02X\n"
++ "%s: Received NAN PASN action frame from %02X:%02X:%02X:%02X:%02X:%02X\n"
++ "%s: Received NAN action frame of sub-type[%u], out of band action frame from %02X:%02X:%02X:%02X:%02X:%02X\n"
++ "%s: Received NAN action frame of sub-type[%u], schedule update frame from %02X:%02X:%02X:%02X:%02X:%02X \n"
++ "%s:%u ERROR: FW cached peer list is NULL\n"
++ "%s:%u ERROR: NAN Mangement action frame, invalid length:%u from %02X:%02X:%02X:%02X:%02X:%02Xn"
++ "%s:%u FW cached peer list is inconsistent listSize: %u, max %u\n"
++ "%s::%s SDB decision inputs: RSDB=%d DSDB=%d dynOpMode=%u vendorSpecificAttrFlags=0x%x\n"
++ "%s::%s no infra interface, skipping\n"
++ "%s[%d]: [ERROR]: RTG infra cnt %d greater than max %d\n"
++ "%s[%u] Unknown NAN ActionFrame with subtype[%u] from %02X:%02X:%02X:%02X:%02X:%02X\n"
++ "1222222222111222222222222222222222222222222222222222222222222222222222222222222221211122122"
++ "2122221111112222222222222222222222222222222222211111111122222222222222222222222222222222222222222222222222222112222121111222222222222222222222222222222222211112122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221222222222222222222222222222222222111122222121"
++ "2212"
++ "Aug 11 2026 21:42:50"
++ "Configured peer cache max=%u (FW-queried=%u)\n"
++ "Failed to get shared IO80211PeerCacheManager from controller\n"
++ "IO80211PeerCacheManager"
++ "IO80211_kexts-1585.79"
++ "P2PDataPathManager init: role=%u mode=%s\n"
++ "per-interface"
++ "shared"
++ "site.IO80211PeerCacheManager"
++ "site.IO80211PeerCacheManager_IVars"
++ "site.struct IO80211PeerCacheManager_IVars"
+- "\"IO80211_kexts-1585.70\""
+- "%s ERROR: failed to allocate _fwCachedPeerList due to invalid size: %u\n"
+- "%s ERROR: failed to allocate memory for _fwCachedPeerList\n"
+- "%s: Received NAN action frame of sub-type[%u], out of band action frame\n"
+- "%s: Received NAN action frame of sub-type[%u], schedule update frame \n"
+- "%s: [ERROR]: RTG infra cnt %d greater than max %d\n"
+- "%s:%d _fwCachedPeerList is already allocated\n"
+- "%s:%u ERROR: NAN Mangement action frame, invalid length:%u\n"
+- "%s:%u ERROR: _fwCachedPeerList is NULL\n"
+- "%s:%u _fwCachedPeerList is inconsistent listSize: %u, _maxPeerCacheSize\n"
+- "%s::%s: controller not available, skipping RADIO_CHANSEQ_CONTROL\n"
+- "%s::%s: driver not available, skipping RADIO_CHANSEQ_CONTROL\n"
+- "%s[%u] Unknown NAN ActionFrame with subtype[%u]\n"
+- "122222222211122222222222222222222222222222222222222222222222222222222222222222222121112212"
+- "212222111111222222222222222222222222222222222221111111112222222222222222222222222222222222222222222222222222211222212111122222222222222222222222222222222221111212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222122222222222222222222222222222222211112222212"
+- "IO80211_kexts-1585.70"
+- "Jul 14 2026 21:23:19"
+- "initCommonResources"
+```

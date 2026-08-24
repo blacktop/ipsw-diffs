@@ -1,0 +1,155 @@
+## StarmojiSearch
+
+> `/System/Library/PrivateFrameworks/Stickers.framework/Support/StarmojiSearch.framework/Versions/A/StarmojiSearch`
+
+```diff
+
+-87.0.0.0.0
+-  __TEXT.__text: 0x55e28
++88.0.0.0.0
++  __TEXT.__text: 0x56074
+   __TEXT.__objc_methlist: 0x350
+-  __TEXT.__const: 0x5934
++  __TEXT.__const: 0x59f4
+   __TEXT.__gcc_except_tab: 0x1b98
+-  __TEXT.__constg_swiftt: 0x12a4
+-  __TEXT.__swift5_typeref: 0x11ca
++  __TEXT.__constg_swiftt: 0x12b0
++  __TEXT.__swift5_typeref: 0x121a
+   __TEXT.__swift5_builtin: 0x154
+   __TEXT.__swift5_fieldmd: 0xc0c
+-  __TEXT.__swift5_reflstr: 0x5c8
+-  __TEXT.__swift5_assocty: 0x3a0
+-  __TEXT.__swift5_proto: 0x264
++  __TEXT.__swift5_reflstr: 0x608
++  __TEXT.__swift5_assocty: 0x3f8
++  __TEXT.__swift5_proto: 0x26c
+   __TEXT.__swift5_types: 0xfc
+   __TEXT.__swift5_types2: 0x14
+   __TEXT.__cstring: 0x424c
+
+   __TEXT.__oslogstring: 0x16a
+   __TEXT.__swift_as_cont: 0x44
+   __TEXT.__swift5_capture: 0x148
+-  __TEXT.__unwind_info: 0x20f0
+-  __TEXT.__eh_frame: 0x3078
++  __TEXT.__unwind_info: 0x20f8
++  __TEXT.__eh_frame: 0x30d8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__weak_got: 0x40
+   __DATA_CONST.__objc_selrefs: 0x1d0
+   __DATA_CONST.__objc_protorefs: 0x10
+-  __DATA_CONST.__got: 0x378
++  __DATA_CONST.__got: 0x398
+   __AUTH_CONST.__const: 0x2578
+   __AUTH_CONST.__cfstring: 0x320
+   __AUTH_CONST.__objc_const: 0x8e0
+
+   __AUTH_CONST.__auth_got: 0xb40
+   __AUTH.__objc_data: 0x1b0
+   __AUTH.__data: 0x290
+-  __DATA.__data: 0x91a
+-  __DATA.__bss: 0x4d90
++  __DATA.__data: 0x942
++  __DATA.__bss: 0x4e90
+   __DATA.__common: 0x8
+   __DATA_DIRTY.__objc_data: 0x388
+   __DATA_DIRTY.__data: 0x368
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 2104
+-  Symbols:   1801
++  Functions: 2111
++  Symbols:   1814
+   CStrings:  179
+ 
+Symbols:
++ GCC_except_table112
++ GCC_except_table127
++ GCC_except_table128
++ GCC_except_table179
++ GCC_except_table217
++ GCC_except_table218
++ GCC_except_table219
++ GCC_except_table225
++ GCC_except_table226
++ GCC_except_table234
++ GCC_except_table235
++ GCC_except_table246
++ GCC_except_table252
++ GCC_except_table254
++ GCC_except_table279
++ GCC_except_table280
++ GCC_except_table281
++ GCC_except_table282
++ GCC_except_table283
++ GCC_except_table316
++ GCC_except_table317
++ GCC_except_table318
++ GCC_except_table319
++ GCC_except_table320
++ GCC_except_table321
++ GCC_except_table64
++ GCC_except_table65
++ GCC_except_table81
++ GCC_except_table91
++ GCC_except_table92
++ GCC_except_table99
++ ___unnamed_11
++ _associated conformance 3Cxx0A17BorrowingIteratorVyxGs0bC8ProtocolAARi_zRi0_z7ElementRj_zrl7FailuresAEP_s5Error
++ _associated conformance So3stdO3__1O0084vectorstickersSearchResultstd__1allocatorstickersSearchResult_vCHAzuvatdradrHBgfbDlaV3Cxx0B8IterableSC11RawIteratorAgHP_17DereferenceResultAG06Unsafeb5InputE0Ps8_Pointer
++ _associated conformance So3stdO3__1O0084vectorstickersSearchResultstd__1allocatorstickersSearchResult_vCHAzuvatdradrHBgfbDlaV3Cxx0B8IterableSC11RawIteratorAgHP_AG06Unsafeb5InputE0
++ _associated conformance So3stdO3__1O0084vectorstickersSearchResultstd__1allocatorstickersSearchResult_vCHAzuvatdradrHBgfbDlaV3Cxx0B8IterableSCs0C0
++ _associated conformance So3stdO3__1O0084vectorstickersSearchResultstd__1allocatorstickersSearchResult_vCHAzuvatdradrHBgfbDlaVs8IterableSC17BorrowingIteratorsAGP_s0cD8Protocol
++ _symbolic $s3Cxx0A8IterableP
++ _symbolic $ss8IterableP
++ _symbolic 11RawIterator_____Qz 3Cxx0A8IterableP
++ _symbolic 11RawIterator______17DereferenceResult_____7Pointee_____QZ 3Cxx0A8IterableP AA06UnsafeA13InputIteratorP s8_PointerP
++ _symbolic 11RawIterator______17DereferenceResult_____QZ 3Cxx0A8IterableP AA06UnsafeA13InputIteratorP
++ _symbolic 11RawIterator______7Pointee_____QZ 3Cxx0A8IterableP AA06UnsafeA13InputIteratorP
++ _symbolic 7Element_____Qz 3Cxx0A8IterableP
++ _symbolic 7Failure_____Qz s8IterableP
++ _symbolic _____ s5NeverO
++ _symbolic _____y_____G 3Cxx0A17BorrowingIteratorVAARi_zRi0_z7ElementRj_zrlE So3stdO3__1O0084vectorstickersSearchResultstd__1allocatorstickersSearchResult_vCHAzuvatdradrHBgfbDlaV
++ get_type_metadata 3Cxx0A8IterableRzRi_zRi0_z7ElementRj_zlAA0A17BorrowingIteratorVyxG
+- GCC_except_table114
+- GCC_except_table115
+- GCC_except_table126
+- GCC_except_table174
+- GCC_except_table212
+- GCC_except_table213
+- GCC_except_table214
+- GCC_except_table215
+- GCC_except_table221
+- GCC_except_table229
+- GCC_except_table230
+- GCC_except_table241
+- GCC_except_table244
+- GCC_except_table247
+- GCC_except_table274
+- GCC_except_table275
+- GCC_except_table276
+- GCC_except_table277
+- GCC_except_table278
+- GCC_except_table305
+- GCC_except_table306
+- GCC_except_table307
+- GCC_except_table308
+- GCC_except_table309
+- GCC_except_table310
+- GCC_except_table78
+- GCC_except_table79
+- ___unnamed_10
+- _symbolic $s3Cxx0A17BorrowingSequenceP
+- _symbolic 11RawIterator_____Qz 3Cxx0A17BorrowingSequenceP
+- _symbolic 11RawIterator______17DereferenceResult_____7Pointee_____QZ 3Cxx0A17BorrowingSequenceP AA06UnsafeA13InputIteratorP s8_PointerP
+- _symbolic 11RawIterator______17DereferenceResult_____QZ 3Cxx0A17BorrowingSequenceP AA06UnsafeA13InputIteratorP
+- _symbolic 11RawIterator______7Pointee_____QZ 3Cxx0A17BorrowingSequenceP AA06UnsafeA13InputIteratorP
+- _symbolic 7Element_____Qz 3Cxx0A17BorrowingSequenceP
+- get_type_metadata 3Cxx0A17BorrowingSequenceRzRi_zRi0_z7ElementRj_zlAA0aB8IteratorVyxG
+```

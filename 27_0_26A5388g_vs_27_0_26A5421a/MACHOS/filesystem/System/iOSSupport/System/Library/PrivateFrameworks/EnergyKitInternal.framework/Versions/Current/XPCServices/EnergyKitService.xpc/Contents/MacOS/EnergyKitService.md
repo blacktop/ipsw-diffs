@@ -1,0 +1,135 @@
+## EnergyKitService
+
+> `/System/iOSSupport/System/Library/PrivateFrameworks/EnergyKitInternal.framework/Versions/Current/XPCServices/EnergyKitService.xpc/Contents/MacOS/EnergyKitService`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__const`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__swift5_entry`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift5_fieldmd`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift5_assocty`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA.__objc_const`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
+```diff
+
+-488.0.0.0.0
+-  __TEXT.__text: 0x118b5c
+-  __TEXT.__auth_stubs: 0x3870
+-  __TEXT.__objc_stubs: 0x1a00
++490.1.4.0.0
++  __TEXT.__text: 0x1182bc
++  __TEXT.__auth_stubs: 0x38b0
++  __TEXT.__objc_stubs: 0x19c0
+   __TEXT.__objc_methlist: 0xb98
+   __TEXT.__const: 0x2468
+   __TEXT.__oslogstring: 0x3b36
+
+   __TEXT.__constg_swiftt: 0x1180
+   __TEXT.__swift5_types: 0xcc
+   __TEXT.__objc_classname: 0xa82
+-  __TEXT.__objc_methname: 0x2ca8
++  __TEXT.__objc_methname: 0x2c68
+   __TEXT.__objc_methtype: 0x147a
+   __TEXT.__cstring: 0xdea
+   __TEXT.__swift_as_entry: 0x2c0
+-  __TEXT.__swift_as_cont: 0xa04
++  __TEXT.__swift_as_cont: 0x9c4
+   __TEXT.__swift5_reflstr: 0x816
+   __TEXT.__swift5_fieldmd: 0x9d8
+-  __TEXT.__swift5_capture: 0x1234
++  __TEXT.__swift5_capture: 0x1230
+   __TEXT.__swift5_proto: 0x88
+   __TEXT.__swift_as_ret: 0x438
+   __TEXT.__swift5_assocty: 0x30
+-  __TEXT.__unwind_info: 0x3028
+-  __TEXT.__eh_frame: 0xa2ac
++  __TEXT.__unwind_info: 0x2fc0
++  __TEXT.__eh_frame: 0xa1bc
+   __DATA_CONST.__const: 0x3520
+   __DATA_CONST.__objc_classlist: 0x140
+   __DATA_CONST.__objc_protolist: 0xa0
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x60
+-  __DATA_CONST.__auth_got: 0x1c40
++  __DATA_CONST.__auth_got: 0x1c60
+   __DATA_CONST.__got: 0xb50
+   __DATA_CONST.__auth_ptr: 0x4f8
+   __DATA.__objc_const: 0x3630
+-  __DATA.__objc_selrefs: 0xaf0
++  __DATA.__objc_selrefs: 0xae0
+   __DATA.__objc_data: 0x520
+   __DATA.__data: 0x2e90
+   __DATA.__common: 0x198
+
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 2758
+-  Symbols:   6325
+-  CStrings:  929
++  Functions: 2745
++  Symbols:   6312
++  CStrings:  927
+ 
+Symbols:
++ _$s10Foundation4DateVSgWOcTm
++ _$s10Foundation4DateVSgWOhTm
++ _$s16EnergyKitService14EKSHomeManagerC17homeDidUpdateNameyySo6HMHomeCFyyYacfU_TQ3_
++ _$s16EnergyKitService14EKSHomeManagerC4home_9didUpdateySo6HMHomeC_So10CLLocationCSgtFyyYacfU_TQ3_
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC11energyVenue3for5replyy10Foundation4UUIDV_y0aB009XPCEnergyQ9ContainerCSg_s5Error_pSgtctF03$s9a5Kit23vqw27CSgSo7NSErrorCSgIeyByy_ADs5X12_pSgIeggg_TRANSo7NSErrorCSgIeyByy_Tf1nEn_n
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC11energyVenue6homeID5replyy10Foundation4UUIDV_y0aB009XPCEnergyQ9ContainerCSg_s5Error_pSgtctF03$s9a5Kit23wqx27CSgSo7NSErrorCSgIeyByy_ADs5Y12_pSgIeggg_TRANSo7NSErrorCSgIeyByy_Tf1nEn_n
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC12energyVenues5replyyy0aB009XPCEnergyQ9ContainerCSg_s5Error_pSgtc_tF03$s9a5Kit24sqt13CSgSo7NSErrorx11IeyByy_ADs5U12_pSgIeggg_TRAJSo0Z0CSgIeyByy_Tf1En_n
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC14inferredGridID5venue6source16sandboxExtension5replyy10Foundation4UUIDV_Si0aB0010XPCSandboxV9ContainerCSgySSSg_So8NSNumberCSgs5Error_pSgtctF77$sSo8NSStringCSgSo8NSNumberCSgSo7NSErrorCSgIeyByyy_SSSgAFs5Error_pSgIegggg_TRSo8NSStringCSgATSo7NSErrorCSgIeyByyy_Tf1nnnEn_n
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC6gridID5venue16sandboxExtension5replyy10Foundation4UUIDV_0aB0010XPCSandboxT9ContainerCSgySSSg_s5Error_pSgtctF042$sSo8NSStringCSgSo7NSErrorCSgIeyByy_SSSgs5Z12_pSgIeggg_TRSo8NSStringCSgSo7NSErrorCSgIeyByy_Tf1nnEn_n
++ _$s19EnergyKitFoundation20GapSmootheningConfigV03maxD8DurationSdvg
++ _$s19EnergyKitFoundation20GapSmootheningConfigV7defaultACvgZ
++ _$s19EnergyKitFoundation20GapSmootheningConfigVMa
++ _$s19EnergyKitFoundation27StreamingDirectionProcessorV22previousEventTimestamp0C04DateVSgvg
++ _$s19EnergyKitFoundation27StreamingDirectionProcessorV9direction8dayStart18previousCumulative24skipFirstEventAsBaseline0jN9Timestamp14maxGapDurationAcA0aE0O_0C04DateVs5Int64VSbANSgSdtcfC
++ __swift_closure_destructor.76Tm
+- _$s16EnergyKitService14EKSHomeManagerC04homeE0_6didAddySo06HMHomeE0C_So0I0CtFyyYacfU_TY4_
+- _$s16EnergyKitService14EKSHomeManagerC04homeE0_9didRemoveySo06HMHomeE0C_So0I0CtFyyYacfU_TY4_
+- _$s16EnergyKitService14EKSHomeManagerC04homeE14DidUpdateHomesyySo06HMHomeE0CFyyYacfU_TY4_
+- _$s16EnergyKitService14EKSHomeManagerC04homeE17DidUpdateDataSync10inProgressySo06HMHomeE0C_tFyyYacfU0_TY2_
+- _$s16EnergyKitService14EKSHomeManagerC04homeE17DidUpdateDataSync10inProgressySo06HMHomeE0C_tFyyYacfU_TY4_
+- _$s16EnergyKitService14EKSHomeManagerC17homeDidUpdateNameyySo6HMHomeCFyyYacfU_TQ5_
+- _$s16EnergyKitService14EKSHomeManagerC17homeDidUpdateNameyySo6HMHomeCFyyYacfU_TY3_
+- _$s16EnergyKitService14EKSHomeManagerC17homeDidUpdateNameyySo6HMHomeCFyyYacfU_TY4_
+- _$s16EnergyKitService14EKSHomeManagerC17homeDidUpdateNameyySo6HMHomeCFyyYacfU_TY6_
+- _$s16EnergyKitService14EKSHomeManagerC17homeDidUpdateNameyySo6HMHomeCFyyYacfU_TY7_
+- _$s16EnergyKitService14EKSHomeManagerC17homeDidUpdateNameyySo6HMHomeCFyyYacfU_TY8_
+- _$s16EnergyKitService14EKSHomeManagerC4home_9didUpdateySo6HMHomeC_So10CLLocationCSgtFyyYacfU_TQ5_
+- _$s16EnergyKitService14EKSHomeManagerC4home_9didUpdateySo6HMHomeC_So10CLLocationCSgtFyyYacfU_TY3_
+- _$s16EnergyKitService14EKSHomeManagerC4home_9didUpdateySo6HMHomeC_So10CLLocationCSgtFyyYacfU_TY4_
+- _$s16EnergyKitService14EKSHomeManagerC4home_9didUpdateySo6HMHomeC_So10CLLocationCSgtFyyYacfU_TY6_
+- _$s16EnergyKitService14EKSHomeManagerC4home_9didUpdateySo6HMHomeC_So10CLLocationCSgtFyyYacfU_TY7_
+- _$s16EnergyKitService14EKSHomeManagerC4home_9didUpdateySo6HMHomeC_So10CLLocationCSgtFyyYacfU_TY8_
+- _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC11energyVenue3for5replyy10Foundation4UUIDV_y0aB009XPCEnergyQ9ContainerCSg_s5Error_pSgtctF03$s9a5Kit23vqw27CSgSo7NSErrorCSgIeyByy_ADs5X12_pSgIeggg_TRANSo7NSErrorCSgIeyByy_Tf1ncn_n
+- _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC11energyVenue6homeID5replyy10Foundation4UUIDV_y0aB009XPCEnergyQ9ContainerCSg_s5Error_pSgtctF03$s9a5Kit23wqx27CSgSo7NSErrorCSgIeyByy_ADs5Y12_pSgIeggg_TRANSo7NSErrorCSgIeyByy_Tf1ncn_n
+- _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC12energyVenues5replyyy0aB009XPCEnergyQ9ContainerCSg_s5Error_pSgtc_tF03$s9a5Kit24sqt13CSgSo7NSErrorx11IeyByy_ADs5U12_pSgIeggg_TRAJSo0Z0CSgIeyByy_Tf1cn_n
+- _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC14inferredGridID5venue6source16sandboxExtension5replyy10Foundation4UUIDV_Si0aB0010XPCSandboxV9ContainerCSgySSSg_So8NSNumberCSgs5Error_pSgtctF77$sSo8NSStringCSgSo8NSNumberCSgSo7NSErrorCSgIeyByyy_SSSgAFs5Error_pSgIegggg_TRSo8NSStringCSgATSo7NSErrorCSgIeyByyy_Tf1nnncn_n
+- _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC6gridID5venue16sandboxExtension5replyy10Foundation4UUIDV_0aB0010XPCSandboxT9ContainerCSgySSSg_s5Error_pSgtctF042$sSo8NSStringCSgSo7NSErrorCSgIeyByy_SSSgs5Z12_pSgIeggg_TRSo8NSStringCSgSo7NSErrorCSgIeyByy_Tf1nncn_n
+- _$s16EnergyKitService19EKSHomeManagerActorC11updateHomes33_EBCEF85564FEE208F9A37CB1430129D7LLyyYaFTY2_
+- _$s19EnergyKitFoundation27StreamingDirectionProcessorV9direction8dayStart18previousCumulative24skipFirstEventAsBaselineAcA0aE0O_0C04DateVs5Int64VSbtcfC
+- _$ss5Int64V6energy_19EnergyKitFoundation14CDRawLoadEventVSg04lastH0Sb10isBaselinetWOcTm
+- __swift_closure_destructor.67Tm
+- _objc_msgSend$_beginActiveAssertionWithReason:
+- _objc_msgSend$_endActiveAssertion:
+CStrings:
+- "_beginActiveAssertionWithReason:"
+- "_endActiveAssertion:"
+```

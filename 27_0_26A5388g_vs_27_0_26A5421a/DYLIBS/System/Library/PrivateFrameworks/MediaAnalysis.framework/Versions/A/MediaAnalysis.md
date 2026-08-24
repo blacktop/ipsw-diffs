@@ -1,0 +1,1443 @@
+## MediaAnalysis
+
+> `/System/Library/PrivateFrameworks/MediaAnalysis.framework/Versions/A/MediaAnalysis`
+
+```diff
+
+-435.73.2.0.0
+-  __TEXT.__text: 0x4ceaa8
+-  __TEXT.__objc_methlist: 0x22508
+-  __TEXT.__const: 0x16478
+-  __TEXT.__gcc_except_tab: 0x635e8
+-  __TEXT.__cstring: 0x2ec07
+-  __TEXT.__oslogstring: 0x3166b
++435.79.5.4.0
++  __TEXT.__text: 0x476158
++  __TEXT.__objc_methlist: 0x22518
++  __TEXT.__const: 0x16488
++  __TEXT.__gcc_except_tab: 0x60a14
++  __TEXT.__cstring: 0x1fca7
++  __TEXT.__oslogstring: 0x2fc9b
+   __TEXT.__dlopen_cstrs: 0x3c6
+   __TEXT.__ustring: 0x40
+   __TEXT.__swift5_typeref: 0x960
+
+   __TEXT.__swift_as_ret: 0x84
+   __TEXT.__swift_as_cont: 0xc4
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x136e8
++  __TEXT.__unwind_info: 0x12b38
+   __TEXT.__eh_frame: 0x1828
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x3fe8
++  __DATA_CONST.__const: 0x3fb8
+   __DATA_CONST.__objc_classlist: 0x1598
+   __DATA_CONST.__objc_catlist: 0x1d0
+   __DATA_CONST.__objc_protolist: 0x130
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__weak_got: 0x10
+-  __DATA_CONST.__objc_selrefs: 0xead8
++  __DATA_CONST.__objc_selrefs: 0xeae0
+   __DATA_CONST.__objc_protorefs: 0x50
+   __DATA_CONST.__objc_superrefs: 0xf80
+   __DATA_CONST.__objc_arraydata: 0xe60
+-  __DATA_CONST.__got: 0x22c8
+-  __AUTH_CONST.__const: 0xac38
+-  __AUTH_CONST.__cfstring: 0x1d5a0
+-  __AUTH_CONST.__objc_const: 0x408b8
++  __DATA_CONST.__got: 0x22b8
++  __AUTH_CONST.__const: 0x9ad8
++  __AUTH_CONST.__cfstring: 0x1c680
++  __AUTH_CONST.__objc_const: 0x408d8
+   __AUTH_CONST.__weak_auth_got: 0x70
+   __AUTH_CONST.__objc_floatobj: 0x300
+   __AUTH_CONST.__objc_arrayobj: 0xb88
+   __AUTH_CONST.__objc_doubleobj: 0x240
+-  __AUTH_CONST.__objc_intobj: 0x36a8
++  __AUTH_CONST.__objc_intobj: 0x3690
+   __AUTH_CONST.__objc_dictobj: 0xc8
+-  __AUTH_CONST.__auth_got: 0x2278
++  __AUTH_CONST.__auth_got: 0x2270
+   __AUTH.__objc_data: 0x390
+   __AUTH.__data: 0x118
+   __AUTH.__thread_vars: 0x48
+   __AUTH.__thread_data: 0x40
+   __AUTH.__thread_bss: 0x10
+-  __DATA.__objc_ivar: 0x34b0
+-  __DATA.__data: 0x1f28
+-  __DATA.__bss: 0x31f9
++  __DATA.__objc_ivar: 0x34b4
++  __DATA.__data: 0x1e18
++  __DATA.__bss: 0x2ea9
+   __DATA.__common: 0x3c1
+   __DATA_DIRTY.__objc_data: 0xd9c0
+-  __DATA_DIRTY.__data: 0x290
+-  __DATA_DIRTY.__bss: 0x948
++  __DATA_DIRTY.__data: 0x288
++  __DATA_DIRTY.__bss: 0x728
+   __DATA_DIRTY.__common: 0x30
+   - /System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 19672
+-  Symbols:   34667
+-  CStrings:  8674
++  Functions: 16249
++  Symbols:   34011
++  CStrings:  8109
+ 
+Symbols:
++ +[MADEmbeddingStore embeddingStoreDirectoryForPhotoLibraryURL:]
++ +[MADVectorDatabaseManager _databaseDirectoryURLForPhotoLibraryURL:embeddingType:]
++ +[MADVectorDatabaseManager databaseDirectoryURLForPhotoLibraryURL:embeddingType:]
++ +[PHPhotoLibrary(MediaAnalysis) mad_mediaAnalysisDirectoryForPhotoLibraryURL:]
++ -[VCPCNNModelEspressoV2 createPrecompiledOp:isPrecompiled:functionName:computeOpConfig:]
++ OBJC_IVAR_$_VCPRequest._ioSurfaceMemoryPoolID
++ _MADComputeConfigIOSurfaceMemoryPoolIDKey
++ _MediaAnalysisEmbeddingIsValid
++ _VCPAnalyticsField17246HKSVProcessingDedupeReasonMask
++ _VCPAnalyticsField17246HKSVProcessingDedupeVersion
++ _VCPAnalyticsField17246HKSVProcessingHistogramMatchPercentMilli
++ _VCPAnalyticsField17246HKSVProcessingHistogramMaxCorrelationMilli
++ _VCPAnalyticsField17246HKSVProcessingHistogramMinCorrelationMilli
++ _VCPAnalyticsFieldNumberOfAssetsAttempted
++ _VCPAnalyticsFieldNumberOfAssetsCanceled
++ _VCPAnalyticsFieldNumberOfAssetsDownloaded
++ _VCPAnalyticsFieldNumberOfAssetsFailed
++ _VCPAnalyticsFieldNumberOfAssetsFetched
++ _VCPAnalyticsFieldNumberOfAssetsIgnored
++ _VCPAnalyticsFieldNumberOfAssetsIneligible
++ _VCPAnalyticsFieldNumberOfBatchesProcessed
++ _VCPRequestIOSurfaceMemoryPoolIDPropertyKey
++ __ZL21FigAssetCopyTrackByIDPK14OpaqueFigAssetiPPK19OpaqueFigAssetTrack
++ ___59-[VCPHumanPoseImageRequest processImage:withOptions:error:]_block_invoke_2
++ ___59-[VCPHumanPoseImageRequest processImage:withOptions:error:]_block_invoke_3
++ ___73-[VCPVideoSaliencyAnalyzer analyzeFrame:withTimestamp:andDuration:flags:]_block_invoke_2
++ ___79-[VCPVideoPetsActionAnalyzer analyzeFrame:timestamp:duration:frameStats:flags:]_block_invoke_2
++ ___80-[VCPVideoHumanActionAnalyzer analyzeFrame:timestamp:duration:frameStats:flags:]_block_invoke_2
++ ___91-[VCPCaptureAnalysisSession analyzePixelBuffer:withTimestamp:andDuration:properties:error:]_block_invoke_2
++ ___91-[VCPCaptureAnalysisSession analyzePixelBuffer:withTimestamp:andDuration:properties:error:]_block_invoke_3
++ _e5rt_precompiled_compute_op_create_options_set_iosurface_memory_pool_id
++ _objc_msgSend$_databaseDirectoryURLForPhotoLibraryURL:embeddingType:
++ _objc_msgSend$accumulateInt64Value:forField:andEvent:
++ _objc_msgSend$createPrecompiledOp:isPrecompiled:functionName:computeOpConfig:
++ _objc_msgSend$databaseDirectoryURLForPhotoLibraryURL:embeddingType:
++ _objc_msgSend$embeddingStoreDirectoryForPhotoLibraryURL:
++ _objc_msgSend$initWithOptions:framesPerSync:frameLimit:sensitiveFrameCountThreshold:goreFrameCountThreshold:violentFrameCountThreshold:useUniformSampling:
++ _objc_msgSend$isSystemPhotoLibraryURL:
++ _objc_msgSend$mad_mediaAnalysisDirectoryForPhotoLibraryURL:
++ _sandbox_extension_issue_file_to_self
+- +[MADEmbeddingStore embeddingStoreDirectoryForPhotoLibrary:]
+- +[MADVectorDatabaseManager databaseDirectoryURLForPhotoLibrary:embeddingType:]
+- -[VCPCNNModelEspressoV2 createPrecompiledOp:isPrecompiled:functionName:computeUnits:aneVariantHint:]
+- MAAssetByteStream_Create
+- MAComputeRequest_Start
+- VCPBaseRetryIntervalSeconds
+- VCPMADUnifiedBackgroundProcessing
+- VCPPersonFaceVIPMatchingThreshold
+- _OBJC_CLASS_$_MADTokenEmbedding
+- _Z15silhouetteScoreNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEEERKNS0_IiNS1_IiEEEEi
+- _Z17vcp_matrix_invertPfi
+- _Z19AddResultDictionaryP6CMTimeS0_PfPiPK14__CFDictionaryP9__CFArray
+- _Z19getExtendedFaceHullP8XYIPointiS0_
+- _Z21CFDictionarySetNumberP14__CFDictionaryPK10__CFString12CFNumberTypePv
+- _Z23CleanApertureDictionaryiiii
+- _Z34MAImageComputeResultToCFDictionaryRK20MAImageComputeResult
+- _Z36MAImageComputeResultFromCFDictionaryPK14__CFDictionaryP20MAImageComputeResult
+- _Z42VCPProtoImageHumanPoseResultToCFDictionaryRK28VCPProtoImageHumanPoseResult
+- _Z44VCPProtoImageHumanPoseResultFromCFDictionaryPK14__CFDictionaryP28VCPProtoImageHumanPoseResult
+- _ZN14MotionAnalysisIN2ma12SceneSegmentEE10InitializeEv
+- _ZN14MotionAnalysisIN2ma12SceneSegmentEE13RemoveSegmentEi
+- _ZN14MotionAnalysisIN2ma12TrackSegmentEE10AddSegmentEv
+- _ZN14MotionAnalysisIN2ma12TrackSegmentEE10InitializeEv
+- _ZN14MotionAnalysisIN2ma14QualitySegmentEE10AddSegmentEv
+- _ZN14MotionAnalysisIN2ma14QualitySegmentEE10InitializeEv
+- _ZN14MotionAnalysisIN2ma14QualitySegmentEE13InsertSegmentEi
+- _ZN14MotionAnalysisIN2ma14QualitySegmentEE13RemoveSegmentEi
+- _ZN14MotionAnalysisIN2ma15RotationSegmentEE10AddSegmentEv
+- _ZN14MotionAnalysisIN2ma15RotationSegmentEE10InitializeEv
+- _ZN14MotionAnalysisIN2ma17DescriptorSegmentEE10InitializeEv
+- _ZN14MotionAnalysisIN2ma17DescriptorSegmentEE13RemoveSegmentEi
+- _ZN14MotionAnalysisIN2ma17SlowMotionSegmentEE10AddSegmentEv
+- _ZN14MotionAnalysisIN2ma17SlowMotionSegmentEE10InitializeEv
+- _ZN14MotionAnalysisIN2ma17SlowMotionSegmentEE13RemoveSegmentEi
+- _ZN14MotionAnalysisIN2ma18ObstructionSegmentEE10AddSegmentEv
+- _ZN14MotionAnalysisIN2ma18ObstructionSegmentEE10InitializeEv
+- _ZN14MotionAnalysisIN2ma19CameraMotionSegmentEE10AddSegmentEv
+- _ZN14MotionAnalysisIN2ma19CameraMotionSegmentEE10InitializeEv
+- _ZN14MotionAnalysisIN2ma19CameraMotionSegmentEE13RemoveSegmentEi
+- _ZN14MotionAnalysisIN2ma19MovingObjectSegmentEE10AddSegmentEv
+- _ZN14MotionAnalysisIN2ma19MovingObjectSegmentEE10InitializeEv
+- _ZN14MotionAnalysisIN2ma19SubtleMotionSegmentEE10AddSegmentEv
+- _ZN14MotionAnalysisIN2ma19SubtleMotionSegmentEE10InitializeEv
+- _ZN14MotionAnalysisIN2ma19SubtleMotionSegmentEE13RemoveSegmentEi
+- _ZN14MotionAnalysisIN2ma20SubjectMotionSegmentEE10AddSegmentEv
+- _ZN14MotionAnalysisIN2ma20SubjectMotionSegmentEE10InitializeEv
+- _ZN14MotionAnalysisIN2ma22InterestingnessSegmentEE10AddSegmentEv
+- _ZN14MotionAnalysisIN2ma22InterestingnessSegmentEE10InitializeEv
+- _ZN14MotionAnalysisIN2ma22InterestingnessSegmentEE13RemoveSegmentEi
+- _ZN14MotionAnalysisIN2ma24FineSubjectMotionSegmentEE10AddSegmentEv
+- _ZN14MotionAnalysisIN2ma24FineSubjectMotionSegmentEE10InitializeEv
+- _ZN14MotionAnalysisIN2ma24FineSubjectMotionSegmentEE13RemoveSegmentEi
+- _ZN17MAAssetByteStream10InitializeEmPFiPv7CFRangePPK8__CFDataES0_
+- _ZN17MAAssetByteStream11SetPropertyEPK10__CFStringPKv
+- _ZN17MAAssetByteStream12CopyPropertyEPK10__CFStringPK13__CFAllocatorPv
+- _ZN17MAAssetByteStream14LengthAtOffsetExPx
+- _ZN17MAAssetByteStream4ReadEmxPP19OpaqueCMBlockBufferPm
+- _ZN17MAAssetByteStream4ReadEmxPvPm
+- _ZN19VCPCNNModelEspresso9LoadModelERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
+- _ZN22MAImageAnalysisRequest11DecodeImageEPK8__CFDataPP10__CVBuffer
+- _ZN22MAImageAnalysisRequest5StartEPFvPviE
+- _ZN22MAMovieAnalysisRequest5StartEPFvPviE
+- _ZN25VCPImageDescriptorWrapper10InitializeEP10__CVBuffer
+- _ZN25VCPImageHumanPoseAnalyzer4InitEv
+- _ZN25VCPImageHumanPoseAnalyzer7AnalyzeEP10__CVBufferP14__CFDictionary
+- _ZN2ma11EncodeStats10InitializeEiibb
+- _ZN2ma11EncodeStats12ProcessFrameE6CMTimeP10__CVBuffer
+- _ZN2ma11EncodeStats15ParseStatisticsEPK8__CFData
+- _ZN2ma12IrisAnalysis10InitializeEff
+- _ZN2ma12IrisAnalysis11UpdateStatsEPKNS_5FrameES3_
+- _ZN2ma12MotionSearch13InitialSearchEiP10__CVBufferS2_
+- _ZN2ma12MotionSearch16RefinementSearchEiP10__CVBufferS2_PNS_12MotionVectorES4_i
+- _ZN2ma12MotionSearch6ResizeEmm
+- _ZN2ma12MotionSearch6SearchEP10__CVBufferS2_PNS_12MotionVectorES4_
+- _ZN2ma12MotionSearch9DownscaleEiP10__CVBufferPS2_S2_S3_
+- _ZN2ma12TrackSegment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary
+- _ZN2ma12TrackSegment14FromDictionaryEPK14__CFDictionary
+- _ZN2ma13EncodeStatsHW10InitializeEiibb
+- _ZN2ma13EncodeStatsHW11CreateAsyncEiibb
+- _ZN2ma13EncodeStatsHW12ProcessFrameE6CMTimeP10__CVBufferb
+- _ZN2ma13EncodeStatsHW17ProcessFrameAsyncE6CMTimeP10__CVBufferU13block_pointerFvP20opaqueCMSampleBufferE
+- _ZN2ma13EncodeStatsHW18ProcessFrameCommonE6CMTimeP10__CVBufferbU13block_pointerFvP20opaqueCMSampleBufferE
+- _ZN2ma13EncodeStatsHW26ParseStatsFromSampleBufferEP20opaqueCMSampleBuffer
+- _ZN2ma13EncodeStatsHW8CallbackEP20opaqueCMSampleBufferPS0_U13block_pointerFvS2_E
+- _ZN2ma13SceneAnalysis10AddSegmentERKNS_19CameraMotionSegmentE
+- _ZN2ma13SceneAnalysis10InitializeEPK9__CFArrayPK14__CFDictionaryf
+- _ZN2ma13SceneAnalysis12CopyPropertyE11CMTimeRangePK10__CFStringPK13__CFAllocatorPv
+- _ZN2ma13SceneAnalysis12CopyPropertyEPK10__CFStringPK13__CFAllocatorPv
+- _ZN2ma13SceneAnalysis12ProcessFrameERKNS_5FrameES3_
+- _ZN2ma13SceneAnalysis18StoreSegmentResultEPK9__CFArray
+- _ZN2ma13SceneAnalysis19AverageQualityScoreEPK9__CFArray11CMTimeRangePf
+- _ZN2ma13SceneAnalysis19RefineSceneSegmentsEPK9__CFArray
+- _ZN2ma13SceneAnalysis21ComputeSceneDistancesEv
+- _ZN2ma13SceneAnalysis21FindFrameQualityScoreEPK9__CFArray6CMTimePf
+- _ZN2ma13SceneAnalysis23GenerateSceneAttributesEPKNS_12SceneSegmentEPPK14__CFDictionary
+- _ZN2ma13SceneAnalysis23MergeLensSwitchSegmentsEPK9__CFArray
+- _ZN2ma13SceneAnalysis27ComputeSceneSwitchFrequencyEv
+- _ZN2ma13SceneAnalysis28GenerateInitialSceneSegmentsEiPK9__CFArray
+- _ZN2ma13SceneAnalysis28PruneDescriptorsBasedOnSceneEv
+- _ZN2ma13SceneAnalysis8FinalizeERKNS_5FrameEiPNS_19ObstructionAnalysisE
+- _ZN2ma14EncodeAnalysis10InitializeEii
+- _ZN2ma14EncodeAnalysis12AnalyzeFrameEPNS_11EncodeStatsE6CMTimeP10__CVBufferPNS_5FrameEbb
+- _ZN2ma14EncodeAnalysis12ProcessFrameE6CMTimeP10__CVBufferPNS_5FrameEbb
+- _ZN2ma14EncodeAnalysis17ComputeFrameStatsEPNS_5FrameEb
+- _ZN2ma14EncodeAnalysis17ComputeSceneDeltaEPNS_5FrameE
+- _ZN2ma14EncodeAnalysis19ComputeSpatialStatsEPNS_5FrameE
+- _ZN2ma14EncodeAnalysis20ComputeTemporalStatsEPNS_5FrameEb
+- _ZN2ma14EncodeAnalysis20GetFrameColorfulnessEP10__CVBuffer
+- _ZN2ma14EncodeAnalysis23GetFrameInterestingnessEP10__CVBuffer
+- _ZN2ma14EncodeAnalysis25ComputeInterestingnessLBPEP10__CVBufferPNS_5FrameEb
+- _ZN2ma14ObjectTracking10InitializeEii
+- _ZN2ma14ObjectTracking11BuildTargetEffffPhS1_b
+- _ZN2ma14ObjectTracking13UpdateExpertsEPff
+- _ZN2ma14ObjectTracking15EstimateDensityEiiiiPhS1_Pf
+- _ZN2ma14ObjectTracking15EstimateDensityEiiiiPhS1_PfS2_
+- _ZN2ma14ObjectTracking17CheckUpdateTargetEPhS1_PNS_6ObjectEb
+- _ZN2ma14ObjectTracking17MeanShiftTrackingERKNS_6ObjectEiiPhS4_PS1_PbPf
+- _ZN2ma14ObjectTracking23UpdateStoredBoundingBoxEPNS_12MotionResultEii
+- _ZN2ma14ObjectTracking26CalculateSimilarityWeightsEiiiiPhS1_Pf
+- _ZN2ma15EncodeStatsAVE110ParseStatsEPK8__CFDataii
+- _ZN2ma15EncodeStatsAVE210ParseStatsEPK8__CFDataii
+- _ZN2ma15ObjectDetection10InitializeEiiPf
+- _ZN2ma15ObjectDetection18BoundingboxObjectsEPNS_12MotionResultE
+- _ZN2ma15ObjectDetection18StorePickedObjectsEPNS_12MotionResultE
+- _ZN2ma15ObjectDetection23LabelConnectedComponentEPiPNS_12MotionVectorE
+- _ZN2ma15ObjectDetection23PickOneInterestedObjectEv
+- _ZN2ma15ObjectDetection6DetectEPNS_12MotionResultEPNS_12MotionVectorE
+- _ZN2ma15QualityAnalysis10AddSegmentERKNS_5FrameEb
+- _ZN2ma15QualityAnalysis10InitializeEbbPK14__CFDictionaryf
+- _ZN2ma15QualityAnalysis12CopyPropertyE11CMTimeRangePK10__CFStringPK13__CFAllocatorPv
+- _ZN2ma15QualityAnalysis12CopyPropertyEPK10__CFStringPK13__CFAllocatorPv
+- _ZN2ma15QualityAnalysis12ProcessFrameERKNS_5FrameES3_
+- _ZN2ma15QualityAnalysis12SplitSegmentERKNSt3__16vectorINS1_4pairI11CMTimeRangefEENS1_9allocatorIS5_EEEE
+- _ZN2ma15QualityAnalysis16FinalizeSegmentsERKNS_5FrameERKNSt3__16vectorINS4_4pairI11CMTimeRangefEENS4_9allocatorIS8_EEEESD_RKNS5_IS7_NS9_IS7_EEEESD_
+- _ZN2ma15QualityAnalysis18StoreSegmentResultEv
+- _ZN2ma15QualityAnalysis20MergeSimilarSegmentsEv
+- _ZN2ma15QualityAnalysis21MergeTrackingSegmentsEv
+- _ZN2ma15QualityAnalysis24MergeSparseShortSegmentsEv
+- _ZN2ma15QualityAnalysis29MergeConsecutiveShortSegmentsEv
+- _ZN2ma15QualityAnalysis35QuantizeQualityAndMergeSameSegmentsEv
+- _ZN2ma15QualityAnalysis36GenerateSceneResultsFromQualityScoreEv
+- _ZN2ma15RotationSegment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary
+- _ZN2ma15RotationSegment13DetermineTypeEi
+- _ZN2ma15RotationSegment14FromDictionaryEPK14__CFDictionary
+- _ZN2ma16LandmarkDetector10InitializeEP7__sFILEiiiii
+- _ZN2ma16LandmarkDetector11DeserializeEP7__sFILE
+- _ZN2ma16LandmarkDetector15DetectLandmarksEPKhiiiPfS3_
+- _ZN2ma16RotationAnalysis10AddSegmentERKNS_5FrameEb
+- _ZN2ma16RotationAnalysis10InitializeEi
+- _ZN2ma16RotationAnalysis10SetResultsE11CMTimeRangei
+- _ZN2ma16RotationAnalysis12ProcessFrameERKNS_5FrameE
+- _ZN2ma16RotationAnalysis16FinalizeSegmentsERKNS_5FrameE
+- _ZN2ma16RotationAnalysis18StoreSegmentResultEv
+- _ZN2ma16RotationAnalysis20SetOrientationResultEPK9__CFArray
+- _ZN2ma16RotationAnalysis22CheckCameraOrientationE11CMTimeRangePi
+- _ZN2ma16RotationAnalysis24GenerateSegmentAttributeEPKNS_15RotationSegmentEPPK14__CFDictionary
+- _ZN2ma16TrackingAnalysis10AddSegmentERKNS_5FrameEb
+- _ZN2ma16TrackingAnalysis10InitializeEv
+- _ZN2ma16TrackingAnalysis12CopyPropertyEPK10__CFStringPK13__CFAllocatorPv
+- _ZN2ma16TrackingAnalysis12ProcessFrameERKNS_5FrameE
+- _ZN2ma16TrackingAnalysis16FinalizeSegmentsERKNS_5FrameE
+- _ZN2ma17DescriptorSegment18GenerateDescriptorEP10__CVBuffer
+- _ZN2ma18DescriptorAnalysis10InitializeEi
+- _ZN2ma18DescriptorAnalysis15ComputeDistanceERK11CMTimeRangeS3_Pfb
+- _ZN2ma18DescriptorAnalysis15ComputeDistanceERK6VectorIPNS_17DescriptorSegmentEES6_Pfb
+- _ZN2ma18DescriptorAnalysis18GenerateAttributesEPNS_17DescriptorSegmentEPPK14__CFDictionaryS6_
+- _ZN2ma18DescriptorAnalysis18GenerateDescriptorEP10__CVBufferPNS_5FrameE
+- _ZN2ma18DescriptorAnalysis26FinalizeDescriptorAnalysisEv
+- _ZN2ma18DescriptorAnalysis27GetBoundaryIndexOfTimeRangeE11CMTimeRangePiS2_
+- _ZN2ma18DescriptorAnalysis27GetNearestDescriptorForTimeE6CMTimePi
+- _ZN2ma18DescriptorAnalysis28ComputeDistanceForSceneMergeERK11CMTimeRangeS3_bPfb
+- _ZN2ma18SlowMotionAnalysis10AddSegmentERKNS_5FrameEb
+- _ZN2ma18SlowMotionAnalysis10InitializeEv
+- _ZN2ma18SlowMotionAnalysis12ProcessFrameERKNS_5FrameE
+- _ZN2ma18SlowMotionAnalysis16FinalizeSegmentsERKNS_5FrameE
+- _ZN2ma18SlowMotionAnalysis19EstimateFlickernessERKNS_5FrameE
+- _ZN2ma18SlowMotionAnalysis21MergeSameTypeSegmentsEv
+- _ZN2ma18SlowMotionAnalysis24MergeSparseShortSegmentsEv
+- _ZN2ma18SlowMotionAnalysis29MergeConsecutiveShortSegmentsEv
+- _ZN2ma19CameraMotionSegment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary
+- _ZN2ma19CameraMotionSegment14FromDictionaryEPK14__CFDictionary
+- _ZN2ma19MotionFieldAnalysis10InitializeEiiPNS_11EncodeStatsEPaffbb
+- _ZN2ma19MotionFieldAnalysis12ProcessFrameEP10__CVBufferiPNS_12MotionResultEb
+- _ZN2ma19MotionFieldAnalysis15ContentAnalysisEP10__CVBufferiPNS_12MotionResultEb
+- _ZN2ma19MotionFieldAnalysis18GenerateOutlierMapEiPfPNS_12MotionResultES1_
+- _ZN2ma19MotionFieldAnalysis21RobustGlobalMotionEstEPfiS1_S1_
+- _ZN2ma19MotionFieldAnalysis22CameraMotionEstimationEPNS_12MotionResultE
+- _ZN2ma19MovingObjectSegment10AddObjectsEPKNS_12MotionResultE
+- _ZN2ma19ObstructionAnalysis12ProcessFrameERKNS_5FrameERKNS_11EncodeStatsE
+- _ZN2ma19ObstructionAnalysis18CheckAndAddSegmentERKNS_5FrameE
+- _ZN2ma19ObstructionAnalysis18StoreSegmentResultEv
+- _ZN2ma19ObstructionAnalysis8FinalizeERKNS_5FrameE
+- _ZN2ma19SubtleMotionSegment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary
+- _ZN2ma19SubtleMotionSegment14FromDictionaryEPK14__CFDictionary
+- _ZN2ma20CameraMotionAnalysis10AddSegmentERKNS_5FrameEbb
+- _ZN2ma20CameraMotionAnalysis10InitializeEib
+- _ZN2ma20CameraMotionAnalysis12CopyPropertyE11CMTimeRangePK10__CFStringPK13__CFAllocatorPv
+- _ZN2ma20CameraMotionAnalysis12CopyPropertyEPK10__CFStringPK13__CFAllocatorPv
+- _ZN2ma20CameraMotionAnalysis12ProcessFrameERKNS_5FrameE
+- _ZN2ma20CameraMotionAnalysis16FinalizeSegmentsERKNS_5FrameE
+- _ZN2ma20CameraMotionAnalysis18StoreSegmentResultEv
+- _ZN2ma20CameraMotionAnalysis20MergeSegmentsInRangeEiiiPi
+- _ZN2ma20CameraMotionAnalysis20SetOrientationResultEPK9__CFArray
+- _ZN2ma20CameraMotionAnalysis20StablizationSegmentsEv
+- _ZN2ma20CameraMotionAnalysis21MergeSameTypeSegmentsEv
+- _ZN2ma20CameraMotionAnalysis23MergeBadQualitySegmentsEv
+- _ZN2ma20CameraMotionAnalysis23MergeLensSwitchSegmentsEv
+- _ZN2ma20CameraMotionAnalysis24MergeSparseShortSegmentsEv
+- _ZN2ma20CameraMotionAnalysis29MergeConsecutiveShortSegmentsE6CMTime
+- _ZN2ma20MovingObjectAnalysis10AddSegmentERKNS_5FrameEb
+- _ZN2ma20MovingObjectAnalysis10InitializeEv
+- _ZN2ma20MovingObjectAnalysis12ProcessFrameERKNS_5FrameE
+- _ZN2ma20MovingObjectAnalysis16FinalizeSegmentsERKNS_5FrameE
+- _ZN2ma20MovingObjectAnalysis18GenerateAttributesERKNS_19MovingObjectSegmentEPPK14__CFDictionary
+- _ZN2ma20MovingObjectAnalysis18StoreSegmentResultEv
+- _ZN2ma20SubjectMotionSegment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary
+- _ZN2ma20SubjectMotionSegment14FromDictionaryEPK14__CFDictionary
+- _ZN2ma20SubtleMotionAnalysis10AddSegmentERKNS_5FrameEb
+- _ZN2ma20SubtleMotionAnalysis10InitializeEb
+- _ZN2ma20SubtleMotionAnalysis12CopyPropertyE11CMTimeRangePK10__CFStringPK13__CFAllocatorPv
+- _ZN2ma20SubtleMotionAnalysis12ProcessFrameERKNS_5FrameE
+- _ZN2ma20SubtleMotionAnalysis16FinalizeSegmentsERKNS_5FrameE
+- _ZN2ma20SubtleMotionAnalysis18StoreSegmentResultEv
+- _ZN2ma20SubtleMotionAnalysis21MergeSameTypeSegmentsEv
+- _ZN2ma21SubjectMotionAnalysis10AddSegmentERKNS_5FrameEb
+- _ZN2ma21SubjectMotionAnalysis10InitializeEv
+- _ZN2ma21SubjectMotionAnalysis12CopyPropertyEPK10__CFStringPK13__CFAllocatorPv
+- _ZN2ma21SubjectMotionAnalysis12ProcessFrameERKNS_5FrameE
+- _ZN2ma21SubjectMotionAnalysis16FinalizeSegmentsERKNS_5FrameE
+- _ZN2ma21SubjectMotionAnalysis18StoreSegmentResultEv
+- _ZN2ma23InterestingnessAnalysis10AddSegmentERKNS_5FrameEb
+- _ZN2ma23InterestingnessAnalysis10InitializeEv
+- _ZN2ma23InterestingnessAnalysis12CopyPropertyE11CMTimeRangePK10__CFStringPK13__CFAllocatorPv
+- _ZN2ma23InterestingnessAnalysis12CopyPropertyEPK10__CFStringPK13__CFAllocatorPv
+- _ZN2ma23InterestingnessAnalysis12ProcessFrameERKNS_5FrameE
+- _ZN2ma23InterestingnessAnalysis16FinalizeSegmentsERKNS_5FrameE
+- _ZN2ma23InterestingnessAnalysis18StoreSegmentResultEv
+- _ZN2ma23InterestingnessAnalysis21MergeSameTypeSegmentsEv
+- _ZN2ma23InterestingnessAnalysis24MergeSparseShortSegmentsEv
+- _ZN2ma23InterestingnessAnalysis29MergeConsecutiveShortSegmentsEv
+- _ZN2ma24FineSubjectMotionSegment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary
+- _ZN2ma24FineSubjectMotionSegment14FromDictionaryEPK14__CFDictionary
+- _ZN2ma25FineSubjectMotionAnalysis10AddSegmentERKNS_5FrameEb
+- _ZN2ma25FineSubjectMotionAnalysis10InitializeEb
+- _ZN2ma25FineSubjectMotionAnalysis12CopyPropertyE11CMTimeRangePK10__CFStringPK13__CFAllocatorPv
+- _ZN2ma25FineSubjectMotionAnalysis12ProcessFrameERKNS_5FrameE
+- _ZN2ma25FineSubjectMotionAnalysis16FinalizeSegmentsERKNS_5FrameE
+- _ZN2ma25FineSubjectMotionAnalysis18MergeShortSegmentsEv
+- _ZN2ma25FineSubjectMotionAnalysis18StoreSegmentResultEv
+- _ZN2ma25FineSubjectMotionAnalysis20MergeSegmentsInRangeEiiPi
+- _ZN2ma25FineSubjectMotionAnalysis21MergeSameTypeSegmentsEv
+- _ZN2ma25FineSubjectMotionAnalysis27MergeShortSegmentsInBetweenEiiPi
+- _ZN2ma5Frame10InitializeE6CMTimeS1_P10__CVBufferb
+- _ZN2ma6Object23CalculateAttentionScoreEv
+- _ZN2ma7Rotator10InitializeEP10__CVBuffer
+- _ZN2ma7Rotator6RotateEP10__CVBufferPS2_
+- _ZN2ma7Segment12ToDictionaryEPK13__CFAllocatorPPK14__CFDictionary
+- _ZN2ma7Segment14FromDictionaryEPK14__CFDictionary
+- _ZN2ma9Histogram34InitializeAsIdealExposureHistogramEi
+- _ZN30VCPSceneprintDescriptorWrapper10InitializeEP10__CVBuffer
+- _ZN6Scaler12ScaleCroppedE6CGRectP10__CVBufferPS2_iij
+- _ZN6Scaler25InitializePixelBufferPoolEiij
+- _ZN6VectorI7CGPointE8PushBackERKS0_
+- _ZN6VectorIPN2ma12SceneSegmentEE8PushBackERKS2_
+- _ZN6VectorIPN2ma12TrackSegmentEE8PushBackERKS2_
+- _ZN6VectorIPN2ma14ObjectTracking6ExpertEE8PushBackERKS3_
+- _ZN6VectorIPN2ma14QualitySegmentEE6InsertEmRKS2_
+- _ZN6VectorIPN2ma14QualitySegmentEE8PushBackERKS2_
+- _ZN6VectorIPN2ma15RotationSegmentEE8PushBackERKS2_
+- _ZN6VectorIPN2ma17DescriptorSegmentEE8PushBackERKS2_
+- _ZN6VectorIPN2ma17SlowMotionSegmentEE8PushBackERKS2_
+- _ZN6VectorIPN2ma18ObstructionSegmentEE8PushBackERKS2_
+- _ZN6VectorIPN2ma19CameraMotionSegmentEE8PushBackERKS2_
+- _ZN6VectorIPN2ma19MovingObjectSegmentEE8PushBackERKS2_
+- _ZN6VectorIPN2ma19SubtleMotionSegmentEE8PushBackERKS2_
+- _ZN6VectorIPN2ma20SubjectMotionSegmentEE8PushBackERKS2_
+- _ZN6VectorIPN2ma22InterestingnessSegmentEE8PushBackERKS2_
+- _ZN6VectorIPN2ma24FineSubjectMotionSegmentEE8PushBackERKS2_
+- _ZN6VectorIPN2ma6ObjectEE8PushBackERKS2_
+- _ZNK2ma17DescriptorSegment7CompareERKS0_Pfb
+- __112-[MADPersonalizedEmbeddingTask processSegments:resource:keyImageSegment:personalizationIndex:textEncoderInputs:]_block_invoke
+- __131-[VCPPhotosQuickFaceIdentificationManager _generatePersonsModelWithExtendTimeoutBlock:cancel:evaluationMode:allowUnverifiedPerson:]_block_invoke
+- __44-[VCPDatabaseReader migration_loadKeyValues]_block_invoke
+- __47-[VCPDatabaseReader migration_loadChangeTokens]_block_invoke
+- __51-[VCPDatabaseReader migration_loadProcessingStatus]_block_invoke
+- __57-[VCPDatabaseReader migration_loadMomentsScheduledAssets]_block_invoke
+- __59-[VCPHumanPoseImageRequest processImage:withOptions:error:]_block_invoke
+- __65-[VCPDatabaseReader migration_queryAnalysesForAssets:statsFlags:]_block_invoke
+- __69-[VCPDatabaseReader migration_queryProgressHistoryRecords:sinceDate:]_block_invoke
+- __76-[VCPLightMotionAnalyzer analyzeFrame:withTimestamp:andDuration:completion:]_block_invoke_2
+- __79-[VCPDatabaseReader migration_querySchedulingHistoryRecords:startDate:endDate:]_block_invoke
+- __79-[VCPVideoPetsActionAnalyzer analyzeFrame:timestamp:duration:frameStats:flags:]_block_invoke
+- __80-[VCPVideoHumanActionAnalyzer analyzeFrame:timestamp:duration:frameStats:flags:]_block_invoke
+- __91-[VCPCaptureAnalysisSession analyzePixelBuffer:withTimestamp:andDuration:properties:error:]_block_invoke
+- __96-[MADChangeRequest(PersistentHistory) prunePersistentHistoryWithCancelBlock:extendTimeoutBlock:]_block_invoke
+- __DeviceWithGreymatterSupport_block_invoke
+- __ZN17MAAssetByteStream10InitializeEmPFiPv7CFRangePPK8__CFDataES0_
+- __ZN17MAAssetByteStream11SetPropertyEPK10__CFStringPKv
+- __ZN17MAAssetByteStream14LengthAtOffsetExPx
+- __ZN22VCPPerformanceReporter14LogMeasurementEPKcy
+- __ZZ103+[VCPAnalysisProgressQuery reportProgressForPhotoLibrary:taskID:logMessage:cancelOrExtendTimeoutBlock:]E4once
+- __ZZ103+[VCPAnalysisProgressQuery reportProgressForPhotoLibrary:taskID:logMessage:cancelOrExtendTimeoutBlock:]E7enabled
+- __ZZ131-[VCPPhotosQuickFaceIdentificationManager _generatePersonsModelWithExtendTimeoutBlock:cancel:evaluationMode:allowUnverifiedPerson:]E10fetchLimit
+- __ZZ131-[VCPPhotosQuickFaceIdentificationManager _generatePersonsModelWithExtendTimeoutBlock:cancel:evaluationMode:allowUnverifiedPerson:]E4once
+- __ZZ27+[VCPPreAnalyzer _allowANE]E4once
+- __ZZ27+[VCPPreAnalyzer _allowANE]E7allowed
+- __ZZ27+[VCPPreAnalyzer _useR14J9]E4once
+- __ZZ27+[VCPPreAnalyzer _useR14J9]E7include
+- __ZZ27VCPBaseRetryIntervalSecondsE13retryInterval
+- __ZZ27VCPBaseRetryIntervalSecondsE4once
+- __ZZ28+[VCPPreAnalyzer _includeCN]E4once
+- __ZZ28+[VCPPreAnalyzer _includeCN]E7include
+- __ZZ28+[VCPPreAnalyzer _includeDO]E4once
+- __ZZ28+[VCPPreAnalyzer _includeDO]E7include
+- __ZZ28+[VCPPreAnalyzer _includeGV]E4once
+- __ZZ28+[VCPPreAnalyzer _includeLM]E4once
+- __ZZ28+[VCPPreAnalyzer _includeLM]E7include
+- __ZZ28+[VCPPreAnalyzer _includePA]E4once
+- __ZZ28+[VCPPreAnalyzer _includePA]E7include
+- __ZZ28+[VCPPreAnalyzer _includeSE]E4once
+- __ZZ28+[VCPPreAnalyzer _includeSE]E7include
+- __ZZ28+[VCPPreAnalyzer _includeSO]E4once
+- __ZZ28+[VCPPreAnalyzer _includeSO]E7include
+- __ZZ28+[VCPPreAnalyzer _includeWP]E4once
+- __ZZ28+[VCPPreAnalyzer _includeWP]E7include
+- __ZZ29+[VCPPreAnalyzer _includeDMF]E4once
+- __ZZ29+[VCPPreAnalyzer _includeDMF]E7include
+- __ZZ29+[VCPPreAnalyzer _includeIVS]E4once
+- __ZZ29+[VCPPreAnalyzer _includeSDG]E4once
+- __ZZ29+[VCPPreAnalyzer _includeSDG]E7include
+- __ZZ30+[VCPPreAnalyzer _includeMeme]E4once
+- __ZZ30+[VCPPreAnalyzer _includeMeme]E7include
+- __ZZ30+[VCPPreAnalyzer _includeNSFW]E4once
+- __ZZ30+[VCPPreAnalyzer _includeNSFW]E7include
+- __ZZ31+[VCPFaceCropManager _allowANE]E4once
+- __ZZ31+[VCPFaceCropManager _allowANE]E7allowed
+- __ZZ32+[VCPPreAnalyzer _getSHRevision]E4once
+- __ZZ33+[VCPImageManager loggingEnabled]E4once
+- __ZZ33+[VCPImageManager loggingEnabled]E7enabled
+- __ZZ33VCPMADUnifiedBackgroundProcessingE4once
+- __ZZ33VCPMADUnifiedBackgroundProcessingE7enabled
+- __ZZ33VCPPersonFaceVIPMatchingThresholdE4once
+- __ZZ33VCPPersonFaceVIPMatchingThresholdE9threshold
+- __ZZ34+[VCPPreAnalyzer _includeDocument]E4once
+- __ZZ34+[VCPPreAnalyzer _includeDocument]E7include
+- __ZZ34+[VCPPreAnalyzer _includeRotation]E4once
+- __ZZ34+[VCPPreAnalyzer _includeRotation]E7include
+- __ZZ35+[VCPPreAnalysisRequests includeCN]E4once
+- __ZZ35+[VCPPreAnalysisRequests includeCN]E7include
+- __ZZ35+[VCPPreAnalysisRequests includeDO]E4once
+- __ZZ35+[VCPPreAnalysisRequests includeDO]E7include
+- __ZZ35+[VCPPreAnalysisRequests includeGV]E4once
+- __ZZ35+[VCPPreAnalysisRequests includeLM]E4once
+- __ZZ35+[VCPPreAnalysisRequests includeLM]E7include
+- __ZZ35+[VCPPreAnalysisRequests includePA]E4once
+- __ZZ35+[VCPPreAnalysisRequests includePA]E7include
+- __ZZ35+[VCPPreAnalysisRequests includeSE]E4once
+- __ZZ35+[VCPPreAnalysisRequests includeSE]E7include
+- __ZZ35+[VCPPreAnalysisRequests includeSO]E4once
+- __ZZ35+[VCPPreAnalysisRequests includeSO]E7include
+- __ZZ35+[VCPPreAnalysisRequests includeWP]E4once
+- __ZZ35+[VCPPreAnalysisRequests includeWP]E7include
+- __ZZ36+[PHAsset(VCPPHFaces) vcp_usePHFace]E3use
+- __ZZ36+[PHAsset(VCPPHFaces) vcp_usePHFace]E4once
+- __ZZ36+[VCPFullVideoAnalyzer enableMoflow]E4once
+- __ZZ36+[VCPFullVideoAnalyzer enableMoflow]E6enable
+- __ZZ36+[VCPPreAnalysisRequests includeDMF]E4once
+- __ZZ36+[VCPPreAnalysisRequests includeDMF]E7include
+- __ZZ36+[VCPPreAnalysisRequests includeIVS]E4once
+- __ZZ36+[VCPPreAnalysisRequests includeSDG]E4once
+- __ZZ36+[VCPPreAnalysisRequests includeSDG]E7include
+- __ZZ36+[VCPVideoSceneClassifier _allowANE]E4once
+- __ZZ36+[VCPVideoSceneClassifier _allowANE]E7allowed
+- __ZZ37+[VCPFaceAnalyzer _faceprintFastMode]E4once
+- __ZZ37+[VCPFaceAnalyzer _faceprintFastMode]E8fastMode
+- __ZZ37+[VCPFreeFormSearch getMinSimilarity]E4once
+- __ZZ37+[VCPFreeFormSearch getSearchTesting]E13searchTesting
+- __ZZ37+[VCPFreeFormSearch getSearchTesting]E4once
+- __ZZ37+[VCPPreAnalysisRequests includeJunk]E4once
+- __ZZ37+[VCPPreAnalysisRequests includeJunk]E7include
+- __ZZ37+[VCPPreAnalysisRequests includeMeme]E4once
+- __ZZ37+[VCPPreAnalysisRequests includeMeme]E7include
+- __ZZ37+[VCPPreAnalysisRequests includeNSFW]E4once
+- __ZZ37+[VCPPreAnalysisRequests includeNSFW]E7include
+- __ZZ38+[VCPHandGestureClassifier enableFlip]E4once
+- __ZZ38+[VCPHandGestureClassifier enableFlip]E6enable
+- __ZZ39+[VCPImageHandsAnalyzer getExtendRatio]E11extendRatio
+- __ZZ39+[VCPImageHandsAnalyzer getExtendRatio]E4once
+- __ZZ39+[VCPImageManager _exportReencodedJPEG]E19exportReencodedJPEG
+- __ZZ39+[VCPImageManager _exportReencodedJPEG]E4once
+- __ZZ39+[VCPRequest useHandsLitePoseForVision]E28enableHandsLitePoseForVision
+- __ZZ39+[VCPRequest useHandsLitePoseForVision]E4once
+- __ZZ39+[VCPTextEncoder useCSULanguageEncoder]E3use
+- __ZZ39+[VCPTextEncoder useCSULanguageEncoder]E4once
+- __ZZ40+[MADSharedTextEncoder textEncoderLimit]E16textEncoderLimit
+- __ZZ40+[MADSharedTextEncoder textEncoderLimit]E4once
+- __ZZ40+[VCPFaceIDModel newMutablePersonsModel]E36maximumTrainingFaceprintsPerIdentity
+- __ZZ40+[VCPFaceIDModel newMutablePersonsModel]E4once
+- __ZZ41+[VCPMovieAnalyzer persistAudioEmbedding]E4once
+- __ZZ41+[VCPMovieAnalyzer persistAudioEmbedding]E7persist
+- __ZZ41+[VCPPreAnalysisRequests includeDocument]E4once
+- __ZZ41+[VCPPreAnalysisRequests includeDocument]E7include
+- __ZZ41+[VCPPreAnalysisRequests includeRotation]E4once
+- __ZZ41+[VCPPreAnalysisRequests includeRotation]E7include
+- __ZZ41+[VCPSceneprintDescriptor usePHAssetData]E3use
+- __ZZ41+[VCPSceneprintDescriptor usePHAssetData]E4once
+- __ZZ42+[PHAsset(VCPPHFaces) mad_peopleThreshold]E4once
+- __ZZ42+[PHAsset(VCPPHFaces) mad_peopleThreshold]E9threshold
+- __ZZ42+[VCPImageHumanPoseAnalyzer saveKeypoints]E4once
+- __ZZ42+[VCPImageHumanPoseAnalyzer saveKeypoints]E4save
+- __ZZ42+[VCPMADMLScalingTask getDownsamplingMode]E10once_token
+- __ZZ42+[VCPMADMLScalingTask getDownsamplingMode]E4mode
+- __ZZ42+[VCPMovieAnalyzer enableAudioVideoFusion]E4once
+- __ZZ42+[VCPVideoCNNAnalyzer adaptiveSegmentType]E4once
+- __ZZ42+[VCPVideoCNNAnalyzer adaptiveSegmentType]E4type
+- __ZZ42+[VCPVideoCNNAnalyzer isMUBackboneEnabled]E4once
+- __ZZ43+[VCPAnalysisProgressQuery _screenProgress]E4once
+- __ZZ43+[VCPAnalysisProgressQuery _screenProgress]E7enabled
+- __ZZ43+[VCPMovieAnalyzer shouldProcessAudioAsync]E16shouldAsyncAudio
+- __ZZ43+[VCPMovieAnalyzer shouldProcessAudioAsync]E4once
+- __ZZ43+[VCPPreAnalysisRequests sharpnessRevision]E4once
+- __ZZ43+[VCPVideoCNNAnalyzer forcePersonDetection]E20forcePersonDetection
+- __ZZ43+[VCPVideoCNNAnalyzer forcePersonDetection]E4once
+- __ZZ43+[VCPVideoCNNAnalyzer isMLHighlightEnabled]E20isMLHighlightEnabled
+- __ZZ43+[VCPVideoCNNAnalyzer isMLHighlightEnabled]E4once
+- __ZZ44+[VCPFaceIDModel petClassificationThreshold]E4once
+- __ZZ44+[VCPFaceIDModel petClassificationThreshold]E9threshold
+- __ZZ44+[VCPMediaAnalyzer includeTorsoOnlyForOneUP]E4once
+- __ZZ44+[VCPMediaAnalyzer includeTorsoOnlyForOneUP]E7include
+- __ZZ44+[VCPMovieAnalyzer MaxNumThumbnailsPerVideo]E4once
+- __ZZ44+[VCPMovieAnalyzer MaxNumThumbnailsPerVideo]E6maxNum
+- __ZZ44+[VCPMovieAnalyzer getMaximumHighlightInSec]E4once
+- __ZZ44+[VCPPhotosAutoCounterWorker _dumpFaceprint]E4dump
+- __ZZ44+[VCPPhotosAutoCounterWorker _dumpFaceprint]E4once
+- __ZZ45+[VCPFaceAnalyzer _smallFaceWarningThreshold]E4once
+- __ZZ45+[VCPFaceAnalyzer _smallFaceWarningThreshold]E9threshold
+- __ZZ45+[VCPHandGestureMitigator getMinTiltingAngle]E4once
+- __ZZ45+[VCPHandGestureMitigator getMinTiltingAngle]E8minAngle
+- __ZZ45+[VCPMovieAnalyzer getEnableMovieHumanAction]E4once
+- __ZZ45+[VCPMovieAnalyzer getEnableMovieHumanAction]E6enable
+- __ZZ45+[VCPVideoStabilizer saveStabilizationRecipe]E4once
+- __ZZ45+[VCPVideoStabilizer saveStabilizationRecipe]E6enable
+- __ZZ46+[PHAsset(VCPPHFaces) vcp_usePHFaceExpression]E3use
+- __ZZ46+[PHAsset(VCPPHFaces) vcp_usePHFaceExpression]E4once
+- __ZZ46+[VCPHandGestureMitigator getMinHandFaceRatio]E4once
+- __ZZ46+[VCPHandGestureMitigator getMinHandFaceRatio]E5ratio
+- __ZZ46+[VCPImageCaptionAnalyzer greedySearchEnabled]E4once
+- __ZZ46+[VCPImageCaptionAnalyzer greedySearchEnabled]E7enabled
+- __ZZ46+[VCPPhotoAnalyzer isLivePhotoKeyFrameEnabled]E26isLivePhotoKeyFrameEnabled
+- __ZZ46+[VCPPhotoAnalyzer isLivePhotoKeyFrameEnabled]E4once
+- __ZZ46+[VCPPreAnalyzer _enableSceneAssetConcurrency]E4once
+- __ZZ46+[VCPPreAnalyzer _enableSceneAssetConcurrency]E6enable
+- __ZZ46+[VCPVideoKeyFrame isLivePhotoKeyFrameEnabled]E26isLivePhotoKeyFrameEnabled
+- __ZZ46+[VCPVideoKeyFrame isLivePhotoKeyFrameEnabled]E4once
+- __ZZ47+[VCPFreeFormSearch getHighSimilarityThreshold]E4once
+- __ZZ47+[VCPFreeFormSearch getMaxSimilarityDiffFor1UP]E17maxSimilarityDiff
+- __ZZ47+[VCPFreeFormSearch getMaxSimilarityDiffFor1UP]E4once
+- __ZZ47+[VCPFreeFormSearch getMinSimilarityHighRecall]E4once
+- __ZZ47+[VCPMediaAnalyzer _getDistanceDescriptorClass]E4once
+- __ZZ48+[VCPHandGestureMitigator getFaceExtensionRatio]E4once
+- __ZZ48+[VCPHandGestureMitigator getFaceExtensionRatio]E5ratio
+- __ZZ48+[VCPPhotosAutoCounterWorker _dumpAssetsToFaces]E4dump
+- __ZZ48+[VCPPhotosAutoCounterWorker _dumpAssetsToFaces]E4once
+- __ZZ49+[MADChangeRequest(Asset) _isLegacyResultEnabled]E4once
+- __ZZ50+[VCPFaceAnalyzer _downsampleBeforeFaceProcessing]E10downsample
+- __ZZ50+[VCPFaceAnalyzer _downsampleBeforeFaceProcessing]E4once
+- __ZZ50+[VCPHandGestureMitigator getMinTiltingThumbAngle]E4once
+- __ZZ50+[VCPHandGestureMitigator getMinTiltingThumbAngle]E8minAngle
+- __ZZ50+[VCPImageFaceDetector isLivePhotoKeyFrameEnabled]E26isLivePhotoKeyFrameEnabled
+- __ZZ50+[VCPImageFaceDetector isLivePhotoKeyFrameEnabled]E4once
+- __ZZ50+[VCPImageHandsAnalyzer getInsetForRejectingHands]E4once
+- __ZZ50+[VCPImageHandsAnalyzer getInsetForRejectingHands]E5inset
+- __ZZ50+[VCPMovieAnalyzer isHeuristicStickerScoreEnabled]E30isHeuristicStickerScoreEnabled
+- __ZZ50+[VCPMovieAnalyzer isHeuristicStickerScoreEnabled]E4once
+- __ZZ52+[VCPFullVideoAnalyzer useSceneprintInSceneAnalysis]E3use
+- __ZZ52+[VCPFullVideoAnalyzer useSceneprintInSceneAnalysis]E4once
+- __ZZ53+[MADEmbeddingStore includeAudioFusedVideoEmbeddings]E4once
+- __ZZ53+[MADEmbeddingStore includeAudioFusedVideoEmbeddings]E7include
+- __ZZ53+[VCPMovieHighlightAnalyzer getMinimumHighlightInSec]E4once
+- __ZZ53+[VCPMovieHighlightAnalyzer getMinimumHighlightInSec]E6length
+- __ZZ54+[PHPhotoLibrary(MediaAnalysis) mad_clusterVideoFaces]E17clusterVideoFaces
+- __ZZ54+[PHPhotoLibrary(MediaAnalysis) mad_clusterVideoFaces]E4once
+- __ZZ54+[VCPHandGestureMitigator getPalmScaleChangeThreshold]E4once
+- __ZZ54+[VCPHandGestureMitigator getPalmScaleChangeThreshold]E5ratio
+- __ZZ54+[VCPImageCaptionAnalyzer writeSpatialEmbeddingToFile]E4once
+- __ZZ54+[VCPImageCaptionAnalyzer writeSpatialEmbeddingToFile]E7enabled
+- __ZZ54+[VCPVideoKeyFrameAnalyzer isLivePhotoKeyFrameEnabled]E26isLivePhotoKeyFrameEnabled
+- __ZZ54+[VCPVideoKeyFrameAnalyzer isLivePhotoKeyFrameEnabled]E4once
+- __ZZ54+[VCPVideoThumbnailAnalyzer getMaxNumThumbnailsPerMin]E4once
+- __ZZ54+[VCPVideoThumbnailAnalyzer getMaxNumThumbnailsPerMin]E6maxNum
+- __ZZ55+[VCPFaceAnalyzer _forwardCompatibleFaceSigmaThreshold]E4once
+- __ZZ55+[VCPFaceAnalyzer _forwardCompatibleFaceSigmaThreshold]E9threshold
+- __ZZ55+[VCPHandGestureMitigator getPalmMoveDistanceThreshold]E4once
+- __ZZ55+[VCPHandGestureMitigator getPalmMoveDistanceThreshold]E5ratio
+- __ZZ56+[VCPFaceAnalyzer _forwardCompatibleTorsoSigmaThreshold]E4once
+- __ZZ56+[VCPFaceAnalyzer _forwardCompatibleTorsoSigmaThreshold]E9threshold
+- __ZZ56+[VCPHandGestureMitigator getHandMotionLookBackDuration]E4once
+- __ZZ56+[VCPHandGestureMitigator getHandMotionLookBackDuration]E5ratio
+- __ZZ57+[VCPVideoCNNAnalyzer isMLSettlingEffectPregatingEnabled]E4once
+- __ZZ57+[VCPVideoCNNAnalyzer isMLSettlingEffectPregatingEnabled]E6enable
+- __ZZ58+[VCPImageCaptionAnalyzer useVCPMobileAssetAXCaptionModel]E4once
+- __ZZ58+[VCPImageCaptionAnalyzer useVCPMobileAssetAXCaptionModel]E7enabled
+- __ZZ59+[VCPMovieHighlightAnalyzer isHeuristicStickerScoreEnabled]E30isHeuristicStickerScoreEnabled
+- __ZZ59+[VCPMovieHighlightAnalyzer isHeuristicStickerScoreEnabled]E4once
+- __ZZ59+[VCPVideoAnalysisPipelineManager shouldUseGraphProcessing]E24shouldUseGraphProcessing
+- __ZZ59+[VCPVideoAnalysisPipelineManager shouldUseGraphProcessing]E4once
+- __ZZ60+[VCPMovieCurationAnalyzer isSettlingEffectPregatingEnabled]E4once
+- __ZZ60+[VCPMovieCurationAnalyzer isSettlingEffectPregatingEnabled]E6enable
+- __ZZ60-[VCPMADImageSafetyClassificationTask logMemoryWithMessage:]E4once
+- __ZZ60-[VCPMADImageSafetyClassificationTask logMemoryWithMessage:]E7enabled
+- __ZZ61+[PHAsset(MediaAnalysisOCRProcessing) vcp_ocrGatingThreshold]E4once
+- __ZZ61+[PHAsset(MediaAnalysisOCRProcessing) vcp_ocrGatingThreshold]E9threshold
+- __ZZ62+[PHAsset(MediaAnalysisComputeSync) mad_isComputeSyncDisabled]E10isDisabled
+- __ZZ62+[PHAsset(MediaAnalysisComputeSync) mad_isComputeSyncDisabled]E4once
+- __ZZ62+[VCPPhotosSceneprintAssetProcessingTask _panoVNRequestMethod]E4once
+- __ZZ62+[VCPPhotosSceneprintAssetProcessingTask _panoVNRequestMethod]E6method
+- __ZZ64+[PHAssetResource(MediaAnalysis) mad_disableComputeSyncDownload]E4once
+- __ZZ64+[PHAssetResource(MediaAnalysis) mad_disableComputeSyncDownload]E8disabled
+- __ZZ64+[VCPMovieHighlightAnalyzer isEnhancementByTranscriptionEnabled]E4once
+- __ZZ64+[VCPMovieHighlightAnalyzer isEnhancementByTranscriptionEnabled]E6enable
+- __ZZ66+[PHAsset(MediaAnalysisVisualSearchProcessing) enableStickerScore]E4once
+- __ZZ66+[PHAsset(MediaAnalysisVisualSearchProcessing) enableStickerScore]E6enable
+- __ZZ67-[PHPhotoLibrary(MediaAnalysis) mad_pauseFCPeopleFurtherProcessing]E4once
+- __ZZ67-[PHPhotoLibrary(MediaAnalysis) mad_pauseFCPeopleFurtherProcessing]E5pause
+- __ZZ68+[VCPHandGestureMitigator getGestureTypeConsistencyLookBackDuration]E4once
+- __ZZ68+[VCPHandGestureMitigator getGestureTypeConsistencyLookBackDuration]E8duration
+- __ZZ68+[VCPPhotosQuickFaceIdentificationManager _fastFaceMigrationEnabled]E4once
+- __ZZ68+[VCPPhotosQuickFaceIdentificationManager _fastFaceMigrationEnabled]E7enabled
+- __ZZ69+[VCPFullAnalysisAssetProcessingTask AllowPersistSettlingEffectScore]E4once
+- __ZZ74-[PHAsset(MediaAnalysisComputeSync) mad_isEligibleForComputeSyncIngestion]E4once
+- __ZZ89+[VCPPhotosFace _isColocatingAnimalObservation:withFaceObservations:orTorsoObservations:]E12iouThreshold
+- __ZZ89+[VCPPhotosFace _isColocatingAnimalObservation:withFaceObservations:orTorsoObservations:]E4once
+- ___103+[VCPAnalysisProgressQuery reportProgressForPhotoLibrary:taskID:logMessage:cancelOrExtendTimeoutBlock:]_block_invoke
+- ___112-[MADPersonalizedEmbeddingTask processSegments:resource:keyImageSegment:personalizationIndex:textEncoderInputs:]_block_invoke
+- ___166-[MADPersonalizedEmbeddingTask processGenerativePlaygroundsOutput:resource:imageSegment:personalizationIndex:embeddingResult:hiddenLayerResult:pooledEmbeddingResult:]_block_invoke
+- ___26+[VCPFaceMerger _allowANE]_block_invoke
+- ___27+[VCPPreAnalyzer _allowANE]_block_invoke
+- ___27+[VCPPreAnalyzer _useR14J9]_block_invoke
+- ___28+[VCPPreAnalyzer _includeCN]_block_invoke
+- ___28+[VCPPreAnalyzer _includeDO]_block_invoke
+- ___28+[VCPPreAnalyzer _includeGV]_block_invoke
+- ___28+[VCPPreAnalyzer _includeLM]_block_invoke
+- ___28+[VCPPreAnalyzer _includePA]_block_invoke
+- ___28+[VCPPreAnalyzer _includeSE]_block_invoke
+- ___28+[VCPPreAnalyzer _includeSO]_block_invoke
+- ___28+[VCPPreAnalyzer _includeWP]_block_invoke
+- ___29+[VCPPreAnalyzer _includeDMF]_block_invoke
+- ___29+[VCPPreAnalyzer _includeIVS]_block_invoke
+- ___29+[VCPPreAnalyzer _includeSDG]_block_invoke
+- ___30+[VCPPreAnalyzer _includeMeme]_block_invoke
+- ___30+[VCPPreAnalyzer _includeNSFW]_block_invoke
+- ___31+[VCPFaceCropManager _allowANE]_block_invoke
+- ___32+[VCPPreAnalyzer _getSHRevision]_block_invoke
+- ___33+[VCPImageManager loggingEnabled]_block_invoke
+- ___34+[VCPPreAnalyzer _includeDocument]_block_invoke
+- ___34+[VCPPreAnalyzer _includeRotation]_block_invoke
+- ___35+[VCPPreAnalysisRequests includeCN]_block_invoke
+- ___35+[VCPPreAnalysisRequests includeDO]_block_invoke
+- ___35+[VCPPreAnalysisRequests includeGV]_block_invoke
+- ___35+[VCPPreAnalysisRequests includeLM]_block_invoke
+- ___35+[VCPPreAnalysisRequests includePA]_block_invoke
+- ___35+[VCPPreAnalysisRequests includeSE]_block_invoke
+- ___35+[VCPPreAnalysisRequests includeSO]_block_invoke
+- ___35+[VCPPreAnalysisRequests includeWP]_block_invoke
+- ___36+[PHAsset(VCPPHFaces) vcp_usePHFace]_block_invoke
+- ___36+[VCPFullVideoAnalyzer enableMoflow]_block_invoke
+- ___36+[VCPPreAnalysisRequests includeDMF]_block_invoke
+- ___36+[VCPPreAnalysisRequests includeIVS]_block_invoke
+- ___36+[VCPPreAnalysisRequests includeSDG]_block_invoke
+- ___36+[VCPVideoSceneClassifier _allowANE]_block_invoke
+- ___37+[VCPEffectsAnalyzer usePHAssetScene]_block_invoke
+- ___37+[VCPFaceAnalyzer _faceprintFastMode]_block_invoke
+- ___37+[VCPFreeFormSearch getMinSimilarity]_block_invoke
+- ___37+[VCPFreeFormSearch getSearchTesting]_block_invoke
+- ___37+[VCPPreAnalysisRequests includeJunk]_block_invoke
+- ___37+[VCPPreAnalysisRequests includeMeme]_block_invoke
+- ___37+[VCPPreAnalysisRequests includeNSFW]_block_invoke
+- ___38+[VCPHandGestureClassifier enableFlip]_block_invoke
+- ___39+[VCPImageHandsAnalyzer getExtendRatio]_block_invoke
+- ___39+[VCPImageManager _exportReencodedJPEG]_block_invoke
+- ___39+[VCPRequest useHandsLitePoseForVision]_block_invoke
+- ___39+[VCPTextEncoder useCSULanguageEncoder]_block_invoke
+- ___40+[MADSharedTextEncoder textEncoderLimit]_block_invoke
+- ___40+[VCPFaceIDModel newMutablePersonsModel]_block_invoke
+- ___41+[VCPMovieAnalyzer persistAudioEmbedding]_block_invoke
+- ___41+[VCPPreAnalysisRequests includeDocument]_block_invoke
+- ___41+[VCPPreAnalysisRequests includeRotation]_block_invoke
+- ___41+[VCPSceneprintDescriptor usePHAssetData]_block_invoke
+- ___42+[PHAsset(VCPPHFaces) mad_peopleThreshold]_block_invoke
+- ___42+[VCPImageHumanPoseAnalyzer saveKeypoints]_block_invoke
+- ___42+[VCPMADMLScalingTask getDownsamplingMode]_block_invoke
+- ___42+[VCPMovieAnalyzer enableAudioVideoFusion]_block_invoke
+- ___42+[VCPVideoCNNAnalyzer adaptiveSegmentType]_block_invoke
+- ___42+[VCPVideoCNNAnalyzer isMUBackboneEnabled]_block_invoke
+- ___43+[VCPAnalysisProgressQuery _screenProgress]_block_invoke
+- ___43+[VCPMovieAnalyzer shouldProcessAudioAsync]_block_invoke
+- ___43+[VCPPreAnalysisRequests sharpnessRevision]_block_invoke
+- ___43+[VCPVideoCNNAnalyzer forcePersonDetection]_block_invoke
+- ___43+[VCPVideoCNNAnalyzer isMLHighlightEnabled]_block_invoke
+- ___44+[VCPFaceIDModel petClassificationThreshold]_block_invoke
+- ___44+[VCPMediaAnalyzer includeTorsoOnlyForOneUP]_block_invoke
+- ___44+[VCPMobileAssetManager isCaptionOTAEnabled]_block_invoke
+- ___44+[VCPMovieAnalyzer MaxNumThumbnailsPerVideo]_block_invoke
+- ___44+[VCPMovieAnalyzer getMaximumHighlightInSec]_block_invoke
+- ___44+[VCPPhotosAutoCounterWorker _dumpFaceprint]_block_invoke
+- ___45+[VCPFaceAnalyzer _smallFaceWarningThreshold]_block_invoke
+- ___45+[VCPHandGestureMitigator getMinTiltingAngle]_block_invoke
+- ___45+[VCPMobileAssetManager isOTAFailTestEnabled]_block_invoke
+- ___45+[VCPMovieAnalyzer getEnableMovieHumanAction]_block_invoke
+- ___45+[VCPVideoStabilizer saveStabilizationRecipe]_block_invoke
+- ___46+[PHAsset(VCPPHFaces) vcp_usePHFaceExpression]_block_invoke
+- ___46+[VCPHandGestureMitigator getMinHandFaceRatio]_block_invoke
+- ___46+[VCPImageCaptionAnalyzer greedySearchEnabled]_block_invoke
+- ___46+[VCPPhotoAnalyzer isLivePhotoKeyFrameEnabled]_block_invoke
+- ___46+[VCPPreAnalyzer _enableSceneAssetConcurrency]_block_invoke
+- ___46+[VCPVideoKeyFrame isLivePhotoKeyFrameEnabled]_block_invoke
+- ___47+[VCPFreeFormSearch getHighSimilarityThreshold]_block_invoke
+- ___47+[VCPFreeFormSearch getMaxSimilarityDiffFor1UP]_block_invoke
+- ___47+[VCPFreeFormSearch getMinSimilarityHighRecall]_block_invoke
+- ___47+[VCPMediaAnalyzer _getDistanceDescriptorClass]_block_invoke
+- ___47+[VNImageBasedRequest(MediaAnalysis) _allowANE]_block_invoke
+- ___48+[VCPHandGestureMitigator getFaceExtensionRatio]_block_invoke
+- ___48+[VCPPhotosAutoCounterWorker _dumpAssetsToFaces]_block_invoke
+- ___48+[VNRequest(MediaAnalysis) mad_includeEntityNet]_block_invoke
+- ___49+[MADChangeRequest(Asset) _isLegacyResultEnabled]_block_invoke
+- ___50+[VCPFaceAnalyzer _downsampleBeforeFaceProcessing]_block_invoke
+- ___50+[VCPHandGestureMitigator getMinTiltingThumbAngle]_block_invoke
+- ___50+[VCPImageFaceDetector isLivePhotoKeyFrameEnabled]_block_invoke
+- ___50+[VCPImageHandsAnalyzer getInsetForRejectingHands]_block_invoke
+- ___50+[VCPMovieAnalyzer isHeuristicStickerScoreEnabled]_block_invoke
+- ___52+[VCPFullVideoAnalyzer useSceneprintInSceneAnalysis]_block_invoke
+- ___53+[MADEmbeddingStore includeAudioFusedVideoEmbeddings]_block_invoke
+- ___53+[VCPMovieHighlightAnalyzer getMinimumHighlightInSec]_block_invoke
+- ___54+[PHPhotoLibrary(MediaAnalysis) mad_clusterVideoFaces]_block_invoke
+- ___54+[VCPHandGestureMitigator getPalmScaleChangeThreshold]_block_invoke
+- ___54+[VCPImageCaptionAnalyzer writeSpatialEmbeddingToFile]_block_invoke
+- ___54+[VCPVideoKeyFrameAnalyzer isLivePhotoKeyFrameEnabled]_block_invoke
+- ___54+[VCPVideoThumbnailAnalyzer getMaxNumThumbnailsPerMin]_block_invoke
+- ___55+[VCPFaceAnalyzer _forwardCompatibleFaceSigmaThreshold]_block_invoke
+- ___55+[VCPHandGestureMitigator getPalmMoveDistanceThreshold]_block_invoke
+- ___56+[VCPFaceAnalyzer _forwardCompatibleTorsoSigmaThreshold]_block_invoke
+- ___56+[VCPHandGestureMitigator getHandMotionLookBackDuration]_block_invoke
+- ___57+[VCPVideoCNNAnalyzer isMLSettlingEffectPregatingEnabled]_block_invoke
+- ___58+[VCPImageCaptionAnalyzer useVCPMobileAssetAXCaptionModel]_block_invoke
+- ___59+[VCPFaceProcessingServiceWorker _similarityScoreThreshold]_block_invoke
+- ___59+[VCPMovieHighlightAnalyzer isHeuristicStickerScoreEnabled]_block_invoke
+- ___59+[VCPVideoAnalysisPipelineManager shouldUseGraphProcessing]_block_invoke
+- ___60+[VCPMovieCurationAnalyzer isSettlingEffectPregatingEnabled]_block_invoke
+- ___60-[VCPMADImageSafetyClassificationTask logMemoryWithMessage:]_block_invoke
+- ___61+[PHAsset(MediaAnalysisOCRProcessing) vcp_ocrGatingThreshold]_block_invoke
+- ___62+[PHAsset(MediaAnalysisComputeSync) mad_isComputeSyncDisabled]_block_invoke
+- ___62+[VCPPhotosSceneprintAssetProcessingTask _panoVNRequestMethod]_block_invoke
+- ___64+[PHAssetResource(MediaAnalysis) mad_disableComputeSyncDownload]_block_invoke
+- ___64+[VCPMovieHighlightAnalyzer isEnhancementByTranscriptionEnabled]_block_invoke
+- ___66+[PHAsset(MediaAnalysisVisualSearchProcessing) enableStickerScore]_block_invoke
+- ___67-[PHPhotoLibrary(MediaAnalysis) mad_pauseFCPeopleFurtherProcessing]_block_invoke
+- ___68+[VCPHandGestureMitigator getGestureTypeConsistencyLookBackDuration]_block_invoke
+- ___68+[VCPPhotosQuickFaceIdentificationManager _fastFaceMigrationEnabled]_block_invoke
+- ___69+[VCPFullAnalysisAssetProcessingTask AllowPersistSettlingEffectScore]_block_invoke
+- ___74-[MADEmbeddingStoreService checkSandboxExtensionForPhotoLibraryURL:error:]_block_invoke_2
+- ___74-[PHAsset(MediaAnalysisComputeSync) mad_isEligibleForComputeSyncIngestion]_block_invoke
+- ___89+[VCPPhotosFace _isColocatingAnimalObservation:withFaceObservations:orTorsoObservations:]_block_invoke
+- ___VCPBaseRetryIntervalSeconds_block_invoke
+- ___VCPMADUnifiedBackgroundProcessing_block_invoke
+- ___VCPPersonFaceVIPMatchingThreshold_block_invoke
+- ___block_descriptor_32_e22_v24?0"NSString"8^B16l
+- ___block_descriptor_32_e24_v32?0"NSValue"8Q16^B24l
+- ___block_descriptor_32_e25_v32?0"NSString"8Q16^B24l
+- ___block_descriptor_32_e29_v32?0"NSDictionary"8Q16^B24l
+- ___block_descriptor_32_e36_v32?0"MADTextEncoderInput"8Q16^B24l
+- ___block_descriptor_40_ea8_32s_e36_v24?0"MADManagedPhotosResult"8^B16l
+- ___block_descriptor_64_ea8_32s40s48bs56bs_e5_B8?0l
+- ___copy_helper_block_ea8_32s40s48b56b
+- _allowANE.allowed
+- _allowANE.once
+- _host_statistics64
+- _kMinDurationInSeconds
+- _mach_host_self
+- _objc_msgSend$_enableCoreDataMultithreadedAsserts
+- _objc_msgSend$createPrecompiledOp:isPrecompiled:functionName:computeUnits:aneVariantHint:
+- _objc_msgSend$databaseDirectoryURLForPhotoLibrary:embeddingType:
+- _objc_msgSend$initWithOptions:framesPerSync:frameLimit:sensitiveFrameCountThreshold:useUniformSampling:
+- _objc_msgSend$processIdentifier
+- _objc_msgSend$tokenSegments
+- _proc_pid_rusage
+- _similarityScoreThreshold.once
+- _similarityScoreThreshold.threshold
+- _vm_page_size
+- isCaptionOTAEnabled.isCaptionOTAEnabled
+- isCaptionOTAEnabled.once
+- isOTAFailTestEnabled.isOTAFailTestEnabled
+- isOTAFailTestEnabled.once
+- mad_includeEntityNet.include
+- mad_includeEntityNet.once
+- usePHAssetScene.once
+- usePHAssetScene.use
+CStrings:
++ "%@ Running ..."
++ "DedupeReasonMask"
++ "DedupeVersion"
++ "HistogramMatchPercentMilli"
++ "HistogramMaxCorrelationMilli"
++ "HistogramMinCorrelationMilli"
++ "NumberOfAssetsAttempted"
++ "NumberOfAssetsCanceled"
++ "NumberOfAssetsDownloaded"
++ "NumberOfAssetsFailed"
++ "NumberOfAssetsFetched"
++ "NumberOfAssetsIgnored"
++ "NumberOfAssetsIneligible"
++ "NumberOfBatchesProcessed"
++ "Text embedding invalid (empty or non-finite); failing input. version=%d extendedContext=%d truncated=%d length=%lu input=%@"
++ "Text embedding is empty or contains non-finite values"
++ "VCPIOSurfaceMemoryPoolID"
++ "[%@] Initialize with precompiled %d, computeUnits %lu, aneVariantHint %lu, aneExecutionPriority %lu, ioSurfaceMemoryPoolID %llu"
++ "[%@] Setting IOSurface memory pool ID to %llu"
++ "[MADEmbeddingStoreService] Failed to consume self-issued EmbeddingStore directory sandbox extension, falling back to XPC"
++ "[MADEmbeddingStore] nil photo library url provided"
++ "com.apple.fm.language.instruct_3b.fm_api_generic_2b"
+- " -> candidate face %@"
+- " -> face %@ and face %@"
+- "%0.2f MB"
+- "%@ %lu faces classified in %.5f seconds; %.5f second per face"
+- "%@ - Footprint: %@ Wired: %@"
+- "%@ -> managed result: %@"
+- "%@ Analysis types to delete: %@"
+- "%@ Analysis types to update: %@"
+- "%@ Checking cancellation during rebuilding (progress: %@)"
+- "%@ Creating managed result %@"
+- "%@ Running request %@ ..."
+- "%@ audio-fused video embeddings"
+- "%@ audio-fused video embeddings for searching"
+- "%@.eval"
+- "%@: Library (%@) %@ processing progress %.2f%% %@"
+- "./MediaAnalysis/MotionAnalysis.h"
+- "./MediaAnalysis/Vector.h"
+- "./Utilities/CFArray.h"
+- "./Utilities/CFUtilities.h"
+- "./Utilities/CGUtilities.h"
+- "./Utilities/CMUtilities.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/AdaptiveSegmentAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/AudioAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/AudioClassifier.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/AudioVideoEmbeddingFuser.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/BlurAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNANSTHandsBodyDetector.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNANSTHandsDetector.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNBlurAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNBlurAnalyzerEspresso.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNBlurAnalyzerMPS.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNConvBlock.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNConvBlockBinary.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNConvBlockGPU.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNConvBlockScalar.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNConvBlockVector.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNData.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNDataGPU.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNFaceLandmarkDetector.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNFaceLandmarkDetectorEspresso.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNFaceLandmarkDetectorMPS.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNFastGestureRecognition.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNFlattenBlock.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNFullConnectionBlock.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNFullConnectionBlockGPU.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNFullConnectionBlockScalar.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNGazeAnalysis.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNHandKeypointsDetector.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNHandKeypointsDetectorEspresso.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNHandsDetector.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNMLEnhancerEspresso.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNMLScalerEspresso.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNMLScalerEspressoV2.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNModel.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNModelEspresso.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNModelEspresso.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNModelEspressoV2.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNModelEspressoV2Data.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNPersonDetector.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNPersonKeypointsDetector.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNPetsDetector.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNPetsDetectorEspresso.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNPetsDetectorV2.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNPetsKeypointsDetector.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNPoolingBlock.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNPoolingBlockGPU.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNPoolingBlockVector.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNPoseEstimator.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNPoseEstimatorEspresso.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNPoseEstimatorMPS.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNSmileDetector.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNSmileDetectorEspresso.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNSmileDetectorMPS.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CNNVisionCore.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CVUtilities.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CameraMotionAnalysis.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CameraMotionSegment.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/Capture/Convexhull.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/Capture/LandmarkValidator.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/Capture/MatrixOperationsForFace.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/Capture/MovieCurationResults.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/Capture/ShapeModel.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/Capture/TensorModel.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/Capture/VCPCaptureAnalysisSession.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/Capture/VCPHumanPoseEspressoSession.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/Capture/VCPRTLandmarkDetector.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CommSafety/MADVideoSessionSafetyClassificationTask.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CommSafety/VCPMADImageSafetyClassificationTask.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CoreML/VCPCoreMLFeatureProviderGestureVideo.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CoreML/VCPHandGestureClassifier.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CoreML/VCPHandGestureImageRequest.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CoreML/VCPHandGestureMitigator.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CoreML/VCPHandGestureVideoRequest.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CoreML/VCPHandPoseImageRequest.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CoreML/VCPHandPoseVideoRequest.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CoreML/VCPHumanPoseImageRequest.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CoreML/VCPHumanPoseVideoRequest.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CoreML/VCPMotionFlowRequest.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/CoreML/VCPPetsPoseImageRequest.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/DescriptorAnalysis.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/DescriptorSegment.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/EdgeDetector.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/EmbeddingSummarizationAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/EncodeAnalysis.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/EncodeStats.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/EncodeStatsAVE1.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/EncodeStatsAVE2.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/EncodeStatsHW.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/EncodeStatsSW.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/ExifAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/FineSubjectMotionAnalysis.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/FineSubjectMotionSegment.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/Frame.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/FullVideoAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/GaborFilter.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/Histogram.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/Home/VCPHomeMaintenanceTask.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/HomeKitMotionAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/HoughTransform.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/Human.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/ImageAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/ImageBackboneAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/ImageBlurAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/ImageCaptionAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/ImageCompositionAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/ImageConverter.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/ImageDescriptor.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/ImageDescriptorWrapper.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/ImageExposureAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/ImageExposurePreAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/ImageFaceDetector.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/ImageFaceExpressionAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/ImageFaceQualityAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/ImageHandsAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/ImageHumanActionAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/ImageHumanPoseAnalyzer.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/ImageHumanPoseAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/ImageHumanPoseAnalyzerHolistic.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/ImageHumanPoseAnalyzerTopDown.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/ImageLivePhotoBlurAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/ImageManager.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/ImageMotionFlowAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/ImagePetsAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/ImagePetsKeypointsAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/ImageQualityAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/ImageSaliencyAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/ImageSaliencyAnalyzerBinary.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/ImageSaliencyAnalyzerFull.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/ImageSaliencyAnalyzerFullEspresso.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/ImageVisualGroundingAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/InterAssetAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/InterestingnessAnalysis.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/IrisAnalysis.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/JunkAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/LandmarkDetector.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/LightMotionAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/LightVideoAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/LivePhotoKeyFrameAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/LoudnessAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/MADContentClassificationAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/MADEmbeddingStore.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/MADImageASTCFormatReader.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/MADMovieBlastDoorAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/MADVectorDatabase.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/MADVideoEmbeddingCommon.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/MediaAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/MetaTrackDecoder.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/MotionFieldAnalysis.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/MotionFlow/VCPBackwarp.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/MotionFlow/VCPCorrelation.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/MotionFlow/VCPFlowDecoder.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/MotionFlow/VCPFlowFeatureExtractor.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/MotionFlow/VCPFlowUtils.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/MotionFlow/VCPMoFlowSingleEspresso.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/MotionFlow/VCPModelR2D2.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/MotionFlowAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/MotionFlowSubtleMotionAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/MotionSearch.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/MovieAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/MovieCurationAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/MovieHighlightAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/MovingObjectAnalysis.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/MovingObjectSegment.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/NSDictionary+MediaAnalysis.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/Object.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/ObjectDetection.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/ObjectTracking.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/ObstructionAnalysis.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/PHAssetResourceManager+MediaAnalysis.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/ParallaxAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/PhotoAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/Photos/Face/VCPMADPersonIdentificationTask.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/Photos/VCPFaceAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/Photos/VCPFaceCropManager.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/Photos/VCPFaceProcessingVersionManager.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/Photos/VCPFaceUtils.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/Photos/VCPFullAnalysisAssetProcessingTask.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/Photos/VCPFullAnalysisURLProcessingTask.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/Photos/VCPPhotosAutoCounterWorker.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/Photos/VCPPhotosFace.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/Photos/VCPPhotosQuickFaceDetectionManager.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/Photos/VCPPhotosQuickFaceIdentificationManager.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/Photos/VCPPhotosSceneprintAssetProcessingTask.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/Photos/VCPSceneProcessingImageManager.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/Photos/VCPVideoStabilizationAssetProcessingTask.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/PhotosDataStore/MADChangeRequest+PersistentHistory.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/PhotosDataStore/MADChangeRequest+ProcessingStatus.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/PhotosDataStore/MADFetchRequest+BackgroundAnalysisProgressHistory.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/PhotosDataStore/MADManagedProcessingStatus.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/PnPSolver.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/QualityAnalysis.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/RotationAnalysis.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/RotationSegment.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/Rotator.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/Scaler.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/SceneAnalysis.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/SceneChangeAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/Segment.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/Service/MADPersonalizedEmbeddingTask.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/Service/MADTextEmbeddingTask.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/Service/VCPMADServiceImageAsset.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/SlowMotionAnalysis.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/SmartStyleMetaAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/SongDetector.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/SpeechAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/StillImageMetaAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/SubjectMotionAnalysis.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/SubjectMotionSegment.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/SubtleMotionAnalysis.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/SubtleMotionSegment.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/TrackSegment.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/TrackingAnalysis.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/Transforms.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VCPAnalysisProgressQuery.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VCPColorNormalizationAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VCPContentAnalysis.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VCPDownloadManager.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VCPFrameAnalysisStats.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VCPInternetReachability.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VCPPoolBasedPixelBufferCreator.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VCPPreAnalysisImage.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VCPPreAnalysisImageLoader.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VCPPreAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VCPPriorityAnalysis.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VCPSceneprintDescriptor.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VCPSceneprintDescriptorWrapper.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VCPSimpleMovieAssetWriter.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VCPTimeMeasurement.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VCPURLAsset.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VCPVideoEmbeddings.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VCPWallpaperAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VanishingPointDetector.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoActivityAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoActivityDescriptor.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoAnalysisCommon.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoAnimalDetector.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoCNNActionClassifier.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoCNNAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoCNNAutoplay.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoCNNBackbone.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoCNNCameraMotion.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoCNNHighlight.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoCNNQuality.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoCaptionAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoCaptionEncoder.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoFaceMeshAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoFacePoseAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoFacePoseFilter.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoFullFaceDetector.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoGlobalAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoGyroStabilizer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoHumanActionAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoKeyFrame.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoKeyFrameAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoLightFaceDetector.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoMetaFaceAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoMetaFocusAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoMetaLivePhotoMetaAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoMetaMotionAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoMetaOrientationAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoMetaSegmentAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoObjectTracker.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoPersonDetector.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoPetsActionAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoPetsAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoPixelStabilizer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoProcessor/VCPVideoProcessor.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoProcessor/VCPVideoProcessorSession.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoProcessor/VCPVideoSyncFrameDecoder.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoSafetyClassifier.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoSaliencyAnalyzer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoSceneClassifier.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoSearch/FreeFormSearch.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoSearch/TextEncoder.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoSearch/VideoRanker.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoStabilizer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoTrackStandardDecoder.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoTrackSubsamplingDecoder.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoTrackSyncDecoder.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VideoTransformerBackbone.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VisualIntelligence/MADHEICSAlphaSequenceTranscoder.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VisualIntelligence/MADHEICSAlphaSequenceWriter.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VisualIntelligence/MADHEVCAlphaSequenceWriter.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VisualIntelligence/MADPNGAlphaSequenceWriter.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VisualIntelligence/MADVideoRemoveBackgroundCropTask.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VisualIntelligence/VCPMADImageCaptionTask.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VisualIntelligence/VCPMADImageEmbeddingTask.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VisualIntelligence/VCPMADMLEnhancementTask.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VisualIntelligence/VCPMADMLScalingTask.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VisualIntelligence/VCPMADVIDocumentRecognitionTask.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VisualIntelligence/VCPMADVIFaceTask.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VisualIntelligence/VCPMADVIMachineReadableCodeDetectionTask.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VisualIntelligence/VCPMADVIRectangleDetectionTask.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VisualIntelligence/VCPMADVISceneClassificationTask.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VoiceDetector.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/MediaAnalysis/VoiceDetectorV2.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/iCloud/MediaAnalysis/Image/MAImageAnalysisRequest.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/iCloud/MediaAnalysis/MAComputeRequest.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/iCloud/MediaAnalysis/Movie/MAAssetByteStream.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/iCloud/MediaAnalysis/Movie/MAMovieAnalysisRequest.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/iCloud/Proto/MAImageComputeResult+CFDictionary.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/iCloud/Proto/VCPProtoImageHumanPoseResult+CFDictionary.cpp"
+- "ANSTHandExtendRatio"
+- "AllowPersistSettlingEffectScore"
+- "AnimalHumanColocationThreshold"
+- "Apply Sharpness Model V1"
+- "Apply Sharpness Model V2"
+- "AsyncAudio"
+- "AudioVideoEmbeddingFusion"
+- "AutoCounterDumpAssetsToFaces"
+- "AutoCounterDumpFaceprint"
+- "Base retry interval override (%lu seconds)"
+- "BaseRetryInterval"
+- "CIBicubic"
+- "CILanczos"
+- "CaptionModelOTA"
+- "ClusterVideoFaces"
+- "Compute sync %@ via MA defaults DisableComputeSync"
+- "Compute sync %@ via Photos defaults PLCCSSDisableComputeSyncUpload"
+- "Compute sync payload ingestion %@ via MA defaults DisableComputeSyncPayloadIngestion"
+- "Compute sync payload ingestion %@ via Photos defaults PLCCSSDisableComputeSyncDownload"
+- "Compute sync resource download %@ via defaults"
+- "Defaults override person face VIP matching threshold: %f"
+- "Defaults overwrites PersonFaceVIPMaximumTrainingFaceprintsPerIdentity: %lu"
+- "Defaults overwrites person face VIP training face fetch limit: %lu"
+- "Defaults overwrites to %@able Greymatter features"
+- "Defaults overwrites to %@able Greymatter features on non-ANE device; ignoring"
+- "Defaults write set AutoCounter %s dump Faceprint"
+- "Defaults write set AutoCounter %s dump assets-to-faces details"
+- "Defaults write set ProbableRotation %s"
+- "Disable"
+- "Disable sticker score generation"
+- "DisableANEForFaceAnalysis"
+- "DisableANEForSceneAnalysis"
+- "DisableComputeSync"
+- "DisableComputeSyncDownload"
+- "DisableComputeSyncPayloadIngestion"
+- "Do"
+- "Do not"
+- "DominantObjectDetection"
+- "DownsampleBeforeFaceProcessing"
+- "Enable"
+- "Enable human action on Photos movie assets"
+- "EnableFaceprintFastMode"
+- "EnableGreymatterSupport"
+- "EnableMACDLegacyResult"
+- "EnableMLMotionField"
+- "EnableProgressReporting"
+- "EnableSceneAssetConcurrency"
+- "EnableStickerScore"
+- "Exclude"
+- "ExportReencodedJPEG"
+- "FCFaceSigma"
+- "FCTorsoSigma"
+- "Face analysis - PHFace expression can only be used with PHFace"
+- "Face analysis - skip using PHFace from PHAsset"
+- "Face analysis - use PHFace expression from PHAsset"
+- "Face priority with people label threshold %.2f"
+- "FacePriorityThreshold"
+- "Failed to query library (%@) %@ processing progress (error code: %d)"
+- "FastFaceMigration"
+- "Gesture classifier - disable flip inference"
+- "Gesture classifier - enable flip inference"
+- "GestureClassifierFlip"
+- "GestureFaceExtensionRatio"
+- "GestureHandMotionLookBackDuration"
+- "GestureMinHandFaceRatio"
+- "GestureMinTiltingAngle"
+- "GestureMinTiltingThumbAngle"
+- "GesturePalmMoveDistanceThreshold"
+- "GesturePalmScaleChangeThreshold"
+- "GestureTypeConsistencyLookBackDuration"
+- "GraphVideoProcessing"
+- "HighSimilarityThreshold"
+- "HighlightEnhancementByTranscription"
+- "Human action - force person detection"
+- "HumanActionForcePersonDetection"
+- "HumanKeypoints"
+- "Include"
+- "IncludeCN"
+- "IncludeDMF"
+- "IncludeDocument"
+- "IncludeEN"
+- "IncludeGV"
+- "IncludeIVS"
+- "IncludeJunk"
+- "IncludeLandmark"
+- "IncludeMeme"
+- "IncludeNSFW"
+- "IncludePA"
+- "IncludeSDG"
+- "IncludeTaboo"
+- "IncludeWallpaperRequest"
+- "Including Pre Analysis VNRequests (%lu): %@"
+- "InsetForRejectingHands"
+- "Invalid text encoder limit specified by defaults (%@), ignoring"
+- "JunkR14J9"
+- "Library understanding - isBridgeVersionCompatible is temporarily set to YES for MD8 enablement <rdar://174019249>"
+- "Live photo effects - skip using PHSceneClassification from PHAsset"
+- "LogImageManager"
+- "LogImageSafetyMemory"
+- "MACD legacy result table is %sabled"
+- "MADDownscalingMode"
+- "MADDownscalingMode: %ld"
+- "MLHighlight"
+- "MLSettlingEffectPregating"
+- "MUBackbone"
+- "MaxNumThumbnailsPerMin"
+- "MaxNumThumbnailsPerVideo"
+- "MaximumHighlightInSec"
+- "MediaAnalyzer : use maxSimilarityDiff = %f"
+- "MiCaCaptionGreedySearch"
+- "MiCaCaptionGreedySearch %s enabled"
+- "MinSimilarity"
+- "MinSimilarityOneToken"
+- "MinimumHighlightInSec"
+- "Movie Highlight - use ML based approach"
+- "MovieHumanAction"
+- "NoResultStrip"
+- "OCR gating threshold set to %0.2f via default"
+- "OCRGatingThreshold"
+- "OTAFailTest"
+- "PHAssetFace"
+- "PHAssetFaceExpression"
+- "PHAssetScene"
+- "PHAssetSceneprint"
+- "PLCCSSDisableComputeSyncDownload"
+- "PLCCSSDisableComputeSyncUpload"
+- "PanoVNRequestMethod"
+- "PauseAfterFCPeople"
+- "PauseAfterFCPeople is overwritten to %@"
+- "Persist audio embedding to MA DB"
+- "PersistAudioEmbedding"
+- "PersonFaceVIPMatchingThreshold"
+- "PersonFaceVIPMaximumTrainingFaceprintsPerIdentity"
+- "PersonFaceVIPTrainingFaceFetchLimit"
+- "ProbableRotation"
+- "QuickFaceID Pet: defaults writes VIPPetClassificationThreshold to %f"
+- "QuickFaceID [FastMigration]: defaults write is set %s"
+- "SaliencyObjectnessDetection"
+- "SaveStabilizationRecipe"
+- "ScreenProgress"
+- "SearchTesting"
+- "SettlingEffectPregating"
+- "SharpnessModel"
+- "SimilarityScoreThreshold"
+- "SmallFaceWarningThreshold"
+- "StickerScoreV2"
+- "StickersAutoplayTrim"
+- "StickersPreferredThreshold_LowQualityProportion"
+- "StickersPreferredThreshold_Photos"
+- "StickersPreferredThreshold_VideoQuality"
+- "StickersPreferredThreshold_WorstFrameScore"
+- "StickersTrimMininumDuration"
+- "StickersTrimThreshold"
+- "StickersTrimWindow"
+- "StickersVisionTrim"
+- "Supported options: 0 - URL, 1 - FullBuffer, 2 - ScaledBuffer"
+- "Text encoder limit overriden by defaults (%@ --> %@)"
+- "TextEncoderLimit"
+- "UnifiedBackgroundProcessing"
+- "Unknown revision; apply Sharpness Model V%lu"
+- "Unsupported PanoVNRequestMethod (%lu); using default (URL)"
+- "Use customized similarity score threshold %.3f for people suggestion"
+- "Use default extend ratio = 0.25 for ANST hand boxes"
+- "Use default inset = 0.08 for rejecting hands near boundaries"
+- "Use default minHandFaceRatio = 1.2f for mitigation"
+- "Use default similarity score threshold %.3f for people suggestion"
+- "Use extend ratio = %f for ANST hand detection boxes"
+- "Use face extension = %f for mitigation"
+- "Use face extension = 0.4f for mitigation"
+- "Use gesture type consistency look back duration = %f seconds (default). Up to 1.0s, step by 0.2s."
+- "Use gesture type consistency look back duration = %f seconds. Up to 1.0s, step by 0.2s."
+- "Use hand motion look back duration = %f seconds (default) for high motion mitigation. Up to 1.0s, step by 0.2s."
+- "Use hand motion look back duration = %f seconds for high motion mitigation. Up to 1.0s, step by 0.2s."
+- "Use inset = %f for rejecting hands near boundaries"
+- "Use minHandFaceRatio = %f for mitigation"
+- "Use palm center move distance = %f (default) relative to palm size for high motion mitigation"
+- "Use palm center move distance = %f relative to palm size for high motion mitigation"
+- "Use palm size change = %f (default) relative to last palm size for high motion mitigation - depth"
+- "Use palm size change = %f relative to last palm size for high motion mitigation - depth"
+- "UseAudioFusedEmbeddingForSearch"
+- "UseCSULanguageEncoder"
+- "UseSceneprintDistance"
+- "V1"
+- "V2"
+- "VCPAnalysisProgressQueryReportProgressForPhotoLibrary"
+- "VILanczos"
+- "VIPPetClassificationThreshold"
+- "VideoCaptionMode"
+- "VideoSearchOneUpIncludeTorsoOnly"
+- "WriteSpatialEmbeddingToFile"
+- "WriteSpatialEmbeddingToFile %s enabled"
+- "[%@] Initialize with precompiled %d, computeUnits %lu, aneVariantHint %lu, aneExecutionPriority %lu"
+- "[CoreAnalyticManager] Accumulating field %@ for event %@"
+- "[CoreAnalyticManager] Sending low-level session event %@ (%lu) - %@"
+- "[CoreAnalyticManager] Sending session event %@ (%lu) - %@"
+- "[CoreAnalyticManager] Sending single event %@ (%lu) - %@"
+- "[CoreAnalyticManager] Sent %@ (%lu)"
+- "[CoreAnalyticManager] Setting field %@ for event %@"
+- "[FaceAnalyzer] EnableFaceprintFastMode: %@"
+- "[FaceAnalyzer] FCFaceSigma overwrite: %.3f"
+- "[FaceAnalyzer] FCTorsoSigma overwrite: %.3f"
+- "[FaceAnalyzer] SmallFaceWarningThreshold overwrite: %d"
+- "[ImageManagerEncode] %@ export reencoded JPEG via default"
+- "[LOG_ERROR] %s[%d]: code %d\n"
+- "[MADEmbeddingStore] nil photo library provided"
+- "[MediaAnalysis] Human pose analysis - save keypoints"
+- "[MediaAnalysis] Sceneprint data - skip fetching from PHAsset"
+- "[MediaAnalysis] disable MUBackbone"
+- "[MediaAnalysis] enable MUBackbone"
+- "[MediaAnalysis] enable highlight enhancement leveraging audio transcription"
+- "[MediaAnalysis] run non-ML settling effect pregating"
+- "[MediaAnalysis] run settling effect pregating"
+- "[MediaAnalysis] save pixel-based recipe regardless of confidence"
+- "[MediaAnalysis] set AdaptiveSegment type"
+- "[MergeAnalysis][%@] Merging A: %@"
+- "[MergeAnalysis][%@] Merging B: %@"
+- "[MobileAssetManager] OTAFailTest enabled"
+- "[MobileAssetManager] disable CaptionModelOTA"
+- "[MobileAssetManager] enable CaptionModelOTA"
+- "[Override] Unified background processing %s"
+- "[Perf] Memory usage: %@"
+- "[PersonSuggestionVU] Excluded person: %@"
+- "[PersonSuggestionVU] Similar entity person: %@"
+- "[PersonSuggestionVU] To-be-confirmed suggestion %@"
+- "[PersonSuggestionVU] To-be-rejected suggestion %@"
+- "[PhotosFace] Overwriting animal/human co-location threshold to %f"
+- "[TextEncoderInputs][Adjusted] personStringIndex %d, Final personalizationIndex %d"
+- "[TextEncoderInputs][Adjusted][%lu] %@"
+- "[TextEncoderInputs][raw] personStringIndex %d, personalizationIndex %d"
+- "[TextEncoderInputs][raw][%lu] %@"
+- "[TextEncoderOutput.Segments][%lu] %@"
+- "[VCPFaceMerger] %lu sorted candidate (geometry-based) for face %@"
+- "[VCPFaceMerger] Detected face: %@"
+- "[VCPFaceMerger] Existing face: %@"
+- "[VCPFaceMerger] Merged %lu pair(s) (geometry-based)"
+- "[VCPFaceMerger] Merged %lu pair(s) (image-print-based)"
+- "[VCPMovieAnalyzer] Async audio is %@"
+- "[VCPVideoAnalysisPipelineManager] Using Graph for processing"
+- "[VCPVideoAnalysisPipelineManager] Using basic queues for processing"
+- "[VideoCaption] Unsupported VideoCaptionMode (%@) from defaults write; keep VideoCaptionMode %ld"
+- "[VideoSceneClassifier] Accepting scene classification: %@ %.3f"
+- "always use default legacy hand pose model"
+- "com.apple.fm.language.instruct_3b.fm_api_generic"
+- "dis"
+- "en"
+- "enableHandsLitePoseForVision"
+- "gesture: min finger tilting angle %f * M_PI"
+- "gesture: min finger tilting thumb angle %f * M_PI"
+- "input height: %d, target height: %d"
+- "input pixelFormat: %u, preferred: %u"
+- "input width: %d, target width: %d"
+- "is"
+- "is not"
+- "low performant operation at %s[line:%d]"
+- "minSimilarityDiffOneUp"
+- "not to"
+- "region of interest: %@"
+- "to"
+- "use lite hand pose model"
+- "useSceneprintInSceneAnalysis"
+- "useVCPMobileAssetAXCaptionModel"
+- "useVCPMobileAssetAXCaptionModel %s enabled"
+- "v32@?0@\"MADTextEncoderInput\"8Q16^B24"
+- "v32@?0@\"NSString\"8Q16^B24"
+- "v32@?0@\"NSValue\"8Q16^B24"
+```

@@ -1,0 +1,548 @@
+## _USDKit_RealityKit
+
+> `/System/Library/Frameworks/_USDKit_RealityKit.framework/Versions/A/_USDKit_RealityKit`
+
+```diff
+
+-106.0.7.0.0
+-  __TEXT.__text: 0x119b9c
++106.1.1.0.0
++  __TEXT.__text: 0x12118c
+   __TEXT.__objc_methlist: 0x5ec
+-  __TEXT.__const: 0x68b8
+-  __TEXT.__gcc_except_tab: 0x9280
+-  __TEXT.__constg_swiftt: 0x1c24
+-  __TEXT.__swift5_typeref: 0x1c0d
++  __TEXT.__const: 0x6ab8
++  __TEXT.__gcc_except_tab: 0x95e8
++  __TEXT.__constg_swiftt: 0x1cd0
++  __TEXT.__swift5_typeref: 0x1c93
+   __TEXT.__swift5_builtin: 0x104
+-  __TEXT.__swift5_reflstr: 0x20ef
+-  __TEXT.__swift5_fieldmd: 0x1ff4
+-  __TEXT.__swift5_capture: 0x364
+-  __TEXT.__cstring: 0xbe33
+-  __TEXT.__swift5_proto: 0x1c0
+-  __TEXT.__swift5_types: 0x1e8
++  __TEXT.__swift5_reflstr: 0x220f
++  __TEXT.__swift5_fieldmd: 0x20bc
++  __TEXT.__swift5_capture: 0x398
++  __TEXT.__cstring: 0xc240
++  __TEXT.__swift5_proto: 0x1d8
++  __TEXT.__swift5_types: 0x1f0
+   __TEXT.__swift5_types2: 0xc
+-  __TEXT.__swift_as_entry: 0xac
+-  __TEXT.__swift_as_ret: 0xf8
+-  __TEXT.__swift_as_cont: 0x1ac
+-  __TEXT.__oslogstring: 0x1ce5
+-  __TEXT.__swift5_assocty: 0x170
++  __TEXT.__swift_as_entry: 0xbc
++  __TEXT.__swift_as_ret: 0x104
++  __TEXT.__swift_as_cont: 0x1bc
++  __TEXT.__oslogstring: 0x1e0e
++  __TEXT.__swift5_assocty: 0x1a0
+   __TEXT.__swift5_protos: 0x8
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x3cf8
+-  __TEXT.__eh_frame: 0x63a0
++  __TEXT.__unwind_info: 0x3e20
++  __TEXT.__eh_frame: 0x6568
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x538
+-  __DATA_CONST.__objc_classlist: 0x88
++  __DATA_CONST.__objc_classlist: 0x90
+   __DATA_CONST.__objc_protolist: 0x70
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__weak_got: 0x10
+   __DATA_CONST.__objc_selrefs: 0x540
+   __DATA_CONST.__objc_protorefs: 0x38
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x5980
+-  __AUTH_CONST.__cfstring: 0x80
+-  __AUTH_CONST.__objc_const: 0x2478
++  __AUTH_CONST.__const: 0x5a98
++  __AUTH_CONST.__cfstring: 0x60
++  __AUTH_CONST.__objc_const: 0x2568
+   __AUTH_CONST.__weak_auth_got: 0x50
+-  __AUTH_CONST.__auth_got: 0x28c0
+-  __AUTH.__objc_data: 0x1e0
++  __AUTH_CONST.__auth_got: 0x2958
++  __AUTH.__objc_data: 0x230
+   __AUTH.__tf_func: 0xc0
+-  __AUTH.__data: 0x2480
+-  __DATA.__data: 0x1700
+-  __DATA.__bss: 0x3a38
+-  __DATA.__common: 0x388
++  __AUTH.__data: 0x2590
++  __DATA.__data: 0x1760
++  __DATA.__bss: 0x3d40
++  __DATA.__common: 0x3a8
+   __DATA_DIRTY.__tf_func: 0x0
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+   - /System/Library/Frameworks/Combine.framework/Versions/A/Combine
+
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/usd/libusd_ms.dylib
+-  Functions: 3890
+-  Symbols:   10124
+-  CStrings:  1029
++  Functions: 3966
++  Symbols:   10330
++  CStrings:  1055
+ 
+Symbols:
++ $s10RealityKit6EntityC12ComponentSetV0A10FoundationE9optimizedxSgxm_tcAA0D0RzluiM08_USDKit_aB008USDStageD0V_Ttg5.resume
++ $s10RealityKit6EntityC12ComponentSetV0A10FoundationE9optimizedxSgxm_tcAA0D0RzluiM08_USDKit_aB008UsdStageD0V_Ttg5.resume.0Tm
++ $s12HdRealityKit18HydraDeferredTasksC17maxTextureThreadsSivMZ.resume
++ $s6USDKit8UsdStageV01_A11_RealityKitE0B14RC2FeatureInfoV25hasVertexShaderConnectionSbvM.resume
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.22TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.22Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.80TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.80Tu
++ GCC_except_table120
++ GCC_except_table125
++ GCC_except_table132
++ GCC_except_table140
++ GCC_except_table146
++ GCC_except_table147
++ GCC_except_table163
++ GCC_except_table164
++ GCC_except_table169
++ GCC_except_table173
++ GCC_except_table18
++ GCC_except_table185
++ GCC_except_table187
++ GCC_except_table209
++ GCC_except_table217
++ GCC_except_table238
++ GCC_except_table245
++ GCC_except_table266
++ GCC_except_table273
++ GCC_except_table279
++ GCC_except_table288
++ GCC_except_table293
++ GCC_except_table294
++ GCC_except_table302
++ GCC_except_table317
++ GCC_except_table323
++ GCC_except_table343
++ GCC_except_table349
++ GCC_except_table353
++ GCC_except_table359
++ GCC_except_table371
++ GCC_except_table375
++ GCC_except_table377
++ GCC_except_table383
++ GCC_except_table384
++ GCC_except_table385
++ GCC_except_table390
++ GCC_except_table395
++ GCC_except_table401
++ GCC_except_table404
++ GCC_except_table405
++ GCC_except_table410
++ GCC_except_table413
++ GCC_except_table414
++ GCC_except_table415
++ GCC_except_table416
++ GCC_except_table417
++ GCC_except_table439
++ GCC_except_table444
++ GCC_except_table445
++ GCC_except_table447
++ GCC_except_table449
++ GCC_except_table453
++ GCC_except_table455
++ GCC_except_table457
++ GCC_except_table459
++ GCC_except_table461
++ GCC_except_table483
++ GCC_except_table519
++ GCC_except_table527
++ GCC_except_table536
++ GCC_except_table537
++ GCC_except_table538
++ GCC_except_table539
++ GCC_except_table560
++ GCC_except_table565
++ GCC_except_table76
++ _$s10Foundation4DataV6appendyyACF
++ _$s10RealityKit5SceneC0A10FoundationE12performQueryyAD0F6ResultVyAA6EntityCGAD0hF0VF
++ _$s10RealityKit6EntityC08_USDKit_aB0E11findUSDRoot4withACSgSS_tF
++ _$s10RealityKit6EntityC12ComponentSetV0A10FoundationE4loadyxSgxmAA0D0RzlF
++ _$s10RealityKit6EntityC12ComponentSetV0A10FoundationE5store_8newValueyxm_xSgtAA0D0RzlF
++ _$s10RealityKit6EntityC12ComponentSetV0A10FoundationE6borrowyxSgxmAA0D0RzlF
++ _$s10RealityKit6EntityC12ComponentSetV0A10FoundationE7restore_8newValueyxm_xSgtAA0D0RzlF
++ _$s10RealityKit6EntityC12ComponentSetV0A10FoundationE9optimizedxSgxm_tcAA0D0RzluiM08_USDKit_aB008USDStageD0V_Ttg5
++ _$s12HdRealityKit0A13RKitMeshSwiftC0A9CullStyleO8rawValueAESgs5Int32V_tcfCTf4nd_n
++ _$s12HdRealityKit0A13RKitMeshSwiftC0A9CullStyleOAESQAAWL
++ _$s12HdRealityKit0A13RKitMeshSwiftC0A9CullStyleOAESQAAWl
++ _$s12HdRealityKit0A13RKitMeshSwiftC0A9CullStyleOMF
++ _$s12HdRealityKit0A13RKitMeshSwiftC0A9CullStyleOMa
++ _$s12HdRealityKit0A13RKitMeshSwiftC0A9CullStyleOMf
++ _$s12HdRealityKit0A13RKitMeshSwiftC0A9CullStyleOMn
++ _$s12HdRealityKit0A13RKitMeshSwiftC0A9CullStyleON
++ _$s12HdRealityKit0A13RKitMeshSwiftC0A9CullStyleOSHAAMc
++ _$s12HdRealityKit0A13RKitMeshSwiftC0A9CullStyleOSHAAMcMK
++ _$s12HdRealityKit0A13RKitMeshSwiftC0A9CullStyleOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s12HdRealityKit0A13RKitMeshSwiftC0A9CullStyleOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s12HdRealityKit0A13RKitMeshSwiftC0A9CullStyleOSHAASH9hashValueSivgTW
++ _$s12HdRealityKit0A13RKitMeshSwiftC0A9CullStyleOSHAASQWb
++ _$s12HdRealityKit0A13RKitMeshSwiftC0A9CullStyleOSQAAMc
++ _$s12HdRealityKit0A13RKitMeshSwiftC0A9CullStyleOSQAAMcMK
++ _$s12HdRealityKit0A13RKitMeshSwiftC0A9CullStyleOSQAASQ2eeoiySbx_xtFZTW
++ _$s12HdRealityKit0A13RKitMeshSwiftC0A9CullStyleOSYAAMA
++ _$s12HdRealityKit0A13RKitMeshSwiftC0A9CullStyleOSYAAMc
++ _$s12HdRealityKit0A13RKitMeshSwiftC0A9CullStyleOSYAAMcMK
++ _$s12HdRealityKit0A13RKitMeshSwiftC0A9CullStyleOSYAASY8rawValue03RawJ0QzvgTW
++ _$s12HdRealityKit0A13RKitMeshSwiftC0A9CullStyleOSYAASY8rawValuexSg03RawJ0Qz_tcfCTW
++ _$s12HdRealityKit0A13RKitMeshSwiftC0A9CullStyleOWV
++ _$s12HdRealityKit0A13RKitMeshSwiftC0A9CullStyleOwet
++ _$s12HdRealityKit0A13RKitMeshSwiftC0A9CullStyleOwst
++ _$s12HdRealityKit0A13RKitMeshSwiftC0A9CullStyleOwug
++ _$s12HdRealityKit0A13RKitMeshSwiftC0A9CullStyleOwui
++ _$s12HdRealityKit0A13RKitMeshSwiftC0A9CullStyleOwup
++ _$s12HdRealityKit0A13RKitMeshSwiftC11faceCulling33_6DA3A3A627F16DD90B126E934FD07458LL12forCullStyle0B10Foundation22MaterialParameterTypesV04FaceH0OSgAC0arS0O_tF
++ _$s12HdRealityKit0A13RKitMeshSwiftC13buildSkeleton0B10Foundation0E10DescriptorV10descriptor_AE0eH0V8skeletontyF
++ _$s12HdRealityKit0A13RKitMeshSwiftC14getFaceCulling33_6DA3A3A627F16DD90B126E934FD07458LL0B10Foundation22MaterialParameterTypesV0hI0OyF
++ _$s12HdRealityKit0A13RKitMeshSwiftC14mPrimCullStyleAC0ahI0OvpWvd
++ _$s12HdRealityKit0A13RKitMeshSwiftC14mPrimCullStyleAC0ahI0Ovpfi
++ _$s12HdRealityKit0A13RKitMeshSwiftC16mGlobalCullStyleAC0ahI0OvpWvd
++ _$s12HdRealityKit0A13RKitMeshSwiftC16mGlobalCullStyleAC0ahI0Ovpfi
++ _$s12HdRealityKit0A13RKitMeshSwiftC16setPrimCullStyleyys5Int32VF
++ _$s12HdRealityKit0A13RKitMeshSwiftC18setGlobalCullStyleyys5Int32VF
++ _$s12HdRealityKit0bC17HydraPrimDelegateC15renderToTexture_05depthI05width6height16activeCameraPath16projectionMatrix04viewQ017completionHandlerySo10MTLTexture_p_SoAL_pSgS2iSSSaySo8NSNumberCGSgAQySbctF39$s10ObjectiveC8ObjCBoolVIeyBy_SbIegy_TR0X1C0Z5CBoolVIeyBy_Tf1nnnnnnnEn_n
++ _$s12HdRealityKit13HydraRendererC20setMaxTextureThreadsyySiF
++ _$s12HdRealityKit13HydraRendererC20setMaxTextureThreadsyySiFTq
++ _$s12HdRealityKit13HydraRendererCACycfcyyYaYbScMYccfU1_
++ _$s12HdRealityKit13HydraRendererCACycfcyyYaYbScMYccfU1_TA
++ _$s12HdRealityKit13HydraRendererCACycfcyyYaYbScMYccfU1_TATQ0_
++ _$s12HdRealityKit13HydraRendererCACycfcyyYaYbScMYccfU1_TATu
++ _$s12HdRealityKit13HydraRendererCACycfcyyYaYbScMYccfU1_TY0_
++ _$s12HdRealityKit13HydraRendererCACycfcyyYaYbScMYccfU1_Tu
++ _$s12HdRealityKit18HydraDeferredTasksC17maxTextureThreadsSivMZ
++ _$s12HdRealityKit18HydraDeferredTasksC17maxTextureThreadsSivau
++ _$s12HdRealityKit18HydraDeferredTasksC17maxTextureThreadsSivgZ
++ _$s12HdRealityKit18HydraDeferredTasksC17maxTextureThreadsSivpZ
++ _$s12HdRealityKit18HydraDeferredTasksC17maxTextureThreadsSivpZMV
++ _$s12HdRealityKit18HydraDeferredTasksC17maxTextureThreadsSivsZ
++ _$s12HdRealityKit18HydraDeferredTasksC30processTexturesFromMTLTexturesyyYaFyScGyytGzYaXEfU0_
++ _$s12HdRealityKit18HydraDeferredTasksC30processTexturesFromMTLTexturesyyYaFyScGyytGzYaXEfU0_TA
++ _$s12HdRealityKit18HydraDeferredTasksC30processTexturesFromMTLTexturesyyYaFyScGyytGzYaXEfU0_TATQ0_
++ _$s12HdRealityKit18HydraDeferredTasksC30processTexturesFromMTLTexturesyyYaFyScGyytGzYaXEfU0_TATu
++ _$s12HdRealityKit18HydraDeferredTasksC30processTexturesFromMTLTexturesyyYaFyScGyytGzYaXEfU0_TQ1_
++ _$s12HdRealityKit18HydraDeferredTasksC30processTexturesFromMTLTexturesyyYaFyScGyytGzYaXEfU0_TY0_
++ _$s12HdRealityKit18HydraDeferredTasksC30processTexturesFromMTLTexturesyyYaFyScGyytGzYaXEfU0_TY2_
++ _$s12HdRealityKit18HydraDeferredTasksC30processTexturesFromMTLTexturesyyYaFyScGyytGzYaXEfU0_Tu
++ _$s12HdRealityKit18HydraDeferredTasksC30processTexturesFromMTLTexturesyyYaFyScGyytGzYaXEfU0_yyYacfU_
++ _$s12HdRealityKit18HydraDeferredTasksC30processTexturesFromMTLTexturesyyYaFyScGyytGzYaXEfU0_yyYacfU_TA
++ _$s12HdRealityKit18HydraDeferredTasksC30processTexturesFromMTLTexturesyyYaFyScGyytGzYaXEfU0_yyYacfU_TATQ0_
++ _$s12HdRealityKit18HydraDeferredTasksC30processTexturesFromMTLTexturesyyYaFyScGyytGzYaXEfU0_yyYacfU_TATu
++ _$s12HdRealityKit18HydraDeferredTasksC30processTexturesFromMTLTexturesyyYaFyScGyytGzYaXEfU0_yyYacfU_TY0_
++ _$s12HdRealityKit18HydraDeferredTasksC30processTexturesFromMTLTexturesyyYaFyScGyytGzYaXEfU0_yyYacfU_Tu
++ _$s15Synchronization6AtomicVMn
++ _$s17RealityFoundation11MeshBuffersO10IdentifierV3key_AA03AnyC6BufferV5valuetWObTm
++ _$s17RealityFoundation11MeshBuffersO4RateO4meshyA2EmFWC
++ _$s17RealityFoundation12LowLevelMeshC10DescriptorV13vertexLayoutsSayAC6LayoutVGvs
++ _$s17RealityFoundation12LowLevelMeshC6LayoutV11bufferIndex0G6Offset0G6Stride12stepFunction0K4RateAESi_S2iSo013MTLVertexStepL0VSitcfC
++ _$s17RealityFoundation12LowLevelMeshC9AttributeV_AEtMR
++ _$s17RealityFoundation12LowLevelMeshC9AttributeV_AEtMd
++ _$s17RealityFoundation16ExtentsComponentV0A3Kit0D0AAWP
++ _$s17RealityFoundation16ExtentsComponentVMa
++ _$s17RealityFoundation16ExtentsComponentVMn
++ _$s17RealityFoundation16ExtentsComponentVSgMR
++ _$s17RealityFoundation16ExtentsComponentVSgMd
++ _$s17RealityFoundation16ExtentsComponentVyAC0A3Kit11BoundingBoxVcfC
++ _$s17RealityFoundation22MaterialParameterTypesV11FaceCullingOSgMR
++ _$s17RealityFoundation22MaterialParameterTypesV11FaceCullingOSgMd
++ _$s18_USDKit_RealityKit14USDRenderErrorV10Foundation09LocalizedE0AAMc
++ _$s18_USDKit_RealityKit14USDRenderErrorV10Foundation09LocalizedE0AAMcMK
++ _$s18_USDKit_RealityKit14USDRenderErrorV10Foundation09LocalizedE0AAs0E0PWb
++ _$s18_USDKit_RealityKit14USDRenderErrorV10Foundation09LocalizedE0AadEP10helpAnchorSSSgvgTW
++ _$s18_USDKit_RealityKit14USDRenderErrorV10Foundation09LocalizedE0AadEP13failureReasonSSSgvgTW
++ _$s18_USDKit_RealityKit14USDRenderErrorV10Foundation09LocalizedE0AadEP16errorDescriptionSSSgvgTW
++ _$s18_USDKit_RealityKit14USDRenderErrorV10Foundation09LocalizedE0AadEP18recoverySuggestionSSSgvgTW
++ _$s18_USDKit_RealityKit14USDRenderErrorV16errorDescriptionSSSgvg
++ _$s18_USDKit_RealityKit14USDRenderErrorV16errorDescriptionSSSgvpMV
++ _$s18_USDKit_RealityKit14USDStageSystemV17bboxCachePurposes33_E55880C9795360912CECB78E32499708LLSay0A08USDTokenVGvpZ
++ _$s18_USDKit_RealityKit14USDStageSystemV17bboxCachePurposes33_E55880C9795360912CECB78E32499708LL_WZ
++ _$s18_USDKit_RealityKit14USDStageSystemV17bboxCachePurposes33_E55880C9795360912CECB78E32499708LL_Wz
++ _$s18_USDKit_RealityKit14USDStageSystemV17ensureValidBounds33_E55880C9795360912CECB78E32499708LL3fory0bC06EntityC_tFZTf4nd_n
++ _$s18_USDKit_RealityKit14VersionedStageC11syncVersion15versionToUpdateSbSiz_tFTq
++ _$s18_USDKit_RealityKit14VersionedStageC18stageObserverToken0A08USDStageV011ObservationH0VSgvMTq
++ _$s18_USDKit_RealityKit14VersionedStageC18stageObserverToken0A08USDStageV011ObservationH0VSgvgTq
++ _$s18_USDKit_RealityKit14VersionedStageC18stageObserverToken0A08USDStageV011ObservationH0VSgvpWvd
++ _$s18_USDKit_RealityKit14VersionedStageC18stageObserverToken0A08USDStageV011ObservationH0VSgvsTq
++ _$s18_USDKit_RealityKit14VersionedStageC5stage0A08USDStageVvMTq
++ _$s18_USDKit_RealityKit14VersionedStageC5stage0A08USDStageVvgTq
++ _$s18_USDKit_RealityKit14VersionedStageC5stage0A08USDStageVvpWvd
++ _$s18_USDKit_RealityKit14VersionedStageC5stage0A08USDStageVvsTq
++ _$s18_USDKit_RealityKit14VersionedStageC7versionSivgTq
++ _$s18_USDKit_RealityKit14VersionedStageC8_version33_E55880C9795360912CECB78E32499708LL15Synchronization6AtomicVySiGvpWvd
++ _$s18_USDKit_RealityKit14VersionedStageCMF
++ _$s18_USDKit_RealityKit14VersionedStageCMU
++ _$s18_USDKit_RealityKit14VersionedStageCMa
++ _$s18_USDKit_RealityKit14VersionedStageCMf
++ _$s18_USDKit_RealityKit14VersionedStageCMl
++ _$s18_USDKit_RealityKit14VersionedStageCMm
++ _$s18_USDKit_RealityKit14VersionedStageCMn
++ _$s18_USDKit_RealityKit14VersionedStageCMr
++ _$s18_USDKit_RealityKit14VersionedStageCN
++ _$s18_USDKit_RealityKit14VersionedStageCSgML
++ _$s18_USDKit_RealityKit14VersionedStageCfD
++ _$s18_USDKit_RealityKit14VersionedStageCyAC0A08USDStageVcfCTq
++ _$s18_USDKit_RealityKit14VersionedStageCyAC0A08USDStageVcfc
++ _$s18_USDKit_RealityKit14VersionedStageCyAC0A08USDStageVcfcyAF16ObjectsDidChangeVcfU_
++ _$s18_USDKit_RealityKit14VersionedStageCyAC0A08USDStageVcfcyAF16ObjectsDidChangeVcfU_TA
++ _$s18_USDKit_RealityKit17USDStageComponentV21waitForRenderComplete2onAC0H6ResultV0bC06EntityC_tYaFZTQ0_
++ _$s18_USDKit_RealityKit17USDStageComponentV21waitForRenderComplete2onAC0H6ResultV0bC06EntityC_tYaFZTY1_
++ _$s18_USDKit_RealityKit17USDStageComponentV23waitForRenderCompletion2onAC0H6ResultV0bC06EntityC_tYaFZ
++ _$s18_USDKit_RealityKit17USDStageComponentV23waitForRenderCompletion2onAC0H6ResultV0bC06EntityC_tYaFZTQ1_
++ _$s18_USDKit_RealityKit17USDStageComponentV23waitForRenderCompletion2onAC0H6ResultV0bC06EntityC_tYaFZTY0_
++ _$s18_USDKit_RealityKit17USDStageComponentV23waitForRenderCompletion2onAC0H6ResultV0bC06EntityC_tYaFZTY2_
++ _$s18_USDKit_RealityKit17USDStageComponentV23waitForRenderCompletion2onAC0H6ResultV0bC06EntityC_tYaFZTu
++ _$s18_USDKit_RealityKit17USDStageComponentV23waitForRenderCompletion2onAC0H6ResultV0bC06EntityC_tYaFZyScCyAGs5NeverOGXEfU_
++ _$s18_USDKit_RealityKit17UsdStageComponentV20setMaxTextureThreadsyySiF
++ _$s18_USDKit_RealityKit27USDStageRootEntityComponentVSgWOhTm
++ _$s5MetalMXM
++ _$s6USDKit16USDGeomBBoxCacheC17computeWorldBound3forAA8GfBBox3dVAA7USDPrimV_tFTj
++ _$s6USDKit16USDGeomBBoxCacheC4time16includedPurposes14useExtentHints16ignoreVisibilityAcA8USDStageV8TimeCodeV_SayAA8USDTokenVGS2btcfc
++ _$s6USDKit16USDGeomBBoxCacheCMa
++ _$s6USDKit7GfVec3dV1xSdvg
++ _$s6USDKit7GfVec3dV1ySdvg
++ _$s6USDKit7GfVec3dV1zSdvg
++ _$s6USDKit8GfBBox3dV01_A11_RealityKitE15toREBoundingBox13metersPerUnit0dE008BoundingH0VSf_tF
++ _$s6USDKit8GfBBox3dV3boxAA0B7Range3dVvg
++ _$s6USDKit8GfBBox3dVMa
++ _$s6USDKit8USDStageV10pseudoRootAA7USDPrimVvg
++ _$s6USDKit8USDStageV16ObservationTokenVSgMaTm
++ _$s6USDKit8USDStageV16ObservationTokenVSgWOd
++ _$s6USDKit8USDStageV8TimeCodeVSgWOcTm
++ _$s6USDKit8USDValueV11unsafeValue12assumingTypexxm_tAA0B8ProtocolRzlF
++ _$s6USDKit8UsdStageV01_A11_RealityKitE0B14RC2FeatureInfoV25hasVertexShaderConnectionSbvM
++ _$s6USDKit8UsdStageV01_A11_RealityKitE0B14RC2FeatureInfoV25hasVertexShaderConnectionSbvg
++ _$s6USDKit8UsdStageV01_A11_RealityKitE0B14RC2FeatureInfoV25hasVertexShaderConnectionSbvpMV
++ _$s6USDKit8UsdStageV01_A11_RealityKitE0B14RC2FeatureInfoV25hasVertexShaderConnectionSbvs
++ _$s6USDKit9GfRange3dV3maxAA0B5Vec3dVvg
++ _$s6USDKit9GfRange3dV3minAA0B5Vec3dVvg
++ _$s6USDKit9GfRange3dVMa
++ _$sScG4next9isolationxSgScA_pSgYi_tYaF
++ _$sScG4next9isolationxSgScA_pSgYi_tYaFTu
++ _$sScGyytGMR
++ _$sScGyytGMd
++ _$sSi6offset_8Geometry0B10Collection_p7elementtMR
++ _$sSi6offset_8Geometry0B10Collection_p7elementtMd
++ _$sSo15MTLVertexFormatVSQSCMc
++ _$sSo15MTLVertexFormatVSQSCMcMK
++ _$sSo15MTLVertexFormatVSQSCSQ2eeoiySbx_xtFZTW
++ _$sSo15MTLVertexFormatVSYSCMA
++ _$sSo15MTLVertexFormatVSYSCMc
++ _$sSo15MTLVertexFormatVSYSCMcMK
++ _$sSo15MTLVertexFormatVSYSCSY8rawValue03RawD0QzvgTW
++ _$sSo15MTLVertexFormatVSYSCSY8rawValuexSg03RawD0Qz_tcfCTW
++ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFs6UInt16V_AGTg5
++ _$ss17_NativeDictionaryV4copyyyFs6UInt16V_AETg5
++ _$ss18_DictionaryStorageCys6UInt16VADGMR
++ _$ss18_DictionaryStorageCys6UInt16VADGMd
++ _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFs6UInt16V_Tg5
++ _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFs6UInt16V_Tg5
++ _$ss32_copyCollectionToContiguousArrayys0dE0Vy7ElementQzGxSlRzlFSDySS12HdRealityKit0G13RKitMeshSwiftC19VertexAttributeInfoVG_Tg5
++ _$ss6HasherV5_hash4seed5bytes5countS2i_s6UInt64VSitFZ
++ _$ss6HasherV8_combineyys6UInt32VF
++ _$ss6UInt16VN
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzlTRyt_Tg5
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzlTRyt_Tg5TA
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzlTRyt_Tg5TATQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzlTRyt_Tg5TATu
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzlTRyt_Tg5TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzlTRyt_Tg5Tu
++ _CGImageSourceGetStatus
++ __DATA__TtC18_USDKit_RealityKit14VersionedStage
++ __IVARS__TtC18_USDKit_RealityKit14VersionedStage
++ __METACLASS_DATA__TtC18_USDKit_RealityKit14VersionedStage
++ __ZL20hasPrimvarDescriptorPN32pxrInternal__aapl__pxrReserved__15HdSceneDelegateERKNS_7SdfPathERKNS_7TfTokenE
++ __ZN20HdRKitTextureStorageC2ERKNSt3__110shared_ptrIN32pxrInternal__aapl__pxrReserved__7ArAssetEEE
++ __ZN21USDRealityKitRenderer14HdRKitMaterial16setTextureToSyncEPN32pxrInternal__aapl__pxrReserved__13HdRenderParamERKNS_8AssetKeyERKNSt3__112basic_stringIcNS7_11char_traitsIcEENS7_9allocatorIcEEEENS_15TextureSemanticERKNS1_7TfTokenE
++ __ZN21UsdComplexityAnalyzer15analyzeUsdStageERKN32pxrInternal__aapl__pxrReserved__8TfRefPtrINS0_8UsdStageEEE
++ __ZN32pxrInternal__aapl__pxrReserved__10HdMeshUtilC1EPKNS_14HdMeshTopologyERKNS_7SdfPathE
++ __ZN32pxrInternal__aapl__pxrReserved__15HdChangeTracker16IsCullStyleDirtyEjRKNS_7SdfPathE
++ __ZN32pxrInternal__aapl__pxrReserved__15HdChangeTracker18MarkAllRprimsDirtyEj
++ __ZN32pxrInternal__aapl__pxrReserved__21ArResolverScopedCacheC1Ev
++ __ZN32pxrInternal__aapl__pxrReserved__21ArResolverScopedCacheD1Ev
++ __ZN32pxrInternal__aapl__pxrReserved__7VtArrayINS_7GfVec3fEE12emplace_backIJS1_EEEvDpOT_
++ __ZN32pxrInternal__aapl__pxrReserved__7VtArrayINS_7GfVec3fEE7reserveEm
++ __ZN32pxrInternal__aapl__pxrReserved__7VtArrayINS_7GfVec3fEEC1ESt16initializer_listIS1_E
++ __ZN32pxrInternal__aapl__pxrReserved__7VtArrayIfE12emplace_backIJfEEEvDpOT_
++ __ZN32pxrInternal__aapl__pxrReserved__7VtArrayIfE7reserveEm
++ __ZN32pxrInternal__aapl__pxrReserved__7VtArrayIfEC1ESt16initializer_listIfE
++ __ZNK32pxrInternal__aapl__pxrReserved__12UsdAttribute14GetConnectionsEPNSt3__16vectorINS_7SdfPathENS1_9allocatorIS3_EEEE
++ __ZNK32pxrInternal__aapl__pxrReserved__7UsdPrim21GetAuthoredAttributesEv
++ __ZNK32pxrInternal__aapl__pxrReserved__7VtValue7_TypeIsINS_7GfVec3dEEEbv
++ __ZNK32pxrInternal__aapl__pxrReserved__7VtValue7_TypeIsIdEEbv
++ __ZNSt3__15dequeIN32pxrInternal__aapl__pxrReserved__7SdfPathENS_9allocatorIS2_EEE8pop_backEv
++ __ZNSt3__16vectorIN32pxrInternal__aapl__pxrReserved__12UsdAttributeENS_9allocatorIS2_EEE16__destroy_vectorclB9nqe220106Ev
++ ___swift_memcpy22_8
++ ___swift_memcpy41_8
++ __swift_closure_destructor.154Tm
++ __swift_closure_destructor.7Tm
++ __swift_get_extra_inhabitant_index.53Tm
++ __swift_store_extra_inhabitant_index.54Tm
++ _associated conformance 12HdRealityKit0A13RKitMeshSwiftC0A9CullStyleOSHAASQ
++ _associated conformance 18_USDKit_RealityKit14USDRenderErrorV10Foundation09LocalizedE0AAs0E0
++ _symbolic ScGyytG
++ _symbolic Si6offset_______p7elementt 8Geometry0A10CollectionP
++ _symbolic _____ 12HdRealityKit0A13RKitMeshSwiftC0A9CullStyleO
++ _symbolic _____ 18_USDKit_RealityKit14VersionedStageC
++ _symbolic _____Sg 17RealityFoundation16ExtentsComponentV
++ _symbolic _____Sg 17RealityFoundation22MaterialParameterTypesV11FaceCullingO
++ _symbolic _____Sg 18_USDKit_RealityKit14VersionedStageC
++ _symbolic _____SgXw 18_USDKit_RealityKit14VersionedStageC
++ _symbolic ______AAt 17RealityFoundation12LowLevelMeshC9AttributeV
++ _symbolic _____ySiG 15Synchronization6AtomicV
++ _symbolic _____y_____ABG s18_DictionaryStorageC s6UInt16V
+- $s10RealityKit6EntityC08_USDKit_aB0E11findUSDRoot4withACSgSS_tFyyXEfU_TA
+- $s18_USDKit_RealityKit14USDRenderErrorV20localizedDescriptionSSvM.resume
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.156TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.156Tu
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.72TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.72Tu
+- GCC_except_table126
+- GCC_except_table130
+- GCC_except_table131
+- GCC_except_table141
+- GCC_except_table142
+- GCC_except_table162
+- GCC_except_table168
+- GCC_except_table172
+- GCC_except_table183
+- GCC_except_table184
+- GCC_except_table207
+- GCC_except_table215
+- GCC_except_table236
+- GCC_except_table243
+- GCC_except_table264
+- GCC_except_table271
+- GCC_except_table274
+- GCC_except_table275
+- GCC_except_table284
+- GCC_except_table292
+- GCC_except_table304
+- GCC_except_table311
+- GCC_except_table325
+- GCC_except_table326
+- GCC_except_table345
+- GCC_except_table346
+- GCC_except_table374
+- GCC_except_table376
+- GCC_except_table379
+- GCC_except_table381
+- GCC_except_table387
+- GCC_except_table388
+- GCC_except_table389
+- GCC_except_table396
+- GCC_except_table397
+- GCC_except_table399
+- GCC_except_table400
+- GCC_except_table403
+- GCC_except_table432
+- GCC_except_table435
+- GCC_except_table437
+- GCC_except_table438
+- GCC_except_table440
+- GCC_except_table442
+- GCC_except_table446
+- GCC_except_table450
+- GCC_except_table476
+- GCC_except_table512
+- GCC_except_table520
+- GCC_except_table523
+- GCC_except_table529
+- GCC_except_table551
+- GCC_except_table556
+- _$s10RealityKit6EntityC08_USDKit_aB0E11findUSDRoot4withACSgSS_tFyyXEfU_
+- _$s10RealityKit6EntityC08_USDKit_aB0E11findUSDRoot4withACSgSS_tFyyXEfU_TA
+- _$s10RealityKit6EntityC0A10FoundationE4loadyxSgxmAA9ComponentRzlF
+- _$s10RealityKit6EntityC0A10FoundationE5store_8newValueyxm_xSgtAA9ComponentRzlF
+- _$s10RealityKit6EntityC0A10FoundationE6borrowyxSgxmAA9ComponentRzlF
+- _$s10RealityKit6EntityC0A10FoundationE7restore_8newValueyxm_xSgtAA9ComponentRzlF
+- _$s10RealityKit6EntityC12ComponentSetV6entityACvg
+- _$s11ShaderGraphMXM
+- _$s12HdRealityKit0A13RKitMeshSwiftC13buildSkeleton0B10Foundation0eH0VyF
+- _$s12HdRealityKit0bC17HydraPrimDelegateC15renderToTexture_05depthI05width6height16activeCameraPath16projectionMatrix04viewQ017completionHandlerySo10MTLTexture_p_SoAL_pSgS2iSSSaySo8NSNumberCGSgAQySbctF39$s10ObjectiveC8ObjCBoolVIeyBy_SbIegy_TR0X1C0Z5CBoolVIeyBy_Tf1nnnnnnncn_n
+- _$s12HdRealityKit18HydraDeferredTasksC30processTexturesFromMTLTexturesyyYaFyyYacfU0_
+- _$s12HdRealityKit18HydraDeferredTasksC30processTexturesFromMTLTexturesyyYaFyyYacfU0_TA
+- _$s12HdRealityKit18HydraDeferredTasksC30processTexturesFromMTLTexturesyyYaFyyYacfU0_TATQ0_
+- _$s12HdRealityKit18HydraDeferredTasksC30processTexturesFromMTLTexturesyyYaFyyYacfU0_TATu
+- _$s12HdRealityKit18HydraDeferredTasksC30processTexturesFromMTLTexturesyyYaFyyYacfU0_TY0_
+- _$s12HdRealityKit18HydraDeferredTasksC30processTexturesFromMTLTexturesyyYaFyyYacfU0_Tu
+- _$s17RealityFoundation18SceneUpdateContextV8entities8matching18updatingSystemWhenAA11QueryResultVy0A3Kit6EntityCGAA0nK0V_AA0iD9ConditionVtF
+- _$s17RealityFoundation21SystemUpdateConditionV9renderingACvgZ
+- _$s17RealityFoundation21SystemUpdateConditionVMa
+- _$s18_USDKit_RealityKit14USDRenderErrorV20localizedDescriptionSSvM
+- _$s18_USDKit_RealityKit14USDRenderErrorV20localizedDescriptionSSvs
+- _$s18_USDKit_RealityKit17USDStageComponentV21waitForRenderComplete2onAC0H6ResultV0bC06EntityC_tYaFZTQ1_
+- _$s18_USDKit_RealityKit17USDStageComponentV21waitForRenderComplete2onAC0H6ResultV0bC06EntityC_tYaFZTY0_
+- _$s18_USDKit_RealityKit17USDStageComponentV21waitForRenderComplete2onAC0H6ResultV0bC06EntityC_tYaFZTY2_
+- _$s18_USDKit_RealityKit17USDStageComponentV21waitForRenderComplete2onAC0H6ResultV0bC06EntityC_tYaFZyScCyAGs5NeverOGXEfU_
+- _$s18_USDKit_RealityKit24UsdRetainedInfoComponentVSgWOy
+- _$s6USDKit8USDStageVSgML
+- _$s6USDKit8USDStageVSgMaTm
+- _$s6USDKit8USDStageVSgWOcTm
+- _$s6USDKit8USDStageVSgWOhTm
+- _$s6USDKit8USDValueV12uncheckedGetxyAA0B8ProtocolRzlF
+- _CFDictionaryGetValue
+- _CFEqual
+- _CFNumberGetValue
+- _RTIImportOperationCopyImageProperties
+- _RTIImportOperationGetImageUTType
+- __ZL21sMaterialConfigTokens
+- __ZN12_GLOBAL__N_123getIncomingTextureNodesERN32pxrInternal__aapl__pxrReserved__18HdMaterialNetwork2ERKNS0_7SdfPathERNSt3__13setIS3_NS6_4lessIS3_EENS6_9allocatorIS3_EEEE
+- __ZN21USDRealityKitRenderer14HdRKitMaterial12syncTexturesEPN32pxrInternal__aapl__pxrReserved__15HdSceneDelegateEPNS1_13HdRenderParamEPjRNS1_18HdMaterialNetwork2ERNS1_15HdMaterialNode2ERKNS1_7SdfPathERKNSt3__113unordered_mapISB_NSE_12basic_stringIcNSE_11char_traitsIcEENSE_9allocatorIcEEEENSB_4HashENSE_8equal_toISB_EENSJ_INSE_4pairISC_SL_EEEEEEb
+- __ZN21UsdComplexityAnalyzerC2ERKN32pxrInternal__aapl__pxrReserved__8TfRefPtrINS0_8UsdStageEEE15AnalysisOptions
+- __ZN32pxrInternal__aapl__pxrReserved__10HdMeshUtilC2EPKNS_14HdMeshTopologyERKNS_7SdfPathE
+- __swift_closure_destructor.162Tm
+- __swift_get_extra_inhabitant_index.42Tm
+- __swift_store_extra_inhabitant_index.43Tm
+CStrings:
++ " too small (dest "
++ "!IsMapped()"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/USDKit_Imaging/Sources/USDRealityKit/imaging/hdRealityKit/HdRKitRenderBuffer.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/USDKit_Imaging/Sources/USDRealityKit/imaging/hdRealityKit/HdRKitTextureStorage.cpp"
++ "Asset is invalid."
++ "B) — descriptor out of sync with the conditioned vertex data."
++ "BadTopology"
++ "Empty or texture data at \"%s\""
++ "HdRKitMaterial.cpp"
++ "HdRKitTextureStorage"
++ "HdRKitTextureStorage::HdRKitTextureStorage(const std::shared_ptr<pxr_aapl::ArAsset> &)"
++ "Invalid mesh topology"
++ "Mesh has faceVertexIndex range [%d, %d] out of bounds for pointCount %u."
++ "ND_image_"
++ "ND_uniform_edf"
++ "Unknown HdCullStyle "
++ "_Deallocate"
++ "bool USDRealityKitRenderer::HdRKitMesh::updateMeshTopology(HdSceneDelegate *, HdDirtyBits *)"
++ "com.apple.USDKit.maxTextureThreads"
++ "frameendaction"
++ "frameoffset"
++ "outputs:realitykit:vertex"
++ "setGlobalCullStyle"
++ "setPrimCullStyle"
++ "textureImporter"
++ "updateLlMeshAsNeeded: LowLevelMesh vertex buffer "
++ "updateLlMeshAsNeeded: index buffer truncated for %s — dest %ldB, src %ldB"
++ "updateLlMeshAsNeeded: primvar '%s' buffer %ld truncated for %s — dest %ldB, src %ldB"
++ "updateMeshTopology"
++ "virtual void USDRealityKitRenderer::HdRKitRenderBuffer::_Deallocate()"
++ "waitForRenderCompletion(on:)"
+- "HdRKitMesh.cpp"
+- "displayColorVt.IsEmpty() || displayColorVt.IsHolding<VtVec3fArray>()"
+- "displayOpacityVt.IsEmpty() || displayOpacityVt.IsHolding<VtFloatArray>()"
+- "public.avif"
+- "waitForRenderComplete(on:)"
+```
