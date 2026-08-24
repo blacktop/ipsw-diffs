@@ -1,0 +1,1110 @@
+# 26.7 (25G220) .vs 26.7 (25G224)
+
+## Inputs
+
+- `25G220_Mac17,6_OTA_d73e1c2d75cfb39dc3054586142279b26e259365.zip`
+- `Mac13,1_and_57_others_25G224_82d9cda78b19f14c4047df661121c744709523b3.zip`
+
+## Kernel
+
+### Version
+
+| iOS | Version | Build | Date |
+| :-- | :------ | :---- | :--- |
+| 26.7 *(25G220)* | 25.6.0 | 12377.161.15.700.19~1 | Thu, 13Aug2026 22:01:38 PDT |
+| 26.7 *(25G224)* | 25.6.0 | 12377.161.15.700.19~2 | Tue, 18Aug2026 17:50:45 PDT |
+
+### Kexts
+
+#### ⬆️ Updated (18)
+
+- [com.apple.AGXG14X](KEXTS/com.apple.AGXG14X.md)
+- [com.apple.driver.AppleANELoadBalancer](KEXTS/com.apple.driver.AppleANELoadBalancer.md)
+- [com.apple.driver.AppleAVD](KEXTS/com.apple.driver.AppleAVD.md)
+- [com.apple.driver.AppleBTM](KEXTS/com.apple.driver.AppleBTM.md)
+- [com.apple.driver.AppleDisplayCrossbar](KEXTS/com.apple.driver.AppleDisplayCrossbar.md)
+- [com.apple.driver.AppleH11ANEInterface](KEXTS/com.apple.driver.AppleH11ANEInterface.md)
+- [com.apple.driver.AppleSPMIPMU](KEXTS/com.apple.driver.AppleSPMIPMU.md)
+- [com.apple.driver.AppleT6020CLPC](KEXTS/com.apple.driver.AppleT6020CLPC.md)
+- [com.apple.driver.AppleT6022CLPC](KEXTS/com.apple.driver.AppleT6022CLPC.md)
+- [com.apple.driver.AppleT8110DART](KEXTS/com.apple.driver.AppleT8110DART.md)
+- [com.apple.driver.AppleTCA7408GPIOIC](KEXTS/com.apple.driver.AppleTCA7408GPIOIC.md)
+- [com.apple.driver.AppleUSBXDCIARM](KEXTS/com.apple.driver.AppleUSBXDCIARM.md)
+- [com.apple.driver.IOHIDPowerSource](KEXTS/com.apple.driver.IOHIDPowerSource.md)
+- [com.apple.driver.usb.AppleSynopsysUSB40XHCI](KEXTS/com.apple.driver.usb.AppleSynopsysUSB40XHCI.md)
+- [com.apple.filesystems.apfs](KEXTS/com.apple.filesystems.apfs.md)
+- [com.apple.iokit.IOHIDFamily](KEXTS/com.apple.iokit.IOHIDFamily.md)
+- [com.apple.kernel](KEXTS/com.apple.kernel.md)
+- [com.apple.security.AppleImage4](KEXTS/com.apple.security.AppleImage4.md)
+
+## MachO
+
+### filesystem
+
+#### 🆕 NEW (11)
+
+- `System/Library/ExtensionKit/Extensions/SpotlightPreferenceExtension.appex/Contents/MacOS/SpotlightPreferenceExtension`
+- `System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/gems/2.6.0/gems/libxml-ruby-3.2.1/lib/libxml_ruby.bundle`
+- `System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/gems/2.6.0/gems/nokogiri-1.13.8/ext/nokogiri/nokogiri.bundle`
+- `System/Library/Frameworks/Ruby.framework/Versions/Current/usr/lib/ruby/gems/2.6.0/gems/libxml-ruby-3.2.1/lib/libxml_ruby.bundle`
+- `System/Library/Frameworks/Ruby.framework/Versions/Current/usr/lib/ruby/gems/2.6.0/gems/nokogiri-1.13.8/ext/nokogiri/nokogiri.bundle`
+- `bin/test`
+- `sbin/sha224`
+- `usr/bin/b64encode`
+- `usr/bin/od`
+- `usr/bin/parl5.34`
+- `usr/bin/w`
+
+#### ❌ Removed (15)
+
+- `System/Library/Extensions/AGXMetalG14.bundle/Contents/MacOS/AGXMetalG14`
+- `System/Library/Extensions/AGXMetalG18G.bundle/Contents/MacOS/AGXMetalG18G`
+- `System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/gems/2.6.0/gems/libxml-ruby-3.2.1/ext/libxml/libxml_ruby.bundle`
+- `System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/gems/2.6.0/gems/sqlite3-1.3.13/lib/sqlite3/sqlite3_native.bundle`
+- `System/Library/Frameworks/Ruby.framework/Versions/Current/usr/lib/ruby/gems/2.6.0/gems/libxml-ruby-3.2.1/ext/libxml/libxml_ruby.bundle`
+- `System/Library/Frameworks/Ruby.framework/Versions/Current/usr/lib/ruby/gems/2.6.0/gems/sqlite3-1.3.13/lib/sqlite3/sqlite3_native.bundle`
+- `System/Library/HIDPlugins/ServicePlugins/T1057HIDServicePlugin.plugin/Contents/MacOS/T1057HIDServicePlugin`
+- `System/Library/HIDPlugins/ServicePlugins/T6502HIDServicePlugin.plugin/Contents/MacOS/T6502HIDServicePlugin`
+- `System/Library/Kernels/kernel.release.t8110`
+- `System/Library/Kernels/kernel.release.t8152`
+- `System/Library/Kernels/kernel.release.t8160`
+- `System/Library/PreferencePanes/DateAndTime.prefPane/Contents/Resources/TimeZone.prefPane/Contents/XPCServices/TimeZoneService.xpc/Contents/MacOS/TimeZoneService`
+- `sbin/sha1`
+- `usr/bin/bintrans`
+- `usr/bin/id`
+
+#### ⬆️ Updated (409)
+
+<details>
+  <summary><i>View Updated</i></summary>
+
+- [System/Applications/Books.app/Contents/Frameworks/BooksUI.framework/Versions/A/BooksUI](MACHOS/filesystem/System/Applications/Books.app/Contents/Frameworks/BooksUI.framework/Versions/A/BooksUI.md)
+- [System/Applications/Books.app/Contents/MacOS/Books](MACHOS/filesystem/System/Applications/Books.app/Contents/MacOS/Books.md)
+- [System/Applications/Freeform.app/Contents/Extensions/USDRendererExtension.appex/Contents/MacOS/USDRendererExtension](MACHOS/filesystem/System/Applications/Freeform.app/Contents/Extensions/USDRendererExtension.appex/Contents/MacOS/USDRendererExtension.md)
+- [System/Applications/Freeform.app/Contents/MacOS/Freeform](MACHOS/filesystem/System/Applications/Freeform.app/Contents/MacOS/Freeform.md)
+- [System/Applications/Home.app/Contents/MacOS/Home](MACHOS/filesystem/System/Applications/Home.app/Contents/MacOS/Home.md)
+- [System/Applications/Music.app/Contents/MacOS/Music](MACHOS/filesystem/System/Applications/Music.app/Contents/MacOS/Music.md)
+- [System/Applications/Music.app/Contents/PlugIns/MusicCacheExtension.appex/Contents/MacOS/MusicCacheExtension](MACHOS/filesystem/System/Applications/Music.app/Contents/PlugIns/MusicCacheExtension.appex/Contents/MacOS/MusicCacheExtension.md)
+- [System/Applications/Music.app/Contents/PlugIns/MusicStorageExtension.appex/Contents/MacOS/MusicStorageExtension](MACHOS/filesystem/System/Applications/Music.app/Contents/PlugIns/MusicStorageExtension.appex/Contents/MacOS/MusicStorageExtension.md)
+- [System/Applications/Notes.app/Contents/MacOS/Notes](MACHOS/filesystem/System/Applications/Notes.app/Contents/MacOS/Notes.md)
+- [System/Applications/Photos.app/Contents/MacOS/Photos](MACHOS/filesystem/System/Applications/Photos.app/Contents/MacOS/Photos.md)
+- [System/Applications/Photos.app/Contents/MacOS/PhotosRelauncher](MACHOS/filesystem/System/Applications/Photos.app/Contents/MacOS/PhotosRelauncher.md)
+- [System/Applications/Preview.app/Contents/MacOS/Preview](MACHOS/filesystem/System/Applications/Preview.app/Contents/MacOS/Preview.md)
+- [System/Applications/Shortcuts.app/Contents/MacOS/Shortcuts](MACHOS/filesystem/System/Applications/Shortcuts.app/Contents/MacOS/Shortcuts.md)
+- [System/Applications/Stocks.app/Contents/PlugIns/StocksAppKitBundle.bundle/Contents/MacOS/StocksAppKitBundle](MACHOS/filesystem/System/Applications/Stocks.app/Contents/PlugIns/StocksAppKitBundle.bundle/Contents/MacOS/StocksAppKitBundle.md)
+- [System/Applications/System Settings.app/Contents/Resources/systemsettingsagent](MACHOS/filesystem/System/Applications/System_Settings.app/Contents/Resources/systemsettingsagent.md)
+- [System/Applications/TV.app/Contents/MacOS/TV](MACHOS/filesystem/System/Applications/TV.app/Contents/MacOS/TV.md)
+- [System/Applications/TV.app/Contents/PlugIns/TVCacheExtension.appex/Contents/MacOS/TVCacheExtension](MACHOS/filesystem/System/Applications/TV.app/Contents/PlugIns/TVCacheExtension.appex/Contents/MacOS/TVCacheExtension.md)
+- [System/Applications/TV.app/Contents/PlugIns/TVStorageExtension.appex/Contents/MacOS/TVStorageExtension](MACHOS/filesystem/System/Applications/TV.app/Contents/PlugIns/TVStorageExtension.appex/Contents/MacOS/TVStorageExtension.md)
+- [System/Library/Accounts/Authentication/ExchangeAuthenticationPlugin.bundle/Contents/MacOS/ExchangeAuthenticationPlugin](MACHOS/filesystem/System/Library/Accounts/Authentication/ExchangeAuthenticationPlugin.bundle/Contents/MacOS/ExchangeAuthenticationPlugin.md)
+- [System/Library/Accounts/Notification/ExchangeNotificationPlugin.bundle/Contents/MacOS/ExchangeNotificationPlugin](MACHOS/filesystem/System/Library/Accounts/Notification/ExchangeNotificationPlugin.bundle/Contents/MacOS/ExchangeNotificationPlugin.md)
+- [System/Library/Accounts/SwiftUI/ExchangeSwiftUIPlugin.bundle/Contents/MacOS/ExchangeSwiftUIPlugin](MACHOS/filesystem/System/Library/Accounts/SwiftUI/ExchangeSwiftUIPlugin.bundle/Contents/MacOS/ExchangeSwiftUIPlugin.md)
+- [System/Library/Accounts/UI/ExchangeUIPlugin.bundle/Contents/MacOS/ExchangeUIPlugin](MACHOS/filesystem/System/Library/Accounts/UI/ExchangeUIPlugin.bundle/Contents/MacOS/ExchangeUIPlugin.md)
+- [System/Library/AppleMediaServices/DynamicUI/PlugIns/CoreDynamicUIPlugin.bundle/Contents/MacOS/CoreDynamicUIPlugin](MACHOS/filesystem/System/Library/AppleMediaServices/DynamicUI/PlugIns/CoreDynamicUIPlugin.bundle/Contents/MacOS/CoreDynamicUIPlugin.md)
+- [System/Library/Assistant/FlowDelegatePlugins/AudioFlowDelegatePlugin.bundle/Contents/MacOS/AudioFlowDelegatePlugin](MACHOS/filesystem/System/Library/Assistant/FlowDelegatePlugins/AudioFlowDelegatePlugin.bundle/Contents/MacOS/AudioFlowDelegatePlugin.md)
+- [System/Library/Assistant/FlowDelegatePlugins/CAMRootFlowPlugin.bundle/Contents/MacOS/CAMRootFlowPlugin](MACHOS/filesystem/System/Library/Assistant/FlowDelegatePlugins/CAMRootFlowPlugin.bundle/Contents/MacOS/CAMRootFlowPlugin.md)
+- [System/Library/Assistant/FlowDelegatePlugins/EmergencyFlowPlugin.bundle/Contents/MacOS/EmergencyFlowPlugin](MACHOS/filesystem/System/Library/Assistant/FlowDelegatePlugins/EmergencyFlowPlugin.bundle/Contents/MacOS/EmergencyFlowPlugin.md)
+- [System/Library/Assistant/FlowDelegatePlugins/FindMyFlowPlugin.bundle/Contents/MacOS/FindMyFlowPlugin](MACHOS/filesystem/System/Library/Assistant/FlowDelegatePlugins/FindMyFlowPlugin.bundle/Contents/MacOS/FindMyFlowPlugin.md)
+- [System/Library/Assistant/FlowDelegatePlugins/IFFlowPlugin.bundle/Contents/MacOS/IFFlowPlugin](MACHOS/filesystem/System/Library/Assistant/FlowDelegatePlugins/IFFlowPlugin.bundle/Contents/MacOS/IFFlowPlugin.md)
+- [System/Library/Assistant/FlowDelegatePlugins/PhoneCallFlowDelegatePlugin.bundle/Contents/MacOS/PhoneCallFlowDelegatePlugin](MACHOS/filesystem/System/Library/Assistant/FlowDelegatePlugins/PhoneCallFlowDelegatePlugin.bundle/Contents/MacOS/PhoneCallFlowDelegatePlugin.md)
+- [System/Library/Audio/Plug-Ins/usbaudio.bundle/Contents/MacOS/usbaudiod](MACHOS/filesystem/System/Library/Audio/Plug-Ins/usbaudio.bundle/Contents/MacOS/usbaudiod.md)
+- [System/Library/CoreServices/Apple Diagnostics.app/Contents/MacOS/Apple Diagnostics](MACHOS/filesystem/System/Library/CoreServices/Apple_Diagnostics.app/Contents/MacOS/Apple_Diagnostics.md)
+- [System/Library/CoreServices/Applications/Keychain Access.app/Contents/MacOS/Keychain Access](MACHOS/filesystem/System/Library/CoreServices/Applications/Keychain_Access.app/Contents/MacOS/Keychain_Access.md)
+- [System/Library/CoreServices/Applications/iOS App Installer.app/Contents/MacOS/iOS App Installer](MACHOS/filesystem/System/Library/CoreServices/Applications/iOS_App_Installer.app/Contents/MacOS/iOS_App_Installer.md)
+- [System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter](MACHOS/filesystem/System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter.md)
+- [System/Library/CoreServices/Finder.app/Contents/MacOS/Finder](MACHOS/filesystem/System/Library/CoreServices/Finder.app/Contents/MacOS/Finder.md)
+- [System/Library/CoreServices/Medical Imaging Calibrator.app/Contents/MacOS/Medical Imaging Calibrator](MACHOS/filesystem/System/Library/CoreServices/Medical_Imaging_Calibrator.app/Contents/MacOS/Medical_Imaging_Calibrator.md)
+- [System/Library/CoreServices/Pro Display Calibrator.app/Contents/MacOS/Pro Display Calibrator](MACHOS/filesystem/System/Library/CoreServices/Pro_Display_Calibrator.app/Contents/MacOS/Pro_Display_Calibrator.md)
+- [System/Library/CoreServices/accessorysensormgrd](MACHOS/filesystem/System/Library/CoreServices/accessorysensormgrd.md)
+- [System/Library/CoreServices/audioaccessoryd](MACHOS/filesystem/System/Library/CoreServices/audioaccessoryd.md)
+- [System/Library/CoreServices/destinationd](MACHOS/filesystem/System/Library/CoreServices/destinationd.md)
+- [System/Library/CoreServices/diagnosticservicesd](MACHOS/filesystem/System/Library/CoreServices/diagnosticservicesd.md)
+- [System/Library/DriverExtensions/com.apple.AppleSunriseWLAN.dext/com.apple.AppleSunriseWLAN](MACHOS/filesystem/System/Library/DriverExtensions/com.apple.AppleSunriseWLAN.dext/com.apple.AppleSunriseWLAN.md)
+- [System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN](MACHOS/filesystem/System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN.md)
+- [System/Library/DriverExtensions/com.apple.DriverKit-AppleEthernetE1000.dext/com.apple.DriverKit-AppleEthernetE1000](MACHOS/filesystem/System/Library/DriverExtensions/com.apple.DriverKit-AppleEthernetE1000.dext/com.apple.DriverKit-AppleEthernetE1000.md)
+- [System/Library/DriverExtensions/com.apple.DriverKit-AppleEthernetIXGBE.dext/com.apple.DriverKit-AppleEthernetIXGBE](MACHOS/filesystem/System/Library/DriverExtensions/com.apple.DriverKit-AppleEthernetIXGBE.dext/com.apple.DriverKit-AppleEthernetIXGBE.md)
+- [System/Library/ExtensionKit/Extensions/Bluetooth.appex/Contents/MacOS/Bluetooth](MACHOS/filesystem/System/Library/ExtensionKit/Extensions/Bluetooth.appex/Contents/MacOS/Bluetooth.md)
+- [System/Library/ExtensionKit/Extensions/DesktopSettingsIntents.appex/Contents/MacOS/DesktopSettingsIntents](MACHOS/filesystem/System/Library/ExtensionKit/Extensions/DesktopSettingsIntents.appex/Contents/MacOS/DesktopSettingsIntents.md)
+- [System/Library/ExtensionKit/Extensions/HeadphoneSettingsExtension.appex/Contents/MacOS/HeadphoneSettingsExtension](MACHOS/filesystem/System/Library/ExtensionKit/Extensions/HeadphoneSettingsExtension.appex/Contents/MacOS/HeadphoneSettingsExtension.md)
+- [System/Library/Extensions/AGXMetal13_3.bundle/Contents/MacOS/AGXMetal13_3](MACHOS/filesystem/System/Library/Extensions/AGXMetal13_3.bundle/Contents/MacOS/AGXMetal13_3.md)
+- [System/Library/Extensions/AGXMetalG13X.bundle/Contents/MacOS/AGXMetalG13X](MACHOS/filesystem/System/Library/Extensions/AGXMetalG13X.bundle/Contents/MacOS/AGXMetalG13X.md)
+- [System/Library/Extensions/AGXMetalG14G.bundle/Contents/MacOS/AGXMetalG14G](MACHOS/filesystem/System/Library/Extensions/AGXMetalG14G.bundle/Contents/MacOS/AGXMetalG14G.md)
+- [System/Library/Extensions/AGXMetalG14X.bundle/Contents/MacOS/AGXMetalG14X](MACHOS/filesystem/System/Library/Extensions/AGXMetalG14X.bundle/Contents/MacOS/AGXMetalG14X.md)
+- [System/Library/Extensions/AGXMetalG15G_B0.bundle/Contents/MacOS/AGXMetalG15G_B0](MACHOS/filesystem/System/Library/Extensions/AGXMetalG15G_B0.bundle/Contents/MacOS/AGXMetalG15G_B0.md)
+- [System/Library/Extensions/AGXMetalG15G_C0.bundle/Contents/MacOS/AGXMetalG15G_C0](MACHOS/filesystem/System/Library/Extensions/AGXMetalG15G_C0.bundle/Contents/MacOS/AGXMetalG15G_C0.md)
+- [System/Library/Extensions/AGXMetalG15X_M1.bundle/Contents/MacOS/AGXMetalG15X_M1](MACHOS/filesystem/System/Library/Extensions/AGXMetalG15X_M1.bundle/Contents/MacOS/AGXMetalG15X_M1.md)
+- [System/Library/Extensions/AGXMetalG15X_M2.bundle/Contents/MacOS/AGXMetalG15X_M2](MACHOS/filesystem/System/Library/Extensions/AGXMetalG15X_M2.bundle/Contents/MacOS/AGXMetalG15X_M2.md)
+- [System/Library/Extensions/AGXMetalG16G_A0.bundle/Contents/MacOS/AGXMetalG16G_A0](MACHOS/filesystem/System/Library/Extensions/AGXMetalG16G_A0.bundle/Contents/MacOS/AGXMetalG16G_A0.md)
+- [System/Library/Extensions/AGXMetalG16G_B0.bundle/Contents/MacOS/AGXMetalG16G_B0](MACHOS/filesystem/System/Library/Extensions/AGXMetalG16G_B0.bundle/Contents/MacOS/AGXMetalG16G_B0.md)
+- [System/Library/Extensions/AGXMetalG16X.bundle/Contents/MacOS/AGXMetalG16X](MACHOS/filesystem/System/Library/Extensions/AGXMetalG16X.bundle/Contents/MacOS/AGXMetalG16X.md)
+- [System/Library/Extensions/AGXMetalG17G.bundle/Contents/MacOS/AGXMetalG17G](MACHOS/filesystem/System/Library/Extensions/AGXMetalG17G.bundle/Contents/MacOS/AGXMetalG17G.md)
+- [System/Library/Extensions/AGXMetalG17P.bundle/Contents/MacOS/AGXMetalG17P](MACHOS/filesystem/System/Library/Extensions/AGXMetalG17P.bundle/Contents/MacOS/AGXMetalG17P.md)
+- [System/Library/Extensions/AGXMetalG17X.bundle/Contents/MacOS/AGXMetalG17X](MACHOS/filesystem/System/Library/Extensions/AGXMetalG17X.bundle/Contents/MacOS/AGXMetalG17X.md)
+- [System/Library/Extensions/AMDRadeonX4000GLDriver.bundle/Contents/MacOS/AMDRadeonX4000GLDriver](MACHOS/filesystem/System/Library/Extensions/AMDRadeonX4000GLDriver.bundle/Contents/MacOS/AMDRadeonX4000GLDriver.md)
+- [System/Library/Extensions/AMDRadeonX5000GLDriver.bundle/Contents/MacOS/AMDRadeonX5000GLDriver](MACHOS/filesystem/System/Library/Extensions/AMDRadeonX5000GLDriver.bundle/Contents/MacOS/AMDRadeonX5000GLDriver.md)
+- [System/Library/Extensions/AMDRadeonX6000GLDriver.bundle/Contents/MacOS/AMDRadeonX6000GLDriver](MACHOS/filesystem/System/Library/Extensions/AMDRadeonX6000GLDriver.bundle/Contents/MacOS/AMDRadeonX6000GLDriver.md)
+- [System/Library/Extensions/AppleParavirtGPUMetal.bundle/Contents/MacOS/AppleParavirtGPUMetal](MACHOS/filesystem/System/Library/Extensions/AppleParavirtGPUMetal.bundle/Contents/MacOS/AppleParavirtGPUMetal.md)
+- [System/Library/Extensions/AppleParavirtGPUMetalIOGPUFamily.bundle/Contents/MacOS/AppleParavirtGPUMetalIOGPUFamily](MACHOS/filesystem/System/Library/Extensions/AppleParavirtGPUMetalIOGPUFamily.bundle/Contents/MacOS/AppleParavirtGPUMetalIOGPUFamily.md)
+- [System/Library/Extensions/EAP-RSA.ppp/Contents/MacOS/EAP-RSA](MACHOS/filesystem/System/Library/Extensions/EAP-RSA.ppp/Contents/MacOS/EAP-RSA.md)
+- [System/Library/Filesystems/acfs.fs/Contents/bin/cvfsck](MACHOS/filesystem/System/Library/Filesystems/acfs.fs/Contents/bin/cvfsck.md)
+- [System/Library/Filesystems/acfs.fs/Contents/bin/cvfsid](MACHOS/filesystem/System/Library/Filesystems/acfs.fs/Contents/bin/cvfsid.md)
+- [System/Library/Filesystems/acfs.fs/Contents/bin/cvgather_fsm](MACHOS/filesystem/System/Library/Filesystems/acfs.fs/Contents/bin/cvgather_fsm.md)
+- [System/Library/Filesystems/acfs.fs/Contents/bin/cvmkfs](MACHOS/filesystem/System/Library/Filesystems/acfs.fs/Contents/bin/cvmkfs.md)
+- [System/Library/Filesystems/acfs.fs/Contents/bin/cvupdatefs](MACHOS/filesystem/System/Library/Filesystems/acfs.fs/Contents/bin/cvupdatefs.md)
+- [System/Library/Filesystems/acfs.fs/Contents/bin/cvversions](MACHOS/filesystem/System/Library/Filesystems/acfs.fs/Contents/bin/cvversions.md)
+- [System/Library/Filesystems/acfs.fs/Contents/bin/fsm](MACHOS/filesystem/System/Library/Filesystems/acfs.fs/Contents/bin/fsm.md)
+- [System/Library/Filesystems/acfs.fs/Contents/bin/fsmpm](MACHOS/filesystem/System/Library/Filesystems/acfs.fs/Contents/bin/fsmpm.md)
+- [System/Library/Filesystems/acfs.fs/Contents/bin/snlicense](MACHOS/filesystem/System/Library/Filesystems/acfs.fs/Contents/bin/snlicense.md)
+- [System/Library/Filesystems/acfs.fs/Contents/bin/vidio2](MACHOS/filesystem/System/Library/Filesystems/acfs.fs/Contents/bin/vidio2.md)
+- [System/Library/Frameworks/AVKit.framework/Versions/A/XPCServices/RoutePickerViewService.xpc/Contents/MacOS/RoutePickerViewService](MACHOS/filesystem/System/Library/Frameworks/AVKit.framework/Versions/A/XPCServices/RoutePickerViewService.xpc/Contents/MacOS/RoutePickerViewService.md)
+- [System/Library/Frameworks/AVKit.framework/Versions/Current/XPCServices/RoutePickerViewService.xpc/Contents/MacOS/RoutePickerViewService](MACHOS/filesystem/System/Library/Frameworks/AVKit.framework/Versions/Current/XPCServices/RoutePickerViewService.xpc/Contents/MacOS/RoutePickerViewService.md)
+- [System/Library/Frameworks/Accounts.framework/Versions/A/Support/accountsd](MACHOS/filesystem/System/Library/Frameworks/Accounts.framework/Versions/A/Support/accountsd.md)
+- [System/Library/Frameworks/ClassKit.framework/Versions/A/progressd](MACHOS/filesystem/System/Library/Frameworks/ClassKit.framework/Versions/A/progressd.md)
+- [System/Library/Frameworks/CompositorServices.framework/Versions/A/Resources/default.binary.metallib](MACHOS/filesystem/System/Library/Frameworks/CompositorServices.framework/Versions/A/Resources/default.binary.metallib.md)
+- [System/Library/Frameworks/CompositorServices.framework/Versions/Current/Resources/default.binary.metallib](MACHOS/filesystem/System/Library/Frameworks/CompositorServices.framework/Versions/Current/Resources/default.binary.metallib.md)
+- [System/Library/Frameworks/Contacts.framework/Support/contactsd](MACHOS/filesystem/System/Library/Frameworks/Contacts.framework/Support/contactsd.md)
+- [System/Library/Frameworks/CoreImage.framework/Versions/A/Resources/coreui_archive_bin.metallib](MACHOS/filesystem/System/Library/Frameworks/CoreImage.framework/Versions/A/Resources/coreui_archive_bin.metallib.md)
+- [System/Library/Frameworks/CoreImage.framework/Versions/A/Resources/ubershader_archive_bin.metallib](MACHOS/filesystem/System/Library/Frameworks/CoreImage.framework/Versions/A/Resources/ubershader_archive_bin.metallib.md)
+- [System/Library/Frameworks/CoreImage.framework/Versions/Current/Resources/coreui_archive_bin.metallib](MACHOS/filesystem/System/Library/Frameworks/CoreImage.framework/Versions/Current/Resources/coreui_archive_bin.metallib.md)
+- [System/Library/Frameworks/CoreImage.framework/Versions/Current/Resources/ubershader_archive_bin.metallib](MACHOS/filesystem/System/Library/Frameworks/CoreImage.framework/Versions/Current/Resources/ubershader_archive_bin.metallib.md)
+- [System/Library/Frameworks/CoreLocation.framework/Versions/A/XPCServices/maphelperservice.xpc/Contents/MacOS/maphelperservice](MACHOS/filesystem/System/Library/Frameworks/CoreLocation.framework/Versions/A/XPCServices/maphelperservice.xpc/Contents/MacOS/maphelperservice.md)
+- [System/Library/Frameworks/CoreLocation.framework/Versions/Current/XPCServices/maphelperservice.xpc/Contents/MacOS/maphelperservice](MACHOS/filesystem/System/Library/Frameworks/CoreLocation.framework/Versions/Current/XPCServices/maphelperservice.xpc/Contents/MacOS/maphelperservice.md)
+- [System/Library/Frameworks/CoreMediaIO.framework/Versions/A/Resources/iOSScreenCapture.plugin/Contents/Resources/iOSScreenCaptureAssistant](MACHOS/filesystem/System/Library/Frameworks/CoreMediaIO.framework/Versions/A/Resources/iOSScreenCapture.plugin/Contents/Resources/iOSScreenCaptureAssistant.md)
+- [System/Library/Frameworks/CoreMediaIO.framework/Versions/Current/Resources/iOSScreenCapture.plugin/Contents/Resources/iOSScreenCaptureAssistant](MACHOS/filesystem/System/Library/Frameworks/CoreMediaIO.framework/Versions/Current/Resources/iOSScreenCapture.plugin/Contents/Resources/iOSScreenCaptureAssistant.md)
+- [System/Library/Frameworks/CoreTelephony.framework/Support/CommCenter](MACHOS/filesystem/System/Library/Frameworks/CoreTelephony.framework/Support/CommCenter.md)
+- [System/Library/Frameworks/FamilyControls.framework/Versions/A/FamilyControlsAgent](MACHOS/filesystem/System/Library/Frameworks/FamilyControls.framework/Versions/A/FamilyControlsAgent.md)
+- [System/Library/Frameworks/FinanceKit.framework/financed](MACHOS/filesystem/System/Library/Frameworks/FinanceKit.framework/financed.md)
+- [System/Library/Frameworks/ImageCaptureCore.framework/Versions/A/XPCServices/mscamerad-xpc.xpc/Contents/MacOS/mscamerad-xpc](MACHOS/filesystem/System/Library/Frameworks/ImageCaptureCore.framework/Versions/A/XPCServices/mscamerad-xpc.xpc/Contents/MacOS/mscamerad-xpc.md)
+- [System/Library/Frameworks/ImageCaptureCore.framework/Versions/Current/XPCServices/mscamerad-xpc.xpc/Contents/MacOS/mscamerad-xpc](MACHOS/filesystem/System/Library/Frameworks/ImageCaptureCore.framework/Versions/Current/XPCServices/mscamerad-xpc.xpc/Contents/MacOS/mscamerad-xpc.md)
+- [System/Library/Frameworks/ManagedAppDistribution.framework/Support/managedappdistributionagent](MACHOS/filesystem/System/Library/Frameworks/ManagedAppDistribution.framework/Support/managedappdistributionagent.md)
+- [System/Library/Frameworks/ManagedAppDistribution.framework/Support/managedappdistributiond](MACHOS/filesystem/System/Library/Frameworks/ManagedAppDistribution.framework/Support/managedappdistributiond.md)
+- [System/Library/Frameworks/ManagedSettings.framework/Versions/A/ManagedSettingsAgent](MACHOS/filesystem/System/Library/Frameworks/ManagedSettings.framework/Versions/A/ManagedSettingsAgent.md)
+- [System/Library/Frameworks/SceneKit.framework/Versions/A/XPCServices/SCNSceneLoader.xpc/Contents/MacOS/SCNSceneLoader](MACHOS/filesystem/System/Library/Frameworks/SceneKit.framework/Versions/A/XPCServices/SCNSceneLoader.xpc/Contents/MacOS/SCNSceneLoader.md)
+- [System/Library/Frameworks/SceneKit.framework/Versions/A/XPCServices/com.apple.SceneKit.C3DColladaResourcesCoordinator.xpc/Contents/MacOS/com.apple.SceneKit.C3DColladaResourcesCoordinator](MACHOS/filesystem/System/Library/Frameworks/SceneKit.framework/Versions/A/XPCServices/com.apple.SceneKit.C3DColladaResourcesCoordinator.xpc/Contents/MacOS/com.apple.SceneKit.C3DColladaResourcesCoordinator.md)
+- [System/Library/Frameworks/SceneKit.framework/Versions/A/XPCServices/com.apple.SceneKit.C3DColladaResourcesCoordinator.xpc/Contents/XPCServices/com.apple.SceneKit.C3DColladaResourcesChecker.xpc/Contents/MacOS/com.apple.SceneKit.C3DColladaResourcesChecker](MACHOS/filesystem/System/Library/Frameworks/SceneKit.framework/Versions/A/XPCServices/com.apple.SceneKit.C3DColladaResourcesCoordinator.xpc/Contents/XPCServices/com.apple.SceneKit.C3DColladaResourcesChecker.xpc/Contents/MacOS/com.apple.SceneKit.C3DColladaResourcesChecker.md)
+- [System/Library/Frameworks/SceneKit.framework/Versions/A/XPCServices/com.apple.SceneKit.C3DColladaResourcesCoordinator.xpc/Contents/XPCServices/com.apple.SceneKit.C3DColladaResourcesExtractor.xpc/Contents/MacOS/com.apple.SceneKit.C3DColladaResourcesExtractor](MACHOS/filesystem/System/Library/Frameworks/SceneKit.framework/Versions/A/XPCServices/com.apple.SceneKit.C3DColladaResourcesCoordinator.xpc/Contents/XPCServices/com.apple.SceneKit.C3DColladaResourcesExtractor.xpc/Contents/MacOS/com.apple.SceneKit.C3DColladaResourcesExtractor.md)
+- [System/Library/Frameworks/SceneKit.framework/Versions/Current/XPCServices/SCNSceneLoader.xpc/Contents/MacOS/SCNSceneLoader](MACHOS/filesystem/System/Library/Frameworks/SceneKit.framework/Versions/Current/XPCServices/SCNSceneLoader.xpc/Contents/MacOS/SCNSceneLoader.md)
+- [System/Library/Frameworks/SceneKit.framework/Versions/Current/XPCServices/com.apple.SceneKit.C3DColladaResourcesCoordinator.xpc/Contents/MacOS/com.apple.SceneKit.C3DColladaResourcesCoordinator](MACHOS/filesystem/System/Library/Frameworks/SceneKit.framework/Versions/Current/XPCServices/com.apple.SceneKit.C3DColladaResourcesCoordinator.xpc/Contents/MacOS/com.apple.SceneKit.C3DColladaResourcesCoordinator.md)
+- [System/Library/Frameworks/SceneKit.framework/Versions/Current/XPCServices/com.apple.SceneKit.C3DColladaResourcesCoordinator.xpc/Contents/XPCServices/com.apple.SceneKit.C3DColladaResourcesChecker.xpc/Contents/MacOS/com.apple.SceneKit.C3DColladaResourcesChecker](MACHOS/filesystem/System/Library/Frameworks/SceneKit.framework/Versions/Current/XPCServices/com.apple.SceneKit.C3DColladaResourcesCoordinator.xpc/Contents/XPCServices/com.apple.SceneKit.C3DColladaResourcesChecker.xpc/Contents/MacOS/com.apple.SceneKit.C3DColladaResourcesChecker.md)
+- [System/Library/Frameworks/SceneKit.framework/Versions/Current/XPCServices/com.apple.SceneKit.C3DColladaResourcesCoordinator.xpc/Contents/XPCServices/com.apple.SceneKit.C3DColladaResourcesExtractor.xpc/Contents/MacOS/com.apple.SceneKit.C3DColladaResourcesExtractor](MACHOS/filesystem/System/Library/Frameworks/SceneKit.framework/Versions/Current/XPCServices/com.apple.SceneKit.C3DColladaResourcesCoordinator.xpc/Contents/XPCServices/com.apple.SceneKit.C3DColladaResourcesExtractor.xpc/Contents/MacOS/com.apple.SceneKit.C3DColladaResourcesExtractor.md)
+- [System/Library/Frameworks/Security.framework/Versions/A/XPCServices/TrustedPeersHelper.xpc/Contents/MacOS/TrustedPeersHelper](MACHOS/filesystem/System/Library/Frameworks/Security.framework/Versions/A/XPCServices/TrustedPeersHelper.xpc/Contents/MacOS/TrustedPeersHelper.md)
+- [System/Library/Frameworks/Security.framework/Versions/Current/XPCServices/TrustedPeersHelper.xpc/Contents/MacOS/TrustedPeersHelper](MACHOS/filesystem/System/Library/Frameworks/Security.framework/Versions/Current/XPCServices/TrustedPeersHelper.xpc/Contents/MacOS/TrustedPeersHelper.md)
+- [System/Library/Frameworks/StoreKit.framework/Support/storekitagent](MACHOS/filesystem/System/Library/Frameworks/StoreKit.framework/Support/storekitagent.md)
+- [System/Library/Frameworks/SystemExtensions.framework/Versions/A/Helpers/sysextd](MACHOS/filesystem/System/Library/Frameworks/SystemExtensions.framework/Versions/A/Helpers/sysextd.md)
+- [System/Library/Frameworks/Translation.framework/translationd](MACHOS/filesystem/System/Library/Frameworks/Translation.framework/translationd.md)
+- [System/Library/HIDPlugins/ColourSensorFilterPlugin.plugin/Contents/MacOS/ColourSensorFilterPlugin](MACHOS/filesystem/System/Library/HIDPlugins/ColourSensorFilterPlugin.plugin/Contents/MacOS/ColourSensorFilterPlugin.md)
+- [System/Library/KernelCollections/BootKernelExtensions.kc](MACHOS/filesystem/System/Library/KernelCollections/BootKernelExtensions.kc.md)
+- [System/Library/KernelCollections/SystemKernelExtensions.kc](MACHOS/filesystem/System/Library/KernelCollections/SystemKernelExtensions.kc.md)
+- [System/Library/Kernels/kernel](MACHOS/filesystem/System/Library/Kernels/kernel.md)
+- [System/Library/Kernels/kernel.release.t6000](MACHOS/filesystem/System/Library/Kernels/kernel.release.t6000.md)
+- [System/Library/Kernels/kernel.release.t6020](MACHOS/filesystem/System/Library/Kernels/kernel.release.t6020.md)
+- [System/Library/Kernels/kernel.release.t6030](MACHOS/filesystem/System/Library/Kernels/kernel.release.t6030.md)
+- [System/Library/Kernels/kernel.release.t6031](MACHOS/filesystem/System/Library/Kernels/kernel.release.t6031.md)
+- [System/Library/Kernels/kernel.release.t6041](MACHOS/filesystem/System/Library/Kernels/kernel.release.t6041.md)
+- [System/Library/Kernels/kernel.release.t6050](MACHOS/filesystem/System/Library/Kernels/kernel.release.t6050.md)
+- [System/Library/Kernels/kernel.release.t8103](MACHOS/filesystem/System/Library/Kernels/kernel.release.t8103.md)
+- [System/Library/Kernels/kernel.release.t8112](MACHOS/filesystem/System/Library/Kernels/kernel.release.t8112.md)
+- [System/Library/Kernels/kernel.release.t8122](MACHOS/filesystem/System/Library/Kernels/kernel.release.t8122.md)
+- [System/Library/Kernels/kernel.release.t8132](MACHOS/filesystem/System/Library/Kernels/kernel.release.t8132.md)
+- [System/Library/Kernels/kernel.release.t8140](MACHOS/filesystem/System/Library/Kernels/kernel.release.t8140.md)
+- [System/Library/Kernels/kernel.release.t8142](MACHOS/filesystem/System/Library/Kernels/kernel.release.t8142.md)
+- [System/Library/Kernels/kernel.release.vmapple](MACHOS/filesystem/System/Library/Kernels/kernel.release.vmapple.md)
+- [System/Library/PDF Services/Save to Web Receipts](MACHOS/filesystem/System/Library/PDF_Services/Save_to_Web_Receipts.md)
+- [System/Library/PDF Services/Save to iCloud Drive](MACHOS/filesystem/System/Library/PDF_Services/Save_to_iCloud_Drive.md)
+- [System/Library/Perl/5.34/darwin-thread-multi-2level/CORE/libperl.dylib](MACHOS/filesystem/System/Library/Perl/5.34/darwin-thread-multi-2level/CORE/libperl.dylib.md)
+- [System/Library/PrivateFrameworks/AMPDevices.framework/Versions/A/Support/AMPDeviceDiscoveryAgent](MACHOS/filesystem/System/Library/PrivateFrameworks/AMPDevices.framework/Versions/A/Support/AMPDeviceDiscoveryAgent.md)
+- [System/Library/PrivateFrameworks/AMPDevices.framework/Versions/A/Support/AMPDevicesAgent](MACHOS/filesystem/System/Library/PrivateFrameworks/AMPDevices.framework/Versions/A/Support/AMPDevicesAgent.md)
+- [System/Library/PrivateFrameworks/AMPDevices.framework/Versions/Current/Support/AMPDeviceDiscoveryAgent](MACHOS/filesystem/System/Library/PrivateFrameworks/AMPDevices.framework/Versions/Current/Support/AMPDeviceDiscoveryAgent.md)
+- [System/Library/PrivateFrameworks/AMPDevices.framework/Versions/Current/Support/AMPDevicesAgent](MACHOS/filesystem/System/Library/PrivateFrameworks/AMPDevices.framework/Versions/Current/Support/AMPDevicesAgent.md)
+- [System/Library/PrivateFrameworks/AMPLibrary.framework/Versions/A/Support/AMPLibraryAgent](MACHOS/filesystem/System/Library/PrivateFrameworks/AMPLibrary.framework/Versions/A/Support/AMPLibraryAgent.md)
+- [System/Library/PrivateFrameworks/AMPLibrary.framework/Versions/Current/Support/AMPLibraryAgent](MACHOS/filesystem/System/Library/PrivateFrameworks/AMPLibrary.framework/Versions/Current/Support/AMPLibraryAgent.md)
+- [System/Library/PrivateFrameworks/AMPSharing.framework/Versions/A/PlugIns/SharingPrefsExtension.appex/Contents/MacOS/SharingPrefsExtension](MACHOS/filesystem/System/Library/PrivateFrameworks/AMPSharing.framework/Versions/A/PlugIns/SharingPrefsExtension.appex/Contents/MacOS/SharingPrefsExtension.md)
+- [System/Library/PrivateFrameworks/AMPSharing.framework/Versions/Current/PlugIns/SharingPrefsExtension.appex/Contents/MacOS/SharingPrefsExtension](MACHOS/filesystem/System/Library/PrivateFrameworks/AMPSharing.framework/Versions/Current/PlugIns/SharingPrefsExtension.appex/Contents/MacOS/SharingPrefsExtension.md)
+- [System/Library/PrivateFrameworks/AVKitMacHelper.framework/Versions/A/XPCServices/RoutePickerViewService.xpc/Contents/MacOS/RoutePickerViewService](MACHOS/filesystem/System/Library/PrivateFrameworks/AVKitMacHelper.framework/Versions/A/XPCServices/RoutePickerViewService.xpc/Contents/MacOS/RoutePickerViewService.md)
+- [System/Library/PrivateFrameworks/AVKitMacHelper.framework/Versions/Current/XPCServices/RoutePickerViewService.xpc/Contents/MacOS/RoutePickerViewService](MACHOS/filesystem/System/Library/PrivateFrameworks/AVKitMacHelper.framework/Versions/Current/XPCServices/RoutePickerViewService.xpc/Contents/MacOS/RoutePickerViewService.md)
+- [System/Library/PrivateFrameworks/AXAssetLoader.framework/Support/axassetsd](MACHOS/filesystem/System/Library/PrivateFrameworks/AXAssetLoader.framework/Support/axassetsd.md)
+- [System/Library/PrivateFrameworks/AppStoreDaemon.framework/Support/appstoreagent](MACHOS/filesystem/System/Library/PrivateFrameworks/AppStoreDaemon.framework/Support/appstoreagent.md)
+- [System/Library/PrivateFrameworks/AppStoreDaemon.framework/Support/appstored](MACHOS/filesystem/System/Library/PrivateFrameworks/AppStoreDaemon.framework/Support/appstored.md)
+- [System/Library/PrivateFrameworks/AppleAccountTransparency.framework/Versions/A/Resources/appleaccounttransparencyd](MACHOS/filesystem/System/Library/PrivateFrameworks/AppleAccountTransparency.framework/Versions/A/Resources/appleaccounttransparencyd.md)
+- [System/Library/PrivateFrameworks/AppleAccountTransparency.framework/Versions/Current/Resources/appleaccounttransparencyd](MACHOS/filesystem/System/Library/PrivateFrameworks/AppleAccountTransparency.framework/Versions/Current/Resources/appleaccounttransparencyd.md)
+- [System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/amsengagementd](MACHOS/filesystem/System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/amsengagementd.md)
+- [System/Library/PrivateFrameworks/ApplePushService.framework/apsd](MACHOS/filesystem/System/Library/PrivateFrameworks/ApplePushService.framework/apsd.md)
+- [System/Library/PrivateFrameworks/AskPermission.framework/Versions/A/Resources/askpermissiond](MACHOS/filesystem/System/Library/PrivateFrameworks/AskPermission.framework/Versions/A/Resources/askpermissiond.md)
+- [System/Library/PrivateFrameworks/AskPermission.framework/Versions/Current/Resources/askpermissiond](MACHOS/filesystem/System/Library/PrivateFrameworks/AskPermission.framework/Versions/Current/Resources/askpermissiond.md)
+- [System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/Support/assistantd](MACHOS/filesystem/System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/Support/assistantd.md)
+- [System/Library/PrivateFrameworks/BiomeStreams.framework/Support/BiomeAgent](MACHOS/filesystem/System/Library/PrivateFrameworks/BiomeStreams.framework/Support/BiomeAgent.md)
+- [System/Library/PrivateFrameworks/BiomeStreams.framework/Support/biomed](MACHOS/filesystem/System/Library/PrivateFrameworks/BiomeStreams.framework/Support/biomed.md)
+- [System/Library/PrivateFrameworks/BookDataStore.framework/Support/bookdatastored](MACHOS/filesystem/System/Library/PrivateFrameworks/BookDataStore.framework/Support/bookdatastored.md)
+- [System/Library/PrivateFrameworks/BookLibraryCore.framework/Support/bookassetd](MACHOS/filesystem/System/Library/PrivateFrameworks/BookLibraryCore.framework/Support/bookassetd.md)
+- [System/Library/PrivateFrameworks/BusinessChatService.framework/businessservicesd](MACHOS/filesystem/System/Library/PrivateFrameworks/BusinessChatService.framework/businessservicesd.md)
+- [System/Library/PrivateFrameworks/CalendarDaemon.framework/Support/calaccessd](MACHOS/filesystem/System/Library/PrivateFrameworks/CalendarDaemon.framework/Support/calaccessd.md)
+- [System/Library/PrivateFrameworks/CallIntelligence.framework/callintelligenced](MACHOS/filesystem/System/Library/PrivateFrameworks/CallIntelligence.framework/callintelligenced.md)
+- [System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd](MACHOS/filesystem/System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd.md)
+- [System/Library/PrivateFrameworks/CloudPhotoLibrary.framework/Versions/A/Support/cloudphotod](MACHOS/filesystem/System/Library/PrivateFrameworks/CloudPhotoLibrary.framework/Versions/A/Support/cloudphotod.md)
+- [System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storedownloadd](MACHOS/filesystem/System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storedownloadd.md)
+- [System/Library/PrivateFrameworks/CommerceKit.framework/Versions/Current/Resources/storedownloadd](MACHOS/filesystem/System/Library/PrivateFrameworks/CommerceKit.framework/Versions/Current/Resources/storedownloadd.md)
+- [System/Library/PrivateFrameworks/CommunicationTrust.framework/Support/communicationtrustd](MACHOS/filesystem/System/Library/PrivateFrameworks/CommunicationTrust.framework/Support/communicationtrustd.md)
+- [System/Library/PrivateFrameworks/CoreAnalytics.framework/Support/analyticsagent](MACHOS/filesystem/System/Library/PrivateFrameworks/CoreAnalytics.framework/Support/analyticsagent.md)
+- [System/Library/PrivateFrameworks/CoreCDP.framework/Versions/A/Resources/cdpd](MACHOS/filesystem/System/Library/PrivateFrameworks/CoreCDP.framework/Versions/A/Resources/cdpd.md)
+- [System/Library/PrivateFrameworks/CoreCDP.framework/Versions/Current/Resources/cdpd](MACHOS/filesystem/System/Library/PrivateFrameworks/CoreCDP.framework/Versions/Current/Resources/cdpd.md)
+- [System/Library/PrivateFrameworks/CoreEmbeddedSpeechRecognition.framework/speechmaintenanced](MACHOS/filesystem/System/Library/PrivateFrameworks/CoreEmbeddedSpeechRecognition.framework/speechmaintenanced.md)
+- [System/Library/PrivateFrameworks/CoreLocationTiles.framework/Versions/A/XPCServices/TilesService.xpc/Contents/MacOS/TilesService](MACHOS/filesystem/System/Library/PrivateFrameworks/CoreLocationTiles.framework/Versions/A/XPCServices/TilesService.xpc/Contents/MacOS/TilesService.md)
+- [System/Library/PrivateFrameworks/CoreLocationTiles.framework/Versions/Current/XPCServices/TilesService.xpc/Contents/MacOS/TilesService](MACHOS/filesystem/System/Library/PrivateFrameworks/CoreLocationTiles.framework/Versions/Current/XPCServices/TilesService.xpc/Contents/MacOS/TilesService.md)
+- [System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd](MACHOS/filesystem/System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd.md)
+- [System/Library/PrivateFrameworks/CoreThreadRadio.framework/threadradiod](MACHOS/filesystem/System/Library/PrivateFrameworks/CoreThreadRadio.framework/threadradiod.md)
+- [System/Library/PrivateFrameworks/DataAccess.framework/Support/dataaccessd](MACHOS/filesystem/System/Library/PrivateFrameworks/DataAccess.framework/Support/dataaccessd.md)
+- [System/Library/PrivateFrameworks/Ecosystem.framework/Support/ecosystemagent](MACHOS/filesystem/System/Library/PrivateFrameworks/Ecosystem.framework/Support/ecosystemagent.md)
+- [System/Library/PrivateFrameworks/Ecosystem.framework/Support/ecosystemd](MACHOS/filesystem/System/Library/PrivateFrameworks/Ecosystem.framework/Support/ecosystemd.md)
+- [System/Library/PrivateFrameworks/EcosystemAnalytics.framework/Support/ecosystemanalyticsd](MACHOS/filesystem/System/Library/PrivateFrameworks/EcosystemAnalytics.framework/Support/ecosystemanalyticsd.md)
+- [System/Library/PrivateFrameworks/FaceTimeMessageStore.framework/facetimemessagestored](MACHOS/filesystem/System/Library/PrivateFrameworks/FaceTimeMessageStore.framework/facetimemessagestored.md)
+- [System/Library/PrivateFrameworks/GPUCompiler.framework/Versions/32023/Libraries/libGPUCompilerImplLazy.dylib](MACHOS/filesystem/System/Library/PrivateFrameworks/GPUCompiler.framework/Versions/32023/Libraries/libGPUCompilerImplLazy.dylib.md)
+- [System/Library/PrivateFrameworks/GPUCompiler.framework/Versions/Current/Libraries/libGPUCompilerImplLazy.dylib](MACHOS/filesystem/System/Library/PrivateFrameworks/GPUCompiler.framework/Versions/Current/Libraries/libGPUCompilerImplLazy.dylib.md)
+- [System/Library/PrivateFrameworks/GPUToolsCapture.framework/Versions/A/GPUToolsCapture](MACHOS/filesystem/System/Library/PrivateFrameworks/GPUToolsCapture.framework/Versions/A/GPUToolsCapture.md)
+- [System/Library/PrivateFrameworks/HearingCore.framework/heard](MACHOS/filesystem/System/Library/PrivateFrameworks/HearingCore.framework/heard.md)
+- [System/Library/PrivateFrameworks/HomeKitDaemon.framework/Support/homed](MACHOS/filesystem/System/Library/PrivateFrameworks/HomeKitDaemon.framework/Support/homed.md)
+- [System/Library/PrivateFrameworks/HomeKitDaemonLegacy.framework/Versions/A/HomeKitDaemonLegacy](MACHOS/filesystem/System/Library/PrivateFrameworks/HomeKitDaemonLegacy.framework/Versions/A/HomeKitDaemonLegacy.md)
+- [System/Library/PrivateFrameworks/IconRendering.framework/Versions/A/Resources/binary.metallib](MACHOS/filesystem/System/Library/PrivateFrameworks/IconRendering.framework/Versions/A/Resources/binary.metallib.md)
+- [System/Library/PrivateFrameworks/IconRendering.framework/Versions/Current/Resources/binary.metallib](MACHOS/filesystem/System/Library/PrivateFrameworks/IconRendering.framework/Versions/Current/Resources/binary.metallib.md)
+- [System/Library/PrivateFrameworks/IntelligencePlatformCore.framework/Versions/A/intelligenceplatformd](MACHOS/filesystem/System/Library/PrivateFrameworks/IntelligencePlatformCore.framework/Versions/A/intelligenceplatformd.md)
+- [System/Library/PrivateFrameworks/IntelligencePlatformCore.framework/Versions/A/knowledgeconstructiond](MACHOS/filesystem/System/Library/PrivateFrameworks/IntelligencePlatformCore.framework/Versions/A/knowledgeconstructiond.md)
+- [System/Library/PrivateFrameworks/JetCore.framework/Support/jetpackassetd](MACHOS/filesystem/System/Library/PrivateFrameworks/JetCore.framework/Support/jetpackassetd.md)
+- [System/Library/PrivateFrameworks/LockdownMode.framework/Versions/A/XPCServices/lockdownmoded](MACHOS/filesystem/System/Library/PrivateFrameworks/LockdownMode.framework/Versions/A/XPCServices/lockdownmoded.md)
+- [System/Library/PrivateFrameworks/MXI.framework/Versions/A/Resources/mxi_archive.metallib](MACHOS/filesystem/System/Library/PrivateFrameworks/MXI.framework/Versions/A/Resources/mxi_archive.metallib.md)
+- [System/Library/PrivateFrameworks/MXI.framework/Versions/Current/Resources/mxi_archive.metallib](MACHOS/filesystem/System/Library/PrivateFrameworks/MXI.framework/Versions/Current/Resources/mxi_archive.metallib.md)
+- [System/Library/PrivateFrameworks/MapsSync.framework/mapssyncd](MACHOS/filesystem/System/Library/PrivateFrameworks/MapsSync.framework/mapssyncd.md)
+- [System/Library/PrivateFrameworks/MediaAnalysis.framework/Versions/A/mediaanalysisd](MACHOS/filesystem/System/Library/PrivateFrameworks/MediaAnalysis.framework/Versions/A/mediaanalysisd.md)
+- [System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediaremoted](MACHOS/filesystem/System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediaremoted.md)
+- [System/Library/PrivateFrameworks/MobileAccessoryUpdater.framework/Support/accessoryupdaterd](MACHOS/filesystem/System/Library/PrivateFrameworks/MobileAccessoryUpdater.framework/Support/accessoryupdaterd.md)
+- [System/Library/PrivateFrameworks/MobileAccessoryUpdater.framework/XPCServices/UARPUpdaterServiceUSBPD.xpc/Contents/MacOS/UARPUpdaterServiceUSBPD](MACHOS/filesystem/System/Library/PrivateFrameworks/MobileAccessoryUpdater.framework/XPCServices/UARPUpdaterServiceUSBPD.xpc/Contents/MacOS/UARPUpdaterServiceUSBPD.md)
+- [System/Library/PrivateFrameworks/MobileAssetDaemon.framework/Versions/A/XPCServices/com.apple.MobileAsset.DownloadService.Builtin.xpc/Contents/MacOS/com.apple.MobileAsset.DownloadService.Builtin](MACHOS/filesystem/System/Library/PrivateFrameworks/MobileAssetDaemon.framework/Versions/A/XPCServices/com.apple.MobileAsset.DownloadService.Builtin.xpc/Contents/MacOS/com.apple.MobileAsset.DownloadService.Builtin.md)
+- [System/Library/PrivateFrameworks/MobileAssetDaemon.framework/Versions/Current/XPCServices/com.apple.MobileAsset.DownloadService.Builtin.xpc/Contents/MacOS/com.apple.MobileAsset.DownloadService.Builtin](MACHOS/filesystem/System/Library/PrivateFrameworks/MobileAssetDaemon.framework/Versions/Current/XPCServices/com.apple.MobileAsset.DownloadService.Builtin.xpc/Contents/MacOS/com.apple.MobileAsset.DownloadService.Builtin.md)
+- [System/Library/PrivateFrameworks/MobileInstallation.framework/Support/appinstalld](MACHOS/filesystem/System/Library/PrivateFrameworks/MobileInstallation.framework/Support/appinstalld.md)
+- [System/Library/PrivateFrameworks/MobileInstallation.framework/XPCServices/com.apple.MobileInstallationHelperService.xpc/Contents/MacOS/com.apple.MobileInstallationHelperService](MACHOS/filesystem/System/Library/PrivateFrameworks/MobileInstallation.framework/XPCServices/com.apple.MobileInstallationHelperService.xpc/Contents/MacOS/com.apple.MobileInstallationHelperService.md)
+- [System/Library/PrivateFrameworks/MobileSoftwareUpdate.framework/Support/softwareupdated](MACHOS/filesystem/System/Library/PrivateFrameworks/MobileSoftwareUpdate.framework/Support/softwareupdated.md)
+- [System/Library/PrivateFrameworks/MobileSoftwareUpdate.framework/Versions/A/XPCServices/com.apple.MobileSoftwareUpdate.CleanupPreparePathService.xpc/Contents/MacOS/com.apple.MobileSoftwareUpdate.CleanupPreparePathService](MACHOS/filesystem/System/Library/PrivateFrameworks/MobileSoftwareUpdate.framework/Versions/A/XPCServices/com.apple.MobileSoftwareUpdate.CleanupPreparePathService.xpc/Contents/MacOS/com.apple.MobileSoftwareUpdate.CleanupPreparePathService.md)
+- [System/Library/PrivateFrameworks/MobileSoftwareUpdate.framework/Versions/Current/XPCServices/com.apple.MobileSoftwareUpdate.CleanupPreparePathService.xpc/Contents/MacOS/com.apple.MobileSoftwareUpdate.CleanupPreparePathService](MACHOS/filesystem/System/Library/PrivateFrameworks/MobileSoftwareUpdate.framework/Versions/Current/XPCServices/com.apple.MobileSoftwareUpdate.CleanupPreparePathService.xpc/Contents/MacOS/com.apple.MobileSoftwareUpdate.CleanupPreparePathService.md)
+- [System/Library/PrivateFrameworks/MobileTimer.framework/Executables/mobiletimerd](MACHOS/filesystem/System/Library/PrivateFrameworks/MobileTimer.framework/Executables/mobiletimerd.md)
+- [System/Library/PrivateFrameworks/NewDeviceOutreach.framework/ndoagent](MACHOS/filesystem/System/Library/PrivateFrameworks/NewDeviceOutreach.framework/ndoagent.md)
+- [System/Library/PrivateFrameworks/NewsDaemon.framework/newsd](MACHOS/filesystem/System/Library/PrivateFrameworks/NewsDaemon.framework/newsd.md)
+- [System/Library/PrivateFrameworks/OmniSearch.framework/Versions/A/searchtoold](MACHOS/filesystem/System/Library/PrivateFrameworks/OmniSearch.framework/Versions/A/searchtoold.md)
+- [System/Library/PrivateFrameworks/OnDeviceStorage.framework/Support/amsondevicestoraged](MACHOS/filesystem/System/Library/PrivateFrameworks/OnDeviceStorage.framework/Support/amsondevicestoraged.md)
+- [System/Library/PrivateFrameworks/PassKitCore.framework/passd](MACHOS/filesystem/System/Library/PrivateFrameworks/PassKitCore.framework/passd.md)
+- [System/Library/PrivateFrameworks/RenderBox.framework/Versions/A/Resources/archive.metallib](MACHOS/filesystem/System/Library/PrivateFrameworks/RenderBox.framework/Versions/A/Resources/archive.metallib.md)
+- [System/Library/PrivateFrameworks/RenderBox.framework/Versions/Current/Resources/archive.metallib](MACHOS/filesystem/System/Library/PrivateFrameworks/RenderBox.framework/Versions/Current/Resources/archive.metallib.md)
+- [System/Library/PrivateFrameworks/ScreenTimeCore.framework/Versions/A/ScreenTimeAgent](MACHOS/filesystem/System/Library/PrivateFrameworks/ScreenTimeCore.framework/Versions/A/ScreenTimeAgent.md)
+- [System/Library/PrivateFrameworks/SecureMessaging.framework/SecureMessagingAgent](MACHOS/filesystem/System/Library/PrivateFrameworks/SecureMessaging.framework/SecureMessagingAgent.md)
+- [System/Library/PrivateFrameworks/SiriVOX.framework/SiriHeadlessService](MACHOS/filesystem/System/Library/PrivateFrameworks/SiriVOX.framework/SiriHeadlessService.md)
+- [System/Library/PrivateFrameworks/SpeechRecognitionCore.framework/Versions/A/XPCServices/com.apple.SpeechRecognitionCore.brokerd.xpc/Contents/XPCServices/com.apple.SpeechRecognitionCore.speechrecognitiond.xpc/Contents/MacOS/com.apple.SpeechRecognitionCore.speechrecognitiond](MACHOS/filesystem/System/Library/PrivateFrameworks/SpeechRecognitionCore.framework/Versions/A/XPCServices/com.apple.SpeechRecognitionCore.brokerd.xpc/Contents/XPCServices/com.apple.SpeechRecognitionCore.speechrecognitiond.xpc/Contents/MacOS/com.apple.SpeechRecognitionCore.speechrecognitiond.md)
+- [System/Library/PrivateFrameworks/StatusKit.framework/StatusKitAgent](MACHOS/filesystem/System/Library/PrivateFrameworks/StatusKit.framework/StatusKitAgent.md)
+- [System/Library/PrivateFrameworks/SyncedDefaults.framework/Support/syncdefaultsd](MACHOS/filesystem/System/Library/PrivateFrameworks/SyncedDefaults.framework/Support/syncdefaultsd.md)
+- [System/Library/PrivateFrameworks/SystemMigration.framework/Versions/A/Resources/systemmigrationd](MACHOS/filesystem/System/Library/PrivateFrameworks/SystemMigration.framework/Versions/A/Resources/systemmigrationd.md)
+- [System/Library/PrivateFrameworks/SystemMigration.framework/Versions/Current/Resources/systemmigrationd](MACHOS/filesystem/System/Library/PrivateFrameworks/SystemMigration.framework/Versions/Current/Resources/systemmigrationd.md)
+- [System/Library/PrivateFrameworks/TelephonyUtilities.framework/callservicesd](MACHOS/filesystem/System/Library/PrivateFrameworks/TelephonyUtilities.framework/callservicesd.md)
+- [System/Library/PrivateFrameworks/TextToSpeechVoiceBankingSupport.framework/Support/voicebankingd](MACHOS/filesystem/System/Library/PrivateFrameworks/TextToSpeechVoiceBankingSupport.framework/Support/voicebankingd.md)
+- [System/Library/PrivateFrameworks/UsageTracking.framework/Versions/A/UsageTrackingAgent](MACHOS/filesystem/System/Library/PrivateFrameworks/UsageTracking.framework/Versions/A/UsageTrackingAgent.md)
+- [System/Library/PrivateFrameworks/UserActivity.framework/Agents/useractivityd](MACHOS/filesystem/System/Library/PrivateFrameworks/UserActivity.framework/Agents/useractivityd.md)
+- [System/Library/PrivateFrameworks/UserNotificationsCore.framework/Support/usernotificationsd](MACHOS/filesystem/System/Library/PrivateFrameworks/UserNotificationsCore.framework/Support/usernotificationsd.md)
+- [System/Library/PrivateFrameworks/Vista.framework/Versions/A/Resources/VSTPrecompiledPipelines.metallib](MACHOS/filesystem/System/Library/PrivateFrameworks/Vista.framework/Versions/A/Resources/VSTPrecompiledPipelines.metallib.md)
+- [System/Library/PrivateFrameworks/Vista.framework/Versions/Current/Resources/VSTPrecompiledPipelines.metallib](MACHOS/filesystem/System/Library/PrivateFrameworks/Vista.framework/Versions/Current/Resources/VSTPrecompiledPipelines.metallib.md)
+- [System/Library/PrivateFrameworks/VoiceShortcuts.framework/Versions/A/Support/siriactionsd](MACHOS/filesystem/System/Library/PrivateFrameworks/VoiceShortcuts.framework/Versions/A/Support/siriactionsd.md)
+- [System/Library/PrivateFrameworks/iCloudDriveCore.framework/Versions/A/Support/bird](MACHOS/filesystem/System/Library/PrivateFrameworks/iCloudDriveCore.framework/Versions/A/Support/bird.md)
+- [System/Library/PrivateFrameworks/iTunesCloud.framework/Support/itunescloudd](MACHOS/filesystem/System/Library/PrivateFrameworks/iTunesCloud.framework/Support/itunescloudd.md)
+- [System/Library/SecurityResearch/usr/bin/cryptexctl.research](MACHOS/filesystem/System/Library/SecurityResearch/usr/bin/cryptexctl.research.md)
+- [System/Library/Snippets/UIPlugins/SiriInferenceFlowsUIPlugin.bundle/Contents/MacOS/SiriInferenceFlowsUIPlugin](MACHOS/filesystem/System/Library/Snippets/UIPlugins/SiriInferenceFlowsUIPlugin.bundle/Contents/MacOS/SiriInferenceFlowsUIPlugin.md)
+- [System/Library/Snippets/UIPlugins/SystemPlugin.bundle/Contents/MacOS/SystemPlugin](MACHOS/filesystem/System/Library/Snippets/UIPlugins/SystemPlugin.bundle/Contents/MacOS/SystemPlugin.md)
+- [System/Library/Snippets/UIPlugins/TimerUIPlugin.bundle/Contents/MacOS/TimerUIPlugin](MACHOS/filesystem/System/Library/Snippets/UIPlugins/TimerUIPlugin.bundle/Contents/MacOS/TimerUIPlugin.md)
+- [System/Library/SystemProfiler/SPBluetoothReporter.spreporter/Contents/MacOS/SPBluetoothReporter](MACHOS/filesystem/System/Library/SystemProfiler/SPBluetoothReporter.spreporter/Contents/MacOS/SPBluetoothReporter.md)
+- [System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorAdload](MACHOS/filesystem/System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorAdload.md)
+- [System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorBadGacha](MACHOS/filesystem/System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorBadGacha.md)
+- [System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorBlueTop](MACHOS/filesystem/System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorBlueTop.md)
+- [System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorBundlore](MACHOS/filesystem/System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorBundlore.md)
+- [System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorCardboardCutout](MACHOS/filesystem/System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorCardboardCutout.md)
+- [System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorColdSnap](MACHOS/filesystem/System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorColdSnap.md)
+- [System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorCrapyrator](MACHOS/filesystem/System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorCrapyrator.md)
+- [System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorDolittle](MACHOS/filesystem/System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorDolittle.md)
+- [System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorDubRobber](MACHOS/filesystem/System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorDubRobber.md)
+- [System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorEicar](MACHOS/filesystem/System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorEicar.md)
+- [System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorFloppyFlipper](MACHOS/filesystem/System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorFloppyFlipper.md)
+- [System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorGenieo](MACHOS/filesystem/System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorGenieo.md)
+- [System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorGreenAcre](MACHOS/filesystem/System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorGreenAcre.md)
+- [System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorKeySteal](MACHOS/filesystem/System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorKeySteal.md)
+- [System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorPirrit](MACHOS/filesystem/System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorPirrit.md)
+- [System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorRankStank](MACHOS/filesystem/System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorRankStank.md)
+- [System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorRoachFlight](MACHOS/filesystem/System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorRoachFlight.md)
+- [System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorSheepSwap](MACHOS/filesystem/System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorSheepSwap.md)
+- [System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorSnowBeagle](MACHOS/filesystem/System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorSnowBeagle.md)
+- [System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorSnowDrift](MACHOS/filesystem/System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorSnowDrift.md)
+- [System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorToyDrop](MACHOS/filesystem/System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorToyDrop.md)
+- [System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorTrovi](MACHOS/filesystem/System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorTrovi.md)
+- [System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorWaterNet](MACHOS/filesystem/System/Library/Templates/Data/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtectRemediatorWaterNet.md)
+- [System/Library/Templates/Data/Library/Apple/System/Library/PrivateFrameworks/CryptexKitHost.framework/Versions/A/CryptexKitHost](MACHOS/filesystem/System/Library/Templates/Data/Library/Apple/System/Library/PrivateFrameworks/CryptexKitHost.framework/Versions/A/CryptexKitHost.md)
+- [System/Library/Templates/Data/Library/Apple/System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice](MACHOS/filesystem/System/Library/Templates/Data/Library/Apple/System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice.md)
+- [System/Library/Templates/Data/Library/Apple/System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/Resources/usbmuxd](MACHOS/filesystem/System/Library/Templates/Data/Library/Apple/System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/Resources/usbmuxd.md)
+- [System/Library/Templates/Data/Library/Apple/System/Library/PrivateFrameworks/MobileDevice.framework/Versions/Current/Resources/usbmuxd](MACHOS/filesystem/System/Library/Templates/Data/Library/Apple/System/Library/PrivateFrameworks/MobileDevice.framework/Versions/Current/Resources/usbmuxd.md)
+- [System/Library/Video/Plug-Ins/AppleAfterburnerProResDecoder.bundle/Contents/MacOS/AppleAfterburnerProResDecoder](MACHOS/filesystem/System/Library/Video/Plug-Ins/AppleAfterburnerProResDecoder.bundle/Contents/MacOS/AppleAfterburnerProResDecoder.md)
+- [System/Library/Video/Plug-Ins/AppleProResRAWCodec.bundle/Contents/MacOS/AppleProResRAWCodec](MACHOS/filesystem/System/Library/Video/Plug-Ins/AppleProResRAWCodec.bundle/Contents/MacOS/AppleProResRAWCodec.md)
+- [System/Library/Video/Plug-Ins/AppleVideoDecoder.bundle/Contents/MacOS/AppleVideoDecoder](MACHOS/filesystem/System/Library/Video/Plug-Ins/AppleVideoDecoder.bundle/Contents/MacOS/AppleVideoDecoder.md)
+- [System/iOSSupport/System/Library/PrivateFrameworks/HomeEnergyDaemon.framework/Support/homeenergyd](MACHOS/filesystem/System/iOSSupport/System/Library/PrivateFrameworks/HomeEnergyDaemon.framework/Support/homeenergyd.md)
+- [System/iOSSupport/System/Library/PrivateFrameworks/WorkflowUI.framework/PlugIns/WidgetConfigurationExtension.appex/Contents/MacOS/WidgetConfigurationExtension](MACHOS/filesystem/System/iOSSupport/System/Library/PrivateFrameworks/WorkflowUI.framework/PlugIns/WidgetConfigurationExtension.appex/Contents/MacOS/WidgetConfigurationExtension.md)
+- [bin/launchctl](MACHOS/filesystem/bin/launchctl.md)
+- [sbin/launchd](MACHOS/filesystem/sbin/launchd.md)
+- [usr/bin/IOMFB_FDR_Loader](MACHOS/filesystem/usr/bin/IOMFB_FDR_Loader.md)
+- [usr/bin/afktool](MACHOS/filesystem/usr/bin/afktool.md)
+- [usr/bin/assetutil](MACHOS/filesystem/usr/bin/assetutil.md)
+- [usr/bin/automationmodetool](MACHOS/filesystem/usr/bin/automationmodetool.md)
+- [usr/bin/kmutil](MACHOS/filesystem/usr/bin/kmutil.md)
+- [usr/bin/layerutil](MACHOS/filesystem/usr/bin/layerutil.md)
+- [usr/bin/ldapcompare](MACHOS/filesystem/usr/bin/ldapcompare.md)
+- [usr/bin/ldapdelete](MACHOS/filesystem/usr/bin/ldapdelete.md)
+- [usr/bin/ldapexop](MACHOS/filesystem/usr/bin/ldapexop.md)
+- [usr/bin/ldapmodify](MACHOS/filesystem/usr/bin/ldapmodify.md)
+- [usr/bin/ldapmodrdn](MACHOS/filesystem/usr/bin/ldapmodrdn.md)
+- [usr/bin/ldappasswd](MACHOS/filesystem/usr/bin/ldappasswd.md)
+- [usr/bin/ldapsearch](MACHOS/filesystem/usr/bin/ldapsearch.md)
+- [usr/bin/ldapurl](MACHOS/filesystem/usr/bin/ldapurl.md)
+- [usr/bin/ldapwhoami](MACHOS/filesystem/usr/bin/ldapwhoami.md)
+- [usr/bin/mcxquery](MACHOS/filesystem/usr/bin/mcxquery.md)
+- [usr/bin/mcxrefresh](MACHOS/filesystem/usr/bin/mcxrefresh.md)
+- [usr/bin/modelcatalogdump](MACHOS/filesystem/usr/bin/modelcatalogdump.md)
+- [usr/bin/parl](MACHOS/filesystem/usr/bin/parl.md)
+- [usr/bin/plutil](MACHOS/filesystem/usr/bin/plutil.md)
+- [usr/bin/shazam](MACHOS/filesystem/usr/bin/shazam.md)
+- [usr/bin/shortcuts](MACHOS/filesystem/usr/bin/shortcuts.md)
+- [usr/bin/ssh](MACHOS/filesystem/usr/bin/ssh.md)
+- [usr/bin/ssh-add](MACHOS/filesystem/usr/bin/ssh-add.md)
+- [usr/bin/ssh-keyscan](MACHOS/filesystem/usr/bin/ssh-keyscan.md)
+- [usr/bin/usdzip](MACHOS/filesystem/usr/bin/usdzip.md)
+- [usr/bin/xip](MACHOS/filesystem/usr/bin/xip.md)
+- [usr/bin/zip](MACHOS/filesystem/usr/bin/zip.md)
+- [usr/bin/zipcloak](MACHOS/filesystem/usr/bin/zipcloak.md)
+- [usr/bin/zipnote](MACHOS/filesystem/usr/bin/zipnote.md)
+- [usr/bin/zipsplit](MACHOS/filesystem/usr/bin/zipsplit.md)
+- [usr/lib/dyld](MACHOS/filesystem/usr/lib/dyld.md)
+- [usr/lib/ignition](MACHOS/filesystem/usr/lib/ignition.md)
+- [usr/libexec/AppleQEMUGuestAgent](MACHOS/filesystem/usr/libexec/AppleQEMUGuestAgent.md)
+- [usr/libexec/AppleVirtualPlatformHIDBridge](MACHOS/filesystem/usr/libexec/AppleVirtualPlatformHIDBridge.md)
+- [usr/libexec/ContainerMigrationService](MACHOS/filesystem/usr/libexec/ContainerMigrationService.md)
+- [usr/libexec/DataDetectorsLocalSources](MACHOS/filesystem/usr/libexec/DataDetectorsLocalSources.md)
+- [usr/libexec/DumpPanic](MACHOS/filesystem/usr/libexec/DumpPanic.md)
+- [usr/libexec/DumpPanicRecoveryOS](MACHOS/filesystem/usr/libexec/DumpPanicRecoveryOS.md)
+- [usr/libexec/FirmwareUpdateLauncher](MACHOS/filesystem/usr/libexec/FirmwareUpdateLauncher.md)
+- [usr/libexec/MTLAssetUpgraderD](MACHOS/filesystem/usr/libexec/MTLAssetUpgraderD.md)
+- [usr/libexec/PowerUIAgent](MACHOS/filesystem/usr/libexec/PowerUIAgent.md)
+- [usr/libexec/TouchBarServer](MACHOS/filesystem/usr/libexec/TouchBarServer.md)
+- [usr/libexec/adprivacyd](MACHOS/filesystem/usr/libexec/adprivacyd.md)
+- [usr/libexec/airportd](MACHOS/filesystem/usr/libexec/airportd.md)
+- [usr/libexec/amfid](MACHOS/filesystem/usr/libexec/amfid.md)
+- [usr/libexec/appleh13camerad](MACHOS/filesystem/usr/libexec/appleh13camerad.md)
+- [usr/libexec/appleh16camerad](MACHOS/filesystem/usr/libexec/appleh16camerad.md)
+- [usr/libexec/appleidsetupd](MACHOS/filesystem/usr/libexec/appleidsetupd.md)
+- [usr/libexec/arkitd](MACHOS/filesystem/usr/libexec/arkitd.md)
+- [usr/libexec/asktod](MACHOS/filesystem/usr/libexec/asktod.md)
+- [usr/libexec/assessmentagent](MACHOS/filesystem/usr/libexec/assessmentagent.md)
+- [usr/libexec/audiomxd](MACHOS/filesystem/usr/libexec/audiomxd.md)
+- [usr/libexec/avconferenced](MACHOS/filesystem/usr/libexec/avconferenced.md)
+- [usr/libexec/backgroundassets.user](MACHOS/filesystem/usr/libexec/backgroundassets.user.md)
+- [usr/libexec/betaenrollmentagent](MACHOS/filesystem/usr/libexec/betaenrollmentagent.md)
+- [usr/libexec/betaenrollmentd](MACHOS/filesystem/usr/libexec/betaenrollmentd.md)
+- [usr/libexec/biomesyncd](MACHOS/filesystem/usr/libexec/biomesyncd.md)
+- [usr/libexec/bluetoothuserd](MACHOS/filesystem/usr/libexec/bluetoothuserd.md)
+- [usr/libexec/cameracaptured](MACHOS/filesystem/usr/libexec/cameracaptured.md)
+- [usr/libexec/companiond](MACHOS/filesystem/usr/libexec/companiond.md)
+- [usr/libexec/coreidvd](MACHOS/filesystem/usr/libexec/coreidvd.md)
+- [usr/libexec/create_automation_image_overlay](MACHOS/filesystem/usr/libexec/create_automation_image_overlay.md)
+- [usr/libexec/cryptexd](MACHOS/filesystem/usr/libexec/cryptexd.md)
+- [usr/libexec/diagnosticd](MACHOS/filesystem/usr/libexec/diagnosticd.md)
+- [usr/libexec/diagnosticextensionsd](MACHOS/filesystem/usr/libexec/diagnosticextensionsd.md)
+- [usr/libexec/dirhelper](MACHOS/filesystem/usr/libexec/dirhelper.md)
+- [usr/libexec/diskimagesiod](MACHOS/filesystem/usr/libexec/diskimagesiod.md)
+- [usr/libexec/displaypolicyd](MACHOS/filesystem/usr/libexec/displaypolicyd.md)
+- [usr/libexec/efiupdater](MACHOS/filesystem/usr/libexec/efiupdater.md)
+- [usr/libexec/eligibilityd](MACHOS/filesystem/usr/libexec/eligibilityd.md)
+- [usr/libexec/enhancedloggingd](MACHOS/filesystem/usr/libexec/enhancedloggingd.md)
+- [usr/libexec/fairplaydeviceidentityd](MACHOS/filesystem/usr/libexec/fairplaydeviceidentityd.md)
+- [usr/libexec/findmylocateagent](MACHOS/filesystem/usr/libexec/findmylocateagent.md)
+- [usr/libexec/frauddefensed](MACHOS/filesystem/usr/libexec/frauddefensed.md)
+- [usr/libexec/gamed](MACHOS/filesystem/usr/libexec/gamed.md)
+- [usr/libexec/gputoolsserviced](MACHOS/filesystem/usr/libexec/gputoolsserviced.md)
+- [usr/libexec/icloudmailagent](MACHOS/filesystem/usr/libexec/icloudmailagent.md)
+- [usr/libexec/kcproxy](MACHOS/filesystem/usr/libexec/kcproxy.md)
+- [usr/libexec/lightsoutmanagementd](MACHOS/filesystem/usr/libexec/lightsoutmanagementd.md)
+- [usr/libexec/locationd](MACHOS/filesystem/usr/libexec/locationd.md)
+- [usr/libexec/logd_helper](MACHOS/filesystem/usr/libexec/logd_helper.md)
+- [usr/libexec/loginitemregisterd](MACHOS/filesystem/usr/libexec/loginitemregisterd.md)
+- [usr/libexec/managedeventsd](MACHOS/filesystem/usr/libexec/managedeventsd.md)
+- [usr/libexec/metrickitd](MACHOS/filesystem/usr/libexec/metrickitd.md)
+- [usr/libexec/mlhostd](MACHOS/filesystem/usr/libexec/mlhostd.md)
+- [usr/libexec/mobileactivationd](MACHOS/filesystem/usr/libexec/mobileactivationd.md)
+- [usr/libexec/mobileassetd](MACHOS/filesystem/usr/libexec/mobileassetd.md)
+- [usr/libexec/modelmanagerd](MACHOS/filesystem/usr/libexec/modelmanagerd.md)
+- [usr/libexec/naturallanguaged](MACHOS/filesystem/usr/libexec/naturallanguaged.md)
+- [usr/libexec/nearbyd](MACHOS/filesystem/usr/libexec/nearbyd.md)
+- [usr/libexec/otherbsd](MACHOS/filesystem/usr/libexec/otherbsd.md)
+- [usr/libexec/pkd](MACHOS/filesystem/usr/libexec/pkd.md)
+- [usr/libexec/powerexperienced](MACHOS/filesystem/usr/libexec/powerexperienced.md)
+- [usr/libexec/promotedcontentd](MACHOS/filesystem/usr/libexec/promotedcontentd.md)
+- [usr/libexec/psfupdater](MACHOS/filesystem/usr/libexec/psfupdater.md)
+- [usr/libexec/rapportd](MACHOS/filesystem/usr/libexec/rapportd.md)
+- [usr/libexec/relatived](MACHOS/filesystem/usr/libexec/relatived.md)
+- [usr/libexec/remindd](MACHOS/filesystem/usr/libexec/remindd.md)
+- [usr/libexec/routined](MACHOS/filesystem/usr/libexec/routined.md)
+- [usr/libexec/rtcreportingd](MACHOS/filesystem/usr/libexec/rtcreportingd.md)
+- [usr/libexec/sandboxd](MACHOS/filesystem/usr/libexec/sandboxd.md)
+- [usr/libexec/searchpartyd](MACHOS/filesystem/usr/libexec/searchpartyd.md)
+- [usr/libexec/searchpartyuseragent](MACHOS/filesystem/usr/libexec/searchpartyuseragent.md)
+- [usr/libexec/secd](MACHOS/filesystem/usr/libexec/secd.md)
+- [usr/libexec/secinitd](MACHOS/filesystem/usr/libexec/secinitd.md)
+- [usr/libexec/sharingd](MACHOS/filesystem/usr/libexec/sharingd.md)
+- [usr/libexec/slapd](MACHOS/filesystem/usr/libexec/slapd.md)
+- [usr/libexec/smd](MACHOS/filesystem/usr/libexec/smd.md)
+- [usr/libexec/ssh-apple-pkcs11](MACHOS/filesystem/usr/libexec/ssh-apple-pkcs11.md)
+- [usr/libexec/sshd-auth](MACHOS/filesystem/usr/libexec/sshd-auth.md)
+- [usr/libexec/sshd-keygen-wrapper](MACHOS/filesystem/usr/libexec/sshd-keygen-wrapper.md)
+- [usr/libexec/storagekitd](MACHOS/filesystem/usr/libexec/storagekitd.md)
+- [usr/libexec/swtransparencyd](MACHOS/filesystem/usr/libexec/swtransparencyd.md)
+- [usr/libexec/symptomsd-diag](MACHOS/filesystem/usr/libexec/symptomsd-diag.md)
+- [usr/libexec/syspolicyd](MACHOS/filesystem/usr/libexec/syspolicyd.md)
+- [usr/libexec/tailspind](MACHOS/filesystem/usr/libexec/tailspind.md)
+- [usr/libexec/testmanagerd](MACHOS/filesystem/usr/libexec/testmanagerd.md)
+- [usr/libexec/textcontextd](MACHOS/filesystem/usr/libexec/textcontextd.md)
+- [usr/libexec/tipsd](MACHOS/filesystem/usr/libexec/tipsd.md)
+- [usr/libexec/transparencyd](MACHOS/filesystem/usr/libexec/transparencyd.md)
+- [usr/libexec/triald_system](MACHOS/filesystem/usr/libexec/triald_system.md)
+- [usr/libexec/uarpassetmanagerd](MACHOS/filesystem/usr/libexec/uarpassetmanagerd.md)
+- [usr/libexec/uarpd](MACHOS/filesystem/usr/libexec/uarpd.md)
+- [usr/libexec/wifianalyticsd](MACHOS/filesystem/usr/libexec/wifianalyticsd.md)
+- [usr/libexec/wifip2pd](MACHOS/filesystem/usr/libexec/wifip2pd.md)
+- [usr/libexec/xpcproxy](MACHOS/filesystem/usr/libexec/xpcproxy.md)
+- [usr/libexec/xpcroleaccountd](MACHOS/filesystem/usr/libexec/xpcroleaccountd.md)
+- [usr/sbin/BTLEServer](MACHOS/filesystem/usr/sbin/BTLEServer.md)
+- [usr/sbin/BTLEServerAgent](MACHOS/filesystem/usr/sbin/BTLEServerAgent.md)
+- [usr/sbin/BlueTool](MACHOS/filesystem/usr/sbin/BlueTool.md)
+- [usr/sbin/WirelessRadioManagerd](MACHOS/filesystem/usr/sbin/WirelessRadioManagerd.md)
+- [usr/sbin/bluetoothd](MACHOS/filesystem/usr/sbin/bluetoothd.md)
+- [usr/sbin/distnoted](MACHOS/filesystem/usr/sbin/distnoted.md)
+- [usr/sbin/httpd](MACHOS/filesystem/usr/sbin/httpd.md)
+- [usr/sbin/mDNSResponder](MACHOS/filesystem/usr/sbin/mDNSResponder.md)
+- [usr/sbin/mDNSResponderHelper](MACHOS/filesystem/usr/sbin/mDNSResponderHelper.md)
+- [usr/sbin/systemsoundserverd](MACHOS/filesystem/usr/sbin/systemsoundserverd.md)
+- [usr/sbin/uasysdiagnose](MACHOS/filesystem/usr/sbin/uasysdiagnose.md)
+
+</details>
+
+### SystemOS
+
+#### ⬆️ Updated (10)
+
+- [System/Library/Extensions/AMDMTLBronzeDriver.bundle/Contents/MacOS/AMDMTLBronzeDriver](MACHOS/SystemOS/System/Library/Extensions/AMDMTLBronzeDriver.bundle/Contents/MacOS/AMDMTLBronzeDriver.md)
+- [System/Library/Extensions/AMDRadeonX5000MTLDriver.bundle/Contents/MacOS/AMDRadeonX5000MTLDriver](MACHOS/SystemOS/System/Library/Extensions/AMDRadeonX5000MTLDriver.bundle/Contents/MacOS/AMDRadeonX5000MTLDriver.md)
+- [System/Library/Extensions/AMDRadeonX6000MTLDriver.bundle/Contents/MacOS/AMDRadeonX6000MTLDriver](MACHOS/SystemOS/System/Library/Extensions/AMDRadeonX6000MTLDriver.bundle/Contents/MacOS/AMDRadeonX6000MTLDriver.md)
+- [System/Library/Extensions/AppleIntelICLGraphicsGLDriver.bundle/Contents/MacOS/AppleIntelICLGraphicsGLDriver](MACHOS/SystemOS/System/Library/Extensions/AppleIntelICLGraphicsGLDriver.bundle/Contents/MacOS/AppleIntelICLGraphicsGLDriver.md)
+- [System/Library/Extensions/AppleIntelICLGraphicsMTLDriver.bundle/Contents/MacOS/AppleIntelICLGraphicsMTLDriver](MACHOS/SystemOS/System/Library/Extensions/AppleIntelICLGraphicsMTLDriver.bundle/Contents/MacOS/AppleIntelICLGraphicsMTLDriver.md)
+- [System/Library/Extensions/AppleIntelKBLGraphicsGLDriver.bundle/Contents/MacOS/AppleIntelKBLGraphicsGLDriver](MACHOS/SystemOS/System/Library/Extensions/AppleIntelKBLGraphicsGLDriver.bundle/Contents/MacOS/AppleIntelKBLGraphicsGLDriver.md)
+- [System/Library/Extensions/AppleIntelKBLGraphicsMTLDriver.bundle/Contents/MacOS/AppleIntelKBLGraphicsMTLDriver](MACHOS/SystemOS/System/Library/Extensions/AppleIntelKBLGraphicsMTLDriver.bundle/Contents/MacOS/AppleIntelKBLGraphicsMTLDriver.md)
+- [System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/3425AMD/libLLVMContainer.dylib](MACHOS/SystemOS/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/3425AMD/libLLVMContainer.dylib.md)
+- [System/Library/PrivateFrameworks/SafariShared.framework/Versions/A/XPCServices/com.apple.Safari.SearchHelper.xpc/Contents/MacOS/com.apple.Safari.SearchHelper](MACHOS/SystemOS/System/Library/PrivateFrameworks/SafariShared.framework/Versions/A/XPCServices/com.apple.Safari.SearchHelper.xpc/Contents/MacOS/com.apple.Safari.SearchHelper.md)
+- [System/Library/PrivateFrameworks/SafariShared.framework/Versions/Current/XPCServices/com.apple.Safari.SearchHelper.xpc/Contents/MacOS/com.apple.Safari.SearchHelper](MACHOS/SystemOS/System/Library/PrivateFrameworks/SafariShared.framework/Versions/Current/XPCServices/com.apple.Safari.SearchHelper.xpc/Contents/MacOS/com.apple.Safari.SearchHelper.md)
+
+### AppOS
+
+#### ⬆️ Updated (1)
+
+- [usr/libexec/com.apple.Safari.History](MACHOS/AppOS/usr/libexec/com.apple.Safari.History.md)
+
+### 🔑 Entitlements
+
+- [Entitlements DIFF](Entitlements.md)
+
+## Firmware
+
+### ❌ Removed (1)
+
+- `AssetData/boot/Firmware/agx/armfw_g17x.im4p/agx_a020`
+
+### ⬆️ Updated (157)
+
+<details>
+  <summary><i>View Updated</i></summary>
+
+- [AssetData/boot/Firmware/AOP/aopfw-j773gaop.RELEASE.im4p](FIRMWARE/AssetData/boot/Firmware/AOP/aopfw-j773gaop.RELEASE.im4p.md)
+- [AssetData/boot/Firmware/AOP/aopfw-mac13gaop.RELEASE.im4p](FIRMWARE/AssetData/boot/Firmware/AOP/aopfw-mac13gaop.RELEASE.im4p.md)
+- [AssetData/boot/Firmware/AOP/aopfw-mac13jaop.RELEASE.im4p](FIRMWARE/AssetData/boot/Firmware/AOP/aopfw-mac13jaop.RELEASE.im4p.md)
+- [AssetData/boot/Firmware/AOP/aopfw-mac14gaop.RELEASE.im4p](FIRMWARE/AssetData/boot/Firmware/AOP/aopfw-mac14gaop.RELEASE.im4p.md)
+- [AssetData/boot/Firmware/AOP/aopfw-mac14jaop.RELEASE.im4p](FIRMWARE/AssetData/boot/Firmware/AOP/aopfw-mac14jaop.RELEASE.im4p.md)
+- [AssetData/boot/Firmware/AOP/aopfw-mac15gaop.RELEASE.im4p](FIRMWARE/AssetData/boot/Firmware/AOP/aopfw-mac15gaop.RELEASE.im4p.md)
+- [AssetData/boot/Firmware/AOP/aopfw-mac15jaop.RELEASE.im4p](FIRMWARE/AssetData/boot/Firmware/AOP/aopfw-mac15jaop.RELEASE.im4p.md)
+- [AssetData/boot/Firmware/AOP/aopfw-mac15saop.RELEASE.im4p](FIRMWARE/AssetData/boot/Firmware/AOP/aopfw-mac15saop.RELEASE.im4p.md)
+- [AssetData/boot/Firmware/AOP/aopfw-mac16gaop.RELEASE.im4p](FIRMWARE/AssetData/boot/Firmware/AOP/aopfw-mac16gaop.RELEASE.im4p.md)
+- [AssetData/boot/Firmware/AOP/aopfw-mac16gaop_l4.RELEASE.im4p](FIRMWARE/AssetData/boot/Firmware/AOP/aopfw-mac16gaop_l4.RELEASE.im4p.md)
+- [AssetData/boot/Firmware/AOP/aopfw-mac16jaop.RELEASE.im4p](FIRMWARE/AssetData/boot/Firmware/AOP/aopfw-mac16jaop.RELEASE.im4p.md)
+- [AssetData/boot/Firmware/ane/h13_ane_fw_styx_j5x.im4p](FIRMWARE/AssetData/boot/Firmware/ane/h13_ane_fw_styx_j5x.im4p.md)
+- [AssetData/boot/Firmware/ane/h14_ane_fw_bia_j4xx.im4p](FIRMWARE/AssetData/boot/Firmware/ane/h14_ane_fw_bia_j4xx.im4p.md)
+- [AssetData/boot/Firmware/ane/h15_ane_fw_themis_j51y.im4p](FIRMWARE/AssetData/boot/Firmware/ane/h15_ane_fw_themis_j51y.im4p.md)
+- [AssetData/boot/Firmware/ane/h16_ane_fw_leto_j7x.im4p](FIRMWARE/AssetData/boot/Firmware/ane/h16_ane_fw_leto_j7x.im4p.md)
+- [AssetData/boot/Firmware/ane/h17_ane0_fw_hyperion_j71y.im4p](FIRMWARE/AssetData/boot/Firmware/ane/h17_ane0_fw_hyperion_j71y.im4p.md)
+- [AssetData/boot/Firmware/ane/h17_ane_fw_theia_d9x.im4p](FIRMWARE/AssetData/boot/Firmware/ane/h17_ane_fw_theia_d9x.im4p.md)
+- [AssetData/boot/Firmware/ane/h17_ane_fw_theia_j73y.im4p](FIRMWARE/AssetData/boot/Firmware/ane/h17_ane_fw_theia_j73y.im4p.md)
+- [AssetData/boot/Firmware/ane/t600x_ane0_fw_eos_jc3x.im4p](FIRMWARE/AssetData/boot/Firmware/ane/t600x_ane0_fw_eos_jc3x.im4p.md)
+- [AssetData/boot/Firmware/ane/t600x_ane1_fw_eos_jc3x.im4p](FIRMWARE/AssetData/boot/Firmware/ane/t600x_ane1_fw_eos_jc3x.im4p.md)
+- [AssetData/boot/Firmware/ane/t600x_ane2_fw_eos_jc3x.im4p](FIRMWARE/AssetData/boot/Firmware/ane/t600x_ane2_fw_eos_jc3x.im4p.md)
+- [AssetData/boot/Firmware/ane/t600x_ane3_fw_eos_jc3x.im4p](FIRMWARE/AssetData/boot/Firmware/ane/t600x_ane3_fw_eos_jc3x.im4p.md)
+- [AssetData/boot/Firmware/ane/t602x_ane0_fw_selene_rc4x.im4p](FIRMWARE/AssetData/boot/Firmware/ane/t602x_ane0_fw_selene_rc4x.im4p.md)
+- [AssetData/boot/Firmware/ane/t602x_ane1_fw_selene_rc4x.im4p](FIRMWARE/AssetData/boot/Firmware/ane/t602x_ane1_fw_selene_rc4x.im4p.md)
+- [AssetData/boot/Firmware/ane/t603x_ane0_fw_erebus_ls5x.im4p](FIRMWARE/AssetData/boot/Firmware/ane/t603x_ane0_fw_erebus_ls5x.im4p.md)
+- [AssetData/boot/Firmware/ane/t603x_ane0_fw_erebus_pc5x.im4p](FIRMWARE/AssetData/boot/Firmware/ane/t603x_ane0_fw_erebus_pc5x.im4p.md)
+- [AssetData/boot/Firmware/ane/t603x_ane1_fw_erebus_pc5x.im4p](FIRMWARE/AssetData/boot/Firmware/ane/t603x_ane1_fw_erebus_pc5x.im4p.md)
+- [AssetData/boot/Firmware/ane/t604x_ane_fw_aether_brvx.im4p](FIRMWARE/AssetData/boot/Firmware/ane/t604x_ane_fw_aether_brvx.im4p.md)
+- [AssetData/boot/Firmware/ansf.t6000.release.im4p](FIRMWARE/AssetData/boot/Firmware/ansf.t6000.release.im4p.md)
+- [AssetData/boot/Firmware/ansf.t6020.release.im4p](FIRMWARE/AssetData/boot/Firmware/ansf.t6020.release.im4p.md)
+- [AssetData/boot/Firmware/ansf.t6030.release.im4p](FIRMWARE/AssetData/boot/Firmware/ansf.t6030.release.im4p.md)
+- [AssetData/boot/Firmware/ansf.t603x.release.im4p](FIRMWARE/AssetData/boot/Firmware/ansf.t603x.release.im4p.md)
+- [AssetData/boot/Firmware/ansf.t603x_ASP3.release.im4p](FIRMWARE/AssetData/boot/Firmware/ansf.t603x_ASP3.release.im4p.md)
+- [AssetData/boot/Firmware/ansf.t604x.release.im4p](FIRMWARE/AssetData/boot/Firmware/ansf.t604x.release.im4p.md)
+- [AssetData/boot/Firmware/ansf.t6050.release.im4p](FIRMWARE/AssetData/boot/Firmware/ansf.t6050.release.im4p.md)
+- [AssetData/boot/Firmware/ansf.t8103.release.im4p](FIRMWARE/AssetData/boot/Firmware/ansf.t8103.release.im4p.md)
+- [AssetData/boot/Firmware/ansf.t8112.release.im4p](FIRMWARE/AssetData/boot/Firmware/ansf.t8112.release.im4p.md)
+- [AssetData/boot/Firmware/ansf.t8122.release.im4p](FIRMWARE/AssetData/boot/Firmware/ansf.t8122.release.im4p.md)
+- [AssetData/boot/Firmware/ansf.t8132_ASP3.release.im4p](FIRMWARE/AssetData/boot/Firmware/ansf.t8132_ASP3.release.im4p.md)
+- [AssetData/boot/Firmware/ansf.t8140_largemem.release.im4p](FIRMWARE/AssetData/boot/Firmware/ansf.t8140_largemem.release.im4p.md)
+- [AssetData/boot/Firmware/ansf.t8142.release.im4p](FIRMWARE/AssetData/boot/Firmware/ansf.t8142.release.im4p.md)
+- [AssetData/boot/Firmware/dcp/ipad13dcp.im4p](FIRMWARE/AssetData/boot/Firmware/dcp/ipad13dcp.im4p.md)
+- [AssetData/boot/Firmware/dcp/ipad13dcp_restore.im4p](FIRMWARE/AssetData/boot/Firmware/dcp/ipad13dcp_restore.im4p.md)
+- [AssetData/boot/Firmware/dcp/ipad14dcp.im4p](FIRMWARE/AssetData/boot/Firmware/dcp/ipad14dcp.im4p.md)
+- [AssetData/boot/Firmware/dcp/ipad14dcp_restore.im4p](FIRMWARE/AssetData/boot/Firmware/dcp/ipad14dcp_restore.im4p.md)
+- [AssetData/boot/Firmware/dcp/t600xdcp.im4p](FIRMWARE/AssetData/boot/Firmware/dcp/t600xdcp.im4p.md)
+- [AssetData/boot/Firmware/dcp/t600xdcp_restore.im4p](FIRMWARE/AssetData/boot/Firmware/dcp/t600xdcp_restore.im4p.md)
+- [AssetData/boot/Firmware/dcp/t602xdcp.im4p](FIRMWARE/AssetData/boot/Firmware/dcp/t602xdcp.im4p.md)
+- [AssetData/boot/Firmware/dcp/t602xdcp_restore.im4p](FIRMWARE/AssetData/boot/Firmware/dcp/t602xdcp_restore.im4p.md)
+- [AssetData/boot/Firmware/dcp/t6030dcp.im4p](FIRMWARE/AssetData/boot/Firmware/dcp/t6030dcp.im4p.md)
+- [AssetData/boot/Firmware/dcp/t6030dcp_restore.im4p](FIRMWARE/AssetData/boot/Firmware/dcp/t6030dcp_restore.im4p.md)
+- [AssetData/boot/Firmware/dcp/t603xdcp.im4p](FIRMWARE/AssetData/boot/Firmware/dcp/t603xdcp.im4p.md)
+- [AssetData/boot/Firmware/dcp/t603xdcp_restore.im4p](FIRMWARE/AssetData/boot/Firmware/dcp/t603xdcp_restore.im4p.md)
+- [AssetData/boot/Firmware/dcp/t604xdcp.im4p](FIRMWARE/AssetData/boot/Firmware/dcp/t604xdcp.im4p.md)
+- [AssetData/boot/Firmware/dcp/t604xdcp_restore.im4p](FIRMWARE/AssetData/boot/Firmware/dcp/t604xdcp_restore.im4p.md)
+- [AssetData/boot/Firmware/dcp/t8122dcp.im4p](FIRMWARE/AssetData/boot/Firmware/dcp/t8122dcp.im4p.md)
+- [AssetData/boot/Firmware/dcp/t8122dcp_restore.im4p](FIRMWARE/AssetData/boot/Firmware/dcp/t8122dcp_restore.im4p.md)
+- [AssetData/boot/Firmware/dcp/t8132dcp.im4p](FIRMWARE/AssetData/boot/Firmware/dcp/t8132dcp.im4p.md)
+- [AssetData/boot/Firmware/dcp/t8132dcp_restore.im4p](FIRMWARE/AssetData/boot/Firmware/dcp/t8132dcp_restore.im4p.md)
+- [AssetData/boot/Firmware/image4/exclavecore_bundle.t6050.RELEASE.im4p/exclave_kernel](FIRMWARE/AssetData/boot/Firmware/image4/exclavecore_bundle.t6050.RELEASE.im4p/exclave_kernel.md)
+- [AssetData/boot/Firmware/image4/exclavecore_bundle.t6050.RELEASE.im4p/exclave_sharedcache](FIRMWARE/AssetData/boot/Firmware/image4/exclavecore_bundle.t6050.RELEASE.im4p/exclave_sharedcache.md)
+- [AssetData/boot/Firmware/image4/exclavecore_bundle.t6050.RELEASE.restore.im4p/exclave_kernel](FIRMWARE/AssetData/boot/Firmware/image4/exclavecore_bundle.t6050.RELEASE.restore.im4p/exclave_kernel.md)
+- [AssetData/boot/Firmware/image4/exclavecore_bundle.t6050.RELEASE.restore.im4p/exclave_sharedcache](FIRMWARE/AssetData/boot/Firmware/image4/exclavecore_bundle.t6050.RELEASE.restore.im4p/exclave_sharedcache.md)
+- [AssetData/boot/Firmware/image4/exclavecore_bundle.t8140.RELEASE.im4p/exclave_kernel](FIRMWARE/AssetData/boot/Firmware/image4/exclavecore_bundle.t8140.RELEASE.im4p/exclave_kernel.md)
+- [AssetData/boot/Firmware/image4/exclavecore_bundle.t8140.RELEASE.im4p/exclave_sharedcache](FIRMWARE/AssetData/boot/Firmware/image4/exclavecore_bundle.t8140.RELEASE.im4p/exclave_sharedcache.md)
+- [AssetData/boot/Firmware/image4/exclavecore_bundle.t8140.RELEASE.restore.im4p/exclave_kernel](FIRMWARE/AssetData/boot/Firmware/image4/exclavecore_bundle.t8140.RELEASE.restore.im4p/exclave_kernel.md)
+- [AssetData/boot/Firmware/image4/exclavecore_bundle.t8140.RELEASE.restore.im4p/exclave_sharedcache](FIRMWARE/AssetData/boot/Firmware/image4/exclavecore_bundle.t8140.RELEASE.restore.im4p/exclave_sharedcache.md)
+- [AssetData/boot/Firmware/image4/exclavecore_bundle.t8142.RELEASE.im4p/exclave_kernel](FIRMWARE/AssetData/boot/Firmware/image4/exclavecore_bundle.t8142.RELEASE.im4p/exclave_kernel.md)
+- [AssetData/boot/Firmware/image4/exclavecore_bundle.t8142.RELEASE.im4p/exclave_sharedcache](FIRMWARE/AssetData/boot/Firmware/image4/exclavecore_bundle.t8142.RELEASE.im4p/exclave_sharedcache.md)
+- [AssetData/boot/Firmware/image4/exclavecore_bundle.t8142.RELEASE.restore.im4p/exclave_kernel](FIRMWARE/AssetData/boot/Firmware/image4/exclavecore_bundle.t8142.RELEASE.restore.im4p/exclave_kernel.md)
+- [AssetData/boot/Firmware/image4/exclavecore_bundle.t8142.RELEASE.restore.im4p/exclave_sharedcache](FIRMWARE/AssetData/boot/Firmware/image4/exclavecore_bundle.t8142.RELEASE.restore.im4p/exclave_sharedcache.md)
+- [AssetData/boot/Firmware/isp_bni/adc-aion-ls5x.im4p](FIRMWARE/AssetData/boot/Firmware/isp_bni/adc-aion-ls5x.im4p.md)
+- [AssetData/boot/Firmware/isp_bni/adc-aion-pc5x.im4p](FIRMWARE/AssetData/boot/Firmware/isp_bni/adc-aion-pc5x.im4p.md)
+- [AssetData/boot/Firmware/isp_bni/adc-astraeus-jc3x.im4p](FIRMWARE/AssetData/boot/Firmware/isp_bni/adc-astraeus-jc3x.im4p.md)
+- [AssetData/boot/Firmware/isp_bni/adc-eris-j129.im4p](FIRMWARE/AssetData/boot/Firmware/isp_bni/adc-eris-j129.im4p.md)
+- [AssetData/boot/Firmware/isp_bni/adc-helios-rc4x.im4p](FIRMWARE/AssetData/boot/Firmware/isp_bni/adc-helios-rc4x.im4p.md)
+- [AssetData/boot/Firmware/isp_bni/adc-hestia-j129.im4p](FIRMWARE/AssetData/boot/Firmware/isp_bni/adc-hestia-j129.im4p.md)
+- [AssetData/boot/Firmware/isp_bni/adc-nyx-bc6x.im4p](FIRMWARE/AssetData/boot/Firmware/isp_bni/adc-nyx-bc6x.im4p.md)
+- [AssetData/boot/Firmware/isp_bni/adc-nyx-sc7x.im4p](FIRMWARE/AssetData/boot/Firmware/isp_bni/adc-nyx-sc7x.im4p.md)
+- [AssetData/boot/Firmware/isp_bni/adc-pallas-j129.im4p](FIRMWARE/AssetData/boot/Firmware/isp_bni/adc-pallas-j129.im4p.md)
+- [AssetData/boot/Firmware/isp_bni/adc-rheia-J7xm.im4p](FIRMWARE/AssetData/boot/Firmware/isp_bni/adc-rheia-J7xm.im4p.md)
+- [AssetData/boot/Firmware/isp_bni/adc-rheia-j129.im4p](FIRMWARE/AssetData/boot/Firmware/isp_bni/adc-rheia-j129.im4p.md)
+- [AssetData/boot/Firmware/isp_bni/adc-rheia-j70m.im4p](FIRMWARE/AssetData/boot/Firmware/isp_bni/adc-rheia-j70m.im4p.md)
+- [AssetData/boot/Firmware/isp_bni/adc-triton-j129.im4p](FIRMWARE/AssetData/boot/Firmware/isp_bni/adc-triton-j129.im4p.md)
+- [AssetData/boot/Firmware/msr/t605x.msrf.im4p](FIRMWARE/AssetData/boot/Firmware/msr/t605x.msrf.im4p.md)
+- [AssetData/boot/Firmware/msr/t605x.rmsr.im4p](FIRMWARE/AssetData/boot/Firmware/msr/t605x.rmsr.im4p.md)
+- [AssetData/boot/Firmware/msr/t8142.msrf.im4p](FIRMWARE/AssetData/boot/Firmware/msr/t8142.msrf.im4p.md)
+- [AssetData/boot/Firmware/msr/t8142.rmsr.im4p](FIRMWARE/AssetData/boot/Firmware/msr/t8142.rmsr.im4p.md)
+- [AssetData/boot/Firmware/rans.t6000.release.im4p](FIRMWARE/AssetData/boot/Firmware/rans.t6000.release.im4p.md)
+- [AssetData/boot/Firmware/rans.t6020.release.im4p](FIRMWARE/AssetData/boot/Firmware/rans.t6020.release.im4p.md)
+- [AssetData/boot/Firmware/rans.t6030.release.im4p](FIRMWARE/AssetData/boot/Firmware/rans.t6030.release.im4p.md)
+- [AssetData/boot/Firmware/rans.t603x.release.im4p](FIRMWARE/AssetData/boot/Firmware/rans.t603x.release.im4p.md)
+- [AssetData/boot/Firmware/rans.t603x_ASP3.release.im4p](FIRMWARE/AssetData/boot/Firmware/rans.t603x_ASP3.release.im4p.md)
+- [AssetData/boot/Firmware/rans.t604x.release.im4p](FIRMWARE/AssetData/boot/Firmware/rans.t604x.release.im4p.md)
+- [AssetData/boot/Firmware/rans.t6050.release.im4p](FIRMWARE/AssetData/boot/Firmware/rans.t6050.release.im4p.md)
+- [AssetData/boot/Firmware/rans.t8103.release.im4p](FIRMWARE/AssetData/boot/Firmware/rans.t8103.release.im4p.md)
+- [AssetData/boot/Firmware/rans.t8112.release.im4p](FIRMWARE/AssetData/boot/Firmware/rans.t8112.release.im4p.md)
+- [AssetData/boot/Firmware/rans.t8122.release.im4p](FIRMWARE/AssetData/boot/Firmware/rans.t8122.release.im4p.md)
+- [AssetData/boot/Firmware/rans.t8132_ASP3.release.im4p](FIRMWARE/AssetData/boot/Firmware/rans.t8132_ASP3.release.im4p.md)
+- [AssetData/boot/Firmware/rans.t8140_largemem.release.im4p](FIRMWARE/AssetData/boot/Firmware/rans.t8140_largemem.release.im4p.md)
+- [AssetData/boot/Firmware/rans.t8142.release.im4p](FIRMWARE/AssetData/boot/Firmware/rans.t8142.release.im4p.md)
+- [AssetData/boot/Firmware/scodec/scodec_host_v1.im4p](FIRMWARE/AssetData/boot/Firmware/scodec/scodec_host_v1.im4p.md)
+- [AssetData/boot/Firmware/scodec/t602xscodec.im4p](FIRMWARE/AssetData/boot/Firmware/scodec/t602xscodec.im4p.md)
+- [AssetData/boot/Firmware/scodec/t8112scodec.im4p](FIRMWARE/AssetData/boot/Firmware/scodec/t8112scodec.im4p.md)
+- [AssetData/boot/Firmware/sptm.t6000.release.im4p](FIRMWARE/AssetData/boot/Firmware/sptm.t6000.release.im4p.md)
+- [AssetData/boot/Firmware/sptm.t6020.release.im4p](FIRMWARE/AssetData/boot/Firmware/sptm.t6020.release.im4p.md)
+- [AssetData/boot/Firmware/sptm.t6030.release.im4p](FIRMWARE/AssetData/boot/Firmware/sptm.t6030.release.im4p.md)
+- [AssetData/boot/Firmware/sptm.t6031.release.im4p](FIRMWARE/AssetData/boot/Firmware/sptm.t6031.release.im4p.md)
+- [AssetData/boot/Firmware/sptm.t6041.release.im4p](FIRMWARE/AssetData/boot/Firmware/sptm.t6041.release.im4p.md)
+- [AssetData/boot/Firmware/sptm.t6050.release.im4p](FIRMWARE/AssetData/boot/Firmware/sptm.t6050.release.im4p.md)
+- [AssetData/boot/Firmware/sptm.t8112.release.im4p](FIRMWARE/AssetData/boot/Firmware/sptm.t8112.release.im4p.md)
+- [AssetData/boot/Firmware/sptm.t8122.release.im4p](FIRMWARE/AssetData/boot/Firmware/sptm.t8122.release.im4p.md)
+- [AssetData/boot/Firmware/sptm.t8132.release.im4p](FIRMWARE/AssetData/boot/Firmware/sptm.t8132.release.im4p.md)
+- [AssetData/boot/Firmware/sptm.t8140.release.im4p](FIRMWARE/AssetData/boot/Firmware/sptm.t8140.release.im4p.md)
+- [AssetData/boot/Firmware/sptm.t8142.release.im4p](FIRMWARE/AssetData/boot/Firmware/sptm.t8142.release.im4p.md)
+- [AssetData/boot/Firmware/t6000ciofw.im4p](FIRMWARE/AssetData/boot/Firmware/t6000ciofw.im4p.md)
+- [AssetData/boot/Firmware/t6000tmufw.im4p](FIRMWARE/AssetData/boot/Firmware/t6000tmufw.im4p.md)
+- [AssetData/boot/Firmware/t6001ciofw.im4p](FIRMWARE/AssetData/boot/Firmware/t6001ciofw.im4p.md)
+- [AssetData/boot/Firmware/t6001tmufw.im4p](FIRMWARE/AssetData/boot/Firmware/t6001tmufw.im4p.md)
+- [AssetData/boot/Firmware/t6002ciofw.im4p](FIRMWARE/AssetData/boot/Firmware/t6002ciofw.im4p.md)
+- [AssetData/boot/Firmware/t6002tmufw.im4p](FIRMWARE/AssetData/boot/Firmware/t6002tmufw.im4p.md)
+- [AssetData/boot/Firmware/t6020ciofw.im4p](FIRMWARE/AssetData/boot/Firmware/t6020ciofw.im4p.md)
+- [AssetData/boot/Firmware/t6020tmufw.im4p](FIRMWARE/AssetData/boot/Firmware/t6020tmufw.im4p.md)
+- [AssetData/boot/Firmware/t6021ciofw.im4p](FIRMWARE/AssetData/boot/Firmware/t6021ciofw.im4p.md)
+- [AssetData/boot/Firmware/t6021tmufw.im4p](FIRMWARE/AssetData/boot/Firmware/t6021tmufw.im4p.md)
+- [AssetData/boot/Firmware/t6022ciofw.im4p](FIRMWARE/AssetData/boot/Firmware/t6022ciofw.im4p.md)
+- [AssetData/boot/Firmware/t6022tmufw.im4p](FIRMWARE/AssetData/boot/Firmware/t6022tmufw.im4p.md)
+- [AssetData/boot/Firmware/t6030ciofw.im4p](FIRMWARE/AssetData/boot/Firmware/t6030ciofw.im4p.md)
+- [AssetData/boot/Firmware/t6030tmufw.im4p](FIRMWARE/AssetData/boot/Firmware/t6030tmufw.im4p.md)
+- [AssetData/boot/Firmware/t6031ciofw.im4p](FIRMWARE/AssetData/boot/Firmware/t6031ciofw.im4p.md)
+- [AssetData/boot/Firmware/t6031tmufw.im4p](FIRMWARE/AssetData/boot/Firmware/t6031tmufw.im4p.md)
+- [AssetData/boot/Firmware/t6032ciofw.im4p](FIRMWARE/AssetData/boot/Firmware/t6032ciofw.im4p.md)
+- [AssetData/boot/Firmware/t6032cphyfw.im4p](FIRMWARE/AssetData/boot/Firmware/t6032cphyfw.im4p.md)
+- [AssetData/boot/Firmware/t6032tmufw.im4p](FIRMWARE/AssetData/boot/Firmware/t6032tmufw.im4p.md)
+- [AssetData/boot/Firmware/t6034ciofw.im4p](FIRMWARE/AssetData/boot/Firmware/t6034ciofw.im4p.md)
+- [AssetData/boot/Firmware/t6034tmufw.im4p](FIRMWARE/AssetData/boot/Firmware/t6034tmufw.im4p.md)
+- [AssetData/boot/Firmware/t6040ciofw.im4p](FIRMWARE/AssetData/boot/Firmware/t6040ciofw.im4p.md)
+- [AssetData/boot/Firmware/t6040cphyfw.im4p](FIRMWARE/AssetData/boot/Firmware/t6040cphyfw.im4p.md)
+- [AssetData/boot/Firmware/t6040tmufw.im4p](FIRMWARE/AssetData/boot/Firmware/t6040tmufw.im4p.md)
+- [AssetData/boot/Firmware/t6041ciofw.im4p](FIRMWARE/AssetData/boot/Firmware/t6041ciofw.im4p.md)
+- [AssetData/boot/Firmware/t6041cphyfw.im4p](FIRMWARE/AssetData/boot/Firmware/t6041cphyfw.im4p.md)
+- [AssetData/boot/Firmware/t6041tmufw.im4p](FIRMWARE/AssetData/boot/Firmware/t6041tmufw.im4p.md)
+- [AssetData/boot/Firmware/t6050ciofw.im4p](FIRMWARE/AssetData/boot/Firmware/t6050ciofw.im4p.md)
+- [AssetData/boot/Firmware/t6050cphyfw.im4p](FIRMWARE/AssetData/boot/Firmware/t6050cphyfw.im4p.md)
+- [AssetData/boot/Firmware/t6050tmufw.im4p](FIRMWARE/AssetData/boot/Firmware/t6050tmufw.im4p.md)
+- [AssetData/boot/Firmware/t8103ciofw.im4p](FIRMWARE/AssetData/boot/Firmware/t8103ciofw.im4p.md)
+- [AssetData/boot/Firmware/t8103tmufw.im4p](FIRMWARE/AssetData/boot/Firmware/t8103tmufw.im4p.md)
+- [AssetData/boot/Firmware/t8112ciofw.im4p](FIRMWARE/AssetData/boot/Firmware/t8112ciofw.im4p.md)
+- [AssetData/boot/Firmware/t8112tmufw.im4p](FIRMWARE/AssetData/boot/Firmware/t8112tmufw.im4p.md)
+- [AssetData/boot/Firmware/t8122ciofw.im4p](FIRMWARE/AssetData/boot/Firmware/t8122ciofw.im4p.md)
+- [AssetData/boot/Firmware/t8122tmufw.im4p](FIRMWARE/AssetData/boot/Firmware/t8122tmufw.im4p.md)
+- [AssetData/boot/Firmware/t8132ciofw.im4p](FIRMWARE/AssetData/boot/Firmware/t8132ciofw.im4p.md)
+- [AssetData/boot/Firmware/t8132tmufw.im4p](FIRMWARE/AssetData/boot/Firmware/t8132tmufw.im4p.md)
+- [AssetData/boot/Firmware/t8142ciofw.im4p](FIRMWARE/AssetData/boot/Firmware/t8142ciofw.im4p.md)
+- [AssetData/boot/Firmware/t8142tmufw.im4p](FIRMWARE/AssetData/boot/Firmware/t8142tmufw.im4p.md)
+- [AssetData/boot/Firmware/txm.macosx.release.im4p](FIRMWARE/AssetData/boot/Firmware/txm.macosx.release.im4p.md)
+- [AssetData/boot/Firmware/xhc.t6050.im4p](FIRMWARE/AssetData/boot/Firmware/xhc.t6050.im4p.md)
+
+</details>
+
+### iBoot
+
+| iOS | Version |
+| :-- | :------ |
+| 26.7 *(25G220)* | mBoot-18000.161.10.701.1 |
+| 26.7 *(25G224)* | mBoot-18000.161.10.701.1 |
+
+## DSC
+
+### WebKit
+
+| iOS | Version |
+| :-- | :------ |
+| 26.7 *(25G220)* | 624.5.1.11.2 |
+| 26.7 *(25G224)* | 624.5.1.11.3 |
+
+### Dylibs
+
+#### ❌ Removed (1)
+
+- `/System/Library/PrivateFrameworks/CameraColorProcessing.framework/Versions/A/CameraColorProcessing`
+
+#### ⬆️ Updated (268)
+
+<details>
+  <summary><i>View Updated</i></summary>
+
+- [/System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio](DYLIBS/System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio.md)
+- [/System/Library/Frameworks/AVRouting.framework/Versions/A/AVRouting](DYLIBS/System/Library/Frameworks/AVRouting.framework/Versions/A/AVRouting.md)
+- [/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBNNS.dylib](DYLIBS/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBNNS.dylib.md)
+- [/System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents](DYLIBS/System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents.md)
+- [/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox](DYLIBS/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox.md)
+- [/System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio](DYLIBS/System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio.md)
+- [/System/Library/Frameworks/CoreBluetooth.framework/Versions/A/CoreBluetooth](DYLIBS/System/Library/Frameworks/CoreBluetooth.framework/Versions/A/CoreBluetooth.md)
+- [/System/Library/Frameworks/CoreLocation.framework/Versions/A/CoreLocation](DYLIBS/System/Library/Frameworks/CoreLocation.framework/Versions/A/CoreLocation.md)
+- [/System/Library/Frameworks/CoreML.framework/Versions/A/CoreML](DYLIBS/System/Library/Frameworks/CoreML.framework/Versions/A/CoreML.md)
+- [/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia](DYLIBS/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia.md)
+- [/System/Library/Frameworks/CoreMotion.framework/Versions/A/CoreMotion](DYLIBS/System/Library/Frameworks/CoreMotion.framework/Versions/A/CoreMotion.md)
+- [/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices](DYLIBS/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices.md)
+- [/System/Library/Frameworks/CoreTelephony.framework/Versions/A/CoreTelephony](DYLIBS/System/Library/Frameworks/CoreTelephony.framework/Versions/A/CoreTelephony.md)
+- [/System/Library/Frameworks/DVDPlayback.framework/Versions/A/DVDPlayback](DYLIBS/System/Library/Frameworks/DVDPlayback.framework/Versions/A/DVDPlayback.md)
+- [/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation](DYLIBS/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation.md)
+- [/System/Library/Frameworks/GameController.framework/Versions/A/GameController](DYLIBS/System/Library/Frameworks/GameController.framework/Versions/A/GameController.md)
+- [/System/Library/Frameworks/HealthKit.framework/Versions/A/HealthKit](DYLIBS/System/Library/Frameworks/HealthKit.framework/Versions/A/HealthKit.md)
+- [/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit](DYLIBS/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit.md)
+- [/System/Library/Frameworks/Intents.framework/Versions/A/Intents](DYLIBS/System/Library/Frameworks/Intents.framework/Versions/A/Intents.md)
+- [/System/Library/Frameworks/MediaPlayer.framework/Versions/A/MediaPlayer](DYLIBS/System/Library/Frameworks/MediaPlayer.framework/Versions/A/MediaPlayer.md)
+- [/System/Library/Frameworks/Metal.framework/Versions/A/Metal](DYLIBS/System/Library/Frameworks/Metal.framework/Versions/A/Metal.md)
+- [/System/Library/Frameworks/MetalPerformanceShaders.framework/Versions/A/Frameworks/MPSBenchmarkLoop.framework/Versions/A/MPSBenchmarkLoop](DYLIBS/System/Library/Frameworks/MetalPerformanceShaders.framework/Versions/A/Frameworks/MPSBenchmarkLoop.framework/Versions/A/MPSBenchmarkLoop.md)
+- [/System/Library/Frameworks/MetalPerformanceShaders.framework/Versions/A/Frameworks/MPSCore.framework/Versions/A/MPSCore](DYLIBS/System/Library/Frameworks/MetalPerformanceShaders.framework/Versions/A/Frameworks/MPSCore.framework/Versions/A/MPSCore.md)
+- [/System/Library/Frameworks/MetalPerformanceShaders.framework/Versions/A/Frameworks/MPSHost.framework/Versions/A/MPSHost](DYLIBS/System/Library/Frameworks/MetalPerformanceShaders.framework/Versions/A/Frameworks/MPSHost.framework/Versions/A/MPSHost.md)
+- [/System/Library/Frameworks/MetalPerformanceShaders.framework/Versions/A/Frameworks/MPSImage.framework/Versions/A/MPSImage](DYLIBS/System/Library/Frameworks/MetalPerformanceShaders.framework/Versions/A/Frameworks/MPSImage.framework/Versions/A/MPSImage.md)
+- [/System/Library/Frameworks/MetalPerformanceShaders.framework/Versions/A/Frameworks/MPSMatrix.framework/Versions/A/MPSMatrix](DYLIBS/System/Library/Frameworks/MetalPerformanceShaders.framework/Versions/A/Frameworks/MPSMatrix.framework/Versions/A/MPSMatrix.md)
+- [/System/Library/Frameworks/MetalPerformanceShaders.framework/Versions/A/Frameworks/MPSNDArray.framework/Versions/A/MPSNDArray](DYLIBS/System/Library/Frameworks/MetalPerformanceShaders.framework/Versions/A/Frameworks/MPSNDArray.framework/Versions/A/MPSNDArray.md)
+- [/System/Library/Frameworks/MetalPerformanceShaders.framework/Versions/A/Frameworks/MPSNeuralNetwork.framework/Versions/A/MPSNeuralNetwork](DYLIBS/System/Library/Frameworks/MetalPerformanceShaders.framework/Versions/A/Frameworks/MPSNeuralNetwork.framework/Versions/A/MPSNeuralNetwork.md)
+- [/System/Library/Frameworks/MetalPerformanceShaders.framework/Versions/A/Frameworks/MPSRayIntersector.framework/Versions/A/MPSRayIntersector](DYLIBS/System/Library/Frameworks/MetalPerformanceShaders.framework/Versions/A/Frameworks/MPSRayIntersector.framework/Versions/A/MPSRayIntersector.md)
+- [/System/Library/Frameworks/MetalPerformanceShadersGraph.framework/Versions/A/MetalPerformanceShadersGraph](DYLIBS/System/Library/Frameworks/MetalPerformanceShadersGraph.framework/Versions/A/MetalPerformanceShadersGraph.md)
+- [/System/Library/Frameworks/NearbyInteraction.framework/Versions/A/NearbyInteraction](DYLIBS/System/Library/Frameworks/NearbyInteraction.framework/Versions/A/NearbyInteraction.md)
+- [/System/Library/Frameworks/Network.framework/Versions/A/Network](DYLIBS/System/Library/Frameworks/Network.framework/Versions/A/Network.md)
+- [/System/Library/Frameworks/OpenCL.framework/Versions/A/OpenCL](DYLIBS/System/Library/Frameworks/OpenCL.framework/Versions/A/OpenCL.md)
+- [/System/Library/Frameworks/ParavirtualizedGraphics.framework/Versions/A/ParavirtualizedGraphics](DYLIBS/System/Library/Frameworks/ParavirtualizedGraphics.framework/Versions/A/ParavirtualizedGraphics.md)
+- [/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore](DYLIBS/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore.md)
+- [/System/Library/Frameworks/SceneKit.framework/Versions/A/SceneKit](DYLIBS/System/Library/Frameworks/SceneKit.framework/Versions/A/SceneKit.md)
+- [/System/Library/Frameworks/SoundAnalysis.framework/Versions/A/SoundAnalysis](DYLIBS/System/Library/Frameworks/SoundAnalysis.framework/Versions/A/SoundAnalysis.md)
+- [/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers](DYLIBS/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers.md)
+- [/System/Library/Frameworks/WebKit.framework/Versions/A/WebKit](DYLIBS/System/Library/Frameworks/WebKit.framework/Versions/A/WebKit.md)
+- [/System/Library/Frameworks/_LocationEssentials.framework/Versions/A/_LocationEssentials](DYLIBS/System/Library/Frameworks/_LocationEssentials.framework/Versions/A/_LocationEssentials.md)
+- [/System/Library/Frameworks/iTunesLibrary.framework/Versions/A/iTunesLibrary](DYLIBS/System/Library/Frameworks/iTunesLibrary.framework/Versions/A/iTunesLibrary.md)
+- [/System/Library/MediaCapture/H16ISP.mediacapture](DYLIBS/System/Library/MediaCapture/H16ISP.mediacapture.md)
+- [/System/Library/PrivateFrameworks/AGXCompilerCore.framework/Versions/A/AGXCompilerCore](DYLIBS/System/Library/PrivateFrameworks/AGXCompilerCore.framework/Versions/A/AGXCompilerCore.md)
+- [/System/Library/PrivateFrameworks/AGXGPURawCounter.framework/Versions/A/AGXGPURawCounter](DYLIBS/System/Library/PrivateFrameworks/AGXGPURawCounter.framework/Versions/A/AGXGPURawCounter.md)
+- [/System/Library/PrivateFrameworks/AMPDevices.framework/Versions/A/AMPDevices](DYLIBS/System/Library/PrivateFrameworks/AMPDevices.framework/Versions/A/AMPDevices.md)
+- [/System/Library/PrivateFrameworks/ANECompiler.framework/Versions/A/ANECompiler](DYLIBS/System/Library/PrivateFrameworks/ANECompiler.framework/Versions/A/ANECompiler.md)
+- [/System/Library/PrivateFrameworks/ANSTKit.framework/Versions/A/ANSTKit](DYLIBS/System/Library/PrivateFrameworks/ANSTKit.framework/Versions/A/ANSTKit.md)
+- [/System/Library/PrivateFrameworks/APTransport.framework/Versions/A/APTransport](DYLIBS/System/Library/PrivateFrameworks/APTransport.framework/Versions/A/APTransport.md)
+- [/System/Library/PrivateFrameworks/ASEProcessing.framework/Versions/A/ASEProcessing](DYLIBS/System/Library/PrivateFrameworks/ASEProcessing.framework/Versions/A/ASEProcessing.md)
+- [/System/Library/PrivateFrameworks/ASMExclaveSupport.framework/Versions/A/ASMExclaveSupport](DYLIBS/System/Library/PrivateFrameworks/ASMExclaveSupport.framework/Versions/A/ASMExclaveSupport.md)
+- [/System/Library/PrivateFrameworks/ASRBridge.framework/Versions/A/ASRBridge](DYLIBS/System/Library/PrivateFrameworks/ASRBridge.framework/Versions/A/ASRBridge.md)
+- [/System/Library/PrivateFrameworks/AVConference.framework/Versions/A/AVConference](DYLIBS/System/Library/PrivateFrameworks/AVConference.framework/Versions/A/AVConference.md)
+- [/System/Library/PrivateFrameworks/AVFCapture.framework/Versions/A/AVFCapture](DYLIBS/System/Library/PrivateFrameworks/AVFCapture.framework/Versions/A/AVFCapture.md)
+- [/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/Versions/A/AccessibilityUtilities](DYLIBS/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/Versions/A/AccessibilityUtilities.md)
+- [/System/Library/PrivateFrameworks/AccessorySensorManagerDarwin_Private.framework/Versions/A/AccessorySensorManagerDarwin_Private](DYLIBS/System/Library/PrivateFrameworks/AccessorySensorManagerDarwin_Private.framework/Versions/A/AccessorySensorManagerDarwin_Private.md)
+- [/System/Library/PrivateFrameworks/AccessorySensorManagerDefines_Private.framework/Versions/A/AccessorySensorManagerDefines_Private](DYLIBS/System/Library/PrivateFrameworks/AccessorySensorManagerDefines_Private.framework/Versions/A/AccessorySensorManagerDefines_Private.md)
+- [/System/Library/PrivateFrameworks/AccessorySensorManagerServices.framework/Versions/A/AccessorySensorManagerServices](DYLIBS/System/Library/PrivateFrameworks/AccessorySensorManagerServices.framework/Versions/A/AccessorySensorManagerServices.md)
+- [/System/Library/PrivateFrameworks/AirPlayReceiver.framework/Versions/A/AirPlayReceiver](DYLIBS/System/Library/PrivateFrameworks/AirPlayReceiver.framework/Versions/A/AirPlayReceiver.md)
+- [/System/Library/PrivateFrameworks/AirPlayReceiverKit.framework/Versions/A/AirPlayReceiverKit](DYLIBS/System/Library/PrivateFrameworks/AirPlayReceiverKit.framework/Versions/A/AirPlayReceiverKit.md)
+- [/System/Library/PrivateFrameworks/AirPlaySender.framework/Versions/A/AirPlaySender](DYLIBS/System/Library/PrivateFrameworks/AirPlaySender.framework/Versions/A/AirPlaySender.md)
+- [/System/Library/PrivateFrameworks/AirPlaySupport.framework/Versions/A/AirPlaySupport](DYLIBS/System/Library/PrivateFrameworks/AirPlaySupport.framework/Versions/A/AirPlaySupport.md)
+- [/System/Library/PrivateFrameworks/AlarmUIFramework.framework/Versions/A/AlarmUIFramework](DYLIBS/System/Library/PrivateFrameworks/AlarmUIFramework.framework/Versions/A/AlarmUIFramework.md)
+- [/System/Library/PrivateFrameworks/AppIntentSchemas.framework/Versions/A/AppIntentSchemas](DYLIBS/System/Library/PrivateFrameworks/AppIntentSchemas.framework/Versions/A/AppIntentSchemas.md)
+- [/System/Library/PrivateFrameworks/AppIntentsServices.framework/Versions/A/AppIntentsServices](DYLIBS/System/Library/PrivateFrameworks/AppIntentsServices.framework/Versions/A/AppIntentsServices.md)
+- [/System/Library/PrivateFrameworks/AppleDepth.framework/Versions/A/AppleDepth](DYLIBS/System/Library/PrivateFrameworks/AppleDepth.framework/Versions/A/AppleDepth.md)
+- [/System/Library/PrivateFrameworks/AppleMediaServicesUIPaymentSheets.framework/Versions/A/AppleMediaServicesUIPaymentSheets](DYLIBS/System/Library/PrivateFrameworks/AppleMediaServicesUIPaymentSheets.framework/Versions/A/AppleMediaServicesUIPaymentSheets.md)
+- [/System/Library/PrivateFrameworks/AppleNeuralEngine.framework/Versions/A/AppleNeuralEngine](DYLIBS/System/Library/PrivateFrameworks/AppleNeuralEngine.framework/Versions/A/AppleNeuralEngine.md)
+- [/System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/AssistantServices](DYLIBS/System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/AssistantServices.md)
+- [/System/Library/PrivateFrameworks/AudioAccessoryServices.framework/Versions/A/AudioAccessoryServices](DYLIBS/System/Library/PrivateFrameworks/AudioAccessoryServices.framework/Versions/A/AudioAccessoryServices.md)
+- [/System/Library/PrivateFrameworks/AudioSession.framework/Versions/A/AudioSession](DYLIBS/System/Library/PrivateFrameworks/AudioSession.framework/Versions/A/AudioSession.md)
+- [/System/Library/PrivateFrameworks/AuthenticationServicesCore.framework/Versions/A/AuthenticationServicesCore](DYLIBS/System/Library/PrivateFrameworks/AuthenticationServicesCore.framework/Versions/A/AuthenticationServicesCore.md)
+- [/System/Library/PrivateFrameworks/BiomeFoundation.framework/Versions/A/BiomeFoundation](DYLIBS/System/Library/PrivateFrameworks/BiomeFoundation.framework/Versions/A/BiomeFoundation.md)
+- [/System/Library/PrivateFrameworks/BiomeLibrary.framework/Versions/A/BiomeLibrary](DYLIBS/System/Library/PrivateFrameworks/BiomeLibrary.framework/Versions/A/BiomeLibrary.md)
+- [/System/Library/PrivateFrameworks/BiomeStreams.framework/Versions/A/BiomeStreams](DYLIBS/System/Library/PrivateFrameworks/BiomeStreams.framework/Versions/A/BiomeStreams.md)
+- [/System/Library/PrivateFrameworks/CMCapture.framework/Versions/A/CMCapture](DYLIBS/System/Library/PrivateFrameworks/CMCapture.framework/Versions/A/CMCapture.md)
+- [/System/Library/PrivateFrameworks/CMCaptureCore.framework/Versions/A/CMCaptureCore](DYLIBS/System/Library/PrivateFrameworks/CMCaptureCore.framework/Versions/A/CMCaptureCore.md)
+- [/System/Library/PrivateFrameworks/CMImaging.framework/Versions/A/CMImaging](DYLIBS/System/Library/PrivateFrameworks/CMImaging.framework/Versions/A/CMImaging.md)
+- [/System/Library/PrivateFrameworks/CMPhoto.framework/Versions/A/CMPhoto](DYLIBS/System/Library/PrivateFrameworks/CMPhoto.framework/Versions/A/CMPhoto.md)
+- [/System/Library/PrivateFrameworks/CallHistory.framework/Versions/A/CallHistory](DYLIBS/System/Library/PrivateFrameworks/CallHistory.framework/Versions/A/CallHistory.md)
+- [/System/Library/PrivateFrameworks/CascadeEngine.framework/Versions/A/CascadeEngine](DYLIBS/System/Library/PrivateFrameworks/CascadeEngine.framework/Versions/A/CascadeEngine.md)
+- [/System/Library/PrivateFrameworks/ContainerManagerCommon.framework/Versions/A/ContainerManagerCommon](DYLIBS/System/Library/PrivateFrameworks/ContainerManagerCommon.framework/Versions/A/ContainerManagerCommon.md)
+- [/System/Library/PrivateFrameworks/CoreBrightness.framework/Versions/A/CoreBrightness](DYLIBS/System/Library/PrivateFrameworks/CoreBrightness.framework/Versions/A/CoreBrightness.md)
+- [/System/Library/PrivateFrameworks/CoreComposite.framework/Versions/A/CoreComposite](DYLIBS/System/Library/PrivateFrameworks/CoreComposite.framework/Versions/A/CoreComposite.md)
+- [/System/Library/PrivateFrameworks/CoreLocationReplay.framework/Versions/A/CoreLocationReplay](DYLIBS/System/Library/PrivateFrameworks/CoreLocationReplay.framework/Versions/A/CoreLocationReplay.md)
+- [/System/Library/PrivateFrameworks/CoreLocationTiles.framework/Versions/A/CoreLocationTiles](DYLIBS/System/Library/PrivateFrameworks/CoreLocationTiles.framework/Versions/A/CoreLocationTiles.md)
+- [/System/Library/PrivateFrameworks/CoreMLOdie.framework/Versions/A/CoreMLOdie](DYLIBS/System/Library/PrivateFrameworks/CoreMLOdie.framework/Versions/A/CoreMLOdie.md)
+- [/System/Library/PrivateFrameworks/CoreSpeech.framework/Versions/A/CoreSpeech](DYLIBS/System/Library/PrivateFrameworks/CoreSpeech.framework/Versions/A/CoreSpeech.md)
+- [/System/Library/PrivateFrameworks/CoreSpeechFoundation.framework/Versions/A/CoreSpeechFoundation](DYLIBS/System/Library/PrivateFrameworks/CoreSpeechFoundation.framework/Versions/A/CoreSpeechFoundation.md)
+- [/System/Library/PrivateFrameworks/CoreSymbolication.framework/Versions/A/CoreSymbolication](DYLIBS/System/Library/PrivateFrameworks/CoreSymbolication.framework/Versions/A/CoreSymbolication.md)
+- [/System/Library/PrivateFrameworks/CoreThemeDefinition.framework/Versions/A/CoreThemeDefinition](DYLIBS/System/Library/PrivateFrameworks/CoreThemeDefinition.framework/Versions/A/CoreThemeDefinition.md)
+- [/System/Library/PrivateFrameworks/CoreUARP.framework/Versions/A/CoreUARP](DYLIBS/System/Library/PrivateFrameworks/CoreUARP.framework/Versions/A/CoreUARP.md)
+- [/System/Library/PrivateFrameworks/CoreUI.framework/Versions/A/CoreUI](DYLIBS/System/Library/PrivateFrameworks/CoreUI.framework/Versions/A/CoreUI.md)
+- [/System/Library/PrivateFrameworks/CoreUtils.framework/Versions/A/CoreUtils](DYLIBS/System/Library/PrivateFrameworks/CoreUtils.framework/Versions/A/CoreUtils.md)
+- [/System/Library/PrivateFrameworks/CryptexKit.framework/Versions/A/CryptexKit](DYLIBS/System/Library/PrivateFrameworks/CryptexKit.framework/Versions/A/CryptexKit.md)
+- [/System/Library/PrivateFrameworks/CryptexServer.framework/Versions/A/CryptexServer](DYLIBS/System/Library/PrivateFrameworks/CryptexServer.framework/Versions/A/CryptexServer.md)
+- [/System/Library/PrivateFrameworks/DataDeliveryServices.framework/Versions/A/DataDeliveryServices](DYLIBS/System/Library/PrivateFrameworks/DataDeliveryServices.framework/Versions/A/DataDeliveryServices.md)
+- [/System/Library/PrivateFrameworks/DataRelay.framework/Versions/A/DataRelay](DYLIBS/System/Library/PrivateFrameworks/DataRelay.framework/Versions/A/DataRelay.md)
+- [/System/Library/PrivateFrameworks/DataRelay_Private.framework/Versions/A/DataRelay_Private](DYLIBS/System/Library/PrivateFrameworks/DataRelay_Private.framework/Versions/A/DataRelay_Private.md)
+- [/System/Library/PrivateFrameworks/DeepThoughtBiomeFoundation.framework/Versions/A/DeepThoughtBiomeFoundation](DYLIBS/System/Library/PrivateFrameworks/DeepThoughtBiomeFoundation.framework/Versions/A/DeepThoughtBiomeFoundation.md)
+- [/System/Library/PrivateFrameworks/DeviceIdentity.framework/Versions/A/DeviceIdentity](DYLIBS/System/Library/PrivateFrameworks/DeviceIdentity.framework/Versions/A/DeviceIdentity.md)
+- [/System/Library/PrivateFrameworks/DiagnosticExtensionsDaemon.framework/Versions/A/DiagnosticExtensionsDaemon](DYLIBS/System/Library/PrivateFrameworks/DiagnosticExtensionsDaemon.framework/Versions/A/DiagnosticExtensionsDaemon.md)
+- [/System/Library/PrivateFrameworks/DiagnosticRequestService.framework/Versions/A/DiagnosticRequestService](DYLIBS/System/Library/PrivateFrameworks/DiagnosticRequestService.framework/Versions/A/DiagnosticRequestService.md)
+- [/System/Library/PrivateFrameworks/DialogEngine.framework/Versions/A/DialogEngine](DYLIBS/System/Library/PrivateFrameworks/DialogEngine.framework/Versions/A/DialogEngine.md)
+- [/System/Library/PrivateFrameworks/EnhancedLogging.framework/Versions/A/EnhancedLogging](DYLIBS/System/Library/PrivateFrameworks/EnhancedLogging.framework/Versions/A/EnhancedLogging.md)
+- [/System/Library/PrivateFrameworks/EnhancedLoggingState.framework/Versions/A/EnhancedLoggingState](DYLIBS/System/Library/PrivateFrameworks/EnhancedLoggingState.framework/Versions/A/EnhancedLoggingState.md)
+- [/System/Library/PrivateFrameworks/Espresso.framework/Versions/A/Espresso](DYLIBS/System/Library/PrivateFrameworks/Espresso.framework/Versions/A/Espresso.md)
+- [/System/Library/PrivateFrameworks/ExchangeWebServices.framework/Versions/A/ExchangeWebServices](DYLIBS/System/Library/PrivateFrameworks/ExchangeWebServices.framework/Versions/A/ExchangeWebServices.md)
+- [/System/Library/PrivateFrameworks/FTServices.framework/Versions/A/FTServices](DYLIBS/System/Library/PrivateFrameworks/FTServices.framework/Versions/A/FTServices.md)
+- [/System/Library/PrivateFrameworks/FeedbackCore.framework/Versions/A/FeedbackCore](DYLIBS/System/Library/PrivateFrameworks/FeedbackCore.framework/Versions/A/FeedbackCore.md)
+- [/System/Library/PrivateFrameworks/FindMyCore.framework/Versions/A/FindMyCore](DYLIBS/System/Library/PrivateFrameworks/FindMyCore.framework/Versions/A/FindMyCore.md)
+- [/System/Library/PrivateFrameworks/GPUCompiler.framework/Versions/32023/Libraries/libGPUCompilerImpl.dylib](DYLIBS/System/Library/PrivateFrameworks/GPUCompiler.framework/Versions/32023/Libraries/libGPUCompilerImpl.dylib.md)
+- [/System/Library/PrivateFrameworks/GPUCompiler.framework/Versions/32023/Libraries/libLLVM.dylib](DYLIBS/System/Library/PrivateFrameworks/GPUCompiler.framework/Versions/32023/Libraries/libLLVM.dylib.md)
+- [/System/Library/PrivateFrameworks/GPUInfo.framework/Versions/A/GPUInfo](DYLIBS/System/Library/PrivateFrameworks/GPUInfo.framework/Versions/A/GPUInfo.md)
+- [/System/Library/PrivateFrameworks/GPUToolsReplay.framework/Versions/A/GPUToolsReplay](DYLIBS/System/Library/PrivateFrameworks/GPUToolsReplay.framework/Versions/A/GPUToolsReplay.md)
+- [/System/Library/PrivateFrameworks/GenerativeAssistantActions.framework/Versions/A/GenerativeAssistantActions](DYLIBS/System/Library/PrivateFrameworks/GenerativeAssistantActions.framework/Versions/A/GenerativeAssistantActions.md)
+- [/System/Library/PrivateFrameworks/HDRProcessing.framework/Versions/A/HDRProcessing](DYLIBS/System/Library/PrivateFrameworks/HDRProcessing.framework/Versions/A/HDRProcessing.md)
+- [/System/Library/PrivateFrameworks/HMFoundation.framework/Versions/A/HMFoundation](DYLIBS/System/Library/PrivateFrameworks/HMFoundation.framework/Versions/A/HMFoundation.md)
+- [/System/Library/PrivateFrameworks/HeadphoneManager.framework/Versions/A/HeadphoneManager](DYLIBS/System/Library/PrivateFrameworks/HeadphoneManager.framework/Versions/A/HeadphoneManager.md)
+- [/System/Library/PrivateFrameworks/HeadphoneSettingsUI.framework/Versions/A/HeadphoneSettingsUI](DYLIBS/System/Library/PrivateFrameworks/HeadphoneSettingsUI.framework/Versions/A/HeadphoneSettingsUI.md)
+- [/System/Library/PrivateFrameworks/HearingModeService.framework/Versions/A/HearingModeService](DYLIBS/System/Library/PrivateFrameworks/HearingModeService.framework/Versions/A/HearingModeService.md)
+- [/System/Library/PrivateFrameworks/HearingUtilities.framework/Versions/A/HearingUtilities](DYLIBS/System/Library/PrivateFrameworks/HearingUtilities.framework/Versions/A/HearingUtilities.md)
+- [/System/Library/PrivateFrameworks/HomeAI.framework/Versions/A/HomeAI](DYLIBS/System/Library/PrivateFrameworks/HomeAI.framework/Versions/A/HomeAI.md)
+- [/System/Library/PrivateFrameworks/HomeAutomationInternal.framework/Versions/A/HomeAutomationInternal](DYLIBS/System/Library/PrivateFrameworks/HomeAutomationInternal.framework/Versions/A/HomeAutomationInternal.md)
+- [/System/Library/PrivateFrameworks/HomeDataModel.framework/Versions/A/HomeDataModel](DYLIBS/System/Library/PrivateFrameworks/HomeDataModel.framework/Versions/A/HomeDataModel.md)
+- [/System/Library/PrivateFrameworks/HomeKit.framework/Versions/A/HomeKit](DYLIBS/System/Library/PrivateFrameworks/HomeKit.framework/Versions/A/HomeKit.md)
+- [/System/Library/PrivateFrameworks/HomeKitDaemon.framework/Versions/A/HomeKitDaemon](DYLIBS/System/Library/PrivateFrameworks/HomeKitDaemon.framework/Versions/A/HomeKitDaemon.md)
+- [/System/Library/PrivateFrameworks/HomeKitDaemonFoundation.framework/Versions/A/HomeKitDaemonFoundation](DYLIBS/System/Library/PrivateFrameworks/HomeKitDaemonFoundation.framework/Versions/A/HomeKitDaemonFoundation.md)
+- [/System/Library/PrivateFrameworks/HomeKitMetrics.framework/Versions/A/HomeKitMetrics](DYLIBS/System/Library/PrivateFrameworks/HomeKitMetrics.framework/Versions/A/HomeKitMetrics.md)
+- [/System/Library/PrivateFrameworks/IMFoundation.framework/Versions/A/IMFoundation](DYLIBS/System/Library/PrivateFrameworks/IMFoundation.framework/Versions/A/IMFoundation.md)
+- [/System/Library/PrivateFrameworks/IOGPU.framework/Versions/A/IOGPU](DYLIBS/System/Library/PrivateFrameworks/IOGPU.framework/Versions/A/IOGPU.md)
+- [/System/Library/PrivateFrameworks/ISPExclaveKitServices.framework/Versions/A/ISPExclaveKitServices](DYLIBS/System/Library/PrivateFrameworks/ISPExclaveKitServices.framework/Versions/A/ISPExclaveKitServices.md)
+- [/System/Library/PrivateFrameworks/IconFoundation.framework/Versions/A/IconFoundation](DYLIBS/System/Library/PrivateFrameworks/IconFoundation.framework/Versions/A/IconFoundation.md)
+- [/System/Library/PrivateFrameworks/IconServices.framework/Versions/A/IconServices](DYLIBS/System/Library/PrivateFrameworks/IconServices.framework/Versions/A/IconServices.md)
+- [/System/Library/PrivateFrameworks/IntelligenceFlow.framework/Versions/A/IntelligenceFlow](DYLIBS/System/Library/PrivateFrameworks/IntelligenceFlow.framework/Versions/A/IntelligenceFlow.md)
+- [/System/Library/PrivateFrameworks/IntelligenceFlowContext.framework/Versions/A/IntelligenceFlowContext](DYLIBS/System/Library/PrivateFrameworks/IntelligenceFlowContext.framework/Versions/A/IntelligenceFlowContext.md)
+- [/System/Library/PrivateFrameworks/IntelligenceFlowContextRuntime.framework/Versions/A/IntelligenceFlowContextRuntime](DYLIBS/System/Library/PrivateFrameworks/IntelligenceFlowContextRuntime.framework/Versions/A/IntelligenceFlowContextRuntime.md)
+- [/System/Library/PrivateFrameworks/IntelligenceFlowPlannerRuntime.framework/Versions/A/IntelligenceFlowPlannerRuntime](DYLIBS/System/Library/PrivateFrameworks/IntelligenceFlowPlannerRuntime.framework/Versions/A/IntelligenceFlowPlannerRuntime.md)
+- [/System/Library/PrivateFrameworks/IntelligenceFlowPlannerSupport.framework/Versions/A/IntelligenceFlowPlannerSupport](DYLIBS/System/Library/PrivateFrameworks/IntelligenceFlowPlannerSupport.framework/Versions/A/IntelligenceFlowPlannerSupport.md)
+- [/System/Library/PrivateFrameworks/IntelligenceFlowShared.framework/Versions/A/IntelligenceFlowShared](DYLIBS/System/Library/PrivateFrameworks/IntelligenceFlowShared.framework/Versions/A/IntelligenceFlowShared.md)
+- [/System/Library/PrivateFrameworks/IntelligencePlatformCore.framework/Versions/A/IntelligencePlatformCore](DYLIBS/System/Library/PrivateFrameworks/IntelligencePlatformCore.framework/Versions/A/IntelligencePlatformCore.md)
+- [/System/Library/PrivateFrameworks/IntelligencePlatformLibrary.framework/Versions/A/IntelligencePlatformLibrary](DYLIBS/System/Library/PrivateFrameworks/IntelligencePlatformLibrary.framework/Versions/A/IntelligencePlatformLibrary.md)
+- [/System/Library/PrivateFrameworks/Jet.framework/Versions/A/Jet](DYLIBS/System/Library/PrivateFrameworks/Jet.framework/Versions/A/Jet.md)
+- [/System/Library/PrivateFrameworks/LinkMetadata.framework/Versions/A/LinkMetadata](DYLIBS/System/Library/PrivateFrameworks/LinkMetadata.framework/Versions/A/LinkMetadata.md)
+- [/System/Library/PrivateFrameworks/LinkServices.framework/Versions/A/LinkServices](DYLIBS/System/Library/PrivateFrameworks/LinkServices.framework/Versions/A/LinkServices.md)
+- [/System/Library/PrivateFrameworks/LocalStatusKit.framework/Versions/A/LocalStatusKit](DYLIBS/System/Library/PrivateFrameworks/LocalStatusKit.framework/Versions/A/LocalStatusKit.md)
+- [/System/Library/PrivateFrameworks/MTLSimDriver.framework/Versions/A/MTLSimDriver](DYLIBS/System/Library/PrivateFrameworks/MTLSimDriver.framework/Versions/A/MTLSimDriver.md)
+- [/System/Library/PrivateFrameworks/MediaRemote.framework/Versions/A/MediaRemote](DYLIBS/System/Library/PrivateFrameworks/MediaRemote.framework/Versions/A/MediaRemote.md)
+- [/System/Library/PrivateFrameworks/MetalTools.framework/Versions/A/MetalTools](DYLIBS/System/Library/PrivateFrameworks/MetalTools.framework/Versions/A/MetalTools.md)
+- [/System/Library/PrivateFrameworks/MetricsFramework.framework/Versions/A/MetricsFramework](DYLIBS/System/Library/PrivateFrameworks/MetricsFramework.framework/Versions/A/MetricsFramework.md)
+- [/System/Library/PrivateFrameworks/MicroLocation.framework/Versions/A/MicroLocation](DYLIBS/System/Library/PrivateFrameworks/MicroLocation.framework/Versions/A/MicroLocation.md)
+- [/System/Library/PrivateFrameworks/MicroLocationDaemon.framework/Versions/A/MicroLocationDaemon](DYLIBS/System/Library/PrivateFrameworks/MicroLocationDaemon.framework/Versions/A/MicroLocationDaemon.md)
+- [/System/Library/PrivateFrameworks/MobileActivationMacOS.framework/Versions/A/MobileActivationMacOS](DYLIBS/System/Library/PrivateFrameworks/MobileActivationMacOS.framework/Versions/A/MobileActivationMacOS.md)
+- [/System/Library/PrivateFrameworks/MobileAssetDaemon.framework/Versions/A/MobileAssetDaemon](DYLIBS/System/Library/PrivateFrameworks/MobileAssetDaemon.framework/Versions/A/MobileAssetDaemon.md)
+- [/System/Library/PrivateFrameworks/ModelCatalog.framework/Versions/A/ModelCatalog](DYLIBS/System/Library/PrivateFrameworks/ModelCatalog.framework/Versions/A/ModelCatalog.md)
+- [/System/Library/PrivateFrameworks/ModelCatalogRuntime.framework/Versions/A/ModelCatalogRuntime](DYLIBS/System/Library/PrivateFrameworks/ModelCatalogRuntime.framework/Versions/A/ModelCatalogRuntime.md)
+- [/System/Library/PrivateFrameworks/NewDeviceOutreach.framework/Versions/A/NewDeviceOutreach](DYLIBS/System/Library/PrivateFrameworks/NewDeviceOutreach.framework/Versions/A/NewDeviceOutreach.md)
+- [/System/Library/PrivateFrameworks/NewDeviceOutreachMacUI.framework/Versions/A/NewDeviceOutreachMacUI](DYLIBS/System/Library/PrivateFrameworks/NewDeviceOutreachMacUI.framework/Versions/A/NewDeviceOutreachMacUI.md)
+- [/System/Library/PrivateFrameworks/Nexus.framework/Versions/A/Nexus](DYLIBS/System/Library/PrivateFrameworks/Nexus.framework/Versions/A/Nexus.md)
+- [/System/Library/PrivateFrameworks/ODDIFramework.framework/Versions/A/ODDIFramework](DYLIBS/System/Library/PrivateFrameworks/ODDIFramework.framework/Versions/A/ODDIFramework.md)
+- [/System/Library/PrivateFrameworks/OnBoardingKit.framework/Versions/A/OnBoardingKit](DYLIBS/System/Library/PrivateFrameworks/OnBoardingKit.framework/Versions/A/OnBoardingKit.md)
+- [/System/Library/PrivateFrameworks/PegasusConfiguration.framework/Versions/A/PegasusConfiguration](DYLIBS/System/Library/PrivateFrameworks/PegasusConfiguration.framework/Versions/A/PegasusConfiguration.md)
+- [/System/Library/PrivateFrameworks/PhoneSnippetUI.framework/Versions/A/PhoneSnippetUI](DYLIBS/System/Library/PrivateFrameworks/PhoneSnippetUI.framework/Versions/A/PhoneSnippetUI.md)
+- [/System/Library/PrivateFrameworks/PhotosUIPrivate.framework/Versions/A/PhotosUIPrivate](DYLIBS/System/Library/PrivateFrameworks/PhotosUIPrivate.framework/Versions/A/PhotosUIPrivate.md)
+- [/System/Library/PrivateFrameworks/PhotosensitivityProcessing.framework/Versions/A/PhotosensitivityProcessing](DYLIBS/System/Library/PrivateFrameworks/PhotosensitivityProcessing.framework/Versions/A/PhotosensitivityProcessing.md)
+- [/System/Library/PrivateFrameworks/PowerlogCore.framework/Versions/A/PowerlogCore](DYLIBS/System/Library/PrivateFrameworks/PowerlogCore.framework/Versions/A/PowerlogCore.md)
+- [/System/Library/PrivateFrameworks/PrivateFederatedLearning.framework/Versions/A/PrivateFederatedLearning](DYLIBS/System/Library/PrivateFrameworks/PrivateFederatedLearning.framework/Versions/A/PrivateFederatedLearning.md)
+- [/System/Library/PrivateFrameworks/ProDisplayLibrary.framework/Versions/A/ProDisplayLibrary](DYLIBS/System/Library/PrivateFrameworks/ProDisplayLibrary.framework/Versions/A/ProDisplayLibrary.md)
+- [/System/Library/PrivateFrameworks/ProductKit.framework/Versions/A/ProductKit](DYLIBS/System/Library/PrivateFrameworks/ProductKit.framework/Versions/A/ProductKit.md)
+- [/System/Library/PrivateFrameworks/ProductKitCore.framework/Versions/A/ProductKitCore](DYLIBS/System/Library/PrivateFrameworks/ProductKitCore.framework/Versions/A/ProductKitCore.md)
+- [/System/Library/PrivateFrameworks/ProtoDataExtractor.framework/Versions/A/ProtoDataExtractor](DYLIBS/System/Library/PrivateFrameworks/ProtoDataExtractor.framework/Versions/A/ProtoDataExtractor.md)
+- [/System/Library/PrivateFrameworks/Rapport.framework/Versions/A/Rapport](DYLIBS/System/Library/PrivateFrameworks/Rapport.framework/Versions/A/Rapport.md)
+- [/System/Library/PrivateFrameworks/ReminderKitInternal.framework/Versions/A/ReminderKitInternal](DYLIBS/System/Library/PrivateFrameworks/ReminderKitInternal.framework/Versions/A/ReminderKitInternal.md)
+- [/System/Library/PrivateFrameworks/RemindersUICore.framework/Versions/A/RemindersUICore](DYLIBS/System/Library/PrivateFrameworks/RemindersUICore.framework/Versions/A/RemindersUICore.md)
+- [/System/Library/PrivateFrameworks/ReplicatorCore.framework/Versions/A/ReplicatorCore](DYLIBS/System/Library/PrivateFrameworks/ReplicatorCore.framework/Versions/A/ReplicatorCore.md)
+- [/System/Library/PrivateFrameworks/ReplicatorEngine.framework/Versions/A/ReplicatorEngine](DYLIBS/System/Library/PrivateFrameworks/ReplicatorEngine.framework/Versions/A/ReplicatorEngine.md)
+- [/System/Library/PrivateFrameworks/ReplicatorServices.framework/Versions/A/ReplicatorServices](DYLIBS/System/Library/PrivateFrameworks/ReplicatorServices.framework/Versions/A/ReplicatorServices.md)
+- [/System/Library/PrivateFrameworks/RequestDispatcherBridges.framework/Versions/A/RequestDispatcherBridges](DYLIBS/System/Library/PrivateFrameworks/RequestDispatcherBridges.framework/Versions/A/RequestDispatcherBridges.md)
+- [/System/Library/PrivateFrameworks/SFSymbols.framework/Versions/A/SFSymbols](DYLIBS/System/Library/PrivateFrameworks/SFSymbols.framework/Versions/A/SFSymbols.md)
+- [/System/Library/PrivateFrameworks/SPOwner.framework/Versions/A/SPOwner](DYLIBS/System/Library/PrivateFrameworks/SPOwner.framework/Versions/A/SPOwner.md)
+- [/System/Library/PrivateFrameworks/SafariShared.framework/Versions/A/SafariShared](DYLIBS/System/Library/PrivateFrameworks/SafariShared.framework/Versions/A/SafariShared.md)
+- [/System/Library/PrivateFrameworks/SensitiveContentAnalysisUI.framework/Versions/A/SensitiveContentAnalysisUI](DYLIBS/System/Library/PrivateFrameworks/SensitiveContentAnalysisUI.framework/Versions/A/SensitiveContentAnalysisUI.md)
+- [/System/Library/PrivateFrameworks/Sharing.framework/Versions/A/Sharing](DYLIBS/System/Library/PrivateFrameworks/Sharing.framework/Versions/A/Sharing.md)
+- [/System/Library/PrivateFrameworks/SiriAnalytics.framework/Versions/A/SiriAnalytics](DYLIBS/System/Library/PrivateFrameworks/SiriAnalytics.framework/Versions/A/SiriAnalytics.md)
+- [/System/Library/PrivateFrameworks/SiriAppLaunchIntents.framework/Versions/A/SiriAppLaunchIntents](DYLIBS/System/Library/PrivateFrameworks/SiriAppLaunchIntents.framework/Versions/A/SiriAppLaunchIntents.md)
+- [/System/Library/PrivateFrameworks/SiriAudioSupport.framework/Versions/A/SiriAudioSupport](DYLIBS/System/Library/PrivateFrameworks/SiriAudioSupport.framework/Versions/A/SiriAudioSupport.md)
+- [/System/Library/PrivateFrameworks/SiriCalendar.framework/Versions/A/SiriCalendar](DYLIBS/System/Library/PrivateFrameworks/SiriCalendar.framework/Versions/A/SiriCalendar.md)
+- [/System/Library/PrivateFrameworks/SiriCalendarIntents.framework/Versions/A/SiriCalendarIntents](DYLIBS/System/Library/PrivateFrameworks/SiriCalendarIntents.framework/Versions/A/SiriCalendarIntents.md)
+- [/System/Library/PrivateFrameworks/SiriCalendarUI.framework/Versions/A/SiriCalendarUI](DYLIBS/System/Library/PrivateFrameworks/SiriCalendarUI.framework/Versions/A/SiriCalendarUI.md)
+- [/System/Library/PrivateFrameworks/SiriContactsIntents.framework/Versions/A/SiriContactsIntents](DYLIBS/System/Library/PrivateFrameworks/SiriContactsIntents.framework/Versions/A/SiriContactsIntents.md)
+- [/System/Library/PrivateFrameworks/SiriCrossDeviceArbitration.framework/Versions/A/SiriCrossDeviceArbitration](DYLIBS/System/Library/PrivateFrameworks/SiriCrossDeviceArbitration.framework/Versions/A/SiriCrossDeviceArbitration.md)
+- [/System/Library/PrivateFrameworks/SiriDialogEngine.framework/Versions/A/SiriDialogEngine](DYLIBS/System/Library/PrivateFrameworks/SiriDialogEngine.framework/Versions/A/SiriDialogEngine.md)
+- [/System/Library/PrivateFrameworks/SiriFindMy.framework/Versions/A/SiriFindMy](DYLIBS/System/Library/PrivateFrameworks/SiriFindMy.framework/Versions/A/SiriFindMy.md)
+- [/System/Library/PrivateFrameworks/SiriFlowEnvironment.framework/Versions/A/SiriFlowEnvironment](DYLIBS/System/Library/PrivateFrameworks/SiriFlowEnvironment.framework/Versions/A/SiriFlowEnvironment.md)
+- [/System/Library/PrivateFrameworks/SiriInference.framework/Versions/A/SiriInference](DYLIBS/System/Library/PrivateFrameworks/SiriInference.framework/Versions/A/SiriInference.md)
+- [/System/Library/PrivateFrameworks/SiriInferenceFlow.framework/Versions/A/SiriInferenceFlow](DYLIBS/System/Library/PrivateFrameworks/SiriInferenceFlow.framework/Versions/A/SiriInferenceFlow.md)
+- [/System/Library/PrivateFrameworks/SiriInstrumentation.framework/Versions/A/SiriInstrumentation](DYLIBS/System/Library/PrivateFrameworks/SiriInstrumentation.framework/Versions/A/SiriInstrumentation.md)
+- [/System/Library/PrivateFrameworks/SiriKitFlow.framework/Versions/A/SiriKitFlow](DYLIBS/System/Library/PrivateFrameworks/SiriKitFlow.framework/Versions/A/SiriKitFlow.md)
+- [/System/Library/PrivateFrameworks/SiriKitRuntime.framework/Versions/A/SiriKitRuntime](DYLIBS/System/Library/PrivateFrameworks/SiriKitRuntime.framework/Versions/A/SiriKitRuntime.md)
+- [/System/Library/PrivateFrameworks/SiriMessagesFlow.framework/Versions/A/SiriMessagesFlow](DYLIBS/System/Library/PrivateFrameworks/SiriMessagesFlow.framework/Versions/A/SiriMessagesFlow.md)
+- [/System/Library/PrivateFrameworks/SiriNotebook.framework/Versions/A/SiriNotebook](DYLIBS/System/Library/PrivateFrameworks/SiriNotebook.framework/Versions/A/SiriNotebook.md)
+- [/System/Library/PrivateFrameworks/SiriNotebookUI.framework/Versions/A/SiriNotebookUI](DYLIBS/System/Library/PrivateFrameworks/SiriNotebookUI.framework/Versions/A/SiriNotebookUI.md)
+- [/System/Library/PrivateFrameworks/SiriPhoneIntents.framework/Versions/A/SiriPhoneIntents](DYLIBS/System/Library/PrivateFrameworks/SiriPhoneIntents.framework/Versions/A/SiriPhoneIntents.md)
+- [/System/Library/PrivateFrameworks/SiriPrivateLearningAnalytics.framework/Versions/A/SiriPrivateLearningAnalytics](DYLIBS/System/Library/PrivateFrameworks/SiriPrivateLearningAnalytics.framework/Versions/A/SiriPrivateLearningAnalytics.md)
+- [/System/Library/PrivateFrameworks/SiriPrivateLearningLogging.framework/Versions/A/SiriPrivateLearningLogging](DYLIBS/System/Library/PrivateFrameworks/SiriPrivateLearningLogging.framework/Versions/A/SiriPrivateLearningLogging.md)
+- [/System/Library/PrivateFrameworks/SiriSetup.framework/Versions/A/SiriSetup](DYLIBS/System/Library/PrivateFrameworks/SiriSetup.framework/Versions/A/SiriSetup.md)
+- [/System/Library/PrivateFrameworks/SiriSignals.framework/Versions/A/SiriSignals](DYLIBS/System/Library/PrivateFrameworks/SiriSignals.framework/Versions/A/SiriSignals.md)
+- [/System/Library/PrivateFrameworks/SiriTTSService.framework/Versions/A/SiriTTSService](DYLIBS/System/Library/PrivateFrameworks/SiriTTSService.framework/Versions/A/SiriTTSService.md)
+- [/System/Library/PrivateFrameworks/SiriTimeInternal.framework/Versions/A/SiriTimeInternal](DYLIBS/System/Library/PrivateFrameworks/SiriTimeInternal.framework/Versions/A/SiriTimeInternal.md)
+- [/System/Library/PrivateFrameworks/SiriUtilities.framework/Versions/A/SiriUtilities](DYLIBS/System/Library/PrivateFrameworks/SiriUtilities.framework/Versions/A/SiriUtilities.md)
+- [/System/Library/PrivateFrameworks/SiriVideoIntents.framework/Versions/A/SiriVideoIntents](DYLIBS/System/Library/PrivateFrameworks/SiriVideoIntents.framework/Versions/A/SiriVideoIntents.md)
+- [/System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/SkyLight](DYLIBS/System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/SkyLight.md)
+- [/System/Library/PrivateFrameworks/SnippetUI.framework/Versions/A/SnippetUI](DYLIBS/System/Library/PrivateFrameworks/SnippetUI.framework/Versions/A/SnippetUI.md)
+- [/System/Library/PrivateFrameworks/SoftwareUpdateCore.framework/Versions/A/SoftwareUpdateCore](DYLIBS/System/Library/PrivateFrameworks/SoftwareUpdateCore.framework/Versions/A/SoftwareUpdateCore.md)
+- [/System/Library/PrivateFrameworks/SoftwareUpdateCoreSupport.framework/Versions/A/SoftwareUpdateCoreSupport](DYLIBS/System/Library/PrivateFrameworks/SoftwareUpdateCoreSupport.framework/Versions/A/SoftwareUpdateCoreSupport.md)
+- [/System/Library/PrivateFrameworks/SpeakerRecognition.framework/Versions/A/SpeakerRecognition](DYLIBS/System/Library/PrivateFrameworks/SpeakerRecognition.framework/Versions/A/SpeakerRecognition.md)
+- [/System/Library/PrivateFrameworks/StatusKitAgentCore.framework/Versions/A/StatusKitAgentCore](DYLIBS/System/Library/PrivateFrameworks/StatusKitAgentCore.framework/Versions/A/StatusKitAgentCore.md)
+- [/System/Library/PrivateFrameworks/StreamingAppleTrace.framework/Versions/A/StreamingAppleTrace](DYLIBS/System/Library/PrivateFrameworks/StreamingAppleTrace.framework/Versions/A/StreamingAppleTrace.md)
+- [/System/Library/PrivateFrameworks/Symbolication.framework/Versions/A/Symbolication](DYLIBS/System/Library/PrivateFrameworks/Symbolication.framework/Versions/A/Symbolication.md)
+- [/System/Library/PrivateFrameworks/SymptomDistribution.framework/Versions/A/SymptomDistribution](DYLIBS/System/Library/PrivateFrameworks/SymptomDistribution.framework/Versions/A/SymptomDistribution.md)
+- [/System/Library/PrivateFrameworks/TelephonyUtilities.framework/Versions/A/TelephonyUtilities](DYLIBS/System/Library/PrivateFrameworks/TelephonyUtilities.framework/Versions/A/TelephonyUtilities.md)
+- [/System/Library/PrivateFrameworks/TipsDaemon.framework/Versions/A/TipsDaemon](DYLIBS/System/Library/PrivateFrameworks/TipsDaemon.framework/Versions/A/TipsDaemon.md)
+- [/System/Library/PrivateFrameworks/ToolKit.framework/Versions/A/ToolKit](DYLIBS/System/Library/PrivateFrameworks/ToolKit.framework/Versions/A/ToolKit.md)
+- [/System/Library/PrivateFrameworks/TrustedPeers.framework/Versions/A/TrustedPeers](DYLIBS/System/Library/PrivateFrameworks/TrustedPeers.framework/Versions/A/TrustedPeers.md)
+- [/System/Library/PrivateFrameworks/VFX.framework/Versions/A/VFX](DYLIBS/System/Library/PrivateFrameworks/VFX.framework/Versions/A/VFX.md)
+- [/System/Library/PrivateFrameworks/VoiceProcessor.framework/Versions/A/VoiceProcessor](DYLIBS/System/Library/PrivateFrameworks/VoiceProcessor.framework/Versions/A/VoiceProcessor.md)
+- [/System/Library/PrivateFrameworks/VoiceTrigger.framework/Versions/A/VoiceTrigger](DYLIBS/System/Library/PrivateFrameworks/VoiceTrigger.framework/Versions/A/VoiceTrigger.md)
+- [/System/Library/PrivateFrameworks/WPDaemon.framework/Versions/A/WPDaemon](DYLIBS/System/Library/PrivateFrameworks/WPDaemon.framework/Versions/A/WPDaemon.md)
+- [/System/Library/PrivateFrameworks/WebDriver.framework/Versions/A/WebDriver](DYLIBS/System/Library/PrivateFrameworks/WebDriver.framework/Versions/A/WebDriver.md)
+- [/System/Library/PrivateFrameworks/WiFiAnalytics.framework/Versions/A/WiFiAnalytics](DYLIBS/System/Library/PrivateFrameworks/WiFiAnalytics.framework/Versions/A/WiFiAnalytics.md)
+- [/System/Library/PrivateFrameworks/WirelessProximity.framework/Versions/A/WirelessProximity](DYLIBS/System/Library/PrivateFrameworks/WirelessProximity.framework/Versions/A/WirelessProximity.md)
+- [/System/Library/PrivateFrameworks/WorkflowKit.framework/Versions/A/WorkflowKit](DYLIBS/System/Library/PrivateFrameworks/WorkflowKit.framework/Versions/A/WorkflowKit.md)
+- [/System/iOSSupport/System/Library/Frameworks/GameController.framework/Versions/A/GameController](DYLIBS/System/iOSSupport/System/Library/Frameworks/GameController.framework/Versions/A/GameController.md)
+- [/System/iOSSupport/System/Library/Frameworks/HomeKit.framework/Versions/A/HomeKit](DYLIBS/System/iOSSupport/System/Library/Frameworks/HomeKit.framework/Versions/A/HomeKit.md)
+- [/System/iOSSupport/System/Library/Frameworks/MediaPlayer.framework/Versions/A/MediaPlayer](DYLIBS/System/iOSSupport/System/Library/Frameworks/MediaPlayer.framework/Versions/A/MediaPlayer.md)
+- [/System/iOSSupport/System/Library/Frameworks/SceneKit.framework/Versions/A/SceneKit](DYLIBS/System/iOSSupport/System/Library/Frameworks/SceneKit.framework/Versions/A/SceneKit.md)
+- [/System/iOSSupport/System/Library/Frameworks/WebKit.framework/Versions/A/WebKit](DYLIBS/System/iOSSupport/System/Library/Frameworks/WebKit.framework/Versions/A/WebKit.md)
+- [/System/iOSSupport/System/Library/Frameworks/_AVKit_SwiftUI.framework/Versions/A/_AVKit_SwiftUI](DYLIBS/System/iOSSupport/System/Library/Frameworks/_AVKit_SwiftUI.framework/Versions/A/_AVKit_SwiftUI.md)
+- [/System/iOSSupport/System/Library/PrivateFrameworks/FeedbackCore.framework/Versions/A/FeedbackCore](DYLIBS/System/iOSSupport/System/Library/PrivateFrameworks/FeedbackCore.framework/Versions/A/FeedbackCore.md)
+- [/System/iOSSupport/System/Library/PrivateFrameworks/Home.framework/Versions/A/Home](DYLIBS/System/iOSSupport/System/Library/PrivateFrameworks/Home.framework/Versions/A/Home.md)
+- [/System/iOSSupport/System/Library/PrivateFrameworks/HomeDataModel.framework/Versions/A/HomeDataModel](DYLIBS/System/iOSSupport/System/Library/PrivateFrameworks/HomeDataModel.framework/Versions/A/HomeDataModel.md)
+- [/System/iOSSupport/System/Library/PrivateFrameworks/HomeUI.framework/Versions/A/HomeUI](DYLIBS/System/iOSSupport/System/Library/PrivateFrameworks/HomeUI.framework/Versions/A/HomeUI.md)
+- [/System/iOSSupport/System/Library/PrivateFrameworks/Jet.framework/Versions/A/Jet](DYLIBS/System/iOSSupport/System/Library/PrivateFrameworks/Jet.framework/Versions/A/Jet.md)
+- [/System/iOSSupport/System/Library/PrivateFrameworks/MediaPlaybackCore.framework/Versions/A/MediaPlaybackCore](DYLIBS/System/iOSSupport/System/Library/PrivateFrameworks/MediaPlaybackCore.framework/Versions/A/MediaPlaybackCore.md)
+- [/System/iOSSupport/System/Library/PrivateFrameworks/OnBoardingKit.framework/Versions/A/OnBoardingKit](DYLIBS/System/iOSSupport/System/Library/PrivateFrameworks/OnBoardingKit.framework/Versions/A/OnBoardingKit.md)
+- [/System/iOSSupport/System/Library/PrivateFrameworks/SafariShared.framework/Versions/A/SafariShared](DYLIBS/System/iOSSupport/System/Library/PrivateFrameworks/SafariShared.framework/Versions/A/SafariShared.md)
+- [/System/iOSSupport/System/Library/PrivateFrameworks/SensitiveContentAnalysisUI.framework/Versions/A/SensitiveContentAnalysisUI](DYLIBS/System/iOSSupport/System/Library/PrivateFrameworks/SensitiveContentAnalysisUI.framework/Versions/A/SensitiveContentAnalysisUI.md)
+- [/System/iOSSupport/System/Library/PrivateFrameworks/TelephonyUI.framework/Versions/A/TelephonyUI](DYLIBS/System/iOSSupport/System/Library/PrivateFrameworks/TelephonyUI.framework/Versions/A/TelephonyUI.md)
+- [/System/iOSSupport/System/Library/PrivateFrameworks/TextInputUI.framework/Versions/A/TextInputUI](DYLIBS/System/iOSSupport/System/Library/PrivateFrameworks/TextInputUI.framework/Versions/A/TextInputUI.md)
+- [/System/iOSSupport/System/Library/PrivateFrameworks/VFX.framework/Versions/A/VFX](DYLIBS/System/iOSSupport/System/Library/PrivateFrameworks/VFX.framework/Versions/A/VFX.md)
+- [/System/iOSSupport/System/Library/PrivateFrameworks/WorkflowKit.framework/Versions/A/WorkflowKit](DYLIBS/System/iOSSupport/System/Library/PrivateFrameworks/WorkflowKit.framework/Versions/A/WorkflowKit.md)
+- [/usr/lib/dyld](DYLIBS/usr/lib/dyld.md)
+- [/usr/lib/libAudioIssueDetector.dylib](DYLIBS/usr/lib/libAudioIssueDetector.dylib.md)
+- [/usr/lib/libMobileGestalt.dylib](DYLIBS/usr/lib/libMobileGestalt.dylib.md)
+- [/usr/lib/libTelephonyCapabilities.dylib](DYLIBS/usr/lib/libTelephonyCapabilities.dylib.md)
+- [/usr/lib/libUSBCfwflasher.dylib](DYLIBS/usr/lib/libUSBCfwflasher.dylib.md)
+- [/usr/lib/libcryptex.dylib](DYLIBS/usr/lib/libcryptex.dylib.md)
+- [/usr/lib/libcryptex_core.dylib](DYLIBS/usr/lib/libcryptex_core.dylib.md)
+- [/usr/lib/libcryptex_interface.dylib](DYLIBS/usr/lib/libcryptex_interface.dylib.md)
+- [/usr/lib/libcryptex_trampoline.dylib](DYLIBS/usr/lib/libcryptex_trampoline.dylib.md)
+- [/usr/lib/libhwtrace.dylib](DYLIBS/usr/lib/libhwtrace.dylib.md)
+- [/usr/lib/libimage4.dylib](DYLIBS/usr/lib/libimage4.dylib.md)
+- [/usr/lib/libramrod.dylib](DYLIBS/usr/lib/libramrod.dylib.md)
+- [/usr/lib/libsandbox.1.dylib](DYLIBS/usr/lib/libsandbox.1.dylib.md)
+- [/usr/lib/libswiftPrespecialized.dylib](DYLIBS/usr/lib/libswiftPrespecialized.dylib.md)
+- [/usr/lib/log/liblog_location.dylib](DYLIBS/usr/lib/log/liblog_location.dylib.md)
+- [/usr/lib/system/libmacho.dylib](DYLIBS/usr/lib/system/libmacho.dylib.md)
+- [/usr/lib/system/libsystem_containermanager.dylib](DYLIBS/usr/lib/system/libsystem_containermanager.dylib.md)
+- [/usr/lib/usd/libusd_ms.dylib](DYLIBS/usr/lib/usd/libusd_ms.dylib.md)
+
+</details>
+
+## Files
+
+### 🆕 New
+
+#### filesystem (159)
+
+- [View 159 new files](FILES/filesystem.NEW.md)
+
+### ❌ Removed
+
+#### filesystem (964)
+
+- [View 964 removed files](FILES/filesystem.Removed.md)
+
+## Localizations
+
+### filesystem
+
+#### ❌ Removed (77)
+
+<details>
+  <summary><i>View Removed</i></summary>
+
+- `filesystem/System/Applications/Home.app/Contents/Resources/HOSensitiveStrings-J490.loctable`
+- `filesystem/System/Applications/Notes.app/Contents/PlugIns/com.apple.Notes.SharingExtension.appex/Contents/Resources/ChinaAI.loctable`
+- `filesystem/System/Applications/Notes.app/Contents/Resources/ChinaAI.loctable`
+- `filesystem/System/Library/ExtensionKit/Extensions/AssistantSettingsControlsExtension.appex/Contents/Resources/AssistantAppEntities-J490.loctable`
+- `filesystem/System/Library/ExtensionKit/Extensions/GenerativeAssistantExtension.appex/Contents/Resources/Localizable-APPLE_FEATURE_AI_CHINA.loctable`
+- `filesystem/System/Library/ExtensionKit/Extensions/GenerativeAssistantSettingsExtension.appex/Contents/Resources/Localizable-APPLE_FEATURE_AI_CHINA.loctable`
+- `filesystem/System/Library/ExtensionKit/Extensions/GenerativeAssistantSettingsExtension.appex/Contents/Resources/Localizable-Snowflake.loctable`
+- `filesystem/System/Library/ExtensionKit/Extensions/SiriGeoAppIntentExtension.appex/Contents/Resources/InfoPlist.loctable`
+- `filesystem/System/Library/ExtensionKit/Extensions/SiriGeoAppIntentExtension.appex/Contents/Resources/Localizable.loctable`
+- `filesystem/System/Library/ExtensionKit/Extensions/SiriPreferenceExtension.appex/Contents/Resources/AssistantSettings-Snowflake.loctable`
+- `filesystem/System/Library/ExtensionKit/Extensions/WritingToolsAppIntentsExtension.appex/Contents/Resources/China.loctable`
+- `filesystem/System/Library/FlowTools/Tools/SiriMailFlowTools.flowtool/Contents/Resources/Localizable.loctable`
+- `filesystem/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/Versions/A/Resources/SwitchControl-J490.loctable`
+- `filesystem/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/Versions/Current/Resources/SwitchControl-J490.loctable`
+- `filesystem/System/Library/PrivateFrameworks/AppIntentSchemas.framework/Versions/A/Resources/Localizable-Internal.loctable`
+- `filesystem/System/Library/PrivateFrameworks/AppIntentSchemas.framework/Versions/Current/Resources/Localizable-Internal.loctable`
+- `filesystem/System/Library/PrivateFrameworks/GenerativeAssistantSettings.framework/Versions/A/Resources/Localizable-APPLE_FEATURE_AI_CHINA.loctable`
+- `filesystem/System/Library/PrivateFrameworks/GenerativeAssistantSettings.framework/Versions/Current/Resources/Localizable-APPLE_FEATURE_AI_CHINA.loctable`
+- `filesystem/System/Library/PrivateFrameworks/GenerativePartnerService.framework/Versions/A/Resources/Localizable-APPLE_FEATURE_AI_CHINA.loctable`
+- `filesystem/System/Library/PrivateFrameworks/GenerativePartnerService.framework/Versions/Current/Resources/Localizable-APPLE_FEATURE_AI_CHINA.loctable`
+- `filesystem/System/Library/PrivateFrameworks/GenerativePartnerServiceUI.framework/Versions/A/Resources/Localizable-APPLE_FEATURE_AI_CHINA.loctable`
+- `filesystem/System/Library/PrivateFrameworks/GenerativePartnerServiceUI.framework/Versions/Current/Resources/Localizable-APPLE_FEATURE_AI_CHINA.loctable`
+- `filesystem/System/Library/PrivateFrameworks/HeadphoneAssets.framework/Versions/A/Resources/B518-iOS-Localizable.loctable`
+- `filesystem/System/Library/PrivateFrameworks/HeadphoneAssets.framework/Versions/A/Resources/B522-iOS-Localizable.loctable`
+- `filesystem/System/Library/PrivateFrameworks/HeadphoneAssets.framework/Versions/A/Resources/B790-iOS-Localizable.loctable`
+- `filesystem/System/Library/PrivateFrameworks/HeadphoneAssets.framework/Versions/A/Resources/B790-macOS-Localizable.loctable`
+- `filesystem/System/Library/PrivateFrameworks/HeadphoneAssets.framework/Versions/A/Resources/Localizable-PID_8235.loctable`
+- `filesystem/System/Library/PrivateFrameworks/HeadphoneAssets.framework/Versions/A/Resources/Localizable-PID_8236.loctable`
+- `filesystem/System/Library/PrivateFrameworks/HeadphoneAssets.framework/Versions/A/Resources/Localizable-PID_8241.loctable`
+- `filesystem/System/Library/PrivateFrameworks/HeadphoneAssets.framework/Versions/Current/Resources/B518-iOS-Localizable.loctable`
+- `filesystem/System/Library/PrivateFrameworks/HeadphoneAssets.framework/Versions/Current/Resources/B522-iOS-Localizable.loctable`
+- `filesystem/System/Library/PrivateFrameworks/HeadphoneAssets.framework/Versions/Current/Resources/B790-iOS-Localizable.loctable`
+- `filesystem/System/Library/PrivateFrameworks/HeadphoneAssets.framework/Versions/Current/Resources/B790-macOS-Localizable.loctable`
+- `filesystem/System/Library/PrivateFrameworks/HeadphoneAssets.framework/Versions/Current/Resources/Localizable-PID_8235.loctable`
+- `filesystem/System/Library/PrivateFrameworks/HeadphoneAssets.framework/Versions/Current/Resources/Localizable-PID_8236.loctable`
+- `filesystem/System/Library/PrivateFrameworks/HeadphoneAssets.framework/Versions/Current/Resources/Localizable-PID_8241.loctable`
+- `filesystem/System/Library/PrivateFrameworks/HomeKit.framework/Versions/A/Resources/HMAccessoryCategory-J490.loctable`
+- `filesystem/System/Library/PrivateFrameworks/HomeKit.framework/Versions/Current/Resources/HMAccessoryCategory-J490.loctable`
+- `filesystem/System/Library/PrivateFrameworks/HomeKitDaemon.framework/Versions/A/Resources/HomeKitDaemon-J490.loctable`
+- `filesystem/System/Library/PrivateFrameworks/HomeKitDaemon.framework/Versions/Current/Resources/HomeKitDaemon-J490.loctable`
+- `filesystem/System/Library/PrivateFrameworks/HomeKitDaemonLegacy.framework/Versions/A/Resources/HomeKitDaemon-J490.loctable`
+- `filesystem/System/Library/PrivateFrameworks/HomeKitDaemonLegacy.framework/Versions/Current/Resources/HomeKitDaemon-J490.loctable`
+- `filesystem/System/Library/PrivateFrameworks/ImagePlaygroundInternal.framework/Versions/A/Resources/Localizable-AI_CHINA_GENMOJI.loctable`
+- `filesystem/System/Library/PrivateFrameworks/ImagePlaygroundInternal.framework/Versions/Current/Resources/Localizable-AI_CHINA_GENMOJI.loctable`
+- `filesystem/System/Library/PrivateFrameworks/MediaRemote.framework/Versions/A/Resources/Localizable-J490.loctable`
+- `filesystem/System/Library/PrivateFrameworks/MediaRemote.framework/Versions/Current/Resources/Localizable-J490.loctable`
+- `filesystem/System/Library/PrivateFrameworks/NotesShared.framework/Versions/A/Resources/ChinaAI.loctable`
+- `filesystem/System/Library/PrivateFrameworks/NotesShared.framework/Versions/Current/Resources/ChinaAI.loctable`
+- `filesystem/System/Library/PrivateFrameworks/SensitiveContentAnalysisUI.framework/Versions/A/Resources/SensitiveContentAnalysisLocalizable-RIZZ_FEATURES.strings`
+- `filesystem/System/Library/PrivateFrameworks/SensitiveContentAnalysisUI.framework/Versions/Current/Resources/SensitiveContentAnalysisLocalizable-RIZZ_FEATURES.strings`
+- `filesystem/System/Library/PrivateFrameworks/SiriSetup.framework/Versions/A/Resources/Localizable-J490.loctable`
+- `filesystem/System/Library/PrivateFrameworks/SiriSetup.framework/Versions/Current/Resources/Localizable-J490.loctable`
+- `filesystem/System/Library/PrivateFrameworks/SpeechRecognitionCommandServices.framework/Versions/A/Resources/en.lproj/CommandDescriptions-J490.strings`
+- `filesystem/System/Library/PrivateFrameworks/SpeechRecognitionCommandServices.framework/Versions/A/Resources/en.lproj/CommandStrings-J490.strings`
+- `filesystem/System/Library/PrivateFrameworks/SpeechRecognitionCommandServices.framework/Versions/Current/Resources/en.lproj/CommandDescriptions-J490.strings`
+- `filesystem/System/Library/PrivateFrameworks/SpeechRecognitionCommandServices.framework/Versions/Current/Resources/en.lproj/CommandStrings-J490.strings`
+- `filesystem/System/Library/PrivateFrameworks/WritingToolsUI.framework/Versions/A/XPCServices/WritingToolsViewService.xpc/Contents/Resources/China.loctable`
+- `filesystem/System/Library/PrivateFrameworks/WritingToolsUI.framework/Versions/Current/XPCServices/WritingToolsViewService.xpc/Contents/Resources/China.loctable`
+- `filesystem/System/Library/ProductDocuments/RegulatoryCertifications/RegulatoryCertification-A9876-Q100.lpdf/Contents/Resources/InfoPlist.loctable`
+- `filesystem/System/iOSSupport/System/Library/Frameworks/HomeKit.framework/Versions/A/Resources/HMAccessoryCategory-J490.loctable`
+- `filesystem/System/iOSSupport/System/Library/Frameworks/HomeKit.framework/Versions/Current/Resources/HMAccessoryCategory-J490.loctable`
+- `filesystem/System/iOSSupport/System/Library/PrivateFrameworks/AccessibilityUIUtilities.framework/Versions/A/Resources/AXUILocalizedStrings-J490.loctable`
+- `filesystem/System/iOSSupport/System/Library/PrivateFrameworks/AccessibilityUIUtilities.framework/Versions/Current/Resources/AXUILocalizedStrings-J490.loctable`
+- `filesystem/System/iOSSupport/System/Library/PrivateFrameworks/GenerativeAssistantSettings.framework/Versions/A/Resources/Localizable-APPLE_FEATURE_AI_CHINA.loctable`
+- `filesystem/System/iOSSupport/System/Library/PrivateFrameworks/GenerativeAssistantSettings.framework/Versions/Current/Resources/Localizable-APPLE_FEATURE_AI_CHINA.loctable`
+- `filesystem/System/iOSSupport/System/Library/PrivateFrameworks/GenerativePartnerServiceUI.framework/Versions/A/Resources/Localizable-APPLE_FEATURE_AI_CHINA.loctable`
+- `filesystem/System/iOSSupport/System/Library/PrivateFrameworks/GenerativePartnerServiceUI.framework/Versions/Current/Resources/Localizable-APPLE_FEATURE_AI_CHINA.loctable`
+- `filesystem/System/iOSSupport/System/Library/PrivateFrameworks/HomeUI.framework/Versions/A/Resources/HUSensitiveStrings-J490.loctable`
+- `filesystem/System/iOSSupport/System/Library/PrivateFrameworks/HomeUI.framework/Versions/Current/Resources/HUSensitiveStrings-J490.loctable`
+- `filesystem/System/iOSSupport/System/Library/PrivateFrameworks/ImagePlaygroundInternal.framework/Versions/A/Resources/Localizable-AI_CHINA_GENMOJI.loctable`
+- `filesystem/System/iOSSupport/System/Library/PrivateFrameworks/ImagePlaygroundInternal.framework/Versions/Current/Resources/Localizable-AI_CHINA_GENMOJI.loctable`
+- `filesystem/System/iOSSupport/System/Library/PrivateFrameworks/ManagedConfiguration.framework/Versions/A/Resources/Localizable-J490.loctable`
+- `filesystem/System/iOSSupport/System/Library/PrivateFrameworks/ManagedConfiguration.framework/Versions/Current/Resources/Localizable-J490.loctable`
+- `filesystem/System/iOSSupport/System/Library/PrivateFrameworks/PosterBoard.framework/Versions/A/Resources/Localizable-J490.loctable`
+- `filesystem/System/iOSSupport/System/Library/PrivateFrameworks/PosterBoard.framework/Versions/Current/Resources/Localizable-J490.loctable`
+- `filesystem/System/iOSSupport/System/Library/PrivateFrameworks/PosterKit.framework/Versions/A/Resources/PosterKit-J490.loctable`
+- `filesystem/System/iOSSupport/System/Library/PrivateFrameworks/PosterKit.framework/Versions/Current/Resources/PosterKit-J490.loctable`
+
+</details>
+
+#### ⬆️ Updated (5)
+
+- [filesystem/System/Library/ExtensionKit/Extensions/TimeMachineSettings.appex/Contents/Resources/Localizable.loctable](LOCALIZATIONS/filesystem/System/Library/ExtensionKit/Extensions/TimeMachineSettings.appex/Contents/Resources/Localizable.loctable.md)
+- [filesystem/System/Library/PrivateFrameworks/AMPDevices.framework/Versions/A/Resources/Localizable.loctable](LOCALIZATIONS/filesystem/System/Library/PrivateFrameworks/AMPDevices.framework/Versions/A/Resources/Localizable.loctable.md)
+- [filesystem/System/Library/PrivateFrameworks/AMPDevices.framework/Versions/Current/Resources/Localizable.loctable](LOCALIZATIONS/filesystem/System/Library/PrivateFrameworks/AMPDevices.framework/Versions/Current/Resources/Localizable.loctable.md)
+- [filesystem/System/Library/PrivateFrameworks/SFSymbols.framework/Versions/A/Resources/CoreGlyphsPrivate.bundle/Contents/Resources/nofill_to_fill.strings](LOCALIZATIONS/filesystem/System/Library/PrivateFrameworks/SFSymbols.framework/Versions/A/Resources/CoreGlyphsPrivate.bundle/Contents/Resources/nofill_to_fill.strings.md)
+- [filesystem/System/Library/PrivateFrameworks/SFSymbols.framework/Versions/Current/Resources/CoreGlyphsPrivate.bundle/Contents/Resources/nofill_to_fill.strings](LOCALIZATIONS/filesystem/System/Library/PrivateFrameworks/SFSymbols.framework/Versions/Current/Resources/CoreGlyphsPrivate.bundle/Contents/Resources/nofill_to_fill.strings.md)
+
+## Feature Flags
+
+### filesystem
+
+#### ❌ Removed (1)
+
+- `Domain/AccessorySensorManager.plist`
+
+#### ⬆️ Updated (1)
+
+- [Domain/Home.plist](FEATURES/filesystem/Domain/Home.plist.md)
+
+## EOF
