@@ -1,0 +1,84 @@
+name: Social publisher
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Operation to perform
+        type: choice
+        required: true
+        default: dry-run
+        options:
+          - dry-run
+          - schedule
+          - bootstrap
+      entry_id:
+        description: Immutable catalog ID required for dry-run mode
+        type: string
+        required: false
+
+permissions: {}
+
+concurrency:
+  group: ipsw-diff-social-publisher
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    name: Publish new diffs
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment: social
+    permissions:
+      contents: read
+      issues: write # durable de-duplication state in one machine-managed issue
+    env:
+      PUBLISH_MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.mode || 'schedule' }}
+    steps:
+      - name: Checkout publisher
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          filter: blob:none
+          sparse-checkout: social
+          persist-credentials: false
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@c771a70e6277c0a99b617c7a806ffedaca235ff9 # v9.0.0
+        with:
+          version: "0.12.6"
+          enable-cache: true
+          cache-dependency-glob: social/uv.lock
+
+      - name: Install locked dependencies
+        run: uv sync --project social --locked --no-dev
+
+      - name: Scan catalog and publish
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          OPENAI_API_KEY: >-
+            ${{ inputs.mode != 'bootstrap' && secrets.OPENAI_API_KEY || '' }}
+          ENTRY_ID: ${{ inputs.entry_id || '' }}
+          X_ACCESS_TOKEN: >-
+            ${{ (github.event_name == 'schedule' || inputs.mode == 'schedule') && secrets.X_ACCESS_TOKEN || '' }}
+          X_ACCESS_TOKEN_SECRET: >-
+            ${{ (github.event_name == 'schedule' || inputs.mode == 'schedule') && secrets.X_ACCESS_TOKEN_SECRET || '' }}
+          X_API_KEY: >-
+            ${{ (github.event_name == 'schedule' || inputs.mode == 'schedule') && secrets.X_API_KEY || '' }}
+          X_API_SECRET: >-
+            ${{ (github.event_name == 'schedule' || inputs.mode == 'schedule') && secrets.X_API_SECRET || '' }}
+        run: >-
+          uv run --project social --locked --no-dev ipsw-diff-social
+          --mode "$PUBLISH_MODE"
+          --entry-id "$ENTRY_ID"
+          --output-dir "$RUNNER_TEMP/ipsw-diff-social"
+
+      - name: Upload dry-run preview
+        if: env.PUBLISH_MODE == 'dry-run'
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: ipsw-diff-social-preview
+          path: ${{ runner.temp }}/ipsw-diff-social/*.png
+          if-no-files-found: warn
+          retention-days: 7

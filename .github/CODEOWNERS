@@ -1,0 +1,3 @@
+# Require owner review for code that can access social-publisher secrets.
+/.github/** @blacktop
+/social/** @blacktop
