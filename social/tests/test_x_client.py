@@ -56,3 +56,21 @@ def test_publish_accepts_legacy_numeric_media_id(tmp_path: Path) -> None:
         "text": "hello",
         "media": {"media_ids": ["123456789"]},
     }
+
+
+def test_create_post_without_media_sends_text_only() -> None:
+    session = FakeSession()
+    credentials = XCredentials("key", "secret", "token", "token-secret")
+
+    post_id = XClient(credentials, session=session).create_post("smoke test")
+
+    assert post_id == "post-1"
+    assert session.calls == [
+        (
+            POST_URL,
+            {
+                "json": {"text": "smoke test"},
+                "timeout": (10, 30),
+            },
+        )
+    ]

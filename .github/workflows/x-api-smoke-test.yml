@@ -1,0 +1,51 @@
+name: X API smoke test
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: Create one public text-only test post on X
+        type: boolean
+        required: true
+        default: false
+
+permissions: {}
+
+concurrency:
+  group: ipsw-diff-x-api-smoke-test
+  cancel-in-progress: false
+
+jobs:
+  post:
+    name: Create test post
+    if: inputs.confirm
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    environment: social
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout smoke test
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          filter: blob:none
+          sparse-checkout: social
+          persist-credentials: false
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@c771a70e6277c0a99b617c7a806ffedaca235ff9 # v9.0.0
+        with:
+          version: "0.12.6"
+          enable-cache: true
+          cache-dependency-glob: social/uv.lock
+
+      - name: Install locked dependencies
+        run: uv sync --project social --locked --no-dev
+
+      - name: Create text-only test post
+        env:
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+        run: uv run --project social --locked --no-dev python -m ipsw_diff_social.x_smoke

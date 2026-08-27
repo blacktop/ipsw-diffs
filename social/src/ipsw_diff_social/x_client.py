@@ -72,10 +72,13 @@ class XClient:
             raise RuntimeError("X media response did not contain a media ID")
         return media_id
 
-    def create_post(self, text: str, media_id: str) -> str:
+    def create_post(self, text: str, media_id: str | None = None) -> str:
+        payload: dict[str, object] = {"text": text}
+        if media_id is not None:
+            payload["media"] = {"media_ids": [media_id]}
         response = self._session.post(
             POST_URL,
-            json={"text": text, "media": {"media_ids": [media_id]}},
+            json=payload,
             timeout=(10, 30),
         )
         response.raise_for_status()
