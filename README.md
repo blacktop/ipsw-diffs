@@ -510,6 +510,7 @@
 <details open>
   <summary>View diffs</summary>
 
+- [27.0 beta 7 (26A5421a) .vs 27.0 beta 8 (26A5425a)](27_0_26A5421a_vs_27_0_26A5425a/README.md)
 - [27.0 beta 4 (26A5388g) .vs 27.0 beta 7 (26A5421a)](27_0_26A5388g_vs_27_0_26A5421a/README.md)
 - [27.0 beta 3 (26A5378n) .vs 27.0 beta 4 (26A5388g)](27_0_26A5378n_vs_27_0_26A5388g/README.md)
 - [27.0 beta 3 (26A5378j) .vs 27.0 beta 3 (26A5378n)](27_0_26A5378j_vs_27_0_26A5378n/README.md)
