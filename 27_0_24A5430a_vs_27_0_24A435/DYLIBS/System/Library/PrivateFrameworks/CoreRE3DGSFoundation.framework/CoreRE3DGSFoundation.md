@@ -1,0 +1,45 @@
+## CoreRE3DGSFoundation
+
+> `/System/Library/PrivateFrameworks/CoreRE3DGSFoundation.framework/CoreRE3DGSFoundation`
+
+```diff
+
+ 20.0.0.0.0
+-  __TEXT.__text: 0x8f9f4
++  __TEXT.__text: 0x8fc04
+   __TEXT.__objc_methlist: 0x146c
+   __TEXT.__const: 0x4f5d
+   __TEXT.__gcc_except_tab: 0xaba4
+Functions:
+~ __ZNSt3__16vectorIN8nlohmann16json_abi_v3_11_310basic_jsonINS_3mapES0_NS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEbxydS8_NS2_14adl_serializerENS0_IhNS8_IhEEEEvEENS8_ISE_EEE7reserveEm : 224 -> 220
+~ __ZN8nlohmann16json_abi_v3_11_36detail9dtoa_impl6grisu2IdEEvPcRiS5_T_ : 308 -> 312
+~ __ZNK9apple3dgs9TVBuilder14GetFrameDataV2Ejj : 160 -> 164
+~ __ZNSt3__114__split_bufferIPbNS_9allocatorIS1_EEE12emplace_backIJS1_EEEvDpOT_ : 256 -> 260
+~ __ZNSt3__114__split_bufferIPbRNS_9allocatorIS1_EEE12emplace_backIJS1_EEEvDpOT_ : 256 -> 260
+~ __ZNSt3__114__split_bufferIPNS_8functionIFvRN4cv3d9aspenbase11concurrency12AsyncManager13ThreadContextEEEENS_9allocatorISA_EEE12emplace_backIJSA_EEEvDpOT_ : 256 -> 260
+~ __ZNSt3__114__split_bufferIPNS_8functionIFvRN4cv3d9aspenbase11concurrency12AsyncManager13ThreadContextEEEERNS_9allocatorISA_EEE12emplace_backIJSA_EEEvDpOT_ : 256 -> 260
+~ __ZNSt3__15dequeINS_8functionIFvRN4cv3d9aspenbase11concurrency12AsyncManager13ThreadContextEEEENS_9allocatorIS9_EEED2B9fqe220106Ev : 304 -> 308
+~ __ZN9apple3dgs6detail11ForEachImplIfZNS_12ForEachValueIfZNS_9TransformIfNSt3__120back_insert_iteratorINS4_6vectorIfNS4_9allocatorIfEEEEEEZNS_49ComputeDepthBoundariesFromUniformNonEmptySamplingIfEENS6_IDv2_fNS7_ISC_EEEEjRKN4simd8float4x4ERKNS_8Buffer2DIT_EEEUlRKfE_EET0_SN_SR_OT1_EUlSP_E_EEvSN_OSR_EUljjjSP_E_EEvSN_SV_ : 384 -> 388
+~ __ZNSt3__16vectorIdNS_9allocatorIdEEE6resizeEm : 284 -> 288
+~ __ZN9apple3dgs8Renderer12EncodeRenderEPU34objcproto23MTLRenderCommandEncoder11objc_objectRNS_7ISorterEP23MTLRenderPassDescriptorRKNS_16RenderDescriptorEPU15__autoreleasingP7NSError : 3596 -> 3600
+~ __ZN9apple3dgs8Renderer16EncodeMeshRenderEPU34objcproto23MTLRenderCommandEncoder11objc_objectRNS_7ISorterEP23MTLRenderPassDescriptorRKNS_16RenderDescriptorEPU15__autoreleasingP7NSError : 3756 -> 3760
+~ __ZNSt3__16vectorIN9apple3dgs23FreetimeCompressedSplatENS_9allocatorIS2_EEE6resizeEm : 372 -> 376
+~ __ZN9apple3dgs18DeepCopyAttributesERKNS_5Asset10AttributesEPU19objcproto9MTLDevice11objc_objectRS1_ : 852 -> 860
+~ __ZNSt3__16vectorIjNS_9allocatorIjEEE6resizeEm : 284 -> 288
+~ __ZNSt3__110__function6__funcIZN9apple3dgs6loadTvERKNS_4__fs10filesystem4pathEjPU19objcproto9MTLDevice11objc_objectRKNS2_5Asset19AttributeDescriptorEPU15__autoreleasingP7NSErrorE3$_0FvmEEclEOm : 144 -> 148
+~ __ZN4avir21CDSPFracFilterBankLinIfE9getFilterEi : 200 -> 196
+~ __ZN4avir21CDSPFracFilterBankLinIfE13buildSrcTableEv : 532 -> 536
+~ __ZN4avir13CImageResizerINS_11fpclass_defIffNS_27CImageResizerDithererDefINLIfEEEEE11CThreadDataIhhE17initScanlineQueueENS7_18EScanlineOperationEiiii : 368 -> 376
+~ __ZN4avir26CImageResizerFilterStepINLIffE14applySRGBGammaEPfiRKNS_17CImageResizerVarsE : 1216 -> 1232
+~ __ZN4avir26CImageResizerFilterStepINLIffE14unpackScanlineIhEEvPKfPT_iRKNS_17CImageResizerVarsE : 304 -> 320
+~ __ZNK4avir13CImageResizerINS_11fpclass_defIffNS_27CImageResizerDithererDefINLIfEEEEE18assignFilterParamsERNS_26CImageResizerFilterStepINLIffEEbiddbb : 844 -> 852
+~ __ZN4avir9CDSPFIREQ4initEddiddbd : 744 -> 752
+~ __ZN4avir9CDSPFIREQ11buildFilterEPKdPd : 396 -> 404
+~ __ZNK4avir26CImageResizerFilterStepINLIffE12packScanlineIhEEvPKT_Pfi : 1936 -> 1980
+~ __ZNK4avir26CImageResizerFilterStepINLIffE12prepareInBufEPf : 816 -> 856
+~ __ZNK4avir26CImageResizerFilterStepINLIffE10doUpsampleEPKfPf : 3000 -> 3208
+~ __ZNK4avir26CImageResizerFilterStepINLIffE8doFilterEPKfPfi : 564 -> 596
+~ __ZNK4avir26CImageResizerFilterStepINLIffE9doResize2EPKfPfiS3_S4_ : 944 -> 976
+~ __ZNK4avir26CImageResizerFilterStepINLIffE8doResizeEPKfPfiS3_S4_ : 960 -> 992
+~ __ZNK4avir26CImageResizerFilterStepINLIffE11convertVtoHEPKfPfii : 244 -> 260
+```

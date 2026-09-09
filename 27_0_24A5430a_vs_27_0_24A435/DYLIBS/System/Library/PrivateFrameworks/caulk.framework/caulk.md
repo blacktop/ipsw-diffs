@@ -1,0 +1,20 @@
+## caulk
+
+> `/System/Library/PrivateFrameworks/caulk.framework/caulk`
+
+```diff
+
+ 247.0.0.0.0
+-  __TEXT.__text: 0x1f5f0
++  __TEXT.__text: 0x1f5fc
+   __TEXT.__realtime: 0x1198
+   __TEXT.__const: 0x48c0
+   __TEXT.__gcc_except_tab: 0x1d60
+Functions:
+~ __ZN5caulk5alloc22consolidating_free_mapINS0_14page_allocatorELm10485760EE22maybe_create_free_nodeEPNS3_10NodePrefixEm : 224 -> 232
+~ __ZN5caulk14cf_preferences7monitor12_add_handlerEPK10__CFStringS4_ONSt3__18functionIFbPKvEEE : 1296 -> 1280
+~ __ZN5caulk5alloc16tiered_allocatorIJNS0_15size_range_tierILm0ELm1008ENS0_14tree_allocatorINS0_15chunk_allocatorINS0_14page_allocatorENS0_16bitmap_allocatorENS0_18embed_block_memoryELm16384EJLm16ELm6EEEEEEEENS2_ILm1009ELm256000ENS0_23guarded_edges_allocatorINS0_22consolidating_free_mapIS5_Lm10485760EEELm4EEEEENS0_18tracking_allocatorIS5_EEEE10deallocateENS0_5blockEm : 716 -> 720
+~ __ZN5caulk5alloc22consolidating_free_mapINS0_14page_allocatorELm10485760EE16consolidate_freeEPNS3_10NodePrefixES5_ : 132 -> 140
+~ __ZN5caulk12thread_proxyINSt3__15tupleIJNS_6thread10attributesEMNS_10concurrent12_GLOBAL__N_111thread_implEFvvENS2_IJPS7_EEEEEEEEPvSD_ : 152 -> 156
+~ __ZNK5caulk10concurrent8skiplistIPvNS_5alloc6detail13tracked_blockELi10ELNS0_16skiplist_optionsE0EE10introspectIZNKS3_18tracking_allocatorINS3_14page_allocatorEE18introspect_foreachIZNKS3_22consolidating_free_mapISA_Lm10485760EE10introspectEmRKNS3_12introspectorEEUlS2_mE_EEvSH_RKT_EUlSL_E_EEvRKNSt3__18functionIFS2_mmEEEOSJ_ : 380 -> 384
+```

@@ -1,0 +1,85 @@
+## DialogEngine
+
+> `/System/Library/PrivateFrameworks/DialogEngine.framework/DialogEngine`
+
+```diff
+
+ 3600.23.9.0.0
+-  __TEXT.__text: 0x460ca0
++  __TEXT.__text: 0x460d44
+   __TEXT.__init_offsets: 0x28
+   __TEXT.__objc_methlist: 0x33b4
+   __TEXT.__const: 0x1c888
+
+   __TEXT.__gcc_except_tab: 0x391e0
+   __TEXT.__oslogstring: 0x303
+   __TEXT.__ustring: 0xca
+-  __TEXT.__unwind_info: 0x14318
++  __TEXT.__unwind_info: 0x14310
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+Functions:
+~ +[DEBundle frameworkInternalUserSettings] : 92 -> 76
+~ __ZN4siri12dialogengine20ParseRequestFromJsonERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_S9_S9_ : 10568 -> 10500
+~ __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE6assignEmRKS4_ : 340 -> 336
+~ __ZNKSt3__111basic_regexIcNS_12regex_traitsIcEEE16__match_at_startINS_9allocatorINS_9sub_matchIPKcEEEEEEbS8_S8_RNS_13match_resultsIS8_T_EENS_15regex_constants15match_flag_typeEb : 4084 -> 4116
+~ __ZNSt3__113regex_replaceB9fqe220106INS_20back_insert_iteratorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEENS_11__wrap_iterIPKcEENS_12regex_traitsIcEEcEET_SF_T0_SG_RKNS_11basic_regexIT2_T1_EEPKSI_NS_15regex_constants15match_flag_typeE : 828 -> 824
+~ __ZN4siri12dialogengine34DialogStateUseCaseFromNSDictionaryEP12NSDictionary : 2748 -> 2752
+~ __ZN4siri12dialogengineL11CatIdToPathERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_S9_S9_ : 1060 -> 1064
+~ __ZN4siri12dialogengine12DialogPerson21GetConversationalNameEPNS0_7ContextEPKNS0_14VariableObjectEPKNS0_10PersonDataE : 4268 -> 4288
+~ __ZNK4siri12dialogengine15SpeakableString19ToMultiplexedStringEv : 404 -> 408
+~ __ZNK4siri12dialogengine11GroupRandom7ExecuteEPNS0_7ContextE : 3564 -> 3588
+~ __ZNSt3__16vectorINS_10shared_ptrIN4siri12dialogengine9ChunkTextEEENS_9allocatorIS5_EEE6insertENS_11__wrap_iterIPKS5_EERSA_ : 704 -> 708
+~ __ZNSt3__16vectorIN6google8protobuf12UnknownFieldENS_9allocatorIS3_EEE6resizeEm : 284 -> 288
+~ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEELb0EEEvT1_SC_T0_NS_15iterator_traitsISC_E15difference_typeEb : 3392 -> 3348
+~ __ZNSt3__112basic_stringIDiNS_11char_traitsIDiEENS_9allocatorIDiEEE21__grow_by_and_replaceEmmmmmmPKDi : 276 -> 268
+~ __ZNSt3__16vectorIPN7morphun6dialog26SemanticFeatureConceptBaseENS_9allocatorIS4_EEE24__emplace_back_slow_pathIJS4_EEEPS4_DpOT_ : 184 -> 176
+~ __ZN4siri12dialogengineL19FormatArrayItemPartEPNS0_7ContextEmRKNS0_15SpeakableStringERKNSt3__112basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEESE_NS0_13SpeakableModeE : 6564 -> 6572
+~ __ZNSt3__114__split_bufferINS_10shared_ptrIN4siri12dialogengine9ChunkTextEEERNS_9allocatorIS5_EEE12emplace_backIJS5_EEEvDpOT_ : 340 -> 344
+~ __ZN4siri12dialogengine6IsSeedEv : 36 -> 8
+~ __ZN4siri12dialogengine12IsProductionEv : 72 -> 36
+~ __ZNSt3__15dequeIN4YAML14EmitFromEvents5State5valueENS_9allocatorIS4_EEE9push_backEOS4_ : 1260 -> 1272
+~ __ZNSt3__114__split_bufferIPN4YAML7Scanner11FLOW_MARKERENS_9allocatorIS4_EEE12emplace_backIJRS4_EEEvDpOT_ : 256 -> 260
+~ __ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEE9push_backEOS2_ : 788 -> 792
+~ __ZNSt3__114__split_bufferIPNS_7__stateIcEERNS_9allocatorIS3_EEE12emplace_backIJS3_EEEvDpOT_ : 248 -> 252
+~ __ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEED2B9fqe220106Ev : 376 -> 380
+~ __ZN4YAML7Scanner24InsertPotentialSimpleKeyEv : 1660 -> 1676
+~ __ZNSt3__15dequeIN4YAML5TokenENS_9allocatorIS2_EEE19__add_back_capacityEv : 1208 -> 1236
+~ __ZN4YAML7ScannerD2Ev : 932 -> 936
+~ __ZNK4YAML5RegEx14MatchUncheckedINS_16StreamCharSourceEEEiRKT_ : 632 -> 636
+~ __ZNSt3__15dequeIPN4YAML7Scanner12IndentMarkerENS_9allocatorIS4_EEE9push_backEOS4_ : 1216 -> 1228
+~ __ZNSt3__114__split_bufferIPPN4YAML7Scanner12IndentMarkerENS_9allocatorIS5_EEE12emplace_backIJRS5_EEEvDpOT_ : 248 -> 252
+~ __ZNSt3__110__function6__funcINS_6__bindIMN4siri12dialogengine5TraceEFvRKNS4_8LogEntryEEJPS5_RKNS_12placeholders4__phILi1EEEEEEFvS8_EEclES8_ : 40 -> 44
+~ __ZNSt3__16vectorIN4siri12dialogengine24CATExecutionDialogResultENS_9allocatorIS3_EEE18__assign_with_sizeB9fqe220106INS_17_ClassicAlgPolicyEPS3_S9_EEvT0_T1_l : 428 -> 416
+~ __ZN4siri12dialogengine24ParsePatternSchemaBinaryEPNS0_7ContextERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEESB_SB_ : 5092 -> 5088
+~ __ZN4siri12dialogengineL27ParsePatternComponentBinaryERKNS0_19PatternSchemaBinary16PatternComponentENSt3__110shared_ptrINS0_26PatternSchemaConcreteGroupEEENS0_13ComponentTypeE : 1792 -> 1780
+~ __ZNSt3__15dequeIcNS_9allocatorIcEEE9push_backEOc : 1220 -> 1232
+~ __ZNSt3__114__split_bufferIPcNS_9allocatorIS1_EEE12emplace_backIJRS1_EEEvDpOT_ : 248 -> 252
+~ __ZNK4siri12dialogengine9TestSuite8GetTestsEv : 208 -> 212
+~ __ZNSt3__16vectorIN4siri12dialogengine8TestCaseENS_9allocatorIS3_EEE24__emplace_back_slow_pathIJRKS3_EEEPS3_DpOT_ : 580 -> 588
+~ __ZN4YAML19GraphBuilderAdapter15DispositionNodeEPv : 216 -> 220
+~ __ZN4YAML19GraphBuilderAdapter8OnMapEndEv : 120 -> 124
+~ __ZN4YAML10AnchorDictIPvE8RegisterEmS1_ : 272 -> 288
+~ __ZNSt3__15dequeIN4YAML19GraphBuilderAdapter14ContainerFrameENS_9allocatorIS3_EEE9push_backEOS3_ : 1224 -> 1236
+~ __ZNSt3__15dequeIN4YAML14CollectionType5valueENS_9allocatorIS3_EEE9push_backERKS3_ : 1260 -> 1272
+~ __ZN4YAML7Scanner13ScanFlowStartEv : 1420 -> 1464
+~ __ZN4siri12dialogengineL17EvaluateChunkListEPNS0_7ContextERNS0_9ChunkListEbbbNSt3__110shared_ptrINS0_9JSONValueEEE : 8512 -> 8516
+~ __ZNSt3__16vectorIPN6google8protobuf4util9converter24DefaultValueObjectWriter4NodeENS_9allocatorIS7_EEE6insertENS_11__wrap_iterIPKS7_EERSC_ : 488 -> 484
+~ __ZNSt3__114__split_bufferIPN6google8protobuf4util9converter24DefaultValueObjectWriter4NodeERNS_9allocatorIS7_EEE12emplace_backIJRKS7_EEEvDpOT_ : 256 -> 260
+~ __ZNSt3__114__split_bufferIPPN6google8protobuf4util9converter24DefaultValueObjectWriter4NodeENS_9allocatorIS8_EEE12emplace_backIJS8_EEEvDpOT_ : 256 -> 260
+~ __ZNSt3__114__split_bufferIPPN6google8protobuf4util9converter24DefaultValueObjectWriter4NodeERNS_9allocatorIS8_EEE12emplace_backIJS8_EEEvDpOT_ : 256 -> 260
+~ __ZNSt3__122__rotate_random_accessB9fqe220106INS_17_ClassicAlgPolicyENS_11__wrap_iterIPPKN6google8protobuf7MessageEEES9_EET0_SA_SA_T1_ : 196 -> 200
+~ __ZNSt3__16vectorIN6google8protobuf12UnknownFieldENS_9allocatorIS3_EEE18__insert_with_sizeB9fqe220106INS_17_ClassicAlgPolicyENS_13move_iteratorINS_11__wrap_iterIPS3_EEEESD_EESC_NSA_IPKS3_EET0_T1_l : 536 -> 552
+~ __ZNK6google8protobuf8internal12ExtensionSet12AppendToListEPKNS0_10DescriptorEPKNS0_14DescriptorPoolEPNSt3__16vectorIPKNS0_15FieldDescriptorENS9_9allocatorISD_EEEE : 284 -> 288
+~ __ZNSt3__16vectorIPKcNS_9allocatorIS2_EEE6resizeEm : 284 -> 288
+~ __ZNSt3__16vectorINS_10unique_ptrIN6google8protobuf7MessageENS_14default_deleteIS4_EEEENS_9allocatorIS7_EEE6resizeEm : 332 -> 336
+~ __ZNK6google8protobuf14FileDescriptor6CopyToEPNS0_19FileDescriptorProtoE : 1292 -> 1304
+~ __ZNK6google8protobuf10Descriptor6CopyToEPNS0_15DescriptorProtoE : 1544 -> 1560
+~ __ZNK6google8protobuf14EnumDescriptor6CopyToEPNS0_19EnumDescriptorProtoE : 640 -> 644
+~ __ZN6google8protobuf17DescriptorBuilder17OptionInterpreter20UpdateSourceCodeInfoEPNS0_14SourceCodeInfoE : 1260 -> 1256
+~ __ZN6google8protobuf17DescriptorBuilder13CrossLinkEnumEPNS0_14EnumDescriptorERKNS0_19EnumDescriptorProtoE : 132 -> 140
+~ __ZNK6google8protobuf8internal12ExtensionSet8ByteSizeEv : 148 -> 140
+~ __ZN6google8protobuf2io18StringOutputStreamD0Ev : 28 -> 32
+~ __ZNK6google8protobuf8internal9ArenaImpl14SpaceAllocatedEv : 20 -> 24
+```

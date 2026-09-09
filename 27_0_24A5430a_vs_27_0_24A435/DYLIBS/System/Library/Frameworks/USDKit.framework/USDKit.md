@@ -1,0 +1,52 @@
+## USDKit
+
+> `/System/Library/Frameworks/USDKit.framework/USDKit`
+
+```diff
+
+ 106.0.10.0.1
+-  __TEXT.__text: 0x2db5c8
++  __TEXT.__text: 0x2db650
+   __TEXT.__const: 0x2d095
+   __TEXT.__gcc_except_tab: 0x45a1c
+   __TEXT.__cstring: 0x1746a
+Functions:
+~ __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE6assignEmRKS4_ : 340 -> 336
+~ __ZNKSt3__111basic_regexIcNS_12regex_traitsIcEEE16__match_at_startINS_9allocatorINS_9sub_matchIPKcEEEEEEbS8_S8_RNS_13match_resultsIS8_T_EENS_15regex_constants15match_flag_typeEb : 4164 -> 4192
+~ __ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEE9push_backEOS2_ : 792 -> 796
+~ __ZNSt3__114__split_bufferIPNS_7__stateIcEERNS_9allocatorIS3_EEE12emplace_backIJS3_EEEvDpOT_ : 248 -> 252
+~ __ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEED2B9fqe220106Ev : 376 -> 380
+~ __ZNSt3__16vectorINS_10unique_ptrIN8internal18DeferredPluginDataENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE24__emplace_back_slow_pathIJPNS2_27ArPackageResolverPluginDataEEEEPS6_DpOT_ : 216 -> 220
+~ __ZNSt3__16vectorINS_4pairIN32pxrInternal__aapl__pxrReserved__7SdfPathES3_EENS_9allocatorIS4_EEEC2B9fqe220106Em : 144 -> 152
+~ __ZN14USDStageKitCxx7Overlay24UsdPrim_GetWithPredicateINSt3__16vectorIN32pxrInternal__aapl__pxrReserved__7TfTokenENS2_9allocatorIS5_EEEEMNS4_7UsdPrimEKFS8_RKNS2_8functionIFbRKS5_EEEEEET_RKS9_U13block_pointerSD_T0_ : 336 -> 340
+~ __ZN14USDStageKitCxx7Overlay24UsdPrim_GetWithPredicateINSt3__16vectorIN32pxrInternal__aapl__pxrReserved__11UsdPropertyENS2_9allocatorIS5_EEEEMNS4_7UsdPrimEKFS8_RKNS2_8functionIFbRKNS4_7TfTokenEEEEEEET_RKS9_U13block_pointerSE_T0_ : 336 -> 340
+~ __ZNK32pxrInternal__aapl__pxrReserved__7GfVec3fixEm : 20 -> 24
+~ __ZNK32pxrInternal__aapl__pxrReserved__7GfVec2fixEm : 20 -> 24
+~ _$s6USDKit7USDPrimV9AttributeV11connectionsSayAA8USDLayerV4PathVGvs : 360 -> 368
+~ _$s6USDKit7USDPrimV12RelationshipV7targetsSayAA8USDLayerV4PathVGvs : 360 -> 368
+~ _$s6USDKit8UsdStageV13ExportOptionsV12arrayLiteralA2Ed_tcfC : 1000 -> 1004
+~ _$ss17_NativeDictionaryV4copyyyFSS_6USDKit17SdfVariantSetSpecVSgTg5 : 364 -> 368
+~ _$ss17_NativeDictionaryV4copyyyFSS_6USDKit14PluginRegistryC0eF4InfoV0F4DataVTg5 : 400 -> 404
+~ _$ss17_NativeDictionaryV4copyyyFSS_So10CGImageRefaTg5 : 356 -> 360
+~ __ZNK32pxrInternal__aapl__pxrReserved__7GfVec4fixEm : 20 -> 24
+~ __ZNK32pxrInternal__aapl__pxrReserved__7GfVec2dixEm : 20 -> 24
+~ __ZNK32pxrInternal__aapl__pxrReserved__7GfVec3dixEm : 20 -> 24
+~ __ZNK32pxrInternal__aapl__pxrReserved__7GfVec4dixEm : 20 -> 24
+~ _$s6USDKit12stageKitInityySDySSypGF : 1960 -> 1964
+~ _$s6USDKit7USDPrimV4SpecV16variantSelection3forAA8USDTokenVSgAI_tF : 124 -> 128
+~ _$s6USDKit7USDPrimV11VariantSpecV11variantSetsSDyAA8USDTokenVAC0c3SetD0VGvg : 916 -> 920
+~ _$s6USDKit7USDPrimV4SpecV11variantSetsSDyAA8USDTokenVAC010VariantSetC0VGvg : 916 -> 920
+~ _$ss30_copySequenceToContiguousArrayys0dE0Vy7ElementQzGxSTRzlF6USDKit19SdfListProxyTfTokenC_Tg5 : 628 -> 624
+~ _$ss30_copySequenceToContiguousArrayys0dE0Vy7ElementQzGxSTRzlF6USDKit19UsdPrimSiblingRangeV_Tg5 : 568 -> 564
+~ _$ss30_copySequenceToContiguousArrayys0dE0Vy7ElementQzGxSTRzlF6USDKit19UsdPrimSubtreeRangeV_Tg5 : 568 -> 564
+~ _$ss30_copySequenceToContiguousArrayys0dE0Vy7ElementQzGxSTRzlF6USDKit21SdfPathAncestorsRangeV_Tg5 : 588 -> 580
+~ _$ss30_copySequenceToContiguousArrayys0dE0Vy7ElementQzGxSTRzlF6USDKit8UsdStageV11UnsafeRangeV_Tg5 : 628 -> 620
+~ sub_24c32eaf8 -> sub_24cd31b5c : 20 -> 24
+~ sub_24c32eb1c -> sub_24cd31b84 : 20 -> 24
+~ sub_24c32eb44 -> sub_24cd31bb0 : 20 -> 24
+~ __ZN16HostedChangeList31SdfChangeListGetEntryChangeInfoERKN32pxrInternal__aapl__pxrReserved__13TfSmallVectorINSt3__14pairINS0_7TfTokenENS3_INS0_7VtValueES5_EEEELj3EEE : 616 -> 624
+~ __ZN32pxrInternal__aapl__pxrReserved__8TfNotice18_StandardDelivererINS0_20_DelivererWithSenderINS_9TfWeakPtrI19HostedUsdNoticeImplEENS3_INS_8UsdStageEEEMS4_FvRKNS_9UsdNotice14ObjectsChangedERKS7_ES9_EEE19_SendToListenerImplERKS0_RKNS_6TfTypeEPKNS_10TfWeakBaseEPKvRKSt9type_infoRKNSt3__16vectorINS3_INS0_5ProbeEEENSV_9allocatorISY_EEEE : 528 -> 532
+~ __ZN32pxrInternal__aapl__pxrReserved__8TfNotice18_StandardDelivererINS0_10_DelivererINS_9TfWeakPtrI19HostedUsdNoticeImplEENS3_INS_8UsdStageEEEMS4_FvRKNS_9UsdNotice22StageEditTargetChangedEES9_EEE19_SendToListenerImplERKS0_RKNS_6TfTypeEPKNS_10TfWeakBaseEPKvRKSt9type_infoRKNSt3__16vectorINS3_INS0_5ProbeEEENST_9allocatorISW_EEEE : 352 -> 356
+~ __ZN32pxrInternal__aapl__pxrReserved__8TfNotice18_StandardDelivererINS0_10_DelivererINS_9TfWeakPtrI19HostedSdfNoticeImplEENS_12TfAnyWeakPtrEMS4_FvRKNS_9SdfNotice15LayersDidChangeEES8_EEE19_SendToListenerImplERKS0_RKNS_6TfTypeEPKNS_10TfWeakBaseEPKvRKSt9type_infoRKNSt3__16vectorINS3_INS0_5ProbeEEENSS_9allocatorISV_EEEE : 344 -> 348
+~ __ZN32pxrInternal__aapl__pxrReserved__8TfNotice18_StandardDelivererINS0_20_DelivererWithSenderINS_9TfWeakPtrI19HostedSdfNoticeImplEENS3_INS_8SdfLayerEEEMS4_FvRKNS_9SdfNotice21LayerDirtinessChangedERKS7_ES9_EEE19_SendToListenerImplERKS0_RKNS_6TfTypeEPKNS_10TfWeakBaseEPKvRKSt9type_infoRKNSt3__16vectorINS3_INS0_5ProbeEEENSV_9allocatorISY_EEEE : 528 -> 532
+```

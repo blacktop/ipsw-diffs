@@ -1,0 +1,27 @@
+## LocalAuthenticationCoreUI
+
+> `/System/Library/PrivateFrameworks/LocalAuthenticationCoreUI.framework/LocalAuthenticationCoreUI`
+
+```diff
+
+ 2319.0.63.0.0
+-  __TEXT.__text: 0x9bf00
++  __TEXT.__text: 0x9bf48
+   __TEXT.__objc_methlist: 0x302c
+   __TEXT.__const: 0x6c44
+   __TEXT.__cstring: 0x2f46
+Functions:
+~ _$s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC8evaluate33_149E4B8064CDB5BECE4AD0D18E10DC5BLLSDys11AnyHashableVypGSgyYaKFTY2_ : 788 -> 792
+~ _$s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC15uiConfiguration33_149E4B8064CDB5BECE4AD0D18E10DC5BLLAA018LACUIAuthCountdownI0Vvg : 5080 -> 5084
+~ _$s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC3arm33_149E4B8064CDB5BECE4AD0D18E10DC5BLL4withSDys11AnyHashableVypGAI_tYaKFTY0_ : 1092 -> 1096
+~ _$s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC011showRatchetD033_149E4B8064CDB5BECE4AD0D18E10DC5BLL3fors5Error_psAG_p_tYaFTY0_ : 1096 -> 1104
+~ _$s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC011showRatchetD033_149E4B8064CDB5BECE4AD0D18E10DC5BLL3fors5Error_psAG_p_tYaFTY3_ : 1012 -> 1020
+~ _$s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC14beginDelayText33_149E4B8064CDB5BECE4AD0D18E10DC5BLLSSSgvg : 404 -> 412
+~ _$s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC25beginDelayLocationWarning33_149E4B8064CDB5BECE4AD0D18E10DC5BLLSbvg : 196 -> 200
+~ _$s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC15beginDelayTitle33_149E4B8064CDB5BECE4AD0D18E10DC5BLLSSSgvgTm : 200 -> 204
+~ _$s25LocalAuthenticationCoreUI19LACUIAngelPresenterC30sceneControllerDidConnectScene_10identifier8userInfoyAA21LACUISceneControlling_p_SSSDys11AnyHashableVypGSgtFTf4dnnn_n : 568 -> 576
+~ _$s25LocalAuthenticationCoreUI27LACUIKeyboardGeometryUpdate33_165770DA4AB8A246F11FA3FEC261AEB4LLV7isValidSbvg : 356 -> 360
+~ _$sSo24LACUIKeyboardLayoutGuideC25LocalAuthenticationCoreUIE25calculateKeyboardConstant33_165770DA4AB8A246F11FA3FEC261AEB4LL4from0F8Graphics7CGFloatVSDys11AnyHashableVypGSg_tF : 656 -> 660
+~ _$sSo24LACUIKeyboardLayoutGuideC25LocalAuthenticationCoreUIE07animateB033_165770DA4AB8A246F11FA3FEC261AEB4LL4with8animatedySDys11AnyHashableVypGSg_SbtF : 796 -> 804
+~ _$s25LocalAuthenticationCoreUI27LACUIKeyboardGeometryUpdate33_165770DA4AB8A246F11FA3FEC261AEB4LLV11descriptionSSvg : 416 -> 420
+```

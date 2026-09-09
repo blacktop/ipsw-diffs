@@ -1,0 +1,442 @@
+## BatteryAlgorithms
+
+> `/System/Library/PrivateFrameworks/BatteryAlgorithms.framework/BatteryAlgorithms`
+
+```diff
+
+ 152.2.1.0.0
+-  __TEXT.__text: 0x806d0
++  __TEXT.__text: 0x8426c
+   __TEXT.__objc_methlist: 0xb04
+-  __TEXT.__const: 0xa9c0
+-  __TEXT.__cstring: 0x3ed8
+-  __TEXT.__gcc_except_tab: 0x8798
++  __TEXT.__const: 0xab40
++  __TEXT.__cstring: 0x572e
++  __TEXT.__gcc_except_tab: 0x8984
+   __TEXT.__oslogstring: 0xc5
+   __TEXT.__unwind_info: 0x2928
+   __TEXT.__objc_stubs: 0x0
+
+   __DATA_CONST.__objc_arraydata: 0x6b0
+   __DATA_CONST.__got: 0x1d0
+   __AUTH_CONST.__const: 0x3210
+-  __AUTH_CONST.__cfstring: 0x3200
++  __AUTH_CONST.__cfstring: 0x34c0
+   __AUTH_CONST.__objc_const: 0x1690
+   __AUTH_CONST.__weak_auth_got: 0x58
+-  __AUTH_CONST.__objc_intobj: 0x77a0
++  __AUTH_CONST.__objc_intobj: 0x7d10
+   __AUTH_CONST.__objc_dictobj: 0x168
+   __AUTH_CONST.__objc_arrayobj: 0x4f8
+   __AUTH_CONST.__objc_doubleobj: 0x1d0
+-  __AUTH_CONST.__auth_got: 0x428
++  __AUTH_CONST.__auth_got: 0x430
+   __AUTH.__objc_data: 0x50
+   __DATA.__objc_ivar: 0x13c
+-  __DATA.__data: 0x7ba230
+-  __DATA.__common: 0xe
++  __DATA.__data: 0xc22ca8
++  __DATA.__common: 0x14
+   __DATA_DIRTY.__objc_data: 0x190
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 2106
+-  Symbols:   4222
+-  CStrings:  619
++  Functions: 2112
++  Symbols:   4550
++  CStrings:  643
+ 
+Symbols:
++ GCC_except_table112
++ GCC_except_table119
++ GCC_except_table129
++ GCC_except_table130
++ GCC_except_table176
++ GCC_except_table177
++ GCC_except_table212
++ GCC_except_table213
++ GCC_except_table243
++ GCC_except_table253
++ GCC_except_table91
++ __Z28gCafeLVRConfigurationV6xBPICv
++ __Z31gCafeLVRConfigurationV6xNonBPICv
++ __ZN13CafeSwellAlgo11slewRateV63E
++ __ZN13CafeSwellAlgo11slewRateV64E
++ __ZN13CafeSwellAlgo11slewRateV68E
++ __ZN13CafeSwellAlgo13deltaVStepV63E
++ __ZN13CafeSwellAlgo13deltaVStepV64E
++ __ZN13CafeSwellAlgo13deltaVStepV68E
++ __ZN13CafeSwellAlgo14numCafeTierV63E
++ __ZN13CafeSwellAlgo14numCafeTierV64E
++ __ZN13CafeSwellAlgo14numCafeTierV68E
++ __ZN13CafeSwellAlgo15cafeTierVmaxV63E
++ __ZN13CafeSwellAlgo15cafeTierVmaxV64E
++ __ZN13CafeSwellAlgo15cafeTierVmaxV68E
++ __ZN13CafeSwellAlgo15cafeTierVminV63E
++ __ZN13CafeSwellAlgo15cafeTierVminV64E
++ __ZN13CafeSwellAlgo15cafeTierVminV68E
++ __ZN13CafeSwellAlgo15vacCyclesRawV63E
++ __ZN13CafeSwellAlgo15vacCyclesRawV64E
++ __ZN13CafeSwellAlgo15vacCyclesRawV68E
++ __ZN13CafeSwellAlgo16deltaTimeStepV63E
++ __ZN13CafeSwellAlgo16deltaTimeStepV64E
++ __ZN13CafeSwellAlgo16deltaTimeStepV68E
++ __ZN13CafeSwellAlgo18longevityTargetV63E
++ __ZN13CafeSwellAlgo18longevityTargetV64E
++ __ZN13CafeSwellAlgo18longevityTargetV68E
++ __ZN13CafeSwellAlgo19deferralDurationV63E
++ __ZN13CafeSwellAlgo19deferralDurationV64E
++ __ZN13CafeSwellAlgo19deferralDurationV68E
++ __ZN13CafeSwellAlgo19fastAlgoIntervalV63E
++ __ZN13CafeSwellAlgo19fastAlgoIntervalV64E
++ __ZN13CafeSwellAlgo19fastAlgoIntervalV68E
++ __ZN13CafeSwellAlgo19slowAlgoIntervalV63E
++ __ZN13CafeSwellAlgo19slowAlgoIntervalV64E
++ __ZN13CafeSwellAlgo19slowAlgoIntervalV68E
++ __ZN13CafeSwellAlgo20datacheckOverrideV63E
++ __ZN13CafeSwellAlgo20datacheckOverrideV64E
++ __ZN13CafeSwellAlgo20datacheckOverrideV68E
++ __ZN13CafeSwellAlgo20vacCyclesTiersRawV63E
++ __ZN13CafeSwellAlgo20vacCyclesTiersRawV64E
++ __ZN13CafeSwellAlgo20vacCyclesTiersRawV68E
++ __ZN13CafeSwellAlgo7VmaxV63E
++ __ZN13CafeSwellAlgo7VmaxV64E
++ __ZN13CafeSwellAlgo7VmaxV68E
++ __ZN29ACAMPerformanceModelParameterC2ILi184ELi198ELi3ELi25ELi2ELi103ELi3EEERA2_AT__dRA2_AT0__dRAT1__dRAT2__dRAT3__dRAT1__AT2__A2_AT4__dSH_RAT1__AT3__SE_SK_RA2_AT5__dSN_36ACAMPerformanceModelParameterYShrink
++ __ZN29ACAMPerformanceModelParameterC2ILi198ELi151ELi3ELi21ELi2ELi103ELi3EEERA2_AT__dRA2_AT0__dRAT1__dRAT2__dRAT3__dRAT1__AT2__A2_AT4__dSH_RAT1__AT3__SE_SK_RA2_AT5__dSN_36ACAMPerformanceModelParameterYShrink
++ __ZN29ACAMPerformanceModelParameterC2ILi198ELi151ELi3ELi27ELi2ELi103ELi3EEERA2_AT__dRA2_AT0__dRAT1__dRAT2__dRAT3__dRAT1__AT2__A2_AT4__dSH_RAT1__AT3__SE_SK_RA2_AT5__dSN_36ACAMPerformanceModelParameterYShrink
++ __ZN29ACAMPerformanceModelParameterC2ILi210ELi148ELi3ELi25ELi2ELi103ELi3EEERA2_AT__dRA2_AT0__dRAT1__dRAT2__dRAT3__dRAT1__AT2__A2_AT4__dSH_RAT1__AT3__SE_SK_RA2_AT5__dSN_36ACAMPerformanceModelParameterYShrink
++ _gACAMAgingModelParameterN237bATL
++ _gACAMAgingModelParameterN237bFDB
++ _gACAMAgingModelParameterN237sATL
++ _gACAMAgingModelParameterN237sFDB
++ _gACAMAgingModelParameterN240ATL
++ _gACAMAgingModelParameterV63eATL
++ _gACAMAgingModelParameterV63pATL
++ _gACAMAgingModelParameterV64eATL
++ _gACAMAgingModelParameterV64eCOS
++ _gACAMAgingModelParameterV64pATL
++ _gACAMAgingModelParameterV64pCOS
++ _gACAMAgingModelParameterV68MDATL
++ _gACAMAgingModelParameterV68MDCOS
++ _gACAMAgingModelParameterV68TBATL
++ _gACAMAgingModelParameterV68TBCOS
++ _gACAMAgingTableN237bATL
++ _gACAMAgingTableN237bFDB
++ _gACAMAgingTableN237sATL
++ _gACAMAgingTableN237sFDB
++ _gACAMAgingTableN240ATL
++ _gACAMAgingTableV63eATL
++ _gACAMAgingTableV63pATL
++ _gACAMAgingTableV64eATL
++ _gACAMAgingTableV64eCOS
++ _gACAMAgingTableV64pATL
++ _gACAMAgingTableV64pCOS
++ _gACAMAgingTableV68MDATL
++ _gACAMAgingTableV68MDCOS
++ _gACAMAgingTableV68TBATL
++ _gACAMAgingTableV68TBCOS
++ _gACAMAgingUpdatorParameterN237bATL
++ _gACAMAgingUpdatorParameterN237bFDB
++ _gACAMAgingUpdatorParameterN237sATL
++ _gACAMAgingUpdatorParameterN237sFDB
++ _gACAMAgingUpdatorParameterN240ATL
++ _gACAMAgingUpdatorParameterV63eATL
++ _gACAMAgingUpdatorParameterV63pATL
++ _gACAMAgingUpdatorParameterV64eATL
++ _gACAMAgingUpdatorParameterV64eCOS
++ _gACAMAgingUpdatorParameterV64pATL
++ _gACAMAgingUpdatorParameterV64pCOS
++ _gACAMAgingUpdatorParameterV68MDATL
++ _gACAMAgingUpdatorParameterV68MDCOS
++ _gACAMAgingUpdatorParameterV68TBATL
++ _gACAMAgingUpdatorParameterV68TBCOS
++ _gACAMCommonParameterN237bATL
++ _gACAMCommonParameterN237bFDB
++ _gACAMCommonParameterN237sATL
++ _gACAMCommonParameterN237sFDB
++ _gACAMCommonParameterN240ATL
++ _gACAMCommonParameterV63eATL
++ _gACAMCommonParameterV63pATL
++ _gACAMCommonParameterV64eATL
++ _gACAMCommonParameterV64eCOS
++ _gACAMCommonParameterV64pATL
++ _gACAMCommonParameterV64pCOS
++ _gACAMCommonParameterV68MDATL
++ _gACAMCommonParameterV68MDCOS
++ _gACAMCommonParameterV68TBATL
++ _gACAMCommonParameterV68TBCOS
++ _gACAMConfigurationN237bATL
++ _gACAMConfigurationN237bFDB
++ _gACAMConfigurationN237sATL
++ _gACAMConfigurationN237sFDB
++ _gACAMConfigurationN240ATL
++ _gACAMConfigurationV63eATL
++ _gACAMConfigurationV63pATL
++ _gACAMConfigurationV64eATL
++ _gACAMConfigurationV64eCOS
++ _gACAMConfigurationV64pATL
++ _gACAMConfigurationV64pCOS
++ _gACAMConfigurationV68MDATL
++ _gACAMConfigurationV68MDCOS
++ _gACAMConfigurationV68TBATL
++ _gACAMConfigurationV68TBCOS
++ _gCRateChgGridRawDataN237bATL
++ _gCRateChgGridRawDataN237bFDB
++ _gCRateChgGridRawDataN237sATL
++ _gCRateChgGridRawDataN237sFDB
++ _gCRateChgGridRawDataN240ATL
++ _gCRateChgGridRawDataV63eATL
++ _gCRateChgGridRawDataV63pATL
++ _gCRateChgGridRawDataV64eATL
++ _gCRateChgGridRawDataV64eCOS
++ _gCRateChgGridRawDataV64pATL
++ _gCRateChgGridRawDataV64pCOS
++ _gCRateChgGridRawDataV68MDATL
++ _gCRateChgGridRawDataV68MDCOS
++ _gCRateChgGridRawDataV68TBATL
++ _gCRateChgGridRawDataV68TBCOS
++ _gCRateDcgGridRawDataN237bATL
++ _gCRateDcgGridRawDataN237bFDB
++ _gCRateDcgGridRawDataN237sATL
++ _gCRateDcgGridRawDataN237sFDB
++ _gCRateDcgGridRawDataN240ATL
++ _gCRateDcgGridRawDataV63eATL
++ _gCRateDcgGridRawDataV63pATL
++ _gCRateDcgGridRawDataV64eATL
++ _gCRateDcgGridRawDataV64eCOS
++ _gCRateDcgGridRawDataV64pATL
++ _gCRateDcgGridRawDataV64pCOS
++ _gCRateDcgGridRawDataV68MDATL
++ _gCRateDcgGridRawDataV68MDCOS
++ _gCRateDcgGridRawDataV68TBATL
++ _gCRateDcgGridRawDataV68TBCOS
++ _gCRateDcgRawDataN237bATL
++ _gCRateDcgRawDataN237bFDB
++ _gCRateDcgRawDataN237sATL
++ _gCRateDcgRawDataN237sFDB
++ _gCRateDcgRawDataN240ATL
++ _gCRateDcgRawDataV63eATL
++ _gCRateDcgRawDataV63pATL
++ _gCRateDcgRawDataV64eATL
++ _gCRateDcgRawDataV64eCOS
++ _gCRateDcgRawDataV64pATL
++ _gCRateDcgRawDataV64pCOS
++ _gCRateDcgRawDataV68MDATL
++ _gCRateDcgRawDataV68MDCOS
++ _gCRateDcgRawDataV68TBATL
++ _gCRateDcgRawDataV68TBCOS
++ _gOcpNegRawDataN237bATL
++ _gOcpNegRawDataN237bFDB
++ _gOcpNegRawDataN237sATL
++ _gOcpNegRawDataN237sFDB
++ _gOcpNegRawDataN240ATL
++ _gOcpNegRawDataV63eATL
++ _gOcpNegRawDataV63pATL
++ _gOcpNegRawDataV64eATL
++ _gOcpNegRawDataV64eCOS
++ _gOcpNegRawDataV64pATL
++ _gOcpNegRawDataV64pCOS
++ _gOcpNegRawDataV68MDATL
++ _gOcpNegRawDataV68MDCOS
++ _gOcpNegRawDataV68TBATL
++ _gOcpNegRawDataV68TBCOS
++ _gOcpPosRawDataN237bATL
++ _gOcpPosRawDataN237bFDB
++ _gOcpPosRawDataN237sATL
++ _gOcpPosRawDataN237sFDB
++ _gOcpPosRawDataN240ATL
++ _gOcpPosRawDataV63eATL
++ _gOcpPosRawDataV63pATL
++ _gOcpPosRawDataV64eATL
++ _gOcpPosRawDataV64eCOS
++ _gOcpPosRawDataV64pATL
++ _gOcpPosRawDataV64pCOS
++ _gOcpPosRawDataV68MDATL
++ _gOcpPosRawDataV68MDCOS
++ _gOcpPosRawDataV68TBATL
++ _gOcpPosRawDataV68TBCOS
++ _gResistanceNegChgRawDataN237bATL
++ _gResistanceNegChgRawDataN237bFDB
++ _gResistanceNegChgRawDataN237sATL
++ _gResistanceNegChgRawDataN237sFDB
++ _gResistanceNegChgRawDataN240ATL
++ _gResistanceNegChgRawDataV63eATL
++ _gResistanceNegChgRawDataV63pATL
++ _gResistanceNegChgRawDataV64eATL
++ _gResistanceNegChgRawDataV64eCOS
++ _gResistanceNegChgRawDataV64pATL
++ _gResistanceNegChgRawDataV64pCOS
++ _gResistanceNegChgRawDataV68MDATL
++ _gResistanceNegChgRawDataV68MDCOS
++ _gResistanceNegChgRawDataV68TBATL
++ _gResistanceNegChgRawDataV68TBCOS
++ _gResistanceNegDcgRawDataN237bATL
++ _gResistanceNegDcgRawDataN237bFDB
++ _gResistanceNegDcgRawDataN237sATL
++ _gResistanceNegDcgRawDataN237sFDB
++ _gResistanceNegDcgRawDataN240ATL
++ _gResistanceNegDcgRawDataV63eATL
++ _gResistanceNegDcgRawDataV63pATL
++ _gResistanceNegDcgRawDataV64eATL
++ _gResistanceNegDcgRawDataV64eCOS
++ _gResistanceNegDcgRawDataV64pATL
++ _gResistanceNegDcgRawDataV64pCOS
++ _gResistanceNegDcgRawDataV68MDATL
++ _gResistanceNegDcgRawDataV68MDCOS
++ _gResistanceNegDcgRawDataV68TBATL
++ _gResistanceNegDcgRawDataV68TBCOS
++ _gResistancePosChgRawDataN237bATL
++ _gResistancePosChgRawDataN237bFDB
++ _gResistancePosChgRawDataN237sATL
++ _gResistancePosChgRawDataN237sFDB
++ _gResistancePosChgRawDataN240ATL
++ _gResistancePosChgRawDataV63eATL
++ _gResistancePosChgRawDataV63pATL
++ _gResistancePosChgRawDataV64eATL
++ _gResistancePosChgRawDataV64eCOS
++ _gResistancePosChgRawDataV64pATL
++ _gResistancePosChgRawDataV64pCOS
++ _gResistancePosChgRawDataV68MDATL
++ _gResistancePosChgRawDataV68MDCOS
++ _gResistancePosChgRawDataV68TBATL
++ _gResistancePosChgRawDataV68TBCOS
++ _gResistancePosDcgRawDataN237bATL
++ _gResistancePosDcgRawDataN237bFDB
++ _gResistancePosDcgRawDataN237sATL
++ _gResistancePosDcgRawDataN237sFDB
++ _gResistancePosDcgRawDataN240ATL
++ _gResistancePosDcgRawDataV63eATL
++ _gResistancePosDcgRawDataV63pATL
++ _gResistancePosDcgRawDataV64eATL
++ _gResistancePosDcgRawDataV64eCOS
++ _gResistancePosDcgRawDataV64pATL
++ _gResistancePosDcgRawDataV64pCOS
++ _gResistancePosDcgRawDataV68MDATL
++ _gResistancePosDcgRawDataV68MDCOS
++ _gResistancePosDcgRawDataV68TBATL
++ _gResistancePosDcgRawDataV68TBCOS
++ _gSocGridRawDataN237bATL
++ _gSocGridRawDataN237bFDB
++ _gSocGridRawDataN237sATL
++ _gSocGridRawDataN237sFDB
++ _gSocGridRawDataN240ATL
++ _gSocGridRawDataV63eATL
++ _gSocGridRawDataV63pATL
++ _gSocGridRawDataV64eATL
++ _gSocGridRawDataV64eCOS
++ _gSocGridRawDataV64pATL
++ _gSocGridRawDataV64pCOS
++ _gSocGridRawDataV68MDATL
++ _gSocGridRawDataV68MDCOS
++ _gSocGridRawDataV68TBATL
++ _gSocGridRawDataV68TBCOS
++ _gTempGridRawDataN237bATL
++ _gTempGridRawDataN237bFDB
++ _gTempGridRawDataN237sATL
++ _gTempGridRawDataN237sFDB
++ _gTempGridRawDataN240ATL
++ _gTempGridRawDataV63eATL
++ _gTempGridRawDataV63pATL
++ _gTempGridRawDataV64eATL
++ _gTempGridRawDataV64eCOS
++ _gTempGridRawDataV64pATL
++ _gTempGridRawDataV64pCOS
++ _gTempGridRawDataV68MDATL
++ _gTempGridRawDataV68MDCOS
++ _gTempGridRawDataV68TBATL
++ _gTempGridRawDataV68TBCOS
++ _gWRaFreshRawDataN237bATL
++ _gWRaFreshRawDataN237bFDB
++ _gWRaFreshRawDataN237sATL
++ _gWRaFreshRawDataN237sFDB
++ _gWRaFreshRawDataN240ATL
++ _gWRaFreshRawDataV63eATL
++ _gWRaFreshRawDataV63pATL
++ _gWRaFreshRawDataV64eATL
++ _gWRaFreshRawDataV64eCOS
++ _gWRaFreshRawDataV64pATL
++ _gWRaFreshRawDataV64pCOS
++ _gWRaFreshRawDataV68MDATL
++ _gWRaFreshRawDataV68MDCOS
++ _gWRaFreshRawDataV68TBATL
++ _gWRaFreshRawDataV68TBCOS
++ _gWRcFreshRawDataN237bATL
++ _gWRcFreshRawDataN237bFDB
++ _gWRcFreshRawDataN237sATL
++ _gWRcFreshRawDataN237sFDB
++ _gWRcFreshRawDataN240ATL
++ _gWRcFreshRawDataV63eATL
++ _gWRcFreshRawDataV63pATL
++ _gWRcFreshRawDataV64eATL
++ _gWRcFreshRawDataV64eCOS
++ _gWRcFreshRawDataV64pATL
++ _gWRcFreshRawDataV64pCOS
++ _gWRcFreshRawDataV68MDATL
++ _gWRcFreshRawDataV68MDCOS
++ _gWRcFreshRawDataV68TBATL
++ _gWRcFreshRawDataV68TBCOS
++ _gYShrinkN237bATL
++ _gYShrinkN237bFDB
++ _gYShrinkN237sATL
++ _gYShrinkN237sFDB
++ _gYShrinkN240ATL
++ _gYShrinkV63eATL
++ _gYShrinkV63pATL
++ _gYShrinkV64eATL
++ _gYShrinkV64eCOS
++ _gYShrinkV64pATL
++ _gYShrinkV64pCOS
++ _gYShrinkV68MDATL
++ _gYShrinkV68MDCOS
++ _gYShrinkV68TBATL
++ _gYShrinkV68TBCOS
++ _objc_retain_x27
+- GCC_except_table114
+- GCC_except_table115
+- GCC_except_table116
+- GCC_except_table125
+- GCC_except_table126
+- GCC_except_table127
+- GCC_except_table147
+- GCC_except_table172
+- GCC_except_table173
+- GCC_except_table188
+- GCC_except_table208
+- GCC_except_table217
+- GCC_except_table239
+- GCC_except_table249
+- GCC_except_table78
+- GCC_except_table87
+- GCC_except_table94
+CStrings:
++ "\n{\n    \"Lifetime\": {\n        \"controller\": {\n            \"Ki\": 8e-10,\n            \"Kp\": 0.0005,\n            \"u_max\": 1,\n            \"u_min\": 0\n        },\n        \"settings\": {\n            \"shape\": {\n                \"a\": 0,\n                \"b\": 6.342e-05,\n                \"c\": 6e+03\n            }\n        },\n        \"enable\": 1,\n        \"interval\": 86400\n    },\n    \"ProjectedLifetime\": {\n        \"controller\": {\n            \"Ki\": 0,\n            \"Kp\": 2.00e-03,\n            \"u_max\": 1,\n            \"u_min\": 0\n        },\n        \"settings\": {\n            \"epsilon\": 0.000694444,\n            \"lambda\": 0.85\n        },\n        \"enable\": 0,\n        \"interval\": 86400\n    },\n    \"SafeHarbor\": {\n        \"aged_target\": {\n            \"debounce_time\": 3,\n            \"socv\": 3.25\n        },\n        \"swell_target\": {\n            \"debounce_time\": 3,\n            \"socv\": 3.25\n        }\n    },\n    \"Weekly\": {\n        \"controller\": {\n            \"Ki\": 0,\n            \"Kp\": 3.33e-02,\n            \"u_max\": 1,\n            \"u_min\": 0\n        },\n        \"settings\": {\n            \"shape\": {\n                \"a\": 0,\n                \"b\": 0,\n                \"c\": 46.15384615\n            }\n        },\n        \"enable\": 0,\n        \"interval\": 604800\n    },\n    \"control_effort_table\": {\n        \"control_effort\": [\n            0,\n            0.1,\n            0.2,\n            0.3,\n            0.4,\n            0.5,\n            0.6,\n            0.7,\n            0.8,\n            0.9,\n            1\n        ],\n        \"debounce_time\": [\n            3,\n            3,\n            3,\n            3,\n            3,\n            3,\n            3,\n            3,\n            3,\n            3,\n            3\n        ],\n        \"socv\": [\n            3,\n            3.1,\n            3.12,\n            3.13,\n            3.14,\n            3.15,\n            3.16,\n            3.17,\n            3.18,\n            3.19,\n            3.2\n        ]\n    },\n    \"final_budget_target\": 12000,\n    \"final_time\": 94608000,\n    \"max_interval\": 1209600,\n    \"grace_period\": 31536000,\n    \"grace_period_budget_target\": 6000,\n    \"control_effort_slew_rate_up\": 0.02,\n    \"control_effort_slew_rate_down\": 0.1,\n    \"weights\": [\n        [\n            [\n                0,\n                1,\n                1\n            ],\n            [\n                0,\n                1,\n                1\n            ],\n            [\n                0,\n                1,\n                1\n            ]\n        ],\n        [\n            [\n                0,\n                1,\n                1\n            ],\n            [\n                0,\n                1,\n                1\n            ],\n            [\n                0,\n                1,\n                1\n            ]\n        ],\n        [\n            [\n                0,\n                1,\n                1\n            ],\n            [\n                0,\n                1,\n                1\n            ],\n            [\n                0,\n                1,\n                1\n            ]\n        ]\n    ],\n    \"config_version\": 1\n}\n"
++ "\n{\n    \"Lifetime\": {\n        \"controller\": {\n            \"Ki\": 8e-10,\n            \"Kp\": 0.0005,\n            \"u_max\": 1,\n            \"u_min\": 0\n        },\n        \"settings\": {\n            \"shape\": {\n                \"a\": 0,\n                \"b\": 6.342e-05,\n                \"c\": 6e+03\n            }\n        },\n        \"enable\": 1,\n        \"interval\": 86400\n    },\n    \"ProjectedLifetime\": {\n        \"controller\": {\n            \"Ki\": 0,\n            \"Kp\": 2.00e-03,\n            \"u_max\": 1,\n            \"u_min\": 0\n        },\n        \"settings\": {\n            \"epsilon\": 0.000694444,\n            \"lambda\": 0.85\n        },\n        \"enable\": 0,\n        \"interval\": 86400\n    },\n    \"SafeHarbor\": {\n        \"aged_target\": {\n            \"debounce_time\": 8,\n            \"socv\": 3.25\n        },\n        \"swell_target\": {\n            \"debounce_time\": 8,\n            \"socv\": 3.25\n        }\n    },\n    \"Weekly\": {\n        \"controller\": {\n            \"Ki\": 0,\n            \"Kp\": 3.33e-02,\n            \"u_max\": 1,\n            \"u_min\": 0\n        },\n        \"settings\": {\n            \"shape\": {\n                \"a\": 0,\n                \"b\": 0,\n                \"c\": 46.15384615\n            }\n        },\n        \"enable\": 0,\n        \"interval\": 604800\n    },\n    \"control_effort_table\": {\n        \"control_effort\": [\n            0,\n            0.1,\n            0.2,\n            0.3,\n            0.4,\n            0.5,\n            0.6,\n            0.7,\n            0.8,\n            0.9,\n            1\n        ],\n        \"debounce_time\": [\n            8,\n            8,\n            8,\n            8,\n            8,\n            8,\n            8,\n            8,\n            8,\n            8,\n            8\n        ],\n        \"socv\": [\n            3,\n            3.1,\n            3.12,\n            3.13,\n            3.14,\n            3.15,\n            3.16,\n            3.17,\n            3.18,\n            3.19,\n            3.2\n        ]\n    },\n    \"final_budget_target\": 12000,\n    \"final_time\": 94608000,\n    \"max_interval\": 1209600,\n    \"grace_period\": 31536000,\n    \"grace_period_budget_target\": 6000,\n    \"control_effort_slew_rate_up\": 0.02,\n    \"control_effort_slew_rate_down\": 0.1,\n    \"weights\": [\n        [\n            [\n                0,\n                1,\n                1\n            ],\n            [\n                0,\n                1,\n                1\n            ],\n            [\n                0,\n                1,\n                1\n            ]\n        ],\n        [\n            [\n                0,\n                1,\n                1\n            ],\n            [\n                0,\n                1,\n                1\n            ],\n            [\n                0,\n                1,\n                1\n            ]\n        ],\n        [\n            [\n                0,\n                1,\n                1\n            ],\n            [\n                0,\n                1,\n                1\n            ],\n            [\n                0,\n                1,\n                1\n            ]\n        ]\n    ],\n    \"config_version\": 1\n}\n"
++ "N237b"
++ "N237bATL"
++ "N237bFDB"
++ "N237s"
++ "N237sATL"
++ "N237sFDB"
++ "N240"
++ "N240ATL"
++ "V63"
++ "V63eATL"
++ "V63pATL"
++ "V64"
++ "V64S"
++ "V64eATL"
++ "V64eCOS"
++ "V64pATL"
++ "V64pCOS"
++ "V68"
++ "V68MDATL"
++ "V68MDCOS"
++ "V68TBATL"
++ "V68TBCOS"
+```

@@ -1,0 +1,25 @@
+## InputTranscoder
+
+> `/System/Library/PrivateFrameworks/InputTranscoder.framework/InputTranscoder`
+
+```diff
+
+ 110.0.0.0.0
+-  __TEXT.__text: 0x2b04c
++  __TEXT.__text: 0x2b080
+   __TEXT.__const: 0x3878
+   __TEXT.__gcc_except_tab: 0x2478
+   __TEXT.__cstring: 0xecc
+Functions:
+~ __ZNSt3__16vectorIPK10_LXLexiconNS_9allocatorIS3_EEE24__emplace_back_slow_pathIJRKS3_EEEPS3_DpOT_ : 184 -> 176
+~ __ZNSt3__16vectorINS_4pairIN3nlp11CFScopedPtrIPK9_LXCursorEEbEENS_9allocatorIS8_EEE24__emplace_back_slow_pathIJS8_EEEPS8_DpOT_ : 228 -> 224
+~ __ZNSt3__16vectorIfNS_9allocatorIfEEE18__insert_with_sizeB9fqe220106INS_17_ClassicAlgPolicyENS_11__wrap_iterIPKfEES9_EENS6_IPfEES9_T0_T1_l : 516 -> 532
+~ __ZNSt3__16vectorINS_4pairIN3nlp11CFScopedPtrIPK9_LXCursorEEbEENS_9allocatorIS8_EEE24__emplace_back_slow_pathIJRS6_RKbEEEPS8_DpOT_ : 228 -> 224
+~ __ZNSt3__110__function6__funcINS_6__bindIMN15InputTranscoder26TouchTranscoderSessionImplEKFvRNS_6vectorINS3_20CTCSurfaceFormOutputENS_9allocatorIS6_EEEERjSB_PK14__CFDictionaryPNS3_8PathTrieERNS5_INS_4pairISG_S6_EENS7_ISI_EEEERbEJPS4_NS_17reference_wrapperIS9_EENSQ_IjEESS_RSE_RKNS_12placeholders4__phILi1EEERKNSV_ILi2EEERKNSV_ILi3EEEEEEFvSG_SL_SM_EEclEOSG_SL_SM_ : 68 -> 72
+~ __ZNSt3__110__function6__funcINS_6__bindIMN15InputTranscoder26TouchTranscoderSessionImplEKFvRNS_6vectorINS3_20CTCSurfaceFormOutputENS_9allocatorIS6_EEEESA_RKNS_4pairIPNS3_8PathTrieES6_EEEJPS4_NS_17reference_wrapperIS9_EESL_RKNS_12placeholders4__phILi1EEEEEEFvSG_EEclESG_ : 48 -> 52
+~ __ZN15InputTranscoder21generateConfigurationINS_20DecoderConfigurationEEET_P10__CFBundlePK14__CFDictionary12ITTypingMode : 2344 -> 2348
+~ __ZNK15InputTranscoder13PathResampler19is_inflection_pointEj : 356 -> 368
+~ __ZNK15InputTranscoder18KeyboardLayoutImpl27getAutocorrectionOperationsERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_ : 2436 -> 2468
+~ __ZNSt3__16vectorItNS_9allocatorItEEE24__emplace_back_slow_pathIJtEEEPtDpOT_ : 180 -> 172
+~ __ZNSt3__16vectorIN15InputTranscoder10PathSampleENS_9allocatorIS2_EEE6resizeEm : 284 -> 288
+```

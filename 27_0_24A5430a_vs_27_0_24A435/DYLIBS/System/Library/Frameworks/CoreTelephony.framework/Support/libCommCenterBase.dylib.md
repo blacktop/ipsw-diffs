@@ -1,0 +1,26 @@
+## libCommCenterBase.dylib
+
+> `/System/Library/Frameworks/CoreTelephony.framework/Support/libCommCenterBase.dylib`
+
+```diff
+
+-13487.6.0.0.0
+-  __TEXT.__text: 0xd293c
++13487.7.0.0.0
++  __TEXT.__text: 0xd2960
+   __TEXT.__init_offsets: 0x20
+   __TEXT.__objc_methlist: 0x110
+   __TEXT.__const: 0xd360
+Functions:
+~ __ZNSt3__16vectorIjNS_9allocatorIjEEE24__emplace_back_slow_pathIJRKjEEEPjDpOT_ : 184 -> 176
+~ __ZNSt3__16vectorIPKN14ServiceManager7ServiceENS_9allocatorIS4_EEE24__emplace_back_slow_pathIJS4_EEEPS4_DpOT_ : 184 -> 176
+~ __ZNK5boost8signals26detail20connection_body_base17dec_slot_refcountIS2_EEvRNS1_23garbage_collecting_lockIT_EE : 484 -> 480
+~ __ZNK5boost8signals26detail20slot_call_iterator_tINS1_21variadic_slot_invokerINS1_9void_typeEJN10subscriber7SimSlotEEEENSt3__115__list_iteratorINS_10shared_ptrINS1_15connection_bodyINS8_4pairINS1_15slot_meta_groupENS_8optionalIiEEEENS0_4slotIFvS6_ENS_8functionISI_EEEENS0_5mutexEEEEEPvEESN_E18lock_next_callableEv : 1652 -> 1648
+~ __ZN5boost8signals26detail21scope_guard_impl_base12safe_executeINS1_21obj_scope_guard_impl2INS1_11auto_bufferINS_7variantINS_10shared_ptrIvEEJNS1_23foreign_void_shared_ptrEEEENS1_15store_n_objectsILj10EEENS1_19default_grow_policyENSt3__19allocatorISA_EEEEMSH_FvPSA_mESI_mEEEEvRT_ : 104 -> 108
+~ __ZNSt3__110__function6__funcIZN3ctu4rest15property_sink_tI18rest_service_stateE9bind_implIRM15RestServiceBaseFv16RestServiceStateES8_EEvRNS2_10RestModuleEPT0_OT_NS_17integral_constantIbLb0EEEEUlRKN3xpc6objectEE_FvSM_EEclEOSM_ : 152 -> 156
+~ __ZNKSt3__111basic_regexIcNS_12regex_traitsIcEEE16__match_at_startINS_9allocatorINS_9sub_matchIPKcEEEEEEbS8_S8_RNS_13match_resultsIS8_T_EENS_15regex_constants15match_flag_typeEb : 5196 -> 5252
+~ __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE6assignEmRKS4_ : 340 -> 336
+~ __ZNKSt3__111basic_regexIcNS_12regex_traitsIcEEE21__match_at_start_ecmaINS_9allocatorINS_9sub_matchIPKcEEEEEEbS8_S8_RNS_13match_resultsIS8_T_EENS_15regex_constants15match_flag_typeEb : 1404 -> 1396
+~ __ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEE9push_backEOS2_ : 792 -> 796
+~ __ZNSt3__114__split_bufferIPNS_7__stateIcEERNS_9allocatorIS3_EEE12emplace_backIJS3_EEEvDpOT_ : 248 -> 252
+```

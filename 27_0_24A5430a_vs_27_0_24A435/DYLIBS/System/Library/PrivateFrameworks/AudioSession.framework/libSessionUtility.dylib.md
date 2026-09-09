@@ -1,0 +1,25 @@
+## libSessionUtility.dylib
+
+> `/System/Library/PrivateFrameworks/AudioSession.framework/libSessionUtility.dylib`
+
+```diff
+
+ 449.107.0.0.0
+-  __TEXT.__text: 0x3dd28
++  __TEXT.__text: 0x3dd94
+   __TEXT.__realtime: 0xc4
+   __TEXT.__objc_methlist: 0x844
+   __TEXT.__gcc_except_tab: 0x241c
+Functions:
+~ __ZN5caulk10concurrent25guarded_lookup_hash_tableIjPN4avas4util16BaseOpaqueObjectELNS0_33guarded_lookup_hash_table_optionsE0ENS3_24OpaqueObjectIdentityHashEE10table_impl12addOrReplaceEjS5_b : 144 -> 148
+~ __ZN4avas12WorkloopPool12handleBlocksEPU31objcproto20OS_dispatch_workloop8NSObject : 496 -> 516
+~ __ZNSt3__15dequeINS_10shared_ptrIN4avas12WorkloopPool9BlockInfoEEENS_9allocatorIS5_EEE5eraseENS_16__deque_iteratorIS5_PKS5_RSA_PKSB_lLl256EEE : 580 -> 632
+~ __ZN5caulk10concurrent25guarded_lookup_hash_tableIjPN4avas4util16BaseOpaqueObjectELNS0_33guarded_lookup_hash_table_optionsE0ENS3_24OpaqueObjectIdentityHashEE6removeEj : 452 -> 456
+~ __ZNSt3__114__split_bufferIPNS_10shared_ptrIN4avas12WorkloopPool9BlockInfoEEENS_9allocatorIS6_EEE12emplace_backIJS6_EEEvDpOT_ : 256 -> 260
+~ __ZN5caulk10concurrent25guarded_lookup_hash_tableIjPN4avas4util16BaseOpaqueObjectELNS0_33guarded_lookup_hash_table_optionsE0ENS3_24OpaqueObjectIdentityHashEE10table_impl17copyAllElementsToERS9_ : 148 -> 152
+~ __ZNSt3__16vectorINS_10unique_ptrIN4avas6server8HWStreamENS_14default_deleteIS4_EEEENS_9allocatorIS7_EEE24__emplace_back_slow_pathIJEEEPS7_DpOT_ : 212 -> 216
+~ __ZNSt3__15dequeINS_10shared_ptrIN4avas12WorkloopPool9BlockInfoEEENS_9allocatorIS5_EEED2B9fqe220106Ev : 316 -> 328
+~ __ZNSt3__114__split_bufferIPNS_10shared_ptrIN4avas12WorkloopPool9BlockInfoEEERNS_9allocatorIS6_EEE12emplace_backIJS6_EEEvDpOT_ : 256 -> 260
+~ __ZNKSt3__116__deque_iteratorINS_10shared_ptrIN4avas12WorkloopPool9BlockInfoEEEPS5_RS5_PS6_lLl256EEplB9fqe220106El : 92 -> 96
+~ __ZN4avas6server23MicrophoneConfiguration8readFromERN2PB6ReaderE : 2096 -> 2092
+```

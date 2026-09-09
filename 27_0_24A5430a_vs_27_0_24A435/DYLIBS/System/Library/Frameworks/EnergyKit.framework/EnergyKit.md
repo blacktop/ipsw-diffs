@@ -1,0 +1,23 @@
+## EnergyKit
+
+> `/System/Library/Frameworks/EnergyKit.framework/EnergyKit`
+
+```diff
+
+ 490.1.4.0.0
+-  __TEXT.__text: 0xc8b14
++  __TEXT.__text: 0xc8ab4
+   __TEXT.__objc_methlist: 0x7b0
+   __TEXT.__const: 0xc068
+   __TEXT.__cstring: 0x1629
+Functions:
+~ _$s9EnergyKit13HVACSimulatorC23generateCyclesForWindow33_8CAA901366DD19989A3FD210D062EE8DLL4date6window8calendar3rngSayAA21ElectricHVACLoadEventVG10Foundation4DateV_AC09OperatingG0VAM8CalendarVAA27SeededRandomNumberGeneratorVztF : 7172 -> 7096
+~ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtF10Foundation4UUIDV_Say9EnergyKit21ElectricHVACLoadEventVGTg5 : 992 -> 984
+~ _$s9EnergyKit24ElectricVehicleSimulatorC19generateLiveSession12waitDuration0I6Reason05startK008completeK0SayAC0gH4StepVGSd_AA010EVChargingH12StateMachineC07WaitingK0OAA0cd8ChargingK0O06ActiveK0OAM08CompleteK0OtYaKFTY0_ : 7820 -> 7760
+~ _$s9EnergyKit24ElectricVehicleSimulatorC15generateSession33_DA52299A39F9DC54ACA30E36E100CF82LL4date12sessionIndex3rng10initialSoC19includeStatusEvents3now13earliestStartAC09GeneratedX0AELLV10Foundation4DateV_SiAA27SeededRandomNumberGeneratorVzSiSbA2QSgtKFTf4ndnnnnnn_n : 11184 -> 11212
+~ _$s9EnergyKit24ElectricityInsightRecordVwet : 1168 -> 1172
+~ _$s9EnergyKit25ElectricityInsightServiceC14pendingUpdates7atVenue15refreshInterval10connectionAA0aB12SubscriptionV10Foundation4UUIDV_SdSo15NSXPCConnectionCSgtFyAJ12NotificationVYbcfU_ : 1476 -> 1480
+~ _$s9EnergyKit19LoadEventOperationsC06submitcD07records7venueIDSiSayxG_10Foundation4UUIDVtYaKAA010ElectricalcD8ProtocolRzlFZyScCySis5Error_pGXEfU_yyYaYbcfU_TY5_ : 2004 -> 2008
+~ _$s9EnergyKit19ElectricityGuidanceV7ServiceC06createD8Sequence5using2atQrAC5QueryV_10Foundation4UUIDVtFyScs12ContinuationVyACs5Error_p_GXEfU_yyYacfU_TY8_ : 1184 -> 1188
+~ _$s9EnergyKit19ElectricityGuidanceV7ServiceC06createD8Sequence5using8locationQrAC5QueryV_So10CLLocationCtFyScs12ContinuationVyACs5Error_p_GXEfU_yyYacfU_TY7_ : 1252 -> 1256
+```

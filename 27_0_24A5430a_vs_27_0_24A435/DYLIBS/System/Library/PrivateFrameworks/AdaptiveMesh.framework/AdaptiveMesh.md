@@ -1,0 +1,36 @@
+## AdaptiveMesh
+
+> `/System/Library/PrivateFrameworks/AdaptiveMesh.framework/AdaptiveMesh`
+
+```diff
+
+ 14.0.0.0.0
+-  __TEXT.__text: 0x33e5c
++  __TEXT.__text: 0x33e9c
+   __TEXT.__lazy_helpers: 0x1a4
+   __TEXT.__objc_methlist: 0x14
+   __TEXT.__const: 0x10e0
+Functions:
+~ __ZNSt3__16vectorIDv4_fNS_9allocatorIS1_EEE6resizeEm : 284 -> 288
+~ __ZNSt3__16vectorImNS_9allocatorImEEE6resizeEm : 284 -> 288
+~ __ZNSt3__16vectorIN3amt3VecIiLi3EEENS_9allocatorIS3_EEE6resizeEm : 388 -> 392
+~ __ZNSt3__16vectorIDv3_fNS_9allocatorIS1_EEE6assignEmRKS1_ : 260 -> 256
+~ __ZNSt3__16vectorIjNS_9allocatorIjEEE6resizeEm : 284 -> 288
+~ __ZNSt3__16vectorIbNS_9allocatorIbEEE6resizeEmb : 128 -> 132
+~ __ZN3amtL18createAdaptiveMeshEP9__AMTMeshP15__AMTMeshSourceRNS_17ProcessingContextERKNS_32AdaptiveMeshGenerationParametersE : 3392 -> 3388
+~ __ZNSt3__16vectorIN3amt3VecIiLi3EEENS_9allocatorIS3_EEE7reserveEm : 216 -> 212
+~ __ZNSt3__16vectorIN3amt3VecIiLi3EEENS_9allocatorIS3_EEE24__emplace_back_slow_pathIJS3_EEEPS3_DpOT_ : 252 -> 248
+~ __ZN3amt22fitMidPointSubdivisionERKNS_12TriangleMeshERS0_ifi : 3368 -> 3372
+~ __ZNSt3__18__invokeB9fqe220106IJMN9nanoflann15KDTreeBaseClassINS1_24KDTreeSingleIndexAdaptorINS1_17L2_Simple_AdaptorIfN3amt17PointCloudWrapperEfjEES6_Li3EjEES7_S6_Li3EjEEFPNS9_4NodeERS8_mmRNS_5arrayINS9_8IntervalELm3EEERNS_6atomicIjEERNS_5mutexEEPS9_NS_17reference_wrapperIS8_EEmmNSP_ISF_EENSP_ISI_EENSP_ISK_EEEEENS_20__invoke_result_implIvJDpT_EE4typeEDpOSV_ : 64 -> 68
+~ __ZNSt3__114__thread_proxyB9fqe220106INS_5tupleIJNS_10unique_ptrINS_15__thread_structENS_14default_deleteIS3_EEEEMNS_19__async_assoc_stateIPN9nanoflann15KDTreeBaseClassINS8_24KDTreeSingleIndexAdaptorINS8_17L2_Simple_AdaptorIfN3amt17PointCloudWrapperEfjEESD_Li3EjEESE_SD_Li3EjE4NodeENS_12__async_funcIMSG_FSI_RSF_mmRNS_5arrayINSG_8IntervalELm3EEERNS_6atomicIjEERNS_5mutexEEJPSG_NS_17reference_wrapperISF_EEmmNSX_ISN_EENSX_ISQ_EENSX_ISS_EEEEEEEFvvEPS13_EEEEEPvS18_ : 172 -> 176
+~ __ZNSt3__16vectorINS_6futureIvEENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJS2_EEEPS2_DpOT_ : 216 -> 212
+~ __ZNSt3__114__thread_proxyB9fqe220106INS_5tupleIJNS_10unique_ptrINS_15__thread_structENS_14default_deleteIS3_EEEEMNS_19__async_assoc_stateIvNS_12__async_funcIZN3amt12parallel_forExNS_8functionIFvxEEEEUlxxE_JxxEEEEEFvvEPSF_EEEEEPvSK_ : 172 -> 176
+~ __ZNSt3__16vectorIDv4_fNS_9allocatorIS1_EEE6assignEmRKS1_ : 260 -> 256
+~ __ZNSt3__16vectorI7AMTPairNS_9allocatorIS1_EEE18__insert_with_sizeB9fqe220106INS_17_ClassicAlgPolicyEPKS1_S8_EENS_11__wrap_iterIPS1_EENS9_IS8_EET0_T1_l : 516 -> 532
+~ __ZNSt3__16vectorIN3amt20SubdivisionLevelInfoENS_9allocatorIS2_EEE6resizeEm : 292 -> 296
+~ __ZN3amt25TriangleMeshDecimatorImpl8decimateERKNS_31TriangleMeshDecimatorParametersE : 3372 -> 3368
+~ __ZNSt3__16vectorIiNS_9allocatorIiEEE18__insert_with_sizeB9fqe220106INS_17_ClassicAlgPolicyENS_11__wrap_iterIPKiEES9_EENS6_IPiEES9_T0_T1_l : 516 -> 532
+~ __ZNSt3__16vectorIPN3amt25TriangleMeshDecimatorImpl5DEdgeENS_9allocatorIS4_EEE6resizeEm : 284 -> 288
+~ __ZNSt3__16vectorIN3amt25TriangleMeshDecimatorImpl9DTriangleENS_9allocatorIS3_EEE6resizeEm : 352 -> 364
+~ __ZNSt3__16vectorIN3amt25TriangleMeshDecimatorImpl5DEdgeENS_9allocatorIS3_EEE6resizeEm : 372 -> 376
+```

@@ -1,0 +1,25 @@
+## CAFUI
+
+> `/System/Library/PrivateFrameworks/CAFUI.framework/CAFUI`
+
+```diff
+
+ 542.7.0.0.0
+-  __TEXT.__text: 0xe40b4
++  __TEXT.__text: 0xe40a4
+   __TEXT.__objc_methlist: 0x27e0
+   __TEXT.__const: 0x6b84
+   __TEXT.__cstring: 0x3904
+Functions:
+~ _$sSr15_stableSortImpl2byySbx_xtKXE_tKFySryxGz_SiztKXEfU_So15CAFPairedDeviceC_Tg506$sSo27e51DevicesInformationC5CAFUIE012sortedPairedB0SaySo0A6F17CGvgSbAF_AFtXEfU_Tf1nnncn_n : 1388 -> 1384
+~ _$s5CAFUI38CAFUIDetailedDescriptionViewControllerC17textLayoutManager_0fG11FragmentFor2inSo06NSTextgI0CSo0lgH0C_So0L8Location_pSo0L7ElementCtF : 1492 -> 1496
+~ _$sSasSQRzlE2eeoiySbSayxG_ABtFZ5CAFUI15CAFTripCardKindO_Tt1g5 : 256 -> 240
+~ _$s5CAFUI18CAFUISettingsCacheV8settings8sectionsACSaySo19CAFAutomakerSettingCG_SaySo18CAFSettingsSectionCGSgtcfC : 4108 -> 4112
+~ _$ss17_NativeDictionaryV4copyyyFSS_SaySo19CAFAutomakerSettingCGTg5 : 360 -> 364
+~ _$ss17_NativeDictionaryV4copyyyFSS_So19CAFAutomakerSettingCTg5 : 356 -> 360
+~ _$sSD8grouping2bySDyxSay7ElementQyd__GGqd__n_xADqd_0_YKXEtqd_0_YKcAERs_STRd__s5ErrorRd_0_r0_lufCSS_SaySo19CAFAutomakerSettingCGs5NeverOTt2g5087$s5CAFUI18CAFUISettingsCacheV8sections33_C136C7576C945FF13298128793D0FFCELL3for13parentf46SayAA29CAFUIAutomakerSettingsSectionVGSaySo012E20M0CG_ALSgtFSSALXEfU_Tf1nc_nTf4g_n : 668 -> 676
+~ _$ss20_ArrayBufferProtocolPsE15replaceSubrange_4with10elementsOfySnySiG_Siqd__ntSlRd__7ElementQyd__AGRtzlFs01_aB0VySiG_s15EmptyCollectionVySiGTg5Tf4nndn_n : 168 -> 172
+~ _$s5CAFUI26CAFNotificationDataSourcesC18notificationSource20settingsByIdentifier10zoneRegion11destination13actionHandlerAA0bF0CSDySSSo19CAFAutomakerSettingCGSg_14CarPlayAssetUI4ZoneV0uK0OAJ11DestinationOySSctF : 4820 -> 4800
+~ _$sSr15_stableSortImpl2byySbx_xtKXE_tKFySryxGz_SiztKXEfU_So7CAFTripC_Tg5010$s5CAFUI18E136CardSourcesC14computeEntries33_E15FEDA4654B4D6DA7188EF9CD83F633LL6inputs04infoC6HiddenAA0bF0VAC11EntryInputsAELLV_SbtFZSbSo0B0C_AMtXEfU_Tf1nnncn_n : 1176 -> 1168
+~ _$s5CAFUI23CAFUITileViewControllerC11viewDidLoadyyF : 1192 -> 1196
+```

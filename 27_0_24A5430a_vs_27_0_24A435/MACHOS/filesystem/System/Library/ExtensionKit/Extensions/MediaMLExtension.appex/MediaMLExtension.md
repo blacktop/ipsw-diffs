@@ -1,0 +1,132 @@
+## MediaMLExtension
+
+> `/System/Library/ExtensionKit/Extensions/MediaMLExtension.appex/MediaMLExtension`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_entry`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__unwind_info`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__data`
+
+```diff
+
+ 124.1.0.0.0
+-  __TEXT.__text: 0x61aa4
++  __TEXT.__text: 0x61c40
+   __TEXT.__auth_stubs: 0xef0
+   __TEXT.__objc_stubs: 0xe0
+   __TEXT.__const: 0xcd2
+Functions:
+~ _$s16MediaMLExtension0A8MLWorkerV9shouldRun7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFTY0_ : 164 -> 168
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFTY0_ : 444 -> 448
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY14_ : 9384 -> 9388
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY22_ : 5288 -> 5292
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY30_ : 1648 -> 1652
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY31_ : 2180 -> 2184
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY32_ : 2180 -> 2184
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY33_ : 2212 -> 2216
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY34_ : 2260 -> 2264
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY35_ : 2296 -> 2300
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY36_ : 2296 -> 2300
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY37_ : 2296 -> 2300
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY38_ : 2296 -> 2300
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY39_ : 2332 -> 2336
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY40_ : 2368 -> 2372
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY41_ : 2368 -> 2372
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY42_ : 2420 -> 2424
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY43_ : 2420 -> 2424
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY44_ : 2420 -> 2424
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY45_ : 2420 -> 2424
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY46_ : 2420 -> 2424
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY47_ : 2420 -> 2424
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY48_ : 2420 -> 2424
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TY49_ : 2420 -> 2424
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedCellDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY0_ : 616 -> 620
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedCellDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY2_ : 4108 -> 4112
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedCellDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY10_ : 220 -> 224
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedCellDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY11_ : 232 -> 236
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedCellDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY12_ : 252 -> 256
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedCellDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY13_ : 252 -> 256
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedCellDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY14_ : 252 -> 256
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedCellDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY15_ : 252 -> 256
+~ _$s16MediaMLExtension0A8MLWorkerV20getRawCellDataFromDB33_981092F5866D74394B6898E35C682BBDLL07TabularG00G5FrameVyYaKFTY0_ : 1120 -> 1124
+~ _$s16MediaMLExtension0A8MLWorkerV20getRawCellDataFromDB33_981092F5866D74394B6898E35C682BBDLL07TabularG00G5FrameVyYaKFTY2_ : 144 -> 148
+~ _$s16MediaMLExtension0A8MLWorkerV20getRawCellDataFromDB33_981092F5866D74394B6898E35C682BBDLL07TabularG00G5FrameVyYaKFTY3_ : 188 -> 192
+~ _$s16MediaMLExtension0A8MLWorkerV28getCellDataStandardDeviation33_981092F5866D74394B6898E35C682BBDLL07TabularF00F5FrameVyYaKFTY0_ : 584 -> 588
+~ _$s16MediaMLExtension0A8MLWorkerV28getCellDataStandardDeviation33_981092F5866D74394B6898E35C682BBDLL07TabularF00F5FrameVyYaKFTY2_ : 144 -> 148
+~ _$s16MediaMLExtension0A8MLWorkerV28getCellDataStandardDeviation33_981092F5866D74394B6898E35C682BBDLL07TabularF00F5FrameVyYaKFTY3_ : 188 -> 192
+~ _$s16MediaMLExtension0A8MLWorkerV30getAndSavePreProcessedCellData9dataFrame07TabularJ00jL0VAH_tYaKFTY0_ : 12504 -> 12508
+~ _$s16MediaMLExtension0A8MLWorkerV30getAndSavePreProcessedCellData9dataFrame07TabularJ00jL0VAH_tYaKFTY4_ : 3084 -> 3088
+~ _$s16MediaMLExtension0A8MLWorkerV30getAndSavePreProcessedCellData9dataFrame07TabularJ00jL0VAH_tYaKFTY5_ : 632 -> 636
+~ _$s16MediaMLExtension0A8MLWorkerV30getAndSavePreProcessedCellData9dataFrame07TabularJ00jL0VAH_tYaKFTY6_ : 516 -> 520
+~ _$s16MediaMLExtension0A8MLWorkerV22cleanRawCellDataFromDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY0_ : 584 -> 588
+~ _$s16MediaMLExtension0A8MLWorkerV22cleanRawCellDataFromDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY4_ : 144 -> 148
+~ _$s16MediaMLExtension0A8MLWorkerV22cleanRawCellDataFromDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY5_ : 148 -> 152
+~ _$s16MediaMLExtension0A8MLWorkerV22cleanRawCellDataFromDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY6_ : 148 -> 152
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedWifiDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY0_ : 616 -> 620
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedWifiDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY2_ : 4108 -> 4112
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedWifiDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY10_ : 220 -> 224
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedWifiDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY11_ : 232 -> 236
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedWifiDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY12_ : 252 -> 256
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedWifiDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY13_ : 252 -> 256
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedWifiDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY14_ : 252 -> 256
+~ _$s16MediaMLExtension0A8MLWorkerV28checkAndPruneProcessedWifiDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY15_ : 252 -> 256
+~ _$s16MediaMLExtension0A8MLWorkerV20getRawWiFiDataFromDB33_981092F5866D74394B6898E35C682BBDLL07TabularH00H5FrameVyYaKFTY0_ : 584 -> 588
+~ _$s16MediaMLExtension0A8MLWorkerV20getRawWiFiDataFromDB33_981092F5866D74394B6898E35C682BBDLL07TabularH00H5FrameVyYaKFTY2_ : 144 -> 148
+~ _$s16MediaMLExtension0A8MLWorkerV20getRawWiFiDataFromDB33_981092F5866D74394B6898E35C682BBDLL07TabularH00H5FrameVyYaKFTY3_ : 188 -> 192
+~ _$s16MediaMLExtension0A8MLWorkerV30getAndSavePreProcessedWifiData9dataFrame07TabularJ00jL0VAH_tYaKFTY0_ : 18216 -> 18220
+~ _$s16MediaMLExtension0A8MLWorkerV30getAndSavePreProcessedWifiData9dataFrame07TabularJ00jL0VAH_tYaKFTY4_ : 3056 -> 3060
+~ _$s16MediaMLExtension0A8MLWorkerV30getAndSavePreProcessedWifiData9dataFrame07TabularJ00jL0VAH_tYaKFTY5_ : 1056 -> 1060
+~ _$s16MediaMLExtension0A8MLWorkerV30getAndSavePreProcessedWifiData9dataFrame07TabularJ00jL0VAH_tYaKFTY6_ : 604 -> 608
+~ _$s16MediaMLExtension0A8MLWorkerV22cleanRawWiFiDataFromDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY0_ : 584 -> 588
+~ _$s16MediaMLExtension0A8MLWorkerV22cleanRawWiFiDataFromDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY4_ : 144 -> 148
+~ _$s16MediaMLExtension0A8MLWorkerV22cleanRawWiFiDataFromDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY5_ : 148 -> 152
+~ _$s16MediaMLExtension0A8MLWorkerV22cleanRawWiFiDataFromDB33_981092F5866D74394B6898E35C682BBDLLyyYaKFTY6_ : 148 -> 152
+~ _$s16MediaMLExtension0A8MLWorkerV18saveModelStatsToDB05modelF0y0A2ML0eF0V_tYaKFTY0_ : 620 -> 624
+~ _$s16MediaMLExtension0A8MLWorkerV18saveModelStatsToDB05modelF0y0A2ML0eF0V_tYaKFTY2_ : 148 -> 152
+~ _$s16MediaMLExtension0A8MLWorkerV18saveModelStatsToDB05modelF0y0A2ML0eF0V_tYaKFTY3_ : 156 -> 160
+~ _$s16MediaMLExtension0A8MLWorkerV30deletePreviousModelStatsFromDB05modelG0y0A2ML0fG0V_tYaKFTY0_ : 916 -> 920
+~ _$s16MediaMLExtension0A8MLWorkerV30deletePreviousModelStatsFromDB05modelG0y0A2ML0fG0V_tYaKFTY2_ : 148 -> 152
+~ _$s16MediaMLExtension0A8MLWorkerV30deletePreviousModelStatsFromDB05modelG0y0A2ML0fG0V_tYaKFTY3_ : 156 -> 160
+~ _$s16MediaMLExtension0A8MLWorkerV29saveWiFiDataStandardDeviationyyYaKFTY0_ : 860 -> 864
+~ _$s16MediaMLExtension0A8MLWorkerV29saveWiFiDataStandardDeviationyyYaKFTY2_ : 10832 -> 10840
+~ _$s16MediaMLExtension0A8MLWorkerV29saveWiFiDataStandardDeviationyyYaKFTY4_ : 9012 -> 9016
+~ _$s16MediaMLExtension0A8MLWorkerV29saveWiFiDataStandardDeviationyyYaKFTY5_ : 384 -> 388
+~ _$s16MediaMLExtension0A8MLWorkerV29saveWiFiDataStandardDeviationyyYaKFTY6_ : 788 -> 792
+~ _$s16MediaMLExtension0A8MLWorkerV26deletePreviousWiFiStdDevDB10modelStatsy0A2ML05ModelL0V_tYaKFTY0_ : 820 -> 824
+~ _$s16MediaMLExtension0A8MLWorkerV26deletePreviousWiFiStdDevDB10modelStatsy0A2ML05ModelL0V_tYaKFTY2_ : 148 -> 152
+~ _$s16MediaMLExtension0A8MLWorkerV26deletePreviousWiFiStdDevDB10modelStatsy0A2ML05ModelL0V_tYaKFTY3_ : 156 -> 160
+~ _$s16MediaMLExtension0A8MLWorkerV29saveCellDataStandardDeviation9dataFramey07TabularF00fJ0V_tYaKFTY0_ : 12588 -> 12596
+~ _$s16MediaMLExtension0A8MLWorkerV29saveCellDataStandardDeviation9dataFramey07TabularF00fJ0V_tYaKFTY2_ : 10260 -> 10264
+~ _$s16MediaMLExtension0A8MLWorkerV29saveCellDataStandardDeviation9dataFramey07TabularF00fJ0V_tYaKFTY3_ : 912 -> 916
+~ _$s16MediaMLExtension0A8MLWorkerV26deletePreviousCellStdDevDB10modelStatsy0A2ML05ModelK0V_tYaKFTY0_ : 820 -> 824
+~ _$s16MediaMLExtension0A8MLWorkerV26deletePreviousCellStdDevDB10modelStatsy0A2ML05ModelK0V_tYaKFTY2_ : 148 -> 152
+~ _$s16MediaMLExtension0A8MLWorkerV26deletePreviousCellStdDevDB10modelStatsy0A2ML05ModelK0V_tYaKFTY3_ : 156 -> 160
+~ _$s16MediaMLExtension0A8MLWorkerV26getProcessedCellDataFromDB07TabularG00G5FrameVyYaKFTY0_ : 584 -> 588
+~ _$s16MediaMLExtension0A8MLWorkerV26getProcessedCellDataFromDB07TabularG00G5FrameVyYaKFTY2_ : 144 -> 148
+~ _$s16MediaMLExtension0A8MLWorkerV26getProcessedCellDataFromDB07TabularG00G5FrameVyYaKFTY3_ : 188 -> 192
+~ _$s16MediaMLExtension0A8MLWorkerV26getProcessedWiFiDataFromDB33_981092F5866D74394B6898E35C682BBDLL07TabularH00H5FrameVyYaKFTY0_ : 584 -> 588
+~ _$s16MediaMLExtension0A8MLWorkerV26getProcessedWiFiDataFromDB33_981092F5866D74394B6898E35C682BBDLL07TabularH00H5FrameVyYaKFTY2_ : 144 -> 148
+~ _$s16MediaMLExtension0A8MLWorkerV26getProcessedWiFiDataFromDB33_981092F5866D74394B6898E35C682BBDLL07TabularH00H5FrameVyYaKFTY3_ : 188 -> 192
+~ _$s16MediaMLExtension0A8MLWorkerV28getWiFiDataStandardDeviation33_981092F5866D74394B6898E35C682BBDLL07TabularG00G5FrameVyYaKFTY0_ : 584 -> 588
+~ _$s16MediaMLExtension0A8MLWorkerV28getWiFiDataStandardDeviation33_981092F5866D74394B6898E35C682BBDLL07TabularG00G5FrameVyYaKFTY2_ : 144 -> 148
+~ _$s16MediaMLExtension0A8MLWorkerV28getWiFiDataStandardDeviation33_981092F5866D74394B6898E35C682BBDLL07TabularG00G5FrameVyYaKFTY3_ : 188 -> 192
+~ _$s16MediaMLExtension0A8MLWorkerV20LighthouseBackground15MLHostExtensionAadEP9shouldRun7contextAD0F6ResultCAD0fG7ContextC_tYaFTWTQ0_ : 264 -> 268
+~ _$s16MediaMLExtension0A8MLWorkerV20LighthouseBackground15MLHostExtensionAadEP6doWork7contextAD0F6ResultCAD0fG7ContextC_tYaFTWTQ0_ : 264 -> 268
+~ _$s16MediaMLExtension0A8MLWorkerV20LighthouseBackground15MLHostExtensionAadEP10loadConfig7contextAD0F10ParametersVyqd__GSgAD0fG7ContextC_tYaSeRd__SERd__lFTWTQ0_ : 256 -> 260
+~ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRTQ0_ : 260 -> 264
+~ _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_yyYacfU0_TATQ0_ : 256 -> 260
+~ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRTATQ0_ : 256 -> 260
+~ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRTA.531TQ0_ : 256 -> 260
+```

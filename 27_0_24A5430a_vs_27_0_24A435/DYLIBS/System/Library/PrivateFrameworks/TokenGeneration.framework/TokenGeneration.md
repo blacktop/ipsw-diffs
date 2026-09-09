@@ -1,0 +1,28 @@
+## TokenGeneration
+
+> `/System/Library/PrivateFrameworks/TokenGeneration.framework/TokenGeneration`
+
+```diff
+
+ 301.6.0.5.102
+-  __TEXT.__text: 0x154c64
++  __TEXT.__text: 0x154a7c
+   __TEXT.__objc_methlist: 0x104
+   __TEXT.__const: 0xa940
+   __TEXT.__swift5_typeref: 0x3319
+Functions:
+~ _$s15TokenGeneration19ModelManagerSessionV13configurationAcA0E13ConfigurationV_tcfCTf4nd_n : 6864 -> 6820
+~ _$s9PromptKit31GenerativeConfigurationProtocolP0C6ModelsE18samplingParameters15TokenGeneration08SamplingH0VSgvg : 2596 -> 2600
+~ _$s9PromptKit31GenerativeConfigurationProtocolP0C6ModelsE7grammarSSSgvgTm : 1668 -> 1672
+~ _$ss17_NativeDictionaryV4copyyyFSS_19TokenGenerationCore18PromptTemplateInfoV19RichVariableBindingVTg5Tm : 644 -> 652
+~ _$s15TokenGeneration25TemplateOverrideConverterO27richVariableBindingsFilling33_A0DC35A8846644F872318E44A8B14F8DLL22originalPromptSegments0r4RichgH012targetString015proposedBindingG5Spans015currentProposedG9SpanIndex012currentBoundg10ToReplacedW0SDySS0aB4Core0sC4InfoV0ugY0VGSgSayAC7SegmentAELLOG_AQSSSayAC08ProposedyG4SpanVGSiSDyS2SGtFZ : 2120 -> 2116
+~ _$s15TokenGeneration25TemplateOverrideConverterO31finalFilledRichVariableBindings33_A0DC35A8846644F872318E44A8B14F8DLL08originalhiJ005boundI16ToReplacedStringSDySS0aB4Core06PromptC4InfoV0hI7BindingVGAM_SDyS2SGtFZ : 3448 -> 3452
+~ _$s9PromptKit31GenerativeConfigurationProtocolP0C6ModelsE10draftCacheSaySSGSgvg : 1784 -> 1788
+~ _$sSr15_stableSortImpl2byySbx_xtKXE_tKFySryxGz_SiztKXEfU_15TokenGeneration6PromptV0eF16NonStringContentO_Tg5 : 1920 -> 1996
+~ _$ss10_NativeSetV11subtractingyAByxGqd__7ElementQyd__RszSTRd__lF15TokenGeneration16ModelCatalogStubV8AssetKeyV_ShyAKGTg5 : 1352 -> 1368
+~ _$s15TokenGeneration0aB5ErrorOyACSg20ModelManagerServices09InferenceC0OcfC : 12900 -> 12324
+~ _$s15TokenGeneration0A9GeneratorC8register9documentsSayQrGSay26GenerativeModelsFoundation16DocumentResourceVG_tF : 7252 -> 7256
+~ _$s15TokenGeneration0A9GeneratorC8complete6prompt10parameters5tools10toolChoice20requestConfigurationAA0A6StreamVySSG9PromptKit0M7RequestV_AA18SamplingParametersVSay29GenerativeFunctionsFoundation7Tooling_pGAR04ToolI0VSgAA0oK0VSgtKF : 3100 -> 3108
+~ _$ss17_NativeDictionaryV4copyyyFSS_So13OS_xpc_object_pTg5 : 360 -> 364
+~ _$ss17_NativeDictionaryV4copyyyFSS_SiTg5 : 352 -> 356
+```

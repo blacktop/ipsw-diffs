@@ -1,0 +1,22 @@
+## CoreAudioGraphComponent
+
+> `/System/ExclaveKit/System/Library/PrivateFrameworks/CoreAudioGraphComponent.framework/CoreAudioGraphComponent`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__const`
+- `__DATA.__data`
+
+```diff
+
+ 95.0.0.0.0
+-  __TEXT.__text: 0xb218
++  __TEXT.__text: 0xb220
+   __TEXT.__auth_stubs: 0x590
+   __TEXT.__const: 0x268
+   __TEXT.__gcc_except_tab: 0xec
+Functions:
+~ ___ZN18DeviceArrayHelpers30initializeServiceArrayWithCopyI16GraphDeviceEntry44coreaudiodevice_coreaudiodeviceioservice_v_s42coreaudiodevice_coreaudiodeviceioservice_s7u32_v_s46coreaudiobasetypes_coreaudiodeviceidentifier_sPFvPKS2_U13block_pointerFvmPKS3_EEPFmS7_EPFvPKS4_U13block_pointerFvmjEEPFmSH_EZN21CoreAudioGraphExclave4initES7_SH_PK44coreaudioclient_coreaudioclientioservice_v_sSH_PK24sharedmemory_segaccess_sE3$_0EEbPKT0_PKT2_RNS_12ArrayContextIT_EET4_T5_T6_T7_T8__block_invoke.40 : 80 -> 84
+~ ___ZN18DeviceArrayHelpers30initializeServiceArrayWithCopyI16GraphClientEntry44coreaudioclient_coreaudioclientioservice_v_s42coreaudioclient_coreaudioclientioservice_s7u32_v_s51coreaudiobasetypes_coreaudiographclientidentifier_sPFvPKS2_U13block_pointerFvmPKS3_EEPFmS7_EPFvPKS4_U13block_pointerFvmjEEPFmSH_EZN21CoreAudioGraphExclave4initEPK44coreaudiodevice_coreaudiodeviceioservice_v_sSH_S7_SH_PK24sharedmemory_segaccess_sE3$_1EEbPKT0_PKT2_RNS_12ArrayContextIT_EET4_T5_T6_T7_T8__block_invoke.48 : 80 -> 84
+```

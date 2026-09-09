@@ -1,0 +1,34 @@
+## MenstrualAlgorithmsInternal
+
+> `/System/Library/PrivateFrameworks/MenstrualAlgorithmsInternal.framework/MenstrualAlgorithmsInternal`
+
+```diff
+
+ 151.0.0.0.0
+-  __TEXT.__text: 0x615d8
++  __TEXT.__text: 0x61654
+   __TEXT.__objc_methlist: 0x1258
+   __TEXT.__const: 0x14fc
+   __TEXT.__gcc_except_tab: 0x4590
+Functions:
+~ __ZNSt3__16vectorIdNS_9allocatorIdEEE18__insert_with_sizeB9fqn220106INS_17_ClassicAlgPolicyENS_11__wrap_iterIPfEES8_EENS6_IPdEENS6_IPKdEET0_T1_l : 548 -> 568
+~ __ZNSt3__110__function6__funcIMN11Nightingale31wristTemperatureInputValidation31wristTemperatureInputCheckItemsEFNS_4pairIbfEERKNS_6vectorIfNS_9allocatorIfEEEEifEFS6_RS4_SC_ifEEclESF_SC_OiOf : 52 -> 56
+~ __ZNSt3__16vectorIfNS_9allocatorIfEEE18__insert_with_sizeB9fqn220106INS_17_ClassicAlgPolicyENS_11__wrap_iterIPKfEES9_EENS6_IPfEES9_T0_T1_l : 516 -> 532
+~ __ZNSt3__16vectorIbNS_9allocatorIbEEE18__construct_at_endINS_11__wrap_iterIPKiEES8_EEvT_T0_m : 192 -> 200
+~ __ZN11Nightingale31preprocess_all_temperature_dataERKNS_17lunaExtractedDataE : 704 -> 700
+~ __ZN11Nightingale41prepare_temperature_input_slice_for_kdaysENSt3__16vectorIiNS0_9allocatorIiEEEEiRNS_17lunaExtractedDataE : 1280 -> 1284
+~ __ZN11Nightingale21slidingWindowBaseLuna33accumulateFailureReasonOverSlicesEb : 576 -> 580
+~ __ZNSt3__16vectorIbNS_9allocatorIbEEE12emplace_backB9fqn220106IJRbEEENS_15__bit_referenceIS3_Lb1EEEDpOT_ : 92 -> 96
+~ __ZN11Nightingale15fwEstimatorLuna24updateAvailabilityKaliCAENSt3__16vectorIbNS1_9allocatorIbEEEES5_S5_RNS_23lunaFwDayStreamCAStructE : 312 -> 324
+~ __ZNSt3__16vectorINS_8optionalIfEENS_9allocatorIS2_EEE6assignEmRKS2_ : 268 -> 264
+~ __ZN11Nightingale28wristTemperatureInputProcess42constructVectorOfSlicesFromMultipleWatchesERNS_20extractKaliInputsRtnEiii : 1288 -> 1284
+~ __ZNSt3__16vectorIfNS_9allocatorIfEEE18__insert_with_sizeB9fqn220106INS_17_ClassicAlgPolicyENS_11__wrap_iterIPfEES8_EES8_NS6_IPKfEET0_T1_l : 492 -> 508
+~ __ZNSt3__16vectorIPKcNS_9allocatorIS2_EEE6resizeEm : 284 -> 288
+~ __ZNSt3__16vectorI21bnns_graph_argument_tNS_9allocatorIS1_EEE6resizeEm : 284 -> 288
+~ __ZNSt3__16vectorIPKcNS_9allocatorIS2_EEE18__insert_with_sizeB9fqn220106INS_17_ClassicAlgPolicyENS_11__wrap_iterIPKS2_EESB_EENS8_IPS2_EESB_T0_T1_l : 516 -> 532
+~ __ZNSt3__16vectorIfNS_9allocatorIfEEE6resizeEm : 284 -> 288
+~ __ZNSt3__114__split_bufferIN11Nightingale5PhaseERNS_9allocatorIS2_EEE12emplace_backIJRKS2_EEEvDpOT_ : 264 -> 268
+~ __ZN11Nightingale22ngt_DayStreamProcessor13compute_statsENSt3__16vectorINS_9cycleInfoENS1_9allocatorIS3_EEEERNS_10ngt_ConfigERNS1_4pairINS2_IiNS4_IiEEEENS2_INS_8PhaseSetENS4_ISC_EEEEEEb : 1384 -> 1388
+~ __ZN8nlohmann6detail9dtoa_impl36get_cached_power_for_binary_exponentEi : 184 -> 188
+~ __ZN8nlohmann6detail5lexerINS_10basic_jsonINSt3__13mapENS3_6vectorENS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEbxydS9_NS_14adl_serializerENS5_IhNS9_IhEEEEEENS0_22iterator_input_adapterIPKcEEE18next_byte_in_rangeESt16initializer_listIiE.cold.1 : 156 -> 164
+```

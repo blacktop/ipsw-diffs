@@ -1,0 +1,38 @@
+## PhotosUICore
+
+> `FileSystem/System/Library/PrivateFrameworks/PhotosUICore.framework/PhotosUICoreProvenance.loctable`
+
+```text
+en.PICKER_OPTIONS_VIEW_SECTION_METADATA_STRIPPING_PROVENANCE_TOGGLE = "Reference"
+en.PROVENANCE_ALERT_ELIGIBILITY_MESSAGE = "Processing reference images is unavailable in your country or region."
+en.PROVENANCE_ALERT_ELIGIBILITY_TITLE = "Unable to Process Reference Image"
+en.PROVENANCE_ALERT_FATAL_MESSAGE = "You can no longer process this image."
+en.PROVENANCE_ALERT_FATAL_TITLE = "Reference Image Data Unavailable"
+en.PROVENANCE_ALERT_TRANSIENT_MESSAGE = "This reference image cannot be processed at this time. Try again later."
+en.PROVENANCE_ALERT_TRANSIENT_TITLE = "Unable to Process Reference Image"
+en.PROVENANCE_COMPARE_COACHING_HINT = "Tap image to compare"
+en.PROVENANCE_FAILED_TO_DECODE_IMAGE = "Failed to decode reference image"
+en.PROVENANCE_IMAGE_SOURCE_TITLE = "Reference Image"
+en.PROVENANCE_INFO_BUTTON = "Info"
+en.PROVENANCE_INFO_TITLE = "Reference Image Data"
+en.PROVENANCE_METADATA_APERTURE = "Aperture"
+en.PROVENANCE_METADATA_CAPTURE_DATE = "Capture Date"
+en.PROVENANCE_METADATA_CAPTURE_TIME = "Capture Time"
+en.PROVENANCE_METADATA_DEVICE_MAKE = "Device Make"
+en.PROVENANCE_METADATA_DEVICE_MODEL = "Device Model"
+en.PROVENANCE_METADATA_DIMENSIONS = "Dimensions"
+en.PROVENANCE_METADATA_FOCAL_LENGTH = "Focal Length"
+en.PROVENANCE_METADATA_HEADER_SUBTITLE = "Original Capture by iPhone Sensor"
+en.PROVENANCE_METADATA_HEADER_TITLE = "Reference Image Data"
+en.PROVENANCE_METADATA_ISO_SPEED = "ISO Speed"
+en.PROVENANCE_METADATA_LENS = "Lens"
+en.PROVENANCE_METADATA_SHUTTER_SPEED = "Shutter Speed"
+en.PROVENANCE_NO_DATA_MESSAGE = "This image does not contain reference image data."
+en.PROVENANCE_ORIGINAL_SENSOR_CAPTURE = "Original Sensor Capture"
+en.PROVENANCE_SHOW_PHOTO = "Show Photo"
+en.PROVENANCE_SUBTITLE_PHOTO = "PHOTO"
+en.PROVENANCE_SUBTITLE_REFERENCE_IMAGE = "REFERENCE IMAGE"
+en.PROVENANCE_VIEW_PHOTO = "View Photo"
+en.PROVENANCE_VIEW_REFERENCE_IMAGE = "View Reference Image"
+en.PXMetadataSharingOptionsProvenanceButtonTitle = "Reference Image"
+```

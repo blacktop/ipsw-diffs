@@ -1,0 +1,19 @@
+## HomeAutomationUIFramework
+
+> `/System/Library/PrivateFrameworks/HomeAutomationUIFramework.framework/HomeAutomationUIFramework`
+
+```text
+Functions:
+~ _OUTLINED_FUNCTION_28 : 24 -> 12
+~ _OUTLINED_FUNCTION_31 : 12 -> 24
+~ _OUTLINED_FUNCTION_8 : 24 -> 28
+~ _OUTLINED_FUNCTION_9 : 16 -> 24
+~ _OUTLINED_FUNCTION_10 : 20 -> 16
+~ _OUTLINED_FUNCTION_11 : 16 -> 20
+~ _OUTLINED_FUNCTION_13 -> _OUTLINED_FUNCTION_12 : 28 -> 16
+~ _OUTLINED_FUNCTION_19 -> _OUTLINED_FUNCTION_18 : 28 -> 20
+~ _OUTLINED_FUNCTION_20 : 20 -> 28
+~ _OUTLINED_FUNCTION_22 : 36 -> 20
+~ _OUTLINED_FUNCTION_23 : 24 -> 36
+~ _OUTLINED_FUNCTION_25 : 20 -> 24
+```

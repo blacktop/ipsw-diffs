@@ -1,0 +1,38 @@
+## RealityFusion
+
+> `/System/Library/PrivateFrameworks/RealityFusion.framework/RealityFusion`
+
+```diff
+
+ 453.2.1.0.0
+-  __TEXT.__text: 0xb15d0
++  __TEXT.__text: 0xb1650
+   __TEXT.__objc_methlist: 0x35c
+   __TEXT.__const: 0x93c0
+   __TEXT.__cstring: 0x40e5
+Functions:
+~ __ZNSt3__15dequeINS_4pairIiiEENS_9allocatorIS2_EEE9push_backEOS2_ : 1124 -> 1136
+~ __ZNSt3__114__split_bufferIPNS_4pairIiiEENS_9allocatorIS3_EEE12emplace_backIJRS3_EEEvDpOT_ : 248 -> 252
+~ __ZNSt3__16vectorItNS_9allocatorItEEE24__emplace_back_slow_pathIJRjEEEPtDpOT_ : 180 -> 172
+~ __ZNSt3__114__split_bufferIPP8REEntityNS_9allocatorIS3_EEE12emplace_backIJS3_EEEvDpOT_ : 256 -> 260
+~ __ZNSt3__114__split_bufferIPP8REEntityRNS_9allocatorIS3_EEE12emplace_backIJS3_EEEvDpOT_ : 256 -> 260
+~ __ZN2rf9data_flow8consumer17EntitiesProcessor25updateMeshEntitiesInSceneEP7RESceneRKNSt3__113unordered_mapINS0_6RFUUIDENS5_10shared_ptrINS1_4MeshEEENS7_4HashENS7_8EqualityENS5_9allocatorINS5_4pairIKS7_SA_EEEEEE : 580 -> 584
+~ __ZN2rf9data_flow8consumer17EntitiesProcessor27removeMeshEntitiesFromSceneEP7RESceneRKNSt3__113unordered_mapINS0_6RFUUIDENS5_10shared_ptrINS1_4MeshEEENS7_4HashENS7_8EqualityENS5_9allocatorINS5_4pairIKS7_SA_EEEEEE : 328 -> 332
+~ __ZN2rf9data_flow8consumer20VFXCollisionConsumer19consumeLatestUpdateERKNS_15ConsumerRequestE : 6164 -> 6124
+~ __ZNSt3__15dequeIN2rf9data_flow8provider9InputDataENS_9allocatorIS4_EEED2B9fqe220106Ev : 324 -> 328
+~ __ZNSt3__15dequeIN2rf9data_flow8provider9InputDataENS_9allocatorIS4_EEE19__add_back_capacityEv : 1104 -> 1116
+~ __ZN2rf6detail38createGeomModelDescriptorFromInputMeshERKNS_9data_flow8provider9InputMeshERKNS_20MeshProcessingParamsE : 1712 -> 1720
+~ __ZN2rf9data_flow8consumer9OpenSkyV215getMeshBoundaryERKNS0_8RoomMeshE : 3244 -> 3260
+~ __ZN2rf9data_flow8consumer9OpenSkyV212insetPolygonEP26OS_geom_inset_evaluator_2ff : 2208 -> 2212
+~ __ZNSt3__16vectorIjNS_9allocatorIjEEE6resizeEm : 284 -> 288
+~ __ZN3geo4math45ConstrainedDelaunayTriangulationMesherDetails36ReshuffleIndicesAndUpdateConstraintsERKNSt3__16vectorINS3_ImNS2_9allocatorImEEEENS4_IS6_EEEERNS3_INS3_INS0_6MatrixIjLi2ELi1EEENS4_ISC_EEEENS4_ISE_EEEE : 1368 -> 1372
+~ __ZN3geo4math45ConstrainedDelaunayTriangulationMesherDetails23ClearSpaceByConstraintsERKNSt3__16vectorINS3_INS0_6MatrixIjLi2ELi1EEENS2_9allocatorIS5_EEEENS6_IS8_EEEE : 1304 -> 1296
+~ __ZNSt3__16vectorIN2re7Vector3IfEENS_9allocatorIS3_EEE18__insert_with_sizeB9fqe220106INS_17_ClassicAlgPolicyENS_11__wrap_iterIPKS3_EESC_EENS9_IPS3_EESC_T0_T1_l : 576 -> 592
+~ __ZNSt3__16vectorIfNS_9allocatorIfEEE18__insert_with_sizeB9fqe220106INS_17_ClassicAlgPolicyENS_11__wrap_iterIPKfEES9_EENS6_IPfEES9_T0_T1_l : 576 -> 592
+~ __ZN2rf9synthetic21SyntheticUsdKitParser21addMeshFromUpdateMeshERKNSt3__110shared_ptrINS_9data_flow8consumer4MeshEEERKN2re9Matrix4x4IfEERKNS0_22SceneUnderstandingTypeE : 1828 -> 1836
+~ __ZNK2rf9data_flow8consumer26MeshReconstructionConsumer14getBoundingBoxEP7RESceneNS1_20BoundingBoxQueryTypeE : 396 -> 412
+~ __ZNSt3__16vectorIbNS_9allocatorIbEEE6resizeEmb : 244 -> 248
+~ -[RFARSessionObserver .cxx_destruct] : 388 -> 392
+~ __ZN2rf9data_flow8consumer28SyntheticEnvironmentConsumer19consumeLatestUpdateERKNS_15ConsumerRequestE : 4208 -> 4232
+~ __ZNSt3__15dequeIN2rf9data_flow8consumer28SyntheticEnvironmentConsumer9OperationENS_9allocatorIS5_EEE19__add_back_capacityEv : 1104 -> 1116
+```

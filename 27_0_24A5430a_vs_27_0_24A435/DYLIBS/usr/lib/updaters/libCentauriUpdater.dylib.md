@@ -1,0 +1,23 @@
+## libCentauriUpdater.dylib
+
+> `/usr/lib/updaters/libCentauriUpdater.dylib`
+
+```diff
+
+ 80.0.0.0.0
+-  __TEXT.__text: 0x229f0
++  __TEXT.__text: 0x22a44
+   __TEXT.__const: 0x590
+   __TEXT.__gcc_except_tab: 0x1adc
+   __TEXT.__cstring: 0x5681
+Functions:
+~ __ZN17CentauriTransport14parseCrashlogsEPK9__CFArray : 6640 -> 6688
+~ __ZNSt3__13mapIN17CentauriTransport8BootModeENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS2_EENS6_INS_4pairIKS2_S8_EEEEEC2B9nqe220106ESt16initializer_listISD_ERKSA_ : 84 -> 88
+~ __ZNSt3__13mapIN17CentauriTransport8BootModeEPK10__CFStringNS_4lessIS2_EENS_9allocatorINS_4pairIKS2_S5_EEEEEC2B9nqe220106ESt16initializer_listISB_ERKS7_ : 84 -> 88
+~ __ZNSt3__13mapIN17CentauriTransport8BootModeENS1_9BootFlagsENS_4lessIS2_EENS_9allocatorINS_4pairIKS2_S3_EEEEEC2B9nqe220106ESt16initializer_listIS9_ERKS5_ : 84 -> 88
+~ __ZNSt3__13mapIN17CentauriTransport8PlatformENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS2_EENS6_INS_4pairIKS2_S8_EEEEEC2B9nqe220106ESt16initializer_listISD_ERKSA_ : 84 -> 88
+~ __ZNSt3__13mapI24airship_ch_boot_stage_idNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS1_EENS5_INS_4pairIKS1_S7_EEEEEC2B9nqe220106ESt16initializer_listISC_ERKS9_ : 84 -> 88
+~ __ZNSt3__13mapIPK10__CFStringNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS3_EENS7_INS_4pairIKS3_S9_EEEEEC2B9nqe220106ESt16initializer_listISE_ERKSB_ : 84 -> 88
+~ __ZNSt3__16vectorIbNS_9allocatorIbEEE18__construct_at_endIPKbS6_EEvT_T0_m : 208 -> 216
+~ __ZNSt3__13mapIN16CentauriPlatform21ThunderboltIdentifierENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS2_EENS6_INS_4pairIKS2_S8_EEEEEC2B9nqe220106ESt16initializer_listISD_ERKSA_ : 84 -> 88
+```

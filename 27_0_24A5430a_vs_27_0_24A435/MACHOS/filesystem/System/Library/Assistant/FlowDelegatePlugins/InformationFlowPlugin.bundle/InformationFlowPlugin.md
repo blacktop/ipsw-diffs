@@ -1,0 +1,44 @@
+## InformationFlowPlugin
+
+> `/System/Library/Assistant/FlowDelegatePlugins/InformationFlowPlugin.bundle/InformationFlowPlugin`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__const`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__unwind_info`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
+```diff
+
+ 3600.38.8.11.2
+-  __TEXT.__text: 0xb8554
++  __TEXT.__text: 0xb8570
+   __TEXT.__auth_stubs: 0x4ef0
+   __TEXT.__objc_stubs: 0x2420
+   __TEXT.__objc_methlist: 0x26c
+Functions:
+~ _$s11SiriKitFlow5ParseO16DirectInvocationV011InformationC6PluginE3get12protoMessagexSgSS_t21InternalSwiftProtobuf0K0RzlF : 1448 -> 1452
+~ _$s21InformationFlowPlugin0a7RoutingB0C7execute07SiriKitB015ExecuteResponseVyYaFTY0_ : 16612 -> 16624
+~ _$ss20_ArrayBufferProtocolPsE15replaceSubrange_4with10elementsOfySnySiG_Siqd__ntSlRd__7ElementQyd__AGRtzlFs01_aB0VySo9SAAceViewCG_s010CollectionH3OneVyAMGTg5Tf4nngn_n : 380 -> 392
+~ _$s21InformationFlowPlugin012ShimOverrideB0C7execute07SiriKitB015ExecuteResponseVyYaFTY0_ : 2204 -> 2208
+~ _$s11SiriKitFlow5ParseO16DirectInvocationV011InformationC6PluginE3get12protoMessagexSgSS_t21InternalSwiftProtobuf0K0RzlF10PegasusAPI49Apple_Parsec_Responseframework_Engagement_ContextV_Tg5 : 1612 -> 1616
+~ _$s11SiriKitFlow5ParseO16DirectInvocationV011InformationC6PluginE3get12protoMessagexSgSS_t21InternalSwiftProtobuf0K0RzlF10PegasusAPI020Apple_Parsec_Search_O12QueryContextV_Tg5 : 1612 -> 1616
+~ _$ss17_dictionaryUpCastySDyq0_q1_GSDyxq_GSHRzSHR0_r2_lFSS_yps11AnyHashableVypTg5 : 680 -> 684
+~ _$sSTsE7flatMapySay7ElementQyd__Gqd__ABQzKXEKSTRd__lFSay10PegasusAPI48Apple_Parsec_Siri_V2alpha_DelayedActionComponentVG_SaySo13SABaseCommandCGTg5027$s21InformationFlowPlugin14n79FactoryO12makeCommands15directExecution14delayedActions15sayItComponentsSaySo06m6D0CG10d6API032f1_g1_h1_i9_DirectI9l4VSg_z16AK0r1_s1_t1_u14_jK50W0VGSayAK0r1_s1_t1_u4_SaymW0VGtFZAJyXEfU0_AjPXEfU_0pQ6Plugin0nS0OXMtTf1cn_nTf4nd_n : 808 -> 800
+~ _$sSTsE7flatMapySay7ElementQyd__Gqd__ABQzKXEKSTRd__lFSay10PegasusAPI40Apple_Parsec_Siri_V2alpha_SayItComponentVG_SaySo13SABaseCommandCGTg5027$s21InformationFlowPlugin14n60FactoryO12makeCommands15directExecution14delayedActions15sayk10Componentsj4So06m6D0CG10d6API032f1_g1_h1_i9_DirectI9l4VSg_J79AK0r1_s1_t1_u14_DelayedActionW0VGSayAK0r1_s1_t1_u4_SaymW0VGtFZAJyXEfU1_AjSXEfU_0pQ6Plugin0nS0OXMtTf1cn_nTf4nd_n : 804 -> 796
+~ _$ss17_NativeDictionaryV5merge_8isUnique16uniquingKeysWithyqd__n_Sbq_q__q_tqd_0_YKXEtqd_0_YKSTRd__s5ErrorRd_0_x_q_t7ElementRtd__r0_lFSS_yps15LazyMapSequenceVySDySSypGSS_yptGs5NeverOTg5 : 856 -> 860
+~ _$s21InformationFlowPlugin28GenericResultSetParamBuilderV9fieldName031_BB593D574238C550C15A1A156B8529O0LL3forSSSDySSypG_tFZTf4nd_n : 1036 -> 1040
+~ _$s21InformationFlowPlugin013RenderPegasusB0C028publishNoAppFoundOnCarPlayIfH10Restricted33_1DE1DC2A3963435D688422997C5C1ED6LL14delayedActions18disambiguationListSbSay0E3API48Apple_Parsec_Siri_V2alpha_DelayedActionComponentVG_SayAH040Apple_Parsec_Siri_V2alpha_DisambiguationY9ComponentVGtYaFTY0_ : 3832 -> 3824
+```

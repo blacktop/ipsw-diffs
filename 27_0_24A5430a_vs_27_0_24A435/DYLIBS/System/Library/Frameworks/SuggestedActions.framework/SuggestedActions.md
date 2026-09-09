@@ -1,0 +1,48 @@
+## SuggestedActions
+
+> `/System/Library/Frameworks/SuggestedActions.framework/SuggestedActions`
+
+```diff
+
+ 20.0.0.0.0
+-  __TEXT.__text: 0x540d0
++  __TEXT.__text: 0x540b0
+   __TEXT.__objc_methlist: 0x718
+   __TEXT.__const: 0x43c8
+   __TEXT.__constg_swiftt: 0x1538
+Functions:
+~ _OUTLINED_FUNCTION_9 -> _OUTLINED_FUNCTION_5 : 12 -> 20
+~ _OUTLINED_FUNCTION_7 : 20 -> 12
+~ sub_2c5cd28d8 -> sub_2c6bdd8d8 : 536 -> 524
+~ _OUTLINED_FUNCTION_24 : 24 -> 20
+~ _OUTLINED_FUNCTION_26 : 12 -> 24
+~ _OUTLINED_FUNCTION_28 : 20 -> 12
+~ _OUTLINED_FUNCTION_22 -> _OUTLINED_FUNCTION_25 : 28 -> 16
+~ _OUTLINED_FUNCTION_23 : 12 -> 28
+~ _OUTLINED_FUNCTION_24 : 28 -> 12
+~ _OUTLINED_FUNCTION_26 -> _OUTLINED_FUNCTION_25 : 24 -> 28
+~ _OUTLINED_FUNCTION_27 : 32 -> 24
+~ _OUTLINED_FUNCTION_31 : 24 -> 32
+~ _OUTLINED_FUNCTION_32 : 28 -> 24
+~ _OUTLINED_FUNCTION_34 : 24 -> 28
+~ _OUTLINED_FUNCTION_37 : 16 -> 24
+~ sub_2c5d0bde8 -> sub_2c6c16ddc : 220 -> 224
+~ sub_2c5d0bec4 -> sub_2c6c16ebc : 268 -> 264
+~ sub_2c5d0c5d4 -> sub_2c6c175c8 : 192 -> 188
+~ sub_2c5d0c694 -> sub_2c6c17684 : 240 -> 236
+~ _OUTLINED_FUNCTION_11 : 20 -> 16
+~ _OUTLINED_FUNCTION_12 : 28 -> 20
+~ _OUTLINED_FUNCTION_13 : 16 -> 28
+~ _OUTLINED_FUNCTION_14 : 16 -> 40
+~ _OUTLINED_FUNCTION_15 -> _OUTLINED_FUNCTION_18 : 40 -> 28
+~ _OUTLINED_FUNCTION_20 : 28 -> 12
+~ _OUTLINED_FUNCTION_21 -> _OUTLINED_FUNCTION_24 : 12 -> 32
+~ _OUTLINED_FUNCTION_26 : 32 -> 16
+~ _OUTLINED_FUNCTION_37 : 12 -> 24
+~ _OUTLINED_FUNCTION_40 : 24 -> 12
+~ _OUTLINED_FUNCTION_41 : 12 -> 24
+~ _OUTLINED_FUNCTION_43 : 24 -> 12
+~ _OUTLINED_FUNCTION_44 -> _OUTLINED_FUNCTION_45 : 12 -> 16
+~ sub_2c5d0d3f0 -> sub_2c6c183e0 : 264 -> 256
+~ sub_2c5d0d7dc -> sub_2c6c187c4 : 144 -> 136
+```

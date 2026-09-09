@@ -1,0 +1,25 @@
+## libBasebandCommandDriversMIPC.dylib
+
+> `/usr/lib/libBasebandCommandDriversMIPC.dylib`
+
+```diff
+
+ 1585.0.0.0.0
+-  __TEXT.__text: 0x83eb0
++  __TEXT.__text: 0x83f48
+   __TEXT.__init_offsets: 0x18
+   __TEXT.__const: 0xa3f0
+   __TEXT.__gcc_except_tab: 0x7598
+Functions:
+~ __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE6assignEmRKS4_ : 460 -> 476
+~ __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE6resizeEmRKS4_ : 396 -> 420
+~ __ZNSt3__16vectorINS_7__stateIcEENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJS2_EEEPS2_DpOT_ : 384 -> 380
+~ __ZNKSt3__16__loopIcE6__execERNS_7__stateIcEE : 636 -> 640
+~ __ZNKSt3__111basic_regexIcNS_12regex_traitsIcEEE29__match_at_start_posix_nosubsINS_9allocatorINS_9sub_matchIPKcEEEEEEbS8_S8_RNS_13match_resultsIS8_T_EENS_15regex_constants15match_flag_typeEb : 2280 -> 2292
+~ __ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEE19__add_back_capacityEv : 852 -> 872
+~ __ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEE20__add_front_capacityEv : 944 -> 964
+~ __ZNSt3__16vectorINS_9sub_matchINS_11__wrap_iterIPKcEEEENS_9allocatorIS6_EEE6resizeEm : 368 -> 388
+~ __ZNK5boost8signals26detail20slot_call_iterator_tINS1_21variadic_slot_invokerINS1_9void_typeEJN3ctu2cf11CFSharedRefIK14__CFDictionaryEEEEENSt3__115__list_iteratorINS_10shared_ptrINS1_15connection_bodyINSC_4pairINS1_15slot_meta_groupENS_8optionalIiEEEENS0_4slotIFvSA_ENS_8functionISM_EEEENS0_5mutexEEEEEPvEESR_E18lock_next_callableEv : 2648 -> 2672
+~ __ZN5boost8signals26detail21obj_scope_guard_impl2INS1_11auto_bufferINS_7variantINS_10shared_ptrIvEEJNS1_23foreign_void_shared_ptrEEEENS1_15store_n_objectsILj10EEENS1_19default_grow_policyENSt3__19allocatorIS8_EEEEMSF_FvPS8_mESG_mED2Ev : 104 -> 108
+~ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERNS_7greaterINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEPS8_Lb0EEEvT1_SC_T0_NS_15iterator_traitsISC_E15difference_typeEb : 4540 -> 4552
+```

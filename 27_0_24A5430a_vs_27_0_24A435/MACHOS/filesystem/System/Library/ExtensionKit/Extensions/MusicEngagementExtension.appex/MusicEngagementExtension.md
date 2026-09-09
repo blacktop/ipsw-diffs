@@ -1,0 +1,141 @@
+## MusicEngagementExtension
+
+> `/System/Library/ExtensionKit/Extensions/MusicEngagementExtension.appex/MusicEngagementExtension`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__const`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_entry`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
+```diff
+
+ 4026.110.1.0.0
+-  __TEXT.__text: 0x4f0d8c
++  __TEXT.__text: 0x4f0ebc
+   __TEXT.__auth_stubs: 0x9930
+   __TEXT.__objc_stubs: 0xcd80
+   __TEXT.__objc_methlist: 0x3d14
+
+   __TEXT.__swift5_protos: 0x128
+   __TEXT.__swift5_mpenum: 0x1b8
+   __TEXT.__ustring: 0xec
+-  __TEXT.__unwind_info: 0x10990
++  __TEXT.__unwind_info: 0x109a0
+   __TEXT.__eh_frame: 0x1672c
+   __DATA_CONST.__const: 0x32040
+   __DATA_CONST.__cfstring: 0x120
+
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+   Functions: 23988
+-  Symbols:   61115
++  Symbols:   61117
+   CStrings:  5309
+ 
+Symbols:
++ _$sSo13MGProductTypeaSQSCSQ2eeoiySbx_xtFZTW
++ _$sSo13MGProductTypeaSYSCSY8rawValue03RawD0QzvgTW
+Functions:
+~ _$s9MusicCore10ActionMenuC7ElementO8prioritySivg : 56 -> 52
+~ _$s9MusicCore10ActionMenuC7ElementO1loiySbAE_AEtFZ : 100 -> 108
+~ _$s9MusicCore10ActionMenuC7ElementOSLAASL1loiySbx_xtFZTW : 104 -> 112
+~ _$s9MusicCore10ActionMenuC7ElementOSLAASL2leoiySbx_xtFZTW : 104 -> 112
+~ _$s9MusicCore10ActionMenuC7ElementOSLAASL2geoiySbx_xtFZTW : 104 -> 112
+~ _$s9MusicCore10ActionMenuC7ElementOSLAASL1goiySbx_xtFZTW : 104 -> 112
+~ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtF10Foundation4UUIDV_So22UIViewPropertyAnimatorCTg5 : 992 -> 984
+~ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtF9MusicCore14PlaylistCoversO10ExpressionO_AH5CoverVTg5 : 892 -> 896
+~ _$ss17_NativeDictionaryV4copyyyFSS_s6UInt64VTg5 : 352 -> 356
+~ _$ss17_NativeDictionaryV4copyyyFSS_SDySSypGTg5 : 360 -> 364
+~ _$ss17_NativeDictionaryV4copyyyF10Foundation4UUIDV_ScS12ContinuationVySaySfG_GTg5 : 756 -> 760
+~ _$ss17_NativeDictionaryV4copyyyFSS_16MusicKitInternal13SocialProfileVTg5 : 648 -> 652
+~ _$sSr15_stableSortImpl2byySbx_xtKXE_tKFySryxGz_SiztKXEfU_9MusicCore10ActionMenuC7ElementO_Tg5 : 1560 -> 1544
+~ _$sSMsSKRzrlE14_insertionSort6within9sortedEnd2byySny5IndexSlQzG_AFSb7ElementSTQz_AItKXEtKFSry9MusicCore10ActionMenuCAHOG_Tg5 : 364 -> 368
+~ sub_100039c48 -> sub_100039c6c : 104 -> 112
+~ _$s9MusicCore26MetricsReportingControllerC9configure33_43E3623F5541D05F6592E97895C3268DLL4withySo8ICURLBagC_tF : 972 -> 976
+~ _$sSo22SSMetricsConfigurationC9MusicCoreE32fieldsRequiringReducedResolution33_454D93ACFCAA96576C6C60DBF83BAE57LLSaySSGSgvg : 744 -> 748
+~ _$s9MusicCore0A25_SSMetricsPageRenderEventC21setSamplingProperties33_454D93ACFCAA96576C6C60DBF83BAE57LL4with_ySo0C13ConfigurationCSg_yyctF03$s9a9Core0A25_cdef55C21setStandardProperties4with17completionHandlerySo0C13Q15CSg_yyctFyycfU_AcIIeg_Tf1nEn_n : 1316 -> 1324
+~ _$sSo21SSMetricsMutableEventC9MusicCoreE27setPropertiesForApplication33_454D93ACFCAA96576C6C60DBF83BAE57LL4with17completionHandlerySo0A13ConfigurationCSg_yyctFTf4dnn_n : 620 -> 628
+~ _$sSo21SSMetricsLoadURLEventC9MusicCoreE21setSamplingProperties33_454D93ACFCAA96576C6C60DBF83BAE57LL4with17completionHandlerySo0A13ConfigurationCSg_yyctF06$sSo21abc2C9de55E21setStandardProperties4with17completionHandlerySo0A13R15CSg_yyctFyycfU_AbJIeg_Tf1nEn_nTf4nnggg_n : 796 -> 808
+~ _$s9MusicCore0A30_SSMetricsComponentRenderEventC21setSamplingProperties33_454D93ACFCAA96576C6C60DBF83BAE57LL4with17completionHandlerySo0C13ConfigurationCSg_yyctF03$s9a9Core0A30_cdef55C21setStandardProperties4with17completionHandlerySo0C13S21CSg_yyctFyycfU_yycfU_AcJIeg_Tf1nEn_nTf4nnggg_n : 976 -> 984
+~ _$ss30_dictionaryDownCastConditionalySDyq0_q1_GSgSDyxq_GSHRzSHR0_r2_lFSS_ypSSSDySSypGTg5 : 580 -> 584
+~ _$sSo8ICURLBagC9MusicCoreE22islibraryImportEnabled33_3C92A9FA31E0FE3D8D536795352BB0D1LLSbSgvg : 588 -> 596
+~ _$sSo8ICURLBagC9MusicCoreE17tabConfigurations33_3C92A9FA31E0FE3D8D536795352BB0D1LL3for2inSayAC23ApplicationCapabilitiesV4TabsV13ConfigurationAELLVGAI17SubscriptionStateO_SDySSSaySDys11AnyHashableVypGGGSgtFZAMSgASXEfU_ : 476 -> 484
+~ _$sSo8ICURLBagC9MusicCoreE17tabConfigurations33_3C92A9FA31E0FE3D8D536795352BB0D1LL3for2inSayAC23ApplicationCapabilitiesV4TabsV13ConfigurationAELLVGAI17SubscriptionStateO_SDySSSaySDys11AnyHashableVypGGGSgtFZTf4nnd_n : 936 -> 940
+~ _$s9MusicCore22BackgroundFetchManagerCy10Foundation3URLVSgSScig : 352 -> 356
+~ _$s9MusicCore22BackgroundFetchManagerC3Bag33_08DD5E28D0935C2F126F38EC744BB8FFLLO19maximumTimeIntervalAA0F15ControlledValueVySdGvpZfiSdSgSo8ICURLBagCXEfU_ : 500 -> 508
+~ _$s9MusicCore22BackgroundFetchManagerC14updateURLCache5queue20onDidReceiveResponse10completionySo012OS_dispatch_H0C_ySo13ICURLResponseCSg_s5Error_pSgtcSgySaysAM_pGctFTf4nnnd_n : 3412 -> 3420
+~ _$s9MusicCore27BackgroundTaskConfiguration33_C5107C6093080E21BBD9EFF6A17F9EE2LLV29updateServerLandingPagesCacheADvpZfiSdSgSo8ICURLBagCXEfU_ : 432 -> 440
+~ _$sSo26MPMediaPickerConfigurationC9MusicCoreE20musicTypeIdentifiersSaySSGvg : 1280 -> 1284
+~ _$ss30_copySequenceToContiguousArrayys0dE0Vy7ElementQzGxSTRzlFs07FlattenB0VySaySaySSGGG_Tg5 : 536 -> 540
+~ _$sSo8ICURLBagC9MusicCoreEyxSo0A3Keyad_tcluig : 1120 -> 1124
+~ _$ss20_ArrayBufferProtocolPsE15replaceSubrange_4with10elementsOfySnySiG_Siqd__ntSlRd__7ElementQyd__AGRtzlFs01_aB0VySSG_s010CollectionH3OneVySSGTg5Tf4nngn_n : 312 -> 324
+~ _$ss20_ArrayBufferProtocolPsE15replaceSubrange_4with10elementsOfySnySiG_Siqd__ntSlRd__7ElementQyd__AGRtzlFs01_aB0VyySo22SSMetricsConfigurationCSg_yyctcG_s15EmptyCollectionVyyAN_yyctcGTg5Tf4nndn_n : 208 -> 212
+~ _$ss20_ArrayBufferProtocolPsE15replaceSubrange_4with10elementsOfySnySiG_Siqd__ntSlRd__7ElementQyd__AGRtzlFs01_aB0Vy9MusicCore11BagProviderC8ObserverCG_s15EmptyCollectionVyAPGTg5Tf4nndn_n : 256 -> 264
+~ _$ss20_ArrayBufferProtocolPsE15replaceSubrange_4with10elementsOfySnySiG_Siqd__ntSlRd__7ElementQyd__AGRtzlFs01_aB0VySo7CGPointVG_s15EmptyCollectionVyAMGTg5Tf4nndn_n : 168 -> 172
+~ _$s9MusicCore5GlissO10TransitionC7context3for0D7ContextQyd__Sgqd___tAC15CoordinatedViewRd__lF : 296 -> 300
+~ _$ss17_dictionaryUpCastySDyq0_q1_GSDyxq_GSHRzSHR0_r2_lFSS_yps11AnyHashableVypTg5 : 680 -> 684
+~ _$ss17_dictionaryUpCastySDyq0_q1_GSDyxq_GSHRzSHR0_r2_lFSS_Sbs11AnyHashableVypTg5 : 672 -> 676
+~ _$s10Foundation12NotificationV9MusicCoreE14keyboardHeight0D8Graphics7CGFloatVvg : 280 -> 284
+~ _$s9MusicCore24PushNotificationObserverC04loadC13Configuration33_5C1C26A04A82BCA536AC905390491108LLAC0cG0AELLOyYaFyScCyAGs5NeverOGXEfU_ySo8ICURLBagCcfU_ : 432 -> 436
+~ _$s9MusicCore18PlaybackControllerC4_add33_49A4F392108DD8BCF77701E27C865714LL_12identifiedBy5routeyAA0C16IntentDescriptorV_SSSo9MPAVRouteCSgtYaKFTY12_ : 6184 -> 6208
+~ _$s9MusicCore18PlaybackControllerC6engine_22didFailToPlayFirstItem9withErrorySo17MPCPlaybackEngineC_So8MPAVItemCSgs0M0_ptFyycfU_ : 5380 -> 5396
+~ _$s9MusicCore18PlaybackControllerC6engine_28didPauseForLeaseEndWithErrorySo17MPCPlaybackEngineC_s0L0_pSgtFTf4dnn_n : 1352 -> 1364
+~ _$sSo7NSErrorC9MusicCoreE19isInvalidRouteError33_031AD420BBF8BBF113A2662767DAC2BBLLSbvg : 908 -> 916
+~ _$sSo17MPCPlayerResponseC9MusicCoreE7perform_8issuance7optionsSaySo0A13CommandStatusCGSayAC6PlayerC0H0_pG_AK0H8IssuanceVAK0H7OptionsVtYaKFTf4nnxn_nTY0_ : 2204 -> 2196
+~ _$s9MusicCore22GroupActivitiesManagerC7session33_4D3C9D6548BB3147DD0F1D268040B2BFLL0cD00C7SessionCyAC8ActivityVGSgvWy10Foundation12NotificationVcfU4_ : 784 -> 788
+~ _$sSo8ICURLBagC9MusicCoreEyxSo0A3Keyad_tcluigSb_Tg5 : 956 -> 960
+~ _$sSo8ICURLBagC9MusicCoreEyxSo0A3Keyad_tcluigSS_Tg5 : 952 -> 956
+~ _$s9MusicCore0A22TabsDictionaryProviderC07initialaC29AfterConfiguringUpdateHandler33_798255D9FDA5AC20AFAC711078E2B0BDLL5using04tabsiJ0AC13ConfigurationAELLO06AMSBagT0VSo0U0C_ySDySSSaySDys11AnyHashableVypGGGSgctF : 2688 -> 2692
+~ _$s9MusicCore0A22TabsDictionaryProviderC07initialaC29AfterConfiguringUpdateHandler33_798255D9FDA5AC20AFAC711078E2B0BDLL5using04tabsiJ0AC13ConfigurationAELLO06AMSBagT0VSo0U0C_ySDySSSaySDys11AnyHashableVypGGGSgctFySDySSypGcfU_ : 900 -> 904
+~ _$s9MusicCore0A22TabsDictionaryProviderC07initialaC29AfterConfiguringUpdateHandler33_798255D9FDA5AC20AFAC711078E2B0BDLL5using04tabsiJ0AC13ConfigurationAELLO06AMSBagT0VSo0U0C_ySDySSSaySDys11AnyHashableVypGGGSgctFySDySSypGcfU_SbAIzYbXEfU_ : 3288 -> 3292
+~ _$sSD9MusicCoreSSRszSaySDys11AnyHashableVypGGRs_rlE09truncatedA18TabsRepresentationSDySSSaySSGGvg : 932 -> 936
+~ _$sSo23UIImagePickerControllerC11MusicCoreUIE13setPropertiesyySDySSSbGF : 764 -> 768
+~ _$s11MusicCoreUI11ImagePickerV11CoordinatorC05imageE10Controller_29didFinishPickingMediaWithInfoySo07UIImageeH0C_SDySo0oehN3KeyaypGtF : 1296 -> 1308
+~ _$s11MusicCoreUI15BouncyBarsAsset33_1239B5B087AAB7692D5EF8FD4F2B07D1LLC10MicaBundleV21TypedDictionaryAccessVyxSgSScigSo7CALayerC_Tg5 : 168 -> 172
+~ _$ss30_copySequenceToContiguousArrayys0dE0Vy7ElementQzGxSTRzlF14MusicUtilities08EdgePairB0VySo6UIViewCG_Tg5 : 872 -> 868
+~ _$s11MusicCoreUI15BouncyBarsAsset33_1239B5B087AAB7692D5EF8FD4F2B07D1LLC10MicaBundleV4pathAF10Foundation3URLV_tKcfCTf4nd_n : 896 -> 904
+~ _$sSo8NSBundleC14MusicUtilitiesE11displayNameSSSgvg : 276 -> 280
+~ _$ss30_copySequenceToContiguousArrayys0dE0Vy7ElementQzGxSTRzlFSo8_NSRangeV_Tgq5 : 380 -> 376
+~ _$s14MusicUtilities15AIDiffingUpdateV8oldItems03newF017visibleIndexPaths015startingSectionI005finallI005modelD7Handler18identityComparator06visualQ0ACSayxGSg_AMSay10Foundation0I4PathVGS2iSgyycSgSb0F0_7ElementQZ_AVtcSgAWtcAA08DiffableL0RzlufC : 30460 -> 30520
+~ _$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tFSo14NSUserDefaultsC14MusicUtilitiesE9_Observer33_0EE8F48931DDE162065F15584D7CE3A3LLC16SuiteAssociationV_SDySSSayAN07HandlerU0VGGTg5 : 528 -> 508
+~ _$sSr15_stableSortImpl2byySbx_xtKXE_tKFySryxGz_SiztKXEfU_10Foundation9IndexPathV_Tg5 : 2380 -> 2376
+~ _$sSlsE5split9maxSplits25omittingEmptySubsequences14whereSeparatorSay11SubSequenceQzGSi_S2b7ElementQzKXEtKFSS_Tg5 : 968 -> 972
+~ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSo14NSUserDefaultsC14MusicUtilitiesE9_Observer33_0EE8F48931DDE162065F15584D7CE3A3LLC16SuiteAssociationV_SDySSSayAK07HandlerX0VGGTg5 : 720 -> 728
+~ _$ss17_NativeDictionaryV4copyyyFSS_SiTg5 : 352 -> 356
+~ _$ss17_NativeDictionaryV4copyyyFSo14NSUserDefaultsC14MusicUtilitiesE9_Observer33_0EE8F48931DDE162065F15584D7CE3A3LLC16SuiteAssociationV_SDySSSayAI07HandlerQ0VGGTg5 : 384 -> 388
+~ _$ss17_NativeDictionaryV4copyyyFSS_SaySo14NSUserDefaultsC14MusicUtilitiesE9_Observer33_0EE8F48931DDE162065F15584D7CE3A3LLC18HandlerAssociationVGTg5 : 360 -> 364
+~ _$sSr15_stableSortImpl2byySbx_xtKXE_tKFySryxGz_SiztKXEfU_SS3key_SS5valuet_Tg595$s10Foundation3URLV14MusicUtilitiesE11parametrizeyACSDyS2SGFSbSS3key_SS5valuet_SSAG_SSAHttXEfU_Tf1nnncn_n : 852 -> 856
+~ _$sSo14NSUserDefaultsC14MusicUtilitiesE9_Observer33_0EE8F48931DDE162065F15584D7CE3A3LLC06removeE012identifiedByyAbCE20KeyValueRegistrationC10IdentifierV_tFyyXEfU_ : 1228 -> 1232
+~ _$s14MusicUtilities17KeyboardAvoidanceV12notificationACSg10Foundation12NotificationV_tcfCTf4nd_n : 1316 -> 1336
+~ _$ss30_copySequenceToContiguousArrayys0dE0Vy7ElementQzGxSTRzlF35InternalCollectionsUtilitiesPrivate13_UnsafeBitSetV5_WordV_Tgq5 : 500 -> 496
+~ _$s21MusicSwiftCollections10_HashTableV6create21untilFirstDuplicateIn5scale13reservedScaleACSg04hashE0_5IndexQz3endtx_SiSgSitSkRzSH7ElementRpzlFZ : 2356 -> 2348
+~ _$s21MusicSwiftCollections10OrderedSetV19symmetricDifferenceyACyxGAEnFAE08InternalC16UtilitiesPrivate010_UnsafeBitE0VzXEfU_AeHzXEfU_ : 1052 -> 1060
+~ _$s7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C0fD0C22animateTransliteration33_6199ED2C84AF6C925E1487713AA44194LL8metadata10completionyAG0F18LayoutDiffMetadataV_yyctF : 8936 -> 8932
+~ _$s7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C0fD0C25wordVisualRepresentations33_6199ED2C84AF6C925E1487713AA44194LL3for9lineFrame17typographicOrigin11lyricsWords4text0H15RangeAdjustment0R13StartingIndex08existingJ0SayAC4WordCG5words_Si011updatedWordyZ0tSo9CTLineRefa_So6CGRectVSo7CGPointVSayAA0A0CARVGSSS2iATtF : 6628 -> 6520
+~ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_7LyricsX0K0C23LineTranslationMetadata023_023C7B06612B00822B4518O8EDD9DC67LLVTg5 : 876 -> 892
+~ _$ss17_NativeDictionaryV4copyyyFSS_So17CAAnimatableValue_pTg5 : 360 -> 364
+~ _$ss17_NativeDictionaryV4copyyyFSS_7LyricsX0D0C23LineTranslationMetadata023_023C7B06612B00822B4518H8EDD9DC67LLVTg5 : 456 -> 460
+~ _$ss17_NativeDictionaryV4copyyyFSS_s11AnyHashableVTg5 : 364 -> 368
+~ _$s7LyricsX0A0C2eeoiySbAC_ACtFZTf4nnd_n : 3052 -> 3056
+~ _$s7LyricsX0A14OptionsManagerC3bagSo8ICURLBagCSgvW : 1288 -> 1292
+~ _$s7LyricsX0A14OptionsManagerC24isDefaultScriptSupported3forSb10Foundation6LocaleV8LanguageV_tF : 2268 -> 2272
+~ _$s7LyricsX06SyncedA23VisualExperienceManagerC11updateLines8animatedAC0G12UpdateResultVSgSb_tF : 3512 -> 3500
+~ _$s7LyricsX06SyncedA23VisualExperienceManagerC7animate4line2to11elapsedTime7tapMode3gap21adjustedContentOffsetyAA0A4Line_p_So7CGPointVSdSbSdSgSbtF : 9836 -> 9824
+~ _$ss20_ArrayBufferProtocolPsE15replaceSubrange_4with10elementsOfySnySiG_Siqd__ntSlRd__7ElementQyd__AGRtzlFs01_aB0Vy7LyricsX21LayerPropertyAnimatorCG_s15EmptyCollectionVyANGTg5Tf4nndn_nTm : 260 -> 268
+~ _$sSDsSQR_rlE2eeoiySbSDyxq_G_ABtFZSS_7LyricsX0B0C23LineTranslationMetadata023_023C7B06612B00822B4518F8EDD9DC67LLVTt1g5 : 1172 -> 1176
+```

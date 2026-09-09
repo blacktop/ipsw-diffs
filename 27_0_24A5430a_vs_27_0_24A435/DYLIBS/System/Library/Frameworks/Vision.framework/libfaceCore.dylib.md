@@ -1,0 +1,35 @@
+## libfaceCore.dylib
+
+> `/System/Library/Frameworks/Vision.framework/libfaceCore.dylib`
+
+```diff
+
+ 10.0.45.0.0
+-  __TEXT.__text: 0x58ea84
++  __TEXT.__text: 0x58eb00
+   __TEXT.__objc_methlist: 0x408
+   __TEXT.__const: 0x7a0c8
+   __TEXT.__gcc_except_tab: 0x22f8
+Functions:
+~ __ZN5apple6vision9libraries8facecore3mod15facerecognition23GradientLocalDescriptor24calc_keypoint_descriptorEPfPKNS5_9_KeypointEd : 1716 -> 1720
+~ __ZN5apple6vision9libraries8facecore3mod7filters7dericheIfEEvPT_iificj : 1200 -> 1212
+~ __ZN5apple6vision9libraries8facecore3mod9keypoints23KeypointLocalization_U814matrixMultiplyEPsS6_S6_S6_iii : 236 -> 240
+~ __ZN5apple6vision9libraries8facecore3mod9keypoints23KeypointLocalization_U88localizeERKNS3_5ImageEiiRiS9_ : 2388 -> 2384
+~ __ZNSt3__16vectorIdNS_9allocatorIdEEE18__insert_with_sizeB9fqe220106INS_17_ClassicAlgPolicyENS_11__wrap_iterIPdEES8_EES8_NS6_IPKdEET0_T1_l : 492 -> 508
+~ __ZN5apple6vision9libraries8facecore10processing9detection8Detector6refineERNS4_13IntegralImageEbfjjjiii : 956 -> 960
+~ __ZNSt3__16vectorItNS_9allocatorItEEE6insertENS_11__wrap_iterIPKtEERS5_ : 484 -> 480
+~ __ZNSt3__114__split_bufferItRNS_9allocatorItEEE12emplace_backIJRKtEEEvDpOT_ : 252 -> 256
+~ __ZN5apple6vision9libraries8facecore3mod9keypoints20KeypointLocalization8localizeERKNS3_5ImageEiiRiS9_ : 1112 -> 1116
+~ __ZNSt3__16vectorIdNS_9allocatorIdEEE6resizeEm : 284 -> 288
+~ __Z16deriche_gradientIfEvPKT_PS0_iificj : 1260 -> 1268
+~ __ZNSt3__16vectorIjNS_9allocatorIjEEE6resizeEm : 284 -> 288
+~ __ZNSt3__16vectorIN5apple6vision9libraries8facecore10processing8tracking15keypointtracker14datastructures16KPointDescriptorENS_9allocatorIS9_EEE6resizeEm : 372 -> 376
+~ __ZN5apple6vision9libraries8facecore3mod15facerecognition23GradientDenseDescriptor26ComputeFastDenseDescriptorEjjPdPhjjjj : 1368 -> 1372
+~ __ZN5apple6vision9libraries8facecore3mod15facerecognition23GradientDenseDescriptor20TriangleKernelConvolEPKfPfiiiii : 636 -> 668
+~ __ZN5apple6vision9libraries8facecore5utils3aev18AEVHOG32Descriptor20computeHog32FeaturesEPfPiPS6_PS7_S7_i : 1708 -> 1724
+~ __ZN5apple6vision9libraries8facecore10processing9detection13IntegralImage20computeIntegralImageEv : 372 -> 376
+~ __ZN5apple6vision9libraries8facecore10processing9detection13IntegralImage7setROIsERKNSt3__16vectorINS2_5utils16RegionOfInterestENS6_9allocatorIS9_EEEE : 312 -> 308
+~ __ZNSt3__16vectorIN5apple6vision9libraries8facecore5utils16RegionOfInterestENS_9allocatorIS6_EEE6resizeEm : 284 -> 288
+~ __ZN5apple6vision9libraries8facecore10processing9detection16detectWindowsGCDERKNS2_15FaceCoreContextEPKNS2_3mod7windows6WindowERKNSt3__16vectorItNSD_9allocatorItEEEERKNS4_13IntegralImageEdRKNSE_IPKNS4_8cascades9t_cascadeENSF_ISQ_EEEERNSE_INS2_12FaceInternalENSF_ISV_EEEE : 916 -> 920
+~ ____Z12localizeEyesRKN5apple6vision9libraries8facecore3mod5ImageERiS7_S7_S7_PNS3_9keypoints23KeypointLocalization_U8ESA__block_invoke : 84 -> 88
+```

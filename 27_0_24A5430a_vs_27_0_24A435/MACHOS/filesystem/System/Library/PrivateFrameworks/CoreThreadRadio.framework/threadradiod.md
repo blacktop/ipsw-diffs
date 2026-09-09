@@ -1,0 +1,97 @@
+## threadradiod
+
+> `/System/Library/PrivateFrameworks/CoreThreadRadio.framework/threadradiod`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__init_offsets`
+- `__TEXT.__objc_methlist`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__unwind_info`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
+```diff
+
+ 442.0.0.0.0
+-  __TEXT.__text: 0x41c89c
++  __TEXT.__text: 0x41cb24
+   __TEXT.__auth_stubs: 0x12bd0
+   __TEXT.__objc_stubs: 0xa100
+   __TEXT.__init_offsets: 0xb4
+   __TEXT.__objc_methlist: 0x6aa4
+-  __TEXT.__gcc_except_tab: 0x2a394
+-  __TEXT.__const: 0x8614
++  __TEXT.__gcc_except_tab: 0x2a39c
++  __TEXT.__const: 0x8664
+   __TEXT.__oslogstring: 0x28004
+   __TEXT.__cstring: 0x37256
+   __TEXT.__objc_classname: 0x6eb
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  Functions: 18294
++  Functions: 18296
+   Symbols:   24095
+   CStrings:  13489
+ 
+Symbols:
++ /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/CoreThreadRadio/install/Symbols/BuiltProducts/libopenthread-ftd.a(heap-907cf6985676bcfa85796b69de7a3ca2.o)
++ /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/CoreThreadRadio/install/Symbols/BuiltProducts/libopenthread-ftd.a(heap-e09d5eb68d8170f36b42857da0a1dc1e.o)
+- /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/CoreThreadRadio/install/Symbols/BuiltProducts/libopenthread-ftd.a(heap-131f66bb2a493ecfdb0a7430d1af27a5.o)
+- /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/CoreThreadRadio/install/Symbols/BuiltProducts/libopenthread-ftd.a(heap-82c4f3ded3ef799e7c5312797aec08df.o)
+Functions:
+~ __ZN2ot3Cli8MeshDiag7ProcessEPNS_5Utils13CmdLineParser3ArgE : 252 -> 256
+~ __ZN2ot5Child16RemoveIp6AddressERKNS_3Ip67AddressE : 368 -> 372
+~ __ZN5boost8signals26detail11auto_bufferINS_7variantINS_10shared_ptrIvEEJNS1_23foreign_void_shared_ptrEEEENS1_15store_n_objectsILj10EEENS1_19default_grow_policyENSt3__19allocatorIS7_EEE9push_backERKS7_ : 272 -> 368
+~ __ZN5boost8signals26detail21obj_scope_guard_impl2INS1_11auto_bufferINS_7variantINS_10shared_ptrIvEEJNS1_23foreign_void_shared_ptrEEEENS1_15store_n_objectsILj10EEENS1_19default_grow_policyENSt3__19allocatorIS8_EEEEMSF_FvPS8_mESG_mED2Ev : 104 -> 108
++ _OUTLINED_FUNCTION_6
+~ __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6substrB9nqe220106Emm : 224 -> 248
+~ __Z43CAMetricsHandlers_handle_getprop_vendorcoexPU24objcproto13OS_xpc_object8NSObjectP19NSMutableDictionaryS3_ : 5480 -> 5536
++ _OUTLINED_FUNCTION_1
+~ __ZNK5boost4_mfi3mf3Iv16XPCIPCAPI_v1_rcpPvRKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEEN8dispatch8callbackIU13block_pointerFvhN3xpc4dictEEEEEclEPS2_S3_SC_SJ_ : 208 -> 212
+~ __ZN5boost6detail8function26void_function_obj_invoker2INS_3_bi6bind_tIvNS_4_mfi3mf2Iv16XPCIPCAPI_v1_rcpRKNSt3__112basic_stringIcNS8_11char_traitsIcEENS8_9allocatorIcEEEERKNS_3anyEEENS3_5list3INS3_5valueIPS7_EENS_3argILi1EEENSP_ILi2EEEEEEEvSG_SJ_E6invokeERNS1_15function_bufferESG_SJ_ : 40 -> 44
+~ __ZN5boost6detail8function26void_function_obj_invoker1INS_3_bi6bind_tIvNS_4_mfi3mf1Iv16XPCIPCAPI_v1_rcpRKN2nl8wpantund4WPAN15NetworkInstanceEEENS3_5list2INS3_5valueIPS7_EENS_3argILi1EEEEEEEvSD_E6invokeERNS1_15function_bufferESD_ : 40 -> 44
+~ __ZN5boost6detail8function26void_function_obj_invoker1INS_3_bi6bind_tIvNS_4_mfi3mf1Iv16XPCIPCAPI_v1_rcpRKN2nl8wpantund21EnergyScanResultEntryEEENS3_5list2INS3_5valueIPS7_EENS_3argILi1EEEEEEEvSC_E6invokeERNS1_15function_bufferESC_ : 40 -> 44
+~ __ZN5boost6detail8function26void_function_obj_invoker1INS_3_bi6bind_tIvNS_4_mfi3mf1Iv16XPCIPCAPI_v1_rcpRKNSt3__112basic_stringIcNS8_11char_traitsIcEENS8_9allocatorIcEEEEEENS3_5list2INS3_5valueIPS7_EENS_3argILi1EEEEEEEvSG_E6invokeERNS1_15function_bufferESG_ : 40 -> 44
+~ __ZNK5boost4_mfi3mf4Iv16XPCIPCAPI_v1_rcpPKcRKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEESD_N8dispatch8callbackIU13block_pointerFvhN3xpc4dictEEEEEclEPS2_S4_SD_SD_SK_ : 224 -> 228
+~ __ZNK5boost4_mfi3mf3Iv16XPCIPCAPI_v1_rcpiRKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEN8dispatch8callbackIU13block_pointerFvhN3xpc4dictEEEEEclEPS2_iSB_SI_ : 208 -> 212
+~ __ZNK5boost4_mfi3mf4Iv16XPCIPCAPI_v1_rcpiRKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEESB_N8dispatch8callbackIU13block_pointerFvhN3xpc4dictEEEEEclEPS2_iSB_SB_SI_ : 224 -> 228
+~ __ZNK5boost4_mfi3mf6Iv16XPCIPCAPI_v1_rcpiRKNS_3anyERKNSt3__112basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEESE_SE_N8dispatch8callbackIU13block_pointerFvhN3xpc4dictEEEEEclEPS2_iS5_SE_SE_SE_SL_ : 248 -> 252
+~ __ZNK5boost4_mfi3mf5Iv16XPCIPCAPI_v1_rcpiRKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEESB_SB_N8dispatch8callbackIU13block_pointerFvhN3xpc4dictEEEEEclEPS2_iSB_SB_SB_SI_ : 232 -> 236
+~ __ZNK5boost4_mfi3mf5Iv16XPCIPCAPI_v1_rcpiRKNS_3anyERKNSt3__112basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEESE_N8dispatch8callbackIU13block_pointerFvhN3xpc4dictEEEEEclEPS2_iS5_SE_SE_SL_ : 232 -> 236
+~ __ZN14RcpHostContext15get_device_dataER12NmDeviceData : 1616 -> 1624
+~ __ZNK5boost4_mfi3mf2Iv14InternalIPCAPINSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEENS_3anyEEclEPS2_S9_SA_ : 308 -> 312
+~ __ZN5boost6detail8function26void_function_obj_invoker1INS_3_bi6bind_tIvNS_4_mfi3mf1Iv14InternalIPCAPIRKN2nl8wpantund4WPAN15NetworkInstanceEEENS3_5list2INS3_5valueIPS7_EENS_3argILi1EEEEEEEvSD_E6invokeERNS1_15function_bufferESD_ : 40 -> 44
+~ __ZN5boost6detail8function26void_function_obj_invoker1INS_3_bi6bind_tIvNS_4_mfi3mf1Iv14InternalIPCAPIRKN2nl8wpantund21EnergyScanResultEntryEEENS3_5list2INS3_5valueIPS7_EENS_3argILi1EEEEEEEvSC_E6invokeERNS1_15function_bufferESC_ : 40 -> 44
+~ __ZN5boost6detail8function26void_function_obj_invoker1INS_3_bi6bind_tIvNS_4_mfi3mf1Iv14InternalIPCAPIRKNS_3anyEEENS3_5list2INS3_5valueIPS7_EENS_3argILi1EEEEEEEvSA_E6invokeERNS1_15function_bufferESA_ : 40 -> 44
+~ __ZNK5boost4_mfi3mf6Iv14InternalIPCAPIiRKNS_3anyENSt3__112basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEESC_SC_N8dispatch8callbackIU13block_pointerFvhS3_EEEEclEPS2_iS5_SC_SC_SC_SH_ : 528 -> 532
+~ __ZNK5boost4_mfi3mf5Iv14InternalIPCAPIiNS_3anyENSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEESA_N8dispatch8callbackIU13block_pointerFvhS3_EEEEclEPS2_iS3_SA_SA_SF_ : 560 -> 564
+~ __ZNK5boost4_mfi3mf5Iv14InternalIPCAPIPKcNS_3anyENSt3__112basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEESC_N8dispatch8callbackIU13block_pointerFvhS5_EEEEclEPS2_S4_S5_SC_SC_SH_ : 560 -> 564
+~ __ZNK5boost4_mfi3mf3Iv14InternalIPCAPIiNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEN8dispatch8callbackIU13block_pointerFvhNS_3anyEEEEEclEPS2_iS9_SF_ : 304 -> 308
+~ __ZNK5boost4_mfi3mf6Iv14InternalIPCAPIiNS_3anyENSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEESA_SA_N8dispatch8callbackIU13block_pointerFvhS3_EEEEclEPS2_iS3_SA_SA_SA_SF_ : 672 -> 676
+~ __ZN2ot3Cli3Bbr7ProcessEPNS_5Utils13CmdLineParser3ArgE : 348 -> 352
+~ __ZN2ot3Cli11LinkMetrics7ProcessEPNS_5Utils13CmdLineParser3ArgE : 252 -> 256
+~ __ZN2ot3Cli9MacFilter7ProcessEPNS_5Utils13CmdLineParser3ArgE : 208 -> 212
+~ __ZN15HostInterpreter18ProcessPropertyGetEhPPcPv : 79156 -> 79164
+~ __ZN15HostInterpreter14processCommandEN5boost10shared_ptrI11HostCmdTaskEE : 6092 -> 6096
+~ _OUTLINED_FUNCTION_7 : 32 -> 28
+~ _OUTLINED_FUNCTION_8 : 28 -> 32
+~ _$ss20_ArrayBufferProtocolPsE15replaceSubrange_4with10elementsOfySnySiG_Siqd__ntSlRd__7ElementQyd__AGRtzlFs01_aB0Vy7Network0J10ConnectionCyAL4QUICVGG_s15EmptyCollectionVyAQGTg5Tf4nndn_n : 268 -> 276
+~ __ZZNSt3__16vectorIN5boost10filesystem18directory_iteratorENS_9allocatorIS3_EEE12emplace_backIJS3_EEERS3_DpOT_ENKUlvE0_clEv : 228 -> 224
+~ __ZN2ot5Posix18HardwareIdentifier24isCCMappingVendor2Ver602Ev : 24 -> 356
+~ _ZN35CoreAnalyticsHistogramMetricsHelper33ProcessPrioritizedRouteHistogramsERNSt3__113unordered_mapINS0_12basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEENS0_6vectorIjNS5_IjEEEENS0_4hashIS7_EENS0_8equal_toIS7_EENS5_INS0_4pairIKS7_SA_EEEEEE.cold.3 : 96 -> 88
+~ _Z48AWDMetricsClient_TriggerAutoBugCaptures_internalNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES5_S5_S5_S5_S5_Pc.cold.1 : 84 -> 68
+~ _Z48AWDMetricsClient_TriggerAutoBugCaptures_internalNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES5_S5_S5_S5_S5_Pc.cold.3 : 84 -> 68
+```

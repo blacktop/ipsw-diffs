@@ -1,0 +1,58 @@
+## libMIPCSdk.dylib
+
+> `/usr/lib/libMIPCSdk.dylib`
+
+```diff
+
+ 177.0.0.0.0
+-  __TEXT.__text: 0x37c488
++  __TEXT.__text: 0x37c4f8
+   __TEXT.__const: 0x14a00
+-  __TEXT.__gcc_except_tab: 0x1e450
++  __TEXT.__gcc_except_tab: 0x1e458
+   __TEXT.__cstring: 0x145f5
+   __TEXT.__unwind_info: 0xc4f0
+   __TEXT.__auth_stubs: 0x0
+Functions:
+~ __ZNK4mipc7Message12serializeTlvINS_13mipc_string_tILm22ELb0EEELb0EEENS_5ErrorERKNS_3tlvIT_XT0_EEEtRNSt3__111__wrap_iterIPhEE : 456 -> 460
+~ __ZNK4mipc7Message12serializeTlvINS_13mipc_string_tILm16ELb0EEELb1EEENS_5ErrorERKNS_3tlvIT_XT0_EEEtRNSt3__111__wrap_iterIPhEE : 480 -> 484
+~ __ZNK4mipc7Message12serializeTlvINS_13mipc_string_tILm25ELb0EEELb0EEENS_5ErrorERKNS_3tlvIT_XT0_EEEtRNSt3__111__wrap_iterIPhEE : 456 -> 460
+~ __ZNK4mipc7Message12serializeTlvINS_13mipc_string_tILm3ELb0EEELb1EEENS_5ErrorERKNS_3tlvIT_XT0_EEEtRNSt3__111__wrap_iterIPhEE : 480 -> 484
+~ __ZNK4mipc3sim16Set_Facility_Req9serializeEv : 2388 -> 2392
+~ __ZNK4mipc7Message12serializeTlvINS_13mipc_string_tILm129ELb0EEELb1EEENS_5ErrorERKNS_3tlvIT_XT0_EEEtRNSt3__111__wrap_iterIPhEE : 468 -> 472
+~ __ZNK4mipc3sim16Sml_Set_Lock_Req9serializeEv : 2668 -> 2672
+~ __ZNK4mipc7Message12serializeTlvINS_13mipc_string_tILm20ELb0EEELb0EEENS_5ErrorERKNS_3tlvIT_XT0_EEEtRNSt3__111__wrap_iterIPhEE : 456 -> 460
+~ __ZNK4mipc7Message12serializeTlvINS_13mipc_string_tILm41ELb0EEELb0EEENS_5ErrorERKNS_3tlvIT_XT0_EEEtRNSt3__111__wrap_iterIPhEE : 456 -> 460
+~ __ZNK4mipc7Message12serializeTlvINS_13mipc_string_tILm8193ELb0EEELb0EEENS_5ErrorERKNS_3tlvIT_XT0_EEEtRNSt3__111__wrap_iterIPhEE : 444 -> 448
+~ __ZNK4mipc7Message12serializeTlvINS_13mipc_string_tILm513ELb0EEELb0EEENS_5ErrorERKNS_3tlvIT_XT0_EEEtRNSt3__111__wrap_iterIPhEE : 444 -> 448
+~ __ZN4mipc3sim12Get_Smsp_Cnf11deserializeEv : 1692 -> 1700
+~ __ZNK4mipc7Message12serializeTlvINS_13mipc_string_tILm7ELb0EEELb0EEENS_5ErrorERKNS_3tlvIT_XT0_EEEtRNSt3__111__wrap_iterIPhEE : 484 -> 488
+~ __ZNK4mipc7Message12serializeTlvINS_13mipc_string_tILm20ELb0EEELb1EEENS_5ErrorERKNS_3tlvIT_XT0_EEEtRNSt3__111__wrap_iterIPhEE : 520 -> 524
+~ __ZN4mipc8dale_cps14Laps_Fetch_Ind11deserializeEv : 3708 -> 3724
+~ __ZNK4mipc7Message12serializeTlvINS_13mipc_string_tILm100ELb0EEELb1EEENS_5ErrorERKNS_3tlvIT_XT0_EEEtRNSt3__111__wrap_iterIPhEE : 520 -> 524
+~ __ZNK4mipc7Message12serializeTlvINS_13mipc_string_tILm128ELb0EEELb1EEENS_5ErrorERKNS_3tlvIT_XT0_EEEtRNSt3__111__wrap_iterIPhEE : 468 -> 472
+~ __ZNK4mipc7Message12serializeTlvINS_13mipc_string_tILm10ELb0EEELb1EEENS_5ErrorERKNS_3tlvIT_XT0_EEEtRNSt3__111__wrap_iterIPhEE : 480 -> 484
+~ __ZNK4mipc3stk11Set_Pac_Req9serializeEv : 1360 -> 1364
+~ __ZNK4mipc7Message12serializeTlvINS_17mipc_byte_array_tILm2ELb1EEELb0EEENS_5ErrorERKNS_3tlvIT_XT0_EEEtRNSt3__111__wrap_iterIPhEE : 404 -> 408
+~ __ZNK4mipc7Message12serializeTlvINS_13mipc_string_tILm180ELb0EEELb0EEENS_5ErrorERKNS_3tlvIT_XT0_EEEtRNSt3__111__wrap_iterIPhEE : 444 -> 448
+~ __ZNK4mipc2nw22Set_Register_State_Req9serializeEv : 2728 -> 2732
+~ __ZNK4mipc2nw21Get_Provider_Name_Req9serializeEv : 2496 -> 2500
+~ __ZNK4mipc2nw13Get_Nssai_Req9serializeEv : 1744 -> 1748
+~ __ZNK4mipc7Message12serializeTlvINS_17mipc_byte_array_tILm16ELb1EEELb1EEENS_5ErrorERKNS_3tlvIT_XT0_EEEtRNSt3__111__wrap_iterIPhEE : 436 -> 440
+~ __ZNK4mipc9dale_skpr22Data_Msg_Tx_Cancel_Req9serializeEv : 1764 -> 1768
+~ __ZNK4mipc7Message12serializeTlvINS_13mipc_string_tILm100ELb0EEELb0EEENS_5ErrorERKNS_3tlvIT_XT0_EEEtRNSt3__111__wrap_iterIPhEE : 456 -> 460
+~ __ZNK4mipc7Message12serializeTlvINS_13mipc_string_tILm128ELb0EEELb0EEENS_5ErrorERKNS_3tlvIT_XT0_EEEtRNSt3__111__wrap_iterIPhEE : 484 -> 488
+~ __ZNK4mipc7Message12serializeTlvINS_13mipc_string_tILm254ELb0EEELb0EEENS_5ErrorERKNS_3tlvIT_XT0_EEEtRNSt3__111__wrap_iterIPhEE : 444 -> 448
+~ __ZNK4mipc7Message12serializeTlvINS_13mipc_string_tILm5ELb0EEELb0EEENS_5ErrorERKNS_3tlvIT_XT0_EEEtRNSt3__111__wrap_iterIPhEE : 456 -> 460
+~ __ZNK4mipc8internal8Open_Req9serializeEv : 2756 -> 2760
+~ __ZNK4mipc7Message12serializeTlvINS_13mipc_string_tILm256ELb0EEELb0EEENS_5ErrorERKNS_3tlvIT_XT0_EEEtRNSt3__111__wrap_iterIPhEE : 444 -> 448
+~ __ZNK4mipc7Message12serializeTlvINS_13mipc_string_tILm2048ELb0EEELb1EEENS_5ErrorERKNS_3tlvIT_XT0_EEEtRNSt3__111__wrap_iterIPhEE : 468 -> 472
+~ __ZNK4mipc7Message12serializeTlvINS_13mipc_string_tILm32ELb0EEELb1EEENS_5ErrorERKNS_3tlvIT_XT0_EEEtRNSt3__111__wrap_iterIPhEE : 480 -> 484
+~ __ZNK4mipc7Message12serializeTlvINS_13mipc_string_tILm1024ELb0EEELb0EEENS_5ErrorERKNS_3tlvIT_XT0_EEEtRNSt3__111__wrap_iterIPhEE : 444 -> 448
+~ __ZNK4mipc7Message12serializeTlvINS_13mipc_string_tILm32ELb0EEELb0EEENS_5ErrorERKNS_3tlvIT_XT0_EEEtRNSt3__111__wrap_iterIPhEE : 456 -> 460
+~ __ZN4mipc3sys7Dmf_Cnf11deserializeEv : 1872 -> 1836
+~ __ZN4mipc4cust23Read_Multiple_Nvram_Cnf11deserializeEv : 1884 -> 1848
+~ __ZN4mipc4cust15Sys_Get_Etm_Cnf11deserializeEv : 1692 -> 1700
+~ __ZN4mipc4cust37Sys_Get_Spmi_Idc_Tx_Blank_Profile_Cnf11deserializeEv : 3064 -> 3076
+~ __ZNK4mipc7Message12serializeTlvINS_13mipc_string_tILm100ELb0EEELm30ELb1EEENS_5ErrorERKNS_9tlv_arrayIT_XT0_EXT1_EEEtRNSt3__111__wrap_iterIPhEE : 1088 -> 1092
+```

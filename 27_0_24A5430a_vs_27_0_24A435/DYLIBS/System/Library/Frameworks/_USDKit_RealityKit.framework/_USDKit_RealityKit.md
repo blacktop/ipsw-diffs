@@ -1,0 +1,79 @@
+## _USDKit_RealityKit
+
+> `/System/Library/Frameworks/_USDKit_RealityKit.framework/_USDKit_RealityKit`
+
+```diff
+
+ 106.0.10.0.1
+-  __TEXT.__text: 0x11b190
+-  __TEXT.__objc_methlist: 0x5b4
++  __TEXT.__text: 0x11b34c
++  __TEXT.__objc_methlist: 0x5d4
+   __TEXT.__const: 0x6ac8
+   __TEXT.__gcc_except_tab: 0x94e0
+   __TEXT.__constg_swiftt: 0x1cd0
+
+   __TEXT.__swift5_assocty: 0x1a0
+   __TEXT.__swift5_protos: 0x8
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x3e18
+-  __TEXT.__eh_frame: 0x6560
++  __TEXT.__unwind_info: 0x3e10
++  __TEXT.__eh_frame: 0x6568
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_protolist: 0x70
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__weak_got: 0x10
+-  __DATA_CONST.__objc_selrefs: 0x520
++  __DATA_CONST.__objc_selrefs: 0x538
+   __DATA_CONST.__objc_protorefs: 0x38
+   __DATA_CONST.__got: 0x0
+   __AUTH_CONST.__const: 0x5a68
+   __AUTH_CONST.__cfstring: 0x60
+-  __AUTH_CONST.__objc_const: 0x2528
++  __AUTH_CONST.__objc_const: 0x2560
+   __AUTH_CONST.__weak_auth_got: 0x50
+   __AUTH_CONST.__auth_got: 0x2b08
+   __AUTH.__objc_data: 0x230
+Functions:
+~ __Z24getComplexityWithOptionsPv15AnalysisOptions : 4924 -> 4932
+~ __ZNSt3__16vectorImNS_9allocatorImEEE24__emplace_back_slow_pathIJmEEEPmDpOT_ : 184 -> 176
+~ _$s18_USDKit_RealityKit9USDPlayerC6update8timeCodeAC11FrameUpdateVSg0A08USDStageV04TimeG0V_tF : 24116 -> 24044
+~ _$s12HdRealityKit0A13RKitMeshSwiftC08_USDKit_bC0E07extractE8Addition33_9898728573CE32BC016FE7F68CD98F87LL_8primPath18materialPathsToIds8meshTypeAD9USDPlayerC0E4DataVSgAK0E2IDV_SSSDySSAK08MaterialZ0VGAM0eW0OtF : 4852 -> 5200
+~ _$ss17_NativeDictionaryV4copyyyFSS_6USDKit25StageObserverSubscriptionCTg5 : 356 -> 360
+~ _$s6USDKit8UsdStageV01_A11_RealityKitE14convertMetrics7metricsAcDE0bC4InfoVSo010ComplexityI0V_tF : 992 -> 988
+~ _$sSr15_stableSortImpl2byySbx_xtKXE_tKFySryxGz_SiztKXEfU_18_USDKit_RealityKit17UsdStageComponentV15adjustParenting4root6tuplesy0fG06EntityC_SayAL_0E07SdfPathVtGtFZ0O6ParentL_V_Tg505$s18_e1_f5Kit17hij36V15adjustParenting4root6tuplesy0bC06o12C_SayAI_0A07pq14VtGtFZSbAcdeFyy9_AMtFZ0K6R13L_V_AOtXEfU0_Tf1nnncn_n : 1596 -> 1592
+~ __ZNSt3__15dequeIN32pxrInternal__aapl__pxrReserved__7SdfPathENS_9allocatorIS2_EEE9push_backERKS2_ : 1144 -> 1156
+~ __ZNSt3__114__split_bufferIPN32pxrInternal__aapl__pxrReserved__7SdfPathENS_9allocatorIS3_EEE12emplace_backIJRS3_EEEvDpOT_ : 248 -> 252
+~ __ZNSt3__15dequeIN32pxrInternal__aapl__pxrReserved__7SdfPathENS_9allocatorIS2_EEED2B9fqe220106Ev : 340 -> 348
+~ __ZNSt3__16vectorIPKN32pxrInternal__aapl__pxrReserved__7SdfPathENS_9allocatorIS4_EEE24__emplace_back_slow_pathIJS4_EEEPS4_DpOT_ : 184 -> 176
+~ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN21USDRealityKitRenderer21hashAnonymizedNetworkERKN32pxrInternal__aapl__pxrReserved__18HdMaterialNetwork2ERKNS_13unordered_mapINS3_7SdfPathENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS8_4HashENS_8equal_toIS8_EENSC_INS_4pairIKS8_SE_EEEEEEE3$_0PNSI_ISE_S8_EELb0EEEvT1_ST_T0_NS_15iterator_traitsIST_E15difference_typeEb : 3824 -> 3828
+~ __ZN21USDRealityKitRenderer10HdRKitMesh9_InitReprERKN32pxrInternal__aapl__pxrReserved__7TfTokenEPj : 2052 -> 2092
+~ __ZN21USDRealityKitRenderer10HdRKitMesh17_SyncMeshPrimvarsEPN32pxrInternal__aapl__pxrReserved__15HdSceneDelegateEjRNS1_10HdMeshUtilEbbRKNS1_19HdPrimvarDescriptorERKNS1_7VtValueEbPbSC_ : 3544 -> 3548
+~ __ZN21USDRealityKitRenderer10HdRKitMesh4SyncEPN32pxrInternal__aapl__pxrReserved__15HdSceneDelegateEPNS1_13HdRenderParamEPjRKNS1_7TfTokenE : 22024 -> 22268
+~ __ZN21USDRealityKitRenderer17HdRKitRenderParam26getOrCreateDefaultMaterialEb : 148 -> 152
+~ _$s12HdRealityKit18HydraDeferredTasksC16processMaterialsyyYaFTY2_ : 6116 -> 6120
+~ _$s12HdRealityKit18HydraDeferredTasksC20updateSelectedStates33_6DA3A3A627F16DD90B126E934FD07458LLyyF : 732 -> 728
+~ _$s12HdRealityKit0A13RKitMeshSwiftC011setupStatice9CollisionE8Resource33_6DA3A3A627F16DD90B126E934FD07458LL9mContents6entityy0bC00eJ0C0B10FoundationE0S0Vz_AH11ModelEntityCtF : 4508 -> 4512
+~ _$s12HdRealityKit0A13RKitMeshSwiftC08updateLlE8AsNeeded33_6DA3A3A627F16DD90B126E934FD07458LL03llmE07mEntityy0B10Foundation08LowLevelE0C_0bC005ModelT0CtF : 3916 -> 3880
+~ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_12HdRealityKit0K17RKitMaterialSwiftC13ConstantValueOTg5 : 712 -> 720
+~ _$ss17_NativeDictionaryV4copyyyFSS_17RealityFoundation19ShaderGraphMaterialVTg5 : 648 -> 652
+~ _$ss17_NativeDictionaryV4copyyyFSS_Shy12HdRealityKit18HydraDeferredTasksC10EntitySlotVGTg5 : 360 -> 364
+~ _$ss17_NativeDictionaryV4copyyyFSS_12HdRealityKit0D17RKitMaterialSwiftC13ConstantValueOTg5 : 392 -> 396
+~ _$ss17_NativeDictionaryV4copyyyFSS_ScTy17RealityFoundation19ShaderGraphMaterialVSgs5NeverOGTg5 : 356 -> 360
+~ _$ss17_NativeDictionaryV4copyyyFSS_10RealityKit15TextureResourceCTg5Tm : 340 -> 344
+~ _$ss17_NativeDictionaryV4copyyyFSS_12HdRealityKit0D13RKitMeshSwiftC19VertexAttributeInfoVTg5 : 396 -> 400
+~ _$ss17_NativeDictionaryV4copyyyFSS_Si_SiSVtTg5 : 372 -> 376
+~ _$s12HdRealityKit0A17RKitMaterialSwiftC36testCompileAndBindAllLiftedConstantsyyYaKFTY0_ : 3304 -> 3228
+~ _$s12HdRealityKit0A17RKitMaterialSwiftC36testCompileAndBindAllLiftedConstantsyyYaKFTY2_ : 2436 -> 2360
+~ _$s12HdRealityKit0A17RKitMaterialSwiftC36testCompileAndBindAllLiftedConstantsyyYaKFTY3_ : 2652 -> 2576
+~ _$s12HdRealityKit18HydraDeferredTasksC21buildDeformationState7context8pipeline8meshData10descriptor6deviceAA13REKitMeshInfoC0hI0V0b4CoreH008LowLevelH7ContextC_AN0tuH0C8PipelineCAA0a4RKitQ5SwiftC0B10Foundation0tuQ0C10DescriptorVSo9MTLDevice_ptKFTf4nnnnnd_n : 2620 -> 2604
+~ _$s12HdRealityKit0A17RKitMaterialSwiftC12setNodeValue9nodeIndex3val0L10TypeString0L4Name10colorSpace4liftySi_So019pxrInternal__aapl__S10Reserved__O02VtI0VSo3stdO3__1O0088basic_stringCCharstd__1char_traitsCCharstd__1allocatorCChar_cyHBywaEDexaCidvdFCgAayGjzaaVAtL7TfTokenVSbtF : 12972 -> 13064
+~ _$s12HdRealityKit0A13RKitMeshSwiftC23buildPerJointRestBounds13restPointsPtr10pointCount010influencesN0013numInfluencesH6Vertex05jointP0ySPySfG_SiAJS2itF : 656 -> 660
+~ _$s12HdRealityKit0A13RKitMeshSwiftC25setSkel_blendShapeOffsets0I5Count04vertL005rangeL00N7DataPtr06offsetoP0ys6UInt64V_A2KSPys5Int32VGSPySfGtF : 2056 -> 2052
+~ _$sSr15_stableSortImpl2byySbx_xtKXE_tKFySryxGz_SiztKXEfU_SS3key_12HdRealityKit0F13RKitMeshSwiftC19VertexAttributeInfoV5valuet_Tg504$s12fg7Kit0A13ijk107C07processe11ForLowLevelE004geomE023materialBindingsPerFaceySo03OS_K8_mp_meshC_Says6UInt32VGtFSbSS3key_AC19lmN25V5valuet_SSAL_AnOttXEfU1_Tf1nnncn_n : 916 -> 920
+~ _$sSTsE21_copySequenceContents12initializing8IteratorQz_SitSry7ElementQzG_tFSDySS12HdRealityKit0G13RKitMeshSwiftC19VertexAttributeInfoVG_Tg5 : 404 -> 408
+```

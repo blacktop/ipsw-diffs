@@ -1,0 +1,72 @@
+## CipherML
+
+> `/System/Library/PrivateFrameworks/CipherML.framework/CipherML`
+
+```diff
+
+ 383.0.24.0.0
+-  __TEXT.__text: 0x1dd700
++  __TEXT.__text: 0x1dd764
+   __TEXT.__objc_methlist: 0x14ec
+   __TEXT.__const: 0x121c0
+   __TEXT.__cstring: 0x3798
+
+   __AUTH_CONST.__const: 0x64b0
+   __AUTH_CONST.__cfstring: 0xb00
+   __AUTH_CONST.__objc_const: 0x3c08
+-  __AUTH_CONST.__auth_got: 0x1968
++  __AUTH_CONST.__auth_got: 0x1970
+   __AUTH.__objc_data: 0x48
+   __AUTH.__data: 0x1380
+   __DATA.__objc_ivar: 0xd8
+
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+   Functions: 9968
+-  Symbols:   21172
++  Symbols:   21173
+   CStrings:  573
+ 
+Symbols:
++ _swift_release_x10
+Functions:
+~ _$s8CipherML16SimilarityClientV07decryptC6Scores5shardSaySaySo18CMLSimilarityScoreCGGAA25AspireApiPECShardResponseV_tKF : 3312 -> 3324
+~ _$s8CipherML16SimilarityClientV07decryptC6ScoresySaySaySo18CMLSimilarityScoreCGGAA20AspireApiPECResponseVKF : 1492 -> 1488
+~ _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlF8CipherML15RequestsManagerC5IndexO_Tg5 : 304 -> 308
+~ _$s8CipherML0A7MLErrorO30makeErrorConformToSecureCoding5errors0E0_psAF_p_tFZTf4nd_n : 1524 -> 1528
+~ _$sSTsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFs12Zip2SequenceVySay10Foundation4DataVGSaySSGG_8CipherML16AspireApiRequestVsAE_pTg5015$s10Foundation4g4VSS8h4ML16jkl3Vs5C33_pIgggrzo_AC_SStAFsAG_pIegnrzr_TRAJSSAPsAE_pIgggrzo_Tf1cn_n : 1004 -> 1000
+~ _$sSTsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFs12Zip2SequenceVySay8CipherML17AspireApiResponseVGSay10Foundation4DataVGG_ANSgsAE_pTg503$s8f4ML17hij14V10Foundation4l7VAFSgs5C33_pIgngozo_AC_AFtAGsAH_pIegnrzr_TRAjnQsAE_pIgngozo_Tf1cn_n : 1168 -> 1192
+~ _$sSTsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFs12Zip2SequenceVySay8CipherML17AspireApiResponseVGSayAH15RequestsManagerC5IndexOGG_10Foundation4DataVSgsAE_pTg503$s8f4ML17hij5VAA15kl2C5m14O10Foundation4o5VSgs5C33_pIgngozo_AC_AGtAKsAL_pIegnrzr_TRAjoUsAE_pIgngozo_Tf1cn_n : 1240 -> 1252
+~ _$sSTsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFs12Zip2SequenceVySays6UInt64VGSaySSGG_8CipherML15RequestsManagerC5IndexOs5NeverOTg504$ss6f4VSS8g4ML15ij2C5k17OIgygo_AB_SStAGs5l199OIegnrzr_TR03$s8b4ML15de87C11requestData14inShardIndices8shardIds7context11callOptionsSay10Foundation0F0VSgGSays6a76VG_SaySSGAA14RequestContextVyAA19StaticPIRParametersVGSo07CMLCallN0CtYaKFAC5F12OAO_S15XEfU_Tf3nnnpf_nTf1cn_n : 540 -> 532
+~ _$s8CipherML15RequestsManagerC10PIRContextV28decryptSymmetricPIRResponses_20symmetricPirKeywordsSay10Foundation4DataVSgGSayAA17AspireApiResponseVG_SayAA0gJ7KeywordVGtKF : 1388 -> 1392
+~ _$s8CipherML15RequestsManagerC10PIRContextV11requestData14missingIndices16availableResults03allI08requests07networkD0Say10Foundation0G0VSgGSayAC5IndexOG_SDyArOGASSayAA16AspireApiRequestVGAA07NetworkD0_ptYaKFTY2_ : 4504 -> 4508
+~ _$s8CipherML15RequestsManagerC10PIRContextV11requestData15missingKeywords16availableResults03allI08requests07networkD0012symmetricPirI0Say10Foundation0G0VSgGSayAOG_SDyAoPGARSayAA16AspireApiRequestVGAA07NetworkD0_pSayAA09SymmetricP7KeywordVGSgtYaKFTY2_ : 2672 -> 2676
+~ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtF8CipherML15RequestsManagerC5IndexO_10Foundation4DataVSgTg5 : 828 -> 832
+~ _$ss17_NativeDictionaryV4copyyyFSS_8CipherML7UseCaseOTg5 : 420 -> 424
+~ _$ss17_NativeDictionaryV4copyyyFSS_Say8CipherML10TokenCacheC06CachedF0VGTg5Tm : 344 -> 348
+~ _$ss17_NativeDictionaryV4copyyyFSS_10Foundation4DateVTg5 : 648 -> 652
+~ _$ss17_NativeDictionaryV4copyyyFSS_ScTyyts5Error_pGTg5 : 356 -> 360
+~ _$ss17_NativeDictionaryV4copyyyFSS_So8NSObjectCTg5 : 356 -> 360
+~ _$s8CipherML15RequestsManagerC011EmptyAndNonE17ShardsForKeywordsV8keywords8shardIds7contextAESay10Foundation4DataVG_SaySSGAC10PIRContextVtKcfCTf4nnnd_n : 2368 -> 2356
+~ _$s8CipherML15RequestsManagerC027cachedAndMissingKeywordsForH7InBatch33_41F16A2FC88180D043F1A82F0CBA100CLL8keywords8shardIds5cacheAC06CachedfgH0VSay10Foundation4DataVG_SaySSGAA13KeyValueCache_pSgtKFZTf4nnnd_n : 2448 -> 2416
+~ _$s8CipherML9TelemetryO19reportErrorToServer7useCase10identifier6method5errorySS_SSSgSSs0E0_ptFZSDySSSo8NSObjectCGSgycfU0_ : 912 -> 916
+~ _$ss17_NativeDictionaryV5merge_8isUnique16uniquingKeysWithyqd__n_Sbq_q__q_tqd_0_YKXEtqd_0_YKSTRd__s5ErrorRd_0_x_q_t7ElementRtd__r0_lFSS_So8NSObjectCs15LazyMapSequenceVySDySSAJGSS_AJtGs5NeverOTg5030$s8CipherML9TelemetryO19reporti68ToServer7useCase10identifier6method5errorySS_SSSgSSs0E0_ptFZSDySSSo8K21CGSgycfU_A2L_ALtXEfU_Tf1nncn_nTm : 624 -> 628
+~ _$s8CipherML14BatchPIRClientV19constructPIRRequest4withSayAA09AspireApiF0VGSay10Foundation4DataVG_tKF : 1816 -> 1836
+~ _$s8CipherML20AllowListMigrationV2O0cD6FormatV7migrateAA0cD10Migratable_pyKF : 864 -> 860
+~ _$sSTsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFs12Zip2SequenceVySay16CryptoKitPrivate3PIRO14BlindedKeywordVGSay8CipherML21AspireApiOPRFResponseVGG_10Foundation4DataVsAE_pTg504$s16fg14Private3PIRO14jk2V8l4ML21nop14V10Foundation4r3Vs5C33_pIgnnozo_AE_AHtAKsAL_pIegnrzr_TRAlpUsAE_pIgnnozo_Tf1cn_n : 1232 -> 1192
+~ _$s8CipherML18SymmetricPIRClientV16validateThenHash15blindedKeywords13oprfResponsesSayAA0C10PirKeywordVGSay16CryptoKitPrivate3PIRO07BlindedM0VG_SayAA21AspireApiOPRFResponseVGtKF : 1168 -> 1188
+~ _$s8CipherML12UseCaseGroupV03usedE0ACSo06CMLUsedE0C_tKcfC : 1816 -> 1824
+~ _$s8CipherML8ARCTokenO10CredentialC7present10Foundation4DataVyKF : 1152 -> 1168
+~ _$s8CipherML20ActiveUseCaseTrackerC06activeD5CasesShySSGvg : 1056 -> 1060
+~ _$ss17_NativeDictionaryV07extractB05using5countAByxq_Gs13_UnsafeBitsetV_SitFSS_10Foundation4DateVTg5 : 788 -> 784
+~ _$s8CipherML9AllowListC5group7useCaseAA03UseG5GroupVSgSS_tF : 412 -> 408
+~ _$s8CipherML9AllowListC10rlweParams9heSchemes6groupsACSDy16CryptoKitPrivate2HEO13SecurityLevelOSayAI04RlweF0OGG_SayAI6SchemeOGSDySSAA12UseCaseGroupVGtKcfc : 2272 -> 2276
+~ _$s8CipherML10TokenCacheC05pruneD0yyKFyAC5State017_83261207007594D2G14ED1815B21BCDBELLVzYbXEfU_ : 1484 -> 1488
+~ _$ss20_ArrayBufferProtocolPsE15replaceSubrange_4with10elementsOfySnySiG_Siqd__ntSlRd__7ElementQyd__AGRtzlFs01_aB0VySiSgG_s15EmptyCollectionVyALGTg5Tf4nndn_n : 168 -> 172
+~ _$sSDsSQR_rlE2eeoiySbSDyxq_G_ABtFZSS_8CipherML15AspireApiConfigVTt1g5 : 2704 -> 2708
+~ _$ss17_NativeDictionaryV6filteryAByxq_GSbx3key_q_5valuet_tqd__YKXEqd__YKs5ErrorRd__lFADs13_UnsafeBitsetVqd__YKXEfU_SS_10Foundation4DateVs5NeverOTg5 : 640 -> 644
+~ _$ss17_NativeDictionaryV6filteryAByxq_GSbx3key_q_5valuet_tqd__YKXEqd__YKs5ErrorRd__lFADs13_UnsafeBitsetVqd__YKXEfU_SS_8CipherML12UseCaseGroupVs5NeverOTg5Tm : 592 -> 596
+~ _$s8CipherML11KeyRotationC12activeGroups0E8UseCasesShySSGAF_tYaFTf4dn_nTY0_ : 1284 -> 1320
+~ _$s8CipherML11KeyRotationC12activeGroups0E8UseCasesShySSGAF_tYaFTf4dn_nTY2_ : 712 -> 716
+~ _$ss10_NativeSetV11subtractingyAByxGqd__7ElementQyd__RszSTRd__lFSS_SaySSGTg5 : 1052 -> 1032
+```

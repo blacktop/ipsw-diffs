@@ -1,0 +1,370 @@
+## AVD.videodecoder
+
+> `/System/Library/VideoDecoders/AVD.videodecoder`
+
+```diff
+
+ 993.1.0.0.0
+-  __TEXT.__text: 0x16bd88
++  __TEXT.__text: 0x18f7dc
+   __TEXT.__objc_methlist: 0x1fc
+-  __TEXT.__const: 0xc1e3
+-  __TEXT.__oslogstring: 0x16252
+-  __TEXT.__cstring: 0x56bd
+-  __TEXT.__gcc_except_tab: 0xd4c
+-  __TEXT.__unwind_info: 0x1de0
++  __TEXT.__const: 0xc4cf
++  __TEXT.__oslogstring: 0x161a6
++  __TEXT.__cstring: 0x5625
++  __TEXT.__gcc_except_tab: 0xe74
++  __TEXT.__unwind_info: 0x2098
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_selrefs: 0x1a8
+   __DATA_CONST.__objc_superrefs: 0x18
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x4e40
++  __AUTH_CONST.__const: 0x5940
+   __AUTH_CONST.__cfstring: 0x800
+   __AUTH_CONST.__objc_const: 0x6e0
+   __AUTH_CONST.__weak_auth_got: 0x38
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 4124
+-  Symbols:   3393
+-  CStrings:  2072
++  Functions: 4380
++  Symbols:   3705
++  CStrings:  2064
+ 
+Symbols:
++ __ZN15CAHDecBorageAvc11decHdrCSizeEj
++ __ZN15CAHDecBorageAvc11decHdrYSizeEj
++ __ZN15CAHDecBorageAvc11initPictureEjjb
++ __ZN15CAHDecBorageAvc12decodeBufferEv
++ __ZN15CAHDecBorageAvc12getSWRStrideEjjjj
++ __ZN15CAHDecBorageAvc13decHdrCStrideEv
++ __ZN15CAHDecBorageAvc13decHdrYStrideEv
++ __ZN15CAHDecBorageAvc13getTileEndCTUEjj
++ __ZN15CAHDecBorageAvc14decHdrCLinAddrEj
++ __ZN15CAHDecBorageAvc14decHdrYLinAddrEj
++ __ZN15CAHDecBorageAvc14populateSlicesEj
++ __ZN15CAHDecBorageAvc14setVPInstrFifoEj
++ __ZN15CAHDecBorageAvc15copyScalingListER15AvcScalingListsR13AvcQtMatCoeffPhS4_S4_i
++ __ZN15CAHDecBorageAvc15freeWorkBuf_PPSEPv
++ __ZN15CAHDecBorageAvc15freeWorkBuf_SPSEv
++ __ZN15CAHDecBorageAvc15getTileIdxAboveEj
++ __ZN15CAHDecBorageAvc15getTileStartCTUEjj
++ __ZN15CAHDecBorageAvc15populateAvdWorkEj
++ __ZN15CAHDecBorageAvc16allocWorkBuf_PPSEPvS0_S0_
++ __ZN15CAHDecBorageAvc16allocWorkBuf_SPSEPv
++ __ZN15CAHDecBorageAvc16decodeBufferSizeEv
++ __ZN15CAHDecBorageAvc21updateCommonRegistersEj
++ __ZN15CAHDecBorageAvc22populateSliceRegistersEP17AvcSliceRegistersi
++ __ZN15CAHDecBorageAvc23populateCommonRegistersEv
++ __ZN15CAHDecBorageAvc24populatePictureRegistersEv
++ __ZN15CAHDecBorageAvc25AvcPicScalingListFallBackEP8_sAvcSPSP8_sAvcPPS
++ __ZN15CAHDecBorageAvc25AvcSeqScalingListFallBackEP8_sAvcSPS
++ __ZN15CAHDecBorageAvc25populateSequenceRegistersEv
++ __ZN15CAHDecBorageAvc4initEv
++ __ZN15CAHDecBorageAvcC2EP14CAVDAvcDecoder
++ __ZN15CAHDecBorageAvcD0Ev
++ __ZN15CAHDecBorageAvcD1Ev
++ __ZN15CAHDecBorageAvcD2Ev
++ __ZN15CAHDecBorageAvx10isLfPadDisEv
++ __ZN15CAHDecBorageAvx11decHdrCSizeEj
++ __ZN15CAHDecBorageAvx11decHdrYSizeEj
++ __ZN15CAHDecBorageAvx11initPictureEjjb
++ __ZN15CAHDecBorageAvx12decodeBufferEv
++ __ZN15CAHDecBorageAvx12startPictureEj
++ __ZN15CAHDecBorageAvx13DecodePictureEjj
++ __ZN15CAHDecBorageAvx13decHdrCStrideEv
++ __ZN15CAHDecBorageAvx13decHdrYStrideEv
++ __ZN15CAHDecBorageAvx13getTileEndCTUEjj
++ __ZN15CAHDecBorageAvx13populateTilesEv
++ __ZN15CAHDecBorageAvx14decHdrCLinAddrEj
++ __ZN15CAHDecBorageAvx14decHdrYLinAddrEj
++ __ZN15CAHDecBorageAvx14populateSlicesEj
++ __ZN15CAHDecBorageAvx14setVPInstrFifoEj
++ __ZN15CAHDecBorageAvx15freeWorkBuf_PPSEPv
++ __ZN15CAHDecBorageAvx15freeWorkBuf_SPSEv
++ __ZN15CAHDecBorageAvx15getTileIdxAboveEj
++ __ZN15CAHDecBorageAvx15getTileStartCTUEjj
++ __ZN15CAHDecBorageAvx15populateAvdWorkEj
++ __ZN15CAHDecBorageAvx16allocWorkBuf_PPSEPvS0_S0_
++ __ZN15CAHDecBorageAvx16allocWorkBuf_SPSEPv
++ __ZN15CAHDecBorageAvx16decodeBufferSizeEv
++ __ZN15CAHDecBorageAvx17getPPSWorkBufSizeEPvS0_
++ __ZN15CAHDecBorageAvx18populateClearTilesEv
++ __ZN15CAHDecBorageAvx20getUpscaleConvolveX0Eiii
++ __ZN15CAHDecBorageAvx21populateTileRegistersEP16AvxTileRegistersj
++ __ZN15CAHDecBorageAvx21updateCommonRegistersEj
++ __ZN15CAHDecBorageAvx22calc_az_left_tile_sizeEiiiiiiii
++ __ZN15CAHDecBorageAvx22calc_lf_left_tile_sizeEiiiiiiiii
++ __ZN15CAHDecBorageAvx22calc_lr_left_tile_sizeEiiiiiiiii
++ __ZN15CAHDecBorageAvx22getUpscaleConvolveStepEii
++ __ZN15CAHDecBorageAvx22ppsWorkBufSizeIncreaseEPvS0_
++ __ZN15CAHDecBorageAvx23populateAvxVPDependencyEv
++ __ZN15CAHDecBorageAvx23populateCommonRegistersEv
++ __ZN15CAHDecBorageAvx24populateAddressRegistersEv
++ __ZN15CAHDecBorageAvx24populatePictureRegistersEv
++ __ZN15CAHDecBorageAvx25populateSequenceRegistersEv
++ __ZN15CAHDecBorageAvx27calc_lf_above_pix_tile_sizeEiiiiiiii
++ __ZN15CAHDecBorageAvx27populateDecryptionRegistersEv
++ __ZN15CAHDecBorageAvx4initEv
++ __ZN15CAHDecBorageAvxC2EP14CAVDAvxDecoder
++ __ZN15CAHDecBorageAvxD0Ev
++ __ZN15CAHDecBorageAvxD1Ev
++ __ZN15CAHDecBorageAvxD2Ev
++ __ZN15CAHDecBorageLgh11decHdrCSizeEj
++ __ZN15CAHDecBorageLgh11decHdrYSizeEj
++ __ZN15CAHDecBorageLgh11initPictureEjjb
++ __ZN15CAHDecBorageLgh12decodeBufferEv
++ __ZN15CAHDecBorageLgh12getSWRStrideEjjjj
++ __ZN15CAHDecBorageLgh12startPictureEj
++ __ZN15CAHDecBorageLgh13DecodePictureEj
++ __ZN15CAHDecBorageLgh13decHdrCStrideEv
++ __ZN15CAHDecBorageLgh13decHdrYStrideEv
++ __ZN15CAHDecBorageLgh13getTileEndCTUEjj
++ __ZN15CAHDecBorageLgh13populateTilesEv
++ __ZN15CAHDecBorageLgh14clearSegBufferEv
++ __ZN15CAHDecBorageLgh14decHdrCLinAddrEj
++ __ZN15CAHDecBorageLgh14decHdrYLinAddrEj
++ __ZN15CAHDecBorageLgh14populateSlicesEj
++ __ZN15CAHDecBorageLgh14setVPInstrFifoEj
++ __ZN15CAHDecBorageLgh15freeWorkBuf_PPSEPv
++ __ZN15CAHDecBorageLgh15freeWorkBuf_SPSEv
++ __ZN15CAHDecBorageLgh15getTileIdxAboveEj
++ __ZN15CAHDecBorageLgh15getTileStartCTUEjj
++ __ZN15CAHDecBorageLgh15populateAvdWorkEj
++ __ZN15CAHDecBorageLgh16allocWorkBuf_PPSEPvS0_S0_
++ __ZN15CAHDecBorageLgh16allocWorkBuf_SPSEPv
++ __ZN15CAHDecBorageLgh16decodeBufferSizeEv
++ __ZN15CAHDecBorageLgh21populateTileRegistersEP16LghTileRegisters
++ __ZN15CAHDecBorageLgh21updateCommonRegistersEj
++ __ZN15CAHDecBorageLgh23populateCommonRegistersEv
++ __ZN15CAHDecBorageLgh24populatePictureRegistersEv
++ __ZN15CAHDecBorageLgh25populateSequenceRegistersEv
++ __ZN15CAHDecBorageLgh4initEv
++ __ZN15CAHDecBorageLghC2EP14CAVDLghDecoder
++ __ZN15CAHDecBorageLghD0Ev
++ __ZN15CAHDecBorageLghD1Ev
++ __ZN15CAHDecBorageLghD2Ev
++ __ZN15CAHDecKopsiaAvc11decHdrCSizeEj
++ __ZN15CAHDecKopsiaAvc11decHdrYSizeEj
++ __ZN15CAHDecKopsiaAvc11initPictureEjjb
++ __ZN15CAHDecKopsiaAvc12decodeBufferEv
++ __ZN15CAHDecKopsiaAvc12getSWRStrideEjjjj
++ __ZN15CAHDecKopsiaAvc13decHdrCStrideEv
++ __ZN15CAHDecKopsiaAvc13decHdrYStrideEv
++ __ZN15CAHDecKopsiaAvc13getTileEndCTUEjj
++ __ZN15CAHDecKopsiaAvc14decHdrCLinAddrEj
++ __ZN15CAHDecKopsiaAvc14decHdrYLinAddrEj
++ __ZN15CAHDecKopsiaAvc14populateSlicesEj
++ __ZN15CAHDecKopsiaAvc14setVPInstrFifoEj
++ __ZN15CAHDecKopsiaAvc15copyScalingListER15AvcScalingListsR13AvcQtMatCoeffPhS4_S4_i
++ __ZN15CAHDecKopsiaAvc15freeWorkBuf_PPSEPv
++ __ZN15CAHDecKopsiaAvc15freeWorkBuf_SPSEv
++ __ZN15CAHDecKopsiaAvc15getTileIdxAboveEj
++ __ZN15CAHDecKopsiaAvc15getTileStartCTUEjj
++ __ZN15CAHDecKopsiaAvc15populateAvdWorkEj
++ __ZN15CAHDecKopsiaAvc16allocWorkBuf_PPSEPvS0_S0_
++ __ZN15CAHDecKopsiaAvc16allocWorkBuf_SPSEPv
++ __ZN15CAHDecKopsiaAvc16decodeBufferSizeEv
++ __ZN15CAHDecKopsiaAvc21updateCommonRegistersEj
++ __ZN15CAHDecKopsiaAvc22populateSliceRegistersEP17AvcSliceRegistersi
++ __ZN15CAHDecKopsiaAvc23populateCommonRegistersEv
++ __ZN15CAHDecKopsiaAvc24populatePictureRegistersEv
++ __ZN15CAHDecKopsiaAvc25AvcPicScalingListFallBackEP8_sAvcSPSP8_sAvcPPS
++ __ZN15CAHDecKopsiaAvc25AvcSeqScalingListFallBackEP8_sAvcSPS
++ __ZN15CAHDecKopsiaAvc25populateSequenceRegistersEv
++ __ZN15CAHDecKopsiaAvc4initEv
++ __ZN15CAHDecKopsiaAvcC2EP14CAVDAvcDecoder
++ __ZN15CAHDecKopsiaAvcD0Ev
++ __ZN15CAHDecKopsiaAvcD1Ev
++ __ZN15CAHDecKopsiaAvcD2Ev
++ __ZN15CAHDecKopsiaAvx10isLfPadDisEv
++ __ZN15CAHDecKopsiaAvx11decHdrCSizeEj
++ __ZN15CAHDecKopsiaAvx11decHdrYSizeEj
++ __ZN15CAHDecKopsiaAvx11initPictureEjjb
++ __ZN15CAHDecKopsiaAvx12decodeBufferEv
++ __ZN15CAHDecKopsiaAvx12startPictureEj
++ __ZN15CAHDecKopsiaAvx13DecodePictureEjj
++ __ZN15CAHDecKopsiaAvx13decHdrCStrideEv
++ __ZN15CAHDecKopsiaAvx13decHdrYStrideEv
++ __ZN15CAHDecKopsiaAvx13getTileEndCTUEjj
++ __ZN15CAHDecKopsiaAvx13populateTilesEv
++ __ZN15CAHDecKopsiaAvx14decHdrCLinAddrEj
++ __ZN15CAHDecKopsiaAvx14decHdrYLinAddrEj
++ __ZN15CAHDecKopsiaAvx14populateSlicesEj
++ __ZN15CAHDecKopsiaAvx14setVPInstrFifoEj
++ __ZN15CAHDecKopsiaAvx15freeWorkBuf_PPSEPv
++ __ZN15CAHDecKopsiaAvx15freeWorkBuf_SPSEv
++ __ZN15CAHDecKopsiaAvx15getTileIdxAboveEj
++ __ZN15CAHDecKopsiaAvx15getTileStartCTUEjj
++ __ZN15CAHDecKopsiaAvx15populateAvdWorkEj
++ __ZN15CAHDecKopsiaAvx16allocWorkBuf_PPSEPvS0_S0_
++ __ZN15CAHDecKopsiaAvx16allocWorkBuf_SPSEPv
++ __ZN15CAHDecKopsiaAvx16decodeBufferSizeEv
++ __ZN15CAHDecKopsiaAvx17getPPSWorkBufSizeEPvS0_
++ __ZN15CAHDecKopsiaAvx18populateClearTilesEv
++ __ZN15CAHDecKopsiaAvx20getUpscaleConvolveX0Eiii
++ __ZN15CAHDecKopsiaAvx21populateTileRegistersEP16AvxTileRegistersj
++ __ZN15CAHDecKopsiaAvx21updateCommonRegistersEj
++ __ZN15CAHDecKopsiaAvx22calc_az_left_tile_sizeEiiiiiiii
++ __ZN15CAHDecKopsiaAvx22calc_lf_left_tile_sizeEiiiiiiiii
++ __ZN15CAHDecKopsiaAvx22calc_lr_left_tile_sizeEiiiiiiiii
++ __ZN15CAHDecKopsiaAvx22getUpscaleConvolveStepEii
++ __ZN15CAHDecKopsiaAvx22ppsWorkBufSizeIncreaseEPvS0_
++ __ZN15CAHDecKopsiaAvx23populateAvxVPDependencyEv
++ __ZN15CAHDecKopsiaAvx23populateCommonRegistersEv
++ __ZN15CAHDecKopsiaAvx24populateAddressRegistersEv
++ __ZN15CAHDecKopsiaAvx24populatePictureRegistersEv
++ __ZN15CAHDecKopsiaAvx25populateSequenceRegistersEv
++ __ZN15CAHDecKopsiaAvx27calc_lf_above_pix_tile_sizeEiiiiiiii
++ __ZN15CAHDecKopsiaAvx27populateDecryptionRegistersEv
++ __ZN15CAHDecKopsiaAvx4initEv
++ __ZN15CAHDecKopsiaAvxC2EP14CAVDAvxDecoder
++ __ZN15CAHDecKopsiaAvxD0Ev
++ __ZN15CAHDecKopsiaAvxD1Ev
++ __ZN15CAHDecKopsiaAvxD2Ev
++ __ZN15CAHDecKopsiaLgh11decHdrCSizeEj
++ __ZN15CAHDecKopsiaLgh11decHdrYSizeEj
++ __ZN15CAHDecKopsiaLgh11initPictureEjjb
++ __ZN15CAHDecKopsiaLgh12decodeBufferEv
++ __ZN15CAHDecKopsiaLgh12getSWRStrideEjjjj
++ __ZN15CAHDecKopsiaLgh12startPictureEj
++ __ZN15CAHDecKopsiaLgh13DecodePictureEj
++ __ZN15CAHDecKopsiaLgh13decHdrCStrideEv
++ __ZN15CAHDecKopsiaLgh13decHdrYStrideEv
++ __ZN15CAHDecKopsiaLgh13getTileEndCTUEjj
++ __ZN15CAHDecKopsiaLgh13populateTilesEv
++ __ZN15CAHDecKopsiaLgh14clearSegBufferEv
++ __ZN15CAHDecKopsiaLgh14decHdrCLinAddrEj
++ __ZN15CAHDecKopsiaLgh14decHdrYLinAddrEj
++ __ZN15CAHDecKopsiaLgh14populateSlicesEj
++ __ZN15CAHDecKopsiaLgh14setVPInstrFifoEj
++ __ZN15CAHDecKopsiaLgh15freeWorkBuf_PPSEPv
++ __ZN15CAHDecKopsiaLgh15freeWorkBuf_SPSEv
++ __ZN15CAHDecKopsiaLgh15getTileIdxAboveEj
++ __ZN15CAHDecKopsiaLgh15getTileStartCTUEjj
++ __ZN15CAHDecKopsiaLgh15populateAvdWorkEj
++ __ZN15CAHDecKopsiaLgh16allocWorkBuf_PPSEPvS0_S0_
++ __ZN15CAHDecKopsiaLgh16allocWorkBuf_SPSEPv
++ __ZN15CAHDecKopsiaLgh16decodeBufferSizeEv
++ __ZN15CAHDecKopsiaLgh21populateTileRegistersEP16LghTileRegisters
++ __ZN15CAHDecKopsiaLgh21updateCommonRegistersEj
++ __ZN15CAHDecKopsiaLgh23populateCommonRegistersEv
++ __ZN15CAHDecKopsiaLgh24populatePictureRegistersEv
++ __ZN15CAHDecKopsiaLgh25populateSequenceRegistersEv
++ __ZN15CAHDecKopsiaLgh4initEv
++ __ZN15CAHDecKopsiaLghC2EP14CAVDLghDecoder
++ __ZN15CAHDecKopsiaLghD0Ev
++ __ZN15CAHDecKopsiaLghD1Ev
++ __ZN15CAHDecKopsiaLghD2Ev
++ __ZN16CAHDecBorageHevc11decHdrCSizeEj
++ __ZN16CAHDecBorageHevc11decHdrYSizeEj
++ __ZN16CAHDecBorageHevc11initPictureEjjb
++ __ZN16CAHDecBorageHevc12decodeBufferEv
++ __ZN16CAHDecBorageHevc12getMVmemInfoEiP20_avd_client_mem_infoPj
++ __ZN16CAHDecBorageHevc12getSWRStrideEjjjj
++ __ZN16CAHDecBorageHevc13decHdrCStrideEv
++ __ZN16CAHDecBorageHevc13decHdrYStrideEv
++ __ZN16CAHDecBorageHevc13getTileEndCTUEjj
++ __ZN16CAHDecBorageHevc14decHdrCLinAddrEj
++ __ZN16CAHDecBorageHevc14decHdrYLinAddrEj
++ __ZN16CAHDecBorageHevc14populateSlicesEj
++ __ZN16CAHDecBorageHevc14setVPInstrFifoEj
++ __ZN16CAHDecBorageHevc15copyScalingListER16HevcScalingListsR14HevcQtMatCoeffjR25_hevc_scaling_list_data_t
++ __ZN16CAHDecBorageHevc15freeWorkBuf_PPSEPv
++ __ZN16CAHDecBorageHevc15freeWorkBuf_SPSEv
++ __ZN16CAHDecBorageHevc15getTileIdxAboveEj
++ __ZN16CAHDecBorageHevc15getTileStartCTUEjj
++ __ZN16CAHDecBorageHevc15populateAvdWorkEj
++ __ZN16CAHDecBorageHevc16allocWorkBuf_PPSEPvS0_S0_
++ __ZN16CAHDecBorageHevc16allocWorkBuf_SPSEPv
++ __ZN16CAHDecBorageHevc16decodeBufferSizeEv
++ __ZN16CAHDecBorageHevc17getTileHdrMemInfoEiP17_Tile_hdr_buffs_t
++ __ZN16CAHDecBorageHevc21updateCommonRegistersEj
++ __ZN16CAHDecBorageHevc22populateSliceRegistersEP18HevcSliceRegistersi
++ __ZN16CAHDecBorageHevc23populateCommonRegistersEv
++ __ZN16CAHDecBorageHevc24populatePictureRegistersEv
++ __ZN16CAHDecBorageHevc25populateSequenceRegistersEv
++ __ZN16CAHDecBorageHevc4initEv
++ __ZN16CAHDecBorageHevcD0Ev
++ __ZN16CAHDecBorageHevcD1Ev
++ __ZN16CAHDecBorageHevcD2Ev
++ __ZN16CAHDecKopsiaHevc11decHdrCSizeEj
++ __ZN16CAHDecKopsiaHevc11decHdrYSizeEj
++ __ZN16CAHDecKopsiaHevc11initPictureEjjb
++ __ZN16CAHDecKopsiaHevc12decodeBufferEv
++ __ZN16CAHDecKopsiaHevc12getMVmemInfoEiP20_avd_client_mem_infoPj
++ __ZN16CAHDecKopsiaHevc12getSWRStrideEjjjj
++ __ZN16CAHDecKopsiaHevc13decHdrCStrideEv
++ __ZN16CAHDecKopsiaHevc13decHdrYStrideEv
++ __ZN16CAHDecKopsiaHevc13getTileEndCTUEjj
++ __ZN16CAHDecKopsiaHevc14decHdrCLinAddrEj
++ __ZN16CAHDecKopsiaHevc14decHdrYLinAddrEj
++ __ZN16CAHDecKopsiaHevc14populateSlicesEj
++ __ZN16CAHDecKopsiaHevc14setVPInstrFifoEj
++ __ZN16CAHDecKopsiaHevc15copyScalingListER16HevcScalingListsR14HevcQtMatCoeffjR25_hevc_scaling_list_data_t
++ __ZN16CAHDecKopsiaHevc15freeWorkBuf_PPSEPv
++ __ZN16CAHDecKopsiaHevc15freeWorkBuf_SPSEv
++ __ZN16CAHDecKopsiaHevc15getTileIdxAboveEj
++ __ZN16CAHDecKopsiaHevc15getTileStartCTUEjj
++ __ZN16CAHDecKopsiaHevc15populateAvdWorkEj
++ __ZN16CAHDecKopsiaHevc16allocWorkBuf_PPSEPvS0_S0_
++ __ZN16CAHDecKopsiaHevc16allocWorkBuf_SPSEPv
++ __ZN16CAHDecKopsiaHevc16decodeBufferSizeEv
++ __ZN16CAHDecKopsiaHevc17getTileHdrMemInfoEiP17_Tile_hdr_buffs_t
++ __ZN16CAHDecKopsiaHevc21updateCommonRegistersEj
++ __ZN16CAHDecKopsiaHevc22populateSliceRegistersEP18HevcSliceRegistersi
++ __ZN16CAHDecKopsiaHevc23populateCommonRegistersEv
++ __ZN16CAHDecKopsiaHevc24populatePictureRegistersEv
++ __ZN16CAHDecKopsiaHevc25populateSequenceRegistersEv
++ __ZN16CAHDecKopsiaHevc4initEv
++ __ZN16CAHDecKopsiaHevcD0Ev
++ __ZN16CAHDecKopsiaHevcD1Ev
++ __ZN16CAHDecKopsiaHevcD2Ev
++ __ZTI15CAHDecBorageAvc
++ __ZTI15CAHDecBorageAvx
++ __ZTI15CAHDecBorageLgh
++ __ZTI15CAHDecKopsiaAvc
++ __ZTI15CAHDecKopsiaAvx
++ __ZTI15CAHDecKopsiaLgh
++ __ZTI16CAHDecBorageHevc
++ __ZTI16CAHDecKopsiaHevc
++ __ZTS15CAHDecBorageAvc
++ __ZTS15CAHDecBorageAvx
++ __ZTS15CAHDecBorageLgh
++ __ZTS15CAHDecKopsiaAvc
++ __ZTS15CAHDecKopsiaAvx
++ __ZTS15CAHDecKopsiaLgh
++ __ZTS16CAHDecBorageHevc
++ __ZTS16CAHDecKopsiaHevc
++ __ZTV15CAHDecBorageAvc
++ __ZTV15CAHDecBorageAvx
++ __ZTV15CAHDecBorageLgh
++ __ZTV15CAHDecKopsiaAvc
++ __ZTV15CAHDecKopsiaAvx
++ __ZTV15CAHDecKopsiaLgh
++ __ZTV16CAHDecBorageHevc
++ __ZTV16CAHDecKopsiaHevc
+CStrings:
++ "~CAHDecBorageLgh"
++ "~CAHDecKopsiaLgh"
+- "AppleAVD: INFO: %{public}s(): Borage AVD is not supported in this AppleAVD driver!!!\n"
+- "AppleAVD: INFO: %{public}s(): Kopsia AVD is not supported in this AppleAVD driver!!!\n"
+- "createBorageAvcDecoder"
+- "createBorageAvxDecoder"
+- "createBorageHevcDecoder"
+- "createBorageLghDecoder"
+- "createKopsiaAvcDecoder"
+- "createKopsiaAvxDecoder"
+- "createKopsiaHevcDecoder"
+- "createKopsiaLghDecoder"
+```

@@ -1,0 +1,62 @@
+## libTelephonyUtilDynamic.dylib
+
+> `/usr/lib/libTelephonyUtilDynamic.dylib`
+
+```diff
+
+ 6567.1.0.0.0
+-  __TEXT.__text: 0x84c74
++  __TEXT.__text: 0x84c44
+   __TEXT.__init_offsets: 0x10
+   __TEXT.__objc_methlist: 0x2a4
+   __TEXT.__const: 0xa138
+Functions:
+~ __ZN3ctu20RestDispatchListener34getOrCreateResourceConnection_syncERKNSt3__110shared_ptrIKNS_4rest23RestConnectorSourceBaseEEENS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE : 1036 -> 1032
+~ __ZNK3ctu4rest27WatchableRestResourceHelper3mapENSt3__18functionIFvRKNS_22RestResourceConnectionEEEE : 172 -> 168
+~ __ZN3ctu22ConnectionRestResource22handleRestMessage_PUSHERNS_19RestResourceContextERKNS_8PathViewE : 728 -> 724
+~ __ZN3ctu15RestXpcListener34getOrCreateResourceConnection_syncERKN3xpc10connectionENSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE : 972 -> 964
+~ __ZN3ctu15RestXpcListener17handleClientErrorEN3xpc10connectionENS1_6objectE : 380 -> 376
+~ __ZN3ctu15RestXpcListener26getResourceConnection_syncERKN3xpc10connectionE : 152 -> 148
+~ __ZN3ctu16TreeRestResource23handleDroppedConnectionERNS_19RestResourceContextERKNS_8PathViewERKNSt3__110shared_ptrINS_22RestResourceConnectionEEE : 340 -> 336
+~ __ZN3ctu22ConnectionRestResource15eraseConnectionERKNSt3__110shared_ptrINS_22RestResourceConnectionEEE : 244 -> 252
+~ __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE6assignEmRKS4_ : 340 -> 336
+~ __ZNKSt3__111basic_regexIcNS_12regex_traitsIcEEE29__match_at_start_posix_nosubsINS_9allocatorINS_9sub_matchIPKcEEEEEEbS8_S8_RNS_13match_resultsIS8_T_EENS_15regex_constants15match_flag_typeEb : 1304 -> 1308
+~ __ZNSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE6resizeEm : 284 -> 288
+~ __ZNSt3__114__split_bufferIPNS_7__stateIcEENS_9allocatorIS3_EEE12emplace_backIJS3_EEEvDpOT_ : 256 -> 260
+~ __ZNSt3__114__split_bufferIPNS_7__stateIcEERNS_9allocatorIS3_EEE12emplace_backIJS3_EEEvDpOT_ : 256 -> 260
+~ __ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEE20__add_front_capacityEv : 548 -> 552
+~ __ZN3ctu15MapRestResource21handleRestMessage_GETERNS_19RestResourceContextERKNS_8PathViewE : 908 -> 900
+~ __ZNK3ctu15MapRestResource15getResourceListEv : 396 -> 392
+~ __ZN5boost9container3dtl9flat_treeINSt3__18weak_ptrIN3ctu22RestResourceConnectionEEENS_11move_detail8identityIS7_EENS3_10owner_lessIS7_EEvE13insert_uniqueEOS7_ : 368 -> 372
+~ _TelephonyUtilLogBinaryToBuffer : 576 -> 580
+~ __ZNK3ctu20PropertyRestResource27handleMessage_DumpState_GETERNS_19RestResourceContextE : 228 -> 224
+~ __ZNK3ctu20PropertyRestResource16getResourceArrayEv : 396 -> 392
+~ __ZN3ctu20PropertyRestResource23handleDroppedConnectionERNS_19RestResourceContextERKNS_8PathViewERKNSt3__110shared_ptrINS_22RestResourceConnectionEEE : 172 -> 168
+~ __ZNK3ctu20PropertyRestResource23getWatchedResourceArrayEv : 352 -> 344
+~ ____ZNK16MockTimerService11cancelTimerENSt3__110shared_ptrIvEE_block_invoke : 532 -> 528
+~ __ZNSt3__16vectorINS_5tupleIJNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS1_IJN3ctu8TimeTypeENS_6chrono8durationIxNS_5ratioILl1ELl1000000EEEEEEEEEEENS5_ISG_EEE24__emplace_back_slow_pathIJRKS7_RKSF_EEEPSG_DpOT_ : 360 -> 368
+~ __ZN3ctu20RestDispatchListener26getResourceConnection_syncEPKNS_4rest23RestConnectorSourceBaseE : 148 -> 144
+~ __ZZN8dispatch5asyncIZNK3ctu20SharedSynchronizableINS1_20RestDispatchListenerEE15execute_wrappedIZNS3_17handleClientErrorEPKNS1_4rest23RestConnectorSourceBaseEN3xpc6objectEE3$_0EEvOT_EUlvE_EEvP16dispatch_queue_sNSt3__110unique_ptrISD_NSI_14default_deleteISD_EEEEENUlPvE_8__invokeESN_ : 436 -> 432
+~ __ZNK3ctu4rest27WatchableRestResourceHelper17hasActiveWatchersEv : 64 -> 60
+~ __ZNK3ctu4rest27WatchableRestResourceHelper15getWatcherNamesEv : 348 -> 344
+~ __ZN3ctu4rest27WatchableRestResourceHelper13removeWatcherERKNSt3__110shared_ptrINS_22RestResourceConnectionEEE : 196 -> 192
+~ __ZN3ctu4rest27WatchableRestResourceHelper14removeWatchersEv : 260 -> 256
+~ __ZN3ctu19RequestRestResource31handleMessage_RootDumpState_GETERNS_19RestResourceContextE : 424 -> 420
+~ __ZNK3ctu19RequestRestResource16getResourceArrayEv : 396 -> 392
+~ _mav_buffer_queue_enqueue_internal : 852 -> 860
+~ __ZNSt3__114__split_bufferIPPvNS_9allocatorIS2_EEE12emplace_backIJRS2_EEEvDpOT_ : 256 -> 260
+~ __ZN3ctu16TreeRestResource21handleRestMessage_GETERNS_19RestResourceContextERKNS_8PathViewE : 516 -> 512
+~ __ZN3ctu16TreeRestResource23handleMessage_DumpStateERNS_19RestResourceContextENS_8PathViewE : 532 -> 528
+~ ____ZN8dispatch9sync_implIZN3ctu9LogServer20flushStartupMessagesEvE3$_0EEvP16dispatch_queue_sOT_NSt3__117integral_constantIbLb1EEE_block_invoke : 1500 -> 1536
+~ __ZNSt3__15dequeINS_10shared_ptrIN3ctu10LogMessageEEENS_9allocatorIS4_EEED2B9nqe220106Ev : 316 -> 328
+~ __ZN3ctu23MemoryBufferedLogWriter5writeENSt3__110shared_ptrINS_10LogMessageEEE : 880 -> 884
+~ __ZNSt3__114__split_bufferIPNS_10shared_ptrIN3ctu10LogMessageEEENS_9allocatorIS5_EEE12emplace_backIJRS5_EEEvDpOT_ : 252 -> 256
+~ __ZN3ctu22ConnectionRestResource33getAllConnectionsForXpcConnectionERKN3xpc10connectionE : 228 -> 224
+~ __ZN3ctu22ConnectionRestResource21handleRestMessage_GETERNS_19RestResourceContextERKNS_8PathViewE : 516 -> 512
+~ __ZNK3ctu22ConnectionRestResource18pingAllConnectionsEv : 528 -> 524
+~ __ZNK3ctu26AssertionRestResourceState23createNotifyForProviderEv : 164 -> 156
+~ __ZN3ctu21AssertionRestResource27handleMessage_DumpState_GETERNS_19RestResourceContextE : 432 -> 428
+~ __ZN3ctu21AssertionRestResource26handleMessage_Resource_POPERNS_19RestResourceContextERKNS_8PathViewENS_4llvm9StringRefE : 448 -> 440
+~ __ZNK3ctu21AssertionRestResource16getResourceArrayEv : 396 -> 392
+~ __ZN3ctu21AssertionRestResource23handleDroppedConnectionERNS_19RestResourceContextERKNS_8PathViewERKNSt3__110shared_ptrINS_22RestResourceConnectionEEE : 512 -> 500
+```
