@@ -1,0 +1,35 @@
+## MusicSnippetsUI
+
+> `FileSystem/System/Library/Snippets/UIPlugins/MusicSnippetsUI.bundle/Localizable.loctable`
+
+```diff
+
++en.%@, Explicit = "%@, Explicit"
+ en.%lld song(s), %@.NSStringLocalizedFormatKey = "%#@value@"
+ en.%lld song(s), %@.value.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
+ en.%lld song(s), %@.value.NSStringFormatValueTypeKey = "lld"
+
+ en.%lld song(s).value.NSStringFormatValueTypeKey = "lld"
+ en.%lld song(s).value.one = "%lld song"
+ en.%lld song(s).value.other = "%lld songs"
++en.Album = "Album"
++en.An error occurred, please try again later. = "An error occurred, please try again later."
++en.Artist = "Artist"
+ en.Dismiss = "Dismiss"
+ en.Edit = "Edit"
+ en.OK = "OK"
++en.Ok = "Ok"
+ en.Open Playlist in Library = "Open Playlist in Library"
++en.Open the Apple Music app and review the privacy information to play. = "Open the Apple Music app and review the privacy information to play."
+ en.Pause = "Pause"
+ en.Play = "Play"
+ en.Playlist = "Playlist"
+
+ en.Playlist • %lld songs.value.one = "Playlist • %lld song"
+ en.Playlist • %lld songs.value.other = "Playlist • %lld songs"
+ en.Save Playlist = "Save Playlist"
++en.Song = "Song"
++en.Station = "Station"
++en.Subscribe to Apple Music to play. = "Subscribe to Apple Music to play."
+
+```

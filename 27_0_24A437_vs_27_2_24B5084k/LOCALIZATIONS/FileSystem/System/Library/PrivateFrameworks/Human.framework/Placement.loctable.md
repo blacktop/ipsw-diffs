@@ -1,0 +1,35 @@
+## Human
+
+> `FileSystem/System/Library/PrivateFrameworks/Human.framework/Placement.loctable`
+
+```text
+en.placement.correctlyPlaced.primary = "You got it."
+en.placement.correctlyPlaced.variant1 = "That works."
+en.placement.correctlyPlaced.variant2 = "Great."
+en.placement.lowConfidence.primary = "Try adjusting your position for better visibility."
+en.placement.lowConfidence.variant1 = "Make sure your whole body is in view."
+en.placement.lowConfidence.variant2 = "Check that your entire body is visible."
+en.placement.moveBack.primary = "Move back"
+en.placement.moveBack.sitToStand.primary = "Move back and sit down."
+en.placement.moveBack.sitToStand.variant1 = "Step back from your device and sit down."
+en.placement.moveBack.sitToStand.variant2 = "Back up and sit down."
+en.placement.moveBack.variant1 = "Step back from your device."
+en.placement.moveBack.variant2 = "Back up away from your device."
+en.placement.moveForward.primary = "Move forward"
+en.placement.moveForward.variant1 = "Step toward your device."
+en.placement.moveForward.variant2 = "Move forward toward your device."
+en.placement.moveLeft.primary = "Move to your left"
+en.placement.moveLeft.variant1 = "Take a step to your left."
+en.placement.moveLeft.variant2 = "Step to your left."
+en.placement.moveRight.primary = "Move to your right"
+en.placement.moveRight.variant1 = "Take a step to your right."
+en.placement.moveRight.variant2 = "Step to your right."
+en.placement.multiplePotentialUsers.primary = "Multiple potential users detected. Ensure you are the only person clearly in view."
+en.placement.placementTimeout.primary = "Let’s pause here"
+en.placement.placementTimeout.variant1 = "Take a short break."
+en.placement.placementTimeout.variant2 = "Rest for a moment."
+en.placement.repositionInView.primary = "Reposition yourself so your whole body is in view."
+en.placement.userOccluded.primary = "I can’t see you anymore."
+en.placement.userOccluded.variant1 = "Make sure your whole body is in view."
+en.placement.userOccluded.variant2 = "Check that your entire body is visible."
+```

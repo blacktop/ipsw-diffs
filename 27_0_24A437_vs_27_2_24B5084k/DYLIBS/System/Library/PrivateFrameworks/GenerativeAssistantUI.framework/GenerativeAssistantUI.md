@@ -1,0 +1,99 @@
+## GenerativeAssistantUI
+
+> `/System/Library/PrivateFrameworks/GenerativeAssistantUI.framework/GenerativeAssistantUI`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_reflstr`
+
+```diff
+
+-3600.38.6.0.0
+-  __TEXT.__text: 0x30c24
++3605.4.1.0.0
++  __TEXT.__text: 0x31350
+   __TEXT.__objc_methlist: 0x440
+-  __TEXT.__const: 0x46e4
++  __TEXT.__const: 0x46d4
+   __TEXT.__gcc_except_tab: 0x10
+-  __TEXT.__cstring: 0x798
++  __TEXT.__cstring: 0x7b8
+   __TEXT.__dlopen_cstrs: 0x5a
+   __TEXT.__constg_swiftt: 0xdbc
+-  __TEXT.__swift5_typeref: 0x37a4
++  __TEXT.__swift5_typeref: 0x3752
+   __TEXT.__swift5_reflstr: 0xb45
+-  __TEXT.__swift5_fieldmd: 0xec0
++  __TEXT.__swift5_fieldmd: 0xecc
+   __TEXT.__swift5_types: 0x11c
+   __TEXT.__swift5_proto: 0x324
+   __TEXT.__swift5_assocty: 0x220
+
+   __TEXT.__swift_as_entry: 0x14
+   __TEXT.__swift_as_ret: 0x10
+   __TEXT.__swift_as_cont: 0x20
+-  __TEXT.__unwind_info: 0x11d0
++  __TEXT.__unwind_info: 0x11f0
+   __TEXT.__eh_frame: 0xcc8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x328
+   __DATA_CONST.__objc_protorefs: 0x20
+-  __DATA_CONST.__got: 0x5b0
++  __DATA_CONST.__got: 0x5c8
+   __AUTH_CONST.__const: 0x1c98
+   __AUTH_CONST.__objc_const: 0xd78
+-  __AUTH_CONST.__auth_got: 0xe30
++  __AUTH_CONST.__auth_got: 0xe10
+   __AUTH.__objc_data: 0x168
+-  __AUTH.__data: 0xae8
+-  __DATA.__data: 0x14b0
++  __AUTH.__data: 0xae0
++  __DATA.__data: 0x14d0
+   __DATA.__common: 0x58
+   __DATA_DIRTY.__data: 0x4e8
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+
+   - /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices
+   - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
+   - /System/Library/PrivateFrameworks/GenerativeAssistantCommon.framework/GenerativeAssistantCommon
++  - /System/Library/PrivateFrameworks/GenerativeModels.framework/GenerativeModels
+   - /System/Library/PrivateFrameworks/GenerativePartnerService.framework/GenerativePartnerService
+   - /System/Library/PrivateFrameworks/IntelligenceFlow.framework/IntelligenceFlow
+   - /System/Library/PrivateFrameworks/LinkServices.framework/LinkServices
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 1276
+-  Symbols:   858
+-  CStrings:  60
++  Functions: 1280
++  Symbols:   857
++  CStrings:  61
+ 
+Symbols:
++ _get_witness_table 7SwiftUI6VStackVyAA15ModifiedContentVyAA6ZStackVyAA05TupleE0VyAA4TextV_AA4ViewP07SnippetB0E8readSize8onChangeQrySo6CGSizeVc_tFQOyAmAE0M10TapGesture5count7performQrSi_yyctFQOyAK_Qo__Qo_AEyAEyAmNE10engageableQryFQOyAK_Qo_AA24_ForegroundStyleModifierVyAA5ColorVGGAA13_OffsetEffectVGSgQPGGAA022_EnvironmentKeyWritingW0VyAA4FontVSgGGGAaLHPyHC
++ _symbolic _____Sg 16GenerativeModels19DisplayImagePayloadV
++ _symbolic _____Sg_ABt 16GenerativeModels19DisplayImagePayloadV
++ _symbolic ___________y_____yAA_Qo__Qo______yADy_____yAA_Qo______y_____GG_____GSgt 7SwiftUI4TextV AA4ViewP07SnippetB0E8readSize8onChangeQrySo6CGSizeVc_tFQO AeAE0H10TapGesture5count7performQrSi_yyctFQO AA15ModifiedContentV AeFE10engageableQryFQO AA24_ForegroundStyleModifierV AA5ColorV AA13_OffsetEffectV
++ _symbolic _____y___________y___________y_____yAD_Qo__Qo______yAGy_____yAD_Qo______y_____GG_____GSgQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA12TupleContentV AA4TextV AA0D0P07SnippetB0E8readSize8onChangeQrySo6CGSizeVc_tFQO AmAE0N10TapGesture5count7performQrSi_yyctFQO AA08ModifiedI0V AmNE10engageableQryFQO AA24_ForegroundStyleModifierV AA5ColorV AA13_OffsetEffectV
++ _symbolic _____y___________y_____y_____y___________y_____yAF_Qo__Qo_ACyACy_____yAF_Qo______y_____GG_____GSgQPGG_____y_____SgGGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA15ModifiedContentV AA6ZStackV AA05TupleI0V AA4TextV AA0D0P07SnippetB0E8readSize8onChangeQrySo6CGSizeVc_tFQO AqAE0P10TapGesture5count7performQrSi_yyctFQO AqRE10engageableQryFQO AA24_ForegroundStyleModifierV AA5ColorV AA13_OffsetEffectV AA022_EnvironmentKeyWritingZ0V AA4FontV
++ _symbolic _____y_____y___________y_____yAC_Qo__Qo______yAFy_____yAC_Qo______y_____GG_____GSgQPGG 7SwiftUI6ZStackV AA12TupleContentV AA4TextV AA4ViewP07SnippetB0E8readSize8onChangeQrySo6CGSizeVc_tFQO AiAE0K10TapGesture5count7performQrSi_yyctFQO AA08ModifiedE0V AiJE10engageableQryFQO AA24_ForegroundStyleModifierV AA5ColorV AA13_OffsetEffectV
++ _symbolic _____y_____y_____y___________y_____yAD_Qo__Qo_AAyAAy_____yAD_Qo______y_____GG_____GSgQPGG_____y_____SgGG 7SwiftUI15ModifiedContentV AA6ZStackV AA05TupleD0V AA4TextV AA4ViewP07SnippetB0E8readSize8onChangeQrySo6CGSizeVc_tFQO AkAE0L10TapGesture5count7performQrSi_yyctFQO AkLE10engageableQryFQO AA24_ForegroundStyleModifierV AA5ColorV AA13_OffsetEffectV AA022_EnvironmentKeyWritingV0V AA4FontV
++ _symbolic _____y_____y_____y_____y___________y_____yAE_Qo__Qo_AByABy_____yAE_Qo______y_____GG_____GSgQPGG_____y_____SgGGG 7SwiftUI6VStackV AA15ModifiedContentV AA6ZStackV AA05TupleE0V AA4TextV AA4ViewP07SnippetB0E8readSize8onChangeQrySo6CGSizeVc_tFQO AmAE0M10TapGesture5count7performQrSi_yyctFQO AmNE10engageableQryFQO AA24_ForegroundStyleModifierV AA5ColorV AA13_OffsetEffectV AA022_EnvironmentKeyWritingW0V AA4FontV
+- _get_witness_table 7SwiftUI6VStackVyAA12TupleContentVy019GenerativeAssistantB022CriticalDisclaimerViewVSg_AA08ModifiedE0VyAA6ZStackVyAEyAA4TextV_AA0J0P07SnippetB0E8readSize8onChangeQrySo6CGSizeVc_tFQOyAqAE0Q10TapGesture5count7performQrSi_yyctFQOyAO_Qo__Qo_SgAKyAKyAqRE10engageableQryFQOyAO_Qo_AA24_ForegroundStyleModifierVyAA5ColorVGGAA13_OffsetEffectVGSgQPGGAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGQPGGAaPHPyHC
+- _swift_bridgeObjectRelease_n
+- _symbolic _____Sg 18AppIntentsServices0bC0O14InterfaceIdiomO
+- _symbolic _____Sg______y_____y_____y___________y_____yAF_Qo__Qo_SgACyACy_____yAF_Qo______y_____GG_____GSgQPGG_____y_____SgGGt 21GenerativeAssistantUI22CriticalDisclaimerViewV 05SwiftC015ModifiedContentV AD6ZStackV AD05TupleI0V AD4TextV AD0F0P07SnippetC0E8readSize8onChangeQrySo6CGSizeVc_tFQO AnDE0P10TapGesture5count7performQrSi_yyctFQO AnOE10engageableQryFQO AD24_ForegroundStyleModifierV AD5ColorV AD13_OffsetEffectV AD022_EnvironmentKeyWritingZ0V AD4FontV
+- _symbolic ___________y_____yAA_Qo__Qo_Sg_____yAEy_____yAA_Qo______y_____GG_____GSgt 7SwiftUI4TextV AA4ViewP07SnippetB0E8readSize8onChangeQrySo6CGSizeVc_tFQO AeAE0H10TapGesture5count7performQrSi_yyctFQO AA15ModifiedContentV AeFE10engageableQryFQO AA24_ForegroundStyleModifierV AA5ColorV AA13_OffsetEffectV
+- _symbolic _____y___________y_____Sg______y_____yACy___________y_____yAH_Qo__Qo_SgAFyAFy_____yAH_Qo______y_____GG_____GSgQPGG_____y_____SgGGQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA12TupleContentV 019GenerativeAssistantB0018CriticalDisclaimerD0V AA08ModifiedI0V AA6ZStackV AA4TextV AA0D0P07SnippetB0E8readSize8onChangeQrySo6CGSizeVc_tFQO AtAE0T10TapGesture5count7performQrSi_yyctFQO AtUE10engageableQryFQO AA24_ForegroundStyleModifierV AA5ColorV AA13_OffsetEffectV AA30_EnvironmentKeyWritingModifierV AA4FontV
+- _symbolic _____y___________y___________y_____yAD_Qo__Qo_Sg_____yAHy_____yAD_Qo______y_____GG_____GSgQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA12TupleContentV AA4TextV AA0D0P07SnippetB0E8readSize8onChangeQrySo6CGSizeVc_tFQO AmAE0N10TapGesture5count7performQrSi_yyctFQO AA08ModifiedI0V AmNE10engageableQryFQO AA24_ForegroundStyleModifierV AA5ColorV AA13_OffsetEffectV
+- _symbolic _____y_____y_____Sg______y_____yABy___________y_____yAG_Qo__Qo_SgAEyAEy_____yAG_Qo______y_____GG_____GSgQPGG_____y_____SgGGQPGG 7SwiftUI6VStackV AA12TupleContentV 019GenerativeAssistantB022CriticalDisclaimerViewV AA08ModifiedE0V AA6ZStackV AA4TextV AA0J0P07SnippetB0E8readSize8onChangeQrySo6CGSizeVc_tFQO ApAE0Q10TapGesture5count7performQrSi_yyctFQO ApQE10engageableQryFQO AA24_ForegroundStyleModifierV AA5ColorV AA13_OffsetEffectV AA30_EnvironmentKeyWritingModifierV AA4FontV
+- _symbolic _____y_____y______Qo__Qo_Sg 7SwiftUI4ViewP07SnippetB0E8readSize8onChangeQrySo6CGSizeVc_tFQO AcAE0G10TapGesture5count7performQrSi_yyctFQO AA4TextV
+- _symbolic _____y_____y_____y___________y_____yAD_Qo__Qo_SgAAyAAy_____yAD_Qo______y_____GG_____GSgQPGG_____y_____SgGG 7SwiftUI15ModifiedContentV AA6ZStackV AA05TupleD0V AA4TextV AA4ViewP07SnippetB0E8readSize8onChangeQrySo6CGSizeVc_tFQO AkAE0L10TapGesture5count7performQrSi_yyctFQO AkLE10engageableQryFQO AA24_ForegroundStyleModifierV AA5ColorV AA13_OffsetEffectV AA022_EnvironmentKeyWritingV0V AA4FontV
+CStrings:
++ "providerDisplayImagePayload"
+```

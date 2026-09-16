@@ -1,0 +1,17 @@
+## SPIHelper-iOS
+
+> Group: ⬆️ Updated
+
+```diff
+
+ 		SIOCGIFEXPENSIVE
+ 		SIOCGIFFLAGS
+ 		SIOCGIFFUNCTIONALTYPE
+-		SIOCGIFMTU)
++		SIOCGIFLINKQUALITYMETRIC
++		SIOCGIFMTU
++		SIOCGIFULTRACONSTRAINED)
+ )
+ 
+ (deny syscall-unix)
+```

@@ -1,0 +1,35 @@
+## HealthRecordsUI
+
+> `FileSystem/System/Library/PrivateFrameworks/HealthRecordsUI.framework/HealthRecordsUI-Localizable.loctable`
+
+```diff
+
+ en.CAREPLAN_GOAL_DETAIL_TITLE = "Care Plan (Goal)"
+ en.CATEGORY_CONTAINER_SEARCH_LABS = "Search Lab Results"
+ en.CATEGORY_CONTAINER_SEGMENT_A_TO_Z = "A-Z"
++en.CATEGORY_CONTAINER_SEGMENT_GROUPINGS = "Groupings"
+ en.CATEGORY_CONTAINER_SEGMENT_LATEST = "Latest"
+ en.CATEGORY_CONTAINER_SEGMENT_OUT_OF_RANGE = "Out of Range"
+-en.CATEGORY_CONTAINER_SEGMENT_PANELS = "Panels"
+ en.CATEGORY_CONTAINER_SEGMENT_TIMELINE = "Last Updated"
+ en.CLINICAL_ACCOUNTS_ACCOUNT_ERROR = "Sign In to Update Health Records"
+ en.CLINICAL_ACCOUNTS_ADD_ANOTHER_ACCOUNT_BUTTON = "Add Another Account"
+
+ en.PDF_REPORT_CHART_B_COLUMN_4_TITLE = "Flag"
+ en.PDF_REPORT_CHART_C_COLUMN_1_TITLE = "Allergy"
+ en.PDF_REPORT_CHART_C_COLUMN_2_TITLE = "Onset"
+-en.PDF_REPORT_CHART_C_COLUMN_3_TITLE = "Last Occurence"
++en.PDF_REPORT_CHART_C_COLUMN_3_TITLE = "Last Occurrence"
+ en.PDF_REPORT_CHART_C_COLUMN_4_TITLE = "Recorded"
+ en.PDF_REPORT_CHART_C_COLUMN_5_TITLE = "Provider"
+ en.PDF_REPORT_CONTINUED_FROM_PAGE_%@ = "Continued from Page %1$@"
+
+ en.PDF_REPORT_YEAR_RANGE_FORMAT_%@_TO_%@ = "%1$@-%2$@"
+ en.PDF_SHARING_BUTTON_TITLE = "Export PDF"
+ en.PDF_SHARING_BUTTON_TITLE_SETTINGS = "Export Health Records to PDF"
++en.PDF_SHARING_BUTTON_TITLE_SHORT = "PDF"
+ en.PDF_SHARING_CONFIG_ACCOUNT_TITLE = "Accounts"
+ en.PDF_SHARING_CONFIG_CATEGORY_TITLE = "Record Categories"
+ en.PDF_SHARING_CONFIG_HEADER_TITLE = "Health Records"
+
+```

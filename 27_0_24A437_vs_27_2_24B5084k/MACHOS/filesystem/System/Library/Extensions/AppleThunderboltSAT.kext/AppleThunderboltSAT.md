@@ -1,0 +1,255 @@
+## AppleThunderboltSAT
+
+> `/System/Library/Extensions/AppleThunderboltSAT.kext/AppleThunderboltSAT`
+
+### Sections with Same Size but Changed Content
+
+- `__DATA.__data`
+- `__DATA_CONST.__kalloc_var`
+
+```diff
+
+-113.0.0.0.0
+-  __TEXT.__cstring: 0x10dcf
+-  __TEXT.__const: 0x50
+-  __TEXT_EXEC.__text: 0x23b00
+-  __TEXT_EXEC.__auth_stubs: 0x570
++120.0.0.502.1
++  __TEXT.__cstring: 0x11736
++  __TEXT.__os_log: 0x277
++  __TEXT.__const: 0xc0
++  __TEXT_EXEC.__text: 0x26390
++  __TEXT_EXEC.__auth_stubs: 0x670
+   __DATA.__data: 0x7f0
+-  __DATA.__common: 0x589
+-  __DATA_CONST.__mod_init_func: 0x78
+-  __DATA_CONST.__mod_term_func: 0x78
+-  __DATA_CONST.__const: 0x4c18
+-  __DATA_CONST.__kalloc_type: 0x400
++  __DATA.__common: 0x601
++  __DATA_CONST.__mod_init_func: 0x90
++  __DATA_CONST.__mod_term_func: 0x90
++  __DATA_CONST.__const: 0x59f8
++  __DATA_CONST.__kalloc_type: 0x4c0
+   __DATA_CONST.__kalloc_var: 0x2d0
+-  __DATA_CONST.__auth_got: 0x2b8
+-  __DATA_CONST.__got: 0xe8
+-  Functions: 557
+-  Symbols:   1117
+-  CStrings:  1025
++  __DATA_CONST.__auth_got: 0x338
++  __DATA_CONST.__got: 0x110
++  Functions: 641
++  Symbols:   1268
++  CStrings:  1065
+ 
+Symbols:
++ /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/AppleThunderboltSAT/install/TempContent/Objects/AppleThunderboltSAT.build/AppleThunderboltSAT.build/Objects-normal/arm64e/AIATimeSyncHandler.o
++ /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/AppleThunderboltSAT/install/TempContent/Objects/AppleThunderboltSAT.build/AppleThunderboltSAT.build/Objects-normal/arm64e/AppleThunderboltSATTimeSyncPort.o
++ /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/AppleThunderboltSAT/install/TempContent/Objects/AppleThunderboltSAT.build/AppleThunderboltSAT.build/Objects-normal/arm64e/AppleThunderboltSATTimeSyncUserClient.o
++ AIATimeSyncHandler.cpp
++ AppleThunderboltSATTimeSyncPort.cpp
++ AppleThunderboltSATTimeSyncUserClient.cpp
++ _GLOBAL__sub_I_AIATimeSyncHandler.cpp
++ _GLOBAL__sub_I_AppleThunderboltSATTimeSyncPort.cpp
++ _GLOBAL__sub_I_AppleThunderboltSATTimeSyncUserClient.cpp
++ _IOLockSleepDeadline
++ _IOLockWakeup
++ _OSCompareAndSwap
++ _ZN18AIATimeSyncHandler12processEntryEN7libkern11bounded_ptrIK10_log_entryN9os_detail21panic_trapping_policyEEEP13logSourceInfo
++ __Z15AIATimeSyncInitv
++ __Z19AIATimeSyncTeardownv
++ __Z45AppleThunderboltSATGlobalsEnsureTimeSyncStartv
++ __ZL12sTimeSyncLog
++ __ZL13kAIARidTables
++ __ZL13sHandlerCount
++ __ZL13sTimeSyncPort
++ __ZL14kGTBBridgeBase
++ __ZL17sAIARoutingOption
++ __ZL17sTimeSyncInitOnce
++ __ZL22AIATimeSyncHandler_ktv
++ __ZL35AppleThunderboltSATTimeSyncPort_ktv
++ __ZL41AppleThunderboltSATTimeSyncUserClient_ktv
++ __ZL9kAIARoles
++ __ZL9sHandlers
++ __ZL9sampleCIOPvP31AppleThunderboltSATTimeSyncPort
++ __ZL9sampleOneP31AppleThunderboltSATTimeSyncPortP15IOAIAController38AppleThunderboltAIATimestampPairSourcePK14AIAAccessByDie
++ __ZN10IOWorkLoop8workLoopEv
++ __ZN11IOAIAAccess5blastEPNS_17HWAccessOperationEy
++ __ZN11IOAIAAccess5writeEyhPKhy
++ __ZN11IOAIAAccess9metaClassE
++ __ZN12IOUserClient19clientMemoryForTypeEjPjPP18IOMemoryDescriptor
++ __ZN12IOUserClient24registerNotificationPortEP8ipc_portjj
++ __ZN14RTBuddyService24addBinaryLogEntryHandlerEP28RTBuddyBinaryLogEntryHandler
++ __ZN14RTBuddyService9metaClassE
++ __ZN15IOAIAController9metaClassE
++ __ZN18AIATimeSyncHandler10gMetaClassE
++ __ZN18AIATimeSyncHandler10superClassE
++ __ZN18AIATimeSyncHandler12initWithPortEP31AppleThunderboltSATTimeSyncPort
++ __ZN18AIATimeSyncHandler12processEntryEN7libkern11bounded_ptrIK10_log_entryN9os_detail21panic_trapping_policyEEEP13logSourceInfo
++ __ZN18AIATimeSyncHandler4freeEv
++ __ZN18AIATimeSyncHandler6createEP31AppleThunderboltSATTimeSyncPort
++ __ZN18AIATimeSyncHandler7logTypeEv
++ __ZN18AIATimeSyncHandler9MetaClassC1Ev
++ __ZN18AIATimeSyncHandler9MetaClassC2Ev
++ __ZN18AIATimeSyncHandler9MetaClassD0Ev
++ __ZN18AIATimeSyncHandler9MetaClassD1Ev
++ __ZN18AIATimeSyncHandler9metaClassE
++ __ZN18AIATimeSyncHandlerC1EPK11OSMetaClass
++ __ZN18AIATimeSyncHandlerC1Ev
++ __ZN18AIATimeSyncHandlerC2EPK11OSMetaClass
++ __ZN18AIATimeSyncHandlerC2Ev
++ __ZN18AIATimeSyncHandlerD0Ev
++ __ZN18AIATimeSyncHandlerD1Ev
++ __ZN18AIATimeSyncHandlerD2Ev
++ __ZN18AIATimeSyncHandlerdlEPvm
++ __ZN18AIATimeSyncHandlernwEm
++ __ZN18IOTimerEventSource16timerEventSourceEP8OSObjectPFvS1_PS_E
++ __ZN23AppleThunderboltSATPort10incRxCountEv
++ __ZN28RTBuddyBinaryLogEntryHandler10gMetaClassE
++ __ZN28RTBuddyBinaryLogEntryHandler17processSourceInfoEP13logSourceInfoP8OSStringS3_
++ __ZN28RTBuddyBinaryLogEntryHandler19processSourcedEntryEhN7libkern11bounded_ptrIK10_log_entryN9os_detail21panic_trapping_policyEEEP13logSourceInfo
++ __ZN28RTBuddyBinaryLogEntryHandlerC2EPK11OSMetaClass
++ __ZN28RTBuddyBinaryLogEntryHandlerD2Ev
++ __ZN31AppleThunderboltSATTimeSyncPort10drainSinceEPyP20sat_timesync_entry_tjS0_S0_
++ __ZN31AppleThunderboltSATTimeSyncPort10gMetaClassE
++ __ZN31AppleThunderboltSATTimeSyncPort10superClassE
++ __ZN31AppleThunderboltSATTimeSyncPort12samplerFiredEv
++ __ZN31AppleThunderboltSATTimeSyncPort12stopSamplingEv
++ __ZN31AppleThunderboltSATTimeSyncPort13addCapabilityE19sat_timesync_caps_t
++ __ZN31AppleThunderboltSATTimeSyncPort13samplerActionEP8OSObjectP18IOTimerEventSource
++ __ZN31AppleThunderboltSATTimeSyncPort13startSamplingEPFvPvPS_ES0_j
++ __ZN31AppleThunderboltSATTimeSyncPort17stopSamplingGatedEP8OSObjectPvS2_S2_S2_
++ __ZN31AppleThunderboltSATTimeSyncPort4freeEv
++ __ZN31AppleThunderboltSATTimeSyncPort4stopEP9IOService
++ __ZN31AppleThunderboltSATTimeSyncPort5startEP9IOService
++ __ZN31AppleThunderboltSATTimeSyncPort6appendERK20sat_timesync_entry_t
++ __ZN31AppleThunderboltSATTimeSyncPort6createEv
++ __ZN31AppleThunderboltSATTimeSyncPort8fillInfoEP19sat_timesync_info_t
++ __ZN31AppleThunderboltSATTimeSyncPort9MetaClassC1Ev
++ __ZN31AppleThunderboltSATTimeSyncPort9MetaClassC2Ev
++ __ZN31AppleThunderboltSATTimeSyncPort9MetaClassD0Ev
++ __ZN31AppleThunderboltSATTimeSyncPort9MetaClassD1Ev
++ __ZN31AppleThunderboltSATTimeSyncPort9metaClassE
++ __ZN31AppleThunderboltSATTimeSyncPortC1EPK11OSMetaClass
++ __ZN31AppleThunderboltSATTimeSyncPortC1Ev
++ __ZN31AppleThunderboltSATTimeSyncPortC2EPK11OSMetaClass
++ __ZN31AppleThunderboltSATTimeSyncPortC2Ev
++ __ZN31AppleThunderboltSATTimeSyncPortD0Ev
++ __ZN31AppleThunderboltSATTimeSyncPortD1Ev
++ __ZN31AppleThunderboltSATTimeSyncPortD2Ev
++ __ZN31AppleThunderboltSATTimeSyncPortdlEPvm
++ __ZN31AppleThunderboltSATTimeSyncPortnwEm
++ __ZN34AppleThunderboltSATClientDataQueue21discardStaleAbortWaitEPKc
++ __ZN37AppleThunderboltSATTimeSyncUserClient10clientDiedEv
++ __ZN37AppleThunderboltSATTimeSyncUserClient10gMetaClassE
++ __ZN37AppleThunderboltSATTimeSyncUserClient10superClassE
++ __ZN37AppleThunderboltSATTimeSyncUserClient11clientCloseEv
++ __ZN37AppleThunderboltSATTimeSyncUserClient12initWithTaskEP4taskPvjP12OSDictionary
++ __ZN37AppleThunderboltSATTimeSyncUserClient14externalMethodEjP25IOExternalMethodArgumentsP24IOExternalMethodDispatchP8OSObjectPv
++ __ZN37AppleThunderboltSATTimeSyncUserClient5startEP9IOService
++ __ZN37AppleThunderboltSATTimeSyncUserClient9MetaClassC1Ev
++ __ZN37AppleThunderboltSATTimeSyncUserClient9MetaClassC2Ev
++ __ZN37AppleThunderboltSATTimeSyncUserClient9MetaClassD0Ev
++ __ZN37AppleThunderboltSATTimeSyncUserClient9MetaClassD1Ev
++ __ZN37AppleThunderboltSATTimeSyncUserClient9metaClassE
++ __ZN37AppleThunderboltSATTimeSyncUserClientC1EPK11OSMetaClass
++ __ZN37AppleThunderboltSATTimeSyncUserClientC1Ev
++ __ZN37AppleThunderboltSATTimeSyncUserClientC2EPK11OSMetaClass
++ __ZN37AppleThunderboltSATTimeSyncUserClientC2Ev
++ __ZN37AppleThunderboltSATTimeSyncUserClientD0Ev
++ __ZN37AppleThunderboltSATTimeSyncUserClientD1Ev
++ __ZN37AppleThunderboltSATTimeSyncUserClientD2Ev
++ __ZN37AppleThunderboltSATTimeSyncUserClientdlEPvm
++ __ZN37AppleThunderboltSATTimeSyncUserClientnwEm
++ __ZN9IOService16resourceMatchingEPKcP12OSDictionary
++ __ZN9IOService19getMatchingServicesEP12OSDictionary
++ __ZN9IOService22waitForMatchingServiceEP12OSDictionaryy
++ __ZN9os_detail21panic_trapping_policy4trapEPKc
++ __ZNK18AIATimeSyncHandler12getMetaClassEv
++ __ZNK18AIATimeSyncHandler9MetaClass5allocEv
++ __ZNK31AppleThunderboltSATTimeSyncPort12getMetaClassEv
++ __ZNK31AppleThunderboltSATTimeSyncPort9MetaClass5allocEv
++ __ZNK37AppleThunderboltSATTimeSyncUserClient12getMetaClassEv
++ __ZNK37AppleThunderboltSATTimeSyncUserClient9MetaClass5allocEv
++ __ZTV18AIATimeSyncHandler
++ __ZTV31AppleThunderboltSATTimeSyncPort
++ __ZTV37AppleThunderboltSATTimeSyncUserClient
++ __ZTV8OSObject
++ __ZTVN18AIATimeSyncHandler9MetaClassE
++ __ZTVN31AppleThunderboltSATTimeSyncPort9MetaClassE
++ __ZTVN37AppleThunderboltSATTimeSyncUserClient9MetaClassE
++ __ZZ15AIATimeSyncInitvE11_os_log_fmt
++ __ZZ15AIATimeSyncInitvE11_os_log_fmt_0
++ __ZZL13readDeviceGTBP11IOAIAAccessjPyE11_os_log_fmt
++ __ZZL18createTimeSyncPortvE11_os_log_fmt
++ __ZZL18createTimeSyncPortvE11_os_log_fmt_0
++ __ZZL18createTimeSyncPortvE11_os_log_fmt_1
++ __ZZL18createTimeSyncPortvE11_os_log_fmt_2
++ __ZZL18registerAMLHandlerP14RTBuddyServicePKcE11_os_log_fmt
++ __ZZL23registerHandlersForRolePKcE11_os_log_fmt
++ __ZZL23registerHandlersForRolePKcE11_os_log_fmt_0
++ __ZZL24triggerDeviceCaptureReqsP14AIAAccessByDiePP10OSIteratorE11_os_log_fmt
++ __ZZL9sampleOneP31AppleThunderboltSATTimeSyncPortP15IOAIAController38AppleThunderboltAIATimestampPairSourcePK14AIAAccessByDieE11_os_log_fmt
++ __ZZN18AIATimeSyncHandler12processEntryEN7libkern11bounded_ptrIK10_log_entryN9os_detail21panic_trapping_policyEEEP13logSourceInfoE11_os_log_fmt
++ __ZZN23AppleThunderboltSATPort13sendDirectiveERK15sat_directive_tE20kalloc_type_view_812
++ __ZZN23AppleThunderboltSATPort13sendDirectiveERK15sat_directive_tE20kalloc_type_view_822
++ __ZZN23AppleThunderboltSATPort13sendDirectiveERK15sat_directive_tE20kalloc_type_view_886
++ __ZZN29AppleThunderboltSATConnection17newControlCommandEvE21kalloc_type_view_1370
++ __ZZN29AppleThunderboltSATConnection22destroyControlCommandsEvE21kalloc_type_view_1342
++ __os_log_internal
++ _mach_absolute_time
++ _os_log_create
+- __ZZN23AppleThunderboltSATPort13sendDirectiveERK15sat_directive_tE20kalloc_type_view_809
+- __ZZN23AppleThunderboltSATPort13sendDirectiveERK15sat_directive_tE20kalloc_type_view_819
+- __ZZN23AppleThunderboltSATPort13sendDirectiveERK15sat_directive_tE20kalloc_type_view_883
+- __ZZN29AppleThunderboltSATConnection17newControlCommandEvE21kalloc_type_view_1366
+- __ZZN29AppleThunderboltSATConnection22destroyControlCommandsEvE21kalloc_type_view_1338
+CStrings:
++ "\"%s\" @%s:%d"
++ "1.0.104"
++ "120.0.0.502.1"
++ "12111112122212121111111221"
++ "121111121222121211111122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222"
++ "1212"
++ "?"
++ "AIATimeSyncHandler"
++ "AIATimeSyncInit - AML handler role=%s failed: 0x%x"
++ "AIATimeSyncInit - IOResources not found"
++ "AIATimeSyncInit - RTBuddyService role=%s not found, skipping"
++ "AIATimeSyncInit - TimeSyncPort published"
++ "AIATimeSyncInit - complete: %u/%u roles, %u handlers, sampler %u ms"
++ "AIATimeSyncInit - failed to attach/start TimeSyncPort"
++ "AIATimeSyncInit - failed to create TimeSyncPort"
++ "AIATimeSyncInit - service role=%s is not RTBuddyService"
++ "AIATimeSyncInit - starting timesync subsystem"
++ "AppleThunderboltSATTimeSyncPort"
++ "AppleThunderboltSATTimeSyncUserClient"
++ "IOAIAController"
++ "IOAIARegAccess"
++ "IOKit"
++ "OSBoundedPtr.h"
++ "RTBuddyService"
++ "SATClientDataQueue<%p>::%s discarding a stale abort request\n"
++ "SATClientDataQueue<%p>::initParams - ERROR: IOLockAlloc failed\n"
++ "SATClientDataQueue<%p>::wait_for_data returns without data (aborted by STOP_WAIT), sleep_counter: %llu\n"
++ "This bounded_ptr is pointing to memory outside of what can be represented by a native pointer."
++ "a0-ccpu0"
++ "a1-ccpu0"
++ "aiahostrouting"
++ "bounded_ptr<T>::operator->: Accessing a member through this pointer would access memory outside of the bounds set originally"
++ "com.apple.driver.AppleThunderboltSAT"
++ "no fActiveConsumers"
++ "role"
++ "site.AIATimeSyncHandler"
++ "site.AppleThunderboltSATTimeSyncPort"
++ "site.AppleThunderboltSATTimeSyncUserClient"
++ "timesync"
++ "ts_capture_req write to %s link=%u failed: 0x%x"
++ "ts_gtb_read %s link=%u failed: 0x%x"
++ "ts_rtbuddy role=%s size=%u (expected >= 16)"
++ "ts_sample side=%d rid=%u failed: 0x%x"
+- "1.0.101"
+- "113"
+- "1211111212221212111111122"
+```

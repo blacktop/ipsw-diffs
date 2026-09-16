@@ -1,0 +1,183 @@
+## HomeUtilityServices
+
+> `/System/Library/PrivateFrameworks/HomeUtilityServices.framework/HomeUtilityServices`
+
+```diff
+
+-490.1.4.0.0
+-  __TEXT.__text: 0xb7f58
++504.0.0.0.0
++  __TEXT.__text: 0xc0a68
+   __TEXT.__objc_methlist: 0x92c
+-  __TEXT.__const: 0xad18
+-  __TEXT.__swift5_typeref: 0x1c84
+-  __TEXT.__oslogstring: 0x4a5a
+-  __TEXT.__cstring: 0x290b
+-  __TEXT.__constg_swiftt: 0x1e34
++  __TEXT.__const: 0xbcb8
++  __TEXT.__swift5_typeref: 0x1f10
++  __TEXT.__oslogstring: 0x4bea
++  __TEXT.__cstring: 0x2a5b
++  __TEXT.__constg_swiftt: 0x2050
+   __TEXT.__swift5_builtin: 0xa0
+-  __TEXT.__swift5_reflstr: 0x16ab
+-  __TEXT.__swift5_fieldmd: 0x2790
+-  __TEXT.__swift5_assocty: 0x288
+-  __TEXT.__swift5_proto: 0x92c
+-  __TEXT.__swift5_types: 0x2d0
+-  __TEXT.__swift_as_entry: 0x228
+-  __TEXT.__swift_as_ret: 0x284
+-  __TEXT.__swift_as_cont: 0x38c
++  __TEXT.__swift5_reflstr: 0x17fb
++  __TEXT.__swift5_fieldmd: 0x2af8
++  __TEXT.__swift5_assocty: 0x2b8
++  __TEXT.__swift5_proto: 0xa1c
++  __TEXT.__swift5_types: 0x314
++  __TEXT.__swift_as_entry: 0x238
++  __TEXT.__swift_as_ret: 0x29c
++  __TEXT.__swift_as_cont: 0x3b4
+   __TEXT.__swift5_capture: 0x95c
+   __TEXT.__swift5_mpenum: 0x20
+   __TEXT.__swift5_protos: 0x10
+-  __TEXT.__unwind_info: 0x38f0
+-  __TEXT.__eh_frame: 0x7ae0
++  __TEXT.__unwind_info: 0x3c70
++  __TEXT.__eh_frame: 0x8068
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_selrefs: 0x638
+   __DATA_CONST.__objc_protorefs: 0x18
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x6dc0
++  __AUTH_CONST.__const: 0x7808
+   __AUTH_CONST.__objc_const: 0x1dc8
+-  __AUTH_CONST.__auth_got: 0xef8
++  __AUTH_CONST.__auth_got: 0xf00
+   __AUTH.__objc_data: 0x14b8
+   __AUTH.__data: 0x9a0
+-  __DATA.__data: 0x19a8
++  __DATA.__data: 0x1c28
+   __DATA.__common: 0x240
+   __DATA_DIRTY.__objc_data: 0x100
+   __DATA_DIRTY.__data: 0x468
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 3611
+-  Symbols:   1353
+-  CStrings:  671
++  Functions: 3861
++  Symbols:   1434
++  CStrings:  691
+ 
+Symbols:
++ ___swift_memcpy104_8
++ ___swift_memcpy296_8
++ ___swift_memcpy8_8
++ _associated conformance 19HomeUtilityServices11TariffFlatsV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLOSHAASQ
++ _associated conformance 19HomeUtilityServices11TariffFlatsV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 19HomeUtilityServices11TariffFlatsV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19HomeUtilityServices11TariffPeaksV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLOSHAASQ
++ _associated conformance 19HomeUtilityServices11TariffPeaksV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 19HomeUtilityServices11TariffPeaksV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19HomeUtilityServices11TariffTiersV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLOSHAASQ
++ _associated conformance 19HomeUtilityServices11TariffTiersV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 19HomeUtilityServices11TariffTiersV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19HomeUtilityServices12PeakIntervalV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLOSHAASQ
++ _associated conformance 19HomeUtilityServices12PeakIntervalV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 19HomeUtilityServices12PeakIntervalV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19HomeUtilityServices14ApplicablePeakV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLOSHAASQ
++ _associated conformance 19HomeUtilityServices14ApplicablePeakV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 19HomeUtilityServices14ApplicablePeakV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19HomeUtilityServices14TariffMetadataV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLOSHAASQ
++ _associated conformance 19HomeUtilityServices14TariffMetadataV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 19HomeUtilityServices14TariffMetadataV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19HomeUtilityServices14TariffPeakTypeOSHAASQ
++ _associated conformance 19HomeUtilityServices14TariffPeakTypeOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 19HomeUtilityServices14TariffResponseV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLOSHAASQ
++ _associated conformance 19HomeUtilityServices14TariffResponseV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 19HomeUtilityServices14TariffResponseV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19HomeUtilityServices18TariffDateIntervalV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLOSHAASQ
++ _associated conformance 19HomeUtilityServices18TariffDateIntervalV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 19HomeUtilityServices18TariffDateIntervalV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _get_enum_tag_for_layout_string 19HomeUtilityServices11TariffFlatsVSg
++ _get_enum_tag_for_layout_string 19HomeUtilityServices11TariffPeaksVSg
++ _symbolic SDyS2SGSg
++ _symbolic Say_____G 19HomeUtilityServices12PeakIntervalV
++ _symbolic Say_____G 19HomeUtilityServices14ApplicablePeakV
++ _symbolic Say_____G 19HomeUtilityServices14TariffPeakTypeO
++ _symbolic Say_____G 19HomeUtilityServices18TariffDateIntervalV
++ _symbolic Say_____GSg 19HomeUtilityServices14ApplicablePeakV
++ _symbolic Say_____GSg 19HomeUtilityServices18TariffDateIntervalV
++ _symbolic _____ 19HomeUtilityServices11TariffFlatsV
++ _symbolic _____ 19HomeUtilityServices11TariffFlatsV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLO
++ _symbolic _____ 19HomeUtilityServices11TariffPeaksV
++ _symbolic _____ 19HomeUtilityServices11TariffPeaksV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLO
++ _symbolic _____ 19HomeUtilityServices11TariffTiersV
++ _symbolic _____ 19HomeUtilityServices11TariffTiersV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLO
++ _symbolic _____ 19HomeUtilityServices12PeakIntervalV
++ _symbolic _____ 19HomeUtilityServices12PeakIntervalV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLO
++ _symbolic _____ 19HomeUtilityServices14ApplicablePeakV
++ _symbolic _____ 19HomeUtilityServices14ApplicablePeakV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLO
++ _symbolic _____ 19HomeUtilityServices14TariffMetadataV
++ _symbolic _____ 19HomeUtilityServices14TariffMetadataV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLO
++ _symbolic _____ 19HomeUtilityServices14TariffPeakTypeO
++ _symbolic _____ 19HomeUtilityServices14TariffResponseV
++ _symbolic _____ 19HomeUtilityServices14TariffResponseV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLO
++ _symbolic _____ 19HomeUtilityServices18TariffDateIntervalV
++ _symbolic _____ 19HomeUtilityServices18TariffDateIntervalV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLO
++ _symbolic _____Sg 10Foundation14DateComponentsV
++ _symbolic _____Sg 19HomeUtilityServices11TariffFlatsV
++ _symbolic _____Sg 19HomeUtilityServices11TariffPeaksV
++ _symbolic _____Sg 19HomeUtilityServices11TariffTiersV
++ _symbolic _____Sg_ABt 10Foundation14DateComponentsV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19HomeUtilityServices11TariffFlatsV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19HomeUtilityServices11TariffPeaksV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19HomeUtilityServices11TariffTiersV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19HomeUtilityServices12PeakIntervalV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19HomeUtilityServices14ApplicablePeakV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19HomeUtilityServices14TariffMetadataV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19HomeUtilityServices14TariffResponseV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19HomeUtilityServices18TariffDateIntervalV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19HomeUtilityServices11TariffFlatsV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19HomeUtilityServices11TariffPeaksV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19HomeUtilityServices11TariffTiersV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19HomeUtilityServices12PeakIntervalV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19HomeUtilityServices14ApplicablePeakV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19HomeUtilityServices14TariffMetadataV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19HomeUtilityServices14TariffResponseV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19HomeUtilityServices18TariffDateIntervalV10CodingKeys33_8B84781C1BCBFCD2D12926610DF83CABLLO
++ _type_layout_string 19HomeUtilityServices11TariffFlatsV
++ _type_layout_string 19HomeUtilityServices11TariffPeaksV
++ _type_layout_string 19HomeUtilityServices12PeakIntervalV
++ _type_layout_string 19HomeUtilityServices14ApplicablePeakV
++ _type_layout_string 19HomeUtilityServices14TariffMetadataV
++ _type_layout_string 19HomeUtilityServices14TariffResponseV
++ _type_layout_string 19HomeUtilityServices18TariffDateIntervalV
+- ___swift_memcpy208_8
+- ___swift_memcpy280_8
+CStrings:
++ "CRITICAL_PEAK"
++ "Fetching tariff information"
++ "OFF_PEAK"
++ "ON_PEAK"
++ "PARTIAL_PEAK"
++ "Request URL for tariff information API not found"
++ "SUPER_OFF_PEAK"
++ "SUPER_ON_PEAK"
++ "Tariff Information Response received."
++ "Unable to compute end date. Check DateComponents."
++ "Unable to generate Request URL for tariff information API."
++ "Unable to generate request URL for tariff information."
++ "Unable to process Tariff Information Response."
++ "Unable to sign tariff information API request"
++ "additionalChargeTypes"
++ "descriptionVariants"
++ "fetch tariff information"
++ "peakIntervalEndDateTime"
++ "tariffInformation"
++ "tariffInformation(utilityID:tariffProfileID:start:end:session:)"
+```

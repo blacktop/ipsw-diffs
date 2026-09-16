@@ -1,0 +1,217 @@
+## HealthCharts
+
+> `/System/Library/PrivateFrameworks/HealthCharts.framework/HealthCharts`
+
+```diff
+
+-7027.0.72.2.7
+-  __TEXT.__text: 0x12cd2c
+-  __TEXT.__const: 0x8aa4
+-  __TEXT.__constg_swiftt: 0x4bb8
+-  __TEXT.__swift5_typeref: 0x2a6e
++7027.1.36.2.7
++  __TEXT.__text: 0x14f4d4
++  __TEXT.__const: 0x96e4
++  __TEXT.__constg_swiftt: 0x50ac
++  __TEXT.__swift5_typeref: 0x2c1e
+   __TEXT.__swift5_builtin: 0xc8
+-  __TEXT.__swift5_reflstr: 0x10cb
+-  __TEXT.__swift5_fieldmd: 0x2a1c
+-  __TEXT.__swift5_assocty: 0xa18
+-  __TEXT.__swift5_capture: 0x2828
+-  __TEXT.__swift5_proto: 0x63c
+-  __TEXT.__swift5_types: 0x5c8
+-  __TEXT.__cstring: 0x4b7f
++  __TEXT.__swift5_reflstr: 0x11eb
++  __TEXT.__swift5_fieldmd: 0x2d50
++  __TEXT.__swift5_assocty: 0xa48
++  __TEXT.__swift5_capture: 0x2b4c
++  __TEXT.__swift5_proto: 0x718
++  __TEXT.__swift5_types: 0x640
++  __TEXT.__cstring: 0x51ff
+   __TEXT.__oslogstring: 0x42f
+-  __TEXT.__swift_as_entry: 0x40
+-  __TEXT.__swift_as_ret: 0x3c
+-  __TEXT.__swift_as_cont: 0xd0
++  __TEXT.__swift_as_entry: 0x44
++  __TEXT.__swift_as_ret: 0x40
++  __TEXT.__swift_as_cont: 0xdc
+   __TEXT.__swift5_protos: 0x30
+-  __TEXT.__swift5_mpenum: 0x64
+-  __TEXT.__unwind_info: 0x36a0
+-  __TEXT.__eh_frame: 0x188c
++  __TEXT.__swift5_mpenum: 0x6c
++  __TEXT.__unwind_info: 0x3ce8
++  __TEXT.__eh_frame: 0x1b1c
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x118
+-  __DATA_CONST.__objc_classlist: 0x10
++  __DATA_CONST.__objc_classlist: 0x18
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x1e0
+-  __DATA_CONST.__got: 0xbc8
+-  __AUTH_CONST.__const: 0xbf18
+-  __AUTH_CONST.__objc_const: 0x2f8
+-  __AUTH_CONST.__auth_got: 0x1660
+-  __AUTH.__data: 0x1ad8
+-  __DATA.__data: 0x35c0
+-  __DATA.__common: 0x90
++  __DATA_CONST.__got: 0x1140
++  __AUTH_CONST.__const: 0xd0f8
++  __AUTH_CONST.__objc_const: 0x368
++  __AUTH_CONST.__auth_got: 0x1a80
++  __AUTH.__objc_data: 0x50
++  __AUTH.__data: 0x1c90
++  __DATA.__data: 0x3e58
++  __DATA.__common: 0x80
+   - /System/Library/Frameworks/Charts.framework/Charts
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 4770
+-  Symbols:   1296
+-  CStrings:  480
++  Functions: 5235
++  Symbols:   1346
++  CStrings:  512
+ 
+Symbols:
++ __DATA__TtC12HealthChartsP33_6E5B524760DAB258B89F4667261C7FC315InlineChartData
++ __IVARS__TtC12HealthChartsP33_6E5B524760DAB258B89F4667261C7FC315InlineChartData
++ __METACLASS_DATA__TtC12HealthChartsP33_6E5B524760DAB258B89F4667261C7FC315InlineChartData
++ ___swift_closure_destructor.307Tm
++ ___swift_memcpy161_8
++ ___swift_memcpy233_8
++ ___swift_memcpy56_8
++ ___unnamed_50
++ _associated conformance 12HealthCharts20LineSeriesAttributesV0C13InterpolationOSHAASQ
++ _associated conformance 12HealthCharts24ClassificationAxisDomainVyxGAA0dE0AA1AAaEP_0B00D7Content
++ _associated conformance 12HealthCharts24ClassificationAxisDomainVyxGAA0dE0AA1TAaEP_0B09Plottable
++ _associated conformance 12HealthCharts24ClassificationAxisDomainVyxGAA0dE0AA1TAaEP_SL
++ _associated conformance 12HealthCharts26ChartModelModifier_CompactVyxGAA0cD0AA6DomainAaEP_AA04AxisG0
++ _associated conformance 12HealthCharts26ChartModelModifier_CompactVyxGAA0cdE0AA7WrappedAaEP_AA0cD0
++ _generic environment 13HealthDomains28PrimitiveClassificationScaleRzl
++ _get_witness_table 12HealthCharts10ChartModelRzAA10DateDomainV0F0RtzlAA0cD16Modifier_CompactVyxGAaBHPyHC
++ _get_witness_table 13HealthDomains28PrimitiveClassificationScaleRzl6Charts12BuilderTupleVyAC9AxisMarksVyAC0I4MarkPACE4fontyQr7SwiftUI4FontVSgFQOyAC0I10ValueLabelVyAK4TextVG_Qo_G_AGyAC0I8GridLineVGQPGAC0I7ContentHPAucZHPyHC_AxcZHPyHCHX_HC
++ _get_witness_table 6Charts18BuilderConditionalVyAA0B5TupleVyAA9AxisMarksVyAEyAA0E4TickVSg_AA0E8GridLineVSgAA0E4MarkPAAE4fontyQr7SwiftUI4FontVSgFQOyAA0E10ValueLabelVys5NeverOG_Qo_QPGG_A0_SgQPGAGyAXGGAA0E7ContentHPA2_AAA5_HPA0_AAA5_HPyHC_A1_AAA5_HpA0_AAA5_HPyHC_HCHX_HC_A3_AAA5_HPyHCHC
++ _get_witness_table 6Charts9PlottableRz06HealthA4Core23InstantaneousChartValueRzAaB5BoundAC08IntervalfG0PRpzl7SwiftUI7ForEachVySay0cA09DotSeriesV9MarkEntry33_E64DE396495F5E293C198E24618DCA49LLVyx_GGSiAI12TupleContentVyAA0fZ0PAAE9lineStyleyQrAI11StrokeStyleVFQOyAwAE15foregroundStyleyQrqd__AI10ShapeStyleRd__lFQOyAA04RuleP0V_AI5ColorVQo__Qo_Sg_AA18BuilderConditionalVyA9_yAwAE10symbolSizeyQr0D8Graphics7CGFloatVFQOyA9_yA9_yAwAE6symbolA14_Qrqd__yXE_tAI4ViewRd__lFQOyAwAEA_yQrqd__AIA0_Rd__lFQOyAA05PointP0V_A4_Qo__AI08ModifiedZ0VyAI15StrokeShapeViewVyAI6CircleVA4_AI10_ShapeViewVyA24_AI15BackgroundStyleVGGAI12_FrameLayoutVGQo_AwAEA14_yQrqd__AA0F11SymbolShapeRd__lFQOyA18__AA05BasicF11SymbolShapeVQo_GAwAEA14_A14_Qrqd__yXE_tAIA15_Rd__lFQOyA18__AI7AnyViewVQo_G_Qo_A43_GA17_GQPGGAaVHpA47_AaVHpA7_AaVHpqd__AaVHD2_A6_HO_HC_A46_AaVHPA45_AaVHPqd__AaVHD2_A44_HO_A43_AaVHPA39_AaVHPqd0__AaVHD3_A34_HO_qd0__AaVHD3_A38_HOHC_qd0__AaVHD3_A42_HOHCHC_A17_AaVHPyHCHCHX_HC_HC
++ _objc_msgSend$_value
++ _swift_retain_n
++ _swift_retain_x12
++ _swift_retain_x5
++ _swift_updateClassMetadata2
++ _symbolic G0R1_
++ _symbolic SaySdG
++ _symbolic Say_____G 12HealthCharts10AxisValuesV5LabelV
++ _symbolic _____ 12HealthCharts016HKHipFlexionKneeD14StaticChartKeyV
++ _symbolic _____ 12HealthCharts016HKMedicalHistoryA27ConcernRecordStaticChartKeyV
++ _symbolic _____ 12HealthCharts0aB22ClassificationProviderV
++ _symbolic _____ 12HealthCharts10AxisValuesV
++ _symbolic _____ 12HealthCharts10AxisValuesV5LabelV
++ _symbolic _____ 12HealthCharts15InlineChartData33_6E5B524760DAB258B89F4667261C7FC3LLC
++ _symbolic _____ 12HealthCharts19DotSeriesAttributesV17VerticalRuleStyleV
++ _symbolic _____ 12HealthCharts20LineSeriesAttributesV0C13InterpolationO
++ _symbolic _____ 12HealthCharts24ClassificationAxisDomainV
++ _symbolic _____ 12HealthCharts25HKPlankTimeStaticChartKeyV
++ _symbolic _____ 12HealthCharts26ChartModelModifier_CompactV
++ _symbolic _____ 12HealthCharts27HKKneeFlexionStaticChartKeyV
++ _symbolic _____ 12HealthCharts28HKElbowFlexionStaticChartKeyV
++ _symbolic _____ 12HealthCharts29HKOverheadSquatStaticChartKeyV
++ _symbolic _____ 12HealthCharts31HKShoulderFlexionStaticChartKeyV
++ _symbolic _____ 12HealthCharts32DailyHeartRateChartConfigurationV
++ _symbolic _____ 12HealthCharts32HKHipCircumferenceStaticChartKeyV
++ _symbolic _____ 12HealthCharts33CumulativeStepsChartConfigurationV
++ _symbolic _____ 12HealthCharts33HKAnkleDorsiflexionStaticChartKeyV
++ _symbolic _____ 12HealthCharts33IndicatorClassificationAggregatorV
++ _symbolic _____ 12HealthCharts35HKSingleLegStanceTimeStaticChartKeyV
++ _symbolic _____ 12HealthCharts35HKStandardPushUpCountStaticChartKeyV
++ _symbolic _____ 12HealthCharts36HKKneeBasedPushUpCountStaticChartKeyV
++ _symbolic _____ 12HealthCharts38ClassificationStaticChartConfigurationV
++ _symbolic _____ 12HealthCharts39HKFiveTimesSitToStandTimeStaticChartKeyV
++ _symbolic _____ 12HealthCharts39HKHipFlexionKneeExtensionStaticChartKeyV
++ _symbolic _____ 12HealthCharts43HKMedicalHistoryAllergyRecordStaticChartKeyV
++ _symbolic _____ 12HealthCharts45HKMedicalHistoryLabResultRecordStaticChartKeyV
++ _symbolic _____ 12HealthCharts45HKMedicalHistoryProcedureRecordStaticChartKeyV
++ _symbolic _____ 12HealthCharts48HKMedicalHistoryImmunizationRecordStaticChartKeyV
++ _symbolic _____ 12HealthCharts57HKMedicalHistoryQuantitativeLabResultRecordStaticChartKeyV
++ _symbolic _____Sg 12CoreGraphics7CGFloatV
++ _symbolic _____Sg 12HealthCharts19DotSeriesAttributesV17VerticalRuleStyleV
++ _symbolic _____Sg 7SwiftUI4FontV
++ _symbolic ______p 13HealthDomains7MeasureP
++ _symbolic _____ySay_____yx_GGSi_____y_____y_____y___________Qo__Qo_Sg______yAKy_____yAKyAKy_____y_____y______AGQo_______y_____y_____AG_____yAP_____GG_____GQo______yAM______Qo_G_____yAM______Qo_G_Qo_A1_GALGQPGG 7SwiftUI7ForEachV 12HealthCharts9DotSeriesV9MarkEntry33_E64DE396495F5E293C198E24618DCA49LLV AA12TupleContentV 0F005ChartS0PALE9lineStyleyQrAA06StrokeV0VFQO AnLE010foregroundV0yQrqd__AA05ShapeV0Rd__lFQO AL04RuleI0V AA5ColorV AL18BuilderConditionalV AnLE10symbolSizeyQr12CoreGraphics7CGFloatVFQO AnLE6symbolA2_Qrqd__yXE_tAA4ViewRd__lFQO AnLEARyQrqd__AaSRd__lFQO AL05PointI0V AA08ModifiedS0V AA0wY4ViewV AA6CircleV AA01_Y4ViewV AA010BackgroundV0V AA12_FrameLayoutV AnLEA2_yQrqd__AL0t6SymbolY0Rd__lFQO AL05Basict6SymbolY0V AnLEA2_A2_Qrqd__yXE_tAAA3_Rd__lFQO AA7AnyViewV
++ _symbolic _____y_____y_____yABy_____Sg______Sg_____y_____y_____G_Qo_QPGG_AMSgQPGACyAIGG 6Charts18BuilderConditionalV AA0B5TupleV AA9AxisMarksV AA0E4TickV AA0E8GridLineV AA0E4MarkPAAE4fontyQr7SwiftUI4FontVSgFQO AA0E10ValueLabelV s5NeverO
++ _symbolic _____y_____y_____y_____y_____G_Qo_G_ABy_____GQPG 6Charts12BuilderTupleV AA9AxisMarksV AA0D4MarkPAAE4fontyQr7SwiftUI4FontVSgFQO AA0D10ValueLabelV AI4TextV AA0D8GridLineV
++ _symbolic _____yq_G 12HealthCharts24ClassificationChartScaleO
++ _symbolic _____yxG 12HealthCharts26ChartModelModifier_CompactV
++ _symbolic _____yxG 12HealthCharts29MeasureClassificationObserverC
++ _symbolic _____yx_G 12HealthCharts24ClassificationChartScaleO6BucketV
++ _symbolic _____yxq_G 12HealthCharts0aB22ClassificationProviderV
++ _symbolic _____yxq_G 12HealthCharts38ClassificationStaticChartConfigurationV
++ _type_layout_string 12HealthCharts10AxisValuesV
++ _type_layout_string 12HealthCharts10AxisValuesV5LabelV
++ _type_layout_string 12HealthCharts19DotSeriesAttributesV17VerticalRuleStyleV
+- _HKQuantityTypeIdentifierBodyMassIndex
+- _HKQuantityTypeIdentifierFlightsClimbed
+- _HKQuantityTypeIdentifierPhysicalEffort
+- _HKQuantityTypeIdentifierStepCount
+- _OBJC_CLASS_$_HKUnitPreferenceController
+- ___swift_closure_destructor.240Tm
+- ___swift_memcpy177_8
+- ___swift_memcpy249_8
+- ___unnamed_47
+- _associated conformance 12HealthCharts11SleepDomainVAA04AxisD0AA1AAaDP_0B00E7Content
+- _associated conformance 12HealthCharts11SleepDomainVAA04AxisD0AA1TAaDP_0B09Plottable
+- _associated conformance 12HealthCharts11SleepDomainVAA04AxisD0AA1TAaDP_SL
+- _get_witness_table 6Charts18BuilderConditionalVyAA0B5TupleVyAA9AxisMarksVyAEyAA0E4TickVSg_AA0E8GridLineVSgAA0E10ValueLabelVys5NeverOGQPGG_ATSgQPGAGyAQGGAA0E7ContentHPAvaYHPAtaYHPyHC_AuaYHpAtaYHPyHC_HCHX_HC_AwaYHPyHCHC
+- _get_witness_table 6Charts9AxisMarksVyAA12BuilderTupleVyAA0B10ValueLabelVy7SwiftUI4TextVGSg_AA0B8GridLineVQPGGAA0B7ContentHPyHC
+- _get_witness_table 6Charts9PlottableRz06HealthA4Core23InstantaneousChartValueRzAaB5BoundAC08IntervalfG0PRpzl7SwiftUI7ForEachVySay0cA09DotSeriesV9MarkEntry33_E64DE396495F5E293C198E24618DCA49LLVyx_GGSiAA18BuilderConditionalVyAUyAUyAA0F7ContentPAAE6symbolAXQrqd__yXE_tAI4ViewRd__lFQOyAwAE15foregroundStyleyQrqd__AI10ShapeStyleRd__lFQOyAA05PointP0V_AI5ColorVQo__AI15ModifiedContentVyAI15StrokeShapeViewVyAI6CircleVA3_AI10_ShapeViewVyA10_AI15BackgroundStyleVGGAI12_FrameLayoutVGQo_AwAEAXyQrqd__AA0F11SymbolShapeRd__lFQOyA4__AA05BasicF11SymbolShapeVQo_GAwAEA2XQrqd__yXE_tAiYRd__lFQOyA4__AI7AnyViewVQo_GA1_GGAaVHpA30_AaVHPA29_AaVHPA25_AaVHPqd0__AaVHD3_A20_HO_qd0__AaVHD3_A24_HOHC_qd0__AaVHD3_A28_HOHC_A1_AaVHPyHCHC_HC
+- _objc_msgSend$initWithHealthStore:
+- _swift_retain_x4
+- _symbolic So26HKUnitPreferenceControllerC
+- _symbolic _____ 6Charts19InterpolationMethodV
+- _symbolic _____ySay_____yx_GGSi_____yAEyAEy_____y_____y___________Qo_______y_____y_____AG_____yAK_____GG_____GQo______yAH______Qo_G_____yAH______Qo_GAFGG 7SwiftUI7ForEachV 12HealthCharts9DotSeriesV9MarkEntry33_E64DE396495F5E293C198E24618DCA49LLV 0F018BuilderConditionalV AJ12ChartContentPAJE6symbolAOQrqd__yXE_tAA4ViewRd__lFQO AnJE15foregroundStyleyQrqd__AA05ShapeY0Rd__lFQO AJ05PointI0V AA5ColorV AA08ModifiedU0V AA06StrokezW0V AA6CircleV AA01_zW0V AA010BackgroundY0V AA12_FrameLayoutV AnJEAOyQrqd__AJ0t6SymbolZ0Rd__lFQO AJ05Basict6SymbolZ0V AnJEA2OQrqd__yXE_tAaPRd__lFQO AA03AnyW0V
+- _symbolic _____y_____G 12HealthCharts0A20StaticChartViewModelC AA12ScalarDomainV
+- _symbolic _____y_____GSgXw 12HealthCharts0A20StaticChartViewModelC AA12ScalarDomainV
+- _symbolic _____y_____y_____yABy_____Sg______Sg_____y_____GQPGG_ALSgQPGACyAIGG 6Charts18BuilderConditionalV AA0B5TupleV AA9AxisMarksV AA0E4TickV AA0E8GridLineV AA0E10ValueLabelV s5NeverO
+- _symbolic _____y_____y_____y_____GSg______QPGG 6Charts9AxisMarksV AA12BuilderTupleV AA0B10ValueLabelV 7SwiftUI4TextV AA0B8GridLineV
+CStrings:
++ "Classification Axis Domain"
++ "Five Times Sit To Stand Time"
++ "HKBilateralQuantityTypeIdentifierAnkleDorsiflexion"
++ "HKBilateralQuantityTypeIdentifierElbowFlexion"
++ "HKBilateralQuantityTypeIdentifierHipFlexionKneeExtension"
++ "HKBilateralQuantityTypeIdentifierHipFlexionKneeFlexion"
++ "HKBilateralQuantityTypeIdentifierKneeFlexion"
++ "HKBilateralQuantityTypeIdentifierShoulderFlexion"
++ "HKBilateralQuantityTypeIdentifierSingleLegStanceTime"
++ "HKDataTypeOverheadSquat"
++ "HKMedicalHistoryTypeIdentifierMedicalHistoryAllergyRecord"
++ "HKMedicalHistoryTypeIdentifierMedicalHistoryHealthConcernRecord"
++ "HKMedicalHistoryTypeIdentifierMedicalHistoryImmunizationRecord"
++ "HKMedicalHistoryTypeIdentifierMedicalHistoryLabResultRecord"
++ "HKMedicalHistoryTypeIdentifierMedicalHistoryProcedureRecord"
++ "HKMedicalHistoryTypeIdentifierMedicalHistoryQuantitativeLabResultRecord"
++ "HKQuantityTypeIdentifierFiveTimesSitToStandTime"
++ "HKQuantityTypeIdentifierHipCircumference"
++ "HKQuantityTypeIdentifierKneeBasedPushUpCount"
++ "HKQuantityTypeIdentifierPlankTime"
++ "HKQuantityTypeIdentifierStandardPushUpCount"
++ "Hip Circumference"
++ "Knee Based Push Up Count"
++ "Label for the average cumulative steps line on the steps progress chart"
++ "Label for today's cumulative steps line on the steps progress chart"
++ "Medical History Allergy Record"
++ "Medical History Health Concern Record"
++ "Medical History Immunization Record"
++ "Medical History Lab Result Record"
++ "Medical History Procedure Record"
++ "Medical History Quantitative Lab Result Record"
++ "Standard Push Up Count"
+```

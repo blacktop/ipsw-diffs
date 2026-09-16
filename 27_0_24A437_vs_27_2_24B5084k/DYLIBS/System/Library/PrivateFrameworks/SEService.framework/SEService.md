@@ -1,0 +1,259 @@
+## SEService
+
+> `/System/Library/PrivateFrameworks/SEService.framework/SEService`
+
+```diff
+
+-70.39.1.0.0
+-  __TEXT.__text: 0x10b768
+-  __TEXT.__objc_methlist: 0x3ccc
+-  __TEXT.__const: 0x18930
+-  __TEXT.__gcc_except_tab: 0x1ab4
+-  __TEXT.__cstring: 0x8e85
+-  __TEXT.__oslogstring: 0x2e57
++71.7.0.0.0
++  __TEXT.__text: 0x113e74
++  __TEXT.__objc_methlist: 0x3d24
++  __TEXT.__const: 0x19ca8
++  __TEXT.__cstring: 0x9075
++  __TEXT.__oslogstring: 0x2e87
++  __TEXT.__gcc_except_tab: 0x1aa8
+   __TEXT.__dlopen_cstrs: 0x64
+-  __TEXT.__swift5_typeref: 0x4430
+-  __TEXT.__constg_swiftt: 0x3a0c
+-  __TEXT.__swift5_fieldmd: 0x3cec
+-  __TEXT.__swift5_builtin: 0x258
+-  __TEXT.__swift5_mpenum: 0xf4
+-  __TEXT.__swift5_reflstr: 0x1952
+-  __TEXT.__swift5_proto: 0x1400
+-  __TEXT.__swift5_types: 0x5c8
+-  __TEXT.__swift5_assocty: 0x378
+-  __TEXT.__swift_as_entry: 0x140
++  __TEXT.__swift5_typeref: 0x47b3
++  __TEXT.__swift5_reflstr: 0x1b44
++  __TEXT.__swift5_assocty: 0x390
++  __TEXT.__constg_swiftt: 0x3d34
++  __TEXT.__swift5_fieldmd: 0x4094
++  __TEXT.__swift5_builtin: 0x26c
++  __TEXT.__swift5_proto: 0x152c
++  __TEXT.__swift5_types: 0x620
++  __TEXT.__swift5_mpenum: 0xfc
++  __TEXT.__swift5_capture: 0x294
++  __TEXT.__swift_as_entry: 0x144
+   __TEXT.__swift_as_ret: 0x114
+-  __TEXT.__swift_as_cont: 0x374
+-  __TEXT.__swift5_capture: 0x1e4
+-  __TEXT.__swift5_protos: 0x4
+-  __TEXT.__unwind_info: 0x6758
+-  __TEXT.__eh_frame: 0x6700
++  __TEXT.__swift_as_cont: 0x37c
++  __TEXT.__swift5_protos: 0xc
++  __TEXT.__unwind_info: 0x6b38
++  __TEXT.__eh_frame: 0x6b04
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x120
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1b78
++  __DATA_CONST.__objc_selrefs: 0x1c10
+   __DATA_CONST.__objc_protorefs: 0xa0
+   __DATA_CONST.__objc_superrefs: 0x100
+   __DATA_CONST.__objc_arraydata: 0xe8
+   __DATA_CONST.__got: 0x740
+-  __AUTH_CONST.__const: 0xa9f0
++  __AUTH_CONST.__const: 0xb660
+   __AUTH_CONST.__cfstring: 0x46e0
+-  __AUTH_CONST.__objc_const: 0x8428
+-  __AUTH_CONST.__objc_arrayobj: 0x78
+-  __AUTH_CONST.__objc_dictobj: 0x118
++  __AUTH_CONST.__objc_const: 0x84e8
+   __AUTH_CONST.__objc_intobj: 0x78
+-  __AUTH_CONST.__auth_got: 0x1040
++  __AUTH_CONST.__objc_dictobj: 0x118
++  __AUTH_CONST.__objc_arrayobj: 0x78
++  __AUTH_CONST.__auth_got: 0x1070
+   __AUTH.__objc_data: 0x7c0
+   __AUTH.__data: 0xa8
+-  __DATA.__objc_ivar: 0x394
+-  __DATA.__data: 0x3750
++  __DATA.__objc_ivar: 0x3ac
++  __DATA.__data: 0x39a0
+   __DATA.__common: 0x40
+   __DATA_DIRTY.__objc_data: 0x2700
+-  __DATA_DIRTY.__data: 0x2a48
++  __DATA_DIRTY.__data: 0x2a28
+   __DATA_DIRTY.__bss: 0xb910
+   __DATA_DIRTY.__common: 0x110
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  Functions: 7231
+-  Symbols:   5319
+-  CStrings:  1355
++  Functions: 7511
++  Symbols:   5451
++  CStrings:  1368
+ 
+Symbols:
++ -[SESNFCAppSettingsContext bundle:hasEntitlement:]
++ -[SESNFCAppSettingsContext eligibilityForKind:service:]
++ -[SESNFCAppSettingsContext fireOnChange]
++ -[SESNFCAppSettingsContext initWithBundleId:onChange:tccAccessProvider:installedProvider:entitlementProvider:eligibilityProvider:defaultsSuiteName:]
++ -[SESNFCAppSettingsContext isBundleInstalled:allowPlaceholder:]
++ -[SESNFCAppSettingsContext liveEntitlementRecordForBundleId:]
++ -[SESNFCAppSettingsContext reconcile]
++ -[SESNFCAppSettingsContext tccAccessForService:bundleId:]
++ _OBJC_IVAR_$_SESNFCAppSettingsContext._eligibilityProvider
++ _OBJC_IVAR_$_SESNFCAppSettingsContext._entitlementProvider
++ _OBJC_IVAR_$_SESNFCAppSettingsContext._entitlementRecordCache
++ _OBJC_IVAR_$_SESNFCAppSettingsContext._entitlementRecordCacheBundleId
++ _OBJC_IVAR_$_SESNFCAppSettingsContext._installedProvider
++ _OBJC_IVAR_$_SESNFCAppSettingsContext._tccAccessProvider
++ ___40-[SESNFCAppSettingsContext fireOnChange]_block_invoke
++ ___swift_closure_destructorTm
++ ___swift_memcpy104_8
++ __dispatch_main_q
++ _associated conformance 9SEService12SESAppRecordV17InstallationStateOSHAASQ
++ _associated conformance 9SEService12SESAppRecordVSHAASQ
++ _associated conformance 9SEService13SERXPCRequestO29ReportCanFitFailureCodingKeys33_BD9D643E27EDCCF6A3C446974E43D3FDLLOSHAASQ
++ _associated conformance 9SEService13SERXPCRequestO29ReportCanFitFailureCodingKeys33_BD9D643E27EDCCF6A3C446974E43D3FDLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 9SEService13SERXPCRequestO29ReportCanFitFailureCodingKeys33_BD9D643E27EDCCF6A3C446974E43D3FDLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9SEService14CredentialTypeO12DiscriminantOSHAASQ
++ _associated conformance 9SEService20AppMigrationInternalO10XPCRequestV10CodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLOSHAASQ
++ _associated conformance 9SEService20AppMigrationInternalO10XPCRequestV10CodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 9SEService20AppMigrationInternalO10XPCRequestV10CodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9SEService20AppMigrationInternalO11XPCResponseO10CodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLOSHAASQ
++ _associated conformance 9SEService20AppMigrationInternalO11XPCResponseO10CodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 9SEService20AppMigrationInternalO11XPCResponseO10CodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9SEService20AppMigrationInternalO11XPCResponseO15ErrorCodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLOSHAASQ
++ _associated conformance 9SEService20AppMigrationInternalO11XPCResponseO15ErrorCodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 9SEService20AppMigrationInternalO11XPCResponseO15ErrorCodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9SEService20AppMigrationInternalO11XPCResponseO18MigratedCodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 9SEService20AppMigrationInternalO11XPCResponseO18MigratedCodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO03XpcF10CodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLOSHAASQ
++ _associated conformance 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO03XpcF10CodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO03XpcF10CodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO0C16FailedCodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLOSHAASQ
++ _associated conformance 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO0C16FailedCodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO0C16FailedCodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO0C20InProgressCodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO0C20InProgressCodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO0D10CodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLOSHAASQ
++ _associated conformance 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO0D10CodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO0D10CodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO10CodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLOSHAASQ
++ _associated conformance 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO10CodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO10CodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO10Foundation09LocalizedF0AAs0F0
++ _associated conformance 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO21NotEntitledCodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO21NotEntitledCodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO23SerializationCodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLOSHAASQ
++ _associated conformance 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO23SerializationCodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO23SerializationCodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _get_enum_tag_for_layout_string 9SEService20AppMigrationInternalO11XPCResponseO
++ _get_enum_tag_for_layout_string 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO
++ _objc_msgSend$applicationIdentifier
++ _objc_msgSend$applicationState
++ _objc_msgSend$bundle:hasEntitlement:
++ _objc_msgSend$bundleIdentifier
++ _objc_msgSend$developerType
++ _objc_msgSend$eligibilityForKind:service:
++ _objc_msgSend$enumeratorWithOptions:
++ _objc_msgSend$fireOnChange
++ _objc_msgSend$iTunesMetadata
++ _objc_msgSend$initWithBundleId:onChange:tccAccessProvider:installedProvider:entitlementProvider:eligibilityProvider:defaultsSuiteName:
++ _objc_msgSend$isBundleInstalled:allowPlaceholder:
++ _objc_msgSend$isInstalled
++ _objc_msgSend$liveEntitlementRecordForBundleId:
++ _objc_msgSend$localizedName
++ _objc_msgSend$nextObject
++ _objc_msgSend$reconcile
++ _objc_msgSend$storeFront
++ _objc_msgSend$storeItemIdentifier
++ _objc_msgSend$tccAccessForService:bundleId:
++ _objc_msgSend$teamIdentifier
++ _swift_retain_x23
++ _symbolic $s9SEService12TCCProvidingP
++ _symbolic $s9SEService14LSAppProvidingP
++ _symbolic SDy__________G 9SEService10TCCContextC10TCCServiceO AC9TCCAccessO
++ _symbolic _____ 9SEService12SESAppRecordV
++ _symbolic _____ 9SEService12SESAppRecordV17InstallationStateO
++ _symbolic _____ 9SEService13LSAppProviderV
++ _symbolic _____ 9SEService13SERXPCRequestO29ReportCanFitFailureCodingKeys33_BD9D643E27EDCCF6A3C446974E43D3FDLLO
++ _symbolic _____ 9SEService14CredentialTypeO12DiscriminantO
++ _symbolic _____ 9SEService18AppMigrationClientO
++ _symbolic _____ 9SEService20AppMigrationInternalO
++ _symbolic _____ 9SEService20AppMigrationInternalO10XPCRequestV
++ _symbolic _____ 9SEService20AppMigrationInternalO10XPCRequestV10CodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLO
++ _symbolic _____ 9SEService20AppMigrationInternalO11XPCResponseO
++ _symbolic _____ 9SEService20AppMigrationInternalO11XPCResponseO10CodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLO
++ _symbolic _____ 9SEService20AppMigrationInternalO11XPCResponseO15ErrorCodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLO
++ _symbolic _____ 9SEService20AppMigrationInternalO11XPCResponseO18MigratedCodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLO
++ _symbolic _____ 9SEService20AppMigrationInternalO5TypesO
++ _symbolic _____ 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO
++ _symbolic _____ 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO03XpcF10CodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLO
++ _symbolic _____ 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO0C16FailedCodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLO
++ _symbolic _____ 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO0C20InProgressCodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLO
++ _symbolic _____ 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO0D10CodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLO
++ _symbolic _____ 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO10CodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLO
++ _symbolic _____ 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO21NotEntitledCodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLO
++ _symbolic _____ 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO23SerializationCodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLO
++ _symbolic _____6reason______14credentialTypet 9SEService10SESnapshotC12CanFitResultO13FailureReasonV AA14CredentialTypeO12DiscriminantO
++ _symbolic _____Sg 9SEService12SESAppRecordV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9SEService13SERXPCRequestO29ReportCanFitFailureCodingKeys33_BD9D643E27EDCCF6A3C446974E43D3FDLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9SEService20AppMigrationInternalO10XPCRequestV10CodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9SEService20AppMigrationInternalO11XPCResponseO10CodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9SEService20AppMigrationInternalO11XPCResponseO15ErrorCodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9SEService20AppMigrationInternalO11XPCResponseO18MigratedCodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO03XpcI10CodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO0F16FailedCodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO0F20InProgressCodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO0G10CodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO10CodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO21NotEntitledCodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO23SerializationCodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9SEService13SERXPCRequestO29ReportCanFitFailureCodingKeys33_BD9D643E27EDCCF6A3C446974E43D3FDLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9SEService20AppMigrationInternalO10XPCRequestV10CodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9SEService20AppMigrationInternalO11XPCResponseO10CodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9SEService20AppMigrationInternalO11XPCResponseO15ErrorCodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9SEService20AppMigrationInternalO11XPCResponseO18MigratedCodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO03XpcI10CodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO0F16FailedCodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO0F20InProgressCodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO0G10CodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO10CodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO21NotEntitledCodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO23SerializationCodingKeys33_C352F89A29641555C860C1DB4D8FA3FFLLO
++ _symbolic _____y__________G s18_DictionaryStorageC 9SEService10TCCContextC10TCCServiceO AE9TCCAccessO
++ _type_layout_string 9SEService12SESAppRecordV
++ _type_layout_string 9SEService20AppMigrationInternalO10XPCRequestV
++ _type_layout_string 9SEService20AppMigrationInternalO11XPCResponseO
++ _type_layout_string 9SEService20AppMigrationInternalO5TypesO9ErrorCodeO
+- -[SESNFCAppSettingsContext reconcileWithRecord:]
+- _objc_msgSend$reconcileWithRecord:
+CStrings:
++ "An app migration is already in progress"
++ "App migration XPC error: "
++ "App migration encountered an internal error: "
++ "App migration failed to serialize/deserialize a message: "
++ "App migration failed: "
++ "AppMigrationXPCRequest "
++ "Bundle ID %@ does not correspond to an installed record"
++ "Client is not entitled to perform app migration"
++ "SERXPCClient: Failed to send fire-and-forget request: %@"
++ "SERXPCClient: Sending fire-and-forget request %s"
++ "com.apple.seserviced.private.appmigration"
++ "destinationBundleId"
++ "migrationInProgress"
++ "os_eligibility_get_domain_answer returned error code %d"
++ "reason credentialType "
++ "reportCanFitFailure"
+- "Bundle ID %@ does not correspond to a record or error encountered %@"
+- "Default Contactless App Configurable returned error code %d"
+- "Default Contactless App Usable returned error code %d"
+```

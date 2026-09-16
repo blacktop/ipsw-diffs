@@ -1,0 +1,89 @@
+## MedicalIDUI
+
+> `/System/Library/PrivateFrameworks/MedicalIDUI.framework/MedicalIDUI`
+
+```diff
+
+-7027.0.72.2.7
+-  __TEXT.__text: 0x17495c
++7027.1.36.2.7
++  __TEXT.__text: 0x17550c
+   __TEXT.__objc_methlist: 0x684
+-  __TEXT.__const: 0x9fc4
+-  __TEXT.__cstring: 0x3179
++  __TEXT.__const: 0xa014
++  __TEXT.__cstring: 0x3199
+   __TEXT.__gcc_except_tab: 0x1c
+   __TEXT.__oslogstring: 0xb0b
+-  __TEXT.__constg_swiftt: 0x3ed8
+-  __TEXT.__swift5_typeref: 0x4df6
+-  __TEXT.__swift5_reflstr: 0x3c62
+-  __TEXT.__swift5_fieldmd: 0x2fd8
++  __TEXT.__constg_swiftt: 0x3f08
++  __TEXT.__swift5_typeref: 0x4e02
++  __TEXT.__swift5_reflstr: 0x3ca2
++  __TEXT.__swift5_fieldmd: 0x2ff0
+   __TEXT.__swift5_builtin: 0x104
+   __TEXT.__swift5_assocty: 0xf30
+   __TEXT.__swift5_proto: 0x468
+
+   __TEXT.__swift_as_ret: 0xfc
+   __TEXT.__swift_as_cont: 0x358
+   __TEXT.__swift5_protos: 0x28
+-  __TEXT.__unwind_info: 0x6748
+-  __TEXT.__eh_frame: 0x42fc
++  __TEXT.__unwind_info: 0x6780
++  __TEXT.__eh_frame: 0x4354
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x2a8
++  __DATA_CONST.__const: 0x2b8
+   __DATA_CONST.__objc_classlist: 0xf8
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x88
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xb48
++  __DATA_CONST.__objc_selrefs: 0xb50
+   __DATA_CONST.__objc_protorefs: 0x48
+   __DATA_CONST.__objc_superrefs: 0x18
+-  __DATA_CONST.__got: 0xf58
++  __DATA_CONST.__got: 0xf68
+   __AUTH_CONST.__const: 0x7c88
+   __AUTH_CONST.__cfstring: 0x160
+-  __AUTH_CONST.__objc_const: 0x2070
+-  __AUTH_CONST.__auth_got: 0x1c10
++  __AUTH_CONST.__objc_const: 0x2090
++  __AUTH_CONST.__auth_got: 0x1c68
+   __AUTH.__objc_data: 0x9e8
+-  __AUTH.__data: 0x4008
++  __AUTH.__data: 0x4048
+   __DATA.__objc_ivar: 0x58
+-  __DATA.__data: 0x5df0
++  __DATA.__data: 0x5e00
+   __DATA.__common: 0x368
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 7218
+-  Symbols:   1934
+-  CStrings:  364
++  Functions: 7232
++  Symbols:   1936
++  CStrings:  365
+ 
+Symbols:
++ _OBJC_CLASS_$_NSNumberFormatter
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE29navigationBarBackButtonHiddenyQrSbFQOyAcAE0D5TitleyQrqd__SyRd__lFQOyAA15ModifiedContentVyAcAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAcAE7toolbar7contentQrqd__yXE_tAA07ToolbarK0Rd__lFQOyAA4ListVys5NeverOAA05TupleK0VyAA7SectionVyAA05EmptyC0VASy11MedicalIDUI012NanoNameEditC0V_AX0z4Editx17IDPrimaryLanguageC0VAX0z14OrganDonorEditC0VQPGAWG_AUyAwSyAX0z13PregnancyEditC0V_AX0z14MedicationEditC0VAX0z11AllergyEditC0VQPGAWGAUyAA4TextVAX0z28EmergencyContactsOverallEditC0VAGyAX0z22EmergencyContactFooterC0VAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGGAUyAwSyAX0z14ConditionsEditC0V_AA012_ConditionalK0VyAGyAcAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQOyAGyAGyAX0z14BiometricsEditC0VA20_ySo13HKHealthStoreCSgGGA20_ySo14HKProfileStoreCSgGG_AX0X13IDDataManagerCQo_A20_ySo24MIUIDisplayConfigurationCSgGGA49_GAX0z9NotesEditC0VQPGAWGAUyAwSyAX0z18ShowWhenLockedEditC0V_AX0z24ShareDuringEmergencyEditC0VSgQPGAWGAX0zx8IDDeleteC0VQPGG_AA0R4ItemVyytAGy016HealthFoundationB004DoneG0VAA31AccessibilityAttachmentModifierVGGQo__SbQo_A77_G_SSQo__Qo_HO
++ _objc_msgSend$numberFromString:
++ _symbolic _____y_____y_____y_____y_____y_____y__________y_____y_____ADy________________QPGAFG_AEyAfDy________________QPGAFGAEy__________AAy__________y_____SgGGGAEyAfDy___________yAAy_____yAAyAAy_____ATySo13HKHealthStoreCSgGGATySo09HKProfileB0CSgGG______Qo_ATySo24MIUIDisplayConfigurationCSgGGA12_G_____QPGAFGAEyAfDy___________SgQPGAFG_____QPGG______yytAAy__________GGQo__SbQo_A32_G_SSQo__Qo_ 7SwiftUI4ViewPAAE29navigationBarBackButtonHiddenyQrSbFQO AcAE0D5TitleyQrqd__SyRd__lFQO AA15ModifiedContentV AcAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AcAE7toolbar7contentQrqd__yXE_tAA07ToolbarK0Rd__lFQO AA4ListV s5NeverO AA05TupleK0V AA7SectionV AA05EmptyC0V 11MedicalIDUI012NanoNameEditC0V AX0z4Editx17IDPrimaryLanguageC0V AX0z14OrganDonorEditC0V AX0z13PregnancyEditC0V AX0z14MedicationEditC0V AX0z11AllergyEditC0V AA4TextV AX0z28EmergencyContactsOverallEditC0V AX0z22EmergencyContactFooterC0V AA30_EnvironmentKeyWritingModifierV AA4FontV AX0z14ConditionsEditC0V AA012_ConditionalK0V AcAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQO AX0z14BiometricsEditC0V AX0X13IDDataManagerC AX0z9NotesEditC0V AX0z18ShowWhenLockedEditC0V AX0z24ShareDuringEmergencyEditC0V AX0zx8IDDeleteC0V AA0R4ItemV 016HealthFoundationB004DoneG0V AA31AccessibilityAttachmentModifierV
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE29navigationBarBackButtonHiddenyQrSbFQOyAA15ModifiedContentVyAcAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAcAE7toolbar7contentQrqd__yXE_tAA07ToolbarJ0Rd__lFQOyAA4ListVys5NeverOAA05TupleJ0VyAA7SectionVyAA05EmptyC0VARy11MedicalIDUI012NanoNameEditC0V_AW0y4Editw17IDPrimaryLanguageC0VAW0y14OrganDonorEditC0VQPGAVG_ATyAvRyAW0y13PregnancyEditC0V_AW0y14MedicationEditC0VAW0y11AllergyEditC0VQPGAVGATyAA4TextVAW0y28EmergencyContactsOverallEditC0VAFyAW0y22EmergencyContactFooterC0VAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGGATyAvRyAW0y14ConditionsEditC0V_AA012_ConditionalJ0VyAFyAcAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQOyAFyAFyAW0y14BiometricsEditC0VA19_ySo13HKHealthStoreCSgGGA19_ySo14HKProfileStoreCSgGG_AW0W13IDDataManagerCQo_A19_ySo24MIUIDisplayConfigurationCSgGGA48_GAW0y9NotesEditC0VQPGAVGATyAvRyAW0y18ShowWhenLockedEditC0V_AW0y24ShareDuringEmergencyEditC0VSgQPGAVGAW0yw8IDDeleteC0VQPGG_AA0Q4ItemVyytAFy016HealthFoundationB004DoneG0VAA31AccessibilityAttachmentModifierVGGQo__SbQo_A76_G_Qo_HO
+- _symbolic _____y_____y_____y_____y_____y__________y_____y_____ADy________________QPGAFG_AEyAfDy________________QPGAFGAEy__________AAy__________y_____SgGGGAEyAfDy___________yAAy_____yAAyAAy_____ATySo13HKHealthStoreCSgGGATySo09HKProfileB0CSgGG______Qo_ATySo24MIUIDisplayConfigurationCSgGGA12_G_____QPGAFGAEyAfDy___________SgQPGAFG_____QPGG______yytAAy__________GGQo__SbQo_A32_G_Qo_ 7SwiftUI4ViewPAAE29navigationBarBackButtonHiddenyQrSbFQO AA15ModifiedContentV AcAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AcAE7toolbar7contentQrqd__yXE_tAA07ToolbarJ0Rd__lFQO AA4ListV s5NeverO AA05TupleJ0V AA7SectionV AA05EmptyC0V 11MedicalIDUI012NanoNameEditC0V AW0y4Editw17IDPrimaryLanguageC0V AW0y14OrganDonorEditC0V AW0y13PregnancyEditC0V AW0y14MedicationEditC0V AW0y11AllergyEditC0V AA4TextV AW0y28EmergencyContactsOverallEditC0V AW0y22EmergencyContactFooterC0V AA30_EnvironmentKeyWritingModifierV AA4FontV AW0y14ConditionsEditC0V AA012_ConditionalJ0V AcAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQO AW0y14BiometricsEditC0V AW0W13IDDataManagerC AW0y9NotesEditC0V AW0y18ShowWhenLockedEditC0V AW0y24ShareDuringEmergencyEditC0V AW0yw8IDDeleteC0V AA0Q4ItemV 016HealthFoundationB004DoneG0V AA31AccessibilityAttachmentModifierV
+CStrings:
++ "nano_edit_medical_id_title"
+```

@@ -1,0 +1,252 @@
+## libCommCenterBase.dylib
+
+> `/System/Library/Frameworks/CoreTelephony.framework/Support/libCommCenterBase.dylib`
+
+```diff
+
+-13487.7.0.0.0
+-  __TEXT.__text: 0xd08c0
++13494.0.0.0.0
++  __TEXT.__text: 0xd16b4
+   __TEXT.__init_offsets: 0x20
+   __TEXT.__objc_methlist: 0x110
+-  __TEXT.__const: 0xd360
+-  __TEXT.__cstring: 0x148cb
+-  __TEXT.__gcc_except_tab: 0x13bc4
+-  __TEXT.__oslogstring: 0x26f1
+-  __TEXT.__unwind_info: 0x54d0
++  __TEXT.__const: 0xce50
++  __TEXT.__cstring: 0x14af1
++  __TEXT.__gcc_except_tab: 0x13e44
++  __TEXT.__oslogstring: 0x2849
++  __TEXT.__unwind_info: 0x5500
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x7640
++  __DATA_CONST.__const: 0x7700
+   __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_catlist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+
+   __DATA_CONST.__objc_selrefs: 0x188
+   __DATA_CONST.__objc_superrefs: 0x8
+   __DATA_CONST.__got: 0x218
+-  __AUTH_CONST.__const: 0x14448
++  __AUTH_CONST.__const: 0x143a8
+   __AUTH_CONST.__cfstring: 0x2ce0
+   __AUTH_CONST.__objc_const: 0x200
+   __AUTH_CONST.__weak_auth_got: 0x18
+-  __AUTH_CONST.__auth_got: 0xc28
++  __AUTH_CONST.__auth_got: 0xc48
+   __DATA.__objc_ivar: 0x8
+   __DATA.__data: 0x70
+   __DATA_DIRTY.__objc_data: 0x50
+   __DATA_DIRTY.__data: 0x18
+-  __DATA_DIRTY.__common: 0x668
++  __DATA_DIRTY.__common: 0x608
+   __DATA_DIRTY.__bss: 0x328
+   - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libTelephonyUtilDynamic.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 5765
+-  Symbols:   9504
+-  CStrings:  4464
++  Functions: 5751
++  Symbols:   9473
++  CStrings:  4501
+ 
+Symbols:
++ GCC_except_table128
++ GCC_except_table131
++ GCC_except_table154
++ GCC_except_table183
++ GCC_except_table209
++ GCC_except_table234
++ GCC_except_table260
++ GCC_except_table285
++ GCC_except_table310
++ GCC_except_table335
++ GCC_except_table358
++ GCC_except_table388
++ GCC_except_table413
++ GCC_except_table439
++ GCC_except_table465
++ GCC_except_table488
++ _TelephonyUtilIsOversteerEnabled
++ __CFXPCCreateCFObjectFromXPCObject
++ __CFXPCCreateXPCObjectFromCFObject
++ __ZN12registration15read_rest_valueERNS_19RatSelectionRequestERKN3xpc6objectE
++ __ZN12registration16write_rest_valueERKNS_19RatSelectionRequestE
++ __ZN20NetworkNameInterfaceD0Ev
++ __ZN20NetworkNameInterfaceD1Ev
++ __ZN20NetworkNameInterfaceD2Ev
++ __ZN3ctu12TimerService13systemTimeNowEv
++ __ZN3ctu4rest6detail20read_rest_value_implIN3xpc4dictEEEvRT_RKNS3_6objectENSt3__117integral_constantIbLb0EEE
++ __ZN4lasd15read_rest_valueERNS_13SearchRequestERKN3xpc6objectE
++ __ZN4lasd15read_rest_valueERNS_14SearchResponseERKN3xpc6objectE
++ __ZN4lasd16write_rest_valueERKNS_13SearchRequestE
++ __ZN4lasd16write_rest_valueERKNS_14SearchResponseE
++ __ZN8cellplan15read_rest_valueERNS_19TransferredPlanInfoERKN3xpc6objectE
++ __ZN8cellplan16write_rest_valueERKNS_19TransferredPlanInfoE
++ __ZNK3xpc6object9to_stringEv
++ __ZTI20NetworkNameInterface
++ __ZTS20NetworkNameInterface
++ __ZTV20NetworkNameInterface
++ __ZZ29cellularInterfaceNameForIndexiE24kOversteerInterfaceNames
++ __os_log_debug_impl
+- GCC_except_table132
+- GCC_except_table184
+- GCC_except_table187
+- GCC_except_table210
+- GCC_except_table213
+- GCC_except_table238
+- GCC_except_table264
+- GCC_except_table289
+- GCC_except_table314
+- GCC_except_table339
+- GCC_except_table366
+- GCC_except_table392
+- GCC_except_table417
+- GCC_except_table442
+- GCC_except_table468
+- GCC_except_table494
+- GCC_except_table517
+- __ZN4rest15read_rest_valueERN8cellplan19TransferredPlanInfoERKN3xpc6objectE
+- __ZN4rest16write_rest_valueERKN8cellplan19TransferredPlanInfoE
+- __ZN5boost14checked_deleteINS_8signals26detail11signal_implIFvRK13PersonalityIDNSt3__112basic_stringIcNS7_11char_traitsIcEENS7_9allocatorIcEEEEENS1_19optional_last_valueIvEEiNS7_4lessIiEENS_8functionISE_EENSJ_IFvRKNS1_10connectionES6_SD_EEENS1_5mutexEE16invocation_stateEEEvPT_
+- __ZN5boost14checked_deleteINS_8signals26detail11signal_implIFvRK13PersonalityIDNSt3__112basic_stringIcNS7_11char_traitsIcEENS7_9allocatorIcEEEEENS1_19optional_last_valueIvEEiNS7_4lessIiEENS_8functionISE_EENSJ_IFvRKNS1_10connectionES6_SD_EEENS1_5mutexEEEEEvPT_
+- __ZN5boost14checked_deleteINS_8signals26detail12grouped_listIiNSt3__14lessIiEENS_10shared_ptrINS2_15connection_bodyINS4_4pairINS2_15slot_meta_groupENS_8optionalIiEEEENS1_4slotIFvRK13PersonalityIDNS4_12basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEEENS_8functionISO_EEEENS1_5mutexEEEEEEEEEvPT_
+- __ZN5boost6detail17sp_counted_impl_pINS_8signals26detail11signal_implIFvRK13PersonalityIDNSt3__112basic_stringIcNS8_11char_traitsIcEENS8_9allocatorIcEEEEENS2_19optional_last_valueIvEEiNS8_4lessIiEENS_8functionISF_EENSK_IFvRKNS2_10connectionES7_SE_EEENS2_5mutexEE16invocation_stateEE11get_deleterERKSt9type_info
+- __ZN5boost6detail17sp_counted_impl_pINS_8signals26detail11signal_implIFvRK13PersonalityIDNSt3__112basic_stringIcNS8_11char_traitsIcEENS8_9allocatorIcEEEEENS2_19optional_last_valueIvEEiNS8_4lessIiEENS_8functionISF_EENSK_IFvRKNS2_10connectionES7_SE_EEENS2_5mutexEE16invocation_stateEE17get_local_deleterERKSt9type_info
+- __ZN5boost6detail17sp_counted_impl_pINS_8signals26detail11signal_implIFvRK13PersonalityIDNSt3__112basic_stringIcNS8_11char_traitsIcEENS8_9allocatorIcEEEEENS2_19optional_last_valueIvEEiNS8_4lessIiEENS_8functionISF_EENSK_IFvRKNS2_10connectionES7_SE_EEENS2_5mutexEE16invocation_stateEE19get_untyped_deleterEv
+- __ZN5boost6detail17sp_counted_impl_pINS_8signals26detail11signal_implIFvRK13PersonalityIDNSt3__112basic_stringIcNS8_11char_traitsIcEENS8_9allocatorIcEEEEENS2_19optional_last_valueIvEEiNS8_4lessIiEENS_8functionISF_EENSK_IFvRKNS2_10connectionES7_SE_EEENS2_5mutexEE16invocation_stateEE7disposeEv
+- __ZN5boost6detail17sp_counted_impl_pINS_8signals26detail11signal_implIFvRK13PersonalityIDNSt3__112basic_stringIcNS8_11char_traitsIcEENS8_9allocatorIcEEEEENS2_19optional_last_valueIvEEiNS8_4lessIiEENS_8functionISF_EENSK_IFvRKNS2_10connectionES7_SE_EEENS2_5mutexEE16invocation_stateEED0Ev
+- __ZN5boost6detail17sp_counted_impl_pINS_8signals26detail11signal_implIFvRK13PersonalityIDNSt3__112basic_stringIcNS8_11char_traitsIcEENS8_9allocatorIcEEEEENS2_19optional_last_valueIvEEiNS8_4lessIiEENS_8functionISF_EENSK_IFvRKNS2_10connectionES7_SE_EEENS2_5mutexEE16invocation_stateEED1Ev
+- __ZN5boost6detail17sp_counted_impl_pINS_8signals26detail11signal_implIFvRK13PersonalityIDNSt3__112basic_stringIcNS8_11char_traitsIcEENS8_9allocatorIcEEEEENS2_19optional_last_valueIvEEiNS8_4lessIiEENS_8functionISF_EENSK_IFvRKNS2_10connectionES7_SE_EEENS2_5mutexEEEE11get_deleterERKSt9type_info
+- __ZN5boost6detail17sp_counted_impl_pINS_8signals26detail11signal_implIFvRK13PersonalityIDNSt3__112basic_stringIcNS8_11char_traitsIcEENS8_9allocatorIcEEEEENS2_19optional_last_valueIvEEiNS8_4lessIiEENS_8functionISF_EENSK_IFvRKNS2_10connectionES7_SE_EEENS2_5mutexEEEE17get_local_deleterERKSt9type_info
+- __ZN5boost6detail17sp_counted_impl_pINS_8signals26detail11signal_implIFvRK13PersonalityIDNSt3__112basic_stringIcNS8_11char_traitsIcEENS8_9allocatorIcEEEEENS2_19optional_last_valueIvEEiNS8_4lessIiEENS_8functionISF_EENSK_IFvRKNS2_10connectionES7_SE_EEENS2_5mutexEEEE19get_untyped_deleterEv
+- __ZN5boost6detail17sp_counted_impl_pINS_8signals26detail11signal_implIFvRK13PersonalityIDNSt3__112basic_stringIcNS8_11char_traitsIcEENS8_9allocatorIcEEEEENS2_19optional_last_valueIvEEiNS8_4lessIiEENS_8functionISF_EENSK_IFvRKNS2_10connectionES7_SE_EEENS2_5mutexEEEE7disposeEv
+- __ZN5boost6detail17sp_counted_impl_pINS_8signals26detail11signal_implIFvRK13PersonalityIDNSt3__112basic_stringIcNS8_11char_traitsIcEENS8_9allocatorIcEEEEENS2_19optional_last_valueIvEEiNS8_4lessIiEENS_8functionISF_EENSK_IFvRKNS2_10connectionES7_SE_EEENS2_5mutexEEEED0Ev
+- __ZN5boost6detail17sp_counted_impl_pINS_8signals26detail11signal_implIFvRK13PersonalityIDNSt3__112basic_stringIcNS8_11char_traitsIcEENS8_9allocatorIcEEEEENS2_19optional_last_valueIvEEiNS8_4lessIiEENS_8functionISF_EENSK_IFvRKNS2_10connectionES7_SE_EEENS2_5mutexEEEED1Ev
+- __ZN5boost6detail17sp_counted_impl_pINS_8signals26detail12grouped_listIiNSt3__14lessIiEENS_10shared_ptrINS3_15connection_bodyINS5_4pairINS3_15slot_meta_groupENS_8optionalIiEEEENS2_4slotIFvRK13PersonalityIDNS5_12basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEENS_8functionISP_EEEENS2_5mutexEEEEEEEE11get_deleterERKSt9type_info
+- __ZN5boost6detail17sp_counted_impl_pINS_8signals26detail12grouped_listIiNSt3__14lessIiEENS_10shared_ptrINS3_15connection_bodyINS5_4pairINS3_15slot_meta_groupENS_8optionalIiEEEENS2_4slotIFvRK13PersonalityIDNS5_12basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEENS_8functionISP_EEEENS2_5mutexEEEEEEEE17get_local_deleterERKSt9type_info
+- __ZN5boost6detail17sp_counted_impl_pINS_8signals26detail12grouped_listIiNSt3__14lessIiEENS_10shared_ptrINS3_15connection_bodyINS5_4pairINS3_15slot_meta_groupENS_8optionalIiEEEENS2_4slotIFvRK13PersonalityIDNS5_12basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEENS_8functionISP_EEEENS2_5mutexEEEEEEEE19get_untyped_deleterEv
+- __ZN5boost6detail17sp_counted_impl_pINS_8signals26detail12grouped_listIiNSt3__14lessIiEENS_10shared_ptrINS3_15connection_bodyINS5_4pairINS3_15slot_meta_groupENS_8optionalIiEEEENS2_4slotIFvRK13PersonalityIDNS5_12basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEENS_8functionISP_EEEENS2_5mutexEEEEEEEE7disposeEv
+- __ZN5boost6detail17sp_counted_impl_pINS_8signals26detail12grouped_listIiNSt3__14lessIiEENS_10shared_ptrINS3_15connection_bodyINS5_4pairINS3_15slot_meta_groupENS_8optionalIiEEEENS2_4slotIFvRK13PersonalityIDNS5_12basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEENS_8functionISP_EEEENS2_5mutexEEEEEEEED0Ev
+- __ZN5boost6detail17sp_counted_impl_pINS_8signals26detail12grouped_listIiNSt3__14lessIiEENS_10shared_ptrINS3_15connection_bodyINS5_4pairINS3_15slot_meta_groupENS_8optionalIiEEEENS2_4slotIFvRK13PersonalityIDNS5_12basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEENS_8functionISP_EEEENS2_5mutexEEEEEEEED1Ev
+- __ZN5boost8signals26signalIFvRK13PersonalityIDNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEENS0_19optional_last_valueIvEEiNS5_4lessIiEENS_8functionISC_EENSH_IFvRKNS0_10connectionES4_SB_EEENS0_5mutexEED0Ev
+- __ZN5boost8signals26signalIFvRK13PersonalityIDNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEENS0_19optional_last_valueIvEEiNS5_4lessIiEENS_8functionISC_EENSH_IFvRKNS0_10connectionES4_SB_EEENS0_5mutexEED1Ev
+- __ZN5event11EventLoggerIFvRK13PersonalityIDNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEEENS_14CSIEventLoggerEED0Ev
+- __ZN5event11EventLoggerIFvRK13PersonalityIDNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEEENS_14CSIEventLoggerEED1Ev
+- __ZN5event3ims24p_associated_uri_changedE
+- __ZN5event7logging19csi_logging_enabledE
+- __ZN5event7logging22global_logging_enabledE
+- __ZNK5boost8signals26signalIFvRK13PersonalityIDNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEENS0_19optional_last_valueIvEEiNS5_4lessIiEENS_8functionISC_EENSH_IFvRKNS0_10connectionES4_SB_EEENS0_5mutexEE10lock_pimplEv
+- __ZNSt3__110__list_impIN5boost10shared_ptrINS1_8signals26detail15connection_bodyINS_4pairINS4_15slot_meta_groupENS1_8optionalIiEEEENS3_4slotIFvRK13PersonalityIDNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEENS1_8functionISL_EEEENS3_5mutexEEEEENSI_ISR_EEE5clearEv
+- __ZNSt3__16__treeINS_12__value_typeINS_4pairIN5boost8signals26detail15slot_meta_groupENS3_8optionalIiEEEENS_15__list_iteratorINS3_10shared_ptrINS5_15connection_bodyIS9_NS4_4slotIFvRK13PersonalityIDNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEENS3_8functionISN_EEEENS4_5mutexEEEEEPvEEEENS_19__map_value_compareIS9_NS2_IKS9_SV_EENS5_14group_key_lessIiNS_4lessIiEEEEEENSK_ISZ_EEE14__tree_deleterclB9foe220106EPNS_11__tree_nodeISW_SU_EE
+- __ZNSt3__16__treeINS_12__value_typeINS_4pairIN5boost8signals26detail15slot_meta_groupENS3_8optionalIiEEEENS_15__list_iteratorINS3_10shared_ptrINS5_15connection_bodyIS9_NS4_4slotIFvRK13PersonalityIDNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEENS3_8functionISN_EEEENS4_5mutexEEEEEPvEEEENS_19__map_value_compareIS9_NS2_IKS9_SV_EENS5_14group_key_lessIiNS_4lessIiEEEEEENSK_ISZ_EEE21__construct_from_treeB9foe220106IZNS16_21__copy_construct_treeB9foe220106EPNS_11__tree_nodeISW_SU_EEEUlRKSZ_E_EES1A_S1A_T_
+- __ZTIN5boost6detail17sp_counted_impl_pINS_8signals26detail11signal_implIFvRK13PersonalityIDNSt3__112basic_stringIcNS8_11char_traitsIcEENS8_9allocatorIcEEEEENS2_19optional_last_valueIvEEiNS8_4lessIiEENS_8functionISF_EENSK_IFvRKNS2_10connectionES7_SE_EEENS2_5mutexEE16invocation_stateEEE
+- __ZTIN5boost6detail17sp_counted_impl_pINS_8signals26detail11signal_implIFvRK13PersonalityIDNSt3__112basic_stringIcNS8_11char_traitsIcEENS8_9allocatorIcEEEEENS2_19optional_last_valueIvEEiNS8_4lessIiEENS_8functionISF_EENSK_IFvRKNS2_10connectionES7_SE_EEENS2_5mutexEEEEE
+- __ZTIN5boost6detail17sp_counted_impl_pINS_8signals26detail12grouped_listIiNSt3__14lessIiEENS_10shared_ptrINS3_15connection_bodyINS5_4pairINS3_15slot_meta_groupENS_8optionalIiEEEENS2_4slotIFvRK13PersonalityIDNS5_12basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEENS_8functionISP_EEEENS2_5mutexEEEEEEEEE
+- __ZTIN5boost8signals26detail19std_functional_baseIJRK13PersonalityIDNSt3__112basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEEEEE
+- __ZTIN5boost8signals26signalIFvRK13PersonalityIDNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEENS0_19optional_last_valueIvEEiNS5_4lessIiEENS_8functionISC_EENSH_IFvRKNS0_10connectionES4_SB_EEENS0_5mutexEEE
+- __ZTIN5event11EventLoggerIFvRK13PersonalityIDNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEEENS_14CSIEventLoggerEEE
+- __ZTSN5boost6detail17sp_counted_impl_pINS_8signals26detail11signal_implIFvRK13PersonalityIDNSt3__112basic_stringIcNS8_11char_traitsIcEENS8_9allocatorIcEEEEENS2_19optional_last_valueIvEEiNS8_4lessIiEENS_8functionISF_EENSK_IFvRKNS2_10connectionES7_SE_EEENS2_5mutexEE16invocation_stateEEE
+- __ZTSN5boost6detail17sp_counted_impl_pINS_8signals26detail11signal_implIFvRK13PersonalityIDNSt3__112basic_stringIcNS8_11char_traitsIcEENS8_9allocatorIcEEEEENS2_19optional_last_valueIvEEiNS8_4lessIiEENS_8functionISF_EENSK_IFvRKNS2_10connectionES7_SE_EEENS2_5mutexEEEEE
+- __ZTSN5boost6detail17sp_counted_impl_pINS_8signals26detail12grouped_listIiNSt3__14lessIiEENS_10shared_ptrINS3_15connection_bodyINS5_4pairINS3_15slot_meta_groupENS_8optionalIiEEEENS2_4slotIFvRK13PersonalityIDNS5_12basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEENS_8functionISP_EEEENS2_5mutexEEEEEEEEE
+- __ZTSN5boost8signals26detail19std_functional_baseIJRK13PersonalityIDNSt3__112basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEEEEE
+- __ZTSN5boost8signals26signalIFvRK13PersonalityIDNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEENS0_19optional_last_valueIvEEiNS5_4lessIiEENS_8functionISC_EENSH_IFvRKNS0_10connectionES4_SB_EEENS0_5mutexEEE
+- __ZTSN5event11EventLoggerIFvRK13PersonalityIDNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEEENS_14CSIEventLoggerEEE
+- __ZTVN5boost6detail17sp_counted_impl_pINS_8signals26detail11signal_implIFvRK13PersonalityIDNSt3__112basic_stringIcNS8_11char_traitsIcEENS8_9allocatorIcEEEEENS2_19optional_last_valueIvEEiNS8_4lessIiEENS_8functionISF_EENSK_IFvRKNS2_10connectionES7_SE_EEENS2_5mutexEE16invocation_stateEEE
+- __ZTVN5boost6detail17sp_counted_impl_pINS_8signals26detail11signal_implIFvRK13PersonalityIDNSt3__112basic_stringIcNS8_11char_traitsIcEENS8_9allocatorIcEEEEENS2_19optional_last_valueIvEEiNS8_4lessIiEENS_8functionISF_EENSK_IFvRKNS2_10connectionES7_SE_EEENS2_5mutexEEEEE
+- __ZTVN5boost6detail17sp_counted_impl_pINS_8signals26detail12grouped_listIiNSt3__14lessIiEENS_10shared_ptrINS3_15connection_bodyINS5_4pairINS3_15slot_meta_groupENS_8optionalIiEEEENS2_4slotIFvRK13PersonalityIDNS5_12basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEENS_8functionISP_EEEENS2_5mutexEEEEEEEEE
+- __ZTVN5boost8signals26signalIFvRK13PersonalityIDNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEENS0_19optional_last_valueIvEEiNS5_4lessIiEENS_8functionISC_EENSH_IFvRKNS0_10connectionES4_SB_EEENS0_5mutexEEE
+- __ZTVN5event11EventLoggerIFvRK13PersonalityIDNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEEENS_14CSIEventLoggerEEE
+- ___TUAssertTrigger
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/__vector/vector.h:1161: libc++ Hardening assertion __position != end() failed: vector::erase(iterator) called with a non-dereferenceable iterator\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/__vector/vector.h:1171: libc++ Hardening assertion __first <= __last failed: vector::erase(first, last) called with invalid range\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/__vector/vector.h:414: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/__vector/vector.h:419: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/__vector/vector.h:442: libc++ Hardening assertion !empty() failed: back() called on an empty vector\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/__vector/vector.h:509: libc++ Hardening assertion !empty() failed: vector::pop_back called on an empty vector\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/deque:1577: libc++ Hardening assertion !empty() failed: deque::back called on an empty deque\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/deque:2213: libc++ Hardening assertion !empty() failed: deque::pop_back called on an empty deque\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/optional:1112: libc++ Hardening assertion this->has_value() failed: optional operator-> called on a disengaged value\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/optional:1121: libc++ Hardening assertion this->has_value() failed: optional operator-> called on a disengaged value\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/optional:1130: libc++ Hardening assertion this->has_value() failed: optional operator* called on a disengaged value\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/optional:1139: libc++ Hardening assertion this->has_value() failed: optional operator* called on a disengaged value\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/string:1362: libc++ Hardening assertion __pos <= size() failed: string index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/string:1371: libc++ Hardening assertion __pos <= size() failed: string index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/string:1502: libc++ Hardening assertion !empty() failed: string::back(): string is empty\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/string:1507: libc++ Hardening assertion !empty() failed: string::back(): string is empty\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/string:3384: libc++ Hardening assertion __first <= __last failed: string::erase(first, last) called with invalid range\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/string_view:343: libc++ Hardening assertion (__end - __begin) >= 0 failed: std::string_view::string_view(iterator, sentinel) received invalid range\n"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/CoreTelephony/CSI/Source/Common/SmsPduEncoder.cpp"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/CoreTelephony/CommCenter/CommCenterCommandDrivers/Sim/SubscriberDefinitions.cpp"
++ "Assertion failure: ( %s ), in file %s, line: %d"
++ "DisplayStatus [isOn=%{bool}d, isLocked=%{bool}d, isCoversheetActive=%{bool}d, isPasscodeSet=%{bool}d, isEffectivelyLocked=%{bool}d]"
++ "Getting main bundle"
++ "Input(%s) = %f"
++ "Parsed %zu lines successfully"
++ "Personality Info: %s - %s"
++ "Sending OTASP success dialogue to UI"
++ "ThumperID: %s, info: %p"
++ "[conn %p] Connection closed."
++ "[conn %p] Got REST message: %s"
++ "feth0"
++ "feth1"
++ "feth10"
++ "feth11"
++ "feth12"
++ "feth13"
++ "feth14"
++ "feth15"
++ "feth16"
++ "feth17"
++ "feth18"
++ "feth19"
++ "feth2"
++ "feth20"
++ "feth3"
++ "feth4"
++ "feth5"
++ "feth6"
++ "feth7"
++ "feth8"
++ "feth9"
++ "frequencies"
++ "hint"
++ "internal"
++ "not active"
++ "plmns"
++ "preferred"
++ "selection"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__vector/vector.h:1161: libc++ Hardening assertion __position != end() failed: vector::erase(iterator) called with a non-dereferenceable iterator\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__vector/vector.h:1171: libc++ Hardening assertion __first <= __last failed: vector::erase(first, last) called with invalid range\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__vector/vector.h:414: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__vector/vector.h:419: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__vector/vector.h:442: libc++ Hardening assertion !empty() failed: back() called on an empty vector\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__vector/vector.h:509: libc++ Hardening assertion !empty() failed: vector::pop_back called on an empty vector\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/deque:1577: libc++ Hardening assertion !empty() failed: deque::back called on an empty deque\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/deque:2213: libc++ Hardening assertion !empty() failed: deque::pop_back called on an empty deque\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/optional:1112: libc++ Hardening assertion this->has_value() failed: optional operator-> called on a disengaged value\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/optional:1121: libc++ Hardening assertion this->has_value() failed: optional operator-> called on a disengaged value\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/optional:1130: libc++ Hardening assertion this->has_value() failed: optional operator* called on a disengaged value\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/optional:1139: libc++ Hardening assertion this->has_value() failed: optional operator* called on a disengaged value\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/string:1362: libc++ Hardening assertion __pos <= size() failed: string index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/string:1371: libc++ Hardening assertion __pos <= size() failed: string index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/string:1502: libc++ Hardening assertion !empty() failed: string::back(): string is empty\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/string:1507: libc++ Hardening assertion !empty() failed: string::back(): string is empty\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/string:3384: libc++ Hardening assertion __first <= __last failed: string::erase(first, last) called with invalid range\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/string_view:343: libc++ Hardening assertion (__end - __begin) >= 0 failed: std::string_view::string_view(iterator, sentinel) received invalid range\n"
+- "csi_logging_enabled"
+- "global_logging_enabled"
+- "p_associated_uri_changed __attribute__((deprecated))"
+```

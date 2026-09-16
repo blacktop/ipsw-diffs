@@ -1,0 +1,55 @@
+## Feedback Assistant iOS
+
+> `FileSystem/Applications/Feedback Assistant iOS.app/Localizable.loctable`
+
+```diff
+
+ en.DELETE_DRAFT_CHOICE = "Delete Draft"
+ en.DEVICE_CELL_HINT_PAIRED = "Paired"
+ en.DEVICE_CELL_HINT_TAP_TO_PAIR = "Pair the device"
+-en.DEVICE_PAIRING_FOOTER_TEXT = "Issues encountered on your other devices can be reported using Feedback Assistant on this iOS device. To add a device to your My Devices list, it must be nearby, online, and signed in to your iCloud account."
++en.DEVICE_PAIRING_FOOTER_TEXT = "Issues encountered on your other devices can be reported using Feedback Assistant on this iOS device. To add a device to your My Devices list, it must be nearby, online, and signed in to your Apple Account."
+ en.DONE = "Done"
+ en.DRAFTS_INBOX = "Drafts"
+ en.DRAFT_ALREADY_OPEN_ALERT_ADD_CHOICE = "Add files to this feedback"
+ en.DRAFT_ALREADY_OPEN_ALERT_NEW_CHOICE = "Start new feedback"
+ en.DRAFT_ALREADY_OPEN_ALERT_TITLE = "A diagnostic tool has finished collecting files and you already have an open feedback draft. What would you like to do?"
+ en.ERROR = "Error"
+-en.FACE_ID_ENABLE_PROMPT_MESSAGE = "Would you like to enable Face ID for Feedback Assistant?"
+-en.FACE_ID_ENABLE_PROMPT_TITLE = "Use Face ID"
+-en.FACE_ID_NOT_ENROLLED = "Face ID Not Configured"
+-en.FACE_ID_NOT_ENROLLED_MESSAGE = "Open the Settings app to configure Face ID."
+-en.FACE_ID_PREFERENCE = "Use Face ID"
+-en.FACE_ID_PROMPT = "Use Face ID to access Feedback Assistant."
+-en.FACE_ID_REQUIRE = "Require Face ID"
+ en.FAILED_TO_GATHER = "Nothing to collect"
+ en.FAILED_TO_GATHER_MESSAGE = "The diagnostic found no files to gather."
+ en.FBA_ADD_TO_HOME_QUESTION = "Would you like to add Feedback Assistant to your Home Screen?"
+
+ en.NO_BUG_FORMS_EXPLAIN = "Feedback for this beta is closed"
+ en.NO_FEEDBACK = "No Feedback Selected"
+ en.NO_FILE_ANSWER = "No File Attachments"
+-en.NO_MORE_DEVICES_MESSAGE = "Devices must be nearby, online, and signed in to your iCloud account in order to appear here."
++en.NO_MORE_DEVICES_MESSAGE = "Devices must be nearby, online, and signed in to your Apple Account in order to appear here."
+ en.NO_MORE_DEVICES_TITLE = "No Devices"
+ en.NO_WIFI_MESSAGE = "You must connect to a Wi-Fi or cellular network to use Feedback Assistant."
+ en.NO_WLAN_MESSAGE = "You must connect to a WLAN or cellular network to use Feedback Assistant."
+
+ en.THANK_YOU_SUBMITTING_MESSAGE = "Once we complete collecting diagnostics, your feedback will be sent in the background automatically. Your feedback will help us make our software even better."
+ en.THIS_DEVICE = "this device"
+ en.THIS_DEVICE_C = "This Device"
+-en.TOUCH_ID_ENABLE_PROMPT_MESSAGE = "Would you like to enable Touch ID for Feedback Assistant?"
+-en.TOUCH_ID_ENABLE_PROMPT_TITLE = "Use Touch ID"
+-en.TOUCH_ID_NOT_ENROLLED = "Touch ID Not Configured"
+-en.TOUCH_ID_NOT_ENROLLED_MESSAGE = "Open the Settings app to configure Touch ID."
+-en.TOUCH_ID_PREFERENCE = "Use Touch ID"
+-en.TOUCH_ID_PROMPT = "Use your fingerprint to access Feedback Assistant."
+-en.TOUCH_ID_REQUIRE = "Require Touch ID"
+-en.TOUCH_ID_TIMEOUT_FORMAT = "After %ld minutes"
+-en.TOUCH_ID_TIMEOUT_IMMEDIATELY = "Immediately"
+-en.TOUCH_ID_TIMEOUT_ONE_MINUTE = "After 1 minute"
+ en.UNANSWERED_QUESTION_PLACEHOLDER = "No answer provided"
+ en.UNSOLICITED_FOLLOWUP_ACTION = "Add More Information"
+ en.UNSOLICITED_FOLLOWUP_CAPTION = "Add more information"
+
+```

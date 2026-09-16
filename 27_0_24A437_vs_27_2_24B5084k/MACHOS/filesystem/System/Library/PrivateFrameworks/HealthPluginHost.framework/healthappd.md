@@ -1,0 +1,403 @@
+## healthappd
+
+> `/System/Library/PrivateFrameworks/HealthPluginHost.framework/healthappd`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_entry`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_assocty`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA.__objc_stublist`
+
+```diff
+
+-7027.0.72.2.7
+-  __TEXT.__text: 0x2fbe4
+-  __TEXT.__auth_stubs: 0x2380
+-  __TEXT.__objc_stubs: 0x720
+-  __TEXT.__objc_methlist: 0x4e4
+-  __TEXT.__const: 0x9e8
+-  __TEXT.__cstring: 0x7f9
+-  __TEXT.__objc_methtype: 0x44c
+-  __TEXT.__oslogstring: 0x2001
++7027.1.36.2.7
++  __TEXT.__text: 0x32d78
++  __TEXT.__auth_stubs: 0x28a0
++  __TEXT.__objc_stubs: 0x6c0
++  __TEXT.__objc_methlist: 0x544
++  __TEXT.__const: 0xac8
++  __TEXT.__cstring: 0x867
++  __TEXT.__objc_methtype: 0x42c
++  __TEXT.__oslogstring: 0x1e91
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__constg_swiftt: 0x62c
+-  __TEXT.__swift5_typeref: 0x6cc
++  __TEXT.__constg_swiftt: 0x434
++  __TEXT.__swift5_typeref: 0x6bc
+   __TEXT.__swift5_builtin: 0x3c
+-  __TEXT.__swift5_reflstr: 0xa0d
+-  __TEXT.__swift5_fieldmd: 0x578
++  __TEXT.__swift5_reflstr: 0x9ed
++  __TEXT.__swift5_fieldmd: 0x5b0
+   __TEXT.__swift5_assocty: 0x48
+-  __TEXT.__swift5_proto: 0x50
+-  __TEXT.__swift5_types: 0x48
+-  __TEXT.__objc_methname: 0x12d9
+-  __TEXT.__objc_classname: 0x49e
+-  __TEXT.__swift5_capture: 0x668
+-  __TEXT.__swift_as_entry: 0x8
+-  __TEXT.__swift_as_ret: 0x8
+-  __TEXT.__swift_as_cont: 0x8
+-  __TEXT.__unwind_info: 0x9e0
+-  __TEXT.__eh_frame: 0x3d0
+-  __DATA_CONST.__const: 0x1320
+-  __DATA_CONST.__objc_classlist: 0x38
++  __TEXT.__swift5_proto: 0x58
++  __TEXT.__swift5_types: 0x50
++  __TEXT.__objc_methname: 0x1255
++  __TEXT.__objc_classname: 0x4de
++  __TEXT.__swift5_capture: 0x66c
++  __TEXT.__swift_as_entry: 0xc
++  __TEXT.__swift_as_ret: 0xc
++  __TEXT.__swift_as_cont: 0x10
++  __TEXT.__unwind_info: 0xa80
++  __TEXT.__eh_frame: 0x4f0
++  __DATA_CONST.__const: 0x1330
++  __DATA_CONST.__objc_classlist: 0x40
+   __DATA_CONST.__objc_protolist: 0x58
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x38
+-  __DATA_CONST.__auth_got: 0x11c8
+-  __DATA_CONST.__got: 0x6b0
+-  __DATA_CONST.__auth_ptr: 0x3d8
+-  __DATA.__objc_const: 0x1140
+-  __DATA.__objc_selrefs: 0x3b0
+-  __DATA.__objc_data: 0x608
+-  __DATA.__data: 0xe88
++  __DATA_CONST.__auth_got: 0x1458
++  __DATA_CONST.__got: 0x8b8
++  __DATA_CONST.__auth_ptr: 0x468
++  __DATA.__objc_const: 0x1190
++  __DATA.__objc_selrefs: 0x3b8
++  __DATA.__objc_data: 0x458
++  __DATA.__data: 0x1058
+   __DATA.__objc_stublist: 0x8
+-  __DATA.__common: 0xb8
++  __DATA.__common: 0x1c0
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreData.framework/CoreData
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/Foundation.framework/Foundation
++  - /System/Library/Frameworks/FoundationModels.framework/FoundationModels
+   - /System/Library/Frameworks/HealthKit.framework/HealthKit
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/PrivateFrameworks/AppleMediaServices.framework/AppleMediaServices
+
+   - /System/Library/PrivateFrameworks/HealthDaemonFoundation.framework/HealthDaemonFoundation
+   - /System/Library/PrivateFrameworks/HealthExperience.framework/HealthExperience
+   - /System/Library/PrivateFrameworks/HealthKitAdditions.framework/HealthKitAdditions
++  - /System/Library/PrivateFrameworks/HealthNarrator.framework/HealthNarrator
+   - /System/Library/PrivateFrameworks/HealthOrchestration.framework/HealthOrchestration
+   - /System/Library/PrivateFrameworks/HealthPlatform.framework/HealthPlatform
+   - /System/Library/PrivateFrameworks/HealthPlatformCore.framework/HealthPlatformCore
+
+   - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 706
+-  Symbols:   880
++  Functions: 740
++  Symbols:   1015
+   CStrings:  402
+ 
+Symbols:
++ _$s09HealthAppA13DaemonSupport0aC20UserInteractionStoreC06healthG0ACSo08HKHealthG0C_tcfc
++ _$s09HealthAppA13DaemonSupport0aC20UserInteractionStoreCAA0eF7StoringAAWP
++ _$s09HealthAppA13DaemonSupport0aC20UserInteractionStoreCMa
++ _$s14HealthNarrator0B0V12availability3for16FoundationModels19SystemLanguageModelC20InternalAvailabilityOAJ0H6OptionO_tF
++ _$s14HealthNarrator0B0V34isLocaleSupportedForCustomerBuildsySb10Foundation0D0VF
++ _$s14HealthNarrator0B0VACycfC
++ _$s14HealthNarrator0B0VMa
++ _$s14HealthPlatform0A11AppProviderC0A13Orchestration011InputSignalD0AAMc
++ _$s14HealthPlatform0A11AppProviderCMa
++ _$s14HealthPlatform0A11AppProviderCyAC0aB10Foundation0aC37IntelligenceConfigurationAvailabilityCcfc
++ _$s14HealthPlatform0A21AppControlCoordinatorP27fetchArbiterWeatherForecast10completionyySSYbc_tFTq
++ _$s14HealthPlatform0A21AppControlCoordinatorP34fetchObfuscatedArbitrationSnapshot14latitudeOffset09longitudeK010completionySd_SdySSSg_So7NSErrorCSgtYbctFTq
++ _$s14HealthPlatform0A21PluginHostEntitlementO8rawValueSSvg
++ _$s14HealthPlatform0A27AppOrchestrationCoordinatorP06removeC18EnvironmentalState10identifier10connection10completionySS_So15NSXPCConnectionCySo7NSErrorCSgYbctFTq
++ _$s14HealthPlatform0A27AppOrchestrationCoordinatorP06updateC18EnvironmentalState10identifier5value10connection10completionySS_SSSo15NSXPCConnectionCySo7NSErrorCSgYbctFTq
++ _$s14HealthPlatform0A27AppOrchestrationCoordinatorP09removeAllC18EnvironmentalState3forySo15NSXPCConnectionC_tFTq
++ _$s14HealthPlatform13ForYouChannelC0aB10Foundation0E0AAMc
++ _$s14HealthPlatform13ForYouChannelC16interactionStoreAC0a3AppA13DaemonSupport22UserInteractionStoring_p_tcfC
++ _$s14HealthPlatform13ForYouChannelCMa
++ _$s14HealthPlatform20SummaryTrendsChannelC0aB10Foundation0E0AAMc
++ _$s14HealthPlatform20SummaryTrendsChannelCACycfc
++ _$s14HealthPlatform20SummaryTrendsChannelCMa
++ _$s14HealthPlatform21DashboardHeartChannelC0aB10Foundation0E0AAMc
++ _$s14HealthPlatform21DashboardHeartChannelC16interactionStoreAC0a3AppA13DaemonSupport22UserInteractionStoring_p_tcfc
++ _$s14HealthPlatform21DashboardHeartChannelCMa
++ _$s14HealthPlatform21DashboardSleepChannelC0aB10Foundation0E0AAMc
++ _$s14HealthPlatform21DashboardSleepChannelC16interactionStoreAC0a3AppA13DaemonSupport22UserInteractionStoring_p_tcfc
++ _$s14HealthPlatform21DashboardSleepChannelCMa
++ _$s14HealthPlatform21DashboardStepsChannelC0aB10Foundation0E0AAMc
++ _$s14HealthPlatform21DashboardStepsChannelC16interactionStoreAC0a3AppA13DaemonSupport22UserInteractionStoring_p_tcfc
++ _$s14HealthPlatform21DashboardStepsChannelCMa
++ _$s14HealthPlatform22DashboardVitalsChannelC0aB10Foundation0E0AAMc
++ _$s14HealthPlatform22DashboardVitalsChannelC16interactionStoreAC0a3AppA13DaemonSupport22UserInteractionStoring_p_tcfc
++ _$s14HealthPlatform22DashboardVitalsChannelCMa
++ _$s14HealthPlatform24DashboardActivityChannelC0aB10Foundation0E0AAMc
++ _$s14HealthPlatform24DashboardActivityChannelC16interactionStoreAC0a3AppA13DaemonSupport22UserInteractionStoring_p_tcfc
++ _$s14HealthPlatform24DashboardActivityChannelCMa
++ _$s14HealthPlatform25DashboardReadinessChannelC0aB10Foundation0E0AAMc
++ _$s14HealthPlatform25DashboardReadinessChannelC16interactionStoreAC0a3AppA13DaemonSupport22UserInteractionStoring_p_tcfc
++ _$s14HealthPlatform25DashboardReadinessChannelCMa
++ _$s14HealthPlatform29DashboardCycleTrackingChannelC0aB10Foundation0F0AAMc
++ _$s14HealthPlatform29DashboardCycleTrackingChannelC16interactionStoreAC0a3AppA13DaemonSupport22UserInteractionStoring_p_tcfc
++ _$s14HealthPlatform29DashboardCycleTrackingChannelCMa
++ _$s14HealthPlatform29DashboardHeartLongTermChannelC0aB10Foundation0G0AAMc
++ _$s14HealthPlatform29DashboardHeartLongTermChannelCACycfc
++ _$s14HealthPlatform29DashboardHeartLongTermChannelCMa
++ _$s14HealthPlatform29DashboardHeartThisWeekChannelC0aB10Foundation0G0AAMc
++ _$s14HealthPlatform29DashboardHeartThisWeekChannelCACycfc
++ _$s14HealthPlatform29DashboardHeartThisWeekChannelCMa
++ _$s14HealthPlatform29DashboardSleepLongTermChannelC0aB10Foundation0G0AAMc
++ _$s14HealthPlatform29DashboardSleepLongTermChannelCACycfc
++ _$s14HealthPlatform29DashboardSleepLongTermChannelCMa
++ _$s14HealthPlatform29DashboardSleepThisWeekChannelC0aB10Foundation0G0AAMc
++ _$s14HealthPlatform29DashboardSleepThisWeekChannelCACycfc
++ _$s14HealthPlatform29DashboardSleepThisWeekChannelCMa
++ _$s14HealthPlatform30DashboardVitalsLongTermChannelC0aB10Foundation0G0AAMc
++ _$s14HealthPlatform30DashboardVitalsLongTermChannelCACycfc
++ _$s14HealthPlatform30DashboardVitalsLongTermChannelCMa
++ _$s14HealthPlatform30DashboardVitalsThisWeekChannelC0aB10Foundation0G0AAMc
++ _$s14HealthPlatform30DashboardVitalsThisWeekChannelCACycfc
++ _$s14HealthPlatform30DashboardVitalsThisWeekChannelCMa
++ _$s14HealthPlatform31AppEnvironmentalStateControllerC06removeE010identifier10connection10completionySS_So15NSXPCConnectionCySo7NSErrorCSgYbctF
++ _$s14HealthPlatform31AppEnvironmentalStateControllerC06updateE010identifier5value10connection10completionySS_SSSo15NSXPCConnectionCySo7NSErrorCSgYbctF
++ _$s14HealthPlatform31AppEnvironmentalStateControllerC09removeAllE03forySo15NSXPCConnectionC_tF
++ _$s14HealthPlatform31AppEnvironmentalStateControllerC0A13Orchestration0dE17ComponentProviderAAMc
++ _$s14HealthPlatform31AppEnvironmentalStateControllerCACycfc
++ _$s14HealthPlatform31AppEnvironmentalStateControllerCMa
++ _$s14HealthPlatform31AppEnvironmentalStateControllerCMn
++ _$s14HealthPlatform32DashboardActivityLongTermChannelC0aB10Foundation0G0AAMc
++ _$s14HealthPlatform32DashboardActivityLongTermChannelCACycfc
++ _$s14HealthPlatform32DashboardActivityLongTermChannelCMa
++ _$s14HealthPlatform32DashboardActivityThisWeekChannelC0aB10Foundation0G0AAMc
++ _$s14HealthPlatform32DashboardActivityThisWeekChannelCACycfc
++ _$s14HealthPlatform32DashboardActivityThisWeekChannelCMa
++ _$s14HealthPlatform33DashboardReadinessLongTermChannelC0aB10Foundation0G0AAMc
++ _$s14HealthPlatform33DashboardReadinessLongTermChannelCACycfc
++ _$s14HealthPlatform33DashboardReadinessLongTermChannelCMa
++ _$s14HealthPlatform33DashboardReadinessThisWeekChannelC0aB10Foundation0G0AAMc
++ _$s14HealthPlatform33DashboardReadinessThisWeekChannelCACycfc
++ _$s14HealthPlatform33DashboardReadinessThisWeekChannelCMa
++ _$s14HealthPlatform37DashboardCycleTrackingLongTermChannelC0aB10Foundation0H0AAMc
++ _$s14HealthPlatform37DashboardCycleTrackingLongTermChannelCACycfc
++ _$s14HealthPlatform37DashboardCycleTrackingLongTermChannelCMa
++ _$s14HealthPlatform37DashboardCycleTrackingThisWeekChannelC0aB10Foundation0H0AAMc
++ _$s14HealthPlatform37DashboardCycleTrackingThisWeekChannelCACycfc
++ _$s14HealthPlatform37DashboardCycleTrackingThisWeekChannelCMa
++ _$s16FoundationModels19SystemLanguageModelC20InternalAvailabilityOMa
++ _$s16HealthPluginHost0A24WelcomeFlowSignalManagerC011determineIfadE23ShouldShowOnNextAppOpen10completionyyyYbcSg_tF
++ _$s16HealthPluginHost0A24WelcomeFlowSignalManagerC019advertisableFeatureG7Factory06healthdeF8Provider019currentOSUpdateDateL00mO9GeneratorAcA0ab12AdvertisableiG9Providing_p_AA0adefR0_p0A10Experience016CurrentOSVersionR0_p10Foundation0O0VyYbcSgtcfc
++ _$s16HealthPluginHost13CountryOracleC24regulatoryDomainProviderACSo012HKRegulatorygH0_pyc_tcfc
++ _$s17HealthAppServices0aB24DaemonServiceIdentifiersO04machE0yA2CmFWC
++ _$s17HealthAppServices0aB24DaemonServiceIdentifiersO16legacyPluginHostyA2CmFWC
++ _$s17HealthAppServices0aB24DaemonServiceIdentifiersO22launchNotificationNameyA2CmFWC
++ _$s17HealthAppServices0aB24DaemonServiceIdentifiersO8rawValueSSvg
++ _$s17HealthAppServices0aB24DaemonServiceIdentifiersOMa
++ _$s18HealthPlatformCore20PluginBundleProviderC19availablePluginsMapSDySSxGvg
++ _$s18HealthPlatformCore20PluginBundleProviderC32availableLaunchGenerationPluginsSayxGvg
++ _$s18HealthPlatformCore25BaseFeedPopulationManagerC06deleteE09feedKinds10completionySay0aB00E0C4KindOG_yyYbctFTj
++ _$s18HealthPlatformCore25BaseFeedPopulationManagerC08populateE09feedKinds10completionySay0aB00E0C4KindOG_yyYbctFTj
++ _$s18HealthPlatformCore26AppSessionAnalyticsManagerC027updateCurrentEventWithEndOfeF04from2in10completionyAA024SummaryTabFeedPopulationG0C_So22NSManagedObjectContextCyyYbctF
++ _$s18HealthPlatformCore26AppSessionAnalyticsManagerC028DefaultsPredictiveGenerationF12DateProviderV08dateLastij6RanForF010Foundation0K0VSgvs
++ _$s18HealthPlatformCore26AppSessionAnalyticsManagerC028DefaultsPredictiveGenerationF12DateProviderV6sharedAEvgZ
++ _$s18HealthPlatformCore26AppSessionAnalyticsManagerC028DefaultsPredictiveGenerationF12DateProviderVMa
++ _$s18HealthPlatformCore26AppSessionAnalyticsManagerC029updateCurrentEventWithImprovea8ActivityF0yyF
++ _$s18HealthPlatformCore26AppSessionAnalyticsManagerC033updateCurrentEventWithDemographicF0yyF
++ _$s18HealthPlatformCore26AppSessionAnalyticsManagerC048updateCurrentEventWithHighlightsFeedPresentationF02inySo22NSManagedObjectContextC_tF
++ _$s18HealthPlatformCore26AppSessionAnalyticsManagerC18submitCurrentEvent19resetAfterSubmittedySb_tF
++ _$s18HealthPlatformCore31SummaryTabFeedPopulationManagerC018generateHighlightsF13IfAppropriate10completionyySbYbc_tFTj
++ _$s18HealthPlatformCore31SummaryTabFeedPopulationManagerC14submitTraining14trainingEvents5store10completionySay0aB005ModelJ5EventVG_AH0A15ExperienceStore_pyyYbcSgtFTj
++ _$s18HealthPlatformCore31SummaryTabFeedPopulationManagerC21collectDiagnosticLogsyyySay10Foundation3URLVGYbcF
++ _$s18HealthPlatformCore39ProfileDashboardsFeedPopulationListenerC16populateAllFeeds9feedKinds10completionySay0aB00F0C4KindOG_yyYbctFTj
++ _$s19HealthOrchestration0B8DirectorC11environment20inputSignalProviders08executorG0018environmentalStateG015contextProvider11dispatchers20timeoutConfiguration0H6Filter6logger15debugIdentifierAcA013EnvironmentalJ7ManagerC_SayAA05InputfL0_pGSayAA08ExecutorL0_pGSayAA0tj9ComponentL0_pGAA07ContextL0_pSayAA10Dispatcher_pGAC07TimeoutO0VSgAA0wP0_pSg2os6LoggerVSStcfc
++ _$s19HealthOrchestration13DebugSnapshotCMa
++ _$s19HealthOrchestration13DebugSnapshotCs23CustomStringConvertibleAAMc
++ _$s19HealthOrchestration14ExecutorFilterMp
++ _$s19HealthOrchestration15PriorityRuleSetV0C0O11unspecifiedyA2EmFWC
++ _$s19HealthOrchestration26UserDefaultsExecutorFilterV07defaultD3KeySSvgZ
++ _$s19HealthOrchestration26UserDefaultsExecutorFilterV8defaults3keyACSo06NSUserD0C_SStcfC
++ _$s19HealthOrchestration26UserDefaultsExecutorFilterVAA0eF0AAWP
++ _$s19HealthOrchestration26UserDefaultsExecutorFilterVMa
++ _$s19HealthOrchestration29EnvironmentalStateDescriptionV0A8PlatformE25dashboardLaunchHoldActiveACvgZ
++ _$s22HealthDaemonFoundation07DefaultB10XPCServiceC10identifier19requiredEntitlement15serverGeneratorACSS_SSSo16_HKXPCExportable_pSo11HDXPCClientCYbKctcfc
++ _$s22HealthDaemonFoundation07DefaultB10XPCServiceCAA0bE0AAWP
++ _$s22HealthDaemonFoundation07DefaultB10XPCServiceCMa
++ _$s22HealthDaemonFoundation0B0Mp
++ _$s22HealthDaemonFoundation0B0P10invalidateyyFTq
++ _$s22HealthDaemonFoundation0B0P11machServiceSSvgZTq
++ _$s22HealthDaemonFoundation0B0P17connectionManagerAA0b13XPCConnectionE0CvgTq
++ _$s22HealthDaemonFoundation0B0P22launchNotificationNameSSvgTq
++ _$s22HealthDaemonFoundation0B0P22launchNotificationNameSSvgZTq
++ _$s22HealthDaemonFoundation0B0P6logger2os6LoggerVvgTq
++ _$s22HealthDaemonFoundation0B0P7pluginsSayAA0B6Plugin_pGvgTq
++ _$s22HealthDaemonFoundation0B0P8activateyyFTq
++ _$s22HealthDaemonFoundation0B0PAAE10invalidateyyF
++ _$s22HealthDaemonFoundation0B0PAAE8activateyyF
++ _$s22HealthDaemonFoundation0B10XPCServiceMp
++ _$s22HealthDaemonFoundation0B14PluginProviderMp
++ _$s22HealthDaemonFoundation0B14PluginProviderP04makeB7PluginsSayAA0bD0_pGyFTj
++ _$s22HealthDaemonFoundation0B20XPCConnectionManagerCMa
++ _$s22HealthDaemonFoundation0B20XPCConnectionManagerCMn
++ _$s22HealthDaemonFoundation0B20XPCConnectionManagerC_11machServiceAC2os6LoggerV_SSSgtcfc
++ _$s22HealthDaemonFoundation0B6PluginMp
++ _$s22HealthDaemonFoundation0B6PluginP10invalidateyyFTq
++ _$s22HealthDaemonFoundation0B6PluginP15makeXPCServicesSayAA0B10XPCService_pGyFTq
++ _$s22HealthDaemonFoundation0B6PluginP8activateyyFTq
++ _$s24HealthPlatformFoundation0A40AppIntelligenceConfigurationAvailabilityC6sharedACvgZ
++ _$s24HealthPlatformFoundation0A40AppIntelligenceConfigurationAvailabilityC9_register08internalG8Provider34isLocaleSupportedForCustomerBuildsy0C6Models19SystemLanguageModelC08InternalG0OSgAK0S6OptionOYbc_Sb0C00L0VYbcSgtFZ
++ _$s24HealthPlatformFoundation0A40AppIntelligenceConfigurationAvailabilityCMa
++ _$s24HealthPlatformFoundation15WeatherForecastVMa
++ _$s24HealthPlatformFoundation15WeatherForecastVs23CustomStringConvertibleAAMc
++ _$s24HealthPlatformFoundation17ArbitrationResultVMa
++ _$s24HealthPlatformFoundation18DiagnosticRedactorV17locationOffsetter18weatherGeneralizerAC0A3Kit08LocationG0V_AF07WeatherI0VtcfC
++ _$s24HealthPlatformFoundation18DiagnosticRedactorVMa
++ _$s24HealthPlatformFoundation29ObfuscatedArbitrationSnapshotO04makeF04from8redactor0A13Orchestration05DebugF0CAA0E6ResultV_AA18DiagnosticRedactorVtFZ
++ _$s24HealthPlatformFoundation7ArbiterC21cachedWeatherForecastAA0fG0VSgvg
++ _$s24HealthPlatformFoundation7ArbiterC28runArbitrationForDiagnosticsAA0F6ResultVyYaF
++ _$s24HealthPlatformFoundation7ArbiterC28runArbitrationForDiagnosticsAA0F6ResultVyYaFTu
++ _$s24HealthPlatformFoundation7ChannelMp
++ _$s2os6LoggerVMn
++ _$s9HealthKit17LocationOffsetterV14latitudeOffset09longitudeF0ACSd_SdtcfC
++ _$s9HealthKit17LocationOffsetterVMa
++ _$s9HealthKit18WeatherGeneralizerVACycfC
++ _$s9HealthKit18WeatherGeneralizerVMa
++ _$sScM6sharedScMvgZ
++ _$sScMMa
++ _$sScMScAsWP
++ _$sSo11HDXPCClientC22HealthDaemonFoundationE25requireBooleanEntitlementyySSKF
++ _$sSp12deinitialize5countSvSi_tF
++ _$ss018_bridgeAnyObjectToB0yypyXlSgF
++ _$ss26DefaultStringInterpolationV06appendC0yyxlF
++ _OBJC_CLASS_$_HKRegulatoryDomainManager
++ _kHKHASharedUserDefaultsIdentifier
++ _objc_retain_x9
++ _swift_getErrorValue
++ _swift_task_isCurrentExecutor
++ _swift_task_reportUnexpectedExecutor
+- _$s10Foundation4DateVMn
+- _$s14HealthPlatform0A21PluginHostEntitlementOSYAAMc
+- _$s14HealthPlatform10UnfairLockC11assertOwneryyFTj
+- _$s14HealthPlatform10UnfairLockC4lockyyFTj
+- _$s14HealthPlatform10UnfairLockC6unlockyyFTj
+- _$s14HealthPlatform10UnfairLockCACycfc
+- _$s14HealthPlatform10UnfairLockCMa
+- _$s14HealthPlatform10UnfairLockCMn
+- _$s14HealthPlatform11UserDefaultV12wrappedValuexvg
+- _$s14HealthPlatform11UserDefaultV12wrappedValuexvs
+- _$s14HealthPlatform11UserDefaultV3key12userDefaults13fallbackValue19isAppleInternalOnlyACyxGSS_So06NSUserG0CxSbtcfC
+- _$s14HealthPlatform11UserDefaultVMa
+- _$s14HealthPlatform11UserDefaultVMn
+- _$s16HealthPluginHost0A24WelcomeFlowSignalManagerC011determineIfadE23ShouldShowOnNextAppOpen10completionyyycSg_tFTj
+- _$s16HealthPluginHost0A24WelcomeFlowSignalManagerC019advertisableFeatureG7Factory06healthdeF8Provider019currentOSUpdateDateL00mO9GeneratorAcA0ab12AdvertisableiG9Providing_p_AA0adefR0_p0A10Experience016CurrentOSVersionR0_p10Foundation0O0VycSgtcfc
+- _$s16HealthPluginHost13CountryOracleC06mobileD19CodeManagerProviderACSo018HKRegulatoryDomainI0_pyc_tcfc
+- _$s18HealthPlatformCore20PluginBundleProviderC19availablePluginsMapSDySSxGvgTj
+- _$s18HealthPlatformCore20PluginBundleProviderC32availableLaunchGenerationPluginsSayxGvgTj
+- _$s18HealthPlatformCore25BaseFeedPopulationManagerC06deleteE09feedKinds10completionySay0aB00E0C4KindOG_yyctFTj
+- _$s18HealthPlatformCore25BaseFeedPopulationManagerC08populateE09feedKinds10completionySay0aB00E0C4KindOG_yyctFTj
+- _$s18HealthPlatformCore26AppSessionAnalyticsManagerC027updateCurrentEventWithEndOfeF04from2in10completionyAA024SummaryTabFeedPopulationG0C_So22NSManagedObjectContextCyyctFTj
+- _$s18HealthPlatformCore26AppSessionAnalyticsManagerC028DefaultsPredictiveGenerationF12DateProviderC08dateLastij6RanForF010Foundation0K0VSgvsTj
+- _$s18HealthPlatformCore26AppSessionAnalyticsManagerC028DefaultsPredictiveGenerationF12DateProviderC6sharedAEvgZ
+- _$s18HealthPlatformCore26AppSessionAnalyticsManagerC028DefaultsPredictiveGenerationF12DateProviderCMa
+- _$s18HealthPlatformCore26AppSessionAnalyticsManagerC029updateCurrentEventWithImprovea8ActivityF0yyFTj
+- _$s18HealthPlatformCore26AppSessionAnalyticsManagerC033updateCurrentEventWithDemographicF0yyFTj
+- _$s18HealthPlatformCore26AppSessionAnalyticsManagerC048updateCurrentEventWithHighlightsFeedPresentationF02inySo22NSManagedObjectContextC_tFTj
+- _$s18HealthPlatformCore26AppSessionAnalyticsManagerC18submitCurrentEvent19resetAfterSubmittedySb_tFTj
+- _$s18HealthPlatformCore31SummaryTabFeedPopulationManagerC018generateHighlightsF13IfAppropriate10completionyySbc_tFTj
+- _$s18HealthPlatformCore31SummaryTabFeedPopulationManagerC14submitTraining14trainingEvents5store10completionySay0aB005ModelJ5EventVG_AH0A15ExperienceStore_pyycSgtFTj
+- _$s18HealthPlatformCore31SummaryTabFeedPopulationManagerC21collectDiagnosticLogsyyySay10Foundation3URLVGcF
+- _$s18HealthPlatformCore39ProfileDashboardsFeedPopulationListenerC16populateAllFeeds9feedKinds10completionySay0aB00F0C4KindOG_yyctFTj
+- _$s19HealthOrchestration0B8DirectorC11environment20inputSignalProviders08executorG0018environmentalStateG015contextProvider11dispatchers20timeoutConfiguration6logger15debugIdentifierAcA013EnvironmentalJ7ManagerC_SayAA05InputfL0_pGSayAA08ExecutorL0_pGSayAA0sj9ComponentL0_pGAA07ContextL0_pSayAA10Dispatcher_pGAC07TimeoutO0VSg2os6LoggerVSStcfc
+- _$sSD4KeysV11descriptionSSvg
+- _$sSo15NSXPCConnectionC14HealthPlatformE5value3foryXlSgx_tSYRzSS8RawValueRtzlF
+- _$ss18_DictionaryStorageC4copy8originalAByxq_Gs05__RawaB0C_tFZ
+- _$ss5Int32VMn
+- _HKPreferredRegulatoryDomainProvider
+- _objc_release_x9
+- _objc_retain_x10
+- _objc_retain_x2
+CStrings:
++ " legacyPluginHostEnvironment: "
++ "@\"NSXPCInterface\"16@0:8"
++ "Duplicate values for key: '"
++ "No weather forecast cached yet."
++ "Swift/NativeDictionary.swift"
++ "[%s] connectionInterrupted()"
++ "[%s] connectionInvalidated()"
++ "[%{public}s] fetchObfuscatedArbitrationSnapshot() failed: healthArbiter is nil."
++ "[%{public}s]: Error when beginning to run: %{public}s"
++ "_HKXPCExportable"
++ "_TtC10healthappd27LegacyPluginHostEnvironment"
++ "_TtC10healthappd28LegacyPluginHostDaemonPlugin"
++ "appEnvironmentalStateController"
++ "connectionConfigured"
++ "connectionInterrupted"
++ "connectionInvalidated"
++ "connectionManager"
++ "environment"
++ "exportedInterface"
++ "gatedRunBackgroundGeneration(for:pluginIdentifiers:commitUrgentTransaction:generationType:completion:)"
++ "gatedStartInteractiveFeedItemGeneration(completion:)"
++ "generationGate"
++ "healthappd.LegacyPluginHostEnvironment"
++ "healthappd2"
++ "initWithSuiteName:"
++ "launchNotificationName"
++ "legacyPluginHostEnvironment"
++ "logger"
++ "objectForKey:"
++ "plugins"
++ "remoteInterface"
++ "setObject:forKey:"
++ "state"
++ "welcomeFlowManager"
+- " healthPluginHostListener: "
+- "$__lazy_storage_$_availablePlugins"
+- "$__lazy_storage_$_healthWelcomeFlowSignalManager"
+- "B32@0:8@\"NSXPCListener\"16@\"NSXPCConnection\"24"
+- "B32@0:8@16@24"
+- "Background generation activities %{public}s for connectionResponder %s"
+- "Background generation of type %{public}s with identifier %{public}s error: DaemonListenerDelegate was deallocated"
+- "NSXPCListenerDelegate"
+- "[%s] (pid %d) interrupted"
+- "[%s] (pid %d) invalidated"
+- "[%s] listener:shouldAcceptNewConnection: Allowing connection: %s"
+- "[%s] listener:shouldAcceptNewConnection: NO ENTITLEMENT! NOT ALLOWING PROCESS %d: %s"
+- "[%s] startXPCListener() Starting"
+- "[%s] startXPCListener() Waiting for incoming connections"
+- "_TtC10healthappd22DaemonListenerDelegate"
+- "_appFirstLaunchDate"
+- "_appLastOpenedDate"
+- "currentPopulationManagerLock"
+- "currentSummaryTabFeedPopulationManager"
+- "healthPluginHostListener"
+- "healthappd.DaemonListenerDelegate"
+- "listener"
+- "listener:shouldAcceptNewConnection:"
+- "lock"
+- "processIdentifier"
+- "profileDashboardsFeedPopulationListener"
+- "runBackgroundGeneration(for:pluginIdentifiers:commitUrgentTransaction:generationType:completion:)"
+- "setDelegate:"
+- "setExportedInterface:"
+- "setExportedObject:"
+- "setInterruptionHandler:"
+- "setInvalidationHandler:"
+- "sourceProfilePublisher"
+- "startInteractiveFeedItemGeneration(completion:)"
+```

@@ -1,0 +1,137 @@
+## HealthBalanceUI
+
+> `/System/Library/PrivateFrameworks/HealthBalanceUI.framework/HealthBalanceUI`
+
+```diff
+
+-7027.0.72.2.7
+-  __TEXT.__text: 0x101f88
++7027.1.36.2.7
++  __TEXT.__text: 0x100370
+   __TEXT.__objc_methlist: 0x19c
+-  __TEXT.__const: 0x70d4
+-  __TEXT.__swift5_typeref: 0x1f4e
+-  __TEXT.__swift5_reflstr: 0x28cb
+-  __TEXT.__swift5_assocty: 0x540
+-  __TEXT.__constg_swiftt: 0x2504
+-  __TEXT.__swift5_fieldmd: 0x2794
++  __TEXT.__const: 0x7194
++  __TEXT.__swift5_typeref: 0x1f8a
++  __TEXT.__swift5_reflstr: 0x29bb
++  __TEXT.__swift5_assocty: 0x558
++  __TEXT.__constg_swiftt: 0x2464
++  __TEXT.__swift5_fieldmd: 0x2804
+   __TEXT.__swift5_builtin: 0x50
+-  __TEXT.__swift5_proto: 0x428
+-  __TEXT.__swift5_types: 0x290
+-  __TEXT.__cstring: 0x22d1
++  __TEXT.__swift5_proto: 0x42c
++  __TEXT.__swift5_types: 0x294
++  __TEXT.__cstring: 0x2163
+   __TEXT.__swift5_capture: 0x480
+   __TEXT.__swift5_mpenum: 0x6c
+-  __TEXT.__oslogstring: 0x84a
++  __TEXT.__oslogstring: 0x8ca
+   __TEXT.__swift5_protos: 0x10
+   __TEXT.__swift_as_entry: 0x50
+   __TEXT.__swift_as_ret: 0x60
+   __TEXT.__swift_as_cont: 0xc8
+-  __TEXT.__unwind_info: 0x3cb0
+-  __TEXT.__eh_frame: 0x2640
++  __TEXT.__unwind_info: 0x3d10
++  __TEXT.__eh_frame: 0x25f8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1e8
++  __DATA_CONST.__const: 0x208
+   __DATA_CONST.__objc_classlist: 0x58
+   __DATA_CONST.__objc_protolist: 0x30
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x270
++  __DATA_CONST.__objc_selrefs: 0x288
+   __DATA_CONST.__objc_protorefs: 0x18
+   __DATA_CONST.__got: 0x1020
+-  __AUTH_CONST.__const: 0x38b0
+-  __AUTH_CONST.__objc_const: 0xbd0
+-  __AUTH_CONST.__auth_got: 0x1da0
++  __AUTH_CONST.__const: 0x38e8
++  __AUTH_CONST.__objc_const: 0xc10
++  __AUTH_CONST.__auth_got: 0x1db8
+   __AUTH.__objc_data: 0x238
+-  __AUTH.__data: 0x990
+-  __DATA.__data: 0x1198
++  __AUTH.__data: 0xa20
++  __DATA.__data: 0x1258
+   __DATA.__common: 0x48
+   __DATA_DIRTY.__objc_data: 0x140
+-  __DATA_DIRTY.__data: 0x4728
++  __DATA_DIRTY.__data: 0x45a8
+   __DATA_DIRTY.__bss: 0x5600
+-  __DATA_DIRTY.__common: 0x50
++  __DATA_DIRTY.__common: 0x38
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/Charts.framework/Charts
+   - /System/Library/Frameworks/ClockKit.framework/ClockKit
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 4323
+-  Symbols:   1022
+-  CStrings:  255
++  Functions: 4350
++  Symbols:   1028
++  CStrings:  247
+ 
+Symbols:
++ ___swift_closure_destructor.11Tm
++ ___swift_closure_destructor.8Tm
++ ___swift_memcpy128_8
++ ___swift_memcpy440_8
++ ___swift_memcpy441_8
++ _associated conformance 15HealthBalanceUI14XScaleModifier33_92F866F1F5B9870B3D5339CA6E5017B0LLV05SwiftC004ViewE0AA4BodyAeFP_AE0P0
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamicgH0O5BoundRtd__lFQOyACyACyACyAA6HStackVyAA05TupleD0VyAA5ImageV_ACyAA4TextVAA14_OpacityEffectVGQPGGAA24_ForegroundStyleModifierVyAA5ColorVGGATGAA022_EnvironmentKeyWritingS0VyAA4FontVSgGG_s19PartialRangeThroughVyAHGQo_AA14_PaddingLayoutVGAaDHPqd0__AaDHD3_A13_HO_A15_AA0eS0HPyHCHC
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA4ViewP6ChartsE11chartXScale6domain5range4typeQrqd___qd_0_AF9ScaleTypeVSgtAF0L6DomainRd__AF08PositionL5RangeRd_0_r0_lFQOyAA01_e9Modifier_D0Vy013HealthBalanceB00hQ033_92F866F1F5B9870B3D5339CA6E5017B0LLVG_SNy10Foundation4DateVGAF013PlotDimensionlP0VQo_AeFEAghJQrqd___AMtAfNRd__lFQOyAV_AZQo_GAaDHPqd0__AaDHD4_A1_HO_qd0__AaDHD3_A2_HOHC
++ _get_witness_table 7SwiftUI4ViewRzlqd0__AaBHD3_AaBP6ChartsE10chartXAxis7contentQrqd__yXE_tAD11AxisContentRd__lFQOyAA08ModifiedI0VyAcDE0E5YAxisyQrAA10VisibilityOFQOyAcDE0E6YScale6domain5range4typeQrqd___qd_0_AD9ScaleTypeVSgtAD0Q6DomainRd__AD08PositionQ5RangeRd_0_r0_lFQOyAA01_c9Modifier_I0Vy013HealthBalanceB0016OvernightMetricsH5Style33_92F866F1F5B9870B3D5339CA6E5017B0LLVyxGG_AD09AutomaticqS0VAD013PlotDimensionqU0VQo__Qo_AX06XScaleV0AZLLVG_AD18BuilderConditionalVyA12_yAD12BuilderTupleVyAdGPADE16compositingLayer5styleQrqd__AA011PlaceholderiC0VyxGXE_tAaBRd__lFQOyAD0H5MarksVyA14_yAD0H10ValueLabelVyAIyAIyxAA14_OpacityEffectVGAA14_PaddingLayoutVGGSg_A12_yA24_yAX0yz8ChartDayH5LabelVGA35_GQPGG_AC9WidgetKitE16widgetAccentableyQrSbFQOyA19_yA38_G_Qo_Qo__A38_QPGA38_GA22_yA14_yA32__A24_yAIyAcAE07dynamicR4SizeyQrqd__SXRd__AA07DynamicR4SizeO5BoundRtd__lFQOyAA4TextV_s07PartialU7ThroughVyA48_GQo_A29_GGQPGGGSgQo_HO
++ _keypath_setTm
++ _objc_msgSend$initWithFeatureIdentifier:healthStore:
++ _objc_msgSend$labelColor
++ _objc_msgSend$systemGroupedBackgroundColor
++ _objc_msgSend$tertiarySystemFillColor
++ _objc_release_x28
++ _objc_retain_x25
++ _symbolic _____ 15HealthBalanceUI14XScaleModifier33_92F866F1F5B9870B3D5339CA6E5017B0LLV
++ _symbolic _____y_____yAAyAAyAAy_____y_____y______AAy__________GQPGG_____y_____GGAFG_____y_____SgGG______y_____GQo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamicgH0O5BoundRtd__lFQO AA6HStackV AA05TupleD0V AA5ImageV AA4TextV AA14_OpacityEffectV AA24_ForegroundStyleModifierV AA5ColorV AA022_EnvironmentKeyWritingS0V AA4FontV s19PartialRangeThroughV AH AA14_PaddingLayoutV
++ _symbolic _____y_____y_____y_____G_SNy_____G_____Qo______yAD_AFQo_G 7SwiftUI19_ConditionalContentV AA4ViewP6ChartsE11chartXScale6domain5range4typeQrqd___qd_0_AF9ScaleTypeVSgtAF0L6DomainRd__AF08PositionL5RangeRd_0_r0_lFQO AA01_e9Modifier_D0V 013HealthBalanceB00hQ033_92F866F1F5B9870B3D5339CA6E5017B0LLV 10Foundation4DateV AF013PlotDimensionlP0V AeFEAghJQrqd___AMtAfNRd__lFQO
++ _symbolic _____y_____y_____y_____y_____y_____yxGG___________Qo__Qo______G______yALy_____y_____y_____yAMy_____yAAyAAyx_____G_____GGSg_ALyAOy_____GAWGQPGG______y_____yAZG_Qo_Qo__AZQPGAZGANyAMyAU_AOyAAy_____y___________y_____GQo_ARGGQPGGGSgQo_ 7SwiftUI4ViewP6ChartsE10chartXAxis7contentQrqd__yXE_tAD11AxisContentRd__lFQO AA08ModifiedI0V AcDE0E5YAxisyQrAA10VisibilityOFQO AcDE0E6YScale6domain5range4typeQrqd___qd_0_AD9ScaleTypeVSgtAD0Q6DomainRd__AD08PositionQ5RangeRd_0_r0_lFQO AA01_c9Modifier_I0V 013HealthBalanceB0016OvernightMetricsH5Style33_92F866F1F5B9870B3D5339CA6E5017B0LLV AD09AutomaticqS0V AD013PlotDimensionqU0V AX06XScaleV0AZLLV AD18BuilderConditionalV AD12BuilderTupleV AdGPADE16compositingLayer5styleQrqd__AA011PlaceholderiC0VyxGXE_tAaBRd__lFQO AD0H5MarksV AD0H10ValueLabelV AA14_OpacityEffectV AA14_PaddingLayoutV AX0yz8ChartDayH5LabelV AC9WidgetKitE16widgetAccentableyQrSbFQO A14_ AcAE07dynamicR4SizeyQrqd__SXRd__AA07DynamicR4SizeO5BoundRtd__lFQO AA4TextV s07PartialU7ThroughV A30_
+- ___DaytimeMetrics_isAvailable
+- ___VitalsEnhancements_isAvailable
+- ___swift_closure_destructor.53Tm
+- ___swift_closure_destructor.9Tm
+- ___swift_memcpy424_8
+- ___swift_memcpy425_8
+- __os_feature_enabled_impl
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamicgH0O5BoundRtd__lFQOyACyACyACyAA5GroupVyAA012_ConditionalD0VyAA6HStackVyAA05TupleD0VyAA5ImageV_AA4TextVQPGGATGGAA24_ForegroundStyleModifierVyAA5ColorVGGAA14_OpacityEffectVGAA022_EnvironmentKeyWritingS0VyAA4FontVSgGG_s19PartialRangeThroughVyAHGQo_AA14_PaddingLayoutVGAaDHPqd0__AaDHD3_A18_HO_A20_AA0eS0HPyHCHC
+- _get_witness_table 7SwiftUI4ViewRzlqd0__AaBHD3_AaBP6ChartsE10chartXAxis7contentQrqd__yXE_tAD11AxisContentRd__lFQOyAcDE0E6XScale6domain4typeQrqd___AD9ScaleTypeVSgtAD0M6DomainRd__lFQOyAcDE0E5YAxisyQrAA10VisibilityOFQOyAcDE0E6YScaleAI5rangeAJQrqd___qd_0_AMtAdNRd__AD08PositionM5RangeRd_0_r0_lFQOyAA01_c9Modifier_I0Vy013HealthBalanceB0016OvernightMetricsH5Style33_92F866F1F5B9870B3D5339CA6E5017B0LLVyxGG_AD09AutomaticmO0VAD013PlotDimensionmU0VQo__Qo__SNy10Foundation4DateVGQo__AD18BuilderConditionalVyA13_yAD12BuilderTupleVyAdGPADE16compositingLayer5styleQrqd__AA011PlaceholderiC0VyxGXE_tAaBRd__lFQOyAD0H5MarksVyA15_yAD0H10ValueLabelVyAA08ModifiedI0VyA27_yxAA14_OpacityEffectVGAA14_PaddingLayoutVGGSg_A13_yA25_yAW0yz8ChartDayH5LabelVGA38_GQPGG_AC9WidgetKitE16widgetAccentableyQrSbFQOyA20_yA41_G_Qo_Qo__A41_QPGA41_GA23_yA15_yA35__A25_yA27_yAcAE07dynamicN4SizeyQrqd__SXRd__AA07DynamicN4SizeO5BoundRtd__lFQOyAA4TextV_s07PartialU7ThroughVyA51_GQo_A32_GGQPGGGSgQo_HO
+- _keypath_set.40Tm
+- _objc_msgSend$initWithFeatureIdentifier:healthStore:currentCountryCode:
+- _swift_release_x3
+- _symbolic _____y_____yAAyAAyAAy_____y_____y_____y_____y___________QPGGAFGG_____y_____GG_____G_____y_____SgGG______y_____GQo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamicgH0O5BoundRtd__lFQO AA5GroupV AA012_ConditionalD0V AA6HStackV AA05TupleD0V AA5ImageV AA4TextV AA24_ForegroundStyleModifierV AA5ColorV AA14_OpacityEffectV AA022_EnvironmentKeyWritingS0V AA4FontV s19PartialRangeThroughV AH AA14_PaddingLayoutV
+- _symbolic _____y_____y_____y_____y_____y_____yxGG___________Qo__Qo__SNy_____GQo_______yALy_____y_____y_____yAMy_____y_____yAPyx_____G_____GGSg_ALyAOy_____GAXGQPGG______y_____yA_G_Qo_Qo__A_QPGA_GANyAMyAV_AOyAPy_____y___________y_____GQo_ASGGQPGGGSgQo_ 7SwiftUI4ViewP6ChartsE10chartXAxis7contentQrqd__yXE_tAD11AxisContentRd__lFQO AcDE0E6XScale6domain4typeQrqd___AD9ScaleTypeVSgtAD0M6DomainRd__lFQO AcDE0E5YAxisyQrAA10VisibilityOFQO AcDE0E6YScaleAI5rangeAJQrqd___qd_0_AMtAdNRd__AD08PositionM5RangeRd_0_r0_lFQO AA01_c9Modifier_I0V 013HealthBalanceB0016OvernightMetricsH5Style33_92F866F1F5B9870B3D5339CA6E5017B0LLV AD09AutomaticmO0V AD013PlotDimensionmU0V 10Foundation4DateV AD18BuilderConditionalV AD12BuilderTupleV AdGPADE16compositingLayer5styleQrqd__AA011PlaceholderiC0VyxGXE_tAaBRd__lFQO AD0H5MarksV AD0H10ValueLabelV AA08ModifiedI0V AA14_OpacityEffectV AA14_PaddingLayoutV AW0yz8ChartDayH5LabelV AC9WidgetKitE16widgetAccentableyQrSbFQO A14_ AcAE07dynamicN4SizeyQrqd__SXRd__AA07DynamicN4SizeO5BoundRtd__lFQO AA4TextV s07PartialU7ThroughV A32_
+CStrings:
++ "[%{public}s] Not starting new query, a query is already in progress"
++ "[%{public}s] Query observation loop cancelled"
+- "DaytimeMetrics"
+- "Health"
+- "HealthBalanceUI/BalanceWidgetAccessoryCircularSpecs.swift"
+- "HealthBalanceUI/HKQuantity+Formatting.swift"
+- "HealthBalanceUI/OvernightMetricsChartSpec.swift"
+- "HealthBalanceUI/SleepingSampleViewModel.swift"
+- "Unavailable enum case found."
+- "VitalsEnhancements"
+- "backgroundPurple"
+- "position isOutlier "
+```

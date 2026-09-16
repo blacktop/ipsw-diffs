@@ -1,0 +1,36 @@
+## Health
+
+> `FileSystem/private/var/staged_system_apps/Health.app/Omakase-HeuristicFallback-Activity-Localizable.loctable`
+
+```text
+en.heuristic_activity_one_ring_fallback_headline = "Your Ring Status"
+en.heuristic_activity_one_ring_fallback_subheadline_1 = "Here’s a look at your ring for the day."
+en.heuristic_activity_one_ring_fallback_subheadline_2 = "Here’s how your ring is doing today."
+en.heuristic_activity_one_ring_fallback_subheadline_3 = "Here’s where your ring stands so far."
+en.heuristic_activity_one_ring_fallback_subheadline_4 = "Here’s a sense of your ring for the day."
+en.heuristic_activity_pushes_fallback_headline_1 = "Your Pushes Today"
+en.heuristic_activity_pushes_fallback_headline_2 = "Your Push Status"
+en.heuristic_activity_pushes_fallback_headline_3 = "Your Pushes So Far"
+en.heuristic_activity_pushes_fallback_headline_4 = "Today’s Pushes"
+en.heuristic_activity_pushes_fallback_headline_5 = "Your Pushes So Far"
+en.heuristic_activity_pushes_fallback_subheadline_1 = "Here’s a look at your pushes so far."
+en.heuristic_activity_pushes_fallback_subheadline_2 = "Here’s a look at your pushes for the day."
+en.heuristic_activity_pushes_fallback_subheadline_3 = "Here’s how your push count is doing today."
+en.heuristic_activity_pushes_fallback_subheadline_4 = "Here’s where your push count is so far."
+en.heuristic_activity_pushes_fallback_subheadline_5 = "Here’s a count of your pushes today."
+en.heuristic_activity_steps_fallback_headline_1 = "Your Steps Today"
+en.heuristic_activity_steps_fallback_headline_2 = "Your Steps Status"
+en.heuristic_activity_steps_fallback_headline_3 = "Your Steps So Far"
+en.heuristic_activity_steps_fallback_headline_4 = "Today’s Steps"
+en.heuristic_activity_steps_fallback_headline_5 = "Your Steps So Far"
+en.heuristic_activity_steps_fallback_subheadline_1 = "Here’s a look at your steps so far."
+en.heuristic_activity_steps_fallback_subheadline_2 = "Here’s a look at your steps for the day."
+en.heuristic_activity_steps_fallback_subheadline_3 = "Here’s how your steps are doing today."
+en.heuristic_activity_steps_fallback_subheadline_4 = "Here’s where your steps stand so far."
+en.heuristic_activity_steps_fallback_subheadline_5 = "Here’s a count of your steps today."
+en.heuristic_activity_three_rings_fallback_headline = "Your Rings Status"
+en.heuristic_activity_three_rings_fallback_subheadline_1 = "Here’s a look at your rings for the day."
+en.heuristic_activity_three_rings_fallback_subheadline_2 = "Here’s how your rings are doing today."
+en.heuristic_activity_three_rings_fallback_subheadline_3 = "Here’s where your rings stand so far."
+en.heuristic_activity_three_rings_fallback_subheadline_4 = "Here’s a sense of your rings."
+```

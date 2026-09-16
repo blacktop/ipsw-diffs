@@ -1,0 +1,85 @@
+## demod_helper
+
+> `/usr/libexec/demod_helper`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+- `__TEXT.__gcc_except_tab`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__objc_arrayobj`
+- `__DATA_CONST.__objc_intobj`
+- `__DATA_CONST.__got`
+- `__DATA.__objc_const`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
+```diff
+
+-1871.2.1.0.0
+-  __TEXT.__text: 0x2e0bc
++1871.40.45.0.0
++  __TEXT.__text: 0x2e1fc
+   __TEXT.__auth_stubs: 0x11c0
+   __TEXT.__objc_stubs: 0x4400
+-  __TEXT.__objc_methlist: 0x1bc8
++  __TEXT.__objc_methlist: 0x1bd8
+   __TEXT.__const: 0x130
+-  __TEXT.__cstring: 0x6605
++  __TEXT.__cstring: 0x6877
+   __TEXT.__objc_classname: 0x1ec
+-  __TEXT.__objc_methname: 0x4c11
++  __TEXT.__objc_methname: 0x4c2c
+   __TEXT.__objc_methtype: 0x5d5
+   __TEXT.__gcc_except_tab: 0x338
+-  __TEXT.__oslogstring: 0x63fd
++  __TEXT.__oslogstring: 0x6430
+   __TEXT.__dlopen_cstrs: 0x62
+-  __TEXT.__unwind_info: 0xe38
++  __TEXT.__unwind_info: 0xe40
+   __DATA_CONST.__const: 0x688
+-  __DATA_CONST.__cfstring: 0x5160
++  __DATA_CONST.__cfstring: 0x5280
+   __DATA_CONST.__objc_classlist: 0xa8
+   __DATA_CONST.__objc_catlist: 0x38
+   __DATA_CONST.__objc_protolist: 0x10
+
+   __DATA_CONST.__auth_got: 0x8f0
+   __DATA_CONST.__got: 0x380
+   __DATA.__objc_const: 0x19c0
+-  __DATA.__objc_selrefs: 0x1578
++  __DATA.__objc_selrefs: 0x1580
+   __DATA.__objc_ivar: 0xbc
+   __DATA.__objc_data: 0x690
+   __DATA.__data: 0x85c
+
+   - /usr/lib/libsqlite3.dylib
+   - /usr/lib/libsysdiagnose.dylib
+   - /usr/lib/libz.1.dylib
+-  Functions: 1054
++  Functions: 1055
+   Symbols:   400
+-  CStrings:  2182
++  CStrings:  2194
+ 
+CStrings:
++ "%s - Found system container backup: %{public}@"
++ "-[MSDSignedManifestV7 mergedBackupManifest:]"
++ "/var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles"
++ "/var/mobile/Library/BulletinBoard/VersionedSectionInfo.plist"
++ "/var/mobile/Library/Preferences/com.apple.AppStore.plist"
++ "/var/mobile/Library/Preferences/com.apple.NanoHomeScreen.PrivacyDefaults.plist"
++ "/var/mobile/Library/Preferences/com.apple.RelevancePlatform.AudioUnderstanding.plist"
++ "/var/mobile/Library/Preferences/com.apple.compass.plist"
++ "/var/mobile/Library/Preferences/com.apple.health.shared.plist"
++ "/var/mobile/Library/Preferences/com.apple.private.health.respiratory.plist"
++ "HighlightSecretGestureView"
++ "System container backup only allowed on Watch, TV or Ha devices."
++ "highlightSecretGestureView"
+- "System container backup only allowed on Watch or Ha devices."
+```

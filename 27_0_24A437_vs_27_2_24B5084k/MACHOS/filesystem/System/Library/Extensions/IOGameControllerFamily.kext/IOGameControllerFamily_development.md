@@ -1,0 +1,16 @@
+## IOGameControllerFamily_development
+
+> `/System/Library/Extensions/IOGameControllerFamily.kext/IOGameControllerFamily_development`
+
+### Sections with Same Size but Changed Content
+
+- `__DATA.__data`
+
+```diff
+
+-14.0.24.0.0
++14.1.2.0.0
+   __TEXT.__const: 0x480
+   __TEXT.__cstring: 0x27de
+   __TEXT.__os_log: 0x90fa
+```

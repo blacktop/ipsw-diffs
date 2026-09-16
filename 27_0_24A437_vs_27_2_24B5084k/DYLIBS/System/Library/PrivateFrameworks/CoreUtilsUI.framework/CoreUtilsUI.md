@@ -1,0 +1,314 @@
+## CoreUtilsUI
+
+> `/System/Library/PrivateFrameworks/CoreUtilsUI.framework/CoreUtilsUI`
+
+```diff
+
+-900.58.0.0.0
+-  __TEXT.__text: 0x96b0
++910.21.0.0.0
++  __TEXT.__text: 0x20414
+   __TEXT.__objc_methlist: 0x20
+-  __TEXT.__const: 0x802
+-  __TEXT.__swift5_typeref: 0x453
+-  __TEXT.__swift5_reflstr: 0x121
+-  __TEXT.__swift5_assocty: 0xb0
+-  __TEXT.__constg_swiftt: 0x478
+-  __TEXT.__swift5_fieldmd: 0x228
+-  __TEXT.__swift5_builtin: 0x64
+-  __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__oslogstring: 0x14c
+-  __TEXT.__cstring: 0x35a
+-  __TEXT.__swift5_capture: 0xa0
+-  __TEXT.__swift5_proto: 0x40
+-  __TEXT.__swift5_types: 0x40
++  __TEXT.__const: 0x1360
++  __TEXT.__swift5_typeref: 0xe41
++  __TEXT.__swift5_capture: 0x164
++  __TEXT.__constg_swiftt: 0x8dc
++  __TEXT.__swift5_reflstr: 0x4ee
++  __TEXT.__swift5_assocty: 0x128
++  __TEXT.__swift5_fieldmd: 0x6d4
++  __TEXT.__swift5_builtin: 0x78
++  __TEXT.__oslogstring: 0x1ec
++  __TEXT.__cstring: 0x52f
++  __TEXT.__swift5_proto: 0x64
++  __TEXT.__swift5_types: 0x80
++  __TEXT.__swift5_mpenum: 0x10
++  __TEXT.__swift5_protos: 0x4
+   __TEXT.__swift_as_entry: 0xc
+   __TEXT.__swift_as_ret: 0x8
+   __TEXT.__swift_as_cont: 0x10
+-  __TEXT.__unwind_info: 0x400
+-  __TEXT.__eh_frame: 0x310
++  __TEXT.__unwind_info: 0x948
++  __TEXT.__eh_frame: 0x38c
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0xb0
+-  __DATA_CONST.__objc_classlist: 0x10
++  __DATA_CONST.__objc_classlist: 0x18
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x118
++  __DATA_CONST.__objc_selrefs: 0x130
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x6e0
+-  __AUTH_CONST.__objc_const: 0x140
+-  __AUTH_CONST.__auth_got: 0x760
++  __AUTH_CONST.__const: 0x1088
++  __AUTH_CONST.__objc_const: 0x298
++  __AUTH_CONST.__auth_got: 0xd30
+   __AUTH.__objc_data: 0xd0
+-  __AUTH.__data: 0x240
+-  __DATA.__data: 0x298
++  __AUTH.__data: 0x5c8
++  __DATA.__data: 0x850
+   __DATA_DIRTY.__data: 0x20
++  - /System/Library/Frameworks/Accessibility.framework/Accessibility
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/CoreImage.framework/CoreImage
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 274
+-  Symbols:   348
+-  CStrings:  27
++  Functions: 732
++  Symbols:   547
++  CStrings:  49
+ 
+Symbols:
++ _CGColorSpaceCreateDeviceRGB
++ _CGColorSpaceCreateWithName
++ _CGDataProviderCreateWithCFData
++ _CGImageCreate
++ _CGRectContainsPoint
++ _CGRectGetMaxX
++ _CGRectGetMaxY
++ _CGRectGetMinX
++ _CGRectGetMinY
++ _CGRectInset
++ _NSProcessInfoPowerStateDidChangeNotification
++ _OBJC_CLASS_$_NSNotificationCenter
++ _OBJC_CLASS_$_NSProcessInfo
++ __DATA__TtC11CoreUtilsUI25CUAmbientGradientRenderer
++ __IVARS__TtC11CoreUtilsUI25CUAmbientGradientRenderer
++ __METACLASS_DATA__TtC11CoreUtilsUI25CUAmbientGradientRenderer
++ __MergedGlobals
++ ___isPlatformVersionAtLeast
++ ___sincos_stret
++ ___swift_closure_destructorTm
++ ___swift_instantiateGenericMetadata
++ ___swift_memcpy104_8
++ ___swift_memcpy128_8
++ ___swift_memcpy136_8
++ ___swift_memcpy24_8
++ ___swift_memcpy33_8
++ ___swift_memcpy88_8
++ __availability_version_check
++ __initializeAvailabilityCheck
++ __swiftEmptyDictionarySingleton
++ _associated conformance 11CoreUtilsUI12CUSliderViewV05SwiftC00E0AA4BodyAdEP_AdE
++ _associated conformance 11CoreUtilsUI13CULatticeViewV05SwiftC00E0AA4BodyAdEP_AdE
++ _associated conformance 11CoreUtilsUI14CURichTextViewV05SwiftC00F0AA4BodyAdEP_AdE
++ _associated conformance 11CoreUtilsUI15CUPickerRowViewVyxG05SwiftC00F0AA4BodyAeFP_AeF
++ _associated conformance 11CoreUtilsUI21CUAmbientGradientViewV05SwiftC00F0AA4BodyAdEP_AdE
++ _bzero
++ _compatibilityInitializeAvailabilityCheck
++ _default associated conformance8AllCasess12CaseIterableP_Sk
++ _dispatch_once_f
++ _dlsym
++ _exp2
++ _fclose
++ _fopen
++ _fread
++ _free
++ _fseek
++ _ftell
++ _generic environment 11CoreUtilsUI14CUPickerOptionRzl
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOQr
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOqd0__AaBHC
++ _get_witness_table 11CoreUtilsUI14CUPickerOptionRzl05SwiftC06PickerVyAC4TextVxAC7ForEachVy8AllCasesQzxAC4ViewPACE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyAG_xQo_GGAcLHPyHC
++ _get_witness_table 7SwiftUI14LabeledContentVyAA4TextVAA6HStackVyAA05TupleD0VyAA012_ConditionalD0VyAA6SliderVyAA9EmptyViewVAOGAPG_AA08ModifiedD0VyAeA30_EnvironmentKeyWritingModifierVySiSgGGQPGGGAA0K0HPAeAA0_HPyHC_AzAA0_HPyHCHC
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA14GeometryReaderVyACyACyAA6CanvasVyAA7ForEachVySnySiGSiAA4ViewPAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyACyACyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAA016_ForegroundStyleR0VyAA5ColorVGG_SiQo_GGAA20_MaskAlignmentEffectVyAA012_ConditionalD0VyA8_yA_AA14LinearGradientVGA8_yAA14RadialGradientVA_GGGGAA010_BlendModeY0VGSgGAA023AccessibilityAttachmentR0VGAaKHPA22_AaKHPyHC_A24_AA0jR0HPyHCHC
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA16SubscriptionViewVySo20NSNotificationCenterC10FoundationE9PublisherVAA0F0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA14GeometryReaderVyAA08TimelineF0VyAA09AnimationQ8ScheduleVAA012_ConditionalD0VyAA5ImageVAA4TextVGGG_SbQo_GAA31AccessibilityAttachmentModifierVGAaKHPA4_AaKHPyHC_A6_AA0fY0HPyHCHC
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA4ViewPAAE13textSelectionyQrqd__AA17TextSelectabilityRd__lFQOyAA0H0V_AA07EnabledhI0VQo_AeAEAFyQrqd__AaGRd__lFQOyAI_AA08DisabledhI0VQo_GAaDHPqd0__AaDHD3_ALHO_qd0__AaDHD3_AOHOHC
++ _get_witness_table 7SwiftUI4ViewRzlAA19_ConditionalContentVyAaBPAAE13textSelectionyQrqd__AA17TextSelectabilityRd__lFQOyx_AA07EnabledhI0VQo_AeAEAFyQrqd__AaGRd__lFQOyx_AA08DisabledhI0VQo_GAaBHPqd0__AaBHD3_AJHO_qd0__AaBHD3_AMHOHC
++ _get_witness_table 7SwiftUI4ViewRzlxAaBHD1_
++ _hypot
++ _initializeAvailabilityCheck
++ _kCGColorSpaceLinearSRGB
++ _malloc
++ _objc_msgSend$defaultCenter
++ _objc_msgSend$isLowPowerModeEnabled
++ _objc_msgSend$processInfo
++ _rewind
++ _sscanf
++ _swift_arrayDestroy
++ _swift_arrayInitWithCopy
++ _swift_arrayInitWithTakeBackToFront
++ _swift_arrayInitWithTakeFrontToBack
++ _swift_bridgeObjectRetain_n
++ _swift_checkMetadataState
++ _swift_cvw_allocateGenericValueMetadataWithLayoutString
++ _swift_getAssociatedConformanceWitness
++ _swift_getAssociatedTypeWitness
++ _swift_getGenericMetadata
++ _swift_getOpaqueTypeMetadata2
++ _swift_initStackObject
++ _swift_release_x25
++ _swift_retain_x19
++ _swift_retain_x21
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x8
++ _symbolic $s11CoreUtilsUI14CUPickerOptionP
++ _symbolic 8AllCases_____Qz s12CaseIterableP
++ _symbolic B0
++ _symbolic SDySi_____G 7SwiftUI4FontV
++ _symbolic SNySdG
++ _symbolic SNySiG
++ _symbolic SaySSG
++ _symbolic SaySdG
++ _symbolic Say_____G 10Foundation16AttributedStringV
++ _symbolic Say_____G s6UInt16V
++ _symbolic Sb
++ _symbolic Sd
++ _symbolic SdSg
++ _symbolic ShySSGSg
++ _symbolic Si
++ _symbolic Si6offset______7elementt 10Foundation16AttributedStringV
++ _symbolic SiSg
++ _symbolic Si______t 7SwiftUI4FontV
++ _symbolic SnySiG
++ _symbolic Sny_____G 10Foundation16AttributedStringV5IndexV
++ _symbolic _____ 10Foundation16AttributedStringV
++ _symbolic _____ 11CoreUtilsUI12CUSliderViewV
++ _symbolic _____ 11CoreUtilsUI13CULatticeFadeO
++ _symbolic _____ 11CoreUtilsUI13CULatticeViewV
++ _symbolic _____ 11CoreUtilsUI13CUPerlinNoiseO
++ _symbolic _____ 11CoreUtilsUI14CULatticeStyleV
++ _symbolic _____ 11CoreUtilsUI14CUPickerLayoutO
++ _symbolic _____ 11CoreUtilsUI14CURichTextViewV
++ _symbolic _____ 11CoreUtilsUI15CULatticeLayoutV
++ _symbolic _____ 11CoreUtilsUI15CUPickerRowViewV
++ _symbolic _____ 11CoreUtilsUI15CURichTextStyleV
++ _symbolic _____ 11CoreUtilsUI18_CURichTextBuilder33_4368C832DB66FFA5647B8A6ABA7AF227LLV
++ _symbolic _____ 11CoreUtilsUI18_CURichTextBuilder33_4368C832DB66FFA5647B8A6ABA7AF227LLV6_BlockV
++ _symbolic _____ 11CoreUtilsUI21CUAmbientGradientViewV
++ _symbolic _____ 11CoreUtilsUI22CUAmbientGradientStyleV
++ _symbolic _____ 11CoreUtilsUI25CUAmbientGradientRendererC
++ _symbolic _____ 11CoreUtilsUI7CUOKLCHV
++ _symbolic _____ 7SwiftUI10ScenePhaseO
++ _symbolic _____ 7SwiftUI18LocalizedStringKeyV
++ _symbolic _____ 7SwiftUI4FontV
++ _symbolic _____ 7SwiftUI5AngleV
++ _symbolic _____ 7SwiftUI5ColorV
++ _symbolic _____ 7SwiftUI9BlendModeO
++ _symbolic _____5lower_AA5uppert 10Foundation16AttributedStringV5IndexV
++ _symbolic _____5start_AA3endt 7SwiftUI9UnitPointV
++ _symbolic _____6center_AA3endt 7SwiftUI9UnitPointV
++ _symbolic _____Sg 10Foundation15AttributeScopesO13AccessibilityE0D10AttributesV012HeadingLevelB0O0fG0O
++ _symbolic _____Sg 10Foundation16AttributedStringV
++ _symbolic _____Sg 10Foundation16AttributedStringV5IndexV
++ _symbolic _____Sg 10Foundation18PresentationIntentV
++ _symbolic _____Sg 11CoreUtilsUI13CULatticeFadeO
++ _symbolic _____Sg 11CoreUtilsUI18_CURichTextBuilder33_4368C832DB66FFA5647B8A6ABA7AF227LLV6_BlockV
++ _symbolic _____Sg 7SwiftUI15GraphicsContextV14ResolvedSymbolV
++ _symbolic _____Sg 7SwiftUI4FontV
++ _symbolic _____Sg 7SwiftUI4FontV6DesignO
++ _symbolic _____SgSg 10Foundation16AttributedStringV5IndexV
++ _symbolic _____Sg_ABt 10Foundation3URLV
++ _symbolic _____yAAy__________y_____SgGG_____y_____GG 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleI0V AA5ColorV
++ _symbolic _____yAAy_____y_____ySnySiGSi_____yAAyAAy__________y_____SgGG_____y_____GG_SiQo_GG_____y_____yASyAL_____GASy_____ALGGGG_____G 7SwiftUI15ModifiedContentV AA6CanvasV AA7ForEachV AA4ViewPAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleP0V AA5ColorV AA20_MaskAlignmentEffectV AA012_ConditionalD0V AA14LinearGradientV AA06RadialZ0V AA010_BlendModeW0V
++ _symbolic _____ySSG s11_SetStorageC
++ _symbolic _____ySSG s23_ContiguousArrayStorageC
++ _symbolic _____ySay_____GG s23_ContiguousArrayStorageC 10Foundation16AttributedStringV
++ _symbolic _____ySbG 7SwiftUI11EnvironmentV
++ _symbolic _____ySdG 7SwiftUI7BindingV
++ _symbolic _____ySdG 7SwiftUI9LazyStateV
++ _symbolic _____ySdG s23_ContiguousArrayStorageC
++ _symbolic _____ySd_G 7SwiftUI9LazyStateV7StorageO
++ _symbolic _____ySi_____G s18_DictionaryStorageC 7SwiftUI4FontV
++ _symbolic _____ySi______tG s23_ContiguousArrayStorageC 7SwiftUI4FontV
++ _symbolic _____ySnySiGSi_____y_____yACy__________y_____SgGG_____y_____GG_SiQo_G 7SwiftUI7ForEachV AA4ViewPAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleO0V AA5ColorV
++ _symbolic _____ySny_____GG s23_ContiguousArrayStorageC 10Foundation16AttributedStringV5IndexV
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV AA10ScenePhaseO
++ _symbolic _____y_____G 7SwiftUI24_ForegroundStyleModifierV AA5ColorV
++ _symbolic _____y_____G 7SwiftUI9LazyStateV 09CoreUtilsB025CUAmbientGradientRendererC
++ _symbolic _____y_____G s16IndexingIteratorV 10Foundation16AttributedStringV4RunsV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation16AttributedStringV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation18PresentationIntentV4KindO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 11CoreUtilsUI18_CURichTextBuilder33_4368C832DB66FFA5647B8A6ABA7AF227LLV6_BlockV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 7SwiftUI5ColorV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s6UInt16V
++ _symbolic _____y_____SgG 7SwiftUI30_EnvironmentKeyWritingModifierV AA4FontV
++ _symbolic _____y_____SgG s23_ContiguousArrayStorageC 7SwiftUI15GraphicsContextV14ResolvedSymbolV
++ _symbolic _____y______G 7SwiftUI11EnvironmentV7ContentO AA10ScenePhaseO
++ _symbolic _____y______G 7SwiftUI9LazyStateV7StorageO 09CoreUtilsB025CUAmbientGradientRendererC
++ _symbolic _____y__________G 7SwiftUI19_ConditionalContentV AA5ImageV AA4TextV
++ _symbolic _____y___________G 7SwiftUI12TimelineViewV7ContextV AA011EveryMinuteC8ScheduleV s5NeverO
++ _symbolic _____y___________G_____y__________GIegnr_ 7SwiftUI12TimelineViewV7ContextV AA011EveryMinuteC8ScheduleV s5NeverO AA19_ConditionalContentV AA5ImageV AA4TextV
++ _symbolic _____y___________y_____y_____y_____AFGAGG______y__________ySiSgGGQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA12TupleContentV AA012_ConditionalI0V AA6SliderV AA05EmptyD0V AA08ModifiedI0V AA4TextV AA30_EnvironmentKeyWritingModifierV
++ _symbolic _____y__________y_____SgGG 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV
++ _symbolic _____y__________y__________G_G 7SwiftUI12TimelineViewV7ContextV AA09AnimationC8ScheduleV AA19_ConditionalContentV AA5ImageV AA4TextV
++ _symbolic _____y__________y_____y_____y__________y__________GGG_SbQo_G 7SwiftUI16SubscriptionViewV So20NSNotificationCenterC10FoundationE9PublisherV AA0D0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA14GeometryReaderV AA08TimelineD0V AA09AnimationO8ScheduleV AA19_ConditionalContentV AA5ImageV AA4TextV
++ _symbolic _____y__________y_____y_____y_____y_____AGGAHG______yAB_____ySiSgGGQPGGG 7SwiftUI14LabeledContentV AA4TextV AA6HStackV AA05TupleD0V AA012_ConditionalD0V AA6SliderV AA9EmptyViewV AA08ModifiedD0V AA30_EnvironmentKeyWritingModifierV
++ _symbolic _____y______pG s23_ContiguousArrayStorageC s7CVarArgP
++ _symbolic _____y_____x_____y8AllCases_____Qzx_____yAB_xQo_GG 7SwiftUI6PickerV AA4TextV AA7ForEachV s12CaseIterableP AA4ViewPAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO
++ _symbolic _____y_____yAAyAAy_____y_____ySnySiGSi_____yAAyAAy__________y_____SgGG_____y_____GG_SiQo_GG_____y_____yATyAM_____GATy_____AMGGGG_____GSgG_____G 7SwiftUI15ModifiedContentV AA14GeometryReaderV AA6CanvasV AA7ForEachV AA4ViewPAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleR0V AA5ColorV AA20_MaskAlignmentEffectV AA012_ConditionalD0V AA14LinearGradientV AA14RadialGradientV AA010_BlendModeY0V AA023AccessibilityAttachmentR0V
++ _symbolic _____y_____yAAy__________y_____SgGG_____y_____GG_SiQo_ 7SwiftUI4ViewPAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleM0V AA5ColorV
++ _symbolic _____y_____yABy__________GABy_____ACGGG 7SwiftUI20_MaskAlignmentEffectV AA19_ConditionalContentV AA5ColorV AA14LinearGradientV AA06RadialJ0V
++ _symbolic _____y_____yABy_____y_____ySnySiGSi_____yAByABy__________y_____SgGG_____y_____GG_SiQo_GG_____y_____yATyAM_____GATy_____AMGGGG_____GSgG 7SwiftUI14GeometryReaderV AA15ModifiedContentV AA6CanvasV AA7ForEachV AA4ViewPAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleR0V AA5ColorV AA20_MaskAlignmentEffectV AA012_ConditionalF0V AA14LinearGradientV AA14RadialGradientV AA010_BlendModeY0V
++ _symbolic _____y_____y_____ACGADG 7SwiftUI19_ConditionalContentV AA6SliderV AA9EmptyViewV
++ _symbolic _____y_____y_____ACGADG______y__________ySiSgGGt 7SwiftUI19_ConditionalContentV AA6SliderV AA9EmptyViewV AA08ModifiedD0V AA4TextV AA30_EnvironmentKeyWritingModifierV
++ _symbolic _____y_____y_____ACGAD_G 7SwiftUI19_ConditionalContentV7StorageO AA6SliderV AA9EmptyViewV
++ _symbolic _____y_____y___________Qo______yAB______Qo_G 7SwiftUI19_ConditionalContentV AA4ViewPAAE13textSelectionyQrqd__AA17TextSelectabilityRd__lFQO AA0H0V AA07EnabledhI0V AeAEAFyQrqd__AaGRd__lFQO AA08DisabledhI0V
++ _symbolic _____y_____y___________Qo______yAB______Qo__G 7SwiftUI19_ConditionalContentV7StorageO AA4ViewPAAE13textSelectionyQrqd__AA17TextSelectabilityRd__lFQO AA0I0V AA07EnablediJ0V AgAEAHyQrqd__AaIRd__lFQO AA08DisablediJ0V
++ _symbolic _____y_____y__________y__________GGG 7SwiftUI14GeometryReaderV AA12TimelineViewV AA09AnimationE8ScheduleV AA19_ConditionalContentV AA5ImageV AA4TextV
++ _symbolic _____y_____y__________y_____y_____y__________y__________GGG_SbQo_G_____G 7SwiftUI15ModifiedContentV AA16SubscriptionViewV So20NSNotificationCenterC10FoundationE9PublisherV AA0F0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA14GeometryReaderV AA08TimelineF0V AA09AnimationQ8ScheduleV AA012_ConditionalD0V AA5ImageV AA4TextV AA31AccessibilityAttachmentModifierV
++ _symbolic _____y_____y_____ySnySiGSi_____yAAyAAy__________y_____SgGG_____y_____GG_SiQo_GG_____y_____yASyAL_____GASy_____ALGGGG 7SwiftUI15ModifiedContentV AA6CanvasV AA7ForEachV AA4ViewPAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleP0V AA5ColorV AA20_MaskAlignmentEffectV AA012_ConditionalD0V AA14LinearGradientV AA06RadialZ0V
++ _symbolic _____y_____y_____y_____y_____AEGAFG______y__________ySiSgGGQPGG 7SwiftUI6HStackV AA12TupleContentV AA012_ConditionalE0V AA6SliderV AA9EmptyViewV AA08ModifiedE0V AA4TextV AA30_EnvironmentKeyWritingModifierV
++ _symbolic _____y_____yx______Qo______yx______Qo_G 7SwiftUI19_ConditionalContentV AA4ViewPAAE13textSelectionyQrqd__AA17TextSelectabilityRd__lFQO AA07EnabledhI0V AeAEAFyQrqd__AaGRd__lFQO AA08DisabledhI0V
++ _symbolic _____yxG 7SwiftUI7BindingV
++ _symbolic qd0__
++ _type_layout_string 11CoreUtilsUI12CUSliderViewV
++ _type_layout_string 11CoreUtilsUI15CULatticeLayoutV
++ _type_layout_string 11CoreUtilsUI15CURichTextStyleV
++ _type_layout_string 11CoreUtilsUI18_CURichTextBuilder33_4368C832DB66FFA5647B8A6ABA7AF227LLV
++ _type_layout_string 11CoreUtilsUI22CUAmbientGradientStyleV
++ _type_layout_string 11CoreUtilsUI7CUOKLCHV
++ _type_layout_string So7CGPointV
+- _get_witness_table 7SwiftUI4ViewRzlqd0__AaBHD3_AaBPAAE13textSelectionyQrqd__AA17TextSelectabilityRd__lFQOyx_AA07EnabledfG0VQo_HO
+- _symbolic _____yx______Qo_ 7SwiftUI4ViewPAAE13textSelectionyQrqd__AA17TextSelectabilityRd__lFQO AA07EnabledfG0V
+- _type_layout_string So6CGSizeV
+CStrings:
++ "### Ambient gradient generate frame failed"
++ "### Lattice glyphs over limit: count=%ld, limit=%ld"
++ "%d.%d.%d"
++ "/System/Library/CoreServices/SystemVersion.plist"
++ "CFDataCreateWithBytesNoCopy"
++ "CFDictionaryGetValue"
++ "CFGetTypeID"
++ "CFPropertyListCreateFromXMLData"
++ "CFPropertyListCreateWithData"
++ "CFRelease"
++ "CFStringCreateWithCStringNoCopy"
++ "CFStringGetCString"
++ "CFStringGetTypeID"
++ "CoreUtilsUI/CUAmbientGradientView.swift"
++ "CoreUtilsUI/CULatticeView.swift"
++ "CoreUtilsUI/CUPickerView.swift"
++ "CoreUtilsUI/CUSliderView.swift"
++ "Low power mode updated: %{bool}d"
++ "ProductVersion"
++ "kCFAllocatorNull"
++ "r"
++ "⚠️ Render failed"
+```

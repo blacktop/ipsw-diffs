@@ -1,0 +1,1351 @@
+## MusicLibrary
+
+> `/System/Library/PrivateFrameworks/MusicLibrary.framework/MusicLibrary`
+
+```diff
+
+-4026.100.84.0.0
+-  __TEXT.__text: 0x3adf6c
+-  __TEXT.__objc_methlist: 0xe714
++4026.200.14.0.0
++  __TEXT.__text: 0x3b1490
++  __TEXT.__objc_methlist: 0xe834
+   __TEXT.__const: 0x25d54
+-  __TEXT.__dlopen_cstrs: 0x2d1
+-  __TEXT.__gcc_except_tab: 0x14594
+-  __TEXT.__cstring: 0x74e6f
+-  __TEXT.__oslogstring: 0x1d6d0
++  __TEXT.__dlopen_cstrs: 0x399
++  __TEXT.__gcc_except_tab: 0x14924
++  __TEXT.__cstring: 0x750c3
++  __TEXT.__oslogstring: 0x1e205
+   __TEXT.__ustring: 0x210
+-  __TEXT.__unwind_info: 0x8428
++  __TEXT.__unwind_info: 0x84e8
+   __TEXT.__eh_frame: 0x50
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x9dd8
+-  __DATA_CONST.__objc_classlist: 0x708
++  __DATA_CONST.__const: 0x9e60
++  __DATA_CONST.__objc_classlist: 0x718
+   __DATA_CONST.__objc_catlist: 0x50
+   __DATA_CONST.__objc_protolist: 0xa8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__weak_got: 0x18
+-  __DATA_CONST.__objc_selrefs: 0x7008
++  __DATA_CONST.__objc_selrefs: 0x70b8
+   __DATA_CONST.__objc_protorefs: 0x30
+-  __DATA_CONST.__objc_superrefs: 0x520
++  __DATA_CONST.__objc_superrefs: 0x528
+   __DATA_CONST.__objc_arraydata: 0x1420
+-  __DATA_CONST.__got: 0xb38
++  __DATA_CONST.__got: 0xb40
+   __AUTH_CONST.__const: 0x19420
+-  __AUTH_CONST.__cfstring: 0x287a0
+-  __AUTH_CONST.__objc_const: 0x159f0
++  __AUTH_CONST.__cfstring: 0x288c0
++  __AUTH_CONST.__objc_const: 0x15c28
+   __AUTH_CONST.__weak_auth_got: 0x20
+   __AUTH_CONST.__objc_arrayobj: 0x22c8
+-  __AUTH_CONST.__objc_intobj: 0x2130
++  __AUTH_CONST.__objc_intobj: 0x2148
+   __AUTH_CONST.__objc_dictobj: 0xf0
+   __AUTH_CONST.__objc_doubleobj: 0x20
+   __AUTH_CONST.__auth_got: 0xff0
+-  __AUTH.__objc_data: 0x19f0
++  __AUTH.__objc_data: 0x1a90
+   __AUTH.__data: 0x118
+-  __DATA.__objc_ivar: 0xf2c
++  __DATA.__objc_ivar: 0xf40
+   __DATA.__data: 0x1710
+   __DATA.__common: 0xb20
+   __DATA_DIRTY.__objc_data: 0x2c60
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+   - /usr/lib/libz.1.dylib
+-  Functions: 8470
+-  Symbols:   17473
+-  CStrings:  7533
++  Functions: 8507
++  Symbols:   17553
++  CStrings:  7578
+ 
+Symbols:
++ -[ML3DAAPImportOperation _importDAAPPayloadFromFile:entityType:isDeferredItemUpdate:]
++ -[ML3DAAPImportOperation _preprocessDAAPPayloadFromFile:entityType:isDeferredItemUpdate:]
++ -[ML3DatabaseImport albumCloudChannelID]
++ -[ML3DatabaseImport initWithLibraryPath:trackData:albumCloudChannel:]
++ -[ML3DatabaseImport initWithLibraryPath:trackData:playlistData:albumArtistData:albumData:libraryPinsData:albumCloudChannelID:isDeferredItemUpdateImport:clientIdentity:]
++ -[ML3DatabaseImport isDeferredItemUpdateImport]
++ -[ML3MutableDatabaseImport setAlbumCloudChannelID:]
++ -[ML3MutableDatabaseImport setIsDeferredItemUpdateImport:]
++ -[ML3UpdateSiriSharedPlaylistIndexOperation .cxx_destruct]
++ -[ML3UpdateSiriSharedPlaylistIndexOperation _accountIdentifierForLibrary:]
++ -[ML3UpdateSiriSharedPlaylistIndexOperation _createDonationItemForPlaylistWithPersistentID:library:]
++ -[ML3UpdateSiriSharedPlaylistIndexOperation _execute:]
++ -[ML3UpdateSiriSharedPlaylistIndexOperation _performFullIndexOfLibrary:toRevision:withDonation:]
++ -[ML3UpdateSiriSharedPlaylistIndexOperation _performIncrementalIndexOfLibrary:fromRevision:toRevision:withDonation:]
++ -[ML3UpdateSiriSharedPlaylistIndexOperation _platformSupportsSiriSharedPlaylistIndexing]
++ -[ML3UpdateSiriSharedPlaylistIndexOperation _removeDonationsForAccountIdentifiers:withDonation:]
++ -[ML3UpdateSiriSharedPlaylistIndexOperation type]
++ -[ML3UpdateSiriSharedPlaylistIndexOperationState .cxx_destruct]
++ -[ML3UpdateSiriSharedPlaylistIndexOperationState allDonationRevisions]
++ -[ML3UpdateSiriSharedPlaylistIndexOperationState dictionaryRepresentation]
++ -[ML3UpdateSiriSharedPlaylistIndexOperationState initWithDictionaryRepresentation:]
++ -[ML3UpdateSiriSharedPlaylistIndexOperationState lastDonationRevisionForAccountIdentifier:]
++ -[ML3UpdateSiriSharedPlaylistIndexOperationState setLastDonationRevision:forAccountIdentifier:]
++ -[ML3UpdateSiriSharedPlaylistIndexOperationState validityValue]
++ GCC_except_table2208
++ GCC_except_table2218
++ GCC_except_table2243
++ GCC_except_table2251
++ GCC_except_table2253
++ GCC_except_table2255
++ GCC_except_table2257
++ GCC_except_table2259
++ GCC_except_table2270
++ GCC_except_table2275
++ GCC_except_table2278
++ GCC_except_table2291
++ GCC_except_table2294
++ GCC_except_table2295
++ GCC_except_table2307
++ GCC_except_table2308
++ GCC_except_table2313
++ GCC_except_table2314
++ GCC_except_table2315
++ GCC_except_table2316
++ GCC_except_table2317
++ GCC_except_table2318
++ GCC_except_table2319
++ GCC_except_table2320
++ GCC_except_table2327
++ GCC_except_table2329
++ GCC_except_table2330
++ GCC_except_table2331
++ GCC_except_table2332
++ GCC_except_table2333
++ GCC_except_table2334
++ GCC_except_table2335
++ GCC_except_table2337
++ GCC_except_table2359
++ GCC_except_table2367
++ GCC_except_table2370
++ GCC_except_table2371
++ GCC_except_table2372
++ GCC_except_table2373
++ GCC_except_table2374
++ GCC_except_table2376
++ GCC_except_table2377
++ GCC_except_table2383
++ GCC_except_table2384
++ GCC_except_table2517
++ GCC_except_table2539
++ GCC_except_table2543
++ GCC_except_table2602
++ GCC_except_table2618
++ GCC_except_table2636
++ GCC_except_table2641
++ GCC_except_table2651
++ GCC_except_table2662
++ GCC_except_table2668
++ GCC_except_table2670
++ GCC_except_table2675
++ GCC_except_table2679
++ GCC_except_table2683
++ GCC_except_table2689
++ GCC_except_table2695
++ GCC_except_table2696
++ GCC_except_table2697
++ GCC_except_table2919
++ GCC_except_table2971
++ GCC_except_table2976
++ GCC_except_table2999
++ GCC_except_table3028
++ GCC_except_table3039
++ GCC_except_table3043
++ GCC_except_table3046
++ GCC_except_table3055
++ GCC_except_table3062
++ GCC_except_table3064
++ GCC_except_table3066
++ GCC_except_table3069
++ GCC_except_table3072
++ GCC_except_table3088
++ GCC_except_table3108
++ GCC_except_table3111
++ GCC_except_table3121
++ GCC_except_table3123
++ GCC_except_table3124
++ GCC_except_table3132
++ GCC_except_table3187
++ GCC_except_table3194
++ GCC_except_table3197
++ GCC_except_table3216
++ GCC_except_table3217
++ GCC_except_table3223
++ GCC_except_table3224
++ GCC_except_table3230
++ GCC_except_table3231
++ GCC_except_table3232
++ GCC_except_table3233
++ GCC_except_table3234
++ GCC_except_table3235
++ GCC_except_table3236
++ GCC_except_table3244
++ GCC_except_table3245
++ GCC_except_table3246
++ GCC_except_table3271
++ GCC_except_table3278
++ GCC_except_table3284
++ GCC_except_table3287
++ GCC_except_table3293
++ GCC_except_table3297
++ GCC_except_table3299
++ GCC_except_table3311
++ GCC_except_table3312
++ GCC_except_table3314
++ GCC_except_table3321
++ GCC_except_table3322
++ GCC_except_table3332
++ GCC_except_table3334
++ GCC_except_table3337
++ GCC_except_table3341
++ GCC_except_table3383
++ GCC_except_table3388
++ GCC_except_table3407
++ GCC_except_table3434
++ GCC_except_table3447
++ GCC_except_table3448
++ GCC_except_table3459
++ GCC_except_table3461
++ GCC_except_table3462
++ GCC_except_table3463
++ GCC_except_table3468
++ GCC_except_table3469
++ GCC_except_table3470
++ GCC_except_table3471
++ GCC_except_table3472
++ GCC_except_table3473
++ GCC_except_table3474
++ GCC_except_table3476
++ GCC_except_table3477
++ GCC_except_table3481
++ GCC_except_table3482
++ GCC_except_table3483
++ GCC_except_table3485
++ GCC_except_table3486
++ GCC_except_table3495
++ GCC_except_table3506
++ GCC_except_table3509
++ GCC_except_table3510
++ GCC_except_table3515
++ GCC_except_table3518
++ GCC_except_table3519
++ GCC_except_table3520
++ GCC_except_table3521
++ GCC_except_table3522
++ GCC_except_table3523
++ GCC_except_table3528
++ GCC_except_table3529
++ GCC_except_table3531
++ GCC_except_table3532
++ GCC_except_table3533
++ GCC_except_table3547
++ GCC_except_table3572
++ GCC_except_table3608
++ GCC_except_table3908
++ GCC_except_table3918
++ GCC_except_table3920
++ GCC_except_table3943
++ GCC_except_table3945
++ GCC_except_table3955
++ GCC_except_table4114
++ GCC_except_table4118
++ GCC_except_table4123
++ GCC_except_table4126
++ GCC_except_table4129
++ GCC_except_table4138
++ GCC_except_table4141
++ GCC_except_table4142
++ GCC_except_table4143
++ GCC_except_table4148
++ GCC_except_table4156
++ GCC_except_table4167
++ GCC_except_table4191
++ GCC_except_table4196
++ GCC_except_table4199
++ GCC_except_table4202
++ GCC_except_table4206
++ GCC_except_table4210
++ GCC_except_table4214
++ GCC_except_table4217
++ GCC_except_table4220
++ GCC_except_table4299
++ GCC_except_table4302
++ GCC_except_table4403
++ GCC_except_table4417
++ GCC_except_table4419
++ GCC_except_table4421
++ GCC_except_table4422
++ GCC_except_table4423
++ GCC_except_table4426
++ GCC_except_table4432
++ GCC_except_table4437
++ GCC_except_table4441
++ GCC_except_table4460
++ GCC_except_table4462
++ GCC_except_table4644
++ GCC_except_table4651
++ GCC_except_table4658
++ GCC_except_table4659
++ GCC_except_table4660
++ GCC_except_table4666
++ GCC_except_table4734
++ GCC_except_table4735
++ GCC_except_table4736
++ GCC_except_table4739
++ GCC_except_table4745
++ GCC_except_table4748
++ GCC_except_table4751
++ GCC_except_table4761
++ GCC_except_table4764
++ GCC_except_table4768
++ GCC_except_table4773
++ GCC_except_table4787
++ GCC_except_table4788
++ GCC_except_table4789
++ GCC_except_table4897
++ GCC_except_table4902
++ GCC_except_table4905
++ GCC_except_table4923
++ GCC_except_table4924
++ GCC_except_table4925
++ GCC_except_table4926
++ GCC_except_table5042
++ GCC_except_table5044
++ GCC_except_table5048
++ GCC_except_table5050
++ GCC_except_table5052
++ GCC_except_table5053
++ GCC_except_table5054
++ GCC_except_table5150
++ GCC_except_table5172
++ GCC_except_table5182
++ GCC_except_table5185
++ GCC_except_table5186
++ GCC_except_table5187
++ GCC_except_table5188
++ GCC_except_table5189
++ GCC_except_table5191
++ GCC_except_table5197
++ GCC_except_table5200
++ GCC_except_table5204
++ GCC_except_table5205
++ GCC_except_table5206
++ GCC_except_table5208
++ GCC_except_table5210
++ GCC_except_table5211
++ GCC_except_table5212
++ GCC_except_table5221
++ GCC_except_table5226
++ GCC_except_table5233
++ GCC_except_table5238
++ GCC_except_table5276
++ GCC_except_table5280
++ GCC_except_table5282
++ GCC_except_table5284
++ GCC_except_table5286
++ GCC_except_table5289
++ GCC_except_table5291
++ GCC_except_table5294
++ GCC_except_table5296
++ GCC_except_table5300
++ GCC_except_table5302
++ GCC_except_table5309
++ GCC_except_table5314
++ GCC_except_table5321
++ GCC_except_table5337
++ GCC_except_table5342
++ GCC_except_table5347
++ GCC_except_table5356
++ GCC_except_table5357
++ GCC_except_table5358
++ GCC_except_table5360
++ GCC_except_table5365
++ GCC_except_table5371
++ GCC_except_table5438
++ GCC_except_table5441
++ GCC_except_table5444
++ GCC_except_table5445
++ GCC_except_table5447
++ GCC_except_table5449
++ GCC_except_table5451
++ GCC_except_table5452
++ GCC_except_table5542
++ GCC_except_table5543
++ GCC_except_table5547
++ GCC_except_table5549
++ GCC_except_table5563
++ GCC_except_table5564
++ GCC_except_table5565
++ GCC_except_table5566
++ GCC_except_table5570
++ GCC_except_table5577
++ GCC_except_table5579
++ GCC_except_table5581
++ GCC_except_table5582
++ GCC_except_table5583
++ GCC_except_table5584
++ GCC_except_table5588
++ GCC_except_table5589
++ GCC_except_table5603
++ GCC_except_table5639
++ GCC_except_table5648
++ GCC_except_table5653
++ GCC_except_table5748
++ GCC_except_table5754
++ GCC_except_table5766
++ GCC_except_table5772
++ GCC_except_table5778
++ GCC_except_table5784
++ GCC_except_table5790
++ GCC_except_table5791
++ GCC_except_table5792
++ GCC_except_table5798
++ GCC_except_table5799
++ GCC_except_table5805
++ GCC_except_table5811
++ GCC_except_table5816
++ GCC_except_table5817
++ GCC_except_table5825
++ GCC_except_table5832
++ GCC_except_table5838
++ GCC_except_table5841
++ GCC_except_table5867
++ GCC_except_table5895
++ GCC_except_table5903
++ GCC_except_table5916
++ GCC_except_table5924
++ GCC_except_table5952
++ GCC_except_table5999
++ GCC_except_table6003
++ GCC_except_table6013
++ GCC_except_table6035
++ GCC_except_table6038
++ GCC_except_table6041
++ GCC_except_table6051
++ GCC_except_table6077
++ GCC_except_table6078
++ GCC_except_table6079
++ GCC_except_table6080
++ GCC_except_table6085
++ GCC_except_table6086
++ GCC_except_table6115
++ GCC_except_table6127
++ GCC_except_table6128
++ GCC_except_table6130
++ GCC_except_table6131
++ GCC_except_table6132
++ GCC_except_table6133
++ GCC_except_table6134
++ GCC_except_table6135
++ GCC_except_table6136
++ GCC_except_table6138
++ GCC_except_table6140
++ GCC_except_table6142
++ GCC_except_table6145
++ GCC_except_table6147
++ GCC_except_table6148
++ GCC_except_table6194
++ GCC_except_table6273
++ GCC_except_table6275
++ GCC_except_table6277
++ GCC_except_table6281
++ GCC_except_table6282
++ GCC_except_table6283
++ GCC_except_table6288
++ GCC_except_table6289
++ GCC_except_table6302
++ GCC_except_table6303
++ GCC_except_table6305
++ GCC_except_table6309
++ GCC_except_table6310
++ GCC_except_table6317
++ GCC_except_table6318
++ GCC_except_table6321
++ GCC_except_table6322
++ GCC_except_table6324
++ GCC_except_table6325
++ GCC_except_table6326
++ GCC_except_table6327
++ GCC_except_table6329
++ GCC_except_table6330
++ GCC_except_table6331
++ GCC_except_table6332
++ GCC_except_table6343
++ GCC_except_table6346
++ GCC_except_table6347
++ GCC_except_table6373
++ GCC_except_table6376
++ GCC_except_table6379
++ GCC_except_table6385
++ GCC_except_table6390
++ GCC_except_table6414
++ GCC_except_table6417
++ GCC_except_table6439
++ GCC_except_table6440
++ GCC_except_table6491
++ GCC_except_table6501
++ GCC_except_table6502
++ GCC_except_table6503
++ GCC_except_table6504
++ GCC_except_table6505
++ GCC_except_table6506
++ GCC_except_table6514
++ GCC_except_table6516
++ GCC_except_table6517
++ GCC_except_table6520
++ GCC_except_table6521
++ GCC_except_table6523
++ GCC_except_table6526
++ GCC_except_table6528
++ GCC_except_table6529
++ GCC_except_table6530
++ GCC_except_table6531
++ GCC_except_table6544
++ GCC_except_table6549
++ GCC_except_table6577
++ GCC_except_table6583
++ GCC_except_table6584
++ GCC_except_table6586
++ GCC_except_table6591
++ GCC_except_table6592
++ GCC_except_table6593
++ GCC_except_table6594
++ GCC_except_table6595
++ GCC_except_table6596
++ GCC_except_table6616
++ GCC_except_table6630
++ GCC_except_table6631
++ GCC_except_table6632
++ GCC_except_table6633
++ GCC_except_table6641
++ GCC_except_table6644
++ GCC_except_table6645
++ GCC_except_table6646
++ GCC_except_table6649
++ GCC_except_table6650
++ GCC_except_table6652
++ GCC_except_table6654
++ GCC_except_table6655
++ GCC_except_table6656
++ GCC_except_table6659
++ GCC_except_table6660
++ GCC_except_table6665
++ GCC_except_table6666
++ GCC_except_table6669
++ GCC_except_table6670
++ GCC_except_table6688
++ GCC_except_table6699
++ GCC_except_table6706
++ GCC_except_table6707
++ GCC_except_table6714
++ GCC_except_table6731
++ GCC_except_table6740
++ GCC_except_table6741
++ GCC_except_table6743
++ GCC_except_table6744
++ GCC_except_table6747
++ GCC_except_table6749
++ GCC_except_table6751
++ GCC_except_table6753
++ GCC_except_table6755
++ GCC_except_table6756
++ GCC_except_table6757
++ GCC_except_table6760
++ GCC_except_table6763
++ GCC_except_table6764
++ GCC_except_table6765
++ GCC_except_table6798
++ GCC_except_table6799
++ GCC_except_table6800
++ GCC_except_table6802
++ GCC_except_table6804
++ GCC_except_table6806
++ GCC_except_table6808
++ GCC_except_table6810
++ GCC_except_table6812
++ GCC_except_table6814
++ GCC_except_table6816
++ GCC_except_table6818
++ GCC_except_table6820
++ GCC_except_table6821
++ GCC_except_table6952
++ GCC_except_table6957
++ GCC_except_table6969
++ GCC_except_table6972
++ GCC_except_table6973
++ GCC_except_table6975
++ GCC_except_table6990
++ GCC_except_table6991
++ GCC_except_table6992
++ GCC_except_table6998
++ GCC_except_table7003
++ GCC_except_table7004
++ GCC_except_table7005
++ GCC_except_table7043
++ GCC_except_table7044
++ GCC_except_table7050
++ GCC_except_table7065
++ GCC_except_table7068
++ GCC_except_table7069
++ GCC_except_table7070
++ GCC_except_table7077
++ GCC_except_table7090
++ GCC_except_table7091
++ GCC_except_table7092
++ GCC_except_table7093
++ GCC_except_table7094
++ GCC_except_table7095
++ GCC_except_table7096
++ GCC_except_table7097
++ GCC_except_table7098
++ GCC_except_table7103
++ GCC_except_table7104
++ GCC_except_table7110
++ GCC_except_table7111
++ GCC_except_table7112
++ GCC_except_table7113
++ GCC_except_table7115
++ GCC_except_table7119
++ GCC_except_table7120
++ GCC_except_table7122
++ GCC_except_table7126
++ GCC_except_table7146
++ GCC_except_table7168
++ GCC_except_table7169
++ GCC_except_table7191
++ GCC_except_table7200
++ GCC_except_table7207
++ GCC_except_table7231
++ GCC_except_table7254
++ GCC_except_table7255
++ GCC_except_table7256
++ GCC_except_table7279
++ GCC_except_table7284
++ GCC_except_table7287
++ GCC_except_table7311
++ GCC_except_table7331
++ GCC_except_table7410
++ GCC_except_table7457
++ GCC_except_table7473
++ GCC_except_table750
++ GCC_except_table7664
++ GCC_except_table7733
++ GCC_except_table7740
++ GCC_except_table7746
++ GCC_except_table7752
++ GCC_except_table7753
++ GCC_except_table7754
++ GCC_except_table7769
++ GCC_except_table7773
++ GCC_except_table7819
++ GCC_except_table7825
++ GCC_except_table7829
++ GCC_except_table8136
++ GCC_except_table8137
++ GCC_except_table8138
++ GCC_except_table8144
++ GCC_except_table8146
++ GCC_except_table8147
++ GCC_except_table8150
++ _OBJC_CLASS_$_ML3UpdateSiriSharedPlaylistIndexOperation
++ _OBJC_CLASS_$_ML3UpdateSiriSharedPlaylistIndexOperationState
++ _OBJC_IVAR_$_ML3DatabaseImport._albumCloudChannelID
++ _OBJC_IVAR_$_ML3DatabaseImport._isDeferredItemUpdateImport
++ _OBJC_IVAR_$_ML3MediaLibraryWriter._activeSiriSharedPlaylistIndexOperation
++ _OBJC_IVAR_$_ML3UpdateSiriSharedPlaylistIndexOperation._accountIdentifierForLibraryUUID
++ _OBJC_IVAR_$_ML3UpdateSiriSharedPlaylistIndexOperationState._indexStateDictionary
++ _OBJC_METACLASS_$_ML3UpdateSiriSharedPlaylistIndexOperation
++ _OBJC_METACLASS_$_ML3UpdateSiriSharedPlaylistIndexOperationState
++ __OBJC_$_INSTANCE_METHODS_ML3UpdateSiriSharedPlaylistIndexOperation
++ __OBJC_$_INSTANCE_METHODS_ML3UpdateSiriSharedPlaylistIndexOperationState
++ __OBJC_$_INSTANCE_VARIABLES_ML3UpdateSiriSharedPlaylistIndexOperation
++ __OBJC_$_INSTANCE_VARIABLES_ML3UpdateSiriSharedPlaylistIndexOperationState
++ __OBJC_$_PROP_LIST_ML3UpdateSiriSharedPlaylistIndexOperationState
++ __OBJC_CLASS_RO_$_ML3UpdateSiriSharedPlaylistIndexOperation
++ __OBJC_CLASS_RO_$_ML3UpdateSiriSharedPlaylistIndexOperationState
++ __OBJC_METACLASS_RO_$_ML3UpdateSiriSharedPlaylistIndexOperation
++ __OBJC_METACLASS_RO_$_ML3UpdateSiriSharedPlaylistIndexOperationState
++ __ZN16ML3ImportSessionC1EP15ML3MusicLibraryP21ML3DatabaseConnectionibb
++ __ZN18DAAPParserDelegateC2EP22ML3DAAPImportOperationNSt3__110shared_ptrIN6ML3CPP6ParserEEE32ML3DAAPImportOperationEntityTypebb
++ __ZNSt3__19allocatorI18DAAPParserDelegateE9constructB9fqe220106IS1_JRU8__strongKP22ML3DAAPImportOperationRNS_10shared_ptrIN6ML3CPP6ParserEEER32ML3DAAPImportOperationEntityTypebRbEEEvPT_DpOT0_
++ ___116-[ML3UpdateSiriSharedPlaylistIndexOperation _performIncrementalIndexOfLibrary:fromRevision:toRevision:withDonation:]_block_invoke
++ ___54-[ML3UpdateSiriSharedPlaylistIndexOperation _execute:]_block_invoke
++ ___96-[ML3UpdateSiriSharedPlaylistIndexOperation _performFullIndexOfLibrary:toRevision:withDonation:]_block_invoke
++ ___block_descriptor_72_e8_32s40s48s56r_e24_v48?0q8q16i24i28q32^B40ls32l8s40l8r56l8s48l8
++ ___block_descriptor_88_e8_32s40s48s56s64s72r_e35_v24?0"CCSetDonation"8"NSError"16lr72l8s32l8s40l8s48l8s56l8s64l8
++ ___getCCItemFieldPredicateClass_block_invoke
++ ___getCCMediaSharedPlaylistContentClass_block_invoke
++ ___getCCMediaSharedPlaylistMetaContentClass_block_invoke
++ ___getCCSetDescriptorClass_block_invoke
++ _getCCItemFieldPredicateClass.softClass
++ _getCCMediaSharedPlaylistContentClass.softClass
++ _getCCMediaSharedPlaylistMetaContentClass.softClass
++ _getCCSetDescriptorClass.softClass
++ _objc_msgSend$_accountIdentifierForLibrary:
++ _objc_msgSend$_createDonationItemForPlaylistWithPersistentID:library:
++ _objc_msgSend$_importDAAPPayloadFromFile:entityType:isDeferredItemUpdate:
++ _objc_msgSend$_performFullIndexOfLibrary:toRevision:withDonation:
++ _objc_msgSend$_performIncrementalIndexOfLibrary:fromRevision:toRevision:withDonation:
++ _objc_msgSend$_platformSupportsSiriSharedPlaylistIndexing
++ _objc_msgSend$_preprocessDAAPPayloadFromFile:entityType:isDeferredItemUpdate:
++ _objc_msgSend$_removeDonationsForAccountIdentifiers:withDonation:
++ _objc_msgSend$albumCloudChannelID
++ _objc_msgSend$allDonationRevisions
++ _objc_msgSend$initWithDictionaryRepresentation:
++ _objc_msgSend$initWithKey:value:error:
++ _objc_msgSend$initWithLibraryPath:trackData:playlistData:albumArtistData:albumData:libraryPinsData:albumCloudChannelID:isDeferredItemUpdateImport:clientIdentity:
++ _objc_msgSend$initWithPlaylistName:contributingUserDSID:error:
++ _objc_msgSend$initWithSourceItemIdentifier:error:
++ _objc_msgSend$isDeferredItemUpdateImport
++ _objc_msgSend$jaliscoAccountID
++ _objc_msgSend$lastDonationRevisionForAccountIdentifier:
++ _objc_msgSend$predicateWithFieldType:equalsStringValue:error:
++ _objc_msgSend$removeItemsMatchingPredicate:error:
++ _objc_msgSend$setLastDonationRevision:forAccountIdentifier:
++ _objc_msgSend$validityValue
+- -[ML3DAAPImportOperation _importDAAPPayloadFromFile:entityType:]
+- -[ML3DAAPImportOperation _preprocessDAAPPayloadFromFile:entityType:]
+- GCC_except_table2213
+- GCC_except_table2214
+- GCC_except_table2215
+- GCC_except_table2220
+- GCC_except_table2222
+- GCC_except_table2223
+- GCC_except_table2225
+- GCC_except_table2226
+- GCC_except_table2227
+- GCC_except_table2228
+- GCC_except_table2229
+- GCC_except_table2239
+- GCC_except_table2242
+- GCC_except_table2250
+- GCC_except_table2263
+- GCC_except_table2264
+- GCC_except_table2265
+- GCC_except_table2266
+- GCC_except_table2268
+- GCC_except_table2269
+- GCC_except_table2279
+- GCC_except_table2280
+- GCC_except_table2282
+- GCC_except_table2284
+- GCC_except_table2286
+- GCC_except_table2288
+- GCC_except_table2298
+- GCC_except_table2301
+- GCC_except_table2302
+- GCC_except_table2303
+- GCC_except_table2305
+- GCC_except_table2306
+- GCC_except_table2339
+- GCC_except_table2340
+- GCC_except_table2345
+- GCC_except_table2346
+- GCC_except_table2352
+- GCC_except_table2353
+- GCC_except_table2486
+- GCC_except_table2508
+- GCC_except_table2512
+- GCC_except_table2571
+- GCC_except_table2587
+- GCC_except_table2600
+- GCC_except_table2605
+- GCC_except_table2610
+- GCC_except_table2617
+- GCC_except_table2620
+- GCC_except_table2633
+- GCC_except_table2637
+- GCC_except_table2639
+- GCC_except_table2644
+- GCC_except_table2652
+- GCC_except_table2658
+- GCC_except_table2665
+- GCC_except_table2666
+- GCC_except_table2888
+- GCC_except_table2937
+- GCC_except_table2940
+- GCC_except_table2945
+- GCC_except_table2997
+- GCC_except_table3008
+- GCC_except_table3012
+- GCC_except_table3015
+- GCC_except_table3024
+- GCC_except_table3031
+- GCC_except_table3033
+- GCC_except_table3035
+- GCC_except_table3038
+- GCC_except_table3041
+- GCC_except_table3057
+- GCC_except_table3077
+- GCC_except_table3080
+- GCC_except_table3090
+- GCC_except_table3092
+- GCC_except_table3093
+- GCC_except_table3101
+- GCC_except_table3156
+- GCC_except_table3163
+- GCC_except_table3166
+- GCC_except_table3183
+- GCC_except_table3184
+- GCC_except_table3185
+- GCC_except_table3186
+- GCC_except_table3192
+- GCC_except_table3193
+- GCC_except_table3199
+- GCC_except_table3200
+- GCC_except_table3201
+- GCC_except_table3202
+- GCC_except_table3203
+- GCC_except_table3204
+- GCC_except_table3205
+- GCC_except_table3213
+- GCC_except_table3240
+- GCC_except_table3247
+- GCC_except_table3253
+- GCC_except_table3256
+- GCC_except_table3259
+- GCC_except_table3262
+- GCC_except_table3266
+- GCC_except_table3268
+- GCC_except_table3279
+- GCC_except_table3280
+- GCC_except_table3281
+- GCC_except_table3283
+- GCC_except_table3291
+- GCC_except_table3301
+- GCC_except_table3303
+- GCC_except_table3306
+- GCC_except_table3352
+- GCC_except_table3357
+- GCC_except_table3376
+- GCC_except_table3402
+- GCC_except_table3403
+- GCC_except_table3409
+- GCC_except_table3414
+- GCC_except_table3415
+- GCC_except_table3416
+- GCC_except_table3417
+- GCC_except_table3423
+- GCC_except_table3425
+- GCC_except_table3426
+- GCC_except_table3428
+- GCC_except_table3430
+- GCC_except_table3431
+- GCC_except_table3432
+- GCC_except_table3436
+- GCC_except_table3437
+- GCC_except_table3438
+- GCC_except_table3439
+- GCC_except_table3441
+- GCC_except_table3442
+- GCC_except_table3443
+- GCC_except_table3444
+- GCC_except_table3450
+- GCC_except_table3451
+- GCC_except_table3452
+- GCC_except_table3453
+- GCC_except_table3455
+- GCC_except_table3458
+- GCC_except_table3466
+- GCC_except_table3478
+- GCC_except_table3479
+- GCC_except_table3490
+- GCC_except_table3491
+- GCC_except_table3492
+- GCC_except_table3500
+- GCC_except_table3501
+- GCC_except_table3502
+- GCC_except_table3516
+- GCC_except_table3541
+- GCC_except_table3577
+- GCC_except_table3877
+- GCC_except_table3887
+- GCC_except_table3889
+- GCC_except_table3912
+- GCC_except_table3914
+- GCC_except_table3924
+- GCC_except_table4083
+- GCC_except_table4087
+- GCC_except_table4092
+- GCC_except_table4095
+- GCC_except_table4098
+- GCC_except_table4107
+- GCC_except_table4110
+- GCC_except_table4111
+- GCC_except_table4112
+- GCC_except_table4117
+- GCC_except_table4125
+- GCC_except_table4136
+- GCC_except_table4160
+- GCC_except_table4165
+- GCC_except_table4168
+- GCC_except_table4171
+- GCC_except_table4175
+- GCC_except_table4179
+- GCC_except_table4183
+- GCC_except_table4186
+- GCC_except_table4189
+- GCC_except_table4268
+- GCC_except_table4271
+- GCC_except_table4372
+- GCC_except_table4386
+- GCC_except_table4388
+- GCC_except_table4390
+- GCC_except_table4391
+- GCC_except_table4392
+- GCC_except_table4395
+- GCC_except_table4401
+- GCC_except_table4406
+- GCC_except_table4410
+- GCC_except_table4429
+- GCC_except_table4431
+- GCC_except_table4613
+- GCC_except_table4620
+- GCC_except_table4627
+- GCC_except_table4628
+- GCC_except_table4629
+- GCC_except_table4635
+- GCC_except_table4702
+- GCC_except_table4703
+- GCC_except_table4704
+- GCC_except_table4705
+- GCC_except_table4708
+- GCC_except_table4714
+- GCC_except_table4717
+- GCC_except_table4720
+- GCC_except_table4730
+- GCC_except_table4737
+- GCC_except_table4742
+- GCC_except_table4756
+- GCC_except_table4757
+- GCC_except_table4758
+- GCC_except_table4863
+- GCC_except_table4866
+- GCC_except_table4871
+- GCC_except_table4874
+- GCC_except_table4892
+- GCC_except_table4893
+- GCC_except_table4895
+- GCC_except_table5011
+- GCC_except_table5013
+- GCC_except_table5017
+- GCC_except_table5019
+- GCC_except_table5021
+- GCC_except_table5022
+- GCC_except_table5023
+- GCC_except_table5115
+- GCC_except_table5119
+- GCC_except_table5123
+- GCC_except_table5126
+- GCC_except_table5127
+- GCC_except_table5141
+- GCC_except_table5142
+- GCC_except_table5149
+- GCC_except_table5151
+- GCC_except_table5155
+- GCC_except_table5156
+- GCC_except_table5159
+- GCC_except_table5160
+- GCC_except_table5164
+- GCC_except_table5166
+- GCC_except_table5169
+- GCC_except_table5171
+- GCC_except_table5174
+- GCC_except_table5175
+- GCC_except_table5176
+- GCC_except_table5179
+- GCC_except_table5181
+- GCC_except_table5245
+- GCC_except_table5249
+- GCC_except_table5251
+- GCC_except_table5253
+- GCC_except_table5255
+- GCC_except_table5258
+- GCC_except_table5260
+- GCC_except_table5263
+- GCC_except_table5265
+- GCC_except_table5269
+- GCC_except_table5271
+- GCC_except_table5278
+- GCC_except_table5283
+- GCC_except_table5290
+- GCC_except_table5306
+- GCC_except_table5311
+- GCC_except_table5316
+- GCC_except_table5325
+- GCC_except_table5326
+- GCC_except_table5327
+- GCC_except_table5329
+- GCC_except_table5334
+- GCC_except_table5340
+- GCC_except_table5407
+- GCC_except_table5410
+- GCC_except_table5413
+- GCC_except_table5414
+- GCC_except_table5416
+- GCC_except_table5418
+- GCC_except_table5420
+- GCC_except_table5421
+- GCC_except_table5508
+- GCC_except_table5511
+- GCC_except_table5512
+- GCC_except_table5516
+- GCC_except_table5517
+- GCC_except_table5518
+- GCC_except_table5532
+- GCC_except_table5533
+- GCC_except_table5534
+- GCC_except_table5535
+- GCC_except_table5546
+- GCC_except_table5550
+- GCC_except_table5551
+- GCC_except_table5552
+- GCC_except_table5553
+- GCC_except_table5557
+- GCC_except_table5558
+- GCC_except_table5572
+- GCC_except_table5608
+- GCC_except_table5617
+- GCC_except_table5622
+- GCC_except_table5717
+- GCC_except_table5723
+- GCC_except_table5729
+- GCC_except_table5735
+- GCC_except_table5741
+- GCC_except_table5747
+- GCC_except_table5753
+- GCC_except_table5759
+- GCC_except_table5761
+- GCC_except_table5767
+- GCC_except_table5768
+- GCC_except_table5774
+- GCC_except_table5780
+- GCC_except_table5785
+- GCC_except_table5786
+- GCC_except_table5794
+- GCC_except_table5801
+- GCC_except_table5807
+- GCC_except_table5810
+- GCC_except_table5836
+- GCC_except_table5864
+- GCC_except_table5872
+- GCC_except_table5885
+- GCC_except_table5893
+- GCC_except_table5921
+- GCC_except_table5968
+- GCC_except_table5972
+- GCC_except_table5979
+- GCC_except_table5982
+- GCC_except_table5986
+- GCC_except_table6004
+- GCC_except_table6007
+- GCC_except_table6018
+- GCC_except_table6020
+- GCC_except_table6046
+- GCC_except_table6047
+- GCC_except_table6054
+- GCC_except_table6055
+- GCC_except_table6084
+- GCC_except_table6096
+- GCC_except_table6097
+- GCC_except_table6099
+- GCC_except_table6100
+- GCC_except_table6101
+- GCC_except_table6102
+- GCC_except_table6103
+- GCC_except_table6104
+- GCC_except_table6105
+- GCC_except_table6107
+- GCC_except_table6109
+- GCC_except_table6111
+- GCC_except_table6114
+- GCC_except_table6116
+- GCC_except_table6117
+- GCC_except_table6163
+- GCC_except_table6209
+- GCC_except_table6210
+- GCC_except_table6211
+- GCC_except_table6237
+- GCC_except_table6238
+- GCC_except_table6244
+- GCC_except_table6246
+- GCC_except_table6247
+- GCC_except_table6248
+- GCC_except_table6250
+- GCC_except_table6251
+- GCC_except_table6252
+- GCC_except_table6255
+- GCC_except_table6256
+- GCC_except_table6257
+- GCC_except_table6258
+- GCC_except_table6260
+- GCC_except_table6265
+- GCC_except_table6270
+- GCC_except_table6274
+- GCC_except_table6280
+- GCC_except_table6284
+- GCC_except_table6285
+- GCC_except_table6290
+- GCC_except_table6293
+- GCC_except_table6294
+- GCC_except_table6295
+- GCC_except_table6298
+- GCC_except_table6312
+- GCC_except_table6345
+- GCC_except_table6348
+- GCC_except_table6352
+- GCC_except_table6354
+- GCC_except_table6359
+- GCC_except_table6386
+- GCC_except_table6408
+- GCC_except_table6409
+- GCC_except_table6458
+- GCC_except_table6460
+- GCC_except_table6461
+- GCC_except_table6469
+- GCC_except_table6470
+- GCC_except_table6471
+- GCC_except_table6472
+- GCC_except_table6473
+- GCC_except_table6474
+- GCC_except_table6475
+- GCC_except_table6483
+- GCC_except_table6485
+- GCC_except_table6486
+- GCC_except_table6487
+- GCC_except_table6490
+- GCC_except_table6493
+- GCC_except_table6495
+- GCC_except_table6497
+- GCC_except_table6498
+- GCC_except_table6499
+- GCC_except_table6507
+- GCC_except_table6509
+- GCC_except_table6513
+- GCC_except_table6532
+- GCC_except_table6534
+- GCC_except_table6537
+- GCC_except_table6539
+- GCC_except_table6542
+- GCC_except_table6546
+- GCC_except_table6552
+- GCC_except_table6553
+- GCC_except_table6554
+- GCC_except_table6560
+- GCC_except_table6561
+- GCC_except_table6562
+- GCC_except_table6564
+- GCC_except_table6566
+- GCC_except_table6579
+- GCC_except_table6587
+- GCC_except_table6588
+- GCC_except_table6590
+- GCC_except_table6598
+- GCC_except_table6603
+- GCC_except_table6613
+- GCC_except_table6614
+- GCC_except_table6615
+- GCC_except_table6623
+- GCC_except_table6624
+- GCC_except_table6625
+- GCC_except_table6638
+- GCC_except_table6639
+- GCC_except_table6657
+- GCC_except_table6667
+- GCC_except_table6668
+- GCC_except_table6675
+- GCC_except_table6676
+- GCC_except_table6678
+- GCC_except_table6679
+- GCC_except_table6680
+- GCC_except_table6681
+- GCC_except_table6682
+- GCC_except_table6683
+- GCC_except_table6684
+- GCC_except_table6685
+- GCC_except_table6695
+- GCC_except_table6700
+- GCC_except_table6701
+- GCC_except_table6702
+- GCC_except_table6717
+- GCC_except_table6718
+- GCC_except_table6720
+- GCC_except_table6721
+- GCC_except_table6722
+- GCC_except_table6724
+- GCC_except_table6725
+- GCC_except_table6734
+- GCC_except_table6750
+- GCC_except_table6767
+- GCC_except_table6768
+- GCC_except_table6769
+- GCC_except_table6771
+- GCC_except_table6775
+- GCC_except_table6785
+- GCC_except_table6787
+- GCC_except_table6789
+- GCC_except_table6790
+- GCC_except_table6915
+- GCC_except_table6920
+- GCC_except_table6930
+- GCC_except_table6931
+- GCC_except_table6932
+- GCC_except_table6935
+- GCC_except_table6936
+- GCC_except_table6938
+- GCC_except_table6953
+- GCC_except_table6954
+- GCC_except_table6955
+- GCC_except_table6961
+- GCC_except_table6966
+- GCC_except_table7006
+- GCC_except_table7007
+- GCC_except_table7013
+- GCC_except_table7015
+- GCC_except_table7016
+- GCC_except_table7017
+- GCC_except_table7018
+- GCC_except_table7019
+- GCC_except_table7020
+- GCC_except_table7021
+- GCC_except_table7022
+- GCC_except_table7028
+- GCC_except_table7029
+- GCC_except_table7030
+- GCC_except_table7031
+- GCC_except_table7032
+- GCC_except_table7033
+- GCC_except_table7039
+- GCC_except_table7040
+- GCC_except_table7041
+- GCC_except_table7060
+- GCC_except_table7061
+- GCC_except_table7073
+- GCC_except_table7074
+- GCC_except_table7075
+- GCC_except_table7082
+- GCC_except_table7083
+- GCC_except_table7085
+- GCC_except_table7109
+- GCC_except_table7131
+- GCC_except_table7132
+- GCC_except_table7154
+- GCC_except_table7163
+- GCC_except_table7170
+- GCC_except_table7194
+- GCC_except_table7217
+- GCC_except_table7218
+- GCC_except_table7219
+- GCC_except_table7242
+- GCC_except_table7247
+- GCC_except_table7250
+- GCC_except_table7274
+- GCC_except_table7294
+- GCC_except_table7373
+- GCC_except_table7420
+- GCC_except_table7436
+- GCC_except_table7627
+- GCC_except_table7696
+- GCC_except_table7703
+- GCC_except_table7709
+- GCC_except_table7715
+- GCC_except_table7716
+- GCC_except_table7717
+- GCC_except_table7732
+- GCC_except_table7736
+- GCC_except_table7782
+- GCC_except_table7788
+- GCC_except_table7792
+- GCC_except_table8099
+- GCC_except_table8100
+- GCC_except_table8101
+- GCC_except_table8107
+- GCC_except_table8109
+- GCC_except_table8110
+- GCC_except_table8113
+- __ZN16ML3ImportSessionC1EP15ML3MusicLibraryP21ML3DatabaseConnectionib
+- __ZN18DAAPParserDelegateC2EP22ML3DAAPImportOperationNSt3__110shared_ptrIN6ML3CPP6ParserEEE32ML3DAAPImportOperationEntityTypeb
+- __ZNSt3__19allocatorI18DAAPParserDelegateE9constructB9fqe220106IS1_JRU8__strongKP22ML3DAAPImportOperationRNS_10shared_ptrIN6ML3CPP6ParserEEER32ML3DAAPImportOperationEntityTypebEEEvPT_DpOT0_
+- _objc_msgSend$_importDAAPPayloadFromFile:entityType:
+- _objc_msgSend$_preprocessDAAPPayloadFromFile:entityType:
+CStrings:
++ "%@-%lu"
++ "<%@ %p libraryOwnedTracks=%@ libraryOwnedPlaylists=%@ pendingMatch=%@ _clientInitiatedReset=%@ pairedDeviceCanProcessStandaloneCollections=%@ _isDeferredItemUpdateImport=%@ libraryPath=\"%@\">"
++ "CCItemFieldPredicate"
++ "CCMediaSharedPlaylistContent"
++ "CCMediaSharedPlaylistMetaContent"
++ "CCSetDescriptor"
++ "Class getCCItemFieldPredicateClass(void)_block_invoke"
++ "Class getCCMediaSharedPlaylistContentClass(void)_block_invoke"
++ "Class getCCMediaSharedPlaylistMetaContentClass(void)_block_invoke"
++ "Class getCCSetDescriptorClass(void)_block_invoke"
++ "Importing %llu bytes of album data from: %{public}@, fileAttributesError=%{public}@"
++ "Importing %llu bytes of artist data from: %{public}@, fileAttributesError=%{public}@"
++ "Importing %llu bytes of library pins data from: %{public}@, fileAttirbutesError=%{public}@"
++ "Importing %llu bytes of track data from: %{public}@, fileAttributesError=%{public}@"
++ "ML3UpdateSiriSharedPlaylistIndexOperation.m"
++ "SELECT album_pid FROM album WHERE cloud_channel_name=?"
++ "SiriSharedPlaylistIndexOperationState"
++ "Skipping track import for cloudChannel=%{public}@ as we don't have an album with that channel info"
++ "Skipping track import for invalid cloudChannel=%{public}@"
++ "UPDATE album SET contains_classical_work=(CASE WHEN EXISTS (SELECT album_pid FROM item JOIN item_extra USING (item_pid) WHERE album_pid=? AND (classical_work!='' OR (show_composer=1 AND grouping!=''))) THEN 1 ELSE 0 END) WHERE album_pid=?"
++ "[ML3UpdateSiriSharedPlaylistIndexOperation] - unsupported platform, skipping donations."
++ "[ML3UpdateSiriSharedPlaylistIndexOperation] Cancelling donation"
++ "[ML3UpdateSiriSharedPlaylistIndexOperation] Donation completed"
++ "[ML3UpdateSiriSharedPlaylistIndexOperation] Donation completed error=%{public}@"
++ "[ML3UpdateSiriSharedPlaylistIndexOperation] Failed to create donation set. err='%{public}@'"
++ "[ML3UpdateSiriSharedPlaylistIndexOperation] Failed to create predicate. err=%{public}@"
++ "[ML3UpdateSiriSharedPlaylistIndexOperation] Not performing donation because of unexpected donation set class '%{public}@'"
++ "[ML3UpdateSiriSharedPlaylistIndexOperation] Removing donations for accounts %{public}@"
++ "[ML3UpdateSiriSharedPlaylistIndexOperation] Skipping library with no associated account: %{public}@"
++ "[ML3UpdateSiriSharedPlaylistIndexOperation] Skipping un-donatable playlist %{public}@: %{public}@"
++ "[ML3UpdateSiriSharedPlaylistIndexOperation] attempting to add or update item [incremental] with identifier=%{public}@"
++ "[ML3UpdateSiriSharedPlaylistIndexOperation] attempting to delete item [incremental] with identifier=%{public}@"
++ "[ML3UpdateSiriSharedPlaylistIndexOperation] attempting to register item [full index] with identifier=%{public}@"
++ "[ML3UpdateSiriSharedPlaylistIndexOperation] failed to create CCItemInstance for playlist %{public}@. err=%{public}@"
++ "[ML3UpdateSiriSharedPlaylistIndexOperation] failed to create CCMediaContent for playlist %{public}@. err=%{public}@"
++ "[ML3UpdateSiriSharedPlaylistIndexOperation] failed to create CCMediaMetaContent for playlist %{public}@. err=%{public}@"
++ "[ML3UpdateSiriSharedPlaylistIndexOperation] failed to create identifier for deleted item %lld in library %{public}@"
++ "[ML3UpdateSiriSharedPlaylistIndexOperation] failed to delete item [incremental] because of error=%{public}@"
++ "[ML3UpdateSiriSharedPlaylistIndexOperation] failed to register item because of error=%{public}@"
++ "[ML3UpdateSiriSharedPlaylistIndexOperation] failed to remove items for account ID %{public}@"
++ "[ML3UpdateSiriSharedPlaylistIndexOperation] operation complete [success = %{BOOL}u]"
++ "[ML3UpdateSiriSharedPlaylistIndexOperation] operation timed out"
++ "[ML3UpdateSiriSharedPlaylistIndexOperation] performing full index"
++ "[ML3UpdateSiriSharedPlaylistIndexOperation] performing incremental index fromRevision=%lld toRevision=%lld"
++ "[ML3UpdateSiriSharedPlaylistIndexOperation] skipping full index [same revision: %lld]"
++ "albumCloudChannelID"
++ "domainOverride"
++ "donationRevisions"
++ "got updateType=%d for response code=%d, setting to %d for the import session"
++ "isDeferredItemUpdateImport"
++ "starting import session %p. source=%s, itemCount=%d, isReset=%{BOOL}u, clientInitiatedReset=%{BOOL}u, isDeferredItemsUpdate=%{BOOL}u"
++ "starting import session with %lld tracks, %lld artists, %lld albums, %lld containers, %lld pins for update type %d, clientInitiatedReset=%d, albumCloudChannelID=%{public}@, isDeferredItemUpdateImport=%{BOOL}u"
++ "validity"
+- "<%@ %p libraryOwnedTracks=%@ libraryOwnedPlaylists=%@ pendingMatch=%@ _clientInitiatedReset=%@ pairedDeviceCanProcessStandaloneCollections=%@ libraryPath=\"%@\">"
+- "Importing %llu bytes of album data from: %{public}@"
+- "Importing %llu bytes of artist data from: %{public}@"
+- "Importing %llu bytes of library pins data from: %{public}@"
+- "Importing %llu bytes of track data from: %{public}@"
+- "UPDATE album SET contains_classical_work=(CASE WHEN EXISTS (SELECT album_pid FROM item JOIN item_extra USING (item_pid) WHERE album_pid=? AND classical_work!='' OR (show_composer=1 AND grouping!='')) THEN 1 ELSE 0 END) WHERE album_pid=?"
+- "starting import session %p. source=%s, itemCount=%d, isReset=%d, clientInitiatedReset=%d"
+- "starting import session with %lld tracks, %lld artists, %lld albums, %lld containers, %lld pins for update type %d, clientInitiatedReset=%d"
+```

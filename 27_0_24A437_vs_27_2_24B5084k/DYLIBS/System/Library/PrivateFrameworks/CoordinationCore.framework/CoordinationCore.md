@@ -1,0 +1,967 @@
+## CoordinationCore
+
+> `/System/Library/PrivateFrameworks/CoordinationCore.framework/CoordinationCore`
+
+```diff
+
+-249.0.4.0.0
+-  __TEXT.__text: 0x4ae50
+-  __TEXT.__objc_methlist: 0x5114
+-  __TEXT.__const: 0x2c8
+-  __TEXT.__gcc_except_tab: 0x1ed0
+-  __TEXT.__oslogstring: 0x4263
+-  __TEXT.__cstring: 0x1452
+-  __TEXT.__unwind_info: 0x1c00
++249.10.6.0.0
++  __TEXT.__text: 0x3df34
++  __TEXT.__objc_methlist: 0x3aac
++  __TEXT.__const: 0x230
++  __TEXT.__gcc_except_tab: 0x1cd4
++  __TEXT.__oslogstring: 0x3311
++  __TEXT.__cstring: 0x10c8
++  __TEXT.__unwind_info: 0x17d8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1d00
+-  __DATA_CONST.__objc_classlist: 0x1f0
+-  __DATA_CONST.__objc_catlist: 0x18
+-  __DATA_CONST.__objc_protolist: 0x110
++  __DATA_CONST.__const: 0x19c0
++  __DATA_CONST.__objc_classlist: 0x190
++  __DATA_CONST.__objc_catlist: 0x10
++  __DATA_CONST.__objc_protolist: 0xb0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x2630
+-  __DATA_CONST.__objc_protorefs: 0x28
+-  __DATA_CONST.__objc_superrefs: 0x180
++  __DATA_CONST.__objc_selrefs: 0x1948
++  __DATA_CONST.__objc_protorefs: 0x18
++  __DATA_CONST.__objc_superrefs: 0x128
+   __DATA_CONST.__objc_arraydata: 0x10
+-  __DATA_CONST.__got: 0x248
+-  __AUTH_CONST.__const: 0x180
+-  __AUTH_CONST.__cfstring: 0x1380
+-  __AUTH_CONST.__objc_const: 0x8168
+-  __AUTH_CONST.__objc_intobj: 0x48
++  __DATA_CONST.__got: 0x198
++  __AUTH_CONST.__const: 0x120
++  __AUTH_CONST.__cfstring: 0xf40
++  __AUTH_CONST.__objc_const: 0x6268
++  __AUTH_CONST.__objc_intobj: 0x30
+   __AUTH_CONST.__objc_doubleobj: 0x20
+   __AUTH_CONST.__objc_dictobj: 0x28
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0xcd0
+-  __DATA.__objc_ivar: 0x554
+-  __DATA.__data: 0xcc0
+-  __DATA_DIRTY.__objc_data: 0x690
++  __AUTH.__objc_data: 0x960
++  __DATA.__objc_ivar: 0x43c
++  __DATA.__data: 0x840
++  __DATA_DIRTY.__objc_data: 0x640
+   __DATA_DIRTY.__bss: 0x60
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+-  - /System/Library/Frameworks/HomeKit.framework/HomeKit
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /System/Library/Frameworks/Network.framework/Network
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+-  - /System/Library/PrivateFrameworks/IDS.framework/IDS
+   - /System/Library/PrivateFrameworks/Rapport.framework/Rapport
+-  - /System/Library/PrivateFrameworks/StatusKit.framework/StatusKit
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 1856
+-  Symbols:   4012
+-  CStrings:  635
++  Functions: 1529
++  Symbols:   3271
++  CStrings:  498
+ 
+Symbols:
+- +[CODeviceClass isAudioAccessory]
+- +[COHomeKitAdapter setSharedInstance:]
+- +[COHomeKitAdapter sharedInstance]
+- +[COIDSPresence presenceForMesh:]
+- -[COHomeKitAdapter .cxx_destruct]
+- -[COHomeKitAdapter _addAudioDestinationControllerListenerForAccessory:home:]
+- -[COHomeKitAdapter _postUsersChangedNotificationForHome:]
+- -[COHomeKitAdapter _removeAudioDestinationControllerListenerForAccessory:home:]
+- -[COHomeKitAdapter _withLock:]
+- -[COHomeKitAdapter accessoriesInMediaSystem:inHome:]
+- -[COHomeKitAdapter accessoriesInRoom:inHome:]
+- -[COHomeKitAdapter accessoriesInZone:inHome:]
+- -[COHomeKitAdapter accessoryWithUniqueIdentifier:]
+- -[COHomeKitAdapter audioDestinationControllerDidUpdateForAccessory:inHome:]
+- -[COHomeKitAdapter audioDestinationControllerListeners]
+- -[COHomeKitAdapter condition]
+- -[COHomeKitAdapter currentAccessory]
+- -[COHomeKitAdapter currentMediaSystem]
+- -[COHomeKitAdapter hasOptedToHH2]
+- -[COHomeKitAdapter home:didAddAccessory:]
+- -[COHomeKitAdapter home:didAddMediaSystem:]
+- -[COHomeKitAdapter home:didAddRoom:]
+- -[COHomeKitAdapter home:didAddRoom:toZone:]
+- -[COHomeKitAdapter home:didAddUser:]
+- -[COHomeKitAdapter home:didAddZone:]
+- -[COHomeKitAdapter home:didRemoveAccessory:]
+- -[COHomeKitAdapter home:didRemoveMediaSystem:]
+- -[COHomeKitAdapter home:didRemoveRoom:]
+- -[COHomeKitAdapter home:didRemoveUser:]
+- -[COHomeKitAdapter home:didRemoveZone:]
+- -[COHomeKitAdapter home:didUpdateRoom:forAccessory:]
+- -[COHomeKitAdapter homeForAccessory:]
+- -[COHomeKitAdapter homeManager:didAddHome:]
+- -[COHomeKitAdapter homeManager:didRemoveHome:]
+- -[COHomeKitAdapter homeManager:didUpdateAuthorizationStatus:]
+- -[COHomeKitAdapter homeManager:didUpdateStatus:]
+- -[COHomeKitAdapter homeManagerDidUpdateCurrentHome:]
+- -[COHomeKitAdapter homeManagerDidUpdateHomes:]
+- -[COHomeKitAdapter homekit]
+- -[COHomeKitAdapter identifiersForAccessoriesAssociatedWithAccessory:inHome:]
+- -[COHomeKitAdapter initWithHomeManager:]
+- -[COHomeKitAdapter init]
+- -[COHomeKitAdapter isReady]
+- -[COHomeKitAdapter mediaSystemForAccessory:inHome:]
+- -[COHomeKitAdapter mediaSystemUpdateHandlers]
+- -[COHomeKitAdapter prewarm]
+- -[COHomeKitAdapter registerMediaSystemUpdateHandler:]
+- -[COHomeKitAdapter roomForAccessory:inHome:]
+- -[COHomeKitAdapter setAudioDestinationControllerListeners:]
+- -[COHomeKitAdapter setCurrentMediaSystem:]
+- -[COHomeKitAdapter settingsForKeyPath:fromSettings:]
+- -[COHomeKitAdapter settingsForKeyPath:onAccessory:]
+- -[COHomeKitAdapter settingsForKeyPath:onMediaObject:]
+- -[COHomeKitAdapter unregisterMediaSystemUpdateHandler:]
+- -[COHomeKitAdapter zoneForAccessory:inHome:]
+- -[COIDSBrowser .cxx_destruct]
+- -[COIDSBrowser addObserverUsingBlock:]
+- -[COIDSBrowser copyWithZone:]
+- -[COIDSBrowser description]
+- -[COIDSBrowser didAddDevice:]
+- -[COIDSBrowser didRemoveDevice:]
+- -[COIDSBrowser idsPresenceProvider]
+- -[COIDSBrowser idsRegistryObserver]
+- -[COIDSBrowser idsServiceProvider]
+- -[COIDSBrowser initWithMeshName:idsServiceName:]
+- -[COIDSBrowser meshName]
+- -[COIDSBrowser observerSet]
+- -[COIDSBrowser onDemandDiscoveryForRequest:]
+- -[COIDSBrowser presence]
+- -[COIDSBrowser removeObserver:]
+- -[COIDSBrowser serviceDirector]
+- -[COIDSBrowser setIdsPresenceProvider:]
+- -[COIDSBrowser setIdsRegistryObserver:]
+- -[COIDSBrowser setIdsServiceProvider:]
+- -[COIDSBrowser setPresence:]
+- -[COIDSBrowser setServiceDirector:]
+- -[COIDSBrowser setWorkQueue:]
+- -[COIDSBrowser startWithCompletionHandler:]
+- -[COIDSBrowser stop]
+- -[COIDSBrowser workQueue]
+- -[COIDSDiscoveryRecord .cxx_destruct]
+- -[COIDSDiscoveryRecord HomeKitIdentifier]
+- -[COIDSDiscoveryRecord IDSIdentifier]
+- -[COIDSDiscoveryRecord copyWithZone:]
+- -[COIDSDiscoveryRecord description]
+- -[COIDSDiscoveryRecord deviceTokenURI]
+- -[COIDSDiscoveryRecord hasSameBackingDeviceAs:]
+- -[COIDSDiscoveryRecord hash]
+- -[COIDSDiscoveryRecord initWithIdsIdentifier:deviceTokenURI:]
+- -[COIDSDiscoveryRecord isEqual:]
+- -[COIDSDiscoveryRecord newTransportWithExecutionContext:]
+- -[COIDSDiscoveryRecord onDemandRequest]
+- -[COIDSDiscoveryRecord producesElectionCapableTransport]
+- -[COIDSDiscoveryRecord requiresInquiry]
+- -[COIDSDiscoveryRecord serviceDirector]
+- -[COIDSDiscoveryRecord setOnDemandRequest:]
+- -[COIDSDiscoveryRecord setServiceDirector:]
+- -[COIDSMessage .cxx_destruct]
+- -[COIDSMessage _commandPayload:]
+- -[COIDSMessage checkValue:forKey:isKindOfClass:error:]
+- -[COIDSMessage command]
+- -[COIDSMessage dictionaryRepresentation]
+- -[COIDSMessage error]
+- -[COIDSMessage initWithDictionary:error:]
+- -[COIDSMessage initWithError:]
+- -[COIDSMessage initWithRequest:]
+- -[COIDSMessage initWithResponse:]
+- -[COIDSMessage metadata]
+- -[COIDSMessage payload]
+- -[COIDSMessage setMetadata:]
+- -[COIDSMessage type]
+- -[COIDSMessage unarchivePayloadOfTypes:error:]
+- -[COIDSMessage validateCommand:error:]
+- -[COIDSMessage validateData:error:]
+- -[COIDSMessage validateError:error:]
+- -[COIDSMessage validateMetadata:error:]
+- -[COIDSMessage validateType:error:]
+- -[COIDSMessage validateVersion:error:]
+- -[COIDSMessage version]
+- -[COIDSMessageFactory .cxx_destruct]
+- -[COIDSMessageFactory decodeDictionary:error:]
+- -[COIDSMessageFactory encodeError:]
+- -[COIDSMessageFactory encodeRequest:withIDSIdentifier:]
+- -[COIDSMessageFactory encodeResponse:]
+- -[COIDSMessageFactory idsIdentifier]
+- -[COIDSMessageFactory init]
+- -[COIDSMessageFactory meshName]
+- -[COIDSOutstandingRequestInfo .cxx_destruct]
+- -[COIDSOutstandingRequestInfo activity]
+- -[COIDSOutstandingRequestInfo callback]
+- -[COIDSOutstandingRequestInfo enqeueStart]
+- -[COIDSOutstandingRequestInfo initWithRequest:at:callback:activity:]
+- -[COIDSOutstandingRequestInfo request]
+- -[COIDSOutstandingRequestInfo setCallback:]
+- -[COIDSOutstandingRequestInfo setEnqeueStart:]
+- -[COIDSOutstandingRequestInfo setRequest:]
+- -[COIDSPresence .cxx_destruct]
+- -[COIDSPresence _informObserver:aboutRecord:added:]
+- -[COIDSPresence _informObserversAboutDevice:added:]
+- -[COIDSPresence _recordForDevice:]
+- -[COIDSPresence _retrainSubscriptionWithRetryCounter:]
+- -[COIDSPresence _start]
+- -[COIDSPresence _synchronizeInitiate]
+- -[COIDSPresence _synchronizePresence:]
+- -[COIDSPresence _usersChangedInHome:]
+- -[COIDSPresence _usersChangedInHomeNotification:]
+- -[COIDSPresence addObserver:queue:]
+- -[COIDSPresence devices]
+- -[COIDSPresence identifier]
+- -[COIDSPresence initWithPresenceProvider:]
+- -[COIDSPresence observers]
+- -[COIDSPresence presenceAsserted]
+- -[COIDSPresence presenceChannel]
+- -[COIDSPresence presencePayload]
+- -[COIDSPresence presentDevicesChangedForPresence:]
+- -[COIDSPresence removeObserver:]
+- -[COIDSPresence retryAttempts]
+- -[COIDSPresence retryTimer]
+- -[COIDSPresence setDevices:]
+- -[COIDSPresence setPresenceAsserted:]
+- -[COIDSPresence setRetryAttempts:]
+- -[COIDSPresence setRetryTimer:]
+- -[COIDSPresence workQueue]
+- -[COIDSServiceDirector .cxx_destruct]
+- -[COIDSServiceDirector _withLock:]
+- -[COIDSServiceDirector activeTransports]
+- -[COIDSServiceDirector copyWithZone:]
+- -[COIDSServiceDirector description]
+- -[COIDSServiceDirector discoveryDelegate]
+- -[COIDSServiceDirector initWithIDSService:meshName:]
+- -[COIDSServiceDirector meshName]
+- -[COIDSServiceDirector messageFactory]
+- -[COIDSServiceDirector queue]
+- -[COIDSServiceDirector sendMessage:toDestination:completionHandler:]
+- -[COIDSServiceDirector sendResponse:responseIdentifier:toDestination:]
+- -[COIDSServiceDirector service:account:identifier:didSendWithSuccess:error:]
+- -[COIDSServiceDirector service:account:incomingMessage:fromID:context:]
+- -[COIDSServiceDirector service]
+- -[COIDSServiceDirector setActiveTransports:]
+- -[COIDSServiceDirector setDiscoveryDelegate:]
+- -[COIDSServiceDirector setMeshName:]
+- -[COIDSServiceDirector setQueue:]
+- -[COIDSServiceDirector start]
+- -[COIDSServiceDirector tokenFromURI:]
+- -[COIDSServiceDirector transportWithDiscoveryRecord:withExecutionContext:]
+- -[COIDSTransport .cxx_destruct]
+- -[COIDSTransport _configureTimer]
+- -[COIDSTransport _handleErrorFromMessage:incomingResponseIdentifier:from:]
+- -[COIDSTransport _handleRequestFromMessage:incomingRequestIdentifier:from:]
+- -[COIDSTransport _handleResponseFromMessage:incomingResponseIdentifier:from:]
+- -[COIDSTransport _timerFired]
+- -[COIDSTransport _timerRequestAdded:]
+- -[COIDSTransport acceptableResponsesForRequest:]
+- -[COIDSTransport acceptableResponses]
+- -[COIDSTransport activateWithCompletion:]
+- -[COIDSTransport activity]
+- -[COIDSTransport delegate]
+- -[COIDSTransport deregisterCommandForClass:]
+- -[COIDSTransport deregisterRequestForClass:]
+- -[COIDSTransport description]
+- -[COIDSTransport director]
+- -[COIDSTransport executionContext]
+- -[COIDSTransport handleMessage:requestIdentifier:responseIdentifier:from:]
+- -[COIDSTransport hash]
+- -[COIDSTransport initWithDiscoveryRecord:executionContext:]
+- -[COIDSTransport invalidateWithError:]
+- -[COIDSTransport isEqual:]
+- -[COIDSTransport isTimerEnabled]
+- -[COIDSTransport outstandingRequests]
+- -[COIDSTransport record]
+- -[COIDSTransport registerCommandForClass:withCompletion:]
+- -[COIDSTransport registerRequestForClass:withCompletion:]
+- -[COIDSTransport registeredCommands]
+- -[COIDSTransport remote]
+- -[COIDSTransport requestTimeout]
+- -[COIDSTransport sendCommand:withCompletionHandler:]
+- -[COIDSTransport sendRequest:withResponseHandler:]
+- -[COIDSTransport setAcceptableResponses:]
+- -[COIDSTransport setDelegate:]
+- -[COIDSTransport setOutstandingRequests:]
+- -[COIDSTransport setRegisteredCommands:]
+- -[COIDSTransport setRemote:]
+- -[COIDSTransport setRequestTimeout:]
+- -[COIDSTransport setTimerEnabled:]
+- -[COIDSTransport shortDescription]
+- -[COIDSTransport supportsLeaderElection]
+- -[COIDSTransport timer]
+- -[COMeshController globalServiceName]
+- -[COMeshController idsBrowser]
+- -[COMeshController setGlobalServiceName:]
+- -[COMeshController setIdsBrowser:]
+- -[COOnDemandIDSNodeCreationRequest .cxx_destruct]
+- -[COOnDemandIDSNodeCreationRequest fromURIToken]
+- -[COOnDemandIDSNodeCreationRequest idsIdentifier]
+- -[COOnDemandIDSNodeCreationRequest initWithMessage:idsIdentifier:uriToken:requestIdentifier:responseIdentifier:]
+- -[COOnDemandIDSNodeCreationRequest message]
+- -[COOnDemandIDSNodeCreationRequest requestIdentifier]
+- -[COOnDemandIDSNodeCreationRequest responseIdentifier]
+- -[SKPresence(IDSAddition) co_IDSIdentifier]
+- -[SKPresence(IDSAddition) co_SetIDSIdentifier:]
+- -[_COHomeKitAudioDestinationControllerListener .cxx_destruct]
+- -[_COHomeKitAudioDestinationControllerListener accessoryDidUpdateAudioDestinationController:]
+- -[_COHomeKitAudioDestinationControllerListener accessory]
+- -[_COHomeKitAudioDestinationControllerListener delegate]
+- -[_COHomeKitAudioDestinationControllerListener home]
+- -[_COHomeKitAudioDestinationControllerListener initWitAccessory:home:delegate:]
+- GCC_except_table0
+- _COHomeKitAdapterSignificantHomeChangeNotification
+- _COHomeKitAdapterUsersChangedInHome
+- _COIDSTransportIDSIdentifierMetadataKey
+- _HMAccessoryCategoryTypeAppleTV
+- _HMAccessorySettingsRootGroupKeyPath
+- _IDSCopyLocalDeviceUniqueID
+- _IDSSendMessageOptionExpectsPeerResponseKey
+- _IDSSendMessageOptionPeerResponseIdentifierKey
+- _MGGetSInt32Answer
+- _NSClassFromString
+- _NSCocoaErrorDomain
+- _NSDebugDescriptionErrorKey
+- _OBJC_CLASS_$_CODeviceClass
+- _OBJC_CLASS_$_COHomeKitAdapter
+- _OBJC_CLASS_$_COIDSBrowser
+- _OBJC_CLASS_$_COIDSDiscoveryRecord
+- _OBJC_CLASS_$_COIDSMessage
+- _OBJC_CLASS_$_COIDSMessageFactory
+- _OBJC_CLASS_$_COIDSOutstandingRequestInfo
+- _OBJC_CLASS_$_COIDSPresence
+- _OBJC_CLASS_$_COIDSServiceDirector
+- _OBJC_CLASS_$_COIDSTransport
+- _OBJC_CLASS_$_COOnDemandIDSNodeCreationRequest
+- _OBJC_CLASS_$_HMAccessoryCollectionSetting
+- _OBJC_CLASS_$_HMHomeManager
+- _OBJC_CLASS_$_HMMutableHomeManagerConfiguration
+- _OBJC_CLASS_$_IDSService
+- _OBJC_CLASS_$_NSCondition
+- _OBJC_CLASS_$_NSNotification
+- _OBJC_CLASS_$_NSNotificationCenter
+- _OBJC_CLASS_$_NSOperationQueue
+- _OBJC_CLASS_$_NSThread
+- _OBJC_CLASS_$_SKHandle
+- _OBJC_CLASS_$_SKPresence
+- _OBJC_CLASS_$_SKPresenceOptions
+- _OBJC_CLASS_$_SKPresencePayload
+- _OBJC_CLASS_$__COHomeKitAudioDestinationControllerListener
+- _OBJC_IVAR_$_COHomeKitAdapter._audioDestinationControllerListeners
+- _OBJC_IVAR_$_COHomeKitAdapter._condition
+- _OBJC_IVAR_$_COHomeKitAdapter._currentMediaSystem
+- _OBJC_IVAR_$_COHomeKitAdapter._homekit
+- _OBJC_IVAR_$_COHomeKitAdapter._lock
+- _OBJC_IVAR_$_COHomeKitAdapter._mediaSystemUpdateHandlers
+- _OBJC_IVAR_$_COHomeKitAdapter._ready
+- _OBJC_IVAR_$_COIDSBrowser._idsPresenceProvider
+- _OBJC_IVAR_$_COIDSBrowser._idsRegistryObserver
+- _OBJC_IVAR_$_COIDSBrowser._idsServiceProvider
+- _OBJC_IVAR_$_COIDSBrowser._meshName
+- _OBJC_IVAR_$_COIDSBrowser._observerSet
+- _OBJC_IVAR_$_COIDSBrowser._presence
+- _OBJC_IVAR_$_COIDSBrowser._serviceDirector
+- _OBJC_IVAR_$_COIDSBrowser._started
+- _OBJC_IVAR_$_COIDSBrowser._workQueue
+- _OBJC_IVAR_$_COIDSDiscoveryRecord._IDSIdentifier
+- _OBJC_IVAR_$_COIDSDiscoveryRecord._deviceTokenURI
+- _OBJC_IVAR_$_COIDSDiscoveryRecord._onDemandRequest
+- _OBJC_IVAR_$_COIDSDiscoveryRecord._serviceDirector
+- _OBJC_IVAR_$_COIDSMessage._command
+- _OBJC_IVAR_$_COIDSMessage._error
+- _OBJC_IVAR_$_COIDSMessage._metadata
+- _OBJC_IVAR_$_COIDSMessage._payload
+- _OBJC_IVAR_$_COIDSMessage._type
+- _OBJC_IVAR_$_COIDSMessage._version
+- _OBJC_IVAR_$_COIDSMessageFactory._idsIdentifier
+- _OBJC_IVAR_$_COIDSMessageFactory._meshName
+- _OBJC_IVAR_$_COIDSOutstandingRequestInfo._activity
+- _OBJC_IVAR_$_COIDSOutstandingRequestInfo._callback
+- _OBJC_IVAR_$_COIDSOutstandingRequestInfo._enqeueStart
+- _OBJC_IVAR_$_COIDSOutstandingRequestInfo._request
+- _OBJC_IVAR_$_COIDSPresence._devices
+- _OBJC_IVAR_$_COIDSPresence._observers
+- _OBJC_IVAR_$_COIDSPresence._presenceAsserted
+- _OBJC_IVAR_$_COIDSPresence._presenceChannel
+- _OBJC_IVAR_$_COIDSPresence._presencePayload
+- _OBJC_IVAR_$_COIDSPresence._retryAttempts
+- _OBJC_IVAR_$_COIDSPresence._retryTimer
+- _OBJC_IVAR_$_COIDSPresence._workQueue
+- _OBJC_IVAR_$_COIDSServiceDirector._activeTransports
+- _OBJC_IVAR_$_COIDSServiceDirector._discoveryDelegate
+- _OBJC_IVAR_$_COIDSServiceDirector._lock
+- _OBJC_IVAR_$_COIDSServiceDirector._meshName
+- _OBJC_IVAR_$_COIDSServiceDirector._messageFactory
+- _OBJC_IVAR_$_COIDSServiceDirector._queue
+- _OBJC_IVAR_$_COIDSServiceDirector._service
+- _OBJC_IVAR_$_COIDSTransport._acceptableResponses
+- _OBJC_IVAR_$_COIDSTransport._activity
+- _OBJC_IVAR_$_COIDSTransport._delegate
+- _OBJC_IVAR_$_COIDSTransport._director
+- _OBJC_IVAR_$_COIDSTransport._executionContext
+- _OBJC_IVAR_$_COIDSTransport._outstandingRequests
+- _OBJC_IVAR_$_COIDSTransport._record
+- _OBJC_IVAR_$_COIDSTransport._registeredCommands
+- _OBJC_IVAR_$_COIDSTransport._remote
+- _OBJC_IVAR_$_COIDSTransport._requestTimeout
+- _OBJC_IVAR_$_COIDSTransport._resolvedIDSIdentifier
+- _OBJC_IVAR_$_COIDSTransport._timer
+- _OBJC_IVAR_$_COIDSTransport._timerEnabled
+- _OBJC_IVAR_$_COMeshController._globalServiceName
+- _OBJC_IVAR_$_COMeshController._idsBrowser
+- _OBJC_IVAR_$_COOnDemandIDSNodeCreationRequest._fromURIToken
+- _OBJC_IVAR_$_COOnDemandIDSNodeCreationRequest._idsIdentifier
+- _OBJC_IVAR_$_COOnDemandIDSNodeCreationRequest._message
+- _OBJC_IVAR_$_COOnDemandIDSNodeCreationRequest._requestIdentifier
+- _OBJC_IVAR_$_COOnDemandIDSNodeCreationRequest._responseIdentifier
+- _OBJC_IVAR_$__COHomeKitAudioDestinationControllerListener._accessory
+- _OBJC_IVAR_$__COHomeKitAudioDestinationControllerListener._delegate
+- _OBJC_IVAR_$__COHomeKitAudioDestinationControllerListener._home
+- _OBJC_METACLASS_$_CODeviceClass
+- _OBJC_METACLASS_$_COHomeKitAdapter
+- _OBJC_METACLASS_$_COIDSBrowser
+- _OBJC_METACLASS_$_COIDSDiscoveryRecord
+- _OBJC_METACLASS_$_COIDSMessage
+- _OBJC_METACLASS_$_COIDSMessageFactory
+- _OBJC_METACLASS_$_COIDSOutstandingRequestInfo
+- _OBJC_METACLASS_$_COIDSPresence
+- _OBJC_METACLASS_$_COIDSServiceDirector
+- _OBJC_METACLASS_$_COIDSTransport
+- _OBJC_METACLASS_$_COOnDemandIDSNodeCreationRequest
+- _OBJC_METACLASS_$__COHomeKitAudioDestinationControllerListener
+- _SKStatusKitErrorDomain
+- __COHomeKitAdapterSharedInstance
+- __COHomeKitAdapterSharedInstanceLock
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_SKPresence_$_IDSAddition
+- __OBJC_$_CATEGORY_SKPresence_$_IDSAddition
+- __OBJC_$_CLASS_METHODS_CODeviceClass
+- __OBJC_$_CLASS_METHODS_COHomeKitAdapter
+- __OBJC_$_CLASS_METHODS_COIDSPresence
+- __OBJC_$_CLASS_PROP_LIST_COHomeKitAdapter
+- __OBJC_$_INSTANCE_METHODS_COHomeKitAdapter
+- __OBJC_$_INSTANCE_METHODS_COIDSBrowser
+- __OBJC_$_INSTANCE_METHODS_COIDSDiscoveryRecord
+- __OBJC_$_INSTANCE_METHODS_COIDSMessage
+- __OBJC_$_INSTANCE_METHODS_COIDSMessageFactory
+- __OBJC_$_INSTANCE_METHODS_COIDSOutstandingRequestInfo
+- __OBJC_$_INSTANCE_METHODS_COIDSPresence
+- __OBJC_$_INSTANCE_METHODS_COIDSServiceDirector
+- __OBJC_$_INSTANCE_METHODS_COIDSTransport
+- __OBJC_$_INSTANCE_METHODS_COOnDemandIDSNodeCreationRequest
+- __OBJC_$_INSTANCE_METHODS__COHomeKitAudioDestinationControllerListener
+- __OBJC_$_INSTANCE_VARIABLES_COHomeKitAdapter
+- __OBJC_$_INSTANCE_VARIABLES_COIDSBrowser
+- __OBJC_$_INSTANCE_VARIABLES_COIDSDiscoveryRecord
+- __OBJC_$_INSTANCE_VARIABLES_COIDSMessage
+- __OBJC_$_INSTANCE_VARIABLES_COIDSMessageFactory
+- __OBJC_$_INSTANCE_VARIABLES_COIDSOutstandingRequestInfo
+- __OBJC_$_INSTANCE_VARIABLES_COIDSPresence
+- __OBJC_$_INSTANCE_VARIABLES_COIDSServiceDirector
+- __OBJC_$_INSTANCE_VARIABLES_COIDSTransport
+- __OBJC_$_INSTANCE_VARIABLES_COOnDemandIDSNodeCreationRequest
+- __OBJC_$_INSTANCE_VARIABLES__COHomeKitAudioDestinationControllerListener
+- __OBJC_$_PROP_LIST_COHomeKitAdapter
+- __OBJC_$_PROP_LIST_COIDSBrowser
+- __OBJC_$_PROP_LIST_COIDSDiscoveryRecord
+- __OBJC_$_PROP_LIST_COIDSMessage
+- __OBJC_$_PROP_LIST_COIDSMessageFactory
+- __OBJC_$_PROP_LIST_COIDSOutstandingRequestInfo
+- __OBJC_$_PROP_LIST_COIDSPresence
+- __OBJC_$_PROP_LIST_COIDSServiceDirector
+- __OBJC_$_PROP_LIST_COIDSTransport
+- __OBJC_$_PROP_LIST_COOnDemandIDSNodeCreationRequest
+- __OBJC_$_PROP_LIST__COHomeKitAudioDestinationControllerListener
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_COIDSIdentifierTranslationProtocol
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_COIDSPresenceObserver
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_COIDSServiceDirectorOnDemandDiscoveryDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_HMAccessoryDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_HMAccessoryDelegatePrivate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_HMHomeDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_HMHomeDelegatePrivate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_HMHomeManagerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_IDSServiceDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SKPresenceDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT__COHomeKitAudioDestinationControllerListenerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_COIDSIdentifierTranslationProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_COIDSPresenceObserver
+- __OBJC_$_PROTOCOL_METHOD_TYPES_COIDSServiceDirectorOnDemandDiscoveryDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_HMAccessoryDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_HMAccessoryDelegatePrivate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_HMHomeDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_HMHomeDelegatePrivate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_HMHomeManagerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_IDSServiceDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SKPresenceDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES__COHomeKitAudioDestinationControllerListenerDelegate
+- __OBJC_$_PROTOCOL_REFS_COIDSIdentifierTranslationProtocol
+- __OBJC_$_PROTOCOL_REFS_COIDSPresenceObserver
+- __OBJC_$_PROTOCOL_REFS_COIDSServiceDirectorOnDemandDiscoveryDelegate
+- __OBJC_$_PROTOCOL_REFS_COIDSTransportCompatibleProcotol
+- __OBJC_$_PROTOCOL_REFS_HMAccessoryDelegate
+- __OBJC_$_PROTOCOL_REFS_HMAccessoryDelegatePrivate
+- __OBJC_$_PROTOCOL_REFS_HMHomeDelegate
+- __OBJC_$_PROTOCOL_REFS_HMHomeDelegatePrivate
+- __OBJC_$_PROTOCOL_REFS_HMHomeManagerDelegate
+- __OBJC_$_PROTOCOL_REFS_IDSServiceDelegate
+- __OBJC_$_PROTOCOL_REFS_SKPresenceDelegate
+- __OBJC_$_PROTOCOL_REFS__COHomeKitAudioDestinationControllerListenerDelegate
+- __OBJC_CLASS_PROTOCOLS_$_COHomeKitAdapter
+- __OBJC_CLASS_PROTOCOLS_$_COIDSBrowser
+- __OBJC_CLASS_PROTOCOLS_$_COIDSDiscoveryRecord
+- __OBJC_CLASS_PROTOCOLS_$_COIDSPresence
+- __OBJC_CLASS_PROTOCOLS_$_COIDSServiceDirector
+- __OBJC_CLASS_PROTOCOLS_$_COIDSTransport
+- __OBJC_CLASS_PROTOCOLS_$__COHomeKitAudioDestinationControllerListener
+- __OBJC_CLASS_RO_$_CODeviceClass
+- __OBJC_CLASS_RO_$_COHomeKitAdapter
+- __OBJC_CLASS_RO_$_COIDSBrowser
+- __OBJC_CLASS_RO_$_COIDSDiscoveryRecord
+- __OBJC_CLASS_RO_$_COIDSMessage
+- __OBJC_CLASS_RO_$_COIDSMessageFactory
+- __OBJC_CLASS_RO_$_COIDSOutstandingRequestInfo
+- __OBJC_CLASS_RO_$_COIDSPresence
+- __OBJC_CLASS_RO_$_COIDSServiceDirector
+- __OBJC_CLASS_RO_$_COIDSTransport
+- __OBJC_CLASS_RO_$_COOnDemandIDSNodeCreationRequest
+- __OBJC_CLASS_RO_$__COHomeKitAudioDestinationControllerListener
+- __OBJC_LABEL_PROTOCOL_$_COIDSIdentifierTranslationProtocol
+- __OBJC_LABEL_PROTOCOL_$_COIDSPresenceObserver
+- __OBJC_LABEL_PROTOCOL_$_COIDSServiceDirectorOnDemandDiscoveryDelegate
+- __OBJC_LABEL_PROTOCOL_$_COIDSTransportCompatibleProcotol
+- __OBJC_LABEL_PROTOCOL_$_HMAccessoryDelegate
+- __OBJC_LABEL_PROTOCOL_$_HMAccessoryDelegatePrivate
+- __OBJC_LABEL_PROTOCOL_$_HMHomeDelegate
+- __OBJC_LABEL_PROTOCOL_$_HMHomeDelegatePrivate
+- __OBJC_LABEL_PROTOCOL_$_HMHomeManagerDelegate
+- __OBJC_LABEL_PROTOCOL_$_IDSServiceDelegate
+- __OBJC_LABEL_PROTOCOL_$_SKPresenceDelegate
+- __OBJC_LABEL_PROTOCOL_$__COHomeKitAudioDestinationControllerListenerDelegate
+- __OBJC_METACLASS_RO_$_CODeviceClass
+- __OBJC_METACLASS_RO_$_COHomeKitAdapter
+- __OBJC_METACLASS_RO_$_COIDSBrowser
+- __OBJC_METACLASS_RO_$_COIDSDiscoveryRecord
+- __OBJC_METACLASS_RO_$_COIDSMessage
+- __OBJC_METACLASS_RO_$_COIDSMessageFactory
+- __OBJC_METACLASS_RO_$_COIDSOutstandingRequestInfo
+- __OBJC_METACLASS_RO_$_COIDSPresence
+- __OBJC_METACLASS_RO_$_COIDSServiceDirector
+- __OBJC_METACLASS_RO_$_COIDSTransport
+- __OBJC_METACLASS_RO_$_COOnDemandIDSNodeCreationRequest
+- __OBJC_METACLASS_RO_$__COHomeKitAudioDestinationControllerListener
+- __OBJC_PROTOCOL_$_COIDSIdentifierTranslationProtocol
+- __OBJC_PROTOCOL_$_COIDSPresenceObserver
+- __OBJC_PROTOCOL_$_COIDSServiceDirectorOnDemandDiscoveryDelegate
+- __OBJC_PROTOCOL_$_COIDSTransportCompatibleProcotol
+- __OBJC_PROTOCOL_$_HMAccessoryDelegate
+- __OBJC_PROTOCOL_$_HMAccessoryDelegatePrivate
+- __OBJC_PROTOCOL_$_HMHomeDelegate
+- __OBJC_PROTOCOL_$_HMHomeDelegatePrivate
+- __OBJC_PROTOCOL_$_HMHomeManagerDelegate
+- __OBJC_PROTOCOL_$_IDSServiceDelegate
+- __OBJC_PROTOCOL_$_SKPresenceDelegate
+- __OBJC_PROTOCOL_$__COHomeKitAudioDestinationControllerListenerDelegate
+- __OBJC_PROTOCOL_REFERENCE_$_COIDSIdentifierTranslationProtocol
+- __OBJC_PROTOCOL_REFERENCE_$_COIDSTransportCompatibleProcotol
+- ___20-[COIDSBrowser stop]_block_invoke
+- ___27-[COHomeKitAdapter homekit]_block_invoke
+- ___27-[COHomeKitAdapter isReady]_block_invoke
+- ___27-[COHomeKitAdapter prewarm]_block_invoke
+- ___29-[COIDSTransport _timerFired]_block_invoke
+- ___29-[COIDSTransport _timerFired]_block_invoke_2
+- ___32-[COIDSPresence removeObserver:]_block_invoke
+- ___33+[CODeviceClass isAudioAccessory]_block_invoke
+- ___33+[COIDSPresence presenceForMesh:]_block_invoke
+- ___33-[COIDSTransport _configureTimer]_block_invoke
+- ___35-[COIDSPresence addObserver:queue:]_block_invoke
+- ___37-[COIDSPresence _usersChangedInHome:]_block_invoke
+- ___38-[COHomeKitAdapter currentMediaSystem]_block_invoke
+- ___38-[COIDSPresence _synchronizePresence:]_block_invoke
+- ___38-[COIDSPresence _synchronizePresence:]_block_invoke_2
+- ___38-[COIDSPresence _synchronizePresence:]_block_invoke_3
+- ___38-[COIDSTransport invalidateWithError:]_block_invoke
+- ___42-[COHomeKitAdapter setCurrentMediaSystem:]_block_invoke
+- ___43-[COHomeKitAdapter homeManager:didAddHome:]_block_invoke
+- ___43-[COIDSBrowser startWithCompletionHandler:]_block_invoke
+- ___46-[COHomeKitAdapter homeManager:didRemoveHome:]_block_invoke
+- ___46-[COHomeKitAdapter homeManagerDidUpdateHomes:]_block_invoke
+- ___48-[COIDSBrowser initWithMeshName:idsServiceName:]_block_invoke
+- ___48-[COIDSBrowser initWithMeshName:idsServiceName:]_block_invoke_2
+- ___50-[COIDSTransport sendRequest:withResponseHandler:]_block_invoke
+- ___51-[COIDSPresence _informObserver:aboutRecord:added:]_block_invoke
+- ___52-[COHomeKitAdapter settingsForKeyPath:fromSettings:]_block_invoke
+- ___53-[COHomeKitAdapter registerMediaSystemUpdateHandler:]_block_invoke
+- ___54-[COIDSPresence _retrainSubscriptionWithRetryCounter:]_block_invoke
+- ___54-[COIDSPresence _retrainSubscriptionWithRetryCounter:]_block_invoke_2
+- ___55-[COHomeKitAdapter unregisterMediaSystemUpdateHandler:]_block_invoke
+- ___57-[COIDSTransport registerRequestForClass:withCompletion:]_block_invoke
+- ___71-[COIDSServiceDirector service:account:incomingMessage:fromID:context:]_block_invoke
+- ___74-[COIDSTransport handleMessage:requestIdentifier:responseIdentifier:from:]_block_invoke
+- ___75-[COIDSTransport _handleRequestFromMessage:incomingRequestIdentifier:from:]_block_invoke
+- ___76-[COHomeKitAdapter identifiersForAccessoriesAssociatedWithAccessory:inHome:]_block_invoke
+- ___NSArray0__struct
+- ___assert_rtn
+- ___block_descriptor_32_e54_v32?0"NSString"8"COIDSOutstandingRequestInfo"16^B24l
+- ___block_descriptor_40_e8_32r_e54_v32?0"NSString"8"COIDSOutstandingRequestInfo"16^B24lr32l8
+- ___block_descriptor_40_e8_32s_e12_v24?0#8^B16ls32l8
+- ___block_descriptor_40_e8_32s_e17_"SKPresence"8?0ls32l8
+- ___block_descriptor_40_e8_32s_e28_v32?0"HMAccessory"8Q16^B24ls32l8
+- ___block_descriptor_40_e8_32w_e8_v12?0B8lw32l8
+- ___block_descriptor_41_e8_32bs_e5_v8?0ls32l8
+- ___block_descriptor_48_e8_32r40r_e30_v24?0"NSString"8"NSError"16lr32l8r40l8
+- ___block_descriptor_48_e8_32s40s_e17_v16?0"NSError"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e28_v32?0"HMAccessory"8Q16^B24ls32l8s40l8
+- ___block_descriptor_48_e8_32s40w_e17_"IDSService"8?0lw40l8s32l8
+- ___block_descriptor_48_e8_32s40w_e20_"COIDSPresence"8?0lw40l8s32l8
+- ___block_descriptor_48_e8_32w_e5_v8?0lw32l8
+- ___block_descriptor_56_e8_32bs40w_e17_v16?0"NSError"8lw40l8s32l8
+- ___block_descriptor_56_e8_32s40s_e54_v32?0"NSString"8"COIDSOutstandingRequestInfo"16^B24ls32l8s40l8
+- ___block_descriptor_57_e8_32s40bs48w_e17_v16?0"NSError"8lw48l8s32l8s40l8
+- ___block_descriptor_64_e8_32s40s48s56w_e36_v24?0"COMeshResponse"8"NSError"16lw56l8s32l8s40l8s48l8
+- ___block_descriptor_72_e8_32s40s48s56s64s_e5_v8?0ls32l8s40l8s48l8s56l8s64l8
+- __errorFromDictionary
+- __errorToDictionary
+- _dispatch_after
+- _dispatch_get_global_queue
+- _initWithDictionary:error:.fields
+- _isAudioAccessory.onceToken
+- _isAudioAccessory.result
+- _nextRetryTimeInterval.times
+- _objc_autorelease
+- _objc_msgSend$UUIDString
+- _objc_msgSend$_addAudioDestinationControllerListenerForAccessory:home:
+- _objc_msgSend$_commandPayload:
+- _objc_msgSend$_handleErrorFromMessage:incomingResponseIdentifier:from:
+- _objc_msgSend$_handleRequestFromMessage:incomingRequestIdentifier:from:
+- _objc_msgSend$_handleResponseFromMessage:incomingResponseIdentifier:from:
+- _objc_msgSend$_informObserver:aboutRecord:added:
+- _objc_msgSend$_informObserversAboutDevice:added:
+- _objc_msgSend$_postUsersChangedNotificationForHome:
+- _objc_msgSend$_recordForDevice:
+- _objc_msgSend$_removeAudioDestinationControllerListenerForAccessory:home:
+- _objc_msgSend$_retrainSubscriptionWithRetryCounter:
+- _objc_msgSend$_start
+- _objc_msgSend$_stripPotentialTokenURIWithToken:
+- _objc_msgSend$_synchronizeInitiate
+- _objc_msgSend$_synchronizePresence:
+- _objc_msgSend$_timerRequestAdded:
+- _objc_msgSend$_usersChangedInHome:
+- _objc_msgSend$acceptableResponsesForRequest:
+- _objc_msgSend$accessories
+- _objc_msgSend$accessoriesInMediaSystem:inHome:
+- _objc_msgSend$accessoriesInRoom:inHome:
+- _objc_msgSend$accessory
+- _objc_msgSend$activeTransports
+- _objc_msgSend$addDelegate:queue:
+- _objc_msgSend$addObserver:queue:
+- _objc_msgSend$addObserver:selector:name:object:
+- _objc_msgSend$arrayWithObjects:count:
+- _objc_msgSend$assertPresenceWithPresencePayload:completion:
+- _objc_msgSend$audioDestinationControllerDidUpdateForAccessory:inHome:
+- _objc_msgSend$audioDestinationControllerListeners
+- _objc_msgSend$authorizationStatus
+- _objc_msgSend$broadcast
+- _objc_msgSend$callStackSymbols
+- _objc_msgSend$callback
+- _objc_msgSend$category
+- _objc_msgSend$categoryType
+- _objc_msgSend$checkValue:forKey:isKindOfClass:error:
+- _objc_msgSend$co_IDSIdentifier
+- _objc_msgSend$co_SetIDSIdentifier:
+- _objc_msgSend$components
+- _objc_msgSend$condition
+- _objc_msgSend$currentAccessory
+- _objc_msgSend$currentMediaSystem
+- _objc_msgSend$decodeDictionary:error:
+- _objc_msgSend$defaultCenter
+- _objc_msgSend$deviceTokenURI
+- _objc_msgSend$devices
+- _objc_msgSend$dictionaryForKey:
+- _objc_msgSend$dictionaryRepresentation
+- _objc_msgSend$didAddDevice:
+- _objc_msgSend$didRemoveDevice:
+- _objc_msgSend$director
+- _objc_msgSend$discoveryDelegate
+- _objc_msgSend$encodeError:
+- _objc_msgSend$encodeRequest:withIDSIdentifier:
+- _objc_msgSend$encodeResponse:
+- _objc_msgSend$enqeueStart
+- _objc_msgSend$fromURIToken
+- _objc_msgSend$globalServiceName
+- _objc_msgSend$groups
+- _objc_msgSend$handleMessage:requestIdentifier:responseIdentifier:from:
+- _objc_msgSend$handleString
+- _objc_msgSend$hasOptedToHH2
+- _objc_msgSend$home
+- _objc_msgSend$homeForAccessory:
+- _objc_msgSend$homekit
+- _objc_msgSend$homes
+- _objc_msgSend$idsIdentifier
+- _objc_msgSend$idsPresenceProvider
+- _objc_msgSend$idsServiceProvider
+- _objc_msgSend$incomingResponseIdentifier
+- _objc_msgSend$informObserverAboutDevice:added:
+- _objc_msgSend$initWitAccessory:home:delegate:
+- _objc_msgSend$initWithConfiguration:
+- _objc_msgSend$initWithDictionary:
+- _objc_msgSend$initWithDictionary:error:
+- _objc_msgSend$initWithError:
+- _objc_msgSend$initWithHomeManager:
+- _objc_msgSend$initWithIDSService:meshName:
+- _objc_msgSend$initWithIdsIdentifier:deviceTokenURI:
+- _objc_msgSend$initWithMeshName:idsServiceName:
+- _objc_msgSend$initWithMessage:idsIdentifier:uriToken:requestIdentifier:responseIdentifier:
+- _objc_msgSend$initWithName:object:userInfo:
+- _objc_msgSend$initWithOptions:cachePolicy:
+- _objc_msgSend$initWithPresenceIdentifier:options:
+- _objc_msgSend$initWithPresenceProvider:
+- _objc_msgSend$initWithRequest:
+- _objc_msgSend$initWithRequest:at:callback:activity:
+- _objc_msgSend$initWithResponse:
+- _objc_msgSend$initWithService:
+- _objc_msgSend$initWithServiceIdentifier:
+- _objc_msgSend$initWithString:
+- _objc_msgSend$initWithUUIDString:
+- _objc_msgSend$inviteHandleFromPrimaryAccountHandle:completion:
+- _objc_msgSend$invitedHandles
+- _objc_msgSend$isAudioAccessory
+- _objc_msgSend$isSelfDevice
+- _objc_msgSend$keyPath
+- _objc_msgSend$localIDSIdentifierForDestination:
+- _objc_msgSend$lock
+- _objc_msgSend$mediaProfile
+- _objc_msgSend$mediaSystemForAccessory:inHome:
+- _objc_msgSend$mediaSystemUpdateHandlers
+- _objc_msgSend$mediaSystems
+- _objc_msgSend$message
+- _objc_msgSend$messageFactory
+- _objc_msgSend$minusSet:
+- _objc_msgSend$notificationWithName:object:
+- _objc_msgSend$numberWithInteger:
+- _objc_msgSend$object
+- _objc_msgSend$onDemandDiscoveryForRequest:
+- _objc_msgSend$onDemandRequest
+- _objc_msgSend$outgoingResponseIdentifier
+- _objc_msgSend$outstandingRequests
+- _objc_msgSend$payload
+- _objc_msgSend$payloadDictionary
+- _objc_msgSend$postNotification:
+- _objc_msgSend$presence
+- _objc_msgSend$presenceChannel
+- _objc_msgSend$presenceForMesh:
+- _objc_msgSend$presenceIdentifier
+- _objc_msgSend$presencePayload
+- _objc_msgSend$presentDevices
+- _objc_msgSend$queue
+- _objc_msgSend$registeredCommands
+- _objc_msgSend$releasePresenceWithCompletion:
+- _objc_msgSend$removeInvitedHandle:completion:
+- _objc_msgSend$requestIdentifier
+- _objc_msgSend$requestTimeout
+- _objc_msgSend$responseIdentifier
+- _objc_msgSend$retainTransientSubscriptionAssertionWithCompletion:
+- _objc_msgSend$retryAttempts
+- _objc_msgSend$retryTimer
+- _objc_msgSend$roomForAccessory:inHome:
+- _objc_msgSend$rooms
+- _objc_msgSend$rootGroup
+- _objc_msgSend$sendMessage:toDestination:completionHandler:
+- _objc_msgSend$sendMessage:toDestinations:priority:options:identifier:error:
+- _objc_msgSend$sendResponse:responseIdentifier:toDestination:
+- _objc_msgSend$service
+- _objc_msgSend$serviceDirector
+- _objc_msgSend$setAudioDestinationControllerListeners:
+- _objc_msgSend$setCurrentMediaSystem:
+- _objc_msgSend$setDelegateQueue:
+- _objc_msgSend$setDevices:
+- _objc_msgSend$setDiscoveryDelegate:
+- _objc_msgSend$setDiscretionary:
+- _objc_msgSend$setIdsBrowser:
+- _objc_msgSend$setItemValueClasses:forKeyPath:
+- _objc_msgSend$setOnDemandRequest:
+- _objc_msgSend$setPresence:
+- _objc_msgSend$setRetryAttempts:
+- _objc_msgSend$setRetryTimer:
+- _objc_msgSend$setServiceDirector:
+- _objc_msgSend$setWithObject:
+- _objc_msgSend$settings
+- _objc_msgSend$settingsForKeyPath:fromSettings:
+- _objc_msgSend$sharedInstance
+- _objc_msgSend$subarrayWithRange:
+- _objc_msgSend$tokenFromID:
+- _objc_msgSend$tokenFromURI:
+- _objc_msgSend$transportWithDiscoveryRecord:withExecutionContext:
+- _objc_msgSend$unarchivePayloadOfTypes:error:
+- _objc_msgSend$uniqueIdentifier
+- _objc_msgSend$unlock
+- _objc_msgSend$userID
+- _objc_msgSend$userInfo
+- _objc_msgSend$users
+- _objc_msgSend$validateValue:forKey:error:
+- _objc_msgSend$wait
+- _objc_msgSend$weakToStrongObjectsMapTable
+- _objc_msgSend$zoneForAccessory:inHome:
+- _objc_msgSend$zones
+- _presenceForMesh:.lock
+- _presenceForMesh:.registries
+- _settingsForKeyPath:fromSettings:.onceToken
+CStrings:
++ "249.10.6"
+- "!"
+- "$"
+- "%@ does not appear to properly support secure coding which is required for all commands going over IDS!"
+- "%@.%@"
+- "%p Added Accessory %@"
+- "%p Added Home %@"
+- "%p Added Media System %@"
+- "%p Added Room  %@"
+- "%p Added Zone  %@"
+- "%p IDS browser found device %{public}@"
+- "%p IDS browser got demand node request %{public}@"
+- "%p IDS browser lost device %{public}@"
+- "%p Removed Accessory %@"
+- "%p Removed Home %@"
+- "%p Removed Media System %@"
+- "%p Removed Room  %@"
+- "%p Removed Zone  %@"
+- "%p Updated Current Home"
+- "%p Updated Room for Accessory  %@"
+- "%p Updated Zone for Room %@"
+- "%p User added to home %@"
+- "%p User removed from home %@"
+- "%p audio destination controller updated for %@"
+- "%p got impatient for home updates.  Marking HomeKit ready now!"
+- "%p having to wait for HomeKit to come ready!"
+- "%p is able to move forward again."
+- "%p is marking HomeKit ready!"
+- "%p is unable to find accessory %@!"
+- "%p listening for audio destination controller on %@"
+- "%p not waiting for home updates.  Marking HomeKit ready now!"
+- "%p pulling in HomeKit from %@"
+- "%p request to prewarm HomeKit from %@"
+- "%p set current media system to %@"
+- "%p was not able to retrieve %@ for %@!"
+- "%p was not able to retrieve %@ for accessory %@!"
+- "%{public}@ Did send message %{public}@ successfully"
+- "%{public}@ Failed to send message %{public}@: %{public}@"
+- "%{public}@ IDS browser started"
+- "%{public}@ IDS browser stopping"
+- "%{public}@ No response callback for a response with identifier %@"
+- "%{public}@ No response callback for a response with identifier %{public}@"
+- "%{public}@ Registered notification for home user changes"
+- "%{public}@ advertised IDS identifier %{public}@ via message %{public}@"
+- "%{public}@ attempting to invite user %{mask.hash}@"
+- "%{public}@ attempting to remove user %{mask.hash}@"
+- "%{public}@ created new transport %p for remote IDS identifier %{public}@"
+- "%{public}@ device %s: %{public}@ (for %p)"
+- "%{public}@ dropping message '%@' from unknown node. IDS identifier = %{public}@"
+- "%{public}@ dropping response '%@' for '%@' from unknown node"
+- "%{public}@ enabling timer for default duration"
+- "%{public}@ error decoding request: %@"
+- "%{public}@ error decoding response: %{public}@"
+- "%{public}@ failed to invite user %{mask.hash}@"
+- "%{public}@ failed to remove user %{mask.hash}@"
+- "%{public}@ failed to start: attempt %llu, delay %llu, %{public}@"
+- "%{public}@ invalidated"
+- "%{public}@ local IDS Identifier: %{public}@"
+- "%{public}@ message %{public}@ round trip time: %lfs"
+- "%{public}@ observer '%p' added"
+- "%{public}@ observer '%p' removed"
+- "%{public}@ present devices changed for '%{public}@'"
+- "%{public}@ received IDS identifier %{public}@ from message %{public}@"
+- "%{public}@ received invalid message from %{public}@: %{public}@"
+- "%{public}@ received message '%@' from unknown node. Attempting to create node on demand."
+- "%{public}@ received request %{public}@ via message %{public}@"
+- "%{public}@ received response %{public}@ for %{public}@"
+- "%{public}@ returned for mesh %{public}@"
+- "%{public}@ sent request %{public}@ via message %{public}@"
+- "%{public}@ started successfully, id: '%{public}@'"
+- "%{public}@ successfully invited user %{mask.hash}@"
+- "%{public}@ successfully removed user %{mask.hash}@"
+- "%{public}@ synchronize attempt: %llu, target '%s'"
+- "%{public}@ synchronize cancelled: maximum retries reached"
+- "%{public}@ synchronize cancelled: target changed to '%s'"
+- "%{public}@ synchronize failed, error creating timer"
+- "%{public}@ synchronize initiated: target '%s', id: '%{public}@'"
+- "%{public}@ synchronize restart: target changed to '%s'"
+- "%{public}@ synchronize result: error [%@]"
+- "%{public}@ synchronize result: success, target '%s'"
+- "%{public}@ synchronize waiting: %llu ms"
+- "%{public}@ timer fired. Outstanding requests = %lu"
+- "%{public}@ timer reconfiguring to %llu"
+- "%{public}@ unknown payload for device %p"
+- "%{public}@ user change notification without HMHome"
+- "%{public}@ users changed in home '%{public}@'. List of Home users (%lu): %@"
+- "%{public}@ users changed in home notification fired"
+- "'command' property missing"
+- "'error' data invalid"
+- "'error' property missing"
+- "'payload' property missing"
+- ")"
+- "249.0.4"
+- "<%@: %p, ids = %@>"
+- "<%@: %p, mesh = %@>"
+- "@\"COIDSPresence\"8@?0"
+- "@\"IDSService\"8@?0"
+- "@\"SKPresence\"8@?0"
+- "CM"
+- "COHomeKitAdapterSignificantHomeChangeNotification"
+- "COHomeKitAdapterUsersChangedInHome"
+- "COIDSPresence.m"
+- "EC"
+- "ED"
+- "EI"
+- "ER"
+- "Failed to properly archive for sending over IDS: %@"
+- "HomeKitContext"
+- "IDMK"
+- "Invalid type: %@"
+- "MK"
+- "MT"
+- "MediaSystem"
+- "MediaSystemCompanion"
+- "Notifying of significant home changes!"
+- "PL"
+- "VR"
+- "[m:%@] <%@: %p, ids = %.8s>"
+- "assert"
+- "attempt > 0"
+- "com.apple.COBrowserRegistry"
+- "com.apple.coordination.idsbrowser.%p"
+- "com.apple.coordination.idsdirector"
+- "com.apple.statuskit.coordination.messaging"
+- "found"
+- "ids"
+- "invalid message type '%lu'"
+- "invalid version '%lu'"
+- "lost"
+- "metadata"
+- "missing property '%@'"
+- "nextRetryTimeInterval"
+- "payload"
+- "property '%@' has wrong type"
+- "release"
+- "root.mobileTimer.alarms"
+- "v24@?0@\"NSString\"8@\"NSError\"16"
+- "v32@?0@\"HMAccessory\"8Q16^B24"
+- "v32@?0@\"NSString\"8@\"COIDSOutstandingRequestInfo\"16^B24"
+```

@@ -1,0 +1,21 @@
+## RTKit.bin
+
+- `t 0x%04x, len=%lu, retry=%u`
+- `systemctl: reboot (%d)`
+- `systask heartbeat time-out after %lld ms`
+- `smc/thermal/componentController/basebandCC.cpp`
+- `%s: %s:%d: %s, error: callback or list is NULL`
+- `%s: %s:%d: %s, Invalid CloakingCC cloakingMode  %d`
+- `Invalid baseband type %d`
+- `smc/sys_mgmt.cpp`
+- `smc/systemctl.cpp`
+- `smc/thermal/acsk/sensorInput.cpp`
+- `smc/thermal/componentController/budgetInterfaceDriver.cpp`
+- `%s: %s:%d: %s, error: registry is full`
+- `callback && list`
+- `smc/thermal/cltm.cpp`
+- `smc/sys_task.cpp`
+- `%s: %s:%d: %lld %s %lld`
+- `smc/stacks.cpp`
+- `smc/thermal/componentController/cloakingCC.cpp`
+- `idx < list_size`

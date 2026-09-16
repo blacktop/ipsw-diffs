@@ -1,0 +1,4365 @@
+## SpotlightIndex
+
+> `/System/Library/PrivateFrameworks/SpotlightIndex.framework/SpotlightIndex`
+
+```diff
+
+-2459.105.0.0.0
+-  __TEXT.__text: 0x4f1588
+-  __TEXT.__objc_methlist: 0xb04
+-  __TEXT.__const: 0xb203
+-  __TEXT.__cstring: 0x3614e
+-  __TEXT.__gcc_except_tab: 0x3828
+-  __TEXT.__oslogstring: 0x278f0
+-  __TEXT.__ustring: 0x13f6
+-  __TEXT.__dlopen_cstrs: 0x150
++2465.1.2.0.0
++  __TEXT.__text: 0x47c720
++  __TEXT.__objc_methlist: 0x404
++  __TEXT.__const: 0xa56a
++  __TEXT.__cstring: 0x2f2f2
++  __TEXT.__gcc_except_tab: 0x29c
++  __TEXT.__oslogstring: 0x1dda1
++  __TEXT.__ustring: 0x2aa
+   __TEXT.__dof_mds: 0x29b
+-  __TEXT.__unwind_info: 0x82f8
++  __TEXT.__unwind_info: 0x7190
+   __TEXT.__eh_frame: 0x220
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xa450
+-  __DATA_CONST.__objc_classlist: 0x88
++  __DATA_CONST.__const: 0x8a58
++  __DATA_CONST.__objc_classlist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xc48
+-  __DATA_CONST.__objc_superrefs: 0x70
+-  __DATA_CONST.__objc_arraydata: 0x280
+-  __DATA_CONST.__got: 0x418
+-  __AUTH_CONST.__const: 0xa2b0
+-  __AUTH_CONST.__cfstring: 0xf140
+-  __AUTH_CONST.__objc_const: 0x1508
++  __DATA_CONST.__objc_selrefs: 0x670
++  __DATA_CONST.__objc_superrefs: 0x18
++  __DATA_CONST.__objc_arraydata: 0x98
++  __DATA_CONST.__got: 0x350
++  __AUTH_CONST.__const: 0x93f0
++  __AUTH_CONST.__cfstring: 0x8300
++  __AUTH_CONST.__objc_const: 0x5e8
+   __AUTH_CONST.__weak_auth_got: 0x28
+-  __AUTH_CONST.__objc_floatobj: 0x10
+-  __AUTH_CONST.__objc_intobj: 0x120
+-  __AUTH_CONST.__objc_dictobj: 0x78
+-  __AUTH_CONST.__objc_arrayobj: 0x30
+-  __AUTH_CONST.__objc_doubleobj: 0x1b0
+-  __AUTH_CONST.__auth_got: 0x1fc0
+-  __AUTH.__objc_data: 0x190
++  __AUTH_CONST.__objc_intobj: 0x18
++  __AUTH_CONST.__objc_dictobj: 0x28
++  __AUTH_CONST.__objc_arrayobj: 0x18
++  __AUTH_CONST.__auth_got: 0x1f30
++  __AUTH.__objc_data: 0xa0
+   __AUTH.__data: 0x18d8
+-  __DATA.__objc_ivar: 0x100
+-  __DATA.__data: 0xe58
+-  __DATA_DIRTY.__objc_data: 0x3c0
+-  __DATA_DIRTY.__data: 0x590
+-  __DATA_DIRTY.__bss: 0x3a968
++  __DATA.__objc_ivar: 0x60
++  __DATA.__data: 0xe98
++  __DATA_DIRTY.__objc_data: 0xa0
++  __DATA_DIRTY.__data: 0x4d8
++  __DATA_DIRTY.__bss: 0x9c78
+   __DATA_DIRTY.__common: 0x2402c
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/PrivateFrameworks/DiagnosticRequest.framework/DiagnosticRequest
+   - /System/Library/PrivateFrameworks/LoggingSupport.framework/LoggingSupport
+   - /System/Library/PrivateFrameworks/MetadataUtilities.framework/MetadataUtilities
++  - /System/Library/PrivateFrameworks/PommesRankingCore.framework/PommesRankingCore
+   - /System/Library/PrivateFrameworks/PowerLog.framework/PowerLog
+-  - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /System/Library/PrivateFrameworks/SpotlightLinguistics.framework/SpotlightLinguistics
+   - /System/Library/PrivateFrameworks/SymptomDiagnosticReporter.framework/SymptomDiagnosticReporter
+   - /usr/lib/libMobileGestalt.dylib
+
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  Functions: 8494
+-  Symbols:   12060
+-  CStrings:  10439
++  Functions: 7750
++  Symbols:   10449
++  CStrings:  8055
+ 
+Symbols:
++ GCC_except_table222
++ GCC_except_table229
++ GCC_except_table244
++ GCC_except_table3823
++ GCC_except_table3828
++ GCC_except_table502
++ GCC_except_table5075
++ GCC_except_table5078
++ GCC_except_table519
++ GCC_except_table6758
++ _PRSetLogObjects
++ _ProcessPommesQuery
++ _SIGetResourcesValue
++ _SIQueryUsageAnalyzeTree
++ _XXH3_accumulate_neon
++ __ZL10sStateLock
++ __ZL11kFlagFields
++ __ZL13analyze_valuePKcP17SIQueryUsageFlags
++ __ZL15sAnalysisBudget
++ __ZL15sReportedShapes
++ __ZL16sShapesSaturated
++ __ZL18analyze_field_namePK11query_piecePK19SIQueryUsageContext
++ __ZL19sReportedShapeCount
++ __ZL20kQueryPieceModifiers
++ __ZL23kAppleNamespacePrefixes
++ __ZL24si_getCachedIconRequiredP4__SI
++ __ZL24si_legacyGroupIdRequiredP4__SI
++ __ZL25is_coordinate_range_piecePK11query_piece
++ __ZL27field_name_ends_with_nocasePKcmS0_
++ __ZL30si_getFPItemIdentifierRequiredP4__SI
++ __ZL32queryFromCFStringCollectingUsagePK10__CFStringPK14__CFDictionaryPcdbbP20SIQueryUsageFeatures
++ __ZL35si_decorateExpandingFunctionsForPRCP10query_nodedPvPK10__CFString
++ __ZL4walkP10query_nodejPK19SIQueryUsageContext
++ __ZZ35si_process_query_for_pommes_rankingE22sPommesLogRedirectOnce
++ __ZZL24si_getCachedIconRequiredP4__SIE9nameArray
++ __ZZL24si_legacyGroupIdRequiredP4__SIE9nameArray
++ __ZZL30si_getFPItemIdentifierRequiredP4__SIE9nameArray
++ ___SIQueryUsageReport_block_invoke
++ ___block_descriptor_351_e30_"NSObject<OS_xpc_object>"8?0l
++ ___si_process_query_for_pommes_ranking_block_invoke
++ __lock
++ __si_exported_XXH3_64bits
++ _constructCQueryRewritesDictBridge
++ _isValidPommesQuery
++ _kMailReadIDCStr
++ _kMobileMessagesBundleIDCStr
++ _kNotesBundleIDCStr
++ _peopleNameAliasForName
++ _si_query_copy_resolved_friendly_field_name_cstring
++ _si_should_trace_messages_donation
+- +[AssetsLoadUtils loadOptionalKeywordsDictionaryFromAssetPlistType:]
+- +[PRASTStackItem itemWithNode:visited:]
+- +[PRAstKeywordInfo infoWithFieldType:]
+- +[PRAstKeywordInfo infoWithFieldType:direction:]
+- +[PRQuerySynonymsProvider sharedInstance]
+- +[PRStackItem itemWithNode:visited:]
+- -[PRASTStackItem dealloc]
+- -[PRASTStackItem node]
+- -[PRASTStackItem setNode:]
+- -[PRASTStackItem setVisited:]
+- -[PRASTStackItem visited]
+- -[PRAstBuilder astHasFieldNodes:]
+- -[PRAstBuilder buildASTFromQuery:queryUnderstanding:]
+- -[PRAstBuilder buildTokenToFilterAndU2LabelsMapping]
+- -[PRAstBuilder context]
+- -[PRAstBuilder dealloc]
+- -[PRAstBuilder extractQUFiltersAndLabelsFromQueryUnderstanding:]
+- -[PRAstBuilder extractSourceTokenFromRange:originalQuery:]
+- -[PRAstBuilder getFilterSourceTokenForIndex:]
+- -[PRAstBuilder hasFieldKeywordPrefix:]
+- -[PRAstBuilder hasNonEmailQPFilters]
+- -[PRAstBuilder initWithLanguageCode:context:logHeader:]
+- -[PRAstBuilder isIgnoredToken:]
+- -[PRAstBuilder isNegatedToken:]
+- -[PRAstBuilder isQuotedToken:]
+- -[PRAstBuilder languageProfile]
+- -[PRAstBuilder logHeader]
+- -[PRAstBuilder node:containsFilter:]
+- -[PRAstBuilder originalQuery]
+- -[PRAstBuilder parseExpressionAtIndex:consumedTokens:]
+- -[PRAstBuilder parseFieldExpressionAtIndex:consumedTokens:]
+- -[PRAstBuilder parseIgnoredTermAtIndex:consumedTokens:]
+- -[PRAstBuilder parseMultiTokenQuotedValueStartingWithValue:atIndex:consumedTokens:]
+- -[PRAstBuilder parseNegatedTermAtIndex:consumedTokens:]
+- -[PRAstBuilder parseQuotedExpressionAtIndex:consumedTokens:]
+- -[PRAstBuilder parseSentKeywordAtIndex:consumedTokens:]
+- -[PRAstBuilder parseTokensIntoAST]
+- -[PRAstBuilder postProcessAstForMailToken:]
+- -[PRAstBuilder qpParsesDesc]
+- -[PRAstBuilder qpParsesRange]
+- -[PRAstBuilder setContext:]
+- -[PRAstBuilder setLanguageProfile:]
+- -[PRAstBuilder setLogHeader:]
+- -[PRAstBuilder setMailTokenIgnoredInAst:]
+- -[PRAstBuilder setOriginalQuery:]
+- -[PRAstBuilder setQpParsesDesc:]
+- -[PRAstBuilder setQpParsesRange:]
+- -[PRAstBuilder setSpecialIndices:]
+- -[PRAstBuilder setTokenRanges:]
+- -[PRAstBuilder setTokenToFilterMap:]
+- -[PRAstBuilder setTokenToU2LabelsMap:]
+- -[PRAstBuilder setTokens:]
+- -[PRAstBuilder setU2TokensLabel:]
+- -[PRAstBuilder setU2TokensRange:]
+- -[PRAstBuilder specialIndices]
+- -[PRAstBuilder stripNegationFromToken:]
+- -[PRAstBuilder tokenRanges]
+- -[PRAstBuilder tokenToFilterMap]
+- -[PRAstBuilder tokenToU2LabelsMap]
+- -[PRAstBuilder tokenizeQuery:]
+- -[PRAstBuilder tokens]
+- -[PRAstBuilder u2TokensLabel]
+- -[PRAstBuilder u2TokensRange]
+- -[PRAstCompositeNode addChild:]
+- -[PRAstCompositeNode children]
+- -[PRAstCompositeNode dealloc]
+- -[PRAstCompositeNode description]
+- -[PRAstCompositeNode initWithNodeType:children:sourceToken:isLastToken:]
+- -[PRAstCompositeNode nodeType]
+- -[PRAstCompositeNode setChildren:]
+- -[PRAstCompositeNode setNodeType:]
+- -[PRAstCompositeNode toDictionary]
+- -[PRAstFieldNode dealloc]
+- -[PRAstFieldNode expression]
+- -[PRAstFieldNode fieldTypeString]
+- -[PRAstFieldNode fieldType]
+- -[PRAstFieldNode initWithFieldType:originalKeyword:expression:sourceToken:isLastToken:isIgnored:]
+- -[PRAstFieldNode isIgnored]
+- -[PRAstFieldNode originalKeyword]
+- -[PRAstFieldNode setExpression:]
+- -[PRAstFieldNode setFieldType:]
+- -[PRAstFieldNode setIsIgnored:]
+- -[PRAstFieldNode setOriginalKeyword:]
+- -[PRAstFieldNode toDictionary]
+- -[PRAstKeywordInfo direction]
+- -[PRAstKeywordInfo fieldType]
+- -[PRAstKeywordInfo initWithFieldType:]
+- -[PRAstKeywordInfo initWithFieldType:direction:]
+- -[PRAstKeywordInfo setDirection:]
+- -[PRAstKeywordInfo setFieldType:]
+- -[PRAstLanguageProfile _buildKeywordInfoForLanguageCode:]
+- -[PRAstLanguageProfile argumentDirectionForKeyword:]
+- -[PRAstLanguageProfile dealloc]
+- -[PRAstLanguageProfile fieldTypeForKeyword:]
+- -[PRAstLanguageProfile initWithLanguageCode:]
+- -[PRAstLanguageProfile isBooleanKeyword:]
+- -[PRAstLanguageProfile isOptionalKeyword:]
+- -[PRAstLanguageProfile isSpaceDelimited]
+- -[PRAstLanguageProfile keywordInfo]
+- -[PRAstLanguageProfile languageCode]
+- -[PRAstLanguageProfile setIsSpaceDelimited:]
+- -[PRAstLanguageProfile setKeywordInfo:]
+- -[PRAstLanguageProfile setLanguageCode:]
+- -[PRAstNode dealloc]
+- -[PRAstNode description]
+- -[PRAstNode initWithSourceToken:isLastToken:]
+- -[PRAstNode isLastToken]
+- -[PRAstNode setIsLastToken:]
+- -[PRAstNode setSourceToken:]
+- -[PRAstNode sourceToken]
+- -[PRAstNode toDictionary]
+- -[PRAstQPFilterNode dealloc]
+- -[PRAstQPFilterNode filterString]
+- -[PRAstQPFilterNode initWithFilterString:sourceToken:isLastToken:]
+- -[PRAstQPFilterNode setFilterString:]
+- -[PRAstQPFilterNode toDictionary]
+- -[PRAstTermNode dealloc]
+- -[PRAstTermNode initWithValue:sourceToken:isLastToken:isNegated:isIgnored:]
+- -[PRAstTermNode isIgnored]
+- -[PRAstTermNode isNegated]
+- -[PRAstTermNode setIsIgnored:]
+- -[PRAstTermNode setIsNegated:]
+- -[PRAstTermNode setValue:]
+- -[PRAstTermNode toDictionary]
+- -[PRAstTermNode value]
+- -[PRQueryNumberFormatters dealloc]
+- -[PRQueryNumberFormatters initWithLocale:]
+- -[PRQuerySynonymsProvider .cxx_construct]
+- -[PRQuerySynonymsProvider .cxx_destruct]
+- -[PRQuerySynonymsProvider initSynonymsForLanguageCode:]
+- -[PRQuerySynonymsProvider synonymsForTerm:]
+- -[PRStackItem node]
+- -[PRStackItem setNode:]
+- -[PRStackItem setVisited:]
+- -[PRStackItem visited]
+- GCC_except_table100
+- GCC_except_table133
+- GCC_except_table165
+- GCC_except_table315
+- GCC_except_table322
+- GCC_except_table335
+- GCC_except_table3946
+- GCC_except_table3951
+- GCC_except_table4642
+- GCC_except_table5209
+- GCC_except_table5212
+- GCC_except_table586
+- GCC_except_table603
+- GCC_except_table6731
+- GCC_except_table6835
+- GCC_except_table6838
+- GCC_except_table6839
+- GCC_except_table6842
+- GCC_except_table6846
+- GCC_except_table6852
+- GCC_except_table6854
+- GCC_except_table6856
+- GCC_except_table6858
+- GCC_except_table6861
+- GCC_except_table6865
+- GCC_except_table6868
+- GCC_except_table6871
+- GCC_except_table6873
+- GCC_except_table6877
+- GCC_except_table6880
+- GCC_except_table6882
+- GCC_except_table6895
+- GCC_except_table6897
+- GCC_except_table6902
+- GCC_except_table6904
+- GCC_except_table6921
+- GCC_except_table6923
+- GCC_except_table6924
+- GCC_except_table6930
+- GCC_except_table6931
+- GCC_except_table6932
+- GCC_except_table6936
+- GCC_except_table6937
+- GCC_except_table6938
+- GCC_except_table6939
+- GCC_except_table6940
+- GCC_except_table6946
+- GCC_except_table6954
+- GCC_except_table6955
+- GCC_except_table6957
+- GCC_except_table6960
+- GCC_except_table6962
+- GCC_except_table6964
+- GCC_except_table6966
+- GCC_except_table6967
+- GCC_except_table6971
+- GCC_except_table6972
+- GCC_except_table6973
+- GCC_except_table6974
+- GCC_except_table6977
+- GCC_except_table6978
+- GCC_except_table6980
+- GCC_except_table6981
+- GCC_except_table6983
+- GCC_except_table6984
+- GCC_except_table6986
+- GCC_except_table6988
+- GCC_except_table6990
+- GCC_except_table6992
+- GCC_except_table6994
+- GCC_except_table6995
+- GCC_except_table6996
+- GCC_except_table6998
+- GCC_except_table7000
+- GCC_except_table7002
+- GCC_except_table7003
+- GCC_except_table7005
+- GCC_except_table7009
+- GCC_except_table7016
+- GCC_except_table7029
+- GCC_except_table7033
+- GCC_except_table7035
+- GCC_except_table7040
+- GCC_except_table7045
+- GCC_except_table7049
+- GCC_except_table7050
+- GCC_except_table7054
+- GCC_except_table7067
+- GCC_except_table7071
+- GCC_except_table7074
+- GCC_except_table7080
+- GCC_except_table7081
+- GCC_except_table7083
+- GCC_except_table7084
+- GCC_except_table7085
+- GCC_except_table7086
+- GCC_except_table7087
+- GCC_except_table7090
+- GCC_except_table7091
+- GCC_except_table7092
+- GCC_except_table7093
+- GCC_except_table7096
+- GCC_except_table7099
+- GCC_except_table7100
+- GCC_except_table7101
+- GCC_except_table7102
+- GCC_except_table7105
+- GCC_except_table7119
+- GCC_except_table7120
+- GCC_except_table7121
+- GCC_except_table7122
+- GCC_except_table7128
+- GCC_except_table7132
+- GCC_except_table7135
+- GCC_except_table7136
+- GCC_except_table7137
+- GCC_except_table7138
+- GCC_except_table7139
+- GCC_except_table7141
+- GCC_except_table7142
+- GCC_except_table7145
+- GCC_except_table7146
+- GCC_except_table7147
+- GCC_except_table7148
+- GCC_except_table7149
+- GCC_except_table7150
+- GCC_except_table7151
+- GCC_except_table7152
+- GCC_except_table7153
+- GCC_except_table7154
+- GCC_except_table7155
+- GCC_except_table7156
+- GCC_except_table7157
+- GCC_except_table7158
+- GCC_except_table7159
+- GCC_except_table7164
+- GCC_except_table7169
+- GCC_except_table7170
+- GCC_except_table7171
+- GCC_except_table7172
+- GCC_except_table7173
+- GCC_except_table7174
+- GCC_except_table7175
+- GCC_except_table7176
+- GCC_except_table7177
+- GCC_except_table7178
+- GCC_except_table7179
+- GCC_except_table7180
+- GCC_except_table7181
+- GCC_except_table7183
+- GCC_except_table7197
+- GCC_except_table7199
+- GCC_except_table7201
+- GCC_except_table7211
+- GCC_except_table7224
+- GCC_except_table7228
+- GCC_except_table7240
+- GCC_except_table7241
+- GCC_except_table7244
+- GCC_except_table7245
+- GCC_except_table7246
+- GCC_except_table7252
+- GCC_except_table7254
+- GCC_except_table7257
+- GCC_except_table7258
+- GCC_except_table7259
+- GCC_except_table7260
+- GCC_except_table7261
+- GCC_except_table7262
+- GCC_except_table7263
+- GCC_except_table7264
+- GCC_except_table7265
+- GCC_except_table7267
+- GCC_except_table7272
+- GCC_except_table7273
+- GCC_except_table7274
+- GCC_except_table7275
+- GCC_except_table7276
+- GCC_except_table7277
+- GCC_except_table7278
+- GCC_except_table7279
+- GCC_except_table7280
+- GCC_except_table7281
+- GCC_except_table7285
+- GCC_except_table7286
+- GCC_except_table7288
+- GCC_except_table7289
+- GCC_except_table7294
+- GCC_except_table7295
+- GCC_except_table7352
+- GCC_except_table7353
+- GCC_except_table7355
+- GCC_except_table7357
+- GCC_except_table7361
+- GCC_except_table7366
+- GCC_except_table7369
+- GCC_except_table7377
+- GCC_except_table7380
+- GCC_except_table7382
+- GCC_except_table7383
+- GCC_except_table7385
+- GCC_except_table7392
+- GCC_except_table7396
+- GCC_except_table7399
+- GCC_except_table7400
+- GCC_except_table7401
+- GCC_except_table7402
+- GCC_except_table7403
+- GCC_except_table7404
+- GCC_except_table7405
+- GCC_except_table7424
+- GCC_except_table7426
+- GCC_except_table7427
+- GCC_except_table7429
+- GCC_except_table7430
+- GCC_except_table7433
+- GCC_except_table7434
+- GCC_except_table7435
+- GCC_except_table7520
+- _ARG_PERSON_ID
+- _ARG_UNSPECIFIED_ID
+- _CFAttributedStringGetLength
+- _CFBundleCopyLocalizationForLocalizationInfo
+- _CFBundleCopyLocalizedStringTableForLocalization
+- _CFBundleGetBundleWithIdentifier
+- _CFBundleGetLocalizationInfoForLocalization
+- _CFErrorCreateWithUserInfoKeysAndValues
+- _CFStringEncodingBytesToUnicode
+- _CITokenizerDispose
+- _MDUnicodeConverterConvert
+- _MDUnicodeConverterGetTypeID
+- _MDUnicodeConverterGetTypeID.once
+- _MDUnicodeConverterIsFinal
+- _NSInternalInconsistencyException
+- _NSIntersectionRange
+- _NSStringFromClass
+- _NSStringFromRange
+- _NSUnionRange
+- _OBJC_CLASS_$_AssetsLoadUtils
+- _OBJC_CLASS_$_NSAssertionHandler
+- _OBJC_CLASS_$_NSCalendar
+- _OBJC_CLASS_$_NSCharacterSet
+- _OBJC_CLASS_$_NSConstantDoubleNumber
+- _OBJC_CLASS_$_NSConstantFloatNumber
+- _OBJC_CLASS_$_NSData
+- _OBJC_CLASS_$_NSException
+- _OBJC_CLASS_$_NSJSONSerialization
+- _OBJC_CLASS_$_NSMapTable
+- _OBJC_CLASS_$_NSMutableCharacterSet
+- _OBJC_CLASS_$_NSMutableOrderedSet
+- _OBJC_CLASS_$_NSNumberFormatter
+- _OBJC_CLASS_$_NSSet
+- _OBJC_CLASS_$_NSValue
+- _OBJC_CLASS_$_PRASTStackItem
+- _OBJC_CLASS_$_PRAstBuilder
+- _OBJC_CLASS_$_PRAstCompositeNode
+- _OBJC_CLASS_$_PRAstFieldNode
+- _OBJC_CLASS_$_PRAstKeywordInfo
+- _OBJC_CLASS_$_PRAstLanguageProfile
+- _OBJC_CLASS_$_PRAstNode
+- _OBJC_CLASS_$_PRAstQPFilterNode
+- _OBJC_CLASS_$_PRAstTermNode
+- _OBJC_CLASS_$_PRQueryNumberFormatters
+- _OBJC_CLASS_$_PRQuerySynonymsProvider
+- _OBJC_CLASS_$_PRStackItem
+- _OBJC_IVAR_$_PRASTStackItem._node
+- _OBJC_IVAR_$_PRASTStackItem._visited
+- _OBJC_IVAR_$_PRAstBuilder._context
+- _OBJC_IVAR_$_PRAstBuilder._languageProfile
+- _OBJC_IVAR_$_PRAstBuilder._logHeader
+- _OBJC_IVAR_$_PRAstBuilder._originalQuery
+- _OBJC_IVAR_$_PRAstBuilder._qpParsesDesc
+- _OBJC_IVAR_$_PRAstBuilder._qpParsesRange
+- _OBJC_IVAR_$_PRAstBuilder._specialIndices
+- _OBJC_IVAR_$_PRAstBuilder._tokenRanges
+- _OBJC_IVAR_$_PRAstBuilder._tokenToFilterMap
+- _OBJC_IVAR_$_PRAstBuilder._tokenToU2LabelsMap
+- _OBJC_IVAR_$_PRAstBuilder._tokens
+- _OBJC_IVAR_$_PRAstBuilder._u2TokensLabel
+- _OBJC_IVAR_$_PRAstBuilder._u2TokensRange
+- _OBJC_IVAR_$_PRAstCompositeNode._children
+- _OBJC_IVAR_$_PRAstCompositeNode._nodeType
+- _OBJC_IVAR_$_PRAstFieldNode._expression
+- _OBJC_IVAR_$_PRAstFieldNode._fieldType
+- _OBJC_IVAR_$_PRAstFieldNode._isIgnored
+- _OBJC_IVAR_$_PRAstFieldNode._originalKeyword
+- _OBJC_IVAR_$_PRAstKeywordInfo._direction
+- _OBJC_IVAR_$_PRAstKeywordInfo._fieldType
+- _OBJC_IVAR_$_PRAstLanguageProfile._isSpaceDelimited
+- _OBJC_IVAR_$_PRAstLanguageProfile._keywordInfo
+- _OBJC_IVAR_$_PRAstLanguageProfile._languageCode
+- _OBJC_IVAR_$_PRAstNode._isLastToken
+- _OBJC_IVAR_$_PRAstNode._sourceToken
+- _OBJC_IVAR_$_PRAstQPFilterNode._filterString
+- _OBJC_IVAR_$_PRAstTermNode._isIgnored
+- _OBJC_IVAR_$_PRAstTermNode._isNegated
+- _OBJC_IVAR_$_PRAstTermNode._value
+- _OBJC_IVAR_$_PRQueryNumberFormatters._currencyDecimalFormatter
+- _OBJC_IVAR_$_PRQueryNumberFormatters._currencyFormatter
+- _OBJC_IVAR_$_PRQueryNumberFormatters._decimalFormatter
+- _OBJC_IVAR_$_PRQueryNumberFormatters._locale
+- _OBJC_IVAR_$_PRQueryNumberFormatters._numberFormatter
+- _OBJC_IVAR_$_PRQuerySynonymsProvider._synonyms
+- _OBJC_IVAR_$_PRStackItem._node
+- _OBJC_IVAR_$_PRStackItem._visited
+- _OBJC_METACLASS_$_AssetsLoadUtils
+- _OBJC_METACLASS_$_PRASTStackItem
+- _OBJC_METACLASS_$_PRAstBuilder
+- _OBJC_METACLASS_$_PRAstCompositeNode
+- _OBJC_METACLASS_$_PRAstFieldNode
+- _OBJC_METACLASS_$_PRAstKeywordInfo
+- _OBJC_METACLASS_$_PRAstLanguageProfile
+- _OBJC_METACLASS_$_PRAstNode
+- _OBJC_METACLASS_$_PRAstQPFilterNode
+- _OBJC_METACLASS_$_PRAstTermNode
+- _OBJC_METACLASS_$_PRQueryNumberFormatters
+- _OBJC_METACLASS_$_PRQuerySynonymsProvider
+- _OBJC_METACLASS_$_PRStackItem
+- _QUPP_ARG_APP_CONTAINS_TYPE_CALENDAR
+- _QUPP_ARG_APP_CONTAINS_TYPE_CONTACT
+- _QUPP_ARG_APP_CONTAINS_TYPE_CONVERSATION
+- _QUPP_ARG_APP_CONTAINS_TYPE_DOCUMENT
+- _QUPP_ARG_APP_CONTAINS_TYPE_FREEFORM
+- _QUPP_ARG_APP_CONTAINS_TYPE_JOURNAL
+- _QUPP_ARG_APP_CONTAINS_TYPE_KEYNOTE
+- _QUPP_ARG_APP_CONTAINS_TYPE_MEDIA
+- _QUPP_ARG_APP_CONTAINS_TYPE_MEMORY
+- _QUPP_ARG_APP_CONTAINS_TYPE_NOTE
+- _QUPP_ARG_APP_CONTAINS_TYPE_NOTE_FOLDER
+- _QUPP_ARG_APP_CONTAINS_TYPE_NUMBERS
+- _QUPP_ARG_APP_CONTAINS_TYPE_PAGES
+- _QUPP_ARG_APP_CONTAINS_TYPE_PANORAMA
+- _QUPP_ARG_APP_CONTAINS_TYPE_PHOTO
+- _QUPP_ARG_APP_CONTAINS_TYPE_PHOTO_ALBUM
+- _QUPP_ARG_APP_CONTAINS_TYPE_REMINDER
+- _QUPP_ARG_APP_CONTAINS_TYPE_SCREENSHOT
+- _QUPP_ARG_APP_CONTAINS_TYPE_SELFIE
+- _QUPP_ARG_APP_CONTAINS_TYPE_SLOMO
+- _QUPP_ARG_APP_CONTAINS_TYPE_SPATIAL_VIDEO
+- _QUPP_ARG_APP_CONTAINS_TYPE_VIDEO
+- _QUPP_ARG_APP_CONTAINS_TYPE_VOICE_MAIL
+- _QUPP_ARG_APP_CONTAINS_TYPE_VOICE_MEMO
+- _QUPP_ARG_APP_CONTAINS_TYPE_WALLET
+- _QUPP_ARG_APP_CONTAINS_TYPE_WEBSITE
+- _QUPP_ARG_EVENT_TYPE_FLIGHT
+- _QUPP_ARG_EVENT_TYPE_HOTEL
+- _QUPP_ARG_EVENT_TYPE_PARTY
+- _QUPP_ARG_LOCATION
+- _QUPP_ARG_LOCATION_ARRIVAL
+- _QUPP_ARG_LOCATION_DEPARTURE
+- _QUPP_ARG_PERSON
+- _QUPP_ARG_PERSON_RECEIVER
+- _QUPP_ARG_PERSON_SELF
+- _QUPP_ARG_PERSON_SENDER
+- _QUPP_ARG_SEARCH_TERM
+- _QUPP_ARG_TIME
+- _QUPP_ARG_TIME_CREATED
+- _QUPP_ARG_TIME_END
+- _QUPP_ARG_TIME_LAST_OPENED
+- _QUPP_ARG_TIME_MODIFIED
+- _QUPP_ARG_TIME_START
+- __OBJC_$_CLASS_METHODS_AssetsLoadUtils
+- __OBJC_$_CLASS_METHODS_PRASTStackItem
+- __OBJC_$_CLASS_METHODS_PRAstKeywordInfo
+- __OBJC_$_CLASS_METHODS_PRQuerySynonymsProvider
+- __OBJC_$_CLASS_METHODS_PRStackItem
+- __OBJC_$_INSTANCE_METHODS_PRASTStackItem
+- __OBJC_$_INSTANCE_METHODS_PRAstBuilder
+- __OBJC_$_INSTANCE_METHODS_PRAstCompositeNode
+- __OBJC_$_INSTANCE_METHODS_PRAstFieldNode
+- __OBJC_$_INSTANCE_METHODS_PRAstKeywordInfo
+- __OBJC_$_INSTANCE_METHODS_PRAstLanguageProfile
+- __OBJC_$_INSTANCE_METHODS_PRAstNode
+- __OBJC_$_INSTANCE_METHODS_PRAstQPFilterNode
+- __OBJC_$_INSTANCE_METHODS_PRAstTermNode
+- __OBJC_$_INSTANCE_METHODS_PRQueryNumberFormatters
+- __OBJC_$_INSTANCE_METHODS_PRQuerySynonymsProvider
+- __OBJC_$_INSTANCE_METHODS_PRStackItem
+- __OBJC_$_INSTANCE_VARIABLES_PRASTStackItem
+- __OBJC_$_INSTANCE_VARIABLES_PRAstBuilder
+- __OBJC_$_INSTANCE_VARIABLES_PRAstCompositeNode
+- __OBJC_$_INSTANCE_VARIABLES_PRAstFieldNode
+- __OBJC_$_INSTANCE_VARIABLES_PRAstKeywordInfo
+- __OBJC_$_INSTANCE_VARIABLES_PRAstLanguageProfile
+- __OBJC_$_INSTANCE_VARIABLES_PRAstNode
+- __OBJC_$_INSTANCE_VARIABLES_PRAstQPFilterNode
+- __OBJC_$_INSTANCE_VARIABLES_PRAstTermNode
+- __OBJC_$_INSTANCE_VARIABLES_PRQueryNumberFormatters
+- __OBJC_$_INSTANCE_VARIABLES_PRQuerySynonymsProvider
+- __OBJC_$_INSTANCE_VARIABLES_PRStackItem
+- __OBJC_$_PROP_LIST_PRASTStackItem
+- __OBJC_$_PROP_LIST_PRAstBuilder
+- __OBJC_$_PROP_LIST_PRAstCompositeNode
+- __OBJC_$_PROP_LIST_PRAstFieldNode
+- __OBJC_$_PROP_LIST_PRAstKeywordInfo
+- __OBJC_$_PROP_LIST_PRAstLanguageProfile
+- __OBJC_$_PROP_LIST_PRAstNode
+- __OBJC_$_PROP_LIST_PRAstQPFilterNode
+- __OBJC_$_PROP_LIST_PRAstTermNode
+- __OBJC_$_PROP_LIST_PRStackItem
+- __OBJC_CLASS_RO_$_AssetsLoadUtils
+- __OBJC_CLASS_RO_$_PRASTStackItem
+- __OBJC_CLASS_RO_$_PRAstBuilder
+- __OBJC_CLASS_RO_$_PRAstCompositeNode
+- __OBJC_CLASS_RO_$_PRAstFieldNode
+- __OBJC_CLASS_RO_$_PRAstKeywordInfo
+- __OBJC_CLASS_RO_$_PRAstLanguageProfile
+- __OBJC_CLASS_RO_$_PRAstNode
+- __OBJC_CLASS_RO_$_PRAstQPFilterNode
+- __OBJC_CLASS_RO_$_PRAstTermNode
+- __OBJC_CLASS_RO_$_PRQueryNumberFormatters
+- __OBJC_CLASS_RO_$_PRQuerySynonymsProvider
+- __OBJC_CLASS_RO_$_PRStackItem
+- __OBJC_METACLASS_RO_$_AssetsLoadUtils
+- __OBJC_METACLASS_RO_$_PRASTStackItem
+- __OBJC_METACLASS_RO_$_PRAstBuilder
+- __OBJC_METACLASS_RO_$_PRAstCompositeNode
+- __OBJC_METACLASS_RO_$_PRAstFieldNode
+- __OBJC_METACLASS_RO_$_PRAstKeywordInfo
+- __OBJC_METACLASS_RO_$_PRAstLanguageProfile
+- __OBJC_METACLASS_RO_$_PRAstNode
+- __OBJC_METACLASS_RO_$_PRAstQPFilterNode
+- __OBJC_METACLASS_RO_$_PRAstTermNode
+- __OBJC_METACLASS_RO_$_PRQueryNumberFormatters
+- __OBJC_METACLASS_RO_$_PRQuerySynonymsProvider
+- __OBJC_METACLASS_RO_$_PRStackItem
+- __SISetResourcesCallback
+- __Z10makeOrNodeP10query_nodeS0_
+- __Z11joinVectorsRKNSt3__16vectorINS0_INS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEENS4_IS8_EEEEb
+- __Z11makeAndNodeP10query_nodeS0_
+- __Z12redactStringP8NSStringb
+- __Z13expandFiltersP10query_nodeb
+- __Z13makeFalseNodev
+- __Z14isKeywordArgIdi
+- __Z14isOptionalWordRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+- __Z14isRelationWordRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+- __Z14llmRankingTreeP9PRContextRK13PRLLMParseCtxPKc
+- __Z14redactedStringP8NSString
+- __Z15PhotosQueryTreePK10__CFStringPK20__CFAttributedStringPK14__CFDictionaryP9PRContext
+- __Z15createQueryNodePKcS0_xff8QueryOpsi
+- __Z15getRangeAtIndexPK9__CFArrayS1_l
+- __Z15isOptionalTokenPK10__CFStringb
+- __Z15utf8QueryStringPPK10__CFStringlb
+- __Z16createLLMContextPK14__CFDictionaryP9PRContext
+- __Z16expandCardFilterP10query_nodeb
+- __Z16isLLMPersonArgIdi
+- __Z16isValidTokenInfoPK14__CFDictionary
+- __Z17CreateQueryTokensPK10__CFStringbb
+- __Z17isPhotosAttributeRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+- __Z17pommesDefaultTreeP10query_nodeP9PRContextb
+- __Z17queryNodeForTokenPKcRKNSt3__113unordered_mapINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEfNS1_4hashIS8_EENS1_8equal_toIS8_EENS6_INS1_4pairIKS8_fEEEEEEP11NodeContextP9PRContext
+- __Z17rangeIntersection8_NSRangeP7NSArrayIP7NSValueE
+- __Z18PhotosLLMQueryTreePK10__CFStringPK20__CFAttributedStringPK14__CFDictionaryP9PRContext
+- __Z18fetchEmbeddingDataPK14__CFDictionaryP9PRContextPK10__CFStringPKc
+- __Z18hasOnlySpecialCharPK10__CFString
+- __Z18isLLMLocationArgIdi
+- __Z18isLLMOptionalArgIdi
+- __Z18isLLMTemporalArgIdi
+- __Z18normalizeQueryNodeP10query_nodeff
+- __Z19hasTrailingAsteriskPK10__CFString
+- __Z19isLLMEventTypeArgIdi
+- __Z20isLLMSourceTypeArgIdi
+- __Z20isOptionalSearchTermiRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPK9__CFArraylRK25PROptionalSearchTermFlags
+- __Z20messageRetreivalNodebx
+- __Z21getGrounedPersonCountPK14__CFDictionaryP8NSNumber
+- __Z21getLemmaFromTokenInfoPK14__CFDictionary
+- __Z21getTokenFromTokenInfoPK14__CFDictionary
+- __Z21isLLMPhotosEventArgIdi
+- __Z21isLLMTopKRankingArgIdi
+- __Z21isOptionalSpecialChart
+- __Z21textEmbeddingDisabledPK14__CFDictionaryP9PRContextPK10__CFStringPKc
+- __Z22freeQueryTokensContextP18QueryTokensContext
+- __Z22getLLMTokenDescriptioni8_NSRangeP18NSAttributedStringb
+- __Z22llmSparseRetrievalTreeP9PRContextRK13PRLLMParseCtxPKc
+- __Z23getIndexAttributeScores14PRBundleIDTypeb
+- __Z23getRawTextFromTokenInfoPK14__CFDictionary
+- __Z23isLLMAppEntityTypeArgIdi
+- __Z23isLLMPhotosIgnoredArgIdi
+- __Z24LogASTIfDebuggingEnabledP9PRAstNodePK10__CFStringP9PRContext
+- __Z24fetchLLMTokenDescriptionPiPK14__CFDictionaryP18NSAttributedStringb
+- __Z24getTokenIDsFromTokenInfoPK14__CFDictionary
+- __Z24getWildCardAllowedFields14PRBundleIDType
+- __Z25createFieldMatchQueryNodeINSt3__16vectorINS0_12basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEENS5_IS7_EEEEEP10query_nodePKcbRKT_ff
+- __Z25getRankingAttributeScoresP9PRContext
+- __Z25isLLMOptionalizationArgIdib
+- __Z25isLLMRetrievalFilterArgIdi
+- __Z25isValidQueryUnderstandingPK14__CFDictionary
+- __Z25messageGroupRetreivalNodePKcS0_iix
+- __Z26getTokenRangeFromTokenInfoPK14__CFDictionary
+- __Z26getTopTokenIDFromTokenInfoPK14__CFDictionary
+- __Z26groundedNamesRetrievalNodePK14__CFDictionaryxRKNSt3__113unordered_mapINS2_12basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEfNS2_4hashIS9_EENS2_8equal_toIS9_EENS7_INS2_4pairIKS9_fEEEEEEP8NSStringP9PRContextb
+- __Z26hasOnlyOptionalSpecialCharPK10__CFString
+- __Z27getIsTokenSelfFromTokenInfoPK14__CFDictionary
+- __Z27makeNodeFromFilterConditionPKcb
+- __Z28getQUOutputContactIdentifierPK14__CFDictionary
+- __Z28isLLMPhotosIgnoredSearchTermP7NSArrayIP8NSStringE
+- __Z29generateConditionalFilterNodeP9PRContextiP8NSStringS2_b
+- __Z29getRawTextTokensFromTokenInfoPK14__CFDictionary
+- __Z29isIgnoredAppEntityStatusArgIdi
+- __Z29isLLMPhotosAppEntityTypeArgIdi
+- __Z30getAttributeIndexFromTokenInfoPK14__CFDictionary
+- __Z30hasTrailingOptionalSpecialCharPK10__CFString
+- __Z30messagesSharedItemBundleIdNodei
+- __Z30userDefaultMailCategoryEnabledv
+- __Z31getHypocorismAliasFromTokenInfoPK14__CFDictionary
+- __Z31isLLMInferredAppEntityTypeArgIdi
+- __Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString
+- __Z32makeRetrievalNodeFromQueryStringPKc
+- __Z33createQueryNodeForPhotosMediaTypebP9PRContext
+- __Z33getLLMParseFromQueryUnderstandingPK14__CFDictionary
+- __Z34aliasTokenDescriptionRetrievalNodePK14__CFDictionaryP8NSStringS3_P9PRContext
+- __Z35getTokensInfoFromQueryUnderstandingPK14__CFDictionary
+- __Z35userDefaultExtendedDebuggingEnabledv
+- __Z36defaultMatchQueryNodeForLLMRetrievalPKcxRKNSt3__113unordered_mapINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEfNS1_4hashIS8_EENS1_8equal_toIS8_EENS6_INS1_4pairIKS8_fEEEEEE8QueryOpsP9PRContextbb
+- __Z36llmV2RetrievalDescriptionRankingNodePKcffRKNSt3__113unordered_setINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS1_4hashIS8_EENS1_8equal_toIS8_EENS6_IS8_EEEE
+- __Z37getECRGroundedNamesTokenFromTokenInfoPK14__CFDictionary
+- __Z37getRelationGroundedNamesFromTokenInfoPK14__CFDictionary
+- __Z37userDefaultSparseORSearchTermsEnabledv
+- __Z38is_tokenizable_searchable_string_fieldPKc
+- __Z40makeNonMatchRetrievalNodeFromQueryStringPKc
+- __Z41getRuleBasedQPParseFromQueryUnderstandingPK14__CFDictionary
+- __Z42getRelationGroundedNamesTokenFromTokenInfoPK14__CFDictionary
+- __Z42isBundleSpecificFilterAppEntityStatusArgIdi
+- __Z42isLLMTextEventTypeArgIdWithSearchExpansioni
+- __Z42makeNonMatchRetrievalNodeFromORQueryStringPKc
+- __Z43createFieldMatchQueryNodeWithSchemaFallbackPKcbRKNSt3__16vectorINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS6_IS8_EEEEffb
+- __Z45getECRGroundedNamesTokenRelationFromTokenInfoPK14__CFDictionary
+- __Z9logHeaderP9PRContextP8NSString
+- __ZGVZ30MailRankingNameAttributeScoresvE20_mailAttributeScores
+- __ZGVZL10getSynonymRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEE10synonymMap
+- __ZGVZL10getSynonymRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEE11emptyString
+- __ZGVZL11KeywordArgsvE12_keywordArgs
+- __ZGVZL12MetadataKeysvE13_metadataKeys
+- __ZGVZL13OptionalWordsvE13optionalWords
+- __ZGVZL13RelationWordsvE13relationWords
+- __ZGVZL15peopleNameAliasRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEE12sEmptyString
+- __ZGVZL16PhotosAttributesvE17_photosAttributes
+- __ZGVZL17GenericFilterKeysvE18_genericFilterKeys
+- __ZGVZL18PhRetrievalAttribsvE17_retrievalAttribs
+- __ZGVZL19PhOCRRankingAttribsvE18_OCRRankingAttribs
+- __ZGVZL23PhCommonPeopleNameAliasvE16_peopleNameAlias
+- __ZGVZL24HomeIndexAttributeScoresvE25_homeIndexAttributeScores
+- __ZGVZL25GenericFilterTopLevelKeysvE26_genericFilterTopLevelKeys
+- __ZGVZL25MailWildCardAllowedFieldsvE26_mailWildCardAllowedFields
+- __ZGVZL25PhSpanMatchRankingAttribsvE19_phSpanMatchAttribs
+- __ZGVZL26HomeRankingAttributeScoresvE20_homeAttributeScores
+- __ZGVZL26MailRankingAttributeScoresvE20_mailAttributeScores
+- __ZGVZL26PhExactMatchRankingAttribsvE27_phExactMatchRankingAttribs
+- __ZGVZL26SafariIndexAttributeScoresvE27_safariIndexAttributeScores
+- __ZGVZL27DefaultIndexAttributeScoresvE21_indexAttributeScores
+- __ZGVZL27FilesRankingAttributeScoresvE21_filesAttributeScores
+- __ZGVZL27NotesRankingAttributeScoresvE21_notesAttributeScores
+- __ZGVZL27PhPrefixMatchRankingAttribsvE21_phPrefixMatchAttribs
+- __ZGVZL28ContactsIndexAttributeScoresvE29_contactsIndexAttributeScores
+- __ZGVZL28PhSpanMatchLLMRankingAttribsvE19_phSpanMatchAttribs
+- __ZGVZL28SafariRankingAttributeScoresvE22_safariAttributeScores
+- __ZGVZL28SettingsIndexAttributeScoresvE29_settingsIndexAttributeScores
+- __ZGVZL28WalletRankingAttributeScoresvE21_filesAttributeScores
+- __ZGVZL29SpotlightU2AttributesToArgIDsvE30_spotlightU2AttributesToArgIDs
+- __ZGVZL30CalendarRankingAttributeScoresvE24_calendarAttributeScores
+- __ZGVZL30MessagesRankingAttributeScoresvE24_messagesAttributeScores
+- __ZGVZL30PhPrefixMatchLLMRankingAttribsvE24_phPrefixMatchLLMAttribs
+- __ZGVZL30SettingsRankingAttributeScoresvE24_settingsAttributeScores
+- __ZGVZL31RemindersRankingAttributeScoresvE25_remindersAttributeScores
+- __ZGVZL32SearchToolRankingAttributeScoresvE26_searchToolAttributeScores
+- __ZGVZL37DefaultSearchToolIndexAttributeScoresvE21_indexAttributeScores
+- __ZGVZL37PhPreExtractionMatchLLMRankingAttribsvE28_phPreExtractionMatchAttribs
+- __ZGVZL43ImageAndVideoFilesInMacIndexAttributeScoresvE44_imageAndVideoFilesInMacIndexAttributeScores
+- __ZGVZL9StopWordsvE10_stopWords
+- __ZL10CmdAttribsv
+- __ZL10getSynonymRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+- __ZL10isLowerStrRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+- __ZL10tokenStatePK10__CFStringPK16__CFCharacterSetS4_PbS5_
+- __ZL11_LLMAnnNodeP6NSDatajfiP9PRContext
+- __ZL11processNodeP10query_node
+- __ZL11processNodeP10query_nodeb
+- __ZL11toLowerCaseRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+- __ZL13MsgAttribNodeP9PRContextRKNSt3__113unordered_mapINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEfNS1_4hashIS8_EENS1_8equal_toIS8_EENS6_INS1_4pairIKS8_fEEEEEEPKcfx
+- __ZL13PhAttribNodesPKcRKNSt3__113unordered_setINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS1_4hashIS8_EENS1_8equal_toIS8_EENS6_IS8_EEEEbb
+- __ZL13redactAndJoinP7NSArrayIP8NSStringEb
+- __ZL14ContentAttribsv
+- __ZL14MailAttribNodeP9PRContextRKNSt3__113unordered_mapINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEfNS1_4hashIS8_EENS1_8equal_toIS8_EENS6_INS1_4pairIKS8_fEEEEEEPKcbfx
+- __ZL15peopleNameAliasRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+- __ZL16PhExactMatchTreeP8NSStringP7NSArrayIP7NSValueEP14NSCharacterSetlPP10query_nodeyS0_
+- __ZL17createDummyQPDictv
+- __ZL17populateStopWordsPK10__CFStringP10__CFBundleRNSt3__113unordered_setINS4_12basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEENS4_4hashISB_EENS4_8equal_toISB_EENS9_ISB_EEEE
+- __ZL18MailSuggestionNodeP10query_nodePKcbbb
+- __ZL18PhRankingBoostTreev
+- __ZL18PhRetrievalAttribsv
+- __ZL18QueryParserLibraryv
+- __ZL18_rangeIntersection8_NSRangeP7NSArrayIP7NSValueE
+- __ZL18gCachedKeywordInfo
+- __ZL18gLanguageCacheLock
+- __ZL18isGenericFilterKeyRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+- __ZL19QueryTokensCallbackPKtlPv
+- __ZL19compareWithAsteriskPKcS0_
+- __ZL19gCachedLanguageCode
+- __ZL20MailTokenRewriteNodePK10__CFStringP9PRContextRKNSt3__113unordered_mapINS4_12basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEEfNS4_4hashISB_EENS4_8equal_toISB_EENS9_INS4_4pairIKSB_fEEEEEE
+- __ZL20MessagesSemanticNodePK14__CFDictionarybP8NSStringS3_
+- __ZL20PhRankingTreeFromStrPKcfPi
+- __ZL22getkQPQUOutputTokenKeyv
+- __ZL23audit_stringQueryParser
+- __ZL24PhRankingTreeFromU2ParsePK14__CFDictionaryP10query_nodeP7NSArrayIP7NSValueEP14NSCharacterSetyP8NSString
+- __ZL24_scaleBiasBasedAnnThreshfffi
+- __ZL25PhRankingTreeFromLLMParsePK14__CFDictionaryP7NSArrayIP7NSValueEP14NSCharacterSetP8NSString
+- __ZL25convertASTNodeToQueryNodeP9PRAstNodeP9PRContext
+- __ZL25convertASTNodeToQueryNodeP9PRAstNodeP9PRContextPKNSt3__113unordered_mapINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEfNS3_4hashISA_EENS3_8equal_toISA_EENS8_INS3_4pairIKSA_fEEEEEE
+- __ZL26MailRankingAttributeScoresv
+- __ZL26PhExactMatchRankingAttribsv
+- __ZL26PhImpAttributesRankingNodePKc
+- __ZL26PhPopulateFiltersFromQueryPK20__CFAttributedStringPP10query_nodeS4_P14NSMutableArrayIP7NSValueES9_bP8NSStringb
+- __ZL26PhPopulateFiltersFromQueryPK20__CFAttributedStringPP10query_nodeS4_P14NSMutableArrayIP7NSValueES9_by
+- __ZL26PhPopulateNodesFromU2ParsePK14__CFDictionaryP7NSArrayIP7NSValueES6_bPP10query_nodeS9_PlyP8NSString
+- __ZL26getkQPQUOutputSpanTypesKeyv
+- __ZL26getkQPQUOutputTokenInfoKeyv
+- __ZL26isGenericFilterTopLevelKeyRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+- __ZL27PhPopulateNodesFromLLMParsePK14__CFDictionaryP7NSArrayIP7NSValueES6_bPP10query_nodeS9_PlPbP8NSString
+- __ZL27_containsOnlyCharsInCharsetP8NSStringP14NSCharacterSet
+- __ZL27createLLMParseCtxWithStatusPK14__CFDictionaryP9PRContextPKc
+- __ZL27gLanguageCacheLockOnceToken
+- __ZL27getkQPParseAttributeKindKeyv
+- __ZL27getkQPQUOutputTokenRangeKeyv
+- __ZL28SafariRankingAttributeScoresv
+- __ZL28getkQPQUOutputTokenArgIdsKeyv
+- __ZL30CalendarRankingAttributeScoresv
+- __ZL30MessagesRankingAttributeScoresv
+- __ZL31getkQPQUOutputTokenArgScoresKeyv
+- __ZL31makeDocumentFolderURLTokensNodeP7NSArrayIP8NSStringE
+- __ZL32PhImpAttributesPrefixRankingNodePKc
+- __ZL34getkQPParseAttributeDescriptionKeyv
+- __ZL34isOptionalSearchTermSuffixToRemoveiRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPK9__CFArraylRKNS_13unordered_setIS5_NS_4hashIS5_EENS_8equal_toIS5_EENS3_IS5_EEEE
+- __ZL36getkQPParseAttributeFlightCarrierKeyv
+- __ZL37getkQPParseAttributeAttachmentKindKeyv
+- __ZL39getkQPParseAttributeDownloadedActionKeyv
+- __ZL44getkQPParseAttributeFlightArrivalLocationKeyv
+- __ZL46getkQPParseAttributeFlightDepartureLocationKeyv
+- __ZL7Attribsv
+- __ZL9PhAnnNodeP6NSDatamifiP8NSString
+- __ZL9StopWordsv
+- __ZL9intervals
+- __ZN13PRLLMParseCtxD2Ev
+- __ZN14PhLLMTokenInfoD1Ev
+- __ZN23PRLLMParseCtxWithStatusD1Ev
+- __ZNKSt3__112__hash_tableINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEE4findIS6_EENS_21__hash_const_iteratorIPNS_11__hash_nodeIS6_PvEEEERKT_
+- __ZNKSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorIS7_NS5_IS7_EEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SF_SJ_SH_EENS5_ISF_EEE4findIS7_EENS_21__hash_const_iteratorIPNS_11__hash_nodeISB_PvEEEERKT_
+- __ZNKSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorIiNS5_IiEEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SF_SJ_SH_EENS5_ISF_EEE4findIS7_EENS_21__hash_const_iteratorIPNS_11__hash_nodeISB_PvEEEERKT_
+- __ZNKSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE4findIS7_EENS_21__hash_const_iteratorIPNS_11__hash_nodeIS8_PvEEEERKT_
+- __ZNKSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEfEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_fEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE4findIS7_EENS_21__hash_const_iteratorIPNS_11__hash_nodeIS8_PvEEEERKT_
+- __ZNKSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEiEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_iEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE4findIS7_EENS_21__hash_const_iteratorIPNS_11__hash_nodeIS8_PvEEEERKT_
+- __ZNKSt3__112__hash_tableINS_17__hash_value_typeIi13PhRankingInfoEENS_22__unordered_map_hasherIiNS_4pairIKiS2_EENS_4hashIiEENS_8equal_toIiEEEENS_21__unordered_map_equalIiS7_SB_S9_EENS_9allocatorIS7_EEE4findIiEENS_21__hash_const_iteratorIPNS_11__hash_nodeIS3_PvEEEERKT_
+- __ZNKSt3__112__hash_tableINS_17__hash_value_typeIiNS_13unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_13unordered_setIS8_NS_4hashIS8_EENS_8equal_toIS8_EENS6_IS8_EEEESB_SD_NS6_INS_4pairIKS8_SF_EEEEEEEENS_22__unordered_map_hasherIiNSG_IKiSK_EENSA_IiEENSC_IiEEEENS_21__unordered_map_equalIiSO_SQ_SP_EENS6_ISO_EEE4findIiEENS_21__hash_const_iteratorIPNS_11__hash_nodeISL_PvEEEERKT_
+- __ZNKSt3__112__hash_tableINS_17__hash_value_typeIifEENS_22__unordered_map_hasherIiNS_4pairIKifEENS_4hashIiEENS_8equal_toIiEEEENS_21__unordered_map_equalIiS6_SA_S8_EENS_9allocatorIS6_EEE4findIiEENS_21__hash_const_iteratorIPNS_11__hash_nodeIS2_PvEEEERKT_
+- __ZNKSt3__112__hash_tableIiNS_4hashIiEENS_8equal_toIiEENS_9allocatorIiEEE4findIiEENS_21__hash_const_iteratorIPNS_11__hash_nodeIiPvEEEERKT_
+- __ZNKSt3__112__hash_tableIlNS_4hashIlEENS_8equal_toIlEENS_9allocatorIlEEE4findIlEENS_21__hash_const_iteratorIPNS_11__hash_nodeIlPvEEEERKT_
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE4findB9fqn220106EPKcm
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_13unordered_setIS8_NS_4hashIS8_EENS_8equal_toIS8_EENS6_IS8_EEEEEEPvEENS_22__hash_node_destructorINS6_ISI_EEEEED1B9fqn220106Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorIiNS6_IiEEEEEEPvEENS_22__hash_node_destructorINS6_ISE_EEEEED1B9fqn220106Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES8_EEPvEENS_22__hash_node_destructorINS6_ISB_EEEEED1B9fqn220106Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIiNS_13unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_13unordered_setIS9_NS_4hashIS9_EENS_8equal_toIS9_EENS7_IS9_EEEESC_SE_NS7_INS_4pairIKS9_SG_EEEEEEEEPvEENS_22__hash_node_destructorINS7_ISO_EEEEED1B9fqn220106Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIiNS_13unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEfNS_4hashIS9_EENS_8equal_toIS9_EENS7_INS_4pairIKS9_fEEEEEEEEPvEENS_22__hash_node_destructorINS7_ISL_EEEEED1B9fqn220106Ev
+- __ZNSt3__111__find_loopB9fqn220106INS_21__hash_const_iteratorIPNS_11__hash_nodeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPvEEEESC_S8_NS_10__identityEEET_SE_T0_RKT1_RT2_
+- __ZNSt3__112__destroy_atB9fqn220106INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_13unordered_setIS7_NS_4hashIS7_EENS_8equal_toIS7_EENS5_IS7_EEEEEEEEvPT_
+- __ZNSt3__112__destroy_atB9fqn220106INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorIS7_NS5_IS7_EEEEEEEEvPT_
+- __ZNSt3__112__destroy_atB9fqn220106INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EEEEvPT_
+- __ZNSt3__112__hash_tableINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEE15__assign_uniqueIPKS6_EEvT_SG_
+- __ZNSt3__112__hash_tableINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEE16__copy_constructB9fqn220106EPNS_16__hash_node_baseIPNS_11__hash_nodeIS6_PvEEEE
+- __ZNSt3__112__hash_tableINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEE16__copy_constructB9fqn220106EPNS_16__hash_node_baseIPNS_11__hash_nodeIS6_PvEEEESJ_m
+- __ZNSt3__112__hash_tableINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEE17__deallocate_nodeB9fqn220106EPNS_11__hash_nodeIS6_PvEE
+- __ZNSt3__112__hash_tableINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEE21__construct_node_hashIJRS6_EEENS_10unique_ptrINS_11__hash_nodeIS6_PvEENS_22__hash_node_destructorINS4_ISI_EEEEEEmDpOT_
+- __ZNSt3__112__hash_tableINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEE5clearEv
+- __ZNSt3__112__hash_tableINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEEC2EOSC_
+- __ZNSt3__112__hash_tableINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEEC2ERKSC_
+- __ZNSt3__112__hash_tableINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEEaSERKSC_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE13PRLLMParseCtxEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S8_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SD_SH_SF_EENS5_ISD_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE13PRLLMParseCtxEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S8_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SD_SH_SF_EENS5_ISD_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_13unordered_setIS7_NS_4hashIS7_EENS_8equal_toIS7_EENS5_IS7_EEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SE_EESA_SC_EENS_21__unordered_map_equalIS7_SJ_SC_SA_EENS5_ISJ_EEE15__assign_uniqueIPKSJ_EEvT_SS_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_13unordered_setIS7_NS_4hashIS7_EENS_8equal_toIS7_EENS5_IS7_EEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SE_EESA_SC_EENS_21__unordered_map_equalIS7_SJ_SC_SA_EENS5_ISJ_EEE22__deallocate_node_listB9fqn220106EPNS_16__hash_node_baseIPNS_11__hash_nodeISF_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_13unordered_setIS7_NS_4hashIS7_EENS_8equal_toIS7_EENS5_IS7_EEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SE_EESA_SC_EENS_21__unordered_map_equalIS7_SJ_SC_SA_EENS5_ISJ_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorIS7_NS5_IS7_EEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SF_SJ_SH_EENS5_ISF_EEE15__assign_uniqueIPKSF_EEvT_SS_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorIS7_NS5_IS7_EEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SF_SJ_SH_EENS5_ISF_EEE22__deallocate_node_listB9fqn220106EPNS_16__hash_node_baseIPNS_11__hash_nodeISB_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorIS7_NS5_IS7_EEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SF_SJ_SH_EENS5_ISF_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE22__deallocate_node_listB9fqn220106EPNS_16__hash_node_baseIPNS_11__hash_nodeIS8_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEfEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_fEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE13__move_assignERSL_NS_17integral_constantIbLb1EEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEfEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_fEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE16__copy_constructB9fqn220106EPNS_16__hash_node_baseIPNS_11__hash_nodeIS8_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEfEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_fEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE16__copy_constructB9fqn220106EPNS_16__hash_node_baseIPNS_11__hash_nodeIS8_PvEEEESS_m
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEfEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_fEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE17__deallocate_nodeB9fqn220106EPNS_11__hash_nodeIS8_PvEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEfEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_fEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE21__construct_node_hashIJRSC_EEENS_10unique_ptrINS_11__hash_nodeIS8_PvEENS_22__hash_node_destructorINS5_ISR_EEEEEEmDpOT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEfEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_fEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE26__node_handle_merge_uniqueB9fqn220106ISL_EEvRT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEfEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_fEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE5clearEv
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEfEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_fEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEfEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_fEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEEC2ERKSL_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEfEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_fEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEfEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_fEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEEaSERKSL_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEiEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_iEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE21__construct_node_hashIJRSC_EEENS_10unique_ptrINS_11__hash_nodeIS8_PvEENS_22__hash_node_destructorINS5_ISR_EEEEEEmDpOT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEiEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_iEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE4findIS7_EENS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEERKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEiEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_iEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEiEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_iEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIfiEENS_22__unordered_map_hasherIfNS_4pairIKfiEENS_4hashIfEENS_8equal_toIfEEEENS_21__unordered_map_equalIfS6_SA_S8_EENS_9allocatorIS6_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIiNS_13unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_13unordered_setIS8_NS_4hashIS8_EENS_8equal_toIS8_EENS6_IS8_EEEESB_SD_NS6_INS_4pairIKS8_SF_EEEEEEEENS_22__unordered_map_hasherIiNSG_IKiSK_EENSA_IiEENSC_IiEEEENS_21__unordered_map_equalIiSO_SQ_SP_EENS6_ISO_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIiNS_13unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEfNS_4hashIS8_EENS_8equal_toIS8_EENS6_INS_4pairIKS8_fEEEEEEEENS_22__unordered_map_hasherIiNSD_IKiSH_EENS9_IiEENSB_IiEEEENS_21__unordered_map_equalIiSL_SN_SM_EENS6_ISL_EEE4findIiEENS_15__hash_iteratorIPNS_11__hash_nodeISI_PvEEEERKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIiNS_13unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEfNS_4hashIS8_EENS_8equal_toIS8_EENS6_INS_4pairIKS8_fEEEEEEEENS_22__unordered_map_hasherIiNSD_IKiSH_EENS9_IiEENSB_IiEEEENS_21__unordered_map_equalIiSL_SN_SM_EENS6_ISL_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIiNS_13unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEfNS_4hashIS8_EENS_8equal_toIS8_EENS6_INS_4pairIKS8_fEEEEEEEENS_22__unordered_map_hasherIiNSD_IKiSH_EENS9_IiEENSB_IiEEEENS_21__unordered_map_equalIiSL_SN_SM_EENS6_ISL_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIifEENS_22__unordered_map_hasherIiNS_4pairIKifEENS_4hashIiEENS_8equal_toIiEEEENS_21__unordered_map_equalIiS6_SA_S8_EENS_9allocatorIS6_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIifEENS_22__unordered_map_hasherIiNS_4pairIKifEENS_4hashIiEENS_8equal_toIiEEEENS_21__unordered_map_equalIiS6_SA_S8_EENS_9allocatorIS6_EEED2Ev
+- __ZNSt3__112__hash_tableIiNS_4hashIiEENS_8equal_toIiEENS_9allocatorIiEEE15__assign_uniqueIPKiEEvT_SB_
+- __ZNSt3__112__hash_tableIiNS_4hashIiEENS_8equal_toIiEENS_9allocatorIiEEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableIiNS_4hashIiEENS_8equal_toIiEENS_9allocatorIiEEEC2ERKS7_
+- __ZNSt3__112__hash_tableIiNS_4hashIiEENS_8equal_toIiEENS_9allocatorIiEEED2Ev
+- __ZNSt3__112__hash_tableIlNS_4hashIlEENS_8equal_toIlEENS_9allocatorIlEEEC2EOS7_
+- __ZNSt3__112__hash_tableIlNS_4hashIlEENS_8equal_toIlEENS_9allocatorIlEEED2Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7reserveEm
+- __ZNSt3__113unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_NS_4hashIS6_EENS_8equal_toIS6_EENS4_INS_4pairIKS6_S6_EEEEEC2ESt16initializer_listISD_E
+- __ZNSt3__113unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEfNS_4hashIS6_EENS_8equal_toIS6_EENS4_INS_4pairIKS6_fEEEEEC2ESt16initializer_listISD_E
+- __ZNSt3__113unordered_mapIiNS0_INS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEfNS_4hashIS6_EENS_8equal_toIS6_EENS4_INS_4pairIKS6_fEEEEEENS7_IiEENS9_IiEENS4_INSB_IKiSF_EEEEEC2ESt16initializer_listISJ_E
+- __ZNSt3__113unordered_setIiNS_4hashIiEENS_8equal_toIiEENS_9allocatorIiEEEC2ESt16initializer_listIiE
+- __ZNSt3__114__split_bufferI11PhTokenInfoRNS_9allocatorIS1_EEED2Ev
+- __ZNSt3__114__split_bufferI14PhLLMTokenInfoRNS_9allocatorIS1_EEED2Ev
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB9fqn220106Ev
+- __ZNSt3__116__if_likely_elseB9fqn220106IZNS_6vectorINS1_INS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS5_IS7_EEEENS5_IS9_EEE12emplace_backIJRKS9_EEERS9_DpOT_EUlvE_ZNSC_IJSE_EEESF_SI_EUlvE0_EEvbT_T0_
+- __ZNSt3__119__allocate_at_leastB9fqn220106INS_9allocatorI11PhTokenInfoEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9fqn220106INS_9allocatorI14PhLLMTokenInfoEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9fqn220106Ev
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED1Ev
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED2Ev
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEE13PRLLMParseCtxEEPvEEEEEclB9fqn220106EPSC_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEiEEPvEEEEEclB9fqn220106EPSB_
+- __ZNSt3__130__uninitialized_allocator_copyB9fqn220106INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEPKS6_S9_PS6_EET2_RT_T0_T1_SB_
+- __ZNSt3__130__uninitialized_allocator_copyB9fqn220106INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEPS6_S8_S8_EET2_RT_T0_T1_S9_
+- __ZNSt3__134__uninitialized_allocator_relocateB9fqn220106INS_9allocatorI11PhTokenInfoEEPS2_EEvRT_T0_S7_S7_
+- __ZNSt3__134__uninitialized_allocator_relocateB9fqn220106INS_9allocatorI14PhLLMTokenInfoEEPS2_EEvRT_T0_S7_S7_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_13unordered_setIS6_NS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEEEEC2B9fqn220106INS_25__check_pair_constructionIS7_SE_EELi0EEERS7_RKSE_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_13unordered_setIS6_NS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEEEED1Ev
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorIS6_NS4_IS6_EEEEED1Ev
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B9fqn220106IRA4_KcRA10_SA_Li0EEEOT_OT0_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B9fqn220106IRA4_KcRA7_SA_Li0EEEOT_OT0_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B9fqn220106IRA4_KcRA9_SA_Li0EEEOT_OT0_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B9fqn220106IRA5_KcRA10_SA_Li0EEEOT_OT0_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B9fqn220106IRA5_KcRA7_SA_Li0EEEOT_OT0_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B9fqn220106IRA5_KcRA8_SA_Li0EEEOT_OT0_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B9fqn220106IRA6_KcRA10_SA_Li0EEEOT_OT0_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B9fqn220106IRA6_KcRA7_SA_Li0EEEOT_OT0_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B9fqn220106IRA6_KcRA8_SA_Li0EEEOT_OT0_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B9fqn220106IRA6_KcSC_Li0EEEOT_OT0_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_ED1Ev
+- __ZNSt3__16vectorI11PhTokenInfoNS_9allocatorIS1_EEE16__destroy_vectorclB9fqn220106Ev
+- __ZNSt3__16vectorI11PhTokenInfoNS_9allocatorIS1_EEE20__throw_length_errorB9fqn220106Ev
+- __ZNSt3__16vectorI11PhTokenInfoNS_9allocatorIS1_EEE24__emplace_back_slow_pathIJRKS1_EEEPS1_DpOT_
+- __ZNSt3__16vectorI14PhLLMTokenInfoNS_9allocatorIS1_EEE16__destroy_vectorclB9fqn220106Ev
+- __ZNSt3__16vectorI14PhLLMTokenInfoNS_9allocatorIS1_EEE20__throw_length_errorB9fqn220106Ev
+- __ZNSt3__16vectorI14PhLLMTokenInfoNS_9allocatorIS1_EEE24__emplace_back_slow_pathIJRKS1_EEEPS1_DpOT_
+- __ZNSt3__16vectorI14PhLLMTokenInfoNS_9allocatorIS1_EEE9push_backB9fqn220106ERKS1_
+- __ZNSt3__16vectorI16MessageTokenInfoNS_9allocatorIS1_EEE20__throw_length_errorB9fqn220106Ev
+- __ZNSt3__16vectorI16MessageTokenInfoNS_9allocatorIS1_EEE24__emplace_back_slow_pathIJRKS1_EEEPS1_DpOT_
+- __ZNSt3__16vectorINS0_INS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEENS4_IS8_EEE16__destroy_vectorclB9fqn220106Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE13__vdeallocateEv
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE18__assign_with_sizeB9fqn220106INS_17_ClassicAlgPolicyEPKS6_SC_EEvT0_T1_l
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE11__vallocateB9fqn220106Em
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE18__assign_with_sizeB9fqn220106INS_17_ClassicAlgPolicyEPKiS7_EEvT0_T1_l
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE24__emplace_back_slow_pathIJRKiEEEPiDpOT_
+- __ZNSt3__16vectorIiNS_9allocatorIiEEEC2B9fqn220106ERKS3_
+- __ZNSt3__19allocatorI14PhLLMTokenInfoE7destroyB9fqn220106EPS1_
+- __ZSt9terminatev
+- __ZTTNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+- __ZTVNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+- __ZZ17llmDateAttributesRK13PRLLMParseCtxE14alarmOnceToken
+- __ZZ17llmDateAttributesRK13PRLLMParseCtxE14timerOnceToken
+- __ZZ17llmDateAttributesRK13PRLLMParseCtxE15_dateAttributes
+- __ZZ17llmDateAttributesRK13PRLLMParseCtxE32_dateAttributesForAlarmAppEntity
+- __ZZ17llmDateAttributesRK13PRLLMParseCtxE32_dateAttributesForTimerAppEntity
+- __ZZ17llmDateAttributesRK13PRLLMParseCtxE9onceToken
+- __ZZ24getWildCardAllowedFields14PRBundleIDTypeE2mu
+- __ZZ24getWildCardAllowedFields14PRBundleIDTypeE3ans
+- __ZZ25getRankingAttributeScoresP9PRContextE2mu
+- __ZZ25getRankingAttributeScoresP9PRContextE3ans
+- __ZZ30MailRankingNameAttributeScoresvE20_mailAttributeScores
+- __ZZ30MailRankingNameAttributeScoresvE9onceToken
+- __ZZ33getStemmingRankingAttributeScores14PRBundleIDTypeE2mu
+- __ZZ33getStemmingRankingAttributeScores14PRBundleIDTypeE3ans
+- __ZZ41+[PRQuerySynonymsProvider sharedInstance]E6shared
+- __ZZ41+[PRQuerySynonymsProvider sharedInstance]E9onceToken
+- __ZZL10getSynonymRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEE10synonymMap
+- __ZZL10getSynonymRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEE11emptyString
+- __ZZL11CurrentYearvE8currYear
+- __ZZL11CurrentYearvE9onceToken
+- __ZZL11KeywordArgsvE12_keywordArgs
+- __ZZL11KeywordArgsvE9onceToken
+- __ZZL12MetadataKeysvE13_metadataKeys
+- __ZZL12MetadataKeysvE9onceToken
+- __ZZL13OptionalWordsvE13optionalWords
+- __ZZL13OptionalWordsvE9onceToken
+- __ZZL13RelationWordsvE13relationWords
+- __ZZL13RelationWordsvE9onceToken
+- __ZZL13llmDateArgIdsvE11_dateArgIds
+- __ZZL13llmDateArgIdsvE9onceToken
+- __ZZL14PhThreeYearAgovE7oldYear
+- __ZZL14PhThreeYearAgovE9onceToken
+- __ZZL15llmPersonArgIdsvE13_personArgIds
+- __ZZL15llmPersonArgIdsvE9onceToken
+- __ZZL15peopleNameAliasRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEE12sEmptyString
+- __ZZL15peopleNameAliasRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEE9onceToken
+- __ZZL16PhotosAttributesvE17_photosAttributes
+- __ZZL16PhotosAttributesvE9onceToken
+- __ZZL17GenericFilterKeysvE18_genericFilterKeys
+- __ZZL17GenericFilterKeysvE9onceToken
+- __ZZL17emptySchemaVectorvE18_emptySchemaVector
+- __ZZL17emptySchemaVectorvE9onceToken
+- __ZZL17llmLocationArgIdsvE15_locationArgIds
+- __ZZL17llmLocationArgIdsvE9onceToken
+- __ZZL17llmOptionalArgIdsvE15_optionalArgIds
+- __ZZL17llmOptionalArgIdsvE9onceToken
+- __ZZL17llmTemporalArgIdsvE15_temporalArgIds
+- __ZZL17llmTemporalArgIdsvE9onceToken
+- __ZZL18PhRetrievalAttribsvE17_retrievalAttribs
+- __ZZL18PhRetrievalAttribsvE9onceToken
+- __ZZL18llmEventTypeArgIdsvE16_eventTypeArgIds
+- __ZZL18llmEventTypeArgIdsvE9onceToken
+- __ZZL19PhOCRRankingAttribsvE18_OCRRankingAttribs
+- __ZZL19PhOCRRankingAttribsvE9onceToken
+- __ZZL19bundleIdToSchemaMapvE20_bundleIdToSchemaMap
+- __ZZL19bundleIdToSchemaMapvE9onceToken
+- __ZZL19llmSourceTypeArgIdsvE17_sourceTypeArgIds
+- __ZZL19llmSourceTypeArgIdsvE9onceToken
+- __ZZL20llmPhotosEventArgIdsvE18_photosEventArgIds
+- __ZZL20llmPhotosEventArgIdsvE9onceToken
+- __ZZL20llmTopKRankingArgIdsvE18_topKRankingArgIds
+- __ZZL20llmTopKRankingArgIdsvE9onceToken
+- __ZZL22QueryParserLibraryCorePPcE16frameworkLibrary
+- __ZZL22llmAppEntityTypeArgIdsvE20_appEntityTypeArgIds
+- __ZZL22llmAppEntityTypeArgIdsvE9onceToken
+- __ZZL22llmPhotosIgnoredArgIdsvE20_photosIgnoredArgIds
+- __ZZL22llmPhotosIgnoredArgIdsvE9onceToken
+- __ZZL22llmTextEventTypeArgIdsvE20_textEventTypeArgIds
+- __ZZL22llmTextEventTypeArgIdsvE9onceToken
+- __ZZL23PhCommonPeopleNameAliasvE16_peopleNameAlias
+- __ZZL23PhCommonPeopleNameAliasvE9onceToken
+- __ZZL23llmEntityBoostingArgIdsvE21_entityBoostingArgIds
+- __ZZL23llmEntityBoostingArgIdsvE9onceToken
+- __ZZL24HomeIndexAttributeScoresvE25_homeIndexAttributeScores
+- __ZZL24HomeIndexAttributeScoresvE9onceToken
+- __ZZL24llmOptionalizationArgIdsvE22_optionalizationArgIds
+- __ZZL24llmOptionalizationArgIdsvE9onceToken
+- __ZZL24llmRetrievalFilterArgIdsvE22_retrievalFilterArgIds
+- __ZZL24llmRetrievalFilterArgIdsvE9onceToken
+- __ZZL25GenericFilterTopLevelKeysvE26_genericFilterTopLevelKeys
+- __ZZL25GenericFilterTopLevelKeysvE9onceToken
+- __ZZL25MailWildCardAllowedFieldsvE26_mailWildCardAllowedFields
+- __ZZL25MailWildCardAllowedFieldsvE9onceToken
+- __ZZL25PhSpanMatchRankingAttribsvE19_phSpanMatchAttribs
+- __ZZL25PhSpanMatchRankingAttribsvE9onceToken
+- __ZZL25llmMDSAppEntityTypeArgIdsvE23_mdsAppEntityTypeArgIds
+- __ZZL25llmMDSAppEntityTypeArgIdsvE9onceToken
+- __ZZL25llmPhotosSourceTypeArgIdsvE23_photosSourceTypeArgIds
+- __ZZL25llmPhotosSourceTypeArgIdsvE9onceToken
+- __ZZL26HomeRankingAttributeScoresvE20_homeAttributeScores
+- __ZZL26HomeRankingAttributeScoresvE9onceToken
+- __ZZL26MailRankingAttributeScoresvE20_mailAttributeScores
+- __ZZL26MailRankingAttributeScoresvE9onceToken
+- __ZZL26PhExactMatchRankingAttribsvE27_phExactMatchRankingAttribs
+- __ZZL26PhExactMatchRankingAttribsvE9onceToken
+- __ZZL26SSSemanticSearchMD8EnabledvE8ffStatus
+- __ZZL26SSSemanticSearchMD8EnabledvE9onceToken
+- __ZZL26SafariIndexAttributeScoresvE27_safariIndexAttributeScores
+- __ZZL26SafariIndexAttributeScoresvE9onceToken
+- __ZZL27DefaultIndexAttributeScoresvE21_indexAttributeScores
+- __ZZL27DefaultIndexAttributeScoresvE9onceToken
+- __ZZL27FilesRankingAttributeScoresvE21_filesAttributeScores
+- __ZZL27FilesRankingAttributeScoresvE9onceToken
+- __ZZL27NotesRankingAttributeScoresvE21_notesAttributeScores
+- __ZZL27NotesRankingAttributeScoresvE9onceToken
+- __ZZL27PhPrefixMatchRankingAttribsvE21_phPrefixMatchAttribs
+- __ZZL27PhPrefixMatchRankingAttribsvE9onceToken
+- __ZZL27llmPhotosIgnoredSearchTermsvE28_llmPhotosIgnoredSearchTerms
+- __ZZL27llmPhotosIgnoredSearchTermsvE9onceToken
+- __ZZL28ContactsIndexAttributeScoresvE29_contactsIndexAttributeScores
+- __ZZL28ContactsIndexAttributeScoresvE9onceToken
+- __ZZL28NanoSecondsSinceAbsoluteTimeyE13sTimebaseInfo
+- __ZZL28NanoSecondsSinceAbsoluteTimeyE9onceToken
+- __ZZL28PhSpanMatchLLMRankingAttribsvE19_phSpanMatchAttribs
+- __ZZL28PhSpanMatchLLMRankingAttribsvE9onceToken
+- __ZZL28SafariRankingAttributeScoresvE22_safariAttributeScores
+- __ZZL28SafariRankingAttributeScoresvE9onceToken
+- __ZZL28SettingsIndexAttributeScoresvE29_settingsIndexAttributeScores
+- __ZZL28SettingsIndexAttributeScoresvE9onceToken
+- __ZZL28WalletRankingAttributeScoresvE21_filesAttributeScores
+- __ZZL28WalletRankingAttributeScoresvE9onceToken
+- __ZZL28llmPhotosAppEntityTypeArgIdsvE26_photosAppEntityTypeArgIds
+- __ZZL28llmPhotosAppEntityTypeArgIdsvE9onceToken
+- __ZZL29SpotlightU2AttributesToArgIDsvE30_spotlightU2AttributesToArgIDs
+- __ZZL29SpotlightU2AttributesToArgIDsvE9onceToken
+- __ZZL29llmDenseRetrievalFilterArgIdsvE27_denseRetrievalFilterArgIds
+- __ZZL29llmDenseRetrievalFilterArgIdsvE9onceToken
+- __ZZL29llmSearchTermSuffixesToRemovevE27_searchTermSuffixesToRemove
+- __ZZL29llmSearchTermSuffixesToRemovevE9onceToken
+- __ZZL30CalendarRankingAttributeScoresvE24_calendarAttributeScores
+- __ZZL30CalendarRankingAttributeScoresvE9onceToken
+- __ZZL30MessagesRankingAttributeScoresvE24_messagesAttributeScores
+- __ZZL30MessagesRankingAttributeScoresvE9onceToken
+- __ZZL30PhPrefixMatchLLMRankingAttribsvE24_phPrefixMatchLLMAttribs
+- __ZZL30PhPrefixMatchLLMRankingAttribsvE9onceToken
+- __ZZL30SettingsRankingAttributeScoresvE24_settingsAttributeScores
+- __ZZL30SettingsRankingAttributeScoresvE9onceToken
+- __ZZL30llmInferredAppEntityTypeArgIdsvE28_inferredAppEntityTypeArgIds
+- __ZZL30llmInferredAppEntityTypeArgIdsvE9onceToken
+- __ZZL31RemindersRankingAttributeScoresvE25_remindersAttributeScores
+- __ZZL31RemindersRankingAttributeScoresvE9onceToken
+- __ZZL31getkQPQUOutputLemmaKeySymbolLocvE3ptr
+- __ZZL31getkQPQUOutputTokenKeySymbolLocvE3ptr
+- __ZZL31llmIgnoredAppEntityStatusArgIdsvE29_ignoredAppEntityStatusArgIds
+- __ZZL31llmIgnoredAppEntityStatusArgIdsvE9onceToken
+- __ZZL32SearchToolRankingAttributeScoresvE26_searchToolAttributeScores
+- __ZZL32SearchToolRankingAttributeScoresvE9onceToken
+- __ZZL35getkQPQUOutputSpanTypesKeySymbolLocvE3ptr
+- __ZZL35getkQPQUOutputTokenInfoKeySymbolLocvE3ptr
+- __ZZL35llmOptionalizationForAdditionArgIdsvE33_optionalizationForAdditionArgIds
+- __ZZL35llmOptionalizationForAdditionArgIdsvE9onceToken
+- __ZZL35llmSearchTermPhotosSuffixesToRemovevE33_searchTermPhotosSuffixesToRemove
+- __ZZL35llmSearchTermPhotosSuffixesToRemovevE9onceToken
+- __ZZL36getkQPParseAttributeDateKeySymbolLocvE3ptr
+- __ZZL36getkQPParseAttributeKindKeySymbolLocvE3ptr
+- __ZZL36getkQPParseAttributeReadKeySymbolLocvE3ptr
+- __ZZL36getkQPParseAttributeSentKeySymbolLocvE3ptr
+- __ZZL36getkQPQUOutputTokenRangeKeySymbolLocvE3ptr
+- __ZZL37DefaultSearchToolIndexAttributeScoresvE21_indexAttributeScores
+- __ZZL37DefaultSearchToolIndexAttributeScoresvE9onceToken
+- __ZZL37PhPreExtractionMatchLLMRankingAttribsvE28_phPreExtractionMatchAttribs
+- __ZZL37PhPreExtractionMatchLLMRankingAttribsvE9onceToken
+- __ZZL37getkQPParseAttributeMediaKeySymbolLocvE3ptr
+- __ZZL37getkQPQUOutputTokenArgIdsKeySymbolLocvE3ptr
+- __ZZL37getkQPQUOutputTokenIsSelfKeySymbolLocvE3ptr
+- __ZZL37llmSearchTermCalendarOneOnOneToRemovevE35_searchTermCalendarOneOnOneToRemove
+- __ZZL37llmSearchTermCalendarOneOnOneToRemovevE9onceToken
+- __ZZL37llmSearchTermCalendarSuffixesToRemovevE35_searchTermCalendarSuffixesToRemove
+- __ZZL37llmSearchTermCalendarSuffixesToRemovevE9onceToken
+- __ZZL37llmSearchTermPartySearchTermsToRemovevE35_searchTermPartySearchTermsToRemove
+- __ZZL37llmSearchTermPartySearchTermsToRemovevE9onceToken
+- __ZZL38getkQPParseAttributePersonKeySymbolLocvE3ptr
+- __ZZL38getkQPParseAttributeSenderKeySymbolLocvE3ptr
+- __ZZL38getkQPParseAttributeSharedKeySymbolLocvE3ptr
+- __ZZL38getkQPParseAttributeTaggedKeySymbolLocvE3ptr
+- __ZZL38getkQPParseAttributeUnreadKeySymbolLocvE3ptr
+- __ZZL38getkQPQUOutputTokenRawTextKeySymbolLocvE3ptr
+- __ZZL39getkQPParseAttributeFlaggedKeySymbolLocvE3ptr
+- __ZZL39getkQPParseAttributeRepliedKeySymbolLocvE3ptr
+- __ZZL40getkQPParseAttributeReceivedKeySymbolLocvE3ptr
+- __ZZL40getkQPParseAttributeTagColorKeySymbolLocvE3ptr
+- __ZZL40getkQPQUOutputECRGroundNamesKeySymbolLocvE3ptr
+- __ZZL40getkQPQUOutputTokenArgScoresKeySymbolLocvE3ptr
+- __ZZL40llmPhotosAndNonPhotosAppEntityTypeArgIdsvE38_photosAndNonPhotosAppEntityTypeArgIds
+- __ZZL40llmPhotosAndNonPhotosAppEntityTypeArgIdsvE9onceToken
+- __ZZL41getkQPParseAttributeDueActionKeySymbolLocvE3ptr
+- __ZZL41getkQPParseAttributeFavoritedKeySymbolLocvE3ptr
+- __ZZL41getkQPParseAttributeFlagColorKeySymbolLocvE3ptr
+- __ZZL41getkQPParseAttributeHotelNameKeySymbolLocvE3ptr
+- __ZZL41getkQPParseAttributeRecipientKeySymbolLocvE3ptr
+- __ZZL41llmTextEventTypeArgIdsWithSearchExpansionvE16_eventTypeArgIds
+- __ZZL41llmTextEventTypeArgIdsWithSearchExpansionvE9onceToken
+- __ZZL42getkQPParseAttributeAttachmentKeySymbolLocvE3ptr
+- __ZZL42getkQPParseAttributeJunkActionKeySymbolLocvE3ptr
+- __ZZL42getkQPQUOutputRawTextTokenizedKeySymbolLocvE3ptr
+- __ZZL42llmDenseRetrievalConditionalFilterArgIdMapvE13_retrievalMap
+- __ZZL42llmDenseRetrievalConditionalFilterArgIdMapvE9onceToken
+- __ZZL43ImageAndVideoFilesInMacIndexAttributeScoresvE44_imageAndVideoFilesInMacIndexAttributeScores
+- __ZZL43ImageAndVideoFilesInMacIndexAttributeScoresvE9onceToken
+- __ZZL43getkQPParseAttributeDescriptionKeySymbolLocvE3ptr
+- __ZZL43getkQPParseAttributeDraftActionKeySymbolLocvE3ptr
+- __ZZL43getkQPParseAttributeHotelActionKeySymbolLocvE3ptr
+- __ZZL43llmSparseRetrievalConditionalFilterArgIdMapvE13_retrievalMap
+- __ZZL43llmSparseRetrievalConditionalFilterArgIdMapvE9onceToken
+- __ZZL44getkQPParseAttributeFlightActionKeySymbolLocvE3ptr
+- __ZZL44getkQPParseAttributeLatestActionKeySymbolLocvE3ptr
+- __ZZL44getkQPParseAttributeTaggedPersonKeySymbolLocvE3ptr
+- __ZZL44getkQPQUOutputTokenPhraseWeightsKeySymbolLocvE3ptr
+- __ZZL44getkQPQueryParserOptionU2EnabledKeySymbolLocvE3ptr
+- __ZZL44llmBundleSpecificFilterAppEntityStatusArgIdsvE42_bundleSpecificFilterAppEntityStatusArgIds
+- __ZZL44llmBundleSpecificFilterAppEntityStatusArgIdsvE9onceToken
+- __ZZL45getkQPParseAttributeAirdropActionKeySymbolLocvE3ptr
+- __ZZL45getkQPParseAttributeArchiveActionKeySymbolLocvE3ptr
+- __ZZL45getkQPParseAttributeCreatedActionKeySymbolLocvE3ptr
+- __ZZL45getkQPParseAttributeFlightCarrierKeySymbolLocvE3ptr
+- __ZZL45getkQPParseAttributeHotelProviderKeySymbolLocvE3ptr
+- __ZZL45getkQPParseAttributePrintedActionKeySymbolLocvE3ptr
+- __ZZL45getkQPParseAttributeTwitterActionKeySymbolLocvE3ptr
+- __ZZL45getkQPQUOutputECRGroundNamesTokenKeySymbolLocvE3ptr
+- __ZZL45getkQPQUOutputTokenIsRelativeTimeKeySymbolLocvE3ptr
+- __ZZL46getkQPParseAttributeAttachmentKindKeySymbolLocvE3ptr
+- __ZZL46getkQPParseAttributeEarliestActionKeySymbolLocvE3ptr
+- __ZZL46getkQPParseAttributeFacebookActionKeySymbolLocvE3ptr
+- __ZZL46getkQPParseAttributeFlightLocationKeySymbolLocvE3ptr
+- __ZZL46getkQPParseAttributeGroundedPersonKeySymbolLocvE3ptr
+- __ZZL46getkQPParseAttributeModifiedActionKeySymbolLocvE3ptr
+- __ZZL46getkQPParseAttributeRestaurantNameKeySymbolLocvE3ptr
+- __ZZL46getkQPQueryParserOptionUseLLMParseKeySymbolLocvE3ptr
+- __ZZL47getkQPParseAttributeCompletedActionKeySymbolLocvE3ptr
+- __ZZL47getkQPParseAttributeTransportActionKeySymbolLocvE3ptr
+- __ZZL47getkQPQUOutputTokenAttributeIndexesKeySymbolLocvE3ptr
+- __ZZL48getkQPParseAttributeDownloadedActionKeySymbolLocvE3ptr
+- __ZZL48getkQPParseAttributeRestaurantActionKeySymbolLocvE3ptr
+- __ZZL48getkQPQUOutputECRGroundNamesRelationKeySymbolLocvE3ptr
+- __ZZL49getkQPParseAttributeReadingListActionKeySymbolLocvE3ptr
+- __ZZL50getkQPParseAttributeRankingDescriptionKeySymbolLocvE3ptr
+- __ZZL53getkQPParseAttributeFlightArrivalLocationKeySymbolLocvE3ptr
+- __ZZL53getkQPQUOutputECRGroundNamesTokenRelationKeySymbolLocvE3ptr
+- __ZZL55getkQPParseAttributeFlightDepartureLocationKeySymbolLocvE3ptr
+- __ZZL9StopWordsvE10_stopWords
+- __ZZL9StopWordsvE9onceToken
+- __ZZNSt3__112__hash_tableINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEE16__emplace_uniqueB9fqn220106IJRKS6_EEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS6_PvEEEEbEEDpOT_ENKUlSF_SF_E_clESF_SF_
+- __ZZNSt3__112__hash_tableINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEE16__emplace_uniqueB9fqn220106IJS6_EEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS6_PvEEEEbEEDpOT_ENKUlRKS6_OS6_E_clESQ_SR_
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE13PRLLMParseCtxEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S8_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SD_SH_SF_EENS5_ISD_EEE16__emplace_uniqueB9fqn220106IJRKNS_21piecewise_construct_tENS_5tupleIJOS7_EEENSR_IJOS8_EEEEEENSB_INS_15__hash_iteratorIPNS_11__hash_nodeIS9_PvEEEEbEEDpOT_ENKUlRSC_SQ_OST_OSV_E_clES16_SQ_S17_S18_
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorIS7_NS5_IS7_EEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SF_SJ_SH_EENS5_ISF_EEE16__emplace_uniqueB9fqn220106IJRKNS_21piecewise_construct_tENS_5tupleIJOS7_EEENST_IJEEEEEENSD_INS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEEDpOT_ENKUlRSE_SS_OSV_OSW_E_clES17_SS_S18_S19_
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorIiNS5_IiEEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SF_SJ_SH_EENS5_ISF_EEE16__emplace_uniqueB9fqn220106IJRKNS_21piecewise_construct_tENS_5tupleIJOS7_EEENST_IJEEEEEENSD_INS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEEDpOT_ENKUlRSE_SS_OSV_OSW_E_clES17_SS_S18_S19_
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE16__emplace_uniqueB9fqn220106IJRKSC_EEENSA_INS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEEbEEDpOT_ENKUlRSB_SO_E_clESZ_SO_
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEfEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_fEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE16__emplace_uniqueB9fqn220106IJRKNS_21piecewise_construct_tENS_5tupleIJOS7_EEENSQ_IJEEEEEENSA_INS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEEbEEDpOT_ENKUlRSB_SP_OSS_OST_E_clES14_SP_S15_S16_
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEiEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_iEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE16__emplace_uniqueB9fqn220106IJRKNS_21piecewise_construct_tENS_5tupleIJOS7_EEENSQ_IJEEEEEENSA_INS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEEbEEDpOT_ENKUlRSB_SP_OSS_OST_E_clES14_SP_S15_S16_
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEiEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_iEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE16__emplace_uniqueB9fqn220106IJRKNS_21piecewise_construct_tENS_5tupleIJRSB_EEENSQ_IJEEEEEENSA_INS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEEbEEDpOT_ENKUlSR_SP_OSS_OST_E_clESR_SP_S14_S15_
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeIi13PhRankingInfoEENS_22__unordered_map_hasherIiNS_4pairIKiS2_EENS_4hashIiEENS_8equal_toIiEEEENS_21__unordered_map_equalIiS7_SB_S9_EENS_9allocatorIS7_EEE16__emplace_uniqueB9fqn220106IJRKNS_21piecewise_construct_tENS_5tupleIJRS6_EEENSM_IJEEEEEENS5_INS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEEbEEDpOT_ENKUlSN_SL_OSO_OSP_E_clESN_SL_S10_S11_
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeIiNS_13unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_13unordered_setIS8_NS_4hashIS8_EENS_8equal_toIS8_EENS6_IS8_EEEESB_SD_NS6_INS_4pairIKS8_SF_EEEEEEEENS_22__unordered_map_hasherIiNSG_IKiSK_EENSA_IiEENSC_IiEEEENS_21__unordered_map_equalIiSO_SQ_SP_EENS6_ISO_EEE16__emplace_uniqueB9fqn220106IJRKNS_21piecewise_construct_tENS_5tupleIJOiEEENS10_IJEEEEEENSG_INS_15__hash_iteratorIPNS_11__hash_nodeISL_PvEEEEbEEDpOT_ENKUlRSN_SZ_OS12_OS13_E_clES1E_SZ_S1F_S1G_
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeIiNS_13unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_13unordered_setIS8_NS_4hashIS8_EENS_8equal_toIS8_EENS6_IS8_EEEESB_SD_NS6_INS_4pairIKS8_SF_EEEEEEEENS_22__unordered_map_hasherIiNSG_IKiSK_EENSA_IiEENSC_IiEEEENS_21__unordered_map_equalIiSO_SQ_SP_EENS6_ISO_EEE16__emplace_uniqueB9fqn220106IJRKNS_21piecewise_construct_tENS_5tupleIJRSN_EEENS10_IJEEEEEENSG_INS_15__hash_iteratorIPNS_11__hash_nodeISL_PvEEEEbEEDpOT_ENKUlS11_SZ_OS12_OS13_E_clES11_SZ_S1E_S1F_
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeIiNS_13unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEfNS_4hashIS8_EENS_8equal_toIS8_EENS6_INS_4pairIKS8_fEEEEEEEENS_22__unordered_map_hasherIiNSD_IKiSH_EENS9_IiEENSB_IiEEEENS_21__unordered_map_equalIiSL_SN_SM_EENS6_ISL_EEE16__emplace_uniqueB9fqn220106IJRKNS_21piecewise_construct_tENS_5tupleIJRSK_EEENSX_IJEEEEEENSD_INS_15__hash_iteratorIPNS_11__hash_nodeISI_PvEEEEbEEDpOT_ENKUlSY_SW_OSZ_OS10_E_clESY_SW_S1B_S1C_
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeIifEENS_22__unordered_map_hasherIiNS_4pairIKifEENS_4hashIiEENS_8equal_toIiEEEENS_21__unordered_map_equalIiS6_SA_S8_EENS_9allocatorIS6_EEE16__emplace_uniqueB9fqn220106IJRKNS_21piecewise_construct_tENS_5tupleIJRS5_EEENSL_IJEEEEEENS4_INS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEEDpOT_ENKUlSM_SK_OSN_OSO_E_clESM_SK_SZ_S10_
+- __ZZNSt3__112__hash_tableIiNS_4hashIiEENS_8equal_toIiEENS_9allocatorIiEEE16__emplace_uniqueB9fqn220106IJRKiEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIiPvEEEEbEEDpOT_ENKUlSA_SA_E_clESA_SA_
+- __ZZNSt3__112__hash_tableIlNS_4hashIlEENS_8equal_toIlEENS_9allocatorIlEEE16__emplace_uniqueB9fqn220106IJRKlEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIlPvEEEEbEEDpOT_ENKUlSA_SA_E_clESA_SA_
+- ___41+[PRQuerySynonymsProvider sharedInstance]_block_invoke
+- ___45-[PRAstLanguageProfile initWithLanguageCode:]_block_invoke
+- ___64-[PRAstBuilder extractQUFiltersAndLabelsFromQueryUnderstanding:]_block_invoke
+- ___MDUnicodeConverterFinalize
+- ___MDUnicodeConverterGetTypeID_block_invoke
+- ___MDUnicodeConverterInit
+- ___NSArray0__struct
+- ___PRDefaultsMatchFilenameAsSuffix_block_invoke
+- ____Z14llmRankingNodePKcff_block_invoke
+- ____Z14llmRankingTreeP9PRContextRK13PRLLMParseCtxPKc_block_invoke
+- ____Z17llmDateAttributesRK13PRLLMParseCtx_block_invoke
+- ____Z17llmDateAttributesRK13PRLLMParseCtx_block_invoke_2
+- ____Z17llmDateAttributesRK13PRLLMParseCtx_block_invoke_3
+- ____Z19logAttributedStringyPKcS0_P8NSStringP18NSAttributedStringPK9__CFArray_block_invoke
+- ____Z22getLLMTokenDescriptioni8_NSRangeP18NSAttributedStringb_block_invoke
+- ____Z26groundedNamesRetrievalNodePK14__CFDictionaryxRKNSt3__113unordered_mapINS2_12basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEfNS2_4hashIS9_EENS2_8equal_toIS9_EENS7_INS2_4pairIKS9_fEEEEEEP8NSStringP9PRContextb_block_invoke
+- ____Z27llmV2RankingDescriptionNodePKcPNSt3__113unordered_mapINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEfNS1_4hashIS8_EENS1_8equal_toIS8_EENS6_INS1_4pairIKS8_fEEEEEEf_block_invoke
+- ____Z27makeNodeFromFilterConditionPKcb_block_invoke
+- ____Z27replaceTokenInRetrievalNodePKcS0_S0_P8NSStringP9PRContext_block_invoke
+- ____Z30MailRankingNameAttributeScoresv_block_invoke
+- ____Z30makeRankingNodeFromQueryStringPKcff_block_invoke
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_10
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_11
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_12
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_13
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_14
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_15
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_16
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_17
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_18
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_19
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_2
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_20
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_21
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_22
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_23
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_24
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_25
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_26
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_27
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_28
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_29
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_3
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_30
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_31
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_32
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_33
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_34
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_35
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_36
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_37
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_38
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_39
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_4
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_40
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_41
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_42
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_43
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_44
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_45
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_46
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_47
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_5
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_6
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_7
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_8
+- ____Z31populateU2LabelsAndDescriptionsPiRNSt3__113unordered_mapIifNS0_4hashIiEENS0_8equal_toIiEENS0_9allocatorINS0_4pairIKifEEEEEEPK14__CFDictionaryP18NSAttributedString_block_invoke_9
+- ____Z32makeRetrievalNodeFromQueryStringPKc_block_invoke
+- ____Z36llmV2RetrievalDescriptionRankingNodePKcffRKNSt3__113unordered_setINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS1_4hashIS8_EENS1_8equal_toIS8_EENS6_IS8_EEEE_block_invoke
+- ____Z36llmV2RetrievalDescriptionRankingNodePKcffRKNSt3__113unordered_setINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS1_4hashIS8_EENS1_8equal_toIS8_EENS6_IS8_EEEE_block_invoke_2
+- ____Z36llmV2RetrievalDescriptionRankingNodePKcffRKNSt3__113unordered_setINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS1_4hashIS8_EENS1_8equal_toIS8_EENS6_IS8_EEEE_block_invoke_3
+- ____Z40makeNonMatchRetrievalNodeFromQueryStringPKc_block_invoke
+- ____Z41adjustFilterWeightsForEmptyLLMRankingTreeP10query_node_block_invoke
+- ____Z41adjustFilterWeightsForEmptyLLMRankingTreeP10query_node_block_invoke_2
+- ____Z41adjustFilterWeightsForEmptyLLMRankingTreeP10query_node_block_invoke_3
+- ____Z42makeNonMatchRetrievalNodeFromORQueryStringPKc_block_invoke
+- ____ZL11CurrentYearv_block_invoke
+- ____ZL11KeywordArgsv_block_invoke
+- ____ZL12MetadataKeysv_block_invoke
+- ____ZL13OptionalWordsv_block_invoke
+- ____ZL13QURankingNodePKcRKNSt3__113unordered_mapIifNS1_4hashIiEENS1_8equal_toIiEENS1_9allocatorINS1_4pairIKifEEEEEEffRKNS2_INS1_12basic_stringIcNS1_11char_traitsIcEENS7_IcEEEEfNS3_ISJ_EENS5_ISJ_EENS7_INS8_IKSJ_fEEEEEE_block_invoke
+- ____ZL13RelationWordsv_block_invoke
+- ____ZL13llmDateArgIdsv_block_invoke
+- ____ZL14PhThreeYearAgov_block_invoke
+- ____ZL15llmPersonArgIdsv_block_invoke
+- ____ZL15peopleNameAliasRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE_block_invoke
+- ____ZL16PhotosAttributesv_block_invoke
+- ____ZL17GenericFilterKeysv_block_invoke
+- ____ZL17emptySchemaVectorv_block_invoke
+- ____ZL17llmLocationArgIdsv_block_invoke
+- ____ZL17llmOptionalArgIdsv_block_invoke
+- ____ZL17llmTemporalArgIdsv_block_invoke
+- ____ZL17pommesRankingTreeP10query_nodeP9PRContext_block_invoke
+- ____ZL18MessageNodeFromStrP9PRContextPKcf_block_invoke
+- ____ZL18PhRetrievalAttribsv_block_invoke
+- ____ZL18llmEventTypeArgIdsv_block_invoke
+- ____ZL19PhOCRRankingAttribsv_block_invoke
+- ____ZL19bundleIdToSchemaMapv_block_invoke
+- ____ZL19convertQPFilterNodeP17PRAstQPFilterNodeP9PRContext_block_invoke
+- ____ZL19llmSourceTypeArgIdsv_block_invoke
+- ____ZL19pommesRetrievalTreeP10query_nodeP9PRContext_block_invoke
+- ____ZL20PhRankingTreeFromStrPKcfPi_block_invoke
+- ____ZL20PhotosLLMRankingTreePK10__CFStringPK20__CFAttributedStringPK14__CFDictionaryP9PRContextP8NSString_block_invoke
+- ____ZL20llmPhotosEventArgIdsv_block_invoke
+- ____ZL20llmTopKRankingArgIdsv_block_invoke
+- ____ZL22QueryParserLibraryCorePPc_block_invoke
+- ____ZL22llmAppEntityTypeArgIdsv_block_invoke
+- ____ZL22llmPhotosIgnoredArgIdsv_block_invoke
+- ____ZL22llmTextEventTypeArgIdsv_block_invoke
+- ____ZL23PhCommonPeopleNameAliasv_block_invoke
+- ____ZL23llmEntityBoostingArgIdsv_block_invoke
+- ____ZL24HomeIndexAttributeScoresv_block_invoke
+- ____ZL24PhRankingTreeFromQPParsePK10__CFStringP10query_nodeP18NSAttributedStringP7NSArrayIP7NSValueEP14NSCharacterSetyP8NSString_block_invoke
+- ____ZL24PhRankingTreeFromU2ParsePK14__CFDictionaryP10query_nodeP7NSArrayIP7NSValueEP14NSCharacterSetyP8NSString_block_invoke
+- ____ZL24llmOptionalizationArgIdsv_block_invoke
+- ____ZL24llmRetrievalFilterArgIdsv_block_invoke
+- ____ZL25GenericFilterTopLevelKeysv_block_invoke
+- ____ZL25MailWildCardAllowedFieldsv_block_invoke
+- ____ZL25PhRankingTreeFromLLMParsePK14__CFDictionaryP7NSArrayIP7NSValueEP14NSCharacterSetP8NSString_block_invoke
+- ____ZL25PhSpanMatchRankingAttribsv_block_invoke
+- ____ZL25llmMDSAppEntityTypeArgIdsv_block_invoke
+- ____ZL25llmPhotosSourceTypeArgIdsv_block_invoke
+- ____ZL26HomeRankingAttributeScoresv_block_invoke
+- ____ZL26MailRankingAttributeScoresv_block_invoke
+- ____ZL26PhExactMatchRankingAttribsv_block_invoke
+- ____ZL26PhPopulateFiltersFromQueryPK20__CFAttributedStringPP10query_nodeS4_P14NSMutableArrayIP7NSValueES9_bP8NSStringb_block_invoke
+- ____ZL26PhPopulateFiltersFromQueryPK20__CFAttributedStringPP10query_nodeS4_P14NSMutableArrayIP7NSValueES9_bP8NSStringb_block_invoke_2
+- ____ZL26PhPopulateFiltersFromQueryPK20__CFAttributedStringPP10query_nodeS4_P14NSMutableArrayIP7NSValueES9_by_block_invoke
+- ____ZL26PhPopulateFiltersFromQueryPK20__CFAttributedStringPP10query_nodeS4_P14NSMutableArrayIP7NSValueES9_by_block_invoke_2
+- ____ZL26SSSemanticSearchMD8Enabledv_block_invoke
+- ____ZL26SafariIndexAttributeScoresv_block_invoke
+- ____ZL27DefaultIndexAttributeScoresv_block_invoke
+- ____ZL27FilesRankingAttributeScoresv_block_invoke
+- ____ZL27NotesRankingAttributeScoresv_block_invoke
+- ____ZL27PhPrefixMatchRankingAttribsv_block_invoke
+- ____ZL27llmPhotosIgnoredSearchTermsv_block_invoke
+- ____ZL28ContactsIndexAttributeScoresv_block_invoke
+- ____ZL28NanoSecondsSinceAbsoluteTimey_block_invoke
+- ____ZL28PhPopulateAllFilterFromParseP18NSAttributedStringP14NSMutableArrayIP8NSStringEPS1_IP7NSValueES9_S9_S9__block_invoke
+- ____ZL28PhSpanMatchLLMRankingAttribsv_block_invoke
+- ____ZL28SafariRankingAttributeScoresv_block_invoke
+- ____ZL28SettingsIndexAttributeScoresv_block_invoke
+- ____ZL28WalletRankingAttributeScoresv_block_invoke
+- ____ZL28llmPhotosAppEntityTypeArgIdsv_block_invoke
+- ____ZL29PhPopulateDateFilterFromParseP18NSAttributedStringP14NSMutableArrayIP8NSStringEPS1_IP7NSValueE_block_invoke
+- ____ZL29SpotlightU2AttributesToArgIDsv_block_invoke
+- ____ZL29llmDenseRetrievalFilterArgIdsv_block_invoke
+- ____ZL29llmSearchTermSuffixesToRemovev_block_invoke
+- ____ZL30CalendarRankingAttributeScoresv_block_invoke
+- ____ZL30MessagesRankingAttributeScoresv_block_invoke
+- ____ZL30PhPopulateSomeFiltersFromParseP18NSAttributedStringP14NSMutableArrayIP8NSStringEPS1_IP7NSValueES5_S9__block_invoke
+- ____ZL30PhPrefixMatchLLMRankingAttribsv_block_invoke
+- ____ZL30SettingsRankingAttributeScoresv_block_invoke
+- ____ZL30llmInferredAppEntityTypeArgIdsv_block_invoke
+- ____ZL31MessagePopulateFiltersFromParsePK14__CFDictionaryP14NSMutableArrayIP8NSStringEPS2_IP7NSValueES4__block_invoke
+- ____ZL31RemindersRankingAttributeScoresv_block_invoke
+- ____ZL31getkQPQUOutputLemmaKeySymbolLocv_block_invoke
+- ____ZL31getkQPQUOutputTokenKeySymbolLocv_block_invoke
+- ____ZL31llmIgnoredAppEntityStatusArgIdsv_block_invoke
+- ____ZL32HomePopulateTimeFiltersFromParseP18NSAttributedStringP14NSMutableArrayIP8NSStringE_block_invoke
+- ____ZL32SearchToolRankingAttributeScoresv_block_invoke
+- ____ZL35getkQPQUOutputSpanTypesKeySymbolLocv_block_invoke
+- ____ZL35getkQPQUOutputTokenInfoKeySymbolLocv_block_invoke
+- ____ZL35llmOptionalizationForAdditionArgIdsv_block_invoke
+- ____ZL35llmSearchTermPhotosSuffixesToRemovev_block_invoke
+- ____ZL36getkQPParseAttributeDateKeySymbolLocv_block_invoke
+- ____ZL36getkQPParseAttributeKindKeySymbolLocv_block_invoke
+- ____ZL36getkQPParseAttributeReadKeySymbolLocv_block_invoke
+- ____ZL36getkQPParseAttributeSentKeySymbolLocv_block_invoke
+- ____ZL36getkQPQUOutputTokenRangeKeySymbolLocv_block_invoke
+- ____ZL37DefaultSearchToolIndexAttributeScoresv_block_invoke
+- ____ZL37PhPreExtractionMatchLLMRankingAttribsv_block_invoke
+- ____ZL37getkQPParseAttributeMediaKeySymbolLocv_block_invoke
+- ____ZL37getkQPQUOutputTokenArgIdsKeySymbolLocv_block_invoke
+- ____ZL37getkQPQUOutputTokenIsSelfKeySymbolLocv_block_invoke
+- ____ZL37llmSearchTermCalendarOneOnOneToRemovev_block_invoke
+- ____ZL37llmSearchTermCalendarSuffixesToRemovev_block_invoke
+- ____ZL37llmSearchTermPartySearchTermsToRemovev_block_invoke
+- ____ZL38getkQPParseAttributePersonKeySymbolLocv_block_invoke
+- ____ZL38getkQPParseAttributeSenderKeySymbolLocv_block_invoke
+- ____ZL38getkQPParseAttributeSharedKeySymbolLocv_block_invoke
+- ____ZL38getkQPParseAttributeTaggedKeySymbolLocv_block_invoke
+- ____ZL38getkQPParseAttributeUnreadKeySymbolLocv_block_invoke
+- ____ZL38getkQPQUOutputTokenRawTextKeySymbolLocv_block_invoke
+- ____ZL39getkQPParseAttributeFlaggedKeySymbolLocv_block_invoke
+- ____ZL39getkQPParseAttributeRepliedKeySymbolLocv_block_invoke
+- ____ZL40getkQPParseAttributeReceivedKeySymbolLocv_block_invoke
+- ____ZL40getkQPParseAttributeTagColorKeySymbolLocv_block_invoke
+- ____ZL40getkQPQUOutputECRGroundNamesKeySymbolLocv_block_invoke
+- ____ZL40getkQPQUOutputTokenArgScoresKeySymbolLocv_block_invoke
+- ____ZL40llmPhotosAndNonPhotosAppEntityTypeArgIdsv_block_invoke
+- ____ZL40normalizeQueryNodeForOptionalSearchTermsP10query_nodef_block_invoke
+- ____ZL40normalizeQueryNodeForOptionalSearchTermsP10query_nodef_block_invoke_2
+- ____ZL40normalizeQueryNodeForOptionalSearchTermsP10query_nodef_block_invoke_3
+- ____ZL41getkQPParseAttributeDueActionKeySymbolLocv_block_invoke
+- ____ZL41getkQPParseAttributeFavoritedKeySymbolLocv_block_invoke
+- ____ZL41getkQPParseAttributeFlagColorKeySymbolLocv_block_invoke
+- ____ZL41getkQPParseAttributeHotelNameKeySymbolLocv_block_invoke
+- ____ZL41getkQPParseAttributeRecipientKeySymbolLocv_block_invoke
+- ____ZL41llmTextEventTypeArgIdsWithSearchExpansionv_block_invoke
+- ____ZL42getkQPParseAttributeAttachmentKeySymbolLocv_block_invoke
+- ____ZL42getkQPParseAttributeJunkActionKeySymbolLocv_block_invoke
+- ____ZL42getkQPQUOutputRawTextTokenizedKeySymbolLocv_block_invoke
+- ____ZL42llmDenseRetrievalConditionalFilterArgIdMapv_block_invoke
+- ____ZL43ImageAndVideoFilesInMacIndexAttributeScoresv_block_invoke
+- ____ZL43getkQPParseAttributeDescriptionKeySymbolLocv_block_invoke
+- ____ZL43getkQPParseAttributeDraftActionKeySymbolLocv_block_invoke
+- ____ZL43getkQPParseAttributeHotelActionKeySymbolLocv_block_invoke
+- ____ZL43llmSparseRetrievalConditionalFilterArgIdMapv_block_invoke
+- ____ZL43normalizeQueryNodeForNonOptionalSearchTermsP10query_nodef_block_invoke
+- ____ZL43normalizeQueryNodeForNonOptionalSearchTermsP10query_nodef_block_invoke_2
+- ____ZL43normalizeQueryNodeForNonOptionalSearchTermsP10query_nodef_block_invoke_3
+- ____ZL44getkQPParseAttributeFlightActionKeySymbolLocv_block_invoke
+- ____ZL44getkQPParseAttributeLatestActionKeySymbolLocv_block_invoke
+- ____ZL44getkQPParseAttributeTaggedPersonKeySymbolLocv_block_invoke
+- ____ZL44getkQPQUOutputTokenPhraseWeightsKeySymbolLocv_block_invoke
+- ____ZL44getkQPQueryParserOptionU2EnabledKeySymbolLocv_block_invoke
+- ____ZL44llmBundleSpecificFilterAppEntityStatusArgIdsv_block_invoke
+- ____ZL45getkQPParseAttributeAirdropActionKeySymbolLocv_block_invoke
+- ____ZL45getkQPParseAttributeArchiveActionKeySymbolLocv_block_invoke
+- ____ZL45getkQPParseAttributeCreatedActionKeySymbolLocv_block_invoke
+- ____ZL45getkQPParseAttributeFlightCarrierKeySymbolLocv_block_invoke
+- ____ZL45getkQPParseAttributeHotelProviderKeySymbolLocv_block_invoke
+- ____ZL45getkQPParseAttributePrintedActionKeySymbolLocv_block_invoke
+- ____ZL45getkQPParseAttributeTwitterActionKeySymbolLocv_block_invoke
+- ____ZL45getkQPQUOutputECRGroundNamesTokenKeySymbolLocv_block_invoke
+- ____ZL45getkQPQUOutputTokenIsRelativeTimeKeySymbolLocv_block_invoke
+- ____ZL46getkQPParseAttributeAttachmentKindKeySymbolLocv_block_invoke
+- ____ZL46getkQPParseAttributeEarliestActionKeySymbolLocv_block_invoke
+- ____ZL46getkQPParseAttributeFacebookActionKeySymbolLocv_block_invoke
+- ____ZL46getkQPParseAttributeFlightLocationKeySymbolLocv_block_invoke
+- ____ZL46getkQPParseAttributeGroundedPersonKeySymbolLocv_block_invoke
+- ____ZL46getkQPParseAttributeModifiedActionKeySymbolLocv_block_invoke
+- ____ZL46getkQPParseAttributeRestaurantNameKeySymbolLocv_block_invoke
+- ____ZL46getkQPQueryParserOptionUseLLMParseKeySymbolLocv_block_invoke
+- ____ZL47getkQPParseAttributeCompletedActionKeySymbolLocv_block_invoke
+- ____ZL47getkQPParseAttributeTransportActionKeySymbolLocv_block_invoke
+- ____ZL47getkQPQUOutputTokenAttributeIndexesKeySymbolLocv_block_invoke
+- ____ZL48getkQPParseAttributeDownloadedActionKeySymbolLocv_block_invoke
+- ____ZL48getkQPParseAttributeRestaurantActionKeySymbolLocv_block_invoke
+- ____ZL48getkQPQUOutputECRGroundNamesRelationKeySymbolLocv_block_invoke
+- ____ZL49getkQPParseAttributeReadingListActionKeySymbolLocv_block_invoke
+- ____ZL50getkQPParseAttributeRankingDescriptionKeySymbolLocv_block_invoke
+- ____ZL53getkQPParseAttributeFlightArrivalLocationKeySymbolLocv_block_invoke
+- ____ZL53getkQPQUOutputECRGroundNamesTokenRelationKeySymbolLocv_block_invoke
+- ____ZL55getkQPParseAttributeFlightDepartureLocationKeySymbolLocv_block_invoke
+- ____ZL9StopWordsv_block_invoke
+- ___block_descriptor_36_e89_^v16?0^{query_node=^{query_node}^{query_node}^{query_piece}(?=^v^^^v)^v*b16ib8b1b1b1Qf}8l
+- ___block_descriptor_40_e8_32o_e19_v32?0{?=*Q{?=IC}}8ls32l8
+- ___block_descriptor_40_e8_32o_e27_v40?08{_NSRange=QQ}16^B32ls32l8
+- ___block_descriptor_40_e8_32r_e41_v40?0"NSDictionary"8{_NSRange=QQ}16^B32lr32l8
+- ___block_descriptor_40_e8_32r_e5_v8?0lr32l8
+- ___block_descriptor_40_e8_32r_e89_^v16?0^{query_node=^{query_node}^{query_node}^{query_piece}(?=^v^^^v)^v*b16ib8b1b1b1Qf}8lr32l8
+- ___block_descriptor_44_e89_^v16?0^{query_node=^{query_node}^{query_node}^{query_piece}(?=^v^^^v)^v*b16ib8b1b1b1Qf}8l
+- ___block_descriptor_44_e8_32r_e89_^v16?0^{query_node=^{query_node}^{query_node}^{query_piece}(?=^v^^^v)^v*b16ib8b1b1b1Qf}8lr32l8
+- ___block_descriptor_48_e8_32o40o_e41_v40?0"NSDictionary"8{_NSRange=QQ}16^B32ls32l8s40l8
+- ___block_descriptor_48_e8_32o40o_e5_v8?0ls32l8s40l8
+- ___block_descriptor_48_e8_32o40r_e15_v32?08Q16^B24ls32l8r40l8
+- ___block_descriptor_48_e8_32o40r_e25_v32?0"NSString"8Q16^B24ls32l8r40l8
+- ___block_descriptor_48_e8_32o40r_e41_v40?0"NSDictionary"8{_NSRange=QQ}16^B32lr40l8s32l8
+- ___block_descriptor_56_e8_32o40o48r_e41_v40?0"NSDictionary"8{_NSRange=QQ}16^B32lr48l8s32l8s40l8
+- ___block_descriptor_64_e89_^v16?0^{query_node=^{query_node}^{query_node}^{query_piece}(?=^v^^^v)^v*b16ib8b1b1b1Qf}8l
+- ___block_descriptor_64_e8_32o40o48o56o_e41_v40?0"NSDictionary"8{_NSRange=QQ}16^B32ls32l8s40l8s48l8s56l8
+- ___block_descriptor_72_e89_^v16?0^{query_node=^{query_node}^{query_node}^{query_piece}(?=^v^^^v)^v*b16ib8b1b1b1Qf}8l
+- ___block_descriptor_72_e8_32o40o48o56o64o_e41_v40?0"NSDictionary"8{_NSRange=QQ}16^B32ls32l8s40l8s48l8s56l8s64l8
+- ___block_descriptor_73_e8_32o40o48o_e41_v40?0"NSDictionary"8{_NSRange=QQ}16^B32ls32l8s40l8s48l8
+- ___block_descriptor_73_e8_32o40o_e41_v40?0"NSDictionary"8{_NSRange=QQ}16^B32ls32l8s40l8
+- ___block_descriptor_76_e8_32o_e41_v40?0"NSDictionary"8{_NSRange=QQ}16^B32ls32l8
+- ___block_descriptor_89_e8_32o40o48r56r_e25_v32?0"NSString"816^B24lr48l8s32l8s40l8r56l8
+- ___block_descriptor_89_e8_32o40r48r_e25_v32?0"NSString"816^B24lr40l8s32l8r48l8
+- ___bundleIDTypeMaskForMDS_block_invoke
+- ___clang_call_terminate
+- ___createKeywordDictionaryFromMDPlistObject_block_invoke
+- ___cxa_begin_catch
+- ___cxa_guard_abort
+- ___isCerberusEnabled_block_invoke
+- ___isLLMEnabled_block_invoke
+- ___isQUEnabled_block_invoke
+- ___isSearchToolDebugModeEnabled_block_invoke
+- ___isTextSemanticSearchEnabled_block_invoke
+- ___isWalletDocumentUnderstandingEnabled_block_invoke
+- ___kCFBooleanFalse
+- ___kCFBooleanTrue
+- ___kMDUnicodeConverterTypeID
+- ___kMDUnicodeConverterTypeIDClass
+- ___loadOptionalSearchTermsFromSRA_block_invoke
+- __sdb_cache_check_fault
+- __sl_dlopen
+- __tus_check_fault
+- __tus_protect
+- __tus_unprotect
+- __wrcache_arm_slot
+- __wrcache_free_page
+- _arc4random_uniform
+- _attrsKeyValueEnabled
+- _bundleIDTypeMappings
+- _bundleIDTypeMaskForMDS.bundleIDType
+- _bundleIDTypeMaskForMDS.onceToken
+- _configureContext
+- _convertCommaSeparatedNumberTokenWithNumberFormatter
+- _copyNumberFormatters.sFormatters
+- _copyNumberFormatters.sUnfairLock
+- _createKeywordDictionaryFromMDPlistObject
+- _cvc
+- _db_alloc_qp
+- _db_cache_call_with_entry
+- _db_cache_dealloc
+- _db_cache_protect_entry
+- _db_cache_unprotect_entry
+- _db_query_tree_apply_block
+- _decodeEmbeddingData
+- _defaultAttributeScore
+- _dlerror
+- _ends
+- _extractAnnEmbedding
+- _getClientInfo
+- _isCerberusEnabled.ffStatus
+- _isCerberusEnabled.onceToken
+- _isLLMEnabled.ffStatus
+- _isLLMEnabled.onceToken
+- _isPhotosClient
+- _isQUEnabled.ffStatus
+- _isQUEnabled.onceToken
+- _isSearchToolDebugModeEnabled.ffStatus
+- _isSearchToolDebugModeEnabled.onceToken
+- _isTextSemanticSearchEnabled.ffStatus
+- _isTextSemanticSearchEnabled.onceToken
+- _isWalletDocumentUnderstandingEnabled.ffStatus
+- _isWalletDocumentUnderstandingEnabled.onceToken
+- _loadOptionalSearchTermsFromSRA.onceToken
+- _m
+- _objc_exception_throw
+- _objc_msgSend$_buildKeywordInfoForLanguageCode:
+- _objc_msgSend$addChild:
+- _objc_msgSend$addObjectsFromArray:
+- _objc_msgSend$allKeys
+- _objc_msgSend$allValues
+- _objc_msgSend$argumentDirectionForKeyword:
+- _objc_msgSend$array
+- _objc_msgSend$arrayWithArray:
+- _objc_msgSend$arrayWithCapacity:
+- _objc_msgSend$arrayWithObject:
+- _objc_msgSend$astHasFieldNodes:
+- _objc_msgSend$buildASTFromQuery:queryUnderstanding:
+- _objc_msgSend$buildTokenToFilterAndU2LabelsMapping
+- _objc_msgSend$bytes
+- _objc_msgSend$caseInsensitiveCompare:
+- _objc_msgSend$characterAtIndex:
+- _objc_msgSend$characterIsMember:
+- _objc_msgSend$characterSetWithCharactersInString:
+- _objc_msgSend$children
+- _objc_msgSend$compare:options:
+- _objc_msgSend$component:fromDate:
+- _objc_msgSend$componentsSeparatedByCharactersInSet:
+- _objc_msgSend$confidence
+- _objc_msgSend$containsString:
+- _objc_msgSend$createDirectoryAtPath:withIntermediateDirectories:attributes:error:
+- _objc_msgSend$currentCalendar
+- _objc_msgSend$currentHandler
+- _objc_msgSend$dataWithJSONObject:options:error:
+- _objc_msgSend$dictionary
+- _objc_msgSend$dictionaryWithObjectsAndKeys:
+- _objc_msgSend$direction
+- _objc_msgSend$enumerateAttribute:inRange:options:usingBlock:
+- _objc_msgSend$enumerateAttributesInRange:options:usingBlock:
+- _objc_msgSend$enumerateObjectsUsingBlock:
+- _objc_msgSend$exceptionWithName:reason:userInfo:
+- _objc_msgSend$expression
+- _objc_msgSend$extractQUFiltersAndLabelsFromQueryUnderstanding:
+- _objc_msgSend$extractSourceTokenFromRange:originalQuery:
+- _objc_msgSend$fieldType
+- _objc_msgSend$fieldTypeForKeyword:
+- _objc_msgSend$fieldTypeString
+- _objc_msgSend$filterString
+- _objc_msgSend$formUnionWithCharacterSet:
+- _objc_msgSend$getFilterSourceTokenForIndex:
+- _objc_msgSend$handleFailureInFunction:file:lineNumber:description:
+- _objc_msgSend$hasFieldKeywordPrefix:
+- _objc_msgSend$hasNonEmailQPFilters
+- _objc_msgSend$hasSuffix:
+- _objc_msgSend$infoWithFieldType:
+- _objc_msgSend$infoWithFieldType:direction:
+- _objc_msgSend$initSynonymsForLanguageCode:
+- _objc_msgSend$initWithContentsOfFile:options:error:
+- _objc_msgSend$initWithFieldType:
+- _objc_msgSend$initWithFieldType:direction:
+- _objc_msgSend$initWithFieldType:originalKeyword:expression:sourceToken:isLastToken:isIgnored:
+- _objc_msgSend$initWithFilterString:sourceToken:isLastToken:
+- _objc_msgSend$initWithLanguageCode:
+- _objc_msgSend$initWithLanguageCode:context:logHeader:
+- _objc_msgSend$initWithLocale:
+- _objc_msgSend$initWithNodeType:children:sourceToken:isLastToken:
+- _objc_msgSend$initWithValue:sourceToken:isLastToken:isNegated:isIgnored:
+- _objc_msgSend$isIgnored
+- _objc_msgSend$isIgnoredToken:
+- _objc_msgSend$isLastToken
+- _objc_msgSend$isNegated
+- _objc_msgSend$isNegatedToken:
+- _objc_msgSend$isQuotedToken:
+- _objc_msgSend$isSpaceDelimited
+- _objc_msgSend$itemWithNode:visited:
+- _objc_msgSend$keywordInfo
+- _objc_msgSend$languageCode
+- _objc_msgSend$languageProfile
+- _objc_msgSend$lastObject
+- _objc_msgSend$loadOptionalKeywordsDictionaryFromAssetPlistType:
+- _objc_msgSend$localizedLowercaseString
+- _objc_msgSend$newlineCharacterSet
+- _objc_msgSend$node
+- _objc_msgSend$node:containsFilter:
+- _objc_msgSend$nodeType
+- _objc_msgSend$numberFromString:
+- _objc_msgSend$numberWithFloat:
+- _objc_msgSend$numberWithUnsignedChar:
+- _objc_msgSend$numberWithUnsignedInteger:
+- _objc_msgSend$originalKeyword
+- _objc_msgSend$originalQuery
+- _objc_msgSend$originalToken
+- _objc_msgSend$parseExpressionAtIndex:consumedTokens:
+- _objc_msgSend$parseFieldExpressionAtIndex:consumedTokens:
+- _objc_msgSend$parseIgnoredTermAtIndex:consumedTokens:
+- _objc_msgSend$parseMultiTokenQuotedValueStartingWithValue:atIndex:consumedTokens:
+- _objc_msgSend$parseNegatedTermAtIndex:consumedTokens:
+- _objc_msgSend$parseQuotedExpressionAtIndex:consumedTokens:
+- _objc_msgSend$parseSentKeywordAtIndex:consumedTokens:
+- _objc_msgSend$parseTokensIntoAST
+- _objc_msgSend$postProcessAstForMailToken:
+- _objc_msgSend$precomposedStringWithCanonicalMapping
+- _objc_msgSend$qpParsesDesc
+- _objc_msgSend$rangeOfCharacterFromSet:
+- _objc_msgSend$rangeOfComposedCharacterSequenceAtIndex:
+- _objc_msgSend$rangeOfString:options:
+- _objc_msgSend$rangeValue
+- _objc_msgSend$removeAllObjects
+- _objc_msgSend$removeLastObject
+- _objc_msgSend$replaceCharactersInRange:withString:
+- _objc_msgSend$reverseObjectEnumerator
+- _objc_msgSend$set
+- _objc_msgSend$setAlwaysShowsDecimalSeparator:
+- _objc_msgSend$setChildren:
+- _objc_msgSend$setIsIgnored:
+- _objc_msgSend$setLocale:
+- _objc_msgSend$setMailTokenIgnoredInAst:
+- _objc_msgSend$setMinimumFractionDigits:
+- _objc_msgSend$setNode:
+- _objc_msgSend$setNumberStyle:
+- _objc_msgSend$setObject:atIndexedSubscript:
+- _objc_msgSend$setOriginalQuery:
+- _objc_msgSend$setUsesGroupingSeparator:
+- _objc_msgSend$setVisited:
+- _objc_msgSend$setWithArray:
+- _objc_msgSend$setWithObjects:
+- _objc_msgSend$sourceToken
+- _objc_msgSend$standardUserDefaults
+- _objc_msgSend$string
+- _objc_msgSend$stringByAppendingString:
+- _objc_msgSend$stringByDeletingLastPathComponent
+- _objc_msgSend$stringByReplacingCharactersInRange:withString:
+- _objc_msgSend$stringByTrimmingCharactersInSet:
+- _objc_msgSend$stringFromNumber:
+- _objc_msgSend$stripNegationFromToken:
+- _objc_msgSend$strongToStrongObjectsMapTable
+- _objc_msgSend$subarrayWithRange:
+- _objc_msgSend$substringFromIndex:
+- _objc_msgSend$substringWithRange:
+- _objc_msgSend$synonymsForTerm:
+- _objc_msgSend$timeIntervalSinceReferenceDate
+- _objc_msgSend$toDictionary
+- _objc_msgSend$tokenizeQuery:
+- _objc_msgSend$unionSet:
+- _objc_msgSend$value
+- _objc_msgSend$valueWithPointer:
+- _objc_msgSend$valueWithRange:
+- _objc_msgSend$variation
+- _objc_msgSend$variations
+- _objc_msgSend$visited
+- _objc_msgSend$whitespaceAndNewlineCharacterSet
+- _objc_msgSend$whitespaceCharacterSet
+- _objc_msgSend$writeToFile:options:error:
+- _objc_retain
+- _objc_retain_x19
+- _objc_retain_x20
+- _objc_retain_x21
+- _objc_retain_x22
+- _pommesCustomTrees
+- _pommesQueryTree
+- _processContext
+- _query_node_is_double_star
+- _sResourcesCallback
+- _sSetOfOneOnOneMeetingKeywords
+- _sSetOfOptionalCalendarKeywords
+- _sSetOfOptionalPartyKeywords
+- _sSetOfOptionalSearchTermForPreExtraction
+- _sSetOfOptionalSearchTermLLMPhotosKeywords
+- _sSetOfOptionalSearchTermSuffixKeywords
+- _s_mprotect_registry
+- _s_mprotect_registry_capacity
+- _s_mprotect_registry_count
+- _s_mprotect_registry_lock
+- _step5
+- _stringForPRBundleIDType
+- _wmemchr
+CStrings:
++ "%s:%d: <si:%s> - Failed to mmap journal for replay, journalNumber:%ld map_size:%zu"
++ "%s:%d: <si:%s> - Unrecognized journal magic during replay, magic:0x%08lx journalNumber:%ld pos:%zu end:%zu"
++ "%s:%d: lookupPathByDBO oid: %lld encountered reserved parent oid 1"
++ "%s:%d: lookupPathByDBO oid: %lld encountered reserved parent oid 1 resolving grandparent"
++ "%s:%d: lookupPathByDBO oid: %lld exceeded max ancestor-chain depth (>=511) resolving grandparent: %lld"
++ "%s:%u: failed assertion '%s' %s oqueue grow failed, count:%lld"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/Spotlight_frameworks/spotlight/shared/data_map_double.m"
++ "2465.1.2"
++ "3rd party"
++ "<si:%s> - Donation completion callback deferred by backpressure (reason:%s), serialNumber=%lld donationXPCTraceID=%llu"
++ "<si:%s> - Donation journaled, donationXPCTraceID=%llu serialNumber=%lld"
++ "<si:%s> - Donation processing began (%s), serialNumber=%lld linkedTimestamp=%llu"
++ "<si:%s> - Donation processing began (journal-playback, v1), serialNumber=%lld"
++ "<si:%s> - Donation processing began (journal-playback, v2 (legacy)), serialNumber=%lld"
++ "<si:%s> - Donation processing completed (%s), serialNumber=%lld linkedTimestamp=%llu"
++ "<si:%s> - Suspending query scheduler(%d) %p for a priority-%d query"
++ "<si:%s> - Suspending volume query scheduler %p for a priority-%d query"
++ "AnyAttribute"
++ "ArrayIndexMatch"
++ "ArrayMatch"
++ "Bigram"
++ "BundleID"
++ "ContentSearch"
++ "CoordinateRange"
++ "CustomAttribute"
++ "Defer journal replay hit corruption at idx:%d, truncating remaining journals %d..%d (unreplayed client data discarded): %s"
++ "DonationTracing"
++ "DynamicValue"
++ "ExactMatch"
++ "FixedDistance"
++ "Fuzzy"
++ "HasUserQuery"
++ "IgnoreCase"
++ "IgnoreDiacritics"
++ "IgnoreInRanking"
++ "Journal replay hit corruption at idx:%d, truncating remaining journals %d..%d (unreplayed client data discarded): %s"
++ "Live"
++ "MDItem"
++ "Near"
++ "OpApproximateNearest"
++ "OpFieldMatch"
++ "OpInRange"
++ "Ordered"
++ "PatternBracket"
++ "PatternEscape"
++ "PatternQuestionMark"
++ "Phrase"
++ "PredicateAnalyzed"
++ "PredicateParseFailed"
++ "QoS"
++ "QueryID"
++ "QueryOrigin"
++ "RegularExpression"
++ "SingleStarAttribute"
++ "TokenExpand"
++ "TokenExpandJapanese"
++ "TokenSegment"
++ "Weighted"
++ "WildcardAll"
++ "WildcardInfix"
++ "WildcardInterior"
++ "WildcardLimit"
++ "WildcardPrefix"
++ "WildcardSuffix"
++ "WordMatching"
++ "_MDItem"
++ "com.apple.assetsd"
++ "com.apple.siriactionsd"
++ "com.apple.spotlight.queryusage"
++ "com_apple_"
++ "fast path"
++ "journal-playback, v2"
++ "kMD"
++ "latitude"
++ "latitudes"
++ "loc > 0 && loc <= 2048"
++ "longitude"
++ "longitudes"
++ "lookupPathByDBO"
++ "lookupPathByDBO forceToOrphanParent failed: %d oid: %lld grandparent: %lld"
++ "newOffsets"
++ "old=%d new=%d"
++ "preparseMobileJournal"
++ "too-much-enqueued"
+- "\t\t"
+- "\n\t"
+- "\n\t\t\""
+- "\n\t\t}"
+- "\n\tparseCtxs: {"
+- "\n\t}"
+- "\n}"
+- " (NEGATED)"
+- " - "
+- " Use LLM for query with llmParse:"
+- " chars>"
+- " | "
+- " || "
+- "!~`@#$%^&*-+();:=_{}[],.<>?/|\"'\\"
+- "!~`@#$%^&*-+();:=_{}[],.<>?/|\"'\\’"
+- "\" "
+- "\"'‘’“”«»„“‹›"
+- "\": {"
+- "#eligibleIdx"
+- "#optionalSearchTermIndices="
+- "%@  {Span Match} Skipping query (ERROR: span count mismatch <#range=%lu, #types=%lu, #descriptions=%lu>)"
+- "%@  {Span Match} Skipping span: %lu, range: %@ (ERROR: range is out of bounds)"
+- "%@ AST conversion completed successfully"
+- "%@ Added parse %@ at index %lu"
+- "%@ Adding ANN node (dim: %lu, thresh: %f, num results: %d)"
+- "%@ Adding ANN node (dim: %lu, thresh: %f, num results: %d, visual tokens: %ld)"
+- "%@ Adding generic filter: %@, token range: %@"
+- "%@ Adding generic top level filter: %@, token range: %@"
+- "%@ Adding metadata filter: %@, token range: %@"
+- "%@ Assigning weight: %f to metadata filter as there are no free tokens in the query"
+- "%@ Created ranking tree in %f micro seconds"
+- "%@ Error: Could not convert filename '%s' to NSString."
+- "%@ Error: Error creating directory %@ for AST log: %@"
+- "%@ Error: Error creating directory %@: %@"
+- "%@ Error: Error serializing AST to JSON: %@"
+- "%@ Error: Error serializing query to JSON: %@"
+- "%@ Error: Error writing JSON AST to file %@: %@"
+- "%@ Error: Error writing JSON query to file %@: %@"
+- "%@ Error: Failed to build JSON representation for the AST tree."
+- "%@ Error: Failed to build JSON representation for the query tree."
+- "%@ Error: Failed to construct file path (snprintf error or truncation)."
+- "%@ Error: Failed to construct file path for AST log (snprintf error or truncation)."
+- "%@ Error: Invalid arguments provided to log_ast_to_file."
+- "%@ Error: Invalid arguments provided to log_query_to_file."
+- "%@ Failed to build AST from query"
+- "%@ Failed to convert AST to query tree"
+- "%@ Failed to create ANN node"
+- "%@ Got QP parse %@ at range %@"
+- "%@ MD%d calibrated threshold: %f, cutoffOffset: %f, scale: %f, bias: %f"
+- "%@ MD%d: Using default similarity of 0.15 to get threshold = %f (ERROR: scale is 0)"
+- "%@ No search terms found, adding event tokens to ranking tree"
+- "%@ No search terms found, adding event tokens to retrieval tree"
+- "%@ Populated %lu QP filters"
+- "%@ Populated %lu date filters from LLM QU parse"
+- "%@ Populated %lu date filters from QP parse"
+- "%@ Populated %lu date filters from U2 parse"
+- "%@ Populated %lu people filters from LLM QU parse"
+- "%@ Processing AST query: %@"
+- "%@ Processing LLM QU output to create ranking tree"
+- "%@ Processing Search Token %lu (QP parse = %lu, tokType = %d)"
+- "%@ Processing attributed query: %@"
+- "%@ Processing query: %@"
+- "%@ Query has suggestions"
+- "%@ Query token %lu ended double quote mode"
+- "%@ Query token %lu started double quote mode"
+- "%@ Return no results (ERROR: missing tokenization context on userQuery)"
+- "%@ Return no results (ERROR: zero tokens found from the userQuery)"
+- "%@ Return no results (missing all nodes)"
+- "%@ Returning false tree (Reason: query tree is empty)"
+- "%@ Running ANN search with no filters (Reason: QP node is empty)"
+- "%@ Search token %ld QP parse skipped (ERROR: UTF8 encoding failed)"
+- "%@ Search token %ld has double quote"
+- "%@ Search token %ld skipped (ERROR: Its nil)"
+- "%@ Search token %ld skipped (ERROR: UTF8 encoding of token failed)"
+- "%@ Search token %ld skipped (Reason: It is optional and subsequent token has QP parse)"
+- "%@ Search token %lu is a keyword"
+- "%@ Search token %lu is a regular word"
+- "%@ Search token %lu is address"
+- "%@ Search token %lu is link"
+- "%@ Search token %lu is message"
+- "%@ Search token %lu is photo"
+- "%@ Skip U2 label for token %lu (ERROR: invalid range)"
+- "%@ Skip U2 label for token %lu (ERROR: it is missing essential keys)"
+- "%@ Skipping ANN node (ERROR: Failed to get byte from embedding)"
+- "%@ Skipping ANN node (ERROR: Failed to get bytes from embedding)"
+- "%@ Skipping ANN node (ERROR: decoded query embedding is null)"
+- "%@ Skipping ANN node (ERROR: embedding has 0 dimensionality)"
+- "%@ Skipping ANN node (ERROR: failed to create it)"
+- "%@ Skipping ANN node (ERROR: missing essential ann params)"
+- "%@ Skipping ANN node (ERROR: missing query embedding)"
+- "%@ Skipping ANN node (ERROR: missing vectors in ann params)"
+- "%@ Skipping ANN node (Reason: no keywords in the query)"
+- "%@ Skipping QP filters (Reason: QP output not present)"
+- "%@ Skipping adding nodes for the query (Reason: query is empty)"
+- "%@ Skipping metadata node (metadata search is disabled)"
+- "%@ Skipping metadata node (query has no free tokens)"
+- "%@ Skipping metadata nodes (Reason: U2 and metadata search are disabled)"
+- "%@ Skipping metadata search (ERROR: metadata node is null)"
+- "%@ Skipping populating U2 labels (ERROR: U2 output not present)"
+- "%@ Skipping populating U2 labels (ERROR: U2 token info not present or invalid)"
+- "%@ Skipping query (Reason: it is empty)"
+- "%@ Skipping query token %lu (ERROR: UTF8 encoding of token failed)"
+- "%@ Skipping query token %lu (ERROR: invalid range: (%ld, %ld))"
+- "%@ Skipping query token %lu (Reason: Its zero-length)"
+- "%@ Skipping ranking nodes (Reason: metadata search is disabled)"
+- "%@ Skipping token: %lu (ERROR: token info is missing essential keys)"
+- "%@ Threshold based on client supplied values: %f, rel: %f"
+- "%@ Token %lu added as new token"
+- "%@ Token %lu is `sent` and isIgnored = %@"
+- "%@ Token %lu is field node with IsIgnored = %@"
+- "%@ Token %lu is field node with IsIgnored = TRUE"
+- "%@ Token %lu is ignored token"
+- "%@ Token %lu is negated token"
+- "%@ Token %lu is quoted token"
+- "%@ Token %lu skipped (ERROR: token info is missing essential keys)"
+- "%@ Token %lu skipped (ERROR: tokenIds is empty)"
+- "%@ Token (range: %@) has generic and metdata filters (ORing them together)"
+- "%@ Using LLM QU output for creating ann filter and unigram node"
+- "%@ Using user default cutoff: %f"
+- "%@ Using user default threshold: %f, distance: %f"
+- "%@ Using user specified ann threshold: %f"
+- "%@ [MODEL TRANSITIONING] Created ANN node for previous photo embedding (version current: %d, previous: %d)"
+- "%@ [WARN] Ignoring filter, token range: %@, key: %@"
+- "%@ {Exact Match} Added %d nodes"
+- "%@ {Exact Match} Skipping query (ERROR: UTF8 encoding of trimmed query failed)"
+- "%@ {Exact Match} Skipping query (Reason: empty query after removing special chars)"
+- "%@ {Exact Match} Skipping query (Reason: empty query after suggestion filtering)"
+- "%@ {Exact Match} Skipping query (Reason: empty query)"
+- "%@ {Exact Match} Skipping query (Reason: query is optional word)"
+- "%@ {OCR Match} Added %d nodes"
+- "%@ {OCR Match} Skipping query (ERROR: token count mismatch <%lu,%lu>)"
+- "%@ {OCR Match} Skipping query (Reason: empty query)"
+- "%@ {OCR Match} Skipping query (Reason: no useful tokens)"
+- "%@ {Pre-extraction Match} Added %d nodes"
+- "%@ {Pre-extraction Match} Skipping query (ERROR: token count mismatch <%lu,%lu>)"
+- "%@ {Pre-extraction Match} Skipping query (Reason: empty query)"
+- "%@ {Pre-extraction Match} Skipping query (Reason: no useful tokens)"
+- "%@ {QP} Added %d nodes"
+- "%@ {QP} Adding synonym for token %lu"
+- "%@ {QP} Populated filters: time = %lu, fav = %lu, person = %lu, mediatype = %lu"
+- "%@ {QP} Processing rule-based query parse output to create ranking tree"
+- "%@ {QP} Return no results (ERROR: missing tokenization context on userQuery)"
+- "%@ {QP} Return no results (ERROR: zero tokens found from the userQuery)"
+- "%@ {QP} Skipping token %lu (ERROR: UTF8 encoding of token failed)"
+- "%@ {QP} Skipping token %lu (ERROR: invalid range: (%ld, %ld))"
+- "%@ {QP} Skipping token %lu (REASON: Its a filter token)"
+- "%@ {QP} Skipping token %lu (Reason: It has only special characters)"
+- "%@ {QP} Skipping token %lu (Reason: It is a suggestion token)"
+- "%@ {QP} Skipping token %lu (Reason: It is optional)"
+- "%@ {QP} Skipping token %lu (Reason: Its zero-length)"
+- "%@ {QP} Token %lu has a date parse, will process it after all tokens are processed"
+- "%@ {QP} Token: %lu has a date parse (Date parse idx: %lu)"
+- "%@ {QP} Token: %lu has a fav parse (Fav parse idx: %lu)"
+- "%@ {QP} Token: %lu has a media parse (Media parse idx: %lu)"
+- "%@ {QP} Token: %lu has a person parse (Person parse idx: %lu)"
+- "%@ {QP} Token: %lu is skipped (ERROR: UTF8 encoding of token failed)"
+- "%@ {QP} Token: %lu is skipped (Reason: It has only trimmable chars)"
+- "%@ {QP} Token: %lu is skipped (Reason: It is optional as per optional dictionary)"
+- "%@ {QP} Using rule-based parse for creating ann filter and unigram node (U2 parse missing)"
+- "%@ {Span Match} Added %d nodes"
+- "%@ {Span Match} Adding span: %lu, range:%@, self name: %@"
+- "%@ {Span Match} Adding synonym for token %lu"
+- "%@ {Span Match} Skipping query (Reason: empty query)"
+- "%@ {Span Match} Skipping query (Reason: no spans and no time parses in the query)"
+- "%@ {Span Match} Skipping rest of span match nodes (Reason: exact match nodes should be sufficient)"
+- "%@ {Span Match} Skipping span: %lu, range: %@ (ERROR: UTF8 encoding failed)"
+- "%@ {Span Match} Skipping time parse: %u (ERROR: UTF8 encoding failed)"
+- "%@ {Span Match} Skipping time parse: %u (ERROR: its zero length)"
+- "%@ {Span Match} Skipping time span: %lu (ERROR: Empty sub-query for range %@)"
+- "%@ {Span Match} Skipping time span: %lu (ERROR: UTF8 encoding failed for range %@)"
+- "%@ {Span Match} Skipping time span: %lu (ERROR: out of bounds range %@)"
+- "%@ {Token Match} Added %d nodes"
+- "%@ {Token Match} Skipping query (ERROR: token count mismatch <%lu,%lu>)"
+- "%@ {Token Match} Skipping query (Reason: empty query)"
+- "%@ {Token Match} Skipping query (Reason: no useful tokens)"
+- "%@*"
+- "%@...%@<%lu chars>"
+- "%@[%s] Added Raw token match node for token %ld"
+- "%@[%s] Added a lemma node: %@, of token %ld"
+- "%@[%s] Added a synonym for token %ld"
+- "%@[%s] Added app entity / media-type filter for token %ld with tokenID %d"
+- "%@[%s] Added raw token node for token %ld using sub tokens"
+- "%@[%s] Added sender / receiver node for token %ld with tokenID %d"
+- "%@[%s] Search token %ld skipped (ERROR: UTF8 encoding of token failed)"
+- "%@[%s] Search token %ld skipped (Reason: It is optional)"
+- "%@[%s] Skipping token %ld with tokenID %d (it is inferred app entity)"
+- "%@[%s] Skipping token: %lu (ERROR: invalid range: %@)"
+- "%@[%s] Skipping token: %lu (Reason: It is a suggestion token)"
+- "%@[%s] Token %lu has a date parse: %lu"
+- "%@[%s] Token %lu has a person parse: %lu"
+- "%@[%s] Token %lu is a relationship token as per vocab"
+- "%@[%s] Token %lu skipped (ERROR: Token is null)"
+- "%@[%s] Token %lu skipped (ERROR: invalid range: %@)"
+- "%@[%s] Token %lu skipped (Reason: It has only special chars)"
+- "%@[%s] Token %lu skipped (Reason: It's a filter token)"
+- "%@[%s] Token %lu skipped (Reason: It's a photos optional search term)"
+- "%@[%s] Token %lu skipped (Reason: It's a photos optional token)"
+- "%@[%s] Token %lu skipped (Reason: It's a source entity type token)"
+- "%@[%s] Token %lu skipped (Reason: It's a trailing optional search token)"
+- "%@[%s] Token %lu skipped (Reason: It's an ignored or bundle specific app entity status token)"
+- "%@[%s] Token %lu skipped (Reason: It's an inferred app entity type token)"
+- "%@[%s] Token: %lu has a date parse (Date parse idx: %lu)"
+- "%@[%s] Token: %lu is a new time span (added range: %@)"
+- "%@[%s] Token: %lu is skipped (ERROR: UTF8 encoding of token failed)"
+- "%@[%s] Token: %lu is skipped (Reason: It has only trimmable chars)"
+- "%@[%s] Token: %lu is skipped (Reason: It is optional as per optional dictionary)"
+- "%@[%s] Token: %lu is skipped (Reason: It's a photos optional token)"
+- "%@[%s] Token: %lu is skipped (Reason: It's a trailing optional search token)"
+- "%@[%s] Token: %lu is using default label: %d (ERROR: no LLM labels found)"
+- "%@[%s] {ANN} Added date filter for token %lu"
+- "%@[%s] {ANN} Added favorited filter for token %lu"
+- "%@[%s] {ANN} Added holiday/season filter for token %lu"
+- "%@[%s] {ANN} Added location filter for token %lu"
+- "%@[%s] {ANN} Added person identifier filter for token %lu"
+- "%@[%s] {ANN} Added person name/alternative filter for token %lu"
+- "%@[%s] {OCR Match} Added lemma node: %@, for token: %lu, range:%@, type: %d"
+- "%@[%s] {OCR Match} Adding synonym for token %lu"
+- "%@[%s] {OCR Match} Adding token: %lu, range:%@, alias name: %@"
+- "%@[%s] {OCR Match} Adding token: %lu, range:%@, tokenized self name: %@"
+- "%@[%s] {OCR Match} Adding token: %lu, range:%@, type: %d"
+- "%@[%s] {OCR Match} Skipping token: %lu, range: %@ (ERROR: UTF8 encoding failed)"
+- "%@[%s] {OCR Match} Skipping token: %lu, range: %@ (ERROR: empty sub-query after trimming)"
+- "%@[%s] {OCR Match} Skipping token: %lu, range: :%@ (ERROR: range is out of bounds)"
+- "%@[%s] {OCR Match} Skipping token: %lu, range:%@ (Reason: not an important attribute type: %d)"
+- "%@[%s] {Pre-extraction Match} Added a synonym for token %ld"
+- "%@[%s] {Pre-extraction Match} Added lemma node: %@, for token: %lu, range:%@, type: %d"
+- "%@[%s] {Pre-extraction Match} Adding token: %lu, range:%@, alias name: %@"
+- "%@[%s] {Pre-extraction Match} Adding token: %lu, range:%@, tokenized self name: %@"
+- "%@[%s] {Pre-extraction Match} Adding token: %lu, type: %d, range:%@"
+- "%@[%s] {Pre-extraction Match} Skipping token: %lu, range: %@ (ERROR: UTF8 encoding failed)"
+- "%@[%s] {Pre-extraction Match} Skipping token: %lu, range: %@ (ERROR: empty sub-query after trimming)"
+- "%@[%s] {Pre-extraction Match} Skipping token: %lu, range: :%@ (ERROR: range is out of bounds)"
+- "%@[%s] {Span Match} Adding span: %lu, desc: %@, range:%@"
+- "%@[%s] {Token Match} Added lemma node: %@, for token: %lu, range:%@, type: %d"
+- "%@[%s] {Token Match} Adding synonym for token %lu"
+- "%@[%s] {Token Match} Adding token: %lu, range:%@, type: %d"
+- "%@[%s] {Token Match} Skipping token: %lu, range: %@ (ERROR: UTF8 encoding failed)"
+- "%@[%s] {Token Match} Skipping token: %lu, range: %@ (ERROR: empty sub-query after trimming)"
+- "%@[%s] {Token Match} Skipping token: %lu, range: :%@ (ERROR: range is out of bounds)"
+- "%@[%s] {Token Match} Skipping token: %lu, range:%@ (ERROR: attribute score is 0 for type: %d)"
+- "%@[%s] {Token Match} Skipping token: %lu, range:%@ (Reason: not an important attribute type: %d)"
+- "%c%c...%c<%lu chars>"
+- "%lu"
+- "%s/ast-%s-%s-%s-%s.json"
+- "%s/tree-%s-%s-%s-%s.json"
+- "%s:%d: Failed to get QueryParser resources: %@"
+- "%s:%d: config file %@ with optional search terms not found."
+- "%s:%d: invalid format in config file %@ for optional search terms."
+- "%s:%d: no data found in config file %@ for optional search terms."
+- "%sBundleIDs:\"%s\""
+- "%sCommitted:1"
+- "%sCoreSpotlight:1"
+- "%sCtlCli:1"
+- "%sHasMail:1"
+- "%sHasNonPhotos:1"
+- "%sHasPhotos:1"
+- "%sHasSafari:1"
+- "%sMailCli:1"
+- "%sNonPhotosBundleIDs:\"%s\""
+- "%sPhotosCli:1"
+- "%sRewrite:1"
+- "%sSearchToolCli:1"
+- "%sSettingsCli:1"
+- "%sSpotlightUICli:1"
+- "%sUseLLM:1"
+- "%sUseQU:1"
+- "%saNNSearchParams:1"
+- "%sisMultiparse:1"
+- "%stokenRewrites:1"
+- "() "
+- "(ERROR) Failed to convert suggestion node properly: %hu"
+- "(encoding_error)"
+- "(kMDItemContentTypeTree=\"public.message\" && kMDItemContentTypeTree!=\"public.email-message\") || _kMDItemAppEntityTypeIdentifier=\"MessageEntity\" || kMDItemEventSourceBundleIdentifier=\"com.apple.MobileSMS\" || _kMDItemAppEntitySchema=\"messages.message\""
+- ",\n\t"
+- ",;:.!_*\\"
+- "-nak"
+- "-nek"
+- "-ról"
+- "-ről"
+- "-tól"
+- "-től"
+- "-val"
+- "-vel"
+- "-~"
+- "/tmp/debug_trees"
+- "0.2"
+- "0.4"
+- "0.5"
+- "0.7"
+- "0123456789"
+- "0x%llx"
+- "0x0"
+- "2459.105"
+- ": {"
+- "<%@: sourceToken='%@'>"
+- "<%@: type='%@', children=%lu>"
+- "???"
+- "@"
+- "ADDRESS"
+- "AND"
+- "APP_CONTAINS_TYPE_CALENDAR"
+- "APP_CONTAINS_TYPE_CONTACT"
+- "APP_CONTAINS_TYPE_CONVERSATION"
+- "APP_CONTAINS_TYPE_DOCUMENT"
+- "APP_CONTAINS_TYPE_DOCUMENT_FOLDER"
+- "APP_CONTAINS_TYPE_FREEFORM"
+- "APP_CONTAINS_TYPE_GENERIC_FOLDER"
+- "APP_CONTAINS_TYPE_JOURNAL"
+- "APP_CONTAINS_TYPE_KEYNOTE"
+- "APP_CONTAINS_TYPE_MEDIA"
+- "APP_CONTAINS_TYPE_MEMORY"
+- "APP_CONTAINS_TYPE_NOTE"
+- "APP_CONTAINS_TYPE_NOTE_FOLDER"
+- "APP_CONTAINS_TYPE_NUMBERS"
+- "APP_CONTAINS_TYPE_PAGES"
+- "APP_CONTAINS_TYPE_PANORAMA"
+- "APP_CONTAINS_TYPE_PHOTO"
+- "APP_CONTAINS_TYPE_PHOTO_ALBUM"
+- "APP_CONTAINS_TYPE_REMINDER"
+- "APP_CONTAINS_TYPE_SCREENSHOT"
+- "APP_CONTAINS_TYPE_SELFIE"
+- "APP_CONTAINS_TYPE_SLOMO"
+- "APP_CONTAINS_TYPE_SPATIAL_VIDEO"
+- "APP_CONTAINS_TYPE_VIDEO"
+- "APP_CONTAINS_TYPE_VOICE_MAIL"
+- "APP_CONTAINS_TYPE_VOICE_MEMO"
+- "APP_CONTAINS_TYPE_WALLET"
+- "APP_CONTAINS_TYPE_WEBSITE"
+- "APP_ENTITY_NON_RECURRING"
+- "APP_ENTITY_RECURRING"
+- "APP_ENTITY_STATUS_ACCEPTED"
+- "APP_ENTITY_STATUS_ARCHIVED"
+- "APP_ENTITY_STATUS_BOOKMARKED"
+- "APP_ENTITY_STATUS_CALL_MISSED"
+- "APP_ENTITY_STATUS_COMPLETED"
+- "APP_ENTITY_STATUS_CREATED"
+- "APP_ENTITY_STATUS_DECLINED"
+- "APP_ENTITY_STATUS_DELETED"
+- "APP_ENTITY_STATUS_DISABLED"
+- "APP_ENTITY_STATUS_DRAFT"
+- "APP_ENTITY_STATUS_DUE"
+- "APP_ENTITY_STATUS_EDITED"
+- "APP_ENTITY_STATUS_ENABLED"
+- "APP_ENTITY_STATUS_FAVORITED"
+- "APP_ENTITY_STATUS_FIRING"
+- "APP_ENTITY_STATUS_FLAGGED"
+- "APP_ENTITY_STATUS_FORWARDED"
+- "APP_ENTITY_STATUS_HIDDEN"
+- "APP_ENTITY_STATUS_JUNK"
+- "APP_ENTITY_STATUS_MAYBE"
+- "APP_ENTITY_STATUS_PAUSED"
+- "APP_ENTITY_STATUS_PRINTED"
+- "APP_ENTITY_STATUS_READ"
+- "APP_ENTITY_STATUS_RECEIVED"
+- "APP_ENTITY_STATUS_REPLIED"
+- "APP_ENTITY_STATUS_RUNNING"
+- "APP_ENTITY_STATUS_SENT"
+- "APP_ENTITY_STATUS_SHARED"
+- "APP_ENTITY_STATUS_SNOOZING"
+- "APP_ENTITY_STATUS_TAGGED"
+- "APP_ENTITY_STATUS_UNREAD"
+- "APP_ENTITY_TYPE_ALARM"
+- "APP_ENTITY_TYPE_ALBUM"
+- "APP_ENTITY_TYPE_APP"
+- "APP_ENTITY_TYPE_ARTICLE"
+- "APP_ENTITY_TYPE_ARTIST"
+- "APP_ENTITY_TYPE_AUDIOBOOK"
+- "APP_ENTITY_TYPE_BOOK"
+- "APP_ENTITY_TYPE_BOOKMARK"
+- "APP_ENTITY_TYPE_BROWSER"
+- "APP_ENTITY_TYPE_CALENDAR_EVENT"
+- "APP_ENTITY_TYPE_CARD"
+- "APP_ENTITY_TYPE_CINEMATIC"
+- "APP_ENTITY_TYPE_CONTACT"
+- "APP_ENTITY_TYPE_CONVERSATION"
+- "APP_ENTITY_TYPE_DEVICE"
+- "APP_ENTITY_TYPE_DIRECT_MESSAGE"
+- "APP_ENTITY_TYPE_DISPLAY"
+- "APP_ENTITY_TYPE_DOCUMENT"
+- "APP_ENTITY_TYPE_DOCUMENT_FOLDER"
+- "APP_ENTITY_TYPE_DRAFT_EMAIL"
+- "APP_ENTITY_TYPE_EMAIL"
+- "APP_ENTITY_TYPE_EPISODE"
+- "APP_ENTITY_TYPE_FINDMY_ITEM"
+- "APP_ENTITY_TYPE_FINDMY_PERSON"
+- "APP_ENTITY_TYPE_FREEFORM_BOARD"
+- "APP_ENTITY_TYPE_GENERIC_FOLDER"
+- "APP_ENTITY_TYPE_GROUP_MESSAGE"
+- "APP_ENTITY_TYPE_GROUP_TAB"
+- "APP_ENTITY_TYPE_HISTORY"
+- "APP_ENTITY_TYPE_JOURNAL"
+- "APP_ENTITY_TYPE_KEYNOTE"
+- "APP_ENTITY_TYPE_LINK"
+- "APP_ENTITY_TYPE_LIVE_PHOTO"
+- "APP_ENTITY_TYPE_MAP"
+- "APP_ENTITY_TYPE_MEMORY"
+- "APP_ENTITY_TYPE_MESSAGE"
+- "APP_ENTITY_TYPE_MOVIE"
+- "APP_ENTITY_TYPE_MUSIC"
+- "APP_ENTITY_TYPE_MUSIC_ALBUM"
+- "APP_ENTITY_TYPE_NEWS"
+- "APP_ENTITY_TYPE_NOTE"
+- "APP_ENTITY_TYPE_NOTE_FOLDER"
+- "APP_ENTITY_TYPE_NOTIFICATION"
+- "APP_ENTITY_TYPE_NUMBERS"
+- "APP_ENTITY_TYPE_PAGES"
+- "APP_ENTITY_TYPE_PANORAMA"
+- "APP_ENTITY_TYPE_PDF"
+- "APP_ENTITY_TYPE_PHONE_CALL"
+- "APP_ENTITY_TYPE_PHOTO"
+- "APP_ENTITY_TYPE_PHOTO_ALBUM"
+- "APP_ENTITY_TYPE_PLAYLIST"
+- "APP_ENTITY_TYPE_PODCAST"
+- "APP_ENTITY_TYPE_PORTRAIT"
+- "APP_ENTITY_TYPE_RADIO_STATION"
+- "APP_ENTITY_TYPE_READING_LIST"
+- "APP_ENTITY_TYPE_REMINDER"
+- "APP_ENTITY_TYPE_REMINDER_LIST"
+- "APP_ENTITY_TYPE_SCREENSHOT"
+- "APP_ENTITY_TYPE_SELFIE"
+- "APP_ENTITY_TYPE_SHOW"
+- "APP_ENTITY_TYPE_SLOMO"
+- "APP_ENTITY_TYPE_SONG"
+- "APP_ENTITY_TYPE_SPATIAL_VIDEO"
+- "APP_ENTITY_TYPE_SPEAKER"
+- "APP_ENTITY_TYPE_TAB"
+- "APP_ENTITY_TYPE_TIMER"
+- "APP_ENTITY_TYPE_TIME_LAPSE"
+- "APP_ENTITY_TYPE_VIDEO"
+- "APP_ENTITY_TYPE_VOICE_MAIL"
+- "APP_ENTITY_TYPE_VOICE_MEMOS"
+- "APP_ENTITY_TYPE_WALLET_PASS"
+- "APP_ENTITY_TYPE_WEBSITE"
+- "APP_SOURCE"
+- "APP_SOURCE_TYPE_CALENDAR_EVENT"
+- "APP_SOURCE_TYPE_CONTACT"
+- "APP_SOURCE_TYPE_CONVERSATION"
+- "APP_SOURCE_TYPE_DOCUMENT"
+- "APP_SOURCE_TYPE_DOCUMENT_FOLDER"
+- "APP_SOURCE_TYPE_EMAIL"
+- "APP_SOURCE_TYPE_FREEFORM_BOARD"
+- "APP_SOURCE_TYPE_GENERIC_FOLDER"
+- "APP_SOURCE_TYPE_JOURNAL"
+- "APP_SOURCE_TYPE_KEYNOTE"
+- "APP_SOURCE_TYPE_MEMORY"
+- "APP_SOURCE_TYPE_MESSAGE"
+- "APP_SOURCE_TYPE_NOTE"
+- "APP_SOURCE_TYPE_NOTE_FOLDER"
+- "APP_SOURCE_TYPE_NUMBERS"
+- "APP_SOURCE_TYPE_PAGES"
+- "APP_SOURCE_TYPE_PHONE_CALL"
+- "APP_SOURCE_TYPE_PHOTO"
+- "APP_SOURCE_TYPE_PHOTO_ALBUM"
+- "APP_SOURCE_TYPE_REMINDER"
+- "APP_SOURCE_TYPE_REMINDER_LIST"
+- "APP_SOURCE_TYPE_VIDEO"
+- "APP_SOURCE_TYPE_VOICE_MAIL"
+- "APP_SOURCE_TYPE_VOICE_MEMOS"
+- "APP_SOURCE_TYPE_WALLET_PASS"
+- "APP_SOURCE_TYPE_WEBSITE"
+- "ARM"
+- "AST_AND"
+- "AST_COMPOSITE"
+- "AST_FIELD"
+- "AST_OR"
+- "AST_UNKNOWN"
+- "ATTACHMENT"
+- "ATTACHMENT_TYPE"
+- "Adresse"
+- "Adressen"
+- "Anhang"
+- "Anhänge"
+- "BOOLEAN_AND"
+- "BOOLEAN_OR"
+- "Bild"
+- "Bilder"
+- "CFString"
+- "CFStringRef  _Nullable getkQPParseAttributeAirdropActionKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeArchiveActionKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeAttachmentKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeAttachmentKindKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeCompletedActionKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeCreatedActionKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeDateKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeDescriptionKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeDownloadedActionKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeDraftActionKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeDueActionKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeEarliestActionKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeFacebookActionKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeFavoritedKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeFlagColorKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeFlaggedKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeFlightActionKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeFlightArrivalLocationKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeFlightCarrierKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeFlightDepartureLocationKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeFlightLocationKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeGroundedPersonKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeHotelActionKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeHotelNameKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeHotelProviderKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeJunkActionKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeKindKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeLatestActionKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeMediaKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeModifiedActionKey()"
+- "CFStringRef  _Nullable getkQPParseAttributePersonKey()"
+- "CFStringRef  _Nullable getkQPParseAttributePrintedActionKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeRankingDescriptionKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeReadKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeReadingListActionKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeReceivedKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeRecipientKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeRepliedKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeRestaurantActionKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeRestaurantNameKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeSenderKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeSentKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeSharedKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeTagColorKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeTaggedKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeTaggedPersonKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeTransportActionKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeTwitterActionKey()"
+- "CFStringRef  _Nullable getkQPParseAttributeUnreadKey()"
+- "CFStringRef  _Nullable getkQPQUOutputECRGroundNamesKey()"
+- "CFStringRef  _Nullable getkQPQUOutputECRGroundNamesRelationKey()"
+- "CFStringRef  _Nullable getkQPQUOutputECRGroundNamesTokenKey()"
+- "CFStringRef  _Nullable getkQPQUOutputECRGroundNamesTokenRelationKey()"
+- "CFStringRef  _Nullable getkQPQUOutputLemmaKey()"
+- "CFStringRef  _Nullable getkQPQUOutputRawTextTokenizedKey()"
+- "CFStringRef  _Nullable getkQPQUOutputSpanTypesKey()"
+- "CFStringRef  _Nullable getkQPQUOutputTokenArgIdsKey()"
+- "CFStringRef  _Nullable getkQPQUOutputTokenArgScoresKey()"
+- "CFStringRef  _Nullable getkQPQUOutputTokenAttributeIndexesKey()"
+- "CFStringRef  _Nullable getkQPQUOutputTokenInfoKey()"
+- "CFStringRef  _Nullable getkQPQUOutputTokenIsRelativeTimeKey()"
+- "CFStringRef  _Nullable getkQPQUOutputTokenIsSelfKey()"
+- "CFStringRef  _Nullable getkQPQUOutputTokenKey()"
+- "CFStringRef  _Nullable getkQPQUOutputTokenPhraseWeightsKey()"
+- "CFStringRef  _Nullable getkQPQUOutputTokenRangeKey()"
+- "CFStringRef  _Nullable getkQPQUOutputTokenRawTextKey()"
+- "CFStringRef  _Nullable getkQPQueryParserOptionU2EnabledKey()"
+- "CFStringRef  _Nullable getkQPQueryParserOptionUseLLMParseKey()"
+- "CONDITIONAL_OPTIONAL"
+- "CONVERSATION_FILTER_TIME"
+- "Calendar"
+- "Cerberus"
+- "Clock_timerDuration_seconds"
+- "CloudDocs"
+- "Contacts"
+- "Ctl"
+- "DISARM"
+- "Date"
+- "Datum"
+- "Datum:"
+- "DisableSynonymsExpansion"
+- "E-Mail"
+- "E-Mails"
+- "EVENT"
+- "EVENT_TYPE"
+- "EVENT_TYPE_APPOINTMENT"
+- "EVENT_TYPE_CARD"
+- "EVENT_TYPE_CAR_RENTAL"
+- "EVENT_TYPE_FLIGHT"
+- "EVENT_TYPE_HOTEL"
+- "EVENT_TYPE_PARTY"
+- "EVENT_TYPE_RESTAURANT"
+- "EVENT_TYPE_SHIPPING_ORDER"
+- "EVENT_TYPE_TICKET_SHOW"
+- "EVENT_TYPE_TICKET_TRANSPORT"
+- "EnableL1ExtendedDebug"
+- "EnableLegacyMessagesTree"
+- "EnableSparseORSearchTerms"
+- "Events"
+- "FACTOR"
+- "FALSE"
+- "FLAG_COLOR"
+- "FREE"
+- "FROM"
+- "Field"
+- "Files"
+- "Foto"
+- "Fotos"
+- "Home"
+- "I"
+- "INFERRED_APP_ENTITY_TYPE_ALARM"
+- "INFERRED_APP_ENTITY_TYPE_APP"
+- "INFERRED_APP_ENTITY_TYPE_CALENDAR_EVENT"
+- "INFERRED_APP_ENTITY_TYPE_CONTACT"
+- "INFERRED_APP_ENTITY_TYPE_CONVERSATION"
+- "INFERRED_APP_ENTITY_TYPE_DOCUMENT"
+- "INFERRED_APP_ENTITY_TYPE_DOCUMENT_FOLDER"
+- "INFERRED_APP_ENTITY_TYPE_EMAIL"
+- "INFERRED_APP_ENTITY_TYPE_FREEFORM_BOARD"
+- "INFERRED_APP_ENTITY_TYPE_GENERIC_FOLDER"
+- "INFERRED_APP_ENTITY_TYPE_GROUP_TAB"
+- "INFERRED_APP_ENTITY_TYPE_JOURNAL"
+- "INFERRED_APP_ENTITY_TYPE_KEYNOTE"
+- "INFERRED_APP_ENTITY_TYPE_LINK"
+- "INFERRED_APP_ENTITY_TYPE_MEDIA"
+- "INFERRED_APP_ENTITY_TYPE_MEMORY"
+- "INFERRED_APP_ENTITY_TYPE_MESSAGE"
+- "INFERRED_APP_ENTITY_TYPE_NOTE"
+- "INFERRED_APP_ENTITY_TYPE_NOTE_FOLDER"
+- "INFERRED_APP_ENTITY_TYPE_NUMBERS"
+- "INFERRED_APP_ENTITY_TYPE_PAGES"
+- "INFERRED_APP_ENTITY_TYPE_PHONE_CALL"
+- "INFERRED_APP_ENTITY_TYPE_PHOTO"
+- "INFERRED_APP_ENTITY_TYPE_PHOTO_ALBUM"
+- "INFERRED_APP_ENTITY_TYPE_REMINDER"
+- "INFERRED_APP_ENTITY_TYPE_REMINDER_LIST"
+- "INFERRED_APP_ENTITY_TYPE_TAB"
+- "INFERRED_APP_ENTITY_TYPE_TIMER"
+- "INFERRED_APP_ENTITY_TYPE_VIDEO"
+- "INFERRED_APP_ENTITY_TYPE_VOICE_MAIL"
+- "INFERRED_APP_ENTITY_TYPE_VOICE_MEMOS"
+- "INFERRED_APP_ENTITY_TYPE_WALLET_PASS"
+- "INFERRED_APP_ENTITY_TYPE_WEBSITE"
+- "Invalid range provided for llmParse of length"
+- "LINK"
+- "LOCATION"
+- "LOCATION_ARRIVAL"
+- "LOCATION_DEPARTURE"
+- "Link"
+- "Links"
+- "Location"
+- "MAIL_CATEGORY"
+- "MD%d calibrated threshold: %f, cutoffOffset: %f, scale: %f, bias: %f"
+- "MD%d: Using default similarity of 0.15 to get threshold = %f (ERROR: scale is 0)"
+- "MDItemCardGroupNumber"
+- "MDItemDescription"
+- "MDItemEventName"
+- "MDItemEventStartLocationName"
+- "MDUnicodeConverter"
+- "MEDIA_TYPE"
+- "Mail"
+- "Messages"
+- "NONE"
+- "Nachricht"
+- "Nachrichten"
+- "Notes"
+- "OPTIONAL"
+- "OR"
+- "ORDER_BY_TIME_ASCENDING"
+- "ORDER_BY_TIME_DESCENDING"
+- "OmniSearch"
+- "OnDeviceQueryUnderstanding2024"
+- "OptionalSearchTermWeightMultiplier"
+- "PERSON"
+- "PERSON_RECEIVER"
+- "PERSON_SELF"
+- "PERSON_SENDER"
+- "PHOTO"
+- "PLURAL"
+- "PRDefaultsGetAssetPathForQueryParser"
+- "PRLLMParse.mm"
+- "PROTECT"
+- "PRQUUtils.mm"
+- "PRQueryPhotosProcessor.mm"
+- "PRQueryQUProcessor.mm"
+- "Passbook_rawPassJson"
+- "Person"
+- "Photos"
+- "Post"
+- "Posten"
+- "QPFilter"
+- "QUPP_ARG_APP_ENTITY_TYPE_"
+- "QUPP_ARG_EVENT_TYPE"
+- "QUPP_ARG_EVENT_TYPE_"
+- "QueryParser"
+- "RecencyDisabled"
+- "Reminders"
+- "Resources callback is not set"
+- "SDB cache %p slot %d op[oldest+%d]: %{public}s dbp=%p"
+- "SDB cache %p slot %d: dbp=%p guarded=%d eligible=%d sz=%zu pgnum=0x%x"
+- "SEARCH_TERM"
+- "SEARCH_TERM_OPTIONAL"
+- "SENT"
+- "SINGULAR"
+- "SORT_ORDER_LAST"
+- "SORT_ORDER_NEXT"
+- "SPECIAL"
+- "SPECIAL_EMAIL"
+- "STOPWORDS_SHORT"
+- "Safari"
+- "SearchTool"
+- "SearchToolLLMQueryUnderstanding"
+- "Settings"
+- "Skipping ANN node (ERROR: Failed to get byte from embedding)"
+- "Skipping ANN node (ERROR: embedding has 0 dimensionality)"
+- "SpotlightDocumentUnderstandingDonation"
+- "SpotlightEnableMailCategory"
+- "SpotlightL1MailThresh"
+- "SpotlightL1MessagesThresh"
+- "SpotlightL1PhotosThresh"
+- "SpotlightPhotosANNPrecisionMD7"
+- "SpotlightPhotosANNPrecisionMD8"
+- "SpotlightPhotosAnnCutoff"
+- "SpotlightResourcesErrorDomain"
+- "SpotlightUI"
+- "Suggestions"
+- "Suspending root query scheduler(%d)"
+- "TAG_NAME"
+- "TEMPORAL_REFERENCE_FUTURE"
+- "TEMPORAL_REFERENCE_PAST"
+- "TERM"
+- "TIME"
+- "TIME_CREATED"
+- "TIME_END"
+- "TIME_LAST_OPENED"
+- "TIME_MODIFIED"
+- "TIME_START"
+- "TO"
+- "TRUE"
+- "TUS kMDSTagUpdateSetPositionInfo guard fault: addr=%p base=%p size=%zu"
+- "TUS kMDSTagUpdateSetPositionTable guard fault: addr=%p base=%p size=%zu"
+- "TUS kMDSTagUpdateSetPostings guard fault: addr=%p base=%p size=%zu"
+- "TUS kMDSTagUpdateSetTerms (dataAllocator) guard fault: addr=%p slab=%p size=%zu"
+- "TUS kMDSTagUpdateSetTerms (termSlab) guard fault: addr=%p slab=%p size=%zu"
+- "Term"
+- "Threshold based on client supplied values: %f, rel: %f"
+- "Token ranking description is = %@"
+- "UNKNOWN"
+- "UNKNOWN(%u)"
+- "UNPROTECT"
+- "UNSPECIFIED"
+- "Unk"
+- "Using user default cutoff: %f"
+- "Using user default precision for MD6: %d"
+- "Using user default precision for MD7: %d"
+- "Using user default precision for MD8: %d"
+- "Using user default threshold: %f, distance: %f"
+- "Verknüpfung"
+- "Verknüpfungen"
+- "Wallet"
+- "Write cache %p: page lost mprotect eligibility after resize (new_ptr=%p, aligned=%d, dbp_sz=%d, page_sz=%zu)"
+- "Write cache %p: slot %d page %p armed for mprotect guard"
+- "Write cache %p: slot %d page %p freed (was guarded, sz=%zu)"
+- "Write cache %p: slot %d page changed from %p to %p after flush — clearing stale mprotect guard"
+- "[%s]%@[%ld][%s]"
+- "[Context]{"
+- "[DS]"
+- "[Home] AND'd %lu date filter(s) into retrieval tree"
+- "[QU][base]"
+- "[SPM]"
+- "[SP]"
+- "[V2]"
+- "[qid=%lld][%s][POMMES] Added Photos query node to the POMMES query tree (empty: %d) (filter: %d)"
+- "[qid=%lld][%s][POMMES] Added default query node to the non-Photos tree (type: %d)"
+- "[qid=%lld][%s][POMMES] Added non-photos QU query node to the non-Photos query tree"
+- "[qid=%lld][%s][POMMES] Added non-photos query node to the POMMES query tree (useQU: %d) (useLLM: %d) (filter: %d)"
+- "[qid=%lld][%s][POMMES] Adding recency nodes weight=%f, dayold=%d"
+- "[qid=%lld][%s][POMMES] Default node maxScore = %f"
+- "[qid=%lld][%s][POMMES] Default query node is empty / ALWAYS_FALSE_NODE (empty: %d)"
+- "[qid=%lld][%s][POMMES] Non-photos QU query node is empty / ALWAYS_FALSE_NODE (empty: %d)"
+- "[qid=%lld][%s][POMMES] Non-photos query node is empty / ALWAYS_FALSE_NODE (empty: %d)"
+- "[qid=%lld][%s][POMMES] Not Adding recency nodes"
+- "[qid=%lld][%s][POMMES] Photos query node is empty / ALWAYS_FALSE_NODE (empty: %d)"
+- "[qid=%lld][%s][POMMES] Skip adding non-photos QU query node to the POMMES tree (useQU: %d) (useLLM: %d)"
+- "[qid=%lld][%s][POMMES] Skip adding photos query node to the POMMES tree (useQU: %d) (useLLM: %d)"
+- "[qid=%lld][%s][POMMES]%s"
+- "[qid=%lld][%s][POMMES]Nested field node under field-scoped conversion (outer attribs kept, inner keyword: %s)"
+- "[qid=%lld][%s][POMMES]Using union of all bundleIDTypes for processing un-supported bundles for SearchTool %@"
+- "[qid=%lld][%s][POMMES][Generic] Failed to generate a POMMES query tree due to none bundleIDType"
+- "[qid=%lld][%s][POMMES][Generic] Failed to generate a non-`nil` POMMES query tree post-optimization"
+- "[qid=%lld][%s][POMMES][Generic] Failed to generate a non-`nil` POMMES query tree pre-optimization"
+- "[qid=%lld][%s][POMMES][LLM] Adding dense retrieval node"
+- "[qid=%lld][%s][POMMES][LLM] Adding filter nodes for not searching over image and video files"
+- "[qid=%lld][%s][POMMES][LLM] Adding image and video file search sub-tree to retrieval tree as intent is document search"
+- "[qid=%lld][%s][POMMES][LLM] Got an empty retrieval query tree (using ALWAYS_FALSE_NODE)"
+- "[qid=%lld][%s][POMMES][LLM] Got no LLM parse (using ALWAYS_FALSE_NODE) with LLMParse:'%@'"
+- "[qid=%lld][%s][POMMES][LLM] Received a NULL LLMProcessorContext (using ALWAYS_FALSE_NODE)"
+- "[qid=%lld][%s][POMMES][LLM] Skip adding non-photos LLM tree, Got no LLM parse (using ALWAYS_FALSE_NODE)"
+- "[qid=%lld][%s][POMMES][LLM] Skipping adding sparse nodes to retrieval tree as all tokens are temporal nodes"
+- "[qid=%lld][%s][POMMES][LLM] Skipping image and video file search sub-tree to retrieval tree as it is empty"
+- "[qid=%lld][%s][POMMES][LLM] since the tree is empty, generating a tree from all the QUPP_ARG_SEARCH_TERM_OPTIONAL tokens with OR nodes"
+- "[qid=%lld][%s][POMMES][LLM]%@ %@"
+- "[qid=%lld][%s][POMMES][LLM]%@ Add lemma node \"%@\" for token \"%@\""
+- "[qid=%lld][%s][POMMES][LLM]%@ Added %s grounded names match node"
+- "[qid=%lld][%s][POMMES][LLM]%@ Added filter for conditions: {\"%s\"}"
+- "[qid=%lld][%s][POMMES][LLM]%@ Adding %@ grounded email match node"
+- "[qid=%lld][%s][POMMES][LLM]%@ Adding %s grounded names match node"
+- "[qid=%lld][%s][POMMES][LLM]%@ Adding alias name ranking node"
+- "[qid=%lld][%s][POMMES][LLM]%@ Adding app entity type node with tokenID:%s and score:%f"
+- "[qid=%lld][%s][POMMES][LLM]%@ Adding contacts bundle exclusion filter to search terms"
+- "[qid=%lld][%s][POMMES][LLM]%@ Adding entity-boosting query tree {matchScore: %lf} (invalid: %d)"
+- "[qid=%lld][%s][POMMES][LLM]%@ Adding grounded name \"%@\" with isOrNode:%d"
+- "[qid=%lld][%s][POMMES][LLM]%@ Adding grounded names \"%s\" for rawtoken: \"%@\""
+- "[qid=%lld][%s][POMMES][LLM]%@ Adding hypocorism alias  \"%@\" for rawtoken: \"%@\""
+- "[qid=%lld][%s][POMMES][LLM]%@ Adding hypocorism alias  \"%s\""
+- "[qid=%lld][%s][POMMES][LLM]%@ Adding hypocorism alias node for rawtoken: \"%@\""
+- "[qid=%lld][%s][POMMES][LLM]%@ Adding hypocorism alias ranking node for name: \"%@\""
+- "[qid=%lld][%s][POMMES][LLM]%@ Adding lemma node \"%@\" for token \"%@\""
+- "[qid=%lld][%s][POMMES][LLM]%@ Adding lemma node \"%@\" for token \"%@\" in ranking"
+- "[qid=%lld][%s][POMMES][LLM]%@ Adding lemma node \"%@\" for token \"%@\" {matchScore: %lf}"
+- "[qid=%lld][%s][POMMES][LLM]%@ Adding meCard contact identifier retrieval node"
+- "[qid=%lld][%s][POMMES][LLM]%@ Adding meCard name retrieval node, skipping contact identifier node due to missing contact identifier"
+- "[qid=%lld][%s][POMMES][LLM]%@ Adding message group name %@ scoring"
+- "[qid=%lld][%s][POMMES][LLM]%@ Adding message self ranking node"
+- "[qid=%lld][%s][POMMES][LLM]%@ Adding parsed query tree (+nonMatch:%d)"
+- "[qid=%lld][%s][POMMES][LLM]%@ Adding parsed query tree (isFilterArg: %d)"
+- "[qid=%lld][%s][POMMES][LLM]%@ Adding ranking description query tree (invalid: %d)"
+- "[qid=%lld][%s][POMMES][LLM]%@ Adding ranking node from retrieval description with matchScore=%0.2f based on attribute \"%s\""
+- "[qid=%lld][%s][POMMES][LLM]%@ Adding self identifier contact node"
+- "[qid=%lld][%s][POMMES][LLM]%@ Adding temporal reference filter for calendar bundle/entity type schema"
+- "[qid=%lld][%s][POMMES][LLM]%@ Adding token match node"
+- "[qid=%lld][%s][POMMES][LLM]%@ Adding unmatch query tree"
+- "[qid=%lld][%s][POMMES][LLM]%@ Attribute Scores: %s"
+- "[qid=%lld][%s][POMMES][LLM]%@ Bypassing optional search token matching (allOptional:%d, requiredParty:%d)"
+- "[qid=%lld][%s][POMMES][LLM]%@ Creating raw match tokenNode for Time tokens"
+- "[qid=%lld][%s][POMMES][LLM]%@ Exclude token match node for departure and arrival location for Wallet bundle"
+- "[qid=%lld][%s][POMMES][LLM]%@ Extending match with \"%s\""
+- "[qid=%lld][%s][POMMES][LLM]%@ Extending match with \"%s\" (maxScore: %f -> %f)"
+- "[qid=%lld][%s][POMMES][LLM]%@ Got an empty inferredAttributeScores map"
+- "[qid=%lld][%s][POMMES][LLM]%@ Got an empty ranking tree"
+- "[qid=%lld][%s][POMMES][LLM]%@ No grounded name available"
+- "[qid=%lld][%s][POMMES][LLM]%@ No hypocorism alias ranking node available"
+- "[qid=%lld][%s][POMMES][LLM]%@ Not adding parsed query tree because tokenDescription is empty"
+- "[qid=%lld][%s][POMMES][LLM]%@ Not adding parsed query tree because tokenDescription is empty (isFilterArg: %d)"
+- "[qid=%lld][%s][POMMES][LLM]%@ Not adding parsed query tree because we add token matching manually"
+- "[qid=%lld][%s][POMMES][LLM]%@ Phrase Scores: {\"bigram\": %.3f, \"full-phrase\": %.3f}"
+- "[qid=%lld][%s][POMMES][LLM]%@ Retrieval description is missing for attribute \"%s\""
+- "[qid=%lld][%s][POMMES][LLM]%@ Skip adding token match node (arg is app entity filter)"
+- "[qid=%lld][%s][POMMES][LLM]%@ Skip adding token match node (arg is optional, not required, and there is at least one non-optional argId in the query)"
+- "[qid=%lld][%s][POMMES][LLM]%@ Skip adding token match node (arg is person sender or receiver)"
+- "[qid=%lld][%s][POMMES][LLM]%@ Skip adding token match node (arg is time)"
+- "[qid=%lld][%s][POMMES][LLM]%@ Skip adding token match node (it is optional and there is at least one non-optional arg Id in the query)"
+- "[qid=%lld][%s][POMMES][LLM]%@ Skip adding token match node (this is app entity filter or document inferred app entity)"
+- "[qid=%lld][%s][POMMES][LLM]%@ Skip adding token match node (this is person sender or receiver)"
+- "[qid=%lld][%s][POMMES][LLM]%@ Skip creating raw match tokenNode (hasNonOptionalSearchTerm=%d)"
+- "[qid=%lld][%s][POMMES][LLM]%@ Skip creating raw match tokenNode for SELF"
+- "[qid=%lld][%s][POMMES][LLM]%@ Skip creating raw match tokenNode with entity-boosting score, it is relative time arg"
+- "[qid=%lld][%s][POMMES][LLM]%@ Skip creating raw match tokenNode, arg is time"
+- "[qid=%lld][%s][POMMES][LLM]%@ Skipped creating filter attribute node (isFilterArg: %d)"
+- "[qid=%lld][%s][POMMES][LLM]%@ Skipped entity-boosting scoring (arg is not ranked)"
+- "[qid=%lld][%s][POMMES][LLM]%@ Skipping (arg is a search term and hasStrictContactEntityType=1)"
+- "[qid=%lld][%s][POMMES][LLM]%@ Skipping (arg is an event type hotel and hasNonOptionalSearchTerm=1)"
+- "[qid=%lld][%s][POMMES][LLM]%@ Skipping (arg is for TopK ranking only)"
+- "[qid=%lld][%s][POMMES][LLM]%@ Skipping (arg is ignored app entity status)"
+- "[qid=%lld][%s][POMMES][LLM]%@ Skipping (arg is inferred app entity)"
+- "[qid=%lld][%s][POMMES][LLM]%@ Skipping (arg is optional)"
+- "[qid=%lld][%s][POMMES][LLM]%@ Skipping (arg is person self and hasContact=%d, skipSelf=%d)"
+- "[qid=%lld][%s][POMMES][LLM]%@ Skipping (it is for TopK ranking only)"
+- "[qid=%lld][%s][POMMES][LLM]%@ Skipping (it is ignored or bundle specific filter app entity status)"
+- "[qid=%lld][%s][POMMES][LLM]%@ Skipping (it is person self and hasContact=%d, skipSelf=%d)"
+- "[qid=%lld][%s][POMMES][LLM]%@ Skipping (matched trailing optional search token)"
+- "[qid=%lld][%s][POMMES][LLM]%@ Skipping adding conditional filtering because conditions are empty"
+- "[qid=%lld][%s][POMMES][LLM]%@ Skipping adding filter for conditions {\"%s\"} because tokenDescription is empty"
+- "[qid=%lld][%s][POMMES][LLM]%@ Skipping grounded names \"%s\" for rawtoken: \"%@\""
+- "[qid=%lld][%s][POMMES][LLM]%@ Skipping mail category (user default SpotlightEnableMailCategory not set)"
+- "[qid=%lld][%s][POMMES][LLM]%@ Skipping message group name %@ scoring"
+- "[qid=%lld][%s][POMMES][LLM]%@ add alias node of token %@ for retrieve tree"
+- "[qid=%lld][%s][POMMES][LLM]%@ add isFromMe to retrieve tree for token: %@"
+- "[qid=%lld][%s][POMMES][LLM]%@ add message group name %@ to retrieve tree"
+- "[qid=%lld][%s][POMMES][LLM]%@ extending match to shared files via collaborative mode in messages"
+- "[qid=%lld][%s][POMMES][LLM]%@ fail to add hypocorism alias  \"%@\" for rawtoken: \"%@\""
+- "[qid=%lld][%s][POMMES][LLM]%@ fail to add hypocorism alias ranking node for name: \"%@\""
+- "[qid=%lld][%s][POMMES][LLM]%@ limit dense retrieval to \"com.apple.spotlight.events\""
+- "[qid=%lld][%s][POMMES][LLM]%@ limit dense retrieval to \"com.apple.spotlight.events\" and wallet, calendar, mail, messages, pdfs."
+- "[qid=%lld][%s][POMMES][LLM]%@ limit dense retrieval to \"com.apple.spotlight.events\", wallet, pdfs, messages, and notes."
+- "[qid=%lld][%s][POMMES][LLM]%@ limit sparse retrieval to \"com.apple.spotlight.events\""
+- "[qid=%lld][%s][POMMES][LLM]%@ limit sparse retrieval to \"com.apple.spotlight.events\" and wallet, calendar, mail, messages, pdfs."
+- "[qid=%lld][%s][POMMES][LLM]%@ limit sparse retrieval to \"com.apple.spotlight.events\", wallet, pdfs, messages, and notes."
+- "[qid=%lld][%s][POMMES][LLM]%@ limit to \"com.apple.spotlight.events\""
+- "[qid=%lld][%s][POMMES][LLM]%@ limit to \"com.apple.spotlight.events\" and wallet, calendar, mail, messages, pdfs."
+- "[qid=%lld][%s][POMMES][LLM]%@ limit to \"com.apple.spotlight.events\", wallet, pdfs, messages, and notes."
+- "[qid=%lld][%s][POMMES][LLM]%@ retrieve all type of files for file search on iOS"
+- "[qid=%lld][%s][POMMES][LLM]%@ retrieve image and video type of files for file search on macOS"
+- "[qid=%lld][%s][POMMES][LLM]%@ scoping DOCUMENT_FOLDER token to %s token-match \"%@\""
+- "[qid=%lld][%s][POMMES][LLM]%@ skip message group name %@ for retrieve tree"
+- "[qid=%lld][%s][POMMES][LLM]%@ use the weight multiplier for optional search term, multiplier = %f"
+- "[qid=%lld][%s][POMMES][LLM]%@[alias_node_creation_failure]: fail to create alias node: hasMemoryAllocationError:%d hasNonMatchingTokens:%d"
+- "[qid=%lld][%s][POMMES][LLM]%@[alias_node_creation_failure]: null swapped node"
+- "[qid=%lld][%s][POMMES][LLM]%s"
+- "[qid=%lld][%s][POMMES][LLM][%@] skip adding alias name due to nil raw token"
+- "[qid=%lld][%s][POMMES][LLM][%s] Accumulating dense retrieval filter"
+- "[qid=%lld][%s][POMMES][LLM][%s] Adding L1 Ranking V2 node, enabling L1 normalization"
+- "[qid=%lld][%s][POMMES][LLM][%s] Adding sparse retrieval node"
+- "[qid=%lld][%s][POMMES][LLM][%s] Create both photos and text retrieval and ranking trees AppEntityType is photos and non-photos"
+- "[qid=%lld][%s][POMMES][LLM][%s] Create both photos and text retrieval and ranking trees if there is no APP_ENTITY_TYPE - it either has an EVENT_TYPE or is a generic parse"
+- "[qid=%lld][%s][POMMES][LLM][%s] Create only non-photos retrieval and ranking tree as both SourceType and AppEntityType is non-photos"
+- "[qid=%lld][%s][POMMES][LLM][%s] Create only photos retrieval and ranking tree as either SourceType or AppEntityType is photos"
+- "[qid=%lld][%s][POMMES][LLM][%s] No LLM parse is provided (using ALWAYS_FALSE_NODE) with llmParse:'%@'"
+- "[qid=%lld][%s][POMMES][LLM][%s] Overriding skipPhotos=true because excludePhotos is set in OmniSearch (photos handled by PhotoKit)"
+- "[qid=%lld][%s][POMMES][LLM][%s] maxScore (non-optional search term) = %f, maxScore (optional search term) = %f"
+- "[qid=%lld][%s][POMMES][LLM][%s][%ld][%s][%@]%@ %@"
+- "[qid=%lld][%s][POMMES][LLM][%s][DS] Encoded query embedding in null"
+- "[qid=%lld][%s][POMMES][LLM][%s][DS] Missing \"%@\" query embedding key"
+- "[qid=%lld][%s][POMMES][LLM][%s][DS] Missing query understanding dictionary"
+- "[qid=%lld][%s][POMMES][LLM][%s][DS] Text embedding disabled by bundle, DISABLING all text dense retrieval"
+- "[qid=%lld][%s][POMMES][LLM][%s][DS] Text semantic search FF is disabled"
+- "[qid=%lld][%s][POMMES][LLM][DS] Combined denseNode with the retrieval filter arguments (filterArgs: %d)"
+- "[qid=%lld][%s][POMMES][LLM][DS] Created ANN node (dim: %lu, thresh: %f, maxCount: %u)"
+- "[qid=%lld][%s][POMMES][LLM][DS] Failed to create an ANN node"
+- "[qid=%lld][%s][POMMES][LLM][DS] Got an empty dense retrieval query node (using ALWAYS_FALSE_NODE)"
+- "[qid=%lld][%s][POMMES][LLM][DS] Got an empty query tree (using ALWAYS_FALSE_NODE)"
+- "[qid=%lld][%s][POMMES][LLM][DS] Got no LLM parse"
+- "[qid=%lld][%s][POMMES][LLM][DS] Skipping ANN node (ERROR: decoded query embedding in null)"
+- "[qid=%lld][%s][POMMES][LLM][DS] Text semantic search is %s and denseNode is %s"
+- "[qid=%lld][%s][POMMES][LLM][DS] [MODEL TRANSITIONING] Created ANN node for previous text embedding (version current: %d, previous: %d)"
+- "[qid=%lld][%s][POMMES][LLM][LLM][DS] Skipping ANN node (ERROR: Failed to get bytes from embedding)"
+- "[qid=%lld][%s][POMMES][LLM][LLM][DS] Skipping ANN node (ERROR: embedding has 0 dimensionality) [length: %lu]"
+- "[qid=%lld][%s][POMMES][LLM][Ph] Received a NULL LLMProcessorContext (using ALWAYS_FALSE_NODE)"
+- "[qid=%lld][%s][POMMES][LLM][SPM] Got an empty retrieval query tree (using ALWAYS_FALSE_NODE)"
+- "[qid=%lld][%s][POMMES][LLM][SPM] Got no LLM parse (using ALWAYS_FALSE_NODE) with LLMParse:'%@'"
+- "[qid=%lld][%s][POMMES][LLM][SPM] Skipping adding sparse nodes to retrieval tree as all tokens are temporal nodes"
+- "[qid=%lld][%s][POMMES][LLM][V2] Got an empty ranking query tree (using clone of retrieval node with maxScore = 1)"
+- "[qid=%lld][%s][POMMES][LLM][V2] Got no LLM parse (using ALWAYS_FALSE_NODE) with LLMParse:'%@'"
+- "[qid=%lld][%s][POMMES][LLM][idx=%ld] createLLMParseCtxWithStatus returned Unknown status for key \"%s\"; this is a bug."
+- "[qid=%lld][%s][POMMES][LLM][idx=%ld] parseCtx is overriding existing key \"%s\""
+- "[qid=%lld][%s][POMMES][LLM][idx=%ld] query understanding is ill-formed, expected to be a dictionary; will skip."
+- "[qid=%lld][%s][POMMES][LLM]createLLMParseCtxWithStatus returned Unknown status; this is a bug."
+- "[qid=%lld][%s][POMMES][QU] Not using U2 for non-photos but rule based QP for query with QPParse:'%@'."
+- "[qid=%lld][%s][POMMES][QU] Skip adding non-photos tree, Got no U2 parse (using ALWAYS_FALSE_NODE)"
+- "[qid=%lld][%s][POMMES][QU] Use U2 for non-photos query with QPParse:'%@'"
+- "[qid=%lld][%s][POMMES][QU]Got an empty ranking query tree (using ALWAYS_FALSE_NODE)"
+- "[qid=%lld][%s][POMMES][QU]Got an empty retrieval query tree (using ALWAYS_FALSE_NODE)"
+- "[qid=%lld][%s][POMMES][QU][%s][%ld][%s][%@]%@ %@ %lu"
+- "[qid=%lld][%s][POMMES][QU][lastIdx=%lu] Skipping non-Photos QU tree: {malformed=%d, allKeyword=%d}"
+- "[qid=%lld][%s][POMMES][QU][tokenIdx=%lu] Adding parsed query tree for earliest/latest tokenID %d (invalid: %d)"
+- "[qid=%lld][%s][POMMES][QU][tokenIdx=%lu] Adding parsed query tree for tokenID %d (invalid: %d)"
+- "[qid=%lld][%s][POMMES][QU][tokenIdx=%lu] Got an empty ranking tree for tokenID %d"
+- "[qid=%lld][%s][POMMES][QU][tokenIdx=%lu] Got an empty retrieval tree for tokenID %d"
+- "[qid=%lld][%s][POMMES][QU][tokenIdx=%lu] Including keyword match for ranking for tokenID %d (invalid: %d)"
+- "[qid=%lld][%s][POMMES][QU][tokenIdx=%lu] Including keyword match for retrieval for tokenID %d (invalid: %d)"
+- "[qid=%lld][%s][POMMES][QU][tokenIdx=%lu] Non-photos QU tree is not *all* keywords."
+- "[qid=%lld][%s][POMMES][QU][tokenIdx=%lu] Not adding parsed query tree for tokenID %d because tokenDescription is empty"
+- "[qid=%lld][%s][POMMES][QU][tokenIdx=%lu] Skipping all special chars tokenID %d with length: %ld"
+- "[qid=%lld][%s][POMMES][QU][tokenIdx=%lu] Skipping earliest/latest tokenID %d (ERROR: no IDs or scores found)"
+- "[qid=%lld][%s][POMMES][QU][tokenIdx=%lu] Skipping non-keyword tokenID %d (ERROR: nil / empty token description length)"
+- "[qid=%lld][%s][POMMES][QU][tokenIdx=%lu] Skipping non-keyword tokenID %d (ERROR: no IDs or scores found)"
+- "[qid=%lld][%s][POMMES][QU][tokenIdx=%lu] Skipping token (ERROR: invalid range: %@)"
+- "[qid=%lld][%s][POMMES][QU][tokenIdx=%lu] Skipping token (ERROR: token info is missing essential keys)"
+- "[qid=%lld][%s][POMMES][QU][tokenIdx=%lu] Skipping tokenID %d (ERROR: nil / empty token length)"
+- "[qid=%lld][%s][POMMES][QU][tokenIdx=%lu] Skipping tokenID %d (it is optional)"
+- "[qid=%lld][%s][POMMES][QU][tokenIdx=%lu] Skipping tokenID (ERROR: invalid range: %@)"
+- "[qid=%lld][%s][POMMES][rewrite] First Pass Stemming (Committed Search) added stemmedToken = [%s] to Query Tree for token = [%s] with wildcard_limit = %u"
+- "[qid=%lld][%s][POMMES][rewrite] First Pass Stemming (Top Hits) added stemmedToken = [%s] to Query Tree for token = [%s] with wildcard_limit = %u"
+- "[qid=%llu, rank=%d, topHit=%d, rewrite=%d, lang: %@, bundle: %d, client: %@, class=%s]"
+- "[qid=%llu] Adding ANN node (dim: %lu, thresh: %f, num results: %d, visual tokens: %ld)"
+- "[qid=%llu] Adding generic filter: %@, token range: %@"
+- "[qid=%llu] Adding generic top level filter: %@, token range: %@"
+- "[qid=%llu] Adding metadata filter: %@, token range: %@"
+- "[qid=%llu] Assigning weight: %f to metadata filter"
+- "[qid=%llu] Created ranking tree in %f micro seconds"
+- "[qid=%llu] Processing attributed query"
+- "[qid=%llu] Processing query: %@, client: %@"
+- "[qid=%llu] Return no results (missing all nodes)"
+- "[qid=%llu] Returning false tree (Reason: query tree is empty)"
+- "[qid=%llu] Skipping ANN node (ERROR: decoded query embedding in null)"
+- "[qid=%llu] Skipping ANN node (ERROR: encoded query embedding in null)"
+- "[qid=%llu] Skipping ANN node (ERROR: missing query embedding)"
+- "[qid=%llu] Skipping ANN node (no visual token in the query)"
+- "[qid=%llu] Skipping ANN node (query has only suggestions)"
+- "[qid=%llu] Skipping ANN node (semantic search is disabled)"
+- "[qid=%llu] Skipping aNN filters (U2 is disabled by client)"
+- "[qid=%llu] Skipping aNN filters and metadata nodes (Reason: U2 and metadata search are disabled)"
+- "[qid=%llu] Skipping metadata node (metadata search is disabled)"
+- "[qid=%llu] Skipping metadata node (query has no free tokens)"
+- "[qid=%llu] Skipping ranking nodes (Reason: metadata search is disabled)"
+- "[qid=%llu] Token (range: %@) has generic and metdata filters (ORing them together)"
+- "[qid=%llu] [WARN] Ignoring filter, token range: %@, key: %@"
+- "[qid=%llu] {ANN} Added date filter for token %lu"
+- "[qid=%llu] {ANN} Added favorited filter for token %lu"
+- "[qid=%llu] {ANN} Added holiday/season filter for token %lu"
+- "[qid=%llu] {ANN} Added location filter for token %lu"
+- "[qid=%llu] {ANN} Added media type filter for token %lu"
+- "[qid=%llu] {ANN} Added person identifier filter for token %lu"
+- "[qid=%llu] {ANN} Added person name/alternative filter for token %lu"
+- "[qid=%llu] {Exact Match} Added %d nodes"
+- "[qid=%llu] {Exact Match} Skipping query (ERROR: UTF8 encoding of trimmed query failed)"
+- "[qid=%llu] {Exact Match} Skipping query (Reason: empty query after removing special chars)"
+- "[qid=%llu] {Exact Match} Skipping query (Reason: empty query after suggestion filtering)"
+- "[qid=%llu] {Exact Match} Skipping query (Reason: empty query)"
+- "[qid=%llu] {Exact Match} Skipping query (Reason: query is optional word)"
+- "[qid=%llu] {Prefix Match} Added %d nodes"
+- "[qid=%llu] {Prefix Match} Adding token: %lu, range:%@, type: %d, prefix: NO"
+- "[qid=%llu] {Prefix Match} Adding token: %lu, range:%@, type: %d, prefix: YES"
+- "[qid=%llu] {Prefix Match} Skipping query (ERROR: token count mismatch <%lu,%lu>)"
+- "[qid=%llu] {Prefix Match} Skipping query (Reason: empty query)"
+- "[qid=%llu] {Prefix Match} Skipping query (Reason: no useful tokens)"
+- "[qid=%llu] {Prefix Match} Skipping token: %lu, range: %@ (ERROR: UTF8 encoding failed)"
+- "[qid=%llu] {Prefix Match} Skipping token: %lu, range: %@ (ERROR: empty sub-query after trimming)"
+- "[qid=%llu] {Prefix Match} Skipping token: %lu, range: :%@ (ERROR: range is out of bounds)"
+- "[qid=%llu] {Prefix Match} Skipping token: %lu, range:%@ (ERROR: attribute score is 0 for type: %d)"
+- "[qid=%llu] {Prefix Match} Skipping token: %lu, range:%@ (Reason: not an important attribute type: %d)"
+- "[qid=%llu] {QP} Added %d nodes"
+- "[qid=%llu] {QP} Populated filters: time = %lu, fav = %lu, person = %lu, mediatype = %lu"
+- "[qid=%llu] {QP} Processing rule-based query parse output to create ranking tree"
+- "[qid=%llu] {QP} Return no results (ERROR: missing tokenization context on userQuery)"
+- "[qid=%llu] {QP} Return no results (ERROR: zero tokens found from the userQuery)"
+- "[qid=%llu] {QP} Skipping token %lu (ERROR: UTF8 encoding of token failed)"
+- "[qid=%llu] {QP} Skipping token %lu (ERROR: invalid range: (%ld, %ld))"
+- "[qid=%llu] {QP} Skipping token %lu (REASON: Its a filter token)"
+- "[qid=%llu] {QP} Skipping token %lu (Reason: It has only special characters)"
+- "[qid=%llu] {QP} Skipping token %lu (Reason: It is a suggestion token)"
+- "[qid=%llu] {QP} Skipping token %lu (Reason: It is optional)"
+- "[qid=%llu] {QP} Skipping token %lu (Reason: Its zero-length)"
+- "[qid=%llu] {QP} Token %lu has a date parse, will process it after all tokens are processed"
+- "[qid=%llu] {QP} Token: %lu has a date parse (Date parse idx: %lu)"
+- "[qid=%llu] {QP} Token: %lu has a fav parse (Fav parse idx: %lu)"
+- "[qid=%llu] {QP} Token: %lu has a media parse (Media parse idx: %lu)"
+- "[qid=%llu] {QP} Token: %lu has a person parse (Person parse idx: %lu)"
+- "[qid=%llu] {QP} Token: %lu is skipped (ERROR: UTF8 encoding of token failed)"
+- "[qid=%llu] {QP} Token: %lu is skipped (Reason: It has only trimmable chars)"
+- "[qid=%llu] {QP} Token: %lu is skipped (Reason: It is optional as per optional dictionary)"
+- "[qid=%llu] {QP} Using rule-based parse for creating ann filter and unigram node (U2 parse missing)"
+- "[qid=%llu] {Span Match} Added %d nodes"
+- "[qid=%llu] {Span Match} Adding span: %lu, type: %d, conf: %f, highConfMode: %d range:%@"
+- "[qid=%llu] {Span Match} Skipping query (ERROR: span count mismatch <#range=%lu, #types=%lu, #confidence=%lu>)"
+- "[qid=%llu] {Span Match} Skipping query (Reason: empty query)"
+- "[qid=%llu] {Span Match} Skipping query (Reason: no spans and no time parses in the query)"
+- "[qid=%llu] {Span Match} Skipping rest of span match nodes (Reason: exact match nodes should be sufficient)"
+- "[qid=%llu] {Span Match} Skipping span: %lu, range: %@ (ERROR: UTF8 encoding failed)"
+- "[qid=%llu] {Span Match} Skipping span: %lu, range: %@ (ERROR: range is out of bounds)"
+- "[qid=%llu] {Span Match} Skipping span: %lu, range: %@ (Reason: empty sub-query after trimming)"
+- "[qid=%llu] {Span Match} Skipping time parse: %u (ERROR: UTF8 encoding failed)"
+- "[qid=%llu] {Span Match} Skipping time parse: %u (ERROR: its zero length)"
+- "[qid=%llu] {Span Match} Skipping time span: %lu (ERROR: Empty sub-query for range %@)"
+- "[qid=%llu] {Span Match} Skipping time span: %lu (ERROR: UTF8 encoding failed for range %@)"
+- "[qid=%llu] {Span Match} Skipping time span: %lu (ERROR: out of bounds range %@)"
+- "[qid=%llu] {U2} Added apostrophe trimmed token %ld"
+- "[qid=%llu] {U2} Adjacent token %lu combined with prev-token"
+- "[qid=%llu] {U2} ERROR: Matching unexpected condition guard"
+- "[qid=%llu] {U2} Location token %lu added with tokId: %d (Reason: It has high conf: %f)"
+- "[qid=%llu] {U2} Person token %lu added with tokId: %d (Reason: It has high conf: %f)"
+- "[qid=%llu] {U2} Populated %lu date filters from QP parse"
+- "[qid=%llu] {U2} Populated %lu date filters from U2 parse"
+- "[qid=%llu] {U2} Populated %lu people filters from U2 parse"
+- "[qid=%llu] {U2} Processing query understanding output to create ranking tree"
+- "[qid=%llu] {U2} Search token %ld skipped (ERROR: UTF8 encoding of token failed)"
+- "[qid=%llu] {U2} Search token %ld skipped (Reason: It is optional)"
+- "[qid=%llu] {U2} Skipping adding nodes for the query (Reason: query is empty)"
+- "[qid=%llu] {U2} Skipping token: %lu (ERROR: invalid range: %@)"
+- "[qid=%llu] {U2} Skipping token: %lu (ERROR: token info is missing essential keys)"
+- "[qid=%llu] {U2} Skipping token: %lu (Reason: It is a suggestion token)"
+- "[qid=%llu] {U2} Token %lu added as new token"
+- "[qid=%llu] {U2} Token %lu added with tokID: %d (Reason: It has %@ span)"
+- "[qid=%llu] {U2} Token %lu has a date parse: %lu"
+- "[qid=%llu] {U2} Token %lu has a person parse: %lu"
+- "[qid=%llu] {U2} Token %lu has unsupported span: %@, skipping it"
+- "[qid=%llu] {U2} Token %lu is a relationship token as per vocab"
+- "[qid=%llu] {U2} Token %lu is concat token, skipping U2's predictions for it"
+- "[qid=%llu] {U2} Token %lu skipped (ERROR: No U2 parse for the token)"
+- "[qid=%llu] {U2} Token %lu skipped (ERROR: Token is null)"
+- "[qid=%llu] {U2} Token %lu skipped (ERROR: invalid range: %@)"
+- "[qid=%llu] {U2} Token %lu skipped (ERROR: tokIds.count(%lu) != tokIdsScore.count(%lu))"
+- "[qid=%llu] {U2} Token %lu skipped (ERROR: token info is missing essential keys)"
+- "[qid=%llu] {U2} Token %lu skipped (Reason: It has only special chars)"
+- "[qid=%llu] {U2} Token %lu skipped (Reason: Its a filter token)"
+- "[qid=%llu] {U2} Token %lu type is updated from %d to span %d"
+- "[qid=%llu] {U2} Token: %lu has a date parse (Date parse idx: %lu)"
+- "[qid=%llu] {U2} Token: %lu is a new span with type: %d, conf: %f (added range: %@)"
+- "[qid=%llu] {U2} Token: %lu is a new time span (added range: %@)"
+- "[qid=%llu] {U2} Token: %lu is interpreted as ARG_NOUN (Reason: Its U2 id: %d is not supported)"
+- "[qid=%llu] {U2} Token: %lu is skipped (ERROR: UTF8 encoding of token failed)"
+- "[qid=%llu] {U2} Token: %lu is skipped (Reason: It has only trimmable chars)"
+- "[qid=%llu] {U2} Token: %lu is skipped (Reason: It is optional as per QU model)"
+- "[qid=%llu] {U2} Token: %lu is skipped (Reason: It is optional as per optional dictionary)"
+- "[qid=%llu] {U2} Token: %lu is using default label: %d (ERROR: no U2 labels found)"
+- "[qid=%llu] {U2} Token: %lu is using default label: %d (ERROR: tokIds.count(%lu) != tokIdsScore.count(%lu))"
+- "[qid=%llu] {U2} Token: %lu merged with previous span with type %d (updated range: %@)"
+- "[qid=%llu] {U2} Token: %lu merged with previous time span (updated range: %@)"
+- "[qid=%llu] {U2} Using U2 output for creating ann filter and unigram node"
+- "[qid=%llu][%s][POMMES][LLM][%s][Ph]"
+- "_ICItemHasICItemHasTags"
+- "_ICItemIsShared"
+- "_date"
+- "_kMDItemAppEntityInstanceIdentifier"
+- "_kMDItemAppEntitySchema"
+- "_kMDItemAppEntityTypeIdentifier"
+- "_kMDItemAppEntityTypeIdentifier=\"MessageEntity\""
+- "_kMDItemBundleID = \"com.apple.FileProvider.LocalStorage\" || _kMDItemBundleID=\"com.apple.CloudDocs.iCloudDriveFileProvider\""
+- "_kMDItemBundleID = \"com.apple.application\" && kMDItemContentType = \"com.apple.application\""
+- "_kMDItemBundleID=\""
+- "_kMDItemContentCreationDateYear"
+- "_kMDItemDueDateHour"
+- "_kMDItemDueDateMonth"
+- "_kMDItemDueDateWeekday"
+- "_kMDItemIsFromMe=0"
+- "_kMDItemIsFromMe=1"
+- "a:"
+- "aan"
+- "aan:"
+- "about"
+- "above"
+- "acerca de"
+- "acknowledge"
+- "acknowledgment"
+- "address"
+- "addresses"
+- "adjunt"
+- "adjunto"
+- "adjuntos"
+- "adjunts"
+- "adreces"
+- "adres"
+- "adresa"
+- "adrese"
+- "adresler"
+- "adress"
+- "adresse"
+- "adressen"
+- "adresser"
+- "adresses"
+- "adresy"
+- "adresă"
+- "adreça"
+- "af"
+- "afbeelding"
+- "afbeeldingen"
+- "after"
+- "again"
+- "against"
+- "agreement"
+- "alamat"
+- "alebo"
+- "allegati"
+- "allegato"
+- "along"
+- "already"
+- "als"
+- "also"
+- "although"
+- "always"
+- "alıcı"
+- "alıcı:"
+- "am"
+- "ama"
+- "amb"
+- "an:"
+- "andrew"
+- "andy"
+- "anexo"
+- "anexos"
+- "anh"
+- "any"
+- "appointment"
+- "ar"
+- "aren"
+- "aren’t"
+- "arrayValue"
+- "as"
+- "assignment"
+- "assistance"
+- "ast_tree"
+- "asyoutype"
+- "atau"
+- "atașament"
+- "atașamente"
+- "att"
+- "attachment"
+- "attachmentDomain"
+- "attachments"
+- "attributedParse"
+- "attributedParses"
+- "até"
+- "authorize"
+- "av"
+- "avec"
+- "bağlantı"
+- "bağlantılar"
+- "because"
+- "beeld"
+- "beelden"
+- "before"
+- "being"
+- "below"
+- "bericht"
+- "beth"
+- "between"
+- "bijlage"
+- "bijlagen"
+- "bilaga"
+- "bilagor"
+- "bild"
+- "bilde"
+- "bilder"
+- "bill"
+- "billede"
+- "billeder"
+- "billy"
+- "bin"
+- "bir"
+- "bist"
+- "biz"
+- "bob"
+- "bobby"
+- "bookmarkTitle"
+- "both"
+- "browser.bookmark"
+- "browser.readingListItem"
+- "browser.searchableWebsite"
+- "browser.tab"
+- "browser.tabGroup"
+- "browser.window"
+- "bu"
+- "bạn"
+- "ca"
+- "calendar.attendee"
+- "calendar.calendar"
+- "calendar.event"
+- "cannot"
+- "can’t"
+- "charles"
+- "che"
+- "cho"
+- "christopher"
+- "chuck"
+- "chị"
+- "citra"
+- "client: Ctl"
+- "client: Mail"
+- "client: Messages"
+- "client: Photos"
+- "client: SearchTool"
+- "client: Settings"
+- "client: SpotlightUI"
+- "client: Unk"
+- "client: pommesctl"
+- "colleague"
+- "colleagues"
+- "collegamenti"
+- "collegamento"
+- "com"
+- "com.apple.Home"
+- "com.apple.Passbook"
+- "com.apple.Preferences"
+- "com.apple.campo"
+- "com.apple.email.SearchIndexer"
+- "com.apple.intelligenceflow"
+- "com.apple.metadata.SpotlightLinguistics"
+- "com.apple.omniSearch"
+- "com.apple.ondeviceeval"
+- "com.apple.photo"
+- "com.apple.plphotosctl"
+- "com.apple.pommes.ranking"
+- "com.apple.reminders"
+- "com.apple.search"
+- "com.apple.search.framework"
+- "com.apple.spotlight.events"
+- "com.argos.BlendABApp2"
+- "com_apple_mail_dateSent"
+- "com_apple_mail_repliedTo"
+- "com_apple_mobilesms_authorNicknames"
+- "com_apple_mobilesms_ckBundleIDs = \"com.apple.Keynote\" || com_apple_mobilesms_ckBundleIDs=\"com.apple.iWork.Keynote\""
+- "com_apple_mobilesms_ckBundleIDs = \"com.apple.Notes\" || com_apple_mobilesms_ckBundleIDs=\"com.apple.mobilenotes\""
+- "com_apple_mobilesms_ckBundleIDs = \"com.apple.Numbers\" || com_apple_mobilesms_ckBundleIDs=\"com.apple.iWork.Numbers\""
+- "com_apple_mobilesms_ckBundleIDs = \"com.apple.Pages\" || com_apple_mobilesms_ckBundleIDs=\"com.apple.iWork.Pages\""
+- "com_apple_mobilesms_ckBundleIDs = \"com.apple.reminders\""
+- "com_apple_mobilesms_fromMe=1"
+- "com_apple_mobilesms_recipientNicknames"
+- "committed"
+- "compensation"
+- "complaint"
+- "con"
+- "conference"
+- "confirmation"
+- "contacts.contact"
+- "contacts.labeledDate"
+- "contacts.labeledPostalAddress"
+- "contacts.labeledString"
+- "correio"
+- "correios"
+- "correo"
+- "correos"
+- "correu"
+- "cost"
+- "couldn"
+- "couldn’t"
+- "courriel"
+- "courriels"
+- "courrier"
+- "courriers"
+- "coworkers"
+- "cs"
+- "csatolmány"
+- "cu"
+- "các"
+- "cím"
+- "címek"
+- "címzett"
+- "címzett:"
+- "có"
+- "către"
+- "către:"
+- "cũng"
+- "của"
+- "da"
+- "da:"
+- "dan"
+- "daniel"
+- "danny"
+- "dari"
+- "dari:"
+- "daripada"
+- "daripada:"
+- "dat"
+- "data"
+- "data:"
+- "date:"
+- "dato"
+- "dato:"
+- "datum"
+- "datum:"
+- "dată"
+- "dată:"
+- "daughters"
+- "de"
+- "de la"
+- "de la:"
+- "de:"
+- "del"
+- "deliverable"
+- "den"
+- "dengan"
+- "der"
+- "despre"
+- "det"
+- "di"
+- "didn"
+- "didn’t"
+- "die"
+- "dihantar"
+- "direcciones"
+- "dirección"
+- "disableMetadataSearch"
+- "disableSemanticSearch"
+- "disableU2"
+- "disabled"
+- "do:"
+- "doesn’t"
+- "doing"
+- "don’t"
+- "dos"
+- "down"
+- "drew"
+- "during"
+- "dátum"
+- "dátum:"
+- "e-mail"
+- "e-mel"
+- "e-post"
+- "e-posta"
+- "each"
+- "eddie"
+- "edward"
+- "een"
+- "either"
+- "ek"
+- "ekler"
+- "el"
+- "eliza"
+- "elizabeth"
+- "elküldött"
+- "eller"
+- "ellie"
+- "else"
+- "em"
+- "email"
+- "emails"
+- "embeddingBias"
+- "embeddingPreviousVersionNumber"
+- "embeddingRelevanceThreshold"
+- "embeddingScale"
+- "embeddingVersion"
+- "enabled"
+- "endereço"
+- "endereços"
+- "enlace"
+- "enlaces"
+- "enllaç"
+- "enllaços"
+- "enrollment"
+- "enviado"
+- "enviat"
+- "envoyé"
+- "er"
+- "estar"
+- "estimated time of arrival"
+- "et"
+- "ett"
+- "event:"
+- "excludePhotos"
+- "expression"
+- "extraDescriptionLength"
+- "falseWeight"
+- "fecha"
+- "fecha:"
+- "feladó"
+- "feladó:"
+- "few"
+- "fi"
+- "fieldType"
+- "files.file"
+- "filterString"
+- "follow-up"
+- "fotky"
+- "foto"
+- "fotoer"
+- "fotografia"
+- "fotografie"
+- "fotografii"
+- "fotografija"
+- "fotografije"
+- "foton"
+- "fotos"
+- "fotoğraf"
+- "fotoğraflar"
+- "foto’s"
+- "fotó"
+- "fra"
+- "fra:"
+- "from:"
+- "från"
+- "från:"
+- "fundamental"
+- "further"
+- "fuzzy_threshold"
+- "fénykép"
+- "för"
+- "gambar"
+- "gesendet"
+- "gibi"
+- "gli"
+- "guideline"
+- "gönderen"
+- "gönderen:"
+- "gönderilmiş"
+- "görseller"
+- "görüntü"
+- "gửi"
+- "hadn"
+- "hadn’t"
+- "hakkında"
+- "han"
+- "har"
+- "harry"
+- "hasAlarmEntityType"
+- "hasAllOptionalArgs"
+- "hasAllTemporalArgs"
+- "hasAppEntityType"
+- "hasContactEntityType"
+- "hasEntityTypeDocument"
+- "hasFindMyItemEntityType"
+- "hasFindMyPersonEntityType"
+- "hasLocationArg"
+- "hasMessagesSourceType"
+- "hasNonOptionalSearchTerm"
+- "hasOnlyOptionalArgsOrFiltersOrSearchTerms"
+- "hasPersonOrSelfArg"
+- "hasPersonSender"
+- "hasSearchTerm"
+- "hasSharedStatus"
+- "hasStrictContactEntityType"
+- "hasStrictMessageEntityType"
+- "hasTextEmbeddingData"
+- "hasTimerEntityType"
+- "hasWebBrowsingEntityType"
+- "hasn’t"
+- "haven’t"
+- "having"
+- "healthcare"
+- "hem"
+- "henry"
+- "here"
+- "hereupon"
+- "here’s"
+- "hers"
+- "herself"
+- "het"
+- "he’d"
+- "he’ll"
+- "he’s"
+- "hi"
+- "hij"
+- "himself"
+- "hivatkozás"
+- "hon"
+- "how"
+- "however"
+- "how’s"
+- "hoặc"
+- "hr"
+- "hu"
+- "hình"
+- "hình ảnh"
+- "iCloud"
+- "icalendar"
+- "id"
+- "if"
+- "ikke"
+- "il"
+- "ile"
+- "ili"
+- "image"
+- "imagem"
+- "imagen"
+- "imagens"
+- "images"
+- "imagine"
+- "imagini"
+- "imatge"
+- "imatges"
+- "imej"
+- "immagine"
+- "immagini"
+- "immediate"
+- "importance"
+- "important"
+- "imágenes"
+- "indirizzi"
+- "indirizzo"
+- "informazioni su"
+- "insurance"
+- "inte"
+- "into"
+- "inviato"
+- "isIgnored"
+- "isLastToken"
+- "isNegated"
+- "isRequiredPartyEventType"
+- "is_committed"
+- "is_ranking"
+- "is_rewrite"
+- "isn’t"
+- "ist"
+- "itinerary"
+- "itself"
+- "it’s"
+- "için"
+- "i’d"
+- "i’ll"
+- "i’m"
+- "i’ve"
+- "james"
+- "jamie"
+- "jimmy"
+- "joe"
+- "joey"
+- "joseph"
+- "just"
+- "kMDItemAcquisitionModel"
+- "kMDItemAestheticScore"
+- "kMDItemAlarmEntityHour"
+- "kMDItemAlarmEntityMinute"
+- "kMDItemAlarmEntityRecurrenceRuleDaysOfTheWeek"
+- "kMDItemAppEntitySubtitle"
+- "kMDItemBirthday"
+- "kMDItemCamera"
+- "kMDItemCardAddress"
+- "kMDItemCardCategory"
+- "kMDItemCardCountry"
+- "kMDItemCardExpirationDate"
+- "kMDItemCardGroupNumber"
+- "kMDItemCardIssueDate"
+- "kMDItemCardIssuedBy"
+- "kMDItemCardNumber"
+- "kMDItemCardPlaceOfBirth"
+- "kMDItemCardProvider"
+- "kMDItemCardRegion"
+- "kMDItemCardSubType"
+- "kMDItemContactKeywords"
+- "kMDItemContentRating"
+- "kMDItemContentType = \"public.jpeg\" ||                                                                       kMDItemContentType = \"public.png\" ||                                                                        kMDItemContentType = \"public.heic\" ||                                                                        kMDItemContentType = \"public.image\" ||                                                                        kMDItemContentType = \"com.apple.quicktime-movie\" ||                                                                        kMDItemContentType = \"com.apple.m4v-video\" ||                                                                        kMDItemContentType = \"public.mpeg-4\" ||                                                                        kMDItemContentType = \"public.movie\" ||                                                                        kMDItemContentTypeTree = \"public.jpeg\" ||                                                                        kMDItemContentTypeTree = \"public.png\" ||                                                                        kMDItemContentTypeTree = \"public.heic\" ||                                                                        kMDItemContentTypeTree = \"public.image\" ||                                                                        kMDItemContentTypeTree = \"com.apple.quicktime-movie\" ||                                                                        kMDItemContentTypeTree = \"com.apple.m4v-video\" ||                                                                       kMDItemContentTypeTree = \"public.mpeg-4\" ||                                                                        kMDItemContentTypeTree = \"public.movie\""
+- "kMDItemContentType=\"com.adobe.pdf\""
+- "kMDItemContentType=\"com.adobe.pdf\" || kMDItemContentType=\"com.apple.paper.doc.pdf\" || kMDItemContentType=\"com.apple.paper.doc.scan\""
+- "kMDItemContentTypeTree=\"com.apple.notes.spotlightrecord\" || _kMDItemAppEntityTypeIdentifier=\"NoteEntity\" || _kMDItemAppEntitySchema=\"notes.note\""
+- "kMDItemContentTypeTree=\"com.apple.pkpass\""
+- "kMDItemContentTypeTree=\"public.calendar-event\" || _kMDItemAppEntityTypeIdentifier=\"EventEntity\" || _kMDItemAppEntitySchema=\"calendar.event\""
+- "kMDItemContentTypeTree=\"public.email-message\""
+- "kMDItemContentTypeTree=\"public.email-message\" || _kMDItemAppEntityTypeIdentifier=\"MailMessageEntity\" || kMDItemEventSourceBundleIdentifier=\"com.apple.mobilemail\" || kMDItemEventSourceBundleIdentifier=\"com.apple.email.SearchIndexer\" || kMDItemEventSourceBundleIdentifier=\"com.apple.mail\" || _kMDItemAppEntitySchema=\"mail.message\""
+- "kMDItemContentTypeTree=\"public.image\""
+- "kMDItemContentTypeTree=\"public.message\""
+- "kMDItemCurationScore"
+- "kMDItemDetectedEventTypes"
+- "kMDItemDownloadDate"
+- "kMDItemEventEndLocationAddress"
+- "kMDItemEventEndLocationAddressCountry"
+- "kMDItemEventEndLocationAddressLocality"
+- "kMDItemEventEndLocationAddressRegion"
+- "kMDItemEventFlightArrivalAirportAddress"
+- "kMDItemEventFlightArrivalAirportAddressSynonyms"
+- "kMDItemEventFlightArrivalAirportCode"
+- "kMDItemEventFlightArrivalAirportLocality"
+- "kMDItemEventFlightArrivalAirportName"
+- "kMDItemEventFlightArrivalAirportRegion"
+- "kMDItemEventFlightCarrier"
+- "kMDItemEventFlightDepartureAirportAddress"
+- "kMDItemEventFlightDepartureAirportAddressSynonyms"
+- "kMDItemEventFlightDepartureAirportCode"
+- "kMDItemEventFlightDepartureAirportLocality"
+- "kMDItemEventFlightDepartureAirportName"
+- "kMDItemEventFlightDepartureAirportRegion"
+- "kMDItemEventHotelProvider"
+- "kMDItemEventHotelReservationForName"
+- "kMDItemEventRestaurantReservationForName"
+- "kMDItemEventStartLocationAddress"
+- "kMDItemEventStartLocationAddressCountry"
+- "kMDItemEventStartLocationAddressLocality"
+- "kMDItemEventStartLocationAddressRegion"
+- "kMDItemEventType"
+- "kMDItemExtractedAddressesLabels"
+- "kMDItemExtractedAddressesLabels=\"*\""
+- "kMDItemExtractedAddressesSynonyms"
+- "kMDItemHashtags"
+- "kMDItemHome"
+- "kMDItemIsLikelyJunk"
+- "kMDItemIsShared"
+- "kMDItemLocation"
+- "kMDItemMailboxes"
+- "kMDItemMailboxes=\"*sent\""
+- "kMDItemPhotosContentCreationDateMonth"
+- "kMDItemPhotosContentCreationDateMonths"
+- "kMDItemPhotosContentCreationDateYear"
+- "kMDItemPhotosContentCreationDateYears"
+- "kMDItemPhotosDescription"
+- "kMDItemPhotosFavorites"
+- "kMDItemPhotosLibraryName"
+- "kMDItemPhotosPartsOfDay"
+- "kMDItemPhotosPartsOfWeek"
+- "kMDItemPhotosPeopleNames "
+- "kMDItemPhotosPhotographicStyles"
+- "kMDItemPhotosSavedFromAppName"
+- "kMDItemPhotosSharedLibraryContributorsNames"
+- "kMDItemPhotosSharedLibraryContributorsNamesAlternatives"
+- "kMDItemPhotosSharedLibraryContributorsPersonIdentifiers"
+- "kMDItemRoom"
+- "kMDItemSharedItemCurrentUserRole"
+- "kMDItemSubtitle"
+- "kMDItemURL"
+- "kMDItemURL=\"*\""
+- "kQPAttached"
+- "kQPAttachment"
+- "kQPDate"
+- "kQPDateExtension"
+- "kQPDescription"
+- "kQPDisplay"
+- "kQPFavoritedAction"
+- "kQPFlagColorAction"
+- "kQPFlaggedAction"
+- "kQPGroundedPerson"
+- "kQPKind"
+- "kQPMedia"
+- "kQPParseAttributeAirdropActionKey"
+- "kQPParseAttributeArchiveActionKey"
+- "kQPParseAttributeAttachmentKey"
+- "kQPParseAttributeAttachmentKindKey"
+- "kQPParseAttributeCompletedActionKey"
+- "kQPParseAttributeCreatedActionKey"
+- "kQPParseAttributeDateKey"
+- "kQPParseAttributeDescriptionKey"
+- "kQPParseAttributeDownloadedActionKey"
+- "kQPParseAttributeDraftActionKey"
+- "kQPParseAttributeDueActionKey"
+- "kQPParseAttributeEarliestActionKey"
+- "kQPParseAttributeFacebookActionKey"
+- "kQPParseAttributeFavoritedKey"
+- "kQPParseAttributeFlagColorKey"
+- "kQPParseAttributeFlaggedKey"
+- "kQPParseAttributeFlightActionKey"
+- "kQPParseAttributeFlightArrivalLocationKey"
+- "kQPParseAttributeFlightCarrierKey"
+- "kQPParseAttributeFlightDepartureLocationKey"
+- "kQPParseAttributeFlightLocationKey"
+- "kQPParseAttributeGroundedPersonKey"
+- "kQPParseAttributeHotelActionKey"
+- "kQPParseAttributeHotelNameKey"
+- "kQPParseAttributeHotelProviderKey"
+- "kQPParseAttributeJunkActionKey"
+- "kQPParseAttributeKindKey"
+- "kQPParseAttributeLatestActionKey"
+- "kQPParseAttributeMediaKey"
+- "kQPParseAttributeModifiedActionKey"
+- "kQPParseAttributePersonKey"
+- "kQPParseAttributePrintedActionKey"
+- "kQPParseAttributeRankingDescriptionKey"
+- "kQPParseAttributeReadKey"
+- "kQPParseAttributeReadingListActionKey"
+- "kQPParseAttributeReceivedKey"
+- "kQPParseAttributeRecipientKey"
+- "kQPParseAttributeRepliedKey"
+- "kQPParseAttributeRestaurantActionKey"
+- "kQPParseAttributeRestaurantNameKey"
+- "kQPParseAttributeSenderKey"
+- "kQPParseAttributeSentKey"
+- "kQPParseAttributeSharedKey"
+- "kQPParseAttributeTagColorKey"
+- "kQPParseAttributeTaggedKey"
+- "kQPParseAttributeTaggedPersonKey"
+- "kQPParseAttributeTransportActionKey"
+- "kQPParseAttributeTwitterActionKey"
+- "kQPParseAttributeUnreadKey"
+- "kQPPerson"
+- "kQPQUOutputContactIdentifier"
+- "kQPQUOutputDisableTextEmbeddingByBundle"
+- "kQPQUOutputECRGroundEmails"
+- "kQPQUOutputECRGroundNamesKey"
+- "kQPQUOutputECRGroundNamesRelationKey"
+- "kQPQUOutputECRGroundNamesTokenKey"
+- "kQPQUOutputECRGroundNamesTokenRelationKey"
+- "kQPQUOutputECRGrounedPersonCount"
+- "kQPQUOutputLemmaKey"
+- "kQPQUOutputRawTextTokenizedKey"
+- "kQPQUOutputSpanTypesKey"
+- "kQPQUOutputToken"
+- "kQPQUOutputTokenArgIds"
+- "kQPQUOutputTokenArgIdsKey"
+- "kQPQUOutputTokenArgScores"
+- "kQPQUOutputTokenArgScoresKey"
+- "kQPQUOutputTokenAttributeIndexesKey"
+- "kQPQUOutputTokenHypocorismAlias"
+- "kQPQUOutputTokenInfo"
+- "kQPQUOutputTokenInfoKey"
+- "kQPQUOutputTokenIsRelativeTimeKey"
+- "kQPQUOutputTokenIsSelfKey"
+- "kQPQUOutputTokenKey"
+- "kQPQUOutputTokenPhraseWeightsKey"
+- "kQPQUOutputTokenRange"
+- "kQPQUOutputTokenRangeKey"
+- "kQPQUOutputTokenRawTextKey"
+- "kQPQueryParserOptionU2EnabledKey"
+- "kQPQueryParserOptionUseLLMParseKey"
+- "kQPQueryPhotoEmbeddingEncodedData"
+- "kQPQueryPhotoEmbeddingPreviousVersionEncodedData"
+- "kQPQueryTextEmbeddingEncodedData"
+- "kQPQueryTextEmbeddingPreviousVersionEncodedData"
+- "kQPReadAction"
+- "kQPReceivedAction"
+- "kQPRecipient"
+- "kQPRepliedAction"
+- "kQPSender"
+- "kQPSentAction"
+- "kQPTaggedPerson"
+- "kadar"
+- "kanssa"
+- "kat"
+- "kate"
+- "katherine"
+- "kathy"
+- "katie"
+- "kenelle"
+- "kenelle:"
+- "keneltä"
+- "keneltä:"
+- "kepada"
+- "kepada:"
+- "khi"
+- "không"
+- "kim"
+- "kimberly"
+- "komu"
+- "komu:"
+- "koppeling"
+- "koppelingen"
+- "koskien"
+- "kuva"
+- "kuvat"
+- "kép"
+- "képek"
+- "la"
+- "lampiran"
+- "language"
+- "le"
+- "legături"
+- "legătură"
+- "lenke"
+- "lenker"
+- "let’s"
+- "levél"
+- "liam"
+- "lien"
+- "liens"
+- "ligação"
+- "liite"
+- "liitteet"
+- "link"
+- "linkek"
+- "linkit"
+- "linkki"
+- "linkler"
+- "linkovi"
+- "links"
+- "linky"
+- "liz"
+- "lizzy"
+- "liên kết"
+- "llmPhotosIgnoredSearchTerms"
+- "lo"
+- "loadOptionalSearchTermsFromSRA_block_invoke"
+- "loadOptionalSearchTermsFromSRA_block_invoke_2"
+- "location:"
+- "lub"
+- "là"
+- "lähetetty"
+- "lähettäjä"
+- "lähettäjä:"
+- "länk"
+- "länkar"
+- "ma"
+- "maar"
+- "mail"
+- "mail.account"
+- "mail.draft"
+- "mail.mailbox"
+- "mail.message"
+- "mail.thread"
+- "mails"
+- "margaret"
+- "mas"
+- "matt"
+- "matthew"
+- "matty"
+- "maxANNResultCount"
+- "med"
+- "meddelande"
+- "meddelelse"
+- "meg"
+- "mejl"
+- "mel"
+- "melding"
+- "melléklet"
+- "membership"
+- "men"
+- "mensagem"
+- "mensagens"
+- "mensaje"
+- "mensajes"
+- "mesaj"
+- "mesej"
+- "messages"
+- "messages.message"
+- "messages.messagePerson"
+- "messaggi"
+- "messaggio"
+- "met"
+- "mi"
+- "michael"
+- "mig"
+- "mike"
+- "mikey"
+- "missatge"
+- "mit"
+- "more"
+- "most"
+- "mprotect failed: ptr=%p sz=%zu prot=%d errno=%d"
+- "mprotect guard fault at %p: could not acquire registry lock"
+- "ms"
+- "mustn’t"
+- "myself"
+- "mà"
+- "một"
+- "nach"
+- "nb"
+- "ne"
+- "nebo"
+- "ngày"
+- "ngày:"
+- "như"
+- "những"
+- "niet"
+- "nil"
+- "nl"
+- "nor"
+- "notes.folder"
+- "notes.note"
+- "notes.tag"
+- "notification"
+- "này"
+- "obraz"
+- "obrazy"
+- "obrázek"
+- "obrázky"
+- "obrázok"
+- "och"
+- "od"
+- "od:"
+- "oder"
+- "odeslané"
+- "odkaz"
+- "odkazy"
+- "odnośnik"
+- "odnośniki"
+- "odoslané"
+- "off"
+- "og"
+- "olarak"
+- "om"
+- "once"
+- "onlar"
+- "only"
+- "op"
+- "optional.mdplist"
+- "optionalSearchTermForPreExtractionFilter"
+- "oraz"
+- "original"
+- "originalFieldKeyword"
+- "originalKeyword"
+- "os"
+- "osoite"
+- "osoitteet"
+- "other"
+- "ou"
+- "ought"
+- "ours"
+- "ourselves"
+- "out"
+- "over"
+- "own"
+- "para"
+- "para:"
+- "pautan"
+- "per"
+- "per a"
+- "per a:"
+- "pesan"
+- "photo"
+- "photoEmbeddingData"
+- "photos"
+- "pic"
+- "pics"
+- "picture"
+- "pictures"
+- "pièce jointe"
+- "pièces jointes"
+- "pl"
+- "pommesctl"
+- "por"
+- "poruka"
+- "poslano"
+- "posta"
+- "poste"
+- "poveznica"
+- "poveznice"
+- "pre"
+- "pre:"
+- "presentation.document"
+- "presentation.slide"
+- "presentation.template"
+- "primitive"
+- "privileges"
+- "privitak"
+- "privitci"
+- "pro"
+- "pro:"
+- "promotion"
+- "protection_class"
+- "príloha"
+- "prílohy"
+- "pt"
+- "public.email-message"
+- "public.video"
+- "päivämäärä"
+- "päivämäärä:"
+- "på"
+- "příloha"
+- "přílohy"
+- "qp"
+- "que"
+- "query_tree"
+- "questionnaire"
+- "ranking"
+- "rather"
+- "redirectSourceTitle"
+- "redirectSourceURL"
+- "reimbursement"
+- "relatives"
+- "reminders.group"
+- "reminders.list"
+- "reminders.locationTrigger"
+- "reminders.reminder"
+- "reminders.section"
+- "reservation"
+- "resim"
+- "resimler"
+- "retrieval"
+- "revisedTimeFilter"
+- "rewrite"
+- "rich"
+- "richard"
+- "rick"
+- "ricky"
+- "ro"
+- "rob"
+- "robby"
+- "robert"
+- "ru"
+- "sadie"
+- "sally"
+- "same"
+- "sarah"
+- "sau"
+- "se"
+- "searchTermCalendarOneOnOneToRemove"
+- "searchTermCalendarSuffixesToRemove"
+- "searchTermPartyToRemove"
+- "searchTermSuffixesToRemove"
+- "seg"
+- "seit"
+- "sen"
+- "sendt"
+- "sent"
+- "ser"
+- "shan’t"
+- "she’d"
+- "she’ll"
+- "she’s"
+- "shouldn’t"
+- "should’ve"
+- "sig"
+- "sind"
+- "siz"
+- "sk"
+- "skickat"
+- "skipNonPhotos"
+- "skipPhotos"
+- "skipSelf"
+- "slika"
+- "slike"
+- "so"
+- "sobre"
+- "social security"
+- "softlink:r:path:/System/Library/PrivateFrameworks/QueryParser.framework/QueryParser"
+- "som"
+- "some"
+- "sono"
+- "sourceToken"
+- "spreadsheet"
+- "spreadsheet.document"
+- "spreadsheet.sheet"
+- "spreadsheet.template"
+- "správa"
+- "statement"
+- "su"
+- "subscription"
+- "such"
+- "suggestionFilter"
+- "sv"
+- "são"
+- "sähköposti"
+- "sẽ"
+- "tai"
+- "tanggal"
+- "tanggal:"
+- "tarih"
+- "tarih:"
+- "tarikh"
+- "tarikh:"
+- "tautan"
+- "te"
+- "ted"
+- "teddy"
+- "telephone"
+- "tentang"
+- "ter"
+- "terkirim"
+- "textEmbeddingData"
+- "than"
+- "that’s"
+- "theirs"
+- "themselves"
+- "then"
+- "there"
+- "there’s"
+- "they’d"
+- "they’ll"
+- "they’re"
+- "they’ve"
+- "thomas"
+- "though"
+- "through"
+- "thì"
+- "thư"
+- "til"
+- "til:"
+- "till"
+- "till:"
+- "tin nhắn"
+- "to:"
+- "toDictionary must be overridden by subclasses"
+- "tom"
+- "tommy"
+- "too"
+- "tr"
+- "tra"
+- "transaction"
+- "trimis"
+- "tárgy"
+- "tệp đính kèm"
+- "từ"
+- "từ:"
+- "uk"
+- "um"
+- "uma"
+- "umas"
+- "un"
+- "una"
+- "und"
+- "under"
+- "uno"
+- "uns"
+- "until"
+- "up"
+- "user_query"
+- "v32@?0@\"NSString\"8Q16^B24"
+- "v32@?0@8Q16^B24"
+- "v32@?0{?=*Q{?=IC}}8"
+- "v40@?0@\"NSDictionary\"8{_NSRange=QQ}16^B32"
+- "v40@?0@8{_NSRange=QQ}16^B32"
+- "vagy"
+- "valid"
+- "validation"
+- "valokuva"
+- "valokuvat"
+- "value"
+- "van"
+- "van:"
+- "var"
+- "vastaanottaja"
+- "vastaanottaja:"
+- "ve"
+- "vedhæftning"
+- "vedhæftninger"
+- "vedlegg"
+- "very"
+- "verzonden"
+- "veya"
+- "vi"
+- "viesti"
+- "void *QueryParserLibrary()"
+- "von"
+- "von:"
+- "voor"
+- "và"
+- "về"
+- "với"
+- "wasn"
+- "wasn’t"
+- "well"
+- "weren"
+- "weren’t"
+- "we’d"
+- "we’ll"
+- "we’re"
+- "we’ve"
+- "what"
+- "whatever"
+- "what’s"
+- "when"
+- "when’s"
+- "where"
+- "where’s"
+- "which"
+- "while"
+- "who"
+- "whom"
+- "who’s"
+- "why"
+- "why’s"
+- "wiadomość"
+- "william"
+- "within"
+- "won’t"
+- "wordProcessor.document"
+- "wordProcessor.page"
+- "wordProcessor.template"
+- "wouldn"
+- "wouldn’t"
+- "wysłane"
+- "yet"
+- "yok"
+- "yours"
+- "yourself"
+- "yourselves"
+- "you’d"
+- "you’ll"
+- "you’re"
+- "you’ve"
+- "yue"
+- "za"
+- "za:"
+- "załącznik"
+- "załączniki"
+- "zdjęcia"
+- "zdjęcie"
+- "zijn"
+- "zpráva"
+- "{"
+- "}"
+- "à"
+- "à propos"
+- "à:"
+- "är"
+- "çok"
+- "é"
+- "és"
+- "über"
+- "üzenet"
+- "đã"
+- "đã gửi"
+- "đó"
+- "được"
+- "đến"
+- "đến:"
+- "địa chỉ"
+- "şey"
+- "și"
+- "ή"
+- "απεσταλμένα"
+- "από"
+- "από:"
+- "διευθύνσεις"
+- "διεύθυνση"
+- "εικόνα"
+- "εικόνες"
+- "ημερομηνία"
+- "ημερομηνία:"
+- "και"
+- "λινκ"
+- "μήνυμα"
+- "με"
+- "προς"
+- "προς:"
+- "συνημμένα"
+- "συνημμένο"
+- "σχετικά με"
+- "σύνδεσμοι"
+- "σύνδεσμος"
+- "φωτο"
+- "φωτογραφία"
+- "φωτογραφίες"
+- "або"
+- "адрес"
+- "адреса"
+- "адреси"
+- "вкладення"
+- "вложение"
+- "вложения"
+- "від"
+- "від:"
+- "дата"
+- "дата:"
+- "з"
+- "зображення"
+- "и"
+- "изображение"
+- "изображения"
+- "или"
+- "картинка"
+- "картинки"
+- "кому"
+- "кому:"
+- "лінк"
+- "лінки"
+- "надіслано"
+- "о"
+- "от"
+- "от:"
+- "отправлено"
+- "письмо"
+- "повідомлення"
+- "посилання"
+- "почта"
+- "пошта"
+- "про"
+- "с"
+- "сообщение"
+- "ссылка"
+- "ссылки"
+- "та"
+- "фото"
+- "фотографии"
+- "фотографії"
+- "і"
+- "أو"
+- "إلى"
+- "إلى:"
+- "بريد"
+- "تاريخ"
+- "تاريخ:"
+- "رابط"
+- "رسالة"
+- "روابط"
+- "صور"
+- "صورة"
+- "عن"
+- "عناوين"
+- "عنوان"
+- "مرسل"
+- "مرفق"
+- "مرفقات"
+- "مع"
+- "من"
+- "من:"
+- "و"
+- "अनुलग्नक"
+- "ईमेल"
+- "ईमेल्स"
+- "और"
+- "कड़ियाँ"
+- "कड़ी"
+- "के बारे में"
+- "को"
+- "चित्र"
+- "तस्वीर"
+- "तस्वीरें"
+- "तारीख"
+- "तारीख:"
+- "दिनांक"
+- "दिनांक:"
+- "पता"
+- "पते"
+- "प्रति"
+- "प्रति:"
+- "प्रेषक"
+- "प्रेषक:"
+- "फ़ोटो"
+- "फ़ोटोज़"
+- "भेजा गया"
+- "मेल"
+- "मेल्स"
+- "या"
+- "लिंक"
+- "लिंक्स"
+- "विषय"
+- "संदेश"
+- "साथ"
+- "से"
+- "ข้อความ"
+- "จาก"
+- "จาก:"
+- "ด้วย"
+- "ถึง"
+- "ถึง:"
+- "ที่อยู่"
+- "ภาพถ่าย"
+- "รูป"
+- "รูปภาพ"
+- "ลิงก์"
+- "วันที่"
+- "วันที่:"
+- "ส่งแล้ว"
+- "หรือ"
+- "อีเมล"
+- "เกี่ยวกับ"
+- "เมล"
+- "และ"
+- "ไฟล์แนบ"
+- "ảnh"
+- "ở"
+- "’s"
+- "から"
+- "から:"
+- "そして"
+- "について"
+- "へ:"
+- "または"
+- "アドレス"
+- "ピクチャ"
+- "フォト"
+- "メッセージ"
+- "メッセージ一覧"
+- "メール"
+- "メールアドレス"
+- "リンク"
+- "リンク集"
+- "与"
+- "从"
+- "住址"
+- "住所"
+- "來自"
+- "來自:"
+- "信息"
+- "傳送"
+- "关于"
+- "写真"
+- "到"
+- "发给"
+- "发给:"
+- "发自"
+- "发自:"
+- "发送"
+- "同"
+- "和"
+- "嘅"
+- "图片"
+- "圖片"
+- "在"
+- "地址"
+- "已傳送"
+- "已发送"
+- "带有"
+- "帶有"
+- "或"
+- "日付"
+- "日付:"
+- "日期"
+- "日期:"
+- "来自"
+- "来自:"
+- "消息"
+- "添付ファイル"
+- "照片"
+- "画像"
+- "發給"
+- "發給:"
+- "發自"
+- "發自:"
+- "的"
+- "相片"
+- "與"
+- "訊息"
+- "資訊"
+- "超链接"
+- "送信済み"
+- "連結"
+- "邮件"
+- "邮箱"
+- "郵件"
+- "郵箱"
+- "里"
+- "链接"
+- "關於"
+- "附件"
+- "電郵"
+- "가"
+- "것"
+- "과"
+- "그"
+- "그래서"
+- "그러나"
+- "그리고"
+- "그림"
+- "날짜"
+- "날짜:"
+- "는"
+- "대해"
+- "등"
+- "또는"
+- "를"
+- "링크"
+- "메시지"
+- "메일"
+- "받는사람"
+- "보낸"
+- "보낸사람"
+- "보냄"
+- "사진"
+- "수"
+- "없다"
+- "에"
+- "에서"
+- "연결"
+- "와"
+- "우리"
+- "은"
+- "을"
+- "의"
+- "이"
+- "이메일"
+- "이미지"
+- "있다"
+- "저"
+- "주소"
+- "첨부파일"
+- "하다"
+```

@@ -1,0 +1,432 @@
+## AppIntentsServices
+
+> `/System/Library/PrivateFrameworks/AppIntentsServices.framework/AppIntentsServices`
+
+```diff
+
+-41.0.50.0.0
+-  __TEXT.__text: 0x29babc
++41.1.9.0.0
++  __TEXT.__text: 0x2b4148
+   __TEXT.__objc_methlist: 0x5a4
+-  __TEXT.__cstring: 0x55ca
+-  __TEXT.__const: 0x25f10
+-  __TEXT.__swift5_typeref: 0x88a1
+-  __TEXT.__constg_swiftt: 0x73dc
+-  __TEXT.__swift5_reflstr: 0x4a1c
+-  __TEXT.__swift5_fieldmd: 0x7190
+-  __TEXT.__swift5_builtin: 0x44c
+-  __TEXT.__swift5_assocty: 0xce8
+-  __TEXT.__swift5_proto: 0x180c
+-  __TEXT.__swift5_types: 0x834
+-  __TEXT.__oslogstring: 0x3ab9
+-  __TEXT.__swift5_protos: 0x154
+-  __TEXT.__swift5_capture: 0x7be8
+-  __TEXT.__swift_as_entry: 0xc24
+-  __TEXT.__swift_as_ret: 0xd6c
+-  __TEXT.__swift_as_cont: 0x1864
++  __TEXT.__cstring: 0x574a
++  __TEXT.__const: 0x27610
++  __TEXT.__swift5_typeref: 0x8d69
++  __TEXT.__constg_swiftt: 0x7824
++  __TEXT.__swift5_reflstr: 0x4c2c
++  __TEXT.__swift5_fieldmd: 0x7550
++  __TEXT.__swift5_builtin: 0x460
++  __TEXT.__swift5_assocty: 0xd48
++  __TEXT.__swift5_proto: 0x190c
++  __TEXT.__swift5_types: 0x88c
++  __TEXT.__oslogstring: 0x3d89
++  __TEXT.__swift5_protos: 0x15c
++  __TEXT.__swift5_capture: 0x83c4
++  __TEXT.__swift_as_entry: 0xccc
++  __TEXT.__swift_as_ret: 0xe14
++  __TEXT.__swift_as_cont: 0x1930
+   __TEXT.__swift5_types2: 0xc
+-  __TEXT.__swift5_acfuncs: 0x5a0
+-  __TEXT.__swift5_mpenum: 0x160
+-  __TEXT.__unwind_info: 0x10620
+-  __TEXT.__eh_frame: 0x27380
++  __TEXT.__swift5_acfuncs: 0x5dc
++  __TEXT.__swift5_mpenum: 0x168
++  __TEXT.__unwind_info: 0x11358
++  __TEXT.__eh_frame: 0x28888
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x298
+-  __DATA_CONST.__objc_classlist: 0x160
++  __DATA_CONST.__const: 0x2e8
++  __DATA_CONST.__objc_classlist: 0x178
+   __DATA_CONST.__objc_protolist: 0x78
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xb68
++  __DATA_CONST.__objc_selrefs: 0xb70
+   __DATA_CONST.__objc_protorefs: 0x40
+-  __DATA_CONST.__got: 0xe58
+-  __AUTH_CONST.__const: 0x1d650
+-  __AUTH_CONST.__objc_const: 0x3ac8
+-  __AUTH_CONST.__auth_got: 0x1a60
++  __DATA_CONST.__got: 0xe48
++  __AUTH_CONST.__const: 0x1f1e8
++  __AUTH_CONST.__objc_const: 0x3e48
++  __AUTH_CONST.__auth_got: 0x1ac0
+   __AUTH.__objc_data: 0x90
+-  __AUTH.__data: 0x5488
+-  __DATA.__data: 0x5ec8
+-  __DATA.__common: 0x1b10
+-  __DATA_DIRTY.__objc_data: 0x930
+-  __DATA_DIRTY.__data: 0x4ab0
++  __AUTH.__data: 0x5a88
++  __DATA.__data: 0x6418
++  __DATA.__common: 0x1c28
++  __DATA_DIRTY.__objc_data: 0x8e0
++  __DATA_DIRTY.__data: 0x4a10
+   __DATA_DIRTY.__bss: 0xf00
+-  __DATA_DIRTY.__common: 0x378
++  __DATA_DIRTY.__common: 0x340
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreSpotlight.framework/CoreSpotlight
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 20441
+-  Symbols:   4693
+-  CStrings:  846
++  Functions: 21149
++  Symbols:   4833
++  CStrings:  867
+ 
+Symbols:
++ _MobileGestalt_get_cellularDataCapability
++ _OUTLINED_FUNCTION_767
++ _OUTLINED_FUNCTION_768
++ _OUTLINED_FUNCTION_769
++ _OUTLINED_FUNCTION_770
++ _OUTLINED_FUNCTION_771
++ _OUTLINED_FUNCTION_772
++ _OUTLINED_FUNCTION_773
++ _OUTLINED_FUNCTION_774
++ _OUTLINED_FUNCTION_775
++ __DATA__TtC18AppIntentsServices15CellularMonitor
++ __DATA__TtC18AppIntentsServices16UserProfileCache
++ __DATA__TtC18AppIntentsServices30RemoteBundleIdentifierRemapper
++ __IVARS__TtC18AppIntentsServices14BroadcastState
++ __IVARS__TtC18AppIntentsServices15CellularMonitor
++ __IVARS__TtC18AppIntentsServices16UserProfileCache
++ __IVARS__TtC18AppIntentsServices30RemoteBundleIdentifierRemapper
++ __IVARS__TtC18AppIntentsServices8LRUCache
++ __METACLASS_DATA__TtC18AppIntentsServices15CellularMonitor
++ __METACLASS_DATA__TtC18AppIntentsServices16UserProfileCache
++ __METACLASS_DATA__TtC18AppIntentsServices30RemoteBundleIdentifierRemapper
++ ___swift_closure_destructor.1104Tm
++ ___swift_closure_destructor.111Tm
++ ___swift_closure_destructor.1197Tm
++ ___swift_closure_destructor.1207Tm
++ ___swift_closure_destructor.120Tm
++ ___swift_closure_destructor.1300Tm
++ ___swift_closure_destructor.16Tm
++ ___swift_closure_destructor.1789Tm
++ ___swift_closure_destructor.1828Tm
++ ___swift_closure_destructor.1878Tm
++ ___swift_closure_destructor.187Tm
++ ___swift_closure_destructor.2069Tm
++ ___swift_closure_destructor.228Tm
++ ___swift_closure_destructor.232Tm
++ ___swift_closure_destructor.243Tm
++ ___swift_closure_destructor.251Tm
++ ___swift_closure_destructor.276Tm
++ ___swift_closure_destructor.33Tm
++ ___swift_closure_destructor.55Tm
++ ___swift_closure_destructor.58Tm
++ ___swift_closure_destructor.709Tm
++ ___swift_closure_destructor.718Tm
++ ___swift_closure_destructor.724Tm
++ ___swift_closure_destructor.733Tm
++ ___swift_closure_destructor.748Tm
++ ___swift_closure_destructor.763Tm
++ ___swift_closure_destructor.778Tm
++ ___swift_closure_destructor.793Tm
++ ___swift_closure_destructor.808Tm
++ ___swift_closure_destructor.91Tm
++ ___swift_exist.box.addr_destructorTm
++ ___swift_get_extra_inhabitant_index.171Tm
++ ___swift_get_extra_inhabitant_index.378Tm
++ ___swift_get_extra_inhabitant_index.387Tm
++ ___swift_get_extra_inhabitant_index.432Tm
++ ___swift_get_extra_inhabitant_index.468Tm
++ ___swift_get_extra_inhabitant_index.567Tm
++ ___swift_get_extra_inhabitant_index.731Tm
++ ___swift_get_extra_inhabitant_index.866Tm
++ ___swift_get_extra_inhabitant_index.902Tm
++ ___swift_memcpy112_8
++ ___swift_memcpy58_8
++ ___swift_memcpy5_1
++ ___swift_store_extra_inhabitant_index.172Tm
++ ___swift_store_extra_inhabitant_index.379Tm
++ ___swift_store_extra_inhabitant_index.388Tm
++ ___swift_store_extra_inhabitant_index.433Tm
++ ___swift_store_extra_inhabitant_index.469Tm
++ ___swift_store_extra_inhabitant_index.568Tm
++ ___swift_store_extra_inhabitant_index.732Tm
++ ___swift_store_extra_inhabitant_index.867Tm
++ ___swift_store_extra_inhabitant_index.903Tm
++ ___unnamed_14
++ ___unnamed_5
++ _associated conformance 18AppIntentsServices0aB21Protobuf_HostMessagesV06UpdateA26ShortcutParametersResponseV013InternalSwiftD026_MessageImplementationBaseAASH
++ _associated conformance 18AppIntentsServices0aB21Protobuf_HostMessagesV06UpdateA26ShortcutParametersResponseV013InternalSwiftD026_MessageImplementationBaseAaF0M0
++ _associated conformance 18AppIntentsServices0aB21Protobuf_HostMessagesV06UpdateA26ShortcutParametersResponseV013InternalSwiftD07MessageAAs28CustomDebugStringConvertible
++ _associated conformance 18AppIntentsServices0aB21Protobuf_HostMessagesV06UpdateA26ShortcutParametersResponseVSHAASQ
++ _associated conformance 18AppIntentsServices0aB21Protobuf_HostMessagesV21PrewarmActionResponseV013InternalSwiftD026_MessageImplementationBaseAASH
++ _associated conformance 18AppIntentsServices0aB21Protobuf_HostMessagesV21PrewarmActionResponseV013InternalSwiftD026_MessageImplementationBaseAaF0L0
++ _associated conformance 18AppIntentsServices0aB21Protobuf_HostMessagesV21PrewarmActionResponseV013InternalSwiftD07MessageAAs28CustomDebugStringConvertible
++ _associated conformance 18AppIntentsServices0aB21Protobuf_HostMessagesV21PrewarmActionResponseV7SuccessV013InternalSwiftD026_MessageImplementationBaseAASH
++ _associated conformance 18AppIntentsServices0aB21Protobuf_HostMessagesV21PrewarmActionResponseV7SuccessV013InternalSwiftD026_MessageImplementationBaseAaH0M0
++ _associated conformance 18AppIntentsServices0aB21Protobuf_HostMessagesV21PrewarmActionResponseV7SuccessV013InternalSwiftD07MessageAAs28CustomDebugStringConvertible
++ _associated conformance 18AppIntentsServices0aB21Protobuf_HostMessagesV21PrewarmActionResponseV7SuccessVSHAASQ
++ _associated conformance 18AppIntentsServices0aB21Protobuf_HostMessagesV21PrewarmActionResponseVSHAASQ
++ _associated conformance 18AppIntentsServices0aB23Protobuf_ClientMessagesV06UpdateA25ShortcutParametersRequestV013InternalSwiftD026_MessageImplementationBaseAASH
++ _associated conformance 18AppIntentsServices0aB23Protobuf_ClientMessagesV06UpdateA25ShortcutParametersRequestV013InternalSwiftD026_MessageImplementationBaseAaF0M0
++ _associated conformance 18AppIntentsServices0aB23Protobuf_ClientMessagesV06UpdateA25ShortcutParametersRequestV013InternalSwiftD07MessageAAs28CustomDebugStringConvertible
++ _associated conformance 18AppIntentsServices0aB23Protobuf_ClientMessagesV06UpdateA25ShortcutParametersRequestVSHAASQ
++ _associated conformance 18AppIntentsServices0aB23Protobuf_ClientMessagesV20PrewarmActionRequestV013InternalSwiftD026_MessageImplementationBaseAASH
++ _associated conformance 18AppIntentsServices0aB23Protobuf_ClientMessagesV20PrewarmActionRequestV013InternalSwiftD026_MessageImplementationBaseAaF0L0
++ _associated conformance 18AppIntentsServices0aB23Protobuf_ClientMessagesV20PrewarmActionRequestV013InternalSwiftD07MessageAAs28CustomDebugStringConvertible
++ _associated conformance 18AppIntentsServices0aB23Protobuf_ClientMessagesV20PrewarmActionRequestVSHAASQ
++ _associated conformance 18AppIntentsServices0aB8ProtocolO06UpdateA18ShortcutParametersO7RequestV7Network20NWCustomSerializableAASE
++ _associated conformance 18AppIntentsServices0aB8ProtocolO06UpdateA18ShortcutParametersO7RequestV7Network20NWCustomSerializableAASe
++ _associated conformance 18AppIntentsServices0aB8ProtocolO06UpdateA18ShortcutParametersO7RequestVAA21ProtobufRepresentableAA0I4TypeAaHP_013InternalSwiftI07Message
++ _associated conformance 18AppIntentsServices0aB8ProtocolO06UpdateA18ShortcutParametersO7RequestVAA21ProtobufRepresentableAA0I4TypeAaHP_SQ
++ _associated conformance 18AppIntentsServices0aB8ProtocolO06UpdateA18ShortcutParametersO8ResponseV7Network20NWCustomSerializableAASE
++ _associated conformance 18AppIntentsServices0aB8ProtocolO06UpdateA18ShortcutParametersO8ResponseV7Network20NWCustomSerializableAASe
++ _associated conformance 18AppIntentsServices0aB8ProtocolO06UpdateA18ShortcutParametersO8ResponseVAA21ProtobufRepresentableAA0I4TypeAaHP_013InternalSwiftI07Message
++ _associated conformance 18AppIntentsServices0aB8ProtocolO06UpdateA18ShortcutParametersO8ResponseVAA21ProtobufRepresentableAA0I4TypeAaHP_SQ
++ _associated conformance 18AppIntentsServices0aB8ProtocolO13PrewarmIntentO7RequestV7Network20NWCustomSerializableAASE
++ _associated conformance 18AppIntentsServices0aB8ProtocolO13PrewarmIntentO7RequestV7Network20NWCustomSerializableAASe
++ _associated conformance 18AppIntentsServices0aB8ProtocolO13PrewarmIntentO7RequestVAA21ProtobufRepresentableAA0H4TypeAaHP_013InternalSwiftH07Message
++ _associated conformance 18AppIntentsServices0aB8ProtocolO13PrewarmIntentO7RequestVAA21ProtobufRepresentableAA0H4TypeAaHP_SQ
++ _associated conformance 18AppIntentsServices0aB8ProtocolO13PrewarmIntentO8ResponseO7Network20NWCustomSerializableAASE
++ _associated conformance 18AppIntentsServices0aB8ProtocolO13PrewarmIntentO8ResponseO7Network20NWCustomSerializableAASe
++ _associated conformance 18AppIntentsServices0aB8ProtocolO13PrewarmIntentO8ResponseOAA21ProtobufRepresentableAA0H4TypeAaHP_013InternalSwiftH07Message
++ _associated conformance 18AppIntentsServices0aB8ProtocolO13PrewarmIntentO8ResponseOAA21ProtobufRepresentableAA0H4TypeAaHP_SQ
++ _associated conformance 18AppIntentsServices0bC0O14NetworkOptionsV17InternetRelayModeOSHAASQ
++ _associated conformance 18AppIntentsServices0bC0O14NetworkOptionsVSHAASQ
++ _associated conformance 18AppIntentsServices16UserProfileCacheC0F3Key33_752DDC5A2247F297E1278AC466F4F211LLOSHAASQ
++ _associated conformance 18AppIntentsServices26NetworkTransportAttributesVSHAASQ
++ _get_enum_tag_for_layout_string 18AppIntentsServices16UserProfileCacheC0F3Key33_752DDC5A2247F297E1278AC466F4F211LLO
++ _nw_parameters_set_preferred_interface_subtypes
++ _nw_parameters_set_prohibited_interface_subtypes
++ _objc_msgSend$entityOptions
++ _swift_setAtWritableKeyPath
++ _symbolic $s18AppIntentsServices29PersonaIdentifierLookupSourceP
++ _symbolic $s18AppIntentsServices30InterfaceAvailabilityProvidingP
++ _symbolic SDySSSbG
++ _symbolic SDy__________yx_GG 10Foundation4UUIDV ScS12ContinuationV
++ _symbolic SDyxq_G
++ _symbolic Say_____3key_ScSySbG6streamtG 18AppIntentsServices20NetworkInterfaceTypeO
++ _symbolic Say_____G 18AppIntentsServices26NetworkTransportAttributesV
++ _symbolic Say_____y______GG 18AppIntentsServices0bC0O14OptionsBuilderV AC07NetworkD0V
++ _symbolic ScSySbGIeghHr_
++ _symbolic ScSy______SbtG 18AppIntentsServices20NetworkInterfaceTypeO
++ _symbolic Shy_____G 18AppIntentsServices20NetworkInterfaceTypeO
++ _symbolic _____ 18AppIntentsServices0aB21Protobuf_HostMessagesV06UpdateA26ShortcutParametersResponseV
++ _symbolic _____ 18AppIntentsServices0aB21Protobuf_HostMessagesV21PrewarmActionResponseV
++ _symbolic _____ 18AppIntentsServices0aB21Protobuf_HostMessagesV21PrewarmActionResponseV13OneOf_PayloadO
++ _symbolic _____ 18AppIntentsServices0aB21Protobuf_HostMessagesV21PrewarmActionResponseV7SuccessV
++ _symbolic _____ 18AppIntentsServices0aB23Protobuf_ClientMessagesV06UpdateA25ShortcutParametersRequestV
++ _symbolic _____ 18AppIntentsServices0aB23Protobuf_ClientMessagesV20PrewarmActionRequestV
++ _symbolic _____ 18AppIntentsServices0aB8ProtocolO06UpdateA18ShortcutParametersO
++ _symbolic _____ 18AppIntentsServices0aB8ProtocolO06UpdateA18ShortcutParametersO7RequestV
++ _symbolic _____ 18AppIntentsServices0aB8ProtocolO06UpdateA18ShortcutParametersO8ResponseV
++ _symbolic _____ 18AppIntentsServices0aB8ProtocolO13PrewarmIntentO
++ _symbolic _____ 18AppIntentsServices0aB8ProtocolO13PrewarmIntentO7RequestV
++ _symbolic _____ 18AppIntentsServices0aB8ProtocolO13PrewarmIntentO8ResponseO
++ _symbolic _____ 18AppIntentsServices0bC0O14NetworkOptionsV
++ _symbolic _____ 18AppIntentsServices0bC0O14NetworkOptionsV17InternetRelayModeO
++ _symbolic _____ 18AppIntentsServices0bC0O14OptionsBuilderV
++ _symbolic _____ 18AppIntentsServices0bC0O23discoverRemoteEndpoints15devicePredicate14networkOptions4userScSyAC8EndpointVGAC06DeviceH0O_AC07NetworkJ0VAC4UserVtKFZ06ReportL8StrategyL_V
++ _symbolic _____ 18AppIntentsServices14BroadcastStateC
++ _symbolic _____ 18AppIntentsServices14BroadcastStateC0E033_318EAFFAE1B0482BCEFBB3C8CBA54790LLV
++ _symbolic _____ 18AppIntentsServices15CellularMonitorC
++ _symbolic _____ 18AppIntentsServices16UserProfileCacheC
++ _symbolic _____ 18AppIntentsServices16UserProfileCacheC0F3Key33_752DDC5A2247F297E1278AC466F4F211LLO
++ _symbolic _____ 18AppIntentsServices29InterfaceAvailabilityProviderV
++ _symbolic _____ 18AppIntentsServices30RemoteBundleIdentifierRemapperC
++ _symbolic _____ 18AppIntentsServices8LRUCacheC
++ _symbolic _____ 18AppIntentsServices8LRUCacheC5State33_4D84C15B9FED1CDDA706C378B722C85ELLV
++ _symbolic _____3key_ScSySbG6streamt 18AppIntentsServices20NetworkInterfaceTypeO
++ _symbolic _____8instance______2idt 18AppIntentsServices06RemoteaB5ActorC 10Foundation4UUIDV
++ _symbolic _____8instance______2idtSg 18AppIntentsServices06RemoteaB5ActorC 10Foundation4UUIDV
++ _symbolic _____Iegr_ 18AppIntentsServices06RemoteaB5ActorC
++ _symbolic _____Sg 18AppIntentsServices0aB21Protobuf_HostMessagesV21PrewarmActionResponseV13OneOf_PayloadO
++ _symbolic _____Sg 18AppIntentsServices0aB21Protobuf_HostMessagesV21PrewarmActionResponseV7SuccessV
++ _symbolic _____Sg 18AppIntentsServices0bC0O6DeviceV
++ _symbolic _____Sg 7Network13NWPathMonitorC
++ _symbolic _____Sg_ABt 18AppIntentsServices0aB21Protobuf_HostMessagesV21PrewarmActionResponseV13OneOf_PayloadO
++ _symbolic ______AAt 18AppIntentsServices0aB21Protobuf_HostMessagesV21PrewarmActionResponseV13OneOf_PayloadO
++ _symbolic ______Sbt 18AppIntentsServices20NetworkInterfaceTypeO
++ _symbolic _____________________pIetMHnTgrzo_ 18AppIntentsServices0aB8ProtocolO13PrewarmIntentO7RequestV AA06RemoteaB5ActorC AE8ResponseO s5ErrorP
++ _symbolic ______p 18AppIntentsServices29PersonaIdentifierLookupSourceP
++ _symbolic ______p 18AppIntentsServices30InterfaceAvailabilityProvidingP
++ _symbolic _____x___________p_____Rz_____RzlIetMHnTgrzo_ 18AppIntentsServices0aB8ProtocolO06UpdateA18ShortcutParametersO7RequestV AE8ResponseV s5ErrorP AA028RunnerServiceDispatcherActorD0P 11Distributed01_oN4StubP
++ _symbolic _____x___________p_____RzlIetWHnTgrzo_ 18AppIntentsServices0aB8ProtocolO06UpdateA18ShortcutParametersO7RequestV AE8ResponseV s5ErrorP AA028RunnerServiceDispatcherActorD0P
++ _symbolic _____ySDySSSbGG 15Synchronization5MutexVAARi_zrlE
++ _symbolic _____ySSSbG s17_NativeDictionaryV
++ _symbolic _____ySbG 18AppIntentsServices14BroadcastStateC
++ _symbolic _____ySbGSgXw 18AppIntentsServices14BroadcastStateC
++ _symbolic _____y_____3key_ScSySbG6streamtG s23_ContiguousArrayStorageC 18AppIntentsServices20NetworkInterfaceTypeO
++ _symbolic _____y_____G 11Distributed18RemoteCallArgumentV 18AppIntentsServices0eF8ProtocolO06UpdateE18ShortcutParametersO7RequestV
++ _symbolic _____y_____G 11Distributed18RemoteCallArgumentV 18AppIntentsServices0eF8ProtocolO13PrewarmIntentO7RequestV
++ _symbolic _____y_____G s11_SetStorageC 18AppIntentsServices20NetworkInterfaceTypeO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 18AppIntentsServices16UserProfileCacheC0I3Key33_752DDC5A2247F297E1278AC466F4F211LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 18AppIntentsServices20NetworkInterfaceTypeO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 18AppIntentsServices26NetworkTransportAttributesV
++ _symbolic _____y_____SSSgG 18AppIntentsServices8LRUCacheC AA16UserProfileCacheC0G3Key33_752DDC5A2247F297E1278AC466F4F211LLO
++ _symbolic _____y_____SSSgG s17_NativeDictionaryV 18AppIntentsServices16UserProfileCacheC0H3Key33_752DDC5A2247F297E1278AC466F4F211LLO
++ _symbolic _____y_____SbG s18_DictionaryStorageC 18AppIntentsServices20NetworkInterfaceTypeO
++ _symbolic _____y_____Sg_G ScS12ContinuationV 18AppIntentsServices0cD0O6DeviceV
++ _symbolic _____y_____Sg__G ScS12ContinuationV11YieldResultO 18AppIntentsServices0eF0O6DeviceV
++ _symbolic _____y_____Sg__G ScS12ContinuationV15BufferingPolicyO 18AppIntentsServices0eF0O6DeviceV
++ _symbolic _____y______SbtG s23_ContiguousArrayStorageC 18AppIntentsServices20NetworkInterfaceTypeO
++ _symbolic _____y______Sbt_G ScS12ContinuationV 18AppIntentsServices20NetworkInterfaceTypeO
++ _symbolic _____y______Sbt_G ScS8IteratorV 18AppIntentsServices20NetworkInterfaceTypeO
++ _symbolic _____y______Sbt__G ScS12ContinuationV11YieldResultO 18AppIntentsServices20NetworkInterfaceTypeO
++ _symbolic _____y______Sbt__G ScS12ContinuationV15BufferingPolicyO 18AppIntentsServices20NetworkInterfaceTypeO
++ _symbolic _____y_____yx_GG 15Synchronization5MutexVAARi_zrlE 18AppIntentsServices14BroadcastStateC0G033_318EAFFAE1B0482BCEFBB3C8CBA54790LLV
++ _symbolic _____y_____yxq__GG 15Synchronization5MutexVAARi_zrlE 18AppIntentsServices8LRUCacheC5State33_4D84C15B9FED1CDDA706C378B722C85ELLV
++ _symbolic _____yxGSgXw 18AppIntentsServices14BroadcastStateC
++ _symbolic _____yxGSgXwz_Sb_SQRzlXX 18AppIntentsServices14BroadcastStateC
++ _symbolic _____yxGSgXwz_x_SQRzlXX 18AppIntentsServices14BroadcastStateC
++ _symbolic yxzc
++ _type_layout_string 18AppIntentsServices0aB8ProtocolO13PrewarmIntentO7RequestV
++ _type_layout_string 18AppIntentsServices0bC0O14NetworkOptionsV
++ _type_layout_string 18AppIntentsServices0bC0O23discoverRemoteEndpoints15devicePredicate14networkOptions4userScSyAC8EndpointVGAC06DeviceH0O_AC07NetworkJ0VAC4UserVtKFZ06ReportL8StrategyL_V
++ _type_layout_string 18AppIntentsServices16RemoteDispatcherC32TransportConnectivityErrorSourceC5Phase33_E08054FFD8795BB67F5463846AC3FC68LLO
++ _type_layout_string 18AppIntentsServices16UserProfileCacheC0F3Key33_752DDC5A2247F297E1278AC466F4F211LLO
++ _type_layout_string SHRzs8SendableRzsAAR_r0_l18AppIntentsServices8LRUCacheC5State33_4D84C15B9FED1CDDA706C378B722C85ELLVyxq__G
++ _type_layout_string SS10identifier_t
++ _type_layout_string l18AppIntentsServices0bC0O14OptionsBuilderVy_xG
++ _xpc_array_create_empty
++ _xpc_array_set_uint64
+- ___swift_closure_destructor.110Tm
+- ___swift_closure_destructor.1172Tm
+- ___swift_closure_destructor.1182Tm
+- ___swift_closure_destructor.1265Tm
+- ___swift_closure_destructor.129Tm
+- ___swift_closure_destructor.1482Tm
+- ___swift_closure_destructor.1521Tm
+- ___swift_closure_destructor.156Tm
+- ___swift_closure_destructor.1571Tm
+- ___swift_closure_destructor.1745Tm
+- ___swift_closure_destructor.182Tm
+- ___swift_closure_destructor.197Tm
+- ___swift_closure_destructor.210Tm
+- ___swift_closure_destructor.250Tm
+- ___swift_closure_destructor.293Tm
+- ___swift_closure_destructor.297Tm
+- ___swift_closure_destructor.308Tm
+- ___swift_closure_destructor.38Tm
+- ___swift_closure_destructor.684Tm
+- ___swift_closure_destructor.693Tm
+- ___swift_closure_destructor.699Tm
+- ___swift_closure_destructor.708Tm
+- ___swift_closure_destructor.723Tm
+- ___swift_closure_destructor.738Tm
+- ___swift_closure_destructor.753Tm
+- ___swift_closure_destructor.768Tm
+- ___swift_closure_destructor.783Tm
+- ___swift_closure_destructor.82Tm
+- ___swift_closure_destructor.85Tm
+- ___swift_get_extra_inhabitant_index.360Tm
+- ___swift_get_extra_inhabitant_index.414Tm
+- ___swift_get_extra_inhabitant_index.504Tm
+- ___swift_get_extra_inhabitant_index.668Tm
+- ___swift_get_extra_inhabitant_index.803Tm
+- ___swift_get_extra_inhabitant_index.848Tm
+- ___swift_memcpy104_8
+- ___swift_memcpy4_1
+- ___swift_store_extra_inhabitant_index.361Tm
+- ___swift_store_extra_inhabitant_index.415Tm
+- ___swift_store_extra_inhabitant_index.505Tm
+- ___swift_store_extra_inhabitant_index.669Tm
+- ___swift_store_extra_inhabitant_index.804Tm
+- ___swift_store_extra_inhabitant_index.849Tm
+- _nw_parameters_create_application_service
+- _nw_parameters_set_application_id
+- _nw_parameters_set_companion_proxy_required_interface_type
+- _nw_parameters_set_required_netagent_classes
+- _symbolic SDy_____ScSySbGyYbcG 18AppIntentsServices20NetworkInterfaceTypeO
+- _symbolic SDy__________ySb_GG 10Foundation4UUIDV ScS12ContinuationV
+- _symbolic SayScTyyt_____GG s5NeverO
+- _symbolic ScSySbGIeghr_
+- _symbolic ScSySbGyYbc
+- _symbolic _____ 18AppIntentsServices0bC0O23discoverRemoteEndpoints15devicePredicate4userScSyAC8EndpointVGAC06DeviceH0O_AC4UserVtKFZ06ReportJ8StrategyL_V
+- _symbolic _____ 18AppIntentsServices17NetworkTransportsO
+- _symbolic _____ 18AppIntentsServices27ApplicationServiceTransportV
+- _symbolic _____Sg 18AppIntentsServices06CustomA24EntityRepresentationBaseC12InstanceInfoV
+- _symbolic _____Sg 7Network11NWTXTRecordV5EntryO
+- _symbolic _____SgXw 18AppIntentsServices16BluetoothMonitorC
+- _symbolic _____SgXwz_Xx 18AppIntentsServices16BluetoothMonitorC
+- _symbolic ______pXmT 18AppIntentsServices25NetworkTransportProvidingP
+- _symbolic _____yScTyyt_____GG s23_ContiguousArrayStorageC s5NeverO
+- _symbolic _____ySsG s23_ContiguousArrayStorageC
+- _symbolic _____y_____ScSySbGyYbcG s17_NativeDictionaryV 18AppIntentsServices20NetworkInterfaceTypeO
+- _symbolic _____y__________G s17_NativeDictionaryV 10Foundation4UUIDV 18AppIntentsServices06CustomE24EntityRepresentationBaseC12InstanceInfoV
+- _symbolic _____y______pXpG s23_ContiguousArrayStorageC 18AppIntentsServices25NetworkTransportProvidingP
+- _type_layout_string 18AppIntentsServices0bC0O23discoverRemoteEndpoints15devicePredicate4userScSyAC8EndpointVGAC06DeviceH0O_AC4UserVtKFZ06ReportJ8StrategyL_V
+- _type_layout_string 18AppIntentsServices27ApplicationServiceTransportV
+- _xpc_array_append_value
+- _xpc_array_create
+- _xpc_string_create
+CStrings:
++ ", useInternetRelay: "
++ ".PrewarmActionRequest"
++ ".PrewarmActionResponse"
++ ".UpdateAppShortcutParametersRequest"
++ ".UpdateAppShortcutParametersResponse"
++ ".error(<redacted>)"
++ "<User iCloudAltDSID="
++ "AppIntentsProtocol.PrewarmIntent.Request(specification: "
++ "Empty TXT record when assessing %s"
++ "Legacy bundle remap (cached decision) for '%{public}s': hasMigrated=%{bool,public}d"
++ "Legacy bundle remap (fresh decision) for '%{public}s': hasMigrated=%{bool,public}d, resolved='%{public}s'"
++ "NetworkOptions(internetRelay="
++ "QR (internet relay) enabled for outbound connection: %s"
++ "QR (internet relay) enabled on Rapport listener"
++ "QR (internet relay) enabled on Terminus listener"
++ "User identifier conversion is not supported on this platform."
++ "[%s] <%s#%ld> discarding error from cancelled attempt: %@"
++ "[%s] <%s> Not executing, call already completed"
++ "[%s] <%s> Skipping stale retry of attempt %ld; current attempt is %ld"
++ "[%s] Failed to stop observing: %@"
++ "[%s] Not dispatching onto %s, which is pending invalidation"
++ "[%s] Preparing to invalidate %s; stopping %ld in-flight attempt(s)"
++ "[%s] Remote does not support prewarm; skipping."
++ "[%s] Skipping prewarm for OpenURL intent (no connection to warm)"
++ "cellular"
++ "com.apple.MobileSMS"
++ "com.apple.appintentsservices.cellular-monitor"
++ "com.apple.imagent"
++ "com.apple.private.dmd.policy"
++ "describe(_:) is not supported by this dispatcher"
++ "prewarmAppIntent"
++ "resolve(_:to:app:) is not supported by this dispatcher"
++ "updateAppShortcutParameters(_:)"
++ "useQRForRapport"
+- " is not available"
+- "ApplicationService/Rapport(for: "
+- "Empty TXT record when assessing isMeDevice"
+- "Empty TXT record when assessing isOwner"
+- "Empty TXT record when assessing osVersion"
+- "User identifier conversion from siriSharedUserIdentifier is not supported on this platform."
+- "[%s] USAGE ERROR: ActorCall executeOn called after completion for <%s>"
+- "asQuicRapport"
+- "avconference.avctester"
+- "describeApplication(for:) is not supported by this dispatcher"
+- "resolveValue(_:to:app:) is not supported by this dispatcher"
+- "useQRForWatch"
+- "useQRTestServiceForWatch"
+```

@@ -1,0 +1,333 @@
+## CarAssetUtils
+
+> `/System/Library/PrivateFrameworks/CarAssetUtils.framework/CarAssetUtils`
+
+```diff
+
+-499.1.0.0.0
+-  __TEXT.__text: 0x496e8
++509.4.2.0.0
++  __TEXT.__text: 0x51ea4
+   __TEXT.__objc_methlist: 0x2dc
+-  __TEXT.__const: 0xaaa0
+-  __TEXT.__swift5_typeref: 0x1cd5
+-  __TEXT.__constg_swiftt: 0x1808
+-  __TEXT.__swift5_reflstr: 0x1970
+-  __TEXT.__swift5_fieldmd: 0x2a34
+-  __TEXT.__swift5_builtin: 0x78
+-  __TEXT.__cstring: 0x1792
+-  __TEXT.__swift5_proto: 0xb2c
+-  __TEXT.__swift5_types: 0x2c8
+-  __TEXT.__oslogstring: 0x444
+-  __TEXT.__swift5_assocty: 0x3a8
+-  __TEXT.__swift5_protos: 0x4
+-  __TEXT.__swift5_capture: 0xa4
++  __TEXT.__const: 0xb898
++  __TEXT.__swift5_typeref: 0x23db
++  __TEXT.__constg_swiftt: 0x1b80
++  __TEXT.__swift5_reflstr: 0x1dda
++  __TEXT.__swift5_fieldmd: 0x2d30
++  __TEXT.__swift5_builtin: 0x8c
++  __TEXT.__cstring: 0x1918
++  __TEXT.__oslogstring: 0x5c4
++  __TEXT.__swift5_proto: 0xbd4
++  __TEXT.__swift5_types: 0x314
++  __TEXT.__swift5_assocty: 0x438
++  __TEXT.__swift5_protos: 0x8
++  __TEXT.__swift5_capture: 0xbc
+   __TEXT.__swift_as_entry: 0xc
+   __TEXT.__swift_as_ret: 0x8
+   __TEXT.__swift_as_cont: 0x10
+-  __TEXT.__swift5_mpenum: 0x64
+-  __TEXT.__unwind_info: 0x2430
+-  __TEXT.__eh_frame: 0x29a8
++  __TEXT.__swift5_mpenum: 0x5c
++  __TEXT.__unwind_info: 0x26f8
++  __TEXT.__eh_frame: 0x2fb8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1f0
+-  __DATA_CONST.__objc_classlist: 0x30
++  __DATA_CONST.__const: 0x2a8
++  __DATA_CONST.__objc_classlist: 0x38
+   __DATA_CONST.__objc_protolist: 0x50
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x1d8
+   __DATA_CONST.__objc_protorefs: 0x30
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x77b9
+-  __AUTH_CONST.__objc_const: 0x6f8
+-  __AUTH_CONST.__auth_got: 0x740
++  __AUTH_CONST.__const: 0x8180
++  __AUTH_CONST.__objc_const: 0x850
++  __AUTH_CONST.__auth_got: 0x860
+   __AUTH.__objc_data: 0x190
+-  __AUTH.__data: 0x108
+-  __DATA.__data: 0x1bb0
+-  __DATA_DIRTY.__objc_data: 0x308
+-  __DATA_DIRTY.__data: 0x2b0
+-  __DATA_DIRTY.__common: 0x20
++  __AUTH.__data: 0x270
++  __DATA.__data: 0x20c0
++  __DATA.__common: 0x10
++  __DATA_DIRTY.__objc_data: 0x328
++  __DATA_DIRTY.__data: 0x2b8
++  __DATA_DIRTY.__common: 0x18
+   __DATA_DIRTY.__bss: 0x180
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 2903
+-  Symbols:   1088
+-  CStrings:  283
++  Functions: 3106
++  Symbols:   1245
++  CStrings:  304
+ 
+Symbols:
++ __DATA__TtC13CarAssetUtils22CAUCustomSymbolCatalog
++ __IVARS__TtC13CarAssetUtils22CAUCustomSymbolCatalog
++ __METACLASS_DATA__TtC13CarAssetUtils22CAUCustomSymbolCatalog
++ ___swift_instantiateGenericMetadata
++ ___swift_memcpy41_8
++ ___swift_memcpy4_4
++ ___unnamed_5
++ ___unnamed_6
++ ___unnamed_8
++ _associated conformance 13CarAssetUtils07DefaultA7PlayAppOAA05LossyD13ValueProviderAA0H0AaDP_SE
++ _associated conformance 13CarAssetUtils07DefaultA7PlayAppOAA05LossyD13ValueProviderAA0H0AaDP_Se
++ _associated conformance 13CarAssetUtils12DefaultRadioOAA05LossyD13ValueProviderAA0G0AaDP_SE
++ _associated conformance 13CarAssetUtils12DefaultRadioOAA05LossyD13ValueProviderAA0G0AaDP_Se
++ _associated conformance 13CarAssetUtils13DefaultCameraOAA05LossyD13ValueProviderAA0G0AaDP_SE
++ _associated conformance 13CarAssetUtils13DefaultCameraOAA05LossyD13ValueProviderAA0G0AaDP_Se
++ _associated conformance 13CarAssetUtils14DefaultClimateOAA05LossyD13ValueProviderAA0G0AaDP_SE
++ _associated conformance 13CarAssetUtils14DefaultClimateOAA05LossyD13ValueProviderAA0G0AaDP_Se
++ _associated conformance 13CarAssetUtils15DefaultSettingsOAA05LossyD13ValueProviderAA0G0AaDP_SE
++ _associated conformance 13CarAssetUtils15DefaultSettingsOAA05LossyD13ValueProviderAA0G0AaDP_Se
++ _associated conformance 13CarAssetUtils15LossyDictionaryV0D9CodingKey33_AEEC9D5F15797248ECFD39F472BE2E8DLLVyx_Gs0fG0AAs23CustomStringConvertible
++ _associated conformance 13CarAssetUtils15LossyDictionaryV0D9CodingKey33_AEEC9D5F15797248ECFD39F472BE2E8DLLVyx_Gs0fG0AAs28CustomDebugStringConvertible
++ _associated conformance 13CarAssetUtils23CAUFeatureConfigurationV7ClimateV13RecirculationV10CodingKeys33_B26905598DD306B8E2A3A25DB8A13A42LLOSHAASQ
++ _associated conformance 13CarAssetUtils23CAUFeatureConfigurationV7ClimateV13RecirculationV10CodingKeys33_B26905598DD306B8E2A3A25DB8A13A42LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 13CarAssetUtils23CAUFeatureConfigurationV7ClimateV13RecirculationV10CodingKeys33_B26905598DD306B8E2A3A25DB8A13A42LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13CarAssetUtils8CAUAssetO13InteriorImageV10CodingKeys33_E370ACFF1569C34D786A5D7D59B2499CLLOSHAASQ
++ _associated conformance 13CarAssetUtils8CAUAssetO13InteriorImageV10CodingKeys33_E370ACFF1569C34D786A5D7D59B2499CLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 13CarAssetUtils8CAUAssetO13InteriorImageV10CodingKeys33_E370ACFF1569C34D786A5D7D59B2499CLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13CarAssetUtils8CAUAssetO19CustomSymbolCatalogV10CodingKeys33_E370ACFF1569C34D786A5D7D59B2499CLLOSHAASQ
++ _associated conformance 13CarAssetUtils8CAUAssetO19CustomSymbolCatalogV10CodingKeys33_E370ACFF1569C34D786A5D7D59B2499CLLOs0H3KeyAAs0E17StringConvertible
++ _associated conformance 13CarAssetUtils8CAUAssetO19CustomSymbolCatalogV10CodingKeys33_E370ACFF1569C34D786A5D7D59B2499CLLOs0H3KeyAAs0E22DebugStringConvertible
++ _get_enum_tag_for_layout_string 13CarAssetUtils11CAUResourceO
++ _keypath_getTm
++ _objc_retain_x26
++ _objc_retain_x27
++ _os_unfair_lock_lock
++ _os_unfair_lock_unlock
++ _swift_checkMetadataState
++ _swift_cvw_allocateGenericValueMetadataWithLayoutString
++ _swift_cvw_initStructMetadataWithLayoutString
++ _swift_cvw_initWithTake
++ _swift_cvw_instantiateLayoutString
++ _swift_getAssociatedConformanceWitness
++ _swift_getAssociatedTypeWitness
++ _swift_getGenericMetadata
++ _swift_getMetatypeMetadata
++ _swift_getTupleTypeMetadata2
++ _swift_release_x25
++ _swift_release_x26
++ _swift_retain
++ _swift_retain_n
++ _swift_retain_x24
++ _symbolic $s13CarAssetUtils25LossyDefaultValueProviderP
++ _symbolic 5Value_____Qz 13CarAssetUtils25LossyDefaultValueProviderP
++ _symbolic SDySSSay_____GG 13CarAssetUtils8CAUAssetO13InteriorImageV
++ _symbolic SDySS_____G 13CarAssetUtils8CAUAssetO19CustomSymbolCatalogV
++ _symbolic SDySSxG
++ _symbolic SS10identifier_t
++ _symbolic Say_____G 13CarAssetUtils8CAUAssetO13InteriorImageV
++ _symbolic SayxG
++ _symbolic SiSg
++ _symbolic So26NSSecurityScopedURLWrapperCSgACSSSgSo8NSNumberCSDyS2SGSgSo7NSErrorCSgIggggggg_
++ _symbolic _____ 13CarAssetUtils07DefaultA7PlayAppO
++ _symbolic _____ 13CarAssetUtils10LossyArrayV
++ _symbolic _____ 13CarAssetUtils12DefaultRadioO
++ _symbolic _____ 13CarAssetUtils12LossyDefaultV
++ _symbolic _____ 13CarAssetUtils12LossyElementV
++ _symbolic _____ 13CarAssetUtils13DefaultCameraO
++ _symbolic _____ 13CarAssetUtils14DefaultClimateO
++ _symbolic _____ 13CarAssetUtils15DefaultSettingsO
++ _symbolic _____ 13CarAssetUtils15LossyDictionaryV
++ _symbolic _____ 13CarAssetUtils15LossyDictionaryV0D9CodingKey33_AEEC9D5F15797248ECFD39F472BE2E8DLLV
++ _symbolic _____ 13CarAssetUtils22CAUCustomSymbolCatalogC
++ _symbolic _____ 13CarAssetUtils23CAUFeatureConfigurationV7ClimateV13RecirculationV
++ _symbolic _____ 13CarAssetUtils23CAUFeatureConfigurationV7ClimateV13RecirculationV10CodingKeys33_B26905598DD306B8E2A3A25DB8A13A42LLO
++ _symbolic _____ 13CarAssetUtils5LossyV
++ _symbolic _____ 13CarAssetUtils8CAUAssetO13InteriorImageV
++ _symbolic _____ 13CarAssetUtils8CAUAssetO13InteriorImageV10CodingKeys33_E370ACFF1569C34D786A5D7D59B2499CLLO
++ _symbolic _____ 13CarAssetUtils8CAUAssetO19CustomSymbolCatalogV
++ _symbolic _____ 13CarAssetUtils8CAUAssetO19CustomSymbolCatalogV10CodingKeys33_E370ACFF1569C34D786A5D7D59B2499CLLO
++ _symbolic _____ So16os_unfair_lock_sV
++ _symbolic _____ s6UInt32V
++ _symbolic _____Sg 10Foundation3URLV
++ _symbolic _____Sg 13CarAssetUtils23CAUFeatureConfigurationV
++ _symbolic _____Sg 13CarAssetUtils23CAUFeatureConfigurationV7ClimateV13RecirculationV
++ _symbolic _____Sg 13CarAssetUtils26CAUSettingsUIConfigurationV
++ _symbolic _____SgSg 13CarAssetUtils26CAUSettingsUIConfigurationV
++ _symbolic ______pSg s5ErrorP
++ _symbolic _____m 13CarAssetUtils23CAUFeatureConfigurationV0A7PlayAppV
++ _symbolic _____m 13CarAssetUtils23CAUFeatureConfigurationV5RadioV
++ _symbolic _____m 13CarAssetUtils23CAUFeatureConfigurationV6CameraV
++ _symbolic _____m 13CarAssetUtils23CAUFeatureConfigurationV7ClimateV
++ _symbolic _____m 13CarAssetUtils23CAUFeatureConfigurationV8SettingsV
++ _symbolic _____ySDySSSay_____GGG 13CarAssetUtils5LossyV AA8CAUAssetO11ClosureMaskV
++ _symbolic _____ySDySSSay_____GGG 13CarAssetUtils5LossyV AA8CAUAssetO15TopDownInteriorV
++ _symbolic _____ySDySSSay_____GGG 13CarAssetUtils5LossyV AA8CAUAssetO4SeatV
++ _symbolic _____ySDySSSay_____GGG 13CarAssetUtils5LossyV AA8CAUAssetO5CabinV
++ _symbolic _____ySDySSSay_____GGSgG 13CarAssetUtils5LossyV AA8CAUAssetO13InteriorImageV
++ _symbolic _____ySDySSSay_____GGSgG 13CarAssetUtils5LossyV AA8CAUAssetO8TireMaskV
++ _symbolic _____ySDySS_____GG 13CarAssetUtils5LossyV AA8CAUAssetO11VehicleLogoV
++ _symbolic _____ySDySS_____GG 13CarAssetUtils5LossyV AA8CAUAssetO13VehicleLayoutV
++ _symbolic _____ySDySS_____GG 13CarAssetUtils5LossyV AA8CAUAssetO14AudioBrandLogoV
++ _symbolic _____ySDySS_____GG 13CarAssetUtils5LossyV AA8CAUAssetO16WallpaperOverlayV
++ _symbolic _____ySDySS_____GG 13CarAssetUtils5LossyV AA8CAUAssetO22TopDownExteriorVisibleV
++ _symbolic _____ySDySS_____GG 13CarAssetUtils5LossyV AA8CAUAssetO30TopDownExteriorClosuresOverlayV
++ _symbolic _____ySDySS_____GSgG 13CarAssetUtils5LossyV AA8CAUAssetO14SymbolOverrideV
++ _symbolic _____ySDySS_____GSgG 13CarAssetUtils5LossyV AA8CAUAssetO16AppDockIndicatorV
++ _symbolic _____ySDySS_____GSgG 13CarAssetUtils5LossyV AA8CAUAssetO16VehicleBlurImageV
++ _symbolic _____ySDySS_____GSgG 13CarAssetUtils5LossyV AA8CAUAssetO18AppUIConfigurationV
++ _symbolic _____ySDySS_____GSgG 13CarAssetUtils5LossyV AA8CAUAssetO19CustomSymbolCatalogV
++ _symbolic _____ySDySS_____GSgG 13CarAssetUtils5LossyV AA8CAUAssetO20FeatureConfigurationV
++ _symbolic _____ySDySS_____GSgG 13CarAssetUtils5LossyV AA8CAUAssetO23SettingsUIConfigurationV
++ _symbolic _____ySDySS_____GSgG 13CarAssetUtils5LossyV AA8CAUAssetO25PhysicalControlBarsLayoutV
++ _symbolic _____ySDySS_____GSgG 13CarAssetUtils5LossyV AA8CAUAssetO5ThemeV
++ _symbolic _____ySDy__________GSgG 2os21OSAllocatedUnfairLockV 13CarAssetUtils21CAUAppUIConfigurationV4ModeO AF17AppsConfigurationV
++ _symbolic _____ySDy__________GSg_____G s13ManagedBufferCsRi__rlE 13CarAssetUtils21CAUAppUIConfigurationV4ModeO AE17AppsConfigurationV So16os_unfair_lock_sV
++ _symbolic _____ySSSay_____GG s18_DictionaryStorageC 13CarAssetUtils8CAUAssetO11ClosureMaskV
++ _symbolic _____ySSSay_____GG s18_DictionaryStorageC 13CarAssetUtils8CAUAssetO13InteriorImageV
++ _symbolic _____ySSSay_____GG s18_DictionaryStorageC 13CarAssetUtils8CAUAssetO15TopDownInteriorV
++ _symbolic _____ySSSay_____GG s18_DictionaryStorageC 13CarAssetUtils8CAUAssetO4SeatV
++ _symbolic _____ySSSay_____GG s18_DictionaryStorageC 13CarAssetUtils8CAUAssetO5CabinV
++ _symbolic _____ySSSay_____GG s18_DictionaryStorageC 13CarAssetUtils8CAUAssetO8TireMaskV
++ _symbolic _____ySS_____G s18_DictionaryStorageC 13CarAssetUtils8CAUAssetO11VehicleLogoV
++ _symbolic _____ySS_____G s18_DictionaryStorageC 13CarAssetUtils8CAUAssetO13VehicleLayoutV
++ _symbolic _____ySS_____G s18_DictionaryStorageC 13CarAssetUtils8CAUAssetO14AudioBrandLogoV
++ _symbolic _____ySS_____G s18_DictionaryStorageC 13CarAssetUtils8CAUAssetO16WallpaperOverlayV
++ _symbolic _____ySS_____G s18_DictionaryStorageC 13CarAssetUtils8CAUAssetO22TopDownExteriorVisibleV
++ _symbolic _____ySS_____G s18_DictionaryStorageC 13CarAssetUtils8CAUAssetO30TopDownExteriorClosuresOverlayV
++ _symbolic _____y_____G 13CarAssetUtils12LossyDefaultV AA0E5RadioO
++ _symbolic _____y_____G 13CarAssetUtils12LossyDefaultV AA0E6CameraO
++ _symbolic _____y_____G 13CarAssetUtils12LossyDefaultV AA0E7ClimateO
++ _symbolic _____y_____G 13CarAssetUtils12LossyDefaultV AA0E8SettingsO
++ _symbolic _____y_____G 13CarAssetUtils12LossyDefaultV AA0eA7PlayAppO
++ _symbolic _____y_____G 13CarAssetUtils15LossyDictionaryV AA21CAUAppUIConfigurationV17AppsConfigurationV
++ _symbolic _____y_____G 13CarAssetUtils15LossyDictionaryV AA8CAUAssetO11VehicleLogoV
++ _symbolic _____y_____G 13CarAssetUtils15LossyDictionaryV AA8CAUAssetO13VehicleLayoutV
++ _symbolic _____y_____G 13CarAssetUtils15LossyDictionaryV AA8CAUAssetO14AudioBrandLogoV
++ _symbolic _____y_____G 13CarAssetUtils15LossyDictionaryV AA8CAUAssetO14SymbolOverrideV
++ _symbolic _____y_____G 13CarAssetUtils15LossyDictionaryV AA8CAUAssetO16AppDockIndicatorV
++ _symbolic _____y_____G 13CarAssetUtils15LossyDictionaryV AA8CAUAssetO16VehicleBlurImageV
++ _symbolic _____y_____G 13CarAssetUtils15LossyDictionaryV AA8CAUAssetO16WallpaperOverlayV
++ _symbolic _____y_____G 13CarAssetUtils15LossyDictionaryV AA8CAUAssetO18AppUIConfigurationV
++ _symbolic _____y_____G 13CarAssetUtils15LossyDictionaryV AA8CAUAssetO19CustomSymbolCatalogV
++ _symbolic _____y_____G 13CarAssetUtils15LossyDictionaryV AA8CAUAssetO20FeatureConfigurationV
++ _symbolic _____y_____G 13CarAssetUtils15LossyDictionaryV AA8CAUAssetO22TopDownExteriorVisibleV
++ _symbolic _____y_____G 13CarAssetUtils15LossyDictionaryV AA8CAUAssetO23SettingsUIConfigurationV
++ _symbolic _____y_____G 13CarAssetUtils15LossyDictionaryV AA8CAUAssetO25PhysicalControlBarsLayoutV
++ _symbolic _____y_____G 13CarAssetUtils15LossyDictionaryV AA8CAUAssetO30TopDownExteriorClosuresOverlayV
++ _symbolic _____y_____G 13CarAssetUtils15LossyDictionaryV AA8CAUAssetO5ThemeV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13CarAssetUtils23CAUFeatureConfigurationV7ClimateV13RecirculationV10CodingKeys33_B26905598DD306B8E2A3A25DB8A13A42LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13CarAssetUtils8CAUAssetO13InteriorImageV10CodingKeys33_E370ACFF1569C34D786A5D7D59B2499CLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13CarAssetUtils8CAUAssetO19CustomSymbolCatalogV10CodingKeys33_E370ACFF1569C34D786A5D7D59B2499CLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13CarAssetUtils23CAUFeatureConfigurationV7ClimateV13RecirculationV10CodingKeys33_B26905598DD306B8E2A3A25DB8A13A42LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13CarAssetUtils8CAUAssetO13InteriorImageV10CodingKeys33_E370ACFF1569C34D786A5D7D59B2499CLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13CarAssetUtils8CAUAssetO19CustomSymbolCatalogV10CodingKeys33_E370ACFF1569C34D786A5D7D59B2499CLLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13CarAssetUtils8CAUAssetO13InteriorImageV
++ _symbolic _____y_____GSg 13CarAssetUtils15LossyDictionaryV AA21CAUAppUIConfigurationV17AppsConfigurationV
++ _symbolic _____y_____SgG 13CarAssetUtils5LossyV AA21CAUAppUIConfigurationV17TripConfigurationV
++ _symbolic _____y_____SgG 13CarAssetUtils5LossyV AA21CAUAppUIConfigurationV19ChargeConfigurationV
++ _symbolic _____y_____SgG 13CarAssetUtils5LossyV AA21CAUAppUIConfigurationV21ClosuresConfigurationV
++ _symbolic _____y_____SgG 13CarAssetUtils5LossyV AA21CAUAppUIConfigurationV22WallpaperConfigurationV
++ _symbolic _____y_____SgG 13CarAssetUtils5LossyV AA21CAUAppUIConfigurationV23DirectTPMSConfigurationV
++ _symbolic _____y_____SgG 13CarAssetUtils5LossyV AA21CAUAppUIConfigurationV25IndirectTPMSConfigurationV
++ _symbolic _____y_____SgG 2os21OSAllocatedUnfairLockV 13CarAssetUtils23CAUFeatureConfigurationV
++ _symbolic _____y_____SgSgG 2os21OSAllocatedUnfairLockV 13CarAssetUtils26CAUSettingsUIConfigurationV
++ _symbolic _____y_____SgSgG 2os21OSAllocatedUnfairLockV 13CarAssetUtils8CAUThemeV
++ _symbolic _____y_____SgSg_____G s13ManagedBufferCsRi__rlE 13CarAssetUtils26CAUSettingsUIConfigurationV So16os_unfair_lock_sV
++ _symbolic _____y_____SgSg_____G s13ManagedBufferCsRi__rlE 13CarAssetUtils8CAUThemeV So16os_unfair_lock_sV
++ _symbolic _____y_____Sg_____G 7Combine19CurrentValueSubjectC 10Foundation3URLV s5NeverO
++ _symbolic _____y_____Sg_____G s13ManagedBufferCsRi__rlE 13CarAssetUtils23CAUFeatureConfigurationV So16os_unfair_lock_sV
++ _symbolic _____y__________G s18_DictionaryStorageC 13CarAssetUtils21CAUAppUIConfigurationV4ModeO AE17AppsConfigurationV
++ _symbolic _____y_____y_____GG 13CarAssetUtils15LossyDictionaryV AA0D5ArrayV AA8CAUAssetO11ClosureMaskV
++ _symbolic _____y_____y_____GG 13CarAssetUtils15LossyDictionaryV AA0D5ArrayV AA8CAUAssetO13InteriorImageV
++ _symbolic _____y_____y_____GG 13CarAssetUtils15LossyDictionaryV AA0D5ArrayV AA8CAUAssetO15TopDownInteriorV
++ _symbolic _____y_____y_____GG 13CarAssetUtils15LossyDictionaryV AA0D5ArrayV AA8CAUAssetO4SeatV
++ _symbolic _____y_____y_____GG 13CarAssetUtils15LossyDictionaryV AA0D5ArrayV AA8CAUAssetO5CabinV
++ _symbolic _____y_____y_____GG 13CarAssetUtils15LossyDictionaryV AA0D5ArrayV AA8CAUAssetO8TireMaskV
++ _symbolic x
++ _symbolic xSg
++ _symbolic ypXp
++ _type_layout_string 13CarAssetUtils11CAUResourceO
++ _type_layout_string 13CarAssetUtils23CAUFeatureConfigurationV7ClimateV13RecirculationV
++ _type_layout_string 13CarAssetUtils8CAUAssetO13InteriorImageV
++ _type_layout_string SeRzl13CarAssetUtils10LossyArrayVyxG
++ _type_layout_string SeRzl13CarAssetUtils15LossyDictionaryV0D9CodingKey33_AEEC9D5F15797248ECFD39F472BE2E8DLLVyx_G
++ _type_layout_string So16os_unfair_lock_sV
+- ___swift_memcpy152_8
+- _associated conformance 13CarAssetUtils21CAUAppUIConfigurationV10CodingKeys33_D5FDA1C48E2C80B4F7AE5B490316E771LLOSHAASQ
+- _keypath_get.1Tm
+- _objc_retain_x28
+- _swift_release_x28
+- _swift_retain_x28
+- _symbolic SDySSSay_____GGSg 13CarAssetUtils8CAUAssetO8TireMaskV
+- _symbolic SDySS_____GSg 13CarAssetUtils8CAUAssetO14SymbolOverrideV
+- _symbolic SDySS_____GSg 13CarAssetUtils8CAUAssetO16AppDockIndicatorV
+- _symbolic SDySS_____GSg 13CarAssetUtils8CAUAssetO16VehicleBlurImageV
+- _symbolic SDySS_____GSg 13CarAssetUtils8CAUAssetO18AppUIConfigurationV
+- _symbolic SDySS_____GSg 13CarAssetUtils8CAUAssetO20FeatureConfigurationV
+- _symbolic SDySS_____GSg 13CarAssetUtils8CAUAssetO23SettingsUIConfigurationV
+- _symbolic SDySS_____GSg 13CarAssetUtils8CAUAssetO25PhysicalControlBarsLayoutV
+- _symbolic SDySS_____GSg 13CarAssetUtils8CAUAssetO5ThemeV
+- _symbolic SDy__________G 13CarAssetUtils21CAUAppUIConfigurationV4ModeO AC17AppsConfigurationV
+- _symbolic SDy__________GSg 13CarAssetUtils21CAUAppUIConfigurationV4ModeO AC17AppsConfigurationV
+- _symbolic So26NSSecurityScopedURLWrapperCSgSo8NSNumberCSDyS2SGSgSo7NSErrorCSgIggggg_
+- _symbolic _____Sg 13CarAssetUtils21CAUAppUIConfigurationV17TripConfigurationV
+- _symbolic _____Sg 13CarAssetUtils21CAUAppUIConfigurationV19ChargeConfigurationV
+- _symbolic _____Sg 13CarAssetUtils21CAUAppUIConfigurationV21ClosuresConfigurationV
+- _symbolic _____Sg 13CarAssetUtils21CAUAppUIConfigurationV22WallpaperConfigurationV
+- _symbolic _____Sg 13CarAssetUtils21CAUAppUIConfigurationV23DirectTPMSConfigurationV
+- _symbolic _____Sg 13CarAssetUtils21CAUAppUIConfigurationV25IndirectTPMSConfigurationV
+- _symbolic _____Sg 13CarAssetUtils8CAUThemeV
+- _symbolic _____SgSg 13CarAssetUtils8CAUThemeV
+- _symbolic _____y_____G s22KeyedDecodingContainerV 13CarAssetUtils21CAUAppUIConfigurationV10CodingKeys33_D5FDA1C48E2C80B4F7AE5B490316E771LLO
+- _type_layout_string 13CarAssetUtils21CAUAppUIConfigurationV
+CStrings:
++ ", recirculation: "
++ ",showHeatingCoolingStatus: "
++ "Access to custom image archive scoped resource failed."
++ "Recirculation(restrictedStateDriven: "
++ "[LossyDecode] Dropping appUIConfiguration for unknown mode '%s'"
++ "[LossyDecode] Dropping undecodable %s '%s': %@"
++ "[LossyDecode] Dropping undecodable %s at index %ld: %s"
++ "[LossyDecode] Dropping undecodable %s for key '%s': %s"
++ "[LossyDecode] Dropping undecodable '%s' (%s), using default: %@"
++ "camera"
++ "carPlayApp"
++ "customImageArchive.json"
++ "customSymbolCatalog"
++ "customSymbolCatalogs"
++ "fetched %s identity %s with error %s"
++ "frontAndSideMirrorDefrost"
++ "interiorImage"
++ "radio"
++ "rearAndSideMirrorDefrost"
++ "restrictedStateDriven"
++ "settings"
++ "windshield_front_mirror_sides"
++ "windshield_rear_mirror_sides"
+- ", showHeatingCoolingStatus: "
+- "fetched %s with error %s"
+```

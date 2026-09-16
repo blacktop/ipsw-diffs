@@ -1,0 +1,1280 @@
+## TVRemoteUI
+
+> `/System/Library/PrivateFrameworks/TVRemoteUI.framework/TVRemoteUI`
+
+```diff
+
+-627.0.28.0.0
+-  __TEXT.__text: 0xe11cc
+-  __TEXT.__objc_methlist: 0xd20c
+-  __TEXT.__const: 0x2644
+-  __TEXT.__cstring: 0x5391
+-  __TEXT.__gcc_except_tab: 0x2260
+-  __TEXT.__oslogstring: 0x5d86
++627.10.45.0.0
++  __TEXT.__text: 0xd0a44
++  __TEXT.__objc_methlist: 0xbc6c
++  __TEXT.__const: 0x2624
++  __TEXT.__cstring: 0x4e71
++  __TEXT.__gcc_except_tab: 0x1e0c
++  __TEXT.__oslogstring: 0x5de6
+   __TEXT.__ustring: 0x34
+   __TEXT.__dlopen_cstrs: 0xa2
+   __TEXT.__constg_swiftt: 0x2e90
+
+   __TEXT.__swift5_fieldmd: 0x1dc8
+   __TEXT.__swift5_builtin: 0xb4
+   __TEXT.__swift5_assocty: 0x168
+-  __TEXT.__swift5_capture: 0x56c
++  __TEXT.__swift5_capture: 0x5ac
+   __TEXT.__swift5_proto: 0x130
+   __TEXT.__swift5_types: 0x108
+   __TEXT.__swift5_mpenum: 0x10
+
+   __TEXT.__swift_as_entry: 0xc
+   __TEXT.__swift_as_ret: 0x10
+   __TEXT.__swift_as_cont: 0x20
+-  __TEXT.__unwind_info: 0x3da0
++  __TEXT.__unwind_info: 0x3870
+   __TEXT.__eh_frame: 0xa20
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1cb8
+-  __DATA_CONST.__objc_classlist: 0x660
++  __DATA_CONST.__const: 0x1978
++  __DATA_CONST.__objc_classlist: 0x5d8
+   __DATA_CONST.__objc_catlist: 0x60
+-  __DATA_CONST.__objc_protolist: 0x220
++  __DATA_CONST.__objc_protolist: 0x1f0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x7428
+-  __DATA_CONST.__objc_protorefs: 0x50
+-  __DATA_CONST.__objc_superrefs: 0x410
+-  __DATA_CONST.__objc_arraydata: 0x158
+-  __DATA_CONST.__got: 0xeb8
+-  __AUTH_CONST.__const: 0x3090
+-  __AUTH_CONST.__cfstring: 0x3c00
+-  __AUTH_CONST.__objc_const: 0x17e20
++  __DATA_CONST.__objc_selrefs: 0x6c80
++  __DATA_CONST.__objc_protorefs: 0x48
++  __DATA_CONST.__objc_superrefs: 0x398
++  __DATA_CONST.__objc_arraydata: 0x118
++  __DATA_CONST.__got: 0xe30
++  __AUTH_CONST.__const: 0x30d0
++  __AUTH_CONST.__cfstring: 0x38c0
++  __AUTH_CONST.__objc_const: 0x156f0
+   __AUTH_CONST.__objc_dictobj: 0x28
+-  __AUTH_CONST.__objc_arrayobj: 0x2b8
++  __AUTH_CONST.__objc_arrayobj: 0x240
+   __AUTH_CONST.__objc_doubleobj: 0x90
+-  __AUTH_CONST.__objc_intobj: 0x108
+-  __AUTH_CONST.__auth_got: 0xf30
+-  __AUTH.__objc_data: 0x7000
++  __AUTH_CONST.__objc_intobj: 0xd8
++  __AUTH_CONST.__auth_got: 0xf28
++  __AUTH.__objc_data: 0x6ab0
+   __AUTH.__data: 0x670
+-  __DATA.__objc_ivar: 0xdb4
+-  __DATA.__data: 0x27d0
++  __DATA.__objc_ivar: 0xbc0
++  __DATA.__data: 0x2590
+   __DATA.__common: 0x4c0
+   __DATA_DIRTY.__objc_data: 0x820
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 5426
+-  Symbols:   10893
+-  CStrings:  1296
++  Functions: 4949
++  Symbols:   9862
++  CStrings:  1263
+ 
+Symbols:
++ -[TVRKeyboardView setTextDidChange:]
++ -[TVRKeyboardView textDidChange]
++ -[TVRKeyboardView textField:shouldChangeCharactersInRange:replacementString:]
++ GCC_except_table115
++ GCC_except_table119
++ GCC_except_table166
++ GCC_except_table187
++ GCC_except_table45
++ GCC_except_table51
++ GCC_except_table58
++ GCC_except_table59
++ GCC_except_table67
++ GCC_except_table82
++ _NSStringFromRange
++ _OBJC_IVAR_$_TVRKeyboardView._textDidChange
++ __TVRUINowPlayingCappedHeaderFont
++ __TVRUINowPlayingChromeGlyphConfiguration
++ ___32-[TVRUIUpNextCell _actionButton]_block_invoke_2
++ ___34-[TVRKeyboardView _textDidChange:]_block_invoke
++ ___43-[TVRUIPickerTitleView _configureHierarchy]_block_invoke_3
++ ___61-[TVRUINowPlayingMiniPlayerViewController configureHierarchy]_block_invoke_5
++ ___61-[TVRUINowPlayingMiniPlayerViewController configureHierarchy]_block_invoke_6
++ ___block_descriptor_32_e18_v16?0"UIButton"8l
++ ___block_descriptor_40_e8_32w_e36_"NSDictionary"16?0"NSDictionary"8lw32l8
++ ___block_descriptor_48_e8_32s40s_e27_v16?0"RTITextOperations"8ls32l8s40l8
++ _objc_msgSend$contextAfterInput
++ _objc_msgSend$deletionCount
++ _objc_msgSend$forwardDeletionCount
++ _objc_msgSend$insertText:
++ _objc_msgSend$insertionText
++ _objc_msgSend$keyboardOutput
++ _objc_msgSend$metricsForTextStyle:
++ _objc_msgSend$modifyAndFlushTextOperations:
++ _objc_msgSend$setBaseForegroundColor:
++ _objc_msgSend$setConfigurationUpdateHandler:
++ _objc_msgSend$setDeletionCount:
++ _objc_msgSend$setNeedsUpdateConfiguration
++ _objc_msgSend$textDidChange
++ _objc_msgSend$textOperations
++ _objc_msgSend$traitCollectionWithPreferredContentSizeCategory:
+- +[_TVRUIAppInfoCell imageAspectFit]
+- +[_TVRUIAppInfoCell setImageAspectFit:]
+- +[_TVRUIAppInfoItem itemWithAppInfo:]
+- +[_TVRUIAppInfoItem unhideItem]
+- +[_TVRUIContextBarItemState _resolveIdentifierForIsPlaying:nowPlayingMetadata:topShelfInfo:fallbackIdentifier:]
+- +[_TVRUINowPlayingWithCastItem itemWithRole:]
+- +[_TVRUINowPlayingWithCastItem nowPlayingItem]
+- -[TVRUIAppsViewController .cxx_destruct]
+- -[TVRUIAppsViewController _appInfosDidUpdateNotification:]
+- -[TVRUIAppsViewController _appInfosWillUpdateNotification:]
+- -[TVRUIAppsViewController _canShowWhileLocked]
+- -[TVRUIAppsViewController _confirmOkToOpenApp:withHandler:]
+- -[TVRUIAppsViewController actionProvider]
+- -[TVRUIAppsViewController collectionView:didSelectItemAtIndexPath:]
+- -[TVRUIAppsViewController collectionViewLayout]
+- -[TVRUIAppsViewController collectionView]
+- -[TVRUIAppsViewController configureHierarchy]
+- -[TVRUIAppsViewController contextBarItemIdentifier]
+- -[TVRUIAppsViewController dataSource]
+- -[TVRUIAppsViewController dealloc]
+- -[TVRUIAppsViewController delegate]
+- -[TVRUIAppsViewController eventHaptic]
+- -[TVRUIAppsViewController hideApp:]
+- -[TVRUIAppsViewController initWithNibName:bundle:]
+- -[TVRUIAppsViewController isCurrentlyPlayingMedia]
+- -[TVRUIAppsViewController launchApp:]
+- -[TVRUIAppsViewController launchableAppsController]
+- -[TVRUIAppsViewController loadingView]
+- -[TVRUIAppsViewController nowPlayingProvider]
+- -[TVRUIAppsViewController resetContent]
+- -[TVRUIAppsViewController setActionProvider:]
+- -[TVRUIAppsViewController setCollectionView:]
+- -[TVRUIAppsViewController setDataSource:]
+- -[TVRUIAppsViewController setDelegate:]
+- -[TVRUIAppsViewController setEventHaptic:]
+- -[TVRUIAppsViewController setLaunchableAppsController:]
+- -[TVRUIAppsViewController setLoadingView:]
+- -[TVRUIAppsViewController setNowPlayingProvider:]
+- -[TVRUIAppsViewController setStyleProvider:]
+- -[TVRUIAppsViewController setUsesGridStyle:]
+- -[TVRUIAppsViewController styleProvider]
+- -[TVRUIAppsViewController updateFromAppInfosAnimated:]
+- -[TVRUIAppsViewController usesGridStyle]
+- -[TVRUIAppsViewController viewDidLoad]
+- -[TVRUIAppsViewController viewWillAppear:]
+- -[TVRUICastViewController contextBarItemIdentifier]
+- -[TVRUIContextBarController .cxx_destruct]
+- -[TVRUIContextBarController _animateResetRubberbandingTransforms]
+- -[TVRUIContextBarController _applyRubberbandingForTranslation:progress:]
+- -[TVRUIContextBarController _contextBarView]
+- -[TVRUIContextBarController _grabberView]
+- -[TVRUIContextBarController _makeToggleContextBarAnimator]
+- -[TVRUIContextBarController _resetInteractiveAnimator]
+- -[TVRUIContextBarController _resetRubberbandingTransforms]
+- -[TVRUIContextBarController _trackpadView]
+- -[TVRUIContextBarController _viewControllerForView:]
+- -[TVRUIContextBarController actionProvider]
+- -[TVRUIContextBarController contextBarGrabberGestureRecognizerDidChange:]
+- -[TVRUIContextBarController contextBarRenderMode]
+- -[TVRUIContextBarController contextBarViewController]
+- -[TVRUIContextBarController device]
+- -[TVRUIContextBarController enabled]
+- -[TVRUIContextBarController gestureDistance]
+- -[TVRUIContextBarController gestureIsRevealing]
+- -[TVRUIContextBarController gestureStartPoint]
+- -[TVRUIContextBarController hostingViewController]
+- -[TVRUIContextBarController hostingView]
+- -[TVRUIContextBarController impactFeedbackGenerator]
+- -[TVRUIContextBarController initWithHostingViewController:actionProvider:upNextProvider:nowPlayingProvider:layoutHandler:]
+- -[TVRUIContextBarController interactiveAnimator]
+- -[TVRUIContextBarController launchableAppsController]
+- -[TVRUIContextBarController layoutHandler]
+- -[TVRUIContextBarController layoutManager]
+- -[TVRUIContextBarController nowPlayingProvider]
+- -[TVRUIContextBarController selectionFeedbackGenerator]
+- -[TVRUIContextBarController setActionProvider:]
+- -[TVRUIContextBarController setDevice:]
+- -[TVRUIContextBarController setEnabled:]
+- -[TVRUIContextBarController setGestureIsRevealing:]
+- -[TVRUIContextBarController setGestureStartPoint:]
+- -[TVRUIContextBarController setHostingView:]
+- -[TVRUIContextBarController setImpactFeedbackGenerator:]
+- -[TVRUIContextBarController setInteractiveAnimator:]
+- -[TVRUIContextBarController setLaunchableAppsController:]
+- -[TVRUIContextBarController setLayoutHandler:]
+- -[TVRUIContextBarController setLayoutManager:]
+- -[TVRUIContextBarController setNowPlayingProvider:]
+- -[TVRUIContextBarController setSelectionFeedbackGenerator:]
+- -[TVRUIContextBarController setStyleProvider:]
+- -[TVRUIContextBarController setTopShelfInfoController:]
+- -[TVRUIContextBarController setUpNextProvider:]
+- -[TVRUIContextBarController setViewController:]
+- -[TVRUIContextBarController styleProvider]
+- -[TVRUIContextBarController toggleContextBarVisibleAnimated:]
+- -[TVRUIContextBarController topShelfInfoController]
+- -[TVRUIContextBarController upNextProvider]
+- -[TVRUIContextBarController updateTopShelfInfo:]
+- -[TVRUIContextBarController viewController]
+- -[TVRUIContextBarLayoutManager .cxx_destruct]
+- -[TVRUIContextBarLayoutManager _computeFrames]
+- -[TVRUIContextBarLayoutManager beginToggleAnimation]
+- -[TVRUIContextBarLayoutManager commitToggleAnimationDidFinish:]
+- -[TVRUIContextBarLayoutManager contextBarHeight]
+- -[TVRUIContextBarLayoutManager contextBarHostingView]
+- -[TVRUIContextBarLayoutManager contextBarInfoProvider]
+- -[TVRUIContextBarLayoutManager controlPanelFrame]
+- -[TVRUIContextBarLayoutManager devicePickerFrame]
+- -[TVRUIContextBarLayoutManager effectiveContextBarFrame]
+- -[TVRUIContextBarLayoutManager effectiveControlPanelFrame]
+- -[TVRUIContextBarLayoutManager effectiveGrabberFrame]
+- -[TVRUIContextBarLayoutManager effectiveState]
+- -[TVRUIContextBarLayoutManager effectiveTouchpadFrame]
+- -[TVRUIContextBarLayoutManager grabberSize]
+- -[TVRUIContextBarLayoutManager hasGrabber]
+- -[TVRUIContextBarLayoutManager initWithContextBarHostingView:renderMode:contextBarInfoProvider:]
+- -[TVRUIContextBarLayoutManager isArranged]
+- -[TVRUIContextBarLayoutManager isInToggleAnimation]
+- -[TVRUIContextBarLayoutManager isShowingContextBar]
+- -[TVRUIContextBarLayoutManager renderMode]
+- -[TVRUIContextBarLayoutManager setEffectiveContextBarFrame:]
+- -[TVRUIContextBarLayoutManager setEffectiveControlPanelFrame:]
+- -[TVRUIContextBarLayoutManager setEffectiveGrabberFrame:]
+- -[TVRUIContextBarLayoutManager setEffectiveTouchpadFrame:]
+- -[TVRUIContextBarLayoutManager setIsArranged:]
+- -[TVRUIContextBarLayoutManager setIsInToggleAnimation:]
+- -[TVRUIContextBarLayoutManager setState:]
+- -[TVRUIContextBarLayoutManager state]
+- -[TVRUIContextBarLayoutManager touchpadFrame]
+- -[TVRUIContextBarLayoutManager updateWithTouchpadFrame:controlPanelFrame:devicePickerFrame:]
+- -[TVRUIContextBarViewController .cxx_destruct]
+- -[TVRUIContextBarViewController _canShowWhileLocked]
+- -[TVRUIContextBarViewController _identifierForViewControllerIndex:]
+- -[TVRUIContextBarViewController _invokeLayoutHandlerIfNeeded]
+- -[TVRUIContextBarViewController _nowPlayingInfoDidChange:]
+- -[TVRUIContextBarViewController _selectViewControllerWithIdentifier:animated:]
+- -[TVRUIContextBarViewController _topShelfItemsDidChange:]
+- -[TVRUIContextBarViewController _updateNowPlayingInfo:previousNowPlayingInfo:]
+- -[TVRUIContextBarViewController actionProvider]
+- -[TVRUIContextBarViewController buttonActionsDelegate]
+- -[TVRUIContextBarViewController configureHierarchy]
+- -[TVRUIContextBarViewController contextBarContainerView]
+- -[TVRUIContextBarViewController contextBarIsCollapsed]
+- -[TVRUIContextBarViewController contextBarLayoutHandler]
+- -[TVRUIContextBarViewController contextBarPreferredHeight]
+- -[TVRUIContextBarViewController currentContextBarItemController]
+- -[TVRUIContextBarViewController currentContextBarItemIdentifier]
+- -[TVRUIContextBarViewController dealloc]
+- -[TVRUIContextBarViewController didCommitToViewControllerIndex:fromUserInteraction:]
+- -[TVRUIContextBarViewController enabled]
+- -[TVRUIContextBarViewController initWithRenderMode:]
+- -[TVRUIContextBarViewController isContextBarMode]
+- -[TVRUIContextBarViewController launchableAppsController]
+- -[TVRUIContextBarViewController layoutHandler]
+- -[TVRUIContextBarViewController nowPlayingInfo]
+- -[TVRUIContextBarViewController nowPlayingProvider]
+- -[TVRUIContextBarViewController nowPlayingViewController]
+- -[TVRUIContextBarViewController nowPlayingWithCastViewController]
+- -[TVRUIContextBarViewController preferredHeight]
+- -[TVRUIContextBarViewController renderMode]
+- -[TVRUIContextBarViewController resetContentAnimated:]
+- -[TVRUIContextBarViewController selectContextBarItemWithIdentifier:animated:]
+- -[TVRUIContextBarViewController setActionProvider:]
+- -[TVRUIContextBarViewController setButtonActionsDelegate:]
+- -[TVRUIContextBarViewController setCurrentContextBarItemController:]
+- -[TVRUIContextBarViewController setEnabled:]
+- -[TVRUIContextBarViewController setLaunchableAppsController:]
+- -[TVRUIContextBarViewController setLayoutHandler:]
+- -[TVRUIContextBarViewController setNowPlayingInfo:]
+- -[TVRUIContextBarViewController setNowPlayingProvider:]
+- -[TVRUIContextBarViewController setNowPlayingViewController:]
+- -[TVRUIContextBarViewController setNowPlayingWithCastViewController:]
+- -[TVRUIContextBarViewController setStyleProvider:]
+- -[TVRUIContextBarViewController setTopShelfInfoController:]
+- -[TVRUIContextBarViewController setTopShelfInfoViewController:]
+- -[TVRUIContextBarViewController setUpNextProvider:]
+- -[TVRUIContextBarViewController setUpNextViewController:]
+- -[TVRUIContextBarViewController styleProvider]
+- -[TVRUIContextBarViewController topShelfInfoController]
+- -[TVRUIContextBarViewController topShelfInfoViewController]
+- -[TVRUIContextBarViewController upNextProvider]
+- -[TVRUIContextBarViewController upNextViewController]
+- -[TVRUIContextBarViewController viewDidAppear:]
+- -[TVRUIContextBarViewController viewDidLoad]
+- -[TVRUIContextBarViewController viewWillAppear:]
+- -[TVRUICurrentContextBarItemController .cxx_destruct]
+- -[TVRUICurrentContextBarItemController _didBeginPlayingContent]
+- -[TVRUICurrentContextBarItemController _didEndPlayingContent]
+- -[TVRUICurrentContextBarItemController _evaluateState:]
+- -[TVRUICurrentContextBarItemController _invokeDidChangeHandlerForIdentifier:]
+- -[TVRUICurrentContextBarItemController _setupNotificationHandlers]
+- -[TVRUICurrentContextBarItemController _teardownNotificationHandlers]
+- -[TVRUICurrentContextBarItemController currentContextBarItemDidChangeHandler]
+- -[TVRUICurrentContextBarItemController currentContextBarItemIdentifier]
+- -[TVRUICurrentContextBarItemController currentState]
+- -[TVRUICurrentContextBarItemController dealloc]
+- -[TVRUICurrentContextBarItemController initWithNowPlayingProvider:]
+- -[TVRUICurrentContextBarItemController notificationObservers]
+- -[TVRUICurrentContextBarItemController nowPlayingProvider]
+- -[TVRUICurrentContextBarItemController setCurrentContextBarItemDidChangeHandler:]
+- -[TVRUICurrentContextBarItemController setCurrentState:]
+- -[TVRUICurrentContextBarItemController setNowPlayingProvider:]
+- -[TVRUICurrentContextBarItemController userDidSelectContextBarItemWithIdentifier:]
+- -[TVRUIDevicePickerViewController _presentAppGridPopoverFromSender:]
+- -[TVRUIDevicePickerViewController _setupAppsController]
+- -[TVRUIDevicePickerViewController appPickerTappedForTitleView:sender:]
+- -[TVRUIDevicePickerViewController appsController]
+- -[TVRUIDevicePickerViewController appsViewController:didLaunchAppWithInfo:]
+- -[TVRUIDevicePickerViewController setAppsController:]
+- -[TVRUILaunchableAppsController .cxx_destruct]
+- -[TVRUILaunchableAppsController _adjustedAppInfosForAppInfos:]
+- -[TVRUILaunchableAppsController _baseMRUCountAdjustmentForAppInfo:]
+- -[TVRUILaunchableAppsController _fetchAppInfos]
+- -[TVRUILaunchableAppsController _fetchLaunchableAppsWithRange:currentResults:completion:]
+- -[TVRUILaunchableAppsController _launchableAppsResponseDictContainsCount:]
+- -[TVRUILaunchableAppsController _loadHiddenBundleIDs]
+- -[TVRUILaunchableAppsController _loadMRUCountDict]
+- -[TVRUILaunchableAppsController _mruCountForBundleID:]
+- -[TVRUILaunchableAppsController _notifyOrderedAppInfosChanged]
+- -[TVRUILaunchableAppsController _persistHiddenBundleIDs:]
+- -[TVRUILaunchableAppsController _persistMRUCountDict:]
+- -[TVRUILaunchableAppsController _updateMRUCountForLaunchedAppWithBundleID:]
+- -[TVRUILaunchableAppsController _updatedMRUCountDictForCountDict:forBundleID:]
+- -[TVRUILaunchableAppsController activeDevice]
+- -[TVRUILaunchableAppsController appInfos]
+- -[TVRUILaunchableAppsController hasHiddenApps]
+- -[TVRUILaunchableAppsController hiddenBundleIDs]
+- -[TVRUILaunchableAppsController hideAppWithBundleID:]
+- -[TVRUILaunchableAppsController init]
+- -[TVRUILaunchableAppsController launchAppWithBundleID:]
+- -[TVRUILaunchableAppsController mruCountDict]
+- -[TVRUILaunchableAppsController orderedAppInfos]
+- -[TVRUILaunchableAppsController setAppInfos:]
+- -[TVRUILaunchableAppsController setDevice:]
+- -[TVRUILaunchableAppsController setHiddenBundleIDs:]
+- -[TVRUILaunchableAppsController setMruCountDict:]
+- -[TVRUILaunchableAppsController unhideApps]
+- -[TVRUINowPlayingMiniPlayerViewController contextBarItemIdentifier]
+- -[TVRUINowPlayingWithCastViewController .cxx_destruct]
+- -[TVRUINowPlayingWithCastViewController _canShowWhileLocked]
+- -[TVRUINowPlayingWithCastViewController _configureHierarchy]
+- -[TVRUINowPlayingWithCastViewController _configureNowPlayingCell:]
+- -[TVRUINowPlayingWithCastViewController _filterNonCharacterRolesIfNeededForMediaInfo:]
+- -[TVRUINowPlayingWithCastViewController _layout]
+- -[TVRUINowPlayingWithCastViewController _requestArtworkImageForNowPlayingInfo:]
+- -[TVRUINowPlayingWithCastViewController _updateCastSection]
+- -[TVRUINowPlayingWithCastViewController _updateNowPlayingSection]
+- -[TVRUINowPlayingWithCastViewController actionProvider]
+- -[TVRUINowPlayingWithCastViewController avatarGenerator]
+- -[TVRUINowPlayingWithCastViewController collectionView:didSelectItemAtIndexPath:]
+- -[TVRUINowPlayingWithCastViewController collectionView]
+- -[TVRUINowPlayingWithCastViewController contextBarItemIdentifier]
+- -[TVRUINowPlayingWithCastViewController dataSource]
+- -[TVRUINowPlayingWithCastViewController fetchedArtworkImage]
+- -[TVRUINowPlayingWithCastViewController imageFetcher]
+- -[TVRUINowPlayingWithCastViewController mediaInfo]
+- -[TVRUINowPlayingWithCastViewController metadata]
+- -[TVRUINowPlayingWithCastViewController notPlayingLabel]
+- -[TVRUINowPlayingWithCastViewController nowPlayingInfo]
+- -[TVRUINowPlayingWithCastViewController nowPlayingSentinel]
+- -[TVRUINowPlayingWithCastViewController requestImageForTemplate:size:identifier:completion:]
+- -[TVRUINowPlayingWithCastViewController resetContent]
+- -[TVRUINowPlayingWithCastViewController scrollToNowPlayingAnimated:]
+- -[TVRUINowPlayingWithCastViewController setActionProvider:]
+- -[TVRUINowPlayingWithCastViewController setAvatarGenerator:]
+- -[TVRUINowPlayingWithCastViewController setFetchedArtworkImage:]
+- -[TVRUINowPlayingWithCastViewController setImageFetcher:]
+- -[TVRUINowPlayingWithCastViewController setMediaInfo:]
+- -[TVRUINowPlayingWithCastViewController setMetadata:]
+- -[TVRUINowPlayingWithCastViewController setNowPlayingInfo:]
+- -[TVRUINowPlayingWithCastViewController setNowPlayingSentinel:]
+- -[TVRUINowPlayingWithCastViewController setUrlSession:]
+- -[TVRUINowPlayingWithCastViewController urlSession]
+- -[TVRUINowPlayingWithCastViewController viewDidLoad]
+- -[TVRUIPickerTitleView _selectAppPicker]
+- -[TVRUIPickerTitleView appPickerEnabled]
+- -[TVRUIPickerTitleView appPickerPopoverSourceItem]
+- -[TVRUIPickerTitleView setAppPickerEnabled:]
+- -[TVRUIRemoteViewController _didPanGrabber:]
+- -[TVRUIRemoteViewController _didTapGrabber:]
+- -[TVRUIRemoteViewController _toggleContextBar]
+- -[TVRUIRemoteViewController contextBarController]
+- -[TVRUIRemoteViewController contextBarHostingGrabberView]
+- -[TVRUIRemoteViewController contextBarHostingTrackpadView]
+- -[TVRUIRemoteViewController grabberView]
+- -[TVRUIRemoteViewController setContextBarController:]
+- -[TVRUIRemoteViewController setGrabberView:]
+- -[TVRUIResizabilityLayoutManager _computeFramesPadSideBySide]
+- -[TVRUIResizabilityLayoutManager setShouldAnimateRenderFormatChange:]
+- -[TVRUIResizabilityLayoutManager shouldAnimateRenderFormatChange]
+- -[TVRUIStackViewController .cxx_destruct]
+- -[TVRUIStackViewController _animateToFinalIndex:fromIndex:duration:]
+- -[TVRUIStackViewController _commitSelectedViewControllerIndex:]
+- -[TVRUIStackViewController _commitToFinalPositionForIndex:translation:velocity:]
+- -[TVRUIStackViewController _configureHierarchy]
+- -[TVRUIStackViewController _configurePanGesture]
+- -[TVRUIStackViewController _finalIndexForIndex:translation:velocity:]
+- -[TVRUIStackViewController _hostingViewAboveIndex:]
+- -[TVRUIStackViewController _hostingViewBelowIndex:]
+- -[TVRUIStackViewController _hostingViewForIndex:]
+- -[TVRUIStackViewController _hostingViewIndexIsValid:]
+- -[TVRUIStackViewController _indexAboveIndex:]
+- -[TVRUIStackViewController _indexBelowIndex:]
+- -[TVRUIStackViewController _indexForViewController:]
+- -[TVRUIStackViewController _isIndex:directlyAboveIndex:]
+- -[TVRUIStackViewController _isIndex:directlyBelowIndex:]
+- -[TVRUIStackViewController _multiplierForTranslation:]
+- -[TVRUIStackViewController _panRecognizerDidFire:]
+- -[TVRUIStackViewController _prepareHostingViewTransformsForIndex:]
+- -[TVRUIStackViewController _shouldCommitToFinalPositionForIndex:translation:]
+- -[TVRUIStackViewController _titleForHostingViewIndex:]
+- -[TVRUIStackViewController _transformWithMultiplier:]
+- -[TVRUIStackViewController _transitionToFinalIndex:duration:]
+- -[TVRUIStackViewController _updateHostingViewTransformsForIndex:translation:]
+- -[TVRUIStackViewController _updateViewControllerAppearanceForSelectedViewControllerIndex:]
+- -[TVRUIStackViewController containerView]
+- -[TVRUIStackViewController contentView]
+- -[TVRUIStackViewController didCommitToViewControllerIndex:fromUserInteraction:]
+- -[TVRUIStackViewController disallowsGestures]
+- -[TVRUIStackViewController hasNoTitle]
+- -[TVRUIStackViewController hidesPageControl]
+- -[TVRUIStackViewController hostingViews]
+- -[TVRUIStackViewController initWithViewControllers:titleStyle:options:]
+- -[TVRUIStackViewController options]
+- -[TVRUIStackViewController pageControl]
+- -[TVRUIStackViewController selectViewControllerIndex:animated:]
+- -[TVRUIStackViewController selectedViewControllerIndex]
+- -[TVRUIStackViewController setContainerView:]
+- -[TVRUIStackViewController setContentView:]
+- -[TVRUIStackViewController setHostingViews:]
+- -[TVRUIStackViewController setPageControl:]
+- -[TVRUIStackViewController setSelectedViewControllerIndex:]
+- -[TVRUIStackViewController setStackBackgroundColor:]
+- -[TVRUIStackViewController setTitleLabel:]
+- -[TVRUIStackViewController setTransitionIsFromUserInteraction:]
+- -[TVRUIStackViewController stackBackgroundColor]
+- -[TVRUIStackViewController titleLabel]
+- -[TVRUIStackViewController titleOnBottom]
+- -[TVRUIStackViewController titleOnTop]
+- -[TVRUIStackViewController titleStyle]
+- -[TVRUIStackViewController transitionIsFromUserInteraction]
+- -[TVRUIStackViewController viewControllers]
+- -[TVRUIStackViewController viewDidLoad]
+- -[TVRUITitleView appPickerPopoverSourceItem]
+- -[TVRUITopShelfInfoController .cxx_destruct]
+- -[TVRUITopShelfInfoController isCurrentBundleIDAppleTV]
+- -[TVRUITopShelfInfoController setTopShelfInfo:]
+- -[TVRUITopShelfInfoController topShelfInfo]
+- -[TVRUITopShelfInfoController updateTopShelfInfo:]
+- -[TVRUITopShelfInfoViewController .cxx_destruct]
+- -[TVRUITopShelfInfoViewController _applySnapshot:]
+- -[TVRUITopShelfInfoViewController _canShowWhileLocked]
+- -[TVRUITopShelfInfoViewController _collectionViewLayout]
+- -[TVRUITopShelfInfoViewController _configureHierarchy]
+- -[TVRUITopShelfInfoViewController actionProvider]
+- -[TVRUITopShelfInfoViewController collectionView:didSelectItemAtIndexPath:]
+- -[TVRUITopShelfInfoViewController collectionView]
+- -[TVRUITopShelfInfoViewController contextBarItemIdentifier]
+- -[TVRUITopShelfInfoViewController dataSource]
+- -[TVRUITopShelfInfoViewController imageFetcher]
+- -[TVRUITopShelfInfoViewController impactFeedbackGenerator]
+- -[TVRUITopShelfInfoViewController initWithNibName:bundle:]
+- -[TVRUITopShelfInfoViewController resetContent]
+- -[TVRUITopShelfInfoViewController setActionProvider:]
+- -[TVRUITopShelfInfoViewController setCollectionView:]
+- -[TVRUITopShelfInfoViewController setDataSource:]
+- -[TVRUITopShelfInfoViewController setImageFetcher:]
+- -[TVRUITopShelfInfoViewController setImpactFeedbackGenerator:]
+- -[TVRUITopShelfInfoViewController setStyleProvider:]
+- -[TVRUITopShelfInfoViewController setTopShelfItems:]
+- -[TVRUITopShelfInfoViewController styleProvider]
+- -[TVRUITopShelfInfoViewController topShelfItems]
+- -[TVRUITopShelfInfoViewController viewDidLoad]
+- -[TVRUITopShelfInfoViewController viewWillAppear:]
+- -[TVRUIUpNextViewController contextBarItemIdentifier]
+- -[_TVRUIAppInfoCell .cxx_destruct]
+- -[_TVRUIAppInfoCell appInfo]
+- -[_TVRUIAppInfoCell configureHierarchy]
+- -[_TVRUIAppInfoCell delegate]
+- -[_TVRUIAppInfoCell imageView]
+- -[_TVRUIAppInfoCell initWithFrame:]
+- -[_TVRUIAppInfoCell prepareForReuse]
+- -[_TVRUIAppInfoCell setAppInfo:]
+- -[_TVRUIAppInfoCell setDelegate:]
+- -[_TVRUIAppInfoCell setImageView:]
+- -[_TVRUIAppInfoItem .cxx_destruct]
+- -[_TVRUIAppInfoItem appInfo]
+- -[_TVRUIAppInfoItem hash]
+- -[_TVRUIAppInfoItem initWithAppInfo:isUnhideItem:]
+- -[_TVRUIAppInfoItem isEqual:]
+- -[_TVRUIAppInfoItem isUnhideItem]
+- -[_TVRUIAppInfoUnhideItemsCell _configureHierarchy]
+- -[_TVRUIAppInfoUnhideItemsCell initWithFrame:]
+- -[_TVRUIContextBarItemState .cxx_destruct]
+- -[_TVRUIContextBarItemState contextBarItemIdentifier]
+- -[_TVRUIContextBarItemState description]
+- -[_TVRUIContextBarItemState hasNowPlayingMetadata]
+- -[_TVRUIContextBarItemState hash]
+- -[_TVRUIContextBarItemState initWithIsPlaying:nowPlayingMetadata:topShelfInfo:contextBarItemIdentifier:]
+- -[_TVRUIContextBarItemState initWithIsPlaying:nowPlayingMetadata:topShelfInfo:fallbackIdentifier:]
+- -[_TVRUIContextBarItemState isEqual:]
+- -[_TVRUIContextBarItemState isPlaying]
+- -[_TVRUIContextBarItemState nowPlayingMetadata]
+- -[_TVRUIContextBarItemState topShelfInfo]
+- -[_TVRUINowPlayingInfoCell .cxx_destruct]
+- -[_TVRUINowPlayingInfoCell _configureHierarchy]
+- -[_TVRUINowPlayingInfoCell artworkImageView]
+- -[_TVRUINowPlayingInfoCell infoButtonActionHandler]
+- -[_TVRUINowPlayingInfoCell infoButton]
+- -[_TVRUINowPlayingInfoCell initWithFrame:]
+- -[_TVRUINowPlayingInfoCell notPlayingLabel]
+- -[_TVRUINowPlayingInfoCell prepareForReuse]
+- -[_TVRUINowPlayingInfoCell secondaryLabel]
+- -[_TVRUINowPlayingInfoCell setInfoButtonActionHandler:]
+- -[_TVRUINowPlayingInfoCell titleLabel]
+- -[_TVRUINowPlayingWithCastItem .cxx_destruct]
+- -[_TVRUINowPlayingWithCastItem hash]
+- -[_TVRUINowPlayingWithCastItem isEqual:]
+- -[_TVRUINowPlayingWithCastItem kind]
+- -[_TVRUINowPlayingWithCastItem role]
+- -[_TVRUITopShelfItemCell .cxx_destruct]
+- -[_TVRUITopShelfItemCell _configureHierarchy]
+- -[_TVRUITopShelfItemCell imageFetcher]
+- -[_TVRUITopShelfItemCell imageView]
+- -[_TVRUITopShelfItemCell initWithFrame:]
+- -[_TVRUITopShelfItemCell item]
+- -[_TVRUITopShelfItemCell prepareForReuse]
+- -[_TVRUITopShelfItemCell setImageFetcher:]
+- -[_TVRUITopShelfItemCell setImageView:]
+- -[_TVRUITopShelfItemCell setItem:]
+- GCC_except_table0
+- GCC_except_table126
+- GCC_except_table13
+- GCC_except_table23
+- GCC_except_table33
+- GCC_except_table39
+- GCC_except_table44
+- GCC_except_table46
+- GCC_except_table47
+- GCC_except_table55
+- GCC_except_table62
+- GCC_except_table71
+- GCC_except_table73
+- GCC_except_table89
+- _CGAffineTransformIsIdentity
+- _CGAffineTransformScale
+- _OBJC_CLASS_$_TVRCAppInfo
+- _OBJC_CLASS_$_TVRUIAppsViewController
+- _OBJC_CLASS_$_TVRUIContextBarController
+- _OBJC_CLASS_$_TVRUIContextBarLayoutManager
+- _OBJC_CLASS_$_TVRUIContextBarViewController
+- _OBJC_CLASS_$_TVRUICurrentContextBarItemController
+- _OBJC_CLASS_$_TVRUILaunchableAppsController
+- _OBJC_CLASS_$_TVRUINowPlayingWithCastViewController
+- _OBJC_CLASS_$_TVRUIStackViewController
+- _OBJC_CLASS_$_TVRUITopShelfInfoController
+- _OBJC_CLASS_$_TVRUITopShelfInfoViewController
+- _OBJC_CLASS_$_UIPageControl
+- _OBJC_CLASS_$__TVRUIAppInfoCell
+- _OBJC_CLASS_$__TVRUIAppInfoItem
+- _OBJC_CLASS_$__TVRUIAppInfoUnhideItemsCell
+- _OBJC_CLASS_$__TVRUIContextBarItemState
+- _OBJC_CLASS_$__TVRUINowPlayingInfoCell
+- _OBJC_CLASS_$__TVRUINowPlayingWithCastItem
+- _OBJC_CLASS_$__TVRUITopShelfItemCell
+- _OBJC_CLASS_$__UIGrabber
+- _OBJC_IVAR_$_TVRUIAppsViewController._actionProvider
+- _OBJC_IVAR_$_TVRUIAppsViewController._collectionView
+- _OBJC_IVAR_$_TVRUIAppsViewController._dataSource
+- _OBJC_IVAR_$_TVRUIAppsViewController._delegate
+- _OBJC_IVAR_$_TVRUIAppsViewController._eventHaptic
+- _OBJC_IVAR_$_TVRUIAppsViewController._launchableAppsController
+- _OBJC_IVAR_$_TVRUIAppsViewController._loadingView
+- _OBJC_IVAR_$_TVRUIAppsViewController._nowPlayingProvider
+- _OBJC_IVAR_$_TVRUIAppsViewController._styleProvider
+- _OBJC_IVAR_$_TVRUIAppsViewController._usesGridStyle
+- _OBJC_IVAR_$_TVRUIContextBarController._actionProvider
+- _OBJC_IVAR_$_TVRUIContextBarController._contextBarRenderMode
+- _OBJC_IVAR_$_TVRUIContextBarController._device
+- _OBJC_IVAR_$_TVRUIContextBarController._gestureDistance
+- _OBJC_IVAR_$_TVRUIContextBarController._gestureIsRevealing
+- _OBJC_IVAR_$_TVRUIContextBarController._gestureStartPoint
+- _OBJC_IVAR_$_TVRUIContextBarController._hostingView
+- _OBJC_IVAR_$_TVRUIContextBarController._hostingViewController
+- _OBJC_IVAR_$_TVRUIContextBarController._impactFeedbackGenerator
+- _OBJC_IVAR_$_TVRUIContextBarController._interactiveAnimator
+- _OBJC_IVAR_$_TVRUIContextBarController._launchableAppsController
+- _OBJC_IVAR_$_TVRUIContextBarController._layoutHandler
+- _OBJC_IVAR_$_TVRUIContextBarController._layoutManager
+- _OBJC_IVAR_$_TVRUIContextBarController._nowPlayingProvider
+- _OBJC_IVAR_$_TVRUIContextBarController._selectionFeedbackGenerator
+- _OBJC_IVAR_$_TVRUIContextBarController._styleProvider
+- _OBJC_IVAR_$_TVRUIContextBarController._topShelfInfoController
+- _OBJC_IVAR_$_TVRUIContextBarController._upNextProvider
+- _OBJC_IVAR_$_TVRUIContextBarController._viewController
+- _OBJC_IVAR_$_TVRUIContextBarController.enabled
+- _OBJC_IVAR_$_TVRUIContextBarLayoutManager._contextBarHostingView
+- _OBJC_IVAR_$_TVRUIContextBarLayoutManager._contextBarInfoProvider
+- _OBJC_IVAR_$_TVRUIContextBarLayoutManager._controlPanelFrame
+- _OBJC_IVAR_$_TVRUIContextBarLayoutManager._devicePickerFrame
+- _OBJC_IVAR_$_TVRUIContextBarLayoutManager._effectiveContextBarFrame
+- _OBJC_IVAR_$_TVRUIContextBarLayoutManager._effectiveControlPanelFrame
+- _OBJC_IVAR_$_TVRUIContextBarLayoutManager._effectiveGrabberFrame
+- _OBJC_IVAR_$_TVRUIContextBarLayoutManager._effectiveTouchpadFrame
+- _OBJC_IVAR_$_TVRUIContextBarLayoutManager._grabberSize
+- _OBJC_IVAR_$_TVRUIContextBarLayoutManager._isArranged
+- _OBJC_IVAR_$_TVRUIContextBarLayoutManager._isInToggleAnimation
+- _OBJC_IVAR_$_TVRUIContextBarLayoutManager._renderMode
+- _OBJC_IVAR_$_TVRUIContextBarLayoutManager._state
+- _OBJC_IVAR_$_TVRUIContextBarLayoutManager._touchpadFrame
+- _OBJC_IVAR_$_TVRUIContextBarViewController._actionProvider
+- _OBJC_IVAR_$_TVRUIContextBarViewController._buttonActionsDelegate
+- _OBJC_IVAR_$_TVRUIContextBarViewController._currentContextBarItemController
+- _OBJC_IVAR_$_TVRUIContextBarViewController._launchableAppsController
+- _OBJC_IVAR_$_TVRUIContextBarViewController._layoutHandler
+- _OBJC_IVAR_$_TVRUIContextBarViewController._nowPlayingInfo
+- _OBJC_IVAR_$_TVRUIContextBarViewController._nowPlayingProvider
+- _OBJC_IVAR_$_TVRUIContextBarViewController._nowPlayingViewController
+- _OBJC_IVAR_$_TVRUIContextBarViewController._nowPlayingWithCastViewController
+- _OBJC_IVAR_$_TVRUIContextBarViewController._renderMode
+- _OBJC_IVAR_$_TVRUIContextBarViewController._styleProvider
+- _OBJC_IVAR_$_TVRUIContextBarViewController._topShelfInfoController
+- _OBJC_IVAR_$_TVRUIContextBarViewController._topShelfInfoViewController
+- _OBJC_IVAR_$_TVRUIContextBarViewController._upNextProvider
+- _OBJC_IVAR_$_TVRUIContextBarViewController._upNextViewController
+- _OBJC_IVAR_$_TVRUIContextBarViewController.enabled
+- _OBJC_IVAR_$_TVRUICurrentContextBarItemController._currentContextBarItemDidChangeHandler
+- _OBJC_IVAR_$_TVRUICurrentContextBarItemController._currentState
+- _OBJC_IVAR_$_TVRUICurrentContextBarItemController._notificationObservers
+- _OBJC_IVAR_$_TVRUICurrentContextBarItemController._nowPlayingProvider
+- _OBJC_IVAR_$_TVRUIDevicePickerViewController._appsController
+- _OBJC_IVAR_$_TVRUILaunchableAppsController._activeDevice
+- _OBJC_IVAR_$_TVRUILaunchableAppsController._appInfos
+- _OBJC_IVAR_$_TVRUILaunchableAppsController._hiddenBundleIDs
+- _OBJC_IVAR_$_TVRUILaunchableAppsController._mruCountDict
+- _OBJC_IVAR_$_TVRUINowPlayingWithCastViewController._actionProvider
+- _OBJC_IVAR_$_TVRUINowPlayingWithCastViewController._avatarGenerator
+- _OBJC_IVAR_$_TVRUINowPlayingWithCastViewController._collectionView
+- _OBJC_IVAR_$_TVRUINowPlayingWithCastViewController._dataSource
+- _OBJC_IVAR_$_TVRUINowPlayingWithCastViewController._fetchedArtworkImage
+- _OBJC_IVAR_$_TVRUINowPlayingWithCastViewController._imageFetcher
+- _OBJC_IVAR_$_TVRUINowPlayingWithCastViewController._mediaInfo
+- _OBJC_IVAR_$_TVRUINowPlayingWithCastViewController._metadata
+- _OBJC_IVAR_$_TVRUINowPlayingWithCastViewController._notPlayingLabel
+- _OBJC_IVAR_$_TVRUINowPlayingWithCastViewController._nowPlayingInfo
+- _OBJC_IVAR_$_TVRUINowPlayingWithCastViewController._nowPlayingSentinel
+- _OBJC_IVAR_$_TVRUINowPlayingWithCastViewController._urlSession
+- _OBJC_IVAR_$_TVRUIPickerTitleView._appPickerButton
+- _OBJC_IVAR_$_TVRUIPickerTitleView._appPickerEnabled
+- _OBJC_IVAR_$_TVRUIRemoteViewController._contextBarController
+- _OBJC_IVAR_$_TVRUIRemoteViewController._grabberView
+- _OBJC_IVAR_$_TVRUIResizabilityLayoutManager._hasComputedFormat
+- _OBJC_IVAR_$_TVRUIResizabilityLayoutManager._shouldAnimateRenderFormatChange
+- _OBJC_IVAR_$_TVRUIStackViewController._containerView
+- _OBJC_IVAR_$_TVRUIStackViewController._contentView
+- _OBJC_IVAR_$_TVRUIStackViewController._hostingViews
+- _OBJC_IVAR_$_TVRUIStackViewController._options
+- _OBJC_IVAR_$_TVRUIStackViewController._pageControl
+- _OBJC_IVAR_$_TVRUIStackViewController._selectedViewControllerIndex
+- _OBJC_IVAR_$_TVRUIStackViewController._stackBackgroundColor
+- _OBJC_IVAR_$_TVRUIStackViewController._titleLabel
+- _OBJC_IVAR_$_TVRUIStackViewController._titleStyle
+- _OBJC_IVAR_$_TVRUIStackViewController._transitionIsFromUserInteraction
+- _OBJC_IVAR_$_TVRUIStackViewController._viewControllers
+- _OBJC_IVAR_$_TVRUITopShelfInfoController._topShelfInfo
+- _OBJC_IVAR_$_TVRUITopShelfInfoViewController._actionProvider
+- _OBJC_IVAR_$_TVRUITopShelfInfoViewController._collectionView
+- _OBJC_IVAR_$_TVRUITopShelfInfoViewController._dataSource
+- _OBJC_IVAR_$_TVRUITopShelfInfoViewController._imageFetcher
+- _OBJC_IVAR_$_TVRUITopShelfInfoViewController._impactFeedbackGenerator
+- _OBJC_IVAR_$_TVRUITopShelfInfoViewController._styleProvider
+- _OBJC_IVAR_$_TVRUITopShelfInfoViewController._topShelfItems
+- _OBJC_IVAR_$__TVRUIAppInfoCell._appInfo
+- _OBJC_IVAR_$__TVRUIAppInfoCell._delegate
+- _OBJC_IVAR_$__TVRUIAppInfoCell._imageView
+- _OBJC_IVAR_$__TVRUIAppInfoItem._appInfo
+- _OBJC_IVAR_$__TVRUIAppInfoItem._isUnhideItem
+- _OBJC_IVAR_$__TVRUIContextBarItemState._contextBarItemIdentifier
+- _OBJC_IVAR_$__TVRUIContextBarItemState._isPlaying
+- _OBJC_IVAR_$__TVRUIContextBarItemState._nowPlayingMetadata
+- _OBJC_IVAR_$__TVRUIContextBarItemState._topShelfInfo
+- _OBJC_IVAR_$__TVRUINowPlayingInfoCell._artworkImageView
+- _OBJC_IVAR_$__TVRUINowPlayingInfoCell._infoButton
+- _OBJC_IVAR_$__TVRUINowPlayingInfoCell._infoButtonActionHandler
+- _OBJC_IVAR_$__TVRUINowPlayingInfoCell._notPlayingLabel
+- _OBJC_IVAR_$__TVRUINowPlayingInfoCell._secondaryLabel
+- _OBJC_IVAR_$__TVRUINowPlayingInfoCell._titleLabel
+- _OBJC_IVAR_$__TVRUINowPlayingWithCastItem._kind
+- _OBJC_IVAR_$__TVRUINowPlayingWithCastItem._role
+- _OBJC_IVAR_$__TVRUITopShelfItemCell._imageFetcher
+- _OBJC_IVAR_$__TVRUITopShelfItemCell._imageView
+- _OBJC_IVAR_$__TVRUITopShelfItemCell._item
+- _OBJC_METACLASS_$_TVRUIAppsViewController
+- _OBJC_METACLASS_$_TVRUIContextBarController
+- _OBJC_METACLASS_$_TVRUIContextBarLayoutManager
+- _OBJC_METACLASS_$_TVRUIContextBarViewController
+- _OBJC_METACLASS_$_TVRUICurrentContextBarItemController
+- _OBJC_METACLASS_$_TVRUILaunchableAppsController
+- _OBJC_METACLASS_$_TVRUINowPlayingWithCastViewController
+- _OBJC_METACLASS_$_TVRUIStackViewController
+- _OBJC_METACLASS_$_TVRUITopShelfInfoController
+- _OBJC_METACLASS_$_TVRUITopShelfInfoViewController
+- _OBJC_METACLASS_$__TVRUIAppInfoCell
+- _OBJC_METACLASS_$__TVRUIAppInfoItem
+- _OBJC_METACLASS_$__TVRUIAppInfoUnhideItemsCell
+- _OBJC_METACLASS_$__TVRUIContextBarItemState
+- _OBJC_METACLASS_$__TVRUINowPlayingInfoCell
+- _OBJC_METACLASS_$__TVRUINowPlayingWithCastItem
+- _OBJC_METACLASS_$__TVRUITopShelfItemCell
+- _TVRCAppInfosCountKey
+- _TVRCAppInfosKey
+- _TVRUIContextBarStackKindApps
+- _TVRUIContextBarStackKindCast
+- _TVRUIContextBarStackKindNowPlaying
+- _TVRUIContextBarStackKindSuggestedPrompts
+- _TVRUIContextBarStackKindTopShelf
+- _TVRUIContextBarStackKindWatchlist
+- _TVRUILaunchableAppsControllerAppInfosDidChangeNotification
+- _TVRUILaunchableAppsControllerAppInfosDidLaunchAppNotification
+- _TVRUILaunchableAppsControllerAppInfosWillChangeNotification
+- _TVRUITopShelfInfoControllerDidChangeNotification
+- _TVRUITopShelfInfoControllerInfoKey
+- __OBJC_$_CLASS_METHODS__TVRUIAppInfoCell
+- __OBJC_$_CLASS_METHODS__TVRUIAppInfoItem
+- __OBJC_$_CLASS_METHODS__TVRUIContextBarItemState
+- __OBJC_$_CLASS_METHODS__TVRUINowPlayingWithCastItem
+- __OBJC_$_CLASS_PROP_LIST__TVRUIAppInfoCell
+- __OBJC_$_INSTANCE_METHODS_TVRUIAppsViewController
+- __OBJC_$_INSTANCE_METHODS_TVRUIContextBarController
+- __OBJC_$_INSTANCE_METHODS_TVRUIContextBarLayoutManager
+- __OBJC_$_INSTANCE_METHODS_TVRUIContextBarViewController
+- __OBJC_$_INSTANCE_METHODS_TVRUICurrentContextBarItemController
+- __OBJC_$_INSTANCE_METHODS_TVRUILaunchableAppsController
+- __OBJC_$_INSTANCE_METHODS_TVRUINowPlayingWithCastViewController
+- __OBJC_$_INSTANCE_METHODS_TVRUIStackViewController
+- __OBJC_$_INSTANCE_METHODS_TVRUITopShelfInfoController
+- __OBJC_$_INSTANCE_METHODS_TVRUITopShelfInfoViewController
+- __OBJC_$_INSTANCE_METHODS__TVRUIAppInfoCell
+- __OBJC_$_INSTANCE_METHODS__TVRUIAppInfoItem
+- __OBJC_$_INSTANCE_METHODS__TVRUIAppInfoUnhideItemsCell
+- __OBJC_$_INSTANCE_METHODS__TVRUIContextBarItemState
+- __OBJC_$_INSTANCE_METHODS__TVRUINowPlayingInfoCell
+- __OBJC_$_INSTANCE_METHODS__TVRUINowPlayingWithCastItem
+- __OBJC_$_INSTANCE_METHODS__TVRUITopShelfItemCell
+- __OBJC_$_INSTANCE_VARIABLES_TVRUIAppsViewController
+- __OBJC_$_INSTANCE_VARIABLES_TVRUIContextBarController
+- __OBJC_$_INSTANCE_VARIABLES_TVRUIContextBarLayoutManager
+- __OBJC_$_INSTANCE_VARIABLES_TVRUIContextBarViewController
+- __OBJC_$_INSTANCE_VARIABLES_TVRUICurrentContextBarItemController
+- __OBJC_$_INSTANCE_VARIABLES_TVRUILaunchableAppsController
+- __OBJC_$_INSTANCE_VARIABLES_TVRUINowPlayingWithCastViewController
+- __OBJC_$_INSTANCE_VARIABLES_TVRUIStackViewController
+- __OBJC_$_INSTANCE_VARIABLES_TVRUITopShelfInfoController
+- __OBJC_$_INSTANCE_VARIABLES_TVRUITopShelfInfoViewController
+- __OBJC_$_INSTANCE_VARIABLES__TVRUIAppInfoCell
+- __OBJC_$_INSTANCE_VARIABLES__TVRUIAppInfoItem
+- __OBJC_$_INSTANCE_VARIABLES__TVRUIContextBarItemState
+- __OBJC_$_INSTANCE_VARIABLES__TVRUINowPlayingInfoCell
+- __OBJC_$_INSTANCE_VARIABLES__TVRUINowPlayingWithCastItem
+- __OBJC_$_INSTANCE_VARIABLES__TVRUITopShelfItemCell
+- __OBJC_$_PROP_LIST_TVRUIAppInfosProviding
+- __OBJC_$_PROP_LIST_TVRUIAppsViewController
+- __OBJC_$_PROP_LIST_TVRUIContextBarController
+- __OBJC_$_PROP_LIST_TVRUIContextBarHostingInfoProviding
+- __OBJC_$_PROP_LIST_TVRUIContextBarInfoProviding
+- __OBJC_$_PROP_LIST_TVRUIContextBarKindIdentifiable
+- __OBJC_$_PROP_LIST_TVRUIContextBarLayoutManager
+- __OBJC_$_PROP_LIST_TVRUIContextBarViewController
+- __OBJC_$_PROP_LIST_TVRUICurrentContextBarItemController
+- __OBJC_$_PROP_LIST_TVRUILaunchableAppsController
+- __OBJC_$_PROP_LIST_TVRUINowPlayingWithCastViewController
+- __OBJC_$_PROP_LIST_TVRUIStackViewController
+- __OBJC_$_PROP_LIST_TVRUITopShelfInfoController
+- __OBJC_$_PROP_LIST_TVRUITopShelfInfoViewController
+- __OBJC_$_PROP_LIST__TVRUIAppInfoCell
+- __OBJC_$_PROP_LIST__TVRUIAppInfoItem
+- __OBJC_$_PROP_LIST__TVRUIContextBarItemState
+- __OBJC_$_PROP_LIST__TVRUINowPlayingInfoCell
+- __OBJC_$_PROP_LIST__TVRUINowPlayingWithCastItem
+- __OBJC_$_PROP_LIST__TVRUITopShelfItemCell
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TVRUIAppInfosProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TVRUIAppsViewControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TVRUIContextBarHostingInfoProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TVRUIContextBarInfoProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TVRUIContextBarKindIdentifiable
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS__TVRUIAppLaunchDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TVRUIAppInfosProviding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TVRUIAppsViewControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TVRUIContextBarHostingInfoProviding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TVRUIContextBarInfoProviding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TVRUIContextBarKindIdentifiable
+- __OBJC_$_PROTOCOL_METHOD_TYPES__TVRUIAppLaunchDelegate
+- __OBJC_$_PROTOCOL_REFS_TVRUIAppInfosProviding
+- __OBJC_$_PROTOCOL_REFS_TVRUIAppsViewControllerDelegate
+- __OBJC_CLASS_PROTOCOLS_$_TVRUIAppsViewController
+- __OBJC_CLASS_PROTOCOLS_$_TVRUIContextBarController
+- __OBJC_CLASS_PROTOCOLS_$_TVRUIContextBarViewController
+- __OBJC_CLASS_PROTOCOLS_$_TVRUILaunchableAppsController
+- __OBJC_CLASS_PROTOCOLS_$_TVRUINowPlayingMiniPlayerViewController
+- __OBJC_CLASS_PROTOCOLS_$_TVRUINowPlayingWithCastViewController
+- __OBJC_CLASS_PROTOCOLS_$_TVRUITopShelfInfoViewController
+- __OBJC_CLASS_RO_$_TVRUIAppsViewController
+- __OBJC_CLASS_RO_$_TVRUIContextBarController
+- __OBJC_CLASS_RO_$_TVRUIContextBarLayoutManager
+- __OBJC_CLASS_RO_$_TVRUIContextBarViewController
+- __OBJC_CLASS_RO_$_TVRUICurrentContextBarItemController
+- __OBJC_CLASS_RO_$_TVRUILaunchableAppsController
+- __OBJC_CLASS_RO_$_TVRUINowPlayingWithCastViewController
+- __OBJC_CLASS_RO_$_TVRUIStackViewController
+- __OBJC_CLASS_RO_$_TVRUITopShelfInfoController
+- __OBJC_CLASS_RO_$_TVRUITopShelfInfoViewController
+- __OBJC_CLASS_RO_$__TVRUIAppInfoCell
+- __OBJC_CLASS_RO_$__TVRUIAppInfoItem
+- __OBJC_CLASS_RO_$__TVRUIAppInfoUnhideItemsCell
+- __OBJC_CLASS_RO_$__TVRUIContextBarItemState
+- __OBJC_CLASS_RO_$__TVRUINowPlayingInfoCell
+- __OBJC_CLASS_RO_$__TVRUINowPlayingWithCastItem
+- __OBJC_CLASS_RO_$__TVRUITopShelfItemCell
+- __OBJC_LABEL_PROTOCOL_$_TVRUIAppInfosProviding
+- __OBJC_LABEL_PROTOCOL_$_TVRUIAppsViewControllerDelegate
+- __OBJC_LABEL_PROTOCOL_$_TVRUIContextBarHostingInfoProviding
+- __OBJC_LABEL_PROTOCOL_$_TVRUIContextBarInfoProviding
+- __OBJC_LABEL_PROTOCOL_$_TVRUIContextBarKindIdentifiable
+- __OBJC_LABEL_PROTOCOL_$__TVRUIAppLaunchDelegate
+- __OBJC_METACLASS_RO_$_TVRUIAppsViewController
+- __OBJC_METACLASS_RO_$_TVRUIContextBarController
+- __OBJC_METACLASS_RO_$_TVRUIContextBarLayoutManager
+- __OBJC_METACLASS_RO_$_TVRUIContextBarViewController
+- __OBJC_METACLASS_RO_$_TVRUICurrentContextBarItemController
+- __OBJC_METACLASS_RO_$_TVRUILaunchableAppsController
+- __OBJC_METACLASS_RO_$_TVRUINowPlayingWithCastViewController
+- __OBJC_METACLASS_RO_$_TVRUIStackViewController
+- __OBJC_METACLASS_RO_$_TVRUITopShelfInfoController
+- __OBJC_METACLASS_RO_$_TVRUITopShelfInfoViewController
+- __OBJC_METACLASS_RO_$__TVRUIAppInfoCell
+- __OBJC_METACLASS_RO_$__TVRUIAppInfoItem
+- __OBJC_METACLASS_RO_$__TVRUIAppInfoUnhideItemsCell
+- __OBJC_METACLASS_RO_$__TVRUIContextBarItemState
+- __OBJC_METACLASS_RO_$__TVRUINowPlayingInfoCell
+- __OBJC_METACLASS_RO_$__TVRUINowPlayingWithCastItem
+- __OBJC_METACLASS_RO_$__TVRUITopShelfItemCell
+- __OBJC_PROTOCOL_$_TVRUIAppInfosProviding
+- __OBJC_PROTOCOL_$_TVRUIAppsViewControllerDelegate
+- __OBJC_PROTOCOL_$_TVRUIContextBarHostingInfoProviding
+- __OBJC_PROTOCOL_$_TVRUIContextBarInfoProviding
+- __OBJC_PROTOCOL_$_TVRUIContextBarKindIdentifiable
+- __OBJC_PROTOCOL_$__TVRUIAppLaunchDelegate
+- __OBJC_PROTOCOL_REFERENCE_$_TVRUIContextBarKindIdentifiable
+- __TVRUIContextBarLog
+- ___33-[TVRUIRemoteViewController init]_block_invoke
+- ___34-[_TVRUITopShelfItemCell setItem:]_block_invoke
+- ___36-[TVRAlertController _keyboardHide:]_block_invoke_2
+- ___39-[TVRUIContextBarController setDevice:]_block_invoke
+- ___45-[TVRUIAppsViewController configureHierarchy]_block_invoke
+- ___45-[TVRUIAppsViewController configureHierarchy]_block_invoke_2
+- ___45-[TVRUIAppsViewController configureHierarchy]_block_invoke_3
+- ___47-[TVRUIAppsViewController collectionViewLayout]_block_invoke
+- ___47-[TVRUILaunchableAppsController _fetchAppInfos]_block_invoke
+- ___47-[TVRUILaunchableAppsController _fetchAppInfos]_block_invoke_2
+- ___47-[_TVRUINowPlayingInfoCell _configureHierarchy]_block_invoke
+- ___48-[TVRUINowPlayingWithCastViewController _layout]_block_invoke
+- ___51-[TVRUIContextBarViewController configureHierarchy]_block_invoke
+- ___51-[TVRUIRemoteViewController viewWillLayoutSubviews]_block_invoke
+- ___52-[TVRUIContextBarViewController initWithRenderMode:]_block_invoke
+- ___53-[TVRUINowPlayingWithCastViewController setMetadata:]_block_invoke
+- ___53-[TVRUINowPlayingWithCastViewController setMetadata:]_block_invoke_2
+- ___54-[TVRUITopShelfInfoViewController _configureHierarchy]_block_invoke
+- ___54-[TVRUITopShelfInfoViewController _configureHierarchy]_block_invoke_2
+- ___55-[TVRUILaunchableAppsController launchAppWithBundleID:]_block_invoke
+- ___56-[TVRUITopShelfInfoViewController _collectionViewLayout]_block_invoke
+- ___59-[TVRUIAppsViewController _confirmOkToOpenApp:withHandler:]_block_invoke
+- ___59-[TVRUIAppsViewController _confirmOkToOpenApp:withHandler:]_block_invoke_2
+- ___60-[TVRUINowPlayingWithCastViewController _configureHierarchy]_block_invoke
+- ___60-[TVRUINowPlayingWithCastViewController _configureHierarchy]_block_invoke_2
+- ___60-[TVRUINowPlayingWithCastViewController _configureHierarchy]_block_invoke_3
+- ___60-[TVRUINowPlayingWithCastViewController _configureHierarchy]_block_invoke_4
+- ___61-[TVRUIContextBarController toggleContextBarVisibleAnimated:]_block_invoke
+- ___61-[TVRUIContextBarController toggleContextBarVisibleAnimated:]_block_invoke_2
+- ___61-[TVRUIContextBarController toggleContextBarVisibleAnimated:]_block_invoke_3
+- ___61-[TVRUIStackViewController _transitionToFinalIndex:duration:]_block_invoke
+- ___61-[TVRUIStackViewController _transitionToFinalIndex:duration:]_block_invoke_2
+- ___61-[TVRUIStackViewController _transitionToFinalIndex:duration:]_block_invoke_3
+- ___62-[TVRUILaunchableAppsController _adjustedAppInfosForAppInfos:]_block_invoke
+- ___65-[TVRUIContextBarController _animateResetRubberbandingTransforms]_block_invoke
+- ___66-[TVRUICurrentContextBarItemController _setupNotificationHandlers]_block_invoke
+- ___66-[TVRUICurrentContextBarItemController _setupNotificationHandlers]_block_invoke_2
+- ___66-[TVRUICurrentContextBarItemController _setupNotificationHandlers]_block_invoke_3
+- ___67-[TVRUIAppsViewController collectionView:didSelectItemAtIndexPath:]_block_invoke
+- ___67-[TVRUIAppsViewController collectionView:didSelectItemAtIndexPath:]_block_invoke_2
+- ___67-[TVRUIAppsViewController collectionView:didSelectItemAtIndexPath:]_block_invoke_3
+- ___67-[TVRUIAppsViewController collectionView:didSelectItemAtIndexPath:]_block_invoke_4
+- ___67-[TVRUICurrentContextBarItemController initWithNowPlayingProvider:]_block_invoke
+- ___68-[TVRUIStackViewController _animateToFinalIndex:fromIndex:duration:]_block_invoke
+- ___68-[TVRUIStackViewController _animateToFinalIndex:fromIndex:duration:]_block_invoke_2
+- ___73-[TVRUIContextBarController contextBarGrabberGestureRecognizerDidChange:]_block_invoke
+- ___73-[TVRUIContextBarController contextBarGrabberGestureRecognizerDidChange:]_block_invoke_2
+- ___75-[TVRUITopShelfInfoViewController collectionView:didSelectItemAtIndexPath:]_block_invoke
+- ___75-[TVRUITopShelfInfoViewController collectionView:didSelectItemAtIndexPath:]_block_invoke_2
+- ___75-[TVRUITopShelfInfoViewController collectionView:didSelectItemAtIndexPath:]_block_invoke_3
+- ___77-[TVRUICurrentContextBarItemController _invokeDidChangeHandlerForIdentifier:]_block_invoke
+- ___79-[TVRUINowPlayingWithCastViewController _requestArtworkImageForNowPlayingInfo:]_block_invoke
+- ___79-[TVRUINowPlayingWithCastViewController _requestArtworkImageForNowPlayingInfo:]_block_invoke_2
+- ___81-[TVRUINowPlayingWithCastViewController collectionView:didSelectItemAtIndexPath:]_block_invoke
+- ___81-[TVRUINowPlayingWithCastViewController collectionView:didSelectItemAtIndexPath:]_block_invoke_2
+- ___81-[TVRUINowPlayingWithCastViewController collectionView:didSelectItemAtIndexPath:]_block_invoke_3
+- ___89-[TVRUILaunchableAppsController _fetchLaunchableAppsWithRange:currentResults:completion:]_block_invoke
+- ___89-[TVRUILaunchableAppsController _fetchLaunchableAppsWithRange:currentResults:completion:]_block_invoke_2
+- ____TVRUIContextBarLog_block_invoke
+- ___block_descriptor_105_e8_32s40s48w_e5_v8?0lw48l8s32l8s40l8
+- ___block_descriptor_209_e8_32s_e5_v8?0ls32l8
+- ___block_descriptor_32_e37_q24?0"TVRCAppInfo"8"TVRCAppInfo"16l
+- ___block_descriptor_32_e76_v32?0"_TVRUIAppInfoUnhideItemsCell"8"NSIndexPath"16"_TVRUIAppInfoItem"24l
+- ___block_descriptor_33_e71_"NSCollectionLayoutSection"24?0q8"<NSCollectionLayoutEnvironment>"16l
+- ___block_descriptor_40_e8_32s_e69_v32?0"_TVRUITopShelfItemCell"8"NSIndexPath"16"TVRCTopShelfItem"24ls32l8
+- ___block_descriptor_40_e8_32s_e85_"UICollectionViewCell"32?0"UICollectionView"8"NSIndexPath"16"TVRCTopShelfItem"24ls32l8
+- ___block_descriptor_40_e8_32w_e34_v24?0"NSDictionary"8"NSError"16lw32l8
+- ___block_descriptor_40_e8_32w_e65_v32?0"_TVRUIAppInfoCell"8"NSIndexPath"16"_TVRUIAppInfoItem"24lw32l8
+- ___block_descriptor_40_e8_32w_e83_v32?0"_TVRUINowPlayingInfoCell"8"NSIndexPath"16"_TVRUINowPlayingWithCastItem"24lw32l8
+- ___block_descriptor_40_e8_32w_e83_v32?0"_TVRUIRoleHorizontalCell"8"NSIndexPath"16"_TVRUINowPlayingWithCastItem"24lw32l8
+- ___block_descriptor_48_e8_32s40s_e86_"UICollectionViewCell"32?0"UICollectionView"8"NSIndexPath"16"_TVRUIAppInfoItem"24ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e97_"UICollectionViewCell"32?0"UICollectionView"8"NSIndexPath"16"_TVRUINowPlayingWithCastItem"24ls32l8s40l8
+- ___block_descriptor_48_e8_32s40w_e8_v16?0q8lw40l8s32l8
+- ___block_descriptor_48_e8_32s_e8_v12?0B8ls32l8
+- ___block_descriptor_50_e8_32s_e5_v8?0ls32l8
+- ___block_descriptor_56_e8_32s40bs_e8_v12?0B8ls40l8s32l8
+- ___block_descriptor_56_e8_32s_e8_v12?0B8ls32l8
+- ___block_descriptor_64_e8_32s40s48s_e5_v8?0ls32l8s40l8s48l8
+- ___block_descriptor_72_e8_32s40bs48w_e34_v24?0"NSDictionary"8"NSError"16lw48l8s32l8s40l8
+- ___block_descriptor_72_e8_32s40s48bs_e5_v8?0ls32l8s40l8s48l8
+- ___block_descriptor_89_e8_32s_e5_v8?0ls32l8
+- ___imageAspectFit
+- __panRecognizerDidFire:.__recognizerCommitted
+- _objc_msgSend$MRUCount
+- _objc_msgSend$_adjustedAppInfosForAppInfos:
+- _objc_msgSend$_animateResetRubberbandingTransforms
+- _objc_msgSend$_animateToFinalIndex:fromIndex:duration:
+- _objc_msgSend$_applyRubberbandingForTranslation:progress:
+- _objc_msgSend$_applySnapshot:
+- _objc_msgSend$_baseMRUCountAdjustmentForAppInfo:
+- _objc_msgSend$_commitSelectedViewControllerIndex:
+- _objc_msgSend$_commitToFinalPositionForIndex:translation:velocity:
+- _objc_msgSend$_computeFramesPadSideBySide
+- _objc_msgSend$_configureNowPlayingCell:
+- _objc_msgSend$_configurePanGesture
+- _objc_msgSend$_confirmOkToOpenApp:withHandler:
+- _objc_msgSend$_contextBarView
+- _objc_msgSend$_didBeginPlayingContent
+- _objc_msgSend$_didEndPlayingContent
+- _objc_msgSend$_evaluateState:
+- _objc_msgSend$_fetchAppInfos
+- _objc_msgSend$_fetchLaunchableAppsWithRange:currentResults:completion:
+- _objc_msgSend$_finalIndexForIndex:translation:velocity:
+- _objc_msgSend$_grabberView
+- _objc_msgSend$_hostingViewAboveIndex:
+- _objc_msgSend$_hostingViewBelowIndex:
+- _objc_msgSend$_hostingViewForIndex:
+- _objc_msgSend$_hostingViewIndexIsValid:
+- _objc_msgSend$_identifierForViewControllerIndex:
+- _objc_msgSend$_indexAboveIndex:
+- _objc_msgSend$_indexBelowIndex:
+- _objc_msgSend$_invokeDidChangeHandlerForIdentifier:
+- _objc_msgSend$_invokeLayoutHandlerIfNeeded
+- _objc_msgSend$_isIndex:directlyAboveIndex:
+- _objc_msgSend$_launchableAppsResponseDictContainsCount:
+- _objc_msgSend$_loadHiddenBundleIDs
+- _objc_msgSend$_loadMRUCountDict
+- _objc_msgSend$_makeToggleContextBarAnimator
+- _objc_msgSend$_mruCountForBundleID:
+- _objc_msgSend$_multiplierForTranslation:
+- _objc_msgSend$_notifyOrderedAppInfosChanged
+- _objc_msgSend$_persistHiddenBundleIDs:
+- _objc_msgSend$_persistMRUCountDict:
+- _objc_msgSend$_prepareHostingViewTransformsForIndex:
+- _objc_msgSend$_presentAppGridPopoverFromSender:
+- _objc_msgSend$_requestArtworkImageForNowPlayingInfo:
+- _objc_msgSend$_resetInteractiveAnimator
+- _objc_msgSend$_resetRubberbandingTransforms
+- _objc_msgSend$_resolveIdentifierForIsPlaying:nowPlayingMetadata:topShelfInfo:fallbackIdentifier:
+- _objc_msgSend$_selectAppPicker
+- _objc_msgSend$_selectViewControllerWithIdentifier:animated:
+- _objc_msgSend$_setCanPanHorizontally:
+- _objc_msgSend$_setCanPanVertically:
+- _objc_msgSend$_setupAppsController
+- _objc_msgSend$_setupNotificationHandlers
+- _objc_msgSend$_shouldCommitToFinalPositionForIndex:translation:
+- _objc_msgSend$_teardownNotificationHandlers
+- _objc_msgSend$_titleForHostingViewIndex:
+- _objc_msgSend$_toggleContextBar
+- _objc_msgSend$_trackpadView
+- _objc_msgSend$_transformWithMultiplier:
+- _objc_msgSend$_transitionToFinalIndex:duration:
+- _objc_msgSend$_updateCastSection
+- _objc_msgSend$_updateHostingViewTransformsForIndex:translation:
+- _objc_msgSend$_updateMRUCountForLaunchedAppWithBundleID:
+- _objc_msgSend$_updateNowPlayingInfo:previousNowPlayingInfo:
+- _objc_msgSend$_updateNowPlayingSection
+- _objc_msgSend$_updateViewControllerAppearanceForSelectedViewControllerIndex:
+- _objc_msgSend$_updatedMRUCountDictForCountDict:forBundleID:
+- _objc_msgSend$addEntriesFromDictionary:
+- _objc_msgSend$allItems
+- _objc_msgSend$allKeys
+- _objc_msgSend$appGenre
+- _objc_msgSend$appInfo
+- _objc_msgSend$appInfoWithBundleID:dictionary:
+- _objc_msgSend$appInfoWithMRUCount:
+- _objc_msgSend$appInfos
+- _objc_msgSend$appPickerTappedForTitleView:sender:
+- _objc_msgSend$appendItemsWithIdentifiers:intoSectionWithIdentifier:
+- _objc_msgSend$appsController
+- _objc_msgSend$appsViewController:didLaunchAppWithInfo:
+- _objc_msgSend$artworkImageView
+- _objc_msgSend$beginToggleAnimation
+- _objc_msgSend$bundleID
+- _objc_msgSend$bundleIDIsAppleTV
+- _objc_msgSend$collectionViewLayout
+- _objc_msgSend$commitToggleAnimationDidFinish:
+- _objc_msgSend$compare:
+- _objc_msgSend$contextBarController
+- _objc_msgSend$contextBarGrabberGestureRecognizerDidChange:
+- _objc_msgSend$contextBarHostingGrabberView
+- _objc_msgSend$contextBarHostingTrackpadView
+- _objc_msgSend$contextBarHostingView
+- _objc_msgSend$contextBarInfoProvider
+- _objc_msgSend$contextBarIsCollapsed
+- _objc_msgSend$contextBarItemIdentifier
+- _objc_msgSend$contextBarPreferredHeight
+- _objc_msgSend$contextBarRenderMode
+- _objc_msgSend$contextBarViewController
+- _objc_msgSend$continueAnimationWithTimingParameters:durationFactor:
+- _objc_msgSend$currentContextBarItemController
+- _objc_msgSend$currentContextBarItemDidChangeHandler
+- _objc_msgSend$currentContextBarItemIdentifier
+- _objc_msgSend$currentState
+- _objc_msgSend$deleteItemsWithIdentifiers:
+- _objc_msgSend$didCommitToViewControllerIndex:fromUserInteraction:
+- _objc_msgSend$disallowsGestures
+- _objc_msgSend$displayActionURL
+- _objc_msgSend$effectiveContextBarFrame
+- _objc_msgSend$effectiveControlPanelFrame
+- _objc_msgSend$effectiveGrabberFrame
+- _objc_msgSend$effectiveState
+- _objc_msgSend$effectiveTouchpadFrame
+- _objc_msgSend$fetchedArtworkImage
+- _objc_msgSend$flexibleSpacing:
+- _objc_msgSend$fractionComplete
+- _objc_msgSend$gestureDistance
+- _objc_msgSend$gestureIsRevealing
+- _objc_msgSend$gestureStartPoint
+- _objc_msgSend$grabberSize
+- _objc_msgSend$grabberView
+- _objc_msgSend$hasGrabber
+- _objc_msgSend$hasHiddenApps
+- _objc_msgSend$hasNoTitle
+- _objc_msgSend$hasNowPlayingMetadata
+- _objc_msgSend$hiddenBundleIDs
+- _objc_msgSend$hideAppWithBundleID:
+- _objc_msgSend$hidesPageControl
+- _objc_msgSend$hostingViews
+- _objc_msgSend$imageAspectFit
+- _objc_msgSend$imageURL1x
+- _objc_msgSend$imageURL2x
+- _objc_msgSend$impactFeedbackGenerator
+- _objc_msgSend$infoButtonActionHandler
+- _objc_msgSend$initWithAppInfo:isUnhideItem:
+- _objc_msgSend$initWithContextBarHostingView:renderMode:contextBarInfoProvider:
+- _objc_msgSend$initWithHostingViewController:actionProvider:upNextProvider:nowPlayingProvider:layoutHandler:
+- _objc_msgSend$initWithIsPlaying:nowPlayingMetadata:topShelfInfo:contextBarItemIdentifier:
+- _objc_msgSend$initWithIsPlaying:nowPlayingMetadata:topShelfInfo:fallbackIdentifier:
+- _objc_msgSend$initWithNowPlayingProvider:
+- _objc_msgSend$initWithRenderMode:
+- _objc_msgSend$initWithSectionProvider:configuration:
+- _objc_msgSend$interactiveAnimator
+- _objc_msgSend$isContextBarEnabled
+- _objc_msgSend$isContextBarMode
+- _objc_msgSend$isCurrentBundleIDAppleTV
+- _objc_msgSend$isEqualToNowPlayingMetadata:
+- _objc_msgSend$isInToggleAnimation
+- _objc_msgSend$isShowingContextBar
+- _objc_msgSend$isTVApp
+- _objc_msgSend$isUnhideItem
+- _objc_msgSend$itemIdentifiersInSectionWithIdentifier:
+- _objc_msgSend$itemWithAppInfo:
+- _objc_msgSend$launchApp:
+- _objc_msgSend$launchAppWithBundleID:
+- _objc_msgSend$launchableAppsController
+- _objc_msgSend$layoutHandler
+- _objc_msgSend$layoutManager
+- _objc_msgSend$localizedName
+- _objc_msgSend$mruCountDict
+- _objc_msgSend$nextResponder
+- _objc_msgSend$notificationObservers
+- _objc_msgSend$nowPlayingItem
+- _objc_msgSend$nowPlayingMetadata
+- _objc_msgSend$nowPlayingSentinel
+- _objc_msgSend$nowPlayingWithCastViewController
+- _objc_msgSend$orderedAppInfos
+- _objc_msgSend$pageControl
+- _objc_msgSend$playActionURL
+- _objc_msgSend$renderMode
+- _objc_msgSend$resetContent
+- _objc_msgSend$resetContentAnimated:
+- _objc_msgSend$scrollToNowPlayingAnimated:
+- _objc_msgSend$selectContextBarItemWithIdentifier:animated:
+- _objc_msgSend$selectViewControllerIndex:animated:
+- _objc_msgSend$selectedViewControllerIndex
+- _objc_msgSend$selectionFeedbackGenerator
+- _objc_msgSend$sendSubviewToBack:
+- _objc_msgSend$setAppInfo:
+- _objc_msgSend$setAppInfos:
+- _objc_msgSend$setAppPickerEnabled:
+- _objc_msgSend$setAppsController:
+- _objc_msgSend$setByAddingObject:
+- _objc_msgSend$setByAddingObjectsFromSet:
+- _objc_msgSend$setContainerView:
+- _objc_msgSend$setCurrentContextBarItemController:
+- _objc_msgSend$setCurrentContextBarItemDidChangeHandler:
+- _objc_msgSend$setCurrentPage:
+- _objc_msgSend$setCurrentState:
+- _objc_msgSend$setDirection:
+- _objc_msgSend$setEffectiveContextBarFrame:
+- _objc_msgSend$setEffectiveControlPanelFrame:
+- _objc_msgSend$setEffectiveGrabberFrame:
+- _objc_msgSend$setEffectiveTouchpadFrame:
+- _objc_msgSend$setFetchedArtworkImage:
+- _objc_msgSend$setGestureIsRevealing:
+- _objc_msgSend$setGestureStartPoint:
+- _objc_msgSend$setHiddenBundleIDs:
+- _objc_msgSend$setHostingViews:
+- _objc_msgSend$setImageAspectFit:
+- _objc_msgSend$setInfoButtonActionHandler:
+- _objc_msgSend$setInteractiveAnimator:
+- _objc_msgSend$setIsArranged:
+- _objc_msgSend$setIsInToggleAnimation:
+- _objc_msgSend$setLaunchableAppsController:
+- _objc_msgSend$setMruCountDict:
+- _objc_msgSend$setNowPlayingSentinel:
+- _objc_msgSend$setNowPlayingWithCastViewController:
+- _objc_msgSend$setNumberOfPages:
+- _objc_msgSend$setPageControl:
+- _objc_msgSend$setReversed:
+- _objc_msgSend$setScrollDirection:
+- _objc_msgSend$setSelectedViewControllerIndex:
+- _objc_msgSend$setStackBackgroundColor:
+- _objc_msgSend$setState:
+- _objc_msgSend$setTopShelfInfo:
+- _objc_msgSend$setTopShelfInfoController:
+- _objc_msgSend$setTopShelfInfoViewController:
+- _objc_msgSend$setTopShelfItems:
+- _objc_msgSend$setTransitionIsFromUserInteraction:
+- _objc_msgSend$setUsesGridStyle:
+- _objc_msgSend$setWithArray:
+- _objc_msgSend$shouldAnimateRenderFormatChange
+- _objc_msgSend$showNowPlayingWithCastInContextBar
+- _objc_msgSend$sortUsingComparator:
+- _objc_msgSend$stackBackgroundColor
+- _objc_msgSend$titleOnTop
+- _objc_msgSend$titleStyle
+- _objc_msgSend$toggleContextBarVisibleAnimated:
+- _objc_msgSend$topShelfInfo
+- _objc_msgSend$topShelfInfoController
+- _objc_msgSend$topShelfInfoViewController
+- _objc_msgSend$topShelfItems
+- _objc_msgSend$transform
+- _objc_msgSend$transitionIsFromUserInteraction
+- _objc_msgSend$unhideApps
+- _objc_msgSend$unhideItem
+- _objc_msgSend$updateFromAppInfosAnimated:
+- _objc_msgSend$updateTopShelfInfo:
+- _objc_msgSend$updateWithTouchpadFrame:controlPanelFrame:devicePickerFrame:
+- _objc_msgSend$userDidSelectContextBarItemWithIdentifier:
+- _objc_msgSend$usesGridStyle
+- _objc_msgSend$viewControllers
+CStrings:
++ "#touchpad - force directional pad setting is enabled"
++ "#touchpad - transitioning to directional pad"
++ "#touchpad - transitioning to touchpad"
++ "%s forwarding autofilled text to device as an insert"
++ "%s ignoring keyboard hide, %{public}@ is presented on top of us"
++ "%s not dismissing, %{public}@ is presented on top"
++ "%s textField local input did not change. Skipping."
++ "-[TVRAlertController _keyboardHide:]_block_invoke"
++ "@\"NSDictionary\"16@?0@\"NSDictionary\"8"
++ "Delete range %@"
++ "Insert %lu chars at %lu"
++ "M"
++ "RemoteViewCtrl received request to update text of local device text field to newText.length: %lu"
++ "Replace %@ with %lu chars"
++ "Send text operation - insert length:%lu deleteBackward:%lu forwardDelete:%lu"
++ "v16@?0@\"RTITextOperations\"8"
++ "v16@?0@\"UIButton\"8"
++ "\xf0\xf0\xa2"
+- "\"H"
+- "<State: isPlaying=%d hasMetadata=%d title=%@ topShelfItems=%lu identifier=%@>"
+- "@\"UICollectionViewCell\"32@?0@\"UICollectionView\"8@\"NSIndexPath\"16@\"TVRCTopShelfItem\"24"
+- "@\"UICollectionViewCell\"32@?0@\"UICollectionView\"8@\"NSIndexPath\"16@\"_TVRUIAppInfoItem\"24"
+- "@\"UICollectionViewCell\"32@?0@\"UICollectionView\"8@\"NSIndexPath\"16@\"_TVRUINowPlayingWithCastItem\"24"
+- "D"
+- "HiddenBundleIDs"
+- "MRUCountDict"
+- "R"
+- "RemoteViewCtrl received callback to update text of local device text field to newText.length: %lu"
+- "TVRUIApps"
+- "TVRUIContextBarStackKindApps"
+- "TVRUIContextBarStackKindCast"
+- "TVRUIContextBarStackKindNowPlaying"
+- "TVRUIContextBarStackKindSuggestedPrompts"
+- "TVRUIContextBarStackKindTopShelf"
+- "TVRUIContextBarStackKindWatchlist"
+- "TVRUILaunchableAppsControllerAppInfosDidChangeNotification"
+- "TVRUILaunchableAppsControllerAppInfosDidLaunchAppNotification"
+- "TVRUILaunchableAppsControllerAppInfosWillChangeNotification"
+- "TVRUINoAppsFound"
+- "TVRUIOpenApp"
+- "TVRUIOpenTitle"
+- "TVRUITopShelfInfoControllerDidChangeNotification"
+- "TVRUITopShelfInfoControllerInfoKey"
+- "TVRUIUnhideApps"
+- "cast"
+- "com.apple.TVMovies"
+- "com.apple.TVShows"
+- "com.apple.TVWatchList"
+- "init %{public}@"
+- "launchAppWithBundleID %@ failed: %@"
+- "main-section"
+- "notification: mediaStarted"
+- "notification: mediaStopped"
+- "notification: nowPlayingInfoDidChange"
+- "notification: topShelfInfoDidChange itemCount=%lu"
+- "nowPlaying"
+- "nowPlayingProvider changed"
+- "payload string length: %lu textField.text length: %lu"
+- "q24@?0@\"TVRCAppInfo\"8@\"TVRCAppInfo\"16"
+- "square.grid.2x2"
+- "stateChanged previous=%{public}@ new=%{public}@"
+- "stateUnchanged %{public}@"
+- "userDidSelectContextBarItem identifier=%{public}@"
+- "v32@?0@\"_TVRUIAppInfoCell\"8@\"NSIndexPath\"16@\"_TVRUIAppInfoItem\"24"
+- "v32@?0@\"_TVRUIAppInfoUnhideItemsCell\"8@\"NSIndexPath\"16@\"_TVRUIAppInfoItem\"24"
+- "v32@?0@\"_TVRUINowPlayingInfoCell\"8@\"NSIndexPath\"16@\"_TVRUINowPlayingWithCastItem\"24"
+- "v32@?0@\"_TVRUIRoleHorizontalCell\"8@\"NSIndexPath\"16@\"_TVRUINowPlayingWithCastItem\"24"
+- "v32@?0@\"_TVRUITopShelfItemCell\"8@\"NSIndexPath\"16@\"TVRCTopShelfItem\"24"
+- "\xf0\xf0\xc2"
+```

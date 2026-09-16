@@ -1,0 +1,578 @@
+## HomeEnergyDiagnosticExtension
+
+> `/System/Library/PrivateFrameworks/DiagnosticExtensions.framework/PlugIns/HomeEnergyDiagnosticExtension.appex/HomeEnergyDiagnosticExtension`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA.__objc_const`
+- `__DATA.__objc_data`
+
+```diff
+
+-490.1.4.0.0
+-  __TEXT.__text: 0x238c
+-  __TEXT.__auth_stubs: 0x4e0
+-  __TEXT.__objc_stubs: 0x160
++504.0.0.0.0
++  __TEXT.__text: 0xe0f4
++  __TEXT.__auth_stubs: 0xfb0
++  __TEXT.__objc_stubs: 0x320
+   __TEXT.__objc_methlist: 0x5c
+-  __TEXT.__const: 0x7a
+-  __TEXT.__cstring: 0x2e9
++  __TEXT.__const: 0x262
++  __TEXT.__cstring: 0x9b2
+   __TEXT.__oslogstring: 0x54
+   __TEXT.__objc_classname: 0x35
+-  __TEXT.__objc_methname: 0xeb
++  __TEXT.__objc_methname: 0x25a
+   __TEXT.__objc_methtype: 0x32
+-  __TEXT.__swift5_typeref: 0x38
+-  __TEXT.__constg_swiftt: 0x38
+-  __TEXT.__swift5_fieldmd: 0x10
+-  __TEXT.__swift5_types: 0x4
+-  __TEXT.__unwind_info: 0xc0
+-  __TEXT.__eh_frame: 0x48
+-  __DATA_CONST.__const: 0x88
++  __TEXT.__swift5_typeref: 0x13a
++  __TEXT.__constg_swiftt: 0x8c
++  __TEXT.__swift5_fieldmd: 0x40
++  __TEXT.__swift5_types: 0x10
++  __TEXT.__unwind_info: 0x258
++  __TEXT.__eh_frame: 0x2f8
++  __DATA_CONST.__const: 0x1f8
+   __DATA_CONST.__cfstring: 0x20
+   __DATA_CONST.__objc_classlist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__auth_got: 0x278
+-  __DATA_CONST.__got: 0x88
+-  __DATA_CONST.__auth_ptr: 0x28
++  __DATA_CONST.__auth_got: 0x7e0
++  __DATA_CONST.__got: 0x148
++  __DATA_CONST.__auth_ptr: 0x70
+   __DATA.__objc_const: 0x100
+-  __DATA.__objc_selrefs: 0x70
++  __DATA.__objc_selrefs: 0xe0
+   __DATA.__objc_ivar: 0x4
+   __DATA.__objc_data: 0x100
+-  __DATA.__data: 0x68
++  __DATA.__data: 0x170
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CryptoKit.framework/CryptoKit
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/DiagnosticExtensions.framework/DiagnosticExtensions
++  - /System/Library/PrivateFrameworks/EnergyKitFoundation.framework/EnergyKitFoundation
++  - /System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/InternalSwiftProtobuf
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
++  - /usr/lib/libsqlite3.dylib
+   - /usr/lib/swift/libswiftAppleArchive.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
++  - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftSystem.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  Functions: 19
+-  Symbols:   198
+-  CStrings:  37
++  - /usr/lib/swift/libswiftos.dylib
++  Functions: 117
++  Symbols:   623
++  CStrings:  93
+ 
+Symbols:
++ /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/HomeEnergyDaemon/install/TempContent/Objects/homeenergyd.build/HomeEnergyDiagnosticExtension.build/Objects-normal/arm64e/EnergySitePayloadDump.o
++ /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/HomeEnergyDaemon/install/TempContent/Objects/homeenergyd.build/HomeEnergyDiagnosticExtension.build/Objects-normal/arm64e/EnergySiteStoreRedactor.o
++ /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/HomeEnergyDaemon/install/TempContent/Objects/homeenergyd.build/HomeEnergyDiagnosticExtension.build/Objects-normal/arm64e/InsightCacheDumper.o
++ EnergySitePayloadDump.swift
++ EnergySiteStoreRedactor.swift
++ InsightCacheDumper.swift
++ _$s10Foundation13__DataStorageC5bytes6length4copy11deallocator6offsetACSvSg_SiSbySv_SitcSgSitcfc
++ _$s10Foundation13__DataStorageC6_bytesSvSgvg
++ _$s10Foundation13__DataStorageC6lengthACSi_tcfc
++ _$s10Foundation13__DataStorageC7_lengthSivg
++ _$s10Foundation13__DataStorageC7_offsetSivg
++ _$s10Foundation15ContiguousBytesMp
++ _$s10Foundation15ContiguousBytesP010withUnsafeC0yqd__qd__SWKXEKlFTj
++ _$s10Foundation15ContiguousBytes_pMR
++ _$s10Foundation15ContiguousBytes_pMd
++ _$s10Foundation15ContiguousBytes_pWOb
++ _$s10Foundation22_convertNSErrorToErrorys0E0_pSo0C0CSgF
++ _$s10Foundation25NSFastEnumerationIteratorV4nextypSgyF
++ _$s10Foundation25NSFastEnumerationIteratorVMa
++ _$s10Foundation3URLV13pathExtensionSSvg
++ _$s10Foundation3URLV17lastPathComponentSSvg
++ _$s10Foundation3URLV21deletingPathExtensionACyF
++ _$s10Foundation3URLV22appendingPathComponent_11isDirectoryACSS_SbtF
++ _$s10Foundation3URLV23resolvingSymlinksInPathACyF
++ _$s10Foundation3URLV25deletingLastPathComponentACyF
++ _$s10Foundation3URLV4pathSSvg
++ _$s10Foundation3URLVSgWOh
++ _$s10Foundation4DataV10LargeSliceV21ensureUniqueReferenceyyF
++ _$s10Foundation4DataV13base64Encoded7optionsACSgSSh_So27NSDataBase64DecodingOptionsVtcfC
++ _$s10Foundation4DataV15_RepresentationO15replaceSubrange_4with5countySnySiG_SVSgSitF
++ _$s10Foundation4DataV15_RepresentationO5countAESi_tcfCTf4nd_n
++ _$s10Foundation4DataV15_RepresentationO6append10contentsOfySW_tF
++ _$s10Foundation4DataV15_RepresentationON
++ _$s10Foundation4DataV15_RepresentationOWOe
++ _$s10Foundation4DataV15_RepresentationOWOy
++ _$s10Foundation4DataV19_bridgeToObjectiveCSo6NSDataCyF
++ _$s10Foundation4DataV19base64EncodedString7optionsSSSo27NSDataBase64EncodingOptionsV_tF
++ _$s10Foundation4DataV21InternalSwiftProtobuf0dE15ContiguousBytesADWP
++ _$s10Foundation4DataV36_unconditionallyBridgeFromObjectiveCyACSo6NSDataCSgFZ
++ _$s10Foundation4DataV5write2to7optionsyAA3URLV_So20NSDataWritingOptionsVtKF
++ _$s10Foundation4DataVAA0B8ProtocolAAMc
++ _$s10Foundation4DataVAcA0B8ProtocolAAWL
++ _$s10Foundation4DataVAcA0B8ProtocolAAWl
++ _$s10Foundation4DataVSgWOe
++ _$s10Foundation4DataVSgWOy
++ _$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufCSS8UTF8ViewV_Tt0g5
++ _$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufcAC15_RepresentationOSWXEfU0_
++ _$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufcySwXEfU2_SS8UTF8ViewV_Tg5
++ _$s10Foundation4DateV026timeIntervalSinceReferenceB0ACSd_tcfC
++ _$s10Foundation4DateV19_bridgeToObjectiveCSo6NSDateCyF
++ _$s10Foundation4DateV21timeIntervalSince1970ACSd_tcfC
++ _$s10Foundation4DateVACycfC
++ _$s10Foundation4DateVMa
++ _$s10Foundation4DateVMn
++ _$s10Foundation4DateVSgMR
++ _$s10Foundation4DateVSgMd
++ _$s19EnergyKitFoundation0A11SitePayloadV011hasExportedA2_pSbvg
++ _$s19EnergyKitFoundation0A11SitePayloadV11accessTokenSSvg
++ _$s19EnergyKitFoundation0A11SitePayloadV11accountNameSSvg
++ _$s19EnergyKitFoundation0A11SitePayloadV11siteVersions6UInt32VSgvg
++ _$s19EnergyKitFoundation0A11SitePayloadV12refreshTokenSSvg
++ _$s19EnergyKitFoundation0A11SitePayloadV13accountNumberSSvg
++ _$s19EnergyKitFoundation0A11SitePayloadV13siteTombstone21InternalSwiftProtobuf07Google_J10_TimestampVSgvg
++ _$s19EnergyKitFoundation0A11SitePayloadV14subscriptionIDSSvg
++ _$s19EnergyKitFoundation0A11SitePayloadV15CurrentRatePlanV04rateH0SayAE0gH0VGvg
++ _$s19EnergyKitFoundation0A11SitePayloadV15CurrentRatePlanV0gH0V10descriptorSSvg
++ _$s19EnergyKitFoundation0A11SitePayloadV15CurrentRatePlanV0gH0V10identifierSSvg
++ _$s19EnergyKitFoundation0A11SitePayloadV15CurrentRatePlanV0gH0V5peaks0C04DataVvg
++ _$s19EnergyKitFoundation0A11SitePayloadV15CurrentRatePlanV0gH0VMa
++ _$s19EnergyKitFoundation0A11SitePayloadV15CurrentRatePlanVMa
++ _$s19EnergyKitFoundation0A11SitePayloadV15ckFunctionTokenSSvg
++ _$s19EnergyKitFoundation0A11SitePayloadV15currentRatePlanAC07CurrentgH0Vvg
++ _$s19EnergyKitFoundation0A11SitePayloadV16generationMetersSaySSGvg
++ _$s19EnergyKitFoundation0A11SitePayloadV17alternateSupplierSSvg
++ _$s19EnergyKitFoundation0A11SitePayloadV17serviceLocationIDSSvg
++ _$s19EnergyKitFoundation0A11SitePayloadV17subscriptionStateSSvg
++ _$s19EnergyKitFoundation0A11SitePayloadV18amiLastRefreshDate21InternalSwiftProtobuf07Google_L10_TimestampVSgvg
++ _$s19EnergyKitFoundation0A11SitePayloadV18hasCurrentRatePlanSbvg
++ _$s19EnergyKitFoundation0A11SitePayloadV21InternalSwiftProtobuf7MessageAAMc
++ _$s19EnergyKitFoundation0A11SitePayloadV21subscriptionStartDate21InternalSwiftProtobuf07Google_K10_TimestampVSgvg
++ _$s19EnergyKitFoundation0A11SitePayloadV21usagePointCustomIndex0C04DataVvg
++ _$s19EnergyKitFoundation0A11SitePayloadV23usageSummaryCustomIndex0C04DataVvg
++ _$s19EnergyKitFoundation0A11SitePayloadV24intervalBlockCustomIndex0C04DataVvg
++ _$s19EnergyKitFoundation0A11SitePayloadV24subscriptionCreationDate21InternalSwiftProtobuf07Google_K10_TimestampVSgvg
++ _$s19EnergyKitFoundation0A11SitePayloadV25accessTokenExpirationDate21InternalSwiftProtobuf07Google_L10_TimestampVSgvg
++ _$s19EnergyKitFoundation0A11SitePayloadV25includeRatePlanInGuidances5Int32VSgvg
++ _$s19EnergyKitFoundation0A11SitePayloadV25usagePointNextRefreshDate21InternalSwiftProtobuf07Google_M10_TimestampVSgvg
++ _$s19EnergyKitFoundation0A11SitePayloadV25utilitySupportedCheckDate21InternalSwiftProtobuf07Google_L10_TimestampVSgvg
++ _$s19EnergyKitFoundation0A11SitePayloadV27usageSummaryNextRefreshDate21InternalSwiftProtobuf07Google_M10_TimestampVSgvg
++ _$s19EnergyKitFoundation0A11SitePayloadV28intervalBlockNextRefreshDate21InternalSwiftProtobuf07Google_M10_TimestampVSgvg
++ _$s19EnergyKitFoundation0A11SitePayloadV7addressSSvg
++ _$s19EnergyKitFoundation0A11SitePayloadV8latitudeSdvg
++ _$s19EnergyKitFoundation0A11SitePayloadV8siteNameSSvg
++ _$s19EnergyKitFoundation0A11SitePayloadV8timezoneSSvg
++ _$s19EnergyKitFoundation0A11SitePayloadV9longitudeSdvg
++ _$s19EnergyKitFoundation0A11SitePayloadV9utilityIDSSvg
++ _$s19EnergyKitFoundation0A11SitePayloadVAC21InternalSwiftProtobuf7MessageAAWL
++ _$s19EnergyKitFoundation0A11SitePayloadVAC21InternalSwiftProtobuf7MessageAAWl
++ _$s19EnergyKitFoundation0A11SitePayloadVMa
++ _$s21InternalSwiftProtobuf07Google_C10_TimestampV5nanoss5Int32Vvg
++ _$s21InternalSwiftProtobuf07Google_C10_TimestampV7secondss5Int64Vvg
++ _$s21InternalSwiftProtobuf07Google_C10_TimestampVMa
++ _$s21InternalSwiftProtobuf07Google_C10_TimestampVMn
++ _$s21InternalSwiftProtobuf07Google_C10_TimestampVSgMR
++ _$s21InternalSwiftProtobuf07Google_C10_TimestampVSgMd
++ _$s21InternalSwiftProtobuf07Google_C10_TimestampVSgWOhTm
++ _$s21InternalSwiftProtobuf21BinaryDecodingOptionsVACycfC
++ _$s21InternalSwiftProtobuf21BinaryDecodingOptionsVMa
++ _$s21InternalSwiftProtobuf7MessagePAAE15serializedBytes10extensions7partial7optionsxqd___AA12ExtensionMap_pSgSbAA21BinaryDecodingOptionsVtKcAA0bc10ContiguousF0Rd__lufC
++ _$s29HomeEnergyDiagnosticExtension0B15SitePayloadDumpO05tokenG033_87BD273EC76A665FF46D3B91470BA7ECLL_14subscriptionIDSDySSypGSS_SStFZTf4nnd_n
++ _$s29HomeEnergyDiagnosticExtension0B15SitePayloadDumpO13dateJWTClaims33_87BD273EC76A665FF46D3B91470BA7ECLLShySSGvpZ
++ _$s29HomeEnergyDiagnosticExtension0B15SitePayloadDumpO13dateJWTClaims33_87BD273EC76A665FF46D3B91470BA7ECLL_WZ
++ _$s29HomeEnergyDiagnosticExtension0B15SitePayloadDumpO13dateJWTClaims33_87BD273EC76A665FF46D3B91470BA7ECLL_WZTv_r
++ _$s29HomeEnergyDiagnosticExtension0B15SitePayloadDumpO13dateJWTClaims33_87BD273EC76A665FF46D3B91470BA7ECLL_Wz
++ _$s29HomeEnergyDiagnosticExtension0B15SitePayloadDumpO16allowedJWTClaims33_87BD273EC76A665FF46D3B91470BA7ECLLShySSGvpZ
++ _$s29HomeEnergyDiagnosticExtension0B15SitePayloadDumpO16allowedJWTClaims33_87BD273EC76A665FF46D3B91470BA7ECLL_WZ
++ _$s29HomeEnergyDiagnosticExtension0B15SitePayloadDumpO16allowedJWTClaims33_87BD273EC76A665FF46D3B91470BA7ECLL_WZTv_r
++ _$s29HomeEnergyDiagnosticExtension0B15SitePayloadDumpO16allowedJWTClaims33_87BD273EC76A665FF46D3B91470BA7ECLL_Wz
++ _$s29HomeEnergyDiagnosticExtension0B15SitePayloadDumpO4make4fromSDySSypG0B13KitFoundation0beF0V_tFZ
++ _$s29HomeEnergyDiagnosticExtension0B15SitePayloadDumpO4make4fromSDySSypG0B13KitFoundation0beF0V_tFZTf4nd_n
++ _$s29HomeEnergyDiagnosticExtension0B15SitePayloadDumpO9jwtClaims33_87BD273EC76A665FF46D3B91470BA7ECLLySDySSypGSgSSFZTf4nd_n
++ _$s29HomeEnergyDiagnosticExtension0B15SitePayloadDumpOMF
++ _$s29HomeEnergyDiagnosticExtension0B15SitePayloadDumpOMa
++ _$s29HomeEnergyDiagnosticExtension0B15SitePayloadDumpOMf
++ _$s29HomeEnergyDiagnosticExtension0B15SitePayloadDumpOMn
++ _$s29HomeEnergyDiagnosticExtension0B15SitePayloadDumpON
++ _$s29HomeEnergyDiagnosticExtension0B17SiteStoreRedactorO012insightCacheF4URLs2inSay10Foundation3URLVGAH_tFZ
++ _$s29HomeEnergyDiagnosticExtension0B17SiteStoreRedactorO012insightCacheF4URLs2inSay10Foundation3URLVGAH_tFZTf4nd_n
++ _$s29HomeEnergyDiagnosticExtension0B17SiteStoreRedactorO06removeF5Files2aty10Foundation3URLV_tFZ
++ _$s29HomeEnergyDiagnosticExtension0B17SiteStoreRedactorO06removeF5Files2aty10Foundation3URLV_tFZTf4nd_n
++ _$s29HomeEnergyDiagnosticExtension0B17SiteStoreRedactorO10blobColumny10Foundation4DataVs13OpaquePointerVSg_s5Int32VtFZ
++ _$s29HomeEnergyDiagnosticExtension0B17SiteStoreRedactorO10sidecarURL3for6suffix10Foundation0I0VAI_SStFZ
++ _$s29HomeEnergyDiagnosticExtension0B17SiteStoreRedactorO11readRecordsySaySDySSypGGs13OpaquePointerVFZ
++ _$s29HomeEnergyDiagnosticExtension0B17SiteStoreRedactorO11readRecordsySaySDySSypGGs13OpaquePointerVFZTf4nd_n
++ _$s29HomeEnergyDiagnosticExtension0B17SiteStoreRedactorO11tableExistsySbs13OpaquePointerV_SStFZ
++ _$s29HomeEnergyDiagnosticExtension0B17SiteStoreRedactorO11tableExistsySbs13OpaquePointerV_SStFZTf4nnd_n
++ _$s29HomeEnergyDiagnosticExtension0B17SiteStoreRedactorO12errorMessageySSs13OpaquePointerVSgFZ
++ _$s29HomeEnergyDiagnosticExtension0B17SiteStoreRedactorO12recordsTableSSvau
++ _$s29HomeEnergyDiagnosticExtension0B17SiteStoreRedactorO12recordsTableSSvgZ
++ _$s29HomeEnergyDiagnosticExtension0B17SiteStoreRedactorO12recordsTableSSvpZ
++ _$s29HomeEnergyDiagnosticExtension0B17SiteStoreRedactorO12recordsTableSSvpZMV
++ _$s29HomeEnergyDiagnosticExtension0B17SiteStoreRedactorO12stringColumnySSs13OpaquePointerVSg_s5Int32VtFZ
++ _$s29HomeEnergyDiagnosticExtension0B17SiteStoreRedactorO16firstStringValueySSSgs13OpaquePointerV_SStFZ
++ _$s29HomeEnergyDiagnosticExtension0B17SiteStoreRedactorO16firstStringValueySSSgs13OpaquePointerV_SStFZTf4nnd_n
++ _$s29HomeEnergyDiagnosticExtension0B17SiteStoreRedactorO18isStagingDirectoryySb10Foundation3URLVFZ
++ _$s29HomeEnergyDiagnosticExtension0B17SiteStoreRedactorO18isStagingDirectoryySb10Foundation3URLVFZTf4nd_n
++ _$s29HomeEnergyDiagnosticExtension0B17SiteStoreRedactorO5write4dump2to10Foundation3URLVSgSDySSypG_AItFZ
++ _$s29HomeEnergyDiagnosticExtension0B17SiteStoreRedactorOMF
++ _$s29HomeEnergyDiagnosticExtension0B17SiteStoreRedactorOMa
++ _$s29HomeEnergyDiagnosticExtension0B17SiteStoreRedactorOMf
++ _$s29HomeEnergyDiagnosticExtension0B17SiteStoreRedactorOMn
++ _$s29HomeEnergyDiagnosticExtension0B17SiteStoreRedactorON
++ _$s29HomeEnergyDiagnosticExtension18InsightCacheDumperO12entityTables33_8DD20A78AB20B4CA23F099D537C01248LLySaySSGs13OpaquePointerVFZTf4nd_n
++ _$s29HomeEnergyDiagnosticExtension18InsightCacheDumperO13dateFormatter33_8DD20A78AB20B4CA23F099D537C01248LLSo013NSISO8601DateI0CvpZ
++ _$s29HomeEnergyDiagnosticExtension18InsightCacheDumperO13dateFormatter33_8DD20A78AB20B4CA23F099D537C01248LL_WZ
++ _$s29HomeEnergyDiagnosticExtension18InsightCacheDumperO13dateFormatter33_8DD20A78AB20B4CA23F099D537C01248LL_Wz
++ _$s29HomeEnergyDiagnosticExtension18InsightCacheDumperO13rowDictionary33_8DD20A78AB20B4CA23F099D537C01248LLySDySSypGs13OpaquePointerVSgFZTf4nd_n
++ _$s29HomeEnergyDiagnosticExtension18InsightCacheDumperO24removeSupportDirectories33_8DD20A78AB20B4CA23F099D537C01248LL3fory10Foundation3URLV_tFZTf4nd_n
++ _$s29HomeEnergyDiagnosticExtension18InsightCacheDumperO4dump18inStagingDirectoryy10Foundation3URLV_tFZ
++ _$s29HomeEnergyDiagnosticExtension18InsightCacheDumperO4dump33_8DD20A78AB20B4CA23F099D537C01248LL8storeURL4intoSDySSypG10Foundation0R0V_AKtFZ
++ _$s29HomeEnergyDiagnosticExtension18InsightCacheDumperO6stream33_8DD20A78AB20B4CA23F099D537C01248LL8database5table2toyps13OpaquePointerV_SS10Foundation3URLVtFZ
++ _$s29HomeEnergyDiagnosticExtension18InsightCacheDumperO6stream33_8DD20A78AB20B4CA23F099D537C01248LL8database5table2toyps13OpaquePointerV_SS10Foundation3URLVtFZ6$deferL_yyF
++ _$s29HomeEnergyDiagnosticExtension18InsightCacheDumperOMF
++ _$s29HomeEnergyDiagnosticExtension18InsightCacheDumperOMa
++ _$s29HomeEnergyDiagnosticExtension18InsightCacheDumperOMf
++ _$s29HomeEnergyDiagnosticExtension18InsightCacheDumperOMn
++ _$s29HomeEnergyDiagnosticExtension18InsightCacheDumperON
++ _$s29HomeEnergyDiagnosticExtension20CoreDataStoreArchiveC04copyeF6Stores3urlSay10Foundation3URLVGAH_tFZ
++ _$s29HomeEnergyDiagnosticExtension20CoreDataStoreArchiveC04copyeF6Stores3urlSay10Foundation3URLVGAH_tFZTo
++ _$s29HomeEnergyDiagnosticExtension20CoreDataStoreArchiveC08stageForH033_872BC78918D87106EFA77FC8EFF5B1E0LL9sourceURL10Foundation0S0VAI_tKFZ
++ _$s29HomeEnergyDiagnosticExtension20CoreDataStoreArchiveC11attachments33_872BC78918D87106EFA77FC8EFF5B1E0LL15forDirectoryURL11archiveNameSay10Foundation0S0VGAJ_SStFZ
++ _$s29HomeEnergyDiagnosticExtension20CoreDataStoreArchiveC11attachments33_872BC78918D87106EFA77FC8EFF5B1E0LL15forDirectoryURL11archiveNameSay10Foundation0S0VGAJ_SStFZ6$deferL_yyF
++ _$sS2SSysWL
++ _$sS2SSysWl
++ _$sSD10FoundationE19_bridgeToObjectiveCSo12NSDictionaryCyF
++ _$sSD16compactMapValuesySDyxqd__Gqd__Sgq_KXEKlFSS_ypypTg5110$s29HomeEnergyDiagnosticExtension0B15SitePayloadDumpO4make4fromSDySSypG0B13KitFoundation0beF0V_tFZypSgypXEfU0_Tf1cn_n
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_SiTt0g5Tf4g_n
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_ypTt0g5Tf4g_n
++ _$sSD8_VariantV11removeValue6forKeyq_Sgx_tFSS_ypTg5
++ _$sSDySSSiGMR
++ _$sSDySSSiGMd
++ _$sSDySSypGMR
++ _$sSDySSypGMd
++ _$sSMsSKRzrlE14_insertionSort6within9sortedEnd2byySny5IndexSlQzG_AFSb7ElementSTQz_AItKXEtKFSry10Foundation3URLVG_Tg5119$s29HomeEnergyDiagnosticExtension0B17SiteStoreRedactorO012insightCacheF4URLs2inSay10Foundation3URLVGAH_tFZSbAH_AHtXEfU_Tf1nncn_n
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFs15ContiguousArrayVy10Foundation3URLVG_Tg5119$s29HomeEnergyDiagnosticExtension0B17SiteStoreRedactorO012insightCacheF4URLs2inSay10Foundation3URLVGAH_tFZSbAH_AHtXEfU_Tf1cn_n
++ _$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF
++ _$sSS10describingSSx_tclufC
++ _$sSS10uppercasedSSyF
++ _$sSS11utf8CStrings15ContiguousArrayVys4Int8VGvg
++ _$sSS14_fromSubstringySSSshFZ
++ _$sSS3key_yp5valuetMR
++ _$sSS3key_yp5valuetMd
++ _$sSS4hash4intoys6HasherVz_tF
++ _$sSS5countSivg
++ _$sSS5index5afterSS5IndexVAD_tF
++ _$sSS7cStringSSSPys4Int8VG_tcfC
++ _$sSS7cStringSSSPys5UInt8VG_tcfC
++ _$sSS8UTF8ViewV13_foreignCountSiyF
++ _$sSS8UTF8ViewV13_foreignIndex5afterSS0D0VAF_tF
++ _$sSS8UTF8ViewV13_foreignIndex_8offsetBySS0D0VAF_SitF
++ _$sSS8UTF8ViewV17_foreignSubscript8positions5UInt8VSS5IndexV_tF
++ _$sSS8UTF8ViewVN
++ _$sSS9UTF16ViewV5index_8offsetBySS5IndexVAF_SitF
++ _$sSS9hasPrefixySbSSF
++ _$sSS9repeating5countS2S_SitcfC
++ _$sSSSHsWP
++ _$sSSSysMc
++ _$sSS_SitMR
++ _$sSS_SitMd
++ _$sSS_yptMR
++ _$sSS_yptMd
++ _$sSS_yptWOhTm
++ _$sSSySJSS5IndexVcig
++ _$sSSySsSnySS5IndexVGcig
++ _$sSa10FoundationE19_bridgeToObjectiveCSo7NSArrayCyF
++ _$sSa6remove2atxSi_tFSnySiG_Tgq5
++ _$sSaySDySSypGGMR
++ _$sSaySDySSypGGMd
++ _$sSaySSGMR
++ _$sSaySSGMd
++ _$sSbN
++ _$sSdN
++ _$sSiN
++ _$sSis23CustomStringConvertiblesWP
++ _$sSlsE5split9maxSplits25omittingEmptySubsequences14whereSeparatorSay11SubSequenceQzGSi_S2b7ElementQzKXEtKFSS_Tg5
++ _$sSlsSQ7ElementRpzrlE5split9separator9maxSplits25omittingEmptySubsequencesSay11SubSequenceQzGAB_SiSbtFSbABXEfU_SS_TG5TA
++ _$sSo12NSEnumeratorC10FoundationE12makeIteratorAC017NSFastEnumerationD0VyF
++ _$sSo12NSFileHandleC10FoundationE5write10contentsOfyx_tKAC12DataProtocolRzlF
++ _$sSo12NSFileHandleC12forWritingToAB10Foundation3URLV_tKcfCTO
++ _$sSo12NSFileHandleCML
++ _$sSo12NSFileHandleCMa
++ _$sSo13NSFileManagerC10FoundationE10enumerator2at26includingPropertiesForKeys7options12errorHandlerSo21NSDirectoryEnumeratorCSgAC3URLV_SaySo16NSURLResourceKeyaGSgSo0M18EnumerationOptionsVSbAM_s5Error_ptcSgtF
++ _$sSo20NSJSONReadingOptionsVSYSCSY8rawValue03RawD0QzvgTW
++ _$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACP6insertySb8inserted_7ElementQz17memberAfterInserttAHnFTW
++ _$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACPxycfCTW
++ _$sSo20NSJSONReadingOptionsVs9OptionSetSCsACP8rawValuex03RawF0Qz_tcfCTW
++ _$sSo8NSNumberCML
++ _$sSo8NSNumberCMa
++ _$sSr13_mergeTopRuns_6buffer2bySbSaySnySiGGz_SpyxGSbx_xtKXEtKF10Foundation3URLV_Tg5119$s29HomeEnergyDiagnosticExtension0B17SiteStoreRedactorO012insightCacheF4URLs2inSay10Foundation3URLVGAH_tFZSbAH_AHtXEfU_Tf1nncn_n
++ _$sSr15_stableSortImpl2byySbx_xtKXE_tKF10Foundation3URLV_Tg5119$s29HomeEnergyDiagnosticExtension0B17SiteStoreRedactorO012insightCacheF4URLs2inSay10Foundation3URLVGAH_tFZSbAH_AHtXEfU_Tf1cn_n
++ _$sSr15_stableSortImpl2byySbx_xtKXE_tKFySryxGz_SiztKXEfU_10Foundation3URLV_Tg5119$s29HomeEnergyDiagnosticExtension0B17SiteStoreRedactorO012insightCacheF4URLs2inSay10Foundation3URLVGAH_tFZSbAH_AHtXEfU_Tf1nnncn_n
++ _$sSsN
++ _$sSy10FoundationE20replacingOccurrences2of4with7options5rangeSSqd___qd_0_So22NSStringCompareOptionsVSnySS5IndexVGSgtSyRd__SyRd_0_r0_lF
++ _$sSy10FoundationE8containsySbqd__SyRd__lF
++ _$ss018_bridgeAnyObjectToB0yypyXlSgF
++ _$ss10_HashTableV12previousHole6beforeAB6BucketVAF_tF
++ _$ss11_SetStorageC8allocate8capacityAByxGSi_tFZ
++ _$ss11_SetStorageCMn
++ _$ss11_SetStorageCySSGMR
++ _$ss11_SetStorageCySSGMd
++ _$ss11_StringGutsV27_slowEnsureMatchingEncodingySS5IndexVAEF
++ _$ss11_StringGutsV8copyUTF84intoSiSgSrys5UInt8VG_tF
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10Foundation3URLV_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSDySSypG_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSnySiG_Tgq5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSs_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNewAByxGyFSnySiG_Tgq5
++ _$ss13_StringObjectV10sharedUTF8SRys5UInt8VGvg
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFSDySSypG_Tg5
++ _$ss15ContiguousArrayV28_allocateBufferUninitialized15minimumCapacitys01_abD0VyxGSi_tFZ
++ _$ss15_print_unlockedyyx_q_zts16TextOutputStreamR_r0_lF
++ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_ypTg5
++ _$ss17_NativeDictionaryV4copyyyFSS_ypTg5
++ _$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tFSS_ypTg5
++ _$ss17_NativeDictionaryV7_insert2at3key5valueys10_HashTableV6BucketV_xnq_ntFSS_ypTg5
++ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSS_ypTg5
++ _$ss18_DictionaryStorageC4copy8originalAByxq_Gs05__RawaB0C_tFZ
++ _$ss18_DictionaryStorageC6resize8original8capacity4moveAByxq_Gs05__RawaB0C_SiSbtFZ
++ _$ss18_DictionaryStorageC8allocate8capacityAByxq_GSi_tFZ
++ _$ss18_DictionaryStorageCMn
++ _$ss18_DictionaryStorageCySSSiGMR
++ _$ss18_DictionaryStorageCySSSiGMd
++ _$ss18_DictionaryStorageCySSypGMR
++ _$ss18_DictionaryStorageCySSypGMd
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10Foundation3URLV_Tg5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSDySSypG_Tg5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNewAByxGyF10Foundation3URLV_Tg5
++ _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5
++ _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5
++ _$ss22_minimumMergeRunLengthyS2iF
++ _$ss23_ContiguousArrayStorageCy10Foundation3URLVGMR
++ _$ss23_ContiguousArrayStorageCy10Foundation3URLVGMd
++ _$ss23_ContiguousArrayStorageCySDySSypGGMR
++ _$ss23_ContiguousArrayStorageCySDySSypGGMd
++ _$ss23_ContiguousArrayStorageCySSGMR
++ _$ss23_ContiguousArrayStorageCySSGMd
++ _$ss23_ContiguousArrayStorageCySS_SitGMR
++ _$ss23_ContiguousArrayStorageCySS_SitGMd
++ _$ss23_ContiguousArrayStorageCySS_yptGMR
++ _$ss23_ContiguousArrayStorageCySS_yptGMd
++ _$ss23_ContiguousArrayStorageCySnySiGGMR
++ _$ss23_ContiguousArrayStorageCySnySiGGMd
++ _$ss23_ContiguousArrayStorageCySsGMR
++ _$ss23_ContiguousArrayStorageCySsGMd
++ _$ss26DefaultStringInterpolationVN
++ _$ss26DefaultStringInterpolationVs16TextOutputStreamsWP
++ _$ss27_stringCompareWithSmolCheck__9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF
++ _$ss53KEY_TYPE_OF_DICTIONARY_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF
++ _$ss5ErrorMp
++ _$ss5Error_pMR
++ _$ss5Error_pMd
++ _$ss5Int32VN
++ _$ss5Int32Vs23CustomStringConvertiblesWP
++ _$ss6HasherV5_seedABSi_tcfC
++ _$ss6HasherV9_finalizeSiyF
++ _$ss6_merge3low3mid4high6buffer2bySbSpyxG_A3GSbx_xtKXEtKlF10Foundation3URLV_Tg5119$s29HomeEnergyDiagnosticExtension0B17SiteStoreRedactorO012insightCacheF4URLs2inSay10Foundation3URLVGAH_tFZSbAH_AHtXEfU_Tf1nnnnc_n
++ _$ss6_merge3low3mid4high6buffer2bySbSpyxG_A3GSbx_xtKXEtKlF6$deferL_yylF10Foundation3URLV_Tg5
++ _$sypN
++ _$sypSgMR
++ _$sypSgMd
++ _$sypWOb
++ _$sypWOc
++ _$sytWV
++ _OBJC_CLASS_$_NSFileHandle
++ _OBJC_CLASS_$_NSISO8601DateFormatter
++ _OBJC_CLASS_$_NSJSONSerialization
++ _OBJC_CLASS_$_NSNumber
++ _OBJC_CLASS_$_NSPropertyListSerialization
++ _OBJC_CLASS_$_NSUserDefaults
++ ___swift_allocate_boxed_opaque_existential_0
++ ___swift_assign_boxed_opaque_existential_0
++ ___swift_destroy_boxed_opaque_existential_0
++ ___swift_destroy_boxed_opaque_existential_0Tm
++ ___swift_project_boxed_opaque_existential_1
++ __swiftEmptyDictionarySingleton
++ __swift_FORCE_LOAD_$_swiftCoreLocation
++ __swift_FORCE_LOAD_$_swiftCoreLocation_$_HomeEnergyDiagnosticExtension
++ __swift_FORCE_LOAD_$_swiftos
++ __swift_FORCE_LOAD_$_swiftos_$_HomeEnergyDiagnosticExtension
++ __swift_stdlib_malloc_size
++ _bzero
++ _malloc_size
++ _memmove
++ _objc_enumerationMutation
++ _objc_msgSend$JSONObjectWithData:options:error:
++ _objc_msgSend$boolForKey:
++ _objc_msgSend$closeAndReturnError:
++ _objc_msgSend$copyItemAtURL:toURL:error:
++ _objc_msgSend$count
++ _objc_msgSend$countByEnumeratingWithState:objects:count:
++ _objc_msgSend$createFileAtPath:contents:attributes:
++ _objc_msgSend$dataWithJSONObject:options:error:
++ _objc_msgSend$dataWithPropertyList:format:options:error:
++ _objc_msgSend$fileHandleForWritingToURL:error:
++ _objc_msgSend$initWithSuiteName:
++ _objc_msgSend$removeItemAtURL:error:
++ _objc_msgSend$setFormatOptions:
++ _objc_msgSend$stringFromDate:
++ _objc_release
++ _objc_release_x25
++ _objc_release_x26
++ _objc_release_x27
++ _objc_release_x28
++ _objc_release_x8
++ _objc_retain
++ _objc_retain_x1
++ _objc_retain_x19
++ _objc_retain_x20
++ _objc_retain_x21
++ _objc_retain_x23
++ _objc_retain_x8
++ _sqlite3_close
++ _sqlite3_column_blob
++ _sqlite3_column_bytes
++ _sqlite3_column_count
++ _sqlite3_column_decltype
++ _sqlite3_column_double
++ _sqlite3_column_int64
++ _sqlite3_column_name
++ _sqlite3_column_text
++ _sqlite3_column_type
++ _sqlite3_errmsg
++ _sqlite3_finalize
++ _sqlite3_open_v2
++ _sqlite3_prepare_v2
++ _sqlite3_step
++ _swift_allocBox
++ _swift_arrayDestroy
++ _swift_arrayInitWithCopy
++ _swift_arrayInitWithTakeBackToFront
++ _swift_arrayInitWithTakeFrontToBack
++ _swift_bridgeObjectRetain
++ _swift_deallocClassInstance
++ _swift_dynamicCast
++ _swift_errorRetain
++ _swift_getObjCClassFromMetadata
++ _swift_getObjCClassMetadata
++ _swift_initStackObject
++ _swift_isUniquelyReferenced_nonNull_native
++ _swift_once
++ _swift_release
++ _swift_release_x21
++ _swift_release_x23
++ _swift_release_x24
++ _swift_retain
++ _swift_retain_x20
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x8
++ _swift_setDeallocating
++ _swift_unknownObjectRelease
++ _symbolic SDySSSiG
++ _symbolic SDySSypG
++ _symbolic SS3key_yp5valuet
++ _symbolic SS_Sit
++ _symbolic SS_ypt
++ _symbolic SaySDySSypGG
++ _symbolic SaySSG
++ _symbolic _____ 29HomeEnergyDiagnosticExtension0B15SitePayloadDumpO
++ _symbolic _____ 29HomeEnergyDiagnosticExtension0B17SiteStoreRedactorO
++ _symbolic _____ 29HomeEnergyDiagnosticExtension18InsightCacheDumperO
++ _symbolic _____Sg 10Foundation4DateV
++ _symbolic _____Sg 21InternalSwiftProtobuf07Google_C10_TimestampV
++ _symbolic ______p 10Foundation15ContiguousBytesP
++ _symbolic ______p s5ErrorP
++ _symbolic _____ySDySSypGG s23_ContiguousArrayStorageC
++ _symbolic _____ySSG s11_SetStorageC
++ _symbolic _____ySSG s23_ContiguousArrayStorageC
++ _symbolic _____ySSSiG s18_DictionaryStorageC
++ _symbolic _____ySS_SitG s23_ContiguousArrayStorageC
++ _symbolic _____ySS_yptG s23_ContiguousArrayStorageC
++ _symbolic _____ySSypG s18_DictionaryStorageC
++ _symbolic _____ySnySiGG s23_ContiguousArrayStorageC
++ _symbolic _____ySsG s23_ContiguousArrayStorageC
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation3URLV
++ _symbolic ypSg
+- _$s29HomeEnergyDiagnosticExtension20CoreDataStoreArchiveC04copyeF6Stores3url10Foundation3URLVSgAH_tFZ
+- _$s29HomeEnergyDiagnosticExtension20CoreDataStoreArchiveC04copyeF6Stores3url10Foundation3URLVSgAH_tFZTo
+CStrings:
++ ", not a staging directory"
++ "DiagnosticIncludeStores"
++ "EnergyKitStaging_"
++ "EnergySiteRecordsDump.plist"
++ "JSONObjectWithData:options:error:"
++ "PRAGMA quick_check"
++ "SELECT Z_PK, ZSITEID, ZZONENAME, ZCREATIONDATE, ZMETADATA\nFROM "
++ "SELECT name FROM sqlite_master\nWHERE type = 'table' AND name LIKE 'Z%' AND name NOT LIKE 'Z\\_%' ESCAPE '\\'\nORDER BY name"
++ "SELECT name FROM sqlite_master WHERE type = 'table' AND name = '"
++ "ZENERGYSITERECORDS"
++ "ZENERGYSITERECORDS is not present in this store"
++ "accessTokenExpirationDate"
++ "alternateSupplier"
++ "amiLastRefreshDate"
++ "attachments(forDirectoryURL:) DiagnosticIncludeStores is set, collecting stores verbatim"
++ "boolForKey:"
++ "closeAndReturnError:"
++ "com.apple.EnergyKit"
++ "coordinatesPresent"
++ "copyItemAtURL:toURL:error:"
++ "could not create "
++ "count"
++ "countByEnumeratingWithState:objects:count:"
++ "createFileAtPath:contents:attributes:"
++ "dataWithJSONObject:options:error:"
++ "dataWithPropertyList:format:options:error:"
++ "dump(inStagingDirectory:) found no InsightCache store in "
++ "dump(inStagingDirectory:) refused "
++ "dumpFormatVersion"
++ "fileHandleForWritingToURL:error:"
++ "generationMeters"
++ "hasExportedEnergy"
++ "includeRatePlanInGuidance"
++ "initWithSuiteName:"
++ "intervalBlockCustomIndexByteCount"
++ "intervalBlockNextRefreshDate"
++ "metadataByteCount"
++ "payloadDecodeError"
++ "prepare failed: "
++ "removeItemAtURL:error:"
++ "row could not be encoded as JSON"
++ "serviceLocationID"
++ "setFormatOptions:"
++ "sqlite3_open_v2 failed with status "
++ "stringFromDate:"
++ "subEqualsSubscriptionID"
++ "subscriptionCreationDate"
++ "subscriptionStartDate"
++ "subscriptionState"
++ "usagePointCustomIndexByteCount"
++ "usagePointNextRefreshDate"
++ "usageSummaryCustomIndexByteCount"
++ "usageSummaryNextRefreshDate"
++ "utilitySupportedCheckDate"
++ "write failed after "
++ "write(dump:to:) could not write the site records dump: "
+```

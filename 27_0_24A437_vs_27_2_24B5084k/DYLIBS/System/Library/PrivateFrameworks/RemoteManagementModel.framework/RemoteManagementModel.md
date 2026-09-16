@@ -1,0 +1,194 @@
+## RemoteManagementModel
+
+> `/System/Library/PrivateFrameworks/RemoteManagementModel.framework/RemoteManagementModel`
+
+```diff
+
+-624.2.3.0.0
+-  __TEXT.__text: 0x5493c
+-  __TEXT.__objc_methlist: 0x8394
++624.40.12.0.0
++  __TEXT.__text: 0x560e4
++  __TEXT.__objc_methlist: 0x8684
+   __TEXT.__const: 0x68
+-  __TEXT.__cstring: 0x4b75
++  __TEXT.__cstring: 0x4ba4
+   __TEXT.__oslogstring: 0x5dc
+-  __TEXT.__unwind_info: 0x1920
++  __TEXT.__unwind_info: 0x1998
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x878
+-  __DATA_CONST.__objc_classlist: 0x538
++  __DATA_CONST.__const: 0x890
++  __DATA_CONST.__objc_classlist: 0x558
+   __DATA_CONST.__objc_catlist: 0x10
+   __DATA_CONST.__objc_protolist: 0x28
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x22b8
+-  __DATA_CONST.__objc_superrefs: 0x430
++  __DATA_CONST.__objc_selrefs: 0x22c8
++  __DATA_CONST.__objc_superrefs: 0x450
+   __DATA_CONST.__objc_arraydata: 0x3220
+-  __DATA_CONST.__got: 0x608
++  __DATA_CONST.__got: 0x628
+   __AUTH_CONST.__const: 0xa80
+-  __AUTH_CONST.__cfstring: 0x7540
+-  __AUTH_CONST.__objc_const: 0xf008
++  __AUTH_CONST.__cfstring: 0x75e0
++  __AUTH_CONST.__objc_const: 0xf588
+   __AUTH_CONST.__objc_arrayobj: 0x4e00
+   __AUTH_CONST.__objc_intobj: 0x29d0
+   __AUTH_CONST.__auth_got: 0x1f0
+-  __AUTH.__objc_data: 0xa0
+-  __DATA.__objc_ivar: 0x8a8
++  __AUTH.__objc_data: 0x1e0
++  __DATA.__objc_ivar: 0x8e0
+   __DATA.__data: 0x1e0
+   __DATA_DIRTY.__objc_data: 0x3390
+   __DATA_DIRTY.__data: 0x10
+
+   - /System/Library/PrivateFrameworks/DMCUtilities.framework/DMCUtilities
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 2730
+-  Symbols:   5903
+-  CStrings:  998
++  Functions: 2790
++  Symbols:   6018
++  CStrings:  1003
+ 
+Symbols:
++ +[RMModelAccountCardDAVDeclaration buildWithIdentifier:visibleName:hostName:port:path:authenticationCredentialsAssetReference:VPNUUID:communicationServiceRules:]
++ +[RMModelAccountCardDAVDeclaration_CommunicationServiceRules allowedPayloadKeys]
++ +[RMModelAccountCardDAVDeclaration_CommunicationServiceRules buildRequiredOnly]
++ +[RMModelAccountCardDAVDeclaration_CommunicationServiceRules buildWithDefaultServiceHandlers:]
++ +[RMModelAccountCardDAVDeclaration_CommunicationServiceRulesDefaultServiceHandlers allowedPayloadKeys]
++ +[RMModelAccountCardDAVDeclaration_CommunicationServiceRulesDefaultServiceHandlers buildRequiredOnly]
++ +[RMModelAccountCardDAVDeclaration_CommunicationServiceRulesDefaultServiceHandlers buildWithAudioCall:]
++ +[RMModelAccountGoogleDeclaration buildWithIdentifier:visibleName:userIdentityAssetReference:VPNUUID:communicationServiceRules:]
++ +[RMModelAccountGoogleDeclaration_CommunicationServiceRules allowedPayloadKeys]
++ +[RMModelAccountGoogleDeclaration_CommunicationServiceRules buildRequiredOnly]
++ +[RMModelAccountGoogleDeclaration_CommunicationServiceRules buildWithDefaultServiceHandlers:]
++ +[RMModelAccountGoogleDeclaration_CommunicationServiceRulesDefaultServiceHandlers allowedPayloadKeys]
++ +[RMModelAccountGoogleDeclaration_CommunicationServiceRulesDefaultServiceHandlers buildRequiredOnly]
++ +[RMModelAccountGoogleDeclaration_CommunicationServiceRulesDefaultServiceHandlers buildWithAudioCall:]
++ +[RMModelAccountMailDeclaration buildWithIdentifier:visibleName:userIdentityAssetReference:incomingServer:outgoingServer:SMIME:allowMove:allowAppSheet:allowMailRecentsSyncing:enableMailDrop:VPNUUID:]
++ +[RMModelStatusAccountListExchange buildWithIdentifier:removed:declarationIdentifier:visibleName:protocolType:hostname:port:username:isMailEnabled:areCalendarsEnabled:areContactsEnabled:areNotesEnabled:areRemindersEnabled:]
++ -[RMModelAccountCardDAVDeclaration payloadCommunicationServiceRules]
++ -[RMModelAccountCardDAVDeclaration payloadVPNUUID]
++ -[RMModelAccountCardDAVDeclaration setPayloadCommunicationServiceRules:]
++ -[RMModelAccountCardDAVDeclaration setPayloadVPNUUID:]
++ -[RMModelAccountCardDAVDeclaration_CommunicationServiceRules .cxx_destruct]
++ -[RMModelAccountCardDAVDeclaration_CommunicationServiceRules copyWithZone:]
++ -[RMModelAccountCardDAVDeclaration_CommunicationServiceRules loadFromDictionary:serializationType:error:]
++ -[RMModelAccountCardDAVDeclaration_CommunicationServiceRules payloadDefaultServiceHandlers]
++ -[RMModelAccountCardDAVDeclaration_CommunicationServiceRules serializeWithType:]
++ -[RMModelAccountCardDAVDeclaration_CommunicationServiceRules setPayloadDefaultServiceHandlers:]
++ -[RMModelAccountCardDAVDeclaration_CommunicationServiceRulesDefaultServiceHandlers .cxx_destruct]
++ -[RMModelAccountCardDAVDeclaration_CommunicationServiceRulesDefaultServiceHandlers copyWithZone:]
++ -[RMModelAccountCardDAVDeclaration_CommunicationServiceRulesDefaultServiceHandlers loadFromDictionary:serializationType:error:]
++ -[RMModelAccountCardDAVDeclaration_CommunicationServiceRulesDefaultServiceHandlers payloadAudioCall]
++ -[RMModelAccountCardDAVDeclaration_CommunicationServiceRulesDefaultServiceHandlers serializeWithType:]
++ -[RMModelAccountCardDAVDeclaration_CommunicationServiceRulesDefaultServiceHandlers setPayloadAudioCall:]
++ -[RMModelAccountGoogleDeclaration payloadCommunicationServiceRules]
++ -[RMModelAccountGoogleDeclaration payloadVPNUUID]
++ -[RMModelAccountGoogleDeclaration setPayloadCommunicationServiceRules:]
++ -[RMModelAccountGoogleDeclaration setPayloadVPNUUID:]
++ -[RMModelAccountGoogleDeclaration_CommunicationServiceRules .cxx_destruct]
++ -[RMModelAccountGoogleDeclaration_CommunicationServiceRules copyWithZone:]
++ -[RMModelAccountGoogleDeclaration_CommunicationServiceRules loadFromDictionary:serializationType:error:]
++ -[RMModelAccountGoogleDeclaration_CommunicationServiceRules payloadDefaultServiceHandlers]
++ -[RMModelAccountGoogleDeclaration_CommunicationServiceRules serializeWithType:]
++ -[RMModelAccountGoogleDeclaration_CommunicationServiceRules setPayloadDefaultServiceHandlers:]
++ -[RMModelAccountGoogleDeclaration_CommunicationServiceRulesDefaultServiceHandlers .cxx_destruct]
++ -[RMModelAccountGoogleDeclaration_CommunicationServiceRulesDefaultServiceHandlers copyWithZone:]
++ -[RMModelAccountGoogleDeclaration_CommunicationServiceRulesDefaultServiceHandlers loadFromDictionary:serializationType:error:]
++ -[RMModelAccountGoogleDeclaration_CommunicationServiceRulesDefaultServiceHandlers payloadAudioCall]
++ -[RMModelAccountGoogleDeclaration_CommunicationServiceRulesDefaultServiceHandlers serializeWithType:]
++ -[RMModelAccountGoogleDeclaration_CommunicationServiceRulesDefaultServiceHandlers setPayloadAudioCall:]
++ -[RMModelAccountMailDeclaration payloadAllowAppSheet]
++ -[RMModelAccountMailDeclaration payloadAllowMailRecentsSyncing]
++ -[RMModelAccountMailDeclaration payloadAllowMove]
++ -[RMModelAccountMailDeclaration payloadEnableMailDrop]
++ -[RMModelAccountMailDeclaration payloadVPNUUID]
++ -[RMModelAccountMailDeclaration setPayloadAllowAppSheet:]
++ -[RMModelAccountMailDeclaration setPayloadAllowMailRecentsSyncing:]
++ -[RMModelAccountMailDeclaration setPayloadAllowMove:]
++ -[RMModelAccountMailDeclaration setPayloadEnableMailDrop:]
++ -[RMModelAccountMailDeclaration setPayloadVPNUUID:]
++ -[RMModelStatusAccountListExchange setStatusProtocolType:]
++ -[RMModelStatusAccountListExchange statusProtocolType]
++ _OBJC_CLASS_$_RMModelAccountCardDAVDeclaration_CommunicationServiceRules
++ _OBJC_CLASS_$_RMModelAccountCardDAVDeclaration_CommunicationServiceRulesDefaultServiceHandlers
++ _OBJC_CLASS_$_RMModelAccountGoogleDeclaration_CommunicationServiceRules
++ _OBJC_CLASS_$_RMModelAccountGoogleDeclaration_CommunicationServiceRulesDefaultServiceHandlers
++ _OBJC_IVAR_$_RMModelAccountCardDAVDeclaration._payloadCommunicationServiceRules
++ _OBJC_IVAR_$_RMModelAccountCardDAVDeclaration._payloadVPNUUID
++ _OBJC_IVAR_$_RMModelAccountCardDAVDeclaration_CommunicationServiceRules._payloadDefaultServiceHandlers
++ _OBJC_IVAR_$_RMModelAccountCardDAVDeclaration_CommunicationServiceRulesDefaultServiceHandlers._payloadAudioCall
++ _OBJC_IVAR_$_RMModelAccountGoogleDeclaration._payloadCommunicationServiceRules
++ _OBJC_IVAR_$_RMModelAccountGoogleDeclaration._payloadVPNUUID
++ _OBJC_IVAR_$_RMModelAccountGoogleDeclaration_CommunicationServiceRules._payloadDefaultServiceHandlers
++ _OBJC_IVAR_$_RMModelAccountGoogleDeclaration_CommunicationServiceRulesDefaultServiceHandlers._payloadAudioCall
++ _OBJC_IVAR_$_RMModelAccountMailDeclaration._payloadAllowAppSheet
++ _OBJC_IVAR_$_RMModelAccountMailDeclaration._payloadAllowMailRecentsSyncing
++ _OBJC_IVAR_$_RMModelAccountMailDeclaration._payloadAllowMove
++ _OBJC_IVAR_$_RMModelAccountMailDeclaration._payloadEnableMailDrop
++ _OBJC_IVAR_$_RMModelAccountMailDeclaration._payloadVPNUUID
++ _OBJC_IVAR_$_RMModelStatusAccountListExchange._statusProtocolType
++ _OBJC_METACLASS_$_RMModelAccountCardDAVDeclaration_CommunicationServiceRules
++ _OBJC_METACLASS_$_RMModelAccountCardDAVDeclaration_CommunicationServiceRulesDefaultServiceHandlers
++ _OBJC_METACLASS_$_RMModelAccountGoogleDeclaration_CommunicationServiceRules
++ _OBJC_METACLASS_$_RMModelAccountGoogleDeclaration_CommunicationServiceRulesDefaultServiceHandlers
++ _RMModelStatusAccountListExchange_ProtocolType_EAS
++ _RMModelStatusAccountListExchange_ProtocolType_EWS
++ _RMModelStatusAccountListExchange_ProtocolType_graph
++ __OBJC_$_CLASS_METHODS_RMModelAccountCardDAVDeclaration_CommunicationServiceRules
++ __OBJC_$_CLASS_METHODS_RMModelAccountCardDAVDeclaration_CommunicationServiceRulesDefaultServiceHandlers
++ __OBJC_$_CLASS_METHODS_RMModelAccountGoogleDeclaration_CommunicationServiceRules
++ __OBJC_$_CLASS_METHODS_RMModelAccountGoogleDeclaration_CommunicationServiceRulesDefaultServiceHandlers
++ __OBJC_$_CLASS_PROP_LIST_RMModelAccountCardDAVDeclaration_CommunicationServiceRules
++ __OBJC_$_CLASS_PROP_LIST_RMModelAccountCardDAVDeclaration_CommunicationServiceRulesDefaultServiceHandlers
++ __OBJC_$_CLASS_PROP_LIST_RMModelAccountGoogleDeclaration_CommunicationServiceRules
++ __OBJC_$_CLASS_PROP_LIST_RMModelAccountGoogleDeclaration_CommunicationServiceRulesDefaultServiceHandlers
++ __OBJC_$_INSTANCE_METHODS_RMModelAccountCardDAVDeclaration_CommunicationServiceRules
++ __OBJC_$_INSTANCE_METHODS_RMModelAccountCardDAVDeclaration_CommunicationServiceRulesDefaultServiceHandlers
++ __OBJC_$_INSTANCE_METHODS_RMModelAccountGoogleDeclaration_CommunicationServiceRules
++ __OBJC_$_INSTANCE_METHODS_RMModelAccountGoogleDeclaration_CommunicationServiceRulesDefaultServiceHandlers
++ __OBJC_$_INSTANCE_VARIABLES_RMModelAccountCardDAVDeclaration_CommunicationServiceRules
++ __OBJC_$_INSTANCE_VARIABLES_RMModelAccountCardDAVDeclaration_CommunicationServiceRulesDefaultServiceHandlers
++ __OBJC_$_INSTANCE_VARIABLES_RMModelAccountGoogleDeclaration_CommunicationServiceRules
++ __OBJC_$_INSTANCE_VARIABLES_RMModelAccountGoogleDeclaration_CommunicationServiceRulesDefaultServiceHandlers
++ __OBJC_$_PROP_LIST_RMModelAccountCardDAVDeclaration_CommunicationServiceRules
++ __OBJC_$_PROP_LIST_RMModelAccountCardDAVDeclaration_CommunicationServiceRulesDefaultServiceHandlers
++ __OBJC_$_PROP_LIST_RMModelAccountGoogleDeclaration_CommunicationServiceRules
++ __OBJC_$_PROP_LIST_RMModelAccountGoogleDeclaration_CommunicationServiceRulesDefaultServiceHandlers
++ __OBJC_CLASS_RO_$_RMModelAccountCardDAVDeclaration_CommunicationServiceRules
++ __OBJC_CLASS_RO_$_RMModelAccountCardDAVDeclaration_CommunicationServiceRulesDefaultServiceHandlers
++ __OBJC_CLASS_RO_$_RMModelAccountGoogleDeclaration_CommunicationServiceRules
++ __OBJC_CLASS_RO_$_RMModelAccountGoogleDeclaration_CommunicationServiceRulesDefaultServiceHandlers
++ __OBJC_METACLASS_RO_$_RMModelAccountCardDAVDeclaration_CommunicationServiceRules
++ __OBJC_METACLASS_RO_$_RMModelAccountCardDAVDeclaration_CommunicationServiceRulesDefaultServiceHandlers
++ __OBJC_METACLASS_RO_$_RMModelAccountGoogleDeclaration_CommunicationServiceRules
++ __OBJC_METACLASS_RO_$_RMModelAccountGoogleDeclaration_CommunicationServiceRulesDefaultServiceHandlers
++ ___60-[RMModelAccountGoogleDeclaration serializePayloadWithType:]_block_invoke
++ ___61-[RMModelAccountCardDAVDeclaration serializePayloadWithType:]_block_invoke
++ ___79-[RMModelAccountGoogleDeclaration_CommunicationServiceRules serializeWithType:]_block_invoke
++ ___80-[RMModelAccountCardDAVDeclaration_CommunicationServiceRules serializeWithType:]_block_invoke
++ _objc_msgSend$setStatusProtocolType:
++ _objc_msgSend$statusProtocolType
+- +[RMModelAccountCardDAVDeclaration buildWithIdentifier:visibleName:hostName:port:path:authenticationCredentialsAssetReference:]
+- +[RMModelAccountGoogleDeclaration buildWithIdentifier:visibleName:userIdentityAssetReference:]
+- +[RMModelAccountMailDeclaration buildWithIdentifier:visibleName:userIdentityAssetReference:incomingServer:outgoingServer:SMIME:]
+- +[RMModelStatusAccountListExchange buildWithIdentifier:removed:declarationIdentifier:visibleName:hostname:port:username:isMailEnabled:areCalendarsEnabled:areContactsEnabled:areNotesEnabled:areRemindersEnabled:]
+CStrings:
++ "EAS"
++ "EWS"
++ "Graph"
++ "protocol-type"
++ "statusProtocolType"
+```

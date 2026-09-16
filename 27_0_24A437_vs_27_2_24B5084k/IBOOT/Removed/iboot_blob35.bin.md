@@ -1,0 +1,22 @@
+## iboot_blob35.bin
+
+- `systask heartbeat time-out after %lld ms`
+- `smc/thermal/acsk/sensorInput.cpp`
+- `smc/thermal/cltm.cpp`
+- `ratchpad: read_bmss_region called with null PMU`
+- `smc/systemctl.cpp`
+- `smc/sys_mgmt.cpp`
+- `%s: %s:%d: %lld %s %lld`
+- `callback && list`
+- `idx < list_size`
+- `smc/stacks.cpp`
+- `smc/thermal/`
+- `smc/sys_task.cpp`
+- `smc/thermal/componentController/budgetInterfaceDriver.cpp`
+- `%s: %s:%d: %s, error: callback or list is NULL`
+- `%s: %s:%d: %s, error: registry is full`
+- `smc/thermal/componentController/basebandCC.cpp`
+- `Invalid baseband type %d`
+- `spmi status (err=0x%08x): id = 0x%02x, write at 0x%04x, len=%lu, retry=%u`
+- `%s: %s:%d: %s, Invalid CloakingCC cloakingMode  %d`
+- `systemctl: reboot (%d)`

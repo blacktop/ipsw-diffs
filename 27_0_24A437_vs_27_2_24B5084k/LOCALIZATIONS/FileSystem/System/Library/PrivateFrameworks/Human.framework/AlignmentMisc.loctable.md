@@ -1,0 +1,37 @@
+## Human
+
+> `FileSystem/System/Library/PrivateFrameworks/Human.framework/AlignmentMisc.loctable`
+
+```text
+en.alignment.alignmentTimeout.primary = "Let’s pause here"
+en.alignment.backBent.primary = "Keep your back straight."
+en.alignment.bothArmNot90Degree.primary = "Keep both elbows at a 90-degree angle."
+en.alignment.bothArmsLegsBent.primary = "Straighten both arms and legs."
+en.alignment.bothArmsNotOnFloor.variant2 = "Put both forearms on the floor."
+en.alignment.bothArmsNotStraightUp.primary = "Lift both arms up."
+en.alignment.bothLegsNotBent.primary = "Bend both legs."
+en.alignment.bothLegsTowardChest.primary = "Bring your legs toward your chest."
+en.alignment.bothShouldersLower.primary = "Lift both your shoulders."
+en.alignment.exit.primary = "exit"
+en.alignment.faceFront.variant1 = "Face the camera."
+en.alignment.faceFront.variant2 = "Turn your body towards the camera."
+en.alignment.headDown.primary = "Lift your head up."
+en.alignment.headUp.primary = "Lower your head down."
+en.alignment.hipsDown.variant1 = "Raise your hips until they’re in line with your shoulders."
+en.alignment.leftArmLegBent.primary = "Straighten your left arm and leg."
+en.alignment.leftArmNot90Degree.primary = "Keep your left elbow at a 90-degree angle."
+en.alignment.leftArmNotOnFloor.variant2 = "Put both forearms on the floor."
+en.alignment.leftElbowNotBelowShoulder.primary = "Lower your left elbow below your shoulder."
+en.alignment.leftFootNotAStepBack.default.variant1 = "Step back with your left foot."
+en.alignment.leftFootNotInFront.default.variant1 = "Step forward with your left foot."
+en.alignment.oneFootNotLifted.default.primary = "Lift your foot up behind you."
+en.alignment.rightArmLegBent.primary = "Straighten your right arm and leg."
+en.alignment.rightArmNot90Degree.primary = "Keep your right elbow at a 90-degree angle."
+en.alignment.rightArmNotOnFloor.variant2 = "Put both forearms on the floor."
+en.alignment.rightElbowNotBelowShoulder.primary = "Lower your right elbow below your shoulder."
+en.alignment.rightFootNotAStepBack.default.variant1 = "Step back with your right foot."
+en.alignment.rightFootNotInFront.default.variant1 = "Step forward with your right foot."
+en.alignment.rightFootOffFloor.standardPushup.variant1 = "Touch the floor with your right foot."
+en.alignment.staggerFeetShoulderWidth.primary = "Stagger your feet shoulder-width apart."
+en.alignment.start.primary = "You’re good to go!"
+```

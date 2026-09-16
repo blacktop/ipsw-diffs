@@ -1,0 +1,158 @@
+## AskToCore
+
+> `/System/Library/PrivateFrameworks/AskToCore.framework/AskToCore`
+
+```diff
+
+-96.0.0.0.0
+-  __TEXT.__text: 0x951ec
++97.125.4.0.0
++  __TEXT.__text: 0x9a1d8
+   __TEXT.__objc_methlist: 0xcec
+-  __TEXT.__const: 0x8928
+-  __TEXT.__swift5_typeref: 0x1f44
+-  __TEXT.__swift5_fieldmd: 0x24d8
+-  __TEXT.__constg_swiftt: 0x1f3c
+-  __TEXT.__swift5_builtin: 0xc8
+-  __TEXT.__swift5_reflstr: 0x1ecc
++  __TEXT.__const: 0x9738
++  __TEXT.__swift5_typeref: 0x2222
++  __TEXT.__swift5_fieldmd: 0x26e0
++  __TEXT.__constg_swiftt: 0x20f0
++  __TEXT.__swift5_builtin: 0xf0
++  __TEXT.__swift5_reflstr: 0x1fbc
+   __TEXT.__swift5_protos: 0x58
+-  __TEXT.__swift5_proto: 0x780
+-  __TEXT.__swift5_types: 0x274
+-  __TEXT.__cstring: 0x3503
++  __TEXT.__swift5_proto: 0x854
++  __TEXT.__swift5_types: 0x2a8
++  __TEXT.__cstring: 0x3583
+   __TEXT.__swift5_capture: 0x45c
+-  __TEXT.__swift5_assocty: 0x3d8
+-  __TEXT.__oslogstring: 0x243a
++  __TEXT.__swift5_assocty: 0x3f0
++  __TEXT.__oslogstring: 0x24da
+   __TEXT.__swift_as_entry: 0xd0
+   __TEXT.__swift_as_ret: 0xd0
++  __TEXT.__swift5_mpenum: 0x48
+   __TEXT.__swift_as_cont: 0x1ec
+-  __TEXT.__swift5_mpenum: 0x24
+-  __TEXT.__unwind_info: 0x3168
+-  __TEXT.__eh_frame: 0x3100
++  __TEXT.__unwind_info: 0x3388
++  __TEXT.__eh_frame: 0x3338
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_classlist: 0x108
+   __DATA_CONST.__objc_protolist: 0xa8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x768
++  __DATA_CONST.__objc_selrefs: 0x770
+   __DATA_CONST.__objc_protorefs: 0x70
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x5a40
++  __AUTH_CONST.__const: 0x6160
+   __AUTH_CONST.__objc_const: 0x2b88
+-  __AUTH_CONST.__auth_got: 0xe48
++  __AUTH_CONST.__auth_got: 0xe68
+   __AUTH.__objc_data: 0x548
+   __AUTH.__data: 0x2c0
+-  __DATA.__data: 0x1e00
++  __DATA.__data: 0x1fe0
+   __DATA.__common: 0x1a8
+   __DATA_DIRTY.__objc_data: 0xe28
+   __DATA_DIRTY.__data: 0x11a0
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 3584
+-  Symbols:   1511
+-  CStrings:  514
++  Functions: 3744
++  Symbols:   1583
++  CStrings:  519
+ 
+Symbols:
++ _OBJC_CLASS_$_NSJSONSerialization
++ _associated conformance 9AskToCore0aB17ViewExtensionFlowO04SendA10CodingKeys33_432D7C6662D9487B1F1C8499AADA5659LLOSHAASQ
++ _associated conformance 9AskToCore0aB17ViewExtensionFlowO04SendA10CodingKeys33_432D7C6662D9487B1F1C8499AADA5659LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 9AskToCore0aB17ViewExtensionFlowO04SendA10CodingKeys33_432D7C6662D9487B1F1C8499AADA5659LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9AskToCore0aB17ViewExtensionFlowO0aB17ApproveCodingKeys33_432D7C6662D9487B1F1C8499AADA5659LLOSHAASQ
++ _associated conformance 9AskToCore0aB17ViewExtensionFlowO0aB17ApproveCodingKeys33_432D7C6662D9487B1F1C8499AADA5659LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 9AskToCore0aB17ViewExtensionFlowO0aB17ApproveCodingKeys33_432D7C6662D9487B1F1C8499AADA5659LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9AskToCore0aB17ViewExtensionFlowO10CodingKeys33_432D7C6662D9487B1F1C8499AADA5659LLOSHAASQ
++ _associated conformance 9AskToCore0aB17ViewExtensionFlowO10CodingKeys33_432D7C6662D9487B1F1C8499AADA5659LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 9AskToCore0aB17ViewExtensionFlowO10CodingKeys33_432D7C6662D9487B1F1C8499AADA5659LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9AskToCore0aB17ViewExtensionFlowO25ApproveInPersonCodingKeys33_432D7C6662D9487B1F1C8499AADA5659LLOSHAASQ
++ _associated conformance 9AskToCore0aB17ViewExtensionFlowO25ApproveInPersonCodingKeys33_432D7C6662D9487B1F1C8499AADA5659LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 9AskToCore0aB17ViewExtensionFlowO25ApproveInPersonCodingKeys33_432D7C6662D9487B1F1C8499AADA5659LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9AskToCore0aB19ViewExtensionResultO0aB17ApproveCodingKeys33_B50BBA8416A81CFA0F69C3CCBA13390ELLOSHAASQ
++ _associated conformance 9AskToCore0aB19ViewExtensionResultO0aB17ApproveCodingKeys33_B50BBA8416A81CFA0F69C3CCBA13390ELLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 9AskToCore0aB19ViewExtensionResultO0aB17ApproveCodingKeys33_B50BBA8416A81CFA0F69C3CCBA13390ELLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9AskToCore0aB19ViewExtensionResultO10CodingKeys33_B50BBA8416A81CFA0F69C3CCBA13390ELLOSHAASQ
++ _associated conformance 9AskToCore0aB19ViewExtensionResultO10CodingKeys33_B50BBA8416A81CFA0F69C3CCBA13390ELLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 9AskToCore0aB19ViewExtensionResultO10CodingKeys33_B50BBA8416A81CFA0F69C3CCBA13390ELLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9AskToCore0aB19ViewExtensionResultO16CancelCodingKeys33_B50BBA8416A81CFA0F69C3CCBA13390ELLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 9AskToCore0aB19ViewExtensionResultO16CancelCodingKeys33_B50BBA8416A81CFA0F69C3CCBA13390ELLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9AskToCore0aB19ViewExtensionResultO25ApproveInPersonCodingKeys33_B50BBA8416A81CFA0F69C3CCBA13390ELLOSHAASQ
++ _associated conformance 9AskToCore0aB19ViewExtensionResultO25ApproveInPersonCodingKeys33_B50BBA8416A81CFA0F69C3CCBA13390ELLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 9AskToCore0aB19ViewExtensionResultO25ApproveInPersonCodingKeys33_B50BBA8416A81CFA0F69C3CCBA13390ELLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9AskToCore26AcknowledgmentAlertContentV10CodingKeys33_1B6FB6DD32F030EEB62C9D8A162B3880LLOSHAASQ
++ _associated conformance 9AskToCore26AcknowledgmentAlertContentV10CodingKeys33_1B6FB6DD32F030EEB62C9D8A162B3880LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 9AskToCore26AcknowledgmentAlertContentV10CodingKeys33_1B6FB6DD32F030EEB62C9D8A162B3880LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9AskToCore5ATURLO19MessagesLaunchErrorOSHAASQ
++ _associated conformance 9AskToCore5ATURLO19MessagesLaunchErrorOs12CaseIterableAA8AllCasessAFP_Sl
++ _get_enum_tag_for_layout_string 9AskToCore0aB17ViewExtensionFlowO
++ _objc_msgSend$dataWithJSONObject:options:error:
++ _symbolic SS_SSt
++ _symbolic Say_____G 9AskToCore5ATURLO19MessagesLaunchErrorO
++ _symbolic Sb7didSend_t
++ _symbolic Sb8approved_t
++ _symbolic _____ 9AskToCore0aB17ViewExtensionFlowO
++ _symbolic _____ 9AskToCore0aB17ViewExtensionFlowO04SendA10CodingKeys33_432D7C6662D9487B1F1C8499AADA5659LLO
++ _symbolic _____ 9AskToCore0aB17ViewExtensionFlowO0aB17ApproveCodingKeys33_432D7C6662D9487B1F1C8499AADA5659LLO
++ _symbolic _____ 9AskToCore0aB17ViewExtensionFlowO10CodingKeys33_432D7C6662D9487B1F1C8499AADA5659LLO
++ _symbolic _____ 9AskToCore0aB17ViewExtensionFlowO25ApproveInPersonCodingKeys33_432D7C6662D9487B1F1C8499AADA5659LLO
++ _symbolic _____ 9AskToCore0aB19ViewExtensionResultO
++ _symbolic _____ 9AskToCore0aB19ViewExtensionResultO0aB17ApproveCodingKeys33_B50BBA8416A81CFA0F69C3CCBA13390ELLO
++ _symbolic _____ 9AskToCore0aB19ViewExtensionResultO10CodingKeys33_B50BBA8416A81CFA0F69C3CCBA13390ELLO
++ _symbolic _____ 9AskToCore0aB19ViewExtensionResultO16CancelCodingKeys33_B50BBA8416A81CFA0F69C3CCBA13390ELLO
++ _symbolic _____ 9AskToCore0aB19ViewExtensionResultO25ApproveInPersonCodingKeys33_B50BBA8416A81CFA0F69C3CCBA13390ELLO
++ _symbolic _____ 9AskToCore26AcknowledgmentAlertContentV
++ _symbolic _____ 9AskToCore26AcknowledgmentAlertContentV10CodingKeys33_1B6FB6DD32F030EEB62C9D8A162B3880LLO
++ _symbolic _____ 9AskToCore5ATURLO19MessagesLaunchErrorO
++ _symbolic _____8question______Sg10clientInfot 5AskTo10ATQuestionC 0aB4Core13ClientPayloadC
++ _symbolic _____Sg26acknowledgmentAlertContent______8question_____Sg10clientInfot 9AskToCore26AcknowledgmentAlertContentV 0aB010ATQuestionC AA13ClientPayloadC
++ _symbolic _____yS2SG s18_DictionaryStorageC
++ _symbolic _____ySS_SStG s23_ContiguousArrayStorageC
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9AskToCore0dE17ViewExtensionFlowO04SendD10CodingKeys33_432D7C6662D9487B1F1C8499AADA5659LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9AskToCore0dE17ViewExtensionFlowO0dE17ApproveCodingKeys33_432D7C6662D9487B1F1C8499AADA5659LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9AskToCore0dE17ViewExtensionFlowO10CodingKeys33_432D7C6662D9487B1F1C8499AADA5659LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9AskToCore0dE17ViewExtensionFlowO25ApproveInPersonCodingKeys33_432D7C6662D9487B1F1C8499AADA5659LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9AskToCore0dE19ViewExtensionResultO0dE17ApproveCodingKeys33_B50BBA8416A81CFA0F69C3CCBA13390ELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9AskToCore0dE19ViewExtensionResultO10CodingKeys33_B50BBA8416A81CFA0F69C3CCBA13390ELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9AskToCore0dE19ViewExtensionResultO16CancelCodingKeys33_B50BBA8416A81CFA0F69C3CCBA13390ELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9AskToCore0dE19ViewExtensionResultO25ApproveInPersonCodingKeys33_B50BBA8416A81CFA0F69C3CCBA13390ELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9AskToCore26AcknowledgmentAlertContentV10CodingKeys33_1B6FB6DD32F030EEB62C9D8A162B3880LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9AskToCore0dE17ViewExtensionFlowO04SendD10CodingKeys33_432D7C6662D9487B1F1C8499AADA5659LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9AskToCore0dE17ViewExtensionFlowO0dE17ApproveCodingKeys33_432D7C6662D9487B1F1C8499AADA5659LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9AskToCore0dE17ViewExtensionFlowO10CodingKeys33_432D7C6662D9487B1F1C8499AADA5659LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9AskToCore0dE17ViewExtensionFlowO25ApproveInPersonCodingKeys33_432D7C6662D9487B1F1C8499AADA5659LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9AskToCore0dE19ViewExtensionResultO0dE17ApproveCodingKeys33_B50BBA8416A81CFA0F69C3CCBA13390ELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9AskToCore0dE19ViewExtensionResultO10CodingKeys33_B50BBA8416A81CFA0F69C3CCBA13390ELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9AskToCore0dE19ViewExtensionResultO16CancelCodingKeys33_B50BBA8416A81CFA0F69C3CCBA13390ELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9AskToCore0dE19ViewExtensionResultO25ApproveInPersonCodingKeys33_B50BBA8416A81CFA0F69C3CCBA13390ELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9AskToCore26AcknowledgmentAlertContentV10CodingKeys33_1B6FB6DD32F030EEB62C9D8A162B3880LLO
++ _type_layout_string 9AskToCore0aB17ViewExtensionFlowO
++ _type_layout_string 9AskToCore26AcknowledgmentAlertContentV
+CStrings:
++ "AskToCommunicateAlertBodyLocalizationKey"
++ "Outer launch URL reached the byte budget unstaged. Byte count: %ld"
++ "Outer launch URL still reached the byte budget after staging. Byte count: %ld"
++ "SignificantAppUpdateAlertBodyLocalizationKey"
++ "acknowledgmentAlertContent"
+```
