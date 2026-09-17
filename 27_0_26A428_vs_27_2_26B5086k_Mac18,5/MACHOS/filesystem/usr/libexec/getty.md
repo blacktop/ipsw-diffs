@@ -1,0 +1,16 @@
+## getty
+
+> `/usr/libexec/getty`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+
+```diff
+
+-1071.0.1.0.0
++1071.40.6.0.0
+   __TEXT.__text: 0x2d5c
+   __TEXT.__auth_stubs: 0x450
+   __TEXT.__const: 0x1d0
+```

@@ -1,0 +1,125 @@
+## GameCenterServerClient
+
+> `/System/Library/PrivateFrameworks/GameCenterServerClient.framework/Versions/A/GameCenterServerClient`
+
+```diff
+
+-821.0.25.0.0
+-  __TEXT.__text: 0xb5b50
+-  __TEXT.__const: 0x19848
+-  __TEXT.__swift5_typeref: 0x337e
++821.1.8.0.0
++  __TEXT.__text: 0xb93e0
++  __TEXT.__const: 0x19db8
++  __TEXT.__swift5_typeref: 0x3418
+   __TEXT.__cstring: 0x2316
+-  __TEXT.__swift5_reflstr: 0x145b
++  __TEXT.__swift5_reflstr: 0x1468
+   __TEXT.__swift5_assocty: 0xf30
+-  __TEXT.__swift5_fieldmd: 0x61d4
+-  __TEXT.__constg_swiftt: 0x2f74
++  __TEXT.__swift5_fieldmd: 0x638c
++  __TEXT.__constg_swiftt: 0x30a8
+   __TEXT.__swift5_protos: 0x4
+-  __TEXT.__swift5_proto: 0x1648
+-  __TEXT.__swift5_types: 0x668
++  __TEXT.__swift5_proto: 0x16a0
++  __TEXT.__swift5_types: 0x694
+   __TEXT.__swift_as_entry: 0x190
+   __TEXT.__swift_as_ret: 0x190
+   __TEXT.__swift_as_cont: 0x2ac
+-  __TEXT.__unwind_info: 0x6e00
+-  __TEXT.__eh_frame: 0x65f8
++  __TEXT.__unwind_info: 0x6f80
++  __TEXT.__eh_frame: 0x66c8
+   __TEXT.__auth_stubs: 0x0
+   __DATA_CONST.__const: 0x1c8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x12668
+-  __AUTH_CONST.__auth_got: 0x3c0
++  __AUTH_CONST.__const: 0x12be8
++  __AUTH_CONST.__auth_got: 0x3c8
+   __AUTH.__data: 0x1240
+-  __DATA.__data: 0x2b10
++  __DATA.__data: 0x2b68
+   __DATA_DIRTY.__data: 0x418
+   __DATA_DIRTY.__bss: 0xbd0
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  Functions: 12364
+-  Symbols:   3185
++  Functions: 12636
++  Symbols:   3238
+   CStrings:  332
+ 
+Symbols:
++ _OUTLINED_FUNCTION_1347
++ _OUTLINED_FUNCTION_1348
++ _OUTLINED_FUNCTION_1349
++ _OUTLINED_FUNCTION_1350
++ _OUTLINED_FUNCTION_1351
++ _OUTLINED_FUNCTION_1352
++ _OUTLINED_FUNCTION_1353
++ _OUTLINED_FUNCTION_1354
++ _OUTLINED_FUNCTION_1355
++ _OUTLINED_FUNCTION_1356
++ _OUTLINED_FUNCTION_1357
++ _OUTLINED_FUNCTION_1358
++ _OUTLINED_FUNCTION_1359
++ _OUTLINED_FUNCTION_1360
++ _OUTLINED_FUNCTION_1361
++ _OUTLINED_FUNCTION_1362
++ _OUTLINED_FUNCTION_1363
++ _OUTLINED_FUNCTION_1364
++ _OUTLINED_FUNCTION_1365
++ _OUTLINED_FUNCTION_1366
++ _OUTLINED_FUNCTION_1367
++ _OUTLINED_FUNCTION_1368
++ _OUTLINED_FUNCTION_1369
++ _OUTLINED_FUNCTION_1370
++ _OUTLINED_FUNCTION_1371
++ _OUTLINED_FUNCTION_1372
++ ___swift_memcpy274_8
++ ___swift_memcpy85_8
++ ___swift_memcpy96_8
++ __swift_get_extra_inhabitant_index.1961Tm
++ __swift_get_extra_inhabitant_index.2414Tm
++ __swift_store_extra_inhabitant_index.1962Tm
++ __swift_store_extra_inhabitant_index.2415Tm
++ _associated conformance 22GameCenterServerClient10OperationsO041PostWebObjectsGKGameStatsService_woaWaGetA12AchievementsO6OutputO2OkV7HeadersVSHAASQ
++ _associated conformance 22GameCenterServerClient10OperationsO50PostWebObjectsGKProfileService_woaWaGetProfileInfoO6OutputO2OkV7HeadersVSHAASQ
++ _associated conformance 22GameCenterServerClient10OperationsO53PostWebObjectsGKChallengeService_woaWaChallengeDetailO6OutputO2OkV7HeadersVSHAASQ
++ _associated conformance 22GameCenterServerClient10OperationsO53PostWebObjectsGKFriendService_woaWaGetFriendPlayerIdsO6OutputO2OkV7HeadersVSHAASQ
++ _associated conformance 22GameCenterServerClient10OperationsO53PostWebObjectsGKGameStatsService_woaWaGetLeaderboardsO6OutputO2OkV7HeadersVSHAASQ
++ _associated conformance 22GameCenterServerClient10OperationsO54PostWebObjectsGKChallengeService_woaWaChallengeSummaryO6OutputO2OkV7HeadersVSHAASQ
++ _associated conformance 22GameCenterServerClient10OperationsO59PostWebObjectsGKChallengeService_woaWaChallengeGetCompletedO6OutputO2OkV7HeadersVSHAASQ
++ _associated conformance 22GameCenterServerClient10OperationsO59PostWebObjectsGKGameStatsService_woaWaGetLeaderboardEntriesO6OutputO2OkV7HeadersVSHAASQ
++ _associated conformance 22GameCenterServerClient10OperationsO59PostWebObjectsGKGameStatsService_woaWaGetPlayerAchievementsO6OutputO2OkV7HeadersVSHAASQ
++ _associated conformance 22GameCenterServerClient10OperationsO62PostWebObjectsGKGameStatsService_woaWaGetLeaderboardCategoriesO6OutputO2OkV7HeadersVSHAASQ
++ _associated conformance 22GameCenterServerClient10OperationsO69PostWebObjectsGKGameStatsService_woaWaGetLeaderboardEntriesForPlayersO6OutputO2OkV7HeadersVSHAASQ
++ _symbolic _____ 22GameCenterServerClient10OperationsO041PostWebObjectsGKGameStatsService_woaWaGetA12AchievementsO6OutputO2OkV7HeadersV
++ _symbolic _____ 22GameCenterServerClient10OperationsO50PostWebObjectsGKProfileService_woaWaGetProfileInfoO6OutputO2OkV7HeadersV
++ _symbolic _____ 22GameCenterServerClient10OperationsO53PostWebObjectsGKChallengeService_woaWaChallengeDetailO6OutputO2OkV7HeadersV
++ _symbolic _____ 22GameCenterServerClient10OperationsO53PostWebObjectsGKFriendService_woaWaGetFriendPlayerIdsO6OutputO2OkV7HeadersV
++ _symbolic _____ 22GameCenterServerClient10OperationsO53PostWebObjectsGKGameStatsService_woaWaGetLeaderboardsO6OutputO2OkV7HeadersV
++ _symbolic _____ 22GameCenterServerClient10OperationsO54PostWebObjectsGKChallengeService_woaWaChallengeSummaryO6OutputO2OkV7HeadersV
++ _symbolic _____ 22GameCenterServerClient10OperationsO59PostWebObjectsGKChallengeService_woaWaChallengeGetCompletedO6OutputO2OkV7HeadersV
++ _symbolic _____ 22GameCenterServerClient10OperationsO59PostWebObjectsGKGameStatsService_woaWaGetLeaderboardEntriesO6OutputO2OkV7HeadersV
++ _symbolic _____ 22GameCenterServerClient10OperationsO59PostWebObjectsGKGameStatsService_woaWaGetPlayerAchievementsO6OutputO2OkV7HeadersV
++ _symbolic _____ 22GameCenterServerClient10OperationsO62PostWebObjectsGKGameStatsService_woaWaGetLeaderboardCategoriesO6OutputO2OkV7HeadersV
++ _symbolic _____ 22GameCenterServerClient10OperationsO69PostWebObjectsGKGameStatsService_woaWaGetLeaderboardEntriesForPlayersO6OutputO2OkV7HeadersV
++ _type_layout_string 22GameCenterServerClient10OperationsO53PostWebObjectsGKChallengeService_woaWaChallengeCreateO6OutputO2OkV
++ _type_layout_string 22GameCenterServerClient10OperationsO53PostWebObjectsGKChallengeService_woaWaChallengeCreateO6OutputO2OkV4BodyO
++ _type_layout_string 22GameCenterServerClient10OperationsO53PostWebObjectsGKFriendService_woaWaGetFriendPlayerIdsO6OutputO2OkV7HeadersV
++ _type_layout_string 22GameCenterServerClient10OperationsO62PostWebObjectsGKProfileService_woaWaGetSuggestedPlayerNicknameO6OutputO2OkV
+- __swift_get_extra_inhabitant_index.1956Tm
+- __swift_get_extra_inhabitant_index.2389Tm
+- __swift_store_extra_inhabitant_index.1957Tm
+- __swift_store_extra_inhabitant_index.2390Tm
+- _type_layout_string 22GameCenterServerClient10OperationsO53PostWebObjectsGKChallengeService_woaWaChallengeAcceptO6OutputO2OkV
+- _type_layout_string 22GameCenterServerClient10OperationsO53PostWebObjectsGKChallengeService_woaWaChallengeAcceptO6OutputO2OkV4BodyO
+```

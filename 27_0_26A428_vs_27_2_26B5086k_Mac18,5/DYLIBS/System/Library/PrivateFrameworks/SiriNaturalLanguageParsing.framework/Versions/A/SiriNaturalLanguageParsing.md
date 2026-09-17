@@ -1,0 +1,749 @@
+## SiriNaturalLanguageParsing
+
+> `/System/Library/PrivateFrameworks/SiriNaturalLanguageParsing.framework/Versions/A/SiriNaturalLanguageParsing`
+
+```diff
+
+-3600.7.10.0.0
+-  __TEXT.__text: 0x149e6c
++3605.12.1.0.0
++  __TEXT.__text: 0x14ac7c
+   __TEXT.__init_offsets: 0x168
+   __TEXT.__objc_methlist: 0x95c
+-  __TEXT.__const: 0x8e1c
+-  __TEXT.__cstring: 0xbeff
+-  __TEXT.__gcc_except_tab: 0x1363c
+-  __TEXT.__oslogstring: 0x97ba
++  __TEXT.__const: 0x8e24
++  __TEXT.__cstring: 0xc3af
++  __TEXT.__gcc_except_tab: 0x1371c
++  __TEXT.__oslogstring: 0x983a
+   __TEXT.__ustring: 0xd8
+-  __TEXT.__unwind_info: 0x77a8
++  __TEXT.__unwind_info: 0x77c8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x6e0
++  __DATA_CONST.__const: 0xa38
+   __DATA_CONST.__objc_classlist: 0xb0
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__weak_got: 0x30
+
+   __DATA_CONST.__objc_superrefs: 0x88
+   __DATA_CONST.__got: 0x458
+   __AUTH_CONST.__const: 0x7388
+-  __AUTH_CONST.__cfstring: 0x1860
++  __AUTH_CONST.__cfstring: 0x1880
+   __AUTH_CONST.__objc_const: 0x1430
+   __AUTH_CONST.__weak_auth_got: 0x40
+-  __AUTH_CONST.__auth_got: 0x1368
++  __AUTH_CONST.__auth_got: 0x1370
+   __AUTH.__objc_data: 0x6e0
+   __AUTH.__data: 0x118
+   __AUTH.__thread_vars: 0x48
+
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libmorphun.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 4903
+-  Symbols:   9265
+-  CStrings:  2057
++  Functions: 4907
++  Symbols:   9270
++  CStrings:  2123
+ 
+Symbols:
++ GCC_except_table110
++ GCC_except_table121
++ GCC_except_table123
++ GCC_except_table125
++ GCC_except_table163
++ GCC_except_table169
++ GCC_except_table182
++ GCC_except_table2332
++ GCC_except_table2336
++ GCC_except_table2337
++ GCC_except_table2340
++ GCC_except_table2341
++ GCC_except_table2347
++ GCC_except_table2350
++ GCC_except_table2358
++ GCC_except_table2365
++ GCC_except_table2366
++ GCC_except_table2376
++ GCC_except_table2377
++ GCC_except_table2393
++ GCC_except_table2394
++ GCC_except_table2397
++ GCC_except_table2398
++ GCC_except_table2403
++ GCC_except_table2409
++ GCC_except_table2412
++ GCC_except_table2415
++ GCC_except_table2423
++ GCC_except_table2426
++ GCC_except_table2433
++ GCC_except_table2438
++ GCC_except_table2441
++ GCC_except_table2444
++ GCC_except_table2455
++ GCC_except_table2456
++ GCC_except_table2465
++ GCC_except_table2471
++ GCC_except_table2475
++ GCC_except_table2476
++ GCC_except_table2484
++ GCC_except_table2488
++ GCC_except_table2498
++ GCC_except_table2503
++ GCC_except_table2504
++ GCC_except_table2510
++ GCC_except_table2514
++ GCC_except_table2520
++ GCC_except_table2521
++ GCC_except_table2527
++ GCC_except_table2541
++ GCC_except_table2544
++ GCC_except_table2545
++ GCC_except_table2553
++ GCC_except_table2554
++ GCC_except_table2563
++ GCC_except_table2564
++ GCC_except_table2568
++ GCC_except_table2571
++ GCC_except_table2572
++ GCC_except_table2577
++ GCC_except_table2582
++ GCC_except_table2583
++ GCC_except_table2588
++ GCC_except_table2594
++ GCC_except_table2599
++ GCC_except_table2603
++ GCC_except_table2606
++ GCC_except_table2610
++ GCC_except_table2611
++ GCC_except_table2619
++ GCC_except_table2625
++ GCC_except_table2630
++ GCC_except_table2631
++ GCC_except_table2635
++ GCC_except_table2641
++ GCC_except_table2650
++ GCC_except_table2651
++ GCC_except_table2659
++ GCC_except_table2664
++ GCC_except_table2681
++ GCC_except_table2685
++ GCC_except_table2686
++ GCC_except_table2691
++ GCC_except_table2695
++ GCC_except_table2698
++ GCC_except_table2706
++ GCC_except_table2709
++ GCC_except_table2722
++ GCC_except_table2723
++ GCC_except_table2732
++ GCC_except_table2735
++ GCC_except_table2736
++ GCC_except_table2739
++ GCC_except_table2744
++ GCC_except_table2753
++ GCC_except_table2754
++ GCC_except_table2758
++ GCC_except_table2759
++ GCC_except_table2764
++ GCC_except_table2767
++ GCC_except_table2771
++ GCC_except_table2772
++ GCC_except_table2790
++ GCC_except_table2802
++ GCC_except_table2803
++ GCC_except_table2806
++ GCC_except_table2807
++ GCC_except_table2817
++ GCC_except_table2818
++ GCC_except_table2824
++ GCC_except_table2825
++ GCC_except_table2828
++ GCC_except_table2838
++ GCC_except_table2839
++ GCC_except_table2842
++ GCC_except_table2849
++ GCC_except_table2850
++ GCC_except_table2856
++ GCC_except_table2857
++ GCC_except_table2869
++ GCC_except_table2870
++ GCC_except_table2879
++ GCC_except_table2883
++ GCC_except_table2890
++ GCC_except_table2893
++ GCC_except_table2900
++ GCC_except_table2903
++ GCC_except_table2908
++ GCC_except_table2909
++ GCC_except_table2914
++ GCC_except_table2917
++ GCC_except_table2922
++ GCC_except_table2932
++ GCC_except_table2945
++ GCC_except_table2946
++ GCC_except_table2957
++ GCC_except_table2958
++ GCC_except_table2961
++ GCC_except_table2962
++ GCC_except_table2965
++ GCC_except_table2969
++ GCC_except_table2978
++ GCC_except_table2979
++ GCC_except_table2982
++ GCC_except_table2999
++ GCC_except_table3002
++ GCC_except_table3007
++ GCC_except_table3015
++ GCC_except_table3026
++ GCC_except_table3027
++ GCC_except_table3032
++ GCC_except_table3038
++ GCC_except_table3041
++ GCC_except_table3044
++ GCC_except_table3050
++ GCC_except_table3054
++ GCC_except_table3055
++ GCC_except_table3059
++ GCC_except_table3067
++ GCC_except_table3070
++ GCC_except_table3081
++ GCC_except_table3082
++ GCC_except_table3089
++ GCC_except_table3092
++ GCC_except_table3095
++ GCC_except_table3103
++ GCC_except_table3104
++ GCC_except_table3120
++ GCC_except_table3121
++ GCC_except_table3129
++ GCC_except_table3155
++ GCC_except_table3168
++ GCC_except_table3169
++ GCC_except_table3174
++ GCC_except_table3177
++ GCC_except_table3185
++ GCC_except_table3191
++ GCC_except_table3215
++ GCC_except_table3216
++ GCC_except_table3225
++ GCC_except_table3230
++ GCC_except_table3233
++ GCC_except_table3237
++ GCC_except_table3280
++ GCC_except_table3287
++ GCC_except_table3294
++ GCC_except_table3295
++ GCC_except_table3302
++ GCC_except_table3313
++ GCC_except_table3330
++ GCC_except_table3337
++ GCC_except_table3344
++ GCC_except_table3345
++ GCC_except_table3352
++ GCC_except_table3353
++ GCC_except_table3362
++ GCC_except_table3368
++ GCC_except_table3377
++ GCC_except_table3384
++ GCC_except_table3390
++ GCC_except_table3395
++ GCC_except_table3402
++ GCC_except_table3408
++ GCC_except_table3413
++ GCC_except_table3422
++ GCC_except_table3431
++ GCC_except_table3438
++ GCC_except_table3445
++ GCC_except_table3452
++ GCC_except_table3459
++ GCC_except_table3476
++ GCC_except_table3483
++ GCC_except_table3490
++ GCC_except_table3497
++ GCC_except_table3504
++ GCC_except_table3521
++ GCC_except_table3530
++ GCC_except_table3537
++ GCC_except_table3540
++ GCC_except_table3541
++ GCC_except_table3580
++ GCC_except_table3586
++ GCC_except_table3589
++ GCC_except_table3603
++ GCC_except_table3604
++ GCC_except_table3614
++ GCC_except_table3617
++ GCC_except_table3618
++ GCC_except_table3624
++ GCC_except_table3625
++ GCC_except_table3629
++ GCC_except_table3630
++ GCC_except_table3633
++ GCC_except_table3634
++ GCC_except_table3637
++ GCC_except_table3640
++ GCC_except_table3643
++ GCC_except_table3648
++ GCC_except_table3649
++ GCC_except_table3652
++ GCC_except_table3661
++ GCC_except_table3664
++ GCC_except_table3665
++ GCC_except_table3673
++ GCC_except_table3680
++ GCC_except_table3681
++ GCC_except_table3694
++ GCC_except_table3695
++ GCC_except_table3709
++ GCC_except_table3718
++ GCC_except_table3719
++ GCC_except_table3729
++ GCC_except_table3734
++ GCC_except_table3735
++ GCC_except_table3742
++ GCC_except_table3743
++ GCC_except_table3752
++ GCC_except_table3756
++ GCC_except_table3768
++ GCC_except_table3771
++ GCC_except_table3778
++ GCC_except_table3789
++ GCC_except_table3790
++ GCC_except_table3799
++ GCC_except_table3810
++ GCC_except_table3817
++ GCC_except_table3818
++ GCC_except_table3821
++ GCC_except_table3822
++ GCC_except_table3826
++ GCC_except_table3827
++ __ZN27nlv4_inference_orchestrator5trees19buildUserDialogActsERKNS0_8TreeNodeENSt3__110shared_ptrIN4siri8ontology15UsoVocabManagerEEEbRKNS4_6vectorIN15sirinluinternal12MatchingSpanENS4_9allocatorISC_EEEE
++ __ZN4siri2nl4span12datadetector4type15kCalendarSystemE
++ __ZN4siri8ontology5oname5graph13ontology_init27common_TimeUnit_BusinessDayEv
++ __ZN4uaap12_GLOBAL__N_129kCalendarSensitiveSpecialDaysE
++ __ZN4uaap29isCalendarSensitiveSpecialDayERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
++ __ZN4uaap32remapSpecialDayForCalendarSystemERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEES8_
++ __ZN5Darts15DoubleArrayImplIvvivE10copy_arrayEPKvm
++ __ZNK27nlv4_inference_orchestrator13orchestration25NLv4InferenceOrchestrator14logModelOutputERKNS_5trees8TreeNodeERKNSt3__16vectorINS6_12basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEENSB_ISD_EEEEmb
++ __ZNK27nlv4_inference_orchestrator5trees15UsoGraphBuilder25buildUsoGraphFromTreeNodeERKNS0_8TreeNodeENSt3__110shared_ptrIN4siri8ontology15UsoVocabManagerEEEbRKNS5_6vectorIN15sirinluinternal12MatchingSpanENS5_9allocatorISD_EEEE
++ __ZNK5Darts15DoubleArrayImplIvvivE8validateEi
++ __ZNKSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEiEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEiEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEiEE7__cloneEPNS0_6__baseISH_EE
++ __ZNKSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEiEE7__cloneEv
++ __ZNKSt3__18functionIFvNS_17basic_string_viewIcNS_11char_traitsIcEEEEPNS_6vectorINS_4pairIS4_iEENS_9allocatorIS7_EEEEiEEclES4_SB_i
++ __ZNSt3__110__function12__value_funcIFvNS_17basic_string_viewIcNS_11char_traitsIcEEEEPNS_6vectorINS_4pairIS5_iEENS_9allocatorIS8_EEEEiEE4swapB9nqe220106ERSE_
++ __ZNSt3__110__function12__value_funcIFvNS_17basic_string_viewIcNS_11char_traitsIcEEEEPNS_6vectorINS_4pairIS5_iEENS_9allocatorIS8_EEEEiEED2B9nqe220106Ev
++ __ZNSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEiEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEiEE7destroyEv
++ __ZNSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEiEED0Ev
++ __ZNSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEiEED1Ev
++ __ZNSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEiEEclEOS8_OSG_Oi
++ __ZTINSt3__110__function6__baseIFvNS_17basic_string_viewIcNS_11char_traitsIcEEEEPNS_6vectorINS_4pairIS5_iEENS_9allocatorIS8_EEEEiEEE
++ __ZTINSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEiEEE
++ __ZTSNSt3__110__function6__baseIFvNS_17basic_string_viewIcNS_11char_traitsIcEEEEPNS_6vectorINS_4pairIS5_iEENS_9allocatorIS8_EEEEiEEE
++ __ZTSNSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEiEEE
++ __ZTVNSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEiEEE
++ __ZZN4snlp6common7logging26requiresUtteranceRedactionEPKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEE28kRedactedUtteranceRequesters
+- GCC_except_table109
+- GCC_except_table118
+- GCC_except_table120
+- GCC_except_table122
+- GCC_except_table124
+- GCC_except_table128
+- GCC_except_table146
+- GCC_except_table164
+- GCC_except_table166
+- GCC_except_table181
+- GCC_except_table188
+- GCC_except_table2334
+- GCC_except_table2335
+- GCC_except_table2338
+- GCC_except_table2339
+- GCC_except_table2345
+- GCC_except_table2348
+- GCC_except_table2356
+- GCC_except_table2362
+- GCC_except_table2363
+- GCC_except_table2367
+- GCC_except_table2372
+- GCC_except_table2382
+- GCC_except_table2383
+- GCC_except_table2395
+- GCC_except_table2396
+- GCC_except_table2401
+- GCC_except_table2402
+- GCC_except_table2405
+- GCC_except_table2413
+- GCC_except_table2421
+- GCC_except_table2422
+- GCC_except_table2425
+- GCC_except_table2436
+- GCC_except_table2439
+- GCC_except_table2442
+- GCC_except_table2452
+- GCC_except_table2453
+- GCC_except_table2461
+- GCC_except_table2469
+- GCC_except_table2473
+- GCC_except_table2474
+- GCC_except_table2482
+- GCC_except_table2486
+- GCC_except_table2494
+- GCC_except_table2500
+- GCC_except_table2501
+- GCC_except_table2508
+- GCC_except_table2512
+- GCC_except_table2518
+- GCC_except_table2519
+- GCC_except_table2523
+- GCC_except_table2538
+- GCC_except_table2539
+- GCC_except_table2543
+- GCC_except_table2547
+- GCC_except_table2548
+- GCC_except_table2559
+- GCC_except_table2560
+- GCC_except_table2565
+- GCC_except_table2566
+- GCC_except_table2570
+- GCC_except_table2575
+- GCC_except_table2578
+- GCC_except_table2579
+- GCC_except_table2586
+- GCC_except_table2592
+- GCC_except_table2597
+- GCC_except_table2601
+- GCC_except_table2604
+- GCC_except_table2608
+- GCC_except_table2609
+- GCC_except_table2617
+- GCC_except_table2623
+- GCC_except_table2626
+- GCC_except_table2629
+- GCC_except_table2633
+- GCC_except_table2639
+- GCC_except_table2643
+- GCC_except_table2646
+- GCC_except_table2657
+- GCC_except_table2658
+- GCC_except_table2667
+- GCC_except_table2668
+- GCC_except_table2683
+- GCC_except_table2689
+- GCC_except_table2693
+- GCC_except_table2696
+- GCC_except_table2704
+- GCC_except_table2707
+- GCC_except_table2719
+- GCC_except_table2720
+- GCC_except_table2725
+- GCC_except_table2728
+- GCC_except_table2734
+- GCC_except_table2737
+- GCC_except_table2742
+- GCC_except_table2745
+- GCC_except_table2746
+- GCC_except_table2756
+- GCC_except_table2757
+- GCC_except_table2760
+- GCC_except_table2761
+- GCC_except_table2768
+- GCC_except_table2769
+- GCC_except_table2780
+- GCC_except_table2789
+- GCC_except_table2792
+- GCC_except_table2804
+- GCC_except_table2805
+- GCC_except_table2812
+- GCC_except_table2815
+- GCC_except_table2820
+- GCC_except_table2821
+- GCC_except_table2826
+- GCC_except_table2827
+- GCC_except_table2830
+- GCC_except_table2840
+- GCC_except_table2845
+- GCC_except_table2846
+- GCC_except_table2852
+- GCC_except_table2853
+- GCC_except_table2865
+- GCC_except_table2866
+- GCC_except_table2875
+- GCC_except_table2881
+- GCC_except_table2888
+- GCC_except_table2889
+- GCC_except_table2897
+- GCC_except_table2898
+- GCC_except_table2904
+- GCC_except_table2907
+- GCC_except_table2910
+- GCC_except_table2913
+- GCC_except_table2916
+- GCC_except_table2930
+- GCC_except_table2942
+- GCC_except_table2943
+- GCC_except_table2949
+- GCC_except_table2954
+- GCC_except_table2959
+- GCC_except_table2960
+- GCC_except_table2963
+- GCC_except_table2967
+- GCC_except_table2971
+- GCC_except_table2974
+- GCC_except_table2980
+- GCC_except_table2995
+- GCC_except_table2996
+- GCC_except_table3003
+- GCC_except_table3013
+- GCC_except_table3023
+- GCC_except_table3024
+- GCC_except_table3030
+- GCC_except_table3036
+- GCC_except_table3037
+- GCC_except_table3040
+- GCC_except_table3045
+- GCC_except_table3046
+- GCC_except_table3052
+- GCC_except_table3057
+- GCC_except_table3065
+- GCC_except_table3068
+- GCC_except_table3075
+- GCC_except_table3076
+- GCC_except_table3085
+- GCC_except_table3090
+- GCC_except_table3091
+- GCC_except_table3096
+- GCC_except_table3097
+- GCC_except_table3114
+- GCC_except_table3115
+- GCC_except_table3125
+- GCC_except_table3153
+- GCC_except_table3162
+- GCC_except_table3165
+- GCC_except_table3172
+- GCC_except_table3173
+- GCC_except_table3183
+- GCC_except_table3189
+- GCC_except_table3213
+- GCC_except_table3214
+- GCC_except_table3220
+- GCC_except_table3221
+- GCC_except_table3227
+- GCC_except_table3235
+- GCC_except_table3278
+- GCC_except_table3285
+- GCC_except_table3292
+- GCC_except_table3293
+- GCC_except_table3300
+- GCC_except_table3311
+- GCC_except_table3328
+- GCC_except_table3335
+- GCC_except_table3342
+- GCC_except_table3343
+- GCC_except_table3350
+- GCC_except_table3351
+- GCC_except_table3360
+- GCC_except_table3366
+- GCC_except_table3375
+- GCC_except_table3382
+- GCC_except_table3388
+- GCC_except_table3393
+- GCC_except_table3400
+- GCC_except_table3406
+- GCC_except_table3411
+- GCC_except_table3420
+- GCC_except_table3429
+- GCC_except_table3436
+- GCC_except_table3443
+- GCC_except_table3450
+- GCC_except_table3457
+- GCC_except_table3474
+- GCC_except_table3481
+- GCC_except_table3488
+- GCC_except_table3495
+- GCC_except_table3502
+- GCC_except_table3519
+- GCC_except_table3528
+- GCC_except_table3535
+- GCC_except_table3538
+- GCC_except_table3539
+- GCC_except_table3578
+- GCC_except_table3584
+- GCC_except_table3587
+- GCC_except_table3591
+- GCC_except_table3592
+- GCC_except_table3612
+- GCC_except_table3613
+- GCC_except_table3616
+- GCC_except_table3619
+- GCC_except_table3620
+- GCC_except_table3627
+- GCC_except_table3628
+- GCC_except_table3631
+- GCC_except_table3632
+- GCC_except_table3635
+- GCC_except_table3638
+- GCC_except_table3641
+- GCC_except_table3646
+- GCC_except_table3647
+- GCC_except_table3650
+- GCC_except_table3659
+- GCC_except_table3662
+- GCC_except_table3663
+- GCC_except_table3666
+- GCC_except_table3667
+- GCC_except_table3677
+- GCC_except_table3692
+- GCC_except_table3693
+- GCC_except_table3707
+- GCC_except_table3715
+- GCC_except_table3716
+- GCC_except_table3727
+- GCC_except_table3730
+- GCC_except_table3731
+- GCC_except_table3736
+- GCC_except_table3737
+- GCC_except_table3750
+- GCC_except_table3754
+- GCC_except_table3758
+- GCC_except_table3763
+- GCC_except_table3776
+- GCC_except_table3785
+- GCC_except_table3786
+- GCC_except_table3797
+- GCC_except_table3808
+- GCC_except_table3809
+- GCC_except_table3816
+- GCC_except_table3819
+- GCC_except_table3820
+- GCC_except_table3824
+- GCC_except_table3825
+- __ZN27nlv4_inference_orchestrator5trees19buildUserDialogActsERKNS0_8TreeNodeENSt3__110shared_ptrIN4siri8ontology15UsoVocabManagerEEERKNS4_6vectorIN15sirinluinternal12MatchingSpanENS4_9allocatorISC_EEEE
+- __ZNK27nlv4_inference_orchestrator13orchestration25NLv4InferenceOrchestrator14logModelOutputERKNS_5trees8TreeNodeERKNSt3__16vectorINS6_12basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEENSB_ISD_EEEEm
+- __ZNK27nlv4_inference_orchestrator5trees15UsoGraphBuilder25buildUsoGraphFromTreeNodeERKNS0_8TreeNodeENSt3__110shared_ptrIN4siri8ontology15UsoVocabManagerEEERKNS5_6vectorIN15sirinluinternal12MatchingSpanENS5_9allocatorISD_EEEE
+- __ZNKSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEEE7__cloneEPNS0_6__baseISH_EE
+- __ZNKSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEEE7__cloneEv
+- __ZNKSt3__18functionIFvNS_17basic_string_viewIcNS_11char_traitsIcEEEEPNS_6vectorINS_4pairIS4_iEENS_9allocatorIS7_EEEEEEclES4_SB_
+- __ZNSt3__110__function12__value_funcIFvNS_17basic_string_viewIcNS_11char_traitsIcEEEEPNS_6vectorINS_4pairIS5_iEENS_9allocatorIS8_EEEEEE4swapB9nqe220106ERSE_
+- __ZNSt3__110__function12__value_funcIFvNS_17basic_string_viewIcNS_11char_traitsIcEEEEPNS_6vectorINS_4pairIS5_iEENS_9allocatorIS8_EEEEEED2B9nqe220106Ev
+- __ZNSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEEE7destroyEv
+- __ZNSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEEED0Ev
+- __ZNSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEEED1Ev
+- __ZNSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEEEclEOS8_OSG_
+- __ZTINSt3__110__function6__baseIFvNS_17basic_string_viewIcNS_11char_traitsIcEEEEPNS_6vectorINS_4pairIS5_iEENS_9allocatorIS8_EEEEEEE
+- __ZTINSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEEEE
+- __ZTSNSt3__110__function6__baseIFvNS_17basic_string_viewIcNS_11char_traitsIcEEEEPNS_6vectorINS_4pairIS5_iEENS_9allocatorIS8_EEEEEEE
+- __ZTSNSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEEEE
+- __ZTVNSt3__110__function6__funcIZNK13sentencepiece3bpe5Model12SampleEncodeENS_17basic_string_viewIcNS_11char_traitsIcEEEEfE3$_0FvS8_PNS_6vectorINS_4pairIS8_iEENS_9allocatorISC_EEEEEEE
+CStrings:
++ "!pieces_blob.empty()"
++ "(piece_offsets_[i]) < (pieces_blob.size())"
++ "(pieces_blob.back()) == ('\\0')"
++ "(unk_id_) < (GetPieceSize())"
++ "(unk_id_) >= (0)"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.Internal.sdk/usr/local/include/boost/uuid/detail/random_provider_posix.ipp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/SentencePiece/src/mmap_model_proto.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/SentencePiece/third_party/darts_clone/darts.h:1161: exception: failed to insert key: negative value"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/SentencePiece/third_party/darts_clone/darts.h:1163: exception: failed to insert key: zero-length key"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/SentencePiece/third_party/darts_clone/darts.h:1177: exception: failed to insert key: invalid null character"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/SentencePiece/third_party/darts_clone/darts.h:1182: exception: failed to insert key: wrong key order"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/SentencePiece/third_party/darts_clone/darts.h:1394: exception: failed to modify unit: too large offset"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/SentencePiece/third_party/darts_clone/darts.h:1730: exception: failed to build double-array: invalid null character"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/SentencePiece/third_party/darts_clone/darts.h:1732: exception: failed to build double-array: negative value"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/SentencePiece/third_party/darts_clone/darts.h:1747: exception: failed to build double-array: wrong key order"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/SentencePiece/third_party/darts_clone/darts.h:798: exception: failed to resize pool: std::bad_alloc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/SentencePiece/third_party/darts_clone/darts.h:914: exception: failed to build rank index: std::bad_alloc"
++ "CHINESE"
++ "CalendarSystem"
++ "Highest matching positive example for intent %s has score %f (batch type %s, batch index %lu, encoding index %lu). This is associated with candidate %{sensitive}s. Attempting to build app result."
++ "MAGIC_COMPOSE"
++ "The trie of the pieces is invalid."
++ "The trie of the reserved ids is invalid."
++ "[%s] %sBuilt USO graph:\n %{sensitive}s"
++ "[%s] %sOutputting app result for intent %s with raw score=%f, calibrated score=%f, highestNegativeScoreClipped=%f (batch type %s, batch index %lu, encoding index %lu). This is associated with candidate %{sensitive}s."
++ "[%s] %s[NLv4IO Ply tree] hypothesis=%zu:\n %{sensitive}s"
++ "[%s] Spans encoded over the tokens:\n%{sensitive}s"
++ "allsaints"
++ "annunciation"
++ "arafa"
++ "ascension"
++ "ascensionoftheprophet"
++ "ashura"
++ "assumption"
++ "birthoftheprophet"
++ "buddhasbirthday"
++ "christmas"
++ "christmaseve"
++ "coldfoodfestival"
++ "corpuschristi"
++ "easter"
++ "eastermonday"
++ "eastersaturday"
++ "eastertuesday"
++ "epiphany"
++ "family"
++ "feastofthesacrifice"
++ "fridaybeforepentecost"
++ "fridayofourladyofsorrows"
++ "glorifyingmotherofgod"
++ "goodfriday"
++ "goodthursday"
++ "harvestfestival"
++ "holidayCalendar"
++ "holytrinity"
++ "holyweek"
++ "independence"
++ "lent"
++ "memorial"
++ "nativityofmary"
++ "newyear"
++ "newyear_lunar"
++ "newyearseve"
++ "palm"
++ "pentecost"
++ "pentecostmonday"
++ "pieces_.validate(GetPieceSize())"
++ "precompiled_charsmap is invalid."
++ "presentationofjesusatthetemple"
++ "reserved_id_map_.validate(GetPieceSize())"
++ "saintscyrilandmethodius"
++ "saintspeterandpaul"
++ "shrovethursday"
++ "stbenedict"
++ "stclementofohrid"
++ "stjames"
++ "stjoseph"
++ "stsebastian"
++ "stvladimir"
++ "stwenceslas"
++ "whiteve"
+- "(num_nodes) < (trie_results.size())"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/include/boost/uuid/detail/random_provider_posix.ipp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/SentencePiece/third_party/darts_clone/darts.h:1111: exception: failed to insert key: negative value"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/SentencePiece/third_party/darts_clone/darts.h:1113: exception: failed to insert key: zero-length key"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/SentencePiece/third_party/darts_clone/darts.h:1127: exception: failed to insert key: invalid null character"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/SentencePiece/third_party/darts_clone/darts.h:1132: exception: failed to insert key: wrong key order"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/SentencePiece/third_party/darts_clone/darts.h:1344: exception: failed to modify unit: too large offset"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/SentencePiece/third_party/darts_clone/darts.h:1680: exception: failed to build double-array: invalid null character"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/SentencePiece/third_party/darts_clone/darts.h:1682: exception: failed to build double-array: negative value"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/SentencePiece/third_party/darts_clone/darts.h:1697: exception: failed to build double-array: wrong key order"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/SentencePiece/third_party/darts_clone/darts.h:748: exception: failed to resize pool: std::bad_alloc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/SentencePiece/third_party/darts_clone/darts.h:864: exception: failed to build rank index: std::bad_alloc"
+- "Highest matching positive example for intent %s has score %f (batch type %s, batch index %lu, encoding index %lu). This is associated with candidate %s. Attempting to build app result."
+- "[%s] %sOutputting app result for intent %s with raw score=%f, calibrated score=%f, highestNegativeScoreClipped=%f (batch type %s, batch index %lu, encoding index %lu). This is associated with candidate %s."
+- "[%s] Spans encoded over the tokens:\n%s"
+```

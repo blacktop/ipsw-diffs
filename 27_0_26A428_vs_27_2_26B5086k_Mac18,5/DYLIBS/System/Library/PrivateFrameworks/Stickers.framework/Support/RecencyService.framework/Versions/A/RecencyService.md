@@ -1,0 +1,118 @@
+## RecencyService
+
+> `/System/Library/PrivateFrameworks/Stickers.framework/Support/RecencyService.framework/Versions/A/RecencyService`
+
+```diff
+
+-88.0.0.0.0
+-  __TEXT.__text: 0x238ac
++90.1.2.0.0
++  __TEXT.__text: 0x251fc
+   __TEXT.__objc_methlist: 0x104
+-  __TEXT.__const: 0x2618
+-  __TEXT.__constg_swiftt: 0x870
+-  __TEXT.__swift5_typeref: 0x874
+-  __TEXT.__swift5_reflstr: 0x724
+-  __TEXT.__swift5_fieldmd: 0x9ec
++  __TEXT.__const: 0x2bd8
++  __TEXT.__constg_swiftt: 0x948
++  __TEXT.__swift5_typeref: 0x9a0
++  __TEXT.__swift5_reflstr: 0x744
++  __TEXT.__swift5_fieldmd: 0xa94
+   __TEXT.__swift5_builtin: 0x28
+-  __TEXT.__swift5_proto: 0x204
+-  __TEXT.__swift5_types: 0xb4
++  __TEXT.__swift5_proto: 0x25c
++  __TEXT.__swift5_types: 0xcc
+   __TEXT.__swift_as_entry: 0x90
+   __TEXT.__swift_as_ret: 0x68
+   __TEXT.__swift_as_cont: 0x108
+-  __TEXT.__cstring: 0x659
++  __TEXT.__cstring: 0x649
+   __TEXT.__oslogstring: 0x44f
+   __TEXT.__swift5_assocty: 0x18
+   __TEXT.__swift5_mpenum: 0x8
+   __TEXT.__swift5_capture: 0xd4
+   __TEXT.__swift5_protos: 0x8
+-  __TEXT.__unwind_info: 0xd48
+-  __TEXT.__eh_frame: 0x14c0
++  __TEXT.__unwind_info: 0xe30
++  __TEXT.__eh_frame: 0x1528
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_selrefs: 0xb8
+   __DATA_CONST.__objc_protorefs: 0x10
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0xf40
++  __AUTH_CONST.__const: 0x1030
+   __AUTH_CONST.__objc_const: 0xc80
+-  __AUTH_CONST.__auth_got: 0x6a0
++  __AUTH_CONST.__auth_got: 0x6a8
+   __AUTH.__objc_data: 0x50
+   __AUTH.__data: 0x268
+-  __DATA.__data: 0x3f8
++  __DATA.__data: 0x4f0
+   __DATA_DIRTY.__objc_data: 0x2d0
+-  __DATA_DIRTY.__data: 0x11a0
++  __DATA_DIRTY.__data: 0x1180
+   __DATA_DIRTY.__common: 0xa8
+   __DATA_DIRTY.__bss: 0x1e80
+   - /System/Library/Frameworks/Combine.framework/Versions/A/Combine
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 851
+-  Symbols:   409
+-  CStrings:  59
++  Functions: 916
++  Symbols:   440
++  CStrings:  60
+ 
+Symbols:
++ ___swift_destroy_boxed_opaque_existential_1
++ _associated conformance 14RecencyService19ImageGlyphValidatorV0cdE5ErrorO022EmojiStringIsNotSingleG10CodingKeys33_DF1788B16AC714071C3A1D24141EEAE5LLOs0L3KeyAAs011CustomDebugH11Convertible
++ _associated conformance 14RecencyService19ImageGlyphValidatorV0cdE5ErrorO022EmojiStringIsNotSingleG10CodingKeys33_DF1788B16AC714071C3A1D24141EEAE5LLOs0L3KeyAAs06CustomH11Convertible
++ _associated conformance 14RecencyService19ImageGlyphValidatorV0cdE5ErrorO07UnknowncD26TypeNotSupportedCodingKeys33_DF1788B16AC714071C3A1D24141EEAE5LLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 14RecencyService19ImageGlyphValidatorV0cdE5ErrorO07UnknowncD26TypeNotSupportedCodingKeys33_DF1788B16AC714071C3A1D24141EEAE5LLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14RecencyService19ImageGlyphValidatorV0cdE5ErrorO10CodingKeys33_DF1788B16AC714071C3A1D24141EEAE5LLOSHAASQ
++ _associated conformance 14RecencyService19ImageGlyphValidatorV0cdE5ErrorO10CodingKeys33_DF1788B16AC714071C3A1D24141EEAE5LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 14RecencyService19ImageGlyphValidatorV0cdE5ErrorO10CodingKeys33_DF1788B16AC714071C3A1D24141EEAE5LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14RecencyService19ImageGlyphValidatorV0cdE5ErrorO39CharacterStringMustNotBeEmojiCodingKeys33_DF1788B16AC714071C3A1D24141EEAE5LLOs0M3KeyAAs011CustomDebugH11Convertible
++ _associated conformance 14RecencyService19ImageGlyphValidatorV0cdE5ErrorO39CharacterStringMustNotBeEmojiCodingKeys33_DF1788B16AC714071C3A1D24141EEAE5LLOs0M3KeyAAs06CustomH11Convertible
++ _associated conformance 14RecencyService19ImageGlyphValidatorV0cdE5ErrorO39CharacterStringMustNotBeEmptyCodingKeys33_DF1788B16AC714071C3A1D24141EEAE5LLOs0M3KeyAAs011CustomDebugH11Convertible
++ _associated conformance 14RecencyService19ImageGlyphValidatorV0cdE5ErrorO39CharacterStringMustNotBeEmptyCodingKeys33_DF1788B16AC714071C3A1D24141EEAE5LLOs0M3KeyAAs06CustomH11Convertible
++ _associated conformance 14RecencyService19ImageGlyphValidatorV0cdE5ErrorO42CharacterStringColonNotSupportedCodingKeys33_DF1788B16AC714071C3A1D24141EEAE5LLOs0L3KeyAAs011CustomDebugH11Convertible
++ _associated conformance 14RecencyService19ImageGlyphValidatorV0cdE5ErrorO42CharacterStringColonNotSupportedCodingKeys33_DF1788B16AC714071C3A1D24141EEAE5LLOs0L3KeyAAs06CustomH11Convertible
++ _symbolic _____ 14RecencyService19ImageGlyphValidatorV0cdE5ErrorO022EmojiStringIsNotSingleG10CodingKeys33_DF1788B16AC714071C3A1D24141EEAE5LLO
++ _symbolic _____ 14RecencyService19ImageGlyphValidatorV0cdE5ErrorO07UnknowncD26TypeNotSupportedCodingKeys33_DF1788B16AC714071C3A1D24141EEAE5LLO
++ _symbolic _____ 14RecencyService19ImageGlyphValidatorV0cdE5ErrorO10CodingKeys33_DF1788B16AC714071C3A1D24141EEAE5LLO
++ _symbolic _____ 14RecencyService19ImageGlyphValidatorV0cdE5ErrorO39CharacterStringMustNotBeEmojiCodingKeys33_DF1788B16AC714071C3A1D24141EEAE5LLO
++ _symbolic _____ 14RecencyService19ImageGlyphValidatorV0cdE5ErrorO39CharacterStringMustNotBeEmptyCodingKeys33_DF1788B16AC714071C3A1D24141EEAE5LLO
++ _symbolic _____ 14RecencyService19ImageGlyphValidatorV0cdE5ErrorO42CharacterStringColonNotSupportedCodingKeys33_DF1788B16AC714071C3A1D24141EEAE5LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14RecencyService19ImageGlyphValidatorV0fgH5ErrorO022EmojiStringIsNotSingleJ10CodingKeys33_DF1788B16AC714071C3A1D24141EEAE5LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14RecencyService19ImageGlyphValidatorV0fgH5ErrorO07UnknownfG26TypeNotSupportedCodingKeys33_DF1788B16AC714071C3A1D24141EEAE5LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14RecencyService19ImageGlyphValidatorV0fgH5ErrorO10CodingKeys33_DF1788B16AC714071C3A1D24141EEAE5LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14RecencyService19ImageGlyphValidatorV0fgH5ErrorO39CharacterStringMustNotBeEmojiCodingKeys33_DF1788B16AC714071C3A1D24141EEAE5LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14RecencyService19ImageGlyphValidatorV0fgH5ErrorO39CharacterStringMustNotBeEmptyCodingKeys33_DF1788B16AC714071C3A1D24141EEAE5LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14RecencyService19ImageGlyphValidatorV0fgH5ErrorO42CharacterStringColonNotSupportedCodingKeys33_DF1788B16AC714071C3A1D24141EEAE5LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14RecencyService19ImageGlyphValidatorV0fgH5ErrorO022EmojiStringIsNotSingleJ10CodingKeys33_DF1788B16AC714071C3A1D24141EEAE5LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14RecencyService19ImageGlyphValidatorV0fgH5ErrorO07UnknownfG26TypeNotSupportedCodingKeys33_DF1788B16AC714071C3A1D24141EEAE5LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14RecencyService19ImageGlyphValidatorV0fgH5ErrorO10CodingKeys33_DF1788B16AC714071C3A1D24141EEAE5LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14RecencyService19ImageGlyphValidatorV0fgH5ErrorO39CharacterStringMustNotBeEmojiCodingKeys33_DF1788B16AC714071C3A1D24141EEAE5LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14RecencyService19ImageGlyphValidatorV0fgH5ErrorO39CharacterStringMustNotBeEmptyCodingKeys33_DF1788B16AC714071C3A1D24141EEAE5LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14RecencyService19ImageGlyphValidatorV0fgH5ErrorO42CharacterStringColonNotSupportedCodingKeys33_DF1788B16AC714071C3A1D24141EEAE5LLO
+- _symbolic SS_SSt
+CStrings:
++ "characterStringColonNotSupported"
++ "characterStringMustNotBeEmoji"
++ "characterStringMustNotBeEmpty"
++ "emojiStringIsNotSingleEmoji"
++ "unknownImageGlyphTypeNotSupported"
+- "Character string must not be empty"
+- "Character string with a colon is not supported"
+- "Emoji string is not a single emoji"
+- "Unknown image glyph type not supported at this time"
+```

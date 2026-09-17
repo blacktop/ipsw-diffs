@@ -1,0 +1,136 @@
+## com.apple.iokit.IOSurface
+
+> `com.apple.iokit.IOSurface`
+
+```diff
+
+-402.5.0.0.0
+-  __TEXT.__cstring: 0x32bf
+-  __TEXT.__os_log: 0x345e
+-  __TEXT.__const: 0x40
+-  __TEXT_EXEC.__text: 0x32bc4
+-  __TEXT_EXEC.__auth_stubs: 0x930
++403.1.0.0.0
++  __TEXT.__cstring: 0x3321
++  __TEXT.__os_log: 0x36d6
++  __TEXT.__const: 0x60
++  __TEXT_EXEC.__text: 0x33298
++  __TEXT_EXEC.__auth_stubs: 0x970
+   __DATA.__data: 0x178
+   __DATA.__common: 0x460
+   __DATA_CONST.__mod_init_func: 0x90
+
+   __DATA_CONST.__const: 0x6f48
+   __DATA_CONST.__kalloc_type: 0xd00
+   __DATA_CONST.__kalloc_var: 0xaa0
+-  __DATA_CONST.__auth_got: 0x498
++  __DATA_CONST.__auth_got: 0x4b8
+   __DATA_CONST.__got: 0xd0
+-  Functions: 1330
+-  Symbols:   2447
+-  CStrings:  630
++  Functions: 1336
++  Symbols:   2468
++  CStrings:  641
+ 
+Symbols:
++ __Z17IODTGetCellCountsP15IORegistryEntryPjS1_
++ __ZL17kSmaMemRegionName
++ __ZL21kGfxMemRegionBaseName
++ __ZL24gfxCarveoutRegTupleCountP15IORegistryEntry
++ __ZL26makeMemoryRegionPropertiesPKc
++ __ZN13IOSurfaceRoot19checkInFailedRegionEPKc
++ __ZN13IOSurfaceRoot22installGfxMemoryRegionEP25IOSurfaceMemoryRegionNodePKc
++ __ZN13IOSurfaceRoot24stopSurfaceNotificationsEP23IOSurfaceRootUserClient
++ __ZN13IOSurfaceRoot25noteMemoryRegionCheckedInEv
++ __ZN13IOSurfaceRoot28cancelMemoryRegionThreadCallEv
++ __ZZL12alloc_sharedPP25_IOSurfaceSharedListEntryjmjPjPPvE21kalloc_type_view_2372
++ __ZZL12alloc_sharedPP25_IOSurfaceSharedListEntryjmjPjPPvE21kalloc_type_view_2386
++ __ZZL12alloc_sharedPP25_IOSurfaceSharedListEntryjmjPjPPvE21kalloc_type_view_2410
++ __ZZL12alloc_sharedPP25_IOSurfaceSharedListEntryjmjPjPPvE21kalloc_type_view_2419
++ __ZZN13IOSurfaceRoot11free_sharedEvE21kalloc_type_view_2645
++ __ZZN13IOSurfaceRoot11free_sharedEvE21kalloc_type_view_2657
++ __ZZN13IOSurfaceRoot11free_sharedEvE21kalloc_type_view_2669
++ __ZZN13IOSurfaceRoot11free_sharedEvE21kalloc_type_view_2681
++ __ZZN13IOSurfaceRoot12free_handlesEvE21kalloc_type_view_2069
++ __ZZN13IOSurfaceRoot13alloc_handlesEvE21kalloc_type_view_2031
++ __ZZN13IOSurfaceRoot13alloc_handlesEvE21kalloc_type_view_2050
++ __ZZN13IOSurfaceRoot14client_startedEP23IOSurfaceRootUserClientP4taskE21kalloc_type_view_3354
++ __ZZN13IOSurfaceRoot14client_startedEP23IOSurfaceRootUserClientP4taskE21kalloc_type_view_3364
++ __ZZN13IOSurfaceRoot16setSurfaceNotifyEPyP19IOSurfaceNotifyArgsP23IOSurfaceRootUserClientE21kalloc_type_view_1790
++ __ZZN13IOSurfaceRoot19checkInFailedRegionEPKcE11_os_log_fmt
++ __ZZN13IOSurfaceRoot19removeSurfaceNotifyEP19IOSurfaceNotifyArgsP23IOSurfaceRootUserClientE21kalloc_type_view_1836
++ __ZZN13IOSurfaceRoot20installMemoryRegionsEvE11_os_log_fmt
++ __ZZN13IOSurfaceRoot20installMemoryRegionsEvE11_os_log_fmt_0
++ __ZZN13IOSurfaceRoot22addEventNotifierClientEPFvP8OSObjectES1_E21kalloc_type_view_3303
++ __ZZN13IOSurfaceRoot24stopSurfaceNotificationsEP23IOSurfaceRootUserClientE21kalloc_type_view_1888
++ __ZZN13IOSurfaceRoot25free_shared_event_handlesEvE21kalloc_type_view_2237
++ __ZZN13IOSurfaceRoot25removeEventNotifierClientEP28IOSurfaceEventNotifierClientE21kalloc_type_view_3333
++ __ZZN13IOSurfaceRoot26alloc_shared_event_handlesEvE21kalloc_type_view_2199
++ __ZZN13IOSurfaceRoot26alloc_shared_event_handlesEvE21kalloc_type_view_2218
++ __ZZN13IOSurfaceRoot4freeEvE20kalloc_type_view_212
++ __ZZN13IOSurfaceRoot4freeEvE20kalloc_type_view_259
++ __ZZN13IOSurfaceRoot5startEP9IOServiceE11_os_log_fmt_0
++ __ZZN13IOSurfaceRoot5startEP9IOServiceE11_os_log_fmt_1
++ __ZZN13IOSurfaceRoot5startEP9IOServiceENK3$_0clEPKcj
++ __ZZN23IOSurfaceRootUserClient12free_handlesEvE21kalloc_type_view_2709
++ __ZZN23IOSurfaceRootUserClient13alloc_handlesEvE21kalloc_type_view_2680
++ __ZZN23IOSurfaceRootUserClient13alloc_handlesEvE21kalloc_type_view_2699
++ __ZZN27IOSurfaceDeviceMemoryRegion4initEP13IOSurfaceRootP12OSDictionaryPKcjjE11_os_log_fmt
++ __ZZN27IOSurfaceDeviceMemoryRegion4initEP13IOSurfaceRootP12OSDictionaryPKcjjE11_os_log_fmt_0
++ __ZZN27IOSurfaceDeviceMemoryRegion4initEP13IOSurfaceRootP12OSDictionaryPKcjjE11_os_log_fmt_1
++ __ZZN27IOSurfaceDeviceMemoryRegion4initEP13IOSurfaceRootP12OSDictionaryPKcjjE11_os_log_fmt_2
++ __ZZZN13IOSurfaceRoot5startEP9IOServiceENK3$_0clEPKcjE20kalloc_type_view_476
++ _snprintf
++ _strcmp
++ _thread_call_cancel_wait
+- __ZN13IOSurfaceRoot22installGfxMemoryRegionEP25IOSurfaceMemoryRegionNode
+- __ZN13IOSurfaceRoot26removeSurfaceNotificationsEP23IOSurfaceRootUserClient
+- __ZZL12alloc_sharedPP25_IOSurfaceSharedListEntryjmjPjPPvE21kalloc_type_view_2196
+- __ZZL12alloc_sharedPP25_IOSurfaceSharedListEntryjmjPjPPvE21kalloc_type_view_2210
+- __ZZL12alloc_sharedPP25_IOSurfaceSharedListEntryjmjPjPPvE21kalloc_type_view_2234
+- __ZZL12alloc_sharedPP25_IOSurfaceSharedListEntryjmjPjPPvE21kalloc_type_view_2243
+- __ZZN13IOSurfaceRoot11free_sharedEvE21kalloc_type_view_2469
+- __ZZN13IOSurfaceRoot11free_sharedEvE21kalloc_type_view_2481
+- __ZZN13IOSurfaceRoot11free_sharedEvE21kalloc_type_view_2493
+- __ZZN13IOSurfaceRoot11free_sharedEvE21kalloc_type_view_2505
+- __ZZN13IOSurfaceRoot12free_handlesEvE21kalloc_type_view_1893
+- __ZZN13IOSurfaceRoot13alloc_handlesEvE21kalloc_type_view_1855
+- __ZZN13IOSurfaceRoot13alloc_handlesEvE21kalloc_type_view_1874
+- __ZZN13IOSurfaceRoot14client_startedEP23IOSurfaceRootUserClientP4taskE21kalloc_type_view_3178
+- __ZZN13IOSurfaceRoot14client_startedEP23IOSurfaceRootUserClientP4taskE21kalloc_type_view_3188
+- __ZZN13IOSurfaceRoot16setSurfaceNotifyEPyP19IOSurfaceNotifyArgsP23IOSurfaceRootUserClientE21kalloc_type_view_1618
+- __ZZN13IOSurfaceRoot19removeSurfaceNotifyEP19IOSurfaceNotifyArgsP23IOSurfaceRootUserClientE21kalloc_type_view_1664
+- __ZZN13IOSurfaceRoot22addEventNotifierClientEPFvP8OSObjectES1_E21kalloc_type_view_3127
+- __ZZN13IOSurfaceRoot25free_shared_event_handlesEvE21kalloc_type_view_2061
+- __ZZN13IOSurfaceRoot25removeEventNotifierClientEP28IOSurfaceEventNotifierClientE21kalloc_type_view_3157
+- __ZZN13IOSurfaceRoot26alloc_shared_event_handlesEvE21kalloc_type_view_2023
+- __ZZN13IOSurfaceRoot26alloc_shared_event_handlesEvE21kalloc_type_view_2042
+- __ZZN13IOSurfaceRoot26removeSurfaceNotificationsEP23IOSurfaceRootUserClientE21kalloc_type_view_1712
+- __ZZN13IOSurfaceRoot4freeEvE20kalloc_type_view_232
+- __ZZN13IOSurfaceRoot5startEP9IOServiceE20kalloc_type_view_404
+- __ZZN13IOSurfaceRoot5startEP9IOServiceE20kalloc_type_view_419
+- __ZZN23IOSurfaceRootUserClient12free_handlesEvE21kalloc_type_view_2708
+- __ZZN23IOSurfaceRootUserClient13alloc_handlesEvE21kalloc_type_view_2679
+- __ZZN23IOSurfaceRootUserClient13alloc_handlesEvE21kalloc_type_view_2698
+CStrings:
++ "%s"
++ "%s%u"
++ "%s: Couldn't allocate range allocator for graphics memory\n"
++ "112"
++ "1211111212221212121122222212212111212211111112211112221111112111122111121222212222122221222212222122221222212222112111112221112211112112222222222112"
++ "Failed to install %s memory region; checking in anyway\n"
++ "IOSurface: /vram declares %u carveout(s) but %u resolved; positions are ambiguous, installing none\n"
++ "IOSurface: /vram declares %u carveout(s) but none resolved\n"
++ "IOSurface: couldn't count /vram's reg tuples; assuming a single carveout\n"
++ "IOSurface: discovered %u display carveout(s) in /vram\n"
++ "IOSurfaceDeviceMemoryRegion: Couldn't get device memory with index %u for service %s\n"
++ "IOSurfaceDeviceMemoryRegion: Couldn't map device memory\n"
++ "IOSurfaceDeviceMemoryRegion: zero-length device memory with index %u for service %s\n"
++ "reg"
++ "virtual bool IOSurfaceDeviceMemoryRegion::init(IOSurfaceRoot *, OSDictionary *, const char *, uint32_t, uint32_t)"
+- "1112"
+- "121111121222121212112222221221211121221111111211112221111112111122111121222212222122221222212222122221222212222112111112221112211112112222222222112"
+- "PurpleGfxMem"
+- "ScalableMemory"
+```

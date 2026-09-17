@@ -1,0 +1,1070 @@
+## ExchangeSync
+
+> `/System/Library/PrivateFrameworks/ExchangeSync.framework/Versions/A/ExchangeSync`
+
+```diff
+
+-2075.0.0.0.0
+-  __TEXT.__text: 0x10553c
+-  __TEXT.__objc_methlist: 0x5d04
+-  __TEXT.__const: 0x57a4
+-  __TEXT.__gcc_except_tab: 0xe9c
+-  __TEXT.__cstring: 0xcc77
+-  __TEXT.__oslogstring: 0x65ba
+-  __TEXT.__swift5_typeref: 0x1f10
+-  __TEXT.__swift5_reflstr: 0x1acc
+-  __TEXT.__swift5_assocty: 0x7c8
+-  __TEXT.__constg_swiftt: 0x1f6c
+-  __TEXT.__swift5_fieldmd: 0x18d8
+-  __TEXT.__swift5_proto: 0x254
+-  __TEXT.__swift5_types: 0x1e4
+-  __TEXT.__swift5_protos: 0x9c
+-  __TEXT.__swift5_builtin: 0x8c
+-  __TEXT.__swift5_mpenum: 0x18
+-  __TEXT.__swift5_capture: 0x610
+-  __TEXT.__swift_as_entry: 0x84
+-  __TEXT.__swift_as_ret: 0x84
+-  __TEXT.__swift_as_cont: 0x118
+-  __TEXT.__unwind_info: 0x4498
+-  __TEXT.__eh_frame: 0x36e8
++2080.200.31.0.0
++  __TEXT.__text: 0x16c4cc
++  __TEXT.__objc_methlist: 0x5f44
++  __TEXT.__const: 0x8524
++  __TEXT.__gcc_except_tab: 0xf80
++  __TEXT.__cstring: 0x11612
++  __TEXT.__oslogstring: 0x6ada
++  __TEXT.__swift5_typeref: 0x2a04
++  __TEXT.__swift5_reflstr: 0x292c
++  __TEXT.__swift5_assocty: 0x920
++  __TEXT.__constg_swiftt: 0x2ef4
++  __TEXT.__swift5_fieldmd: 0x297c
++  __TEXT.__swift5_proto: 0x3e0
++  __TEXT.__swift5_types: 0x348
++  __TEXT.__swift5_protos: 0xcc
++  __TEXT.__swift5_builtin: 0xb4
++  __TEXT.__swift5_mpenum: 0x20
++  __TEXT.__swift5_capture: 0x808
++  __TEXT.__swift_as_entry: 0x8c
++  __TEXT.__swift_as_ret: 0x90
++  __TEXT.__swift_as_cont: 0x128
++  __TEXT.__unwind_info: 0x5d98
++  __TEXT.__eh_frame: 0x5eec
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x410
+-  __DATA_CONST.__objc_classlist: 0x310
++  __DATA_CONST.__const: 0x4d0
++  __DATA_CONST.__objc_classlist: 0x368
+   __DATA_CONST.__objc_catlist: 0x20
+   __DATA_CONST.__objc_protolist: 0xb0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x3b70
++  __DATA_CONST.__objc_selrefs: 0x3ca8
+   __DATA_CONST.__objc_protorefs: 0x38
+-  __DATA_CONST.__objc_superrefs: 0x1b8
++  __DATA_CONST.__objc_superrefs: 0x1c0
+   __DATA_CONST.__objc_arraydata: 0x20
+-  __DATA_CONST.__got: 0x1288
+-  __AUTH_CONST.__const: 0x5aa8
+-  __AUTH_CONST.__cfstring: 0x4380
+-  __AUTH_CONST.__objc_const: 0xc2d8
++  __DATA_CONST.__got: 0x14c8
++  __AUTH_CONST.__const: 0x8810
++  __AUTH_CONST.__cfstring: 0x4540
++  __AUTH_CONST.__objc_const: 0xd020
+   __AUTH_CONST.__objc_arrayobj: 0x18
+-  __AUTH_CONST.__auth_got: 0x1bd0
+-  __AUTH.__objc_data: 0x1c00
+-  __AUTH.__data: 0x2340
+-  __DATA.__objc_ivar: 0x74c
+-  __DATA.__data: 0x1330
+-  __DATA.__common: 0x80
++  __AUTH_CONST.__auth_got: 0x2088
++  __AUTH.__objc_data: 0x1d40
++  __AUTH.__data: 0x2f18
++  __DATA.__objc_ivar: 0x764
++  __DATA.__data: 0x16a8
++  __DATA.__common: 0x278
+   - /System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+   - /System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  Functions: 5288
+-  Symbols:   6389
+-  CStrings:  1472
++  Functions: 7019
++  Symbols:   6813
++  CStrings:  1726
+ 
+Symbols:
++ +[EXSNotesEchoSuppression lastSyncedPropertiesForNoteWithExternalID:internalID:dataManager:]
++ +[EXSNotesEchoSuppression localChangeIsEchoForNoteTitle:noteContent:lastSyncedProperties:]
++ +[EXSNotesEchoSuppression string:matches:]
++ +[EXSNotesFolderPlacementPolicy changeItemIsTopLevel:messageRootExternalID:notesRootExternalID:graphPathActive:]
++ +[EXSNotesFolderPlacementPolicy orderingSeedExternalIDWithMessageRoot:notesRoot:graphPathActive:]
++ +[EXSNotesFolderPlacementPolicy topLevelParentExternalIDWithMessageRoot:notesRoot:graphPathActive:]
++ +[EXSSyncProtocol log]
++ -[EXSCalendarItemProperties responseDispositionEndDateSpecified]
++ -[EXSCalendarItemProperties responseDispositionEndDate]
++ -[EXSCalendarItemProperties setResponseDispositionEndDate:]
++ -[EXSCalendarItemProperties setSourceCalendarExternalID:]
++ -[EXSCalendarItemProperties sourceCalendarExternalIDSpecified]
++ -[EXSCalendarItemProperties sourceCalendarExternalID]
++ -[EXSChangeItem changeItemWithResolvedExternalID:]
++ -[EXSChangeItem externalIDWasResolvedForDetachment]
++ -[EXSChangeItem setExternalIDWasResolvedForDetachment:]
++ -[EXSDataConsumerInstance _drainOutstandingChangeItems]
++ -[EXSDataConsumerInstance flushOutstandingChangeItemsSynchronously]
++ -[EXSDataManager(ChangeItems) hasChangeItemsSinceChangeID:skippingChangeSourceID:]
++ -[EXSDataManager(ChangeItems) persistChangeItems:forChangeSource:]
++ -[EXSDataManager(Folders) _childFoldersWithParentExternalID:includingDeleted:]
++ -[EXSDataManager(Folders) _foldersWithFolderType:markedAsDeleted:]
++ -[EXSDataManager(Folders) findChildFoldersWithParentExternalID:includingDeleted:]
++ -[EXSDataManager(Folders) findDeletedFolderWithInternalID:]
++ -[EXSDataManager(Folders) findDeletedFoldersWithFolderType:]
++ -[EXSDataManager(Folders) markNoteFoldersDeletedWithFolderIDs:]
++ -[EXSDataManager(Folders) replaceExternalFolderID:forDistinguishedFolderType:]
++ -[EXSDataManager(Items) deleteItemWithExternalID:]
++ -[EXSDataManager(Items) driftSnapshotsForExternalIDs:]
++ -[EXSDataManager(Items) findItemsInFolderID:]
++ -[EXSDataManager(Items) folderIDHoldsItems:]
++ -[EXSItemDriftSnapshot .cxx_destruct]
++ -[EXSItemDriftSnapshot externalChangeKey]
++ -[EXSItemDriftSnapshot initWithExternalChangeKey:]
++ -[EXSSyncEngineInstance _dataConsumerInstanceForFolderType:]
++ -[EXSSyncEngineInstance flushFolderChangesSynchronouslyForProtocol:]
++ -[EXSSyncEngineInstance syncProtocol:flushItemChangesSynchronouslyInFolder:]
++ -[EXSSyncProtocol fireFlushFolderChangesSynchronously]
++ -[EXSSyncProtocol fireFlushItemChangesSynchronouslyForFolder:]
++ -[EXSSyncProtocol pushChangeItemsWithOutcome:withTrackingToken:]
++ GCC_except_table30
++ GCC_except_table46
++ GCC_except_table48
++ GCC_except_table50
++ GCC_except_table53
++ GCC_except_table60
++ GCC_except_table9
++ OBJC_IVAR_$_EXSCalendarItemProperties._responseDispositionEndDate
++ OBJC_IVAR_$_EXSCalendarItemProperties._responseDispositionEndDateSpecified
++ OBJC_IVAR_$_EXSCalendarItemProperties._sourceCalendarExternalID
++ OBJC_IVAR_$_EXSCalendarItemProperties._sourceCalendarExternalIDSpecified
++ OBJC_IVAR_$_EXSChangeItem._externalIDWasResolvedForDetachment
++ OBJC_IVAR_$_EXSItemDriftSnapshot._externalChangeKey
++ OBJC_IVAR_$_EXSSyncProtocol._tearingDown
++ _OBJC_CLASS_$_EXSItemDriftSnapshot
++ _OBJC_CLASS_$_EXSNotesEchoSuppression
++ _OBJC_CLASS_$_EXSNotesFolderPlacementPolicy
++ _OBJC_CLASS_$_NSMutableOrderedSet
++ _OBJC_METACLASS_$_EXSItemDriftSnapshot
++ _OBJC_METACLASS_$_EXSNotesEchoSuppression
++ _OBJC_METACLASS_$_EXSNotesFolderPlacementPolicy
++ __50-[EXSDataManager(Items) deleteItemWithExternalID:]_block_invoke
++ __52-[EXSSyncProtocol syncAllFolderItemsForDataclasses:]_block_invoke
++ __63-[EXSDataManager(Folders) markNoteFoldersDeletedWithFolderIDs:]_block_invoke
++ __78-[EXSDataManager(Folders) replaceExternalFolderID:forDistinguishedFolderType:]_block_invoke_2
++ __82-[EXSDataManager(ChangeItems) hasChangeItemsSinceChangeID:skippingChangeSourceID:]_block_invoke
++ __DATA__TtC12ExchangeSync27EXSGSInMemoryHeartbeatStore
++ __DATA__TtC12ExchangeSync34EXSGSRemoveMeetingRequestOperation
++ __DATA__TtCO12ExchangeSync16EXSGSRetryPolicy6Budget
++ __DATA__TtCO12ExchangeSync23EXSGSNoteFolderMapCodec10DecodeMemo
++ __DATA__TtCO12ExchangeSync26EXSGSBatchThrottleExecutor19HydrationRoundState
++ __DATA__TtCO12ExchangeSync26EXSGSBatchThrottleExecutor20AuthRenewalAllowance
++ __DATA__TtCV12ExchangeSync33EXSGSGetStickyNotesDeltaOperation17PageAdoptionTally
++ __DATA__TtCV12ExchangeSync36EXSGSGetCalendarEventsDeltaOperationP33_A1DF52EABB000994013E355FFDE23C7524RoundReconciliationState
++ __IVARS__TtC12ExchangeSync22EXSGSDeltaPagePipeline
++ __IVARS__TtC12ExchangeSync27EXSGSInMemoryHeartbeatStore
++ __IVARS__TtC12ExchangeSync34EXSGSRemoveMeetingRequestOperation
++ __IVARS__TtCO12ExchangeSync16EXSGSRetryPolicy6Budget
++ __IVARS__TtCO12ExchangeSync23EXSGSNoteFolderMapCodec10DecodeMemo
++ __IVARS__TtCO12ExchangeSync26EXSGSBatchThrottleExecutor19HydrationRoundState
++ __IVARS__TtCO12ExchangeSync26EXSGSBatchThrottleExecutor20AuthRenewalAllowance
++ __IVARS__TtCV12ExchangeSync33EXSGSGetStickyNotesDeltaOperation17PageAdoptionTally
++ __IVARS__TtCV12ExchangeSync36EXSGSGetCalendarEventsDeltaOperationP33_A1DF52EABB000994013E355FFDE23C7524RoundReconciliationState
++ __METACLASS_DATA__TtC12ExchangeSync27EXSGSInMemoryHeartbeatStore
++ __METACLASS_DATA__TtC12ExchangeSync34EXSGSRemoveMeetingRequestOperation
++ __METACLASS_DATA__TtCO12ExchangeSync16EXSGSRetryPolicy6Budget
++ __METACLASS_DATA__TtCO12ExchangeSync23EXSGSNoteFolderMapCodec10DecodeMemo
++ __METACLASS_DATA__TtCO12ExchangeSync26EXSGSBatchThrottleExecutor19HydrationRoundState
++ __METACLASS_DATA__TtCO12ExchangeSync26EXSGSBatchThrottleExecutor20AuthRenewalAllowance
++ __METACLASS_DATA__TtCV12ExchangeSync33EXSGSGetStickyNotesDeltaOperation17PageAdoptionTally
++ __METACLASS_DATA__TtCV12ExchangeSync36EXSGSGetCalendarEventsDeltaOperationP33_A1DF52EABB000994013E355FFDE23C7524RoundReconciliationState
++ __OBJC_$_CLASS_METHODS_EXSNotesEchoSuppression
++ __OBJC_$_CLASS_METHODS_EXSNotesFolderPlacementPolicy
++ __OBJC_$_CLASS_METHODS_EXSSyncProtocol
++ __OBJC_$_INSTANCE_METHODS_EXSGSSyncProtocol(ExchangeSync|ExchangeSync|ExchangeSync)
++ __OBJC_$_INSTANCE_METHODS_EXSItemDriftSnapshot
++ __OBJC_$_INSTANCE_VARIABLES_EXSItemDriftSnapshot
++ __OBJC_$_PROP_LIST_EXSItemDriftSnapshot
++ __OBJC_CLASS_PROTOCOLS_$_EXSGSSyncProtocol(ExchangeSync|ExchangeSync|ExchangeSync)
++ __OBJC_CLASS_RO_$_EXSItemDriftSnapshot
++ __OBJC_CLASS_RO_$_EXSNotesEchoSuppression
++ __OBJC_CLASS_RO_$_EXSNotesFolderPlacementPolicy
++ __OBJC_METACLASS_RO_$_EXSItemDriftSnapshot
++ __OBJC_METACLASS_RO_$_EXSNotesEchoSuppression
++ __OBJC_METACLASS_RO_$_EXSNotesFolderPlacementPolicy
++ ___22+[EXSSyncProtocol log]_block_invoke
++ ___44-[EXSDataManager(Items) folderIDHoldsItems:]_block_invoke
++ ___45-[EXSDataManager(Items) findItemsInFolderID:]_block_invoke
++ ___50-[EXSDataManager(Items) deleteItemWithExternalID:]_block_invoke
++ ___52-[EXSSyncProtocol syncAllFolderItemsForDataclasses:]_block_invoke
++ ___54-[EXSDataManager(Items) driftSnapshotsForExternalIDs:]_block_invoke
++ ___59-[EXSDataManager(Folders) findDeletedFolderWithInternalID:]_block_invoke
++ ___60-[EXSDataManager(Folders) findDeletedFoldersWithFolderType:]_block_invoke
++ ___63-[EXSDataManager(Folders) markNoteFoldersDeletedWithFolderIDs:]_block_invoke
++ ___66-[EXSDataManager(ChangeItems) persistChangeItems:forChangeSource:]_block_invoke
++ ___66-[EXSDataManager(ChangeItems) persistChangeItems:forChangeSource:]_block_invoke_2
++ ___78-[EXSDataManager(Folders) replaceExternalFolderID:forDistinguishedFolderType:]_block_invoke
++ ___78-[EXSDataManager(Folders) replaceExternalFolderID:forDistinguishedFolderType:]_block_invoke_2
++ ___81-[EXSDataManager(Folders) findChildFoldersWithParentExternalID:includingDeleted:]_block_invoke
++ ___82-[EXSDataManager(ChangeItems) hasChangeItemsSinceChangeID:skippingChangeSourceID:]_block_invoke
++ ___block_descriptor_56_e8_32s40s_e23_B16?0"PQLConnection"8l
++ ___block_descriptor_56_e8_32s40s_e5_v8?0l
++ ___block_descriptor_57_e8_32s40s48r_e5_v8?0l
++ ___swift_allocate_boxed_opaque_existential_1Tm
++ ___swift_memcpy138_8
++ ___swift_memcpy17_8
++ ___swift_memcpy40_8
++ ___swift_memcpy72_8
++ ___swift_memcpy73_8
++ ___swift_memcpy80_8
++ ___swift_memcpy97_8
++ ___unnamed_2
++ __swift_stdlib_strtod_clocale
++ _associated conformance 12ExchangeSync18EXSGSDeltaRoundLogV10CursorKindOSHAASQ
++ _associated conformance 12ExchangeSync18EXSGSNoteFolderMapV10CodingKeysOSHAASQ
++ _associated conformance 12ExchangeSync18EXSGSNoteFolderMapV10CodingKeysOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 12ExchangeSync18EXSGSNoteFolderMapV10CodingKeysOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12ExchangeSync19EXSGSDeltaRoundModeOSHAASQ
++ _associated conformance 12ExchangeSync19EXSGSHeartbeatScopeOSHAASQ
++ _associated conformance 12ExchangeSync20EXSGSHydrationHelperO18OutcomeHookMessageOSHAASQ
++ _associated conformance 12ExchangeSync22EXSGSAttachmentManagerC12DownloadLane33_072DC6A9C1AB6733BC7ED7AD2387F139LLOSHAASQ
++ _associated conformance 12ExchangeSync22EXSGSNoteFolderOutcomeOSHAASQ
++ _associated conformance 12ExchangeSync23EXSGSNoteFolderMapEntryV10CodingKeysOSHAASQ
++ _associated conformance 12ExchangeSync23EXSGSNoteFolderMapEntryV10CodingKeysOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 12ExchangeSync23EXSGSNoteFolderMapEntryV10CodingKeysOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12ExchangeSync23EXSGSNoteFolderMetadataV10CodingKeysOSHAASQ
++ _associated conformance 12ExchangeSync23EXSGSNoteFolderMetadataV10CodingKeysOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 12ExchangeSync23EXSGSNoteFolderMetadataV10CodingKeysOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12ExchangeSync24EXSGSDeleteNoteOperationVAA0c4ItemE0AA7RequestAaDP_05GraphB00hB11Requestable
++ _associated conformance 12ExchangeSync24EXSGSHeartbeatSkipReasonOSHAASQ
++ _associated conformance 12ExchangeSync24EXSGSUpdateNoteOperationVAA0c4ItemE0AA7RequestAaDP_05GraphB00hB11Requestable
++ _associated conformance 12ExchangeSync29EXSGSGetEventICalUIdOperationVAA013EXSGSReadOnlyG0AA7RequestAaDP_05GraphB00kB11Requestable
++ _associated conformance 12ExchangeSync31EXSGSGetCalendarsDeltaOperationVAA0c5ItemseF0AA19ItemQuantityRequestAaDP_05GraphB00kB11Requestable
++ _associated conformance 12ExchangeSync31EXSGSGetCalendarsDeltaOperationVAA0c5ItemseF0AA19ItemQuantityRequestAaDP_05GraphB00kB14ODataQueryable
++ _associated conformance 12ExchangeSync31EXSGSGetCalendarsDeltaOperationVAA0c5ItemseF0AA7RequestAaDP_05GraphB00iB11Requestable
++ _associated conformance 12ExchangeSync31EXSGSGetCalendarsDeltaOperationVAA0c5ItemseF0AA8ResourceAaDP_05GraphB00iB10Responsive
++ _associated conformance 12ExchangeSync31EXSGSGetCalendarsDeltaOperationVAA0c5ItemseF0AA8ResponseAaDP_05GraphB00iB10Responsive
++ _associated conformance 12ExchangeSync31EXSGSGetTodoTasksDeltaOperationVAA0c5ItemsfG0AA19ItemQuantityRequestAaDP_05GraphB00lB11Requestable
++ _associated conformance 12ExchangeSync31EXSGSGetTodoTasksDeltaOperationVAA0c5ItemsfG0AA19ItemQuantityRequestAaDP_05GraphB00lB14ODataQueryable
++ _associated conformance 12ExchangeSync33EXSGSGetStickyNotesDeltaOperationVAA0c5ItemsfG0AA19ItemQuantityRequestAaDP_05GraphB00lB11Requestable
++ _associated conformance 12ExchangeSync33EXSGSGetStickyNotesDeltaOperationVAA0c5ItemsfG0AA19ItemQuantityRequestAaDP_05GraphB00lB14ODataQueryable
++ _associated conformance 12ExchangeSync33EXSGSServerDeletionClassificationOSHAASQ
++ _associated conformance 12ExchangeSync35EXSGSGetTodoTaskListsDeltaOperationVAA0c5ItemsgH0AA19ItemQuantityRequestAaDP_05GraphB00mB11Requestable
++ _associated conformance 12ExchangeSync35EXSGSGetTodoTaskListsDeltaOperationVAA0c5ItemsgH0AA19ItemQuantityRequestAaDP_05GraphB00mB14ODataQueryable
++ _associated conformance 12ExchangeSync35EXSGSListDelegateCalendarsOperationVAA018EXSGSGetItemsDeltaF0AA19ItemQuantityRequestAaDP_05GraphB00mB11Requestable
++ _associated conformance 12ExchangeSync35EXSGSListDelegateCalendarsOperationVAA018EXSGSGetItemsDeltaF0AA19ItemQuantityRequestAaDP_05GraphB00mB14ODataQueryable
++ _associated conformance 12ExchangeSync35EXSGSListDelegateCalendarsOperationVAA018EXSGSGetItemsDeltaF0AA7RequestAaDP_05GraphB00kB11Requestable
++ _associated conformance 12ExchangeSync35EXSGSListDelegateCalendarsOperationVAA018EXSGSGetItemsDeltaF0AA8ResourceAaDP_05GraphB00kB10Responsive
++ _associated conformance 12ExchangeSync35EXSGSListDelegateCalendarsOperationVAA018EXSGSGetItemsDeltaF0AA8ResponseAaDP_05GraphB00kB10Responsive
++ _associated conformance 12ExchangeSync36EXSGSGetCalendarEventsDeltaOperationV16ExceptionIDProbe33_A1DF52EABB000994013E355FFDE23C75LLV0H0V10CodingKeysOSHAASQ
++ _associated conformance 12ExchangeSync36EXSGSGetCalendarEventsDeltaOperationV16ExceptionIDProbe33_A1DF52EABB000994013E355FFDE23C75LLV0H0V10CodingKeysOs0P3KeyAAs23CustomStringConvertible
++ _associated conformance 12ExchangeSync36EXSGSGetCalendarEventsDeltaOperationV16ExceptionIDProbe33_A1DF52EABB000994013E355FFDE23C75LLV0H0V10CodingKeysOs0P3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12ExchangeSync36EXSGSGetCalendarEventsDeltaOperationV16ExceptionIDProbe33_A1DF52EABB000994013E355FFDE23C75LLV10CodingKeysOSHAASQ
++ _associated conformance 12ExchangeSync36EXSGSGetCalendarEventsDeltaOperationV16ExceptionIDProbe33_A1DF52EABB000994013E355FFDE23C75LLV10CodingKeysOs0P3KeyAAs23CustomStringConvertible
++ _associated conformance 12ExchangeSync36EXSGSGetCalendarEventsDeltaOperationV16ExceptionIDProbe33_A1DF52EABB000994013E355FFDE23C75LLV10CodingKeysOs0P3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12ExchangeSync36EXSGSGetCalendarEventsDeltaOperationVAA0c5ItemsfG0AA19ItemQuantityRequestAaDP_05GraphB00lB11Requestable
++ _associated conformance 12ExchangeSync36EXSGSGetCalendarEventsDeltaOperationVAA0c5ItemsfG0AA19ItemQuantityRequestAaDP_05GraphB00lB14ODataQueryable
++ _associated conformance 12ExchangeSync38EXSGSListInboxMeetingRequestsOperationVAA013EXSGSReadOnlyG0AA7RequestAaDP_05GraphB00kB11Requestable
++ _associated conformance 12ExchangeSync42EXSGSSingleValueExtendedPropertyDefinitionV0F4TypeOSHAASQ
++ _associated conformance 9GraphSync0aB22CalendarFolderResourceV08ExchangeB019EXSGSGetRequestableAD10GetRequestAdEP_AA0abH0
++ _associated conformance 9GraphSync0aB22CalendarFolderResourceV08ExchangeB021EXSGSDeltaRequestableAD12DeltaRequestAdEP_AA0abH0
++ _associated conformance So13EXSFolderTypeVSHSCSQ
++ _get_enum_tag_for_layout_string 12ExchangeSync18EXSGSDeltaTerminalO
++ _get_enum_tag_for_layout_string 12ExchangeSync18EXSGSNoteFolderMapVSg
++ _get_enum_tag_for_layout_string 12ExchangeSync26EXSGSNoteFolderMapSelectorV6WinnerVSg
++ _get_enum_tag_for_layout_string 12ExchangeSync36EXSGSCalendarEventAttachmentDownsyncO06ServerE5StateO
++ _get_enum_tag_for_layout_string 12ExchangeSync38EXSGSListInboxMeetingRequestsOperationV4Page33_20A1BFEF908EFDA80232F0D3DF2248AFLLO
++ _objc_msgSend$_childFoldersWithParentExternalID:includingDeleted:
++ _objc_msgSend$_dataConsumerInstanceForFolderType:
++ _objc_msgSend$_drainOutstandingChangeItems
++ _objc_msgSend$_foldersWithFolderType:markedAsDeleted:
++ _objc_msgSend$changeItemWithResolvedExternalID:
++ _objc_msgSend$compressedDataUsingAlgorithm:error:
++ _objc_msgSend$decompressedDataUsingAlgorithm:error:
++ _objc_msgSend$deleteItemWithExternalID:
++ _objc_msgSend$driftSnapshotsForExternalIDs:
++ _objc_msgSend$externalIDWasResolvedForDetachment
++ _objc_msgSend$fetchPropertiesBlobForChangeSource:
++ _objc_msgSend$findChildFoldersWithParentExternalID:includingDeleted:
++ _objc_msgSend$findDeletedFolderWithInternalID:
++ _objc_msgSend$findDeletedFoldersWithFolderType:
++ _objc_msgSend$findItemsInFolderID:
++ _objc_msgSend$fireFlushFolderChangesSynchronously
++ _objc_msgSend$fireFlushItemChangesSynchronouslyForFolder:
++ _objc_msgSend$flushFolderChangesSynchronouslyForProtocol:
++ _objc_msgSend$flushOutstandingChangeItemsSynchronously
++ _objc_msgSend$folderIDHoldsItems:
++ _objc_msgSend$getExternalParentFolderIDForMovingChangeItemWithParentID:
++ _objc_msgSend$hasChangeItemsSinceChangeID:skippingChangeSourceID:
++ _objc_msgSend$initWithExternalChangeKey:
++ _objc_msgSend$markNoteFoldersDeletedWithFolderIDs:
++ _objc_msgSend$orderedSetWithCapacity:
++ _objc_msgSend$persistChangeItems:forChangeSource:
++ _objc_msgSend$pushChangeItemsWithOutcome:withTrackingToken:
++ _objc_msgSend$replaceExternalFolderID:forDistinguishedFolderType:
++ _objc_msgSend$responseDispositionEndDate
++ _objc_msgSend$responseDispositionEndDateSpecified
++ _objc_msgSend$savePropertiesBlobForChangeSource:withBlob:
++ _objc_msgSend$setExternalIDWasResolvedForDetachment:
++ _objc_msgSend$setResponseDispositionEndDate:
++ _objc_msgSend$setSourceCalendarExternalID:
++ _objc_msgSend$sourceCalendarExternalID
++ _objc_msgSend$sourceCalendarExternalIDSpecified
++ _objc_msgSend$string:matches:
++ _objc_msgSend$syncProtocol:flushItemChangesSynchronouslyInFolder:
++ _objc_msgSend$topic
++ _swift_cvw_allocateGenericValueMetadataWithLayoutString
++ _swift_cvw_instantiateLayoutString
++ _swift_getTupleTypeMetadata2
++ _swift_stdlib_random
++ _symbolic $s12ExchangeSync18EXSGSChecksDeletedP
++ _symbolic $s12ExchangeSync18EXSGSHydrationHookP
++ _symbolic $s12ExchangeSync19EXSGSGetRequestableP
++ _symbolic $s12ExchangeSync19EXSGSHeartbeatStoreP
++ _symbolic $s12ExchangeSync21EXSGSBearsRemovalInfoP
++ _symbolic $s12ExchangeSync21EXSGSDeltaRequestableP
++ _symbolic $s12ExchangeSync22EXSGSReadOnlyOperationP
++ _symbolic $s12ExchangeSync24EXSGSNoteFolderOperationP
++ _symbolic $s12ExchangeSync25EXSGSIdentifiableResourceP
++ _symbolic $s12ExchangeSync31EXSGSResourceMergesWithHydratedP
++ _symbolic $s12ExchangeSync37EXSGSConflictResolvingUpdateOperationP
++ _symbolic $s12ExchangeSync41EXSGSCanAddSingleValueExtensionExpansionsP
++ _symbolic 10GetRequest_____Qz 12ExchangeSync19EXSGSGetRequestableP
++ _symbolic 12DeltaRequest_____Qz 12ExchangeSync21EXSGSDeltaRequestableP
++ _symbolic 14PageCollection_____Qz 12ExchangeSync27EXSGSGetItemsDeltaOperationP
++ _symbolic 19ItemQuantityRequest_____Qz 12ExchangeSync27EXSGSGetItemsDeltaOperationP
++ _symbolic 7ElementSTQz
++ _symbolic 7Request_____Qz 12ExchangeSync22EXSGSReadOnlyOperationP
++ _symbolic SDySSSaySSGG
++ _symbolic SDySS_____G 12ExchangeSync19EXSGSNoteFolderTreeV4NodeV
++ _symbolic SDySS_____G 12ExchangeSync19EXSPushSubscriptionV
++ _symbolic SDySS_____G 12ExchangeSync22EXSGSAttachmentManagerC12DownloadLane33_072DC6A9C1AB6733BC7ED7AD2387F139LLO
++ _symbolic SDySS_____SgG 12ExchangeSync18EXSGSNoteFolderMapV
++ _symbolic SDy_____So7NSErrorCG So13EXSFolderTypeV
++ _symbolic SDy__________G 12ExchangeSync19EXSGSHeartbeatScopeO s5Int64V
++ _symbolic SS10externalID______8itemTypet So013EXSChangeItemB4TypeV
++ _symbolic SS3key______5valuet 12ExchangeSync19EXSPushSubscriptionV
++ _symbolic SS6cursor_t
++ _symbolic SS6filter_Si8pageSizet
++ _symbolic SS8folderID_SSSg9changeKeyt
++ _symbolic SS8masterID_Si14candidateCountt
++ _symbolic SS8nextLink_t
++ _symbolic SSIegg_
++ _symbolic SS_Say_____Gt 9GraphSync0aB13EventResourceV
++ _symbolic SSytIegnr_
++ _symbolic SaySo7EXSItemCG
++ _symbolic SaySo9EXSFolderCG
++ _symbolic Say_____G 12ExchangeSync22EXSGSAttachmentManagerC15PendingDownload33_072DC6A9C1AB6733BC7ED7AD2387F139LLV
++ _symbolic Say_____G 12ExchangeSync23EXSGSNoteFolderMapEntryV
++ _symbolic Say_____G 12ExchangeSync26EXSGSNoteFolderRemovalPlanV7BlockedV
++ _symbolic Say_____G 12ExchangeSync36EXSGSGetCalendarEventsDeltaOperationV16ExceptionIDProbe33_A1DF52EABB000994013E355FFDE23C75LLV0H0V
++ _symbolic Say_____G 9GraphSync0aB18AttachmentResourceV
++ _symbolic Say_____GSg 12ExchangeSync36EXSGSGetCalendarEventsDeltaOperationV16ExceptionIDProbe33_A1DF52EABB000994013E355FFDE23C75LLV0H0V
++ _symbolic Say_____GSg 9GraphSync0aB41SingleValueLegacyExtendedPropertyResourceV
++ _symbolic SayxG
++ _symbolic Sb8inserted_SS17memberAfterInsertt
++ _symbolic SbSaySSGKc
++ _symbolic ScCy___________pG 12ExchangeSync25WebPushSubscriptionResultV s5ErrorP
++ _symbolic Sd
++ _symbolic Sd5after_t
++ _symbolic ShySiG
++ _symbolic Si6offset______7elementt 10Foundation4DateV
++ _symbolic Si6status_SSSg9requestIDt
++ _symbolic Si_S3it
++ _symbolic So13EXSChangeItemCSSSgIeggo_Sg
++ _symbolic So22EXSNotesItemPropertiesC
++ _symbolic So7EXSItemC
++ _symbolic _____ 12ExchangeSync010EXSGSDeltaB6PolicyO23DeltaFailureDispositionO
++ _symbolic _____ 12ExchangeSync11EXSGSConfigO9HeartbeatO
++ _symbolic _____ 12ExchangeSync13EXSGSDeltaLogO
++ _symbolic _____ 12ExchangeSync14EXSGSIdContextV
++ _symbolic _____ 12ExchangeSync14WebPushWireKeyO
++ _symbolic _____ 12ExchangeSync15EXSGSDeltaRoundV
++ _symbolic _____ 12ExchangeSync15EXSGSPollActionO
++ _symbolic _____ 12ExchangeSync16EXSGSRetryPolicyO
++ _symbolic _____ 12ExchangeSync16EXSGSRetryPolicyO6BudgetC
++ _symbolic _____ 12ExchangeSync16EXSGSRetryPolicyO6ConfigV
++ _symbolic _____ 12ExchangeSync17EXSGSDriftSkipKeyV
++ _symbolic _____ 12ExchangeSync18EXSGSDeltaRoundLogV
++ _symbolic _____ 12ExchangeSync18EXSGSDeltaRoundLogV10CursorKindO
++ _symbolic _____ 12ExchangeSync18EXSGSDeltaRoundLogV13FailureFieldsV
++ _symbolic _____ 12ExchangeSync18EXSGSDeltaTerminalO
++ _symbolic _____ 12ExchangeSync18EXSGSNoteFolderMapV
++ _symbolic _____ 12ExchangeSync18EXSGSNoteFolderMapV10CodingKeysO
++ _symbolic _____ 12ExchangeSync18EXSGSRetryDecisionO
++ _symbolic _____ 12ExchangeSync19EXSGSDeltaRoundModeO
++ _symbolic _____ 12ExchangeSync19EXSGSHeartbeatScopeO
++ _symbolic _____ 12ExchangeSync19EXSGSNoteFolderTreeV
++ _symbolic _____ 12ExchangeSync19EXSGSNoteFolderTreeV4NodeV
++ _symbolic _____ 12ExchangeSync20EXSGSDeltaPageBudgetV
++ _symbolic _____ 12ExchangeSync20EXSGSHeartbeatPolicyO
++ _symbolic _____ 12ExchangeSync20EXSGSHydrationHelperO
++ _symbolic _____ 12ExchangeSync20EXSGSHydrationHelperO18OutcomeHookMessageO
++ _symbolic _____ 12ExchangeSync21EXSGSDeltaPageFetcherV
++ _symbolic _____ 12ExchangeSync22EXSGSAttachmentManagerC12DownloadLane33_072DC6A9C1AB6733BC7ED7AD2387F139LLO
++ _symbolic _____ 12ExchangeSync22EXSGSAttachmentManagerC15PendingDownload33_072DC6A9C1AB6733BC7ED7AD2387F139LLV
++ _symbolic _____ 12ExchangeSync22EXSGSDeltaPagePipelineC
++ _symbolic _____ 12ExchangeSync22EXSGSHeartbeatDecisionO
++ _symbolic _____ 12ExchangeSync22EXSGSNoteFolderOutcomeO
++ _symbolic _____ 12ExchangeSync23EXSGSNoteFolderMapCodecO
++ _symbolic _____ 12ExchangeSync23EXSGSNoteFolderMapCodecO10DecodeMemoC
++ _symbolic _____ 12ExchangeSync23EXSGSNoteFolderMapEntryV
++ _symbolic _____ 12ExchangeSync23EXSGSNoteFolderMapEntryV10CodingKeysO
++ _symbolic _____ 12ExchangeSync23EXSGSNoteFolderMapStateV
++ _symbolic _____ 12ExchangeSync23EXSGSNoteFolderMapStoreO
++ _symbolic _____ 12ExchangeSync23EXSGSNoteFolderMetadataV
++ _symbolic _____ 12ExchangeSync23EXSGSNoteFolderMetadataV10CodingKeysO
++ _symbolic _____ 12ExchangeSync24EXSGSDeltaItemCountProbeV
++ _symbolic _____ 12ExchangeSync24EXSGSEventResponsePolicyO
++ _symbolic _____ 12ExchangeSync24EXSGSHeartbeatSkipReasonO
++ _symbolic _____ 12ExchangeSync25EXSGSDeltaDriftSkipFilterO
++ _symbolic _____ 12ExchangeSync25EXSGSDeltaDriftSkipFilterO7OutcomeV
++ _symbolic _____ 12ExchangeSync25WebPushSubscriptionResultV
++ _symbolic _____ 12ExchangeSync26EXSGSBatchThrottleExecutorO
++ _symbolic _____ 12ExchangeSync26EXSGSBatchThrottleExecutorO12ChunkOutcomeV
++ _symbolic _____ 12ExchangeSync26EXSGSBatchThrottleExecutorO18DeleteChunkOutcomeV
++ _symbolic _____ 12ExchangeSync26EXSGSBatchThrottleExecutorO19HydrationRoundStateC
++ _symbolic _____ 12ExchangeSync26EXSGSBatchThrottleExecutorO20AuthRenewalAllowanceC
++ _symbolic _____ 12ExchangeSync26EXSGSNoteFolderMapSelectorV
++ _symbolic _____ 12ExchangeSync26EXSGSNoteFolderMapSelectorV6WinnerV
++ _symbolic _____ 12ExchangeSync26EXSGSNoteFolderRemovalPlanV
++ _symbolic _____ 12ExchangeSync26EXSGSNoteFolderRemovalPlanV7BlockedV
++ _symbolic _____ 12ExchangeSync27EXSGSInMemoryHeartbeatStoreC
++ _symbolic _____ 12ExchangeSync27EXSGSNoteExtendedPropertiesO
++ _symbolic _____ 12ExchangeSync27EXSGSResolvedResponseFieldsV
++ _symbolic _____ 12ExchangeSync28EXSGSMoveNoteFolderOperationV
++ _symbolic _____ 12ExchangeSync29EXSGSGetEventICalUIdOperationV
++ _symbolic _____ 12ExchangeSync29EXSGSNoteFolderMetadataMapperO
++ _symbolic _____ 12ExchangeSync30EXSGSCreateNoteFolderOperationV
++ _symbolic _____ 12ExchangeSync30EXSGSDeleteNoteFolderOperationV
++ _symbolic _____ 12ExchangeSync30EXSGSUpdateNoteFolderOperationV
++ _symbolic _____ 12ExchangeSync31EXSGSCalendarExtendedPropertiesO
++ _symbolic _____ 12ExchangeSync31EXSGSEventSingleValueExtensionsO
++ _symbolic _____ 12ExchangeSync31EXSGSGetCalendarsDeltaOperationV
++ _symbolic _____ 12ExchangeSync31EXSGSMoveCalendarEventOperationV
++ _symbolic _____ 12ExchangeSync32EXSGSAdoptNoteFolderMapOperationV
++ _symbolic _____ 12ExchangeSync32EXSGSAdoptNoteFolderMapOperationV6ResultV
++ _symbolic _____ 12ExchangeSync33EXSGSGetStickyNotesDeltaOperationV16RoundFolderStateV
++ _symbolic _____ 12ExchangeSync33EXSGSGetStickyNotesDeltaOperationV17PageAdoptionTallyC
++ _symbolic _____ 12ExchangeSync33EXSGSResolveOccurrenceIDOperationV
++ _symbolic _____ 12ExchangeSync33EXSGSServerDeletionClassificationO
++ _symbolic _____ 12ExchangeSync34EXSGSPublishNoteFolderMapOperationV
++ _symbolic _____ 12ExchangeSync34EXSGSPublishNoteFolderMapOperationV12CarrierState33_106119E81AB9E9D555A65B4602533136LLV
++ _symbolic _____ 12ExchangeSync34EXSGSRemoveMeetingRequestOperationC
++ _symbolic _____ 12ExchangeSync35EXSGSListDelegateCalendarsOperationV
++ _symbolic _____ 12ExchangeSync36EXSGSCalendarEventAttachmentDownsyncO06ServerE5StateO
++ _symbolic _____ 12ExchangeSync36EXSGSGetCalendarEventsDeltaOperationV16ExceptionIDProbe33_A1DF52EABB000994013E355FFDE23C75LLV
++ _symbolic _____ 12ExchangeSync36EXSGSGetCalendarEventsDeltaOperationV16ExceptionIDProbe33_A1DF52EABB000994013E355FFDE23C75LLV0H0V
++ _symbolic _____ 12ExchangeSync36EXSGSGetCalendarEventsDeltaOperationV16ExceptionIDProbe33_A1DF52EABB000994013E355FFDE23C75LLV0H0V10CodingKeysO
++ _symbolic _____ 12ExchangeSync36EXSGSGetCalendarEventsDeltaOperationV16ExceptionIDProbe33_A1DF52EABB000994013E355FFDE23C75LLV10CodingKeysO
++ _symbolic _____ 12ExchangeSync36EXSGSGetCalendarEventsDeltaOperationV24RoundReconciliationState33_A1DF52EABB000994013E355FFDE23C75LLC
++ _symbolic _____ 12ExchangeSync36EXSGSGetMeetingRequestItemsOperationC11TargetEventV
++ _symbolic _____ 12ExchangeSync38EXSGSListInboxMeetingRequestsOperationV
++ _symbolic _____ 12ExchangeSync38EXSGSListInboxMeetingRequestsOperationV4Page33_20A1BFEF908EFDA80232F0D3DF2248AFLLO
++ _symbolic _____ 12ExchangeSync42EXSGSSingleValueExtendedPropertyDefinitionV
++ _symbolic _____ 12ExchangeSync42EXSGSSingleValueExtendedPropertyDefinitionV0F4TypeO
++ _symbolic _____ 12ExchangeSync8EXSGSLogO
++ _symbolic _____ 8Dispatch0A4TimeV
++ _symbolic _____ 9GraphSync0aB21ListCalendarsResponseV
++ _symbolic _____ 9GraphSync0aB22ListStickyNotesRequestV
++ _symbolic _____ 9GraphSync0aB23DeleteStickyNoteRequestV
++ _symbolic _____ 9GraphSync0aB23UpdateStickyNoteRequestV
++ _symbolic _____ 9GraphSync0aB24GetCalendarsDeltaRequestV
++ _symbolic _____ 9GraphSync0aB24ListEventMessagesRequestV
++ _symbolic _____ 9GraphSync0aB25GetCalendarsDeltaResponseV
++ _symbolic _____ So13EXSFolderTypeV
++ _symbolic _____5batch_SaySSG10requestIDsAC09survivingC0AC06culledC0t 9GraphSync0aB12BatchRequestV
++ _symbolic _____5batch_SaySSG10requestIDsAC09survivingC0AC06culledC0tSg 9GraphSync0aB12BatchRequestV
++ _symbolic _____Sg 12ExchangeSync17EXSGSDriftSkipKeyV
++ _symbolic _____Sg 12ExchangeSync18EXSGSNoteFolderMapV
++ _symbolic _____Sg 12ExchangeSync19EXSGSNoteFolderTreeV4NodeV
++ _symbolic _____Sg 12ExchangeSync26EXSGSNoteFolderMapSelectorV6WinnerV
++ _symbolic _____Sg 12ExchangeSync36EXSGSGetMeetingRequestItemsOperationC11TargetEventV
++ _symbolic _____Sg 9GraphSync0aB13ErrorResponseV
++ _symbolic _____Sg 9GraphSync0aB16TodoTaskResourceV
++ _symbolic _____Sg 9GraphSync0aB41SingleValueLegacyExtendedPropertyResourceV
++ _symbolic _____Sg 9GraphSync0aB5ErrorV0ab5InnerC0V
++ _symbolic _____XDXMT 12ExchangeSync19EXSAPNSPushProviderC
++ _symbolic _____XDXMT 12ExchangeSync22EXSGSAttachmentManagerC
++ _symbolic ______SaySSGA2Bt 9GraphSync0aB12BatchRequestV
++ _symbolic ______p 10Foundation15ContiguousBytesP
++ _symbolic ______p 12ExchangeSync18EXSGSHydrationHookP
++ _symbolic ______p 12ExchangeSync19EXSGSHeartbeatStoreP
++ _symbolic ______p 12ExchangeSync24EXSGSDeleteItemOperationP
++ _symbolic ______p 9GraphSync0aB10ResponsiveP
++ _symbolic ______pSg 9GraphSync0aB11RequestableP
++ _symbolic _____m 12ExchangeSync34EXSGSRemoveMeetingRequestOperationC
++ _symbolic _____ySS10externalID______8itemTypetG s23_ContiguousArrayStorageC So013EXSChangeItemE4TypeV
++ _symbolic _____ySSG s10_NativeSetV
++ _symbolic _____ySSSaySSGG s18_DictionaryStorageC
++ _symbolic _____ySSSay_____GG s18_DictionaryStorageC 9GraphSync0cD13EventResourceV
++ _symbolic _____ySSSgG s23_ContiguousArrayStorageC
++ _symbolic _____ySSSiG s18_DictionaryStorageC
++ _symbolic _____ySS_Say_____GtG s23_ContiguousArrayStorageC 9GraphSync0dE13EventResourceV
++ _symbolic _____ySS_____G s18_DictionaryStorageC 12ExchangeSync19EXSGSNoteFolderTreeV4NodeV
++ _symbolic _____ySS_____G s18_DictionaryStorageC 12ExchangeSync19EXSPushSubscriptionV
++ _symbolic _____ySS_____G s18_DictionaryStorageC 12ExchangeSync22EXSGSAttachmentManagerC12DownloadLane33_072DC6A9C1AB6733BC7ED7AD2387F139LLO
++ _symbolic _____ySS_____G s18_DictionaryStorageC 12ExchangeSync23EXSGSNoteFolderMapEntryV
++ _symbolic _____ySS_____G s18_DictionaryStorageC 12ExchangeSync36EXSGSCalendarEventAttachmentDownsyncO06ServerG5StateO
++ _symbolic _____ySS_____SgG s18_DictionaryStorageC 12ExchangeSync18EXSGSNoteFolderMapV
++ _symbolic _____ySS______tG s23_ContiguousArrayStorageC 9GraphSync0de8DateTimeG12ZoneResourceV
++ _symbolic _____ySaySSGG s23_ContiguousArrayStorageC
++ _symbolic _____ySi6status_SSSg9requestIDtG s23_ContiguousArrayStorageC
++ _symbolic _____ySiG s8StrideToV
++ _symbolic _____ySnySiGG s23_ContiguousArrayStorageC
++ _symbolic _____y_____G 9CryptoKit24HashedAuthenticationCodeV AA6SHA256V
++ _symbolic _____y_____G s11_SetStorageC 9GraphSync0cD15EventUpdateDataV10CodingKeysO
++ _symbolic _____y_____G s11_SetStorageC 9GraphSync0cD18TodoTaskUpdateDataV10CodingKeysO
++ _symbolic _____y_____G s14PrefixSequenceV 9CryptoKit12SHA256DigestV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12ExchangeSync18EXSGSNoteFolderMapV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12ExchangeSync23EXSGSNoteFolderMapEntryV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12ExchangeSync23EXSGSNoteFolderMetadataV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12ExchangeSync36EXSGSGetCalendarEventsDeltaOperationV16ExceptionIDProbe33_A1DF52EABB000994013E355FFDE23C75LLV0K0V10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12ExchangeSync36EXSGSGetCalendarEventsDeltaOperationV16ExceptionIDProbe33_A1DF52EABB000994013E355FFDE23C75LLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12ExchangeSync18EXSGSNoteFolderMapV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12ExchangeSync23EXSGSNoteFolderMapEntryV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12ExchangeSync23EXSGSNoteFolderMetadataV10CodingKeysO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation4DateV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation8TimeZoneV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12ExchangeSync19EXSGSNoteFolderTreeV4NodeV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12ExchangeSync19EXSPushSubscriptionV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12ExchangeSync22EXSGSAttachmentManagerC15PendingDownload33_072DC6A9C1AB6733BC7ED7AD2387F139LLV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12ExchangeSync23EXSGSNoteFolderMapEntryV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12ExchangeSync26EXSGSNoteFolderRemovalPlanV7BlockedV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12ExchangeSync42EXSGSSingleValueExtendedPropertyDefinitionV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9GraphSync0dE41SingleValueLegacyExtendedPropertyResourceV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC So13EXSFolderTypeV
++ _symbolic _____y_____So7NSErrorCG s18_DictionaryStorageC So13EXSFolderTypeV
++ _symbolic _____y__________G s18_DictionaryStorageC 12ExchangeSync19EXSGSHeartbeatScopeO s5Int64V
++ _symbolic _____y_____y_____ySaySo9EXSFolderCGSaySo7EXSItemCGGGG s12LazySequenceV s07FlattenB0V s0a3MapB0V
++ _symbolic ySSc
++ _type_layout_string 12ExchangeSync14EXSGSIdContextV
++ _type_layout_string 12ExchangeSync16EXSGSRetryPolicyO6ConfigV
++ _type_layout_string 12ExchangeSync17EXSGSDriftSkipKeyV
++ _type_layout_string 12ExchangeSync18EXSGSDeltaRoundLogV
++ _type_layout_string 12ExchangeSync18EXSGSDeltaRoundLogV13FailureFieldsV
++ _type_layout_string 12ExchangeSync18EXSGSDeltaTerminalO
++ _type_layout_string 12ExchangeSync18EXSGSNoteFolderMapV
++ _type_layout_string 12ExchangeSync19EXSGSHeartbeatScopeO
++ _type_layout_string 12ExchangeSync19EXSGSNoteFolderTreeV
++ _type_layout_string 12ExchangeSync19EXSGSNoteFolderTreeV4NodeV
++ _type_layout_string 12ExchangeSync20EXSGSDeltaPageBudgetV
++ _type_layout_string 12ExchangeSync23EXSGSNoteFolderMapEntryV
++ _type_layout_string 12ExchangeSync23EXSGSNoteFolderMapStateV
++ _type_layout_string 12ExchangeSync23EXSGSNoteFolderMetadataV
++ _type_layout_string 12ExchangeSync25WebPushSubscriptionResultV
++ _type_layout_string 12ExchangeSync26EXSGSBatchThrottleExecutorO18DeleteChunkOutcomeV
++ _type_layout_string 12ExchangeSync26EXSGSNoteFolderMapSelectorV
++ _type_layout_string 12ExchangeSync26EXSGSNoteFolderMapSelectorV6WinnerV
++ _type_layout_string 12ExchangeSync26EXSGSNoteFolderRemovalPlanV
++ _type_layout_string 12ExchangeSync26EXSGSNoteFolderRemovalPlanV7BlockedV
++ _type_layout_string 12ExchangeSync28EXSGSMoveNoteFolderOperationV
++ _type_layout_string 12ExchangeSync29EXSGSGetEventICalUIdOperationV
++ _type_layout_string 12ExchangeSync30EXSGSCreateNoteFolderOperationV
++ _type_layout_string 12ExchangeSync30EXSGSDeleteNoteFolderOperationV
++ _type_layout_string 12ExchangeSync30EXSGSUpdateNoteFolderOperationV
++ _type_layout_string 12ExchangeSync31EXSGSGetCalendarsDeltaOperationV
++ _type_layout_string 12ExchangeSync31EXSGSMoveCalendarEventOperationV
++ _type_layout_string 12ExchangeSync32EXSGSAdoptNoteFolderMapOperationV
++ _type_layout_string 12ExchangeSync32EXSGSAdoptNoteFolderMapOperationV6ResultV
++ _type_layout_string 12ExchangeSync33EXSGSGetStickyNotesDeltaOperationV16RoundFolderStateV
++ _type_layout_string 12ExchangeSync33EXSGSResolveOccurrenceIDOperationV
++ _type_layout_string 12ExchangeSync34EXSGSPublishNoteFolderMapOperationV
++ _type_layout_string 12ExchangeSync34EXSGSPublishNoteFolderMapOperationV12CarrierState33_106119E81AB9E9D555A65B4602533136LLV
++ _type_layout_string 12ExchangeSync35EXSGSListDelegateCalendarsOperationV
++ _type_layout_string 12ExchangeSync36EXSGSCalendarEventAttachmentDownsyncO06ServerE5StateO
++ _type_layout_string 12ExchangeSync36EXSGSGetCalendarEventsDeltaOperationV16ExceptionIDProbe33_A1DF52EABB000994013E355FFDE23C75LLV
++ _type_layout_string 12ExchangeSync36EXSGSGetCalendarEventsDeltaOperationV16ExceptionIDProbe33_A1DF52EABB000994013E355FFDE23C75LLV0H0V
++ _type_layout_string 12ExchangeSync38EXSGSListInboxMeetingRequestsOperationV
++ _type_layout_string 12ExchangeSync38EXSGSListInboxMeetingRequestsOperationV4Page33_20A1BFEF908EFDA80232F0D3DF2248AFLLO
++ _type_layout_string 12ExchangeSync42EXSGSSingleValueExtendedPropertyDefinitionV
++ _type_layout_string l12ExchangeSync25EXSGSDeltaDriftSkipFilterO7OutcomeVy_xG
++ _type_layout_string l12ExchangeSync26EXSGSBatchThrottleExecutorO12ChunkOutcomeVy_xG
++ get_witness_table s12LazySequenceVys07FlattenB0Vys0a3MapB0VySaySo9EXSFolderCGSaySo7EXSItemCGGGGSTHPyHC
+- -[EXSSyncProtocol pushAbortedByGateCancellation]
+- -[EXSSyncProtocol setPushAbortedByGateCancellation:]
+- GCC_except_table12
+- GCC_except_table16
+- GCC_except_table20
+- GCC_except_table22
+- GCC_except_table26
+- GCC_except_table40
+- GCC_except_table57
+- OBJC_IVAR_$_EXSSyncProtocol._pushAbortedByGateCancellation
+- __OBJC_$_INSTANCE_METHODS_EXSGSSyncProtocol(ExchangeSync|ExchangeSync)
+- __OBJC_CLASS_PROTOCOLS_$_EXSGSSyncProtocol(ExchangeSync|ExchangeSync)
+- _associated conformance 12ExchangeSync35EXSGSListAllCalendarEventsOperationVAA0c5ItemsG0AA7RequestAaDP_05GraphB00jB11Requestable
+- _associated conformance 12ExchangeSync35EXSGSListAllCalendarEventsOperationVAA0c5ItemsG0AA8ResourceAaDP_05GraphB00jB10Responsive
+- _associated conformance 12ExchangeSync35EXSGSListAllCalendarEventsOperationVAA0c5ItemsG0AA8ResponseAaDP_05GraphB00jB10Responsive
+- _associated conformance 12ExchangeSync45EXSGSGetCalendarEventDeltasDateRangeOperationVAA0c10ItemsDeltaI0AA7RequestAaDP_05GraphB00mB11Requestable
+- _associated conformance 12ExchangeSync45EXSGSGetCalendarEventDeltasDateRangeOperationVAA0c10ItemsDeltaI0AA8ResourceAaDP_05GraphB00mB10Responsive
+- _associated conformance 12ExchangeSync45EXSGSGetCalendarEventDeltasDateRangeOperationVAA0c10ItemsDeltaI0AA8ResponseAaDP_05GraphB00mB10Responsive
+- _objc_msgSend$pushAbortedByGateCancellation
+- _objc_msgSend$setPushAbortedByGateCancellation:
+- _symbolic SDySS_____G 9GraphSync0ab8DateTimeD12ZoneResourceV
+- _symbolic SS3key______5valuet 9GraphSync0ab8DateTimeD12ZoneResourceV
+- _symbolic SS3key______5valuetSg 9GraphSync0ab8DateTimeD12ZoneResourceV
+- _symbolic Say_____G 9GraphSync0aB13EventResourceV
+- _symbolic Say_____GSg 9GraphSync0aB13EventResourceV
+- _symbolic ScCySS______pG s5ErrorP
+- _symbolic So17OS_dispatch_groupC
+- _symbolic _____ 12ExchangeSync23EXSGSListNotesOperationV
+- _symbolic _____ 12ExchangeSync35EXSGSListAllCalendarEventsOperationV
+- _symbolic _____ 12ExchangeSync35EXSGSListAllCalendarEventsOperationV17CollectedPageDataV
+- _symbolic _____ 12ExchangeSync36EXSGSGetCalendarEventsDeltaOperationV17CollectedPageDataV
+- _symbolic _____ 12ExchangeSync45EXSGSGetCalendarEventDeltasDateRangeOperationV
+- _symbolic _____ 12ExchangeSync45EXSGSGetCalendarEventDeltasDateRangeOperationV17CollectedPageDataV
+- _symbolic _____ 9GraphSync0aB24EventsCollectionResponseV
+- _symbolic _____ 9GraphSync0aB28GetCalendarEventDeltaRequestV
+- _symbolic _____ 9GraphSync0aB29GetCalendarEventDeltaResponseV
+- _symbolic _____5start_AA3endt 10Foundation4DateV
+- _symbolic _____Sg 9GraphSync0aB19MessageListResourceV
+- _symbolic _____Sg 9GraphSync0aB20EventMessageResourceV
+- _symbolic _____Sg 9GraphSync0aB20ListCalendarsRequestV
+- _symbolic _____Sg 9GraphSync0aB22StickyNoteListResourceV
+- _symbolic _____Sg 9GraphSync0aB24PreferredBodyContentTypeO
+- _symbolic _____Sg_ABt 9GraphSync0aB12AttendeeTypeO
+- _symbolic _____m 12ExchangeSync22EXSGSGetPlaceOperationV
+- _symbolic _____m 12ExchangeSync23EXSGSListNotesOperationV
+- _symbolic _____m 12ExchangeSync23EXSGSListTasksOperationV
+- _symbolic _____m 12ExchangeSync24EXSGSCreateNoteOperationV
+- _symbolic _____m 12ExchangeSync24EXSGSDeleteNoteOperationV
+- _symbolic _____m 12ExchangeSync24EXSGSListPlacesOperationV
+- _symbolic _____m 12ExchangeSync24EXSGSUpdateNoteOperationV
+- _symbolic _____m 12ExchangeSync28EXSGSMoveMailFolderOperationV
+- _symbolic _____m 12ExchangeSync31EXSGSGetTodoTasksDeltaOperationV
+- _symbolic _____m 12ExchangeSync33EXSGSListTaskCollectionsOperationV
+- _symbolic _____m 12ExchangeSync35EXSGSGetTodoTaskListsDeltaOperationV
+- _symbolic _____m 12ExchangeSync35EXSGSListAllCalendarEventsOperationV
+- _symbolic _____m 12ExchangeSync36EXSGSGetMeetingRequestItemsOperationC
+- _symbolic _____m 12ExchangeSync36EXSGSListEventsForDateRangeOperationV
+- _symbolic _____m 12ExchangeSync38EXSGSCalendarPermissionResourceBuilderO
+- _symbolic _____m 12ExchangeSync41EXSGSListRecurringEventInstancesOperationV
+- _symbolic _____ySay_____GG 12ExchangeSync20UncheckedSendableBox027_EB01E367E2A7A790E0A66D9D64I4F60CLLC AA41EXSGSListRecurringEventInstancesOperationV
+- _symbolic _____ySay_____GG s23_ContiguousArrayStorageC 9GraphSync0dE13EventResourceV
+- _symbolic _____ySay_____GSgG s23_ContiguousArrayStorageC 9GraphSync0dE13EventResourceV
+- _symbolic _____y_____G 12ExchangeSync20UncheckedSendableBox027_EB01E367E2A7A790E0A66D9D64I4F60CLLC 05GraphB00pB7BindingV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 12ExchangeSync41EXSGSListRecurringEventInstancesOperationV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 9GraphSync0dE15MessageResourceV
+- _type_layout_string 12ExchangeSync23EXSGSListNotesOperationV
+- _type_layout_string 12ExchangeSync35EXSGSListAllCalendarEventsOperationV
+- _type_layout_string 12ExchangeSync35EXSGSListAllCalendarEventsOperationV17CollectedPageDataV
+- _type_layout_string 12ExchangeSync36EXSGSGetCalendarEventsDeltaOperationV17CollectedPageDataV
+- _type_layout_string 12ExchangeSync45EXSGSGetCalendarEventDeltasDateRangeOperationV17CollectedPageDataV
+CStrings:
++ " (expected no more than "
++ " AND marked_as_deleted=0"
++ " and receivedDateTime ge "
++ " and receivedDateTime le "
++ " but received no response body"
++ " could not be converted to a change item"
++ "#ExchangeSync Downsync Update for an item with no local row; the change will be dropped. externalID=%{public}@ folderType=%{public}ld"
++ "#ExchangeSync Update item returned a different ItemId; not retargeting the local item. itemType=%{public}ld requested=%{public}@ returned=%{public}@"
++ "$batch %{public}@ chunk failed with no confirmed deletes; abandoning %d remaining id(s) as failed rather than re-attempting a server-wide fault"
++ "$batch %{public}@ did not confirm %d of %d delete(s); local rows kept for the next drain"
++ "$batch %{public}@ failed authorization (HTTP 401) on %d sub-request(s) and renewal was unavailable or already spent (requestID=%{public}@)"
++ "$batch %{public}@ retrying failed sub-request(s) after reactive credential renewal"
++ "$batch %{public}@ skipping reactive renewal — account is unauthenticated"
++ "$batch %{public}@ throttled (HTTP 429) on %d sub-request(s); over inline budget or retries exhausted"
++ "$batch %{public}@ throttled (HTTP 429) on %d sub-request(s); waiting %{public}.2fs then retrying just those"
++ "$batch delete failed for the whole chunk (httpStatus=%{public}@ requestID=%{public}@); %d id(s) keep their local rows and retry next cycle"
++ "$batch hydration failed non-transiently (httpStatus=%{public}@ requestID=%{public}@); dropping %d id(s) this round, cursor will advance — they re-hydrate on next change"
++ "$batch hydration sub-request failed with HTTP "
++ "$batch hydration sub-request(s) failed deterministically for %d id(s) (status:requestID=%{public}@); dropping them, they re-hydrate on next change"
++ "$batch hydration sub-response body failed to decode for %d id(s) (requestIDs=%{public}@); dropping them, they re-hydrate on next change"
++ "$batch hydration sub-response missing from envelope for %d id(s) (externalIDs=%{public}@); dropping them, they re-hydrate on next change"
++ "$batch hydration throttled (HTTP 429); Retry-After exceeds inline budget or retries exhausted."
++ "%@ %ld"
++ "%ld"
++ "%{public}@ %{public}@ confirmed invalid delta sync state (httpStatus=%{public}@ graphErrorCode=%{public}@ requestID=%{public}@ pagesHydrated=%d pagesPersisted=%d); cursor clear %{public}@ to re-seed next cycle"
++ "%{public}@ %{public}@ delta round complete: pages=%d items=%d skipped=%d cursor=%{public}@ reconciled=%{public}@"
++ "%{public}@ %{public}@ starting %{public}@ delta round: maxpagesize=%{public}@"
++ "%{public}@ : page count: %d, items retrieved: %d, cursor: %{public}@, pageSize: %d"
++ "%{public}@ account=%{private}@ %{public}@ delta failure (transient or mid-progress; next cycle resumes): kind=%{public}@ httpStatus=%{public}@ graphErrorCode=%{public}@ requestID=%{public}@ pagesHydrated=%d pagesPersisted=%d cursorPresent=%{public}@ details=%{private}@"
++ "%{public}@ delta page %d: items=%d skipped=%d total=%d totalSkipped=%d"
++ "%{public}@ delta page limit guard has been exceeded."
++ "%{public}@ gateway/request timeout on page %d at maxpagesize=%d — halving to %d and retrying the same cursor"
++ "%{public}@ hydration skipped %d id(s) as 404/410 (deletion race), %d as empty-bodied 2xx, and dropped %d on non-transient errors (cursor advances; re-hydrate on next change)"
++ "%{public}@ non-transient delta failure — does not trigger a list re-sync: account=%{private}@ %{public}@ kind=%{public}@ httpStatus=%{public}@ graphErrorCode=%{public}@ requestID=%{public}@ pagesHydrated=%d pagesPersisted=%d cursorPresent=%{public}@ unexpectedType=%{public}@ details=%{private}@"
++ "%{public}@ returned no changeKey for %{public}@; keeping the stored token"
++ "%{public}@ skipped: missing externalID on change item %ld"
++ "%{public}@ skipped: parent folder unresolved for change item %ld: %{private}@"
++ "%{public}@ terminal page had no continuation link (%{public}@) — full re-seed next cycle"
++ "%{public}@: buildDeleteRequest called outside the performDelete pipeline"
++ "%{public}@: item %{public}@ gone on server (%{public}@); treating as success"
++ "%{public}@: refreshed item %{public}@ after recoverable failure; retrying PATCH once"
++ "%{public}d event(s) reported attachments with no inline collection; leaving their cached attachments untouched (reconverges on next change)"
++ ","
++ ", keys: <redacted>)"
++ "00020329-0000-0000-C000-000000000046"
++ "404/410/ErrorItemNotFound"
++ "A delta request for operation \"%{public}@\" has returned %d consecutive blank pages."
++ "A request exceeded a page limit: "
++ "A request exceeded the item limit: "
++ "A7B529B5-4B75-47A7-A24F-20743D6C55CD"
++ "Account %@ has no username; refusing to add delegate %@."
++ "Ambiguous occurrence match for master "
++ "Ambiguous occurrence match for master %{public}@: %{public}d candidates"
++ "AppleNotesFolder"
++ "AppleNotesFolderMap"
++ "Applied folder map revision %ld from %{public}@ (%d folder(s), hash %{public}@): %d row change(s), %d removal(s), %d kept%{public}@"
++ "Attachment download cancelled during teardown"
++ "Attendee has an unknown type case; classifying as required"
++ "Attendee has no recognized type; classifying as required"
++ "Calendar event create returned no event id"
++ "Calendar move target not found locally"
++ "Collection already deleted on server, treating as success (op=%{public}@, externalID=%{public}@)"
++ "Conflict changeKey refresh"
++ "Conflict changeKey refresh GET failed inconclusively for %{public}@: %{private}@"
++ "Conflict changeKey refresh for %{public}@ found the note soft-deleted — declining the retry"
++ "Conflict changeKey refresh for %{public}@ yielded no usable changeKey"
++ "Conflict changeKey refresh for %{public}@ yielded no usable etag"
++ "Conflict changeKey refresh for %{public}@ yielded no usable response"
++ "Conflict changeKey refresh skipped: missing externalID on change item %ld"
++ "Content-Encoding: aes128gcm"
++ "Content-Encoding: nonce"
++ "Could not resolve occurrence id for master "
++ "Couldn't clear distinguished folder rows in sync engine database: %{public}@"
++ "Couldn't delete item from sync engine database: %{public}@"
++ "Create Note Folder"
++ "Created note folder %{public}@"
++ "DELETE FROM exs_distinguished_folders WHERE account_id=%ld AND folder_type=%ld"
++ "DELETE FROM exs_items WHERE account_id=%ld AND external_itemID=%@"
++ "Delegate permission check passed for account %{public}@ (permission %ld)."
++ "Delegate startup ABORTED for account %{public}@: permission check returned %ld; shutting down the sync instance. error=%{public}@"
++ "Delete Note Folder"
++ "Deleting %d stale note(s) confirmed gone server-side that were pinning a refused folder removal"
++ "Delta operation %{public}@ is configured with a list type that is not GraphSyncResponsive."
++ "Detached occurrence is missing originalStartDate"
++ "Detached occurrence is missing parentExternalID"
++ "Dropping note folder map entry whose id collides with the synthetic folder %{public}@"
++ "Dropping unparseable travel time extended property for event %{public}@"
++ "EXSGSGetItemsDeltaOperation"
++ "EXSGSRemoveMeetingRequestOperation failed (non-fatal): %{public}@"
++ "EXSGSRemoveMeetingRequestOperation: cleanup incomplete for event %{public}@ — at least one stale meeting-request message could not be removed"
++ "EXSPushSubscription(topic: "
++ "EXSSyncProtocol"
++ "EXSSyncProtocol: dropping sync-all 0x%lx, protocol is tearing down (change source %{public}@)"
++ "ErrorInvalidRequest"
++ "ErrorInvalidSyncStateData"
++ "ErrorRecoverableItemsAccessDenied"
++ "Exception %{public}@ of master %{public}@ arrived as a tombstone; dropping"
++ "Exception %{public}@ of master %{public}@ has neither a usable originalStart nor a parseable occurrenceId; cannot name its slot, so its detachment may be removed"
++ "Exception hydration failed; using the masters' inline entries (attachments and extended properties reconverge on the next change). httpStatus=%{public}d requestID=%{public}@ reason=%{private}@"
++ "Expected GraphSyncBatchResponse from $batch hydration."
++ "Expected GraphSyncEventResource from calendar event GET"
++ "Failed to assign an externalID to a new note folder"
++ "Failed to echo note folder id %{public}@ to the consumer"
++ "Failed to expand resource for hydration operation %{public}@: %{public}@"
++ "Failed to mark %lu note folder(s) deleted: %{public}@"
++ "Failed to mark the subtree of note folder %{public}@ deleted — peers may promote its children to the root"
++ "Failed to persist %{public}d exception(s) across %{public}d master(s) in folder %{public}@; they reconverge on each master's next change"
++ "Failed to persist delegate calendar page ("
++ "Failed to persist resolved occurrence identifiers for %{public}@"
++ "Failed to probe pending upsync change items: %{public}@"
++ "Failed to remap externalID after calendar move create"
++ "Failed to remap parent calendar after calendar move create"
++ "Failed to retrieve item count for operation %{public}@: %{private}@"
++ "Folder map carrier %{public}@ is gone server-side; trying another"
++ "Folder map publish owed but nothing publishable is stored (adopted=%{public}@)"
++ "Folder map revision %ld abandoned: note %{public}@ already carries revision %ld (hash %{public}@)"
++ "Folder map revision %ld not published: no usable carrier in %d attempt(s)"
++ "Folder map revision %ld not published: the account has no note to carry it"
++ "Get Calendar Folder Deltas"
++ "Graph Sync: %d note(s) name a folder no map described — homing to the default folder, which does not self-heal"
++ "Graph Sync: %d note(s) pinning a folder removal answered inconclusively — keeping those rows"
++ "Graph Sync: %{public}@ failed - %{public}@ requestID=%{public}@"
++ "Graph Sync: %{public}@ retrying after %{public}.2fs backoff (attempt %{public}d)"
++ "Graph Sync: %{public}ld sync inactive (flag/dataclass); skipping delta for folder %{private}@"
++ "Graph Sync: Calendar delta sync completed: %d page(s), %d event(s), %d skipped (unchanged)"
++ "Graph Sync: Notes delta sync persisted %d notes across %d page(s), %d skipped (unchanged)"
++ "Graph Sync: Operation failed - %{public}@ requestID=%{public}@"
++ "Graph Sync: Operation throttled (HTTP 429) after inline retries; aborting push drain"
++ "Graph Sync: Tasks delta sync completed: %d page(s), %d task(s), %d skipped (unchanged)"
++ "Graph Sync: Warning - delegate account has no owner email"
++ "Graph Sync: adopted folder map revision %ld with %d local folder(s) still owed — rebased to revision %ld"
++ "Graph Sync: candidate %{public}@ event.iCalUId %{public}@ does not match target %{public}@"
++ "Graph Sync: candidate %{public}@ has no associated event; skipping"
++ "Graph Sync: could not store adopted folder map revision %ld"
++ "Graph Sync: delegate account reached the folder type %ld gate; gating off (delegates are Calendar-only)"
++ "Graph Sync: downsync change item requested with an empty externalID for item type %d"
++ "Graph Sync: dropping a note folder map with an out-of-range revision %ld"
++ "Graph Sync: dropping an undecodable note folder map"
++ "Graph Sync: dropping malformed note folder metadata blob"
++ "Graph Sync: dropping note folder blob whose GUID collides with synthetic folder externalID %{public}@"
++ "Graph Sync: dropping todo task resource with no usable external id (tombstone=%{public}@)"
++ "Graph Sync: failed to encode note folder map (revision %ld)"
++ "Graph Sync: failed to encode note folder metadata for folder %{public}@"
++ "Graph Sync: failed to record note folder %{public}@ (%{public}@) for publish"
++ "Graph Sync: failed to remove meeting-request message %{public}@: %{public}@"
++ "Graph Sync: folder map revision %{public}@ is no longer on its carrier %{public}@ — re-owing the publish"
++ "Graph Sync: folder-removal pin probe failed for %d note(s) — keeping every row requestID=%{public}@"
++ "Graph Sync: heartbeat deferForPush (draining) consecutiveDefers=%{public}ld account=%{private}@"
++ "Graph Sync: heartbeat not stamped (refreshCompleted=%{public}d errorSurfaced=%{public}d) account=%{private}@"
++ "Graph Sync: heartbeat runFullSync account=%{private}@"
++ "Graph Sync: heartbeat skip (%{public}@) account=%{private}@"
++ "Graph Sync: inbox meeting-request lookup hit %d-page cap; %d matched so far, remaining pages skipped"
++ "Graph Sync: isSyncActive received unexpected folder type %ld; gating off"
++ "Graph Sync: keeping note folder map revision %ld — the new map does not fit"
++ "Graph Sync: meeting-request lookup filter: %{public}@"
++ "Graph Sync: meeting-request lookup matched %d message(s) for target iCalUId %{public}@: %{public}@"
++ "Graph Sync: meeting-request message %{public}@ already removed from the inbox, treating as success"
++ "Graph Sync: meeting-request page %d — %d candidate(s), %d with associated event, %d matched so far"
++ "Graph Sync: meeting-request window %d of %d failed; keeping %d match(es) already collected and ending the scan: %{public}@"
++ "Graph Sync: no recognized daysOfWeek members; leaving recurrenceDaysOfWeek unspecified"
++ "Graph Sync: note %{public}@ has no resolvable folder (extParent=%{public}@ intParent=%{public}@) — no folder blob written"
++ "Graph Sync: note %{public}@ resolved to the default folder — writing an explicit top-level edge"
++ "Graph Sync: note %{public}@ writing folder edge folderID=%{public}@"
++ "Graph Sync: note folder %{public}@ (%{public}@) recorded at map revision %ld"
++ "Graph Sync: note folder edge places the note at the top level"
++ "Graph Sync: note folder map entry %{public}@ has an unresolvable parent — treating as top level"
++ "Graph Sync: note folder map has a parent cycle of %d folders — reparenting %{public}@ to top level"
++ "Graph Sync: note folder map is too large to publish (%d folders, %d bytes, cap %d) — publishing nothing"
++ "Graph Sync: note folder map publish failed — %{public}@ requestID=%{public}@"
++ "Graph Sync: note folder map state did not persist (adopted=%{public}@ published=%{public}@)"
++ "Graph Sync: notes round done: adopted=%{public}@ published=%{public}@ carrier=%{public}@ pages=%d folders=%d rows=%d removed=%d kept=%d staleNotes=%d divergentAtRevision=%d publishOwed=%{public}@"
++ "Graph Sync: push aborted — a $batch sub-request failed authorization (HTTP 401)"
++ "Graph Sync: push aborted — reachability gate invalidated"
++ "Graph Sync: push aborted — server is throttling (HTTP 429)"
++ "Graph Sync: recurrence present but not fully readable; leaving recurrence unspecified"
++ "Graph Sync: recurring task roll-forward detected — omitting status/dueDateTime/completedDateTime/recurrence and relying on the server's own advance from the prior completion PATCH"
++ "Graph Sync: refusing to mint note folder map revision %ld — past the accepted ceiling"
++ "Graph Sync: removing %d stale meeting-request message(s) for event %{public}@"
++ "Graph Sync: reseed reap failed to persist %{public}d of %{public}d orphan tombstone(s) for change source %{public}@; the failures will be retried on the next full seed."
++ "Graph Sync: skipping default-calendar lookup for delegate account (/me is the parent)"
++ "Graph Sync: skipping meeting-request lookup for target iCalUId %{public}@ — event has no createdDateTime/lastModifiedDateTime to bound the scan"
++ "Graph Sync: skipping synthetic Notes folder for delegate account (/me is the parent)"
++ "Graph Sync: skipping unsupported folder type %d"
++ "Graph Sync: surfacing auth state to data consumers (authenticated: %{public}@)"
++ "Graph Sync: syncCalendarFolderHierarchy failed - %{public}@ requestID=%{public}@"
++ "Graph Sync: syncDelegateCalendarFolders failed - %{public}@ requestID=%{public}@"
++ "Graph Sync: synthetic Notes folder %{public}@ already current"
++ "Graph Sync: task has no recognized status; leaving completed unspecified"
++ "Graph Sync: the server holds folder map revision %ld, newer than ours (%{public}@) — note writes will not carry ours until we catch up"
++ "Graph Sync: unexpected error escaped push item handling - %{private}@"
++ "Graph returned too many items for "
++ "Graph returned too many pages for "
++ "GraphHeartbeatBackstopMinutes"
++ "GraphHeartbeatEnabled"
++ "GraphHeartbeatIntervalMinutes"
++ "GraphSyncBatchThrottle"
++ "Hydrated exception %{public}@ belongs to no discovered master; dropping"
++ "If-Match decision for event %{public}@: isOrganizer=%{public}@, isResolvedOccurrence=%{public}@, forwardingChangeKey=%{public}@"
++ "Ignoring a replayed delete of note folder %{public}@: it names row %ld, but row %ld is live"
++ "Instances paging hit max pages (%d) for %{public}@; remaining instances not fetched"
++ "Integer"
++ "Item already gone on server (%{public}@); treating as success (op=%{public}@, externalID=%{public}@)"
++ "List request returned invalid type (expected "
++ "Marked only %ld of %lu note folder(s) deleted"
++ "Move Calendar Item"
++ "Move Note Folder"
++ "Move skipped — event has %ld attendee(s); meetings can only live in the default calendar."
++ "Move skipped — event has no server identity yet"
++ "Move skipped — event type %{public}@ is not a single instance (recurrence unsupported in v1)."
++ "Move skipped — item already remapped to the moved event"
++ "No recognized daysOfWeek members; leaving recurrenceDaysOfWeek unspecified"
++ "Note folder %{public}@ cascade left notes on the server — the folder can resurrect"
++ "Note folder %{public}@ delete: %d folder(s) in subtree, cascading to %d note(s)"
++ "Note folder %{public}@ has no live row — nothing to move"
++ "Note folder %{public}@ is absent from the map but %{public}@ — leaving it"
++ "Note folder %{public}@ is already in %{public}@ — not a move"
++ "Note folder %{public}@ move → %{public}@ (from %{public}@) %{public}@"
++ "Note folder %{public}@ update changed nothing — not republishing"
++ "Note folder creation has no internal id — cannot assign a GUID"
++ "Note folder delete is a duplicate — its row is already deleted"
++ "Note folder delete matched no row at all — the delete cannot reach a peer"
++ "Note folder delete reached push: externalID=%{public}@ itemID=%ld"
++ "Operation %{public}@ specified an invalid batch size: %{public}d"
++ "Original event already deleted on server (404/410), treating as success"
++ "Publish Note Folder Map"
++ "Published folder map revision %ld (%d folder(s), hash %{public}@) on note %{public}@"
++ "Push aborted — a $batch sub-request failed authorization (HTTP 401)"
++ "Push aborted — server is throttling (HTTP 429)"
++ "Reconciler: server state unknown; leaving already-uploaded attachment untouched"
++ "Recurrence present but not fully readable; leaving recurrence unspecified"
++ "Refusing to add a delegate with no email for account %@."
++ "Refusing to move note folder %{public}@ into %{public}@ — it is the folder itself or one of its descendants"
++ "Rejecting attempt to add account %@ as its own delegate."
++ "Remove Meeting Request"
++ "Resolve Occurrence ID"
++ "Resolved-occurrence PATCH response carried no id; the local row keeps no externalID and the next delta round will build a second detachment"
++ "Resolved-occurrence change item has no internalID; cannot persist externalID %{public}@"
++ "ResponseDispositionEndDate"
++ "SELECT 1 FROM exs_change_items WHERE account_id=%ld AND change_id > %ld AND change_source_id != %@ LIMIT 1"
++ "SELECT 1 FROM exs_items WHERE account_id=%ld AND folder_id=%ld LIMIT 1"
++ "SELECT external_itemID, external_changeKey FROM exs_items WHERE account_id=%ld AND external_itemID IN (SELECT value FROM json_each(%@))"
++ "SELECT folder_id, account_id, folder_name, folder_type, external_folderID, external_changeKey, external_syncState, external_parentFolderID, internal_folderID, internal_changeKey, internal_parentFolderID FROM exs_folders WHERE account_id=%ld AND external_parentFolderID=%@"
++ "SELECT folder_id, account_id, folder_name, folder_type, external_folderID, external_changeKey, external_syncState, external_parentFolderID, internal_folderID, internal_changeKey, internal_parentFolderID FROM exs_folders WHERE account_id=%ld AND folder_type=%ld AND marked_as_deleted=%i"
++ "Series master %{public}@ arrived with no exceptionOccurrences key; modifiedOccurrences stays unspecified, which tells the consumer to delete every detachment of the series"
++ "Series master %{public}@ exception list: returned=%{public}d"
++ "Series master %{public}@ exception list: returned=%{public}d derived=%{public}d"
++ "Server returned an invalid response for /instances pagination"
++ "Server returned an invalid response for occurrence resolution"
++ "Skipped %d unchanged note folder(s)"
++ "SourceCalendarExternalID"
++ "String"
++ "SyncStateNotFound"
++ "UPDATE exs_folders SET marked_as_deleted=1 WHERE account_id=%ld AND folder_type=%ld AND folder_id IN (%@)"
++ "Update Note Folder"
++ "Web Push: APS returned notification URL for topic %{private}@ (host %{public}@, %{public}d chars, fp %{public}@)"
++ "Web Push: Graph create failed for %{private}@/%{public}@; rolling back APS topic subscription"
++ "Web Push: Graph create-subscription for resource %{public}@ returned no subscription id"
++ "Web Push: VAPID public key is empty; cannot subscribe topic %{private}@"
++ "Web Push: cannot subscribe topic for account %{private}@/%{public}@ — APS connection unavailable"
++ "Web Push: failed to decrypt payload for topic %{private}@: %{public}@"
++ "Web Push: failed to handle incoming notification: %{private}@"
++ "Web Push: incoming message handler failed for topic %{private}@: %{public}@"
++ "Web Push: incoming message with no topic; dropping"
++ "Web Push: incoming notification JSON missing required fields"
++ "Web Push: incoming notification payload was not valid JSON"
++ "Web Push: malformed base64 payload for topic %{private}@; dropping"
++ "Web Push: no notification URL for topic %{private}@ after subscribe; APS token may not have arrived yet"
++ "Web Push: no stored push subscription (encryption keys) for topic %{private}@ after subscribe"
++ "Web Push: no subscription for incoming message topic %{private}@; dropping"
++ "Web Push: registerWebPush(%{private}@/%{public}@) called before plugin was configured"
++ "Web Push: subscribe failed for topic %{private}@: %{private}@"
++ "Web Push: unsupported content encoding %{public}@ for topic %{private}@; dropping"
++ "WebPushConnection"
++ "WebPushSubscriptionAdapter"
++ "anomalous: malformed 200"
++ "attachment download lanes %{public}@ — background %d/%d active, %d queued; interactive %d/%d active, %d queued"
++ "attachment serverID=%{public}@ is new; inserting row (ownerID=%{public}@)"
++ "attachments($select="
++ "buildUpdateRequest called outside the performUpdate pipeline; If-Match policy skipped"
++ "buildUpdateRequest called outside the performUpdate pipeline; If-Match skipped"
++ "cancelling %d queued attachment download(s) on teardown"
++ "changeSource=delegateCalendars"
++ "class-specific deletion signal"
++ "cleared"
++ "cleared (list terminal)"
++ "cleared (re-seed backstop queued)"
++ "com.apple.exchangesync.graphsync.calendarFolders"
++ "com.apple.exchangesync.graphsync.notesFolders"
++ "com.apple.exchangesync.graphsync.taskLists"
++ "content_encoding"
++ "continuation"
++ "delete"
++ "deleted during recovery"
++ "driftSnapshotsForExternalIDs: couldn't decode the serialized id set for %{public}lu id(s); the drift skip is a no-op for this page."
++ "driftSnapshotsForExternalIDs: couldn't serialize %{public}lu id(s); the drift skip is a no-op for this page."
++ "driftSnapshotsForExternalIDs: resolved %{public}lu of %{public}lu id(s)."
++ "events/delta exception protection batch failed for folder %{public}@: requestID=%{public}@"
++ "events/delta exception protection for folder %{public}@ resolved locally: probed=%d matchedLocal=%d"
++ "events/delta exception protection for folder %{public}@: skippedMasters=%d exceptions=%d unanswered=%d"
++ "events/delta hydration skipped %d event(s) as 404/410 (deletion race), %d as empty-bodied 2xx, and dropped %d on non-transient errors (cursor advances; re-hydrate on next change)"
++ "exceptionOccurrences"
++ "exceptionOccurrences($select=id)"
++ "expected: cursorless list"
++ "f"
++ "flushing %d completed attachment handoff(s) inline"
++ "graph-notes-folder-"
++ "hydration"
++ "id"
++ "inline attachment metadata applied: %{public}d event(s) with %{public}d attachment(s), %{public}d event(s) cleared, %{public}d unknown, of %{public}d change item(s)"
++ "microsoft.graph.eventMessage/event($select=id,iCalUId)"
++ "n"
++ "n/a"
++ "observedNewerRev"
++ "p"
++ "promoted queued prefetch attachmentUUID=%{public}@ to the interactive lane"
++ "publishedCarrier"
++ "reconcileAttachments - drain-level failure (%{public}@); aborting push drain"
++ "reconcileAttachments - server fetch failed: %{public}@; server state unknown"
++ "rev"
++ "seed"
++ "singleValueExtendedProperties($filter="
++ "singleValueExtendedProperties($filter=id eq '"
++ "starting download attachmentUUID=%{public}@ lane=%{public}@ waitedMs=%llu active=%d/%d queued=%d"
++ "still holds a subfolder"
++ "still holds notes"
++ "the map already stored"
+- " pages without reaching a deltaLink."
+- "%{public}@ account=%{private}@ %{public}@ delta failure (transient or mid-progress; next cycle resumes): kind=%{public}@ pagesFetched=%d pagesPersisted=%d cursorPresent=%{public}@ details=%{private}@"
+- "%{public}@ exceeded %d pages — possible server-side nextLink cycle; aborting round"
+- "%{public}@ non-transient delta failure — no list fallback: account=%{private}@ %{public}@ kind=%{public}@ pagesFetched=%d pagesPersisted=%d cursorPresent=%{public}@ unexpectedType=%{public}@ details=%{private}@"
+- "%{public}@ seed failed before any page landed; cursor clear %{public}@ to re-seed next cycle"
+- "%{public}@ succeeded on server but failed to update changeKey in local database"
+- "%{public}@ terminal page had neither nextLink nor deltaLink — re-seeding via empty cursor next cycle"
+- "%{public}@: changeKey conflict (ErrorIrresolvableConflict) — re-fetch required"
+- "-item cap; aborting to avoid partial-list corruption."
+- "-page cap; aborting to avoid partial-list corruption."
+- "Collection already deleted on server (404), treating as success"
+- "Conflict refetch"
+- "Conflict refetch failed for %{public}@: %{private}@"
+- "Conflict refetch skipped: missing externalID on change item %ld"
+- "Conflict refetch skipped: parent folder unresolved for change item %ld: %{private}@"
+- "Conflict refetch yielded no usable changeKey for %{public}@"
+- "Delegate permission check completed for account %@."
+- "Dropping sticky-note resource with empty id on page %ld."
+- "Expected GraphSyncBatchResponse from events/delta hydration batch."
+- "Expected GraphSyncMessageListResource for inbox meeting-request lookup"
+- "Expected GraphSyncStickyNoteListResource, but got "
+- "Failed to encode subscription"
+- "Failed to encode subscription: "
+- "Failed to expand recurring instances for master %{public}@: %{public}@"
+- "Failed to fetch attachments for event %{public}@: %{public}@"
+- "Graph Sync: %{public}@ failed - %{public}@"
+- "Graph Sync: Calendar delta sync completed: %d page(s), %d event(s)"
+- "Graph Sync: Note folder creation not yet implemented"
+- "Graph Sync: Note folder deletion not yet implemented"
+- "Graph Sync: Notes delta sync persisted %d notes across %d page(s)"
+- "Graph Sync: Operation cancelled — reachability gate invalidated"
+- "Graph Sync: Operation failed - %{public}@"
+- "Graph Sync: Tasks delta sync completed: %d page(s), %d task(s)"
+- "Graph Sync: candidate %{public}@ associatedICalUId %{public}@ does not match target iCalUId %{public}@"
+- "Graph Sync: dropped %ld shared calendar(s) of %ld returned by /me/calendars"
+- "Graph Sync: inbox meeting-request lookup hit %d-page cap; %d candidates collected, remaining pages skipped"
+- "Graph Sync: skipping candidate %{public}@: %{public}@"
+- "Graph Sync: syncCalendarFolderHierarchy failed to persist change items"
+- "Graph Sync: syncItemsForFolder skipping unsupported folder type %d"
+- "Graph Sync: syncNoteItems failed - %{public}@"
+- "Graph Sync: syncNoteItems failed to persist change items"
+- "Graph Sync: unexpected response type for event message %{public}@"
+- "GraphSyncListCalendarsRequest returned an invalid GraphSyncListCalendarsResponse"
+- "If-Match decision for event %{public}@: isOrganizer=%{public}@, forwardingChangeKey=%{public}@"
+- "Item already deleted on server (404), treating as success"
+- "Missing hydration sub-response for a requested event."
+- "Note already deleted on server, treating as success"
+- "Note has no external ID — was never synced to server, treating delete as success"
+- "Recurring instance paging hit max pages (%d) for master %{public}@; remaining instances not fetched"
+- "SELECT folder_id, account_id, folder_name, folder_type, external_folderID, external_changeKey, external_syncState, external_parentFolderID, internal_folderID, internal_changeKey, internal_parentFolderID FROM exs_folders WHERE account_id=%ld AND folder_type=%ld AND marked_as_deleted=0"
+- "Server returned an invalid response for recurring event instances"
+- "Skipping unchanged recurring instance %{public}@"
+- "Sticky-notes pagination exceeded the "
+- "Stopping attachment downsync early: server is throttling (HTTP 429)"
+- "The place resource did not contain an external id. Returning empty change item."
+- "[No external Id]"
+- "buildUpdateRequest called outside the execute pipeline; If-Match policy skipped"
+- "com.apple.exchangesync.recurring-instance-fetch"
+- "events/delta hydration skipped %d event(s) as 404/410 (deletion race) and %d as empty-bodied 2xx"
+- "events/delta hydration sub-request failed with HTTP "
+- "events/delta hydration throttled (HTTP 429) on %d sub-request(s); Retry-After %{public}.0fs over inline budget or retries exhausted — failing page, next cycle re-pulls"
+- "events/delta hydration throttled (HTTP 429) on %d sub-request(s); waiting Retry-After %{public}.0fs then retrying just those"
+- "events/delta hydration throttled (HTTP 429); Retry-After exceeds inline budget or retries exhausted."
+- "failed to build change item for calendar %{public}@"
+- "fetchCalendars failed to traverse page %d of results, and aborted with %d results, with error: %{public}@."
+- "fetchCalendars fetching page %d."
+- "fetchCalendars went over the page limit."
+- "mock-resource-id"
+- "mock-subscription-id"
+- "reconcileAttachments - server fetch failed: %{public}@; proceeding with empty server set"
+- "syncCalendarItems could not fetch events for calendar %{sensitive}@"
+- "syncCalendarItems could not fetch events for calendar %{sensitive}@ because of %{public}@"
+```

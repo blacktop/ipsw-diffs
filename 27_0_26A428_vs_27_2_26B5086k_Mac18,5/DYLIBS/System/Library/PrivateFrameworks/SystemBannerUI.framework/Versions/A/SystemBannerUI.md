@@ -1,0 +1,556 @@
+## SystemBannerUI
+
+> `/System/Library/PrivateFrameworks/SystemBannerUI.framework/Versions/A/SystemBannerUI`
+
+```diff
+
+-810.0.8.402.0
+-  __TEXT.__text: 0x496d8
+-  __TEXT.__objc_methlist: 0x64
+-  __TEXT.__const: 0x4afc
+-  __TEXT.__constg_swiftt: 0x1e3c
+-  __TEXT.__swift5_typeref: 0x4bea
+-  __TEXT.__swift5_builtin: 0xb4
+-  __TEXT.__swift5_reflstr: 0xeb5
+-  __TEXT.__swift5_fieldmd: 0x1104
+-  __TEXT.__swift5_assocty: 0x660
+-  __TEXT.__swift5_proto: 0x240
+-  __TEXT.__swift5_types: 0x150
+-  __TEXT.__oslogstring: 0x7f9
+-  __TEXT.__cstring: 0xee8
+-  __TEXT.__swift5_capture: 0x4d0
+-  __TEXT.__swift5_protos: 0x24
++810.1.25.0.0
++  __TEXT.__text: 0x40a94
++  __TEXT.__objc_methlist: 0x50
++  __TEXT.__const: 0x4444
++  __TEXT.__constg_swiftt: 0x1b7c
++  __TEXT.__swift5_typeref: 0x4bff
++  __TEXT.__swift5_builtin: 0x64
++  __TEXT.__swift5_reflstr: 0xded
++  __TEXT.__swift5_fieldmd: 0xff4
++  __TEXT.__swift5_assocty: 0x5e8
++  __TEXT.__swift5_proto: 0x1e8
++  __TEXT.__swift5_types: 0x124
++  __TEXT.__oslogstring: 0x6c7
++  __TEXT.__cstring: 0x7f5
++  __TEXT.__swift5_capture: 0x514
++  __TEXT.__swift5_protos: 0x1c
+   __TEXT.__swift_as_entry: 0xc
+   __TEXT.__swift_as_ret: 0x4
+   __TEXT.__swift_as_cont: 0x8
+-  __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x2060
+-  __TEXT.__eh_frame: 0x850
++  __TEXT.__unwind_info: 0x1a88
++  __TEXT.__eh_frame: 0x598
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x218
+-  __DATA_CONST.__objc_classlist: 0x48
++  __DATA_CONST.__const: 0x170
++  __DATA_CONST.__objc_classlist: 0x40
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x220
+-  __DATA_CONST.__got: 0x870
+-  __AUTH_CONST.__const: 0x30c8
+-  __AUTH_CONST.__objc_const: 0x890
+-  __AUTH_CONST.__auth_got: 0x1828
++  __DATA_CONST.__objc_selrefs: 0x180
++  __DATA_CONST.__got: 0x700
++  __AUTH_CONST.__const: 0x2918
++  __AUTH_CONST.__objc_const: 0x718
++  __AUTH_CONST.__auth_got: 0x11a0
+   __AUTH.__objc_data: 0x1f0
+-  __AUTH.__data: 0x17b0
+-  __DATA.__data: 0x18c8
+-  __DATA.__common: 0x4e0
++  __AUTH.__data: 0x1610
++  __DATA.__data: 0x17f8
++  __DATA.__common: 0x4f0
+   - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+   - /System/Library/Frameworks/AVKit.framework/Versions/A/AVKit
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+   - /System/Library/Frameworks/Combine.framework/Versions/A/Combine
++  - /System/Library/Frameworks/CoreBluetooth.framework/Versions/A/CoreBluetooth
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+   - /System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia
+   - /System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+-  - /System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+   - /System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+   - /System/Library/PrivateFrameworks/ControlCenter.framework/Versions/A/ControlCenter
++  - /System/Library/PrivateFrameworks/CoreBluetoothUI.framework/Versions/A/CoreBluetoothUI
+   - /System/Library/PrivateFrameworks/IconServices.framework/Versions/A/IconServices
+   - /System/Library/PrivateFrameworks/MenuBarClient.framework/Versions/A/MenuBarClient
+   - /System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/SkyLight
+   - /System/Library/PrivateFrameworks/SystemBanner.framework/Versions/A/SystemBanner
+   - /System/Library/PrivateFrameworks/_IconServices_SwiftUI.framework/Versions/A/_IconServices_SwiftUI
+-  - /System/Library/PrivateFrameworks/login.framework/Versions/A/login
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 3106
+-  Symbols:   1317
+-  CStrings:  139
++  Functions: 2549
++  Symbols:   1059
++  CStrings:  73
+ 
+Symbols:
++ _NSURLContentTypeKey
++ _OBJC_CLASS_$_CBAssetHelper
++ _OBJC_CLASS_$_CBDevice
++ _OBJC_CLASS_$_NSImage
++ ___swift_memcpy128_8
++ __swiftEmptySetSingleton
++ __swift_closure_destructor.20Tm
++ __swift_closure_destructor.58Tm
++ _associated conformance 14SystemBannerUI06LegacyB6SliderV05SwiftC04ViewAA4BodyAdEP_AdE
++ _associated conformance 14SystemBannerUI0aB7TriggerOSHAASQ
++ _associated conformance 14SystemBannerUI27ExpandedButtonPressedEffectV05SwiftC012ViewModifierAA4BodyAdEP_AD0I0
++ _associated conformance So16NSURLResourceKeyaSHSCSQ
++ _associated conformance So16NSURLResourceKeyas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So16NSURLResourceKeyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _objc_msgSend$getDeviceDisplayName:
++ _objc_msgSend$getGenericImageForType:
++ _objc_msgSend$getImageURLForAppleProductID:andColor:
++ _objc_msgSend$initWithContentOfURL:
++ _objc_msgSend$initWithContentsOfURL:
++ _objc_msgSend$sharedAssetHelper
++ _symbolic SDySSypGIegr_
++ _symbolic _____ 14SystemBannerUI06LegacyB6SliderV
++ _symbolic _____ 14SystemBannerUI06LegacyB6SliderV6RecipeV
++ _symbolic _____ 14SystemBannerUI06SliderB5ImageV
++ _symbolic _____ 14SystemBannerUI0aB7TriggerO
++ _symbolic _____ 14SystemBannerUI27ExpandedButtonPressedEffectV
++ _symbolic _____ So16NSURLResourceKeya
++ _symbolic _____Sg 13ControlCenter13GenericDeviceV5ClassV
++ _symbolic _____Sg 13MenuBarClient23MBSystemBannerAssertionC7TriggerO
++ _symbolic _____yAAyAAyAAyAAy__________y_____SgGG_____y_____GG_____G_____G_____yAI_____GG 7SwiftUI15ModifiedContentV AA24ButtonStyleConfigurationV5LabelV AA30_EnvironmentKeyWritingModifierV AA4FontV AA011_ForegroundfL0V AA5ColorV AA12_FrameLayoutV AA08_PaddingQ0V AA026_InsettableBackgroundShapeL0V AA7CapsuleV
++ _symbolic _____yAAyAAyAAy__________y_____SgGG_____y_____GG_____G_____G 7SwiftUI15ModifiedContentV AA24ButtonStyleConfigurationV5LabelV AA30_EnvironmentKeyWritingModifierV AA4FontV AA011_ForegroundfL0V AA5ColorV AA12_FrameLayoutV AA08_PaddingQ0V
++ _symbolic _____yAAyAAy_____y_____G_____G_____G_____ySbGG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 012SystemBannerB027ExpandedButtonPressedEffectV AA08_OpacityL0V AA06_ScaleL0V AA010_AnimationF0V
++ _symbolic _____yAAy_____y_____G_____G_____G 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 012SystemBannerB027ExpandedButtonPressedEffectV AA08_OpacityL0V AA06_ScaleL0V
++ _symbolic _____yAAy_____y__________GAAyAAy__________GAFGG_____G 7SwiftUI19_ConditionalContentV AA08ModifiedD0V 012SystemBannerB018ReverseRouteButtonV AA14_PaddingLayoutV AF0G20CircularProgressViewV AF07CompactmnO0V AF0fg11PlaceholderO0V
++ _symbolic _____yAAy_____y__________GAAyAAy__________GAFGG_____GSg 7SwiftUI19_ConditionalContentV AA08ModifiedD0V 012SystemBannerB018ReverseRouteButtonV AA14_PaddingLayoutV AF0G20CircularProgressViewV AF07CompactmnO0V AF0fg11PlaceholderO0V
++ _symbolic _____ySbG 7SwiftUI18_AnimationModifierV
++ _symbolic _____y_____G 7SwiftUI21_ViewModifier_ContentV 012SystemBannerB027ExpandedButtonPressedEffectV
++ _symbolic _____y_____G s11_SetStorageC So16NSURLResourceKeya
++ _symbolic _____y_____G s23_ContiguousArrayStorageC So16NSURLResourceKeya
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 012SystemBannerB018ReverseRouteButtonV AA14_PaddingLayoutV
++ _symbolic _____y__________G 7SwiftUI34_InsettableBackgroundShapeModifierV AA5ColorV AA7CapsuleV
++ _symbolic _____y_____yAAyAAyAAyAAyAAy__________y_____SgGG_____y_____GG_____G_____G_____yAJ_____GGAAyAnQyAJ_____GGG_____G 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA24ButtonStyleConfigurationV5LabelV AA30_EnvironmentKeyWritingModifierV AA4FontV AA011_ForegroundgM0V AA5ColorV AA12_FrameLayoutV AA08_PaddingR0V AA026_InsettableBackgroundShapeM0V AA7CapsuleV AA6CircleV 012SystemBannerB008ExpandedF13PressedEffectV
++ _symbolic _____y_____yAAy_____yAAy_____yAAy_____y__________SgG_____y_____GG_Qo_AGy_____SgGG______y_____y_____y__________SQ12CoreGraphicsyHCg0_GG_____SgGQo______ySbGG_Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE21sliderThumbVisibilityyQrAA0H0OFQO AeAE7gesture_9includingQrqd___AA11GestureMaskVtAA0K0Rd__lFQO AeAE0F14TintProminenceyQrAA06SlidermN0VFQO AA0O0V AA05EmptyE0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA5ColorV AA0k5StateK0V AA06_EndedK0V AA08_ChangedK0V AA014IndirectScrollK0V So6CGSizeV 012SystemBannerB00o6ScrollY0C AA01_rs9TransformU0V AA023AccessibilityAttachmentU0V
++ _symbolic _____y_____yAAy_____yAAy_____y__________SgG_____y_____GG_Qo_AGy_____SgGG______y_____y_____y__________SQ12CoreGraphicsyHCg0_GG_____SgGQo______ySbGG 7SwiftUI15ModifiedContentV AA4ViewPAAE7gesture_9includingQrqd___AA11GestureMaskVtAA0H0Rd__lFQO AeAE20sliderTintProminenceyQrAA06SliderkL0VFQO AA0M0V AA05EmptyE0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA5ColorV AA0h5StateH0V AA06_EndedH0V AA08_ChangedH0V AA014IndirectScrollH0V So6CGSizeV 012SystemBannerB00m6ScrollW0C AA01_pq9TransformS0V
++ _symbolic _____y_____yAAy_____y__________SgG_____y_____GG_Qo_AGy_____SgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE20sliderTintProminenceyQrAA06SlidergH0VFQO AA0I0V AA05EmptyE0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA5ColorV
++ _symbolic _____y_____yAByAByAByABy__________y_____SgGG_____y_____GG_____G_____G_____yAJ_____GGAByAnQyAJ_____GGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA24ButtonStyleConfigurationV5LabelV AA30_EnvironmentKeyWritingModifierV AA4FontV AA011_ForegroundgM0V AA5ColorV AA12_FrameLayoutV AA08_PaddingR0V AA026_InsettableBackgroundShapeM0V AA7CapsuleV AA6CircleV
++ _symbolic _____y_____yAByAByAByABy__________y_____SgGG_____y_____GG_____G_____G_____yAJ_____GGAByAnQyAJ_____GG_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA24ButtonStyleConfigurationV5LabelV AA30_EnvironmentKeyWritingModifierV AA4FontV AA011_ForegroundhN0V AA5ColorV AA12_FrameLayoutV AA08_PaddingS0V AA026_InsettableBackgroundShapeN0V AA7CapsuleV AA6CircleV
++ _symbolic _____y_____y_____G_____G 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 012SystemBannerB027ExpandedButtonPressedEffectV AA08_OpacityL0V
++ _symbolic _____y_____y__________GAAyAAy__________GAFGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V 012SystemBannerB018ReverseRouteButtonV AA14_PaddingLayoutV AF0G20CircularProgressViewV AF07CompactmnO0V
++ _symbolic _____y_____y__________SgG_____y_____GG 7SwiftUI15ModifiedContentV AA6SliderV AA9EmptyViewV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO
++ _symbolic _____y_____y_____yAAy_____yAAy_____y__________SgG_____y_____GG_Qo_AGy_____SgGG______y_____y_____y__________SQ12CoreGraphicsyHCg0_GG_____SgGQo______ySbGG_Qo_ 7SwiftUI4ViewPAAE21sliderThumbVisibilityyQrAA0F0OFQO AA15ModifiedContentV AcAE7gesture_9includingQrqd___AA11GestureMaskVtAA0K0Rd__lFQO AcAE0D14TintProminenceyQrAA06SlidermN0VFQO AA0O0V AA05EmptyC0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA5ColorV AA0k5StateK0V AA06_EndedK0V AA08_ChangedK0V AA014IndirectScrollK0V So6CGSizeV 012SystemBannerB00o6ScrollY0C AA01_rs9TransformU0V
++ _symbolic _____y_____y_____yABy_____yABy_____yABy_____y__________SgG_____y_____GG_Qo_AHy_____SgGG______y_____y_____y__________SQ12CoreGraphicsyHCg0_GG_____SgGQo______ySbGG_Qo______GA4_G 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA4ViewPAAE21sliderThumbVisibilityyQrAA0I0OFQO AgAE7gesture_9includingQrqd___AA11GestureMaskVtAA0L0Rd__lFQO AgAE0G14TintProminenceyQrAA06SlidernO0VFQO AA0P0V AA05EmptyF0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA5ColorV AA0l5StateL0V AA06_EndedL0V AA08_ChangedL0V AA014IndirectScrollL0V So6CGSizeV 012SystemBannerB00p6ScrollZ0C AA01_st9TransformV0V AA023AccessibilityAttachmentV0V
++ _symbolic _____y_____y_____yABy_____yABy_____yABy_____y__________SgG_____y_____GG_Qo_AHy_____SgGG______y_____y_____y__________SQ12CoreGraphicsyHCg0_GG_____SgGQo______ySbGG_Qo______GA4__G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA4ViewPAAE21sliderThumbVisibilityyQrAA0J0OFQO AiAE7gesture_9includingQrqd___AA11GestureMaskVtAA0M0Rd__lFQO AiAE0H14TintProminenceyQrAA06SlideroP0VFQO AA0Q0V AA05EmptyG0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA5ColorV AA0m5StateM0V AA06_EndedM0V AA08_ChangedM0V AA014IndirectScrollM0V So6CGSizeV 012SystemBannerB00Q11ScrollStateC AA01_tu9TransformW0V AA023AccessibilityAttachmentW0V
++ _type_layout_string 14SystemBannerUI23ReverseRouteButtonStyle33_DD89F777BB85F1E941D7152C84118A26LLV
++ _type_layout_string 14SystemBannerUI27ExpandedButtonPressedEffectV
++ _type_layout_string So16NSURLResourceKeya
++ get_witness_table 14SystemBannerUI06SlideraB7ContentRzlAA06LegacybD0V05SwiftC04ViewHPyHC
++ get_witness_table 7SwiftUI15ModifiedContentVyAA012_ConditionalD0VyACyACyACyACyACyAA24ButtonStyleConfigurationV5LabelVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAA011_ForegroundgM0VyAA5ColorVGGAA12_FrameLayoutVGAA08_PaddingR0VGAA026_InsettableBackgroundShapeM0VyAtA7CapsuleVGGACyAYA2_yAtA6CircleVGGG012SystemBannerB008ExpandedF13PressedEffectVGAA4ViewHPA11_AAA16_HPA6_AAA16_HPA0_AAA16_HPAyAA16_HPAvAA16_HPApAA16_HPAiAA16_HPyHC_AoA04ViewM0HPyHCHC_AuAA17_HPyHCHC_AxAA17_HPyHCHC_A_AAA17_HPyHCHC_A5_AAA17_HPyHCHC_A10_AAA16_HPAyAA16_HPAvAA16_HPApAA16_HPAiAA16_HPyHC_AoAA17_HPyHCHC_AuAA17_HPyHCHC_AxAA17_HPyHCHC_A9_AAA17_HPyHCHCHC_A14_AAA17_HPyHCHC
++ get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA014_ViewModifier_D0Vy012SystemBannerB027ExpandedButtonPressedEffectVGAA08_OpacityL0VGAA06_ScaleL0VGAA010_AnimationF0VySbGGAA0E0HPAoaTHPAlaTHPAiaTHPyHC_AkA0eF0HPyHCHC_AnaUHPyHCHC_AraUHPyHCHC
++ get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAA4ViewPAAE21sliderThumbVisibilityyQrAA0I0OFQOyAEyAgAE7gesture_9includingQrqd___AA11GestureMaskVtAA0L0Rd__lFQOyAEyAgAE0G14TintProminenceyQrAA06SlidernO0VFQOyAEyAA0P0VyAA05EmptyF0VAA5ImageVSgGAA30_EnvironmentKeyWritingModifierVyAA11ControlSizeOGG_Qo_A0_yAA5ColorVSgGG_AA0l5StateL0VyAA06_EndedL0VyAA08_ChangedL0VyAA014IndirectScrollL0VSo6CGSizeVSQ12CoreGraphicsyHCg0_GG012SystemBannerB00p6ScrollZ0CSgGQo_AA01_st9TransformV0VySbGG_Qo_AA023AccessibilityAttachmentV0VGA34_GAaFHPA37_AaFHPqd__AaFHD2_A34_HO_A36_AA0fV0HPyHCHC_qd__AaFHD2_A34_HOHC
++ get_witness_table 7SwiftUI19_ConditionalContentVyACyAA08ModifiedD0Vy012SystemBannerB018ReverseRouteButtonVAA14_PaddingLayoutVGACyACyAF0G20CircularProgressViewVAF07CompactmnO0VGAMGGAF0fg11PlaceholderO0VGSgAA0O0HpAuaWHPAraWHPAkaWHPAhaWHPyHC_AjA0O8ModifierHPyHCHC_AqaWHPApaWHPAmaWHPyHC_AoaWHPyHCHC_AmaWHPyHCHCHC_AtaWHPyHCHC_HC
+- _CACurrentMediaTime
+- _CFUUIDCreateFromString
+- _CFUUIDCreateFromUUIDBytes
+- _CFUUIDCreateString
+- _CGContextFlush
+- _CGDisplayBounds
+- _CGDisplayCreateImage
+- _CGDisplayCreateImageForRect
+- _CGGetActiveDisplayList
+- _CGGetDisplaysWithPoint
+- _CGGetDisplaysWithRect
+- _CGRectContainsPoint
+- _CGRectGetHeight
+- _CGRectGetMidX
+- _CGRectGetMinY
+- _CGRectGetWidth
+- _CGRectInset
+- _CGRectIntersection
+- _CGRectNull
+- _CGRectOffset
+- _CGRectUnion
+- _CGSAddTrackingRegion
+- _CGSAddWindowToWindowMovementGroup
+- _CGSAddWindowToWindowOrderingGroup
+- _CGSAddWindowsToSpaces
+- _CGSCaptureWindowsContentsToRectWithOptions
+- _CGSCopyAssociatedWindows
+- _CGSCopyBestManagedDisplayForRect
+- _CGSCopyDisplayUUID
+- _CGSCopyManagedDisplayForSpace
+- _CGSCopyManagedDisplayForWindow
+- _CGSCopyManagedDisplaySpaces
+- _CGSCopySpaces
+- _CGSCopySpacesForWindows
+- _CGSCopySpecifiedWindowShape
+- _CGSCopyWindowProperty
+- _CGSCopyWindowsWithOptionsAndTags
+- _CGSDisplayStatusQuery
+- _CGSGetCurrentDisplayMode
+- _CGSGetDisplayModeDescriptionOfLength
+- _CGSGetDisplaysWithUUID
+- _CGSGetScreenRectForWindow
+- _CGSGetWindowBounds
+- _CGSGetWindowEventMask
+- _CGSGetWindowEventReceiver
+- _CGSGetWindowLevel
+- _CGSGetWindowOwner
+- _CGSGetWindowPresenter
+- _CGSGetWindowResolution
+- _CGSGetWindowTags
+- _CGSHideSpaces
+- _CGSMainDisplayID
+- _CGSManagedDisplaySetCurrentSpace
+- _CGSManagedDisplaySetIsAnimating
+- _CGSManagedDisplaysCopyRoleWindows
+- _CGSMoveManagedSpaceToDisplayIndex
+- _CGSMoveWindow
+- _CGSNewWindowWithOpaqueShape
+- _CGSOrderWindow
+- _CGSOrderWindowWithGroup
+- _CGSPackagesGetWindowConstraints
+- _CGSProcessAssignToAllSpaces
+- _CGSProcessAssignToSpace
+- _CGSReleaseWindow
+- _CGSRemoveFromOrderingGroup
+- _CGSRemoveWindowFromWindowMovementGroup
+- _CGSRemoveWindowsFromSpaces
+- _CGSResetWindows
+- _CGSSetDisplayAcceleratorBoost
+- _CGSSetWindowCornerMask
+- _CGSSetWindowEventMask
+- _CGSSetWindowEventShape
+- _CGSSetWindowLevel
+- _CGSSetWindowResolution
+- _CGSSetWindowShape
+- _CGSSetWindowTags
+- _CGSSetWindowTransformAtPlacement
+- _CGSShowSpaces
+- _CGSSpaceAddOwner
+- _CGSSpaceAddWindowsAndRemoveFromSpaces
+- _CGSSpaceCanCreateTile
+- _CGSSpaceCopyManagedShape
+- _CGSSpaceCopyName
+- _CGSSpaceCopyOwners
+- _CGSSpaceCopyShape
+- _CGSSpaceCopyTileSpaces
+- _CGSSpaceCopyValues
+- _CGSSpaceCreate
+- _CGSSpaceCreateTile
+- _CGSSpaceDestroy
+- _CGSSpaceGetAbsoluteLevel
+- _CGSSpaceGetRect
+- _CGSSpaceGetSizeForProposedTile
+- _CGSSpaceGetTransform
+- _CGSSpaceGetType
+- _CGSSpacePreferCurrentDisplay
+- _CGSSpaceRemoveOwner
+- _CGSSpaceResetMenuBar
+- _CGSSpaceSetAbsoluteLevel
+- _CGSSpaceSetFrontPSN
+- _CGSSpaceSetName
+- _CGSSpaceSetOwners
+- _CGSSpaceSetShape
+- _CGSSpaceSetTransform
+- _CGSSpaceSetValues
+- _CGSWillSwitchSpaces
+- _CGSWindowIsOrderedIn
+- _CGSWindowSetShadowProperties
+- _CGSizeCreateDictionaryRepresentation
+- _CGWindowContextCreate
+- _CPSGetWindowOwner
+- _OBJC_CLASS_$_CATransaction
+- _OBJC_CLASS_$_NSDistributedNotificationCenter
+- _OBJC_CLASS_$_NSNumber
+- _OBJC_CLASS_$_NSScreen
+- _OUTLINED_FUNCTION_52
+- _OUTLINED_FUNCTION_53
+- _OUTLINED_FUNCTION_54
+- _OUTLINED_FUNCTION_55
+- _OUTLINED_FUNCTION_56
+- _OUTLINED_FUNCTION_57
+- _SASNotifySessionStateForUser
+- _SLSCopyWindowsWithOptionsAndTagsAndSpaceOptions
+- _SLSDisplayGetTiming
+- _SLSGetWindowFrameBounds
+- _SLSNewWindowWithOpaqueShapeAndContext
+- _SLSTransactionAddWindowToSpace
+- _SLSTransactionAddWindowToSpaceAndRemoveFromSpaces
+- _SLSTransactionBatchReassociateWindowsToSpace
+- _SLSTransactionClearMenuBarSystemOverrideAlphas
+- _SLSTransactionClearWindowLockedBounds
+- _SLSTransactionClearWindowSystemLevel
+- _SLSTransactionCommit
+- _SLSTransactionCommitUsingMethod
+- _SLSTransactionCreate
+- _SLSTransactionDeferWindowMoveEvents
+- _SLSTransactionDestroySpace
+- _SLSTransactionGetFencingContext
+- _SLSTransactionHideSpace
+- _SLSTransactionMoveWindowWithGroup
+- _SLSTransactionMoveWindowsToManagedSpace
+- _SLSTransactionOrderWindow
+- _SLSTransactionOrderWindowGroup
+- _SLSTransactionOverrideAppSleepNotifications
+- _SLSTransactionPostBroadcastNotification
+- _SLSTransactionPostNotificationToConnection
+- _SLSTransactionRemoveWindowFromSpace
+- _SLSTransactionResetSpaceMenuBar
+- _SLSTransactionSetClientAdvisory
+- _SLSTransactionSetEventCapture
+- _SLSTransactionSetManagedDisplayCurrentSpace
+- _SLSTransactionSetManagedDisplayIsAnimating
+- _SLSTransactionSetMenuBarSystemOverrideAlpha
+- _SLSTransactionSetSafeApertureOverride
+- _SLSTransactionSetSafeApertureSpaceReveal
+- _SLSTransactionSetSpaceAbsoluteLevel
+- _SLSTransactionSetSpaceAlpha
+- _SLSTransactionSetSpaceOrderingWeight
+- _SLSTransactionSetSpaceShape
+- _SLSTransactionSetSpaceTransform
+- _SLSTransactionSetSurfaceLayerBackingOptions
+- _SLSTransactionSetWindowAlpha
+- _SLSTransactionSetWindowBrightness
+- _SLSTransactionSetWindowGlobalClipShape
+- _SLSTransactionSetWindowLevel
+- _SLSTransactionSetWindowLockedBounds
+- _SLSTransactionSetWindowProperty
+- _SLSTransactionSetWindowResolution
+- _SLSTransactionSetWindowShape
+- _SLSTransactionSetWindowSubLevel
+- _SLSTransactionSetWindowSystemAlpha
+- _SLSTransactionSetWindowSystemLevel
+- _SLSTransactionSetWindowTransform
+- _SLSTransactionSetWindowWarp
+- _SLSTransactionShowSpace
+- _SLSTransactionSpaceTileMoveToSpaceAtIndex
+- _SLSTransactionUpdateRegion
+- _SLSTransactionWait
+- _SLSTransactionWillSwitchSpaces
+- __DATA__TtC14SystemBannerUI27SystemBannerWindowPresenter
+- __INSTANCE_METHODS__TtC14SystemBannerUI27SystemBannerWindowPresenter
+- __IVARS__TtC14SystemBannerUI27SystemBannerWindowPresenter
+- __METACLASS_DATA__TtC14SystemBannerUI27SystemBannerWindowPresenter
+- ___swift_memcpy120_8
+- ___swift_memcpy32_8
+- __swift_FORCE_LOAD_$_swiftCoreFoundation_$_EyeCandySwift
+- __swift_FORCE_LOAD_$_swiftDispatch_$_EyeCandySwift
+- __swift_FORCE_LOAD_$_swiftFoundation_$_EyeCandySwift
+- __swift_FORCE_LOAD_$_swiftIOKit_$_EyeCandySwift
+- __swift_FORCE_LOAD_$_swiftObjectiveC_$_EyeCandySwift
+- __swift_FORCE_LOAD_$_swiftXPC_$_EyeCandySwift
+- __swift_FORCE_LOAD_$_swift_Builtin_float_$_EyeCandySwift
+- __swift_closure_destructor.26Tm
+- __swift_closure_destructor.43Tm
+- _associated conformance 14SystemBannerUI0B6SliderV05SwiftC04ViewAA4BodyAdEP_AdE
+- _associated conformance 16EyeCandyGraphics8CGSSpaceVSHAASQ
+- _associated conformance 16EyeCandyGraphics9CGDisplayVSHAASQ
+- _associated conformance 16EyeCandyGraphics9CGSWindowVSHAASQ
+- _associated conformance So10WindowTagsV13EyeCandySwift26OptionSetStringConvertible0cD8Graphicss06CustomhI0
+- _associated conformance So10WindowTagsV13EyeCandySwift26OptionSetStringConvertible0cD8Graphicss0fG0
+- _associated conformance So10WindowTagsVs10SetAlgebraSCSQ
+- _associated conformance So10WindowTagsVs10SetAlgebraSCs25ExpressibleByArrayLiteral
+- _associated conformance So10WindowTagsVs9OptionSetSCSY
+- _associated conformance So10WindowTagsVs9OptionSetSCs0D7Algebra
+- _associated conformance So11CFStringRefa14CoreFoundation9_CFObjectSCSH
+- _associated conformance So11CFStringRefaSHSCSQ
+- _associated conformance So13NSWindowLevelaSHSCSQ
+- _associated conformance So13NSWindowLevelas20_SwiftNewtypeWrapperSCSY
+- _associated conformance So13NSWindowLevelas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
+- _associated conformance So18NSNotificationNameaSHSCSQ
+- _associated conformance So18NSNotificationNameas20_SwiftNewtypeWrapperSCSY
+- _associated conformance So18NSNotificationNameas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
+- _dynamic_cast_existential_0_class_conditional
+- _getpid
+- _getuid
+- _kCGSPackagesDisplayIdentifierKey
+- _kCGSWorkspaceOwnerKey
+- _kCGSWorkspaceSizeConstraintsKey
+- _kCGSWorkspaceSizeConstraintsMaxKey
+- _kCGSWorkspaceSizeConstraintsMinKey
+- _kCGSWorkspaceSizeConstraintsPreferredKey
+- _kCGSWorkspaceTileWindowKey
+- _kSLSSpaceAbsoluteLevelNotificationCenterAtScreenLock
+- _mach_timebase_info
+- _notify_cancel
+- _objc_msgSend$addFence:
+- _objc_msgSend$addObserver:selector:name:object:suspensionBehavior:
+- _objc_msgSend$begin
+- _objc_msgSend$blueColor
+- _objc_msgSend$boolForKey:
+- _objc_msgSend$colorWithAlphaComponent:
+- _objc_msgSend$commit
+- _objc_msgSend$defaultCenter
+- _objc_msgSend$flush
+- _objc_msgSend$frame
+- _objc_msgSend$initWithInt:
+- _objc_msgSend$initWithUnsignedLongLong:
+- _objc_msgSend$intValue
+- _objc_msgSend$level
+- _objc_msgSend$orderFront:
+- _objc_msgSend$orderOut:
+- _objc_msgSend$redColor
+- _objc_msgSend$removeObserver:name:object:
+- _objc_msgSend$screens
+- _objc_msgSend$setContentView:
+- _objc_msgSend$setFrame:display:animate:
+- _objc_msgSend$setFrameOrigin:
+- _objc_msgSend$setIgnoresMouseEvents:
+- _objc_msgSend$unsignedIntValue
+- _objc_msgSend$unsignedLongLongValue
+- _os_variant_has_internal_ui
+- _swift_dynamicCastObjCClass
+- _swift_getTupleTypeMetadata2
+- _swift_isClassType
+- _symbolic $s13EyeCandySwift26OptionSetStringConvertibleP
+- _symbolic $s14SystemBannerUI0aB23WindowPresenterDelegateP
+- _symbolic SDySSyXlG
+- _symbolic SDy__________G So11CFStringRefa So012CFDictionaryB0a
+- _symbolic SaySSG
+- _symbolic SaySo8NSNumberCG
+- _symbolic SaySo8NSNumberCGSg
+- _symbolic Say_____G 16EyeCandyGraphics8CGSSpaceV
+- _symbolic Say_____G 16EyeCandyGraphics9CGSWindowV
+- _symbolic So8NSNumberC
+- _symbolic So8NSWindowCSg
+- _symbolic _____ 14SystemBannerUI0B6SliderV
+- _symbolic _____ 14SystemBannerUI0B6SliderV6RecipeV
+- _symbolic _____ 14SystemBannerUI0aB15WindowPresenterC
+- _symbolic _____ 14SystemBannerUI19ExpandedSliderImageV
+- _symbolic _____ 16EyeCandyGraphics8CGSSpaceV
+- _symbolic _____ 16EyeCandyGraphics9CGDisplayV
+- _symbolic _____ 16EyeCandyGraphics9CGSWindowV
+- _symbolic _____ So10WindowTagsV
+- _symbolic _____ So13NSWindowLevela
+- _symbolic _____ So18NSNotificationNamea
+- _symbolic _____ So6CGRectV
+- _symbolic _____ So6CGRectV16EyeCandyGraphicsE9DimensionO
+- _symbolic _____ s6UInt64V
+- _symbolic _____Sg 12CoreGraphics6RegionV
+- _symbolic _____Sg 14SystemBannerUI0aB6WindowC
+- _symbolic _____Sg 16EyeCandyGraphics8CGSSpaceV
+- _symbolic ______p s5ErrorP
+- _symbolic ______pSgXw 14SystemBannerUI0aB23WindowPresenterDelegateP
+- _symbolic _____yAAy_____AAyAAy__________GACGG_____G 7SwiftUI19_ConditionalContentV 012SystemBannerB018ReverseRouteButtonV AD0F20CircularProgressViewV AD07CompactjkL0V AD0ef11PlaceholderL0V
+- _symbolic _____yAAy_____AAyAAy__________GACGG_____GSg 7SwiftUI19_ConditionalContentV 012SystemBannerB018ReverseRouteButtonV AD0F20CircularProgressViewV AD07CompactjkL0V AD0ef11PlaceholderL0V
+- _symbolic _____yAAy_____y__________SgG_____G_____y_____GG 7SwiftUI15ModifiedContentV AA6SliderV AA9EmptyViewV AA5ImageV AA20_TransactionModifierV AA022_EnvironmentKeyWritingJ0V AA11ControlSizeO
+- _symbolic _____ySDySSyXlGG s23_ContiguousArrayStorageC
+- _symbolic _____ySSG s23_ContiguousArrayStorageC
+- _symbolic _____ySS_yXltG s23_ContiguousArrayStorageC
+- _symbolic _____ySSyXlG s17_NativeDictionaryV
+- _symbolic _____y_____AAyAAy__________GACGG 7SwiftUI19_ConditionalContentV 012SystemBannerB018ReverseRouteButtonV AD0F20CircularProgressViewV AD07CompactjkL0V
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 16EyeCandyGraphics8CGSSpaceV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 16EyeCandyGraphics9CGDisplayV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 16EyeCandyGraphics9CGSWindowV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC s5Int32V
+- _symbolic _____y_____G s23_ContiguousArrayStorageC s6UInt32V
+- _symbolic _____y_____SgG 7SwiftUI13NSHostingViewC 012SystemBannerB00eF9ContainerV
+- _symbolic _____y___________tG s23_ContiguousArrayStorageC So11CFStringRefa So012CFDictionaryE0a
+- _symbolic _____y___________tG s23_ContiguousArrayStorageC So11CFStringRefa s6UInt32V
+- _symbolic _____y______yptG s23_ContiguousArrayStorageC So11CFStringRefa
+- _symbolic _____y_____yAAyAAy_____y__________SgG_____G_____y_____GG_Qo_AIy_____SgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE20sliderTintProminenceyQrAA06SlidergH0VFQO AA0I0V AA05EmptyE0V AA5ImageV AA20_TransactionModifierV AA022_EnvironmentKeyWritingM0V AA11ControlSizeO AA5ColorV
+- _symbolic _____y_____yAAy_____yAAyAAy_____y__________SgG_____G_____y_____GG_Qo_AIy_____SgGG______y_____y_____y__________SQ12CoreGraphicsyHCg0_GG_____SgGQo______ySbGG 7SwiftUI15ModifiedContentV AA4ViewPAAE7gesture_9includingQrqd___AA11GestureMaskVtAA0H0Rd__lFQO AeAE20sliderTintProminenceyQrAA06SliderkL0VFQO AA0M0V AA05EmptyE0V AA5ImageV AA20_TransactionModifierV AA022_EnvironmentKeyWritingQ0V AA11ControlSizeO AA5ColorV AA0h5StateH0V AA06_EndedH0V AA08_ChangedH0V AA014IndirectScrollH0V So6CGSizeV 012SystemBannerB00m6ScrollX0C AA01_rs9TransformQ0V
+- _symbolic _____y_____yAAy_____yAAy_____yAAyAAy_____y__________SgG_____G_____y_____GG_Qo_AIy_____SgGG______y_____y_____y__________SQ12CoreGraphicsyHCg0_GG_____SgGQo______ySbGG_Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE21sliderThumbVisibilityyQrAA0H0OFQO AeAE7gesture_9includingQrqd___AA11GestureMaskVtAA0K0Rd__lFQO AeAE0F14TintProminenceyQrAA06SlidermN0VFQO AA0O0V AA05EmptyE0V AA5ImageV AA20_TransactionModifierV AA022_EnvironmentKeyWritingS0V AA11ControlSizeO AA5ColorV AA0k5StateK0V AA06_EndedK0V AA08_ChangedK0V AA014IndirectScrollK0V So6CGSizeV 012SystemBannerB00o6ScrollZ0C AA01_tu9TransformS0V AA023AccessibilityAttachmentS0V
+- _symbolic _____y_____y__________SgG_____G 7SwiftUI15ModifiedContentV AA6SliderV AA9EmptyViewV AA5ImageV AA20_TransactionModifierV
+- _symbolic _____y_____y_____yAAy_____yAAyAAy_____y__________SgG_____G_____y_____GG_Qo_AIy_____SgGG______y_____y_____y__________SQ12CoreGraphicsyHCg0_GG_____SgGQo______ySbGG_Qo_ 7SwiftUI4ViewPAAE21sliderThumbVisibilityyQrAA0F0OFQO AA15ModifiedContentV AcAE7gesture_9includingQrqd___AA11GestureMaskVtAA0K0Rd__lFQO AcAE0D14TintProminenceyQrAA06SlidermN0VFQO AA0O0V AA05EmptyC0V AA5ImageV AA20_TransactionModifierV AA022_EnvironmentKeyWritingS0V AA11ControlSizeO AA5ColorV AA0k5StateK0V AA06_EndedK0V AA08_ChangedK0V AA014IndirectScrollK0V So6CGSizeV 012SystemBannerB00o6ScrollZ0C AA01_tu9TransformS0V
+- _symbolic _____y_____y_____yABy_____yABy_____yAByABy_____y__________SgG_____G_____y_____GG_Qo_AJy_____SgGG______y_____y_____y__________SQ12CoreGraphicsyHCg0_GG_____SgGQo______ySbGG_Qo______GA6_G 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA4ViewPAAE21sliderThumbVisibilityyQrAA0I0OFQO AgAE7gesture_9includingQrqd___AA11GestureMaskVtAA0L0Rd__lFQO AgAE0G14TintProminenceyQrAA06SlidernO0VFQO AA0P0V AA05EmptyF0V AA5ImageV AA20_TransactionModifierV AA022_EnvironmentKeyWritingT0V AA11ControlSizeO AA5ColorV AA0l5StateL0V AA06_EndedL0V AA08_ChangedL0V AA014IndirectScrollL0V So6CGSizeV 012SystemBannerB00P11ScrollStateC AA01_uv9TransformT0V AA023AccessibilityAttachmentT0V
+- _symbolic _____y_____y_____yABy_____yABy_____yAByABy_____y__________SgG_____G_____y_____GG_Qo_AJy_____SgGG______y_____y_____y__________SQ12CoreGraphicsyHCg0_GG_____SgGQo______ySbGG_Qo______GA6__G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA4ViewPAAE21sliderThumbVisibilityyQrAA0J0OFQO AiAE7gesture_9includingQrqd___AA11GestureMaskVtAA0M0Rd__lFQO AiAE0H14TintProminenceyQrAA06SlideroP0VFQO AA0Q0V AA05EmptyG0V AA5ImageV AA20_TransactionModifierV AA022_EnvironmentKeyWritingU0V AA11ControlSizeO AA5ColorV AA0m5StateM0V AA06_EndedM0V AA08_ChangedM0V AA014IndirectScrollM0V So6CGSizeV 012SystemBannerB00Q11ScrollStateC AA01_vw9TransformU0V AA023AccessibilityAttachmentU0V
+- _symbolic _____yyXlG s23_ContiguousArrayStorageC
+- _type_layout_string 16EyeCandyGraphics8CGSSpaceV
+- _type_layout_string 16EyeCandyGraphics9CGDisplayV
+- _type_layout_string 16EyeCandyGraphics9CGSWindowV
+- _type_layout_string So10WindowTagsV
+- _type_layout_string So13NSWindowLevela
+- _type_layout_string So18NSNotificationNamea
+- _type_layout_string So6CGRectV
+- get_witness_table 14SystemBannerUI06SlideraB7ContentRzlAA0bD0V05SwiftC04ViewHPyHC
+- get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyAA24ButtonStyleConfigurationV5LabelVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAA011_ForegroundfL0VyAA5ColorVGGAA12_FrameLayoutVGAA026_InsettableBackgroundShapeL0VyArA6CircleVGGAA4ViewHPAwAA2_HPAtAA2_HPAnAA2_HPAgAA2_HPyHC_AmA0vL0HPyHCHC_AsAA3_HPyHCHC_AvAA3_HPyHCHC_A0_AAA3_HPyHCHC
+- get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAA4ViewPAAE21sliderThumbVisibilityyQrAA0I0OFQOyAEyAgAE7gesture_9includingQrqd___AA11GestureMaskVtAA0L0Rd__lFQOyAEyAgAE0G14TintProminenceyQrAA06SlidernO0VFQOyAEyAEyAA0P0VyAA05EmptyF0VAA5ImageVSgGAA20_TransactionModifierVGAA022_EnvironmentKeyWritingT0VyAA11ControlSizeOGG_Qo_A3_yAA5ColorVSgGG_AA0l5StateL0VyAA06_EndedL0VyAA08_ChangedL0VyAA014IndirectScrollL0VSo6CGSizeVSQ12CoreGraphicsyHCg0_GG012SystemBannerB00P11ScrollStateCSgGQo_AA01_uv9TransformT0VySbGG_Qo_AA023AccessibilityAttachmentT0VGA37_GAaFHPA40_AaFHPqd__AaFHD2_A37_HO_A39_AA0fT0HPyHCHC_qd__AaFHD2_A37_HOHC
+- get_witness_table 7SwiftUI19_ConditionalContentVyACy012SystemBannerB018ReverseRouteButtonVACyACyAD0F20CircularProgressViewVAD07CompactjkL0VGAHGGAD0ef11PlaceholderL0VGSgAA0L0HpApaRHPAmaRHPAfaRHPyHC_AlaRHPAkaRHPAhaRHPyHC_AjaRHPyHCHC_AhaRHPyHCHCHC_AoaRHPyHCHC_HC
+CStrings:
+- "%{public}s"
+- ". onAllWorkspaces"
+- ".activationWindowLevel"
+- ".attached"
+- ".avoidsActivation"
+- ".avoidsCapture"
+- ".bringOwningApplicationForward"
+- ".coreDragIsDraggingWindow"
+- ".defersActivation"
+- ".defersOrdering"
+- ".desktopPicture"
+- ".disableShadow"
+- ".doNotShowBadgeInDock"
+- ".document"
+- ".dontDimWindowDisplay"
+- ".dontHide"
+- ".dragsMovementGroupParent"
+- ".enableServerSideDrag"
+- ".floating"
+- ".followsUser"
+- ".friendOfFullscreen"
+- ".fullScreen"
+- ".fullScreenCapable"
+- ".fullScreenTileCapable"
+- ".hidden"
+- ".hideOnDeactivate"
+- ".ignoreAlphaForDragging"
+- ".ignoreAsFrontWindow"
+- ".ignoreForEvents"
+- ".ignoreForExpose"
+- ".ignoreForScreenSharing"
+- ".ignoresCycle"
+- ".ignoresOption"
+- ".ignoresWorkspaceHeuristics"
+- ".includeInCycle"
+- ".instantMouserWindow"
+- ".kitVisible"
+- ".menuBar"
+- ".meshedWindow"
+- ".modalWindow"
+- ".mouseDownEventsGrabbed"
+- ".neverFlattenSurfacesDuringSwipes"
+- ".neverSticky"
+- ".nonCompositingBackingStore"
+- ".opaqueForEvents"
+- ".ordersForwardWhenSurfaceFlushed"
+- ".permittedBeforeLogin"
+- ".pointerEventsAvoidCPS"
+- ".preventsActivation"
+- ".setsCursorInBackground"
+- ".superSticky"
+- ".userInputAccessory"
+- ".wantGesturesInBackground"
+- ".windowDoesNotCastMirrorReflection"
+- ".windowIsMagicZoom"
+- ".windowOwnerFollowsForeground"
+- ".worksWhenModal"
+- "DebugPresentationFrame"
+- "Desktop showing, lower SystemBanner space absolute level"
+- "Down-casted Array element failed to match the target type\nExpected "
+- "NSArray element failed to match the Swift Array Element type\nExpected "
+- "Refusing presentation of %s: delegate provided nil presentation origin frame"
+- "Shield window showing, raise SystemBanner space absolute level"
+- "Unable to determine screen in which presentation origin frame is in."
+- "com.apple.HIToolbox.beginMenuTrackingNotification"
+- "com.apple.HIToolbox.cancelMenuTrackingNotification"
+```

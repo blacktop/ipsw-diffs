@@ -1,0 +1,34 @@
+## Music
+
+> `FileSystem/System/Applications/Music.app/Contents/Resources/en.lproj/UserInterface.strings`
+
+```diff
+
+ ALBUMS_TITLE = "Albums"
+ ALBUM_DETAILS_FILTER_PLACEHOLDER = "Find in Album"
+ ALBUM_DETAILS_GENRE_YEAR_LINE_FORMAT = "%1$@ • %2$@"
++ALBUM_WORK_HEADER_COMPOSER_SEPARATOR_THREE_OR_MORE = ", "
++ALBUM_WORK_HEADER_COMPOSER_SEPARATOR_TWO = " \u0026 "
+ ALL_ALBUMS = "All Albums"
+ ALL_MIXES = "All Mixes"
+ ALL_MUSIC_VIDEOS = "All Music Videos"
+
+ PLAYLIST_EDIT_SHEET_TITLE_PLACEHOLDER_PLAYLIST = "Playlist Title"
+ PLAYLIST_IMAGE_IMPORT_BUTTON_ACCESSIBILITY_HELP = "Change the playlist artwork to a custom image"
+ PLAYLIST_LAST_UPDATED_FORMAT = "Updated %@"
++PLAYLIST_LAST_UPDATED_JUST_NOW = "Updated just now"
+ PLAYLIST_OPTIONALDESCRIPTION_ACCESSIBILITYLABEL = "Optional description of this playlist"
+ PLAYLIST_PAGINATION_CONTROL_LABEL = "Select playlist artwork"
+ PLAYLIST_TITLE_PLACEHOLDER_TEXT = "Playlist Title"
+
+ SEARCH_FIELD_PLACEHOLDER_APPLEMUSIC = "Apple Music"
+ SEARCH_FIELD_PLACEHOLDER_ITUNESSTORE = "iTunes Store"
+ SEARCH_FIELD_PLACEHOLDER_LIBRARY = "Library"
++SHARE_ITEM_GENERIC_ERROR_MESSAGE = "Wait a few minutes and try again."
++SHARE_ITEM_GENERIC_ERROR_TITLE = "Something went wrong."
++SHARE_ITEM_UNAVAILABLE_TITLE = "Unable to Share %@"
+ SHARE_MENU_ITEM = "Share"
+ SHARE_STATION_MENU_ITEM = "Share Station"
+ SHARING_TITLE_VIEW_TITLE_FORMAT = "%1$@ %2$@"
+
+```

@@ -1,0 +1,114 @@
+## DiagnosticExtensionsKit
+
+> `/System/Library/PrivateFrameworks/DiagnosticExtensionsKit.framework/Versions/A/DiagnosticExtensionsKit`
+
+```diff
+
+-148.0.0.0.0
+-  __TEXT.__text: 0x37ee0
++149.0.0.0.0
++  __TEXT.__text: 0x3ec14
+   __TEXT.__objc_methlist: 0x45c
+-  __TEXT.__const: 0x560
+-  __TEXT.__oslogstring: 0xd16
+-  __TEXT.__cstring: 0xa06
+-  __TEXT.__swift5_typeref: 0x5a4
+-  __TEXT.__swift5_capture: 0x14a8
++  __TEXT.__const: 0x5e2
++  __TEXT.__oslogstring: 0xe76
++  __TEXT.__cstring: 0xa96
++  __TEXT.__swift5_typeref: 0x63a
++  __TEXT.__swift5_capture: 0x188c
+   __TEXT.__constg_swiftt: 0x22c
+-  __TEXT.__swift5_reflstr: 0xc0
++  __TEXT.__swift5_reflstr: 0xd7
+   __TEXT.__swift5_fieldmd: 0xac
+-  __TEXT.__swift5_types: 0x14
+-  __TEXT.__swift_as_entry: 0x3c
+-  __TEXT.__swift_as_ret: 0x34
+-  __TEXT.__swift_as_cont: 0x5c
++  __TEXT.__swift5_types: 0x18
++  __TEXT.__swift_as_entry: 0x44
++  __TEXT.__swift_as_ret: 0x44
++  __TEXT.__swift_as_cont: 0x54
+   __TEXT.__swift5_builtin: 0x28
+   __TEXT.__swift5_assocty: 0x18
+   __TEXT.__swift5_proto: 0x8
+-  __TEXT.__unwind_info: 0xde8
+-  __TEXT.__eh_frame: 0x6b0
++  __TEXT.__unwind_info: 0xf90
++  __TEXT.__eh_frame: 0x708
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_classlist: 0x30
+   __DATA_CONST.__objc_protolist: 0x40
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x318
++  __DATA_CONST.__objc_selrefs: 0x328
+   __DATA_CONST.__objc_protorefs: 0x20
+   __DATA_CONST.__objc_superrefs: 0x8
+-  __DATA_CONST.__got: 0x1f0
+-  __AUTH_CONST.__const: 0x3518
++  __DATA_CONST.__got: 0x210
++  __AUTH_CONST.__const: 0x3f40
+   __AUTH_CONST.__objc_const: 0xad0
+-  __AUTH_CONST.__auth_got: 0x5a0
++  __AUTH_CONST.__auth_got: 0x5e8
+   __AUTH.__objc_data: 0x490
+   __AUTH.__data: 0xa8
+   __DATA.__objc_ivar: 0x4
+-  __DATA.__data: 0x460
+-  __DATA.__common: 0x8
++  __DATA.__data: 0x4b0
++  __DATA.__common: 0x11
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/ExtensionFoundation.framework/Versions/A/ExtensionFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 824
+-  Symbols:   377
+-  CStrings:  111
++  Functions: 929
++  Symbols:   390
++  CStrings:  120
+ 
+Symbols:
++ _OBJC_CLASS_$__EXExtensionIdentity
++ _OBJC_CLASS_$__EXQuery
++ _OBJC_CLASS_$__EXQueryController
++ _objc_msgSend$bundleIdentifier
++ _objc_msgSend$executeQuery:
++ _objc_msgSend$initWithExtensionPointIdentifier:
++ _swift_continuation_await
++ _swift_continuation_init
++ _symbolic SaySo20_EXExtensionIdentityCG
++ _symbolic Say_____G 8Dispatch0A13WorkItemFlagsV
++ _symbolic ScCySaySo11DEExtensionCG_____G s5NeverO
++ _symbolic ScCySo11DEExtensionCSg_____G s5NeverO
++ _symbolic _____ySo11DEExtensionCSg______pGSg s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____y_____ySo11DEExtensionCSg______pGSgG 2os21OSAllocatedUnfairLockV s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic xIegHr_
+- _symbolic So11DEExtensionCSgz_Xx
+- _symbolic ______pSgz_Xx s5ErrorP
+CStrings:
++ "Assertion failed"
++ "Extension not found: %{public}s"
++ "Extension point query returned [%{public}ld] identities for [%{public}s]"
++ "Extension point query started for [%{public}s]"
++ "ExtensionKit discovery: %{public}ld extensions"
++ "Legacy lookup is skipped on darwinOS: %{public}s"
++ "On-demand ExtensionKit query failed for [%{public}s]: [%{public}s]"
++ "On-demand discovery for [%{public}s] did not complete within 60s; returning nil, which callers surface as \"extension not found\" even though the extension may be present"
++ "Start unified extension discovery (synchronous)"
++ "com.apple.diagnosticextensions.dek-discovery"
++ "findExtension(withIdentifier:)"
++ "loadLegacyExtensions()"
+- "Extension not found in ExtensionKit and legacy lookup is skipped on darwinOS: %{public}s"
+- "Found %ld total extensions at extension point"
+- "extensionWithIdentifier timed out after 60 seconds for: %{public}s"
+```

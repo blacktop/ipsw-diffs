@@ -1,0 +1,1200 @@
+## NewsArticles
+
+> `/System/iOSSupport/System/Library/PrivateFrameworks/NewsArticles.framework/Versions/A/NewsArticles`
+
+```diff
+
+-5934.0.2.0.0
+-  __TEXT.__text: 0x37ed18
+-  __TEXT.__objc_methlist: 0x8ba4
+-  __TEXT.__const: 0x2bca4
+-  __TEXT.__cstring: 0x10c23
+-  __TEXT.__oslogstring: 0x3355
+-  __TEXT.__ustring: 0x4
+-  __TEXT.__gcc_except_tab: 0xa0
+-  __TEXT.__constg_swiftt: 0x11d74
+-  __TEXT.__swift5_typeref: 0xdb9c
+-  __TEXT.__swift5_fieldmd: 0xf144
+-  __TEXT.__swift5_reflstr: 0xd86a
++5960.0.0.0.0
++  __TEXT.__text: 0x3604c0
++  __TEXT.__objc_methlist: 0x79b4
++  __TEXT.__const: 0x2b8e4
++  __TEXT.__cstring: 0x1029a
++  __TEXT.__constg_swiftt: 0x11b24
++  __TEXT.__swift5_typeref: 0xd8d8
++  __TEXT.__swift5_fieldmd: 0xedf4
++  __TEXT.__swift5_reflstr: 0xd2fa
+   __TEXT.__swift5_builtin: 0x5dc
+   __TEXT.__swift5_assocty: 0x1618
+-  __TEXT.__swift5_protos: 0x53c
+-  __TEXT.__swift5_proto: 0x1ea0
+-  __TEXT.__swift5_types: 0x1178
+-  __TEXT.__swift5_capture: 0x4d14
++  __TEXT.__swift5_protos: 0x534
++  __TEXT.__swift5_proto: 0x1e90
++  __TEXT.__swift5_types: 0x1158
++  __TEXT.__oslogstring: 0x3105
++  __TEXT.__swift5_capture: 0x49d0
+   __TEXT.__swift5_mpenum: 0x15c
+   __TEXT.__swift_as_entry: 0x278
+   __TEXT.__swift_as_cont: 0x5a0
+   __TEXT.__swift_as_ret: 0x294
+-  __TEXT.__unwind_info: 0x10750
++  __TEXT.__unwind_info: 0xfeb0
+   __TEXT.__eh_frame: 0xcc7c
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xdc8
+-  __DATA_CONST.__objc_classlist: 0xf40
++  __DATA_CONST.__const: 0x7f8
++  __DATA_CONST.__objc_classlist: 0xeb0
+   __DATA_CONST.__objc_catlist: 0x18
+-  __DATA_CONST.__objc_protolist: 0x960
++  __DATA_CONST.__objc_protolist: 0x8d8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x5740
+-  __DATA_CONST.__objc_protorefs: 0x4d0
+-  __DATA_CONST.__objc_superrefs: 0x50
+-  __DATA_CONST.__objc_arraydata: 0x58
+-  __DATA_CONST.__got: 0x3c80
+-  __AUTH_CONST.__const: 0x1c3b8
+-  __AUTH_CONST.__cfstring: 0x9a0
+-  __AUTH_CONST.__objc_const: 0x27290
+-  __AUTH_CONST.__objc_doubleobj: 0x90
+-  __AUTH_CONST.__objc_arrayobj: 0x48
+-  __AUTH_CONST.__auth_got: 0x62f8
+-  __AUTH.__objc_data: 0x3658
+-  __AUTH.__data: 0x81f8
+-  __DATA.__objc_ivar: 0x118
+-  __DATA.__data: 0x9c48
++  __DATA_CONST.__objc_selrefs: 0x4dd8
++  __DATA_CONST.__objc_protorefs: 0x4a0
++  __DATA_CONST.__objc_superrefs: 0x10
++  __DATA_CONST.__objc_arraydata: 0x28
++  __DATA_CONST.__got: 0x3a98
++  __AUTH_CONST.__const: 0x1bdb0
++  __AUTH_CONST.__cfstring: 0x4c0
++  __AUTH_CONST.__objc_const: 0x25398
++  __AUTH_CONST.__objc_doubleobj: 0x30
++  __AUTH_CONST.__objc_arrayobj: 0x30
++  __AUTH_CONST.__auth_got: 0x6198
++  __AUTH.__objc_data: 0x3438
++  __AUTH.__data: 0x81d8
++  __DATA.__objc_ivar: 0x30
++  __DATA.__data: 0x9638
+   __DATA.__objc_stublist: 0x18
+-  __DATA.__common: 0x2c0
+-  __DATA_DIRTY.__objc_data: 0x3a50
+-  __DATA_DIRTY.__data: 0x14e90
+-  __DATA_DIRTY.__bss: 0xfcc8
+-  __DATA_DIRTY.__common: 0x290
++  __DATA.__common: 0x288
++  __DATA_DIRTY.__objc_data: 0x33e8
++  __DATA_DIRTY.__data: 0x14c80
++  __DATA_DIRTY.__bss: 0xfba8
++  __DATA_DIRTY.__common: 0x288
+   - /System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+
+   - /System/iOSSupport/System/Library/PrivateFrameworks/SilexVideo.framework/Versions/A/SilexVideo
+   - /System/iOSSupport/System/Library/PrivateFrameworks/TeaTemplate.framework/Versions/A/TeaTemplate
+   - /System/iOSSupport/System/Library/PrivateFrameworks/TeaUI.framework/Versions/A/TeaUI
+-  - /System/iOSSupport/System/Library/PrivateFrameworks/WeatherUI.framework/Versions/A/WeatherUI
+   - /System/iOSSupport/usr/lib/swift/libswiftGameplayKit.dylib
+   - /System/iOSSupport/usr/lib/swift/libswiftMetalKit.dylib
+   - /System/iOSSupport/usr/lib/swift/libswiftSceneKit.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 18881
+-  Symbols:   9401
+-  CStrings:  1527
++  Functions: 18210
++  Symbols:   8465
++  CStrings:  1419
+ 
+Symbols:
++ __swift_closure_destructor.151Tm
++ __swift_closure_destructor.152Tm
++ __swift_closure_destructor.41Tm
++ _symbolic SDySSSay_____GG 12NewsArticles16EndOfArticleItemO
++ _symbolic SDySSSay_____GGz_Xx 12NewsArticles16EndOfArticleItemO
++ _symbolic Say_____G 12NewsArticles26ArticleRecirculationConfigV0C8ProviderO
++ _symbolic _____y_____G 13TeaFoundation14SyncObservableC 12NewsArticles10NowPlayingO10PlayerModeO
++ keypath_get.106Tm
++ keypath_set.36Tm
+- +[NANowPlayingBottomControls _accessibilityValueForRate:]
+- +[NANowPlayingBottomControls _labelForRate:]
+- +[NANowPlayingLayoutSpec artworkBottomMarginInView:]
+- +[NANowPlayingLayoutSpec bottomControlsTopMarginInView:]
+- +[NANowPlayingLayoutSpec nextTrackAndRewindButtonPointSizeInView:]
+- +[NANowPlayingLayoutSpec playPausePointSizeInView:]
+- +[NANowPlayingLayoutSpec playbackControlsHorizontalInsetInView:]
+- +[NANowPlayingLayoutSpec publisherLogoBottomMarginInView:]
+- +[NANowPlayingLayoutSpec publisherLogoHeightInView:]
+- +[NANowPlayingLayoutSpec titleLabelFontSizeInView:]
+- +[NANowPlayingLayoutSpec titleViewBottomMarginInView:]
+- -[NAMarqueeView .cxx_destruct]
+- -[NAMarqueeView addCoordinatedMarqueeView:]
+- -[NAMarqueeView animationReferenceView]
+- -[NAMarqueeView contentGap]
+- -[NAMarqueeView contentSize]
+- -[NAMarqueeView contentView]
+- -[NAMarqueeView fadeEdgeInsets]
+- -[NAMarqueeView isMarqueeEnabled]
+- -[NAMarqueeView setAnimationReferenceView:]
+- -[NAMarqueeView setContentGap:]
+- -[NAMarqueeView setContentSize:]
+- -[NAMarqueeView setFadeEdgeInsets:]
+- -[NAMarqueeView setMarqueeEnabled:]
+- -[NAMarqueeView setViewForContentSize:]
+- -[NAMarqueeView viewForContentSize]
+- -[NANowPlayingArtworkView .cxx_destruct]
+- -[NANowPlayingArtworkView accessibilityTraits]
+- -[NANowPlayingArtworkView artworkSizeForTitleViewWidth:]
+- -[NANowPlayingArtworkView artworkSize]
+- -[NANowPlayingArtworkView initWithFrame:]
+- -[NANowPlayingArtworkView isAccessibilityElement]
+- -[NANowPlayingArtworkView layoutSubviews]
+- -[NANowPlayingArtworkView setTrackImage:animated:]
+- -[NANowPlayingArtworkView setTrackImageView:]
+- -[NANowPlayingArtworkView sizeThatFits:]
+- -[NANowPlayingArtworkView trackImageView]
+- -[NANowPlayingBackgroundView .cxx_destruct]
+- -[NANowPlayingBackgroundView imageView]
+- -[NANowPlayingBackgroundView initWithFrame:]
+- -[NANowPlayingBackgroundView setImage:]
+- -[NANowPlayingBackgroundView visualEffectsView]
+- -[NANowPlayingBottomControls .cxx_destruct]
+- -[NANowPlayingBottomControls buttonTitleFont]
+- -[NANowPlayingBottomControls dealloc]
+- -[NANowPlayingBottomControls delegate]
+- -[NANowPlayingBottomControls dismissAirplayPicker]
+- -[NANowPlayingBottomControls iconCenterY]
+- -[NANowPlayingBottomControls initWithFrame:]
+- -[NANowPlayingBottomControls layoutPlaybackSpeedButton]
+- -[NANowPlayingBottomControls layoutRouteButton]
+- -[NANowPlayingBottomControls layoutSubviews]
+- -[NANowPlayingBottomControls mediaControls]
+- -[NANowPlayingBottomControls playbackSpeedButtonTapped:]
+- -[NANowPlayingBottomControls playbackSpeedButton]
+- -[NANowPlayingBottomControls routeButtonTapped:]
+- -[NANowPlayingBottomControls routeButtonTouchDown:]
+- -[NANowPlayingBottomControls routeButtonTouchUpOutside:]
+- -[NANowPlayingBottomControls routeButton]
+- -[NANowPlayingBottomControls routeDidChange:]
+- -[NANowPlayingBottomControls setDelegate:]
+- -[NANowPlayingBottomControls setMediaControls:]
+- -[NANowPlayingBottomControls setPlaybackSpeedButton:]
+- -[NANowPlayingBottomControls setRate:]
+- -[NANowPlayingBottomControls setRouteButton:]
+- -[NANowPlayingBottomControls setSizingPlaybackSpeedButton:]
+- -[NANowPlayingBottomControls sizeThatFits:]
+- -[NANowPlayingBottomControls sizingPlaybackSpeedButton]
+- -[NANowPlayingBottomControls spacingBetweenButtonCenters]
+- -[NANowPlayingBottomControls startAirplayStatusUpdates]
+- -[NANowPlayingBottomControls updateRouteButtonWithRoute:]
+- -[NANowPlayingBottomControls widestPlaybackSpeedLabelWidth]
+- -[NANowPlayingDockedView .cxx_destruct]
+- -[NANowPlayingDockedView _computeLabelWidthWithLeadingButton:]
+- -[NANowPlayingDockedView _hideButton:]
+- -[NANowPlayingDockedView _imageForPlayPauseButtonWithSystemName:]
+- -[NANowPlayingDockedView _showButton:]
+- -[NANowPlayingDockedView _touchInsetsForFrame:]
+- -[NANowPlayingDockedView _updateTitleAccessibilityLabel]
+- -[NANowPlayingDockedView artworkSize]
+- -[NANowPlayingDockedView artworkView]
+- -[NANowPlayingDockedView changesDisplayWhenHighlighted]
+- -[NANowPlayingDockedView closeButtonTapped:]
+- -[NANowPlayingDockedView closeButton]
+- -[NANowPlayingDockedView contentView]
+- -[NANowPlayingDockedView contextMenuInteraction:configurationForMenuAtLocation:]
+- -[NANowPlayingDockedView delegate]
+- -[NANowPlayingDockedView hitTest:withEvent:]
+- -[NANowPlayingDockedView init]
+- -[NANowPlayingDockedView isPlaying]
+- -[NANowPlayingDockedView layoutSubviews]
+- -[NANowPlayingDockedView menuAttachmentPointForConfiguration:]
+- -[NANowPlayingDockedView menu]
+- -[NANowPlayingDockedView pauseButtonTapped:]
+- -[NANowPlayingDockedView playButtonTapped:]
+- -[NANowPlayingDockedView playPauseButton]
+- -[NANowPlayingDockedView publisherLabel]
+- -[NANowPlayingDockedView publisherMarqueeContainer]
+- -[NANowPlayingDockedView rewindButtonTapped:]
+- -[NANowPlayingDockedView rewindButton]
+- -[NANowPlayingDockedView setArtwork:]
+- -[NANowPlayingDockedView setArtwork:animated:]
+- -[NANowPlayingDockedView setArtworkView:]
+- -[NANowPlayingDockedView setChangesDisplayWhenHighlighted:]
+- -[NANowPlayingDockedView setDelegate:]
+- -[NANowPlayingDockedView setHighlighted:]
+- -[NANowPlayingDockedView setIsPlaying:]
+- -[NANowPlayingDockedView setIsPlaying:waiting:]
+- -[NANowPlayingDockedView setMarqueeRunning:]
+- -[NANowPlayingDockedView setMenu:]
+- -[NANowPlayingDockedView setPublisher:]
+- -[NANowPlayingDockedView setTitle:]
+- -[NANowPlayingDockedView setWaiting:]
+- -[NANowPlayingDockedView titleLabel]
+- -[NANowPlayingDockedView titleMarqueeContainer]
+- -[NANowPlayingDockedView waiting]
+- -[NANowPlayingPlaybackControls .cxx_destruct]
+- -[NANowPlayingPlaybackControls buttonColor]
+- -[NANowPlayingPlaybackControls contentView]
+- -[NANowPlayingPlaybackControls delegate]
+- -[NANowPlayingPlaybackControls disabledButtonColor]
+- -[NANowPlayingPlaybackControls forwardButton]
+- -[NANowPlayingPlaybackControls initWithFrame:inset:layoutSpecProvider:]
+- -[NANowPlayingPlaybackControls inset]
+- -[NANowPlayingPlaybackControls isPlaying]
+- -[NANowPlayingPlaybackControls layoutSpecProvider]
+- -[NANowPlayingPlaybackControls layoutSubviews]
+- -[NANowPlayingPlaybackControls nextTrackButtonEnabled]
+- -[NANowPlayingPlaybackControls nextTrackButtonTapped:]
+- -[NANowPlayingPlaybackControls pauseButtonTapped:]
+- -[NANowPlayingPlaybackControls playButtonTapped:]
+- -[NANowPlayingPlaybackControls playPauseButton]
+- -[NANowPlayingPlaybackControls rewindButtonTapped:]
+- -[NANowPlayingPlaybackControls rewindButton]
+- -[NANowPlayingPlaybackControls setContentView:]
+- -[NANowPlayingPlaybackControls setDelegate:]
+- -[NANowPlayingPlaybackControls setForwardButton:]
+- -[NANowPlayingPlaybackControls setInset:]
+- -[NANowPlayingPlaybackControls setIsPlaying:]
+- -[NANowPlayingPlaybackControls setLayoutSpecProvider:]
+- -[NANowPlayingPlaybackControls setNextTrackButtonEnabled:]
+- -[NANowPlayingPlaybackControls setPlayPauseButton:]
+- -[NANowPlayingPlaybackControls setRewindButton:]
+- -[NANowPlayingPlaybackControls setSkipForwardButtonEnabled:]
+- -[NANowPlayingPlaybackControls sizeThatFits:]
+- -[NANowPlayingPlaybackControls skipForwardButtonEnabled]
+- -[NANowPlayingPlaybackControls skipForwardButtonTapped:]
+- -[NANowPlayingPlaybackControls updateForwardButton]
+- -[NANowPlayingTitleView .cxx_destruct]
+- -[NANowPlayingTitleView _setPublisherImage:]
+- -[NANowPlayingTitleView delegate]
+- -[NANowPlayingTitleView ellipsisButtonTapped:]
+- -[NANowPlayingTitleView ellipsisButton]
+- -[NANowPlayingTitleView hasPublisherLogo]
+- -[NANowPlayingTitleView initWithFrame:layoutSpecProvider:]
+- -[NANowPlayingTitleView layoutSpecProvider]
+- -[NANowPlayingTitleView layoutSubviews]
+- -[NANowPlayingTitleView publisherImageView]
+- -[NANowPlayingTitleView publisherLogoHeight]
+- -[NANowPlayingTitleView publisherMarqueeContainer]
+- -[NANowPlayingTitleView setDelegate:]
+- -[NANowPlayingTitleView setEllipsisButton:]
+- -[NANowPlayingTitleView setLayoutSpecProvider:]
+- -[NANowPlayingTitleView setMarqueeRunning:]
+- -[NANowPlayingTitleView setPublisherImage:fallbackName:]
+- -[NANowPlayingTitleView setPublisherImageView:]
+- -[NANowPlayingTitleView setTitle:]
+- -[NANowPlayingTitleView setTitleLabel:]
+- -[NANowPlayingTitleView sizeThatFits:]
+- -[NANowPlayingTitleView titleLabel]
+- -[NANowPlayingTitleView titleMarqueeContainer]
+- -[NANowPlayingViewController .cxx_destruct]
+- -[NANowPlayingViewController applicationWillEnterForeground]
+- -[NANowPlayingViewController artworkSizeForViewWidth:]
+- -[NANowPlayingViewController artworkTapped:]
+- -[NANowPlayingViewController artworkView]
+- -[NANowPlayingViewController bottomControls]
+- -[NANowPlayingViewController contentView]
+- -[NANowPlayingViewController delegate]
+- -[NANowPlayingViewController dismissButtonTapped:]
+- -[NANowPlayingViewController dismissButton]
+- -[NANowPlayingViewController ellipsisButton]
+- -[NANowPlayingViewController grabberView]
+- -[NANowPlayingViewController initWithBackground:]
+- -[NANowPlayingViewController nowPlayingBottomControlsProvidePlaybackRateMenu:]
+- -[NANowPlayingViewController nowPlayingPlaybackControlsDidTapNextTrack:]
+- -[NANowPlayingViewController nowPlayingPlaybackControlsDidTapPause:]
+- -[NANowPlayingViewController nowPlayingPlaybackControlsDidTapPlay:]
+- -[NANowPlayingViewController nowPlayingPlaybackControlsDidTapRewind:]
+- -[NANowPlayingViewController nowPlayingPlaybackControlsDidTapSkipForward:]
+- -[NANowPlayingViewController nowPlayingTitleViewDidTapEllipsis:]
+- -[NANowPlayingViewController playbackControls]
+- -[NANowPlayingViewController publisherLogoHeight]
+- -[NANowPlayingViewController seekToPosition:]
+- -[NANowPlayingViewController setArtwork:]
+- -[NANowPlayingViewController setArtwork:animated:]
+- -[NANowPlayingViewController setArtworkView:]
+- -[NANowPlayingViewController setBottomControls:]
+- -[NANowPlayingViewController setContentView:]
+- -[NANowPlayingViewController setCurrentTime:duration:rate:isWaiting:animated:]
+- -[NANowPlayingViewController setDelegate:]
+- -[NANowPlayingViewController setDismissButton:]
+- -[NANowPlayingViewController setGrabberView:]
+- -[NANowPlayingViewController setIsPlaying:waiting:]
+- -[NANowPlayingViewController setNextTrackButtonEnabled:]
+- -[NANowPlayingViewController setPlaybackControls:]
+- -[NANowPlayingViewController setPublisherImage:fallbackName:]
+- -[NANowPlayingViewController setRate:]
+- -[NANowPlayingViewController setSkipForwardButtonEnabled:]
+- -[NANowPlayingViewController setTimeControl:]
+- -[NANowPlayingViewController setTitle:]
+- -[NANowPlayingViewController setTitleView:]
+- -[NANowPlayingViewController setVolumeControl:]
+- -[NANowPlayingViewController timeControl]
+- -[NANowPlayingViewController titleViewTapped:]
+- -[NANowPlayingViewController titleView]
+- -[NANowPlayingViewController viewDidDisappear:]
+- -[NANowPlayingViewController viewDidLoad]
+- -[NANowPlayingViewController viewWillDisappear:]
+- -[NANowPlayingViewController viewWillLayoutSubviews]
+- -[NANowPlayingViewController volumeControl]
+- -[NANowPlayingViewController(NANowPlayingPlaybackControlsLayoutSpecProvider) nextTrackAndRewindButtonPointSize]
+- -[NANowPlayingViewController(NANowPlayingPlaybackControlsLayoutSpecProvider) playPausePointSize]
+- -[NANowPlayingViewController(NANowPlayingTitleViewLayoutSpecProvider) publisherLogoBottomMargin]
+- -[NANowPlayingViewController(NANowPlayingTitleViewLayoutSpecProvider) publisherLogoHeight]
+- -[NANowPlayingViewController(NANowPlayingTitleViewLayoutSpecProvider) titleLabelFontSize]
+- -[NATimeFormatter .cxx_destruct]
+- -[NATimeFormatter elapsedDurationFormatter]
+- -[NATimeFormatter formatElapsedDuration:]
+- -[NATimeFormatter formatRemainingDuration:]
+- -[NATimeFormatter init]
+- -[NATimeFormatter remainingDurationFormatter]
+- -[NATimeFormatter setElapsedDurationFormatter:]
+- -[NATimeFormatter setRemainingDurationFormatter:]
+- -[NATouchInsetsButton pointInside:withEvent:]
+- -[NATouchInsetsButton setTouchInsets:]
+- -[NATouchInsetsButton touchInsets]
+- GCC_except_table0
+- GCC_except_table14
+- GCC_except_table21
+- GCC_except_table3
+- GCC_except_table8
+- NABundle
+- NABundle.bundle
+- NABundle.onceToken
+- NANowPlayingLog
+- NANowPlayingLog.once
+- NANowPlayingLog.result
+- OBJC_IVAR_$_NAMarqueeView._animationReferenceView
+- OBJC_IVAR_$_NAMarqueeView._contentGap
+- OBJC_IVAR_$_NAMarqueeView._contentSize
+- OBJC_IVAR_$_NAMarqueeView._fadeEdgeInsets
+- OBJC_IVAR_$_NAMarqueeView._marqueeEnabled
+- OBJC_IVAR_$_NAMarqueeView._viewForContentSize
+- OBJC_IVAR_$_NANowPlayingArtworkView._trackImageView
+- OBJC_IVAR_$_NANowPlayingBackgroundView._imageView
+- OBJC_IVAR_$_NANowPlayingBackgroundView._visualEffectsView
+- OBJC_IVAR_$_NANowPlayingBottomControls._delegate
+- OBJC_IVAR_$_NANowPlayingBottomControls._mediaControls
+- OBJC_IVAR_$_NANowPlayingBottomControls._playbackSpeedButton
+- OBJC_IVAR_$_NANowPlayingBottomControls._routeButton
+- OBJC_IVAR_$_NANowPlayingBottomControls._sizingPlaybackSpeedButton
+- OBJC_IVAR_$_NANowPlayingDockedView._artworkView
+- OBJC_IVAR_$_NANowPlayingDockedView._changesDisplayWhenHighlighted
+- OBJC_IVAR_$_NANowPlayingDockedView._closeButton
+- OBJC_IVAR_$_NANowPlayingDockedView._contentView
+- OBJC_IVAR_$_NANowPlayingDockedView._delegate
+- OBJC_IVAR_$_NANowPlayingDockedView._isPlaying
+- OBJC_IVAR_$_NANowPlayingDockedView._menu
+- OBJC_IVAR_$_NANowPlayingDockedView._playPauseButton
+- OBJC_IVAR_$_NANowPlayingDockedView._publisherLabel
+- OBJC_IVAR_$_NANowPlayingDockedView._publisherMarqueeContainer
+- OBJC_IVAR_$_NANowPlayingDockedView._rewindButton
+- OBJC_IVAR_$_NANowPlayingDockedView._titleLabel
+- OBJC_IVAR_$_NANowPlayingDockedView._titleMarqueeContainer
+- OBJC_IVAR_$_NANowPlayingDockedView._waiting
+- OBJC_IVAR_$_NANowPlayingPlaybackControls._contentView
+- OBJC_IVAR_$_NANowPlayingPlaybackControls._delegate
+- OBJC_IVAR_$_NANowPlayingPlaybackControls._forwardButton
+- OBJC_IVAR_$_NANowPlayingPlaybackControls._inset
+- OBJC_IVAR_$_NANowPlayingPlaybackControls._isPlaying
+- OBJC_IVAR_$_NANowPlayingPlaybackControls._layoutSpecProvider
+- OBJC_IVAR_$_NANowPlayingPlaybackControls._nextTrackButtonEnabled
+- OBJC_IVAR_$_NANowPlayingPlaybackControls._playPauseButton
+- OBJC_IVAR_$_NANowPlayingPlaybackControls._rewindButton
+- OBJC_IVAR_$_NANowPlayingPlaybackControls._skipForwardButtonEnabled
+- OBJC_IVAR_$_NANowPlayingTitleView._delegate
+- OBJC_IVAR_$_NANowPlayingTitleView._ellipsisButton
+- OBJC_IVAR_$_NANowPlayingTitleView._layoutSpecProvider
+- OBJC_IVAR_$_NANowPlayingTitleView._publisherImageView
+- OBJC_IVAR_$_NANowPlayingTitleView._publisherMarqueeContainer
+- OBJC_IVAR_$_NANowPlayingTitleView._titleLabel
+- OBJC_IVAR_$_NANowPlayingTitleView._titleMarqueeContainer
+- OBJC_IVAR_$_NANowPlayingViewController._artworkView
+- OBJC_IVAR_$_NANowPlayingViewController._bottomControls
+- OBJC_IVAR_$_NANowPlayingViewController._contentView
+- OBJC_IVAR_$_NANowPlayingViewController._delegate
+- OBJC_IVAR_$_NANowPlayingViewController._dismissButton
+- OBJC_IVAR_$_NANowPlayingViewController._grabberView
+- OBJC_IVAR_$_NANowPlayingViewController._playbackControls
+- OBJC_IVAR_$_NANowPlayingViewController._timeControl
+- OBJC_IVAR_$_NANowPlayingViewController._titleView
+- OBJC_IVAR_$_NANowPlayingViewController._volumeControl
+- OBJC_IVAR_$_NATimeFormatter._elapsedDurationFormatter
+- OBJC_IVAR_$_NATimeFormatter._remainingDurationFormatter
+- OBJC_IVAR_$_NATouchInsetsButton._touchInsets
+- _CGAffineTransformMakeScale
+- _CGContextSetAllowsAntialiasing
+- _CGContextSetShouldAntialias
+- _CGRectUnion
+- _MPAVRouteDidChangeNotification
+- _NABundle
+- _NACrawlView
+- _NACrawlViewAndCollect
+- _NACrawlViewController
+- _NACrawlViewControllerAndCollect
+- _NAFirstViewControllerPassing
+- _NAFirstViewPassing
+- _NAInsetsToMinimumTapTargetForFrame
+- _NANowPlayingLog
+- _NANowPlayingViewControllerDidDisappearNotification
+- _NANowPlayingViewControllerWillDisappearNotification
+- _NAViewContainsViewOfClass
+- _NAViewControllerContainsViewControllerOfClass
+- _NAViewControllerHierarchy
+- _NAViewHierarchy
+- _NSRunLoopCommonModes
+- _OBJC_CLASS_$_AVTimeFormatter
+- _OBJC_CLASS_$_CADisplayLink
+- _OBJC_CLASS_$_MPAVRoute
+- _OBJC_CLASS_$_MPAVRoutingController
+- _OBJC_CLASS_$_MPMediaControls
+- _OBJC_CLASS_$_MPRouteButton
+- _OBJC_CLASS_$_MPVolumeController
+- _OBJC_CLASS_$_MPVolumeControllerRouteDataSource
+- _OBJC_CLASS_$_MPVolumeHUDController
+- _OBJC_CLASS_$_NALocalization
+- _OBJC_CLASS_$_NAMarqueeView
+- _OBJC_CLASS_$_NANowPlayingArtworkView
+- _OBJC_CLASS_$_NANowPlayingBackgroundView
+- _OBJC_CLASS_$_NANowPlayingBottomControls
+- _OBJC_CLASS_$_NANowPlayingDockedView
+- _OBJC_CLASS_$_NANowPlayingLayoutSpec
+- _OBJC_CLASS_$_NANowPlayingPlaybackControls
+- _OBJC_CLASS_$_NANowPlayingTimeControl
+- _OBJC_CLASS_$_NANowPlayingTitleView
+- _OBJC_CLASS_$_NANowPlayingViewController
+- _OBJC_CLASS_$_NANowPlayingVolumeSlider
+- _OBJC_CLASS_$_NATimeFormatter
+- _OBJC_CLASS_$_NATouchInsetsButton
+- _OBJC_CLASS_$_NSDateComponentsFormatter
+- _OBJC_CLASS_$_NSDictionary
+- _OBJC_CLASS_$_NSMutableString
+- _OBJC_CLASS_$_NSRunLoop
+- _OBJC_CLASS_$_NSString
+- _OBJC_CLASS_$_OS_dispatch_source
+- _OBJC_CLASS_$_UIImpactFeedbackGenerator
+- _OBJC_CLASS_$_UILayoutGuide
+- _OBJC_CLASS_$_UIPanGestureRecognizer
+- _OBJC_CLASS_$_UITouch
+- _OBJC_CLASS_$_UIVisualEffectView
+- _OBJC_CLASS_$__TtC12NewsArticles10SliderView
+- _OBJC_CLASS_$__TtC12NewsArticles32NowPlayingActivityViewController
+- _OBJC_CLASS_$__TtC5TeaUI14BouncingButton
+- _OBJC_CLASS_$__UIGrabber
+- _OBJC_METACLASS_$_NALocalization
+- _OBJC_METACLASS_$_NAMarqueeView
+- _OBJC_METACLASS_$_NANowPlayingArtworkView
+- _OBJC_METACLASS_$_NANowPlayingBackgroundView
+- _OBJC_METACLASS_$_NANowPlayingBottomControls
+- _OBJC_METACLASS_$_NANowPlayingDockedView
+- _OBJC_METACLASS_$_NANowPlayingLayoutSpec
+- _OBJC_METACLASS_$_NANowPlayingPlaybackControls
+- _OBJC_METACLASS_$_NANowPlayingTimeControl
+- _OBJC_METACLASS_$_NANowPlayingTitleView
+- _OBJC_METACLASS_$_NANowPlayingViewController
+- _OBJC_METACLASS_$_NANowPlayingVolumeSlider
+- _OBJC_METACLASS_$_NATimeFormatter
+- _OBJC_METACLASS_$_NATouchInsetsButton
+- _OBJC_METACLASS_$_UIActivityViewController
+- _OBJC_METACLASS_$_UIPanGestureRecognizer
+- _OBJC_METACLASS_$__TtC12NewsArticles10SliderView
+- _OBJC_METACLASS_$__TtC12NewsArticles32NowPlayingActivityViewController
+- _OBJC_METACLASS_$__TtCC12NewsArticles10SliderViewP33_9E8B7C024EAF79BE20F276F3609F182920PanGestureRecognizer
+- _PROTOCOLS__TtC12NewsArticles24NowPlayingViewController
+- _UIAccessibilityConvertFrameToScreenCoordinates
+- _UIAccessibilityTraitAdjustable
+- _UIAccessibilityTraitImage
+- _UIAccessibilityTraitStaticText
+- _UIApplicationDidEnterBackgroundNotification
+- _UIApplicationWillEnterForegroundNotification
+- _UIFontTextStyleTitle2
+- _UIFontTextStyleTitle3
+- _UIGraphicsBeginImageContextWithOptions
+- _UIGraphicsEndImageContext
+- _UIGraphicsGetCurrentContext
+- _UIGraphicsGetImageFromCurrentImageContext
+- __Block_object_dispose
+- __DATA_NANowPlayingTimeControl
+- __DATA_NANowPlayingVolumeSlider
+- __DATA__TtC12NewsArticles10SliderView
+- __DATA__TtC12NewsArticles25NowPlayingViewCoordinator
+- __DATA__TtC12NewsArticles32NowPlayingActivityViewController
+- __DATA__TtCC12NewsArticles10SliderViewP33_9E8B7C024EAF79BE20F276F3609F182920PanGestureRecognizer
+- __INSTANCE_METHODS_NANowPlayingTimeControl
+- __INSTANCE_METHODS__TtC12NewsArticles10SliderView
+- __INSTANCE_METHODS__TtC12NewsArticles24NowPlayingViewController
+- __INSTANCE_METHODS__TtC12NewsArticles32NowPlayingActivityViewController
+- __INSTANCE_METHODS__TtCC12NewsArticles10SliderViewP33_9E8B7C024EAF79BE20F276F3609F182920PanGestureRecognizer
+- __IVARS_NANowPlayingTimeControl
+- __IVARS_NANowPlayingVolumeSlider
+- __IVARS__TtC12NewsArticles10SliderView
+- __IVARS__TtC12NewsArticles24NowPlayingViewController
+- __METACLASS_DATA_NANowPlayingTimeControl
+- __METACLASS_DATA_NANowPlayingVolumeSlider
+- __METACLASS_DATA__TtC12NewsArticles10SliderView
+- __METACLASS_DATA__TtC12NewsArticles25NowPlayingViewCoordinator
+- __METACLASS_DATA__TtC12NewsArticles32NowPlayingActivityViewController
+- __METACLASS_DATA__TtCC12NewsArticles10SliderViewP33_9E8B7C024EAF79BE20F276F3609F182920PanGestureRecognizer
+- __NACrawlView
+- __NACrawlViewController
+- __NSConcreteGlobalBlock
+- __OBJC_$_CLASS_METHODS_NANowPlayingBottomControls
+- __OBJC_$_CLASS_METHODS_NANowPlayingLayoutSpec
+- __OBJC_$_INSTANCE_METHODS_NAMarqueeView
+- __OBJC_$_INSTANCE_METHODS_NANowPlayingArtworkView
+- __OBJC_$_INSTANCE_METHODS_NANowPlayingBackgroundView
+- __OBJC_$_INSTANCE_METHODS_NANowPlayingBottomControls
+- __OBJC_$_INSTANCE_METHODS_NANowPlayingDockedView
+- __OBJC_$_INSTANCE_METHODS_NANowPlayingPlaybackControls
+- __OBJC_$_INSTANCE_METHODS_NANowPlayingTitleView
+- __OBJC_$_INSTANCE_METHODS_NANowPlayingViewController(NANowPlayingPlaybackControlsLayoutSpecProvider|NANowPlayingTitleViewLayoutSpecProvider)
+- __OBJC_$_INSTANCE_METHODS_NANowPlayingVolumeSlider(NewsArticles|NewsArticles1|NewsArticles2)
+- __OBJC_$_INSTANCE_METHODS_NATimeFormatter
+- __OBJC_$_INSTANCE_METHODS_NATouchInsetsButton
+- __OBJC_$_INSTANCE_VARIABLES_NAMarqueeView
+- __OBJC_$_INSTANCE_VARIABLES_NANowPlayingArtworkView
+- __OBJC_$_INSTANCE_VARIABLES_NANowPlayingBackgroundView
+- __OBJC_$_INSTANCE_VARIABLES_NANowPlayingBottomControls
+- __OBJC_$_INSTANCE_VARIABLES_NANowPlayingDockedView
+- __OBJC_$_INSTANCE_VARIABLES_NANowPlayingPlaybackControls
+- __OBJC_$_INSTANCE_VARIABLES_NANowPlayingTitleView
+- __OBJC_$_INSTANCE_VARIABLES_NANowPlayingViewController
+- __OBJC_$_INSTANCE_VARIABLES_NATimeFormatter
+- __OBJC_$_INSTANCE_VARIABLES_NATouchInsetsButton
+- __OBJC_$_PROP_LIST_MPVolumeDisplaying
+- __OBJC_$_PROP_LIST_NAMarqueeView
+- __OBJC_$_PROP_LIST_NANowPlayingArtworkView
+- __OBJC_$_PROP_LIST_NANowPlayingBackgroundView
+- __OBJC_$_PROP_LIST_NANowPlayingBottomControls
+- __OBJC_$_PROP_LIST_NANowPlayingDockedView
+- __OBJC_$_PROP_LIST_NANowPlayingPlaybackControls
+- __OBJC_$_PROP_LIST_NANowPlayingTitleView
+- __OBJC_$_PROP_LIST_NANowPlayingViewController
+- __OBJC_$_PROP_LIST_NATimeFormatter
+- __OBJC_$_PROP_LIST_NATouchInsetsButton
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NANowPlayingBottomControlsDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NANowPlayingDockedViewDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NANowPlayingPlaybackControlsDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NANowPlayingPlaybackControlsLayoutSpecProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NANowPlayingTitleViewDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NANowPlayingTitleViewLayoutSpecProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NANowPlayingViewControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_MPVolumeControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_MPVolumeDisplaying
+- __OBJC_$_PROTOCOL_METHOD_TYPES_MPVolumeControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_MPVolumeDisplaying
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NANowPlayingBottomControlsDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NANowPlayingDockedViewDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NANowPlayingPlaybackControlsDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NANowPlayingPlaybackControlsLayoutSpecProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NANowPlayingTitleViewDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NANowPlayingTitleViewLayoutSpecProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NANowPlayingViewControllerDelegate
+- __OBJC_$_PROTOCOL_REFS_MPVolumeControllerDelegate
+- __OBJC_$_PROTOCOL_REFS_MPVolumeDisplaying
+- __OBJC_$_PROTOCOL_REFS_OS_dispatch_source
+- __OBJC_$_PROTOCOL_REFS_OS_dispatch_source_timer
+- __OBJC_CLASS_PROTOCOLS_$_NANowPlayingViewController(NANowPlayingPlaybackControlsLayoutSpecProvider|NANowPlayingTitleViewLayoutSpecProvider)
+- __OBJC_CLASS_PROTOCOLS_$_NANowPlayingVolumeSlider(NewsArticles|NewsArticles1|NewsArticles2)
+- __OBJC_CLASS_RO_$_NALocalization
+- __OBJC_CLASS_RO_$_NAMarqueeView
+- __OBJC_CLASS_RO_$_NANowPlayingArtworkView
+- __OBJC_CLASS_RO_$_NANowPlayingBackgroundView
+- __OBJC_CLASS_RO_$_NANowPlayingBottomControls
+- __OBJC_CLASS_RO_$_NANowPlayingDockedView
+- __OBJC_CLASS_RO_$_NANowPlayingLayoutSpec
+- __OBJC_CLASS_RO_$_NANowPlayingPlaybackControls
+- __OBJC_CLASS_RO_$_NANowPlayingTitleView
+- __OBJC_CLASS_RO_$_NANowPlayingViewController
+- __OBJC_CLASS_RO_$_NATimeFormatter
+- __OBJC_CLASS_RO_$_NATouchInsetsButton
+- __OBJC_LABEL_PROTOCOL_$_MPVolumeControllerDelegate
+- __OBJC_LABEL_PROTOCOL_$_MPVolumeDisplaying
+- __OBJC_LABEL_PROTOCOL_$_NANowPlayingBottomControlsDelegate
+- __OBJC_LABEL_PROTOCOL_$_NANowPlayingDockedViewDelegate
+- __OBJC_LABEL_PROTOCOL_$_NANowPlayingPlaybackControlsDelegate
+- __OBJC_LABEL_PROTOCOL_$_NANowPlayingPlaybackControlsLayoutSpecProvider
+- __OBJC_LABEL_PROTOCOL_$_NANowPlayingTitleViewDelegate
+- __OBJC_LABEL_PROTOCOL_$_NANowPlayingTitleViewLayoutSpecProvider
+- __OBJC_LABEL_PROTOCOL_$_NANowPlayingViewControllerDelegate
+- __OBJC_LABEL_PROTOCOL_$_OS_dispatch_source
+- __OBJC_LABEL_PROTOCOL_$_OS_dispatch_source_timer
+- __OBJC_METACLASS_RO_$_NALocalization
+- __OBJC_METACLASS_RO_$_NAMarqueeView
+- __OBJC_METACLASS_RO_$_NANowPlayingArtworkView
+- __OBJC_METACLASS_RO_$_NANowPlayingBackgroundView
+- __OBJC_METACLASS_RO_$_NANowPlayingBottomControls
+- __OBJC_METACLASS_RO_$_NANowPlayingDockedView
+- __OBJC_METACLASS_RO_$_NANowPlayingLayoutSpec
+- __OBJC_METACLASS_RO_$_NANowPlayingPlaybackControls
+- __OBJC_METACLASS_RO_$_NANowPlayingTitleView
+- __OBJC_METACLASS_RO_$_NANowPlayingViewController
+- __OBJC_METACLASS_RO_$_NATimeFormatter
+- __OBJC_METACLASS_RO_$_NATouchInsetsButton
+- __OBJC_PROTOCOL_$_MPVolumeControllerDelegate
+- __OBJC_PROTOCOL_$_MPVolumeDisplaying
+- __OBJC_PROTOCOL_$_NANowPlayingBottomControlsDelegate
+- __OBJC_PROTOCOL_$_NANowPlayingDockedViewDelegate
+- __OBJC_PROTOCOL_$_NANowPlayingPlaybackControlsDelegate
+- __OBJC_PROTOCOL_$_NANowPlayingPlaybackControlsLayoutSpecProvider
+- __OBJC_PROTOCOL_$_NANowPlayingTitleViewDelegate
+- __OBJC_PROTOCOL_$_NANowPlayingTitleViewLayoutSpecProvider
+- __OBJC_PROTOCOL_$_NANowPlayingViewControllerDelegate
+- __OBJC_PROTOCOL_$_OS_dispatch_source
+- __OBJC_PROTOCOL_$_OS_dispatch_source_timer
+- __PROPERTIES_NANowPlayingTimeControl
+- __PROPERTIES__TtC12NewsArticles10SliderView
+- __PROTOCOLS__TtC12NewsArticles24NowPlayingViewController
+- __Unwind_Resume
+- ___30-[NANowPlayingDockedView init]_block_invoke
+- ___30-[NANowPlayingDockedView init]_block_invoke_2
+- ___30-[NANowPlayingDockedView init]_block_invoke_3
+- ___30-[NANowPlayingDockedView init]_block_invoke_4
+- ___30-[NANowPlayingDockedView init]_block_invoke_5
+- ___30-[NANowPlayingDockedView init]_block_invoke_6
+- ___30-[NANowPlayingDockedView init]_block_invoke_7
+- ___30-[NANowPlayingDockedView init]_block_invoke_8
+- ___30-[NANowPlayingDockedView init]_block_invoke_9
+- ___34-[NANowPlayingTitleView setTitle:]_block_invoke
+- ___35-[NANowPlayingDockedView setTitle:]_block_invoke
+- ___39-[NANowPlayingBackgroundView setImage:]_block_invoke
+- ___39-[NANowPlayingDockedView setPublisher:]_block_invoke
+- ___41-[NANowPlayingArtworkView initWithFrame:]_block_invoke
+- ___44-[NANowPlayingBackgroundView initWithFrame:]_block_invoke
+- ___44-[NANowPlayingBackgroundView initWithFrame:]_block_invoke_2
+- ___44-[NANowPlayingBottomControls initWithFrame:]_block_invoke
+- ___44-[NANowPlayingBottomControls initWithFrame:]_block_invoke_2
+- ___44-[NANowPlayingBottomControls initWithFrame:]_block_invoke_3
+- ___44-[NANowPlayingTitleView _setPublisherImage:]_block_invoke
+- ___45-[NANowPlayingBottomControls routeDidChange:]_block_invoke
+- ___47-[NANowPlayingDockedView setIsPlaying:waiting:]_block_invoke
+- ___49-[NANowPlayingViewController initWithBackground:]_block_invoke
+- ___49-[NANowPlayingViewController initWithBackground:]_block_invoke_10
+- ___49-[NANowPlayingViewController initWithBackground:]_block_invoke_2
+- ___49-[NANowPlayingViewController initWithBackground:]_block_invoke_3
+- ___49-[NANowPlayingViewController initWithBackground:]_block_invoke_4
+- ___49-[NANowPlayingViewController initWithBackground:]_block_invoke_5
+- ___49-[NANowPlayingViewController initWithBackground:]_block_invoke_6
+- ___49-[NANowPlayingViewController initWithBackground:]_block_invoke_7
+- ___49-[NANowPlayingViewController initWithBackground:]_block_invoke_8
+- ___49-[NANowPlayingViewController initWithBackground:]_block_invoke_9
+- ___50-[NANowPlayingArtworkView setTrackImage:animated:]_block_invoke
+- ___55-[NANowPlayingBottomControls startAirplayStatusUpdates]_block_invoke
+- ___58-[NANowPlayingTitleView initWithFrame:layoutSpecProvider:]_block_invoke
+- ___58-[NANowPlayingTitleView initWithFrame:layoutSpecProvider:]_block_invoke_2
+- ___58-[NANowPlayingTitleView initWithFrame:layoutSpecProvider:]_block_invoke_3
+- ___58-[NANowPlayingTitleView initWithFrame:layoutSpecProvider:]_block_invoke_4
+- ___58-[NANowPlayingTitleView initWithFrame:layoutSpecProvider:]_block_invoke_5
+- ___71-[NANowPlayingPlaybackControls initWithFrame:inset:layoutSpecProvider:]_block_invoke
+- ___71-[NANowPlayingPlaybackControls initWithFrame:inset:layoutSpecProvider:]_block_invoke_2
+- ___71-[NANowPlayingPlaybackControls initWithFrame:inset:layoutSpecProvider:]_block_invoke_3
+- ___71-[NANowPlayingPlaybackControls initWithFrame:inset:layoutSpecProvider:]_block_invoke_4
+- ___80-[NANowPlayingDockedView contextMenuInteraction:configurationForMenuAtLocation:]_block_invoke
+- ___Block_byref_object_copy_
+- ___Block_byref_object_dispose_
+- ___NABundle_block_invoke
+- ___NACrawlViewAndCollect_block_invoke
+- ___NACrawlViewControllerAndCollect_block_invoke
+- ___NACrawlViewController_block_invoke
+- ___NACrawlView_block_invoke
+- ___NAFirstViewControllerPassing_block_invoke
+- ___NAFirstViewPassing_block_invoke
+- ___NANowPlayingLog_block_invoke
+- ___NAViewContainsViewOfClass_block_invoke
+- ___NAViewControllerContainsViewControllerOfClass_block_invoke
+- ___NAViewControllerHierarchy_block_invoke
+- ___NAViewControllerHierarchy_block_invoke_2
+- ___NAViewHierarchy_block_invoke
+- ___NAViewHierarchy_block_invoke_2
+- ____NACrawlViewController_block_invoke_2
+- ____NACrawlViewController_block_invoke_3
+- ____NACrawlView_block_invoke_2
+- ____NACrawlView_block_invoke_3
+- ____NACrawlView_block_invoke_4
+- ___block_descriptor_32_e29_"NSString"24?0"UIView"8Q16l
+- ___block_descriptor_32_e39_"NSString"24?0"UIViewController"8Q16l
+- ___block_descriptor_32_e5_v8?0l
+- ___block_descriptor_40_e16_B16?0"UIView"8lu32l8
+- ___block_descriptor_40_e26_B16?0"UIViewController"8lu32l8
+- ___block_descriptor_40_e8_32bs_e23_v32?0"UIView"8Q16^B24ls32l8
+- ___block_descriptor_40_e8_32bs_e33_v32?0"UIViewController"8Q16^B24ls32l8
+- ___block_descriptor_40_e8_32s_e13_"UIView"8?0ls32l8
+- ___block_descriptor_40_e8_32s_e15_"UIButton"8?0ls32l8
+- ___block_descriptor_40_e8_32s_e17_"_UIGrabber"8?0ls32l8
+- ___block_descriptor_40_e8_32s_e18_"UIImageView"8?0ls32l8
+- ___block_descriptor_40_e8_32s_e19_v16?0"MPAVRoute"8ls32l8
+- ___block_descriptor_40_e8_32s_e20_"MPRouteButton"8?0ls32l8
+- ___block_descriptor_40_e8_32s_e20_"NAMarqueeView"8?0ls32l8
+- ___block_descriptor_40_e8_32s_e25_"UIMenu"16?0"NSArray"8ls32l8
+- ___block_descriptor_40_e8_32s_e25_"UIVisualEffectView"8?0ls32l8
+- ___block_descriptor_40_e8_32s_e26_"NATouchInsetsButton"8?0ls32l8
+- ___block_descriptor_40_e8_32s_e28_"NANowPlayingTitleView"8?0ls32l8
+- ___block_descriptor_40_e8_32s_e30_"NANowPlayingArtworkView"8?0ls32l8
+- ___block_descriptor_40_e8_32s_e30_"NANowPlayingTimeControl"8?0ls32l8
+- ___block_descriptor_40_e8_32s_e31_"NANowPlayingVolumeSlider"8?0ls32l8
+- ___block_descriptor_40_e8_32s_e33_"NANowPlayingBottomControls"8?0ls32l8
+- ___block_descriptor_40_e8_32s_e35_"NANowPlayingPlaybackControls"8?0ls32l8
+- ___block_descriptor_40_e8_32s_e5_v8?0ls32l8
+- ___block_descriptor_48_e8_32bs40r_e20_v24?0"UIView"8^B16lr40l8s32l8
+- ___block_descriptor_48_e8_32bs40r_e30_v24?0"UIViewController"8^B16lr40l8s32l8
+- ___block_descriptor_48_e8_32bs40r_e41_v32?0?<v?"UIView"^B>8"UIView"16^B24lr40l8s32l8
+- ___block_descriptor_48_e8_32bs40r_e61_v32?0?<v?"UIViewController"^B>8"UIViewController"16^B24lr40l8s32l8
+- ___block_descriptor_48_e8_32s40bs_e20_v24?0"UIView"8^B16ls40l8s32l8
+- ___block_descriptor_48_e8_32s40bs_e23_v32?0"UIView"8Q16^B24ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e30_v24?0"UIViewController"8^B16ls40l8s32l8
+- ___block_descriptor_48_e8_32s40bs_e33_v32?0"UIViewController"8Q16^B24ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e5_v8?0ls32l8s40l8
+- ___block_descriptor_48_e8_32s40w_e11_v20?0d8B16lw40l8s32l8
+- ___block_descriptor_56_e8_32bs40r_e23_?<v?"UIView"^B>8?0lr40l8s32l8
+- ___block_descriptor_56_e8_32s40s48s_e5_v8?0ls32l8s40l8s48l8
+- ___block_literal_global
+- ___objc_personality_v0
+- __block_literal_global
+- __dispatch_main_q
+- __os_log_default
+- __os_log_error_impl
+- __swift_closure_destructor.141Tm
+- __swift_closure_destructor.146Tm
+- __swift_closure_destructor.28Tm
+- __swift_closure_destructor.30Tm
+- __swift_closure_destructor.35Tm
+- __swift_closure_destructor.39Tm
+- __swift_closure_destructor.72Tm
+- _dispatch_after
+- _dispatch_async
+- _dispatch_once
+- _dispatch_time
+- _flat unique So24OS_dispatch_source_timer_p
+- _kNANowPlayingArtworkViewHorizontalMargin
+- _kNANowPlayingArtworkViewTopMargin
+- _kNANowPlayingBottomControlsButtonDefaultPointSize
+- _kNANowPlayingBottomControlsButtonMaxPointSize
+- _kNANowPlayingBottomControlsRouteButtonSideMargin
+- _kNANowPlayingDismissButtonHeight
+- _kNANowPlayingGrabberViewTopMargin
+- _kNANowPlayingTitleFontDefaultSize
+- _kNANowPlayingTitleFontMaxSize
+- _kNANowPlayingTitleViewButtonDefaultPointSize
+- _kNANowPlayingTitleViewButtonMaxPointSize
+- _kNANowPlayingViewControllerBottomControlsTopMargin
+- _kNANowPlayingViewControllerBottomMargin
+- _kNANowPlayingViewControllerMinTopSafeArea
+- _kNANowPlayingViewControllerOuterHorizontalMargin
+- _kNANowPlayingViewControllerPlaybackControlsTopMargin
+- _kNANowPlayingViewControllerTopControlsSpacing
+- _kPlaybackSpeedButtonMinWidth
+- _objc_alloc_init
+- _objc_copyWeak
+- _objc_destroyWeak
+- _objc_initWeak
+- _objc_loadWeakRetained
+- _objc_msgSend$_accessibilityValueForRate:
+- _objc_msgSend$_animateUsingSpringWithDuration:delay:options:mass:stiffness:damping:initialVelocity:animations:completion:
+- _objc_msgSend$_computeLabelWidthWithLeadingButton:
+- _objc_msgSend$_hideButton:
+- _objc_msgSend$_imageForPlayPauseButtonWithSystemName:
+- _objc_msgSend$_labelForRate:
+- _objc_msgSend$_setAllowsInteractiveDismissWhenFullScreen:
+- _objc_msgSend$_setBarMinimizationAdjustsSafeArea:
+- _objc_msgSend$_setMinimizeBehavior:
+- _objc_msgSend$_setPublisherImage:
+- _objc_msgSend$_setRequiresSystemGesturesToFail:
+- _objc_msgSend$_setWantsFullScreen:
+- _objc_msgSend$_showButton:
+- _objc_msgSend$_touchInsetsForFrame:
+- _objc_msgSend$_updateTitleAccessibilityLabel
+- _objc_msgSend$accessoryImage
+- _objc_msgSend$accessoryImageSpacing
+- _objc_msgSend$addAction:forControlEvents:
+- _objc_msgSend$addCoordinatedMarqueeView:
+- _objc_msgSend$addLayoutGuide:
+- _objc_msgSend$addToRunLoop:forMode:
+- _objc_msgSend$addVolumeDisplay:
+- _objc_msgSend$adjustVolumeValue:
+- _objc_msgSend$adjustsFontForContentSizeCategory
+- _objc_msgSend$alpha
+- _objc_msgSend$appendFormat:
+- _objc_msgSend$appendString:
+- _objc_msgSend$artworkBottomMarginInView:
+- _objc_msgSend$artworkSize
+- _objc_msgSend$artworkSizeForTitleViewWidth:
+- _objc_msgSend$artworkSizeForViewWidth:
+- _objc_msgSend$artworkView
+- _objc_msgSend$ascender
+- _objc_msgSend$bottomControls
+- _objc_msgSend$bottomControlsTopMarginInView:
+- _objc_msgSend$buttonColor
+- _objc_msgSend$buttonTitleFont
+- _objc_msgSend$centerYAnchor
+- _objc_msgSend$changesDisplayWhenHighlighted
+- _objc_msgSend$closeButton
+- _objc_msgSend$colorWithWhite:alpha:
+- _objc_msgSend$componentsJoinedByString:
+- _objc_msgSend$configurationByApplyingConfiguration:
+- _objc_msgSend$configurationWithPaletteColors:
+- _objc_msgSend$configurationWithPointSize:
+- _objc_msgSend$constant
+- _objc_msgSend$constraintEqualToAnchor:constant:
+- _objc_msgSend$defaultMetrics
+- _objc_msgSend$dictionaryWithObjects:forKeys:count:
+- _objc_msgSend$disabledButtonColor
+- _objc_msgSend$dismiss
+- _objc_msgSend$dismissAirplayPicker
+- _objc_msgSend$dismissButton
+- _objc_msgSend$dismissPresentedFullscreenCanvas
+- _objc_msgSend$displayLinkWithTarget:selector:
+- _objc_msgSend$doubleValue
+- _objc_msgSend$drawAtPoint:withAttributes:
+- _objc_msgSend$effectiveUserInterfaceLayoutDirection
+- _objc_msgSend$elapsedDurationFormatter
+- _objc_msgSend$ellipsisButton
+- _objc_msgSend$fontDescriptor
+- _objc_msgSend$fontDescriptorWithSymbolicTraits:
+- _objc_msgSend$formatElapsedDuration:
+- _objc_msgSend$formatRemainingDuration:
+- _objc_msgSend$forwardButton
+- _objc_msgSend$getActiveRouteWithTimeout:completion:
+- _objc_msgSend$grabberView
+- _objc_msgSend$hasPublisherLogo
+- _objc_msgSend$heightAnchor
+- _objc_msgSend$iconCenterY
+- _objc_msgSend$image
+- _objc_msgSend$impactOccurred
+- _objc_msgSend$initWithBackground:
+- _objc_msgSend$initWithDataSource:
+- _objc_msgSend$initWithEffect:
+- _objc_msgSend$initWithFormat:
+- _objc_msgSend$initWithFrame:inset:layoutSpecProvider:
+- _objc_msgSend$initWithFrame:layoutSpecProvider:
+- _objc_msgSend$initWithGroupRoute:outputDeviceRoute:
+- _objc_msgSend$initWithStyle:
+- _objc_msgSend$inset
+- _objc_msgSend$intrinsicContentSize
+- _objc_msgSend$isHighlighted
+- _objc_msgSend$isPlaying
+- _objc_msgSend$isRoutingToWirelessDevice
+- _objc_msgSend$isVolumeControlAvailable
+- _objc_msgSend$layoutPlaybackSpeedButton
+- _objc_msgSend$layoutRouteButton
+- _objc_msgSend$layoutSpecProvider
+- _objc_msgSend$localizedStringForKey:value:table:
+- _objc_msgSend$mainRunLoop
+- _objc_msgSend$mediaControls
+- _objc_msgSend$menu
+- _objc_msgSend$menuWithChildren:
+- _objc_msgSend$metricsForTextStyle:
+- _objc_msgSend$monospacedDigitSystemFontOfSize:weight:
+- _objc_msgSend$nextTrackAndRewindButtonPointSize
+- _objc_msgSend$nextTrackAndRewindButtonPointSizeInView:
+- _objc_msgSend$nextTrackButtonEnabled
+- _objc_msgSend$nowPlayingBottomControlsProvidePlaybackRateMenu:
+- _objc_msgSend$nowPlayingDockedViewDidTapClose:
+- _objc_msgSend$nowPlayingDockedViewDidTapPause:
+- _objc_msgSend$nowPlayingDockedViewDidTapPlay:
+- _objc_msgSend$nowPlayingDockedViewDidTapRewind:
+- _objc_msgSend$nowPlayingPlaybackControlsDidTapNextTrack:
+- _objc_msgSend$nowPlayingPlaybackControlsDidTapPause:
+- _objc_msgSend$nowPlayingPlaybackControlsDidTapPlay:
+- _objc_msgSend$nowPlayingPlaybackControlsDidTapRewind:
+- _objc_msgSend$nowPlayingPlaybackControlsDidTapSkipForward:
+- _objc_msgSend$nowPlayingTitleViewDidTapEllipsis:
+- _objc_msgSend$nowPlayingViewController:seekToPosition:
+- _objc_msgSend$nowPlayingViewControllerDidRequestNavigateToArticle:
+- _objc_msgSend$nowPlayingViewControllerDidTapDismissButton:
+- _objc_msgSend$nowPlayingViewControllerDidTapEllipsis:
+- _objc_msgSend$nowPlayingViewControllerDidTapNextTrack:
+- _objc_msgSend$nowPlayingViewControllerDidTapPause:
+- _objc_msgSend$nowPlayingViewControllerDidTapPlay:
+- _objc_msgSend$nowPlayingViewControllerDidTapRewind:
+- _objc_msgSend$nowPlayingViewControllerDidTapSkipForward:
+- _objc_msgSend$nowPlayingViewControllerProvidePlaybackRateMenu:
+- _objc_msgSend$object
+- _objc_msgSend$playPauseButton
+- _objc_msgSend$playPausePointSize
+- _objc_msgSend$playPausePointSizeInView:
+- _objc_msgSend$playbackControls
+- _objc_msgSend$playbackControlsHorizontalInsetInView:
+- _objc_msgSend$playbackSpeedButton
+- _objc_msgSend$preferredFontForTextStyle:
+- _objc_msgSend$present
+- _objc_msgSend$publisherImageView
+- _objc_msgSend$publisherLabel
+- _objc_msgSend$publisherLogoBottomMargin
+- _objc_msgSend$publisherLogoBottomMarginInView:
+- _objc_msgSend$publisherLogoHeight
+- _objc_msgSend$publisherLogoHeightInView:
+- _objc_msgSend$publisherMarqueeContainer
+- _objc_msgSend$remainingDurationFormatter
+- _objc_msgSend$removeObserver:
+- _objc_msgSend$removeTarget:action:forControlEvents:
+- _objc_msgSend$removeVolumeDisplay:
+- _objc_msgSend$rewindButton
+- _objc_msgSend$routeButton
+- _objc_msgSend$scaledValueForValue:compatibleWithTraitCollection:
+- _objc_msgSend$setAccessibilityContainerType:
+- _objc_msgSend$setAccessibilityElements:
+- _objc_msgSend$setAccessibilityFrame:
+- _objc_msgSend$setAccessibilityHint:
+- _objc_msgSend$setAccessibilityValue:
+- _objc_msgSend$setAccessoryImage:
+- _objc_msgSend$setAllowedUnits:
+- _objc_msgSend$setArtwork:
+- _objc_msgSend$setArtwork:animated:
+- _objc_msgSend$setBackgroundImage:forState:
+- _objc_msgSend$setConstant:
+- _objc_msgSend$setContentGap:
+- _objc_msgSend$setContentSize:
+- _objc_msgSend$setContextMenuInteractionEnabled:
+- _objc_msgSend$setCurrentTime:duration:rate:isWaiting:animated:
+- _objc_msgSend$setCustomSpacing:afterView:
+- _objc_msgSend$setElapsedDurationFormatter:
+- _objc_msgSend$setExclusiveTouch:
+- _objc_msgSend$setFadeEdgeInsets:
+- _objc_msgSend$setHitRectInsets:
+- _objc_msgSend$setImage:
+- _objc_msgSend$setIsPlaying:
+- _objc_msgSend$setIsPlaying:waiting:
+- _objc_msgSend$setMarqueeEnabled:
+- _objc_msgSend$setMarqueeRunning:
+- _objc_msgSend$setMaximumContentSizeCategory:
+- _objc_msgSend$setNeedsUpdateConstraints
+- _objc_msgSend$setNextTrackButtonEnabled:
+- _objc_msgSend$setPaused:
+- _objc_msgSend$setPreferredFramesPerSecond:
+- _objc_msgSend$setPublisher:
+- _objc_msgSend$setPublisherImage:fallbackName:
+- _objc_msgSend$setRemainingDurationFormatter:
+- _objc_msgSend$setRoute:
+- _objc_msgSend$setRouteLabelAxis:
+- _objc_msgSend$setRouteLabelHidden:
+- _objc_msgSend$setSemanticContentAttribute:
+- _objc_msgSend$setSkipForwardButtonEnabled:
+- _objc_msgSend$setState:
+- _objc_msgSend$setTimeDidChangeHandler:
+- _objc_msgSend$setTimeLabelTextColor:
+- _objc_msgSend$setTouchInsets:
+- _objc_msgSend$setTrackImage:animated:
+- _objc_msgSend$setViewForContentSize:
+- _objc_msgSend$setVolume:withNotificationDelay:
+- _objc_msgSend$setVolumeValue:
+- _objc_msgSend$setWaiting:
+- _objc_msgSend$setZeroFormattingBehavior:
+- _objc_msgSend$sharedInstance
+- _objc_msgSend$sizeWithAttributes:
+- _objc_msgSend$sizingPlaybackSpeedButton
+- _objc_msgSend$skipForwardButtonEnabled
+- _objc_msgSend$spacingBetweenButtonCenters
+- _objc_msgSend$startAirplayStatusUpdates
+- _objc_msgSend$startPrewarming
+- _objc_msgSend$stopPrewarming
+- _objc_msgSend$stringByAppendingString:
+- _objc_msgSend$stringFromSeconds:
+- _objc_msgSend$stringFromTimeInterval:
+- _objc_msgSend$systemFillColor
+- _objc_msgSend$systemLayoutSizeFittingSize:
+- _objc_msgSend$systemRoute
+- _objc_msgSend$tertiarySystemFillColor
+- _objc_msgSend$timeControl
+- _objc_msgSend$titleLabelFontSize
+- _objc_msgSend$titleLabelFontSizeInView:
+- _objc_msgSend$titleMarqueeContainer
+- _objc_msgSend$titleViewBottomMarginInView:
+- _objc_msgSend$trackImageView
+- _objc_msgSend$transitionWithView:duration:options:animations:completion:
+- _objc_msgSend$updateForwardButton
+- _objc_msgSend$updateRouteButtonWithRoute:
+- _objc_msgSend$uppercaseString
+- _objc_msgSend$volumeControl
+- _objc_msgSend$volumeValue
+- _objc_msgSend$waiting
+- _objc_msgSend$widestPlaybackSpeedLabelWidth
+- _objc_opt_class
+- _objc_opt_isKindOfClass
+- _objc_opt_new
+- _objc_retainBlock
+- _objc_storeWeak
+- _os_log_create
+- _symbolic $s12NewsArticles33NowPlayingArtworkConfigurableViewP
+- _symbolic $s12NewsArticles43NowPlayingActivityViewControllerFactoryTypeP
+- _symbolic G0G0R1__
+- _symbolic G0R2_
+- _symbolic Sd_____IeyByy_ 10ObjectiveC8ObjCBoolV
+- _symbolic So13CADisplayLinkCSg
+- _symbolic So13UILayoutGuideC
+- _symbolic So15NATimeFormatterC
+- _symbolic So18MPVolumeControllerC
+- _symbolic So18NSLayoutConstraintCSg
+- _symbolic So22NANowPlayingDockedViewC
+- _symbolic So22UIPanGestureRecognizerC
+- _symbolic So24UIActivityViewControllerC
+- _symbolic So25NSDateComponentsFormatterC
+- _symbolic So25UIImpactFeedbackGeneratorC
+- _symbolic So26NANowPlayingViewControllerC
+- _symbolic So9UIControlC
+- _symbolic _____ 12NewsArticles10SliderViewC
+- _symbolic _____ 12NewsArticles10SliderViewC20PanGestureRecognizer33_9E8B7C024EAF79BE20F276F3609F1829LLC
+- _symbolic _____ 12NewsArticles20ItemDurationSnapshot33_E1E741D8A675B568E4199D7AD133DD2CLLV
+- _symbolic _____ 12NewsArticles21NowPlayingTimeControlC
+- _symbolic _____ 12NewsArticles22NowPlayingVolumeSliderC
+- _symbolic _____ 12NewsArticles24NowPlayingViewControllerC
+- _symbolic _____ 12NewsArticles24NowPlayingViewControllerC16ThumbnailRequest33_76CA0A200B7DB957C98E18A199381B8CLLO
+- _symbolic _____ 12NewsArticles25NowPlayingViewCoordinatorC
+- _symbolic _____ 12NewsArticles32NowPlayingActivityViewControllerC
+- _symbolic _____ 5TeaUI24CommandExecutionLocationO
+- _symbolic _____ 5TeaUI30FloatingTabBarAccessoryManagerC
+- _symbolic _____Sg 12NewsArticles20ItemDurationSnapshot33_E1E741D8A675B568E4199D7AD133DD2CLLV
+- _symbolic _____Sg 7Combine14AnyCancellableC
+- _symbolic _____SgXw 12NewsArticles21NowPlayingTimeControlC
+- _symbolic _____SgXw 12NewsArticles22NowPlayingVolumeSliderC
+- _symbolic _____SgXwz_Xx 12NewsArticles22NowPlayingVolumeSliderC
+- _symbolic ______p 12NewsArticles33NowPlayingArtworkConfigurableViewP
+- _symbolic ______pSg 12NewsArticles25NowPlayingMenuFactoryTypeP
+- _symbolic ______pSg So24OS_dispatch_source_timerP
+- _symbolic _____y______pG 13TeaFoundation4LazyC 0A2UI31FloatingTabBarAccessoryProviderP
+- _symbolic _____yxG 12NewsArticles24NowPlayingViewControllerC
+- _symbolic _____yxGSgXw 12NewsArticles24NowPlayingViewControllerC
+- _symbolic _____yxGSgXwz_x______RzlXX 12NewsArticles24NowPlayingViewControllerC AA0C13PlayableTrackP
+- _symbolic _____yx_G 12NewsArticles24NowPlayingViewControllerC16ThumbnailRequest33_76CA0A200B7DB957C98E18A199381B8CLLO
+- _symbolic ySbcSg
+- _symbolic ySd_SbtcSg
+- _symbolic y______SbtcSg 12CoreGraphics7CGFloatV
+- _type_layout_string 12NewsArticles20ItemDurationSnapshot33_E1E741D8A675B568E4199D7AD133DD2CLLV
+- keypath_get.101Tm
+- keypath_set.31Tm
+CStrings:
++ "Failed to execute track removal command from Now Playing queue: %@, headline=%s"
++ "Failed to get min/max supported playback rate, defaulting to 0.5...3"
++ "Filtered low-quality items from %lu to %lu"
++ "Generated personalization scores for %lu items, time=%llums"
++ "Numeric description of an audio playback rate of 0.5x."
++ "Numeric description of an audio playback rate of 2.5x."
++ "Numeric description of an audio playback rate of 3x."
+- ""
+- "\t"
+- "\n"
+- "     "
+- "!"
+- "!A"
+- "%@\n"
+- "*"
+- "*** Assertion failure (Identifier: catch-all) : %s %s:%d %{public}@"
+- "-[NANowPlayingBottomControls sizeThatFits:]"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/FeldsparFrameworks/Modules/news-reader/NewsArticles/Audio/NowPlaying/UI/Components/NANowPlayingBottomControls.m"
+- "0.75"
+- "1"
+- "1.25"
+- "1.5"
+- "1.75"
+- "2"
+- "@\"MPRouteButton\"8@?0"
+- "@\"NAMarqueeView\"8@?0"
+- "@\"NANowPlayingArtworkView\"8@?0"
+- "@\"NANowPlayingBottomControls\"8@?0"
+- "@\"NANowPlayingPlaybackControls\"8@?0"
+- "@\"NANowPlayingTimeControl\"8@?0"
+- "@\"NANowPlayingTitleView\"8@?0"
+- "@\"NANowPlayingVolumeSlider\"8@?0"
+- "@\"NATouchInsetsButton\"8@?0"
+- "@\"NSString\"24@?0@\"UIView\"8Q16"
+- "@\"NSString\"24@?0@\"UIViewController\"8Q16"
+- "@\"UIButton\"8@?0"
+- "@\"UIImageView\"8@?0"
+- "@\"UIMenu\"16@?0@\"NSArray\"8"
+- "@\"UIView\"8@?0"
+- "@\"UIVisualEffectView\"8@?0"
+- "@\"_UIGrabber\"8@?0"
+- "@?<v@?@@\"UIView\"^B>8@?0"
+- "A"
+- "Accessibility label for the now playing volume slider"
+- "Accessibilty format string for the now playing time control's value. The first parameter is the elapsed amount of time, the second parameter is the total duration"
+- "Accessibilty label for the now playing time control. Should use the same string as the 'Track Position' control in Podcasts"
+- "B16@?0@\"UIView\"8"
+- "B16@?0@\"UIViewController\"8"
+- "Collapse to mini-player"
+- "Creating NowPlayingViewController"
+- "Docked View Close button tapped"
+- "Docked View Pause button tapped"
+- "Docked View Play button tapped"
+- "Docked View Rewind tapped"
+- "Docked View setting publisher to %{public}@"
+- "Docked View setting title to %{public}@"
+- "Double tap to expand the mini player"
+- "Failed to find a headline when asked to navigate to headline on track %{public}@ by NANowPlayingViewController"
+- "Failed to get min/max supported playback rate, defaulting to 0.75...2"
+- "MPRouteButton needs to be remeasured to find out its max height"
+- "NANowPlayingViewControllerDidDisappearNotification"
+- "NANowPlayingViewControllerWillDisappearNotification"
+- "NewsArticles.NowPlayingViewController"
+- "NewsArticles/NowPlayingTimeControl.swift"
+- "NewsArticles/NowPlayingViewController.swift"
+- "NewsArticles/NowPlayingVolumeSlider.swift"
+- "NewsArticles/SliderView.swift"
+- "Next track button tapped"
+- "NowPlaying"
+- "NowPlayingTimeControl setCurrentTime previous snapshot: %{public}s"
+- "NowPlayingTimeControl setCurrentTime(%{public}s, duration: %{public}s)"
+- "Pause button tapped"
+- "Play button tapped"
+- "R"
+- "Rewind tapped"
+- "Skip forward tapped"
+- "Updating NowPlaying with State %@"
+- "`"
+- "airplayaudio"
+- "article-message-"
+- "audio-background-loading-placeholder"
+- "close"
+- "com.apple.news"
+- "double speed"
+- "ellipsis.circle.fill"
+- "ellipsisButtonTouchUpInside:"
+- "forward.fill"
+- "gobackward.15"
+- "goforward.15"
+- "label used when elapsed time is unknown on the audio duration control"
+- "label used when remaining time is unknown on the audio duration control"
+- "mini player"
+- "more"
+- "next track"
+- "normal speed"
+- "one and a half speed"
+- "one and a quarter speed"
+- "one and three quarters speed"
+- "pause"
+- "pause.fill"
+- "play"
+- "play.fill"
+- "playback speed"
+- "playbackSpeedButtonMenuAction:"
+- "rewind, 15 seconds"
+- "routeButtonTapped:"
+- "routeButtonTouchDown:"
+- "routeButtonTouchUpOutside:"
+- "skip forward"
+- "three quarters speed"
+- "v16@?0@\"MPAVRoute\"8"
+- "v20@?0d8B16"
+- "v24@?0@\"UIView\"8^B16"
+- "v24@?0@\"UIViewController\"8^B16"
+- "v32@?0@\"UIView\"8Q16^B24"
+- "v32@?0@\"UIViewController\"8Q16^B24"
+- "v32@?0@?<v@?@@\"UIView\"^B>8@\"UIView\"16^B24"
+- "v32@?0@?<v@?@@\"UIViewController\"^B>8@\"UIViewController\"16^B24"
+- "v8@?0"
+- "xmark"
+- "\x91"
+- "×"
+```

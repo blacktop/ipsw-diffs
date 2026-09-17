@@ -1,0 +1,4183 @@
+## WorkflowKit
+
+> `/System/iOSSupport/System/Library/PrivateFrameworks/WorkflowKit.framework/Versions/A/WorkflowKit`
+
+```diff
+
+-5037.0.17.0.0
+-  __TEXT.__text: 0x80f9f0
+-  __TEXT.__objc_methlist: 0x2c954
+-  __TEXT.__const: 0x21b98
+-  __TEXT.__dlopen_cstrs: 0xc6c
+-  __TEXT.__swift5_typeref: 0xbe88
+-  __TEXT.__cstring: 0x888a7
+-  __TEXT.__oslogstring: 0x20faf
+-  __TEXT.__constg_swiftt: 0x9014
+-  __TEXT.__swift5_reflstr: 0x5c08
+-  __TEXT.__swift5_fieldmd: 0x70e0
+-  __TEXT.__swift5_builtin: 0x5a0
+-  __TEXT.__swift5_assocty: 0x2188
+-  __TEXT.__swift5_proto: 0x18bc
+-  __TEXT.__swift5_types: 0xa78
+-  __TEXT.__swift5_capture: 0x50dc
+-  __TEXT.__swift_as_entry: 0xa08
+-  __TEXT.__swift_as_ret: 0xb10
+-  __TEXT.__swift_as_cont: 0x11bc
+-  __TEXT.__swift5_protos: 0x138
+-  __TEXT.__swift5_mpenum: 0x98
+-  __TEXT.__gcc_except_tab: 0x4898
+-  __TEXT.__ustring: 0x3e92
+-  __TEXT.__unwind_info: 0x1e888
+-  __TEXT.__eh_frame: 0x1d76c
++5110.0.8.0.0
++  __TEXT.__text: 0x7458fc
++  __TEXT.__objc_methlist: 0x2abec
++  __TEXT.__const: 0x236b8
++  __TEXT.__dlopen_cstrs: 0xc2b
++  __TEXT.__swift5_typeref: 0xc562
++  __TEXT.__cstring: 0xa5f5a
++  __TEXT.__oslogstring: 0x217c1
++  __TEXT.__constg_swiftt: 0x96c8
++  __TEXT.__swift5_reflstr: 0x6088
++  __TEXT.__swift5_fieldmd: 0x7728
++  __TEXT.__swift5_builtin: 0x5b4
++  __TEXT.__swift5_assocty: 0x21d0
++  __TEXT.__swift5_proto: 0x1a50
++  __TEXT.__swift5_types: 0xb10
++  __TEXT.__swift5_capture: 0x5c88
++  __TEXT.__swift_as_entry: 0xa20
++  __TEXT.__swift_as_ret: 0xb20
++  __TEXT.__swift_as_cont: 0x11f4
++  __TEXT.__swift5_protos: 0x148
++  __TEXT.__swift5_mpenum: 0xa0
++  __TEXT.__gcc_except_tab: 0x47a0
++  __TEXT.__ustring: 0x3c34
++  __TEXT.__unwind_info: 0x1e770
++  __TEXT.__eh_frame: 0x1e110
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xe6a0
+-  __DATA_CONST.__objc_classlist: 0x2238
+-  __DATA_CONST.__objc_catlist: 0x3e0
++  __DATA_CONST.__const: 0xe250
++  __DATA_CONST.__objc_classlist: 0x2250
++  __DATA_CONST.__objc_catlist: 0x3d8
+   __DATA_CONST.__objc_protolist: 0x630
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x12cc0
++  __DATA_CONST.__objc_selrefs: 0x128b0
+   __DATA_CONST.__objc_protorefs: 0x250
+-  __DATA_CONST.__objc_superrefs: 0x1270
+-  __DATA_CONST.__objc_arraydata: 0x1510
+-  __DATA_CONST.__got: 0x5280
+-  __AUTH_CONST.__const: 0x3c570
+-  __AUTH_CONST.__cfstring: 0x2a340
+-  __AUTH_CONST.__objc_const: 0x511d0
++  __DATA_CONST.__objc_superrefs: 0x1258
++  __DATA_CONST.__objc_arraydata: 0x13f8
++  __DATA_CONST.__got: 0x5260
++  __AUTH_CONST.__const: 0x3ef10
++  __AUTH_CONST.__cfstring: 0x270e0
++  __AUTH_CONST.__objc_const: 0x50df0
+   __AUTH_CONST.__objc_dictobj: 0x4b0
+   __AUTH_CONST.__objc_intobj: 0xf78
+-  __AUTH_CONST.__objc_arrayobj: 0x930
++  __AUTH_CONST.__objc_arrayobj: 0x7e0
+   __AUTH_CONST.__objc_doubleobj: 0x20
+-  __AUTH_CONST.__auth_got: 0x4948
+-  __AUTH.__objc_data: 0xe0c0
+-  __AUTH.__data: 0x5ee0
+-  __DATA.__objc_ivar: 0x2018
+-  __DATA.__data: 0xba70
+-  __DATA.__common: 0x2cb8
+-  __DATA_DIRTY.__objc_data: 0xa6b0
+-  __DATA_DIRTY.__data: 0x1dd8
++  __AUTH_CONST.__auth_got: 0x4928
++  __AUTH.__objc_data: 0xe098
++  __AUTH.__data: 0x6430
++  __DATA.__objc_ivar: 0x1f8c
++  __DATA.__data: 0xbeb0
++  __DATA.__common: 0x2cc0
++  __DATA_DIRTY.__objc_data: 0xa610
++  __DATA_DIRTY.__data: 0x1d98
+   __DATA_DIRTY.__bss: 0x2348
+-  __DATA_DIRTY.__common: 0x18
++  __DATA_DIRTY.__common: 0x20
+   - /System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate
+   - /System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+   - /System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
+
+   - /System/Library/Frameworks/EventKit.framework/Versions/A/EventKit
+   - /System/Library/Frameworks/FileProvider.framework/Versions/A/FileProvider
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
++  - /System/Library/Frameworks/FoundationModels.framework/Versions/A/FoundationModels
+   - /System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO
+   - /System/Library/Frameworks/Intents.framework/Versions/A/Intents
+   - /System/Library/Frameworks/NaturalLanguage.framework/Versions/A/NaturalLanguage
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 40309
+-  Symbols:   41298
+-  CStrings:  17328
++  Functions: 40754
++  Symbols:   40567
++  CStrings:  18657
+ 
+Symbols:
++ +[WFHomeAccessoryPresence hasAnyCompanionHomeAccessory]
++ +[WFHomeAccessoryPresence hasConfiguredAppleTV]
++ +[WFHomeAccessoryPresence hasConfiguredHomeAccessory]
++ +[WFHomeAccessoryPresence hasConfiguredHomePod]
++ +[WFWorkflowMigrator migrateWorkflowIfNeeded:]
++ +[WFWorkoutType allTypesSupportedWithoutPairedWatch]
++ +[WFWritingToolsAvailabilityResource isSingleton]
++ -[INFile(Workflow) wf_fileValue]
++ -[WFAction suggestedVariablesWithCurrentVariables:]
++ -[WFCalendarPickerParameter localizedTitleForCalendarSource:]
++ -[WFChooseFromMenuAction usesLegacyInputBehavior]
++ -[WFContentItemFilterAction parameterStateForKey:fallingBackToDefaultValue:]
++ -[WFContentItemFilterAction sortOrderStateRewordedForCurrentSortProperty]
++ -[WFDateFieldParameterState initWithPreprocessedDate:]
++ -[WFDateFieldParameterState initWithSerializedRepresentation:variableProvider:parameter:]
++ -[WFDateFieldParameterState serializedRepresentation]
++ -[WFFileValue initWithURL:filename:displayName:]
++ -[WFWorkflow isTombstoned]
++ -[WFWorkflowMigration migrateWorkflowIfNeeded:]
++ -[WFWorkflowMigrationResult .cxx_destruct]
++ -[WFWorkflowMigrationResult initWithMigrationPerformed:workflow:warnings:]
++ -[WFWorkflowMigrationResult migrationPerformed]
++ -[WFWorkflowMigrationResult warnings]
++ -[WFWorkflowMigrationResult workflow]
++ -[WFWorkflowRecord isTombstoned]
++ -[WFWorkflowRecord setTombstoned:]
++ -[WFWorkflowReference initWithIdentifier:name:color:glyphCharacter:associatedAppBundleIdentifier:searchAttributionAppBundleIdentifier:subtitle:actionsDescription:actionCount:syncHash:isTombstoned:hiddenFromLibraryAndSync:creationDate:modificationDate:lastRunDate:remoteQuarantineStatus:remoteQuarantineHash:showInSearch:receivesInputFromSearch:hasShortcutInputVariables:disabledOnLockScreen:source:modifiedUsingDaS:runEventsCount:hasOutputAction:]
++ -[WFWorkflowReference isTombstoned]
++ -[WFWorkflowReference modifiedUsingDaS]
++ -[WFWritingToolsAvailabilityResource writingToolsGenericallyUnavailableError]
++ -[WFWritingToolsAvailabilityResource writingToolsRegionallyUnavailableError]
++ -[WFWritingToolsAvailabilityResource writingToolsUnsupportedError]
++ GCC_except_table10028
++ GCC_except_table10233
++ GCC_except_table10260
++ GCC_except_table10273
++ GCC_except_table10328
++ GCC_except_table10471
++ GCC_except_table10552
++ GCC_except_table10558
++ GCC_except_table10561
++ GCC_except_table10564
++ GCC_except_table10567
++ GCC_except_table10570
++ GCC_except_table10573
++ GCC_except_table10576
++ GCC_except_table10580
++ GCC_except_table10584
++ GCC_except_table10589
++ GCC_except_table10596
++ GCC_except_table10601
++ GCC_except_table10604
++ GCC_except_table10607
++ GCC_except_table10610
++ GCC_except_table10613
++ GCC_except_table10616
++ GCC_except_table10619
++ GCC_except_table10622
++ GCC_except_table10625
++ GCC_except_table10628
++ GCC_except_table10631
++ GCC_except_table10736
++ GCC_except_table10873
++ GCC_except_table10889
++ GCC_except_table11035
++ GCC_except_table11050
++ GCC_except_table11056
++ GCC_except_table11058
++ GCC_except_table11063
++ GCC_except_table11107
++ GCC_except_table11114
++ GCC_except_table11168
++ GCC_except_table11207
++ GCC_except_table11221
++ GCC_except_table11225
++ GCC_except_table11227
++ GCC_except_table11323
++ GCC_except_table11339
++ GCC_except_table11437
++ GCC_except_table11489
++ GCC_except_table11541
++ GCC_except_table11570
++ GCC_except_table11625
++ GCC_except_table11636
++ GCC_except_table11686
++ GCC_except_table11688
++ GCC_except_table1170
++ GCC_except_table11703
++ GCC_except_table11918
++ GCC_except_table12014
++ GCC_except_table12047
++ GCC_except_table12088
++ GCC_except_table12129
++ GCC_except_table12142
++ GCC_except_table12147
++ GCC_except_table12161
++ GCC_except_table12168
++ GCC_except_table12169
++ GCC_except_table12170
++ GCC_except_table12179
++ GCC_except_table12190
++ GCC_except_table12343
++ GCC_except_table12366
++ GCC_except_table12369
++ GCC_except_table12371
++ GCC_except_table12428
++ GCC_except_table12440
++ GCC_except_table12444
++ GCC_except_table1249
++ GCC_except_table12715
++ GCC_except_table12912
++ GCC_except_table12953
++ GCC_except_table13082
++ GCC_except_table13179
++ GCC_except_table13184
++ GCC_except_table13193
++ GCC_except_table13244
++ GCC_except_table13267
++ GCC_except_table13278
++ GCC_except_table13280
++ GCC_except_table13293
++ GCC_except_table1335
++ GCC_except_table13365
++ GCC_except_table1340
++ GCC_except_table13486
++ GCC_except_table13506
++ GCC_except_table13517
++ GCC_except_table13531
++ GCC_except_table13534
++ GCC_except_table13682
++ GCC_except_table13709
++ GCC_except_table13805
++ GCC_except_table1516
++ GCC_except_table1520
++ GCC_except_table1522
++ GCC_except_table1524
++ GCC_except_table1595
++ GCC_except_table1609
++ GCC_except_table1614
++ GCC_except_table1616
++ GCC_except_table1618
++ GCC_except_table1869
++ GCC_except_table1945
++ GCC_except_table2030
++ GCC_except_table2247
++ GCC_except_table2341
++ GCC_except_table2457
++ GCC_except_table2484
++ GCC_except_table2558
++ GCC_except_table2599
++ GCC_except_table2706
++ GCC_except_table2709
++ GCC_except_table2723
++ GCC_except_table2788
++ GCC_except_table2815
++ GCC_except_table2832
++ GCC_except_table2838
++ GCC_except_table3031
++ GCC_except_table3071
++ GCC_except_table3076
++ GCC_except_table3108
++ GCC_except_table3124
++ GCC_except_table3128
++ GCC_except_table3188
++ GCC_except_table3199
++ GCC_except_table3201
++ GCC_except_table3204
++ GCC_except_table3314
++ GCC_except_table3318
++ GCC_except_table3320
++ GCC_except_table3324
++ GCC_except_table3325
++ GCC_except_table3463
++ GCC_except_table3586
++ GCC_except_table3590
++ GCC_except_table367
++ GCC_except_table370
++ GCC_except_table3966
++ GCC_except_table3967
++ GCC_except_table4081
++ GCC_except_table4154
++ GCC_except_table4167
++ GCC_except_table4186
++ GCC_except_table4194
++ GCC_except_table4343
++ GCC_except_table4481
++ GCC_except_table4487
++ GCC_except_table4493
++ GCC_except_table4542
++ GCC_except_table4556
++ GCC_except_table4614
++ GCC_except_table4685
++ GCC_except_table4712
++ GCC_except_table4716
++ GCC_except_table4819
++ GCC_except_table4827
++ GCC_except_table4849
++ GCC_except_table4889
++ GCC_except_table4943
++ GCC_except_table4951
++ GCC_except_table4953
++ GCC_except_table4991
++ GCC_except_table5000
++ GCC_except_table5001
++ GCC_except_table5392
++ GCC_except_table553
++ GCC_except_table5531
++ GCC_except_table5564
++ GCC_except_table5636
++ GCC_except_table5648
++ GCC_except_table5761
++ GCC_except_table5841
++ GCC_except_table5905
++ GCC_except_table5906
++ GCC_except_table5907
++ GCC_except_table6007
++ GCC_except_table6057
++ GCC_except_table6075
++ GCC_except_table6431
++ GCC_except_table6444
++ GCC_except_table6464
++ GCC_except_table6465
++ GCC_except_table6527
++ GCC_except_table6528
++ GCC_except_table6533
++ GCC_except_table6534
++ GCC_except_table6537
++ GCC_except_table6543
++ GCC_except_table6548
++ GCC_except_table6553
++ GCC_except_table6554
++ GCC_except_table656
++ GCC_except_table6594
++ GCC_except_table6599
++ GCC_except_table6657
++ GCC_except_table6673
++ GCC_except_table686
++ GCC_except_table689
++ GCC_except_table6925
++ GCC_except_table693
++ GCC_except_table6935
++ GCC_except_table697
++ GCC_except_table7009
++ GCC_except_table7014
++ GCC_except_table7294
++ GCC_except_table7295
++ GCC_except_table7335
++ GCC_except_table7438
++ GCC_except_table7582
++ GCC_except_table7587
++ GCC_except_table7598
++ GCC_except_table7711
++ GCC_except_table7718
++ GCC_except_table7729
++ GCC_except_table7786
++ GCC_except_table7797
++ GCC_except_table7799
++ GCC_except_table7801
++ GCC_except_table7802
++ GCC_except_table8289
++ GCC_except_table8326
++ GCC_except_table8392
++ GCC_except_table8443
++ GCC_except_table857
++ GCC_except_table8645
++ GCC_except_table8651
++ GCC_except_table8655
++ GCC_except_table8657
++ GCC_except_table8659
++ GCC_except_table8661
++ GCC_except_table8665
++ GCC_except_table8667
++ GCC_except_table8679
++ GCC_except_table8683
++ GCC_except_table8696
++ GCC_except_table8709
++ GCC_except_table8715
++ GCC_except_table8722
++ GCC_except_table8768
++ GCC_except_table8774
++ GCC_except_table8780
++ GCC_except_table8907
++ GCC_except_table8966
++ GCC_except_table8995
++ GCC_except_table8997
++ GCC_except_table9003
++ GCC_except_table9005
++ GCC_except_table9007
++ GCC_except_table9014
++ GCC_except_table9036
++ GCC_except_table9044
++ GCC_except_table9151
++ GCC_except_table931
++ GCC_except_table9320
++ GCC_except_table9326
++ GCC_except_table9345
++ GCC_except_table940
++ GCC_except_table9509
++ GCC_except_table9610
++ GCC_except_table9617
++ GCC_except_table9619
++ GCC_except_table9621
++ GCC_except_table9663
++ GCC_except_table9668
++ GCC_except_table9708
++ GCC_except_table9711
++ GCC_except_table9714
++ GCC_except_table9717
++ GCC_except_table9978
++ GCC_except_table9994
++ OBJC_IVAR_$_WFWorkflowMigrationResult._migrationPerformed
++ OBJC_IVAR_$_WFWorkflowMigrationResult._warnings
++ OBJC_IVAR_$_WFWorkflowMigrationResult._workflow
++ OBJC_IVAR_$_WFWorkflowRecord._tombstoned
++ OBJC_IVAR_$_WFWorkflowReference._modifiedUsingDaS
++ OBJC_IVAR_$_WFWorkflowReference._tombstoned
++ _LNConnectionLSRestrictionReasonUserInfoKey
++ _OBJC_CLASS_$_WFHomeAccessoryPresence
++ _OBJC_CLASS_$_WFStereoRecordingModeMigration
++ _OBJC_CLASS_$_WFUseModelWebSearchResource
++ _OBJC_CLASS_$_WFWorkflowMigrationResult
++ _OBJC_CLASS_$__TtC11WorkflowKit39WFConditionalLegacyPassthroughMigration
++ _OBJC_METACLASS_$_WFHomeAccessoryPresence
++ _OBJC_METACLASS_$_WFStereoRecordingModeMigration
++ _OBJC_METACLASS_$_WFUseModelWebSearchResource
++ _OBJC_METACLASS_$_WFWorkflowMigrationResult
++ _OBJC_METACLASS_$__TtC11WorkflowKit39WFConditionalLegacyPassthroughMigration
++ _OBJC_METACLASS_$__TtCC11WorkflowKit26WFDebouncerSettleSchedulerP33_5E2E360943EE47A2CBA9B8BBC9628A8D6Target
++ _OUTLINED_FUNCTION_385
++ _OUTLINED_FUNCTION_386
++ _OUTLINED_FUNCTION_387
++ _OUTLINED_FUNCTION_388
++ _OUTLINED_FUNCTION_389
++ _OUTLINED_FUNCTION_390
++ _VCIsAppWithIdentifierInstalled
++ _WFContentItemSortDescendingValues
++ _WFContentItemSortOrderStateMatchingDirectionOfValue
++ _WFStaccatoActionIdentifierUseModel
++ _WFWorkflowRunOutcomeForRunError
++ __CLASS_METHODS_WFStereoRecordingModeMigration
++ __CLASS_METHODS_WFUseModelWebSearchResource
++ __CLASS_METHODS__TtC11WorkflowKit39WFConditionalLegacyPassthroughMigration
++ __CLASS_PROPERTIES_WFUseModelWebSearchResource
++ __DATA_WFStereoRecordingModeMigration
++ __DATA_WFUseModelWebSearchResource
++ __DATA__TtC11WorkflowKit20WFAppInFocusObserver
++ __DATA__TtC11WorkflowKit24WFLayoutObservationToken
++ __DATA__TtC11WorkflowKit26WFDebouncerSettleScheduler
++ __DATA__TtC11WorkflowKit31WFUnknownScreenPresenceProvider
++ __DATA__TtC11WorkflowKit33DefaultHomeAccessoryStateProvider
++ __DATA__TtC11WorkflowKit39WFConditionalLegacyPassthroughMigration
++ __DATA__TtCC11WorkflowKit26WFDebouncerSettleSchedulerP33_5E2E360943EE47A2CBA9B8BBC9628A8D6Target
++ __DATA__TtCC11WorkflowKit33DefaultHomeAccessoryStateProviderP33_5C6DE08583E72F8733CECBBEE920547C11NotifyToken
++ __DATA__TtCC11WorkflowKit33DefaultHomeAccessoryStateProviderP33_5C6DE08583E72F8733CECBBEE920547C13InactiveToken
++ __INSTANCE_METHODS_WFStereoRecordingModeMigration
++ __INSTANCE_METHODS_WFUseModelWebSearchResource
++ __INSTANCE_METHODS__TtC11WorkflowKit39WFConditionalLegacyPassthroughMigration
++ __INSTANCE_METHODS__TtCC11WorkflowKit26WFDebouncerSettleSchedulerP33_5E2E360943EE47A2CBA9B8BBC9628A8D6Target
++ __IVARS_WFRemoteAppIntentExecutionAction
++ __IVARS__TtC11WorkflowKit20WFAppInFocusObserver
++ __IVARS__TtC11WorkflowKit24WFLayoutObservationToken
++ __IVARS__TtC11WorkflowKit26WFDebouncerSettleScheduler
++ __IVARS__TtCC11WorkflowKit26WFDebouncerSettleSchedulerP33_5E2E360943EE47A2CBA9B8BBC9628A8D6Target
++ __IVARS__TtCC11WorkflowKit33DefaultHomeAccessoryStateProviderP33_5C6DE08583E72F8733CECBBEE920547C11NotifyToken
++ __METACLASS_DATA_WFStereoRecordingModeMigration
++ __METACLASS_DATA_WFUseModelWebSearchResource
++ __METACLASS_DATA__TtC11WorkflowKit20WFAppInFocusObserver
++ __METACLASS_DATA__TtC11WorkflowKit24WFLayoutObservationToken
++ __METACLASS_DATA__TtC11WorkflowKit26WFDebouncerSettleScheduler
++ __METACLASS_DATA__TtC11WorkflowKit31WFUnknownScreenPresenceProvider
++ __METACLASS_DATA__TtC11WorkflowKit33DefaultHomeAccessoryStateProvider
++ __METACLASS_DATA__TtC11WorkflowKit39WFConditionalLegacyPassthroughMigration
++ __METACLASS_DATA__TtCC11WorkflowKit26WFDebouncerSettleSchedulerP33_5E2E360943EE47A2CBA9B8BBC9628A8D6Target
++ __METACLASS_DATA__TtCC11WorkflowKit33DefaultHomeAccessoryStateProviderP33_5C6DE08583E72F8733CECBBEE920547C11NotifyToken
++ __METACLASS_DATA__TtCC11WorkflowKit33DefaultHomeAccessoryStateProviderP33_5C6DE08583E72F8733CECBBEE920547C13InactiveToken
++ __OBJC_$_CATEGORY_CLASS_METHODS_WFImage_$_WorkflowKit
++ __OBJC_$_CATEGORY_WFImage_$_WorkflowKit
++ __OBJC_$_CLASS_METHODS_WFCoreDataTrigger(CoreDataProperties)
++ __OBJC_$_CLASS_METHODS_WFEmailTrigger(ContentInput)
++ __OBJC_$_CLASS_METHODS_WFHomeAccessoryPresence
++ __OBJC_$_CLASS_METHODS_WFMessageTrigger(ContentInput)
++ __OBJC_$_CLASS_METHODS_WFTrigger(ContentInput|PowerLog)
++ __OBJC_$_INSTANCE_METHODS_WFAirplaneModeTrigger
++ __OBJC_$_INSTANCE_METHODS_WFAppInBackgroundTrigger
++ __OBJC_$_INSTANCE_METHODS_WFBatteryLevelTrigger
++ __OBJC_$_INSTANCE_METHODS_WFBluetoothTrigger
++ __OBJC_$_INSTANCE_METHODS_WFDNDTrigger
++ __OBJC_$_INSTANCE_METHODS_WFEmailTrigger
++ __OBJC_$_INSTANCE_METHODS_WFLocationTrigger
++ __OBJC_$_INSTANCE_METHODS_WFLowPowerModeTrigger
++ __OBJC_$_INSTANCE_METHODS_WFMessageTrigger
++ __OBJC_$_INSTANCE_METHODS_WFNFCTrigger
++ __OBJC_$_INSTANCE_METHODS_WFPlugInTrigger
++ __OBJC_$_INSTANCE_METHODS_WFPredictedLocationTransitionTrigger
++ __OBJC_$_INSTANCE_METHODS_WFSleepTrigger
++ __OBJC_$_INSTANCE_METHODS_WFTimeOfDayTrigger
++ __OBJC_$_INSTANCE_METHODS_WFTrigger
++ __OBJC_$_INSTANCE_METHODS_WFWifiTrigger
++ __OBJC_$_INSTANCE_METHODS_WFWorkflowMigrationResult
++ __OBJC_$_INSTANCE_VARIABLES_WFWorkflowMigrationResult
++ __OBJC_$_PROP_LIST_WFWorkflowMigrationResult
++ __OBJC_CLASS_RO_$_WFHomeAccessoryPresence
++ __OBJC_CLASS_RO_$_WFWorkflowMigrationResult
++ __OBJC_METACLASS_RO_$_WFHomeAccessoryPresence
++ __OBJC_METACLASS_RO_$_WFWorkflowMigrationResult
++ ___37-[WFWorkflow renameWorkflowTo:error:]_block_invoke
++ ___46+[WFWorkflowMigrator migrateWorkflowIfNeeded:]_block_invoke
++ ___51-[WFAction suggestedVariablesWithCurrentVariables:]_block_invoke
++ ___51-[WFAction suggestedVariablesWithCurrentVariables:]_block_invoke_2
++ ___51-[WFAction suggestedVariablesWithCurrentVariables:]_block_invoke_3
++ ___51-[WFAction suggestedVariablesWithCurrentVariables:]_block_invoke_4
++ ___block_descriptor_48_e8_32s_e25_B32?0"WFAction"8Q16^B24ls32l8
++ ___block_descriptor_96_e8_32s40s48s56s64s72s80s88bs_e16_v16?0"NSData"8ls32l8s40l8s48l8s56l8s64l8s72l8s80l8s88l8
++ ___block_descriptor_96_e8_32s40s48s56s64s72s80s88bs_e35_v16?0"WFStepwiseExecutionResult"8ls32l8s40l8s48l8s56l8s64l8s72l8s88l8s80l8
++ ___swift_memcpy19_8
++ __swift__destructor.382Tm
++ __swift_closure_destructor.136Tm
++ __swift_closure_destructor.158Tm
++ __swift_closure_destructor.159Tm
++ __swift_closure_destructor.385Tm
++ __swift_closure_destructor.63Tm
++ __swift_closure_destructor.98Tm
++ _associated conformance 11WorkflowKit11WFSettleKeyV8DecisionOSHAASQ
++ _associated conformance 11WorkflowKit11WFSettleKeyVSHAASQ
++ _associated conformance 11WorkflowKit14WFPCCModelTierOSHAASQ
++ _associated conformance 11WorkflowKit17CascadePullStatesV04ToolB00F21DatabaseMetadataValueAASE
++ _associated conformance 11WorkflowKit17CascadePullStatesV04ToolB00F21DatabaseMetadataValueAASH
++ _associated conformance 11WorkflowKit17CascadePullStatesV04ToolB00F21DatabaseMetadataValueAASe
++ _associated conformance 11WorkflowKit17CascadePullStatesV10CodingKeys33_E4BEF38201BE5E318AB062186A017C5ELLOSHAASQ
++ _associated conformance 11WorkflowKit17CascadePullStatesV10CodingKeys33_E4BEF38201BE5E318AB062186A017C5ELLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 11WorkflowKit17CascadePullStatesV10CodingKeys33_E4BEF38201BE5E318AB062186A017C5ELLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11WorkflowKit17CascadePullStatesVSHAASQ
++ _associated conformance 11WorkflowKit17CascadePullTargetV10CodingKeys33_E4BEF38201BE5E318AB062186A017C5ELLOSHAASQ
++ _associated conformance 11WorkflowKit17CascadePullTargetV10CodingKeys33_E4BEF38201BE5E318AB062186A017C5ELLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 11WorkflowKit17CascadePullTargetV10CodingKeys33_E4BEF38201BE5E318AB062186A017C5ELLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11WorkflowKit17CascadePullTargetVSHAASQ
++ _associated conformance 11WorkflowKit17CascadePushStatesV04ToolB00F21DatabaseMetadataValueAASE
++ _associated conformance 11WorkflowKit17CascadePushStatesV04ToolB00F21DatabaseMetadataValueAASH
++ _associated conformance 11WorkflowKit17CascadePushStatesV04ToolB00F21DatabaseMetadataValueAASe
++ _associated conformance 11WorkflowKit17CascadePushStatesV10CodingKeys33_4D453089979306DDB91B672E4E273920LLOSHAASQ
++ _associated conformance 11WorkflowKit17CascadePushStatesV10CodingKeys33_4D453089979306DDB91B672E4E273920LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 11WorkflowKit17CascadePushStatesV10CodingKeys33_4D453089979306DDB91B672E4E273920LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11WorkflowKit17CascadePushStatesVSHAASQ
++ _associated conformance 11WorkflowKit17CascadePushTargetV10CodingKeys33_4D453089979306DDB91B672E4E273920LLOSHAASQ
++ _associated conformance 11WorkflowKit17CascadePushTargetV10CodingKeys33_4D453089979306DDB91B672E4E273920LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 11WorkflowKit17CascadePushTargetV10CodingKeys33_4D453089979306DDB91B672E4E273920LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11WorkflowKit17CascadePushTargetVSHAASQ
++ _associated conformance 11WorkflowKit18CascadePendingPullV10CodingKeys33_E4BEF38201BE5E318AB062186A017C5ELLOSHAASQ
++ _associated conformance 11WorkflowKit18CascadePendingPullV10CodingKeys33_E4BEF38201BE5E318AB062186A017C5ELLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 11WorkflowKit18CascadePendingPullV10CodingKeys33_E4BEF38201BE5E318AB062186A017C5ELLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11WorkflowKit18CascadePendingPullVSHAASQ
++ _associated conformance 11WorkflowKit18CascadePendingPushV10CodingKeys33_4D453089979306DDB91B672E4E273920LLOSHAASQ
++ _associated conformance 11WorkflowKit18CascadePendingPushV10CodingKeys33_4D453089979306DDB91B672E4E273920LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 11WorkflowKit18CascadePendingPushV10CodingKeys33_4D453089979306DDB91B672E4E273920LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11WorkflowKit18CascadePendingPushVSHAASQ
++ _associated conformance 11WorkflowKit19WFAppScreenPresenceOSHAASQ
++ _associated conformance 11WorkflowKit39WFConditionalLegacyPassthroughMigrationC15ControlFlowKind33_DEACC46E2F0DBC182B1B2E020547513FLLOSHAASQ
++ _associated conformance 11WorkflowKit40WFFileTestingContainerDefinitionProvider33_87626B48751D049A793A016874DF439DLLV5ErrorOSHAASQ
++ _associated conformance 7ToolKit0A8DatabaseC08WorkflowB0E20CascadePullStatesKeyV10CodingKeys33_E4BEF38201BE5E318AB062186A017C5ELLOs0iH0ADs23CustomStringConvertible
++ _associated conformance 7ToolKit0A8DatabaseC08WorkflowB0E20CascadePullStatesKeyV10CodingKeys33_E4BEF38201BE5E318AB062186A017C5ELLOs0iH0ADs28CustomDebugStringConvertible
++ _associated conformance 7ToolKit0A8DatabaseC08WorkflowB0E20CascadePullStatesKeyVAA0ac8MetadataH0AD5ValueAaGP_AA0aciJ0
++ _associated conformance 7ToolKit0A8DatabaseC08WorkflowB0E20CascadePullStatesKeyVAA0ac8MetadataH0ADSE
++ _associated conformance 7ToolKit0A8DatabaseC08WorkflowB0E20CascadePullStatesKeyVAA0ac8MetadataH0ADSH
++ _associated conformance 7ToolKit0A8DatabaseC08WorkflowB0E20CascadePullStatesKeyVAA0ac8MetadataH0ADSe
++ _associated conformance 7ToolKit0A8DatabaseC08WorkflowB0E20CascadePullStatesKeyVSHADSQ
++ _associated conformance 7ToolKit0A8DatabaseC08WorkflowB0E20CascadePushStatesKeyV10CodingKeys33_4D453089979306DDB91B672E4E273920LLOs0iH0ADs23CustomStringConvertible
++ _associated conformance 7ToolKit0A8DatabaseC08WorkflowB0E20CascadePushStatesKeyV10CodingKeys33_4D453089979306DDB91B672E4E273920LLOs0iH0ADs28CustomDebugStringConvertible
++ _associated conformance 7ToolKit0A8DatabaseC08WorkflowB0E20CascadePushStatesKeyVAA0ac8MetadataH0AD5ValueAaGP_AA0aciJ0
++ _associated conformance 7ToolKit0A8DatabaseC08WorkflowB0E20CascadePushStatesKeyVAA0ac8MetadataH0ADSE
++ _associated conformance 7ToolKit0A8DatabaseC08WorkflowB0E20CascadePushStatesKeyVAA0ac8MetadataH0ADSH
++ _associated conformance 7ToolKit0A8DatabaseC08WorkflowB0E20CascadePushStatesKeyVAA0ac8MetadataH0ADSe
++ _associated conformance 7ToolKit0A8DatabaseC08WorkflowB0E20CascadePushStatesKeyVSHADSQ
++ _get_enum_tag_for_layout_string 11WorkflowKit32WFShortcutSharingRejectionReasonO
++ _get_enum_tag_for_layout_string Ieg_Sg
++ _initHMHomeManagerAreAnyAppleTVAccessoriesConfigured
++ _initHMHomeManagerAreAnySpeakersConfigured
++ _objc_msgSend$actionFromSerializedRepresentation:actionRegistry:
++ _objc_msgSend$allTypes
++ _objc_msgSend$availableVariableNames
++ _objc_msgSend$createActionWithIdentifier:parameterStates:
++ _objc_msgSend$endInitialSyncProtectionOn:forTriggerUUIDs:
++ _objc_msgSend$hasAnyCompanionHomeAccessory
++ _objc_msgSend$hasConfiguredAppleTV
++ _objc_msgSend$hasConfiguredHomeAccessory
++ _objc_msgSend$hasConfiguredHomePod
++ _objc_msgSend$holdsDuration
++ _objc_msgSend$initWithBackgroundRefresh:
++ _objc_msgSend$initWithIdentifier:isFolder:name:glyphCharacter:isTombstoned:
++ _objc_msgSend$initWithIdentifier:name:color:glyphCharacter:associatedAppBundleIdentifier:searchAttributionAppBundleIdentifier:subtitle:actionsDescription:actionCount:syncHash:isTombstoned:hiddenFromLibraryAndSync:creationDate:modificationDate:lastRunDate:remoteQuarantineStatus:remoteQuarantineHash:showInSearch:receivesInputFromSearch:hasShortcutInputVariables:disabledOnLockScreen:source:modifiedUsingDaS:runEventsCount:hasOutputAction:
++ _objc_msgSend$initWithMigrationPerformed:workflow:warnings:
++ _objc_msgSend$initWithPreprocessedDate:
++ _objc_msgSend$initWithURL:filename:displayName:
++ _objc_msgSend$interval
++ _objc_msgSend$isActionHiddenDueToRegionalPolicy
++ _objc_msgSend$isTombstoned
++ _objc_msgSend$isWritingToolsAvailable
++ _objc_msgSend$isWritingToolsHiddenDueToRegionalPolicy
++ _objc_msgSend$localStorageDisplayName
++ _objc_msgSend$localTimeZone
++ _objc_msgSend$localizedTitleForCalendarSource:
++ _objc_msgSend$migrateWorkflowIfNeeded:
++ _objc_msgSend$migrationPerformed
++ _objc_msgSend$requiresUserInactivity
++ _objc_msgSend$setRequiresUserInactivity:
++ _objc_msgSend$sortOrderStateRewordedForCurrentSortProperty
++ _objc_msgSend$stringFromDate:timeZone:formatOptions:
++ _objc_msgSend$wf_fileValue
++ _objc_msgSend$writingToolsGenericallyUnavailableError
++ _objc_msgSend$writingToolsRegionallyUnavailableError
++ _objc_msgSend$writingToolsUnsupportedError
++ _softLinkHMHomeManagerAreAnyAppleTVAccessoriesConfigured
++ _softLinkHMHomeManagerAreAnySpeakersConfigured
++ _swift_task_future_wait_throwing
++ _symbolic $s11WorkflowKit18WFSettleSchedulingP
++ _symbolic $s11WorkflowKit27HomeAccessoryStateProvidingP
++ _symbolic $s11WorkflowKit28WFAppScreenPresenceProvidingP
++ _symbolic $s11WorkflowKit29HomeAccessoryObservationTokenP
++ _symbolic $s7ToolKit0A19DatabaseMetadataKeyP
++ _symbolic Ieg_
++ _symbolic Ieg_Sg
++ _symbolic SDy_____SSG 11WorkflowKit17CascadePushTargetV
++ _symbolic SDy_____SiG s5Int64V
++ _symbolic SDy__________G 11WorkflowKit11WFSettleKeyV AA26WFDebouncerSettleSchedulerC5Entry33_5E2E360943EE47A2CBA9B8BBC9628A8DLLV
++ _symbolic SDy__________G 11WorkflowKit17CascadePullTargetV AA0c7PendingD0V
++ _symbolic SDy__________G 11WorkflowKit17ToolSyncPartitionO AA18CascadePendingPushV
++ _symbolic SS10identifier______Sg4typeSSSg27fallbackExtensionIdentifiert 7ToolKit19ContainerDefinitionV0C4TypeO
++ _symbolic SS4uuid_SS4namet
++ _symbolic SSIegg_
++ _symbolic SSSg7persona______7outcomet 11WorkflowKit04ToolB17CascadeSyncEngineC11PullOutcomeV
++ _symbolic SSSg_Sbt
++ _symbolic SSSg______t 11WorkflowKit04ToolB17CascadeSyncEngineC11PullOutcomeV
++ _symbolic SaySo22WFBatchIterationResultCGSg
++ _symbolic Shy_____G s5Int64V
++ _symbolic Shy_____Gz_Xx s5Int64V
++ _symbolic Si6offset_yp7elementt
++ _symbolic So11WFDebouncerC
++ _symbolic So25WFStepwiseExecutionResultCIeyBy_
++ _symbolic So28WFAppIntentsMetadataProviderCSg
++ _symbolic _____ 11WorkflowKit04ToolB17CascadeSyncEngineC11PullOutcomeV
++ _symbolic _____ 11WorkflowKit11WFSettleKeyV
++ _symbolic _____ 11WorkflowKit11WFSettleKeyV8DecisionO
++ _symbolic _____ 11WorkflowKit14WFPCCModelTierO
++ _symbolic _____ 11WorkflowKit16WFPCCQuotaHelperV
++ _symbolic _____ 11WorkflowKit17CascadePullStatesV
++ _symbolic _____ 11WorkflowKit17CascadePullStatesV10CodingKeys33_E4BEF38201BE5E318AB062186A017C5ELLO
++ _symbolic _____ 11WorkflowKit17CascadePullTargetV
++ _symbolic _____ 11WorkflowKit17CascadePullTargetV10CodingKeys33_E4BEF38201BE5E318AB062186A017C5ELLO
++ _symbolic _____ 11WorkflowKit17CascadePushStatesV
++ _symbolic _____ 11WorkflowKit17CascadePushStatesV10CodingKeys33_4D453089979306DDB91B672E4E273920LLO
++ _symbolic _____ 11WorkflowKit17CascadePushTargetV
++ _symbolic _____ 11WorkflowKit17CascadePushTargetV10CodingKeys33_4D453089979306DDB91B672E4E273920LLO
++ _symbolic _____ 11WorkflowKit18CascadePendingPullV
++ _symbolic _____ 11WorkflowKit18CascadePendingPullV10CodingKeys33_E4BEF38201BE5E318AB062186A017C5ELLO
++ _symbolic _____ 11WorkflowKit18CascadePendingPushV
++ _symbolic _____ 11WorkflowKit18CascadePendingPushV10CodingKeys33_4D453089979306DDB91B672E4E273920LLO
++ _symbolic _____ 11WorkflowKit18WFPCCQuotaSnapshotV
++ _symbolic _____ 11WorkflowKit19WFAppScreenPresenceO
++ _symbolic _____ 11WorkflowKit20WFAppInFocusObserverC
++ _symbolic _____ 11WorkflowKit20WFAppInFocusObserverC5State33_5E2E360943EE47A2CBA9B8BBC9628A8DLLV
++ _symbolic _____ 11WorkflowKit23WFUseModelRegionalCheckV
++ _symbolic _____ 11WorkflowKit24WFLayoutObservationTokenC
++ _symbolic _____ 11WorkflowKit26WFDebouncerSettleSchedulerC
++ _symbolic _____ 11WorkflowKit26WFDebouncerSettleSchedulerC5Entry33_5E2E360943EE47A2CBA9B8BBC9628A8DLLV
++ _symbolic _____ 11WorkflowKit26WFDebouncerSettleSchedulerC6Target33_5E2E360943EE47A2CBA9B8BBC9628A8DLLC
++ _symbolic _____ 11WorkflowKit30WFStereoRecordingModeMigrationC
++ _symbolic _____ 11WorkflowKit31WFUnknownScreenPresenceProviderC
++ _symbolic _____ 11WorkflowKit33DefaultHomeAccessoryStateProviderC
++ _symbolic _____ 11WorkflowKit33DefaultHomeAccessoryStateProviderC11NotifyToken33_5C6DE08583E72F8733CECBBEE920547CLLC
++ _symbolic _____ 11WorkflowKit33DefaultHomeAccessoryStateProviderC13InactiveToken33_5C6DE08583E72F8733CECBBEE920547CLLC
++ _symbolic _____ 11WorkflowKit39WFConditionalLegacyPassthroughMigrationC
++ _symbolic _____ 11WorkflowKit39WFConditionalLegacyPassthroughMigrationC15ControlFlowKind33_DEACC46E2F0DBC182B1B2E020547513FLLO
++ _symbolic _____ 11WorkflowKit39WFConditionalLegacyPassthroughMigrationC16ControlFlowGroup33_DEACC46E2F0DBC182B1B2E020547513FLLV
++ _symbolic _____ 11WorkflowKit39WFConditionalLegacyPassthroughMigrationC17ControlFlowBranch33_DEACC46E2F0DBC182B1B2E020547513FLLV
++ _symbolic _____ 11WorkflowKit40WFFileTestingContainerDefinitionProvider33_87626B48751D049A793A016874DF439DLLV
++ _symbolic _____ 11WorkflowKit40WFFileTestingContainerDefinitionProvider33_87626B48751D049A793A016874DF439DLLV5ErrorO
++ _symbolic _____ 7ToolKit0A8DatabaseC
++ _symbolic _____ 7ToolKit0A8DatabaseC08WorkflowB0E20CascadePullStatesKeyV
++ _symbolic _____ 7ToolKit0A8DatabaseC08WorkflowB0E20CascadePullStatesKeyV10CodingKeys33_E4BEF38201BE5E318AB062186A017C5ELLO
++ _symbolic _____ 7ToolKit0A8DatabaseC08WorkflowB0E20CascadePushStatesKeyV
++ _symbolic _____ 7ToolKit0A8DatabaseC08WorkflowB0E20CascadePushStatesKeyV10CodingKeys33_4D453089979306DDB91B672E4E273920LLO
++ _symbolic _____9changeset_ShySSGSg14removedToolIds_____11outstandingSb26escalatedToFullSetDonationt 19VoiceShortcutClient21ToolKitIndexingReasonV9ChangesetO 08WorkflowE018CascadePendingPushV
++ _symbolic _____Iegd_ s5Int64V
++ _symbolic _____Iegr_ s5Int64V
++ _symbolic _____Sg 11WorkflowKit24WFLayoutObservationTokenC
++ _symbolic _____SgXw 11WorkflowKit20WFAppInFocusObserverC
++ _symbolic _____SgXw 11WorkflowKit26WFDebouncerSettleSchedulerC
++ _symbolic _____SgXwz_Xx 11WorkflowKit20WFAppInFocusObserverC
++ _symbolic _____SgXwz_Xx 11WorkflowKit26WFDebouncerSettleSchedulerC
++ _symbolic _____Sg_ABt 7ToolKit19ContainerDefinitionV0C4TypeO
++ _symbolic ______p 11WorkflowKit18WFSettleSchedulingP
++ _symbolic ______p 11WorkflowKit27HomeAccessoryStateProvidingP
++ _symbolic ______p 11WorkflowKit28WFAppScreenPresenceProvidingP
++ _symbolic _____ySDy__________GG 15Synchronization5MutexVAARi_zrlE 11WorkflowKit11WFSettleKeyV AD26WFDebouncerSettleSchedulerC5Entry33_5E2E360943EE47A2CBA9B8BBC9628A8DLLV
++ _symbolic _____ySS4uuid_SS4nametG s23_ContiguousArrayStorageC
++ _symbolic _____ySSSg7persona______7outcometG s23_ContiguousArrayStorageC 11WorkflowKit04ToolE17CascadeSyncEngineC11PullOutcomeV
++ _symbolic _____ySSSg_SbtG s23_ContiguousArrayStorageC
++ _symbolic _____ySS_____G s17_NativeDictionaryV 11WorkflowKit19WFAppScreenPresenceO
++ _symbolic _____ySiSSG s17_NativeDictionaryV
++ _symbolic _____ySiSo19NSMutableDictionaryCG s17_NativeDictionaryV
++ _symbolic _____ySi_____G s17_NativeDictionaryV 11WorkflowKit39WFConditionalLegacyPassthroughMigrationC16ControlFlowGroup33_DEACC46E2F0DBC182B1B2E020547513FLLV
++ _symbolic _____y_____G 15Synchronization5MutexVAARi_zrlE 11WorkflowKit20WFAppInFocusObserverC5State33_5E2E360943EE47A2CBA9B8BBC9628A8DLLV
++ _symbolic _____y_____G s11_SetStorageC s5Int64V
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11WorkflowKit17CascadePullStatesV10CodingKeys33_E4BEF38201BE5E318AB062186A017C5ELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11WorkflowKit17CascadePullTargetV10CodingKeys33_E4BEF38201BE5E318AB062186A017C5ELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11WorkflowKit17CascadePushStatesV10CodingKeys33_4D453089979306DDB91B672E4E273920LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11WorkflowKit17CascadePushTargetV10CodingKeys33_4D453089979306DDB91B672E4E273920LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11WorkflowKit18CascadePendingPullV10CodingKeys33_E4BEF38201BE5E318AB062186A017C5ELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11WorkflowKit18CascadePendingPushV10CodingKeys33_4D453089979306DDB91B672E4E273920LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11WorkflowKit17CascadePullStatesV10CodingKeys33_E4BEF38201BE5E318AB062186A017C5ELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11WorkflowKit17CascadePullTargetV10CodingKeys33_E4BEF38201BE5E318AB062186A017C5ELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11WorkflowKit17CascadePushStatesV10CodingKeys33_4D453089979306DDB91B672E4E273920LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11WorkflowKit17CascadePushTargetV10CodingKeys33_4D453089979306DDB91B672E4E273920LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11WorkflowKit18CascadePendingPullV10CodingKeys33_E4BEF38201BE5E318AB062186A017C5ELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11WorkflowKit18CascadePendingPushV10CodingKeys33_4D453089979306DDB91B672E4E273920LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7ToolKit0D8DatabaseC08WorkflowE0E20CascadePullStatesKeyV10CodingKeys33_E4BEF38201BE5E318AB062186A017C5ELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7ToolKit0D8DatabaseC08WorkflowE0E20CascadePushStatesKeyV10CodingKeys33_4D453089979306DDB91B672E4E273920LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 11WorkflowKit39WFConditionalLegacyPassthroughMigrationC16ControlFlowGroup33_DEACC46E2F0DBC182B1B2E020547513FLLV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 11WorkflowKit39WFConditionalLegacyPassthroughMigrationC17ControlFlowBranch33_DEACC46E2F0DBC182B1B2E020547513FLLV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC So19WFScreenshotTriggerC11WorkflowKitE8LocationO
++ _symbolic _____y_____SSG s17_NativeDictionaryV 11WorkflowKit17CascadePushTargetV
++ _symbolic _____y_____SSG s18_DictionaryStorageC 11WorkflowKit17CascadePushTargetV
++ _symbolic _____y_____SiG s17_NativeDictionaryV s5Int64V
++ _symbolic _____y__________G s17_NativeDictionaryV 11WorkflowKit11WFSettleKeyV AC26WFDebouncerSettleSchedulerC5Entry33_5E2E360943EE47A2CBA9B8BBC9628A8DLLV
++ _symbolic _____y__________G s17_NativeDictionaryV 11WorkflowKit17CascadePullTargetV AC0e7PendingF0V
++ _symbolic _____y__________G s17_NativeDictionaryV 11WorkflowKit17ToolSyncPartitionO AC18CascadePendingPushV
++ _symbolic _____y__________G s18_DictionaryStorageC 11WorkflowKit17CascadePullTargetV AC0e7PendingF0V
++ _symbolic _____y__________G s18_DictionaryStorageC 11WorkflowKit17ToolSyncPartitionO AC18CascadePendingPushV
++ _symbolic _____y______pSgG 2os21OSAllocatedUnfairLockV 11WorkflowKit29HomeAccessoryObservationTokenP
++ _symbolic _____y______pSg_____G s13ManagedBufferCsRi__rlE 11WorkflowKit29HomeAccessoryObservationTokenP So16os_unfair_lock_sV
++ _symbolic ySSc
++ _symbolic yycSg
++ _type_layout_string 11WorkflowKit11WFSettleKeyV
++ _type_layout_string 11WorkflowKit17CascadePullStatesV
++ _type_layout_string 11WorkflowKit17CascadePullTargetV
++ _type_layout_string 11WorkflowKit17CascadePushStatesV
++ _type_layout_string 11WorkflowKit17CascadePushTargetV
++ _type_layout_string 11WorkflowKit18CascadePendingPullV
++ _type_layout_string 11WorkflowKit18CascadePendingPushV
++ _type_layout_string 11WorkflowKit18WFPCCQuotaSnapshotV
++ _type_layout_string 11WorkflowKit20WFAppInFocusObserverC5State33_5E2E360943EE47A2CBA9B8BBC9628A8DLLV
++ _type_layout_string 11WorkflowKit26WFDebouncerSettleSchedulerC5Entry33_5E2E360943EE47A2CBA9B8BBC9628A8DLLV
++ _type_layout_string 11WorkflowKit39WFConditionalLegacyPassthroughMigrationC16ControlFlowGroup33_DEACC46E2F0DBC182B1B2E020547513FLLV
++ _type_layout_string 11WorkflowKit39WFConditionalLegacyPassthroughMigrationC17ControlFlowBranch33_DEACC46E2F0DBC182B1B2E020547513FLLV
+- +[NSUserDefaults(Workflow) watchAutomationEnabled]
+- +[WFAirplaneModeTrigger displayGlyphName]
+- +[WFAirplaneModeTrigger displayGlyphTintColor]
+- +[WFAirplaneModeTrigger isAllowedToRunAutomatically]
+- +[WFAirplaneModeTrigger isSupportedOnThisDevice]
+- +[WFAirplaneModeTrigger isUserInitiated]
+- +[WFAirplaneModeTrigger localizedDisplayExplanationWithContext:]
+- +[WFAirplaneModeTrigger localizedDisplayNameWithContext:]
+- +[WFAirplaneModeTrigger offIconTintColor]
+- +[WFAirplaneModeTrigger offIcon]
+- +[WFAirplaneModeTrigger offLabel]
+- +[WFAirplaneModeTrigger onIconTintColor]
+- +[WFAirplaneModeTrigger onIcon]
+- +[WFAirplaneModeTrigger onLabel]
+- +[WFAirplaneModeTrigger tintColor]
+- +[WFAirplaneModeTrigger triggerBacking]
+- +[WFAlarmTrigger displayGlyphName]
+- +[WFAlarmTrigger displayGlyphTintColor]
+- +[WFAlarmTrigger displayGlyph]
+- +[WFAlarmTrigger isAllowedToRunAutomatically]
+- +[WFAlarmTrigger localizedDisplayExplanationWithContext:]
+- +[WFAlarmTrigger localizedDisplayNameWithContext:]
+- +[WFAlarmTrigger triggerBacking]
+- +[WFAppInBackgroundTrigger displayGlyphName]
+- +[WFAppInBackgroundTrigger isAllowedToRunAutomatically]
+- +[WFAppInBackgroundTrigger isUserInitiated]
+- +[WFAppInBackgroundTrigger localizedDisplayExplanationWithContext:]
+- +[WFAppInBackgroundTrigger localizedDisplayNameWithContext:]
+- +[WFAppInBackgroundTrigger triggerBacking]
+- +[WFAppInFocusTrigger displayGlyphName]
+- +[WFAppInFocusTrigger displayGlyphTintColor]
+- +[WFAppInFocusTrigger isAllowedToRunAutomatically]
+- +[WFAppInFocusTrigger isSupportedOnThisDevice]
+- +[WFAppInFocusTrigger isUserInitiated]
+- +[WFAppInFocusTrigger localizedDisplayExplanationWithContext:]
+- +[WFAppInFocusTrigger localizedDisplayNameWithContext:]
+- +[WFAppInFocusTrigger offIconTintColor]
+- +[WFAppInFocusTrigger offIcon]
+- +[WFAppInFocusTrigger offLabel]
+- +[WFAppInFocusTrigger onIconTintColor]
+- +[WFAppInFocusTrigger onIcon]
+- +[WFAppInFocusTrigger onLabel]
+- +[WFAppInFocusTrigger tintColor]
+- +[WFAppInFocusTrigger triggerBacking]
+- +[WFArriveLocationTrigger displayGlyphHierarchicalColors]
+- +[WFArriveLocationTrigger displayGlyphName]
+- +[WFArriveLocationTrigger localizedDisplayExplanationWithContext:]
+- +[WFArriveLocationTrigger localizedDisplayNameWithContext:]
+- +[WFArriveLocationTrigger triggerBacking]
+- +[WFBatteryLevelTrigger displayGlyphHierarchicalColors]
+- +[WFBatteryLevelTrigger displayGlyphName]
+- +[WFBatteryLevelTrigger isAllowedToRunAutomatically]
+- +[WFBatteryLevelTrigger isSupportedOnThisDevice]
+- +[WFBatteryLevelTrigger localizedDisplayExplanationWithContext:]
+- +[WFBatteryLevelTrigger localizedDisplayNameWithContext:]
+- +[WFBatteryLevelTrigger triggerBacking]
+- +[WFBluetoothTrigger displayGlyphName]
+- +[WFBluetoothTrigger isAllowedToRunAutomatically]
+- +[WFBluetoothTrigger localizedDisplayExplanationWithContext:]
+- +[WFBluetoothTrigger localizedDisplayNameWithContext:]
+- +[WFBluetoothTrigger offIconTintColor]
+- +[WFBluetoothTrigger offIcon]
+- +[WFBluetoothTrigger offLabel]
+- +[WFBluetoothTrigger onIconTintColor]
+- +[WFBluetoothTrigger onIcon]
+- +[WFBluetoothTrigger onLabel]
+- +[WFBluetoothTrigger requiresNotification]
+- +[WFBluetoothTrigger tintColor]
+- +[WFBluetoothTrigger triggerBacking]
+- +[WFCarPlayConnectionTrigger displayGlyphName]
+- +[WFCarPlayConnectionTrigger isAllowedToRunAutomatically]
+- +[WFCarPlayConnectionTrigger isSupportedOnThisDevice]
+- +[WFCarPlayConnectionTrigger isUserInitiated]
+- +[WFCarPlayConnectionTrigger localizedDisplayExplanationWithContext:]
+- +[WFCarPlayConnectionTrigger localizedDisplayNameWithContext:]
+- +[WFCarPlayConnectionTrigger offIcon]
+- +[WFCarPlayConnectionTrigger offLabel]
+- +[WFCarPlayConnectionTrigger onIcon]
+- +[WFCarPlayConnectionTrigger onLabel]
+- +[WFCarPlayConnectionTrigger triggerBacking]
+- +[WFColor(Trigger) batteryOutlineColor]
+- +[WFConfiguredTrigger supportsSecureCoding]
+- +[WFCoreDataTrigger(RecordStorage) recordPropertyMap]
+- +[WFDNDTrigger displayGlyphName]
+- +[WFDNDTrigger displayGlyphTintColor]
+- +[WFDNDTrigger isAllowedToRunAutomatically]
+- +[WFDNDTrigger isUserInitiated]
+- +[WFDNDTrigger localizedDisplayExplanationWithContext:]
+- +[WFDNDTrigger localizedDisplayNameWithContext:]
+- +[WFDNDTrigger offIconTintColor]
+- +[WFDNDTrigger offIcon]
+- +[WFDNDTrigger offLabel]
+- +[WFDNDTrigger onIconTintColor]
+- +[WFDNDTrigger onIcon]
+- +[WFDNDTrigger onLabel]
+- +[WFDNDTrigger tintColor]
+- +[WFDNDTrigger triggerBacking]
+- +[WFEmailTrigger displayGlyphName]
+- +[WFEmailTrigger displayGlyphTintColor]
+- +[WFEmailTrigger displayGlyph]
+- +[WFEmailTrigger isAllowedToRunAutomatically]
+- +[WFEmailTrigger localizedDisplayExplanationWithContext:]
+- +[WFEmailTrigger localizedDisplayNameWithContext:]
+- +[WFEmailTrigger mailBlue]
+- +[WFEmailTrigger requiresNotification]
+- +[WFEmailTrigger shortcutInputContentItemClass]
+- +[WFEmailTrigger triggerBacking]
+- +[WFExternalDisplayTrigger displayGlyphName]
+- +[WFExternalDisplayTrigger isAllowedToRunAutomatically]
+- +[WFExternalDisplayTrigger isSupportedOnThisDevice]
+- +[WFExternalDisplayTrigger isUserInitiated]
+- +[WFExternalDisplayTrigger localizedDisplayExplanationWithContext:]
+- +[WFExternalDisplayTrigger localizedDisplayNameWithContext:]
+- +[WFExternalDisplayTrigger offIconTintColor]
+- +[WFExternalDisplayTrigger offIcon]
+- +[WFExternalDisplayTrigger offLabel]
+- +[WFExternalDisplayTrigger onIconTintColor]
+- +[WFExternalDisplayTrigger onIcon]
+- +[WFExternalDisplayTrigger onLabel]
+- +[WFExternalDisplayTrigger shortcutInputContentItemClass]
+- +[WFExternalDisplayTrigger tintColor]
+- +[WFExternalDisplayTrigger triggerBacking]
+- +[WFImage(Trigger) triggerConfigurationSymbolNamed:hierarchicalColors:]
+- +[WFImage(Trigger) triggerConfigurationSymbolNamed:renderingMode:]
+- +[WFImage(Trigger) triggerConfigurationSymbolNamed:renderingMode:pointSize:]
+- +[WFImage(Trigger) triggerDisplaySymbolNamed:hierarchicalColors:]
+- +[WFImage(Trigger) triggerDisplaySymbolNamed:renderingMode:]
+- +[WFKeyboardTrigger displayGlyphName]
+- +[WFKeyboardTrigger isAllowedToRunAutomatically]
+- +[WFKeyboardTrigger isSupportedOnThisDevice]
+- +[WFKeyboardTrigger localizedDisplayExplanationWithContext:]
+- +[WFKeyboardTrigger localizedDisplayNameWithContext:]
+- +[WFKeyboardTrigger offIconTintColor]
+- +[WFKeyboardTrigger offIcon]
+- +[WFKeyboardTrigger offLabel]
+- +[WFKeyboardTrigger onIconTintColor]
+- +[WFKeyboardTrigger onIcon]
+- +[WFKeyboardTrigger onLabel]
+- +[WFKeyboardTrigger requiresNotification]
+- +[WFKeyboardTrigger tintColor]
+- +[WFKeyboardTrigger triggerBacking]
+- +[WFLeaveLocationTrigger displayGlyphHierarchicalColors]
+- +[WFLeaveLocationTrigger displayGlyphName]
+- +[WFLeaveLocationTrigger localizedDisplayExplanationWithContext:]
+- +[WFLeaveLocationTrigger localizedDisplayNameWithContext:]
+- +[WFLeaveLocationTrigger triggerBacking]
+- +[WFLocationTrigger isAllowedToRunAutomatically]
+- +[WFLocationTrigger isSupportedOnThisDevice]
+- +[WFLocationTrigger requiresNotification]
+- +[WFLocationTrigger timestampDateFormatter]
+- +[WFLowPowerModeTrigger displayGlyphHierarchicalColors]
+- +[WFLowPowerModeTrigger displayGlyphName]
+- +[WFLowPowerModeTrigger isAllowedToRunAutomatically]
+- +[WFLowPowerModeTrigger isSupportedOnThisDevice]
+- +[WFLowPowerModeTrigger isUserInitiated]
+- +[WFLowPowerModeTrigger localizedDisplayExplanationWithContext:]
+- +[WFLowPowerModeTrigger localizedDisplayNameWithContext:]
+- +[WFLowPowerModeTrigger offIcon]
+- +[WFLowPowerModeTrigger offLabel]
+- +[WFLowPowerModeTrigger onIcon]
+- +[WFLowPowerModeTrigger onLabel]
+- +[WFLowPowerModeTrigger triggerBacking]
+- +[WFLowPowerModeTrigger yellowBatteryHierarchicalColors]
+- +[WFMessageTrigger displayGlyphName]
+- +[WFMessageTrigger displayGlyphTintColor]
+- +[WFMessageTrigger displayGlyph]
+- +[WFMessageTrigger isAllowedToRunAutomatically]
+- +[WFMessageTrigger localizedDisplayExplanationWithContext:]
+- +[WFMessageTrigger localizedDisplayNameWithContext:]
+- +[WFMessageTrigger messagesGreen]
+- +[WFMessageTrigger requiresNotification]
+- +[WFMessageTrigger shortcutInputContentItemClass]
+- +[WFMessageTrigger triggerBacking]
+- +[WFNFCTrigger displayGlyphName]
+- +[WFNFCTrigger isAllowedToRunAutomatically]
+- +[WFNFCTrigger isSupportedOnThisDevice]
+- +[WFNFCTrigger isUserInitiated]
+- +[WFNFCTrigger localizedDisplayExplanationWithContext:]
+- +[WFNFCTrigger localizedDisplayNameWithContext:]
+- +[WFNFCTrigger triggerBacking]
+- +[WFNotificationTrigger displayGlyphName]
+- +[WFNotificationTrigger displayGlyphTintColor]
+- +[WFNotificationTrigger isAllowedToRunAutomatically]
+- +[WFNotificationTrigger localizedDisplayExplanation]
+- +[WFNotificationTrigger localizedDisplayNameWithContext:]
+- +[WFNotificationTrigger shortcutInputContentItemClass]
+- +[WFNotificationTrigger triggerBacking]
+- +[WFPlugInTrigger displayGlyphHierarchicalColors]
+- +[WFPlugInTrigger displayGlyphName]
+- +[WFPlugInTrigger isAllowedToRunAutomatically]
+- +[WFPlugInTrigger isSupportedOnThisDevice]
+- +[WFPlugInTrigger isUserInitiated]
+- +[WFPlugInTrigger localizedDisplayExplanationWithContext:]
+- +[WFPlugInTrigger localizedDisplayNameWithContext:]
+- +[WFPlugInTrigger offIcon]
+- +[WFPlugInTrigger offLabel]
+- +[WFPlugInTrigger onIcon]
+- +[WFPlugInTrigger onLabel]
+- +[WFPlugInTrigger pluggedInHierarchicalColors]
+- +[WFPlugInTrigger triggerBacking]
+- +[WFPredictedLocationTransitionTrigger displayGlyph]
+- +[WFPredictedLocationTransitionTrigger isSupportedOnThisDevice]
+- +[WFPredictedLocationTransitionTrigger localizedDisplayExplanationWithContext:]
+- +[WFPredictedLocationTransitionTrigger localizedDisplayNameWithContext:]
+- +[WFPredictedLocationTransitionTrigger triggerBacking]
+- +[WFScreenshotTrigger displayGlyphName]
+- +[WFScreenshotTrigger displayGlyphTintColor]
+- +[WFScreenshotTrigger isAllowedToRunAutomatically]
+- +[WFScreenshotTrigger isSupportedOnThisDevice]
+- +[WFScreenshotTrigger isUserInitiated]
+- +[WFScreenshotTrigger localizedDisplayExplanationWithContext:]
+- +[WFScreenshotTrigger localizedDisplayNameWithContext:]
+- +[WFScreenshotTrigger offIconTintColor]
+- +[WFScreenshotTrigger onIconTintColor]
+- +[WFScreenshotTrigger shortcutInputContentItemClass]
+- +[WFScreenshotTrigger tintColor]
+- +[WFScreenshotTrigger triggerBacking]
+- +[WFSleepTrigger displayGlyphName]
+- +[WFSleepTrigger displayGlyphTintColor]
+- +[WFSleepTrigger isAllowedToRunAutomatically]
+- +[WFSleepTrigger isSupportedOnThisDevice]
+- +[WFSleepTrigger localizedDisplayExplanationWithContext:]
+- +[WFSleepTrigger localizedDisplayNameWithContext:]
+- +[WFSleepTrigger triggerBacking]
+- +[WFSoundRecognitionTrigger displayGlyphCornerRadius]
+- +[WFSoundRecognitionTrigger displayGlyph]
+- +[WFSoundRecognitionTrigger isAllowedToRunAutomatically]
+- +[WFSoundRecognitionTrigger isSupportedOnThisDevice]
+- +[WFSoundRecognitionTrigger localizedDisplayExplanationWithContext:]
+- +[WFSoundRecognitionTrigger localizedDisplayNameWithContext:]
+- +[WFSoundRecognitionTrigger triggerBacking]
+- +[WFStageManagerTrigger displayGlyphName]
+- +[WFStageManagerTrigger isAllowedToRunAutomatically]
+- +[WFStageManagerTrigger isSupportedOnThisDevice]
+- +[WFStageManagerTrigger isUserInitiated]
+- +[WFStageManagerTrigger localizedDisplayExplanationWithContext:]
+- +[WFStageManagerTrigger localizedDisplayNameWithContext:]
+- +[WFStageManagerTrigger offIconTintColor]
+- +[WFStageManagerTrigger offIcon]
+- +[WFStageManagerTrigger offLabel]
+- +[WFStageManagerTrigger onIconTintColor]
+- +[WFStageManagerTrigger onIcon]
+- +[WFStageManagerTrigger onLabel]
+- +[WFStageManagerTrigger tintColor]
+- +[WFStageManagerTrigger triggerBacking]
+- +[WFTimeOfDayTrigger dateFormatter]
+- +[WFTimeOfDayTrigger displayGlyphName]
+- +[WFTimeOfDayTrigger displayGlyph]
+- +[WFTimeOfDayTrigger isAllowedToRunAutomatically]
+- +[WFTimeOfDayTrigger localizedDisplayExplanationWithContext:]
+- +[WFTimeOfDayTrigger localizedDisplayNameWithContext:]
+- +[WFTimeOfDayTrigger localizedRecurrenceDescriptionForDaysOfWeek:dayOfMonth:mode:]
+- +[WFTimeOfDayTrigger localizedSunriseSunsetDescriptionForTriggerEvent:timeOffset:]
+- +[WFTimeOfDayTrigger triggerBacking]
+- +[WFTimeTriggerLogic adjustedTime:byOffset:]
+- +[WFTimeTriggerLogic nextFireDateForTrigger:currentDate:currentSunriseTime:currentSunsetTime:]
+- +[WFTimeTriggerLogic nextFireDateFromNowWithTrigger:currentSunriseTime:currentSunsetTime:]
+- +[WFTimeTriggerLogic nextWeekdayFromDaysOfWeek:timeComponents:currentDate:calendar:]
+- +[WFTrigger displayGlyphCornerRadius]
+- +[WFTrigger displayGlyphHierarchicalColors]
+- +[WFTrigger displayGlyphName]
+- +[WFTrigger displayGlyphTintColor]
+- +[WFTrigger displayGlyph]
+- +[WFTrigger inputTypeDescriptionForClass:]
+- +[WFTrigger isAllowedToRunAutomatically]
+- +[WFTrigger isSupportedOnThisDevice]
+- +[WFTrigger isUserInitiated]
+- +[WFTrigger localizedDisplayExplanationWithContext:]
+- +[WFTrigger localizedDisplayNameWithContext:]
+- +[WFTrigger offIconTintColor]
+- +[WFTrigger offIcon]
+- +[WFTrigger offLabel]
+- +[WFTrigger onIconTintColor]
+- +[WFTrigger onIcon]
+- +[WFTrigger onLabel]
+- +[WFTrigger requiresNotification]
+- +[WFTrigger shortcutInputContentItemClass]
+- +[WFTrigger triggerBacking]
+- +[WFTriggerMetricsEmitter trackAddAutomationWithWorkflowReference:triggerRecord:]
+- +[WFUserFocusActivityTrigger displayGlyphName]
+- +[WFUserFocusActivityTrigger displayGlyphTintColor]
+- +[WFUserFocusActivityTrigger isAllowedToRunAutomatically]
+- +[WFUserFocusActivityTrigger isUserInitiated]
+- +[WFUserFocusActivityTrigger localizedDisplayExplanationWithContext:]
+- +[WFUserFocusActivityTrigger localizedDisplayNameWithContext:]
+- +[WFUserFocusActivityTrigger offIconTintColor]
+- +[WFUserFocusActivityTrigger offLabel]
+- +[WFUserFocusActivityTrigger onIconTintColor]
+- +[WFUserFocusActivityTrigger onLabel]
+- +[WFUserFocusActivityTrigger tintColor]
+- +[WFUserFocusActivityTrigger triggerBacking]
+- +[WFWalletTransactionTrigger displayGlyph]
+- +[WFWalletTransactionTrigger isAllowedToRunAutomatically]
+- +[WFWalletTransactionTrigger isSupportedOnThisDevice]
+- +[WFWalletTransactionTrigger isUserInitiated]
+- +[WFWalletTransactionTrigger localizedDisplayExplanationWithContext:]
+- +[WFWalletTransactionTrigger localizedDisplayNameWithContext:]
+- +[WFWalletTransactionTrigger shortcutInputContentItemClass]
+- +[WFWalletTransactionTrigger triggerBacking]
+- +[WFWifiTrigger displayGlyphName]
+- +[WFWifiTrigger isAllowedToRunAutomatically]
+- +[WFWifiTrigger localizedDisplayExplanationWithContext:]
+- +[WFWifiTrigger localizedDisplayNameWithContext:]
+- +[WFWifiTrigger offIconTintColor]
+- +[WFWifiTrigger offIcon]
+- +[WFWifiTrigger offLabel]
+- +[WFWifiTrigger onIconTintColor]
+- +[WFWifiTrigger onIcon]
+- +[WFWifiTrigger onLabel]
+- +[WFWifiTrigger requiresNotification]
+- +[WFWifiTrigger tintColor]
+- +[WFWifiTrigger triggerBacking]
+- +[WFWorkflowMigrator migrateWorkflowIfNeeded:completion:]
+- +[WFWorkoutTrigger displayGlyphHierarchicalColors]
+- +[WFWorkoutTrigger displayGlyphName]
+- +[WFWorkoutTrigger isAllowedToRunAutomatically]
+- +[WFWorkoutTrigger isUserInitiated]
+- +[WFWorkoutTrigger localizedDisplayExplanationWithContext:]
+- +[WFWorkoutTrigger localizedDisplayNameWithContext:]
+- +[WFWorkoutTrigger offIcon]
+- +[WFWorkoutTrigger offLabel]
+- +[WFWorkoutTrigger onIcon]
+- +[WFWorkoutTrigger onLabel]
+- +[WFWorkoutTrigger stopColor]
+- +[WFWorkoutTrigger triggerBacking]
+- +[WFWorkoutTrigger workoutColors]
+- -[WFAirplaneModeTrigger copyWithZone:]
+- -[WFAirplaneModeTrigger hasValidConfiguration]
+- -[WFAirplaneModeTrigger localizedDescriptionWithConfigurationSummary]
+- -[WFAirplaneModeTrigger localizedPastTenseDescription]
+- -[WFAirplaneModeTrigger(CoreDuetContext) contextStoreKeyPathForCurrentState]
+- -[WFAirplaneModeTrigger(CoreDuetContext) contextStorePredicate]
+- -[WFAirplaneModeTrigger(CoreDuetContext) contextStoreQualityOfService]
+- -[WFAlarmTrigger copyWithZone:]
+- -[WFAlarmTrigger hasValidConfiguration]
+- -[WFAlarmTrigger localizedDescriptionWithConfigurationSummary]
+- -[WFAlarmTrigger localizedPastTenseDescription]
+- -[WFAlarmTrigger suggestedActions]
+- -[WFAppInBackgroundTrigger copyWithZone:]
+- -[WFAppInBackgroundTrigger hasValidConfiguration]
+- -[WFAppInBackgroundTrigger localizedDescriptionWithConfigurationSummary]
+- -[WFAppInBackgroundTrigger localizedPastTenseDescription]
+- -[WFAppInBackgroundTrigger(CoreDuetContext) contextStoreKeyPathForCurrentState]
+- -[WFAppInBackgroundTrigger(CoreDuetContext) contextStorePredicate]
+- -[WFAppInBackgroundTrigger(CoreDuetContext) contextStoreQualityOfService]
+- -[WFAppInFocusTrigger copyWithZone:]
+- -[WFAppInFocusTrigger hasValidConfiguration]
+- -[WFAppInFocusTrigger localizedDescriptionWithConfigurationSummary]
+- -[WFAppInFocusTrigger localizedPastTenseDescription]
+- -[WFAppInFocusTrigger suggestedActions]
+- -[WFArriveLocationTrigger localizedDescriptionWithConfigurationSummary]
+- -[WFArriveLocationTrigger localizedPastTenseDescription]
+- -[WFArriveLocationTrigger(CoreDuetContext) contextStoreKeyPathForCurrentState]
+- -[WFArriveLocationTrigger(CoreDuetContext) contextStorePredicate]
+- -[WFArriveLocationTrigger(CoreDuetContext) contextStoreQualityOfService]
+- -[WFBatteryLevelTrigger copyWithZone:]
+- -[WFBatteryLevelTrigger hasValidConfiguration]
+- -[WFBatteryLevelTrigger localizedDescriptionWithConfigurationSummary]
+- -[WFBatteryLevelTrigger localizedPastTenseDescription]
+- -[WFBatteryLevelTrigger suggestedActions]
+- -[WFBatteryLevelTrigger(CoreDuetContext) contextStoreKeyPathForCurrentState]
+- -[WFBatteryLevelTrigger(CoreDuetContext) contextStorePredicate]
+- -[WFBatteryLevelTrigger(CoreDuetContext) contextStoreQualityOfService]
+- -[WFBluetoothTrigger copyWithZone:]
+- -[WFBluetoothTrigger hasValidConfiguration]
+- -[WFBluetoothTrigger localizedDescriptionWithConfigurationSummary]
+- -[WFBluetoothTrigger localizedPastTenseDescription]
+- -[WFBluetoothTrigger suggestedActions]
+- -[WFBluetoothTrigger(CoreDuetContext) contextStoreKeyPathForCurrentState]
+- -[WFBluetoothTrigger(CoreDuetContext) contextStorePredicate]
+- -[WFBluetoothTrigger(CoreDuetContext) contextStoreQualityOfService]
+- -[WFCarPlayConnectionTrigger copyWithZone:]
+- -[WFCarPlayConnectionTrigger displayGlyphTintColor]
+- -[WFCarPlayConnectionTrigger hasValidConfiguration]
+- -[WFCarPlayConnectionTrigger localizedDescriptionWithConfigurationSummary]
+- -[WFCarPlayConnectionTrigger localizedPastTenseDescription]
+- -[WFCarPlayConnectionTrigger suggestedActions]
+- -[WFConfiguredTrigger .cxx_destruct]
+- -[WFConfiguredTrigger disablementReason]
+- -[WFConfiguredTrigger editableShortcut]
+- -[WFConfiguredTrigger encodeWithCoder:]
+- -[WFConfiguredTrigger hash]
+- -[WFConfiguredTrigger initWithCoder:]
+- -[WFConfiguredTrigger initWithIdentifier:workflowID:trigger:shouldPrompt:shouldNotify:shouldRecur:potentialLoopDetected:enabled:disablementReason:editableShortcut:selectedEntryMetadata:]
+- -[WFConfiguredTrigger initWithIdentifier:workflowID:trigger:shouldPrompt:shouldNotify:shouldRecur:potentialLoopDetected:enabled:disablementReason:triggerSource:notificationLevel:editableShortcut:selectedEntryMetadata:]
+- -[WFConfiguredTrigger isEnabled]
+- -[WFConfiguredTrigger isEqual:]
+- -[WFConfiguredTrigger notificationLevel]
+- -[WFConfiguredTrigger potentialLoopDetected]
+- -[WFConfiguredTrigger selectedEntryMetadata]
+- -[WFConfiguredTrigger setDisablementReason:]
+- -[WFConfiguredTrigger shouldNotify]
+- -[WFConfiguredTrigger shouldPrompt]
+- -[WFConfiguredTrigger shouldRecur]
+- -[WFConfiguredTrigger source]
+- -[WFConfiguredTrigger trigger]
+- -[WFConfiguredTrigger workflowID]
+- -[WFConfiguredTriggerRecord .cxx_destruct]
+- -[WFConfiguredTriggerRecord disablementReason]
+- -[WFConfiguredTriggerRecord editableShortcut]
+- -[WFConfiguredTriggerRecord isEnabled]
+- -[WFConfiguredTriggerRecord notificationLevel]
+- -[WFConfiguredTriggerRecord potentialLoopDetected]
+- -[WFConfiguredTriggerRecord selectedEntryMetadata]
+- -[WFConfiguredTriggerRecord setDisablementReason:]
+- -[WFConfiguredTriggerRecord setEditableShortcut:]
+- -[WFConfiguredTriggerRecord setEnabled:]
+- -[WFConfiguredTriggerRecord setNotificationLevel:]
+- -[WFConfiguredTriggerRecord setPotentialLoopDetected:]
+- -[WFConfiguredTriggerRecord setSelectedEntryMetadata:]
+- -[WFConfiguredTriggerRecord setShouldNotify:]
+- -[WFConfiguredTriggerRecord setShouldPrompt:]
+- -[WFConfiguredTriggerRecord setShouldRecur:]
+- -[WFConfiguredTriggerRecord setSource:]
+- -[WFConfiguredTriggerRecord setTriggerData:]
+- -[WFConfiguredTriggerRecord shouldNotify]
+- -[WFConfiguredTriggerRecord shouldPrompt]
+- -[WFConfiguredTriggerRecord shouldRecur]
+- -[WFConfiguredTriggerRecord source]
+- -[WFConfiguredTriggerRecord triggerData]
+- -[WFCoreDataTrigger(RecordStorage) descriptor]
+- -[WFCoreDataTrigger(RecordStorage) trigger]
+- -[WFDNDTrigger copyWithZone:]
+- -[WFDNDTrigger hasValidConfiguration]
+- -[WFDNDTrigger localizedDescriptionWithConfigurationSummary]
+- -[WFDNDTrigger localizedPastTenseDescription]
+- -[WFDNDTrigger(CoreDuetContext) contextStoreKeyPathForCurrentState]
+- -[WFDNDTrigger(CoreDuetContext) contextStorePredicate]
+- -[WFDNDTrigger(CoreDuetContext) contextStoreQualityOfService]
+- -[WFDatabase markTriggersAsRunAfterConfirmationIfNeeded]
+- -[WFDatabase mergeAutomationsAndShortcuts]
+- -[WFDatabase(Triggers) allConfiguredTriggersNeedingRunningNotifications]
+- -[WFDatabase(Triggers) allConfiguredTriggers]
+- -[WFDatabase(Triggers) associateWorkflowToTrigger:workflow:error:]
+- -[WFDatabase(Triggers) configuredTriggerForTriggerID:]
+- -[WFDatabase(Triggers) configuredTriggersForWorkflowID:]
+- -[WFDatabase(Triggers) createTriggerWithRecord:error:]
+- -[WFDatabase(Triggers) createTriggerWithRecord:workflow:error:]
+- -[WFDatabase(Triggers) triggerResultWithFetchRequest:]
+- -[WFDatabaseProxy configuredTriggerForTriggerID:error:]
+- -[WFDatabaseProxy configuredTriggersForWorkflowID:error:]
+- -[WFEmailTrigger copyWithZone:]
+- -[WFEmailTrigger hasValidConfiguration]
+- -[WFEmailTrigger localizedDescriptionWithConfigurationSummaryWithCount:]
+- -[WFEmailTrigger localizedDescriptionWithConfigurationSummary]
+- -[WFEmailTrigger localizedPastTenseDescription]
+- -[WFEmailTrigger(CoreDuetContext) contextStoreKeyPathForCurrentState]
+- -[WFEmailTrigger(CoreDuetContext) contextStorePredicate]
+- -[WFEmailTrigger(CoreDuetContext) contextStoreQualityOfService]
+- -[WFExternalDisplayTrigger copyWithZone:]
+- -[WFExternalDisplayTrigger hasValidConfiguration]
+- -[WFExternalDisplayTrigger localizedDescriptionWithConfigurationSummary]
+- -[WFExternalDisplayTrigger localizedPastTenseDescription]
+- -[WFExternalDisplayTrigger suggestedActions]
+- -[WFInterchangeAppRegistry init]
+- -[WFInterchangeAppRegistry registryLock]
+- -[WFInterchangeAppRegistry setRegistryLock:]
+- -[WFKeyboardTrigger copyWithZone:]
+- -[WFKeyboardTrigger hasValidConfiguration]
+- -[WFKeyboardTrigger localizedDescriptionWithConfigurationSummary]
+- -[WFKeyboardTrigger localizedPastTenseDescription]
+- -[WFLeaveLocationTrigger localizedDescriptionWithConfigurationSummary]
+- -[WFLeaveLocationTrigger localizedPastTenseDescription]
+- -[WFLeaveLocationTrigger(CoreDuetContext) contextStoreKeyPathForCurrentState]
+- -[WFLeaveLocationTrigger(CoreDuetContext) contextStorePredicate]
+- -[WFLeaveLocationTrigger(CoreDuetContext) contextStoreQualityOfService]
+- -[WFLocationTrigger copyWithZone:]
+- -[WFLocationTrigger hasValidConfiguration]
+- -[WFLocationTrigger isDateWithinTimeRange:]
+- -[WFLocationTrigger(CoreDuetContext) shouldFireTriggerWithEventInfo:error:]
+- -[WFLowPowerModeTrigger copyWithZone:]
+- -[WFLowPowerModeTrigger hasValidConfiguration]
+- -[WFLowPowerModeTrigger localizedDescriptionWithConfigurationSummary]
+- -[WFLowPowerModeTrigger localizedPastTenseDescription]
+- -[WFLowPowerModeTrigger suggestedActions]
+- -[WFLowPowerModeTrigger(CoreDuetContext) contextStoreKeyPathForCurrentState]
+- -[WFLowPowerModeTrigger(CoreDuetContext) contextStorePredicate]
+- -[WFLowPowerModeTrigger(CoreDuetContext) contextStoreQualityOfService]
+- -[WFMessageTrigger copyWithZone:]
+- -[WFMessageTrigger hasValidConfiguration]
+- -[WFMessageTrigger localizedDescriptionWithConfigurationSummaryWithCount:]
+- -[WFMessageTrigger localizedDescriptionWithConfigurationSummary]
+- -[WFMessageTrigger localizedPastTenseDescription]
+- -[WFMessageTrigger(CoreDuetContext) contextStoreKeyPathForCurrentState]
+- -[WFMessageTrigger(CoreDuetContext) contextStorePredicate]
+- -[WFMessageTrigger(CoreDuetContext) contextStoreQualityOfService]
+- -[WFNFCTrigger copyWithZone:]
+- -[WFNFCTrigger hasValidConfiguration]
+- -[WFNFCTrigger localizedDescriptionWithConfigurationSummary]
+- -[WFNFCTrigger localizedPastTenseDescription]
+- -[WFNFCTrigger suggestedActions]
+- -[WFNFCTrigger(CoreDuetContext) contextStoreKeyPathForCurrentState]
+- -[WFNFCTrigger(CoreDuetContext) contextStorePredicate]
+- -[WFNFCTrigger(CoreDuetContext) contextStoreQualityOfService]
+- -[WFNotificationTrigger copyWithZone:]
+- -[WFNotificationTrigger hasValidConfiguration]
+- -[WFNotificationTrigger localizedDescriptionWithConfigurationSummary]
+- -[WFNotificationTrigger localizedPastTenseDescription]
+- -[WFNotificationTrigger suggestedActions]
+- -[WFPlugInTrigger copyWithZone:]
+- -[WFPlugInTrigger hasValidConfiguration]
+- -[WFPlugInTrigger localizedDescriptionWithConfigurationSummary]
+- -[WFPlugInTrigger localizedPastTenseDescription]
+- -[WFPlugInTrigger suggestedActions]
+- -[WFPlugInTrigger(CoreDuetContext) contextStoreKeyPathForCurrentState]
+- -[WFPlugInTrigger(CoreDuetContext) contextStorePredicate]
+- -[WFPlugInTrigger(CoreDuetContext) contextStoreQualityOfService]
+- -[WFPredictedLocationTransitionTrigger copyWithZone:]
+- -[WFPredictedLocationTransitionTrigger creationNavigationTitle]
+- -[WFPredictedLocationTransitionTrigger hasValidConfiguration]
+- -[WFPredictedLocationTransitionTrigger localizedDescriptionWithConfigurationSummary]
+- -[WFPredictedLocationTransitionTrigger localizedPastTenseDescription]
+- -[WFPredictedLocationTransitionTrigger(CoreDuetContext) contextStoreKeyPathForCurrentState]
+- -[WFPredictedLocationTransitionTrigger(CoreDuetContext) contextStorePredicate]
+- -[WFPredictedLocationTransitionTrigger(CoreDuetContext) contextStoreQualityOfService]
+- -[WFPredictedLocationTransitionTrigger(CoreDuetContext) timeIntervalLowerBound]
+- -[WFPredictedLocationTransitionTrigger(CoreDuetContext) timeIntervalUpperBound]
+- -[WFScreenshotTrigger creationNavigationTitle]
+- -[WFScreenshotTrigger hasValidConfiguration]
+- -[WFScreenshotTrigger localizedDescriptionWithConfigurationSummary]
+- -[WFScreenshotTrigger localizedPastTenseDescription]
+- -[WFSleepTrigger copyWithZone:]
+- -[WFSleepTrigger hasValidConfiguration]
+- -[WFSleepTrigger localizedDescriptionWithConfigurationSummary]
+- -[WFSleepTrigger localizedPastTenseDescription]
+- -[WFSleepTrigger(CoreDuetContext) contextStoreKeyPathForCurrentState]
+- -[WFSleepTrigger(CoreDuetContext) contextStorePredicate]
+- -[WFSleepTrigger(CoreDuetContext) contextStoreQualityOfService]
+- -[WFSoundRecognitionTrigger copyWithZone:]
+- -[WFSoundRecognitionTrigger hasValidConfiguration]
+- -[WFStageManagerTrigger copyWithZone:]
+- -[WFStageManagerTrigger hasValidConfiguration]
+- -[WFStageManagerTrigger localizedDescriptionWithConfigurationSummary]
+- -[WFStageManagerTrigger localizedPastTenseDescription]
+- -[WFStageManagerTrigger suggestedActions]
+- -[WFTimeOfDayTrigger copyWithZone:]
+- -[WFTimeOfDayTrigger displayGlyphName]
+- -[WFTimeOfDayTrigger displayGlyphTintColor]
+- -[WFTimeOfDayTrigger displayGlyph]
+- -[WFTimeOfDayTrigger hasValidConfiguration]
+- -[WFTimeOfDayTrigger isEqual:]
+- -[WFTimeOfDayTrigger localizedDescriptionWithConfigurationSummary]
+- -[WFTimeOfDayTrigger localizedPastTenseDescription]
+- -[WFTimeOfDayTrigger suggestedActions]
+- -[WFTimeOfDayTrigger(CoreDuetContext) contextStoreKeyPathForCurrentState]
+- -[WFTimeOfDayTrigger(CoreDuetContext) contextStorePredicate]
+- -[WFTimeOfDayTrigger(CoreDuetContext) contextStoreQualityOfService]
+- -[WFTimeOfDayTrigger(CoreDuetContext) needsRegistrationAfterFiring]
+- -[WFTimeTriggerLogic nextFireDateForTrigger:]
+- -[WFTrigger canEnable]
+- -[WFTrigger copyWithZone:]
+- -[WFTrigger creationNavigationTitle]
+- -[WFTrigger displayGlyphCornerRadius]
+- -[WFTrigger displayGlyphHierarchicalColors]
+- -[WFTrigger displayGlyphName]
+- -[WFTrigger displayGlyphTintColor]
+- -[WFTrigger displayGlyph]
+- -[WFTrigger hasValidConfiguration]
+- -[WFTrigger localizedDescriptionWithConfigurationSummary]
+- -[WFTrigger localizedDisplayExplanationWithContext:]
+- -[WFTrigger localizedDisplayName]
+- -[WFTrigger localizedPastTenseDescription]
+- -[WFTrigger offIcon]
+- -[WFTrigger onIcon]
+- -[WFTrigger suggestedActions]
+- -[WFTrigger uniqueIdentifier]
+- -[WFTrigger(CoreDuetContext) contextStoreKeyPathForCurrentState]
+- -[WFTrigger(CoreDuetContext) contextStorePredicate]
+- -[WFTrigger(CoreDuetContext) contextStoreQualityOfService]
+- -[WFTrigger(CoreDuetContext) contextStoreRegistrationIsForWatch]
+- -[WFTrigger(CoreDuetContext) needsRegistrationAfterFiring]
+- -[WFTrigger(CoreDuetContext) shouldFireTriggerWithEventInfo:error:]
+- -[WFTriggerDisplayInfo .cxx_destruct]
+- -[WFTriggerDisplayInfo actionIcons]
+- -[WFTriggerDisplayInfo initWithLocalizedTitle:localizedDescription:actionIcons:triggerClass:]
+- -[WFTriggerDisplayInfo localizedDescription]
+- -[WFTriggerDisplayInfo localizedTitle]
+- -[WFTriggerDisplayInfo triggerClass]
+- -[WFTriggerManager .cxx_destruct]
+- -[WFTriggerManager allConfiguredTriggers]
+- -[WFTriggerManager associateWorkflowToTriggerID:deletingExistingReference:notifyDaemon:workflowReference:completion:]
+- -[WFTriggerManager configuredTriggerWithID:]
+- -[WFTriggerManager database]
+- -[WFTriggerManager deleteTriggerWithIdentifier:notifyDaemon:completion:]
+- -[WFTriggerManager deleteTriggersWithIdentifiers:notifyDaemon:completion:]
+- -[WFTriggerManager disableAllTriggers]
+- -[WFTriggerManager disableTriggersWithIdentifiers:]
+- -[WFTriggerManager disableTriggersWithIdentifiers:withReason:]
+- -[WFTriggerManager initWithDatabase:]
+- -[WFTriggerManager saveNewConfiguredTrigger:notifyDaemon:completion:]
+- -[WFTriggerManager saveNewConfiguredTrigger:workflow:notifyDaemon:completion:]
+- -[WFTriggerManager saveNewConfiguredTrigger:workflowReference:notifyDaemon:completion:]
+- -[WFTriggerManager storeLoopDetectionForTriggerWithIdentifier:loopDetected:]
+- -[WFTriggerManager updateConfiguredTrigger:triggerID:notifyDaemon:completion:]
+- -[WFTriggerManager updateNotificationLevel:forConfiguredTrigger:error:]
+- -[WFUserFocusActivityTrigger copyWithZone:]
+- -[WFUserFocusActivityTrigger description]
+- -[WFUserFocusActivityTrigger displayGlyphName]
+- -[WFUserFocusActivityTrigger displayGlyphTintColor]
+- -[WFUserFocusActivityTrigger displayGlyph]
+- -[WFUserFocusActivityTrigger hasValidConfiguration]
+- -[WFUserFocusActivityTrigger localizedDescriptionWithConfigurationSummary]
+- -[WFUserFocusActivityTrigger localizedDisplayExplanationWithContext:]
+- -[WFUserFocusActivityTrigger localizedDisplayName]
+- -[WFUserFocusActivityTrigger localizedPastTenseDescription]
+- -[WFUserFocusActivityTrigger offIcon]
+- -[WFUserFocusActivityTrigger onIcon]
+- -[WFUserFocusActivityTrigger suggestedActions]
+- -[WFUserFocusActivityTrigger uniqueIdentifier]
+- -[WFVariableSuggester .cxx_destruct]
+- -[WFVariableSuggester availableVariablesDidChange]
+- -[WFVariableSuggester currentVariables]
+- -[WFVariableSuggester delegate]
+- -[WFVariableSuggester init]
+- -[WFVariableSuggester maxSuggestionsCount]
+- -[WFVariableSuggester minSuggestionsCount]
+- -[WFVariableSuggester outputActions]
+- -[WFVariableSuggester setCurrentVariables:]
+- -[WFVariableSuggester setDelegate:]
+- -[WFVariableSuggester setMaxSuggestionsCount:]
+- -[WFVariableSuggester setMinSuggestionsCount:]
+- -[WFVariableSuggester setOutputActions:]
+- -[WFVariableSuggester setSuggestedVariables:]
+- -[WFVariableSuggester setUserDefinedVariableNames:]
+- -[WFVariableSuggester setVariableProvider:]
+- -[WFVariableSuggester suggestedVariables]
+- -[WFVariableSuggester userDefinedVariableNames]
+- -[WFVariableSuggester variableProvider]
+- -[WFWalletTransactionTrigger copyWithZone:]
+- -[WFWalletTransactionTrigger creationNavigationTitle]
+- -[WFWalletTransactionTrigger description]
+- -[WFWalletTransactionTrigger hasValidConfiguration]
+- -[WFWalletTransactionTrigger isEqual:]
+- -[WFWalletTransactionTrigger localizedDescriptionWithConfigurationSummary]
+- -[WFWalletTransactionTrigger localizedPastTenseDescription]
+- -[WFWalletTransactionTrigger suggestedActions]
+- -[WFWifiTrigger copyWithZone:]
+- -[WFWifiTrigger hasValidConfiguration]
+- -[WFWifiTrigger localizedDescriptionWithConfigurationSummary]
+- -[WFWifiTrigger localizedPastTenseDescription]
+- -[WFWifiTrigger suggestedActions]
+- -[WFWifiTrigger(CoreDuetContext) contextStoreKeyPathForCurrentState]
+- -[WFWifiTrigger(CoreDuetContext) contextStorePredicate]
+- -[WFWifiTrigger(CoreDuetContext) contextStoreQualityOfService]
+- -[WFWorkflow _triggersDidChange]
+- -[WFWorkflow _triggersWillChange]
+- -[WFWorkflow additionalEffectiveInputClassesForTriggers:]
+- -[WFWorkflow createReferenceIfNecessaryWithName:nameCollisionBehavior:allowEmpty:error:]
+- -[WFWorkflow creationOptions]
+- -[WFWorkflow deleteReference]
+- -[WFWorkflow initWithCreationOptions:database:error:]
+- -[WFWorkflow isDeleted]
+- -[WFWorkflow loadTriggers]
+- -[WFWorkflow reloadTriggersIfNecessaryForDatabaseChangeWithModified:inserted:removed:]
+- -[WFWorkflow reloadTriggers]
+- -[WFWorkflow setTriggers:]
+- -[WFWorkflow triggers]
+- -[WFWorkflowMigration completionHandler]
+- -[WFWorkflowMigration finish]
+- -[WFWorkflowMigration migrateWorkflowIfNeeded:completion:]
+- -[WFWorkflowMigration setCompletionHandler:]
+- -[WFWorkflowRecord isDeleted]
+- -[WFWorkflowRecord setDeleted:]
+- -[WFWorkflowReference initWithIdentifier:name:color:glyphCharacter:associatedAppBundleIdentifier:searchAttributionAppBundleIdentifier:subtitle:actionsDescription:actionCount:syncHash:isDeleted:hiddenFromLibraryAndSync:creationDate:modificationDate:lastRunDate:remoteQuarantineStatus:remoteQuarantineHash:showInSearch:receivesInputFromSearch:hasShortcutInputVariables:disabledOnLockScreen:source:runEventsCount:hasOutputAction:]
+- -[WFWorkflowReference isDeleted]
+- -[WFWorkoutTrigger copyWithZone:]
+- -[WFWorkoutTrigger hasValidConfiguration]
+- -[WFWorkoutTrigger localizedDescriptionWithConfigurationSummary]
+- -[WFWorkoutTrigger localizedPastTenseDescription]
+- -[WFWorkoutTrigger suggestedActions]
+- -[WFWritingToolsAvailabilityResource actionsUnavailableError]
+- GCC_except_table10003
+- GCC_except_table10010
+- GCC_except_table10012
+- GCC_except_table10014
+- GCC_except_table10056
+- GCC_except_table10061
+- GCC_except_table10101
+- GCC_except_table10104
+- GCC_except_table10107
+- GCC_except_table10110
+- GCC_except_table10297
+- GCC_except_table10408
+- GCC_except_table10424
+- GCC_except_table10458
+- GCC_except_table10691
+- GCC_except_table10718
+- GCC_except_table10731
+- GCC_except_table10791
+- GCC_except_table10934
+- GCC_except_table11015
+- GCC_except_table11021
+- GCC_except_table11024
+- GCC_except_table11027
+- GCC_except_table11030
+- GCC_except_table11033
+- GCC_except_table11036
+- GCC_except_table11039
+- GCC_except_table11043
+- GCC_except_table11047
+- GCC_except_table11052
+- GCC_except_table11059
+- GCC_except_table11064
+- GCC_except_table11067
+- GCC_except_table11070
+- GCC_except_table11073
+- GCC_except_table11076
+- GCC_except_table11079
+- GCC_except_table11082
+- GCC_except_table11085
+- GCC_except_table11088
+- GCC_except_table11091
+- GCC_except_table11097
+- GCC_except_table11100
+- GCC_except_table11205
+- GCC_except_table11360
+- GCC_except_table11376
+- GCC_except_table11522
+- GCC_except_table11537
+- GCC_except_table11543
+- GCC_except_table11545
+- GCC_except_table11550
+- GCC_except_table11581
+- GCC_except_table11594
+- GCC_except_table11601
+- GCC_except_table1163
+- GCC_except_table11655
+- GCC_except_table11694
+- GCC_except_table11708
+- GCC_except_table11712
+- GCC_except_table11714
+- GCC_except_table11810
+- GCC_except_table11826
+- GCC_except_table11931
+- GCC_except_table11983
+- GCC_except_table12035
+- GCC_except_table12064
+- GCC_except_table12119
+- GCC_except_table12130
+- GCC_except_table12180
+- GCC_except_table12182
+- GCC_except_table12197
+- GCC_except_table12412
+- GCC_except_table1242
+- GCC_except_table12526
+- GCC_except_table12554
+- GCC_except_table12560
+- GCC_except_table12607
+- GCC_except_table12660
+- GCC_except_table12665
+- GCC_except_table12679
+- GCC_except_table12686
+- GCC_except_table12687
+- GCC_except_table12688
+- GCC_except_table12697
+- GCC_except_table12708
+- GCC_except_table12861
+- GCC_except_table12887
+- GCC_except_table12889
+- GCC_except_table12945
+- GCC_except_table12957
+- GCC_except_table12961
+- GCC_except_table13264
+- GCC_except_table1345
+- GCC_except_table13478
+- GCC_except_table1350
+- GCC_except_table13519
+- GCC_except_table13648
+- GCC_except_table13745
+- GCC_except_table13750
+- GCC_except_table13759
+- GCC_except_table13762
+- GCC_except_table13827
+- GCC_except_table13850
+- GCC_except_table13861
+- GCC_except_table13863
+- GCC_except_table13876
+- GCC_except_table13993
+- GCC_except_table14127
+- GCC_except_table14147
+- GCC_except_table14158
+- GCC_except_table14172
+- GCC_except_table14175
+- GCC_except_table14362
+- GCC_except_table14389
+- GCC_except_table14485
+- GCC_except_table1526
+- GCC_except_table1530
+- GCC_except_table1532
+- GCC_except_table1534
+- GCC_except_table1605
+- GCC_except_table1619
+- GCC_except_table1624
+- GCC_except_table1626
+- GCC_except_table1628
+- GCC_except_table1879
+- GCC_except_table1955
+- GCC_except_table2050
+- GCC_except_table2257
+- GCC_except_table2462
+- GCC_except_table2489
+- GCC_except_table2563
+- GCC_except_table2604
+- GCC_except_table2711
+- GCC_except_table2714
+- GCC_except_table2728
+- GCC_except_table2793
+- GCC_except_table2820
+- GCC_except_table2837
+- GCC_except_table2843
+- GCC_except_table3065
+- GCC_except_table3118
+- GCC_except_table3123
+- GCC_except_table3155
+- GCC_except_table3171
+- GCC_except_table3175
+- GCC_except_table3235
+- GCC_except_table3246
+- GCC_except_table3248
+- GCC_except_table3251
+- GCC_except_table3361
+- GCC_except_table3365
+- GCC_except_table3367
+- GCC_except_table3371
+- GCC_except_table3372
+- GCC_except_table3509
+- GCC_except_table3635
+- GCC_except_table3639
+- GCC_except_table368
+- GCC_except_table371
+- GCC_except_table4017
+- GCC_except_table4018
+- GCC_except_table4132
+- GCC_except_table4220
+- GCC_except_table4233
+- GCC_except_table4252
+- GCC_except_table4260
+- GCC_except_table4409
+- GCC_except_table4605
+- GCC_except_table4611
+- GCC_except_table4617
+- GCC_except_table4666
+- GCC_except_table4680
+- GCC_except_table4738
+- GCC_except_table4809
+- GCC_except_table4836
+- GCC_except_table4840
+- GCC_except_table4882
+- GCC_except_table4944
+- GCC_except_table4952
+- GCC_except_table4974
+- GCC_except_table5014
+- GCC_except_table5076
+- GCC_except_table5078
+- GCC_except_table5116
+- GCC_except_table5125
+- GCC_except_table5126
+- GCC_except_table5210
+- GCC_except_table5534
+- GCC_except_table554
+- GCC_except_table5680
+- GCC_except_table5713
+- GCC_except_table5785
+- GCC_except_table5797
+- GCC_except_table5910
+- GCC_except_table5990
+- GCC_except_table6054
+- GCC_except_table6055
+- GCC_except_table6056
+- GCC_except_table6156
+- GCC_except_table6206
+- GCC_except_table6224
+- GCC_except_table650
+- GCC_except_table6580
+- GCC_except_table6593
+- GCC_except_table6629
+- GCC_except_table6630
+- GCC_except_table6692
+- GCC_except_table6693
+- GCC_except_table6698
+- GCC_except_table6699
+- GCC_except_table6702
+- GCC_except_table6708
+- GCC_except_table6713
+- GCC_except_table6718
+- GCC_except_table6719
+- GCC_except_table6759
+- GCC_except_table6764
+- GCC_except_table680
+- GCC_except_table6822
+- GCC_except_table683
+- GCC_except_table6835
+- GCC_except_table685
+- GCC_except_table687
+- GCC_except_table7086
+- GCC_except_table7096
+- GCC_except_table7171
+- GCC_except_table7181
+- GCC_except_table7502
+- GCC_except_table7503
+- GCC_except_table7543
+- GCC_except_table7664
+- GCC_except_table7805
+- GCC_except_table7810
+- GCC_except_table7821
+- GCC_except_table7934
+- GCC_except_table7941
+- GCC_except_table7952
+- GCC_except_table8009
+- GCC_except_table8020
+- GCC_except_table8022
+- GCC_except_table8024
+- GCC_except_table8025
+- GCC_except_table851
+- GCC_except_table8549
+- GCC_except_table8590
+- GCC_except_table8595
+- GCC_except_table8598
+- GCC_except_table8600
+- GCC_except_table8602
+- GCC_except_table8631
+- GCC_except_table8673
+- GCC_except_table8770
+- GCC_except_table8821
+- GCC_except_table9023
+- GCC_except_table9029
+- GCC_except_table9031
+- GCC_except_table9041
+- GCC_except_table9045
+- GCC_except_table9047
+- GCC_except_table9059
+- GCC_except_table9063
+- GCC_except_table9076
+- GCC_except_table9089
+- GCC_except_table9095
+- GCC_except_table9103
+- GCC_except_table9149
+- GCC_except_table9155
+- GCC_except_table9161
+- GCC_except_table925
+- GCC_except_table9300
+- GCC_except_table934
+- GCC_except_table9359
+- GCC_except_table9388
+- GCC_except_table9390
+- GCC_except_table9396
+- GCC_except_table9398
+- GCC_except_table9400
+- GCC_except_table9407
+- GCC_except_table9428
+- GCC_except_table9429
+- GCC_except_table9430
+- GCC_except_table9432
+- GCC_except_table9437
+- GCC_except_table9713
+- GCC_except_table9719
+- GCC_except_table9738
+- GCC_except_table9902
+- GCC_except_table9937
+- OBJC_IVAR_$_WFConfiguredTrigger._disablementReason
+- OBJC_IVAR_$_WFConfiguredTrigger._editableShortcut
+- OBJC_IVAR_$_WFConfiguredTrigger._enabled
+- OBJC_IVAR_$_WFConfiguredTrigger._notificationLevel
+- OBJC_IVAR_$_WFConfiguredTrigger._potentialLoopDetected
+- OBJC_IVAR_$_WFConfiguredTrigger._selectedEntryMetadata
+- OBJC_IVAR_$_WFConfiguredTrigger._shouldNotify
+- OBJC_IVAR_$_WFConfiguredTrigger._shouldPrompt
+- OBJC_IVAR_$_WFConfiguredTrigger._shouldRecur
+- OBJC_IVAR_$_WFConfiguredTrigger._source
+- OBJC_IVAR_$_WFConfiguredTrigger._trigger
+- OBJC_IVAR_$_WFConfiguredTrigger._workflowID
+- OBJC_IVAR_$_WFConfiguredTriggerRecord._disablementReason
+- OBJC_IVAR_$_WFConfiguredTriggerRecord._editableShortcut
+- OBJC_IVAR_$_WFConfiguredTriggerRecord._enabled
+- OBJC_IVAR_$_WFConfiguredTriggerRecord._notificationLevel
+- OBJC_IVAR_$_WFConfiguredTriggerRecord._potentialLoopDetected
+- OBJC_IVAR_$_WFConfiguredTriggerRecord._selectedEntryMetadata
+- OBJC_IVAR_$_WFConfiguredTriggerRecord._shouldNotify
+- OBJC_IVAR_$_WFConfiguredTriggerRecord._shouldPrompt
+- OBJC_IVAR_$_WFConfiguredTriggerRecord._shouldRecur
+- OBJC_IVAR_$_WFConfiguredTriggerRecord._source
+- OBJC_IVAR_$_WFConfiguredTriggerRecord._triggerData
+- OBJC_IVAR_$_WFTriggerDisplayInfo._actionIcons
+- OBJC_IVAR_$_WFTriggerDisplayInfo._localizedDescription
+- OBJC_IVAR_$_WFTriggerDisplayInfo._localizedTitle
+- OBJC_IVAR_$_WFTriggerDisplayInfo._triggerClass
+- OBJC_IVAR_$_WFTriggerManager._database
+- OBJC_IVAR_$_WFVariableSuggester._currentVariables
+- OBJC_IVAR_$_WFVariableSuggester._delegate
+- OBJC_IVAR_$_WFVariableSuggester._maxSuggestionsCount
+- OBJC_IVAR_$_WFVariableSuggester._minSuggestionsCount
+- OBJC_IVAR_$_WFVariableSuggester._outputActions
+- OBJC_IVAR_$_WFVariableSuggester._suggestedVariables
+- OBJC_IVAR_$_WFVariableSuggester._userDefinedVariableNames
+- OBJC_IVAR_$_WFVariableSuggester._variableProvider
+- OBJC_IVAR_$_WFWorkflow._creationOptions
+- OBJC_IVAR_$_WFWorkflow._triggers
+- OBJC_IVAR_$_WFWorkflowMigration._completionHandler
+- OBJC_IVAR_$_WFWorkflowRecord._deleted
+- OBJC_IVAR_$_WFWorkflowReference._isDeleted
+- UIKitLibraryCore.frameworkLibrary
+- _ACAccountTypeIdentifierAol
+- _ACAccountTypeIdentifierGmail
+- _ACAccountTypeIdentifierHotmail
+- _ACAccountTypeIdentifierYahoo
+- _OBJC_CLASS_$_OS_os_log
+- _OBJC_CLASS_$_WFConfiguredTrigger
+- _OBJC_CLASS_$_WFConfiguredTriggerRecord
+- _OBJC_CLASS_$_WFTimeTriggerLogic
+- _OBJC_CLASS_$_WFTriggerDirectoryBridge
+- _OBJC_CLASS_$_WFTriggerDisplayInfo
+- _OBJC_CLASS_$_WFTriggerManager
+- _OBJC_CLASS_$_WFVariableSuggester
+- _OBJC_CLASS_$__TtC11WorkflowKit18WFTriggerDirectory
+- _OBJC_CLASS_$__TtC11WorkflowKit20WFTriggerInputAction
+- _OBJC_CLASS_$__TtC11WorkflowKit27WFUseModelWebSearchResource
+- _OBJC_METACLASS_$_WFConfiguredTrigger
+- _OBJC_METACLASS_$_WFConfiguredTriggerRecord
+- _OBJC_METACLASS_$_WFTimeTriggerLogic
+- _OBJC_METACLASS_$_WFTriggerDirectoryBridge
+- _OBJC_METACLASS_$_WFTriggerDisplayInfo
+- _OBJC_METACLASS_$_WFTriggerManager
+- _OBJC_METACLASS_$_WFVariableSuggester
+- _OBJC_METACLASS_$__TtC11WorkflowKit18WFTriggerDirectory
+- _OBJC_METACLASS_$__TtC11WorkflowKit20WFTriggerInputAction
+- _OBJC_METACLASS_$__TtC11WorkflowKit27WFUseModelWebSearchResource
+- _WFAllTriggerNotificationUserInfoForDisablingTriggers
+- _WFDeviceCapabilityStageManager
+- _WFPassTypeToLocalizedDescriptionWithTrigger
+- _WFShortcutsAutomationsMergeEnabledKey
+- _WFTriggerDisplayInfoToDisableFromNotificationUserInfo
+- _WFTriggerIDsToDisableNotificationUserInfoFromTriggers
+- _WFTriggerNotificationUserInfoForDisabling
+- _WFWalletTransactionTriggerLocalizedDescriptionWithConfigurationSummary
+- _WFWalletTransactionTriggerLocalizedPastTenseDescription
+- __CLASS_METHODS_WFTriggerDirectoryBridge
+- __CLASS_METHODS__TtC11WorkflowKit27WFUseModelWebSearchResource
+- __DATA_WFTriggerDirectoryBridge
+- __DATA__TtC11WorkflowKit18WFTriggerDirectory
+- __DATA__TtC11WorkflowKit20WFTriggerInputAction
+- __DATA__TtC11WorkflowKit27WFUseModelWebSearchResource
+- __INSTANCE_METHODS_WFTriggerDirectoryBridge
+- __INSTANCE_METHODS__TtC11WorkflowKit18WFTriggerDirectory
+- __INSTANCE_METHODS__TtC11WorkflowKit20WFTriggerInputAction
+- __INSTANCE_METHODS__TtC11WorkflowKit27WFUseModelWebSearchResource
+- __IVARS__TtC11WorkflowKit20WFTriggerInputAction
+- __METACLASS_DATA_WFTriggerDirectoryBridge
+- __METACLASS_DATA__TtC11WorkflowKit18WFTriggerDirectory
+- __METACLASS_DATA__TtC11WorkflowKit20WFTriggerInputAction
+- __METACLASS_DATA__TtC11WorkflowKit27WFUseModelWebSearchResource
+- __OBJC_$_CATEGORY_CLASS_METHODS_WFColor_$_Trigger
+- __OBJC_$_CATEGORY_WFColor_$_Trigger
+- __OBJC_$_CATEGORY_WFImage_$_Trigger
+- __OBJC_$_CLASS_METHODS_WFArriveLocationTrigger
+- __OBJC_$_CLASS_METHODS_WFConfiguredTrigger
+- __OBJC_$_CLASS_METHODS_WFCoreDataTrigger(RecordStorage|CoreDataProperties)
+- __OBJC_$_CLASS_METHODS_WFEmailTrigger(ContentInput|CoreDuetContext)
+- __OBJC_$_CLASS_METHODS_WFImage(Trigger|WorkflowKit)
+- __OBJC_$_CLASS_METHODS_WFLeaveLocationTrigger
+- __OBJC_$_CLASS_METHODS_WFMessageTrigger(ContentInput|CoreDuetContext)
+- __OBJC_$_CLASS_METHODS_WFTimeTriggerLogic
+- __OBJC_$_CLASS_METHODS_WFTrigger(ContentInput|PowerLog|CoreDuetContext)
+- __OBJC_$_INSTANCE_METHODS_WFAirplaneModeTrigger(CoreDuetContext)
+- __OBJC_$_INSTANCE_METHODS_WFAppInBackgroundTrigger(CoreDuetContext)
+- __OBJC_$_INSTANCE_METHODS_WFArriveLocationTrigger(CoreDuetContext)
+- __OBJC_$_INSTANCE_METHODS_WFBatteryLevelTrigger(CoreDuetContext)
+- __OBJC_$_INSTANCE_METHODS_WFBluetoothTrigger(CoreDuetContext)
+- __OBJC_$_INSTANCE_METHODS_WFConfiguredTrigger
+- __OBJC_$_INSTANCE_METHODS_WFConfiguredTriggerRecord
+- __OBJC_$_INSTANCE_METHODS_WFCoreDataTrigger(RecordStorage|CoreDataProperties)
+- __OBJC_$_INSTANCE_METHODS_WFDNDTrigger(CoreDuetContext)
+- __OBJC_$_INSTANCE_METHODS_WFEmailTrigger(ContentInput|CoreDuetContext)
+- __OBJC_$_INSTANCE_METHODS_WFLeaveLocationTrigger(CoreDuetContext)
+- __OBJC_$_INSTANCE_METHODS_WFLocationTrigger(CoreDuetContext)
+- __OBJC_$_INSTANCE_METHODS_WFLowPowerModeTrigger(CoreDuetContext)
+- __OBJC_$_INSTANCE_METHODS_WFMessageTrigger(ContentInput|CoreDuetContext)
+- __OBJC_$_INSTANCE_METHODS_WFNFCTrigger(CoreDuetContext)
+- __OBJC_$_INSTANCE_METHODS_WFPlugInTrigger(CoreDuetContext)
+- __OBJC_$_INSTANCE_METHODS_WFPredictedLocationTransitionTrigger(CoreDuetContext)
+- __OBJC_$_INSTANCE_METHODS_WFScreenshotTrigger
+- __OBJC_$_INSTANCE_METHODS_WFSleepTrigger(CoreDuetContext)
+- __OBJC_$_INSTANCE_METHODS_WFTimeOfDayTrigger(CoreDuetContext)
+- __OBJC_$_INSTANCE_METHODS_WFTimeTriggerLogic
+- __OBJC_$_INSTANCE_METHODS_WFTrigger(ContentInput|PowerLog|CoreDuetContext)
+- __OBJC_$_INSTANCE_METHODS_WFTriggerDisplayInfo
+- __OBJC_$_INSTANCE_METHODS_WFTriggerManager
+- __OBJC_$_INSTANCE_METHODS_WFVariableSuggester
+- __OBJC_$_INSTANCE_METHODS_WFWifiTrigger(CoreDuetContext)
+- __OBJC_$_INSTANCE_VARIABLES_WFConfiguredTrigger
+- __OBJC_$_INSTANCE_VARIABLES_WFConfiguredTriggerRecord
+- __OBJC_$_INSTANCE_VARIABLES_WFTriggerDisplayInfo
+- __OBJC_$_INSTANCE_VARIABLES_WFTriggerManager
+- __OBJC_$_INSTANCE_VARIABLES_WFVariableSuggester
+- __OBJC_$_PROP_LIST_WFConfiguredTrigger
+- __OBJC_$_PROP_LIST_WFConfiguredTriggerRecord
+- __OBJC_$_PROP_LIST_WFTriggerDisplayInfo
+- __OBJC_$_PROP_LIST_WFTriggerManager
+- __OBJC_$_PROP_LIST_WFVariableSuggester
+- __OBJC_CLASS_PROTOCOLS_$_WFCoreDataTrigger(RecordStorage|CoreDataProperties)
+- __OBJC_CLASS_RO_$_WFConfiguredTrigger
+- __OBJC_CLASS_RO_$_WFConfiguredTriggerRecord
+- __OBJC_CLASS_RO_$_WFTimeTriggerLogic
+- __OBJC_CLASS_RO_$_WFTriggerDisplayInfo
+- __OBJC_CLASS_RO_$_WFTriggerManager
+- __OBJC_CLASS_RO_$_WFVariableSuggester
+- __OBJC_METACLASS_RO_$_WFConfiguredTrigger
+- __OBJC_METACLASS_RO_$_WFConfiguredTriggerRecord
+- __OBJC_METACLASS_RO_$_WFTimeTriggerLogic
+- __OBJC_METACLASS_RO_$_WFTriggerDisplayInfo
+- __OBJC_METACLASS_RO_$_WFTriggerManager
+- __OBJC_METACLASS_RO_$_WFVariableSuggester
+- __PROPERTIES__TtC11WorkflowKit20WFTriggerInputAction
+- ___117-[WFTriggerManager associateWorkflowToTriggerID:deletingExistingReference:notifyDaemon:workflowReference:completion:]_block_invoke
+- ___32-[WFWorkflow _triggersDidChange]_block_invoke
+- ___35+[WFTimeOfDayTrigger dateFormatter]_block_invoke
+- ___35-[WFWorkflowFile migrateRootObject]_block_invoke
+- ___38-[WFTriggerManager disableAllTriggers]_block_invoke
+- ___41-[WFNotificationTrigger suggestedActions]_block_invoke
+- ___43+[WFLocationTrigger timestampDateFormatter]_block_invoke
+- ___46-[WFWalletTransactionTrigger suggestedActions]_block_invoke
+- ___50-[WFVariableSuggester availableVariablesDidChange]_block_invoke
+- ___50-[WFVariableSuggester availableVariablesDidChange]_block_invoke_2
+- ___50-[WFVariableSuggester availableVariablesDidChange]_block_invoke_3
+- ___54-[WFDatabase(Triggers) configuredTriggerForTriggerID:]_block_invoke
+- ___54-[WFDatabase(Triggers) createTriggerWithRecord:error:]_block_invoke
+- ___55-[WFDatabaseProxy configuredTriggerForTriggerID:error:]_block_invoke
+- ___55-[WFDatabaseProxy configuredTriggerForTriggerID:error:]_block_invoke_2
+- ___56-[WFDatabase markTriggersAsRunAfterConfirmationIfNeeded]_block_invoke
+- ___57+[WFWorkflowMigrator migrateWorkflowIfNeeded:completion:]_block_invoke
+- ___57+[WFWorkflowMigrator migrateWorkflowIfNeeded:completion:]_block_invoke_2
+- ___57+[WFWorkflowMigrator migrateWorkflowIfNeeded:completion:]_block_invoke_3
+- ___57+[WFWorkflowMigrator migrateWorkflowIfNeeded:completion:]_block_invoke_4
+- ___57+[WFWorkflowMigrator migrateWorkflowIfNeeded:completion:]_block_invoke_5
+- ___57-[WFDatabaseProxy configuredTriggersForWorkflowID:error:]_block_invoke
+- ___57-[WFDatabaseProxy configuredTriggersForWorkflowID:error:]_block_invoke_2
+- ___62-[WFTriggerManager disableTriggersWithIdentifiers:withReason:]_block_invoke
+- ___63-[WFDatabase(Triggers) createTriggerWithRecord:workflow:error:]_block_invoke
+- ___66-[WFDatabase(Triggers) associateWorkflowToTrigger:workflow:error:]_block_invoke
+- ___69-[WFTriggerManager saveNewConfiguredTrigger:notifyDaemon:completion:]_block_invoke
+- ___74-[WFTriggerManager deleteTriggersWithIdentifiers:notifyDaemon:completion:]_block_invoke
+- ___78-[WFTriggerManager saveNewConfiguredTrigger:workflow:notifyDaemon:completion:]_block_invoke
+- ___82+[WFTimeOfDayTrigger localizedRecurrenceDescriptionForDaysOfWeek:dayOfMonth:mode:]_block_invoke
+- ___84+[WFTimeTriggerLogic nextWeekdayFromDaysOfWeek:timeComponents:currentDate:calendar:]_block_invoke
+- ___86-[WFWorkflow reloadTriggersIfNecessaryForDatabaseChangeWithModified:inserted:removed:]_block_invoke
+- ___86-[WFWorkflow reloadTriggersIfNecessaryForDatabaseChangeWithModified:inserted:removed:]_block_invoke_2
+- ___86-[WFWorkflow reloadTriggersIfNecessaryForDatabaseChangeWithModified:inserted:removed:]_block_invoke_3
+- ___86-[WFWorkflow reloadTriggersIfNecessaryForDatabaseChangeWithModified:inserted:removed:]_block_invoke_4
+- ___86-[WFWorkflow reloadTriggersIfNecessaryForDatabaseChangeWithModified:inserted:removed:]_block_invoke_5
+- ___87-[WFTriggerManager saveNewConfiguredTrigger:workflowReference:notifyDaemon:completion:]_block_invoke
+- ___88-[WFWorkflow createReferenceIfNecessaryWithName:nameCollisionBehavior:allowEmpty:error:]_block_invoke
+- ___UIKitLibraryCore_block_invoke
+- ___WFTriggerDisplayInfoToDisableFromNotificationUserInfo_block_invoke
+- ___WFTriggerIDsToDisableNotificationUserInfoFromTriggers_block_invoke
+- ___WFTriggerNotificationUserInfoForDisabling_block_invoke
+- ___block_descriptor_32_e29_"WFIcon"24?0"WFAction"8Q16l
+- ___block_descriptor_32_e42_"NSString"24?0"WFConfiguredTrigger"8Q16l
+- ___block_descriptor_32_e47_"WFTriggerDisplayInfo"24?0"NSDictionary"8Q16l
+- ___block_descriptor_40_e8_32r_e31_v24?0"WFCoreDataTrigger"8^16lr32l8
+- ___block_descriptor_40_e8_32s_e29_B16?0"WFConfiguredTrigger"8ls32l8
+- ___block_descriptor_40_e8_32s_e31_"NSString"24?0"NSNumber"8Q16ls32l8
+- ___block_descriptor_40_e8_32s_e46_"NSDictionary"24?0"WFConfiguredTrigger"8Q16ls32l8
+- ___block_descriptor_48_e8_32r40r_e41_v24?0"WFConfiguredTrigger"8"NSError"16lr32l8r40l8
+- ___block_descriptor_48_e8_32s40bs_e15_v16?0"NSSet"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e30_"WFConfiguredTrigger"16?0^8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e34_v40?0#8Q16?<v?"NSError">24^B32ls32l8s40l8
+- ___block_descriptor_56_e8_32s40s48r_e35_v28?0B8"NSDictionary"12"NSSet"20lr48l8s32l8s40l8
+- ___block_descriptor_56_e8_32s40s48s_e30_"WFConfiguredTrigger"16?0^8ls32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s48r56r_e9_v16?0^8lr48l8s32l8s40l8r56l8
+- ___block_descriptor_64_e8_32s40s48s56r_e9_v16?0^8ls32l8s40l8s48l8r56l8
+- ___block_descriptor_64_e8_32s40s48s_e27_"NSArray"16?0"NSNumber"8ls32l8s40l8s48l8
+- ___block_descriptor_65_e8_32s40s48s56r_e9_v16?0^8ls32l8s40l8r56l8s48l8
+- ___block_descriptor_72_e8_32s40s48s56r64r_e9_v16?0^8lr56l8s32l8s40l8s48l8r64l8
+- ___block_descriptor_80_e8_32s40s48s56r64r72r_e9_v16?0^8lr56l8s32l8s40l8r64l8r72l8s48l8
+- ___block_descriptor_88_e8_32s40s48s56s64s72s80bs_e16_v16?0"NSData"8ls32l8s40l8s48l8s56l8s64l8s72l8s80l8
+- ___block_descriptor_88_e8_32s40s48s56s64s72s80bs_e35_v16?0"WFStepwiseExecutionResult"8ls32l8s40l8s48l8s56l8s64l8s80l8s72l8
+- ___getUIColorClass_block_invoke
+- __swift_closure_destructor.139Tm
+- __swift_closure_destructor.161Tm
+- __swift_closure_destructor.5Tm
+- __swift_closure_destructor.62Tm
+- __swift_closure_destructor.95Tm
+- _audit_stringUIKit
+- _getWFTriggerNotificationsLogObject
+- _objc_msgSend$_triggersDidChange
+- _objc_msgSend$_triggersWillChange
+- _objc_msgSend$actionsUnavailableError
+- _objc_msgSend$additionalEffectiveInputClassesForTriggers:
+- _objc_msgSend$adjustedTime:byOffset:
+- _objc_msgSend$allConfiguredTriggers
+- _objc_msgSend$appUsageBundleID
+- _objc_msgSend$areWritingToolsActionsHiddenInCurrentRegion
+- _objc_msgSend$associateWorkflowToTrigger:workflow:error:
+- _objc_msgSend$batteryOutlineColor
+- _objc_msgSend$colorWithRed:green:blue:alpha:
+- _objc_msgSend$component:fromDate:
+- _objc_msgSend$configurationWithPointSize:hierarchicalColors:
+- _objc_msgSend$configuredTriggerForTriggerID:
+- _objc_msgSend$configuredTriggersForWorkflowID:
+- _objc_msgSend$configuredTriggersForWorkflowID:error:
+- _objc_msgSend$containsDate:
+- _objc_msgSend$contextStoreKeyPathForCurrentState
+- _objc_msgSend$contextStorePredicate
+- _objc_msgSend$contextStoreQualityOfService
+- _objc_msgSend$contextStoreRegistrationIsForWatch
+- _objc_msgSend$createReferenceIfNecessaryWithName:nameCollisionBehavior:allowEmpty:error:
+- _objc_msgSend$createTriggerWithRecord:error:
+- _objc_msgSend$createTriggerWithRecord:workflow:error:
+- _objc_msgSend$currentVariables
+- _objc_msgSend$deleteReference
+- _objc_msgSend$disableTriggersWithIdentifiers:
+- _objc_msgSend$disableTriggersWithIdentifiers:withReason:
+- _objc_msgSend$disablementReason
+- _objc_msgSend$displayGlyph
+- _objc_msgSend$displayGlyphCornerRadius
+- _objc_msgSend$displayGlyphHierarchicalColors
+- _objc_msgSend$displayGlyphName
+- _objc_msgSend$displayGlyphTintColor
+- _objc_msgSend$doNotDisturbState
+- _objc_msgSend$editableShortcut
+- _objc_msgSend$encodeInt:forKey:
+- _objc_msgSend$enteringSymbolForSymbolName:
+- _objc_msgSend$exitingSymbolForSymbolName:
+- _objc_msgSend$getConfiguredTriggerForTriggerID:completion:
+- _objc_msgSend$getConfiguredTriggersForWorkflowID:completion:
+- _objc_msgSend$initWithIdentifier:isFolder:name:glyphCharacter:isDeleted:
+- _objc_msgSend$initWithIdentifier:name:color:glyphCharacter:associatedAppBundleIdentifier:searchAttributionAppBundleIdentifier:subtitle:actionsDescription:actionCount:syncHash:isDeleted:hiddenFromLibraryAndSync:creationDate:modificationDate:lastRunDate:remoteQuarantineStatus:remoteQuarantineHash:showInSearch:receivesInputFromSearch:hasShortcutInputVariables:disabledOnLockScreen:source:runEventsCount:hasOutputAction:
+- _objc_msgSend$initWithIdentifier:workflowID:trigger:shouldPrompt:shouldNotify:shouldRecur:potentialLoopDetected:enabled:disablementReason:triggerSource:notificationLevel:editableShortcut:selectedEntryMetadata:
+- _objc_msgSend$initWithLocalizedTitle:localizedDescription:actionIcons:triggerClass:
+- _objc_msgSend$initWithPlatformColor:
+- _objc_msgSend$initWithStartDate:duration:
+- _objc_msgSend$inputTypeDescriptionForClass:
+- _objc_msgSend$isAllowedToRunAutomatically
+- _objc_msgSend$isDateWithinTimeRange:
+- _objc_msgSend$isDeleted
+- _objc_msgSend$isEligibleForAutomaticDeletion
+- _objc_msgSend$isSupportedOnThisDevice
+- _objc_msgSend$keyPathForAirplaneModeStatus
+- _objc_msgSend$keyPathForAppUsageDataDictionaries
+- _objc_msgSend$keyPathForBluetoothDataDictionary
+- _objc_msgSend$keyPathForDoNotDisturbStatusDataDictionary
+- _objc_msgSend$keyPathForLowPowerModeStatus
+- _objc_msgSend$keyPathForNFCTagIdentifiers
+- _objc_msgSend$keyPathForPredictedLocationOfInterestTransitions
+- _objc_msgSend$keyPathForWiFiConnectionSSID
+- _objc_msgSend$keyPathWithKey:
+- _objc_msgSend$launchReason
+- _objc_msgSend$loadTriggers
+- _objc_msgSend$localizedDescriptionWithConfigurationSummary
+- _objc_msgSend$localizedDescriptionWithConfigurationSummaryWithCount:
+- _objc_msgSend$localizedDisplayExplanationWithContext:
+- _objc_msgSend$localizedDisplayNameWithContext:
+- _objc_msgSend$localizedRecurrenceDescriptionForDaysOfWeek:dayOfMonth:mode:
+- _objc_msgSend$localizedSunriseSunsetDescriptionForTriggerEvent:timeOffset:
+- _objc_msgSend$localizedWiFiDisplayName
+- _objc_msgSend$locationOfInterestTypeKey
+- _objc_msgSend$mailBlue
+- _objc_msgSend$markTriggersAsRunAfterConfirmationIfNeeded
+- _objc_msgSend$maxSuggestionsCount
+- _objc_msgSend$mergeAutomationsAndShortcuts
+- _objc_msgSend$messagesGreen
+- _objc_msgSend$migrateWorkflowIfNeeded:completion:
+- _objc_msgSend$minSuggestionsCount
+- _objc_msgSend$nextFireDateForTrigger:currentDate:currentSunriseTime:currentSunsetTime:
+- _objc_msgSend$nextFireDateFromNowWithTrigger:currentSunriseTime:currentSunsetTime:
+- _objc_msgSend$nextWeekdayFromDaysOfWeek:timeComponents:currentDate:calendar:
+- _objc_msgSend$now
+- _objc_msgSend$numberWithFloat:
+- _objc_msgSend$outputActions
+- _objc_msgSend$pluggedInHierarchicalColors
+- _objc_msgSend$potentialLoopDetected
+- _objc_msgSend$registryLock
+- _objc_msgSend$reloadTriggers
+- _objc_msgSend$reloadTriggersIfNecessaryForDatabaseChangeWithModified:inserted:removed:
+- _objc_msgSend$selectedEntryMetadata
+- _objc_msgSend$setActivityGlyphName:
+- _objc_msgSend$setActivityName:
+- _objc_msgSend$setActivityTintColor:
+- _objc_msgSend$setActivityUniqueIdentifier:
+- _objc_msgSend$setDaysOfWeek:
+- _objc_msgSend$setDeleted:
+- _objc_msgSend$setDisablementReason:
+- _objc_msgSend$setEditableShortcut:
+- _objc_msgSend$setEvent:
+- _objc_msgSend$setFolderIdentifier:
+- _objc_msgSend$setOnConnect:
+- _objc_msgSend$setOnDisconnect:
+- _objc_msgSend$setOnEnd:
+- _objc_msgSend$setOnStart:
+- _objc_msgSend$setPotentialLoopDetected:
+- _objc_msgSend$setRunAfterConnectionInterruption:
+- _objc_msgSend$setSelectedAccountDescriptions:
+- _objc_msgSend$setSelectedAccountIdentifiers:
+- _objc_msgSend$setSelectedContents:
+- _objc_msgSend$setSelectedDevices:
+- _objc_msgSend$setSelectedEntryMetadata:
+- _objc_msgSend$setSelectedMerchantTypes:
+- _objc_msgSend$setSelectedMerchants:
+- _objc_msgSend$setSelectedNetworks:
+- _objc_msgSend$setSelectedPassUniqueIDs:
+- _objc_msgSend$setSelectedRecipients:
+- _objc_msgSend$setSelectedSenders:
+- _objc_msgSend$setSelectedSendersStrings:
+- _objc_msgSend$setSelectedSubject:
+- _objc_msgSend$setSelectedWorkoutTypes:
+- _objc_msgSend$setShouldNotify:
+- _objc_msgSend$setShouldPrompt:
+- _objc_msgSend$setShouldRecur:
+- _objc_msgSend$setSoundDetectionTypes:
+- _objc_msgSend$setSuggestedVariables:
+- _objc_msgSend$setTagIdentifier:
+- _objc_msgSend$setTime:
+- _objc_msgSend$setTimeOffset:
+- _objc_msgSend$setTriggerData:
+- _objc_msgSend$setWeekday:
+- _objc_msgSend$shortStandaloneWeekdaySymbols
+- _objc_msgSend$shouldRecur
+- _objc_msgSend$standaloneWeekdaySymbols
+- _objc_msgSend$stopColor
+- _objc_msgSend$storageState
+- _objc_msgSend$systemIndigoColor
+- _objc_msgSend$timeIntervalLowerBound
+- _objc_msgSend$timeIntervalUpperBound
+- _objc_msgSend$timestampDateFormatter
+- _objc_msgSend$trackAddAutomationWithActionCount:source:triggerType:shortcutIdentifier:showsNotification:requiresRuntimeConfirmation:
+- _objc_msgSend$transitionWithinTimeIntervalKey
+- _objc_msgSend$triggerBacking
+- _objc_msgSend$triggerConfigurationSymbolNamed:hierarchicalColors:
+- _objc_msgSend$triggerConfigurationSymbolNamed:renderingMode:
+- _objc_msgSend$triggerConfigurationSymbolNamed:renderingMode:pointSize:
+- _objc_msgSend$triggerData
+- _objc_msgSend$triggerDisplaySymbolNamed:hierarchicalColors:
+- _objc_msgSend$triggerDisplaySymbolNamed:renderingMode:
+- _objc_msgSend$triggerResultWithFetchRequest:
+- _objc_msgSend$tryLock
+- _objc_msgSend$userDefinedVariableNames
+- _objc_msgSend$variableSuggesterSuggestionsDidChange:
+- _objc_msgSend$wf_weekdays
+- _objc_msgSend$wf_weekendDays
+- _objc_msgSend$wf_workweekDays
+- _objc_msgSend$workflowTriggersDidChange:
+- _objc_msgSend$workoutColors
+- _objc_msgSend$yellowBatteryHierarchicalColors
+- _objc_release_x3
+- _objc_retain_x13
+- _symbolic 20AtomicRepresentation______5Value_____QZ 15AtomicsInternal11AtomicValueP AA0C7StorageP
+- _symbolic SDy_____ypG______pIeggzo_ s11AnyHashableV s5ErrorP
+- _symbolic SS10identifier______Sg4typet 7ToolKit19ContainerDefinitionV0C4TypeO
+- _symbolic ScSySbG
+- _symbolic ScSyxG
+- _symbolic Scgyyt______pG s5ErrorP
+- _symbolic _____ 11WorkflowKit18WFTriggerDirectoryC
+- _symbolic _____ 11WorkflowKit20WFTriggerInputActionC
+- _symbolic _____ 11WorkflowKit6OracleV
+- _symbolic _____Sg 10Foundation6LocaleV12LanguageCodeV
+- _symbolic _____Sg 8Dispatch0A3QoSV0B6SClassO
+- _symbolic _____Sg_ABt 7ToolKit0A8DatabaseC7VersionV
+- _symbolic _____m 11WorkflowKit12WFNewTriggerC
+- _symbolic _____ySay_____GG s23_ContiguousArrayStorageC 11WorkflowKit12WFNewTriggerC
+- _symbolic _____ySbG 11WorkflowKit6OracleV
+- _symbolic _____ySb_G ScS12ContinuationV
+- _symbolic _____ySb_GSg ScS12ContinuationV
+- _symbolic _____ySb__G ScS12ContinuationV11YieldResultO
+- _symbolic _____ySb__G ScS12ContinuationV15BufferingPolicyO
+- _symbolic _____yScSySbGG s19AsyncFilterSequenceV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 11WorkflowKit17WFTriggerCategoryO
+- _symbolic _____y_____Say_____GG s17_NativeDictionaryV 11WorkflowKit17WFTriggerCategoryO AC12WFNewTriggerC
+- _symbolic _____y_____mG s23_ContiguousArrayStorageC 11WorkflowKit12WFNewTriggerC
+- _symbolic _____yxG 15AtomicsInternal13ManagedAtomicC
+- _symbolic _____yx_GSg ScS12ContinuationV
+- dateFormatter.dateFormatter
+- dateFormatter.onceToken
+- getUIColorClass.softClass
+- timestampDateFormatter.dateFormatter
+- timestampDateFormatter.onceToken
+CStrings:
++ " behind the active index; merges on next drain"
++ " unapplied add(s) over "
++ " unapplied removal(s)"
++ " — full re-index owed"
++ "%@ = shortcut name, DO NOT LOCALIZE: %@ or ${WFInput}"
++ "%@=device model"
++ "%s Can't get action icons from nil userInfo"
++ "%s Can't get triggerIDs to disable from nil userInfo"
++ "%s Denying Writing Tools availability due to generic unavailability"
++ "%s Denying Writing Tools availability due to regional policy"
++ "%s Did not find valid payment transaction, waiting (%lu waiter(s) for identifier: %@)..."
++ "%s Failed to perform batch reset of pending initial sync on all triggers: %{public}@"
++ "%s Failed to unarchive action icons: %{public}@"
++ "%s Found matching transaction but it was incomplete, waiting."
++ "%s No default presenter for ToolKit snippet environment request; replying with no environment"
++ "%s No default presenter for ToolKit snippet size request; replying with no size"
++ "%s Received a payment transaction with a nil identifier; ignoring."
++ "-[WFFileValue initWithURL:filename:displayName:]"
++ "1 hour after"
++ "1 hour before"
++ "15 minutes after"
++ "15 minutes before"
++ "2 hours after"
++ "2 hours before"
++ "3 hours after"
++ "3 hours before"
++ "30 minutes after"
++ "30 minutes before"
++ "4 hours after"
++ "4 hours before"
++ "45 minutes after"
++ "45 minutes before"
++ "; waiting on active work to complete before draining"
++ "A default name of an entity that doesn't have a title"
++ "A label to indicate the action is only Apple-internal, not public."
++ "A single calendar"
++ "Accessibility setting updater action description."
++ "Action Name"
++ "Action name for entity updaters, %@ = name of an entity"
++ "Add condition to if action"
++ "Add condition to trigger"
++ "Add property setter"
++ "Add search filter"
++ "Airplane Mode trigger description with configuration summary"
++ "Airplane Mode trigger past tense description"
++ "Alarm Value Type Display Name"
++ "Alarm subject for any alarm trigger firing"
++ "Alarm subject for wake-up alarm trigger firing"
++ "Alarm trigger description subject when a single alarm is selected, %@ = alarm name"
++ "Alarm trigger description with configuration summary, %@ = alarm subject"
++ "Alarm trigger past tense description, %@ = alarm subject"
++ "All Wifi networks within triggers"
++ "All merchant types selected leaving empty state which means Any Category"
++ "Any string in alarm picker parameter"
++ "Any string in wallet card picker parameter"
++ "Any string in wallet category picker parameter"
++ "Any string in wallet merchant picker parameter"
++ "Any string in workout type picker parameter"
++ "App trigger description with configuration summary"
++ "App trigger past tense description, %@ = app name"
++ "App.InFocus: %{public}s is not on screen (%{public}s); not an open."
++ "App.InFocus: %{public}s is on screen; firing open."
++ "App.InFocus: %{public}s is still on screen; holding close."
++ "App.InFocus: %{public}s left the display layout while covered; firing held close."
++ "App.InFocus: %{public}s lost focus while its open settled; not an open."
++ "App.InFocus: %{public}s regained focus while its close settled; not a close."
++ "App.InFocus: %{public}s resumed after being covered; not an open."
++ "App.InFocus: BundleID: %s, isStarting: %{bool}d"
++ "App.InFocus: Ignoring non-app event of type %d."
++ "App.InFocus: Trigger firing. bundleID: %s"
++ "App.InFocus: close of %{public}s corroborated by presence %{public}s; firing close."
++ "App.InFocus: device is locked; suppressing close of %{public}s."
++ "App.InFocus: device locked while %{public}s was covered; discarding held close."
++ "Application Value Type Display Name"
++ "Arrive location trigger description with configuration summary (%1$@ = name of location, %2$@ = start time, %3$@ = end time)"
++ "Arrive location trigger description with configuration summary (%@ = name of location)"
++ "Arrive location trigger past tense description (%1$@ = name of location, %2$@ = start time, %3$@ = end time)"
++ "Arrive location trigger past tense description (%@ = name of location)"
++ "At [8:00 AM]"
++ "At the time"
++ "Attribution string for action Recognize Music. Contains markdown-formatted link"
++ "Automatically runs this shortcut when a workout is started or stopped in the Fitness app or on your paired Apple Watch."
++ "B32@?0@\"WFAction\"8Q16^B24"
++ "Battery Level trigger description with configuration summary"
++ "Battery Level trigger past tense description"
++ "Bluetooth trigger description with configuration summary, when configured for a single device (%@ = device name)"
++ "Bluetooth trigger description with configuration summary, when configured for any device"
++ "Body - Notification trigger sender parameter label"
++ "Body shown when a shortcut can’t be exported because it uses an action unavailable in the user’s region"
++ "Body shown when a shortcut can’t be exported because it uses internal-only actions"
++ "Body shown when a shortcut can’t be imported because it uses an action unavailable in the user’s region"
++ "Body shown when a shortcut can’t be imported because it uses internal-only actions"
++ "Body trigger comparison subject"
++ "Broad World Knowledge is not available on this device."
++ "Caption for error message when a shortcut with Image Playground is not supported on this device"
++ "Caption for error message when a shortcut with Memory Creation (Photos app) is not supported on this device"
++ "Caption for error message when a shortcut with Memory Creation is not currently available on this device"
++ "Caption for error message when a shortcut with Visual Intelligence is not supported on this device"
++ "CarPlay trigger description with configuration summary"
++ "CarPlay trigger past tense description"
++ "CascadeSyncEngine: home-accessory state changed %{bool}d -> %{bool}d"
++ "CascadeSyncEngine: home-accessory state refreshed %{bool}d -> %{bool}d (missed notification)"
++ "CascadeSyncEngine: paired-Watch state refreshed %{bool}d -> %{bool}d (missed notification)"
++ "Character parameter error description"
++ "Choose an item"
++ "Choose from Menu - Default output name"
++ "Choose — Parameter placeholder for app picker"
++ "Conditional AND"
++ "Conditional action UI; All are true"
++ "Conditional action UI; All are true; else-if case"
++ "Conditional action UI; Any are true"
++ "Conditional action UI; Any are true; else-if case"
++ "Conditional action subject parameter label"
++ "Contact picker placeholder in find/filter row"
++ "Coordinator: ignoring stale workDidFinish for superseded workID"
++ "DELETE FROM events WHERE id NOT IN (SELECT id FROM events ORDER BY id DESC LIMIT %i)"
++ "Default Output Name"
++ "Default device name if the current device name is unavailable"
++ "Default name for a Trigger Input variable whose content item class is unavailable"
++ "Description - WLAN trigger (China SKU)"
++ "Description - Wi-Fi trigger"
++ "Description Input"
++ "Description Note"
++ "Description Result"
++ "Description Summary"
++ "Description for an unsupported automation trigger"
++ "Description of the Airplane mode trigger type, shown when the user selects the info button on a trigger in a drawer"
++ "Description of the alarm trigger type, shown when the user selects the info button on a trigger in a drawer"
++ "Description of the app in focus trigger type, shown when the user selects the info button on a trigger in a drawer"
++ "Description of the arrive trigger type, shown when the user selects the info button on a trigger in a drawer"
++ "Description of the battery level trigger type, shown when the user selects the info button on a trigger in a drawer"
++ "Description of the bluetooth trigger type, shown when the user selects the info button on a trigger in a drawer"
++ "Description of the carplay trigger type, shown when the user selects the info button on a trigger in a drawer"
++ "Description of the display trigger type, shown when the user selects the info button on a trigger in a drawer"
++ "Description of the email trigger type, shown when the user selects the info button on a trigger in a drawer"
++ "Description of the external drive trigger type, shown when the user selects the info button on a trigger in a drawer"
++ "Description of the file trigger type, shown when the user selects the info button on a trigger in a drawer"
++ "Description of the focus trigger type, shown when the user selects the info button on a trigger in a drawer"
++ "Description of the folder trigger type, shown when the user selects the info button on a trigger in a drawer"
++ "Description of the keyboard trigger type, shown when the user selects the info button on a trigger in a drawer"
++ "Description of the leave location trigger type, shown when the user selects the info button on a trigger in a drawer"
++ "Description of the low power mode trigger type, shown when the user selects the info button on a trigger in a drawer"
++ "Description of the message trigger type, shown when the user selects the info button on a trigger in a drawer"
++ "Description of the nfc trigger type, shown when the user selects the info button on a trigger in a drawer"
++ "Description of the notification trigger type, shown when the user selects the info button on a trigger in a drawer"
++ "Description of the plug in trigger type, shown when the user selects the info button on a trigger in a drawer"
++ "Description of the screenshot trigger type, shown when the user selects the info button on a trigger in a drawer"
++ "Description of the sleep trigger type, shown when the user selects the info button on a trigger in a drawer"
++ "Description of the sound recognition trigger type, shown when the user selects the info button on a trigger in a drawer"
++ "Description of the stage manager trigger type, shown when the user selects the info button on a trigger in a drawer"
++ "Description of the time of day trigger type, shown when the user selects the info button on a trigger in a drawer"
++ "Description of the wallet trigger type, shown when the user selects the info button on a trigger in a drawer"
++ "Description of the wi-fi trigger type, shown when the user selects the info button on a trigger in a drawer"
++ "Description of the workout trigger type, shown when the user selects the info button on a trigger in a drawer"
++ "Display Parameter"
++ "Display name of plugin trigger"
++ "Display name of sleep trigger"
++ "Display name of the Airplane Mode trigger"
++ "Display name of the Battery Level trigger"
++ "Display name of the CarPlay connect trigger"
++ "Display name of the Display trigger"
++ "Display name of the Focus trigger"
++ "Display name of the Low Power Mode trigger"
++ "Display name of the NFC trigger"
++ "Display name of the Stage Manager trigger"
++ "Display name of the alarm trigger"
++ "Display name of the email trigger"
++ "Display name of the external drive trigger"
++ "Display name of the file trigger"
++ "Display name of the folder trigger"
++ "Display name of the location trigger"
++ "Display name of the message trigger"
++ "Display name of the notification trigger"
++ "Display name of the sound recognition trigger"
++ "Display name of the trigger"
++ "Display name of the wallet transaction trigger"
++ "Display name of the workout trigger (watch and phone support)"
++ "Don’t Run Selection"
++ "Duplicate folder error description; %@=shortcut name"
++ "Duplicate shortcut error description"
++ "Duplicate shortcut error description; %@=shortcut name"
++ "Duplicate shortcut error failure reason; %@=shortcut name"
++ "Duplicate shortcut or folder error failure reason"
++ "Email Account Value Type Display Name"
++ "Email trigger - description of the Subject filter parameter"
++ "Email trigger comparison subject"
++ "Email trigger description with configuration summary"
++ "Email trigger past tense description"
++ "Email trigger recipient parameter label"
++ "Email trigger sender parameter label"
++ "Email trigger subject parameter label"
++ "Emoji parameter error description"
++ "End If action name"
++ "Error explaining that we cannot execute this action because no input setting was chosen."
++ "Error message"
++ "Error message displayed when the user tries to use the Use Model action on an iOS device where Apple Intelligence is not yet enabled."
++ "Error message displayed when the user tries to use the Use Model action on an iOS device, but their iOS device doesn't support Apple Intelligence."
++ "Error message."
++ "Error shown for a trigger with an unrecognized identifier"
++ "Error shown when a stored value requires a newer client version"
++ "Error shown when a trigger's minimum client version exceeds this client"
++ "Error shown when the Get App Setting action can not find necessary metadata to execute."
++ "Explanation for an unsupported automation trigger"
++ "Explanation of Battery Level trigger type, shown when the user is choosing the trigger type when setting up a new automation"
++ "Explanation of the Airplane mode trigger type, shown when the user is choosing the trigger type when setting up a new automation"
++ "Explanation of the Arrive trigger, shown when the user is choosing the trigger type when setting up a new automation"
++ "Explanation of the CarPlay connect trigger type, shown when the user is choosing the trigger type when setting up a new automation"
++ "Explanation of the Display trigger type, shown when the user is choosing the trigger type when setting up a new automation"
++ "Explanation of the Focus trigger type, shown when the user is choosing the trigger type when setting up a new automation"
++ "Explanation of the Keyboard trigger type, shown when the user is choosing the trigger type when setting up a new automation"
++ "Explanation of the Leave trigger, shown when the user is choosing the trigger type when setting up a new automation"
++ "Explanation of the Low Power Mode trigger type, shown when the user is choosing the trigger type when setting up a new automation"
++ "Explanation of the NFC trigger type, shown when the user is choosing the trigger type when setting up a new automation"
++ "Explanation of the Wi-Fi trigger type, shown when the user is choosing the trigger type when setting up a new automation"
++ "Explanation of the email trigger type, shown when the user is choosing the trigger type when setting up a new automation"
++ "Explanation of the external drive trigger type, shown when the user is choosing the trigger type when setting up a new automation"
++ "Explanation of the file trigger type, shown when the user is choosing the trigger type when setting up a new automation"
++ "Explanation of the folder trigger type, shown when the user is choosing the trigger type when setting up a new automation"
++ "Explanation of the message trigger type, shown when the user is choosing the trigger type when setting up a new automation"
++ "Explanation of the plugin trigger, shown when the user is choosing the trigger type when setting up a new automation"
++ "Explanation of the screenshot trigger type, shown when the user is choosing the trigger type when setting up a new automation"
++ "Explanation of the sleep trigger, shown when the user is choosing the trigger type when setting up a new automation"
++ "Explanation of the stage manager trigger type, shown when the user is choosing the trigger type when setting up a new automation"
++ "Explanation of the trigger type, shown when the user is choosing the trigger type when setting up a new automation"
++ "Explanation of the trigger type, shown when the user is setting up a new automation"
++ "Explanation of the wallet transaction trigger type, shown when the user is choosing the trigger type when setting up a new automation"
++ "Explanation of the workout trigger type, shown when the user is choosing the trigger type when setting up a new automation"
++ "External Display trigger description with configuration summary"
++ "External Display trigger past tense description"
++ "External drive trigger parameter summary"
++ "Failure reason shown when the Use Broad World Knowledge parameter of the Use Model action is unavailable because the device doesn't support it."
++ "Fallback inline notice when a trigger is invalid but the specific missing parameters can't be enumerated"
++ "Fallback name for focus mode trigger description"
++ "Falling back to system-wide Writing Tools availability because Apple Intelligence hasn't shipped in China"
++ "File attachment is not accessible: "
++ "Find and filter UI; Used in sentence. All are true"
++ "Find and filter UI; Used in sentence. Any are true"
++ "Find filter UI layout for filter with a property and an operator (e.g. '`Start Date` `is today`'). This is used just for layout and the content between ${} should not be localized"
++ "Find filter UI layout for filter with a property, operator and 2 values (e.g. '`Start Date` `is between` `8/13/18` `and` `8/16/18`'). This is used just for layout and the content between ${} should not be localized"
++ "Find filter UI layout for filter with a property, operator and value (e.g. '`Calendar` `is` `Work`'). This is used just for layout and the content between ${} should not be localized"
++ "Find filter UI layout for filter with a property, operator, value and unit (e.g. '`Start Date` `is in the next` `5` `days`'). This is used just for layout and the content between ${} should not be localized"
++ "Find filter UI layout for filter with just a property (e.g. '`Is All Day`'). This is used just for layout and the content between ${} should not be localized"
++ "Find filter UI operator"
++ "Flip Image action, flip image horizontally"
++ "Flip Image action, flip image vertically"
++ "Focus Filter Description"
++ "Format File Size action; Bytes is a file size type"
++ "Format File Size action; Closest means nearest in this context, unit represents a file size type, like Megabytes or Gigabytes"
++ "Format File Size action; Exabytes is a file size type"
++ "Format File Size action; Gigabytes is a file size type"
++ "Format File Size action; Kilobytes is a file size type"
++ "Format File Size action; Megabytes is a file size type"
++ "Format File Size action; Petabytes is a file size type"
++ "Format File Size action; Terabytes is a file size type"
++ "Format File Size action; Yottabytes is a file size type"
++ "Format File Size action; Zettabytes is a file size type"
++ "Generic run shortcut name"
++ "Get What’s On Screen - noun to refer to the output of the action"
++ "Get accessibility setting action description."
++ "Get home accessory action default name"
++ "HMHomeManagerAreAnyAppleTVAccessoriesConfigured"
++ "HMHomeManagerAreAnySpeakersConfigured"
++ "Home action default subtitle"
++ "HomeKit action set type display name"
++ "HomeKit characteristic type display name"
++ "HomeKit service type display name"
++ "INFile URL is not a usable file URL"
++ "INObject type display name"
++ "If action - default output name"
++ "If action layout for single condition with a subject and an operator (e.g. 'If `Start Date` `is today`'). This is used just for layout and the content between ${} should not be localized"
++ "If action layout for single condition with a subject, operator and 2 values (e.g. 'If `Start Date` `is between` `8/13/18` `and` `8/16/18`'). This is used just for layout and the content between ${} should not be localized"
++ "If action layout for single condition with a subject, operator and value (e.g. 'If `Calendar` `is` `Work`'). This is used just for layout and the content between ${} should not be localized"
++ "If action layout for single condition with a subject, operator, value and unit (e.g. 'If `Start Date` `is in the next` `5` `days`'). This is used just for layout and the content between ${} should not be localized"
++ "If action layout for single condition with just a subject (e.g. 'If `Is All Day`'). This is used just for layout and the content between ${} should not be localized"
++ "If/Find/Filter UI operator for dates"
++ "If/Find/Filter UI operator for file sizes"
++ "If/Find/Filter UI operator for time intervals"
++ "If/Find/Filter action: Placeholder for condition parameter"
++ "Inline notice telling the user which parameter(s) (%@) need values before the automation will run."
++ "Input types of action"
++ "IntentRecordingMode"
++ "Interchange app name for action"
++ "Interchange short app name for action"
++ "Invalid folder name error description"
++ "Invalid shortcut name error description"
++ "Invalid shortcut or folder name error failure reason"
++ "Item can be anything"
++ "Keyboard trigger description with configuration summary"
++ "Keyboard trigger past tense description"
++ "Label - Airplane mode trigger type"
++ "Label - Alarm trigger alarm state"
++ "Label - Alarm trigger specific alarms"
++ "Label - App trigger selected apps"
++ "Label - App trigger state"
++ "Label - Arrive trigger end time"
++ "Label - Arrive trigger location"
++ "Label - Arrive trigger start time"
++ "Label - Arrive trigger time range toggle"
++ "Label - Battery level trigger comparison"
++ "Label - Battery level trigger level"
++ "Label - Bluetooth trigger connection type"
++ "Label - Bluetooth trigger selected devices"
++ "Label - CarPlay trigger connection type"
++ "Label - Charger trigger connection type"
++ "Label - Display trigger connection type"
++ "Label - Focus trigger event type"
++ "Label - Focus trigger focus mode picker"
++ "Label - Leave trigger end time"
++ "Label - Leave trigger location"
++ "Label - Leave trigger start time"
++ "Label - Leave trigger time range toggle"
++ "Label - Low Power Mode trigger state"
++ "Label - NFC trigger tag picker"
++ "Label - Screenshot trigger save location"
++ "Label - Sleep trigger mode picker"
++ "Label - Sound recognition trigger sound picker"
++ "Label - Stage Manager trigger type"
++ "Label - Time trigger event type"
++ "Label - Time trigger offset"
++ "Label - Time trigger recurrence mode"
++ "Label - Time trigger time"
++ "Label - Wallet trigger card picker"
++ "Label - Wallet trigger merchant picker"
++ "Label - Wallet trigger merchant type picker"
++ "Label - Wi-Fi trigger"
++ "Label - Wi-Fi trigger network picker"
++ "Label - Wi-Fi trigger type"
++ "Label - Workout trigger event type"
++ "Label - Workout trigger workout type picker"
++ "Label for configuration option about showing a confirmation prompt before a trigger runs"
++ "Label for configuration option about trigger enablement"
++ "Label for configuration option about trigger notifications"
++ "Label for position parameter of Add Clear Task action"
++ "Label for the disk mount trigger configuration parameter"
++ "Label for the file trigger configuration parameter"
++ "Label for the folder trigger configuration parameter"
++ "Leave location trigger description with configuration summary (%1$@ = name of location, %2$@ = start time, %3$@ = end time)"
++ "Leave location trigger description with configuration summary (%@ = name of location)"
++ "Leave location trigger past tense description (%1$@ = name of location, %2$@ = start time, %3$@ = end time)"
++ "Leave location trigger past tense description (%@ = name of location)"
++ "Low Power Mode trigger description with configuration summary"
++ "Low Power Mode trigger past tense description"
++ "MTCreateAlarmIntent – Parameter prompt for alarm time, parameter State"
++ "Merchant Category Value Type Display Name"
++ "Merchant Value Type Display Name"
++ "Message trigger - description of the Message filter parameter"
++ "Message trigger comparison subject"
++ "Message trigger sender parameter label"
++ "Message trigger subject parameter label"
++ "Message when an action requires Cellular Data and it is not available"
++ "NFC not available error"
++ "NFC trigger description with configuration summary (%@ = user-entered tag name)"
++ "NFC trigger past tense description (%@ = user-entered tag name)"
++ "NSDictionary * _Nonnull WFTriggerNotificationUserInfo(WFUnifiedTriggerKey *__strong _Nonnull, NSArray<WFIcon *> * _Nullable __strong, NSArray<NSString *> * _Nullable __strong)"
++ "NSDictionary<NSString *,id<WFPropertyListObject>> * _Nonnull WFSerializedVariableObject(id<WFVariableSerialization>  _Nonnull __strong)"
++ "Name for Shortcut Input variable"
++ "Name for an action that returns a selected app setting; %@ = app name"
++ "Name for an action that updates a selected app setting."
++ "Name for an action that updates a selected app setting; %@ = app name"
++ "Name for an action that updates a selected ccessibility setting."
++ "No value provided for parameter %s; leaving it unset"
++ "Not running %s due to missing start/end time parameters"
++ "Not running %s due to start/end time"
++ "Note about using the action"
++ "Notification trigger - description of the Message filter parameter"
++ "Notification trigger - description of the Subtitle filter parameter"
++ "Notification trigger - description of the Title filter parameter"
++ "Notification trigger description with configuration summary, when configured for a single app (%@ = app name)"
++ "Notification trigger description with configuration summary, when configured for any app"
++ "Notification trigger past tense description, when configured for a single app (%@ = app name)"
++ "Notification trigger past tense description, when configured for any app"
++ "Off-state display name for the Yes/No picker on a boolean conditional row"
++ "On-state display name for the Yes/No picker on a boolean conditional row"
++ "Operation mode for setter action"
++ "Other (calendar source)"
++ "Otherwise action name"
++ "Otherwise-if action layout for single condition with a subject and an operator (e.g. 'Otherwise if `Start Date` `is today`'). This is used just for layout and the content between ${} should not be localized"
++ "Otherwise-if action layout for single condition with a subject, operator and 2 values (e.g. 'Otherwise if `Start Date` `is between` `8/13/18` `and` `8/16/18`'). This is used just for layout and the content between ${} should not be localized"
++ "Otherwise-if action layout for single condition with a subject, operator and value (e.g. 'Otherwise if `Calendar` `is` `Work`'). This is used just for layout and the content between ${} should not be localized"
++ "Otherwise-if action layout for single condition with a subject, operator, value and unit (e.g. 'Otherwise if `Start Date` `is in the next` `5` `days`'). This is used just for layout and the content between ${} should not be localized"
++ "Otherwise-if action layout for single condition with just a subject (e.g. 'Otherwise if `Is All Day`'). This is used just for layout and the content between ${} should not be localized"
++ "Parameter Enumeration Item for Get parameter of Get Item from List action"
++ "Parameter Enumeration Item for Position parameter of Add to List action"
++ "Parameter Enumeration Item for action, parameter: Action"
++ "Parameter Enumeration Item for action, parameter: Add to"
++ "Parameter Enumeration Item for action, parameter: After Success"
++ "Parameter Enumeration Item for action, parameter: Apply To"
++ "Parameter Enumeration Item for action, parameter: Attach"
++ "Parameter Enumeration Item for action, parameter: Case"
++ "Parameter Enumeration Item for action, parameter: Format"
++ "Parameter Enumeration Item for action, parameter: From"
++ "Parameter Enumeration Item for action, parameter: Indent With"
++ "Parameter Enumeration Item for action, parameter: Mode"
++ "Parameter Enumeration Item for action, parameter: Open"
++ "Parameter Enumeration Item for action, parameter: Period"
++ "Parameter Enumeration Item for action, parameter: Priority"
++ "Parameter Enumeration Item for action, parameter: Repeat"
++ "Parameter Enumeration Item for action, parameter: Replace"
++ "Parameter Enumeration Item for action, parameter: Sort"
++ "Parameter Enumeration Item for action, parameter: Style"
++ "Parameter Enumeration Item for action, parameter: To"
++ "Parameter Enumeration Item for action, parameter: Transform"
++ "Parameter Enumeration Item for action, parameter: Type"
++ "Parameter Enumeration Item for action, parameter: UNKNOWN_KEY"
++ "Parameter Enumeration Item for action, parameter: When"
++ "Parameter Label"
++ "Parameter Placeholder"
++ "Parameter description"
++ "Parameter description for Stored Content actions, parameter Global Value"
++ "Parameter label"
++ "Parameter label for the Yes/No picker on a boolean conditional row"
++ "Parameter placeholder"
++ "Parameter placeholder for app picker"
++ "Parameter summary for Add Reminder: Add [Title] to [List] with [Alert] [At Time] [Date]"
++ "Parameter summary for Add Reminder: Add [Title] to [List] with [Alert] [When I Arrive] at [Location]"
++ "Parameter summary for Add Reminder: Add [Title] to [List] with [Alert] [When I Leave] from [Location]"
++ "Parameter summary for Add Reminder: Add [Title] to [List] with [Alert] [When Messaging] [Person]"
++ "Parameter summary for Add Reminder: Add [Title] to [List] with [No Alert]"
++ "Parameter summary for Add Reminder: Add [Title] with [Alert] [At Time] [Date]"
++ "Parameter summary for Add Reminder: Add [Title] with [Alert] [When I Arrive] at [Location]"
++ "Parameter summary for Add Reminder: Add [Title] with [Alert] [When I Leave] from [Location]"
++ "Parameter summary for Add Reminder: Add [Title] with [Alert] [When Messaging] [Person]"
++ "Parameter summary for Add Reminder: Add [Title] with [No Alert]"
++ "Parameter summary for Add TaskPaper to Omnifocus: Add [Input] to [Folder] [Folder Name]"
++ "Parameter summary for Add TaskPaper to Omnifocus: Add [Input] to [Inbox]"
++ "Parameter summary for Add TaskPaper to Omnifocus: Add [Input] to [Project]"
++ "Parameter summary for Add TaskPaper to Omnifocus: Add [Input] to [Project] [Project Name]"
++ "Parameter summary for Add TaskPaper to Omnifocus: Add [Input] to [Projects]"
++ "Parameter summary for Add TaskPaper to Omnifocus: Add [Input] to [Task] [Task ID]"
++ "Parameter summary for Add to Draft: [Append] [Input] to draft [UUID]"
++ "Parameter summary for Add to Draft: [Create] draft with [Input]"
++ "Parameter summary for Add to Draft: [Prepend] [Input] to draft [UUID]"
++ "Parameter summary for Add to List: Add [Item] to [Beginning] of [List]"
++ "Parameter summary for Add to List: Add [Item] to [End] of [List]"
++ "Parameter summary for Add to List: Add [Item] to [Index] [10] in [List]"
++ "Parameter summary for Adjust Date: [Add/Subtract/etc] [5 minutes] to [Date]"
++ "Parameter summary for Adjust Date: [Add/Subtract/etc] from [Date]"
++ "Parameter summary for Adjust Date: [Subtract] [5 minutes] from [Date]"
++ "Parameter summary for Calculate: [5] [+/-/etc] [10]"
++ "Parameter summary for Calculate: [5] [...] [x^2/10^x/etc]"
++ "Parameter summary for Change Playback Destination: [Add] [My HomePod] to playback destinations"
++ "Parameter summary for Change Playback Destination: [Remove] [My HomePod] from playback destinations"
++ "Parameter summary for Change Playback Destination: [Set] playback destination to [My HomePod]"
++ "Parameter summary for Convert Measurement: Convert [5 feet] to [Length]"
++ "Parameter summary for Convert Measurement: Convert [5 feet] to [Length] in [Meters]"
++ "Parameter summary for Get Directions: Open [Driving] directions from [Home] to [Apple Park]"
++ "Parameter summary for Get Directions: Open [Driving] directions from [Home] to [Apple Park] using [Maps]"
++ "Parameter summary for Get Directions: Open directions from [Home] to [Apple Park]"
++ "Parameter summary for Get Directions: Open directions from [Home] to [Apple Park] using [Maps]"
++ "Parameter summary for Get Directions: Open directions to [Apple Park] using [Maps]"
++ "Parameter summary for Get Item from List: Get [First Item] from [List]"
++ "Parameter summary for Get Item from List: Get [Item At Index] [5] from [List]"
++ "Parameter summary for Get Item from List: Get [Items in Range] [5] to [10] from [List]"
++ "Parameter summary for Get Item from List: Get [Last Item] from [List]"
++ "Parameter summary for Get Item from List: Get [Random Item] from [List]"
++ "Parameter summary for Get Network Details: Get [Cellular] network's [Carrier Name/Radio Technology/etc]"
++ "Parameter summary for Get Network Details: Get [Ethernet] network's [Interface Name/IPv4 Address/etc]"
++ "Parameter summary for Get Network Details: Get [Wi-Fi/Cellular] network details"
++ "Parameter summary for Get Network Details: Get [Wi-Fi] network's [BSSID/RX Rate/TX Rate/etc]"
++ "Parameter summary for Hide App: Hide [All Apps] except [Safari]"
++ "Parameter summary for Hide App: Hide [App] [Safari]"
++ "Parameter summary for Home: Get [Kitchen Lights]"
++ "Parameter summary for Home: Get [Kitchen Lights] [Brightness]"
++ "Parameter summary for Home: Get [Kitchen Lights] [Brightness] in [Condo]"
++ "Parameter summary for Home: Get [Kitchen Lights] in [Condo]"
++ "Parameter summary for If action when no conditions are present, else case"
++ "Parameter summary for Mask Image: Mask [Image] with [Custom Image] [Image]"
++ "Parameter summary for Mask Image: Mask [Image] with [Ellipse] shape"
++ "Parameter summary for Mask Image: Mask [Image] with [Rounded Rectangle] shape"
++ "Parameter summary for Move Window: Move [Window] to [Coordinates] [1024], [50]"
++ "Parameter summary for Move Window: Move [Window] to [Top Left/Bottom Left/Middle Right/etc]"
++ "Parameter summary for Open In: Open [Input]"
++ "Parameter summary for Open In: Open [Input] in [Safari]"
++ "Parameter summary for Open Ulysses: Open [Choose]"
++ "Parameter summary for Open Ulysses: Open [Group] [Folder Name]"
++ "Parameter summary for Open Ulysses: Open [Sheet] [Identifier]"
++ "Parameter summary for Overlay Text: Overlay [Text] on [Image] at [Bottom Center] offset by [10%]"
++ "Parameter summary for Overlay Text: Overlay [Text] on [Image] at [Bottom Center] offset by [10] points"
++ "Parameter summary for Overlay Text: Overlay [Text] on [Image] at [Bottom Left] offset by [10%]"
++ "Parameter summary for Overlay Text: Overlay [Text] on [Image] at [Bottom Left] offset by [10] points"
++ "Parameter summary for Overlay Text: Overlay [Text] on [Image] at [Bottom Right] offset by [10%]"
++ "Parameter summary for Overlay Text: Overlay [Text] on [Image] at [Bottom Right] offset by [10] points"
++ "Parameter summary for Overlay Text: Overlay [Text] on [Image] at [Center]"
++ "Parameter summary for Overlay Text: Overlay [Text] on [Image] at [Custom Position] [10%], [20%]"
++ "Parameter summary for Overlay Text: Overlay [Text] on [Image] at [Custom Position] [10], [20]"
++ "Parameter summary for Overlay Text: Overlay [Text] on [Image] at [Middle Left] offset by [10%]"
++ "Parameter summary for Overlay Text: Overlay [Text] on [Image] at [Middle Left] offset by [10] points"
++ "Parameter summary for Overlay Text: Overlay [Text] on [Image] at [Middle Right] offset by [10%]"
++ "Parameter summary for Overlay Text: Overlay [Text] on [Image] at [Middle Right] offset by [10] points"
++ "Parameter summary for Overlay Text: Overlay [Text] on [Image] at [Top Center] offset by [10%]"
++ "Parameter summary for Overlay Text: Overlay [Text] on [Image] at [Top Center] offset by [10] points"
++ "Parameter summary for Overlay Text: Overlay [Text] on [Image] at [Top Left] offset by [10%]"
++ "Parameter summary for Overlay Text: Overlay [Text] on [Image] at [Top Left] offset by [10] points"
++ "Parameter summary for Overlay Text: Overlay [Text] on [Image] at [Top Right] offset by [10%]"
++ "Parameter summary for Overlay Text: Overlay [Text] on [Image] at [Top Right] offset by [10] points"
++ "Parameter summary for Quit App: Quit [All Apps] except [Safari]"
++ "Parameter summary for Quit App: Quit [App] [Safari]"
++ "Parameter summary for Resize Image: Resize [Image] by [Percentage] [50]%"
++ "Parameter summary for Resize Image: Resize [Image] to [Longest Edge] [640]"
++ "Parameter summary for Resize Image: Resize [Image] to [Size] [1024] x [1024]"
++ "Parameter summary for Resize Window: Resize [Window] to [Dimensions] [1024] x [1024]"
++ "Parameter summary for Resize Window: Resize [Window] to [Fit Screen/Top Half/etc]"
++ "Parameter summary for Round Number: Round [512] to [10 ^] [2]"
++ "Parameter summary for Round Number: Round [512] to [Tens Place/Hundreds Place/etc]"
++ "Parameter summary for Save File: Save [Input]"
++ "Parameter summary for Save File: Save [Input] to [Folder]"
++ "Parameter summary for Set Flashlight: [Toggle] flashlight"
++ "Parameter summary for Set Flashlight: [Turn] flashlight [On]"
++ "Parameter summary for Set Focus: [Toggle] [Work Focus]"
++ "Parameter summary for Set Focus: [Turn] [Work Focus] [On/Off]"
++ "Parameter summary for Set Focus: [Turn] [Work Focus] [On] until [Event Ends] [Work Meeting]"
++ "Parameter summary for Set Focus: [Turn] [Work Focus] [On] until [I Leave]"
++ "Parameter summary for Set Focus: [Turn] [Work Focus] [On] until [Time] [2:00 PM]"
++ "Parameter summary for Set Focus: [Turn] [Work Focus] [On] until [Turned Off]"
++ "Parameter summary for Set Noise Control Mode: Set Noise Control Mode on [AirPods]"
++ "Parameter summary for Set Noise Control Mode: Set Noise Control mode on [AirPods] to [Transparency]"
++ "Parameter summary for Set Volume: Set [Media/Ringtone/Alarms & Timers/Alerts & System Sounds] volume to [0.5]"
++ "Parameter summary for Set Volume: Set volume to [0.5]"
++ "Parameter summary for Start Workout: Start [Running] Workout for [Duration] [2 miles]"
++ "Parameter summary for Start Workout: Start [Running] with [No Goal]"
++ "Parameter summary for Take Video: Take video"
++ "Parameter summary for Take Video: Take video with [Back] camera"
++ "Parameter summary for Take Video: Take video with [Front] camera"
++ "Parameter summary for action"
++ "Parameter summary for action: Set [Kitchen Lights]"
++ "Parameter summary for action: Set [Kitchen Lights] in [Condo]"
++ "Parameter summary for input action: [Ask For] [Photos]"
++ "Parameter summary for input action: [Continue]"
++ "Parameter summary for input action: [Get Clipboard]"
++ "Parameter summary for input action: [Stop and Respond] [A value is required]"
++ "Parameter summary string for Output action: [Copy to Clipboard]"
++ "Parameter summary string for Output action: [Do Nothing]"
++ "Parameter summary string for Output action: [Respond] [There was no output]"
++ "Parameter summary title for the Input action"
++ "Parameter summary title for the Output action"
++ "Past-tense Bluetooth trigger description for a single device (%1$@ = iPhone name, %2$@ = Bluetooth device name)"
++ "Past-tense Bluetooth trigger description with configuration summary; %1$@=iPhone name"
++ "Past-tense Plugin trigger description with configuration summary"
++ "Past-tense Wallet transaction trigger description with configuration summary"
++ "Past-tense Wallet transaction trigger description with configuration summary, %@ = badge description"
++ "Past-tense Wallet transaction trigger description with configuration summary, %@ = car key description"
++ "Past-tense Wallet transaction trigger description with configuration summary, %@ = card description"
++ "Past-tense Wallet transaction trigger description with configuration summary, %@ = key description"
++ "Past-tense Wallet transaction trigger description with configuration summary, %@ = pass description"
++ "Past-tense Wallet transaction trigger description with configuration summary, %@ = resident key description"
++ "Past-tense Wallet transaction trigger description with configuration summary, %@ = room key description"
++ "Past-tense Wallet transaction trigger description with configuration summary; %lu = number of passes"
++ "Past-tense Workout trigger description with configuration summary"
++ "Past-tense Workout trigger description with configuration summary, %@ = workout name"
++ "Pipe-delimited keywords list for action"
++ "Placeholder for date field"
++ "Placeholder in the text field when making an LLM request and the text field is still empty"
++ "Plugin trigger description with configuration summary"
++ "Poster type display name"
++ "Prefix for stepper of Add Clear Task action"
++ "Primary account found, subscriber = %{bool}d"
++ "Product Name"
++ "Product Name (the feature in the Photos app)"
++ "Property list parameter value type"
++ "Property setter UI for setting a property on an entity to a value. This is used just for layout and the content between ${} should not be localized"
++ "Property setter UI for setting an entity. This is used just for layout and the content between ${} should not be localized"
++ "Querying GMS for regional availability of Writing Tools"
++ "RecordingModeEntity"
++ "Recovery option displayed when the user tries to use the Use Model action on an iOS device where Apple Intelligence is not yet enabled."
++ "Recurrence description for Time trigger"
++ "Recurrence description for Time trigger with respect to month. The string in %%@ will use the number style that is provided for MONTHLY_REPEAT_NUMBER_FORMAT_STYLE. For example: monthly on the 1st."
++ "Recurrence description for Time trigger, e.g. every 3 days"
++ "Recurrence description for Time trigger, e.g. every 3 weeks"
++ "Repeat Index variable name"
++ "Repeat Index variable name - indexed"
++ "Repeat Item variable name"
++ "Repeat Item variable name - indexed"
++ "Replacement action name shown in the deprecation banner for the Reminders list entity updater action"
++ "Replacement action name; translation must match the name of the Get On-Screen Context action"
++ "Replacement action name; translation must match the name of the Set Multitasking Mode action"
++ "Requirements for the action (having certain apps installed, iOS version, etc.)"
++ "Result types of action"
++ "Run After Confirmation Option For Automations"
++ "Run Immediately Option For Automations"
++ "Screenshot trigger description with configuration summary"
++ "Screenshot trigger past tense description"
++ "Screenshot trigger summary, e.g. 'When I save screenshot to [Photos, Files, and Clipboard]'"
++ "Search keyword/synonym for the NFC automation trigger"
++ "Search keyword/synonym for the app automation trigger"
++ "Search keyword/synonym for the email automation trigger"
++ "Search keyword/synonym for the file automation trigger"
++ "Search keyword/synonym for the folder automation trigger"
++ "Search keyword/synonym for the message automation trigger"
++ "Search keyword/synonym for the notification automation trigger"
++ "Search keyword/synonym for the time-of-day automation trigger"
++ "Search keyword/synonym for the wallet automation trigger"
++ "Search keyword/synonym shared by all automation triggers"
++ "Selected setting result descrption"
++ "Set home accessory action default name"
++ "Skipping conditional legacy passthrough migration: could not pair up the control flow actions in this workflow"
++ "Sleep trigger description with configuration summary"
++ "Sleep trigger past tense description"
++ "Sound Recognition resource error"
++ "Sound recognition trigger description with configuration summary, default"
++ "Sound recognition trigger description with configuration summary, when configured for a single sound (%@ = sound name)"
++ "Sound recognition trigger past tense description, default"
++ "Sound recognition trigger past tense description, when configured for a single sound (%@ = sound name)"
++ "Stage Manager trigger description with configuration summary"
++ "Stage Manager trigger past tense description"
++ "StereoRecordingEntity"
++ "Subcategory: Controls"
++ "Subcategory: Device"
++ "Subcategory: Documents"
++ "Subcategory: Location"
++ "Subcategory: Media"
++ "Subcategory: Scripting"
++ "Subcategory: Sharing"
++ "Subcategory: Web"
++ "Subscribed"
++ "Subtitle - Notification trigger sender parameter label"
++ "Subtitle for a per-focus-mode entry in the automation trigger drawer. %@ is the focus mode name, e.g. Work."
++ "Subtitle trigger comparison subject"
++ "The Focus filter could not be applied because %@ is restricted by Screen Time."
++ "The Focus filter could not be applied because %@ is restricted on this device."
++ "The Focus filter could not be applied because the app is restricted by Screen Time."
++ "The Focus filter could not be applied because the app is restricted on this device."
++ "The action “%1$@” could not run because %2$@ exceeds this device’s content rating restrictions."
++ "The action “%1$@” could not run because %2$@ is restricted by Parental Controls."
++ "The action “%1$@” could not run because %2$@ is restricted by Screen Time."
++ "The action “%1$@” could not run because %2$@ is restricted by your organization."
++ "The action “%1$@” could not run because %2$@ is restricted due to a device payment plan."
++ "The action “%1$@” could not run because %2$@ is restricted on this device."
++ "The action “%@” could not run because it is not supported in CarPlay."
++ "The action “%@” could not run because it is restricted by Screen Time."
++ "The action “%@” could not run because the app exceeds this device’s content rating restrictions."
++ "The action “%@” could not run because the app is restricted by Parental Controls."
++ "The action “%@” could not run because the app is restricted by your organization."
++ "The action “%@” could not run because the app is restricted due to a device payment plan."
++ "The action “%@” could not run because the app is restricted on this device."
++ "The action “%@” could not run because the device needs to be unlocked."
++ "This shortcut can’t be imported because it contains an action not currently available in this region."
++ "This shortcut can’t be shared because it contains an action not currently available in this region."
++ "Time Zone Value Type Display Name"
++ "Time component of Time trigger description with configuration summary, %@ = time"
++ "Time-based trigger description format string, $1 = time, $2 = recurrence, for example '[At 3:00pm], [daily]'"
++ "Title - Notification trigger sender parameter label"
++ "Title for an automation trigger that requires a newer version of Shortcuts"
++ "Title for error message when a shortcut with Image Playground is not supported on this device"
++ "Title for error message when a shortcut with Memory Creation (Photos app) is not supported on this device"
++ "Title for error message when a shortcut with Visual Intelligence is not supported on this device"
++ "Title of alert when a shortcut can’t be exported because it uses internal-only actions"
++ "Title of alert when a shortcut can’t be imported because it uses internal-only actions"
++ "Title of list of alarms configured in the Clock app"
++ "Title of list of email accounts"
++ "Title of list of merchant categories"
++ "Title of list of saved Wi-Fi networks"
++ "Title of list of saved bluetooth devices"
++ "Title of list of supported sound recognition types"
++ "Title of list of wallet cards"
++ "Title of list of wallet cards on paired watch"
++ "Title trigger comparison subject"
++ "Trigger %{public}s came back from the server, ending its never-synced protection"
++ "Trigger name, WLAN"
++ "Trigger name, wifi"
++ "Use Model action: Follow Up parameter and models description"
++ "Use Model action: Output parameter description"
++ "User Activity Focus trigger description with configuration summary"
++ "User Activity Focus trigger past tense description"
++ "WFDateFieldParameterState.m"
++ "WFPreprocessedDate"
++ "WFStereoRecordingModeMigration - IntentRecordingMode metadata unavailable; emitting minimal enum value"
++ "WFStereoRecordingModeMigration - Stereo Recording toggle has no enum equivalent; leaving Recording Mode value blank"
++ "WFStereoRecordingModeMigration - migrated Stereo Recording %{bool}d to Recording Mode case %s"
++ "WFStereoRecordingModeMigration - no Stereo Recording value; defaulting to Recording Mode Mono"
++ "WFStereoRecordingModeMigration - no actions found"
++ "WFStereoRecordingModeMigration - preserved non-literal Stereo Recording value token"
++ "WFTriggerNotifications.m"
++ "WFUseModelWebSearchResource"
++ "WFVariableSerialization.m"
++ "WLAN network type label"
++ "Wallet Card Value Type Display Name"
++ "Wallet transaction trigger description with configuration summary"
++ "Wallet transaction trigger description with configuration summary, %@ = badge description"
++ "Wallet transaction trigger description with configuration summary, %@ = car key description"
++ "Wallet transaction trigger description with configuration summary, %@ = card description"
++ "Wallet transaction trigger description with configuration summary, %@ = key description"
++ "Wallet transaction trigger description with configuration summary, %@ = pass description"
++ "Wallet transaction trigger description with configuration summary, %@ = resident key description"
++ "Wallet transaction trigger description with configuration summary, %@ = room key description"
++ "Wallet transaction trigger description with configuration summary, default"
++ "Wallet transaction trigger description with configuration summary; %lu = number of passes"
++ "Wallet transaction trigger past tense description, default"
++ "Web Knowledge eligibility overridden to %{bool}d via internal-build UserDefaults"
++ "Web Knowledge will be unavailable because Enhanced Siri isn't available on this device"
++ "Web Knowledge will be unavailable because this is a Chinese-region device"
++ "When Airplane Mode is turned [On/Off/On or Off]"
++ "When CarPlay [Is Connected/Is Disconnected/Is Connected or Disconnected]"
++ "When File is modified"
++ "When I arrive at [Location]"
++ "When I arrive at [Location] between [Start Time] and [End Time]"
++ "When I get a message"
++ "When I get an email"
++ "When I leave [Location]"
++ "When I leave [Location] between [Start Time] and [End Time]"
++ "When I receive a notification from [News]"
++ "When Low Power Mode [Is Turned On/Is Turned Off/Is Turned On or Off]"
++ "When Stage Manager [Is Turned On/Is Turned Off/Is Turned On or Off]"
++ "When [Any Card/My Visa] is tapped"
++ "When [Any Device/AirPods] is [Connected/Disconnected/Connected or Disconnected]"
++ "When [Any Network/AppleWiFi] is [Joined/Disconnected/Joined or Disconnected]"
++ "When [Any/Running] workout [Is Started/Is Ended/Is Started or Ended]"
++ "When [Any/Wake-Up/9:00 AM] alarm [Goes Off]"
++ "When [Do Not Disturb/Work] [Is Turned On/Is Turned Off/Is Turned On or Off]"
++ "When [Doorbell/Fire Alarm] is recognized"
++ "When [NFC Tag] is scanned"
++ "When [Weather] is [Opened/Closed/Opened or Closed]"
++ "When [Wind Down Begins/Bedtime Begins/Waking Up]"
++ "When battery level [Equals/Rises Above/Falls Below] [50%]"
++ "When display [Is Connected/Is Disconnected/Is Connected or Disconnected]"
++ "When keyboard is [Connected/Disconnected/Connected or Disconnected]"
++ "When power [Connects/Disconnects/Connects or Disconnects]"
++ "Wi-Fi Standard Parameter Enumeration Item for action Get Network Details"
++ "Wi-Fi network type label"
++ "Wi-Fi trigger description with configuration summary, when configured for a single network (%1$@ = device name, %2$@ = network name)"
++ "Wi-Fi trigger description with configuration summary, when configured for any network; %1$@ = device name, %2$@ = network type"
++ "Wi-Fi trigger past tense description, when configured for a single network (%1$@ = device name, %2$@ = network name)"
++ "Wi-Fi trigger past tense description, when configured for any network; %1$@ = device name, %2$@ = network type"
++ "WorkflowKit.Target"
++ "Workout Type Value Type Display Name"
++ "Workout trigger description with configuration summary"
++ "Workout trigger description with configuration summary, %@ = workout name"
++ "Workout trigger resource error"
++ "Write with Siri is not available in this region."
++ "Write with Siri is not supported on this device."
++ "Writing Tools actions hidden because regionally unavailable"
++ "[%s] Enum case '%s' not found in bundle: %s"
++ "[%s] Unable to resolve file attachment to a content collection: %s%s"
++ "[2 hours after] sunset"
++ "[30 minutes before] sunrise"
++ "com.apple.Fitness"
++ "com.apple.VoiceMemos"
++ "com.apple.VoiceMemos.WFAppSettingEntityUpdaterAction"
++ "com.apple.VoiceMemos.WFGetAppSettingAction"
++ "com.apple.homed.prefschanged"
++ "com.apple.mobileslideshow.StreamShareService - Parameter label for action"
++ "com.apple.mobileslideshow.StreamShareService - Parameter placeholder for action, parameter Images"
++ "com.apple.musicrecognition.RecognizeMusicIntent - Parameter label for action"
++ "com.apple.shortcuts.WFAppInFocusObserver.settle"
++ "com.apple.shortcuts.trigger"
++ "com.apple.toolkit.sync.homeAccessory"
++ "com.panic.iOS.Transmit.Share - Parameter Enumeration Item for action, parameter: Save To"
++ "com.panic.iOS.Transmit.Share - Parameter label for action"
++ "com.panic.iOS.Transmit.Share - Parameter placeholder for action, parameter Favorite Name"
++ "com.panic.iOS.Transmit.Share - Parameter placeholder for action, parameter Path"
++ "communal"
++ "consecutiveEnumerationAttempts"
++ "failedAddIdentifiers"
++ "fire trigger for any device"
++ "gave up re-enumerating"
++ "get app setting action parameter setting"
++ "get setting"
++ "iTranslate action"
++ "identifier type fallbackExtensionIdentifier "
++ "internal error failure reason"
++ "is.workflow.actions.addframetogif - Parameter label for action"
++ "is.workflow.actions.addframetogif - Parameter placeholder for action, parameter Delay Time"
++ "is.workflow.actions.addframetogif - Parameter placeholder for action, parameter GIF"
++ "is.workflow.actions.addframetogif - Parameter placeholder for action, parameter Height"
++ "is.workflow.actions.addframetogif - Parameter placeholder for action, parameter Image"
++ "is.workflow.actions.addframetogif - Parameter placeholder for action, parameter Width"
++ "is.workflow.actions.additemtolist - Parameter label for action"
++ "is.workflow.actions.additemtolist - Parameter placeholder for action, parameter Index"
++ "is.workflow.actions.additemtolist - Parameter placeholder for action, parameter Item"
++ "is.workflow.actions.additemtolist - Parameter placeholder for action, parameter List"
++ "is.workflow.actions.addmusictoupnext - Parameter Enumeration Item for action, parameter: Play"
++ "is.workflow.actions.addmusictoupnext - Parameter label for action"
++ "is.workflow.actions.addmusictoupnext - Parameter placeholder for action, parameter Music"
++ "is.workflow.actions.addnewcalendar - Parameter label for action"
++ "is.workflow.actions.addnewcalendar - Parameter placeholder for action, parameter Calendar Name"
++ "is.workflow.actions.addnewcalendar - Parameter prompt for action, parameter Calendar Name"
++ "is.workflow.actions.addnewreminder - Parameter Enumeration Item for action, parameter: Alert"
++ "is.workflow.actions.addnewreminder - Parameter Enumeration Item for action, parameter: Priority"
++ "is.workflow.actions.addnewreminder - Parameter Enumeration Item for action, parameter: Trigger"
++ "is.workflow.actions.addnewreminder - Parameter description for action, parameter Images"
++ "is.workflow.actions.addnewreminder - Parameter description for action, parameter List"
++ "is.workflow.actions.addnewreminder - Parameter description for action, parameter Location"
++ "is.workflow.actions.addnewreminder - Parameter description for action, parameter Notes"
++ "is.workflow.actions.addnewreminder - Parameter description for action, parameter Parent Reminder"
++ "is.workflow.actions.addnewreminder - Parameter description for action, parameter Person"
++ "is.workflow.actions.addnewreminder - Parameter description for action, parameter Radius"
++ "is.workflow.actions.addnewreminder - Parameter description for action, parameter Reminder"
++ "is.workflow.actions.addnewreminder - Parameter description for action, parameter Tags"
++ "is.workflow.actions.addnewreminder - Parameter description for action, parameter Time"
++ "is.workflow.actions.addnewreminder - Parameter description for action, parameter URL"
++ "is.workflow.actions.addnewreminder - Parameter label for Add New Reminder action for urgent reminder toggle"
++ "is.workflow.actions.addnewreminder - Parameter label for action"
++ "is.workflow.actions.addnewreminder - Parameter placeholder for action, parameter Notes"
++ "is.workflow.actions.addnewreminder - Parameter placeholder for action, parameter Time"
++ "is.workflow.actions.addnewreminder - Parameter placeholder for action, parameter URL"
++ "is.workflow.actions.addnewreminder - Parameter prompt for action, parameter Alert"
++ "is.workflow.actions.addnewreminder - Parameter prompt for action, parameter List"
++ "is.workflow.actions.addnewreminder - Parameter prompt for action, parameter Location"
++ "is.workflow.actions.addnewreminder - Parameter prompt for action, parameter Person"
++ "is.workflow.actions.addnewreminder - Parameter prompt for action, parameter Reminder"
++ "is.workflow.actions.addnewreminder - Parameter prompt for action, parameter Time"
++ "is.workflow.actions.addnewreminder - Parameter prompt for action, parameter Trigger"
++ "is.workflow.actions.address - Parameter label for action"
++ "is.workflow.actions.address - Parameter placeholder for action, parameter City"
++ "is.workflow.actions.address - Parameter placeholder for action, parameter Line 1"
++ "is.workflow.actions.address - Parameter placeholder for action, parameter Postal Code"
++ "is.workflow.actions.address - Parameter placeholder for action, parameter Region"
++ "is.workflow.actions.address - Parameter placeholder for action, parameter State"
++ "is.workflow.actions.addtoplaylist - Parameter label for action"
++ "is.workflow.actions.addtoplaylist - Parameter placeholder for action, parameter Music"
++ "is.workflow.actions.addtoplaylist - Parameter placeholder for action, parameter Playlist"
++ "is.workflow.actions.adjustdate - Parameter Enumeration Item for action, parameter: Operation"
++ "is.workflow.actions.adjustdate - Parameter label for action"
++ "is.workflow.actions.adjustdate - Parameter placeholder for action, parameter Duration"
++ "is.workflow.actions.airdropdocument - Parameter label for action"
++ "is.workflow.actions.airdropdocument - Parameter placeholder for action, parameter Content"
++ "is.workflow.actions.appearance – Parameter prompt for action, parameter State"
++ "is.workflow.actions.appendvariable - Parameter label for action"
++ "is.workflow.actions.appendvariable - Parameter placeholder for action, parameter Input"
++ "is.workflow.actions.appendvariable - Parameter placeholder for action, parameter Variable"
++ "is.workflow.actions.askllm - Input parameter description for Use Model action"
++ "is.workflow.actions.askllm - Parameter label for Use Model action"
++ "is.workflow.actions.askllm - Parameter label for action"
++ "is.workflow.actions.askllm - Parameter label for output type"
++ "is.workflow.actions.askllm - Siri prompt for Follow Up parameter"
++ "is.workflow.actions.askllm - Siri prompt for Model parameter"
++ "is.workflow.actions.askllm - Siri prompt for Output parameter"
++ "is.workflow.actions.askllm - Siri prompt for Request parameter"
++ "is.workflow.actions.askllm - Siri prompt for Use Broad World Knowledge parameter in Use Model action"
++ "is.workflow.actions.askllm - Use Broad World Knowledge parameter description in Use Model action"
++ "is.workflow.actions.avairyeditphoto - Parameter label for action"
++ "is.workflow.actions.avairyeditphoto - Parameter placeholder for action, parameter Document"
++ "is.workflow.actions.base64encode - Parameter Enumeration Item for action, parameter: Line Breaks"
++ "is.workflow.actions.base64encode - Parameter Enumeration Item for action, parameter: Mode"
++ "is.workflow.actions.base64encode - Parameter label for action"
++ "is.workflow.actions.base64encode - Parameter placeholder for action, parameter Input"
++ "is.workflow.actions.calculateexpression - Parameter label for action"
++ "is.workflow.actions.calculateexpression - Parameter placeholder for action, parameter Input"
++ "is.workflow.actions.calculateexpression - Parameter prompt for action, parameter Input"
++ "is.workflow.actions.choosefrommenu - Parameter Default Value for action, parameter menu items"
++ "is.workflow.actions.choosefrommenu - Parameter description for action, parameter Prompt"
++ "is.workflow.actions.choosefrommenu - Parameter label for action"
++ "is.workflow.actions.choosefrommenu - Parameter placeholder for action, parameter Prompt"
++ "is.workflow.actions.cloudapp.upload - Parameter Enumeration Item for action, parameter: Link Privacy"
++ "is.workflow.actions.cloudapp.upload - Parameter label for action"
++ "is.workflow.actions.cloudapp.upload - Parameter placeholder for action, parameter Content"
++ "is.workflow.actions.comment - Parameter label for action"
++ "is.workflow.actions.comment - Parameter placeholder for action, parameter Comment"
++ "is.workflow.actions.compresspdf - Parameter label for action"
++ "is.workflow.actions.compresspdf - Parameter placeholder for action, parameter PDF"
++ "is.workflow.actions.connecttoservers - Parameter label for action"
++ "is.workflow.actions.connecttoservers - Parameter placeholder for action, parameter smb://computer.local"
++ "is.workflow.actions.connecttoservers - Parameter prompt for action, parameter smb://computer.local"
++ "is.workflow.actions.contacts - Parameter label for action"
++ "is.workflow.actions.contacts - Parameter placeholder for action, parameter Contact"
++ "is.workflow.actions.createplaylist - Parameter label for action"
++ "is.workflow.actions.createplaylist - Parameter placeholder for action, parameter Author"
++ "is.workflow.actions.createplaylist - Parameter placeholder for action, parameter Description"
++ "is.workflow.actions.createplaylist - Parameter placeholder for action, parameter Music"
++ "is.workflow.actions.createplaylist - Parameter placeholder for action, parameter Playlist Name"
++ "is.workflow.actions.debug.contentattribution - Parameter label for action"
++ "is.workflow.actions.debug.contentattribution - Parameter placeholder for action, parameter Input"
++ "is.workflow.actions.deletestoredcontent - Parameter label for action"
++ "is.workflow.actions.deletestoredcontent - Parameter placeholder for action, parameter Variable"
++ "is.workflow.actions.deskconnect.send - Parameter label for action"
++ "is.workflow.actions.deskconnect.send - Parameter placeholder for action, parameter Content"
++ "is.workflow.actions.detect.address - Parameter label for action"
++ "is.workflow.actions.detect.address - Parameter placeholder for action, parameter Input"
++ "is.workflow.actions.detect.contacts - Parameter label for action"
++ "is.workflow.actions.detect.contacts - Parameter placeholder for action, parameter Input"
++ "is.workflow.actions.detect.date - Parameter label for action"
++ "is.workflow.actions.detect.date - Parameter placeholder for action, parameter Input"
++ "is.workflow.actions.detect.dictionary - Parameter label for action"
++ "is.workflow.actions.detect.dictionary - Parameter placeholder for action, parameter Input"
++ "is.workflow.actions.detect.emailaddress - Parameter label for action"
++ "is.workflow.actions.detect.emailaddress - Parameter placeholder for action, parameter Input"
++ "is.workflow.actions.detect.images - Parameter label for action"
++ "is.workflow.actions.detect.images - Parameter placeholder for action, parameter Input"
++ "is.workflow.actions.detect.link - Parameter label for action"
++ "is.workflow.actions.detect.link - Parameter placeholder for action, parameter Input"
++ "is.workflow.actions.detect.number - Parameter label for action"
++ "is.workflow.actions.detect.phonenumber - Parameter label for action"
++ "is.workflow.actions.detect.phonenumber - Parameter placeholder for action, parameter Input"
++ "is.workflow.actions.detect.text - Parameter label for action"
++ "is.workflow.actions.detect.text - Parameter placeholder for action, parameter Input"
++ "is.workflow.actions.detectlanguage - Parameter label for action"
++ "is.workflow.actions.dictatetext - Parameter Enumeration Item for action, parameter: Stop Listening"
++ "is.workflow.actions.dictatetext - Parameter label for action"
++ "is.workflow.actions.dictionary - Parameter label for action"
++ "is.workflow.actions.display.always-on.set – Parameter prompt for action, parameter State"
++ "is.workflow.actions.dnd.set - Parameter Enumeration Item for action, parameter: Operation"
++ "is.workflow.actions.dnd.set - Parameter Enumeration Item for action, parameter: Until"
++ "is.workflow.actions.dnd.set - Parameter description for action, parameter Event"
++ "is.workflow.actions.dnd.set - Parameter description for action, parameter Time"
++ "is.workflow.actions.dnd.set - Parameter label for action"
++ "is.workflow.actions.dnd.set - Parameter placeholder for action, parameter Event"
++ "is.workflow.actions.dnd.set - Parameter placeholder for action, parameter Time"
++ "is.workflow.actions.documentpicker.open - Parameter description for action, parameter Path"
++ "is.workflow.actions.documentpicker.open - Parameter label for action"
++ "is.workflow.actions.documentpicker.open - Parameter placeholder for action, parameter Path"
++ "is.workflow.actions.documentpicker.save - Parameter description for action, parameter Subpath"
++ "is.workflow.actions.documentpicker.save - Parameter label for action"
++ "is.workflow.actions.documentpicker.save - Parameter placeholder for action, parameter File"
++ "is.workflow.actions.documentpicker.save - Parameter placeholder for action, parameter Folder"
++ "is.workflow.actions.documentpicker.save - Parameter placeholder for action, parameter Subpath"
++ "is.workflow.actions.downloadurl - Parameter Enumeration Item for action, parameter: Request Body"
++ "is.workflow.actions.downloadurl - Parameter description for action, parameter Method"
++ "is.workflow.actions.downloadurl - Parameter item type name for action, parameter Form Values"
++ "is.workflow.actions.downloadurl - Parameter item type name for action, parameter Headers"
++ "is.workflow.actions.downloadurl - Parameter item type name for action, parameter JSON Values"
++ "is.workflow.actions.downloadurl - Parameter label for action"
++ "is.workflow.actions.downloadurl - Parameter placeholder for action, parameter File"
++ "is.workflow.actions.downloadurl - Parameter placeholder for action, parameter URL"
++ "is.workflow.actions.dropbox.appendfile - Parameter Enumeration Item for action, parameter: Mode"
++ "is.workflow.actions.dropbox.appendfile - Parameter description for action, parameter File Path"
++ "is.workflow.actions.dropbox.appendfile - Parameter label for action"
++ "is.workflow.actions.dropbox.appendfile - Parameter placeholder for action, parameter File Path"
++ "is.workflow.actions.dropbox.createfolder - Parameter description for action, parameter Path"
++ "is.workflow.actions.dropbox.createfolder - Parameter label for action"
++ "is.workflow.actions.dropbox.open - Parameter description for action, parameter File Path"
++ "is.workflow.actions.dropbox.open - Parameter label for action"
++ "is.workflow.actions.dropbox.open - Parameter placeholder for action, parameter File Path"
++ "is.workflow.actions.dropbox.open - Parameter placeholder for action, parameter Initial Path"
++ "is.workflow.actions.dropbox.savefile - Parameter description for action, parameter Destination Path"
++ "is.workflow.actions.dropbox.savefile - Parameter label for action"
++ "is.workflow.actions.dropbox.savefile - Parameter placeholder for action, parameter File"
++ "is.workflow.actions.ejectdisk - Parameter label for action"
++ "is.workflow.actions.email - Parameter label for action"
++ "is.workflow.actions.email - Parameter placeholder for action, parameter Email Address"
++ "is.workflow.actions.encodemedia - Parameter Enumeration Item for action, parameter: Format"
++ "is.workflow.actions.encodemedia - Parameter Enumeration Item for action, parameter: Size"
++ "is.workflow.actions.encodemedia - Parameter Enumeration Item for action, parameter: Speed"
++ "is.workflow.actions.encodemedia - Parameter description for action, parameter Custom Speed"
++ "is.workflow.actions.encodemedia - Parameter label for action"
++ "is.workflow.actions.encodemedia - Parameter placeholder for action, parameter Album"
++ "is.workflow.actions.encodemedia - Parameter placeholder for action, parameter Artist"
++ "is.workflow.actions.encodemedia - Parameter placeholder for action, parameter Artwork"
++ "is.workflow.actions.encodemedia - Parameter placeholder for action, parameter Custom Speed"
++ "is.workflow.actions.encodemedia - Parameter placeholder for action, parameter Genre"
++ "is.workflow.actions.encodemedia - Parameter placeholder for action, parameter Media"
++ "is.workflow.actions.encodemedia - Parameter placeholder for action, parameter Title"
++ "is.workflow.actions.encodemedia - Parameter placeholder for action, parameter Year"
++ "is.workflow.actions.evernote.append - Parameter Enumeration Item for action, parameter: Mode"
++ "is.workflow.actions.evernote.append - Parameter description for action, parameter In Notebook"
++ "is.workflow.actions.evernote.append - Parameter description for action, parameter Note Title"
++ "is.workflow.actions.evernote.append - Parameter label for action"
++ "is.workflow.actions.evernote.append - Parameter placeholder for action, parameter Content"
++ "is.workflow.actions.evernote.delete - Parameter label for action"
++ "is.workflow.actions.evernote.delete - Parameter placeholder for action, parameter Notes"
++ "is.workflow.actions.evernote.get - Parameter description for action, parameter In Notebook"
++ "is.workflow.actions.evernote.get - Parameter description for action, parameter Tags"
++ "is.workflow.actions.evernote.get - Parameter description for action, parameter Title Search"
++ "is.workflow.actions.evernote.get - Parameter label for action"
++ "is.workflow.actions.evernote.get - Parameter placeholder for action, parameter Tags"
++ "is.workflow.actions.evernote.get - Parameter placeholder for action, parameter Title Search"
++ "is.workflow.actions.evernote.get - Parameter stepper description for action, parameter WFEvernoteNotesCount"
++ "is.workflow.actions.evernote.get - Parameter stepper prefix (e.g. “Take” for “Take 3 photos”) for action, parameter WFEvernoteNotesCount"
++ "is.workflow.actions.evernote.getlink - Parameter description for action, parameter In-App Link"
++ "is.workflow.actions.evernote.getlink - Parameter label for action"
++ "is.workflow.actions.evernote.getlink - Parameter placeholder for action, parameter Note"
++ "is.workflow.actions.evernote.new - Parameter description for action, parameter Notebook"
++ "is.workflow.actions.evernote.new - Parameter description for action, parameter Tags"
++ "is.workflow.actions.evernote.new - Parameter label for action"
++ "is.workflow.actions.evernote.new - Parameter placeholder for action, parameter Content"
++ "is.workflow.actions.evernote.new - Parameter placeholder for action, parameter Note Title"
++ "is.workflow.actions.evernote.new - Parameter placeholder for action, parameter Tags"
++ "is.workflow.actions.exportsong - Parameter label for action"
++ "is.workflow.actions.file - Parameter label for action"
++ "is.workflow.actions.file.append - Parameter Enumeration Item for action, parameter: Mode"
++ "is.workflow.actions.file.append - Parameter description for action, parameter File Path"
++ "is.workflow.actions.file.append - Parameter label for action"
++ "is.workflow.actions.file.append - Parameter placeholder for action, parameter File Path"
++ "is.workflow.actions.file.createfolder - Parameter description for action, parameter Path"
++ "is.workflow.actions.file.createfolder - Parameter label for action"
++ "is.workflow.actions.file.createfolder - Parameter placeholder for action, parameter Folder"
++ "is.workflow.actions.file.delete - Parameter description for action, parameter Delete Immediately"
++ "is.workflow.actions.file.delete - Parameter label for action"
++ "is.workflow.actions.file.delete - Parameter placeholder for action, parameter Files"
++ "is.workflow.actions.file.getfoldercontents - Parameter description for action, parameter Recursive"
++ "is.workflow.actions.file.getfoldercontents - Parameter label for action"
++ "is.workflow.actions.file.getfoldercontents - Parameter placeholder for action, parameter Folder"
++ "is.workflow.actions.file.getlink - Parameter label for action"
++ "is.workflow.actions.file.getlink - Parameter placeholder for action, parameter File"
++ "is.workflow.actions.file.label - Parameter label for action"
++ "is.workflow.actions.file.label - Parameter placeholder for action, parameter Files"
++ "is.workflow.actions.file.label - Parameter placeholder for action, parameter Label Color"
++ "is.workflow.actions.file.move - Parameter label for action"
++ "is.workflow.actions.file.rename - Parameter label for action"
++ "is.workflow.actions.file.rename - Parameter placeholder for action, parameter Name"
++ "is.workflow.actions.file.reveal - Parameter label for action"
++ "is.workflow.actions.file.select - Parameter Enumeration Item for action, parameter: Type"
++ "is.workflow.actions.file.select - Parameter label for action"
++ "is.workflow.actions.format.filesize - Parameter label for action"
++ "is.workflow.actions.format.filesize - Parameter placeholder for action, parameter File Size"
++ "is.workflow.actions.generatebarcode - Parameter Enumeration Item for action, parameter: Error Correction"
++ "is.workflow.actions.generatebarcode - Parameter label for action"
++ "is.workflow.actions.generatebarcode - Parameter placeholder for action, parameter Text"
++ "is.workflow.actions.get.playlist - Parameter label for action"
++ "is.workflow.actions.getarticle - Parameter label for action"
++ "is.workflow.actions.getclassaction - Parameter label for action"
++ "is.workflow.actions.getclassaction - Parameter placeholder for action, parameter Class"
++ "is.workflow.actions.getclassaction - Parameter placeholder for action, parameter Input"
++ "is.workflow.actions.getcurrentlocation - Parameter label for action"
++ "is.workflow.actions.getcurrentsong - Parameter Enumeration Item for action, parameter: Get"
++ "is.workflow.actions.getcurrentsong - Parameter label for action"
++ "is.workflow.actions.getdevicedetails - Parameter Enumeration Item for action, parameter: Get"
++ "is.workflow.actions.getdevicedetails - Parameter label for action"
++ "is.workflow.actions.getdirections - Parameter description for action"
++ "is.workflow.actions.getdirections - Parameter label for action"
++ "is.workflow.actions.getdistance - Parameter Enumeration Item for action, parameter: Route Type"
++ "is.workflow.actions.getdistance - Parameter Enumeration Item for action, parameter: Unit"
++ "is.workflow.actions.getdistance - Parameter description for action"
++ "is.workflow.actions.getdistance - Parameter label for action"
++ "is.workflow.actions.getdistance - Parameter prompt for action, parameter Avoid Highways"
++ "is.workflow.actions.getdistance - Parameter prompt for action, parameter Avoid Tolls"
++ "is.workflow.actions.getepisodesforpodcast - Parameter label for action"
++ "is.workflow.actions.getepisodesforpodcast - Parameter placeholder for action, parameter Podcast"
++ "is.workflow.actions.getframesfromimage - Parameter label for action"
++ "is.workflow.actions.getframesfromimage - Parameter placeholder for action, parameter Image"
++ "is.workflow.actions.gethalfwaypoint - Parameter label for action"
++ "is.workflow.actions.gethomeaccessorystate - Parameter label for action"
++ "is.workflow.actions.gethtmlfromrichtext - Parameter description for action, parameter Make Full Document"
++ "is.workflow.actions.gethtmlfromrichtext - Parameter label for action"
++ "is.workflow.actions.gethtmlfromrichtext - Parameter placeholder for action, parameter Rich Text"
++ "is.workflow.actions.getipaddress - Parameter Enumeration Item for action, parameter: Address"
++ "is.workflow.actions.getipaddress - Parameter Enumeration Item for action, parameter: Type"
++ "is.workflow.actions.getipaddress - Parameter label for action"
++ "is.workflow.actions.getitemfromlist - Parameter label for action"
++ "is.workflow.actions.getitemfromlist - Parameter placeholder for action, parameter Index"
++ "is.workflow.actions.getitemfromlist - Parameter placeholder for action, parameter List"
++ "is.workflow.actions.getitemname - Parameter description for action, parameter Get Web Page Title"
++ "is.workflow.actions.getitemname - Parameter label for action"
++ "is.workflow.actions.getitemname - Parameter placeholder for action, parameter Item"
++ "is.workflow.actions.getitemtype - Parameter label for action"
++ "is.workflow.actions.getitemtype - Parameter placeholder for action, parameter Item"
++ "is.workflow.actions.getlastphoto - Parameter label for action"
++ "is.workflow.actions.getlastphoto - Parameter stepper description for action, parameter WFGetLatestPhotoCount"
++ "is.workflow.actions.getlastscreenshot - Parameter stepper description for action, parameter WFGetLatestPhotoCount"
++ "is.workflow.actions.getlastvideo - Parameter stepper description for action, parameter WFGetLatestPhotoCount"
++ "is.workflow.actions.getlatestbursts - Parameter stepper description for action, parameter WFGetLatestPhotoCount"
++ "is.workflow.actions.getlatestlivephotos - Parameter stepper description for action, parameter WFGetLatestPhotoCount"
++ "is.workflow.actions.getmapslink - Parameter label for action"
++ "is.workflow.actions.getmapslink - Parameter placeholder for action, parameter Location"
++ "is.workflow.actions.getmarkdownfromrichtext - Parameter label for action"
++ "is.workflow.actions.getmarkdownfromrichtext - Parameter placeholder for action, parameter Rich Text"
++ "is.workflow.actions.getmyworkflows - Parameter label for action"
++ "is.workflow.actions.getonscreencontext - Parameter Enumeration Item for action, parameter: Scope"
++ "is.workflow.actions.getonscreencontext - Parameter label for limit toggle"
++ "is.workflow.actions.getonscreencontext - Parameter label for result type"
++ "is.workflow.actions.getonscreencontext - Parameter label for scope"
++ "is.workflow.actions.getonscreencontext - Parameter prompt for action, parameter Context Type"
++ "is.workflow.actions.getonscreencontext - Parameter prompt for action, parameter Limit"
++ "is.workflow.actions.getonscreencontext - Parameter prompt for action, parameter Scope"
++ "is.workflow.actions.getparentdirectory - Parameter label for action"
++ "is.workflow.actions.getrichtextfromhtml - Parameter label for action"
++ "is.workflow.actions.getrichtextfromhtml - Parameter placeholder for action, parameter HTML"
++ "is.workflow.actions.getrichtextfrommarkdown - Parameter label for action"
++ "is.workflow.actions.getrichtextfrommarkdown - Parameter placeholder for action, parameter Markdown Text"
++ "is.workflow.actions.getstoredcontent - Parameter label for action"
++ "is.workflow.actions.getstoredcontent - Parameter placeholder for action, parameter Variable"
++ "is.workflow.actions.gettext - Parameter label for action"
++ "is.workflow.actions.gettext - Parameter placeholder for action, parameter Text"
++ "is.workflow.actions.gettextfrompdf - Parameter Enumeration Item for action, parameter: Type"
++ "is.workflow.actions.gettextfrompdf - Parameter label for action"
++ "is.workflow.actions.gettextfrompdf - Parameter placeholder for action, parameter Combine Pages"
++ "is.workflow.actions.gettextfrompdf - Parameter placeholder for action, parameter PDF"
++ "is.workflow.actions.gettextfrompdf - Parameter placeholder for action, parameter Page Footer Text"
++ "is.workflow.actions.gettextfrompdf - Parameter placeholder for action, parameter Page Header Text"
++ "is.workflow.actions.gettextfrompdf - Parameter placeholder for action, parameter Type"
++ "is.workflow.actions.gettraveltime - Parameter Enumeration Item for action, parameter: Mode"
++ "is.workflow.actions.gettraveltime - Parameter description for action"
++ "is.workflow.actions.gettraveltime - Parameter label for action"
++ "is.workflow.actions.gettraveltime - Parameter prompt for action, parameter Avoid Highways"
++ "is.workflow.actions.gettraveltime - Parameter prompt for action, parameter Avoid Tolls"
++ "is.workflow.actions.gettraveltime - Parameter prompt for action, parameter End Location"
++ "is.workflow.actions.gettraveltime - Parameter prompt for action, parameter Start Location"
++ "is.workflow.actions.gettypeaction - Parameter label for action"
++ "is.workflow.actions.gettypeaction - Parameter placeholder for action, parameter Input"
++ "is.workflow.actions.gettypeaction - Parameter placeholder for action, parameter Type"
++ "is.workflow.actions.getupcomingevents - Parameter Enumeration Item for action, parameter: Day"
++ "is.workflow.actions.getupcomingevents - Parameter label for action"
++ "is.workflow.actions.getupcomingevents - Parameter placeholder for action, parameter Specified Day"
++ "is.workflow.actions.getupcomingevents - Parameter prompt for action, parameter Calendar"
++ "is.workflow.actions.getupcomingevents - Parameter prompt for action, parameter Day"
++ "is.workflow.actions.getupcomingevents - Parameter prompt for action, parameter WFGetUpcomingItemCount"
++ "is.workflow.actions.getupcomingevents - Parameter stepper description for action, parameter WFGetUpcomingItemCount"
++ "is.workflow.actions.getupcomingevents - Parameter stepper prefix (e.g. “Take” for “Take 3 photos”) for action, parameter WFGetUpcomingItemCount"
++ "is.workflow.actions.getupcomingreminders - Parameter label for action"
++ "is.workflow.actions.getupcomingreminders - Parameter prompt for action, parameter WFGetUpcomingItemCount"
++ "is.workflow.actions.getupcomingreminders - Parameter stepper description for action, parameter WFGetUpcomingItemCount"
++ "is.workflow.actions.getupcomingreminders - Parameter stepper prefix (e.g. “Take” for “Take 3 photos”) for action, parameter WFGetUpcomingItemCount"
++ "is.workflow.actions.geturlcomponent - Parameter Enumeration Item for action, parameter: Component"
++ "is.workflow.actions.geturlcomponent - Parameter label for action"
++ "is.workflow.actions.getvariable - Parameter label for action"
++ "is.workflow.actions.getvariable - Parameter placeholder for action, parameter Variable"
++ "is.workflow.actions.getwebpagecontents - Parameter label for action"
++ "is.workflow.actions.getwifi - Parameter Enumeration Item for action, parameter: Get"
++ "is.workflow.actions.getwifi - Parameter label for action"
++ "is.workflow.actions.giphy - Parameter label for action"
++ "is.workflow.actions.giphy - Parameter placeholder for action, parameter Search"
++ "is.workflow.actions.giphy - Parameter stepper description for action, parameter WFGiphyLimit"
++ "is.workflow.actions.giphy - Parameter stepper prefix (e.g. “Take” for “Take 3 photos”) for action, parameter WFGiphyLimit"
++ "is.workflow.actions.goodreader.open - Parameter label for action"
++ "is.workflow.actions.goodreader.open - Parameter placeholder for action, parameter File"
++ "is.workflow.actions.handoffplayback - Parameter description for action, parameter Destination"
++ "is.workflow.actions.handoffplayback - Parameter description for action, parameter Source"
++ "is.workflow.actions.handoffplayback - Parameter label for action"
++ "is.workflow.actions.hash - Parameter Enumeration Item for action, parameter: Type"
++ "is.workflow.actions.hash - Parameter label for action"
++ "is.workflow.actions.health.quantity.log - Parameter description for action, parameter Date"
++ "is.workflow.actions.health.quantity.log - Parameter description for action, parameter End Date"
++ "is.workflow.actions.health.quantity.log - Parameter label for action"
++ "is.workflow.actions.health.quantity.log - Parameter placeholder for action, parameter Date"
++ "is.workflow.actions.health.quantity.log - Parameter placeholder for action, parameter End Date"
++ "is.workflow.actions.health.quantity.log - Parameter placeholder for action, parameter Type"
++ "is.workflow.actions.health.quantity.log - Parameter placeholder for action, parameter Value"
++ "is.workflow.actions.health.quantity.log - Parameter placeholder for action, parameter WFQuantitySampleAdditionalQuantity"
++ "is.workflow.actions.health.quantity.log - Parameter prompt for action, parameter Date"
++ "is.workflow.actions.health.quantity.log - Parameter prompt for action, parameter Type"
++ "is.workflow.actions.health.workout.log - Parameter description for action, parameter Calories"
++ "is.workflow.actions.health.workout.log - Parameter description for action, parameter Date"
++ "is.workflow.actions.health.workout.log - Parameter description for action, parameter Distance"
++ "is.workflow.actions.health.workout.log - Parameter description for action, parameter Duration"
++ "is.workflow.actions.health.workout.log - Parameter label for action"
++ "is.workflow.actions.health.workout.log - Parameter placeholder for action, parameter Calories"
++ "is.workflow.actions.health.workout.log - Parameter placeholder for action, parameter Date"
++ "is.workflow.actions.health.workout.log - Parameter placeholder for action, parameter Distance"
++ "is.workflow.actions.health.workout.log - Parameter placeholder for action, parameter Duration"
++ "is.workflow.actions.health.workout.log - Parameter prompt for action, parameter Calories"
++ "is.workflow.actions.health.workout.log - Parameter prompt for action, parameter Distance"
++ "is.workflow.actions.health.workout.log - Parameter prompt for action, parameter Duration"
++ "is.workflow.actions.health.workout.log - Parameter prompt for action, parameter Type"
++ "is.workflow.actions.hide.app - Parameter Enumeration Item for action, parameter: Mode"
++ "is.workflow.actions.hide.app - Parameter label for action"
++ "is.workflow.actions.hide.app - Parameter placeholder for action, parameter App"
++ "is.workflow.actions.hide.app - Parameter placeholder for action, parameter Apps"
++ "is.workflow.actions.homeaccessory - Parameter label for action"
++ "is.workflow.actions.image.combine - Parameter Enumeration Item for action, parameter: Mode"
++ "is.workflow.actions.image.combine - Parameter description for action, parameter Spacing"
++ "is.workflow.actions.image.combine - Parameter label for action"
++ "is.workflow.actions.image.combine - Parameter placeholder for action, parameter Images"
++ "is.workflow.actions.image.combine - Parameter placeholder for action, parameter Spacing"
++ "is.workflow.actions.image.convert - Parameter description for action, parameter Preserve Metadata"
++ "is.workflow.actions.image.convert - Parameter description for action, parameter Quality"
++ "is.workflow.actions.image.convert - Parameter label for action"
++ "is.workflow.actions.image.convert - Parameter placeholder for action, parameter Image"
++ "is.workflow.actions.image.convert.finder - Parameter Enumeration Item for action, parameter: File Format"
++ "is.workflow.actions.image.convert.finder - Parameter Enumeration Item for action, parameter: Image Size"
++ "is.workflow.actions.image.convert.finder - Parameter label for action"
++ "is.workflow.actions.image.convert.finder - Parameter placeholder for action, parameter Image"
++ "is.workflow.actions.image.crop - Parameter Enumeration Item for action, parameter: Position"
++ "is.workflow.actions.image.crop - Parameter description for action, parameter Position"
++ "is.workflow.actions.image.crop - Parameter label for action"
++ "is.workflow.actions.image.crop - Parameter placeholder for action, parameter Height"
++ "is.workflow.actions.image.crop - Parameter placeholder for action, parameter Image"
++ "is.workflow.actions.image.crop - Parameter placeholder for action, parameter Width"
++ "is.workflow.actions.image.crop - Parameter placeholder for action, parameter X Coordinate"
++ "is.workflow.actions.image.crop - Parameter placeholder for action, parameter Y Coordinate"
++ "is.workflow.actions.image.flip - Parameter label for action"
++ "is.workflow.actions.image.flip - Parameter placeholder for action, parameter Image"
++ "is.workflow.actions.image.mask - Parameter Enumeration Item for action, parameter: Type"
++ "is.workflow.actions.image.mask - Parameter description for action, parameter Corner Radius"
++ "is.workflow.actions.image.mask - Parameter description for action, parameter Custom Image"
++ "is.workflow.actions.image.mask - Parameter label for action"
++ "is.workflow.actions.image.mask - Parameter placeholder for action, parameter Corner Radius"
++ "is.workflow.actions.image.mask - Parameter placeholder for action, parameter Custom Image"
++ "is.workflow.actions.image.mask - Parameter placeholder for action, parameter Image"
++ "is.workflow.actions.image.resize - Parameter Enumeration Item for action, parameter: By"
++ "is.workflow.actions.image.resize - Parameter label for action"
++ "is.workflow.actions.image.resize - Parameter placeholder for action, parameter Height"
++ "is.workflow.actions.image.resize - Parameter placeholder for action, parameter Image"
++ "is.workflow.actions.image.resize - Parameter placeholder for action, parameter Longest Edge Size"
++ "is.workflow.actions.image.resize - Parameter placeholder for action, parameter Percentage"
++ "is.workflow.actions.image.resize - Parameter placeholder for action, parameter Width"
++ "is.workflow.actions.imgur.upload - Parameter Enumeration Item for action, parameter: Album Layout"
++ "is.workflow.actions.imgur.upload - Parameter Enumeration Item for action, parameter: Album Privacy"
++ "is.workflow.actions.imgur.upload - Parameter description for action, parameter Create Album"
++ "is.workflow.actions.imgur.upload - Parameter description for action, parameter Direct Link"
++ "is.workflow.actions.imgur.upload - Parameter label for action"
++ "is.workflow.actions.imgur.upload - Parameter placeholder for action, parameter Description"
++ "is.workflow.actions.imgur.upload - Parameter placeholder for action, parameter Images"
++ "is.workflow.actions.imgur.upload - Parameter placeholder for action, parameter Title"
++ "is.workflow.actions.importaudiofiles - Parameter Enumeration Item for action, parameter: Encoder"
++ "is.workflow.actions.importaudiofiles - Parameter label for action"
++ "is.workflow.actions.importaudiofiles - Parameter placeholder for action, parameter Audio Files"
++ "is.workflow.actions.importaudiofiles - Parameter placeholder for action, parameter Encoder"
++ "is.workflow.actions.input - Parameter Enumeration Item for action, parameter: If there’s no input"
++ "is.workflow.actions.input - Parameter Enumeration Item for action, parameter: Type"
++ "is.workflow.actions.input - Parameter label for action"
++ "is.workflow.actions.input - Parameter placeholder for action, parameter Input Surface"
++ "is.workflow.actions.input - Parameter placeholder for action, parameter Input Type"
++ "is.workflow.actions.input - Parameter placeholder for action, parameter Response"
++ "is.workflow.actions.input - Parameter prompt for action, parameter Input Type"
++ "is.workflow.actions.instapaper.add - Parameter description for action, parameter Folder"
++ "is.workflow.actions.instapaper.add - Parameter label for action"
++ "is.workflow.actions.instapaper.add - Parameter placeholder for action, parameter URL"
++ "is.workflow.actions.instapaper.get - Parameter description for action, parameter Folder"
++ "is.workflow.actions.instapaper.get - Parameter label for action"
++ "is.workflow.actions.instapaper.get - Parameter stepper description for action, parameter WFBookmarkCount"
++ "is.workflow.actions.instapaper.get - Parameter stepper prefix (e.g. “Take” for “Take 3 photos”) for action, parameter WFBookmarkCount"
++ "is.workflow.actions.lightroom.import - Parameter label for action"
++ "is.workflow.actions.lightroom.import - Parameter placeholder for action, parameter Photos"
++ "is.workflow.actions.list - Parameter Default Value for action, parameter Items"
++ "is.workflow.actions.list - Parameter label for action"
++ "is.workflow.actions.listeningmode.set - Parameter label for action"
++ "is.workflow.actions.location - Parameter label for action"
++ "is.workflow.actions.location - Parameter prompt for action, parameter Location"
++ "is.workflow.actions.lowpowermode.set – Parameter prompt for action, parameter State"
++ "is.workflow.actions.makediskimage - Parameter label for action"
++ "is.workflow.actions.makediskimage - Parameter placeholder for action, parameter Volume Name"
++ "is.workflow.actions.makegif - Parameter label for action"
++ "is.workflow.actions.makegif - Parameter placeholder for action, parameter Content"
++ "is.workflow.actions.makegif - Parameter placeholder for action, parameter Height"
++ "is.workflow.actions.makegif - Parameter placeholder for action, parameter Seconds Per Photo"
++ "is.workflow.actions.makegif - Parameter placeholder for action, parameter Width"
++ "is.workflow.actions.makegif - Parameter stepper description for action, parameter WFMakeGIFActionLoopCount"
++ "is.workflow.actions.makegif - Parameter stepper prefix (e.g. “Take” for “Take 3 photos”) for action, parameter WFMakeGIFActionLoopCount"
++ "is.workflow.actions.makeimagefrompdfpage - Parameter label for action"
++ "is.workflow.actions.makeimagefrompdfpage - Parameter placeholder for action, parameter Color"
++ "is.workflow.actions.makeimagefrompdfpage - Parameter placeholder for action, parameter Image Format"
++ "is.workflow.actions.makeimagefrompdfpage - Parameter placeholder for action, parameter PDF"
++ "is.workflow.actions.makeimagefrompdfpage - Parameter placeholder for action, parameter Resolution (dots per inch)"
++ "is.workflow.actions.makeimagefromrichtext - Parameter label for action"
++ "is.workflow.actions.makeimagefromrichtext - Parameter placeholder for action, parameter Height"
++ "is.workflow.actions.makeimagefromrichtext - Parameter placeholder for action, parameter Rich Text"
++ "is.workflow.actions.makeimagefromrichtext - Parameter placeholder for action, parameter Width"
++ "is.workflow.actions.makepdf - Parameter Enumeration Item for action, parameter: Include"
++ "is.workflow.actions.makepdf - Parameter Enumeration Item for action, parameter: Merge Behavior"
++ "is.workflow.actions.makepdf - Parameter description for action, parameter Merge Behavior"
++ "is.workflow.actions.makepdf - Parameter label for action"
++ "is.workflow.actions.makepdf - Parameter placeholder for action, parameter End Page #"
++ "is.workflow.actions.makepdf - Parameter placeholder for action, parameter Input"
++ "is.workflow.actions.makepdf - Parameter placeholder for action, parameter Page #"
++ "is.workflow.actions.makepdf - Parameter placeholder for action, parameter Start Page #"
++ "is.workflow.actions.makespokenaudiofromtext - Parameter label for action"
++ "is.workflow.actions.makespokenaudiofromtext - Parameter placeholder for action, parameter Text"
++ "is.workflow.actions.makevideofromgif - Parameter label for action"
++ "is.workflow.actions.makevideofromgif - Parameter placeholder for action, parameter Image"
++ "is.workflow.actions.makevideofromgif - Parameter stepper description for action, parameter WFMakeVideoFromGIFActionLoopCount"
++ "is.workflow.actions.makevideofromgif - Parameter stepper prefix (e.g. “Take” for “Take 3 photos”) for action, parameter WFMakeVideoFromGIFActionLoopCount"
++ "is.workflow.actions.makezip - Parameter label for action"
++ "is.workflow.actions.makezip - Parameter placeholder for action, parameter Archive Name"
++ "is.workflow.actions.makezip - Parameter placeholder for action, parameter Input"
++ "is.workflow.actions.math - Parameter Enumeration Item for action, parameter: Operation"
++ "is.workflow.actions.math - Parameter Enumeration Item for action, parameter: Scientific Operation"
++ "is.workflow.actions.math - Parameter label for action"
++ "is.workflow.actions.math - Parameter placeholder for action, parameter Number"
++ "is.workflow.actions.math - Parameter placeholder for action, parameter Operand"
++ "is.workflow.actions.measurement.convert - Parameter label for action"
++ "is.workflow.actions.measurement.convert - Parameter placeholder for action, parameter Measurement"
++ "is.workflow.actions.measurement.create - Parameter label for action"
++ "is.workflow.actions.mountdiskimage - Parameter label for action"
++ "is.workflow.actions.movewindow - Parameter Enumeration Item for action, parameter: Position"
++ "is.workflow.actions.movewindow - Parameter description for action, parameter Display"
++ "is.workflow.actions.movewindow - Parameter label for action"
++ "is.workflow.actions.movewindow - Parameter placeholder for action, parameter Display"
++ "is.workflow.actions.movewindow - Parameter placeholder for action, parameter Window"
++ "is.workflow.actions.movewindow - Parameter placeholder for action, parameter X"
++ "is.workflow.actions.movewindow - Parameter placeholder for action, parameter Y"
++ "is.workflow.actions.notification - Parameter label for action"
++ "is.workflow.actions.notification - Parameter placeholder for action, parameter Attachment"
++ "is.workflow.actions.notification - Parameter placeholder for action, parameter Body"
++ "is.workflow.actions.notification - Parameter placeholder for action, parameter Title"
++ "is.workflow.actions.number - Parameter label for action"
++ "is.workflow.actions.number - Parameter placeholder for action, parameter Number"
++ "is.workflow.actions.number.random - Parameter label for action"
++ "is.workflow.actions.number.random - Parameter placeholder for action, parameter Maximum"
++ "is.workflow.actions.number.random - Parameter placeholder for action, parameter Minimum"
++ "is.workflow.actions.openapp - Parameter Enumeration Item for action, parameter: Window Location & Size"
++ "is.workflow.actions.openapp - Parameter label for action"
++ "is.workflow.actions.openin - Parameter label for action"
++ "is.workflow.actions.openin - Parameter placeholder for action, parameter App"
++ "is.workflow.actions.openin - Parameter placeholder for action, parameter File"
++ "is.workflow.actions.openurl - Parameter label for action"
++ "is.workflow.actions.openxcallbackurl - Parameter description for action, parameter Custom Callback"
++ "is.workflow.actions.openxcallbackurl - Parameter description for action, parameter Custom X-Success URL"
++ "is.workflow.actions.openxcallbackurl - Parameter description for action, parameter X-Success URL"
++ "is.workflow.actions.openxcallbackurl - Parameter label for action"
++ "is.workflow.actions.openxcallbackurl - Parameter placeholder for action, parameter Cancel Key"
++ "is.workflow.actions.openxcallbackurl - Parameter placeholder for action, parameter Error Key"
++ "is.workflow.actions.openxcallbackurl - Parameter placeholder for action, parameter X-Callback URL"
++ "is.workflow.actions.output - Parameter Enumeration Item for action, parameter: If there’s nowhere to output"
++ "is.workflow.actions.output - Parameter label for action"
++ "is.workflow.actions.output - Parameter placeholder for action, parameter Result"
++ "is.workflow.actions.overlayimageonimage - Parameter Enumeration Item for action, parameter: Position"
++ "is.workflow.actions.overlayimageonimage - Parameter label for action"
++ "is.workflow.actions.overlayimageonimage - Parameter placeholder for action, parameter Height"
++ "is.workflow.actions.overlayimageonimage - Parameter placeholder for action, parameter Image"
++ "is.workflow.actions.overlayimageonimage - Parameter placeholder for action, parameter Opacity"
++ "is.workflow.actions.overlayimageonimage - Parameter placeholder for action, parameter Rotation (Degrees)"
++ "is.workflow.actions.overlayimageonimage - Parameter placeholder for action, parameter Width"
++ "is.workflow.actions.overlayimageonimage - Parameter placeholder for action, parameter X Coordinate"
++ "is.workflow.actions.overlayimageonimage - Parameter placeholder for action, parameter Y Coordinate"
++ "is.workflow.actions.overlaytext - Parameter Enumeration Item for action, parameter: Position"
++ "is.workflow.actions.overlaytext - Parameter Enumeration Item for action, parameter: Sizing"
++ "is.workflow.actions.overlaytext - Parameter Enumeration Item for action, parameter: Text Alignment"
++ "is.workflow.actions.overlaytext - Parameter description for action, parameter Font Size"
++ "is.workflow.actions.overlaytext - Parameter description for action, parameter Maximum Width"
++ "is.workflow.actions.overlaytext - Parameter description for action, parameter Offset"
++ "is.workflow.actions.overlaytext - Parameter description for action, parameter Rotation"
++ "is.workflow.actions.overlaytext - Parameter description for action, parameter Sizing"
++ "is.workflow.actions.overlaytext - Parameter description for action, parameter Stroke Width"
++ "is.workflow.actions.overlaytext - Parameter description for action, parameter Text Alignment"
++ "is.workflow.actions.overlaytext - Parameter description for action, parameter X Coordinate"
++ "is.workflow.actions.overlaytext - Parameter description for action, parameter Y Coordinate"
++ "is.workflow.actions.overlaytext - Parameter label for action"
++ "is.workflow.actions.overlaytext - Parameter placeholder for action, parameter Image"
++ "is.workflow.actions.overlaytext - Parameter placeholder for action, parameter X Coordinate"
++ "is.workflow.actions.overlaytext - Parameter placeholder for action, parameter Y Coordinate"
++ "is.workflow.actions.pausemusic - Parameter Enumeration Item for action, parameter: Play/Pause"
++ "is.workflow.actions.pausemusic - Parameter label for action"
++ "is.workflow.actions.phonenumber - Parameter label for action"
++ "is.workflow.actions.phonenumber - Parameter placeholder for action, parameter Phone Number"
++ "is.workflow.actions.photos.createalbum - Parameter description for action, parameter Album Name"
++ "is.workflow.actions.photos.createalbum - Parameter label for action"
++ "is.workflow.actions.photos.createalbum - Parameter placeholder for action, parameter Album Name"
++ "is.workflow.actions.photos.createalbum - Parameter placeholder for action, parameter Photos"
++ "is.workflow.actions.pinboard.add - Parameter label for action"
++ "is.workflow.actions.pinboard.add - Parameter placeholder for action, parameter Description"
++ "is.workflow.actions.pinboard.add - Parameter placeholder for action, parameter Tags"
++ "is.workflow.actions.pinboard.add - Parameter placeholder for action, parameter Title"
++ "is.workflow.actions.pinboard.get - Parameter description for action, parameter Tags"
++ "is.workflow.actions.pinboard.get - Parameter label for action"
++ "is.workflow.actions.pinboard.get - Parameter placeholder for action, parameter Tags"
++ "is.workflow.actions.pinboard.get - Parameter stepper description for action, parameter WFBookmarkCount"
++ "is.workflow.actions.pinboard.get - Parameter stepper prefix (e.g. “Take” for “Take 3 photos”) for action, parameter WFBookmarkCount"
++ "is.workflow.actions.playmusic - Parameter Enumeration Item for action, parameter: Repeat"
++ "is.workflow.actions.playmusic - Parameter Enumeration Item for action, parameter: Shuffle"
++ "is.workflow.actions.playmusic - Parameter description for action, parameter Music"
++ "is.workflow.actions.playmusic - Parameter label for action"
++ "is.workflow.actions.playpodcast - Parameter Enumeration Item for action, parameter: Playback Order"
++ "is.workflow.actions.playpodcast - Parameter description for action"
++ "is.workflow.actions.playpodcast - Parameter label for action"
++ "is.workflow.actions.playsound - Parameter label for action"
++ "is.workflow.actions.playsound - Parameter placeholder for action, parameter Sound File"
++ "is.workflow.actions.pocket.add - Parameter description for action, parameter Tags"
++ "is.workflow.actions.pocket.add - Parameter label for action"
++ "is.workflow.actions.pocket.add - Parameter placeholder for action, parameter Tags"
++ "is.workflow.actions.pocket.add - Parameter placeholder for action, parameter URL"
++ "is.workflow.actions.pocket.get - Parameter Enumeration Item for action, parameter: Type"
++ "is.workflow.actions.pocket.get - Parameter description for action, parameter Search"
++ "is.workflow.actions.pocket.get - Parameter description for action, parameter Tag"
++ "is.workflow.actions.pocket.get - Parameter label for action"
++ "is.workflow.actions.pocket.get - Parameter placeholder for action, parameter Search"
++ "is.workflow.actions.pocket.get - Parameter placeholder for action, parameter Tag"
++ "is.workflow.actions.pocket.get - Parameter stepper description for action, parameter WFPocketItemCount"
++ "is.workflow.actions.pocket.get - Parameter stepper prefix (e.g. “Take” for “Take 3 photos”) for action, parameter WFPocketItemCount"
++ "is.workflow.actions.podcasts.subscribe - Parameter label for action"
++ "is.workflow.actions.postonfacebook - Parameter label for action"
++ "is.workflow.actions.postonfacebook - Parameter placeholder for action, parameter Content"
++ "is.workflow.actions.previewdocument - Parameter label for action"
++ "is.workflow.actions.previewdocument - Parameter placeholder for action, parameter Input"
++ "is.workflow.actions.print - Parameter label for action"
++ "is.workflow.actions.print - Parameter placeholder for action, parameter Input"
++ "is.workflow.actions.quit.app - Parameter Enumeration Item for action, parameter: Mode"
++ "is.workflow.actions.quit.app - Parameter label for action"
++ "is.workflow.actions.quit.app - Parameter placeholder for action, parameter App"
++ "is.workflow.actions.quit.app - Parameter placeholder for action, parameter Apps"
++ "is.workflow.actions.readinglist - Parameter label for action"
++ "is.workflow.actions.readinglist - Parameter placeholder for action, parameter URL"
++ "is.workflow.actions.recordaudio - Parameter Enumeration Item for action, parameter: Audio Quality"
++ "is.workflow.actions.recordaudio - Parameter Enumeration Item for action, parameter: Finish Recording"
++ "is.workflow.actions.recordaudio - Parameter Enumeration Item for action, parameter: Start Recording"
++ "is.workflow.actions.recordaudio - Parameter description for action, parameter Audio Quality"
++ "is.workflow.actions.recordaudio - Parameter label for action"
++ "is.workflow.actions.reminders.showlist - Parameter description for action, parameter List"
++ "is.workflow.actions.reminders.showlist - Parameter label for action"
++ "is.workflow.actions.removeevents - Parameter description for action, parameter Include Future Events"
++ "is.workflow.actions.removeevents - Parameter label for action"
++ "is.workflow.actions.removeevents - Parameter placeholder for action, parameter Events"
++ "is.workflow.actions.removefromalbum - Parameter label for action"
++ "is.workflow.actions.removefromalbum - Parameter placeholder for action, parameter Album"
++ "is.workflow.actions.removefromalbum - Parameter placeholder for action, parameter Input"
++ "is.workflow.actions.removereminders - Parameter label for action"
++ "is.workflow.actions.removereminders - Parameter placeholder for action, parameter Reminders"
++ "is.workflow.actions.repeat.count - Parameter stepper description for action, parameter WFRepeatCount"
++ "is.workflow.actions.repeat.count - Parameter stepper prefix (e.g. “Take” for “Take 3 photos”) for action, parameter WFRepeatCount"
++ "is.workflow.actions.repeat.each - Parameter label for action"
++ "is.workflow.actions.repeat.each - Parameter placeholder for action, parameter Items"
++ "is.workflow.actions.resizewindow - Parameter Enumeration Item for action, parameter: Configuration"
++ "is.workflow.actions.resizewindow - Parameter label for action"
++ "is.workflow.actions.resizewindow - Parameter placeholder for action, parameter Height"
++ "is.workflow.actions.resizewindow - Parameter placeholder for action, parameter Width"
++ "is.workflow.actions.resizewindow - Parameter placeholder for action, parameter Window"
++ "is.workflow.actions.ride.requestride - Parameter label for action"
++ "is.workflow.actions.ride.requestride - Parameter prompt for action, parameter Drop Off Location"
++ "is.workflow.actions.ride.requestride - Parameter prompt for action, parameter Pickup Location"
++ "is.workflow.actions.ride.requestride - Parameter stepper description for action, parameter Party Size"
++ "is.workflow.actions.ride.requestride - Parameter stepper prefix (e.g. “Take” for “Take 3 photos”) for action, parameter Party Size"
++ "is.workflow.actions.round - Parameter Enumeration Item for action, parameter: Mode"
++ "is.workflow.actions.round - Parameter Enumeration Item for action, parameter: Value"
++ "is.workflow.actions.round - Parameter label for action"
++ "is.workflow.actions.round - Parameter placeholder for action, parameter Number"
++ "is.workflow.actions.round - Parameter placeholder for action, parameter Value"
++ "is.workflow.actions.rss - Parameter label for action"
++ "is.workflow.actions.rss - Parameter placeholder for action, parameter URL"
++ "is.workflow.actions.rss - Parameter stepper description for action, parameter WFRSSItemQuantity"
++ "is.workflow.actions.rss - Parameter stepper prefix (e.g. “Take” for “Take 3 photos”) for action, parameter WFRSSItemQuantity"
++ "is.workflow.actions.rss.extract - Parameter label for action"
++ "is.workflow.actions.rss.extract - Parameter placeholder for action, parameter Page"
++ "is.workflow.actions.runapplescript - Parameter default value for action, parameter Script"
++ "is.workflow.actions.runapplescript - Parameter label for action"
++ "is.workflow.actions.runapplescript - Parameter placeholder for action, parameter Input"
++ "is.workflow.actions.runextension - Parameter label for action"
++ "is.workflow.actions.runextension - Parameter placeholder for action, parameter Content"
++ "is.workflow.actions.runextension - Parameter prompt for action, parameter App"
++ "is.workflow.actions.runjavascriptforautomation - Parameter default value for action, parameter Script"
++ "is.workflow.actions.runjavascriptforautomation - Parameter label for action"
++ "is.workflow.actions.runjavascriptforautomation - Parameter placeholder for action, parameter Input"
++ "is.workflow.actions.runjavascriptonwebpage - Parameter default value for action, parameter JavaScript"
++ "is.workflow.actions.runjavascriptonwebpage - Parameter label for action"
++ "is.workflow.actions.runjavascriptonwebpage - Parameter placeholder for action, parameter JavaScript"
++ "is.workflow.actions.runjavascriptonwebpage - Parameter placeholder for action, parameter Web Page"
++ "is.workflow.actions.runshellscript - Parameter Enumeration Item for action, parameter: Pass Input"
++ "is.workflow.actions.runshellscript - Parameter description for action, parameter Pass Input"
++ "is.workflow.actions.runshellscript - Parameter description for action, parameter Run as Administrator"
++ "is.workflow.actions.runshellscript - Parameter description for action, parameter Shell"
++ "is.workflow.actions.runshellscript - Parameter label for action"
++ "is.workflow.actions.runshellscript - Parameter placeholder for action, parameter Input"
++ "is.workflow.actions.runsshscript - Parameter Enumeration Item for action, parameter: Authentication"
++ "is.workflow.actions.runsshscript - Parameter label for action"
++ "is.workflow.actions.runsshscript - Parameter placeholder for action, parameter Host"
++ "is.workflow.actions.runsshscript - Parameter placeholder for action, parameter Input"
++ "is.workflow.actions.runsshscript - Parameter placeholder for action, parameter Password"
++ "is.workflow.actions.runsshscript - Parameter placeholder for action, parameter Port"
++ "is.workflow.actions.runsshscript - Parameter placeholder for action, parameter Script"
++ "is.workflow.actions.runsshscript - Parameter placeholder for action, parameter User"
++ "is.workflow.actions.runworkflow - Parameter label for action"
++ "is.workflow.actions.runworkflow - Parameter placeholder for action, parameter Input"
++ "is.workflow.actions.runworkflow - Parameter placeholder for action, parameter Shortcut"
++ "is.workflow.actions.savetocameraroll - Parameter label for action"
++ "is.workflow.actions.savetocameraroll - Parameter placeholder for action, parameter Album"
++ "is.workflow.actions.savetocameraroll - Parameter placeholder for action, parameter Input"
++ "is.workflow.actions.searchappstore - Parameter label for action"
++ "is.workflow.actions.searchappstore - Parameter placeholder for action, parameter Search"
++ "is.workflow.actions.searchappstore - Parameter prompt for action, parameter Search"
++ "is.workflow.actions.searchappstore - Parameter stepper description for action, parameter WFItemLimit"
++ "is.workflow.actions.searchappstore - Parameter stepper prefix (e.g. “Take” for “Take 3 photos”) for action, parameter WFItemLimit"
++ "is.workflow.actions.searchitunes - Parameter label for action"
++ "is.workflow.actions.searchitunes - Parameter placeholder for action, parameter Search"
++ "is.workflow.actions.searchitunes - Parameter stepper description for action, parameter WFItemLimit"
++ "is.workflow.actions.searchitunes - Parameter stepper prefix (e.g. “Take” for “Take 3 photos”) for action, parameter WFItemLimit"
++ "is.workflow.actions.searchlocalbusinesses - Parameter Enumeration Item for action, parameter: Sort By"
++ "is.workflow.actions.searchlocalbusinesses - Parameter description for action, parameter Search"
++ "is.workflow.actions.searchlocalbusinesses - Parameter description for action, parameter Sort By"
++ "is.workflow.actions.searchlocalbusinesses - Parameter label for action"
++ "is.workflow.actions.searchlocalbusinesses - Parameter placeholder for action, parameter Search"
++ "is.workflow.actions.searchlocalbusinesses - Parameter prompt for action, parameter Search"
++ "is.workflow.actions.searchlocalbusinesses - Parameter prompt for distance radius when searching for local businesses"
++ "is.workflow.actions.searchlocalbusinesses - Parameter prompt for starting location when searching for local businesses"
++ "is.workflow.actions.searchmaps - Parameter label for action"
++ "is.workflow.actions.searchmaps - Parameter placeholder for action, parameter Location"
++ "is.workflow.actions.searchpodcasts - Parameter label for action"
++ "is.workflow.actions.searchpodcasts - Parameter placeholder for action, parameter Search"
++ "is.workflow.actions.searchpodcasts - Parameter prompt for action, parameter Search"
++ "is.workflow.actions.searchpodcasts - Parameter stepper description for action, parameter WFItemLimit"
++ "is.workflow.actions.searchpodcasts - Parameter stepper prefix (e.g. “Take” for “Take 3 photos”) for action, parameter WFItemLimit"
++ "is.workflow.actions.searchweb - Parameter Enumeration Item for action, parameter: Service"
++ "is.workflow.actions.searchweb - Parameter label for action"
++ "is.workflow.actions.searchweb - Parameter placeholder for action, parameter Service"
++ "is.workflow.actions.searchweb - Parameter placeholder for action, parameter Text"
++ "is.workflow.actions.seek - Parameter Enumeration Item for action, parameter: Seek Type"
++ "is.workflow.actions.seek - Parameter label for action"
++ "is.workflow.actions.seek - Parameter placeholder for action, parameter Time Interval"
++ "is.workflow.actions.selectcontacts - Parameter label for action"
++ "is.workflow.actions.selectphoto - Parameter Enumeration Item for action, parameter: Include"
++ "is.workflow.actions.selectphoto - Parameter label for action"
++ "is.workflow.actions.selectphoto - Parameter prompt for action, parameter Select Multiple"
++ "is.workflow.actions.sendemail - Parameter description for action, parameter From"
++ "is.workflow.actions.sendemail - Parameter label for action"
++ "is.workflow.actions.sendemail - Parameter placeholder for action, parameter Bcc"
++ "is.workflow.actions.sendemail - Parameter placeholder for action, parameter Cc"
++ "is.workflow.actions.sendemail - Parameter placeholder for action, parameter From"
++ "is.workflow.actions.sendemail - Parameter placeholder for action, parameter Message"
++ "is.workflow.actions.sendemail - Parameter placeholder for action, parameter Save as Draft"
++ "is.workflow.actions.sendemail - Parameter placeholder for action, parameter To"
++ "is.workflow.actions.sendemail - Parameter prompt for action, parameter Bcc"
++ "is.workflow.actions.sendemail - Parameter prompt for action, parameter Cc"
++ "is.workflow.actions.sendemail - Parameter prompt for action, parameter Message"
++ "is.workflow.actions.sendemail - Parameter prompt for action, parameter Save as Draft"
++ "is.workflow.actions.sendemail - Parameter prompt for action, parameter Subject"
++ "is.workflow.actions.sendemail - Parameter prompt for action, parameter To"
++ "is.workflow.actions.sendmessage - Parameter label for action"
++ "is.workflow.actions.sendmessage - Parameter placeholder for action, parameter Message"
++ "is.workflow.actions.sendmessage - Parameter prompt for action, parameter App"
++ "is.workflow.actions.sendmessage - Parameter prompt for action, parameter Message"
++ "is.workflow.actions.sendmessage - Parameter prompt for action, parameter Recipients"
++ "is.workflow.actions.setbrightness - Parameter description for action, parameter Brightness"
++ "is.workflow.actions.setitemname - Parameter description for action, parameter Don't Include File Extension"
++ "is.workflow.actions.setitemname - Parameter label for action"
++ "is.workflow.actions.setitemname - Parameter placeholder for action, parameter Input"
++ "is.workflow.actions.setitemname - Parameter placeholder for action, parameter Name"
++ "is.workflow.actions.setparkedcar - Parameter description for action, parameter Image"
++ "is.workflow.actions.setparkedcar - Parameter description for action, parameter Location"
++ "is.workflow.actions.setparkedcar - Parameter description for action, parameter Notes"
++ "is.workflow.actions.setparkedcar - Parameter label for action"
++ "is.workflow.actions.setparkedcar - Parameter placeholder for action, parameter Image"
++ "is.workflow.actions.setparkedcar - Parameter prompt for action, parameter Location"
++ "is.workflow.actions.setplaybackdestination - Parameter Enumeration Item for action, parameter: Operation"
++ "is.workflow.actions.setplaybackdestination - Parameter description for action, parameter Device"
++ "is.workflow.actions.setplaybackdestination - Parameter label for action"
++ "is.workflow.actions.setstoredcontent - Parameter label for action"
++ "is.workflow.actions.setstoredcontent - Parameter placeholder for action, parameter Input"
++ "is.workflow.actions.setstoredcontent - Parameter placeholder for action, parameter Variable"
++ "is.workflow.actions.setvalueforkey - Parameter label for action"
++ "is.workflow.actions.setvalueforkey - Parameter placeholder for action, parameter Dictionary"
++ "is.workflow.actions.setvalueforkey - Parameter placeholder for action, parameter Key"
++ "is.workflow.actions.setvalueforkey - Parameter placeholder for action, parameter Value"
++ "is.workflow.actions.setvariable - Parameter label for action"
++ "is.workflow.actions.setvariable - Parameter placeholder for action, parameter Input"
++ "is.workflow.actions.setvariable - Parameter placeholder for action, parameter Variable"
++ "is.workflow.actions.setvolume - Parameter Enumeration Item for action, parameter: Volume Setting"
++ "is.workflow.actions.setvolume - Parameter description for action, parameter Volume"
++ "is.workflow.actions.setvolume - Parameter description for action, parameter Volume Setting"
++ "is.workflow.actions.setvolume - Parameter label for action"
++ "is.workflow.actions.share - Parameter label for action"
++ "is.workflow.actions.share - Parameter placeholder for action, parameter Content"
++ "is.workflow.actions.shazamMedia - Parameter label for action"
++ "is.workflow.actions.showdefinition - Parameter label for action"
++ "is.workflow.actions.showdefinition - Parameter placeholder for action, parameter Word"
++ "is.workflow.actions.showinblindsquare - Parameter label for action"
++ "is.workflow.actions.showinstore - Parameter label for action"
++ "is.workflow.actions.showinstore - Parameter placeholder for action, parameter Product"
++ "is.workflow.actions.showresult - Parameter label for action"
++ "is.workflow.actions.showresult - Parameter placeholder for action, parameter Result"
++ "is.workflow.actions.showwebpage - Parameter description for action, parameter Enter Safari Reader"
++ "is.workflow.actions.showwebpage - Parameter label for action"
++ "is.workflow.actions.showwebpage - Parameter placeholder for action, parameter URL"
++ "is.workflow.actions.sirikit.donation.handle - Parameter label for action"
++ "is.workflow.actions.skipback - Parameter Enumeration Item for action, parameter: Skip To"
++ "is.workflow.actions.skipback - Parameter label for action"
++ "is.workflow.actions.skipforward - Parameter label for action"
++ "is.workflow.actions.slack.send - Parameter label for action"
++ "is.workflow.actions.speaktext - Parameter label for action"
++ "is.workflow.actions.splitpdf - Parameter label for action"
++ "is.workflow.actions.splitpdf - Parameter placeholder for action, parameter PDF"
++ "is.workflow.actions.splitscreen - Parameter Enumeration Item for action, parameter: Ratio"
++ "is.workflow.actions.splitscreen - Parameter label for action"
++ "is.workflow.actions.spotlightsearch - Parameter label for action"
++ "is.workflow.actions.spotlightsearch - Parameter label for result type"
++ "is.workflow.actions.spotlightsearch - Parameter placeholder for action, parameter Text"
++ "is.workflow.actions.spotlightsearch - Parameter stepper description for action, parameter WFSpotlightSearchLimit"
++ "is.workflow.actions.statistics - Parameter Enumeration Item for action, parameter: Operation"
++ "is.workflow.actions.statistics - Parameter label for action"
++ "is.workflow.actions.statistics - Parameter placeholder for action, parameter Input"
++ "is.workflow.actions.takevideo - Parameter Enumeration Item for action, parameter: Camera"
++ "is.workflow.actions.takevideo - Parameter Enumeration Item for action, parameter: Quality"
++ "is.workflow.actions.takevideo - Parameter Enumeration Item for action, parameter: Start Recording"
++ "is.workflow.actions.takevideo - Parameter label for action"
++ "is.workflow.actions.text.replace - Parameter description for action, parameter Case Sensitive"
++ "is.workflow.actions.text.replace - Parameter description for action, parameter Find Text"
++ "is.workflow.actions.text.replace - Parameter description for action, parameter Regular Expression"
++ "is.workflow.actions.text.replace - Parameter description for action, parameter Replace With"
++ "is.workflow.actions.text.replace - Parameter label for action"
++ "is.workflow.actions.text.replace - Parameter placeholder for action, parameter Find Text"
++ "is.workflow.actions.text.replace - Parameter placeholder for action, parameter Replace With"
++ "is.workflow.actions.text.trimwhitespace - Parameter label for action"
++ "is.workflow.actions.timer.start - Parameter label for action"
++ "is.workflow.actions.timer.start - Parameter placeholder for action, parameter Duration"
++ "is.workflow.actions.timer.start - Parameter prompt for action, parameter Duration"
++ "is.workflow.actions.todoist.add - Parameter Enumeration Item for action, parameter: Priority"
++ "is.workflow.actions.todoist.add - Parameter Enumeration Item for action, parameter: Reminder Type"
++ "is.workflow.actions.todoist.add - Parameter label for action"
++ "is.workflow.actions.todoist.add - Parameter placeholder for action, parameter Due Date"
++ "is.workflow.actions.todoist.add - Parameter placeholder for action, parameter Files"
++ "is.workflow.actions.todoist.add - Parameter placeholder for action, parameter Notes"
++ "is.workflow.actions.todoist.add - Parameter placeholder for action, parameter Remind Me On"
++ "is.workflow.actions.trello.add.board - Parameter label for action"
++ "is.workflow.actions.trello.add.board - Parameter placeholder for action, parameter Description"
++ "is.workflow.actions.trello.add.board - Parameter placeholder for action, parameter Name"
++ "is.workflow.actions.trello.add.card - Parameter Enumeration Item for action, parameter: Position"
++ "is.workflow.actions.trello.add.card - Parameter description for action, parameter Attachments"
++ "is.workflow.actions.trello.add.card - Parameter label for action"
++ "is.workflow.actions.trello.add.card - Parameter placeholder for action, parameter Attachments"
++ "is.workflow.actions.trello.add.card - Parameter placeholder for action, parameter Description"
++ "is.workflow.actions.trello.add.card - Parameter placeholder for action, parameter Due"
++ "is.workflow.actions.trello.add.list - Parameter Enumeration Item for action, parameter: Position"
++ "is.workflow.actions.trello.add.list - Parameter label for action"
++ "is.workflow.actions.trello.add.list - Parameter placeholder for action, parameter Board"
++ "is.workflow.actions.trello.add.list - Parameter placeholder for action, parameter Name"
++ "is.workflow.actions.trello.get - Parameter Enumeration Item for action, parameter: Get"
++ "is.workflow.actions.trello.get - Parameter label for action"
++ "is.workflow.actions.trimvideo - Parameter label for action"
++ "is.workflow.actions.trimvideo - Parameter placeholder for action, parameter Media"
++ "is.workflow.actions.tumblr.post - Parameter Enumeration Item for action, parameter: Post Status"
++ "is.workflow.actions.tumblr.post - Parameter description for action, parameter Blog"
++ "is.workflow.actions.tumblr.post - Parameter label for action"
++ "is.workflow.actions.tumblr.post - Parameter placeholder for action, parameter Caption"
++ "is.workflow.actions.tumblr.post - Parameter placeholder for action, parameter Content"
++ "is.workflow.actions.tumblr.post - Parameter placeholder for action, parameter Description"
++ "is.workflow.actions.tumblr.post - Parameter placeholder for action, parameter Source"
++ "is.workflow.actions.tumblr.post - Parameter placeholder for action, parameter Tags"
++ "is.workflow.actions.tumblr.post - Parameter placeholder for action, parameter Title"
++ "is.workflow.actions.tweet - Parameter label for action"
++ "is.workflow.actions.unzip - Parameter label for action"
++ "is.workflow.actions.unzip - Parameter placeholder for action, parameter Archive"
++ "is.workflow.actions.url.getheaders - Parameter label for action"
++ "is.workflow.actions.url.getheaders - Parameter placeholder for action, parameter URL"
++ "is.workflow.actions.urlencode - Parameter Enumeration Item for action, parameter: Mode"
++ "is.workflow.actions.urlencode - Parameter label for action"
++ "is.workflow.actions.urlencode - Parameter placeholder for action, parameter Text"
++ "is.workflow.actions.venmo.pay - Parameter label for action"
++ "is.workflow.actions.venmo.pay - Parameter placeholder for action, parameter Amount"
++ "is.workflow.actions.venmo.pay - Parameter placeholder for action, parameter Note"
++ "is.workflow.actions.venmo.pay - Parameter placeholder for action, parameter Recipients"
++ "is.workflow.actions.venmo.pay - Parameter prompt for action, parameter Amount"
++ "is.workflow.actions.venmo.pay - Parameter prompt for action, parameter App"
++ "is.workflow.actions.venmo.pay - Parameter prompt for action, parameter Note"
++ "is.workflow.actions.venmo.pay - Parameter prompt for action, parameter Recipients"
++ "is.workflow.actions.venmo.request - Parameter label for action"
++ "is.workflow.actions.venmo.request - Parameter placeholder for action, parameter Note"
++ "is.workflow.actions.venmo.request - Parameter placeholder for action, parameter Recipients"
++ "is.workflow.actions.venmo.request - Parameter prompt for action, parameter Amount"
++ "is.workflow.actions.venmo.request - Parameter prompt for action, parameter App"
++ "is.workflow.actions.venmo.request - Parameter prompt for action, parameter Note"
++ "is.workflow.actions.venmo.request - Parameter prompt for action, parameter Recipients"
++ "is.workflow.actions.vibrate - Parameter Enumeration Item for action, parameter: Haptic Pattern"
++ "is.workflow.actions.vibrate - Parameter description for action, parameter Haptic Pattern"
++ "is.workflow.actions.vibrate - Parameter label for action"
++ "is.workflow.actions.viewresult - Parameter label for action"
++ "is.workflow.actions.viewresult - Parameter placeholder for action, parameter Input"
++ "is.workflow.actions.watchmedo - Parameter description for action, parameter Playback Speed"
++ "is.workflow.actions.watchmedo - Parameter label for action"
++ "is.workflow.actions.watchmedo - Parameter placeholder for action, parameter User Event"
++ "is.workflow.actions.wordpress.post - Parameter label for action"
++ "is.workflow.actions.wordpress.post - Parameter placeholder for action, parameter Categories"
++ "is.workflow.actions.wordpress.post - Parameter placeholder for action, parameter Content"
++ "is.workflow.actions.wordpress.post - Parameter placeholder for action, parameter Excerpt"
++ "is.workflow.actions.wordpress.post - Parameter placeholder for action, parameter Featured Image"
++ "is.workflow.actions.wordpress.post - Parameter placeholder for action, parameter Publish Date"
++ "is.workflow.actions.wordpress.post - Parameter placeholder for action, parameter Slug"
++ "is.workflow.actions.wordpress.post - Parameter placeholder for action, parameter Tags"
++ "is.workflow.actions.wordpress.post - Parameter placeholder for action, parameter Title"
++ "is.workflow.actions.workout.end - Parameter label for action"
++ "is.workflow.actions.workout.start - Parameter label for action"
++ "is.workflow.actions.workout.start - Parameter prompt for action, parameter Type"
++ "nothing unapplied"
++ "pendingByPartition"
++ "pendingInitialSync"
++ "periodic reconciliation"
++ "periodic reconciliation: pull cancelled; not starting the recovery push"
++ "periodic reconciliation: pull complete, starting recovery push"
++ "periodic reconciliation: pull failed: %@; continuing to the recovery push"
++ "personal"
++ "personal partition failed before ever landing"
++ "preprocessedDate"
++ "pull: %ld add(s) and %ld removal(s) failed to apply for %@; the bookmark still advances, so recovery is a re-enumeration for the adds and a local prune for the removals"
++ "pull: %ld add(s) for %s persona %s could not be applied; the next pull will re-enumerate the set to redeliver them (attempt %ld of %ld)"
++ "pull: %ld add(s) for %s persona %s still could not be applied after %ld attempts; giving up re-enumerating — they stay missing until the producer donates them again"
++ "pull: applied every add for %s persona %s after %ld failed attempt(s); no re-enumeration owed"
++ "pull: cascade told us to delete an already-removed tool (sharedIdentifier: %s); nothing to do"
++ "pull: could not prune the local row for retired tool %lld in %s persona %s; the next pull retries it locally"
++ "pull: failed for %s: %@"
++ "pull: failed recording unapplied changes for %s: %@"
++ "pull: failed to remove tool for sharedItem sharedIdentifier: %s with: %@"
++ "pull: gave up pruning the local row for retired tool %lld in %s persona %s after %ld attempts; it stays visible until the next full re-index"
++ "pull: re-enumerating %s for persona %s from the start instead of the bookmark — %s"
++ "pull: retry of pending removal %lld for %@ failed again: %@"
++ "pull: retrying %ld pending removal(s) for %@ before enumerating"
++ "pull: unapplied-change tracking for %s persona %s overflowed %ld identifiers; only a full re-index can reconcile this set"
++ "pullDown(fromBookmark:retryingRemovals:database:)"
++ "push: at least one donation failed; the next push will re-donate what is still owed — %s"
++ "push: communal donating %s, owed %s"
++ "push: current TK database version %s, state %s. Work outstanding: %{bool}d"
++ "push: failed recording donation state: %@; continuing"
++ "push: personal donating %s, owed %s"
++ "push: skipping communal donation — the personal partition has never landed and failed this cycle; donating communal alone would leave the peer with tools it cannot plan with; communal now owes %s"
++ "push: state now %s"
++ "removalAttemptsByIdentifier"
++ "segment of message configuration summary"
++ "selected trigger time configuration"
++ "shortcut is disabled on lock screen and device is locked"
++ "teams not available failure reason"
++ "teams not available failure reason. %@=device model"
++ "tracking overflowed at "
++ "trackingOverflowed"
++ "trigger configuration summary"
++ "trigger past tense description"
++ "unable to build a file representation for the file"
++ "unable to resolve workflow reference from descriptor"
++ "updatedBundleIds"
++ "\xd1"
+- "#"
+- "%@ IN SELF.%@.value"
+- "%K < %i"
+- "%K = NO"
+- "%s Can't calculate nextFireDate without sunrise time"
+- "%s Can't calculate nextFireDate without sunset time"
+- "%s Can't calculate nextFireDate; No days of month set for %@"
+- "%s Can't calculate nextFireDate; No days of week set for %@"
+- "%s Can't calculate nextFireDate; No time set for %@"
+- "%s Can't get actionIcons from nil userInfo"
+- "%s Can't get trigger display info from nil userInfo"
+- "%s Can't get triggerIDs to dissable from nil userInfo"
+- "%s Could not create predicate for WFTimeOfDayTrigger because next fire date was nil"
+- "%s Could not disable trigger due to error: %@"
+- "%s Could not disable trigger due to no existing record error: %@"
+- "%s Could not set loop detection for trigger due to error: %@"
+- "%s Could not set loop detection for trigger due to no existing record error: %@"
+- "%s Couldn't find trigger to update for triggerID (%@)"
+- "%s Creating database reference for workflow: %@"
+- "%s Database deletion failed for workflow: %@"
+- "%s Decoded out-of-range WFTriggerNotificationLevel %d; treating as Never"
+- "%s Denying Writing Tools availability due to regional check"
+- "%s Did not find valid payment transaction waiting..."
+- "%s Failed to delete triggerID (%@) error: %{public}@"
+- "%s Failed to get workflow with configuredTrigger: %@ error: %{public}@"
+- "%s Failed to unarchive action icons: %@"
+- "%s Found valid transaction but it was incomplete, waiting."
+- "%s Invalid config for %{public}@"
+- "%s Invalid day index: %@"
+- "%s Invalid day of month: %@"
+- "%s Invalid mode %lu with days of week %@ day of month %@"
+- "%s No Data"
+- "%s No configuredTrigger for triggerID %@"
+- "%s No default presenter for ToolKit snippet environment request (expected on watchOS); replying with no environment"
+- "%s No default presenter for ToolKit snippet size request (expected on watchOS); replying with no size"
+- "%s Not running location trigger due to start/end time"
+- "%s Saving new configured trigger: %@"
+- "%s Shouldn't have used -localizedPastTenseDescription for %@, because it should always ask before running"
+- "%s Subclass MUST override, but %@ didn't"
+- "%s Subclass MUST override, but %{public}@ didn't"
+- "%s Subclasses MUST override +localizedDisplayExplanation (but %{public}@ didn't)"
+- "%s Subclasses MUST override +localizedDisplayName (but %{public}@ didn't)"
+- "%s Subclasses MUST override -hasValidConfiguration (but %{public}@ didn't)"
+- "%s Subclasses MUST override -localizedDescriptionWithConfigurationSummary (but %{public}@ didn't)"
+- "%s Subclasses MUST override -localizedPastTenseDescription (but %{public}@ didn't)"
+- "%s Today start %{public}@ should not be after today end %{public}@"
+- "%s Unable to add editable shortcut flag: %{public}@"
+- "%s Unhandled time trigger event: %ld; can't calculate nextFireDate"
+- "%s nextFireDate for trigger (%@): %@"
+- "+[WFTimeOfDayTrigger localizedRecurrenceDescriptionForDaysOfWeek:dayOfMonth:mode:]"
+- "+[WFTimeOfDayTrigger localizedRecurrenceDescriptionForDaysOfWeek:dayOfMonth:mode:]_block_invoke"
+- "+[WFTimeTriggerLogic nextFireDateForTrigger:currentDate:currentSunriseTime:currentSunsetTime:]"
+- "+[WFTrigger localizedDisplayExplanationWithContext:]"
+- "+[WFTrigger localizedDisplayNameWithContext:]"
+- "+[WFTrigger offIcon]"
+- "+[WFTrigger offLabel]"
+- "+[WFTrigger onIcon]"
+- "+[WFTrigger onLabel]"
+- "-[WFAirplaneModeTrigger localizedDescriptionWithConfigurationSummary]"
+- "-[WFAirplaneModeTrigger localizedPastTenseDescription]"
+- "-[WFAppInFocusTrigger localizedDescriptionWithConfigurationSummary]"
+- "-[WFAppInFocusTrigger localizedPastTenseDescription]"
+- "-[WFBatteryLevelTrigger localizedDescriptionWithConfigurationSummary]"
+- "-[WFBatteryLevelTrigger localizedPastTenseDescription]"
+- "-[WFCarPlayConnectionTrigger localizedDescriptionWithConfigurationSummary]"
+- "-[WFCarPlayConnectionTrigger localizedPastTenseDescription]"
+- "-[WFDNDTrigger localizedDescriptionWithConfigurationSummary]"
+- "-[WFDNDTrigger localizedPastTenseDescription]"
+- "-[WFDatabase markTriggersAsRunAfterConfirmationIfNeeded]"
+- "-[WFExternalDisplayTrigger localizedDescriptionWithConfigurationSummary]"
+- "-[WFExternalDisplayTrigger localizedPastTenseDescription]"
+- "-[WFFileValue initWithURL:]"
+- "-[WFKeyboardTrigger localizedDescriptionWithConfigurationSummary]"
+- "-[WFKeyboardTrigger localizedPastTenseDescription]"
+- "-[WFLocationTrigger isDateWithinTimeRange:]"
+- "-[WFLowPowerModeTrigger localizedDescriptionWithConfigurationSummary]"
+- "-[WFLowPowerModeTrigger localizedPastTenseDescription]"
+- "-[WFPlugInTrigger localizedDescriptionWithConfigurationSummary]"
+- "-[WFPlugInTrigger localizedPastTenseDescription]"
+- "-[WFPlugInTrigger(CoreDuetContext) contextStorePredicate]"
+- "-[WFSleepTrigger localizedDescriptionWithConfigurationSummary]"
+- "-[WFSleepTrigger localizedPastTenseDescription]"
+- "-[WFStageManagerTrigger localizedDescriptionWithConfigurationSummary]"
+- "-[WFStageManagerTrigger localizedPastTenseDescription]"
+- "-[WFTimeOfDayTrigger(CoreDuetContext) contextStorePredicate]"
+- "-[WFTrigger hasValidConfiguration]"
+- "-[WFTrigger localizedDescriptionWithConfigurationSummary]"
+- "-[WFTrigger localizedPastTenseDescription]"
+- "-[WFTrigger offIcon]"
+- "-[WFTrigger onIcon]"
+- "-[WFTrigger(CoreDuetContext) contextStoreKeyPathForCurrentState]"
+- "-[WFTrigger(CoreDuetContext) contextStorePredicate]"
+- "-[WFTriggerManager deleteTriggerWithIdentifier:notifyDaemon:completion:]"
+- "-[WFTriggerManager deleteTriggersWithIdentifiers:notifyDaemon:completion:]_block_invoke"
+- "-[WFTriggerManager disableTriggersWithIdentifiers:withReason:]_block_invoke"
+- "-[WFTriggerManager saveNewConfiguredTrigger:workflowReference:notifyDaemon:completion:]"
+- "-[WFTriggerManager storeLoopDetectionForTriggerWithIdentifier:loopDetected:]"
+- "-[WFTriggerManager updateConfiguredTrigger:triggerID:notifyDaemon:completion:]"
+- "-[WFUserFocusActivityTrigger localizedDescriptionWithConfigurationSummary]"
+- "-[WFUserFocusActivityTrigger localizedPastTenseDescription]"
+- "-[WFWorkflow createReferenceIfNecessaryWithName:nameCollisionBehavior:allowEmpty:error:]"
+- "-[WFWorkflow deleteReference]"
+- "-[WFWorkoutTrigger localizedDescriptionWithConfigurationSummary]"
+- "-[WFWorkoutTrigger localizedPastTenseDescription]"
+- "/system/currentSleepState"
+- "10 minutes before leaving for home"
+- "10 minutes before leaving for work"
+- "15 minutes before leaving for home"
+- "15 minutes before leaving for work"
+- "30 minutes before leaving for home"
+- "30 minutes before leaving for work"
+- "5 minutes before leaving for home"
+- "5 minutes before leaving for work"
+- "60 minutes before leaving for home"
+- "60 minutes before leaving for work"
+- "<%@, name: %@, id: %@, unique id: %@, onEnable: %i, onDisable: %i>"
+- "<%@: %p, selectedPassUniqueIDs: %@, selectedMerchantTypes: %@, selectedMerchants: %@>"
+- "@\"NSArray\"16@?0@\"NSNumber\"8"
+- "@\"NSDictionary\"24@?0@\"WFConfiguredTrigger\"8Q16"
+- "@\"NSString\"24@?0@\"NSNumber\"8Q16"
+- "@\"NSString\"24@?0@\"WFConfiguredTrigger\"8Q16"
+- "@\"WFConfiguredTrigger\"16@?0^@8"
+- "@\"WFIcon\"24@?0@\"WFAction\"8Q16"
+- "@\"WFTriggerDisplayInfo\"24@?0@\"NSDictionary\"8Q16"
+- "Any alarm snoozed"
+- "Any alarm stopped"
+- "Any alarm went off"
+- "Any of %1$lu Wallet passes or payment cards tapped"
+- "Any of %lu alarms snoozed"
+- "Any of %lu alarms stopped"
+- "Any of %lu alarms went off"
+- "App.InFocus: BundleID: %s, isStarting: %{bool}d, launchReason: %s"
+- "App.InFocus: Received App.InFocus event"
+- "App.InFocus: Trigger firing. bundleID: %s, isStarting: %{bool}d"
+- "App.InFocus: Trigger not firing - ignoring launch reason on focus: %s"
+- "App.InFocus: Trigger not firing: ignoring launch reason on background: %s"
+- "Apple Watch Workout"
+- "Automatically runs this shortcut when a workout is started or stopped on your paired Apple Watch."
+- "Automation %@"
+- "B16@?0@\"WFConfiguredTrigger\"8"
+- "Before I Commute"
+- "Before leaving for home"
+- "Before leaving for work"
+- "Class getUIColorClass(void)_block_invoke"
+- "Class is not of type WFContentItem instead %@"
+- "Close App"
+- "Closed “%@”"
+- "Do Not Disturb"
+- "Do Not Disturb turned off"
+- "Do Not Disturb turned on"
+- "Do Not Disturb turned on or off"
+- "Failed to calculate todayStart (%@) or todayEnd (%@) times"
+- "Get (WFOnScreenContextLimit-Stepper)"
+- "Is Closed"
+- "Is Joined"
+- "Is Opened"
+- "LeaveTriggerIcon"
+- "My %@ alarm snoozed"
+- "My %@ alarm stopped"
+- "My %@ went off"
+- "My wake-up alarm snoozed"
+- "My wake-up alarm stopped"
+- "My wake-up alarm went off"
+- "NOT (SELF.%@.value IN %@)"
+- "NOT (SELF.value IN %@)"
+- "NOT (SELF.value IN %@) OR SELF.value IN %@"
+- "NSDictionary * _Nonnull WFAllTriggerNotificationUserInfoForDisablingTriggers(NSArray<NSDictionary *> * _Nonnull __strong)"
+- "NSDictionary * _Nonnull WFTriggerNotificationUserInfo(WFUnifiedTriggerKey * _Nonnull __strong, NSArray<WFIcon *> * _Nullable __strong, NSArray<NSString *> * _Nullable __strong)"
+- "Not running arrive location trigger due to missing start/end time parameters"
+- "Not running arrive location trigger due to start/end time"
+- "Not running leave location trigger due to missing start/end time parameters"
+- "Not running leave location trigger due to start/end time"
+- "Opened or closed “%@”"
+- "Opened “%@”"
+- "Predict"
+- "Primary account found, iCloud+ subscriber = %{bool}d"
+- "Receive %@ as input"
+- "Received notification %@"
+- "SBFullScreenSwitcherSceneLiveContentOverlay"
+- "SELF.%@.value != nil"
+- "SELF.%@.value != nil OR SELF.%@.value == nil"
+- "SELF.%@.value == nil"
+- "SELF.%@.value IN %@ OR NOT (SELF.%@.value in %@)"
+- "SELF.%@.value.%K IN %@"
+- "SELF.value IN %@"
+- "SUBQUERY(SELF.%@.value, $email,                 (%@ = NULL OR $email.%K CONTAINS[cd] %@ OR $email.%K =[cd] %@) AND                 (%@ = NULL OR %@.@count = 0 OR SUBQUERY($email.%K, $r, $r IN %@).@count > 0) AND                 (%@ = NULL OR %@.@count = 0 OR SUBQUERY(%@, $sender, $email.%K =[cd] $sender).@count > 0) AND                 (%@ = NULL OR %@.@count = 0 OR $email.%K IN[cd] %@)             ).@count > 0"
+- "SUBQUERY(SELF.%@.value, $prediction, $prediction.%K = %@ AND $prediction.%K <= %@ AND $prediction.%K > %@).@count > 0"
+- "SUBQUERY(SELF.%@.value, $values, $values.%K  IN %@).@count == 0"
+- "SUBQUERY(SELF.value, $values, $values.%K  IN %@).@count > 0"
+- "SoundRecognitionTriggerIcon"
+- "StarkCapability"
+- "The registry must be locked while it is being filled."
+- "The registry must be locked while the actions dictionary is being accessed."
+- "The registry must be locked while the apps dictionary is being accessed."
+- "Today start %s should not be after today end %s"
+- "Unknown(%d)"
+- "WFAutomationsMergeEnabled"
+- "WFConfiguredTrigger.m"
+- "WFDatabase+Triggers.m"
+- "WFInterchangeAppRegistry Locking Exception"
+- "WFTrigger"
+- "WFTrigger.m"
+- "WFTriggerDisplayInfoToDisableFromNotificationUserInfo"
+- "WFTriggerErrorDomain"
+- "WFTriggerIDsToDisableNotificationUserInfoFromTriggers_block_invoke"
+- "WFTriggerManager.m"
+- "WFTriggerNotificationUserInfoForDisabling"
+- "WFUserFocusActivityTrigger.m"
+- "WFValidatedTriggerNotificationLevel"
+- "Web Knowledge will be unavailable because the current language is %s"
+- "Web search is only available for English locales"
+- "When %1$@ is connected or disconnected from any Bluetooth device"
+- "When %1$@ is connected or disconnected from “%2$@”"
+- "When %1$@ is connected to any Bluetooth device"
+- "When %1$@ is connected to “%2$@”"
+- "When %1$@ is disconnected from any Bluetooth device"
+- "When %1$@ is disconnected from “%2$@”"
+- "When %1$@ joins or leaves “%2$@”"
+- "When %1$@ joins “%2$@”"
+- "When %1$@ leaves “%2$@”"
+- "When %2$@ is connected or disconnected from any of %1$lu Bluetooth devices"
+- "When %2$@ is connected to any of %1$lu Bluetooth devices"
+- "When %2$@ is disconnected from any of %1$lu Bluetooth devices"
+- "When %@  is turned on or off"
+- "When %@ joins any WLAN network"
+- "When %@ joins any Wi-Fi network"
+- "When %@ joins or leaves any WLAN network"
+- "When %@ joins or leaves any Wi-Fi network"
+- "When %@ leaves any WLAN network"
+- "When %@ leaves any Wi-Fi network"
+- "When Do Not Disturb is turned off"
+- "When Do Not Disturb is turned on"
+- "When Do Not Disturb is turned on or off"
+- "When I Get a Message %@ (%d)"
+- "When I Get an Email %@ (%d)"
+- "When I get a notification %@"
+- "When I tap"
+- "When I tap any of %1$lu Wallet passes or payment cards"
+- "When any alarm goes off"
+- "When any alarm is snoozed"
+- "When any alarm is stopped"
+- "When any of %lu alarms go off"
+- "When any of %lu alarms is snoozed"
+- "When any of %lu alarms is stopped"
+- "When any of %lu apps is closed"
+- "When my %@ alarm goes off"
+- "When my %@ alarm is snoozed"
+- "When my %@ alarm is stopped"
+- "When my wake-up alarm goes off"
+- "When my wake-up alarm is snoozed"
+- "When my wake-up alarm is stopped"
+- "When “%@” is closed"
+- "When “%@” is detected"
+- "When “%@” is opened"
+- "When “%@” is opened or closed"
+- "WorkflowKit.WFTriggerInputAction"
+- "airplane.circle.fill"
+- "alarm.fill"
+- "arrow.down.forward.square.fill"
+- "associate workflow to trigger, possibly deleting existing reference"
+- "associating trigger with shortcut"
+- "battery.100"
+- "battery.25"
+- "battery.75"
+- "bed.double.fill"
+- "bell.badge.fill"
+- "biome_message_trigger"
+- "bluetooth"
+- "bluetooth.circle"
+- "bluetooth.circle.fill"
+- "cable.connector"
+- "cable.connector.slash"
+- "carplay"
+- "clock.fill"
+- "com.apple.Numbers.TNiOSAddValuesToSpreadsheetIntent"
+- "com.apple.SpringBoard.backlight.transitionReason.idleTimer"
+- "com.apple.SpringBoard.backlight.transitionReason.lockButton"
+- "configuredTrigger"
+- "creating trigger"
+- "delete triggers"
+- "deleted"
+- "disablementReason"
+- "display"
+- "envelope.fill"
+- "figure.run.circle.fill"
+- "from %@"
+- "identifier type "
+- "is.workflow.actions.trigger-input"
+- "isDeleted"
+- "keyboard"
+- "keyboard.fill"
+- "llm_actions"
+- "message.fill"
+- "migrate invalid location triggers"
+- "moon.circle"
+- "moon.circle.fill"
+- "newRecord"
+- "nfc"
+- "periodic reconciliation: BGST returned non-repeating request shape; interval will not be set"
+- "potentialLoopDetected"
+- "pull: Failed to remove tool for sharedItem sharedIdentifier: %s with: %@"
+- "pull: error pulling down from Cascade: %@"
+- "pullDown(fromBookmark:database:)"
+- "push: current TK database version %s, last donated cascade version: %s. Change detected: %{bool}d"
+- "push: not updating cascade version — at least one donation failed, will retry on next push"
+- "push: updated cascade database version to %s"
+- "save trigger"
+- "save trigger with workflow"
+- "selectedEntryMetadata"
+- "shortcut.workflowID == %@"
+- "shouldNotify"
+- "shouldPrompt"
+- "shouldRecur"
+- "sleepModeState"
+- "sleepScheduleState"
+- "softlink:r:path:/System/Library/Frameworks/UIKit.framework/UIKit"
+- "squares.leading.rectangle.fill"
+- "sunrise.fill"
+- "sunset.fill"
+- "triggerClassName"
+- "triggerData"
+- "triggerDescription"
+- "triggerIDs"
+- "triggerTitle"
+- "triggerUserInfo"
+- "triggers_ie"
+- "v24@?0@\"WFConfiguredTrigger\"8@\"NSError\"16"
+- "v24@?0@\"WFCoreDataTrigger\"8^@16"
+- "v28@?0B8@\"NSDictionary\"12@\"NSSet\"20"
+- "v40@?0#8Q16@?<v@?@\"NSError\">24^B32"
+- "void *UIKitLibrary(void)"
+- "watch_automation"
+- "wifi"
+- "wifi.circle"
+- "wifi.circle.fill"
+- "xmark.app.fill"
+- "xmark.circle"
+- "xmark.circle.fill"
+- "xmark.square.fill"
+- "\xe1"
+- "“%@” detected"
+- "“15 minutes before I leave for work”"
+- "“When Do Not Disturb is turned on”"
+- "“When Wind Down starts”"
+- "“When my %@ connects to AirPods”"
+- "“When my %@ connects to power”"
+- "“When my %@ joins the Home network”"
+- "“When my %@ recognizes a doorbell sound”"
+- "“When my display is connected”"
+- "“When turning %@ on”"
+- "“When turning on Work”"
+- "“When “Mail” is closed”"
+```

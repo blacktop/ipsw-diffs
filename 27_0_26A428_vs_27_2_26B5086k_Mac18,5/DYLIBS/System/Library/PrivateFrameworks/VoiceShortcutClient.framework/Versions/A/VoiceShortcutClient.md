@@ -1,0 +1,467 @@
+## VoiceShortcutClient
+
+> `/System/Library/PrivateFrameworks/VoiceShortcutClient.framework/Versions/A/VoiceShortcutClient`
+
+```diff
+
+-5037.0.17.0.0
+-  __TEXT.__text: 0x15a054
+-  __TEXT.__objc_methlist: 0xd0b4
+-  __TEXT.__const: 0xff38
++5110.0.8.0.0
++  __TEXT.__text: 0x1550bc
++  __TEXT.__objc_methlist: 0xd0ec
++  __TEXT.__const: 0xf2d8
+   __TEXT.__dlopen_cstrs: 0xc12
+-  __TEXT.__constg_swiftt: 0x3764
+-  __TEXT.__swift5_typeref: 0x3a9b
+-  __TEXT.__swift5_builtin: 0x1cc
+-  __TEXT.__swift5_reflstr: 0x1634
+-  __TEXT.__swift5_fieldmd: 0x2cac
++  __TEXT.__constg_swiftt: 0x3578
++  __TEXT.__swift5_typeref: 0x3779
++  __TEXT.__swift5_builtin: 0x1e0
++  __TEXT.__swift5_reflstr: 0x14a4
++  __TEXT.__swift5_fieldmd: 0x2a20
+   __TEXT.__swift5_assocty: 0x498
+-  __TEXT.__swift5_proto: 0xd9c
+-  __TEXT.__swift5_types: 0x450
+-  __TEXT.__cstring: 0x1852c
++  __TEXT.__swift5_proto: 0xcb8
++  __TEXT.__swift5_types: 0x41c
++  __TEXT.__cstring: 0x184d9
+   __TEXT.__swift5_capture: 0x780
+   __TEXT.__swift5_protos: 0x50
+-  __TEXT.__oslogstring: 0x4c9c
+-  __TEXT.__swift_as_entry: 0x118
+-  __TEXT.__swift_as_ret: 0x108
+-  __TEXT.__swift_as_cont: 0x210
+-  __TEXT.__swift5_mpenum: 0x84
+-  __TEXT.__gcc_except_tab: 0x1e88
+-  __TEXT.__ustring: 0x168
+-  __TEXT.__unwind_info: 0x8b70
+-  __TEXT.__eh_frame: 0x6508
++  __TEXT.__oslogstring: 0x4d7e
++  __TEXT.__swift_as_entry: 0x10c
++  __TEXT.__swift_as_ret: 0xfc
++  __TEXT.__swift_as_cont: 0x1ec
++  __TEXT.__swift5_mpenum: 0x8c
++  __TEXT.__gcc_except_tab: 0x1eb0
++  __TEXT.__ustring: 0x1a8
++  __TEXT.__unwind_info: 0x88c8
++  __TEXT.__eh_frame: 0x6210
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_catlist: 0xd0
+   __DATA_CONST.__objc_protolist: 0x178
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x6090
++  __DATA_CONST.__objc_selrefs: 0x60c0
+   __DATA_CONST.__objc_protorefs: 0x98
+   __DATA_CONST.__objc_superrefs: 0x810
+   __DATA_CONST.__objc_arraydata: 0x46e0
+-  __DATA_CONST.__got: 0x11f0
+-  __AUTH_CONST.__const: 0xba50
+-  __AUTH_CONST.__cfstring: 0x19c20
+-  __AUTH_CONST.__objc_const: 0x1ad18
++  __DATA_CONST.__got: 0x11e8
++  __AUTH_CONST.__const: 0xb610
++  __AUTH_CONST.__cfstring: 0x19c80
++  __AUTH_CONST.__objc_const: 0x1ad48
+   __AUTH_CONST.__weak_auth_got: 0x18
+   __AUTH_CONST.__objc_intobj: 0x4cb0
+   __AUTH_CONST.__objc_arrayobj: 0x138
+   __AUTH_CONST.__objc_dictobj: 0x230
+-  __AUTH_CONST.__auth_got: 0x1d98
++  __AUTH_CONST.__auth_got: 0x1d90
+   __AUTH.__objc_data: 0x31d8
+-  __AUTH.__data: 0x1128
+-  __DATA.__objc_ivar: 0xd54
+-  __DATA.__data: 0x42a0
++  __AUTH.__data: 0xff8
++  __DATA.__objc_ivar: 0xd58
++  __DATA.__data: 0x3fc0
+   __DATA.__common: 0x80
+   __DATA_DIRTY.__objc_data: 0x3080
+   __DATA_DIRTY.__data: 0x1308
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 10883
+-  Symbols:   14187
++  Functions: 10698
++  Symbols:   14121
+   CStrings:  4486
+ 
+Symbols:
++ -[WFExternalUIPresenter completionGuardLock]
++ -[WFExternalUIPresenter wf_tryConsumeCompletionFlag:]
++ -[WFImage(Trimming) imageByInsettingWithMarginFraction:]
++ -[WFImage(Trimming) imageByTrimmingTransparentMargins]
++ -[WFWorkflowCollection initWithIdentifier:isFolder:name:glyphCharacter:isTombstoned:]
++ -[WFWorkflowCollection isTombstoned]
++ -[WFWorkflowRunningContext didSpreadModelRequestLoad]
++ -[WFWorkflowRunningContext setDidSpreadModelRequestLoad:]
++ GCC_except_table1311
++ GCC_except_table1367
++ GCC_except_table1379
++ GCC_except_table1445
++ GCC_except_table1449
++ GCC_except_table1493
++ GCC_except_table1511
++ GCC_except_table1538
++ GCC_except_table1543
++ GCC_except_table1549
++ GCC_except_table1597
++ GCC_except_table1599
++ GCC_except_table1601
++ GCC_except_table1613
++ GCC_except_table1619
++ GCC_except_table1729
++ GCC_except_table1805
++ GCC_except_table1822
++ GCC_except_table1873
++ GCC_except_table1894
++ GCC_except_table1896
++ GCC_except_table1898
++ GCC_except_table1901
++ GCC_except_table1958
++ GCC_except_table1960
++ GCC_except_table1962
++ GCC_except_table1965
++ GCC_except_table1974
++ GCC_except_table1982
++ GCC_except_table1984
++ GCC_except_table2130
++ GCC_except_table2153
++ GCC_except_table2199
++ GCC_except_table2228
++ GCC_except_table2283
++ GCC_except_table2294
++ GCC_except_table2320
++ GCC_except_table2419
++ GCC_except_table2425
++ GCC_except_table2490
++ GCC_except_table2497
++ GCC_except_table2507
++ GCC_except_table2710
++ GCC_except_table2714
++ GCC_except_table2719
++ GCC_except_table2737
++ GCC_except_table2753
++ GCC_except_table2790
++ GCC_except_table2794
++ GCC_except_table2799
++ GCC_except_table2830
++ GCC_except_table2950
++ GCC_except_table2953
++ GCC_except_table2966
++ GCC_except_table2971
++ GCC_except_table2990
++ GCC_except_table2994
++ GCC_except_table3214
++ GCC_except_table3282
++ GCC_except_table3299
++ GCC_except_table3304
++ GCC_except_table3307
++ GCC_except_table3314
++ GCC_except_table3331
++ GCC_except_table3333
++ GCC_except_table3358
++ GCC_except_table3362
++ GCC_except_table3398
++ GCC_except_table3556
++ GCC_except_table3557
++ GCC_except_table3624
++ GCC_except_table3727
++ GCC_except_table3730
++ GCC_except_table3731
++ GCC_except_table3740
++ GCC_except_table3749
++ GCC_except_table3752
++ GCC_except_table3754
++ GCC_except_table3759
++ GCC_except_table3802
++ GCC_except_table3903
++ GCC_except_table3932
++ GCC_except_table3933
++ GCC_except_table3934
++ GCC_except_table4041
++ GCC_except_table4167
++ GCC_except_table4171
++ GCC_except_table4279
++ GCC_except_table4359
++ GCC_except_table4363
++ GCC_except_table4419
++ GCC_except_table4472
++ GCC_except_table4499
++ GCC_except_table4504
++ GCC_except_table4507
++ GCC_except_table4510
++ GCC_except_table4518
++ GCC_except_table4523
++ GCC_except_table4527
++ GCC_except_table4532
++ GCC_except_table4535
++ GCC_except_table4540
++ GCC_except_table4552
++ GCC_except_table4557
++ GCC_except_table4574
++ GCC_except_table4578
++ GCC_except_table4591
++ GCC_except_table4594
++ GCC_except_table4612
++ OBJC_IVAR_$_WFExternalUIPresenter._completionGuardLock
++ OBJC_IVAR_$_WFWorkflowCollection._tombstoned
++ OBJC_IVAR_$_WFWorkflowRunningContext._didSpreadModelRequestLoad
++ _WFQuarantineEnter
++ __47-[WFAutoShortcutContextualAction spotlightItem]_block_invoke
++ __64-[WFExternalUIPresenter performDialogRequest:completionHandler:]_block_invoke
++ __OBJC_$_CLASS_METHODS_WFImage(Named|Tinting|Convenience|Representations|Icons|Symbols|Glyphs|Resizing|Trimming)
++ __OBJC_$_INSTANCE_METHODS_WFImage(Named|Tinting|Convenience|Representations|Icons|Symbols|Glyphs|Resizing|Trimming)
++ ___WFQuarantineEnter_block_invoke
++ ___block_descriptor_64_e8_32s40bs48r56r_e26_v16?0"WFDialogResponse"8l
++ ___block_descriptor_64_e8_32s40bs48r56r_e30_v16?0"WFSiriActionResponse"8l
++ ___swift_memcpy81_8
++ _get_enum_tag_for_layout_string 19VoiceShortcutClient0abC7RequestO
++ _objc_msgSend$isTombstoned
++ _objc_msgSend$wf_tryConsumeCompletionFlag:
++ _type_layout_string 19VoiceShortcutClient0abC7RequestO
++ _type_layout_string 19VoiceShortcutClient0abC7RequestO11AutomationsO
+- -[WFAutoShortcutContextualAction searchKeywords]
+- -[WFWorkflowCollection initWithIdentifier:isFolder:name:glyphCharacter:isDeleted:]
+- -[WFWorkflowCollection isDeleted]
+- GCC_except_table1312
+- GCC_except_table1368
+- GCC_except_table1380
+- GCC_except_table1446
+- GCC_except_table1450
+- GCC_except_table1494
+- GCC_except_table1512
+- GCC_except_table1539
+- GCC_except_table1544
+- GCC_except_table1550
+- GCC_except_table1598
+- GCC_except_table1600
+- GCC_except_table1603
+- GCC_except_table1614
+- GCC_except_table1620
+- GCC_except_table1730
+- GCC_except_table1806
+- GCC_except_table1823
+- GCC_except_table1874
+- GCC_except_table1895
+- GCC_except_table1897
+- GCC_except_table1899
+- GCC_except_table1902
+- GCC_except_table1959
+- GCC_except_table1961
+- GCC_except_table1964
+- GCC_except_table1966
+- GCC_except_table1975
+- GCC_except_table1983
+- GCC_except_table1985
+- GCC_except_table2131
+- GCC_except_table2154
+- GCC_except_table2200
+- GCC_except_table2229
+- GCC_except_table2284
+- GCC_except_table2295
+- GCC_except_table2321
+- GCC_except_table2421
+- GCC_except_table2484
+- GCC_except_table2491
+- GCC_except_table2501
+- GCC_except_table2704
+- GCC_except_table2708
+- GCC_except_table2713
+- GCC_except_table2731
+- GCC_except_table2747
+- GCC_except_table2784
+- GCC_except_table2788
+- GCC_except_table2793
+- GCC_except_table2824
+- GCC_except_table2944
+- GCC_except_table2947
+- GCC_except_table2954
+- GCC_except_table2965
+- GCC_except_table2984
+- GCC_except_table2988
+- GCC_except_table3208
+- GCC_except_table3276
+- GCC_except_table3290
+- GCC_except_table3293
+- GCC_except_table3298
+- GCC_except_table3301
+- GCC_except_table3325
+- GCC_except_table3327
+- GCC_except_table3352
+- GCC_except_table3356
+- GCC_except_table3392
+- GCC_except_table3550
+- GCC_except_table3551
+- GCC_except_table3618
+- GCC_except_table3721
+- GCC_except_table3724
+- GCC_except_table3725
+- GCC_except_table3734
+- GCC_except_table3736
+- GCC_except_table3737
+- GCC_except_table3746
+- GCC_except_table3753
+- GCC_except_table3796
+- GCC_except_table3897
+- GCC_except_table3926
+- GCC_except_table3927
+- GCC_except_table3928
+- GCC_except_table4033
+- GCC_except_table4159
+- GCC_except_table4163
+- GCC_except_table4271
+- GCC_except_table4347
+- GCC_except_table4351
+- GCC_except_table4411
+- GCC_except_table4464
+- GCC_except_table4489
+- GCC_except_table4494
+- GCC_except_table4497
+- GCC_except_table4500
+- GCC_except_table4503
+- GCC_except_table4508
+- GCC_except_table4517
+- GCC_except_table4520
+- GCC_except_table4522
+- GCC_except_table4525
+- GCC_except_table4537
+- GCC_except_table4542
+- GCC_except_table4564
+- GCC_except_table4568
+- GCC_except_table4581
+- GCC_except_table4584
+- GCC_except_table4602
+- OBJC_IVAR_$_WFAutoShortcutContextualAction._searchKeywords
+- OBJC_IVAR_$_WFWorkflowCollection._deleted
+- _WFQuarantineEnterWithAllowsWritingExecutablesToDisk
+- __OBJC_$_CLASS_METHODS_WFImage(Named|Tinting|Convenience|Representations|Icons|Symbols|Glyphs|Resizing)
+- __OBJC_$_INSTANCE_METHODS_WFImage(Named|Tinting|Convenience|Representations|Icons|Symbols|Glyphs|Resizing)
+- ___229-[WFAutoShortcutContextualAction initWithAutoShortcut:identifier:parameterlessIdentifier:phrase:alternativePhrases:bundleIdentifier:actionIdentifier:orderOfShortcut:parentAction:prominentDisplayEligibility:executableAppShortcut:]_block_invoke
+- ___WFQuarantineEnterWithAllowsWritingExecutablesToDisk_block_invoke
+- ___block_descriptor_48_e8_32bs40r_e30_v16?0"WFSiriActionResponse"8l
+- ___swift_allocate_boxed_opaque_existential_2
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO07UserHasE10CodingKeys33_4C034B6054E729C093D63752F4614418LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO07UserHasE10CodingKeys33_4C034B6054E729C093D63752F4614418LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO21FireTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLOSHAASQ
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO21FireTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO21FireTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO23CreateTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLOSHAASQ
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO23CreateTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO23CreateTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO23DeleteTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLOSHAASQ
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO23DeleteTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO23DeleteTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO24RefreshTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLOSHAASQ
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO24RefreshTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO24RefreshTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO27UnregisterTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLOSHAASQ
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO27UnregisterTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO27UnregisterTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO31FetchScheduledTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLOSHAASQ
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO31FetchScheduledTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO31FetchScheduledTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO32DeleteTriggerShortcutsCodingKeys33_4C034B6054E729C093D63752F4614418LLOSHAASQ
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO32DeleteTriggerShortcutsCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO32DeleteTriggerShortcutsCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO35FetchAllScheduledTriggersCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO35FetchAllScheduledTriggersCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO38CheckTriggerStateWithKeyPathCodingKeys33_4C034B6054E729C093D63752F4614418LLOSHAASQ
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO38CheckTriggerStateWithKeyPathCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0lJ0AAs23CustomStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO38CheckTriggerStateWithKeyPathCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0lJ0AAs28CustomDebugStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO41CheckTriggerStateWithIdentifierCodingKeys33_4C034B6054E729C093D63752F4614418LLOSHAASQ
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO41CheckTriggerStateWithIdentifierCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0K3KeyAAs23CustomStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO41CheckTriggerStateWithIdentifierCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0K3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO42GetConfiguredTriggerDescriptionsCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO42GetConfiguredTriggerDescriptionsCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO43ResetAutomationConfirmationStatusCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO43ResetAutomationConfirmationStatusCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0J3KeyAAs28CustomDebugStringConvertible
+- _objc_msgSend$isDeleted
+- _symbolic _____ 19VoiceShortcutClient0abC7RequestO11AutomationsO07UserHasE10CodingKeys33_4C034B6054E729C093D63752F4614418LLO
+- _symbolic _____ 19VoiceShortcutClient0abC7RequestO11AutomationsO21FireTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLO
+- _symbolic _____ 19VoiceShortcutClient0abC7RequestO11AutomationsO23CreateTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLO
+- _symbolic _____ 19VoiceShortcutClient0abC7RequestO11AutomationsO23DeleteTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLO
+- _symbolic _____ 19VoiceShortcutClient0abC7RequestO11AutomationsO24RefreshTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLO
+- _symbolic _____ 19VoiceShortcutClient0abC7RequestO11AutomationsO27UnregisterTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLO
+- _symbolic _____ 19VoiceShortcutClient0abC7RequestO11AutomationsO31FetchScheduledTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLO
+- _symbolic _____ 19VoiceShortcutClient0abC7RequestO11AutomationsO32DeleteTriggerShortcutsCodingKeys33_4C034B6054E729C093D63752F4614418LLO
+- _symbolic _____ 19VoiceShortcutClient0abC7RequestO11AutomationsO35FetchAllScheduledTriggersCodingKeys33_4C034B6054E729C093D63752F4614418LLO
+- _symbolic _____ 19VoiceShortcutClient0abC7RequestO11AutomationsO38CheckTriggerStateWithKeyPathCodingKeys33_4C034B6054E729C093D63752F4614418LLO
+- _symbolic _____ 19VoiceShortcutClient0abC7RequestO11AutomationsO41CheckTriggerStateWithIdentifierCodingKeys33_4C034B6054E729C093D63752F4614418LLO
+- _symbolic _____ 19VoiceShortcutClient0abC7RequestO11AutomationsO42GetConfiguredTriggerDescriptionsCodingKeys33_4C034B6054E729C093D63752F4614418LLO
+- _symbolic _____ 19VoiceShortcutClient0abC7RequestO11AutomationsO43ResetAutomationConfirmationStatusCodingKeys33_4C034B6054E729C093D63752F4614418LLO
+- _symbolic ___________p 19VoiceShortcutClient29ScheduledTriggerConfigurationP AA0dE12IdentifiableP
+- _symbolic ___________t 19VoiceShortcutClient11TriggerTypeO AA013LegacyCodableD6ActionO
+- _symbolic _____ySay_____GG 19VoiceShortcutClient0aB17ResponseWithValueO AA16ScheduledTriggerV
+- _symbolic _____y_____G 19VoiceShortcutClient0aB17ResponseWithValueO AA16ScheduledTriggerV
+- _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO07UserHasH10CodingKeys33_4C034B6054E729C093D63752F4614418LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO21FireTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO23CreateTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO23DeleteTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO24RefreshTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO27UnregisterTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO31FetchScheduledTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO32DeleteTriggerShortcutsCodingKeys33_4C034B6054E729C093D63752F4614418LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO35FetchAllScheduledTriggersCodingKeys33_4C034B6054E729C093D63752F4614418LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO38CheckTriggerStateWithKeyPathCodingKeys33_4C034B6054E729C093D63752F4614418LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO41CheckTriggerStateWithIdentifierCodingKeys33_4C034B6054E729C093D63752F4614418LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO42GetConfiguredTriggerDescriptionsCodingKeys33_4C034B6054E729C093D63752F4614418LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO43ResetAutomationConfirmationStatusCodingKeys33_4C034B6054E729C093D63752F4614418LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO07UserHasH10CodingKeys33_4C034B6054E729C093D63752F4614418LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO21FireTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO23CreateTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO23DeleteTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO24RefreshTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO27UnregisterTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO31FetchScheduledTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO32DeleteTriggerShortcutsCodingKeys33_4C034B6054E729C093D63752F4614418LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO35FetchAllScheduledTriggersCodingKeys33_4C034B6054E729C093D63752F4614418LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO38CheckTriggerStateWithKeyPathCodingKeys33_4C034B6054E729C093D63752F4614418LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO41CheckTriggerStateWithIdentifierCodingKeys33_4C034B6054E729C093D63752F4614418LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO42GetConfiguredTriggerDescriptionsCodingKeys33_4C034B6054E729C093D63752F4614418LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO43ResetAutomationConfirmationStatusCodingKeys33_4C034B6054E729C093D63752F4614418LLO
+- _symbolic _____y___________pG s23_ContiguousArrayStorageC 19VoiceShortcutClient29ScheduledTriggerConfigurationP AC0gH12IdentifiableP
+CStrings:
++ "%s Asked to tear down runner because %@ but we're already >= tearing down. Ignoring the request."
++ "%s Entered quarantine"
++ "%s ToolKit client did not reply to Siri request %@ within %.0fs; forcing a failure."
++ "%s ToolKit client did not reply to dialog request %@ within %.0fs; forcing a failure."
++ "-[WFExternalUIPresenter performDialogRequest:completionHandler:]_block_invoke"
++ "-[WFExternalUIPresenter performSiriRequest:completionHandler:]_block_invoke"
++ "-[WFOutOfProcessWorkflowControllerStateMachine tearDownRunnerWithReason:]"
++ "HomePod Stereo Pair"
++ "On My Mac"
++ "The app didn’t respond in time."
++ "WFQuarantineEnter"
++ "third_party_generative_tools"
++ "tombstoned"
++ "tool_database_auto_reopen"
++ "use_model_hide_legacy_chatgpt"
++ "v16@?0@\"WFDialogResponse\"8"
+- "%s Entered quarantine allowing writing executables to disk: %d"
+- "HomePod2"
+- "WFQuarantineEnterWithAllowsWritingExecutablesToDisk"
+- "actionable_icp_upsell"
+- "checkTriggerStateWithIdentifier"
+- "checkTriggerStateWithKeyPath"
+- "deleteTriggerShortcuts"
+- "enable_cascade_without_paired_watch"
+- "fetchAllScheduledTriggers"
+- "fetchScheduledTrigger"
+- "getConfiguredTriggerDescriptions"
+- "resetAutomationConfirmationStatus"
+- "triggers_ie"
+- "unregisterTrigger"
+- "userHasAutomations"
+- "watch_automation"
+```

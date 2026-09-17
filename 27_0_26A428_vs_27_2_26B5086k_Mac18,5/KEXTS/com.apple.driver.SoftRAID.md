@@ -1,0 +1,33 @@
+## com.apple.driver.SoftRAID
+
+> `com.apple.driver.SoftRAID`
+
+```diff
+
+-58.0.0.0.0
++59.40.1.0.0
+   __TEXT.__const: 0x180
+   __TEXT.__cstring: 0x26fb
+-  __TEXT_EXEC.__text: 0x31298
++  __TEXT_EXEC.__text: 0x3129c
+   __TEXT_EXEC.__auth_stubs: 0x660
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x818
+Symbols:
++ __ZZN33com_softraid_driver_SoftRAID_Disk10DeleteListEvE21kalloc_type_view_1161
++ __ZZN33com_softraid_driver_SoftRAID_Disk18AddPartitionToListEP7IOMediaE21kalloc_type_view_1128
++ __ZZN33com_softraid_driver_SoftRAID_Disk18AddPartitionToListEP7IOMediaE21kalloc_type_view_1138
++ __ZZN33com_softraid_driver_SoftRAID_Disk18AddStatusPartitionEP7IOMediaPKcE20kalloc_type_view_952
++ __ZZN33com_softraid_driver_SoftRAID_Disk18AddStatusPartitionEP7IOMediaPKcE21kalloc_type_view_1107
++ __ZZN33com_softraid_driver_SoftRAID_Disk25WriteStatusPartitionAsyncEvE21kalloc_type_view_1370
++ __ZZN33com_softraid_driver_SoftRAID_Disk25WriteStatusPartitionAsyncEvE21kalloc_type_view_1410
+- __ZZN33com_softraid_driver_SoftRAID_Disk10DeleteListEvE21kalloc_type_view_1149
+- __ZZN33com_softraid_driver_SoftRAID_Disk18AddPartitionToListEP7IOMediaE21kalloc_type_view_1116
+- __ZZN33com_softraid_driver_SoftRAID_Disk18AddPartitionToListEP7IOMediaE21kalloc_type_view_1126
+- __ZZN33com_softraid_driver_SoftRAID_Disk18AddStatusPartitionEP7IOMediaPKcE20kalloc_type_view_940
+- __ZZN33com_softraid_driver_SoftRAID_Disk18AddStatusPartitionEP7IOMediaPKcE21kalloc_type_view_1095
+- __ZZN33com_softraid_driver_SoftRAID_Disk25WriteStatusPartitionAsyncEvE21kalloc_type_view_1346
+- __ZZN33com_softraid_driver_SoftRAID_Disk25WriteStatusPartitionAsyncEvE21kalloc_type_view_1386
+Functions:
+~ __ZN33com_softraid_driver_SoftRAID_Disk31ReturnStatusRecPtrsForPartitionEP7IOMediaPP24VolumePartitionStatusRecPP32ExtendedVolumePartitionStatusRec : 308 -> 312
+```

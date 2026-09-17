@@ -1,0 +1,253 @@
+## passd
+
+> `/System/Library/PrivateFrameworks/PassKitCore.framework/passd`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__gcc_except_tab`
+- `__TEXT.__swift5_reflstr`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_mpenum`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_intobj`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__objc_dictobj`
+- `__DATA_CONST.__objc_arrayobj`
+
+```diff
+
+-1695.3.1.0.0
+-  __TEXT.__text: 0x58e174
+-  __TEXT.__auth_stubs: 0x5f20
+-  __TEXT.__objc_stubs: 0x71fe0
+-  __TEXT.__objc_methlist: 0x35c8c
+-  __TEXT.__const: 0x43f8
+-  __TEXT.__cstring: 0x655c4
+-  __TEXT.__objc_classname: 0x7d08
+-  __TEXT.__objc_methtype: 0x13e22
++1696.2.5.0.0
++  __TEXT.__text: 0x590e9c
++  __TEXT.__auth_stubs: 0x5f60
++  __TEXT.__objc_stubs: 0x72200
++  __TEXT.__objc_methlist: 0x35da4
++  __TEXT.__const: 0x4448
++  __TEXT.__cstring: 0x65c94
++  __TEXT.__objc_classname: 0x7d38
++  __TEXT.__objc_methtype: 0x13e62
+   __TEXT.__gcc_except_tab: 0x7e04
+-  __TEXT.__objc_methname: 0xa1d4c
+-  __TEXT.__oslogstring: 0x5170b
++  __TEXT.__objc_methname: 0xa211c
++  __TEXT.__oslogstring: 0x51c4b
+   __TEXT.__ustring: 0x10
+-  __TEXT.__swift5_typeref: 0x23d0
+-  __TEXT.__constg_swiftt: 0x1b50
++  __TEXT.__swift5_typeref: 0x244e
++  __TEXT.__constg_swiftt: 0x1b8c
+   __TEXT.__swift5_reflstr: 0x13d5
+-  __TEXT.__swift5_fieldmd: 0x14dc
++  __TEXT.__swift5_fieldmd: 0x14f8
+   __TEXT.__swift5_builtin: 0x1b8
+   __TEXT.__swift5_assocty: 0x2d0
+-  __TEXT.__swift5_capture: 0x111c
++  __TEXT.__swift5_capture: 0x112c
+   __TEXT.__swift5_proto: 0x1d4
+-  __TEXT.__swift5_types: 0x1bc
++  __TEXT.__swift5_types: 0x1c0
+   __TEXT.__swift_as_entry: 0x58
+   __TEXT.__swift_as_ret: 0x64
+   __TEXT.__swift_as_cont: 0x7c
+   __TEXT.__swift5_protos: 0x10
+   __TEXT.__swift5_mpenum: 0x38
+-  __TEXT.__unwind_info: 0x18670
++  __TEXT.__unwind_info: 0x18700
+   __TEXT.__eh_frame: 0x1510
+-  __DATA_CONST.__const: 0x2eba8
+-  __DATA_CONST.__cfstring: 0x32b80
+-  __DATA_CONST.__objc_classlist: 0x1a00
++  __DATA_CONST.__const: 0x2ebb0
++  __DATA_CONST.__cfstring: 0x32d40
++  __DATA_CONST.__objc_classlist: 0x1a08
+   __DATA_CONST.__objc_catlist: 0x40
+   __DATA_CONST.__objc_protolist: 0x5e0
+   __DATA_CONST.__objc_imageinfo: 0x8
+
+   __DATA_CONST.__objc_dictobj: 0x2a8
+   __DATA_CONST.__objc_arrayobj: 0x540
+   __DATA_CONST.__objc_doubleobj: 0x10
+-  __DATA_CONST.__auth_got: 0x2fa0
+-  __DATA_CONST.__got: 0x3b20
+-  __DATA_CONST.__auth_ptr: 0x760
+-  __DATA.__objc_const: 0x426a8
+-  __DATA.__objc_selrefs: 0x1f910
+-  __DATA.__objc_ivar: 0x28dc
+-  __DATA.__objc_data: 0x11900
+-  __DATA.__data: 0x6240
++  __DATA_CONST.__auth_got: 0x2fc0
++  __DATA_CONST.__got: 0x3b60
++  __DATA_CONST.__auth_ptr: 0x770
++  __DATA.__objc_const: 0x42788
++  __DATA.__objc_selrefs: 0x1f9a8
++  __DATA.__objc_ivar: 0x28e4
++  __DATA.__objc_data: 0x119c0
++  __DATA.__data: 0x6270
+   __DATA.__common: 0x90
+   - /System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate
+   - /System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 27466
+-  Symbols:   3459
+-  CStrings:  34344
++  Functions: 27499
++  Symbols:   3471
++  CStrings:  34411
+ 
+Symbols:
++ _$s10Foundation4DateV11descriptionSSvg
++ _OBJC_CLASS_$_PKDeallocationGuard
++ _OBJC_CLASS_$_PKPaymentSheetApplePayButtonTapAttribution
++ _PDCredentialRevocationReasonForPassDeletionReason
++ _PKCredentialRevocationReasonCreate
++ _PKCredentialRevocationScenarioAuxiliaryRequirementFailure
++ _PKCredentialRevocationScenarioPassApplicationsRemoved
++ _PKCredentialRevocationScenarioProvisioningFailure
++ _PKCredentialRevocationScenarioProvisioningReplacement
++ _PKCredentialRevocationScenarioServerConsistencyCheck
++ _PKCredentialRevocationScenarioUnspecified
++ _PKPaymentSheetAttributionTypeToString
+CStrings:
++ "-[PDPassLibrary deleteKeyMaterialForSubCredentialId:]"
++ "-[PDPaymentService revokeCredentialsWithIdentifiers:completion:]"
++ "-[PDPaymentService revokeCredentialsWithReaderIdentifiers:completion:]"
++ "-[PDPaymentWebServiceCoordinator handleRequestedActions:completion:]_block_invoke"
++ "-[PDPaymentWebServiceTargetDevice deleteKeyMaterialForSubCredentialId:]"
++ "-[PDPaymentWebServiceTargetDevice revokeCredentialsWithReaderIdentifiers:completion:]"
++ "-[PDServer paymentPass:didUpdatePaymentApplications:toPaymentApplications:]"
++ "-[PDSharingManager finishedStatefulProvisioningAttemptWithSuccess:operation:share:]"
++ "-[PDSharingManager revokePendingCredentialsForReaderIdentifier:completion:]_block_invoke"
++ "@\"PKLocation\""
++ "Apple Pay button tap received: identifier \"%@\" tapDate %@ bundleID %@"
++ "Apple Pay button tapDate %@ is in the future; clamping to %@"
++ "CREATE TABLE IF NOT EXISTS account_service_unavailable_period (pid INTEGER, reason INTEGER, start_date INTEGER, unavailable_feature_identifiers TEXT, learn_more_url TEXT, PRIMARY KEY (pid));"
++ "CREATE TABLE IF NOT EXISTS cow (pid INTEGER, c_pid INTEGER, a TEXT, b INTEGER, c INTEGER, d TEXT, e TEXT, h TEXT, j TEXT, k INTEGER, l INTEGER, m TEXT, r TEXT, s TEXT, t TEXT, u TEXT, v TEXT, w INTEGER, x TEXT, y BOOL, z TEXT, aa TEXT, ab TEXT, localized_pay_in_full_subtitle_override TEXT, has_preconfigured_offers TEXT, has_default_plan BOOL, instore_capabilities TEXT, is_handoff BOOL, requires_in_store_plan_selection BOOL, merchandising_identifier TEXT, setup_after_purchase_sticky_duration INTEGER, setup_after_purchase_active_duration INTEGER, supports_payment_status BOOL, supports_ecom_confirm BOOL, PRIMARY KEY (pid));"
++ "CREATE TABLE IF NOT EXISTS cowboy (pid INTEGER, c_pid INTEGER, a TEXT, b INTEGER, c INTEGER, d TEXT, e TEXT, f TEXT, h TEXT, i TEXT, ma BOOL, mb BOOL, instore_capabilities TEXT, selected_offer_sticky_duration INTEGER, selected_offer_active_duration INTEGER, supported_merchant_country_codes TEXT, supports_payment_status BOOL, supports_ecom_confirm BOOL, program_currency_name TEXT, PRIMARY KEY (pid));"
++ "CREATE TABLE IF NOT EXISTS durian (pid INTEGER, a TEXT, b TEXT, c INTEGER, d INTEGER, e INTEGER, f TEXT, g INTEGER, h INTEGER, i INTEGER, j INTEGER, k TEXT, l TEXT, m INTEGER DEFAULT 1, o TEXT, p TEXT, q TEXT, r INTEGER, feature_product INTEGER, s TEXT, PRIMARY KEY (pid));"
++ "CREATE TABLE IF NOT EXISTS rhubarb (pid INTEGER, a INTEGER, b TEXT, c INTEGER, d INTEGER, e TEXT, f TEXT, g INTEGER, h INTEGER, i INTEGER, j TEXT, k TEXT, l TEXT, m INTEGER, n BOOL, q BOOL, r BOOL, s BOOL, t BOOL, migration_type INTEGER, start_date INTEGER, effective_date INTEGER, old_issuer_closure_date INTEGER, old_issuer_identifier TEXT, new_issuer_identifier TEXT, learn_more_url TEXT, PRIMARY KEY (pid));"
++ "CREATE TABLE IF NOT EXISTS strawberries (pid INTEGER, a INTEGER, b TEXT, c INTEGER, d INTEGER, e TEXT, f TEXT, g INTEGER, h INTEGER, i INTEGER, j INTEGER, k TEXT, l TEXT, m TEXT, n INTEGER, o INTEGER, os_version_requirement_range BLOB, p INTEGER, q INTEGER, r TEXT, s INTEGER, savings_interest_rate INTEGER, savings_current_minimum_os_versions_pid INTEGER, savings_future_minimum_os_versions_pid INTEGER, minimum_date INTEGER, migration_type INTEGER, start_date INTEGER, effective_date INTEGER, old_issuer_closure_date INTEGER, old_issuer_identifier TEXT, new_issuer_identifier TEXT, learn_more_url TEXT, PRIMARY KEY (pid));"
++ "Car key transfer lookup: matched %s ready: %{bool}d state: %ld serial: %s provisioned: %s"
++ "Car key transfer lookup: no Apple Account information, cannot match a vehicle identifier"
++ "Car key transfer lookup: no local pass matches the request"
++ "Car key transfer lookup: selected %s via passTypeID + serialNumber"
++ "Car key transfer lookup: selected %s via vehicle identifier, %ld pass(es) matched, ready: %{bool}d"
++ "Error unable to insert dirty applet state, no payment application in database for pass unique ID: %@"
++ "Error unable to persist dirty applet state for pass unique ID: %@"
++ "Invitation status check abandoned"
++ "Migrating database from user_version 26066 to 26067"
++ "Migrating database from user_version 26067 to 26068"
++ "Migrating database from user_version 26068 to 26069"
++ "Migrating database from user_version 26069 to 26070"
++ "PDSharingManager: Coalescing invitation status check for mailbox %@ with the in-flight check."
++ "PDSharingManager: Invitation status check for mailbox %@ was released without a reply, failing the coalesced checks."
++ "Pruning expired PKPaymentSheetAttribution on read with bundleID %@ and type: %@"
++ "Relay server reported the mailbox no longer exists (HTTP %ld)"
++ "RelayServer: Missing shared web service, unable to perform request: %{public}@"
++ "Revoking credentials %@ (reason: %{public}@)"
++ "T@\"NSSet\",C,N,V_supplementalLocations"
++ "WhatsNew: unable to evaluate CarKey region support, current region is nil"
++ "WhatsNew: unable to evaluate Insights region support, current region is nil"
++ "_TtC5passd26PDCarKeyTransferPassLookup"
++ "_addPresentationOptions:toCollection:"
++ "_cachedIdentityLocation"
++ "_didComputeIdentityRelevancyDetails"
++ "_getRelevancyDetailsFromBoardingPasses:location:"
++ "_handleEndpointPushWithUserInfo:"
++ "_identityLocationForDepartureAirport:"
++ "_migrateFrom26066To26067:context:"
++ "_migrateFrom26067To26068:context:"
++ "_migrateFrom26068To26069:context:"
++ "_migrateFrom26069To26070:context:"
++ "_ownershipTokensRequestReasonFromUserInfo:"
++ "_pendingInvitationStatusCompletions"
++ "_supplementalLocations"
++ "addCandidate:forBeacon:relevantText:"
++ "addCandidate:forLocation:relevantText:"
++ "cacheApplePayButtonTapWithIdentifier:tapDate:"
++ "compareProvisioningDatesToPass:newestFirst:"
++ "deleteCredential:reason:completion:"
++ "deleteCredentials:reason:completion:"
++ "deleteCredentialsForIdentifiers:reason:completion:"
++ "deleteCredentialsForReaderIdentifiers:reason:completion:"
++ "deleteKeyMaterialForSubCredentialId:reason:"
++ "effective_date INTEGER"
++ "expiryDateString"
++ "initWithBlock:"
++ "initWithButtonIdentifier:bundleID:tapDate:expirationDate:"
++ "insertPass:forBeacon:presentationOptions:"
++ "insertPass:forLocation:presentationOptions:"
++ "learn_more_url TEXT"
++ "migrateSyncTokenIfUserGeneratedPassCapabilityChanged"
++ "migration_type INTEGER"
++ "new_issuer_identifier TEXT"
++ "old_issuer_closure_date INTEGER"
++ "old_issuer_identifier TEXT"
++ "passLookup"
++ "passd/PDCarKeyTransferPassLookup.swift"
++ "preferredTransferPassFrom:preferredSerialNumber:"
++ "requirementRegistrationFailed(_:for:context:)"
++ "revokeCredentialsWithIdentifiers:reason:completion:"
++ "revokeCredentialsWithReaderIdentifiers:reason:completion:"
++ "revokeSubcredentialForIdentifier:reason:withCompletion:"
++ "revokeSubcredentials:reason:withCompletion:"
++ "revokeSubcredentialsForIdentifiers:reason:withCompletion:"
++ "revokeSubcredentialsForReaderIdentifiers:reason:withCompletion:"
++ "setSupplementalLocations:"
++ "setSupportsEcomConfirm:"
++ "start_date INTEGER"
++ "supplementalLocations"
++ "supportsEcomConfirm"
++ "supports_ecom_confirm"
++ "supports_ecom_confirm BOOL"
++ "unavailable_feature_identifiers TEXT"
++ "user generated pass capability changed"
++ "v40@0:8@\"NSSet\"16@\"NSString\"24@?<v@?B>32"
+- "CREATE TABLE IF NOT EXISTS cow (pid INTEGER, c_pid INTEGER, a TEXT, b INTEGER, c INTEGER, d TEXT, e TEXT, h TEXT, j TEXT, k INTEGER, l INTEGER, m TEXT, r TEXT, s TEXT, t TEXT, u TEXT, v TEXT, w INTEGER, x TEXT, y BOOL, z TEXT, aa TEXT, ab TEXT, localized_pay_in_full_subtitle_override TEXT, has_preconfigured_offers TEXT, has_default_plan BOOL, instore_capabilities TEXT, is_handoff BOOL, requires_in_store_plan_selection BOOL, merchandising_identifier TEXT, setup_after_purchase_sticky_duration INTEGER, setup_after_purchase_active_duration INTEGER, supports_payment_status BOOL, PRIMARY KEY (pid));"
+- "CREATE TABLE IF NOT EXISTS cowboy (pid INTEGER, c_pid INTEGER, a TEXT, b INTEGER, c INTEGER, d TEXT, e TEXT, f TEXT, h TEXT, i TEXT, ma BOOL, mb BOOL, instore_capabilities TEXT, selected_offer_sticky_duration INTEGER, selected_offer_active_duration INTEGER, supported_merchant_country_codes TEXT, supports_payment_status BOOL, program_currency_name TEXT, PRIMARY KEY (pid));"
+- "CREATE TABLE IF NOT EXISTS durian (pid INTEGER, a TEXT, b TEXT, c INTEGER, d INTEGER, e INTEGER, f TEXT, g INTEGER, h INTEGER, i INTEGER, j INTEGER, k TEXT, l TEXT, m INTEGER DEFAULT 1, o TEXT, p TEXT, q TEXT, r INTEGER, feature_product INTEGER, PRIMARY KEY (pid));"
+- "CREATE TABLE IF NOT EXISTS rhubarb (pid INTEGER, a INTEGER, b TEXT, c INTEGER, d INTEGER, e TEXT, f TEXT, g INTEGER, h INTEGER, i INTEGER, j TEXT, k TEXT, l TEXT, m INTEGER, n BOOL, q BOOL, r BOOL, s BOOL, t BOOL, PRIMARY KEY (pid));"
+- "CREATE TABLE IF NOT EXISTS strawberries (pid INTEGER, a INTEGER, b TEXT, c INTEGER, d INTEGER, e TEXT, f TEXT, g INTEGER, h INTEGER, i INTEGER, j INTEGER, k TEXT, l TEXT, m TEXT, n INTEGER, o INTEGER, os_version_requirement_range BLOB, p INTEGER, q INTEGER, r TEXT, s INTEGER, savings_interest_rate INTEGER, savings_current_minimum_os_versions_pid INTEGER, savings_future_minimum_os_versions_pid INTEGER, minimum_date INTEGER, PRIMARY KEY (pid));"
+- "Car key source provider: Found pass via passTypeID + serialNumber"
+- "Car key source provider: Found pass via personalized vehicle identifier"
+- "IdentityStreamlinedPresentment"
+- "Revoking credentials %@"
+- "_applicableDateByUniqueID"
+- "_didComputeIdentityRelevantDate"
+- "_identityRelevantDateFromCurrentBoardingPasses"
+- "addCandidate:forBeacon:"
+- "addCandidate:forDate:"
+- "addCandidate:forLocation:"
+- "deleteCredential:completion:"
+- "deleteCredentials:completion:"
+- "deleteCredentialsForIdentifiers:completion:"
+- "deleteCredentialsForReaderIdentifiers:completion:"
+- "insertPass:forBeacon:"
+- "insertPass:forDate:"
+- "insertPass:forLocation:"
+- "revokeSubcredentialForIdentifier:withCompletion:"
+- "revokeSubcredentials:withCompletion:"
+- "revokeSubcredentialsForIdentifiers:withCompletion:"
+- "revokeSubcredentialsForReaderIdentifiers:withCompletion:"
+- "setFormattingContext:"
+```

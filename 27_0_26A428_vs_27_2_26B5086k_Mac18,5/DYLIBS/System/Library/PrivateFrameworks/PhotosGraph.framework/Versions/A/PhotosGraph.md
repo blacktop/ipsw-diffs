@@ -1,0 +1,401 @@
+## PhotosGraph
+
+> `/System/Library/PrivateFrameworks/PhotosGraph.framework/Versions/A/PhotosGraph`
+
+```diff
+
+-911.0.134.0.0
+-  __TEXT.__text: 0x6387d0
+-  __TEXT.__objc_methlist: 0x2bfa4
++916.41.100.0.0
++  __TEXT.__text: 0x6384d0
++  __TEXT.__objc_methlist: 0x2bf9c
+   __TEXT.__const: 0x1c500
+   __TEXT.__swift5_typeref: 0x864c
+   __TEXT.__swift5_reflstr: 0x743a
+
+   __TEXT.__swift5_protos: 0xa4
+   __TEXT.__swift5_proto: 0x123c
+   __TEXT.__swift5_types: 0xc38
+-  __TEXT.__cstring: 0x35431
++  __TEXT.__cstring: 0x35421
+   __TEXT.__swift5_capture: 0x2dd8
+   __TEXT.__oslogstring: 0x26c4d
+   __TEXT.__swift_as_entry: 0xec
+
+   __DATA_CONST.__objc_catlist: 0x98
+   __DATA_CONST.__objc_protolist: 0x460
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x12780
++  __DATA_CONST.__objc_selrefs: 0x12778
+   __DATA_CONST.__objc_protorefs: 0xf8
+   __DATA_CONST.__objc_superrefs: 0x1480
+   __DATA_CONST.__objc_arraydata: 0x38c0
+
+   __AUTH_CONST.__objc_doubleobj: 0x2b0
+   __AUTH_CONST.__objc_dictobj: 0x78
+   __AUTH_CONST.__objc_floatobj: 0x30
+-  __AUTH_CONST.__auth_got: 0x21f0
++  __AUTH_CONST.__auth_got: 0x21e8
+   __AUTH.__objc_data: 0x6898
+   __AUTH.__data: 0xc3f0
+   __DATA.__objc_ivar: 0x2d64
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 26575
+-  Symbols:   40441
+-  CStrings:  8539
++  Functions: 26574
++  Symbols:   40437
++  CStrings:  8537
+ 
+Symbols:
++ GCC_except_table10211
++ GCC_except_table10218
++ GCC_except_table10238
++ GCC_except_table10259
++ GCC_except_table10272
++ GCC_except_table10284
++ GCC_except_table10292
++ GCC_except_table10315
++ GCC_except_table10330
++ GCC_except_table10342
++ GCC_except_table10345
++ GCC_except_table10367
++ GCC_except_table10378
++ GCC_except_table10394
++ GCC_except_table10400
++ GCC_except_table10406
++ GCC_except_table10409
++ GCC_except_table10430
++ GCC_except_table10567
++ GCC_except_table10604
++ GCC_except_table10661
++ GCC_except_table10663
++ GCC_except_table10686
++ GCC_except_table10701
++ GCC_except_table10724
++ GCC_except_table10751
++ GCC_except_table10754
++ GCC_except_table10800
++ GCC_except_table10825
++ GCC_except_table10859
++ GCC_except_table10871
++ GCC_except_table10881
++ GCC_except_table10883
++ GCC_except_table10887
++ GCC_except_table10969
++ GCC_except_table10974
++ GCC_except_table11032
++ GCC_except_table11037
++ GCC_except_table11047
++ GCC_except_table11053
++ GCC_except_table11055
++ GCC_except_table11062
++ GCC_except_table11100
++ GCC_except_table11159
++ GCC_except_table11289
++ GCC_except_table11293
++ GCC_except_table11312
++ GCC_except_table11592
++ GCC_except_table11640
++ GCC_except_table11668
++ GCC_except_table11725
++ GCC_except_table11732
++ GCC_except_table11763
++ GCC_except_table11765
++ GCC_except_table11767
++ GCC_except_table11773
++ GCC_except_table11788
++ GCC_except_table11795
++ GCC_except_table11806
++ GCC_except_table11994
++ GCC_except_table12003
++ GCC_except_table12029
++ GCC_except_table12038
++ GCC_except_table12051
++ GCC_except_table12062
++ GCC_except_table12162
++ GCC_except_table12332
++ GCC_except_table12451
++ GCC_except_table12465
++ GCC_except_table12468
++ GCC_except_table12479
++ GCC_except_table12481
++ GCC_except_table12484
++ GCC_except_table12487
++ GCC_except_table12491
++ GCC_except_table12494
++ GCC_except_table12497
++ GCC_except_table12553
++ GCC_except_table12564
++ GCC_except_table12682
++ GCC_except_table12695
++ GCC_except_table12723
++ GCC_except_table12777
++ GCC_except_table12779
++ GCC_except_table12795
++ GCC_except_table12801
++ GCC_except_table12840
++ GCC_except_table12872
++ GCC_except_table12877
++ GCC_except_table12933
++ GCC_except_table13027
++ GCC_except_table13112
++ GCC_except_table13117
++ GCC_except_table13155
++ GCC_except_table13164
++ GCC_except_table13190
++ GCC_except_table13192
++ GCC_except_table13194
++ GCC_except_table13248
++ GCC_except_table13261
++ GCC_except_table13292
++ GCC_except_table13302
++ GCC_except_table13317
++ GCC_except_table13327
++ GCC_except_table13347
++ GCC_except_table13362
++ GCC_except_table13365
++ GCC_except_table13381
++ GCC_except_table13389
++ GCC_except_table13391
++ GCC_except_table13393
++ GCC_except_table13450
++ GCC_except_table13452
++ GCC_except_table13492
++ GCC_except_table13521
++ GCC_except_table13525
++ GCC_except_table13530
++ GCC_except_table13538
++ GCC_except_table13749
++ GCC_except_table13755
++ GCC_except_table13760
++ GCC_except_table13771
++ GCC_except_table13780
++ GCC_except_table13785
++ GCC_except_table13787
++ GCC_except_table13828
++ GCC_except_table13830
++ GCC_except_table13834
++ GCC_except_table13844
++ GCC_except_table13851
++ GCC_except_table13863
++ GCC_except_table13885
++ GCC_except_table13943
++ GCC_except_table13953
++ GCC_except_table13956
++ GCC_except_table13979
++ GCC_except_table13991
++ GCC_except_table13994
++ GCC_except_table14003
++ GCC_except_table14008
++ GCC_except_table14022
++ GCC_except_table14027
++ GCC_except_table14037
++ GCC_except_table14280
++ GCC_except_table14282
++ GCC_except_table14284
++ GCC_except_table14288
++ GCC_except_table14347
++ GCC_except_table9468
++ GCC_except_table9526
++ GCC_except_table9579
++ GCC_except_table9582
++ GCC_except_table9584
++ GCC_except_table9698
++ GCC_except_table9702
++ GCC_except_table9708
++ GCC_except_table9712
++ GCC_except_table9748
++ GCC_except_table9754
++ GCC_except_table9757
++ GCC_except_table9772
++ GCC_except_table9814
++ GCC_except_table9906
++ GCC_except_table9910
++ GCC_except_table9967
++ GCC_except_table9972
+- -[PGMonthEnrichmentRule _legacyVisibilityStateForItemPromotedToMonths:]
+- GCC_except_table10212
+- GCC_except_table10219
+- GCC_except_table10239
+- GCC_except_table10260
+- GCC_except_table10273
+- GCC_except_table10285
+- GCC_except_table10293
+- GCC_except_table10316
+- GCC_except_table10331
+- GCC_except_table10343
+- GCC_except_table10346
+- GCC_except_table10368
+- GCC_except_table10379
+- GCC_except_table10395
+- GCC_except_table10401
+- GCC_except_table10407
+- GCC_except_table10410
+- GCC_except_table10431
+- GCC_except_table10573
+- GCC_except_table10605
+- GCC_except_table10662
+- GCC_except_table10664
+- GCC_except_table10687
+- GCC_except_table10702
+- GCC_except_table10725
+- GCC_except_table10752
+- GCC_except_table10755
+- GCC_except_table10801
+- GCC_except_table10826
+- GCC_except_table10860
+- GCC_except_table10872
+- GCC_except_table10882
+- GCC_except_table10884
+- GCC_except_table10888
+- GCC_except_table10970
+- GCC_except_table10975
+- GCC_except_table11033
+- GCC_except_table11038
+- GCC_except_table11048
+- GCC_except_table11054
+- GCC_except_table11056
+- GCC_except_table11063
+- GCC_except_table11101
+- GCC_except_table11160
+- GCC_except_table11290
+- GCC_except_table11294
+- GCC_except_table11313
+- GCC_except_table11593
+- GCC_except_table11641
+- GCC_except_table11669
+- GCC_except_table11726
+- GCC_except_table11733
+- GCC_except_table11764
+- GCC_except_table11766
+- GCC_except_table11768
+- GCC_except_table11774
+- GCC_except_table11789
+- GCC_except_table11796
+- GCC_except_table11807
+- GCC_except_table11995
+- GCC_except_table12005
+- GCC_except_table12030
+- GCC_except_table12039
+- GCC_except_table12052
+- GCC_except_table12063
+- GCC_except_table12163
+- GCC_except_table12333
+- GCC_except_table12453
+- GCC_except_table12466
+- GCC_except_table12469
+- GCC_except_table12480
+- GCC_except_table12482
+- GCC_except_table12485
+- GCC_except_table12488
+- GCC_except_table12492
+- GCC_except_table12495
+- GCC_except_table12498
+- GCC_except_table12554
+- GCC_except_table12565
+- GCC_except_table12683
+- GCC_except_table12696
+- GCC_except_table12724
+- GCC_except_table12778
+- GCC_except_table12780
+- GCC_except_table12796
+- GCC_except_table12802
+- GCC_except_table12841
+- GCC_except_table12873
+- GCC_except_table12878
+- GCC_except_table12934
+- GCC_except_table13028
+- GCC_except_table13113
+- GCC_except_table13118
+- GCC_except_table13156
+- GCC_except_table13165
+- GCC_except_table13191
+- GCC_except_table13193
+- GCC_except_table13195
+- GCC_except_table13249
+- GCC_except_table13262
+- GCC_except_table13293
+- GCC_except_table13303
+- GCC_except_table13318
+- GCC_except_table13328
+- GCC_except_table13348
+- GCC_except_table13363
+- GCC_except_table13366
+- GCC_except_table13382
+- GCC_except_table13390
+- GCC_except_table13392
+- GCC_except_table13394
+- GCC_except_table13451
+- GCC_except_table13453
+- GCC_except_table13493
+- GCC_except_table13522
+- GCC_except_table13526
+- GCC_except_table13531
+- GCC_except_table13539
+- GCC_except_table13750
+- GCC_except_table13756
+- GCC_except_table13761
+- GCC_except_table13772
+- GCC_except_table13782
+- GCC_except_table13786
+- GCC_except_table13788
+- GCC_except_table13829
+- GCC_except_table13831
+- GCC_except_table13835
+- GCC_except_table13845
+- GCC_except_table13852
+- GCC_except_table13864
+- GCC_except_table13886
+- GCC_except_table13944
+- GCC_except_table13954
+- GCC_except_table13957
+- GCC_except_table13980
+- GCC_except_table13992
+- GCC_except_table13995
+- GCC_except_table14004
+- GCC_except_table14010
+- GCC_except_table14023
+- GCC_except_table14028
+- GCC_except_table14038
+- GCC_except_table14281
+- GCC_except_table14283
+- GCC_except_table14285
+- GCC_except_table14289
+- GCC_except_table14348
+- GCC_except_table9469
+- GCC_except_table9527
+- GCC_except_table9580
+- GCC_except_table9583
+- GCC_except_table9585
+- GCC_except_table9699
+- GCC_except_table9703
+- GCC_except_table9709
+- GCC_except_table9713
+- GCC_except_table9749
+- GCC_except_table9755
+- GCC_except_table9758
+- GCC_except_table9773
+- GCC_except_table9815
+- GCC_except_table9908
+- GCC_except_table9911
+- GCC_except_table9968
+- GCC_except_table9973
+- __os_feature_enabled_impl
+- _objc_msgSend$_legacyVisibilityStateForItemPromotedToMonths:
+- _objc_msgSend$isRecent
+Functions:
+~ +[PGUserDefaults _registerDefaults] : 1116 -> 1072
+~ -[PGDefaultEnrichmentProfile canEnrichHighlight:withOptions:] : 96 -> 8
+~ _zeroKeywordForLocationOrAreaWithName : 660 -> 564
+~ -[PGMonthEnrichmentRule enumerateChildVisibilityStateForHighlightItemList:sharingFilter:withGraph:neighborScoreComputer:usingBlock:maximumNumberOfVisibleItems:maximumNumberOfVisibleRegularItems:] : 3884 -> 3488
+- -[PGMonthEnrichmentRule _visibilityStateForItemPromotedToMonths:]
+~ -[PGPhotosChallengeMetricEvent _gatherMetricsForTripTitlingQuestions:progressBlock:] : 972 -> 976
+CStrings:
+- "Lemonade"
+- "Photos"
+```

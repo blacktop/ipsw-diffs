@@ -1,0 +1,70 @@
+## com.apple.iokit.IOUSBHostFamily
+
+> `com.apple.iokit.IOUSBHostFamily`
+
+```diff
+
+-1617.0.12.0.0
+-  __TEXT.__cstring: 0xa478
++1617.40.9.0.0
++  __TEXT.__cstring: 0xa4be
+   __TEXT.__os_log: 0x873b
+   __TEXT.__const: 0x2018
+-  __TEXT_EXEC.__text: 0x933e8
++  __TEXT_EXEC.__text: 0x934fc
+   __TEXT_EXEC.__auth_stubs: 0xd50
+   __DATA.__data: 0x1f0
+-  __DATA.__common: 0x970
++  __DATA.__common: 0x980
+   __DATA_CONST.__mod_init_func: 0xf0
+   __DATA_CONST.__mod_term_func: 0xe8
+   __DATA_CONST.__const: 0x14a88
+
+   __DATA_CONST.__got: 0x1f0
+   Functions: 2337
+   Symbols:   4175
+-  CStrings:  1160
++  CStrings:  1162
+ 
+Symbols:
++ __ZZN16AppleUSBHostPort12didTerminateEP9IOServicejPbE21kalloc_type_view_1099
++ __ZZN16AppleUSBHostPort12didTerminateEP9IOServicejPbE21kalloc_type_view_1118
++ __ZZN16AppleUSBHostPort12didTerminateEP9IOServicejPbE21kalloc_type_view_1129
++ __ZZN16AppleUSBHostPort13willTerminateEP9IOServicejE21kalloc_type_view_1002
++ __ZZN16AppleUSBHostPort13willTerminateEP9IOServicejE21kalloc_type_view_1022
++ __ZZN16AppleUSBHostPort13willTerminateEP9IOServicejE21kalloc_type_view_1031
++ __ZZN16AppleUSBHostPort16terminateServiceEP9IOServiceE21kalloc_type_view_3165
++ __ZZN16AppleUSBHostPort16terminateServiceEP9IOServiceE21kalloc_type_view_3240
++ __ZZN16AppleUSBHostPort22didTerminateThreadCallEPNS_23tPortTerminateArgumentsEE21kalloc_type_view_1153
++ __ZZN16AppleUSBHostPort23willTerminateThreadCallEPNS_23tPortTerminateArgumentsEE21kalloc_type_view_1069
++ __ZZN16AppleUSBHostPort26terminateServiceThreadCallEPNS_30tPortTerminateServiceArgumentsEP11thread_callE21kalloc_type_view_3265
++ __ZZN17IOUSBHostIOSource12destroyGatedEvE20kalloc_type_view_254
+- __ZZN16AppleUSBHostPort12didTerminateEP9IOServicejPbE21kalloc_type_view_1097
+- __ZZN16AppleUSBHostPort12didTerminateEP9IOServicejPbE21kalloc_type_view_1116
+- __ZZN16AppleUSBHostPort12didTerminateEP9IOServicejPbE21kalloc_type_view_1127
+- __ZZN16AppleUSBHostPort13willTerminateEP9IOServicejE21kalloc_type_view_1000
+- __ZZN16AppleUSBHostPort13willTerminateEP9IOServicejE21kalloc_type_view_1020
+- __ZZN16AppleUSBHostPort13willTerminateEP9IOServicejE21kalloc_type_view_1029
+- __ZZN16AppleUSBHostPort16terminateServiceEP9IOServiceE21kalloc_type_view_3159
+- __ZZN16AppleUSBHostPort16terminateServiceEP9IOServiceE21kalloc_type_view_3234
+- __ZZN16AppleUSBHostPort22didTerminateThreadCallEPNS_23tPortTerminateArgumentsEE21kalloc_type_view_1151
+- __ZZN16AppleUSBHostPort23willTerminateThreadCallEPNS_23tPortTerminateArgumentsEE21kalloc_type_view_1067
+- __ZZN16AppleUSBHostPort26terminateServiceThreadCallEPNS_30tPortTerminateServiceArgumentsEP11thread_callE21kalloc_type_view_3259
+- __ZZN17IOUSBHostIOSource12destroyGatedEvE20kalloc_type_view_236
+Functions:
+~ __ZN11StandardUSB25validateEndpointBurstSizeEjPKNS_18EndpointDescriptorEPKNS_37SuperSpeedEndpointCompanionDescriptorEPKNS_52SuperSpeedPlusIsochronousEndpointCompanionDescriptorE : 1912 -> 1900
+~ __ZN11StandardUSB22getEndpointBurstSize32EjPKNS_18EndpointDescriptorEPKNS_37SuperSpeedEndpointCompanionDescriptorEPKNS_52SuperSpeedPlusIsochronousEndpointCompanionDescriptorE : 144 -> 188
+~ __ZN11StandardUSB15getEndpointMultEjPKNS_18EndpointDescriptorEPKNS_37SuperSpeedEndpointCompanionDescriptorEPKNS_52SuperSpeedPlusIsochronousEndpointCompanionDescriptorE : 164 -> 196
+~ __ZN11StandardUSB28getEndpointMaxStreamsEncodedEjPKNS_18EndpointDescriptorEPKNS_37SuperSpeedEndpointCompanionDescriptorE : 48 -> 56
+~ __ZN11StandardUSB21getEndpointMaxStreamsEjPKNS_18EndpointDescriptorEPKNS_37SuperSpeedEndpointCompanionDescriptorE : 60 -> 64
+~ __ZN16AppleUSBHostPort14fullDisconnectENS_37AppleUSBHostPortTerminateDeviceReasonE : 1512 -> 1504
+~ __ZN16AppleUSBHostPort24serializeStatisticsGatedEP12OSDictionaryP11OSSerialize : 840 -> 872
+~ _GLOBAL__sub_I_AppleUSBHostPort.cpp : 1004 -> 1036
+~ __ZN17IOUSBHostIOSource5closeEv : 228 -> 300
+~ __ZN17IOUSBHostIOSource7destroyEv : 228 -> 300
+CStrings:
++ "1211111212221212112222222122222222222222222222222222222222222222222222222222212211111222211121122222222222111221121111111111111"
++ "kPortStatUSB3LinkFailureCount"
++ "kPortStatUSB3LinkFailureCountForDevice"
+- "121111121222121211222222212222222222222222222222222222222222222222222222222221221111122221112112222222222111221121111111111111"
+```

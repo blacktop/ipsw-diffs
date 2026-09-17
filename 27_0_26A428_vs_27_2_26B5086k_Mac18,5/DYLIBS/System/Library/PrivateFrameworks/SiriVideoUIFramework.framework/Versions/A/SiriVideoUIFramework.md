@@ -1,0 +1,185 @@
+## SiriVideoUIFramework
+
+> `/System/Library/PrivateFrameworks/SiriVideoUIFramework.framework/Versions/A/SiriVideoUIFramework`
+
+```diff
+
+-3600.28.7.0.0
+-  __TEXT.__text: 0x13410
+-  __TEXT.__const: 0xa16
+-  __TEXT.__cstring: 0x171
+-  __TEXT.__swift5_typeref: 0xc46
+-  __TEXT.__swift5_capture: 0x160
+-  __TEXT.__swift5_reflstr: 0x164
+-  __TEXT.__swift5_assocty: 0xd8
+-  __TEXT.__constg_swiftt: 0x2f8
+-  __TEXT.__swift5_fieldmd: 0x1f0
+-  __TEXT.__swift5_proto: 0x24
+-  __TEXT.__swift5_types: 0x28
+-  __TEXT.__oslogstring: 0xf5
+-  __TEXT.__unwind_info: 0x540
+-  __TEXT.__eh_frame: 0x38
++3605.20.2.0.0
++  __TEXT.__text: 0x1a054
++  __TEXT.__const: 0xbc0
++  __TEXT.__cstring: 0x2f3
++  __TEXT.__swift5_typeref: 0x10b7
++  __TEXT.__swift5_capture: 0x174
++  __TEXT.__oslogstring: 0x1cb
++  __TEXT.__swift_as_entry: 0x8
++  __TEXT.__swift_as_ret: 0xc
++  __TEXT.__swift_as_cont: 0xc
++  __TEXT.__swift5_reflstr: 0x184
++  __TEXT.__swift5_assocty: 0xf0
++  __TEXT.__constg_swiftt: 0x348
++  __TEXT.__swift5_fieldmd: 0x218
++  __TEXT.__swift5_proto: 0x28
++  __TEXT.__swift5_types: 0x2c
++  __TEXT.__unwind_info: 0x698
++  __TEXT.__eh_frame: 0x298
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_methname: 0x0
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x60
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x390
+-  __AUTH_CONST.__auth_got: 0x6e0
+-  __AUTH.__data: 0x4b8
+-  __DATA.__data: 0x5d8
++  __AUTH_CONST.__const: 0x498
++  __AUTH_CONST.__auth_got: 0x970
++  __AUTH.__data: 0x540
++  __DATA.__data: 0x740
+   __DATA.__common: 0x20
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
++  - /System/Library/PrivateFrameworks/IntelligenceFlow.framework/Versions/A/IntelligenceFlow
+   - /System/Library/PrivateFrameworks/MediaIntentsSnippetModels.framework/Versions/A/MediaIntentsSnippetModels
+   - /System/Library/PrivateFrameworks/SiriUtilities.framework/Versions/A/SiriUtilities
+   - /System/Library/PrivateFrameworks/SiriVideoIntents.framework/Versions/A/SiriVideoIntents
+   - /System/Library/PrivateFrameworks/SnippetKit.framework/Versions/A/SnippetKit
+   - /System/Library/PrivateFrameworks/SnippetUI.framework/Versions/A/SnippetUI
++  - /System/Library/PrivateFrameworks/ToolKit.framework/Versions/A/ToolKit
+   - /System/Library/PrivateFrameworks/VideosUICore.framework/Versions/A/VideosUICore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
++  - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 378
+-  Symbols:   312
+-  CStrings:  11
++  Functions: 491
++  Symbols:   363
++  CStrings:  27
+ 
+Symbols:
++ _OUTLINED_FUNCTION_19
++ _OUTLINED_FUNCTION_20
++ ___swift_async_cont_functlets
++ ___swift_async_entry_functlets
++ ___swift_async_ret_functlets
++ _associated conformance 20SiriVideoUIFramework14PersonResultV2V7SwiftUI4ViewAA4BodyAdEP_AdE
++ _swift_allocError
++ _swift_arrayDestroy
++ _swift_deallocClassInstance
++ _swift_errorRelease
++ _swift_errorRetain
++ _swift_initStackObject
++ _swift_setDeallocating
++ _swift_task_alloc
++ _swift_task_create
++ _swift_task_dealloc
++ _swift_task_switch
++ _swift_unknownObjectRelease
++ _symbolic Say_____G 25MediaIntentsSnippetModels05VideocD0O16ResultsListModelV3RowO
++ _symbolic ScA_pSg
++ _symbolic ScPSg
++ _symbolic _____ 20SiriVideoUIFramework14PersonResultV2V
++ _symbolic _____ 7ToolKit10TypedValueO
++ _symbolic _____ 9SnippetUI26InteractionDelegateWrapperV
++ _symbolic _____Sg 10Foundation4DateV
++ _symbolic _____Sg 25MediaIntentsSnippetModels05VideocD0O0E15ContentMetadataO
++ _symbolic _____Sg 25MediaIntentsSnippetModels05VideocD0O0E9ImageInfoV
++ _symbolic _____Sg 25MediaIntentsSnippetModels05VideocD0O13ContentRatingV
++ _symbolic _____Sg 25MediaIntentsSnippetModels05VideocD0O14TVShowMetadataV
++ _symbolic _____Sg 25MediaIntentsSnippetModels05VideocD0O20RottenTomatoesRatingV
++ _symbolic _____Sg 7ToolKit10TypedValueO
++ _symbolic _____Sg 7ToolKit18ConcreteResolvableO
++ _symbolic _____Sg_ABt 7ToolKit10TypedValueO
++ _symbolic _____Sg______ySay_____GSS_____yAFy__________G_____GGt 7SwiftUI7AnyViewV AA7ForEachV 25MediaIntentsSnippetModels05VideoiJ0O16ResultsListModelV3RowO AA19_ConditionalContentV 04SiriK11UIFramework0K8ResultV2V AO06PersontU0V AA05EmptyD0V
++ _symbolic ______p s5ErrorP
++ _symbolic _____yAAy__________G_____G 7SwiftUI19_ConditionalContentV 20SiriVideoUIFramework0F8ResultV2V AD06PersonhI0V AA9EmptyViewV
++ _symbolic _____yAAy__________G_____G_AAy__________GSgt 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V 07SnippetB012RichTextViewV AA08_PaddingH0V
++ _symbolic _____ySSSgG s23_ContiguousArrayStorageC
++ _symbolic _____ySS_____G s17_NativeDictionaryV 7ToolKit18ConcreteResolvableO
++ _symbolic _____ySay_____GSS_____G 7SwiftUI7ForEachV 25MediaIntentsSnippetModels05VideogH0O16ResultsListModelV3RowO AA9EmptyViewV
++ _symbolic _____ySay_____GSS_____yADy__________G_____GG 7SwiftUI7ForEachV 25MediaIntentsSnippetModels05VideogH0O16ResultsListModelV3RowO AA19_ConditionalContentV 04SiriI11UIFramework0I8ResultV2V AM06PersonrS0V AA9EmptyViewV
++ _symbolic _____y_____G 7SwiftUI24_BackgroundStyleModifierV AA8MaterialV
++ _symbolic _____y_____Sg______ySay_____GSS_____yAGy__________G_____GGQPG 7SwiftUI12TupleContentV AA7AnyViewV AA7ForEachV 25MediaIntentsSnippetModels05VideokL0O16ResultsListModelV3RowO AA012_ConditionalD0V 04SiriM11UIFramework0M8ResultV2V AQ06PersonuV0V AA05EmptyF0V
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 07SnippetB012RichTextViewV AA14_PaddingLayoutV
++ _symbolic _____y__________G 7SwiftUI19_ConditionalContentV 20SiriVideoUIFramework0F8ResultV2V AD06PersonhI0V
++ _symbolic _____y__________GSg 7SwiftUI15ModifiedContentV 07SnippetB012RichTextViewV AA14_PaddingLayoutV
++ _symbolic _____y___________G 7SwiftUI19_ConditionalContentV7StorageO 20SiriVideoUIFramework0G8ResultV2V AF06PersoniJ0V
++ _symbolic _____y___________y_____yACy_____yAEy__________G_____G_AEy__________GSgQPGAKG______QPGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA12TupleContentV AA012_ConditionalI0V AA08ModifiedI0V AA5ImageV AA012_AspectRatioG0V AA06_FrameG0V 07SnippetB008RichTextD0V AA08_PaddingG0V AA6SpacerV
++ _symbolic _____y_____yAAy_____y___________yAB_Qo_Qo______y_____GG_Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE16privacySensitiveyQrSbFQO AE07SnippetB0E2if_9transformQrSb_qd__xXEtAaDRd__lFQO AG019SummaryItemStandardE0V AeGE15componentTapped12isNavigation7performQrSb_yyctFQO AA24_BackgroundStyleModifierV AA8MaterialV AA023AccessibilityAttachmentU0V
++ _symbolic _____y_____y_____Sg______ySay_____GSS_____yAHy__________G_____GGQPGG 9SnippetUI14ComponentStackV 05SwiftB012TupleContentV AD7AnyViewV AD7ForEachV 012MediaIntentsA6Models05VideoaN0O16ResultsListModelV3RowO AD012_ConditionalG0V 04SiriO11UIFramework0O8ResultV2V AT06PersonwX0V AD05EmptyI0V
++ _symbolic _____y_____y__________G______G 7SwiftUI19_ConditionalContentV7StorageO AC 20SiriVideoUIFramework0G8ResultV2V AF06PersoniJ0V AA9EmptyViewV
++ _symbolic _____y_____y___________yAB_Qo_Qo______y_____GG 7SwiftUI15ModifiedContentV AA4ViewP07SnippetB0E2if_9transformQrSb_qd__xXEtAaDRd__lFQO AF019SummaryItemStandardE0V AeFE15componentTapped12isNavigation7performQrSb_yyctFQO AA24_BackgroundStyleModifierV AA8MaterialV
++ _symbolic _____y_____y_____yABy_____yADy__________G_____G_ADy__________GSgQPGAJG______QPGG 7SwiftUI6HStackV AA12TupleContentV AA012_ConditionalE0V AA08ModifiedE0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameK0V 07SnippetB012RichTextViewV AA08_PaddingK0V AA6SpacerV
++ _symbolic _____y_____y_____yABy_____yADy__________G_____G_ADy__________GSgQPGAJG______QPGGSg 7SwiftUI6HStackV AA12TupleContentV AA012_ConditionalE0V AA08ModifiedE0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameK0V 07SnippetB012RichTextViewV AA08_PaddingK0V AA6SpacerV
++ _symbolic _____y_____y_____yACy__________G_____G_ACy__________GSgQPGAIG 7SwiftUI19_ConditionalContentV AA05TupleD0V AA08ModifiedD0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameJ0V 07SnippetB012RichTextViewV AA08_PaddingJ0V
++ _symbolic _____y_____y_____yACy__________G_____G_ACy__________GSgQPGAIG______t 7SwiftUI19_ConditionalContentV AA05TupleD0V AA08ModifiedD0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameJ0V 07SnippetB012RichTextViewV AA08_PaddingJ0V AA6SpacerV
++ _symbolic _____y_____y_____yACy__________G_____G_ACy__________GSgQPGAI_G 7SwiftUI19_ConditionalContentV7StorageO AA05TupleD0V AA08ModifiedD0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameK0V 07SnippetB012RichTextViewV AA08_PaddingK0V
++ _symbolic _____y_____y_____y_____Sg______ySay_____GSS_____yAHy__________G_____GGQPGG_A2PQo_ 7SwiftUI4ViewP07SnippetB0E21requestHostBackground_8accepted6deniedQrAD0fG0OSg_qd__xcqd_0_xctAaBRd__AaBRd_0_r0_lFQO AD14ComponentStackV AA12TupleContentV AA03AnyC0V AA7ForEachV 012MediaIntentsD6Models05VideodS0O16ResultsListModelV3RowO AA012_ConditionalM0V 04SiriT11UIFramework0T8ResultV2V A0_14PersonResultV2V AA05EmptyC0V
++ _symbolic _____y_____y_____y___________yAB_Qo_Qo______y_____GG_Qo_ 7SwiftUI4ViewPAAE16privacySensitiveyQrSbFQO AA15ModifiedContentV AC07SnippetB0E2if_9transformQrSb_qd__xXEtAaBRd__lFQO AG019SummaryItemStandardC0V AcGE15componentTapped12isNavigation7performQrSb_yyctFQO AA24_BackgroundStyleModifierV AA8MaterialV
++ _symbolic _____y_____y_____y_____y_____Sg______ySay_____GSS_____yAHy__________G_____GGQPGG_A2PQo__Qo_ 7SwiftUI4ViewPAAE16privacySensitiveyQrSbFQO AC07SnippetB0E21requestHostBackground_8accepted6deniedQrAE0hI0OSg_qd__xcqd_0_xctAaBRd__AaBRd_0_r0_lFQO AE14ComponentStackV AA12TupleContentV AA03AnyC0V AA7ForEachV 012MediaIntentsF6Models05VideofU0O16ResultsListModelV3RowO AA012_ConditionalO0V 04SiriV11UIFramework0V8ResultV2V A1_14PersonResultV2V AA05EmptyC0V
++ _symbolic _____y_____y_____y_____y______Qo__Qo__Qo______G 7SwiftUI15ModifiedContentV AA4ViewP07SnippetB0E14imageFixedSize10horizontal8verticalQrSb_SbtFQO AeFE0G11AspectRatio5width6heightQr12CoreGraphics7CGFloatV_AOtFQO AeFE0G5StyleyQr0F3Kit12ImageElementV0uS0OFQO AF07RFImageE0V AA14_PaddingLayoutV
++ _symbolic _____y_____y_____y_____y_____y______Qo__Qo__Qo______GAHG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA4ViewP07SnippetB0E14imageFixedSize10horizontal8verticalQrSb_SbtFQO AgHE0H11AspectRatio5width6heightQr12CoreGraphics7CGFloatV_AQtFQO AgHE0H5StyleyQr0G3Kit12ImageElementV0vT0OFQO AH07RFImageF0V AA14_PaddingLayoutV
++ _symbolic _____y_____y_____y_____y_____y______Qo__Qo__Qo______GAH_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA4ViewP07SnippetB0E14imageFixedSize10horizontal8verticalQrSb_SbtFQO AiJE0I11AspectRatio5width6heightQr12CoreGraphics7CGFloatV_AStFQO AiJE0I5StyleyQr0H3Kit12ImageElementV0wU0OFQO AJ07RFImageG0V AA14_PaddingLayoutV
++ _symbolic ytIeAgHr_
++ get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE16privacySensitiveyQrSbFQOyACyAE07SnippetB0E2if_9transformQrSb_qd__xXEtAaDRd__lFQOyAG019SummaryItemStandardE0V_AeGE15componentTapped12isNavigation7performQrSb_yyctFQOyAK_Qo_Qo_AA24_BackgroundStyleModifierVyAA8MaterialVGG_Qo_AA023AccessibilityAttachmentU0VGAaDHPqd__AaDHD2_AWHO_AyA0eU0HPyHCHC
++ get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE16privacySensitiveyQrSbFQOyAC07SnippetB0E21requestHostBackground_8accepted6deniedQrAE0hI0OSg_qd__xcqd_0_xctAaBRd__AaBRd_0_r0_lFQOyAE14ComponentStackVyAA12TupleContentVyAA03AnyC0VSg_AA7ForEachVySay012MediaIntentsF6Models05VideofU0O16ResultsListModelV3RowOGSSAA012_ConditionalO0VyA2_y04SiriV11UIFramework0V8ResultV2VA3_14PersonResultV2VGAA05EmptyC0VGGQPGG_A14_A14_Qo__Qo_HO
+- _symbolic Say_____G 25MediaIntentsSnippetModels05VideocD0O0E6ResultV
+- _symbolic _____Sg 25MediaIntentsSnippetModels05VideocD0O0E10UIMetadataO
+- _symbolic _____Sg 25MediaIntentsSnippetModels05VideocD0O11PersonModelV
+- _symbolic _____Sg______ySay_____GSSSg_____Gt 7SwiftUI7AnyViewV AA7ForEachV 25MediaIntentsSnippetModels05VideoiJ0O0K6ResultV 04SiriK11UIFramework0kL2V2V
+- _symbolic _____ySay_____GSSSg_____G 7SwiftUI7ForEachV 25MediaIntentsSnippetModels05VideogH0O0I6ResultV 04SiriI11UIFramework0iJ2V2V
+- _symbolic _____ySay_____GSSSg_____G 7SwiftUI7ForEachV 25MediaIntentsSnippetModels05VideogH0O0I6ResultV AA9EmptyViewV
+- _symbolic _____y_____Sg______ySay_____GSSSg_____GQPG 7SwiftUI12TupleContentV AA7AnyViewV AA7ForEachV 25MediaIntentsSnippetModels05VideokL0O0M6ResultV 04SiriM11UIFramework0mN2V2V
+- _symbolic _____y___________yAA_Qo_Qo_ 7SwiftUI4ViewP07SnippetB0E2if_9transformQrSb_qd__xXEtAaBRd__lFQO AD019SummaryItemStandardC0V AcDE15componentTapped12isNavigation7performQrSb_yyctFQO
+- _symbolic _____y_____y_____Sg______ySay_____GSSSg_____GQPGG 9SnippetUI14ComponentStackV 05SwiftB012TupleContentV AD7AnyViewV AD7ForEachV 012MediaIntentsA6Models05VideoaN0O0O6ResultV 04SiriO11UIFramework0oP2V2V
+- _symbolic _____y_____y___________yAA_Qo_Qo__Qo_ 7SwiftUI4ViewPAAE16privacySensitiveyQrSbFQO AC07SnippetB0E2if_9transformQrSb_qd__xXEtAaBRd__lFQO AE019SummaryItemStandardC0V AcEE15componentTapped12isNavigation7performQrSb_yyctFQO
+- _symbolic _____y_____y_____y_____Sg______ySay_____GSSSg_____GQPGG_Qo_ 7SwiftUI4ViewP07SnippetB0E17setHostBackgroundyQrAD0fG0OSgFQO AD14ComponentStackV AA12TupleContentV AA03AnyC0V AA7ForEachV 012MediaIntentsD6Models05VideodQ0O0R6ResultV 04SiriR11UIFramework0rS2V2V
+- _symbolic _____y_____y_____y___________yAB_Qo_Qo__Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE16privacySensitiveyQrSbFQO AE07SnippetB0E2if_9transformQrSb_qd__xXEtAaDRd__lFQO AG019SummaryItemStandardE0V AeGE15componentTapped12isNavigation7performQrSb_yyctFQO AA31AccessibilityAttachmentModifierV
+- _symbolic _____y_____y_____y_____y_____Sg______ySay_____GSSSg_____GQPGG_Qo__Qo_ 7SwiftUI4ViewPAAE16privacySensitiveyQrSbFQO AC07SnippetB0E17setHostBackgroundyQrAE0hI0OSgFQO AE14ComponentStackV AA12TupleContentV AA03AnyC0V AA7ForEachV 012MediaIntentsF6Models05VideofS0O0T6ResultV 04SiriT11UIFramework0tU2V2V
+- get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE16privacySensitiveyQrSbFQOyAE07SnippetB0E2if_9transformQrSb_qd__xXEtAaDRd__lFQOyAG019SummaryItemStandardE0V_AeGE15componentTapped12isNavigation7performQrSb_yyctFQOyAK_Qo_Qo__Qo_AA31AccessibilityAttachmentModifierVGAaDHPqd__AaDHD2_AQHO_AsA0eU0HPyHCHC
+- get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE16privacySensitiveyQrSbFQOyAC07SnippetB0E17setHostBackgroundyQrAE0hI0OSgFQOyAE14ComponentStackVyAA12TupleContentVyAA03AnyC0VSg_AA7ForEachVySay012MediaIntentsF6Models05VideofS0O0T6ResultVGSSSg04SiriT11UIFramework0tU2V2VGQPGG_Qo__Qo_HO
+CStrings:
++ "#InteractionDelegateWrapper failed to construct play action: %s"
++ "#PersonResultV2 tapped: name=%s"
++ "#VideoResultV2 tapped: title=%s on CarPlay, resolving play action lazily"
++ "PERSON_ROLE_ACTOR"
++ "PERSON_ROLE_CREATOR"
++ "PERSON_ROLE_DIRECTOR"
++ "PERSON_ROLE_EXECUTIVE_PRODUCER"
++ "PERSON_ROLE_PRODUCER"
++ "PERSON_ROLE_WRITER"
++ "RUNTIME_HOURS_MINUTES_SHORT"
++ "RUNTIME_HOURS_SHORT"
++ "RUNTIME_MINUTES_SHORT"
++ "Unsupported model type: %s"
++ "VideoSnippetModels"
++ "^[!](imageUrl: '"
++ "com.apple.siri.video.PlayContent"
++ "executiveProducer"
++ "person.crop.circle"
+- "ROW_SEASON_DESCRIPTION_WITH_SEPARATOR"
+- "RUNTIME_HOURS_MINUTES"
+```

@@ -1,0 +1,28 @@
+## agx_a000
+
+> `Firmware/agx/armfw_g16g.im4p/agx_a000`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT._rtk_patchbay`
+- `__DATA.__data`
+- `__DATA.__const`
+- `__DATA._rtk_mtab`
+- `__DATA.__mod_init_func`
+
+```diff
+
+-  __TEXT.__text: 0x52c34
++  __TEXT.__text: 0x52c38
+   __TEXT.__gxf_code: 0x5080
+   __TEXT.__gxf_code_pad: 0x0
+   __TEXT.__gxf_shr_code: 0x560
+-  __TEXT.__const: 0x1d78
++  __TEXT.__const: 0x1d8d
+   __TEXT.__cstring: 0x2722
+   __TEXT._rtk_patchbay: 0x231
+   __TEXT._rtk_tunables: 0x6a0
+Functions:
+~ sub_fffffc0000049bf4 : 384 -> 388
+~ sub_fffffc0000052af4 -> sub_fffffc0000052af8 : 320 -> 328
+```

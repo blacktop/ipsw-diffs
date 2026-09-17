@@ -1,0 +1,238 @@
+## PegasusAPI
+
+> `/System/Library/PrivateFrameworks/PegasusAPI.framework/Versions/A/PegasusAPI`
+
+```diff
+
+-3600.56.26.14.1
+-  __TEXT.__text: 0xbc3e8c
+-  __TEXT.__const: 0x1101a8
+-  __TEXT.__constg_swiftt: 0x2cce8
+-  __TEXT.__swift5_typeref: 0x192c5
+-  __TEXT.__swift5_fieldmd: 0x34ee8
+-  __TEXT.__swift5_types: 0x2264
+-  __TEXT.__swift5_reflstr: 0x32375
+-  __TEXT.__swift5_proto: 0xb3e0
+-  __TEXT.__swift5_assocty: 0x5250
+-  __TEXT.__cstring: 0x10240
++3605.21.1.4.1
++  __TEXT.__text: 0xc2fc7c
++  __TEXT.__const: 0x112188
++  __TEXT.__swift5_typeref: 0x1942f
++  __TEXT.__swift5_reflstr: 0x33a05
++  __TEXT.__swift5_assocty: 0x5280
++  __TEXT.__constg_swiftt: 0x2e118
++  __TEXT.__swift5_fieldmd: 0x35a00
++  __TEXT.__swift5_proto: 0xb488
++  __TEXT.__swift5_types: 0x2284
++  __TEXT.__cstring: 0x10340
+   __TEXT.__swift5_builtin: 0x12c
+   __TEXT.__swift5_mpenum: 0x80
+   __TEXT.__swift5_protos: 0x8
+-  __TEXT.__unwind_info: 0x65d88
+-  __TEXT.__eh_frame: 0x71fd8
++  __TEXT.__unwind_info: 0x68ba8
++  __TEXT.__eh_frame: 0x765a8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x141d8
+-  __DATA_CONST.__objc_classlist: 0x5f8
++  __DATA_CONST.__const: 0x14e78
++  __DATA_CONST.__objc_classlist: 0x600
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x40
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x236e8
+-  __AUTH_CONST.__objc_const: 0x22140
++  __AUTH_CONST.__const: 0x237e8
++  __AUTH_CONST.__objc_const: 0x23af8
+   __AUTH_CONST.__auth_got: 0x720
+-  __AUTH.__objc_data: 0xa0
+-  __AUTH.__data: 0xc3e0
+-  __DATA.__data: 0x25d50
+-  __DATA_DIRTY.__objc_data: 0x33e0
+-  __DATA_DIRTY.__data: 0x5d988
++  __AUTH.__objc_data: 0xf0
++  __AUTH.__data: 0xcb48
++  __DATA.__data: 0x26608
++  __DATA_DIRTY.__objc_data: 0x3390
++  __DATA_DIRTY.__data: 0x5eeb8
+   __DATA_DIRTY.__bss: 0x1d100
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/Versions/A/InternalSwiftProtobuf
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  Functions: 133826
+-  Symbols:   15847
+-  CStrings:  1386
++  Functions: 136051
++  Symbols:   15897
++  CStrings:  1391
+ 
+Symbols:
++ __DATA__TtCV10PegasusAPI23Geopb_StructuredAddressP33_ED2D6EE4388E1EEB90A8D4C7BB98BC4313_StorageClass
++ __DATA__TtCV10PegasusAPI66Apple_Parsec_Sam_V1alpha_StandardRepresentations_Video_VideoResultP33_E4A2175809744ABB03FC10328E28F24E13_StorageClass
++ __IVARS__TtCV10PegasusAPI23Geopb_StructuredAddressP33_ED2D6EE4388E1EEB90A8D4C7BB98BC4313_StorageClass
++ __IVARS__TtCV10PegasusAPI66Apple_Parsec_Sam_V1alpha_StandardRepresentations_Video_VideoResultP33_E4A2175809744ABB03FC10328E28F24E13_StorageClass
++ __METACLASS_DATA__TtCV10PegasusAPI23Geopb_StructuredAddressP33_ED2D6EE4388E1EEB90A8D4C7BB98BC4313_StorageClass
++ __METACLASS_DATA__TtCV10PegasusAPI66Apple_Parsec_Sam_V1alpha_StandardRepresentations_Video_VideoResultP33_E4A2175809744ABB03FC10328E28F24E13_StorageClass
++ __swift_get_extra_inhabitant_index.1619Tm
++ __swift_get_extra_inhabitant_index.1644Tm
++ __swift_get_extra_inhabitant_index.166Tm
++ __swift_get_extra_inhabitant_index.1671Tm
++ __swift_get_extra_inhabitant_index.1698Tm
++ __swift_get_extra_inhabitant_index.1815Tm
++ __swift_get_extra_inhabitant_index.184Tm
++ __swift_get_extra_inhabitant_index.1896Tm
++ __swift_get_extra_inhabitant_index.1905Tm
++ __swift_get_extra_inhabitant_index.1914Tm
++ __swift_get_extra_inhabitant_index.1959Tm
++ __swift_get_extra_inhabitant_index.1986Tm
++ __swift_get_extra_inhabitant_index.209Tm
++ __swift_get_extra_inhabitant_index.2154Tm
++ __swift_get_extra_inhabitant_index.216Tm
++ __swift_get_extra_inhabitant_index.2199Tm
++ __swift_get_extra_inhabitant_index.2208Tm
++ __swift_get_extra_inhabitant_index.2244Tm
++ __swift_get_extra_inhabitant_index.2325Tm
++ __swift_get_extra_inhabitant_index.2352Tm
++ __swift_get_extra_inhabitant_index.2424Tm
++ __swift_get_extra_inhabitant_index.2451Tm
++ __swift_get_extra_inhabitant_index.2469Tm
++ __swift_get_extra_inhabitant_index.2712Tm
++ __swift_get_extra_inhabitant_index.273Tm
++ __swift_get_extra_inhabitant_index.58Tm
++ __swift_store_extra_inhabitant_index.1620Tm
++ __swift_store_extra_inhabitant_index.1645Tm
++ __swift_store_extra_inhabitant_index.1672Tm
++ __swift_store_extra_inhabitant_index.167Tm
++ __swift_store_extra_inhabitant_index.1699Tm
++ __swift_store_extra_inhabitant_index.1816Tm
++ __swift_store_extra_inhabitant_index.185Tm
++ __swift_store_extra_inhabitant_index.1897Tm
++ __swift_store_extra_inhabitant_index.1906Tm
++ __swift_store_extra_inhabitant_index.1915Tm
++ __swift_store_extra_inhabitant_index.1960Tm
++ __swift_store_extra_inhabitant_index.1987Tm
++ __swift_store_extra_inhabitant_index.210Tm
++ __swift_store_extra_inhabitant_index.2155Tm
++ __swift_store_extra_inhabitant_index.217Tm
++ __swift_store_extra_inhabitant_index.2200Tm
++ __swift_store_extra_inhabitant_index.2209Tm
++ __swift_store_extra_inhabitant_index.2245Tm
++ __swift_store_extra_inhabitant_index.2326Tm
++ __swift_store_extra_inhabitant_index.2353Tm
++ __swift_store_extra_inhabitant_index.2425Tm
++ __swift_store_extra_inhabitant_index.2452Tm
++ __swift_store_extra_inhabitant_index.2470Tm
++ __swift_store_extra_inhabitant_index.2713Tm
++ __swift_store_extra_inhabitant_index.274Tm
++ __swift_store_extra_inhabitant_index.59Tm
++ _associated conformance 10PegasusAPI21GenmojiPromptMetadataV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 10PegasusAPI21GenmojiPromptMetadataV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0I0
++ _associated conformance 10PegasusAPI21GenmojiPromptMetadataV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 10PegasusAPI21GenmojiPromptMetadataVSHAASQ
++ _associated conformance 10PegasusAPI23Geopb_StructuredAddressV10SubPremiseV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 10PegasusAPI23Geopb_StructuredAddressV10SubPremiseV21InternalSwiftProtobuf26_MessageImplementationBaseAaF0K0
++ _associated conformance 10PegasusAPI23Geopb_StructuredAddressV10SubPremiseV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 10PegasusAPI23Geopb_StructuredAddressV10SubPremiseVSHAASQ
++ _associated conformance 10PegasusAPI30Useragentpb_DeviceCapabilitiesV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 10PegasusAPI30Useragentpb_DeviceCapabilitiesV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0I0
++ _associated conformance 10PegasusAPI30Useragentpb_DeviceCapabilitiesV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 10PegasusAPI30Useragentpb_DeviceCapabilitiesVSHAASQ
++ _associated conformance 10PegasusAPI43Apple_Parsec_Dictionary_V1alpha_ResultOrderO21InternalSwiftProtobuf4EnumAASH
++ _associated conformance 10PegasusAPI43Apple_Parsec_Dictionary_V1alpha_ResultOrderO21InternalSwiftProtobuf4EnumAASY
++ _associated conformance 10PegasusAPI43Apple_Parsec_Dictionary_V1alpha_ResultOrderOSHAASQ
++ _associated conformance 10PegasusAPI43Apple_Parsec_Dictionary_V1alpha_ResultOrderOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 10PegasusAPI48Apple_Parsec_Dictionary_V1alpha_SearchWikiResultV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 10PegasusAPI48Apple_Parsec_Dictionary_V1alpha_SearchWikiResultV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0M0
++ _associated conformance 10PegasusAPI48Apple_Parsec_Dictionary_V1alpha_SearchWikiResultV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 10PegasusAPI48Apple_Parsec_Dictionary_V1alpha_SearchWikiResultVSHAASQ
++ _associated conformance 10PegasusAPI49Apple_Parsec_Dictionary_V1alpha_SearchWikiRequestV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 10PegasusAPI49Apple_Parsec_Dictionary_V1alpha_SearchWikiRequestV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0M0
++ _associated conformance 10PegasusAPI49Apple_Parsec_Dictionary_V1alpha_SearchWikiRequestV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 10PegasusAPI49Apple_Parsec_Dictionary_V1alpha_SearchWikiRequestVSHAASQ
++ _associated conformance 10PegasusAPI50Apple_Parsec_Dictionary_V1alpha_SearchWikiResponseV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 10PegasusAPI50Apple_Parsec_Dictionary_V1alpha_SearchWikiResponseV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0M0
++ _associated conformance 10PegasusAPI50Apple_Parsec_Dictionary_V1alpha_SearchWikiResponseV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 10PegasusAPI50Apple_Parsec_Dictionary_V1alpha_SearchWikiResponseVSHAASQ
++ _symbolic SDy__________G s6UInt32V 10PegasusAPI21GenmojiPromptMetadataV
++ _symbolic Say_____G 10PegasusAPI23Geopb_StructuredAddressV10SubPremiseV
++ _symbolic Say_____G 10PegasusAPI43Apple_Parsec_Dictionary_V1alpha_ResultOrderO
++ _symbolic Say_____G 10PegasusAPI48Apple_Parsec_Dictionary_V1alpha_SearchWikiResultV
++ _symbolic _____ 10PegasusAPI055Apple_Parsec_Sam_V1alpha_StandardRepresentations_Video_I6ResultV13_StorageClass33_E4A2175809744ABB03FC10328E28F24ELLC
++ _symbolic _____ 10PegasusAPI21GenmojiPromptMetadataV
++ _symbolic _____ 10PegasusAPI23Geopb_StructuredAddressV10SubPremiseV
++ _symbolic _____ 10PegasusAPI23Geopb_StructuredAddressV13_StorageClass33_ED2D6EE4388E1EEB90A8D4C7BB98BC43LLC
++ _symbolic _____ 10PegasusAPI30Useragentpb_DeviceCapabilitiesV
++ _symbolic _____ 10PegasusAPI43Apple_Parsec_Dictionary_V1alpha_ResultOrderO
++ _symbolic _____ 10PegasusAPI48Apple_Parsec_Dictionary_V1alpha_SearchWikiResultV
++ _symbolic _____ 10PegasusAPI49Apple_Parsec_Dictionary_V1alpha_SearchWikiRequestV
++ _symbolic _____ 10PegasusAPI50Apple_Parsec_Dictionary_V1alpha_SearchWikiResponseV
++ _symbolic _____3key______5valuet s6UInt32V 10PegasusAPI21GenmojiPromptMetadataV
++ _symbolic _____Sg 10PegasusAPI30Useragentpb_DeviceCapabilitiesV
++ _symbolic _____Sg_ABt 10PegasusAPI30Useragentpb_DeviceCapabilitiesV
+- __DATA__TtCV10PegasusAPI29Aspiresnippetpb_StorefrontPoiP33_A28C9D7A423FB608873FF4C95F4BF4E213_StorageClass
+- __IVARS__TtCV10PegasusAPI29Aspiresnippetpb_StorefrontPoiP33_A28C9D7A423FB608873FF4C95F4BF4E213_StorageClass
+- __METACLASS_DATA__TtCV10PegasusAPI29Aspiresnippetpb_StorefrontPoiP33_A28C9D7A423FB608873FF4C95F4BF4E213_StorageClass
+- __swift_get_extra_inhabitant_index.1616Tm
+- __swift_get_extra_inhabitant_index.1641Tm
+- __swift_get_extra_inhabitant_index.1668Tm
+- __swift_get_extra_inhabitant_index.1812Tm
+- __swift_get_extra_inhabitant_index.1893Tm
+- __swift_get_extra_inhabitant_index.18Tm
+- __swift_get_extra_inhabitant_index.1902Tm
+- __swift_get_extra_inhabitant_index.1911Tm
+- __swift_get_extra_inhabitant_index.1956Tm
+- __swift_get_extra_inhabitant_index.1983Tm
+- __swift_get_extra_inhabitant_index.202Tm
+- __swift_get_extra_inhabitant_index.211Tm
+- __swift_get_extra_inhabitant_index.2151Tm
+- __swift_get_extra_inhabitant_index.2196Tm
+- __swift_get_extra_inhabitant_index.2205Tm
+- __swift_get_extra_inhabitant_index.220Tm
+- __swift_get_extra_inhabitant_index.2241Tm
+- __swift_get_extra_inhabitant_index.2322Tm
+- __swift_get_extra_inhabitant_index.2349Tm
+- __swift_get_extra_inhabitant_index.2421Tm
+- __swift_get_extra_inhabitant_index.2448Tm
+- __swift_get_extra_inhabitant_index.2466Tm
+- __swift_get_extra_inhabitant_index.2709Tm
+- __swift_get_extra_inhabitant_index.56Tm
+- __swift_store_extra_inhabitant_index.1617Tm
+- __swift_store_extra_inhabitant_index.1642Tm
+- __swift_store_extra_inhabitant_index.1669Tm
+- __swift_store_extra_inhabitant_index.1813Tm
+- __swift_store_extra_inhabitant_index.1894Tm
+- __swift_store_extra_inhabitant_index.1903Tm
+- __swift_store_extra_inhabitant_index.1912Tm
+- __swift_store_extra_inhabitant_index.1957Tm
+- __swift_store_extra_inhabitant_index.1984Tm
+- __swift_store_extra_inhabitant_index.19Tm
+- __swift_store_extra_inhabitant_index.203Tm
+- __swift_store_extra_inhabitant_index.212Tm
+- __swift_store_extra_inhabitant_index.2152Tm
+- __swift_store_extra_inhabitant_index.2197Tm
+- __swift_store_extra_inhabitant_index.2206Tm
+- __swift_store_extra_inhabitant_index.221Tm
+- __swift_store_extra_inhabitant_index.2242Tm
+- __swift_store_extra_inhabitant_index.2323Tm
+- __swift_store_extra_inhabitant_index.2350Tm
+- __swift_store_extra_inhabitant_index.2422Tm
+- __swift_store_extra_inhabitant_index.2449Tm
+- __swift_store_extra_inhabitant_index.2467Tm
+- __swift_store_extra_inhabitant_index.2710Tm
+- __swift_store_extra_inhabitant_index.57Tm
+- _symbolic _____ 10PegasusAPI29Aspiresnippetpb_StorefrontPoiV13_StorageClass33_A28C9D7A423FB608873FF4C95F4BF4E2LLC
+CStrings:
++ "apple.parsec.dictionary.v1alpha.SearchWikiRequest"
++ "apple.parsec.dictionary.v1alpha.SearchWikiResponse"
++ "apple.parsec.dictionary.v1alpha.SearchWikiResult"
++ "pirpb.PromptMetadata"
++ "useragentpb.DeviceCapabilities"
+```

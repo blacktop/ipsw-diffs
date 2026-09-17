@@ -1,0 +1,669 @@
+## HomeUI
+
+> `/System/iOSSupport/System/Library/PrivateFrameworks/HomeUI.framework/Versions/A/HomeUI`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__ustring`
+
+```diff
+
+-1241.1.7.4.3
+-  __TEXT.__text: 0x6084d8
+-  __TEXT.__objc_methlist: 0x4a904
+-  __TEXT.__const: 0xff04
++1263.1.0.4.2
++  __TEXT.__text: 0x605288
++  __TEXT.__objc_methlist: 0x4a664
++  __TEXT.__const: 0xfdf0
+   __TEXT.__dlopen_cstrs: 0xee
+-  __TEXT.__constg_swiftt: 0x9174
+-  __TEXT.__swift5_typeref: 0xffbc
++  __TEXT.__constg_swiftt: 0x9134
++  __TEXT.__swift5_typeref: 0xfdb8
+   __TEXT.__swift5_builtin: 0x44c
+-  __TEXT.__swift5_reflstr: 0x4a35
+-  __TEXT.__swift5_fieldmd: 0x41a4
+-  __TEXT.__swift5_assocty: 0xb28
+-  __TEXT.__swift5_proto: 0x594
+-  __TEXT.__swift5_types: 0x50c
+-  __TEXT.__cstring: 0x3bc40
++  __TEXT.__swift5_reflstr: 0x4a33
++  __TEXT.__swift5_fieldmd: 0x4184
++  __TEXT.__swift5_assocty: 0xb10
++  __TEXT.__cstring: 0x3bdd0
++  __TEXT.__swift5_proto: 0x590
++  __TEXT.__swift5_types: 0x510
++  __TEXT.__oslogstring: 0x22f11
++  __TEXT.__swift5_capture: 0x2e50
+   __TEXT.__swift5_protos: 0x50
+-  __TEXT.__oslogstring: 0x22fd8
+-  __TEXT.__swift5_capture: 0x2efc
+-  __TEXT.__swift_as_entry: 0x2c4
+-  __TEXT.__swift_as_ret: 0x304
+-  __TEXT.__swift_as_cont: 0x64c
++  __TEXT.__swift_as_entry: 0x2c0
++  __TEXT.__swift_as_ret: 0x300
++  __TEXT.__swift_as_cont: 0x638
+   __TEXT.__swift5_mpenum: 0x3c
+-  __TEXT.__gcc_except_tab: 0x7f3c
++  __TEXT.__gcc_except_tab: 0x7ef8
+   __TEXT.__ustring: 0x7e
+-  __TEXT.__unwind_info: 0x1b4d0
+-  __TEXT.__eh_frame: 0xa340
++  __TEXT.__unwind_info: 0x1b3b8
++  __TEXT.__eh_frame: 0xa244
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xe100
+-  __DATA_CONST.__objc_classlist: 0x2648
++  __DATA_CONST.__const: 0xe0a8
++  __DATA_CONST.__objc_classlist: 0x2638
+   __DATA_CONST.__objc_catlist: 0x200
+   __DATA_CONST.__objc_catlist2: 0x10
+-  __DATA_CONST.__objc_protolist: 0x10d0
++  __DATA_CONST.__objc_protolist: 0x10c0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1fd00
+-  __DATA_CONST.__objc_protorefs: 0x660
+-  __DATA_CONST.__objc_superrefs: 0x1d28
++  __DATA_CONST.__objc_selrefs: 0x1fc60
++  __DATA_CONST.__objc_protorefs: 0x658
++  __DATA_CONST.__objc_superrefs: 0x1d08
+   __DATA_CONST.__objc_arraydata: 0x820
+-  __DATA_CONST.__got: 0x60a8
+-  __AUTH_CONST.__const: 0x12208
+-  __AUTH_CONST.__cfstring: 0x20400
+-  __AUTH_CONST.__objc_const: 0x84ac8
++  __DATA_CONST.__got: 0x60c0
++  __AUTH_CONST.__const: 0x12080
++  __AUTH_CONST.__cfstring: 0x20340
++  __AUTH_CONST.__objc_const: 0x84250
+   __AUTH_CONST.__objc_intobj: 0x1998
++  __AUTH_CONST.__objc_doubleobj: 0x4a0
+   __AUTH_CONST.__objc_arrayobj: 0x408
+   __AUTH_CONST.__objc_dictobj: 0x528
+   __AUTH_CONST.__objc_floatobj: 0x40
+-  __AUTH_CONST.__objc_doubleobj: 0x4a0
+-  __AUTH_CONST.__auth_got: 0x3f40
+-  __AUTH.__objc_data: 0x19a98
+-  __AUTH.__data: 0x3160
+-  __DATA.__objc_ivar: 0x184c
+-  __DATA.__data: 0xf7c0
++  __AUTH_CONST.__auth_got: 0x3fc0
++  __AUTH.__objc_data: 0x19bc0
++  __AUTH.__data: 0x31d0
++  __DATA.__objc_ivar: 0x182c
++  __DATA.__data: 0xf5e0
+   __DATA.__objc_stublist: 0x40
+-  __DATA.__common: 0x288
+-  __DATA_DIRTY.__objc_ivar: 0x3600
+-  __DATA_DIRTY.__objc_data: 0x7788
+-  __DATA_DIRTY.__data: 0x13b8
+-  __DATA_DIRTY.__common: 0x80
++  __DATA.__common: 0x298
++  __DATA_DIRTY.__objc_ivar: 0x35d8
++  __DATA_DIRTY.__objc_data: 0x7790
++  __DATA_DIRTY.__data: 0x13e8
+   __DATA_DIRTY.__bss: 0x1468
++  __DATA_DIRTY.__common: 0x80
+   - /System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+   - /System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 36165
+-  Symbols:   56487
+-  CStrings:  8193
++  Functions: 36086
++  Symbols:   56367
++  CStrings:  8191
+ 
+Symbols:
++ +[HUCharacteristicEventOptionProvider _preferredCharacteristicTypeAmongTypes:]
++ +[HUCharacteristicEventOptionProvider characteristicTypeSelectionOrder]
++ +[HUCharacteristicEventOptionProvider characteristicTypeWithOptionsForServices:kind:]
++ +[HUCharacteristicEventOptionProvider hasOptionsForServices:kind:outCharacteristicType:]
++ +[HUCharacteristicEventOptionProvider supportedCharacteristicTypesForKind:]
++ +[HUWebViewController safariViewControllerForURL:]
++ -[HUResetHomePodViewController .cxx_destruct]
++ -[HUResetHomePodViewController _addButtonTrayContent]
++ -[HUResetHomePodViewController _addOverwriteStorageRow]
++ -[HUResetHomePodViewController _continueButtonTapped:]
++ -[HUResetHomePodViewController _finishWithOverwriteStorage:]
++ -[HUResetHomePodViewController _overwriteStorageSwitchChanged:]
++ -[HUResetHomePodViewController contentHeightConstraint]
++ -[HUResetHomePodViewController continueHandler]
++ -[HUResetHomePodViewController initWithContinueHandler:]
++ -[HUResetHomePodViewController initWithTitle:detailText:icon:]
++ -[HUResetHomePodViewController initWithTitle:detailText:icon:contentLayout:]
++ -[HUResetHomePodViewController initWithTitle:detailText:symbolName:contentLayout:]
++ -[HUResetHomePodViewController isOverwriteStorageEnabled]
++ -[HUResetHomePodViewController learnMoreURL]
++ -[HUResetHomePodViewController overwriteStorageSwitch]
++ -[HUResetHomePodViewController setContentHeightConstraint:]
++ -[HUResetHomePodViewController setLearnMoreURL:]
++ -[HUResetHomePodViewController setOverwriteStorageSwitch:]
++ -[HUResetHomePodViewController viewDidLoad]
++ -[HUResetHomePodViewController viewWillLayoutSubviews]
++ -[HUServiceDetailsViewController _presentResetHomePodConfirmation]
++ -[HUServiceDetailsViewController _shouldPresentResetHomePodConfirmation]
++ -[HUServiceDetailsViewController requiresSecureErase]
++ -[HUServiceDetailsViewController setRequiresSecureErase:]
++ GCC_except_table111
++ GCC_except_table126
++ GCC_except_table140
++ GCC_except_table155
++ GCC_except_table157
++ GCC_except_table190
++ GCC_except_table207
++ GCC_except_table233
++ GCC_except_table58
++ GCC_except_table76
++ OBJC_IVAR_$_HUServiceDetailsViewController._requiresSecureErase
++ _HMCharacteristicTypeCarbonDioxideDetected
++ _HMCharacteristicTypeCarbonMonoxideDetected
++ _HMCharacteristicTypeLeakDetected
++ _HMCharacteristicTypeSmokeDetected
++ _OBJC_CLASS_$_HUFaceClassificationCorrectionBridge
++ _OBJC_CLASS_$_HUResetHomePodViewController
++ _OBJC_CLASS_$_OBPrivacyLinkController
++ _OBJC_CLASS_$_SFSafariViewController
++ _OBJC_CLASS_$__TtC6HomeUI37BackSwipeDisablingOBWelcomeController
++ _OBJC_METACLASS_$_HUFaceClassificationCorrectionBridge
++ _OBJC_METACLASS_$_HUResetHomePodViewController
++ _OBJC_METACLASS_$__TtC6HomeUI37BackSwipeDisablingOBWelcomeController
++ _OBJC_METACLASS_$__TtCC6HomeUI40InformationalAccessoryGridViewControllerP33_1E0D713E2D70C07A82D0ABA514F9943232InformationalAccessoryItemModule
++ __54-[HUResetHomePodViewController _continueButtonTapped:]_block_invoke
++ __CLASS_METHODS_HUFaceClassificationCorrectionBridge
++ __DATA_HUFaceClassificationCorrectionBridge
++ __DATA__TtC6HomeUI37BackSwipeDisablingOBWelcomeController
++ __DATA__TtCC6HomeUI40InformationalAccessoryGridViewControllerP33_1E0D713E2D70C07A82D0ABA514F9943232InformationalAccessoryItemModule
++ __INSTANCE_METHODS_HUFaceClassificationCorrectionBridge
++ __INSTANCE_METHODS__TtC6HomeUI37BackSwipeDisablingOBWelcomeController
++ __INSTANCE_METHODS__TtCC6HomeUI40InformationalAccessoryGridViewControllerP33_1E0D713E2D70C07A82D0ABA514F9943232InformationalAccessoryItemModule
++ __METACLASS_DATA_HUFaceClassificationCorrectionBridge
++ __METACLASS_DATA__TtC6HomeUI37BackSwipeDisablingOBWelcomeController
++ __METACLASS_DATA__TtCC6HomeUI40InformationalAccessoryGridViewControllerP33_1E0D713E2D70C07A82D0ABA514F9943232InformationalAccessoryItemModule
++ __OBJC_$_CATEGORY_CLASS_METHODS_UIViewController_$_HUCommonAlertController
++ __OBJC_$_CATEGORY_UINavigationController_$_HUPreloadingNavigationPresentation
++ __OBJC_$_CATEGORY_UITableViewCell_$_HUAdditions
++ __OBJC_$_CATEGORY_UIViewController_$_HUCommonAlertController
++ __OBJC_$_CLASS_METHODS_HUWebViewController
++ __OBJC_$_CLASS_METHODS_UIColor(HomeUI|HUAdditions|Alarms)
++ __OBJC_$_CLASS_METHODS_UIImage(HomeUI|HUAdditions|HUImageUtilities)
++ __OBJC_$_CLASS_METHODS_UITableViewCell(HUAdditions|HUCheckmarkAdditions)
++ __OBJC_$_INSTANCE_METHODS_HUContainedAccessoryElementsGridViewController(HomeUI|HomeUI1|HomeUI2)
++ __OBJC_$_INSTANCE_METHODS_HUResetHomePodViewController
++ __OBJC_$_INSTANCE_METHODS_UIColor(HomeUI|HUAdditions|Alarms)
++ __OBJC_$_INSTANCE_METHODS_UIImage(HomeUI|HUAdditions|HUImageUtilities)
++ __OBJC_$_INSTANCE_METHODS_UINavigationController(HUPreloadingNavigationPresentation|HUModalPresentation|HUItemPresentationContainer)
++ __OBJC_$_INSTANCE_METHODS_UITableViewCell(HUAdditions|HUCheckmarkAdditions)
++ __OBJC_$_INSTANCE_METHODS_UIViewController(HUCommonAlertController|HUPreloadingModalPresentation|HUPresentation|HUModalPresentation|HUItemPresentationContainer|PocketAdditions)
++ __OBJC_$_INSTANCE_METHODS__TtC6HomeUI34CameraViewUIKitPresentationHandler(HomeUI)
++ __OBJC_$_INSTANCE_VARIABLES_HUResetHomePodViewController
++ __OBJC_$_PROP_LIST_HUResetHomePodViewController
++ __OBJC_$_PROP_LIST_UITableViewCell_$_HUAdditions
++ __OBJC_CLASS_PROTOCOLS_$_HUContainedAccessoryElementsGridViewController(HomeUI|HomeUI1|HomeUI2)
++ __OBJC_CLASS_PROTOCOLS_$_UINavigationController(HUPreloadingNavigationPresentation|HUModalPresentation|HUItemPresentationContainer)
++ __OBJC_CLASS_PROTOCOLS_$_UIViewController(HUCommonAlertController|HUPreloadingModalPresentation|HUPresentation|HUModalPresentation|HUItemPresentationContainer|PocketAdditions)
++ __OBJC_CLASS_PROTOCOLS_$__TtC6HomeUI34CameraViewUIKitPresentationHandler(HomeUI)
++ __OBJC_CLASS_RO_$_HUResetHomePodViewController
++ __OBJC_METACLASS_RO_$_HUResetHomePodViewController
++ ___44-[HUFeatureOnboarder configuratorDidFinish:]_block_invoke_2
++ ___45-[HUServiceDetailsViewController _removeItem]_block_invoke_5
++ ___54-[HUResetHomePodViewController _continueButtonTapped:]_block_invoke
++ ___66-[HUServiceDetailsViewController _presentResetHomePodConfirmation]_block_invoke
++ ___71+[HUCharacteristicEventOptionProvider characteristicTypeSelectionOrder]_block_invoke_2
++ ___72-[HUServiceDetailsViewController _shouldPresentResetHomePodConfirmation]_block_invoke
++ ___75+[HUCharacteristicEventOptionProvider supportedCharacteristicTypesForKind:]_block_invoke
++ ___block_descriptor_32_e44_"HFAccessoryLikeObject"16?0"HMAccessory"8l
++ ___block_descriptor_40_e8_32w_e35_v16?0"HFWallpaperEditCollection"8lw32l8
++ ___block_descriptor_48_e21_B16?0"HMAccessory"8l
++ ___block_descriptor_56_e8_32s40s48w_e26_"NAFuture"16?0"NSNull"8ls32l8s40l8w48l8
++ ___block_descriptor_72_e8_32s40s48s56s_e17_v16?0"NSError"8ls32l8s40l8s48l8s56l8
++ ___block_descriptor_73_e8_32s40s48s56s_e23_v16?0"UIAlertAction"8ls32l8s40l8s48l8s56l8
++ ___unnamed_11
++ ___unnamed_2
++ ___unnamed_9
++ __swift_closure_destructor.32Tm
++ __swift_closure_destructor.46Tm
++ _objc_msgSend$_accessoryLikeObjectForObject:
++ _objc_msgSend$_addButtonTrayContent
++ _objc_msgSend$_addOverwriteStorageRow
++ _objc_msgSend$_finishWithOverwriteStorage:
++ _objc_msgSend$_preferredCharacteristicTypeAmongTypes:
++ _objc_msgSend$_presentResetHomePodConfirmation
++ _objc_msgSend$_shouldPresentResetHomePodConfirmation
++ _objc_msgSend$characteristicTypeSelectionOrder
++ _objc_msgSend$characteristicTypeWithOptionsForServices:kind:
++ _objc_msgSend$contentHeightConstraint
++ _objc_msgSend$continueHandler
++ _objc_msgSend$hasOptionsForServices:kind:outCharacteristicType:
++ _objc_msgSend$initWithContinueHandler:
++ _objc_msgSend$isHomeDemoModeLocked
++ _objc_msgSend$isOverwriteStorageEnabled
++ _objc_msgSend$linkWithBundleIdentifier:
++ _objc_msgSend$localizedButtonTitle
++ _objc_msgSend$markFaceClassificationsRemoved
++ _objc_msgSend$overwriteStorageSwitch
++ _objc_msgSend$reloadPickerView
++ _objc_msgSend$removeItemFromHome:
++ _objc_msgSend$requiresSecureErase
++ _objc_msgSend$setCaptionAccessibilityIdentifier:
++ _objc_msgSend$setContentHeightConstraint:
++ _objc_msgSend$setOverwriteStorageSwitch:
++ _objc_msgSend$setRequiresSecureErase:
++ _objc_msgSend$setSectionInsetReference:
++ _objc_msgSend$setTitleStyle:
++ _objc_msgSend$supportedCharacteristicTypesForKind:
++ _objc_msgSend$supportsRegulatoryErase
++ _symbolic _____ 6HomeUI34FaceClassificationCorrectionBridgeC
++ _symbolic _____ 6HomeUI37BackSwipeDisablingOBWelcomeControllerC
++ _symbolic _____ 6HomeUI40InformationalAccessoryGridViewControllerC0cD10ItemModule33_1E0D713E2D70C07A82D0ABA514F99432LLC
++ _symbolic _____2id_AA6homeID_____08endpointC0t 10Foundation4UUIDV s6UInt16V
++ _symbolic _____Sg 12FindMyLocate12ClientTargetV
++ _symbolic _____Sg 13HomeDataModel25HFCAPackageIconIdentifierO
++ _symbolic _____Sg 19HomeUtilityServices34ServiceLocationIneligibilityReasonO
++ _symbolic _____Sg_ABt 10Foundation3URLV
++ _symbolic _____XDXMT 6HomeUI34AccessoryEventPickerViewControllerC
++ _symbolic ___________y_____y______ADSgQPGGt 6HomeUI17SnapshotThumbnail33_6A020151FA6C63C86827D1A374889D51LLV 05SwiftB06VStackV AE12TupleContentV AE4TextV
++ _symbolic ______pSgXw 22HomeAccessoryControlUI027BottomViewControllerHostingF8DelegateP
++ _symbolic _____yAAyAAy__________y_____GG_____y_____SgGGAGy_____SgGG______yAAyAAyAAy__________y_____GG_____y_____yArD_____GGG_____G_Qo_Sgt 7SwiftUI15ModifiedContentV AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA022_EnvironmentKeyWritingH0V AA19SymbolRenderingModeV AA4FontV AA4ViewP7HomeUI2E7prefers_3for7factors8location8priority16sourceIdentifierQr0R9DataModel6CameraO0O0O_A_0J0O5StateCy_AY010LiveCameraJ0V_GAR21MultiFactorVisibilityV7FactorsVAR06CameraQ9RegistrarC8LocationOSgA14_8PriorityOA_06SourceZ0VSgtFQO AR10CameraCellV AA11_ClipEffectV AA16RoundedRectangleV AA08_OverlayH0V AA017StrokeBorderShapeQ0V AA05EmptyQ0V AA14_OpacityEffectV
++ _symbolic _____yAAyAAy__________y_____GG_____y_____yAD__________GGG_____G 7SwiftUI15ModifiedContentV 7HomeUI210CameraCellV AA11_ClipEffectV AA16RoundedRectangleV AA16_OverlayModifierV AA21StrokeBorderShapeViewV AA5ColorV AA05EmptyR0V AA08_OpacityJ0V
++ _symbolic _____yAAy__________y_____GG_____y_____yAD__________GGG 7SwiftUI15ModifiedContentV 7HomeUI210CameraCellV AA11_ClipEffectV AA16RoundedRectangleV AA16_OverlayModifierV AA21StrokeBorderShapeViewV AA5ColorV AA05EmptyR0V
++ _symbolic _____yAAy_____y______Qo______y_____GGADy_____GG 7SwiftUI15ModifiedContentV AA4ViewP7HomeUI2E19bridgedSceneUpdatesyQryAA0I5PhaseOcFQO AF21CameraViewerContainerV AA30_EnvironmentKeyWritingModifierV AI AA11ColorSchemeO
++ _symbolic _____yAAy_____y__________y_____y_____y_____yADy______AGQPGG_Qo______AKG_AEyAG_____ySay_____G_____AAyAAy_____y_____yADy______AFyADyAG_AGSgQPGGQPGGG_____ySbGG_____GGAKGAEyAkAyAAy_____yARyADyAG______AtAyAAy__________y_____SgGG_____y_____GGQPGGGA8_y_____SgGGA1_GAKGQPGGA1_GA8_y_____GG 7SwiftUI15ModifiedContentV AA4ListV s5NeverO AA05TupleD0V AA7SectionV AA4ViewPAAE10fontWeightyQrAA4FontV0K0VSgFQO AA6VStackV AA4TextV AA05EmptyI0V AA7ForEachV 13HomeDataModel19StaticCameraProfileV 10Foundation4UUIDV AA6ToggleV AA6HStackV 0rB017SnapshotThumbnail33_6A020151FA6C63C86827D1A374889D51LLV AA32_EnvironmentKeyTransformModifierV AA31AccessibilityAttachmentModifierV AA6ButtonV AA6SpacerV AA5ImageV AA30_EnvironmentKeyWritingModifierV AP AA24_ForegroundStyleModifierV AA22HierarchicalShapeStyleV AA5ColorV AA13OpenURLActionV
++ _symbolic _____y___________y___________yACy______AFSgQPGGQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA12TupleContentV 04HomeB017SnapshotThumbnail33_6A020151FA6C63C86827D1A374889D51LLV AA6VStackV AA4TextV
++ _symbolic _____y___________y_____yADyADy__________y_____GG_____y_____SgGGAJy_____SgGG______yADyADyADy__________y_____GG_____y_____yAuG_____GGG_____G_Qo_SgQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA12TupleContentV AA08ModifiedI0V AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA022_EnvironmentKeyWritingN0V AA19SymbolRenderingModeV AA4FontV AA0D0P7HomeUI2E7prefers_3for7factors8location8priority16sourceIdentifierQr0W9DataModel6CameraO0U0O_A7_0P0O5StateCy_A5_010LiveCameraP0V_GAZ21MultiFactorVisibilityV7FactorsVAZ06CameraD9RegistrarC8LocationOSgA22_8PriorityOA7_16SourceIdentifierVSgtFQO AZ10CameraCellV AA11_ClipEffectV AA16RoundedRectangleV AA08_OverlayN0V AA017StrokeBorderShapeD0V AA05EmptyD0V AA14_OpacityEffectV
++ _symbolic _____y__________y_____GG 7SwiftUI15ModifiedContentV 7HomeUI210CameraCellV AA11_ClipEffectV AA16RoundedRectangleV
++ _symbolic _____y_____yAAyAAy__________y_____GG_____y_____yAD__________GGG_____G_Qo_ 7SwiftUI4ViewP7HomeUI2E7prefers_3for7factors8location8priority16sourceIdentifierQr0D9DataModel6CameraO4ModeO_AM11EnvironmentO5StateCy_AK04LiveoQ0V_GAD21MultiFactorVisibilityV7FactorsVAD0oC9RegistrarC8LocationOSgA0_8PriorityOAM06SourceL0VSgtFQO AA15ModifiedContentV AD0O4CellV AA11_ClipEffectV AA16RoundedRectangleV AA16_OverlayModifierV AA017StrokeBorderShapeC0V AA5ColorV AA05EmptyC0V AA14_OpacityEffectV
++ _symbolic _____y_____yAAyAAy__________y_____GG_____y_____yAD__________GGG_____G_Qo_Sg 7SwiftUI4ViewP7HomeUI2E7prefers_3for7factors8location8priority16sourceIdentifierQr0D9DataModel6CameraO4ModeO_AM11EnvironmentO5StateCy_AK04LiveoQ0V_GAD21MultiFactorVisibilityV7FactorsVAD0oC9RegistrarC8LocationOSgA0_8PriorityOAM06SourceL0VSgtFQO AA15ModifiedContentV AD0O4CellV AA11_ClipEffectV AA16RoundedRectangleV AA16_OverlayModifierV AA017StrokeBorderShapeC0V AA5ColorV AA05EmptyC0V AA14_OpacityEffectV
++ _symbolic _____y_____y______Qo______y_____GG 7SwiftUI15ModifiedContentV AA4ViewP7HomeUI2E19bridgedSceneUpdatesyQryAA0I5PhaseOcFQO AF21CameraViewerContainerV AA30_EnvironmentKeyWritingModifierV AI
++ _symbolic _____y_____y_____yAAyAAyAAy__________y_____GG_____y_____SgGGAIy_____SgGG______yAAyAAyAAy__________y_____GG_____y_____yAtF_____GGG_____G_Qo_SgQPGG_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA05TupleD0V AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA022_EnvironmentKeyWritingJ0V AA19SymbolRenderingModeV AA4FontV AA4ViewP7HomeUI2E7prefers_3for7factors8location8priority16sourceIdentifierQr0T9DataModel6CameraO0Q0O_A3_0L0O5StateCy_A1_010LiveCameraL0V_GAV21MultiFactorVisibilityV7FactorsVAV06CameraS9RegistrarC8LocationOSgA18_8PriorityOA3_16SourceIdentifierVSgtFQO AV10CameraCellV AA11_ClipEffectV AA16RoundedRectangleV AA08_OverlayJ0V AA017StrokeBorderShapeS0V AA05EmptyS0V AA14_OpacityEffectV AA12_FrameLayoutV
++ _symbolic _____y_____y_____yACyACy__________y_____GG_____y_____SgGGAIy_____SgGG______yACyACyACy__________y_____GG_____y_____yAtF_____GGG_____G_Qo_SgQPGG 7SwiftUI6ZStackV AA12TupleContentV AA08ModifiedE0V AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA022_EnvironmentKeyWritingJ0V AA19SymbolRenderingModeV AA4FontV AA4ViewP7HomeUI2E7prefers_3for7factors8location8priority16sourceIdentifierQr0T9DataModel6CameraO0Q0O_A3_0L0O5StateCy_A1_010LiveCameraL0V_GAV21MultiFactorVisibilityV7FactorsVAV06CameraS9RegistrarC8LocationOSgA18_8PriorityOA3_16SourceIdentifierVSgtFQO AV10CameraCellV AA11_ClipEffectV AA16RoundedRectangleV AA08_OverlayJ0V AA017StrokeBorderShapeS0V AA05EmptyS0V AA14_OpacityEffectV
++ _type_layout_string So30HUSharedVisualEffectIdentifiera
++ get_witness_table 13HomeDataModel33CloudSubscriptionFeaturesProviderRzl7SwiftUI15ModifiedContentVyAEyAC4ListVys5NeverOAC05TupleK0VyAC7SectionVyAC4ViewPACE10fontWeightyQrAC4FontV0R0VSgFQOyAC6VStackVyAKyAC4TextV_AYQPGG_Qo_AC05EmptyP0VA2_G_AMyAyC7ForEachVySayAA19StaticCameraProfileVG10Foundation4UUIDVAEyAEyAC6ToggleVyAC6HStackVyAKy0aI017SnapshotThumbnail33_6A020151FA6C63C86827D1A374889D51LLV_AWyAKyAY_AYSgQPGGQPGGGAC32_EnvironmentKeyTransformModifierVySbGGAC31AccessibilityAttachmentModifierVGGA2_GAMyA2_AEyAEyAC6ButtonVyA15_yAKyAY_AC6SpacerVA20_AEyAEyAC5ImageVAC30_EnvironmentKeyWritingModifierVyARSgGGAC24_ForegroundStyleModifierVyAC22HierarchicalShapeStyleVGGQPGGGA42_yAC5ColorVSgGGA31_GA2_GQPGGA31_GA42_yAC13OpenURLActionVGGAcNHPA64_AcNHPA63_AcNHPyHC_A31_AC0P8ModifierHPyHCHC_A67_ACA69_HPyHCHC
++ get_witness_table 7SwiftUI15ModifiedContentVyAA6ZStackVyAA05TupleD0VyACyACyACyAA5ImageVAA24_ForegroundStyleModifierVyAA5ColorVGGAA022_EnvironmentKeyWritingJ0VyAA19SymbolRenderingModeVSgGGAQyAA4FontVSgGG_AA4ViewP7HomeUI2E7prefers_3for7factors8location8priority16sourceIdentifierQr0T9DataModel6CameraO0Q0O_A11_0L0O5StateCy_A9_010LiveCameraL0V_GA2_21MultiFactorVisibilityV7FactorsVA2_06CameraS9RegistrarC8LocationOSgA26_8PriorityOA11_16SourceIdentifierVSgtFQOyACyACyACyA2_10CameraCellVAA11_ClipEffectVyAA16RoundedRectangleVGGAA08_OverlayJ0VyAA017StrokeBorderShapeS0VyA40_AmA05EmptyS0VGGGAA14_OpacityEffectVG_Qo_SgQPGGAA12_FrameLayoutVGAAA0_HPA58_AAA0_HPyHC_A60_AA0sJ0HPyHCHC
++ get_witness_table 7SwiftUI15ModifiedContentVyACyAA4ViewP7HomeUI2E19bridgedSceneUpdatesyQryAA0I5PhaseOcFQOyAF21CameraViewerContainerV_Qo_AA30_EnvironmentKeyWritingModifierVyAIGGANyAA11ColorSchemeOGGAaDHPApaDHPqd__AaDHD2_ALHO_AoA0eR0HPyHCHC_AsaUHPyHCHC
++ keypath_get.7Tm
+- +[HUCharacteristicEventOptionProvider hasOptionsForServices:outCharacteristicType:allowingSensors:]
+- -[HUCameraController diagnosticsController]
+- -[HUCameraController setDiagnosticsController:]
+- -[HUDiagnosticsCameraClipSignificantEventsViewController .cxx_destruct]
+- -[HUDiagnosticsCameraClipSignificantEventsViewController cameraClip]
+- -[HUDiagnosticsCameraClipSignificantEventsViewController eventTableView]
+- -[HUDiagnosticsCameraClipSignificantEventsViewController initWithCameraClip:]
+- -[HUDiagnosticsCameraClipSignificantEventsViewController numberOfSectionsInTableView:]
+- -[HUDiagnosticsCameraClipSignificantEventsViewController setCameraClip:]
+- -[HUDiagnosticsCameraClipSignificantEventsViewController setEventTableView:]
+- -[HUDiagnosticsCameraClipSignificantEventsViewController tableView:cellForRowAtIndexPath:]
+- -[HUDiagnosticsCameraClipSignificantEventsViewController tableView:numberOfRowsInSection:]
+- -[HUDiagnosticsCameraClipSignificantEventsViewController viewDidLoad]
+- -[HUDiagnosticsCameraClipViewController .cxx_destruct]
+- -[HUDiagnosticsCameraClipViewController cameraClip]
+- -[HUDiagnosticsCameraClipViewController cameraProfile]
+- -[HUDiagnosticsCameraClipViewController eventTableView]
+- -[HUDiagnosticsCameraClipViewController initWithRecordingEvent:cameraProfile:]
+- -[HUDiagnosticsCameraClipViewController numberOfSectionsInTableView:]
+- -[HUDiagnosticsCameraClipViewController setCameraClip:]
+- -[HUDiagnosticsCameraClipViewController setCameraProfile:]
+- -[HUDiagnosticsCameraClipViewController setEventTableView:]
+- -[HUDiagnosticsCameraClipViewController tableView:cellForRowAtIndexPath:]
+- -[HUDiagnosticsCameraClipViewController tableView:didSelectRowAtIndexPath:]
+- -[HUDiagnosticsCameraClipViewController tableView:numberOfRowsInSection:]
+- -[HUDiagnosticsCameraClipViewController viewDidLoad]
+- -[HUDiagnosticsCameraPlayerController .cxx_destruct]
+- -[HUDiagnosticsCameraPlayerController cameraPlayerViewController]
+- -[HUDiagnosticsCameraPlayerController cameraProfile]
+- -[HUDiagnosticsCameraPlayerController clipScrubberDataSource]
+- -[HUDiagnosticsCameraPlayerController contextMenuInteraction:configurationForMenuAtLocation:]
+- -[HUDiagnosticsCameraPlayerController diagnosticsView]
+- -[HUDiagnosticsCameraPlayerController dismissDetailsViewController]
+- -[HUDiagnosticsCameraPlayerController dismissDiagnosticDetails]
+- -[HUDiagnosticsCameraPlayerController displayDiagnosticDetails]
+- -[HUDiagnosticsCameraPlayerController displayTimelapseDetails]
+- -[HUDiagnosticsCameraPlayerController initWithCameraPlayerViewController:playbackEngine:clipScrubberDataSource:cameraProfile:]
+- -[HUDiagnosticsCameraPlayerController launchPlaybackEngineDiagnosticsView]
+- -[HUDiagnosticsCameraPlayerController playbackEngine]
+- -[HUDiagnosticsCameraPlayerController setCameraPlayerViewController:]
+- -[HUDiagnosticsCameraPlayerController setCameraProfile:]
+- -[HUDiagnosticsCameraPlayerController setClipScrubberDataSource:]
+- -[HUDiagnosticsCameraPlayerController setDiagnosticsView:]
+- -[HUDiagnosticsCameraPlayerController setPlaybackEngine:]
+- -[HUDiagnosticsCameraPlayerController updateWithPlaybackEngine:]
+- -[HUDiagnosticsCameraTimelineView .cxx_destruct]
+- -[HUDiagnosticsCameraTimelineView cameraStatusLabel]
+- -[HUDiagnosticsCameraTimelineView currentEventLabel]
+- -[HUDiagnosticsCameraTimelineView currentPositionLabel]
+- -[HUDiagnosticsCameraTimelineView currentTimelineStateLabel]
+- -[HUDiagnosticsCameraTimelineView initWithFrame:]
+- -[HUDiagnosticsCameraTimelineView moreButton]
+- -[HUDiagnosticsCameraTimelineView setCameraStatusLabel:]
+- -[HUDiagnosticsCameraTimelineView setCurrentEventLabel:]
+- -[HUDiagnosticsCameraTimelineView setCurrentPositionLabel:]
+- -[HUDiagnosticsCameraTimelineView setCurrentTimelineStateLabel:]
+- -[HUDiagnosticsCameraTimelineView setMoreButton:]
+- -[HUDiagnosticsCameraTimelineView updateWithPlaybackEngine:]
+- -[HUDiagnosticsReachabilityEventViewController .cxx_destruct]
+- -[HUDiagnosticsReachabilityEventViewController cameraProfile]
+- -[HUDiagnosticsReachabilityEventViewController container]
+- -[HUDiagnosticsReachabilityEventViewController eventTableView]
+- -[HUDiagnosticsReachabilityEventViewController initWithReachabilityEvent:cameraProfile:]
+- -[HUDiagnosticsReachabilityEventViewController numberOfSectionsInTableView:]
+- -[HUDiagnosticsReachabilityEventViewController setCameraProfile:]
+- -[HUDiagnosticsReachabilityEventViewController setContainer:]
+- -[HUDiagnosticsReachabilityEventViewController setEventTableView:]
+- -[HUDiagnosticsReachabilityEventViewController tableView:cellForRowAtIndexPath:]
+- -[HUDiagnosticsReachabilityEventViewController tableView:didSelectRowAtIndexPath:]
+- -[HUDiagnosticsReachabilityEventViewController tableView:numberOfRowsInSection:]
+- -[HUDiagnosticsReachabilityEventViewController viewDidLoad]
+- -[HUFeatureOnboarder isPaused]
+- -[HUFeatureOnboarder pausedFlow]
+- -[HUFeatureOnboarder pausedUserInputResults]
+- -[HUFeatureOnboarder resumeOnboardingFromPresentingViewController:]
+- -[HUFeatureOnboarder setIsPaused:]
+- -[HUFeatureOnboarder setPausedFlow:]
+- -[HUFeatureOnboarder setPausedUserInputResults:]
+- -[HUWallpaperEditingViewController bottomToolbar]
+- -[HUWallpaperEditingViewController setBottomToolbar:]
+- GCC_except_table110
+- GCC_except_table125
+- GCC_except_table134
+- GCC_except_table139
+- GCC_except_table152
+- GCC_except_table185
+- GCC_except_table195
+- GCC_except_table227
+- GCC_except_table57
+- GCC_except_table62
+- GCC_except_table74
+- OBJC_IVAR_$_HUCameraController._diagnosticsController
+- OBJC_IVAR_$_HUDiagnosticsCameraPlayerController._cameraPlayerViewController
+- OBJC_IVAR_$_HUDiagnosticsCameraPlayerController._cameraProfile
+- OBJC_IVAR_$_HUDiagnosticsCameraPlayerController._clipScrubberDataSource
+- OBJC_IVAR_$_HUDiagnosticsCameraPlayerController._diagnosticsView
+- OBJC_IVAR_$_HUDiagnosticsCameraPlayerController._playbackEngine
+- OBJC_IVAR_$_HUFeatureOnboarder._isPaused
+- OBJC_IVAR_$_HUFeatureOnboarder._pausedFlow
+- OBJC_IVAR_$_HUFeatureOnboarder._pausedUserInputResults
+- _HUCameraSignificantEventsBrowserCellIdentifier
+- _HUDiagnosticsHomeKitSettingsPath
+- _HUDiagnosticsHomeSettingsPath
+- _HUDiagnosticsReachabilityEventCellIdentifier
+- _HUDiagnosticsRecordingCellEventIdentifier
+- _OBJC_CLASS_$_AVURLAsset
+- _OBJC_CLASS_$_HUDiagnosticsCameraClipSignificantEventsViewController
+- _OBJC_CLASS_$_HUDiagnosticsCameraClipViewController
+- _OBJC_CLASS_$_HUDiagnosticsCameraPlayerController
+- _OBJC_CLASS_$_HUDiagnosticsCameraTimelineView
+- _OBJC_CLASS_$_HUDiagnosticsReachabilityEventViewController
+- _OBJC_CLASS_$_NSOrderedSet
+- _OBJC_CLASS_$_UIContextMenuInteraction
+- _OBJC_CLASS_$_UIToolbar
+- _OBJC_METACLASS_$_HUDiagnosticsCameraClipSignificantEventsViewController
+- _OBJC_METACLASS_$_HUDiagnosticsCameraClipViewController
+- _OBJC_METACLASS_$_HUDiagnosticsCameraPlayerController
+- _OBJC_METACLASS_$_HUDiagnosticsCameraTimelineView
+- _OBJC_METACLASS_$_HUDiagnosticsReachabilityEventViewController
+- _OBJC_METACLASS_$__TtC6HomeUIP33_ADDDFBF4D6CE0158424E2FAB15E8B71421MacScreenLockObserver
+- _OBPrivacyAnalyticsiCloudIdentifier
+- _PROTOCOLS__TtC6HomeUI34CameraViewUIKitPresentationHandler
+- _PROTOCOLS__TtC6HomeUIP33_ADDDFBF4D6CE0158424E2FAB15E8B71421MacScreenLockObserver
+- __67-[HUFeatureOnboarder resumeOnboardingFromPresentingViewController:]_block_invoke
+- __DATA__TtC6HomeUIP33_ADDDFBF4D6CE0158424E2FAB15E8B71421MacScreenLockObserver
+- __INSTANCE_METHODS__TtC6HomeUI34CameraViewUIKitPresentationHandler
+- __INSTANCE_METHODS__TtC6HomeUIP33_ADDDFBF4D6CE0158424E2FAB15E8B71421MacScreenLockObserver
+- __IVARS__TtC6HomeUIP33_ADDDFBF4D6CE0158424E2FAB15E8B71421MacScreenLockObserver
+- __METACLASS_DATA__TtC6HomeUIP33_ADDDFBF4D6CE0158424E2FAB15E8B71421MacScreenLockObserver
+- __OBJC_$_CATEGORY_CLASS_METHODS_UITableViewCell_$_HUCheckmarkAdditions
+- __OBJC_$_CATEGORY_UINavigationController_$_HUItemPresentationContainer
+- __OBJC_$_CATEGORY_UITableViewCell_$_HUCheckmarkAdditions
+- __OBJC_$_CATEGORY_UIViewController_$_HUItemPresentationContainer
+- __OBJC_$_CLASS_METHODS_UIColor(HomeUI|Alarms|HUAdditions)
+- __OBJC_$_CLASS_METHODS_UIImage(HomeUI|HUImageUtilities|HUAdditions)
+- __OBJC_$_CLASS_METHODS_UIViewController(HUItemPresentationContainer|PocketAdditions|HUModalPresentation|HUCommonAlertController|HUPreloadingModalPresentation|HUPresentation)
+- __OBJC_$_INSTANCE_METHODS_HUContainedAccessoryElementsGridViewController(HomeUI|HomeUI1)
+- __OBJC_$_INSTANCE_METHODS_HUDiagnosticsCameraClipSignificantEventsViewController
+- __OBJC_$_INSTANCE_METHODS_HUDiagnosticsCameraClipViewController
+- __OBJC_$_INSTANCE_METHODS_HUDiagnosticsCameraPlayerController
+- __OBJC_$_INSTANCE_METHODS_HUDiagnosticsCameraTimelineView
+- __OBJC_$_INSTANCE_METHODS_HUDiagnosticsReachabilityEventViewController
+- __OBJC_$_INSTANCE_METHODS_UIColor(HomeUI|Alarms|HUAdditions)
+- __OBJC_$_INSTANCE_METHODS_UIImage(HomeUI|HUImageUtilities|HUAdditions)
+- __OBJC_$_INSTANCE_METHODS_UINavigationController(HUItemPresentationContainer|HUModalPresentation|HUPreloadingNavigationPresentation)
+- __OBJC_$_INSTANCE_METHODS_UITableViewCell(HUCheckmarkAdditions|HUAdditions)
+- __OBJC_$_INSTANCE_METHODS_UIViewController(HUItemPresentationContainer|PocketAdditions|HUModalPresentation|HUCommonAlertController|HUPreloadingModalPresentation|HUPresentation)
+- __OBJC_$_INSTANCE_VARIABLES_HUDiagnosticsCameraClipSignificantEventsViewController
+- __OBJC_$_INSTANCE_VARIABLES_HUDiagnosticsCameraClipViewController
+- __OBJC_$_INSTANCE_VARIABLES_HUDiagnosticsCameraPlayerController
+- __OBJC_$_INSTANCE_VARIABLES_HUDiagnosticsCameraTimelineView
+- __OBJC_$_INSTANCE_VARIABLES_HUDiagnosticsReachabilityEventViewController
+- __OBJC_$_PROP_LIST_HUDiagnosticsCameraClipSignificantEventsViewController
+- __OBJC_$_PROP_LIST_HUDiagnosticsCameraClipViewController
+- __OBJC_$_PROP_LIST_HUDiagnosticsCameraPlayerController
+- __OBJC_$_PROP_LIST_HUDiagnosticsCameraTimelineView
+- __OBJC_$_PROP_LIST_HUDiagnosticsReachabilityEventViewController
+- __OBJC_$_PROP_LIST_UIViewController_$_HUItemPresentationContainer
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIContextMenuInteractionDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_UIContextMenuInteractionDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UIContextMenuInteractionDelegate
+- __OBJC_$_PROTOCOL_REFS_UIContextMenuInteractionDelegate
+- __OBJC_CATEGORY_PROTOCOLS_$_UIViewController_$_HUItemPresentationContainer
+- __OBJC_CLASS_PROTOCOLS_$_HUContainedAccessoryElementsGridViewController(HomeUI|HomeUI1)
+- __OBJC_CLASS_PROTOCOLS_$_HUDiagnosticsCameraClipSignificantEventsViewController
+- __OBJC_CLASS_PROTOCOLS_$_HUDiagnosticsCameraClipViewController
+- __OBJC_CLASS_PROTOCOLS_$_HUDiagnosticsCameraPlayerController
+- __OBJC_CLASS_PROTOCOLS_$_HUDiagnosticsReachabilityEventViewController
+- __OBJC_CLASS_PROTOCOLS_$_UINavigationController(HUItemPresentationContainer|HUModalPresentation|HUPreloadingNavigationPresentation)
+- __OBJC_CLASS_RO_$_HUDiagnosticsCameraClipSignificantEventsViewController
+- __OBJC_CLASS_RO_$_HUDiagnosticsCameraClipViewController
+- __OBJC_CLASS_RO_$_HUDiagnosticsCameraPlayerController
+- __OBJC_CLASS_RO_$_HUDiagnosticsCameraTimelineView
+- __OBJC_CLASS_RO_$_HUDiagnosticsReachabilityEventViewController
+- __OBJC_LABEL_PROTOCOL_$_UIContextMenuInteractionDelegate
+- __OBJC_METACLASS_RO_$_HUDiagnosticsCameraClipSignificantEventsViewController
+- __OBJC_METACLASS_RO_$_HUDiagnosticsCameraClipViewController
+- __OBJC_METACLASS_RO_$_HUDiagnosticsCameraPlayerController
+- __OBJC_METACLASS_RO_$_HUDiagnosticsCameraTimelineView
+- __OBJC_METACLASS_RO_$_HUDiagnosticsReachabilityEventViewController
+- __OBJC_PROTOCOL_$_UIContextMenuInteractionDelegate
+- __PROTOCOLS__TtC6HomeUI34CameraViewUIKitPresentationHandler
+- __PROTOCOLS__TtC6HomeUIP33_ADDDFBF4D6CE0158424E2FAB15E8B71421MacScreenLockObserver
+- ___67-[HUFeatureOnboarder resumeOnboardingFromPresentingViewController:]_block_invoke
+- ___70-[HUServiceDetailsCollectDiagnosticsItem _subclass_updateWithOptions:]_block_invoke
+- ___70-[HUServiceDetailsCollectDiagnosticsItem _subclass_updateWithOptions:]_block_invoke_2
+- ___70-[HUServiceDetailsCollectDiagnosticsItem _subclass_updateWithOptions:]_block_invoke_3
+- ___93-[HUDiagnosticsCameraPlayerController contextMenuInteraction:configurationForMenuAtLocation:]_block_invoke
+- ___93-[HUDiagnosticsCameraPlayerController contextMenuInteraction:configurationForMenuAtLocation:]_block_invoke_2
+- ___93-[HUDiagnosticsCameraPlayerController contextMenuInteraction:configurationForMenuAtLocation:]_block_invoke_3
+- ___93-[HUDiagnosticsCameraPlayerController contextMenuInteraction:configurationForMenuAtLocation:]_block_invoke_4
+- ___99+[HUCharacteristicEventOptionProvider hasOptionsForServices:outCharacteristicType:allowingSensors:]_block_invoke
+- ___99+[HUCharacteristicEventOptionProvider hasOptionsForServices:outCharacteristicType:allowingSensors:]_block_invoke_2
+- ___block_descriptor_40_e8_32w_e25_"UIMenu"16?0"NSArray"8lw32l8
+- ___block_descriptor_41_e21_B16?0"HMAccessory"8l
+- ___block_descriptor_48_e8_32s40r_e19_B16?0"HMService"8ls32l8r40l8
+- ___block_descriptor_48_e8_32s40r_e26_B16?0"HMCharacteristic"8ls32l8r40l8
+- ___block_descriptor_48_e8_32s40w_e26_"NAFuture"16?0"NSNull"8ls32l8w40l8
+- ___block_descriptor_56_e8_32s40w_e69_v24?0"UIViewController<HUConfigurationViewController>"8"NSError"16lw40l8s32l8
+- ___block_descriptor_65_e8_32s40s48s_e23_v16?0"UIAlertAction"8ls32l8s40l8s48l8
+- ___unnamed_10
+- ___unnamed_8
+- __swift_closure_destructor.44Tm
+- __swift_closure_destructor.58Tm
+- __swift_closure_destructor.80Tm
+- _associated conformance 6HomeUI29MacScreenLockObserverModifier33_ADDDFBF4D6CE0158424E2FAB15E8B714LLV05SwiftB004ViewG0AA4BodyAeFP_AE0P0
+- _objc_msgSend$bottomToolbar
+- _objc_msgSend$cameraPlayerViewController
+- _objc_msgSend$cameraStatusLabel
+- _objc_msgSend$canAskForUserFeedback
+- _objc_msgSend$characteristicTypeWithOptionsForServices:
+- _objc_msgSend$clipPlayer
+- _objc_msgSend$clipScrubberDataSource
+- _objc_msgSend$currentEventLabel
+- _objc_msgSend$currentPositionLabel
+- _objc_msgSend$currentTimelineStateLabel
+- _objc_msgSend$diagnosticsController
+- _objc_msgSend$diagnosticsView
+- _objc_msgSend$eventTableView
+- _objc_msgSend$hasOptionsForServices:outCharacteristicType:allowingSensors:
+- _objc_msgSend$hf_adaptiveTemperatureEnabled
+- _objc_msgSend$initWithCameraPlayerViewController:playbackEngine:clipScrubberDataSource:cameraProfile:
+- _objc_msgSend$initWithReachabilityEvent:cameraProfile:
+- _objc_msgSend$initWithRecordingEvent:cameraProfile:
+- _objc_msgSend$isPaused
+- _objc_msgSend$launchPlaybackEngineDiagnosticsView
+- _objc_msgSend$macScreenIsLocked
+- _objc_msgSend$pausedFlow
+- _objc_msgSend$pausedUserInputResults
+- _objc_msgSend$resourceLoader
+- _objc_msgSend$setBottomToolbar:
+- _objc_msgSend$setDiagnosticsController:
+- _objc_msgSend$setDiagnosticsView:
+- _objc_msgSend$setIsPaused:
+- _objc_msgSend$setPausedFlow:
+- _objc_msgSend$setPausedUserInputResults:
+- _objc_msgSend$setUserInputResults:
+- _objc_msgSend$shouldDisplayInternalViews
+- _objc_msgSend$shouldPauseOnboarding
+- _objc_msgSend$startEvent
+- _objc_msgSend$targetFragmentDuration
+- _objc_msgSend$updateWithPlaybackEngine:
+- _symbolic Iegh_
+- _symbolic IeyBh_
+- _symbolic SDy_____ScTyyt_____GG 10Foundation4UUIDV s5NeverO
+- _symbolic SDy_____So7UIImageCG 10Foundation4UUIDV
+- _symbolic _____ 13HomeDataModel6CameraO6SourceO
+- _symbolic _____ 6HomeUI21MacScreenLockObserver33_ADDDFBF4D6CE0158424E2FAB15E8B714LLC
+- _symbolic _____ 6HomeUI29MacScreenLockObserverModifier33_ADDDFBF4D6CE0158424E2FAB15E8B714LLV
+- _symbolic _____Sg 6HomeUI21MacScreenLockObserver33_ADDDFBF4D6CE0158424E2FAB15E8B714LLC
+- _symbolic _____Sg_ABt 13HomeDataModel6CameraO4ModeO
+- _symbolic ______ScTyyt_____Gt 10Foundation4UUIDV s5NeverO
+- _symbolic ______So7UIImageCt 10Foundation4UUIDV
+- _symbolic _____yAAyAAyAAy__________G_____G_____y_____GG_____y_____yAH__________GGG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V AA11_ClipEffectV AA16RoundedRectangleV AA16_OverlayModifierV AA21StrokeBorderShapeViewV AA5ColorV AA05EmptyS0V
+- _symbolic _____yAAyAAyAAy__________y_____GG_____y_____SgGGAGy_____SgGG_____G 7SwiftUI15ModifiedContentV AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA022_EnvironmentKeyWritingH0V AA19SymbolRenderingModeV AA4FontV AA12_FrameLayoutV
+- _symbolic _____yAAyAAyAAy_____y______Qo______G_____y_____GGAFySbGGAFy_____GG 7SwiftUI15ModifiedContentV AA4ViewP7HomeUI2E19bridgedSceneUpdatesyQryAA0I5PhaseOcFQO AF21CameraViewerContainerV 0fB029MacScreenLockObserverModifier33_ADDDFBF4D6CE0158424E2FAB15E8B714LLV AA022_EnvironmentKeyWritingS0V AI AA11ColorSchemeO
+- _symbolic _____yAAyAAyAAy_____y__________y_____y_____y_____yADy______AGQPGG_Qo______AKG_AEyAG_____ySay_____G_____AAyAAy_____y_____yADy______AFyADyAG_AGSgQPGGQPGGG_____ySbGG_____GGAKGAEyAkAyAAy_____yARyADyAG______AtAyAAy__________y_____SgGG_____y_____GGQPGGGA8_y_____SgGGA1_GAKGQPGGA1_G_____GA29_GA8_y_____GG 7SwiftUI15ModifiedContentV AA4ListV s5NeverO AA05TupleD0V AA7SectionV AA4ViewPAAE10fontWeightyQrAA4FontV0K0VSgFQO AA6VStackV AA4TextV AA05EmptyI0V AA7ForEachV 13HomeDataModel19StaticCameraProfileV 10Foundation4UUIDV AA6ToggleV AA6HStackV 0rB017SnapshotThumbnail33_6A020151FA6C63C86827D1A374889D51LLV AA32_EnvironmentKeyTransformModifierV AA31AccessibilityAttachmentModifierV AA6ButtonV AA6SpacerV AA5ImageV AA30_EnvironmentKeyWritingModifierV AP AA24_ForegroundStyleModifierV AA22HierarchicalShapeStyleV AA5ColorV AA25_AppearanceActionModifierV AA13OpenURLActionV
+- _symbolic _____yAAyAAy__________G_____G_____y_____GG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V AA11_ClipEffectV AA16RoundedRectangleV
+- _symbolic _____yAAyAAy_____y______Qo______G_____y_____GGAFySbGG 7SwiftUI15ModifiedContentV AA4ViewP7HomeUI2E19bridgedSceneUpdatesyQryAA0I5PhaseOcFQO AF21CameraViewerContainerV 0fB029MacScreenLockObserverModifier33_ADDDFBF4D6CE0158424E2FAB15E8B714LLV AA022_EnvironmentKeyWritingS0V AI
+- _symbolic _____yAAyAAy_____y__________y_____y_____y_____yADy______AGQPGG_Qo______AKG_AEyAG_____ySay_____G_____AAyAAy_____y_____yADy______AFyADyAG_AGSgQPGGQPGGG_____ySbGG_____GGAKGAEyAkAyAAy_____yARyADyAG______AtAyAAy__________y_____SgGG_____y_____GGQPGGGA8_y_____SgGGA1_GAKGQPGGA1_G_____GA29_G 7SwiftUI15ModifiedContentV AA4ListV s5NeverO AA05TupleD0V AA7SectionV AA4ViewPAAE10fontWeightyQrAA4FontV0K0VSgFQO AA6VStackV AA4TextV AA05EmptyI0V AA7ForEachV 13HomeDataModel19StaticCameraProfileV 10Foundation4UUIDV AA6ToggleV AA6HStackV 0rB017SnapshotThumbnail33_6A020151FA6C63C86827D1A374889D51LLV AA32_EnvironmentKeyTransformModifierV AA31AccessibilityAttachmentModifierV AA6ButtonV AA6SpacerV AA5ImageV AA30_EnvironmentKeyWritingModifierV AP AA24_ForegroundStyleModifierV AA22HierarchicalShapeStyleV AA5ColorV AA25_AppearanceActionModifierV
+- _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V
+- _symbolic _____yAAy_____y_____G_____GAEG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 04HomeB0021MacScreenLockObserverF033_ADDDFBF4D6CE0158424E2FAB15E8B714LLV AA017_AppearanceActionF0V
+- _symbolic _____yAAy_____y______Qo______G_____y_____GG 7SwiftUI15ModifiedContentV AA4ViewP7HomeUI2E19bridgedSceneUpdatesyQryAA0I5PhaseOcFQO AF21CameraViewerContainerV 0fB029MacScreenLockObserverModifier33_ADDDFBF4D6CE0158424E2FAB15E8B714LLV AA022_EnvironmentKeyWritingS0V AI
+- _symbolic _____yAAy_____y__________y_____y_____y_____yADy______AGQPGG_Qo______AKG_AEyAG_____ySay_____G_____AAyAAy_____y_____yADy______AFyADyAG_AGSgQPGGQPGGG_____ySbGG_____GGAKGAEyAkAyAAy_____yARyADyAG______AtAyAAy__________y_____SgGG_____y_____GGQPGGGA8_y_____SgGGA1_GAKGQPGGA1_G_____G 7SwiftUI15ModifiedContentV AA4ListV s5NeverO AA05TupleD0V AA7SectionV AA4ViewPAAE10fontWeightyQrAA4FontV0K0VSgFQO AA6VStackV AA4TextV AA05EmptyI0V AA7ForEachV 13HomeDataModel19StaticCameraProfileV 10Foundation4UUIDV AA6ToggleV AA6HStackV 0rB017SnapshotThumbnail33_6A020151FA6C63C86827D1A374889D51LLV AA32_EnvironmentKeyTransformModifierV AA31AccessibilityAttachmentModifierV AA6ButtonV AA6SpacerV AA5ImageV AA30_EnvironmentKeyWritingModifierV AP AA24_ForegroundStyleModifierV AA22HierarchicalShapeStyleV AA5ColorV AA25_AppearanceActionModifierV
+- _symbolic _____ySbG 7SwiftUI30_EnvironmentKeyWritingModifierV
+- _symbolic _____y_____G 7SwiftUI21_ViewModifier_ContentV 04HomeB0021MacScreenLockObserverD033_ADDDFBF4D6CE0158424E2FAB15E8B714LLV
+- _symbolic _____y_____ScTyyt_____GG s18_DictionaryStorageC 10Foundation4UUIDV s5NeverO
+- _symbolic _____y_____SgG 7SwiftUI9LazyStateV 04HomeB021MacScreenLockObserver33_ADDDFBF4D6CE0158424E2FAB15E8B714LLC
+- _symbolic _____y_____Sg_G 7SwiftUI9LazyStateV7StorageO 04HomeB021MacScreenLockObserver33_ADDDFBF4D6CE0158424E2FAB15E8B714LLC
+- _symbolic _____y_____Sg_G_yXlSgt 7SwiftUI9LazyStateV7StorageO 04HomeB021MacScreenLockObserver33_ADDDFBF4D6CE0158424E2FAB15E8B714LLC
+- _symbolic _____y_____So7UIImageCG s18_DictionaryStorageC 10Foundation4UUIDV
+- _symbolic _____y______Qo_ 7SwiftUI4ViewP7HomeUI2E19bridgedSceneUpdatesyQryAA0G5PhaseOcFQO AD21CameraViewerContainerV
+- _symbolic _____y_______G 13HomeDataModel6CameraO11EnvironmentO5StateC AA04LivedE0V
+- _symbolic _____y_____yAByAByABy__________G_____G_____y_____GG_____y_____yAI__________GGGAByAByAByAByAC_____yANGG_____y_____SgGGAVy_____SgGGAFGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameI0V AA11_ClipEffectV AA16RoundedRectangleV AA16_OverlayModifierV AA21StrokeBorderShapeViewV AA5ColorV AA05EmptyT0V AA016_ForegroundStyleP0V AA022_EnvironmentKeyWritingP0V AA19SymbolRenderingModeV AA4FontV
+- _symbolic _____y_____yAByAByABy__________G_____G_____y_____GG_____y_____yAI__________GGGAByAByAByAByAC_____yANGG_____y_____SgGGAVy_____SgGGAFG_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameJ0V AA11_ClipEffectV AA16RoundedRectangleV AA16_OverlayModifierV AA21StrokeBorderShapeViewV AA5ColorV AA05EmptyU0V AA016_ForegroundStyleQ0V AA022_EnvironmentKeyWritingQ0V AA19SymbolRenderingModeV AA4FontV
+- _symbolic _____y_____y_____G_____G 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 04HomeB0021MacScreenLockObserverF033_ADDDFBF4D6CE0158424E2FAB15E8B714LLV AA017_AppearanceActionF0V
+- _symbolic _____y_____y______Qo______G 7SwiftUI15ModifiedContentV AA4ViewP7HomeUI2E19bridgedSceneUpdatesyQryAA0I5PhaseOcFQO AF21CameraViewerContainerV 0fB029MacScreenLockObserverModifier33_ADDDFBF4D6CE0158424E2FAB15E8B714LLV
+- _symbolic ySbScMYcc
+- _symbolic ytIeghr_
+- _symbolic yyYbcSg
+- _type_layout_string 6HomeUI17SnapshotThumbnail33_6A020151FA6C63C86827D1A374889D51LLV
+- _type_layout_string So28HUDashboardSectionIdentifiera
+- get_witness_table 13HomeDataModel33CloudSubscriptionFeaturesProviderRzl7SwiftUI15ModifiedContentVyAEyAEyAEyAC4ListVys5NeverOAC05TupleK0VyAC7SectionVyAC4ViewPACE10fontWeightyQrAC4FontV0R0VSgFQOyAC6VStackVyAKyAC4TextV_AYQPGG_Qo_AC05EmptyP0VA2_G_AMyAyC7ForEachVySayAA19StaticCameraProfileVG10Foundation4UUIDVAEyAEyAC6ToggleVyAC6HStackVyAKy0aI017SnapshotThumbnail33_6A020151FA6C63C86827D1A374889D51LLV_AWyAKyAY_AYSgQPGGQPGGGAC32_EnvironmentKeyTransformModifierVySbGGAC31AccessibilityAttachmentModifierVGGA2_GAMyA2_AEyAEyAC6ButtonVyA15_yAKyAY_AC6SpacerVA20_AEyAEyAC5ImageVAC30_EnvironmentKeyWritingModifierVyARSgGGAC24_ForegroundStyleModifierVyAC22HierarchicalShapeStyleVGGQPGGGA42_yAC5ColorVSgGGA31_GA2_GQPGGA31_GAC25_AppearanceActionModifierVGA66_GA42_yAC13OpenURLActionVGGAcNHPA68_AcNHPA67_AcNHPA64_AcNHPA63_AcNHPyHC_A31_AC0P8ModifierHPyHCHC_A66_ACA73_HPyHCHC_A66_ACA73_HPyHCHC_A71_ACA73_HPyHCHC
+- get_witness_table 7SwiftUI15ModifiedContentVyACyAA014_ViewModifier_D0Vy04HomeB0021MacScreenLockObserverF033_ADDDFBF4D6CE0158424E2FAB15E8B714LLVGAA017_AppearanceActionF0VGALGAA0E0HPAmaOHPAjaOHPyHC_AlA0eF0HPyHCHC_AlaPHPyHCHC
+- get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyAA4ViewP7HomeUI2E19bridgedSceneUpdatesyQryAA0I5PhaseOcFQOyAF21CameraViewerContainerV_Qo_0fB029MacScreenLockObserverModifier33_ADDDFBF4D6CE0158424E2FAB15E8B714LLVGAA022_EnvironmentKeyWritingS0VyAIGGASySbGGASyAA11ColorSchemeOGGAaDHPAwaDHPAuaDHPAqaDHPqd__AaDHD2_ALHO_ApA0eS0HPyHCHC_AtAA0_HPyHCHC_AvAA0_HPyHCHC_AzAA0_HPyHCHC
+- get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAEyAEyAEyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameI0VGAA11_ClipEffectVyAA16RoundedRectangleVGGAA16_OverlayModifierVyAA21StrokeBorderShapeViewVyAqA5ColorVAA05EmptyT0VGGGAEyAEyAEyAEyAgA016_ForegroundStyleP0VyAYGGAA022_EnvironmentKeyWritingP0VyAA19SymbolRenderingModeVSgGGA8_yAA4FontVSgGGALGGAA0T0HPA2_AAA21_HPAsAA21_HPAmAA21_HPAjAA21_HPAgAA21_HPyHC_AiA0tP0HPyHCHC_AlAA22_HPyHCHC_ArAA22_HPyHCHC_A1_AAA22_HPyHCHC_A19_AAA21_HPA18_AAA21_HPA13_AAA21_HPA6_AAA21_HPAgAA21_HPyHC_A5_AAA22_HPyHCHC_A12_AAA22_HPyHCHC_A17_AAA22_HPyHCHC_AlAA22_HPyHCHCHC
+- keypath_get.5Tm
+CStrings:
++ "!!\xf0\x92\xd1"
++ "!Q"
++ "%@+Controls presenting accessory settings for item %@ (error %@, requiresConfiguration %{BOOL}d)"
++ "%@:%@ Failed to clear audio destination, aborting room move for accessory: %@"
++ "%@:%@ Moved accessory to room after ungrouping from home theater. accessory: %@ room: %@"
++ "%@:%s User set overwrite storage to %{BOOL}d"
++ "%@:%s User tapped continue with overwrite storage on, confirming"
++ "%@:%s User tapped continue, erasing without overwriting storage"
++ "(%s) User confirmed HomePod reset, overwrite storage: %{BOOL}d"
++ "-[HUResetHomePodViewController _continueButtonTapped:]"
++ "-[HUResetHomePodViewController _continueButtonTapped:]_block_invoke"
++ "-[HUResetHomePodViewController _overwriteStorageSwitchChanged:]"
++ "-[HUResetHomePodViewController initWithTitle:detailText:icon:]"
++ "-[HUResetHomePodViewController initWithTitle:detailText:icon:contentLayout:]"
++ "-[HUResetHomePodViewController initWithTitle:detailText:symbolName:contentLayout:]"
++ "-[HUServiceDetailsViewController _presentResetHomePodConfirmation]_block_invoke"
++ "@\"HFAccessoryLikeObject\"16@?0@\"HMAccessory\"8"
++ "Failed to construct video summaries Learn More URL"
++ "HUHomeIntelligenceCamerasLearnMore"
++ "HUResetHomePodContinueButton"
++ "HUResetHomePodHeaderDetail"
++ "HUResetHomePodHeaderTitle"
++ "HUResetHomePodOverwriteStorageAlertConfirmButton"
++ "HUResetHomePodOverwriteStorageAlertTitle"
++ "HUResetHomePodOverwriteStorageTitle"
++ "HUResetHomePodTitle"
++ "HUResetHomePodViewController.m"
++ "HUSecureEraseHomePodDescription"
++ "HUSensitiveStrings-ChinaDataErase"
++ "HUUtilityOnboardingError_Detail_NonElectricAccount"
++ "HUUtilityOnboardingError_Detail_NotResidentialAccount"
++ "Home.ResetHomePodView.ContinueButton"
++ "Home.ResetHomePodView.DetailsLabel"
++ "Home.ResetHomePodView.FinePrintLabel"
++ "Home.ResetHomePodView.HeaderLabel"
++ "Home.ResetHomePodView.OverwriteStorageSwitch"
++ "HomeUI_Private.AppleIntelligenceItem"
++ "Opening video summaries Learn More URL: %s"
++ "Presenting %@ modally; a push was expected"
++ "User tapped video summaries Learn More link"
++ "https://support.apple.com/127901"
++ "https://support.apple.com/en-us/108389"
+- "!!\xf0\x92\xe1"
+- "!11"
+- "%@+Controls presenting accessory settings for error in item %@ with error %@"
+- "%@:%@: Cannot resume - onboarder is not paused"
+- "%@:%@: Configurator finished but onboarder is PAUSED - not finishing futures"
+- "%@:%@: Failed to get resume view controller: %@"
+- "%@:%@: Flow \"%@\" requested PAUSE - saving state and dismissing without finishing futures"
+- "%@:%@: Got resume view controller from getNextViewControllerForOnboardingInput: %@"
+- "%@:%@: Onboarding navigation controller re-presented successfully - user can now continue"
+- "%@:%@: Resuming onboarding with %lu displayed view controllers from configurator"
+- "%@:%@: Resuming onboarding with paused userInputResults %@, from presentingViewController %@"
+- "'"
+- "Can ask for feedback: %@"
+- "Complete: %@"
+- "Duration: %.2f"
+- "Event Details"
+- "Expected one accessory but found = %@"
+- "Failed to construct iCloud+ Plans URL"
+- "HFHomePodAnalyticImproveSiriDictationFooterLink"
+- "HFMediaCodexRootGeneralAnalyticsFooter_LinkString"
+- "HUCameraSignificantEventsBrowserCellIdentifier"
+- "HUDiagnosticsReachabilityEventCellIdentifier"
+- "HUDiagnosticsRecordingCellEventIdentifier"
+- "HUHomeIntelligenceCamerasSeeCloudPlans"
+- "HUSensitiveStrings-ActivityState"
+- "Hide Inspector"
+- "Hiding Logs button. verboseLogging= %{BOOL}d, audioClips= %{BOOL}d"
+- "Home Settings"
+- "HomeKit Settings"
+- "HomeUI.AppleIntelligenceItem"
+- "HomeUI.MacScreenLockObserver"
+- "Opening iCloud+ Plans URL: %s"
+- "Show Inspector"
+- "Significant Events: %lu"
+- "Start Date: %@"
+- "Target Fragment Duration: %.2f"
+- "UUID: %@"
+- "User tapped iCloud+ Plans link"
+- "https://icq.icloud.com/?context=ZXh0ZXJuYWxBcHBfZXh0ZXJuYWxVbml2ZXJzYWxPZmZlcl9jbG91ZEZNQ2VudHJpYzFwCg==&bundleId=com.apple.Home&universalLinkAction=LAUNCH_CLOUD_FM"
+- "magnifyingglass.circle"
+- "magnifyingglass.circle.fill"
+- "prefs:root=INTERNAL_SETTINGS&path=Home"
+- "prefs:root=INTERNAL_SETTINGS&path=HomeKit"
+- "v24@?0@\"UIViewController<HUConfigurationViewController>\"8@\"NSError\"16"
+```

@@ -1,0 +1,16 @@
+## networkQuality
+
+> `/usr/bin/networkQuality`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+
+```diff
+
+-224.0.0.0.0
++227.0.0.0.0
+   __TEXT.__text: 0xc07c
+   __TEXT.__auth_stubs: 0x370
+   __TEXT.__objc_stubs: 0x1e60
+```

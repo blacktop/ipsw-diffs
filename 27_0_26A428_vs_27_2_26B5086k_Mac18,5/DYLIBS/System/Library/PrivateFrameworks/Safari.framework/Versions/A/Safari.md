@@ -1,0 +1,1019 @@
+## Safari
+
+> `/System/Library/PrivateFrameworks/Safari.framework/Versions/A/Safari`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_reflstr`
+
+```diff
+
+-625.1.29.11.27
+-  __TEXT.__text: 0x7bb6d0
+-  __TEXT.__objc_methlist: 0x5e13c
+-  __TEXT.__cstring: 0x45dd8
+-  __TEXT.__gcc_except_tab: 0xcfe10
+-  __TEXT.__const: 0xa8e8
++625.2.4.1.0
++  __TEXT.__text: 0x7bb68c
++  __TEXT.__objc_methlist: 0x5e0fc
++  __TEXT.__cstring: 0x451c8
++  __TEXT.__gcc_except_tab: 0xcfae4
++  __TEXT.__const: 0xa918
+   __TEXT.__ustring: 0x11390
+-  __TEXT.__oslogstring: 0x2439c
++  __TEXT.__oslogstring: 0x2494c
+   __TEXT.__dlopen_cstrs: 0x468
+-  __TEXT.__swift5_typeref: 0x9140
+-  __TEXT.__swift5_capture: 0x1988
+-  __TEXT.__constg_swiftt: 0x2d0c
++  __TEXT.__swift5_typeref: 0x914e
++  __TEXT.__swift5_capture: 0x19dc
++  __TEXT.__constg_swiftt: 0x2d44
+   __TEXT.__swift5_reflstr: 0x2a7b
+   __TEXT.__swift5_assocty: 0x4b8
+-  __TEXT.__swift5_fieldmd: 0x21f4
++  __TEXT.__swift5_fieldmd: 0x2208
+   __TEXT.__swift5_builtin: 0x208
+   __TEXT.__swift5_proto: 0x238
+-  __TEXT.__swift5_types: 0x254
++  __TEXT.__swift5_types: 0x250
+   __TEXT.__swift_as_entry: 0x114
+   __TEXT.__swift_as_ret: 0xfc
+   __TEXT.__swift_as_cont: 0x1c8
+   __TEXT.__swift5_protos: 0xc
+   __TEXT.__swift5_mpenum: 0x10
+-  __TEXT.__unwind_info: 0x42668
++  __TEXT.__unwind_info: 0x42680
+   __TEXT.__eh_frame: 0x3230
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x4b60
+-  __DATA_CONST.__objc_classlist: 0x2330
++  __DATA_CONST.__const: 0x4b28
++  __DATA_CONST.__objc_classlist: 0x2328
+   __DATA_CONST.__objc_catlist: 0x308
+   __DATA_CONST.__objc_nlcatlist: 0x8
+-  __DATA_CONST.__objc_protolist: 0x1258
++  __DATA_CONST.__objc_protolist: 0x1250
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x33e60
+-  __DATA_CONST.__objc_protorefs: 0x2d0
++  __DATA_CONST.__objc_selrefs: 0x33ec0
++  __DATA_CONST.__objc_protorefs: 0x2c8
+   __DATA_CONST.__objc_superrefs: 0x1958
+-  __DATA_CONST.__objc_arraydata: 0xc28
+-  __DATA_CONST.__got: 0x4ac8
+-  __AUTH_CONST.__const: 0x20b98
+-  __AUTH_CONST.__cfstring: 0x38de0
+-  __AUTH_CONST.__objc_const: 0x89cb0
+-  __AUTH_CONST.__weak_auth_got: 0x28
+-  __AUTH_CONST.__objc_intobj: 0x14d0
++  __DATA_CONST.__objc_arraydata: 0xc20
++  __DATA_CONST.__got: 0x4a50
++  __AUTH_CONST.__const: 0x20d38
++  __AUTH_CONST.__cfstring: 0x38760
++  __AUTH_CONST.__objc_const: 0x89d40
++  __AUTH_CONST.__weak_auth_got: 0x18
++  __AUTH_CONST.__objc_intobj: 0x14a0
+   __AUTH_CONST.__objc_dictobj: 0x5f0
+   __AUTH_CONST.__objc_doubleobj: 0x2d0
+-  __AUTH_CONST.__objc_arrayobj: 0x5b8
++  __AUTH_CONST.__objc_arrayobj: 0x570
+   __AUTH_CONST.__objc_floatobj: 0x10
+-  __AUTH_CONST.__auth_got: 0x4028
+-  __AUTH.__objc_data: 0x101b8
+-  __AUTH.__data: 0x1e80
+-  __DATA.__objc_ivar: 0x65d0
+-  __DATA.__data: 0xfd70
++  __AUTH_CONST.__auth_got: 0x3f80
++  __AUTH.__objc_data: 0x10188
++  __AUTH.__data: 0x1e70
++  __DATA.__objc_ivar: 0x65d8
++  __DATA.__data: 0xfd80
+   __DATA.__objc_stublist: 0x20
+   __DATA.__common: 0x90
+   __DATA_DIRTY.__objc_data: 0x8ec0
+-  __DATA_DIRTY.__data: 0x860
++  __DATA_DIRTY.__data: 0x870
+   __DATA_DIRTY.__crash_info: 0x148
+-  __DATA_DIRTY.__bss: 0x1238
++  __DATA_DIRTY.__bss: 0x1228
+   __DATA_DIRTY.__common: 0x30
+   - /System/Library/Frameworks/Accessibility.framework/Versions/A/Accessibility
+   - /System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 41728
+-  Symbols:   83625
+-  CStrings:  10999
++  Functions: 41738
++  Symbols:   83545
++  CStrings:  10949
+ 
+Symbols:
++ -[AnnotatedBookmarksSidebarViewController _tableViewSectionHeaderWithTitle:topPadding:]
++ -[BrowserNavigationDelegate _donateUsageRetentionEventsForExtensionsRunningOnURL:]
++ -[BrowserUIDelegate _webViewDidCompleteApplePayPayment:]
++ -[BrowserViewController performPageLevelAutoFillWithoutAuthentication:options:generatedPassword:earliestOneTimeCodeDate:staleOneTimeCodeThresholdDate:watchdogTimeout:completionHandler:]
++ -[BrowserWindowController beginVisualTabPickerTransitionWithLocationInWindow:]
++ -[BrowserWindowController isPerformingInteractiveVisualTabPickerTransition]
++ -[BrowserWindowController updateVisualTabPickerTransitionWithMagnification:phase:]
++ -[DownloadsManager invalidateCachedDownloadLocation]
++ -[FormDataController _getCredentialSavingAllowedForProtectionSpace:completionHandler:]
++ -[FormDataController _protectionSpaceForGeneratedPasswordEligibilityCheckWithURL:]
++ -[FormDataController _savedAccountStoreDidChange:]
++ -[FormDataController cachedCanSaveGeneratedPasswordsForURL:]
++ -[FormDataController getCanSaveGeneratedPasswordsForURL:completionHandler:]
++ -[SearchableWKView _magnificationGestureEventWasNotHandledByWebCoreWithPhase:magnification:locationInWindow:]
++ -[SearchableWKView _shouldBeginVisualTabPickerTransitionForMagnification:phase:]
++ -[VisualTabPickerViewController beginTransitionWithLocationInWindow:]
++ -[VisualTabPickerViewController updateTransitionWithMagnification:phase:]
++ -[WBSExtensionsController(SafariExtras) _clearCachedCodeSigningInformationForExtensions]
++ -[WebAppDocument _handleBlockedGuidedBrowsingNavigationAction:isMainFrameNavigation:]
++ -[WebAppDocument _reportGuidedBrowsingCurrentURL]
++ -[WebAppDocument _reportGuidedBrowsingNavigationEventWithURL:httpMethod:statusCode:wasBlocked:]
++ -[WebAppDocument reportSameDocumentNavigationForGuidedBrowsing]
++ -[WebSearchSuggestionsFetcher previousCommittedQuery]
++ -[WebSearchSuggestionsFetcher setPreviousCommittedQuery:]
++ -[WebSearchSuggestionsFetcherController _cacheKeyForQueryString:previousCommittedQuery:]
++ -[WebSearchSuggestionsFetcherController fetcher:didReceiveResponse:originalQuery:previousCommittedQuery:]
++ -[WebSearchSuggestionsFetcherController previousCommittedQuery]
++ -[WebSearchSuggestionsFetcherController setPreviousCommittedQuery:]
++ GCC_except_table1044
++ GCC_except_table1051
++ GCC_except_table1076
++ GCC_except_table1091
++ GCC_except_table1110
++ GCC_except_table1117
++ GCC_except_table1121
++ GCC_except_table1124
++ GCC_except_table1154
++ GCC_except_table1180
++ GCC_except_table1203
++ GCC_except_table1208
++ GCC_except_table1221
++ GCC_except_table1224
++ GCC_except_table1241
++ GCC_except_table1242
++ GCC_except_table1246
++ GCC_except_table1278
++ GCC_except_table1311
++ GCC_except_table1335
++ GCC_except_table1350
++ GCC_except_table1408
++ GCC_except_table1430
++ GCC_except_table1435
++ GCC_except_table1446
++ GCC_except_table1447
++ GCC_except_table1460
++ GCC_except_table1499
++ GCC_except_table1504
++ GCC_except_table1508
++ GCC_except_table1512
++ GCC_except_table1516
++ GCC_except_table1517
++ GCC_except_table1518
++ GCC_except_table1529
++ GCC_except_table1533
++ GCC_except_table1534
++ GCC_except_table1555
++ GCC_except_table1564
++ GCC_except_table1565
++ GCC_except_table1573
++ GCC_except_table1575
++ GCC_except_table1580
++ GCC_except_table1581
++ GCC_except_table1582
++ GCC_except_table1590
++ GCC_except_table1603
++ GCC_except_table1605
++ GCC_except_table1614
++ GCC_except_table1616
++ GCC_except_table1623
++ GCC_except_table1629
++ GCC_except_table1631
++ GCC_except_table1640
++ GCC_except_table1644
++ GCC_except_table1659
++ GCC_except_table1660
++ GCC_except_table1661
++ GCC_except_table1681
++ GCC_except_table1683
++ GCC_except_table1699
++ GCC_except_table1700
++ GCC_except_table1701
++ GCC_except_table1708
++ GCC_except_table1710
++ GCC_except_table1714
++ GCC_except_table1719
++ GCC_except_table1724
++ GCC_except_table1725
++ GCC_except_table1731
++ GCC_except_table1742
++ GCC_except_table1744
++ GCC_except_table1754
++ GCC_except_table1755
++ GCC_except_table1756
++ GCC_except_table1763
++ GCC_except_table1765
++ GCC_except_table1766
++ GCC_except_table1769
++ GCC_except_table1773
++ GCC_except_table850
++ GCC_except_table865
++ GCC_except_table877
++ GCC_except_table898
++ GCC_except_table935
++ GCC_except_table943
++ OBJC_IVAR_$_AutomaticPasswordChangeSession._hasFinishedInitialLoad
++ OBJC_IVAR_$_BrowserWindowController._isPerformingInteractiveVisualTabPickerTransition
++ OBJC_IVAR_$_FormDataController._credentialSavingAllowedLock
++ OBJC_IVAR_$_FormDataController._threadUnsafeCredentialSavingAllowedByProtectionSpace
++ OBJC_IVAR_$_FormDataController._threadUnsafeCredentialSavingAllowedFetchHandlersByProtectionSpace
++ OBJC_IVAR_$_WebAppDocument._pendingGuidedBrowsingHTTPMethod
++ OBJC_IVAR_$_WebSearchSuggestionsFetcher._previousCommittedQuery
++ OBJC_IVAR_$_WebSearchSuggestionsFetcherController._previousCommittedQuery
++ _OBJC_CLASS_$_WBSSearchSuggestionsCacheKey
++ _OBJC_CLASS_$__TtC6Safari26SizeInvalidatingFlowLayout
++ _OBJC_METACLASS_$__TtC6Safari26SizeInvalidatingFlowLayout
++ _WBSEnableGraphicIconsInCompletionListKey
++ _WBSPrefixNavigationalIntentThreshold
++ _WBSSavedAccountStoreDidChangeNotification
++ _ZN6Safari27BrowserBundlePageControllerD2Ev
++ __185-[BrowserViewController performPageLevelAutoFillWithoutAuthentication:options:generatedPassword:earliestOneTimeCodeDate:staleOneTimeCodeThresholdDate:watchdogTimeout:completionHandler:]_block_invoke
++ __185-[BrowserViewController performPageLevelAutoFillWithoutAuthentication:options:generatedPassword:earliestOneTimeCodeDate:staleOneTimeCodeThresholdDate:watchdogTimeout:completionHandler:]_block_invoke_2
++ __66-[SafariSandboxBrokerConnection _connectionWithCompletionHandler:]_block_invoke
++ __CLASS_METHODS__TtC6Safari42BookmarksSidebarTableRecentlySavedCarousel
++ __DATA__TtC6Safari26SizeInvalidatingFlowLayout
++ __INSTANCE_METHODS__TtC6Safari26SizeInvalidatingFlowLayout
++ __METACLASS_DATA__TtC6Safari26SizeInvalidatingFlowLayout
++ __OBJC_$_PROP_LIST_SearchUICommandDelegate
++ __ZN6Safari19FormCredentialSaver49presentSheetToSaveCredentialWithCompletionHandlerEP7NSAlertP8NSWindowP8NSStringS6_P20NSURLProtectionSpaceP22WBSSavedAccountContextP15WBSSavedAccountP7NSArrayIP20WBSSavedAccountMatchESH_PSD_ISC_EU13block_pointerFvS6_E
++ __ZN6Safari32FormAutoFillCompletionController17OneTimeCodeInputs28setCredentialIdentityMatchesEP7NSArrayIP26WBSCredentialIdentityMatchE
++ __ZN6Safari32FormAutoFillCompletionController17OneTimeCodeInputs8setCodesEP7NSArrayIP21SFAutoFillOneTimeCodeE
++ __ZN6Safari32FormAutoFillCompletionController17OneTimeCodeInputsD1Ev
++ __ZN6Safari32FormAutoFillCompletionController20didFetchOneTimeCodesEP7NSArrayIP21SFAutoFillOneTimeCodeEy
++ __ZN6Safari32FormAutoFillCompletionController25completionInputsDidChangeEv
++ __ZN6Safari32FormAutoFillCompletionController26prepareToPerformCompletionENS_28FormAutoFillCompletionActionE
++ __ZN6Safari32FormAutoFillCompletionController27requestOneTimeCodesIfNeededEv
++ __ZN6Safari32FormAutoFillCompletionController31requestCompletionInputsIfNeededEv
++ __ZN6Safari32FormAutoFillCompletionController34didFetchExternalOneTimeCodeMatchesEP7NSArrayIP26WBSCredentialIdentityMatchEy
++ __ZN6Safari32FormAutoFillCompletionController41requestExternalOneTimeCodeMatchesIfNeededEv
++ __ZN6Safari32FormAutoFillCompletionController59saveAccountWithFilledUsernameAndGeneratedPasswordIfPossibleEU13block_pointerFvbE
++ __ZN6Safari33FormCredentialSaverPromptDecision21decideToSaveAndPromptE34FormCredentialSaverPromptingPolicymbb
++ __ZN6Safari35FormCredentialsCompletionController24SavedAccountMatchesCache17beginWithUserNameEP8NSString
++ __ZN6Safari35FormCredentialsCompletionController24SavedAccountMatchesCache5clearEv
++ __ZN6Safari35FormCredentialsCompletionController24SavedAccountMatchesCache5storeEP7NSArrayIP20WBSSavedAccountMatchEP41WBSPasskeyAutoFillFromNearbyDeviceOptions
++ __ZN6Safari35FormCredentialsCompletionController24SavedAccountMatchesCacheD2Ev
++ __ZN6Safari35FormCredentialsCompletionController27didFetchSavedAccountMatchesEP26WBSSavedAccountMatchResulty
++ __ZN6Safari35FormCredentialsCompletionController31requestCompletionInputsIfNeededEv
++ __ZN6Safari35FormCredentialsCompletionController34requestSavedAccountMatchesIfNeededEv
++ __ZNK3WTF29ThreadSafeWeakPtrControlBlock29makeStrongReferenceIfPossibleIN6Safari32FormAutoFillCompletionControllerEEENS_6RefPtrIT_NS_12RawPtrTraitsIS5_EENS_21DefaultRefDerefTraitsIS5_EEEEPKS5_
++ __ZNK6Safari32FormAutoFillCompletionController17OneTimeCodeInputs19hasAnyFetchInFlightEv
++ __ZNK6Safari32FormAutoFillCompletionController17OneTimeCodeInputs25credentialIdentityMatchesEv
++ __ZNK6Safari32FormAutoFillCompletionController17OneTimeCodeInputs5codesEv
++ __ZNK6Safari32FormAutoFillCompletionController32hasPendingCompletionInputFetchesEv
++ __ZNK6Safari32FormAutoFillCompletionController40requestCanSaveGeneratedPasswordsIfNeededEv
++ __ZNK6Safari35FormCredentialsCompletionController24SavedAccountMatchesCache20canBeginWithUserNameEP8NSString
++ __ZNK6Safari35FormCredentialsCompletionController32hasPendingCompletionInputFetchesEv
++ __ZZN6Safari32FormAutoFillCompletionController31performNewStrongPasswordCommandE39AutoFillCredentialCompletionListCommandU13block_pointerFvbEEN3$_0D1Ev
++ ___101-[SafariSandboxBrokerConnection moveDownloadedFilesAtURLs:fromDownloadBundleAtURL:completionHandler:]_block_invoke_2
++ ___110-[NetscapeBookmarkFileReaderDelegateProxy appendBookmarkWithTitle:urlString:dateOfLastVisitIfReadingListItem:]_block_invoke
++ ___143-[SafariSandboxBrokerConnection writeFileWrapperToUniqueFileInDownloadsFolder:shouldSetPrivacySensitiveQuarantineProperties:completionHandler:]_block_invoke_2
++ ___185-[BrowserViewController performPageLevelAutoFillWithoutAuthentication:options:generatedPassword:earliestOneTimeCodeDate:staleOneTimeCodeThresholdDate:watchdogTimeout:completionHandler:]_block_invoke
++ ___185-[BrowserViewController performPageLevelAutoFillWithoutAuthentication:options:generatedPassword:earliestOneTimeCodeDate:staleOneTimeCodeThresholdDate:watchdogTimeout:completionHandler:]_block_invoke_2
++ ___185-[BrowserViewController performPageLevelAutoFillWithoutAuthentication:options:generatedPassword:earliestOneTimeCodeDate:staleOneTimeCodeThresholdDate:watchdogTimeout:completionHandler:]_block_invoke_3
++ ___185-[BrowserViewController performPageLevelAutoFillWithoutAuthentication:options:generatedPassword:earliestOneTimeCodeDate:staleOneTimeCodeThresholdDate:watchdogTimeout:completionHandler:]_block_invoke_4
++ ___52-[WebsiteContextMenuBuilder _addToFavoritesMenuItem]_block_invoke
++ ___53-[UnifiedTabBarContainerView _setUpViewForAppearance]_block_invoke
++ ___58-[NetscapeBookmarkFileReaderDelegateProxy endAddingFolder]_block_invoke
++ ___60-[BookmarksSidebarViewController _recentlySavedCarouselView]_block_invoke
++ ___62-[AnnotatedBookmarksSidebarViewController _topicsCarouselView]_block_invoke_2
++ ___67-[BookmarksSidebarViewController _createTopicsCarouselViewIfNeeded]_block_invoke_2
++ ___69-[AnnotatedBookmarksSidebarViewController _recentlySavedCarouselView]_block_invoke
++ ___72-[NetscapeBookmarkFileReaderDelegateProxy beginAddingFolder:identifier:]_block_invoke
++ ___73-[SafariSandboxBrokerConnection issueRootExtensionWithCompletionHandler:]_block_invoke_3
++ ___75-[FormDataController getCanSaveGeneratedPasswordsForURL:completionHandler:]_block_invoke
++ ___77-[SafariSandboxBrokerConnection getDownloadLocationURLWithCompletionHandler:]_block_invoke_2
++ ___80-[SafariSandboxBrokerConnection issueDevelopModeExtensionWithCompletionHandler:]_block_invoke_2
++ ___81-[SafariSandboxBrokerConnection getDownloadBundleForFileAtURL:completionHandler:]_block_invoke_2
++ ___82-[SafariSandboxBrokerConnection moveDownloadBundleAtURLToTrash:completionHandler:]_block_invoke_2
++ ___83-[SafariSandboxBrokerConnection deleteUnusedDownloadBundleAtURL:completionHandler:]_block_invoke_2
++ ___86-[FormDataController _getCredentialSavingAllowedForProtectionSpace:completionHandler:]_block_invoke
++ ___88-[SafariSandboxBrokerConnection setShouldAlwaysPromptForDownloadPath:completionHandler:]_block_invoke_2
++ ___90-[FormAutoFillCompletionControllerObjCAdapter oneTimeCodeProviderDeliveredCodesDidChange:]_block_invoke_3
++ ___90-[SafariSandboxBrokerConnection extractDownloadedArchiveWithURL:ofType:completionHandler:]_block_invoke_2
++ ___91-[SafariSandboxBrokerConnection asynchronouslyMigrateResourcesToSandbox:completionHandler:]_block_invoke_2
++ ___94-[SafariSandboxBrokerConnection removeQuarantineHardAttributeFromFileAtURL:completionHandler:]_block_invoke_2
++ ___98-[SafariSandboxBrokerConnection updateFractionCompleted:forDownloadBundleAtURL:completionHandler:]_block_invoke_2
++ ___ZN6Safari19FormCredentialSaver49presentSheetToSaveCredentialWithCompletionHandlerEP7NSAlertP8NSWindowP8NSStringS6_P20NSURLProtectionSpaceP22WBSSavedAccountContextP15WBSSavedAccountP7NSArrayIP20WBSSavedAccountMatchESH_PSD_ISC_EU13block_pointerFvS6_E_block_invoke
++ ___ZN6Safari32FormAutoFillCompletionController27requestOneTimeCodesIfNeededEv_block_invoke
++ ___ZN6Safari32FormAutoFillCompletionController41requestExternalOneTimeCodeMatchesIfNeededEv_block_invoke
++ ___ZN6Safari32FormAutoFillCompletionController41requestExternalOneTimeCodeMatchesIfNeededEv_block_invoke_2
++ ___ZN6Safari32FormAutoFillCompletionController59saveAccountWithFilledUsernameAndGeneratedPasswordIfPossibleEU13block_pointerFvbE_block_invoke
++ ___ZN6Safari35FormCredentialsCompletionController34requestSavedAccountMatchesIfNeededEv_block_invoke
++ ___ZZN6Safari35FormCredentialsCompletionController34requestSavedAccountMatchesIfNeededEvENK3$_0clEP26WBSSavedAccountMatchResult_block_invoke
++ ___ZZNK6Safari32FormAutoFillCompletionController40requestCanSaveGeneratedPasswordsIfNeededEvENK3$_0clEb_block_invoke
++ ____ZN6Safari19FormCredentialSaver49presentSheetToSaveCredentialWithCompletionHandlerEP7NSAlertP8NSWindowP8NSStringS6_P20NSURLProtectionSpaceP22WBSSavedAccountContextP15WBSSavedAccountP7NSArrayIP20WBSSavedAccountMatchESH_PSD_ISC_EU13block_pointerFvS6_E_block_invoke
++ ____ZN6Safari19FormCredentialSaver49presentSheetToSaveCredentialWithCompletionHandlerEP7NSAlertP8NSWindowP8NSStringS6_P20NSURLProtectionSpaceP22WBSSavedAccountContextP15WBSSavedAccountP7NSArrayIP20WBSSavedAccountMatchESH_PSD_ISC_EU13block_pointerFvS6_E_block_invoke_2
++ ____ZN6Safari32FormAutoFillCompletionController27requestOneTimeCodesIfNeededEv_block_invoke
++ ____ZN6Safari32FormAutoFillCompletionController41requestExternalOneTimeCodeMatchesIfNeededEv_block_invoke
++ ____ZN6Safari32FormAutoFillCompletionController41requestExternalOneTimeCodeMatchesIfNeededEv_block_invoke_2
++ ____ZN6Safari32FormAutoFillCompletionController41requestExternalOneTimeCodeMatchesIfNeededEv_block_invoke_3
++ ____ZN6Safari32FormAutoFillCompletionController59saveAccountWithFilledUsernameAndGeneratedPasswordIfPossibleEU13block_pointerFvbE_block_invoke
++ ____ZN6Safari32FormAutoFillCompletionController59saveAccountWithFilledUsernameAndGeneratedPasswordIfPossibleEU13block_pointerFvbE_block_invoke_2
++ ____ZN6Safari32FormAutoFillCompletionController59saveAccountWithFilledUsernameAndGeneratedPasswordIfPossibleEU13block_pointerFvbE_block_invoke_3
++ ____ZN6Safari35FormCredentialsCompletionController27didFetchSavedAccountMatchesEP26WBSSavedAccountMatchResulty_block_invoke
++ ____ZN6Safari35FormCredentialsCompletionController34requestSavedAccountMatchesIfNeededEv_block_invoke
++ ____ZNK6Safari32FormAutoFillCompletionController40requestCanSaveGeneratedPasswordsIfNeededEv_block_invoke
++ ____ZZN6Safari32FormAutoFillCompletionController31performNewStrongPasswordCommandE39AutoFillCredentialCompletionListCommandU13block_pointerFvbEENK3$_0clEb_block_invoke
++ ____ZZN6Safari35FormCredentialsCompletionController34requestSavedAccountMatchesIfNeededEvENK3$_0clEP26WBSSavedAccountMatchResult_block_invoke
++ ____ZZNK6Safari32FormAutoFillCompletionController40requestCanSaveGeneratedPasswordsIfNeededEvENK3$_0clEb_block_invoke
++ ___block_descriptor_112_ea8_32s40s48s56s64s72s80s88s96bs_e8_v16?0q8l
++ ___block_descriptor_155_ea8_32s40s48s56s64s72s80s88s96bs104bs112r120w128w_e18_v16?0"NSString"8l
++ ___block_descriptor_170_ea8_32s40s48s56s64s72s80s88s96s104s112s120s128bs136bs144r_e41_v28?0B8"NSString"12"WBSSavedAccount"20l
++ ___block_descriptor_48_e8_32s40bs_e15_v16?0"NSURL"8l
++ ___block_descriptor_48_e8_32s40bs_e20_v20?0B8"NSError"12l
++ ___block_descriptor_48_e8_32s40bs_e27_v24?0"NSURL"8"NSError"16l
++ ___block_descriptor_48_e8_32s40bs_e30_v24?0"NSString"8"NSError"16l
++ ___block_descriptor_48_e8_32s40bs_e33_v32?0"NSURL"8B16B20"NSError"24l
++ ___block_descriptor_48_e8_32s40bs_e38_v32?0"NSURL"8"NSData"16"NSError"24l
++ ___block_descriptor_48_e8_32s40bs_e44_v36?0B8"NSArray"12"NSArray"20"NSError"28l
++ ___block_descriptor_48_ea8_32bs40w_e25_v16?0"WBSSavedAccount"8l
++ ___block_descriptor_48_ea8_32c98_ZTSKZNK6Safari32FormAutoFillCompletionController40requestCanSaveGeneratedPasswordsIfNeededEvE3$_0_e8_v12?0B8l
++ ___block_descriptor_48_ea8_32s40s_e55_q24?0"WBSSavedAccountMatch"8"WBSSavedAccountMatch"16l
++ ___block_descriptor_49_ea8_32c100_ZTSN3WTF17ThreadSafeWeakPtrIN6Safari32FormAutoFillCompletionControllerENS_15NoTaggingTraitsIS2_EEEE_e5_v8?0l
++ ___block_descriptor_49_ea8_32s40r_e17_v16?0"NSArray"8l
++ ___block_descriptor_56_e8_32s40bs48w_e37_v24?0"NSXPCConnection"8"NSError"16l
++ ___block_descriptor_56_e8_32s40s48bs_e20_v24?08"NSError"16l
++ ___block_descriptor_56_ea8_32c100_ZTSN3WTF17ThreadSafeWeakPtrIN6Safari32FormAutoFillCompletionControllerENS_15NoTaggingTraitsIS2_EEEE_e17_v16?0"NSArray"8l
++ ___block_descriptor_56_ea8_32c148_ZTSKZN6Safari32FormAutoFillCompletionController31performNewStrongPasswordCommandE39AutoFillCredentialCompletionListCommandU13block_pointerFvbEE3$_0_e8_v12?0B8l
++ ___block_descriptor_56_ea8_32c94_ZTSKZN6Safari35FormCredentialsCompletionController34requestSavedAccountMatchesIfNeededEvE3$_0_e36_v16?0"WBSSavedAccountMatchResult"8l
++ ___block_descriptor_56_ea8_32s40s48s_e57_v24?0"WBSSearchSuggestionsFetcherResponse"8"NSError"16l
++ ___block_descriptor_57_e8_32s40s48bs_e51_v24?0"<SafariSandboxBrokerProtocol>"8"NSError"16l
++ ___block_descriptor_60_e8_32s40s48bs_e51_v24?0"<SafariSandboxBrokerProtocol>"8"NSError"16l
++ ___block_descriptor_64_e8_32s40s48bs_e51_v24?0"<SafariSandboxBrokerProtocol>"8"NSError"16l
++ ___block_descriptor_64_e8_32s40s48s56bs_e51_v24?0"<SafariSandboxBrokerProtocol>"8"NSError"16l
++ ___block_descriptor_64_ea8_32s40c100_ZTSN3WTF17ThreadSafeWeakPtrIN6Safari32FormAutoFillCompletionControllerENS_15NoTaggingTraitsIS2_EEEE_e17_v16?0"NSArray"8l
++ ___block_descriptor_64_ea8_32s40c103_ZTSN3WTF17ThreadSafeWeakPtrIN6Safari35FormCredentialsCompletionControllerENS_15NoTaggingTraitsIS2_EEEE_e5_v8?0l
++ ___block_descriptor_72_ea8_32s40s48bs56w_e28_v20?0"WBSFormMetadata"8B16l
++ ___block_descriptor_72_ea8_32s40s48c100_ZTSN3WTF17ThreadSafeWeakPtrIN6Safari32FormAutoFillCompletionControllerENS_15NoTaggingTraitsIS2_EEEE_e5_v8?0l
++ ___block_descriptor_74_ea8_32s40s48s56s64s_e5_v8?0l
++ ___block_descriptor_80_ea8_32s40s48s56s64bs72w_e20_v20?0B8"NSError"12l
++ ___block_descriptor_88_ea8_32s40s48s56s64bs72w_e31_v16?0"FormsMetadataProvider"8l
++ ___block_descriptor_88_ea8_32s40s48s56s64bs72w_e34_v24?0"NSArray"8"NSDictionary"16l
++ ___copy_helper_block_ea8_32c100_ZTSN3WTF17ThreadSafeWeakPtrIN6Safari32FormAutoFillCompletionControllerENS_15NoTaggingTraitsIS2_EEEE
++ ___copy_helper_block_ea8_32c148_ZTSKZN6Safari32FormAutoFillCompletionController31performNewStrongPasswordCommandE39AutoFillCredentialCompletionListCommandU13block_pointerFvbEE3$_0
++ ___copy_helper_block_ea8_32c94_ZTSKZN6Safari35FormCredentialsCompletionController34requestSavedAccountMatchesIfNeededEvE3$_0
++ ___copy_helper_block_ea8_32c98_ZTSKZNK6Safari32FormAutoFillCompletionController40requestCanSaveGeneratedPasswordsIfNeededEvE3$_0
++ ___copy_helper_block_ea8_32s40c100_ZTSN3WTF17ThreadSafeWeakPtrIN6Safari32FormAutoFillCompletionControllerENS_15NoTaggingTraitsIS2_EEEE
++ ___copy_helper_block_ea8_32s40c103_ZTSN3WTF17ThreadSafeWeakPtrIN6Safari35FormCredentialsCompletionControllerENS_15NoTaggingTraitsIS2_EEEE
++ ___copy_helper_block_ea8_32s40s48c100_ZTSN3WTF17ThreadSafeWeakPtrIN6Safari32FormAutoFillCompletionControllerENS_15NoTaggingTraitsIS2_EEEE
++ ___copy_helper_block_ea8_32s40s48s56s64s72s80s88s96b
++ ___copy_helper_block_ea8_32s40s48s56s64s72s80s88s96b104b112r120w128w
++ ___copy_helper_block_ea8_32s40s48s56s64s72s80s88s96s104s112s120s128b136b144r
++ ___destroy_helper_block_ea8_32c100_ZTSN3WTF17ThreadSafeWeakPtrIN6Safari32FormAutoFillCompletionControllerENS_15NoTaggingTraitsIS2_EEEE
++ ___destroy_helper_block_ea8_32c148_ZTSKZN6Safari32FormAutoFillCompletionController31performNewStrongPasswordCommandE39AutoFillCredentialCompletionListCommandU13block_pointerFvbEE3$_0
++ ___destroy_helper_block_ea8_32c94_ZTSKZN6Safari35FormCredentialsCompletionController34requestSavedAccountMatchesIfNeededEvE3$_0
++ ___destroy_helper_block_ea8_32c98_ZTSKZNK6Safari32FormAutoFillCompletionController40requestCanSaveGeneratedPasswordsIfNeededEvE3$_0
++ ___destroy_helper_block_ea8_32s40c100_ZTSN3WTF17ThreadSafeWeakPtrIN6Safari32FormAutoFillCompletionControllerENS_15NoTaggingTraitsIS2_EEEE
++ ___destroy_helper_block_ea8_32s40c103_ZTSN3WTF17ThreadSafeWeakPtrIN6Safari35FormCredentialsCompletionControllerENS_15NoTaggingTraitsIS2_EEEE
++ ___destroy_helper_block_ea8_32s40s48c100_ZTSN3WTF17ThreadSafeWeakPtrIN6Safari32FormAutoFillCompletionControllerENS_15NoTaggingTraitsIS2_EEEE
++ ___destroy_helper_block_ea8_32s40s48s56s64s72s80s88s96s104s112r120w128w
++ ___destroy_helper_block_ea8_32s40s48s56s64s72s80s88s96s104s112s120s128s136s144r
++ _objc_msgSend$_cacheKeyForQueryString:previousCommittedQuery:
++ _objc_msgSend$_clearCachedCodeSigningInformationForExtensions
++ _objc_msgSend$_donateUsageRetentionEventsForExtensionsRunningOnURL:
++ _objc_msgSend$_getCredentialSavingAllowedForProtectionSpace:completionHandler:
++ _objc_msgSend$_handleBlockedGuidedBrowsingNavigationAction:isMainFrameNavigation:
++ _objc_msgSend$_protectionSpaceForGeneratedPasswordEligibilityCheckWithURL:
++ _objc_msgSend$_reportGuidedBrowsingCurrentURL
++ _objc_msgSend$_reportGuidedBrowsingNavigationEventWithURL:httpMethod:statusCode:wasBlocked:
++ _objc_msgSend$_shouldBeginVisualTabPickerTransitionForMagnification:phase:
++ _objc_msgSend$_supportsCodeSigningChecks
++ _objc_msgSend$_tableViewSectionHeaderWithTitle:topPadding:
++ _objc_msgSend$autoFillValuesForAutomaticPasswordChangeWithAccountInfo:formContexts:savedAccountContext:options:generatedPassword:oneTimeCodeProvider:earliestOneTimeCodeDate:staleOneTimeCodeThresholdDate:completionHandler:
++ _objc_msgSend$beginTransitionWithLocationInWindow:
++ _objc_msgSend$beginVisualTabPickerTransitionWithLocationInWindow:
++ _objc_msgSend$cachedCanSaveGeneratedPasswordsForURL:
++ _objc_msgSend$canSaveUser:password:forUserTypedSite:notes:customTitle:groupID:completionHandler:
++ _objc_msgSend$clearDonatedEventsSinceDate:
++ _objc_msgSend$currentURLChanged:inTabWithUUID:
++ _objc_msgSend$donateApplePayPurchaseCompleted
++ _objc_msgSend$donateAutoFillForFormType:fieldCount:
++ _objc_msgSend$donateAutoFillWithCategory:fieldCount:
++ _objc_msgSend$donateBookmarkCreated
++ _objc_msgSend$donateBookmarkOpenedWebsite
++ _objc_msgSend$donateDistractionControlEnabled
++ _objc_msgSend$donateDistractionControlOpenedWebsite
++ _objc_msgSend$donateExtensionCreatedWithType:
++ _objc_msgSend$donateExtensionRanOnWebsiteWithType:
++ _objc_msgSend$donateExtensionUsedWithType:
++ _objc_msgSend$donateFavoriteCreated
++ _objc_msgSend$donateFavoriteOpenedWebsite
++ _objc_msgSend$donateICloudTabClosed
++ _objc_msgSend$donateICloudTabOpenedWebsite
++ _objc_msgSend$donatePrivacyReportOpenedWithKind:
++ _objc_msgSend$donatePrivateBrowsingForeground
++ _objc_msgSend$donatePrivateBrowsingOpened
++ _objc_msgSend$donateProfileCreated
++ _objc_msgSend$donateProfileEdited
++ _objc_msgSend$donateProfileOpenedWebsite
++ _objc_msgSend$donateReaderEnabled
++ _objc_msgSend$donateReaderOpenedWebsite
++ _objc_msgSend$donateSearchEngineWithIdentifier:
++ _objc_msgSend$donateSettingsSnapshotWithNonDefaultProfile:iCloudTabsEnabled:syncEnabled:extensionsEnabled:
++ _objc_msgSend$donateStartPageEdited
++ _objc_msgSend$donateStartPageOpenedWebsite
++ _objc_msgSend$donateTabGroupCreated
++ _objc_msgSend$donateTabGroupEdited
++ _objc_msgSend$donateTabGroupOpened
++ _objc_msgSend$donateTabGroupOpenedWebsite
++ _objc_msgSend$enabledExtensionsWithPrivateBrowsingEnabled:
++ _objc_msgSend$estimatedCarouselHeightForWidth:
++ _objc_msgSend$fetcher:didReceiveResponse:originalQuery:previousCommittedQuery:
++ _objc_msgSend$getCanSaveGeneratedPasswordsForURL:completionHandler:
++ _objc_msgSend$getCurrentOneTimeCodesForWebBrowserWithWebsiteFrameURLs:fieldClassification:completionHandler:
++ _objc_msgSend$hasInjectedContentDataForURL:
++ _objc_msgSend$initWithQueryString:previousCommittedQuery:
++ _objc_msgSend$initWithTitle:isSelectable:leftAndRightPadding:topPadding:
++ _objc_msgSend$invalidateCachedDownloadLocation
++ _objc_msgSend$isPerformingInteractiveVisualTabPickerTransition
++ _objc_msgSend$mainDocumentDidFirstVisuallyNonEmptyLayout
++ _objc_msgSend$maximumFramesPerSecond
++ _objc_msgSend$mostRecentSearchQueryForSuggestionPersonalization
++ _objc_msgSend$noteHeightOfRowsWithIndexesChanged:
++ _objc_msgSend$performPageLevelAutoFillWithoutAuthentication:options:generatedPassword:earliestOneTimeCodeDate:staleOneTimeCodeThresholdDate:watchdogTimeout:completionHandler:
++ _objc_msgSend$previousCommittedQuery
++ _objc_msgSend$reportNavigationEventWithURL:httpMethod:statusCode:wasBlocked:forTabWithUUID:
++ _objc_msgSend$reportSameDocumentNavigationForGuidedBrowsing
++ _objc_msgSend$safari_URLByRemovingUserPasswordQueryAndFragment
++ _objc_msgSend$safari_getAllowsCredentialSavingWithCompletionHandler:
++ _objc_msgSend$safari_untrustedCodeSigningDictionaryWithCodeRef:failedCodeSigningRequirements:
++ _objc_msgSend$setInterruptionHandler:
++ _objc_msgSend$setMaskedCorners:
++ _objc_msgSend$setOnWidthChange:
++ _objc_msgSend$setPreviousCommittedQuery:
++ _objc_msgSend$staleOneTimeCodeThresholdDate
++ _objc_msgSend$updateSuggestionsRequestWithSearchTerms:previousQuery:userAgentString:completionHandler:
++ _objc_msgSend$updateTransitionWithMagnification:phase:
++ _objc_msgSend$updateVisualTabPickerTransitionWithMagnification:phase:
++ _symbolic _____ 6Safari26SizeInvalidatingFlowLayoutC
++ _symbolic _____SgXw 6Safari42BookmarksSidebarTableRecentlySavedCarouselC
++ _symbolic _____SgXwz_Xx 6Safari42BookmarksSidebarTableRecentlySavedCarouselC
++ _symbolic _____XDXMT 6Safari42BookmarksSidebarTableRecentlySavedCarouselC
+- -[AppController(DebugExtras) toggleAllowLogonURLs:]
+- -[AppController(DebugExtras) toggleFavorites:]
+- -[AppController(DebugExtras) validate_toggleAllowLogonURLs:]
+- -[AppController(DebugExtras) validate_toggleFavorites:]
+- -[BrowserViewController _decidePolicyForRemoteNotificationPermissionRequestWithID:referrerURLHost:]
+- -[BrowserViewController agentDidVerifyRemoteNotificationProviderRequestID:isValid:forReferrerURLHost:errorMessages:]
+- -[BrowserViewController performPageLevelAutoFillWithoutAuthentication:options:generatedPassword:earliestOneTimeCodeDate:watchdogTimeout:completionHandler:]
+- -[BrowserViewController requestRemoteNotificationPermissionForAPIURL:websiteIdentifier:queryParameters:]
+- -[BrowserViewController userDidDecideRemoteNotificationPolicy:forPermissionRequest:]
+- -[DownloadsManager _applicationDidBecomeActive:]
+- -[RemoteNotificationController _generateRequestID]
+- -[RemoteNotificationController agentDidVerifyRemoteNotificationProviderRequest:withResult:referrerURLHost:errorMessages:]
+- -[RemoteNotificationController startVerificationRequestForWebsiteWithIdentifier:apiURL:queryParameters:referrerURL:client:]
+- -[RemoteNotificationVerificationRequestProxy _bundleDownloadPathWithTemporaryLocation:]
+- -[RemoteNotificationVerificationRequestProxy _downloadFirstValidRemoteNotificationBundleWithAPIVersions:]
+- -[RemoteNotificationVerificationRequestProxy _expectedHashForFilename:manifest:bundleVersion:]
+- -[RemoteNotificationVerificationRequestProxy _handshakeDidFailWithErrorMessage:]
+- -[RemoteNotificationVerificationRequestProxy _handshakeDidPassWithReferrerReferrerURLHost:]
+- -[RemoteNotificationVerificationRequestProxy _hashStringForFileWithName:path:manifest:bundleVersion:]
+- -[RemoteNotificationVerificationRequestProxy _moveFilesIntoPlaceFromPath:websiteData:allowedDomains:]
+- -[RemoteNotificationVerificationRequestProxy _verifyBundleContents:bundleVersion:]
+- -[RemoteNotificationVerificationRequestProxy _verifyManifestHashes:bundleVersion:]
+- -[RemoteNotificationVerificationRequestProxy _verifyReferrerURLAndAllowedDomains:completionHandler:]
+- -[RemoteNotificationVerificationRequestProxy _verifySignature:]
+- -[RemoteNotificationVerificationRequestProxy startHandshake]
+- -[SafariNotificationAgentPrivate startVerificationForRemoteNotificationProviderWithApiURL:websiteIdentifier:queryParameters:referrerURL:requestID:]
+- -[SafariNotificationAgentPrivate verificationRequest:didFinishHandshake:referrerURLHost:errorMessages:]
+- -[TopSitesController _excludeOutliersBasedOnScoreForFrequentlyVisited:]
+- -[WebSearchSuggestionsFetcherController fetcher:didReceiveResponse:originalQuery:]
+- GCC_except_table1019
+- GCC_except_table1030
+- GCC_except_table1050
+- GCC_except_table1088
+- GCC_except_table1104
+- GCC_except_table1112
+- GCC_except_table1119
+- GCC_except_table1123
+- GCC_except_table1126
+- GCC_except_table1142
+- GCC_except_table1160
+- GCC_except_table1176
+- GCC_except_table1187
+- GCC_except_table1206
+- GCC_except_table1210
+- GCC_except_table1226
+- GCC_except_table1269
+- GCC_except_table1270
+- GCC_except_table1280
+- GCC_except_table1288
+- GCC_except_table1292
+- GCC_except_table1306
+- GCC_except_table1317
+- GCC_except_table1318
+- GCC_except_table1338
+- GCC_except_table1368
+- GCC_except_table1381
+- GCC_except_table1401
+- GCC_except_table1410
+- GCC_except_table1415
+- GCC_except_table1436
+- GCC_except_table1441
+- GCC_except_table1444
+- GCC_except_table1454
+- GCC_except_table1463
+- GCC_except_table1468
+- GCC_except_table1476
+- GCC_except_table1477
+- GCC_except_table1478
+- GCC_except_table1480
+- GCC_except_table1500
+- GCC_except_table1501
+- GCC_except_table1502
+- GCC_except_table1510
+- GCC_except_table1511
+- GCC_except_table1515
+- GCC_except_table1520
+- GCC_except_table1521
+- GCC_except_table1522
+- GCC_except_table1532
+- GCC_except_table1536
+- GCC_except_table1540
+- GCC_except_table1558
+- GCC_except_table1567
+- GCC_except_table1568
+- GCC_except_table1576
+- GCC_except_table1578
+- GCC_except_table1583
+- GCC_except_table1584
+- GCC_except_table1585
+- GCC_except_table1599
+- GCC_except_table1608
+- GCC_except_table1609
+- GCC_except_table1617
+- GCC_except_table1619
+- GCC_except_table1626
+- GCC_except_table1634
+- GCC_except_table1641
+- GCC_except_table1643
+- GCC_except_table1647
+- GCC_except_table1662
+- GCC_except_table1663
+- GCC_except_table1664
+- GCC_except_table1684
+- GCC_except_table1686
+- GCC_except_table1702
+- GCC_except_table1703
+- GCC_except_table1713
+- GCC_except_table1716
+- GCC_except_table1718
+- GCC_except_table1720
+- GCC_except_table1722
+- GCC_except_table1727
+- GCC_except_table1728
+- GCC_except_table1734
+- GCC_except_table1740
+- GCC_except_table1745
+- GCC_except_table1747
+- GCC_except_table1748
+- GCC_except_table1760
+- GCC_except_table1761
+- GCC_except_table1775
+- GCC_except_table1777
+- GCC_except_table1779
+- GCC_except_table845
+- GCC_except_table855
+- GCC_except_table879
+- GCC_except_table885
+- GCC_except_table895
+- GCC_except_table937
+- GCC_except_table957
+- GCC_except_table968
+- GCC_except_table980
+- GCC_except_table988
+- OBJC_IVAR_$_BrowserViewController._remoteNotificationPermissionHandlerInterface
+- OBJC_IVAR_$_RemoteNotificationVerificationRequestProxy._apiURL
+- OBJC_IVAR_$_RemoteNotificationVerificationRequestProxy._bundleDownloadPath
+- OBJC_IVAR_$_RemoteNotificationVerificationRequestProxy._performingVerificationTest
+- OBJC_IVAR_$_RemoteNotificationVerificationRequestProxy._remoteBundleDownloadSession
+- OBJC_IVAR_$_RemoteNotificationVerificationRequestProxy._remoteBundleVerificationOperationQueue
+- _CC_SHA1
+- _CC_SHA512
+- _CMSDecoderCopyAllCerts
+- _CMSDecoderCopySignerStatus
+- _CMSDecoderCreate
+- _CMSDecoderFinalizeMessage
+- _CMSDecoderSetDetachedContent
+- _CMSDecoderUpdateMessage
+- _JSClassCreate
+- _JSGlobalContextRelease
+- _JSGlobalContextRetain
+- _JSObjectCallAsFunction
+- _JSObjectIsFunction
+- _JSObjectMake
+- _JSValueIsObjectOfClass
+- _JSValueMakeUndefined
+- _JSValueProtect
+- _JSValueUnprotect
+- _NSURLNameKey
+- _OBJC_CLASS_$_LPLinkRendererSizeClassParameters
+- _OBJC_CLASS_$_NSURLSessionConfiguration
+- _OBJC_CLASS_$_SFExperimentTriggeredFeedback
+- _OBJC_CLASS_$_WebSecurityOrigin
+- _OBJC_METACLASS_$_LPLinkView
+- _OBJC_METACLASS_$__TtC6SafariP33_4176C55F6BACFB50FF06B482A0D2A03026SizeInvalidatingFlowLayout
+- _OBJC_METACLASS_$__TtC6SafariP33_BFF3DC1EDBB6A9D36A6C786587497B8831ClickPassthroughLinkPreviewView
+- _WBSFrequentlyVisitedSitesAllowLogonURLsPreferenceKey
+- _WBSFrequentlyVisitedSitesAllowSitesFromFavoritesPreferenceKey
+- _WBSOSLogFrequentlyVisited
+- _WKBundleFrameCopySecurityOrigin
+- _WKBundleIsProcessingUserGesture
+- _WKDictionaryGetSize
+- _ZN6Safari11ObjCAdapterINS_18RemoteNotificationEE11TypeEncoder8encodingIJvU8__strongP11objc_objectP13objc_selectorEEEN3WTF6VectorIcLm0ENSA_15CrashOnOverflowELm16ENSA_10FastMallocEEEv
+- _ZN6Safari11ObjCAdapterINS_18RemoteNotificationEE11TypeEncoder8encodingIJvU8__strongP11objc_objectP13objc_selectorbU8__strongP7NSArrayU8__strongP8NSStringEEEN3WTF6VectorIcLm0ENSG_15CrashOnOverflowELm16ENSG_10FastMallocEEEv
+- _ZN6Safari18RemoteNotification17requestPermissionEPK15OpaqueJSContextP5NSURLP8NSStringPK13OpaqueJSValuePS8_PU15__autoreleasingS7_
+- _ZN6Safari18RemoteNotification24agentDidFailVerificationEv
+- _ZN6Safari18RemoteNotification31agentDidUpdatePermissionsPolicyEbP7NSArrayP8NSString
+- _ZN6Safari18RemoteNotificationC2EPNS_27BrowserBundlePageControllerE
+- _ZN6Safari18RemoteNotificationD2Ev
+- _ZN6Safari27BrowserBundlePageController48injectRemoteNotificationsBindingsInStandardWorldERKNS_2WK11BundleFrameE
+- _ZN6Safari28RemoteNotificationPermissionD0Ev
+- _ZN6Safari28RemoteNotificationPermissionD1Ev
+- __105-[RemoteNotificationVerificationRequestProxy _downloadFirstValidRemoteNotificationBundleWithAPIVersions:]_block_invoke
+- __155-[BrowserViewController performPageLevelAutoFillWithoutAuthentication:options:generatedPassword:earliestOneTimeCodeDate:watchdogTimeout:completionHandler:]_block_invoke
+- __155-[BrowserViewController performPageLevelAutoFillWithoutAuthentication:options:generatedPassword:earliestOneTimeCodeDate:watchdogTimeout:completionHandler:]_block_invoke_2
+- __62-[AnnotatedBookmarksSidebarViewController _topicsCarouselView]_block_invoke
+- __67-[BookmarksSidebarViewController _createTopicsCarouselViewIfNeeded]_block_invoke
+- __99-[BrowserViewController _decidePolicyForRemoteNotificationPermissionRequestWithID:referrerURLHost:]_block_invoke
+- __DATA__TtC6SafariP33_4176C55F6BACFB50FF06B482A0D2A03026SizeInvalidatingFlowLayout
+- __DATA__TtC6SafariP33_BFF3DC1EDBB6A9D36A6C786587497B8831ClickPassthroughLinkPreviewView
+- __INSTANCE_METHODS__TtC6SafariP33_4176C55F6BACFB50FF06B482A0D2A03026SizeInvalidatingFlowLayout
+- __INSTANCE_METHODS__TtC6SafariP33_BFF3DC1EDBB6A9D36A6C786587497B8831ClickPassthroughLinkPreviewView
+- __METACLASS_DATA__TtC6SafariP33_4176C55F6BACFB50FF06B482A0D2A03026SizeInvalidatingFlowLayout
+- __METACLASS_DATA__TtC6SafariP33_BFF3DC1EDBB6A9D36A6C786587497B8831ClickPassthroughLinkPreviewView
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_RemoteNotificationPermissionHandler
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_RemoteNotificationVerificationRequestProxyDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_RemoteNotificationPermissionHandler
+- __OBJC_$_PROTOCOL_REFS_RemoteNotificationPermissionHandler
+- __OBJC_LABEL_PROTOCOL_$_RemoteNotificationPermissionHandler
+- __OBJC_PROTOCOL_$_RemoteNotificationPermissionHandler
+- __OBJC_PROTOCOL_REFERENCE_$_RemoteNotificationPermissionHandler
+- __Z17allowedURLSchemesv
+- __ZGVZL13largeIconPathvE4path
+- __ZGVZL13smallIconPathvE4path
+- __ZGVZL14mediumIconPathvE4path
+- __ZGVZL20largeHighResIconPathvE4path
+- __ZGVZL20smallHighResIconPathvE4path
+- __ZGVZL21mediumHighResIconPathvE4path
+- __ZL13largeIconPathv
+- __ZL13smallIconPathv
+- __ZL14mediumIconPathv
+- __ZL20largeHighResIconPathv
+- __ZL20smallHighResIconPathv
+- __ZL21mediumHighResIconPathv
+- __ZL26fileExistsWithMatchingCaseP8NSString
+- __ZL50securityOriginStringForURLStringWithAllowedSchemesP8NSStringP7NSArray
+- __ZN12SafariShared11JSUtilities9toJSErrorEPK15OpaqueJSContextP8NSString
+- __ZN12SafariShared9JSWrapper10initializeEPK15OpaqueJSContextP13OpaqueJSValue
+- __ZN12SafariShared9JSWrapper4wrapEPK15OpaqueJSContextPNS_11JSWrappableE
+- __ZN12SafariShared9JSWrapper6unwrapEPK15OpaqueJSContextPK13OpaqueJSValue
+- __ZN12SafariShared9JSWrapper8finalizeEP13OpaqueJSValue
+- __ZN6Safari11ObjCAdapterINS_18RemoteNotificationEE11TypeEncoder8encodingIJvU8__strongP11objc_objectP13objc_selectorEEEN3WTF6VectorIcLm0ENSA_15CrashOnOverflowELm16ENSA_10FastMallocEEEv
+- __ZN6Safari11ObjCAdapterINS_18RemoteNotificationEE11TypeEncoder8encodingIJvU8__strongP11objc_objectP13objc_selectorbU8__strongP7NSArrayU8__strongP8NSStringEEEN3WTF6VectorIcLm0ENSG_15CrashOnOverflowELm16ENSG_10FastMallocEEEv
+- __ZN6Safari11ObjCAdapterINS_18RemoteNotificationEE3addIvJEEEvP13objc_selectorMS1_FT_DpT0_E
+- __ZN6Safari11ObjCAdapterINS_18RemoteNotificationEE3addIvJbU8__strongP7NSArrayU8__strongP8NSStringEEEvP13objc_selectorMS1_FT_DpT0_E
+- __ZN6Safari11ObjCAdapterINS_18RemoteNotificationEEC2EPS1_P8Protocol
+- __ZN6Safari11ObjCAdapterINS_18RemoteNotificationEED2Ev
+- __ZN6Safari13MessageTracer42pushNotificationsUserDidAcceptNotificationEv
+- __ZN6Safari13MessageTracer42pushNotificationsUserDidRejectNotificationEv
+- __ZN6Safari18RemoteNotification10permissionEP8NSStringPU15__autoreleasingS2_
+- __ZN6Safari18RemoteNotification12wrapperClassEv
+- __ZN6Safari18RemoteNotification14refJSWrappableEv
+- __ZN6Safari18RemoteNotification16derefJSWrappableEv
+- __ZN6Safari18RemoteNotification17requestPermissionEPK15OpaqueJSContextP5NSURLP8NSStringPK13OpaqueJSValuePS8_PU15__autoreleasingS7_
+- __ZN6Safari18RemoteNotification22controllerWasDestroyedEv
+- __ZN6Safari18RemoteNotification24agentDidFailVerificationEv
+- __ZN6Safari18RemoteNotification29clearPendingPermissionRequestEv
+- __ZN6Safari18RemoteNotification31agentDidUpdatePermissionsPolicyEbP7NSArrayP8NSString
+- __ZN6Safari18RemoteNotification6createEPNS_27BrowserBundlePageControllerE
+- __ZN6Safari18RemoteNotificationC1EPNS_27BrowserBundlePageControllerE
+- __ZN6Safari18RemoteNotificationC2EPNS_27BrowserBundlePageControllerE
+- __ZN6Safari18RemoteNotificationD0Ev
+- __ZN6Safari18RemoteNotificationD1Ev
+- __ZN6Safari18RemoteNotificationD2Ev
+- __ZN6Safari19FormCredentialSaver49presentSheetToSaveCredentialWithCompletionHandlerEP7NSAlertP8NSWindowP8NSStringS6_P20NSURLProtectionSpaceP22WBSSavedAccountContextP7NSArrayIP20WBSSavedAccountMatchESF_PSB_IP15WBSSavedAccountEU13block_pointerFvS6_E
+- __ZN6Safari20JSRemoteNotification10permissionEPK15OpaqueJSContextP13OpaqueJSValueS5_mPKPKS4_PS7_
+- __ZN6Safari20JSRemoteNotification17requestPermissionEPK15OpaqueJSContextP13OpaqueJSValueS5_mPKPKS4_PS7_
+- __ZN6Safari20JSRemoteNotification23remoteNotificationClassEv
+- __ZN6Safari20toRemoteNotificationEPK15OpaqueJSContextPK13OpaqueJSValue
+- __ZN6Safari23BrowserBundleController34updateRemoteNotificationPermissionEP8NSStringbS2_P7NSArray
+- __ZN6Safari27BrowserBundlePageController48injectRemoteNotificationsBindingsInStandardWorldERKNS_2WK11BundleFrameE
+- __ZN6Safari28RemoteNotificationPermission12wrapperClassEv
+- __ZN6Safari28RemoteNotificationPermission14refJSWrappableEv
+- __ZN6Safari28RemoteNotificationPermission16derefJSWrappableEv
+- __ZN6Safari28RemoteNotificationPermission6createEP8NSStringS2_
+- __ZN6Safari28RemoteNotificationPermissionC1EP8NSStringS2_
+- __ZN6Safari28RemoteNotificationPermissionD0Ev
+- __ZN6Safari28RemoteNotificationPermissionD1Ev
+- __ZN6Safari30JSRemoteNotificationPermission10permissionEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS4_
+- __ZN6Safari30JSRemoteNotificationPermission11deviceTokenEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS4_
+- __ZN6Safari30JSRemoteNotificationPermission33remoteNotificationPermissionClassEv
+- __ZN6Safari30toRemoteNotificationPermissionEPK15OpaqueJSContextPK13OpaqueJSValue
+- __ZN6Safari32FormAutoFillCompletionController59saveAccountWithFilledUsernameAndGeneratedPasswordIfPossibleEv
+- __ZNK6Safari23BrowserBundleController41remoteNotificationPolicyDataForIdentifierEP8NSString
+- __ZNK6Safari2WK10Dictionary4sizeEv
+- __ZNK6Safari2WK11BundleFrame14securityOriginEv
+- __ZNK6Safari2WK6Bundle23isProcessingUserGestureEv
+- __ZNSt3__110unique_ptrIN6Safari11ObjCAdapterINS1_18RemoteNotificationEEENS_14default_deleteIS4_EEED1B9sqn220106Ev
+- __ZTVN6Safari18RemoteNotificationE
+- __ZTVN6Safari28RemoteNotificationPermissionE
+- __ZZ50-[RemoteNotificationController _generateRequestID]E15uniqueRequestID
+- __ZZL13largeIconPathvE4path
+- __ZZL13smallIconPathvE4path
+- __ZZL14mediumIconPathvE4path
+- __ZZL20largeHighResIconPathvE4path
+- __ZZL20smallHighResIconPathvE4path
+- __ZZL21mediumHighResIconPathvE4path
+- __ZZL41pushNotificationSigningMarkerExtensionOIDvE7oidData
+- __ZZL42pushNotificationSigningExtendedKeyUsageOIDvE7oidData
+- __ZZN6Safari20JSRemoteNotification15staticFunctionsEvE9functions
+- __ZZN6Safari20JSRemoteNotification23remoteNotificationClassEvE7jsClass
+- __ZZN6Safari30JSRemoteNotificationPermission12staticValuesEvE6values
+- __ZZN6Safari30JSRemoteNotificationPermission33remoteNotificationPermissionClassEvE7jsClass
+- __ZZZN6Safari32FormAutoFillCompletionController59saveAccountWithFilledUsernameAndGeneratedPasswordIfPossibleEvENK3$_0clEP15WBSSavedAccountENUlvE_D1Ev
+- __ZdaPvSt19__type_descriptor_t
+- __ZnamSt19__type_descriptor_t
+- ___100-[RemoteNotificationVerificationRequestProxy _verifyReferrerURLAndAllowedDomains:completionHandler:]_block_invoke
+- ___100-[RemoteNotificationVerificationRequestProxy _verifyReferrerURLAndAllowedDomains:completionHandler:]_block_invoke_2
+- ___101-[RemoteNotificationVerificationRequestProxy _moveFilesIntoPlaceFromPath:websiteData:allowedDomains:]_block_invoke
+- ___105-[RemoteNotificationVerificationRequestProxy _downloadFirstValidRemoteNotificationBundleWithAPIVersions:]_block_invoke
+- ___105-[RemoteNotificationVerificationRequestProxy _downloadFirstValidRemoteNotificationBundleWithAPIVersions:]_block_invoke_2
+- ___116-[BrowserViewController agentDidVerifyRemoteNotificationProviderRequestID:isValid:forReferrerURLHost:errorMessages:]_block_invoke
+- ___121-[RemoteNotificationController agentDidVerifyRemoteNotificationProviderRequest:withResult:referrerURLHost:errorMessages:]_block_invoke
+- ___121-[RemoteNotificationController agentDidVerifyRemoteNotificationProviderRequest:withResult:referrerURLHost:errorMessages:]_block_invoke_2
+- ___123-[RemoteNotificationController startVerificationRequestForWebsiteWithIdentifier:apiURL:queryParameters:referrerURL:client:]_block_invoke
+- ___147-[SafariNotificationAgentPrivate startVerificationForRemoteNotificationProviderWithApiURL:websiteIdentifier:queryParameters:referrerURL:requestID:]_block_invoke
+- ___155-[BrowserViewController performPageLevelAutoFillWithoutAuthentication:options:generatedPassword:earliestOneTimeCodeDate:watchdogTimeout:completionHandler:]_block_invoke
+- ___155-[BrowserViewController performPageLevelAutoFillWithoutAuthentication:options:generatedPassword:earliestOneTimeCodeDate:watchdogTimeout:completionHandler:]_block_invoke_2
+- ___155-[BrowserViewController performPageLevelAutoFillWithoutAuthentication:options:generatedPassword:earliestOneTimeCodeDate:watchdogTimeout:completionHandler:]_block_invoke_3
+- ___155-[BrowserViewController performPageLevelAutoFillWithoutAuthentication:options:generatedPassword:earliestOneTimeCodeDate:watchdogTimeout:completionHandler:]_block_invoke_4
+- ___60-[BrowserWindowController _menuForUnifiedTabViewItem:event:]_block_invoke_3
+- ___69-[LibrarySidebarNavigationViewController _createMenuForReportConcern]_block_invoke_3
+- ___71-[TopSitesController _excludeOutliersBasedOnScoreForFrequentlyVisited:]_block_invoke
+- ___71-[TopSitesController _excludeOutliersBasedOnScoreForFrequentlyVisited:]_block_invoke_2
+- ___80-[RemoteNotificationVerificationRequestProxy _handshakeDidFailWithErrorMessage:]_block_invoke
+- ___82-[RemoteNotificationVerificationRequestProxy _verifyBundleContents:bundleVersion:]_block_invoke
+- ___99-[BrowserViewController _decidePolicyForRemoteNotificationPermissionRequestWithID:referrerURLHost:]_block_invoke
+- ___99-[BrowserViewController _decidePolicyForRemoteNotificationPermissionRequestWithID:referrerURLHost:]_block_invoke_2
+- ___ZN6Safari19FormCredentialSaver49presentSheetToSaveCredentialWithCompletionHandlerEP7NSAlertP8NSWindowP8NSStringS6_P20NSURLProtectionSpaceP22WBSSavedAccountContextP7NSArrayIP20WBSSavedAccountMatchESF_PSB_IP15WBSSavedAccountEU13block_pointerFvS6_E_block_invoke
+- ___ZN6Safari32FormAutoFillCompletionController59saveAccountWithFilledUsernameAndGeneratedPasswordIfPossibleEv_block_invoke
+- ___ZN6Safari35FormCredentialsCompletionController37getListItemsAndInitiallySelectedIndexERN3WTF6VectorINS1_6RefPtrINS_18CompletionListItemENS1_12RawPtrTraitsIS4_EENS1_21DefaultRefDerefTraitsIS4_EEEELm0ENS1_15CrashOnOverflowELm16ENS1_10FastMallocEEERlSD__block_invoke
+- ___ZN6Safari35FormCredentialsCompletionController37getListItemsAndInitiallySelectedIndexERN3WTF6VectorINS1_6RefPtrINS_18CompletionListItemENS1_12RawPtrTraitsIS4_EENS1_21DefaultRefDerefTraitsIS4_EEEELm0ENS1_15CrashOnOverflowELm16ENS1_10FastMallocEEERlSD__block_invoke_2
+- ___ZNK6Safari32FormAutoFillCompletionController51appendOTPAutoFillItemsToCompletionListItemsIfNeededERN3WTF6VectorINS1_6RefPtrINS_18CompletionListItemENS1_12RawPtrTraitsIS4_EENS1_21DefaultRefDerefTraitsIS4_EEEELm0ENS1_15CrashOnOverflowELm16ENS1_10FastMallocEEESD__block_invoke
+- ____ZN6Safari11ObjCAdapterINS_18RemoteNotificationEE3addIvJEEEvP13objc_selectorMS1_FT_DpT0_E_block_invoke
+- ____ZN6Safari11ObjCAdapterINS_18RemoteNotificationEE3addIvJbU8__strongP7NSArrayU8__strongP8NSStringEEEvP13objc_selectorMS1_FT_DpT0_E_block_invoke
+- ____ZN6Safari18RemoteNotification17requestPermissionEPK15OpaqueJSContextP5NSURLP8NSStringPK13OpaqueJSValuePS8_PU15__autoreleasingS7__block_invoke
+- ____ZN6Safari19FormCredentialSaver49presentSheetToSaveCredentialWithCompletionHandlerEP7NSAlertP8NSWindowP8NSStringS6_P20NSURLProtectionSpaceP22WBSSavedAccountContextP7NSArrayIP20WBSSavedAccountMatchESF_PSB_IP15WBSSavedAccountEU13block_pointerFvS6_E_block_invoke
+- ____ZN6Safari19FormCredentialSaver49presentSheetToSaveCredentialWithCompletionHandlerEP7NSAlertP8NSWindowP8NSStringS6_P20NSURLProtectionSpaceP22WBSSavedAccountContextP7NSArrayIP20WBSSavedAccountMatchESF_PSB_IP15WBSSavedAccountEU13block_pointerFvS6_E_block_invoke_2
+- ____ZN6Safari19FormCredentialSaver49presentSheetToSaveCredentialWithCompletionHandlerEP7NSAlertP8NSWindowP8NSStringS6_P20NSURLProtectionSpaceP22WBSSavedAccountContextP7NSArrayIP20WBSSavedAccountMatchESF_PSB_IP15WBSSavedAccountEU13block_pointerFvS6_E_block_invoke_3
+- ____ZN6Safari32FormAutoFillCompletionController59saveAccountWithFilledUsernameAndGeneratedPasswordIfPossibleEv_block_invoke
+- ____ZNK6Safari32FormAutoFillCompletionController51appendOTPAutoFillItemsToCompletionListItemsIfNeededERN3WTF6VectorINS1_6RefPtrINS_18CompletionListItemENS1_12RawPtrTraitsIS4_EENS1_21DefaultRefDerefTraitsIS4_EEEELm0ENS1_15CrashOnOverflowELm16ENS1_10FastMallocEEESD__block_invoke
+- ____ZZN6Safari32FormAutoFillCompletionController59saveAccountWithFilledUsernameAndGeneratedPasswordIfPossibleEvENK3$_0clEP15WBSSavedAccount_block_invoke
+- ___block_descriptor_104_ea8_32s40s48s56s64s72s80s88bs_e8_v16?0q8l
+- ___block_descriptor_147_ea8_32s40s48s56s64s72s80s88bs96bs104r112w120w_e18_v16?0"NSString"8l
+- ___block_descriptor_162_ea8_32s40s48s56s64s72s80s88s96s104s112s120bs128bs136r_e41_v28?0B8"NSString"12"WBSSavedAccount"20l
+- ___block_descriptor_32_e37_"NSNumber"16?0"_TopSiteCandidate"8l
+- ___block_descriptor_40_e8_32bs_e51_v24?0"<SafariSandboxBrokerProtocol>"8"NSError"16l
+- ___block_descriptor_40_ea8_32c116_ZTSKZN6Safari32FormAutoFillCompletionController59saveAccountWithFilledUsernameAndGeneratedPasswordIfPossibleEvE3$_0_e25_v16?0"WBSSavedAccount"8l
+- ___block_descriptor_40_ea8_32s_e27_B16?0"_TopSiteCandidate"8l
+- ___block_descriptor_41_e8_32bs_e51_v24?0"<SafariSandboxBrokerProtocol>"8"NSError"16l
+- ___block_descriptor_48_e55_v36?0"ObjCAdapterObject"8B16"NSArray"20"NSString"28l
+- ___block_descriptor_48_e8_32s40bs_e20_v24?08"NSError"16l
+- ___block_descriptor_48_ea8_32c146_ZTSKZZN6Safari32FormAutoFillCompletionController59saveAccountWithFilledUsernameAndGeneratedPasswordIfPossibleEvENK3$_0clEP15WBSSavedAccountEUlvE__e5_v8?0l
+- ___block_descriptor_48_ea8_32s40s_e57_v24?0"WBSSearchSuggestionsFetcherResponse"8"NSError"16l
+- ___block_descriptor_48_ea8_32s_e55_q24?0"WBSSavedAccountMatch"8"WBSSavedAccountMatch"16l
+- ___block_descriptor_48_ea8_40c113_ZTSN3WTF6RefPtrIN6Safari28RemoteNotificationPermissionENS_12RawPtrTraitsIS2_EENS_21DefaultRefDerefTraitsIS2_EEEE_e5_v8?0l
+- ___block_descriptor_52_e8_32s40bs_e51_v24?0"<SafariSandboxBrokerProtocol>"8"NSError"16l
+- ___block_descriptor_56_e8_32s40bs_e51_v24?0"<SafariSandboxBrokerProtocol>"8"NSError"16l
+- ___block_descriptor_56_ea8_32s40bs48w_e28_v20?0"WBSFormMetadata"8B16l
+- ___block_descriptor_56_ea8_32s40r48r_e17_v16?0"NSArray"8l
+- ___block_descriptor_56_ea8_32s40w_e8_v16?0q8l
+- ___block_descriptor_64_ea8_32s40r48r_e36_v16?0"WBSSavedAccountMatchResult"8l
+- ___block_descriptor_64_ea8_32s40s48s56s_e20_v20?0"NSArray"8B16l
+- ___block_descriptor_64_ea8_32s40s48w_e17_v16?0"NSImage"8l
+- ___block_descriptor_64_ea8_32s40s_e45_v32?0"NSURL"8"NSURLResponse"16"NSError"24l
+- ___block_descriptor_68_ea8_32s40s48s_e5_v8?0l
+- ___block_descriptor_80_ea8_32s40s48s56bs64w_e31_v16?0"FormsMetadataProvider"8l
+- ___block_descriptor_80_ea8_32s40s48s56bs64w_e34_v24?0"NSArray"8"NSDictionary"16l
+- ___block_descriptor_88_ea8_32s40s48s56s64s72s_e5_v8?0l
+- ___copy_helper_block_ea8_32c116_ZTSKZN6Safari32FormAutoFillCompletionController59saveAccountWithFilledUsernameAndGeneratedPasswordIfPossibleEvE3$_0
+- ___copy_helper_block_ea8_32c146_ZTSKZZN6Safari32FormAutoFillCompletionController59saveAccountWithFilledUsernameAndGeneratedPasswordIfPossibleEvENK3$_0clEP15WBSSavedAccountEUlvE_
+- ___copy_helper_block_ea8_32s40s48s56s64s72s80s88b96b104r112w120w
+- ___copy_helper_block_ea8_32s40s48s56s64s72s80s88s96s104s112s120b128b136r
+- ___copy_helper_block_ea8_40c113_ZTSN3WTF6RefPtrIN6Safari28RemoteNotificationPermissionENS_12RawPtrTraitsIS2_EENS_21DefaultRefDerefTraitsIS2_EEEE
+- ___destroy_helper_block_ea8_32c116_ZTSKZN6Safari32FormAutoFillCompletionController59saveAccountWithFilledUsernameAndGeneratedPasswordIfPossibleEvE3$_0
+- ___destroy_helper_block_ea8_32c146_ZTSKZZN6Safari32FormAutoFillCompletionController59saveAccountWithFilledUsernameAndGeneratedPasswordIfPossibleEvENK3$_0clEP15WBSSavedAccountEUlvE_
+- ___destroy_helper_block_ea8_32s40s48s56s64s72s80s88s96s104r112w120w
+- ___destroy_helper_block_ea8_32s40s48s56s64s72s80s88s96s104s112s120s128s136r
+- ___destroy_helper_block_ea8_40c113_ZTSN3WTF6RefPtrIN6Safari28RemoteNotificationPermissionENS_12RawPtrTraitsIS2_EENS_21DefaultRefDerefTraitsIS2_EEEE
+- _kJSClassDefinitionEmpty
+- _objc_msgSend$_bundleDownloadPathWithTemporaryLocation:
+- _objc_msgSend$_decidePolicyForRemoteNotificationPermissionRequestWithID:referrerURLHost:
+- _objc_msgSend$_downloadFirstValidRemoteNotificationBundleWithAPIVersions:
+- _objc_msgSend$_excludeOutliersBasedOnScoreForFrequentlyVisited:
+- _objc_msgSend$_expectedHashForFilename:manifest:bundleVersion:
+- _objc_msgSend$_generateRequestID
+- _objc_msgSend$_handshakeDidFailWithErrorMessage:
+- _objc_msgSend$_handshakeDidPassWithReferrerReferrerURLHost:
+- _objc_msgSend$_hashStringForFileWithName:path:manifest:bundleVersion:
+- _objc_msgSend$_moveFilesIntoPlaceFromPath:websiteData:allowedDomains:
+- _objc_msgSend$_setDisableAnimations:
+- _objc_msgSend$_setEffectiveCornerRadius:
+- _objc_msgSend$_setSizeClassParameters:
+- _objc_msgSend$_setTextSafeAreaInset:
+- _objc_msgSend$_userSelectedReportConcern
+- _objc_msgSend$_verifyBundleContents:bundleVersion:
+- _objc_msgSend$_verifyManifestHashes:bundleVersion:
+- _objc_msgSend$_verifyReferrerURLAndAllowedDomains:completionHandler:
+- _objc_msgSend$_verifySignature:
+- _objc_msgSend$agentDidFailRemoteNotificationVerification
+- _objc_msgSend$agentDidVerifyRemoteNotificationProviderRequest:withResult:referrerURLHost:errorMessages:
+- _objc_msgSend$agentDidVerifyRemoteNotificationProviderRequestID:isValid:forReferrerURLHost:errorMessages:
+- _objc_msgSend$autoFillValuesForAutomaticPasswordChangeWithAccountInfo:formContexts:savedAccountContext:options:generatedPassword:oneTimeCodeProvider:earliestOneTimeCodeDate:completionHandler:
+- _objc_msgSend$canSaveGeneratedPasswordsForURL:
+- _objc_msgSend$checkServerCompletionForPrefixNavigationalIntent
+- _objc_msgSend$codePathUUIDForHideIgnoredSiriSuggestedWebsites
+- _objc_msgSend$currentOneTimeCodesForWebBrowserWithWebsiteFrameURLs:fieldClassification:
+- _objc_msgSend$dataTaskWithRequest:
+- _objc_msgSend$dataWithContentsOfFile:
+- _objc_msgSend$defaultSessionConfiguration
+- _objc_msgSend$didFinishLoad
+- _objc_msgSend$didHideRepeatedlyIgnoredSiriSuggestedSiteWithFeedbackEvent:
+- _objc_msgSend$downloadTaskWithRequest:completionHandler:
+- _objc_msgSend$fetcher:didReceiveResponse:originalQuery:
+- _objc_msgSend$inExperiment
+- _objc_msgSend$initWithTitle:isSelectable:leftAndRightPadding:
+- _objc_msgSend$initWithWebsiteIdentifier:apiURL:referrerURL:requestID:delegate:
+- _objc_msgSend$initWithWithID:websiteIdentifier:referrerURL:controllerClient:
+- _objc_msgSend$isAllowFavoritesInFrequentlyVisitedEnabled
+- _objc_msgSend$isAllowLogOnURLsInFrequentlyVisitedEnabled
+- _objc_msgSend$lowerBoundForExcludingOutliersFromSortedCandidateScores:
+- _objc_msgSend$performPageLevelAutoFillWithoutAuthentication:options:generatedPassword:earliestOneTimeCodeDate:watchdogTimeout:completionHandler:
+- _objc_msgSend$prefixNavigationalIntentThreshold
+- _objc_msgSend$registerRemoteNotificationsForWebsiteWithRequestID:client:
+- _objc_msgSend$relativeString
+- _objc_msgSend$requestRemoteNotificationPermissionForAPIURL:websiteIdentifier:queryParameters:
+- _objc_msgSend$safari_URLByReplacingHostWithString:
+- _objc_msgSend$safari_appIcon
+- _objc_msgSend$safari_copyItemAtURL:toURLWithUniqueName:error:
+- _objc_msgSend$safari_isUnsignedExtension
+- _objc_msgSend$safari_stringAsHexWithBuffer:length:
+- _objc_msgSend$sessionWithConfiguration:delegate:delegateQueue:
+- _objc_msgSend$setAlignTextAndMediaHorizontalEdges:
+- _objc_msgSend$setCodepathId:
+- _objc_msgSend$setPackageLocation:name:allowedDomains:referrerURL:forIdentifier:
+- _objc_msgSend$setQueryParameters:
+- _objc_msgSend$setWebsiteName:
+- _objc_msgSend$shouldEmitTriggerLoggingForHidingIgnoredSiriSuggestedWebsite
+- _objc_msgSend$shouldHideIgnoredSiriSuggestedSites
+- _objc_msgSend$startHandshake
+- _objc_msgSend$startVerificationForRemoteNotificationProviderWithApiURL:websiteIdentifier:queryParameters:referrerURL:requestID:
+- _objc_msgSend$startVerificationRequestForWebsiteWithIdentifier:apiURL:queryParameters:referrerURL:client:
+- _objc_msgSend$subpathsOfDirectoryAtPath:error:
+- _objc_msgSend$thresholdForHidingIgnoredSiriSuggestedSites
+- _objc_msgSend$unregisterRemoteNotificationsForWebsiteWithRequestID:client:
+- _objc_msgSend$updateSuggestionsRequestWithSearchTerms:userAgentString:completionHandler:
+- _objc_msgSend$userDidDecideRemoteNotificationPolicy:forPermissionRequest:
+- _objc_msgSend$verificationRequest:didFinishHandshake:referrerURLHost:errorMessages:
+- _packageDictionaryFilename
+- _symbolic So10LPLinkViewC
+- _symbolic _____ 6Safari26SizeInvalidatingFlowLayout33_4176C55F6BACFB50FF06B482A0D2A030LLC
+- _symbolic _____ 6Safari31ClickPassthroughLinkPreviewView33_BFF3DC1EDBB6A9D36A6C786587497B88LLC
+CStrings:
++ "&appid=aaplw_r"
++ "&enriched=1"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.Internal.sdk/usr/local/include/wtf/HashTable.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.Internal.sdk/usr/local/include/wtf/RefCounted.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.Internal.sdk/usr/local/include/wtf/StdLibExtras.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.Internal.sdk/usr/local/include/wtf/Vector.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.Internal.sdk/usr/local/include/wtf/text/StringCommon.h"
++ "<nil>"
++ "<none>"
++ "Cannot save account with username and generated password: %{public}@"
++ "Clearing cached code signing information from: %{public}@"
++ "Could not determine whether saving a new account for %{sensitive}@ on %{sensitive}@ with generated password is allowed: %{public}@"
++ "Discarding outdated saved account fetch (generation: %lld)"
++ "Initial page load did not finish within %.0f seconds, but the page rendered visible content; starting password change anyways"
++ "Navigating: initial page load completion at %.2fs (navigation %p, committedURL <%{private}@>, error %{public}@)"
++ "Navigating: initial page load timer fired (committedURL <%{private}@>)"
++ "Navigating: initiating initial page load of <%{private}@>"
++ "Other… picker completed with location %{sensitive, mask.hash}@ (alwaysPrompt: %{public}@, forced: %{public}@)"
++ "Other… selected, invalidating DownloadsManager cache"
++ "Requesting saved accounts matching username query '%{sensitive}@' (generation: %lld)"
++ "Setting should always prompt for download path: %{public}@"
++ "Storing %ld saved account matches for username query '%{sensitive}@' in cache (generation: %lld)"
++ "User did cancel changing default download location"
++ "User did change default download location to %{sensitive, mask.hash}@"
++ "broker returned download location %{sensitive, mask.hash}@ (alwaysPrompt: %{public}@, forced: %{public}@)"
++ "com.bing.www"
++ "com.yahoo.www"
++ "invalidating cached download location (was %{sensitive, mask.hash}@)"
++ "no cached download location, querying broker"
++ "serving cached download location %{sensitive, mask.hash}@ (alwaysPrompt: %{public}@, forced: %{public}@)"
++ "updating download location menu from cache %{sensitive, mask.hash}@ (alwaysPrompt: %{public}@, forced: %{public}@)"
++ "windowDidBecomeKey refresh completed with location %{sensitive, mask.hash}@ (alwaysPrompt: %{public}@, forced: %{public}@)"
++ "windowDidBecomeKey refreshing download location from DownloadsManager"
+- "\"%@\" cannot be used as a format string for URLs"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/include/wtf/HashTable.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/include/wtf/RefCounted.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/include/wtf/StdLibExtras.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/include/wtf/Vector.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/include/wtf/text/StringCommon.h"
+- "@\"NSNumber\"16@?0@\"_TopSiteCandidate\"8"
+- "Allow Favorites"
+- "Allow Logon URLs"
+- "B16@?0@\"_TopSiteCandidate\"8"
+- "Canceling background load because we need to ask for remote notification permission; %{public}@"
+- "Canceling preload of background Continuous Reading View page because we need to ask for remote notification permission."
+- "Did Accept Prompt"
+- "Did Reject Prompt"
+- "Downloading push notification package failed"
+- "Error performing push notification handshake: %{public}@"
+- "Excluding a negative outlier from frequently visited sites"
+- "Extracting push notification package failed"
+- "Invalid 'bundleIdentifier' value passed to safari.pushNotification.permission(). Cannot be empty."
+- "Invalid 'bundleIdentifier' value passed to safari.pushNotification.permission(). Expected a string."
+- "Invalid 'callback' value passed to safari.pushNotification.requestPermission(). Expected a function."
+- "Invalid 'queryParameterDictionary' value passed to safari.pushNotification.requestPermission(). Expected an object."
+- "Invalid 'webAPIURL' value passed to safari.pushNotification.requestPermission(). Cannot be a local file URL."
+- "Invalid 'webAPIURL' value passed to safari.pushNotification.requestPermission(). Cannot be empty."
+- "Invalid 'webAPIURL' value passed to safari.pushNotification.requestPermission(). Expected a string."
+- "Invalid 'websiteIdentifier' value passed to safari.pushNotification.requestPermission(). Cannot be empty."
+- "Invalid 'websiteIdentifier' value passed to safari.pushNotification.requestPermission(). Expected a string."
+- "Invalid call to safari.pushNotification.permission(). A required argument is missing."
+- "Invalid call to safari.pushNotification.requestPermission(). A required argument is missing."
+- "Invalid domain found in list of allowed domains"
+- "Missing file in push notification package"
+- "Missing image in push notification package"
+- "Missing key in website.json"
+- "Push notification prompting can only be done from a user gesture."
+- "Push notification prompting has been disabled."
+- "Query parameter dictionary keys cannot be null."
+- "Query parameter dictionary keys must be strings."
+- "Query parameter dictionary values cannot be null."
+- "Query parameter dictionary values must be strings."
+- "Query parameter expected to be an object or null."
+- "Referrer URL doesn't exist in list of allowed domains"
+- "SafariRemoteNotification"
+- "SafariRemoteNotificationPermission"
+- "Saving downloaded bundle failed"
+- "Serialization of JSON in website.json failed"
+- "Signature verification of push package failed"
+- "The web page associated with this push notification object was closed."
+- "Timed out while fetching one-time code credential identities"
+- "Unable to create notification bundle for push notification package"
+- "Unable to generate ICNS file for push notification package"
+- "Unable to parse webServiceURL"
+- "Unable to save push notification package"
+- "Verifying hashes in manifest.json failed"
+- "Web Service API URL must be https"
+- "Website Push ID: "
+- "authenticationToken must be at least %lu characters"
+- "com.apple.Safari.PushNotifications"
+- "default"
+- "denied"
+- "deviceToken"
+- "granted"
+- "hashType"
+- "hashValue"
+- "icon.iconset"
+- "icon_128x128.png"
+- "icon_128x128@2x.png"
+- "icon_16x16.png"
+- "icon_16x16@2x.png"
+- "icon_32x32.png"
+- "icon_32x32@2x.png"
+- "permission"
+- "pushNotification"
+- "requestPermission"
+- "safaripush"
+- "sha512"
+- "signature"
+- "urlFormatString must have http or https scheme"
+- "user gesture"
+- "v20@?0@\"NSArray\"8B16"
+- "v32@?0@\"NSURL\"8@\"NSURLResponse\"16@\"NSError\"24"
+- "v36@?0@\"ObjCAdapterObject\"8B16@\"NSArray\"20@\"NSString\"28"
+- "webServiceURL must be equal to URL in call to requestPermission"
+- "websiteIdentifier must be equal to identifier in call to requestPermission"
+```

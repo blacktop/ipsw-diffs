@@ -1,0 +1,92 @@
+## ContentKit
+
+> `FileSystem/System/Library/PrivateFrameworks/ContentKit.framework/Versions/A/Resources/Localizable.loctable`
+
+```diff
+
+ en.%@ is not enabled in Settings. = "%@ is not enabled in Settings."
+ en.%@ is not enabled in System Settings. = "%@ is not enabled in System Settings."
+ en.%@ isn’t available in this region. = "%@ isn’t available in this region."
+-en.%@ safety mechanism update required. This device will be able to use the action once the automatic update completes. = "%@ safety mechanism update required. This device will be able to use the action once the automatic update completes."
+ en.%d Activities (Pluralization).NSStringLocalizedFormatKey = "%#@format_key@"
+ en.%d Activities (Pluralization).format_key.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
+ en.%d Activities (Pluralization).format_key.NSStringFormatValueTypeKey = "d"
+
+ en.Drive Last Modified Date (Content Property Name) = "Drive Last Modified Date"
+ en.Drive Path (Content Property Name) = "Drive Path"
+ en.Due Date (Content Property Name) = "Due Date"
++en.Duplicated field name '%1$@' at row %2$d. Field names must be distinct. = "Duplicated field name '%1$@' at row %2$d. Field names must be distinct."
+ en.Duration (Content Property Name) = "Duration"
+ en.Duration (multiple) = "Durations"
+ en.Duration (singular) = "Duration"
+
+ en.FTP directories = "FTP directories"
+ en.FTP directory = "FTP directory"
+ en.Favorites = "Favorites"
++en.Field name cannot be empty. Row %d = "Field name cannot be empty. Row %d"
+ en.File = "File"
+ en.File Archiving = "File Archiving"
+ en.File Extension (Content Property Name) = "File Extension"
+
+ en.In ‘%1$@’, you asked for item %2$d, but the first item is at index 1. = "In ‘%1$@’, you asked for item %2$d, but the first item is at index 1."
+ en.Increased reasoning = "Increased reasoning"
+ en.Instapaper = "Instapaper"
+-en.Internal Testing Only: This limit applies to internal testers and is not final. = "Internal Testing Only: This limit applies to internal testers and is not final."
+ en.Invalid URL = "Invalid URL"
+ en.Is All Day (Content Property Name) = "Is All Day"
+ en.Is Built-in Display (Content Property Name) = "Is Built-in Display"
+
+ en.Safari Reader is unavailable. = "Safari Reader is unavailable."
+ en.Safari Web Page = "Safari Web Page"
+ en.Safari Web Pages = "Safari Web Pages"
+-en.Safety mechanism update required. This device will be able to use the action once the automatic update completes. = "Safety mechanism update required. This device will be able to use the action once the automatic update completes."
++en.Safety mechanism update required. You can see the status in Apple Intelligence & Siri Settings. = "Safety mechanism update required. You can see the status in Apple Intelligence \u0026 Siri Settings."
+ en.Scale (Content Property Name) = "Scale"
+ en.Screenshot = "Screenshot"
+ en.Scripting = "Scripting"
+
+ en.Shortcuts could not convert the file to PDF because it is not a supported file type. = "Shortcuts could not convert the file to PDF because it is not a supported file type."
+ en.Shortcuts couldn’t convert from %@ to %@ = "Shortcuts couldn’t convert from %@ to %@"
+ en.Shortcuts couldn’t convert from %@ to the required type = "Shortcuts couldn’t convert from %@ to the required type"
++en.Shortcuts couldn’t read this item from your photo library = "Shortcuts couldn’t read this item from your photo library"
+ en.Shortcuts encountered an internal error while converting the file to PDF. Please try again later. = "Shortcuts encountered an internal error while converting the file to PDF. Please try again later."
+ en.Show URL (Reminder Content Item) = "Show URL"
+ en.Skip Count (Content Property Name) = "Skip Count"
+
+ en.The action could not run because Broad World Knowledge is restricted by your Screen Time settings. = "The action could not run because Broad World Knowledge is restricted by your Screen Time settings."
+ en.The action could not run because it requires a model provided by an extension, but Personal Siri hasn’t been enabled yet. To run the action, go to Settings > Apple Intelligence & Siri, and enable Personal Siri. = "The action could not run because it requires a model provided by an extension, but Personal Siri hasn’t been enabled yet. To run the action, go to Settings \u003e Apple Intelligence \u0026 Siri, and enable Personal Siri."
+ en.The action could not run because the "%@" extension is not enabled in Settings. You can enable it in Settings > Apple Intelligence & Siri > Extensions. = "The action could not run because the \"%@\" extension is not enabled in Settings. You can enable it in Settings \u003e Apple Intelligence \u0026 Siri \u003e Extensions."
+-en.The action could not run because you must be signed in to an iCloud+ account to use the Cloud Pro model. = "The action could not run because you must be signed in to an iCloud+ account to use the Cloud Pro model."
+ en.The action failed to run because the image attachment ‘%@’ could not be processed. = "The action failed to run because the image attachment ‘%@’ could not be processed."
+ en.The action failed to run because the model took too long to respond. Please try again with a shorter request. = "The action failed to run because the model took too long to respond. Please try again with a shorter request."
+ en.The action failed to run because this device is not supported. = "The action failed to run because this device is not supported."
+
+ en.The shortcut was prevented from running because an internal error occurred during the archive extraction. Check that the archive file is not corrupted and try again. = "The shortcut was prevented from running because an internal error occurred during the archive extraction. Check that the archive file is not corrupted and try again."
+ en.The shortcut was prevented from running because it tried to process an archive containing shell configuration files which could damage the device. = "The shortcut was prevented from running because it tried to process an archive containing shell configuration files which could damage the device."
+ en.The value at ‘%1$@’ is an array, but ‘%2$@’ is not a valid index. = "The value at ‘%1$@’ is an array, but ‘%2$@’ is not a valid index."
++en.The web content could not be loaded because a temporary folder could not be created. Try running the shortcut again. = "The web content could not be loaded because a temporary folder could not be created. Try running the shortcut again."
+ en.The web content could not be loaded because an internal error occurred. = "The web content could not be loaded because an internal error occurred."
++en.The web content could not be loaded because its privacy protections could not be prepared. Try running the shortcut again. = "The web content could not be loaded because its privacy protections could not be prepared. Try running the shortcut again."
++en.The web content could not be loaded because the system prevented it from being opened. = "The web content could not be loaded because the system prevented it from being opened."
+ en.The web content could not be loaded because your privacy settings do not allow this shortcut to load external web content. You can change this in the Privacy tab of the shortcut’s settings. = "The web content could not be loaded because your privacy settings do not allow this shortcut to load external web content. You can change this in the Privacy tab of the shortcut’s settings."
+ en.The “Find Photos” action couldn’t find the album “%@”. = "The “Find Photos” action couldn’t find the album “%@”."
+ en.This action uses a model provided by an extension, but this device doesn’t support Personal Siri. Choose a different model to run this action. = "This action uses a model provided by an extension, but this device doesn’t support Personal Siri. Choose a different model to run this action."
+
+ en.Title (Content Property Name) = "Title"
+ en.Todoist = "Todoist"
+ en.Toggle Cellular Plan = "Toggle Cellular Plan"
+-en.Too many incoming requests. Please try again later. = "Too many incoming requests. Please try again later."
+ en.Track (Content Property Name) = "Track"
+ en.Track (item name) = "Track"
+ en.Track Number (Content Property Name) = "Track Number"
+
+ en.X Position (Content Property Name) = "X Position"
+ en.Y Position (Content Property Name) = "Y Position"
+ en.Yes = "Yes"
+-en.You have reached the usage limit for this model. Please try again later. = "You have reached the usage limit for this model. Please try again later."
++en.Your request can’t be completed right now. = "Your request can’t be completed right now."
+ en.ZIP Code (Content Property Name) = "ZIP Code"
+ en.a video was provided instead of an image = "a video was provided instead of an image"
+ en.apps-type-description = "Apps"
+
+```

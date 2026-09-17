@@ -41,6 +41,7 @@
 <a href="#ios-15-8">iOS 15.8</a> ·
 <a href="#ios-12-5">iOS 12.5</a> ·
 <a href="#macos-26-6">macOS 26.6</a> ·
+<a href="#macos-27-2-beta">macOS 27.2 beta</a> ·
 <a href="#macos-27-0-beta">macOS 27.0 beta</a> ·
 <a href="#macos-26-7">macOS 26.7</a> ·
 <a href="#macos-26-6">macOS 26.6</a> ·
@@ -525,6 +526,17 @@
   <summary>View diffs</summary>
 
 - [12.5.7 (16H81) .vs 12.5.8 (16H88)](12_5_7_16H81__vs_12_5_8_16H88/README.md)
+
+</details>
+
+<a id="macos-27-2-beta"></a>
+
+### macOS 27.2 beta
+
+<details open>
+  <summary>View diffs</summary>
+
+- [27.0 (26A428) .vs 27.2 beta 1 (26B5086k) **Mac18,5**](27_0_26A428_vs_27_2_26B5086k_Mac18,5/README.md)
 
 </details>
 

@@ -1,0 +1,767 @@
+## MusicKitInternal
+
+> `/System/Library/PrivateFrameworks/MusicKitInternal.framework/Versions/A/MusicKitInternal`
+
+```diff
+
+-4026.140.2.0.0
+-  __TEXT.__text: 0x731040
+-  __TEXT.__objc_methlist: 0x26b4
+-  __TEXT.__const: 0x6b3c4
++4026.240.18.1.0
++  __TEXT.__text: 0x751104
++  __TEXT.__objc_methlist: 0x2714
++  __TEXT.__const: 0x6d174
+   __TEXT.__gcc_except_tab: 0x99c
+-  __TEXT.__cstring: 0x172b5
++  __TEXT.__cstring: 0x1bf40
+   __TEXT.__dlopen_cstrs: 0xcd9
+-  __TEXT.__constg_swiftt: 0x102b4
+-  __TEXT.__swift5_typeref: 0x17a02
+-  __TEXT.__swift5_fieldmd: 0x141a4
+-  __TEXT.__swift5_builtin: 0x384
+-  __TEXT.__swift5_reflstr: 0x1015a
+-  __TEXT.__swift5_assocty: 0x39f8
+-  __TEXT.__swift5_proto: 0x5c64
+-  __TEXT.__swift5_types: 0x156c
+-  __TEXT.__oslogstring: 0xa467
+-  __TEXT.__swift5_capture: 0x6454
+-  __TEXT.__swift5_protos: 0x1fc
+-  __TEXT.__swift_as_entry: 0x12c0
+-  __TEXT.__swift_as_ret: 0x1400
+-  __TEXT.__swift_as_cont: 0x2058
++  __TEXT.__oslogstring: 0xaa77
++  __TEXT.__swift5_typeref: 0x1818a
++  __TEXT.__swift5_reflstr: 0x106fa
++  __TEXT.__swift5_assocty: 0x3cb0
++  __TEXT.__constg_swiftt: 0x10970
++  __TEXT.__swift5_fieldmd: 0x14a50
++  __TEXT.__swift5_builtin: 0x3ac
++  __TEXT.__swift5_proto: 0x5d80
++  __TEXT.__swift5_types: 0x1618
++  __TEXT.__swift5_protos: 0x204
++  __TEXT.__swift5_capture: 0x63b0
++  __TEXT.__swift_as_entry: 0x1300
++  __TEXT.__swift_as_ret: 0x145c
++  __TEXT.__swift_as_cont: 0x210c
+   __TEXT.__swift5_acfuncs: 0x154
+   __TEXT.__swift5_mpenum: 0xe0
+   __TEXT.__swift5_types2: 0x4
+-  __TEXT.__unwind_info: 0x259f0
+-  __TEXT.__eh_frame: 0x31978
++  __TEXT.__unwind_info: 0x26dd8
++  __TEXT.__eh_frame: 0x32d7c
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x17c8
+-  __DATA_CONST.__objc_classlist: 0x340
++  __DATA_CONST.__const: 0x17f0
++  __DATA_CONST.__objc_classlist: 0x348
+   __DATA_CONST.__objc_catlist: 0x28
+   __DATA_CONST.__objc_protolist: 0x180
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x20f8
++  __DATA_CONST.__objc_selrefs: 0x2150
+   __DATA_CONST.__objc_protorefs: 0x98
+   __DATA_CONST.__objc_superrefs: 0x140
+-  __DATA_CONST.__got: 0x3820
+-  __AUTH_CONST.__const: 0x306a0
+-  __AUTH_CONST.__cfstring: 0x260
+-  __AUTH_CONST.__objc_const: 0x8928
++  __DATA_CONST.__got: 0x3990
++  __AUTH_CONST.__const: 0x31650
++  __AUTH_CONST.__cfstring: 0x2a0
++  __AUTH_CONST.__objc_const: 0x8b10
+   __AUTH_CONST.__objc_intobj: 0x30
+-  __AUTH_CONST.__auth_got: 0x6440
+-  __AUTH.__objc_data: 0x2c0
+-  __AUTH.__data: 0x5988
++  __AUTH_CONST.__auth_got: 0x6750
++  __AUTH.__objc_data: 0x3a8
++  __AUTH.__data: 0x6010
+   __DATA.__objc_ivar: 0x140
+-  __DATA.__data: 0x13548
+-  __DATA.__common: 0xa40
++  __DATA.__data: 0x13a40
++  __DATA.__common: 0xa58
+   __DATA_DIRTY.__objc_data: 0x1720
+-  __DATA_DIRTY.__data: 0x10e38
++  __DATA_DIRTY.__data: 0x10e58
+   __DATA_DIRTY.__bss: 0x1cfb0
+   __DATA_DIRTY.__common: 0x640
+   - /System/Library/Frameworks/Combine.framework/Versions/A/Combine
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 53373
+-  Symbols:   12358
+-  CStrings:  2502
++  Functions: 54188
++  Symbols:   12574
++  CStrings:  2760
+ 
+Symbols:
++ -[MusicKit_SoftLinking_MPCModelStorePlaybackItemsRequest initWithStoreIDs:versionHashesByStoreID:]
++ -[MusicKit_SoftLinking_MPCPlaybackIntent initWithStoreIDs:versionHashesByStoreID:startIdentifierSet:]
++ -[MusicKit_SoftLinking_MPCloudController favoriteSongAddToLibraryBehavior]
++ -[MusicKit_SoftLinking_MPCloudController isAutomaticDownloadsEnabledForPinnedLibraryEntities]
++ -[MusicKit_SoftLinking_MPCloudController setCloudFavoriteSongAddToLibraryBehavior:completionHandler:]
++ -[MusicKit_SoftLinking_MusicLibraryActionsController addToPlaylistBehavior]
++ -[MusicKit_SoftLinking_MusicLibraryActionsController createPlaylistWithName:completion:]
++ -[MusicKit_SoftLinking_MusicLibraryActionsController favoriteSongAddToLibraryBehavior]
++ -[MusicKit_SoftLinking_MusicLibraryActionsController setAddToPlaylistBehavior:completion:]
++ -[MusicKit_SoftLinking_MusicLibraryActionsController setFavoriteSongAddToLibraryBehavior:completion:]
++ MusicKit_MGGetDeviceClass
++ MusicKit_MGGetDeviceClass.__musickit_lazy_init_predicate
++ MusicKit_MGGetDeviceClass.__musickit_lazy_init_variable
++ MusicKit_MGHasCellularDataCapability
++ MusicKit_MGHasCellularDataCapability.__musickit_lazy_init_predicate
++ MusicKit_MGHasCellularDataCapability.__musickit_lazy_init_variable
++ MusicKit_MGHasWAPICapability
++ MusicKit_MGHasWAPICapability.__musickit_lazy_init_predicate
++ MusicKit_MGHasWAPICapability.__musickit_lazy_init_variable
++ _MGGetBoolAnswer
++ _MusicKit_MGHasCellularDataCapability
++ _MusicKit_MGHasWAPICapability
++ _OBJC_CLASS_$_ICCloudAPNSChannelPushMessage
++ __DATA__TtC16MusicKitInternal23MusicResourceMapEncoder
++ __DATA__TtC16MusicKitInternal26MusicAlbumDetailDataSource
++ __DATA__TtC16MusicKitInternalP33_1DD4A5126D3CEE504E9C6FABC42266D714ValueReference
++ __DATA__TtCC16MusicKitInternal26MusicAlbumDetailDataSource21PushUpdateInvalidator
++ __DATA__TtCC16MusicKitInternal26MusicAlbumDetailDataSource34PrereleaseAPNSChannelNotifications
++ __IVARS__TtC16MusicKitInternal26MusicAlbumDetailDataSource
++ __IVARS__TtC16MusicKitInternalP33_1DD4A5126D3CEE504E9C6FABC42266D714ValueReference
++ __IVARS__TtCC16MusicKitInternal26MusicAlbumDetailDataSource21PushUpdateInvalidator
++ __IVARS__TtCC16MusicKitInternal26MusicAlbumDetailDataSource34PrereleaseAPNSChannelNotifications
++ __METACLASS_DATA__TtC16MusicKitInternal23MusicResourceMapEncoder
++ __METACLASS_DATA__TtC16MusicKitInternal26MusicAlbumDetailDataSource
++ __METACLASS_DATA__TtC16MusicKitInternalP33_1DD4A5126D3CEE504E9C6FABC42266D714ValueReference
++ __METACLASS_DATA__TtCC16MusicKitInternal26MusicAlbumDetailDataSource21PushUpdateInvalidator
++ __METACLASS_DATA__TtCC16MusicKitInternal26MusicAlbumDetailDataSource34PrereleaseAPNSChannelNotifications
++ ___88-[MusicKit_SoftLinking_MusicLibraryActionsController createPlaylistWithName:completion:]_block_invoke
++ ___MusicKit_MGGetDeviceClass_block_invoke
++ ___MusicKit_MGHasCellularDataCapability_block_invoke
++ ___MusicKit_MGHasWAPICapability_block_invoke
++ ___swift_memcpy20_4
++ ___unnamed_16
++ __os_log_error_impl
++ __swift_closure_destructor.103Tm
++ __swift_closure_destructor.41Tm
++ __swift_closure_destructor.945Tm
++ __swift_closure_destructor.96Tm
++ _associated conformance 16MusicKitInternal0A18SiriRepresentationV20PreferredIdentifiersOSHAASQ
++ _associated conformance 16MusicKitInternal0A21AlbumDetailDataSourceC21PushUpdateInvalidatorC7Combine16ObservableObjectAA0M19WillChangePublisherAfGP_AF0P0
++ _associated conformance 16MusicKitInternal0A21AlbumDetailDataSourceC21PushUpdateInvalidatorCAA0a20AutoupdatableRequestJ0AA0L4TypeAaFP_AA0akL0
++ _associated conformance 16MusicKitInternal0A21AlbumDetailDataSourceC34PrereleaseAPNSChannelNotificationsC29AsyncPushNotificationIteratorVScIAA7FailureScI_s5Error
++ _associated conformance 16MusicKitInternal0A21AlbumDetailDataSourceC34PrereleaseAPNSChannelNotificationsCSciAA13AsyncIteratorSci_ScI
++ _associated conformance 16MusicKitInternal0A5AlertO10ActionRoleOSHAASQ
++ _associated conformance 16MusicKitInternal0A5AlertO12DownloadPinsVAC13ConfigurationAA6ActionAcFP_AC0hG0
++ _associated conformance 16MusicKitInternal0A5AlertO14StandardActionVs12IdentifiableAA2IDsAFP_SH
++ _associated conformance 16MusicKitInternal0A5AlertO15AccountRequiredVAC13ConfigurationAA6ActionAcFP_AC0hG0
++ _associated conformance 16MusicKitInternal0A5AlertO15AgeVerificationVAC13ConfigurationAA6ActionAcFP_AC0hG0
++ _associated conformance 16MusicKitInternal0A5AlertO15UnexpectedErrorVAC13ConfigurationAA6ActionAcFP_AC0hG0
++ _associated conformance 16MusicKitInternal0A5AlertO16ActionIdentifierVSHAASQ
++ _associated conformance 16MusicKitInternal0A5AlertO16ActionIdentifierVs26ExpressibleByStringLiteralAA0iJ4TypesAFP_s01_gh7BuiltiniJ0
++ _associated conformance 16MusicKitInternal0A5AlertO16ActionIdentifierVs26ExpressibleByStringLiteralAAs0gh23ExtendedGraphemeClusterJ0
++ _associated conformance 16MusicKitInternal0A5AlertO16ActionIdentifierVs33ExpressibleByUnicodeScalarLiteralAA0ijK4TypesAFP_s01_gh7BuiltinijK0
++ _associated conformance 16MusicKitInternal0A5AlertO16ActionIdentifierVs43ExpressibleByExtendedGraphemeClusterLiteralAA0ijkL4TypesAFP_s01_gh7BuiltinijkL0
++ _associated conformance 16MusicKitInternal0A5AlertO16ActionIdentifierVs43ExpressibleByExtendedGraphemeClusterLiteralAAs0gh13UnicodeScalarL0
++ _associated conformance 16MusicKitInternal0A5AlertO17RemoveFromLibraryVAC13ConfigurationAA6ActionAcFP_AC0iH0
++ _associated conformance 16MusicKitInternal0A5AlertO18CellularRestrictedV12MediaContextOSHAASQ
++ _associated conformance 16MusicKitInternal0A5AlertO18CellularRestrictedVAC13ConfigurationAA6ActionAcFP_AC0hG0
++ _associated conformance 16MusicKitInternal0A5AlertO18ContentUnavailableVAC13ConfigurationAA6ActionAcFP_AC0hG0
++ _associated conformance 16MusicKitInternal0A5AlertO18ExplicitRestrictedVAC13ConfigurationAA6ActionAcFP_AC0hG0
++ _associated conformance 16MusicKitInternal0A5AlertO18MaximumPinsReachedVAC13ConfigurationAA6ActionAcFP_AC0iH0
++ _associated conformance 16MusicKitInternal0A5AlertO18NetworkUnavailableV12MediaContextOSHAASQ
++ _associated conformance 16MusicKitInternal0A5AlertO18NetworkUnavailableVAC13ConfigurationAA6ActionAcFP_AC0hG0
++ _associated conformance 16MusicKitInternal0A5AlertO18UserUploadRequiredVAC13ConfigurationAA6ActionAcFP_AC0iH0
++ _associated conformance 16MusicKitInternal0A5AlertO20CloudLibraryDisabledV7ContextOSHAASQ
++ _associated conformance 16MusicKitInternal0A5AlertO20CloudLibraryDisabledVAC13ConfigurationAA6ActionAcFP_AC0iH0
++ _associated conformance 16MusicKitInternal0A5AlertO20SubscriptionRequiredVAC13ConfigurationAA6ActionAcFP_AC0hG0
++ _associated conformance 16MusicKitInternal0A5AlertO21SyncLibraryInProgressVAC13ConfigurationAA6ActionAcFP_AC0jI0
++ _associated conformance 16MusicKitInternal0A5AlertO23PinnedArtistNotPlayableVAC13ConfigurationAA6ActionAcFP_AC0jI0
++ _associated conformance 16MusicKitInternal0A5AlertO24DuplicateSongsInPlaylistVAC13ConfigurationAA6ActionAcFP_AC0jI0
++ _associated conformance 16MusicKitInternal0A5AlertO5StyleOSHAASQ
++ _associated conformance 16MusicKitInternal16JSONValueEncoderV14IndexCodingKey33_1DD4A5126D3CEE504E9C6FABC42266D7LLVs0gH0AAs23CustomStringConvertible
++ _associated conformance 16MusicKitInternal16JSONValueEncoderV14IndexCodingKey33_1DD4A5126D3CEE504E9C6FABC42266D7LLVs0gH0AAs28CustomDebugStringConvertible
++ _associated conformance 16MusicKitInternal16JSONValueEncoderV14KeyedContainer33_1DD4A5126D3CEE504E9C6FABC42266D7LLVy_xGs0f8EncodingG8ProtocolAA3KeysAHP_s06CodingR0
++ _associated conformance 16MusicKitInternal7ConcertV12DataProviderV10CodingKeys33_2E81CA12F6EE23D0738CACF29385E854LLOSHAASQ
++ _associated conformance 16MusicKitInternal7ConcertV12DataProviderV10CodingKeys33_2E81CA12F6EE23D0738CACF29385E854LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 16MusicKitInternal7ConcertV12DataProviderV10CodingKeys33_2E81CA12F6EE23D0738CACF29385E854LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16MusicKitInternal7ConcertV12DataProviderVSHAASQ
++ _associated conformance 8MusicKit0A7LibraryC0aB8InternalE017FavoriteSongAddToC8BehaviorOSHADSQ
++ _associated conformance 8MusicKit0A7LibraryC0aB8InternalE017FavoriteSongAddToC8BehaviorOs12CaseIterableAD8AllCasessAGP_Sl
++ _associated conformance 8MusicKit5AlbumV0aB8InternalE4KindO10CodingKeys33_903DD07F625E05B0EC7567C034DDC2FCLLOSHADSQ
++ _associated conformance 8MusicKit5AlbumV0aB8InternalE4KindO10CodingKeys33_903DD07F625E05B0EC7567C034DDC2FCLLOs0F3KeyADs23CustomStringConvertible
++ _associated conformance 8MusicKit5AlbumV0aB8InternalE4KindO10CodingKeys33_903DD07F625E05B0EC7567C034DDC2FCLLOs0F3KeyADs28CustomDebugStringConvertible
++ _associated conformance 8MusicKit5AlbumV0aB8InternalE4KindO12EpCodingKeys33_903DD07F625E05B0EC7567C034DDC2FCLLOs0G3KeyADs23CustomStringConvertible
++ _associated conformance 8MusicKit5AlbumV0aB8InternalE4KindO12EpCodingKeys33_903DD07F625E05B0EC7567C034DDC2FCLLOs0G3KeyADs28CustomDebugStringConvertible
++ _associated conformance 8MusicKit5AlbumV0aB8InternalE4KindO16DeluxeCodingKeys33_903DD07F625E05B0EC7567C034DDC2FCLLOs0G3KeyADs23CustomStringConvertible
++ _associated conformance 8MusicKit5AlbumV0aB8InternalE4KindO16DeluxeCodingKeys33_903DD07F625E05B0EC7567C034DDC2FCLLOs0G3KeyADs28CustomDebugStringConvertible
++ _associated conformance 8MusicKit5AlbumV0aB8InternalE4KindO16SingleCodingKeys33_903DD07F625E05B0EC7567C034DDC2FCLLOs0G3KeyADs23CustomStringConvertible
++ _associated conformance 8MusicKit5AlbumV0aB8InternalE4KindO16SingleCodingKeys33_903DD07F625E05B0EC7567C034DDC2FCLLOs0G3KeyADs28CustomDebugStringConvertible
++ _associated conformance 8MusicKit5AlbumV0aB8InternalE4KindO18StandardCodingKeys33_903DD07F625E05B0EC7567C034DDC2FCLLOs0G3KeyADs23CustomStringConvertible
++ _associated conformance 8MusicKit5AlbumV0aB8InternalE4KindO18StandardCodingKeys33_903DD07F625E05B0EC7567C034DDC2FCLLOs0G3KeyADs28CustomDebugStringConvertible
++ _associated conformance 8MusicKit5AlbumV0aB8InternalE4KindO21CompilationCodingKeys33_903DD07F625E05B0EC7567C034DDC2FCLLOs0G3KeyADs23CustomStringConvertible
++ _associated conformance 8MusicKit5AlbumV0aB8InternalE4KindO21CompilationCodingKeys33_903DD07F625E05B0EC7567C034DDC2FCLLOs0G3KeyADs28CustomDebugStringConvertible
++ _associated conformance 8MusicKit5AlbumV0aB8InternalE4KindOSHADSQ
++ _default assoc type yyYbScMYcc
++ _get_enum_tag_for_layout_string 16MusicKitInternal0A5AlertO14StandardActionVSg
++ _objc_msgSend$addToPlaylistBehavior
++ _objc_msgSend$contentType
++ _objc_msgSend$createPlaylistWithName:completion:
++ _objc_msgSend$favoriteSongAddToLibraryBehavior
++ _objc_msgSend$identifierSetWithCatalogID:libraryID:cloudAlbumLibraryID:cloudID:reportingAdamID:purchasedAdamID:assetAdamID:deviceLocalID:occurrenceID:containedDeviceLocalID:syncID:playbackID:formerIDs:versionHash:modelObjectType:source:
++ _objc_msgSend$initWithChannelID:entityType:storeID:reason:expectedReleaseDate:
++ _objc_msgSend$initWithStoreIDs:versionHashesByStoreID:
++ _objc_msgSend$initWithStoreIDs:versionHashesByStoreID:startIdentifierSet:
++ _objc_msgSend$isAutomaticDownloadsEnabledForPinnedLibraryEntities
++ _objc_msgSend$musicKit_versionHash
++ _objc_msgSend$setAddToPlaylistBehavior:completion:
++ _objc_msgSend$setBool:forKey:
++ _objc_msgSend$setCloudFavoriteSongAddToLibraryBehavior:completionHandler:
++ _objc_msgSend$setFavoriteSongAddToLibraryBehavior:completion:
++ _objc_msgSend$setVersionHashesByStoreID:
++ _os_log_create
++ _symbolic $s16MusicKitInternal0A5AlertO13ConfigurationP
++ _symbolic $s16MusicKitInternal0A5AlertO19ActionConfigurationP
++ _symbolic $sScI
++ _symbolic $sSci
++ _symbolic $ss26ExpressibleByStringLiteralP
++ _symbolic $ss30KeyedEncodingContainerProtocolP
++ _symbolic $ss33ExpressibleByUnicodeScalarLiteralP
++ _symbolic $ss43ExpressibleByExtendedGraphemeClusterLiteralP
++ _symbolic 6Action_____Qz 16MusicKitInternal0A5AlertO13ConfigurationP
++ _symbolic Iegh_
++ _symbolic SDySS_____G 16MusicKitInternal14ValueReference33_1DD4A5126D3CEE504E9C6FABC42266D7LLC
++ _symbolic SDy_____ypG s17CodingUserInfoKeyV
++ _symbolic SS3key______5valuetSg 8MusicKit9JSONValueO
++ _symbolic SS______t 8MusicKit9JSONValueO
++ _symbolic SS______tSg 8MusicKit9JSONValueO
++ _symbolic SaySo29ICCloudAPNSChannelPushMessageCG
++ _symbolic Say_____G 16MusicKitInternal0A5AlertO14StandardActionV
++ _symbolic Say_____G 16MusicKitInternal14ValueReference33_1DD4A5126D3CEE504E9C6FABC42266D7LLC
++ _symbolic Say_____G 16MusicKitInternal7ConcertV12DataProviderV
++ _symbolic Say_____G 8MusicKit0A28CatalogResourceRequestOptionV
++ _symbolic Say_____G 8MusicKit0A7LibraryC0aB8InternalE017FavoriteSongAddToC8BehaviorO
++ _symbolic Say_____GSg 16MusicKitInternal7ConcertV12DataProviderV
++ _symbolic Say______pG s9CodingKeyP
++ _symbolic SbSg14isLibraryAdded_t
++ _symbolic ScSy_____8response______10goLiveDatetG 16MusicKitInternal0A20CatalogAlbumResponseV 10Foundation4DateV
++ _symbolic ScsySo29ICCloudAPNSChannelPushMessageC______pG s5ErrorP
++ _symbolic So29ICCloudAPNSChannelPushMessageC
++ _symbolic So29ICCloudAPNSChannelPushMessageCSg
++ _symbolic _____ 16MusicKitInternal0A18ResourceMapEncoderC
++ _symbolic _____ 16MusicKitInternal0A18SiriRepresentationV20PreferredIdentifiersO
++ _symbolic _____ 16MusicKitInternal0A21AlbumDetailDataSourceC
++ _symbolic _____ 16MusicKitInternal0A21AlbumDetailDataSourceC21PushUpdateInvalidatorC
++ _symbolic _____ 16MusicKitInternal0A21AlbumDetailDataSourceC34PrereleaseAPNSChannelNotificationsC
++ _symbolic _____ 16MusicKitInternal0A21AlbumDetailDataSourceC34PrereleaseAPNSChannelNotificationsC29AsyncPushNotificationIteratorV
++ _symbolic _____ 16MusicKitInternal0A21AlbumDetailDataSourceC4KindO
++ _symbolic _____ 16MusicKitInternal0A5AlertO
++ _symbolic _____ 16MusicKitInternal0A5AlertO10ActionRoleO
++ _symbolic _____ 16MusicKitInternal0A5AlertO12DownloadPinsV
++ _symbolic _____ 16MusicKitInternal0A5AlertO14StandardActionV
++ _symbolic _____ 16MusicKitInternal0A5AlertO15AccountRequiredV
++ _symbolic _____ 16MusicKitInternal0A5AlertO15AgeVerificationV
++ _symbolic _____ 16MusicKitInternal0A5AlertO15UnexpectedErrorV
++ _symbolic _____ 16MusicKitInternal0A5AlertO16ActionIdentifierV
++ _symbolic _____ 16MusicKitInternal0A5AlertO17RemoveFromLibraryV
++ _symbolic _____ 16MusicKitInternal0A5AlertO18CellularRestrictedV
++ _symbolic _____ 16MusicKitInternal0A5AlertO18CellularRestrictedV12MediaContextO
++ _symbolic _____ 16MusicKitInternal0A5AlertO18ContentUnavailableV
++ _symbolic _____ 16MusicKitInternal0A5AlertO18ExplicitRestrictedV
++ _symbolic _____ 16MusicKitInternal0A5AlertO18MaximumPinsReachedV
++ _symbolic _____ 16MusicKitInternal0A5AlertO18NetworkUnavailableV
++ _symbolic _____ 16MusicKitInternal0A5AlertO18NetworkUnavailableV12MediaContextO
++ _symbolic _____ 16MusicKitInternal0A5AlertO18UserUploadRequiredV
++ _symbolic _____ 16MusicKitInternal0A5AlertO20CloudLibraryDisabledV
++ _symbolic _____ 16MusicKitInternal0A5AlertO20CloudLibraryDisabledV7ContextO
++ _symbolic _____ 16MusicKitInternal0A5AlertO20SubscriptionRequiredV
++ _symbolic _____ 16MusicKitInternal0A5AlertO21SyncLibraryInProgressV
++ _symbolic _____ 16MusicKitInternal0A5AlertO23PinnedArtistNotPlayableV
++ _symbolic _____ 16MusicKitInternal0A5AlertO24DuplicateSongsInPlaylistV
++ _symbolic _____ 16MusicKitInternal0A5AlertO5StyleO
++ _symbolic _____ 16MusicKitInternal14ValueReference33_1DD4A5126D3CEE504E9C6FABC42266D7LLC
++ _symbolic _____ 16MusicKitInternal14ValueReference33_1DD4A5126D3CEE504E9C6FABC42266D7LLC7StorageO
++ _symbolic _____ 16MusicKitInternal16JSONValueEncoderV
++ _symbolic _____ 16MusicKitInternal16JSONValueEncoderV05ValueE033_1DD4A5126D3CEE504E9C6FABC42266D7LLV
++ _symbolic _____ 16MusicKitInternal16JSONValueEncoderV14IndexCodingKey33_1DD4A5126D3CEE504E9C6FABC42266D7LLV
++ _symbolic _____ 16MusicKitInternal16JSONValueEncoderV14KeyedContainer33_1DD4A5126D3CEE504E9C6FABC42266D7LLV
++ _symbolic _____ 16MusicKitInternal16JSONValueEncoderV16UnkeyedContainer33_1DD4A5126D3CEE504E9C6FABC42266D7LLV
++ _symbolic _____ 16MusicKitInternal16JSONValueEncoderV20SingleValueContainer33_1DD4A5126D3CEE504E9C6FABC42266D7LLV
++ _symbolic _____ 16MusicKitInternal7ConcertV12DataProviderV
++ _symbolic _____ 16MusicKitInternal7ConcertV12DataProviderV10CodingKeys33_2E81CA12F6EE23D0738CACF29385E854LLO
++ _symbolic _____ 8MusicKit0A7LibraryC0aB8InternalE017FavoriteSongAddToC8BehaviorO
++ _symbolic _____ 8MusicKit5AlbumV0aB8InternalE4KindO
++ _symbolic _____ 8MusicKit5AlbumV0aB8InternalE4KindO10CodingKeys33_903DD07F625E05B0EC7567C034DDC2FCLLO
++ _symbolic _____ 8MusicKit5AlbumV0aB8InternalE4KindO12EpCodingKeys33_903DD07F625E05B0EC7567C034DDC2FCLLO
++ _symbolic _____ 8MusicKit5AlbumV0aB8InternalE4KindO16DeluxeCodingKeys33_903DD07F625E05B0EC7567C034DDC2FCLLO
++ _symbolic _____ 8MusicKit5AlbumV0aB8InternalE4KindO16SingleCodingKeys33_903DD07F625E05B0EC7567C034DDC2FCLLO
++ _symbolic _____ 8MusicKit5AlbumV0aB8InternalE4KindO18StandardCodingKeys33_903DD07F625E05B0EC7567C034DDC2FCLLO
++ _symbolic _____ 8MusicKit5AlbumV0aB8InternalE4KindO21CompilationCodingKeys33_903DD07F625E05B0EC7567C034DDC2FCLLO
++ _symbolic _____ 8MusicKit9JSONValueO
++ _symbolic _____ So33ICCloudAPNSChannelPushContentTypeV
++ _symbolic _____ So9NSDecimala
++ _symbolic _____3key_yp5valuet s17CodingUserInfoKeyV
++ _symbolic _____5album______yAAG7requestt 8MusicKit5AlbumV AA0A22CatalogResourceRequestV
++ _symbolic _____5album______yAA_____G7requestt 8MusicKit5AlbumV AA0A23LibrarySectionedRequestV AA5TrackO
++ _symbolic _____8response______10goLiveDatet 16MusicKitInternal0A20CatalogAlbumResponseV 10Foundation4DateV
++ _symbolic _____8response______10goLiveDatetSg 16MusicKitInternal0A20CatalogAlbumResponseV 10Foundation4DateV
++ _symbolic _____Sg 16MusicKitInternal0A5AlertO14StandardActionV
++ _symbolic _____Sg 16MusicKitInternal7ConcertV12DataProviderV
++ _symbolic _____Sg 8MusicKit20LegacyModelAlbumKindO
++ _symbolic _____Sg 8MusicKit9JSONValueO
++ _symbolic _____SgXw 16MusicKitInternal0A21AlbumDetailDataSourceC
++ _symbolic _____SgXw 16MusicKitInternal0A21AlbumDetailDataSourceC21PushUpdateInvalidatorC
++ _symbolic _____SgXw 16MusicKitInternal0A21AlbumDetailDataSourceC34PrereleaseAPNSChannelNotificationsC
++ _symbolic _____SgXwz_Xx 16MusicKitInternal0A21AlbumDetailDataSourceC
++ _symbolic _____SgXwz_Xx 16MusicKitInternal0A21AlbumDetailDataSourceC21PushUpdateInvalidatorC
++ _symbolic _____Sg_ABt 16MusicKitInternal7ConcertV12DataProviderV
++ _symbolic _____Sg_ABt 8MusicKit9JSONValueO
++ _symbolic ______A7At s6UInt16V
++ _symbolic __________Xj l8MusicKit0A22CatalogExtendedRequest_px12ResponseTypeRts_XPXGMq 0aB8Internal0ac5AlbumF0V
++ _symbolic ______ypt s17CodingUserInfoKeyV
++ _symbolic _____ySSSDySS_____GG s17_NativeDictionaryV 8MusicKit9JSONValueO
++ _symbolic _____ySS_____G s17_NativeDictionaryV 16MusicKitInternal14ValueReference33_1DD4A5126D3CEE504E9C6FABC42266D7LLC
++ _symbolic _____ySS_____G s17_NativeDictionaryV 8MusicKit9JSONValueO
++ _symbolic _____ySS_____G s18_DictionaryStorageC 8MusicKit9JSONValueO
++ _symbolic _____ySS______tG s23_ContiguousArrayStorageC 16MusicKitInternal14ValueReference33_1DD4A5126D3CEE504E9C6FABC42266D7LLC
++ _symbolic _____ySS______tG s23_ContiguousArrayStorageC 8MusicKit9JSONValueO
++ _symbolic _____ySaySo29ICCloudAPNSChannelPushMessageCGG 15Synchronization5MutexVAARi_zrlE
++ _symbolic _____ySbG 15Synchronization5MutexVAARi_zrlE
++ _symbolic _____ySo29ICCloudAPNSChannelPushMessageC______p_G Scs12ContinuationV s5ErrorP
++ _symbolic _____ySo29ICCloudAPNSChannelPushMessageC______p_G Scs8IteratorV s5ErrorP
++ _symbolic _____ySo29ICCloudAPNSChannelPushMessageC______p__G Scs12ContinuationV11YieldResultO s5ErrorP
++ _symbolic _____ySo29ICCloudAPNSChannelPushMessageC______p__G Scs12ContinuationV15BufferingPolicyO s5ErrorP
++ _symbolic _____y_____8response______10goLiveDatet_G ScS12ContinuationV 16MusicKitInternal0B20CatalogAlbumResponseV 10Foundation4DateV
++ _symbolic _____y_____8response______10goLiveDatet_G ScS8IteratorV 16MusicKitInternal0B20CatalogAlbumResponseV 10Foundation4DateV
++ _symbolic _____y_____8response______10goLiveDatet__G ScS12ContinuationV11YieldResultO 16MusicKitInternal0D20CatalogAlbumResponseV 10Foundation4DateV
++ _symbolic _____y_____8response______10goLiveDatet__G ScS12ContinuationV15BufferingPolicyO 16MusicKitInternal0D20CatalogAlbumResponseV 10Foundation4DateV
++ _symbolic _____y_____G 15Synchronization5MutexVAARi_zrlE 8MusicKit5AlbumV
++ _symbolic _____y_____G 15Synchronization5_CellVAARi_zrlE 8MusicKit5AlbumV
++ _symbolic _____y_____G 8MusicKit14CloudAttributeV AA0C7ConcertV0C12DataProviderV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16MusicKitInternal7ConcertV12DataProviderV10CodingKeys33_2E81CA12F6EE23D0738CACF29385E854LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8MusicKit5AlbumV0dE8InternalE4KindO10CodingKeys33_903DD07F625E05B0EC7567C034DDC2FCLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8MusicKit5AlbumV0dE8InternalE4KindO12EpCodingKeys33_903DD07F625E05B0EC7567C034DDC2FCLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8MusicKit5AlbumV0dE8InternalE4KindO16DeluxeCodingKeys33_903DD07F625E05B0EC7567C034DDC2FCLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8MusicKit5AlbumV0dE8InternalE4KindO16SingleCodingKeys33_903DD07F625E05B0EC7567C034DDC2FCLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8MusicKit5AlbumV0dE8InternalE4KindO18StandardCodingKeys33_903DD07F625E05B0EC7567C034DDC2FCLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8MusicKit5AlbumV0dE8InternalE4KindO21CompilationCodingKeys33_903DD07F625E05B0EC7567C034DDC2FCLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16MusicKitInternal7ConcertV12DataProviderV10CodingKeys33_2E81CA12F6EE23D0738CACF29385E854LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8MusicKit5AlbumV0dE8InternalE4KindO10CodingKeys33_903DD07F625E05B0EC7567C034DDC2FCLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8MusicKit5AlbumV0dE8InternalE4KindO12EpCodingKeys33_903DD07F625E05B0EC7567C034DDC2FCLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8MusicKit5AlbumV0dE8InternalE4KindO16DeluxeCodingKeys33_903DD07F625E05B0EC7567C034DDC2FCLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8MusicKit5AlbumV0dE8InternalE4KindO16SingleCodingKeys33_903DD07F625E05B0EC7567C034DDC2FCLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8MusicKit5AlbumV0dE8InternalE4KindO18StandardCodingKeys33_903DD07F625E05B0EC7567C034DDC2FCLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8MusicKit5AlbumV0dE8InternalE4KindO21CompilationCodingKeys33_903DD07F625E05B0EC7567C034DDC2FCLLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 16MusicKitInternal0D5AlertO14StandardActionV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 16MusicKitInternal7ConcertV12DataProviderV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 8MusicKit9JSONValueO
++ _symbolic _____y_____GSg 16MusicKitInternal0A20AutoupdatingResponseC AA0A19CatalogAlbumRequestV
++ _symbolic _____y_____GSg 8MusicKit14CloudAttributeV AA0C7ConcertV0C12DataProviderV
++ _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 8MusicKit14CloudAttributeV AC0F7ConcertV0F12DataProviderV
++ _symbolic _____y_____ypG s18_DictionaryStorageC s17CodingUserInfoKeyV
++ _symbolic _____z_Xx 16MusicKitInternal0A19CatalogAlbumRequestV
++ _symbolic yp
++ _symbolic yyYbScMYcc
++ _type_layout_string 16MusicKitInternal0A5AlertO12DownloadPinsV
++ _type_layout_string 16MusicKitInternal0A5AlertO14StandardActionV
++ _type_layout_string 16MusicKitInternal0A5AlertO15AccountRequiredV
++ _type_layout_string 16MusicKitInternal0A5AlertO15AgeVerificationV
++ _type_layout_string 16MusicKitInternal0A5AlertO15UnexpectedErrorV
++ _type_layout_string 16MusicKitInternal0A5AlertO16ActionIdentifierV
++ _type_layout_string 16MusicKitInternal0A5AlertO17RemoveFromLibraryV
++ _type_layout_string 16MusicKitInternal0A5AlertO18CellularRestrictedV
++ _type_layout_string 16MusicKitInternal0A5AlertO18ContentUnavailableV
++ _type_layout_string 16MusicKitInternal0A5AlertO18ExplicitRestrictedV
++ _type_layout_string 16MusicKitInternal0A5AlertO18MaximumPinsReachedV
++ _type_layout_string 16MusicKitInternal0A5AlertO18NetworkUnavailableV
++ _type_layout_string 16MusicKitInternal0A5AlertO18UserUploadRequiredV
++ _type_layout_string 16MusicKitInternal0A5AlertO20CloudLibraryDisabledV
++ _type_layout_string 16MusicKitInternal0A5AlertO20SubscriptionRequiredV
++ _type_layout_string 16MusicKitInternal0A5AlertO21SyncLibraryInProgressV
++ _type_layout_string 16MusicKitInternal0A5AlertO23PinnedArtistNotPlayableV
++ _type_layout_string 16MusicKitInternal0A5AlertO24DuplicateSongsInPlaylistV
++ _type_layout_string 16MusicKitInternal16JSONValueEncoderV05ValueE033_1DD4A5126D3CEE504E9C6FABC42266D7LLV
++ _type_layout_string 16MusicKitInternal16JSONValueEncoderV14IndexCodingKey33_1DD4A5126D3CEE504E9C6FABC42266D7LLV
+- -[MusicKit_SoftLinking_MPCModelStorePlaybackItemsRequest initWithStoreIDs:]
+- -[MusicKit_SoftLinking_MPCPlaybackIntent initWithStoreIDs:startIdentifierSet:]
+- GCC_except_table22
+- _ICCloudChannelRegistrationAvailabilityDidChangeNotification
+- _ICCloudChannelRegistrationAvailabilityKey
+- __DATA__TtC16MusicKitInternal32MusicCatalogAlbumDetailViewModel
+- __DATA__TtCC16MusicKitInternal32MusicCatalogAlbumDetailViewModel17PushUpdateService
+- __DATA__TtCC16MusicKitInternal32MusicCatalogAlbumDetailViewModel21PushUpdateInvalidator
+- __IVARS__TtC16MusicKitInternal32MusicCatalogAlbumDetailViewModel
+- __IVARS__TtCC16MusicKitInternal32MusicCatalogAlbumDetailViewModel17PushUpdateService
+- __IVARS__TtCC16MusicKitInternal32MusicCatalogAlbumDetailViewModel21PushUpdateInvalidator
+- __METACLASS_DATA__TtC16MusicKitInternal32MusicCatalogAlbumDetailViewModel
+- __METACLASS_DATA__TtCC16MusicKitInternal32MusicCatalogAlbumDetailViewModel17PushUpdateService
+- __METACLASS_DATA__TtCC16MusicKitInternal32MusicCatalogAlbumDetailViewModel21PushUpdateInvalidator
+- __swift_closure_destructor.92Tm
+- __swift_closure_destructor.941Tm
+- __swift_closure_destructor.99Tm
+- _associated conformance 16MusicKitInternal0A27CatalogAlbumDetailViewModelC11PushMessageVSHAASQ
+- _associated conformance 16MusicKitInternal0A27CatalogAlbumDetailViewModelC17RegistrationErrorOSHAASQ
+- _associated conformance 16MusicKitInternal0A27CatalogAlbumDetailViewModelC21PushUpdateInvalidatorC7Combine16ObservableObjectAA0N19WillChangePublisherAfGP_AF0Q0
+- _associated conformance 16MusicKitInternal0A27CatalogAlbumDetailViewModelC21PushUpdateInvalidatorCAA0a20AutoupdatableRequestK0AA0M4TypeAaFP_AA0alM0
+- _associated conformance 16MusicKitInternal7ConcertV6TicketV12DataProviderV10CodingKeys33_C41CF91D1E16BBCE89DEF11BBD0DC42CLLOSHAASQ
+- _associated conformance 16MusicKitInternal7ConcertV6TicketV12DataProviderV10CodingKeys33_C41CF91D1E16BBCE89DEF11BBD0DC42CLLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 16MusicKitInternal7ConcertV6TicketV12DataProviderV10CodingKeys33_C41CF91D1E16BBCE89DEF11BBD0DC42CLLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 16MusicKitInternal7ConcertV6TicketV12DataProviderVSHAASQ
+- _generic environment 8MusicKit0A15PlaylistAddableRzAA0A4ItemR_r0_l
+- _objc_msgSend$allLibraryAlbumsConfiguration
+- _objc_msgSend$identifierSetWithCatalogID:libraryID:cloudAlbumLibraryID:cloudID:reportingAdamID:purchasedAdamID:assetAdamID:deviceLocalID:occurrenceID:containedDeviceLocalID:syncID:playbackID:formerIDs:modelObjectType:source:
+- _objc_msgSend$initWithStoreIDs:
+- _objc_msgSend$initWithStoreIDs:startIdentifierSet:
+- _symbolic SDy_____ScTyyt_____GG 10Foundation4UUIDV s5NeverO
+- _symbolic Scsy___________pG 16MusicKitInternal0A27CatalogAlbumDetailViewModelC11PushMessageV s5ErrorP
+- _symbolic SdIegd_
+- _symbolic So13ICCloudClientC
+- _symbolic _____ 16MusicKitInternal0A27CatalogAlbumDetailViewModelC
+- _symbolic _____ 16MusicKitInternal0A27CatalogAlbumDetailViewModelC11PushMessageV
+- _symbolic _____ 16MusicKitInternal0A27CatalogAlbumDetailViewModelC17PushUpdateServiceC
+- _symbolic _____ 16MusicKitInternal0A27CatalogAlbumDetailViewModelC17RegistrationErrorO
+- _symbolic _____ 16MusicKitInternal0A27CatalogAlbumDetailViewModelC21PushUpdateInvalidatorC
+- _symbolic _____ 16MusicKitInternal7ConcertV6TicketV12DataProviderV
+- _symbolic _____ 16MusicKitInternal7ConcertV6TicketV12DataProviderV10CodingKeys33_C41CF91D1E16BBCE89DEF11BBD0DC42CLLO
+- _symbolic _____Iegr_ 8MusicKit5AlbumV
+- _symbolic _____Sg 16MusicKitInternal0A27CatalogAlbumDetailViewModelC11PushMessageV
+- _symbolic _____Sg 16MusicKitInternal7ConcertV6TicketV12DataProviderV
+- _symbolic _____SgXw 16MusicKitInternal0A27CatalogAlbumDetailViewModelC
+- _symbolic _____SgXw 16MusicKitInternal0A27CatalogAlbumDetailViewModelC17PushUpdateServiceC
+- _symbolic _____SgXw 16MusicKitInternal0A27CatalogAlbumDetailViewModelC21PushUpdateInvalidatorC
+- _symbolic _____SgXwz_Xx 16MusicKitInternal0A27CatalogAlbumDetailViewModelC
+- _symbolic _____SgXwz_Xx 16MusicKitInternal0A27CatalogAlbumDetailViewModelC17PushUpdateServiceC
+- _symbolic _____SgXwz_Xx 16MusicKitInternal0A27CatalogAlbumDetailViewModelC21PushUpdateInvalidatorC
+- _symbolic _____Sg_ABt 16MusicKitInternal0A27CatalogAlbumDetailViewModelC11PushMessageV
+- _symbolic _____Sg_ABt 16MusicKitInternal7ConcertV6TicketV12DataProviderV
+- _symbolic _____ySDy_____ScTyyt_____GGG 15Synchronization5MutexVAARi_zrlE 10Foundation4UUIDV s5NeverO
+- _symbolic _____y_____G 8MusicKit14CloudAttributeV AA0C7ConcertV0C6TicketV0C12DataProviderV
+- _symbolic _____y_____G s22KeyedDecodingContainerV 16MusicKitInternal7ConcertV6TicketV12DataProviderV10CodingKeys33_C41CF91D1E16BBCE89DEF11BBD0DC42CLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 16MusicKitInternal7ConcertV6TicketV12DataProviderV10CodingKeys33_C41CF91D1E16BBCE89DEF11BBD0DC42CLLO
+- _symbolic _____y_____GSg 8MusicKit14CloudAttributeV AA0C7ConcertV0C6TicketV0C12DataProviderV
+- _symbolic _____y_____ScTyyt_____GG s17_NativeDictionaryV 10Foundation4UUIDV s5NeverO
+- _symbolic _____y_____ScTyyt_____G_G SD8_VariantV 10Foundation4UUIDV s5NeverO
+- _symbolic _____y_____SgG 15Synchronization5MutexVAARi_zrlE 16MusicKitInternal0C27CatalogAlbumDetailViewModelC11PushMessageV
+- _symbolic _____y_____SgG 15Synchronization5MutexVAARi_zrlE 8MusicKit5AlbumV
+- _symbolic _____y_____SgG 15Synchronization5_CellVAARi_zrlE 16MusicKitInternal0C27CatalogAlbumDetailViewModelC11PushMessageV
+- _symbolic _____y_____SgG 15Synchronization5_CellVAARi_zrlE 8MusicKit5AlbumV
+- _symbolic _____y___________p_G Scs12ContinuationV 16MusicKitInternal0B27CatalogAlbumDetailViewModelC11PushMessageV s5ErrorP
+- _symbolic _____y___________p_G Scs8IteratorV 16MusicKitInternal0B27CatalogAlbumDetailViewModelC11PushMessageV s5ErrorP
+- _symbolic _____y___________p__G Scs12ContinuationV11YieldResultO 16MusicKitInternal0D27CatalogAlbumDetailViewModelC11PushMessageV s5ErrorP
+- _symbolic _____y___________p__G Scs12ContinuationV15BufferingPolicyO 16MusicKitInternal0D27CatalogAlbumDetailViewModelC11PushMessageV s5ErrorP
+- get_witness_table 8MusicKit0A15PlaylistAddableRzAA0A4ItemR_r0_lxAaBHD1_AaCHI1_
+CStrings:
++ " does not fit in an Int64."
++ " with preferred identifiers: .automatic(isLibraryAdded: "
++ "Account Required"
++ "Add Music to Listen"
++ "Adding music requires Sync Library to be on. Changes to your library will then sync on devices using this Apple\u00a0Account."
++ "Alert title when the single song being added is already in the playlist."
++ "All pinned music will automatically download to this device."
++ "Are you sure you want to delete this album from your library?"
++ "Are you sure you want to delete this album from your library? This will also remove songs from your favorites and from any playlists you made."
++ "Are you sure you want to delete this album from your library? This will also remove songs from your favorites."
++ "Are you sure you want to delete this album from your library? This will also remove these songs from any playlists you made."
++ "Are you sure you want to delete this episode from your library?"
++ "Are you sure you want to delete this from your library?"
++ "Are you sure you want to delete this movie from your library?"
++ "Are you sure you want to delete this music video from your library?"
++ "Are you sure you want to delete this music video from your library? This will also remove it from any playlists you made."
++ "Are you sure you want to delete this music video from your library? This will also remove it from your favorites and from any playlists you made."
++ "Are you sure you want to delete this music video from your library? This will also remove it from your favorites."
++ "Are you sure you want to delete this playlist from your library?"
++ "Are you sure you want to delete this season from your library?"
++ "Are you sure you want to delete this song from your library?"
++ "Are you sure you want to delete this song from your library? This will also remove it from any playlists you made."
++ "Are you sure you want to delete this song from your library? This will also remove it from your favorites and from any playlists you made."
++ "Are you sure you want to delete this song from your library? This will also remove it from your favorites."
++ "Array<DataProvider>"
++ "Attempted to access plainEditorialCards for a personal recommendation item of unexpected kind: "
++ "Button that adds the songs again, including duplicates."
++ "Button that allows a less restrictive content rating."
++ "Button that deletes a collaborative playlist."
++ "Button that deletes an item from the library."
++ "Button that dismisses an alert without taking action."
++ "Button that dismisses an alert."
++ "Button that opens the Settings app."
++ "Button that removes an item's download."
++ "Button that removes only the download of a library item, keeping it in the library."
++ "Button that retries a failed operation."
++ "Button that skips duplicate songs when adding to a playlist."
++ "Button that turns on Sync Library."
++ "Button that turns on a setting."
++ "Connect to WLAN or Cellular to Play Music"
++ "Connect to WLAN or Cellular to Play Radio"
++ "Connect to WLAN to Play Music"
++ "Connect to WLAN to Play Radio"
++ "Connect to WLAN to Play Videos"
++ "Connect to Wi-Fi or Cellular to Play Music"
++ "Connect to Wi-Fi or Cellular to Play Radio"
++ "Connect to Wi-Fi to Play Music"
++ "Connect to Wi-Fi to Play Radio"
++ "Connect to Wi-Fi to Play Videos"
++ "Connect to the Internet to play it, and follow the steps when asked to verify your age."
++ "Delete Playlist from Library?"
++ "Delete from Library"
++ "Deleting this playlist will remove it from all of your devices and will stop collaboration."
++ "Do you want to remove this album from your downloads or delete it from your library?"
++ "Do you want to remove this album from your downloads or delete it from your library? Deleting will also remove songs from your favorites and from any playlists you made."
++ "Do you want to remove this album from your downloads or delete it from your library? Deleting will also remove songs from your favorites."
++ "Do you want to remove this album from your downloads or delete it from your library? Deleting will also remove these songs from any playlists you made."
++ "Do you want to remove this album from your downloads?"
++ "Do you want to remove this episode from your downloads or delete it from your library?"
++ "Do you want to remove this episode from your downloads?"
++ "Do you want to remove this from your downloads or delete it from your library?"
++ "Do you want to remove this from your downloads?"
++ "Do you want to remove this movie from your downloads or delete it from your library?"
++ "Do you want to remove this movie from your downloads?"
++ "Do you want to remove this playlist from your downloads or delete it from your library?"
++ "Do you want to remove this playlist from your downloads or delete it from your library? Deleting it will stop collaboration."
++ "Do you want to remove this playlist from your downloads or delete it from your library? If you delete it, you’ll be unable to collaborate on this playlist and your name and photo will no longer appear."
++ "Do you want to remove this playlist from your downloads?"
++ "Do you want to remove this season from your downloads or delete it from your library?"
++ "Do you want to remove this season from your downloads?"
++ "Do you want to remove this song from your downloads or delete it from your library?"
++ "Do you want to remove this song from your downloads or delete it from your library? Deleting will also remove it from any playlists you made."
++ "Do you want to remove this song from your downloads or delete it from your library? Deleting will also remove it from your favorites and from any playlists you made."
++ "Do you want to remove this song from your downloads or delete it from your library? Deleting will also remove it from your favorites."
++ "Do you want to remove this song from your downloads?"
++ "Do you want to remove this video from your downloads or delete it from your library?"
++ "Do you want to remove this video from your downloads or delete it from your library? Deleting will also remove it from any playlists you made."
++ "Do you want to remove this video from your downloads or delete it from your library? Deleting will also remove it from your favorites and from any playlists you made."
++ "Do you want to remove this video from your downloads or delete it from your library? Deleting will also remove it from your favorites."
++ "Do you want to remove this video from your downloads?"
++ "Holding album %{public}s for %{public}f seconds, until %{public}s."
++ "Initial requests failed, not observing updates: %{public}@."
++ "LibraryAction"
++ "Lyrics: %{public}s could not find a song for online catalog lyrics."
++ "Lyrics: %{public}s could not find song for online catalog lyrics."
++ "Lyrics: %{public}s could not get online catalog lyrics (using the \"best catalog id for catalog lyrics\": %{public}@."
++ "Lyrics: %{public}s could not get song using the \"best catalog id for catalog lyrics\": %{public}@."
++ "Lyrics: %{public}s did not get a catalog song."
++ "Lyrics: %{public}s did not get lyrics from the catalog, despite DAAP `hasLyrics=YES`."
++ "Lyrics: %{public}s did not get lyrics from the catalog, despite DAAP `hasLyrics=YES`. Error: %{public}@"
++ "Lyrics: %{public}s does not have a \"best catalog id for catalog lyrics\" to use."
++ "Lyrics: %{public}s got a catalog song."
++ "Lyrics: Getting catalog lyrics for %{public}s using %{public}s."
++ "Maximum Pins Reached"
++ "Message asking whether to remove a downloaded TV episode's download or delete it from the library."
++ "Message asking whether to remove a downloaded TV episode's download."
++ "Message asking whether to remove a downloaded TV season's download or delete it from the library."
++ "Message asking whether to remove a downloaded TV season's download."
++ "Message asking whether to remove a downloaded album's download or delete it from the library."
++ "Message asking whether to remove a downloaded album's download or delete it, also removing songs from favorites and playlists."
++ "Message asking whether to remove a downloaded album's download or delete it, also removing songs from favorites."
++ "Message asking whether to remove a downloaded album's download or delete it, also removing songs from playlists."
++ "Message asking whether to remove a downloaded album's download."
++ "Message asking whether to remove a downloaded item's download or delete it from the library."
++ "Message asking whether to remove a downloaded item's download."
++ "Message asking whether to remove a downloaded movie's download or delete it from the library."
++ "Message asking whether to remove a downloaded movie's download."
++ "Message asking whether to remove a downloaded music video's download or delete it from the library."
++ "Message asking whether to remove a downloaded music video's download or delete it, also removing it from favorites and playlists."
++ "Message asking whether to remove a downloaded music video's download or delete it, also removing it from favorites."
++ "Message asking whether to remove a downloaded music video's download or delete it, also removing it from playlists."
++ "Message asking whether to remove a downloaded music video's download."
++ "Message asking whether to remove a downloaded playlist's download or delete it from the library."
++ "Message asking whether to remove a downloaded playlist's download or delete it, for a playlist the user hosts a collaboration on."
++ "Message asking whether to remove a downloaded playlist's download or delete it, for a playlist the user joined as a collaborator."
++ "Message asking whether to remove a downloaded playlist's download."
++ "Message asking whether to remove a downloaded song's download or delete it from the library."
++ "Message asking whether to remove a downloaded song's download or delete it, also removing it from favorites and playlists."
++ "Message asking whether to remove a downloaded song's download or delete it, also removing it from favorites."
++ "Message asking whether to remove a downloaded song's download or delete it, also removing it from playlists."
++ "Message asking whether to remove a downloaded song's download."
++ "Message confirming album deletion from the library."
++ "Message confirming album deletion that also removes songs from favorites and playlists."
++ "Message confirming album deletion that also removes songs from favorites."
++ "Message confirming album deletion that also removes songs from playlists."
++ "Message confirming deletion of a TV episode from the library."
++ "Message confirming deletion of a TV season from the library."
++ "Message confirming deletion of a movie from the library."
++ "Message confirming deletion of a playlist from the library."
++ "Message confirming deletion of a playlist the user hosts a collaboration on."
++ "Message confirming deletion of a playlist the user joined as a collaborator."
++ "Message confirming deletion of an item from the library."
++ "Message confirming music video deletion from the library."
++ "Message confirming music video deletion that also removes it from favorites and playlists."
++ "Message confirming music video deletion that also removes it from favorites."
++ "Message confirming music video deletion that also removes it from playlists."
++ "Message confirming song deletion from the library."
++ "Message confirming song deletion that also removes it from favorites and playlists."
++ "Message confirming song deletion that also removes it from favorites."
++ "Message confirming song deletion that also removes it from playlists."
++ "Message of the Sync Library prompt shown when adding music to a playlist."
++ "Message of the Sync Library prompt shown when adding music to the library."
++ "Message of the Sync Library prompt shown when enabling playlist collaboration."
++ "Message of the Sync Library prompt shown when favoriting music."
++ "Message of the Sync Library prompt shown when pinning music."
++ "Message of the Sync Library prompt shown when sharing a playlist."
++ "Message of the alert shown when an Apple Account is required to play content."
++ "Message of the alert shown when an Apple Music subscription is required to play content."
++ "Message of the alert shown when an uploaded library item requires Sync Library to play."
++ "Message of the alert shown when content is unavailable in the user's country or region."
++ "Message of the alert shown when content requires age verification to play."
++ "Message of the alert shown when explicit content is restricted and no remediation is available."
++ "Message of the alert shown when explicit content is restricted and the setting can be changed directly."
++ "Message of the alert shown when explicit content is restricted and the user must change the setting in Settings."
++ "Message of the alert shown when the user cannot add music because Sync Library is still importing."
++ "Message of the alert that prompts the user to turn on automatic downloads for pinned items."
++ "Message shown when a pinned artist has no music in the user's library to play."
++ "Message shown when cellular downloading of music is restricted, on devices that use WLAN terminology."
++ "Message shown when cellular downloading of music is restricted."
++ "Message shown when cellular streaming of music is restricted, on devices that use WLAN terminology."
++ "Message shown when cellular streaming of music is restricted."
++ "Message shown when cellular streaming of radio is restricted, on devices that use WLAN terminology."
++ "Message shown when cellular streaming of radio is restricted."
++ "Message shown when cellular streaming of video is restricted, on devices that use WLAN terminology."
++ "Message shown when cellular streaming of video is restricted."
++ "MusicLibraryManager does not implement addToPlaylistBehavior; returning undecided."
++ "MusicLibraryManager does not implement favoriteSongAddToLibraryBehavior; returning undecided."
++ "MusicLibraryManager does not implement setAddToPlaylistBehavior:completion:."
++ "MusicLibraryManager does not implement setFavoriteSongAddToLibraryBehavior:completion:."
++ "On your Mac or PC, go to Apple\u00a0Music and in Settings, select Sync Library."
++ "Once Sync Library is complete, you can add music to your library."
++ "Only Remove Download"
++ "Pinning music requires Sync Library to be on. Changes to your library will then sync on devices using this Apple\u00a0Account."
++ "Playlist collaboration requires Sync Library to be on. Changes will then sync on devices using this Apple\u00a0Account."
++ "Publish of %{public}s was cancelled before its publish date."
++ "Push registration failed: %{public}@."
++ "Received push for non-album type: %s; ignoring push."
++ "Received push with invalid catalogID: %s; ignoring push."
++ "Received push with no goLiveDate; ignoring push."
++ "Restricted Content"
++ "Something went wrong. Please try again later."
++ "Something went wrong. Please try again."
++ "Subscription Required"
++ "Sync Library in Progress"
++ "This content has an age restriction."
++ "This content is restricted on this device, do you want to allow a less restrictive rating now?"
++ "This content is restricted on this device."
++ "This content is restricted on this device. To change your Content Restrictions, go to Settings and allow explicit content."
++ "This device is restricted from playing content that requires an Apple\u00a0Music subscription."
++ "This device is restricted from playing content that requires an iCloud account."
++ "This item is not currently available in your country or region."
++ "This item is not synced across your devices."
++ "This song is already in your playlist."
++ "Title confirming deletion of a collaborative playlist from the library."
++ "Title of the Sync Library prompt shown when adding music."
++ "Title of the Sync Library prompt shown when enabling playlist collaboration."
++ "Title of the Sync Library prompt shown when favoriting music."
++ "Title of the Sync Library prompt shown when pinning music."
++ "Title of the Sync Library prompt shown when sharing a playlist."
++ "Title of the alert shown when a pinned artist has no music in the user's library to play."
++ "Title of the alert shown when an Apple Account is required to play content."
++ "Title of the alert shown when an Apple Music subscription is required to play content."
++ "Title of the alert shown when an operation fails and can be retried."
++ "Title of the alert shown when an operation fails and cannot be retried now."
++ "Title of the alert shown when an uploaded library item requires Sync Library to play."
++ "Title of the alert shown when cellular downloading of music is restricted."
++ "Title of the alert shown when cellular streaming of music is restricted."
++ "Title of the alert shown when cellular streaming of radio is restricted, on devices that use WLAN terminology."
++ "Title of the alert shown when cellular streaming of radio is restricted."
++ "Title of the alert shown when cellular streaming of video is restricted, on devices that use WLAN terminology."
++ "Title of the alert shown when cellular streaming of video is restricted."
++ "Title of the alert shown when content requires age verification to play."
++ "Title of the alert shown when explicit content is restricted."
++ "Title of the alert shown when the user cannot add music because Sync Library is still importing."
++ "Title of the alert shown when the user has reached the maximum number of pins."
++ "Title of the alert that prompts the user to turn on automatic downloads for pinned items."
++ "Title shown when music cannot be reached, on cellular devices that use WLAN terminology."
++ "Title shown when music cannot be reached, on cellular devices."
++ "Title shown when music cannot be reached, on non-cellular devices that use WLAN terminology."
++ "Title shown when music cannot be reached, on non-cellular devices."
++ "Title shown when radio cannot be reached, on cellular devices that use WLAN terminology."
++ "Title shown when radio cannot be reached, on cellular devices."
++ "Title shown when radio cannot be reached, on non-cellular devices that use WLAN terminology."
++ "Title shown when radio cannot be reached, on non-cellular devices."
++ "To add to this playlist, Sync Library needs to be turned on. Changes will then sync on devices using this Apple\u00a0Account."
++ "To download music when you aren’t connected to WLAN, turn on Cellular Data for downloads. You can change this anytime in Settings > Music."
++ "To download music when you aren’t connected to Wi-Fi, turn on Cellular Data for downloads. You can change this anytime in Settings > Music."
++ "To favorite music, Sync Library needs to be turned on. Changes to your library will then sync on devices using this Apple\u00a0Account."
++ "To play Radio when you aren’t connected to WLAN, turn on cellular playback in Music in the Settings app."
++ "To play Radio when you aren’t connected to Wi-Fi, turn on cellular playback in Music in the Settings app."
++ "To share playlists, Sync Library needs to be turned on. Changes to your library will then sync on devices using this Apple\u00a0Account."
++ "To stream music when you aren’t connected to WLAN, turn on Cellular Data for streaming. You can change this anytime in Settings > Music."
++ "To stream music when you aren’t connected to Wi-Fi, turn on Cellular Data for streaming. You can change this anytime in Settings > Music."
++ "To stream videos when you aren’t connected to WLAN, turn on Cellular Data for streaming. You can change this anytime in Settings > TV."
++ "To stream videos when you aren’t connected to Wi-Fi, turn on Cellular Data for streaming. You can change this anytime in Settings > TV."
++ "To use this pin to listen, you’ll need to add this artist’s music to your library."
++ "Turn On Sync Library"
++ "Turn on Download Pins?"
++ "Turn on Sync Library to Add Music"
++ "Turn on Sync Library to Collaborate"
++ "Turn on Sync Library to Favorite Music"
++ "Turn on Sync Library to Pin Music"
++ "Turn on Sync Library to Share Playlists"
++ "Unexpected CloudController Favorite Song Add to Library Behavior returned"
++ "Unknown Album.Kind returned"
++ "Use cellular data for downloads?"
++ "Use cellular data for streaming?"
++ "You’ll be unable to collaborate on this playlist and your name and photo will no longer appear."
++ "[%{public}s] Completed create playlist request."
++ "[%{public}s] Creating playlist named %{private}s."
++ "[Album ID: %{public}s] A push already updated the album. Skipping the one-off fetch fallback."
++ "[Album ID: %{public}s] Album has no channel ID. Skipping registering for updates."
++ "[Album ID: %{public}s] Album has no expected available date. Relying on push updates alone."
++ "[Album ID: %{public}s] Album has no push notification channel. Not observing updates."
++ "[Album ID: %{public}s] Albums 2.0 feature flag is disabled. Unable to observe updates."
++ "[Album ID: %{public}s] Channel subscriptions are disabled by the bag. Not fetching within the window."
++ "[Album ID: %{public}s] Channel was resubscribed."
++ "[Album ID: %{public}s] Initial request returned no album. Not observing updates."
++ "[Album ID: %{public}s] Iteration ended. Unregistering for updates."
++ "[Album ID: %{public}s] One-off fetch fallback failed: %{public}@."
++ "[Album ID: %{public}s] One-off fetch fallback was cancelled before its fetch date."
++ "[Album ID: %{public}s] Received a push update with no message. Ignoring push."
++ "[Album ID: %{public}s] Received cancellation push: %{public}s."
++ "[Album ID: %{public}s] Received push for catalogID %{public}s, availableAtDate=%{public}s."
++ "[Album ID: %{public}s] Received unexpected update type: %{public}s."
++ "[Album ID: %{public}s] Received unsubscribed push, ending push notification stream."
++ "[Album ID: %{public}s] Registering for updates on channel %{public}s, storeID %{public}lld, expectedRelease %{public}s."
++ "[Album ID: %{public}s] Registration failed: %{public}@."
++ "[Album ID: %{public}s] Waiting %{public}fs before fetching within the window."
++ "album request "
++ "cellular-data"
++ "com.apple.NanoMusic"
++ "com.apple.TVMusic"
++ "duplicateSongsAlreadyInPlaylist"
++ "enableSyncLibrary"
++ "eventDataProviders"
++ "hasSeenDownloadPinsAlert"
++ "maximumPinsReachedMessage"
++ "music-channel-subscriptions.fetch-end-offset-seconds"
++ "pushNotificationChannelId"
++ "removeFromLibrary"
++ "wapi"
+- ". IncludeDeviceLocalID should be set to `false`."
+- "Catch-all registration failed: %{public}@."
+- "Cloud registration channel is not available. Continuing to wait."
+- "Cloud registration channel is now available. Resuming registration."
+- "Lyrics: %{public}s could not find an equivalent song for fallback online catalog lyrics."
+- "Lyrics: %{public}s could not find an equivalent song for online catalog lyrics."
+- "Lyrics: %{public}s could not get equivalent song using the \"best catalog id for catalog lyrics\": %{public}@."
+- "Lyrics: %{public}s could not get fallback online catalog lyrics (using equivalency using the \"best catalog id for catalog lyrics\": %{public}@."
+- "Lyrics: %{public}s could not get online catalog lyrics: %{public}@."
+- "Lyrics: %{public}s did not get lyrics from the catalog, despite DAAP `hasLyrics=YES`. Trying equivalency approach. Error: %{public}@"
+- "Lyrics: %{public}s did not get lyrics from the catalog, despite DAAP `hasLyrics=YES`. Trying equivalency approach..."
+- "Lyrics: %{public}s does not have a \"best catalog id for catalog lyrics\" to use as an equivalent resource."
+- "Lyrics: %{public}s does not have online catalog lyrics."
+- "Lyrics: %{public}s got online catalog lyrics."
+- "No availableAtDate provided, omitting from request."
+- "Publishing album: %{public}s at %{public}s with availableAtDate of: %{public}s."
+- "Publishing album: %{public}s at %{public}s with availableAtDate of: %{public}s. Sleeping for %f seconds."
+- "Received a push update with no message. Ignoring push."
+- "Received a push update with update %{public}s."
+- "Received cancellation push: %{public}s, re-registering."
+- "Received channel subscription change: %{public}s."
+- "Received push for catalogID %{public}s, availableAtDate=%{public}s."
+- "Received unexpected update type: %{public}s."
+- "Unknown registration error received. Registration failed."
+```

@@ -1,0 +1,337 @@
+## SiriPhoneFlowTools
+
+> `/System/Library/FlowTools/Tools/SiriPhoneFlowTools.flowtool/Contents/MacOS/SiriPhoneFlowTools`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__swift5_mpenum`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA.__objc_data`
+
+```diff
+
+-3600.38.22.14.1
+-  __TEXT.__text: 0xa0080
+-  __TEXT.__auth_stubs: 0x2520
+-  __TEXT.__objc_stubs: 0x11a0
++3605.18.1.4.1
++  __TEXT.__text: 0xa1b90
++  __TEXT.__auth_stubs: 0x2530
++  __TEXT.__objc_stubs: 0x1200
+   __TEXT.__objc_methlist: 0x154
+-  __TEXT.__const: 0x8768
+-  __TEXT.__cstring: 0x1c95
+-  __TEXT.__swift5_typeref: 0x2410
+-  __TEXT.__oslogstring: 0x4f6e
+-  __TEXT.__swift5_capture: 0xef0
+-  __TEXT.__constg_swiftt: 0x1c78
+-  __TEXT.__swift5_fieldmd: 0x1cd0
+-  __TEXT.__swift5_reflstr: 0x1dcb
++  __TEXT.__const: 0x8848
++  __TEXT.__cstring: 0x1df2
++  __TEXT.__swift5_typeref: 0x244c
++  __TEXT.__oslogstring: 0x508e
++  __TEXT.__swift5_capture: 0xfa0
++  __TEXT.__constg_swiftt: 0x1ce0
++  __TEXT.__swift5_fieldmd: 0x1d20
++  __TEXT.__swift5_reflstr: 0x1e4b
+   __TEXT.__swift5_builtin: 0x78
+   __TEXT.__swift5_assocty: 0x848
+-  __TEXT.__swift5_proto: 0x5d0
+-  __TEXT.__swift5_types: 0x25c
+-  __TEXT.__objc_classname: 0x7e2
+-  __TEXT.__objc_methname: 0x1087
+-  __TEXT.__objc_methtype: 0x15f
++  __TEXT.__swift5_proto: 0x5d8
++  __TEXT.__swift5_types: 0x264
++  __TEXT.__objc_classname: 0x842
++  __TEXT.__objc_methname: 0x10a7
++  __TEXT.__objc_methtype: 0x159
+   __TEXT.__swift5_protos: 0x6c
+   __TEXT.__swift_as_entry: 0x2b8
+   __TEXT.__swift_as_ret: 0x304
+   __TEXT.__swift_as_cont: 0x3cc
+   __TEXT.__swift5_mpenum: 0x68
+-  __TEXT.__unwind_info: 0x3b00
+-  __TEXT.__eh_frame: 0x5630
+-  __DATA_CONST.__const: 0x6c88
++  __TEXT.__unwind_info: 0x3bd0
++  __TEXT.__eh_frame: 0x5690
++  __DATA_CONST.__const: 0x6790
+   __DATA_CONST.__cfstring: 0xc0
+-  __DATA_CONST.__objc_classlist: 0xe8
++  __DATA_CONST.__objc_classlist: 0xf0
+   __DATA_CONST.__objc_protolist: 0x50
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x28
+-  __DATA_CONST.__auth_got: 0x1298
+-  __DATA_CONST.__got: 0xa40
+-  __DATA_CONST.__auth_ptr: 0xbd0
+-  __DATA.__objc_const: 0x1a78
+-  __DATA.__objc_selrefs: 0x518
++  __DATA_CONST.__auth_got: 0x12a0
++  __DATA_CONST.__got: 0xa38
++  __DATA_CONST.__auth_ptr: 0xbe0
++  __DATA.__objc_const: 0x1b08
++  __DATA.__objc_selrefs: 0x530
+   __DATA.__objc_data: 0x48
+-  __DATA.__data: 0x3730
++  __DATA.__data: 0x3800
+   __DATA.__common: 0x330
+   - /System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
+   - /System/Library/Frameworks/Contacts.framework/Versions/A/Contacts
+
+   - /System/Library/Frameworks/Intents.framework/Versions/A/Intents
+   - /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/AssistantServices
+   - /System/Library/PrivateFrameworks/CallHistory.framework/Versions/A/CallHistory
++  - /System/Library/PrivateFrameworks/DeviceSelectionEmergencyFlow.framework/Versions/A/DeviceSelectionEmergencyFlow
+   - /System/Library/PrivateFrameworks/DialogEngine.framework/Versions/A/DialogEngine
+   - /System/Library/PrivateFrameworks/FTServices.framework/Versions/A/FTServices
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/Versions/A/FeatureFlags
+
+   - /System/Library/PrivateFrameworks/Rapport.framework/Versions/A/Rapport
+   - /System/Library/PrivateFrameworks/SAObjects.framework/Versions/A/SAObjects
+   - /System/Library/PrivateFrameworks/SiriAnalytics.framework/Versions/A/SiriAnalytics
++  - /System/Library/PrivateFrameworks/SiriDeviceSelection.framework/Versions/A/SiriDeviceSelection
+   - /System/Library/PrivateFrameworks/SiriDialogEngine.framework/Versions/A/SiriDialogEngine
+   - /System/Library/PrivateFrameworks/SiriFlowEnvironment.framework/Versions/A/SiriFlowEnvironment
+   - /System/Library/PrivateFrameworks/SiriInstrumentation.framework/Versions/A/SiriInstrumentation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 5276
+-  Symbols:   11280
+-  CStrings:  773
++  Functions: 5325
++  Symbols:   11342
++  CStrings:  787
+ 
+Symbols:
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/SiriPhone/install/Symbols/BuiltProducts/libSiriPhoneFlowToolsImplementation.a(GeneratedStringSymbols_SiriPhone.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/SiriPhone/install/Symbols/BuiltProducts/libSiriPhoneFlowToolsImplementation.a(SPHCallCenter-8fd95ba75e7dcb759344c3b4d44ad952.o)
++ GeneratedStringSymbols_SiriPhone.swift
++ _$s10Foundation23LocalizedStringResourceV18SiriPhoneFlowToolsE0eF0O20noCompanionAvailableACvgZ
++ _$s10Foundation23LocalizedStringResourceV18SiriPhoneFlowToolsE0eF0O20noCompanionAvailableACvpZMV
++ _$s10Foundation23LocalizedStringResourceV18SiriPhoneFlowToolsE0eF0O21callEmergencyServicesACvgZ
++ _$s10Foundation23LocalizedStringResourceV18SiriPhoneFlowToolsE0eF0O21callEmergencyServicesACvpZMV
++ _$s10Foundation23LocalizedStringResourceV18SiriPhoneFlowToolsE0eF0O39emergencyCallOnNearbyDeviceConfirmationACvgZ
++ _$s10Foundation23LocalizedStringResourceV18SiriPhoneFlowToolsE0eF0O39emergencyCallOnNearbyDeviceConfirmationACvpZMV
++ _$s10Foundation23LocalizedStringResourceV18SiriPhoneFlowToolsE0eF0O4callACvgZ
++ _$s10Foundation23LocalizedStringResourceV18SiriPhoneFlowToolsE0eF0O4callACvgZTm
++ _$s10Foundation23LocalizedStringResourceV18SiriPhoneFlowToolsE0eF0O4callACvpZMV
++ _$s10Foundation23LocalizedStringResourceV18SiriPhoneFlowToolsE0eF0O50downtimeFacetimeDropRestrictedContactsConfirmation15restrictedNames07allowedP0ACSS_SStFZ
++ _$s10Foundation23LocalizedStringResourceV18SiriPhoneFlowToolsE0eF0O50downtimeFacetimeDropRestrictedContactsConfirmation15restrictedNames07allowedP0ACSS_SStFZTm
++ _$s10Foundation23LocalizedStringResourceV18SiriPhoneFlowToolsE0eF0O51downtimeTelephonyDropRestrictedContactsConfirmation15restrictedNames07allowedP0ACSS_SStFZ
++ _$s10Foundation23LocalizedStringResourceV18SiriPhoneFlowToolsE0eF0O6cancelACvgZ
++ _$s10Foundation23LocalizedStringResourceV18SiriPhoneFlowToolsE0eF0O6cancelACvpZMV
++ _$s10Foundation23LocalizedStringResourceV18SiriPhoneFlowToolsE0eF0OMF
++ _$s10Foundation23LocalizedStringResourceV18SiriPhoneFlowToolsE0eF0OMa
++ _$s10Foundation23LocalizedStringResourceV18SiriPhoneFlowToolsE0eF0OMf
++ _$s10Foundation23LocalizedStringResourceV18SiriPhoneFlowToolsE0eF0OMn
++ _$s10Foundation23LocalizedStringResourceV18SiriPhoneFlowToolsE0eF0ON
++ _$s10Foundation23LocalizedStringResourceV18SiriPhoneFlowToolsE0eF11UnsupportedO08noNearbyF16ForEmergencyCallACvgZ
++ _$s10Foundation23LocalizedStringResourceV18SiriPhoneFlowToolsE0eF11UnsupportedO08noNearbyF16ForEmergencyCallACvpZMV
++ _$s10Foundation23LocalizedStringResourceV18SiriPhoneFlowToolsE0eF11UnsupportedO23facetimeAppNotInstalledACvgZ
++ _$s10Foundation23LocalizedStringResourceV18SiriPhoneFlowToolsE0eF11UnsupportedO23facetimeAppNotInstalledACvpZMV
++ _$s10Foundation25NSFastEnumerationIteratorVACStAAWl
++ _$s13FlowToolTypes0B7StoringPAAE5tools12implementing4fromSay0B3Kit0B10DefinitionVGAG06SystemB8ProtocolO10IdentifierO_AA14ContainerQueryVtKF
++ _$s13FlowToolTypes0aB19EnvironmentRegistryO09SiriPhoneA5ToolsE15appNameProviderAD03AppjK3KeyOmvpACTK
++ _$s13FlowToolTypes0aB5ErrorV0D6SourceO7defaultyA2EmFWC
++ _$s18SiriPhoneFlowTools010AnswerCallC4ToolC22getAppIntentDefinition33_57CEEF18C54499160787C85ADCCDEA97LL7context0G3Kit0gK0V0cG5Types0cG17InvocationContextV_tYaKF
++ _$s18SiriPhoneFlowTools010AnswerCallC4ToolC22getAppIntentDefinition33_57CEEF18C54499160787C85ADCCDEA97LL7context0G3Kit0gK0V0cG5Types0cG17InvocationContextV_tYaKFTY0_
++ _$s18SiriPhoneFlowTools010AnswerCallC4ToolC22getAppIntentDefinition33_57CEEF18C54499160787C85ADCCDEA97LL7context0G3Kit0gK0V0cG5Types0cG17InvocationContextV_tYaKFTu
++ _$s18SiriPhoneFlowTools09StartCallC4ToolC22getAppIntentDefinition33_66FD13091599816BEFB786EE25E77592LL7context0G3Kit0gK0VSg0cG5Types0cG17InvocationContextV_tYaKFSSycfu0_Tf2i_n
++ _$s18SiriPhoneFlowTools09StartCallC4ToolC22getAppIntentDefinition33_66FD13091599816BEFB786EE25E77592LL7context0G3Kit0gK0VSg0cG5Types0cG17InvocationContextV_tYaKFSSycfu0_Tf2i_nTA
++ _$s18SiriPhoneFlowTools09StartCallC4ToolC22getAppIntentDefinition33_66FD13091599816BEFB786EE25E77592LL7context0G3Kit0gK0VSg0cG5Types0cG17InvocationContextV_tYaKFSSycfu2_
++ _$s18SiriPhoneFlowTools09StartCallC4ToolC22getAppIntentDefinition33_66FD13091599816BEFB786EE25E77592LL7context0G3Kit0gK0VSg0cG5Types0cG17InvocationContextV_tYaKFSSycfu2_TA
++ _$s18SiriPhoneFlowTools09StartCallC4ToolC22getAppIntentDefinition33_66FD13091599816BEFB786EE25E77592LL7context0G3Kit0gK0VSg0cG5Types0cG17InvocationContextV_tYaKFSSycfu3_TA
++ _$s18SiriPhoneFlowTools09StartCallC4ToolC22getAppIntentDefinition33_66FD13091599816BEFB786EE25E77592LL7context0G3Kit0gK0VSg0cG5Types0cG17InvocationContextV_tYaKFSSycfu_TA
++ _$s18SiriPhoneFlowTools09StartCallC4ToolC22getAppIntentDefinition33_66FD13091599816BEFB786EE25E77592LL7context0G3Kit0gK0VSg0cG5Types0cG17InvocationContextV_tYaKFSiycfu1_TA
++ _$s18SiriPhoneFlowTools09StartCallC4ToolC7execute7context8callback0cG5Types0cG6ResultVAG0cG17InvocationContextV_AG0cG16ExecutorCallback_ptYaKFAIyYaKXEfU_SSycfu17_Tm
++ _$s18SiriPhoneFlowTools09StartCallC4ToolC7execute7context8callback0cG5Types0cG6ResultVAG0cG17InvocationContextV_AG0cG16ExecutorCallback_ptYaKFAIyYaKXEfU_SSycfu27_TATm
++ _$s18SiriPhoneFlowTools09StartCallC4ToolC7execute7context8callback0cG5Types0cG6ResultVAG0cG17InvocationContextV_AG0cG16ExecutorCallback_ptYaKFAIyYaKXEfU_s5Error_pycfu28_TA
++ _$s18SiriPhoneFlowTools0A8KitUtilsO09constructaE10Invocation04siriE4Data06directH10Identifier16executionContext0C9ToolTypes0ae6IntentH0VSDySSypG_SSAH0cohN0VtKFZfA_
++ _$s18SiriPhoneFlowTools0B9ConstantsO27DirectInvocationIdentifiersO010fallbackToa21XForMyriadOrEmergencyfG0SSvau
++ _$s18SiriPhoneFlowTools0B9ConstantsO27DirectInvocationIdentifiersO010fallbackToa21XForMyriadOrEmergencyfG0SSvgZ
++ _$s18SiriPhoneFlowTools0B9ConstantsO27DirectInvocationIdentifiersO010fallbackToa21XForMyriadOrEmergencyfG0SSvpZ
++ _$s18SiriPhoneFlowTools0B9ConstantsO27DirectInvocationIdentifiersO010fallbackToa21XForMyriadOrEmergencyfG0SSvpZMV
++ _$s18SiriPhoneFlowTools0B9ConstantsO9BundleIDsO09telephonyfG03forSaySSG0C9ToolTypes0cJ17InvocationContextV11DeviceIdiomO_tFZ
++ _$s18SiriPhoneFlowTools0B9ConstantsO9BundleIDsO09telephonyfG03forSaySSG0C9ToolTypes0cJ17InvocationContextV11DeviceIdiomO_tFZTv_r
++ _$s18SiriPhoneFlowTools0B9ConstantsO9BundleIDsO2eeoiySbAE_AEtFZ
++ _$s18SiriPhoneFlowTools0B9ConstantsO9BundleIDsO4hash4intoys6HasherVz_tF
++ _$s18SiriPhoneFlowTools0B9ConstantsO9BundleIDsO9hashValueSivg
++ _$s18SiriPhoneFlowTools0B9ConstantsO9BundleIDsO9hashValueSivpMV
++ _$s18SiriPhoneFlowTools0B9ConstantsO9BundleIDsOAESQAAWL
++ _$s18SiriPhoneFlowTools0B9ConstantsO9BundleIDsOAESQAAWl
++ _$s18SiriPhoneFlowTools0B9ConstantsO9BundleIDsOSHAAMc
++ _$s18SiriPhoneFlowTools0B9ConstantsO9BundleIDsOSHAAMcMK
++ _$s18SiriPhoneFlowTools0B9ConstantsO9BundleIDsOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s18SiriPhoneFlowTools0B9ConstantsO9BundleIDsOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s18SiriPhoneFlowTools0B9ConstantsO9BundleIDsOSHAASH9hashValueSivgTW
++ _$s18SiriPhoneFlowTools0B9ConstantsO9BundleIDsOSHAASQWb
++ _$s18SiriPhoneFlowTools0B9ConstantsO9BundleIDsOSQAAMc
++ _$s18SiriPhoneFlowTools0B9ConstantsO9BundleIDsOSQAAMcMK
++ _$s18SiriPhoneFlowTools0B9ConstantsO9BundleIDsOSQAASQ2eeoiySbx_xtFZTW
++ _$s18SiriPhoneFlowTools15AppNameProviderV11isInstalledySbSSF
++ _$s18SiriPhoneFlowTools15AppNameProviderVAA0eF9ProvidingA2aDP11isInstalledySbSSFTW
++ _$s18SiriPhoneFlowTools16AppNameProvidingP11isInstalledySbSSFTj
++ _$s18SiriPhoneFlowTools16AppNameProvidingP11isInstalledySbSSFTq
++ _$s18SiriPhoneFlowTools16UnsupportedErrorO08noNearbyB16ForEmergencyCallyA2CmFWC
++ _$s18SiriPhoneFlowTools16UnsupportedErrorO23faceTimeAppNotInstalledyA2CmFWC
++ _$s18SiriPhoneFlowTools19ResourceBundleClass33_E4641DDBEC5F8C5056AF3D0FADC80412LLCMF
++ _$s18SiriPhoneFlowTools19ResourceBundleClass33_E4641DDBEC5F8C5056AF3D0FADC80412LLCMXX
++ _$s18SiriPhoneFlowTools19ResourceBundleClass33_E4641DDBEC5F8C5056AF3D0FADC80412LLCMa
++ _$s18SiriPhoneFlowTools19ResourceBundleClass33_E4641DDBEC5F8C5056AF3D0FADC80412LLCMf
++ _$s18SiriPhoneFlowTools19ResourceBundleClass33_E4641DDBEC5F8C5056AF3D0FADC80412LLCMm
++ _$s18SiriPhoneFlowTools19ResourceBundleClass33_E4641DDBEC5F8C5056AF3D0FADC80412LLCMn
++ _$s18SiriPhoneFlowTools19ResourceBundleClass33_E4641DDBEC5F8C5056AF3D0FADC80412LLCN
++ _$s18SiriPhoneFlowTools19ResourceBundleClass33_E4641DDBEC5F8C5056AF3D0FADC80412LLCfD
++ _$s18SiriPhoneFlowTools25DestinationRecommendationO23faceTimeAppNotInstalledyA2CmFWC
++ _$s18SiriPhoneFlowTools25allGlobalEmergencyNumbers33_CD8690ED6388F0D181178CC9989E4002LLShySSGvp
++ _$s18SiriPhoneFlowTools25allGlobalEmergencyNumbers33_CD8690ED6388F0D181178CC9989E4002LL_WZ
++ _$s18SiriPhoneFlowTools25allGlobalEmergencyNumbers33_CD8690ED6388F0D181178CC9989E4002LL_Wz
++ _$s18SiriPhoneFlowTools25resourceBundleDescription33_E4641DDBEC5F8C5056AF3D0FADC80412LL10Foundation23LocalizedStringResourceV0fG0Ovp
++ _$s18SiriPhoneFlowTools25resourceBundleDescription33_E4641DDBEC5F8C5056AF3D0FADC80412LL_WZ
++ _$s18SiriPhoneFlowTools25resourceBundleDescription33_E4641DDBEC5F8C5056AF3D0FADC80412LL_Wz
++ _$s18SiriPhoneFlowTools28FaceTimeAccountSetupProviderV07appNameI0AA03AppK9Providing_pvg
++ _$s18SiriPhoneFlowTools28FaceTimeAccountSetupProviderV07appNameI0AA03AppK9Providing_pvpMV
++ _$s18SiriPhoneFlowTools28FaceTimeAccountSetupProviderV08$appNameI00C9ToolTypes0cL16EnvironmentValueCyAA03AppK9Providing_pGvg
++ _$s18SiriPhoneFlowTools28FaceTimeAccountSetupProviderV08$appNameI00C9ToolTypes0cL16EnvironmentValueCyAA03AppK9Providing_pGvpMV
++ _$s18SiriPhoneFlowTools28FaceTimeAccountSetupProviderV16callCapabilities07appNameI0AC0C9ToolTypes0cN16EnvironmentValueCyAA04CallK9Providing_pG_AHyAA03AppmS0_pGtcfC
++ _$s18SiriPhoneFlowTools28FaceTimeAccountSetupProviderV16callCapabilities07appNameI0AC0C9ToolTypes0cN16EnvironmentValueCyAA04CallK9Providing_pG_AHyAA03AppmS0_pGtcfcfA0_
++ _$s18SiriPhoneFlowTools28FaceTimeAccountSetupProviderV16callCapabilities07appNameI0AC0C9ToolTypes0cN16EnvironmentValueCyAA04CallK9Providing_pG_AHyAA03AppmS0_pGtcfcfA_
++ _$s18SiriPhoneFlowTools28FaceTimeAccountSetupProviderVWV
++ _$s18SiriPhoneFlowTools28FaceTimeAccountSetupProviderVwet
++ _$s18SiriPhoneFlowTools28FaceTimeAccountSetupProviderVwst
++ _$s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_AFTf3nnnnpSi0_n
++ _$s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_Si_Tg5
++ _$s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_Si_Tg5TA
++ _$s7ToolKit06SystemA8ProtocolO10IdentifierOAESHAAWlTm
++ _$s7ToolKit0A10InvocationV10definition20parameterValuesByKey7options11openWhenRunAcA0A10DefinitionV_SDySSAA20TypedValueResolvable_pGAA0aC7OptionsVSgSbSgtKcfC
++ _$sSTsSQ7ElementRpzrlE8containsySbABFSaySSG_Tg5
++ _$sSh10startIndexSh0B0Vyx_Gvg18SiriPhoneFlowTools21ConversationAttributeO_Tg5Tm
++ _$sSh21_nonEmptyArrayLiteralShyxGSayxG_tcfC18SiriPhoneFlowTools0F9ConstantsO9BundleIDsO_Tt0g5
++ _$sSh5IndexV8_VariantOy18SiriPhoneFlowTools0D9ConstantsO9BundleIDsO__GWOe
++ _$sSiIegd_SiIegr_TR
++ _$sSiIegd_SiIegr_TRTA
++ _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFShy18SiriPhoneFlowTools0E9ConstantsO9BundleIDsOG_SSs5NeverOTg504$s18def8Tools0B9h2O9iJ135O09telephonyfG03forSaySSG0C9ToolTypes0cJ17InvocationContextV11DeviceIdiomO_tFZSSAEcfu_33_9e88164375bcdb9817131afd95b5e09bAESSTf3nnnpk_nTf1cn_n
++ _$sSp14moveInitialize4from5countySpyxG_SitF16SiriDialogEngine15SpeakableStringV_Tg5Tm
++ _$ss11_SetStorageCy18SiriPhoneFlowTools0D9ConstantsO9BundleIDsOGMR
++ _$ss11_SetStorageCy18SiriPhoneFlowTools0D9ConstantsO9BundleIDsOGMd
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFSS_Tg5
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfC16SiriDialogEngine15SpeakableStringV_Tt1g5Tm
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5
++ __DATA__TtC18SiriPhoneFlowToolsP33_E4641DDBEC5F8C5056AF3D0FADC8041219ResourceBundleClass
++ __METACLASS_DATA__TtC18SiriPhoneFlowToolsP33_E4641DDBEC5F8C5056AF3D0FADC8041219ResourceBundleClass
++ __swift_closure_destructor.164Tm
++ _associated conformance 18SiriPhoneFlowTools0B9ConstantsO9BundleIDsOSHAASQ
++ _objc_msgSend$applicationState
++ _objc_msgSend$isInstalled
++ _objc_msgSend$setAlternatives:
++ _symbolic Say_____G 7ToolKit0A10DefinitionV
++ _symbolic SiIegd_
++ _symbolic SiIegr_
++ _symbolic _____ 10Foundation23LocalizedStringResourceV18SiriPhoneFlowToolsE0eF0O
++ _symbolic _____ 18SiriPhoneFlowTools19ResourceBundleClass33_E4641DDBEC5F8C5056AF3D0FADC80412LLC
++ _symbolic _____y_____G s11_SetStorageC 18SiriPhoneFlowTools0D9ConstantsO9BundleIDsO
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/SiriPhone/install/Symbols/BuiltProducts/libSiriPhoneFlowToolsImplementation.a(SPHCallCenter-8c81c5804b3b7a9e71b94b420b89cf5b.o)
+- _$s10AppIntents12IntentPersonV6HandleV18SiriPhoneFlowToolsE17isEmergencyNumberSbvg
+- _$s10AppIntents12IntentPersonV6HandleV18SiriPhoneFlowToolsE17isEmergencyNumberSbvpMV
+- _$s10Foundation25NSFastEnumerationIteratorVACStAAWlTm
+- _$s18SiriPhoneFlowTools010AnswerCallC4ToolC22getAppIntentDefinition33_57CEEF18C54499160787C85ADCCDEA97LL0G3Kit0gK0VyYaKF
+- _$s18SiriPhoneFlowTools010AnswerCallC4ToolC22getAppIntentDefinition33_57CEEF18C54499160787C85ADCCDEA97LL0G3Kit0gK0VyYaKFTY0_
+- _$s18SiriPhoneFlowTools010AnswerCallC4ToolC22getAppIntentDefinition33_57CEEF18C54499160787C85ADCCDEA97LL0G3Kit0gK0VyYaKFTu
+- _$s18SiriPhoneFlowTools09StartCallC4ToolC7execute7context8callback0cG5Types0cG6ResultVAG0cG17InvocationContextV_AG0cG16ExecutorCallback_ptYaKFAIyYaKXEfU_SSycfu17_
+- _$s18SiriPhoneFlowTools09StartCallC4ToolC7execute7context8callback0cG5Types0cG6ResultVAG0cG17InvocationContextV_AG0cG16ExecutorCallback_ptYaKFAIyYaKXEfU_SSycfu28_TA
+- _$s18SiriPhoneFlowTools09StartCallC4ToolC7execute7context8callback0cG5Types0cG6ResultVAG0cG17InvocationContextV_AG0cG16ExecutorCallback_ptYaKFAIyYaKXEfU_SSycfu28_TATm
+- _$s18SiriPhoneFlowTools09StartCallC4ToolC7execute7context8callback0cG5Types0cG6ResultVAG0cG17InvocationContextV_AG0cG16ExecutorCallback_ptYaKFAIyYaKXEfU_s5Error_pycfu30_TA
+- _$s18SiriPhoneFlowTools28FaceTimeAccountSetupProviderV16callCapabilitiesAC0C9ToolTypes0cL16EnvironmentValueCyAA04CallK9Providing_pG_tcfC
+- _$s18SiriPhoneFlowTools28FaceTimeAccountSetupProviderV16callCapabilitiesAC0C9ToolTypes0cL16EnvironmentValueCyAA04CallK9Providing_pG_tcfcfA_
+- _$s18SiriPhoneFlowTools28FaceTimeAccountSetupProviderVACycfCTm
+- _$s18SiriPhoneFlowTools29EmergencyDestinationProvidingPAAE06globalE7NumbersShySSGvgAA0eF8ProviderV_TB5Tv_r
+- _$s18SiriPhoneFlowTools29EmergencyDestinationProvidingPAAE06globalE7NumbersShySSGvgTv_r
+- _$s7ToolKit0A10InvocationV10definition20parameterValuesByKey7optionsAcA0A10DefinitionV_SDySSAA20TypedValueResolvable_pGAA0aC7OptionsVSgtKcfC
+- _$sSh21_nonEmptyArrayLiteralShyxGSayxG_tcfCSS_Tt0g5
+- _$sSp14moveInitialize4from5countySpyxG_SitF10AppIntents12IntentPersonV6HandleV_Tg5Tm
+- _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfC10AppIntents12IntentPersonV6HandleV_Tt1g5Tm
+- _OUTLINED_FUNCTION_272
+- _OUTLINED_FUNCTION_273
+- _OUTLINED_FUNCTION_274
+- _OUTLINED_FUNCTION_275
+- _OUTLINED_FUNCTION_276
+- _OUTLINED_FUNCTION_277
+- _OUTLINED_FUNCTION_278
+- _OUTLINED_FUNCTION_279
+- _OUTLINED_FUNCTION_280
+- _OUTLINED_FUNCTION_281
+- _OUTLINED_FUNCTION_282
+- _OUTLINED_FUNCTION_283
+- _OUTLINED_FUNCTION_284
+- _OUTLINED_FUNCTION_285
+- _OUTLINED_FUNCTION_286
+- _OUTLINED_FUNCTION_287
+- _OUTLINED_FUNCTION_288
+- _OUTLINED_FUNCTION_289
+- _OUTLINED_FUNCTION_290
+- _OUTLINED_FUNCTION_291
+- _OUTLINED_FUNCTION_292
+- _OUTLINED_FUNCTION_293
+- _OUTLINED_FUNCTION_294
+- _OUTLINED_FUNCTION_295
+- _OUTLINED_FUNCTION_296
+- _OUTLINED_FUNCTION_297
+- _OUTLINED_FUNCTION_298
+- _OUTLINED_FUNCTION_299
+- _OUTLINED_FUNCTION_300
+- _OUTLINED_FUNCTION_301
+- _OUTLINED_FUNCTION_302
+- _OUTLINED_FUNCTION_303
+- _OUTLINED_FUNCTION_304
+- _OUTLINED_FUNCTION_305
+- _OUTLINED_FUNCTION_306
+- _OUTLINED_FUNCTION_307
+- _OUTLINED_FUNCTION_308
+- _OUTLINED_FUNCTION_309
+- _OUTLINED_FUNCTION_310
+- _OUTLINED_FUNCTION_311
+- _OUTLINED_FUNCTION_312
+- _OUTLINED_FUNCTION_313
+- _OUTLINED_FUNCTION_314
+- _OUTLINED_FUNCTION_315
+- __swift_closure_destructor.175Tm
+CStrings:
++ "#AnswerCallFlowTool querying tool database for tool with id: %s"
++ "#AppRecordProvider No application record for %s: %@. Treating the app as not installed."
++ "#FaceTimeAccountSetupProvider no local FaceTime container; app is uninstalled on the companion"
++ "CALL_EMERGENCY_SERVICES"
++ "DOWNTIME_FACETIME_DROP_RESTRICTED_CONTACTS_CONFIRMATION"
++ "DOWNTIME_TELEPHONY_DROP_RESTRICTED_CONTACTS_CONFIRMATION"
++ "EMERGENCY_CALL_ON_NEARBY_DEVICE_CONFIRMATION"
++ "FACETIME_APP_NOT_INSTALLED"
++ "Found applicationDefined identifier -- returning stripped contact"
++ "IntentPerson -> INPerson (no contactIdentifier, forwarded as-is): %s"
++ "IntentPerson -> INPerson name-only skeleton + siriMatches: %s"
++ "NO_COMPANION_AVAILABLE"
++ "NO_NEARBY_PHONE_FOR_EMERGENCY_CALL"
++ "_TtC18SiriPhoneFlowToolsP33_E4641DDBEC5F8C5056AF3D0FADC8041219ResourceBundleClass"
++ "applicationState"
++ "com.apple.siri.directInvocation.phone.fallbackToSiriXForMyriadOrEmergency"
++ "faceTimeAppNotInstalled"
++ "isInstalled"
++ "setAlternatives:"
+- " during Downtime. Do you still want to call "
+- "#StartCallFlowTool %s invocation was cancelled. Returning early."
+- "Found applicationDefined identifier -- returning skeleton contact"
+- "I can’t make a "
+- "IntentPerson -> INPerson: %s"
+```

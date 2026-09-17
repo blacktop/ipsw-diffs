@@ -1,0 +1,300 @@
+## libSystemDetermination.dylib
+
+> `/System/Library/Frameworks/CoreTelephony.framework/Support/libSystemDetermination.dylib`
+
+```diff
+
+-13487.1.0.0.0
+-  __TEXT.__text: 0x6df40
+-  __TEXT.__const: 0x3e09
+-  __TEXT.__gcc_except_tab: 0x59cc
+-  __TEXT.__cstring: 0x2de8
+-  __TEXT.__oslogstring: 0x9cf9
+-  __TEXT.__unwind_info: 0x2720
+-  __TEXT.__auth_stubs: 0x1410
+-  __DATA_CONST.__const: 0xdf8
++13494.0.0.0.0
++  __TEXT.__text: 0x7030c
++  __TEXT.__const: 0x4189
++  __TEXT.__gcc_except_tab: 0x5b68
++  __TEXT.__cstring: 0x2df2
++  __TEXT.__oslogstring: 0xa422
++  __TEXT.__unwind_info: 0x27f0
++  __TEXT.__auth_stubs: 0x14e0
++  __DATA_CONST.__const: 0xe00
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__weak_got: 0x10
+   __DATA_CONST.__got: 0x258
+-  __AUTH_CONST.__const: 0x4a10
+-  __AUTH_CONST.__cfstring: 0x940
++  __AUTH_CONST.__const: 0x4c48
++  __AUTH_CONST.__cfstring: 0x960
+   __AUTH_CONST.__weak_auth_got: 0x18
+-  __AUTH_CONST.__auth_got: 0x9f8
++  __AUTH_CONST.__auth_got: 0xa60
+   __DATA_DIRTY.__data: 0x8
+   __DATA_DIRTY.__bss: 0x60
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /usr/lib/libTelephonyUtilDynamic.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 1794
+-  Symbols:   2939
+-  CStrings:  1437
++  Functions: 1846
++  Symbols:   3033
++  CStrings:  1472
+ 
+Symbols:
++ GCC_except_table104
++ GCC_except_table105
++ GCC_except_table137
++ GCC_except_table169
++ GCC_except_table171
++ GCC_except_table174
++ GCC_except_table427
++ GCC_except_table430
++ GCC_except_table440
++ GCC_except_table446
++ GCC_except_table449
++ GCC_except_table451
++ GCC_except_table454
++ GCC_except_table457
++ GCC_except_table460
++ GCC_except_table462
++ GCC_except_table464
++ GCC_except_table467
++ GCC_except_table470
++ GCC_except_table472
++ GCC_except_table478
++ GCC_except_table481
++ GCC_except_table485
++ GCC_except_table487
++ GCC_except_table491
++ GCC_except_table499
++ GCC_except_table501
++ GCC_except_table504
++ GCC_except_table509
++ GCC_except_table512
++ __Z8asString18RegistrationStatus
++ __ZN12_GLOBAL__N_114kOwnerQueueKeyE
++ __ZN2sd18RcsPcscfConnection18uuidFromConnectionEN3ctu2nw11NWSharedRefIU27objcproto16OS_nw_connection8NSObjectEE
++ __ZN2sd19IMSSubscriberConfig6createERKNSt3__110shared_ptrIK8RegistryEERKNS2_IK15PersonalityInfoEERKNS2_INS_37IMSSubscriberPersonalityBoundInstanceEEEN8dispatch5queueE
++ __ZN2sd19IMSSubscriberConfigC1ERKNSt3__110shared_ptrIK8RegistryEERKNS2_IK15PersonalityInfoEERKNS2_INS_37IMSSubscriberPersonalityBoundInstanceEEEN8dispatch5queueE
++ __ZN2sd19IMSSubscriberConfigC2ERKNSt3__110shared_ptrIK8RegistryEERKNS2_IK15PersonalityInfoEERKNS2_INS_37IMSSubscriberPersonalityBoundInstanceEEEN8dispatch5queueE
++ __ZN3ctu20SharedSynchronizableIN2sd19IMSSubscriberConfigEED2Ev
++ __ZN3ctu9SharedRefIKvNS_2cf16cfretain_functorENS2_17cfrelease_functorES1_EC2ERKS5_
++ __ZN3ctu9SharedRefIKvNS_2cf16cfretain_functorENS2_17cfrelease_functorES1_EaSERKS5_
++ __ZN4data4UUID3getEv
++ __ZN4data4UUIDC1EPKh
++ __ZN4data4UUIDC1ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
++ __ZN4data4UUIDC1ERKS0_
++ __ZN4data4UUIDC1Ev
++ __ZN4data4UUIDaSERKS0_
++ __ZNK2sd18IMSSubscriberModel19getServerCapRefreshEv
++ __ZNK2sd19IMSSubscriberConfig17logIfValueChangedERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEN3ctu2cf11CFSharedRefIKvEENS1_8functionIFvvEEE
++ __ZNK2sd19IMSSubscriberConfig9dumpStateEv
++ __ZNK4data4UUID3getEv
++ __ZNKSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig15getRTTSupportedEvE3$_0FvvEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig15getRTTSupportedEvE3$_0FvvEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig15getRTTSupportedEvE3$_0FvvEE7__cloneEPNS0_6__baseIS5_EE
++ __ZNKSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig15getRTTSupportedEvE3$_0FvvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig15getTTYSupportedEvE3$_0FvvEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig15getTTYSupportedEvE3$_0FvvEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig15getTTYSupportedEvE3$_0FvvEE7__cloneEPNS0_6__baseIS5_EE
++ __ZNKSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig15getTTYSupportedEvE3$_0FvvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig18CopyIMSConfigValueENS_4listIN3ctu2cf11CFSharedRefIK10__CFStringEENS_9allocatorISA_EEEEPKcPKvbbE3$_0FvvEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig18CopyIMSConfigValueENS_4listIN3ctu2cf11CFSharedRefIK10__CFStringEENS_9allocatorISA_EEEEPKcPKvbbE3$_0FvvEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig18CopyIMSConfigValueENS_4listIN3ctu2cf11CFSharedRefIK10__CFStringEENS_9allocatorISA_EEEEPKcPKvbbE3$_0FvvEE7__cloneEPNS0_6__baseISJ_EE
++ __ZNKSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig18CopyIMSConfigValueENS_4listIN3ctu2cf11CFSharedRefIK10__CFStringEENS_9allocatorISA_EEEEPKcPKvbbE3$_0FvvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig24getEmergencyRTTSupportedEvE3$_0FvvEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig24getEmergencyRTTSupportedEvE3$_0FvvEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig24getEmergencyRTTSupportedEvE3$_0FvvEE7__cloneEPNS0_6__baseIS5_EE
++ __ZNKSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig24getEmergencyRTTSupportedEvE3$_0FvvEE7__cloneEv
++ __ZNKSt3__113__string_hashIcNS_9allocatorIcEEEclB9nqe220106ERKNS_12basic_stringIcNS_11char_traitsIcEES2_EE
++ __ZNKSt3__120__shared_ptr_pointerIPN2sd19IMSSubscriberConfigEZN3ctu20SharedSynchronizableIS2_E15make_shared_ptrIS2_EENS_10shared_ptrIT_EEPS9_EUlS3_E_NS_9allocatorIS2_EEE13__get_deleterERKSt9type_info
++ __ZNKSt3__18equal_toINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB9nqe220106ERKS6_S9_
++ __ZNSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig15getRTTSupportedEvE3$_0FvvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig15getRTTSupportedEvE3$_0FvvEE7destroyEv
++ __ZNSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig15getRTTSupportedEvE3$_0FvvEED0Ev
++ __ZNSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig15getRTTSupportedEvE3$_0FvvEED1Ev
++ __ZNSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig15getRTTSupportedEvE3$_0FvvEEclEv
++ __ZNSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig15getTTYSupportedEvE3$_0FvvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig15getTTYSupportedEvE3$_0FvvEE7destroyEv
++ __ZNSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig15getTTYSupportedEvE3$_0FvvEED0Ev
++ __ZNSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig15getTTYSupportedEvE3$_0FvvEED1Ev
++ __ZNSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig15getTTYSupportedEvE3$_0FvvEEclEv
++ __ZNSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig18CopyIMSConfigValueENS_4listIN3ctu2cf11CFSharedRefIK10__CFStringEENS_9allocatorISA_EEEEPKcPKvbbE3$_0FvvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig18CopyIMSConfigValueENS_4listIN3ctu2cf11CFSharedRefIK10__CFStringEENS_9allocatorISA_EEEEPKcPKvbbE3$_0FvvEE7destroyEv
++ __ZNSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig18CopyIMSConfigValueENS_4listIN3ctu2cf11CFSharedRefIK10__CFStringEENS_9allocatorISA_EEEEPKcPKvbbE3$_0FvvEEC1B9nqe220106ERKSI_
++ __ZNSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig18CopyIMSConfigValueENS_4listIN3ctu2cf11CFSharedRefIK10__CFStringEENS_9allocatorISA_EEEEPKcPKvbbE3$_0FvvEED0Ev
++ __ZNSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig18CopyIMSConfigValueENS_4listIN3ctu2cf11CFSharedRefIK10__CFStringEENS_9allocatorISA_EEEEPKcPKvbbE3$_0FvvEED1Ev
++ __ZNSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig18CopyIMSConfigValueENS_4listIN3ctu2cf11CFSharedRefIK10__CFStringEENS_9allocatorISA_EEEEPKcPKvbbE3$_0FvvEEclEv
++ __ZNSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig24getEmergencyRTTSupportedEvE3$_0FvvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig24getEmergencyRTTSupportedEvE3$_0FvvEE7destroyEv
++ __ZNSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig24getEmergencyRTTSupportedEvE3$_0FvvEED0Ev
++ __ZNSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig24getEmergencyRTTSupportedEvE3$_0FvvEED1Ev
++ __ZNSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig24getEmergencyRTTSupportedEvE3$_0FvvEEclEv
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN3ctu2cf11CFSharedRefIKvEEEEPvEENS_22__hash_node_destructorINS6_ISG_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrIZNK2sd19IMSSubscriberConfig17logIfValueChangedERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN3ctu2cf11CFSharedRefIKvEENS_8functionIFvvEEEE3$_0NS_14default_deleteISJ_EEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrIZNK3ctu20SharedSynchronizableIN2sd19IMSSubscriberConfigEE15execute_wrappedIRZNKS4_17logIfValueChangedERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS1_2cf11CFSharedRefIKvEENS_8functionIFvvEEEE3$_0EEvOT_EUlvE_NS_14default_deleteISQ_EEED1B9nqe220106Ev
++ __ZNSt3__112__destroy_atB9nqe220106INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN3ctu2cf11CFSharedRefIKvEEEEEEvPT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN3ctu2cf11CFSharedRefIKvEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SC_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SH_SL_SJ_EENS5_ISH_EEE4findIS7_EENS_15__hash_iteratorIPNS_11__hash_nodeISD_PvEEEERKT_
++ __ZNSt3__112__next_primeEm
++ __ZNSt3__120__shared_ptr_pointerIPN2sd19IMSSubscriberConfigEZN3ctu20SharedSynchronizableIS2_E15make_shared_ptrIS2_EENS_10shared_ptrIT_EEPS9_EUlS3_E_NS_9allocatorIS2_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_pointerIPN2sd19IMSSubscriberConfigEZN3ctu20SharedSynchronizableIS2_E15make_shared_ptrIS2_EENS_10shared_ptrIT_EEPS9_EUlS3_E_NS_9allocatorIS2_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_pointerIPN2sd19IMSSubscriberConfigEZN3ctu20SharedSynchronizableIS2_E15make_shared_ptrIS2_EENS_10shared_ptrIT_EEPS9_EUlS3_E_NS_9allocatorIS2_EEED0Ev
++ __ZNSt3__120__shared_ptr_pointerIPN2sd19IMSSubscriberConfigEZN3ctu20SharedSynchronizableIS2_E15make_shared_ptrIS2_EENS_10shared_ptrIT_EEPS9_EUlS3_E_NS_9allocatorIS2_EEED1Ev
++ __ZNSt3__1plIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EEPKS6_RKS9_
++ __ZTIN3ctu14SharedLoggableIN2sd19IMSSubscriberConfigENS_11OsLogLoggerEEE
++ __ZTIN3ctu20SharedSynchronizableIN2sd19IMSSubscriberConfigEEE
++ __ZTINSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig15getRTTSupportedEvE3$_0FvvEEE
++ __ZTINSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig15getTTYSupportedEvE3$_0FvvEEE
++ __ZTINSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig18CopyIMSConfigValueENS_4listIN3ctu2cf11CFSharedRefIK10__CFStringEENS_9allocatorISA_EEEEPKcPKvbbE3$_0FvvEEE
++ __ZTINSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig24getEmergencyRTTSupportedEvE3$_0FvvEEE
++ __ZTINSt3__120__shared_ptr_pointerIPN2sd19IMSSubscriberConfigEZN3ctu20SharedSynchronizableIS2_E15make_shared_ptrIS2_EENS_10shared_ptrIT_EEPS9_EUlS3_E_NS_9allocatorIS2_EEEE
++ __ZTIZN3ctu20SharedSynchronizableIN2sd19IMSSubscriberConfigEE15make_shared_ptrIS2_EENSt3__110shared_ptrIT_EEPS7_EUlPS2_E_
++ __ZTIZNK2sd19IMSSubscriberConfig15getRTTSupportedEvE3$_0
++ __ZTIZNK2sd19IMSSubscriberConfig15getTTYSupportedEvE3$_0
++ __ZTIZNK2sd19IMSSubscriberConfig18CopyIMSConfigValueENSt3__14listIN3ctu2cf11CFSharedRefIK10__CFStringEENS1_9allocatorIS8_EEEEPKcPKvbbE3$_0
++ __ZTIZNK2sd19IMSSubscriberConfig24getEmergencyRTTSupportedEvE3$_0
++ __ZTSN3ctu14SharedLoggableIN2sd19IMSSubscriberConfigENS_11OsLogLoggerEEE
++ __ZTSN3ctu20SharedSynchronizableIN2sd19IMSSubscriberConfigEEE
++ __ZTSNSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig15getRTTSupportedEvE3$_0FvvEEE
++ __ZTSNSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig15getTTYSupportedEvE3$_0FvvEEE
++ __ZTSNSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig18CopyIMSConfigValueENS_4listIN3ctu2cf11CFSharedRefIK10__CFStringEENS_9allocatorISA_EEEEPKcPKvbbE3$_0FvvEEE
++ __ZTSNSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig24getEmergencyRTTSupportedEvE3$_0FvvEEE
++ __ZTSNSt3__120__shared_ptr_pointerIPN2sd19IMSSubscriberConfigEZN3ctu20SharedSynchronizableIS2_E15make_shared_ptrIS2_EENS_10shared_ptrIT_EEPS9_EUlS3_E_NS_9allocatorIS2_EEEE
++ __ZTSZN3ctu20SharedSynchronizableIN2sd19IMSSubscriberConfigEE15make_shared_ptrIS2_EENSt3__110shared_ptrIT_EEPS7_EUlPS2_E_
++ __ZTSZNK2sd19IMSSubscriberConfig15getRTTSupportedEvE3$_0
++ __ZTSZNK2sd19IMSSubscriberConfig15getTTYSupportedEvE3$_0
++ __ZTSZNK2sd19IMSSubscriberConfig18CopyIMSConfigValueENSt3__14listIN3ctu2cf11CFSharedRefIK10__CFStringEENS1_9allocatorIS8_EEEEPKcPKvbbE3$_0
++ __ZTSZNK2sd19IMSSubscriberConfig24getEmergencyRTTSupportedEvE3$_0
++ __ZTVNSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig15getRTTSupportedEvE3$_0FvvEEE
++ __ZTVNSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig15getTTYSupportedEvE3$_0FvvEEE
++ __ZTVNSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig18CopyIMSConfigValueENS_4listIN3ctu2cf11CFSharedRefIK10__CFStringEENS_9allocatorISA_EEEEPKcPKvbbE3$_0FvvEEE
++ __ZTVNSt3__110__function6__funcIZNK2sd19IMSSubscriberConfig24getEmergencyRTTSupportedEvE3$_0FvvEEE
++ __ZTVNSt3__120__shared_ptr_pointerIPN2sd19IMSSubscriberConfigEZN3ctu20SharedSynchronizableIS2_E15make_shared_ptrIS2_EENS_10shared_ptrIT_EEPS9_EUlS3_E_NS_9allocatorIS2_EEEE
++ __ZZN8dispatch5asyncIZNK3ctu20SharedSynchronizableIN2sd19IMSSubscriberConfigEE15execute_wrappedIRZNKS4_17logIfValueChangedERKNSt3__112basic_stringIcNS7_11char_traitsIcEENS7_9allocatorIcEEEENS1_2cf11CFSharedRefIKvEENS7_8functionIFvvEEEE3$_0EEvOT_EUlvE_EEvP16dispatch_queue_sNS7_10unique_ptrISP_NS7_14default_deleteISP_EEEEENUlPvE_8__invokeESY_
++ __ZZNK2sd19IMSSubscriberConfig17logIfValueChangedERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEN3ctu2cf11CFSharedRefIKvEENS1_8functionIFvvEEEEN3$_0D1Ev
++ __ZZNK2sd19IMSSubscriberConfig18CopyIMSConfigValueENSt3__14listIN3ctu2cf11CFSharedRefIK10__CFStringEENS1_9allocatorIS8_EEEEPKcPKvbbEN3$_0D1Ev
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN3ctu2cf11CFSharedRefIKvEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SC_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SH_SL_SJ_EENS5_ISH_EEE16__emplace_uniqueB9nqe220106IJRKNS_21piecewise_construct_tENS_5tupleIJRSG_EEENSV_IJEEEEEENSF_INS_15__hash_iteratorIPNS_11__hash_nodeISD_PvEEEEbEEDpOT_ENKUlSW_SU_OSX_OSY_E_clESW_SU_S19_S1A_
++ __ZZZN3ctu20SharedSynchronizableIN2sd19IMSSubscriberConfigEE15make_shared_ptrIS2_EENSt3__110shared_ptrIT_EEPS7_ENKUlPS2_E_clESA_ENUlPvE_8__invokeESC_
++ __os_log_debug_impl
++ _dispatch_get_specific
++ _dispatch_queue_set_specific
+- GCC_except_table127
+- GCC_except_table139
+- GCC_except_table173
+- GCC_except_table428
+- GCC_except_table431
+- GCC_except_table441
+- GCC_except_table447
+- GCC_except_table450
+- GCC_except_table452
+- GCC_except_table456
+- GCC_except_table458
+- GCC_except_table461
+- GCC_except_table463
+- GCC_except_table465
+- GCC_except_table468
+- GCC_except_table471
+- GCC_except_table474
+- GCC_except_table479
+- GCC_except_table482
+- GCC_except_table486
+- GCC_except_table488
+- GCC_except_table492
+- GCC_except_table500
+- GCC_except_table502
+- GCC_except_table505
+- GCC_except_table510
+- GCC_except_table513
+- __ZN2sd18RcsPcscfConnection24uuidStringFromConnectionEN3ctu2nw11NWSharedRefIU27objcproto16OS_nw_connection8NSObjectEE
+- __ZN2sd19IMSSubscriberConfig6createERKNSt3__110shared_ptrIK8RegistryEERKNS2_IK15PersonalityInfoEERKNS2_INS_37IMSSubscriberPersonalityBoundInstanceEEE
+- __ZN2sd19IMSSubscriberConfigC1ERKNSt3__110shared_ptrIK8RegistryEERKNS2_IK15PersonalityInfoEERKNS2_INS_37IMSSubscriberPersonalityBoundInstanceEEE
+- __ZN2sd19IMSSubscriberConfigC2ERKNSt3__110shared_ptrIK8RegistryEERKNS2_IK15PersonalityInfoEERKNS2_INS_37IMSSubscriberPersonalityBoundInstanceEEE
+- __ZNKSt3__120__shared_ptr_pointerIPN2sd19IMSSubscriberConfigENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE13__get_deleterERKSt9type_info
+- __ZNSt3__120__shared_ptr_pointerIPN2sd19IMSSubscriberConfigENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_pointerIPN2sd19IMSSubscriberConfigENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_pointerIPN2sd19IMSSubscriberConfigENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED0Ev
+- __ZNSt3__120__shared_ptr_pointerIPN2sd19IMSSubscriberConfigENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED1Ev
+- __ZTINSt3__110shared_ptrIN2sd19IMSSubscriberConfigEE27__shared_ptr_default_deleteIS2_S2_EE
+- __ZTINSt3__114default_deleteIN2sd19IMSSubscriberConfigEEE
+- __ZTINSt3__120__shared_ptr_pointerIPN2sd19IMSSubscriberConfigENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+- __ZTSNSt3__110shared_ptrIN2sd19IMSSubscriberConfigEE27__shared_ptr_default_deleteIS2_S2_EE
+- __ZTSNSt3__114default_deleteIN2sd19IMSSubscriberConfigEEE
+- __ZTSNSt3__120__shared_ptr_pointerIPN2sd19IMSSubscriberConfigENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+- __ZTVNSt3__120__shared_ptr_pointerIPN2sd19IMSSubscriberConfigENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+CStrings:
++ "5wi.ctr:: \t pushPayload = %{bool}d"
++ "5wi.mdl:: \t fLazuliInfo: fServerCapRefresh = %lu"
++ "5wi.sd:: \t\t\t%{uuid_t}.16P"
++ "5wi.sd:: \t\tFlowId: %u {"
++ "5wi.sd:: \t\t}"
++ "5wi.sd:: \tFlow Rules: {"
++ "5wi.sd:: \t}"
++ "5wi:: \t %s = %@"
++ "5wi:: ------------ <<== %s ------------------------"
++ "5wi:: ----------------- %s ==>> -------------------"
++ "Cellular footprint is not required for VoWiFi, ok to bring up IMS PDN"
++ "Clearing pushPayload (proceedInitializeRcsClient)"
++ "Clearing pushPayload (proceedTransientInitialize)"
++ "Connecting to PCSCF connection id=%{uuid_t}.16P remote address=%s:%u"
++ "Current DataContext is: %s. Checking CB key is not needed"
++ "DCN already scheduled"
++ "DomesticRoamingUpdate: roaming state %{bool}d"
++ "EmergencyAccessNetworkInfoUpdate: Not in emergency call. Don't send emergency access network info update"
++ "IMS Registration Info: DeviceAccountUUID Identity - %{uuid_t}.16P"
++ "IMSRegistrationActive: no expiration in registration response, falling back to ACS ServerCapRefresh: %us"
++ "IMSRegistrationAllowed: We are in the process of shutting down. Don't do anything here"
++ "ISIM info didn't change"
++ "ImsPdpActive: Lazuli mode. Country Of Origination not required"
++ "ImsPdpActive: Not in iWLAN mode. Country Of Origination not required"
++ "Not submitting RCSServiceDuration metric for zero duration"
++ "PCSCF connection %{uuid_t}.16P error=%d"
++ "PCSCF connection cancelled %{uuid_t}.16P"
++ "PCSCF connection failed %{uuid_t}.16P"
++ "PCSCF connection preparing %{uuid_t}.16P"
++ "PCSCF connection succeeded %{uuid_t}.16P"
++ "PCSCF connection waiting %{uuid_t}.16P"
++ "Received PushURL: %{public}s"
++ "Remove traffic rule: %{uuid_t}.16P"
++ "Returning isCellularFootprintSeen as %{bool}d"
++ "Roaming result remains as %s"
++ "RoamingUpdate: Ignore undetermined roaming state %s"
++ "ServerCapRefresh"
++ "Setting isCellularFootprintSeen to %{bool}d"
++ "Skipping fLastRegisteredNetworkInfo update: no valid cell info (RAT=%s DataMode=%s regStatus=%s)"
++ "Stored PushURL: %{public}s"
++ "Telephony was NOT %s successfully"
++ "Updating RCSPcscfPropertyList: \n"
++ "WiFiCalling-only mode: true. Baseband booted assertion required. iSimInfoReady: %{bool}d, deviceInfoReady: %{bool}d. BB booted assertion held: %{bool}d"
++ "XcapConfig: Setting sim slot uuid to %{uuid_t}.16P (account ID %s)"
++ "addr = %s"
++ "cb:"
++ "fInCallImsPref is inactive!"
++ "handleCountryOfOrigination: mcc INT is: %u"
++ "op:"
++ "vtm:SupportsEmergencyRTT"
++ "vtm:SupportsRTT"
++ "vtm:SupportsTTY"
+- "\t\t"
+- "\t\t\t"
+- "\t\tFlowId: "
+- " {"
+- "00000000-0000-0000-0000-000000000000"
+- "5wi.sd:: %s"
+- "Connecting to PCSCF connection id=%s remote address=%s:%u"
+- "Flow Rules: {"
+- "IMS Registration Info: DeviceAccountUUID Identity - %s"
+- "PCSCF connection %s error=%d"
+- "PCSCF connection cancelled %s"
+- "PCSCF connection failed %s"
+- "PCSCF connection preparing %s"
+- "PCSCF connection succeeded %s"
+- "PCSCF connection waiting %s"
+- "Remove traffic rule: %s"
+- "XcapConfig: Setting sim slot uuid to %s (account ID %s)"
+```
