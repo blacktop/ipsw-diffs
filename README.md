@@ -562,7 +562,7 @@
 <details open>
   <summary>View diffs</summary>
 
-- [26.7 (25G229) .vs 26.7.1 (25G309)](26_7_25G229_vs_26_7_1_25G309/README.md)
+- [26.7 (25G229) .vs 26.7.1 RC (25G309)](26_7_25G229_vs_26_7_1_25G309/README.md)
 - [26.7 RC (25G220) .vs 26.7 RC2 (25G224)](26_7_25G220_vs_26_7_25G224/README.md)
 - [26.6.2 (25G83) .vs 26.7 RC (25G220)](26_6_2_25G83_vs_26_7_25G220/README.md)
 
