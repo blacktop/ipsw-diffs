@@ -1,3 +1,2 @@
-# Require owner review for code that can access social-publisher secrets.
+# Require owner review for workflow changes.
 /.github/** @blacktop
-/social/** @blacktop

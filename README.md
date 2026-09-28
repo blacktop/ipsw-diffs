@@ -72,6 +72,7 @@
 <details open>
   <summary>View diffs</summary>
 
+- [27.0 (24A437) .vs 27.0.1 (24A446)](27_0_24A437_vs_27_0_1_24A446/README.md)
 - [27.0 RC (24A435) .vs 27.0 (24A437)](27_0_24A435_vs_27_0_24A437/README.md)
 
 </details>
