@@ -5,6 +5,10 @@
 - `iPhone18,1_23H24_KEY_[SqH0hZLoonQOy1xKsKMYlfLyFlG360P8o8oLC5mKrA0=]_cba488b626bf636ffaafea0bc8492bc1bb8042c5bede31259df1241a4963de39.aea`
 - `iPhone18,1_23H30_KEY_[4AAzM2VGhtEsygGDn08WxU4Ba9NUX2Lcw294Nd0_e5E=]_f2037257772a3922745aea6bfc0de882944a2725ca3a2c4511e556a889d1a1be.aea`
 
+## Apple Security Release
+
+- <https://support.apple.com/en-us/149226>
+
 ## Kernel
 
 ### Version
