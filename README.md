@@ -11,6 +11,7 @@
 <a href="#ios-27-2-beta">iOS 27.2 beta</a> ·
 <a href="#ios-27-0">iOS 27.0</a> ·
 <a href="#ios-27-0-beta">iOS 27.0 beta</a> ·
+<a href="#ios-26-7">iOS 26.7</a> ·
 <a href="#ios-26-6-beta">iOS 26.6 beta</a> ·
 <a href="#ios-26-5">iOS 26.5</a> ·
 <a href="#ios-26-5-beta">iOS 26.5 beta</a> ·
@@ -93,6 +94,17 @@
 - [27.0 beta 2 (24A5370h) .vs 27.0 beta 3 (24A5380h)](27_0_24A5370h_vs_27_0_24A5380h/README.md)
 - [27.0 beta 1 (24A5355q) .vs 27.0 beta 2 (24A5370h)](27_0_24A5355q_vs_27_0_24A5370h/README.md)
 - [26.5 (23F77) .vs 27.0 beta 1 (24A5355q)](26_5_23F77_vs_27_0_24A5355q/README.md)
+
+</details>
+
+<a id="ios-26-7"></a>
+
+### iOS 26.7
+
+<details open>
+  <summary>View diffs</summary>
+
+- [26.7 (23H24) .vs 26.7.1 (23H30)](26_7_23H24_vs_26_7_1_23H30/README.md)
 
 </details>
 
