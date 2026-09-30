@@ -550,7 +550,7 @@
 <details open>
   <summary>View diffs</summary>
 
-- [27.0 (26A428) .vs 27.2 beta 1 (26B5086k) **Mac18,5**](27_0_26A428_vs_27_2_26B5086k_Mac18,5/README.md)
+- [27.0 (26A428) .vs 27.2 beta 1 (26B5086k) **Mac18,5**](macOS/27_0_26A428_vs_27_2_26B5086k_Mac18,5/README.md)
 
 </details>
 
@@ -561,11 +561,11 @@
 <details open>
   <summary>View diffs</summary>
 
-- [27.0 beta 7 (26A5421a) .vs 27.0 beta 8 (26A5425a)](27_0_26A5421a_vs_27_0_26A5425a/README.md)
-- [27.0 beta 4 (26A5388g) .vs 27.0 beta 7 (26A5421a)](27_0_26A5388g_vs_27_0_26A5421a/README.md)
-- [27.0 beta 3 (26A5378n) .vs 27.0 beta 4 (26A5388g)](27_0_26A5378n_vs_27_0_26A5388g/README.md)
-- [27.0 beta 3 (26A5378j) .vs 27.0 beta 3 (26A5378n)](27_0_26A5378j_vs_27_0_26A5378n/README.md)
-- [27.0 beta 2 (26A5368g) .vs 27.0 beta 3 (26A5378j)](27_0_26A5368g_vs_27_0_26A5378j/README.md)
+- [27.0 beta 7 (26A5421a) .vs 27.0 beta 8 (26A5425a)](macOS/27_0_26A5421a_vs_27_0_26A5425a/README.md)
+- [27.0 beta 4 (26A5388g) .vs 27.0 beta 7 (26A5421a)](macOS/27_0_26A5388g_vs_27_0_26A5421a/README.md)
+- [27.0 beta 3 (26A5378n) .vs 27.0 beta 4 (26A5388g)](macOS/27_0_26A5378n_vs_27_0_26A5388g/README.md)
+- [27.0 beta 3 (26A5378j) .vs 27.0 beta 3 (26A5378n)](macOS/27_0_26A5378j_vs_27_0_26A5378n/README.md)
+- [27.0 beta 2 (26A5368g) .vs 27.0 beta 3 (26A5378j)](macOS/27_0_26A5368g_vs_27_0_26A5378j/README.md)
 
 </details>
 
@@ -576,9 +576,10 @@
 <details open>
   <summary>View diffs</summary>
 
-- [26.7 (25G229) .vs 26.7.1 RC (25G309)](26_7_25G229_vs_26_7_1_25G309/README.md)
-- [26.7 RC (25G220) .vs 26.7 RC2 (25G224)](26_7_25G220_vs_26_7_25G224/README.md)
-- [26.6.2 (25G83) .vs 26.7 RC (25G220)](26_6_2_25G83_vs_26_7_25G220/README.md)
+- [26.7 (25G229) .vs 26.7.1 (25G241)](macOS/26_7_25G229_vs_26_7_1_25G241/README.md)
+- [26.7 (25G229) .vs 26.7.1 RC (25G309)](macOS/26_7_25G229_vs_26_7_1_25G309/README.md)
+- [26.7 RC (25G220) .vs 26.7 RC2 (25G224)](macOS/26_7_25G220_vs_26_7_25G224/README.md)
+- [26.6.2 (25G83) .vs 26.7 RC (25G220)](macOS/26_6_2_25G83_vs_26_7_25G220/README.md)
 
 </details>
 
@@ -589,10 +590,10 @@
 <details open>
   <summary>View diffs</summary>
 
-- [26.6.2 (25G82) .vs 26.6.2 (25G83)](26_6_2_25G82_vs_26_6_2_25G83/README.md)
-- [26.6.1 (25G76) .vs 26.6.2 (25G82)](26_6_1_25G76_vs_26_6_2_25G82/README.md)
-- [26.6 (25G72) .vs 26.6.1 (25G76)](26_6_25G72_vs_26_6_1_25G76/README.md)
-- [26.6 (25G70) .vs 26.6 (25G72)](26_6_25G70_vs_26_6_25G72/README.md)
+- [26.6.2 (25G82) .vs 26.6.2 (25G83)](macOS/26_6_2_25G82_vs_26_6_2_25G83/README.md)
+- [26.6.1 (25G76) .vs 26.6.2 (25G82)](macOS/26_6_1_25G76_vs_26_6_2_25G82/README.md)
+- [26.6 (25G72) .vs 26.6.1 (25G76)](macOS/26_6_25G72_vs_26_6_1_25G76/README.md)
+- [26.6 (25G70) .vs 26.6 (25G72)](macOS/26_6_25G70_vs_26_6_25G72/README.md)
 
 </details>
 
@@ -603,7 +604,7 @@
 <details open>
   <summary>View diffs</summary>
 
-- [26.6 beta 2 (25G5043d) .vs 26.6 beta 3 (25G5052e)](26_6_25G5043d_vs_26_6_25G5052e/README.md)
+- [26.6 beta 2 (25G5043d) .vs 26.6 beta 3 (25G5052e)](macOS/26_6_25G5043d_vs_26_6_25G5052e/README.md)
 
 </details>
 
@@ -614,7 +615,7 @@
 <details open>
   <summary>View diffs</summary>
 
-- [26.4 (25E246) .vs 26.4.1 (25E253)](26_4_25E246_vs_26_4_1_25E253/README.md)
+- [26.4 (25E246) .vs 26.4.1 (25E253)](macOS/26_4_25E246_vs_26_4_1_25E253/README.md)
 
 </details>
 
@@ -625,7 +626,7 @@
 <details>
   <summary>View diffs</summary>
 
-- [26.3 beta 1 (25D5087f) .vs 26.3 beta 2 (25D5101c)](26_3_25D5087f__vs_26_3_25D5101c/README.md)
+- [26.3 beta 1 (25D5087f) .vs 26.3 beta 2 (25D5101c)](macOS/26_3_25D5087f__vs_26_3_25D5101c/README.md)
 
 </details>
 
@@ -636,7 +637,7 @@
 <details>
   <summary>View diffs</summary>
 
-- [15.4 (24E248) .vs 15.5 beta 1 (24F5042g)](15_4_24E248__vs_15_5_24F5042g/README.md)
+- [15.4 (24E248) .vs 15.5 beta 1 (24F5042g)](macOS/15_4_24E248__vs_15_5_24F5042g/README.md)
 
 </details>
 
@@ -647,7 +648,7 @@
 <details>
   <summary>View diffs</summary>
 
-- [15.3.2 (24D81) .vs 15.4 (24E248)](15_3_2_24D81__vs_15_4_24E248/README.md)
+- [15.3.2 (24D81) .vs 15.4 (24E248)](macOS/15_3_2_24D81__vs_15_4_24E248/README.md)
 
 </details>
 
@@ -658,7 +659,7 @@
 <details>
   <summary>View diffs</summary>
 
-- [15.0 beta 2 (24A5279h) .vs 15.0 beta 3 (24A5289g)](15_0_24A5279h__vs_15_0_24A5289g/TOC.md)
+- [15.0 beta 2 (24A5279h) .vs 15.0 beta 3 (24A5289g)](macOS/15_0_24A5279h__vs_15_0_24A5289g/TOC.md)
 
 </details>
 
@@ -667,7 +668,7 @@
 <details open>
   <summary>View diffs</summary>
 
-- [26.6 beta 3 (25G5052e) .vs 26.6 (25G72)](26_6_25G5052e_vs_26_6_25G72/README.md)
+- [26.6 beta 3 (25G5052e) .vs 26.6 (25G72)](macOS/26_6_25G5052e_vs_26_6_25G72/README.md)
 
 </details>
 

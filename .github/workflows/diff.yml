@@ -56,8 +56,12 @@ jobs:
         include:
           - os: macOS
             device: Mac17,6
+            output: macOS
           - os: iOS
             device: iPhone18,1
+            output: .
+    env:
+      DIFF_OUTPUT: ${{ matrix.output }}
     steps:
       - name: Checkout
         # persist-credentials stays on (default): the job pushes new diffs.
@@ -218,7 +222,7 @@ jobs:
           # Belt-and-suspenders: a diff directory already ending in the next
           # build means we produced it before (e.g. cache lost). Re-record and
           # skip rather than redo the work.
-          if compgen -G "*_${next_build}" > /dev/null; then
+          if compgen -G "$DIFF_OUTPUT/*_${next_build}" > /dev/null; then
             echo "Diff dir for $next_build already exists; re-recording cache, skipping"
             record_baseline
             echo "do_diff=false" >> "$GITHUB_OUTPUT"
@@ -320,7 +324,8 @@ jobs:
           echo "::endgroup::"
 
           echo "::group::Diff"
-          ipsw diff --output . \
+          mkdir -p "$DIFF_OUTPUT"
+          ipsw diff --output "$DIFF_OUTPUT" \
             --markdown \
             --fw \
             --launchd \

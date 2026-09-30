@@ -86,11 +86,12 @@ def ai_labels(
 
 def discover_diff_dir(prev_build: str, next_build: str) -> str:
     matches: list[Path] = []
-    for readme in Path(".").glob("*/README.md"):
-        diff_dir = readme.parent
-        name = diff_dir.name
-        if prev_build in name and next_build in name:
-            matches.append(diff_dir)
+    for root in (Path("."), Path("macOS")):
+        for readme in root.glob("*/README.md"):
+            diff_dir = readme.parent
+            name = diff_dir.name
+            if prev_build in name and next_build in name:
+                matches.append(diff_dir)
 
     if not matches:
         raise FileNotFoundError(
