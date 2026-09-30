@@ -59,7 +59,7 @@ jobs:
             output: macOS
           - os: iOS
             device: iPhone18,1
-            output: .
+            output: iOS
     env:
       DIFF_OUTPUT: ${{ matrix.output }}
     steps:

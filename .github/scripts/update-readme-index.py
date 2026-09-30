@@ -86,7 +86,7 @@ def ai_labels(
 
 def discover_diff_dir(prev_build: str, next_build: str) -> str:
     matches: list[Path] = []
-    for root in (Path("."), Path("macOS")):
+    for root in (Path("."), Path("iOS"), Path("macOS")):
         for readme in root.glob("*/README.md"):
             diff_dir = readme.parent
             name = diff_dir.name
