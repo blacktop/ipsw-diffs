@@ -82,7 +82,7 @@
 
 ### iOS 27.0 beta
 
-<details open>
+<details>
   <summary>View diffs</summary>
 
 - [27.0 beta 8 (24A5430a) .vs 27.0 RC (24A435)](iOS/27_0_24A5430a_vs_27_0_24A435/README.md)
@@ -558,7 +558,7 @@
 
 ### macOS 27.0 beta
 
-<details open>
+<details>
   <summary>View diffs</summary>
 
 - [27.0 beta 7 (26A5421a) .vs 27.0 beta 8 (26A5425a)](macOS/27_0_26A5421a_vs_27_0_26A5425a/README.md)
@@ -588,7 +588,7 @@
 
 ### macOS 26.6
 
-<details open>
+<details>
   <summary>View diffs</summary>
 
 - [26.6.2 (25G82) .vs 26.6.2 (25G83)](macOS/26_6_2_25G82_vs_26_6_2_25G83/README.md)
@@ -602,7 +602,7 @@
 
 ### macOS 26.6 beta
 
-<details open>
+<details>
   <summary>View diffs</summary>
 
 - [26.6 beta 2 (25G5043d) .vs 26.6 beta 3 (25G5052e)](macOS/26_6_25G5043d_vs_26_6_25G5052e/README.md)
@@ -613,7 +613,7 @@
 
 ### macOS 26.4
 
-<details open>
+<details>
   <summary>View diffs</summary>
 
 - [26.4 (25E246) .vs 26.4.1 (25E253)](macOS/26_4_25E246_vs_26_4_1_25E253/README.md)
@@ -666,7 +666,7 @@
 
 <a id="macos-26-6"></a>
 ### macOS 26.6
-<details open>
+<details>
   <summary>View diffs</summary>
 
 - [26.6 beta 3 (25G5052e) .vs 26.6 (25G72)](macOS/26_6_25G5052e_vs_26_6_25G72/README.md)
@@ -675,7 +675,7 @@
 
 <a id="ios-26-6"></a>
 ### iOS 26.6
-<details open>
+<details>
   <summary>View diffs</summary>
 
 - [26.6 (23G71) .vs 26.6.1 (23G83)](iOS/26_6_23G71_vs_26_6_1_23G83/README.md)
