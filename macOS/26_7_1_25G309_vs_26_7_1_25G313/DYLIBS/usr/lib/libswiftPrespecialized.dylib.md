@@ -1,0 +1,9 @@
+## libswiftPrespecialized.dylib
+
+> `/usr/lib/libswiftPrespecialized.dylib`
+
+```diff
+Symbols:
++ _$sSo3stdO3__1O0096basic_stringCChar16std__1char_traitsCChar16std__1allocatorCChar16_IbIIAayaEAfzaCjdxdFAhCaAaIkBaaV9CxxStdlibE9hashValueSivpMV
+- _$sSo3stdO3__1O00102basic_stringCWideCharstd__1char_traitsCWideCharstd__1allocatorCWideChar_FoIFDaAaEHfBaCkdzdFIhEaCaAmDaaV9CxxStdlibE11descriptionSSvpMV
+```
