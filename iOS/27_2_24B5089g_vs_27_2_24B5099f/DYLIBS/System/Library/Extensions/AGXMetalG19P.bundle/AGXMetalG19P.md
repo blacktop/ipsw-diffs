@@ -1,0 +1,18 @@
+## AGXMetalG19P
+
+> `/System/Library/Extensions/AGXMetalG19P.bundle/AGXMetalG19P`
+
+```diff
+
+-362.2.0.0.0
+-  __TEXT.__text: 0xa85db8
++362.3.1.0.0
++  __TEXT.__text: 0xa85e1c
+   __TEXT.__objc_methlist: 0xb564
+   __TEXT.__const: 0x40be80
+   __TEXT.__gcc_except_tab: 0x13d10
+Functions:
+~ __ZN3AGX29RenderTileDispatchEncoderGen2INS_6HAL4008EncodersENS1_7ClassesENS1_10ObjClassesENS1_15CommandEncodingEE12emitDispatchINS1_18TileProgramVariantENS_31CombinedUserDriverArgumentTableIS3_NS_23TileDriverArgumentTableIS3_EEEEEEvPKT_PNS1_28FixedLayoutUserArgumentTableEPT0_7MTLSizeRbPjPNS1_32TileDispatchVertexProgramVariantEbjNSt3__18optionalIjEENS_13TileConditionE : 4896 -> 4952
+~ -[AGXG19FamilyDevice minimumTextureBufferAlignmentForPixelFormat:] : 92 -> 88
+~ __ZN3AGX29RenderTileDispatchEncoderGen2INS_6HAL4008EncodersENS1_7ClassesENS1_10ObjClassesENS1_19CommandEncodingNextEE12emitDispatchINS1_18TileProgramVariantENS_23TileDriverArgumentTableIS3_EEEEvPKT_PNS1_35ConfigurableLayoutUserArgumentTableEPT0_7MTLSizeRbPjPNS1_32TileDispatchVertexProgramVariantEbjNSt3__18optionalIjEENS_13TileConditionE : 5304 -> 5352
+```

@@ -1,0 +1,16 @@
+## MobileAsset
+
+> `/System/Library/DataClassMigrators/MobileAsset.migrator/MobileAsset`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+
+```diff
+
+-2215.40.19.0.0
++2215.40.21.502.1
+   __TEXT.__text: 0x14
+   __TEXT.__objc_methlist: 0x20
+   __TEXT.__const: 0x48
+```

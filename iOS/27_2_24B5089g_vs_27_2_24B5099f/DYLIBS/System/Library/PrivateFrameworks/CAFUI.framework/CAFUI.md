@@ -1,0 +1,147 @@
+## CAFUI
+
+> `/System/Library/PrivateFrameworks/CAFUI.framework/CAFUI`
+
+```diff
+
+-552.3.0.0.0
+-  __TEXT.__text: 0xf4348
+-  __TEXT.__objc_methlist: 0x2890
+-  __TEXT.__const: 0x7dd4
+-  __TEXT.__cstring: 0x3af4
++552.6.2.0.0
++  __TEXT.__text: 0xf4424
++  __TEXT.__objc_methlist: 0x2898
++  __TEXT.__const: 0x7e04
++  __TEXT.__cstring: 0x3b54
+   __TEXT.__oslogstring: 0xf39
+   __TEXT.__ustring: 0x5e
+-  __TEXT.__swift5_typeref: 0xfa7c
+-  __TEXT.__swift5_capture: 0x1d88
+-  __TEXT.__swift5_reflstr: 0x22d1
++  __TEXT.__swift5_typeref: 0xfa80
++  __TEXT.__swift5_capture: 0x1d48
++  __TEXT.__swift5_reflstr: 0x231f
+   __TEXT.__swift5_assocty: 0x5a8
+-  __TEXT.__constg_swiftt: 0x3f8c
+-  __TEXT.__swift5_fieldmd: 0x22e0
++  __TEXT.__constg_swiftt: 0x3fd0
++  __TEXT.__swift5_fieldmd: 0x232c
+   __TEXT.__swift5_builtin: 0xf0
+   __TEXT.__swift5_proto: 0x268
+-  __TEXT.__swift5_types: 0x254
++  __TEXT.__swift5_types: 0x258
+   __TEXT.__swift5_protos: 0x58
+   __TEXT.__swift_as_entry: 0x28
+   __TEXT.__swift_as_ret: 0x20
+   __TEXT.__swift_as_cont: 0x40
+   __TEXT.__swift5_mpenum: 0x2c
+-  __TEXT.__unwind_info: 0x3a88
+-  __TEXT.__eh_frame: 0x1578
++  __TEXT.__unwind_info: 0x3aa0
++  __TEXT.__eh_frame: 0x15a8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_selrefs: 0x2080
+   __DATA_CONST.__objc_protorefs: 0x118
+   __DATA_CONST.__objc_superrefs: 0x20
+-  __DATA_CONST.__got: 0x1390
+-  __AUTH_CONST.__const: 0x6ad0
++  __DATA_CONST.__got: 0x1398
++  __AUTH_CONST.__const: 0x6a60
+   __AUTH_CONST.__cfstring: 0x4e0
+-  __AUTH_CONST.__objc_const: 0xba38
+-  __AUTH_CONST.__auth_got: 0x2260
+-  __AUTH.__objc_data: 0x3b80
+-  __AUTH.__data: 0x2e20
++  __AUTH_CONST.__objc_const: 0xba58
++  __AUTH_CONST.__auth_got: 0x2268
++  __AUTH.__objc_data: 0x3bc0
++  __AUTH.__data: 0x2e38
+   __DATA.__objc_ivar: 0x38
+-  __DATA.__data: 0x4b08
++  __DATA.__data: 0x4b18
+   __DATA.__common: 0x49
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/CarPlay.framework/CarPlay
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 5151
+-  Symbols:   13950
+-  CStrings:  411
++  Functions: 5152
++  Symbols:   13978
++  CStrings:  414
+ 
+Symbols:
++ _$s12CoreGraphics7CGFloatVACs23CustomStringConvertibleAAWL
++ _$s12CoreGraphics7CGFloatVACs23CustomStringConvertibleAAWl
++ _$s12CoreGraphics7CGFloatVSgMR
++ _$s12CoreGraphics7CGFloatVSgMd
++ _$s12CoreGraphics7CGFloatVs23CustomStringConvertibleAAMc
++ _$s5CAFUI15CAFUISwitchViewC8uiSwitch33_761872BAC7C0876D3CD033277B85F8E2LLSo8UISwitchCvpWvd
++ _$s5CAFUI17CAFUITileBaseCellC15switchAccessory0E4View5UIKit06UICellF0VSo6UIViewC_tFZ
++ _$s5CAFUI17CAFUITileBaseCellC17updateAccessories33_5AE52C3D732E730726E7BC4997A1D829LL3foryAA0bD13ConfigurationV_tF
++ _$s5CAFUI18CAFUIPickerRowViewV010$s5CAFUI18bcD93V17isTextHighlighted33_6C310284675F01A5150C81823CEE98B5LL5StatefMp_20_initialStoredValue_fMu_02_6jklmnO0LL7SwiftUI9LazyStateVySbGvgZSbycfU_
++ _$s5CAFUI19CAFUITileDataSourceC15isReloadingView33_0E4D121C5C9C3A69D68EDC06FF2740D7LLSbvpWvd
++ _$s5CAFUI19CAFUITileDataSourceC18prominentTileWidth12CoreGraphics7CGFloatVvg
++ _$s5CAFUI19CAFUITileDataSourceC18prominentTileWidth12CoreGraphics7CGFloatVvgTq
++ _$s5CAFUI23CAFUITileViewControllerC21viewDidLayoutSubviewsyyF
++ _$s5CAFUI23CAFUITileViewControllerC21viewDidLayoutSubviewsyyFTo
++ _$s5CAFUI23CAFUITileViewControllerC31lastProminentTileContainerWidth33_81CEDCC541A633F7CC5FD11DB3C3FABCLL12CoreGraphics7CGFloatVSgvpWvd
++ _$s5CAFUI27CAFListContentAccessoryTypeO6toggleyA2CmFWC
++ _$s5CAFUI38CAFUIScrollBarAwareCompositionalLayoutC014reservedScrollC6Insets5isRHD10horizontal12CoreGraphics7CGFloatV7leading_AI8trailingtSb_AItFZ
++ _$s5CAFUI38CAFUIScrollBarAwareCompositionalLayoutC20ProminentTileMetricsV7columnsSivg
++ _$s5CAFUI38CAFUIScrollBarAwareCompositionalLayoutC20ProminentTileMetricsV7columnsSivpMV
++ _$s5CAFUI38CAFUIScrollBarAwareCompositionalLayoutC20ProminentTileMetricsV9tileWidth12CoreGraphics7CGFloatVvg
++ _$s5CAFUI38CAFUIScrollBarAwareCompositionalLayoutC20ProminentTileMetricsV9tileWidth12CoreGraphics7CGFloatVvpMV
++ _$s5CAFUI38CAFUIScrollBarAwareCompositionalLayoutC20ProminentTileMetricsVMF
++ _$s5CAFUI38CAFUIScrollBarAwareCompositionalLayoutC20ProminentTileMetricsVMa
++ _$s5CAFUI38CAFUIScrollBarAwareCompositionalLayoutC20ProminentTileMetricsVMf
++ _$s5CAFUI38CAFUIScrollBarAwareCompositionalLayoutC20ProminentTileMetricsVMn
++ _$s5CAFUI38CAFUIScrollBarAwareCompositionalLayoutC20ProminentTileMetricsVN
++ _$s5CAFUI38CAFUIScrollBarAwareCompositionalLayoutC20ProminentTileMetricsVWV
++ _$s5CAFUI38CAFUIScrollBarAwareCompositionalLayoutC20ProminentTileMetricsVwet
++ _$s5CAFUI38CAFUIScrollBarAwareCompositionalLayoutC20ProminentTileMetricsVwst
++ _$s5CAFUI38CAFUIScrollBarAwareCompositionalLayoutC20prominentTileMetrics14containerWidthAC09ProminenthI0V12CoreGraphics7CGFloatV_tFZ
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_SaySaySo19CAFAutomakerSettingCGG_Tg5
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_SaySaySo19CAFAutomakerSettingCGG_Tg5Tm
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVySi6offset_So7CAFTripC7elementtG_Tg5010$s5CAFUI18G162CardSourcesC14computeEntries33_E15FEDA4654B4D6DA7188EF9CD83F633LL6inputs04infoC6HiddenAA0bF0VAC11EntryInputsAELLV_SbtFZSbSi6offset_So0B0C7elementt_SiAL_AnOttXEfU_Tf1nnc_n
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVySiG_Tg5Tm
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVySo15CAFPairedDeviceCG_Tg506$sSo27f51DevicesInformationC5CAFUIE012sortedPairedB0SaySo0A6G17CGvgSbAF_AFtXEfU_Tf1nnc_n
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVySo19CAFAutomakerSettingCG_Tg5
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVySo19CAFAutomakerSettingCG_Tg50101$s5CAFUI19CAFUITileDataSourceC23refreshProminentSection33_0E4D121C5C9C3A69D68EDC06FF2740D7LLyyFSbSo19fG11C_AGtXEfU2_Tf1nnc_n
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVys5UInt8VG_Tg5
++ _$sSd11descriptionSSvg
++ _$sSo10CAFDefrostC5CAFUIE10sideSymbol33_31075317F0152F44BC356A29432C9B1BLL4from3for12leftOrientedSSSg13CarAssetUtils07ClimateD9OverridesV_AJ23CAUFeatureConfigurationV0R0V7ElementOSbtFTf4nnnd_n
++ _$ss13_UnsafeBitsetV027_withTemporaryUninitializedB09wordCount4bodyxSi_xABq_YKXEtq_YKs5ErrorR_r0_lFZxSryAB4WordVGq_YKXEfU_s17_NativeDictionaryVys5UInt8VSaySo7CAFTripCGG_s5NeverOTg506$ss13_ab8V013withd36B08capacity4bodyxSi_xABq_YKXEtq_YKs5i9R_r0_lFZxt12_YKXEfU_s17_kl4Vys5m7VSaySo7n6CGG_s5O4OTG5ABq_xRi_zRi0_zRi__Ri0__r0_lyAsQIsgyrzr_Tf1nc_n06$ss17_kl47V6filteryAByxq_GSbx3key_q_5valuet_tqd__YKXEqd__vi12Rd__lFADs13_ab5Vqd__y4U_s5m8V_SaySo7n4CGs5O4OTG5AQxq_Sbq0_Ri_zRi0_zRi__Ri0__Ri_0_Ri0_0_r1_lyAmpSIsgnndzr_Tf1nc_n
++ _OBJC_CLASS_$_UISwitch
++ _symbolic So8UISwitchC
++ _symbolic _____ 5CAFUI38CAFUIScrollBarAwareCompositionalLayoutC20ProminentTileMetricsV
++ _type_layout_string 5CAFUI38CAFUIScrollBarAwareCompositionalLayoutC20ProminentTileMetricsV
+- _$s5CAFUI15CAFUISwitchViewC8uiSwitch33_761872BAC7C0876D3CD033277B85F8E2LLSo10CPUISwitchCvpWvd
+- _$s5CAFUI19CAFUITileDataSourceC9cellWidthSdvMTq
+- _$s5CAFUI19CAFUITileDataSourceC9cellWidthSdvgTq
+- _$s5CAFUI19CAFUITileDataSourceC9cellWidthSdvpWvd
+- _$s5CAFUI19CAFUITileDataSourceC9cellWidthSdvs
+- _$s5CAFUI19CAFUITileDataSourceC9cellWidthSdvsTq
+- _$sSo10CAFDefrostC5CAFUIE16sideMirrorSymbol33_31075317F0152F44BC356A29432C9B1BLL4from12leftOrientedSSSg13CarAssetUtils07ClimateE9OverridesV_SbtFTf4nnd_n
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKFSaySo19CAFAutomakerSettingCG_Tg5
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKFSi6offset_So7CAFTripC7elementt_Tg5010$s5CAFUI18F162CardSourcesC14computeEntries33_E15FEDA4654B4D6DA7188EF9CD83F633LL6inputs04infoC6HiddenAA0bF0VAC11EntryInputsAELLV_SbtFZSbSi6offset_So0B0C7elementt_SiAL_AnOttXEfU_Tf1cn_n
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKFSi_Tg5Tm
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKFSo15CAFPairedDeviceC_Tg506$sSo27e51DevicesInformationC5CAFUIE012sortedPairedB0SaySo0A6F17CGvgSbAF_AFtXEfU_Tf1cn_n
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKFSo19CAFAutomakerSettingC_Tg5
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKFSo19CAFAutomakerSettingC_Tg50101$s5CAFUI19CAFUITileDataSourceC23refreshProminentSection33_0E4D121C5C9C3A69D68EDC06FF2740D7LLyyFSbSo19eF11C_AGtXEfU2_Tf1cn_n
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKFs5UInt8V_Tg5
+- _$ss13_UnsafeBitsetV027_withTemporaryUninitializedB09wordCount4bodyxSi_xABq_YKXEtq_YKs5ErrorR_r0_lFZxSryAB4WordVGq_YKXEfU_s17_NativeDictionaryVys5UInt8VSaySo7CAFTripCGG_s5NeverOTg506$ss17_kl51V6filteryAByxq_GSbx3key_q_5valuet_tqd__YKXEqd__YKs5i12Rd__lFADs13_ab14Vqd__YKXEfU_s5m8V_SaySo7n4CGs5O4OTG5AQxq_Sbq0_Ri_zRi0_zRi__Ri0__Ri_0_Ri0_0_r1_lyAmpSIsgnndzr_Tf1nc_n
+- _OBJC_CLASS_$_CPUISwitch
+- _symbolic So10CPUISwitchC
+CStrings:
++ "container width "
++ "suppressing re-entrant reload"
++ "viewDidLayoutSubviews()"
+```

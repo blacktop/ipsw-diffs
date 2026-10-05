@@ -1,0 +1,178 @@
+## SpeechRecognitionCommandAndControl
+
+> `/System/Library/PrivateFrameworks/SpeechRecognitionCommandAndControl.framework/SpeechRecognitionCommandAndControl`
+
+```diff
+
+-191.2.1.0.0
+-  __TEXT.__text: 0x11bfb4
+-  __TEXT.__objc_methlist: 0xc104
+-  __TEXT.__const: 0x4844
++191.2.3.0.0
++  __TEXT.__text: 0x11e44c
++  __TEXT.__objc_methlist: 0xc174
++  __TEXT.__const: 0x4874
+   __TEXT.__oslogstring: 0x442a
+-  __TEXT.__cstring: 0x97b7
+-  __TEXT.__gcc_except_tab: 0x2578
++  __TEXT.__cstring: 0x98d7
++  __TEXT.__gcc_except_tab: 0x2588
+   __TEXT.__ustring: 0x96
+   __TEXT.__dlopen_cstrs: 0x5e
+-  __TEXT.__constg_swiftt: 0x2110
+-  __TEXT.__swift5_typeref: 0x92cc
++  __TEXT.__constg_swiftt: 0x2128
++  __TEXT.__swift5_typeref: 0x930a
+   __TEXT.__swift5_builtin: 0x104
+   __TEXT.__swift5_reflstr: 0xdc8
+   __TEXT.__swift5_fieldmd: 0x1020
+
+   __TEXT.__swift_as_entry: 0x3c
+   __TEXT.__swift_as_ret: 0x4c
+   __TEXT.__swift_as_cont: 0x74
+-  __TEXT.__unwind_info: 0x5a40
++  __TEXT.__unwind_info: 0x5a90
+   __TEXT.__eh_frame: 0x11c0
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x2348
++  __DATA_CONST.__const: 0x2368
+   __DATA_CONST.__objc_classlist: 0x540
+   __DATA_CONST.__objc_catlist: 0x40
+   __DATA_CONST.__objc_protolist: 0x1d8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x7f90
++  __DATA_CONST.__objc_selrefs: 0x7fd8
+   __DATA_CONST.__objc_protorefs: 0x30
+   __DATA_CONST.__objc_superrefs: 0x2b0
+   __DATA_CONST.__objc_arraydata: 0x8b8
+-  __DATA_CONST.__got: 0x1560
+-  __AUTH_CONST.__const: 0x4df8
+-  __AUTH_CONST.__cfstring: 0x9a60
++  __DATA_CONST.__got: 0x1580
++  __AUTH_CONST.__const: 0x4e98
++  __AUTH_CONST.__cfstring: 0x9b40
+   __AUTH_CONST.__objc_const: 0x11aa8
+   __AUTH_CONST.__objc_intobj: 0x390
+   __AUTH_CONST.__objc_doubleobj: 0x70
+   __AUTH_CONST.__objc_arrayobj: 0x138
+   __AUTH_CONST.__objc_dictobj: 0xf0
+-  __AUTH_CONST.__auth_got: 0x1f30
+-  __AUTH.__objc_data: 0x4828
++  __AUTH_CONST.__auth_got: 0x1f60
++  __AUTH.__objc_data: 0x4840
+   __AUTH.__data: 0x1710
+   __DATA.__objc_ivar: 0xabc
+-  __DATA.__data: 0x3300
++  __DATA.__data: 0x3338
+   __DATA.__objc_stublist: 0x10
+   __DATA.__common: 0x298
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 7376
+-  Symbols:   14865
+-  CStrings:  1872
++  Functions: 7403
++  Symbols:   14926
++  CStrings:  1884
+ 
+Symbols:
++ -[CACDisplayManager labeledElementsForNames]
++ -[CACElementNamesOverlayManager labeledElements]
++ -[CACUtilityToolServer gridCellDetails]
++ -[CACUtilityToolServer labelDetailsForLabeledElements:]
++ -[CACUtilityToolServer nameLabelDetails]
++ -[CACUtilityToolServer numberedLabelDetails]
++ GCC_except_table77
++ _$s14VoiceControlUI20VCScrollElementModelC5frameSo6CGRectVvgTj
++ _$s16GenerativeModels0aB12AvailabilityV0C0O14RestrictedInfoV0D6ReasonO15assetIsNotReadyyA2ImFWC
++ _$s16GenerativeModels0aB12AvailabilityV0C0O14RestrictedInfoV0D6ReasonOAISHAAWL
++ _$s16GenerativeModels0aB12AvailabilityV0C0O14RestrictedInfoV0D6ReasonOAISQAAWL
++ _$s16GenerativeModels0aB12AvailabilityV0C0O14RestrictedInfoV0D6ReasonOMa
++ _$s16GenerativeModels0aB12AvailabilityV0C0O14RestrictedInfoV0D6ReasonOMn
++ _$s16GenerativeModels0aB12AvailabilityV0C0O14RestrictedInfoV0D6ReasonOSHAAMc
++ _$s16GenerativeModels0aB12AvailabilityV0C0O14RestrictedInfoV0D6ReasonOSQAAMc
++ _$s16GenerativeModels0aB12AvailabilityV0C0O14RestrictedInfoV11descriptionSSvg
++ _$s16GenerativeModels0aB12AvailabilityV0C0O14RestrictedInfoV7reasonsShyAG0D6ReasonOGvg
++ _$s16GenerativeModels0aB12AvailabilityV0C0O15UnavailableInfoV11descriptionSSvg
++ _$s34SpeechRecognitionCommandAndControl21CACUIGroundingMatcherC05voiceE25IntelligencePrerequisitesSDySSSbGyFZ
++ _$s34SpeechRecognitionCommandAndControl21CACUIGroundingMatcherC05voiceE25IntelligencePrerequisitesSDySSSbGyFZTf4d_n
++ _$s34SpeechRecognitionCommandAndControl21CACUIGroundingMatcherC05voiceE25IntelligencePrerequisitesSDySSSbGyFZTj
++ _$s34SpeechRecognitionCommandAndControl21CACUIGroundingMatcherC05voiceE25IntelligencePrerequisitesSDySSSbGyFZTo
++ _$s34SpeechRecognitionCommandAndControl21CACUIGroundingMatcherC05voiceE25IntelligencePrerequisitesSDySSSbGyFZToTm
++ _$s34SpeechRecognitionCommandAndControl21CACUIGroundingMatcherC05voiceE25IntelligencePrerequisitesSDySSSbGyFZTq
++ _$s34SpeechRecognitionCommandAndControl21CACUIGroundingMatcherC05voiceE25IntelligencePrerequisitesSDySSSbGyFZTv_r
++ _$s34SpeechRecognitionCommandAndControl21CACUIGroundingMatcherC05voiceE32IntelligenceSettingsPresentationSo014CACVCISettingsK0VyFZ
++ _$s34SpeechRecognitionCommandAndControl21CACUIGroundingMatcherC05voiceE32IntelligenceSettingsPresentationSo014CACVCISettingsK0VyFZTf4d_n
++ _$s34SpeechRecognitionCommandAndControl21CACUIGroundingMatcherC05voiceE32IntelligenceSettingsPresentationSo014CACVCISettingsK0VyFZTj
++ _$s34SpeechRecognitionCommandAndControl21CACUIGroundingMatcherC05voiceE32IntelligenceSettingsPresentationSo014CACVCISettingsK0VyFZTo
++ _$s34SpeechRecognitionCommandAndControl21CACUIGroundingMatcherC05voiceE32IntelligenceSettingsPresentationSo014CACVCISettingsK0VyFZTq
++ _$s34SpeechRecognitionCommandAndControl21CACUIGroundingMatcherC05voiceE32IntelligenceSettingsPresentationSo014CACVCISettingsK0VyFZTv_r
++ _$s34SpeechRecognitionCommandAndControl21CACUIGroundingMatcherC05voiceE46IntelligencePrerequisiteAdditionalDescriptionsSDyS2SGyFZ
++ _$s34SpeechRecognitionCommandAndControl21CACUIGroundingMatcherC05voiceE46IntelligencePrerequisiteAdditionalDescriptionsSDyS2SGyFZTf4d_n
++ _$s34SpeechRecognitionCommandAndControl21CACUIGroundingMatcherC05voiceE46IntelligencePrerequisiteAdditionalDescriptionsSDyS2SGyFZTj
++ _$s34SpeechRecognitionCommandAndControl21CACUIGroundingMatcherC05voiceE46IntelligencePrerequisiteAdditionalDescriptionsSDyS2SGyFZTo
++ _$s34SpeechRecognitionCommandAndControl21CACUIGroundingMatcherC05voiceE46IntelligencePrerequisiteAdditionalDescriptionsSDyS2SGyFZTq
++ _$s34SpeechRecognitionCommandAndControl21CACUIGroundingMatcherC05voiceE46IntelligencePrerequisiteAdditionalDescriptionsSDyS2SGyFZTv_r
++ _$s34SpeechRecognitionCommandAndControl29CACDebugOverlayViewControllerC11viewDidLoadyyFy10Foundation12NotificationVYbcfU0_Tm
++ _$s34SpeechRecognitionCommandAndControl29CACDebugOverlayViewControllerC11viewDidLoadyyFy10Foundation12NotificationVYbcfU_
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_SbTt0g5Tf4g_n
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVy14VoiceControlUI08VCScrollC5ModelCG_Tg50115$s34SpeechRecognitionCommandAndControl30CACLabeledScrollOverlayManagerC17scrollViewDetailsSaySDySSypGGyFyyXEfU_Sb05f6E2UI20icJ10C_AItXEfU_Tf1nnc_n
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVy34SpeechRecognitionCommandAndControl21CACElementNumberGroupCG_Tg504$s34fghi9Control26kl42StabilizerC17stabilizeElementsSbyFSbAA0fG5M10C_AFtXEfU_Tf1nnc_n
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVySo9AXElementCG_Tg5
++ _$sSS_SbtMR
++ _$sSS_SbtMd
++ _$sSh21_nonEmptyArrayLiteralShyxGSayxG_tcfC16GenerativeModels0eF12AvailabilityV0G0O14RestrictedInfoV0H6ReasonO_Tt0g5Tf4g_n
++ _$sSh2eeoiySbShyxG_ABtFZ16GenerativeModels0bC12AvailabilityV0D0O14RestrictedInfoV0E6ReasonO_Tt1g5
++ _$ss11_SetStorageC8allocate8capacityAByxGSi_tFZ
++ _$ss11_SetStorageCMn
++ _$ss11_SetStorageCy16GenerativeModels0cD12AvailabilityV0E0O14RestrictedInfoV0F6ReasonOGMR
++ _$ss11_SetStorageCy16GenerativeModels0cD12AvailabilityV0E0O14RestrictedInfoV0F6ReasonOGMd
++ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_SSTg5
++ _$ss17_NativeDictionaryV4copyyyFSS_SSTg5
++ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSS_SSTg5
++ _$ss18_DictionaryStorageCySSSbGMR
++ _$ss18_DictionaryStorageCySSSbGMd
++ _$ss23_ContiguousArrayStorageCy16GenerativeModels0dE12AvailabilityV0F0O14RestrictedInfoV0G6ReasonOGMR
++ _$ss23_ContiguousArrayStorageCy16GenerativeModels0dE12AvailabilityV0F0O14RestrictedInfoV0G6ReasonOGMd
++ _$ss23_ContiguousArrayStorageCySS_SbtGMR
++ _$ss23_ContiguousArrayStorageCySS_SbtGMd
++ _CACVCIGetSettingsPresentation
++ ___40-[CACUtilityToolServer nameLabelDetails]_block_invoke
++ ___55-[CACUtilityToolServer labelDetailsForLabeledElements:]_block_invoke
++ ___block_descriptor_32_e49_q24?0"CACLabeledElement"8"CACLabeledElement"16l
++ ___block_descriptor_57_e8_32s40r48r_e5_v8?0ls32l8r40l8r48l8
++ _symbolic SS_Sbt
++ _symbolic _____ySSSbG s18_DictionaryStorageC
++ _symbolic _____ySS_SbtG s23_ContiguousArrayStorageC
++ _symbolic _____y_____G s11_SetStorageC 16GenerativeModels0cD12AvailabilityV0E0O14RestrictedInfoV0F6ReasonO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 16GenerativeModels0dE12AvailabilityV0F0O14RestrictedInfoV0G6ReasonO
+- GCC_except_table75
+- _$s34SpeechRecognitionCommandAndControl21CACUIGroundingMatcherC05voiceE19IntelligenceEnabledSbyFZ05appleijD5ReadyL_SbyF
+- _$s34SpeechRecognitionCommandAndControl21CACUIGroundingMatcherC05voiceE19IntelligenceEnabledSbyFZ05appleijD5ReadyL_SbyFTv_r
+- _$s34SpeechRecognitionCommandAndControl29CACDebugOverlayViewControllerC11viewDidLoadyyFy10Foundation12NotificationVYbcfU_Tm
+- _$s34SpeechRecognitionCommandAndControl29CACDebugOverlayViewControllerC18updateVCIIndicator33_419C9782E5D1B4A887E369CEAD972F6ELLyyF
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKF14VoiceControlUI20VCScrollElementModelC_Tg50115$s34SpeechRecognitionCommandAndControl30CACLabeledScrollOverlayManagerC17scrollViewDetailsSaySDySSypGGyFyyXEfU_Sb05e6E2UI20hiJ10C_AItXEfU_Tf1cn_n
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKF34SpeechRecognitionCommandAndControl21CACElementNumberGroupC_Tg504$s34efgh9Control26jk42StabilizerC17stabilizeElementsSbyFSbAA0fG5L10C_AFtXEfU_Tf1cn_n
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKFSo9AXElementC_Tg5
+- ___block_descriptor_50_e8_32s40r_e5_v8?0ls32l8r40l8
+CStrings:
++ "GridCells"
++ "Label"
++ "NameLabels"
++ "NumberLabels"
++ "VCIAdditionalDescriptions"
++ "VCIPrerequisites"
++ "activeVCLocaleSupported"
++ "deviceCapability"
++ "generativeModelAvailability"
++ "generativeModelAvailabilityDetail"
++ "q24@?0@\"CACLabeledElement\"8@\"CACLabeledElement\"16"
++ "vciStatus"
+```

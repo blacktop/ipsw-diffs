@@ -1,0 +1,33 @@
+## LLMCache
+
+> `/System/Library/PrivateFrameworks/LLMCache.framework/LLMCache`
+
+```diff
+
+ 3500.5.1.0.0
+-  __TEXT.__text: 0x28fb8
++  __TEXT.__text: 0x28ff0
+   __TEXT.__const: 0x1018
+   __TEXT.__constg_swiftt: 0x604
+   __TEXT.__swift5_typeref: 0x328
+
+   __TEXT.__swift_as_ret: 0x74
+   __TEXT.__swift_as_cont: 0xec
+   __TEXT.__swift5_protos: 0xc
+-  __TEXT.__unwind_info: 0xb80
+-  __TEXT.__eh_frame: 0x1b68
++  __TEXT.__unwind_info: 0xb88
++  __TEXT.__eh_frame: 0x1b90
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+Symbols:
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVy8LLMCache19AnnotatedCacheEntryVG_Tg5
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVy8LLMCache19AnnotatedCacheEntryVG_Tg50180$s8LLMCache15BiomeLogEmitterC20buildSearchTelemetry4cmId5state11listRequest0K8Response5error27IntelligencePlatformLibrary0a7ManagerG0V10Foundation4UUIDV_AC5StateOAA04ListL0VSayAA19ghI31VGAA0aR5ErrorOSgtFSbAU_AUtXEfU_Tf1nnc_n
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKF8LLMCache19AnnotatedCacheEntryV_Tg5
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKF8LLMCache19AnnotatedCacheEntryV_Tg50180$s8LLMCache15BiomeLogEmitterC20buildSearchTelemetry4cmId5state11listRequest0K8Response5error27IntelligencePlatformLibrary0a7ManagerG0V10Foundation4UUIDV_AC5StateOAA04ListL0VSayAA19fgH31VGAA0aR5ErrorOSgtFSbAU_AUtXEfU_Tf1cn_n
+Functions:
+~ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFs15ContiguousArrayVy8LLMCache19AnnotatedCacheEntryVG_Tg50180$s8LLMCache15BiomeLogEmitterC20buildSearchTelemetry4cmId5state11listRequest0K8Response5error27IntelligencePlatformLibrary0a7ManagerG0V10Foundation4UUIDV_AC5StateOAA04ListL0VSayAA19ghI31VGAA0aR5ErrorOSgtFSbAU_AUtXEfU_Tf1cn_n : 144 -> 148
+~ _$s2os9serialize_2atyx_Spys5UInt8VGzts17FixedWidthIntegerRzlFySWXEfU_ : 32 -> 68
+~ _$sSr15_stableSortImpl2byySbx_xtKXE_tKF8LLMCache19AnnotatedCacheEntryV_Tg5 -> _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVy8LLMCache19AnnotatedCacheEntryVG_Tg5 : 292 -> 308
+```

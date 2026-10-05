@@ -1,0 +1,22 @@
+## iboot_blob35.bin
+
+- `%s supportIgnoreShutdownDueToInstantBoot asserted, shutdown ignored`
+- `Start OPD state:%d Total:%dmA IBAT1:%dmA IBAT2:%dmA Nom:%dmA`
+- `(AWL) ERROR: Failed to write report of size %zu at offset %#zx: %d`
+- `%s supportSmcPolicyBatteryShutdown asserted, shutdown requested`
+- `(AWL)  INFO: [%03zx] %02x%02x%02x%02x`
+- `batteryShutdownPolicy:`
+- `WLCH: ds buf[%d] hdr = 0; drop rcv data ind`
+- `power rail fault: ADC ch %u reading faile`
+- `(AWL)  INFO: [%03zx]   %02x%02x%02x`
+- `%s supportIgnoreShutdownDueToFullPowerAdapter asserted, shutdown ignored`
+- `(AWL)  INFO: [%03zx]       %02x`
+- `DPLOSS,frt`
+- `periodic: set not yet complete rc=%d, will retry next tick`
+- `%s GGShutdownFlag asserted, shutdown requested`
+- `%s supportCellVoltageShutdown asserted, shutdown requested`
+- `%s supportIgnoreShutdownDueToAdapterConnected asserted, shutdown ignored`
+- `smc/bms/v1/batterySocFilter/batterySocFilter.cpp`
+- `(AWL)  INFO: New AWL Report (Type %d, Version %d, Size %zu)`
+- `(AWL)  INFO: [%03zx]     %02x%02x`
+- `(AWL) ERROR: Unknown PS value %u`

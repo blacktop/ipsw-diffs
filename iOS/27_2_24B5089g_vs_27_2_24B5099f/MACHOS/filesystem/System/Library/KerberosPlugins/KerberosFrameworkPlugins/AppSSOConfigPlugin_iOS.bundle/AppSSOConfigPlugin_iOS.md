@@ -1,0 +1,16 @@
+## AppSSOConfigPlugin_iOS
+
+> `/System/Library/KerberosPlugins/KerberosFrameworkPlugins/AppSSOConfigPlugin_iOS.bundle/AppSSOConfigPlugin_iOS`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+
+```diff
+
+-643.40.27.0.0
++643.40.34.0.0
+   __TEXT.__text: 0xbf0
+   __TEXT.__auth_stubs: 0x1e0
+   __TEXT.__objc_stubs: 0x1c0
+```

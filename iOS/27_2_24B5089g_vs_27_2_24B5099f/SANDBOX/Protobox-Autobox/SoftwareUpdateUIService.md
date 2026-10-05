@@ -1,0 +1,14 @@
+## SoftwareUpdateUIService
+
+> Group: ⬆️ Updated
+
+```diff
+
+ 		F_RDADVISE
+ 		F_GETPATH
+ 		F_GETPROTECTIONCLASS
++		F_SETPROTECTIONCLASS
+ 		F_LOG2PHYS_EXT
+ 		F_BARRIERFSYNC
+ 		F_OFD_SETLK
+```

@@ -1,0 +1,592 @@
+## DesktopServicesPriv
+
+> `/System/Library/PrivateFrameworks/DesktopServicesPriv.framework/DesktopServicesPriv`
+
+```diff
+
+-1857.1.4.0.0
+-  __TEXT.__text: 0x19e1a0
+-  __TEXT.__objc_methlist: 0x49f4
+-  __TEXT.__gcc_except_tab: 0x28fc8
++1857.1.7.0.0
++  __TEXT.__text: 0x1a1dd0
++  __TEXT.__objc_methlist: 0x4afc
++  __TEXT.__gcc_except_tab: 0x296a8
++  __TEXT.__cstring: 0x6f60
+   __TEXT.__const: 0x90a7
+-  __TEXT.__cstring: 0x6f2c
+-  __TEXT.__oslogstring: 0x8e8b
++  __TEXT.__oslogstring: 0x9080
+   __TEXT.__ustring: 0x24
+-  __TEXT.__unwind_info: 0xd4b8
++  __TEXT.__unwind_info: 0xd588
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xfc0
+-  __DATA_CONST.__objc_classlist: 0x2f8
++  __DATA_CONST.__const: 0xfd8
++  __DATA_CONST.__objc_classlist: 0x300
+   __DATA_CONST.__objc_catlist: 0x10
+   __DATA_CONST.__objc_protolist: 0x90
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__weak_got: 0x10
+-  __DATA_CONST.__objc_selrefs: 0x2910
++  __DATA_CONST.__objc_selrefs: 0x2940
+   __DATA_CONST.__objc_protorefs: 0x38
+-  __DATA_CONST.__objc_superrefs: 0x1b0
++  __DATA_CONST.__objc_superrefs: 0x1b8
+   __DATA_CONST.__objc_arraydata: 0x88
+-  __DATA_CONST.__got: 0xb50
+-  __AUTH_CONST.__const: 0x9870
+-  __AUTH_CONST.__cfstring: 0x3d40
+-  __AUTH_CONST.__objc_const: 0x72d8
++  __DATA_CONST.__got: 0xb58
++  __AUTH_CONST.__const: 0x9850
++  __AUTH_CONST.__cfstring: 0x3d80
++  __AUTH_CONST.__objc_const: 0x7380
+   __AUTH_CONST.__weak_auth_got: 0x28
+   __AUTH_CONST.__objc_intobj: 0x138
+   __AUTH_CONST.__objc_arrayobj: 0x30
+   __AUTH_CONST.__objc_dictobj: 0x28
+-  __AUTH_CONST.__auth_got: 0x1128
+-  __AUTH.__objc_data: 0x1d88
++  __AUTH_CONST.__auth_got: 0x1130
++  __AUTH.__objc_data: 0x1db0
++  __AUTH.__thread_vars: 0x30
++  __AUTH.__thread_bss: 0x10
+   __DATA.__objc_ivar: 0x40c
+   __DATA.__data: 0xcd0
+   __DATA.__common: 0x121
+-  __DATA_DIRTY.__objc_data: 0x28
++  __DATA_DIRTY.__objc_data: 0x50
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/FileProvider.framework/FileProvider
+
+   - /System/Library/PrivateFrameworks/IconServices.framework/IconServices
+   - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
+   - /System/Library/PrivateFrameworks/Sharing.framework/Sharing
++  - /System/Library/PrivateFrameworks/TCC.framework/TCC
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 7924
+-  Symbols:   12804
+-  CStrings:  1926
++  Functions: 7964
++  Symbols:   12876
++  CStrings:  1937
+ 
+Symbols:
++ +[DSQuarantine settleQuarantine:atURL:error:]
++ -[FICustomNode keyNodesForMappingToPresentationNode]
++ -[FICustomNode remapKeyNodesToPresentationNode]
++ -[FICustomNode setKeyNodesForMappingToPresentationNode:]
++ -[FIPassthroughOperationURLNode fiDomain]
++ -[FIPassthroughOperationURLNode fileName]
++ -[FIPassthroughOperationURLNode fileOpNode]
++ -[FIPassthroughOperationURLNode fileParent]
++ -[FIPassthroughOperationURLNode fileURL]
++ -[FIPassthroughOperationURLNode fpDomain]
++ -[FIPassthroughOperationURLNode fpItem]
++ -[FIPassthroughOperationURLNode infoNode]
++ -[FIPassthroughOperationURLNode initWithURL:]
++ -[FIPassthroughOperationURLNode isFPv2]
++ -[FIPassthroughOperationURLNode isValid]
++ -[FIPassthroughOperationURLNode iteratorWithOptions:]
++ -[FIPassthroughOperationURLNode nodeToMoveOrDelete]
++ -[FIPassthroughOperationURLNode parent]
++ -[FIPassthroughOperationURLNode requiresFPOperations]
++ -[FIPassthroughOperationURLNode shortDescription]
++ -[FIPassthroughOperationURLNode source]
++ -[FIPassthroughOperationURLNode usesDSCopyEngine]
++ GCC_except_table1017
++ GCC_except_table1018
++ GCC_except_table1024
++ GCC_except_table1030
++ GCC_except_table1042
++ GCC_except_table1045
++ GCC_except_table1046
++ GCC_except_table1047
++ GCC_except_table1048
++ GCC_except_table1049
++ GCC_except_table1050
++ GCC_except_table1052
++ GCC_except_table1054
++ GCC_except_table1055
++ GCC_except_table1062
++ GCC_except_table1074
++ GCC_except_table1075
++ GCC_except_table1076
++ GCC_except_table1077
++ GCC_except_table1078
++ GCC_except_table1079
++ GCC_except_table1080
++ GCC_except_table1084
++ GCC_except_table1099
++ GCC_except_table1101
++ GCC_except_table1105
++ GCC_except_table1111
++ GCC_except_table1115
++ GCC_except_table1123
++ GCC_except_table1127
++ GCC_except_table1131
++ GCC_except_table1133
++ GCC_except_table1135
++ GCC_except_table1139
++ GCC_except_table1143
++ GCC_except_table1154
++ GCC_except_table1162
++ GCC_except_table1164
++ GCC_except_table1166
++ GCC_except_table1167
++ GCC_except_table1168
++ GCC_except_table1169
++ GCC_except_table1176
++ GCC_except_table1187
++ GCC_except_table1188
++ GCC_except_table1189
++ GCC_except_table1194
++ GCC_except_table1195
++ GCC_except_table1196
++ GCC_except_table1197
++ GCC_except_table1198
++ GCC_except_table1199
++ GCC_except_table1200
++ GCC_except_table1205
++ GCC_except_table1206
++ GCC_except_table1207
++ GCC_except_table1217
++ GCC_except_table1223
++ GCC_except_table1224
++ GCC_except_table1225
++ GCC_except_table1227
++ GCC_except_table1228
++ GCC_except_table1255
++ GCC_except_table216
++ GCC_except_table301
++ GCC_except_table317
++ GCC_except_table335
++ GCC_except_table366
++ GCC_except_table373
++ GCC_except_table379
++ GCC_except_table381
++ GCC_except_table391
++ GCC_except_table426
++ GCC_except_table433
++ GCC_except_table440
++ GCC_except_table444
++ GCC_except_table446
++ GCC_except_table454
++ GCC_except_table462
++ GCC_except_table471
++ GCC_except_table472
++ GCC_except_table490
++ GCC_except_table516
++ GCC_except_table517
++ GCC_except_table527
++ GCC_except_table529
++ GCC_except_table536
++ GCC_except_table539
++ GCC_except_table544
++ GCC_except_table549
++ GCC_except_table558
++ GCC_except_table561
++ GCC_except_table563
++ GCC_except_table570
++ GCC_except_table585
++ GCC_except_table587
++ GCC_except_table594
++ GCC_except_table595
++ GCC_except_table599
++ GCC_except_table601
++ GCC_except_table606
++ GCC_except_table611
++ GCC_except_table613
++ GCC_except_table614
++ GCC_except_table616
++ GCC_except_table628
++ GCC_except_table629
++ GCC_except_table630
++ GCC_except_table632
++ GCC_except_table636
++ GCC_except_table640
++ GCC_except_table644
++ GCC_except_table646
++ GCC_except_table651
++ GCC_except_table653
++ GCC_except_table657
++ GCC_except_table662
++ GCC_except_table666
++ GCC_except_table672
++ GCC_except_table676
++ GCC_except_table685
++ GCC_except_table687
++ GCC_except_table695
++ GCC_except_table701
++ GCC_except_table707
++ GCC_except_table714
++ GCC_except_table717
++ GCC_except_table736
++ GCC_except_table742
++ GCC_except_table745
++ GCC_except_table747
++ GCC_except_table751
++ GCC_except_table753
++ GCC_except_table755
++ GCC_except_table757
++ GCC_except_table760
++ GCC_except_table769
++ GCC_except_table770
++ GCC_except_table773
++ GCC_except_table776
++ GCC_except_table778
++ GCC_except_table781
++ GCC_except_table783
++ GCC_except_table788
++ GCC_except_table797
++ GCC_except_table799
++ GCC_except_table802
++ GCC_except_table804
++ GCC_except_table807
++ GCC_except_table814
++ GCC_except_table815
++ GCC_except_table816
++ GCC_except_table818
++ GCC_except_table822
++ GCC_except_table837
++ GCC_except_table847
++ GCC_except_table859
++ GCC_except_table862
++ GCC_except_table867
++ GCC_except_table874
++ GCC_except_table875
++ GCC_except_table876
++ GCC_except_table901
++ GCC_except_table903
++ GCC_except_table936
++ GCC_except_table942
++ GCC_except_table943
++ GCC_except_table955
++ GCC_except_table975
++ GCC_except_table981
++ GCC_except_table983
++ GCC_except_table985
++ GCC_except_table987
++ GCC_except_table988
++ GCC_except_table989
++ GCC_except_table990
++ GCC_except_table991
++ GCC_except_table997
++ _OBJC_CLASS_$_FIPassthroughOperationURLNode
++ _OBJC_METACLASS_$_FIPassthroughOperationURLNode
++ __OBJC_$_INSTANCE_METHODS_FIPassthroughOperationURLNode
++ __OBJC_$_PROP_LIST_FICustomNode
++ __OBJC_CLASS_RO_$_FIPassthroughOperationURLNode
++ __OBJC_METACLASS_RO_$_FIPassthroughOperationURLNode
++ __Z16static_objc_castI5NSSetIP6FINodeEU8__strongPS3_EPT_T0_
++ __Z16static_objc_castI5NSSetU8__strongPS0_IP6FINodeEEPT_T0_
++ __Z16static_objc_castI8FIDSNodePKvEPT_T0_
++ __Z16static_objc_castI8FIDSNodeU8__strongP29FIPassthroughOperationURLNodeEPT_T0_
++ __Z19kTStringLiteralDataIJLc110ELc111ELc32ELc102ELc111ELc108ELc108ELc111ELc119ELc32ELc85ELc82ELc76EEE
++ __Z31HelperOptionsForScriptingSender16OperationOptionsP6NSData
++ __Z9objc_castI29FIPassthroughOperationURLNodeU8__strongP6FINodeEPT_T0_
++ __ZGVZL22FINodeOffsetToNodeIvarvE10nodeOffset
++ __ZGVZN11TFSIteratorC1EPK7__CFURLPK9__CFArray12LSPropertiesb17FSInfoVirtualTypeE17iosExternalPrefix
++ __ZL23kKeyNodesAssociationKey
++ __ZN10TCFURLInfo10InitializeERK12cstring_view
++ __ZN10TCFURLInfo20POSIXErrorToOSStatusEi
++ __ZN10TCFURLInfo22RenameWithoutReplacingERK12cstring_viewS2_
++ __ZN11TFSIteratorC1EPK7__CFURLPK9__CFArray12LSPropertiesb17FSInfoVirtualType
++ __ZN11TFSIteratorC2EPK7__CFURLPK9__CFArray12LSPropertiesb17FSInfoVirtualType
++ __ZN12cstring_viewC1ERK7TString
++ __ZN15iterator_extras21make_zip_iter_details11ZippedRangeINSt3__15tupleIJRU8__strongP7NSArrayIP16FPProviderDomainERNS2_6vectorIN4fstd12optional_errIU8__strongP6FPItemU8__strongP7NSErrorEENS2_9allocatorISK_EEEEEEEJLm0ELm1EEE11ZipIteratorINS3_IJ26IDContainerIteratorAdaptorIS7_ENS2_11__wrap_iterIPSK_EEEEENS3_IJU8__strongS6_RSK_EEEEC2EOSX_
++ __ZN15iterator_extras21make_zip_iter_details11ZippedRangeINSt3__15tupleIJRU8__strongP7NSArrayIP16FPProviderDomainERNS2_6vectorIN4fstd12optional_errIU8__strongP6FPItemU8__strongP7NSErrorEENS2_9allocatorISK_EEEEEEEJLm0ELm1EEE3endEv
++ __ZN15iterator_extras21make_zip_iter_details11ZippedRangeINSt3__15tupleIJRU8__strongP7NSArrayIP16FPProviderDomainERNS2_6vectorIN4fstd12optional_errIU8__strongP6FPItemU8__strongP7NSErrorEENS2_9allocatorISK_EEEEEEEJLm0ELm1EEE5beginEv
++ __ZN16TDSHelperContextC1E16OperationOptionsPK10__CFStringP6NSData
++ __ZN16TDSHelperContextC2E16OperationOptionsPK10__CFStringP6NSData
++ __ZN18TDSHelperOperationC2ERK17OperationSelectorPK10__CFString16OperationOptionsP6NSData
++ __ZN18type_traits_extras12CopyAsHelperINSt3__16vectorINS1_4pairIU8__strongP16FPProviderDomainiEENS1_9allocatorIS7_EEEEE16MakeWithCapacityEm
++ __ZN18type_traits_extras12CopyAsHelperIU8__strongP7NSArrayIP16FIProviderDomainEE16MakeWithCapacityEm
++ __ZN26TDSHelperCopyMoveOperation19ResolvePathsForMoveERKNSt3__110shared_ptrIK18TDSOperationRecordEE
++ __ZN26TDSHelperCopyMoveOperation4MoveERK8TNodePtrS2_RK18TDSOperationRecordPK7TStringbbbRS6_Rb
++ __ZN4TRefIP9__SecTask20TRetainReleasePolicyIS1_EED2Ev
++ __ZN5TNode31SortedDomainsInBulkRequestOrderEP7NSArrayIP16FPProviderDomainE
++ __ZN7StDeferIZN26TDSHelperCopyMoveOperation4MoveERK8TNodePtrS3_RK18TDSOperationRecordPK7TStringbbbRS7_RbE3$_0ED1Ev
++ __ZN7TFSInfo10InitializeEPK7__CFURL12LSPropertiesbbb20ModifyURLCachePolicy
++ __ZN7TFSInfo25InitializeWithExternalURLEPK7__CFURL12LSPropertiesbbb
++ __ZN7TFSInfo26InitializeWithResolveFlagsEPK7__CFURL12LSPropertiesb
++ __ZNK10TCFURLInfo12ResolveFlagsEv
++ __ZNK26TDSHelperCopyMoveOperation19ResolvedPathForNodeERK8TNodePtr
++ __ZNK26TDSHelperCopyMoveOperation25ResolvedSourcePathForItemERK18TDSOperationRecordRK8TNodePtr
++ __ZNK7TFSInfo11DerivedInfoEPK7__CFURL12LSProperties
++ __ZNK7TFSInfo11DerivedInfoERK7TStringb
++ __ZNK7TFSInfo15MoveAndRenameToERKNSt3__110shared_ptrIS_EEPK7TStringRS5_RS6_S9_
++ __ZNK7TString9utf8_sizeEv
++ __ZNKSt3__112__hash_tableINS_17__hash_value_typeI8TNodePtr7TStringEENS_22__unordered_map_hasherIS2_NS_4pairIKS2_S3_EENS_4hashIS2_EENS_8equal_toIS2_EEEENS_21__unordered_map_equalIS2_S8_SC_SA_EENS_9allocatorIS8_EEE4findIS2_EENS_21__hash_const_iteratorIPNS_11__hash_nodeIS4_PvEEEERKT_
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN5TNode31SortedDomainsInBulkRequestOrderEP7NSArrayIP16FPProviderDomainEE3$_3PNS_4pairIU8__strongS5_iEELb0EEEvT1_SE_T0_NS_15iterator_traitsISE_E15difference_typeEb
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeI8TNodePtr7TStringEENS_22__unordered_map_hasherIS2_NS_4pairIKS2_S3_EENS_4hashIS2_EENS_8equal_toIS2_EEEENS_21__unordered_map_equalIS2_S8_SC_SA_EENS_9allocatorIS8_EEE11__do_rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeI8TNodePtr7TStringEENS_22__unordered_map_hasherIS2_NS_4pairIKS2_S3_EENS_4hashIS2_EENS_8equal_toIS2_EEEENS_21__unordered_map_equalIS2_S8_SC_SA_EENS_9allocatorIS8_EEE21__construct_node_hashIJRS7_S3_EEENS_10unique_ptrINS_11__hash_nodeIS4_PvEENS_22__hash_node_destructorINSG_ISO_EEEEEEmDpOT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeI8TNodePtr7TStringEENS_22__unordered_map_hasherIS2_NS_4pairIKS2_S3_EENS_4hashIS2_EENS_8equal_toIS2_EEEENS_21__unordered_map_equalIS2_S8_SC_SA_EENS_9allocatorIS8_EEE4findIS2_EENS_15__hash_iteratorIPNS_11__hash_nodeIS4_PvEEEERKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeI8TNodePtr7TStringEENS_22__unordered_map_hasherIS2_NS_4pairIKS2_S3_EENS_4hashIS2_EENS_8equal_toIS2_EEEENS_21__unordered_map_equalIS2_S8_SC_SA_EENS_9allocatorIS8_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeI8TNodePtr7TStringEENS_22__unordered_map_hasherIS2_NS_4pairIKS2_S3_EENS_4hashIS2_EENS_8equal_toIS2_EEEENS_21__unordered_map_equalIS2_S8_SC_SA_EENS_9allocatorIS8_EEED2Ev
++ __ZNSt3__114__split_bufferINS_4pairIU8__strongP16FPProviderDomainiEERNS_9allocatorIS5_EEED2Ev
++ __ZNSt3__116__if_likely_elseB9fqe220106IZNS_6vectorINS_4pairIU8__strongP16FPProviderDomainiEENS_9allocatorIS6_EEE12emplace_backIJS6_EEERS6_DpOT_EUlvE_ZNSA_IJS6_EEESB_SE_EUlvE0_EEvbT_T0_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeI8TNodePtr7TStringEEPvEEEEEclB9fqe220106EPS8_
++ __ZNSt3__127__insertion_sort_incompleteB9fqe220106INS_17_ClassicAlgPolicyERZN5TNode31SortedDomainsInBulkRequestOrderEP7NSArrayIP16FPProviderDomainEE3$_3PNS_4pairIU8__strongS5_iEEEEbT1_SE_T0_
++ __ZNSt3__16vectorINS_4pairIU8__strongP16FPProviderDomainiEENS_9allocatorIS5_EEE16__destroy_vectorclB9fqe220106Ev
++ __ZNSt3__16vectorINS_4pairIU8__strongP16FPProviderDomainiEENS_9allocatorIS5_EEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorINS_4pairIU8__strongP16FPProviderDomainiEENS_9allocatorIS5_EEE24__emplace_back_slow_pathIJS5_EEEPS5_DpOT_
++ __ZNSt3__16vectorINS_4pairIU8__strongP16FPProviderDomainiEENS_9allocatorIS5_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS5_RS7_EE
++ __ZNSt3__16vectorINS_4pairIU8__strongP16FPProviderDomainiEENS_9allocatorIS5_EEE7reserveEm
++ __ZNSt3__17__sort3B9fqe220106INS_17_ClassicAlgPolicyERZN5TNode31SortedDomainsInBulkRequestOrderEP7NSArrayIP16FPProviderDomainEE3$_3PNS_4pairIU8__strongS5_iEELi0EEEbT1_SE_SE_T0_
++ __ZNSt3__17__sort4B9fqe220106INS_17_ClassicAlgPolicyERZN5TNode31SortedDomainsInBulkRequestOrderEP7NSArrayIP16FPProviderDomainEE3$_3PNS_4pairIU8__strongS5_iEELi0EEEvT1_SE_SE_SE_T0_
++ __ZNSt3__17__sort5B9fqe220106INS_17_ClassicAlgPolicyERZN5TNode31SortedDomainsInBulkRequestOrderEP7NSArrayIP16FPProviderDomainEE3$_3PNS_4pairIU8__strongS5_iEELi0EEEvT1_SE_SE_SE_SE_T0_
++ __ZNSt3__18_IterOpsINS_17_ClassicAlgPolicyEE9iter_swapB9fqe220106IRPNS_4pairIU8__strongP16FPProviderDomainiEESA_EEvOT_OT0_
++ __ZNSt3__19allocatorINS_4pairIU8__strongP16FPProviderDomainiEEE17allocate_at_leastB9fqe220106Em
++ __ZZ8DemangleRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEE7sBuffer
++ __ZZ8DemangleRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEE7sBuffer$tlv$init
++ __ZZ8DemangleRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEE7sLength
++ __ZZ8DemangleRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEE7sLength$tlv$init
++ __ZZL22FINodeOffsetToNodeIvarvE10nodeOffset
++ __ZZN10TCFURLInfo22RenameWithoutReplacingERK12cstring_viewS2_E11sLocalMutex
++ __ZZN11TFSIteratorC1EPK7__CFURLPK9__CFArray12LSPropertiesb17FSInfoVirtualTypeE11iosExternal
++ __ZZN11TFSIteratorC1EPK7__CFURLPK9__CFArray12LSPropertiesb17FSInfoVirtualTypeE17iosExternalPrefix
++ __ZZN26TDSHelperCopyMoveOperation19ResolvePathsForMoveERKNSt3__110shared_ptrIK18TDSOperationRecordEEENK3$_0clERK8TNodePtr
++ __ZZN26TDSHelperCopyMoveOperation4MoveERK8TNodePtrS2_RK18TDSOperationRecordPK7TStringbbbRS6_RbEN3$_1clEv
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeI8TNodePtr7TStringEENS_22__unordered_map_hasherIS2_NS_4pairIKS2_S3_EENS_4hashIS2_EENS_8equal_toIS2_EEEENS_21__unordered_map_equalIS2_S8_SC_SA_EENS_9allocatorIS8_EEE16__emplace_uniqueB9fqe220106IJRS7_S3_EEENS6_INS_15__hash_iteratorIPNS_11__hash_nodeIS4_PvEEEEbEEDpOT_ENKUlSK_SK_OS3_E_clESK_SK_SV_
++ __ZZZN26TDSHelperCopyMoveOperation4MoveERK8TNodePtrS2_RK18TDSOperationRecordPK7TStringbbbRS6_RbENK3$_0clEvENKUlvE_clEv
++ ___block_descriptor_48_ea8_32c98_ZTSKZN23TFileCoordinationRecord28CopyURLForCoordinatedWritingEPK7__CFURLNS_14WritingOptionsEE3$_0_e24_v24?0"NSURL"8?<v?>16l
++ ___block_descriptor_56_ea8_32c106_ZTSKZN23TFileCoordinationRecord28CopyURLForCoordinatedReadingERKNSt3__110shared_ptrIK10TCFURLInfoEEbE3$_0_e24_v24?0"NSURL"8?<v?>16l
++ __tlv_bootstrap
++ _objc_getAssociatedObject
++ _objc_setAssociatedObject
+- GCC_except_table1002
+- GCC_except_table1006
+- GCC_except_table1007
+- GCC_except_table1008
+- GCC_except_table1009
+- GCC_except_table1010
+- GCC_except_table1011
+- GCC_except_table1012
+- GCC_except_table1028
+- GCC_except_table1029
+- GCC_except_table1035
+- GCC_except_table1036
+- GCC_except_table1037
+- GCC_except_table1038
+- GCC_except_table1041
+- GCC_except_table1063
+- GCC_except_table1064
+- GCC_except_table1065
+- GCC_except_table1066
+- GCC_except_table1067
+- GCC_except_table1068
+- GCC_except_table1069
+- GCC_except_table1073
+- GCC_except_table1083
+- GCC_except_table1088
+- GCC_except_table1090
+- GCC_except_table1093
+- GCC_except_table1100
+- GCC_except_table1109
+- GCC_except_table1110
+- GCC_except_table1114
+- GCC_except_table1118
+- GCC_except_table1122
+- GCC_except_table1124
+- GCC_except_table1125
+- GCC_except_table1126
+- GCC_except_table1130
+- GCC_except_table1144
+- GCC_except_table1145
+- GCC_except_table1157
+- GCC_except_table1161
+- GCC_except_table1173
+- GCC_except_table1174
+- GCC_except_table1179
+- GCC_except_table1180
+- GCC_except_table1181
+- GCC_except_table1182
+- GCC_except_table1183
+- GCC_except_table1184
+- GCC_except_table1185
+- GCC_except_table1190
+- GCC_except_table1191
+- GCC_except_table1192
+- GCC_except_table1202
+- GCC_except_table1208
+- GCC_except_table1209
+- GCC_except_table1210
+- GCC_except_table1212
+- GCC_except_table1213
+- GCC_except_table1240
+- GCC_except_table296
+- GCC_except_table303
+- GCC_except_table310
+- GCC_except_table318
+- GCC_except_table319
+- GCC_except_table322
+- GCC_except_table380
+- GCC_except_table382
+- GCC_except_table395
+- GCC_except_table413
+- GCC_except_table420
+- GCC_except_table425
+- GCC_except_table435
+- GCC_except_table442
+- GCC_except_table461
+- GCC_except_table463
+- GCC_except_table464
+- GCC_except_table484
+- GCC_except_table497
+- GCC_except_table500
+- GCC_except_table505
+- GCC_except_table520
+- GCC_except_table521
+- GCC_except_table530
+- GCC_except_table540
+- GCC_except_table546
+- GCC_except_table552
+- GCC_except_table553
+- GCC_except_table559
+- GCC_except_table562
+- GCC_except_table566
+- GCC_except_table576
+- GCC_except_table579
+- GCC_except_table586
+- GCC_except_table588
+- GCC_except_table590
+- GCC_except_table591
+- GCC_except_table593
+- GCC_except_table603
+- GCC_except_table610
+- GCC_except_table617
+- GCC_except_table624
+- GCC_except_table625
+- GCC_except_table633
+- GCC_except_table635
+- GCC_except_table637
+- GCC_except_table642
+- GCC_except_table643
+- GCC_except_table647
+- GCC_except_table652
+- GCC_except_table656
+- GCC_except_table660
+- GCC_except_table665
+- GCC_except_table671
+- GCC_except_table679
+- GCC_except_table688
+- GCC_except_table696
+- GCC_except_table703
+- GCC_except_table713
+- GCC_except_table716
+- GCC_except_table718
+- GCC_except_table737
+- GCC_except_table744
+- GCC_except_table746
+- GCC_except_table750
+- GCC_except_table752
+- GCC_except_table754
+- GCC_except_table756
+- GCC_except_table764
+- GCC_except_table772
+- GCC_except_table775
+- GCC_except_table777
+- GCC_except_table780
+- GCC_except_table782
+- GCC_except_table786
+- GCC_except_table791
+- GCC_except_table798
+- GCC_except_table801
+- GCC_except_table803
+- GCC_except_table806
+- GCC_except_table808
+- GCC_except_table809
+- GCC_except_table817
+- GCC_except_table830
+- GCC_except_table836
+- GCC_except_table849
+- GCC_except_table854
+- GCC_except_table856
+- GCC_except_table857
+- GCC_except_table863
+- GCC_except_table890
+- GCC_except_table892
+- GCC_except_table925
+- GCC_except_table931
+- GCC_except_table932
+- GCC_except_table944
+- GCC_except_table945
+- GCC_except_table952
+- GCC_except_table954
+- GCC_except_table959
+- GCC_except_table961
+- GCC_except_table964
+- GCC_except_table966
+- GCC_except_table979
+- GCC_except_table980
+- GCC_except_table986
+- _CFDataCreateWithBytesNoCopy
+- __Z16static_objc_castI8FIDSNodePvEPT_T0_
+- __Z19kTStringLiteralDataIJLc99ELc111ELc109ELc46ELc97ELc112ELc112ELc108ELc101ELc46EEE
+- __Z26RemoveResolveFlagsFromPathRK7TString
+- __ZGVZ17FIDSNodeFromTNodePK5TNodeE10nodeOffset
+- __ZGVZN11TFSIteratorC1EPK7__CFURLPK9__CFArray12LSPropertiesbE17iosExternalPrefix
+- __ZL15MakeNoFollowURLP5NSURL
+- __ZL15TagsDictForNodeP6FINodeb
+- __ZL20NormalizeNoFollowURLP5NSURLRb
+- __ZN10TCFURLInfo10InitializeEPKc
+- __ZN10TCFURLInfo22RenameWithoutReplacingEPKcS1_
+- __ZN11TFSIteratorC1EPK7__CFURLPK9__CFArray12LSPropertiesb
+- __ZN11TFSIteratorC2EPK7__CFURLPK9__CFArray12LSPropertiesb
+- __ZN15iterator_extras21make_zip_iter_details11ZippedRangeINSt3__15tupleIJRU8__strongP14NSMutableArrayRNS2_6vectorIN4fstd12optional_errIU8__strongP6FPItemU8__strongP7NSErrorEENS2_9allocatorISH_EEEEEEEJLm0ELm1EEE11ZipIteratorINS3_IJ26IDContainerIteratorAdaptorIS4_ENS2_11__wrap_iterIPSH_EEEEENS3_IJU8__strongP11objc_objectRSH_EEEEC2EOSU_
+- __ZN15iterator_extras21make_zip_iter_details11ZippedRangeINSt3__15tupleIJRU8__strongP14NSMutableArrayRNS2_6vectorIN4fstd12optional_errIU8__strongP6FPItemU8__strongP7NSErrorEENS2_9allocatorISH_EEEEEEEJLm0ELm1EEE3endEv
+- __ZN15iterator_extras21make_zip_iter_details11ZippedRangeINSt3__15tupleIJRU8__strongP14NSMutableArrayRNS2_6vectorIN4fstd12optional_errIU8__strongP6FPItemU8__strongP7NSErrorEENS2_9allocatorISH_EEEEEEEJLm0ELm1EEE5beginEv
+- __ZN16TDSHelperContextC1E16OperationOptionsPK10__CFString
+- __ZN16TDSHelperContextC2E16OperationOptionsPK10__CFString
+- __ZN18TDSHelperOperationC2ERK17OperationSelectorPK10__CFString16OperationOptions
+- __ZN18type_traits_extras12CopyAsHelperIU8__strongP14NSMutableArrayIP5FITagEE16MakeWithCapacityEm
+- __ZN26IDContainerIteratorAdaptorI14NSMutableArrayE17NSForwardIteratorIS0_EC2EPS0_
+- __ZN26IDContainerIteratorAdaptorI14NSMutableArrayE17NSForwardIteratorIS0_EC2ERKS3_
+- __ZN26IDContainerIteratorAdaptorI14NSMutableArrayEC2ElPS0_
+- __ZN26IDContainerIteratorAdaptorI14NSMutableArrayIP16FPProviderDomainEE17NSForwardIteratorIS3_EC2EPS3_
+- __ZN26IDContainerIteratorAdaptorI14NSMutableArrayIP16FPProviderDomainEEC2ElPS3_
+- __ZN26TDSHelperCopyMoveOperation4MoveERK8TNodePtrS2_PK7TStringbbbRS3_Rb
+- __ZN26TDSHelperCopyMoveOperationC2ERK17OperationSelectorPK10__CFString16OperationOptionsP6NSData
+- __ZN29TDSHelperNewFSObjectOperationC2ERK17OperationSelectorPK10__CFString16OperationOptionsP6NSData
+- __ZN4TRefIP9__SecTask21CFRetainReleasePolicyED2Ev
+- __ZN7StDeferIZN26TDSHelperCopyMoveOperation4MoveERK8TNodePtrS3_PK7TStringbbbRS4_RbE3$_0ED1Ev
+- __ZN7TFSInfo10initializeEPK7__CFURL12LSPropertiesbbb20ModifyURLCachePolicy
+- __ZN7TFSInfo25initializeWithExternalURLEPK7__CFURL12LSPropertiesbbb
+- __ZNK18TDSHelperOperation19ScriptingAuditTokenEv
+- __ZNK26TDSHelperCopyMoveOperation19ScriptingAuditTokenEv
+- __ZNK29TDSHelperNewFSObjectOperation19ScriptingAuditTokenEv
+- __ZNK7TFSInfo15MoveAndRenameToERKNSt3__110shared_ptrIS_EEPK7TStringRS5_
+- __ZZ17FIDSNodeFromTNodePK5TNodeE10nodeOffset
+- __ZZN10TCFURLInfo22RenameWithoutReplacingEPKcS1_E11sLocalMutex
+- __ZZN11TFSIteratorC1EPK7__CFURLPK9__CFArray12LSPropertiesbE11iosExternal
+- __ZZN11TFSIteratorC1EPK7__CFURLPK9__CFArray12LSPropertiesbE17iosExternalPrefix
+- __ZZN26TDSHelperCopyMoveOperation4MoveERK8TNodePtrS2_PK7TStringbbbRS3_RbEN3$_1clEv
+- __ZZZN26TDSHelperCopyMoveOperation4MoveERK8TNodePtrS2_PK7TStringbbbRS3_RbENK3$_0clEvENKUlvE_clEv
+- ___block_descriptor_56_ea8_32c98_ZTSKZN23TFileCoordinationRecord28CopyURLForCoordinatedWritingEPK7__CFURLNS_14WritingOptionsEE3$_0_e24_v24?0"NSURL"8?<v?>16l
+- ___block_descriptor_64_ea8_32c106_ZTSKZN23TFileCoordinationRecord28CopyURLForCoordinatedReadingERKNSt3__110shared_ptrIK10TCFURLInfoEEbE3$_0_e24_v24?0"NSURL"8?<v?>16l
+- _kCFAllocatorNull
+CStrings:
++ "<%@ %p '%@'>"
++ "Could not resolve '%{public}@' for a move"
++ "Mapping %lu key node(s) to presentation node %{public}@"
++ "No key nodes to map to presentation node %{public}@"
++ "Stored %lu key node(s) on %{public}@"
++ "_node ivar not at expected location, expected 8, got %td"
++ "iCloud Drive container is already mapped to a custom node %{public}@ iCloud navigation may be broken"
++ "initialization of passthrough info rejecting url %{public}@"
++ "kPassthroughOperationURL"
++ "no follow URL"
++ "rename refused a symlinked component on a resolved path\n\t old: `%{public}@`\n\t new: `%{public}@`"
+```

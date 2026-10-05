@@ -1,0 +1,22 @@
+## binaryArchive.g19p_a0
+
+> `/System/Library/VideoProcessors/VideoStabilizationV2.bundle/binaryArchive.g19p_a0`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__metallib`
+- `__TEXT.__vertex`
+- `__TEXT.__reflection`
+
+```diff
+
+   __TEXT.__metallib: 0x3f10
+   __TEXT.__descriptor: 0x3b90
+-  __TEXT.__fragment: 0x69290
+-  __TEXT.__compute: 0x1960
++  __TEXT.__fragment: 0x65f20
++  __TEXT.__compute: 0x1970
+   __TEXT.__vertex: 0x10e90
+   __TEXT.__reflection: 0xccf0
+   Functions: 0
+```

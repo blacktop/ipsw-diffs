@@ -1,0 +1,32 @@
+## iapd
+
+> Group: ⬆️ Updated
+
+```diff
+
+ 		SYS_getentropy
+ 		SYS_necp_open
+ 		SYS_necp_client_action
++		SYS___nexus_set_opt
+ 		SYS_ulock_wait
+ 		SYS_ulock_wake
+ 		SYS_terminate_with_payload
+
+ 	(necp-client-action
+ 		NECP_CLIENT_ACTION_ADD
+ 		NECP_CLIENT_ACTION_ADD_FLOW
++		NECP_CLIENT_ACTION_AGENT
+ 		NECP_CLIENT_ACTION_COPY_AGENT
+ 		NECP_CLIENT_ACTION_COPY_INTERFACE
+ 		NECP_CLIENT_ACTION_COPY_RESULT
+ 		NECP_CLIENT_ACTION_COPY_ROUTE_STATISTICS
+ 		NECP_CLIENT_ACTION_COPY_UPDATED_RESULT
++		NECP_CLIENT_ACTION_MAP_SYSCTLS
+ 		NECP_CLIENT_ACTION_REMOVE
+-		NECP_CLIENT_ACTION_REMOVE_FLOW)
++		NECP_CLIENT_ACTION_REMOVE_FLOW
++		NECP_CLIENT_ACTION_UPDATE_CACHE)
+ )
+ 
+ (allow process-exec-update-label)
+```

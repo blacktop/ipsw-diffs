@@ -1,0 +1,16 @@
+## MapsBlastDoorService
+
+> `/System/Library/PrivateFrameworks/MapsBlastDoorSupport.framework/XPCServices/MapsBlastDoorService.xpc/MapsBlastDoorService`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+
+```diff
+
+-331.200.51.0.0
++331.200.71.0.0
+   __TEXT.__text: 0x424
+   __TEXT.__auth_stubs: 0x110
+   __TEXT.__const: 0x52
+```

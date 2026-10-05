@@ -1,0 +1,174 @@
+## FitnessCoreUI
+
+> `/System/Library/PrivateFrameworks/FitnessCoreUI.framework/FitnessCoreUI`
+
+```diff
+
+-2027.1.54.0.0
+-  __TEXT.__text: 0x9ddcc
+-  __TEXT.__objc_methlist: 0xd78
+-  __TEXT.__const: 0xe6b0
+-  __TEXT.__constg_swiftt: 0x3b94
+-  __TEXT.__swift5_typeref: 0x40cf
+-  __TEXT.__swift5_reflstr: 0x29c0
+-  __TEXT.__swift5_fieldmd: 0x3f08
+-  __TEXT.__swift5_builtin: 0x1a4
++2027.1.63.0.0
++  __TEXT.__text: 0xa700c
++  __TEXT.__objc_methlist: 0xd68
++  __TEXT.__const: 0xee50
++  __TEXT.__constg_swiftt: 0x3cec
++  __TEXT.__swift5_typeref: 0x422f
++  __TEXT.__swift5_reflstr: 0x2db0
++  __TEXT.__swift5_fieldmd: 0x432c
++  __TEXT.__swift5_builtin: 0x1b8
+   __TEXT.__swift5_assocty: 0x3f0
+-  __TEXT.__cstring: 0x1234
+-  __TEXT.__swift5_proto: 0xb54
+-  __TEXT.__swift5_types: 0x490
+-  __TEXT.__swift5_mpenum: 0x270
++  __TEXT.__cstring: 0x12e4
++  __TEXT.__swift5_proto: 0xbac
++  __TEXT.__swift5_types: 0x4b8
++  __TEXT.__swift5_mpenum: 0x278
+   __TEXT.__swift5_protos: 0x3c
+-  __TEXT.__swift5_capture: 0x6e4
++  __TEXT.__swift5_capture: 0x6f4
+   __TEXT.__oslogstring: 0xca3
+   __TEXT.__swift_as_entry: 0x20
+   __TEXT.__swift_as_ret: 0x14
+   __TEXT.__swift_as_cont: 0x28
+-  __TEXT.__unwind_info: 0x3818
+-  __TEXT.__eh_frame: 0x214c
++  __TEXT.__unwind_info: 0x39e0
++  __TEXT.__eh_frame: 0x21ec
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_classlist: 0x118
+   __DATA_CONST.__objc_protolist: 0x80
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xcc0
++  __DATA_CONST.__objc_selrefs: 0xca8
+   __DATA_CONST.__objc_protorefs: 0x40
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x7fc8
+-  __AUTH_CONST.__objc_const: 0x2540
++  __AUTH_CONST.__const: 0x8800
++  __AUTH_CONST.__objc_const: 0x25e0
+   __AUTH_CONST.__auth_got: 0x12a8
+-  __AUTH.__objc_data: 0x11d8
++  __AUTH.__objc_data: 0x1200
+   __AUTH.__data: 0x5a0
+-  __DATA.__data: 0x29c8
+-  __DATA.__common: 0x128
++  __DATA.__data: 0x2c60
++  __DATA.__common: 0x130
+   __DATA_DIRTY.__objc_data: 0xe70
+   __DATA_DIRTY.__data: 0xb88
+   __DATA_DIRTY.__bss: 0x1b80
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 4368
+-  Symbols:   2070
+-  CStrings:  177
++  Functions: 4538
++  Symbols:   2113
++  CStrings:  182
+ 
+Symbols:
++ _CGColorGetAlpha
++ _CGPathGetPathBoundingBox
++ ___swift_memcpy112_8
++ ___swift_memcpy128_8
++ ___swift_memcpy137_8
++ ___swift_memcpy1552_8
++ ___swift_memcpy216_8
++ ___swift_memcpy292_8
++ ___swift_memcpy424_8
++ ___swift_memcpy576_8
++ ___swift_memcpy57_8
++ ___swift_memcpy672_8
++ ___swift_memcpy760_8
++ ___swift_memcpy856_8
++ _associated conformance 13FitnessCoreUI16SpringParametersV10CodingKeys33_21BD6DB008CCDAB97BBA726DF64D0333LLOSHAASQ
++ _associated conformance 13FitnessCoreUI16SpringParametersV10CodingKeys33_21BD6DB008CCDAB97BBA726DF64D0333LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 13FitnessCoreUI16SpringParametersV10CodingKeys33_21BD6DB008CCDAB97BBA726DF64D0333LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13FitnessCoreUI16SpringParametersVSHAASQ
++ _associated conformance 13FitnessCoreUI24ProgressBarStepAnimationV0G4ModeO17ScalingCodingKeys33_B75468C21F067D4079925C4DE0059075LLOSHAASQ
++ _associated conformance 13FitnessCoreUI24ProgressBarStepAnimationV0G4ModeO19BreathingCodingKeys33_B75468C21F067D4079925C4DE0059075LLOSHAASQ
++ _associated conformance 13FitnessCoreUI24ProgressBarStepAnimationV16BreathingVisualsV10CodingKeys33_B75468C21F067D4079925C4DE0059075LLOSHAASQ
++ _associated conformance 13FitnessCoreUI24ProgressBarStepAnimationV16BreathingVisualsV10CodingKeys33_B75468C21F067D4079925C4DE0059075LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 13FitnessCoreUI24ProgressBarStepAnimationV16BreathingVisualsV10CodingKeys33_B75468C21F067D4079925C4DE0059075LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13FitnessCoreUI24ProgressBarStepAnimationV16BreathingVisualsVSHAASQ
++ _get_enum_tag_for_layout_string 13FitnessCoreUI14GlowBloomLayerC6SourceVSo9CGPathRefaIeghyo_Sg
++ _get_enum_tag_for_layout_string 13FitnessCoreUI8AnimatorV6Hosted33_F0F67E1A5C779FADE48E819044E639E3LLVy_AA17EmphasisAnimationVGSg
++ _kCAFillRuleEvenOdd
++ _symbolic Say_____G 12CoreGraphics7CGFloatV
++ _symbolic Say_____y_______pGG 13FitnessCoreUI8AnimatorV6Hosted33_F0F67E1A5C779FADE48E819044E639E3LLV AA25ProgressBarLayerAnimationP
++ _symbolic _____ 13FitnessCoreUI011ProgressBarB5FrameV14ActiveBackRingV
++ _symbolic _____ 13FitnessCoreUI14GlowBloomLayerC6SourceV
++ _symbolic _____ 13FitnessCoreUI16SpringParametersV
++ _symbolic _____ 13FitnessCoreUI16SpringParametersV10CodingKeys33_21BD6DB008CCDAB97BBA726DF64D0333LLO
++ _symbolic _____ 13FitnessCoreUI19ProgressBarRendererO14buildGlassPath5chain14circleDiameter12barThickness15activeStepScale8topInset06bottomS07spacing7centerY5fromX3toXSo9CGPathRefaAC11CircleChainV_0B8Graphics7CGFloatVA8UtFZ5BulgeL_V
++ _symbolic _____ 13FitnessCoreUI19ProgressBarRendererO15CapturedDotGlowV
++ _symbolic _____ 13FitnessCoreUI19ProgressBarRendererO22PhaseTransitionOverlayV12SpringInputs33_2755415D6E62C400F29A617C00A75393LLV
++ _symbolic _____ 13FitnessCoreUI19ProgressBarRendererO4SpanV
++ _symbolic _____ 13FitnessCoreUI24ProgressBarStepAnimationV16BreathingVisualsV
++ _symbolic _____ 13FitnessCoreUI24ProgressBarStepAnimationV16BreathingVisualsV10CodingKeys33_B75468C21F067D4079925C4DE0059075LLO
++ _symbolic _____ 13FitnessCoreUI24ProgressBarStepAnimationV7DefaultO
++ _symbolic _____ 13FitnessCoreUI8AnimatorV6Hosted33_F0F67E1A5C779FADE48E819044E639E3LLV
++ _symbolic _____11scaleFactor_t 12CoreGraphics7CGFloatV
++ _symbolic _____Sg 13FitnessCoreUI011ProgressBarB5FrameV14ActiveBackRingV
++ _symbolic _____Sg 13FitnessCoreUI19ProgressBarRendererO15CapturedDotGlowV
++ _symbolic __________Ybc So9CGPathRefa 13FitnessCoreUI14GlowBloomLayerC6SourceV
++ _symbolic __________YbcSg So9CGPathRefa 13FitnessCoreUI14GlowBloomLayerC6SourceV
++ _symbolic _____ySdG s23_ContiguousArrayStorageC
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13FitnessCoreUI16SpringParametersV10CodingKeys33_21BD6DB008CCDAB97BBA726DF64D0333LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13FitnessCoreUI24ProgressBarStepAnimationV16BreathingVisualsV10CodingKeys33_B75468C21F067D4079925C4DE0059075LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13FitnessCoreUI16SpringParametersV10CodingKeys33_21BD6DB008CCDAB97BBA726DF64D0333LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13FitnessCoreUI24ProgressBarStepAnimationV16BreathingVisualsV10CodingKeys33_B75468C21F067D4079925C4DE0059075LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13FitnessCoreUI19ProgressBarRendererO14buildGlassPath5chain14circleDiameter12barThickness15activeStepScale8topInset06bottomV07spacing7centerY5fromX3toXSo9CGPathRefaAE11CircleChainV_0E8Graphics7CGFloatVA8WtFZ5BulgeL_V
++ _symbolic _____y______GSg 13FitnessCoreUI8AnimatorV6Hosted33_F0F67E1A5C779FADE48E819044E639E3LLV AA17EmphasisAnimationV
++ _symbolic _____y_______pG 13FitnessCoreUI8AnimatorV6Hosted33_F0F67E1A5C779FADE48E819044E639E3LLV AA25ProgressBarLayerAnimationP
++ _symbolic _____y_____y_______pGG s23_ContiguousArrayStorageC 13FitnessCoreUI8AnimatorV6Hosted33_F0F67E1A5C779FADE48E819044E639E3LLV AC25ProgressBarLayerAnimationP
++ _symbolic _____yySbYbcSgSgG s23_ContiguousArrayStorageC
++ _type_layout_string 13FitnessCoreUI011ProgressBarB5FrameV14ActiveBackRingV
++ _type_layout_string 13FitnessCoreUI14GlowBloomLayerC6SourceV
++ _type_layout_string 13FitnessCoreUI16SpringParametersV
++ _type_layout_string 13FitnessCoreUI19ProgressBarRendererO14buildGlassPath5chain14circleDiameter12barThickness15activeStepScale8topInset06bottomS07spacing7centerY5fromX3toXSo9CGPathRefaAC11CircleChainV_0B8Graphics7CGFloatVA8UtFZ5BulgeL_V
++ _type_layout_string 13FitnessCoreUI19ProgressBarRendererO15CapturedDotGlowV
++ _type_layout_string 13FitnessCoreUI19ProgressBarRendererO22PhaseTransitionOverlayV12SpringInputs33_2755415D6E62C400F29A617C00A75393LLV
++ _type_layout_string 13FitnessCoreUI24ProgressBarStepAnimationV16BreathingVisualsV
+- ___swift_memcpy1128_8
+- ___swift_memcpy121_8
+- ___swift_memcpy136_8
+- ___swift_memcpy224_8
+- ___swift_memcpy232_8
+- ___swift_memcpy256_8
+- ___swift_memcpy291_8
+- ___swift_memcpy624_8
+- ___swift_memcpy808_8
+- ___swift_memcpy96_8
+- ___swift_memcpy97_8
+- _pow
+- _symbolic Say_____G 13FitnessCoreUI8AnimatorV15HostedAnimation33_F0F67E1A5C779FADE48E819044E639E3LLV
+- _symbolic _____ 13FitnessCoreUI19ProgressBarRendererO14buildGlassPath5chain14circleDiameter15activeStepScale8topInset06bottomQ07spacing7centerY5fromX3toXSo9CGPathRefaAC11CircleChainV_0B8Graphics7CGFloatVA7TtFZ5BulgeL_V
+- _symbolic _____ 13FitnessCoreUI8AnimatorV15HostedAnimation33_F0F67E1A5C779FADE48E819044E639E3LLV
+- _symbolic __________Ybc So9CGPathRefa So6CGRectV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 13FitnessCoreUI19ProgressBarRendererO14buildGlassPath5chain14circleDiameter15activeStepScale8topInset06bottomT07spacing7centerY5fromX3toXSo9CGPathRefaAE11CircleChainV_0E8Graphics7CGFloatVA7VtFZ5BulgeL_V
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 13FitnessCoreUI8AnimatorV15HostedAnimation33_F0F67E1A5C779FADE48E819044E639E3LLV
+- _type_layout_string 13FitnessCoreUI19ProgressBarRendererO14buildGlassPath5chain14circleDiameter15activeStepScale8topInset06bottomQ07spacing7centerY5fromX3toXSo9CGPathRefaAC11CircleChainV_0B8Graphics7CGFloatVA7TtFZ5BulgeL_V
+- _type_layout_string 13FitnessCoreUI8AnimatorV15HostedAnimation33_F0F67E1A5C779FADE48E819044E639E3LLV
+CStrings:
++ "activeBackRingScale"
++ "completedClearanceBonus"
++ "completedStepScale"
++ "glow.outgoing.bloom"
++ "glow.outgoing.halo"
++ "outgoingBackRing"
+- "springAnchorTension"
+```

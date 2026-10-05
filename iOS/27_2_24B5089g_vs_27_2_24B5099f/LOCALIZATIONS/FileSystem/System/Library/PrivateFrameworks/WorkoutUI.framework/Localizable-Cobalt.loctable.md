@@ -1,0 +1,56 @@
+## WorkoutUI
+
+> `FileSystem/System/Library/PrivateFrameworks/WorkoutUI.framework/Localizable-Cobalt.loctable`
+
+```diff
+
+ en.ADDITIONAL_INFO_SECTION_HEADER = "Other Factors"
++en.AVAILABLE_DATA_SECTION_HEADER = "Available Data"
+ en.HEALTH_DEEP_LINK_BUTTON_TITLE = "More details in Health"
+ en.MENSTRUAL_CURRENT_CYCLE_HEADER = "Last Menstrual Period"
+ en.MENSTRUAL_CYCLE_CURRENT_DAY_FORMAT = "Day %d"
+
+ en.READINESS_COMPONENT_SLEEP_SCORE = "Sleep Score"
+ en.READINESS_COMPONENT_VITALS = "Vitals"
+ en.READINESS_DETAIL_NAVIGATION_TITLE = "Readiness"
+-en.READINESS_ELEVATION_FLAG_BODY = "Your significant change in altitude may affect your vitals and how today feels. \u003cno loc\u003e"
+-en.READINESS_ELEVATION_FLAG_TITLE = "Altitude Change \u003cno loc\u003e"
+-en.READINESS_ERROR_BODY_METRICS_NOT_SET = "Set your age, height, and weight in Health on iPhone to see your readiness."
++en.READINESS_ELEVATION_FLAG_BODY = "Your significant change in altitude may affect your vitals and make activity feel harder today."
++en.READINESS_ELEVATION_FLAG_TITLE = "Altitude Change"
++en.READINESS_ERROR_BODY_METRICS_NOT_SET = "Set your age, height, and weight on iPhone to start using readiness."
+ en.READINESS_ERROR_ESTABLISHING_SLEEP_BASELINE = "Sleep with your Apple Watch to establish a baseline for vitals and calculate your readiness."
+ en.READINESS_ERROR_GENERIC = "Readiness is unavailable right now."
+-en.READINESS_ERROR_NOT_ENOUGH_CALORIES = "Additional activity data is needed to calculate your readiness."
+-en.READINESS_ERROR_NOT_ENOUGH_OVERNIGHT_WEAR = "Sleep with your Apple Watch to calculate your readiness."
++en.READINESS_ERROR_HARDWARE_NOT_SUPPORTED = "Wear your latest Apple Watch to get a readiness score."
++en.READINESS_ERROR_HEADER_CONTINUOUS_HR_NEEDED = "Continuous Heart Rate Needed"
++en.READINESS_ERROR_HEADER_GETTING_STARTED = "Getting Started"
++en.READINESS_ERROR_HEADER_NEEDS_HEART_RATE = "Readiness Needs Heart Rate"
++en.READINESS_ERROR_HEADER_NO_READINESS_SCORE = "No Readiness Score"
++en.READINESS_ERROR_LAST_NIGHT_MISSING_HR = "There were not enough heart rate readings while you slept. Be sure your Apple Watch is snug on your wrist."
++en.READINESS_ERROR_NOT_ENOUGH_ACTIVITY_DATA = "Wear your Apple Watch during the day and while you exercise to see your score."
++en.READINESS_ERROR_NOT_ENOUGH_OVERNIGHT_WEAR = "Wear your Apple Watch to sleep to get a sense of how ready you are for the day."
+ en.READINESS_ERROR_NOT_IN_ACTIVE_CALORIE_MODE = "Your Move ring needs to be set to Active Calories to calculate your readiness."
+-en.READINESS_ERROR_OVERNIGHT_HRV_MISSING = "Overnight Heart Rate and HRV are needed to calculate your readiness."
++en.READINESS_ERROR_NO_OVERNIGHT_AND_ACTIVITY_DATA = "Wear your Apple Watch to sleep, during the day, and while you exercise to see your score."
+ en.READINESS_ERROR_SLEEP_TRACKING_DISABLED = "Turn on Sleep Tracking to calculate your readiness."
+ en.READINESS_INLINE_SCORE_FORMAT = "%1$@ · %2$@"
+ en.READINESS_ONBOARDING_CONTINUE_BUTTON = "Continue"
+ en.READINESS_ONBOARDING_INTRO_BODY = "Readiness helps you understand when to push and when to hold back by providing a daily score based on your recent activity, vitals, and sleep."
++en.READINESS_ONBOARDING_INTRO_DISCLAIMER = "Readiness does not account for all areas of your health such as existing conditions or medications. It should not be solely relied on to determine if it is safe to exercise."
+ en.READINESS_ONBOARDING_TITLE = "Readiness"
+ en.READINESS_OVERNIGHT_VITALS_SLEEP_SESSIONS_NEEDED.NSStringLocalizedFormatKey = "%#@sessions@"
+ en.READINESS_OVERNIGHT_VITALS_SLEEP_SESSIONS_NEEDED.sessions.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
+
+ en.READINESS_OVERNIGHT_VITALS_SLEEP_SESSIONS_NEEDED.sessions.other = "%ld Sleep Sessions Needed"
+ en.READINESS_SCORE_AX_NO_VALUE = "No value"
+ en.READINESS_SCORE_LOADING = "Loading"
+-en.READINESS_SCORE_NO_DATA = "No Data"
++en.READINESS_SCORE_NO_DATA = "No Score"
++en.READINESS_SCORE_NO_DATA_COMPLICATION = "No Score"
+ en.READINESS_SCORE_NO_VALUE = "--"
+ en.READINESS_SLEEP_RECENT_ABSOLUTE_HIGH = "Recent sleep score average has been high"
+ en.READINESS_SLEEP_RECENT_ABSOLUTE_LOW = "Recent sleep score average has been low"
+
+```

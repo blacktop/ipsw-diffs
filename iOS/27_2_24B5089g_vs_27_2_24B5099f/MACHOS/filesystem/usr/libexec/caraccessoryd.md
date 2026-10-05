@@ -1,0 +1,55 @@
+## caraccessoryd
+
+> `/usr/libexec/caraccessoryd`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__const`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_intobj`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
+```diff
+
+-552.3.0.0.0
+-  __TEXT.__text: 0x7569c
++552.6.2.0.0
++  __TEXT.__text: 0x756d4
+   __TEXT.__auth_stubs: 0x1ca0
+   __TEXT.__objc_stubs: 0x38e0
+   __TEXT.__objc_methlist: 0x1f84
+
+   __TEXT.__swift_as_entry: 0x48
+   __TEXT.__swift_as_ret: 0x10
+   __TEXT.__swift_as_cont: 0xa4
+-  __TEXT.__unwind_info: 0x1ad8
+-  __TEXT.__eh_frame: 0xe98
++  __TEXT.__unwind_info: 0x1ae0
++  __TEXT.__eh_frame: 0xec0
+   __DATA_CONST.__const: 0x2ef0
+   __DATA_CONST.__cfstring: 0x420
+   __DATA_CONST.__objc_classlist: 0xe0
+Symbols:
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVySdG_Tg5
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVySo18CAFDeepLinkSettingC7setting_So24CAFProminenceInformationC10prominencetG_Tg5098$s13caraccessoryd17CAFDAppLinksAgentC010_updateAppC033_D2640CE36BC885AE244045554995650ELLyyFSbSo18fgh14C7setting_So24jK30C10prominencet_AgH_AjKttXEfU0_Tf1nnc_n
++ _$ss13_UnsafeBitsetV027_withTemporaryUninitializedB09wordCount4bodyxSi_xABq_YKXEtq_YKs5ErrorR_r0_lFZxSryAB4WordVGq_YKXEfU_s17_NativeDictionaryVy13caraccessoryd18CAFDLatencyMonitorC16CharacteristicID33_0CCC9B46E9777766E198293973635216LLVAN16UpdateRateWindowAPLLVG_s5NeverOTg506$ss13_ab8V013withd36B08capacity4bodyxSi_xABq_YKXEtq_YKs5i24R_r0_lFZxABq_YKXEfU_s17_kl19Vy13caraccessoryd18no3C16p6ID33_0rstu7LLVAK16vwx9AMLLVG_s5Y4OTG5ABq_xRi_zRi0_zRi__Ri0__r0_lyAvTIsgyrzr_Tf1nc_n06$ss17_kl51V6filteryAByxq_GSbx3key_q_5valuet_tqd__YKXEqd__YKs5i12Rd__lFADs13_ab29Vqd__YKXEfU_13caraccessoryd18no3C16p6ID33_0rstu8LLV_AL16vwx7ANLLVs5Y4OTG5ATxq_Sbq0_Ri_zRi0_zRi__Ri0__Ri_0_Ri0_0_r1_lyAqsVIsgnndzr_Tf1nc_nTm
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKFSd_Tg5
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKFSo18CAFDeepLinkSettingC7setting_So24CAFProminenceInformationC10prominencet_Tg5098$s13caraccessoryd17CAFDAppLinksAgentC010_updateAppC033_D2640CE36BC885AE244045554995650ELLyyFSbSo18efg14C7setting_So24iJ30C10prominencet_AgH_AjKttXEfU0_Tf1cn_n
+- _$ss13_UnsafeBitsetV027_withTemporaryUninitializedB09wordCount4bodyxSi_xABq_YKXEtq_YKs5ErrorR_r0_lFZxSryAB4WordVGq_YKXEfU_s17_NativeDictionaryVy13caraccessoryd18CAFDLatencyMonitorC16CharacteristicID33_0CCC9B46E9777766E198293973635216LLVAN16UpdateRateWindowAPLLVG_s5NeverOTg506$ss17_kl51V6filteryAByxq_GSbx3key_q_5valuet_tqd__YKXEqd__YKs5i12Rd__lFADs13_ab29Vqd__YKXEfU_13caraccessoryd18no3C16p6ID33_0rstu8LLV_AL16vwx7ANLLVs5Y4OTG5ATxq_Sbq0_Ri_zRi0_zRi__Ri0__Ri_0_Ri0_0_r1_lyAqsVIsgnndzr_Tf1nc_nTm
+Functions:
+~ _$s2os9serialize_2atyx_Spys5UInt8VGzts17FixedWidthIntegerRzlFySWXEfU_ : 32 -> 68
+~ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFs15ContiguousArrayVySo18CAFDeepLinkSettingC7setting_So24CAFProminenceInformationC10prominencetG_Tg5098$s13caraccessoryd17CAFDAppLinksAgentC010_updateAppC033_D2640CE36BC885AE244045554995650ELLyyFSbSo18fgh14C7setting_So24jK30C10prominencet_AgH_AjKttXEfU0_Tf1cn_n : 108 -> 112
+~ _$sSr15_stableSortImpl2byySbx_xtKXE_tKFSd_Tg5 -> _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVySdG_Tg5 : 260 -> 272
+~ _$s13caraccessoryd18CAFDLatencyMonitorC10percentile_1pSdSaySdG_SdtFZTf4nnd_n : 440 -> 444
+```

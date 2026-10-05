@@ -1,0 +1,75 @@
+## Campo
+
+> Group: ⬆️ Updated
+
+```diff
+
+ 		(require-not (global-name "com.apple.coremedia.mediaplaybackd.assetimagegenerator.xpc"))
+ 		(require-not (global-name "com.apple.rti-screencontinuity"))
+ 		(require-not (global-name "com.apple.siri.orchestration.prescribedaction"))
++		(require-not (global-name "com.apple.systemstatus"))
+ 		(require-not (global-name "com.apple.intelligenceflow.uiContext"))
+ 		(require-not (require-any
+ 			(global-name "com.apple.generativeexperiences.ExternalPartnerCredentialStorage")
+
+ 		(require-not (global-name "com.apple.generativeexperiences.ExternalProviderTCCUntrustedXPC"))
+ 		(require-not (global-name "com.apple.FSEvents"))
+ 		(require-not (global-name "com.apple.gpumemd.source"))
++		(require-not (global-name "com.apple.proactive.FaceSuggestions.xpc"))
+ 		(require-not (global-name "com.apple.chronoservices"))
+ 		(require-not (global-name "com.apple.securityd"))
+ 		(require-not (global-name "com.apple.findmy.findmylocate.fenceservice"))
+
+ 		(require-not (xpc-service-name "com.apple.WebKit.GPU"))
+ 		(require-not (xpc-service-name "com.apple.audio.AudioConverterService"))
+ 		(require-not (xpc-service-name "com.apple.speech.localspeechrecognition"))
++		(require-not (require-any
++			(xpc-service-name "-.URLKeyboard.KeyboardExtension")
++			(xpc-service-name "cc.typex.app.keyboard")
++			(xpc-service-name "co.airapps.translatorkeyboard.keyboard")
++			(xpc-service-name "com.apple.popinput-ios.keyboard")
++			(xpc-service-name "com.dsoffer.themathkeyboard.TheMathKeyboard")
++			(xpc-service-name "com.glasseagle.tamilkb.Classic")
++			(xpc-service-name "com.goodsnooze.MacWhisper.Keyboard")
++			(xpc-service-name "com.ifanchu.ixhiamy3.keyboard")
++			(xpc-service-name "com.joanne.WordDeleteKeyboard.Keyboard")
++			(xpc-service-name "com.jordanhipwell.unichar.UniChar-Keyboard")
++			(xpc-service-name "com.michael.GeezKeyboard.Geez")
++			(xpc-service-name "com.raycast.ios.release.raycastKeyboard")
++			(xpc-service-name "com.runanywhere.RunAnywhere.RunAnywhereKeyboard")
++			(xpc-service-name "com.wiheads.paste.ios-keyboard-extension")
++			(xpc-service-name "dev.jonathanliu.CupidlyApp.Rizzboard")
++			(xpc-service-name "hk.eduhk.typeduck.keyboard")
++			(xpc-service-name "im.cantonese.CantoneseIM.Keyboard")
++			(xpc-service-name "jrtv-projects.SnipKey.SnipKeyboard")
++		))
+ 		(require-not (require-any
+ 			(xpc-service-name "app.spokenly.keyboard")
+ 			(xpc-service-name "com.Vince14Genius.IPA-Keyboard-iOS.IPA-Keyboard-Extension")
+
+ 		(require-not (xpc-service-name "com.apple.WorkflowKit.BackgroundShortcutRunner"))
+ 		(require-not (xpc-service-name "com.apple.MapKit.SnapshotService"))
+ 		(require-not (xpc-service-name "com.baidu.inputMethod.keyboard"))
+-		(require-not (require-any
+-			(xpc-service-name "-.URLKeyboard.KeyboardExtension")
+-			(xpc-service-name "cc.typex.app.keyboard")
+-			(xpc-service-name "co.airapps.translatorkeyboard.keyboard")
+-			(xpc-service-name "com.apple.popinput-ios.keyboard")
+-			(xpc-service-name "com.dsoffer.themathkeyboard.TheMathKeyboard")
+-			(xpc-service-name "com.glasseagle.tamilkb.Classic")
+-			(xpc-service-name "com.goodsnooze.MacWhisper.Keyboard")
+-			(xpc-service-name "com.joanne.WordDeleteKeyboard.Keyboard")
+-			(xpc-service-name "com.jordanhipwell.unichar.UniChar-Keyboard")
+-			(xpc-service-name "com.michael.GeezKeyboard.Geez")
+-			(xpc-service-name "com.raycast.ios.release.raycastKeyboard")
+-			(xpc-service-name "com.runanywhere.RunAnywhere.RunAnywhereKeyboard")
+-			(xpc-service-name "com.wiheads.paste.ios-keyboard-extension")
+-			(xpc-service-name "dev.jonathanliu.CupidlyApp.Rizzboard")
+-			(xpc-service-name "hk.eduhk.typeduck.keyboard")
+-			(xpc-service-name "im.cantonese.CantoneseIM.Keyboard")
+-			(xpc-service-name "jrtv-projects.SnipKey.SnipKeyboard")
+-		))
+ 		(require-not (xpc-service-name "com.iflytek.inputime.keyboard"))
+ 		(require-not (xpc-service-name "com.apple.StocksKitService"))
+ 		(require-not (xpc-service-name "com.swiftkey.SwiftKeyApp.Keyboard"))
+```

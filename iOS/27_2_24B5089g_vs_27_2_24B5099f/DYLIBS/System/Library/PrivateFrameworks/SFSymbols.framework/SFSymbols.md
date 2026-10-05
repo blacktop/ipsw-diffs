@@ -1,0 +1,260 @@
+## SFSymbols
+
+> `/System/Library/PrivateFrameworks/SFSymbols.framework/SFSymbols`
+
+```diff
+
+-204.0.0.1.0
+-  __TEXT.__text: 0x26108
++205.0.0.0.0
++  __TEXT.__text: 0x26110
+   __TEXT.__lazy_helpers: 0xfc
+   __TEXT.__objc_methlist: 0xdc
+-  __TEXT.__const: 0x18e8
+-  __TEXT.__cstring: 0x582ed
++  __TEXT.__const: 0x18d8
++  __TEXT.__cstring: 0x5a1bd
+   __TEXT.__gcc_except_tab: 0xdc
+   __TEXT.__oslogstring: 0xb
+   __TEXT.__constg_swiftt: 0x5e0
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x180
+   __DATA_CONST.__objc_superrefs: 0x8
+-  __DATA_CONST.__objc_arraydata: 0x7c508
++  __DATA_CONST.__objc_arraydata: 0x7e320
+   __DATA_CONST.__got: 0x100
+-  __AUTH_CONST.__const: 0x4ce88
+-  __AUTH_CONST.__cfstring: 0x5bae0
++  __AUTH_CONST.__const: 0x4e2d8
++  __AUTH_CONST.__cfstring: 0x5d500
+   __AUTH_CONST.__objc_const: 0x598
+   __AUTH_CONST.__lazy_load_got: 0x18
+   __AUTH_CONST.__objc_intobj: 0xa8
+-  __AUTH_CONST.__objc_dictobj: 0x5cd0
++  __AUTH_CONST.__objc_dictobj: 0x5d48
+   __AUTH_CONST.__objc_arrayobj: 0xd8
+   __AUTH_CONST.__auth_got: 0x690
+   __AUTH.__objc_data: 0xa0
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   Functions: 752
+   Symbols:   519
+-  CStrings:  11793
++  CStrings:  12002
+ 
+Functions:
+~ sub_29fac6670 -> sub_29f783670 : 764 -> 768
+~ sub_29facc740 -> sub_29f789744 : 180 -> 172
+~ sub_29facc7f4 -> sub_29f7897f0 : 292 -> 304
+CStrings:
++ "0763DE787AB74A1EA2412951E7C63163"
++ "0E121669AB524598984525BEDDB88D89"
++ "17D2BC7F67074AB49B64C2D8E3DCE5AD"
++ "2E84D67BDE1440A4BF7103EAE42258B7"
++ "33C8C792FA584E549A8E199475675DC6"
++ "39AEB49327224547AAEC03DF3328AC04"
++ "3C9F32279E534F5BAAFDF917F7CAFCF6"
++ "4C97952B3EF9459698DE57A41C9B3EC9"
++ "524724E96301461596AA4B614CAD4AB7"
++ "6D4A7E2ED5F74CE580DFE0E3F234342E"
++ "6D4A7E2ED5F74CE580DFE0E3F234342E.badge.checkmark"
++ "6D4A7E2ED5F74CE580DFE0E3F234342E.badge.exclamationmark"
++ "6D4A7E2ED5F74CE580DFE0E3F234342E.badge.paintbrush"
++ "6D4A7E2ED5F74CE580DFE0E3F234342E.badge.plus"
++ "70E08FAA582E4708B9FAA5F65D96E635"
++ "752F4EBAFF8E40949D81A55BD2085975"
++ "859AD521F01C49CBA7BC735511AADEF8"
++ "B33FF021A05B4D689D372CD4C3747CC6"
++ "BA5F95BD205B47E982C16A26E541251A.badge.checkmark"
++ "BA5F95BD205B47E982C16A26E541251A.badge.exclamationmark"
++ "BA5F95BD205B47E982C16A26E541251A.badge.location"
++ "BA5F95BD205B47E982C16A26E541251A.badge.play"
++ "C54D1C8128284DE08310E326AAF39D15"
++ "DCB2B0445B5B48D7BC4AFDE2FDF8DFC2"
++ "E0853AA4C4E149109EA7F161187E52B1"
++ "E0853AA4C4E149109EA7F161187E52B1.badge.checkmark"
++ "E0853AA4C4E149109EA7F161187E52B1.badge.plus"
++ "E0853AA4C4E149109EA7F161187E52B1.trianglebadge.exclamationmark"
++ "FDA2323901414DA3B77296013C72CB52"
++ "airplane.ticket.perforated"
++ "airplane.ticket.perforated.fill"
++ "apple.readiness"
++ "apps.iphone.duo"
++ "apps.iphone.duo.and.pointer.arrow"
++ "apps.iphone.duo.assistive.access"
++ "apps.iphone.duo.badge.arrow.trianglehead.2.clockwise.rotate.90"
++ "apps.iphone.duo.badge.checkmark"
++ "apps.iphone.duo.badge.exclamationmark"
++ "apps.iphone.duo.badge.icloud"
++ "apps.iphone.duo.badge.paintbrush"
++ "apps.iphone.duo.badge.plus"
++ "apps.iphone.duo.on.iphone.duo"
++ "apps.iphone.duo.on.rectangle.portrait.dashed"
++ "apps.iphone.duo.open.landscape"
++ "apps.iphone.duo.open.portrait"
++ "apps.iphone.duo.slash"
++ "arrow.down.circle.badge.checkmark"
++ "arrow.down.circle.badge.checkmark.fill"
++ "arrow.down.circle.badge.clock"
++ "arrow.down.circle.badge.clock.fill"
++ "arrow.trianglehead.backward.viewfinder"
++ "arrow.trianglehead.down.left.viewfinder"
++ "arrow.trianglehead.down.right.viewfinder"
++ "arrow.trianglehead.down.viewfinder"
++ "arrow.trianglehead.forward.viewfinder"
++ "arrow.trianglehead.left.viewfinder"
++ "arrow.trianglehead.right.viewfinder"
++ "arrow.trianglehead.up.left.viewfinder"
++ "arrow.trianglehead.up.right.viewfinder"
++ "arrow.trianglehead.up.viewfinder"
++ "beats.studio.pro"
++ "bolt.circle.range.50to100.dotted"
++ "bolt.circle.range.75to100.dotted"
++ "bookmark.text.page"
++ "bookmark.text.page.fill"
++ "bubble.left.and.heart.bubble.right.badge"
++ "bubble.left.and.heart.bubble.right.badge.fill"
++ "button.circle.range.0to50.dotted"
++ "calendar.badge.chart.bar"
++ "calendar.day.and.person"
++ "camera.glow"
++ "camera.grain"
++ "camera.night.mode"
++ "camera.night.mode.auto"
++ "camera.night.mode.auto.fill"
++ "camera.night.mode.fill"
++ "camera.night.mode.slash"
++ "camera.night.mode.slash.fill"
++ "camera.night.mode.three"
++ "camera.night.mode.three.fill"
++ "capsule.long"
++ "capsule.long.fill"
++ "chart.stackedarea"
++ "checkmark.shield.filled.arrow.trianglehead.2.clockwise.rotate.90"
++ "circle.dotted.and.line.horizontal"
++ "circle.grid.3x3.chevron.compact.down.fill"
++ "display.badge.checkmark"
++ "display.badge.exclamationmark"
++ "document.badge.arrow.down"
++ "document.badge.arrow.down.fill"
++ "dot.list.bullet.page"
++ "dot.list.bullet.page.fill"
++ "ev.charging.plug"
++ "ev.charging.plug.fill"
++ "figure.leadinghalf.dotted"
++ "histogram.line.2.xaxis"
++ "histogram.line.xaxis"
++ "histogram.line.xaxis.slash"
++ "homepod.crop.rays.3"
++ "info.circle.badge.fill.rtl"
++ "info.circle.badge.rtl"
++ "inset.filled.topthird.middlethird.bottomthird.trailinghalf.rectangle.split.2x1"
++ "iphone.duo"
++ "iphone.duo.always.on.display"
++ "iphone.duo.and.applewatch"
++ "iphone.duo.and.arrow.top.and.arrow.right.inward"
++ "iphone.duo.badge.checkmark"
++ "iphone.duo.badge.exclamationmark"
++ "iphone.duo.badge.location"
++ "iphone.duo.badge.play"
++ "iphone.duo.case"
++ "iphone.duo.case.open.landscape"
++ "iphone.duo.case.open.portrait"
++ "iphone.duo.closed.landscape"
++ "iphone.duo.motion"
++ "iphone.duo.on.iphone"
++ "iphone.duo.on.rectangle.portrait.dashed"
++ "iphone.duo.open.landscape"
++ "iphone.duo.open.partial.landscape"
++ "iphone.duo.open.partial.portrait"
++ "iphone.duo.open.portrait"
++ "iphone.duo.radiowaves.left.and.right"
++ "iphone.duo.rear.camera"
++ "iphone.duo.rear.camera.badge.checkmark"
++ "iphone.duo.rear.camera.badge.plus"
++ "iphone.duo.rear.camera.badge.scope"
++ "iphone.duo.rear.camera.trianglebadge.exclamationmark"
++ "iphone.duo.rear.open.landscape"
++ "iphone.duo.seated"
++ "iphone.duo.slash"
++ "iphone.duo.standing.landscape"
++ "iphone.duo.standing.portrait"
++ "iphone.waves.2.circular"
++ "iphone.waves.2.circular.slash"
++ "l3.capsule.long"
++ "l3.capsule.long.fill"
++ "l4.circle"
++ "l4.circle.fill"
++ "l5.circle"
++ "l5.circle.fill"
++ "line.3.horizontal.capsule"
++ "line.3.horizontal.capsule.fill"
++ "list.bullet.page"
++ "list.bullet.page.fill"
++ "lock.iphone.duo"
++ "lock.open.iphone.duo"
++ "longevity"
++ "macbook.and.iphone.duo"
++ "macbook.gen1.badge.checkmark"
++ "macbook.gen1.badge.exclamationmark"
++ "macbook.gen2.badge.checkmark"
++ "macbook.gen2.badge.exclamationmark"
++ "macmini.badge.exclamationmark"
++ "macmini.badge.exclamationmark.fill"
++ "macmini.gen2.badge.checkmark"
++ "macmini.gen2.badge.checkmark.fill"
++ "macmini.gen2.badge.exclamationmark"
++ "macmini.gen2.badge.exclamationmark.fill"
++ "macmini.gen3.badge.checkmark"
++ "macmini.gen3.badge.checkmark.fill"
++ "macmini.gen3.badge.exclamationmark"
++ "macmini.gen3.badge.exclamationmark.fill"
++ "macpro.gen1.badge.checkmark"
++ "macpro.gen1.badge.checkmark.fill"
++ "macpro.gen1.badge.exclamationmark"
++ "macpro.gen1.badge.exclamationmark.fill"
++ "macpro.gen2.badge.checkmark"
++ "macpro.gen2.badge.checkmark.fill"
++ "macpro.gen2.badge.exclamationmark"
++ "macpro.gen2.badge.exclamationmark.fill"
++ "macpro.gen3.badge.exclamationmark"
++ "macpro.gen3.badge.exclamationmark.fill"
++ "macpro.gen3.server.badge.checkmark"
++ "macpro.gen3.server.badge.exclamationmark"
++ "macstudio.badge.exclamationmark"
++ "macstudio.badge.exclamationmark.fill"
++ "person.crop.square.slash"
++ "person.crop.square.slash.fill"
++ "person.pattern.diagonalline.and.exclamationmark"
++ "person.pattern.diagonalline.and.exclamationmark.rtl"
++ "plus.icloud"
++ "plus.icloud.fill"
++ "point.and.arrow.3.forward"
++ "point.and.arrow.3.forward.fill"
++ "r3.capsule.long"
++ "r3.capsule.long.fill"
++ "r4.circle"
++ "r4.circle.fill"
++ "r5.circle"
++ "r5.circle.fill"
++ "rays.3.capsule"
++ "rays.3.capsule.fill"
++ "reference.image"
++ "reference.image.fill"
++ "signal.meter.horizontal.bars.4"
++ "signal.meter.vertical.bars.4"
++ "siri.badge.chart.bar"
++ "speaker.4.group.home.theater"
++ "speaker.4.group.whole.room"
++ "square.horizontal.stack.slash"
++ "square.horizontal.stack.slash.fill"
++ "text.below.heart.fill"
++ "text.pad.header.badge.waveform"
++ "ticket.perforated"
++ "ticket.perforated.fill"
++ "timelapse.badge.automatic"
++ "timer.slash"
++ "translate.fill"
++ "windsock"
+```

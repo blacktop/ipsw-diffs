@@ -1,0 +1,64 @@
+## PersonalizedSensingService
+
+> `/System/Library/PrivateFrameworks/PersonalizedSensing.framework/XPCServices/PersonalizedSensingService.xpc/PersonalizedSensingService`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__const`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_intobj`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
+```diff
+
+ 502.0.8.0.0
+-  __TEXT.__text: 0x13292c
++  __TEXT.__text: 0x1329cc
+   __TEXT.__auth_stubs: 0x2490
+   __TEXT.__objc_stubs: 0xb240
+   __TEXT.__objc_methlist: 0x6c10
+
+   __TEXT.__swift_as_cont: 0x35c
+   __TEXT.__swift5_mpenum: 0x30
+   __TEXT.__swift5_protos: 0x10
+-  __TEXT.__unwind_info: 0x47c0
+-  __TEXT.__eh_frame: 0x40f4
++  __TEXT.__unwind_info: 0x47c8
++  __TEXT.__eh_frame: 0x411c
+   __DATA_CONST.__const: 0x9dc1
+   __DATA_CONST.__cfstring: 0xecc0
+   __DATA_CONST.__objc_classlist: 0x478
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 5766
+-  Symbols:   15608
++  Functions: 5767
++  Symbols:   15609
+   CStrings:  6083
+ 
+Symbols:
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVySS7weekday_SS9timeOfDaySi5counttG_Tg5
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVySSG_Tg5
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVySo13MOEventBundleCG_Tg50237$s26PersonalizedSensingService21CleanTransformDonatorC38convertMomentsDonatorsToContextObjects33_987ECA0F93BA7D78874779F5E7FEC084LL4fromSayAA15PSSContextEventCG6events_SayAA0U7PatternCG8patternstSDySSSaySo14NSSecureCoding_pGG_tYaKFSbSo13fG11C_AStXEfU4_Tf1nnc_n
++ _$ss10_NativeSetV12intersectionyAByxGADFADs13_UnsafeBitsetVXEfU_SS_TG5TA
++ _$ss13_UnsafeBitsetV027_withTemporaryUninitializedB09wordCount4bodyxSi_xABq_YKXEtq_YKs5ErrorR_r0_lFZxSryAB4WordVGq_YKXEfU_AiBq_xRi_zRi0_zRi__Ri0__r0_lys5NeverOxIsgyrzr_xA2KRs_r0_lIetygrzo_Tpq5s10_NativeSetVySSG_Tg506$ss13_ab8V013withd36B08capacity4bodyxSi_xABq_YKXEtq_YKs5i9R_r0_lFZxr23_YKXEfU_A2Bq_xRi_zRi0_zz7__Ri0__u5_lys5k11OxIsgyrzr_xx4HRs_u19_lIetygrzo_TPq5s10_lM9VySSG_TG5ABq_xRi_zRi0_zRi__Ri0__r0_lyAkNIsgyrzr_Tf1nc_n
++ _$ss13_UnsafeBitsetV027_withTemporaryUninitializedB09wordCount4bodyxSi_xABq_YKXEtq_YKs5ErrorR_r0_lFZxSryAB4WordVGq_YKXEfU_s17_NativeDictionaryVySSSiG_s5NeverOTg506$ss13_ab8V013withd36B08capacity4bodyxSi_xABq_YKXEtq_YKs5i9R_r0_lFZxr12_YKXEfU_s17_kl10VySSSiG_s5M4OTG5ABq_xRi_zRi0_zRi__Ri0__r0_lyAnLIsgyrzr_Tf1nc_n06$ss17_kl47V6filteryAByxq_GSbx3key_q_5valuet_tqd__YKXEqd__ti12Rd__lFADs13_ab5Vqd__w9U_SS_Sis5M4OTG5ALxq_Sbq0_Ri_zRi0_zRi__Ri0__Ri_0_Ri0_0_r1_lySSSiANIsgnndzr_Tf1nc_n
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKFSS7weekday_SS9timeOfDaySi5countt_Tg5
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKFSS_Tg5
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKFSo13MOEventBundleC_Tg50237$s26PersonalizedSensingService21CleanTransformDonatorC38convertMomentsDonatorsToContextObjects33_987ECA0F93BA7D78874779F5E7FEC084LL4fromSayAA15PSSContextEventCG6events_SayAA0U7PatternCG8patternstSDySSSaySo14NSSecureCoding_pGG_tYaKFSbSo13eF11C_AStXEfU4_Tf1cn_n
+- _$ss13_UnsafeBitsetV027_withTemporaryUninitializedB09wordCount4bodyxSi_xABq_YKXEtq_YKs5ErrorR_r0_lFZxSryAB4WordVGq_YKXEfU_AiBq_xRi_zRi0_zRi__Ri0__r0_lys5NeverOxIsgyrzr_xA2KRs_r0_lIetygrzo_Tpq5s10_NativeSetVySSG_Tg506$ss10_lm30V12intersectionyAByxGADFADs13_aB12VXEfU_SS_TG5A2NTf1nc_n
+- _$ss13_UnsafeBitsetV027_withTemporaryUninitializedB09wordCount4bodyxSi_xABq_YKXEtq_YKs5ErrorR_r0_lFZxSryAB4WordVGq_YKXEfU_s17_NativeDictionaryVySSSiG_s5NeverOTg506$ss17_kl51V6filteryAByxq_GSbx3key_q_5valuet_tqd__YKXEqd__YKs5i12Rd__lFADs13_ab19Vqd__YKXEfU_SS_Sis5M4OTG5ALxq_Sbq0_Ri_zRi0_zRi__Ri0__Ri_0_Ri0_0_r1_lySSSiANIsgnndzr_Tf1nc_n
+```

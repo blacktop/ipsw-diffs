@@ -1,0 +1,753 @@
+## Health
+
+> `/private/var/staged_system_apps/Health.app/Health`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_entry`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_catlist2`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA.__objc_stublist`
+
+```diff
+
+-7027.1.45.2.4
+-  __TEXT.__text: 0x2cc40c
+-  __TEXT.__auth_stubs: 0xb2e0
+-  __TEXT.__objc_stubs: 0x5ca0
+-  __TEXT.__objc_methlist: 0x2158
+-  __TEXT.__const: 0x17964
+-  __TEXT.__constg_swiftt: 0x9db8
+-  __TEXT.__swift5_typeref: 0x8598
+-  __TEXT.__swift5_fieldmd: 0x80e0
+-  __TEXT.__swift5_builtin: 0x384
+-  __TEXT.__swift5_reflstr: 0x81c8
+-  __TEXT.__swift5_assocty: 0x14d8
+-  __TEXT.__cstring: 0x13b3e
+-  __TEXT.__swift5_protos: 0xdc
+-  __TEXT.__swift5_proto: 0xe94
+-  __TEXT.__swift5_types: 0x8a8
+-  __TEXT.__objc_classname: 0x24b8
+-  __TEXT.__objc_methname: 0xb835
+-  __TEXT.__objc_methtype: 0x4401
+-  __TEXT.__oslogstring: 0x45da
+-  __TEXT.__swift5_capture: 0x3330
+-  __TEXT.__swift_as_entry: 0x2e8
+-  __TEXT.__swift_as_cont: 0xaf4
+-  __TEXT.__swift5_mpenum: 0x144
+-  __TEXT.__swift_as_ret: 0x28c
++7027.1.54.2.3
++  __TEXT.__text: 0x305954
++  __TEXT.__auth_stubs: 0xbb30
++  __TEXT.__objc_stubs: 0x5f60
++  __TEXT.__objc_methlist: 0x21b0
++  __TEXT.__const: 0x19664
++  __TEXT.__constg_swiftt: 0xa5c8
++  __TEXT.__swift5_typeref: 0x8c70
++  __TEXT.__swift5_fieldmd: 0x8ad8
++  __TEXT.__swift5_builtin: 0x424
++  __TEXT.__swift5_reflstr: 0x8b78
++  __TEXT.__swift5_assocty: 0x17b0
++  __TEXT.__cstring: 0x149be
++  __TEXT.__swift5_protos: 0xe0
++  __TEXT.__swift5_proto: 0x1008
++  __TEXT.__swift5_types: 0x934
++  __TEXT.__objc_classname: 0x25b8
++  __TEXT.__objc_methname: 0xc29d
++  __TEXT.__objc_methtype: 0x4381
++  __TEXT.__oslogstring: 0x464a
++  __TEXT.__swift5_capture: 0x3a24
++  __TEXT.__swift_as_entry: 0x318
++  __TEXT.__swift_as_cont: 0xb6c
++  __TEXT.__swift5_mpenum: 0x15c
++  __TEXT.__swift_as_ret: 0x2c0
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__unwind_info: 0xbf38
+-  __TEXT.__eh_frame: 0xc080
+-  __DATA_CONST.__const: 0x168b0
++  __TEXT.__unwind_info: 0xcc28
++  __TEXT.__eh_frame: 0xcfd8
++  __DATA_CONST.__const: 0x191b0
+   __DATA_CONST.__cfstring: 0x40
+-  __DATA_CONST.__objc_classlist: 0x2e0
++  __DATA_CONST.__objc_classlist: 0x300
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_catlist2: 0x10
+   __DATA_CONST.__objc_protolist: 0x1f8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x108
+-  __DATA_CONST.__auth_got: 0x5978
+-  __DATA_CONST.__got: 0x30c8
+-  __DATA_CONST.__auth_ptr: 0x2610
+-  __DATA.__objc_const: 0x9d48
+-  __DATA.__objc_selrefs: 0x2668
+-  __DATA.__objc_data: 0x4428
+-  __DATA.__data: 0x12a08
++  __DATA_CONST.__auth_got: 0x5da0
++  __DATA_CONST.__got: 0x3388
++  __DATA_CONST.__auth_ptr: 0x2800
++  __DATA.__objc_const: 0xa578
++  __DATA.__objc_selrefs: 0x2718
++  __DATA.__objc_data: 0x4648
++  __DATA.__data: 0x139c8
+   __DATA.__objc_stublist: 0x90
+-  __DATA.__common: 0x750
++  __DATA.__common: 0x7e8
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /System/Library/PrivateFrameworks/FeedbackService.framework/FeedbackService
+   - /System/Library/PrivateFrameworks/FitnessCoaching.framework/FitnessCoaching
+   - /System/Library/PrivateFrameworks/FitnessUI.framework/FitnessUI
++  - /System/Library/PrivateFrameworks/HealthAgents.framework/HealthAgents
+   - /System/Library/PrivateFrameworks/HealthAlgorithms.framework/HealthAlgorithms
+   - /System/Library/PrivateFrameworks/HealthAppHealthDaemonSupport.framework/HealthAppHealthDaemonSupport
+   - /System/Library/PrivateFrameworks/HealthAppServices.framework/HealthAppServices
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 13291
+-  Symbols:   4828
+-  CStrings:  4251
++  Functions: 14166
++  Symbols:   5092
++  CStrings:  4423
+ 
+Symbols:
++ _$s10Foundation12DateIntervalV16HealthChartsCore0C10ChartValueADMc
++ _$s10Foundation24FloatingPointFormatStyleV7rounded4rule9incrementACyxGs0bC12RoundingRuleO_SdSgtF
++ _$s10Foundation4DateV13distantFutureACvgZ
++ _$s10Foundation4DateV20timeIntervalSinceNowACSd_tcfC
++ _$s10Foundation4DateV2geoiySbAC_ACtFZ
++ _$s10Foundation4DateV2leoiySbAC_ACtFZ
++ _$s11HealthPlans28ActionSuggestionAvailabilityC11isAvailable11healthStoreSbSo08HKHealthI0C_tYaF
++ _$s11HealthPlans28ActionSuggestionAvailabilityC11isAvailable11healthStoreSbSo08HKHealthI0C_tYaFTu
++ _$s11HealthPlans28ActionSuggestionAvailabilityC25areDeviceAndBuildGatesMetSbvg
++ _$s11HealthPlans28ActionSuggestionAvailabilityC6sharedACvgZ
++ _$s11HealthPlans28ActionSuggestionAvailabilityC8register33isIntelligentConfigurationEnabled23areSuggestionsSupported0g6LocaleM17ForCustomerBuildsySbyYbc_Sb10Foundation0N0VYbcSbAJYbctFZ
++ _$s11HealthPlans28ActionSuggestionAvailabilityCMa
++ _$s11SleepHealth0A15ScoreDaySummaryV016effectiveMinimumA12DurationGoalSdvg
++ _$s12HealthAgents26PersonalizationCoordinatorC23areSuggestionsSupported3forSb10Foundation6LocaleV_tF
++ _$s12HealthAgents26PersonalizationCoordinatorC34isLocaleSupportedForCustomerBuildsySb10Foundation0F0VF
++ _$s12HealthAgents26PersonalizationCoordinatorCACycfC
++ _$s12HealthAgents26PersonalizationCoordinatorCMa
++ _$s12HealthCharts22ChannelsChartConstantsO10plotHeightSdvgZ
++ _$s12HealthCharts25DashboardChartXAxisLabelsV7SwiftUI4ViewAAMc
++ _$s12HealthCharts25DashboardChartXAxisLabelsV7leading8trailingACSS_SStcfC
++ _$s12HealthCharts25DashboardChartXAxisLabelsVMa
++ _$s12HealthCharts25DashboardChartXAxisLabelsVMn
++ _$s12HealthCharts29WeeklyStepsChartConfigurationV11accentColorAC7SwiftUI0H0V_tcfC
++ _$s12HealthCharts29WeeklyStepsChartConfigurationVAA06StaticeF0AAWP
++ _$s12HealthCharts29WeeklyStepsChartConfigurationVMa
++ _$s12HealthCharts32DailyHeartRateChartConfigurationV11accentColorAC7SwiftUI0I0V_tcfC
++ _$s12HealthReport23MulberryTabAvailabilityO12isMinimumAge21dateOfBirthComponents3nowSb10Foundation04DateL0VSg_AG0O0VtFZ
++ _$s12HealthReport23MulberryTabAvailabilityO28isAppleIntelligenceAvailableSbyFZ
++ _$s13HealthBalance22VitalsMetricEvaluationO14classificationAA0cD14ClassificationOvg
++ _$s13HealthBalance22VitalsMetricEvaluationO4typeAA0cdE4TypeOvg
++ _$s13HealthBalance23DaytimeVitalsDaySummaryV0aB2UIE22shortenedBaselineLabel3for4unitSSSgAA0cD10MetricTypeO_So6HKUnitCtF
++ _$s13HealthBalance23SleepingSampleAggregateV11DataSourcesVMa
++ _$s13HealthBalance23SleepingSampleAggregateV11DataSourcesVs10SetAlgebraAAMc
++ _$s13HealthBalance23SleepingSampleAggregateV5empty2onAC0A3Kit8DayIndexV_tFZ
++ _$s13HealthBalance24SleepingSampleDaySummaryV0aB2UIE22shortenedBaselineLabel3for4unitSSSgAA0cD8DataTypeO_So6HKUnitCtF
++ _$s13HealthBalance24SleepingSampleDaySummaryV12morningIndex13baselineRange014latestBaselineD3End9heartRate0nO11Variability11bloodOxygen011respiratoryO016wristTemperature10timeAsleepAC0A3Kit0eH0V_SnyAOG10Foundation4DateVSgAA0cdL10ComparisonVA5VtcfC
++ _$s13HealthBalance32SleepingSampleBaselineComparisonV14warmupProgressAA06WarmupH0Vvg
++ _$s13HealthBalance32SleepingSampleBaselineComparisonV2rr_2on8calendar03hasE0ACSd_0A3Kit8DayIndexV10Foundation8CalendarVSbtFZ
++ _$s13HealthBalance32SleepingSampleBaselineComparisonV3hrv_2on11sampleCount8calendar03hasE0ACSd_0A3Kit8DayIndexVSi10Foundation8CalendarVSbtFZ
++ _$s13HealthBalance32SleepingSampleBaselineComparisonV3wtr_2on8calendar03hasE0ACSd_0A3Kit8DayIndexV10Foundation8CalendarVSbtFZ
++ _$s13HealthBalance32SleepingSampleBaselineComparisonV4spO2_2on11dataSources8calendar03hasE0ACSd_0A3Kit8DayIndexVAA0cD9AggregateV04DataK0V10Foundation8CalendarVSbtFZ
++ _$s13HealthBalance32SleepingSampleBaselineComparisonV5empty2onAC0A3Kit8DayIndexV_tFZ
++ _$s13HealthBalance32SleepingSampleBaselineComparisonV5heart_2on11sampleCount8calendar03hasE008baselineJ0ACSd_0A3Kit8DayIndexVSi10Foundation8CalendarVSbSitFZ
++ _$s13HealthBalance32SleepingSampleBaselineComparisonV6asleep_2on8calendar03hasE0ACSd_0A3Kit8DayIndexV10Foundation8CalendarVSbtFZ
++ _$s13HealthBalance32SleepingSampleBaselineComparisonV9aggregateAA0cD9AggregateVvs
++ _$s13HealthBalance34SleepingSampleBaselineAvailabilityO19maximumNumberOfDaysSivgZ
++ _$s13HealthBalance34SleepingSampleBaselineAvailabilityO21maximumNumberOfValuesSivgZ
++ _$s13HealthBalance34SleepingSampleDaySummaryCollectionV09gregorianE5Range12daySummariesAcA09GregorianeI0V_SayAA0cdeF0VGtcfC
++ _$s13HealthBalance35SleepingSampleAnalysisFeatureStatusV15featureStatusesACSDySo19HKFeatureIdentifiera0A8Features0fG0OG_tcfC
++ _$s13HealthDomains26DashboardChannelIdentifierOMn
++ _$s13SleepHealthUI0A11StagesModelV13sleepInterval10Foundation04DateG0VSgvg
++ _$s14HealthFeatures13FeatureStatusO16OnboardingRecordV20perContextEvaluation8settings24allOnboardedCountryCodes04dateE9CompletedAeC03PerhI0V_So17HKFeatureSettingsCShySSG10Foundation4DateVtcfC
++ _$s14HealthFeatures13FeatureStatusO20PerContextEvaluationV025requirementSatisfactionByF0AESDySo021HKFeatureAvailabilityF0aSDySo0kL21RequirementIdentifieraSbGG_tcfC
++ _$s14HealthFeatures13FeatureStatusO20PerContextEvaluationVMa
++ _$s14HealthFeatures13FeatureStatusO9onboardedyA2C16OnboardingRecordVcACmFWC
++ _$s14HealthPlatform0A22AppNotificationManagerC20notificationSettingsSo014UNNotificationG0CyYaFTjTu
++ _$s14HealthPlatform10DailyTotalV12dateInterval5valueAC10Foundation04DateF0V_SdtcfC
++ _$s14HealthPlatform16UserDefaultsKeysO26lastViewedDashboardPageKeySSvgZ
++ _$s14HealthPlatform17AccumulationPointV4date5valueAC10Foundation4DateV_SdtcfC
++ _$s14HealthPlatform17ActivityChartDataV10StandPointV4date5stateAE10Foundation4DateV_AE5StateOtcfC
++ _$s14HealthPlatform17ActivityChartDataV13QuantityPointV9startDate03endI05valueAE10Foundation0I0V_AKSdSgtcfC
++ _$s14HealthPlatform17ActivityChartDataV18activeEnergyPoints013appleMoveTimeH008exercisekH009standHourH0ACSayAC13QuantityPointVG_A2JSayAC05StandP0VGtcfC
++ _$s14HealthPlatform18AccumulationSeriesV6points4unitACSayAA0C5PointVG_So6HKUnitCtcfC
++ _$s14HealthPlatform19CachedModelProviderP2idAA0cD2IDVy0D0QzGvgTj
++ _$s14HealthPlatform20UserDayPhaseProviderV17gregorianCalendar23todaysSleepScoreSummary16scheduledBedtimeAC10Foundation0H0V_0jA00jkdL0VSg0A3Kit0J9ClockTimeVSgtcfC
++ _$s14HealthPlatform21CardioFitnessSnapshotV11vo2MaxValue5level20mostRecentSampleDateACSd_AC5LevelO10Foundation0M0VtcfC
++ _$s14HealthPlatform22ByThisTimeAccumulationV10currentDay17historicalAverage10windowDays20mostRecentSampleDateAcA0F6SeriesV_AISgSi10Foundation0P0VSgtcfC
++ _$s14HealthPlatform23ResolvedMenopausalStateV19hasOngoingMenopause0fG13Perimenopause18menopauseStartDate0j8ReportedL0ACSb_Sb10Foundation0L0VSgAKtcfC
++ _$s14HealthPlatform23ResolvedMenopausalStateVMn
++ _$s14HealthPlatform25HeartDashboardCachedModelV8dayIndex0A3Kit03DayH0Vvg
++ _$s14HealthPlatform25SleepDashboardCachedModelV06todaysC12ScoreSummary17gregorianCalendar0cA00ch3DayI0VSg10Foundation0K0V_tF
++ _$s14HealthPlatform28ActivityDashboardCachedModelV30stepsBestPreviousMonthThisYearSiSgvg
++ _$s14HealthPlatform28ActivityDashboardCachedModelV31pushesBestPreviousMonthThisYearSiSgvg
++ _$s14HealthPlatform28ActivityDashboardCachedModelV8dayIndex12dateInterval15activitySummary15stepsByThisTime06pushesnoP021weekOfDailyStepTotals0rst4PushV00M18CalendarCumulative0qxY00m17BestPreviousMonthO4Year0qz13PreviousMonthO4Year022walkingRunningDistancenoP0018wheelchairDistancenoP007flightsnoP00K9ChartData13cardioFitness18typicalDayProgress15readinessInputsAC0A3Kit03DayH0V_10Foundation04DateJ0VSo010HKActivityL0CSgAA0noP12AccumulationVSgA5_SayAA0T5TotalVGSgA9_AA0xyV0VSgA12_SiSgA13_A5_A5_A5_AA0C9ChartDataVSgAA21CardioFitnessSnapshotVSgAA010TypicalDayC8ProgressVSgAC15ReadinessInputsVSgtcfC
++ _$s14HealthPlatform33CycleTrackingDashboardCachedModelV29isDeviationDetectionAvailableSbvg
++ _$s14HealthPlatform33CycleTrackingDashboardCachedModelV8analysis10daySummary09pregnancyG009menopauseG00L5State13featureStatus025deviationDetectionFeatureO023confirmedDeviationCount35isMenopauseAvailableInCurrentRegionACSo12HKMCAnalysisC_So07HKMCDayJ0CSgSo013HKMCPregnancyG0CSo013HKMCMenopauseG0CSgAA018ResolvedMenopausalM0VSg0A8Features0rO0OA0_SgSiSbSgtcfC
++ _$s14HealthPlatform33DaytimeVitalsDashboardCachedModelV8dayIndex0A3Kit03DayI0Vvg
++ _$s14HealthPlatform35OvernightVitalsDashboardCachedModelV8dayIndex10collection13featureStatus019mostRecentSampleDayI0AC0A3Kit0pI0V_0A7Balance08SleepingoP17SummaryCollectionVSgAK0so15AnalysisFeatureL0VSgAJSgtcfC
++ _$s14HealthPlatform6AtomicC23mutateReturningPreviousyxxF
++ _$s14HealthPlatform6AtomicCMa
++ _$s14HealthPlatform6AtomicCyACyxGxcfc
++ _$s15HealthUtilities20SendableUserDefaultsC0A7BalanceE31mostRecentWatchHRVSampleDateKeySSvgZ
++ _$s15HealthUtilities20SendableUserDefaultsC3set_6forKeyy10Foundation4DateVSg_SStF
++ _$s16HealthChartsCore0aB4DataV06SeriesD0V_11aggregation4unitAEy_xq_GSayx_q_tG_AC11AggregationOAA0aB4UnitVtcfC
++ _$s16HealthChartsCore0aB4DataV06SeriesD5ShapeO9dateRangeyAeC0eD0Vy_10Foundation12DateIntervalVSNySdGG_tcAEmFWC
++ _$s16HealthChartsCore0aB4DataV7overlayyA2C06SeriesD5ShapeOF
++ _$s16HealthExperience22SnapshotDataSourceItemP16uniqueIdentifierSSvgTj
++ _$s17HealthAppServices0aB18EnvironmentalStateO32quickLoggingVisibilityIdentifierSSvgZ
++ _$s17HealthAppServices14HAUserActivityV17restorationWindowSdvgZ
++ _$s17HealthAppServices14HAUserActivityV18RestorationInfoKeyO13dashboardPageyA2EmFWC
++ _$s17HealthAppServices14HAUserActivityV18RestorationInfoKeyOSHAAMc
++ _$s17HealthAppServices14HAUserActivityV18RestorationInfoKeyOSQAAMc
++ _$s17WrappedDataSource18HealthExperienceUI0bC7WrapperPTl
++ _$s18HealthExperienceUI0A14InteractionTabO8insightsyA2CmFWC
++ _$s18HealthExperienceUI0A14InteractionTabOMa
++ _$s18HealthExperienceUI0A17InteractionActionO10impressionyA2CmFWC
++ _$s18HealthExperienceUI0A17InteractionActionO3tapyA2CmFWC
++ _$s18HealthExperienceUI0A17InteractionActionO4edityA2CmFWC
++ _$s18HealthExperienceUI0A17InteractionActionO7exitTabyA2CmFWC
++ _$s18HealthExperienceUI0A17InteractionActionO8enterTabyA2CmFWC
++ _$s18HealthExperienceUI0A17InteractionActionO9enterRoomyA2CmFWC
++ _$s18HealthExperienceUI0A17InteractionActionOMa
++ _$s18HealthExperienceUI0A17InteractionActionOSQAAMc
++ _$s18HealthExperienceUI0A17InteractionDomainO13cycleTrackingyA2CmFWC
++ _$s18HealthExperienceUI0A17InteractionDomainO5heartyA2CmFWC
++ _$s18HealthExperienceUI0A17InteractionDomainO5sleepyA2CmFWC
++ _$s18HealthExperienceUI0A17InteractionDomainO6vitalsyA2CmFWC
++ _$s18HealthExperienceUI0A17InteractionDomainO7fitnessyA2CmFWC
++ _$s18HealthExperienceUI0A17InteractionDomainO9readinessyA2CmFWC
++ _$s18HealthExperienceUI0A17InteractionDomainOMa
++ _$s18HealthExperienceUI0A18InteractionContextO11channelRoomSSvgZ
++ _$s18HealthExperienceUI0A18InteractionContextO12insightsRoomSSvgZ
++ _$s18HealthExperienceUI0A18InteractionContextO15pinnedTileStripSSvgZ
++ _$s18HealthExperienceUI0A18InteractionSectionO10highlightsyA2CmFWC
++ _$s18HealthExperienceUI0A18InteractionSectionO15pinnedTileStripyA2CmFWC
++ _$s18HealthExperienceUI0A18InteractionSectionO16summaryStatementyA2CmFWC
++ _$s18HealthExperienceUI0A18InteractionSectionO18summaryChannelRoomyA2CmFWC
++ _$s18HealthExperienceUI0A18InteractionSectionO6forYouyA2CmFWC
++ _$s18HealthExperienceUI0A18InteractionSectionO7tabExityA2CmFWC
++ _$s18HealthExperienceUI0A18InteractionSectionO8articlesyA2CmFWC
++ _$s18HealthExperienceUI0A18InteractionSectionO9tabLaunchyA2CmFWC
++ _$s18HealthExperienceUI0A18InteractionSectionOMa
++ _$s18HealthExperienceUI0A19InteractionRecorderV14markNewSessionyyF
++ _$s18HealthExperienceUI0A19InteractionRecorderV6record3tab7section10subSection6action0K6Detail9contentID18dataTypeIdentifier7context10entryPointyAA0aD3TabO_AA0adJ0OAA0ad3SubJ0OAA0aD6ActionOAA0adwL0OSgSSSgAA0aD6DomainOSgA2YtF
++ _$s18HealthExperienceUI0A19InteractionRecorderV7session6senderAcA0aD7SessionCSg_0aB016AnalyticsSending_s8SendablepSgtcfC
++ _$s18HealthExperienceUI0A19InteractionRecorderVMa
++ _$s18HealthExperienceUI0A19InteractionRecorderVMn
++ _$s18HealthExperienceUI0A20InteractionReportingMp
++ _$s18HealthExperienceUI0A20InteractionReportingP14interactionTabAA0adG0OvgTq
++ _$s18HealthExperienceUI0A20InteractionReportingP18interactionSectionAA0adG0OvgTq
++ _$s18HealthExperienceUI0A20InteractionReportingP20interactionContentID3forSSSg0aB022SnapshotDataSourceItem_p_tFTq
++ _$s18HealthExperienceUI0A20InteractionReportingP21interactionSubSection3forAA0adgH0O0aB022SnapshotDataSourceItem_p_tFTq
++ _$s18HealthExperienceUI0A20InteractionReportingP23interactionActionDetail3forAA0adgH0OSg0aB022SnapshotDataSourceItem_p_tFTq
++ _$s18HealthExperienceUI0A20InteractionReportingP25interactionImpressionUnitAA0adgH0OvgTq
++ _$s18HealthExperienceUI0A20InteractionReportingP29interactionDataTypeIdentifier3forAA0aD6DomainOSg0aB008SnapshotG10SourceItem_p_tFTq
++ _$s18HealthExperienceUI0A20InteractionReportingP40interactionSectionImpressionActionDetailAA0adiJ0OSgvgTq
++ _$s18HealthExperienceUI0A20InteractionReportingPAAE14interactionTabAA0adG0Ovg
++ _$s18HealthExperienceUI0A20InteractionReportingPAAE20interactionContentID3forSSSg0aB022SnapshotDataSourceItem_p_tF
++ _$s18HealthExperienceUI0A20InteractionReportingPAAE25interactionImpressionUnitAA0adgH0Ovg
++ _$s18HealthExperienceUI0A20InteractionReportingPAAE29interactionDataTypeIdentifier3forAA0aD6DomainOSg0aB008SnapshotG10SourceItem_p_tF
++ _$s18HealthExperienceUI0A20InteractionReportingPAAE40interactionSectionImpressionActionDetailAA0adiJ0OSgvg
++ _$s18HealthExperienceUI0A21InteractionEntryPointO11insightsTabSSvgZ
++ _$s18HealthExperienceUI0A21InteractionImpressionO5dwellSdvgZ
++ _$s18HealthExperienceUI0A21InteractionSubSectionO11channelRoomyA2CmFWC
++ _$s18HealthExperienceUI0A21InteractionSubSectionO11channelRoomyAcA0aD6DomainOFZ
++ _$s18HealthExperienceUI0A21InteractionSubSectionO12insightsRoomyA2CmFWC
++ _$s18HealthExperienceUI0A21InteractionSubSectionO6forYouyA2CmFWC
++ _$s18HealthExperienceUI0A21InteractionSubSectionO7surfaceyAcA0adF0OFZ
++ _$s18HealthExperienceUI0A21InteractionSubSectionO7tabExityA2CmFWC
++ _$s18HealthExperienceUI0A21InteractionSubSectionO9tabLaunchyA2CmFWC
++ _$s18HealthExperienceUI0A21InteractionSubSectionOMa
++ _$s18HealthExperienceUI0A23InteractionActionDetailO011getMoreFromA0yA2CmFWC
++ _$s18HealthExperienceUI0A23InteractionActionDetailO10evaluationyA2CmFWC
++ _$s18HealthExperienceUI0A23InteractionActionDetailO10pinnedTileyAcA0aD6DomainOFZ
++ _$s18HealthExperienceUI0A23InteractionActionDetailO11channelRoomyA2CmFWC
++ _$s18HealthExperienceUI0A23InteractionActionDetailO11showAllDatayA2CmFWC
++ _$s18HealthExperienceUI0A23InteractionActionDetailO14showAllContentyA2CmFWC
++ _$s18HealthExperienceUI0A23InteractionActionDetailO15healthChecklistyA2CmFWC
++ _$s18HealthExperienceUI0A23InteractionActionDetailO15showAllArticlesyA2CmFWC
++ _$s18HealthExperienceUI0A23InteractionActionDetailO17actionSuggestionsyA2CmFWC
++ _$s18HealthExperienceUI0A23InteractionActionDetailO17showAllHighlightsyA2CmFWC
++ _$s18HealthExperienceUI0A23InteractionActionDetailO19summaryStatementLLMyA2CmFWC
++ _$s18HealthExperienceUI0A23InteractionActionDetailO24showAllArticlesAndVideosyA2CmFWC
++ _$s18HealthExperienceUI0A23InteractionActionDetailO24summaryStatementFallbackyA2CmFWC
++ _$s18HealthExperienceUI0A23InteractionActionDetailO6forYouyA2CmFWC
++ _$s18HealthExperienceUI0A23InteractionActionDetailO7exploreyA2CmFWC
++ _$s18HealthExperienceUI0A23InteractionActionDetailO8dataGridyA2CmFWC
++ _$s18HealthExperienceUI0A23InteractionActionDetailOMa
++ _$s18HealthExperienceUI0A25InteractionImpressionUnitO7elementyA2CmFWC
++ _$s18HealthExperienceUI0A25InteractionImpressionUnitOMa
++ _$s18HealthExperienceUI12ChartContextC4date16preferredOverlay0G9TimeScope11trendActive12chartOptionsAC10Foundation4DateVSg_So022HKOverlayRoomPreferredH0VSgSo06HKTimeJ0VSgSo0qr5TrendL0VAC0dN0VtcfC
++ _$s18HealthExperienceUI12PresentationO29collectionViewBackgroundColorSo7UIColorCvg
++ _$s18HealthExperienceUI13TabIdentifierO08TopLeveldE0O8rawValueAESgSS_tcfC
++ _$s18HealthExperienceUI15EmptyDataSourceCAA36CollectionViewLayoutSectionProvidingAAWP
++ _$s18HealthExperienceUI16GridLayoutEngineV8articlesACvgZ
++ _$s18HealthExperienceUI17DataSourceWrapperMp
++ _$s18HealthExperienceUI17DataSourceWrapperP07WrappeddE0AC_AA08SnapshotdE0Tn
++ _$s18HealthExperienceUI17DataSourceWrapperP07wrappeddE007WrappeddE0QzvgTq
++ _$s18HealthExperienceUI17DataSourceWrapperPAA03AnydeF0Tb
++ _$s18HealthExperienceUI17DataSourceWrapperPAAE13isReorderableSbyF
++ _$s18HealthExperienceUI18SnapshotDataSourceP15changeObserversSo24HKSynchronousObserverSetCyAA0deF12EventHandler_pGvgTj
++ _$s18HealthExperienceUI18SnapshotDataSourceP4item3for0aB00deF4Item_pSgSS_tFTj
++ _$s18HealthExperienceUI18SnapshotDataSourceP8snapshot5UIKit010NSDiffableefD0VyS2SGvgTj
++ _$s18HealthExperienceUI20AnyDataSourceWrapperMp
++ _$s18HealthExperienceUI20AnyDataSourceWrapperP08resolvedeF0AA08SnapshoteF0_pvgTq
++ _$s18HealthExperienceUI20AnyDataSourceWrapperPAA08SnapshoteF0Tb
++ _$s18HealthExperienceUI22MutableArrayDataSourceC19reconfigureAllItemsyyFTj
++ _$s18HealthExperienceUI22WheelchairUseProvidingP02isD4UserSbvgTq
++ _$s18HealthExperienceUI22WheelchairUseProvidingP11Observation10ObservableTb
++ _$s18HealthExperienceUI24PluginNotificationRouterC07didOpenE0yyYbcSgvsTj
++ _$s18HealthExperienceUI25TimeBoundMappedDataSourceC06healthB5Store13configuration12dateProvider18notificationCenterAC0A8Platform0abJ0_p_AC13ConfigurationV10Foundation4DateVycSo014NSNotificationO0Ctcfc
++ _$s18HealthExperienceUI25TimeBoundMappedDataSourceC13ConfigurationV12contentKinds14sourceProfiles19categoryIdentifiers16dashboardPageIDs17atLeastOneKeyword0J12KindPriority5limitAESay0A8Platform07ContentW0OG_SayAM0H7ProfileOGSaySSGSgAuTSiAOcSgAE5LimitOtcfC
++ _$s18HealthExperienceUI25TimeBoundMappedDataSourceC13ConfigurationV5LimitO21oneItemPerContentKindyA2GmFWC
++ _$s18HealthExperienceUI25TimeBoundMappedDataSourceC13ConfigurationV5LimitO9unlimitedyA2GmFWC
++ _$s18HealthExperienceUI25TimeBoundMappedDataSourceC13ConfigurationV5LimitOMa
++ _$s18HealthExperienceUI25TimeBoundMappedDataSourceC13ConfigurationVMa
++ _$s18HealthExperienceUI26PrimarySecondaryDataSourceCA2A36CollectionViewLayoutSectionProvidingRzAaDR_rlE010decorationI5KindsSDySSyXlXpSgGvg
++ _$s18HealthExperienceUI26PrimarySecondaryDataSourceCA2A36CollectionViewLayoutSectionProvidingRzAaDR_rlE019shouldCollapseEmptyK0ySbSiF
++ _$s18HealthExperienceUI26PrimarySecondaryDataSourceCA2A36CollectionViewLayoutSectionProvidingRzAaDR_rlE6layout3forSo012NSCollectionjK0CAA0hiJ7ContextV_tKF
++ _$s18HealthFoundationUI023TripleTextBlockSubtitleE0V05SwiftC04ViewAAMc
++ _$s18HealthFoundationUI023TripleTextBlockSubtitleE0VMa
++ _$s18HealthFoundationUI023TripleTextBlockSubtitleE0VMn
++ _$s18HealthFoundationUI12PaneSelectorV02onD5SwipeyACyxq_q0_GyycF
++ _$s18HealthFoundationUI12PaneSelectorV19paneBackgroundColoryACyxq_q0_G05SwiftC00H0VF
++ _$s18HealthFoundationUI12PaneSelectorV9selection7content10topOverlayACyxq_q0_G05SwiftC07BindingVyxG_q_yXEq0_yXEtcfC
++ _$s18HealthFoundationUI12PaneSelectorVyxq_q0_G05SwiftC04ViewAAMc
++ _$s18HealthFoundationUI13StatsRowTrendO2upyA2CmFWC
++ _$s18HealthFoundationUI13StatsRowTrendO4downyA2CmFWC
++ _$s18HealthFoundationUI13StatsRowTrendOMa
++ _$s18HealthFoundationUI15TripleTextBlockVAA05SwiftC00E0VRszrlE8verbatim0H8Subtitle0H7CaptionACyAfA0defiE0VSgAFSgAD9EmptyViewVGSS_SSSgAQtcALRs_AMRs0_AORs1_rlufC
++ _$s18HealthFoundationUI23VisibleScrollViewFinderO06scrollF02in18requiringScrollingSo08UIScrollF0CSgSo6UIViewC_SbtFZ
++ _$s18HealthFoundationUI8StatsRowV05SwiftC04ViewAAMc
++ _$s18HealthFoundationUI8StatsRowV5label5value4tint13animatedValue5trend6status12showsChevronAC05SwiftC04TextV_AmK5ColorVSgSSSgAA0dE5TrendOSgAMSgSbtcfC
++ _$s18HealthFoundationUI8StatsRowVMa
++ _$s18HealthFoundationUI8StatsRowVMn
++ _$s18HealthReportCoreUI20LongevityInteractionO10EntryPointO12notificationyA2EmFWC
++ _$s18HealthReportCoreUI20LongevityInteractionO10EntryPointO8deepLinkyA2EmFWC
++ _$s18HealthReportCoreUI20LongevityInteractionO10EntryPointOMa
++ _$s18HealthReportCoreUI25LongevityAnalyticsSessionC13didBackgroundyyF
++ _$s18HealthReportCoreUI25LongevityAnalyticsSessionC13didForegroundyyF
++ _$s18HealthReportCoreUI25LongevityAnalyticsSessionC6sharedACvgZ
++ _$s18HealthReportCoreUI25LongevityAnalyticsSessionC8didEnter4fromyAA0E11InteractionO10EntryPointO_tF
++ _$s18HealthReportCoreUI25LongevityAnalyticsSessionCMa
++ _$s19ArrayLiteralElements013ExpressibleByaB0PTl
++ _$s24HealthPlatformFoundation0A40AppIntelligenceConfigurationAvailabilityC6sharedACvgZ
++ _$s24HealthPlatformFoundation0A40AppIntelligenceConfigurationAvailabilityC9isEnabledSbvg
++ _$s2os6LoggerV12HealthReportE11mulberryTabACvgZ
++ _$s5UIKit26UIListContentConfigurationV8HealthUIE43hk_semiboldExtraProminentInsetGroupedHeaderACyFZ
++ _$s7Elements10SetAlgebraPTl
++ _$s7SwiftUI14NavigationLinkVA2A4TextVRszrlE_11destinationACyAEq_GAA18LocalizedStringKeyV_q_tcfC
++ _$s7SwiftUI14TintShapeStyleVAA0dE0AAWP
++ _$s7SwiftUI14TintShapeStyleVACycfC
++ _$s7SwiftUI14TintShapeStyleVMa
++ _$s7SwiftUI14TintShapeStyleVMn
++ _$s7SwiftUI5ColorV013HealthBalanceB0E11balanceCyanACvgZ
++ _$s7SwiftUI5ColorV013HealthBalanceB0E11balanceMintACvgZ
++ _$s7SwiftUI5ColorV013HealthBalanceB0E11balancePinkACvgZ
++ _$s7SwiftUI5ColorV013HealthBalanceB0E13balancePurpleACvgZ
++ _$s7SwiftUI5ColorV02uiC0ACSo7UIColorC_tcfC
++ _$s7SwiftUI5ColorV4pinkACvgZ
++ _$s7SwiftUI5ColorVSHAAMc
++ _$s7SwiftUI5ColorVyACxcSHRzAA10ShapeStyleRzAC8ResolvedVAeaDPRtzlufC
++ _$s8Dispatch0A12TimeIntervalO7secondsyACSicACmFWC
++ _$s9HealthKit23HKSampleQueryDescriptorV15queryAttributesAA07HKQueryG0VvM
++ _$s9HealthKit8DayIndexV013activityCacheD0s5Int64Vvg
++ _$s9HealthKit8DayIndexV05sleepC8Interval2in10Foundation04DateF0VAF8CalendarV_tF
++ _$s9HealthKit8DayIndexV1poiyA2C_SitFZ
++ _$s9HealthKit8DayIndexV1soiyA2C_SitFZ
++ _$s9HealthKit8DayIndexV8advanced2byACSi_tF
++ _$sSNyxG16HealthChartsCore18IntervalChartValueABSdRszrlMc
++ _$sSS9hasSuffixySbSSF
++ _$sScTMa
++ _$sSd14HealthPlatformE15hk_displayCountSivg
++ _$sSo14NSUserActivityC16HealthExperienceE26addUserInfoEntriesFromKeysyySDyxypGSHRzSYRzSS8RawValueSYRtzlF
++ _$sSo15HKDayIndexRangea9HealthKitE5rangeABSnyAC03DayB0VG_tcfC
++ _$sSo17UITraitCollectionC18HealthExperienceUIE12presentationAC12PresentationOvg
++ _$sSo25HKMCPregnancyDatesFactoryC9HealthKitE13generateModel29educationalStepsCompletedDate27staleOngoingPregnancySampleSo0aG0C10Foundation0K0VSg_So010HKCategoryO0CSgtF
++ _$sSo28HKFeatureAvailabilityContexta13HealthBalanceE25sleepingHeartRateAnalysisABvgZ
++ _$sSo28HKFeatureAvailabilityContexta13HealthBalanceE28heartRateVariabilityInVitalsABvgZ
++ _$ss10SetAlgebraMp
++ _$ss10SetAlgebraP10isDisjoint4withSbx_tFTq
++ _$ss10SetAlgebraP10isSuperset2ofSbx_tFTq
++ _$ss10SetAlgebraP11subtractingyxxFTq
++ _$ss10SetAlgebraP12intersectionyxxFTq
++ _$ss10SetAlgebraP16formIntersectionyyxFTq
++ _$ss10SetAlgebraP19symmetricDifferenceyxxnFTq
++ _$ss10SetAlgebraP23formSymmetricDifferenceyyxnFTq
++ _$ss10SetAlgebraP5unionyxxnFTq
++ _$ss10SetAlgebraP6insertySb8inserted_7ElementQz17memberAfterInserttAFnFTq
++ _$ss10SetAlgebraP6removey7ElementQzSgAEFTq
++ _$ss10SetAlgebraP6update4with7ElementQzSgAFn_tFTq
++ _$ss10SetAlgebraP7isEmptySbvgTq
++ _$ss10SetAlgebraP8containsySb7ElementQzFTq
++ _$ss10SetAlgebraP8isSubset2ofSbx_tFTq
++ _$ss10SetAlgebraP8subtractyyxFTq
++ _$ss10SetAlgebraP9formUnionyyxnFTq
++ _$ss10SetAlgebraPSQTb
++ _$ss10SetAlgebraPs25ExpressibleByArrayLiteralTb
++ _$ss10SetAlgebraPsEyxqd__ncSTRd__7ElementQyd__ACRtzlufC
++ _$ss10SetAlgebraPxycfCTq
++ _$ss10SetAlgebraPyxqd__ncSTRd__7ElementQyd__ACRtzlufCTq
++ _$ss15ContinuousClockV3nowAB7InstantVvgZ
++ _$ss15ContinuousClockV7InstantV3nowADvgZ
++ _$ss15ContinuousClockV7InstantV8duration2tos8DurationVAD_tF
++ _$ss15ContinuousClockV7InstantVMn
++ _$ss25ExpressibleByArrayLiteralMp
++ _$ss25ExpressibleByArrayLiteralP05arrayD0x0cD7ElementQzd_tcfCTq
++ _$ss25FloatingPointRoundingRuleO23toNearestOrAwayFromZeroyA2BmFWC
++ _$ss25FloatingPointRoundingRuleO4downyA2BmFWC
++ _$ss25FloatingPointRoundingRuleOMa
++ _$ss9OptionSetMp
++ _$ss9OptionSetP8rawValuex03RawD0Qz_tcfCTq
++ _$ss9OptionSetPSYTb
++ _$ss9OptionSetPs0B7AlgebraTb
++ _HKCategoryTypeIdentifierPregnancy
++ _HKFeatureAvailabilityContextSleepingSampleAnalysis
++ _HKFeatureAvailabilityContextUsage
++ _HKFeatureAvailabilityRequirementIdentifierCapabilityIsSupportedOnActiveWatch
++ _HKFeatureIdentifierOxygenSaturationRecording
++ _HKFeatureIdentifierRespiratoryRateMeasurements
++ _HKFeatureIdentifierSleepTracking
++ _HKFeatureIdentifierSleepingSampleAnalysis
++ _HKFeatureIdentifierSleepingWristTemperatureMeasurements
++ _OBJC_CLASS_$_ARUIRenderer
++ _OBJC_CLASS_$_HKCategorySample
++ _OBJC_CLASS_$_HKFeatureSettings
++ _OBJC_CLASS_$_HKMCCycleSegment
++ _OBJC_CLASS_$_HKMCDaySummary
++ _OBJC_CLASS_$_HKMCStatistics
+- _$s10Foundation6LocaleV18preferredLanguagesSaySSGvgZ
+- _$s12HealthCharts10DateDomainV04ViewC4SpanO4weekyAeC0eF9AlignmentOcAEmFWC
+- _$s12HealthCharts10DateDomainV17ViewSpanAlignmentO7leadingyA2EmFWC
+- _$s12HealthCharts32DailyHeartRateChartConfigurationVACycfC
+- _$s12HealthReport23MulberryTabAvailabilityO28isAppleIntelligenceAvailable21intelligenceUtilitiesSb0A18PlatformFoundation0a3ApphK0V_tFZ
+- _$s12HealthReport23MulberryTabAvailabilityO9isEnabled21dateOfBirthComponents3now0F26AppleIntelligenceAvailableSb10Foundation04DateK0VyKXE_AH0Q0VSbyXEtKFZ
+- _$s13HealthBalance22SleepingSampleBaselineV6middleSo10HKQuantityCvg
+- _$s13HealthBalance22SleepingSampleBaselineVMa
+- _$s13HealthBalance32SleepingSampleBaselineComparisonV8baselineAA0cdE0VSgvg
+- _$s13HealthDomains0B0O13CycleTrackingV0aB2UI06DomainE0AFMc
+- _$s13HealthDomains0B0O13CycleTrackingVAEycfC
+- _$s13HealthDomains0B0O13CycleTrackingVMa
+- _$s14HealthPlatform20UserDayPhaseProviderV17gregorianCalendar10sleepModel07typicalD8Progress16scheduledBedtimeAC10Foundation0H0V_AA020SleepDashboardCachedJ0VSgAA07Typicald8ActivityL0VSg0A3Kit0P9ClockTimeVSgtcfC
+- _$s14HealthPlatform22ByThisTimeAccumulationV10windowDaysSivg
+- _$s14HealthPlatform28ActivityDashboardCachedModelV18typicalDayProgressAA07TypicalhcI0VSgvg
+- _$s14HealthPlatform8FeedItemC19predicateForKeywordySo11NSPredicateCSSFZ
+- _$s15HealthUtilities20SendableUserDefaultsC0A7BalanceE019showDaytimeVitalsInA9ChartsKeySSvgZ
+- _$s18HealthExperienceUI10HeaderItemC6hkType5title11showShowAll13configuration20automationIdentifierACSo08HKObjectG0CSg_SSSb5UIKit26UIListContentConfigurationVSSSgtcfC
+- _$s18HealthExperienceUI12ChartContextC4date16preferredOverlay11trendActive12chartOptionsAC10Foundation4DateVSg_So022HKOverlayRoomPreferredH0VSgSo0op5TrendJ0VAC0dL0VtcfC
+- _$s18HealthExperienceUI25TimeBoundMappedDataSourceC06healthB5Store12contentKinds14sourceProfiles19categoryIdentifiers16dashboardPageIDs0K12KindPriority12dateProvider18notificationCenterAC0A8Platform0abJ0_p_SayAL07ContentT0OGSayAL0H7ProfileOGSaySSGSgAUSiAOcSg10Foundation4DateVycSo014NSNotificationY0Ctcfc
+- _$s18HealthExperienceUI27IndicatorCategoryTabFactoryV04makedeF0So5UITabCSgyFZ
+- _$s18HealthFoundationUI12PaneSelectorV10topOverlay7overlayACyxq_Gqd__yXE_t05SwiftC04ViewRd__lF
+- _$s18HealthFoundationUI12PaneSelectorV19paneBackgroundColoryACyxq_G05SwiftC00H0VF
+- _$s18HealthFoundationUI12PaneSelectorV9selection7contentACyxq_G05SwiftC07BindingVyxG_q_yXEtcfC
+- _$s18HealthFoundationUI12PaneSelectorVyxq_G05SwiftC04ViewAAMc
+- _$s18HealthFoundationUI23VisibleScrollViewFinderO06scrollF02inSo08UIScrollF0CSgSo6UIViewC_tFZ
+- _$s24HealthPlatformFoundation0A24AppIntelligenceUtilitiesV33isIntelligentConfigurationEnabled3for17preferredLanguageSb0C06LocaleV_SSSgtF
+- _$s24HealthPlatformFoundation0A24AppIntelligenceUtilitiesV3appACyFZ
+- _$s24HealthPlatformFoundation0A24AppIntelligenceUtilitiesVMa
+- _$s5UIKit26UIListContentConfigurationV32extraProminentInsetGroupedHeaderACyFZ
+- _$s7SwiftUI11StrokeStyleVN
+- _$s7SwiftUI17EnvironmentValuesV14truncationModeAA4TextV010TruncationF0Ovg
+- _$s7SwiftUI17EnvironmentValuesV14truncationModeAA4TextV010TruncationF0OvpMV
+- _$s7SwiftUI17EnvironmentValuesV14truncationModeAA4TextV010TruncationF0Ovs
+- _$s7SwiftUI4TextV14TruncationModeO4tailyA2EmFWC
+- _$s7SwiftUI4TextV14TruncationModeOMa
+- _$s7SwiftUI4TextV14TruncationModeOMn
+- _$sSL2geoiySbx_xtFZTj
+- _$sSo10HKQuantityC15HealthBalanceUIE32MedialRangeRelativeStringVariantO9shortenedyA2EmFWC
+- _$sSo10HKQuantityC15HealthBalanceUIE32MedialRangeRelativeStringVariantOMa
+- _$sSo10HKQuantityC15HealthBalanceUIE9formatted3for14classification6middle4unit7variantSS0bC022SleepingSampleDataTypeO_AJ26VitalsMetricClassificationOABSo6HKUnitCAbCE32MedialRangeRelativeStringVariantOtF
+- _$sSo12HKObjectTypeC12HealthChartsE18chartConfigurationAC011StaticChartF0_pSgvg
+- _$ss5Int64VMn
+- _objc_retain_x10
+- _swift_getExtendedExistentialTypeMetadata
+CStrings:
++ " tab but did not, or attach a screenshot of the content you are seeing but do not want to, with an explanation why."
++ " tab require additional information.\n\nUpon filing, an overview of content displayed in and hidden from your "
++ " tab will be collected in the radar. However, the actual underlying HealthKit data will not be collected.\n\nIf appropriate, the radar will be cloned into a restricted component, and attachments will be deleted 90 days after the radar is closed."
++ "$__lazy_storage_$_gradientView"
++ "$__lazy_storage_$_quickLoggingVisibilityReporter"
++ "A different treatment each night, plus one unmeasured."
++ "ActionSuggestionAvailabilityRegistration"
++ "An outlier, a blip, a beneficial outlier, two in range."
++ "Baseline in place, the watch wasn't worn."
++ "Both bands grow at once."
++ "Cycle day 12 of 28. Nothing logged for flow."
++ "Cycle day 2. Flow logged yesterday and today."
++ "CycleTrackingAnalysisProvider:singleShotMenstrualCycleAnalysis"
++ "DashboardDemoActivity"
++ "DashboardDemoCycleTracking"
++ "DashboardDemoVitals"
++ "DashboardPageLearnAndExploreDataSource_exploreContentButtonItem"
++ "Demo data replaces the Cycle Tracking cached model and the worm's per-day data. It changes nothing in Health, and it applies at once. The Readiness page cycle strip reads the same fixture."
++ "Demo data replaces the Fitness cached model. It changes nothing in Health, and it applies at once. The Readiness inputs and the summary read the same model, so they see the demo data too."
++ "Demo data replaces the overnight vitals cached model. It changes nothing in Health, and it applies at once. Sleep and the Readiness page read the same model, so they see the demo data too."
++ "ExportDatasetView:exportToFile"
++ "Five metrics inside the typical range."
++ "ForYouSectionDataSource_showAllArticlesButtonItem"
++ "GetMoreFromHealthDataSource_HealthChecklistItem"
++ "Goals are set. No progress yet today."
++ "HAInsightsShortcutTitle"
++ "HALongevityShortcutTitle"
++ "HRV above range, where high is good."
++ "HealthApp/ActivityRingView.swift"
++ "HealthApp/CycleTrackingDashboardVisibilityToggleDataSource.swift"
++ "HealthApp/CycleTrackingHeroTileConfiguration.swift"
++ "HealthApp/DashboardPageSpacing.swift"
++ "HealthApp/DashboardViewModelProviders.swift"
++ "HealthApp/DashboardVisibility.swift"
++ "Heart rate above range. The upper band grows."
++ "Insights-HeuristicCycleTracking-Localizable"
++ "Insights-HeuristicDaytimeVitals-Localizable"
++ "Insights-HeuristicFallback-Activity-Localizable"
++ "Insights-HeuristicFallback-CycleTracking-Localizable"
++ "Insights-HeuristicFallback-Heart-Localizable"
++ "Insights-HeuristicFallback-Sleep-Localizable"
++ "Insights-HeuristicHeart-Localizable"
++ "Insights-HeuristicSleep-Localizable"
++ "Insights-HeuristicVitals-Localizable"
++ "Insights-Localizable"
++ "Long, irregular cycles. A period predicted tomorrow."
++ "Longevity tab visibility: %{public}s"
++ "Longevity tab: determining age completed after %{public}lld seconds"
++ "Longevity tab: determining age has taken more than %{public}lld seconds"
++ "No blood oxygen or wrist temperature sensor."
++ "No cycles. Reported around three years ago."
++ "No watch, and nothing recorded yet today."
++ "No watch. Steps hero and weekly chart."
++ "Nothing last night"
++ "Ongoing, 18 weeks in. Second trimester."
++ "Opens a bug report for the "
++ "Outliers both ways"
++ "Please describe the content you expected to see in the "
++ "PregnancyStatusProvider"
++ "Pushes, not steps. Distance, not cardio fitness."
++ "Radars about the accuracy, tone, or relevance of the LLM-generated summary text require additional information.\n\nUpon filing, the radar description will be pre-filled with a short questionnaire — please fill it in before sending. An overview of content displayed in and hidden from your "
++ "Radars related to repetitive, incorrect, or unexpected content in the "
++ "Removes Exercise and Stand from your data."
++ "Removes the rings. Shows the steps treatment."
++ "Respiratory rate on the range boundary."
++ "Shorter than usual"
++ "ShowAllDataSectionDataSource_Activity_showAllData"
++ "ShowAllDataSectionDataSource_CycleTracking_showAllData"
++ "ShowAllDataSectionDataSource_Heart_showAllData"
++ "ShowAllDataSectionDataSource_Sleep_showAllData"
++ "ShowAllDataSectionDataSource_Vitals_showAllData"
++ "Sleep duration below range."
++ "Sleep duration in range."
++ "Sleep duration is drawn in place of HRV, so these two sit on the original five-metric treatment rather than the gen4 one."
++ "SummaryArticlesDataSource"
++ "The layout your own data produces."
++ "The rings are paused for the day."
++ "The typical band compressed as far as it goes."
++ "Three rings, part way to their goals."
++ "Values measured, no baseline yet."
++ "Warming and Empty"
++ "WorkoutHistoryProvider:realWorkoutFetch"
++ "Your own cycle tracking data."
++ "Your own overnight vitals."
++ "[%s] Registered the action suggestions model source"
++ "[%{public}s] restoring page %{public}s"
++ "[%{public}s] unreadable dashboard page %{public}s, restoring Summary"
++ "_TtC9HealthApp20DashboardLoadInState"
++ "_TtC9HealthApp25DemoWheelchairUseProvider"
++ "_TtC9HealthApp25SummaryArticlesDataSource"
++ "_TtC9HealthAppP33_45CF4FCD0CDCE056472A54444BA7D48C18DemoDashboardClock"
++ "_TtCV9HealthAppP33_2CB2893BED107C916730C5FDF7FB38BA11WindowProbe9ProbeView"
++ "_cycleWithMenstruationSegment:fertileWindowSegment:lastDayIndex:"
++ "_exploreArticleButtonItem"
++ "_firstName"
++ "_isSwipePending"
++ "_lastSelectionSource"
++ "_menstruationSegmentWithDays:"
++ "_selectionDidChange"
++ "_setActivitySummaryIndex:"
++ "activityType titleKey symbol "
++ "ageGate"
++ "allInRange"
++ "allowedDecimalPrecisionRuleForUnit:"
++ "appleIntelligenceAvailabilityObservation"
++ "beneficialHeartRateVariability"
++ "blip"
++ "categorySampleWithType:value:startDate:endDate:"
++ "channel"
++ "chartingRules"
++ "currentDate"
++ "currentPhase"
++ "cycleFactors"
++ "cycle_tracking_last_menstrual_period_label"
++ "cycle_tracking_page_cycle_factor_contraceptive_implant"
++ "cycle_tracking_page_cycle_factor_contraceptive_injection"
++ "cycle_tracking_page_cycle_factor_contraceptive_iud"
++ "cycle_tracking_page_cycle_factor_contraceptive_other"
++ "cycle_tracking_page_cycle_factor_contraceptive_patch"
++ "cycle_tracking_page_cycle_factor_contraceptive_pill"
++ "cycle_tracking_page_cycle_factor_contraceptive_ring"
++ "cycle_tracking_page_cycle_factor_lactation"
++ "cycle_tracking_page_cycle_factor_pregnancy"
++ "cycle_tracking_page_cycle_factor_separator"
++ "cycle_tracking_page_menopause_stage_menopause"
++ "cycle_tracking_page_menopause_stage_perimenopause"
++ "dashboardAvailabilityObservation"
++ "daySummaryWithDayIndex:menstrualFlow:bleedingInPregnancyFlow:bleedingAfterPregnancyFlow:bleedingAfterMenopauseFlow:intermenstrualBleeding:symptoms:sexualActivity:ovulationTestResult:pregnancyTestResult:progesteroneTestResult:cervicalMucusQuality:basalBodyTemperature:"
++ "dayViewModelWithMenstruationLevel:fertileWindowLevel:pregnancyState:bleedingInPregnancyLevel:bleedingAfterPregnancyLevel:bleedingAfterMenopauseLevel:daySummary:cycleFactors:partiallyLoggedPeriod:fetched:"
++ "days"
++ "decimalPrecisionForValue:"
++ "didReloadTabs"
++ "displayTypeForObjectType:wheelchairUse:"
++ "everyTreatment"
++ "extremeOutlier"
++ "firstNameTask"
++ "fixture"
++ "frameInWindow"
++ "fresh"
++ "friction"
++ "gregorianCalendar"
++ "hasConfiguredGradientBackground"
++ "hasStarted"
++ "health365ContentRoom"
++ "heuristicStringsRefreshObservationTask"
++ "hidden"
++ "hidden (age pending)"
++ "hidden (age unavailable)"
++ "hidden (age)"
++ "hkmc_categorySampleWithCycleFactor:startDate:endDate:"
++ "hkmc_cycleFactor"
++ "iPhone, no rings"
++ "iconWithTemplateImageName:"
++ "initWithDictionary:"
++ "initWithNumberOfCycles:firstMenstruationStartDayIndex:lastMenstruationStartDayIndex:cycleLengthMedian:cycleLengthLowerPercentile:cycleLengthUpperPercentile:menstruationLengthMedian:menstruationLengthLowerPercentile:menstruationLengthUpperPercentile:"
++ "initWithPregnancySample:state:"
++ "initWithRingGroup:renderer:"
++ "initWithStartMean:startStandardDeviation:endMean:endStandardDeviation:allDays:partiallyLogged:daysOffsetFromCalendarMethod:predictionPrimarySource:"
++ "initWithStatistics:menstruationProjections:fertileWindowProjections:menstruationProjectionsEnabled:fertileWindowProjectionsEnabled:cycles:deviations:recentSymptoms:recentBasalBodyTemperature:lastLoggedDayIndex:lastMenstrualFlowDayIndex:isPeriodLogLate:ongoingCycleFactors:numberOfDailySleepHeartRateStatisticsForPast100Days:numberOfDailyAwakeHeartRateStatisticsForPast100Days:hasHealthAppDevicesWithHigherAlgorithmVersions:"
++ "insights-intro-dark"
++ "insights-intro-ipad"
++ "insights-intro-ipad-dark"
++ "insights.channel.nav.summary"
++ "insights.loading.heart"
++ "interactionRecorder"
++ "isAgeCheckSlow"
++ "isAnimating"
++ "isLLMGenerated"
++ "isOnScreen"
++ "isReportedAsEntered"
++ "lastBlurAlpha"
++ "lastBuiltVariant"
++ "lastIsAnimating"
++ "lastObservedIsAppleIntelligenceAvailable"
++ "lastObservedIsDashboardEnabled"
++ "lastObservedTabName"
++ "lastReduceMotion"
++ "lastReported"
++ "lastSelectedPage"
++ "menopause"
++ "menstruationSegment"
++ "mode fixture "
++ "notAvailable"
++ "nothingLastNight"
++ "notificationResponse"
++ "ongoingCycleFactors"
++ "outlier"
++ "outliersBothWays"
++ "pageImpression"
++ "perimenopause"
++ "periodStarted"
++ "phaseInputsObservationTask"
++ "plainTab"
++ "preferredActivityRingThicknessForDiameter:isStandaloneRing:"
++ "pregnancy"
++ "publishedQuickActions"
++ "real"
++ "reduceMotion"
++ "regular"
++ "result source "
++ "ringsEmpty"
++ "ringsMidDay"
++ "ringsPaused"
++ "roundingMode"
++ "sessionBoundaryObservers"
++ "setDebugIdentifier:"
++ "settleTimeRemaining"
++ "shown"
++ "sidebarGroup"
++ "sleepDurationShorter"
++ "sleepDurationTypical"
++ "slowAgeCheckThreshold"
++ "stale"
++ "steps"
++ "stepsEmpty"
++ "supportsActionSuggestions"
++ "tabName"
++ "tertiaryLabelColor"
++ "threeMetrics"
++ "topViewController"
++ "variedWeek"
++ "warmingUp"
++ "wheelchair"
++ "wrappedDataSource"
+- "$__lazy_storage_$_firstName"
+- "***Note to Health team! There was an error when gathering additional diagnostics. Check for healthappd jetsams or crashes.***\n\nPlease describe the content you expected to see in the Summary tab but did not, or attach a screenshot of the content you are seeing but do not want to, with an explanation why."
+- "Failed to load date of birth for Mulberry tab visibility: %@"
+- "HealthApp/DashboardPageInsightsDataSource.swift"
+- "HealthApp/SleepPageCompoundDataSource.swift"
+- "Omakase-HeuristicCycleTracking-Localizable"
+- "Omakase-HeuristicDaytimeVitals-Localizable"
+- "Omakase-HeuristicFallback-Activity-Localizable"
+- "Omakase-HeuristicFallback-CycleTracking-Localizable"
+- "Omakase-HeuristicFallback-Heart-Localizable"
+- "Omakase-HeuristicFallback-Sleep-Localizable"
+- "Omakase-HeuristicHeart-Localizable"
+- "Omakase-HeuristicSleep-Localizable"
+- "Omakase-HeuristicVitals-Localizable"
+- "Omakase-Localizable"
+- "Opens a bug report for the Summary tab."
+- "Please describe the content you expected to see in the Summary tab but did not, or attach a screenshot of the content you are seeing but do not want to, with an explanation why."
+- "Radars about the accuracy, tone, or relevance of the LLM-generated summary text require additional information.\n\nUpon filing, the radar description will be pre-filled with a short questionnaire — please fill it in before sending. An overview of content displayed in and hidden from your Summary tab will be collected in the radar. However, the actual underlying HealthKit data will not be collected.\n\nIf appropriate, the radar will be cloned into a restricted component, and attachments will be deleted 90 days after the radar is closed."
+- "Radars related to repetitive, incorrect, or unexpected content in the Summary tab require additional information.\n\nUpon filing, an overview of content displayed in and hidden from your Summary tab will be collected in the radar. However, the actual underlying HealthKit data will not be collected.\n\nIf appropriate, the radar will be cloned into a restricted component, and attachments will be deleted 90 days after the radar is closed."
+- "ShowAllDataSectionDataSource_"
+- "[%{public}s] Latest daytime daySummary is not for today (stale cache); today's daySummary unavailable."
+- "[%{public}s] No daytime vitals collection or empty daySummaries; today's daySummary unavailable."
+- "_HealthChecklistItem"
+- "_TtC9HealthApp21SleepScoreLoadInState"
+- "__systemImageNamedSwift:"
+- "_exploreContentButtonItem"
+- "_showAllArticlesButtonItem"
+- "activity_pushes_avg_by_this_time_long_label_"
+- "activity_steps_avg_by_this_time_long_label_"
+- "activity_walking_distance_avg_by_this_time_long_label_"
+- "activity_wheelchair_distance_avg_by_this_time_long_label_"
+- "articlesDataSource"
+- "contentKindRawValue == %@"
+- "dashboardPageID == %@"
+- "gradientView"
+- "hasAppeared"
+- "hk_activityExerciseGoalLineColor"
+- "hk_activityMoveGoalLineColor"
+- "hk_activityStandGoalLineColor"
+- "initWithRingGroup:"
+- "isMulberryEnabled"
+- "omakase-intro-dark"
+- "omakase-intro-ipad"
+- "omakase-intro-ipad-dark"
+- "omakase.channel.nav.summary"
+- "omakase.loading.heart"
+- "orPredicateWithSubpredicates:"
+- "phase"
+- "preferredActivityRingThicknessForDiameter:"
+- "setSortOrder:"
+- "sleep_sleeping_hr_baseline "
+- "sleep_sleeping_hrv_baseline "
+```

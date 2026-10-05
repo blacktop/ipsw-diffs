@@ -1,0 +1,22 @@
+## iboot_blob34.bin
+
+- `more than 0xFF (%d)`
+- `vAONPTDTask: woke by unknown semaphore`
+- `Unable to update VLIM voltage threshold:%d`
+- `PTD: Disabled push agent index %d from ptd_type %d`
+- `%s: %s:%d: %s, PTD: PWC quiesce failed data=0x%x (%d)`
+- `AON PTD Update for Id = %c%c%c%c, msg = 0x%llx, metadata = 0x%llx `
+- `drivers/devices/awl_bus.cpp`
+- `drivers/devices/ptd.cpp`
+- `%s: TARGET_VALID=%d, rc:0x%x`
+- `drivers/devices/aon_ptd.cpp`
+- `%s: %s:%d: %s, %s GAPF error: addr=0x%llx, cmd=%c, valid=%d, id=%d`
+- `charger_drv_set_charger`
+- `PTD: Configured push base address for push agent (%d) die_index=%d ondie_push_agent_index=%d push_base_lo=0x%08x`
+- `(AWL) ERRO`
+- `AON PTD GAPF start_addr = %llx, size = %llx `
+- `ECO_LDOP_DIS event detected`
+- `drivers/devices/gapf.cpp`
+- `drivers/devices/ptd_fwd_eng.cpp`
+- `[GPOprPwr] Skip PDO:%d [%d,%d]mV no overlap w/ restriction [%d,%d]mV`
+- `Failed to read dc limiter register, rc:%d`

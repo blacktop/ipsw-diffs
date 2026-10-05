@@ -1,0 +1,375 @@
+## HealthBalance
+
+> `/System/Library/PrivateFrameworks/HealthBalance.framework/HealthBalance`
+
+```diff
+
+-7027.1.45.2.4
+-  __TEXT.__text: 0x129d54
++7027.1.54.2.3
++  __TEXT.__text: 0x125bec
+   __TEXT.__objc_methlist: 0x4b4
+-  __TEXT.__const: 0x11af8
+-  __TEXT.__swift5_typeref: 0x2682
+-  __TEXT.__swift5_reflstr: 0x279f
+-  __TEXT.__swift5_assocty: 0x748
+-  __TEXT.__constg_swiftt: 0x2de8
+-  __TEXT.__swift5_fieldmd: 0x396c
++  __TEXT.__const: 0xf688
++  __TEXT.__swift5_typeref: 0x23e2
++  __TEXT.__swift5_reflstr: 0x234f
++  __TEXT.__swift5_assocty: 0x5a0
++  __TEXT.__constg_swiftt: 0x2a04
++  __TEXT.__swift5_fieldmd: 0x320c
+   __TEXT.__swift5_builtin: 0x8c
+-  __TEXT.__swift5_proto: 0x11ec
+-  __TEXT.__swift5_types: 0x4a4
+-  __TEXT.__cstring: 0x24b6
+-  __TEXT.__swift5_protos: 0x20
+-  __TEXT.__swift5_capture: 0x4a8
+-  __TEXT.__oslogstring: 0xbac
+-  __TEXT.__swift_as_entry: 0x4c
+-  __TEXT.__swift_as_ret: 0x34
+-  __TEXT.__swift_as_cont: 0xbc
++  __TEXT.__swift5_proto: 0xf3c
++  __TEXT.__swift5_types: 0x41c
++  __TEXT.__cstring: 0x1fc6
++  __TEXT.__swift5_protos: 0x24
++  __TEXT.__swift5_capture: 0x50c
++  __TEXT.__oslogstring: 0xf4c
++  __TEXT.__swift_as_entry: 0x44
++  __TEXT.__swift_as_ret: 0x30
++  __TEXT.__swift_as_cont: 0xb0
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__swift5_types2: 0x4
+-  __TEXT.__unwind_info: 0x5b60
+-  __TEXT.__eh_frame: 0x4660
++  __TEXT.__swift5_types2: 0xc
++  __TEXT.__unwind_info: 0x53c0
++  __TEXT.__eh_frame: 0x3b48
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1c0
+-  __DATA_CONST.__objc_classlist: 0x50
++  __DATA_CONST.__const: 0x1b0
++  __DATA_CONST.__objc_classlist: 0x58
+   __DATA_CONST.__objc_protolist: 0x60
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x4a8
+   __DATA_CONST.__objc_protorefs: 0x38
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0xb000
+-  __AUTH_CONST.__objc_const: 0xd90
+-  __AUTH_CONST.__auth_got: 0x12d0
+-  __AUTH.__objc_data: 0x50
+-  __AUTH.__data: 0x10c8
+-  __DATA.__data: 0x21c8
++  __AUTH_CONST.__const: 0x9580
++  __AUTH_CONST.__objc_const: 0xe60
++  __AUTH_CONST.__auth_got: 0x1308
++  __AUTH.__objc_data: 0xa0
++  __AUTH.__data: 0x13b8
++  __DATA.__data: 0x2150
+   __DATA.__common: 0x8
+   __DATA_DIRTY.__objc_data: 0x410
+-  __DATA_DIRTY.__data: 0x2e50
+-  __DATA_DIRTY.__bss: 0xc900
++  __DATA_DIRTY.__data: 0x2750
++  __DATA_DIRTY.__bss: 0x9380
+   __DATA_DIRTY.__common: 0x78
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  Functions: 6448
+-  Symbols:   1515
+-  CStrings:  357
++  Functions: 5866
++  Symbols:   1406
++  CStrings:  311
+ 
+Symbols:
++ __DATA__TtC13HealthBalance43TodaysReadinessInputsQueryResultInputSignal
++ __IVARS__TtC13HealthBalance43TodaysReadinessInputsQueryResultInputSignal
++ __IVARS__TtC13HealthBalanceP33_4A0A3576BFD9FCDCA91FB0B936478AAF14AllocatedMutex
++ __METACLASS_DATA__TtC13HealthBalance43TodaysReadinessInputsQueryResultInputSignal
++ ___swift_allocate_boxed_opaque_existential_0Tm
++ ___swift_destroy_boxed_opaque_existential_0Tm
++ ___unnamed_4
++ _associated conformance 13HealthBalance43TodaysReadinessInputsQueryResultInputSignalC0A13Orchestration0hI0AA6AnchorAdEP_AD0hiK0
++ _associated conformance 13HealthBalance43TodaysReadinessInputsQueryResultInputSignalC0A13Orchestration0hI0AAs23CustomStringConvertible
++ _associated conformance 13HealthBalance43TodaysReadinessInputsQueryResultInputSignalC6AnchorV0A13Orchestration0hiJ0AA13ConfigurationAfGP_AF0hiL0
++ _associated conformance 13HealthBalance43TodaysReadinessInputsQueryResultInputSignalC6AnchorV0A13Orchestration0hiJ0AASE
++ _associated conformance 13HealthBalance43TodaysReadinessInputsQueryResultInputSignalC6AnchorV0A13Orchestration0hiJ0AASQ
++ _associated conformance 13HealthBalance43TodaysReadinessInputsQueryResultInputSignalC6AnchorV0A13Orchestration0hiJ0AASe
++ _associated conformance 13HealthBalance43TodaysReadinessInputsQueryResultInputSignalC6AnchorV10CodingKeys33_DB31157D2D3EA08E37867813636FC911LLOSHAASQ
++ _associated conformance 13HealthBalance43TodaysReadinessInputsQueryResultInputSignalC6AnchorV10CodingKeys33_DB31157D2D3EA08E37867813636FC911LLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 13HealthBalance43TodaysReadinessInputsQueryResultInputSignalC6AnchorV10CodingKeys33_DB31157D2D3EA08E37867813636FC911LLOs0K3KeyAAs28CustomDebugStringConvertible
++ _flat unique ypRi_s_XP
++ _swift_initStructMetadata
++ _symbolic $s13HealthBalance35ReadinessInputsQueryResultObservingP
++ _symbolic SaySo21HKWorkoutTrainingLoadCGSg
++ _symbolic SaySo27HKWorkoutEffortRelationshipCGSg
++ _symbolic Say_____GSg 13HealthBalance23DaytimeVitalsDaySummaryV
++ _symbolic Say_____GSg 13HealthBalance24SleepingSampleDaySummaryV
++ _symbolic _____ 13HealthBalance14AllocatedMutex33_4A0A3576BFD9FCDCA91FB0B936478AAFLLC
++ _symbolic _____ 13HealthBalance25DaytimeVitalsAvailabilityO
++ _symbolic _____ 13HealthBalance26ReadinessInputsQueryResultV9ValueViewV
++ _symbolic _____ 13HealthBalance30ReadinessInputsQueryDescriptorV0E5TokenV
++ _symbolic _____ 13HealthBalance43TodaysReadinessInputsQueryResultInputSignalC
++ _symbolic _____ 13HealthBalance43TodaysReadinessInputsQueryResultInputSignalC5State33_DB31157D2D3EA08E37867813636FC911LLV
++ _symbolic _____ 13HealthBalance43TodaysReadinessInputsQueryResultInputSignalC5State33_DB31157D2D3EA08E37867813636FC911LLV12DependenciesV
++ _symbolic _____ 13HealthBalance43TodaysReadinessInputsQueryResultInputSignalC6AnchorV
++ _symbolic _____ 13HealthBalance43TodaysReadinessInputsQueryResultInputSignalC6AnchorV10CodingKeys33_DB31157D2D3EA08E37867813636FC911LLO
++ _symbolic _____Sg 13HealthBalance26ReadinessInputsQueryResultV
++ _symbolic _____Sg 13HealthBalance43TodaysReadinessInputsQueryResultInputSignalC5State33_DB31157D2D3EA08E37867813636FC911LLV12DependenciesV
++ _symbolic _____SgXw 13HealthBalance43TodaysReadinessInputsQueryResultInputSignalC
++ _symbolic _____SgXwz_Xx 13HealthBalance43TodaysReadinessInputsQueryResultInputSignalC
++ _symbolic _____XjSg ypRi_s_XPXgMq
++ _symbolic ______p 13HealthBalance35ReadinessInputsQueryResultObservingP
++ _symbolic _____y_____G 13HealthBalance14AllocatedMutex33_4A0A3576BFD9FCDCA91FB0B936478AAFLLC AA26ReadinessInputsQueryResultV
++ _symbolic _____y_____G 15Synchronization5MutexVAARi_zrlE 13HealthBalance43TodaysReadinessInputsQueryResultInputSignalC5State33_DB31157D2D3EA08E37867813636FC911LLV
++ _symbolic _____y___________pGIeghn_ s6ResultOsRi_zRi0_zrlE 13HealthBalance020ReadinessInputsQueryA0V s5ErrorP
++ _symbolic _____yxG 15Synchronization5MutexVAARi_zrlE
++ _symbolic yyyYbcYbc
+- __IVARS__TtCFV13HealthBalance30ReadinessInputsQueryDescriptor12resultStreamFT3forCSo13HKHealthStore_QuL_9LockedBox
+- ___swift_allocate_boxed_opaque_existential_1Tm
+- ___swift_deallocate_boxed_opaque_existential_0
+- ___swift_memcpy26_8
+- ___unnamed_2
+- _associated conformance 13HealthBalance19ActivitySubScoreKeyOSHAASQ
+- _associated conformance 13HealthBalance19ActivitySubScoreKeyOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 13HealthBalance19RecoverySubScoreKeyOSHAASQ
+- _associated conformance 13HealthBalance19RecoverySubScoreKeyOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 13HealthBalance20ReadinessResultErrorOSHAASQ
+- _associated conformance 13HealthBalance20ReadinessScoreResultV08SleepSubD0V10CodingKeys33_5563B5459CEAAE68432F20D1CE94BD8ELLOSHAASQ
+- _associated conformance 13HealthBalance20ReadinessScoreResultV08SleepSubD0V10CodingKeys33_5563B5459CEAAE68432F20D1CE94BD8ELLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 13HealthBalance20ReadinessScoreResultV08SleepSubD0V10CodingKeys33_5563B5459CEAAE68432F20D1CE94BD8ELLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13HealthBalance20ReadinessScoreResultV09VitalsSubD0V10CodingKeys33_5563B5459CEAAE68432F20D1CE94BD8ELLOSHAASQ
+- _associated conformance 13HealthBalance20ReadinessScoreResultV09VitalsSubD0V10CodingKeys33_5563B5459CEAAE68432F20D1CE94BD8ELLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 13HealthBalance20ReadinessScoreResultV09VitalsSubD0V10CodingKeys33_5563B5459CEAAE68432F20D1CE94BD8ELLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13HealthBalance20ReadinessScoreResultV10CodingKeys33_5563B5459CEAAE68432F20D1CE94BD8ELLOSHAASQ
+- _associated conformance 13HealthBalance20ReadinessScoreResultV10CodingKeys33_5563B5459CEAAE68432F20D1CE94BD8ELLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 13HealthBalance20ReadinessScoreResultV10CodingKeys33_5563B5459CEAAE68432F20D1CE94BD8ELLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13HealthBalance20ReadinessScoreResultV10ComponentsV10CodingKeys33_5563B5459CEAAE68432F20D1CE94BD8ELLOSHAASQ
+- _associated conformance 13HealthBalance20ReadinessScoreResultV10ComponentsV10CodingKeys33_5563B5459CEAAE68432F20D1CE94BD8ELLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 13HealthBalance20ReadinessScoreResultV10ComponentsV10CodingKeys33_5563B5459CEAAE68432F20D1CE94BD8ELLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13HealthBalance20ReadinessScoreResultV14SleepComponentV10CodingKeys33_5563B5459CEAAE68432F20D1CE94BD8ELLOSHAASQ
+- _associated conformance 13HealthBalance20ReadinessScoreResultV14SleepComponentV10CodingKeys33_5563B5459CEAAE68432F20D1CE94BD8ELLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 13HealthBalance20ReadinessScoreResultV14SleepComponentV10CodingKeys33_5563B5459CEAAE68432F20D1CE94BD8ELLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13HealthBalance20ReadinessScoreResultV15VitalsComponentV10CodingKeys33_5563B5459CEAAE68432F20D1CE94BD8ELLOSHAASQ
+- _associated conformance 13HealthBalance20ReadinessScoreResultV15VitalsComponentV10CodingKeys33_5563B5459CEAAE68432F20D1CE94BD8ELLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 13HealthBalance20ReadinessScoreResultV15VitalsComponentV10CodingKeys33_5563B5459CEAAE68432F20D1CE94BD8ELLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13HealthBalance20ReadinessScoreResultV17ActivityComponentV10CodingKeys33_5563B5459CEAAE68432F20D1CE94BD8ELLOSHAASQ
+- _associated conformance 13HealthBalance20ReadinessScoreResultV17ActivityComponentV10CodingKeys33_5563B5459CEAAE68432F20D1CE94BD8ELLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 13HealthBalance20ReadinessScoreResultV17ActivityComponentV10CodingKeys33_5563B5459CEAAE68432F20D1CE94BD8ELLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13HealthBalance20ReadinessScoreResultV23CombinedVitalsComponentV10CodingKeys33_5563B5459CEAAE68432F20D1CE94BD8ELLOSHAASQ
+- _associated conformance 13HealthBalance20ReadinessScoreResultV23CombinedVitalsComponentV10CodingKeys33_5563B5459CEAAE68432F20D1CE94BD8ELLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 13HealthBalance20ReadinessScoreResultV23CombinedVitalsComponentV10CodingKeys33_5563B5459CEAAE68432F20D1CE94BD8ELLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13HealthBalance20ReadinessScoreResultV5ValueV10CodingKeys33_5563B5459CEAAE68432F20D1CE94BD8ELLOSHAASQ
+- _associated conformance 13HealthBalance20ReadinessScoreResultV5ValueV10CodingKeys33_5563B5459CEAAE68432F20D1CE94BD8ELLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 13HealthBalance20ReadinessScoreResultV5ValueV10CodingKeys33_5563B5459CEAAE68432F20D1CE94BD8ELLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13HealthBalance20ReadinessSleepFactorOSHAASQ
+- _associated conformance 13HealthBalance20ReadinessSleepFactorOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 13HealthBalance21ReadinessAvailabilityOSHAASQ
+- _associated conformance 13HealthBalance21ReadinessAvailabilityOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 13HealthBalance21ReadinessTopicRequestV0A10TopicsCore0dE0AA8ResponseAdEP_SE
+- _associated conformance 13HealthBalance21ReadinessTopicRequestV0A10TopicsCore0dE0AA8ResponseAdEP_Se
+- _associated conformance 13HealthBalance21ReadinessTopicRequestV0A10TopicsCore0dE0AASE
+- _associated conformance 13HealthBalance21ReadinessTopicRequestV0A10TopicsCore0dE0AASH
+- _associated conformance 13HealthBalance21ReadinessTopicRequestV0A10TopicsCore0dE0AASe
+- _associated conformance 13HealthBalance21ReadinessTopicRequestV10CodingKeys33_9FE6A8CD35CB3BF24AD4FEA020BF0318LLOSHAASQ
+- _associated conformance 13HealthBalance21ReadinessTopicRequestV10CodingKeys33_9FE6A8CD35CB3BF24AD4FEA020BF0318LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 13HealthBalance21ReadinessTopicRequestV10CodingKeys33_9FE6A8CD35CB3BF24AD4FEA020BF0318LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13HealthBalance21ReadinessTopicRequestVSHAASQ
+- _associated conformance 13HealthBalance21ReadinessVitalsFactorOSHAASQ
+- _associated conformance 13HealthBalance21ReadinessVitalsFactorOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 13HealthBalance22ReadinessCategoryLabelOSHAASQ
+- _associated conformance 13HealthBalance22ReadinessCategoryLabelOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 13HealthBalance22ReadinessConfigurationV10CodingKeys33_E1728820B281E86530966FF94AFE81C3LLOSHAASQ
+- _associated conformance 13HealthBalance22ReadinessConfigurationV10CodingKeys33_E1728820B281E86530966FF94AFE81C3LLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 13HealthBalance22ReadinessConfigurationV10CodingKeys33_E1728820B281E86530966FF94AFE81C3LLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13HealthBalance22ReadinessConfigurationVSHAASQ
+- _associated conformance 13HealthBalance22ReadinessTopicResponseV0A10TopicsCore09StreamingdE0AA7RequestAdEP_AD0dI0
+- _associated conformance 13HealthBalance22ReadinessTopicResponseV0A10TopicsCore09StreamingdE0AASE
+- _associated conformance 13HealthBalance22ReadinessTopicResponseV0A10TopicsCore09StreamingdE0AASe
+- _associated conformance 13HealthBalance22ReadinessTopicResponseV10CodingKeys33_5937E8F07C77EC50D6581D9D8A9D67FCLLOSHAASQ
+- _associated conformance 13HealthBalance22ReadinessTopicResponseV10CodingKeys33_5937E8F07C77EC50D6581D9D8A9D67FCLLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 13HealthBalance22ReadinessTopicResponseV10CodingKeys33_5937E8F07C77EC50D6581D9D8A9D67FCLLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13HealthBalance23ReadinessActivityFactorOSHAASQ
+- _associated conformance 13HealthBalance23ReadinessActivityFactorOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 13HealthBalance23ReadinessClassificationOSHAASQ
+- _associated conformance 13HealthBalance23ReadinessClassificationOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 13HealthBalance24ReadinessComputationTypeOSHAASQ
+- _associated conformance 13HealthBalance29ReadinessScoreQueryDescriptorV10CodingKeys33_8B1C60B55945DD8B0485B28467A672C6LLOSHAASQ
+- _associated conformance 13HealthBalance29ReadinessScoreQueryDescriptorV10CodingKeys33_8B1C60B55945DD8B0485B28467A672C6LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 13HealthBalance29ReadinessScoreQueryDescriptorV10CodingKeys33_8B1C60B55945DD8B0485B28467A672C6LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13HealthBalance29ReadinessScoreQueryDescriptorVSHAASQ
+- _associated conformance 13HealthBalance30DaytimeVitalsDaySummaryContextV10CodingKeys33_F81F31539C61DF507A0365285D2016AELLOSHAASQ
+- _associated conformance 13HealthBalance30DaytimeVitalsDaySummaryContextV10CodingKeys33_F81F31539C61DF507A0365285D2016AELLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 13HealthBalance30DaytimeVitalsDaySummaryContextV10CodingKeys33_F81F31539C61DF507A0365285D2016AELLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13HealthBalance30DaytimeVitalsDaySummaryContextVSHAASQ
+- _associated conformance 13HealthBalance31SleepingSampleDaySummaryStorage33_1094319DFB5E9605B484EFA9444929EALLVSHAASQ
+- _associated conformance 13HealthBalance40SleepingSampleAggregateDaySummaryStorage33_DCD2A9630700FBA2B6EE1446F9B058FCLLVSHAASQ
+- _get_enum_tag_for_layout_string s8Sendable_pSg
+- _get_witness_table s16AsyncMapSequenceVy16HealthTopicsCore10TopicStorePACE9responses3forQrqd___tAC0G7RequestRd__AC09StreamingG8Response0M0Rpd__lFQOy0dE00dgH0C_0D7Balance09ReadinessgK0VQo_AO0O11ScoreResultVGSciHPyHC
+- _symbolic SDy_____SdG 13HealthBalance19ActivitySubScoreKeyO
+- _symbolic SDy__________G 13HealthBalance19RecoverySubScoreKeyO AA09ReadinessE6ResultV05SleepdE0V
+- _symbolic SDy__________G 13HealthBalance19RecoverySubScoreKeyO AA09ReadinessE6ResultV06VitalsdE0V
+- _symbolic Say_____G 13HealthBalance19ActivitySubScoreKeyO
+- _symbolic Say_____G 13HealthBalance19RecoverySubScoreKeyO
+- _symbolic Say_____G 13HealthBalance20ReadinessSleepFactorO
+- _symbolic Say_____G 13HealthBalance21ReadinessAvailabilityO
+- _symbolic Say_____G 13HealthBalance21ReadinessVitalsFactorO
+- _symbolic Say_____G 13HealthBalance22ReadinessCategoryLabelO
+- _symbolic Say_____G 13HealthBalance23ReadinessActivityFactorO
+- _symbolic Say_____G 13HealthBalance23ReadinessClassificationO
+- _symbolic Shy_____G 13HealthBalance21ReadinessAvailabilityO
+- _symbolic _____ 13HealthBalance19ActivitySubScoreKeyO
+- _symbolic _____ 13HealthBalance19RecoverySubScoreKeyO
+- _symbolic _____ 13HealthBalance20ReadinessResultErrorO
+- _symbolic _____ 13HealthBalance20ReadinessScoreResultV
+- _symbolic _____ 13HealthBalance20ReadinessScoreResultV08SleepSubD0V
+- _symbolic _____ 13HealthBalance20ReadinessScoreResultV08SleepSubD0V10CodingKeys33_5563B5459CEAAE68432F20D1CE94BD8ELLO
+- _symbolic _____ 13HealthBalance20ReadinessScoreResultV09VitalsSubD0V
+- _symbolic _____ 13HealthBalance20ReadinessScoreResultV09VitalsSubD0V10CodingKeys33_5563B5459CEAAE68432F20D1CE94BD8ELLO
+- _symbolic _____ 13HealthBalance20ReadinessScoreResultV10CodingKeys33_5563B5459CEAAE68432F20D1CE94BD8ELLO
+- _symbolic _____ 13HealthBalance20ReadinessScoreResultV10ComponentsV
+- _symbolic _____ 13HealthBalance20ReadinessScoreResultV10ComponentsV10CodingKeys33_5563B5459CEAAE68432F20D1CE94BD8ELLO
+- _symbolic _____ 13HealthBalance20ReadinessScoreResultV14SleepComponentV
+- _symbolic _____ 13HealthBalance20ReadinessScoreResultV14SleepComponentV10CodingKeys33_5563B5459CEAAE68432F20D1CE94BD8ELLO
+- _symbolic _____ 13HealthBalance20ReadinessScoreResultV15VitalsComponentV
+- _symbolic _____ 13HealthBalance20ReadinessScoreResultV15VitalsComponentV10CodingKeys33_5563B5459CEAAE68432F20D1CE94BD8ELLO
+- _symbolic _____ 13HealthBalance20ReadinessScoreResultV17ActivityComponentV
+- _symbolic _____ 13HealthBalance20ReadinessScoreResultV17ActivityComponentV10CodingKeys33_5563B5459CEAAE68432F20D1CE94BD8ELLO
+- _symbolic _____ 13HealthBalance20ReadinessScoreResultV23CombinedVitalsComponentV
+- _symbolic _____ 13HealthBalance20ReadinessScoreResultV23CombinedVitalsComponentV10CodingKeys33_5563B5459CEAAE68432F20D1CE94BD8ELLO
+- _symbolic _____ 13HealthBalance20ReadinessScoreResultV5ValueV
+- _symbolic _____ 13HealthBalance20ReadinessScoreResultV5ValueV10CodingKeys33_5563B5459CEAAE68432F20D1CE94BD8ELLO
+- _symbolic _____ 13HealthBalance20ReadinessSleepFactorO
+- _symbolic _____ 13HealthBalance21ReadinessAvailabilityO
+- _symbolic _____ 13HealthBalance21ReadinessTopicRequestV
+- _symbolic _____ 13HealthBalance21ReadinessTopicRequestV10CodingKeys33_9FE6A8CD35CB3BF24AD4FEA020BF0318LLO
+- _symbolic _____ 13HealthBalance21ReadinessVitalsFactorO
+- _symbolic _____ 13HealthBalance22ReadinessCategoryLabelO
+- _symbolic _____ 13HealthBalance22ReadinessConfigurationV
+- _symbolic _____ 13HealthBalance22ReadinessConfigurationV10CodingKeys33_E1728820B281E86530966FF94AFE81C3LLO
+- _symbolic _____ 13HealthBalance22ReadinessTopicResponseV
+- _symbolic _____ 13HealthBalance22ReadinessTopicResponseV10CodingKeys33_5937E8F07C77EC50D6581D9D8A9D67FCLLO
+- _symbolic _____ 13HealthBalance23ReadinessActivityFactorO
+- _symbolic _____ 13HealthBalance23ReadinessClassificationO
+- _symbolic _____ 13HealthBalance24ReadinessComputationTypeO
+- _symbolic _____ 13HealthBalance29ReadinessScoreQueryDescriptorV
+- _symbolic _____ 13HealthBalance29ReadinessScoreQueryDescriptorV10CodingKeys33_8B1C60B55945DD8B0485B28467A672C6LLO
+- _symbolic _____ 13HealthBalance30DaytimeVitalsDaySummaryContextV
+- _symbolic _____ 13HealthBalance30DaytimeVitalsDaySummaryContextV10CodingKeys33_F81F31539C61DF507A0365285D2016AELLO
+- _symbolic _____ 13HealthBalance30ReadinessInputsQueryDescriptorV12resultStream3forQrSo13HKHealthStoreC_tF9LockedBoxL_C
+- _symbolic _____ 13HealthBalance31SleepingSampleDaySummaryStorage33_1094319DFB5E9605B484EFA9444929EALLV
+- _symbolic _____ 13HealthBalance40SleepingSampleAggregateDaySummaryStorage33_DCD2A9630700FBA2B6EE1446F9B058FCLLV
+- _symbolic _____Sg 13HealthBalance20ReadinessResultErrorO
+- _symbolic _____Sg 13HealthBalance20ReadinessScoreResultV10ComponentsV
+- _symbolic _____Sg 13HealthBalance20ReadinessScoreResultV5ValueV
+- _symbolic _____Sg 13HealthBalance22ReadinessCategoryLabelO
+- _symbolic _____Sg 13HealthBalance23ReadinessActivityFactorO
+- _symbolic _____y___________pGIeghn_ s6ResultOsRi_zRi0_zrlE 13HealthBalance014ReadinessScoreA0V s5ErrorP
+- _symbolic _____y_____y___________Qo______G s16AsyncMapSequenceV 16HealthTopicsCore10TopicStorePACE9responses3forQrqd___tAC0G7RequestRd__AC09StreamingG8Response0M0Rpd__lFQO 0dE00dgH0C 0D7Balance09ReadinessgK0V AO0O11ScoreResultV
+- _symbolic _____yxSgG 15Synchronization5MutexVAARi_zrlE
+- _symbolic ypSg
+- _type_layout_string 13HealthBalance20ReadinessScoreResultV08SleepSubD0V
+- _type_layout_string 13HealthBalance20ReadinessScoreResultV09VitalsSubD0V
+- _type_layout_string 13HealthBalance20ReadinessScoreResultV10ComponentsV
+- _type_layout_string 13HealthBalance20ReadinessScoreResultV17ActivityComponentV
+- _type_layout_string 13HealthBalance20ReadinessScoreResultV23CombinedVitalsComponentV
+- _type_layout_string 13HealthBalance20ReadinessScoreResultV5ValueV
+- _type_layout_string 13HealthBalance30DaytimeVitalsDaySummaryContextV
+- _type_layout_string 13HealthBalance31SleepingSampleDaySummaryStorage33_1094319DFB5E9605B484EFA9444929EALLV
+- _type_layout_string 13HealthBalance40SleepingSampleAggregateDaySummaryStorage33_DCD2A9630700FBA2B6EE1446F9B058FCLLV
+CStrings:
++ "LatestDaytimeVitalsDaySummaryCollectionInputSignal"
++ "LatestOvernightVitalsDaySummaryCollectionInputSignal"
++ "TodaysReadinessInputs"
++ "[%{public}s] Day or calendar changed; restarting remaining-inputs query for day %{public}ld"
++ "[%{public}s] Dropping remaining-inputs result received after being stopped"
++ "[%{public}s] Dropping remaining-inputs result superseded by a newer query"
++ "[%{public}s] Emitting anchor after dependency update"
++ "[%{public}s] Emitting anchor after remaining-inputs result"
++ "[%{public}s] Emitting anchor on begin"
++ "[%{public}s] Handling dependency update"
++ "[%{public}s] Handling remaining inputs query result"
++ "[%{public}s] Missing an anchor for one of our dependencies"
++ "[%{public}s] Remaining-inputs query failed after being stopped or superseded; not retrying. Error: %{public}@"
++ "[%{public}s] Remaining-inputs query failed: %{public}@; scheduling retry"
++ "[%{public}s] Retrying remaining-inputs query"
++ "[%{public}s] Starting remaining-inputs query for day %{public}ld"
++ "anyBaselineAggregateContainsGen4Data"
++ "mostRecentWatchHRVSampleDateKey"
+- "Localizable-AllDayHRV"
+- "READINESS_CLASSIFICATION_ATTENTION"
+- "READINESS_CLASSIFICATION_CAUTION"
+- "READINESS_CLASSIFICATION_GO"
+- "READINESS_CLASSIFICATION_GO_FOR_IT"
+- "above"
+- "activeCaloriesBaseline"
+- "activityClassification"
+- "attention"
+- "authorizationDenied"
+- "below"
+- "beneficialBlip"
+- "bodyMetricsNotSet"
+- "caloriesLastWeek"
+- "caloriesSevenDayAvgOverThree"
+- "caloriesThreeDayAverage"
+- "caloriesToday"
+- "caloriesTwoDayAverage"
+- "caloriesYesterday"
+- "caution"
+- "computationFailed"
+- "daytimeBloodOxygen"
+- "daytimeHRV"
+- "daytimeRestingHR"
+- "dynamic"
+- "exerciseCessation: "
+- "frameworkVersion"
+- "go"
+- "goForIt"
+- "isExerciseCessationSignalActive"
+- "lastNightTotalSleep"
+- "loadLastWeek"
+- "loadSevenDayAvgOverThree"
+- "loadThreeDayAverage"
+- "loadToday"
+- "loadTwoDayAverage"
+- "loadYesterday"
+- "morningBloodOxygen"
+- "morningHRV"
+- "morningRestingHR"
+- "nominal"
+- "notEnoughCalories"
+- "notEnoughDaytimeVitals"
+- "notEnoughLoad"
+- "notEnoughOvernightWear"
+- "notInActiveCalorieMode"
+- "overnightBloodOxygen"
+- "overnightHRV"
+- "overnightRHR"
+- "overnightRecentHRV"
+- "overnightRespiratoryRate"
+- "overnightWristTemp"
+- "paceYourself"
+- "queryFailed"
+- "ready"
+- "recentSleepScore"
+- "recentTotalSleep"
+- "recover"
+- "showDaytimeVitalsInHealthChartsKey"
+- "sleepScore"
+- "sleepTrackingIncomplete"
+- "static"
+- "steady"
+- "unknown"
+```

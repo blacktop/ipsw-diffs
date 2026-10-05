@@ -1,0 +1,147 @@
+## Spotlight
+
+> Group: ⬆️ Updated
+
+```diff
+
+ 		(require-not (global-name "com.apple.rti-screencontinuity"))
+ 		(require-not (global-name "com.apple.systemstatus"))
+ 		(require-not (require-any
+-			(global-name "com.apple.CardBoard.KeyboardExtension")
+ 			(global-name "com.apple.SecurityServer")
+-			(global-name "com.apple.VoiceOverTouch.drag.xpc")
+-			(global-name "com.apple.assistivetouchd.drag.xpc")
+-			(global-name "com.apple.coremedia.mediaplaybackd.visualcontext.xpc")
+-			(global-name "com.apple.coreservices.lsbestappsuggestionmanager.xpc")
+-			(global-name "com.apple.hmidevicesd")
+-			(global-name "com.apple.inputanalytics.testAppRelay")
+-			(global-name "com.apple.muranod")
++			(global-name "com.apple.hid.PencilHaptics")
+ 			(global-name "com.apple.pasteboard.1")
+-			(global-name "com.apple.uikit.viewservice.*")
+ 		))
+ 		(require-not (global-name "com.apple.intelligenceflow.uiContext"))
+ 		(require-not (global-name "com.apple.biome.access.system"))
+
+ 		(require-not (global-name "com.apple.appprotectiond.guard"))
+ 		(require-not (global-name "com.apple.system.notification_center"))
+ 		(require-not (global-name "com.apple.inputservice.input-ui-host"))
+-		(require-not (global-name "com.apple.coremedia.volumecontroller.xpc"))
++		(require-not (require-any
++			(global-name "com.apple.CardBoard.KeyboardExtension")
++			(global-name "com.apple.VoiceOverTouch.drag.xpc")
++			(global-name "com.apple.assistivetouchd.drag.xpc")
++			(global-name "com.apple.coremedia.mediaplaybackd.visualcontext.xpc")
++			(global-name "com.apple.coreservices.lsbestappsuggestionmanager.xpc")
++			(global-name "com.apple.hmidevicesd")
++			(global-name "com.apple.inputanalytics.testAppRelay")
++			(global-name "com.apple.muranod")
++			(global-name "com.apple.uikit.viewservice.*")
++		))
+ 		(require-not (global-name "com.apple.frontboard.systemappservices"))
+ 		(require-not (global-name "com.apple.siri.context.service"))
+ 		(require-not (global-name "com.apple.mobilemail.services.xpc"))
+
+ 		(require-not (global-name "com.apple.iokit.powerdxpc"))
+ 		(require-not (global-name "com.apple.proactive.PersonalizationPortrait.Topic.readOnly"))
+ 		(require-not (global-name "com.apple.lsd.xpc"))
+-		(require-not (global-name "com.apple.lsd.open"))
++		(require-not (global-name "com.apple.coremedia.volumecontroller.xpc"))
+ 		(require-not (global-name "com.apple.xpc.amsengagementd"))
+ 		(require-not (global-name "com.apple.coremedia.videocodecd.decompressionsession"))
+ 		(require-not (global-name "com.apple.exchangesyncd"))
+
+ 			(global-name "com.apple.findmy.findmylocate.friendshipservice")
+ 			(global-name "com.apple.findmy.findmylocate.settings")
+ 		))
+-		(require-not (global-name "com.apple.dmd.policy"))
++		(require-not (global-name "com.apple.coremedia.compressionsession"))
+ 		(require-not (global-name "com.apple.accessibility.AXSpringBoardServer"))
+ 		(require-not (global-name "com.apple.appstorecomponentsd.xpc"))
+ 		(require-not (global-name "com.apple.proactive.PersonalizationPortrait.SocialHighlight"))
+
+ 		(require-not (global-name "com.apple.audioanalyticsd"))
+ 		(require-not (global-name "com.apple.diagnosticd"))
+ 		(require-not (global-name "com.apple.parsec-fbf"))
+-		(require-not (global-name "com.apple.aggregated"))
++		(require-not (global-name "com.apple.ScreenTimeAgent.private"))
+ 		(require-not (global-name "com.apple.coremedia.formatreader.xpc"))
+ 		(require-not (require-any
+ 			(global-name "com.apple.KeyBoard.services")
+
+ 		(require-not (global-name "com.apple.cmfsyncagent.embedded.auth"))
+ 		(require-not (global-name "com.apple.coremedia.mediaplaybackd.formatreader.xpc"))
+ 		(require-not (global-name "com.apple.intelligenceflow.context"))
+-		(require-not (global-name "com.apple.coremedia.compressionsession"))
++		(require-not (global-name "com.apple.spaceattributiond"))
+ 		(require-not (global-name "com.apple.dataaccess.dataaccessd"))
+ 		(require-not (global-name "com.apple.CoreServices.coreservicesd"))
+-		(require-not (global-name "com.apple.ScreenTimeAgent.private"))
++		(require-not (global-name "com.apple.mediaexperience.endpoint.xpc"))
+ 		(require-not (global-name "com.apple.networkscored"))
+ 		(require-not (global-name "com.apple.itunescloud.remote-request-execution-service"))
+ 		(require-not (global-name "com.apple.mobileactivationd"))
+
+ 		(require-not (global-name "com.apple.contacts.poster.api"))
+ 		(require-not (global-name "com.apple.coremedia.mediaplaybackd.figmetriceventtimeline.xpc"))
+ 		(require-not (global-name "com.apple.mediaartworkd.xpc"))
+-		(require-not (global-name "com.apple.spaceattributiond"))
++		(require-not (global-name "com.apple.coremedia.sandboxserver.xpc"))
+ 		(require-not (global-name "com.apple.mediaremoted.xpc"))
+ 		(require-not (global-name "com.apple.internal.studylogd"))
+ 		(require-not (global-name "com.apple.MapKit.SnapshotService"))
+
+ 		(require-not (global-name "com.apple.stickers.api"))
+ 		(require-not (global-name "com.apple.searchd.background"))
+ 		(require-not (global-name "com.apple.CoreAuthentication.daemon.libxpc"))
+-		(require-not (global-name "com.apple.mediaexperience.endpoint.xpc"))
++		(require-not (global-name "com.apple.handwritingd.pkanalytics"))
+ 		(require-not (global-name "com.apple.usymptomsd"))
+-		(require-not (global-name "com.apple.revisiond"))
++		(require-not (global-name "com.apple.dmd.policy"))
+ 		(require-not (global-name "com.apple.PowerManagement.control"))
+ 		(require-not (global-name "com.apple.GameController.gamecontrollerd.app"))
+ 		(require-not (global-name "com.apple.ind.cloudfeatures"))
+
+ 		(require-not (global-name "com.apple.logd.events"))
+ 		(require-not (global-name "com.apple.calaccessd"))
+ 		(require-not (global-name "com.apple.nesessionmanager.content-filter"))
+-		(require-not (global-name "com.apple.coremedia.sandboxserver.xpc"))
++		(require-not (global-name "com.apple.revisiond"))
+ 		(require-not (global-name "com.apple.distributed_notifications@1v3-debug"))
+ 		(require-not (global-name "com.apple.generativesearch.server.search"))
+ 		(require-not (global-name "com.apple.xpc.amstoold"))
+ 		(require-not (global-name "com.apple.parsecd"))
+ 		(require-not (global-name "com.apple.amsprivateidentifiers"))
+-		(require-not (global-name "com.apple.handwritingd.pkanalytics"))
++		(require-not (global-name "com.apple.translationd"))
+ 		(require-not (global-name "com.apple.logd"))
+ 		(require-not (global-name "com.apple.cfprefsd.daemon"))
+ 		(require-not (global-name "com.apple.group-activities.conversationmanagerhost"))
+
+ 		(require-not (global-name "com.apple.siri.analytics.assistant"))
+ 		(require-not (global-name "com.apple.askpermissiond"))
+ 		(require-not (global-name "com.apple.contacts.CNContactsTestsEnvironmentServer"))
+-		(require-not (global-name "com.apple.translationd"))
++		(require-not (global-name "com.apple.aggregated"))
+ 		(require-not (global-name "com.apple.debug.telemetry"))
+ 		(require-not (global-name "com.apple.backboard.hid.services"))
+ 		(require-not (global-name "com.apple.coremedia.mediaplaybackd.player.xpc"))
+
+ 		(require-not (global-name "com.apple.datamigrator"))
+ 		(require-not (global-name "com.apple.assistant.analytics"))
+ 		(require-not (global-name "com.apple.SharedWebCredentials"))
+-		(require-not (global-name "com.apple.hid.PencilHaptics"))
++		(require-not (global-name "com.apple.lsd.open"))
+ 		(require-not (global-name "com.apple.familycircle.agent"))
+ 		(require-not (global-name "com.apple.nesessionmanager"))
+ 		(require-not (global-name "com.apple.ABDatabaseDoctor"))
+
+ 				task_set_special_port
+ 				semaphore_create
+ 				semaphore_destroy
++				task_inspect
+ 				task_set_exc_guard_behavior
+ 				task_create_identity_token
+ 				task_register_hardened_exception_handler
+```

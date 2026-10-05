@@ -1,0 +1,117 @@
+## HealthCharts
+
+> `/System/Library/PrivateFrameworks/HealthCharts.framework/HealthCharts`
+
+```diff
+
+-7027.1.45.2.4
+-  __TEXT.__text: 0x157d98
+-  __TEXT.__const: 0x9764
+-  __TEXT.__constg_swiftt: 0x5054
+-  __TEXT.__swift5_typeref: 0x2d38
++7027.1.54.2.3
++  __TEXT.__text: 0x1655d8
++  __TEXT.__const: 0x9874
++  __TEXT.__constg_swiftt: 0x5100
++  __TEXT.__swift5_typeref: 0x2d88
+   __TEXT.__swift5_builtin: 0xdc
+-  __TEXT.__swift5_reflstr: 0x131b
+-  __TEXT.__swift5_fieldmd: 0x2e44
+-  __TEXT.__swift5_assocty: 0xa30
+-  __TEXT.__swift5_capture: 0x2bb8
+-  __TEXT.__swift5_proto: 0x710
+-  __TEXT.__swift5_types: 0x644
+-  __TEXT.__cstring: 0x526f
++  __TEXT.__swift5_reflstr: 0x13fb
++  __TEXT.__swift5_fieldmd: 0x2f50
++  __TEXT.__swift5_assocty: 0xa48
++  __TEXT.__swift5_capture: 0x2bf4
++  __TEXT.__swift5_proto: 0x718
++  __TEXT.__swift5_types: 0x654
++  __TEXT.__cstring: 0x530f
+   __TEXT.__oslogstring: 0x44f
+   __TEXT.__swift_as_entry: 0x44
+   __TEXT.__swift_as_ret: 0x40
+   __TEXT.__swift_as_cont: 0xdc
+   __TEXT.__swift5_protos: 0x30
+-  __TEXT.__swift5_mpenum: 0xb4
+-  __TEXT.__unwind_info: 0x3d58
+-  __TEXT.__eh_frame: 0x1b04
++  __TEXT.__swift5_mpenum: 0x9c
++  __TEXT.__unwind_info: 0x3e18
++  __TEXT.__eh_frame: 0x1af4
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__const: 0x118
+   __DATA_CONST.__objc_classlist: 0x18
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1e0
+-  __DATA_CONST.__got: 0x1128
+-  __AUTH_CONST.__const: 0xd2a0
++  __DATA_CONST.__objc_selrefs: 0x1d0
++  __DATA_CONST.__got: 0x1120
++  __AUTH_CONST.__const: 0xd3d0
+   __AUTH_CONST.__objc_const: 0x368
+-  __AUTH_CONST.__auth_got: 0x1ab0
++  __AUTH_CONST.__auth_got: 0x1ac0
+   __AUTH.__objc_data: 0x50
+-  __AUTH.__data: 0x1cb8
+-  __DATA.__data: 0x3df8
++  __AUTH.__data: 0x1d60
++  __DATA.__data: 0x3e60
+   __DATA.__common: 0x88
+   - /System/Library/Frameworks/Charts.framework/Charts
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 5271
+-  Symbols:   1286
+-  CStrings:  515
++  Functions: 5322
++  Symbols:   1303
++  CStrings:  519
+ 
+Symbols:
++ ___swift_assignWithCopy_strong
++ ___swift_assignWithTake_strong
++ ___swift_destroy_strong
++ ___swift_get_extra_inhabitant_indexTm
++ ___swift_initWithCopy_strong
++ ___swift_memcpy58_8
++ ___swift_memcpy88_8
++ ___swift_store_extra_inhabitant_indexTm
++ _associated conformance 12HealthCharts25DashboardChartXAxisLabelsV7SwiftUI4ViewAA4BodyAdEP_AdE
++ _get_witness_table 12HealthCharts10AxisDomainRzlqd__7SwiftUI4ViewHD2_AcDPACE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOyAC6VStackVyAC12TupleContentVyAC09_VariadicG0O4TreeVy_AC11_LayoutRootVyAA04FlexmR033_3C61746B27B7AEABBF833E5EBD08C4A4LLVGAC7ForEachVySaySi6offset_AA5TrackVyxG7elementtGSiAC08ModifiedO0VyA7_yAA0A5ChartVyx0B008AnyChartO0VGSgAC19_BackgroundModifierVyAC14GeometryReaderVyA7_yA7_yAC06_ShapeG0VyAC9RectangleVAC5ColorVGAC06_FrameR0VGAC13_OffsetEffectVGGSgGGAC21_TraitWritingModifierVyAC01_R5TraitVyAA14TrackSizingKeyAWLLVGGGGG_A7_yAA25DashboardChartXAxisLabelsVAC08_PaddingR0VGSgQPGG_Qo_HO
++ _get_witness_table 6Charts18BuilderConditionalVyAA0B5TupleVyAA9AxisMarksVyAEyACyAA0E4MarkPAAE15foregroundStyleyQrqd__7SwiftUI05ShapeI0Rd__lFQOyAA0E4TickV_AK03AnylI0VQo_ANGSg_ACyAiAEAJyQrqd__AkLRd__lFQOyAA0E8GridLineV_APQo_AUGSgACyAiAEAJyQrqd__AkLRd__lFQOyAiAE4fontyQrAK4FontVSgFQOyAA0E10ValueLabelVys5NeverOG_Qo__APQo_A6_GQPGG_A10_SgQPGAGyA4_GGAA0E7ContentHPA12_AAA15_HPA10_AAA15_HPyHC_A11_AAA15_HpA10_AAA15_HPyHC_HCHX_HC_A13_AAA15_HPyHCHC
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA6HStackVyAA05TupleD0VyAA4TextV_AA6SpacerVAIQPGGAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAA016_ForegroundStyleL0VyAA5ColorVGGAA12_FrameLayoutVGAA4ViewHPAzAA2_HPAtAA2_HPAmAA2_HPyHC_AsA0sL0HPyHCHC_AyAA3_HPyHCHC_A0_AAA3_HPyHCHC
++ _swift_release_x9
++ _symbolic _____ 12HealthCharts10DateDomainV6Fields33_DC1A159D92CAD0C0CEE35FF8EEA25BDALLV
++ _symbolic _____ 12HealthCharts21HeartRateChartMetricsO
++ _symbolic _____ 12HealthCharts25DashboardChartXAxisLabelsV
++ _symbolic _____ 12HealthCharts29WeeklyStepsChartConfigurationV
++ _symbolic _____Sg 10Foundation4DateV11FormatStyleV
++ _symbolic _____Sg 7SwiftUI5ColorV
++ _symbolic _____yAAyAAy_____y_____y___________ADQPGG_____y_____SgGG_____y_____GG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA4TextV AA6SpacerV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleL0V AA5ColorV AA12_FrameLayoutV
++ _symbolic _____y_____y_____yAByAAy_____y___________Qo_ADGSg_AAy_____y______AEQo_AIGSgAAy_____y_____y_____y_____G_Qo__AEQo_APGQPGG_ATSgQPGACyANGG 6Charts18BuilderConditionalV AA0B5TupleV AA9AxisMarksV AA0E4MarkPAAE15foregroundStyleyQrqd__7SwiftUI05ShapeI0Rd__lFQO AA0E4TickV AK03AnylI0V AiAEAJyQrqd__AkLRd__lFQO AA0E8GridLineV AiAEAJyQrqd__AkLRd__lFQO AiAE4fontyQrAK4FontVSgFQO AA0E10ValueLabelV s5NeverO
++ _symbolic _____y_____y_____y_____y______y_____G_____ySaySi6offset______yxG7elementtGSi_____yAMy_____yx_____GSg_____y_____yAMyAMy_____y__________G_____G_____GGSgGG_____y_____y_____GGGGG_AMy__________GSgQPGG_Qo_ 7SwiftUI4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AA6VStackV AA12TupleContentV AA09_VariadicC0O4TreeV AA11_LayoutRootV 12HealthCharts04FlexiN033_3C61746B27B7AEABBF833E5EBD08C4A4LLV AA7ForEachV AT5TrackV AA08ModifiedK0V AT0P5ChartV 0Q008AnyChartK0V AA19_BackgroundModifierV AA14GeometryReaderV AA06_ShapeC0V AA9RectangleV AA5ColorV AA06_FrameN0V AA13_OffsetEffectV AA21_TraitWritingModifierV AA01_N5TraitV AT14TrackSizingKeyAVLLV AT25DashboardChartXAxisLabelsV AA08_PaddingN0V
++ _type_layout_string 12HealthCharts25DashboardChartXAxisLabelsV
++ _type_layout_string 12HealthCharts29WeeklyStepsChartConfigurationV
++ _type_layout_string 12HealthCharts32DailyHeartRateChartConfigurationV
+- ___swift_memcpy112_8
+- ___swift_memcpy57_8
+- _get_witness_table 12HealthCharts10AxisDomainRzlqd__7SwiftUI4ViewHD2_AcDPACE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOyAC6VStackVyAC12TupleContentVyAC09_VariadicG0O4TreeVy_AC11_LayoutRootVyAA04FlexmR033_3C61746B27B7AEABBF833E5EBD08C4A4LLVGAC7ForEachVySaySi6offset_AA5TrackVyxG7elementtGSiAC08ModifiedO0VyA7_yAA0A5ChartVyx0B008AnyChartO0VGSgAC19_BackgroundModifierVyAC14GeometryReaderVyA7_yA7_yAC06_ShapeG0VyAC9RectangleVAC5ColorVGAC06_FrameR0VGAC13_OffsetEffectVGGSgGGAC21_TraitWritingModifierVyAC01_R5TraitVyAA14TrackSizingKeyAWLLVGGGGG_A7_yA7_yA7_yA7_yAC6HStackVyAOyAC4TextV_AC6SpacerVA50_QPGGAC30_EnvironmentKeyWritingModifierVyAC4FontVSgGGAC24_ForegroundStyleModifierVyA24_GGAC08_PaddingR0VGA27_GSgQPGG_Qo_HO
+- _get_witness_table 6Charts18BuilderConditionalVyAA0B5TupleVyAA9AxisMarksVyAEyAA0E4TickVSg_AA0E8GridLineVSgACyAA0E4MarkPAAE15foregroundStyleyQrqd__7SwiftUI05ShapeL0Rd__lFQOyAoAE4fontyQrAQ4FontVSgFQOyAA0E10ValueLabelVys5NeverOG_Qo__AQ03AnyoL0VQo_A0_GQPGG_A6_SgQPGAGyAZGGAA0E7ContentHPA8_AAA11_HPA6_AAA11_HPyHC_A7_AAA11_HpA6_AAA11_HPyHC_HCHX_HC_A9_AAA11_HPyHCHC
+- _objc_autoreleaseReturnValue
+- _symbolic _____ 7SwiftUI4FontV
+- _symbolic _____y_____y_____yABy_____Sg______SgAAy_____y_____y_____y_____G_Qo_______Qo_AKGQPGG_APSgQPGACyAIGG 6Charts18BuilderConditionalV AA0B5TupleV AA9AxisMarksV AA0E4TickV AA0E8GridLineV AA0E4MarkPAAE15foregroundStyleyQrqd__7SwiftUI05ShapeL0Rd__lFQO AmAE4fontyQrAO4FontVSgFQO AA0E10ValueLabelV s5NeverO AO03AnyoL0V
+- _symbolic _____y_____y_____y_____y______y_____G_____ySaySi6offset______yxG7elementtGSi_____yAMy_____yx_____GSg_____y_____yAMyAMy_____y__________G_____G_____GGSgGG_____y_____y_____GGGGG_AMyAMyAMyAMy_____yABy___________A13_QPGG_____y_____SgGG_____yAVGG_____GAXGSgQPGG_Qo_ 7SwiftUI4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AA6VStackV AA12TupleContentV AA09_VariadicC0O4TreeV AA11_LayoutRootV 12HealthCharts04FlexiN033_3C61746B27B7AEABBF833E5EBD08C4A4LLV AA7ForEachV AT5TrackV AA08ModifiedK0V AT0P5ChartV 0Q008AnyChartK0V AA19_BackgroundModifierV AA14GeometryReaderV AA06_ShapeC0V AA9RectangleV AA5ColorV AA06_FrameN0V AA13_OffsetEffectV AA21_TraitWritingModifierV AA01_N5TraitV AT14TrackSizingKeyAVLLV AA6HStackV AA4TextV AA6SpacerV AA30_EnvironmentKeyWritingModifierV AA4FontV AA24_ForegroundStyleModifierV AA08_PaddingN0V
+CStrings:
++ "HealthCharts/DashboardChartXAxisLabels.swift"
++ "SampleQueryExecutor:query:"
++ "StatisticQueryExecutor:query:"
++ "healthCharts.classification.static"
+```

@@ -1,0 +1,182 @@
+## HealthBalanceAppPlugin
+
+> `/System/Library/PrivateFrameworks/HealthBalanceAppPlugin.framework/HealthBalanceAppPlugin`
+
+```diff
+
+-7027.1.45.2.4
+-  __TEXT.__text: 0x7fd38
++7027.1.54.2.3
++  __TEXT.__text: 0x756c8
+   __TEXT.__objc_methlist: 0x2cc
+-  __TEXT.__const: 0x51e4
+-  __TEXT.__constg_swiftt: 0x18c4
+-  __TEXT.__swift5_typeref: 0x168e
++  __TEXT.__const: 0x5374
++  __TEXT.__constg_swiftt: 0x18d0
++  __TEXT.__swift5_typeref: 0x163a
+   __TEXT.__swift5_builtin: 0x50
+-  __TEXT.__swift5_reflstr: 0xf1b
+-  __TEXT.__swift5_fieldmd: 0x1014
+-  __TEXT.__swift5_assocty: 0x450
+-  __TEXT.__cstring: 0x213c
+-  __TEXT.__swift5_proto: 0x3d8
+-  __TEXT.__swift5_types: 0x198
+-  __TEXT.__oslogstring: 0xeff
++  __TEXT.__swift5_reflstr: 0xeeb
++  __TEXT.__swift5_fieldmd: 0xfe0
++  __TEXT.__swift5_assocty: 0x4d0
++  __TEXT.__cstring: 0x204c
++  __TEXT.__swift5_proto: 0x3e8
++  __TEXT.__swift5_types: 0x1a0
++  __TEXT.__oslogstring: 0x105f
+   __TEXT.__swift_as_entry: 0x80
+-  __TEXT.__swift5_capture: 0x450
+-  __TEXT.__swift_as_ret: 0x8c
+-  __TEXT.__swift_as_cont: 0xf4
++  __TEXT.__swift5_capture: 0x3e8
++  __TEXT.__swift_as_ret: 0x88
++  __TEXT.__swift_as_cont: 0xec
+   __TEXT.__swift5_protos: 0x8
+-  __TEXT.__unwind_info: 0x2480
+-  __TEXT.__eh_frame: 0x1b84
++  __TEXT.__unwind_info: 0x2300
++  __TEXT.__eh_frame: 0x1b7c
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x190
++  __DATA_CONST.__const: 0x188
+   __DATA_CONST.__objc_classlist: 0xd8
+   __DATA_CONST.__objc_protolist: 0x50
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x528
++  __DATA_CONST.__objc_selrefs: 0x520
+   __DATA_CONST.__objc_protorefs: 0x28
+-  __DATA_CONST.__got: 0x1168
+-  __AUTH_CONST.__const: 0x1990
+-  __AUTH_CONST.__objc_const: 0x1ba8
+-  __AUTH_CONST.__auth_got: 0x2328
++  __DATA_CONST.__got: 0x1050
++  __AUTH_CONST.__const: 0x1ba8
++  __AUTH_CONST.__objc_const: 0x1b88
++  __AUTH_CONST.__auth_got: 0x22c8
+   __AUTH.__objc_data: 0x8c0
+-  __AUTH.__data: 0x1220
+-  __DATA.__data: 0x1868
++  __AUTH.__data: 0x1188
++  __DATA.__data: 0x1748
+   __DATA.__objc_stublist: 0x40
+   __DATA.__common: 0xa8
+   __DATA_DIRTY.__objc_data: 0x330
+-  __DATA_DIRTY.__data: 0x1958
++  __DATA_DIRTY.__data: 0x1650
+   __DATA_DIRTY.__bss: 0x2a80
+   __DATA_DIRTY.__common: 0x60
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftSceneKit.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
++  - /usr/lib/swift/libswiftSynchronization.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 2483
+-  Symbols:   1021
+-  CStrings:  261
++  Functions: 2391
++  Symbols:   1026
++  CStrings:  267
+ 
+Symbols:
++ __DATA__TtC22HealthBalanceAppPlugin31TodaysReadinessScoreInputSignal
++ __IVARS__TtC22HealthBalanceAppPlugin31TodaysReadinessScoreInputSignal
++ __METACLASS_DATA__TtC22HealthBalanceAppPlugin31TodaysReadinessScoreInputSignal
++ ___swift_closure_destructor.7Tm
++ ___swift_memcpy10_8
++ ___swift_memcpy24_8
++ ___swift_memcpy9_8
++ _associated conformance 22HealthBalanceAppPlugin31TodaysReadinessScoreInputSignalC0A13Orchestration0hI0AA6AnchorAdEP_AD0hiK0
++ _associated conformance 22HealthBalanceAppPlugin31TodaysReadinessScoreInputSignalC0A13Orchestration0hI0AAs23CustomStringConvertible
++ _associated conformance 22HealthBalanceAppPlugin36ReadinessSnippetInternalSettingsViewV17OverrideValueMode33_F4C3359CA260965294613A0DA2AB8AB6LLOSHAASQ
++ _associated conformance 22HealthBalanceAppPlugin36ReadinessSnippetInternalSettingsViewV17OverrideValueMode33_F4C3359CA260965294613A0DA2AB8AB6LLOs12CaseIterableAA8AllCasessAGP_Sl
++ _associated conformance 22HealthBalanceAppPlugin36ReadinessSnippetInternalSettingsViewV17OverrideValueMode33_F4C3359CA260965294613A0DA2AB8AB6LLOs12IdentifiableAA2IDsAGP_SH
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyACyACyAA6VStackVyAA05TupleD0VyAA4TextV_AA6SpacerVAA6HStackVyAMyAO_AMyAQ_ACy07WorkoutB0014ReadinessScoreE0VAA12_FrameLayoutVGQPGSgQPGGQPGGAA05_FlextU0VGA5_G_Qo_AA0I18AttachmentModifierVGAaDHPqd__AaDHD2_A8_HO_A10_AA0eX0HPyHCHC
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAeAE15navigationTitleyQrAA4TextVFQOyAA4FormVyAA05TupleD0VyAA7SectionVyAkA012_ConditionalD0Vy22HealthBalanceAppPlugin016ReadinessSnippetdE0VAT021NoFeedItemPlaceholderE033_F4C3359CA260965294613A0DA2AB8AB6LLVGAA05EmptyE0VG_AQyA0_ACyAeAE11pickerStyleyQrqd__AA11PickerStyleRd__lFQOyAA6PickerVyAkT0uv16InternalSettingsE0V4ModeAXLLOAA7ForEachVySayA9_GSSAeAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyAK_A9_Qo_GG_AA20SegmentedPickerStyleVQo_AA21_TraitWritingModifierVyAA21ListRowInsetsTraitKeyVGGA0_GAQyAkOyAeAEA2_yQrqd__AAA3_Rd__lFQOyA5_yAKA7_17OverrideValueModeAXLLOA11_ySayA29_GSSAeAEA13__A14_Qrqd___SbtSHRd__lFQOyAK_A29_Qo_GG_A19_Qo__AA6VStackVyAOyAA6HStackVyAOyAK_AA6SpacerVAKQPGG_AA6SliderVyA0_A0_GQPGGSgQPGAKGSgQPGG_Qo__AT0uV8SettingsVQo_AA25_AppearanceActionModifierVGAaDHPqd0__AaDHD3_A57_HO_A59_AA0E8ModifierHPyHCHC
++ _swift_release_x2
++ _symbolic $s13HealthBalance35ReadinessInputsQueryResultObservingP
++ _symbolic Say_____G 22HealthBalanceAppPlugin36ReadinessSnippetInternalSettingsViewV17OverrideValueMode33_F4C3359CA260965294613A0DA2AB8AB6LLO
++ _symbolic _____ 13HealthBalance30ReadinessInputsQueryDescriptorV0E5TokenV
++ _symbolic _____ 22HealthBalanceAppPlugin0A39StoreReadinessInputsQueryResultObserverV
++ _symbolic _____ 22HealthBalanceAppPlugin31TodaysReadinessScoreInputSignalC
++ _symbolic _____ 22HealthBalanceAppPlugin31TodaysReadinessScoreInputSignalC5State33_473D176FDD04F22BDDD17343B3729A82LLV
++ _symbolic _____ 22HealthBalanceAppPlugin36ReadinessSnippetInternalSettingsViewV17OverrideValueMode33_F4C3359CA260965294613A0DA2AB8AB6LLO
++ _symbolic _____ 9WorkoutUI23ReadinessScoreViewModelC
++ _symbolic _____Sg 13HealthBalance43TodaysReadinessInputsQueryResultInputSignalC6AnchorV
++ _symbolic _____Sg 15HealthBalanceUI31DaytimeMetricsViewModelProviderC
++ _symbolic _____y_____G 15Synchronization5MutexVAARi_zrlE 22HealthBalanceAppPlugin31TodaysReadinessScoreInputSignalC5State33_473D176FDD04F22BDDD17343B3729A82LLV
++ _symbolic _____y_____G 19HealthOrchestration11ValueAnchorV 05SleepA2UI35ReadinessScoreDaySummaryQueryResultV
++ _symbolic _____y_____yAAyAAy_____y_____y________________yACyAD_ACyAE_AAy__________GQPGSgQPGGQPGG_____GAPG_Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6VStackV AA05TupleD0V AA4TextV AA6SpacerV AA6HStackV 07WorkoutB0014ReadinessScoreE0V AA12_FrameLayoutV AA05_FlextU0V AA0I18AttachmentModifierV
++ _symbolic _____y_____y_____y_____y_____y_____y__________y__________G_____G_ADyAjAy_____y_____yAE__________ySayAMGSS_____yAE_AMQo_GG______Qo______y_____GGAJGADyAeCy_____yALyAE_____ANySayAZGSS_____yAE_AZQo_GG_ASQo_______yACy_____yACyAE______AEQPGG______yA2JGQPGGSgQPGAEGSgQPGG_Qo_______Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AeAE15navigationTitleyQrAA4TextVFQO AA4FormV AA05TupleD0V AA7SectionV AK AA012_ConditionalD0V 22HealthBalanceAppPlugin016ReadinessSnippetdE0V AT021NoFeedItemPlaceholderE033_F4C3359CA260965294613A0DA2AB8AB6LLV AA05EmptyE0V AeAE11pickerStyleyQrqd__AA11PickerStyleRd__lFQO AA6PickerV AT0uv16InternalSettingsE0V4ModeAXLLO AA7ForEachV AeAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA20SegmentedPickerStyleV AA21_TraitWritingModifierV AA21ListRowInsetsTraitKeyV AeAEA0_yQrqd__AAA1_Rd__lFQO A5_17OverrideValueModeAXLLO AeAEA10__A11_Qrqd___SbtSHRd__lFQO AA6VStackV AA6HStackV AA6SpacerV AA6SliderV AT0uV8SettingsV AA25_AppearanceActionModifierV
++ _type_layout_string 22HealthBalanceAppPlugin0A39StoreReadinessInputsQueryResultObserverV
++ _type_layout_string 22HealthBalanceAppPlugin20ReadinessSnippetViewV0G5ModelV
++ _type_layout_string 22HealthBalanceAppPlugin24ReadinessSnippetSettingsV
++ _type_layout_string 22HealthBalanceAppPlugin24ReadinessSnippetSettingsV8OverrideV
++ _type_layout_string 22HealthBalanceAppPlugin26ReadinessSnippetScoreValueV
++ _type_layout_string 22HealthBalanceAppPlugin27ReadinessSnippetContentViewV
+- __DATA__TtCV22HealthBalanceAppPlugin20ReadinessSnippetView13ScoreProvider
+- __IVARS__TtCV22HealthBalanceAppPlugin20ReadinessSnippetView13ScoreProvider
+- __METACLASS_DATA__TtCV22HealthBalanceAppPlugin20ReadinessSnippetView13ScoreProvider
+- ___swift_closure_destructor.8Tm
+- ___swift_get_extra_inhabitant_index.31Tm
+- ___swift_get_extra_inhabitant_indexTm
+- ___swift_store_extra_inhabitant_index.32Tm
+- ___swift_store_extra_inhabitant_indexTm
+- _associated conformance 22HealthBalanceAppPlugin20ReadinessSnippetViewV13ScoreProviderC9WorkoutUI0eH9ProvidingAA11Observation10Observable
+- _associated conformance 22HealthBalanceAppPlugin36ReadinessSnippetInternalSettingsViewV20ClassificationChoice33_F4C3359CA260965294613A0DA2AB8AB6LLOSHAASQ
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAeAE15navigationTitleyQrAA4TextVFQOyAA4FormVyAA05TupleD0VyAA7SectionVyAkA012_ConditionalD0Vy22HealthBalanceAppPlugin016ReadinessSnippetdE0VAT021NoFeedItemPlaceholderE033_F4C3359CA260965294613A0DA2AB8AB6LLVGAA05EmptyE0VG_AQyA0_ACyAeAE11pickerStyleyQrqd__AA11PickerStyleRd__lFQOyAA6PickerVyAkT0uv16InternalSettingsE0V4ModeAXLLOAA7ForEachVySayA9_GSSAeAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyAK_A9_Qo_GG_AA20SegmentedPickerStyleVQo_AA21_TraitWritingModifierVyAA21ListRowInsetsTraitKeyVGGA0_GAQyAkOyA5_yAKA7_20ClassificationChoiceAXLLOA11_ySayA29_GA29_AeAEA13__A14_Qrqd___SbtSHRd__lFQOyAK_A29_Qo_GG_AA6VStackVyAOyAA6HStackVyAOyAK_AA6SpacerVAKQPGG_AA6SliderVyA0_A0_GQPGGSgQPGAKGSgAQyAKA37_yA11_ySaySS5label_SiSg5valuetGSSAOyACyACyAeAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQOyAA6ButtonVyAKG_AA28BorderedProminentButtonStyleVQo_AA30_EnvironmentKeyWritingModifierVyAA13AnyShapeStyleVSgGGAA24_ForegroundStyleModifierVyAA5ColorVGG_A39_SgQPGGGAKGQPGG_Qo__AT0uV8SettingsVQo_AA25_AppearanceActionModifierVGAaDHPqd0__AaDHD3_A86_HO_A88_AA0E8ModifierHPyHCHC
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA15ModifiedContentVyAcAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyAHyAHyAA6VStackVyAA05TupleI0VyAA4TextV_AA6SpacerVAA6HStackVyAPyAR_APyAT_AHy07WorkoutB0014ReadinessScoreC0VAA12_FrameLayoutVGQPGSgQPGGQPGGAA05_FlexxY0VGA8_G_Qo_AA0M18AttachmentModifierVG_SdSgQo_HO
+- _swift_retain_x1
+- _symbolic B1
+- _symbolic SS5label_SiSg5valuet
+- _symbolic Sd
+- _symbolic _____ 13HealthBalance23ReadinessClassificationO
+- _symbolic _____ 22HealthBalanceAppPlugin20ReadinessSnippetViewV13ScoreProviderC
+- _symbolic _____ 22HealthBalanceAppPlugin36ReadinessSnippetInternalSettingsViewV20ClassificationChoice33_F4C3359CA260965294613A0DA2AB8AB6LLO
+- _symbolic _____Ieghr_ 10Foundation8CalendarV
+- _symbolic _____Sg 13HealthBalance22ReadinessTopicResponseV
+- _symbolic _____Sg 7SwiftUI13AnyShapeStyleV
+- _symbolic _____ySdSgG 7SwiftUI9LazyStateV
+- _symbolic _____yYbc 10Foundation4DateV
+- _symbolic _____y_____G 7SwiftUI5StateV 07WorkoutB023ReadinessScoreViewModelC
+- _symbolic _____y_____G 7SwiftUI5StateV 22HealthBalanceAppPlugin20ReadinessSnippetViewV13ScoreProviderC
+- _symbolic _____y_____y_____yAAyAAy_____y_____y________________yACyAD_ACyAE_AAy__________GQPGSgQPGGQPGG_____GAPG_Qo______G_SdSgQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA15ModifiedContentV AcAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6VStackV AA05TupleI0V AA4TextV AA6SpacerV AA6HStackV 07WorkoutB0014ReadinessScoreC0V AA12_FrameLayoutV AA05_FlexxY0V AA0M18AttachmentModifierV
+- _symbolic _____y_____y_____y_____y_____y_____y__________y__________G_____G_ADyAjAy_____y_____yAE__________ySayAMGSS_____yAE_AMQo_GG______Qo______y_____GGAJGADyAeCyALyAE_____ANySayAZGAZ_____yAE_AZQo_GG______yACy_____yACyAE______AEQPGG______yA2JGQPGGSgQPGAEGSgADyAEA4_yANySaySS5label_SiSg5valuetGSSACyAAyAAy_____y_____yAEG______Qo______y_____SgGG_____y_____GG_A5_SgQPGGGAEGQPGG_Qo_______Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AeAE15navigationTitleyQrAA4TextVFQO AA4FormV AA05TupleD0V AA7SectionV AK AA012_ConditionalD0V 22HealthBalanceAppPlugin016ReadinessSnippetdE0V AT021NoFeedItemPlaceholderE033_F4C3359CA260965294613A0DA2AB8AB6LLV AA05EmptyE0V AeAE11pickerStyleyQrqd__AA11PickerStyleRd__lFQO AA6PickerV AT0uv16InternalSettingsE0V4ModeAXLLO AA7ForEachV AeAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA20SegmentedPickerStyleV AA21_TraitWritingModifierV AA21ListRowInsetsTraitKeyV A5_20ClassificationChoiceAXLLO AeAEA10__A11_Qrqd___SbtSHRd__lFQO AA6VStackV AA6HStackV AA6SpacerV AA6SliderV AeAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA6ButtonV AA28BorderedProminentButtonStyleV AA30_EnvironmentKeyWritingModifierV AA13AnyShapeStyleV AA24_ForegroundStyleModifierV AA5ColorV AT0uV8SettingsV AA25_AppearanceActionModifierV
+- _symbolic qd_0_
+- _symbolic yXlSg
+CStrings:
++ "No Data"
++ "ReadinessSnippetActivityProvider:streamActivitySummaries"
++ "ReadinessSnippetActivityProvider:streamWorkouts"
++ "Renders the snippet from these values instead of querying the readiness topic. Pick “No Data” to preview the missing-data variant."
++ "Score"
++ "TodaysReadinessScore"
++ "[%{public}s] Emitting anchor for dayIndex=%{public}ld."
++ "[%{public}s] Failed to compute readiness score: %{public}@"
++ "[%{public}s] Missing today's readiness score anchor; skipping work plan"
++ "[%{public}s] beginning observation"
++ "[%{public}s] dependencyDidUpdate called without a dependency's anchor."
++ "[%{public}s] dependencyDidUpdate called. shouldEmit=%{bool,public}d"
+- "READINESS_SNIPPET_NO_RECENT_DATA"
+- "Renders the snippet from these values instead of querying the readiness topic. Pick “No Data” to preview the missing-data variant. Treated as “today's value” — increase the clock offset below to simulate it going stale."
+- "Subtracts hours from the day the override's score is attributed to. +25h files it under yesterday (still stated); +49h makes it stale, so the tile reads “No Recent Data” instead of the score."
+- "[%{public}s] Missing calendar change anchor; skipping work plan"
+- "clockOffsetHours"
+- "label value "
+```

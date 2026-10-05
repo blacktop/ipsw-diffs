@@ -1,0 +1,16 @@
+## com.apple.ScreenTimeSettingsDowntimeNotifications
+
+> `/System/Library/UserNotifications/Bundles/com.apple.ScreenTimeSettingsDowntimeNotifications.bundle/com.apple.ScreenTimeSettingsDowntimeNotifications`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+
+```diff
+
+-97.1.9.0.0
++97.1.12.0.0
+   __TEXT.__text: 0x0
+   __TEXT.__const: 0x70
+   - /usr/lib/libSystem.B.dylib
+```

@@ -1,0 +1,329 @@
+## SiriFindMySnippetProviderPlugin
+
+> `/System/Library/FlowTools/SnippetService/ResponsePlugins/SiriFindMySnippetProviderPlugin.bundle/SiriFindMySnippetProviderPlugin`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_proto`
+- `__DATA.__objc_const`
+
+```diff
+
+-3605.15.2.0.0
+-  __TEXT.__text: 0x147e4
+-  __TEXT.__auth_stubs: 0xa90
+-  __TEXT.__objc_stubs: 0x180
+-  __TEXT.__const: 0x7e8
+-  __TEXT.__swift5_typeref: 0x231
+-  __TEXT.__oslogstring: 0xe1a
+-  __TEXT.__cstring: 0x12a
+-  __TEXT.__swift5_reflstr: 0x15
++3605.18.1.0.0
++  __TEXT.__text: 0x161b8
++  __TEXT.__auth_stubs: 0xa30
++  __TEXT.__objc_stubs: 0x160
++  __TEXT.__const: 0x818
++  __TEXT.__swift5_typeref: 0x22f
++  __TEXT.__oslogstring: 0xfca
++  __TEXT.__cstring: 0x14a
++  __TEXT.__swift5_reflstr: 0xc
+   __TEXT.__swift5_assocty: 0x90
+-  __TEXT.__constg_swiftt: 0x128
+-  __TEXT.__swift5_fieldmd: 0x9c
++  __TEXT.__constg_swiftt: 0x160
++  __TEXT.__swift5_fieldmd: 0xb0
+   __TEXT.__swift5_proto: 0x1c
+-  __TEXT.__swift5_types: 0x24
+-  __TEXT.__swift_as_entry: 0xac
+-  __TEXT.__swift_as_ret: 0x4c
+-  __TEXT.__swift_as_cont: 0x50
+-  __TEXT.__objc_methtype: 0x20
++  __TEXT.__swift5_types: 0x2c
++  __TEXT.__swift_as_entry: 0xa8
++  __TEXT.__swift_as_ret: 0x40
++  __TEXT.__swift_as_cont: 0x38
+   __TEXT.__objc_classname: 0x47
+-  __TEXT.__objc_methname: 0xab
+-  __TEXT.__unwind_info: 0x340
+-  __TEXT.__eh_frame: 0x670
+-  __DATA_CONST.__const: 0x300
++  __TEXT.__objc_methname: 0x8c
++  __TEXT.__unwind_info: 0x358
++  __TEXT.__eh_frame: 0x590
++  __DATA_CONST.__const: 0x348
+   __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__auth_got: 0x550
+-  __DATA_CONST.__got: 0x1c0
+-  __DATA_CONST.__auth_ptr: 0x190
++  __DATA_CONST.__auth_got: 0x520
++  __DATA_CONST.__got: 0x1c8
++  __DATA_CONST.__auth_ptr: 0x180
+   __DATA.__objc_const: 0x90
+-  __DATA.__objc_selrefs: 0x60
+-  __DATA.__data: 0x258
++  __DATA.__objc_selrefs: 0x58
++  __DATA.__data: 0x260
+   __DATA.__common: 0x18
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+-  - /System/Library/Frameworks/GeoToolbox.framework/GeoToolbox
+-  - /System/Library/Frameworks/MapKit.framework/MapKit
++  - /System/Library/Frameworks/Intents.framework/Intents
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+-  - /System/Library/Frameworks/_GeoToolbox_AppIntents.framework/_GeoToolbox_AppIntents
+   - /System/Library/PrivateFrameworks/FlowToolsSnippetService.framework/FlowToolsSnippetService
+   - /System/Library/PrivateFrameworks/IntelligenceFlow.framework/IntelligenceFlow
+   - /System/Library/PrivateFrameworks/IntelligenceFlowShared.framework/IntelligenceFlowShared
+
+   - /System/Library/PrivateFrameworks/SiriFindMy.framework/SiriFindMy
+   - /System/Library/PrivateFrameworks/SiriKitFlow.framework/SiriKitFlow
+   - /System/Library/PrivateFrameworks/ToolKit.framework/ToolKit
+-  - /System/Library/PrivateFrameworks/_ToolKit_AppIntents.framework/_ToolKit_AppIntents
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 165
+-  Symbols:   842
+-  CStrings:  62
++  Functions: 178
++  Symbols:   875
++  CStrings:  63
+ 
+Symbols:
++ /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/SiriFindMy/install/TempContent/Objects/SiriFindMy.build/SiriFindMySnippetProviderPlugin.build/Objects-normal/arm64e/EntityExtraction.o
++ /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/SiriFindMy/install/TempContent/Objects/SiriFindMy.build/SiriFindMySnippetProviderPlugin.build/Objects-normal/arm64e/PlaceDescriptorReader.o
++ EntityExtraction.swift
++ PlaceDescriptorReader.swift
++ _$s10Foundation4DateVACSQAAWL
++ _$s10Foundation4DateVMn
++ _$s10Foundation4DateVSQAAMc
++ _$s10Foundation4DateVSgMR
++ _$s10Foundation4DateVSgMd
++ _$s10Foundation4DateVSgWOcTm
++ _$s10Foundation4DateVSg_ADtMR
++ _$s10Foundation4DateVSg_ADtMd
++ _$s10SiriFindMy8LocationVSgWOcTm
++ _$s10SiriFindMy8SnippetsO16PunchoutLocationO6deviceyAESSSg_SbtcAEmFWC
++ _$s10SiriFindMy8SnippetsO16PunchoutLocationO6friendyAESS_tcAEmFWC
++ _$s10SiriFindMy8SnippetsO16PunchoutLocationO7friendsyA2EmFWC
++ _$s10SiriFindMy8SnippetsO16PunchoutLocationOMa
++ _$s10SiriFindMy8SnippetsO7ContactVAESQAAWlTm
++ _$s10SiriFindMy8SnippetsO7ContactVSgWOcTm
++ _$s16IntelligenceFlow14SystemResponseV31SiriFindMySnippetProviderPluginE22disambiguationEntities8typeName7resolveSay7ToolKit10TypedValueO06EntityS0VGSgSS_SbALXEtF04$s31efghi70Plugin018ItemDisambiguationD7HandlerV13supportsAsync14systemResponse09b5Toolsy17Service0iM0OySay7p5Kit10rs3O06t8T0VGG012a4N006C17M0V_tYaFSbAMXEfU_Tf1ncn_n
++ _$s16IntelligenceFlow14SystemResponseV31SiriFindMySnippetProviderPluginE22disambiguationEntities8typeName7resolveSay7ToolKit10TypedValueO06EntityS0VGSgSS_SbALXEtF04$s31efghi70Plugin018ItemDisambiguationD7HandlerV13supportsAsync14systemResponse09b5Toolsy17Service0iM0OySay7p5Kit10rs3O06t8T0VGG012a4N006C17M0V_tYaFSbAMXEfU_Tf1ncn_nTm
++ _$s16IntelligenceFlow14SystemResponseV31SiriFindMySnippetProviderPluginE22disambiguationEntities8typeName7resolveSay7ToolKit10TypedValueO06EntityS0VGSgSS_SbALXEtF04$s31efghi72Plugin020PersonDisambiguationD7HandlerV13supportsAsync14systemResponse09b5Toolsy17Service0iM0OySay7p5Kit10rs3O06t8T0VGG012a4N006C17M0V_tYaFSbAMXEfU_Tf1ncn_n
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV08resolvedH033_9DB998F7F5EAAB9F3F1883E5927E5AD5LL4from0abC00H0VSg7ToolKit10TypedValueO06EntityX0V_tF
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV08resolvedH033_9DB998F7F5EAAB9F3F1883E5927E5AD5LL4from0abC00H0VSg7ToolKit10TypedValueO06EntityX0V_tFTv_r
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV14punchoutTarget3for2in0abC08SnippetsO08PunchoutH0OSg7ToolKit10TypedValueO06EntityS0V_16IntelligenceFlow14SystemResponseVtF
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV20openTargetIdentifier3for2inSSSg7ToolKit10TypedValueO06EntityR0V_16IntelligenceFlow14SystemResponseVtF
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV20openTargetIdentifier3for2inSSSg7ToolKit10TypedValueO06EntityR0V_16IntelligenceFlow14SystemResponseVtFTf4nnd_n
++ _$s31SiriFindMySnippetProviderPlugin0b14PersonLocationD7HandlerV14punchoutTarget3for0abC08SnippetsO08PunchoutH0O7ToolKit10TypedValueO06EntityR0V_tF
++ _$s31SiriFindMySnippetProviderPlugin0b14PersonLocationD7HandlerV6handle7payload7context0A7KitFlow6Output_p04ToolM010TypedValueO06EntityR0V_0n5ToolsD7Service0dU7ContextVtYaFTv_r
++ _$s31SiriFindMySnippetProviderPlugin0bC6EntityO02isbC9ContainerySbSSFZ
++ _$s31SiriFindMySnippetProviderPlugin0bC6EntityO04itemG0SSvau
++ _$s31SiriFindMySnippetProviderPlugin0bC6EntityO04itemG0SSvgZ
++ _$s31SiriFindMySnippetProviderPlugin0bC6EntityO04itemG0SSvpZ
++ _$s31SiriFindMySnippetProviderPlugin0bC6EntityO04itemG0SSvpZMV
++ _$s31SiriFindMySnippetProviderPlugin0bC6EntityO20itemLocationResponseSSvau
++ _$s31SiriFindMySnippetProviderPlugin0bC6EntityO20itemLocationResponseSSvgZ
++ _$s31SiriFindMySnippetProviderPlugin0bC6EntityO20itemLocationResponseSSvpZ
++ _$s31SiriFindMySnippetProviderPlugin0bC6EntityO20itemLocationResponseSSvpZMV
++ _$s31SiriFindMySnippetProviderPlugin0bC6EntityO22personLocationResponseSSvau
++ _$s31SiriFindMySnippetProviderPlugin0bC6EntityO22personLocationResponseSSvgZ
++ _$s31SiriFindMySnippetProviderPlugin0bC6EntityO22personLocationResponseSSvpZ
++ _$s31SiriFindMySnippetProviderPlugin0bC6EntityO22personLocationResponseSSvpZMV
++ _$s31SiriFindMySnippetProviderPlugin0bC6EntityO8bundleIdSSvau
++ _$s31SiriFindMySnippetProviderPlugin0bC6EntityO8bundleIdSSvgZ
++ _$s31SiriFindMySnippetProviderPlugin0bC6EntityO8bundleIdSSvpZ
++ _$s31SiriFindMySnippetProviderPlugin0bC6EntityO8bundleIdSSvpZMV
++ _$s31SiriFindMySnippetProviderPlugin0bC6EntityOMF
++ _$s31SiriFindMySnippetProviderPlugin0bC6EntityOMa
++ _$s31SiriFindMySnippetProviderPlugin0bC6EntityOMf
++ _$s31SiriFindMySnippetProviderPlugin0bC6EntityOMn
++ _$s31SiriFindMySnippetProviderPlugin0bC6EntityON
++ _$s31SiriFindMySnippetProviderPlugin21PlaceDescriptorReaderO10commonName2inSSSg7ToolKit10TypedValueO06EntityP0V_tFZ
++ _$s31SiriFindMySnippetProviderPlugin21PlaceDescriptorReaderO10commonName2inSSSg7ToolKit10TypedValueO06EntityP0V_tFZTf4nd_n
++ _$s31SiriFindMySnippetProviderPlugin21PlaceDescriptorReaderO12fixTimestamp2in10Foundation4DateVSg7ToolKit10TypedValueO06EntityR0V_tFZ
++ _$s31SiriFindMySnippetProviderPlugin21PlaceDescriptorReaderO12fixTimestamp2in10Foundation4DateVSg7ToolKit10TypedValueO06EntityR0V_tFZTv_r
++ _$s31SiriFindMySnippetProviderPlugin21PlaceDescriptorReaderO14staleThresholdSdvau
++ _$s31SiriFindMySnippetProviderPlugin21PlaceDescriptorReaderO14staleThresholdSdvgZ
++ _$s31SiriFindMySnippetProviderPlugin21PlaceDescriptorReaderO14staleThresholdSdvpZ
++ _$s31SiriFindMySnippetProviderPlugin21PlaceDescriptorReaderO14staleThresholdSdvpZMV
++ _$s31SiriFindMySnippetProviderPlugin21PlaceDescriptorReaderO16renderedLocation2inSo10CLLocationCSg7ToolKit10TypedValueO06EntityQ0V_tFZ
++ _$s31SiriFindMySnippetProviderPlugin21PlaceDescriptorReaderO16renderedLocation2inSo10CLLocationCSg7ToolKit10TypedValueO06EntityQ0V_tFZTv_r
++ _$s31SiriFindMySnippetProviderPlugin21PlaceDescriptorReaderO22representationEntities33_1E93FBF011E48A50CB5162EB792D9EDALL2inSay7ToolKit10TypedValueO06EntityX0VGAK_tFZTf4nd_n
++ _$s31SiriFindMySnippetProviderPlugin21PlaceDescriptorReaderO7address2inSSSg7ToolKit10TypedValueO06EntityO0V_tFZ
++ _$s31SiriFindMySnippetProviderPlugin21PlaceDescriptorReaderO7address2inSSSg7ToolKit10TypedValueO06EntityO0V_tFZTf4nd_n
++ _$s31SiriFindMySnippetProviderPlugin21PlaceDescriptorReaderO7isStaleySb10Foundation4DateVFZ
++ _$s31SiriFindMySnippetProviderPlugin21PlaceDescriptorReaderO8location33_1E93FBF011E48A50CB5162EB792D9EDALL2in10preferringSo10CLLocationCSg7ToolKit10TypedValueO06EntityY0V_SayAC20RepresentationFieldsAELLOGtFZTf4nnd_n
++ _$s31SiriFindMySnippetProviderPlugin21PlaceDescriptorReaderO9precision3for0abC017LocationPrecisionOSo10CLLocationC_tFZ
++ _$s31SiriFindMySnippetProviderPlugin21PlaceDescriptorReaderOMF
++ _$s31SiriFindMySnippetProviderPlugin21PlaceDescriptorReaderOMa
++ _$s31SiriFindMySnippetProviderPlugin21PlaceDescriptorReaderOMf
++ _$s31SiriFindMySnippetProviderPlugin21PlaceDescriptorReaderOMn
++ _$s31SiriFindMySnippetProviderPlugin21PlaceDescriptorReaderON
++ _$s7ToolKit10TypedValueO06EntityD0V31SiriFindMySnippetProviderPluginE02isghE0ySbSSF
++ _$s7ToolKit10TypedValueO06EntityD0V31SiriFindMySnippetProviderPluginE08locationE033_9DB998F7F5EAAB9F3F1883E5927E5AD5LLAESgvg
++ _$s7ToolKit10TypedValueO06EntityD0V31SiriFindMySnippetProviderPluginE08locationE033_CAB4FD7F14967C8A129D3C40B177B859LLAESgvgTm
++ _$s7ToolKit10TypedValueO06EntityD0V31SiriFindMySnippetProviderPluginE19bundleIdAndTypeNameSS0L10Identifier_SS04typeP0tSgvg
++ _$s7ToolKit10TypedValueO06EntityD0V31SiriFindMySnippetProviderPluginE19bundleIdAndTypeNameSS0L10Identifier_SS04typeP0tSgvpMV
++ _$s7ToolKit10TypedValueO06EntityD0V31SiriFindMySnippetProviderPluginE19personContactHandle33_CAB4FD7F14967C8A129D3C40B177B859LLSSSgvg
++ _$s7ToolKit10TypedValueO06EntityD0V31SiriFindMySnippetProviderPluginE6isItem33_9DB998F7F5EAAB9F3F1883E5927E5AD5LLSbSgvg
++ _$s7ToolKit14TypeIdentifierO010AttributedcD0V15sourceContainerAA0G10DefinitionVvg
++ _$s7ToolKit14TypeIdentifierO010AttributedcD0V8typeNameSSvg
++ _$s7ToolKit14TypeIdentifierO010AttributedcD0VMa
++ _$s7ToolKit14TypeIdentifierO10attributedyA2C010AttributedcD0VcACmFWC
++ _$s7ToolKit19ContainerDefinitionV11containerIdSSvg
++ _$s7ToolKit19ContainerDefinitionVMa
++ _$sSS9hasPrefixySbSSF
++ _$sSSSgMR
++ _$sSSSgMd
++ _$sSTsE10allSatisfyyS2b7ElementQzKXEKFSay7ToolKit10TypedValueO06EntityG0VG_Tg50108$s31SiriFindMySnippetProviderPlugin018ItemDisambiguationD7HandlerV13supportsAsync14systemResponse09FlowToolsr17Service0iM0OySay7d5Kit10fg3O06h30T0VGG012IntelligenceN006SystemZ15V_tYaFSbAMXEfU_Tf1cn_n
++ _$sSTsE10allSatisfyyS2b7ElementQzKXEKFSay7ToolKit10TypedValueO06EntityG0VG_Tg50110$s31SiriFindMySnippetProviderPlugin020PersonDisambiguationD7HandlerV13supportsAsync14systemResponse09FlowToolsr17Service0iM0OySay7d5Kit10fg3O06h30T0VGG012IntelligenceN006SystemZ15V_tYaFSbAMXEfU_Tf1cn_n
++ _$sSa10FoundationE36_unconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ
++ _$sSa31SiriFindMySnippetProviderPlugin16IntelligenceFlow14SystemResponseV0J4TypeO11DisplayItemORszlE012itemLocationJ8EntitiesSay7ToolKit10TypedValueO06EntityT0VGvg
++ _$sSa31SiriFindMySnippetProviderPlugin16IntelligenceFlow14SystemResponseV0J4TypeO11DisplayItemORszlE012itemLocationJ8EntitiesSay7ToolKit10TypedValueO06EntityT0VGvpMV
++ _$sSa31SiriFindMySnippetProviderPlugin16IntelligenceFlow14SystemResponseV0J4TypeO11DisplayItemORszlE014personLocationJ8EntitiesSay7ToolKit10TypedValueO06EntityT0VGvg
++ _$sSa31SiriFindMySnippetProviderPlugin16IntelligenceFlow14SystemResponseV0J4TypeO11DisplayItemORszlE014personLocationJ8EntitiesSay7ToolKit10TypedValueO06EntityT0VGvpMV
++ _$sSa31SiriFindMySnippetProviderPlugin16IntelligenceFlow14SystemResponseV0J4TypeO11DisplayItemORszlE04findC8EntitiesySay7ToolKit10TypedValueO06EntityS0VGSSF
++ _$sSi6offset_7ToolKit10TypedValueO06EntityE0V7elementtWOh
++ _$sSo13os_log_type_ta0A0E7defaultABvgZ
++ _$sSo14INPersonHandleCML
++ _$sSo14INPersonHandleCMa
++ _$ss12_ArrayBufferV19_getElementSlowPathyyXlSiFyXl_Ts5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5
++ _$ss18_CocoaArrayWrapperV8endIndexSivg
++ _$ss23_ContiguousArrayStorageCySSGMR
++ _$ss23_ContiguousArrayStorageCySSGMd
++ _OBJC_CLASS_$_INPersonHandle
++ _objc_msgSend$aliases
++ _objc_msgSend$personHandle
++ _objc_msgSend$value
++ _objc_release_x23
++ _objc_retain_x8
++ _swift_bridgeObjectRetain_n
++ _swift_release_x21
++ _swift_release_x22
++ _symbolic SSSg
++ _symbolic _____ 31SiriFindMySnippetProviderPlugin0bC6EntityO
++ _symbolic _____ 31SiriFindMySnippetProviderPlugin21PlaceDescriptorReaderO
++ _symbolic _____Sg 10Foundation4DateV
++ _symbolic _____Sg_ABt 10Foundation4DateV
++ _symbolic _____ySSG s23_ContiguousArrayStorageC
+- _$s10AppIntents09TransientA28EntityConvertibleIntentValueP09_ToolKit_aB0E_8databasexSg0hI005TypedG0O_AG0H8DatabaseCtYaKcfC
+- _$s10AppIntents09TransientA28EntityConvertibleIntentValueP09_ToolKit_aB0E_8databasexSg0hI005TypedG0O_AG0H8DatabaseCtYaKcfCTu
+- _$s10Foundation4DateV1loiySbAC_ACtFZ
+- _$s10Foundation4DateV20timeIntervalSinceNowACSd_tcfC
+- _$s10GeoToolbox15PlaceDescriptorV10AppIntents09TransientE28EntityConvertibleIntentValue01_ab1_eF0Mc
+- _$s10GeoToolbox15PlaceDescriptorV10commonNameSSSgvg
+- _$s10GeoToolbox15PlaceDescriptorVAC10AppIntents09TransientE28EntityConvertibleIntentValue01_ab1_eF0WL
+- _$s10GeoToolbox15PlaceDescriptorVMa
+- _$s10GeoToolbox15PlaceDescriptorVMn
+- _$s10GeoToolbox15PlaceDescriptorVSgMR
+- _$s10GeoToolbox15PlaceDescriptorVSgMd
+- _$s10SiriFindMy8LocationVSgWOc
+- _$s10SiriFindMy8SnippetsO6DeviceVSgWOc
+- _$s10SiriFindMy8SnippetsO7ContactVSgWOc
+- _$s22IntelligenceFlowShared17StructuredContextV011SiriRequestE0V11DeviceIdiomOSgWOc
+- _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV08resolvedH033_9DB998F7F5EAAB9F3F1883E5927E5AD5LL4from0abC00H0VSg7ToolKit10TypedValueO06EntityX0V_tYaF
+- _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV08resolvedH033_9DB998F7F5EAAB9F3F1883E5927E5AD5LL4from0abC00H0VSg7ToolKit10TypedValueO06EntityX0V_tYaFTQ1_
+- _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV08resolvedH033_9DB998F7F5EAAB9F3F1883E5927E5AD5LL4from0abC00H0VSg7ToolKit10TypedValueO06EntityX0V_tYaFTQ3_
+- _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV08resolvedH033_9DB998F7F5EAAB9F3F1883E5927E5AD5LL4from0abC00H0VSg7ToolKit10TypedValueO06EntityX0V_tYaFTY0_
+- _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV08resolvedH033_9DB998F7F5EAAB9F3F1883E5927E5AD5LL4from0abC00H0VSg7ToolKit10TypedValueO06EntityX0V_tYaFTY2_
+- _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV08resolvedH033_9DB998F7F5EAAB9F3F1883E5927E5AD5LL4from0abC00H0VSg7ToolKit10TypedValueO06EntityX0V_tYaFTY4_
+- _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV08resolvedH033_9DB998F7F5EAAB9F3F1883E5927E5AD5LL4from0abC00H0VSg7ToolKit10TypedValueO06EntityX0V_tYaFTY5_
+- _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV08resolvedH033_9DB998F7F5EAAB9F3F1883E5927E5AD5LL4from0abC00H0VSg7ToolKit10TypedValueO06EntityX0V_tYaFTY6_
+- _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV08resolvedH033_9DB998F7F5EAAB9F3F1883E5927E5AD5LL4from0abC00H0VSg7ToolKit10TypedValueO06EntityX0V_tYaFTu
+- _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV6handle7payload7context0A7KitFlow6Output_p04ToolM010TypedValueO06EntityR0V_0n5ToolsD7Service0dU7ContextVtYaFTQ1_
+- _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV6handle7payload7context0A7KitFlow6Output_p04ToolM010TypedValueO06EntityR0V_0n5ToolsD7Service0dU7ContextVtYaFTY2_
+- _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerVWV
+- _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerVwet
+- _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerVwst
+- _$s31SiriFindMySnippetProviderPlugin018ItemDisambiguationD7HandlerV13supportsAsync14systemResponse09FlowToolsD7Service0iM0OySay7ToolKit10TypedValueO06EntityT0VGG012IntelligenceN006SystemM0V_tYaFSbAMXEfU_
+- _$s31SiriFindMySnippetProviderPlugin020PersonDisambiguationD7HandlerV13supportsAsync14systemResponse09FlowToolsD7Service0iM0OySay7ToolKit10TypedValueO06EntityT0VGG012IntelligenceN006SystemM0V_tYaFSbAMXEfU_
+- _$s7ToolKit0A8DatabaseCACyKcfC
+- _$s7ToolKit0A8DatabaseCMa
+- _$s7ToolKit0A8DatabaseCMn
+- _$s7ToolKit10TypedValueO06EntityD0V31SiriFindMySnippetProviderPluginE022isItemLocationResponseE033_9DB998F7F5EAAB9F3F1883E5927E5AD5LLSbvg
+- _$s7ToolKit10TypedValueO06EntityD0V31SiriFindMySnippetProviderPluginE024isPersonLocationResponseE033_CAB4FD7F14967C8A129D3C40B177B859LLSbvg
+- _$s7ToolKit10TypedValueO06EntityD0V31SiriFindMySnippetProviderPluginE06personE033_CAB4FD7F14967C8A129D3C40B177B859LLAESgvgTm
+- _$s7ToolKit10TypedValueO06EntityD0V31SiriFindMySnippetProviderPluginE10commonName33_CAB4FD7F14967C8A129D3C40B177B859LLSSSgvg
+- _$s7ToolKit10TypedValueO06EntityD0V31SiriFindMySnippetProviderPluginE16resolvedLocation33_CAB4FD7F14967C8A129D3C40B177B859LLSo10CLLocationCSgvg
+- _$s7ToolKit10TypedValueO06EntityD0V31SiriFindMySnippetProviderPluginE27placemarkRepresentationKeys33_CAB4FD7F14967C8A129D3C40B177B859LL_WZTv_r
+- _$s7ToolKit10TypedValueO06EntityD0V31SiriFindMySnippetProviderPluginE7address33_CAB4FD7F14967C8A129D3C40B177B859LLSSSgvg
+- _$s7ToolKit10TypedValueOSgWOc
+- _$sSS10describingSSx_tclufC
+- _$sSccySo9MKMapItemCs5Error_pGMR
+- _$sSccySo9MKMapItemCs5Error_pGMd
+- _$sSo16MKMapItemRequestC6MapKitE15placeDescriptorAB10GeoToolbox05PlaceG0V_tcfC
+- _$sSo16MKMapItemRequestCML
+- _$sSo16MKMapItemRequestCMa
+- _$sSo9MKMapItemCSgSo7NSErrorCSgIeyBhyy_ABTz_
+- _$ss5ErrorMp
+- _$ss5ErrorWS
+- _$ss5Error_pMR
+- _$ss5Error_pMd
+- _OBJC_CLASS_$_MKMapItemRequest
+- __NSConcreteStackBlock
+- ___swift_memcpy8_8
+- ___swift_project_boxed_opaque_existential_0
+- _block_copy_helper
+- _block_descriptor
+- _block_destroy_helper
+- _objc_msgSend$address
+- _objc_msgSend$fullAddress
+- _objc_msgSend$getMapItemWithCompletionHandler:
+- _objc_msgSend$name
+- _objc_release_x26
+- _objc_retain_x20
+- _objc_retain_x21
+- _swift_allocError
+- _swift_continuation_await
+- _swift_continuation_init
+- _swift_continuation_throwingResume
+- _swift_continuation_throwingResumeWithError
+- _swift_cvw_assignWithCopy
+- _swift_cvw_assignWithTake
+- _swift_cvw_destroy
+- _swift_cvw_initWithCopy
+- _swift_cvw_initializeBufferWithCopyOfBuffer
+- _swift_errorRelease
+- _swift_errorRetain
+- _swift_release_x27
+- _swift_retain_x19
+- _swift_willThrow
+- _symbolic SccySo9MKMapItemC______pG s5ErrorP
+- _symbolic _____Sg 10GeoToolbox15PlaceDescriptorV
+- _symbolic _____Sg 7ToolKit0A8DatabaseC
+- _symbolic ______p s5ErrorP
+- _type_layout_string 31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV
+CStrings:
++ "FindPersonLocationSnippetHandler.supportsAsync: couldn't find any person location response; returning .unsupported"
++ "FindPersonLocationSnippetHandler: no contact handle on the 'person' property; punching out to the People tab"
++ "ItemLocationSnippetHandler.supportsAsync: couldn't find any item location response; returning .unsupported"
++ "ItemLocationSnippetHandler: no 'isItem' on the ItemEntity; falling back to a bundle-only launch"
++ "ItemLocationSnippetHandler: no deviceLocation on the descriptor; the card's age falls back to the coordinate's restamped time and will read 'Now'"
++ "ItemLocationSnippetHandler: no resolved coordinate found in the location's representations"
++ "PersonLocationResponse: Missing or invalid 'location' property"
++ "PersonLocationResponse: no deviceLocation on the descriptor; the card's age falls back to the coordinate's restamped time and will read 'Now'"
++ "aliases"
++ "com.apple.findmy."
++ "personHandle"
++ "value"
+- "FindPersonLocationSnippetHandler.supportsAsync: returning .unsupported"
+- "ItemLocationSnippetHandler.supportsAsync: returning .unsupported"
+- "ItemLocationSnippetHandler: could not convert the 'location' TypedValue to a PlaceDescriptor"
+- "ItemLocationSnippetHandler: failed to resolve the location: %s"
+- "ItemLocationSnippetHandler: no ToolDatabase; cannot convert the location"
+- "PersonLocationResponse: 'location' entity has no 'representations' collection"
+- "address"
+- "fullAddress"
+- "getMapItemWithCompletionHandler:"
+- "name"
+- "v24@?0@\"MKMapItem\"8@\"NSError\"16"
+```

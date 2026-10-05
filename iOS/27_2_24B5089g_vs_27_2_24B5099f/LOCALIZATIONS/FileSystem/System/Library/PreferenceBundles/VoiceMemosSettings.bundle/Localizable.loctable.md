@@ -1,0 +1,11 @@
+## VoiceMemosSettings
+
+> `FileSystem/System/Library/PreferenceBundles/VoiceMemosSettings.bundle/Localizable.loctable`
+
+```diff
+
++en.AUDIO_INPUT_DESCRIPTION_STUDIO = "AUDIO_INPUT_DESCRIPTION_STUDIO"
+ en.SETTINGS_NAVIGATION_DONATION_SUBTITLE = "SETTINGS_NAVIGATION_DONATION_SUBTITLE"
+ en.VOICE_MEMOS_APP_NAME = "VOICE_MEMOS_APP_NAME"
+
+```

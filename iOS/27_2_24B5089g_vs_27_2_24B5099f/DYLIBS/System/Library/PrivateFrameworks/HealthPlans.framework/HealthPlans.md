@@ -1,0 +1,228 @@
+## HealthPlans
+
+> `/System/Library/PrivateFrameworks/HealthPlans.framework/HealthPlans`
+
+```diff
+
+-7027.1.45.2.4
+-  __TEXT.__text: 0xa9214
+-  __TEXT.__objc_methlist: 0xb4
+-  __TEXT.__const: 0xbcb6
+-  __TEXT.__cstring: 0x1576
+-  __TEXT.__swift5_typeref: 0x17bd
+-  __TEXT.__swift5_fieldmd: 0x262c
+-  __TEXT.__constg_swiftt: 0x2024
+-  __TEXT.__swift5_reflstr: 0x1821
++7027.1.54.2.3
++  __TEXT.__text: 0xb169c
++  __TEXT.__objc_methlist: 0x2c
++  __TEXT.__const: 0xc5d6
++  __TEXT.__cstring: 0x1586
++  __TEXT.__constg_swiftt: 0x215c
++  __TEXT.__swift5_typeref: 0x18b1
++  __TEXT.__swift5_reflstr: 0x19c1
++  __TEXT.__swift5_fieldmd: 0x27dc
+   __TEXT.__swift5_builtin: 0x64
+-  __TEXT.__swift5_assocty: 0x390
+-  __TEXT.__oslogstring: 0x626
++  __TEXT.__swift5_assocty: 0x3c0
++  __TEXT.__swift5_proto: 0xc54
++  __TEXT.__swift5_types: 0x354
++  __TEXT.__oslogstring: 0x8f6
+   __TEXT.__swift5_protos: 0x40
+-  __TEXT.__swift5_proto: 0xbc8
+-  __TEXT.__swift5_types: 0x330
+   __TEXT.__swift5_mpenum: 0x20
+-  __TEXT.__swift_as_entry: 0x194
+-  __TEXT.__swift_as_ret: 0x168
+-  __TEXT.__swift_as_cont: 0x1fc
+-  __TEXT.__swift5_capture: 0xe4
+-  __TEXT.__unwind_info: 0x3e08
+-  __TEXT.__eh_frame: 0x4b58
++  __TEXT.__swift_as_entry: 0x1cc
++  __TEXT.__swift_as_ret: 0x190
++  __TEXT.__swift_as_cont: 0x238
++  __TEXT.__swift5_capture: 0x144
++  __TEXT.__unwind_info: 0x4118
++  __TEXT.__eh_frame: 0x51b8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x110
+-  __DATA_CONST.__objc_classlist: 0x40
+-  __DATA_CONST.__objc_protolist: 0x20
++  __DATA_CONST.__objc_classlist: 0x38
++  __DATA_CONST.__objc_protolist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x178
+-  __DATA_CONST.__objc_protorefs: 0x10
++  __DATA_CONST.__objc_selrefs: 0x170
++  __DATA_CONST.__objc_protorefs: 0x8
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x5d30
+-  __AUTH_CONST.__objc_const: 0x650
+-  __AUTH_CONST.__auth_got: 0xf90
+-  __AUTH.__objc_data: 0x160
+-  __AUTH.__data: 0x1a10
+-  __DATA.__data: 0x2808
++  __AUTH_CONST.__const: 0x6268
++  __AUTH_CONST.__objc_const: 0x610
++  __AUTH_CONST.__auth_got: 0xfa8
++  __AUTH.__objc_data: 0xa0
++  __AUTH.__data: 0x1b88
++  __DATA.__data: 0x28e0
+   __DATA_DIRTY.__data: 0x28
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 4349
+-  Symbols:   1004
+-  CStrings:  193
++  Functions: 4529
++  Symbols:   1020
++  CStrings:  205
+ 
+Symbols:
++ _OBJC_CLASS_$__HKBehavior
++ __DATA__TtC11HealthPlans28ActionSuggestionAvailability
++ __IVARS__TtC11HealthPlans28ActionSuggestionAvailability
++ __METACLASS_DATA__TtC11HealthPlans28ActionSuggestionAvailability
++ _associated conformance 11HealthPlans16ActionSuggestionO27CachedLocationConfigurationV10CodingKeys33_A13CB88EAB5C04139B9651F21EE47568LLOSHAASQ
++ _associated conformance 11HealthPlans16ActionSuggestionO27CachedLocationConfigurationV10CodingKeys33_A13CB88EAB5C04139B9651F21EE47568LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 11HealthPlans16ActionSuggestionO27CachedLocationConfigurationV10CodingKeys33_A13CB88EAB5C04139B9651F21EE47568LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11HealthPlans30ActionSuggestionActivityStatusOSHAASQ
++ _associated conformance 11HealthPlans35LegacyActionSuggestionFeatureStatusV10CodingKeys33_1305B051866CF7C4C1292C89F91A9B60LLOSHAASQ
++ _associated conformance 11HealthPlans35LegacyActionSuggestionFeatureStatusV10CodingKeys33_1305B051866CF7C4C1292C89F91A9B60LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 11HealthPlans35LegacyActionSuggestionFeatureStatusV10CodingKeys33_1305B051866CF7C4C1292C89F91A9B60LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11HealthPlans35LegacyActionSuggestionFeatureStatusV5StateO10CodingKeys33_1305B051866CF7C4C1292C89F91A9B60LLOSHAASQ
++ _associated conformance 11HealthPlans35LegacyActionSuggestionFeatureStatusV5StateO10CodingKeys33_1305B051866CF7C4C1292C89F91A9B60LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 11HealthPlans35LegacyActionSuggestionFeatureStatusV5StateO10CodingKeys33_1305B051866CF7C4C1292C89F91A9B60LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11HealthPlans35LegacyActionSuggestionFeatureStatusV5StateO17EnabledCodingKeys33_1305B051866CF7C4C1292C89F91A9B60LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 11HealthPlans35LegacyActionSuggestionFeatureStatusV5StateO17EnabledCodingKeys33_1305B051866CF7C4C1292C89F91A9B60LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11HealthPlans35LegacyActionSuggestionFeatureStatusV5StateO18DisabledCodingKeys33_1305B051866CF7C4C1292C89F91A9B60LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 11HealthPlans35LegacyActionSuggestionFeatureStatusV5StateO18DisabledCodingKeys33_1305B051866CF7C4C1292C89F91A9B60LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11HealthPlans35LegacyActionSuggestionFeatureStatusV5StateO23NotDeterminedCodingKeys33_1305B051866CF7C4C1292C89F91A9B60LLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 11HealthPlans35LegacyActionSuggestionFeatureStatusV5StateO23NotDeterminedCodingKeys33_1305B051866CF7C4C1292C89F91A9B60LLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11HealthPlans35LegacyActionSuggestionFeatureStatusV5StateOSHAASQ
++ _associated conformance 11HealthPlans35LegacyActionSuggestionFeatureStatusVSHAASQ
++ _associated conformance 11HealthPlans36StoredActionSuggestionActivityStatusV10CodingKeys33_1305B051866CF7C4C1292C89F91A9B60LLOSHAASQ
++ _associated conformance 11HealthPlans36StoredActionSuggestionActivityStatusV10CodingKeys33_1305B051866CF7C4C1292C89F91A9B60LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 11HealthPlans36StoredActionSuggestionActivityStatusV10CodingKeys33_1305B051866CF7C4C1292C89F91A9B60LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11HealthPlans36StoredActionSuggestionActivityStatusVSHAASQ
++ _get_enum_tag_for_layout_string 11HealthPlans28ActionSuggestionAvailabilityC6Source33_0391CF40E0E5D5C1C990372953A60B82LLVSg
++ _swift_release_x1
++ _swift_retain_x1
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x28
++ _symbolic $s11HealthPlans39ActionSuggestionActivityStatusProvidingP
++ _symbolic $s11HealthPlans39ActionSuggestionActivityStatusRecordingP
++ _symbolic SbSo13HKHealthStoreCYaYbc
++ _symbolic Sb_____Ybc 10Foundation6LocaleV
++ _symbolic SbyYbc
++ _symbolic _____ 11HealthPlans16ActionSuggestionO27CachedLocationConfigurationV
++ _symbolic _____ 11HealthPlans16ActionSuggestionO27CachedLocationConfigurationV10CodingKeys33_A13CB88EAB5C04139B9651F21EE47568LLO
++ _symbolic _____ 11HealthPlans28ActionSuggestionAvailabilityC
++ _symbolic _____ 11HealthPlans28ActionSuggestionAvailabilityC5State33_0391CF40E0E5D5C1C990372953A60B82LLV
++ _symbolic _____ 11HealthPlans28ActionSuggestionAvailabilityC6Source33_0391CF40E0E5D5C1C990372953A60B82LLV
++ _symbolic _____ 11HealthPlans30ActionSuggestionActivityStatusO
++ _symbolic _____ 11HealthPlans35LegacyActionSuggestionFeatureStatusV
++ _symbolic _____ 11HealthPlans35LegacyActionSuggestionFeatureStatusV10CodingKeys33_1305B051866CF7C4C1292C89F91A9B60LLO
++ _symbolic _____ 11HealthPlans35LegacyActionSuggestionFeatureStatusV5StateO
++ _symbolic _____ 11HealthPlans35LegacyActionSuggestionFeatureStatusV5StateO10CodingKeys33_1305B051866CF7C4C1292C89F91A9B60LLO
++ _symbolic _____ 11HealthPlans35LegacyActionSuggestionFeatureStatusV5StateO17EnabledCodingKeys33_1305B051866CF7C4C1292C89F91A9B60LLO
++ _symbolic _____ 11HealthPlans35LegacyActionSuggestionFeatureStatusV5StateO18DisabledCodingKeys33_1305B051866CF7C4C1292C89F91A9B60LLO
++ _symbolic _____ 11HealthPlans35LegacyActionSuggestionFeatureStatusV5StateO23NotDeterminedCodingKeys33_1305B051866CF7C4C1292C89F91A9B60LLO
++ _symbolic _____ 11HealthPlans36StoredActionSuggestionActivityStatusV
++ _symbolic _____ 11HealthPlans36StoredActionSuggestionActivityStatusV10CodingKeys33_1305B051866CF7C4C1292C89F91A9B60LLO
++ _symbolic _____ 11HealthPlans38ActionSuggestionActivityStatusProviderV
++ _symbolic _____ 11HealthPlans38ActionSuggestionActivityStatusRecorderV
++ _symbolic _____Sg 11HealthPlans16ActionSuggestionO8LocationV
++ _symbolic _____Sg 11HealthPlans28ActionSuggestionAvailabilityC6Source33_0391CF40E0E5D5C1C990372953A60B82LLV
++ _symbolic ______p5error______22retryTaskConfigurationt s5ErrorP 11HealthPlans16ActionSuggestionO27GenerationTaskConfigurationV
++ _symbolic _____yYbc 10Foundation4DateV
++ _symbolic _____yYbc 10Foundation6LocaleV
++ _symbolic _____y_____G 15Synchronization5MutexVAARi_zrlE 11HealthPlans28ActionSuggestionAvailabilityC5State33_0391CF40E0E5D5C1C990372953A60B82LLV
++ _type_layout_string 11HealthPlans28ActionSuggestionAvailabilityC5State33_0391CF40E0E5D5C1C990372953A60B82LLV
++ _type_layout_string 11HealthPlans28ActionSuggestionAvailabilityC6Source33_0391CF40E0E5D5C1C990372953A60B82LLV
++ _type_layout_string 11HealthPlans38ActionSuggestionActivityStatusProviderV
++ _type_layout_string 11HealthPlans38ActionSuggestionActivityStatusRecorderV
+- _OBJC_CLASS_$_HKAnalyticsEventSubmissionManager
+- _OBJC_CLASS_$__TtC11HealthPlans32SuggestionsDailyHKAnalyticsEvent
+- _OBJC_METACLASS_$_NSObject
+- _OBJC_METACLASS_$__TtC11HealthPlans32SuggestionsDailyHKAnalyticsEvent
+- __Block_copy
+- __Block_release
+- __DATA__TtC11HealthPlans32SuggestionsDailyAnalyticsManager
+- __DATA__TtC11HealthPlans32SuggestionsDailyHKAnalyticsEvent
+- __INSTANCE_METHODS__TtC11HealthPlans32SuggestionsDailyHKAnalyticsEvent
+- __IVARS__TtC11HealthPlans32SuggestionsDailyAnalyticsManager
+- __IVARS__TtC11HealthPlans32SuggestionsDailyHKAnalyticsEvent
+- __METACLASS_DATA__TtC11HealthPlans32SuggestionsDailyAnalyticsManager
+- __METACLASS_DATA__TtC11HealthPlans32SuggestionsDailyHKAnalyticsEvent
+- __OBJC_$_PROP_LIST_HKAnalyticsEvent
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_HKAnalyticsEvent
+- __OBJC_$_PROTOCOL_METHOD_TYPES_HKAnalyticsEvent
+- __OBJC_LABEL_PROTOCOL_$_HKAnalyticsEvent
+- __OBJC_PROTOCOL_$_HKAnalyticsEvent
+- __PROPERTIES__TtC11HealthPlans32SuggestionsDailyHKAnalyticsEvent
+- __PROTOCOLS__TtC11HealthPlans32SuggestionsDailyHKAnalyticsEvent
+- ___swift_memcpy49_8
+- __swift_stdlib_reportUnimplementedInitializer
+- _associated conformance 11HealthPlans16ActionSuggestionO21LocationAuthorizationO04DenyE10CodingKeys33_B7FD96A3792873346A00D052D25FDDAFLLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 11HealthPlans16ActionSuggestionO21LocationAuthorizationO04DenyE10CodingKeys33_B7FD96A3792873346A00D052D25FDDAFLLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 11HealthPlans16ActionSuggestionO21LocationAuthorizationO05AllowE10CodingKeys33_B7FD96A3792873346A00D052D25FDDAFLLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 11HealthPlans16ActionSuggestionO21LocationAuthorizationO05AllowE10CodingKeys33_B7FD96A3792873346A00D052D25FDDAFLLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 11HealthPlans16ActionSuggestionO21LocationAuthorizationO0E21UnavailableCodingKeys33_B7FD96A3792873346A00D052D25FDDAFLLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 11HealthPlans16ActionSuggestionO21LocationAuthorizationO0E21UnavailableCodingKeys33_B7FD96A3792873346A00D052D25FDDAFLLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 11HealthPlans16ActionSuggestionO21LocationAuthorizationO10CodingKeys33_B7FD96A3792873346A00D052D25FDDAFLLOSHAASQ
+- _associated conformance 11HealthPlans16ActionSuggestionO21LocationAuthorizationO10CodingKeys33_B7FD96A3792873346A00D052D25FDDAFLLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 11HealthPlans16ActionSuggestionO21LocationAuthorizationO10CodingKeys33_B7FD96A3792873346A00D052D25FDDAFLLOs0G3KeyAAs28CustomDebugStringConvertible
+- _objc_autoreleaseReturnValue
+- _objc_msgSendSuper2
+- _objc_release
+- _swift_retain_x2
+- _symbolic $s11HealthPlans33SuggestionsDailyAnalyticsManagingP
+- _symbolic $s11HealthPlans38ActionSuggestionFeatureStatusRecordingP
+- _symbolic So33HKAnalyticsEventSubmissionManagerC
+- _symbolic So8NSObjectC
+- _symbolic _____ 11HealthPlans16ActionSuggestionO21LocationAuthorizationO04DenyE10CodingKeys33_B7FD96A3792873346A00D052D25FDDAFLLO
+- _symbolic _____ 11HealthPlans16ActionSuggestionO21LocationAuthorizationO05AllowE10CodingKeys33_B7FD96A3792873346A00D052D25FDDAFLLO
+- _symbolic _____ 11HealthPlans16ActionSuggestionO21LocationAuthorizationO0E21UnavailableCodingKeys33_B7FD96A3792873346A00D052D25FDDAFLLO
+- _symbolic _____ 11HealthPlans16ActionSuggestionO21LocationAuthorizationO10CodingKeys33_B7FD96A3792873346A00D052D25FDDAFLLO
+- _symbolic _____ 11HealthPlans32SuggestionsDailyAnalyticsManagerC
+- _symbolic _____ 11HealthPlans32SuggestionsDailyHKAnalyticsEventC
+- _symbolic _____ 11HealthPlans36NoOpSuggestionsDailyAnalyticsManagerV
+- _symbolic _____ 11HealthPlans37ActionSuggestionFeatureStatusRecorderV
+- _symbolic _____Sg 11HealthPlans16ActionSuggestionO11PreferencesV
+CStrings:
++ "[%{public}s] Action suggestion availability source registered"
++ "[%{public}s] Action suggestions are not supported on iPad"
++ "[%{public}s] Apple-internal non-seed build; allowing every locale the model supports"
++ "[%{public}s] Health app not available on this device"
++ "[%{public}s] Intelligent configuration unavailable"
++ "[%{public}s] No action suggestion availability source registered; treating as unavailable"
++ "[%{public}s] No age available; treating as ineligible"
++ "[%{public}s] Replacing the registered action suggestion availability source"
++ "[%{public}s] Suggestions model available, but locale is not one this build ships in: %{public}s"
++ "[%{public}s] Suggestions model not available for locale: %{public}s"
++ "allowLocation"
++ "cachedLocation"
++ "denyLocation"
++ "error retryTaskConfiguration "
++ "inMemoryLocation"
++ "inactive"
++ "location: allowed (cached)"
++ "location: allowed (not cached)"
+- "Failed to submit daily analytics event: %@"
+- "HealthPlans.SuggestionsDailyHKAnalyticsEvent"
+- "com.apple.health.HealthApp.daily"
+- "init()"
+- "location: unavailable"
+- "locationAuthorization"
+```
