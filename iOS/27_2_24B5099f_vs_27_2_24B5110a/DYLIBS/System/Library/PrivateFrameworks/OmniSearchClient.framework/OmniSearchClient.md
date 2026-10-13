@@ -1,0 +1,123 @@
+## OmniSearchClient
+
+> `/System/Library/PrivateFrameworks/OmniSearchClient.framework/OmniSearchClient`
+
+```diff
+
+-3605.31.1.0.0
+-  __TEXT.__text: 0x3e768
++3605.32.1.11.5
++  __TEXT.__text: 0x40efc
+   __TEXT.__objc_methlist: 0x38
+-  __TEXT.__const: 0x18e8
+-  __TEXT.__swift5_typeref: 0xbd3
+-  __TEXT.__cstring: 0x56f
+-  __TEXT.__oslogstring: 0x1133
+-  __TEXT.__swift5_capture: 0x7d4
++  __TEXT.__const: 0x18f8
++  __TEXT.__swift5_typeref: 0xbdb
++  __TEXT.__cstring: 0x5cf
++  __TEXT.__oslogstring: 0x1183
++  __TEXT.__swift5_capture: 0x804
+   __TEXT.__swift5_fieldmd: 0x690
+   __TEXT.__constg_swiftt: 0x550
+   __TEXT.__swift5_reflstr: 0x4f3
+
+   __TEXT.__swift_as_ret: 0xd4
+   __TEXT.__swift_as_cont: 0x180
+   __TEXT.__swift5_assocty: 0xa8
+-  __TEXT.__unwind_info: 0x1138
++  __TEXT.__unwind_info: 0x1158
+   __TEXT.__eh_frame: 0x1ec8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+
+   __DATA_CONST.__objc_selrefs: 0xb0
+   __DATA_CONST.__objc_protorefs: 0x10
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x1c08
++  __AUTH_CONST.__const: 0x1cd0
+   __AUTH_CONST.__objc_const: 0x378
+-  __AUTH_CONST.__auth_got: 0x1358
++  __AUTH_CONST.__auth_got: 0x13e0
+   __AUTH.__data: 0x1e8
+   __DATA.__data: 0x438
+   __DATA.__common: 0x1
+-  __DATA_DIRTY.__data: 0xbe8
++  __DATA_DIRTY.__data: 0xc00
+   __DATA_DIRTY.__common: 0x50
+   __DATA_DIRTY.__bss: 0x180
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 1844
+-  Symbols:   3824
+-  CStrings:  103
++  Functions: 1863
++  Symbols:   3865
++  CStrings:  107
+ 
+Symbols:
++ _$s017_MediaIntents_AppB035HomeDeviceGroupRepresentationEntityV16OmniSearchClientE19hierarchyReferences33_822FCCD8EBEAC6757A0481DB5D55ABFALL4from9excludingSayAA0defg15SpotlightResultH0VG5rooms_AK5zonesSi019resultsWithPrebuiltH0tSay0iJ00jW0VG_AKtFZ
++ _$s017_MediaIntents_AppB050HomeDeviceGroupRepresentationSpotlightResultEntityV24entityInstanceIdentifierSSvg
++ _$s10OmniSearch0B6ResultV18prebuiltTypedValue7ToolKit0eF0OSgvg
++ _$s10OmniSearch14GlobalResponseV13appIntentData10PegasusAPI026Apple_Parsec_Siri_V2alpha_h3AppfG0VSgvg
++ _$s10OmniSearch18FeatureFlagServiceC0cD0O07homeKitbE0yA2EmFWC
++ _$s10OmniSearch18FeatureFlagServiceC0cD0OMa
++ _$s10OmniSearch18FeatureFlagServiceC9isEnabledySbAC0cD0OFTj
++ _$s10OmniSearch18FeatureFlagServiceCACycfc
++ _$s10OmniSearch18FeatureFlagServiceCMa
++ _$s10OmniSearch20EntityTypeIdentifierV04roomC0SSvgZ
++ _$s10OmniSearch20EntityTypeIdentifierV04zoneC0SSvgZ
++ _$s10OmniSearch8BundleIdO4homeSSvgZ
++ _$s10PegasusAPI026Apple_Parsec_Siri_V2alpha_A13AppIntentDataVMa
++ _$s10PegasusAPI026Apple_Parsec_Siri_V2alpha_A13AppIntentDataVMn
++ _$s10PegasusAPI026Apple_Parsec_Siri_V2alpha_A13AppIntentDataVSgMR
++ _$s10PegasusAPI026Apple_Parsec_Siri_V2alpha_A13AppIntentDataVSgMd
++ _$s15OmniSearchTypes19LLMSearchResultListV10identifier6source11snippetType0I06dialog14resultMetadata7results24isDisambiguationResponse08responseJ014forceBatchFlow04userpJ013appIntentDataACSS_AC0B6SourceOAC07SnippetJ0OSo6SFCardCSgAA0B10ToolDialogVSgSDyS2SGSayAA0dE0VGSbAA0qJ0OSb10PegasusAPI035Apple_Parsec_Siri_V2alpha_MultiUserQ7ContextV018UserIdentificationJ0OSgA4_036Apple_Parsec_Siri_V2alpha_PegasusAppxY0VSgtcfC
++ _$s15OmniSearchTypes19LLMSearchResultListV10identifier6source11snippetType0I06dialog14resultMetadata7results24isDisambiguationResponse08responseJ014forceBatchFlow04userpJ013appIntentDataACSS_AC0B6SourceOAC07SnippetJ0OSo6SFCardCSgAA0B10ToolDialogVSgSDyS2SGSayAA0dE0VGSbAA0qJ0OSb10PegasusAPI035Apple_Parsec_Siri_V2alpha_MultiUserQ7ContextV018UserIdentificationJ0OSgA4_036Apple_Parsec_Siri_V2alpha_PegasusAppxY0VSgtcfcfA7_
++ _$s15OmniSearchTypes19LLMSearchResultListV10identifier6source11snippetType0I06dialog14resultMetadata7results24isDisambiguationResponse08responseJ014forceBatchFlow04userpJ013appIntentDataACSS_AC0B6SourceOAC07SnippetJ0OSo6SFCardCSgAA0B10ToolDialogVSgSDyS2SGSayAA0dE0VGSbAA0qJ0OSb10PegasusAPI035Apple_Parsec_Siri_V2alpha_MultiUserQ7ContextV018UserIdentificationJ0OSgA4_036Apple_Parsec_Siri_V2alpha_PegasusAppxY0VSgtcfcfA8_
++ _$s16OmniSearchClient09LLMSearchC0C24constructLocalResultList___5query_0aB5Types0dgH0VSg0aB00aB8ResponseC_AA0D7OptionsV7ToolKit0M8DatabaseCSSSgSayAJ0B20EntityTypeConstraintOGtYaKFSiycfu5_
++ _$s16OmniSearchClient09LLMSearchC0C24constructLocalResultList___5query_0aB5Types0dgH0VSg0aB00aB8ResponseC_AA0D7OptionsV7ToolKit0M8DatabaseCSSSgSayAJ0B20EntityTypeConstraintOGtYaKFSiycfu5_TA
++ _$s16OmniSearchClient16LLMSearchOptionsV27shouldKeepUngroupedEntitiesSbyFTv_r
++ _$s7ToolKit10TypedValueO010CollectionD0V6valuesSayACGvg
++ _$s7ToolKit10TypedValueO010CollectionD0VMa
++ _$s7ToolKit10TypedValueO10collectionyA2C010CollectionD0VcACmFWC
++ _$sSh10isDisjoint4withSbShyxG_tFSS_Tg5
++ _$sSh15minimumCapacityShyxGSi_tcfC
++ _$sSh8_VariantV6insertySb8inserted_x17memberAfterInserttxnFSS_Tg5
++ _$sShyShyxGqd__nc7ElementQyd__RszSTRd__lufCSS_SaySSGTt0g5
++ _$ss10_NativeSetV13copyAndResize8capacityySi_tFSS_Tg5
++ _$ss10_NativeSetV4copyyyFSS_Tg5
++ _$ss10_NativeSetV6resize8capacityySi_tFSS_Tg5
++ _$ss10_NativeSetV9insertNew_2at8isUniqueyxn_s10_HashTableV6BucketVSbtFSS_Tg5
++ _$ss11_SetStorageC4copy8originalAByxGs05__RawaB0C_tFZ
++ _$ss11_SetStorageC6resize8original8capacity4moveAByxGs05__RawaB0C_SiSbtFZ
++ _$ss50ELEMENT_TYPE_OF_SET_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzlTRSi_15OmniSearchTypes15LLMSearchResultVSgt_Tg5TA.500TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzlTRSi_15OmniSearchTypes15LLMSearchResultVSgt_Tg5TA.500Tu
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzlTRSi_15OmniSearchTypes15LLMSearchResultVSgt_Tg5TA.511TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzlTRSi_15OmniSearchTypes15LLMSearchResultVSgt_Tg5TA.511Tu
++ _OUTLINED_FUNCTION_551
++ _OUTLINED_FUNCTION_552
++ _OUTLINED_FUNCTION_553
++ _OUTLINED_FUNCTION_554
++ _OUTLINED_FUNCTION_555
++ _OUTLINED_FUNCTION_556
++ _OUTLINED_FUNCTION_557
++ _symbolic _____Sg 10PegasusAPI026Apple_Parsec_Siri_V2alpha_A13AppIntentDataV
+- _$s15OmniSearchTypes19LLMSearchResultListV10identifier6source11snippetType0I06dialog14resultMetadata7results24isDisambiguationResponse08responseJ014forceBatchFlow04userpJ0ACSS_AC0B6SourceOAC07SnippetJ0OSo6SFCardCSgAA0B10ToolDialogVSgSDyS2SGSayAA0dE0VGSbAA0qJ0OSb10PegasusAPI035Apple_Parsec_Siri_V2alpha_MultiUserQ7ContextV018UserIdentificationJ0OSgtcfC
+- _$s15OmniSearchTypes19LLMSearchResultListV10identifier6source11snippetType0I06dialog14resultMetadata7results24isDisambiguationResponse08responseJ014forceBatchFlow04userpJ0ACSS_AC0B6SourceOAC07SnippetJ0OSo6SFCardCSgAA0B10ToolDialogVSgSDyS2SGSayAA0dE0VGSbAA0qJ0OSb10PegasusAPI035Apple_Parsec_Siri_V2alpha_MultiUserQ7ContextV018UserIdentificationJ0OSgtcfcfA7_
+- _$s15OmniSearchTypes19LLMSearchResultListV10identifier6source11snippetType0I06dialog14resultMetadata7results24isDisambiguationResponse08responseJ014forceBatchFlow04userpJ0ACSS_AC0B6SourceOAC07SnippetJ0OSo6SFCardCSgAA0B10ToolDialogVSgSDyS2SGSayAA0dE0VGSbAA0qJ0OSb10PegasusAPI035Apple_Parsec_Siri_V2alpha_MultiUserQ7ContextV018UserIdentificationJ0OSgtcfcfA8_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzlTRSi_15OmniSearchTypes15LLMSearchResultVSgt_Tg5TA.488TQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzlTRSi_15OmniSearchTypes15LLMSearchResultVSgt_Tg5TA.488Tu
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzlTRSi_15OmniSearchTypes15LLMSearchResultVSgt_Tg5TA.499TQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzlTRSi_15OmniSearchTypes15LLMSearchResultVSgt_Tg5TA.499Tu
+CStrings:
++ "HomeDeviceEntity"
++ "IntercomDestinationEntity"
++ "IntercomHomeEntity"
++ "[LLMSearchClient] Keep %ld results as singles for non-play tools"
+```

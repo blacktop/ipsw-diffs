@@ -1,0 +1,104 @@
+## LockdownModeUI
+
+> `/System/Library/PrivateFrameworks/LockdownModeUI.framework/LockdownModeUI`
+
+```diff
+
+ 128.40.5.0.0
+-  __TEXT.__text: 0x17b0c
++  __TEXT.__text: 0x17e7c
+   __TEXT.__objc_methlist: 0x1ec
+   __TEXT.__const: 0xfa4
+   __TEXT.__swift5_typeref: 0x2d44
+
+   __TEXT.__swift_as_entry: 0x28
+   __TEXT.__swift_as_ret: 0x24
+   __TEXT.__swift_as_cont: 0x40
+-  __TEXT.__unwind_info: 0x8c0
++  __TEXT.__unwind_info: 0x8f0
+   __TEXT.__eh_frame: 0x884
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x228
+   __DATA_CONST.__objc_protorefs: 0x30
+-  __DATA_CONST.__got: 0x3f8
++  __DATA_CONST.__got: 0x420
+   __AUTH_CONST.__const: 0x508
+   __AUTH_CONST.__objc_const: 0x480
+   __AUTH_CONST.__auth_got: 0x9e8
+   __AUTH.__objc_data: 0x170
+-  __AUTH.__data: 0x3b8
+-  __DATA.__data: 0x990
++  __AUTH.__data: 0x3c0
++  __DATA.__data: 0x9f8
+   __DATA.__common: 0x48
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+   - /System/Library/Frameworks/ContactsUI.framework/ContactsUI
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 537
+-  Symbols:   1841
++  Functions: 547
++  Symbols:   1867
+   CStrings:  71
+ 
+Symbols:
++ _$s7SwiftUI12_FrameLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI12_FrameLayoutVAcA12ViewModifierAAWL
++ _$s7SwiftUI12_FrameLayoutVAcA12ViewModifierAAWl
++ _$s7SwiftUI12_FrameLayoutVN
++ _$s7SwiftUI14_PaddingLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI14_PaddingLayoutVAcA12ViewModifierAAWL
++ _$s7SwiftUI14_PaddingLayoutVAcA12ViewModifierAAWl
++ _$s7SwiftUI14_PaddingLayoutVN
++ _$s7SwiftUI15ModifiedContentVyACyAA4ViewPAAE10labelStyleyQrqd__AA05LabelG0Rd__lFQOyAA0H0VyAA4TextVAA5ImageVG_012LockdownModeB0014LMUIHorizontalhG0VQo_AA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGAA16_FlexFrameLayoutVGACyxq_GAad2aDRzAA0eQ0R_rlWlTm
++ _$s7SwiftUI15ModifiedContentVyACyAA4ViewPAAE20listSectionSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQOyAA0G0VyAA05EmptyE0VACyAeAE0f3RowH0_AGQrAI_AMtFQOyACyACyAA6VStackVyATyAA05TupleD0VyACyAA4TextVAA16_FixedSizeLayoutVG_A_QPGGGAA21_TraitWritingModifierVyAA04Listo6InsetsV3KeyVGGAA010_FlexFrameU0VG_Qo_A4_yAA0yo10BackgroundV3KeyVGGAQG_Qo_A4_yAA0yg7SpacingV3KeyVGGAA015_EnvironmentKeywX0VyAA0yG7SpacingVSgGGACyxq_GAad2aDRzAA0eX0R_rlWlTm
++ _$s7SwiftUI16_FixedSizeLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI16_FixedSizeLayoutVAcA12ViewModifierAAWL
++ _$s7SwiftUI16_FixedSizeLayoutVAcA12ViewModifierAAWl
++ _$s7SwiftUI16_FixedSizeLayoutVN
++ _$s7SwiftUI16_FlexFrameLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI16_FlexFrameLayoutVAcA12ViewModifierAAWL
++ _$s7SwiftUI16_FlexFrameLayoutVAcA12ViewModifierAAWl
++ _$s7SwiftUI16_FlexFrameLayoutVN
++ _$s7SwiftUI18_AspectRatioLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI18_AspectRatioLayoutVAcA12ViewModifierAAWL
++ _$s7SwiftUI18_AspectRatioLayoutVAcA12ViewModifierAAWl
++ _$s7SwiftUI18_AspectRatioLayoutVN
++ _$s7SwiftUI22HierarchicalShapeStyleVAA0dE0AAMc
++ _$s7SwiftUI22HierarchicalShapeStyleVAcA0dE0AAWL
++ _$s7SwiftUI22HierarchicalShapeStyleVAcA0dE0AAWl
++ _$s7SwiftUI4TextVAA4ViewAAMc
++ _$s7SwiftUI4TextVAcA4ViewAAWL
++ _$s7SwiftUI4TextVAcA4ViewAAWl
++ _$s7SwiftUI5ColorVAA4ViewAAMc
++ _$s7SwiftUI5ColorVAcA4ViewAAWL
++ _$s7SwiftUI5ColorVAcA4ViewAAWl
++ _$s7SwiftUI5ImageVAA4ViewAAMc
++ _$s7SwiftUI5ImageVAcA4ViewAAWL
++ _$s7SwiftUI5ImageVAcA4ViewAAWl
++ _$s7SwiftUI9EmptyViewVAA0D0AAMc
++ _$s7SwiftUI9EmptyViewVAcA0D0AAWL
++ _$s7SwiftUI9EmptyViewVAcA0D0AAWl
++ _$ss5NeverO7SwiftUI4ViewACMc
++ _$ss5NeverOAB7SwiftUI4ViewACWL
++ _$ss5NeverOAB7SwiftUI4ViewACWl
+- _$s7SwiftUI12_FrameLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI14_PaddingLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI15ModifiedContentVyACyAA4ViewPAAE15navigationTitleyQrAA4TextVFQOyAA4ListVys5NeverOAA05TupleD0VyACyACyAeAE20listSectionSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQOyAA0M0VyAA05EmptyE0VACyAeAE0l3RowN0_APQrAR_AVtFQOyACyACyAA6VStackVyA1_yANyACyAhA16_FixedSizeLayoutVG_A4_QPGGGAA21_TraitWritingModifierVyAA0iu6InsetsZ3KeyVGGAA010_FlexFrameY0VG_Qo_A9_yAA0iu10BackgroundZ3KeyVGGAZG_Qo_A9_yAA0im7SpacingZ3KeyVGGAA30_EnvironmentKeyWritingModifierVyAA0iM7SpacingVSgGG_AeAEAO_APQrAR_AVtFQOyAXyACyACyACyAHA29_yAH4CaseOSgGGA29_yAA4FontVSgGGAA24_ForegroundStyleModifierVyAA22HierarchicalShapeStyleVGGANyACyAA6ButtonVyACyACyACyAeAE10labelStyleyQrqd__AA10LabelStyleRd__lFQOyAA5LabelVyAhA5ImageVG_012LockdownModeB024LMUIHorizontalLabelStyleVQo_A29_yAA5ColorVSgGGA15_GAA01_D13ShapeModifierVyAA9RectangleVGGGA12_G_AA7ForEachVySayA60_17LMUIExemptContactVGSSAA6IDViewVyACyA60_018LMUIExemptContactsU0VA12_GSSGGQPGAZG_Qo_QPGG_Qo_A26_GA33_GACyxq_GAad2aDRzAA0E8ModifierR_rlWl
+- _$s7SwiftUI15ModifiedContentVyACyAA4ViewPAAE20listSectionSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQOyAA0G0VyAA05EmptyE0VACyAeAE0f3RowH0_AGQrAI_AMtFQOyACyACyAA6VStackVyATyAA05TupleD0VyACyAA4TextVAA16_FixedSizeLayoutVG_A_QPGGGAA21_TraitWritingModifierVyAA04Listo6InsetsV3KeyVGGAA010_FlexFrameU0VG_Qo_A4_yAA0yo10BackgroundV3KeyVGGAQG_Qo_A4_yAA0yg7SpacingV3KeyVGGAA015_EnvironmentKeywX0VyAA0yG7SpacingVSgGGACyxq_GAad2aDRzAA0eX0R_rlWl
+- _$s7SwiftUI15ModifiedContentVyACyAA6VStackVyAEyAA05TupleD0VyACyAA4TextVAA16_FixedSizeLayoutVG_ALQPGGGAA21_TraitWritingModifierVyAA013ListRowInsetsK3KeyVGGAA010_FlexFrameJ0VGACyxq_GAA4ViewA2aZRzAA0tM0R_rlWlTm
+- _$s7SwiftUI16_FixedSizeLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI16_FlexFrameLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI18_AspectRatioLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI22HierarchicalShapeStyleVAA0dE0AAWP
+- _$s7SwiftUI4TextVAA4ViewAAWP
+- _$s7SwiftUI5ColorVAA4ViewAAWP
+- _$s7SwiftUI5ImageVAA4ViewAAWP
+- _$s7SwiftUI9EmptyViewVAA0D0AAWP
+- _$ss5NeverO7SwiftUI4ViewACWP
+```

@@ -1,0 +1,208 @@
+## SiriFindMySnippetProviderPlugin
+
+> `System/Library/FlowTools/SnippetService/ResponsePlugins/SiriFindMySnippetProviderPlugin.bundle/SiriFindMySnippetProviderPlugin`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+
+```diff
+
+-3605.18.1.0.0
+-  __TEXT.__text: 0x161b8
+-  __TEXT.__auth_stubs: 0xa30
++3605.19.1.0.0
++  __TEXT.__text: 0x18c60
++  __TEXT.__auth_stubs: 0xad0
+   __TEXT.__objc_stubs: 0x160
+-  __TEXT.__const: 0x818
+-  __TEXT.__swift5_typeref: 0x22f
+-  __TEXT.__oslogstring: 0xfca
+-  __TEXT.__cstring: 0x14a
+-  __TEXT.__swift5_reflstr: 0xc
+-  __TEXT.__swift5_assocty: 0x90
+-  __TEXT.__constg_swiftt: 0x160
+-  __TEXT.__swift5_fieldmd: 0xb0
+-  __TEXT.__swift5_proto: 0x1c
+-  __TEXT.__swift5_types: 0x2c
++  __TEXT.__const: 0x998
++  __TEXT.__swift5_typeref: 0x25f
++  __TEXT.__oslogstring: 0x11ea
++  __TEXT.__cstring: 0x16a
++  __TEXT.__swift5_reflstr: 0x37
++  __TEXT.__swift5_assocty: 0xc0
++  __TEXT.__constg_swiftt: 0x198
++  __TEXT.__swift5_fieldmd: 0xf4
++  __TEXT.__swift5_proto: 0x34
++  __TEXT.__swift5_types: 0x34
+   __TEXT.__swift_as_entry: 0xa8
+   __TEXT.__swift_as_ret: 0x40
+   __TEXT.__swift_as_cont: 0x38
+   __TEXT.__objc_classname: 0x47
+   __TEXT.__objc_methname: 0x8c
+-  __TEXT.__unwind_info: 0x358
++  __TEXT.__unwind_info: 0x3d8
+   __TEXT.__eh_frame: 0x590
+-  __DATA_CONST.__const: 0x348
++  __DATA_CONST.__const: 0x528
+   __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__auth_got: 0x520
+-  __DATA_CONST.__got: 0x1c8
+-  __DATA_CONST.__auth_ptr: 0x180
++  __DATA_CONST.__auth_got: 0x570
++  __DATA_CONST.__got: 0x1e0
++  __DATA_CONST.__auth_ptr: 0x1e0
+   __DATA.__objc_const: 0x90
+   __DATA.__objc_selrefs: 0x58
+-  __DATA.__data: 0x260
++  __DATA.__data: 0x278
+   __DATA.__common: 0x18
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/Intents.framework/Intents
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 178
+-  Symbols:   875
+-  CStrings:  63
++  Functions: 221
++  Symbols:   987
++  CStrings:  71
+ 
+Symbols:
++ _$s10SiriFindMy8SnippetsO12ItemLocationV6device8location5isOld12canPlaySoundAeC6DeviceV_AA0F0VSgS2btcfC
++ _$s16IntelligenceFlow14SystemResponseV0D7ContextVSgWOhTm
++ _$s22IntelligenceFlowShared17StructuredContextV011SiriRequestE0V11DeviceIdiomO13homeAccessoryyA2GmFWC
++ _$s22IntelligenceFlowShared17StructuredContextV011SiriRequestE0V11DeviceIdiomOAGSQAAWlTm
++ _$s22IntelligenceFlowShared17StructuredContextV011SiriRequestE0V11DeviceIdiomOSgWOcTm
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV0G10CapabilityO8rawValueAESgSS_tcfC
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV0G10CapabilityO8rawValueAESgSS_tcfCTv_r
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV0G10CapabilityO8rawValueSSvg
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV0G10CapabilityO8rawValueSSvpMV
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV0G10CapabilityOAESQAAWL
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV0G10CapabilityOAESQAAWl
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV0G10CapabilityOMF
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV0G10CapabilityOMa
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV0G10CapabilityOMf
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV0G10CapabilityOMn
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV0G10CapabilityON
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV0G10CapabilityOSHAAMc
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV0G10CapabilityOSHAAMcMK
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV0G10CapabilityOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV0G10CapabilityOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV0G10CapabilityOSHAASH9hashValueSivgTW
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV0G10CapabilityOSHAASQWb
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV0G10CapabilityOSQAAMc
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV0G10CapabilityOSQAAMcMK
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV0G10CapabilityOSQAASQ2eeoiySbx_xtFZTW
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV0G10CapabilityOSYAAMA
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV0G10CapabilityOSYAAMc
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV0G10CapabilityOSYAAMcMK
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV0G10CapabilityOSYAASY8rawValue03RawL0QzvgTW
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV0G10CapabilityOSYAASY8rawValuexSg03RawL0Qz_tcfCTW
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV0G10CapabilityOWV
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV0G10CapabilityOwet
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV0G10CapabilityOwst
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV0G10CapabilityOwug
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV0G10CapabilityOwui
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV0G10CapabilityOwup
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV12canPlaySound4item9proximitySb7ToolKit10TypedValueO06EntityR0VSg_SSSgtFZ
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV12canPlaySound4item9proximitySb7ToolKit10TypedValueO06EntityR0VSg_SSSgtFZTf4nnd_n
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV14ProximityValueO03rawK0AESgSS_tcfC
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV14ProximityValueO03rawK0AESgSS_tcfCTv_r
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV14ProximityValueO03rawK0SSvg
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV14ProximityValueO03rawK0SSvpMV
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV14ProximityValueOAESQAAWL
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV14ProximityValueOAESQAAWl
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV14ProximityValueOMF
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV14ProximityValueOMa
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV14ProximityValueOMf
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV14ProximityValueOMn
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV14ProximityValueON
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV14ProximityValueOSHAAMc
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV14ProximityValueOSHAAMcMK
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV14ProximityValueOSHAASH04hashK0SivgTW
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV14ProximityValueOSHAASH08_rawHashK04seedS2i_tFTW
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV14ProximityValueOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV14ProximityValueOSHAASQWb
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV14ProximityValueOSQAAMc
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV14ProximityValueOSQAAMcMK
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV14ProximityValueOSQAASQ2eeoiySbx_xtFZTW
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV14ProximityValueOSYAAMA
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV14ProximityValueOSYAAMc
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV14ProximityValueOSYAAMcMK
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV14ProximityValueOSYAASY03rawK003RawK0QzvgTW
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV14ProximityValueOSYAASY03rawK0xSg03RawK0Qz_tcfCTW
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV14ProximityValueOSYAASY03rawK0xSg03RawK0Qz_tcfCTWTv_r
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV14ProximityValueOWV
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV14ProximityValueOwet
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV14ProximityValueOwst
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV14ProximityValueOwug
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV14ProximityValueOwui
++ _$s31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV14ProximityValueOwup
++ _$s7ToolKit10TypedValueO011EnumerationD0V4caseSSvg
++ _$s7ToolKit10TypedValueO011EnumerationD0VMa
++ _$s7ToolKit10TypedValueO06EntityD0V31SiriFindMySnippetProviderPluginE16itemCapabilities33_9DB998F7F5EAAB9F3F1883E5927E5AD5LLShySSGSgvg
++ _$s7ToolKit10TypedValueO06EntityD0V31SiriFindMySnippetProviderPluginE9proximity33_9DB998F7F5EAAB9F3F1883E5927E5AD5LLSSSgvg
++ _$s7ToolKit10TypedValueO11enumerationyA2C011EnumerationD0VcACmFWC
++ _$s8RawValueSYTl
++ _$sSH13_rawHashValue4seedS2i_tFTq
++ _$sSH4hash4intoys6HasherVz_tFTq
++ _$sSH9hashValueSivgTq
++ _$sSHMp
++ _$sSHSQTb
++ _$sSQ2eeoiySbx_xtFZTq
++ _$sSQMp
++ _$sSSSHsWP
++ _$sSY8rawValue03RawB0QzvgTq
++ _$sSY8rawValuexSg03RawB0Qz_tcfCTq
++ _$sSYMp
++ _$sSh15minimumCapacityShyxGSi_tcfC
++ _$sSh8_VariantV6insertySb8inserted_x17memberAfterInserttxnFSS_Tg5
++ _$sSh8containsySbxFSS_Tg5
++ _$sShyShyxGqd__nc7ElementQyd__RszSTRd__lufCSS_SaySSGTt0g5Tf4g_n
++ _$ss10_NativeSetV13copyAndResize8capacityySi_tFSS_Tg5
++ _$ss10_NativeSetV4copyyyFSS_Tg5
++ _$ss10_NativeSetV6resize8capacityySi_tFSS_Tg5
++ _$ss10_NativeSetV9insertNew_2at8isUniqueyxn_s10_HashTableV6BucketVSbtFSS_Tg5
++ _$ss11_SetStorageC4copy8originalAByxGs05__RawaB0C_tFZ
++ _$ss11_SetStorageC6resize8original8capacity4moveAByxGs05__RawaB0C_SiSbtFZ
++ _$ss11_SetStorageCMn
++ _$ss11_SetStorageCySSGMR
++ _$ss11_SetStorageCySSGMd
++ _$ss21_findStringSwitchCase5cases6stringSiSays06StaticB0VG_SStF
++ _$ss50ELEMENT_TYPE_OF_SET_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF
++ ___swift_memcpy0_1
++ ___swift_memcpy1_1
++ ___swift_noop_void_return
++ _associated conformance 31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV0G10CapabilityOSHAASQ
++ _associated conformance 31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV14ProximityValueOSHAASQ
++ _bzero
++ _swift_bridgeObjectRelease_n
++ _swift_release_x8
++ _symbolic $sSY
++ _symbolic SS
++ _symbolic _____ 31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV0G10CapabilityO
++ _symbolic _____ 31SiriFindMySnippetProviderPlugin012ItemLocationD7HandlerV14ProximityValueO
++ _symbolic _____ySSG s11_SetStorageC
+- _$s10Foundation4DateVSgWOcTm
+- _$s10SiriFindMy8LocationVSgWOcTm
+- _$s10SiriFindMy8SnippetsO12ItemLocationV6device8location5isOldAeC6DeviceV_AA0F0VSgSbtcfC
+CStrings:
++ "FindPersonLocationSnippetHandler.supportsAsync: home accessory renders no friend map; returning .unsupported"
++ "ItemLocationSnippetHandler.supportsAsync: home accessory renders no item map; returning .unsupported"
++ "ItemLocationSnippetHandler: ItemEntity publishes no 'capabilities'; keeping the play-sound button"
++ "ItemLocationSnippetHandler: item cannot play a sound; hiding the play-sound button"
++ "ItemLocationSnippetHandler: play-sound button %{public}s; proximity=%{public}s serverReachable=%{bool,public}d"
++ "nearby"
++ "playsSound"
++ "serverReachable"
+```

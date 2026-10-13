@@ -1,0 +1,27 @@
+## VectorKit
+
+> `/System/Library/PrivateFrameworks/VectorKit.framework/VectorKit`
+
+```diff
+
+-2044.31.9.18.4
+-  __TEXT.__text: 0x11f8524
++2044.31.9.18.6
++  __TEXT.__text: 0x11f8628
+   __TEXT.__objc_methlist: 0x110d4
+   __TEXT.__const: 0x79318
+   __TEXT.__gcc_except_tab: 0x76180
+Functions:
+~ __ZN2md24PointLabelFeatureElement10updateTextERKNS_17PointLabelFeatureEb : 692 -> 696
+~ __ZN3geo5codecL28localizedLabelFromVectorTileERKNSt3__110shared_ptrINS0_10VectorTileEEEmmmbPKc : 856 -> 876
+~ __ZN2md19MeshRenderableLogic5pruneENS_10PruneLevelE : 1300 -> 1536
+~ __ZN3gdc23ComponentStorageWrapperIN2md10components18SplatsMeshInstanceEED1Ev -> __ZN3gdc23ComponentStorageWrapperIN2md10components19ResolvedSplatsOrderEED1Ev : 4 -> 52
+~ __ZN3gdc23ComponentStorageWrapperIN2md10components18SplatsMeshInstanceEE6removeENS_6EntityE -> __ZN3gdc23ComponentStorageWrapperIN2md10components19ResolvedSplatsOrderEE6removeENS_6EntityE : 624 -> 280
+~ __ZN3gdc23ComponentStorageWrapperIN2md10components19ResolvedSplatsOrderEED1Ev -> __ZN3geo10sparse_mapIN3gdc6EntityEN2md10components19ResolvedSplatsOrderEED2Ev : 52 -> 276
+~ __ZN3gdc23ComponentStorageWrapperIN2md10components19ResolvedSplatsOrderEE6removeENS_6EntityE -> __ZN3geo10sparse_mapIN3gdc6EntityEN2md10components19ResolvedSplatsOrderEE5eraseENS6_19sparse_map_iteratorILb0EEE : 280 -> 308
+~ __ZNK3gdc23ComponentStorageWrapperIN2md10components19ResolvedSplatsOrderEE8containsENS_6EntityE -> __ZN3gdc23ComponentStorageWrapperIN2md10components19ResolvedSplatsOrderEE7emplaceENS_6EntityEOS3_ : 100 -> 444
+~ __ZN3geo10sparse_mapIN3gdc6EntityEN2md10components19ResolvedSplatsOrderEED2Ev -> __ZNSt3__16vectorIN2md10components19ResolvedSplatsOrderENS_9allocatorIS3_EEE24__emplace_back_slow_pathIJRS3_EEEPS3_DpOT_ : 276 -> 400
+~ __ZN3geo10sparse_mapIN3gdc6EntityEN2md10components19ResolvedSplatsOrderEE5eraseENS6_19sparse_map_iteratorILb0EEE -> __ZN3gdc23ComponentStorageWrapperIN2md10components18SplatsMeshInstanceEED1Ev : 308 -> 4
+~ __ZN3gdc23ComponentStorageWrapperIN2md10components19ResolvedSplatsOrderEE7emplaceENS_6EntityEOS3_ -> __ZN3gdc23ComponentStorageWrapperIN2md10components18SplatsMeshInstanceEE6removeENS_6EntityE : 444 -> 624
+~ __ZNSt3__16vectorIN2md10components19ResolvedSplatsOrderENS_9allocatorIS3_EEE24__emplace_back_slow_pathIJRS3_EEEPS3_DpOT_ -> __ZNK3gdc23ComponentStorageWrapperIN2md10components18SplatsMeshInstanceEE8containsENS_6EntityE : 400 -> 100
+```

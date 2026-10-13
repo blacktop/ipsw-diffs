@@ -1,0 +1,7 @@
+## h19_ane0_fw_perses_v6x.im4p
+
+> `AssetData/boot/Firmware/ane/h19_ane0_fw_perses_v6x.im4p`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`

@@ -1,0 +1,187 @@
+## SiriLinkFlowPlugin
+
+> `System/Library/Assistant/FlowDelegatePlugins/SiriLinkFlowPlugin.bundle/SiriLinkFlowPlugin`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_fieldmd`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_mpenum`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_intobj`
+- `__DATA.__objc_const`
+- `__DATA.__objc_data`
+
+```diff
+
+ 3605.8.1.0.0
+-  __TEXT.__text: 0x1f7864
+-  __TEXT.__auth_stubs: 0x5570
+-  __TEXT.__objc_stubs: 0x5440
++  __TEXT.__text: 0x1fb254
++  __TEXT.__auth_stubs: 0x55c0
++  __TEXT.__objc_stubs: 0x5460
+   __TEXT.__objc_methlist: 0xedc
+-  __TEXT.__const: 0x17aec
++  __TEXT.__const: 0x17b1c
+   __TEXT.__cstring: 0x5e2a
+-  __TEXT.__objc_methname: 0x5345
++  __TEXT.__objc_methname: 0x5365
+   __TEXT.__objc_classname: 0x21c9
+   __TEXT.__objc_methtype: 0xd0e
+-  __TEXT.__swift5_typeref: 0x5b92
+-  __TEXT.__oslogstring: 0xd8ba
+-  __TEXT.__swift5_capture: 0x1058
++  __TEXT.__swift5_typeref: 0x5bbc
++  __TEXT.__oslogstring: 0xdcfa
++  __TEXT.__swift5_capture: 0x1068
+   __TEXT.__constg_swiftt: 0x7048
+   __TEXT.__swift5_builtin: 0x2a8
+   __TEXT.__swift5_reflstr: 0x5744
+
+   __TEXT.__swift5_assocty: 0x1098
+   __TEXT.__swift5_proto: 0xf40
+   __TEXT.__swift5_types: 0x79c
+-  __TEXT.__swift_as_entry: 0xd70
+-  __TEXT.__swift_as_ret: 0x11b4
+-  __TEXT.__swift_as_cont: 0x1734
++  __TEXT.__swift_as_entry: 0xd74
++  __TEXT.__swift_as_ret: 0x11dc
++  __TEXT.__swift_as_cont: 0x1768
+   __TEXT.__swift5_protos: 0x90
+   __TEXT.__swift5_mpenum: 0x148
+-  __TEXT.__unwind_info: 0xb648
+-  __TEXT.__eh_frame: 0x1a2ac
+-  __DATA_CONST.__const: 0x137e0
++  __TEXT.__unwind_info: 0xb738
++  __TEXT.__eh_frame: 0x1a674
++  __DATA_CONST.__const: 0x13808
+   __DATA_CONST.__cfstring: 0x600
+   __DATA_CONST.__objc_classlist: 0x360
+   __DATA_CONST.__objc_protolist: 0x140
+
+   __DATA_CONST.__objc_protorefs: 0xa0
+   __DATA_CONST.__objc_superrefs: 0x40
+   __DATA_CONST.__objc_intobj: 0x30
+-  __DATA_CONST.__auth_got: 0x2ac0
+-  __DATA_CONST.__got: 0x1888
+-  __DATA_CONST.__auth_ptr: 0x1728
++  __DATA_CONST.__auth_got: 0x2ae8
++  __DATA_CONST.__got: 0x18a0
++  __DATA_CONST.__auth_ptr: 0x1730
+   __DATA.__objc_const: 0xe6a8
+-  __DATA.__objc_selrefs: 0x1948
++  __DATA.__objc_selrefs: 0x1950
+   __DATA.__objc_ivar: 0x9c
+   __DATA.__objc_data: 0xff0
+-  __DATA.__data: 0xbd40
++  __DATA.__data: 0xbd60
+   __DATA.__common: 0x378
+   - /System/Library/Frameworks/ActivityKit.framework/ActivityKit
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+
+   - /System/Library/PrivateFrameworks/VoiceShortcutClient.framework/VoiceShortcutClient
+   - /System/Library/PrivateFrameworks/WorkflowKit.framework/WorkflowKit
+   - /System/Library/PrivateFrameworks/_GeoToolbox_CoreLocation.framework/_GeoToolbox_CoreLocation
++  - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 13610
+-  Symbols:   29954
+-  CStrings:  2877
++  Functions: 13672
++  Symbols:   30005
++  CStrings:  2891
+ 
+Symbols:
++ _$s11SiriKitFlow11DeviceStateP15isHomeAccessorySbvgTj
++ _$s18SiriLinkFlowPlugin011WFShowAlertC0C11buildOutput33_0E609C7F55F99E1F092CF826B7D12744LL0a3KitC00H0_pyYaKFTQ9_
++ _$s18SiriLinkFlowPlugin011WFShowAlertC0C11buildOutput33_0E609C7F55F99E1F092CF826B7D12744LL0a3KitC00H0_pyYaKFTY10_
++ _$s18SiriLinkFlowPlugin011WFShowAlertC0C11buildOutput33_0E609C7F55F99E1F092CF826B7D12744LL0a3KitC00H0_pyYaKFTY11_
++ _$s18SiriLinkFlowPlugin016WFChooseFromListC0C7execute0a3KitC015ExecuteResponseVyYaFTQ3_
++ _$s18SiriLinkFlowPlugin016WFChooseFromListC0C7execute0a3KitC015ExecuteResponseVyYaFTY4_
++ _$s18SiriLinkFlowPlugin019CustomIntentConfirmF17ResponseGeneratorC25makePromptForConfirmation3app6intent0oH00a3KitC06Output_p0A13AppResolution0R0C_So8INIntentCSo0tH0CtYaKFTQ13_
++ _$s18SiriLinkFlowPlugin019CustomIntentConfirmF17ResponseGeneratorC25makePromptForConfirmation3app6intent0oH00a3KitC06Output_p0A13AppResolution0R0C_So8INIntentCSo0tH0CtYaKFTY14_
++ _$s18SiriLinkFlowPlugin020AutoShortcutFirstRunC0C16makePromptOutput7appName0a3KitC00K0_pSS_tYaKFTQ7_
++ _$s18SiriLinkFlowPlugin020AutoShortcutFirstRunC0C16makePromptOutput7appName0a3KitC00K0_pSS_tYaKFTY8_
++ _$s18SiriLinkFlowPlugin020WFConfirmInteractionC0C11buildOutput33_220071A64E3E8D776517CBE45A2C4B77LL0a3KitC00H0_pyYaKFTQ15_
++ _$s18SiriLinkFlowPlugin020WFConfirmInteractionC0C11buildOutput33_220071A64E3E8D776517CBE45A2C4B77LL0a3KitC00H0_pyYaKFTY16_
++ _$s18SiriLinkFlowPlugin020WFConfirmInteractionC0C11buildOutput33_220071A64E3E8D776517CBE45A2C4B77LL0a3KitC00H0_pyYaKFTY17_
++ _$s18SiriLinkFlowPlugin021WFExecuteCustomIntentC0C7execute0a3KitC015ExecuteResponseVyYaFTQ3_
++ _$s18SiriLinkFlowPlugin021WFExecuteCustomIntentC0C7execute0a3KitC015ExecuteResponseVyYaFTY4_
++ _$s18SiriLinkFlowPlugin07Defaultb8HandlingC7FactoryV03getC06config11deviceState15outputPublisher24linkActionDialogTemplate0N17MetadataProvidingAA0bfC4TypeOAK03GetC6ConfigV_0a3KitC006DeviceK0_pAN06OutputM5Async_pAA0boP10TemplatingCAA0brS0_ptYaKFAN0Y0_pyYaYbcfU0_
++ _$s18SiriLinkFlowPlugin07Defaultb8HandlingC7FactoryV03getC06config11deviceState15outputPublisher24linkActionDialogTemplate0N17MetadataProvidingAA0bfC4TypeOAK03GetC6ConfigV_0a3KitC006DeviceK0_pAN06OutputM5Async_pAA0boP10TemplatingCAA0brS0_ptYaKFAN0Y0_pyYaYbcfU0_TA
++ _$s18SiriLinkFlowPlugin07Defaultb8HandlingC7FactoryV03getC06config11deviceState15outputPublisher24linkActionDialogTemplate0N17MetadataProvidingAA0bfC4TypeOAK03GetC6ConfigV_0a3KitC006DeviceK0_pAN06OutputM5Async_pAA0boP10TemplatingCAA0brS0_ptYaKFAN0Y0_pyYaYbcfU0_TATQ0_
++ _$s18SiriLinkFlowPlugin07Defaultb8HandlingC7FactoryV03getC06config11deviceState15outputPublisher24linkActionDialogTemplate0N17MetadataProvidingAA0bfC4TypeOAK03GetC6ConfigV_0a3KitC006DeviceK0_pAN06OutputM5Async_pAA0boP10TemplatingCAA0brS0_ptYaKFAN0Y0_pyYaYbcfU0_TATu
++ _$s18SiriLinkFlowPlugin07Defaultb8HandlingC7FactoryV03getC06config11deviceState15outputPublisher24linkActionDialogTemplate0N17MetadataProvidingAA0bfC4TypeOAK03GetC6ConfigV_0a3KitC006DeviceK0_pAN06OutputM5Async_pAA0boP10TemplatingCAA0brS0_ptYaKFAN0Y0_pyYaYbcfU0_TY0_
++ _$s18SiriLinkFlowPlugin07Defaultb8HandlingC7FactoryV03getC06config11deviceState15outputPublisher24linkActionDialogTemplate0N17MetadataProvidingAA0bfC4TypeOAK03GetC6ConfigV_0a3KitC006DeviceK0_pAN06OutputM5Async_pAA0boP10TemplatingCAA0brS0_ptYaKFAN0Y0_pyYaYbcfU0_Tu
++ _$s18SiriLinkFlowPlugin07Defaultb8HandlingC7FactoryV03getC06config11deviceState15outputPublisher24linkActionDialogTemplate0N17MetadataProvidingAA0bfC4TypeOAK03GetC6ConfigV_0a3KitC006DeviceK0_pAN06OutputM5Async_pAA0boP10TemplatingCAA0brS0_ptYaKFSbyXEfu_TA
++ _$s18SiriLinkFlowPlugin07Defaultb8HandlingC7FactoryV03getC06config11deviceState15outputPublisher24linkActionDialogTemplate0N17MetadataProvidingAA0bfC4TypeOAK03GetC6ConfigV_0a3KitC006DeviceK0_pAN06OutputM5Async_pAA0boP10TemplatingCAA0brS0_ptYaKFTQ5_
++ _$s18SiriLinkFlowPlugin07Defaultb8HandlingC7FactoryV03getC06config11deviceState15outputPublisher24linkActionDialogTemplate0N17MetadataProvidingAA0bfC4TypeOAK03GetC6ConfigV_0a3KitC006DeviceK0_pAN06OutputM5Async_pAA0boP10TemplatingCAA0brS0_ptYaKFTQ7_
++ _$s18SiriLinkFlowPlugin07Defaultb8HandlingC7FactoryV03getC06config11deviceState15outputPublisher24linkActionDialogTemplate0N17MetadataProvidingAA0bfC4TypeOAK03GetC6ConfigV_0a3KitC006DeviceK0_pAN06OutputM5Async_pAA0boP10TemplatingCAA0brS0_ptYaKFTY6_
++ _$s18SiriLinkFlowPlugin07Defaultb8HandlingC7FactoryV03getC06config11deviceState15outputPublisher24linkActionDialogTemplate0N17MetadataProvidingAA0bfC4TypeOAK03GetC6ConfigV_0a3KitC006DeviceK0_pAN06OutputM5Async_pAA0boP10TemplatingCAA0brS0_ptYaKFTY8_
++ _$s18SiriLinkFlowPlugin07Defaultb8HandlingC7FactoryV03getC06config11deviceState15outputPublisher24linkActionDialogTemplate0N17MetadataProvidingAA0bfC4TypeOAK03GetC6ConfigV_0a3KitC006DeviceK0_pAN06OutputM5Async_pAA0boP10TemplatingCAA0brS0_ptYaKFTY9_
++ _$s18SiriLinkFlowPlugin07Defaultb8HandlingC7FactoryV17isSupportedAction11deviceState0H14OpenAppWhenRun20authenticationPolicySb0a3KitC006DeviceL0_p_SbyXKSo022LNActionAuthenticationR0VSgyXKtFZ04$s18abc17Plugin07Defaultb8f2C7g51V03getC06config11deviceState15outputPublisher24linkj67DialogTemplate0N17MetadataProvidingAA0bfC4TypeOAK03GetC6ConfigV_0a3s4C006t60K0_pAN06OutputM5Async_pAA0boP10TemplatingCAA0brS0_ptYaKFSo28uvR10VSgyXEfu0_So0U8MetadataCTf1nncn_n
++ _$s18SiriLinkFlowPlugin29ShortcutsUnlockDeviceStrategyC013makePromptForgF018dialogingTemplates11deviceState0a3KitC06Output_pAA29CustomIntentsDialogTemplatingC_AG0gO0_ptYaKFZTQ9_
++ _$s18SiriLinkFlowPlugin29ShortcutsUnlockDeviceStrategyC013makePromptForgF018dialogingTemplates11deviceState0a3KitC06Output_pAA29CustomIntentsDialogTemplatingC_AG0gO0_ptYaKFZTY10_
++ _$s18SiriLinkFlowPlugin29ShortcutsUnlockDeviceStrategyC013makePromptForgF018dialogingTemplates11deviceState0a3KitC06Output_pAA29CustomIntentsDialogTemplatingC_AG0gO0_ptYaKFZTY8_
++ _$s18SiriLinkFlowPlugin29ShortcutsUnlockDeviceStrategyC013makePromptForgF8_preRFv233_8F0899A5A2BE1D3C0D6839E453F4D424LL18dialogingTemplates11deviceState0a3KitC06Output_pAA29CustomIntentsDialogTemplatingC_AH0G5State_ptYaKFZTQ5_
++ _$s18SiriLinkFlowPlugin29ShortcutsUnlockDeviceStrategyC013makePromptForgF8_preRFv233_8F0899A5A2BE1D3C0D6839E453F4D424LL18dialogingTemplates11deviceState0a3KitC06Output_pAA29CustomIntentsDialogTemplatingC_AH0G5State_ptYaKFZTY7_
++ _$s18SiriLinkFlowPlugin29ShortcutsUnlockDeviceStrategyC013makePromptForgF8_preRFv233_8F0899A5A2BE1D3C0D6839E453F4D424LL18dialogingTemplates11deviceState0a3KitC06Output_pAA29CustomIntentsDialogTemplatingC_AH0G5State_ptYaKFZTY8_
++ _$s18SiriLinkFlowPlugin29ShortcutsUnlockDeviceStrategyC013makePromptForgF8_preRFv233_8F0899A5A2BE1D3C0D6839E453F4D424LL18dialogingTemplates11deviceState0a3KitC06Output_pAA29CustomIntentsDialogTemplatingC_AH0G5State_ptYaKFZTY9_
++ _$s19SiriFlowEnvironment14CurrentRequestC18overridePropertiesSDyAA0dE9OverridesO5FieldOypGSgvg
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO5FieldO12responseModeyA2EmFWC
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO5FieldOAESHAAWL
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO5FieldOMa
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO5FieldOSHAAMc
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO5FieldO_yptMR
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO5FieldO_yptMd
++ _$sSDy19SiriFlowEnvironment23CurrentRequestOverridesO5FieldOypGSgMR
++ _$sSDy19SiriFlowEnvironment23CurrentRequestOverridesO5FieldOypGSgMd
++ _$sSo13MGProductTypeaSQSCSQ2eeoiySbx_xtFZTW
++ _$sSo13MGProductTypeaSYSCSY8rawValue03RawD0QzvgTW
++ _$sSo28LNActionAuthenticationPolicyV12LinkMetadataE8nsNumberABSgSo8NSNumberCSg_tcfC
++ _$ss23_ContiguousArrayStorageCy19SiriFlowEnvironment23CurrentRequestOverridesO5FieldO_yptGMR
++ _$ss23_ContiguousArrayStorageCy19SiriFlowEnvironment23CurrentRequestOverridesO5FieldO_yptGMd
++ _$ss2eeoiySbx_xtSYRzSQ8RawValueRpzlFSo13MGProductTypea_Tgq5
++ _MGGetProductType
++ ___swift_allocate_boxed_opaque_existential_0Tm
++ _objc_msgSend$authenticationPolicyAllowingImplicit:
++ _symbolic SDy_____ypGSg 19SiriFlowEnvironment23CurrentRequestOverridesO5FieldO
++ _symbolic ______ypt 19SiriFlowEnvironment23CurrentRequestOverridesO5FieldO
++ _symbolic _____y______yptG s23_ContiguousArrayStorageC 19SiriFlowEnvironment23CurrentRequestOverridesO5FieldO
+- _$s11SiriKitFlow5ParseO16DirectInvocationVSgWOhTm
+- _$s18SiriLinkFlowPlugin011WFShowAlertC0C11buildOutput33_0E609C7F55F99E1F092CF826B7D12744LL0a3KitC00H0_pyYaKFTY9_
+- _$s18SiriLinkFlowPlugin020AutoShortcutFirstRunC0C16makePromptOutput7appName0a3KitC00K0_pSS_tYaKFTY7_
+- _$s18SiriLinkFlowPlugin020WFConfirmInteractionC0C11buildOutput33_220071A64E3E8D776517CBE45A2C4B77LL0a3KitC00H0_pyYaKFTY15_
+- _$s18SiriLinkFlowPlugin29ShortcutsUnlockDeviceStrategyC013makePromptForgF8_preRFv233_8F0899A5A2BE1D3C0D6839E453F4D424LL18dialogingTemplates11deviceState0a3KitC06Output_pAA29CustomIntentsDialogTemplatingC_AH0G5State_ptYaKFZTY5_
+CStrings:
++ "#DefaultLinkHandlingFlowFactory isSupportedAction - NO support per authenticationPolicy"
++ "#DefaultLinkHandlingFlowFactory isSupportedAction - NO support per openAppWhenRun"
++ "#DefaultLinkHandlingFlowFactory isSupportedAction - NO support per unknown authenticationPolicy"
++ "#DefaultLinkHandlingFlowFactory isSupportedAction - supported per .alwaysAllowed"
++ "#DefaultLinkHandlingFlowFactory isSupportedAction - supported per NO authenticationPolicy"
++ "#SiriLinkFlowPlugin makeFlowFlowSearchResult - handoff per test device type"
++ "#SiriWorkflowRunner the request is happening on home accessory"
++ "#VoiceCommandParityFlow checkResponseModeOverride - CurrentRequest overrides: %s"
++ "#VoiceCommandParityFlow checkResponseModeOverride - can't set CurrentRequest override: %@"
++ "#VoiceCommandParityFlow checkResponseModeOverride - overriding to VOX; from %s"
++ "#WFOpenInteractionFlow handoff for Home Accessory"
++ "Executing on HomeAccessory. Returning nil for view snippet environment."
++ "The request is happening on home accessory"
++ "authenticationPolicyAllowingImplicit:"
+```

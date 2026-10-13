@@ -1,0 +1,94 @@
+## iCloudMailAccountUI
+
+> `/System/Library/PrivateFrameworks/iCloudMailAccountUI.framework/iCloudMailAccountUI`
+
+```diff
+
+ 2027.1.2.0.0
+-  __TEXT.__text: 0x50920
++  __TEXT.__text: 0x50d2c
+   __TEXT.__objc_methlist: 0x49c
+   __TEXT.__const: 0x41e4
+   __TEXT.__cstring: 0x141c
+
+   __TEXT.__swift_as_entry: 0xc
+   __TEXT.__swift_as_ret: 0xc
+   __TEXT.__swift_as_cont: 0x18
+-  __TEXT.__unwind_info: 0x19c8
++  __TEXT.__unwind_info: 0x19f8
+   __TEXT.__eh_frame: 0xb70
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+
+   __AUTH.__objc_data: 0x428
+   __AUTH.__data: 0x1320
+   __DATA.__objc_ivar: 0x4
+-  __DATA.__data: 0x18f8
++  __DATA.__data: 0x1948
+   __DATA.__objc_stublist: 0x20
+   __DATA.__common: 0xe0
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 2219
+-  Symbols:   5754
++  Functions: 2230
++  Symbols:   5780
+   CStrings:  184
+ 
+Symbols:
++ _$s19iCloudMailAccountUI22BindableNavigationLinkV4bodyQrvg05SwiftD00fG0Vyq_AE9EmptyViewVGyXEfU0_
++ _$s7SwiftUI14_PaddingLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI14_PaddingLayoutVAcA12ViewModifierAAWL
++ _$s7SwiftUI14_PaddingLayoutVAcA12ViewModifierAAWl
++ _$s7SwiftUI14_PaddingLayoutVN
++ _$s7SwiftUI15ModifiedContentVyACyAA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQOyACyAA6VStackVyAA05TupleD0Vy017iCloudMailAccountB00o20CreationHeaderMemojiE0V_AJyALyACyACyAA4TextVAA14_PaddingLayoutVGAA30_EnvironmentKeyWritingModifierVy12CoreGraphics7CGFloatVGG_ACyAtA010_FixedSizeU0VGSgQPGGQPGGAVyAA0S9AlignmentOGG_Qo_ASGASGACyxq_GAad2aDRzAA0eY0R_rlWl
++ _$s7SwiftUI15ModifiedContentVyACyACyAA6VStackVyAA012_ConditionalD0VyAGyAA4TextVAA05TupleD0VyAI_ACyAA6ButtonVyAIGAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGQPGGAA12ProgressViewVyAA05EmptyP0VA_GGSgGAA16_FlexFrameLayoutVGAA08_PaddingT0VGA8_GACyxq_GAA0P0A2AA12_RzAA0pM0R_rlWl
++ _$s7SwiftUI16_FlexFrameLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI16_FlexFrameLayoutVAcA12ViewModifierAAWL
++ _$s7SwiftUI16_FlexFrameLayoutVAcA12ViewModifierAAWl
++ _$s7SwiftUI16_FlexFrameLayoutVN
++ _$s7SwiftUI22HierarchicalShapeStyleVAA0dE0AAMc
++ _$s7SwiftUI22HierarchicalShapeStyleVAcA0dE0AAWL
++ _$s7SwiftUI22HierarchicalShapeStyleVAcA0dE0AAWl
++ _$s7SwiftUI25_AppearanceActionModifierVAA04ViewE0AAMc
++ _$s7SwiftUI25_AppearanceActionModifierVAcA04ViewE0AAWL
++ _$s7SwiftUI25_AppearanceActionModifierVAcA04ViewE0AAWl
++ _$s7SwiftUI25_AppearanceActionModifierVN
++ _$s7SwiftUI4TextVAA4ViewAAMc
++ _$s7SwiftUI4TextVAcA4ViewAAWL
++ _$s7SwiftUI4TextVAcA4ViewAAWl
++ _$s7SwiftUI5ColorVAA10ShapeStyleAAMc
++ _$s7SwiftUI5ColorVAA4ViewAAMc
++ _$s7SwiftUI5ColorVAcA10ShapeStyleAAWL
++ _$s7SwiftUI5ColorVAcA10ShapeStyleAAWl
++ _$s7SwiftUI5ColorVAcA4ViewAAWL
++ _$s7SwiftUI5ColorVAcA4ViewAAWl
++ _$s7SwiftUI5ImageVAA4ViewAAMc
++ _$s7SwiftUI5ImageVAcA4ViewAAWL
++ _$s7SwiftUI5ImageVAcA4ViewAAWl
++ _$s7SwiftUI5ImageVN
++ _$s7SwiftUI6SpacerVAA4ViewAAMc
++ _$s7SwiftUI6SpacerVAcA4ViewAAWL
++ _$s7SwiftUI6SpacerVAcA4ViewAAWl
++ _$s7SwiftUI6SpacerVN
++ _$s7SwiftUI7SectionVyAA4TextVAA15ModifiedContentVyAGyAGyAGyAA6VStackVyAA012_ConditionalF0VyAKyAeA05TupleF0VyAE_AGyAA6ButtonVyAEGAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGQPGGAA12ProgressViewVyAA05EmptyQ0VA1_GGSgGAA16_FlexFrameLayoutVGAA08_PaddingU0VGA10_GAA06_TraitmN0VyAA017ListRowBackgroundwL0VGGA1_GACyxq_q0_GAA0Q0A2AA21_RzAAA21_R_AAA21_R0_rlWlTm
++ _$s7SwiftUI9EmptyViewVAA0D0AAMc
++ _$s7SwiftUI9EmptyViewVAcA0D0AAWL
++ _$s7SwiftUI9EmptyViewVAcA0D0AAWl
+- _$s7SwiftUI14_PaddingLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI15ModifiedContentVyACyAA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQOyACyAA6VStackVyAA05TupleD0Vy017iCloudMailAccountB00o20CreationHeaderMemojiE0V_AJyALyACyACyAA4TextVAA14_PaddingLayoutVGAA30_EnvironmentKeyWritingModifierVy12CoreGraphics7CGFloatVGG_ACyAtA010_FixedSizeU0VGSgQPGGQPGGAVyAA0S9AlignmentOGG_Qo_ASGASGACyxq_GAad2aDRzAA0eY0R_rlWlTm
+- _$s7SwiftUI16_FlexFrameLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI22HierarchicalShapeStyleVAA0dE0AAWP
+- _$s7SwiftUI25_AppearanceActionModifierVAA04ViewE0AAWP
+- _$s7SwiftUI4TextVAA4ViewAAWP
+- _$s7SwiftUI4TextVSgxSgAA4ViewA2aFRzlWl
+- _$s7SwiftUI5ColorVAA10ShapeStyleAAWP
+- _$s7SwiftUI5ColorVAA4ViewAAWP
+- _$s7SwiftUI5ImageVAA4ViewAAWP
+- _$s7SwiftUI6SpacerVAA4ViewAAWP
+- _$s7SwiftUI7SectionVyAA4TextVAA7ForEachVySaySSGSSAA15ModifiedContentVyAJyAA6ButtonVyAA6HStackVyAA05TupleH0VyAJyANyAPyAE_AEQPGGAA30_EnvironmentKeyWritingModifierVyAA15LayoutDirectionOGG_AA6SpacerVAA4ViewPAAE10fontWeightyQrAA4FontV0U0VSgFQOyAJyAA5ImageVATyAA5ColorVSgGG_Qo_SgQPGGGA12_GAA06_TraitnO0VyAA017ListRowBackgroundyM0VGGGAA05EmptyS0VGACyxq_q0_GAAA_A2AA_RzAAA_R_AAA_R0_rlWlTm
+- _$s7SwiftUI9EmptyViewVAA0D0AAWP
+```

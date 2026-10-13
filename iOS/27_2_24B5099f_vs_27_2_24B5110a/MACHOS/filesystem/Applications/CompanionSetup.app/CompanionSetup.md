@@ -1,0 +1,599 @@
+## CompanionSetup
+
+> `Applications/CompanionSetup.app/CompanionSetup`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_entry`
+- `__DATA.__objc_stublist`
+
+```diff
+
+-524.10.109.0.1
+-  __TEXT.__text: 0xa0824
+-  __TEXT.__auth_stubs: 0x2880
+-  __TEXT.__objc_stubs: 0x2980
+-  __TEXT.__objc_methlist: 0x124c
+-  __TEXT.__const: 0x3804
+-  __TEXT.__objc_classname: 0x6ae
+-  __TEXT.__objc_methname: 0x4cad
+-  __TEXT.__objc_methtype: 0x1c2b
+-  __TEXT.__constg_swiftt: 0x1854
+-  __TEXT.__swift5_typeref: 0x195a
+-  __TEXT.__swift5_reflstr: 0x1684
+-  __TEXT.__swift5_fieldmd: 0x12f0
+-  __TEXT.__swift5_builtin: 0x104
++524.11.6.0.0
++  __TEXT.__text: 0xec5b4
++  __TEXT.__auth_stubs: 0x30f0
++  __TEXT.__objc_stubs: 0x2a60
++  __TEXT.__objc_methlist: 0x1364
++  __TEXT.__const: 0x4854
++  __TEXT.__objc_classname: 0x74e
++  __TEXT.__objc_methname: 0x4e97
++  __TEXT.__objc_methtype: 0x1ccb
++  __TEXT.__constg_swiftt: 0x1af0
++  __TEXT.__swift5_typeref: 0x1e72
++  __TEXT.__swift5_reflstr: 0x18f4
++  __TEXT.__swift5_fieldmd: 0x15c8
++  __TEXT.__swift5_builtin: 0x12c
+   __TEXT.__swift5_assocty: 0x270
+-  __TEXT.__swift5_capture: 0x3284
+-  __TEXT.__oslogstring: 0x16f3
+-  __TEXT.__cstring: 0x3bda
+-  __TEXT.__swift5_proto: 0x1a8
+-  __TEXT.__swift5_types: 0x104
+-  __TEXT.__swift_as_entry: 0x1a8
+-  __TEXT.__swift_as_ret: 0x1b0
+-  __TEXT.__swift_as_cont: 0x4b8
++  __TEXT.__swift5_capture: 0x5274
++  __TEXT.__oslogstring: 0x1ca3
++  __TEXT.__cstring: 0x44fa
++  __TEXT.__swift5_proto: 0x244
++  __TEXT.__swift5_types: 0x12c
++  __TEXT.__swift_as_entry: 0x2f0
++  __TEXT.__swift_as_ret: 0x308
++  __TEXT.__swift_as_cont: 0x89c
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__swift5_mpenum: 0x10
+-  __TEXT.__swift5_protos: 0x40
+-  __TEXT.__unwind_info: 0x2618
+-  __TEXT.__eh_frame: 0x4ae0
+-  __DATA_CONST.__const: 0x86d8
+-  __DATA_CONST.__objc_classlist: 0xa8
+-  __DATA_CONST.__objc_protolist: 0xf0
++  __TEXT.__swift5_mpenum: 0x28
++  __TEXT.__swift5_protos: 0x44
++  __TEXT.__unwind_info: 0x37f8
++  __TEXT.__eh_frame: 0x7838
++  __DATA_CONST.__const: 0xc588
++  __DATA_CONST.__objc_classlist: 0xb8
++  __DATA_CONST.__objc_protolist: 0x100
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0x78
+-  __DATA_CONST.__auth_got: 0x1448
+-  __DATA_CONST.__got: 0xda0
+-  __DATA_CONST.__auth_ptr: 0x758
+-  __DATA.__objc_const: 0x1d68
+-  __DATA.__objc_selrefs: 0x1220
+-  __DATA.__objc_data: 0x22a8
+-  __DATA.__data: 0x2190
++  __DATA_CONST.__objc_protorefs: 0x80
++  __DATA_CONST.__auth_got: 0x1880
++  __DATA_CONST.__got: 0x1250
++  __DATA_CONST.__auth_ptr: 0x7e8
++  __DATA.__objc_const: 0x2038
++  __DATA.__objc_selrefs: 0x1280
++  __DATA.__objc_data: 0x2d28
++  __DATA.__data: 0x2720
+   __DATA.__objc_stublist: 0x8
+-  __DATA.__common: 0x28
++  __DATA.__common: 0x30
++  - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+-  - /System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+   - /System/Library/Frameworks/CoreBluetooth.framework/CoreBluetooth
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+
+   - /System/Library/Frameworks/SafariServices.framework/SafariServices
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/PrivateFrameworks/AXRuntime.framework/AXRuntime
++  - /System/Library/PrivateFrameworks/AccessibilityUIUtilities.framework/AccessibilityUIUtilities
+   - /System/Library/PrivateFrameworks/AppleAccount.framework/AppleAccount
+   - /System/Library/PrivateFrameworks/AppleAccountUI.framework/AppleAccountUI
+   - /System/Library/PrivateFrameworks/AppleIDSetup.framework/AppleIDSetup
+
+   - /System/Library/PrivateFrameworks/Nexus.framework/Nexus
+   - /System/Library/PrivateFrameworks/OnBoardingKit.framework/OnBoardingKit
+   - /System/Library/PrivateFrameworks/People.framework/People
++  - /System/Library/PrivateFrameworks/PhotosUIPrivate.framework/PhotosUIPrivate
+   - /System/Library/PrivateFrameworks/ProductKitCore.framework/ProductKitCore
+   - /System/Library/PrivateFrameworks/ProxCardKit.framework/ProxCardKit
+   - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
+
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+   - @rpath/AppleConnectClient.framework/AppleConnectClient
+-  Functions: 2525
+-  Symbols:   1279
+-  CStrings:  1418
++  Functions: 3540
++  Symbols:   1566
++  CStrings:  1533
+ 
+Symbols:
++ _$s10Foundation4DataV36_unconditionallyBridgeFromObjectiveCyACSo6NSDataCSgFZ
++ _$s10Foundation4DataVMn
++ _$s14AppleIDSetupUI15ProxCardContentV5title5image11productType13adjustmentURLACSS_So7UIImageCSSSg10Foundation0L0VSgtcfC
++ _$s14CoreUtilsSwift19CUKeyPathModifiablePAAE3setyxs011WritableKeyE0Cyxqd__G_qd__tlF
++ _$s15PhotosUIPrivate34PUPosterSetupViewControllerFactoryV04viewF04with17completionHandlerSo014PRXCardContenteF0CAC5InputV_yAC6ResultOctKFZ
++ _$s15PhotosUIPrivate34PUPosterSetupViewControllerFactoryV5InputV11deviceColor11productType0I11ScreenWidth0iM6Height0iM5Scale16configurationURL12photoLibraryAESS_SSS2iSf10Foundation0R0VSgSo07PHPhotoT0CSgtcfC
++ _$s15PhotosUIPrivate34PUPosterSetupViewControllerFactoryV5InputVMa
++ _$s15PhotosUIPrivate34PUPosterSetupViewControllerFactoryV6ErrorsO7handledyA2EmFWC
++ _$s15PhotosUIPrivate34PUPosterSetupViewControllerFactoryV6ErrorsOMa
++ _$s15PhotosUIPrivate34PUPosterSetupViewControllerFactoryV6ResultO26completedWithConfigurationyAESo015PHAmbientPosterK0C_10Foundation3URLVSgtcAEmFWC
++ _$s15PhotosUIPrivate34PUPosterSetupViewControllerFactoryV6ResultO4skipyA2EmFWC
++ _$s15PhotosUIPrivate34PUPosterSetupViewControllerFactoryV6ResultO5erroryAEs5Error_pcAEmFWC
++ _$s15PhotosUIPrivate34PUPosterSetupViewControllerFactoryV6ResultO7dismissyA2EmFWC
++ _$s15PhotosUIPrivate34PUPosterSetupViewControllerFactoryV6ResultO9completedyAE10Foundation3URLVcAEmFWC
++ _$s15PhotosUIPrivate34PUPosterSetupViewControllerFactoryV6ResultOMa
++ _$s17CompanionSetupKit011CSKStepHomecB13ConfigurationVACycfC
++ _$s17CompanionSetupKit011CSKStepHomecB13ConfigurationVMa
++ _$s17CompanionSetupKit011CSKStepHomecB6ClientC0E17PreconfiguredInfoV19accessoryCountTotalSiSgvg
++ _$s17CompanionSetupKit011CSKStepHomecB6ClientC0E17PreconfiguredInfoV24accessoryCountConfiguredSiSgvg
++ _$s17CompanionSetupKit011CSKStepHomecB6ClientC7CommandO28homePreconfiguredAcknowledgeyA2EmFWC
++ _$s17CompanionSetupKit011CSKStepWiFiB13ConfigurationVACycfC
++ _$s17CompanionSetupKit011CSKStepWiFiB13ConfigurationVMa
++ _$s17CompanionSetupKit012CSKBluetoothB5FlagsV11recognitionACvgZ
++ _$s17CompanionSetupKit012CSKBluetoothB5FlagsV20updateFaceEnrollmentACvgZ
++ _$s17CompanionSetupKit012CSKBluetoothB5FlagsV21updateVoiceEnrollmentACvgZ
++ _$s17CompanionSetupKit012CSKBluetoothB5FlagsVMa
++ _$s17CompanionSetupKit012CSKBluetoothB5FlagsVMn
++ _$s17CompanionSetupKit012CSKBluetoothB5FlagsVs10SetAlgebraAAMc
++ _$s17CompanionSetupKit012CSKStepPhotoB18StartConfigurationV11deviceColorSSvg
++ _$s17CompanionSetupKit012CSKStepPhotoB18StartConfigurationV11productTypeSSvg
++ _$s17CompanionSetupKit012CSKStepPhotoB18StartConfigurationV16configurationURL10Foundation0I0VSgvg
++ _$s17CompanionSetupKit012CSKStepPhotoB18StartConfigurationV17deviceScreenScaleSdSgvg
++ _$s17CompanionSetupKit012CSKStepPhotoB18StartConfigurationV17deviceScreenWidthSdSgvg
++ _$s17CompanionSetupKit012CSKStepPhotoB18StartConfigurationV18deviceScreenHeightSdSgvg
++ _$s17CompanionSetupKit012CSKStepPhotoB19FinishConfigurationV14photoBundleURLAC10Foundation0J0V_tcfC
++ _$s17CompanionSetupKit012CSKStepPhotoB6ClientC7CommandO10uiFinishedyAeA0deB19FinishConfigurationVcAEmFWC
++ _$s17CompanionSetupKit012CSKStepPhotoB6ClientC7CommandO9uiSkippedyA2EmFWC
++ _$s17CompanionSetupKit019CSKStepAppleAccountB13ConfigurationV20requiredServiceTypes07desirediJ09guestUserACShyAA08CSKApplefI4TypeOG_AISbtcfC
++ _$s17CompanionSetupKit08CSKPhotoB13ConfigurationV0B4TypeO8newFrameyA2E0hF0OcAEmFWC
++ _$s17CompanionSetupKit08CSKPhotoB13ConfigurationV0B4TypeO9editFrameyA2E0hF0OcAEmFWC
++ _$s17CompanionSetupKit11CSKFeaturesO6goTimeyA2CmFWC
++ _$s17CompanionSetupKit11CSKFeaturesO9isEnabledSbvg
++ _$s17CompanionSetupKit11CSKFeaturesOMa
++ _$s17CompanionSetupKit11CSKStepMiscC7CommandO16siriBetaAnsweredyAESb_tcAEmFWC
++ _$s17CompanionSetupKit11CSKStepMiscC7CommandO19accessibilityAnsweryAE10Foundation4DataV_tcAEmFWC
++ _$s17CompanionSetupKit11CSKStepMiscC7CommandO23personalContentAnsweredyAESb_tcAEmFWC
++ _$s17CompanionSetupKit16CSKAddUserClientC13configuration11environmentAcA0deF13ConfigurationV_14CoreUtilsSwift19CUEnvironmentValuesVtcfC
++ _$s17CompanionSetupKit16CSKAddUserClientC15setEventHandleryyyAC0H0OYaYbYAcF
++ _$s17CompanionSetupKit16CSKAddUserClientC5EventO012appleAccountG0yAeA012CSKStepAppleibG0OcAEmFWC
++ _$s17CompanionSetupKit16CSKAddUserClientC5EventO012audioPairingG0yAeA9CSKClientC05AudioiG0OcAEmFWC
++ _$s17CompanionSetupKit16CSKAddUserClientC5EventO04homecbG0yAeA011CSKStepHomecbF0CADOcAEmFWC
++ _$s17CompanionSetupKit16CSKAddUserClientC5EventO14dataPrivacyAskyA2EmFWC
++ _$s17CompanionSetupKit16CSKAddUserClientC5EventO15settingsSummaryyAeA015CSKStepSettingsI0CADOcAEmFWC
++ _$s17CompanionSetupKit16CSKAddUserClientC5EventO16accessibilityAskyA2EmFWC
++ _$s17CompanionSetupKit16CSKAddUserClientC5EventO16basicConfigStartyAeA0dE13ConfigurationV0B4TypeO_tcAEmFWC
++ _$s17CompanionSetupKit16CSKAddUserClientC5EventO16matchSettingsAskyAeA22CSKSettingsSummaryInfoVcAEmFWC
++ _$s17CompanionSetupKit16CSKAddUserClientC5EventO18visualConfirmationyAeA013CSKStepVisualI0CADOcAEmFWC
++ _$s17CompanionSetupKit16CSKAddUserClientC5EventO19basicConfigFinishedyAeA012CSKStepBasicI6ReportVcAEmFWC
++ _$s17CompanionSetupKit16CSKAddUserClientC5EventO20siriLanguageMismatchyAESScAEmFWC
++ _$s17CompanionSetupKit16CSKAddUserClientC5EventO21authenticationRequestyAE5Nexus016NXAuthenticationI4InfoVcAEmFWC
++ _$s17CompanionSetupKit16CSKAddUserClientC5EventO23authenticationCompletedyAE5Nexus016NXAuthenticationI4InfoVcAEmFWC
++ _$s17CompanionSetupKit16CSKAddUserClientC5EventO6clientyAeA9CSKClientCADOcAEmFWC
++ _$s17CompanionSetupKit16CSKAddUserClientC5EventO9preflightyAeA16CSKStepPreflightCADOcAEmFWC
++ _$s17CompanionSetupKit16CSKAddUserClientC5EventOMa
++ _$s17CompanionSetupKit16CSKAddUserClientC5EventOs23CustomStringConvertibleAAMc
++ _$s17CompanionSetupKit16CSKAddUserClientC5setupAA0deF6ReportVyYaKF
++ _$s17CompanionSetupKit16CSKAddUserClientC5setupAA0deF6ReportVyYaKFTu
++ _$s17CompanionSetupKit16CSKAddUserClientC6cancel14userDidDismiss22allowReenableProxCardsySb_SbtYaF
++ _$s17CompanionSetupKit16CSKAddUserClientC6cancel14userDidDismiss22allowReenableProxCardsySb_SbtYaFTu
++ _$s17CompanionSetupKit16CSKAddUserClientC6cancel14userDidDismiss22allowReenableProxCardsySb_SbtYaFfA0_
++ _$s17CompanionSetupKit16CSKAddUserClientC6cancel14userDidDismiss22allowReenableProxCardsySb_SbtYaFfA_
++ _$s17CompanionSetupKit16CSKAddUserClientC7CommandO012appleAccountB0yAeA012CSKStepAppleibF0CADOcAEmFWC
++ _$s17CompanionSetupKit16CSKAddUserClientC7CommandO13speakPasscodeyA2EmFWC
++ _$s17CompanionSetupKit16CSKAddUserClientC7CommandO15settingsSummaryyAeA015CSKStepSettingsI0CADOcAEmFWC
++ _$s17CompanionSetupKit16CSKAddUserClientC7CommandO19accessibilityAnsweryAE10Foundation4DataV_tcAEmFWC
++ _$s17CompanionSetupKit16CSKAddUserClientC7CommandO19dataPrivacyAnsweredyA2EmFWC
++ _$s17CompanionSetupKit16CSKAddUserClientC7CommandO21audioPairingPlayAgainyA2EmFWC
++ _$s17CompanionSetupKit16CSKAddUserClientC7CommandO21authenticationAttemptyAE5Nexus016NXAuthenticationI4InfoVcAEmFWC
++ _$s17CompanionSetupKit16CSKAddUserClientC7CommandO21matchSettingsAnsweredyA2EmFWC
++ _$s17CompanionSetupKit16CSKAddUserClientC7CommandO23authenticationConfigureyAE5Nexus29NXAuthenticationConfigurationVcAEmFWC
++ _$s17CompanionSetupKit16CSKAddUserClientC7CommandO32siriLanguageMismatchAcknowledgedyA2EmFWC
++ _$s17CompanionSetupKit16CSKAddUserClientC7CommandO9preflightyAeA16CSKStepPreflightCADOcAEmFWC
++ _$s17CompanionSetupKit16CSKAddUserClientC7CommandOMa
++ _$s17CompanionSetupKit16CSKAddUserClientC7perform7commandyAC7CommandO_tYaKF
++ _$s17CompanionSetupKit16CSKAddUserClientC7perform7commandyAC7CommandO_tYaKFTu
++ _$s17CompanionSetupKit16CSKAddUserClientC8preStartyyYaF
++ _$s17CompanionSetupKit16CSKAddUserClientC8preStartyyYaFTu
++ _$s17CompanionSetupKit16CSKAddUserClientCMa
++ _$s17CompanionSetupKit16CSKAddUserClientCMn
++ _$s17CompanionSetupKit16CSKAddUserClientCScAAAMc
++ _$s17CompanionSetupKit16CSKStepPreflightC7CommandO14switchMeDeviceyA2EmFWC
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC13configuration11environmentAcA0deF13ConfigurationV_14CoreUtilsSwift19CUEnvironmentValuesVtcfC
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC15setEventHandleryyyAC0H0OYaYbYAcF
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC5EventO012appleAccountG0yAeA012CSKStepAppleibG0OcAEmFWC
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC5EventO012audioPairingG0yAeA9CSKClientC05AudioiG0OcAEmFWC
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC5EventO04homecbG0yAeA011CSKStepHomecbF0CADOcAEmFWC
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC5EventO04siriB0yAeA011CSKStepSiribF0CADOcAEmFWC
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC5EventO04wifiB0yAeA011CSKStepWiFibG0OcAEmFWC
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC5EventO05photoB0yAeA012CSKStepPhotobF0CADOcAEmFWC
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC5EventO15activationStartyA2EmFWC
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC5EventO15settingsSummaryyAeA015CSKStepSettingsI0CADOcAEmFWC
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC5EventO16basicConfigStartyA2EmFWC
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC5EventO18activationFinishedyA2EmFWC
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC5EventO18visualConfirmationyAeA013CSKStepVisualI0CADOcAEmFWC
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC5EventO19basicConfigFinishedyAeA012CSKStepBasicI6ReportVcAEmFWC
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC5EventO21authenticationRequestyAE5Nexus016NXAuthenticationI4InfoVcAEmFWC
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC5EventO23authenticationCompletedyAE5Nexus016NXAuthenticationI4InfoVcAEmFWC
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC5EventO3baayAeA15CSKStepBAAEventOcAEmFWC
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC5EventO4miscyAeA11CSKStepMiscCADOcAEmFWC
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC5EventO6clientyAeA9CSKClientCADOcAEmFWC
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC5EventO8languageyAeA22CSKStepLanguageSupportCADOcAEmFWC
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC5EventO8osUpdateyAeA015CSKStepOSUpdateG0OcAEmFWC
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC5EventO9finishingyA2EmFWC
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC5EventO9preflightyAeA16CSKStepPreflightCADOcAEmFWC
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC5EventOMa
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC5EventOs23CustomStringConvertibleAAMc
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC5setupAA0deF6ReportVyYaKF
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC5setupAA0deF6ReportVyYaKFTu
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC6cancel14userDidDismiss22allowReenableProxCardsySb_SbtYaF
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC6cancel14userDidDismiss22allowReenableProxCardsySb_SbtYaFTu
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC7CommandO012appleAccountB0yAeA012CSKStepAppleibF0CADOcAEmFWC
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC7CommandO04homecB0yAeA011CSKStepHomecbF0CADOcAEmFWC
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC7CommandO04siriB0yAeA011CSKStepSiribF0CADOcAEmFWC
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC7CommandO05photoB0yAeA012CSKStepPhotobF0CADOcAEmFWC
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC7CommandO13speakPasscodeyA2EmFWC
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC7CommandO15settingsSummaryyAeA015CSKStepSettingsI0CADOcAEmFWC
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC7CommandO16goToPreviousStepyA2EmFWC
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC7CommandO21audioPairingPlayAgainyA2EmFWC
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC7CommandO21authenticationAttemptyAE5Nexus016NXAuthenticationI4InfoVcAEmFWC
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC7CommandO23authenticationConfigureyAE5Nexus29NXAuthenticationConfigurationVcAEmFWC
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC7CommandO4miscyAeA11CSKStepMiscCADOcAEmFWC
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC7CommandO8languageyAeA22CSKStepLanguageSupportCADOcAEmFWC
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC7CommandO8osUpdateyAeA015CSKStepOSUpdateF0CADOcAEmFWC
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC7CommandO9preflightyAeA16CSKStepPreflightCADOcAEmFWC
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC7CommandOMa
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC7perform7commandyAC7CommandO_tYaKF
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC7perform7commandyAC7CommandO_tYaKFTu
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC8preStartyyYaF
++ _$s17CompanionSetupKit20CSKSetupPebbleClientC8preStartyyYaFTu
++ _$s17CompanionSetupKit20CSKSetupPebbleClientCMa
++ _$s17CompanionSetupKit20CSKSetupPebbleClientCMn
++ _$s17CompanionSetupKit20CSKSetupPebbleClientCScAAAMc
++ _$s17CompanionSetupKit21CSKSetupAppleTVClientC7UIStateC13authenticatedSbvg
++ _$s17CompanionSetupKit21CSKSetupAppleTVClientC7UIStateC5PhaseO15personalContentyA2GmFWC
++ _$s17CompanionSetupKit21CSKSetupAppleTVClientC7UIStateC5PhaseO23improveSiriAndDictationyAGSb_tcAGmFWC
++ _$s17CompanionSetupKit21CSKSetupAppleTVClientC7UIStateC5PhaseO8siriBetayA2GmFWC
++ _$s17CompanionSetupKit21CSKSetupAppleTVClientC7UIStateC5PhaseOSQAAMc
++ _$s17CompanionSetupKit22CSKAddUserClientReportVMa
++ _$s17CompanionSetupKit22CSKAddUserClientReportVs23CustomStringConvertibleAAMc
++ _$s17CompanionSetupKit22CSKSettingsSummaryInfoV13siriAIEnabledSbvg
++ _$s17CompanionSetupKit22CSKSettingsSummaryInfoV13siriAIEnabledSbvs
++ _$s17CompanionSetupKit22CSKStepLanguageSupportC011UnsupportedE4TypeO12bothMatchingyAESS_tcAEmFWC
++ _$s17CompanionSetupKit22CSKStepLanguageSupportC011UnsupportedE4TypeO15bothNotMatchingyAESS_SStcAEmFWC
++ _$s17CompanionSetupKit22CSKStepLanguageSupportC011UnsupportedE4TypeO4siriyAESS_tcAEmFWC
++ _$s17CompanionSetupKit22CSKStepLanguageSupportC011UnsupportedE4TypeO6siriAIyAESS_tcAEmFWC
++ _$s17CompanionSetupKit22CSKStepLanguageSupportC011UnsupportedE4TypeOMa
++ _$s17CompanionSetupKit22CSKStepLanguageSupportC09SupportedE0Vs23CustomStringConvertibleAAMc
++ _$s17CompanionSetupKit22CSKStepLanguageSupportC5EventO06chooseE0yAESayAC09SupportedE0VG_AHSgtcAEmFWC
++ _$s17CompanionSetupKit22CSKStepLanguageSupportC5EventO11unsupportedyAeC011UnsupportedE4TypeOcAEmFWC
++ _$s17CompanionSetupKit22CSKStepLanguageSupportC5EventOMa
++ _$s17CompanionSetupKit22CSKStepLanguageSupportC7CommandO011unsupportedE11AcknowledgeyA2EmFWC
++ _$s17CompanionSetupKit22CSKStepLanguageSupportC7CommandO06chooseE0yAESS_tcAEmFWC
++ _$s17CompanionSetupKit22CSKStepLanguageSupportC7CommandOMa
++ _$s17CompanionSetupKit23CSKAddUserConfigurationV0B4TypeO03newE0yA2EmFWC
++ _$s17CompanionSetupKit23CSKAddUserConfigurationV0B4TypeO2eeoiySbAE_AEtFZ
++ _$s17CompanionSetupKit23CSKAddUserConfigurationV0B4TypeOMa
++ _$s17CompanionSetupKit24CSKNearbyActionModelCodeO7b525ishyA2CmFWC
++ _$s17CompanionSetupKit26CSKAppleAccountServiceTypeO10gameCenteryA2CmFWC
++ _$s17CompanionSetupKit26CSKAppleAccountServiceTypeO5cloudyA2CmFWC
++ _$s17CompanionSetupKit26CSKAppleAccountServiceTypeO5storeyA2CmFWC
++ _$s17CompanionSetupKit26CSKAppleAccountServiceTypeOMn
++ _$s17CompanionSetupKit26CSKAppleAccountServiceTypeOSHAAMc
++ _$s17CompanionSetupKit26CSKAppleAccountServiceTypeOSQAAMc
++ _$s17CompanionSetupKit26CSKSetupPebbleClientReportV04wifibG0AA011CSKStepWiFibG0VSgvg
++ _$s17CompanionSetupKit26CSKSetupPebbleClientReportV17osUpdatePerformedSbSgvg
++ _$s17CompanionSetupKit26CSKSetupPebbleClientReportVMa
++ _$s17CompanionSetupKit26CSKSetupPebbleClientReportVs23CustomStringConvertibleAAMc
++ _$s17CompanionSetupKit29CSKAddUserClientConfigurationV012appleAccountbG0011basicConfigG015bluetoothDevice06clientG0AcA012CSKStepAppleibG0VSg_AA0o5BasickG0VSgSo8CBDeviceCSgAA9CSKClientC0G0VtcfC
++ _$s17CompanionSetupKit29CSKAddUserClientConfigurationV012appleAccountbG0011basicConfigG015bluetoothDevice06clientG0AcA012CSKStepAppleibG0VSg_AA0o5BasickG0VSgSo8CBDeviceCSgAA9CSKClientC0G0VtcfcfA0_
++ _$s17CompanionSetupKit29CSKAddUserClientConfigurationV012appleAccountbG0011basicConfigG015bluetoothDevice06clientG0AcA012CSKStepAppleibG0VSg_AA0o5BasickG0VSgSo8CBDeviceCSgAA9CSKClientC0G0VtcfcfA2_
++ _$s17CompanionSetupKit29CSKAddUserClientConfigurationV012appleAccountbG0011basicConfigG015bluetoothDevice06clientG0AcA012CSKStepAppleibG0VSg_AA0o5BasickG0VSgSo8CBDeviceCSgAA9CSKClientC0G0VtcfcfA_
++ _$s17CompanionSetupKit29CSKAddUserClientConfigurationV15bluetoothDeviceSo8CBDeviceCSgvs
++ _$s17CompanionSetupKit29CSKAddUserClientConfigurationVMa
++ _$s17CompanionSetupKit31CSKStepBasicConfigConfigurationVMn
++ _$s17CompanionSetupKit32CSKBluetoothScannerConfigurationV13discoveryType7useCaseACSo011CBDiscoveryH0V_So05CBUseJ0VtcfC
++ _$s17CompanionSetupKit32CSKBluetoothScannerConfigurationVMa
++ _$s17CompanionSetupKit32CSKBluetoothScannerConfigurationVMn
++ _$s17CompanionSetupKit32CSKDeviceActivationConfigurationVACycfC
++ _$s17CompanionSetupKit32CSKDeviceActivationConfigurationVMa
++ _$s17CompanionSetupKit33CSKSetupPebbleClientConfigurationV010activationG0012appleAccountbG015bluetoothDevice06clientG004homecbG004wifibG0AcA019CSKDeviceActivationG0VSg_AA012CSKStepApplejbG0VSgSo8CBDeviceCSgAA9CSKClientC0G0VAA0r4HomecbG0VSgAA0r4WiFibG0VSgtcfC
++ _$s17CompanionSetupKit33CSKSetupPebbleClientConfigurationV15bluetoothDeviceSo8CBDeviceCSgvs
++ _$s17CompanionSetupKit33CSKSetupPebbleClientConfigurationVMa
++ _$s17CompanionSetupKit9CSKClientC13ConfigurationV016bluetoothScannerE0AeA012CSKBluetoothgE0VSg_tcfC
++ _$s17CompanionSetupKit9CSKClientC13ConfigurationV14CoreUtilsSwift19CUKeyPathModifiableAAMc
++ _$s17CompanionSetupKit9CSKClientC13ConfigurationV19audioPairingConfirmSbvg
++ _$s17CompanionSetupKit9CSKClientC13ConfigurationV19audioPairingConfirmSbvpMV
++ _$s17CompanionSetupKit9CSKClientC13ConfigurationV19audioPairingConfirmSbvs
++ _$s17CompanionSetupKit9CSKClientC13ConfigurationV22allowedPairingKeyTypesSay5Nexus12NXConnectionC0gH4TypeOGSgvg
++ _$s17CompanionSetupKit9CSKClientC13ConfigurationV22allowedPairingKeyTypesSay5Nexus12NXConnectionC0gH4TypeOGSgvpMV
++ _$s17CompanionSetupKit9CSKClientC13ConfigurationV22allowedPairingKeyTypesSay5Nexus12NXConnectionC0gH4TypeOGSgvs
++ _$s17CompanionSetupKit9CSKClientC13ConfigurationVMn
++ _$s17CompanionSetupKit9CSKStatusO13displayString12localizationSSSgAF_tF
++ _$s17CompanionSetupKit9CSKStatusOMa
++ _$s22UniformTypeIdentifiers6UTTypeV20localizedDescriptionSSSgvg
++ _$s22UniformTypeIdentifiers6UTTypeVyACSgSScfC
++ _$s24AccessibilityUIUtilities18AXSettingsProxCardC17completionHandlerySo6NSDataCcSgvsTj
++ _$s24AccessibilityUIUtilities18AXSettingsProxCardCMa
++ _$s5Nexus12NXConnectionC14PairingKeyTypeO02cuC0yA2EmFWC
++ _$s5Nexus12NXConnectionC14PairingKeyTypeOMa
++ _$s5Nexus12NXConnectionC14PairingKeyTypeOMn
++ _$s5Nexus22NXProximityServiceDataO014CompanionSetupD0V5ColorO11colorNumber5modelAGSi_AE5ModelOtcfC
++ _$s5Nexus22NXProximityServiceDataO014CompanionSetupD0V5ColorO11colorNumber5modelSiAE5ModelO_tF
++ _$s5Nexus22NXProximityServiceDataO014CompanionSetupD0V5ColorO7unknownyA2GmFWC
++ _$s5Nexus22NXProximityServiceDataO014CompanionSetupD0V5ColorOMa
++ _$s5Nexus22NXProximityServiceDataO014CompanionSetupD0V5ColorOMn
++ _$s5Nexus22NXProximityServiceDataO014CompanionSetupD0V5ModelO17deviceClassNumber11productTypeAGs5Int32V_SStcfC
++ _$s5Nexus22NXProximityServiceDataO014CompanionSetupD0V5ModelO4j255yA2GmFWC
++ _$s5Nexus22NXProximityServiceDataO014CompanionSetupD0V5ModelO4j265yA2GmFWC
++ _$s5Nexus22NXProximityServiceDataO014CompanionSetupD0V5ModelO4j490yA2GmFWC
++ _$s5Nexus22NXProximityServiceDataO014CompanionSetupD0V5ModelO4j491yA2GmFWC
++ _$s5Nexus22NXProximityServiceDataO014CompanionSetupD0V5colorAE5ColorOSgvg
++ _$s5Nexus22NXProximityServiceDataO014CompanionSetupD0V6ActionO16setUpRecognitionyA2GmFWC
++ _$s5Nexus22NXProximityServiceDataO014CompanionSetupD0V6ActionO20updateFaceEnrollmentyA2GmFWC
++ _$s5Nexus22NXProximityServiceDataO014CompanionSetupD0V6ActionO21updateVoiceEnrollmentyA2GmFWC
++ _$s5Nexus22NXProximityServiceDataO014CompanionSetupD0V6ActionO7addUseryA2GmFWC
++ _$s5Nexus22NXProximityServiceDataO014CompanionSetupD0V6ActionO7defaultyA2GmFWC
++ _$s5Nexus22NXProximityServiceDataO014CompanionSetupD0V6ActionO7unknownyA2GmFWC
++ _$s5Nexus22NXProximityServiceDataO014CompanionSetupD0V6ActionOMa
++ _$s5Nexus22NXProximityServiceDataO014CompanionSetupD0V6ActionOMn
++ _$s5Nexus22NXProximityServiceDataO014CompanionSetupD0V6actionAE6ActionOSgvg
++ _$s5UIKit15UIMutableTraitsPy5ValueQyd__qd__mcAA17UITraitDefinitionRd__luigTj
++ _$s5UIKit15UIMutableTraitsPy5ValueQyd__qd__mcAA17UITraitDefinitionRd__luisTj
++ _$s5UIKit16UITraitOverridesV8containsySbAA0B10Definition_pXpF
++ _$s5UIKit25UITraitUserInterfaceStyleVAA0B10DefinitionAAWP
++ _$s5UIKit25UITraitUserInterfaceStyleVMa
++ _$s9SiriSetup0aB14EnrollmentModeO022homeAccessoryCompanionC0yA2CmFWC
++ _$s9SiriSetup0aB14EnrollmentModeO26homeAccessoryCustomizationyA2CmFWC
++ _$s9SiriSetup0aB16EnrollmentStatusOMa
++ _$s9SiriSetup0aB16EnrollmentStatusOs23CustomStringConvertibleAAMc
++ _$s9SiriSetup0aB18ProxCardControllerC7optionsAcA0aB5StageV7OptionsC_tcfC
++ _$s9SiriSetup0aB18ProxCardControllerCMa
++ _$s9SiriSetup0aB5StageV7OptionsC14enrollmentMode019analyticsEnrollmentF09pageTypes22assistantConfiguration15ignoreFiltering26setupFlowCompletionHandlerAeA0abhF0O_So40SIRISETUPSchemaSIRISETUPEnrollmentUIModeVSgSayAA8PageTypeOGAA09AssistantL0CSgSbyAA0abH6StatusO_AUtcSgtcfc
++ _$s9SiriSetup0aB5StageV7OptionsC20backRequestedHandleryycSgvsTj
++ _$s9SiriSetup0aB5StageV7OptionsC25dismissalRequestedHandleryycSgvsTj
++ _$s9SiriSetup0aB5StageV7OptionsCMa
++ _$s9SiriSetup0aB9RunPolicyC38voiceSelectionWouldUseExpressiveVoicesSbyFZ
++ _$s9SiriSetup0aB9RunPolicyCMa
++ _$s9SiriSetup8PageTypeO17ifpVoiceSelectionyA2CmFWC
++ _$s9SiriSetup8PageTypeO17siriAIDataSharingyA2CmFWC
++ _$s9SiriSetup8PageTypeOMn
++ _$sSH13_rawHashValue4seedS2i_tFTj
++ _$sSS18_uncheckedFromUTF8ySSSRys5UInt8VGFZ
++ _$sSS8UTF8ViewV13_foreignIndex5afterSS0D0VAF_tF
++ _$sSS8UTF8ViewV13_foreignIndex_8offsetBySS0D0VAF_SitF
++ _$sSS8UTF8ViewV17_foreignSubscript8positions5UInt8VSS5IndexV_tF
++ _$sSS9UTF16ViewV5index_8offsetBySS5IndexVAF_SitF
++ _$sSSSTsWP
++ _$sSSs25LosslessStringConvertiblesWP
++ _$sSSySSxcs25LosslessStringConvertibleRzSTRzSJ7ElementSTRtzlufC
++ _$sSSySsSnySS5IndexVGcig
++ _$sSo17UITraitCollectionC5UIKitEy5ValueQzxmcAC0A10DefinitionRzluig
++ _$sSo6NSDataC10FoundationE10startIndexSivg
++ _$sSo6NSDataC10FoundationE8endIndexSivg
++ _$sSo6UIMenuC5UIKitE5title8subtitle5image24preferredImageVisibility10identifier7options0F11ElementSize8childrenABSS_SSSgSo7UIImageCSgSo0akgH0VSo0A10IdentifieraSgSo0A7OptionsVSo0akL0VSaySo0aK0CGtcfC
++ _$sSo6UIViewC5UIKitE23registerForTraitChanges_7handlerSo25UITraitChangeRegistration_pSayAC0H10Definition_pXpG_yx_So0H10CollectionCtctSo0H11EnvironmentRzlF
++ _$sSo8CBDeviceC17CompanionSetupKitE012cskBluetoothC5FlagsAC012CSKBluetoothcG0VSgvg
++ _$sSo8CBDeviceC17CompanionSetupKitE05photoC5Color5Nexus22NXProximityServiceDataO0bcJ0V0F0OSgvg
++ _$sSo8CBDeviceC17CompanionSetupKitE05photoC5Model5Nexus22NXProximityServiceDataO0bcJ0V0F0OSgvg
++ _$sSo8UIActionC5UIKitE5title8subtitle5image13selectedImage09preferredG10Visibility10identifier20discoverabilityTitle10attributes5state7handlerABSS_SSSgSo7UIImageCSgAQSo013UIMenuElementgI0VSo0A10IdentifieraSgANSo0qR10AttributesVSo0qR5StateVyABctcfC
++ _$sSo8UIButtonC5UIKitE13ConfigurationV4grayAEyFZ
++ _$sSo8UIButtonC5UIKitE13ConfigurationV5titleSSSgvs
++ _$sSo8UIButtonC5UIKitE13ConfigurationVMa
++ _$sSo8UIButtonC5UIKitE13ConfigurationVMn
++ _$sSo8UIButtonC5UIKitE13configuration13primaryActionA2bCE13ConfigurationV_So8UIActionCSgtcfC
++ _$sSo8UIButtonC5UIKitE13configurationAbCE13ConfigurationVSgvg
++ _$sSo8UIButtonC5UIKitE13configurationAbCE13ConfigurationVSgvs
++ _$sSs8UTF8ViewV8distance4from2toSiSS5IndexV_AGtF
++ _$ss10SetAlgebraP10isSuperset2ofSbx_tFTj
++ _$ss15ContiguousArrayV034_makeUniqueAndReserveCapacityIfNotD0yyFyXl_Ts5
++ _$ss15ContiguousArrayV12_endMutationyyFyXl_Ts5
++ _$ss15ContiguousArrayV15reserveCapacityyySiFyXl_Ts5
++ _$ss15ContiguousArrayV36_reserveCapacityAssumingUniqueBuffer8oldCountySi_tFyXl_Ts5
++ _$ss15ContiguousArrayV37_appendElementAssumeUniqueAndCapacity_03newD0ySi_xntFyXl_Ts5
++ _AVAudioSessionCategoryPlayback
++ _AVAudioSessionModeDefault
++ _GestaltProductTypeStringToDeviceClass
++ _OBJC_CLASS_$_AVAudioPlayer
++ _OBJC_CLASS_$_AVAudioSession
++ _OBJC_CLASS_$_NSObject
++ _OBJC_CLASS_$_SFAdjustedImageView
++ _OBJC_CLASS_$_UIAction
++ _OBJC_CLASS_$_UILayoutGuide
++ _OBJC_CLASS_$_UIMenu
++ _UIAccessibilityIsReduceMotionEnabled
++ _objc_retain_x2
++ _swift_getFunctionTypeMetadata0
++ _swift_getKeyPath
++ _swift_getTupleTypeMetadata2
++ _swift_task_immediate
++ _swift_task_isCurrentExecutorWithFlags
++ _swift_willThrowTypedImpl
+- _$s14AppleIDSetupUI15ProxCardContentV5title5image11productTypeACSS_So7UIImageCSSSgtcfC
+- _$s17CompanionSetupKit21CSKSetupAppleTVClientC7UIStateC5PhaseO23improveSiriAndDictationyA2GmFWC
+- _$s5Nexus22NXProximityServiceDataO014CompanionSetupD0V5ModelO8rawValues5UInt8Vvg
+- _$s5UIKit15UIMutableTraitsPy5ValueQyd__qd__mcAA17UITraitDefinitionRd__SYAERQSiAD_03RawD0RTd__luigTj
+- _$s5UIKit15UIMutableTraitsPy5ValueQyd__qd__mcAA17UITraitDefinitionRd__SYAERQSiAD_03RawD0RTd__luisTj
+- _$s9SiriSetup0aB14EnrollmentModeO014audioAccessoryC0yA2CmFWC
+- _$sScC6resume8throwingyq_n_tF
+- _$sSo17UITraitCollectionC5UIKitEy5ValueQzxmcAC0A10DefinitionRzSYAERQSiAD_03RawD0RTzluig
+- _$ss5ErrorWS
+- _$ss6UInt32VMn
+- _AudioServicesCreateSystemSoundID
+- _AudioServicesDisposeSystemSoundID
+- _AudioServicesPlaySystemSoundWithCompletion
+- _OBJC_CLASS_$_UISegmentedControl
+CStrings:
++ " adjustmentsURL "
++ "### PhotosUI completed without URL"
++ "%s called during Main Setup. This shouldn't happen."
++ "%s called during standalone Photo Setup. This shouldn't happen."
++ ".badge.exclamationmark"
++ "AAUIGenericTermsRemoteUI finished: acceptedTerms"
++ "AAUIGenericTermsRemoteUI finished: success=%{bool}d"
++ "AVAudioPlayerDelegate"
++ "Accessibility finished. Data: %ld bytes"
++ "Accessibility go back called during Add User. This shouldn't happen."
++ "Accessibility go back."
++ "Add User failed: %@"
++ "Add User finished: %s"
++ "AddUserProxCardFlowViewController"
++ "Audio feedback decode error. error=%{public}s"
++ "B60489D1A39349AFA3504AE69B1C9133"
++ "B97E01ACA4C94266B87DF4FCE78C0C71"
++ "CSKAddUserClient"
++ "CSKSetupPebbleClient"
++ "Choose language finished. language=%s"
++ "CompanionSetup.VideoContentViewController"
++ "CompanionSetup/AudioFeedbackPlayer.swift"
++ "CompanionSetup/HAAddUserProxCardFlowViewController.swift"
++ "CompanionSetup/HAMainSetupProxCardFlowViewController.swift"
++ "CompanionSetup/VideoContentViewController.swift"
++ "Could not load audio feedback resource. audioFeedback=%{public}s, url=%{public}s, error=%{public}@"
++ "DONT_USE_PERSONAL_CONTENT"
++ "Data Privacy go back called during Add User. This shouldn't happen."
++ "EXIT_SETUP_CHANGE_LANGUAGE_ALERT_SUBTITLE"
++ "EXIT_SETUP_CHANGE_LANGUAGE_ALERT_TITLE"
++ "Failed to play audio feedback. audioFeedback=%{public}s"
++ "Failed to set audio feedback session active. active=%{bool}d, error=%{public}@"
++ "Failed to set audio session category for audio feedback. error=%{public}@"
++ "Finished playing audio feedback. successfully=%{bool}d"
++ "HOME_PRECONFIGURED_SUBTITLE_MULTIPLE"
++ "HOME_PRECONFIGURED_TITLE_MULTIPLE"
++ "IMPROVE_SIRI_AND_APPLE_INTELLIGENCE_DETAIL"
++ "IMPROVE_SIRI_AND_APPLE_INTELLIGENCE_MORE_INFO"
++ "IMPROVE_SIRI_AND_APPLE_INTELLIGENCE_TITLE"
++ "Improve Siri & Dictation-Linwood"
++ "Localizable-Linwood"
++ "Localizable-Pebble"
++ "Not starting flow because the prox card is already presented"
++ "PERSONAL_CONTENT_DETAIL"
++ "PERSONAL_CONTENT_TITLE"
++ "PHOTO_SETUP_EXIT_ALERT_CONFIRM_BUTTON_TITLE"
++ "PHOTO_SETUP_EXIT_ALERT_MESSAGE_EDIT_FRAME"
++ "PHOTO_SETUP_EXIT_ALERT_MESSAGE_NEW_FRAME"
++ "PHOTO_SETUP_EXIT_ALERT_TITLE_EDIT_FRAME"
++ "PHOTO_SETUP_EXIT_ALERT_TITLE_NEW_FRAME"
++ "PIN pairing succeeded."
++ "PROGRESS_ADD_USER_TITLE"
++ "Personal Content (Linwood)"
++ "PhotosUI handled error. Dismissing flow."
++ "PhotosUI result: %s"
++ "RECOGNITION_START_SUBTITLE"
++ "RECOGNITION_UPDATE_FACE_SUBTITLE"
++ "SETTINGS_SUMMARY_SETTING_NAME_SIRI_DATA_SHARING_APPLE_INTELLIGENCE"
++ "SETTING_UP_APPLE_ACCOUNT"
++ "SHARE_AUDIO_AND_TEXT"
++ "SIRI_BETA_DETAIL"
++ "SWITCH_ME_DEVICE_BUTTON"
++ "SWITCH_ME_DEVICE_SUBTITLE"
++ "SWITCH_ME_DEVICE_SUBTITLE_IPAD"
++ "SWITCH_ME_DEVICE_SUBTITLE_IPHONE"
++ "SWITCH_ME_DEVICE_TITLE"
++ "Settings Summary (Owner, Linwood)"
++ "Settings summary customize called during Add User. This shouldn't happen."
++ "Settings summary go back called during Add User. This shouldn't happen."
++ "Siri Beta (Linwood)"
++ "Start Main Setup (Video)"
++ "Starting Add User..."
++ "Switch Me Device"
++ "USE_PERSONAL_CONTENT"
++ "Unknown result from PhotosUI: %s"
++ "Unsupported Language (Siri, Linwood)"
++ "Update Face Enrollment"
++ "_TtC14CompanionSetup35HAAddUserProxCardFlowViewController"
++ "_TtC14CompanionSetup37HAMainSetupProxCardFlowViewController"
++ "accessibilityFinished(data:)"
++ "accessibilityGoBack()"
++ "addLayoutGuide:"
++ "addUser(client:)"
++ "apple.intelligence"
++ "audioPlayerBeginInterruption:"
++ "audioPlayerDecodeErrorDidOccur:error:"
++ "audioPlayerDidFinishPlaying:successfully:"
++ "audioPlayerEndInterruption:"
++ "audioPlayerEndInterruption:withFlags:"
++ "audioPlayerEndInterruption:withOptions:"
++ "audioSession"
++ "auxiliarySession"
++ "bundleIdentifier"
++ "com.apple.application-icon.siri-gen2"
++ "com.apple.homeaccessory-1"
++ "com.apple.homeaccessory-2"
++ "com.apple.onboarding.improveintelligence"
++ "dismissButton"
++ "dismissing prox flow"
++ "handledPhase"
++ "hasStartedPlayback"
++ "https://support.apple.com/127196?cid=mc-ols-home_accessory-article_127196-ios_ui_learn_more-62024150"
++ "initWithContentsOfURL:error:"
++ "isPlaying"
++ "masksProduct"
++ "pairingComplete"
++ "person.badge.waveform.fill"
++ "personalContent"
++ "photosUIGoBack()"
++ "photosUIHandledError()"
++ "player"
++ "product"
++ "productButton"
++ "productGroups"
++ "resolvedVideoConfiguration"
++ "setActive:withOptions:error:"
++ "setAudioSession:"
++ "setCategory:mode:options:error:"
++ "setMenu:"
++ "setShowsMenuAsPrimaryAction:"
++ "settingsSummarySiriAI"
++ "siriBeta"
++ "siriSetup dismissal requested."
++ "siriSetupFinished: status=%s"
++ "startFlow: restart=%{bool}d, appleConnect=%{bool}d, internal=%{bool}d"
++ "startMainSetupVideo"
++ "switchMeDevice"
++ "unsupportedLanguageSiriAI"
++ "updateFaceEnrollment"
++ "v24@0:8@\"AVAudioPlayer\"16"
++ "v28@0:8@\"AVAudioPlayer\"16B24"
++ "v32@0:8@\"AVAudioPlayer\"16@\"NSError\"24"
++ "v32@0:8@\"AVAudioPlayer\"16Q24"
++ "v32@0:8@16Q24"
++ "x-apple-tips://open?collection=HomeAccessory&referrer="
+- "CompanionSetup.MovieContentViewController"
+- "CompanionSetup/MovieContentViewController.swift"
+- "Could not load audio feedback resource. audioFeedback=%{public}s, url=%{public}s"
+- "Failed to play audio feedback for unknown sound ID"
+- "Failed to play audio feedback. No registered system sound ID. audioFeedback=%{public}s"
+- "Finished playing audio feedback. audioFeedback=%{public}s"
+- "Invalid sound ID returned when creating system sound for audio feedback resource. audioFeedback=%{public}s"
+- "SETTINGS_SUMMARY_SETTING_NAME_SIRI_DATA_SHARING"
+- "Start HomePod Setup"
+- "appletv.badge.exclamationmark"
+- "availableProducts"
+- "https://support.apple.com/108414"
+- "initWithItems:"
+- "productChanged:"
+- "selectedSegmentIndex"
+- "setHidden:"
+- "setSelectedSegmentIndex:"
+- "startHomePodSetup"
+- "systemSoundIDByAudioFeedback"
+- "visualPairingComplete"
+```

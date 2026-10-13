@@ -1,0 +1,276 @@
+## ServicesPaymentUI
+
+> `/System/Library/PrivateFrameworks/ServicesPaymentUI.framework/ServicesPaymentUI`
+
+```diff
+
+-1.1.14.0.0
+-  __TEXT.__text: 0xb4ba0
+-  __TEXT.__objc_methlist: 0x97c
+-  __TEXT.__const: 0x8764
+-  __TEXT.__constg_swiftt: 0x27a8
+-  __TEXT.__swift5_typeref: 0x5648
+-  __TEXT.__swift5_fieldmd: 0x2554
+-  __TEXT.__swift5_builtin: 0x8c
+-  __TEXT.__swift5_reflstr: 0x1f73
++1.1.14.2.1
++  __TEXT.__text: 0xb6880
++  __TEXT.__objc_methlist: 0xa64
++  __TEXT.__const: 0x8808
++  __TEXT.__constg_swiftt: 0x2860
++  __TEXT.__swift5_typeref: 0x5684
++  __TEXT.__swift5_fieldmd: 0x2610
++  __TEXT.__swift5_builtin: 0xc8
++  __TEXT.__swift5_reflstr: 0x1fc0
+   __TEXT.__swift5_assocty: 0x6c0
+   __TEXT.__swift5_proto: 0x64c
+-  __TEXT.__swift5_types: 0x240
+-  __TEXT.__swift5_capture: 0xc78
++  __TEXT.__swift5_types: 0x254
++  __TEXT.__cstring: 0x1a4a
++  __TEXT.__swift5_capture: 0xcec
+   __TEXT.__swift_as_entry: 0x90
+   __TEXT.__swift_as_cont: 0x1f4
+   __TEXT.__swift_as_ret: 0xa8
+-  __TEXT.__cstring: 0x1a48
+   __TEXT.__oslogstring: 0x2be0
+   __TEXT.__swift5_protos: 0x10
+-  __TEXT.__unwind_info: 0x2d10
++  __TEXT.__unwind_info: 0x2dd8
+   __TEXT.__eh_frame: 0x3d70
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x168
+-  __DATA_CONST.__objc_classlist: 0xa0
+-  __DATA_CONST.__objc_protolist: 0xf8
++  __DATA_CONST.__objc_classlist: 0xb0
++  __DATA_CONST.__objc_protolist: 0x108
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xcf8
+-  __DATA_CONST.__objc_protorefs: 0x98
+-  __DATA_CONST.__got: 0xb98
+-  __AUTH_CONST.__const: 0x4c38
+-  __AUTH_CONST.__objc_const: 0x2530
+-  __AUTH_CONST.__auth_got: 0x1a70
+-  __AUTH.__objc_data: 0x6a8
+-  __AUTH.__data: 0x1a10
+-  __DATA.__data: 0x27c8
++  __DATA_CONST.__objc_selrefs: 0xda0
++  __DATA_CONST.__objc_protorefs: 0xa0
++  __DATA_CONST.__got: 0xc00
++  __AUTH_CONST.__const: 0x4f20
++  __AUTH_CONST.__objc_const: 0x26b0
++  __AUTH_CONST.__auth_got: 0x1a90
++  __AUTH.__objc_data: 0x818
++  __AUTH.__data: 0x1a68
++  __DATA.__data: 0x28d0
+   __DATA.__common: 0xc8
+-  __DATA_DIRTY.__objc_data: 0x12a8
++  __DATA_DIRTY.__objc_data: 0x12b0
+   __DATA_DIRTY.__data: 0x5d8
+   __DATA_DIRTY.__common: 0x79
+   __DATA_DIRTY.__bss: 0x180
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 3123
+-  Symbols:   9758
++  Functions: 3184
++  Symbols:   9899
+   CStrings:  393
+ 
+Symbols:
++ _$s10Foundation12NotificationV8userInfoSDys11AnyHashableVypGSgvg
++ _$s17ServicesPaymentUI0B19SheetViewControllerC011showAuthKitC033_C6BE8422216CA333FAFA068087384088LLyyYaFyycfU1_
++ _$s17ServicesPaymentUI0B19SheetViewControllerC011showAuthKitC033_C6BE8422216CA333FAFA068087384088LLyyYaFyycfU1_TA
++ _$s17ServicesPaymentUI0B19SheetViewControllerC08passwordD21TransitioningDelegate33_C6BE8422216CA333FAFA068087384088LLAA08PassworddhI0CvpWvd
++ _$s17ServicesPaymentUI19PasswordSheetLayoutV5frameSo6CGRectVvg
++ _$s17ServicesPaymentUI34PasswordSheetTransitioningDelegateC22presentationController12forPresented10presenting6sourceSo014UIPresentationI0CSgSo06UIViewI0C_ALSgALtFTo
++ _$s17ServicesPaymentUI34PasswordSheetTransitioningDelegateCACycfcTo
++ _$s17ServicesPaymentUI34PasswordSheetTransitioningDelegateCMF
++ _$s17ServicesPaymentUI34PasswordSheetTransitioningDelegateCMa
++ _$s17ServicesPaymentUI34PasswordSheetTransitioningDelegateCMf
++ _$s17ServicesPaymentUI34PasswordSheetTransitioningDelegateCMn
++ _$s17ServicesPaymentUI34PasswordSheetTransitioningDelegateCN
++ _$s17ServicesPaymentUI34PasswordSheetTransitioningDelegateCfD
++ _$s17ServicesPaymentUI35PasswordSheetPresentationControllerC013presentedViewG010presentingACSo06UIViewG0C_AGSgtcfcTf4ggn_n
++ _$s17ServicesPaymentUI35PasswordSheetPresentationControllerC013presentedViewG010presentingACSo06UIViewG0C_AGSgtcfcTo
++ _$s17ServicesPaymentUI35PasswordSheetPresentationControllerC031frameOfPresentedViewInContainerK0So6CGRectVvg
++ _$s17ServicesPaymentUI35PasswordSheetPresentationControllerC031frameOfPresentedViewInContainerK0So6CGRectVvgTo
++ _$s17ServicesPaymentUI35PasswordSheetPresentationControllerC11dimmingView33_8BEC848ECB7E09149FDE4530A911A683LLSo6UIViewCvpWvd
++ _$s17ServicesPaymentUI35PasswordSheetPresentationControllerC13keyboardFrame33_8BEC848ECB7E09149FDE4530A911A683LLSo6CGRectVvpWvd
++ _$s17ServicesPaymentUI35PasswordSheetPresentationControllerC23keyboardWillChangeFrame33_8BEC848ECB7E09149FDE4530A911A683LLyy10Foundation12NotificationVF
++ _$s17ServicesPaymentUI35PasswordSheetPresentationControllerC23keyboardWillChangeFrame33_8BEC848ECB7E09149FDE4530A911A683LLyy10Foundation12NotificationVFTo
++ _$s17ServicesPaymentUI35PasswordSheetPresentationControllerC23keyboardWillChangeFrame33_8BEC848ECB7E09149FDE4530A911A683LLyy10Foundation12NotificationVFyyXEfU_
++ _$s17ServicesPaymentUI35PasswordSheetPresentationControllerC23keyboardWillChangeFrame33_8BEC848ECB7E09149FDE4530A911A683LLyy10Foundation12NotificationVFyyXEfU_TA
++ _$s17ServicesPaymentUI35PasswordSheetPresentationControllerC25dismissalTransitionDidEndyySbFTo
++ _$s17ServicesPaymentUI35PasswordSheetPresentationControllerC26shouldRemovePresentersViewSbvgTo
++ _$s17ServicesPaymentUI35PasswordSheetPresentationControllerC28dismissalTransitionWillBeginyyF
++ _$s17ServicesPaymentUI35PasswordSheetPresentationControllerC28dismissalTransitionWillBeginyyFTo
++ _$s17ServicesPaymentUI35PasswordSheetPresentationControllerC28dismissalTransitionWillBeginyyFySo06UIViewgI18CoordinatorContext_pcfU_TA
++ _$s17ServicesPaymentUI35PasswordSheetPresentationControllerC28presentationTransitionDidEndyySbFTo
++ _$s17ServicesPaymentUI35PasswordSheetPresentationControllerC31containerViewWillLayoutSubviewsyyF
++ _$s17ServicesPaymentUI35PasswordSheetPresentationControllerC31containerViewWillLayoutSubviewsyyFTo
++ _$s17ServicesPaymentUI35PasswordSheetPresentationControllerC31presentationTransitionWillBeginyyF
++ _$s17ServicesPaymentUI35PasswordSheetPresentationControllerC31presentationTransitionWillBeginyyFTo
++ _$s17ServicesPaymentUI35PasswordSheetPresentationControllerC31presentationTransitionWillBeginyyFySo06UIViewgI18CoordinatorContext_pcfU_TA
++ _$s17ServicesPaymentUI35PasswordSheetPresentationControllerCMF
++ _$s17ServicesPaymentUI35PasswordSheetPresentationControllerCMa
++ _$s17ServicesPaymentUI35PasswordSheetPresentationControllerCMf
++ _$s17ServicesPaymentUI35PasswordSheetPresentationControllerCMn
++ _$s17ServicesPaymentUI35PasswordSheetPresentationControllerCN
++ _$s17ServicesPaymentUI35PasswordSheetPresentationControllerCfD
++ _$s17ServicesPaymentUI35PasswordSheetPresentationControllerCfDTm
++ _$s17ServicesPaymentUI35PasswordSheetPresentationControllerCfETo
++ _$s7SwiftUI12_FrameLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI12_FrameLayoutVAcA12ViewModifierAAWL
++ _$s7SwiftUI12_FrameLayoutVAcA12ViewModifierAAWl
++ _$s7SwiftUI12_FrameLayoutVN
++ _$s7SwiftUI13_ShadowEffectVAA12ViewModifierAAMc
++ _$s7SwiftUI13_ShadowEffectVAcA12ViewModifierAAWL
++ _$s7SwiftUI13_ShadowEffectVAcA12ViewModifierAAWl
++ _$s7SwiftUI13_ShadowEffectVN
++ _$s7SwiftUI14_PaddingLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI14_PaddingLayoutVAcA12ViewModifierAAWL
++ _$s7SwiftUI14_PaddingLayoutVAcA12ViewModifierAAWl
++ _$s7SwiftUI14_PaddingLayoutVN
++ _$s7SwiftUI15ModifiedContentVyAA4TextVAA14_PaddingLayoutVGACyxq_GAA4ViewA2aJRzAA0H8ModifierR_rlWlTm
++ _$s7SwiftUI15ModifiedContentVyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA0E9AlignmentOGGACyxq_GAA4ViewA2aMRzAA0kI0R_rlWlTm
++ _$s7SwiftUI15ModifiedContentVyACy015ServicesPaymentB017AppleIDSignInViewVAA16_FlexFrameLayoutVGAHGACyxq_GAA0J0A2aLRzAA0J8ModifierR_rlWl
++ _$s7SwiftUI16_FixedSizeLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI16_FixedSizeLayoutVAcA12ViewModifierAAWL
++ _$s7SwiftUI16_FixedSizeLayoutVAcA12ViewModifierAAWl
++ _$s7SwiftUI16_FixedSizeLayoutVN
++ _$s7SwiftUI16_FlexFrameLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI16_FlexFrameLayoutVAcA12ViewModifierAAWL
++ _$s7SwiftUI16_FlexFrameLayoutVAcA12ViewModifierAAWl
++ _$s7SwiftUI16_FlexFrameLayoutVN
++ _$s7SwiftUI18_AspectRatioLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI18_AspectRatioLayoutVAcA12ViewModifierAAWL
++ _$s7SwiftUI18_AspectRatioLayoutVAcA12ViewModifierAAWl
++ _$s7SwiftUI18_AspectRatioLayoutVN
++ _$s7SwiftUI22HierarchicalShapeStyleVAA0dE0AAMc
++ _$s7SwiftUI22HierarchicalShapeStyleVAcA0dE0AAWL
++ _$s7SwiftUI22HierarchicalShapeStyleVAcA0dE0AAWl
++ _$s7SwiftUI25_AppearanceActionModifierVAA04ViewE0AAMc
++ _$s7SwiftUI25_AppearanceActionModifierVAcA04ViewE0AAWL
++ _$s7SwiftUI25_AppearanceActionModifierVAcA04ViewE0AAWl
++ _$s7SwiftUI25_AppearanceActionModifierVN
++ _$s7SwiftUI4TextVAA4ViewAAMc
++ _$s7SwiftUI4TextVAcA4ViewAAWL
++ _$s7SwiftUI4TextVAcA4ViewAAWl
++ _$s7SwiftUI5ColorVAA10ShapeStyleAAMc
++ _$s7SwiftUI5ColorVAA4ViewAAMc
++ _$s7SwiftUI5ColorVAcA10ShapeStyleAAWL
++ _$s7SwiftUI5ColorVAcA10ShapeStyleAAWl
++ _$s7SwiftUI5ColorVAcA4ViewAAWL
++ _$s7SwiftUI5ColorVAcA4ViewAAWl
++ _$s7SwiftUI5ImageVAA4ViewAAMc
++ _$s7SwiftUI5ImageVAcA4ViewAAWL
++ _$s7SwiftUI5ImageVAcA4ViewAAWl
++ _$s7SwiftUI7AnyViewVAA0D0AAMc
++ _$s7SwiftUI7AnyViewVAcA0D0AAWL
++ _$s7SwiftUI7AnyViewVAcA0D0AAWl
++ _$s7SwiftUI9EmptyViewVAA0D0AAMc
++ _$s7SwiftUI9EmptyViewVAcA0D0AAWL
++ _$s7SwiftUI9EmptyViewVAcA0D0AAWl
++ _$s7SwiftUI9EmptyViewVN
++ _$sSo6CGRectVMB
++ _$sSo6CGRectVMF
++ _$sSo6CGRectVML
++ _$sSo6CGRectVMa
++ _$sSo6CGRectVMf
++ _$sSo6CGRectVMn
++ _$sSo6CGRectVWV
++ _$sSo6CGRectVwet
++ _$sSo6CGRectVwst
++ _$sSo6CGSizeVMB
++ _$sSo6CGSizeVMF
++ _$sSo6CGSizeVML
++ _$sSo6CGSizeVMa
++ _$sSo6CGSizeVMf
++ _$sSo6CGSizeVMn
++ _$sSo6CGSizeVWV
++ _$sSo6CGSizeVwet
++ _$sSo6CGSizeVwst
++ _$sSo7CGPointVMB
++ _$sSo7CGPointVMF
++ _$sSo7CGPointVML
++ _$sSo7CGPointVMa
++ _$sSo7CGPointVMf
++ _$sSo7CGPointVMn
++ _$sSo7CGPointVWV
++ _$sSo7CGPointVwet
++ _$sSo7CGPointVwst
++ _$sSuN
++ _$ss5NeverO7SwiftUI4ViewACMc
++ _$ss5NeverOAB7SwiftUI4ViewACWL
++ _$ss5NeverOAB7SwiftUI4ViewACWl
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.345TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.345Tu
++ _CGRectIntersection
++ _CGRectIsEmpty
++ _CGRectIsNull
++ _CGRectNull
++ _OBJC_CLASS_$_UIPresentationController
++ _OBJC_CLASS_$__TtC17ServicesPaymentUI34PasswordSheetTransitioningDelegate
++ _OBJC_CLASS_$__TtC17ServicesPaymentUI35PasswordSheetPresentationController
++ _OBJC_METACLASS_$_UIPresentationController
++ _OBJC_METACLASS_$__TtC17ServicesPaymentUI34PasswordSheetTransitioningDelegate
++ _OBJC_METACLASS_$__TtC17ServicesPaymentUI35PasswordSheetPresentationController
++ _UIKeyboardAnimationCurveUserInfoKey
++ _UIKeyboardAnimationDurationUserInfoKey
++ _UIKeyboardFrameEndUserInfoKey
++ _UIKeyboardWillChangeFrameNotification
++ __DATA__TtC17ServicesPaymentUI34PasswordSheetTransitioningDelegate
++ __DATA__TtC17ServicesPaymentUI35PasswordSheetPresentationController
++ __INSTANCE_METHODS__TtC17ServicesPaymentUI34PasswordSheetTransitioningDelegate
++ __INSTANCE_METHODS__TtC17ServicesPaymentUI35PasswordSheetPresentationController
++ __IVARS__TtC17ServicesPaymentUI35PasswordSheetPresentationController
++ __METACLASS_DATA__TtC17ServicesPaymentUI34PasswordSheetTransitioningDelegate
++ __METACLASS_DATA__TtC17ServicesPaymentUI35PasswordSheetPresentationController
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIViewControllerTransitioningDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_UIViewControllerTransitioningDelegate
++ __OBJC_$_PROTOCOL_REFS_UIViewControllerTransitioningDelegate
++ __OBJC_LABEL_PROTOCOL_$_UIViewControllerTransitioningDelegate
++ __OBJC_PROTOCOL_$_UIViewControllerTransitioningDelegate
++ __PROPERTIES__TtC17ServicesPaymentUI35PasswordSheetPresentationController
++ __PROTOCOLS__TtC17ServicesPaymentUI34PasswordSheetTransitioningDelegate
++ _kCACornerCurveContinuous
++ _symbolic So24UIPresentationControllerC
++ _symbolic _____ 17ServicesPaymentUI34PasswordSheetTransitioningDelegateC
++ _symbolic _____ 17ServicesPaymentUI35PasswordSheetPresentationControllerC
++ _symbolic _____ So6CGRectV
++ _symbolic _____ So6CGSizeV
++ _symbolic _____ So7CGPointV
++ _type_layout_string So6CGRectV
++ _type_layout_string So7CGPointV
+- _$s7SwiftUI12_FrameLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI13_ShadowEffectVAA12ViewModifierAAWP
+- _$s7SwiftUI14_PaddingLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI15ModifiedContentVy015ServicesPaymentB017AppleIDSignInViewVAA16_FlexFrameLayoutVGACyxq_GAA0J0A2aKRzAA0J8ModifierR_rlWlTm
+- _$s7SwiftUI15ModifiedContentVyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA0E9AlignmentOGGACyxq_GAA4ViewA2aMRzAA0kI0R_rlWl
+- _$s7SwiftUI15ModifiedContentVyACy015ServicesPaymentB016HeroSubtitleView33_15FFCD62D4FC3070C6F024ED985F082FLLVAA24_ForegroundStyleModifierVyAA017HierarchicalShapeR0VGGAA022_EnvironmentKeyWritingS0VyAA13TextAlignmentOGGACyxq_GAA0I0A2aURzAA0iS0R_rlWl
+- _$s7SwiftUI15ModifiedContentVyACyAA4TextVAA14_PaddingLayoutVGAGGACyxq_GAA4ViewA2aKRzAA0H8ModifierR_rlWl
+- _$s7SwiftUI16_FixedSizeLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI16_FlexFrameLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI18_AspectRatioLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI22HierarchicalShapeStyleVAA0dE0AAWP
+- _$s7SwiftUI25_AppearanceActionModifierVAA04ViewE0AAWP
+- _$s7SwiftUI4TextVAA4ViewAAWP
+- _$s7SwiftUI5ColorVAA10ShapeStyleAAWP
+- _$s7SwiftUI5ColorVAA4ViewAAWP
+- _$s7SwiftUI5ImageVAA4ViewAAWP
+- _$s7SwiftUI7AnyViewVAA0D0AAWP
+- _$s7SwiftUI9EmptyViewVAA0D0AAWP
+- _$sSo35UISheetPresentationControllerDetentCML
+- _$ss5NeverO7SwiftUI4ViewACWP
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.337TQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.337Tu
+- _OBJC_CLASS_$_UISheetPresentationControllerDetent
+- _UISheetPresentationControllerDetentIdentifierLarge
+```

@@ -1,0 +1,56 @@
+## SiriFindMyUI
+
+> `/System/Library/Assistant/UIPlugins/SiriFindMyUIPlugin.siriUIBundle/Frameworks/SiriFindMyUI.framework/SiriFindMyUI`
+
+```diff
+
+-3605.18.1.0.0
+-  __TEXT.__text: 0x4f274
++3605.19.1.0.0
++  __TEXT.__text: 0x4fa20
+   __TEXT.__objc_methlist: 0x4f4
+   __TEXT.__const: 0x4f14
+   __TEXT.__constg_swiftt: 0x19fc
+
+   __TEXT.__swift_as_ret: 0x40
+   __TEXT.__swift_as_cont: 0x64
+   __TEXT.__swift5_mpenum: 0x14
+-  __TEXT.__unwind_info: 0x1cd0
++  __TEXT.__unwind_info: 0x1d30
+   __TEXT.__eh_frame: 0xdec
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x510
+   __DATA_CONST.__objc_protorefs: 0x40
+-  __DATA_CONST.__got: 0xcd8
++  __DATA_CONST.__got: 0xd08
+   __AUTH_CONST.__const: 0x2640
+   __AUTH_CONST.__objc_const: 0x9a0
+-  __AUTH_CONST.__auth_got: 0x1a10
++  __AUTH_CONST.__auth_got: 0x1a20
+   __AUTH.__objc_data: 0x250
+   __AUTH.__data: 0x17a8
+-  __DATA.__data: 0x2480
++  __DATA.__data: 0x24f8
+   __DATA.__common: 0x348
+   __DATA_DIRTY.__bss: 0x80
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 2289
++  Functions: 2311
+   Symbols:   1263
+   CStrings:  96
+ 
+Symbols:
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyAA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQOyAA5GroupVyAA012_ConditionalD0Vy010SiriFindMyB00nO17AmbientMapSnippetVAM0noq8StandardR0VGG_Qo_AA16_OverlayModifierVyACyACyACyACyAA4TextVAA14_PaddingLayoutVGAZGAA026_InsettableBackgroundShapeU0VyAA8MaterialVAA7CapsuleVGGAZGGGAVyACyACyAeAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQOyAA6ButtonVyAA5ImageVG_AA19BorderedButtonStyleVQo_AA11_ClipEffectVyAA6CircleVGGAZGSgGGAaDHPA11_AaDHPqd__AaDHD2_ATHO_A10_AA0eU0HPyHCHC_A30_AAA32_HPyHCHC
++ _symbolic _____yAAy_____y_____y_____y__________GG_Qo______yAAyAAyAAyAAy__________GAKG_____y__________GGAKGGGAIyAAyAAy_____y_____y_____G______Qo______y_____GGAKGSgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AA5GroupV AA012_ConditionalD0V 010SiriFindMyB00nO17AmbientMapSnippetV AM0noq8StandardR0V AA16_OverlayModifierV AA4TextV AA14_PaddingLayoutV AA026_InsettableBackgroundShapeU0V AA8MaterialV AA7CapsuleV AeAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA6ButtonV AA5ImageV AA19BorderedButtonStyleV AA11_ClipEffectV AA6CircleV
++ _symbolic _____y_____yABy_____y_____y_____G______Qo______y_____GG_____GSgG 7SwiftUI16_OverlayModifierV AA15ModifiedContentV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonI0Rd__lFQO AA0K0V AA5ImageV AA08BorderedkI0V AA11_ClipEffectV AA6CircleV AA14_PaddingLayoutV
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyAA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQOyAA5GroupVyAA012_ConditionalD0Vy010SiriFindMyB00nO17AmbientMapSnippetVAM0noq8StandardR0VGG_Qo_AA16_OverlayModifierVyACyACyACyACyAA4TextVAA14_PaddingLayoutVGAZGAA026_InsettableBackgroundShapeU0VyAA8MaterialVAA7CapsuleVGGAZGGGAVyACyACyAeAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQOyAA6ButtonVyAA5ImageVG_AA19BorderedButtonStyleVQo_AA11_ClipEffectVyAA6CircleVGGAZGGGAaDHPA11_AaDHPqd__AaDHD2_ATHO_A10_AA0eU0HPyHCHC_A29_AAA31_HPyHCHC
+- _symbolic _____yAAy_____y_____y_____y__________GG_Qo______yAAyAAyAAyAAy__________GAKG_____y__________GGAKGGGAIyAAyAAy_____y_____y_____G______Qo______y_____GGAKGGG 7SwiftUI15ModifiedContentV AA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AA5GroupV AA012_ConditionalD0V 010SiriFindMyB00nO17AmbientMapSnippetV AM0noq8StandardR0V AA16_OverlayModifierV AA4TextV AA14_PaddingLayoutV AA026_InsettableBackgroundShapeU0V AA8MaterialV AA7CapsuleV AeAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA6ButtonV AA5ImageV AA19BorderedButtonStyleV AA11_ClipEffectV AA6CircleV
+- _symbolic _____y_____yABy_____y_____y_____G______Qo______y_____GG_____GG 7SwiftUI16_OverlayModifierV AA15ModifiedContentV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonI0Rd__lFQO AA0K0V AA5ImageV AA08BorderedkI0V AA11_ClipEffectV AA6CircleV AA14_PaddingLayoutV
+```

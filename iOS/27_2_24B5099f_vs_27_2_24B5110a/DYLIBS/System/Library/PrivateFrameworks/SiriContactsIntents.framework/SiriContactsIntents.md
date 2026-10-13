@@ -1,0 +1,112 @@
+## SiriContactsIntents
+
+> `/System/Library/PrivateFrameworks/SiriContactsIntents.framework/SiriContactsIntents`
+
+```diff
+
+ 3605.8.1.0.0
+-  __TEXT.__text: 0xfdf48
++  __TEXT.__text: 0x100734
+   __TEXT.__objc_methlist: 0xcb0
+-  __TEXT.__const: 0x75b0
+-  __TEXT.__oslogstring: 0x85cb
++  __TEXT.__const: 0x75c0
++  __TEXT.__oslogstring: 0x87bb
+   __TEXT.__cstring: 0x5275
+-  __TEXT.__swift5_typeref: 0x1f2c
++  __TEXT.__swift5_typeref: 0x1f3e
+   __TEXT.__swift5_reflstr: 0x1cc6
+   __TEXT.__swift5_assocty: 0x698
+   __TEXT.__constg_swiftt: 0x3734
+
+   __TEXT.__swift5_proto: 0x3bc
+   __TEXT.__swift5_types: 0x24c
+   __TEXT.__swift_as_entry: 0x448
+-  __TEXT.__swift_as_ret: 0x550
+-  __TEXT.__swift_as_cont: 0x600
++  __TEXT.__swift_as_ret: 0x560
++  __TEXT.__swift_as_cont: 0x620
+   __TEXT.__swift5_builtin: 0x118
+   __TEXT.__swift5_mpenum: 0x8
+   __TEXT.__swift5_protos: 0x50
+-  __TEXT.__unwind_info: 0x4588
+-  __TEXT.__eh_frame: 0x9824
++  __TEXT.__unwind_info: 0x45f0
++  __TEXT.__eh_frame: 0x9a64
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__got: 0x0
+   __AUTH_CONST.__const: 0x70f0
+   __AUTH_CONST.__objc_const: 0x5f40
+-  __AUTH_CONST.__auth_got: 0x22f8
++  __AUTH_CONST.__auth_got: 0x2338
+   __AUTH.__objc_data: 0x1928
+   __AUTH.__data: 0x2eb8
+-  __DATA.__data: 0x1940
++  __DATA.__data: 0x1950
+   __DATA.__objc_stublist: 0x18
+   __DATA.__common: 0x148
+   __DATA_DIRTY.__objc_data: 0x568
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 6213
+-  Symbols:   11535
+-  CStrings:  1050
++  Functions: 6246
++  Symbols:   11567
++  CStrings:  1055
+ 
+Symbols:
++ _$s11SiriKitFlow11DeviceStateP15isHomeAccessorySbvgTj
++ _$s11SiriKitFlow15ResponseFactoryC04makeD6Output23appIntentRepresentation6dialog24outputGenerationManifestAA0G0_p18AppIntentsServices0oiJ0_p_SaySo21DialogExecutionResultCGAA0gmN0VtYaKF
++ _$s11SiriKitFlow15ResponseFactoryC04makeD6Output23appIntentRepresentation6dialog24outputGenerationManifestAA0G0_p18AppIntentsServices0oiJ0_p_SaySo21DialogExecutionResultCGAA0gmN0VtYaKFTu
++ _$s13SiriUtilities0A11EnvironmentC13currentDeviceAA07CurrentE0Cvg
++ _$s13SiriUtilities13CurrentDeviceC15isHomeAccessorySbvgTj
++ _$s18SiriContactsCommon0aB9AppIntentMp
++ _$s18SiriContactsCommon0aB9AppIntent_pSgMR
++ _$s18SiriContactsCommon0aB9AppIntent_pSgMd
++ _$s18SiriContactsCommon0aB9AppIntent_pWOb
++ _$s18SiriContactsCommon20AppIntentTransformerO011transformTodE012snippetModelAA0abdE0_pSgAA0dE13Transformable_p_tFZ
++ _$s18SiriContactsCommon22GetContactSnippetModelVAA22AppIntentTransformableAAWP
++ _$s18SiriContactsCommon31GetContactAttributeSnippetModelV07DisplayF0V12displayLabelSSSgvg
++ _$s18SiriContactsCommon31GetContactAttributeSnippetModelV07DisplayF0V12displayValueSSSgvg
++ _$s18SiriContactsCommon31GetContactAttributeSnippetModelV07DisplayF0VSgMR
++ _$s18SiriContactsCommon31GetContactAttributeSnippetModelV07DisplayF0VSgMd
++ _$s18SiriContactsCommon31GetContactAttributeSnippetModelV10attributesSayAC07DisplayF0VGvg
++ _$s18SiriContactsCommon31GetContactAttributeSnippetModelVAA22AppIntentTransformableAAWP
++ _$s19SiriContactsIntents0B12DelegateFlowC03getE033_BBC3BB1DA95D5AD1AC9EFA35FB2356D2LL3for0a3KitE003AnyE0CSgAG5InputV_tYaKFTQ9_
++ _$s19SiriContactsIntents0B12DelegateFlowC03getE033_BBC3BB1DA95D5AD1AC9EFA35FB2356D2LL3for0a3KitE003AnyE0CSgAG5InputV_tYaKFTY12_
++ _$s19SiriContactsIntents0B12DelegateFlowC03getE033_BBC3BB1DA95D5AD1AC9EFA35FB2356D2LL3for0a3KitE003AnyE0CSgAG5InputV_tYaKFTY13_
++ _$s19SiriContactsIntents0B12DelegateFlowC03getE033_BBC3BB1DA95D5AD1AC9EFA35FB2356D2LL3for0a3KitE003AnyE0CSgAG5InputV_tYaKFTY14_
++ _$s19SiriContactsIntents23RedirectToCompanionFlowCAC0A9Utilities0A19EnvironmentLocatingAAWlTm
++ _$s19SiriContactsIntents30GetContactHandleIntentStrategyC04makeG15HandledResponse9rchRecord0A7KitFlow6Output_pAF0g10ResolutionM0VyAA0deG0CAA0degK0CG_tYaKFTQ15_
++ _$s19SiriContactsIntents30GetContactHandleIntentStrategyC04makeG15HandledResponse9rchRecord0A7KitFlow6Output_pAF0g10ResolutionM0VyAA0deG0CAA0degK0CG_tYaKFTY21_
++ _$s19SiriContactsIntents30GetContactHandleIntentStrategyC04makeG15HandledResponse9rchRecord0A7KitFlow6Output_pAF0g10ResolutionM0VyAA0deG0CAA0degK0CG_tYaKFTY22_
++ _$s19SiriContactsIntents30GetContactHandleIntentStrategyC04makeG15HandledResponse9rchRecord0A7KitFlow6Output_pAF0g10ResolutionM0VyAA0deG0CAA0degK0CG_tYaKFTY23_
++ _$s19SiriContactsIntents38ContactAttributeDisambiguationStrategyC013makePromptForF014paginatedItems13resolveRecord0A7KitFlow6Output_pAG22PaginatedItemContainerVyAA0dE0CG_AG019ParameterResolutionN0VyxGtYaKFTQ7_
++ _$s19SiriContactsIntents38ContactAttributeDisambiguationStrategyC013makePromptForF014paginatedItems13resolveRecord0A7KitFlow6Output_pAG22PaginatedItemContainerVyAA0dE0CG_AG019ParameterResolutionN0VyxGtYaKFTY10_
++ _$s19SiriContactsIntents38ContactAttributeDisambiguationStrategyC013makePromptForF014paginatedItems13resolveRecord0A7KitFlow6Output_pAG22PaginatedItemContainerVyAA0dE0CG_AG019ParameterResolutionN0VyxGtYaKFTY8_
++ _$s19SiriContactsIntents38ContactAttributeDisambiguationStrategyC013makePromptForF014paginatedItems13resolveRecord0A7KitFlow6Output_pAG22PaginatedItemContainerVyAA0dE0CG_AG019ParameterResolutionN0VyxGtYaKFTY9_
++ _$s19SiriContactsIntents39GetContactAttributeHandleIntentStrategyC04makeH15HandledResponse9rchRecord0A7KitFlow6Output_pAF0h10ResolutionN0VyAA0defH0CAA0defhL0CG_tYaKFTQ9_
++ _$s19SiriContactsIntents39GetContactAttributeHandleIntentStrategyC04makeH15HandledResponse9rchRecord0A7KitFlow6Output_pAF0h10ResolutionN0VyAA0defH0CAA0defhL0CG_tYaKFTY10_
++ _$s19SiriContactsIntents39GetContactAttributeHandleIntentStrategyC04makeH15HandledResponse9rchRecord0A7KitFlow6Output_pAF0h10ResolutionN0VyAA0defH0CAA0defhL0CG_tYaKFTY11_
++ _$s19SiriContactsIntents39GetContactAttributeHandleIntentStrategyC04makeH15HandledResponse9rchRecord0A7KitFlow6Output_pAF0h10ResolutionN0VyAA0defH0CAA0defhL0CG_tYaKFTY12_
++ _$sSlsE5first7ElementQzSgvgSay18SiriContactsCommon31GetContactAttributeSnippetModelV07DisplayH0VG_Tg5
++ _symbolic _____Sg 18SiriContactsCommon31GetContactAttributeSnippetModelV07DisplayF0V
++ _symbolic ______pSg 18SiriContactsCommon0aB9AppIntentP
+- _$s19SiriContactsIntents0B12DelegateFlowC03getE033_BBC3BB1DA95D5AD1AC9EFA35FB2356D2LL3for0a3KitE003AnyE0CSgAG5InputV_tYaKFTY9_
+- _$s19SiriContactsIntents21SimpleHandoffStrategyCAC0A7KitFlow0e18SessionToCompanionhF5AsyncAAWlTm
+- _$s19SiriContactsIntents30GetContactHandleIntentStrategyC04makeG15HandledResponse9rchRecord0A7KitFlow6Output_pAF0g10ResolutionM0VyAA0deG0CAA0degK0CG_tYaKFTY15_
+- _$s19SiriContactsIntents38ContactAttributeDisambiguationStrategyC013makePromptForF014paginatedItems13resolveRecord0A7KitFlow6Output_pAG22PaginatedItemContainerVyAA0dE0CG_AG019ParameterResolutionN0VyxGtYaKFTY7_
+- _$s19SiriContactsIntents39GetContactAttributeHandleIntentStrategyC04makeH15HandledResponse9rchRecord0A7KitFlow6Output_pAF0h10ResolutionN0VyAA0defH0CAA0defhL0CG_tYaKFTY9_
+CStrings:
++ "#ContactAttributeDisambiguationStrategy makeIntentHandledResponse generating AppIntent"
++ "#GetContactAttributeHandleIntentStrategy makeIntentHandledResponse failed to transformToAppIntent"
++ "#GetContactAttributeHandleIntentStrategy makeIntentHandledResponse generating AppIntent - %s -  %s"
++ "#GetContactHandleIntentStrategy makeIntentHandledResponse failed to transformToAppIntent"
++ "#GetContactHandleIntentStrategy makeIntentHandledResponse generating AppIntent"
+```

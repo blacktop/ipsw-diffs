@@ -1,0 +1,139 @@
+## SpeechRecognitionCommandAndControl
+
+> `/System/Library/PrivateFrameworks/SpeechRecognitionCommandAndControl.framework/SpeechRecognitionCommandAndControl`
+
+```diff
+
+ 191.2.3.0.0
+-  __TEXT.__text: 0x11e44c
++  __TEXT.__text: 0x11eae4
+   __TEXT.__objc_methlist: 0xc174
+   __TEXT.__const: 0x4874
+   __TEXT.__oslogstring: 0x442a
+
+   __TEXT.__swift_as_entry: 0x3c
+   __TEXT.__swift_as_ret: 0x4c
+   __TEXT.__swift_as_cont: 0x74
+-  __TEXT.__unwind_info: 0x5a90
++  __TEXT.__unwind_info: 0x5ae8
+   __TEXT.__eh_frame: 0x11c0
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+
+   __DATA_CONST.__objc_protorefs: 0x30
+   __DATA_CONST.__objc_superrefs: 0x2b0
+   __DATA_CONST.__objc_arraydata: 0x8b8
+-  __DATA_CONST.__got: 0x1580
++  __DATA_CONST.__got: 0x15f8
+   __AUTH_CONST.__const: 0x4e98
+   __AUTH_CONST.__cfstring: 0x9b40
+   __AUTH_CONST.__objc_const: 0x11aa8
+
+   __AUTH.__objc_data: 0x4840
+   __AUTH.__data: 0x1710
+   __DATA.__objc_ivar: 0xabc
+-  __DATA.__data: 0x3338
++  __DATA.__data: 0x33c0
+   __DATA.__objc_stublist: 0x10
+   __DATA.__common: 0x298
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 7403
+-  Symbols:   14926
++  Functions: 7421
++  Symbols:   14976
+   CStrings:  1884
+ 
+Symbols:
++ _$s7SwiftUI12_FrameLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI12_FrameLayoutVAcA12ViewModifierAAWL
++ _$s7SwiftUI12_FrameLayoutVAcA12ViewModifierAAWl
++ _$s7SwiftUI12_FrameLayoutVN
++ _$s7SwiftUI12_ScaleEffectVAA12ViewModifierAAMc
++ _$s7SwiftUI12_ScaleEffectVAcA12ViewModifierAAWL
++ _$s7SwiftUI12_ScaleEffectVAcA12ViewModifierAAWl
++ _$s7SwiftUI12_ScaleEffectVN
++ _$s7SwiftUI13_OffsetEffectVAA12ViewModifierAAMc
++ _$s7SwiftUI13_OffsetEffectVAcA12ViewModifierAAWL
++ _$s7SwiftUI13_OffsetEffectVAcA12ViewModifierAAWl
++ _$s7SwiftUI13_OffsetEffectVN
++ _$s7SwiftUI13_ShadowEffectVAA12ViewModifierAAMc
++ _$s7SwiftUI13_ShadowEffectVAcA12ViewModifierAAWL
++ _$s7SwiftUI13_ShadowEffectVAcA12ViewModifierAAWl
++ _$s7SwiftUI13_ShadowEffectVN
++ _$s7SwiftUI14_OpacityEffectVAA12ViewModifierAAMc
++ _$s7SwiftUI14_OpacityEffectVAcA12ViewModifierAAWL
++ _$s7SwiftUI14_OpacityEffectVAcA12ViewModifierAAWl
++ _$s7SwiftUI14_OpacityEffectVN
++ _$s7SwiftUI14_PaddingLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI14_PaddingLayoutVAcA12ViewModifierAAWL
++ _$s7SwiftUI14_PaddingLayoutVAcA12ViewModifierAAWl
++ _$s7SwiftUI14_PaddingLayoutVN
++ _$s7SwiftUI15ModifiedContentVyACyACyACyACyACyAA6VStackVyAA05TupleD0VyAA4TextV_ACyAiA16_FixedSizeLayoutVGACyAA6SpacerVAA06_FrameJ0VGAEyAGyAA6ButtonVyACyACyACyACyAiA05_FlexlJ0VGAA08_PaddingJ0VGAA24_BackgroundStyleModifierVyAA5ColorVGGAA11_ClipEffectVyAA16RoundedRectangleVGGG_A10_QPGGQPGGAXGA2_GA8_GAA07_ShadowU0VGAXGAUGACyxq_GAA4ViewA2AA24_RzAA0yR0R_rlWlTm
++ _$s7SwiftUI15ModifiedContentVyACyACyACyACyACyAA6VStackVyAA05TupleD0VyACyACyACyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAKyAA5ColorVSgGGAA14_PaddingLayoutVG_ACyACyAA4TextVAKyAA0P9AlignmentOGGAA010_FixedSizeO0VGACyAA6SpacerVAA06_FrameO0VGAA6ButtonVyACyACyACyACyAzA05_FlexuO0VGAWGAA016_BackgroundStyleK0VyARGGAA11_ClipEffectVyAA16RoundedRectangleVGGGQPGGAWGA19_GA25_GAA13_ShadowEffectVGAWGA14_GACyxq_GAA4ViewA2AA39_RzAA04ViewK0R_rlWlTm
++ _$s7SwiftUI15ModifiedContentVyACyACyACyACyACyACyAA6HStackVyAA05TupleD0VyACyACyACyAA4TextVAA30_EnvironmentKeyWritingModifierVySiSgGGAKyAI14TruncationModeOGGAA016_ForegroundStyleK0VyAA5ColorVGG_AA012_ConditionalD0VyA2IGSgQPGGAKyAA4FontVSgGGAA14_PaddingLayoutVGA9_GAA011_BackgroundK0VyAGyAA10_ShapeViewVyAA7CapsuleVAVG_A18_QPGGGAA14_OpacityEffectVGAA017_AllowsHitTestingK0VGAA023AccessibilityAttachmentK0VGACyxq_GAA0W0A2AA32_RzAA0wK0R_rlWlTm
++ _$s7SwiftUI16_FlexFrameLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI16_FlexFrameLayoutVAcA12ViewModifierAAWL
++ _$s7SwiftUI16_FlexFrameLayoutVAcA12ViewModifierAAWl
++ _$s7SwiftUI16_FlexFrameLayoutVN
++ _$s7SwiftUI18_AspectRatioLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI18_AspectRatioLayoutVAcA12ViewModifierAAWL
++ _$s7SwiftUI18_AspectRatioLayoutVAcA12ViewModifierAAWl
++ _$s7SwiftUI18_AspectRatioLayoutVN
++ _$s7SwiftUI23_SafeAreaIgnoringLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI23_SafeAreaIgnoringLayoutVAcA12ViewModifierAAWL
++ _$s7SwiftUI23_SafeAreaIgnoringLayoutVAcA12ViewModifierAAWl
++ _$s7SwiftUI23_SafeAreaIgnoringLayoutVN
++ _$s7SwiftUI25_AllowsHitTestingModifierVAA04ViewF0AAMc
++ _$s7SwiftUI25_AllowsHitTestingModifierVAcA04ViewF0AAWL
++ _$s7SwiftUI25_AllowsHitTestingModifierVAcA04ViewF0AAWl
++ _$s7SwiftUI25_AllowsHitTestingModifierVN
++ _$s7SwiftUI25_AppearanceActionModifierVAA04ViewE0AAMc
++ _$s7SwiftUI25_AppearanceActionModifierVAcA04ViewE0AAWL
++ _$s7SwiftUI25_AppearanceActionModifierVAcA04ViewE0AAWl
++ _$s7SwiftUI25_AppearanceActionModifierVN
++ _$s7SwiftUI30_SafeAreaRegionsIgnoringLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI30_SafeAreaRegionsIgnoringLayoutVAcA12ViewModifierAAWL
++ _$s7SwiftUI30_SafeAreaRegionsIgnoringLayoutVAcA12ViewModifierAAWl
++ _$s7SwiftUI30_SafeAreaRegionsIgnoringLayoutVN
++ _$s7SwiftUI4TextVAA4ViewAAMc
++ _$s7SwiftUI4TextVAcA4ViewAAWL
++ _$s7SwiftUI4TextVAcA4ViewAAWl
++ _$s7SwiftUI4TextVN
++ _$s7SwiftUI5ColorVAA4ViewAAMc
++ _$s7SwiftUI5ColorVAcA4ViewAAWL
++ _$s7SwiftUI5ColorVAcA4ViewAAWl
++ _$s7SwiftUI5ColorVN
++ _$s7SwiftUI5ImageVAA4ViewAAMc
++ _$s7SwiftUI5ImageVAcA4ViewAAWL
++ _$s7SwiftUI5ImageVAcA4ViewAAWl
++ _$s7SwiftUI5ImageVN
++ _$sS2d7SwiftUI16VectorArithmeticAAWL
++ _$sS2d7SwiftUI16VectorArithmeticAAWl
++ _$sS2i7SwiftUI18_FormatSpecifiableAAWL
++ _$sS2i7SwiftUI18_FormatSpecifiableAAWl
++ _$sSd7SwiftUI16VectorArithmeticAAMc
++ _$sSi7SwiftUI18_FormatSpecifiableAAMc
+- _$s7SwiftUI12_FrameLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI12_ScaleEffectVAA12ViewModifierAAWP
+- _$s7SwiftUI13_OffsetEffectVAA12ViewModifierAAWP
+- _$s7SwiftUI13_ShadowEffectVAA12ViewModifierAAWP
+- _$s7SwiftUI14_OpacityEffectVAA12ViewModifierAAWP
+- _$s7SwiftUI14_PaddingLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI15ModifiedContentVyACyACyAA012_ConditionalD0VyACyACyACyACyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAIyAA19SymbolRenderingModeVSgGGAA25_ForegroundStyleModifier2VyAA5ColorVAWGGAA12_FrameLayoutVGACyACyAsA01_opJ0VyAWGGAA011_BackgroundJ0VyACyAA10_ShapeViewVyAA6CircleVAWGA_GGGGAA14_OpacityEffectVGAA017_AllowsHitTestingJ0VGAA023AccessibilityAttachmentJ0VGACyxq_GAA0W0A2AA26_RzAA0wJ0R_rlWlTm
+- _$s7SwiftUI15ModifiedContentVyACyACyACyACyACyAA6VStackVyAA05TupleD0VyAA4TextV_ACyAiA16_FixedSizeLayoutVGACyAA6SpacerVAA06_FrameJ0VGAEyAGyAA6ButtonVyACyACyACyACyAiA05_FlexlJ0VGAA08_PaddingJ0VGAA24_BackgroundStyleModifierVyAA5ColorVGGAA11_ClipEffectVyAA16RoundedRectangleVGGG_A10_QPGGQPGGAXGA2_GA8_GAA07_ShadowU0VGAXGAUGACyxq_GAA4ViewA2AA24_RzAA0yR0R_rlWl
+- _$s7SwiftUI16_FlexFrameLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI18_AspectRatioLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI23_SafeAreaIgnoringLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI25_AllowsHitTestingModifierVAA04ViewF0AAWP
+- _$s7SwiftUI25_AppearanceActionModifierVAA04ViewE0AAWP
+- _$s7SwiftUI30_SafeAreaRegionsIgnoringLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI4TextVAA4ViewAAWP
+- _$s7SwiftUI5ColorVAA4ViewAAWP
+- _$s7SwiftUI5ImageVAA4ViewAAWP
+- _$sSd7SwiftUI16VectorArithmeticAAWP
+- _$sSi7SwiftUI18_FormatSpecifiableAAWP
+```

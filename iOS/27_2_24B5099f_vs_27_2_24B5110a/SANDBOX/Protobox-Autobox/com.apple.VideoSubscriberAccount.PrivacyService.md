@@ -1,0 +1,14 @@
+## com.apple.VideoSubscriberAccount.PrivacyService
+
+> Group: ⬆️ Updated
+
+```diff
+
+ 			SYS_psynch_rw_wrlock
+ 			SYS_psynch_rw_unlock
+ 			SYS_psynch_rw_unlock2
++			SYS_iopolicysys
+ 			SYS_issetugid
+ 			SYS___pthread_kill
+ 			SYS___sigwait
+```
