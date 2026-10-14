@@ -1,6 +1,6 @@
 ## Trip
 
-> `Applications/Trip.app/Trip`
+> `/Applications/Trip.app/Trip`
 
 ### Sections with Same Size but Changed Content
 

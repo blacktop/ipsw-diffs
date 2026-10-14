@@ -1,6 +1,6 @@
 ## siriactionsd
 
-> `System/Library/PrivateFrameworks/VoiceShortcuts.framework/Support/siriactionsd`
+> `/System/Library/PrivateFrameworks/VoiceShortcuts.framework/Support/siriactionsd`
 
 ### Sections with Same Size but Changed Content
 

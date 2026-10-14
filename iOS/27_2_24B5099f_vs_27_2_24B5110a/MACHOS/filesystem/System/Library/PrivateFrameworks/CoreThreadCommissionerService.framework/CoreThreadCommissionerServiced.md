@@ -1,6 +1,6 @@
 ## CoreThreadCommissionerServiced
 
-> `System/Library/PrivateFrameworks/CoreThreadCommissionerService.framework/CoreThreadCommissionerServiced`
+> `/System/Library/PrivateFrameworks/CoreThreadCommissionerService.framework/CoreThreadCommissionerServiced`
 
 ### Sections with Same Size but Changed Content
 

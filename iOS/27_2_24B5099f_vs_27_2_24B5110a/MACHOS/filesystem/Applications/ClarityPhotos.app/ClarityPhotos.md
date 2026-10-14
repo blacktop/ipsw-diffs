@@ -1,6 +1,6 @@
 ## ClarityPhotos
 
-> `Applications/ClarityPhotos.app/ClarityPhotos`
+> `/Applications/ClarityPhotos.app/ClarityPhotos`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## MailCompositionService
 
-> `Applications/MailCompositionService.app/MailCompositionService`
+> `/Applications/MailCompositionService.app/MailCompositionService`
 
 ### Sections with Same Size but Changed Content
 

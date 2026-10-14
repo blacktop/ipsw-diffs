@@ -1,6 +1,6 @@
 ## appleaccountd
 
-> `usr/libexec/appleaccountd`
+> `/usr/libexec/appleaccountd`
 
 ### Sections with Same Size but Changed Content
 

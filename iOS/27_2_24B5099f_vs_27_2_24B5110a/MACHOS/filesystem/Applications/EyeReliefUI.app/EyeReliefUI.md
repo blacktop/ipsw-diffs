@@ -1,6 +1,6 @@
 ## EyeReliefUI
 
-> `Applications/EyeReliefUI.app/EyeReliefUI`
+> `/Applications/EyeReliefUI.app/EyeReliefUI`
 
 ### Sections with Same Size but Changed Content
 

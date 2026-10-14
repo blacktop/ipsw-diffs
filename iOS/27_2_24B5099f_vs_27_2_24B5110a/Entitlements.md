@@ -1040,6 +1040,237 @@
  	<key>com.apple.private.sandbox.profile:embedded</key>
 
 ```
+### Camera
+
+> `/private/var/staged_system_apps/Camera.app/Camera`
+
+```diff
+
+ 	<true/>
+ 	<key>com.apple.private.avfoundation.capture.deferred-photo-processor.allow</key>
+ 	<true/>
++	<key>com.apple.private.avfoundation.capture.query-module-sealed-state.allow</key>
++	<true/>
+ 	<key>com.apple.private.avfoundation.capture.visual-intelligence-camera-client</key>
+ 	<true/>
+ 	<key>com.apple.private.barcodesupport.allowNotifications</key>
+
+```
+### Games
+
+> `/private/var/staged_system_apps/Games.app/Games`
+
+```diff
+
+ 	<true/>
+ 	<key>com.apple.private.security.system-application</key>
+ 	<true/>
++	<key>com.apple.private.servicesintelligence</key>
++	<true/>
+ 	<key>com.apple.private.storekit</key>
+ 	<array>
+ 		<string>AdvancedPurchase</string>
+
+```
+### Home
+
+> `/private/var/staged_system_apps/Home.app/Home`
+
+```diff
+
+ 	<true/>
+ 	<key>com.apple.coremedia.endpointremotecontrolsession.xpc</key>
+ 	<true/>
++	<key>com.apple.corespeech.uitrainingservice</key>
++	<true/>
+ 	<key>com.apple.developer.declared-age-range</key>
+ 	<true/>
+ 	<key>com.apple.developer.device-information.user-assigned-device-name</key>
+
+ 	<true/>
+ 	<key>com.apple.private.hid.client.event-dispatch.internal</key>
+ 	<true/>
++	<key>com.apple.private.home.extension-host</key>
++	<true/>
+ 	<key>com.apple.private.homeenergy</key>
+ 	<true/>
+ 	<key>com.apple.private.homekit.cameraclips</key>
+
+ 	<array>
+ 		<string>kTCCServiceAddressBook</string>
+ 	</array>
++	<key>com.apple.private.tcc.manager.access.modify</key>
++	<array>
++		<string>kTCCServiceWillow</string>
++	</array>
+ 	<key>com.apple.private.tcc.manager.access.read</key>
+ 	<array>
+ 		<string>kTCCServiceEnergyKitGuidance</string>
+ 	</array>
++	<key>com.apple.private.tcc.manager.check-by-audit-token</key>
++	<array>
++		<string>kTCCServiceWillow</string>
++	</array>
+ 	<key>com.apple.private.ubiquity-additional-kvstore-identifiers</key>
+ 	<array>
+ 		<string>com.apple.tipsd</string>
+
+ 	<true/>
+ 	<key>com.apple.rootless.storage.shortcuts</key>
+ 	<true/>
++	<key>com.apple.runningboard.home-extensions</key>
++	<true/>
+ 	<key>com.apple.runningboard.launchprocess</key>
+ 	<true/>
+ 	<key>com.apple.runningboard.posterkit.host</key>
+
+ 		<string>com.apple.wifi.ui</string>
+ 		<string>group.is.workflow.my.app</string>
+ 	</array>
++	<key>com.apple.security.exception.sysctl.read-only</key>
++	<array>
++		<string>kern.exclaves_status</string>
++	</array>
+ 	<key>com.apple.security.network.client</key>
+ 	<true/>
+ 	<key>com.apple.security.network.server</key>
+
+```
+
+### 🆕 HomeAppMessagesExtension
+
+> `/private/var/staged_system_apps/Home.app/PlugIns/HomeAppMessagesExtension.appex/HomeAppMessagesExtension`
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.Home.HomeAppMessagesExtension</string>
+	<key>com.apple.appprotectiond.guard.access</key>
+	<true/>
+	<key>com.apple.appprotectiond.read.access</key>
+	<true/>
+	<key>com.apple.developer.homekit</key>
+	<true/>
+	<key>com.apple.developer.homekit.background-mode</key>
+	<true/>
+	<key>com.apple.frontboard.launchapplications</key>
+	<true/>
+	<key>com.apple.linkd.registry</key>
+	<true/>
+	<key>com.apple.linkd.transcript.privileged</key>
+	<true/>
+	<key>com.apple.locationd.effective_bundle</key>
+	<true/>
+	<key>com.apple.locationd.usage_oracle</key>
+	<true/>
+	<key>com.apple.messages.private.AllowConversationIdentifierAccess</key>
+	<true/>
+	<key>com.apple.messages.private.AllowParticipantAddressAccess</key>
+	<true/>
+	<key>com.apple.private.appintents.extension-host</key>
+	<true/>
+	<key>com.apple.private.coreservices.canmaplsdatabase</key>
+	<true/>
+	<key>com.apple.private.homekit</key>
+	<true/>
+	<key>com.apple.private.homekit.diagnostics</key>
+	<true/>
+	<key>com.apple.private.tcc.allow</key>
+	<array>
+		<string>kTCCServiceWillow</string>
+	</array>
+	<key>com.apple.runningboard.launchprocess</key>
+	<true/>
+	<key>com.apple.runningboard.process-state</key>
+	<true/>
+	<key>com.apple.security.app-sandbox</key>
+	<true/>
+	<key>com.apple.security.exception.files.absolute-path.read-write</key>
+	<array>
+		<string>/private/var/mobile/Library/Caches/</string>
+	</array>
+	<key>com.apple.security.exception.files.home-relative-path.read-only</key>
+	<array>
+		<string>/Library/com.apple.PrivacyDisclosure/</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.appprotectiond.guard</string>
+		<string>com.apple.appprotectiond.read</string>
+		<string>com.apple.linkd.extension</string>
+		<string>com.apple.linkd.registry</string>
+		<string>com.apple.linkd.transcript</string>
+		<string>com.apple.matter.native.xpc</string>
+	</array>
+	<key>com.apple.security.network.client</key>
+	<true/>
+	<key>com.apple.security.temporary-exception.files.home-relative-path.read-only</key>
+	<array>
+		<string>/Library/com.apple.PrivacyDisclosure/</string>
+	</array>
+	<key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.appprotectiond.guard</string>
+		<string>com.apple.appprotectiond.read</string>
+		<string>com.apple.linkd.extension</string>
+		<string>com.apple.linkd.registry</string>
+		<string>com.apple.linkd.transcript</string>
+		<string>com.apple.matter.native.xpc</string>
+	</array>
+</dict>
+</plist>
+
+```
+### SafariLinkExtension
+
+> `/private/var/staged_system_apps/MobileSafari.app/Extensions/SafariLinkExtension.appex/SafariLinkExtension`
+
+```diff
+
+ 	<true/>
+ 	<key>com.apple.private.security.container-required</key>
+ 	<string>com.apple.mobilesafari</string>
++	<key>com.apple.private.security.storage.Safari</key>
++	<true/>
++	<key>com.apple.security.application-groups</key>
++	<array>
++		<string>group.com.apple.safari.pebble</string>
++	</array>
++	<key>com.apple.security.exception.files.home-relative-path.read-only</key>
++	<array>
++		<string>/Library/Safari/</string>
++	</array>
+ 	<key>com.apple.security.exception.mach-lookup.global-name</key>
+ 	<array>
+ 		<string>com.apple.SafariBookmarksSyncAgent</string>
+
+```
+### MobileSafari
+
+> `/private/var/staged_system_apps/MobileSafari.app/MobileSafari`
+
+```diff
+
+ 	<key>com.apple.private.appintents-bundle-absolute-paths</key>
+ 	<array>
+ 		<string>/System/Library/PrivateFrameworks/MobileSafari.framework</string>
++		<string>/System/Library/PrivateFrameworks/MobileSafariUI.framework</string>
+ 		<string>/AppleInternal/Library/Frameworks/ContextStagingIntents.framework</string>
+ 	</array>
+ 	<key>com.apple.private.appleaccount.app-hidden-from-icloud-settings</key>
+
+ 	<array>
+ 		<string>group.com.apple.tipsnext</string>
+ 		<string>group.com.apple.safari</string>
++		<string>group.com.apple.safari.pebble</string>
+ 		<string>group.com.apple.BrowserKit</string>
+ 		<string>group.com.apple.sports</string>
+ 	</array>
+
+```
 ### airplayd
 
 > `/usr/libexec/airplayd`

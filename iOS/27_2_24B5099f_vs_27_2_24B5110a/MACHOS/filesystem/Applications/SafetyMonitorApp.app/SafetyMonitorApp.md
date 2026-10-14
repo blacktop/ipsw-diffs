@@ -1,6 +1,6 @@
 ## SafetyMonitorApp
 
-> `Applications/SafetyMonitorApp.app/SafetyMonitorApp`
+> `/Applications/SafetyMonitorApp.app/SafetyMonitorApp`
 
 ### Sections with Same Size but Changed Content
 

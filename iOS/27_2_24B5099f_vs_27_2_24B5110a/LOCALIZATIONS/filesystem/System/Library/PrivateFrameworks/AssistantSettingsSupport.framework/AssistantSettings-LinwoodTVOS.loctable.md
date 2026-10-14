@@ -1,6 +1,6 @@
 ## AssistantSettingsSupport
 
-> `filesystem/System/Library/PrivateFrameworks/AssistantSettingsSupport.framework/AssistantSettings-LinwoodTVOS.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/AssistantSettingsSupport.framework/AssistantSettings-LinwoodTVOS.loctable`
 
 ```text
 en.ASSISTANT_DISABLE_APPLE_INTELLIGENCE_CANCEL = "Cancel"

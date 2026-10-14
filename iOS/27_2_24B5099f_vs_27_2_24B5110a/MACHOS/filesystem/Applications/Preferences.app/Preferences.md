@@ -1,6 +1,6 @@
 ## Preferences
 
-> `Applications/Preferences.app/Preferences`
+> `/Applications/Preferences.app/Preferences`
 
 ### Sections with Same Size but Changed Content
 

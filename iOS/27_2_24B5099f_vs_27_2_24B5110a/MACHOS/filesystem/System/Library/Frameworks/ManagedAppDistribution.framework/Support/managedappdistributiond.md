@@ -1,6 +1,6 @@
 ## managedappdistributiond
 
-> `System/Library/Frameworks/ManagedAppDistribution.framework/Support/managedappdistributiond`
+> `/System/Library/Frameworks/ManagedAppDistribution.framework/Support/managedappdistributiond`
 
 ### Sections with Same Size but Changed Content
 

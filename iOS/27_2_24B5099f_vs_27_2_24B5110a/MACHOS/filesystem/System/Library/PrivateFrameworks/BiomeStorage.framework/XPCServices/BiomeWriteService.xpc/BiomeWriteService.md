@@ -1,6 +1,6 @@
 ## BiomeWriteService
 
-> `System/Library/PrivateFrameworks/BiomeStorage.framework/XPCServices/BiomeWriteService.xpc/BiomeWriteService`
+> `/System/Library/PrivateFrameworks/BiomeStorage.framework/XPCServices/BiomeWriteService.xpc/BiomeWriteService`
 
 ### Sections with Same Size but Changed Content
 

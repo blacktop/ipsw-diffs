@@ -1,6 +1,6 @@
 ## afktool
 
-> `usr/bin/afktool`
+> `/usr/bin/afktool`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## NFCUISceneService
 
-> `Applications/NFCUISceneService.app/NFCUISceneService`
+> `/Applications/NFCUISceneService.app/NFCUISceneService`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## SuggestedActionsSettings
 
-> `filesystem/System/Library/Settings/SuggestedActionsSettings.settings/SuggestedActionsSettings.loctable`
+> `FileSystem/System/Library/Settings/SuggestedActionsSettings.settings/SuggestedActionsSettings.loctable`
 
 ```diff
 

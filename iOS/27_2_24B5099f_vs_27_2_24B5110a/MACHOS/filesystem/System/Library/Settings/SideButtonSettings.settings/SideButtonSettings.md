@@ -1,6 +1,6 @@
 ## SideButtonSettings
 
-> `System/Library/Settings/SideButtonSettings.settings/SideButtonSettings`
+> `/System/Library/Settings/SideButtonSettings.settings/SideButtonSettings`
 
 ### Sections with Same Size but Changed Content
 

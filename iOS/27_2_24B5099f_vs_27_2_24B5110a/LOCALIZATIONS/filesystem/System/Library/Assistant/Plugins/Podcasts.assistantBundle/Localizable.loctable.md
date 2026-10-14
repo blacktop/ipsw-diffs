@@ -1,6 +1,6 @@
 ## Podcasts
 
-> `filesystem/System/Library/Assistant/Plugins/Podcasts.assistantBundle/Localizable.loctable`
+> `FileSystem/System/Library/Assistant/Plugins/Podcasts.assistantBundle/Localizable.loctable`
 
 ```diff
 

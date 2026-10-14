@@ -1,6 +1,6 @@
 ## AskPermissionAskToResponseExtension
 
-> `System/Library/ExtensionKit/Extensions/AskPermissionAskToResponseExtension.appex/AskPermissionAskToResponseExtension`
+> `/System/Library/ExtensionKit/Extensions/AskPermissionAskToResponseExtension.appex/AskPermissionAskToResponseExtension`
 
 ### Sections with Same Size but Changed Content
 

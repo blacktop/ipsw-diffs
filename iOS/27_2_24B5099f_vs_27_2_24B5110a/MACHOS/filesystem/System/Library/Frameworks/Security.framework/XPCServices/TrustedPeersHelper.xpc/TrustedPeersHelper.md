@@ -1,6 +1,6 @@
 ## TrustedPeersHelper
 
-> `System/Library/Frameworks/Security.framework/XPCServices/TrustedPeersHelper.xpc/TrustedPeersHelper`
+> `/System/Library/Frameworks/Security.framework/XPCServices/TrustedPeersHelper.xpc/TrustedPeersHelper`
 
 ### Sections with Same Size but Changed Content
 

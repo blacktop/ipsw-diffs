@@ -1,6 +1,6 @@
 ## corerepaird
 
-> `usr/libexec/corerepaird`
+> `/usr/libexec/corerepaird`
 
 ### Sections with Same Size but Changed Content
 

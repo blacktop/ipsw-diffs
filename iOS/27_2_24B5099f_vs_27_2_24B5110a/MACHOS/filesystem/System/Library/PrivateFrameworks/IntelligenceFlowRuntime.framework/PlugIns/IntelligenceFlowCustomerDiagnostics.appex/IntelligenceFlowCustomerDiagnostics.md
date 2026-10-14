@@ -1,6 +1,6 @@
 ## IntelligenceFlowCustomerDiagnostics
 
-> `System/Library/PrivateFrameworks/IntelligenceFlowRuntime.framework/PlugIns/IntelligenceFlowCustomerDiagnostics.appex/IntelligenceFlowCustomerDiagnostics`
+> `/System/Library/PrivateFrameworks/IntelligenceFlowRuntime.framework/PlugIns/IntelligenceFlowCustomerDiagnostics.appex/IntelligenceFlowCustomerDiagnostics`
 
 ### Sections with Same Size but Changed Content
 

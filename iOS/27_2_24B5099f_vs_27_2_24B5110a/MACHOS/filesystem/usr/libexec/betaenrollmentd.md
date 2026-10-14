@@ -1,6 +1,6 @@
 ## betaenrollmentd
 
-> `usr/libexec/betaenrollmentd`
+> `/usr/libexec/betaenrollmentd`
 
 ### Sections with Same Size but Changed Content
 

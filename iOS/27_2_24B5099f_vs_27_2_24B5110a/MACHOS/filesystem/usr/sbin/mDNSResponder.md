@@ -1,6 +1,6 @@
 ## mDNSResponder
 
-> `usr/sbin/mDNSResponder`
+> `/usr/sbin/mDNSResponder`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## manageddeviced
 
-> `usr/libexec/manageddeviced`
+> `/usr/libexec/manageddeviced`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## AccessorySetupUI
 
-> `Applications/AccessorySetupUI.app/AccessorySetupUI`
+> `/Applications/AccessorySetupUI.app/AccessorySetupUI`
 
 ### Sections with Same Size but Changed Content
 

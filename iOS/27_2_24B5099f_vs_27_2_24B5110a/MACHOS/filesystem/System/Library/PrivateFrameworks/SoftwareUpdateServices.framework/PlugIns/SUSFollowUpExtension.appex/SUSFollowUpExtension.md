@@ -1,6 +1,6 @@
 ## SUSFollowUpExtension
 
-> `System/Library/PrivateFrameworks/SoftwareUpdateServices.framework/PlugIns/SUSFollowUpExtension.appex/SUSFollowUpExtension`
+> `/System/Library/PrivateFrameworks/SoftwareUpdateServices.framework/PlugIns/SUSFollowUpExtension.appex/SUSFollowUpExtension`
 
 ### Sections with Same Size but Changed Content
 

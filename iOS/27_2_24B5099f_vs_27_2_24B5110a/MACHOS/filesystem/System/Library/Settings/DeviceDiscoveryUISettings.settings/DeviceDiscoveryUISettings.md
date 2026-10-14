@@ -1,6 +1,6 @@
 ## DeviceDiscoveryUISettings
 
-> `System/Library/Settings/DeviceDiscoveryUISettings.settings/DeviceDiscoveryUISettings`
+> `/System/Library/Settings/DeviceDiscoveryUISettings.settings/DeviceDiscoveryUISettings`
 
 ### Sections with Same Size but Changed Content
 

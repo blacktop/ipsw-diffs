@@ -1,6 +1,6 @@
 ## SessionFilterPreferenceProvider
 
-> `System/Library/PrivateFrameworks/MultitouchSessionFilterSupport.framework/XPCServices/SessionFilterPreferenceProvider.xpc/SessionFilterPreferenceProvider`
+> `/System/Library/PrivateFrameworks/MultitouchSessionFilterSupport.framework/XPCServices/SessionFilterPreferenceProvider.xpc/SessionFilterPreferenceProvider`
 
 ### Sections with Same Size but Changed Content
 

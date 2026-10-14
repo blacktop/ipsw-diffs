@@ -1,6 +1,6 @@
 ## CoreGlyphsPrivate
 
-> `System/Library/PrivateFrameworks/SFSymbols.framework/CoreGlyphsPrivate.bundle/CoreGlyphsPrivate`
+> `/System/Library/PrivateFrameworks/SFSymbols.framework/CoreGlyphsPrivate.bundle/CoreGlyphsPrivate`
 
 ### Sections with Same Size but Changed Content
 

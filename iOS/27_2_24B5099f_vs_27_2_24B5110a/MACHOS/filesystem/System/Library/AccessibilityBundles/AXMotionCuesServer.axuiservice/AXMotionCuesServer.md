@@ -1,6 +1,6 @@
 ## AXMotionCuesServer
 
-> `System/Library/AccessibilityBundles/AXMotionCuesServer.axuiservice/AXMotionCuesServer`
+> `/System/Library/AccessibilityBundles/AXMotionCuesServer.axuiservice/AXMotionCuesServer`
 
 ### Sections with Same Size but Changed Content
 

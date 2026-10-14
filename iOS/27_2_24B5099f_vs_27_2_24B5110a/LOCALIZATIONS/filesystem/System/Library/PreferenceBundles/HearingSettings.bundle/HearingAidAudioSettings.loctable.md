@@ -1,6 +1,6 @@
 ## HearingSettings
 
-> `filesystem/System/Library/PreferenceBundles/HearingSettings.bundle/HearingAidAudioSettings.loctable`
+> `FileSystem/System/Library/PreferenceBundles/HearingSettings.bundle/HearingAidAudioSettings.loctable`
 
 ```diff
 

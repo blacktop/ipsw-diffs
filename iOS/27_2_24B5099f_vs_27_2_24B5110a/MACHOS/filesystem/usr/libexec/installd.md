@@ -1,6 +1,6 @@
 ## installd
 
-> `usr/libexec/installd`
+> `/usr/libexec/installd`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## Home
 
-> `filesystem/System/Library/PrivateFrameworks/Home.framework/HFSensitiveStrings-LockDPS.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/Home.framework/HFSensitiveStrings-LockDPS.loctable`
 
 ```text
 en.HFAccessoryDetails_AutoRelockTime_Immediately = "Immediately"

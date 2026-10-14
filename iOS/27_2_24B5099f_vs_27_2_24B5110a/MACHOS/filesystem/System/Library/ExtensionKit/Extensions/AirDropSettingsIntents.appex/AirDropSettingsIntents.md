@@ -1,6 +1,6 @@
 ## AirDropSettingsIntents
 
-> `System/Library/ExtensionKit/Extensions/AirDropSettingsIntents.appex/AirDropSettingsIntents`
+> `/System/Library/ExtensionKit/Extensions/AirDropSettingsIntents.appex/AirDropSettingsIntents`
 
 ### Sections with Same Size but Changed Content
 

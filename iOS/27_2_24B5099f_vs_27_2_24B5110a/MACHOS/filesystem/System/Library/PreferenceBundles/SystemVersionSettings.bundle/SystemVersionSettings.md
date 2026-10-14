@@ -1,6 +1,6 @@
 ## SystemVersionSettings
 
-> `System/Library/PreferenceBundles/SystemVersionSettings.bundle/SystemVersionSettings`
+> `/System/Library/PreferenceBundles/SystemVersionSettings.bundle/SystemVersionSettings`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## icloudsubscriptionoptimizerd
 
-> `System/Library/PrivateFrameworks/iCloudSubscriptionOptimizerDaemon.framework/icloudsubscriptionoptimizerd/icloudsubscriptionoptimizerd`
+> `/System/Library/PrivateFrameworks/iCloudSubscriptionOptimizerDaemon.framework/icloudsubscriptionoptimizerd/icloudsubscriptionoptimizerd`
 
 ### Sections with Same Size but Changed Content
 

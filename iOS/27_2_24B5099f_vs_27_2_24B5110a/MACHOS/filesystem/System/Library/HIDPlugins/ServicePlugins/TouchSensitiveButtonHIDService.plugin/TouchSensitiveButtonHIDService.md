@@ -1,6 +1,6 @@
 ## TouchSensitiveButtonHIDService
 
-> `System/Library/HIDPlugins/ServicePlugins/TouchSensitiveButtonHIDService.plugin/TouchSensitiveButtonHIDService`
+> `/System/Library/HIDPlugins/ServicePlugins/TouchSensitiveButtonHIDService.plugin/TouchSensitiveButtonHIDService`
 
 ### Sections with Same Size but Changed Content
 

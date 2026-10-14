@@ -1,6 +1,6 @@
 ## remoteappintentsd
 
-> `usr/libexec/remoteappintentsd`
+> `/usr/libexec/remoteappintentsd`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## mediasetupd
 
-> `usr/libexec/mediasetupd`
+> `/usr/libexec/mediasetupd`
 
 ### Sections with Same Size but Changed Content
 

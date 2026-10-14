@@ -1,6 +1,6 @@
 ## TVSetupUIService
 
-> `Applications/TVSetupUIService.app/TVSetupUIService`
+> `/Applications/TVSetupUIService.app/TVSetupUIService`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## SupportFlow
 
-> `Applications/SupportFlow.app/SupportFlow`
+> `/Applications/SupportFlow.app/SupportFlow`
 
 ### Sections with Same Size but Changed Content
 

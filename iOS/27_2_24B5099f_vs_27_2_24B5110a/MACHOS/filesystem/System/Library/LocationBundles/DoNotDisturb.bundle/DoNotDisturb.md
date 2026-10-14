@@ -1,6 +1,6 @@
 ## DoNotDisturb
 
-> `System/Library/LocationBundles/DoNotDisturb.bundle/DoNotDisturb`
+> `/System/Library/LocationBundles/DoNotDisturb.bundle/DoNotDisturb`
 
 ### Sections with Same Size but Changed Content
 

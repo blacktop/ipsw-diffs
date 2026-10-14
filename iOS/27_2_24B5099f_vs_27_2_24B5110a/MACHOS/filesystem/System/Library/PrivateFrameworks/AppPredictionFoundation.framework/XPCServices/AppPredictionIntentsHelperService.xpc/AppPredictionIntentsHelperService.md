@@ -1,6 +1,6 @@
 ## AppPredictionIntentsHelperService
 
-> `System/Library/PrivateFrameworks/AppPredictionFoundation.framework/XPCServices/AppPredictionIntentsHelperService.xpc/AppPredictionIntentsHelperService`
+> `/System/Library/PrivateFrameworks/AppPredictionFoundation.framework/XPCServices/AppPredictionIntentsHelperService.xpc/AppPredictionIntentsHelperService`
 
 ### Sections with Same Size but Changed Content
 

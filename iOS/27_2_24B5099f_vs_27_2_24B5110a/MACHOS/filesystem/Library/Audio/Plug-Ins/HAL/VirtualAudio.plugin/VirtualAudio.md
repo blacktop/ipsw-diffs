@@ -1,6 +1,6 @@
 ## VirtualAudio
 
-> `Library/Audio/Plug-Ins/HAL/VirtualAudio.plugin/VirtualAudio`
+> `/Library/Audio/Plug-Ins/HAL/VirtualAudio.plugin/VirtualAudio`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## filecoordinationd
 
-> `usr/sbin/filecoordinationd`
+> `/usr/sbin/filecoordinationd`
 
 ### Sections with Same Size but Changed Content
 

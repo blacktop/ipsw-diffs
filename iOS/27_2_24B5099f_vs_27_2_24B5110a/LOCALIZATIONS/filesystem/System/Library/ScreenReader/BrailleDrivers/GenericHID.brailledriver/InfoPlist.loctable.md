@@ -1,6 +1,6 @@
 ## InfoPlist
 
-> `filesystem/System/Library/ScreenReader/BrailleDrivers/GenericHID.brailledriver/InfoPlist.loctable`
+> `FileSystem/System/Library/ScreenReader/BrailleDrivers/GenericHID.brailledriver/InfoPlist.loctable`
 
 ```diff
 

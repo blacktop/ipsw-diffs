@@ -1,6 +1,6 @@
 ## PLAMonitor
 
-> `System/Library/LocationBundles/PLAMonitor.bundle/PLAMonitor`
+> `/System/Library/LocationBundles/PLAMonitor.bundle/PLAMonitor`
 
 ### Sections with Same Size but Changed Content
 

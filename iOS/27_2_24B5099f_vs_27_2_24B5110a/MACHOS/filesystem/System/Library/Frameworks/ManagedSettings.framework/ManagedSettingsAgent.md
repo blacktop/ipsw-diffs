@@ -1,6 +1,6 @@
 ## ManagedSettingsAgent
 
-> `System/Library/Frameworks/ManagedSettings.framework/ManagedSettingsAgent`
+> `/System/Library/Frameworks/ManagedSettings.framework/ManagedSettingsAgent`
 
 ### Sections with Same Size but Changed Content
 

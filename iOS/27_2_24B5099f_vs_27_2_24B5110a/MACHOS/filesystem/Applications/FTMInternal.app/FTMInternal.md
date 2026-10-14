@@ -1,6 +1,6 @@
 ## FTMInternal
 
-> `Applications/FTMInternal.app/FTMInternal`
+> `/Applications/FTMInternal.app/FTMInternal`
 
 ### Sections with Same Size but Changed Content
 

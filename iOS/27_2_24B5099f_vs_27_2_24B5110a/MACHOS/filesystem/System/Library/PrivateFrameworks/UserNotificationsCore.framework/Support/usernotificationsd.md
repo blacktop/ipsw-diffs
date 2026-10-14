@@ -1,6 +1,6 @@
 ## usernotificationsd
 
-> `System/Library/PrivateFrameworks/UserNotificationsCore.framework/Support/usernotificationsd`
+> `/System/Library/PrivateFrameworks/UserNotificationsCore.framework/Support/usernotificationsd`
 
 ### Sections with Same Size but Changed Content
 

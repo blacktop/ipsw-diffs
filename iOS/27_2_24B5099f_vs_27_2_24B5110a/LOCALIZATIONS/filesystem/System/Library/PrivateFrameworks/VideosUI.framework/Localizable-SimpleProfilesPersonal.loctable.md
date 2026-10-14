@@ -1,6 +1,6 @@
 ## VideosUI
 
-> `filesystem/System/Library/PrivateFrameworks/VideosUI.framework/Localizable-SimpleProfilesPersonal.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/VideosUI.framework/Localizable-SimpleProfilesPersonal.loctable`
 
 ```diff
 

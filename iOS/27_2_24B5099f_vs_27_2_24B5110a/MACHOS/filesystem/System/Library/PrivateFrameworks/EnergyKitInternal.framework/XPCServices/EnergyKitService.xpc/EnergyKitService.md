@@ -1,6 +1,6 @@
 ## EnergyKitService
 
-> `System/Library/PrivateFrameworks/EnergyKitInternal.framework/XPCServices/EnergyKitService.xpc/EnergyKitService`
+> `/System/Library/PrivateFrameworks/EnergyKitInternal.framework/XPCServices/EnergyKitService.xpc/EnergyKitService`
 
 ### Sections with Same Size but Changed Content
 

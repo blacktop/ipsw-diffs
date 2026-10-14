@@ -1,6 +1,6 @@
 ## SoundAndHapticsControls
 
-> `System/Library/ExtensionKit/Extensions/SoundAndHapticsControls.appex/SoundAndHapticsControls`
+> `/System/Library/ExtensionKit/Extensions/SoundAndHapticsControls.appex/SoundAndHapticsControls`
 
 ### Sections with Same Size but Changed Content
 

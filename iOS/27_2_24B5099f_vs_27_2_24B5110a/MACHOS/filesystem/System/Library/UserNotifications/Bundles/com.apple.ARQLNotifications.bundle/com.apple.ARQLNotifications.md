@@ -1,6 +1,6 @@
 ## com.apple.ARQLNotifications
 
-> `System/Library/UserNotifications/Bundles/com.apple.ARQLNotifications.bundle/com.apple.ARQLNotifications`
+> `/System/Library/UserNotifications/Bundles/com.apple.ARQLNotifications.bundle/com.apple.ARQLNotifications`
 
 ### Sections with Same Size but Changed Content
 

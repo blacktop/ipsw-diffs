@@ -1,6 +1,6 @@
 ## inputanalyticsd
 
-> `usr/libexec/inputanalyticsd`
+> `/usr/libexec/inputanalyticsd`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## BuddyMigrator
 
-> `System/Library/DataClassMigrators/BuddyMigrator.migrator/BuddyMigrator`
+> `/System/Library/DataClassMigrators/BuddyMigrator.migrator/BuddyMigrator`
 
 ### Sections with Same Size but Changed Content
 

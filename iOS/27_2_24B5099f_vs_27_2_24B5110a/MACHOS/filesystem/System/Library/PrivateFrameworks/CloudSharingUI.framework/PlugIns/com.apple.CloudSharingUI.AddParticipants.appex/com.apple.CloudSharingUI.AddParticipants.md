@@ -1,6 +1,6 @@
 ## com.apple.CloudSharingUI.AddParticipants
 
-> `System/Library/PrivateFrameworks/CloudSharingUI.framework/PlugIns/com.apple.CloudSharingUI.AddParticipants.appex/com.apple.CloudSharingUI.AddParticipants`
+> `/System/Library/PrivateFrameworks/CloudSharingUI.framework/PlugIns/com.apple.CloudSharingUI.AddParticipants.appex/com.apple.CloudSharingUI.AddParticipants`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## GenerativeAssistantUIPlugin
 
-> `System/Library/Snippets/UIPlugins/GenerativeAssistantUIPlugin.bundle/GenerativeAssistantUIPlugin`
+> `/System/Library/Snippets/UIPlugins/GenerativeAssistantUIPlugin.bundle/GenerativeAssistantUIPlugin`
 
 ### Sections with Same Size but Changed Content
 

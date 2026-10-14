@@ -1,6 +1,6 @@
 ## CarPlaySettings
 
-> `Applications/CarPlaySettings.app/CarPlaySettings`
+> `/Applications/CarPlaySettings.app/CarPlaySettings`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## symptomsd-darwin
 
-> `usr/libexec/symptomsd-darwin`
+> `/usr/libexec/symptomsd-darwin`
 
 ### Sections with Same Size but Changed Content
 

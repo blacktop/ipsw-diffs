@@ -1,6 +1,6 @@
 ## KeychainDataclassOwner
 
-> `System/Library/Accounts/DataclassOwners/KeychainDataclassOwner.bundle/KeychainDataclassOwner`
+> `/System/Library/Accounts/DataclassOwners/KeychainDataclassOwner.bundle/KeychainDataclassOwner`
 
 ### Sections with Same Size but Changed Content
 

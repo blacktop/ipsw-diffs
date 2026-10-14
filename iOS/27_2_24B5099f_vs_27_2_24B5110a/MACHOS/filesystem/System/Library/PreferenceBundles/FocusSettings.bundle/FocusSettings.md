@@ -1,6 +1,6 @@
 ## FocusSettings
 
-> `System/Library/PreferenceBundles/FocusSettings.bundle/FocusSettings`
+> `/System/Library/PreferenceBundles/FocusSettings.bundle/FocusSettings`
 
 ### Sections with Same Size but Changed Content
 

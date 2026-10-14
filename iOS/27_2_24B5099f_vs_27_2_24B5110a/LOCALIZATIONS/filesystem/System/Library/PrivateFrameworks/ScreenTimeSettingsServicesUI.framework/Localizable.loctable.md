@@ -1,6 +1,6 @@
 ## ScreenTimeSettingsServicesUI
 
-> `filesystem/System/Library/PrivateFrameworks/ScreenTimeSettingsServicesUI.framework/Localizable.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/ScreenTimeSettingsServicesUI.framework/Localizable.loctable`
 
 ```diff
 

@@ -1,6 +1,6 @@
 ## Enhanced Logging
 
-> `Applications/Enhanced Logging.app/Enhanced Logging`
+> `/Applications/Enhanced Logging.app/Enhanced Logging`
 
 ### Sections with Same Size but Changed Content
 

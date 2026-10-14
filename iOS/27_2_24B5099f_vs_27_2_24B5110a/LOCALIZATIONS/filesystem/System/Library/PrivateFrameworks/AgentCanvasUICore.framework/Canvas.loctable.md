@@ -1,6 +1,6 @@
 ## AgentCanvasUICore
 
-> `filesystem/System/Library/PrivateFrameworks/AgentCanvasUICore.framework/Canvas.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/AgentCanvasUICore.framework/Canvas.loctable`
 
 ```diff
 

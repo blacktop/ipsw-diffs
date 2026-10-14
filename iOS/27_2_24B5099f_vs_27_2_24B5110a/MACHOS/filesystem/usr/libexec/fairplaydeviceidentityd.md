@@ -1,6 +1,6 @@
 ## fairplaydeviceidentityd
 
-> `usr/libexec/fairplaydeviceidentityd`
+> `/usr/libexec/fairplaydeviceidentityd`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## SettingsImportExtension
 
-> `Applications/Preferences.app/PlugIns/SettingsImportExtension.appex/SettingsImportExtension`
+> `/Applications/Preferences.app/PlugIns/SettingsImportExtension.appex/SettingsImportExtension`
 
 ### Sections with Same Size but Changed Content
 

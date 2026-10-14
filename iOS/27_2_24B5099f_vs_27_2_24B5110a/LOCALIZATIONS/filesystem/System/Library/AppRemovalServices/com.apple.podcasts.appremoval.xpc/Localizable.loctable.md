@@ -1,6 +1,6 @@
 ## com.apple.podcasts.appremoval
 
-> `filesystem/System/Library/AppRemovalServices/com.apple.podcasts.appremoval.xpc/Localizable.loctable`
+> `FileSystem/System/Library/AppRemovalServices/com.apple.podcasts.appremoval.xpc/Localizable.loctable`
 
 ```diff
 

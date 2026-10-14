@@ -1,6 +1,6 @@
 ## PictureInPictureSettings
 
-> `System/Library/PreferenceBundles/PictureInPictureSettings.bundle/PictureInPictureSettings`
+> `/System/Library/PreferenceBundles/PictureInPictureSettings.bundle/PictureInPictureSettings`
 
 ### Sections with Same Size but Changed Content
 

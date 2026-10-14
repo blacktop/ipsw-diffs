@@ -1,6 +1,6 @@
 ## FollowUp
 
-> `System/Library/Settings/FollowUp.settings/FollowUp`
+> `/System/Library/Settings/FollowUp.settings/FollowUp`
 
 ### Sections with Same Size but Changed Content
 

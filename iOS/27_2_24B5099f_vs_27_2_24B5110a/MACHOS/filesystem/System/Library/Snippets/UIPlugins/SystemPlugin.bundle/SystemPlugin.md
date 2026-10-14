@@ -1,6 +1,6 @@
 ## SystemPlugin
 
-> `System/Library/Snippets/UIPlugins/SystemPlugin.bundle/SystemPlugin`
+> `/System/Library/Snippets/UIPlugins/SystemPlugin.bundle/SystemPlugin`
 
 ### Sections with Same Size but Changed Content
 

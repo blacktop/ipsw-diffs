@@ -1,6 +1,6 @@
 ## ContactsFlowUIPlugin
 
-> `System/Library/Snippets/UIPlugins/ContactsFlowUIPlugin.bundle/ContactsFlowUIPlugin`
+> `/System/Library/Snippets/UIPlugins/ContactsFlowUIPlugin.bundle/ContactsFlowUIPlugin`
 
 ### Sections with Same Size but Changed Content
 

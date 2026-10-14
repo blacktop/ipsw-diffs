@@ -1,6 +1,6 @@
 ## PhoneCallFlowDelegatePlugin
 
-> `System/Library/Assistant/FlowDelegatePlugins/PhoneCallFlowDelegatePlugin.bundle/PhoneCallFlowDelegatePlugin`
+> `/System/Library/Assistant/FlowDelegatePlugins/PhoneCallFlowDelegatePlugin.bundle/PhoneCallFlowDelegatePlugin`
 
 ### Sections with Same Size but Changed Content
 

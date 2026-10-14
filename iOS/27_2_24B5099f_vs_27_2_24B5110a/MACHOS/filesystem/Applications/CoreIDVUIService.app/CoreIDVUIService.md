@@ -1,6 +1,6 @@
 ## CoreIDVUIService
 
-> `Applications/CoreIDVUIService.app/CoreIDVUIService`
+> `/Applications/CoreIDVUIService.app/CoreIDVUIService`
 
 ### Sections with Same Size but Changed Content
 

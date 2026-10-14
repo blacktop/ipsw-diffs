@@ -1,6 +1,6 @@
 ## settings
 
-> `System/Library/DataClassMigrators/PreferencesMigrator.migrator/settings`
+> `/System/Library/DataClassMigrators/PreferencesMigrator.migrator/settings`
 
 ### Sections with Same Size but Changed Content
 

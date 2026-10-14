@@ -1,6 +1,6 @@
 ## CoreLocationSync
 
-> `System/Library/PreferencesSyncBundles/CoreLocationSync.bundle/CoreLocationSync`
+> `/System/Library/PreferencesSyncBundles/CoreLocationSync.bundle/CoreLocationSync`
 
 ### Sections with Same Size but Changed Content
 

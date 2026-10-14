@@ -1,6 +1,6 @@
 ## AppManagedFeaturesSettings
 
-> `System/Library/PreferenceBundles/AppManagedFeaturesSettings.bundle/AppManagedFeaturesSettings`
+> `/System/Library/PreferenceBundles/AppManagedFeaturesSettings.bundle/AppManagedFeaturesSettings`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## ChallengesMessageExtension
 
-> `System/Library/ExtensionKit/Extensions/ChallengesMessageExtension.appex/ChallengesMessageExtension`
+> `/System/Library/ExtensionKit/Extensions/ChallengesMessageExtension.appex/ChallengesMessageExtension`
 
 ### Sections with Same Size but Changed Content
 

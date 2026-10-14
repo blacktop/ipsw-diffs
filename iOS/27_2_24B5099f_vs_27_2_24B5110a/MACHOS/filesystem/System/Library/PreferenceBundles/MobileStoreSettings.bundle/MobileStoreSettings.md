@@ -1,6 +1,6 @@
 ## MobileStoreSettings
 
-> `System/Library/PreferenceBundles/MobileStoreSettings.bundle/MobileStoreSettings`
+> `/System/Library/PreferenceBundles/MobileStoreSettings.bundle/MobileStoreSettings`
 
 ### Sections with Same Size but Changed Content
 

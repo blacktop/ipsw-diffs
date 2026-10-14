@@ -1,6 +1,6 @@
 ## ContentKit
 
-> `filesystem/System/Library/PrivateFrameworks/ContentKit.framework/Localizable.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/ContentKit.framework/Localizable.loctable`
 
 ```diff
 

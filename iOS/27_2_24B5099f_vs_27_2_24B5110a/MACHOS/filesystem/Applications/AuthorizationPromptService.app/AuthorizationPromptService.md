@@ -1,6 +1,6 @@
 ## AuthorizationPromptService
 
-> `Applications/AuthorizationPromptService.app/AuthorizationPromptService`
+> `/Applications/AuthorizationPromptService.app/AuthorizationPromptService`
 
 ### Sections with Same Size but Changed Content
 

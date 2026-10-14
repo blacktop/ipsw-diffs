@@ -1,6 +1,6 @@
 ## PeopleMessagesScreenTime
 
-> `Applications/PeopleMessageService.app/PlugIns/PeopleMessagesScreenTime.appex/PeopleMessagesScreenTime`
+> `/Applications/PeopleMessageService.app/PlugIns/PeopleMessagesScreenTime.appex/PeopleMessagesScreenTime`
 
 ### Sections with Same Size but Changed Content
 

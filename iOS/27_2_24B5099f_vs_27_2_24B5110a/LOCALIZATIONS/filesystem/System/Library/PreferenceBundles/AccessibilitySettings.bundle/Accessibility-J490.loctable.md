@@ -1,6 +1,6 @@
 ## AccessibilitySettings
 
-> `filesystem/System/Library/PreferenceBundles/AccessibilitySettings.bundle/Accessibility-J490.loctable`
+> `FileSystem/System/Library/PreferenceBundles/AccessibilitySettings.bundle/Accessibility-J490.loctable`
 
 ```text
 en.APPLE_J490_REMOTE_SCREEN = "J490 Mirroring"

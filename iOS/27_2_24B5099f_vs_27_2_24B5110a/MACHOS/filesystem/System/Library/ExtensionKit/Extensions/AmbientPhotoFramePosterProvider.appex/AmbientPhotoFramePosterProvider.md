@@ -1,6 +1,6 @@
 ## AmbientPhotoFramePosterProvider
 
-> `System/Library/ExtensionKit/Extensions/AmbientPhotoFramePosterProvider.appex/AmbientPhotoFramePosterProvider`
+> `/System/Library/ExtensionKit/Extensions/AmbientPhotoFramePosterProvider.appex/AmbientPhotoFramePosterProvider`
 
 ### Sections with Same Size but Changed Content
 

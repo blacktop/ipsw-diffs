@@ -1,6 +1,6 @@
 ## VoiceControlSettings
 
-> `System/Library/PreferenceBundles/VoiceControlSettings.bundle/VoiceControlSettings`
+> `/System/Library/PreferenceBundles/VoiceControlSettings.bundle/VoiceControlSettings`
 
 ### Sections with Same Size but Changed Content
 

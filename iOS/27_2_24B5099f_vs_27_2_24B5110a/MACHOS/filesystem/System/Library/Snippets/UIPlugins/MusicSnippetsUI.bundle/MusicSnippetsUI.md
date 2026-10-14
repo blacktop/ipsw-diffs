@@ -1,6 +1,6 @@
 ## MusicSnippetsUI
 
-> `System/Library/Snippets/UIPlugins/MusicSnippetsUI.bundle/MusicSnippetsUI`
+> `/System/Library/Snippets/UIPlugins/MusicSnippetsUI.bundle/MusicSnippetsUI`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## SharingUIService
 
-> `filesystem/Applications/SharingUIService.app/Localizable.loctable`
+> `FileSystem/Applications/SharingUIService.app/Localizable.loctable`
 
 ```diff
 

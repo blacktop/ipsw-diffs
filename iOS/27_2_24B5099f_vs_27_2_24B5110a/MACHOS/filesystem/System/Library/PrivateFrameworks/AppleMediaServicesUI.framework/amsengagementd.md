@@ -1,6 +1,6 @@
 ## amsengagementd
 
-> `System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/amsengagementd`
+> `/System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/amsengagementd`
 
 ### Sections with Same Size but Changed Content
 

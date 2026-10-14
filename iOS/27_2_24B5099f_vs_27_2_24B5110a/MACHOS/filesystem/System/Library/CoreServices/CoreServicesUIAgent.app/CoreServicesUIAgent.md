@@ -1,6 +1,6 @@
 ## CoreServicesUIAgent
 
-> `System/Library/CoreServices/CoreServicesUIAgent.app/CoreServicesUIAgent`
+> `/System/Library/CoreServices/CoreServicesUIAgent.app/CoreServicesUIAgent`
 
 ### Sections with Same Size but Changed Content
 

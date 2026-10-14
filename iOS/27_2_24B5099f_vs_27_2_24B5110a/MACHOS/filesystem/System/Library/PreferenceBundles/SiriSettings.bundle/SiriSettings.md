@@ -1,6 +1,6 @@
 ## SiriSettings
 
-> `System/Library/PreferenceBundles/SiriSettings.bundle/SiriSettings`
+> `/System/Library/PreferenceBundles/SiriSettings.bundle/SiriSettings`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## itunescloudd
 
-> `System/Library/PrivateFrameworks/iTunesCloud.framework/Support/itunescloudd`
+> `/System/Library/PrivateFrameworks/iTunesCloud.framework/Support/itunescloudd`
 
 ### Sections with Same Size but Changed Content
 

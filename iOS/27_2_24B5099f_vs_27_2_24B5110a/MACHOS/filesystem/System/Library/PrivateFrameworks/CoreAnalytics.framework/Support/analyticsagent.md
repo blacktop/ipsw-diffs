@@ -1,6 +1,6 @@
 ## analyticsagent
 
-> `System/Library/PrivateFrameworks/CoreAnalytics.framework/Support/analyticsagent`
+> `/System/Library/PrivateFrameworks/CoreAnalytics.framework/Support/analyticsagent`
 
 ### Sections with Same Size but Changed Content
 

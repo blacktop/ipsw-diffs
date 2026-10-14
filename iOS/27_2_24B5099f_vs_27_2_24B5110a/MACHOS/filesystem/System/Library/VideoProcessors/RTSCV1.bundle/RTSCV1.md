@@ -1,6 +1,6 @@
 ## RTSCV1
 
-> `System/Library/VideoProcessors/RTSCV1.bundle/RTSCV1`
+> `/System/Library/VideoProcessors/RTSCV1.bundle/RTSCV1`
 
 ### Sections with Same Size but Changed Content
 

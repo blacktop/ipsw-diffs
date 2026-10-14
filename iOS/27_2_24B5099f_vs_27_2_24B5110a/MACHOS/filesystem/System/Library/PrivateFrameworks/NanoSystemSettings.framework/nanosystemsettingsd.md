@@ -1,6 +1,6 @@
 ## nanosystemsettingsd
 
-> `System/Library/PrivateFrameworks/NanoSystemSettings.framework/nanosystemsettingsd`
+> `/System/Library/PrivateFrameworks/NanoSystemSettings.framework/nanosystemsettingsd`
 
 ### Sections with Same Size but Changed Content
 

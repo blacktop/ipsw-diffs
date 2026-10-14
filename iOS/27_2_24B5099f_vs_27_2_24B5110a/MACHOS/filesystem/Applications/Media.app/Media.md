@@ -1,6 +1,6 @@
 ## Media
 
-> `Applications/Media.app/Media`
+> `/Applications/Media.app/Media`
 
 ### Sections with Same Size but Changed Content
 

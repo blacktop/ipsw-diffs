@@ -1,6 +1,6 @@
 ## LiveSpeechUIService
 
-> `filesystem/System/Library/AccessibilityBundles/LiveSpeechUIService.axuiservice/Accessibility.loctable`
+> `FileSystem/System/Library/AccessibilityBundles/LiveSpeechUIService.axuiservice/Accessibility.loctable`
 
 ```diff
 

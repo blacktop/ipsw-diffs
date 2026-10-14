@@ -1,6 +1,6 @@
 ## findmydeviced
 
-> `usr/libexec/findmydeviced`
+> `/usr/libexec/findmydeviced`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## SecureMessagingAgent
 
-> `System/Library/PrivateFrameworks/SecureMessaging.framework/SecureMessagingAgent`
+> `/System/Library/PrivateFrameworks/SecureMessaging.framework/SecureMessagingAgent`
 
 ### Sections with Same Size but Changed Content
 

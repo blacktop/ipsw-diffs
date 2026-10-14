@@ -1,6 +1,6 @@
 ## IntelligenceFlowPlannerSupport
 
-> `filesystem/System/Library/PrivateFrameworks/IntelligenceFlowPlannerSupport.framework/DomainTopicDisclaimers.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/IntelligenceFlowPlannerSupport.framework/DomainTopicDisclaimers.loctable`
 
 ```diff
 

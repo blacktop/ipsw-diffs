@@ -1,6 +1,6 @@
 ## wifianalyticsd
 
-> `usr/libexec/wifianalyticsd`
+> `/usr/libexec/wifianalyticsd`
 
 ### Sections with Same Size but Changed Content
 

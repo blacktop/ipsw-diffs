@@ -1,6 +1,6 @@
 ## wirelessinsightsd
 
-> `System/Library/Frameworks/WirelessInsights.framework/Support/wirelessinsightsd`
+> `/System/Library/Frameworks/WirelessInsights.framework/Support/wirelessinsightsd`
 
 ### Sections with Same Size but Changed Content
 

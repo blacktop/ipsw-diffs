@@ -1,6 +1,6 @@
 ## FocusConfigurationExtension
 
-> `System/Library/PrivateFrameworks/WorkflowUI.framework/PlugIns/FocusConfigurationExtension.appex/FocusConfigurationExtension`
+> `/System/Library/PrivateFrameworks/WorkflowUI.framework/PlugIns/FocusConfigurationExtension.appex/FocusConfigurationExtension`
 
 ### Sections with Same Size but Changed Content
 

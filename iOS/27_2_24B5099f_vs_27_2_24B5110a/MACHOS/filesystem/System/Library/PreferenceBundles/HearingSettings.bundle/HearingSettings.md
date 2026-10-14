@@ -1,6 +1,6 @@
 ## HearingSettings
 
-> `System/Library/PreferenceBundles/HearingSettings.bundle/HearingSettings`
+> `/System/Library/PreferenceBundles/HearingSettings.bundle/HearingSettings`
 
 ### Sections with Same Size but Changed Content
 

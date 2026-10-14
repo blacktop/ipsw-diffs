@@ -1,6 +1,6 @@
 ## Spotlight
 
-> `Applications/Spotlight.app/Spotlight`
+> `/Applications/Spotlight.app/Spotlight`
 
 ### Sections with Same Size but Changed Content
 

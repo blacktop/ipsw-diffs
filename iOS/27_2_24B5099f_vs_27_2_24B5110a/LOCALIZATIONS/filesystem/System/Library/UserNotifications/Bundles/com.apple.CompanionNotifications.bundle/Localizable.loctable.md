@@ -1,6 +1,6 @@
 ## com.apple.CompanionNotifications
 
-> `filesystem/System/Library/UserNotifications/Bundles/com.apple.CompanionNotifications.bundle/Localizable.loctable`
+> `FileSystem/System/Library/UserNotifications/Bundles/com.apple.CompanionNotifications.bundle/Localizable.loctable`
 
 ```diff
 

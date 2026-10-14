@@ -1,6 +1,6 @@
 ## VoiceOver
 
-> `filesystem/System/Library/AccessibilityBundles/VoiceOver.axuiservice/VoiceOverSettings.loctable`
+> `FileSystem/System/Library/AccessibilityBundles/VoiceOver.axuiservice/VoiceOverSettings.loctable`
 
 ```diff
 

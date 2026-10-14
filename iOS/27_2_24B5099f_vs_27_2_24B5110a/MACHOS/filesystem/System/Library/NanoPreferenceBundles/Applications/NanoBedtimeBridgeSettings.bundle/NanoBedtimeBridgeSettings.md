@@ -1,6 +1,6 @@
 ## NanoBedtimeBridgeSettings
 
-> `System/Library/NanoPreferenceBundles/Applications/NanoBedtimeBridgeSettings.bundle/NanoBedtimeBridgeSettings`
+> `/System/Library/NanoPreferenceBundles/Applications/NanoBedtimeBridgeSettings.bundle/NanoBedtimeBridgeSettings`
 
 ### Sections with Same Size but Changed Content
 

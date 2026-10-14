@@ -1,6 +1,6 @@
 ## modelcatalogdump
 
-> `usr/bin/modelcatalogdump`
+> `/usr/bin/modelcatalogdump`
 
 ### Sections with Same Size but Changed Content
 

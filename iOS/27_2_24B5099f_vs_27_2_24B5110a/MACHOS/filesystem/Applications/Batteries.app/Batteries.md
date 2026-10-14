@@ -1,6 +1,6 @@
 ## Batteries
 
-> `Applications/Batteries.app/Batteries`
+> `/Applications/Batteries.app/Batteries`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## MessagesPolls
 
-> `System/Library/Messages/iMessageApps/MessagesPolls.bundle/MessagesPolls`
+> `/System/Library/Messages/iMessageApps/MessagesPolls.bundle/MessagesPolls`
 
 ### Sections with Same Size but Changed Content
 

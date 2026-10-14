@@ -1,6 +1,6 @@
 ## identityservicesd
 
-> `System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/identityservicesd`
+> `/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/identityservicesd`
 
 ### Sections with Same Size but Changed Content
 

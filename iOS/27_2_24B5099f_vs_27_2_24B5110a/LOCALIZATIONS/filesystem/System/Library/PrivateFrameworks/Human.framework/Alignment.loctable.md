@@ -1,6 +1,6 @@
 ## Human
 
-> `filesystem/System/Library/PrivateFrameworks/Human.framework/Alignment.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/Human.framework/Alignment.loctable`
 
 ```diff
 

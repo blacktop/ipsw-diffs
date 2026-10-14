@@ -1,6 +1,6 @@
 ## GenerativeAssistantExtension
 
-> `System/Library/ExtensionKit/Extensions/GenerativeAssistantExtension.appex/GenerativeAssistantExtension`
+> `/System/Library/ExtensionKit/Extensions/GenerativeAssistantExtension.appex/GenerativeAssistantExtension`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## TVSettings
 
-> `filesystem/System/Library/PreferenceBundles/TVSettings.bundle/Localizable-SimpleProfilesPersonal.loctable`
+> `FileSystem/System/Library/PreferenceBundles/TVSettings.bundle/Localizable-SimpleProfilesPersonal.loctable`
 
 ```diff
 

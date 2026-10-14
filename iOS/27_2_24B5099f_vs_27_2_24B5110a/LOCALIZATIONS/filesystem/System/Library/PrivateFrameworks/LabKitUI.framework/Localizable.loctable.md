@@ -1,6 +1,6 @@
 ## LabKitUI
 
-> `filesystem/System/Library/PrivateFrameworks/LabKitUI.framework/Localizable.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/LabKitUI.framework/Localizable.loctable`
 
 ```diff
 

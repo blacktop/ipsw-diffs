@@ -1,6 +1,6 @@
 ## HomeSettings
 
-> `System/Library/PreferenceBundles/HomeSettings.bundle/HomeSettings`
+> `/System/Library/PreferenceBundles/HomeSettings.bundle/HomeSettings`
 
 ### Sections with Same Size but Changed Content
 

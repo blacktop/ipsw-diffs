@@ -1,6 +1,6 @@
 ## CameraSettings
 
-> `System/Library/PreferenceBundles/CameraSettings.bundle/CameraSettings`
+> `/System/Library/PreferenceBundles/CameraSettings.bundle/CameraSettings`
 
 ### Sections with Same Size but Changed Content
 

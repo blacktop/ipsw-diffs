@@ -1,6 +1,6 @@
 ## com.apple.Dataclass.Siri
 
-> `System/Library/iCloudSettings/com.apple.Dataclass.Siri.bundle/com.apple.Dataclass.Siri`
+> `/System/Library/iCloudSettings/com.apple.Dataclass.Siri.bundle/com.apple.Dataclass.Siri`
 
 ```diff
 

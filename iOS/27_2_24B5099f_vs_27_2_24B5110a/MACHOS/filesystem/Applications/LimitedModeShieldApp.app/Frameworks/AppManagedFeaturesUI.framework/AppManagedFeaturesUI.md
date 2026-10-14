@@ -1,6 +1,6 @@
 ## AppManagedFeaturesUI
 
-> `Applications/LimitedModeShieldApp.app/Frameworks/AppManagedFeaturesUI.framework/AppManagedFeaturesUI`
+> `/Applications/LimitedModeShieldApp.app/Frameworks/AppManagedFeaturesUI.framework/AppManagedFeaturesUI`
 
 ### Sections with Same Size but Changed Content
 

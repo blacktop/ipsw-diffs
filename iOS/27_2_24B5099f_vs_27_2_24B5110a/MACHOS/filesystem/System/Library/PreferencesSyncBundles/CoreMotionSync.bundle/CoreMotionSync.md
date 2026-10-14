@@ -1,6 +1,6 @@
 ## CoreMotionSync
 
-> `System/Library/PreferencesSyncBundles/CoreMotionSync.bundle/CoreMotionSync`
+> `/System/Library/PreferencesSyncBundles/CoreMotionSync.bundle/CoreMotionSync`
 
 ### Sections with Same Size but Changed Content
 

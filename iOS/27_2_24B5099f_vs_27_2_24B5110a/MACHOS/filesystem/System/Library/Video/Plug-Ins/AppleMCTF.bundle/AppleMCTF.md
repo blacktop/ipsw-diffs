@@ -1,6 +1,6 @@
 ## AppleMCTF
 
-> `System/Library/Video/Plug-Ins/AppleMCTF.bundle/AppleMCTF`
+> `/System/Library/Video/Plug-Ins/AppleMCTF.bundle/AppleMCTF`
 
 ### Sections with Same Size but Changed Content
 

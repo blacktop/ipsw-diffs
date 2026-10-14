@@ -1,6 +1,6 @@
 ## PowerUIAgent
 
-> `usr/libexec/PowerUIAgent`
+> `/usr/libexec/PowerUIAgent`
 
 ### Sections with Same Size but Changed Content
 

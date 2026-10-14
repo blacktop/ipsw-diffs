@@ -1,6 +1,6 @@
 ## com.apple.onboarding.siri
 
-> `filesystem/System/Library/OnBoardingBundles/com.apple.onboarding.siri.bundle/AskSiri.loctable`
+> `FileSystem/System/Library/OnBoardingBundles/com.apple.onboarding.siri.bundle/AskSiri.loctable`
 
 ```diff
 

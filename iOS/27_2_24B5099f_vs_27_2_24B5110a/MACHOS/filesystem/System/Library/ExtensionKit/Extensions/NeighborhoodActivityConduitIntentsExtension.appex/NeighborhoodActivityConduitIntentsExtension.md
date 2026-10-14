@@ -1,6 +1,6 @@
 ## NeighborhoodActivityConduitIntentsExtension
 
-> `System/Library/ExtensionKit/Extensions/NeighborhoodActivityConduitIntentsExtension.appex/NeighborhoodActivityConduitIntentsExtension`
+> `/System/Library/ExtensionKit/Extensions/NeighborhoodActivityConduitIntentsExtension.appex/NeighborhoodActivityConduitIntentsExtension`
 
 ```diff
 

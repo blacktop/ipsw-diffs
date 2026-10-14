@@ -1,6 +1,6 @@
 ## MBHelperService
 
-> `System/Library/PrivateFrameworks/MobileBackup.framework/XPCServices/MBHelperService.xpc/MBHelperService`
+> `/System/Library/PrivateFrameworks/MobileBackup.framework/XPCServices/MBHelperService.xpc/MBHelperService`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## HearingWidgetExtension
 
-> `System/Library/PrivateFrameworks/HearingWidgetExtension.appex/HearingWidgetExtension`
+> `/System/Library/PrivateFrameworks/HearingWidgetExtension.appex/HearingWidgetExtension`
 
 ### Sections with Same Size but Changed Content
 

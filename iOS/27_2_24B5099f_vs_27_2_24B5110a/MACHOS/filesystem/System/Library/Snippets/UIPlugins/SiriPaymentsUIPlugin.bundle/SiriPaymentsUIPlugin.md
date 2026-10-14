@@ -1,6 +1,6 @@
 ## SiriPaymentsUIPlugin
 
-> `System/Library/Snippets/UIPlugins/SiriPaymentsUIPlugin.bundle/SiriPaymentsUIPlugin`
+> `/System/Library/Snippets/UIPlugins/SiriPaymentsUIPlugin.bundle/SiriPaymentsUIPlugin`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## com.apple.donotdisturb.user-toggles.preload
 
-> `System/Library/DoNotDisturb/ClientBundles/com.apple.donotdisturb.user-toggles.preload.bundle/com.apple.donotdisturb.user-toggles.preload`
+> `/System/Library/DoNotDisturb/ClientBundles/com.apple.donotdisturb.user-toggles.preload.bundle/com.apple.donotdisturb.user-toggles.preload`
 
 ### Sections with Same Size but Changed Content
 

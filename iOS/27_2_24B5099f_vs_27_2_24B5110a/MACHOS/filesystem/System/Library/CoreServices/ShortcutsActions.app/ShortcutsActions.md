@@ -1,6 +1,6 @@
 ## ShortcutsActions
 
-> `System/Library/CoreServices/ShortcutsActions.app/ShortcutsActions`
+> `/System/Library/CoreServices/ShortcutsActions.app/ShortcutsActions`
 
 ### Sections with Same Size but Changed Content
 

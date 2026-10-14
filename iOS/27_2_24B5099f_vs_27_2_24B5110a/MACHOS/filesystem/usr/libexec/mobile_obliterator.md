@@ -1,6 +1,6 @@
 ## mobile_obliterator
 
-> `usr/libexec/mobile_obliterator`
+> `/usr/libexec/mobile_obliterator`
 
 ### Sections with Same Size but Changed Content
 

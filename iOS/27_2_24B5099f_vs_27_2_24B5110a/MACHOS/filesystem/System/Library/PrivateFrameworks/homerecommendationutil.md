@@ -1,6 +1,6 @@
 ## homerecommendationutil
 
-> `System/Library/PrivateFrameworks/homerecommendationutil`
+> `/System/Library/PrivateFrameworks/homerecommendationutil`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## mobileactivationd
 
-> `usr/libexec/mobileactivationd`
+> `/usr/libexec/mobileactivationd`
 
 ### Sections with Same Size but Changed Content
 

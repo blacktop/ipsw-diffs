@@ -1,6 +1,6 @@
 ## Siri
 
-> `Applications/Siri.app/Siri`
+> `/Applications/Siri.app/Siri`
 
 ### Sections with Same Size but Changed Content
 

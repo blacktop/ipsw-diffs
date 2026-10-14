@@ -1,6 +1,6 @@
 ## intelligencetasksd
 
-> `System/Library/PrivateFrameworks/IntelligenceTasksEngine.framework/Support/intelligencetasksd`
+> `/System/Library/PrivateFrameworks/IntelligenceTasksEngine.framework/Support/intelligencetasksd`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## AppReplacement
 
-> `System/Library/ExtensionKit/Extensions/AppReplacement.appex/AppReplacement`
+> `/System/Library/ExtensionKit/Extensions/AppReplacement.appex/AppReplacement`
 
 ```diff
 

@@ -1,6 +1,6 @@
 ## CrisisResourceUIPlugin
 
-> `System/Library/Snippets/UIPlugins/CrisisResourceUIPlugin.bundle/CrisisResourceUIPlugin`
+> `/System/Library/Snippets/UIPlugins/CrisisResourceUIPlugin.bundle/CrisisResourceUIPlugin`
 
 ### Sections with Same Size but Changed Content
 

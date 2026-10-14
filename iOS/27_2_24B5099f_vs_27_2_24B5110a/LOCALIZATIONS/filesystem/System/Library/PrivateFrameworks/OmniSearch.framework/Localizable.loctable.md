@@ -1,6 +1,6 @@
 ## OmniSearch
 
-> `filesystem/System/Library/PrivateFrameworks/OmniSearch.framework/Localizable.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/OmniSearch.framework/Localizable.loctable`
 
 ```diff
 

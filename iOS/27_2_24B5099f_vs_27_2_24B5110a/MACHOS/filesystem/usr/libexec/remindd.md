@@ -1,6 +1,6 @@
 ## remindd
 
-> `usr/libexec/remindd`
+> `/usr/libexec/remindd`
 
 ### Sections with Same Size but Changed Content
 

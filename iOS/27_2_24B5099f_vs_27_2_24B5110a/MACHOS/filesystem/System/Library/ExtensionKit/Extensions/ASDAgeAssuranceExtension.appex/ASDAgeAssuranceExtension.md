@@ -1,6 +1,6 @@
 ## ASDAgeAssuranceExtension
 
-> `System/Library/ExtensionKit/Extensions/ASDAgeAssuranceExtension.appex/ASDAgeAssuranceExtension`
+> `/System/Library/ExtensionKit/Extensions/ASDAgeAssuranceExtension.appex/ASDAgeAssuranceExtension`
 
 ### Sections with Same Size but Changed Content
 

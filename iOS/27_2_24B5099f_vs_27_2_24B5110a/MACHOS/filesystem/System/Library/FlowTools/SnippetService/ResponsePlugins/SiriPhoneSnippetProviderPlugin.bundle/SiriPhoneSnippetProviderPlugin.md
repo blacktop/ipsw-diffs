@@ -1,6 +1,6 @@
 ## SiriPhoneSnippetProviderPlugin
 
-> `System/Library/FlowTools/SnippetService/ResponsePlugins/SiriPhoneSnippetProviderPlugin.bundle/SiriPhoneSnippetProviderPlugin`
+> `/System/Library/FlowTools/SnippetService/ResponsePlugins/SiriPhoneSnippetProviderPlugin.bundle/SiriPhoneSnippetProviderPlugin`
 
 ### Sections with Same Size but Changed Content
 

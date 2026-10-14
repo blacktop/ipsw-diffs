@@ -1,6 +1,6 @@
 ## ContactsButtonXPCService
 
-> `System/Library/Frameworks/ContactsUI.framework/XPCServices/ContactsButtonXPCService.xpc/ContactsButtonXPCService`
+> `/System/Library/Frameworks/ContactsUI.framework/XPCServices/ContactsButtonXPCService.xpc/ContactsButtonXPCService`
 
 ### Sections with Same Size but Changed Content
 

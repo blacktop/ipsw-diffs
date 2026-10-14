@@ -1,6 +1,6 @@
 ## TranslationUIService
 
-> `System/Library/PrivateFrameworks/TranslationUIServices.framework/PlugIns/TranslationUIService.appex/TranslationUIService`
+> `/System/Library/PrivateFrameworks/TranslationUIServices.framework/PlugIns/TranslationUIService.appex/TranslationUIService`
 
 ### Sections with Same Size but Changed Content
 

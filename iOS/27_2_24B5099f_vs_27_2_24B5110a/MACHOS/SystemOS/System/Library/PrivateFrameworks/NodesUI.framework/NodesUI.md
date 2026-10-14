@@ -1,6 +1,6 @@
 ## NodesUI
 
-> `System/Library/PrivateFrameworks/NodesUI.framework/NodesUI`
+> `/System/Library/PrivateFrameworks/NodesUI.framework/NodesUI`
 
 ### Sections with Same Size but Changed Content
 

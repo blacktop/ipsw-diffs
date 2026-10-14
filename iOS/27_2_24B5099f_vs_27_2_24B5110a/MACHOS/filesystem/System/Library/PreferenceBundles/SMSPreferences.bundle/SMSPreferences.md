@@ -1,6 +1,6 @@
 ## SMSPreferences
 
-> `System/Library/PreferenceBundles/SMSPreferences.bundle/SMSPreferences`
+> `/System/Library/PreferenceBundles/SMSPreferences.bundle/SMSPreferences`
 
 ### Sections with Same Size but Changed Content
 

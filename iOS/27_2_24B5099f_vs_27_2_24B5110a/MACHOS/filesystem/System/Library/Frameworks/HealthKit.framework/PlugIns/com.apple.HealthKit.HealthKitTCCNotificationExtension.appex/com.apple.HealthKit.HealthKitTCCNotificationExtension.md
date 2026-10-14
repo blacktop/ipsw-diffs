@@ -1,6 +1,6 @@
 ## com.apple.HealthKit.HealthKitTCCNotificationExtension
 
-> `System/Library/Frameworks/HealthKit.framework/PlugIns/com.apple.HealthKit.HealthKitTCCNotificationExtension.appex/com.apple.HealthKit.HealthKitTCCNotificationExtension`
+> `/System/Library/Frameworks/HealthKit.framework/PlugIns/com.apple.HealthKit.HealthKitTCCNotificationExtension.appex/com.apple.HealthKit.HealthKitTCCNotificationExtension`
 
 ### Sections with Same Size but Changed Content
 

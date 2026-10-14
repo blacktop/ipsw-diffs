@@ -1,6 +1,6 @@
 ## hangtelemetryd
 
-> `usr/libexec/hangtelemetryd`
+> `/usr/libexec/hangtelemetryd`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## Closures
 
-> `Applications/Closures.app/Closures`
+> `/Applications/Closures.app/Closures`
 
 ### Sections with Same Size but Changed Content
 

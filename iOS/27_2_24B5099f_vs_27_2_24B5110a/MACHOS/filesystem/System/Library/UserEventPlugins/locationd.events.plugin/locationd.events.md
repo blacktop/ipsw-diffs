@@ -1,6 +1,6 @@
 ## locationd.events
 
-> `System/Library/UserEventPlugins/locationd.events.plugin/locationd.events`
+> `/System/Library/UserEventPlugins/locationd.events.plugin/locationd.events`
 
 ### Sections with Same Size but Changed Content
 

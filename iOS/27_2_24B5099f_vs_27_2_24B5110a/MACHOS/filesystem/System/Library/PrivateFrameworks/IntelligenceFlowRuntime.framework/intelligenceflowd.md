@@ -1,6 +1,6 @@
 ## intelligenceflowd
 
-> `System/Library/PrivateFrameworks/IntelligenceFlowRuntime.framework/intelligenceflowd`
+> `/System/Library/PrivateFrameworks/IntelligenceFlowRuntime.framework/intelligenceflowd`
 
 ### Sections with Same Size but Changed Content
 

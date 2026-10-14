@@ -1,6 +1,6 @@
 ## PodcastsKit
 
-> `filesystem/System/Library/PrivateFrameworks/PodcastsKit.framework/Localizable.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/PodcastsKit.framework/Localizable.loctable`
 
 ```diff
 

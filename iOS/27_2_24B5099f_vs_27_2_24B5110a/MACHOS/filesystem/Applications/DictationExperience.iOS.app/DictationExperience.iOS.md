@@ -1,6 +1,6 @@
 ## DictationExperience.iOS
 
-> `Applications/DictationExperience.iOS.app/DictationExperience.iOS`
+> `/Applications/DictationExperience.iOS.app/DictationExperience.iOS`
 
 ### Sections with Same Size but Changed Content
 

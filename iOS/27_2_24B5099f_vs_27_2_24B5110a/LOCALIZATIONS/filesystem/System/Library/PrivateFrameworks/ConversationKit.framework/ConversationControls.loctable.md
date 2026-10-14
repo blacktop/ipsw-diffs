@@ -1,6 +1,6 @@
 ## ConversationKit
 
-> `filesystem/System/Library/PrivateFrameworks/ConversationKit.framework/ConversationControls.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/ConversationKit.framework/ConversationControls.loctable`
 
 ```diff
 

@@ -1,6 +1,6 @@
 ## CreateiCloudLinkExtension
 
-> `System/Library/PrivateFrameworks/CloudSharingUI.framework/PlugIns/CreateiCloudLinkExtension.appex/CreateiCloudLinkExtension`
+> `/System/Library/PrivateFrameworks/CloudSharingUI.framework/PlugIns/CreateiCloudLinkExtension.appex/CreateiCloudLinkExtension`
 
 ### Sections with Same Size but Changed Content
 

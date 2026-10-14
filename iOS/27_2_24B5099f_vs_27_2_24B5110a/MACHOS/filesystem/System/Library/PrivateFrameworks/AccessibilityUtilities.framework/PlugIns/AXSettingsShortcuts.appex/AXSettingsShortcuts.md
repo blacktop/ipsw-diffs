@@ -1,6 +1,6 @@
 ## AXSettingsShortcuts
 
-> `System/Library/PrivateFrameworks/AccessibilityUtilities.framework/PlugIns/AXSettingsShortcuts.appex/AXSettingsShortcuts`
+> `/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/PlugIns/AXSettingsShortcuts.appex/AXSettingsShortcuts`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## avconferenced
 
-> `usr/libexec/avconferenced`
+> `/usr/libexec/avconferenced`
 
 ### Sections with Same Size but Changed Content
 

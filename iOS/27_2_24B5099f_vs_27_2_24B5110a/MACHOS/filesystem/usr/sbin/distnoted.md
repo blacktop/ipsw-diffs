@@ -1,6 +1,6 @@
 ## distnoted
 
-> `usr/sbin/distnoted`
+> `/usr/sbin/distnoted`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## IMDiagnosticExtension
 
-> `System/Library/PrivateFrameworks/DiagnosticExtensions.framework/PlugIns/IMDiagnosticExtension.appex/IMDiagnosticExtension`
+> `/System/Library/PrivateFrameworks/DiagnosticExtensions.framework/PlugIns/IMDiagnosticExtension.appex/IMDiagnosticExtension`
 
 ### Sections with Same Size but Changed Content
 

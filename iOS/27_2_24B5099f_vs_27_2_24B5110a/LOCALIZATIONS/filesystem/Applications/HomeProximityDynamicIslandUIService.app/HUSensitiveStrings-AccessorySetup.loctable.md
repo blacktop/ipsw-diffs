@@ -1,6 +1,6 @@
 ## HomeProximityDynamicIslandUIService
 
-> `filesystem/Applications/HomeProximityDynamicIslandUIService.app/HUSensitiveStrings-AccessorySetup.loctable`
+> `FileSystem/Applications/HomeProximityDynamicIslandUIService.app/HUSensitiveStrings-AccessorySetup.loctable`
 
 ```text
 en.AccessCodeChangeButtonTitle = "Change Access Code"

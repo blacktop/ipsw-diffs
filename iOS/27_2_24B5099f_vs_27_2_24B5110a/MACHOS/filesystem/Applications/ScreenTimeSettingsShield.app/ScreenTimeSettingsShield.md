@@ -1,6 +1,6 @@
 ## ScreenTimeSettingsShield
 
-> `Applications/ScreenTimeSettingsShield.app/ScreenTimeSettingsShield`
+> `/Applications/ScreenTimeSettingsShield.app/ScreenTimeSettingsShield`
 
 ### Sections with Same Size but Changed Content
 

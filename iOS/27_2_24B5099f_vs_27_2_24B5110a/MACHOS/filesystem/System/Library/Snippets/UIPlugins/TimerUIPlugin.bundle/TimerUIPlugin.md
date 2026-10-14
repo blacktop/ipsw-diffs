@@ -1,6 +1,6 @@
 ## TimerUIPlugin
 
-> `System/Library/Snippets/UIPlugins/TimerUIPlugin.bundle/TimerUIPlugin`
+> `/System/Library/Snippets/UIPlugins/TimerUIPlugin.bundle/TimerUIPlugin`
 
 ### Sections with Same Size but Changed Content
 

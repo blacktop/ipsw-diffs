@@ -1,6 +1,6 @@
 ## tvremoted
 
-> `usr/libexec/tvremoted`
+> `/usr/libexec/tvremoted`
 
 ### Sections with Same Size but Changed Content
 

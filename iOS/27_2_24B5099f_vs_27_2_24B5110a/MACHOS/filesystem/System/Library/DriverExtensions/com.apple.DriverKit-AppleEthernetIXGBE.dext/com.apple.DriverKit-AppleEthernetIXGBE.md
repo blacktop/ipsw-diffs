@@ -1,6 +1,6 @@
 ## com.apple.DriverKit-AppleEthernetIXGBE
 
-> `System/Library/DriverExtensions/com.apple.DriverKit-AppleEthernetIXGBE.dext/com.apple.DriverKit-AppleEthernetIXGBE`
+> `/System/Library/DriverExtensions/com.apple.DriverKit-AppleEthernetIXGBE.dext/com.apple.DriverKit-AppleEthernetIXGBE`
 
 ```diff
 Symbols:

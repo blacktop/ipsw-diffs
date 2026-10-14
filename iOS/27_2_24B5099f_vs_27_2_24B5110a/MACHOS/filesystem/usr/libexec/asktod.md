@@ -1,6 +1,6 @@
 ## asktod
 
-> `usr/libexec/asktod`
+> `/usr/libexec/asktod`
 
 ### Sections with Same Size but Changed Content
 

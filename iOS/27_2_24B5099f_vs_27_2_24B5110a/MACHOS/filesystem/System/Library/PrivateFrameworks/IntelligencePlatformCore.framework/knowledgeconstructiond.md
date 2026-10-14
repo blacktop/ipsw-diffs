@@ -1,6 +1,6 @@
 ## knowledgeconstructiond
 
-> `System/Library/PrivateFrameworks/IntelligencePlatformCore.framework/knowledgeconstructiond`
+> `/System/Library/PrivateFrameworks/IntelligencePlatformCore.framework/knowledgeconstructiond`
 
 ### Sections with Same Size but Changed Content
 

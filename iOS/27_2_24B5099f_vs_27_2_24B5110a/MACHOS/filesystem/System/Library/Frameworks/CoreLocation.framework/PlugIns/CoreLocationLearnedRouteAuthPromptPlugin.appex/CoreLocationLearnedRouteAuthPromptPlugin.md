@@ -1,6 +1,6 @@
 ## CoreLocationLearnedRouteAuthPromptPlugin
 
-> `System/Library/Frameworks/CoreLocation.framework/PlugIns/CoreLocationLearnedRouteAuthPromptPlugin.appex/CoreLocationLearnedRouteAuthPromptPlugin`
+> `/System/Library/Frameworks/CoreLocation.framework/PlugIns/CoreLocationLearnedRouteAuthPromptPlugin.appex/CoreLocationLearnedRouteAuthPromptPlugin`
 
 ### Sections with Same Size but Changed Content
 

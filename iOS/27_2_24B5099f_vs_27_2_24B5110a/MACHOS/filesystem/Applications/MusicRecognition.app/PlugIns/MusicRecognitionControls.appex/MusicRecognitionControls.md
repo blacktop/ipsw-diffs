@@ -1,6 +1,6 @@
 ## MusicRecognitionControls
 
-> `Applications/MusicRecognition.app/PlugIns/MusicRecognitionControls.appex/MusicRecognitionControls`
+> `/Applications/MusicRecognition.app/PlugIns/MusicRecognitionControls.appex/MusicRecognitionControls`
 
 ### Sections with Same Size but Changed Content
 

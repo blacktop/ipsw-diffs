@@ -1,6 +1,6 @@
 ## gamed
 
-> `usr/libexec/gamed`
+> `/usr/libexec/gamed`
 
 ### Sections with Same Size but Changed Content
 

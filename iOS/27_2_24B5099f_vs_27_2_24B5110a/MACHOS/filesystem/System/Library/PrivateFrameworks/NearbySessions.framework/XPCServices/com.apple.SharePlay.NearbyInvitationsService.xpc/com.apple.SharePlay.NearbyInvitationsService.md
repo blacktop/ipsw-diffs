@@ -1,6 +1,6 @@
 ## com.apple.SharePlay.NearbyInvitationsService
 
-> `System/Library/PrivateFrameworks/NearbySessions.framework/XPCServices/com.apple.SharePlay.NearbyInvitationsService.xpc/com.apple.SharePlay.NearbyInvitationsService`
+> `/System/Library/PrivateFrameworks/NearbySessions.framework/XPCServices/com.apple.SharePlay.NearbyInvitationsService.xpc/com.apple.SharePlay.NearbyInvitationsService`
 
 ### Sections with Same Size but Changed Content
 

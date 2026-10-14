@@ -1,6 +1,6 @@
 ## transparencyd
 
-> `usr/libexec/transparencyd`
+> `/usr/libexec/transparencyd`
 
 ### Sections with Same Size but Changed Content
 

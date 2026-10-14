@@ -1,6 +1,6 @@
 ## ActivityProgressUI
 
-> `Applications/ActivityProgressUI.app/ActivityProgressUI`
+> `/Applications/ActivityProgressUI.app/ActivityProgressUI`
 
 ### Sections with Same Size but Changed Content
 

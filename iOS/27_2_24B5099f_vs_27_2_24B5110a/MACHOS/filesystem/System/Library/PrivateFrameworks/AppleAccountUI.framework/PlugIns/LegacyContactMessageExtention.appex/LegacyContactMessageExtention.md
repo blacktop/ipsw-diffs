@@ -1,6 +1,6 @@
 ## LegacyContactMessageExtention
 
-> `System/Library/PrivateFrameworks/AppleAccountUI.framework/PlugIns/LegacyContactMessageExtention.appex/LegacyContactMessageExtention`
+> `/System/Library/PrivateFrameworks/AppleAccountUI.framework/PlugIns/LegacyContactMessageExtention.appex/LegacyContactMessageExtention`
 
 ### Sections with Same Size but Changed Content
 

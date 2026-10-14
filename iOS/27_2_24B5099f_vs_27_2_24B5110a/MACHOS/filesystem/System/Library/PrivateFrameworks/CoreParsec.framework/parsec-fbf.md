@@ -1,6 +1,6 @@
 ## parsec-fbf
 
-> `System/Library/PrivateFrameworks/CoreParsec.framework/parsec-fbf`
+> `/System/Library/PrivateFrameworks/CoreParsec.framework/parsec-fbf`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## AdaptiveMusicWidget
 
-> `Applications/AdaptiveMusicApp.app/PlugIns/AdaptiveMusicWidget.appex/AdaptiveMusicWidget`
+> `/Applications/AdaptiveMusicApp.app/PlugIns/AdaptiveMusicWidget.appex/AdaptiveMusicWidget`
 
 ### Sections with Same Size but Changed Content
 

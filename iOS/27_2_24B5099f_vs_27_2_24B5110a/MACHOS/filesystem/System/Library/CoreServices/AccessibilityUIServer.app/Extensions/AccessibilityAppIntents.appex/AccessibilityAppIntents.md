@@ -1,6 +1,6 @@
 ## AccessibilityAppIntents
 
-> `System/Library/CoreServices/AccessibilityUIServer.app/Extensions/AccessibilityAppIntents.appex/AccessibilityAppIntents`
+> `/System/Library/CoreServices/AccessibilityUIServer.app/Extensions/AccessibilityAppIntents.appex/AccessibilityAppIntents`
 
 ### Sections with Same Size but Changed Content
 

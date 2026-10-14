@@ -1,6 +1,6 @@
 ## IntelligenceFlowAppIntentsExtension
 
-> `System/Library/ExtensionKit/Extensions/IntelligenceFlowAppIntentsExtension.appex/IntelligenceFlowAppIntentsExtension`
+> `/System/Library/ExtensionKit/Extensions/IntelligenceFlowAppIntentsExtension.appex/IntelligenceFlowAppIntentsExtension`
 
 ### Sections with Same Size but Changed Content
 

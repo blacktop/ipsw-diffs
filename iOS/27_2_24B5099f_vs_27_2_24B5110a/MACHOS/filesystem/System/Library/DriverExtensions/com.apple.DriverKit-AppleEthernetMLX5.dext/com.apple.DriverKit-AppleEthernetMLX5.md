@@ -1,6 +1,6 @@
 ## com.apple.DriverKit-AppleEthernetMLX5
 
-> `System/Library/DriverExtensions/com.apple.DriverKit-AppleEthernetMLX5.dext/com.apple.DriverKit-AppleEthernetMLX5`
+> `/System/Library/DriverExtensions/com.apple.DriverKit-AppleEthernetMLX5.dext/com.apple.DriverKit-AppleEthernetMLX5`
 
 ### Sections with Same Size but Changed Content
 

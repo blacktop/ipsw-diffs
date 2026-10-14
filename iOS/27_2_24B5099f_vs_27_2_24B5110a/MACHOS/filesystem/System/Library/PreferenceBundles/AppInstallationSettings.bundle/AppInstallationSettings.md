@@ -1,6 +1,6 @@
 ## AppInstallationSettings
 
-> `System/Library/PreferenceBundles/AppInstallationSettings.bundle/AppInstallationSettings`
+> `/System/Library/PreferenceBundles/AppInstallationSettings.bundle/AppInstallationSettings`
 
 ### Sections with Same Size but Changed Content
 

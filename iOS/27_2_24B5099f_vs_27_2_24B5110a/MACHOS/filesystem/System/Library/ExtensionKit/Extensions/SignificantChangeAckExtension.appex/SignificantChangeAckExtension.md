@@ -1,6 +1,6 @@
 ## SignificantChangeAckExtension
 
-> `System/Library/ExtensionKit/Extensions/SignificantChangeAckExtension.appex/SignificantChangeAckExtension`
+> `/System/Library/ExtensionKit/Extensions/SignificantChangeAckExtension.appex/SignificantChangeAckExtension`
 
 ### Sections with Same Size but Changed Content
 

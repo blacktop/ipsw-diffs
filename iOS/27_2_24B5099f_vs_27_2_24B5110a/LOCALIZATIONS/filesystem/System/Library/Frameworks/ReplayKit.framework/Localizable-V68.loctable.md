@@ -1,6 +1,6 @@
 ## ReplayKit
 
-> `filesystem/System/Library/Frameworks/ReplayKit.framework/Localizable-V68.loctable`
+> `FileSystem/System/Library/Frameworks/ReplayKit.framework/Localizable-V68.loctable`
 
 ```diff
 

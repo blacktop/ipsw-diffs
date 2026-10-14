@@ -1,6 +1,6 @@
 ## FaceTimeMessageStore
 
-> `filesystem/System/Library/PrivateFrameworks/FaceTimeMessageStore.framework/Pumpkin.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/FaceTimeMessageStore.framework/Pumpkin.loctable`
 
 ```text
 en.DateCreated = "Date Created"

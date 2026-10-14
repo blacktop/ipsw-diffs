@@ -1,6 +1,6 @@
 ## webbookmarksd
 
-> `usr/libexec/webbookmarksd`
+> `/usr/libexec/webbookmarksd`
 
 ### Sections with Same Size but Changed Content
 

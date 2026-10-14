@@ -1,6 +1,6 @@
 ## ASVAssetViewer
 
-> `System/Library/PrivateFrameworks/AssetViewer.framework/PlugIns/ASVAssetViewer.appex/ASVAssetViewer`
+> `/System/Library/PrivateFrameworks/AssetViewer.framework/PlugIns/ASVAssetViewer.appex/ASVAssetViewer`
 
 ### Sections with Same Size but Changed Content
 

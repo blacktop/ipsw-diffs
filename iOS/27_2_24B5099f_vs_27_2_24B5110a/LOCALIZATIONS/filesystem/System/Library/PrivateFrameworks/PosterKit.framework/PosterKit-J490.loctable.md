@@ -1,6 +1,6 @@
 ## PosterKit
 
-> `filesystem/System/Library/PrivateFrameworks/PosterKit.framework/PosterKit-J490.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/PosterKit.framework/PosterKit-J490.loctable`
 
 ```text
 en.PAIRED_DEVICE_CHANGED_WIDGET_LAUNCH_BODY = "Widget requires other iPhone"

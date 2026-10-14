@@ -1,6 +1,6 @@
 ## VolumeLimitSettings
 
-> `System/Library/PreferenceBundles/VolumeLimitSettings.bundle/VolumeLimitSettings`
+> `/System/Library/PreferenceBundles/VolumeLimitSettings.bundle/VolumeLimitSettings`
 
 ### Sections with Same Size but Changed Content
 

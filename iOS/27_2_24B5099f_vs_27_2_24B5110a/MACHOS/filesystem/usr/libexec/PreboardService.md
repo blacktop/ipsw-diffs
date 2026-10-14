@@ -1,6 +1,6 @@
 ## PreboardService
 
-> `usr/libexec/PreboardService`
+> `/usr/libexec/PreboardService`
 
 ### Sections with Same Size but Changed Content
 

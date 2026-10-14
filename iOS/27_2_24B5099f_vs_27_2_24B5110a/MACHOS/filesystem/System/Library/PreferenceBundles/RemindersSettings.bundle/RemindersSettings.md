@@ -1,6 +1,6 @@
 ## RemindersSettings
 
-> `System/Library/PreferenceBundles/RemindersSettings.bundle/RemindersSettings`
+> `/System/Library/PreferenceBundles/RemindersSettings.bundle/RemindersSettings`
 
 ### Sections with Same Size but Changed Content
 

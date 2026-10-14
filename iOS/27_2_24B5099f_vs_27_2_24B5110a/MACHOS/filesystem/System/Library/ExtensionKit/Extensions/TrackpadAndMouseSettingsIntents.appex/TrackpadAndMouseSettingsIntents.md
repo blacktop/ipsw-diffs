@@ -1,6 +1,6 @@
 ## TrackpadAndMouseSettingsIntents
 
-> `System/Library/ExtensionKit/Extensions/TrackpadAndMouseSettingsIntents.appex/TrackpadAndMouseSettingsIntents`
+> `/System/Library/ExtensionKit/Extensions/TrackpadAndMouseSettingsIntents.appex/TrackpadAndMouseSettingsIntents`
 
 ### Sections with Same Size but Changed Content
 

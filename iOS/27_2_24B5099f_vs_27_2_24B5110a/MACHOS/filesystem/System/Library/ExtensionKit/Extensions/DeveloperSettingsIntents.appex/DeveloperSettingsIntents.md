@@ -1,6 +1,6 @@
 ## DeveloperSettingsIntents
 
-> `System/Library/ExtensionKit/Extensions/DeveloperSettingsIntents.appex/DeveloperSettingsIntents`
+> `/System/Library/ExtensionKit/Extensions/DeveloperSettingsIntents.appex/DeveloperSettingsIntents`
 
 ### Sections with Same Size but Changed Content
 

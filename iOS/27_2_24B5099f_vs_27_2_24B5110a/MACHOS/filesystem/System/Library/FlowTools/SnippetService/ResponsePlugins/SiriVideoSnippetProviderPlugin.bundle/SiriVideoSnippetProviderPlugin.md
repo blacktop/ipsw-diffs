@@ -1,6 +1,6 @@
 ## SiriVideoSnippetProviderPlugin
 
-> `System/Library/FlowTools/SnippetService/ResponsePlugins/SiriVideoSnippetProviderPlugin.bundle/SiriVideoSnippetProviderPlugin`
+> `/System/Library/FlowTools/SnippetService/ResponsePlugins/SiriVideoSnippetProviderPlugin.bundle/SiriVideoSnippetProviderPlugin`
 
 ### Sections with Same Size but Changed Content
 

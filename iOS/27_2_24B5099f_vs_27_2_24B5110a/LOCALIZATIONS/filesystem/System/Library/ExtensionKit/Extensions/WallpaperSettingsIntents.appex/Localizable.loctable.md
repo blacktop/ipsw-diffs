@@ -1,6 +1,6 @@
 ## WallpaperSettingsIntents
 
-> `filesystem/System/Library/ExtensionKit/Extensions/WallpaperSettingsIntents.appex/Localizable.loctable`
+> `FileSystem/System/Library/ExtensionKit/Extensions/WallpaperSettingsIntents.appex/Localizable.loctable`
 
 ```text
 en.Add New Wallpaper = "Add New Wallpaper"

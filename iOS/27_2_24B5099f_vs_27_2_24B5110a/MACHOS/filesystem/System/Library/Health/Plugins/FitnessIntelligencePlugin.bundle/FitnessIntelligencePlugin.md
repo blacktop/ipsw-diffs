@@ -1,6 +1,6 @@
 ## FitnessIntelligencePlugin
 
-> `System/Library/Health/Plugins/FitnessIntelligencePlugin.bundle/FitnessIntelligencePlugin`
+> `/System/Library/Health/Plugins/FitnessIntelligencePlugin.bundle/FitnessIntelligencePlugin`
 
 ### Sections with Same Size but Changed Content
 

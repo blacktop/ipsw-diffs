@@ -1,6 +1,6 @@
 ## DoNotDisturbAppReplacement
 
-> `System/Library/ExtensionKit/Extensions/DoNotDisturbAppReplacement.appex/DoNotDisturbAppReplacement`
+> `/System/Library/ExtensionKit/Extensions/DoNotDisturbAppReplacement.appex/DoNotDisturbAppReplacement`
 
 ### Sections with Same Size but Changed Content
 

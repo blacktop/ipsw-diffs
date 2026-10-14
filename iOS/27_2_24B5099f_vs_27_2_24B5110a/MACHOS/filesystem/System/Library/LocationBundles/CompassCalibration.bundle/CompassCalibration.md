@@ -1,6 +1,6 @@
 ## CompassCalibration
 
-> `System/Library/LocationBundles/CompassCalibration.bundle/CompassCalibration`
+> `/System/Library/LocationBundles/CompassCalibration.bundle/CompassCalibration`
 
 ### Sections with Same Size but Changed Content
 

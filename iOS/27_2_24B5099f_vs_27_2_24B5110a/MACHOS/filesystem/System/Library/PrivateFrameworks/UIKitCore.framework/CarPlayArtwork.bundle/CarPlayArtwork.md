@@ -1,6 +1,6 @@
 ## CarPlayArtwork
 
-> `System/Library/PrivateFrameworks/UIKitCore.framework/CarPlayArtwork.bundle/CarPlayArtwork`
+> `/System/Library/PrivateFrameworks/UIKitCore.framework/CarPlayArtwork.bundle/CarPlayArtwork`
 
 ### Sections with Same Size but Changed Content
 

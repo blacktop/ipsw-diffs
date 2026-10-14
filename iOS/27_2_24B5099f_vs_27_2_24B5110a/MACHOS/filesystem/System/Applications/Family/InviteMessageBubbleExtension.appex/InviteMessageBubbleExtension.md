@@ -1,6 +1,6 @@
 ## InviteMessageBubbleExtension
 
-> `System/Applications/Family/InviteMessageBubbleExtension.appex/InviteMessageBubbleExtension`
+> `/System/Applications/Family/InviteMessageBubbleExtension.appex/InviteMessageBubbleExtension`
 
 ### Sections with Same Size but Changed Content
 

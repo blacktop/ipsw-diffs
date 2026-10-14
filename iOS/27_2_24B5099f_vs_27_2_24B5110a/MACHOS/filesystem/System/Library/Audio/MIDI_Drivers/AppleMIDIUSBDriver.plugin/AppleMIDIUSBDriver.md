@@ -1,6 +1,6 @@
 ## AppleMIDIUSBDriver
 
-> `System/Library/Audio/MIDI Drivers/AppleMIDIUSBDriver.plugin/AppleMIDIUSBDriver`
+> `/System/Library/Audio/MIDI Drivers/AppleMIDIUSBDriver.plugin/AppleMIDIUSBDriver`
 
 ### Sections with Same Size but Changed Content
 

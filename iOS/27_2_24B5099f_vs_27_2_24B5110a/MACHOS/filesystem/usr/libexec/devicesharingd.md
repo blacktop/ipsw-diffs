@@ -1,6 +1,6 @@
 ## devicesharingd
 
-> `usr/libexec/devicesharingd`
+> `/usr/libexec/devicesharingd`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## maphelperservice
 
-> `System/Library/Frameworks/CoreLocation.framework/XPCServices/maphelperservice.xpc/maphelperservice`
+> `/System/Library/Frameworks/CoreLocation.framework/XPCServices/maphelperservice.xpc/maphelperservice`
 
 ### Sections with Same Size but Changed Content
 

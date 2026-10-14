@@ -1,6 +1,6 @@
 ## appstored
 
-> `System/Library/PrivateFrameworks/AppStoreDaemon.framework/Support/appstored`
+> `/System/Library/PrivateFrameworks/AppStoreDaemon.framework/Support/appstored`
 
 ### Sections with Same Size but Changed Content
 

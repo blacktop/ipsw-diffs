@@ -1,6 +1,6 @@
 ## HomeProximityDynamicIslandUIService
 
-> `filesystem/Applications/HomeProximityDynamicIslandUIService.app/InfoPlist.loctable`
+> `FileSystem/Applications/HomeProximityDynamicIslandUIService.app/InfoPlist.loctable`
 
 ```text
 en.CFBundleDisplayName = "HomeProximityDynamicIslandUIService"

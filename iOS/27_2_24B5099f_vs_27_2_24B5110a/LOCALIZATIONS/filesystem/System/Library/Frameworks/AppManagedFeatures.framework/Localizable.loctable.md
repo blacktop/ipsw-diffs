@@ -1,6 +1,6 @@
 ## AppManagedFeatures
 
-> `filesystem/System/Library/Frameworks/AppManagedFeatures.framework/Localizable.loctable`
+> `FileSystem/System/Library/Frameworks/AppManagedFeatures.framework/Localizable.loctable`
 
 ```diff
 

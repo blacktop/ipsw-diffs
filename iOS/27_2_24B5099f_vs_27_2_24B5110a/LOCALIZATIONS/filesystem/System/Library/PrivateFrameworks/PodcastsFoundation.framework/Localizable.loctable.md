@@ -1,6 +1,6 @@
 ## PodcastsFoundation
 
-> `filesystem/System/Library/PrivateFrameworks/PodcastsFoundation.framework/Localizable.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/PodcastsFoundation.framework/Localizable.loctable`
 
 ```diff
 

@@ -1,6 +1,6 @@
 ## ClassKitDeveloperSettings
 
-> `System/Library/PreferenceBundles/ClassKitDeveloperSettings.bundle/ClassKitDeveloperSettings`
+> `/System/Library/PreferenceBundles/ClassKitDeveloperSettings.bundle/ClassKitDeveloperSettings`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## bluetoothd
 
-> `usr/sbin/bluetoothd`
+> `/usr/sbin/bluetoothd`
 
 ### Sections with Same Size but Changed Content
 

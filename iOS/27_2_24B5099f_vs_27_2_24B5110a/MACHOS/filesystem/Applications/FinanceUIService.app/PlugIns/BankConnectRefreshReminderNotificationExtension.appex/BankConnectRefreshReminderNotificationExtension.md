@@ -1,6 +1,6 @@
 ## BankConnectRefreshReminderNotificationExtension
 
-> `Applications/FinanceUIService.app/PlugIns/BankConnectRefreshReminderNotificationExtension.appex/BankConnectRefreshReminderNotificationExtension`
+> `/Applications/FinanceUIService.app/PlugIns/BankConnectRefreshReminderNotificationExtension.appex/BankConnectRefreshReminderNotificationExtension`
 
 ### Sections with Same Size but Changed Content
 

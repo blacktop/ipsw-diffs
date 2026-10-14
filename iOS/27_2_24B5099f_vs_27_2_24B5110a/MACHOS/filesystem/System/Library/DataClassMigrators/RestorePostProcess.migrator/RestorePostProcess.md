@@ -1,6 +1,6 @@
 ## RestorePostProcess
 
-> `System/Library/DataClassMigrators/RestorePostProcess.migrator/RestorePostProcess`
+> `/System/Library/DataClassMigrators/RestorePostProcess.migrator/RestorePostProcess`
 
 ### Sections with Same Size but Changed Content
 

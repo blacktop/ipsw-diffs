@@ -1,6 +1,6 @@
 ## AskToUIHost
 
-> `Applications/AskToUIHost.app/AskToUIHost`
+> `/Applications/AskToUIHost.app/AskToUIHost`
 
 ### Sections with Same Size but Changed Content
 

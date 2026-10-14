@@ -1,6 +1,6 @@
 ## IOMFB_bics_daemon
 
-> `usr/libexec/IOMFB_bics_daemon`
+> `/usr/libexec/IOMFB_bics_daemon`
 
 ### Sections with Same Size but Changed Content
 

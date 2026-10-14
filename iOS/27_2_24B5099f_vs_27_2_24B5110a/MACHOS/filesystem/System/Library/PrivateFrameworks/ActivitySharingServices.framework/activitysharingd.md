@@ -1,6 +1,6 @@
 ## activitysharingd
 
-> `System/Library/PrivateFrameworks/ActivitySharingServices.framework/activitysharingd`
+> `/System/Library/PrivateFrameworks/ActivitySharingServices.framework/activitysharingd`
 
 ### Sections with Same Size but Changed Content
 

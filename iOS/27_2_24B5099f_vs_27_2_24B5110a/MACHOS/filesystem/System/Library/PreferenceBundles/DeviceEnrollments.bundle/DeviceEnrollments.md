@@ -1,6 +1,6 @@
 ## DeviceEnrollments
 
-> `System/Library/PreferenceBundles/DeviceEnrollments.bundle/DeviceEnrollments`
+> `/System/Library/PreferenceBundles/DeviceEnrollments.bundle/DeviceEnrollments`
 
 ### Sections with Same Size but Changed Content
 

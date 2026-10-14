@@ -1,6 +1,6 @@
 ## ProxCardKit
 
-> `filesystem/System/Library/AccessibilityBundles/ProxCardKit.axbundle/Accessibility.loctable`
+> `FileSystem/System/Library/AccessibilityBundles/ProxCardKit.axbundle/Accessibility.loctable`
 
 ```diff
 

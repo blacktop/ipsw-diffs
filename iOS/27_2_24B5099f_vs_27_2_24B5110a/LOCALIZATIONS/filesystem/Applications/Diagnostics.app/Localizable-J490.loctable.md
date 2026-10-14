@@ -1,6 +1,6 @@
 ## Diagnostics
 
-> `filesystem/Applications/Diagnostics.app/Localizable-J490.loctable`
+> `FileSystem/Applications/Diagnostics.app/Localizable-J490.loctable`
 
 ```text
 en.ELS_DEVICE_SELECTOR_DEVICES_HOMEACCESSORY = "HomeAccessory Devices"

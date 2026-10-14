@@ -1,6 +1,6 @@
 ## CloudKeychainProxy
 
-> `System/Library/Frameworks/Security.framework/CloudKeychainProxy.bundle/CloudKeychainProxy`
+> `/System/Library/Frameworks/Security.framework/CloudKeychainProxy.bundle/CloudKeychainProxy`
 
 ### Sections with Same Size but Changed Content
 

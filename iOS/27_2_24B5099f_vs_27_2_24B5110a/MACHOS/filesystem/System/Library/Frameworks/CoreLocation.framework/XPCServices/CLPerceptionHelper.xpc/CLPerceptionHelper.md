@@ -1,6 +1,6 @@
 ## CLPerceptionHelper
 
-> `System/Library/Frameworks/CoreLocation.framework/XPCServices/CLPerceptionHelper.xpc/CLPerceptionHelper`
+> `/System/Library/Frameworks/CoreLocation.framework/XPCServices/CLPerceptionHelper.xpc/CLPerceptionHelper`
 
 ### Sections with Same Size but Changed Content
 

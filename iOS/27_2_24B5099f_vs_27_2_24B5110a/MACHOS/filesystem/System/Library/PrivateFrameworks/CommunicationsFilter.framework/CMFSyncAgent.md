@@ -1,6 +1,6 @@
 ## CMFSyncAgent
 
-> `System/Library/PrivateFrameworks/CommunicationsFilter.framework/CMFSyncAgent`
+> `/System/Library/PrivateFrameworks/CommunicationsFilter.framework/CMFSyncAgent`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## WiFiCloudAssetsXPCService
 
-> `System/Library/PrivateFrameworks/WiFiPolicy.framework/XPCServices/WiFiCloudAssetsXPCService.xpc/WiFiCloudAssetsXPCService`
+> `/System/Library/PrivateFrameworks/WiFiPolicy.framework/XPCServices/WiFiCloudAssetsXPCService.xpc/WiFiCloudAssetsXPCService`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## ExtensionKitSettings
 
-> `System/Library/Settings/ExtensionKitSettings.settings/ExtensionKitSettings`
+> `/System/Library/Settings/ExtensionKitSettings.settings/ExtensionKitSettings`
 
 ### Sections with Same Size but Changed Content
 

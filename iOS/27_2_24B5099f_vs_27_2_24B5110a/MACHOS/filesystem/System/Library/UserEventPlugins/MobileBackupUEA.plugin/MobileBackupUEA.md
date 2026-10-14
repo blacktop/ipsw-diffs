@@ -1,6 +1,6 @@
 ## MobileBackupUEA
 
-> `System/Library/UserEventPlugins/MobileBackupUEA.plugin/MobileBackupUEA`
+> `/System/Library/UserEventPlugins/MobileBackupUEA.plugin/MobileBackupUEA`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## HomeAppMessagesExtension
 
-> `filesystem/System/Library/AppPlaceholders/Home.app/PlugIns/HomeAppMessagesExtension.appex/InfoPlist.loctable`
+> `FileSystem/System/Library/AppPlaceholders/Home.app/PlugIns/HomeAppMessagesExtension.appex/InfoPlist.loctable`
 
 ```text
 en.CFBundleDisplayName = "HomeAppMessagesExtension"

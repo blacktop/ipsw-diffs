@@ -1,6 +1,6 @@
 ## cksharingmanagementd
 
-> `System/Library/PrivateFrameworks/CKSharingManagementDaemon.framework/Support/cksharingmanagementd`
+> `/System/Library/PrivateFrameworks/CKSharingManagementDaemon.framework/Support/cksharingmanagementd`
 
 ### Sections with Same Size but Changed Content
 

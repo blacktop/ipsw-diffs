@@ -1,6 +1,6 @@
 ## dyld
 
-> `usr/lib/dyld`
+> `/usr/lib/dyld`
 
 ### Sections with Same Size but Changed Content
 

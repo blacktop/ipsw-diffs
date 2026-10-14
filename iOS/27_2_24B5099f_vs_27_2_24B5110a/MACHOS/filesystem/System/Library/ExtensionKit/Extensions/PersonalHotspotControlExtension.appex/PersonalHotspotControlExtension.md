@@ -1,6 +1,6 @@
 ## PersonalHotspotControlExtension
 
-> `System/Library/ExtensionKit/Extensions/PersonalHotspotControlExtension.appex/PersonalHotspotControlExtension`
+> `/System/Library/ExtensionKit/Extensions/PersonalHotspotControlExtension.appex/PersonalHotspotControlExtension`
 
 ### Sections with Same Size but Changed Content
 

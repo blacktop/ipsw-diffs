@@ -1,6 +1,6 @@
 ## SetStoreUpdateService
 
-> `System/Library/PrivateFrameworks/CascadeSets.framework/XPCServices/SetStoreUpdateService.xpc/SetStoreUpdateService`
+> `/System/Library/PrivateFrameworks/CascadeSets.framework/XPCServices/SetStoreUpdateService.xpc/SetStoreUpdateService`
 
 ### Sections with Same Size but Changed Content
 

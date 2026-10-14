@@ -1,6 +1,6 @@
 ## ANELargeModelCompilerService
 
-> `System/Library/PrivateFrameworks/AppleNeuralEngine.framework/XPCServices/ANELargeModelCompilerService.xpc/ANELargeModelCompilerService`
+> `/System/Library/PrivateFrameworks/AppleNeuralEngine.framework/XPCServices/ANELargeModelCompilerService.xpc/ANELargeModelCompilerService`
 
 ### Sections with Same Size but Changed Content
 

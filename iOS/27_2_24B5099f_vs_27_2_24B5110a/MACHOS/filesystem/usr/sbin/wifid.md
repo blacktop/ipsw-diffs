@@ -1,6 +1,6 @@
 ## wifid
 
-> `usr/sbin/wifid`
+> `/usr/sbin/wifid`
 
 ### Sections with Same Size but Changed Content
 

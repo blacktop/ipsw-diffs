@@ -1,6 +1,6 @@
 ## StoreDynamicUIPlugin
 
-> `System/Library/AppleMediaServices/DynamicUI/PlugIns/StoreDynamicUIPlugin.bundle/StoreDynamicUIPlugin`
+> `/System/Library/AppleMediaServices/DynamicUI/PlugIns/StoreDynamicUIPlugin.bundle/StoreDynamicUIPlugin`
 
 ### Sections with Same Size but Changed Content
 

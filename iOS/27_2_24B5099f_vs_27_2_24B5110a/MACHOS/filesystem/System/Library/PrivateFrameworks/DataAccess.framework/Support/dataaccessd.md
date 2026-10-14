@@ -1,6 +1,6 @@
 ## dataaccessd
 
-> `System/Library/PrivateFrameworks/DataAccess.framework/Support/dataaccessd`
+> `/System/Library/PrivateFrameworks/DataAccess.framework/Support/dataaccessd`
 
 ### Sections with Same Size but Changed Content
 

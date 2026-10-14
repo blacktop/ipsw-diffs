@@ -1,6 +1,6 @@
 ## CameraUI
 
-> `filesystem/System/Library/PrivateFrameworks/CameraUI.framework/CameraUI-Provenance.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/CameraUI.framework/CameraUI-Provenance.loctable`
 
 ```diff
 

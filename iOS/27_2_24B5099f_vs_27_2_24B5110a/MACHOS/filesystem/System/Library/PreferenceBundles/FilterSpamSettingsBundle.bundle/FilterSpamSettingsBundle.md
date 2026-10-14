@@ -1,6 +1,6 @@
 ## FilterSpamSettingsBundle
 
-> `System/Library/PreferenceBundles/FilterSpamSettingsBundle.bundle/FilterSpamSettingsBundle`
+> `/System/Library/PreferenceBundles/FilterSpamSettingsBundle.bundle/FilterSpamSettingsBundle`
 
 ### Sections with Same Size but Changed Content
 

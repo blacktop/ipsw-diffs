@@ -1,6 +1,6 @@
 ## kbd
 
-> `System/Library/TextInput/kbd`
+> `/System/Library/TextInput/kbd`
 
 ```diff
 

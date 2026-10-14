@@ -1,6 +1,6 @@
 ## SiriInformationUIPlugin
 
-> `System/Library/Snippets/UIPlugins/SiriInformationUIPlugin.bundle/SiriInformationUIPlugin`
+> `/System/Library/Snippets/UIPlugins/SiriInformationUIPlugin.bundle/SiriInformationUIPlugin`
 
 ### Sections with Same Size but Changed Content
 

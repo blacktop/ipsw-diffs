@@ -1,6 +1,6 @@
 ## FinanceUIService
 
-> `Applications/FinanceUIService.app/FinanceUIService`
+> `/Applications/FinanceUIService.app/FinanceUIService`
 
 ### Sections with Same Size but Changed Content
 

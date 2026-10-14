@@ -1,6 +1,6 @@
 ## MKRemoteUI
 
-> `System/Library/ExtensionKit/Extensions/MKRemoteUI.appex/MKRemoteUI`
+> `/System/Library/ExtensionKit/Extensions/MKRemoteUI.appex/MKRemoteUI`
 
 ### Sections with Same Size but Changed Content
 

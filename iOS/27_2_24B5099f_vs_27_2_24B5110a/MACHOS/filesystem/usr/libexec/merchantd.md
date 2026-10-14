@@ -1,6 +1,6 @@
 ## merchantd
 
-> `usr/libexec/merchantd`
+> `/usr/libexec/merchantd`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## weatherd
 
-> `System/Library/PrivateFrameworks/WeatherDaemon.framework/weatherd`
+> `/System/Library/PrivateFrameworks/WeatherDaemon.framework/weatherd`
 
 ### Sections with Same Size but Changed Content
 

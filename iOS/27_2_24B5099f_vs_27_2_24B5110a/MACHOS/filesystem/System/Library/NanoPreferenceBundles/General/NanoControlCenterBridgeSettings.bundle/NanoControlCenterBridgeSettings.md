@@ -1,6 +1,6 @@
 ## NanoControlCenterBridgeSettings
 
-> `System/Library/NanoPreferenceBundles/General/NanoControlCenterBridgeSettings.bundle/NanoControlCenterBridgeSettings`
+> `/System/Library/NanoPreferenceBundles/General/NanoControlCenterBridgeSettings.bundle/NanoControlCenterBridgeSettings`
 
 ### Sections with Same Size but Changed Content
 

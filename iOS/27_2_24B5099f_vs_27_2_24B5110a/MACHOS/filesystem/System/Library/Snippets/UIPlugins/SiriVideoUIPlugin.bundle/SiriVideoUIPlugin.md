@@ -1,6 +1,6 @@
 ## SiriVideoUIPlugin
 
-> `System/Library/Snippets/UIPlugins/SiriVideoUIPlugin.bundle/SiriVideoUIPlugin`
+> `/System/Library/Snippets/UIPlugins/SiriVideoUIPlugin.bundle/SiriVideoUIPlugin`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## TVRemoteSettings
 
-> `System/Library/Settings/TVRemoteSettings.settings/TVRemoteSettings`
+> `/System/Library/Settings/TVRemoteSettings.settings/TVRemoteSettings`
 
 ### Sections with Same Size but Changed Content
 

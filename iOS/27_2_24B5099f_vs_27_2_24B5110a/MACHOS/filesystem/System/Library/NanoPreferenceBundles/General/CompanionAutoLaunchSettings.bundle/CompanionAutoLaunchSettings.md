@@ -1,6 +1,6 @@
 ## CompanionAutoLaunchSettings
 
-> `System/Library/NanoPreferenceBundles/General/CompanionAutoLaunchSettings.bundle/CompanionAutoLaunchSettings`
+> `/System/Library/NanoPreferenceBundles/General/CompanionAutoLaunchSettings.bundle/CompanionAutoLaunchSettings`
 
 ### Sections with Same Size but Changed Content
 

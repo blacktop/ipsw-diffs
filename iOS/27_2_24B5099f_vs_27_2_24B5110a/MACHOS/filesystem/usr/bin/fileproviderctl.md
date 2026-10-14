@@ -1,6 +1,6 @@
 ## fileproviderctl
 
-> `usr/bin/fileproviderctl`
+> `/usr/bin/fileproviderctl`
 
 ### Sections with Same Size but Changed Content
 

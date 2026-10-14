@@ -1,6 +1,6 @@
 ## AppSystemSettingsUI
 
-> `filesystem/System/Library/PrivateFrameworks/AppSystemSettingsUI.framework/Localizable.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/AppSystemSettingsUI.framework/Localizable.loctable`
 
 ```diff
 

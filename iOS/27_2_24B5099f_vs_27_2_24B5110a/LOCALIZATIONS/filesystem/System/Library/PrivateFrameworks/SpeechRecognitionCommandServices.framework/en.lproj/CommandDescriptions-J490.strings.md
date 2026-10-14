@@ -1,6 +1,6 @@
 ## SpeechRecognitionCommandServices
 
-> `filesystem/System/Library/PrivateFrameworks/SpeechRecognitionCommandServices.framework/en.lproj/CommandDescriptions-J490.strings`
+> `FileSystem/System/Library/PrivateFrameworks/SpeechRecognitionCommandServices.framework/en.lproj/CommandDescriptions-J490.strings`
 
 ```text
 System.ShowAmbient_SUMM = "Show the faces."

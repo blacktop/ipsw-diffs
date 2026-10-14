@@ -1,6 +1,6 @@
 ## Managed Background Assets Development-Override Settings
 
-> `System/Library/PreferenceBundles/Managed Background Assets Development-Override Settings.bundle/Managed Background Assets Development-Override Settings`
+> `/System/Library/PreferenceBundles/Managed Background Assets Development-Override Settings.bundle/Managed Background Assets Development-Override Settings`
 
 ### Sections with Same Size but Changed Content
 

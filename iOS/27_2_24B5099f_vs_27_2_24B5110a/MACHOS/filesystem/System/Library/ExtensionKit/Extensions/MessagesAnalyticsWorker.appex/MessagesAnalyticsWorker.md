@@ -1,6 +1,6 @@
 ## MessagesAnalyticsWorker
 
-> `System/Library/ExtensionKit/Extensions/MessagesAnalyticsWorker.appex/MessagesAnalyticsWorker`
+> `/System/Library/ExtensionKit/Extensions/MessagesAnalyticsWorker.appex/MessagesAnalyticsWorker`
 
 ### Sections with Same Size but Changed Content
 

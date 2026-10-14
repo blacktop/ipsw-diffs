@@ -1,6 +1,6 @@
 ## com.apple.ScreenTimeNotifications
 
-> `filesystem/System/Library/UserNotifications/Bundles/com.apple.ScreenTimeNotifications.bundle/Localizable.loctable`
+> `FileSystem/System/Library/UserNotifications/Bundles/com.apple.ScreenTimeNotifications.bundle/Localizable.loctable`
 
 ```diff
 

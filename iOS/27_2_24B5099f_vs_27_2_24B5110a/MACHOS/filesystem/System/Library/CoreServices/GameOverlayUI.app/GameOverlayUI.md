@@ -1,6 +1,6 @@
 ## GameOverlayUI
 
-> `System/Library/CoreServices/GameOverlayUI.app/GameOverlayUI`
+> `/System/Library/CoreServices/GameOverlayUI.app/GameOverlayUI`
 
 ### Sections with Same Size but Changed Content
 

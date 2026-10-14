@@ -1,6 +1,6 @@
 ## default-binaryarchive.metallib
 
-> `System/Library/PrivateFrameworks/CoreRE.framework/default-binaryarchive.metallib`
+> `/System/Library/PrivateFrameworks/CoreRE.framework/default-binaryarchive.metallib`
 
 ### Sections with Same Size but Changed Content
 

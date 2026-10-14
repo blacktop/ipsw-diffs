@@ -1,6 +1,6 @@
 ## com.apple.DataDetectorsUI.ActionsExtension
 
-> `System/Library/PrivateFrameworks/DataDetectorsUI.framework/PlugIns/com.apple.DataDetectorsUI.ActionsExtension.appex/com.apple.DataDetectorsUI.ActionsExtension`
+> `/System/Library/PrivateFrameworks/DataDetectorsUI.framework/PlugIns/com.apple.DataDetectorsUI.ActionsExtension.appex/com.apple.DataDetectorsUI.ActionsExtension`
 
 ### Sections with Same Size but Changed Content
 

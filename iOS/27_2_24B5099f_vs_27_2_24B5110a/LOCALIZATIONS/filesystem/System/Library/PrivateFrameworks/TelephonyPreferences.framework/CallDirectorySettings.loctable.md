@@ -1,6 +1,6 @@
 ## TelephonyPreferences
 
-> `filesystem/System/Library/PrivateFrameworks/TelephonyPreferences.framework/CallDirectorySettings.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/TelephonyPreferences.framework/CallDirectorySettings.loctable`
 
 ```diff
 

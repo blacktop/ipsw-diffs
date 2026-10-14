@@ -1,6 +1,6 @@
 ## LimitedModeShieldApp
 
-> `Applications/LimitedModeShieldApp.app/LimitedModeShieldApp`
+> `/Applications/LimitedModeShieldApp.app/LimitedModeShieldApp`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## SearchIndexer
 
-> `System/Library/PrivateFrameworks/Message.framework/XPCServices/SearchIndexer.xpc/SearchIndexer`
+> `/System/Library/PrivateFrameworks/Message.framework/XPCServices/SearchIndexer.xpc/SearchIndexer`
 
 ### Sections with Same Size but Changed Content
 

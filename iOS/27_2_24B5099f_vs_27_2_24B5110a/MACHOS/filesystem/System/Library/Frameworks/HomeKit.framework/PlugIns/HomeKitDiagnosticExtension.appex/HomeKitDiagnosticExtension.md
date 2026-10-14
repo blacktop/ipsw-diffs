@@ -1,6 +1,6 @@
 ## HomeKitDiagnosticExtension
 
-> `System/Library/Frameworks/HomeKit.framework/PlugIns/HomeKitDiagnosticExtension.appex/HomeKitDiagnosticExtension`
+> `/System/Library/Frameworks/HomeKit.framework/PlugIns/HomeKitDiagnosticExtension.appex/HomeKitDiagnosticExtension`
 
 ### Sections with Same Size but Changed Content
 

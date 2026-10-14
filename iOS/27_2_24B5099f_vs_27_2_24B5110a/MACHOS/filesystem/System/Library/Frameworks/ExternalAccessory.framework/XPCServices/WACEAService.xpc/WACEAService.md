@@ -1,6 +1,6 @@
 ## WACEAService
 
-> `System/Library/Frameworks/ExternalAccessory.framework/XPCServices/WACEAService.xpc/WACEAService`
+> `/System/Library/Frameworks/ExternalAccessory.framework/XPCServices/WACEAService.xpc/WACEAService`
 
 ### Sections with Same Size but Changed Content
 

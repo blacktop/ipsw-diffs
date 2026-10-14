@@ -1,6 +1,6 @@
 ## MotionCalibration
 
-> `System/Library/LocationBundles/MotionCalibration.bundle/MotionCalibration`
+> `/System/Library/LocationBundles/MotionCalibration.bundle/MotionCalibration`
 
 ### Sections with Same Size but Changed Content
 

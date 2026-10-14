@@ -1,6 +1,6 @@
 ## MBPrebuddyFollowUpExtension
 
-> `System/Library/PrivateFrameworks/MobileBackup.framework/PlugIns/MBPrebuddyFollowUpExtension.appex/MBPrebuddyFollowUpExtension`
+> `/System/Library/PrivateFrameworks/MobileBackup.framework/PlugIns/MBPrebuddyFollowUpExtension.appex/MBPrebuddyFollowUpExtension`
 
 ### Sections with Same Size but Changed Content
 

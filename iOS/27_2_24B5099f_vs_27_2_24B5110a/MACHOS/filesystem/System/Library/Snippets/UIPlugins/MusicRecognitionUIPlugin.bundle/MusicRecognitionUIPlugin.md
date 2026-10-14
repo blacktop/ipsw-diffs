@@ -1,6 +1,6 @@
 ## MusicRecognitionUIPlugin
 
-> `System/Library/Snippets/UIPlugins/MusicRecognitionUIPlugin.bundle/MusicRecognitionUIPlugin`
+> `/System/Library/Snippets/UIPlugins/MusicRecognitionUIPlugin.bundle/MusicRecognitionUIPlugin`
 
 ### Sections with Same Size but Changed Content
 

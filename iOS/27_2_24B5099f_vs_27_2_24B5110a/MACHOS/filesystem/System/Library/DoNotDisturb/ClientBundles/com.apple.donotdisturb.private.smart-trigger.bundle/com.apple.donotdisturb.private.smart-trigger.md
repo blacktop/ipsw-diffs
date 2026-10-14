@@ -1,6 +1,6 @@
 ## com.apple.donotdisturb.private.smart-trigger
 
-> `System/Library/DoNotDisturb/ClientBundles/com.apple.donotdisturb.private.smart-trigger.bundle/com.apple.donotdisturb.private.smart-trigger`
+> `/System/Library/DoNotDisturb/ClientBundles/com.apple.donotdisturb.private.smart-trigger.bundle/com.apple.donotdisturb.private.smart-trigger`
 
 ### Sections with Same Size but Changed Content
 

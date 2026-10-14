@@ -1,6 +1,6 @@
 ## AskToViewExtension
 
-> `System/Library/ExtensionKit/Extensions/AskToViewExtension.appex/AskToViewExtension`
+> `/System/Library/ExtensionKit/Extensions/AskToViewExtension.appex/AskToViewExtension`
 
 ### Sections with Same Size but Changed Content
 

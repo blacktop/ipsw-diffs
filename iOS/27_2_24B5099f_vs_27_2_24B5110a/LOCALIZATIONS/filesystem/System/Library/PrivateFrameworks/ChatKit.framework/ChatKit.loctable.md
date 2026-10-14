@@ -1,6 +1,6 @@
 ## ChatKit
 
-> `filesystem/System/Library/PrivateFrameworks/ChatKit.framework/ChatKit.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/ChatKit.framework/ChatKit.loctable`
 
 ```diff
 

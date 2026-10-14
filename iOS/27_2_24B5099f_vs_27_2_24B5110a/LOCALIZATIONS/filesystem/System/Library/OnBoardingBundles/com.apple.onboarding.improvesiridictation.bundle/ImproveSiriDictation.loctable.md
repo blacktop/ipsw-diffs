@@ -1,6 +1,6 @@
 ## com.apple.onboarding.improvesiridictation
 
-> `filesystem/System/Library/OnBoardingBundles/com.apple.onboarding.improvesiridictation.bundle/ImproveSiriDictation.loctable`
+> `FileSystem/System/Library/OnBoardingBundles/com.apple.onboarding.improvesiridictation.bundle/ImproveSiriDictation.loctable`
 
 ```diff
 

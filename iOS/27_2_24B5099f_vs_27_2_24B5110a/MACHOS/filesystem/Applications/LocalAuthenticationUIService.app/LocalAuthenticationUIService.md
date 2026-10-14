@@ -1,6 +1,6 @@
 ## LocalAuthenticationUIService
 
-> `Applications/LocalAuthenticationUIService.app/LocalAuthenticationUIService`
+> `/Applications/LocalAuthenticationUIService.app/LocalAuthenticationUIService`
 
 ### Sections with Same Size but Changed Content
 

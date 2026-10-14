@@ -1,6 +1,6 @@
 ## HSTouchHIDService
 
-> `System/Library/HIDPlugins/ServicePlugins/HSTouchHIDService.plugin/HSTouchHIDService`
+> `/System/Library/HIDPlugins/ServicePlugins/HSTouchHIDService.plugin/HSTouchHIDService`
 
 ### Sections with Same Size but Changed Content
 

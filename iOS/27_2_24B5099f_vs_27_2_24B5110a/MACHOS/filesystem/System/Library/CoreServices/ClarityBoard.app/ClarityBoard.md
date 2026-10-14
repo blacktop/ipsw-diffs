@@ -1,6 +1,6 @@
 ## ClarityBoard
 
-> `System/Library/CoreServices/ClarityBoard.app/ClarityBoard`
+> `/System/Library/CoreServices/ClarityBoard.app/ClarityBoard`
 
 ### Sections with Same Size but Changed Content
 

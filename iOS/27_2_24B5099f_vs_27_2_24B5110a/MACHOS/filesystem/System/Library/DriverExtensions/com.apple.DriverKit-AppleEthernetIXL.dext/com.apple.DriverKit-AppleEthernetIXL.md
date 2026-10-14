@@ -1,6 +1,6 @@
 ## com.apple.DriverKit-AppleEthernetIXL
 
-> `System/Library/DriverExtensions/com.apple.DriverKit-AppleEthernetIXL.dext/com.apple.DriverKit-AppleEthernetIXL`
+> `/System/Library/DriverExtensions/com.apple.DriverKit-AppleEthernetIXL.dext/com.apple.DriverKit-AppleEthernetIXL`
 
 ### Sections with Same Size but Changed Content
 

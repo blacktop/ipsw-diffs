@@ -1,6 +1,6 @@
 ## binaryArchive.g19p
 
-> `System/Library/VideoProcessors/STF.bundle/binaryArchive.g19p`
+> `/System/Library/VideoProcessors/STF.bundle/binaryArchive.g19p`
 
 ### Sections with Same Size but Changed Content
 

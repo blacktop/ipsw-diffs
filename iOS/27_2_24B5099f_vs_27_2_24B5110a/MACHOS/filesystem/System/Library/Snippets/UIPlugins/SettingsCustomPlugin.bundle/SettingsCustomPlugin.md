@@ -1,6 +1,6 @@
 ## SettingsCustomPlugin
 
-> `System/Library/Snippets/UIPlugins/SettingsCustomPlugin.bundle/SettingsCustomPlugin`
+> `/System/Library/Snippets/UIPlugins/SettingsCustomPlugin.bundle/SettingsCustomPlugin`
 
 ### Sections with Same Size but Changed Content
 

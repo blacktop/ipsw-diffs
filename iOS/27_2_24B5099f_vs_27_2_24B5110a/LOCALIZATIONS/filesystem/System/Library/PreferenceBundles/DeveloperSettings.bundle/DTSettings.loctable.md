@@ -1,6 +1,6 @@
 ## DeveloperSettings
 
-> `filesystem/System/Library/PreferenceBundles/DeveloperSettings.bundle/DTSettings.loctable`
+> `FileSystem/System/Library/PreferenceBundles/DeveloperSettings.bundle/DTSettings.loctable`
 
 ```diff
 

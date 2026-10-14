@@ -1,6 +1,6 @@
 ## assistantd
 
-> `System/Library/PrivateFrameworks/AssistantServices.framework/assistantd`
+> `/System/Library/PrivateFrameworks/AssistantServices.framework/assistantd`
 
 ### Sections with Same Size but Changed Content
 

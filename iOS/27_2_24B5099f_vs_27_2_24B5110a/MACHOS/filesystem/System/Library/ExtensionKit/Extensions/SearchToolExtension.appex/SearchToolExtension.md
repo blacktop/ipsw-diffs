@@ -1,6 +1,6 @@
 ## SearchToolExtension
 
-> `System/Library/ExtensionKit/Extensions/SearchToolExtension.appex/SearchToolExtension`
+> `/System/Library/ExtensionKit/Extensions/SearchToolExtension.appex/SearchToolExtension`
 
 ### Sections with Same Size but Changed Content
 

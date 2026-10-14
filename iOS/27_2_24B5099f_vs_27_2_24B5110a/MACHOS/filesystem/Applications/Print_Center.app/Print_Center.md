@@ -1,6 +1,6 @@
 ## Print Center
 
-> `Applications/Print Center.app/Print Center`
+> `/Applications/Print Center.app/Print Center`
 
 ### Sections with Same Size but Changed Content
 

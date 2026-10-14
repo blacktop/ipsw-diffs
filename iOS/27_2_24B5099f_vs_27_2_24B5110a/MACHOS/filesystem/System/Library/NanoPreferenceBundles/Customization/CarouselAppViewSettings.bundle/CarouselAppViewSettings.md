@@ -1,6 +1,6 @@
 ## CarouselAppViewSettings
 
-> `System/Library/NanoPreferenceBundles/Customization/CarouselAppViewSettings.bundle/CarouselAppViewSettings`
+> `/System/Library/NanoPreferenceBundles/Customization/CarouselAppViewSettings.bundle/CarouselAppViewSettings`
 
 ### Sections with Same Size but Changed Content
 

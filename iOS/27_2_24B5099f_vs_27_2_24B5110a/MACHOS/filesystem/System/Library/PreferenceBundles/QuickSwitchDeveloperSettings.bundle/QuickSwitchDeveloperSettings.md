@@ -1,6 +1,6 @@
 ## QuickSwitchDeveloperSettings
 
-> `System/Library/PreferenceBundles/QuickSwitchDeveloperSettings.bundle/QuickSwitchDeveloperSettings`
+> `/System/Library/PreferenceBundles/QuickSwitchDeveloperSettings.bundle/QuickSwitchDeveloperSettings`
 
 ### Sections with Same Size but Changed Content
 

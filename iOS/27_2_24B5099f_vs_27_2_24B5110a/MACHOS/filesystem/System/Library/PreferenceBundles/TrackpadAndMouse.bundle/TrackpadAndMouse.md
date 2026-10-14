@@ -1,6 +1,6 @@
 ## TrackpadAndMouse
 
-> `System/Library/PreferenceBundles/TrackpadAndMouse.bundle/TrackpadAndMouse`
+> `/System/Library/PreferenceBundles/TrackpadAndMouse.bundle/TrackpadAndMouse`
 
 ### Sections with Same Size but Changed Content
 

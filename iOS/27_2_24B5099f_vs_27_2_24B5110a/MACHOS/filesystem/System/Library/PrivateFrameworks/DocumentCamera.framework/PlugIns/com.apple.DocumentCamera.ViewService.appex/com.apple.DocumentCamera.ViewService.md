@@ -1,6 +1,6 @@
 ## com.apple.DocumentCamera.ViewService
 
-> `System/Library/PrivateFrameworks/DocumentCamera.framework/PlugIns/com.apple.DocumentCamera.ViewService.appex/com.apple.DocumentCamera.ViewService`
+> `/System/Library/PrivateFrameworks/DocumentCamera.framework/PlugIns/com.apple.DocumentCamera.ViewService.appex/com.apple.DocumentCamera.ViewService`
 
 ### Sections with Same Size but Changed Content
 

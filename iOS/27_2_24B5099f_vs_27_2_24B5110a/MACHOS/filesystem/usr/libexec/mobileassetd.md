@@ -1,6 +1,6 @@
 ## mobileassetd
 
-> `usr/libexec/mobileassetd`
+> `/usr/libexec/mobileassetd`
 
 ### Sections with Same Size but Changed Content
 

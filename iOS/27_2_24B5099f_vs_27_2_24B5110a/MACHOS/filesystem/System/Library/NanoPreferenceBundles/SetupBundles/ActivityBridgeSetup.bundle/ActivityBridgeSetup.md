@@ -1,6 +1,6 @@
 ## ActivityBridgeSetup
 
-> `System/Library/NanoPreferenceBundles/SetupBundles/ActivityBridgeSetup.bundle/ActivityBridgeSetup`
+> `/System/Library/NanoPreferenceBundles/SetupBundles/ActivityBridgeSetup.bundle/ActivityBridgeSetup`
 
 ### Sections with Same Size but Changed Content
 

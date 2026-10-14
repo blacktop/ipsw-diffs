@@ -1,6 +1,6 @@
 ## FocusUIModule
 
-> `System/Library/ControlCenter/Bundles/FocusUIModule.bundle/FocusUIModule`
+> `/System/Library/ControlCenter/Bundles/FocusUIModule.bundle/FocusUIModule`
 
 ### Sections with Same Size but Changed Content
 

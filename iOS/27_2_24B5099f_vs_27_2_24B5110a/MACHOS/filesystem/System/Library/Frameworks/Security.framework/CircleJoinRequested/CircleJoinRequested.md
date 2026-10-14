@@ -1,6 +1,6 @@
 ## CircleJoinRequested
 
-> `System/Library/Frameworks/Security.framework/CircleJoinRequested/CircleJoinRequested`
+> `/System/Library/Frameworks/Security.framework/CircleJoinRequested/CircleJoinRequested`
 
 ### Sections with Same Size but Changed Content
 

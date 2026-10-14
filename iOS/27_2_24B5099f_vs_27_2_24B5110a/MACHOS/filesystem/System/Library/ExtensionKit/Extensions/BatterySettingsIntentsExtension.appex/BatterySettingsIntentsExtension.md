@@ -1,6 +1,6 @@
 ## BatterySettingsIntentsExtension
 
-> `System/Library/ExtensionKit/Extensions/BatterySettingsIntentsExtension.appex/BatterySettingsIntentsExtension`
+> `/System/Library/ExtensionKit/Extensions/BatterySettingsIntentsExtension.appex/BatterySettingsIntentsExtension`
 
 ### Sections with Same Size but Changed Content
 

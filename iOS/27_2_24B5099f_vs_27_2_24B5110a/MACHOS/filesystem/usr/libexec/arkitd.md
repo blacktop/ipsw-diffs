@@ -1,6 +1,6 @@
 ## arkitd
 
-> `usr/libexec/arkitd`
+> `/usr/libexec/arkitd`
 
 ### Sections with Same Size but Changed Content
 

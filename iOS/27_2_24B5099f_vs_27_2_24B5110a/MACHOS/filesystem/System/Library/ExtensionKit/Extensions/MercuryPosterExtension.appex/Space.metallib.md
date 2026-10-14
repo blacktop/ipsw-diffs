@@ -1,6 +1,6 @@
 ## Space.metallib
 
-> `System/Library/ExtensionKit/Extensions/MercuryPosterExtension.appex/Space.metallib`
+> `/System/Library/ExtensionKit/Extensions/MercuryPosterExtension.appex/Space.metallib`
 
 ### Sections with Same Size but Changed Content
 

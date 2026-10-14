@@ -1,6 +1,6 @@
 ## HomeKit
 
-> `filesystem/System/Library/Frameworks/HomeKit.framework/en.lproj/HomeKit-VCS.strings`
+> `FileSystem/System/Library/Frameworks/HomeKit.framework/en.lproj/HomeKit-VCS.strings`
 
 ```text
 ACCESSORY_HEALTH_CHECK_RECOMMENDATION_CAMERA_MANUALLY_DISABLED = "Camera Manually Disabled"

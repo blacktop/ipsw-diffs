@@ -1,6 +1,6 @@
 ## linkd
 
-> `usr/libexec/linkd`
+> `/usr/libexec/linkd`
 
 ### Sections with Same Size but Changed Content
 

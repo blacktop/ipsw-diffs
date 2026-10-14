@@ -1,6 +1,6 @@
 ## DataDetectorsSourceAccess
 
-> `usr/libexec/DataDetectorsSourceAccess`
+> `/usr/libexec/DataDetectorsSourceAccess`
 
 ### Sections with Same Size but Changed Content
 

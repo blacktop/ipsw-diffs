@@ -1,6 +1,6 @@
 ## VoiceOverTouch
 
-> `filesystem/System/Library/CoreServices/VoiceOverTouch.app/VOTLocalizedStrings-J490.loctable`
+> `FileSystem/System/Library/CoreServices/VoiceOverTouch.app/VOTLocalizedStrings-J490.loctable`
 
 ```text
 en.home.destination.app.drawer = "App Drawer"

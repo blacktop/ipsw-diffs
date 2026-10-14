@@ -1,6 +1,6 @@
 ## CompanionSetup
 
-> `filesystem/Applications/CompanionSetup.app/Localizable-Linwood.loctable`
+> `FileSystem/Applications/CompanionSetup.app/Localizable-Linwood.loctable`
 
 ```text
 en.DONT_USE_PERSONAL_CONTENT = "Don’t Use Personal Content"

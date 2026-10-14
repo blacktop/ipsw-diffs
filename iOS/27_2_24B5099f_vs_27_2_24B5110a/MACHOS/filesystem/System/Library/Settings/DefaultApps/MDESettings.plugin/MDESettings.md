@@ -1,6 +1,6 @@
 ## MDESettings
 
-> `System/Library/Settings/DefaultApps/MDESettings.plugin/MDESettings`
+> `/System/Library/Settings/DefaultApps/MDESettings.plugin/MDESettings`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## AccessorySetupDeveloperSettings
 
-> `System/Library/PreferenceBundles/AccessorySetupDeveloperSettings.bundle/AccessorySetupDeveloperSettings`
+> `/System/Library/PreferenceBundles/AccessorySetupDeveloperSettings.bundle/AccessorySetupDeveloperSettings`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## servicesintelligenced
 
-> `System/Library/PrivateFrameworks/ServicesIntelligence.framework/servicesintelligenced`
+> `/System/Library/PrivateFrameworks/ServicesIntelligence.framework/servicesintelligenced`
 
 ### Sections with Same Size but Changed Content
 

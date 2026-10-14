@@ -1,6 +1,6 @@
 ## HomeCommunicationUIPlugin
 
-> `System/Library/Snippets/UIPlugins/HomeCommunicationUIPlugin.bundle/HomeCommunicationUIPlugin`
+> `/System/Library/Snippets/UIPlugins/HomeCommunicationUIPlugin.bundle/HomeCommunicationUIPlugin`
 
 ### Sections with Same Size but Changed Content
 

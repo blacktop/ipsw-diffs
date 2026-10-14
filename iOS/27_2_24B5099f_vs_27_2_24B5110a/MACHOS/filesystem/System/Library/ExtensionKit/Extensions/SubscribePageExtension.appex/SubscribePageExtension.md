@@ -1,6 +1,6 @@
 ## SubscribePageExtension
 
-> `System/Library/ExtensionKit/Extensions/SubscribePageExtension.appex/SubscribePageExtension`
+> `/System/Library/ExtensionKit/Extensions/SubscribePageExtension.appex/SubscribePageExtension`
 
 ### Sections with Same Size but Changed Content
 

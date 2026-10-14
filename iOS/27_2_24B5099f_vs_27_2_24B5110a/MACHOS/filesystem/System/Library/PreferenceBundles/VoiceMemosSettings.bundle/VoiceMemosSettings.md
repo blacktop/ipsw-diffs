@@ -1,6 +1,6 @@
 ## VoiceMemosSettings
 
-> `System/Library/PreferenceBundles/VoiceMemosSettings.bundle/VoiceMemosSettings`
+> `/System/Library/PreferenceBundles/VoiceMemosSettings.bundle/VoiceMemosSettings`
 
 ### Sections with Same Size but Changed Content
 

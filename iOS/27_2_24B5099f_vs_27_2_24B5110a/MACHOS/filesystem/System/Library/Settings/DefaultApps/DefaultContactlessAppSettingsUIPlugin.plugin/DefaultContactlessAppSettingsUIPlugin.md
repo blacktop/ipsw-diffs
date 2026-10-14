@@ -1,6 +1,6 @@
 ## DefaultContactlessAppSettingsUIPlugin
 
-> `System/Library/Settings/DefaultApps/DefaultContactlessAppSettingsUIPlugin.plugin/DefaultContactlessAppSettingsUIPlugin`
+> `/System/Library/Settings/DefaultApps/DefaultContactlessAppSettingsUIPlugin.plugin/DefaultContactlessAppSettingsUIPlugin`
 
 ### Sections with Same Size but Changed Content
 

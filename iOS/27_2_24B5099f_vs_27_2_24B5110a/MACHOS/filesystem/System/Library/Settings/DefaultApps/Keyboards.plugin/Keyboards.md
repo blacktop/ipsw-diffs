@@ -1,6 +1,6 @@
 ## Keyboards
 
-> `System/Library/Settings/DefaultApps/Keyboards.plugin/Keyboards`
+> `/System/Library/Settings/DefaultApps/Keyboards.plugin/Keyboards`
 
 ### Sections with Same Size but Changed Content
 

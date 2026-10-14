@@ -1,6 +1,6 @@
 ## DisplayAndBrightness
 
-> `System/Library/PreferenceBundles/DisplayAndBrightness.bundle/DisplayAndBrightness`
+> `/System/Library/PreferenceBundles/DisplayAndBrightness.bundle/DisplayAndBrightness`
 
 ### Sections with Same Size but Changed Content
 

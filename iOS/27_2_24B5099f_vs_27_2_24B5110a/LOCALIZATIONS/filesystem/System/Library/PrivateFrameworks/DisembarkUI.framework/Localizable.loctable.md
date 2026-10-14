@@ -1,6 +1,6 @@
 ## DisembarkUI
 
-> `filesystem/System/Library/PrivateFrameworks/DisembarkUI.framework/Localizable.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/DisembarkUI.framework/Localizable.loctable`
 
 ```diff
 

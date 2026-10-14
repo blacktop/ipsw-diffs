@@ -1,6 +1,6 @@
 ## HomeUI
 
-> `filesystem/System/Library/PrivateFrameworks/HomeUI.framework/HUSensitiveStrings-MarqueeTroubleshooting.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/HomeUI.framework/HUSensitiveStrings-MarqueeTroubleshooting.loctable`
 
 ```text
 en.HUProximityControlUnlockToViewErrorDetails = "Unlock to View Error Details"

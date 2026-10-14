@@ -1,6 +1,6 @@
 ## restorecameraispd
 
-> `usr/libexec/restorecameraispd`
+> `/usr/libexec/restorecameraispd`
 
 ### Sections with Same Size but Changed Content
 

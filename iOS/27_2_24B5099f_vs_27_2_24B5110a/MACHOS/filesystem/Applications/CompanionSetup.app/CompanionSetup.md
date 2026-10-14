@@ -1,6 +1,6 @@
 ## CompanionSetup
 
-> `Applications/CompanionSetup.app/CompanionSetup`
+> `/Applications/CompanionSetup.app/CompanionSetup`
 
 ### Sections with Same Size but Changed Content
 

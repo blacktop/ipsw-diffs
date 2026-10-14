@@ -1,6 +1,6 @@
 ## TransferOrResetSettings
 
-> `System/Library/PreferenceBundles/TransferOrResetSettings.bundle/TransferOrResetSettings`
+> `/System/Library/PreferenceBundles/TransferOrResetSettings.bundle/TransferOrResetSettings`
 
 ### Sections with Same Size but Changed Content
 

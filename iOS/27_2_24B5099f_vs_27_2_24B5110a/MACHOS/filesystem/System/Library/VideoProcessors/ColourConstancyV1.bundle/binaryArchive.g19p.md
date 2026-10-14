@@ -1,6 +1,6 @@
 ## binaryArchive.g19p
 
-> `System/Library/VideoProcessors/ColourConstancyV1.bundle/binaryArchive.g19p`
+> `/System/Library/VideoProcessors/ColourConstancyV1.bundle/binaryArchive.g19p`
 
 ```diff
 

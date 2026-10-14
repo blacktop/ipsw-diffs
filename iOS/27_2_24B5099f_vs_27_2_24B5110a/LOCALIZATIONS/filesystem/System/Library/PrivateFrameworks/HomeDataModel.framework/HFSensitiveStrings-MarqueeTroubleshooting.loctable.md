@@ -1,6 +1,6 @@
 ## HomeDataModel
 
-> `filesystem/System/Library/PrivateFrameworks/HomeDataModel.framework/HFSensitiveStrings-MarqueeTroubleshooting.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/HomeDataModel.framework/HFSensitiveStrings-MarqueeTroubleshooting.loctable`
 
 ```text
 en.AccessoryDetailsStatusIssueDetected = "Issue Detected"

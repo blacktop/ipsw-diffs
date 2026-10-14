@@ -1,6 +1,6 @@
 ## mobiletimerd
 
-> `System/Library/PrivateFrameworks/MobileTimer.framework/Executables/mobiletimerd`
+> `/System/Library/PrivateFrameworks/MobileTimer.framework/Executables/mobiletimerd`
 
 ### Sections with Same Size but Changed Content
 

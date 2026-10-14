@@ -1,6 +1,6 @@
 ## SoftwareUpdateUIService
 
-> `Applications/SoftwareUpdateUIService.app/SoftwareUpdateUIService`
+> `/Applications/SoftwareUpdateUIService.app/SoftwareUpdateUIService`
 
 ### Sections with Same Size but Changed Content
 

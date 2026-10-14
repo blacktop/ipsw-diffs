@@ -1,6 +1,6 @@
 ## DefaultMessagingAppsSettings
 
-> `System/Library/Settings/DefaultApps/DefaultMessagingAppsSettings.plugin/DefaultMessagingAppsSettings`
+> `/System/Library/Settings/DefaultApps/DefaultMessagingAppsSettings.plugin/DefaultMessagingAppsSettings`
 
 ### Sections with Same Size but Changed Content
 

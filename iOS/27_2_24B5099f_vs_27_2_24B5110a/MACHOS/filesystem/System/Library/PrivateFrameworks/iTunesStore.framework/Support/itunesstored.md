@@ -1,6 +1,6 @@
 ## itunesstored
 
-> `System/Library/PrivateFrameworks/iTunesStore.framework/Support/itunesstored`
+> `/System/Library/PrivateFrameworks/iTunesStore.framework/Support/itunesstored`
 
 ### Sections with Same Size but Changed Content
 

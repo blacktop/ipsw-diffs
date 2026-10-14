@@ -1,6 +1,6 @@
 ## CSLCompanionLiveActivitiesSettings
 
-> `System/Library/NanoPreferenceBundles/General/CSLCompanionLiveActivitiesSettings.bundle/CSLCompanionLiveActivitiesSettings`
+> `/System/Library/NanoPreferenceBundles/General/CSLCompanionLiveActivitiesSettings.bundle/CSLCompanionLiveActivitiesSettings`
 
 ### Sections with Same Size but Changed Content
 

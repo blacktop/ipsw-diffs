@@ -1,6 +1,6 @@
 ## ScreenTimeSettings
 
-> `System/Library/PreferenceBundles/ScreenTimeSettings.bundle/ScreenTimeSettings`
+> `/System/Library/PreferenceBundles/ScreenTimeSettings.bundle/ScreenTimeSettings`
 
 ### Sections with Same Size but Changed Content
 

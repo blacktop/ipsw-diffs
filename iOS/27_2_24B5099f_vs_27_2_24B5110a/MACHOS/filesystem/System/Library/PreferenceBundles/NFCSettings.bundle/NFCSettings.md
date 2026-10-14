@@ -1,6 +1,6 @@
 ## NFCSettings
 
-> `System/Library/PreferenceBundles/NFCSettings.bundle/NFCSettings`
+> `/System/Library/PreferenceBundles/NFCSettings.bundle/NFCSettings`
 
 ### Sections with Same Size but Changed Content
 

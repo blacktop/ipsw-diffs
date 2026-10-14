@@ -1,6 +1,6 @@
 ## CTParserService
 
-> `System/Library/Frameworks/CoreTelephony.framework/Support/CTParser.framework/XPCServices/CTParserService.xpc/CTParserService`
+> `/System/Library/Frameworks/CoreTelephony.framework/Support/CTParser.framework/XPCServices/CTParserService.xpc/CTParserService`
 
 ```diff
 

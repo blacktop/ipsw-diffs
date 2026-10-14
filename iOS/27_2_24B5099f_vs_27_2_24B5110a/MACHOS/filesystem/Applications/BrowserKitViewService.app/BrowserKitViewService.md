@@ -1,6 +1,6 @@
 ## BrowserKitViewService
 
-> `Applications/BrowserKitViewService.app/BrowserKitViewService`
+> `/Applications/BrowserKitViewService.app/BrowserKitViewService`
 
 ### Sections with Same Size but Changed Content
 

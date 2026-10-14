@@ -1,6 +1,6 @@
 ## NFCTCCSettings
 
-> `System/Library/Settings/NFCTCCSettings.settings/NFCTCCSettings`
+> `/System/Library/Settings/NFCTCCSettings.settings/NFCTCCSettings`
 
 ### Sections with Same Size but Changed Content
 

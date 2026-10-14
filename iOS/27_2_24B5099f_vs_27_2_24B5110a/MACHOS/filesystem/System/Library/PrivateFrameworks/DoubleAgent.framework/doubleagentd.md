@@ -1,6 +1,6 @@
 ## doubleagentd
 
-> `System/Library/PrivateFrameworks/DoubleAgent.framework/doubleagentd`
+> `/System/Library/PrivateFrameworks/DoubleAgent.framework/doubleagentd`
 
 ### Sections with Same Size but Changed Content
 

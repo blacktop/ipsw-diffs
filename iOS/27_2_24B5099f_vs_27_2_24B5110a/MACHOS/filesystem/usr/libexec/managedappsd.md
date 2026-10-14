@@ -1,6 +1,6 @@
 ## managedappsd
 
-> `usr/libexec/managedappsd`
+> `/usr/libexec/managedappsd`
 
 ### Sections with Same Size but Changed Content
 

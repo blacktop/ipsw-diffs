@@ -1,6 +1,6 @@
 ## TouchAccommodations
 
-> `System/Library/AccessibilityBundles/TouchAccommodations.axuiservice/TouchAccommodations`
+> `/System/Library/AccessibilityBundles/TouchAccommodations.axuiservice/TouchAccommodations`
 
 ### Sections with Same Size but Changed Content
 

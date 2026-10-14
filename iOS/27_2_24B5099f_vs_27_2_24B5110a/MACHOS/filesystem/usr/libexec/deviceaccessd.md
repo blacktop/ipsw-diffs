@@ -1,6 +1,6 @@
 ## deviceaccessd
 
-> `usr/libexec/deviceaccessd`
+> `/usr/libexec/deviceaccessd`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## NearbydDiagnosticExtension
 
-> `System/Library/PrivateFrameworks/DiagnosticExtensions.framework/PlugIns/NearbydDiagnosticExtension.appex/NearbydDiagnosticExtension`
+> `/System/Library/PrivateFrameworks/DiagnosticExtensions.framework/PlugIns/NearbydDiagnosticExtension.appex/NearbydDiagnosticExtension`
 
 ### Sections with Same Size but Changed Content
 

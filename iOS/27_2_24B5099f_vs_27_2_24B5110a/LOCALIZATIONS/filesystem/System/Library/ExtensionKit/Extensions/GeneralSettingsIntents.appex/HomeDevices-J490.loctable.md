@@ -1,6 +1,6 @@
 ## GeneralSettingsIntents
 
-> `filesystem/System/Library/ExtensionKit/Extensions/GeneralSettingsIntents.appex/HomeDevices-J490.loctable`
+> `FileSystem/System/Library/ExtensionKit/Extensions/GeneralSettingsIntents.appex/HomeDevices-J490.loctable`
 
 ```text
 en.Handoff to Home Devices = "Handoff to Home Devices"

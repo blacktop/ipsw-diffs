@@ -1,6 +1,6 @@
 ## PodcastsUI
 
-> `filesystem/System/Library/PrivateFrameworks/PodcastsUI.framework/Localizable.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/PodcastsUI.framework/Localizable.loctable`
 
 ```diff
 

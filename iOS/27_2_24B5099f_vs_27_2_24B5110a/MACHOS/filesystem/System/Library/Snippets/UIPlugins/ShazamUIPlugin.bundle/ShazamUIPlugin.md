@@ -1,6 +1,6 @@
 ## ShazamUIPlugin
 
-> `System/Library/Snippets/UIPlugins/ShazamUIPlugin.bundle/ShazamUIPlugin`
+> `/System/Library/Snippets/UIPlugins/ShazamUIPlugin.bundle/ShazamUIPlugin`
 
 ### Sections with Same Size but Changed Content
 

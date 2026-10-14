@@ -1,6 +1,6 @@
 ## PrivacyAndSecuritySettings
 
-> `System/Library/PreferenceBundles/PrivacyAndSecuritySettings.bundle/PrivacyAndSecuritySettings`
+> `/System/Library/PreferenceBundles/PrivacyAndSecuritySettings.bundle/PrivacyAndSecuritySettings`
 
 ### Sections with Same Size but Changed Content
 

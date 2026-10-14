@@ -1,6 +1,6 @@
 ## ControlCenterControlsExtension
 
-> `System/Library/ExtensionKit/Extensions/ControlCenterControlsExtension.appex/ControlCenterControlsExtension`
+> `/System/Library/ExtensionKit/Extensions/ControlCenterControlsExtension.appex/ControlCenterControlsExtension`
 
 ### Sections with Same Size but Changed Content
 

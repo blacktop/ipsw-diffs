@@ -1,6 +1,6 @@
 ## SpeechRecognitionCommandServices
 
-> `filesystem/System/Library/PrivateFrameworks/SpeechRecognitionCommandServices.framework/en.lproj/CommandStrings-J490.strings`
+> `FileSystem/System/Library/PrivateFrameworks/SpeechRecognitionCommandServices.framework/en.lproj/CommandStrings-J490.strings`
 
 ```text
 System.IgnoreSleepListening_tvOS = "Stop listening [to me] Mac|Stop listening [to me] iPhone|Stop listening [to me] iPad|Stop listening [to me] [Apple] Vision [Pro]|Stop listening [to me] [Apple] Watch|Go to sleep Mac|Go to sleep iPhone|Go to sleep iPad|Go to sleep [Apple] Vision [Pro]|Go to sleep [Apple] Watch"

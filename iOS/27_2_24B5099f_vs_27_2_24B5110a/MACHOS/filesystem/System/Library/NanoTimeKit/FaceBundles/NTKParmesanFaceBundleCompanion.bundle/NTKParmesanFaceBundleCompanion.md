@@ -1,6 +1,6 @@
 ## NTKParmesanFaceBundleCompanion
 
-> `System/Library/NanoTimeKit/FaceBundles/NTKParmesanFaceBundleCompanion.bundle/NTKParmesanFaceBundleCompanion`
+> `/System/Library/NanoTimeKit/FaceBundles/NTKParmesanFaceBundleCompanion.bundle/NTKParmesanFaceBundleCompanion`
 
 ### Sections with Same Size but Changed Content
 

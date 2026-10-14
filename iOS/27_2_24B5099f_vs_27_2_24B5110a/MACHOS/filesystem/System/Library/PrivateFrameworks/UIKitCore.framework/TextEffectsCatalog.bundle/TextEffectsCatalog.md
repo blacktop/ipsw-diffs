@@ -1,6 +1,6 @@
 ## TextEffectsCatalog
 
-> `System/Library/PrivateFrameworks/UIKitCore.framework/TextEffectsCatalog.bundle/TextEffectsCatalog`
+> `/System/Library/PrivateFrameworks/UIKitCore.framework/TextEffectsCatalog.bundle/TextEffectsCatalog`
 
 ### Sections with Same Size but Changed Content
 

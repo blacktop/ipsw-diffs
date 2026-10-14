@@ -1,6 +1,6 @@
 ## CoreLocationVanillaWhenInUseAuthPromptPlugin
 
-> `System/Library/Frameworks/CoreLocation.framework/PlugIns/CoreLocationVanillaWhenInUseAuthPromptPlugin.appex/CoreLocationVanillaWhenInUseAuthPromptPlugin`
+> `/System/Library/Frameworks/CoreLocation.framework/PlugIns/CoreLocationVanillaWhenInUseAuthPromptPlugin.appex/CoreLocationVanillaWhenInUseAuthPromptPlugin`
 
 ### Sections with Same Size but Changed Content
 

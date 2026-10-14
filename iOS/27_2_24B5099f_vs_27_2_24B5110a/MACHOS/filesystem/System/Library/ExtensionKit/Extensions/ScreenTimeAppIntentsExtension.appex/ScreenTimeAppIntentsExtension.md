@@ -1,6 +1,6 @@
 ## ScreenTimeAppIntentsExtension
 
-> `System/Library/ExtensionKit/Extensions/ScreenTimeAppIntentsExtension.appex/ScreenTimeAppIntentsExtension`
+> `/System/Library/ExtensionKit/Extensions/ScreenTimeAppIntentsExtension.appex/ScreenTimeAppIntentsExtension`
 
 ### Sections with Same Size but Changed Content
 

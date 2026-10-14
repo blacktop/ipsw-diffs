@@ -1,6 +1,6 @@
 ## DDActionsService
 
-> `Applications/DDActionsService.app/DDActionsService`
+> `/Applications/DDActionsService.app/DDActionsService`
 
 ### Sections with Same Size but Changed Content
 

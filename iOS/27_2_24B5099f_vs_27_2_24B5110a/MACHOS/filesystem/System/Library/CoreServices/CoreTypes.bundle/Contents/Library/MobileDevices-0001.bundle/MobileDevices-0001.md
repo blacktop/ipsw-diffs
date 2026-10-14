@@ -1,6 +1,6 @@
 ## MobileDevices-0001
 
-> `System/Library/CoreServices/CoreTypes.bundle/Contents/Library/MobileDevices-0001.bundle/MobileDevices-0001`
+> `/System/Library/CoreServices/CoreTypes.bundle/Contents/Library/MobileDevices-0001.bundle/MobileDevices-0001`
 
 ```diff
 

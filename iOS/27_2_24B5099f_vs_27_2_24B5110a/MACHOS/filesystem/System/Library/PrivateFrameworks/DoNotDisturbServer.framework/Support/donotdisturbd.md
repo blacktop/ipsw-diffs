@@ -1,6 +1,6 @@
 ## donotdisturbd
 
-> `System/Library/PrivateFrameworks/DoNotDisturbServer.framework/Support/donotdisturbd`
+> `/System/Library/PrivateFrameworks/DoNotDisturbServer.framework/Support/donotdisturbd`
 
 ### Sections with Same Size but Changed Content
 

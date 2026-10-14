@@ -1,6 +1,6 @@
 ## HomeDataModel
 
-> `filesystem/System/Library/PrivateFrameworks/HomeDataModel.framework/HFSensitiveStrings-MarqueeThermostat.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/HomeDataModel.framework/HFSensitiveStrings-MarqueeThermostat.loctable`
 
 ```text
 en.HFThermostatCoolingToWithTimeToTemperature = "Cooling to %1$@ · Less than %2$@"

@@ -1,6 +1,6 @@
 ## CookieDataMigrator
 
-> `System/Library/DataClassMigrators/CookieDataMigrator.migrator/CookieDataMigrator`
+> `/System/Library/DataClassMigrators/CookieDataMigrator.migrator/CookieDataMigrator`
 
 ### Sections with Same Size but Changed Content
 

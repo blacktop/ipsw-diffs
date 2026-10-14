@@ -1,6 +1,6 @@
 ## PeopleWidget_iOSExtension
 
-> `Applications/PeopleViewService.app/PlugIns/PeopleWidget_iOSExtension.appex/PeopleWidget_iOSExtension`
+> `/Applications/PeopleViewService.app/PlugIns/PeopleWidget_iOSExtension.appex/PeopleWidget_iOSExtension`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## osanalyticshelper
 
-> `System/Library/CoreServices/osanalyticshelper`
+> `/System/Library/CoreServices/osanalyticshelper`
 
 ### Sections with Same Size but Changed Content
 

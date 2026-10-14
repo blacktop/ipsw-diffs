@@ -1,6 +1,6 @@
 ## MobileBackupCacheDeleteService
 
-> `System/Library/PrivateFrameworks/MobileBackup.framework/MobileBackupCacheDeleteService`
+> `/System/Library/PrivateFrameworks/MobileBackup.framework/MobileBackupCacheDeleteService`
 
 ### Sections with Same Size but Changed Content
 

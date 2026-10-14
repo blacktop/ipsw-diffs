@@ -1,6 +1,6 @@
 ## FamilyControlsAgent
 
-> `System/Library/Frameworks/FamilyControls.framework/FamilyControlsAgent`
+> `/System/Library/Frameworks/FamilyControls.framework/FamilyControlsAgent`
 
 ### Sections with Same Size but Changed Content
 

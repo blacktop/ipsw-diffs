@@ -1,6 +1,6 @@
 ## SmartStackSettingsPhone
 
-> `System/Library/NanoPreferenceBundles/General/SmartStackSettingsPhone.bundle/SmartStackSettingsPhone`
+> `/System/Library/NanoPreferenceBundles/General/SmartStackSettingsPhone.bundle/SmartStackSettingsPhone`
 
 ### Sections with Same Size but Changed Content
 

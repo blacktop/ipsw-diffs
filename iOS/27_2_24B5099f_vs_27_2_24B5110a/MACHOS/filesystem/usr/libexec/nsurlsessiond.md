@@ -1,6 +1,6 @@
 ## nsurlsessiond
 
-> `usr/libexec/nsurlsessiond`
+> `/usr/libexec/nsurlsessiond`
 
 ### Sections with Same Size but Changed Content
 

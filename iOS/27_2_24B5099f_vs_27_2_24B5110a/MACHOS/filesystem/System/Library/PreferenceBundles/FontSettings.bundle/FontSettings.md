@@ -1,6 +1,6 @@
 ## FontSettings
 
-> `System/Library/PreferenceBundles/FontSettings.bundle/FontSettings`
+> `/System/Library/PreferenceBundles/FontSettings.bundle/FontSettings`
 
 ### Sections with Same Size but Changed Content
 

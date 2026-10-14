@@ -1,6 +1,6 @@
 ## FindMyCore
 
-> `filesystem/System/Library/PrivateFrameworks/FindMyCore.framework/Intelligence+TVRemote.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/FindMyCore.framework/Intelligence+TVRemote.loctable`
 
 ```text
 en.TVREMOTE_PLAYSOUND_INTENT_DESC = "Plays Sound on a ATV Remote"

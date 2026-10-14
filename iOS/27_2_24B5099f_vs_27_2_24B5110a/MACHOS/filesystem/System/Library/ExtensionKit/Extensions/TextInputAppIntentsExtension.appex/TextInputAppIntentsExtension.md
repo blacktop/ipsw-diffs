@@ -1,6 +1,6 @@
 ## TextInputAppIntentsExtension
 
-> `System/Library/ExtensionKit/Extensions/TextInputAppIntentsExtension.appex/TextInputAppIntentsExtension`
+> `/System/Library/ExtensionKit/Extensions/TextInputAppIntentsExtension.appex/TextInputAppIntentsExtension`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## com.apple.UIKit.ShareUI
 
-> `System/Library/Frameworks/UIKit.framework/PlugIns/com.apple.UIKit.ShareUI.appex/com.apple.UIKit.ShareUI`
+> `/System/Library/Frameworks/UIKit.framework/PlugIns/com.apple.UIKit.ShareUI.appex/com.apple.UIKit.ShareUI`
 
 ### Sections with Same Size but Changed Content
 

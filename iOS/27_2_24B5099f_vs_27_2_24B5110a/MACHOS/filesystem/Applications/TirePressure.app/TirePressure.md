@@ -1,6 +1,6 @@
 ## TirePressure
 
-> `Applications/TirePressure.app/TirePressure`
+> `/Applications/TirePressure.app/TirePressure`
 
 ### Sections with Same Size but Changed Content
 

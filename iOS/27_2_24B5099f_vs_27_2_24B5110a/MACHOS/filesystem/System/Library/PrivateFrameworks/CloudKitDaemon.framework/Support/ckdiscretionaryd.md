@@ -1,6 +1,6 @@
 ## ckdiscretionaryd
 
-> `System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/ckdiscretionaryd`
+> `/System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/ckdiscretionaryd`
 
 ### Sections with Same Size but Changed Content
 

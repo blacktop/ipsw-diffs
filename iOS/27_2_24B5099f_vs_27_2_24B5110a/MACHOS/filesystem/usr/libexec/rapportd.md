@@ -1,6 +1,6 @@
 ## rapportd
 
-> `usr/libexec/rapportd`
+> `/usr/libexec/rapportd`
 
 ### Sections with Same Size but Changed Content
 

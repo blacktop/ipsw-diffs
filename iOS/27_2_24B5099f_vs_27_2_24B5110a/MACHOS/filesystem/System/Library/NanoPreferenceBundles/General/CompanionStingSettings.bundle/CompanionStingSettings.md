@@ -1,6 +1,6 @@
 ## CompanionStingSettings
 
-> `System/Library/NanoPreferenceBundles/General/CompanionStingSettings.bundle/CompanionStingSettings`
+> `/System/Library/NanoPreferenceBundles/General/CompanionStingSettings.bundle/CompanionStingSettings`
 
 ### Sections with Same Size but Changed Content
 

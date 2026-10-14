@@ -1,6 +1,6 @@
 ## PrintCenterWidgetExtension.iOS
 
-> `Applications/Print Center.app/PlugIns/PrintCenterWidgetExtension.iOS.appex/PrintCenterWidgetExtension.iOS`
+> `/Applications/Print Center.app/PlugIns/PrintCenterWidgetExtension.iOS.appex/PrintCenterWidgetExtension.iOS`
 
 ### Sections with Same Size but Changed Content
 

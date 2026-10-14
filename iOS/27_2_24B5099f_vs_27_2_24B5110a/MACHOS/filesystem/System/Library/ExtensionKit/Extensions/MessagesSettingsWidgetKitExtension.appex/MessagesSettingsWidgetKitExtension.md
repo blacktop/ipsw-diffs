@@ -1,6 +1,6 @@
 ## MessagesSettingsWidgetKitExtension
 
-> `System/Library/ExtensionKit/Extensions/MessagesSettingsWidgetKitExtension.appex/MessagesSettingsWidgetKitExtension`
+> `/System/Library/ExtensionKit/Extensions/MessagesSettingsWidgetKitExtension.appex/MessagesSettingsWidgetKitExtension`
 
 ### Sections with Same Size but Changed Content
 

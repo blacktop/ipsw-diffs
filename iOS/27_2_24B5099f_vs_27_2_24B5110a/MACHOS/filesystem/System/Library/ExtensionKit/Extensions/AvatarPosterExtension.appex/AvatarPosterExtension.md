@@ -1,6 +1,6 @@
 ## AvatarPosterExtension
 
-> `System/Library/ExtensionKit/Extensions/AvatarPosterExtension.appex/AvatarPosterExtension`
+> `/System/Library/ExtensionKit/Extensions/AvatarPosterExtension.appex/AvatarPosterExtension`
 
 ### Sections with Same Size but Changed Content
 

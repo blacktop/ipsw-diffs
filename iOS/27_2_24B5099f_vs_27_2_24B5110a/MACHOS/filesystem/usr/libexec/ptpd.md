@@ -1,6 +1,6 @@
 ## ptpd
 
-> `usr/libexec/ptpd`
+> `/usr/libexec/ptpd`
 
 ### Sections with Same Size but Changed Content
 

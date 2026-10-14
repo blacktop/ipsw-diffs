@@ -1,6 +1,6 @@
 ## imagent
 
-> `System/Library/PrivateFrameworks/IMCore.framework/imagent.app/imagent`
+> `/System/Library/PrivateFrameworks/IMCore.framework/imagent.app/imagent`
 
 ### Sections with Same Size but Changed Content
 

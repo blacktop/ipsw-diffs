@@ -1,6 +1,6 @@
 ## IntelligenceFlowRuntime
 
-> `filesystem/System/Library/PrivateFrameworks/IntelligenceFlowRuntime.framework/DomainTopicDisclaimers.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/IntelligenceFlowRuntime.framework/DomainTopicDisclaimers.loctable`
 
 ```diff
 

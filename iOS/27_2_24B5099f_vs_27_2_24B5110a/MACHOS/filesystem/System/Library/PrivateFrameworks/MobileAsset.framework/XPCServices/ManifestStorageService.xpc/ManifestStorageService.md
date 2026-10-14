@@ -1,6 +1,6 @@
 ## ManifestStorageService
 
-> `System/Library/PrivateFrameworks/MobileAsset.framework/XPCServices/ManifestStorageService.xpc/ManifestStorageService`
+> `/System/Library/PrivateFrameworks/MobileAsset.framework/XPCServices/ManifestStorageService.xpc/ManifestStorageService`
 
 ### Sections with Same Size but Changed Content
 

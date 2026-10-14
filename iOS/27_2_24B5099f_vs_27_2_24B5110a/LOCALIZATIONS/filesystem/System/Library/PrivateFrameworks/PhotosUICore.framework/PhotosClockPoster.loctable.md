@@ -1,6 +1,6 @@
 ## PhotosUICore
 
-> `filesystem/System/Library/PrivateFrameworks/PhotosUICore.framework/PhotosClockPoster.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/PhotosUICore.framework/PhotosClockPoster.loctable`
 
 ```text
 en.ClockPoster_Appearance_Accent_Title = "Accent Color"

@@ -1,6 +1,6 @@
 ## Home
 
-> `filesystem/System/Library/PrivateFrameworks/Home.framework/HFSensitiveStrings-TopCapNight.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/Home.framework/HFSensitiveStrings-TopCapNight.loctable`
 
 ```text
 en.HFMediaCodexTouchAndVisualizationBacklightHeader = "Backlight"

@@ -1,6 +1,6 @@
 ## appplaceholdersyncd
 
-> `System/Library/CoreServices/appplaceholdersyncd`
+> `/System/Library/CoreServices/appplaceholdersyncd`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## swcagent
 
-> `System/Library/Frameworks/Security.framework/swcagent`
+> `/System/Library/Frameworks/Security.framework/swcagent`
 
 ### Sections with Same Size but Changed Content
 

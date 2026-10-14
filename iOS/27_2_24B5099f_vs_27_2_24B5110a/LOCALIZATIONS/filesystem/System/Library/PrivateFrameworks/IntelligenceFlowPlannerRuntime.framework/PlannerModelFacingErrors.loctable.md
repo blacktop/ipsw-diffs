@@ -1,6 +1,6 @@
 ## IntelligenceFlowPlannerRuntime
 
-> `filesystem/System/Library/PrivateFrameworks/IntelligenceFlowPlannerRuntime.framework/PlannerModelFacingErrors.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/IntelligenceFlowPlannerRuntime.framework/PlannerModelFacingErrors.loctable`
 
 ```diff
 

@@ -1,6 +1,6 @@
 ## SystemIntents
 
-> `System/Library/CoreServices/SystemIntents.app/SystemIntents`
+> `/System/Library/CoreServices/SystemIntents.app/SystemIntents`
 
 ### Sections with Same Size but Changed Content
 

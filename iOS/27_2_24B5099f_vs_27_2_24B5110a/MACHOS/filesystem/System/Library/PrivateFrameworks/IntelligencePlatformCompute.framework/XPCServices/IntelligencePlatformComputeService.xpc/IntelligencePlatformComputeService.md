@@ -1,6 +1,6 @@
 ## IntelligencePlatformComputeService
 
-> `System/Library/PrivateFrameworks/IntelligencePlatformCompute.framework/XPCServices/IntelligencePlatformComputeService.xpc/IntelligencePlatformComputeService`
+> `/System/Library/PrivateFrameworks/IntelligencePlatformCompute.framework/XPCServices/IntelligencePlatformComputeService.xpc/IntelligencePlatformComputeService`
 
 ### Sections with Same Size but Changed Content
 

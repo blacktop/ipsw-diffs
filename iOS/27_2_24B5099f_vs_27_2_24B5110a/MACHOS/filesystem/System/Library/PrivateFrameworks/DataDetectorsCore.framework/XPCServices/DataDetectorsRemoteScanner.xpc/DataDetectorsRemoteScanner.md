@@ -1,6 +1,6 @@
 ## DataDetectorsRemoteScanner
 
-> `System/Library/PrivateFrameworks/DataDetectorsCore.framework/XPCServices/DataDetectorsRemoteScanner.xpc/DataDetectorsRemoteScanner`
+> `/System/Library/PrivateFrameworks/DataDetectorsCore.framework/XPCServices/DataDetectorsRemoteScanner.xpc/DataDetectorsRemoteScanner`
 
 ### Sections with Same Size but Changed Content
 

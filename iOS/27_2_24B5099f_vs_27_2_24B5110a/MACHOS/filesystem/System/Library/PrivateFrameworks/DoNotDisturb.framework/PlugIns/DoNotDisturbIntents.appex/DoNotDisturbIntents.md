@@ -1,6 +1,6 @@
 ## DoNotDisturbIntents
 
-> `System/Library/PrivateFrameworks/DoNotDisturb.framework/PlugIns/DoNotDisturbIntents.appex/DoNotDisturbIntents`
+> `/System/Library/PrivateFrameworks/DoNotDisturb.framework/PlugIns/DoNotDisturbIntents.appex/DoNotDisturbIntents`
 
 ### Sections with Same Size but Changed Content
 

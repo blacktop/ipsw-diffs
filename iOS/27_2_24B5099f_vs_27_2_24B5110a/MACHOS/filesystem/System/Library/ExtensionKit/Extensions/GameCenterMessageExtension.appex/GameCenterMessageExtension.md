@@ -1,6 +1,6 @@
 ## GameCenterMessageExtension
 
-> `System/Library/ExtensionKit/Extensions/GameCenterMessageExtension.appex/GameCenterMessageExtension`
+> `/System/Library/ExtensionKit/Extensions/GameCenterMessageExtension.appex/GameCenterMessageExtension`
 
 ### Sections with Same Size but Changed Content
 

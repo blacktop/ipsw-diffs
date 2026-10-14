@@ -1,6 +1,6 @@
 ## PhotosUIPrivate
 
-> `filesystem/System/Library/PrivateFrameworks/PhotosUIPrivate.framework/PhotosUI.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/PhotosUIPrivate.framework/PhotosUI.loctable`
 
 ```diff
 

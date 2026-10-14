@@ -1,6 +1,6 @@
 ## ScreenTimeSettingsDeviceActivityMonitorExtension
 
-> `System/Library/PrivateFrameworks/ScreenTimeSettingsFoundation.framework/PlugIns/ScreenTimeSettingsDeviceActivityMonitorExtension.appex/ScreenTimeSettingsDeviceActivityMonitorExtension`
+> `/System/Library/PrivateFrameworks/ScreenTimeSettingsFoundation.framework/PlugIns/ScreenTimeSettingsDeviceActivityMonitorExtension.appex/ScreenTimeSettingsDeviceActivityMonitorExtension`
 
 ### Sections with Same Size but Changed Content
 

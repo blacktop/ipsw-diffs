@@ -1,6 +1,6 @@
 ## PhotosUICore
 
-> `filesystem/System/Library/PrivateFrameworks/PhotosUICore.framework/PhotosUICoreSharedCollections.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/PhotosUICore.framework/PhotosUICoreSharedCollections.loctable`
 
 ```diff
 

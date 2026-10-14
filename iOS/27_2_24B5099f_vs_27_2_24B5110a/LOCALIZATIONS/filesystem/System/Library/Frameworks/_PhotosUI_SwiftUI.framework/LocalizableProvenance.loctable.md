@@ -1,6 +1,6 @@
 ## _PhotosUI_SwiftUI
 
-> `filesystem/System/Library/Frameworks/_PhotosUI_SwiftUI.framework/LocalizableProvenance.loctable`
+> `FileSystem/System/Library/Frameworks/_PhotosUI_SwiftUI.framework/LocalizableProvenance.loctable`
 
 ```diff
 

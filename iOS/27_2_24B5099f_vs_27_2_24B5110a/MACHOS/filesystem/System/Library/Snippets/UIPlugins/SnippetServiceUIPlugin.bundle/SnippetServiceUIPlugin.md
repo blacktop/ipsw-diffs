@@ -1,6 +1,6 @@
 ## SnippetServiceUIPlugin
 
-> `System/Library/Snippets/UIPlugins/SnippetServiceUIPlugin.bundle/SnippetServiceUIPlugin`
+> `/System/Library/Snippets/UIPlugins/SnippetServiceUIPlugin.bundle/SnippetServiceUIPlugin`
 
 ### Sections with Same Size but Changed Content
 

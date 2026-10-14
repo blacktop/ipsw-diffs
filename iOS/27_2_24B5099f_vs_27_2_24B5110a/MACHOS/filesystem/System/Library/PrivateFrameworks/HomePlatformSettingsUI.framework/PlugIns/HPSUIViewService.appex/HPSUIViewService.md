@@ -1,6 +1,6 @@
 ## HPSUIViewService
 
-> `System/Library/PrivateFrameworks/HomePlatformSettingsUI.framework/PlugIns/HPSUIViewService.appex/HPSUIViewService`
+> `/System/Library/PrivateFrameworks/HomePlatformSettingsUI.framework/PlugIns/HPSUIViewService.appex/HPSUIViewService`
 
 ### Sections with Same Size but Changed Content
 

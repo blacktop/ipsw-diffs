@@ -1,6 +1,6 @@
 ## Vehicle
 
-> `Applications/Vehicle.app/Vehicle`
+> `/Applications/Vehicle.app/Vehicle`
 
 ### Sections with Same Size but Changed Content
 

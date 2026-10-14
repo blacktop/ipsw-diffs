@@ -1,6 +1,6 @@
 ## MechTouchId
 
-> `System/Library/Frameworks/LocalAuthentication.framework/Support/MechanismPlugins/MechTouchId.bundle/MechTouchId`
+> `/System/Library/Frameworks/LocalAuthentication.framework/Support/MechanismPlugins/MechTouchId.bundle/MechTouchId`
 
 ### Sections with Same Size but Changed Content
 

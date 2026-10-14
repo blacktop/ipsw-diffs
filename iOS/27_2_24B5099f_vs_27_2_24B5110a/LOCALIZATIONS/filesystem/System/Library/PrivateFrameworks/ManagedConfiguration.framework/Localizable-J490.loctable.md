@@ -1,6 +1,6 @@
 ## ManagedConfiguration
 
-> `filesystem/System/Library/PrivateFrameworks/ManagedConfiguration.framework/Localizable-J490.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/ManagedConfiguration.framework/Localizable-J490.loctable`
 
 ```text
 en.FEATURE_PAIRING_WITH_HOME_DEVICES = "Pairing with home devices not allowed"

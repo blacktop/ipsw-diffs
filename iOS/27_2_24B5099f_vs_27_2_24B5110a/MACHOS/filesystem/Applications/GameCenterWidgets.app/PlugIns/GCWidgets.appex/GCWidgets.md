@@ -1,6 +1,6 @@
 ## GCWidgets
 
-> `Applications/GameCenterWidgets.app/PlugIns/GCWidgets.appex/GCWidgets`
+> `/Applications/GameCenterWidgets.app/PlugIns/GCWidgets.appex/GCWidgets`
 
 ### Sections with Same Size but Changed Content
 

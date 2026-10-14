@@ -1,6 +1,6 @@
 ## homeenergyd
 
-> `System/Library/PrivateFrameworks/HomeEnergyDaemon.framework/Support/homeenergyd`
+> `/System/Library/PrivateFrameworks/HomeEnergyDaemon.framework/Support/homeenergyd`
 
 ### Sections with Same Size but Changed Content
 

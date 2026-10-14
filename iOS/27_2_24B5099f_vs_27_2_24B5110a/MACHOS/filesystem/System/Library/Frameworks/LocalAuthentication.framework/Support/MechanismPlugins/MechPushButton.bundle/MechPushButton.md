@@ -1,6 +1,6 @@
 ## MechPushButton
 
-> `System/Library/Frameworks/LocalAuthentication.framework/Support/MechanismPlugins/MechPushButton.bundle/MechPushButton`
+> `/System/Library/Frameworks/LocalAuthentication.framework/Support/MechanismPlugins/MechPushButton.bundle/MechPushButton`
 
 ### Sections with Same Size but Changed Content
 

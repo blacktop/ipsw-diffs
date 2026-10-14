@@ -1,6 +1,6 @@
 ## com.apple.onboarding.podcasts
 
-> `filesystem/System/Library/OnBoardingBundles/com.apple.onboarding.podcasts.bundle/Podcasts.loctable`
+> `FileSystem/System/Library/OnBoardingBundles/com.apple.onboarding.podcasts.bundle/Podcasts.loctable`
 
 ```diff
 

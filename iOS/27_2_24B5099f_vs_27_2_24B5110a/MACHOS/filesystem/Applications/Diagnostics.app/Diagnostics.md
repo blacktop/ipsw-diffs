@@ -1,6 +1,6 @@
 ## Diagnostics
 
-> `Applications/Diagnostics.app/Diagnostics`
+> `/Applications/Diagnostics.app/Diagnostics`
 
 ### Sections with Same Size but Changed Content
 

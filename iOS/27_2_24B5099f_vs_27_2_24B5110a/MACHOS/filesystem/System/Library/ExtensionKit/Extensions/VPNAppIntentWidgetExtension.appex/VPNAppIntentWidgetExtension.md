@@ -1,6 +1,6 @@
 ## VPNAppIntentWidgetExtension
 
-> `System/Library/ExtensionKit/Extensions/VPNAppIntentWidgetExtension.appex/VPNAppIntentWidgetExtension`
+> `/System/Library/ExtensionKit/Extensions/VPNAppIntentWidgetExtension.appex/VPNAppIntentWidgetExtension`
 
 ### Sections with Same Size but Changed Content
 

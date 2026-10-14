@@ -1,6 +1,6 @@
 ## TranslateSettings
 
-> `System/Library/PreferenceBundles/TranslateSettings.bundle/TranslateSettings`
+> `/System/Library/PreferenceBundles/TranslateSettings.bundle/TranslateSettings`
 
 ### Sections with Same Size but Changed Content
 

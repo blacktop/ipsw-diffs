@@ -1,6 +1,6 @@
 ## MobilePhone
 
-> `Applications/MobilePhone.app/MobilePhone`
+> `/Applications/MobilePhone.app/MobilePhone`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## PasscodeAndBiometricsSettings
 
-> `filesystem/System/Library/PrivateFrameworks/PasscodeAndBiometricsSettings.framework/Passcode Lock.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/PasscodeAndBiometricsSettings.framework/Passcode Lock.loctable`
 
 ```diff
 

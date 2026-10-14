@@ -1,6 +1,6 @@
 ## CoreLocationMapLNPromptPlugin
 
-> `System/Library/Frameworks/CoreLocation.framework/PlugIns/CoreLocationMapLNPromptPlugin.appex/CoreLocationMapLNPromptPlugin`
+> `/System/Library/Frameworks/CoreLocation.framework/PlugIns/CoreLocationMapLNPromptPlugin.appex/CoreLocationMapLNPromptPlugin`
 
 ### Sections with Same Size but Changed Content
 

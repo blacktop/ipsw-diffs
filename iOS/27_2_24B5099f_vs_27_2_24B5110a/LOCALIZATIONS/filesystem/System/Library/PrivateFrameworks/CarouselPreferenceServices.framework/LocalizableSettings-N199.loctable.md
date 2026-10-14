@@ -1,6 +1,6 @@
 ## CarouselPreferenceServices
 
-> `filesystem/System/Library/PrivateFrameworks/CarouselPreferenceServices.framework/LocalizableSettings-N199.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/CarouselPreferenceServices.framework/LocalizableSettings-N199.loctable`
 
 ```diff
 

@@ -1,6 +1,6 @@
 ## binaryArchive.g19p
 
-> `System/Library/VideoProcessors/SemanticStyleV1.bundle/binaryArchive.g19p`
+> `/System/Library/VideoProcessors/SemanticStyleV1.bundle/binaryArchive.g19p`
 
 ```diff
 

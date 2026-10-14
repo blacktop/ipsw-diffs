@@ -1,6 +1,6 @@
 ## FontInstallViewService
 
-> `Applications/FontInstallViewService.app/FontInstallViewService`
+> `/Applications/FontInstallViewService.app/FontInstallViewService`
 
 ### Sections with Same Size but Changed Content
 

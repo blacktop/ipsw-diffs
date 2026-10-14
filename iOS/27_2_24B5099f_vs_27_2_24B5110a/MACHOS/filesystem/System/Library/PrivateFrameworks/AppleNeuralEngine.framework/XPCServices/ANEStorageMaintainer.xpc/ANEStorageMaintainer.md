@@ -1,6 +1,6 @@
 ## ANEStorageMaintainer
 
-> `System/Library/PrivateFrameworks/AppleNeuralEngine.framework/XPCServices/ANEStorageMaintainer.xpc/ANEStorageMaintainer`
+> `/System/Library/PrivateFrameworks/AppleNeuralEngine.framework/XPCServices/ANEStorageMaintainer.xpc/ANEStorageMaintainer`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## OnboardingPromptExtension
 
-> `System/Library/Frameworks/ContactsUI.framework/PlugIns/OnboardingPromptExtension.appex/OnboardingPromptExtension`
+> `/System/Library/Frameworks/ContactsUI.framework/PlugIns/OnboardingPromptExtension.appex/OnboardingPromptExtension`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## SystemCustomization
 
-> `System/Library/LocationBundles/SystemCustomization.bundle/SystemCustomization`
+> `/System/Library/LocationBundles/SystemCustomization.bundle/SystemCustomization`
 
 ### Sections with Same Size but Changed Content
 

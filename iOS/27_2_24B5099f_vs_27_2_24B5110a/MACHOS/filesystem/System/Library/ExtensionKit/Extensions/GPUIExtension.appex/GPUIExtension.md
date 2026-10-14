@@ -1,6 +1,6 @@
 ## GPUIExtension
 
-> `System/Library/ExtensionKit/Extensions/GPUIExtension.appex/GPUIExtension`
+> `/System/Library/ExtensionKit/Extensions/GPUIExtension.appex/GPUIExtension`
 
 ### Sections with Same Size but Changed Content
 

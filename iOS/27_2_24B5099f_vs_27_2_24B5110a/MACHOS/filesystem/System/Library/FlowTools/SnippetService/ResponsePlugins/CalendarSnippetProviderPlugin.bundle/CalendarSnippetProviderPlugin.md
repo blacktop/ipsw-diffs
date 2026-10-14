@@ -1,6 +1,6 @@
 ## CalendarSnippetProviderPlugin
 
-> `System/Library/FlowTools/SnippetService/ResponsePlugins/CalendarSnippetProviderPlugin.bundle/CalendarSnippetProviderPlugin`
+> `/System/Library/FlowTools/SnippetService/ResponsePlugins/CalendarSnippetProviderPlugin.bundle/CalendarSnippetProviderPlugin`
 
 ### Sections with Same Size but Changed Content
 

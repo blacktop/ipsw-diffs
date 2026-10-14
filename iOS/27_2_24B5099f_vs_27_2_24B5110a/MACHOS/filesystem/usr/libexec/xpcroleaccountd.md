@@ -1,6 +1,6 @@
 ## xpcroleaccountd
 
-> `usr/libexec/xpcroleaccountd`
+> `/usr/libexec/xpcroleaccountd`
 
 ### Sections with Same Size but Changed Content
 

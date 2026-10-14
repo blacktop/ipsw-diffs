@@ -1,6 +1,6 @@
 ## MessagesSnippetProviderPlugin
 
-> `System/Library/FlowTools/SnippetService/ResponsePlugins/MessagesSnippetProviderPlugin.bundle/MessagesSnippetProviderPlugin`
+> `/System/Library/FlowTools/SnippetService/ResponsePlugins/MessagesSnippetProviderPlugin.bundle/MessagesSnippetProviderPlugin`
 
 ### Sections with Same Size but Changed Content
 

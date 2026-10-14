@@ -1,6 +1,6 @@
 ## demod
 
-> `usr/libexec/demod`
+> `/usr/libexec/demod`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## WritingToolsUIService
 
-> `Applications/WritingToolsUIService.app/WritingToolsUIService`
+> `/Applications/WritingToolsUIService.app/WritingToolsUIService`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## bulletindistributord
 
-> `usr/libexec/bulletindistributord`
+> `/usr/libexec/bulletindistributord`
 
 ### Sections with Same Size but Changed Content
 

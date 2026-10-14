@@ -1,6 +1,6 @@
 ## softwareupdated
 
-> `System/Library/PrivateFrameworks/MobileSoftwareUpdate.framework/Support/softwareupdated`
+> `/System/Library/PrivateFrameworks/MobileSoftwareUpdate.framework/Support/softwareupdated`
 
 ```diff
 

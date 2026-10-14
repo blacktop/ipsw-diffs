@@ -1,6 +1,6 @@
 ## Setup
 
-> `Applications/Setup.app/Setup`
+> `/Applications/Setup.app/Setup`
 
 ### Sections with Same Size but Changed Content
 

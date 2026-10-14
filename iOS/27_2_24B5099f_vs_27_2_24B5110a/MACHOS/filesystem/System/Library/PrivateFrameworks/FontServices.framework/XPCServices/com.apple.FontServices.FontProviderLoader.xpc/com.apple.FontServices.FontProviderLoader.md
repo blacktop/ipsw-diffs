@@ -1,6 +1,6 @@
 ## com.apple.FontServices.FontProviderLoader
 
-> `System/Library/PrivateFrameworks/FontServices.framework/XPCServices/com.apple.FontServices.FontProviderLoader.xpc/com.apple.FontServices.FontProviderLoader`
+> `/System/Library/PrivateFrameworks/FontServices.framework/XPCServices/com.apple.FontServices.FontProviderLoader.xpc/com.apple.FontServices.FontProviderLoader`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## LocationDiagnosticExtension
 
-> `System/Library/PrivateFrameworks/DiagnosticExtensions.framework/PlugIns/LocationDiagnosticExtension.appex/LocationDiagnosticExtension`
+> `/System/Library/PrivateFrameworks/DiagnosticExtensions.framework/PlugIns/LocationDiagnosticExtension.appex/LocationDiagnosticExtension`
 
 ### Sections with Same Size but Changed Content
 

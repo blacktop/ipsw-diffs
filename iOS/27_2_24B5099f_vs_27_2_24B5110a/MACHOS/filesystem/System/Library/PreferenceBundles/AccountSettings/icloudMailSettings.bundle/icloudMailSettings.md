@@ -1,6 +1,6 @@
 ## icloudMailSettings
 
-> `System/Library/PreferenceBundles/AccountSettings/icloudMailSettings.bundle/icloudMailSettings`
+> `/System/Library/PreferenceBundles/AccountSettings/icloudMailSettings.bundle/icloudMailSettings`
 
 ### Sections with Same Size but Changed Content
 

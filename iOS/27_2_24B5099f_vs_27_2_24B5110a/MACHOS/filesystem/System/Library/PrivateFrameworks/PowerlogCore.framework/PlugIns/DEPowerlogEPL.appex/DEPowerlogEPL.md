@@ -1,6 +1,6 @@
 ## DEPowerlogEPL
 
-> `System/Library/PrivateFrameworks/PowerlogCore.framework/PlugIns/DEPowerlogEPL.appex/DEPowerlogEPL`
+> `/System/Library/PrivateFrameworks/PowerlogCore.framework/PlugIns/DEPowerlogEPL.appex/DEPowerlogEPL`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## FinishRestoreFromBackup
 
-> `usr/libexec/FinishRestoreFromBackup`
+> `/usr/libexec/FinishRestoreFromBackup`
 
 ### Sections with Same Size but Changed Content
 

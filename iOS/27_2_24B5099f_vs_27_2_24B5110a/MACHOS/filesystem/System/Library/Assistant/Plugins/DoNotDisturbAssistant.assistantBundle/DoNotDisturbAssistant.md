@@ -1,6 +1,6 @@
 ## DoNotDisturbAssistant
 
-> `System/Library/Assistant/Plugins/DoNotDisturbAssistant.assistantBundle/DoNotDisturbAssistant`
+> `/System/Library/Assistant/Plugins/DoNotDisturbAssistant.assistantBundle/DoNotDisturbAssistant`
 
 ### Sections with Same Size but Changed Content
 

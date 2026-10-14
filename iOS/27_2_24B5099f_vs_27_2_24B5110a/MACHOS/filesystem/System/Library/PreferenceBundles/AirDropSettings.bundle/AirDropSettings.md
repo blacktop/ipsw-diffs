@@ -1,6 +1,6 @@
 ## AirDropSettings
 
-> `System/Library/PreferenceBundles/AirDropSettings.bundle/AirDropSettings`
+> `/System/Library/PreferenceBundles/AirDropSettings.bundle/AirDropSettings`
 
 ### Sections with Same Size but Changed Content
 

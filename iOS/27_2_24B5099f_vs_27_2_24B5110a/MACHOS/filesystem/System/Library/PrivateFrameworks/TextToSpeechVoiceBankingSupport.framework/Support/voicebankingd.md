@@ -1,6 +1,6 @@
 ## voicebankingd
 
-> `System/Library/PrivateFrameworks/TextToSpeechVoiceBankingSupport.framework/Support/voicebankingd`
+> `/System/Library/PrivateFrameworks/TextToSpeechVoiceBankingSupport.framework/Support/voicebankingd`
 
 ### Sections with Same Size but Changed Content
 

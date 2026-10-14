@@ -1,6 +1,6 @@
 ## ActivityPickerExtension
 
-> `System/Library/Frameworks/FamilyControls.framework/PlugIns/ActivityPickerExtension.appex/ActivityPickerExtension`
+> `/System/Library/Frameworks/FamilyControls.framework/PlugIns/ActivityPickerExtension.appex/ActivityPickerExtension`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## DisplayAndBrightnessSettingsExtension
 
-> `System/Library/ExtensionKit/Extensions/DisplayAndBrightnessSettingsExtension.appex/DisplayAndBrightnessSettingsExtension`
+> `/System/Library/ExtensionKit/Extensions/DisplayAndBrightnessSettingsExtension.appex/DisplayAndBrightnessSettingsExtension`
 
 ### Sections with Same Size but Changed Content
 

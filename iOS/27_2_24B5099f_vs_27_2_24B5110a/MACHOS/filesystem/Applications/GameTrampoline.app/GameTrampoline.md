@@ -1,6 +1,6 @@
 ## GameTrampoline
 
-> `Applications/GameTrampoline.app/GameTrampoline`
+> `/Applications/GameTrampoline.app/GameTrampoline`
 
 ### Sections with Same Size but Changed Content
 

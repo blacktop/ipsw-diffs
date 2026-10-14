@@ -1,6 +1,6 @@
 ## diagnosticextensionsd
 
-> `usr/libexec/diagnosticextensionsd`
+> `/usr/libexec/diagnosticextensionsd`
 
 ### Sections with Same Size but Changed Content
 

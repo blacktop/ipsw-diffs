@@ -1,6 +1,6 @@
 ## mtmergeprops
 
-> `usr/libexec/mtmergeprops`
+> `/usr/libexec/mtmergeprops`
 
 ### Sections with Same Size but Changed Content
 

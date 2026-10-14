@@ -1,6 +1,6 @@
 ## powerlogHelperd
 
-> `usr/bin/powerlogHelperd`
+> `/usr/bin/powerlogHelperd`
 
 ### Sections with Same Size but Changed Content
 

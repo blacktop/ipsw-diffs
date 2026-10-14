@@ -1,6 +1,6 @@
 ## CAMRootFlowPlugin
 
-> `System/Library/Assistant/FlowDelegatePlugins/CAMRootFlowPlugin.bundle/CAMRootFlowPlugin`
+> `/System/Library/Assistant/FlowDelegatePlugins/CAMRootFlowPlugin.bundle/CAMRootFlowPlugin`
 
 ### Sections with Same Size but Changed Content
 

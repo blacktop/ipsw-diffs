@@ -1,6 +1,6 @@
 ## IntelligenceFlowDiagnostics
 
-> `System/Library/PrivateFrameworks/IntelligenceFlowRuntime.framework/PlugIns/IntelligenceFlowDiagnostics.appex/IntelligenceFlowDiagnostics`
+> `/System/Library/PrivateFrameworks/IntelligenceFlowRuntime.framework/PlugIns/IntelligenceFlowDiagnostics.appex/IntelligenceFlowDiagnostics`
 
 ### Sections with Same Size but Changed Content
 

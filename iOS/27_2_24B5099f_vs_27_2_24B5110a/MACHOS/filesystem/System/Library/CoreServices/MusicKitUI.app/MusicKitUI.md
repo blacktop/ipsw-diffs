@@ -1,6 +1,6 @@
 ## MusicKitUI
 
-> `System/Library/CoreServices/MusicKitUI.app/MusicKitUI`
+> `/System/Library/CoreServices/MusicKitUI.app/MusicKitUI`
 
 ### Sections with Same Size but Changed Content
 

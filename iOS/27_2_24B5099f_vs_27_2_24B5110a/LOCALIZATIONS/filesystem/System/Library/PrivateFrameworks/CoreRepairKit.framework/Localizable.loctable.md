@@ -1,6 +1,6 @@
 ## CoreRepairKit
 
-> `filesystem/System/Library/PrivateFrameworks/CoreRepairKit.framework/Localizable.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/CoreRepairKit.framework/Localizable.loctable`
 
 ```diff
 

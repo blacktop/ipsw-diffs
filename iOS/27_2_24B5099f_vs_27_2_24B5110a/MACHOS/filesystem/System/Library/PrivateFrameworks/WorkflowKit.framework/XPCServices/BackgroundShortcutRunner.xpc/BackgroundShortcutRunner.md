@@ -1,6 +1,6 @@
 ## BackgroundShortcutRunner
 
-> `System/Library/PrivateFrameworks/WorkflowKit.framework/XPCServices/BackgroundShortcutRunner.xpc/BackgroundShortcutRunner`
+> `/System/Library/PrivateFrameworks/WorkflowKit.framework/XPCServices/BackgroundShortcutRunner.xpc/BackgroundShortcutRunner`
 
 ### Sections with Same Size but Changed Content
 

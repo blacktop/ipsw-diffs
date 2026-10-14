@@ -1,6 +1,6 @@
 ## HealthSettings
 
-> `System/Library/PreferenceBundles/HealthSettings.bundle/HealthSettings`
+> `/System/Library/PreferenceBundles/HealthSettings.bundle/HealthSettings`
 
 ### Sections with Same Size but Changed Content
 

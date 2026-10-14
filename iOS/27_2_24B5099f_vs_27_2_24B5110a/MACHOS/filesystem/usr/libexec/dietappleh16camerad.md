@@ -1,6 +1,6 @@
 ## dietappleh16camerad
 
-> `usr/libexec/dietappleh16camerad`
+> `/usr/libexec/dietappleh16camerad`
 
 ### Sections with Same Size but Changed Content
 

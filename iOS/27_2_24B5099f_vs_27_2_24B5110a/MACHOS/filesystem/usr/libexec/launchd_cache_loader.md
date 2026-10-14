@@ -1,6 +1,6 @@
 ## launchd_cache_loader
 
-> `usr/libexec/launchd_cache_loader`
+> `/usr/libexec/launchd_cache_loader`
 
 ### Sections with Same Size but Changed Content
 

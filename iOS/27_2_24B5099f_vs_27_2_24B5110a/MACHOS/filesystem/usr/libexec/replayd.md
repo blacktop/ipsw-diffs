@@ -1,6 +1,6 @@
 ## replayd
 
-> `usr/libexec/replayd`
+> `/usr/libexec/replayd`
 
 ### Sections with Same Size but Changed Content
 

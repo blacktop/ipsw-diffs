@@ -1,6 +1,6 @@
 ## SuggestedActionsSettings
 
-> `System/Library/Settings/SuggestedActionsSettings.settings/SuggestedActionsSettings`
+> `/System/Library/Settings/SuggestedActionsSettings.settings/SuggestedActionsSettings`
 
 ### Sections with Same Size but Changed Content
 

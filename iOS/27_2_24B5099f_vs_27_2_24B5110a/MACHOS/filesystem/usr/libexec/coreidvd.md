@@ -1,6 +1,6 @@
 ## coreidvd
 
-> `usr/libexec/coreidvd`
+> `/usr/libexec/coreidvd`
 
 ### Sections with Same Size but Changed Content
 

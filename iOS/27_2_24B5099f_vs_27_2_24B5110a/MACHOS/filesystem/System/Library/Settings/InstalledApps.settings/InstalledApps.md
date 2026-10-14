@@ -1,6 +1,6 @@
 ## InstalledApps
 
-> `System/Library/Settings/InstalledApps.settings/InstalledApps`
+> `/System/Library/Settings/InstalledApps.settings/InstalledApps`
 
 ### Sections with Same Size but Changed Content
 

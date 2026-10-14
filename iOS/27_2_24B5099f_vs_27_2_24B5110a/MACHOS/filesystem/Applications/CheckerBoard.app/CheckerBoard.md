@@ -1,6 +1,6 @@
 ## CheckerBoard
 
-> `Applications/CheckerBoard.app/CheckerBoard`
+> `/Applications/CheckerBoard.app/CheckerBoard`
 
 ### Sections with Same Size but Changed Content
 

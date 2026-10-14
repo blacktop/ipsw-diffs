@@ -1,6 +1,6 @@
 ## com.apple.nsurlsessiond
 
-> `System/Library/UserEventPlugins/com.apple.nsurlsessiond.plugin/com.apple.nsurlsessiond`
+> `/System/Library/UserEventPlugins/com.apple.nsurlsessiond.plugin/com.apple.nsurlsessiond`
 
 ### Sections with Same Size but Changed Content
 

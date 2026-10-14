@@ -1,6 +1,6 @@
 ## asd
 
-> `usr/libexec/asd`
+> `/usr/libexec/asd`
 
 ### Sections with Same Size but Changed Content
 

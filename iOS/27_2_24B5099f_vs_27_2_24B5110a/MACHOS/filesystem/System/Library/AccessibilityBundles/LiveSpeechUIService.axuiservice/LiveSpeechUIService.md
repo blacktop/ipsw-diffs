@@ -1,6 +1,6 @@
 ## LiveSpeechUIService
 
-> `System/Library/AccessibilityBundles/LiveSpeechUIService.axuiservice/LiveSpeechUIService`
+> `/System/Library/AccessibilityBundles/LiveSpeechUIService.axuiservice/LiveSpeechUIService`
 
 ### Sections with Same Size but Changed Content
 

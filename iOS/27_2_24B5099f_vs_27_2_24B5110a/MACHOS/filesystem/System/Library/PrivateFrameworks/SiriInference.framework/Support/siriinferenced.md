@@ -1,6 +1,6 @@
 ## siriinferenced
 
-> `System/Library/PrivateFrameworks/SiriInference.framework/Support/siriinferenced`
+> `/System/Library/PrivateFrameworks/SiriInference.framework/Support/siriinferenced`
 
 ### Sections with Same Size but Changed Content
 

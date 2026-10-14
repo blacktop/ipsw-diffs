@@ -1,6 +1,6 @@
 ## applekeystored
 
-> `usr/libexec/applekeystored`
+> `/usr/libexec/applekeystored`
 
 ### Sections with Same Size but Changed Content
 

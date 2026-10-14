@@ -1,6 +1,6 @@
 ## TypeToSiriWidgetExtension
 
-> `Applications/Siri.app/PlugIns/TypeToSiriWidgetExtension.appex/TypeToSiriWidgetExtension`
+> `/Applications/Siri.app/PlugIns/TypeToSiriWidgetExtension.appex/TypeToSiriWidgetExtension`
 
 ### Sections with Same Size but Changed Content
 

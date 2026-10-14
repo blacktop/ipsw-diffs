@@ -1,6 +1,6 @@
 ## wifip2pd
 
-> `usr/libexec/wifip2pd`
+> `/usr/libexec/wifip2pd`
 
 ### Sections with Same Size but Changed Content
 

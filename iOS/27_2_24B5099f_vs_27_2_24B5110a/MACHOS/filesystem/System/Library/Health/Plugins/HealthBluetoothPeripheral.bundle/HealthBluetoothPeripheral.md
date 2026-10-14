@@ -1,6 +1,6 @@
 ## HealthBluetoothPeripheral
 
-> `System/Library/Health/Plugins/HealthBluetoothPeripheral.bundle/HealthBluetoothPeripheral`
+> `/System/Library/Health/Plugins/HealthBluetoothPeripheral.bundle/HealthBluetoothPeripheral`
 
 ### Sections with Same Size but Changed Content
 

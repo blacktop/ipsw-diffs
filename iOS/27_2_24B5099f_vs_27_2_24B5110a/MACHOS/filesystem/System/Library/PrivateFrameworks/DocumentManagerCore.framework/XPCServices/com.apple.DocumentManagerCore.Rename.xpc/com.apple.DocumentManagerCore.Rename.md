@@ -1,6 +1,6 @@
 ## com.apple.DocumentManagerCore.Rename
 
-> `System/Library/PrivateFrameworks/DocumentManagerCore.framework/XPCServices/com.apple.DocumentManagerCore.Rename.xpc/com.apple.DocumentManagerCore.Rename`
+> `/System/Library/PrivateFrameworks/DocumentManagerCore.framework/XPCServices/com.apple.DocumentManagerCore.Rename.xpc/com.apple.DocumentManagerCore.Rename`
 
 ### Sections with Same Size but Changed Content
 

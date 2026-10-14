@@ -1,6 +1,6 @@
 ## findmylocated
 
-> `usr/libexec/findmylocated`
+> `/usr/libexec/findmylocated`
 
 ### Sections with Same Size but Changed Content
 

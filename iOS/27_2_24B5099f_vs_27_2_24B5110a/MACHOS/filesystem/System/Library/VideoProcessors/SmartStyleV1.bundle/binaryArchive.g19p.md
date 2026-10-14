@@ -1,6 +1,6 @@
 ## binaryArchive.g19p
 
-> `System/Library/VideoProcessors/SmartStyleV1.bundle/binaryArchive.g19p`
+> `/System/Library/VideoProcessors/SmartStyleV1.bundle/binaryArchive.g19p`
 
 ### Sections with Same Size but Changed Content
 

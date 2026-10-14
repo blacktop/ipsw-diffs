@@ -1,6 +1,6 @@
 ## SoftwareUpdateUIMobileSettingsPlugin
 
-> `System/Library/PreferenceBundles/SoftwareUpdateUIMobileSettingsPlugin.bundle/SoftwareUpdateUIMobileSettingsPlugin`
+> `/System/Library/PreferenceBundles/SoftwareUpdateUIMobileSettingsPlugin.bundle/SoftwareUpdateUIMobileSettingsPlugin`
 
 ### Sections with Same Size but Changed Content
 

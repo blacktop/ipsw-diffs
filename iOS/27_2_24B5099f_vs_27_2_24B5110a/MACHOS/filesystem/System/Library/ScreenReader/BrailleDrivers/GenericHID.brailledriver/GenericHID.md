@@ -1,6 +1,6 @@
 ## GenericHID
 
-> `System/Library/ScreenReader/BrailleDrivers/GenericHID.brailledriver/GenericHID`
+> `/System/Library/ScreenReader/BrailleDrivers/GenericHID.brailledriver/GenericHID`
 
 ### Sections with Same Size but Changed Content
 

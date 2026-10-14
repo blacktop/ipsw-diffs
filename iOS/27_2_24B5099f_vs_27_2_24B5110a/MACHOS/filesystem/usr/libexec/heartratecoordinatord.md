@@ -1,6 +1,6 @@
 ## heartratecoordinatord
 
-> `usr/libexec/heartratecoordinatord`
+> `/usr/libexec/heartratecoordinatord`
 
 ### Sections with Same Size but Changed Content
 

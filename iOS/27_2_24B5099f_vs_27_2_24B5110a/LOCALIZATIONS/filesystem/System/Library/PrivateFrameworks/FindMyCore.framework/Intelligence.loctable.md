@@ -1,6 +1,6 @@
 ## FindMyCore
 
-> `filesystem/System/Library/PrivateFrameworks/FindMyCore.framework/Intelligence.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/FindMyCore.framework/Intelligence.loctable`
 
 ```diff
 

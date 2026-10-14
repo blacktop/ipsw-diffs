@@ -1,6 +1,6 @@
 ## corespeechd
 
-> `System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd`
+> `/System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd`
 
 ### Sections with Same Size but Changed Content
 

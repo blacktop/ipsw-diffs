@@ -1,6 +1,6 @@
 ## newsd
 
-> `System/Library/PrivateFrameworks/NewsDaemon.framework/newsd`
+> `/System/Library/PrivateFrameworks/NewsDaemon.framework/newsd`
 
 ### Sections with Same Size but Changed Content
 

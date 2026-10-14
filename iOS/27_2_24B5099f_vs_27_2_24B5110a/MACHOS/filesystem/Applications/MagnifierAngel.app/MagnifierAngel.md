@@ -1,6 +1,6 @@
 ## MagnifierAngel
 
-> `Applications/MagnifierAngel.app/MagnifierAngel`
+> `/Applications/MagnifierAngel.app/MagnifierAngel`
 
 ### Sections with Same Size but Changed Content
 

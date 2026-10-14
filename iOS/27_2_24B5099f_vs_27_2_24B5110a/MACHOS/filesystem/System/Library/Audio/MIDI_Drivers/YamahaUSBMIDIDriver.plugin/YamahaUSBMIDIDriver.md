@@ -1,6 +1,6 @@
 ## YamahaUSBMIDIDriver
 
-> `System/Library/Audio/MIDI Drivers/YamahaUSBMIDIDriver.plugin/YamahaUSBMIDIDriver`
+> `/System/Library/Audio/MIDI Drivers/YamahaUSBMIDIDriver.plugin/YamahaUSBMIDIDriver`
 
 ### Sections with Same Size but Changed Content
 

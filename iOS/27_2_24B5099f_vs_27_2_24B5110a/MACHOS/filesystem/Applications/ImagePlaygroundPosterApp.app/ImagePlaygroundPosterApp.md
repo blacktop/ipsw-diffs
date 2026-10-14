@@ -1,6 +1,6 @@
 ## ImagePlaygroundPosterApp
 
-> `Applications/ImagePlaygroundPosterApp.app/ImagePlaygroundPosterApp`
+> `/Applications/ImagePlaygroundPosterApp.app/ImagePlaygroundPosterApp`
 
 ### Sections with Same Size but Changed Content
 

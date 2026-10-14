@@ -1,6 +1,6 @@
 ## AppSuggestions
 
-> `System/Library/LocationBundles/AppSuggestions.bundle/AppSuggestions`
+> `/System/Library/LocationBundles/AppSuggestions.bundle/AppSuggestions`
 
 ### Sections with Same Size but Changed Content
 

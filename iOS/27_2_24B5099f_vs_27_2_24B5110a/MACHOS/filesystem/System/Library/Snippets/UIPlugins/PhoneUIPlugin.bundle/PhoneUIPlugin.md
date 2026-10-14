@@ -1,6 +1,6 @@
 ## PhoneUIPlugin
 
-> `System/Library/Snippets/UIPlugins/PhoneUIPlugin.bundle/PhoneUIPlugin`
+> `/System/Library/Snippets/UIPlugins/PhoneUIPlugin.bundle/PhoneUIPlugin`
 
 ### Sections with Same Size but Changed Content
 

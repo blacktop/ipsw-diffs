@@ -1,6 +1,6 @@
 ## symptomsd
 
-> `usr/libexec/symptomsd`
+> `/usr/libexec/symptomsd`
 
 ### Sections with Same Size but Changed Content
 

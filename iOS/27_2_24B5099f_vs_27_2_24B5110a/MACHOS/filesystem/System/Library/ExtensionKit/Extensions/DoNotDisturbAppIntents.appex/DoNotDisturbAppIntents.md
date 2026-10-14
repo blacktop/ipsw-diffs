@@ -1,6 +1,6 @@
 ## DoNotDisturbAppIntents
 
-> `System/Library/ExtensionKit/Extensions/DoNotDisturbAppIntents.appex/DoNotDisturbAppIntents`
+> `/System/Library/ExtensionKit/Extensions/DoNotDisturbAppIntents.appex/DoNotDisturbAppIntents`
 
 ### Sections with Same Size but Changed Content
 

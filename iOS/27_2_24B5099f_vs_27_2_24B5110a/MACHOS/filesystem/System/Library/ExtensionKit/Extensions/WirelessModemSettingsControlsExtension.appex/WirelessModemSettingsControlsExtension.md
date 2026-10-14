@@ -1,6 +1,6 @@
 ## WirelessModemSettingsControlsExtension
 
-> `System/Library/ExtensionKit/Extensions/WirelessModemSettingsControlsExtension.appex/WirelessModemSettingsControlsExtension`
+> `/System/Library/ExtensionKit/Extensions/WirelessModemSettingsControlsExtension.appex/WirelessModemSettingsControlsExtension`
 
 ### Sections with Same Size but Changed Content
 

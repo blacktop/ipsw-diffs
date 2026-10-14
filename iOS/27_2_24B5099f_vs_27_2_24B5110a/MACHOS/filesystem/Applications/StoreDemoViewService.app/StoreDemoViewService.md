@@ -1,6 +1,6 @@
 ## StoreDemoViewService
 
-> `Applications/StoreDemoViewService.app/StoreDemoViewService`
+> `/Applications/StoreDemoViewService.app/StoreDemoViewService`
 
 ### Sections with Same Size but Changed Content
 

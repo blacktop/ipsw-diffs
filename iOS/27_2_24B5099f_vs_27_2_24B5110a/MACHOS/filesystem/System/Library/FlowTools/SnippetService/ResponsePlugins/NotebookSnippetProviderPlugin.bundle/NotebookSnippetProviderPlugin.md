@@ -1,6 +1,6 @@
 ## NotebookSnippetProviderPlugin
 
-> `System/Library/FlowTools/SnippetService/ResponsePlugins/NotebookSnippetProviderPlugin.bundle/NotebookSnippetProviderPlugin`
+> `/System/Library/FlowTools/SnippetService/ResponsePlugins/NotebookSnippetProviderPlugin.bundle/NotebookSnippetProviderPlugin`
 
 ### Sections with Same Size but Changed Content
 

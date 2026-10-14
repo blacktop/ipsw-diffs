@@ -1,6 +1,6 @@
 ## Localizable
 
-> `filesystem/System/Library/Health/FeedItemPlugins/Safety.healthplugin/Localizable.loctable`
+> `FileSystem/System/Library/Health/FeedItemPlugins/Safety.healthplugin/Localizable.loctable`
 
 ```diff
 

@@ -1,6 +1,6 @@
 ## AccessibilityDataMigration
 
-> `System/Library/DataClassMigrators/AccessibilityDataMigration.migrator/AccessibilityDataMigration`
+> `/System/Library/DataClassMigrators/AccessibilityDataMigration.migrator/AccessibilityDataMigration`
 
 ### Sections with Same Size but Changed Content
 

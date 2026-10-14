@@ -1,6 +1,6 @@
 ## AdaptiveMusicApp
 
-> `Applications/AdaptiveMusicApp.app/AdaptiveMusicApp`
+> `/Applications/AdaptiveMusicApp.app/AdaptiveMusicApp`
 
 ### Sections with Same Size but Changed Content
 

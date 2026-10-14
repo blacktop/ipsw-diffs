@@ -1,6 +1,6 @@
 ## stickersd
 
-> `System/Library/PrivateFrameworks/Stickers.framework/Support/stickersd`
+> `/System/Library/PrivateFrameworks/Stickers.framework/Support/stickersd`
 
 ### Sections with Same Size but Changed Content
 

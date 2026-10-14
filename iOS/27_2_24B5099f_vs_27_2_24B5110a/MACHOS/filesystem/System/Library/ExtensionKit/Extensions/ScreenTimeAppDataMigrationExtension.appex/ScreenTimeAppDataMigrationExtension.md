@@ -1,6 +1,6 @@
 ## ScreenTimeAppDataMigrationExtension
 
-> `System/Library/ExtensionKit/Extensions/ScreenTimeAppDataMigrationExtension.appex/ScreenTimeAppDataMigrationExtension`
+> `/System/Library/ExtensionKit/Extensions/ScreenTimeAppDataMigrationExtension.appex/ScreenTimeAppDataMigrationExtension`
 
 ### Sections with Same Size but Changed Content
 

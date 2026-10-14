@@ -1,6 +1,6 @@
 ## CoreLocationTemporaryPreciseAuthPromptPlugin
 
-> `System/Library/Frameworks/CoreLocation.framework/PlugIns/CoreLocationTemporaryPreciseAuthPromptPlugin.appex/CoreLocationTemporaryPreciseAuthPromptPlugin`
+> `/System/Library/Frameworks/CoreLocation.framework/PlugIns/CoreLocationTemporaryPreciseAuthPromptPlugin.appex/CoreLocationTemporaryPreciseAuthPromptPlugin`
 
 ### Sections with Same Size but Changed Content
 

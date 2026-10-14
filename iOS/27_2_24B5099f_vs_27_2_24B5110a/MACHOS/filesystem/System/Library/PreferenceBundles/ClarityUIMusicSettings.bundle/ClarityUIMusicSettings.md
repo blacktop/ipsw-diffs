@@ -1,6 +1,6 @@
 ## ClarityUIMusicSettings
 
-> `System/Library/PreferenceBundles/ClarityUIMusicSettings.bundle/ClarityUIMusicSettings`
+> `/System/Library/PreferenceBundles/ClarityUIMusicSettings.bundle/ClarityUIMusicSettings`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## PasswordsSettings
 
-> `System/Library/PreferenceBundles/PasswordsSettings.bundle/PasswordsSettings`
+> `/System/Library/PreferenceBundles/PasswordsSettings.bundle/PasswordsSettings`
 
 ### Sections with Same Size but Changed Content
 

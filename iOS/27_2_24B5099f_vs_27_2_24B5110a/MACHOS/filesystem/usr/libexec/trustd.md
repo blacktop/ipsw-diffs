@@ -1,6 +1,6 @@
 ## trustd
 
-> `usr/libexec/trustd`
+> `/usr/libexec/trustd`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## GAXApp
 
-> `Applications/GAXApp.app/GAXApp`
+> `/Applications/GAXApp.app/GAXApp`
 
 ### Sections with Same Size but Changed Content
 

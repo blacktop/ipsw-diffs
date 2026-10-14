@@ -1,6 +1,6 @@
 ## diagnosticservicesd
 
-> `System/Library/CoreServices/diagnosticservicesd`
+> `/System/Library/CoreServices/diagnosticservicesd`
 
 ### Sections with Same Size but Changed Content
 

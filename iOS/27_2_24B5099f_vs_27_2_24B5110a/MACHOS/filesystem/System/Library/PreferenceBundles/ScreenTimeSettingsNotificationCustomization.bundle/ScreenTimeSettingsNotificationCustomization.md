@@ -1,6 +1,6 @@
 ## ScreenTimeSettingsNotificationCustomization
 
-> `System/Library/PreferenceBundles/ScreenTimeSettingsNotificationCustomization.bundle/ScreenTimeSettingsNotificationCustomization`
+> `/System/Library/PreferenceBundles/ScreenTimeSettingsNotificationCustomization.bundle/ScreenTimeSettingsNotificationCustomization`
 
 ### Sections with Same Size but Changed Content
 

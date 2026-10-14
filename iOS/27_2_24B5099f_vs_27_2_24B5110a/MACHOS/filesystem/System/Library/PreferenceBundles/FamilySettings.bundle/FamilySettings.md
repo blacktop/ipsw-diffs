@@ -1,6 +1,6 @@
 ## FamilySettings
 
-> `System/Library/PreferenceBundles/FamilySettings.bundle/FamilySettings`
+> `/System/Library/PreferenceBundles/FamilySettings.bundle/FamilySettings`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## ShortcutsUI
 
-> `Applications/ShortcutsUI.app/ShortcutsUI`
+> `/Applications/ShortcutsUI.app/ShortcutsUI`
 
 ### Sections with Same Size but Changed Content
 

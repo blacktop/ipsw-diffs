@@ -1,6 +1,6 @@
 ## CloudSharingAccessSelectionViewService-iOS
 
-> `System/Library/PrivateFrameworks/CloudSharingUI.framework/PlugIns/CloudSharingAccessSelectionViewService-iOS.appex/CloudSharingAccessSelectionViewService-iOS`
+> `/System/Library/PrivateFrameworks/CloudSharingUI.framework/PlugIns/CloudSharingAccessSelectionViewService-iOS.appex/CloudSharingAccessSelectionViewService-iOS`
 
 ### Sections with Same Size but Changed Content
 

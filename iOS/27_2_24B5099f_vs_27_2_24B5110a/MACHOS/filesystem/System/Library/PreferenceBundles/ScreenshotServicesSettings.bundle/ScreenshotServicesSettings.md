@@ -1,6 +1,6 @@
 ## ScreenshotServicesSettings
 
-> `System/Library/PreferenceBundles/ScreenshotServicesSettings.bundle/ScreenshotServicesSettings`
+> `/System/Library/PreferenceBundles/ScreenshotServicesSettings.bundle/ScreenshotServicesSettings`
 
 ### Sections with Same Size but Changed Content
 

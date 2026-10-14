@@ -1,6 +1,6 @@
 ## Feedback Assistant iOS
 
-> `Applications/Feedback Assistant iOS.app/Feedback Assistant iOS`
+> `/Applications/Feedback Assistant iOS.app/Feedback Assistant iOS`
 
 ### Sections with Same Size but Changed Content
 

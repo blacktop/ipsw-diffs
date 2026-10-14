@@ -1,6 +1,6 @@
 ## MBDiagnosticExtension
 
-> `System/Library/PrivateFrameworks/MobileBackup.framework/PlugIns/MBDiagnosticExtension.appex/MBDiagnosticExtension`
+> `/System/Library/PrivateFrameworks/MobileBackup.framework/PlugIns/MBDiagnosticExtension.appex/MBDiagnosticExtension`
 
 ### Sections with Same Size but Changed Content
 

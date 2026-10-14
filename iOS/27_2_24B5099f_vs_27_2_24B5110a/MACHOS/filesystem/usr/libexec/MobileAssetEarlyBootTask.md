@@ -1,6 +1,6 @@
 ## MobileAssetEarlyBootTask
 
-> `usr/libexec/MobileAssetEarlyBootTask`
+> `/usr/libexec/MobileAssetEarlyBootTask`
 
 ### Sections with Same Size but Changed Content
 

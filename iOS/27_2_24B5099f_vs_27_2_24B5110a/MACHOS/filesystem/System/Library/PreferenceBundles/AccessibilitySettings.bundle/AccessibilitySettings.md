@@ -1,6 +1,6 @@
 ## AccessibilitySettings
 
-> `System/Library/PreferenceBundles/AccessibilitySettings.bundle/AccessibilitySettings`
+> `/System/Library/PreferenceBundles/AccessibilitySettings.bundle/AccessibilitySettings`
 
 ### Sections with Same Size but Changed Content
 

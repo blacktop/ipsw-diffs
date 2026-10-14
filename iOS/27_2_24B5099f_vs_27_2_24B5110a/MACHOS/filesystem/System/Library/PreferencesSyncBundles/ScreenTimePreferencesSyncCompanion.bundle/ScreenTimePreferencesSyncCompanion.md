@@ -1,6 +1,6 @@
 ## ScreenTimePreferencesSyncCompanion
 
-> `System/Library/PreferencesSyncBundles/ScreenTimePreferencesSyncCompanion.bundle/ScreenTimePreferencesSyncCompanion`
+> `/System/Library/PreferencesSyncBundles/ScreenTimePreferencesSyncCompanion.bundle/ScreenTimePreferencesSyncCompanion`
 
 ### Sections with Same Size but Changed Content
 

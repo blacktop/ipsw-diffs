@@ -1,6 +1,6 @@
 ## com.apple.DriverKit-AppleEthernetE1000
 
-> `System/Library/DriverExtensions/com.apple.DriverKit-AppleEthernetE1000.dext/com.apple.DriverKit-AppleEthernetE1000`
+> `/System/Library/DriverExtensions/com.apple.DriverKit-AppleEthernetE1000.dext/com.apple.DriverKit-AppleEthernetE1000`
 
 ```diff
 Symbols:

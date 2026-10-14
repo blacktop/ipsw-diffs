@@ -1,6 +1,6 @@
 ## AddTagsActionExtension
 
-> `System/Library/PrivateFrameworks/DocumentManagerUICore.framework/PlugIns/AddTagsActionExtension.appex/AddTagsActionExtension`
+> `/System/Library/PrivateFrameworks/DocumentManagerUICore.framework/PlugIns/AddTagsActionExtension.appex/AddTagsActionExtension`
 
 ### Sections with Same Size but Changed Content
 

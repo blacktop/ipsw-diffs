@@ -1,6 +1,6 @@
 ## SiriMailSnippetProviderPlugin
 
-> `System/Library/FlowTools/SnippetService/ResponsePlugins/SiriMailSnippetProviderPlugin.bundle/SiriMailSnippetProviderPlugin`
+> `/System/Library/FlowTools/SnippetService/ResponsePlugins/SiriMailSnippetProviderPlugin.bundle/SiriMailSnippetProviderPlugin`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## SecureControlService
 
-> `System/Library/PrivateFrameworks/UIKitCore.framework/XPCServices/SecureControlService.xpc/SecureControlService`
+> `/System/Library/PrivateFrameworks/UIKitCore.framework/XPCServices/SecureControlService.xpc/SecureControlService`
 
 ### Sections with Same Size but Changed Content
 

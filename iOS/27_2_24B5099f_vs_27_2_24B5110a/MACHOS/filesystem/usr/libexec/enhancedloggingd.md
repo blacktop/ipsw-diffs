@@ -1,6 +1,6 @@
 ## enhancedloggingd
 
-> `usr/libexec/enhancedloggingd`
+> `/usr/libexec/enhancedloggingd`
 
 ### Sections with Same Size but Changed Content
 

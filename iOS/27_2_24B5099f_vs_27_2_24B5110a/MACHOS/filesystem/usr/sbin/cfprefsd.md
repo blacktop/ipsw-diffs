@@ -1,6 +1,6 @@
 ## cfprefsd
 
-> `usr/sbin/cfprefsd`
+> `/usr/sbin/cfprefsd`
 
 ### Sections with Same Size but Changed Content
 

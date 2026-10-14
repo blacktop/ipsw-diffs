@@ -1,6 +1,6 @@
 ## naturallanguaged
 
-> `usr/libexec/naturallanguaged`
+> `/usr/libexec/naturallanguaged`
 
 ### Sections with Same Size but Changed Content
 

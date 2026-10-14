@@ -1,6 +1,6 @@
 ## ToggleAirplaneModeExtension
 
-> `System/Library/ExtensionKit/Extensions/ToggleAirplaneModeExtension.appex/ToggleAirplaneModeExtension`
+> `/System/Library/ExtensionKit/Extensions/ToggleAirplaneModeExtension.appex/ToggleAirplaneModeExtension`
 
 ### Sections with Same Size but Changed Content
 

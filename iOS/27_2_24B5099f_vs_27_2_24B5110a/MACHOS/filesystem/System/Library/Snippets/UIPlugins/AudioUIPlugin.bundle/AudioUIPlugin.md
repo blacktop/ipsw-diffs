@@ -1,6 +1,6 @@
 ## AudioUIPlugin
 
-> `System/Library/Snippets/UIPlugins/AudioUIPlugin.bundle/AudioUIPlugin`
+> `/System/Library/Snippets/UIPlugins/AudioUIPlugin.bundle/AudioUIPlugin`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## HomeDataModel
 
-> `filesystem/System/Library/PrivateFrameworks/HomeDataModel.framework/HFSensitiveStrings-MarqueeExtensibility.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/HomeDataModel.framework/HFSensitiveStrings-MarqueeExtensibility.loctable`
 
 ```text
 en.AccessibilityDeselectAllFields = "Deselect All Product Information"

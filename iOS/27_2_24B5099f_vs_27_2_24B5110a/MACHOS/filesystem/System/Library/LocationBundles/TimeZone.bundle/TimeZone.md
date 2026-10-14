@@ -1,6 +1,6 @@
 ## TimeZone
 
-> `System/Library/LocationBundles/TimeZone.bundle/TimeZone`
+> `/System/Library/LocationBundles/TimeZone.bundle/TimeZone`
 
 ### Sections with Same Size but Changed Content
 

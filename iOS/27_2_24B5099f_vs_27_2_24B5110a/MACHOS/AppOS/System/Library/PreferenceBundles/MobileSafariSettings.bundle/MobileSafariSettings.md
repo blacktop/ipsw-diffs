@@ -1,6 +1,6 @@
 ## MobileSafariSettings
 
-> `System/Library/PreferenceBundles/MobileSafariSettings.bundle/MobileSafariSettings`
+> `/System/Library/PreferenceBundles/MobileSafariSettings.bundle/MobileSafariSettings`
 
 ### Sections with Same Size but Changed Content
 

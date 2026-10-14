@@ -1,6 +1,6 @@
 ## spaceattributiond
 
-> `System/Library/PrivateFrameworks/SpaceAttribution.framework/spaceattributiond`
+> `/System/Library/PrivateFrameworks/SpaceAttribution.framework/spaceattributiond`
 
 ### Sections with Same Size but Changed Content
 

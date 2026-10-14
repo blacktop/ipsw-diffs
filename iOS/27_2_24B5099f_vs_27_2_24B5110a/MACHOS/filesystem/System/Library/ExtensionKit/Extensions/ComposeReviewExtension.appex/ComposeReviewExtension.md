@@ -1,6 +1,6 @@
 ## ComposeReviewExtension
 
-> `System/Library/ExtensionKit/Extensions/ComposeReviewExtension.appex/ComposeReviewExtension`
+> `/System/Library/ExtensionKit/Extensions/ComposeReviewExtension.appex/ComposeReviewExtension`
 
 ### Sections with Same Size but Changed Content
 

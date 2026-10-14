@@ -1,6 +1,6 @@
 ## JournalNotifications
 
-> `System/Library/PreferenceBundles/JournalNotifications.bundle/JournalNotifications`
+> `/System/Library/PreferenceBundles/JournalNotifications.bundle/JournalNotifications`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## ScreenTimeFollowUpExtension
 
-> `System/Library/PrivateFrameworks/ScreenTimeUI.framework/PlugIns/ScreenTimeFollowUpExtension.appex/ScreenTimeFollowUpExtension`
+> `/System/Library/PrivateFrameworks/ScreenTimeUI.framework/PlugIns/ScreenTimeFollowUpExtension.appex/ScreenTimeFollowUpExtension`
 
 ### Sections with Same Size but Changed Content
 

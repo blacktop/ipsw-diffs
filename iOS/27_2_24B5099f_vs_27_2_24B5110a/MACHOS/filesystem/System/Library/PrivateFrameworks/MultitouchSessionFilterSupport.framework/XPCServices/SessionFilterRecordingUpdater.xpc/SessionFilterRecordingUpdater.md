@@ -1,6 +1,6 @@
 ## SessionFilterRecordingUpdater
 
-> `System/Library/PrivateFrameworks/MultitouchSessionFilterSupport.framework/XPCServices/SessionFilterRecordingUpdater.xpc/SessionFilterRecordingUpdater`
+> `/System/Library/PrivateFrameworks/MultitouchSessionFilterSupport.framework/XPCServices/SessionFilterRecordingUpdater.xpc/SessionFilterRecordingUpdater`
 
 ### Sections with Same Size but Changed Content
 

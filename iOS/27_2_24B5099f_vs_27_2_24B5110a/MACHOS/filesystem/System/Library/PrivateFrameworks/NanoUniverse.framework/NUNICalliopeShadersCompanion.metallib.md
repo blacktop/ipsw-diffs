@@ -1,6 +1,6 @@
 ## NUNICalliopeShadersCompanion.metallib
 
-> `System/Library/PrivateFrameworks/NanoUniverse.framework/NUNICalliopeShadersCompanion.metallib`
+> `/System/Library/PrivateFrameworks/NanoUniverse.framework/NUNICalliopeShadersCompanion.metallib`
 
 ### Sections with Same Size but Changed Content
 

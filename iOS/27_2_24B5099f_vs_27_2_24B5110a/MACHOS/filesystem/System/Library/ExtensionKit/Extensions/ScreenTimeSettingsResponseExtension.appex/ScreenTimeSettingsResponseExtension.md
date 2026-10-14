@@ -1,6 +1,6 @@
 ## ScreenTimeSettingsResponseExtension
 
-> `System/Library/ExtensionKit/Extensions/ScreenTimeSettingsResponseExtension.appex/ScreenTimeSettingsResponseExtension`
+> `/System/Library/ExtensionKit/Extensions/ScreenTimeSettingsResponseExtension.appex/ScreenTimeSettingsResponseExtension`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## SOSBuddy
 
-> `Applications/SOSBuddy.app/SOSBuddy`
+> `/Applications/SOSBuddy.app/SOSBuddy`
 
 ### Sections with Same Size but Changed Content
 

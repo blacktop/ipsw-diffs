@@ -1,6 +1,6 @@
 ## archive.metallib
 
-> `System/Library/PrivateFrameworks/RenderBox.framework/archive.metallib`
+> `/System/Library/PrivateFrameworks/RenderBox.framework/archive.metallib`
 
 ### Sections with Same Size but Changed Content
 

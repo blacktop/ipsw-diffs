@@ -1,6 +1,6 @@
 ## QuickLookUIExtension
 
-> `System/Library/ExtensionKit/Extensions/QuickLookUIExtension.appex/QuickLookUIExtension`
+> `/System/Library/ExtensionKit/Extensions/QuickLookUIExtension.appex/QuickLookUIExtension`
 
 ### Sections with Same Size but Changed Content
 

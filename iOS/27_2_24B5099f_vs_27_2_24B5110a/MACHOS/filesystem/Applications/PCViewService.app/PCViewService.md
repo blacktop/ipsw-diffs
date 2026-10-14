@@ -1,6 +1,6 @@
 ## PCViewService
 
-> `Applications/PCViewService.app/PCViewService`
+> `/Applications/PCViewService.app/PCViewService`
 
 ### Sections with Same Size but Changed Content
 

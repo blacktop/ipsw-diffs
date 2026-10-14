@@ -1,6 +1,6 @@
 ## PhotosDestructiveChangeConfirmation
 
-> `System/Library/ExtensionKit/Extensions/PhotosDestructiveChangeConfirmation.appex/PhotosDestructiveChangeConfirmation`
+> `/System/Library/ExtensionKit/Extensions/PhotosDestructiveChangeConfirmation.appex/PhotosDestructiveChangeConfirmation`
 
 ### Sections with Same Size but Changed Content
 

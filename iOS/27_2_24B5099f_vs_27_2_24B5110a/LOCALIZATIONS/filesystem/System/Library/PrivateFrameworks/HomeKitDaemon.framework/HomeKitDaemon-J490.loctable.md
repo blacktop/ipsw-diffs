@@ -1,6 +1,6 @@
 ## HomeKitDaemon
 
-> `filesystem/System/Library/PrivateFrameworks/HomeKitDaemon.framework/HomeKitDaemon-J490.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/HomeKitDaemon.framework/HomeKitDaemon-J490.loctable`
 
 ```text
 en.AUDIOANALYSIS_ALARM_NOTIFICATION_TITLE_HOME_ACCESSORY = "%@ Check In Available"

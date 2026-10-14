@@ -1,6 +1,6 @@
 ## MobileDevices
 
-> `System/Library/CoreServices/CoreTypes.bundle/Contents/Library/MobileDevices.bundle/MobileDevices`
+> `/System/Library/CoreServices/CoreTypes.bundle/Contents/Library/MobileDevices.bundle/MobileDevices`
 
 ### Sections with Same Size but Changed Content
 

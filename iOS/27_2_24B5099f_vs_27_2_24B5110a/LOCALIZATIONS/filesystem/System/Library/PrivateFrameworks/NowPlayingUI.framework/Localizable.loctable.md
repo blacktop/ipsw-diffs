@@ -1,6 +1,6 @@
 ## NowPlayingUI
 
-> `filesystem/System/Library/PrivateFrameworks/NowPlayingUI.framework/Localizable.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/NowPlayingUI.framework/Localizable.loctable`
 
 ```diff
 

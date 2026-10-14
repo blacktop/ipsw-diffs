@@ -1,6 +1,6 @@
 ## com.apple.onboarding.appleid
 
-> `filesystem/System/Library/OnBoardingBundles/com.apple.onboarding.appleid.bundle/AppleID.loctable`
+> `FileSystem/System/Library/OnBoardingBundles/com.apple.onboarding.appleid.bundle/AppleID.loctable`
 
 ```diff
 

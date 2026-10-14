@@ -1,6 +1,6 @@
 ## FontPickerUIService
 
-> `Applications/FontPickerUIService.app/FontPickerUIService`
+> `/Applications/FontPickerUIService.app/FontPickerUIService`
 
 ### Sections with Same Size but Changed Content
 

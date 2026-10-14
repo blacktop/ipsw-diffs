@@ -1,6 +1,6 @@
 ## CompanionViewService
 
-> `Applications/CompanionViewService.app/CompanionViewService`
+> `/Applications/CompanionViewService.app/CompanionViewService`
 
 ### Sections with Same Size but Changed Content
 

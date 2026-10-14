@@ -1,6 +1,6 @@
 ## PodcastsSettingsPlugin
 
-> `System/Library/PreferenceBundles/PodcastsSettingsPlugin.bundle/PodcastsSettingsPlugin`
+> `/System/Library/PreferenceBundles/PodcastsSettingsPlugin.bundle/PodcastsSettingsPlugin`
 
 ### Sections with Same Size but Changed Content
 

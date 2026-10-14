@@ -1,6 +1,6 @@
 ## CoreLocationNumberedMapCalloutPromptPlugin
 
-> `System/Library/Frameworks/CoreLocation.framework/PlugIns/CoreLocationNumberedMapCalloutPromptPlugin.appex/CoreLocationNumberedMapCalloutPromptPlugin`
+> `/System/Library/Frameworks/CoreLocation.framework/PlugIns/CoreLocationNumberedMapCalloutPromptPlugin.appex/CoreLocationNumberedMapCalloutPromptPlugin`
 
 ### Sections with Same Size but Changed Content
 

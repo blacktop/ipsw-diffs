@@ -1,6 +1,6 @@
 ## AccessibilityUIUtilities
 
-> `filesystem/System/Library/PrivateFrameworks/AccessibilityUIUtilities.framework/AXUILocalizedStrings-J490.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/AccessibilityUIUtilities.framework/AXUILocalizedStrings-J490.loctable`
 
 ```text
 en.TRANSFER_AX_SETTINGS_BUTTON_TITLE = "Continue"

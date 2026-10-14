@@ -1,6 +1,6 @@
 ## SiriLinkUIPlugin
 
-> `System/Library/Snippets/UIPlugins/SiriLinkUIPlugin.bundle/SiriLinkUIPlugin`
+> `/System/Library/Snippets/UIPlugins/SiriLinkUIPlugin.bundle/SiriLinkUIPlugin`
 
 ### Sections with Same Size but Changed Content
 

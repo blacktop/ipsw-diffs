@@ -1,6 +1,6 @@
 ## warlock.metallib
 
-> `System/Library/NanoTimeKit/FaceBundles/NTKWarlockFaceBundle.bundle/warlock.metallib`
+> `/System/Library/NanoTimeKit/FaceBundles/NTKWarlockFaceBundle.bundle/warlock.metallib`
 
 ```diff
 

@@ -1,6 +1,6 @@
 ## AccessibilityUtilities
 
-> `filesystem/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/TeachableMomentItems-27.0-iOS.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/TeachableMomentItems-27.0-iOS.loctable`
 
 ```diff
 

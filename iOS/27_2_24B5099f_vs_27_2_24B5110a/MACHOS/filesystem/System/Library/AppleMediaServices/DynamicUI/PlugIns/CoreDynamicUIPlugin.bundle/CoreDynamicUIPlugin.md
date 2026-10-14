@@ -1,6 +1,6 @@
 ## CoreDynamicUIPlugin
 
-> `System/Library/AppleMediaServices/DynamicUI/PlugIns/CoreDynamicUIPlugin.bundle/CoreDynamicUIPlugin`
+> `/System/Library/AppleMediaServices/DynamicUI/PlugIns/CoreDynamicUIPlugin.bundle/CoreDynamicUIPlugin`
 
 ### Sections with Same Size but Changed Content
 

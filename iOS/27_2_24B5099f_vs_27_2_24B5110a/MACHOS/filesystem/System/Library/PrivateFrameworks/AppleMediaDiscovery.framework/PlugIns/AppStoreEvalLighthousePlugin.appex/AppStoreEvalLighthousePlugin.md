@@ -1,6 +1,6 @@
 ## AppStoreEvalLighthousePlugin
 
-> `System/Library/PrivateFrameworks/AppleMediaDiscovery.framework/PlugIns/AppStoreEvalLighthousePlugin.appex/AppStoreEvalLighthousePlugin`
+> `/System/Library/PrivateFrameworks/AppleMediaDiscovery.framework/PlugIns/AppStoreEvalLighthousePlugin.appex/AppStoreEvalLighthousePlugin`
 
 ```diff
 Symbols:

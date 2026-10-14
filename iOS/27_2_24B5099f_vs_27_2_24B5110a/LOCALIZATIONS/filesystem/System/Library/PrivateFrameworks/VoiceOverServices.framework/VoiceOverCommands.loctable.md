@@ -1,6 +1,6 @@
 ## VoiceOverServices
 
-> `filesystem/System/Library/PrivateFrameworks/VoiceOverServices.framework/VoiceOverCommands.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/VoiceOverServices.framework/VoiceOverCommands.loctable`
 
 ```diff
 

@@ -1,6 +1,6 @@
 ## AirPlayAndHandoffSettings
 
-> `System/Library/PreferenceBundles/AirPlayAndHandoffSettings.bundle/AirPlayAndHandoffSettings`
+> `/System/Library/PreferenceBundles/AirPlayAndHandoffSettings.bundle/AirPlayAndHandoffSettings`
 
 ### Sections with Same Size but Changed Content
 

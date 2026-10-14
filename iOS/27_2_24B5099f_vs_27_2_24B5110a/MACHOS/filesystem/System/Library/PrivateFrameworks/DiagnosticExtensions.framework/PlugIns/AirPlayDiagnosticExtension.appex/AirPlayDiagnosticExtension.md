@@ -1,6 +1,6 @@
 ## AirPlayDiagnosticExtension
 
-> `System/Library/PrivateFrameworks/DiagnosticExtensions.framework/PlugIns/AirPlayDiagnosticExtension.appex/AirPlayDiagnosticExtension`
+> `/System/Library/PrivateFrameworks/DiagnosticExtensions.framework/PlugIns/AirPlayDiagnosticExtension.appex/AirPlayDiagnosticExtension`
 
 ### Sections with Same Size but Changed Content
 

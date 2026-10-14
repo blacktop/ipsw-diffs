@@ -1,6 +1,6 @@
 ## SystemStatusUI
 
-> `filesystem/System/Library/AccessibilityBundles/SystemStatusUI.axbundle/Accessibility.loctable`
+> `FileSystem/System/Library/AccessibilityBundles/SystemStatusUI.axbundle/Accessibility.loctable`
 
 ```diff
 

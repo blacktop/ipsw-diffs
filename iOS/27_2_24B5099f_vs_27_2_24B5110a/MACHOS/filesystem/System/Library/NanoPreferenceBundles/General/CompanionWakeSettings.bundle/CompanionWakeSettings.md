@@ -1,6 +1,6 @@
 ## CompanionWakeSettings
 
-> `System/Library/NanoPreferenceBundles/General/CompanionWakeSettings.bundle/CompanionWakeSettings`
+> `/System/Library/NanoPreferenceBundles/General/CompanionWakeSettings.bundle/CompanionWakeSettings`
 
 ### Sections with Same Size but Changed Content
 

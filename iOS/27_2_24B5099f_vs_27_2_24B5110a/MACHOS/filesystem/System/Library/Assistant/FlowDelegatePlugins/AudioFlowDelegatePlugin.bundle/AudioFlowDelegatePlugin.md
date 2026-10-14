@@ -1,6 +1,6 @@
 ## AudioFlowDelegatePlugin
 
-> `System/Library/Assistant/FlowDelegatePlugins/AudioFlowDelegatePlugin.bundle/AudioFlowDelegatePlugin`
+> `/System/Library/Assistant/FlowDelegatePlugins/AudioFlowDelegatePlugin.bundle/AudioFlowDelegatePlugin`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## AdaptiveMusicControl
 
-> `Applications/AdaptiveMusicApp.app/PlugIns/AdaptiveMusicControl.appex/AdaptiveMusicControl`
+> `/Applications/AdaptiveMusicApp.app/PlugIns/AdaptiveMusicControl.appex/AdaptiveMusicControl`
 
 ### Sections with Same Size but Changed Content
 

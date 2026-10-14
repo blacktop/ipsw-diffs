@@ -1,6 +1,6 @@
 ## NTKHero27FaceBundle
 
-> `System/Library/NanoTimeKit/FaceBundles/NTKHero27FaceBundle.bundle/NTKHero27FaceBundle`
+> `/System/Library/NanoTimeKit/FaceBundles/NTKHero27FaceBundle.bundle/NTKHero27FaceBundle`
 
 ### Sections with Same Size but Changed Content
 

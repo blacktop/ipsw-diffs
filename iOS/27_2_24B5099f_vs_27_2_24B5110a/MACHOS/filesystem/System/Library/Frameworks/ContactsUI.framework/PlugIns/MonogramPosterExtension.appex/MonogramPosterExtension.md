@@ -1,6 +1,6 @@
 ## MonogramPosterExtension
 
-> `System/Library/Frameworks/ContactsUI.framework/PlugIns/MonogramPosterExtension.appex/MonogramPosterExtension`
+> `/System/Library/Frameworks/ContactsUI.framework/PlugIns/MonogramPosterExtension.appex/MonogramPosterExtension`
 
 ### Sections with Same Size but Changed Content
 

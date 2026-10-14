@@ -1,6 +1,6 @@
 ## EventKitUIRemoteUIExtension
 
-> `System/Library/ExtensionKit/Extensions/EventKitUIRemoteUIExtension.appex/EventKitUIRemoteUIExtension`
+> `/System/Library/ExtensionKit/Extensions/EventKitUIRemoteUIExtension.appex/EventKitUIRemoteUIExtension`
 
 ### Sections with Same Size but Changed Content
 

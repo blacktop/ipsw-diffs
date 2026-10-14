@@ -1,6 +1,6 @@
 ## CalendarThumbnailExtension
 
-> `System/Library/ExtensionKit/Extensions/CalendarThumbnailExtension.appex/CalendarThumbnailExtension`
+> `/System/Library/ExtensionKit/Extensions/CalendarThumbnailExtension.appex/CalendarThumbnailExtension`
 
 ### Sections with Same Size but Changed Content
 

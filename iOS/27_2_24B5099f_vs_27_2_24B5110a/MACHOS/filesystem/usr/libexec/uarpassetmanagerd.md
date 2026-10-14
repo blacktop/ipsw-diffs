@@ -1,6 +1,6 @@
 ## uarpassetmanagerd
 
-> `usr/libexec/uarpassetmanagerd`
+> `/usr/libexec/uarpassetmanagerd`
 
 ### Sections with Same Size but Changed Content
 

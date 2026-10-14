@@ -1,6 +1,6 @@
 ## MBFollowUpExtension
 
-> `System/Library/PrivateFrameworks/MobileBackup.framework/PlugIns/MBFollowUpExtension.appex/MBFollowUpExtension`
+> `/System/Library/PrivateFrameworks/MobileBackup.framework/PlugIns/MBFollowUpExtension.appex/MBFollowUpExtension`
 
 ### Sections with Same Size but Changed Content
 

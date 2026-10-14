@@ -1,6 +1,6 @@
 ## MobileAsset
 
-> `System/Library/DataClassMigrators/MobileAsset.migrator/MobileAsset`
+> `/System/Library/DataClassMigrators/MobileAsset.migrator/MobileAsset`
 
 ### Sections with Same Size but Changed Content
 

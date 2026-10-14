@@ -1,6 +1,6 @@
 ## ProductPageExtension
 
-> `System/Library/ExtensionKit/Extensions/ProductPageExtension.appex/ProductPageExtension`
+> `/System/Library/ExtensionKit/Extensions/ProductPageExtension.appex/ProductPageExtension`
 
 ### Sections with Same Size but Changed Content
 

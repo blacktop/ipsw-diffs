@@ -1,6 +1,6 @@
 ## AXImageExplorerServer
 
-> `System/Library/AccessibilityBundles/AXImageExplorerServer.axuiservice/AXImageExplorerServer`
+> `/System/Library/AccessibilityBundles/AXImageExplorerServer.axuiservice/AXImageExplorerServer`
 
 ### Sections with Same Size but Changed Content
 

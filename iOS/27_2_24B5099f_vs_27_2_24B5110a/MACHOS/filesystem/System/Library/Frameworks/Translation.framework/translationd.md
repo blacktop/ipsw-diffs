@@ -1,6 +1,6 @@
 ## translationd
 
-> `System/Library/Frameworks/Translation.framework/translationd`
+> `/System/Library/Frameworks/Translation.framework/translationd`
 
 ### Sections with Same Size but Changed Content
 

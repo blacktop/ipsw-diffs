@@ -1,6 +1,6 @@
 ## syncdefaultsd
 
-> `System/Library/PrivateFrameworks/SyncedDefaults.framework/Support/syncdefaultsd`
+> `/System/Library/PrivateFrameworks/SyncedDefaults.framework/Support/syncdefaultsd`
 
 ### Sections with Same Size but Changed Content
 

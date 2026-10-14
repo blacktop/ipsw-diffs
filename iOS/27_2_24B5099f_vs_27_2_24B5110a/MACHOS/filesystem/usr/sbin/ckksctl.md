@@ -1,6 +1,6 @@
 ## ckksctl
 
-> `usr/sbin/ckksctl`
+> `/usr/sbin/ckksctl`
 
 ### Sections with Same Size but Changed Content
 

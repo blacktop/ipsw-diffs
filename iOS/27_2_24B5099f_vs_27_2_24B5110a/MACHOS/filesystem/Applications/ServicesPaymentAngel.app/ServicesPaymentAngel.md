@@ -1,6 +1,6 @@
 ## ServicesPaymentAngel
 
-> `Applications/ServicesPaymentAngel.app/ServicesPaymentAngel`
+> `/Applications/ServicesPaymentAngel.app/ServicesPaymentAngel`
 
 ### Sections with Same Size but Changed Content
 

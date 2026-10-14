@@ -1,6 +1,6 @@
 ## PeopleMessagesAskToBuy
 
-> `Applications/PeopleMessageService.app/PlugIns/PeopleMessagesAskToBuy.appex/PeopleMessagesAskToBuy`
+> `/Applications/PeopleMessageService.app/PlugIns/PeopleMessagesAskToBuy.appex/PeopleMessagesAskToBuy`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## HealthPlansUI
 
-> `filesystem/System/Library/PrivateFrameworks/HealthPlansUI.framework/Localizable.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/HealthPlansUI.framework/Localizable.loctable`
 
 ```diff
 

@@ -1,6 +1,6 @@
 ## keychainsharingmessagingd
 
-> `usr/libexec/keychainsharingmessagingd`
+> `/usr/libexec/keychainsharingmessagingd`
 
 ### Sections with Same Size but Changed Content
 

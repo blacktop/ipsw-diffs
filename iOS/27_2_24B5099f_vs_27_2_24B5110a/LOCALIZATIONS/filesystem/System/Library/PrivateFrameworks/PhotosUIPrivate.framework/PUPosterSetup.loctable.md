@@ -1,6 +1,6 @@
 ## PhotosUIPrivate
 
-> `filesystem/System/Library/PrivateFrameworks/PhotosUIPrivate.framework/PUPosterSetup.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/PhotosUIPrivate.framework/PUPosterSetup.loctable`
 
 ```text
 en.PUPosterSetupAddPhotosButtonTitle = "Add Photos"

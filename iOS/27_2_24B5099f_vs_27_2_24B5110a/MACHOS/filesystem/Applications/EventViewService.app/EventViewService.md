@@ -1,6 +1,6 @@
 ## EventViewService
 
-> `Applications/EventViewService.app/EventViewService`
+> `/Applications/EventViewService.app/EventViewService`
 
 ### Sections with Same Size but Changed Content
 

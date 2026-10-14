@@ -1,6 +1,6 @@
 ## CoreGlyphsPrivate
 
-> `filesystem/System/Library/PrivateFrameworks/SFSymbols.framework/CoreGlyphsPrivate.bundle/nofill_to_fill.strings`
+> `FileSystem/System/Library/PrivateFrameworks/SFSymbols.framework/CoreGlyphsPrivate.bundle/nofill_to_fill.strings`
 
 ```diff
 

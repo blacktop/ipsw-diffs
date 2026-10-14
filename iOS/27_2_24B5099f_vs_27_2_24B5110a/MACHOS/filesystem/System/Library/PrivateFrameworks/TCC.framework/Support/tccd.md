@@ -1,6 +1,6 @@
 ## tccd
 
-> `System/Library/PrivateFrameworks/TCC.framework/Support/tccd`
+> `/System/Library/PrivateFrameworks/TCC.framework/Support/tccd`
 
 ### Sections with Same Size but Changed Content
 

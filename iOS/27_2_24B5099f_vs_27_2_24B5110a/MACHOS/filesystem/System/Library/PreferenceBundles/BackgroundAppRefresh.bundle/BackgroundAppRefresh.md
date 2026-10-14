@@ -1,6 +1,6 @@
 ## BackgroundAppRefresh
 
-> `System/Library/PreferenceBundles/BackgroundAppRefresh.bundle/BackgroundAppRefresh`
+> `/System/Library/PreferenceBundles/BackgroundAppRefresh.bundle/BackgroundAppRefresh`
 
 ### Sections with Same Size but Changed Content
 

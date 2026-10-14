@@ -1,6 +1,6 @@
 ## gpsd
 
-> `usr/libexec/gpsd`
+> `/usr/libexec/gpsd`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## TVAppExtension
 
-> `System/Library/ExtensionKit/Extensions/TVAppExtension.appex/TVAppExtension`
+> `/System/Library/ExtensionKit/Extensions/TVAppExtension.appex/TVAppExtension`
 
 ### Sections with Same Size but Changed Content
 

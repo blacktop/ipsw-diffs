@@ -1,6 +1,6 @@
 ## terminusd
 
-> `usr/libexec/terminusd`
+> `/usr/libexec/terminusd`
 
 ### Sections with Same Size but Changed Content
 

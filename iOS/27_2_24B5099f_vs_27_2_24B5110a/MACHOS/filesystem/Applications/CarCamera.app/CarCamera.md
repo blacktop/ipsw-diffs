@@ -1,6 +1,6 @@
 ## CarCamera
 
-> `Applications/CarCamera.app/CarCamera`
+> `/Applications/CarCamera.app/CarCamera`
 
 ### Sections with Same Size but Changed Content
 

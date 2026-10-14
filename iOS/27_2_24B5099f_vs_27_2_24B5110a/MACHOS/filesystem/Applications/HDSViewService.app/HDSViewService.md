@@ -1,6 +1,6 @@
 ## HDSViewService
 
-> `Applications/HDSViewService.app/HDSViewService`
+> `/Applications/HDSViewService.app/HDSViewService`
 
 ### Sections with Same Size but Changed Content
 

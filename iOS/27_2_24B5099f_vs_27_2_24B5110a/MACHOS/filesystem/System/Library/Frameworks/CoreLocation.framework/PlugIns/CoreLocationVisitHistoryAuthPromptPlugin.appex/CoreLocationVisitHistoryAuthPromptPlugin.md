@@ -1,6 +1,6 @@
 ## CoreLocationVisitHistoryAuthPromptPlugin
 
-> `System/Library/Frameworks/CoreLocation.framework/PlugIns/CoreLocationVisitHistoryAuthPromptPlugin.appex/CoreLocationVisitHistoryAuthPromptPlugin`
+> `/System/Library/Frameworks/CoreLocation.framework/PlugIns/CoreLocationVisitHistoryAuthPromptPlugin.appex/CoreLocationVisitHistoryAuthPromptPlugin`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## backgroundassets.user
 
-> `usr/libexec/backgroundassets.user`
+> `/usr/libexec/backgroundassets.user`
 
 ### Sections with Same Size but Changed Content
 

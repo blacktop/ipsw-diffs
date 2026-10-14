@@ -1,6 +1,6 @@
 ## parsecd
 
-> `System/Library/PrivateFrameworks/CoreParsec.framework/parsecd`
+> `/System/Library/PrivateFrameworks/CoreParsec.framework/parsecd`
 
 ### Sections with Same Size but Changed Content
 

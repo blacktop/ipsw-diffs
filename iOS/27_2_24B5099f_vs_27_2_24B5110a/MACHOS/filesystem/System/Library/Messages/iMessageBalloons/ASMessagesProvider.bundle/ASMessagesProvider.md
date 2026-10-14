@@ -1,6 +1,6 @@
 ## ASMessagesProvider
 
-> `System/Library/Messages/iMessageBalloons/ASMessagesProvider.bundle/ASMessagesProvider`
+> `/System/Library/Messages/iMessageBalloons/ASMessagesProvider.bundle/ASMessagesProvider`
 
 ### Sections with Same Size but Changed Content
 

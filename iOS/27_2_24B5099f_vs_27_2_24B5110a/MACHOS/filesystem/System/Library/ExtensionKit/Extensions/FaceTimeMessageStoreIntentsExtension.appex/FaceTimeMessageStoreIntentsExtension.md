@@ -1,6 +1,6 @@
 ## FaceTimeMessageStoreIntentsExtension
 
-> `System/Library/ExtensionKit/Extensions/FaceTimeMessageStoreIntentsExtension.appex/FaceTimeMessageStoreIntentsExtension`
+> `/System/Library/ExtensionKit/Extensions/FaceTimeMessageStoreIntentsExtension.appex/FaceTimeMessageStoreIntentsExtension`
 
 ```diff
 

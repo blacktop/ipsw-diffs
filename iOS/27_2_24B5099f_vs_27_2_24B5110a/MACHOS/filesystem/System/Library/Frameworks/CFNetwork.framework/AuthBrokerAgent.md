@@ -1,6 +1,6 @@
 ## AuthBrokerAgent
 
-> `System/Library/Frameworks/CFNetwork.framework/AuthBrokerAgent`
+> `/System/Library/Frameworks/CFNetwork.framework/AuthBrokerAgent`
 
 ### Sections with Same Size but Changed Content
 

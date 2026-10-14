@@ -1,6 +1,6 @@
 ## locationd
 
-> `usr/libexec/locationd`
+> `/usr/libexec/locationd`
 
 ### Sections with Same Size but Changed Content
 

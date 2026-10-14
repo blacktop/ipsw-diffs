@@ -1,6 +1,6 @@
 ## AppleVideoEncoder
 
-> `System/Library/Video/Plug-Ins/AppleVideoEncoder.bundle/AppleVideoEncoder`
+> `/System/Library/Video/Plug-Ins/AppleVideoEncoder.bundle/AppleVideoEncoder`
 
 ### Sections with Same Size but Changed Content
 

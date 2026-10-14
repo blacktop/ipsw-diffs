@@ -1,6 +1,6 @@
 ## symptomsd-helper
 
-> `usr/libexec/symptomsd-helper`
+> `/usr/libexec/symptomsd-helper`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## trustdFileHelper
 
-> `usr/libexec/trustdFileHelper`
+> `/usr/libexec/trustdFileHelper`
 
 ### Sections with Same Size but Changed Content
 

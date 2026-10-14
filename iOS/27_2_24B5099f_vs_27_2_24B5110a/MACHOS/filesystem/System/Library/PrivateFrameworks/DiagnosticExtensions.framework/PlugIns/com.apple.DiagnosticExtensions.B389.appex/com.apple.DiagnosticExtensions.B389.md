@@ -1,6 +1,6 @@
 ## com.apple.DiagnosticExtensions.B389
 
-> `System/Library/PrivateFrameworks/DiagnosticExtensions.framework/PlugIns/com.apple.DiagnosticExtensions.B389.appex/com.apple.DiagnosticExtensions.B389`
+> `/System/Library/PrivateFrameworks/DiagnosticExtensions.framework/PlugIns/com.apple.DiagnosticExtensions.B389.appex/com.apple.DiagnosticExtensions.B389`
 
 ### Sections with Same Size but Changed Content
 

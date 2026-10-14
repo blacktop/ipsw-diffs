@@ -1,6 +1,6 @@
 ## idcredd
 
-> `usr/libexec/idcredd`
+> `/usr/libexec/idcredd`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## HomeUIService
 
-> `Applications/HomeUIService.app/HomeUIService`
+> `/Applications/HomeUIService.app/HomeUIService`
 
 ### Sections with Same Size but Changed Content
 

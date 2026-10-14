@@ -1,6 +1,6 @@
 ## LocationPromptUI
 
-> `System/Library/LocationBundles/LocationPromptUI.bundle/LocationPromptUI`
+> `/System/Library/LocationBundles/LocationPromptUI.bundle/LocationPromptUI`
 
 ### Sections with Same Size but Changed Content
 

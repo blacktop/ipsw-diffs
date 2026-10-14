@@ -1,6 +1,6 @@
 ## Artwork
 
-> `System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/Artwork`
+> `/System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/Artwork`
 
 ### Sections with Same Size but Changed Content
 

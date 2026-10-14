@@ -1,6 +1,6 @@
 ## BackupAgent2
 
-> `usr/libexec/BackupAgent2`
+> `/usr/libexec/BackupAgent2`
 
 ### Sections with Same Size but Changed Content
 

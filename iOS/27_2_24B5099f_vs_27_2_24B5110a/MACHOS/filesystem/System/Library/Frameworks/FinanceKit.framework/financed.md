@@ -1,6 +1,6 @@
 ## financed
 
-> `System/Library/Frameworks/FinanceKit.framework/financed`
+> `/System/Library/Frameworks/FinanceKit.framework/financed`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## com.apple.UIKit.screenpicker
 
-> `System/Library/Frameworks/UIKit.framework/PlugIns/com.apple.UIKit.screenpicker.appex/com.apple.UIKit.screenpicker`
+> `/System/Library/Frameworks/UIKit.framework/PlugIns/com.apple.UIKit.screenpicker.appex/com.apple.UIKit.screenpicker`
 
 ### Sections with Same Size but Changed Content
 

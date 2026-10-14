@@ -1,6 +1,6 @@
 ## binaryArchive.g19p_a0
 
-> `System/Library/PrivateFrameworks/ACTFramework.framework/binaryArchive.g19p_a0`
+> `/System/Library/PrivateFrameworks/ACTFramework.framework/binaryArchive.g19p_a0`
 
 ### Sections with Same Size but Changed Content
 

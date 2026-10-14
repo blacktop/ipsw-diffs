@@ -1,6 +1,6 @@
 ## ScreenTimeSettingsAgent
 
-> `System/Library/PrivateFrameworks/ScreenTimeSettingsFoundation.framework/ScreenTimeSettingsAgent`
+> `/System/Library/PrivateFrameworks/ScreenTimeSettingsFoundation.framework/ScreenTimeSettingsAgent`
 
 ### Sections with Same Size but Changed Content
 

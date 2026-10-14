@@ -1,6 +1,6 @@
 ## proximitycontrold
 
-> `usr/libexec/proximitycontrold`
+> `/usr/libexec/proximitycontrold`
 
 ### Sections with Same Size but Changed Content
 

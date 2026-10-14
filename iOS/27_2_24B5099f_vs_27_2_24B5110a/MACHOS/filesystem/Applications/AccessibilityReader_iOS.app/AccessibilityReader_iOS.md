@@ -1,6 +1,6 @@
 ## AccessibilityReader_iOS
 
-> `Applications/AccessibilityReader_iOS.app/AccessibilityReader_iOS`
+> `/Applications/AccessibilityReader_iOS.app/AccessibilityReader_iOS`
 
 ### Sections with Same Size but Changed Content
 

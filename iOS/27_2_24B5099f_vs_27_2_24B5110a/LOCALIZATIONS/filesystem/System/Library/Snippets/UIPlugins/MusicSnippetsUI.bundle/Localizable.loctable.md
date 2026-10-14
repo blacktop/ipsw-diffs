@@ -1,6 +1,6 @@
 ## MusicSnippetsUI
 
-> `filesystem/System/Library/Snippets/UIPlugins/MusicSnippetsUI.bundle/Localizable.loctable`
+> `FileSystem/System/Library/Snippets/UIPlugins/MusicSnippetsUI.bundle/Localizable.loctable`
 
 ```diff
 

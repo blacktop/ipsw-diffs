@@ -1,6 +1,6 @@
 ## akd
 
-> `System/Library/PrivateFrameworks/AuthKit.framework/akd`
+> `/System/Library/PrivateFrameworks/AuthKit.framework/akd`
 
 ### Sections with Same Size but Changed Content
 

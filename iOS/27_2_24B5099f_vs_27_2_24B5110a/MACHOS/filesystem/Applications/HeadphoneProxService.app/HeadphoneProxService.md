@@ -1,6 +1,6 @@
 ## HeadphoneProxService
 
-> `Applications/HeadphoneProxService.app/HeadphoneProxService`
+> `/Applications/HeadphoneProxService.app/HeadphoneProxService`
 
 ### Sections with Same Size but Changed Content
 

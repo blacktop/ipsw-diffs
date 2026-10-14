@@ -1,6 +1,6 @@
 ## StorageSettingsUI
 
-> `System/Library/PreferenceBundles/StorageSettingsUI.bundle/StorageSettingsUI`
+> `/System/Library/PreferenceBundles/StorageSettingsUI.bundle/StorageSettingsUI`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## microstackshot
 
-> `usr/libexec/microstackshot`
+> `/usr/libexec/microstackshot`
 
 ### Sections with Same Size but Changed Content
 

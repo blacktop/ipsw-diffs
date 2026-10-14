@@ -1,6 +1,6 @@
 ## vot
 
-> `System/Library/CoreServices/VoiceOverTouch.app/vot`
+> `/System/Library/CoreServices/VoiceOverTouch.app/vot`
 
 ### Sections with Same Size but Changed Content
 

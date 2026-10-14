@@ -1,6 +1,6 @@
 ## searchdiagnose
 
-> `usr/bin/searchdiagnose`
+> `/usr/bin/searchdiagnose`
 
 ### Sections with Same Size but Changed Content
 

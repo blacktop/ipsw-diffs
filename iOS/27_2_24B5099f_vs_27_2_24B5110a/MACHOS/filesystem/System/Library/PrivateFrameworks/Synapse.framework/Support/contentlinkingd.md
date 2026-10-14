@@ -1,6 +1,6 @@
 ## contentlinkingd
 
-> `System/Library/PrivateFrameworks/Synapse.framework/Support/contentlinkingd`
+> `/System/Library/PrivateFrameworks/Synapse.framework/Support/contentlinkingd`
 
 ### Sections with Same Size but Changed Content
 

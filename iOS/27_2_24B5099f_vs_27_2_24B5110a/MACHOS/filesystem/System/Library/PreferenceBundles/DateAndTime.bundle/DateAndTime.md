@@ -1,6 +1,6 @@
 ## DateAndTime
 
-> `System/Library/PreferenceBundles/DateAndTime.bundle/DateAndTime`
+> `/System/Library/PreferenceBundles/DateAndTime.bundle/DateAndTime`
 
 ### Sections with Same Size but Changed Content
 

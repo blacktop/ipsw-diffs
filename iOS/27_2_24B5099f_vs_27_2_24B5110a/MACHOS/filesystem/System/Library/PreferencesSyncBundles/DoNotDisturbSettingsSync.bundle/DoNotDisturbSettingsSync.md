@@ -1,6 +1,6 @@
 ## DoNotDisturbSettingsSync
 
-> `System/Library/PreferencesSyncBundles/DoNotDisturbSettingsSync.bundle/DoNotDisturbSettingsSync`
+> `/System/Library/PreferencesSyncBundles/DoNotDisturbSettingsSync.bundle/DoNotDisturbSettingsSync`
 
 ### Sections with Same Size but Changed Content
 

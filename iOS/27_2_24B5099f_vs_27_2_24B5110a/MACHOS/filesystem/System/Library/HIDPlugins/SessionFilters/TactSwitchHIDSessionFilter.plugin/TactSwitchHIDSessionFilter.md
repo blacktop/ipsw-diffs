@@ -1,6 +1,6 @@
 ## TactSwitchHIDSessionFilter
 
-> `System/Library/HIDPlugins/SessionFilters/TactSwitchHIDSessionFilter.plugin/TactSwitchHIDSessionFilter`
+> `/System/Library/HIDPlugins/SessionFilters/TactSwitchHIDSessionFilter.plugin/TactSwitchHIDSessionFilter`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## MessagesRemoteAlerts
 
-> `Applications/MessagesRemoteAlerts.app/MessagesRemoteAlerts`
+> `/Applications/MessagesRemoteAlerts.app/MessagesRemoteAlerts`
 
 ### Sections with Same Size but Changed Content
 

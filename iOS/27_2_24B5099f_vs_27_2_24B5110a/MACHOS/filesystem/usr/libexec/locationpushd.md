@@ -1,6 +1,6 @@
 ## locationpushd
 
-> `usr/libexec/locationpushd`
+> `/usr/libexec/locationpushd`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## DisplayAndBrightnessSettingsExtension
 
-> `filesystem/System/Library/ExtensionKit/Extensions/DisplayAndBrightnessSettingsExtension.appex/Localizable.loctable`
+> `FileSystem/System/Library/ExtensionKit/Extensions/DisplayAndBrightnessSettingsExtension.appex/Localizable.loctable`
 
 ```diff
 

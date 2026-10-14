@@ -1,6 +1,6 @@
 ## BTLEServer
 
-> `usr/sbin/BTLEServer`
+> `/usr/sbin/BTLEServer`
 
 ### Sections with Same Size but Changed Content
 

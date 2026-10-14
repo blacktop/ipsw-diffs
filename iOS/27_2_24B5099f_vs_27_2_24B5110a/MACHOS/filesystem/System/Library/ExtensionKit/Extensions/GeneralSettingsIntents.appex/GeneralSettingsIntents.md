@@ -1,6 +1,6 @@
 ## GeneralSettingsIntents
 
-> `System/Library/ExtensionKit/Extensions/GeneralSettingsIntents.appex/GeneralSettingsIntents`
+> `/System/Library/ExtensionKit/Extensions/GeneralSettingsIntents.appex/GeneralSettingsIntents`
 
 ### Sections with Same Size but Changed Content
 

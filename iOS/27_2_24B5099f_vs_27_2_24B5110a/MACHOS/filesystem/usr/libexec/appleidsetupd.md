@@ -1,6 +1,6 @@
 ## appleidsetupd
 
-> `usr/libexec/appleidsetupd`
+> `/usr/libexec/appleidsetupd`
 
 ### Sections with Same Size but Changed Content
 

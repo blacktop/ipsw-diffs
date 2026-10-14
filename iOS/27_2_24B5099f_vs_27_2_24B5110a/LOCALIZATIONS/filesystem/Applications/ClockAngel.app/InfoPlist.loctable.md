@@ -1,6 +1,6 @@
 ## ClockAngel
 
-> `filesystem/Applications/ClockAngel.app/InfoPlist.loctable`
+> `FileSystem/Applications/ClockAngel.app/InfoPlist.loctable`
 
 ```diff
 

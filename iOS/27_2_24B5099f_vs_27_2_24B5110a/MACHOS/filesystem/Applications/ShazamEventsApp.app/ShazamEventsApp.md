@@ -1,6 +1,6 @@
 ## ShazamEventsApp
 
-> `Applications/ShazamEventsApp.app/ShazamEventsApp`
+> `/Applications/ShazamEventsApp.app/ShazamEventsApp`
 
 ### Sections with Same Size but Changed Content
 

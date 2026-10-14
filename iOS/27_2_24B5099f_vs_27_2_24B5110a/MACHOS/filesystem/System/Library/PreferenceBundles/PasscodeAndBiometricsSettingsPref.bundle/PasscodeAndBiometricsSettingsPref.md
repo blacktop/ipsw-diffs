@@ -1,6 +1,6 @@
 ## PasscodeAndBiometricsSettingsPref
 
-> `System/Library/PreferenceBundles/PasscodeAndBiometricsSettingsPref.bundle/PasscodeAndBiometricsSettingsPref`
+> `/System/Library/PreferenceBundles/PasscodeAndBiometricsSettingsPref.bundle/PasscodeAndBiometricsSettingsPref`
 
 ### Sections with Same Size but Changed Content
 

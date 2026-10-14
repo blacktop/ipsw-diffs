@@ -1,6 +1,6 @@
 ## AskToCore
 
-> `filesystem/System/Library/PrivateFrameworks/AskToCore.framework/Localizable.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/AskToCore.framework/Localizable.loctable`
 
 ```diff
 

@@ -1,6 +1,6 @@
 ## MADViewServiceExtension
 
-> `System/Library/ExtensionKit/Extensions/MADViewServiceExtension.appex/MADViewServiceExtension`
+> `/System/Library/ExtensionKit/Extensions/MADViewServiceExtension.appex/MADViewServiceExtension`
 
 ### Sections with Same Size but Changed Content
 

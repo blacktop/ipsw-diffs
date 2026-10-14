@@ -1,6 +1,6 @@
 ## ShortcutsSettings
 
-> `System/Library/PreferenceBundles/ShortcutsSettings.bundle/ShortcutsSettings`
+> `/System/Library/PreferenceBundles/ShortcutsSettings.bundle/ShortcutsSettings`
 
 ### Sections with Same Size but Changed Content
 

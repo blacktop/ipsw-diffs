@@ -1,6 +1,6 @@
 ## com.apple.onboarding.trustinsights
 
-> `filesystem/System/Library/OnBoardingBundles/com.apple.onboarding.trustinsights.bundle/TrustInsights.loctable`
+> `FileSystem/System/Library/OnBoardingBundles/com.apple.onboarding.trustinsights.bundle/TrustInsights.loctable`
 
 ```diff
 

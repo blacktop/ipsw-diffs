@@ -1,6 +1,6 @@
 ## dasd
 
-> `usr/libexec/dasd`
+> `/usr/libexec/dasd`
 
 ### Sections with Same Size but Changed Content
 

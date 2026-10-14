@@ -1,6 +1,6 @@
 ## CarKitSettings
 
-> `System/Library/PreferenceBundles/CarKitSettings.bundle/CarKitSettings`
+> `/System/Library/PreferenceBundles/CarKitSettings.bundle/CarKitSettings`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## nesessionmanager
 
-> `usr/libexec/nesessionmanager`
+> `/usr/libexec/nesessionmanager`
 
 ### Sections with Same Size but Changed Content
 

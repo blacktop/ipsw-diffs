@@ -1,6 +1,6 @@
 ## StoreKitUISceneService
 
-> `Applications/StoreKitUISceneService.app/StoreKitUISceneService`
+> `/Applications/StoreKitUISceneService.app/StoreKitUISceneService`
 
 ### Sections with Same Size but Changed Content
 

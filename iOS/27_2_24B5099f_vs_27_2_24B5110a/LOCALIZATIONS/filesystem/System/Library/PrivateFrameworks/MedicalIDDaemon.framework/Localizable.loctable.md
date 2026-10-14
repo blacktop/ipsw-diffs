@@ -1,6 +1,6 @@
 ## MedicalIDDaemon
 
-> `filesystem/System/Library/PrivateFrameworks/MedicalIDDaemon.framework/Localizable.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/MedicalIDDaemon.framework/Localizable.loctable`
 
 ```diff
 

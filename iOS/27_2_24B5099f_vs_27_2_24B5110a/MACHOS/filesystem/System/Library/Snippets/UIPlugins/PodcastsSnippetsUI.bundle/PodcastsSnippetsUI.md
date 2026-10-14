@@ -1,6 +1,6 @@
 ## PodcastsSnippetsUI
 
-> `System/Library/Snippets/UIPlugins/PodcastsSnippetsUI.bundle/PodcastsSnippetsUI`
+> `/System/Library/Snippets/UIPlugins/PodcastsSnippetsUI.bundle/PodcastsSnippetsUI`
 
 ### Sections with Same Size but Changed Content
 

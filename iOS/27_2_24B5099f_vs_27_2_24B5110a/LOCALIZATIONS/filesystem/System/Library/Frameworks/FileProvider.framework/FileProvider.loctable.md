@@ -1,6 +1,6 @@
 ## FileProvider
 
-> `filesystem/System/Library/Frameworks/FileProvider.framework/FileProvider.loctable`
+> `FileSystem/System/Library/Frameworks/FileProvider.framework/FileProvider.loctable`
 
 ```diff
 

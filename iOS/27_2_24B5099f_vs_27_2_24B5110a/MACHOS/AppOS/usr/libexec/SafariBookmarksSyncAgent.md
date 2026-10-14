@@ -1,6 +1,6 @@
 ## SafariBookmarksSyncAgent
 
-> `usr/libexec/SafariBookmarksSyncAgent`
+> `/usr/libexec/SafariBookmarksSyncAgent`
 
 ### Sections with Same Size but Changed Content
 

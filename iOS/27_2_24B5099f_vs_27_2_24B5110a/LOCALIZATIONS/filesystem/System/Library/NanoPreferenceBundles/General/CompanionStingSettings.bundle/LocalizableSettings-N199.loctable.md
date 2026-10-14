@@ -1,6 +1,6 @@
 ## CompanionStingSettings
 
-> `filesystem/System/Library/NanoPreferenceBundles/General/CompanionStingSettings.bundle/LocalizableSettings-N199.loctable`
+> `FileSystem/System/Library/NanoPreferenceBundles/General/CompanionStingSettings.bundle/LocalizableSettings-N199.loctable`
 
 ```diff
 

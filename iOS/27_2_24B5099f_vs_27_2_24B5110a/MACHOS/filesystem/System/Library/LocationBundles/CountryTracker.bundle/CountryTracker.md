@@ -1,6 +1,6 @@
 ## CountryTracker
 
-> `System/Library/LocationBundles/CountryTracker.bundle/CountryTracker`
+> `/System/Library/LocationBundles/CountryTracker.bundle/CountryTracker`
 
 ### Sections with Same Size but Changed Content
 

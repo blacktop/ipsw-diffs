@@ -1,6 +1,6 @@
 ## StoreDemoPlugin
 
-> `System/Library/SpringBoardPlugins/StoreDemoPlugin.servicebundle/StoreDemoPlugin`
+> `/System/Library/SpringBoardPlugins/StoreDemoPlugin.servicebundle/StoreDemoPlugin`
 
 ### Sections with Same Size but Changed Content
 

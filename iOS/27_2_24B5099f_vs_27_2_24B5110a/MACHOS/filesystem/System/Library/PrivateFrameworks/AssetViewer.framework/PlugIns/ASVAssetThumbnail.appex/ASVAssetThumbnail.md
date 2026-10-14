@@ -1,6 +1,6 @@
 ## ASVAssetThumbnail
 
-> `System/Library/PrivateFrameworks/AssetViewer.framework/PlugIns/ASVAssetThumbnail.appex/ASVAssetThumbnail`
+> `/System/Library/PrivateFrameworks/AssetViewer.framework/PlugIns/ASVAssetThumbnail.appex/ASVAssetThumbnail`
 
 ### Sections with Same Size but Changed Content
 

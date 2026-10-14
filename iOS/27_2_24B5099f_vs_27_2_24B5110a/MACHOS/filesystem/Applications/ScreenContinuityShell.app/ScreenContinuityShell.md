@@ -1,6 +1,6 @@
 ## ScreenContinuityShell
 
-> `Applications/ScreenContinuityShell.app/ScreenContinuityShell`
+> `/Applications/ScreenContinuityShell.app/ScreenContinuityShell`
 
 ### Sections with Same Size but Changed Content
 

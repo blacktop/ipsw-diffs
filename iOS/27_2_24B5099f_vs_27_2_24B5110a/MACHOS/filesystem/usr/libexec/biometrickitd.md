@@ -1,6 +1,6 @@
 ## biometrickitd
 
-> `usr/libexec/biometrickitd`
+> `/usr/libexec/biometrickitd`
 
 ### Sections with Same Size but Changed Content
 

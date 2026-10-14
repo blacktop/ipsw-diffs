@@ -1,6 +1,6 @@
 ## securityuploadd
 
-> `usr/libexec/securityuploadd`
+> `/usr/libexec/securityuploadd`
 
 ### Sections with Same Size but Changed Content
 

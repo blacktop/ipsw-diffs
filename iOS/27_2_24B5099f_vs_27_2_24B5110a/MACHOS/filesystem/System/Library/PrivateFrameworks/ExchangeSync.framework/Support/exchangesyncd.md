@@ -1,6 +1,6 @@
 ## exchangesyncd
 
-> `System/Library/PrivateFrameworks/ExchangeSync.framework/Support/exchangesyncd`
+> `/System/Library/PrivateFrameworks/ExchangeSync.framework/Support/exchangesyncd`
 
 ### Sections with Same Size but Changed Content
 

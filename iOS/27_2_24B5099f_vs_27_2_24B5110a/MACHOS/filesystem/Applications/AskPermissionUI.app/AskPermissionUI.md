@@ -1,6 +1,6 @@
 ## AskPermissionUI
 
-> `Applications/AskPermissionUI.app/AskPermissionUI`
+> `/Applications/AskPermissionUI.app/AskPermissionUI`
 
 ### Sections with Same Size but Changed Content
 

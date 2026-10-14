@@ -1,6 +1,6 @@
 ## audioaccessoryd
 
-> `usr/libexec/audioaccessoryd`
+> `/usr/libexec/audioaccessoryd`
 
 ### Sections with Same Size but Changed Content
 

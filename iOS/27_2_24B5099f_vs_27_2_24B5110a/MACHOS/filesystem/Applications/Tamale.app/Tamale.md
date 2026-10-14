@@ -1,6 +1,6 @@
 ## Tamale
 
-> `Applications/Tamale.app/Tamale`
+> `/Applications/Tamale.app/Tamale`
 
 ### Sections with Same Size but Changed Content
 

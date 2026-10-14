@@ -1,6 +1,6 @@
 ## UsageTrackingAgent
 
-> `System/Library/PrivateFrameworks/UsageTracking.framework/UsageTrackingAgent`
+> `/System/Library/PrivateFrameworks/UsageTracking.framework/UsageTrackingAgent`
 
 ### Sections with Same Size but Changed Content
 

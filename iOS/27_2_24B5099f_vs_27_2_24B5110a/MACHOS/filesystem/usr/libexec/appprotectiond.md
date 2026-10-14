@@ -1,6 +1,6 @@
 ## appprotectiond
 
-> `usr/libexec/appprotectiond`
+> `/usr/libexec/appprotectiond`
 
 ### Sections with Same Size but Changed Content
 

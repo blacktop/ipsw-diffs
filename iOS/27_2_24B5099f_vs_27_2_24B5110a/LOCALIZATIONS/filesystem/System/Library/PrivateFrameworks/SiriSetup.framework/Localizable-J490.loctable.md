@@ -1,6 +1,6 @@
 ## SiriSetup
 
-> `filesystem/System/Library/PrivateFrameworks/SiriSetup.framework/Localizable-J490.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/SiriSetup.framework/Localizable-J490.loctable`
 
 ```text
 en.AX_VOICE_TRAINING_REPEAT_INSTRUCTION = "Repeat: "

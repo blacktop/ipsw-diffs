@@ -1,6 +1,6 @@
 ## icloudmailagent
 
-> `usr/libexec/icloudmailagent`
+> `/usr/libexec/icloudmailagent`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## InferenceExtension
 
-> `System/Library/ExtensionKit/Extensions/InferenceExtension.appex/InferenceExtension`
+> `/System/Library/ExtensionKit/Extensions/InferenceExtension.appex/InferenceExtension`
 
 ```diff
 Symbols:

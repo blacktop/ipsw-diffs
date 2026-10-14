@@ -1,6 +1,6 @@
 ## LocationHarvest
 
-> `System/Library/LocationBundles/LocationHarvest.bundle/LocationHarvest`
+> `/System/Library/LocationBundles/LocationHarvest.bundle/LocationHarvest`
 
 ### Sections with Same Size but Changed Content
 

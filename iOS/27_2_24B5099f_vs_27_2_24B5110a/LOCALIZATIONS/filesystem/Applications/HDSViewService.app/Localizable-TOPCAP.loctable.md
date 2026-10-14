@@ -1,6 +1,6 @@
 ## HDSViewService
 
-> `filesystem/Applications/HDSViewService.app/Localizable-TOPCAP.loctable`
+> `FileSystem/Applications/HDSViewService.app/Localizable-TOPCAP.loctable`
 
 ```text
 en.LIGHT_SHOW_OPT_IN_PRIMARY = "Enable Sound Glow"

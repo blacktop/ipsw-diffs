@@ -1,6 +1,6 @@
 ## AdAttributionKitDeveloperSettings
 
-> `System/Library/PreferenceBundles/AdAttributionKitDeveloperSettings.bundle/AdAttributionKitDeveloperSettings`
+> `/System/Library/PreferenceBundles/AdAttributionKitDeveloperSettings.bundle/AdAttributionKitDeveloperSettings`
 
 ### Sections with Same Size but Changed Content
 

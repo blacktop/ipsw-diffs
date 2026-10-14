@@ -1,6 +1,6 @@
 ## ZoomWindow
 
-> `System/Library/AccessibilityBundles/ZoomWindow.axuiservice/ZoomWindow`
+> `/System/Library/AccessibilityBundles/ZoomWindow.axuiservice/ZoomWindow`
 
 ### Sections with Same Size but Changed Content
 

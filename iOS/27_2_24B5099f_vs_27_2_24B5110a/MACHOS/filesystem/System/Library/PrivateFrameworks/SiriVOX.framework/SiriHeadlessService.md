@@ -1,6 +1,6 @@
 ## SiriHeadlessService
 
-> `System/Library/PrivateFrameworks/SiriVOX.framework/SiriHeadlessService`
+> `/System/Library/PrivateFrameworks/SiriVOX.framework/SiriHeadlessService`
 
 ### Sections with Same Size but Changed Content
 

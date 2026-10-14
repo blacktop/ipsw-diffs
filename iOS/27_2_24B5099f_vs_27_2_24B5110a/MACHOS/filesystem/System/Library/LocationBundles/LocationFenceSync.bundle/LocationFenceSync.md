@@ -1,6 +1,6 @@
 ## LocationFenceSync
 
-> `System/Library/LocationBundles/LocationFenceSync.bundle/LocationFenceSync`
+> `/System/Library/LocationBundles/LocationFenceSync.bundle/LocationFenceSync`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## peopled
 
-> `System/Library/PrivateFrameworks/People.framework/peopled`
+> `/System/Library/PrivateFrameworks/People.framework/peopled`
 
 ### Sections with Same Size but Changed Content
 

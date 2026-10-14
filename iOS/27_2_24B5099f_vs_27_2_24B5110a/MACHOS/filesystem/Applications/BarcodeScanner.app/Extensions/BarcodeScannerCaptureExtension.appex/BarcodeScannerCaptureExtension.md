@@ -1,6 +1,6 @@
 ## BarcodeScannerCaptureExtension
 
-> `Applications/BarcodeScanner.app/Extensions/BarcodeScannerCaptureExtension.appex/BarcodeScannerCaptureExtension`
+> `/Applications/BarcodeScanner.app/Extensions/BarcodeScannerCaptureExtension.appex/BarcodeScannerCaptureExtension`
 
 ### Sections with Same Size but Changed Content
 

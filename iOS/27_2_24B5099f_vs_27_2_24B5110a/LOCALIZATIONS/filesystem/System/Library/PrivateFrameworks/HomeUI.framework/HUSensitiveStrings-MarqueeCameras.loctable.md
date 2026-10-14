@@ -1,6 +1,6 @@
 ## HomeUI
 
-> `filesystem/System/Library/PrivateFrameworks/HomeUI.framework/HUSensitiveStrings-MarqueeCameras.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/HomeUI.framework/HUSensitiveStrings-MarqueeCameras.loctable`
 
 ```text
 en.HUAccessoryDetails_MotionActivatedLightDuration_Off = "Off"

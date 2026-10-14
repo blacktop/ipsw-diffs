@@ -1,6 +1,6 @@
 ## ReplayKitAngel
 
-> `Applications/ReplayKitAngel.app/ReplayKitAngel`
+> `/Applications/ReplayKitAngel.app/ReplayKitAngel`
 
 ### Sections with Same Size but Changed Content
 

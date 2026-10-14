@@ -1,6 +1,6 @@
 ## PodcastsSettingsAppIntentsExtension
 
-> `filesystem/System/Library/ExtensionKit/Extensions/PodcastsSettingsAppIntentsExtension.appex/Localizable.loctable`
+> `FileSystem/System/Library/ExtensionKit/Extensions/PodcastsSettingsAppIntentsExtension.appex/Localizable.loctable`
 
 ```diff
 

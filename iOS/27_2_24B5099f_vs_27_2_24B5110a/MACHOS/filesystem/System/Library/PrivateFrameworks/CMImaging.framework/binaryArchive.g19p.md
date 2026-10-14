@@ -1,6 +1,6 @@
 ## binaryArchive.g19p
 
-> `System/Library/PrivateFrameworks/CMImaging.framework/binaryArchive.g19p`
+> `/System/Library/PrivateFrameworks/CMImaging.framework/binaryArchive.g19p`
 
 ### Sections with Same Size but Changed Content
 

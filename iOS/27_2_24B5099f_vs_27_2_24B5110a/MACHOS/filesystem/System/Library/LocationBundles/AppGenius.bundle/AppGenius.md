@@ -1,6 +1,6 @@
 ## AppGenius
 
-> `System/Library/LocationBundles/AppGenius.bundle/AppGenius`
+> `/System/Library/LocationBundles/AppGenius.bundle/AppGenius`
 
 ### Sections with Same Size but Changed Content
 

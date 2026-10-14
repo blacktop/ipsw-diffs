@@ -1,6 +1,6 @@
 ## Traffic
 
-> `System/Library/LocationBundles/Traffic.bundle/Traffic`
+> `/System/Library/LocationBundles/Traffic.bundle/Traffic`
 
 ### Sections with Same Size but Changed Content
 

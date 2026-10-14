@@ -1,6 +1,6 @@
 ## CallAssistantSettingsBundle
 
-> `System/Library/PreferenceBundles/CallAssistantSettingsBundle.bundle/CallAssistantSettingsBundle`
+> `/System/Library/PreferenceBundles/CallAssistantSettingsBundle.bundle/CallAssistantSettingsBundle`
 
 ```diff
 

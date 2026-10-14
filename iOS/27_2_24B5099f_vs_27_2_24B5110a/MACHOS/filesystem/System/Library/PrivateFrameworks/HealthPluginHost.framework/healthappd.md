@@ -1,6 +1,6 @@
 ## healthappd
 
-> `System/Library/PrivateFrameworks/HealthPluginHost.framework/healthappd`
+> `/System/Library/PrivateFrameworks/HealthPluginHost.framework/healthappd`
 
 ### Sections with Same Size but Changed Content
 

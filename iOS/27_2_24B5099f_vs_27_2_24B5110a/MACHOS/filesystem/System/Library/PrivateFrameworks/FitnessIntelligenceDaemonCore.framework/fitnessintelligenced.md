@@ -1,6 +1,6 @@
 ## fitnessintelligenced
 
-> `System/Library/PrivateFrameworks/FitnessIntelligenceDaemonCore.framework/fitnessintelligenced`
+> `/System/Library/PrivateFrameworks/FitnessIntelligenceDaemonCore.framework/fitnessintelligenced`
 
 ### Sections with Same Size but Changed Content
 

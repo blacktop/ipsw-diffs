@@ -1,6 +1,6 @@
 ## com.apple.donotdisturb.private.intents.user-interactive.preload
 
-> `System/Library/DoNotDisturb/ClientBundles/com.apple.donotdisturb.private.intents.user-interactive.preload.bundle/com.apple.donotdisturb.private.intents.user-interactive.preload`
+> `/System/Library/DoNotDisturb/ClientBundles/com.apple.donotdisturb.private.intents.user-interactive.preload.bundle/com.apple.donotdisturb.private.intents.user-interactive.preload`
 
 ### Sections with Same Size but Changed Content
 

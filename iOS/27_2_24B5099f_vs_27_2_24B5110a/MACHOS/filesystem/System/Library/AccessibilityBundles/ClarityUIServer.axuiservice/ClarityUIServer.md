@@ -1,6 +1,6 @@
 ## ClarityUIServer
 
-> `System/Library/AccessibilityBundles/ClarityUIServer.axuiservice/ClarityUIServer`
+> `/System/Library/AccessibilityBundles/ClarityUIServer.axuiservice/ClarityUIServer`
 
 ### Sections with Same Size but Changed Content
 

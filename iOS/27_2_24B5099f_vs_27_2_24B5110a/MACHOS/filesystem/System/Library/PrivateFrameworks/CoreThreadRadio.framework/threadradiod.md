@@ -1,6 +1,6 @@
 ## threadradiod
 
-> `System/Library/PrivateFrameworks/CoreThreadRadio.framework/threadradiod`
+> `/System/Library/PrivateFrameworks/CoreThreadRadio.framework/threadradiod`
 
 ### Sections with Same Size but Changed Content
 

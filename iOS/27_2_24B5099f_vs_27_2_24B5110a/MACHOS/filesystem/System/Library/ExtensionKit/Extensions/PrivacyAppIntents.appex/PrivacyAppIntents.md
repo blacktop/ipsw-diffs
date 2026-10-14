@@ -1,6 +1,6 @@
 ## PrivacyAppIntents
 
-> `System/Library/ExtensionKit/Extensions/PrivacyAppIntents.appex/PrivacyAppIntents`
+> `/System/Library/ExtensionKit/Extensions/PrivacyAppIntents.appex/PrivacyAppIntents`
 
 ### Sections with Same Size but Changed Content
 

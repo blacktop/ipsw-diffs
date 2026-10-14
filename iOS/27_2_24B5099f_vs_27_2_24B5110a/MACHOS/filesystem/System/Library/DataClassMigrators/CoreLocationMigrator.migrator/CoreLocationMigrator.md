@@ -1,6 +1,6 @@
 ## CoreLocationMigrator
 
-> `System/Library/DataClassMigrators/CoreLocationMigrator.migrator/CoreLocationMigrator`
+> `/System/Library/DataClassMigrators/CoreLocationMigrator.migrator/CoreLocationMigrator`
 
 ### Sections with Same Size but Changed Content
 

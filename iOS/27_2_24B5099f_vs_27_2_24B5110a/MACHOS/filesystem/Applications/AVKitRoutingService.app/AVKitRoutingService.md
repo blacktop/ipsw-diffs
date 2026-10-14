@@ -1,6 +1,6 @@
 ## AVKitRoutingService
 
-> `Applications/AVKitRoutingService.app/AVKitRoutingService`
+> `/Applications/AVKitRoutingService.app/AVKitRoutingService`
 
 ### Sections with Same Size but Changed Content
 

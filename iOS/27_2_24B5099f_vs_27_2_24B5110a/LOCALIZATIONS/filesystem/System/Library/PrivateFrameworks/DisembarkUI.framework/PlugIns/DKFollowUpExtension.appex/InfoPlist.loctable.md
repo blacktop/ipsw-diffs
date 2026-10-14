@@ -1,6 +1,6 @@
 ## DKFollowUpExtension
 
-> `filesystem/System/Library/PrivateFrameworks/DisembarkUI.framework/PlugIns/DKFollowUpExtension.appex/InfoPlist.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/DisembarkUI.framework/PlugIns/DKFollowUpExtension.appex/InfoPlist.loctable`
 
 ```text
 en.CFBundleDisplayName = "DKFollowUpExtension"

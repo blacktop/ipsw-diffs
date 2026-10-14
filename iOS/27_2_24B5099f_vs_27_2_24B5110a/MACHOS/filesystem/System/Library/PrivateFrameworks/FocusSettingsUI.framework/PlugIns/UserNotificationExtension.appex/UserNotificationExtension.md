@@ -1,6 +1,6 @@
 ## UserNotificationExtension
 
-> `System/Library/PrivateFrameworks/FocusSettingsUI.framework/PlugIns/UserNotificationExtension.appex/UserNotificationExtension`
+> `/System/Library/PrivateFrameworks/FocusSettingsUI.framework/PlugIns/UserNotificationExtension.appex/UserNotificationExtension`
 
 ### Sections with Same Size but Changed Content
 

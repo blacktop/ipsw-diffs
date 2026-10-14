@@ -1,6 +1,6 @@
 ## nearbyd
 
-> `usr/libexec/nearbyd`
+> `/usr/libexec/nearbyd`
 
 ### Sections with Same Size but Changed Content
 

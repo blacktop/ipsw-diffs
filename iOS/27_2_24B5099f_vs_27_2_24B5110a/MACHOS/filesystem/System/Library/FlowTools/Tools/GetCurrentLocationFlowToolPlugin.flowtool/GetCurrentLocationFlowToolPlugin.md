@@ -1,6 +1,6 @@
 ## GetCurrentLocationFlowToolPlugin
 
-> `System/Library/FlowTools/Tools/GetCurrentLocationFlowToolPlugin.flowtool/GetCurrentLocationFlowToolPlugin`
+> `/System/Library/FlowTools/Tools/GetCurrentLocationFlowToolPlugin.flowtool/GetCurrentLocationFlowToolPlugin`
 
 ### Sections with Same Size but Changed Content
 

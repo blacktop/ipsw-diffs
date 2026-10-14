@@ -1,6 +1,6 @@
 ## AppUserDataMigrator
 
-> `System/Library/DataClassMigrators/AppUserDataMigrator.migrator/AppUserDataMigrator`
+> `/System/Library/DataClassMigrators/AppUserDataMigrator.migrator/AppUserDataMigrator`
 
 ### Sections with Same Size but Changed Content
 

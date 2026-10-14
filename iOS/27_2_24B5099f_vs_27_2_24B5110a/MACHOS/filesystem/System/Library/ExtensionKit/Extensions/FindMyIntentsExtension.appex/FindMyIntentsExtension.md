@@ -1,6 +1,6 @@
 ## FindMyIntentsExtension
 
-> `System/Library/ExtensionKit/Extensions/FindMyIntentsExtension.appex/FindMyIntentsExtension`
+> `/System/Library/ExtensionKit/Extensions/FindMyIntentsExtension.appex/FindMyIntentsExtension`
 
 ### Sections with Same Size but Changed Content
 

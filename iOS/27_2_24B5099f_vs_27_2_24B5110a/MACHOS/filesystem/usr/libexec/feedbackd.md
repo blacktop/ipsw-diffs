@@ -1,6 +1,6 @@
 ## feedbackd
 
-> `usr/libexec/feedbackd`
+> `/usr/libexec/feedbackd`
 
 ### Sections with Same Size but Changed Content
 

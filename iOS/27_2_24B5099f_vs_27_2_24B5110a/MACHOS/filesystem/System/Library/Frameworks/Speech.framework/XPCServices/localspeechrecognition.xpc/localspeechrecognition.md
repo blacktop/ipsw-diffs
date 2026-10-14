@@ -1,6 +1,6 @@
 ## localspeechrecognition
 
-> `System/Library/Frameworks/Speech.framework/XPCServices/localspeechrecognition.xpc/localspeechrecognition`
+> `/System/Library/Frameworks/Speech.framework/XPCServices/localspeechrecognition.xpc/localspeechrecognition`
 
 ### Sections with Same Size but Changed Content
 

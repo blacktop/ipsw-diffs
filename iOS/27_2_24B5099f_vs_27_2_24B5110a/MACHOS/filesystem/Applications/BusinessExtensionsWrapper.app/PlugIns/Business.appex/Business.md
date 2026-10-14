@@ -1,6 +1,6 @@
 ## Business
 
-> `Applications/BusinessExtensionsWrapper.app/PlugIns/Business.appex/Business`
+> `/Applications/BusinessExtensionsWrapper.app/PlugIns/Business.appex/Business`
 
 ### Sections with Same Size but Changed Content
 

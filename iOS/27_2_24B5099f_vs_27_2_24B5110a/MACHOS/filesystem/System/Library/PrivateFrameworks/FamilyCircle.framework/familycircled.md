@@ -1,6 +1,6 @@
 ## familycircled
 
-> `System/Library/PrivateFrameworks/FamilyCircle.framework/familycircled`
+> `/System/Library/PrivateFrameworks/FamilyCircle.framework/familycircled`
 
 ### Sections with Same Size but Changed Content
 

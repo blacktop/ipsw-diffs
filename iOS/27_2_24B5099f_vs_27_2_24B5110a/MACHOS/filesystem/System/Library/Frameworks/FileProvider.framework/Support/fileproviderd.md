@@ -1,6 +1,6 @@
 ## fileproviderd
 
-> `System/Library/Frameworks/FileProvider.framework/Support/fileproviderd`
+> `/System/Library/Frameworks/FileProvider.framework/Support/fileproviderd`
 
 ### Sections with Same Size but Changed Content
 

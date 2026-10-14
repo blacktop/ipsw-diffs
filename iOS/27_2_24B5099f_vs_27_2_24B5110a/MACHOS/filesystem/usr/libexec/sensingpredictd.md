@@ -1,6 +1,6 @@
 ## sensingpredictd
 
-> `usr/libexec/sensingpredictd`
+> `/usr/libexec/sensingpredictd`
 
 ### Sections with Same Size but Changed Content
 

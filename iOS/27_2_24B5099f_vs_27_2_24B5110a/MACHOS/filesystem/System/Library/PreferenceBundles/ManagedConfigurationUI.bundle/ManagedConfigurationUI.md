@@ -1,6 +1,6 @@
 ## ManagedConfigurationUI
 
-> `System/Library/PreferenceBundles/ManagedConfigurationUI.bundle/ManagedConfigurationUI`
+> `/System/Library/PreferenceBundles/ManagedConfigurationUI.bundle/ManagedConfigurationUI`
 
 ### Sections with Same Size but Changed Content
 

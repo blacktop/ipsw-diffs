@@ -1,6 +1,6 @@
 ## sharingd
 
-> `usr/libexec/sharingd`
+> `/usr/libexec/sharingd`
 
 ### Sections with Same Size but Changed Content
 

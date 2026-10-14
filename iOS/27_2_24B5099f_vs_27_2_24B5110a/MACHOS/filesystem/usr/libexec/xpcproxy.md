@@ -1,6 +1,6 @@
 ## xpcproxy
 
-> `usr/libexec/xpcproxy`
+> `/usr/libexec/xpcproxy`
 
 ### Sections with Same Size but Changed Content
 

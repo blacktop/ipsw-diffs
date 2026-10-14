@@ -1,6 +1,6 @@
 ## PasscodeAndBiometricsSettingsAppIntentsExtension
 
-> `System/Library/ExtensionKit/Extensions/PasscodeAndBiometricsSettingsAppIntentsExtension.appex/PasscodeAndBiometricsSettingsAppIntentsExtension`
+> `/System/Library/ExtensionKit/Extensions/PasscodeAndBiometricsSettingsAppIntentsExtension.appex/PasscodeAndBiometricsSettingsAppIntentsExtension`
 
 ### Sections with Same Size but Changed Content
 

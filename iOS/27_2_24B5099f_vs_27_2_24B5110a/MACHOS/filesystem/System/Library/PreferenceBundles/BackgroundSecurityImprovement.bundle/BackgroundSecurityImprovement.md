@@ -1,6 +1,6 @@
 ## BackgroundSecurityImprovement
 
-> `System/Library/PreferenceBundles/BackgroundSecurityImprovement.bundle/BackgroundSecurityImprovement`
+> `/System/Library/PreferenceBundles/BackgroundSecurityImprovement.bundle/BackgroundSecurityImprovement`
 
 ### Sections with Same Size but Changed Content
 

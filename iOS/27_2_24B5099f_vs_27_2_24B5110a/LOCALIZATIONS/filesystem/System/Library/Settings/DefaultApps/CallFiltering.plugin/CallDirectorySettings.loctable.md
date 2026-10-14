@@ -1,6 +1,6 @@
 ## CallFiltering
 
-> `filesystem/System/Library/Settings/DefaultApps/CallFiltering.plugin/CallDirectorySettings.loctable`
+> `FileSystem/System/Library/Settings/DefaultApps/CallFiltering.plugin/CallDirectorySettings.loctable`
 
 ```diff
 

@@ -1,6 +1,6 @@
 ## nanoprefsyncd
 
-> `System/Library/PrivateFrameworks/NanoPreferencesSync.framework/nanoprefsyncd`
+> `/System/Library/PrivateFrameworks/NanoPreferencesSync.framework/nanoprefsyncd`
 
 ```diff
 

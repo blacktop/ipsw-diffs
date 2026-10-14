@@ -1,6 +1,6 @@
 ## MechPearl
 
-> `System/Library/Frameworks/LocalAuthentication.framework/Support/MechanismPlugins/MechPearl.bundle/MechPearl`
+> `/System/Library/Frameworks/LocalAuthentication.framework/Support/MechanismPlugins/MechPearl.bundle/MechPearl`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## iCloud
 
-> `Applications/iCloud.app/iCloud`
+> `/Applications/iCloud.app/iCloud`
 
 ### Sections with Same Size but Changed Content
 

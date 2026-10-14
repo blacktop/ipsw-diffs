@@ -1,6 +1,6 @@
 ## FindMyFlowPlugin
 
-> `System/Library/Assistant/FlowDelegatePlugins/FindMyFlowPlugin.bundle/FindMyFlowPlugin`
+> `/System/Library/Assistant/FlowDelegatePlugins/FindMyFlowPlugin.bundle/FindMyFlowPlugin`
 
 ### Sections with Same Size but Changed Content
 

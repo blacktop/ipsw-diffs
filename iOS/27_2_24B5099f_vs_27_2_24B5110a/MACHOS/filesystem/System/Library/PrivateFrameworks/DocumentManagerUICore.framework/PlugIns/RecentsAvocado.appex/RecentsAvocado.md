@@ -1,6 +1,6 @@
 ## RecentsAvocado
 
-> `System/Library/PrivateFrameworks/DocumentManagerUICore.framework/PlugIns/RecentsAvocado.appex/RecentsAvocado`
+> `/System/Library/PrivateFrameworks/DocumentManagerUICore.framework/PlugIns/RecentsAvocado.appex/RecentsAvocado`
 
 ### Sections with Same Size but Changed Content
 

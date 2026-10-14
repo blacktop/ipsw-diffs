@@ -1,6 +1,6 @@
 ## SiriInferenceFlowsUIPlugin
 
-> `System/Library/Snippets/UIPlugins/SiriInferenceFlowsUIPlugin.bundle/SiriInferenceFlowsUIPlugin`
+> `/System/Library/Snippets/UIPlugins/SiriInferenceFlowsUIPlugin.bundle/SiriInferenceFlowsUIPlugin`
 
 ### Sections with Same Size but Changed Content
 

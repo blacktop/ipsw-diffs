@@ -1,6 +1,6 @@
 ## MusicRecognition
 
-> `Applications/MusicRecognition.app/MusicRecognition`
+> `/Applications/MusicRecognition.app/MusicRecognition`
 
 ### Sections with Same Size but Changed Content
 

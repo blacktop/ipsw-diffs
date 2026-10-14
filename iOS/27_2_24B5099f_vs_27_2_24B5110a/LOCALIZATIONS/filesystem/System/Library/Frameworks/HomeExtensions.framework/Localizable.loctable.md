@@ -1,6 +1,6 @@
 ## HomeExtensions
 
-> `filesystem/System/Library/Frameworks/HomeExtensions.framework/Localizable.loctable`
+> `FileSystem/System/Library/Frameworks/HomeExtensions.framework/Localizable.loctable`
 
 ```text
 en. = ""

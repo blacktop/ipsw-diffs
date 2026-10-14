@@ -1,6 +1,6 @@
 ## DefaultCallingAppsSettings
 
-> `System/Library/Settings/DefaultApps/DefaultCallingAppsSettings.plugin/DefaultCallingAppsSettings`
+> `/System/Library/Settings/DefaultApps/DefaultCallingAppsSettings.plugin/DefaultCallingAppsSettings`
 
 ### Sections with Same Size but Changed Content
 

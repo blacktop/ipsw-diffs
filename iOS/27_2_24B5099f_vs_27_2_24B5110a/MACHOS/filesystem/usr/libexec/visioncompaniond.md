@@ -1,6 +1,6 @@
 ## visioncompaniond
 
-> `usr/libexec/visioncompaniond`
+> `/usr/libexec/visioncompaniond`
 
 ### Sections with Same Size but Changed Content
 

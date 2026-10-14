@@ -1,6 +1,6 @@
 ## NanoCalendarBridgeSettings
 
-> `System/Library/NanoPreferenceBundles/Applications/NanoCalendarBridgeSettings.bundle/NanoCalendarBridgeSettings`
+> `/System/Library/NanoPreferenceBundles/Applications/NanoCalendarBridgeSettings.bundle/NanoCalendarBridgeSettings`
 
 ### Sections with Same Size but Changed Content
 

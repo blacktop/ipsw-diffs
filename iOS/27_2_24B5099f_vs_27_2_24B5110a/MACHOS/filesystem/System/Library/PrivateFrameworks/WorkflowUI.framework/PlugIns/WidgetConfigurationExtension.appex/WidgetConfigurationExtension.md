@@ -1,6 +1,6 @@
 ## WidgetConfigurationExtension
 
-> `System/Library/PrivateFrameworks/WorkflowUI.framework/PlugIns/WidgetConfigurationExtension.appex/WidgetConfigurationExtension`
+> `/System/Library/PrivateFrameworks/WorkflowUI.framework/PlugIns/WidgetConfigurationExtension.appex/WidgetConfigurationExtension`
 
 ### Sections with Same Size but Changed Content
 

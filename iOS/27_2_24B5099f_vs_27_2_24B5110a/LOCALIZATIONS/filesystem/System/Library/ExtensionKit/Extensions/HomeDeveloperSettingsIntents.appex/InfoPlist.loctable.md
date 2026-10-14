@@ -1,6 +1,6 @@
 ## HomeDeveloperSettingsIntents
 
-> `filesystem/System/Library/ExtensionKit/Extensions/HomeDeveloperSettingsIntents.appex/InfoPlist.loctable`
+> `FileSystem/System/Library/ExtensionKit/Extensions/HomeDeveloperSettingsIntents.appex/InfoPlist.loctable`
 
 ```text
 en.CFBundleDisplayName = "Home Extensions Settings"

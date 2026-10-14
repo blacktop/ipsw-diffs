@@ -1,6 +1,6 @@
 ## VideoSubscriberAccountSettings
 
-> `System/Library/PreferenceBundles/VideoSubscriberAccountSettings.bundle/VideoSubscriberAccountSettings`
+> `/System/Library/PreferenceBundles/VideoSubscriberAccountSettings.bundle/VideoSubscriberAccountSettings`
 
 ### Sections with Same Size but Changed Content
 

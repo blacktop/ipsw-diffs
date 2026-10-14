@@ -1,6 +1,6 @@
 ## HomeKitDaemonLegacy
 
-> `filesystem/System/Library/PrivateFrameworks/HomeKitDaemonLegacy.framework/HomeKitDaemon.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/HomeKitDaemonLegacy.framework/HomeKitDaemon.loctable`
 
 ```diff
 

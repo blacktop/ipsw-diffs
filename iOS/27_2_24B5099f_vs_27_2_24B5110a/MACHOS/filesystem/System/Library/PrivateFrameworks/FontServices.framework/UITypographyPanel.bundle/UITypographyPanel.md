@@ -1,6 +1,6 @@
 ## UITypographyPanel
 
-> `System/Library/PrivateFrameworks/FontServices.framework/UITypographyPanel.bundle/UITypographyPanel`
+> `/System/Library/PrivateFrameworks/FontServices.framework/UITypographyPanel.bundle/UITypographyPanel`
 
 ### Sections with Same Size but Changed Content
 

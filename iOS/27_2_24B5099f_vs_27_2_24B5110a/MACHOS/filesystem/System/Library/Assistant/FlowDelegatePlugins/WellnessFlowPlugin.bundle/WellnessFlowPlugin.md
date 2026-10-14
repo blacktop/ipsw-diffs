@@ -1,6 +1,6 @@
 ## WellnessFlowPlugin
 
-> `System/Library/Assistant/FlowDelegatePlugins/WellnessFlowPlugin.bundle/WellnessFlowPlugin`
+> `/System/Library/Assistant/FlowDelegatePlugins/WellnessFlowPlugin.bundle/WellnessFlowPlugin`
 
 ### Sections with Same Size but Changed Content
 

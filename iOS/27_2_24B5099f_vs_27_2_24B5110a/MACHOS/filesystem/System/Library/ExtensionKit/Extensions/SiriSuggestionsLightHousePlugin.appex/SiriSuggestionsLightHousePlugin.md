@@ -1,6 +1,6 @@
 ## SiriSuggestionsLightHousePlugin
 
-> `System/Library/ExtensionKit/Extensions/SiriSuggestionsLightHousePlugin.appex/SiriSuggestionsLightHousePlugin`
+> `/System/Library/ExtensionKit/Extensions/SiriSuggestionsLightHousePlugin.appex/SiriSuggestionsLightHousePlugin`
 
 ### Sections with Same Size but Changed Content
 

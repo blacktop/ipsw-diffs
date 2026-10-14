@@ -1,6 +1,6 @@
 ## AXGuestPassServer
 
-> `System/Library/AccessibilityBundles/AXGuestPassServer.axuiservice/AXGuestPassServer`
+> `/System/Library/AccessibilityBundles/AXGuestPassServer.axuiservice/AXGuestPassServer`
 
 ### Sections with Same Size but Changed Content
 

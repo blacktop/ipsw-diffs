@@ -1,6 +1,6 @@
 ## CollectionsPoster
 
-> `System/Library/ExtensionKit/Extensions/CollectionsPoster.appex/CollectionsPoster`
+> `/System/Library/ExtensionKit/Extensions/CollectionsPoster.appex/CollectionsPoster`
 
 ### Sections with Same Size but Changed Content
 

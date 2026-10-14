@@ -1,6 +1,6 @@
 ## FindingUI
 
-> `Applications/FindingUI.app/FindingUI`
+> `/Applications/FindingUI.app/FindingUI`
 
 ### Sections with Same Size but Changed Content
 

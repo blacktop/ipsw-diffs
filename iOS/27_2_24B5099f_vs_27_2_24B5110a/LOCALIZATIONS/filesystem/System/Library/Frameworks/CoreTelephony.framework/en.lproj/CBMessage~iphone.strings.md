@@ -1,6 +1,6 @@
 ## CoreTelephony
 
-> `filesystem/System/Library/Frameworks/CoreTelephony.framework/en.lproj/CBMessage~iphone.strings`
+> `FileSystem/System/Library/Frameworks/CoreTelephony.framework/en.lproj/CBMessage~iphone.strings`
 
 ```diff
 

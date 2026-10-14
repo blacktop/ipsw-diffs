@@ -1,6 +1,6 @@
 ## MusicEngagementExtension
 
-> `System/Library/ExtensionKit/Extensions/MusicEngagementExtension.appex/MusicEngagementExtension`
+> `/System/Library/ExtensionKit/Extensions/MusicEngagementExtension.appex/MusicEngagementExtension`
 
 ### Sections with Same Size but Changed Content
 

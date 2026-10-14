@@ -1,6 +1,6 @@
 ## audiomxd
 
-> `usr/libexec/audiomxd`
+> `/usr/libexec/audiomxd`
 
 ### Sections with Same Size but Changed Content
 

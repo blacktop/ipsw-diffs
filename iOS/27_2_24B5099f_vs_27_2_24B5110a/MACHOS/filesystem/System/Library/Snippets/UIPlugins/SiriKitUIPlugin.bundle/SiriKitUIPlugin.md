@@ -1,6 +1,6 @@
 ## SiriKitUIPlugin
 
-> `System/Library/Snippets/UIPlugins/SiriKitUIPlugin.bundle/SiriKitUIPlugin`
+> `/System/Library/Snippets/UIPlugins/SiriKitUIPlugin.bundle/SiriKitUIPlugin`
 
 ### Sections with Same Size but Changed Content
 

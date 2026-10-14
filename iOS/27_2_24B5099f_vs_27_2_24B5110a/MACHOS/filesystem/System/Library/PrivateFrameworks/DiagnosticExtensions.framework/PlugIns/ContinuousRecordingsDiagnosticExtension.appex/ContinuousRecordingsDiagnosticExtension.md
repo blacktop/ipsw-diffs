@@ -1,6 +1,6 @@
 ## ContinuousRecordingsDiagnosticExtension
 
-> `System/Library/PrivateFrameworks/DiagnosticExtensions.framework/PlugIns/ContinuousRecordingsDiagnosticExtension.appex/ContinuousRecordingsDiagnosticExtension`
+> `/System/Library/PrivateFrameworks/DiagnosticExtensions.framework/PlugIns/ContinuousRecordingsDiagnosticExtension.appex/ContinuousRecordingsDiagnosticExtension`
 
 ### Sections with Same Size but Changed Content
 

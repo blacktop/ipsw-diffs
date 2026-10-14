@@ -1,6 +1,6 @@
 ## AXHapticMusicServer
 
-> `System/Library/AccessibilityBundles/AXHapticMusicServer.axuiservice/AXHapticMusicServer`
+> `/System/Library/AccessibilityBundles/AXHapticMusicServer.axuiservice/AXHapticMusicServer`
 
 ### Sections with Same Size but Changed Content
 

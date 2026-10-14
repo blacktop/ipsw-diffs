@@ -1,6 +1,6 @@
 ## powerexperienced
 
-> `usr/libexec/powerexperienced`
+> `/usr/libexec/powerexperienced`
 
 ### Sections with Same Size but Changed Content
 

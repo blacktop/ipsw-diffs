@@ -1,6 +1,6 @@
 ## MobileCoreTypes
 
-> `filesystem/System/Library/CoreServices/MobileCoreTypes.bundle/InfoPlist.loctable`
+> `FileSystem/System/Library/CoreServices/MobileCoreTypes.bundle/InfoPlist.loctable`
 
 ```diff
 

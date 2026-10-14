@@ -1,6 +1,6 @@
 ## ValidUpdater
 
-> `usr/libexec/ValidUpdater`
+> `/usr/libexec/ValidUpdater`
 
 ### Sections with Same Size but Changed Content
 

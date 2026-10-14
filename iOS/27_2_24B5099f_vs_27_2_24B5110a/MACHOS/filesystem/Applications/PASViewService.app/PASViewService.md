@@ -1,6 +1,6 @@
 ## PASViewService
 
-> `Applications/PASViewService.app/PASViewService`
+> `/Applications/PASViewService.app/PASViewService`
 
 ### Sections with Same Size but Changed Content
 

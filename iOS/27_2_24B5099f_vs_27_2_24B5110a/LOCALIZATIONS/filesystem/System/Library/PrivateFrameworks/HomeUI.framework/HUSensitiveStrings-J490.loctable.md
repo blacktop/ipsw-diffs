@@ -1,6 +1,6 @@
 ## HomeUI
 
-> `filesystem/System/Library/PrivateFrameworks/HomeUI.framework/HUSensitiveStrings-J490.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/HomeUI.framework/HUSensitiveStrings-J490.loctable`
 
 ```text
 en.HUAccessoryLocationToggleTitle_J490 = "HomePod and %@"

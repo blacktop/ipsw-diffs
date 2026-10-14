@@ -1,6 +1,6 @@
 ## DisplayAndBrightnessPreferencesManifests
 
-> `System/Library/PreferenceManifestsInternal/DisplayAndBrightnessPreferencesManifests.bundle/DisplayAndBrightnessPreferencesManifests`
+> `/System/Library/PreferenceManifestsInternal/DisplayAndBrightnessPreferencesManifests.bundle/DisplayAndBrightnessPreferencesManifests`
 
 ### Sections with Same Size but Changed Content
 

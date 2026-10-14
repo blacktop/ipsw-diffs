@@ -1,6 +1,6 @@
 ## perfpowermetricd
 
-> `usr/bin/perfpowermetricd`
+> `/usr/bin/perfpowermetricd`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## AppIntentSchemas
 
-> `filesystem/System/Library/PrivateFrameworks/AppIntentSchemas.framework/Localizable.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/AppIntentSchemas.framework/Localizable.loctable`
 
 ```diff
 

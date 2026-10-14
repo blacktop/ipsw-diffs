@@ -1,6 +1,6 @@
 ## DockFolderViewService
 
-> `Applications/DockFolderViewService.app/DockFolderViewService`
+> `/Applications/DockFolderViewService.app/DockFolderViewService`
 
 ### Sections with Same Size but Changed Content
 

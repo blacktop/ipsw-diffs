@@ -1,6 +1,6 @@
 ## Reconstruction_Gpu_Archive.metallib
 
-> `System/Library/PrivateFrameworks/Recon3D.framework/Reconstruction_Gpu_Archive.metallib`
+> `/System/Library/PrivateFrameworks/Recon3D.framework/Reconstruction_Gpu_Archive.metallib`
 
 ### Sections with Same Size but Changed Content
 

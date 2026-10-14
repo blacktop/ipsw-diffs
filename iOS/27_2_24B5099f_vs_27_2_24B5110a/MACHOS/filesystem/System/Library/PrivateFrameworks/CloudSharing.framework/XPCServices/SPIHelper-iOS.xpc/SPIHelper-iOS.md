@@ -1,6 +1,6 @@
 ## SPIHelper-iOS
 
-> `System/Library/PrivateFrameworks/CloudSharing.framework/XPCServices/SPIHelper-iOS.xpc/SPIHelper-iOS`
+> `/System/Library/PrivateFrameworks/CloudSharing.framework/XPCServices/SPIHelper-iOS.xpc/SPIHelper-iOS`
 
 ### Sections with Same Size but Changed Content
 

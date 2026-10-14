@@ -1,6 +1,6 @@
 ## MTLAssetUpgraderD
 
-> `usr/libexec/MTLAssetUpgraderD`
+> `/usr/libexec/MTLAssetUpgraderD`
 
 ### Sections with Same Size but Changed Content
 

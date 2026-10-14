@@ -1,6 +1,6 @@
 ## SearchToolUIPlugin
 
-> `System/Library/Snippets/UIPlugins/SearchToolUIPlugin.bundle/SearchToolUIPlugin`
+> `/System/Library/Snippets/UIPlugins/SearchToolUIPlugin.bundle/SearchToolUIPlugin`
 
 ### Sections with Same Size but Changed Content
 

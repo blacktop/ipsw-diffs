@@ -1,6 +1,6 @@
 ## IntelligenceIntentsExtension
 
-> `System/Library/ExtensionKit/Extensions/IntelligenceIntentsExtension.appex/IntelligenceIntentsExtension`
+> `/System/Library/ExtensionKit/Extensions/IntelligenceIntentsExtension.appex/IntelligenceIntentsExtension`
 
 ### Sections with Same Size but Changed Content
 

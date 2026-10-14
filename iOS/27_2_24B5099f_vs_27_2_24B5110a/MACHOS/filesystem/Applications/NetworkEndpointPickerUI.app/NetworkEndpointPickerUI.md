@@ -1,6 +1,6 @@
 ## NetworkEndpointPickerUI
 
-> `Applications/NetworkEndpointPickerUI.app/NetworkEndpointPickerUI`
+> `/Applications/NetworkEndpointPickerUI.app/NetworkEndpointPickerUI`
 
 ### Sections with Same Size but Changed Content
 

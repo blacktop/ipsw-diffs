@@ -1,6 +1,6 @@
 ## MediaRemoteUI
 
-> `Applications/MediaRemoteUI.app/MediaRemoteUI`
+> `/Applications/MediaRemoteUI.app/MediaRemoteUI`
 
 ### Sections with Same Size but Changed Content
 

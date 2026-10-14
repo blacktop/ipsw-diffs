@@ -1,6 +1,6 @@
 ## AppleIDAMDriver
 
-> `System/Library/Audio/MIDI Drivers/AppleIDAMDriver.plugin/AppleIDAMDriver`
+> `/System/Library/Audio/MIDI Drivers/AppleIDAMDriver.plugin/AppleIDAMDriver`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## securityd
 
-> `usr/libexec/securityd`
+> `/usr/libexec/securityd`
 
 ### Sections with Same Size but Changed Content
 

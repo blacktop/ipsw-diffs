@@ -1,6 +1,6 @@
 ## coreauthd
 
-> `System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd`
+> `/System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd`
 
 ### Sections with Same Size but Changed Content
 

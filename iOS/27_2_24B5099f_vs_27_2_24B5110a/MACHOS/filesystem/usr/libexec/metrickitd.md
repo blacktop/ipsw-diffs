@@ -1,6 +1,6 @@
 ## metrickitd
 
-> `usr/libexec/metrickitd`
+> `/usr/libexec/metrickitd`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## accessoryd
 
-> `System/Library/PrivateFrameworks/CoreAccessories.framework/Support/accessoryd`
+> `/System/Library/PrivateFrameworks/CoreAccessories.framework/Support/accessoryd`
 
 ### Sections with Same Size but Changed Content
 

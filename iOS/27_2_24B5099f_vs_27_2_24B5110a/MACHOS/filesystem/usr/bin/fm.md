@@ -1,6 +1,6 @@
 ## fm
 
-> `usr/bin/fm`
+> `/usr/bin/fm`
 
 ### Sections with Same Size but Changed Content
 

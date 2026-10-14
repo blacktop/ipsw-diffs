@@ -1,6 +1,6 @@
 ## TactSwitchHIDServiceFilter
 
-> `System/Library/HIDPlugins/ServiceFilters/TactSwitchHIDServiceFilter.plugin/TactSwitchHIDServiceFilter`
+> `/System/Library/HIDPlugins/ServiceFilters/TactSwitchHIDServiceFilter.plugin/TactSwitchHIDServiceFilter`
 
 ### Sections with Same Size but Changed Content
 

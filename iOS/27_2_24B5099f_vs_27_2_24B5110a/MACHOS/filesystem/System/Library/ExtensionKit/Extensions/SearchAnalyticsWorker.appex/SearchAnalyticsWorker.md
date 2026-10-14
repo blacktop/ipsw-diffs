@@ -1,6 +1,6 @@
 ## SearchAnalyticsWorker
 
-> `System/Library/ExtensionKit/Extensions/SearchAnalyticsWorker.appex/SearchAnalyticsWorker`
+> `/System/Library/ExtensionKit/Extensions/SearchAnalyticsWorker.appex/SearchAnalyticsWorker`
 
 ### Sections with Same Size but Changed Content
 

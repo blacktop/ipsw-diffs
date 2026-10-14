@@ -1,6 +1,6 @@
 ## AppearanceSettings
 
-> `System/Library/PreferenceBundles/AppearanceSettings.bundle/AppearanceSettings`
+> `/System/Library/PreferenceBundles/AppearanceSettings.bundle/AppearanceSettings`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## Moments
 
-> `usr/libexec/Moments.framework/Moments`
+> `/usr/libexec/Moments.framework/Moments`
 
 ```diff
 Symbols:

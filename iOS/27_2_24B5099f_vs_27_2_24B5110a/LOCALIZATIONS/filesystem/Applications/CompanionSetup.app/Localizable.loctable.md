@@ -1,6 +1,6 @@
 ## CompanionSetup
 
-> `filesystem/Applications/CompanionSetup.app/Localizable.loctable`
+> `FileSystem/Applications/CompanionSetup.app/Localizable.loctable`
 
 ```diff
 

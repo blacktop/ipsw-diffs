@@ -1,6 +1,6 @@
 ## MomentsUIService
 
-> `Applications/MomentsUIService.app/MomentsUIService`
+> `/Applications/MomentsUIService.app/MomentsUIService`
 
 ### Sections with Same Size but Changed Content
 

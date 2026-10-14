@@ -1,6 +1,6 @@
 ## SOSSettings
 
-> `System/Library/PreferenceBundles/SOSSettings.bundle/SOSSettings`
+> `/System/Library/PreferenceBundles/SOSSettings.bundle/SOSSettings`
 
 ### Sections with Same Size but Changed Content
 

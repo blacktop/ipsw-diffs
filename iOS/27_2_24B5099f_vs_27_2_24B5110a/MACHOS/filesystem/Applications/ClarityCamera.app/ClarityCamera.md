@@ -1,6 +1,6 @@
 ## ClarityCamera
 
-> `Applications/ClarityCamera.app/ClarityCamera`
+> `/Applications/ClarityCamera.app/ClarityCamera`
 
 ### Sections with Same Size but Changed Content
 

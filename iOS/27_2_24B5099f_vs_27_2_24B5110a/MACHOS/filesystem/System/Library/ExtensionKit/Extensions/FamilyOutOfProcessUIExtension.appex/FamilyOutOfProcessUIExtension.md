@@ -1,6 +1,6 @@
 ## FamilyOutOfProcessUIExtension
 
-> `System/Library/ExtensionKit/Extensions/FamilyOutOfProcessUIExtension.appex/FamilyOutOfProcessUIExtension`
+> `/System/Library/ExtensionKit/Extensions/FamilyOutOfProcessUIExtension.appex/FamilyOutOfProcessUIExtension`
 
 ### Sections with Same Size but Changed Content
 

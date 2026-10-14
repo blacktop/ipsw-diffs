@@ -1,6 +1,6 @@
 ## sirireaderd
 
-> `usr/libexec/sirireaderd`
+> `/usr/libexec/sirireaderd`
 
 ```diff
 

@@ -1,6 +1,6 @@
 ## AppClipDeveloperSettings
 
-> `System/Library/PreferenceBundles/AppClipDeveloperSettings.bundle/AppClipDeveloperSettings`
+> `/System/Library/PreferenceBundles/AppClipDeveloperSettings.bundle/AppClipDeveloperSettings`
 
 ### Sections with Same Size but Changed Content
 

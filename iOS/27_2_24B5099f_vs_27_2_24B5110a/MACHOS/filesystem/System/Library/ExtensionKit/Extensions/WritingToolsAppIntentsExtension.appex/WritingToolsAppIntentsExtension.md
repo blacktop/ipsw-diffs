@@ -1,6 +1,6 @@
 ## WritingToolsAppIntentsExtension
 
-> `System/Library/ExtensionKit/Extensions/WritingToolsAppIntentsExtension.appex/WritingToolsAppIntentsExtension`
+> `/System/Library/ExtensionKit/Extensions/WritingToolsAppIntentsExtension.appex/WritingToolsAppIntentsExtension`
 
 ### Sections with Same Size but Changed Content
 

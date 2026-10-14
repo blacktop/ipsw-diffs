@@ -1,6 +1,6 @@
 ## SuggestedActionsRemoteUI
 
-> `System/Library/ExtensionKit/Extensions/SuggestedActionsRemoteUI.appex/SuggestedActionsRemoteUI`
+> `/System/Library/ExtensionKit/Extensions/SuggestedActionsRemoteUI.appex/SuggestedActionsRemoteUI`
 
 ### Sections with Same Size but Changed Content
 

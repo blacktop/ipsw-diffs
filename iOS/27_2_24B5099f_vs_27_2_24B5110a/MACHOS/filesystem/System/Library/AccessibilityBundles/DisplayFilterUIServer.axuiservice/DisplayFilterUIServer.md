@@ -1,6 +1,6 @@
 ## DisplayFilterUIServer
 
-> `System/Library/AccessibilityBundles/DisplayFilterUIServer.axuiservice/DisplayFilterUIServer`
+> `/System/Library/AccessibilityBundles/DisplayFilterUIServer.axuiservice/DisplayFilterUIServer`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## AccessibilityUIServer
 
-> `System/Library/CoreServices/AccessibilityUIServer.app/AccessibilityUIServer`
+> `/System/Library/CoreServices/AccessibilityUIServer.app/AccessibilityUIServer`
 
 ### Sections with Same Size but Changed Content
 

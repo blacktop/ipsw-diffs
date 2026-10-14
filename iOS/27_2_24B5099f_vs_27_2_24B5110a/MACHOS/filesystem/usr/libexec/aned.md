@@ -1,6 +1,6 @@
 ## aned
 
-> `usr/libexec/aned`
+> `/usr/libexec/aned`
 
 ### Sections with Same Size but Changed Content
 

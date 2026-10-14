@@ -1,6 +1,6 @@
 ## InCallActivitiesExtension
 
-> `Applications/InCallService.app/PlugIns/InCallActivitiesExtension.appex/InCallActivitiesExtension`
+> `/Applications/InCallService.app/PlugIns/InCallActivitiesExtension.appex/InCallActivitiesExtension`
 
 ### Sections with Same Size but Changed Content
 

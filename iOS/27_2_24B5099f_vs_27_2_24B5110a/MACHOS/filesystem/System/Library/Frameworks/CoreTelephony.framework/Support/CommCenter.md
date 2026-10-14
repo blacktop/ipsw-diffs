@@ -1,6 +1,6 @@
 ## CommCenter
 
-> `System/Library/Frameworks/CoreTelephony.framework/Support/CommCenter`
+> `/System/Library/Frameworks/CoreTelephony.framework/Support/CommCenter`
 
 ### Sections with Same Size but Changed Content
 

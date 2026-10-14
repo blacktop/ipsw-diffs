@@ -1,6 +1,6 @@
 ## adprivacyd
 
-> `usr/libexec/adprivacyd`
+> `/usr/libexec/adprivacyd`
 
 ### Sections with Same Size but Changed Content
 

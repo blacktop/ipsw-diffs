@@ -1,6 +1,6 @@
 ## LimitedAccessPromptView
 
-> `Applications/LimitedAccessPromptView.app/LimitedAccessPromptView`
+> `/Applications/LimitedAccessPromptView.app/LimitedAccessPromptView`
 
 ### Sections with Same Size but Changed Content
 

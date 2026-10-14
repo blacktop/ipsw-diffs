@@ -1,6 +1,6 @@
 ## TermsAndConditionsViewService
 
-> `Applications/TermsAndConditionsViewService.app/TermsAndConditionsViewService`
+> `/Applications/TermsAndConditionsViewService.app/TermsAndConditionsViewService`
 
 ### Sections with Same Size but Changed Content
 

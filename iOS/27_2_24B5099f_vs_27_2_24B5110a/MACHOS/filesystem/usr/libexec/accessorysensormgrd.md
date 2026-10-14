@@ -1,6 +1,6 @@
 ## accessorysensormgrd
 
-> `usr/libexec/accessorysensormgrd`
+> `/usr/libexec/accessorysensormgrd`
 
 ### Sections with Same Size but Changed Content
 

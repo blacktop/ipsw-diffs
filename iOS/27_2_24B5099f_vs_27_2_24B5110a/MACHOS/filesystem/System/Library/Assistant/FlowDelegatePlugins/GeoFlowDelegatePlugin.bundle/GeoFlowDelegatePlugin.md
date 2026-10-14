@@ -1,6 +1,6 @@
 ## GeoFlowDelegatePlugin
 
-> `System/Library/Assistant/FlowDelegatePlugins/GeoFlowDelegatePlugin.bundle/GeoFlowDelegatePlugin`
+> `/System/Library/Assistant/FlowDelegatePlugins/GeoFlowDelegatePlugin.bundle/GeoFlowDelegatePlugin`
 
 ### Sections with Same Size but Changed Content
 

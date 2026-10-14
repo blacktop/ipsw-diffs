@@ -1,6 +1,6 @@
 ## MusicSettings
 
-> `System/Library/PreferenceBundles/MusicSettings.bundle/MusicSettings`
+> `/System/Library/PreferenceBundles/MusicSettings.bundle/MusicSettings`
 
 ### Sections with Same Size but Changed Content
 

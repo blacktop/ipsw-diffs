@@ -1,6 +1,6 @@
 ## RecentsAvocadoIntentHandler
 
-> `System/Library/PrivateFrameworks/DocumentManagerUICore.framework/PlugIns/RecentsAvocadoIntentHandler.appex/RecentsAvocadoIntentHandler`
+> `/System/Library/PrivateFrameworks/DocumentManagerUICore.framework/PlugIns/RecentsAvocadoIntentHandler.appex/RecentsAvocadoIntentHandler`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## locationaccessstored
 
-> `usr/libexec/locationaccessstored`
+> `/usr/libexec/locationaccessstored`
 
 ### Sections with Same Size but Changed Content
 

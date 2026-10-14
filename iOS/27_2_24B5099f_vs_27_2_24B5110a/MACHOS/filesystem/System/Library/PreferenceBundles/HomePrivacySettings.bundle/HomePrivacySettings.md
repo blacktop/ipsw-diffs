@@ -1,6 +1,6 @@
 ## HomePrivacySettings
 
-> `System/Library/PreferenceBundles/HomePrivacySettings.bundle/HomePrivacySettings`
+> `/System/Library/PreferenceBundles/HomePrivacySettings.bundle/HomePrivacySettings`
 
 ### Sections with Same Size but Changed Content
 

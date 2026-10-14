@@ -1,6 +1,6 @@
 ## com.apple.MLKit.MLPackagePreview
 
-> `System/Library/PrivateFrameworks/MLKit.framework/PlugIns/com.apple.MLKit.MLPackagePreview.appex/com.apple.MLKit.MLPackagePreview`
+> `/System/Library/PrivateFrameworks/MLKit.framework/PlugIns/com.apple.MLKit.MLPackagePreview.appex/com.apple.MLKit.MLPackagePreview`
 
 ### Sections with Same Size but Changed Content
 

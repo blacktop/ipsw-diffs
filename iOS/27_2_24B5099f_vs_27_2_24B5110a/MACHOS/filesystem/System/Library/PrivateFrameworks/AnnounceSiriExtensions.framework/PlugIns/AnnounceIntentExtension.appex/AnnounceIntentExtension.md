@@ -1,6 +1,6 @@
 ## AnnounceIntentExtension
 
-> `System/Library/PrivateFrameworks/AnnounceSiriExtensions.framework/PlugIns/AnnounceIntentExtension.appex/AnnounceIntentExtension`
+> `/System/Library/PrivateFrameworks/AnnounceSiriExtensions.framework/PlugIns/AnnounceIntentExtension.appex/AnnounceIntentExtension`
 
 ### Sections with Same Size but Changed Content
 

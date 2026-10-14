@@ -1,6 +1,6 @@
 ## fitnesscoachingd
 
-> `System/Library/PrivateFrameworks/FitnessCoachingServices.framework/fitnesscoachingd`
+> `/System/Library/PrivateFrameworks/FitnessCoachingServices.framework/fitnesscoachingd`
 
 ### Sections with Same Size but Changed Content
 

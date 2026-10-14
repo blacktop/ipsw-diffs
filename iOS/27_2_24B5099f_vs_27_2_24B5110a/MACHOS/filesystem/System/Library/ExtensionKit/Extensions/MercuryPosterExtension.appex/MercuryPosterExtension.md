@@ -1,6 +1,6 @@
 ## MercuryPosterExtension
 
-> `System/Library/ExtensionKit/Extensions/MercuryPosterExtension.appex/MercuryPosterExtension`
+> `/System/Library/ExtensionKit/Extensions/MercuryPosterExtension.appex/MercuryPosterExtension`
 
 ### Sections with Same Size but Changed Content
 

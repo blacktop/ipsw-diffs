@@ -1,6 +1,6 @@
 ## FitnessSettings
 
-> `System/Library/PreferenceBundles/FitnessSettings.bundle/FitnessSettings`
+> `/System/Library/PreferenceBundles/FitnessSettings.bundle/FitnessSettings`
 
 ### Sections with Same Size but Changed Content
 

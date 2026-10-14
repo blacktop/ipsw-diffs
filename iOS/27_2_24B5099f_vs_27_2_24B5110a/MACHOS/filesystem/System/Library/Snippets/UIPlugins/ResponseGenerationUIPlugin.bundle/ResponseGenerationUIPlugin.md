@@ -1,6 +1,6 @@
 ## ResponseGenerationUIPlugin
 
-> `System/Library/Snippets/UIPlugins/ResponseGenerationUIPlugin.bundle/ResponseGenerationUIPlugin`
+> `/System/Library/Snippets/UIPlugins/ResponseGenerationUIPlugin.bundle/ResponseGenerationUIPlugin`
 
 ### Sections with Same Size but Changed Content
 

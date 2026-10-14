@@ -1,6 +1,6 @@
 ## MediaRemoteAppIntentsExtension
 
-> `filesystem/System/Library/ExtensionKit/Extensions/MediaRemoteAppIntentsExtension.appex/Localizable.loctable`
+> `FileSystem/System/Library/ExtensionKit/Extensions/MediaRemoteAppIntentsExtension.appex/Localizable.loctable`
 
 ```text
 en.All = "All"

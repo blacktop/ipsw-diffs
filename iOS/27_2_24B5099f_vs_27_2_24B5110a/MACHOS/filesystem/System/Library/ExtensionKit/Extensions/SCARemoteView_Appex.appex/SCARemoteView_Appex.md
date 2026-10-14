@@ -1,6 +1,6 @@
 ## SCARemoteView Appex
 
-> `System/Library/ExtensionKit/Extensions/SCARemoteView Appex.appex/SCARemoteView Appex`
+> `/System/Library/ExtensionKit/Extensions/SCARemoteView Appex.appex/SCARemoteView Appex`
 
 ### Sections with Same Size but Changed Content
 

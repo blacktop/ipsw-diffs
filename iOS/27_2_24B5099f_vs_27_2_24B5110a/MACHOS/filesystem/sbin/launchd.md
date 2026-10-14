@@ -1,6 +1,6 @@
 ## launchd
 
-> `sbin/launchd`
+> `/sbin/launchd`
 
 ### Sections with Same Size but Changed Content
 

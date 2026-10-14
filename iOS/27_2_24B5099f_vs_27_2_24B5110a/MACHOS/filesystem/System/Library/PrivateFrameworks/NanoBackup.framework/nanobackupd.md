@@ -1,6 +1,6 @@
 ## nanobackupd
 
-> `System/Library/PrivateFrameworks/NanoBackup.framework/nanobackupd`
+> `/System/Library/PrivateFrameworks/NanoBackup.framework/nanobackupd`
 
 ### Sections with Same Size but Changed Content
 

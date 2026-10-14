@@ -1,6 +1,6 @@
 ## VoiceOver
 
-> `System/Library/AccessibilityBundles/VoiceOver.axuiservice/VoiceOver`
+> `/System/Library/AccessibilityBundles/VoiceOver.axuiservice/VoiceOver`
 
 ### Sections with Same Size but Changed Content
 

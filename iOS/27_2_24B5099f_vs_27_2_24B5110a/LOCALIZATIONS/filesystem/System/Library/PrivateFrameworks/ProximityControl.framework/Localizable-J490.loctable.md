@@ -1,6 +1,6 @@
 ## ProximityControl
 
-> `filesystem/System/Library/PrivateFrameworks/ProximityControl.framework/Localizable-J490.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/ProximityControl.framework/Localizable-J490.loctable`
 
 ```text
 en.ERROR_ACCESS_DENIED = "Access Denied"

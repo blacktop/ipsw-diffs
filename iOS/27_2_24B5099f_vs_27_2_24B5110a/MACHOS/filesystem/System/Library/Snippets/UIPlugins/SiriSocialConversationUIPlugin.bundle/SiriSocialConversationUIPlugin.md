@@ -1,6 +1,6 @@
 ## SiriSocialConversationUIPlugin
 
-> `System/Library/Snippets/UIPlugins/SiriSocialConversationUIPlugin.bundle/SiriSocialConversationUIPlugin`
+> `/System/Library/Snippets/UIPlugins/SiriSocialConversationUIPlugin.bundle/SiriSocialConversationUIPlugin`
 
 ### Sections with Same Size but Changed Content
 

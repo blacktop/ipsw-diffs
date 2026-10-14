@@ -1,6 +1,6 @@
 ## MobileSafari
 
-> `System/Library/DataClassMigrators/MobileSafari.migrator/MobileSafari`
+> `/System/Library/DataClassMigrators/MobileSafari.migrator/MobileSafari`
 
 ### Sections with Same Size but Changed Content
 

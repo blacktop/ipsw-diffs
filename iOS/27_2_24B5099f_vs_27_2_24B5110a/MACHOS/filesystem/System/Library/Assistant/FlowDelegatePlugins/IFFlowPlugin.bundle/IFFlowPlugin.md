@@ -1,6 +1,6 @@
 ## IFFlowPlugin
 
-> `System/Library/Assistant/FlowDelegatePlugins/IFFlowPlugin.bundle/IFFlowPlugin`
+> `/System/Library/Assistant/FlowDelegatePlugins/IFFlowPlugin.bundle/IFFlowPlugin`
 
 ### Sections with Same Size but Changed Content
 

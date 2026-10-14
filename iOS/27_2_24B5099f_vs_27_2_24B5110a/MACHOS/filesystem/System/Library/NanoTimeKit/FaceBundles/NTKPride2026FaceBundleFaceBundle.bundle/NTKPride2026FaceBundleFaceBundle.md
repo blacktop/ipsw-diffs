@@ -1,6 +1,6 @@
 ## NTKPride2026FaceBundleFaceBundle
 
-> `System/Library/NanoTimeKit/FaceBundles/NTKPride2026FaceBundleFaceBundle.bundle/NTKPride2026FaceBundleFaceBundle`
+> `/System/Library/NanoTimeKit/FaceBundles/NTKPride2026FaceBundleFaceBundle.bundle/NTKPride2026FaceBundleFaceBundle`
 
 ### Sections with Same Size but Changed Content
 

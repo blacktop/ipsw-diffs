@@ -1,6 +1,6 @@
 ## MultitouchSessionFilter
 
-> `System/Library/HIDPlugins/SessionFilters/MultitouchSessionFilter.plugin/MultitouchSessionFilter`
+> `/System/Library/HIDPlugins/SessionFilters/MultitouchSessionFilter.plugin/MultitouchSessionFilter`
 
 ### Sections with Same Size but Changed Content
 

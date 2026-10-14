@@ -1,6 +1,6 @@
 ## BoundingPathData
 
-> `System/Library/PrivateFrameworks/UIKitCore.framework/BoundingPathData.bundle/BoundingPathData`
+> `/System/Library/PrivateFrameworks/UIKitCore.framework/BoundingPathData.bundle/BoundingPathData`
 
 ### Sections with Same Size but Changed Content
 

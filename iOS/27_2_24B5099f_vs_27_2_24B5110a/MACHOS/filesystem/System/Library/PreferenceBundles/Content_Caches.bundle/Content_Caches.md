@@ -1,6 +1,6 @@
 ## Content Caches
 
-> `System/Library/PreferenceBundles/Content Caches.bundle/Content Caches`
+> `/System/Library/PreferenceBundles/Content Caches.bundle/Content Caches`
 
 ### Sections with Same Size but Changed Content
 

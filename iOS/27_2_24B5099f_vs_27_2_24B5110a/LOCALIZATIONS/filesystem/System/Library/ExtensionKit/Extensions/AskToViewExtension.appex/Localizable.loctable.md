@@ -1,6 +1,6 @@
 ## AskToViewExtension
 
-> `filesystem/System/Library/ExtensionKit/Extensions/AskToViewExtension.appex/Localizable.loctable`
+> `FileSystem/System/Library/ExtensionKit/Extensions/AskToViewExtension.appex/Localizable.loctable`
 
 ```diff
 

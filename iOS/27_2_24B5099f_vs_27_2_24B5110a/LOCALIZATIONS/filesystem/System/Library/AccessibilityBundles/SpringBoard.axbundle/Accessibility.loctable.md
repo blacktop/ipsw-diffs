@@ -1,6 +1,6 @@
 ## SpringBoard
 
-> `filesystem/System/Library/AccessibilityBundles/SpringBoard.axbundle/Accessibility.loctable`
+> `FileSystem/System/Library/AccessibilityBundles/SpringBoard.axbundle/Accessibility.loctable`
 
 ```diff
 

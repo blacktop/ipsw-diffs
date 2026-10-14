@@ -1,6 +1,6 @@
 ## WallpaperSettings
 
-> `System/Library/PreferenceBundles/WallpaperSettings.bundle/WallpaperSettings`
+> `/System/Library/PreferenceBundles/WallpaperSettings.bundle/WallpaperSettings`
 
 ### Sections with Same Size but Changed Content
 

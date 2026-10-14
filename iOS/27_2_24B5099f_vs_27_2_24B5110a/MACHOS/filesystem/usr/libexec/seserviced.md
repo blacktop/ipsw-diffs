@@ -1,6 +1,6 @@
 ## seserviced
 
-> `usr/libexec/seserviced`
+> `/usr/libexec/seserviced`
 
 ### Sections with Same Size but Changed Content
 

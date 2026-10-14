@@ -1,6 +1,6 @@
 ## DeveloperSettings
 
-> `System/Library/PreferenceBundles/DeveloperSettings.bundle/DeveloperSettings`
+> `/System/Library/PreferenceBundles/DeveloperSettings.bundle/DeveloperSettings`
 
 ### Sections with Same Size but Changed Content
 

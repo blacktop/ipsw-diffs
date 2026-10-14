@@ -1,6 +1,6 @@
 ## com.apple.ScreenTimeSettingsDowntimeNotifications
 
-> `System/Library/UserNotifications/Bundles/com.apple.ScreenTimeSettingsDowntimeNotifications.bundle/com.apple.ScreenTimeSettingsDowntimeNotifications`
+> `/System/Library/UserNotifications/Bundles/com.apple.ScreenTimeSettingsDowntimeNotifications.bundle/com.apple.ScreenTimeSettingsDowntimeNotifications`
 
 ### Sections with Same Size but Changed Content
 

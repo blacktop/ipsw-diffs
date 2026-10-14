@@ -1,6 +1,6 @@
 ## com.apple.donotdisturb.private.sleeping-trigger
 
-> `System/Library/DoNotDisturb/ClientBundles/com.apple.donotdisturb.private.sleeping-trigger.bundle/com.apple.donotdisturb.private.sleeping-trigger`
+> `/System/Library/DoNotDisturb/ClientBundles/com.apple.donotdisturb.private.sleeping-trigger.bundle/com.apple.donotdisturb.private.sleeping-trigger`
 
 ### Sections with Same Size but Changed Content
 

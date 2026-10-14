@@ -1,6 +1,6 @@
 ## NotificationsSettings
 
-> `System/Library/PreferenceBundles/NotificationsSettings.bundle/NotificationsSettings`
+> `/System/Library/PreferenceBundles/NotificationsSettings.bundle/NotificationsSettings`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## homed
 
-> `System/Library/PrivateFrameworks/HomeKitDaemon.framework/Support/homed`
+> `/System/Library/PrivateFrameworks/HomeKitDaemon.framework/Support/homed`
 
 ### Sections with Same Size but Changed Content
 

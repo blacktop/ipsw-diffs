@@ -1,6 +1,6 @@
 ## MultitaskingAndGesturesSettings
 
-> `filesystem/System/Library/PreferenceBundles/MultitaskingAndGesturesSettings.bundle/Localizable.loctable`
+> `FileSystem/System/Library/PreferenceBundles/MultitaskingAndGesturesSettings.bundle/Localizable.loctable`
 
 ```diff
 

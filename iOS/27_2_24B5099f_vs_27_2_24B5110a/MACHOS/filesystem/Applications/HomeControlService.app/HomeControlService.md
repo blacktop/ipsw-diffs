@@ -1,6 +1,6 @@
 ## HomeControlService
 
-> `Applications/HomeControlService.app/HomeControlService`
+> `/Applications/HomeControlService.app/HomeControlService`
 
 ### Sections with Same Size but Changed Content
 

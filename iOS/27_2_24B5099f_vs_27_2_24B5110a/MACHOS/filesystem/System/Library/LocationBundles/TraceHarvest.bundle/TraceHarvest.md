@@ -1,6 +1,6 @@
 ## TraceHarvest
 
-> `System/Library/LocationBundles/TraceHarvest.bundle/TraceHarvest`
+> `/System/Library/LocationBundles/TraceHarvest.bundle/TraceHarvest`
 
 ### Sections with Same Size but Changed Content
 

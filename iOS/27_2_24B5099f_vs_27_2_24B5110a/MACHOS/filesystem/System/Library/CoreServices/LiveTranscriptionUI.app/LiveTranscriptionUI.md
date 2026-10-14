@@ -1,6 +1,6 @@
 ## LiveTranscriptionUI
 
-> `System/Library/CoreServices/LiveTranscriptionUI.app/LiveTranscriptionUI`
+> `/System/Library/CoreServices/LiveTranscriptionUI.app/LiveTranscriptionUI`
 
 ### Sections with Same Size but Changed Content
 

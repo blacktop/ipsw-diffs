@@ -1,6 +1,6 @@
 ## modelmanagerd
 
-> `usr/libexec/modelmanagerd`
+> `/usr/libexec/modelmanagerd`
 
 ### Sections with Same Size but Changed Content
 

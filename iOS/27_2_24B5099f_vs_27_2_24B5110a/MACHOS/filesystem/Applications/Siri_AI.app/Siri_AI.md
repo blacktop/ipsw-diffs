@@ -1,6 +1,6 @@
 ## Siri AI
 
-> `Applications/Siri AI.app/Siri AI`
+> `/Applications/Siri AI.app/Siri AI`
 
 ### Sections with Same Size but Changed Content
 

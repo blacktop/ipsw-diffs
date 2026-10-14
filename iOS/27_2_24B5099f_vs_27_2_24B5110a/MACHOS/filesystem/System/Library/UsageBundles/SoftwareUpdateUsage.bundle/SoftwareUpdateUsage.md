@@ -1,6 +1,6 @@
 ## SoftwareUpdateUsage
 
-> `System/Library/UsageBundles/SoftwareUpdateUsage.bundle/SoftwareUpdateUsage`
+> `/System/Library/UsageBundles/SoftwareUpdateUsage.bundle/SoftwareUpdateUsage`
 
 ### Sections with Same Size but Changed Content
 

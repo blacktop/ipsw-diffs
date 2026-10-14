@@ -1,6 +1,6 @@
 ## AlarmUIPlugin
 
-> `System/Library/Snippets/UIPlugins/AlarmUIPlugin.bundle/AlarmUIPlugin`
+> `/System/Library/Snippets/UIPlugins/AlarmUIPlugin.bundle/AlarmUIPlugin`
 
 ### Sections with Same Size but Changed Content
 

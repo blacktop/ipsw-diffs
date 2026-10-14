@@ -1,6 +1,6 @@
 ## BWPreviewStitcherNodeCoreImageArchive_bin.metallib
 
-> `System/Library/PrivateFrameworks/CMCapture.framework/BWPreviewStitcherNodeCoreImageArchive_bin.metallib`
+> `/System/Library/PrivateFrameworks/CMCapture.framework/BWPreviewStitcherNodeCoreImageArchive_bin.metallib`
 
 ### Sections with Same Size but Changed Content
 

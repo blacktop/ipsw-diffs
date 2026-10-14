@@ -1,6 +1,6 @@
 ## ControlCenterSettings
 
-> `System/Library/PreferenceBundles/ControlCenterSettings.bundle/ControlCenterSettings`
+> `/System/Library/PreferenceBundles/ControlCenterSettings.bundle/ControlCenterSettings`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## com.apple.cts
 
-> `System/Library/UserEventPlugins/com.apple.cts.plugin/com.apple.cts`
+> `/System/Library/UserEventPlugins/com.apple.cts.plugin/com.apple.cts`
 
 ### Sections with Same Size but Changed Content
 

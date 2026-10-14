@@ -1,6 +1,6 @@
 ## PairedMacsDeveloperSettings
 
-> `System/Library/PreferenceBundles/PairedMacsDeveloperSettings.bundle/PairedMacsDeveloperSettings`
+> `/System/Library/PreferenceBundles/PairedMacsDeveloperSettings.bundle/PairedMacsDeveloperSettings`
 
 ### Sections with Same Size but Changed Content
 

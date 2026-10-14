@@ -1,6 +1,6 @@
 ## ciphermld
 
-> `usr/libexec/ciphermld`
+> `/usr/libexec/ciphermld`
 
 ### Sections with Same Size but Changed Content
 

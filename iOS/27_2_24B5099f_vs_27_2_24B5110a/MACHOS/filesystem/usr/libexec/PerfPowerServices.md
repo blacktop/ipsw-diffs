@@ -1,6 +1,6 @@
 ## PerfPowerServices
 
-> `usr/libexec/PerfPowerServices`
+> `/usr/libexec/PerfPowerServices`
 
 ### Sections with Same Size but Changed Content
 

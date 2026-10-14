@@ -1,6 +1,6 @@
 ## CategoriesService
 
-> `System/Library/PrivateFrameworks/Categories.framework/XPCServices/CategoriesService.xpc/CategoriesService`
+> `/System/Library/PrivateFrameworks/Categories.framework/XPCServices/CategoriesService.xpc/CategoriesService`
 
 ### Sections with Same Size but Changed Content
 

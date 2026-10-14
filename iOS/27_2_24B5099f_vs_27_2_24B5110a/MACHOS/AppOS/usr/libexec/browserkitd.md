@@ -1,6 +1,6 @@
 ## browserkitd
 
-> `usr/libexec/browserkitd`
+> `/usr/libexec/browserkitd`
 
 ### Sections with Same Size but Changed Content
 

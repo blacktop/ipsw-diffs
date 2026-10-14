@@ -1,6 +1,6 @@
 ## HomeDataModel
 
-> `filesystem/System/Library/PrivateFrameworks/HomeDataModel.framework/HFSensitiveStrings-J490.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/HomeDataModel.framework/HFSensitiveStrings-J490.loctable`
 
 ```text
 en.HFHomeHubFootnote_J490 = "Home hubs allow you to control and automate accessories in your home remotely. Any Apple TV (4th generation or later), HomePod or %@ in your home can act as a home hub."

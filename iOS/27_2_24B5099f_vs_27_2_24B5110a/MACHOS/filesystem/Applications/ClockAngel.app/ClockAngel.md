@@ -1,6 +1,6 @@
 ## ClockAngel
 
-> `Applications/ClockAngel.app/ClockAngel`
+> `/Applications/ClockAngel.app/ClockAngel`
 
 ### Sections with Same Size but Changed Content
 

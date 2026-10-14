@@ -1,6 +1,6 @@
 ## IonosphereHarvest
 
-> `System/Library/LocationBundles/IonosphereHarvest.bundle/IonosphereHarvest`
+> `/System/Library/LocationBundles/IonosphereHarvest.bundle/IonosphereHarvest`
 
 ### Sections with Same Size but Changed Content
 

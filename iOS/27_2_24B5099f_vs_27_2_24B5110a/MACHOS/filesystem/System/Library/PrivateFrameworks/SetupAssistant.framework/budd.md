@@ -1,6 +1,6 @@
 ## budd
 
-> `System/Library/PrivateFrameworks/SetupAssistant.framework/budd`
+> `/System/Library/PrivateFrameworks/SetupAssistant.framework/budd`
 
 ### Sections with Same Size but Changed Content
 

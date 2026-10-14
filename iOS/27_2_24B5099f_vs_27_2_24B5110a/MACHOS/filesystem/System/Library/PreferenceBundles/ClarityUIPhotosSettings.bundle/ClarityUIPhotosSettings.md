@@ -1,6 +1,6 @@
 ## ClarityUIPhotosSettings
 
-> `System/Library/PreferenceBundles/ClarityUIPhotosSettings.bundle/ClarityUIPhotosSettings`
+> `/System/Library/PreferenceBundles/ClarityUIPhotosSettings.bundle/ClarityUIPhotosSettings`
 
 ### Sections with Same Size but Changed Content
 

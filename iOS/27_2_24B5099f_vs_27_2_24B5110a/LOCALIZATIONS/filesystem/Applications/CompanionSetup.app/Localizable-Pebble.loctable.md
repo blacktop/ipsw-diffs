@@ -1,6 +1,6 @@
 ## CompanionSetup
 
-> `filesystem/Applications/CompanionSetup.app/Localizable-Pebble.loctable`
+> `FileSystem/Applications/CompanionSetup.app/Localizable-Pebble.loctable`
 
 ```text
 en.DISABLE_LOCATION_ALERT_DETAIL = "Your {ProductName} won’t be able to show you the local weather, time, or respond to Siri requests about your area."

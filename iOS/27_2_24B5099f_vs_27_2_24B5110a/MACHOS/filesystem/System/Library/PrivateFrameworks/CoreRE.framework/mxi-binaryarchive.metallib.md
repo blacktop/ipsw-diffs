@@ -1,6 +1,6 @@
 ## mxi-binaryarchive.metallib
 
-> `System/Library/PrivateFrameworks/CoreRE.framework/mxi-binaryarchive.metallib`
+> `/System/Library/PrivateFrameworks/CoreRE.framework/mxi-binaryarchive.metallib`
 
 ### Sections with Same Size but Changed Content
 

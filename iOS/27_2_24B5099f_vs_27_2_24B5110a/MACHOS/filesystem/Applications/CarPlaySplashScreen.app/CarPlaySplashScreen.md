@@ -1,6 +1,6 @@
 ## CarPlaySplashScreen
 
-> `Applications/CarPlaySplashScreen.app/CarPlaySplashScreen`
+> `/Applications/CarPlaySplashScreen.app/CarPlaySplashScreen`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## com.apple.onboarding.improveintelligence
 
-> `filesystem/System/Library/OnBoardingBundles/com.apple.onboarding.improveintelligence.bundle/ImproveIntelligence.loctable`
+> `FileSystem/System/Library/OnBoardingBundles/com.apple.onboarding.improveintelligence.bundle/ImproveIntelligence.loctable`
 
 ```diff
 

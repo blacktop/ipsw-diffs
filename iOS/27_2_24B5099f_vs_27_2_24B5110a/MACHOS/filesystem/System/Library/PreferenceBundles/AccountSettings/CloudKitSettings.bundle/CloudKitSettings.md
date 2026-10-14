@@ -1,6 +1,6 @@
 ## CloudKitSettings
 
-> `System/Library/PreferenceBundles/AccountSettings/CloudKitSettings.bundle/CloudKitSettings`
+> `/System/Library/PreferenceBundles/AccountSettings/CloudKitSettings.bundle/CloudKitSettings`
 
 ### Sections with Same Size but Changed Content
 

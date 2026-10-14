@@ -1,6 +1,6 @@
 ## RecoverDeviceUI
 
-> `filesystem/Applications/RecoverDeviceUI.app/Localizable-J490.loctable`
+> `FileSystem/Applications/RecoverDeviceUI.app/Localizable-J490.loctable`
 
 ```text
 en.AUTHENTICATION_CARD_DESCRIPTION_DEVICE_TYPE_ATV = "Enter the verification code shown on the Apple TV in recovery mode."

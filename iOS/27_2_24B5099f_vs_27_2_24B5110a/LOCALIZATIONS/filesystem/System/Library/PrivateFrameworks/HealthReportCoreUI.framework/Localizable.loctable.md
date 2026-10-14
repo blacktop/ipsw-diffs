@@ -1,6 +1,6 @@
 ## HealthReportCoreUI
 
-> `filesystem/System/Library/PrivateFrameworks/HealthReportCoreUI.framework/Localizable.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/HealthReportCoreUI.framework/Localizable.loctable`
 
 ```diff
 

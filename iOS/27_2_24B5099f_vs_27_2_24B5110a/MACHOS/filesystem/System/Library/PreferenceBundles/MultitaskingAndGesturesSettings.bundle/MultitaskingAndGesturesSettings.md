@@ -1,6 +1,6 @@
 ## MultitaskingAndGesturesSettings
 
-> `System/Library/PreferenceBundles/MultitaskingAndGesturesSettings.bundle/MultitaskingAndGesturesSettings`
+> `/System/Library/PreferenceBundles/MultitaskingAndGesturesSettings.bundle/MultitaskingAndGesturesSettings`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## StickersUltraExtension
 
-> `Applications/StickersUltra.app/PlugIns/StickersUltraExtension.appex/StickersUltraExtension`
+> `/Applications/StickersUltra.app/PlugIns/StickersUltraExtension.appex/StickersUltraExtension`
 
 ### Sections with Same Size but Changed Content
 

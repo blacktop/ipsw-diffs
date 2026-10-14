@@ -1,6 +1,6 @@
 ## PPPController
 
-> `System/Library/SystemConfiguration/PPPController.bundle/PPPController`
+> `/System/Library/SystemConfiguration/PPPController.bundle/PPPController`
 
 ### Sections with Same Size but Changed Content
 

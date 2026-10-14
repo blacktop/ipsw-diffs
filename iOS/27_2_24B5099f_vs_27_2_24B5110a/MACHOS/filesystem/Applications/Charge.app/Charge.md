@@ -1,6 +1,6 @@
 ## Charge
 
-> `Applications/Charge.app/Charge`
+> `/Applications/Charge.app/Charge`
 
 ### Sections with Same Size but Changed Content
 

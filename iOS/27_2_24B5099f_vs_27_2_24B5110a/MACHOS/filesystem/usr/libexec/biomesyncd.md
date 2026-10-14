@@ -1,6 +1,6 @@
 ## biomesyncd
 
-> `usr/libexec/biomesyncd`
+> `/usr/libexec/biomesyncd`
 
 ### Sections with Same Size but Changed Content
 

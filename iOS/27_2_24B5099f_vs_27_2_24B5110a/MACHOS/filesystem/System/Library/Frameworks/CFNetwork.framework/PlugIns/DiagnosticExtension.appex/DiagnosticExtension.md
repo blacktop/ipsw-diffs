@@ -1,6 +1,6 @@
 ## DiagnosticExtension
 
-> `System/Library/Frameworks/CFNetwork.framework/PlugIns/DiagnosticExtension.appex/DiagnosticExtension`
+> `/System/Library/Frameworks/CFNetwork.framework/PlugIns/DiagnosticExtension.appex/DiagnosticExtension`
 
 ### Sections with Same Size but Changed Content
 

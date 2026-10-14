@@ -1,6 +1,6 @@
 ## Home
 
-> `filesystem/System/Library/PrivateFrameworks/Home.framework/HFSensitiveStrings-Linwood.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/Home.framework/HFSensitiveStrings-Linwood.loctable`
 
 ```text
 en.HFLinwoodSiriSetting_Title = "Siri AI (Beta)"

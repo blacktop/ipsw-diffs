@@ -1,6 +1,6 @@
 ## duetexpertd
 
-> `usr/libexec/duetexpertd`
+> `/usr/libexec/duetexpertd`
 
 ### Sections with Same Size but Changed Content
 

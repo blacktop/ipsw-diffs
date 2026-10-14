@@ -1,6 +1,6 @@
 ## AppInstallation
 
-> `System/Library/Settings/DefaultApps/AppInstallation.plugin/AppInstallation`
+> `/System/Library/Settings/DefaultApps/AppInstallation.plugin/AppInstallation`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## HomeKit
 
-> `filesystem/System/Library/Frameworks/HomeKit.framework/en.lproj/HomeKit-Extensibility.strings`
+> `FileSystem/System/Library/Frameworks/HomeKit.framework/en.lproj/HomeKit-Extensibility.strings`
 
 ```text
 HMAccessoryManufacturerFeatureProductManualName = "Product Manual"

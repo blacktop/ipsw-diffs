@@ -1,6 +1,6 @@
 ## HomeCommunicationFlowDelegatePlugin
 
-> `System/Library/Assistant/FlowDelegatePlugins/HomeCommunicationFlowDelegatePlugin.bundle/HomeCommunicationFlowDelegatePlugin`
+> `/System/Library/Assistant/FlowDelegatePlugins/HomeCommunicationFlowDelegatePlugin.bundle/HomeCommunicationFlowDelegatePlugin`
 
 ### Sections with Same Size but Changed Content
 

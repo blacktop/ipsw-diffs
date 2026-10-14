@@ -1,6 +1,6 @@
 ## musicd
 
-> `System/Library/Frameworks/MusicKit.framework/Support/musicd`
+> `/System/Library/Frameworks/MusicKit.framework/Support/musicd`
 
 ### Sections with Same Size but Changed Content
 

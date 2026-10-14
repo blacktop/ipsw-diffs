@@ -1,6 +1,6 @@
 ## CustomerEngagementUIService
 
-> `Applications/CustomerEngagementUIService.app/CustomerEngagementUIService`
+> `/Applications/CustomerEngagementUIService.app/CustomerEngagementUIService`
 
 ### Sections with Same Size but Changed Content
 

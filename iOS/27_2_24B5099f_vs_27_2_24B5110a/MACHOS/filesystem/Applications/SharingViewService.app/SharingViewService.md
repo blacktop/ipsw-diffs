@@ -1,6 +1,6 @@
 ## SharingViewService
 
-> `Applications/SharingViewService.app/SharingViewService`
+> `/Applications/SharingViewService.app/SharingViewService`
 
 ### Sections with Same Size but Changed Content
 

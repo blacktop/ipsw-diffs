@@ -1,6 +1,6 @@
 ## mediaanalysisd
 
-> `System/Library/PrivateFrameworks/MediaAnalysis.framework/mediaanalysisd`
+> `/System/Library/PrivateFrameworks/MediaAnalysis.framework/mediaanalysisd`
 
 ### Sections with Same Size but Changed Content
 

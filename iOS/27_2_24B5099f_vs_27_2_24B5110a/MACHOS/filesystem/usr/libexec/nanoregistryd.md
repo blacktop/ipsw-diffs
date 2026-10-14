@@ -1,6 +1,6 @@
 ## nanoregistryd
 
-> `usr/libexec/nanoregistryd`
+> `/usr/libexec/nanoregistryd`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## com.apple.datadetectors.AddToRecentsService
 
-> `System/Library/PrivateFrameworks/DataDetectorsUI.framework/XPCServices/com.apple.datadetectors.AddToRecentsService.xpc/com.apple.datadetectors.AddToRecentsService`
+> `/System/Library/PrivateFrameworks/DataDetectorsUI.framework/XPCServices/com.apple.datadetectors.AddToRecentsService.xpc/com.apple.datadetectors.AddToRecentsService`
 
 ### Sections with Same Size but Changed Content
 

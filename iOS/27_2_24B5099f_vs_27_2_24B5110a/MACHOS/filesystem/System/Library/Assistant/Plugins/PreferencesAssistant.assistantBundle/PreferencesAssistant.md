@@ -1,6 +1,6 @@
 ## PreferencesAssistant
 
-> `System/Library/Assistant/Plugins/PreferencesAssistant.assistantBundle/PreferencesAssistant`
+> `/System/Library/Assistant/Plugins/PreferencesAssistant.assistantBundle/PreferencesAssistant`
 
 ### Sections with Same Size but Changed Content
 

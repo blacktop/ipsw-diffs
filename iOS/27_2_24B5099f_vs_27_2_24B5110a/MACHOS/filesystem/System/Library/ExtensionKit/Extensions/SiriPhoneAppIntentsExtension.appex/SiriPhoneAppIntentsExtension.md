@@ -1,6 +1,6 @@
 ## SiriPhoneAppIntentsExtension
 
-> `System/Library/ExtensionKit/Extensions/SiriPhoneAppIntentsExtension.appex/SiriPhoneAppIntentsExtension`
+> `/System/Library/ExtensionKit/Extensions/SiriPhoneAppIntentsExtension.appex/SiriPhoneAppIntentsExtension`
 
 ### Sections with Same Size but Changed Content
 

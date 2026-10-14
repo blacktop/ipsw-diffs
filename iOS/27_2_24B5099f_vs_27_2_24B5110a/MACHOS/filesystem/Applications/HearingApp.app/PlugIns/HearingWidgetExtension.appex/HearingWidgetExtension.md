@@ -1,6 +1,6 @@
 ## HearingWidgetExtension
 
-> `Applications/HearingApp.app/PlugIns/HearingWidgetExtension.appex/HearingWidgetExtension`
+> `/Applications/HearingApp.app/PlugIns/HearingWidgetExtension.appex/HearingWidgetExtension`
 
 ### Sections with Same Size but Changed Content
 

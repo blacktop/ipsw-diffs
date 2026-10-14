@@ -1,6 +1,6 @@
 ## BatteryUsageUI
 
-> `System/Library/PreferenceBundles/BatteryUsageUI.bundle/BatteryUsageUI`
+> `/System/Library/PreferenceBundles/BatteryUsageUI.bundle/BatteryUsageUI`
 
 ### Sections with Same Size but Changed Content
 

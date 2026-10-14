@@ -1,6 +1,6 @@
 ## ColourSensorFilterPlugin
 
-> `System/Library/HIDPlugins/ColourSensorFilterPlugin.plugin/ColourSensorFilterPlugin`
+> `/System/Library/HIDPlugins/ColourSensorFilterPlugin.plugin/ColourSensorFilterPlugin`
 
 ### Sections with Same Size but Changed Content
 

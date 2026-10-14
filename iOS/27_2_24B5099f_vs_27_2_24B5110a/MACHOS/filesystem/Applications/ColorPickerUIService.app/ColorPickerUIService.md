@@ -1,6 +1,6 @@
 ## ColorPickerUIService
 
-> `Applications/ColorPickerUIService.app/ColorPickerUIService`
+> `/Applications/ColorPickerUIService.app/ColorPickerUIService`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## WorkflowEditor
 
-> `filesystem/System/Library/PrivateFrameworks/WorkflowEditor.framework/Localizable.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/WorkflowEditor.framework/Localizable.loctable`
 
 ```diff
 

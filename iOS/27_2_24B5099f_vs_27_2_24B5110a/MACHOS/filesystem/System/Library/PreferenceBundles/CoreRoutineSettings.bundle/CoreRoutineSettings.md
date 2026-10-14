@@ -1,6 +1,6 @@
 ## CoreRoutineSettings
 
-> `System/Library/PreferenceBundles/CoreRoutineSettings.bundle/CoreRoutineSettings`
+> `/System/Library/PreferenceBundles/CoreRoutineSettings.bundle/CoreRoutineSettings`
 
 ### Sections with Same Size but Changed Content
 

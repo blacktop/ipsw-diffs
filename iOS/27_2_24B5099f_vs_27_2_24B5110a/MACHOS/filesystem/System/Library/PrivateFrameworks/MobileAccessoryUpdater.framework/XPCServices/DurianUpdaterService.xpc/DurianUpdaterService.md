@@ -1,6 +1,6 @@
 ## DurianUpdaterService
 
-> `System/Library/PrivateFrameworks/MobileAccessoryUpdater.framework/XPCServices/DurianUpdaterService.xpc/DurianUpdaterService`
+> `/System/Library/PrivateFrameworks/MobileAccessoryUpdater.framework/XPCServices/DurianUpdaterService.xpc/DurianUpdaterService`
 
 ### Sections with Same Size but Changed Content
 

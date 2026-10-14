@@ -1,6 +1,6 @@
 ## cryptexd
 
-> `usr/libexec/cryptexd`
+> `/usr/libexec/cryptexd`
 
 ### Sections with Same Size but Changed Content
 

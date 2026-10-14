@@ -1,6 +1,6 @@
 ## NewsUI2
 
-> `filesystem/System/Library/PrivateFrameworks/NewsUI2.framework/Localizable.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/NewsUI2.framework/Localizable.loctable`
 
 ```diff
 

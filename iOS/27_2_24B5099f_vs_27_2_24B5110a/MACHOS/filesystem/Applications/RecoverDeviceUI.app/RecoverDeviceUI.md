@@ -1,6 +1,6 @@
 ## RecoverDeviceUI
 
-> `Applications/RecoverDeviceUI.app/RecoverDeviceUI`
+> `/Applications/RecoverDeviceUI.app/RecoverDeviceUI`
 
 ### Sections with Same Size but Changed Content
 

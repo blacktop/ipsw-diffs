@@ -1,6 +1,6 @@
 ## otpaird
 
-> `usr/libexec/otpaird`
+> `/usr/libexec/otpaird`
 
 ### Sections with Same Size but Changed Content
 

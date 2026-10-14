@@ -1,6 +1,6 @@
 ## CoreServicesUIAgent
 
-> `filesystem/System/Library/CoreServices/CoreServicesUIAgent.app/Localizable.loctable`
+> `FileSystem/System/Library/CoreServices/CoreServicesUIAgent.app/Localizable.loctable`
 
 ```diff
 

@@ -1,6 +1,6 @@
 ## AltimeterHarvest
 
-> `System/Library/LocationBundles/AltimeterHarvest.bundle/AltimeterHarvest`
+> `/System/Library/LocationBundles/AltimeterHarvest.bundle/AltimeterHarvest`
 
 ### Sections with Same Size but Changed Content
 

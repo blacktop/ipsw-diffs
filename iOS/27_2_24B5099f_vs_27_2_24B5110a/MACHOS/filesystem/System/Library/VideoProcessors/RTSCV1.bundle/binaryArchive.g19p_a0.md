@@ -1,6 +1,6 @@
 ## binaryArchive.g19p_a0
 
-> `System/Library/VideoProcessors/RTSCV1.bundle/binaryArchive.g19p_a0`
+> `/System/Library/VideoProcessors/RTSCV1.bundle/binaryArchive.g19p_a0`
 
 ```diff
 

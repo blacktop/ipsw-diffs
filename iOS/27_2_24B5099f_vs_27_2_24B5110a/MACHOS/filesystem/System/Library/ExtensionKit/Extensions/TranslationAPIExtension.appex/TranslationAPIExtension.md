@@ -1,6 +1,6 @@
 ## TranslationAPIExtension
 
-> `System/Library/ExtensionKit/Extensions/TranslationAPIExtension.appex/TranslationAPIExtension`
+> `/System/Library/ExtensionKit/Extensions/TranslationAPIExtension.appex/TranslationAPIExtension`
 
 ### Sections with Same Size but Changed Content
 

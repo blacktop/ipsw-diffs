@@ -1,6 +1,6 @@
 ## SettingsCellular
 
-> `System/Library/PreferenceBundles/SettingsCellular.bundle/SettingsCellular`
+> `/System/Library/PreferenceBundles/SettingsCellular.bundle/SettingsCellular`
 
 ### Sections with Same Size but Changed Content
 

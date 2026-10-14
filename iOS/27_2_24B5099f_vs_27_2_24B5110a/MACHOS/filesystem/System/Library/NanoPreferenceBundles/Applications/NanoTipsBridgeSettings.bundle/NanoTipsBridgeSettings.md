@@ -1,6 +1,6 @@
 ## NanoTipsBridgeSettings
 
-> `System/Library/NanoPreferenceBundles/Applications/NanoTipsBridgeSettings.bundle/NanoTipsBridgeSettings`
+> `/System/Library/NanoPreferenceBundles/Applications/NanoTipsBridgeSettings.bundle/NanoTipsBridgeSettings`
 
 ### Sections with Same Size but Changed Content
 

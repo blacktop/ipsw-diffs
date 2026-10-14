@@ -1,6 +1,6 @@
 ## FamilyExtensionHost
 
-> `Applications/FamilyExtensionHost.app/FamilyExtensionHost`
+> `/Applications/FamilyExtensionHost.app/FamilyExtensionHost`
 
 ### Sections with Same Size but Changed Content
 

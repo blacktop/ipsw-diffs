@@ -1,6 +1,6 @@
 ## AirDropUI
 
-> `Applications/AirDropUI.app/AirDropUI`
+> `/Applications/AirDropUI.app/AirDropUI`
 
 ### Sections with Same Size but Changed Content
 

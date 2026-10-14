@@ -1,6 +1,6 @@
 ## SpotlightIndexingProgressSettings
 
-> `System/Library/PreferenceBundles/SpotlightIndexingProgressSettings.bundle/SpotlightIndexingProgressSettings`
+> `/System/Library/PreferenceBundles/SpotlightIndexingProgressSettings.bundle/SpotlightIndexingProgressSettings`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## HealthIntelligence
 
-> `filesystem/System/Library/PrivateFrameworks/HealthIntelligence.framework/QuantityIntelligenceSemantics.loctable`
+> `FileSystem/System/Library/PrivateFrameworks/HealthIntelligence.framework/QuantityIntelligenceSemantics.loctable`
 
 ```diff
 

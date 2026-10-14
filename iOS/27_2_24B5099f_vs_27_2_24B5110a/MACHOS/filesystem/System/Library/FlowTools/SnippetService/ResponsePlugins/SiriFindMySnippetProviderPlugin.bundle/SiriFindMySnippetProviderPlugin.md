@@ -1,6 +1,6 @@
 ## SiriFindMySnippetProviderPlugin
 
-> `System/Library/FlowTools/SnippetService/ResponsePlugins/SiriFindMySnippetProviderPlugin.bundle/SiriFindMySnippetProviderPlugin`
+> `/System/Library/FlowTools/SnippetService/ResponsePlugins/SiriFindMySnippetProviderPlugin.bundle/SiriFindMySnippetProviderPlugin`
 
 ### Sections with Same Size but Changed Content
 

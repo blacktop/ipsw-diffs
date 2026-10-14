@@ -1,6 +1,6 @@
 ## com.apple.CloudSharingUI.CloudSharing
 
-> `System/Library/PrivateFrameworks/CloudSharingUI.framework/PlugIns/com.apple.CloudSharingUI.CloudSharing.appex/com.apple.CloudSharingUI.CloudSharing`
+> `/System/Library/PrivateFrameworks/CloudSharingUI.framework/PlugIns/com.apple.CloudSharingUI.CloudSharing.appex/com.apple.CloudSharingUI.CloudSharing`
 
 ### Sections with Same Size but Changed Content
 

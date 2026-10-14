@@ -1,6 +1,6 @@
 ## ADAskForExceptionExtension
 
-> `System/Library/ExtensionKit/Extensions/ADAskForExceptionExtension.appex/ADAskForExceptionExtension`
+> `/System/Library/ExtensionKit/Extensions/ADAskForExceptionExtension.appex/ADAskForExceptionExtension`
 
 ### Sections with Same Size but Changed Content
 

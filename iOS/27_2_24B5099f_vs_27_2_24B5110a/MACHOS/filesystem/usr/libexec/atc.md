@@ -1,6 +1,6 @@
 ## atc
 
-> `usr/libexec/atc`
+> `/usr/libexec/atc`
 
 ### Sections with Same Size but Changed Content
 

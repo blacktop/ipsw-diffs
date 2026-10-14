@@ -1,6 +1,6 @@
 ## FilterSpamSettingsBundle
 
-> `filesystem/System/Library/PreferenceBundles/FilterSpamSettingsBundle.bundle/FilterSpamSettings.loctable`
+> `FileSystem/System/Library/PreferenceBundles/FilterSpamSettingsBundle.bundle/FilterSpamSettings.loctable`
 
 ```diff
 

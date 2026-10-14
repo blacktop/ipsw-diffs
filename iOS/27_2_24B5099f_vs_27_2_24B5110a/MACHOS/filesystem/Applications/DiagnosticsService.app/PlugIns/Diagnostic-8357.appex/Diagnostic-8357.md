@@ -1,6 +1,6 @@
 ## Diagnostic-8357
 
-> `Applications/DiagnosticsService.app/PlugIns/Diagnostic-8357.appex/Diagnostic-8357`
+> `/Applications/DiagnosticsService.app/PlugIns/Diagnostic-8357.appex/Diagnostic-8357`
 
 ### Sections with Same Size but Changed Content
 

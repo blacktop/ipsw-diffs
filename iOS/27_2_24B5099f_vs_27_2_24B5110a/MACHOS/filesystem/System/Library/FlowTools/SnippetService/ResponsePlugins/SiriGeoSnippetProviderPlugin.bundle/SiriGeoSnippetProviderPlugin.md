@@ -1,6 +1,6 @@
 ## SiriGeoSnippetProviderPlugin
 
-> `System/Library/FlowTools/SnippetService/ResponsePlugins/SiriGeoSnippetProviderPlugin.bundle/SiriGeoSnippetProviderPlugin`
+> `/System/Library/FlowTools/SnippetService/ResponsePlugins/SiriGeoSnippetProviderPlugin.bundle/SiriGeoSnippetProviderPlugin`
 
 ### Sections with Same Size but Changed Content
 

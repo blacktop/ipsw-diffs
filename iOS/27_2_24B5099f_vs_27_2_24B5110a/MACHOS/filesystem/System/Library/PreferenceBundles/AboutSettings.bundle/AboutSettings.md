@@ -1,6 +1,6 @@
 ## AboutSettings
 
-> `System/Library/PreferenceBundles/AboutSettings.bundle/AboutSettings`
+> `/System/Library/PreferenceBundles/AboutSettings.bundle/AboutSettings`
 
 ### Sections with Same Size but Changed Content
 

@@ -1,6 +1,6 @@
 ## accountsd
 
-> `System/Library/Frameworks/Accounts.framework/accountsd`
+> `/System/Library/Frameworks/Accounts.framework/accountsd`
 
 ### Sections with Same Size but Changed Content
 

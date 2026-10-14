@@ -1,6 +1,6 @@
 ## PaymentContactlessSettingsUIPlugin
 
-> `System/Library/PreferenceBundles/PaymentContactlessSettingsUIPlugin.bundle/PaymentContactlessSettingsUIPlugin`
+> `/System/Library/PreferenceBundles/PaymentContactlessSettingsUIPlugin.bundle/PaymentContactlessSettingsUIPlugin`
 
 ### Sections with Same Size but Changed Content
 

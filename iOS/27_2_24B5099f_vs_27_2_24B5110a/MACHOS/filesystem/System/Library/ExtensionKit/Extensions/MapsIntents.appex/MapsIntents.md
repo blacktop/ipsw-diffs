@@ -1,6 +1,6 @@
 ## MapsIntents
 
-> `System/Library/ExtensionKit/Extensions/MapsIntents.appex/MapsIntents`
+> `/System/Library/ExtensionKit/Extensions/MapsIntents.appex/MapsIntents`
 
 ### Sections with Same Size but Changed Content
 
