@@ -1,0 +1,405 @@
+## PhotoLibraryServicesCore
+
+> `/System/Library/PrivateFrameworks/PhotoLibraryServicesCore.framework/PhotoLibraryServicesCore`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__cstring`
+
+```diff
+
+-916.57.151.0.0
+-  __TEXT.__text: 0xc91e8
++916.57.153.0.0
++  __TEXT.__text: 0xc9310
+   __TEXT.__objc_methlist: 0x83ec
+   __TEXT.__const: 0x23cc
+   __TEXT.__dlopen_cstrs: 0x19c
+   __TEXT.__gcc_except_tab: 0x5860
+   __TEXT.__cstring: 0x16323
+-  __TEXT.__oslogstring: 0xb4d5
++  __TEXT.__oslogstring: 0xb51f
+   __TEXT.__ustring: 0x4
+   __TEXT.__unwind_info: 0x42e8
+   __TEXT.__objc_stubs: 0x0
+
+   __DATA_CONST.__objc_catlist: 0x10
+   __DATA_CONST.__objc_protolist: 0x160
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x4d28
++  __DATA_CONST.__objc_selrefs: 0x4d38
+   __DATA_CONST.__objc_protorefs: 0xc8
+   __DATA_CONST.__objc_superrefs: 0x268
+   __DATA_CONST.__objc_arraydata: 0x428
+-  __DATA_CONST.__got: 0xa58
++  __DATA_CONST.__got: 0xa60
+   __AUTH_CONST.__const: 0x36d0
+   __AUTH_CONST.__cfstring: 0x123a0
+   __AUTH_CONST.__objc_const: 0xaa50
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libperfcheck.dylib
+   - /usr/lib/libsqlite3.dylib
+-  Functions: 4008
+-  Symbols:   7958
+-  CStrings:  3714
++  Functions: 4009
++  Symbols:   7960
++  CStrings:  3715
+ 
+Symbols:
++ -[PLAssetsdLibraryInternalClient transferAssetsWithUuids:fromLibraryURL:transferOptions:completionHandler:]
++ -[PLAssetsdLibraryInternalClient transferPersonsWithUuids:fromLibraryURL:transferOptions:completionHandler:]
++ GCC_except_table1014
++ GCC_except_table1054
++ GCC_except_table1118
++ GCC_except_table1120
++ GCC_except_table1121
++ GCC_except_table1454
++ GCC_except_table1469
++ GCC_except_table1478
++ GCC_except_table1595
++ GCC_except_table1618
++ GCC_except_table1623
++ GCC_except_table1660
++ GCC_except_table1676
++ GCC_except_table1702
++ GCC_except_table1704
++ GCC_except_table272
++ GCC_except_table278
++ GCC_except_table281
++ GCC_except_table286
++ GCC_except_table289
++ GCC_except_table294
++ GCC_except_table297
++ GCC_except_table300
++ GCC_except_table309
++ GCC_except_table315
++ GCC_except_table321
++ GCC_except_table324
++ GCC_except_table327
++ GCC_except_table330
++ GCC_except_table333
++ GCC_except_table3578
++ GCC_except_table3582
++ GCC_except_table3589
++ GCC_except_table3642
++ GCC_except_table3645
++ GCC_except_table3651
++ GCC_except_table3654
++ GCC_except_table3657
++ GCC_except_table3660
++ GCC_except_table3666
++ GCC_except_table3672
++ GCC_except_table3676
++ GCC_except_table3680
++ GCC_except_table3684
++ GCC_except_table3688
++ GCC_except_table3709
++ GCC_except_table3712
++ GCC_except_table3721
++ GCC_except_table3734
++ GCC_except_table3752
++ GCC_except_table3760
++ GCC_except_table3762
++ GCC_except_table3767
++ GCC_except_table3771
++ GCC_except_table3777
++ GCC_except_table3782
++ GCC_except_table3785
++ GCC_except_table3788
++ GCC_except_table3792
++ GCC_except_table3795
++ GCC_except_table3802
++ GCC_except_table3805
++ GCC_except_table3808
++ GCC_except_table381
++ GCC_except_table3811
++ GCC_except_table3815
++ GCC_except_table3818
++ GCC_except_table382
++ GCC_except_table3821
++ GCC_except_table3824
++ GCC_except_table3827
++ GCC_except_table3831
++ GCC_except_table3835
++ GCC_except_table3849
++ GCC_except_table3852
++ GCC_except_table3896
++ GCC_except_table3923
++ GCC_except_table3925
++ GCC_except_table3927
++ GCC_except_table3930
++ GCC_except_table3932
++ GCC_except_table3936
++ GCC_except_table3948
++ GCC_except_table3961
++ GCC_except_table3966
++ GCC_except_table3973
++ GCC_except_table3978
++ GCC_except_table402
++ GCC_except_table415
++ GCC_except_table428
++ GCC_except_table484
++ GCC_except_table489
++ GCC_except_table492
++ GCC_except_table495
++ GCC_except_table498
++ GCC_except_table501
++ GCC_except_table504
++ GCC_except_table507
++ GCC_except_table510
++ GCC_except_table513
++ GCC_except_table524
++ GCC_except_table538
++ GCC_except_table541
++ GCC_except_table549
++ GCC_except_table552
++ GCC_except_table555
++ GCC_except_table562
++ GCC_except_table618
++ GCC_except_table680
++ GCC_except_table712
++ GCC_except_table717
++ GCC_except_table720
++ GCC_except_table723
++ GCC_except_table729
++ GCC_except_table732
++ GCC_except_table735
++ GCC_except_table738
++ GCC_except_table741
++ GCC_except_table778
++ GCC_except_table783
++ GCC_except_table790
++ GCC_except_table793
++ GCC_except_table796
++ GCC_except_table799
++ GCC_except_table802
++ GCC_except_table805
++ GCC_except_table808
++ GCC_except_table811
++ GCC_except_table814
++ GCC_except_table820
++ GCC_except_table823
++ GCC_except_table826
++ GCC_except_table829
++ GCC_except_table832
++ GCC_except_table835
++ GCC_except_table838
++ GCC_except_table841
++ GCC_except_table844
++ GCC_except_table855
++ GCC_except_table858
++ GCC_except_table861
++ GCC_except_table864
++ GCC_except_table867
++ GCC_except_table870
++ GCC_except_table873
++ GCC_except_table876
++ GCC_except_table879
++ GCC_except_table882
++ GCC_except_table885
++ GCC_except_table888
++ GCC_except_table891
++ GCC_except_table893
++ GCC_except_table898
++ GCC_except_table901
++ GCC_except_table904
++ GCC_except_table907
++ GCC_except_table910
++ GCC_except_table912
++ GCC_except_table915
++ GCC_except_table918
++ GCC_except_table921
++ GCC_except_table924
++ GCC_except_table927
++ GCC_except_table930
++ GCC_except_table941
++ GCC_except_table944
++ GCC_except_table947
++ GCC_except_table950
++ GCC_except_table953
++ GCC_except_table955
++ _OBJC_CLASS_$_NSMutableCharacterSet
++ _PLIsValidContextualVideoThumbnailIdentifier
++ ___107-[PLAssetsdLibraryInternalClient transferAssetsWithUuids:fromLibraryURL:transferOptions:completionHandler:]_block_invoke
++ ___108-[PLAssetsdLibraryInternalClient transferPersonsWithUuids:fromLibraryURL:transferOptions:completionHandler:]_block_invoke
+- -[PLAssetsdLibraryClient transferAssetsWithUuids:fromLibraryURL:transferOptions:completionHandler:]
+- -[PLAssetsdLibraryClient transferPersonsWithUuids:fromLibraryURL:transferOptions:completionHandler:]
+- GCC_except_table1018
+- GCC_except_table1058
+- GCC_except_table1122
+- GCC_except_table1124
+- GCC_except_table1125
+- GCC_except_table1458
+- GCC_except_table1473
+- GCC_except_table1482
+- GCC_except_table1599
+- GCC_except_table1622
+- GCC_except_table1627
+- GCC_except_table1664
+- GCC_except_table1680
+- GCC_except_table269
+- GCC_except_table271
+- GCC_except_table276
+- GCC_except_table282
+- GCC_except_table285
+- GCC_except_table290
+- GCC_except_table293
+- GCC_except_table298
+- GCC_except_table301
+- GCC_except_table304
+- GCC_except_table313
+- GCC_except_table319
+- GCC_except_table325
+- GCC_except_table328
+- GCC_except_table331
+- GCC_except_table334
+- GCC_except_table337
+- GCC_except_table3577
+- GCC_except_table3581
+- GCC_except_table3588
+- GCC_except_table3641
+- GCC_except_table3644
+- GCC_except_table3650
+- GCC_except_table3653
+- GCC_except_table3656
+- GCC_except_table3659
+- GCC_except_table3665
+- GCC_except_table3671
+- GCC_except_table3675
+- GCC_except_table3679
+- GCC_except_table3683
+- GCC_except_table3687
+- GCC_except_table3708
+- GCC_except_table3711
+- GCC_except_table3720
+- GCC_except_table3733
+- GCC_except_table3751
+- GCC_except_table3759
+- GCC_except_table3761
+- GCC_except_table3766
+- GCC_except_table3770
+- GCC_except_table3776
+- GCC_except_table3781
+- GCC_except_table3784
+- GCC_except_table3787
+- GCC_except_table3791
+- GCC_except_table3794
+- GCC_except_table3801
+- GCC_except_table3804
+- GCC_except_table3807
+- GCC_except_table3810
+- GCC_except_table3814
+- GCC_except_table3817
+- GCC_except_table3820
+- GCC_except_table3823
+- GCC_except_table3826
+- GCC_except_table3830
+- GCC_except_table3834
+- GCC_except_table3848
+- GCC_except_table385
+- GCC_except_table3851
+- GCC_except_table386
+- GCC_except_table3895
+- GCC_except_table3920
+- GCC_except_table3924
+- GCC_except_table3926
+- GCC_except_table3928
+- GCC_except_table3931
+- GCC_except_table3934
+- GCC_except_table3947
+- GCC_except_table3960
+- GCC_except_table3965
+- GCC_except_table3972
+- GCC_except_table3977
+- GCC_except_table410
+- GCC_except_table419
+- GCC_except_table432
+- GCC_except_table488
+- GCC_except_table493
+- GCC_except_table496
+- GCC_except_table499
+- GCC_except_table502
+- GCC_except_table505
+- GCC_except_table508
+- GCC_except_table511
+- GCC_except_table514
+- GCC_except_table525
+- GCC_except_table536
+- GCC_except_table542
+- GCC_except_table545
+- GCC_except_table553
+- GCC_except_table556
+- GCC_except_table559
+- GCC_except_table566
+- GCC_except_table622
+- GCC_except_table684
+- GCC_except_table716
+- GCC_except_table721
+- GCC_except_table724
+- GCC_except_table727
+- GCC_except_table733
+- GCC_except_table736
+- GCC_except_table739
+- GCC_except_table746
+- GCC_except_table749
+- GCC_except_table782
+- GCC_except_table791
+- GCC_except_table794
+- GCC_except_table797
+- GCC_except_table800
+- GCC_except_table803
+- GCC_except_table806
+- GCC_except_table809
+- GCC_except_table812
+- GCC_except_table815
+- GCC_except_table818
+- GCC_except_table824
+- GCC_except_table827
+- GCC_except_table830
+- GCC_except_table833
+- GCC_except_table836
+- GCC_except_table839
+- GCC_except_table842
+- GCC_except_table845
+- GCC_except_table856
+- GCC_except_table859
+- GCC_except_table862
+- GCC_except_table865
+- GCC_except_table868
+- GCC_except_table871
+- GCC_except_table874
+- GCC_except_table877
+- GCC_except_table880
+- GCC_except_table883
+- GCC_except_table886
+- GCC_except_table889
+- GCC_except_table892
+- GCC_except_table897
+- GCC_except_table899
+- GCC_except_table902
+- GCC_except_table905
+- GCC_except_table908
+- GCC_except_table911
+- GCC_except_table914
+- GCC_except_table916
+- GCC_except_table919
+- GCC_except_table922
+- GCC_except_table925
+- GCC_except_table928
+- GCC_except_table931
+- GCC_except_table942
+- GCC_except_table945
+- GCC_except_table948
+- GCC_except_table951
+- GCC_except_table954
+- GCC_except_table957
+- GCC_except_table959
+- ___100-[PLAssetsdLibraryClient transferPersonsWithUuids:fromLibraryURL:transferOptions:completionHandler:]_block_invoke
+- ___99-[PLAssetsdLibraryClient transferAssetsWithUuids:fromLibraryURL:transferOptions:completionHandler:]_block_invoke
+CStrings:
++ "%s%@%@.%s"
++ "Contextual video thumbnail identifier is not usable as part of a filename"
+- "%s%@%s.%s"
+```

@@ -61,6 +61,8 @@
 <details open>
   <summary>View diffs</summary>
 
+- [27.2 beta 4 (24B5110a) .vs 27.2 RC (24B115)](iOS/27_2_24B5110a_vs_27_2_24B115/README.md)
+- [27.2 beta 3 (24B5099f) .vs 27.2 beta 4 (24B5110a)](iOS/27_2_24B5099f_vs_27_2_24B5110a/README.md)
 - [27.2 beta 2 (24B5089g) .vs 27.2 beta 3 (24B5099f)](iOS/27_2_24B5089g_vs_27_2_24B5099f/README.md)
 - [27.2 beta 1 (24B5084k) .vs 27.2 beta 2 (24B5089g)](iOS/27_2_24B5084k_vs_27_2_24B5089g/README.md)
 - [27.0 (24A437) .vs 27.2 beta 1 (24B5084k)](iOS/27_0_24A437_vs_27_2_24B5084k/README.md)

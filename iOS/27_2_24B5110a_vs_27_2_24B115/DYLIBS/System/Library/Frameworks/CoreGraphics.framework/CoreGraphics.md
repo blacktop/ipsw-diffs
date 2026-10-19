@@ -1,0 +1,249 @@
+## CoreGraphics
+
+> `/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics`
+
+```diff
+
+ 2050.1.6.0.0
+-  __TEXT.__text: 0x55f144
++  __TEXT.__text: 0x55f270
+   __TEXT.__resolver_help: 0xd8
+   __TEXT.__delay_helper: 0x1f4
+   __TEXT.__objc_methlist: 0x42a0
+   __TEXT.__const: 0x1dffe0
+-  __TEXT.__cstring: 0x43c8a
++  __TEXT.__cstring: 0x43cb6
+   __TEXT.__dlopen_cstrs: 0xd5
+   __TEXT.__constg_swiftt: 0x1918
+   __TEXT.__swift5_typeref: 0x1a60
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  Functions: 14407
+-  Symbols:   18861
++  Functions: 14409
++  Symbols:   18863
+   CStrings:  11540
+ 
+Symbols:
++ GCC_except_table10059
++ GCC_except_table10462
++ GCC_except_table10465
++ GCC_except_table10479
++ GCC_except_table10480
++ GCC_except_table10486
++ GCC_except_table10487
++ GCC_except_table10493
++ GCC_except_table10498
++ GCC_except_table10501
++ GCC_except_table10504
++ GCC_except_table10510
++ GCC_except_table10514
++ GCC_except_table10524
++ GCC_except_table10527
++ GCC_except_table10638
++ GCC_except_table10648
++ GCC_except_table10649
++ GCC_except_table10678
++ GCC_except_table10679
++ GCC_except_table10682
++ GCC_except_table10683
++ GCC_except_table10686
++ GCC_except_table10687
++ GCC_except_table10692
++ GCC_except_table10693
++ GCC_except_table10696
++ GCC_except_table10699
++ GCC_except_table10704
++ GCC_except_table10705
++ GCC_except_table10709
++ GCC_except_table10731
++ GCC_except_table10744
++ GCC_except_table10745
++ GCC_except_table10750
++ GCC_except_table10773
++ GCC_except_table10783
++ GCC_except_table10789
++ GCC_except_table10793
++ GCC_except_table10794
++ GCC_except_table10838
++ GCC_except_table10841
++ GCC_except_table10845
++ GCC_except_table10846
++ GCC_except_table11063
++ GCC_except_table11066
++ GCC_except_table11067
++ GCC_except_table11070
++ GCC_except_table11073
++ GCC_except_table11074
++ GCC_except_table11078
++ GCC_except_table11079
++ GCC_except_table11086
++ GCC_except_table11091
++ GCC_except_table11104
++ GCC_except_table11109
++ GCC_except_table11113
++ GCC_except_table11270
++ GCC_except_table11284
++ GCC_except_table11285
++ GCC_except_table11748
++ GCC_except_table11749
++ GCC_except_table11807
++ GCC_except_table11813
++ GCC_except_table11816
++ GCC_except_table11819
++ GCC_except_table11824
++ GCC_except_table11825
++ GCC_except_table8837
++ GCC_except_table8842
++ GCC_except_table8858
++ GCC_except_table8866
++ GCC_except_table8882
++ GCC_except_table8885
++ GCC_except_table8896
++ GCC_except_table8961
++ GCC_except_table9034
++ GCC_except_table9038
++ GCC_except_table9279
++ GCC_except_table9308
++ GCC_except_table9314
++ GCC_except_table9484
++ GCC_except_table9520
++ GCC_except_table9523
++ GCC_except_table9524
++ GCC_except_table9530
++ GCC_except_table9537
++ GCC_except_table9540
++ GCC_except_table9545
++ GCC_except_table9710
++ GCC_except_table9727
++ GCC_except_table9753
++ GCC_except_table9754
++ GCC_except_table9758
++ GCC_except_table9762
++ GCC_except_table9763
++ GCC_except_table9766
++ GCC_except_table9771
++ GCC_except_table9777
++ GCC_except_table9784
++ GCC_except_table9785
++ GCC_except_table9895
++ GCC_except_table9899
++ GCC_except_table9909
++ GCC_except_table9910
++ GCC_except_table9922
++ GCC_except_table9930
++ _CGColorSpaceFromICCDataCacheSlotRelease
++ _colorspace_from_ICC_data_data_value_retain
+- GCC_except_table10057
+- GCC_except_table10460
+- GCC_except_table10463
+- GCC_except_table10477
+- GCC_except_table10478
+- GCC_except_table10484
+- GCC_except_table10485
+- GCC_except_table10491
+- GCC_except_table10496
+- GCC_except_table10499
+- GCC_except_table10502
+- GCC_except_table10508
+- GCC_except_table10512
+- GCC_except_table10522
+- GCC_except_table10525
+- GCC_except_table10636
+- GCC_except_table10646
+- GCC_except_table10647
+- GCC_except_table10675
+- GCC_except_table10676
+- GCC_except_table10680
+- GCC_except_table10681
+- GCC_except_table10684
+- GCC_except_table10685
+- GCC_except_table10688
+- GCC_except_table10691
+- GCC_except_table10694
+- GCC_except_table10697
+- GCC_except_table10701
+- GCC_except_table10702
+- GCC_except_table10707
+- GCC_except_table10727
+- GCC_except_table10739
+- GCC_except_table10742
+- GCC_except_table10748
+- GCC_except_table10771
+- GCC_except_table10781
+- GCC_except_table10782
+- GCC_except_table10787
+- GCC_except_table10791
+- GCC_except_table10834
+- GCC_except_table10835
+- GCC_except_table10843
+- GCC_except_table10844
+- GCC_except_table11059
+- GCC_except_table11060
+- GCC_except_table11065
+- GCC_except_table11068
+- GCC_except_table11069
+- GCC_except_table11072
+- GCC_except_table11076
+- GCC_except_table11077
+- GCC_except_table11084
+- GCC_except_table11088
+- GCC_except_table11089
+- GCC_except_table11093
+- GCC_except_table11111
+- GCC_except_table11268
+- GCC_except_table11282
+- GCC_except_table11283
+- GCC_except_table11745
+- GCC_except_table11746
+- GCC_except_table11805
+- GCC_except_table11811
+- GCC_except_table11812
+- GCC_except_table11815
+- GCC_except_table11820
+- GCC_except_table11823
+- GCC_except_table8835
+- GCC_except_table8840
+- GCC_except_table8856
+- GCC_except_table8864
+- GCC_except_table8878
+- GCC_except_table8883
+- GCC_except_table8892
+- GCC_except_table8959
+- GCC_except_table9030
+- GCC_except_table9036
+- GCC_except_table9277
+- GCC_except_table9304
+- GCC_except_table9312
+- GCC_except_table9482
+- GCC_except_table9512
+- GCC_except_table9515
+- GCC_except_table9522
+- GCC_except_table9528
+- GCC_except_table9535
+- GCC_except_table9536
+- GCC_except_table9541
+- GCC_except_table9708
+- GCC_except_table9725
+- GCC_except_table9748
+- GCC_except_table9751
+- GCC_except_table9755
+- GCC_except_table9756
+- GCC_except_table9760
+- GCC_except_table9764
+- GCC_except_table9769
+- GCC_except_table9770
+- GCC_except_table9775
+- GCC_except_table9781
+- GCC_except_table9893
+- GCC_except_table9897
+- GCC_except_table9907
+- GCC_except_table9908
+- GCC_except_table9920
+- GCC_except_table9928
+CStrings:
++ "^{CGColorSpace={__CFRuntimeBase=QAQ}{?=i}^{color_space_state}{_opaque_pthread_mutex_t=q[56c]}^{icc_data_cache_slot}}16@?0^{CGColorSpace={__CFRuntimeBase=QAQ}{?=i}^{color_space_state}{_opaque_pthread_mutex_t=q[56c]}^{icc_data_cache_slot}}8"
+- "^{CGColorSpace={__CFRuntimeBase=QAQ}{?=i}^{color_space_state}{_opaque_pthread_mutex_t=q[56c]}}16@?0^{CGColorSpace={__CFRuntimeBase=QAQ}{?=i}^{color_space_state}{_opaque_pthread_mutex_t=q[56c]}}8"
+```

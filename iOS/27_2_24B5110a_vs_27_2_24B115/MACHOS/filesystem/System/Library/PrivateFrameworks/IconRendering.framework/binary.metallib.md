@@ -1,0 +1,14 @@
+## binary.metallib
+
+> `/System/Library/PrivateFrameworks/IconRendering.framework/binary.metallib`
+
+```diff
+
+   __TEXT.__metallib: 0x820
+   __TEXT.__descriptor: 0x40
+-  __TEXT.__visible: 0x3bd0
++  __TEXT.__visible: 0x3bc0
+   __TEXT.__reflection: 0x3a0
+   Functions: 0
+   Symbols:   0
+```
