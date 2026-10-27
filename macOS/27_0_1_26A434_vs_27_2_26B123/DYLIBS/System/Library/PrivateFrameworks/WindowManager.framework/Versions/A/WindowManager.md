@@ -1,0 +1,484 @@
+## WindowManager
+
+> `/System/Library/PrivateFrameworks/WindowManager.framework/Versions/A/WindowManager`
+
+```diff
+
+-462.0.8.402.0
+-  __TEXT.__text: 0x10f668
+-  __TEXT.__objc_methlist: 0x22fc
+-  __TEXT.__cstring: 0x22c3
+-  __TEXT.__swift5_typeref: 0x45d7
+-  __TEXT.__const: 0x164b4
+-  __TEXT.__swift5_capture: 0x38c4
+-  __TEXT.__swift5_reflstr: 0x438d
+-  __TEXT.__swift5_assocty: 0x660
+-  __TEXT.__constg_swiftt: 0x4050
+-  __TEXT.__swift5_fieldmd: 0x4c9c
++462.1.41.404.0
++  __TEXT.__text: 0x11f6b4
++  __TEXT.__objc_methlist: 0x2474
++  __TEXT.__const: 0x17004
++  __TEXT.__cstring: 0x2563
++  __TEXT.__swift5_typeref: 0x457b
++  __TEXT.__swift5_capture: 0x46d0
++  __TEXT.__swift5_reflstr: 0x469d
++  __TEXT.__swift5_assocty: 0x748
++  __TEXT.__constg_swiftt: 0x41cc
++  __TEXT.__swift5_fieldmd: 0x4e9c
+   __TEXT.__swift5_builtin: 0x168
+-  __TEXT.__swift5_proto: 0xf5c
+-  __TEXT.__swift5_types: 0x594
+-  __TEXT.__oslogstring: 0x390d
+-  __TEXT.__swift5_protos: 0x68
+-  __TEXT.__swift5_mpenum: 0x60
++  __TEXT.__swift5_proto: 0x101c
++  __TEXT.__swift5_types: 0x5b0
++  __TEXT.__oslogstring: 0x3a6d
++  __TEXT.__swift5_protos: 0x6c
++  __TEXT.__swift5_mpenum: 0x58
+   __TEXT.__swift_as_entry: 0x10
+   __TEXT.__swift_as_ret: 0x4
+   __TEXT.__swift_as_cont: 0xc
+-  __TEXT.__unwind_info: 0x5410
+-  __TEXT.__eh_frame: 0x43b0
++  __TEXT.__unwind_info: 0x5970
++  __TEXT.__eh_frame: 0x4860
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xe70
+-  __DATA_CONST.__objc_classlist: 0x1a8
++  __DATA_CONST.__const: 0xee8
++  __DATA_CONST.__objc_classlist: 0x1b8
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x50
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1098
++  __DATA_CONST.__objc_selrefs: 0x1118
+   __DATA_CONST.__objc_protorefs: 0x30
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x129c0
+-  __AUTH_CONST.__objc_const: 0x4ce0
+-  __AUTH_CONST.__auth_got: 0xf10
+-  __AUTH_CONST.__auth_ptr: 0x9b0
+-  __AUTH.__objc_data: 0xed0
+-  __AUTH.__data: 0x1090
+-  __DATA.__data: 0x2d90
+-  __DATA.__bss: 0x19ef0
++  __AUTH_CONST.__const: 0x151f0
++  __AUTH_CONST.__objc_const: 0x4f30
++  __AUTH_CONST.__auth_got: 0xfa0
++  __AUTH_CONST.__auth_ptr: 0x9b8
++  __AUTH.__objc_data: 0x1060
++  __AUTH.__data: 0x1168
++  __DATA.__data: 0x2e00
++  __DATA.__bss: 0x1b3d0
+   __DATA.__common: 0x80
+-  __DATA_DIRTY.__objc_data: 0xcd0
+-  __DATA_DIRTY.__data: 0x1c58
++  __DATA_DIRTY.__objc_data: 0xcc8
++  __DATA_DIRTY.__data: 0x1c68
+   __DATA_DIRTY.__bss: 0x4c00
+   __DATA_DIRTY.__common: 0x40
+   - /System/Library/Frameworks/Combine.framework/Versions/A/Combine
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 12069
+-  Symbols:   3175
+-  CStrings:  461
++  Functions: 12945
++  Symbols:   3262
++  CStrings:  484
+ 
+Symbols:
++ _OBJC_CLASS_$_WindowManagerXPCAppExposeTarget
++ _OBJC_CLASS_$_WindowManagerXPCExposeExitReason
++ _OBJC_METACLASS_$_WindowManagerXPCAppExposeTarget
++ _OBJC_METACLASS_$_WindowManagerXPCExposeExitReason
++ _PROTOCOLS_WindowManagerXPCAppExposeTarget
++ _PROTOCOLS_WindowManagerXPCExposeExitReason
++ __CLASS_METHODS_WindowManagerXPCAppExposeTarget
++ __CLASS_METHODS_WindowManagerXPCExposeExitReason
++ __CLASS_PROPERTIES_WindowManagerXPCAppExposeTarget
++ __CLASS_PROPERTIES_WindowManagerXPCExposeExitReason
++ __DATA_WindowManagerXPCAppExposeTarget
++ __DATA_WindowManagerXPCExposeExitReason
++ __INSTANCE_METHODS_WindowManagerXPCAppExposeTarget
++ __INSTANCE_METHODS_WindowManagerXPCExposeExitReason
++ __IVARS_WindowManagerXPCAppExposeTarget
++ __IVARS_WindowManagerXPCExposeExitReason
++ __METACLASS_DATA_WindowManagerXPCAppExposeTarget
++ __METACLASS_DATA_WindowManagerXPCExposeExitReason
++ __PROTOCOLS_WindowManagerXPCAppExposeTarget
++ __PROTOCOLS_WindowManagerXPCExposeExitReason
++ ___swift_closure_destructorTm
++ ___swift_memcpy20_8
++ ___swift_memcpy21_8
++ ___swift_memcpy25_8
++ ___swift_memcpy41_8
++ ___swift_memcpy57_8
++ ___swift_memcpy848_8
++ __swift_closure_destructor.259Tm
++ __swift_closure_destructor.36Tm
++ _associated conformance 13WindowManager05StageB18StripSystemGestureV13ConfigurationV9DirectionOs12CaseIterableAA8AllCasessAHP_Sl
++ _associated conformance 13WindowManager0aB16ExposeExitReasonOSHAASQ
++ _associated conformance 13WindowManager0aB19XPCExposeExitReasonC0cdE033_64AD4EA429A28A74578518DEF3F56893LLOSHAASQ
++ _associated conformance 13WindowManager0ab5StageB12StripShownByOSHAASQ
++ _associated conformance 13WindowManager0ab5StageB14DesktopShownByOSHAASQ
++ _associated conformance 13WindowManager11SpaceChangeO04TileA14LeftCodingKeys33_E266334793C092EF1EED0ACD4625DC08LLOSHAASQ
++ _associated conformance 13WindowManager11SpaceChangeO04TileA14LeftCodingKeys33_E266334793C092EF1EED0ACD4625DC08LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 13WindowManager11SpaceChangeO04TileA14LeftCodingKeys33_E266334793C092EF1EED0ACD4625DC08LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13WindowManager11SpaceChangeO04TileA16JoinedCodingKeys33_E266334793C092EF1EED0ACD4625DC08LLOSHAASQ
++ _associated conformance 13WindowManager11SpaceChangeO04TileA16JoinedCodingKeys33_E266334793C092EF1EED0ACD4625DC08LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 13WindowManager11SpaceChangeO04TileA16JoinedCodingKeys33_E266334793C092EF1EED0ACD4625DC08LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13WindowManager19ExposeSystemGestureV13ConfigurationV9DirectionOs12CaseIterableAA8AllCasessAHP_Sl
++ _associated conformance 13WindowManager19ShieldSystemGestureV13ConfigurationVSHAASQ
++ _associated conformance 13WindowManager19ShieldSystemGestureVAA0dE10DescriptorAA13ConfigurationAaDP_SH
++ _associated conformance 13WindowManager21FallbackSystemGestureV13ConfigurationVSHAASQ
++ _associated conformance 13WindowManager21FallbackSystemGestureVAA0dE10DescriptorAA13ConfigurationAaDP_SH
++ _keypath_get_selector_HotEdgeSpaceSwitchTouchPadding
++ _keypath_get_selector_MissionControlTopZoneTouchPadding
++ _keypath_get_selector_MissionControlTopZoneTouchPostEntryDistance
++ _keypath_get_selector_ShowDesktopTouchEdgeInsetInInches
++ _keypath_get_selector_TilingTouchHotzonePadding
++ _keypath_get_selector_appExposeMinimumPointCount
++ _keypath_get_selector_missionControlMinimumPointCount
++ _keypath_get_selector_spaceSwapMinimumPointCount
++ _objc_msgSend$AppExposeAppSwapReferenceDistanceInInches
++ _objc_msgSend$CampoHideStartTimeout
++ _objc_msgSend$CampoShowStartTimeout
++ _objc_msgSend$ControlCenterHideStartTimeout
++ _objc_msgSend$DockBottomShowRegionEdgePadding
++ _objc_msgSend$DockHideStartTimeout
++ _objc_msgSend$ExposeReferenceDistanceInInches
++ _objc_msgSend$HotEdgeSpaceSwitchTouchPadding
++ _objc_msgSend$MenuBarHideStartTimeout
++ _objc_msgSend$MissionControlTopZoneTouchPadding
++ _objc_msgSend$MissionControlTopZoneTouchPostEntryDistance
++ _objc_msgSend$ModalSystemGestureMaximumPointTimeSeparation
++ _objc_msgSend$ModalSystemGestureScaleHysteresis
++ _objc_msgSend$ModalSystemGestureTranslationHysteresis
++ _objc_msgSend$NotificationCenterHideStartTimeout
++ _objc_msgSend$NotificationCenterReferenceScale
++ _objc_msgSend$ShowDesktopReferenceSeparationInInches
++ _objc_msgSend$ShowDesktopTouchEdgeInsetInInches
++ _objc_msgSend$SpaceSwapReferenceScale
++ _objc_msgSend$SpotlightAppsReferenceSeparationInInches
++ _objc_msgSend$StageManagerStripHideStartTimeout
++ _objc_msgSend$StageManagerStripReferenceScale
++ _objc_msgSend$TilingTouchHotzonePadding
++ _objc_msgSend$appExposeMinimumPointCount
++ _objc_msgSend$missionControlMinimumPointCount
++ _objc_msgSend$setAppExposeAppSwapReferenceDistanceInInches:
++ _objc_msgSend$setAppExposeMinimumPointCount:
++ _objc_msgSend$setCampoHideStartTimeout:
++ _objc_msgSend$setCampoShowStartTimeout:
++ _objc_msgSend$setControlCenterHideStartTimeout:
++ _objc_msgSend$setDockBottomShowRegionEdgePadding:
++ _objc_msgSend$setDockHideStartTimeout:
++ _objc_msgSend$setExposeReferenceDistanceInInches:
++ _objc_msgSend$setHotEdgeSpaceSwitchTouchPadding:
++ _objc_msgSend$setMenuBarHideStartTimeout:
++ _objc_msgSend$setMissionControlMinimumPointCount:
++ _objc_msgSend$setMissionControlTopZoneTouchPadding:
++ _objc_msgSend$setMissionControlTopZoneTouchPostEntryDistance:
++ _objc_msgSend$setModalSystemGestureMaximumPointTimeSeparation:
++ _objc_msgSend$setModalSystemGestureScaleHysteresis:
++ _objc_msgSend$setModalSystemGestureTranslationHysteresis:
++ _objc_msgSend$setNotificationCenterHideStartTimeout:
++ _objc_msgSend$setNotificationCenterReferenceScale:
++ _objc_msgSend$setShowDesktopReferenceSeparationInInches:
++ _objc_msgSend$setShowDesktopTouchEdgeInsetInInches:
++ _objc_msgSend$setSpaceSwapMinimumPointCount:
++ _objc_msgSend$setSpaceSwapReferenceScale:
++ _objc_msgSend$setSpotlightAppsReferenceSeparationInInches:
++ _objc_msgSend$setStageManagerStripHideStartTimeout:
++ _objc_msgSend$setStageManagerStripReferenceScale:
++ _objc_msgSend$setTilingTouchHotzonePadding:
++ _objc_msgSend$spaceSwapMinimumPointCount
++ _objc_msgSend$xpcExposeCoordinator:exitExposeWithReason:completion:
++ _objc_msgSend$xpcRevealWindowFromShowDesktop:windowID:completion:
++ _objc_msgSend$xpcSetAppExposeHoverTarget:completion:
++ _swift_getOpaqueTypeConformance2
++ _swift_unknownObjectRetain_n
++ _symbolic $s13WindowManager31SystemGestureTrackpadResolvableP
++ _symbolic Say_____G 13WindowManager05StageB18StripSystemGestureV13ConfigurationV9DirectionO
++ _symbolic Say_____G 13WindowManager19ExposeSystemGestureV13ConfigurationV9DirectionO
++ _symbolic Say_____G 8Gestures14PanComponentV2V7OptionsV
++ _symbolic Say_____ySo14NSUserDefaultsCypSgGG s24ReferenceWritableKeyPathC
++ _symbolic SiSg
++ _symbolic _____ 13WindowManager09AppExposeC17SwapSystemGestureV5ValueV
++ _symbolic _____ 13WindowManager0aB16ExposeExitReasonO
++ _symbolic _____ 13WindowManager0aB18XPCAppExposeTargetC
++ _symbolic _____ 13WindowManager0aB19XPCExposeExitReasonC
++ _symbolic _____ 13WindowManager0aB19XPCExposeExitReasonC0cdE033_64AD4EA429A28A74578518DEF3F56893LLO
++ _symbolic _____ 13WindowManager0ab5StageB12StripShownByO
++ _symbolic _____ 13WindowManager0ab5StageB14DesktopShownByO
++ _symbolic _____ 13WindowManager11SpaceChangeO04TileA14LeftCodingKeys33_E266334793C092EF1EED0ACD4625DC08LLO
++ _symbolic _____ 13WindowManager11SpaceChangeO04TileA16JoinedCodingKeys33_E266334793C092EF1EED0ACD4625DC08LLO
++ _symbolic _____ 13WindowManager19ExposeSystemGestureV5ValueV
++ _symbolic _____ 13WindowManager19ShieldSystemGestureV
++ _symbolic _____ 13WindowManager19ShieldSystemGestureV13ConfigurationV
++ _symbolic _____ 13WindowManager20SystemGestureContextV
++ _symbolic _____ 13WindowManager21FallbackSystemGestureV
++ _symbolic _____ 13WindowManager21FallbackSystemGestureV13ConfigurationV
++ _symbolic _____ 13WindowManager22SpaceSwapSystemGestureV5ValueV
++ _symbolic _____ 13WindowManager24ShowDesktopSystemGestureV5ValueV
++ _symbolic _____ 13WindowManager26SpotlightAppsSystemGestureV5ValueV
++ _symbolic _____ 13WindowManager31NotificationCenterSystemGestureV5ValueV
++ _symbolic _____ 8Gestures13GestureNodeIDV
++ _symbolic _____3key______Sg5valuet s6UInt64V s6UInt32V
++ _symbolic _____5value______9blockedByt 8Gestures13ProgressValueV AA13GestureNodeIDV
++ _symbolic _____5value______9blockedByt 8Gestures15OpaqueDataEventV7PayloadV AA13GestureNodeIDV
++ _symbolic _____5value______9blockedByt 8Gestures17PanComponentValueV AA13GestureNodeIDV
++ _symbolic _____5value______9blockedByt 8Gestures23LongPressComponentValueV AA13GestureNodeIDV
++ _symbolic _____5value______9blockedByt 8Gestures23TransformComponentValueV AA13GestureNodeIDV
++ _symbolic _____Sg 12CoreGraphics7CGFloatV
++ _symbolic _____Sg 8Gestures20GestureFailureReasonO
++ _symbolic _____Sg So6CGSizeV
++ _symbolic ______AA13parentSpaceID_____06windowC0t s6UInt64V s6UInt32V
++ _symbolic ______AA13parentSpaceIDt s6UInt64V
++ _symbolic _____ySnySiGG s23_ContiguousArrayStorageC
++ _symbolic _____y_____3key______Sg5valuetG s23_ContiguousArrayStorageC s6UInt64V s6UInt32V
++ _symbolic _____y_____ABG 8Gestures5OneOfO AA17PanComponentValueV
++ _symbolic _____y_____ABG5value______9blockedByt 8Gestures5OneOfO AA17PanComponentValueV AA13GestureNodeIDV
++ _symbolic _____y_____G 13WindowManager6XPCBox33_64AD4EA429A28A74578518DEF3F56893LLV AA0aB19XPCExposeExitReasonC0jkL0ACLLO
++ _symbolic _____y_____G 8Gestures12GesturePhaseO AA13ProgressValueV
++ _symbolic _____y_____G 8Gestures12GesturePhaseO AA23TransformComponentValueV
++ _symbolic _____y_____G 8Gestures16GestureParameterV AA7Angle2DV
++ _symbolic _____y_____G 8Gestures17GestureRecognizerC AA18TransformComponentV
++ _symbolic _____y_____G 8Gestures17GestureRecognizerC AA21OpaqueDataComponentV2V
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13WindowManager11SpaceChangeO04TileD14LeftCodingKeys33_E266334793C092EF1EED0ACD4625DC08LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13WindowManager11SpaceChangeO04TileD16JoinedCodingKeys33_E266334793C092EF1EED0ACD4625DC08LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13WindowManager11SpaceChangeO04TileD14LeftCodingKeys33_E266334793C092EF1EED0ACD4625DC08LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13WindowManager11SpaceChangeO04TileD16JoinedCodingKeys33_E266334793C092EF1EED0ACD4625DC08LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 8Gestures19OpaqueDataPredicateV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 8Gestures19OpaqueDataPredicateV9ConditionV
++ _symbolic _____y______Qo_ 8Gestures16GestureComponentPAAE12regionFilteryQrAA0B9ParameterVySaySo6CGRectVGGFQO AA03PanC2V2V
++ _symbolic _____y______Qo_ 8Gestures16GestureComponentPAAE12regionFilteryQrAA0B9ParameterVySaySo6CGRectVGGFQO AA07EdgePanC0V
++ _symbolic _____y__________G s17_NativeDictionaryV 8Gestures15OpaqueDataEventV8FieldKeyV AE0G0O
++ _symbolic _____y______y______y______y_So14NSUserDefaultsCypSgGGGSo17OS_dispatch_queueCG 7Combine10PublishersO8DebounceV AC9MergeManyV AC4DropV So8NSObjectC10FoundationE26KeyValueObservingPublisherV
++ _symbolic _____y______y______y______y_So14NSUserDefaultsCypSgGGGytG 7Combine10PublishersO3MapV AC9MergeManyV AC4DropV So8NSObjectC10FoundationE26KeyValueObservingPublisherV
++ _symbolic _____y______y______y______y______y_So14NSUserDefaultsCypSgGGGytG_____yyt_____GG 7Combine10PublishersO5MergeV AC3MapV AC0C4ManyV AC4DropV So8NSObjectC10FoundationE26KeyValueObservingPublisherV AA18PassthroughSubjectC s5NeverO
++ _symbolic _____y______y______y______y______y______y_So14NSUserDefaultsCypSgGGGytG_____yyt_____GGSo17OS_dispatch_queueCG 7Combine10PublishersO8DebounceV AC5MergeV AC3MapV AC0D4ManyV AC4DropV So8NSObjectC10FoundationE26KeyValueObservingPublisherV AA18PassthroughSubjectC s5NeverO
++ _symbolic _____y_____y_____ACGG 8Gestures12GesturePhaseO AA5OneOfO AA17PanComponentValueV
++ _symbolic _____y_____y______Qo_G 8Gestures17GestureRecognizerC AA0B9ComponentPAAE12regionFilteryQrAA0B9ParameterVySaySo6CGRectVGGFQO AA03PanD2V2V
++ _symbolic _____y_____y______Qo_G 8Gestures17GestureRecognizerC AA0B9ComponentPAAE12regionFilteryQrAA0B9ParameterVySaySo6CGRectVGGFQO AA07EdgePanD0V
++ _symbolic _____y_____y______Qo__Qo_ 8Gestures16GestureComponentPA2A03PanC5ValueV0E0RtzrlE19translationProgress5along9referenceQrAA20TranslationDirectionO_SdtFQO AcAE12regionFilteryQrAA0B9ParameterVySaySo6CGRectVGGFQO AA04EdgedC0V
++ _symbolic _____y_____y______Qo__Qo_ 8Gestures16GestureComponentPA2A03PanC5ValueV0E0RtzrlE19translationProgress5along9referenceQrAA20TranslationDirectionO_SdtFQO AcAE12regionFilteryQrAA0B9ParameterVySaySo6CGRectVGGFQO AA0dC2V2V
++ _symbolic _____y_____y______Qo______y______Qo_Qo_ 8Gestures7firstOfyQrx_q_tAA16GestureComponentRzAaCR_AA09RebasableD5Value0G0RpzAadERp_r0_lFQO AaCPAAE12regionFilteryQrAA0D9ParameterVySaySo6CGRectVGGFQO AA07EdgePanE0V AhAEAIyQrAOFQO AA0mE2V2V
++ _symbolic _____y_____y_____y______Qo__Qo__Qo_ 8Gestures16GestureComponentPA2A13ProgressValueV0E0RtzrlE013commitOnFinalE08reaching11inertiaTimeQrSd_AA0K8DurationVtFQO Ac2A03PancE0VAGRSrlE011translationD05along9referenceQrAA20TranslationDirectionO_SdtFQO AcAE12regionFilteryQrAA0B9ParameterVySaySo6CGRectVGGFQO AA04EdgemC0V
++ _symbolic _____y_____y_____y______Qo__Qo__Qo_ 8Gestures16GestureComponentPA2A13ProgressValueV0E0RtzrlE013commitOnFinalE08reaching11inertiaTimeQrSd_AA0K8DurationVtFQO Ac2A03PancE0VAGRSrlE011translationD05along9referenceQrAA20TranslationDirectionO_SdtFQO AcAE12regionFilteryQrAA0B9ParameterVySaySo6CGRectVGGFQO AA0mC2V2V
++ _symbolic _____y_____y_____y______Qo______y______Qo_Qo_G 8Gestures17GestureRecognizerC AA7firstOfyQrx_q_tAA0B9ComponentRzAaER_AA09RebasableB5Value0H0RpzAafGRp_r0_lFQO AaEPAAE12regionFilteryQrAA0B9ParameterVySaySo6CGRectVGGFQO AA07EdgePanF0V AjAEAKyQrAQFQO AA0nF2V2V
++ _symbolic _____y_____y_____y_____y______Qo__Qo__Qo_G 8Gestures17GestureRecognizerC AA0B9ComponentPA2A13ProgressValueV0F0RtzrlE013commitOnFinalF08reaching11inertiaTimeQrSd_AA0L8DurationVtFQO Ae2A03PandF0VAIRSrlE011translationE05along9referenceQrAA20TranslationDirectionO_SdtFQO AeAE12regionFilteryQrAA0B9ParameterVySaySo6CGRectVGGFQO AA04EdgenD0V
++ _symbolic _____y_____y_____y_____y______Qo__Qo__Qo_G 8Gestures17GestureRecognizerC AA0B9ComponentPA2A13ProgressValueV0F0RtzrlE013commitOnFinalF08reaching11inertiaTimeQrSd_AA0L8DurationVtFQO Ae2A03PandF0VAIRSrlE011translationE05along9referenceQrAA20TranslationDirectionO_SdtFQO AeAE12regionFilteryQrAA0B9ParameterVySaySo6CGRectVGGFQO AA0nD2V2V
++ _symbolic y_____y_____Gc 13WindowManager18SystemGesturePhaseO AA011ShowDesktopcD0V5ValueV
++ _symbolic y_____y_____Gc 13WindowManager18SystemGesturePhaseO AA013SpotlightAppscD0V5ValueV
++ _symbolic y_____y_____Gc 13WindowManager18SystemGesturePhaseO AA018NotificationCentercD0V5ValueV
++ _symbolic y_____y_____Gc 13WindowManager18SystemGesturePhaseO AA06ExposecD0V5ValueV
++ _symbolic y_____y_____Gc 13WindowManager18SystemGesturePhaseO AA09AppExposef4SwapcD0V5ValueV
++ _symbolic y_____y_____Gc 13WindowManager18SystemGesturePhaseO AA09SpaceSwapcD0V5ValueV
++ _symbolic y_____yytGc 13WindowManager18SystemGesturePhaseO
++ _symbolic yt
++ _type_layout_string 13WindowManager09AppExposeC17SwapSystemGestureV5ValueV
++ _type_layout_string 13WindowManager19ExposeSystemGestureV5ValueV
++ _type_layout_string 13WindowManager19ShieldSystemGestureV
++ _type_layout_string 13WindowManager20SystemGestureContextV
++ _type_layout_string 13WindowManager21FallbackSystemGestureV
++ _type_layout_string 13WindowManager22SpaceSwapSystemGestureV5ValueV
++ _type_layout_string 13WindowManager24ShowDesktopSystemGestureV5ValueV
++ _type_layout_string 13WindowManager26SpotlightAppsSystemGestureV5ValueV
++ _type_layout_string 13WindowManager31NotificationCenterSystemGestureV5ValueV
++ _type_layout_string So6CGSizeV
+- _OUTLINED_FUNCTION_237
+- _OUTLINED_FUNCTION_238
+- _OUTLINED_FUNCTION_239
+- _OUTLINED_FUNCTION_240
+- _OUTLINED_FUNCTION_241
+- ___swift_memcpy50_8
+- ___swift_memcpy800_8
+- ___swift_memcpy96_8
+- ___swift_memcpy9_1
+- __swift_closure_destructor.253Tm
+- _objc_msgSend$AppExposeAppSwapCommitDistanceInInches
+- _objc_msgSend$AppExposeAppSwapHysteresis
+- _objc_msgSend$AppExposeAppSwapPointCountTimeout
+- _objc_msgSend$AppExposeAppSwapVelocityScale
+- _objc_msgSend$ExposeCommitDistanceInInches
+- _objc_msgSend$ExposeEnterHysteresis
+- _objc_msgSend$ExposeExitHysteresis
+- _objc_msgSend$ExposePointCountTimeout
+- _objc_msgSend$ExposeVelocityScale
+- _objc_msgSend$ShowDesktopCommitScaleRatio
+- _objc_msgSend$ShowDesktopEnterHysteresis
+- _objc_msgSend$ShowDesktopExitHysteresis
+- _objc_msgSend$ShowDesktopPointCountTimeout
+- _objc_msgSend$ShowDesktopVelocityScale
+- _objc_msgSend$SpaceSwapHysteresis
+- _objc_msgSend$SpaceSwapPointCountTimeout
+- _objc_msgSend$SpotlightAppsHideHysteresis
+- _objc_msgSend$SpotlightAppsPointCountTimeout
+- _objc_msgSend$SpotlightAppsShowHysteresis
+- _objc_msgSend$setAppExposeAppSwapCommitDistanceInInches:
+- _objc_msgSend$setAppExposeAppSwapHysteresis:
+- _objc_msgSend$setAppExposeAppSwapPointCountTimeout:
+- _objc_msgSend$setAppExposeAppSwapVelocityScale:
+- _objc_msgSend$setExposeCommitDistanceInInches:
+- _objc_msgSend$setExposeEnterHysteresis:
+- _objc_msgSend$setExposeExitHysteresis:
+- _objc_msgSend$setExposePointCountTimeout:
+- _objc_msgSend$setExposeVelocityScale:
+- _objc_msgSend$setShowDesktopCommitScaleRatio:
+- _objc_msgSend$setShowDesktopEnterHysteresis:
+- _objc_msgSend$setShowDesktopExitHysteresis:
+- _objc_msgSend$setShowDesktopPointCountTimeout:
+- _objc_msgSend$setShowDesktopVelocityScale:
+- _objc_msgSend$setSpaceSwapHysteresis:
+- _objc_msgSend$setSpaceSwapPointCountTimeout:
+- _objc_msgSend$setSpotlightAppsHideHysteresis:
+- _objc_msgSend$setSpotlightAppsPointCountTimeout:
+- _objc_msgSend$setSpotlightAppsShowHysteresis:
+- _objc_msgSend$xpcSetSpaceChangeDeltasEnabledWithExposeCoordinator:enabled:completion:
+- _symbolic SDy__________G 8Gestures15OpaqueDataEventV8FieldKeyV AC0E0O
+- _symbolic _____ 13WindowManager09AppExposeC17SwapSystemGestureV5ValueO
+- _symbolic _____ 13WindowManager09AppExposeC17SwapSystemGestureV5ValueO12TrackpadInfoV
+- _symbolic _____ 13WindowManager19ExposeSystemGestureV5ValueO
+- _symbolic _____ 13WindowManager19ExposeSystemGestureV5ValueO12TrackpadInfoV
+- _symbolic _____ 13WindowManager22SpaceSwapSystemGestureV5ValueO
+- _symbolic _____ 13WindowManager22SpaceSwapSystemGestureV5ValueO12TrackpadInfoV
+- _symbolic _____ 13WindowManager24ShowDesktopSystemGestureV5ValueO
+- _symbolic _____ 13WindowManager24ShowDesktopSystemGestureV5ValueO12TrackpadInfoV
+- _symbolic _____ 13WindowManager26SpotlightAppsSystemGestureV5ValueO
+- _symbolic _____ 13WindowManager26SpotlightAppsSystemGestureV5ValueO12TrackpadInfoV
+- _symbolic _____ 13WindowManager31NotificationCenterSystemGestureV5ValueO
+- _symbolic _____ 13WindowManager31NotificationCenterSystemGestureV5ValueO12TrackpadInfoV
+- _symbolic _____ 8Gestures15OpaqueDataEventV
+- _symbolic _____ 8Gestures15OpaqueDataEventV5FieldO
+- _symbolic _____ 8Gestures15OpaqueDataEventV7PayloadV
+- _symbolic _____y_AAy______y______G_____GSDy__________GG 10Foundation20PredicateExpressionsO7KeyPathV AC8VariableV 8Gestures15OpaqueDataEventV AJ7PayloadV AJ05FieldD0V AJ0L0O
+- _symbolic _____y_AAy______y______y______y_ADy______y______G_____GSDy__________GG_____y_AJGAKGANy_AKSgGGASG_____y_ANy______yAF_QPGGAG_QPGG 10Foundation20PredicateExpressionsO11ConjunctionV AC5EqualV AC22DictionaryKeySubscriptV AC0G4PathV AC8VariableV 8Gestures15OpaqueDataEventV AP7PayloadV AP05FieldG0V AP0P0O AC5ValueV AC0B8EvaluateV AA0B0V
+- _symbolic _____y_SbG 10Foundation20PredicateExpressionsO5ValueV
+- _symbolic _____y_SdG 10Foundation20PredicateExpressionsO5ValueV
+- _symbolic _____y_____G 8Gestures17GestureRecognizerC AA19OpaqueDataComponentV
+- _symbolic _____y_____G 8Gestures17GestureRecognizerC AA20RegionPanComponentV2V
+- _symbolic _____y_____G 8Gestures17GestureRecognizerC AA22RegionEdgePanComponentV
+- _symbolic _____y______G 10Foundation20PredicateExpressionsO5ValueV 8Gestures15OpaqueDataEventV8FieldKeyV
+- _symbolic _____y______G 10Foundation20PredicateExpressionsO8VariableV 8Gestures15OpaqueDataEventV
+- _symbolic _____y______G 10Foundation20PredicateExpressionsO8VariableV 8Gestures15OpaqueDataEventV5FieldO
+- _symbolic _____y______QPG 10Foundation9PredicateV 8Gestures15OpaqueDataEventV
+- _symbolic _____y______QPGSg 10Foundation9PredicateV 8Gestures15OpaqueDataEventV
+- _symbolic _____y______SgG 10Foundation20PredicateExpressionsO5ValueV 8Gestures15OpaqueDataEventV5FieldO
+- _symbolic _____y______pG s23_ContiguousArrayStorageC 13WindowManager23SystemGestureDescriptorP
+- _symbolic _____y______y_ABy______y______G_____GSDy__________GG_____y_AHGAIG 10Foundation20PredicateExpressionsO22DictionaryKeySubscriptV AC0E4PathV AC8VariableV 8Gestures15OpaqueDataEventV AL7PayloadV AL05FieldE0V AL0N0O AC5ValueV
+- _symbolic _____y______y______GSdSgG 10Foundation20PredicateExpressionsO7KeyPathV AC8VariableV 8Gestures15OpaqueDataEventV5FieldO
+- _symbolic _____y______y______G_____G 10Foundation20PredicateExpressionsO7KeyPathV AC8VariableV 8Gestures15OpaqueDataEventV AJ7PayloadV
+- _symbolic _____y______y______QPGG 10Foundation20PredicateExpressionsO5ValueV AA0B0V 8Gestures15OpaqueDataEventV
+- _symbolic _____y______y______y_ACy______y______G_____GSDy__________GG_____y_AIGAJGAMy_AJSgGG 10Foundation20PredicateExpressionsO5EqualV AC22DictionaryKeySubscriptV AC0F4PathV AC8VariableV 8Gestures15OpaqueDataEventV AN7PayloadV AN05FieldF0V AN0O0O AC5ValueV
+- _symbolic _____y______y______y_ACy______y______G_____GSDy__________GG_____y_AIGAJGAjCy_ADy_AJGSdSgGSdG 10Foundation20PredicateExpressionsO15OptionalFlatMapV AC22DictionaryKeySubscriptV AC0H4PathV AC8VariableV 8Gestures15OpaqueDataEventV AN7PayloadV AN05FieldH0V AN0Q0O AC5ValueV
+- _symbolic _____y______y______y______QPGG_____y_ADG_QPG 10Foundation20PredicateExpressionsO0B8EvaluateV AC5ValueV AA0B0V 8Gestures15OpaqueDataEventV AC8VariableV
+- _symbolic _____y______y______y______y_ADy______y______G_____GSDy__________GG_____y_AJGAKGANy_AKSgGGASG 10Foundation20PredicateExpressionsO11ConjunctionV AC5EqualV AC22DictionaryKeySubscriptV AC0G4PathV AC8VariableV 8Gestures15OpaqueDataEventV AP7PayloadV AP05FieldG0V AP0P0O AC5ValueV
+- _symbolic _____y______y______y______y_ADy______y______G_____GSDy__________GG_____y_AJGAKGANy_AKSgGG_____y_ANy______yAF_QPGGAG_QPGG 10Foundation20PredicateExpressionsO11ConjunctionV AC5EqualV AC22DictionaryKeySubscriptV AC0G4PathV AC8VariableV 8Gestures15OpaqueDataEventV AP7PayloadV AP05FieldG0V AP0P0O AC5ValueV AC0B8EvaluateV AA0B0V
+- _symbolic _____y______y______y______y_ADy______y______G_____GSDy__________GG_____y_AJGAKGANy_AKSgGG_____y______y______y_ApkDy_AEy_AKGSdSgGSdGANy_SdGGA_GG 10Foundation20PredicateExpressionsO11ConjunctionV AC5EqualV AC22DictionaryKeySubscriptV AC0G4PathV AC8VariableV 8Gestures15OpaqueDataEventV AP7PayloadV AP05FieldG0V AP0P0O AC5ValueV AC10ComparisonV AC11NilCoalesceV AC15OptionalFlatMapV
+- _symbolic _____y______y______y______y_ADy______y______G_____GSDy__________GG_____y_AJGAKGAkDy_AEy_AKGSdSgGSdGANy_SdGG 10Foundation20PredicateExpressionsO11NilCoalesceV AC15OptionalFlatMapV AC22DictionaryKeySubscriptV AC0J4PathV AC8VariableV 8Gestures15OpaqueDataEventV AP7PayloadV AP05FieldJ0V AP0S0O AC5ValueV
+- _symbolic _____y______y______y______y______QPGG_____y_AEG_QPGAJG 10Foundation20PredicateExpressionsO11DisjunctionV AC0B8EvaluateV AC5ValueV AA0B0V 8Gestures15OpaqueDataEventV AC8VariableV
+- _symbolic _____y______y______y______y______y_AEy______y______G_____GSDy__________GG_____y_AKGALGAlEy_AFy_ALGSdSgGSdGAOy_SdGGAVG 10Foundation20PredicateExpressionsO10ComparisonV AC11NilCoalesceV AC15OptionalFlatMapV AC22DictionaryKeySubscriptV AC0K4PathV AC8VariableV 8Gestures15OpaqueDataEventV AR7PayloadV AR05FieldK0V AR0T0O AC5ValueV
+- _symbolic _____y______y______y______yypSg_____GytG_____yytAFGGSo17OS_dispatch_queueCG 7Combine10PublishersO8DebounceV AC5MergeV AC3MapV AA12AnyPublisherV s5NeverO AA18PassthroughSubjectC
+- _symbolic _____y______y______yypSg_____GytG_____yytAEGG 7Combine10PublishersO5MergeV AC3MapV AA12AnyPublisherV s5NeverO AA18PassthroughSubjectC
+- _symbolic _____y______yypSg_____GSo17OS_dispatch_queueCG 7Combine10PublishersO8DebounceV AA12AnyPublisherV s5NeverO
+- _symbolic _____y______yypSg_____G_____y______y_So14NSUserDefaultsCACGGG 7Combine10PublishersO5MergeV AA12AnyPublisherV s5NeverO AC4DropV So8NSObjectC10FoundationE017KeyValueObservingE0V
+- _symbolic _____y______yypSg_____GytG 7Combine10PublishersO3MapV AA12AnyPublisherV s5NeverO
+- _symbolic _____yypSg_____G 7Combine12AnyPublisherV s5NeverO
+- _symbolic _____yypSg_____G 7Combine5EmptyV s5NeverO
+- _symbolic y_____y_____Gc 13WindowManager18SystemGesturePhaseO AA011ShowDesktopcD0V5ValueO
+- _symbolic y_____y_____Gc 13WindowManager18SystemGesturePhaseO AA013SpotlightAppscD0V5ValueO
+- _symbolic y_____y_____Gc 13WindowManager18SystemGesturePhaseO AA018NotificationCentercD0V5ValueO
+- _symbolic y_____y_____Gc 13WindowManager18SystemGesturePhaseO AA06ExposecD0V5ValueO
+- _symbolic y_____y_____Gc 13WindowManager18SystemGesturePhaseO AA09AppExposef4SwapcD0V5ValueO
+- _symbolic y_____y_____Gc 13WindowManager18SystemGesturePhaseO AA09SpaceSwapcD0V5ValueO
+- _type_layout_string 13WindowManager09AppExposeC17SwapSystemGestureV5ValueO12TrackpadInfoV
+- _type_layout_string 13WindowManager19ExposeSystemGestureV5ValueO12TrackpadInfoV
+- _type_layout_string 13WindowManager22SpaceSwapSystemGestureV5ValueO12TrackpadInfoV
+- _type_layout_string 13WindowManager24ShowDesktopSystemGestureV5ValueO12TrackpadInfoV
+- _type_layout_string 13WindowManager26SpotlightAppsSystemGestureV5ValueO12TrackpadInfoV
+- _type_layout_string 13WindowManager31NotificationCenterSystemGestureV5ValueO12TrackpadInfoV
+- _type_layout_string So8CGVectorV
+CStrings:
++ ", contentWidth: "
++ ", displayPointsPerInch: "
++ ", displayWidth: "
++ ", minimumPointCount: "
++ "<FallbackSystemGesture "
++ "<ShieldSystemGesture "
++ "AdminXPCConnection xpcExposeCoordinator exitExposeWithReason"
++ "AdminXPCConnection xpcExposeCoordinator exitExposeWithReason error: %@"
++ "AdminXPCConnection xpcRevealWindowFromShowDesktop"
++ "AdminXPCListener exitExposeWithReason:"
++ "AdminXPCListener revealWindow:"
++ "AppExposeAppSwapReferenceDistanceInInches"
++ "CampoHideStartTimeout"
++ "CampoShowStartTimeout"
++ "ControlCenterHideStartTimeout"
++ "DockBottomShowRegionEdgePadding"
++ "DockHideStartTimeout"
++ "Exit Expose: %{public}s"
++ "ExposeReferenceDistanceInInches"
++ "MenuBarHideStartTimeout"
++ "ModalSystemGestureMaximumPointTimeSeparation"
++ "ModalSystemGestureScaleHysteresis"
++ "ModalSystemGestureTranslationHysteresis"
++ "NotificationCenterHideStartTimeout"
++ "NotificationCenterReferenceScale"
++ "Revealing window from show desktop"
++ "ShowDesktopReferenceSeparationInInches"
++ "SpaceSwapReferenceScale"
++ "SpotlightAppsReferenceSeparationInInches"
++ "StageManagerStripHideStartTimeout"
++ "StageManagerStripReferenceScale"
++ "System gesture '%{public}s' active%{public}s%{public}s"
++ "System gesture '%{public}s' blocked by %{public}s%{public}s%{public}s"
++ "System gesture '%{public}s' ended%{public}s"
++ "System gesture '%{public}s' failed reason=%{public}s%{public}s"
++ "WindowManager.WindowManagerXPCAppExposeTarget"
++ "WindowManager.WindowManagerXPCExposeExitReason"
++ "WindowManager/CampoSystemGesture.swift"
++ "com.apple.windowmanager.FallbackSystemGesture"
++ "com.apple.windowmanager.ShieldSystemGesture"
++ "com.apple.windowmanager.horizontalEdgeShow"
++ "com.apple.windowmanager.modalSystemGesture"
++ "com.apple.windowmanager.systemGesture"
++ "desktopClick"
++ "dismiss"
++ "effectiveRegion: "
++ "selection"
++ "tileWindowJoined"
+- "AdminXPCConnection setSpaceChangeDeltasEnabled %{bool,public}d"
+- "AdminXPCListener didSetSpaceChangeDeltasEnabled: %{bool,public}d"
+- "AppExposeAppSwapCommitDistanceInInches"
+- "AppExposeAppSwapHysteresis"
+- "AppExposeAppSwapPointCountTimeout"
+- "AppExposeAppSwapVelocityScale"
+- "Asynchronously setting space change deltas enabled %{bool,public}d"
+- "ExposeCommitDistanceInInches"
+- "ExposeEnterHysteresis"
+- "ExposeExitHysteresis"
+- "ExposePointCountTimeout"
+- "ExposeVelocityScale"
+- "Not attempting to register system gesture: %s"
+- "ShowDesktopCommitScaleRatio"
+- "ShowDesktopEnterHysteresis"
+- "ShowDesktopExitHysteresis"
+- "ShowDesktopPointCountTimeout"
+- "ShowDesktopVelocityScale"
+- "SpaceSwapHysteresis"
+- "SpaceSwapPointCountTimeout"
+- "SpotlightAppsHideHysteresis"
+- "SpotlightAppsPointCountTimeout"
+- "SpotlightAppsShowHysteresis"
+- "eventSource: trackpad"
+- "eventSource: trackpad, direction: "
+```

@@ -1,0 +1,280 @@
+## RAQLPreviewExtension
+
+> `/System/Library/PrivateFrameworks/AssetViewer.framework/PlugIns/RAQLPreviewExtension.appex/Contents/MacOS/RAQLPreviewExtension`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methtype`
+- `__TEXT.__swift5_capture`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__swift5_mpenum`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__auth_got`
+- `__DATA.__objc_data`
+- `__DATA.__objc_stublist`
+
+```diff
+
+-567.0.7.0.0
+-  __TEXT.__text: 0x78430
++567.41.1.0.0
++  __TEXT.__text: 0x799cc
+   __TEXT.__auth_stubs: 0x3980
+-  __TEXT.__objc_stubs: 0x1360
+-  __TEXT.__objc_methlist: 0x628
+-  __TEXT.__const: 0x39a0
+-  __TEXT.__swift5_typeref: 0x304d
+-  __TEXT.__constg_swiftt: 0x18bc
+-  __TEXT.__cstring: 0x11d4
++  __TEXT.__objc_stubs: 0x1420
++  __TEXT.__objc_methlist: 0x650
++  __TEXT.__const: 0x3b40
++  __TEXT.__swift5_typeref: 0x30ab
++  __TEXT.__constg_swiftt: 0x192c
++  __TEXT.__cstring: 0x11e4
+   __TEXT.__objc_classname: 0x61f
+-  __TEXT.__objc_methname: 0x1cdb
++  __TEXT.__objc_methname: 0x1dc7
+   __TEXT.__objc_methtype: 0x54b
+-  __TEXT.__swift5_reflstr: 0x1055
+-  __TEXT.__swift5_fieldmd: 0x10cc
+-  __TEXT.__oslogstring: 0x28a5
++  __TEXT.__swift5_reflstr: 0x1155
++  __TEXT.__swift5_fieldmd: 0x117c
++  __TEXT.__oslogstring: 0x2975
+   __TEXT.__swift5_capture: 0x838
+   __TEXT.__swift5_builtin: 0xa0
+-  __TEXT.__swift5_assocty: 0x2a0
+-  __TEXT.__swift5_proto: 0x19c
+-  __TEXT.__swift5_types: 0x124
++  __TEXT.__swift5_assocty: 0x2b8
++  __TEXT.__swift5_proto: 0x1a8
++  __TEXT.__swift5_types: 0x12c
+   __TEXT.__swift5_protos: 0x28
+   __TEXT.__swift_as_entry: 0x94
+   __TEXT.__swift_as_ret: 0x94
+   __TEXT.__swift_as_cont: 0x13c
+   __TEXT.__swift5_mpenum: 0x10
+-  __TEXT.__unwind_info: 0x1ac8
++  __TEXT.__unwind_info: 0x1b40
+   __TEXT.__eh_frame: 0x2634
+-  __DATA_CONST.__const: 0x2a10
++  __DATA_CONST.__const: 0x2b98
+   __DATA_CONST.__cfstring: 0xe0
+   __DATA_CONST.__objc_classlist: 0xd0
+   __DATA_CONST.__objc_protolist: 0x50
+
+   __DATA_CONST.__objc_protorefs: 0x28
+   __DATA_CONST.__objc_superrefs: 0x10
+   __DATA_CONST.__auth_got: 0x1cc8
+-  __DATA_CONST.__got: 0x878
+-  __DATA_CONST.__auth_ptr: 0xbb0
+-  __DATA.__objc_const: 0x1dc0
+-  __DATA.__objc_selrefs: 0x680
++  __DATA_CONST.__got: 0x8c8
++  __DATA_CONST.__auth_ptr: 0xbc0
++  __DATA.__objc_const: 0x1e00
++  __DATA.__objc_selrefs: 0x6c0
+   __DATA.__objc_ivar: 0x24
+   __DATA.__objc_data: 0xa20
+-  __DATA.__data: 0x2c78
++  __DATA.__data: 0x2d28
+   __DATA.__objc_stublist: 0x8
+   __DATA.__common: 0x160
+-  __DATA.__bss: 0x2f58
++  __DATA.__bss: 0x3108
+   - /System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+   - /System/Library/Frameworks/Combine.framework/Versions/A/Combine
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 1890
+-  Symbols:   6172
+-  CStrings:  764
++  Functions: 1928
++  Symbols:   6276
++  CStrings:  779
+ 
+Symbols:
++ $s20RAQLPreviewExtension10SignposterC13beginInterval_7sceneIDyAA8SignpostO_SStFyyYaAC0C5Actor33_4314A69744405C0F719A2F31F66D56D7LLCYccfU_TA.58TQ0_
++ $s20RAQLPreviewExtension10SignposterC13beginInterval_7sceneIDyAA8SignpostO_SStFyyYaAC0C5Actor33_4314A69744405C0F719A2F31F66D56D7LLCYccfU_TA.58Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.63TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.63Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.72TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.72Tu
++ _$s10RealityKit14ModelComponentV0A10Foundation028_ImplicitlyAnimatableBuiltinD0ADMc
++ _$s10RealityKit14ModelComponentVAC0A10Foundation028_ImplicitlyAnimatableBuiltinD0ADWL
++ _$s17RealityFoundation20SceneOriginComponentV0A3Kit0E0AAMc
++ _$s17RealityFoundation20SceneOriginComponentVAC0A3Kit0E0AAWL
++ _$s17RealityFoundation21AmbientAudioComponentV0A3Kit0E0AAMc
++ _$s17RealityFoundation21AmbientAudioComponentVAC0A3Kit0E0AAWL
++ _$s17RealityFoundation21ChannelAudioComponentV0A3Kit0E0AAMc
++ _$s17RealityFoundation21ChannelAudioComponentVAC0A3Kit0E0AAWL
++ _$s17RealityFoundation21SpatialAudioComponentV0A3Kit0E0AAMc
++ _$s17RealityFoundation21SpatialAudioComponentVAC0A3Kit0E0AAWL
++ _$s20RAQLPreviewExtension0A14ViewControllerC17gestureRecognizer_33shouldRecognizeSimultaneouslyWithSbSo09NSGestureF0C_AGtF
++ _$s20RAQLPreviewExtension0A14ViewControllerC17gestureRecognizer_33shouldRecognizeSimultaneouslyWithSbSo09NSGestureF0C_AGtFTo
++ _$s20RAQLPreviewExtension11AssetLoaderV18importModelFileCDM33_F800FD6F264EC0B6F1381EA0516D44BDLL4info9modelType10completion9RealityIO5StageCSgAC15LoadInformationV_AC0G8MetadataV0gT0Oys6ResultOyAP_AC05SceneZ0Vts5Error_pGctFZ
++ _$s20RAQLPreviewExtension11VariantsBarV18_verticalSizeClass33_0A1808EC982E89636001C08BDA1F6399LL7SwiftUI11EnvironmentVyAF013UserInterfacefG0OSgGvpfi
++ _$s20RAQLPreviewExtension15ModelControllerC15TwoFingerWinnerO8rawValueAESgSS_tcfCTf4nd_n
++ _$s20RAQLPreviewExtension15ModelControllerC15TwoFingerWinnerO8rawValueAESgSS_tcfCTv_r
++ _$s20RAQLPreviewExtension15ModelControllerC15TwoFingerWinnerOAESQAAWL
++ _$s20RAQLPreviewExtension15ModelControllerC15TwoFingerWinnerOAESQAAWl
++ _$s20RAQLPreviewExtension15ModelControllerC15TwoFingerWinnerOMF
++ _$s20RAQLPreviewExtension15ModelControllerC15TwoFingerWinnerOMa
++ _$s20RAQLPreviewExtension15ModelControllerC15TwoFingerWinnerOMf
++ _$s20RAQLPreviewExtension15ModelControllerC15TwoFingerWinnerOMn
++ _$s20RAQLPreviewExtension15ModelControllerC15TwoFingerWinnerON
++ _$s20RAQLPreviewExtension15ModelControllerC15TwoFingerWinnerOSHAAMc
++ _$s20RAQLPreviewExtension15ModelControllerC15TwoFingerWinnerOSHAAMcMK
++ _$s20RAQLPreviewExtension15ModelControllerC15TwoFingerWinnerOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s20RAQLPreviewExtension15ModelControllerC15TwoFingerWinnerOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s20RAQLPreviewExtension15ModelControllerC15TwoFingerWinnerOSHAASH9hashValueSivgTW
++ _$s20RAQLPreviewExtension15ModelControllerC15TwoFingerWinnerOSHAASQWb
++ _$s20RAQLPreviewExtension15ModelControllerC15TwoFingerWinnerOSQAAMc
++ _$s20RAQLPreviewExtension15ModelControllerC15TwoFingerWinnerOSQAAMcMK
++ _$s20RAQLPreviewExtension15ModelControllerC15TwoFingerWinnerOSQAASQ2eeoiySbx_xtFZTW
++ _$s20RAQLPreviewExtension15ModelControllerC15TwoFingerWinnerOSYAAMA
++ _$s20RAQLPreviewExtension15ModelControllerC15TwoFingerWinnerOSYAAMc
++ _$s20RAQLPreviewExtension15ModelControllerC15TwoFingerWinnerOSYAAMcMK
++ _$s20RAQLPreviewExtension15ModelControllerC15TwoFingerWinnerOSYAASY8rawValue03RawI0QzvgTW
++ _$s20RAQLPreviewExtension15ModelControllerC15TwoFingerWinnerOSYAASY8rawValuexSg03RawI0Qz_tcfCTW
++ _$s20RAQLPreviewExtension15ModelControllerC15TwoFingerWinnerOWV
++ _$s20RAQLPreviewExtension15ModelControllerC15TwoFingerWinnerOwet
++ _$s20RAQLPreviewExtension15ModelControllerC15TwoFingerWinnerOwst
++ _$s20RAQLPreviewExtension15ModelControllerC15TwoFingerWinnerOwug
++ _$s20RAQLPreviewExtension15ModelControllerC15TwoFingerWinnerOwui
++ _$s20RAQLPreviewExtension15ModelControllerC15TwoFingerWinnerOwup
++ _$s20RAQLPreviewExtension15ModelControllerC16handlePanGestureyySo05NSPanG10RecognizerCFToTm
++ _$s20RAQLPreviewExtension15ModelControllerC18twoTouchPanGestureSo05NSPanH10RecognizerCSgvMTq
++ _$s20RAQLPreviewExtension15ModelControllerC18twoTouchPanGestureSo05NSPanH10RecognizerCSgvgTq
++ _$s20RAQLPreviewExtension15ModelControllerC18twoTouchPanGestureSo05NSPanH10RecognizerCSgvpWvd
++ _$s20RAQLPreviewExtension15ModelControllerC18twoTouchPanGestureSo05NSPanH10RecognizerCSgvsTq
++ _$s20RAQLPreviewExtension15ModelControllerC20magnificationGestureSo015NSMagnificationF10RecognizerCSgvMTq
++ _$s20RAQLPreviewExtension15ModelControllerC20magnificationGestureSo015NSMagnificationF10RecognizerCSgvgTq
++ _$s20RAQLPreviewExtension15ModelControllerC20magnificationGestureSo015NSMagnificationF10RecognizerCSgvpWvd
++ _$s20RAQLPreviewExtension15ModelControllerC20magnificationGestureSo015NSMagnificationF10RecognizerCSgvsTq
++ _$s20RAQLPreviewExtension15ModelControllerC23TwoFingerGestureArbiterVMF
++ _$s20RAQLPreviewExtension15ModelControllerC23TwoFingerGestureArbiterVMa
++ _$s20RAQLPreviewExtension15ModelControllerC23TwoFingerGestureArbiterVMf
++ _$s20RAQLPreviewExtension15ModelControllerC23TwoFingerGestureArbiterVMn
++ _$s20RAQLPreviewExtension15ModelControllerC23TwoFingerGestureArbiterVN
++ _$s20RAQLPreviewExtension15ModelControllerC23TwoFingerGestureArbiterVWV
++ _$s20RAQLPreviewExtension15ModelControllerC23TwoFingerGestureArbiterVwet
++ _$s20RAQLPreviewExtension15ModelControllerC23TwoFingerGestureArbiterVwst
++ _$s20RAQLPreviewExtension15ModelControllerC24handleTwoTouchPanGestureyySo05NSPanI10RecognizerCF
++ _$s20RAQLPreviewExtension15ModelControllerC24handleTwoTouchPanGestureyySo05NSPanI10RecognizerCFTo
++ _$s20RAQLPreviewExtension15ModelControllerC26handleMagnificationGestureyySo015NSMagnificationG10RecognizerCF
++ _$s20RAQLPreviewExtension15ModelControllerC26handleMagnificationGestureyySo015NSMagnificationG10RecognizerCFTo
++ _$s20RAQLPreviewExtension15ModelControllerC29applyArbitratedTwoFingerDelta33_FE0BFE624663D549301939B83C299C17LL13magnification11translationySfSg_So7CGPointVSgtF
++ _$s20RAQLPreviewExtension15ModelControllerC31endTwoFingerArbitrationIfNeeded33_FE0BFE624663D549301939B83C299C17LLyyF
++ _$s20RAQLPreviewExtension16CameraControllerC3pan10worldDelta20shouldNotifyObserverys5SIMD3VySfG_SbtF
++ _$s20RAQLPreviewExtension16CameraControllerC3pan10worldDelta20shouldNotifyObserverys5SIMD3VySfG_SbtFTq
++ _$s2os20OSLogFloatFormattingV5fixed9precision20explicitPositiveSign9uppercaseACSiyXA_S2btFZfA0_
++ _$s2os20OSLogFloatFormattingV5fixed9precision20explicitPositiveSign9uppercaseACSiyXA_S2btFZfA1_
++ _$s7SwiftUI12_FrameLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI12_FrameLayoutVAcA12ViewModifierAAWL
++ _$s7SwiftUI12_FrameLayoutVAcA12ViewModifierAAWl
++ _$s7SwiftUI12_FrameLayoutVN
++ _$s7SwiftUI14_PaddingLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI14_PaddingLayoutVAcA12ViewModifierAAWL
++ _$s7SwiftUI14_PaddingLayoutVAcA12ViewModifierAAWl
++ _$s7SwiftUI14_PaddingLayoutVN
++ _$s7SwiftUI16_FixedSizeLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI16_FixedSizeLayoutVAcA12ViewModifierAAWL
++ _$s7SwiftUI16_FixedSizeLayoutVAcA12ViewModifierAAWl
++ _$s7SwiftUI16_FixedSizeLayoutVN
++ _$s7SwiftUI16_FlexFrameLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI16_FlexFrameLayoutVAcA12ViewModifierAAWL
++ _$s7SwiftUI16_FlexFrameLayoutVAcA12ViewModifierAAWl
++ _$s7SwiftUI16_FlexFrameLayoutVN
++ _$s7SwiftUI17EnvironmentValuesV17verticalSizeClassAA013UserInterfacefG0OSgvg
++ _$s7SwiftUI17EnvironmentValuesV17verticalSizeClassAA013UserInterfacefG0OSgvpACTK
++ _$s7SwiftUI17EnvironmentValuesV17verticalSizeClassAA013UserInterfacefG0OSgvpACTk
++ _$s7SwiftUI17EnvironmentValuesV17verticalSizeClassAA013UserInterfacefG0OSgvpMV
++ _$s7SwiftUI17EnvironmentValuesV17verticalSizeClassAA013UserInterfacefG0OSgvs
++ _$s7SwiftUI17EnvironmentValuesV19horizontalSizeClassAA013UserInterfacefG0OSgvpACTkTm
++ _$s7SwiftUI4TextVAA4ViewAAMc
++ _$s7SwiftUI4TextVAcA4ViewAAWL
++ _$s7SwiftUI4TextVAcA4ViewAAWl
++ _$s7SwiftUI5ColorVAA10ShapeStyleAAMc
++ _$s7SwiftUI5ColorVAcA10ShapeStyleAAWL
++ _$s7SwiftUI5ColorVAcA10ShapeStyleAAWl
++ _$s7SwiftUI9EmptyViewVAA0D0AAMc
++ _$s7SwiftUI9EmptyViewVAcA0D0AAWL
++ _$s7SwiftUI9EmptyViewVAcA0D0AAWl
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVy20RAQLPreviewExtension17MRQLConfigurationVG_Tg504$s20f63Extension19VariantsServiceImplC23calculateConfigurationsSayAA17H21VGyYaKFSbAF_AFtXEfU0_Tf1nnc_n
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVy20RAQLPreviewExtension18LineUpScenesHelperV9SceneDataVG_Tg504$s20f11Extension18hijk50V04linedE17InAscendingHeight6scenes7spacingySayAC9lM21VG_SftFZSbAH_AHtXEfU_Tf1nnc_n
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVySS3key_SS5valuetG_Tg5159$s20RAQLPreviewExtension19VariantsServiceImplC14LoaderCacheKey33_E10D39005FA867D11358093BC5171A62LLV4hash4intoys6HasherVz_tFSbSS3key_SS5valuet_SSAK_SSALttXEfU_Tf1nnc_n
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVySSG_Tg5
++ _OBJC_CLASS_$_NSMagnificationGestureRecognizer
++ ___swift_memcpy12_4
++ ___swift_memcpy64_8
++ __swift_closure_destructor.25Tm
++ __swift_closure_destructor.34Tm
++ __swift_closure_destructor.50Tm
++ _associated conformance 20RAQLPreviewExtension15ModelControllerC15TwoFingerWinnerOSHAASQ
++ _objc_msgSend$setAllowedTouchTypes:
++ _objc_msgSend$setButtonMask:
++ _objc_msgSend$setDelegate:
++ _objc_msgSend$setMaximumNumberOfTouches:
++ _objc_msgSend$setMinimumNumberOfTouches:
++ _objc_msgSend$state
++ _symbolic So22NSPanGestureRecognizerCSgXw
++ _symbolic So32NSMagnificationGestureRecognizerCSgXw
++ _symbolic _____ 20RAQLPreviewExtension15ModelControllerC15TwoFingerWinnerO
++ _symbolic _____ 20RAQLPreviewExtension15ModelControllerC23TwoFingerGestureArbiterV
++ _type_layout_string 20RAQLPreviewExtension15ModelControllerC23TwoFingerGestureArbiterV
+- $s20RAQLPreviewExtension10SignposterC13beginInterval_7sceneIDyAA8SignpostO_SStFyyYaAC0C5Actor33_4314A69744405C0F719A2F31F66D56D7LLCYccfU_TA.55TQ0_
+- $s20RAQLPreviewExtension10SignposterC13beginInterval_7sceneIDyAA8SignpostO_SStFyyYaAC0C5Actor33_4314A69744405C0F719A2F31F66D56D7LLCYccfU_TA.55Tu
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.69TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.69Tu
+- _$s10RealityKit14ModelComponentV0A10Foundation028_ImplicitlyAnimatableBuiltinD0ADWP
+- _$s17RealityFoundation20SceneOriginComponentV0A3Kit0E0AAWP
+- _$s17RealityFoundation21AmbientAudioComponentV0A3Kit0E0AAWP
+- _$s17RealityFoundation21ChannelAudioComponentV0A3Kit0E0AAWP
+- _$s17RealityFoundation21SpatialAudioComponentV0A3Kit0E0AAWP
+- _$s20RAQLPreviewExtension11AssetLoaderV18importModelFileCDM33_F800FD6F264EC0B6F1381EA0516D44BDLL4info9modelType10completion9RealityIO5StageCSgAC15LoadInformationV_AC0G8MetadataV0gT0Oys6ResultOyAP_AC05SceneZ0Vts5Error_pGctFZ04$s20a11Extension11cd32V8loadFile4info10completionyAC15yZ63V_ys6ResultOyAC0F8MetadataV_AC05SceneJ0Vts5Error_pGctFZyAPcfU1_ALz_XxAXIegg_Tf1nnEn_n
+- _$s7SwiftUI12_FrameLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI14_PaddingLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI16_FixedSizeLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI16_FlexFrameLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI4TextVAA4ViewAAWP
+- _$s7SwiftUI5ColorVAA10ShapeStyleAAWP
+- _$s7SwiftUI9EmptyViewVAA0D0AAWP
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKF20RAQLPreviewExtension17MRQLConfigurationV_Tg504$s20e26Extension19VariantsServicec33C23calculateConfigurationsSayAA17G21VGyYaKFSbAF_AFtXEfU0_Tf1cn_n
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKF20RAQLPreviewExtension18LineUpScenesHelperV9SceneDataV_Tg504$s20e11Extension18ghij50V04linedE17InAscendingHeight6scenes7spacingySayAC9kL21VG_SftFZSbAH_AHtXEfU_Tf1cn_n
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKFSS3key_SS5valuet_Tg5041$s20RAQLPreviewExtension19VariantsServiceC114C14LoaderCacheKey33_E10D39005FA867D11358093BC5171A62LLV4hash4intoys6HasherVz_tFSbSS3key_SS5valuet_SSAK_SSALttXEfU_Tf1cn_n
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKFSS_Tg5
+- ___swift_memcpy48_8
+- __swift_closure_destructor.21Tm
+- __swift_closure_destructor.47Tm
+- __swift_closure_destructor.85Tm
+CStrings:
++ "Gestures twoFingerArbiter locked -> magnify (magnify=%.*f pan=%.*f)"
++ "Gestures twoFingerArbiter locked -> pan (magnify=%.*f pan=%.*f)"
++ "Gestures twoFingerArbiter progress magnify=%.*f pan=%.*f"
++ "handleMagnificationGesture:"
++ "handleTwoTouchPanGesture:"
++ "magnificationGesture"
++ "magnify"
++ "pan"
++ "setAllowedTouchTypes:"
++ "setButtonMask:"
++ "setDelegate:"
++ "setMaximumNumberOfTouches:"
++ "setMinimumNumberOfTouches:"
++ "twoTouchPanGesture"
++ "undecided"
+```

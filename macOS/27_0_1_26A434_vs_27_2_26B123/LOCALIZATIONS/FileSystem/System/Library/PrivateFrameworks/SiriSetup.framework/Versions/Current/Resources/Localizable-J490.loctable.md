@@ -1,0 +1,38 @@
+## SiriSetup
+
+> `FileSystem/System/Library/PrivateFrameworks/SiriSetup.framework/Versions/Current/Resources/Localizable-J490.loctable`
+
+```text
+en.AX_VOICE_TRAINING_REPEAT_INSTRUCTION = "Repeat: "
+en.DATA_SHARING_DECLINE_BUTTON_TITLE-TARGET_HOMEACC = "Don't Share"
+en.DATA_SHARING_DETAIL-TARGET_HOMEACC = "Help improve Siri and Dictation by allowing Apple to store and review audio of your Siri and Dictation interactions on this %DEVICE_NAME%, and on any connected Apple Watch or %TARGET_DEVICE_NAME%. You can change this later in the settings for each device.\n\nThis data is not associated with your Apple Account, and will only be stored for a limited period."
+en.SIRIAI_HOME_ENABLEMENT_BODY = "Ask about the world, find info from your apps, get detailed answers, and pick up where you left off with Siri AI on your %DEVICE_NAME% and Apple Home devices."
+en.SIRIAI_HOME_ENABLEMENT_BUTTON_CONTINUE = "Continue"
+en.SIRIAI_HOME_ENABLEMENT_BUTTON_KEEP_CLASSIC = "Keep Siri Classic"
+en.SIRIAI_HOME_ENABLEMENT_BUTTON_SETUP_LATER = "Set Up Later"
+en.TRAINING_TITLE_FIVE_HOMEACC = "“%COMPACT_TRIGGER_PHRASE%, set a timer for 2 minutes.”"
+en.TRAINING_TITLE_FOUR_HOMEACC = "“%COMPACT_TRIGGER_PHRASE%, turn off the lights.”"
+en.TRAINING_TITLE_ONE_HOMEACC = "“%TRIGGER_PHRASE%, what's the weather today?”"
+en.TRAINING_TITLE_THREE_HOMEACC = "“%COMPACT_TRIGGER_PHRASE%, what time is my flight?”"
+en.TRAINING_TITLE_TWO_HOMEACC = "“%TRIGGER_PHRASE%, play some music.”"
+en.VOICE_TRAINING_COACHING_FIVE_HOMEACC = "You can manage your to-do's:"
+en.VOICE_TRAINING_COACHING_FOUR_HOMEACC = "To play music, just ask."
+en.VOICE_TRAINING_COACHING_ONE_HOMEACC = "Let's set up voice recognition."
+en.VOICE_TRAINING_COACHING_SEVEN_HOMEACC = "Or start timers:"
+en.VOICE_TRAINING_COACHING_SIX_HOMEACC = "And control your home accessories,"
+en.VOICE_TRAINING_COACHING_THREE_HOMEACC = "You can ask for the weather:"
+en.VOICE_TRAINING_COACHING_TWO_HOMEACC = "I'll show you a few things you can do, just read them out loud."
+en.VOICE_TRAINING_EXIT_BACK_BUTTON = "Go Back"
+en.VOICE_TRAINING_EXIT_BUTTON = "Exit"
+en.VOICE_TRAINING_EXIT_TEXT = "This will reset this %TARGET_DEVICE_NAME% and lose your setup progress."
+en.VOICE_TRAINING_EXIT_TITLE = "Exit Setup?"
+en.VOICE_TRAINING_INTRO_HOMEACC = "Read each statement out loud so %TARGET_DEVICE_NAME% can learn what your voice sounds like."
+en.VOICE_TRAINING_OVERLAY_TOO_LOUD = "There's a lot of background noise.\nFind a quieter place to continue"
+en.VOICE_TRAINING_SECONDARY_BUTTON_HOMEACC = "Accessibility Options"
+en.VOICE_TRAINING_TIMEOUT = "Siri didn't quite get that.\nTry again."
+en.VOICE_TRAINING_TYPE_TO_SIRI_PRIMARY_TTS_DISABLED = "Type to Siri Instead"
+en.VOICE_TRAINING_TYPE_TO_SIRI_PRIMARY_TTS_ENABLED = "OK"
+en.VOICE_TRAINING_TYPE_TO_SIRI_SUBTITLE_TTS_DISABLED = "You can skip voice recognition and type to Siri instead of talking. Once you finish setup, swipe down from the top edge of the screen to type to Siri at any time. "
+en.VOICE_TRAINING_TYPE_TO_SIRI_SUBTITLE_TTS_ENABLED = "You have already turned on Type to Siri. Once you finish setup, swipe down from the top edge of the screen to type to Siri at any time."
+en.VOICE_TRAINING_TYPE_TO_SIRI_TITLE = "Type to Siri"
+```
