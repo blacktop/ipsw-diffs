@@ -1,0 +1,423 @@
+## MusicKit
+
+> `/System/Library/Frameworks/MusicKit.framework/Versions/A/MusicKit`
+
+```diff
+
+-4026.140.2.0.0
+-  __TEXT.__text: 0x52e170
+-  __TEXT.__objc_methlist: 0x1e7c
+-  __TEXT.__const: 0x547c4
+-  __TEXT.__cstring: 0x10802
+-  __TEXT.__gcc_except_tab: 0x1da0
+-  __TEXT.__oslogstring: 0x1892
++4026.240.1.0.0
++  __TEXT.__text: 0x533560
++  __TEXT.__objc_methlist: 0x1f0c
++  __TEXT.__const: 0x551b4
++  __TEXT.__cstring: 0x109e2
++  __TEXT.__gcc_except_tab: 0x1db8
++  __TEXT.__oslogstring: 0x19e2
+   __TEXT.__dlopen_cstrs: 0x86d
+-  __TEXT.__swift5_typeref: 0x12240
+-  __TEXT.__swift5_reflstr: 0xc01b
+-  __TEXT.__swift5_assocty: 0x3050
+-  __TEXT.__constg_swiftt: 0xbf08
+-  __TEXT.__swift5_fieldmd: 0xe8f0
++  __TEXT.__swift5_typeref: 0x124da
++  __TEXT.__swift5_reflstr: 0xc13b
++  __TEXT.__swift5_assocty: 0x2f88
++  __TEXT.__constg_swiftt: 0xbf24
++  __TEXT.__swift5_fieldmd: 0xeaf0
+   __TEXT.__swift5_builtin: 0x35c
+-  __TEXT.__swift5_capture: 0x41fc
+-  __TEXT.__swift5_proto: 0x44b4
+-  __TEXT.__swift5_types: 0xfa0
+-  __TEXT.__swift5_protos: 0x1f4
+-  __TEXT.__swift_as_entry: 0xb20
+-  __TEXT.__swift_as_ret: 0xf84
+-  __TEXT.__swift_as_cont: 0x1d00
++  __TEXT.__swift5_capture: 0x424c
++  __TEXT.__swift5_proto: 0x4554
++  __TEXT.__swift5_types: 0xfb0
++  __TEXT.__swift5_protos: 0x1f8
++  __TEXT.__swift_as_entry: 0xae8
++  __TEXT.__swift_as_ret: 0xf44
++  __TEXT.__swift_as_cont: 0x1cf4
+   __TEXT.__swift5_mpenum: 0x220
+   __TEXT.__lldbsummaries: 0x34
+-  __TEXT.__unwind_info: 0x187d8
+-  __TEXT.__eh_frame: 0x265d0
++  __TEXT.__unwind_info: 0x184f0
++  __TEXT.__eh_frame: 0x264b4
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__const: 0xda0
+   __DATA_CONST.__objc_classlist: 0x310
+   __DATA_CONST.__objc_catlist: 0x20
+-  __DATA_CONST.__objc_protolist: 0x58
++  __DATA_CONST.__objc_protolist: 0x60
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1790
+-  __DATA_CONST.__objc_protorefs: 0x28
+-  __DATA_CONST.__objc_superrefs: 0x150
+-  __DATA_CONST.__got: 0x9c0
+-  __AUTH_CONST.__const: 0x2ad18
+-  __AUTH_CONST.__cfstring: 0xc20
+-  __AUTH_CONST.__objc_const: 0x6db8
+-  __AUTH_CONST.__auth_got: 0x1700
+-  __AUTH_CONST.__auth_ptr: 0x2468
+-  __AUTH.__objc_data: 0xe0
+-  __AUTH.__data: 0x2e40
+-  __DATA.__objc_ivar: 0x174
+-  __DATA.__data: 0xa388
+-  __DATA.__bss: 0x61c60
+-  __DATA.__common: 0x190
+-  __DATA_DIRTY.__objc_data: 0x13e0
+-  __DATA_DIRTY.__data: 0xc230
+-  __DATA_DIRTY.__bss: 0x185d0
+-  __DATA_DIRTY.__common: 0xb28
++  __DATA_CONST.__objc_selrefs: 0x17f8
++  __DATA_CONST.__objc_protorefs: 0x30
++  __DATA_CONST.__objc_superrefs: 0x158
++  __DATA_CONST.__got: 0x9d8
++  __AUTH_CONST.__const: 0x2af38
++  __AUTH_CONST.__cfstring: 0xc60
++  __AUTH_CONST.__objc_const: 0x6de8
++  __AUTH_CONST.__auth_got: 0x1718
++  __AUTH_CONST.__auth_ptr: 0x2498
++  __AUTH.__objc_data: 0xa0
++  __AUTH.__data: 0x20
++  __DATA.__objc_ivar: 0x178
++  __DATA.__data: 0xa3a8
++  __DATA.__bss: 0x62c00
++  __DATA.__common: 0x1e0
++  __DATA_DIRTY.__objc_data: 0x1420
++  __DATA_DIRTY.__data: 0xf1e8
++  __DATA_DIRTY.__bss: 0x189f0
++  __DATA_DIRTY.__common: 0xb38
+   - /System/Library/Frameworks/Combine.framework/Versions/A/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 43945
+-  Symbols:   12279
+-  CStrings:  1694
++  Functions: 44258
++  Symbols:   12329
++  CStrings:  1714
+ 
+Symbols:
++ +[MusicKit_SoftLinking(MusicKit_SoftLinking_MPIdentifierSet) _identifierSetWithCatalogID:libraryID:cloudAlbumLibraryID:cloudID:reportingAdamID:purchasedAdamID:assetAdamID:deviceLocalID:possibleDeviceLocalID:occurrenceID:containedDeviceLocalID:syncID:playbackID:formerIDs:versionHash:modelObjectType:source:]
++ +[MusicKit_SoftLinking(MusicKit_SoftLinking_MPIdentifierSet) identifierSetWithCatalogID:libraryID:cloudAlbumLibraryID:cloudID:reportingAdamID:purchasedAdamID:assetAdamID:deviceLocalID:occurrenceID:containedDeviceLocalID:syncID:playbackID:formerIDs:versionHash:modelObjectType:source:]
++ +[MusicKit_SoftLinking_MPModelAlbum albumTypeForRawValue:]
++ +[MusicKit_SoftLinking_MPModelAlbum rawValueForAlbumType:]
++ -[MusicKit_SoftLinking_MPEditorialArtworkCatalogsPropertyValue .cxx_destruct]
++ -[MusicKit_SoftLinking_MPEditorialArtworkCatalogsPropertyValue description]
++ -[MusicKit_SoftLinking_MPEditorialArtworkCatalogsPropertyValue initWithRawArtworkCatalogs:]
++ -[MusicKit_SoftLinking_MPEditorialArtworkCatalogsPropertyValue makeModelKeyValue]
++ -[NSObject(MusicKit_SoftLinking_MPIdentifierSet) musicKit_versionHash]
++ OBJC_IVAR_$_MusicKit_SoftLinking_MPEditorialArtworkCatalogsPropertyValue._artworkCatalogs
++ _OBJC_CLASS_$_MusicKit_SoftLinking_MPEditorialArtworkCatalogsPropertyValue
++ _OBJC_METACLASS_$_MusicKit_SoftLinking_MPEditorialArtworkCatalogsPropertyValue
++ __307+[MusicKit_SoftLinking(MusicKit_SoftLinking_MPIdentifierSet) _identifierSetWithCatalogID:libraryID:cloudAlbumLibraryID:cloudID:reportingAdamID:purchasedAdamID:assetAdamID:deviceLocalID:possibleDeviceLocalID:occurrenceID:containedDeviceLocalID:syncID:playbackID:formerIDs:versionHash:modelObjectType:source:]_block_invoke
++ __307+[MusicKit_SoftLinking(MusicKit_SoftLinking_MPIdentifierSet) _identifierSetWithCatalogID:libraryID:cloudAlbumLibraryID:cloudID:reportingAdamID:purchasedAdamID:assetAdamID:deviceLocalID:possibleDeviceLocalID:occurrenceID:containedDeviceLocalID:syncID:playbackID:formerIDs:versionHash:modelObjectType:source:]_block_invoke_3
++ __91-[MusicKit_SoftLinking_MPEditorialArtworkCatalogsPropertyValue initWithRawArtworkCatalogs:]_block_invoke
++ __OBJC_$_INSTANCE_METHODS_MusicKit_SoftLinking_MPEditorialArtworkCatalogsPropertyValue
++ __OBJC_$_INSTANCE_VARIABLES_MusicKit_SoftLinking_MPEditorialArtworkCatalogsPropertyValue
++ __OBJC_$_PROP_LIST_MusicKit_SoftLinking_MPEditorialArtworkCatalogsPropertyValue
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_MusicKit_SoftLinking_MPModelPropertyValue
++ __OBJC_$_PROTOCOL_METHOD_TYPES_MusicKit_SoftLinking_MPModelPropertyValue
++ __OBJC_$_PROTOCOL_REFS_MusicKit_SoftLinking_MPModelPropertyValue
++ __OBJC_CLASS_PROTOCOLS_$_MusicKit_SoftLinking_MPEditorialArtworkCatalogsPropertyValue
++ __OBJC_CLASS_RO_$_MusicKit_SoftLinking_MPEditorialArtworkCatalogsPropertyValue
++ __OBJC_LABEL_PROTOCOL_$_MusicKit_SoftLinking_MPModelPropertyValue
++ __OBJC_METACLASS_RO_$_MusicKit_SoftLinking_MPEditorialArtworkCatalogsPropertyValue
++ __OBJC_PROTOCOL_$_MusicKit_SoftLinking_MPModelPropertyValue
++ __OBJC_PROTOCOL_REFERENCE_$_MusicKit_SoftLinking_MPModelPropertyValue
++ ___307+[MusicKit_SoftLinking(MusicKit_SoftLinking_MPIdentifierSet) _identifierSetWithCatalogID:libraryID:cloudAlbumLibraryID:cloudID:reportingAdamID:purchasedAdamID:assetAdamID:deviceLocalID:possibleDeviceLocalID:occurrenceID:containedDeviceLocalID:syncID:playbackID:formerIDs:versionHash:modelObjectType:source:]_block_invoke
++ ___307+[MusicKit_SoftLinking(MusicKit_SoftLinking_MPIdentifierSet) _identifierSetWithCatalogID:libraryID:cloudAlbumLibraryID:cloudID:reportingAdamID:purchasedAdamID:assetAdamID:deviceLocalID:possibleDeviceLocalID:occurrenceID:containedDeviceLocalID:syncID:playbackID:formerIDs:versionHash:modelObjectType:source:]_block_invoke_2
++ ___307+[MusicKit_SoftLinking(MusicKit_SoftLinking_MPIdentifierSet) _identifierSetWithCatalogID:libraryID:cloudAlbumLibraryID:cloudID:reportingAdamID:purchasedAdamID:assetAdamID:deviceLocalID:possibleDeviceLocalID:occurrenceID:containedDeviceLocalID:syncID:playbackID:formerIDs:versionHash:modelObjectType:source:]_block_invoke_3
++ ___81-[MusicKit_SoftLinking_MPEditorialArtworkCatalogsPropertyValue makeModelKeyValue]_block_invoke
++ ___81-[MusicKit_SoftLinking_MPEditorialArtworkCatalogsPropertyValue makeModelKeyValue]_block_invoke_2
++ ___91-[MusicKit_SoftLinking_MPEditorialArtworkCatalogsPropertyValue initWithRawArtworkCatalogs:]_block_invoke
++ ___block_descriptor_160_e8_32s40s48s56s64s72s80s88s96s104s112s120s128s136s144s_e55_v16?0"MPIdentifierSet<MPMutableMusicKitIdentifiers>"8l
++ ___block_descriptor_40_e8_32s_e37_"NSDictionary"16?0"MPModelObject"8l
++ ___copy_helper_block_e8_32s40s48s56s64s72s80s88s96s104s112s120s128s136s144s
++ ___destroy_helper_block_e8_32s40s48s56s64s72s80s88s96s104s112s120s128s136s144s
++ ___getMPModelPropertyAlbumCloudChannelNameSymbolLoc_block_invoke
++ ___getMPModelPropertyAlbumShouldShowCountdownTimerSymbolLoc_block_invoke
++ ___swift_memcpy385_8
++ ___swift_memcpy392_8
++ ___swift_memcpy416_8
++ ___swift_memcpy440_8
++ ___swift_memcpy448_8
++ ___swift_memcpy472_8
++ ___swift_memcpy496_8
++ ___swift_memcpy512_8
++ ___swift_memcpy553_8
++ ___swift_memcpy634_8
++ ___swift_memcpy737_8
++ ___swift_memcpy738_8
++ ___swift_memcpy754_8
++ __swift_exist.box.addr_destructor.35Tm
++ _associated conformance 8MusicKit0A12SubscriptionV13UpdateTriggerOSHAASQ
++ _associated conformance 8MusicKit12CloudConcertV0C12DataProviderV10CodingKeys33_386C520BD12A65B93DA32110B9F85C8BLLOSHAASQ
++ _associated conformance 8MusicKit12CloudConcertV0C12DataProviderV10CodingKeys33_386C520BD12A65B93DA32110B9F85C8BLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 8MusicKit12CloudConcertV0C12DataProviderV10CodingKeys33_386C520BD12A65B93DA32110B9F85C8BLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8MusicKit12CloudConcertV0C12DataProviderVSHAASQ
++ _associated conformance 8MusicKit16CloudHeroArtworkV10CodingKeys33_240675AC51D4B1D9B51658FD8864E14BLLOSHAASQ
++ _associated conformance 8MusicKit16CloudHeroArtworkV10CodingKeys33_240675AC51D4B1D9B51658FD8864E14BLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 8MusicKit16CloudHeroArtworkV10CodingKeys33_240675AC51D4B1D9B51658FD8864E14BLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8MusicKit16CloudHeroArtworkV7ContentV10CodingKeys33_240675AC51D4B1D9B51658FD8864E14BLLOSHAASQ
++ _associated conformance 8MusicKit16CloudHeroArtworkV7ContentV10CodingKeys33_240675AC51D4B1D9B51658FD8864E14BLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 8MusicKit16CloudHeroArtworkV7ContentV10CodingKeys33_240675AC51D4B1D9B51658FD8864E14BLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8MusicKit16CloudHeroArtworkV7ContentVSHAASQ
++ _associated conformance 8MusicKit16CloudHeroArtworkVSHAASQ
++ _associated conformance 8MusicKit20LegacyModelAlbumKindO10CodingKeys33_41C9BDFCF3219D2888482DC4B65C0AD0LLOSHAASQ
++ _associated conformance 8MusicKit20LegacyModelAlbumKindO10CodingKeys33_41C9BDFCF3219D2888482DC4B65C0AD0LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 8MusicKit20LegacyModelAlbumKindO10CodingKeys33_41C9BDFCF3219D2888482DC4B65C0AD0LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8MusicKit20LegacyModelAlbumKindO12EpCodingKeys33_41C9BDFCF3219D2888482DC4B65C0AD0LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 8MusicKit20LegacyModelAlbumKindO12EpCodingKeys33_41C9BDFCF3219D2888482DC4B65C0AD0LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8MusicKit20LegacyModelAlbumKindO16DeluxeCodingKeys33_41C9BDFCF3219D2888482DC4B65C0AD0LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 8MusicKit20LegacyModelAlbumKindO16DeluxeCodingKeys33_41C9BDFCF3219D2888482DC4B65C0AD0LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8MusicKit20LegacyModelAlbumKindO16SingleCodingKeys33_41C9BDFCF3219D2888482DC4B65C0AD0LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 8MusicKit20LegacyModelAlbumKindO16SingleCodingKeys33_41C9BDFCF3219D2888482DC4B65C0AD0LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8MusicKit20LegacyModelAlbumKindO18StandardCodingKeys33_41C9BDFCF3219D2888482DC4B65C0AD0LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 8MusicKit20LegacyModelAlbumKindO18StandardCodingKeys33_41C9BDFCF3219D2888482DC4B65C0AD0LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8MusicKit20LegacyModelAlbumKindO21CompilationCodingKeys33_41C9BDFCF3219D2888482DC4B65C0AD0LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 8MusicKit20LegacyModelAlbumKindO21CompilationCodingKeys33_41C9BDFCF3219D2888482DC4B65C0AD0LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8MusicKit20LegacyModelAlbumKindOSHAASQ
++ _associated conformance 8MusicKit20LegacyModelAlbumKindOs12CaseIterableAA8AllCasessADP_Sl
++ _flat unique 8MusicKit0A22CatalogExtendedRequest_px8ResponseAA0acE0PRts_XP
++ _objc_msgSend$_identifierSetWithCatalogID:libraryID:cloudAlbumLibraryID:cloudID:reportingAdamID:purchasedAdamID:assetAdamID:deviceLocalID:possibleDeviceLocalID:occurrenceID:containedDeviceLocalID:syncID:playbackID:formerIDs:versionHash:modelObjectType:source:
++ _objc_msgSend$albumTypeForRawValue:
++ _objc_msgSend$allKeys
++ _objc_msgSend$allowedSectionIdentifiers
++ _objc_msgSend$autoupdatingActiveAccount
++ _objc_msgSend$autoupdatingDefaultMediaIdentity
++ _objc_msgSend$componentsJoinedByString:
++ _objc_msgSend$identifierSetWithCatalogID:libraryID:cloudAlbumLibraryID:cloudID:reportingAdamID:purchasedAdamID:assetAdamID:deviceLocalID:occurrenceID:containedDeviceLocalID:syncID:playbackID:formerIDs:versionHash:modelObjectType:source:
++ _objc_msgSend$initWithRawArtworkCatalogs:
++ _objc_msgSend$initWithUserIdentity:
++ _objc_msgSend$makeModelKeyValue
++ _objc_msgSend$musicKit_versionHash
++ _objc_msgSend$rawValueForAlbumType:
++ _objc_msgSend$scopedContainers
++ _objc_msgSend$sectionKind
++ _objc_msgSend$setVersionHash:
++ _objc_msgSend$versionHash
++ _symbolic $s8MusicKit0A40DataRequestExtendedConfigurationProviderP
++ _symbolic 8Response_____Qyd__ 8MusicKit0A14CatalogRequestP
++ _symbolic Say_____G 8MusicKit16CloudHeroArtworkV
++ _symbolic Say_____G 8MusicKit16CloudHeroArtworkV7ContentV
++ _symbolic Say_____G 8MusicKit20LegacyModelAlbumKindO
++ _symbolic Say_____GSg 8MusicKit16CloudHeroArtworkV
++ _symbolic Say_____GSg 8MusicKit16CloudHeroArtworkV7ContentV
++ _symbolic Say_____y_____GG 8MusicKit14CloudAttributeV AA0C7ConcertV0C12DataProviderV
++ _symbolic Say_____y_____GGSg 8MusicKit14CloudAttributeV AA0C7ConcertV0C12DataProviderV
++ _symbolic ScSy_____G 8MusicKit0A12SubscriptionV13UpdateTriggerO
++ _symbolic So27ICCloudServiceStatusMonitorC
++ _symbolic _____ 8MusicKit12CloudConcertV0C12DataProviderV
++ _symbolic _____ 8MusicKit12CloudConcertV0C12DataProviderV10CodingKeys33_386C520BD12A65B93DA32110B9F85C8BLLO
++ _symbolic _____ 8MusicKit16CloudHeroArtworkV
++ _symbolic _____ 8MusicKit16CloudHeroArtworkV10CodingKeys33_240675AC51D4B1D9B51658FD8864E14BLLO
++ _symbolic _____ 8MusicKit16CloudHeroArtworkV7ContentV
++ _symbolic _____ 8MusicKit16CloudHeroArtworkV7ContentV10CodingKeys33_240675AC51D4B1D9B51658FD8864E14BLLO
++ _symbolic _____ 8MusicKit20LegacyModelAlbumKindO
++ _symbolic _____ 8MusicKit20LegacyModelAlbumKindO10CodingKeys33_41C9BDFCF3219D2888482DC4B65C0AD0LLO
++ _symbolic _____ 8MusicKit20LegacyModelAlbumKindO12EpCodingKeys33_41C9BDFCF3219D2888482DC4B65C0AD0LLO
++ _symbolic _____ 8MusicKit20LegacyModelAlbumKindO16DeluxeCodingKeys33_41C9BDFCF3219D2888482DC4B65C0AD0LLO
++ _symbolic _____ 8MusicKit20LegacyModelAlbumKindO16SingleCodingKeys33_41C9BDFCF3219D2888482DC4B65C0AD0LLO
++ _symbolic _____ 8MusicKit20LegacyModelAlbumKindO18StandardCodingKeys33_41C9BDFCF3219D2888482DC4B65C0AD0LLO
++ _symbolic _____ 8MusicKit20LegacyModelAlbumKindO21CompilationCodingKeys33_41C9BDFCF3219D2888482DC4B65C0AD0LLO
++ _symbolic _____Sg 8MusicKit0A12SubscriptionV
++ _symbolic _____Sg 8MusicKit20LegacyModelAlbumKindO
++ _symbolic __________Xj l8MusicKit0A22CatalogExtendedRequest_px8ResponseRts_XPXGMq AA0a23PersonalRecommendationsF0V
++ _symbolic __________Xj l8MusicKit0A22CatalogExtendedRequest_px8ResponseRts_XPXGMq AA0ac17SearchSuggestionsF0V
++ _symbolic __________Xj l8MusicKit0A22CatalogExtendedRequest_px8ResponseRts_XPXGMq AA0ac6SearchF0V
++ _symbolic ______pXmT 8MusicKit0A40DataRequestExtendedConfigurationProviderP
++ _symbolic _____y_____G 8MusicKit14CloudAttributeV AA0C7ConcertV0C12DataProviderV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8MusicKit12CloudConcertV0F12DataProviderV10CodingKeys33_386C520BD12A65B93DA32110B9F85C8BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8MusicKit16CloudHeroArtworkV10CodingKeys33_240675AC51D4B1D9B51658FD8864E14BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8MusicKit16CloudHeroArtworkV7ContentV10CodingKeys33_240675AC51D4B1D9B51658FD8864E14BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8MusicKit20LegacyModelAlbumKindO10CodingKeys33_41C9BDFCF3219D2888482DC4B65C0AD0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8MusicKit20LegacyModelAlbumKindO12EpCodingKeys33_41C9BDFCF3219D2888482DC4B65C0AD0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8MusicKit20LegacyModelAlbumKindO16DeluxeCodingKeys33_41C9BDFCF3219D2888482DC4B65C0AD0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8MusicKit20LegacyModelAlbumKindO16SingleCodingKeys33_41C9BDFCF3219D2888482DC4B65C0AD0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8MusicKit20LegacyModelAlbumKindO18StandardCodingKeys33_41C9BDFCF3219D2888482DC4B65C0AD0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8MusicKit20LegacyModelAlbumKindO21CompilationCodingKeys33_41C9BDFCF3219D2888482DC4B65C0AD0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8MusicKit12CloudConcertV0F12DataProviderV10CodingKeys33_386C520BD12A65B93DA32110B9F85C8BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8MusicKit16CloudHeroArtworkV10CodingKeys33_240675AC51D4B1D9B51658FD8864E14BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8MusicKit16CloudHeroArtworkV7ContentV10CodingKeys33_240675AC51D4B1D9B51658FD8864E14BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8MusicKit20LegacyModelAlbumKindO10CodingKeys33_41C9BDFCF3219D2888482DC4B65C0AD0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8MusicKit20LegacyModelAlbumKindO12EpCodingKeys33_41C9BDFCF3219D2888482DC4B65C0AD0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8MusicKit20LegacyModelAlbumKindO16DeluxeCodingKeys33_41C9BDFCF3219D2888482DC4B65C0AD0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8MusicKit20LegacyModelAlbumKindO16SingleCodingKeys33_41C9BDFCF3219D2888482DC4B65C0AD0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8MusicKit20LegacyModelAlbumKindO18StandardCodingKeys33_41C9BDFCF3219D2888482DC4B65C0AD0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8MusicKit20LegacyModelAlbumKindO21CompilationCodingKeys33_41C9BDFCF3219D2888482DC4B65C0AD0LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 8MusicKit16CloudHeroArtworkV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 8MusicKit16CloudHeroArtworkV7ContentV
++ _symbolic _____y_____GSg 8MusicKit14CloudAttributeV AA0C7ConcertV0C12DataProviderV
++ _symbolic _____y_____GSg_ADt 8MusicKit14CloudAttributeV AA0C7ConcertV0C12DataProviderV
++ _symbolic _____y______G ScS12ContinuationV 8MusicKit0B12SubscriptionV13UpdateTriggerO
++ _symbolic _____y______G ScS8IteratorV 8MusicKit0B12SubscriptionV13UpdateTriggerO
++ _symbolic _____y_______G ScS12ContinuationV11YieldResultO 8MusicKit0D12SubscriptionV13UpdateTriggerO
++ _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO 8MusicKit0D12SubscriptionV13UpdateTriggerO
++ _symbolic _____y__________G 8MusicKit0A17AttributePropertyC AA5AlbumV AA011LegacyModelE4KindO
++ _symbolic _____y__________G 8MusicKit0A25ExtendedAttributePropertyC AA6ArtistV AA7ArtworkV
++ _type_layout_string 8MusicKit0A12SubscriptionV7UpdatesV
++ _type_layout_string 8MusicKit16CloudHeroArtworkV
++ _type_layout_string 8MusicKit16CloudHeroArtworkV7ContentV
++ _type_layout_string So24ICCloudServiceCapabilityV
++ getMPModelPropertyAlbumCloudChannelNameSymbolLoc.ptr
++ getMPModelPropertyAlbumShouldShowCountdownTimerSymbolLoc.ptr
+- +[MusicKit_SoftLinking(MusicKit_SoftLinking_MPIdentifierSet) _identifierSetWithCatalogID:libraryID:cloudAlbumLibraryID:cloudID:reportingAdamID:purchasedAdamID:assetAdamID:deviceLocalID:possibleDeviceLocalID:occurrenceID:containedDeviceLocalID:syncID:playbackID:formerIDs:modelObjectType:source:]
+- _OUTLINED_FUNCTION_2141
+- _OUTLINED_FUNCTION_2142
+- _OUTLINED_FUNCTION_2143
+- _OUTLINED_FUNCTION_2144
+- _OUTLINED_FUNCTION_2145
+- _OUTLINED_FUNCTION_2146
+- _OUTLINED_FUNCTION_2147
+- _OUTLINED_FUNCTION_2148
+- _OUTLINED_FUNCTION_2149
+- _OUTLINED_FUNCTION_2150
+- _OUTLINED_FUNCTION_2151
+- _OUTLINED_FUNCTION_2152
+- _OUTLINED_FUNCTION_2153
+- _OUTLINED_FUNCTION_2154
+- _OUTLINED_FUNCTION_2155
+- _OUTLINED_FUNCTION_2156
+- _OUTLINED_FUNCTION_2157
+- _OUTLINED_FUNCTION_2158
+- _OUTLINED_FUNCTION_2159
+- _OUTLINED_FUNCTION_2160
+- _OUTLINED_FUNCTION_2161
+- _OUTLINED_FUNCTION_2162
+- _OUTLINED_FUNCTION_2163
+- _OUTLINED_FUNCTION_2164
+- _OUTLINED_FUNCTION_2165
+- _OUTLINED_FUNCTION_2166
+- _OUTLINED_FUNCTION_2167
+- _OUTLINED_FUNCTION_2168
+- _OUTLINED_FUNCTION_2169
+- _OUTLINED_FUNCTION_2170
+- _OUTLINED_FUNCTION_2171
+- _OUTLINED_FUNCTION_2172
+- _OUTLINED_FUNCTION_2173
+- _OUTLINED_FUNCTION_2174
+- _OUTLINED_FUNCTION_2175
+- _OUTLINED_FUNCTION_2176
+- _OUTLINED_FUNCTION_2177
+- _OUTLINED_FUNCTION_2178
+- _OUTLINED_FUNCTION_2179
+- _OUTLINED_FUNCTION_2180
+- __118+[MusicKit_SoftLinking_MPModelObject _createUnderlyingModelObjectWithIdentifierSet:modelObjectType:storageDictionary:]_block_invoke
+- __118+[MusicKit_SoftLinking_MPModelObject _createUnderlyingModelObjectWithIdentifierSet:modelObjectType:storageDictionary:]_block_invoke_2
+- __295+[MusicKit_SoftLinking(MusicKit_SoftLinking_MPIdentifierSet) _identifierSetWithCatalogID:libraryID:cloudAlbumLibraryID:cloudID:reportingAdamID:purchasedAdamID:assetAdamID:deviceLocalID:possibleDeviceLocalID:occurrenceID:containedDeviceLocalID:syncID:playbackID:formerIDs:modelObjectType:source:]_block_invoke
+- __295+[MusicKit_SoftLinking(MusicKit_SoftLinking_MPIdentifierSet) _identifierSetWithCatalogID:libraryID:cloudAlbumLibraryID:cloudID:reportingAdamID:purchasedAdamID:assetAdamID:deviceLocalID:possibleDeviceLocalID:occurrenceID:containedDeviceLocalID:syncID:playbackID:formerIDs:modelObjectType:source:]_block_invoke_3
+- __DATA__TtCVV8MusicKit17MusicSubscription14UpdateTriggers8Iterator
+- __IVARS__TtCVV8MusicKit17MusicSubscription14UpdateTriggers8Iterator
+- __METACLASS_DATA__TtCVV8MusicKit17MusicSubscription14UpdateTriggers8Iterator
+- ___295+[MusicKit_SoftLinking(MusicKit_SoftLinking_MPIdentifierSet) _identifierSetWithCatalogID:libraryID:cloudAlbumLibraryID:cloudID:reportingAdamID:purchasedAdamID:assetAdamID:deviceLocalID:possibleDeviceLocalID:occurrenceID:containedDeviceLocalID:syncID:playbackID:formerIDs:modelObjectType:source:]_block_invoke
+- ___295+[MusicKit_SoftLinking(MusicKit_SoftLinking_MPIdentifierSet) _identifierSetWithCatalogID:libraryID:cloudAlbumLibraryID:cloudID:reportingAdamID:purchasedAdamID:assetAdamID:deviceLocalID:possibleDeviceLocalID:occurrenceID:containedDeviceLocalID:syncID:playbackID:formerIDs:modelObjectType:source:]_block_invoke_2
+- ___295+[MusicKit_SoftLinking(MusicKit_SoftLinking_MPIdentifierSet) _identifierSetWithCatalogID:libraryID:cloudAlbumLibraryID:cloudID:reportingAdamID:purchasedAdamID:assetAdamID:deviceLocalID:possibleDeviceLocalID:occurrenceID:containedDeviceLocalID:syncID:playbackID:formerIDs:modelObjectType:source:]_block_invoke_3
+- ___block_descriptor_152_e8_32s40s48s56s64s72s80s88s96s104s112s120s128s136s_e55_v16?0"MPIdentifierSet<MPMutableMusicKitIdentifiers>"8l
+- ___block_descriptor_40_e8_32s_e44_"NSMutableDictionary"16?0"MPModelObject"8l
+- ___copy_helper_block_e8_32s40s48s56s64s72s80s88s96s104s112s120s128s136s
+- ___destroy_helper_block_e8_32s40s48s56s64s72s80s88s96s104s112s120s128s136s
+- ___swift_memcpy27_8
+- ___swift_memcpy28_8
+- ___swift_memcpy369_8
+- ___swift_memcpy400_8
+- ___swift_memcpy464_8
+- ___swift_memcpy488_8
+- ___swift_memcpy504_8
+- ___swift_memcpy545_8
+- ___swift_memcpy626_8
+- ___swift_memcpy729_8
+- ___swift_memcpy730_8
+- ___swift_memcpy746_8
+- __swift_exist.box.addr_destructor.34Tm
+- _associated conformance 8MusicKit0A12SubscriptionV14UpdateTriggersV8IteratorCScIAA7FailureScI_s5Error
+- _associated conformance 8MusicKit0A12SubscriptionV14UpdateTriggersVSciAA13AsyncIteratorSci_ScI
+- _associated conformance 8MusicKit0A12SubscriptionV15FailableUpdatesV8IteratorVScIAA7FailureScI_s5Error
+- _associated conformance 8MusicKit0A12SubscriptionV15FailableUpdatesVSciAA13AsyncIteratorSci_ScI
+- _associated conformance 8MusicKit0A12SubscriptionV15ThrowingUpdatesV8IteratorVScIAA7FailureScI_s5Error
+- _associated conformance 8MusicKit0A12SubscriptionV15ThrowingUpdatesVSciAA13AsyncIteratorSci_ScI
+- _associated conformance 8MusicKit0A12SubscriptionV22GenericUpdatesIteratorVy_xGScIAA7FailureScI_s5Error
+- _associated conformance 8MusicKit12CloudConcertV0C6TicketV0C12DataProviderV10CodingKeys33_C7F008B7795B2BDCFFF36C0AECF06BB1LLOSHAASQ
+- _associated conformance 8MusicKit12CloudConcertV0C6TicketV0C12DataProviderV10CodingKeys33_C7F008B7795B2BDCFFF36C0AECF06BB1LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 8MusicKit12CloudConcertV0C6TicketV0C12DataProviderV10CodingKeys33_C7F008B7795B2BDCFFF36C0AECF06BB1LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 8MusicKit12CloudConcertV0C6TicketV0C12DataProviderVSHAASQ
+- _flat unique 8MusicKit0A22CatalogExtendedRequest_px12ResponseTypeAA0acE0PRts_XP
+- _objc_msgSend$_identifierSetWithCatalogID:libraryID:cloudAlbumLibraryID:cloudID:reportingAdamID:purchasedAdamID:assetAdamID:deviceLocalID:possibleDeviceLocalID:occurrenceID:containedDeviceLocalID:syncID:playbackID:formerIDs:modelObjectType:source:
+- _objc_msgSend$allValues
+- _objc_msgSend$identifierSetWithCatalogID:libraryID:cloudAlbumLibraryID:cloudID:reportingAdamID:purchasedAdamID:assetAdamID:deviceLocalID:occurrenceID:containedDeviceLocalID:syncID:playbackID:formerIDs:modelObjectType:source:
+- _symbolic 12ResponseType_____Qyd__ 8MusicKit0A14CatalogRequestP
+- _symbolic Say_____y_____GG 8MusicKit07PartialA8PropertyC AA5AlbumV
+- _symbolic _____ 8MusicKit0A12SubscriptionV14UpdateTriggersV
+- _symbolic _____ 8MusicKit0A12SubscriptionV14UpdateTriggersV8IteratorC
+- _symbolic _____ 8MusicKit0A12SubscriptionV15FailableUpdatesV
+- _symbolic _____ 8MusicKit0A12SubscriptionV15FailableUpdatesV8IteratorV
+- _symbolic _____ 8MusicKit0A12SubscriptionV15ThrowingUpdatesV
+- _symbolic _____ 8MusicKit0A12SubscriptionV15ThrowingUpdatesV8IteratorV
+- _symbolic _____ 8MusicKit0A12SubscriptionV22GenericUpdatesIteratorV
+- _symbolic _____ 8MusicKit12CloudConcertV0C6TicketV0C12DataProviderV
+- _symbolic _____ 8MusicKit12CloudConcertV0C6TicketV0C12DataProviderV10CodingKeys33_C7F008B7795B2BDCFFF36C0AECF06BB1LLO
+- _symbolic _____Sg 8MusicKit0A12SubscriptionV13UpdateTriggerO
+- _symbolic _____Sg So20NSNotificationCenterC10FoundationE13NotificationsC
+- _symbolic _____Sg So20NSNotificationCenterC10FoundationE13NotificationsC8IteratorV
+- _symbolic __________Xj l8MusicKit0A22CatalogExtendedRequest_px12ResponseTypeRts_XPXGMq AA0a23PersonalRecommendationsF0V
+- _symbolic __________Xj l8MusicKit0A22CatalogExtendedRequest_px12ResponseTypeRts_XPXGMq AA0ac17SearchSuggestionsF0V
+- _symbolic __________Xj l8MusicKit0A22CatalogExtendedRequest_px12ResponseTypeRts_XPXGMq AA0ac6SearchF0V
+- _symbolic _____y_____G 8MusicKit14CloudAttributeV AA0C7ConcertV0C6TicketV0C12DataProviderV
+- _symbolic _____y_____G 8MusicKit28UncheckedSendableWeakWrapperV AA0A12SubscriptionV14UpdateTriggersV8IteratorC
+- _symbolic _____y_____G s22KeyedDecodingContainerV 8MusicKit12CloudConcertV0F6TicketV0F12DataProviderV10CodingKeys33_C7F008B7795B2BDCFFF36C0AECF06BB1LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 8MusicKit12CloudConcertV0F6TicketV0F12DataProviderV10CodingKeys33_C7F008B7795B2BDCFFF36C0AECF06BB1LLO
+- _symbolic _____y_____GSg 8MusicKit14CloudAttributeV AA0C7ConcertV0C6TicketV0C12DataProviderV
+- _symbolic _____y_____GSg_ADt 8MusicKit14CloudAttributeV AA0C7ConcertV0C6TicketV0C12DataProviderV
+- _symbolic _____y______G 8MusicKit0A12SubscriptionV22GenericUpdatesIteratorV AC
+- _symbolic _____y__________G s6ResultOsRi_zRi0_zrlE 8MusicKit0B12SubscriptionV AE5ErrorO
+- _symbolic _____y______y__________GG 8MusicKit0A12SubscriptionV22GenericUpdatesIteratorV s6ResultOsRi_zRi0_zrlE AC AC5ErrorO
+- _symbolic xyYaKc
+- _type_layout_string 8MusicKit0A12SubscriptionV15FailableUpdatesV8IteratorV
+- _type_layout_string 8MusicKit0A12SubscriptionV15ThrowingUpdatesV8IteratorV
+- _type_layout_string 8MusicKit0A12SubscriptionV7UpdatesV8IteratorV
+- _type_layout_string So43MusicKit_SoftLinking_MPModelPlaylistOptionsV
+CStrings:
++ ", "
++ "<%@: %p; flavors = %@>"
++ "@\"NSDictionary\"16@?0@\"MPModelObject\"8"
++ "Could not get the latest music subscription for %{public}@ because of %{public}@. Defaulting to `placeholder`."
++ "Editorial artwork for flavor %{public}@ was %{public}@, not an artwork catalog. Dropping it."
++ "Latest music subscription for %{public}@: %{public}s."
++ "MPModelPropertyAlbumCloudChannelName"
++ "MPModelPropertyAlbumShouldShowCountdownTimer"
++ "MPModelPropertyAlbumType"
++ "MPModelPropertyRadioStationEditorialArtworks"
++ "MusicSubscription Updates got trigger %{public}s."
++ "Siri"
++ "SiriMultiEntityIVQ"
++ "SpatialTimingInformation"
++ "capabilitiesChanged"
++ "com.apple.TVMusic"
++ "countryCodeChanged"
++ "eventDataProviders"
++ "isReleaseCountdownEnabled"
++ "live_release_albums"
++ "plainEditorialCard"
++ "pushNotificationChannelId"
++ "recommendedCropCodes"
++ "requiresUpdatedPayloadForPlayback"
+- "@\"NSMutableDictionary\"16@?0@\"MPModelObject\"8"
+- "CloudAttribute<CloudSpatialTimingInformation>"
+- "MusicSubscription.UpdateTriggers.UpdateTrigger"
+- "underlyingNotification"
+```

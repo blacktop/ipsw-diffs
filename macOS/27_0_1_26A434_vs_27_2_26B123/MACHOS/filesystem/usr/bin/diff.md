@@ -1,0 +1,16 @@
+## diff
+
+> `/usr/bin/diff`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+
+```diff
+
+-77.0.0.0.0
++79.0.0.0.0
+   __TEXT.__text: 0xb0a4
+   __TEXT.__auth_stubs: 0x630
+   __TEXT.__const: 0x73
+```

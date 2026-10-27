@@ -1,0 +1,17 @@
+## libCRFSuite.dylib
+
+> `/usr/lib/libCRFSuite.dylib`
+
+```diff
+
+   __AUTH_CONST.__weak_auth_got: 0x28
+   __AUTH_CONST.__auth_got: 0x378
+   __AUTH_CONST.__auth_ptr: 0x0
+-  __AUTH.__data: 0x8
+   __DATA.__data: 0x8
+   __DATA.__bss: 0x20
++  __DATA_DIRTY.__data: 0x8
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+```

@@ -1,0 +1,61 @@
+## com.apple.driver.AppleHIDTransport
+
+> `com.apple.driver.AppleHIDTransport`
+
+```diff
+
+-10400.41.0.0.0
+-  __TEXT.__cstring: 0xccb4
+-  __TEXT.__const: 0x3a8
++10410.3.0.0.0
++  __TEXT.__cstring: 0xccd1
++  __TEXT.__const: 0x3c8
+   __TEXT.__os_log: 0x28d
+-  __TEXT_EXEC.__text: 0x82ea0
++  __TEXT_EXEC.__text: 0x83418
+   __TEXT_EXEC.__auth_stubs: 0x930
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x498
+   __DATA.__bss: 0x130
+   __DATA_CONST.__mod_init_func: 0xd0
+   __DATA_CONST.__mod_term_func: 0xd0
+-  __DATA_CONST.__const: 0xebf8
++  __DATA_CONST.__const: 0xec00
+   __DATA_CONST.__kalloc_type: 0xa80
+   __DATA_CONST.__auth_got: 0x498
+   __DATA_CONST.__got: 0x160
+-  Functions: 2312
+-  Symbols:   2418
+-  CStrings:  1506
++  Functions: 2316
++  Symbols:   2419
++  CStrings:  1508
+ 
+Symbols:
++ __ZN26AppleHIDTransportInterface20setInterfaceRecoveryEb
++ __ZZN26AppleHIDTransportInterface22performMasterSetReportEP23AppleHIDTransportDevicehP18IOMemoryDescriptor15IOHIDReportTypeE20kalloc_type_view_632
++ __ZZN27AppleHIDTransportManagement18handleResetRequestEP18IOMemoryDescriptorE20kalloc_type_view_781
++ __ZZN27AppleHIDTransportManagement18handleResetRequestEP18IOMemoryDescriptorE20kalloc_type_view_812
++ __ZZN27AppleHIDTransportManagement19handleConfigRequestEP18IOMemoryDescriptorE20kalloc_type_view_728
++ __ZZN27AppleHIDTransportManagement23handleMemoryDumpRequestEP18IOMemoryDescriptorE20kalloc_type_view_852
++ __ZZN27AppleHIDTransportManagement29handleConfigRequestFromThreadEPNS_24ConfigRequestThreadParamEE21kalloc_type_view_1712
++ __ZZN27AppleHIDTransportManagement33handleMemoryDumpRequestFromThreadEPNS_34HandleMemoryDumpRequestThreadParamEE20kalloc_type_view_882
++ __ZZZN26AppleHIDTransportInterface22performMasterSetReportEP23AppleHIDTransportDevicehP18IOMemoryDescriptor15IOHIDReportTypeENK3$_0clEPvS6_E20kalloc_type_view_672
++ __ZZZN27AppleHIDTransportManagement18handleResetRequestEP18IOMemoryDescriptorENK3$_0clEPvS3_E20kalloc_type_view_807
+- __ZZN26AppleHIDTransportInterface22performMasterSetReportEP23AppleHIDTransportDevicehP18IOMemoryDescriptor15IOHIDReportTypeE20kalloc_type_view_627
+- __ZZN27AppleHIDTransportManagement18handleResetRequestEP18IOMemoryDescriptorE20kalloc_type_view_776
+- __ZZN27AppleHIDTransportManagement18handleResetRequestEP18IOMemoryDescriptorE20kalloc_type_view_807
+- __ZZN27AppleHIDTransportManagement19handleConfigRequestEP18IOMemoryDescriptorE20kalloc_type_view_723
+- __ZZN27AppleHIDTransportManagement23handleMemoryDumpRequestEP18IOMemoryDescriptorE20kalloc_type_view_847
+- __ZZN27AppleHIDTransportManagement29handleConfigRequestFromThreadEPNS_24ConfigRequestThreadParamEE21kalloc_type_view_1707
+- __ZZN27AppleHIDTransportManagement33handleMemoryDumpRequestFromThreadEPNS_34HandleMemoryDumpRequestThreadParamEE20kalloc_type_view_877
+- __ZZZN26AppleHIDTransportInterface22performMasterSetReportEP23AppleHIDTransportDevicehP18IOMemoryDescriptor15IOHIDReportTypeENK3$_0clEPvS6_E20kalloc_type_view_667
+- __ZZZN27AppleHIDTransportManagement18handleResetRequestEP18IOMemoryDescriptorENK3$_0clEPvS3_E20kalloc_type_view_802
+CStrings:
++ "12111112122212121111111111112111121212121211111122222111122"
++ "121111121222121211111111111121111212121212111111222221111221111111121111121"
++ "Recovery"
++ "recovery-sequence"
+- "1211111212221212111111111111211112121212121111122222111122"
+- "12111112122212121111111111112111121212121211111222221111221111111121111121"
+```

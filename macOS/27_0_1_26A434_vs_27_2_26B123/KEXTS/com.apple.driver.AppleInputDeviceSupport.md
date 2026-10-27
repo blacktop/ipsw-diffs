@@ -1,0 +1,55 @@
+## com.apple.driver.AppleInputDeviceSupport
+
+> `com.apple.driver.AppleInputDeviceSupport`
+
+```diff
+
+-10400.41.0.0.0
+-  __TEXT.__cstring: 0x2fc8
++10410.3.0.0.0
++  __TEXT.__cstring: 0x2fdf
+   __TEXT.__const: 0x78
+   __TEXT.__os_log: 0xd6f
+-  __TEXT_EXEC.__text: 0x1cd88
++  __TEXT_EXEC.__text: 0x1cfd8
+   __TEXT_EXEC.__auth_stubs: 0x7b0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x3a8
+
+   __DATA_CONST.__kalloc_var: 0x370
+   __DATA_CONST.__auth_got: 0x3d8
+   __DATA_CONST.__got: 0xe8
+-  Functions: 962
+-  Symbols:   1502
+-  CStrings:  426
++  Functions: 963
++  Symbols:   1503
++  CStrings:  427
+ 
+Symbols:
++ _ZN18AIDImageDownloader4initEPKcjP12OSDictionaryS3_j19AIDEarlyBootOptionsbS3_
++ __ZN18AIDImageDownloader20readEarlyBootOptionsEP15IORegistryEntry
++ __ZN18AIDImageDownloader4initEPKcjP12OSDictionaryS3_j19AIDEarlyBootOptionsbS3_
++ __ZZN18AIDImageDownloader4initEPKcjP12OSDictionaryS3_j19AIDEarlyBootOptionsbS3_E11_os_log_fmt
++ __ZZN18AIDImageDownloader4initEPKcjP12OSDictionaryS3_j19AIDEarlyBootOptionsbS3_E11_os_log_fmt_0
++ __ZZN18AIDImageDownloader4initEPKcjP12OSDictionaryS3_j19AIDEarlyBootOptionsbS3_E11_os_log_fmt_1
++ __ZZN18AIDImageDownloader4initEPKcjP12OSDictionaryS3_j19AIDEarlyBootOptionsbS3_EN3$_08__invokeEPv21AIDFWValidationStatusjP8OSStringP6OSData
++ __ZZN18AIDImageDownloader4initEPKcjP12OSDictionaryS3_j19AIDEarlyBootOptionsbS3_EN3$_18__invokeEPv
++ __ZZZN18AIDImageDownloader4initEPKcjP12OSDictionaryS3_j19AIDEarlyBootOptionsbS3_EUb_E11_os_log_fmt
++ __ZZZN18AIDImageDownloader4initEPKcjP12OSDictionaryS3_j19AIDEarlyBootOptionsbS3_EUb_E11_os_log_fmt_0
++ __ZZZN18AIDImageDownloader4initEPKcjP12OSDictionaryS3_j19AIDEarlyBootOptionsbS3_EUb_E11_os_log_fmt_1
++ ____ZN18AIDImageDownloader4initEPKcjP12OSDictionaryS3_j19AIDEarlyBootOptionsbS3__block_invoke
+- _ZN18AIDImageDownloader4initEPKcjP12OSDictionaryS3_jbS3_
+- __ZN18AIDImageDownloader4initEPKcjP12OSDictionaryS3_jbS3_
+- __ZZN18AIDImageDownloader4initEPKcjP12OSDictionaryS3_jbS3_E11_os_log_fmt
+- __ZZN18AIDImageDownloader4initEPKcjP12OSDictionaryS3_jbS3_E11_os_log_fmt_0
+- __ZZN18AIDImageDownloader4initEPKcjP12OSDictionaryS3_jbS3_E11_os_log_fmt_1
+- __ZZN18AIDImageDownloader4initEPKcjP12OSDictionaryS3_jbS3_EN3$_08__invokeEPv21AIDFWValidationStatusjP8OSStringP6OSData
+- __ZZN18AIDImageDownloader4initEPKcjP12OSDictionaryS3_jbS3_EN3$_18__invokeEPv
+- __ZZZN18AIDImageDownloader4initEPKcjP12OSDictionaryS3_jbS3_EUb_E11_os_log_fmt
+- __ZZZN18AIDImageDownloader4initEPKcjP12OSDictionaryS3_jbS3_EUb_E11_os_log_fmt_0
+- __ZZZN18AIDImageDownloader4initEPKcjP12OSDictionaryS3_jbS3_EUb_E11_os_log_fmt_1
+- ____ZN18AIDImageDownloader4initEPKcjP12OSDictionaryS3_jbS3__block_invoke
+CStrings:
++ "hid-early-boot-options"
+```

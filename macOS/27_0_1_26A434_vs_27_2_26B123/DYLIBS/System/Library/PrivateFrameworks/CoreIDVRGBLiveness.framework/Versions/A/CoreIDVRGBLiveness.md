@@ -1,0 +1,79 @@
+## CoreIDVRGBLiveness
+
+> `/System/Library/PrivateFrameworks/CoreIDVRGBLiveness.framework/Versions/A/CoreIDVRGBLiveness`
+
+```diff
+
+-9.41.1.0.0
+-  __TEXT.__text: 0x37ac
+-  __TEXT.__const: 0xa54
+-  __TEXT.__swift5_typeref: 0x786
+-  __TEXT.__swift5_fieldmd: 0x474
+-  __TEXT.__constg_swiftt: 0x4cc
+-  __TEXT.__swift5_reflstr: 0x386
++9.108.0.0.0
++  __TEXT.__text: 0x37f4
++  __TEXT.__const: 0xad4
++  __TEXT.__swift5_typeref: 0x7e2
++  __TEXT.__swift5_fieldmd: 0x490
++  __TEXT.__constg_swiftt: 0x56c
++  __TEXT.__swift5_reflstr: 0x396
+   __TEXT.__swift5_builtin: 0xa0
+-  __TEXT.__swift5_assocty: 0x90
++  __TEXT.__swift5_assocty: 0xa8
+   __TEXT.__swift5_protos: 0x8
+-  __TEXT.__swift5_proto: 0x58
+-  __TEXT.__swift5_types: 0x44
++  __TEXT.__swift5_proto: 0x5c
++  __TEXT.__swift5_types: 0x48
+   __TEXT.__cstring: 0x11
+-  __TEXT.__unwind_info: 0x1c0
++  __TEXT.__unwind_info: 0x1c8
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+
+   __DATA_CONST.__objc_classlist: 0x18
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x5f8
++  __AUTH_CONST.__const: 0x678
+   __AUTH_CONST.__objc_const: 0x3f8
+-  __AUTH_CONST.__auth_got: 0x238
++  __AUTH_CONST.__auth_got: 0x230
+   __AUTH_CONST.__auth_ptr: 0x200
+   __AUTH.__objc_data: 0x50
+   __AUTH.__data: 0x350
+-  __DATA.__data: 0x210
++  __DATA.__data: 0x228
+   __DATA.__common: 0x10
+-  __DATA.__bss: 0xb10
++  __DATA.__bss: 0xb90
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+   - /System/Library/PrivateFrameworks/CoreIDVShared.framework/Versions/A/CoreIDVShared
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 216
+-  Symbols:   176
++  Functions: 224
++  Symbols:   183
+   CStrings:  1
+ 
+Symbols:
++ _associated conformance 18CoreIDVRGBLiveness22CaptureGuidanceOverlay33_DD2E7F8623FA20AD4485D1699BEEE17BLLV7SwiftUI12ViewModifierAA4BodyAeFP_AE0O0
++ _symbolic _____ 18CoreIDVRGBLiveness22CaptureGuidanceOverlay33_DD2E7F8623FA20AD4485D1699BEEE17BLLV
++ _symbolic _____yAAy_____y_____G_____y_____yAAy_____yAAyAAyAAyAAyAAyAAyAAyAAy__________y_____GG_____GALG_____G_____y__________GGALGALG_____GSSG_____y_____GG_Qo_SgGG_____ySSSgGG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 18CoreIDVRGBLiveness22CaptureGuidanceOverlay33_DD2E7F8623FA20AD4485D1699BEEE17BLLV AA01_kF0V AA0E0PAAE15dynamicTypeSizeyQrAA07DynamictU0OFQO AA6IDViewV AA4TextV AA022_EnvironmentKeyWritingF0V AA0X9AlignmentO AA14_PaddingLayoutV AA13_ShadowEffectV AA026_InsettableBackgroundShapeF0V AA5ColorV AA16RoundedRectangleV AA12_FrameLayoutV AA013_TraitWritingF0V AA015TransitionTraitZ0V AA010_AnimationF0V
++ _symbolic _____y_____G 7SwiftUI21_ViewModifier_ContentV 18CoreIDVRGBLiveness22CaptureGuidanceOverlay33_DD2E7F8623FA20AD4485D1699BEEE17BLLV
++ _symbolic _____y_____y_____G_____y_____yAAy_____yAAyAAyAAyAAyAAyAAyAAyAAy__________y_____GG_____GALG_____G_____y__________GGALGALG_____GSSG_____y_____GG_Qo_SgGG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 18CoreIDVRGBLiveness22CaptureGuidanceOverlay33_DD2E7F8623FA20AD4485D1699BEEE17BLLV AA01_kF0V AA0E0PAAE15dynamicTypeSizeyQrAA07DynamictU0OFQO AA6IDViewV AA4TextV AA022_EnvironmentKeyWritingF0V AA0X9AlignmentO AA14_PaddingLayoutV AA13_ShadowEffectV AA026_InsettableBackgroundShapeF0V AA5ColorV AA16RoundedRectangleV AA12_FrameLayoutV AA013_TraitWritingF0V AA015TransitionTraitZ0V
++ _symbolic _____yx_____G 7SwiftUI15ModifiedContentV 18CoreIDVRGBLiveness22CaptureGuidanceOverlay33_DD2E7F8623FA20AD4485D1699BEEE17BLLV
++ _type_layout_string 18CoreIDVRGBLiveness22CaptureGuidanceOverlay33_DD2E7F8623FA20AD4485D1699BEEE17BLLV
++ get_witness_table 7SwiftUI15ModifiedContentVyACyAA014_ViewModifier_D0Vy18CoreIDVRGBLiveness22CaptureGuidanceOverlay33_DD2E7F8623FA20AD4485D1699BEEE17BLLVGAA01_kF0VyAA0E0PAAE15dynamicTypeSizeyQrAA07DynamictU0OFQOyACyAA6IDViewVyACyACyACyACyACyACyACyACyAA4TextVAA022_EnvironmentKeyWritingF0VyAA0X9AlignmentOGGAA14_PaddingLayoutVGA1_GAA13_ShadowEffectVGAA026_InsettableBackgroundShapeF0VyAA5ColorVAA16RoundedRectangleVGGA1_GA1_GAA12_FrameLayoutVGSSGAA013_TraitWritingF0VyAA015TransitionTraitZ0VGG_Qo_SgGGAA010_AnimationF0VySSSgGGAaMHPA30_AaMHPAjaMHPyHC_A29_AA0eF0HPyHCHC_A34_AAA36_HPyHCHC
++ get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx18CoreIDVRGBLiveness22CaptureGuidanceOverlay33_DD2E7F8623FA20AD4485D1699BEEE17BLLVGAaBHPxAaBHD1__AhA0C8ModifierHPyHCHC
++ get_witness_table 7SwiftUI4ViewRzlxAaBHD1_
+- _symbolic _____yAAyx_____y_____yAAy_____yAAyAAyAAyAAyAAyAAyAAyAAy__________y_____GG_____GAIG_____G_____y__________GGAIGAIG_____GSSG_____y_____GG_Qo_SgGG_____ySSSgGG 7SwiftUI15ModifiedContentV AA16_OverlayModifierV AA4ViewPAAE15dynamicTypeSizeyQrAA07DynamiciJ0OFQO AA6IDViewV AA4TextV AA022_EnvironmentKeyWritingF0V AA0M9AlignmentO AA14_PaddingLayoutV AA13_ShadowEffectV AA026_InsettableBackgroundShapeF0V AA5ColorV AA16RoundedRectangleV AA06_FrameS0V AA06_TraitpF0V AA015TransitionTraitO0V AA010_AnimationF0V
+- _symbolic _____y_____y_____yAAyAAyAAyAAyAAyAAyAAyAAy__________y_____GG_____GAHG_____G_____y__________GGAHGAHG_____GSSG_____y_____GG_Qo_Sg 7SwiftUI4ViewPAAE15dynamicTypeSizeyQrAA07DynamiceF0OFQO AA15ModifiedContentV AA6IDViewV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0K9AlignmentO AA14_PaddingLayoutV AA13_ShadowEffectV AA026_InsettableBackgroundShapeO0V AA5ColorV AA16RoundedRectangleV AA06_FrameR0V AA06_TraitnO0V AA015TransitionTraitM0V
+- get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyADyxAA16_OverlayModifierVyAaBPAAE15dynamicTypeSizeyQrAA07DynamiciJ0OFQOyADyAA6IDViewVyADyADyADyADyADyADyADyADyAA4TextVAA022_EnvironmentKeyWritingG0VyAA0M9AlignmentOGGAA14_PaddingLayoutVGAVGAA13_ShadowEffectVGAA026_InsettableBackgroundShapeG0VyAA5ColorVAA16RoundedRectangleVGGAVGAVGAA06_FrameS0VGSSGAA06_TraitpG0VyAA015TransitionTraitO0VGG_Qo_SgGGAA010_AnimationG0VySSSgGGAaBHPA23_AaBHPxAaBHD1__A22_AA0cG0HPyHCHC_A27_AAA29_HPyHCHC
+```

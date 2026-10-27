@@ -1,0 +1,731 @@
+## FaceTimeMessageStore
+
+> `/System/Library/PrivateFrameworks/FaceTimeMessageStore.framework/Versions/A/FaceTimeMessageStore`
+
+```diff
+
+-1620.100.1.1.22
+-  __TEXT.__text: 0x15054c
+-  __TEXT.__objc_methlist: 0x14b8
+-  __TEXT.__const: 0x108d0
+-  __TEXT.__constg_swiftt: 0x4180
+-  __TEXT.__swift5_typeref: 0x4adc
+-  __TEXT.__swift5_builtin: 0x17c
+-  __TEXT.__swift5_reflstr: 0x205d
+-  __TEXT.__swift5_fieldmd: 0x3464
+-  __TEXT.__swift5_assocty: 0x670
+-  __TEXT.__swift5_proto: 0xdd0
+-  __TEXT.__swift5_types: 0x3fc
+-  __TEXT.__cstring: 0x1f27
+-  __TEXT.__oslogstring: 0x8026
+-  __TEXT.__swift5_capture: 0x24e4
+-  __TEXT.__swift5_mpenum: 0x3c
+-  __TEXT.__swift5_protos: 0xa4
+-  __TEXT.__swift_as_entry: 0x3f8
+-  __TEXT.__swift_as_ret: 0x3ec
+-  __TEXT.__swift_as_cont: 0x720
+-  __TEXT.__unwind_info: 0x5b90
+-  __TEXT.__eh_frame: 0xc6c4
++1626.200.91.1.1
++  __TEXT.__text: 0x19f40c
++  __TEXT.__objc_methlist: 0x1490
++  __TEXT.__const: 0x13760
++  __TEXT.__constg_swiftt: 0x4cf0
++  __TEXT.__swift5_typeref: 0x57da
++  __TEXT.__swift5_builtin: 0x1a4
++  __TEXT.__swift5_reflstr: 0x26b4
++  __TEXT.__swift5_fieldmd: 0x3d9c
++  __TEXT.__swift5_assocty: 0x7c0
++  __TEXT.__swift5_proto: 0x1058
++  __TEXT.__swift5_types: 0x49c
++  __TEXT.__cstring: 0x2557
++  __TEXT.__oslogstring: 0xa10e
++  __TEXT.__swift5_capture: 0x2d3c
++  __TEXT.__swift5_mpenum: 0x4c
++  __TEXT.__swift5_protos: 0xd8
++  __TEXT.__swift_as_entry: 0x530
++  __TEXT.__swift_as_ret: 0x550
++  __TEXT.__swift_as_cont: 0x9f8
++  __TEXT.__unwind_info: 0x6f30
++  __TEXT.__eh_frame: 0x10274
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x730
+-  __DATA_CONST.__objc_classlist: 0x150
++  __DATA_CONST.__const: 0x798
++  __DATA_CONST.__objc_classlist: 0x170
+   __DATA_CONST.__objc_catlist: 0x10
+-  __DATA_CONST.__objc_protolist: 0xf0
++  __DATA_CONST.__objc_protolist: 0xe8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1598
+-  __DATA_CONST.__objc_protorefs: 0x98
++  __DATA_CONST.__objc_selrefs: 0x1650
++  __DATA_CONST.__objc_protorefs: 0x90
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0xb4d0
+-  __AUTH_CONST.__objc_const: 0x5230
+-  __AUTH_CONST.__auth_got: 0x1720
+-  __AUTH_CONST.__auth_ptr: 0xb88
++  __AUTH_CONST.__const: 0xd808
++  __AUTH_CONST.__objc_const: 0x5868
++  __AUTH_CONST.__auth_got: 0x1a88
++  __AUTH_CONST.__auth_ptr: 0xd48
+   __AUTH.__objc_data: 0x2d0
+-  __AUTH.__data: 0x1c0
+-  __DATA.__data: 0x1a90
+-  __DATA.__bss: 0xfbe0
+-  __DATA.__common: 0x90
+-  __DATA_DIRTY.__objc_data: 0xd60
+-  __DATA_DIRTY.__data: 0x4990
+-  __DATA_DIRTY.__bss: 0xaa80
+-  __DATA_DIRTY.__common: 0x468
++  __AUTH.__data: 0x538
++  __DATA.__data: 0x2118
++  __DATA.__bss: 0x13d70
++  __DATA.__common: 0x120
++  __DATA_DIRTY.__objc_data: 0xdb8
++  __DATA_DIRTY.__data: 0x5240
++  __DATA_DIRTY.__bss: 0xb000
++  __DATA_DIRTY.__common: 0x488
+   - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+   - /System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+   - /System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
+
+   - /System/Library/PrivateFrameworks/CallsXPC.framework/Versions/A/CallsXPC
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics
+   - /System/Library/PrivateFrameworks/FTServices.framework/Versions/A/FTServices
++  - /System/Library/PrivateFrameworks/FeatureFlags.framework/Versions/A/FeatureFlags
+   - /System/Library/PrivateFrameworks/IDS.framework/Versions/A/IDS
+   - /System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/Versions/A/InternalSwiftProtobuf
+   - /System/Library/PrivateFrameworks/LinkMetadata.framework/Versions/A/LinkMetadata
+   - /System/Library/PrivateFrameworks/TCC.framework/Versions/A/TCC
+   - /System/Library/PrivateFrameworks/TelephonyUtilities.framework/Versions/A/TelephonyUtilities
++  - /System/Library/PrivateFrameworks/TrustKit.framework/Versions/A/TrustKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
++  - /usr/lib/libsqlite3.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCallKit.dylib
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 9401
+-  Symbols:   3094
+-  CStrings:  773
++  Functions: 11339
++  Symbols:   3507
++  CStrings:  896
+ 
+Symbols:
++ _CFNotificationCenterPostNotification
++ _CFNotificationCenterRemoveObserver
++ _OBJC_CLASS_$_BGNonRepeatingSystemTaskRequest
++ _OBJC_CLASS_$_BGRepeatingSystemTaskRequest
++ _OBJC_CLASS_$_BGSystemTaskRequest
++ _OBJC_CLASS_$_TUConfigurationProvider
++ _OUTLINED_FUNCTION_318
++ _OUTLINED_FUNCTION_319
++ _OUTLINED_FUNCTION_321
++ _OUTLINED_FUNCTION_322
++ _OUTLINED_FUNCTION_323
++ _OUTLINED_FUNCTION_324
++ _OUTLINED_FUNCTION_325
++ _OUTLINED_FUNCTION_326
++ _OUTLINED_FUNCTION_327
++ _OUTLINED_FUNCTION_328
++ _OUTLINED_FUNCTION_329
++ _OUTLINED_FUNCTION_330
++ _OUTLINED_FUNCTION_331
++ _OUTLINED_FUNCTION_332
++ _OUTLINED_FUNCTION_333
++ _OUTLINED_FUNCTION_334
++ _OUTLINED_FUNCTION_335
++ _OUTLINED_FUNCTION_336
++ _OUTLINED_FUNCTION_337
++ _OUTLINED_FUNCTION_338
++ _OUTLINED_FUNCTION_339
++ _OUTLINED_FUNCTION_340
++ _OUTLINED_FUNCTION_341
++ _OUTLINED_FUNCTION_342
++ _OUTLINED_FUNCTION_343
++ _OUTLINED_FUNCTION_344
++ _OUTLINED_FUNCTION_345
++ _OUTLINED_FUNCTION_346
++ _OUTLINED_FUNCTION_347
++ _OUTLINED_FUNCTION_348
++ _OUTLINED_FUNCTION_349
++ _OUTLINED_FUNCTION_350
++ _OUTLINED_FUNCTION_351
++ _OUTLINED_FUNCTION_352
++ _OUTLINED_FUNCTION_353
++ _OUTLINED_FUNCTION_354
++ _OUTLINED_FUNCTION_355
++ _OUTLINED_FUNCTION_356
++ _OUTLINED_FUNCTION_357
++ _OUTLINED_FUNCTION_358
++ _OUTLINED_FUNCTION_359
++ _OUTLINED_FUNCTION_360
++ _OUTLINED_FUNCTION_361
++ _OUTLINED_FUNCTION_362
++ _OUTLINED_FUNCTION_363
++ _OUTLINED_FUNCTION_364
++ _OUTLINED_FUNCTION_365
++ _OUTLINED_FUNCTION_366
++ _OUTLINED_FUNCTION_367
++ _OUTLINED_FUNCTION_369
++ _OUTLINED_FUNCTION_370
++ _OUTLINED_FUNCTION_371
++ _OUTLINED_FUNCTION_372
++ _OUTLINED_FUNCTION_373
++ _OUTLINED_FUNCTION_374
++ _OUTLINED_FUNCTION_375
++ _OUTLINED_FUNCTION_376
++ _OUTLINED_FUNCTION_377
++ _OUTLINED_FUNCTION_378
++ _OUTLINED_FUNCTION_379
++ _OUTLINED_FUNCTION_380
++ _OUTLINED_FUNCTION_381
++ _OUTLINED_FUNCTION_382
++ _OUTLINED_FUNCTION_383
++ _OUTLINED_FUNCTION_384
++ _OUTLINED_FUNCTION_385
++ _OUTLINED_FUNCTION_386
++ _OUTLINED_FUNCTION_387
++ _OUTLINED_FUNCTION_388
++ _OUTLINED_FUNCTION_389
++ _OUTLINED_FUNCTION_390
++ _OUTLINED_FUNCTION_391
++ _OUTLINED_FUNCTION_392
++ _OUTLINED_FUNCTION_393
++ _OUTLINED_FUNCTION_394
++ _OUTLINED_FUNCTION_395
++ _OUTLINED_FUNCTION_396
++ _OUTLINED_FUNCTION_397
++ _OUTLINED_FUNCTION_398
++ _OUTLINED_FUNCTION_399
++ _OUTLINED_FUNCTION_400
++ _OUTLINED_FUNCTION_401
++ _OUTLINED_FUNCTION_402
++ _OUTLINED_FUNCTION_403
++ _OUTLINED_FUNCTION_404
++ _OUTLINED_FUNCTION_405
++ _OUTLINED_FUNCTION_406
++ _OUTLINED_FUNCTION_407
++ _OUTLINED_FUNCTION_408
++ _OUTLINED_FUNCTION_409
++ _OUTLINED_FUNCTION_410
++ __DATA__TtC20FaceTimeMessageStore22MessageSpamCoordinator
++ __DATA__TtC20FaceTimeMessageStore24DelayedSpamInferenceTask
++ __DATA__TtC20FaceTimeMessageStore25VoicemailSpamVerdictCache
++ __DATA__TtC20FaceTimeMessageStoreP33_832F08EFE6BDB0B79F889E50C8EC08E823DarwinNotificationToken
++ __IVARS__TtC20FaceTimeMessageStore22MessageSpamCoordinator
++ __IVARS__TtC20FaceTimeMessageStore24DelayedSpamInferenceTask
++ __IVARS__TtC20FaceTimeMessageStore25VoicemailSpamVerdictCache
++ __IVARS__TtC20FaceTimeMessageStoreP33_832F08EFE6BDB0B79F889E50C8EC08E823DarwinNotificationToken
++ __METACLASS_DATA__TtC20FaceTimeMessageStore22MessageSpamCoordinator
++ __METACLASS_DATA__TtC20FaceTimeMessageStore24DelayedSpamInferenceTask
++ __METACLASS_DATA__TtC20FaceTimeMessageStore25VoicemailSpamVerdictCache
++ __METACLASS_DATA__TtC20FaceTimeMessageStoreP33_832F08EFE6BDB0B79F889E50C8EC08E823DarwinNotificationToken
++ ___swift_memcpy17_8
++ ___swift_memcpy33_8
++ ___swift_memcpy59_8
++ __swift_closure_destructor.111Tm
++ __swift_closure_destructor.127Tm
++ __swift_closure_destructor.129Tm
++ __swift_closure_destructor.158Tm
++ __swift_closure_destructor.231Tm
++ __swift_closure_destructor.367Tm
++ __swift_closure_destructor.36Tm
++ __swift_closure_destructor.511Tm
++ __swift_closure_destructor.54Tm
++ __swift_closure_destructor.66Tm
++ __swift_closure_destructor.71Tm
++ __swift_closure_destructor.74Tm
++ __swift_closure_destructor.98Tm
++ __swift_get_extra_inhabitant_index.8Tm
++ __swift_store_extra_inhabitant_index.9Tm
++ _associated conformance 20FaceTimeMessageStore0abcD11_UserReportV21InternalSwiftProtobuf01_C18ImplementationBaseAASH
++ _associated conformance 20FaceTimeMessageStore0abcD11_UserReportV21InternalSwiftProtobuf01_C18ImplementationBaseAaD0C0
++ _associated conformance 20FaceTimeMessageStore0abcD11_UserReportV21InternalSwiftProtobuf0C0AAs28CustomDebugStringConvertible
++ _associated conformance 20FaceTimeMessageStore0abcD11_UserReportVSHAASQ
++ _associated conformance 20FaceTimeMessageStore0abcD12_SpamVerdictV21InternalSwiftProtobuf01_C18ImplementationBaseAASH
++ _associated conformance 20FaceTimeMessageStore0abcD12_SpamVerdictV21InternalSwiftProtobuf01_C18ImplementationBaseAaD0C0
++ _associated conformance 20FaceTimeMessageStore0abcD12_SpamVerdictV21InternalSwiftProtobuf0C0AAs28CustomDebugStringConvertible
++ _associated conformance 20FaceTimeMessageStore0abcD12_SpamVerdictVSHAASQ
++ _associated conformance 20FaceTimeMessageStore0abcD16_InferenceResultV21InternalSwiftProtobuf01_C18ImplementationBaseAASH
++ _associated conformance 20FaceTimeMessageStore0abcD16_InferenceResultV21InternalSwiftProtobuf01_C18ImplementationBaseAaD0C0
++ _associated conformance 20FaceTimeMessageStore0abcD16_InferenceResultV21InternalSwiftProtobuf0C0AAs28CustomDebugStringConvertible
++ _associated conformance 20FaceTimeMessageStore0abcD16_InferenceResultVSHAASQ
++ _associated conformance 20FaceTimeMessageStore0cD8FeaturesV4FlagOSHAASQ
++ _associated conformance 20FaceTimeMessageStore11SpamVerdictV10CodingKeys33_560A7B9130BE9AFF6C8EB08DE21E9AA0LLOSHAASQ
++ _associated conformance 20FaceTimeMessageStore11SpamVerdictV10CodingKeys33_560A7B9130BE9AFF6C8EB08DE21E9AA0LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 20FaceTimeMessageStore11SpamVerdictV10CodingKeys33_560A7B9130BE9AFF6C8EB08DE21E9AA0LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20FaceTimeMessageStore11SpamVerdictV10UserReportV10CodingKeys33_560A7B9130BE9AFF6C8EB08DE21E9AA0LLOSHAASQ
++ _associated conformance 20FaceTimeMessageStore11SpamVerdictV10UserReportV10CodingKeys33_560A7B9130BE9AFF6C8EB08DE21E9AA0LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 20FaceTimeMessageStore11SpamVerdictV10UserReportV10CodingKeys33_560A7B9130BE9AFF6C8EB08DE21E9AA0LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20FaceTimeMessageStore11SpamVerdictV10UserReportV9DirectionOSHAASQ
++ _associated conformance 20FaceTimeMessageStore11SpamVerdictV10UserReportVSHAASQ
++ _associated conformance 20FaceTimeMessageStore11SpamVerdictV15InferenceResultV10CodingKeys33_560A7B9130BE9AFF6C8EB08DE21E9AA0LLOSHAASQ
++ _associated conformance 20FaceTimeMessageStore11SpamVerdictV15InferenceResultV10CodingKeys33_560A7B9130BE9AFF6C8EB08DE21E9AA0LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 20FaceTimeMessageStore11SpamVerdictV15InferenceResultV10CodingKeys33_560A7B9130BE9AFF6C8EB08DE21E9AA0LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20FaceTimeMessageStore11SpamVerdictV15InferenceResultV14ClassificationOSHAASQ
++ _associated conformance 20FaceTimeMessageStore11SpamVerdictV15InferenceResultV14ClassificationOs12CaseIterableAA8AllCasessAHP_Sl
++ _associated conformance 20FaceTimeMessageStore11SpamVerdictV15InferenceResultV7TriggerOSHAASQ
++ _associated conformance 20FaceTimeMessageStore11SpamVerdictV15InferenceResultV7TriggerOs12CaseIterableAA8AllCasessAHP_Sl
++ _associated conformance 20FaceTimeMessageStore11SpamVerdictV15InferenceResultVSHAASQ
++ _associated conformance 20FaceTimeMessageStore11SpamVerdictVSHAASQ
++ _associated conformance 20FaceTimeMessageStore12SystemTaskIDVSHAASQ
++ _associated conformance 20FaceTimeMessageStore17InferSpamDecisionV10CodingKeys33_A2E39644EDFDBC4D20A45AC5D4BD8A71LLOSHAASQ
++ _associated conformance 20FaceTimeMessageStore17InferSpamDecisionV10CodingKeys33_A2E39644EDFDBC4D20A45AC5D4BD8A71LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 20FaceTimeMessageStore17InferSpamDecisionV10CodingKeys33_A2E39644EDFDBC4D20A45AC5D4BD8A71LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20FaceTimeMessageStore17InferSpamDecisionV8CallsXPC10XPCMessageAA5ReplyAdEP_SE
++ _associated conformance 20FaceTimeMessageStore17InferSpamDecisionV8CallsXPC10XPCMessageAA5ReplyAdEP_Se
++ _associated conformance 20FaceTimeMessageStore17InferSpamDecisionV8CallsXPC10XPCMessageAA7FailureAdEP_SE
++ _associated conformance 20FaceTimeMessageStore17InferSpamDecisionV8CallsXPC10XPCMessageAA7FailureAdEP_Se
++ _associated conformance 20FaceTimeMessageStore17InferSpamDecisionV8CallsXPC10XPCMessageAA7FailureAdEP_s5Error
++ _associated conformance 20FaceTimeMessageStore17InferSpamDecisionV8CallsXPC10XPCMessageAASE
++ _associated conformance 20FaceTimeMessageStore17InferSpamDecisionV8CallsXPC10XPCMessageAASe
++ _associated conformance 20FaceTimeMessageStore17SystemTaskRequestV0G4TypeO10CodingKeys33_82D14CB38733BC5757857567AEA4CBACLLOSHAASQ
++ _associated conformance 20FaceTimeMessageStore17SystemTaskRequestV0G4TypeO10CodingKeys33_82D14CB38733BC5757857567AEA4CBACLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 20FaceTimeMessageStore17SystemTaskRequestV0G4TypeO10CodingKeys33_82D14CB38733BC5757857567AEA4CBACLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20FaceTimeMessageStore17SystemTaskRequestV0G4TypeO19RepeatingCodingKeys33_82D14CB38733BC5757857567AEA4CBACLLOSHAASQ
++ _associated conformance 20FaceTimeMessageStore17SystemTaskRequestV0G4TypeO19RepeatingCodingKeys33_82D14CB38733BC5757857567AEA4CBACLLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 20FaceTimeMessageStore17SystemTaskRequestV0G4TypeO19RepeatingCodingKeys33_82D14CB38733BC5757857567AEA4CBACLLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20FaceTimeMessageStore17SystemTaskRequestV0G4TypeO22NonRepeatingCodingKeys33_82D14CB38733BC5757857567AEA4CBACLLOSHAASQ
++ _associated conformance 20FaceTimeMessageStore17SystemTaskRequestV0G4TypeO22NonRepeatingCodingKeys33_82D14CB38733BC5757857567AEA4CBACLLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 20FaceTimeMessageStore17SystemTaskRequestV0G4TypeO22NonRepeatingCodingKeys33_82D14CB38733BC5757857567AEA4CBACLLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20FaceTimeMessageStore17SystemTaskRequestV0G4TypeOSHAASQ
++ _associated conformance 20FaceTimeMessageStore17SystemTaskRequestV0G8PriorityOSHAASQ
++ _associated conformance 20FaceTimeMessageStore17SystemTaskRequestV10CodingKeys33_82D14CB38733BC5757857567AEA4CBACLLOSHAASQ
++ _associated conformance 20FaceTimeMessageStore17SystemTaskRequestV10CodingKeys33_82D14CB38733BC5757857567AEA4CBACLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 20FaceTimeMessageStore17SystemTaskRequestV10CodingKeys33_82D14CB38733BC5757857567AEA4CBACLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20FaceTimeMessageStore17SystemTaskRequestVSHAASQ
++ _associated conformance 20FaceTimeMessageStore17SystemTaskRequestVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 20FaceTimeMessageStore18ReportSpamDecisionV10CodingKeys33_A2E39644EDFDBC4D20A45AC5D4BD8A71LLOSHAASQ
++ _associated conformance 20FaceTimeMessageStore18ReportSpamDecisionV10CodingKeys33_A2E39644EDFDBC4D20A45AC5D4BD8A71LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 20FaceTimeMessageStore18ReportSpamDecisionV10CodingKeys33_A2E39644EDFDBC4D20A45AC5D4BD8A71LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20FaceTimeMessageStore18ReportSpamDecisionV8CallsXPC10XPCMessageAA5ReplyAdEP_SE
++ _associated conformance 20FaceTimeMessageStore18ReportSpamDecisionV8CallsXPC10XPCMessageAA5ReplyAdEP_Se
++ _associated conformance 20FaceTimeMessageStore18ReportSpamDecisionV8CallsXPC10XPCMessageAA7FailureAdEP_SE
++ _associated conformance 20FaceTimeMessageStore18ReportSpamDecisionV8CallsXPC10XPCMessageAA7FailureAdEP_Se
++ _associated conformance 20FaceTimeMessageStore18ReportSpamDecisionV8CallsXPC10XPCMessageAA7FailureAdEP_s5Error
++ _associated conformance 20FaceTimeMessageStore18ReportSpamDecisionV8CallsXPC10XPCMessageAASE
++ _associated conformance 20FaceTimeMessageStore18ReportSpamDecisionV8CallsXPC10XPCMessageAASe
++ _associated conformance 20FaceTimeMessageStore25VoicemailSpamVerdictCacheC0G0V10CodingKeys33_2AA5ADFCD66B281FCCFCE112DE49DD52LLOSHAASQ
++ _associated conformance 20FaceTimeMessageStore25VoicemailSpamVerdictCacheC0G0V10CodingKeys33_2AA5ADFCD66B281FCCFCE112DE49DD52LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 20FaceTimeMessageStore25VoicemailSpamVerdictCacheC0G0V10CodingKeys33_2AA5ADFCD66B281FCCFCE112DE49DD52LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _bzero
++ _flat unique s5Clock_px8DurationsAAPRts_XP
++ _get_enum_tag_for_layout_string 20FaceTimeMessageStore25VoicemailSpamVerdictCacheC0H5ErrorO
++ _keypath_get_selector_mailboxTypeV2
++ _keypath_get_selector_spamVerdictData
++ _objc_msgSend$deleteObject:
++ _objc_msgSend$doubleValue
++ _objc_msgSend$initWithIdentifier:
++ _objc_msgSend$interval
++ _objc_msgSend$isSilenceJunkCallingUserPreferenceEnabled
++ _objc_msgSend$isSpamFilterEnabledForFaceTime
++ _objc_msgSend$isValidJSONObject:
++ _objc_msgSend$mailboxTypeV2
++ _objc_msgSend$minDurationBetweenInstances
++ _objc_msgSend$priority
++ _objc_msgSend$requiresExternalPower
++ _objc_msgSend$requiresNetworkConnectivity
++ _objc_msgSend$scheduleAfter
++ _objc_msgSend$setInterval:
++ _objc_msgSend$setMailboxTypeV2:
++ _objc_msgSend$setMinDurationBetweenInstances:
++ _objc_msgSend$setPriority:
++ _objc_msgSend$setRequiresExternalPower:
++ _objc_msgSend$setRequiresNetworkConnectivity:
++ _objc_msgSend$setScheduleAfter:
++ _objc_msgSend$setSpamVerdictData:
++ _objc_msgSend$setTrySchedulingBefore:
++ _objc_msgSend$spamVerdictData
++ _objc_msgSend$submitTaskRequest:error:
++ _objc_msgSend$taskRequestForIdentifier:
++ _objc_msgSend$trySchedulingBefore
++ _objc_retain_x10
++ _objc_retain_x11
++ _sqlite3_bind_blob
++ _sqlite3_bind_int
++ _sqlite3_bind_null
++ _sqlite3_bind_text
++ _sqlite3_close_v2
++ _sqlite3_column_blob
++ _sqlite3_column_bytes
++ _sqlite3_column_text
++ _sqlite3_errmsg
++ _sqlite3_exec
++ _sqlite3_finalize
++ _sqlite3_open_v2
++ _sqlite3_prepare_v2
++ _sqlite3_step
++ _swift_asyncLet_begin
++ _swift_asyncLet_finish
++ _swift_asyncLet_get
++ _swift_task_future_wait_throwing
++ _symbolic $s20FaceTimeMessageStore010TranscriptC13InitializableP
++ _symbolic $s20FaceTimeMessageStore0C16SpamCoordinatingP
++ _symbolic $s20FaceTimeMessageStore0cD16FeatureProvidingP
++ _symbolic $s20FaceTimeMessageStore14SummaryStoringP
++ _symbolic $s20FaceTimeMessageStore15DarwinNotifyingP
++ _symbolic $s20FaceTimeMessageStore18SpamVerdictStoringP
++ _symbolic $s20FaceTimeMessageStore19SpamReportServicingP
++ _symbolic $s20FaceTimeMessageStore21CallerIDInitializableP
++ _symbolic $s20FaceTimeMessageStore22SpamInferenceServicingP
++ _symbolic $s20FaceTimeMessageStore24CallHistoryInitializableP
++ _symbolic $s20FaceTimeMessageStore26SensitivityAnalysisStoringP
++ _symbolic $s20FaceTimeMessageStore27VoicemailSpamVerdictReadingP
++ _symbolic $s20FaceTimeMessageStore31SpamIdentificationInitializableP
++ _symbolic $s20FaceTimeMessageStore35SpamFilteringConfigurationProvidingP
++ _symbolic 8Duration_____Qyd__ s5ClockP
++ _symbolic Ieg_
++ _symbolic S2bIeghHdd_
++ _symbolic SDy__________G 10Foundation4UUIDV 20FaceTimeMessageStore0E15SpamCoordinatorC15ResolutionEntry33_03A8709C4202228E68510E89261D91A3LLV
++ _symbolic Say_____3old_AA3newtG 20FaceTimeMessageStore0C0C
++ _symbolic Say_____3old_AA3newtG______pIeghHrzo_ 20FaceTimeMessageStore0C0C s5ErrorP
++ _symbolic Say_____G 11CallHistory06RecentA0V
++ _symbolic Say_____G 11CallHistory0A9PredicateO
++ _symbolic Say_____G 20FaceTimeMessageStore11SpamVerdictV15InferenceResultV14ClassificationO
++ _symbolic Say_____G 20FaceTimeMessageStore11SpamVerdictV15InferenceResultV7TriggerO
++ _symbolic Say___________tG 10Foundation4UUIDV 20FaceTimeMessageStore11SpamVerdictV
++ _symbolic Sb12isSuppressed_Sb9succeeded______pSg5errort s5ErrorP
++ _symbolic Sb12isSuppressed_Sb9succeeded______pSg5errortIeAgHr_ s5ErrorP
++ _symbolic SbIeAgHr_
++ _symbolic SbSgIeAgHr_
++ _symbolic ScGySbSgG
++ _symbolic ScSyytG
++ _symbolic ScTySb12isSuppressed_Sb9succeeded______pSg5errort_____G s5ErrorP s5NeverO
++ _symbolic SccySay_____3old_AA3newtG______pG 20FaceTimeMessageStore0C0C s5ErrorP
++ _symbolic Sccy_____7verdict_Sb9didChangetSg______pG 20FaceTimeMessageStore11SpamVerdictV s5ErrorP
++ _symbolic Shy_____G 20FaceTimeMessageStore11SpamVerdictV15InferenceResultV7TriggerO
++ _symbolic Shy_____GSg 20FaceTimeMessageStore11SpamVerdictV15InferenceResultV7TriggerO
++ _symbolic _____ 20FaceTimeMessageStore0C15SpamCoordinatorC
++ _symbolic _____ 20FaceTimeMessageStore0C15SpamCoordinatorC13ResolutionKey33_03A8709C4202228E68510E89261D91A3LLO
++ _symbolic _____ 20FaceTimeMessageStore0C15SpamCoordinatorC15ResolutionEntry33_03A8709C4202228E68510E89261D91A3LLV
++ _symbolic _____ 20FaceTimeMessageStore0abcD11_UserReportV
++ _symbolic _____ 20FaceTimeMessageStore0abcD12_SpamVerdictV
++ _symbolic _____ 20FaceTimeMessageStore0abcD16_InferenceResultV
++ _symbolic _____ 20FaceTimeMessageStore0cD8FeaturesV
++ _symbolic _____ 20FaceTimeMessageStore0cD8FeaturesV4FlagO
++ _symbolic _____ 20FaceTimeMessageStore11SpamVerdictV
++ _symbolic _____ 20FaceTimeMessageStore11SpamVerdictV10CodingKeys33_560A7B9130BE9AFF6C8EB08DE21E9AA0LLO
++ _symbolic _____ 20FaceTimeMessageStore11SpamVerdictV10UserReportV
++ _symbolic _____ 20FaceTimeMessageStore11SpamVerdictV10UserReportV10CodingKeys33_560A7B9130BE9AFF6C8EB08DE21E9AA0LLO
++ _symbolic _____ 20FaceTimeMessageStore11SpamVerdictV10UserReportV9DirectionO
++ _symbolic _____ 20FaceTimeMessageStore11SpamVerdictV15InferenceResultV
++ _symbolic _____ 20FaceTimeMessageStore11SpamVerdictV15InferenceResultV10CodingKeys33_560A7B9130BE9AFF6C8EB08DE21E9AA0LLO
++ _symbolic _____ 20FaceTimeMessageStore11SpamVerdictV15InferenceResultV14ClassificationO
++ _symbolic _____ 20FaceTimeMessageStore11SpamVerdictV15InferenceResultV7TriggerO
++ _symbolic _____ 20FaceTimeMessageStore12SystemTaskIDV
++ _symbolic _____ 20FaceTimeMessageStore17InferSpamDecisionV
++ _symbolic _____ 20FaceTimeMessageStore17InferSpamDecisionV10CodingKeys33_A2E39644EDFDBC4D20A45AC5D4BD8A71LLO
++ _symbolic _____ 20FaceTimeMessageStore17SpamReportServiceV
++ _symbolic _____ 20FaceTimeMessageStore17SystemTaskRequestV
++ _symbolic _____ 20FaceTimeMessageStore17SystemTaskRequestV0G4TypeO
++ _symbolic _____ 20FaceTimeMessageStore17SystemTaskRequestV0G4TypeO10CodingKeys33_82D14CB38733BC5757857567AEA4CBACLLO
++ _symbolic _____ 20FaceTimeMessageStore17SystemTaskRequestV0G4TypeO19RepeatingCodingKeys33_82D14CB38733BC5757857567AEA4CBACLLO
++ _symbolic _____ 20FaceTimeMessageStore17SystemTaskRequestV0G4TypeO22NonRepeatingCodingKeys33_82D14CB38733BC5757857567AEA4CBACLLO
++ _symbolic _____ 20FaceTimeMessageStore17SystemTaskRequestV0G8PriorityO
++ _symbolic _____ 20FaceTimeMessageStore17SystemTaskRequestV10CodingKeys33_82D14CB38733BC5757857567AEA4CBACLLO
++ _symbolic _____ 20FaceTimeMessageStore18ReportSpamDecisionV
++ _symbolic _____ 20FaceTimeMessageStore18ReportSpamDecisionV10CodingKeys33_A2E39644EDFDBC4D20A45AC5D4BD8A71LLO
++ _symbolic _____ 20FaceTimeMessageStore20SpamInferenceServiceV
++ _symbolic _____ 20FaceTimeMessageStore22ScheduledActivityErrorO
++ _symbolic _____ 20FaceTimeMessageStore23DarwinNotificationToken33_832F08EFE6BDB0B79F889E50C8EC08E8LLC
++ _symbolic _____ 20FaceTimeMessageStore24DarwinNotificationCenterV
++ _symbolic _____ 20FaceTimeMessageStore24DelayedSpamInferenceTaskC
++ _symbolic _____ 20FaceTimeMessageStore25VoicemailSpamVerdictCacheC
++ _symbolic _____ 20FaceTimeMessageStore25VoicemailSpamVerdictCacheC0G0V
++ _symbolic _____ 20FaceTimeMessageStore25VoicemailSpamVerdictCacheC0G0V10CodingKeys33_2AA5ADFCD66B281FCCFCE112DE49DD52LLO
++ _symbolic _____ 20FaceTimeMessageStore25VoicemailSpamVerdictCacheC0H5ErrorO
++ _symbolic _____ 20FaceTimeMessageStore27SpamInferenceServiceRequestV
++ _symbolic _____ 8TrustKit15TKReportServiceC21PhoneTranscriptReportV8CallerIDV
++ _symbolic _____ 8TrustKit15TKReportServiceC21PhoneTranscriptReportV8CallerIDV14BrandedCallingV
++ _symbolic _____ 8TrustKit15TKReportServiceC21PhoneTranscriptReportV8CallerIDV15BusinessConnectV
++ _symbolic _____ 8TrustKit15TKReportServiceC21PhoneTranscriptReportV8CallerIDV7ContactV
++ _symbolic _____ 8TrustKit20TKDecisioningServiceC35PhoneTranscriptSpamDecisioningInputV14BrandedCallingV
++ _symbolic _____ 8TrustKit20TKDecisioningServiceC35PhoneTranscriptSpamDecisioningInputV15BusinessConnectV
++ _symbolic _____ 8TrustKit20TKDecisioningServiceC35PhoneTranscriptSpamDecisioningInputV7ContactV
++ _symbolic _____ 8TrustKit20TKDecisioningServiceC35PhoneTranscriptSpamDecisioningInputV8CallerIDV
++ _symbolic _____ s13OpaquePointerV
++ _symbolic _____10recordUUID______11pendingDatet 10Foundation4UUIDV AA4DateV
++ _symbolic _____10recordUUID______11pendingDatetSg 10Foundation4UUIDV AA4DateV
++ _symbolic _____13scheduleAfter_AA19trySchedulingBeforet s8DurationV
++ _symbolic _____3key______5valuet 10Foundation4UUIDV 20FaceTimeMessageStore0E15SpamCoordinatorC15ResolutionEntry33_03A8709C4202228E68510E89261D91A3LLV
++ _symbolic _____3key______5valuet 10Foundation4UUIDV 20FaceTimeMessageStore25VoicemailSpamVerdictCacheC0I0V
++ _symbolic _____3old_AA3newt 20FaceTimeMessageStore0C0C
++ _symbolic _____7verdict_Sb9didChanget 20FaceTimeMessageStore11SpamVerdictV
++ _symbolic _____7verdict_Sb9didChangetSg 20FaceTimeMessageStore11SpamVerdictV
++ _symbolic _____7verdict_Sb9didChangetSg______pIeghHrzo_ 20FaceTimeMessageStore11SpamVerdictV s5ErrorP
++ _symbolic _____8interval_AA27minDurationBetweenInstancest s8DurationV
++ _symbolic _____Iegr_ 20FaceTimeMessageStore11SpamVerdictV10UserReportV9DirectionO
++ _symbolic _____Iegr_ 20FaceTimeMessageStore11SpamVerdictV15InferenceResultV7TriggerO
++ _symbolic _____Iegr_ 20FaceTimeMessageStore19TranscriptionStatusO
++ _symbolic _____Sg 11CallHistory06RecentA0V
++ _symbolic _____Sg 11CallHistory20CallerIDAvailabilityO
++ _symbolic _____Sg 18TelephonyUtilities23MessageStoreBadgeCountsV
++ _symbolic _____Sg 20FaceTimeMessageStore0C15SpamCoordinatorC15ResolutionEntry33_03A8709C4202228E68510E89261D91A3LLV
++ _symbolic _____Sg 20FaceTimeMessageStore0abcD11_UserReportV
++ _symbolic _____Sg 20FaceTimeMessageStore0abcD16_InferenceResultV
++ _symbolic _____Sg 20FaceTimeMessageStore0cD8ProviderO
++ _symbolic _____Sg 20FaceTimeMessageStore11SpamVerdictV
++ _symbolic _____Sg 20FaceTimeMessageStore11SpamVerdictV10UserReportV
++ _symbolic _____Sg 20FaceTimeMessageStore11SpamVerdictV15InferenceResultV
++ _symbolic _____Sg 20FaceTimeMessageStore17SystemTaskRequestV
++ _symbolic _____Sg 20FaceTimeMessageStore25VoicemailSpamVerdictCacheC0G0V
++ _symbolic _____Sg 8TrustKit15TKReportServiceC21PhoneTranscriptReportV8CallerIDV14BrandedCallingV
++ _symbolic _____Sg 8TrustKit15TKReportServiceC21PhoneTranscriptReportV8CallerIDV15BusinessConnectV
++ _symbolic _____Sg 8TrustKit15TKReportServiceC21PhoneTranscriptReportV8CallerIDV7ContactV
++ _symbolic _____Sg 8TrustKit20TKDecisioningServiceC35PhoneTranscriptSpamDecisioningInputV14BrandedCallingV
++ _symbolic _____Sg 8TrustKit20TKDecisioningServiceC35PhoneTranscriptSpamDecisioningInputV15BusinessConnectV
++ _symbolic _____Sg 8TrustKit20TKDecisioningServiceC35PhoneTranscriptSpamDecisioningInputV7ContactV
++ _symbolic _____SgXw 20FaceTimeMessageStore0C15SpamCoordinatorC
++ _symbolic _____SgXw 20FaceTimeMessageStore19NotificationManagerC
++ _symbolic _____SgXwz_Xx 20FaceTimeMessageStore19NotificationManagerC
++ _symbolic _____Sg_ABt 11CallHistory20CallerIDAvailabilityO
++ _symbolic _____Sg_ABt 18TelephonyUtilities23MessageStoreBadgeCountsV
++ _symbolic _____Sg_ABt 20FaceTimeMessageStore0abcD11_UserReportV
++ _symbolic _____Sg_ABt 20FaceTimeMessageStore0abcD16_InferenceResultV
++ _symbolic _____Sg_ABt 20FaceTimeMessageStore11SpamVerdictV
++ _symbolic _____Sg_ABt 20FaceTimeMessageStore11SpamVerdictV10UserReportV
++ _symbolic _____Sg_ABt 20FaceTimeMessageStore11SpamVerdictV15InferenceResultV
++ _symbolic _____Sg_ABt 20FaceTimeMessageStore17SystemTaskRequestV
++ _symbolic __________Xj ls5Clock_px8DurationRts_XPXGMq sABV
++ _symbolic ___________t 10Foundation4UUIDV 20FaceTimeMessageStore11SpamVerdictV
++ _symbolic ______p 20FaceTimeMessageStore0C16SpamCoordinatingP
++ _symbolic ______p 20FaceTimeMessageStore0cD16FeatureProvidingP
++ _symbolic ______p 20FaceTimeMessageStore15DarwinNotifyingP
++ _symbolic ______p 20FaceTimeMessageStore19SpamReportServicingP
++ _symbolic ______p 20FaceTimeMessageStore20SystemTaskSchedulingP
++ _symbolic ______p 20FaceTimeMessageStore22SpamInferenceServicingP
++ _symbolic ______p 20FaceTimeMessageStore35SpamFilteringConfigurationProvidingP
++ _symbolic ______p 8TrustKit20TKDecisioningServiceC0C6OutputP
++ _symbolic ______pSg 20FaceTimeMessageStore0C16SpamCoordinatingP
++ _symbolic ______pSg 20FaceTimeMessageStore35SpamFilteringConfigurationProvidingP
++ _symbolic _____ySuyycG s17_NativeDictionaryV
++ _symbolic _____y_____10recordUUID______11pendingDatetG s23_ContiguousArrayStorageC 10Foundation4UUIDV AC4DateV
++ _symbolic _____y_____3old_AB3newtG s23_ContiguousArrayStorageC 20FaceTimeMessageStore0F0C
++ _symbolic _____y_____G 20FaceTimeMessageStore17ScheduledActivityC AA24DelayedSpamInferenceTaskC
++ _symbolic _____y_____G 8CallsXPC15ReceivedMessageV 08FaceTimeD5Store17InferSpamDecisionV
++ _symbolic _____y_____G 8CallsXPC15ReceivedMessageV 08FaceTimeD5Store18ReportSpamDecisionV
++ _symbolic _____y_____G s11_SetStorageC 20FaceTimeMessageStore0E0C
++ _symbolic _____y_____G s11_SetStorageC 20FaceTimeMessageStore11SpamVerdictV15InferenceResultV7TriggerO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20FaceTimeMessageStore11SpamVerdictV10CodingKeys33_560A7B9130BE9AFF6C8EB08DE21E9AA0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20FaceTimeMessageStore11SpamVerdictV10UserReportV10CodingKeys33_560A7B9130BE9AFF6C8EB08DE21E9AA0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20FaceTimeMessageStore11SpamVerdictV15InferenceResultV10CodingKeys33_560A7B9130BE9AFF6C8EB08DE21E9AA0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20FaceTimeMessageStore17InferSpamDecisionV10CodingKeys33_A2E39644EDFDBC4D20A45AC5D4BD8A71LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20FaceTimeMessageStore17SystemTaskRequestV0J4TypeO10CodingKeys33_82D14CB38733BC5757857567AEA4CBACLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20FaceTimeMessageStore17SystemTaskRequestV0J4TypeO19RepeatingCodingKeys33_82D14CB38733BC5757857567AEA4CBACLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20FaceTimeMessageStore17SystemTaskRequestV0J4TypeO22NonRepeatingCodingKeys33_82D14CB38733BC5757857567AEA4CBACLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20FaceTimeMessageStore17SystemTaskRequestV10CodingKeys33_82D14CB38733BC5757857567AEA4CBACLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20FaceTimeMessageStore18ReportSpamDecisionV10CodingKeys33_A2E39644EDFDBC4D20A45AC5D4BD8A71LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20FaceTimeMessageStore25VoicemailSpamVerdictCacheC0J0V10CodingKeys33_2AA5ADFCD66B281FCCFCE112DE49DD52LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20FaceTimeMessageStore11SpamVerdictV10CodingKeys33_560A7B9130BE9AFF6C8EB08DE21E9AA0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20FaceTimeMessageStore11SpamVerdictV10UserReportV10CodingKeys33_560A7B9130BE9AFF6C8EB08DE21E9AA0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20FaceTimeMessageStore11SpamVerdictV15InferenceResultV10CodingKeys33_560A7B9130BE9AFF6C8EB08DE21E9AA0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20FaceTimeMessageStore17InferSpamDecisionV10CodingKeys33_A2E39644EDFDBC4D20A45AC5D4BD8A71LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20FaceTimeMessageStore17SystemTaskRequestV0J4TypeO10CodingKeys33_82D14CB38733BC5757857567AEA4CBACLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20FaceTimeMessageStore17SystemTaskRequestV0J4TypeO19RepeatingCodingKeys33_82D14CB38733BC5757857567AEA4CBACLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20FaceTimeMessageStore17SystemTaskRequestV0J4TypeO22NonRepeatingCodingKeys33_82D14CB38733BC5757857567AEA4CBACLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20FaceTimeMessageStore17SystemTaskRequestV10CodingKeys33_82D14CB38733BC5757857567AEA4CBACLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20FaceTimeMessageStore18ReportSpamDecisionV10CodingKeys33_A2E39644EDFDBC4D20A45AC5D4BD8A71LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20FaceTimeMessageStore25VoicemailSpamVerdictCacheC0J0V10CodingKeys33_2AA5ADFCD66B281FCCFCE112DE49DD52LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 11CallHistory06RecentD0V
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 11CallHistory0D9PredicateO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 20FaceTimeMessageStore11SpamVerdictV
++ _symbolic _____y_____GSg 20FaceTimeMessageStore17ScheduledActivityC AA24DelayedSpamInferenceTaskC
++ _symbolic _____y_____SgG s23_ContiguousArrayStorageC 20FaceTimeMessageStore11SpamVerdictV
++ _symbolic _____y__________G s17_NativeDictionaryV 10Foundation4UUIDV 20FaceTimeMessageStore0G15SpamCoordinatorC15ResolutionEntry33_03A8709C4202228E68510E89261D91A3LLV
++ _symbolic _____y__________G s17_NativeDictionaryV 10Foundation4UUIDV 20FaceTimeMessageStore25VoicemailSpamVerdictCacheC0K0V
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV 20FaceTimeMessageStore0G15SpamCoordinatorC15ResolutionEntry33_03A8709C4202228E68510E89261D91A3LLV
++ _symbolic _____y__________________________________________________________________QPG 8CallsXPC11XPCMessagesV 20FaceTimeMessageStore11GetMessagesV AD0hF5CountV AD0H11AccountInfoV AD0H20TranscriptionEnabledV AD4PingV AD04SaveF0V AD0pF14ToPhotoLibraryV AD06UpdateI0V AD06DeleteI0V AD24ReportTranscriptAccuracyV AD0V12SpamDecisionV AD05InferyZ0V AD0H11DatabaseURLV
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 10Foundation4UUIDV 20FaceTimeMessageStore11SpamVerdictV
++ _symbolic _____yyt_G ScS12ContinuationV
++ _symbolic _____yyt_G ScS8IteratorV
++ _symbolic _____yyt__G ScS12ContinuationV11YieldResultO
++ _symbolic _____yyt__G ScS12ContinuationV15BufferingPolicyO
++ _symbolic y_____Ybc 10Foundation4UUIDV
++ _type_layout_string 20FaceTimeMessageStore12SystemTaskIDV
++ _type_layout_string 20FaceTimeMessageStore17InferSpamDecisionV
++ _type_layout_string 20FaceTimeMessageStore17SystemTaskRequestV
++ _type_layout_string 20FaceTimeMessageStore18ReportSpamDecisionV
++ _type_layout_string 20FaceTimeMessageStore22ScheduledActivityErrorO
++ _type_layout_string 20FaceTimeMessageStore25VoicemailSpamVerdictCacheC0H5ErrorO
+- __PROTOCOL_INSTANCE_METHODS__TtP18TelephonyUtilities24DarwinNotificationCenter_
+- __PROTOCOL_METHOD_TYPES__TtP18TelephonyUtilities24DarwinNotificationCenter_
+- __PROTOCOL__TtP18TelephonyUtilities24DarwinNotificationCenter_
+- ___swift_project_boxed_opaque_existential_0Tm
+- __swift_closure_destructor.153Tm
+- __swift_closure_destructor.154Tm
+- __swift_closure_destructor.170Tm
+- __swift_closure_destructor.179Tm
+- __swift_closure_destructor.194Tm
+- __swift_closure_destructor.317Tm
+- __swift_closure_destructor.34Tm
+- __swift_closure_destructor.514Tm
+- __swift_closure_destructor.61Tm
+- __swift_closure_destructor.62Tm
+- _flat unique 18TelephonyUtilities24DarwinNotificationCenter_p
+- _objc_msgSend$postWithNotificationName:
+- _symbolic $s20FaceTimeMessageStore014LocalAndStoredC9AdditionsP
+- _symbolic Say_____G 20FaceTimeMessageStore07FTLocalC0C
+- _symbolic Si______t 21InternalSwiftProtobuf8_NameMapV0D11DescriptionO
+- _symbolic __________Ieghgr_ 20FaceTimeMessageStore0C0C AA11HistoryItemO
+- _symbolic ______p 18TelephonyUtilities24DarwinNotificationCenterP
+- _symbolic _____ySi______tG s23_ContiguousArrayStorageC 21InternalSwiftProtobuf8_NameMapV0G11DescriptionO
+- _symbolic _____y________________________________________________________QPG 8CallsXPC11XPCMessagesV 20FaceTimeMessageStore11GetMessagesV AD0hF5CountV AD0H11AccountInfoV AD0H20TranscriptionEnabledV AD4PingV AD04SaveF0V AD0pF14ToPhotoLibraryV AD06UpdateI0V AD06DeleteI0V AD24ReportTranscriptAccuracyV AD0H11DatabaseURLV
+CStrings:
++ " (\n    recordUUID TEXT PRIMARY KEY NOT NULL,\n    state BLOB NOT NULL,\n    isSuppressed INTEGER\n);\nCREATE INDEX IF NOT EXISTS idx_spamverdicts_pending ON "
++ " (recordUUID, state, isSuppressed) VALUES (?, ?, ?);"
++ " WHERE isSuppressed IS NULL;"
++ "\"SpamVerdict\": {\n\t"
++ "%K != %@ AND ((%K IN %@) OR (NOT (%K IN %@) AND %K IN %@))"
++ "%s: %{public}s direction: %{public}s reportToTrustKit: %{bool,public}d"
++ "%s: %{public}s trigger: %{public}s"
++ "%{public}s: %{public}s direction: %{public}s moveToTrash: %{bool,public}d reportToTrustKit: %{bool,public}d"
++ "%{public}s: %{public}s direction: %{public}s reportToTrustKit: %{bool,public}d"
++ "%{public}s: %{public}s trigger: %{public}s"
++ "(isSuppressed) WHERE isSuppressed IS NULL;\nPRAGMA journal_mode=WAL;"
++ "Applied the spam verdict for the voicemail with recordUUID %{public}s isSuppressed %{bool,public}d"
++ "Awaiting the in-flight %{public}s resolution for message with recordUUID %{public}s"
++ "Awaiting the in-flight resolution for message with recordUUID %{public}s before starting %{public}s"
++ "CREATE TABLE IF NOT EXISTS "
++ "Cancelling the in-flight resolution for message with recordUUID %{public}s before reporting %{public}s"
++ "Corrected CloudKit merge drift in the spamVerdict for message with recordUUID %{public}s"
++ "Couldn't find ScheduledActivity with identifier: %{public}s"
++ "DELETE FROM SpamVerdicts WHERE recordUUID = ?;"
++ "Decisioning service returned an unexpected output type for message with recordUUID %{public}s"
++ "Deferring delayed inference because %{public}ld message(s) are still pending"
++ "Detected CloudKit merge drift in the spamVerdict for message with recordUUID %{public}s"
++ "Dropping pending record(s) that vanished: %{public}s"
++ "Dropping pending record(s) that were trashed: %{public}s"
++ "Encountered an unrecognized provider %{public}s while checking the voicemail spam filtering setting; treating arbitration as disabled"
++ "FaceTimeMessageStore.InferenceResult"
++ "FaceTimeMessageStore.SpamVerdict"
++ "FaceTimeMessageStore.UserReport"
++ "FaceTimeMessageStore/VoicemailSpamVerdictCache.swift"
++ "Failed %{public}s inference for message with recordUUID %{public}s: %{public}@"
++ "Failed to check whether the sender of message with recordUUID %{public}s is a known contact; treating as unknown: %{public}@"
++ "Failed to correct CloudKit merge drift in spamVerdict(s): %{public}s"
++ "Failed to decode a spam classification from %{public}s"
++ "Failed to decode a spam report direction from %{public}s"
++ "Failed to delete the cached spam verdict for recordUUID %{public}s: %{public}@"
++ "Failed to deserialize storedMessage spamVerdictData with error %{public}@"
++ "Failed to fetch RecentCall for voicemail %{public}s: %{public}@"
++ "Failed to find a message with recordUUID %{public}s to apply a spam verdict"
++ "Failed to open even an in-memory voicemail spam verdict cache"
++ "Failed to open the persistent voicemail spam verdict cache at %{public}s; falling back to an in-memory cache for this process"
++ "Failed to persist the inference result for message with recordUUID %{public}s: %{public}@"
++ "Failed to persist the user report for message with recordUUID %{public}s: %{public}@"
++ "Failed to prepare the decisioning service: %{public}@"
++ "Failed to read the cached spam verdict for recordUUID %{public}s: %{public}@"
++ "Failed to read the cached spam verdicts: %{public}@"
++ "Failed to read the recordUUIDs awaiting a spam verdict: %{public}@"
++ "Failed to report spam decision %{public}s for message with recordUUID %{public}s: %{public}@"
++ "Failed to resolve the %{public}s verdict for message with recordUUID %{public}s; willRetryWithAnotherTrigger=%{bool,public}d: %{public}@"
++ "Failed to serialize storedMessage spamVerdictData with error %{public}@"
++ "Failed to submit task request with identifier %{public}s: %{public}@"
++ "Failed to write the cached spam verdict for recordUUID %{public}s: %{public}@"
++ "Finished %{public}s inference for message with recordUUID %{public}s: classification=%{public}s"
++ "Finished preparing spam inference service"
++ "Got an error while fetching message with recordUUID %{public}s to apply a spam verdict: %{public}@"
++ "Handling incoming InferSpamDecision message from %{public}s"
++ "Handling incoming ReportSpamDecision message from %{public}s"
++ "Holding the notification for the voicemail with recordUUID %{public}s until its spam verdict arrives"
++ "INSERT OR REPLACE INTO "
++ "Inferred %{public}s from %{public}s inference for message with recordUUID %{public}s"
++ "Joining the in-flight arrival hold for message with recordUUID %{public}s"
++ "Marked the voicemail with recordUUID %{public}s as pending spam inference"
++ "Message store counts unchanged %{public}s; skipping write"
++ "MessageStoreManager: Failed to serialize transcript for message with recordUUID %{public}s during copy to temp store, continuing without it: %{public}@"
++ "MessageStoreManager: Skipping message with recordUUID %{public}s during copy to temp store due to error: %{public}@"
++ "MessageStoreManager: Skipping message with recordUUID %{public}s during temp-to-perm migration due to error: %{public}@"
++ "No file found at %{public}s"
++ "Not applying an inference result for recordUUID %{public}s because voicemail spam arbitration is disabled"
++ "Not persisting the inference result for message with recordUUID %{public}s because it no longer exists"
++ "Not persisting the inference result for message with recordUUID %{public}s because it was already deleted"
++ "Not reporting %{public}s for message with recordUUID %{public}s because voicemail spam arbitration is disabled"
++ "Not reporting %{public}s to TrustKit for message with recordUUID %{public}s because reportToTrustKit is false"
++ "Not running %{public}s inference for message with recordUUID %{public}s because voicemail spam arbitration is disabled"
++ "Not starting arrival inference for message with recordUUID %{public}s because transcription hasn't finished yet (transcriptionStatus=%{public}s)"
++ "Not suppressing the message with recordUUID %{public}s because of a recent emergency call"
++ "Not suppressing the message with recordUUID %{public}s; the recent-emergency-call check failed, erring safe and leaving it pending for retry: %{public}@"
++ "Overrode the spam suppression for the voicemail with recordUUID %{public}s isSuppressed %{bool,public}d"
++ "Preparing the decisioning service"
++ "Prewarming the message store"
++ "Received spam decision but the spam coordinator is not enabled"
++ "Received spam inference request but the spam coordinator is not enabled"
++ "Recorded a %{public}s spam inference failure for the voicemail with recordUUID %{public}s; willRetryWithAnotherTrigger %{bool,public}d"
++ "Removing the notification for the message with recordUUID %{public}s because it was classified as spam"
++ "Removing the notification for the message with recordUUID %{public}s because the user reported it as spam"
++ "Reported %{public}s for message with recordUUID %{public}s"
++ "Reporting %{public}s for message with recordUUID %{public}s moveToTrash: %{bool,public}d reportToTrustKit: %{bool,public}d"
++ "Resolved %{public}s verdict for message with recordUUID %{public}s: isSpam=%{bool,public}d authoritative=%{bool,public}d transcriptionStatus=%{public}s path=%{public}s"
++ "Resolving message with recordUUID %{public}s as not suppressed because the user's spam filtering setting is disabled for its provider"
++ "Reusing the cached %{public}s resolution for message with recordUUID %{public}s"
++ "Reusing the cached arrival resolution for message with recordUUID %{public}s"
++ "Running %{public}s inference for %{public}ld of %{public}ld pending message(s)"
++ "Running %{public}s inference for message with recordUUID %{public}s"
++ "SELECT recordUUID FROM "
++ "SELECT recordUUID, state FROM SpamVerdicts;"
++ "SELECT state FROM SpamVerdicts WHERE recordUUID = ?;"
++ "Skipping %{public}s inference because no pending message has aged past its own delayed window yet"
++ "Skipping %{public}s inference for message with recordUUID %{public}s because it has no transcript"
++ "Skipping %{public}s inference for message with recordUUID %{public}s because the sender is a known contact"
++ "Skipping %{public}s inference for message with recordUUID %{public}s because this trigger already failed once"
++ "Skipping %{public}s inference for message with recordUUID %{public}s because transcription hasn't finished yet (transcriptionStatus=%{public}s)"
++ "Skipping spam verdict application for recordUUID %{public}s because it was marked as deleted"
++ "TelephonyUtilities"
++ "Unknown BGSystemTaskRequest type: %s"
++ "Voicemail spam arbitration is disabled by the server bag"
++ "Voicemail spam arbitration is disabled by the user's spam filtering setting for provider %{public}s"
++ "Waiting for an in-flight resolution for message with recordUUID %{public}s before overriding suppression because the user's spam filtering setting is disabled for its provider"
++ "Waiting for an in-flight resolution for message with recordUUID %{public}s before running %{public}s inference"
++ "_legacyMailboxType"
++ "arrival"
++ "com.apple.facetimemessagestored.delayedspaminference"
++ "delayed"
++ "inferSpamDecision(for:trigger:)"
++ "junk"
++ "legacyMailboxType"
++ "minDurationBetweenInstances"
++ "notJunk"
++ "notSpam"
++ "on-voicemail-spam-verdict-update"
++ "pendingInferenceDate"
++ "read"
++ "reportSpamDecision(_:moveToTrash:for:reportToTrustKit:)"
++ "reportToTrustKit"
++ "requiresExternalPower"
++ "requiresNetworkConnectivity"
++ "spam"
++ "spam-inferencing-timeout"
++ "spamVerdict"
++ "spamVerdict.cache"
++ "sqlite3_open_v2 failed"
++ "submitTaskRequest(_:)"
++ "taskRequest(for:)"
++ "trySchedulingBefore"
++ "voicemail-spam-arbitration-disabled"
++ "voicemailSpamArbitration"
++ "warn"
+- "analysisData"
+- "captions"
+- "confidence"
+- "formattedText"
+- "length"
+- "location"
+- "range"
+- "text"
+- "utteranceNumber"
+- "utterances"
+- "version"
+```

@@ -1,0 +1,219 @@
+## Hypervisor
+
+> `/System/Library/Frameworks/Hypervisor.framework/Versions/A/Hypervisor`
+
+```diff
+
+-308.1.7.0.0
+-  __TEXT.__text: 0x86774
++308.2.7.0.0
++  __TEXT.__text: 0x86818
+   __TEXT.__objc_methlist: 0x74
+   __TEXT.__const: 0x559b
+   __TEXT.__gcc_except_tab: 0x2e38
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 2482
+-  Symbols:   3240
++  Functions: 2483
++  Symbols:   3241
+   CStrings:  682
+ 
+Symbols:
++ GCC_except_table1346
++ GCC_except_table1348
++ GCC_except_table1376
++ GCC_except_table1588
++ GCC_except_table1592
++ GCC_except_table1596
++ GCC_except_table1600
++ GCC_except_table1604
++ GCC_except_table1608
++ GCC_except_table1836
++ GCC_except_table1838
++ GCC_except_table1844
++ GCC_except_table1846
++ GCC_except_table1851
++ GCC_except_table1853
++ GCC_except_table1869
++ GCC_except_table1871
++ GCC_except_table1873
++ GCC_except_table1875
++ GCC_except_table1882
++ GCC_except_table1890
++ GCC_except_table1897
++ GCC_except_table1903
++ GCC_except_table1905
++ GCC_except_table1909
++ GCC_except_table1911
++ GCC_except_table1913
++ GCC_except_table1915
++ GCC_except_table1917
++ GCC_except_table1919
++ GCC_except_table1934
++ GCC_except_table1936
++ GCC_except_table1940
++ GCC_except_table1943
++ GCC_except_table1945
++ GCC_except_table1949
++ GCC_except_table1953
++ GCC_except_table1957
++ GCC_except_table1960
++ GCC_except_table1964
++ GCC_except_table1967
++ GCC_except_table1971
++ GCC_except_table401
++ GCC_except_table406
++ GCC_except_table419
++ GCC_except_table425
++ GCC_except_table435
++ GCC_except_table443
++ GCC_except_table448
++ GCC_except_table451
++ GCC_except_table455
++ GCC_except_table471
++ GCC_except_table504
++ GCC_except_table519
++ GCC_except_table521
++ GCC_except_table523
++ GCC_except_table531
++ GCC_except_table543
++ GCC_except_table558
++ GCC_except_table569
++ GCC_except_table642
++ GCC_except_table658
++ GCC_except_table664
++ GCC_except_table678
++ GCC_except_table691
++ GCC_except_table694
++ GCC_except_table697
++ GCC_except_table700
++ GCC_except_table713
++ GCC_except_table729
++ GCC_except_table757
++ GCC_except_table774
++ GCC_except_table780
++ GCC_except_table784
++ GCC_except_table788
++ GCC_except_table792
++ GCC_except_table796
++ GCC_except_table800
++ GCC_except_table804
++ GCC_except_table808
++ GCC_except_table811
++ GCC_except_table879
++ GCC_except_table888
++ GCC_except_table893
++ GCC_except_table897
++ GCC_except_table901
++ GCC_except_table905
++ GCC_except_table909
++ GCC_except_table913
++ GCC_except_table917
++ GCC_except_table948
++ GCC_except_table953
++ GCC_except_table959
++ GCC_except_table968
++ GCC_except_table979
++ __ZN6HvCore10Hypervisor12EmulatedVgic13drop_priorityEv
+- GCC_except_table1345
+- GCC_except_table1347
+- GCC_except_table1375
+- GCC_except_table1586
+- GCC_except_table1590
+- GCC_except_table1594
+- GCC_except_table1598
+- GCC_except_table1602
+- GCC_except_table1606
+- GCC_except_table1835
+- GCC_except_table1837
+- GCC_except_table1839
+- GCC_except_table1845
+- GCC_except_table1850
+- GCC_except_table1852
+- GCC_except_table1867
+- GCC_except_table1870
+- GCC_except_table1872
+- GCC_except_table1874
+- GCC_except_table1880
+- GCC_except_table1886
+- GCC_except_table1892
+- GCC_except_table1898
+- GCC_except_table1904
+- GCC_except_table1907
+- GCC_except_table1910
+- GCC_except_table1912
+- GCC_except_table1914
+- GCC_except_table1916
+- GCC_except_table1918
+- GCC_except_table1927
+- GCC_except_table1935
+- GCC_except_table1937
+- GCC_except_table1941
+- GCC_except_table1944
+- GCC_except_table1947
+- GCC_except_table1952
+- GCC_except_table1955
+- GCC_except_table1958
+- GCC_except_table1963
+- GCC_except_table1966
+- GCC_except_table1970
+- GCC_except_table400
+- GCC_except_table403
+- GCC_except_table417
+- GCC_except_table424
+- GCC_except_table427
+- GCC_except_table442
+- GCC_except_table447
+- GCC_except_table450
+- GCC_except_table452
+- GCC_except_table469
+- GCC_except_table502
+- GCC_except_table518
+- GCC_except_table520
+- GCC_except_table522
+- GCC_except_table525
+- GCC_except_table540
+- GCC_except_table557
+- GCC_except_table568
+- GCC_except_table640
+- GCC_except_table650
+- GCC_except_table662
+- GCC_except_table676
+- GCC_except_table689
+- GCC_except_table692
+- GCC_except_table695
+- GCC_except_table698
+- GCC_except_table711
+- GCC_except_table728
+- GCC_except_table756
+- GCC_except_table766
+- GCC_except_table778
+- GCC_except_table782
+- GCC_except_table786
+- GCC_except_table790
+- GCC_except_table794
+- GCC_except_table798
+- GCC_except_table802
+- GCC_except_table806
+- GCC_except_table809
+- GCC_except_table871
+- GCC_except_table886
+- GCC_except_table891
+- GCC_except_table895
+- GCC_except_table899
+- GCC_except_table903
+- GCC_except_table907
+- GCC_except_table911
+- GCC_except_table915
+- GCC_except_table947
+- GCC_except_table949
+- GCC_except_table958
+- GCC_except_table962
+- GCC_except_table977
+Functions:
+~ __ZN6HvCore10Hypervisor12EmulatedVgic31write_end_of_interrupt_registerENS0_4Vgic9InterruptEN4Base8BitfieldIN3Arm11IccEoirnEl1EEE : 1076 -> 928
++ __ZN6HvCore10Hypervisor12EmulatedVgic13drop_priorityEv
+```
