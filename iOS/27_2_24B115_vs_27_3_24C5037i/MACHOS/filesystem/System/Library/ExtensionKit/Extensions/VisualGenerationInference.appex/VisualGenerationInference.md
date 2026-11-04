@@ -1,0 +1,16 @@
+## VisualGenerationInference
+
+> `/System/Library/ExtensionKit/Extensions/VisualGenerationInference.appex/VisualGenerationInference`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+
+```diff
+
+-144.0.0.0.0
++148.0.0.0.0
+   __TEXT.__text: 0x1a4
+   __TEXT.__auth_stubs: 0xa0
+   __TEXT.__const: 0xb2
+```

@@ -1,0 +1,86 @@
+## NewsArticles
+
+> `FileSystem/System/Library/PrivateFrameworks/NewsArticles.framework/Localizable.loctable`
+
+```diff
+
+ en.  = " "
++en. ·  = " · "
+ en.%@ - %@ = "%1$@ - %2$@"
+ en.%@ of %@ = "%1$@ of %2$@"
+ en.%d New Updates = "%d New Updates"
+
+ en.Blocked Channel = "Blocked Channel"
+ en.Blocking isn’t supported in Top Stories and other groups curated by the Apple News editors. %@ is blocked in the rest of your feed. = "Blocking isn’t supported in Top Stories and other groups curated by the Apple News editors. %@ is blocked in the rest of your feed."
+ en.Bookmark = "Bookmark"
++en.By %@ = "By %@"
+ en.Cancel = "Cancel"
+ en.Checking for Updates… = "Checking for Updates…"
+ en.Child abuse content = "Child abuse content"
+
+ en.Close Audio Player = "Close Audio Player"
+ en.Contains = "Contains"
+ en.Content Unavailable = "Content Unavailable"
++en.Continue Listening = "Continue Listening"
+ en.Criminal act incitement = "Criminal act incitement"
+ en.Customize Units = "Customize Units"
+ en.Decrease text size = "Decrease text size"
+
+ en.Full-page image = "Full-page image"
+ en.Go to Recipe = "Go to Recipe"
+ en.Hate speech = "Hate speech"
++en.Hosted by %@ = "Hosted by %@"
+ en.I don’t agree with this story’s content = "I don’t agree with this story’s content"
+ en.I don’t like this channel or author = "I don’t like this channel or author"
+ en.I don’t like this recipe = "I don’t like this recipe"
+
+ en.Increase text size = "Increase text size"
+ en.LIVE = "LIVE"
+ en.Last Updated %@ = "Last Updated %@"
++en.Last listened = "Last listened"
+ en.Learn More = "Learn More"
++en.Listen = "Listen"
+ en.Live Coverage Unavailable = "Live Coverage Unavailable"
+ en.Loading Failed: %@ = "Loading Failed: %@"
+ en.Loading Preview = "Loading Preview"
+
+ en.NAStoryUnavailable.NSStringDeviceSpecificRuleType.iphone = "Story Unavailable"
+ en.NAStoryUnavailable.NSStringDeviceSpecificRuleType.ipod = "Story Unavailable"
+ en.NAStoryUnavailable.NSStringDeviceSpecificRuleType.mac = "This story is unavailable."
++en.Narrated by %@ = "Narrated by %@"
+ en.Next = "Next"
+ en.No = "No"
+ en.No New Updates = "No New Updates"
+
+ en.Page %lld = "Page %lld"
+ en.Page (model.pageNumber) = "Page (model.pageNumber)"
+ en.Pause = "Pause"
+-en.Paused = "Paused"
+ en.Personal information exposure = "Personal information exposure"
+ en.Play = "Play"
+ en.Play Last = "Play Last"
+ en.Play Next = "Play Next"
+-en.Play Now = "Play Now"
+-en.Playing = "Playing"
++en.Preview = "Preview"
+ en.Preview Audio = "Preview Audio"
+ en.Previous = "Previous"
+ en.Profanity or offensive language = "Profanity or offensive language"
+
+ en.Remove = "Remove"
+ en.Report a Concern = "Report a Concern"
+ en.Scale Recipe = "Scale Recipe"
+-en.Scrolled to match audio. = "Scrolled to match audio."
+ en.Send = "Send"
+ en.Sexually explicit content = "Sexually explicit content"
+ en.Share = "Share"
+
+ en.Sorry, you need to update your device in order to see this content. = "Sorry, you need to update your device in order to see this content."
+ en.Sponsored = "Sponsored"
+ en.Story = "Story"
+-en.Story scrolled to match your audio position. = "Story scrolled to match your audio position."
+ en.Subscribe = "Subscribe"
+ en.Subscribe to access recipes in a beautiful and easy-to-use format optimized for cooking. = "Subscribe to access recipes in a beautiful and easy-to-use format optimized for cooking."
+ en.Suggest = "Suggest"
+
+```

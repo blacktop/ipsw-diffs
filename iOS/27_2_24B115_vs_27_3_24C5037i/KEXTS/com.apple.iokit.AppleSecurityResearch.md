@@ -1,0 +1,221 @@
+## com.apple.iokit.AppleSecurityResearch
+
+> `com.apple.iokit.AppleSecurityResearch`
+
+```diff
+
+-657.40.27.0.0
+-  __TEXT.__os_log: 0x3755
+-  __TEXT.__cstring: 0x68c3
+-  __TEXT.__const: 0xd0
+-  __TEXT_EXEC.__text: 0x56c88
+-  __TEXT_EXEC.__auth_stubs: 0xa90
+-  __DATA.__data: 0x224
++657.60.8.0.0
++  __TEXT.__os_log: 0x38c2
++  __TEXT.__const: 0x178
++  __TEXT.__cstring: 0x6e62
++  __TEXT_EXEC.__text: 0x4dd5c
++  __TEXT_EXEC.__auth_stubs: 0xb40
++  __DATA.__data: 0x21c
+   __DATA.__common: 0xb8
+   __DATA_CONST.__mod_init_func: 0x20
+   __DATA_CONST.__mod_term_func: 0x30
+-  __DATA_CONST.__const: 0x3d38
+-  __DATA_CONST.__assert: 0xa7d0
+-  __DATA_CONST.__kalloc_type: 0x15c0
+-  __DATA_CONST.__kalloc_var: 0x2490
+-  __DATA_CONST.__auth_got: 0x548
++  __DATA_CONST.__const: 0x3cd8
++  __DATA_CONST.__kalloc_type: 0x2000
++  __DATA_CONST.__assert: 0xc454
++  __DATA_CONST.__kalloc_var: 0x2800
++  __DATA_CONST.__auth_got: 0x5a0
+   __DATA_CONST.__got: 0x90
+   __DATA_CONST.__auth_ptr: 0x8
+-  Functions: 755
++  Functions: 990
+   Symbols:   0
+-  CStrings:  670
++  CStrings:  682
+ 
+CStrings:
++ "!this->inlineSlabHeader()->isDetached.loadRelaxed()"
++ "\"Label transformed before it was interned\" @%s:%d"
++ "\"index was already free\" @%s:%d"
++ "\"released an index outside the bitmap\" @%s:%d"
++ "\"spar::SMRRootOwner: displaced a root with no reservation held\" @%s:%d"
++ "%s: Dropping the exec event: building it failed (%d)\n"
++ "%s: updateDefaultMuteState kind: %d, prefix: %d, op: %d, path: %.*s\n"
++ "/sbin/launchd"
++ "/usr/appleinternal/sbin/launchd.development"
++ "/usr/libexec/logd"
++ "111221111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111112"
++ "1112222"
++ "1211211222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222112222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222"
++ "12121212221"
++ "12121212222222222222"
++ "12122122121221222222122221112"
++ "122111"
++ "1222222222222121222111212120122022222222222222222222222222222222022222222222222222222222222222222022222222222222222222222222222222222222222222222222222222222222222222222220222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222212"
++ "122222222222221"
++ "12222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221221112223222222222222222222"
++ "122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222223"
++ "181"
++ "211211211211212222221122222"
++ "2122"
++ "2212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222"
++ "222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221202222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221202222222222222222222222222222222202222222222222222222222222222222202222222222222222222222222222222222222222222222222222222222222222222222222012211221222222222222222222222222222222222212122211121212"
++ "ActionTrie.h"
++ "ActionTrie: principal index outside kIndexBound"
++ "ActionTrie: slot kind outside numKinds"
++ "ActionTrie::evaluateColumns: event out of range"
++ "ActionTrie::evaluateColumns: one lane per event"
++ "ActionTrie::strongest: kind or event out of range"
++ "AtomicBitSet position out of range"
++ "BitSet.h"
++ "Cannot add client: no room (%zu of %zu connected; %zu of %zu third-party; %zu of %zu descendants)\n"
++ "Cannot add client: policy registration failed (%d)\n"
++ "Client not entitled to SPI events\n"
++ "Client principal space exhausted (%zu in use, %zu live columns)\n"
++ "Client principal space exhausted; draining deferred reclamation\n"
++ "ClientRegistry: principal already bound"
++ "Could not re-record an unswept path-mute column; its index is lost until reboot\n"
++ "Deadline minimum out of range\n"
++ "Either<int, Unit> es::EndpointSecurityEventManager::sendSetTaskOrThreadExceptionPort(kauth_cred_t, es_event_type_t, struct proc_ident *, unsigned int, int, AllocEventToken) [AllocEventToken = (lambda at /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/EndpointSecurity/esk/esk_event_manager.cpp:8202:88)]"
++ "Either<int, Unit> es::EndpointSecurityEventManager::sendSetTaskOrThreadExceptionPort(kauth_cred_t, es_event_type_t, struct proc_ident *, unsigned int, int, AllocEventToken) [AllocEventToken = (lambda at /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/EndpointSecurity/esk/esk_event_manager.cpp:8221:90)]"
++ "Either<int, Unit> es::PathMutePolicy::updateDefaultMuteState(const PathRule &, MuteSetOp)"
++ "EndpointSecurity Client denied execution. Killing process.\n"
++ "EndpointSecurity policy vetoed execution. Killing process.\n"
++ "ExecOutcome es::EndpointSecurityEventManager::prepareExecEvent(struct proc *)"
++ "Failed to set deadline max: Malformed event list\n"
++ "Failed to set deadline min: Malformed event list\n"
++ "Failed to update client mute paths\n"
++ "Failed to update default mute paths\n"
++ "Failed to update subscription: Malformed event list\n"
++ "IpcDecode.hpp"
++ "LockFreeIndexBitmap.h"
++ "Malformed path mute\n"
++ "Only descendants clients can subscribe to AUTH_BOOTSTRAP_LOOK_UP\n"
++ "Path-mute budget exhausted for principal %u: the write needs %zu bytes of %zu\n"
++ "Path-mute sweep failed for principal %u; retrying later\n"
++ "PathMutePolicy.cpp"
++ "PathMuteTrie.cpp"
++ "Policy dropped event %d (auth %d): a path did not resolve (%d)\n"
++ "PolicyEngine.cpp"
++ "PolicyEngine: a registered slot belongs to another principal"
++ "ProcessTracker::queryColumns: client lane out of range"
++ "ResultAccumulator.hpp"
++ "SMRRootOwner.h"
++ "Struct input missing or too large\n"
++ "Struct input too large\n"
++ "abandoned() && revokeAtTeardown_"
++ "count <= capacity_"
++ "domain_->entered() && \"SMR pointer loaded outside a read section\""
++ "es.pathmute.defaults"
++ "es.pathmute.shared"
++ "esk_ios_research: system-policy clients are not supported\n"
++ "event < ES_EVENT_TYPE_LAST"
++ "fresh->touched() == s.action->touched() && \"transformSlots: f must preserve the occupied set\""
++ "inherited.slots == 0 && inherited.keyBytes == 0"
++ "isAttached_"
++ "k < numKinds"
++ "kr == KERN_SUCCESS"
++ "mappend"
++ "old > 0 && \"DenyCensus: a label left the census it never joined\""
++ "paddingClear()"
++ "policy_label.hpp"
++ "pos < width"
++ "resolveDirNameInto: no componentname\n"
++ "rule.path.data == path.data && rule.path.count() == path.count()"
++ "s.index < P"
++ "staged.slots >= u.slots && staged.keyBytes >= u.keyBytes"
++ "static IOReturn EndpointSecurityExternalClient::updateSubscription(OSObject *, void *, IOExternalMethodArguments *, SubscriptionOp)"
++ "static IOReturn EndpointSecurityNoAuthClient::drainClientRemovals(OSObject *, void *, IOExternalMethodArguments *)"
++ "static IOReturn EndpointSecurityNoAuthClient::pathMuteUsage(OSObject *, void *, IOExternalMethodArguments *)"
++ "store->pool().inUseCount() == 0 && \"the client-column index space must hold only client columns\""
++ "systemPowerChange: kIOMessageSystemPagingOff. Current state: %d\n"
+- "\"Programming Error: key in ByteKeyStack was missing from children map\" @%s:%d"
+- "\"Programming error, pop of child that we know to exist\" @%s:%d"
+- "%s: %s subscription for event: %u\n"
+- "%s: Subscribing to event: %u\n"
+- "%s: Unsubscribing from all events\n"
+- "%s: Unsubscribing from event: %u\n"
+- "%s: UpdateMuteState called with type: %d, op: %d, pathlen: %zu, and path: %s\n\n"
+- "%s: UpdateMuteStateInternal called with %zu bits set, and isPrefix: %d\n\n"
+- "1022222222222222222222222222222222222"
+- "102222222222222222222222222222222222210222222222222222222222222222222222221022222222222222222222222222222222222102222222222222222222222222222222222210222222222222222222222222222222222221022222222222222222222222222222222222102222222222222222222222222222222222210222222222222222222222222222222222221022222222222222222222222222222222222102222222222222222222222222222222222210222222222222222222222222222222222221022222222222222222222222222222222222102222222222222222222222222222222222210222222222222222222222222222222222221022222222222222222222222222222222222102222222222222222222222222222222222212012211221222222222222222222222222222222222212122211121212"
+- "121112212222122012201222232212210222"
+- "1211211222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222"
+- "1211212222222220122"
+- "12121212"
+- "12122122111122012201222221221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222122221112"
+- "12122221212221"
+- "122"
+- "122122"
+- "1222222222222121222111212120122102222222222222222222222222222222222210222222222222222222222222222222222221022222222222222222222222222222222222102222222222222222222222222222222222210222222222222222222222222222222222221022222222222222222222222222222222222102222222222222222222222222222222222210222222222222222222222222222222222221022222222222222222222222222222222222102222222222222222222222222222222222210222222222222222222222222222222222221022222222222222222222222222222222222102222222222222222222222222222222222210222222222222222222222222222222222221022222222222222222222222222222222222102222222222222222222222222222222222212"
+- "122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221"
+- "211211211211212222221122"
+- "2222222222222112"
+- "32222"
+- "Adding"
+- "Allocating kernel data park failed. Events suspended during early boot will be dropped\n"
+- "B20@?0B8r^v12"
+- "B24@?0r^v8r^{Unit=}16"
+- "B25@?0{Unit=}8r^v9r^{Unit=}17"
+- "B25@?0{Unit=}8r^{ByteIDHash=C}9r^v17"
+- "BitTrie.h"
+- "Cannot add client: Failed to install descendants subtree slot (%d)\n"
+- "Cannot add client: Failed to seed global tracker slots (%d)\n"
+- "Cannot add client: Too many clients connected\n"
+- "Cannot add client: Too many descendants clients connected\n"
+- "Cannot add client: Too many third-party clients connected\n"
+- "Client manager has not been initialised\n"
+- "Either<int, Maybe<PreparedExecEvent>> es::EndpointSecurityEventManager::prepareExecEvent(struct proc *)"
+- "Either<int, Unit> es::EndpointSecurityClient::updateSubscription(es_event_type_t, bool)"
+- "Either<int, Unit> es::EndpointSecurityEventManager::sendSetTaskOrThreadExceptionPort(kauth_cred_t, es_event_type_t, struct proc_ident *, unsigned int, int, AllocEventToken) [AllocEventToken = (lambda at /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/EndpointSecurity/esk/esk_event_manager.cpp:7929:88)]"
+- "Either<int, Unit> es::EndpointSecurityEventManager::sendSetTaskOrThreadExceptionPort(kauth_cred_t, es_event_type_t, struct proc_ident *, unsigned int, int, AllocEventToken) [AllocEventToken = (lambda at /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/EndpointSecurity/esk/esk_event_manager.cpp:7948:90)]"
+- "Either<int, Unit> updateDefaultMuteStateInternal(RWLock<UESEventBitTrie> &, RWLock<UESEventBitTrie> &, es_mute_path_event_set_t *, MuteSetOp)"
+- "Either<int, Unit> updateTrieInternal(ESEventBitTrie &, const es_mute_path_event_set_t *, MuteSetOp, bool)"
+- "Failed to set deadline max: Invalid input buffer size\n"
+- "Failed to set deadline min: Invalid input buffer size\n"
+- "Failed to update default mute set\n"
+- "Failed to update mute path\n"
+- "Failed to update subscription: Invalid input buffer size\n"
+- "Ignoring invalid event type: %u\n"
+- "Invalid data length\n"
+- "No data\n"
+- "Removing"
+- "bool es::AtomicSubscriptions::subscribe(uint32_t)"
+- "bool es::AtomicSubscriptions::unsubscribe(uint32_t)"
+- "childPtr->children.count() == 0"
+- "children.count() == 0"
+- "curNode->children.set(keyByte, esmove(child), Growability::DontGrow)"
+- "es::EndpointSecurityClient::~EndpointSecurityClient()"
+- "esk_message_manager.hpp"
+- "fp"
+- "int es::EndpointSecurityEventManager::clearCaches()"
+- "isAttached_ && !this->inlineSlabHeader()->isDetached.loadRelaxed()"
+- "mute_common.hpp"
+- "refCount() == 1"
+- "static IOReturn EndpointSecurityExternalClient::updateSubscription(OSObject *, void *, IOExternalMethodArguments *, bool)"
+- "totalKeyBytes_"
+- "totalKeyBytes_ == 0"
+- "totalKeyBytes_ >= bytes_.count()"
+- "totalKeyBytes_ >= children.count()"
+- "v24@?0r^v8r^{Unit=}16"
+- "v24@?0r^{ByteIDHash=C}8r^v16"
+- "void es::AtomicSubscriptions::unsubscribeAll()"
+- "void es::AtomicSubscriptions::updateAll(Function<bool, uint32_t> auto) [f:auto = (lambda at /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/EndpointSecurity/esk/esk_event_manager.cpp:1481:27)]"
+- "void es::EndpointSecurityClient::clearMutedPaths()"
+- "void es::EndpointSecurityClient::clearMutedTargetPaths()"
+- "void es::EndpointSecurityEventManager::deactivateHooks()"
+- "void es::EndpointSecurityEventManager::updateAllSubscriptions()"
+- "void es::EndpointSecurityEventManager::updateMprotectGate()"
+- "void es::EndpointSecurityEventManager::updateSubscription(es_event_type_t, bool)"
+- "{Either<int, spar::Unit>=(Raw=i{Unit=})B}24@?0{Either<int, spar::Unit>=(Raw=i{Unit=})B}8r^v16"
+- "{Either<int, unsigned long>=(Raw=iQ)B}16@?0*8"
+- "{Maybe<spar::SharedPtrIsh<spar::MessageQueueSender, spar::SharedPtrVariant::Normal>>={MaybeStore<spar::SharedPtrIsh<spar::MessageQueueSender, spar::SharedPtrVariant::Normal>>=(SentinelA<spar::SharedPtrIsh<spar::MessageQueueSender, spar::SharedPtrVariant::Normal>, unsigned long, 1UL>={SharedPtrIsh<spar::MessageQueueSender, spar::SharedPtrVariant::Normal>=^{MessageQueueSender}}Q)}}24@?0{Maybe<spar::SharedPtrIsh<spar::MessageQueueSender, spar::SharedPtrVariant::Normal>>={MaybeStore<spar::SharedPtrIsh<spar::MessageQueueSender, spar::SharedPtrVariant::Normal>>=(SentinelA<spar::SharedPtrIsh<spar::MessageQueueSender, spar::SharedPtrVariant::Normal>, unsigned long, 1UL>={SharedPtrIsh<spar::MessageQueueSender, spar::SharedPtrVariant::Normal>=^{MessageQueueSender}}Q)}}8r^v16"
+- "{Unit=}25@?0{Unit=}8r^v9r^{Unit=}17"
+- "{Unit=}25@?0{Unit=}8r^{ByteIDHash=C}9r^v17"
+```

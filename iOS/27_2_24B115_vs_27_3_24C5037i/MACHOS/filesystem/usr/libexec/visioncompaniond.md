@@ -1,0 +1,16 @@
+## visioncompaniond
+
+> `/usr/libexec/visioncompaniond`
+
+### Sections with Same Size but Changed Content
+
+- `__DATA.__objc_selrefs`
+
+```diff
+
+-35.40.6.0.0
++35.60.2.0.0
+   __TEXT.__text: 0xd8c
+   __TEXT.__auth_stubs: 0x180
+   __TEXT.__objc_stubs: 0x40
+```

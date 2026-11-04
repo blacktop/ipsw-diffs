@@ -1,0 +1,881 @@
+## BiomeLibrary
+
+> `/System/Library/PrivateFrameworks/BiomeLibrary.framework/BiomeLibrary`
+
+```diff
+
+-441.26.3.0.0
+-  __TEXT.__text: 0x73c620
+-  __TEXT.__objc_methlist: 0x5061c
+-  __TEXT.__const: 0x4914
++441.45.0.0.0
++  __TEXT.__text: 0x750084
++  __TEXT.__objc_methlist: 0x51634
++  __TEXT.__const: 0x4a80
+   __TEXT.__swift5_typeref: 0x184
+   __TEXT.__swift5_capture: 0x30
+-  __TEXT.__cstring: 0x4ed4e
++  __TEXT.__cstring: 0x4fd29
+   __TEXT.__constg_swiftt: 0x5e4
+   __TEXT.__swift5_fieldmd: 0x220
+   __TEXT.__swift5_types: 0x88
+   __TEXT.__oslogstring: 0x47
+-  __TEXT.__unwind_info: 0x123d0
++  __TEXT.__unwind_info: 0x12820
+   __TEXT.__eh_frame: 0x40
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1eee8
+-  __DATA_CONST.__objc_classlist: 0x2328
++  __DATA_CONST.__const: 0x1f7a8
++  __DATA_CONST.__objc_classlist: 0x23a0
+   __DATA_CONST.__objc_protolist: 0x48
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x12a38
++  __DATA_CONST.__objc_selrefs: 0x12d40
+   __DATA_CONST.__objc_protorefs: 0x8
+-  __DATA_CONST.__objc_superrefs: 0x1b40
+-  __DATA_CONST.__objc_arraydata: 0xb2b0
+-  __DATA_CONST.__got: 0x1c10
+-  __AUTH_CONST.__const: 0x9b78
+-  __AUTH_CONST.__cfstring: 0x4b9c0
+-  __AUTH_CONST.__objc_const: 0xa30e8
+-  __AUTH_CONST.__objc_arrayobj: 0x66c0
++  __DATA_CONST.__objc_superrefs: 0x1ba8
++  __DATA_CONST.__objc_arraydata: 0xb468
++  __DATA_CONST.__got: 0x1c78
++  __AUTH_CONST.__const: 0x9d58
++  __AUTH_CONST.__cfstring: 0x4cd20
++  __AUTH_CONST.__objc_const: 0xa4e08
++  __AUTH_CONST.__objc_arrayobj: 0x6828
+   __AUTH_CONST.__objc_intobj: 0x300
+   __AUTH_CONST.__auth_got: 0x3b0
+-  __AUTH.__objc_data: 0x9fc0
++  __AUTH.__objc_data: 0xa240
+   __AUTH.__data: 0x50
+-  __DATA.__objc_ivar: 0x823c
++  __DATA.__objc_ivar: 0x836c
+   __DATA.__data: 0x328
+-  __DATA_DIRTY.__objc_data: 0xcc90
++  __DATA_DIRTY.__objc_data: 0xcec0
+   __DATA_DIRTY.__data: 0x520
+   __DATA_DIRTY.__bss: 0x8
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  Functions: 28765
+-  Symbols:   53126
+-  CStrings:  9813
++  Functions: 29122
++  Symbols:   53764
++  CStrings:  9968
+ 
+Symbols:
++ +[BMAppleIntelligenceReportFedStatsTransparencyLog columns]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLog eventWithData:dataVersion:]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLog latestDataVersion]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLog protoFields]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLog validKeyPaths]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata columns]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata eventWithData:dataVersion:]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata latestDataVersion]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata protoFields]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata validKeyPaths]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig columns]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig eventWithData:dataVersion:]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig latestDataVersion]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig protoFields]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig validKeyPaths]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig columns]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig eventWithData:dataVersion:]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig latestDataVersion]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig protoFields]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig validKeyPaths]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures columns]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures eventWithData:dataVersion:]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures latestDataVersion]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures protoFields]
++ +[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures validKeyPaths]
++ +[BMRegionalSafetyAnalysisDisablement columns]
++ +[BMRegionalSafetyAnalysisDisablement eventWithData:dataVersion:]
++ +[BMRegionalSafetyAnalysisDisablement latestDataVersion]
++ +[BMRegionalSafetyAnalysisDisablement protoFields]
++ +[BMRegionalSafetyAnalysisDisablement validKeyPaths]
++ +[BMRegionalSafetyAnalysisEligibility columns]
++ +[BMRegionalSafetyAnalysisEligibility eventWithData:dataVersion:]
++ +[BMRegionalSafetyAnalysisEligibility latestDataVersion]
++ +[BMRegionalSafetyAnalysisEligibility protoFields]
++ +[BMRegionalSafetyAnalysisEligibility validKeyPaths]
++ +[BMRegionalSafetyAnalysisGuardrailResult columns]
++ +[BMRegionalSafetyAnalysisGuardrailResult eventWithData:dataVersion:]
++ +[BMRegionalSafetyAnalysisGuardrailResult latestDataVersion]
++ +[BMRegionalSafetyAnalysisGuardrailResult protoFields]
++ +[BMRegionalSafetyAnalysisGuardrailResult validKeyPaths]
++ +[BMRegionalSafetyAnalysisKeywordID columns]
++ +[BMRegionalSafetyAnalysisKeywordID eventWithData:dataVersion:]
++ +[BMRegionalSafetyAnalysisKeywordID latestDataVersion]
++ +[BMRegionalSafetyAnalysisKeywordID protoFields]
++ +[BMRegionalSafetyAnalysisKeywordID validKeyPaths]
++ +[BMRegionalSafetyAnalysisLiteViolationData columns]
++ +[BMRegionalSafetyAnalysisLiteViolationData eventWithData:dataVersion:]
++ +[BMRegionalSafetyAnalysisLiteViolationData latestDataVersion]
++ +[BMRegionalSafetyAnalysisLiteViolationData protoFields]
++ +[BMRegionalSafetyAnalysisLiteViolationData validKeyPaths]
++ +[BMSiriTransparencyReport columns]
++ +[BMSiriTransparencyReport eventWithData:dataVersion:]
++ +[BMSiriTransparencyReport latestDataVersion]
++ +[BMSiriTransparencyReport protoFields]
++ +[BMSiriTransparencyReport validKeyPaths]
++ +[BMSiriTransparencyReportLoggedFieldsEntry columns]
++ +[BMSiriTransparencyReportLoggedFieldsEntry eventWithData:dataVersion:]
++ +[BMSiriTransparencyReportLoggedFieldsEntry latestDataVersion]
++ +[BMSiriTransparencyReportLoggedFieldsEntry protoFields]
++ +[BMSiriTransparencyReportLoggedFieldsEntry validKeyPaths]
++ +[BMSiriTransparencyReportLoggedValues columns]
++ +[BMSiriTransparencyReportLoggedValues eventWithData:dataVersion:]
++ +[BMSiriTransparencyReportLoggedValues latestDataVersion]
++ +[BMSiriTransparencyReportLoggedValues protoFields]
++ +[BMSiriTransparencyReportLoggedValues validKeyPaths]
++ +[_BMAppleIntelligenceReportLibraryNode FedStatsTransparencyLog]
++ +[_BMAppleIntelligenceReportLibraryNode configurationForFedStatsTransparencyLog]
++ +[_BMAppleIntelligenceReportLibraryNode identifier]
++ +[_BMAppleIntelligenceReportLibraryNode storeConfigurationForFedStatsTransparencyLog]
++ +[_BMAppleIntelligenceReportLibraryNode streamNames]
++ +[_BMAppleIntelligenceReportLibraryNode streamWithName:]
++ +[_BMAppleIntelligenceReportLibraryNode sublibraries]
++ +[_BMAppleIntelligenceReportLibraryNode syncPolicyForFedStatsTransparencyLog]
++ +[_BMAppleIntelligenceReportLibraryNode validKeyPaths]
++ +[_BMRegionalSafetyAnalysisLibraryNode Disablement]
++ +[_BMRegionalSafetyAnalysisLibraryNode Eligibility]
++ +[_BMRegionalSafetyAnalysisLibraryNode GuardrailResult]
++ +[_BMRegionalSafetyAnalysisLibraryNode KeywordID]
++ +[_BMRegionalSafetyAnalysisLibraryNode LiteViolationData]
++ +[_BMRegionalSafetyAnalysisLibraryNode configurationForDisablement]
++ +[_BMRegionalSafetyAnalysisLibraryNode configurationForEligibility]
++ +[_BMRegionalSafetyAnalysisLibraryNode configurationForGuardrailResult]
++ +[_BMRegionalSafetyAnalysisLibraryNode configurationForKeywordID]
++ +[_BMRegionalSafetyAnalysisLibraryNode configurationForLiteViolationData]
++ +[_BMRegionalSafetyAnalysisLibraryNode identifier]
++ +[_BMRegionalSafetyAnalysisLibraryNode storeConfigurationForDisablement]
++ +[_BMRegionalSafetyAnalysisLibraryNode storeConfigurationForEligibility]
++ +[_BMRegionalSafetyAnalysisLibraryNode storeConfigurationForGuardrailResult]
++ +[_BMRegionalSafetyAnalysisLibraryNode storeConfigurationForKeywordID]
++ +[_BMRegionalSafetyAnalysisLibraryNode storeConfigurationForLiteViolationData]
++ +[_BMRegionalSafetyAnalysisLibraryNode streamNames]
++ +[_BMRegionalSafetyAnalysisLibraryNode streamWithName:]
++ +[_BMRegionalSafetyAnalysisLibraryNode sublibraries]
++ +[_BMRegionalSafetyAnalysisLibraryNode syncPolicyForDisablement]
++ +[_BMRegionalSafetyAnalysisLibraryNode syncPolicyForEligibility]
++ +[_BMRegionalSafetyAnalysisLibraryNode syncPolicyForGuardrailResult]
++ +[_BMRegionalSafetyAnalysisLibraryNode syncPolicyForKeywordID]
++ +[_BMRegionalSafetyAnalysisLibraryNode syncPolicyForLiteViolationData]
++ +[_BMRegionalSafetyAnalysisLibraryNode validKeyPaths]
++ +[_BMRootLibraryNode AppleIntelligenceReport]
++ +[_BMRootLibraryNode RegionalSafetyAnalysis]
++ +[_BMSiriODDILibraryNode TransparencyReport]
++ +[_BMSiriODDILibraryNode configurationForTransparencyReport]
++ +[_BMSiriODDILibraryNode storeConfigurationForTransparencyReport]
++ +[_BMSiriODDILibraryNode syncPolicyForTransparencyReport]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLog .cxx_destruct]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLog dataVersion]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLog description]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLog dimension]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLog hasDimension]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLog initByReadFrom:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLog initWithJSONDictionary:error:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLog initWithKey:dimension:metadata:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLog isEqual:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLog jsonDictionary]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLog key]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLog metadata]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLog serialize]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLog setHasDimension:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLog writeTo:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata .cxx_destruct]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata dataVersion]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata description]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata initByReadFrom:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata initWithJSONDictionary:error:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata initWithTaskConfig:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata isEqual:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata jsonDictionary]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata serialize]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata taskConfig]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata writeTo:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig .cxx_destruct]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig dataVersion]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig description]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig differentialPrivacyConfig]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig features]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig hasMinBatchSize]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig hasTaskExpiration]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig initByReadFrom:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig initWithJSONDictionary:error:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig initWithTaskExpiration:minBatchSize:features:differentialPrivacyConfig:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig isEqual:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig jsonDictionary]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig minBatchSize]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig serialize]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig setHasMinBatchSize:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig setHasTaskExpiration:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig taskExpiration]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig writeTo:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig dataVersion]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig description]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig hasLocalEpsilon]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig hasTargetCentralDelta]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig hasTargetCentralEpsilon]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig initByReadFrom:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig initWithJSONDictionary:error:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig initWithTargetCentralEpsilon:targetCentralDelta:localEpsilon:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig isEqual:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig jsonDictionary]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig localEpsilon]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig serialize]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig setHasLocalEpsilon:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig setHasTargetCentralDelta:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig setHasTargetCentralEpsilon:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig targetCentralDelta]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig targetCentralEpsilon]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig writeTo:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures dataVersion]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures description]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures hasOhttp]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures hasPrivateAccessToken]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures initByReadFrom:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures initWithJSONDictionary:error:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures initWithPrivateAccessToken:ohttp:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures isEqual:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures jsonDictionary]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures ohttp]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures privateAccessToken]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures serialize]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures setHasOhttp:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures setHasPrivateAccessToken:]
++ -[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures writeTo:]
++ -[BMPasswordsSecurityRecommendations countryCode]
++ -[BMPasswordsSecurityRecommendations initWithDomain:severity:issueTypes:countryCode:]
++ -[BMPasswordsSecurityRecommendations(Deprecation) initWithDomain:severity:issueTypes:]
++ -[BMRegionalSafetyAnalysisDisablement .cxx_destruct]
++ -[BMRegionalSafetyAnalysisDisablement assetVersion]
++ -[BMRegionalSafetyAnalysisDisablement dataVersion]
++ -[BMRegionalSafetyAnalysisDisablement description]
++ -[BMRegionalSafetyAnalysisDisablement didTriggerAutomaticDisablement]
++ -[BMRegionalSafetyAnalysisDisablement hasDidTriggerAutomaticDisablement]
++ -[BMRegionalSafetyAnalysisDisablement initByReadFrom:]
++ -[BMRegionalSafetyAnalysisDisablement initWithDidTriggerAutomaticDisablement:useCaseIdentifier:assetVersion:]
++ -[BMRegionalSafetyAnalysisDisablement initWithJSONDictionary:error:]
++ -[BMRegionalSafetyAnalysisDisablement isEqual:]
++ -[BMRegionalSafetyAnalysisDisablement jsonDictionary]
++ -[BMRegionalSafetyAnalysisDisablement serialize]
++ -[BMRegionalSafetyAnalysisDisablement setHasDidTriggerAutomaticDisablement:]
++ -[BMRegionalSafetyAnalysisDisablement useCaseIdentifier]
++ -[BMRegionalSafetyAnalysisDisablement writeTo:]
++ -[BMRegionalSafetyAnalysisEligibility dataVersion]
++ -[BMRegionalSafetyAnalysisEligibility description]
++ -[BMRegionalSafetyAnalysisEligibility hasIsAppleIntelligenceEligible]
++ -[BMRegionalSafetyAnalysisEligibility hasIsAppleIntelligenceToggledOn]
++ -[BMRegionalSafetyAnalysisEligibility hasIsOnboarded3rdParty]
++ -[BMRegionalSafetyAnalysisEligibility hasIsStaleSafetyData]
++ -[BMRegionalSafetyAnalysisEligibility initByReadFrom:]
++ -[BMRegionalSafetyAnalysisEligibility initWithIsAppleIntelligenceEligible:isAppleIntelligenceToggledOn:isOnboarded3rdParty:isStaleSafetyData:]
++ -[BMRegionalSafetyAnalysisEligibility initWithJSONDictionary:error:]
++ -[BMRegionalSafetyAnalysisEligibility isAppleIntelligenceEligible]
++ -[BMRegionalSafetyAnalysisEligibility isAppleIntelligenceToggledOn]
++ -[BMRegionalSafetyAnalysisEligibility isEqual:]
++ -[BMRegionalSafetyAnalysisEligibility isOnboarded3rdParty]
++ -[BMRegionalSafetyAnalysisEligibility isStaleSafetyData]
++ -[BMRegionalSafetyAnalysisEligibility jsonDictionary]
++ -[BMRegionalSafetyAnalysisEligibility serialize]
++ -[BMRegionalSafetyAnalysisEligibility setHasIsAppleIntelligenceEligible:]
++ -[BMRegionalSafetyAnalysisEligibility setHasIsAppleIntelligenceToggledOn:]
++ -[BMRegionalSafetyAnalysisEligibility setHasIsOnboarded3rdParty:]
++ -[BMRegionalSafetyAnalysisEligibility setHasIsStaleSafetyData:]
++ -[BMRegionalSafetyAnalysisEligibility writeTo:]
++ -[BMRegionalSafetyAnalysisGuardrailResult .cxx_destruct]
++ -[BMRegionalSafetyAnalysisGuardrailResult assetVersion]
++ -[BMRegionalSafetyAnalysisGuardrailResult dataVersion]
++ -[BMRegionalSafetyAnalysisGuardrailResult description]
++ -[BMRegionalSafetyAnalysisGuardrailResult error]
++ -[BMRegionalSafetyAnalysisGuardrailResult hasMarkedUnsafe]
++ -[BMRegionalSafetyAnalysisGuardrailResult identifier]
++ -[BMRegionalSafetyAnalysisGuardrailResult initByReadFrom:]
++ -[BMRegionalSafetyAnalysisGuardrailResult initWithIdentifier:markedUnsafe:sensitivity:useCaseIdentifier:instanceType:assetVersion:error:judgementSource:userRequestID:severity:]
++ -[BMRegionalSafetyAnalysisGuardrailResult initWithJSONDictionary:error:]
++ -[BMRegionalSafetyAnalysisGuardrailResult instanceType]
++ -[BMRegionalSafetyAnalysisGuardrailResult isEqual:]
++ -[BMRegionalSafetyAnalysisGuardrailResult jsonDictionary]
++ -[BMRegionalSafetyAnalysisGuardrailResult judgementSource]
++ -[BMRegionalSafetyAnalysisGuardrailResult markedUnsafe]
++ -[BMRegionalSafetyAnalysisGuardrailResult sensitivity]
++ -[BMRegionalSafetyAnalysisGuardrailResult serialize]
++ -[BMRegionalSafetyAnalysisGuardrailResult setHasMarkedUnsafe:]
++ -[BMRegionalSafetyAnalysisGuardrailResult severity]
++ -[BMRegionalSafetyAnalysisGuardrailResult useCaseIdentifier]
++ -[BMRegionalSafetyAnalysisGuardrailResult userRequestID]
++ -[BMRegionalSafetyAnalysisGuardrailResult writeTo:]
++ -[BMRegionalSafetyAnalysisGuardrailResult(Deprecation) initWithIdentifier:markedUnsafe:sensitivity:useCaseIdentifier:instanceType:assetVersion:error:judgementSource:]
++ -[BMRegionalSafetyAnalysisGuardrailResult(Deprecation) initWithIdentifier:markedUnsafe:sensitivity:useCaseIdentifier:instanceType:assetVersion:error:judgementSource:userRequestID:]
++ -[BMRegionalSafetyAnalysisKeywordID .cxx_destruct]
++ -[BMRegionalSafetyAnalysisKeywordID dataVersion]
++ -[BMRegionalSafetyAnalysisKeywordID description]
++ -[BMRegionalSafetyAnalysisKeywordID identifier]
++ -[BMRegionalSafetyAnalysisKeywordID initByReadFrom:]
++ -[BMRegionalSafetyAnalysisKeywordID initWithIdentifier:keywordIdentifier:safetyDataVersion:violationCategory:instanceType:userRequestID:]
++ -[BMRegionalSafetyAnalysisKeywordID initWithJSONDictionary:error:]
++ -[BMRegionalSafetyAnalysisKeywordID instanceType]
++ -[BMRegionalSafetyAnalysisKeywordID isEqual:]
++ -[BMRegionalSafetyAnalysisKeywordID jsonDictionary]
++ -[BMRegionalSafetyAnalysisKeywordID keywordIdentifier]
++ -[BMRegionalSafetyAnalysisKeywordID safetyDataVersion]
++ -[BMRegionalSafetyAnalysisKeywordID serialize]
++ -[BMRegionalSafetyAnalysisKeywordID userRequestID]
++ -[BMRegionalSafetyAnalysisKeywordID violationCategory]
++ -[BMRegionalSafetyAnalysisKeywordID writeTo:]
++ -[BMRegionalSafetyAnalysisKeywordID(Deprecation) initWithIdentifier:useCaseIdentifier:keywordIdentifier:safetyDataVersion:violationCategory:]
++ -[BMRegionalSafetyAnalysisKeywordID(Deprecation) initWithIdentifier:useCaseIdentifier:keywordIdentifier:safetyDataVersion:violationCategory:instanceType:]
++ -[BMRegionalSafetyAnalysisKeywordID(Deprecation) initWithIdentifier:useCaseIdentifier:keywordIdentifier:safetyDataVersion:violationCategory:instanceType:userRequestID:]
++ -[BMRegionalSafetyAnalysisLiteViolationData .cxx_destruct]
++ -[BMRegionalSafetyAnalysisLiteViolationData dataVersion]
++ -[BMRegionalSafetyAnalysisLiteViolationData description]
++ -[BMRegionalSafetyAnalysisLiteViolationData identifier]
++ -[BMRegionalSafetyAnalysisLiteViolationData initByReadFrom:]
++ -[BMRegionalSafetyAnalysisLiteViolationData initWithIdentifier:useCaseIdentifier:liteViolationCategory:safetyDataVersion:]
++ -[BMRegionalSafetyAnalysisLiteViolationData initWithJSONDictionary:error:]
++ -[BMRegionalSafetyAnalysisLiteViolationData isEqual:]
++ -[BMRegionalSafetyAnalysisLiteViolationData jsonDictionary]
++ -[BMRegionalSafetyAnalysisLiteViolationData liteViolationCategory]
++ -[BMRegionalSafetyAnalysisLiteViolationData safetyDataVersion]
++ -[BMRegionalSafetyAnalysisLiteViolationData serialize]
++ -[BMRegionalSafetyAnalysisLiteViolationData useCaseIdentifier]
++ -[BMRegionalSafetyAnalysisLiteViolationData writeTo:]
++ -[BMRegionalSafetyAnalysisLiteViolationData(Deprecation) initWithIdentifier:useCaseIdentifier:liteViolationCategory:]
++ -[BMSiriTransparencyReport .cxx_destruct]
++ -[BMSiriTransparencyReport _loggedFieldsJSONArray]
++ -[BMSiriTransparencyReport dataVersion]
++ -[BMSiriTransparencyReport description]
++ -[BMSiriTransparencyReport initByReadFrom:]
++ -[BMSiriTransparencyReport initWithJSONDictionary:error:]
++ -[BMSiriTransparencyReport initWithTurnId:invocationTimestamp:invocationSource:loggedFields:]
++ -[BMSiriTransparencyReport invocationSource]
++ -[BMSiriTransparencyReport invocationTimestamp]
++ -[BMSiriTransparencyReport isEqual:]
++ -[BMSiriTransparencyReport jsonDictionary]
++ -[BMSiriTransparencyReport loggedFields]
++ -[BMSiriTransparencyReport serialize]
++ -[BMSiriTransparencyReport turnId]
++ -[BMSiriTransparencyReport writeTo:]
++ -[BMSiriTransparencyReportLoggedFieldsEntry .cxx_destruct]
++ -[BMSiriTransparencyReportLoggedFieldsEntry dataVersion]
++ -[BMSiriTransparencyReportLoggedFieldsEntry description]
++ -[BMSiriTransparencyReportLoggedFieldsEntry initByReadFrom:]
++ -[BMSiriTransparencyReportLoggedFieldsEntry initWithJSONDictionary:error:]
++ -[BMSiriTransparencyReportLoggedFieldsEntry initWithKey:value:]
++ -[BMSiriTransparencyReportLoggedFieldsEntry isEqual:]
++ -[BMSiriTransparencyReportLoggedFieldsEntry jsonDictionary]
++ -[BMSiriTransparencyReportLoggedFieldsEntry key]
++ -[BMSiriTransparencyReportLoggedFieldsEntry serialize]
++ -[BMSiriTransparencyReportLoggedFieldsEntry value]
++ -[BMSiriTransparencyReportLoggedFieldsEntry writeTo:]
++ -[BMSiriTransparencyReportLoggedValues .cxx_destruct]
++ -[BMSiriTransparencyReportLoggedValues _valuesJSONArray]
++ -[BMSiriTransparencyReportLoggedValues dataVersion]
++ -[BMSiriTransparencyReportLoggedValues description]
++ -[BMSiriTransparencyReportLoggedValues initByReadFrom:]
++ -[BMSiriTransparencyReportLoggedValues initWithJSONDictionary:error:]
++ -[BMSiriTransparencyReportLoggedValues initWithValues:]
++ -[BMSiriTransparencyReportLoggedValues isEqual:]
++ -[BMSiriTransparencyReportLoggedValues jsonDictionary]
++ -[BMSiriTransparencyReportLoggedValues serialize]
++ -[BMSiriTransparencyReportLoggedValues values]
++ -[BMSiriTransparencyReportLoggedValues writeTo:]
++ _BMAppleIntelligenceReportFedStatsTransparencyLogDimensionColumn
++ _BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadataTaskConfigColumn
++ _BMAppleIntelligenceReportFedStatsTransparencyLogIdentifier
++ _BMAppleIntelligenceReportFedStatsTransparencyLogKeyColumn
++ _BMAppleIntelligenceReportFedStatsTransparencyLogMetadataColumn
++ _BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDifferentialPrivacyConfigColumn
++ _BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfigLocalEpsilonColumn
++ _BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfigTargetCentralDeltaColumn
++ _BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfigTargetCentralEpsilonColumn
++ _BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeaturesColumn
++ _BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeaturesOhttpColumn
++ _BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeaturesPrivateAccessTokenColumn
++ _BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigMinBatchSizeColumn
++ _BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigTaskExpirationColumn
++ _BMGeneratedImageFailureReasonBlockingSafetyModelFromString.sortedEnums
++ _BMGeneratedImageFailureReasonFeatureFromString.sortedEnums
++ _BMPasswordsSecurityRecommendationsCountryCodeColumn
++ _BMRegionalSafetyAnalysisDisablementAssetVersionColumn
++ _BMRegionalSafetyAnalysisDisablementDidTriggerAutomaticDisablementColumn
++ _BMRegionalSafetyAnalysisDisablementIdentifier
++ _BMRegionalSafetyAnalysisDisablementUseCaseIdentifierColumn
++ _BMRegionalSafetyAnalysisEligibilityIdentifier
++ _BMRegionalSafetyAnalysisEligibilityIsAppleIntelligenceEligibleColumn
++ _BMRegionalSafetyAnalysisEligibilityIsAppleIntelligenceToggledOnColumn
++ _BMRegionalSafetyAnalysisEligibilityIsOnboarded3rdPartyColumn
++ _BMRegionalSafetyAnalysisEligibilityIsStaleSafetyDataColumn
++ _BMRegionalSafetyAnalysisGuardrailResultAssetVersionColumn
++ _BMRegionalSafetyAnalysisGuardrailResultErrorAsString
++ _BMRegionalSafetyAnalysisGuardrailResultErrorColumn
++ _BMRegionalSafetyAnalysisGuardrailResultErrorDecode
++ _BMRegionalSafetyAnalysisGuardrailResultErrorFromString
++ _BMRegionalSafetyAnalysisGuardrailResultErrorFromString.sortedEnums
++ _BMRegionalSafetyAnalysisGuardrailResultErrorFromString.sortedStrings
++ _BMRegionalSafetyAnalysisGuardrailResultIdentifier
++ _BMRegionalSafetyAnalysisGuardrailResultIdentifierColumn
++ _BMRegionalSafetyAnalysisGuardrailResultInstanceTypeAsString
++ _BMRegionalSafetyAnalysisGuardrailResultInstanceTypeColumn
++ _BMRegionalSafetyAnalysisGuardrailResultInstanceTypeDecode
++ _BMRegionalSafetyAnalysisGuardrailResultInstanceTypeFromString
++ _BMRegionalSafetyAnalysisGuardrailResultInstanceTypeFromString.sortedStrings
++ _BMRegionalSafetyAnalysisGuardrailResultJudgementSourceAsString
++ _BMRegionalSafetyAnalysisGuardrailResultJudgementSourceColumn
++ _BMRegionalSafetyAnalysisGuardrailResultJudgementSourceDecode
++ _BMRegionalSafetyAnalysisGuardrailResultJudgementSourceFromString
++ _BMRegionalSafetyAnalysisGuardrailResultJudgementSourceFromString.sortedStrings
++ _BMRegionalSafetyAnalysisGuardrailResultMarkedUnsafeColumn
++ _BMRegionalSafetyAnalysisGuardrailResultSensitiveAsString
++ _BMRegionalSafetyAnalysisGuardrailResultSensitiveDecode
++ _BMRegionalSafetyAnalysisGuardrailResultSensitiveFromString
++ _BMRegionalSafetyAnalysisGuardrailResultSensitiveFromString.sortedStrings
++ _BMRegionalSafetyAnalysisGuardrailResultSensitivityColumn
++ _BMRegionalSafetyAnalysisGuardrailResultSeverityAsString
++ _BMRegionalSafetyAnalysisGuardrailResultSeverityColumn
++ _BMRegionalSafetyAnalysisGuardrailResultSeverityDecode
++ _BMRegionalSafetyAnalysisGuardrailResultSeverityFromString
++ _BMRegionalSafetyAnalysisGuardrailResultSeverityFromString.sortedStrings
++ _BMRegionalSafetyAnalysisGuardrailResultUseCaseIdentifierColumn
++ _BMRegionalSafetyAnalysisGuardrailResultUserRequestIDColumn
++ _BMRegionalSafetyAnalysisKeywordIDIdentifier
++ _BMRegionalSafetyAnalysisKeywordIDIdentifierColumn
++ _BMRegionalSafetyAnalysisKeywordIDInstanceTypeAsString
++ _BMRegionalSafetyAnalysisKeywordIDInstanceTypeColumn
++ _BMRegionalSafetyAnalysisKeywordIDInstanceTypeDecode
++ _BMRegionalSafetyAnalysisKeywordIDInstanceTypeFromString
++ _BMRegionalSafetyAnalysisKeywordIDInstanceTypeFromString.sortedStrings
++ _BMRegionalSafetyAnalysisKeywordIDKeywordIdentifierColumn
++ _BMRegionalSafetyAnalysisKeywordIDSafetyDataVersionColumn
++ _BMRegionalSafetyAnalysisKeywordIDUserRequestIDColumn
++ _BMRegionalSafetyAnalysisKeywordIDViolationCategoryAsString
++ _BMRegionalSafetyAnalysisKeywordIDViolationCategoryColumn
++ _BMRegionalSafetyAnalysisKeywordIDViolationCategoryDecode
++ _BMRegionalSafetyAnalysisKeywordIDViolationCategoryFromString
++ _BMRegionalSafetyAnalysisKeywordIDViolationCategoryFromString.sortedEnums
++ _BMRegionalSafetyAnalysisKeywordIDViolationCategoryFromString.sortedStrings
++ _BMRegionalSafetyAnalysisLiteViolationDataIdentifier
++ _BMRegionalSafetyAnalysisLiteViolationDataIdentifierColumn
++ _BMRegionalSafetyAnalysisLiteViolationDataLiteViolationCategoryAsString
++ _BMRegionalSafetyAnalysisLiteViolationDataLiteViolationCategoryColumn
++ _BMRegionalSafetyAnalysisLiteViolationDataLiteViolationCategoryDecode
++ _BMRegionalSafetyAnalysisLiteViolationDataLiteViolationCategoryFromString
++ _BMRegionalSafetyAnalysisLiteViolationDataLiteViolationCategoryFromString.sortedStrings
++ _BMRegionalSafetyAnalysisLiteViolationDataSafetyDataVersionColumn
++ _BMRegionalSafetyAnalysisLiteViolationDataUseCaseIdentifierColumn
++ _BMSiriODDITransparencyReportIdentifier
++ _BMSiriTransparencyReportInvocationSourceColumn
++ _BMSiriTransparencyReportInvocationTimestampColumn
++ _BMSiriTransparencyReportLoggedFieldsColumn
++ _BMSiriTransparencyReportLoggedFieldsEntryKeyColumn
++ _BMSiriTransparencyReportLoggedFieldsEntryValueColumn
++ _BMSiriTransparencyReportLoggedValuesValuesColumn
++ _BMSiriTransparencyReportTurnIdColumn
++ _OBJC_CLASS_$_BMAppleIntelligenceReportFedStatsTransparencyLog
++ _OBJC_CLASS_$_BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata
++ _OBJC_CLASS_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig
++ _OBJC_CLASS_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig
++ _OBJC_CLASS_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures
++ _OBJC_CLASS_$_BMRegionalSafetyAnalysisDisablement
++ _OBJC_CLASS_$_BMRegionalSafetyAnalysisEligibility
++ _OBJC_CLASS_$_BMRegionalSafetyAnalysisGuardrailResult
++ _OBJC_CLASS_$_BMRegionalSafetyAnalysisKeywordID
++ _OBJC_CLASS_$_BMRegionalSafetyAnalysisLiteViolationData
++ _OBJC_CLASS_$_BMSiriTransparencyReport
++ _OBJC_CLASS_$_BMSiriTransparencyReportLoggedFieldsEntry
++ _OBJC_CLASS_$_BMSiriTransparencyReportLoggedValues
++ _OBJC_CLASS_$__BMAppleIntelligenceReportLibraryNode
++ _OBJC_CLASS_$__BMRegionalSafetyAnalysisLibraryNode
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLog._dataVersion
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLog._dimension
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLog._hasDimension
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLog._key
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLog._metadata
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata._dataVersion
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata._taskConfig
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig._dataVersion
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig._differentialPrivacyConfig
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig._features
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig._hasMinBatchSize
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig._hasTaskExpiration
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig._minBatchSize
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig._taskExpiration
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig._dataVersion
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig._hasLocalEpsilon
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig._hasTargetCentralDelta
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig._hasTargetCentralEpsilon
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig._localEpsilon
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig._targetCentralDelta
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig._targetCentralEpsilon
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures._dataVersion
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures._hasOhttp
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures._hasPrivateAccessToken
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures._ohttp
++ _OBJC_IVAR_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures._privateAccessToken
++ _OBJC_IVAR_$_BMPasswordsSecurityRecommendations._countryCode
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisDisablement._assetVersion
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisDisablement._dataVersion
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisDisablement._didTriggerAutomaticDisablement
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisDisablement._hasDidTriggerAutomaticDisablement
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisDisablement._useCaseIdentifier
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisEligibility._dataVersion
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisEligibility._hasIsAppleIntelligenceEligible
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisEligibility._hasIsAppleIntelligenceToggledOn
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisEligibility._hasIsOnboarded3rdParty
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisEligibility._hasIsStaleSafetyData
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisEligibility._isAppleIntelligenceEligible
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisEligibility._isAppleIntelligenceToggledOn
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisEligibility._isOnboarded3rdParty
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisEligibility._isStaleSafetyData
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisGuardrailResult._assetVersion
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisGuardrailResult._dataVersion
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisGuardrailResult._error
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisGuardrailResult._hasMarkedUnsafe
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisGuardrailResult._instanceType
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisGuardrailResult._judgementSource
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisGuardrailResult._markedUnsafe
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisGuardrailResult._raw_identifier
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisGuardrailResult._raw_userRequestID
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisGuardrailResult._sensitivity
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisGuardrailResult._severity
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisGuardrailResult._useCaseIdentifier
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisKeywordID._dataVersion
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisKeywordID._instanceType
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisKeywordID._keywordIdentifier
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisKeywordID._raw_identifier
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisKeywordID._raw_userRequestID
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisKeywordID._safetyDataVersion
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisKeywordID._violationCategory
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisLiteViolationData._dataVersion
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisLiteViolationData._liteViolationCategory
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisLiteViolationData._raw_identifier
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisLiteViolationData._safetyDataVersion
++ _OBJC_IVAR_$_BMRegionalSafetyAnalysisLiteViolationData._useCaseIdentifier
++ _OBJC_IVAR_$_BMSiriTransparencyReport._dataVersion
++ _OBJC_IVAR_$_BMSiriTransparencyReport._hasRaw_invocationTimestamp
++ _OBJC_IVAR_$_BMSiriTransparencyReport._invocationSource
++ _OBJC_IVAR_$_BMSiriTransparencyReport._loggedFields
++ _OBJC_IVAR_$_BMSiriTransparencyReport._raw_invocationTimestamp
++ _OBJC_IVAR_$_BMSiriTransparencyReport._raw_turnId
++ _OBJC_IVAR_$_BMSiriTransparencyReportLoggedFieldsEntry._dataVersion
++ _OBJC_IVAR_$_BMSiriTransparencyReportLoggedFieldsEntry._key
++ _OBJC_IVAR_$_BMSiriTransparencyReportLoggedFieldsEntry._value
++ _OBJC_IVAR_$_BMSiriTransparencyReportLoggedValues._dataVersion
++ _OBJC_IVAR_$_BMSiriTransparencyReportLoggedValues._values
++ _OBJC_METACLASS_$_BMAppleIntelligenceReportFedStatsTransparencyLog
++ _OBJC_METACLASS_$_BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata
++ _OBJC_METACLASS_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig
++ _OBJC_METACLASS_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig
++ _OBJC_METACLASS_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures
++ _OBJC_METACLASS_$_BMRegionalSafetyAnalysisDisablement
++ _OBJC_METACLASS_$_BMRegionalSafetyAnalysisEligibility
++ _OBJC_METACLASS_$_BMRegionalSafetyAnalysisGuardrailResult
++ _OBJC_METACLASS_$_BMRegionalSafetyAnalysisKeywordID
++ _OBJC_METACLASS_$_BMRegionalSafetyAnalysisLiteViolationData
++ _OBJC_METACLASS_$_BMSiriTransparencyReport
++ _OBJC_METACLASS_$_BMSiriTransparencyReportLoggedFieldsEntry
++ _OBJC_METACLASS_$_BMSiriTransparencyReportLoggedValues
++ _OBJC_METACLASS_$__BMAppleIntelligenceReportLibraryNode
++ _OBJC_METACLASS_$__BMRegionalSafetyAnalysisLibraryNode
++ __OBJC_$_CLASS_METHODS_BMAppleIntelligenceReportFedStatsTransparencyLog
++ __OBJC_$_CLASS_METHODS_BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata
++ __OBJC_$_CLASS_METHODS_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig
++ __OBJC_$_CLASS_METHODS_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig
++ __OBJC_$_CLASS_METHODS_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures
++ __OBJC_$_CLASS_METHODS_BMRegionalSafetyAnalysisDisablement
++ __OBJC_$_CLASS_METHODS_BMRegionalSafetyAnalysisEligibility
++ __OBJC_$_CLASS_METHODS_BMRegionalSafetyAnalysisGuardrailResult
++ __OBJC_$_CLASS_METHODS_BMRegionalSafetyAnalysisKeywordID
++ __OBJC_$_CLASS_METHODS_BMRegionalSafetyAnalysisLiteViolationData
++ __OBJC_$_CLASS_METHODS_BMSiriTransparencyReport
++ __OBJC_$_CLASS_METHODS_BMSiriTransparencyReportLoggedFieldsEntry
++ __OBJC_$_CLASS_METHODS_BMSiriTransparencyReportLoggedValues
++ __OBJC_$_CLASS_METHODS__BMAppleIntelligenceReportLibraryNode
++ __OBJC_$_CLASS_METHODS__BMRegionalSafetyAnalysisLibraryNode
++ __OBJC_$_CLASS_PROP_LIST_BMAppleIntelligenceReportFedStatsTransparencyLog
++ __OBJC_$_CLASS_PROP_LIST_BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata
++ __OBJC_$_CLASS_PROP_LIST_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig
++ __OBJC_$_CLASS_PROP_LIST_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig
++ __OBJC_$_CLASS_PROP_LIST_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures
++ __OBJC_$_CLASS_PROP_LIST_BMRegionalSafetyAnalysisDisablement
++ __OBJC_$_CLASS_PROP_LIST_BMRegionalSafetyAnalysisEligibility
++ __OBJC_$_CLASS_PROP_LIST_BMRegionalSafetyAnalysisGuardrailResult
++ __OBJC_$_CLASS_PROP_LIST_BMRegionalSafetyAnalysisKeywordID
++ __OBJC_$_CLASS_PROP_LIST_BMRegionalSafetyAnalysisLiteViolationData
++ __OBJC_$_CLASS_PROP_LIST_BMSiriTransparencyReport
++ __OBJC_$_CLASS_PROP_LIST_BMSiriTransparencyReportLoggedFieldsEntry
++ __OBJC_$_CLASS_PROP_LIST_BMSiriTransparencyReportLoggedValues
++ __OBJC_$_INSTANCE_METHODS_BMAppleIntelligenceReportFedStatsTransparencyLog
++ __OBJC_$_INSTANCE_METHODS_BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata
++ __OBJC_$_INSTANCE_METHODS_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig
++ __OBJC_$_INSTANCE_METHODS_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig
++ __OBJC_$_INSTANCE_METHODS_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures
++ __OBJC_$_INSTANCE_METHODS_BMPasswordsSecurityRecommendations(Deprecation)
++ __OBJC_$_INSTANCE_METHODS_BMRegionalSafetyAnalysisDisablement
++ __OBJC_$_INSTANCE_METHODS_BMRegionalSafetyAnalysisEligibility
++ __OBJC_$_INSTANCE_METHODS_BMRegionalSafetyAnalysisGuardrailResult(Deprecation)
++ __OBJC_$_INSTANCE_METHODS_BMRegionalSafetyAnalysisKeywordID(Deprecation)
++ __OBJC_$_INSTANCE_METHODS_BMRegionalSafetyAnalysisLiteViolationData(Deprecation)
++ __OBJC_$_INSTANCE_METHODS_BMSiriTransparencyReport
++ __OBJC_$_INSTANCE_METHODS_BMSiriTransparencyReportLoggedFieldsEntry
++ __OBJC_$_INSTANCE_METHODS_BMSiriTransparencyReportLoggedValues
++ __OBJC_$_INSTANCE_VARIABLES_BMAppleIntelligenceReportFedStatsTransparencyLog
++ __OBJC_$_INSTANCE_VARIABLES_BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata
++ __OBJC_$_INSTANCE_VARIABLES_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig
++ __OBJC_$_INSTANCE_VARIABLES_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig
++ __OBJC_$_INSTANCE_VARIABLES_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures
++ __OBJC_$_INSTANCE_VARIABLES_BMRegionalSafetyAnalysisDisablement
++ __OBJC_$_INSTANCE_VARIABLES_BMRegionalSafetyAnalysisEligibility
++ __OBJC_$_INSTANCE_VARIABLES_BMRegionalSafetyAnalysisGuardrailResult
++ __OBJC_$_INSTANCE_VARIABLES_BMRegionalSafetyAnalysisKeywordID
++ __OBJC_$_INSTANCE_VARIABLES_BMRegionalSafetyAnalysisLiteViolationData
++ __OBJC_$_INSTANCE_VARIABLES_BMSiriTransparencyReport
++ __OBJC_$_INSTANCE_VARIABLES_BMSiriTransparencyReportLoggedFieldsEntry
++ __OBJC_$_INSTANCE_VARIABLES_BMSiriTransparencyReportLoggedValues
++ __OBJC_$_PROP_LIST_BMAppleIntelligenceReportFedStatsTransparencyLog
++ __OBJC_$_PROP_LIST_BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata
++ __OBJC_$_PROP_LIST_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig
++ __OBJC_$_PROP_LIST_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig
++ __OBJC_$_PROP_LIST_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures
++ __OBJC_$_PROP_LIST_BMRegionalSafetyAnalysisDisablement
++ __OBJC_$_PROP_LIST_BMRegionalSafetyAnalysisEligibility
++ __OBJC_$_PROP_LIST_BMRegionalSafetyAnalysisGuardrailResult
++ __OBJC_$_PROP_LIST_BMRegionalSafetyAnalysisKeywordID
++ __OBJC_$_PROP_LIST_BMRegionalSafetyAnalysisLiteViolationData
++ __OBJC_$_PROP_LIST_BMSiriTransparencyReport
++ __OBJC_$_PROP_LIST_BMSiriTransparencyReportLoggedFieldsEntry
++ __OBJC_$_PROP_LIST_BMSiriTransparencyReportLoggedValues
++ __OBJC_CLASS_PROTOCOLS_$_BMAppleIntelligenceReportFedStatsTransparencyLog
++ __OBJC_CLASS_PROTOCOLS_$_BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata
++ __OBJC_CLASS_PROTOCOLS_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig
++ __OBJC_CLASS_PROTOCOLS_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig
++ __OBJC_CLASS_PROTOCOLS_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures
++ __OBJC_CLASS_PROTOCOLS_$_BMRegionalSafetyAnalysisDisablement
++ __OBJC_CLASS_PROTOCOLS_$_BMRegionalSafetyAnalysisEligibility
++ __OBJC_CLASS_PROTOCOLS_$_BMRegionalSafetyAnalysisGuardrailResult
++ __OBJC_CLASS_PROTOCOLS_$_BMRegionalSafetyAnalysisKeywordID
++ __OBJC_CLASS_PROTOCOLS_$_BMRegionalSafetyAnalysisLiteViolationData
++ __OBJC_CLASS_PROTOCOLS_$_BMSiriTransparencyReport
++ __OBJC_CLASS_PROTOCOLS_$_BMSiriTransparencyReportLoggedFieldsEntry
++ __OBJC_CLASS_PROTOCOLS_$_BMSiriTransparencyReportLoggedValues
++ __OBJC_CLASS_RO_$_BMAppleIntelligenceReportFedStatsTransparencyLog
++ __OBJC_CLASS_RO_$_BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata
++ __OBJC_CLASS_RO_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig
++ __OBJC_CLASS_RO_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig
++ __OBJC_CLASS_RO_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures
++ __OBJC_CLASS_RO_$_BMRegionalSafetyAnalysisDisablement
++ __OBJC_CLASS_RO_$_BMRegionalSafetyAnalysisEligibility
++ __OBJC_CLASS_RO_$_BMRegionalSafetyAnalysisGuardrailResult
++ __OBJC_CLASS_RO_$_BMRegionalSafetyAnalysisKeywordID
++ __OBJC_CLASS_RO_$_BMRegionalSafetyAnalysisLiteViolationData
++ __OBJC_CLASS_RO_$_BMSiriTransparencyReport
++ __OBJC_CLASS_RO_$_BMSiriTransparencyReportLoggedFieldsEntry
++ __OBJC_CLASS_RO_$_BMSiriTransparencyReportLoggedValues
++ __OBJC_CLASS_RO_$__BMAppleIntelligenceReportLibraryNode
++ __OBJC_CLASS_RO_$__BMRegionalSafetyAnalysisLibraryNode
++ __OBJC_METACLASS_RO_$_BMAppleIntelligenceReportFedStatsTransparencyLog
++ __OBJC_METACLASS_RO_$_BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata
++ __OBJC_METACLASS_RO_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig
++ __OBJC_METACLASS_RO_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig
++ __OBJC_METACLASS_RO_$_BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures
++ __OBJC_METACLASS_RO_$_BMRegionalSafetyAnalysisDisablement
++ __OBJC_METACLASS_RO_$_BMRegionalSafetyAnalysisEligibility
++ __OBJC_METACLASS_RO_$_BMRegionalSafetyAnalysisGuardrailResult
++ __OBJC_METACLASS_RO_$_BMRegionalSafetyAnalysisKeywordID
++ __OBJC_METACLASS_RO_$_BMRegionalSafetyAnalysisLiteViolationData
++ __OBJC_METACLASS_RO_$_BMSiriTransparencyReport
++ __OBJC_METACLASS_RO_$_BMSiriTransparencyReportLoggedFieldsEntry
++ __OBJC_METACLASS_RO_$_BMSiriTransparencyReportLoggedValues
++ __OBJC_METACLASS_RO_$__BMAppleIntelligenceReportLibraryNode
++ __OBJC_METACLASS_RO_$__BMRegionalSafetyAnalysisLibraryNode
++ ___35+[BMSiriTransparencyReport columns]_block_invoke
++ ___47+[BMSiriTransparencyReportLoggedValues columns]_block_invoke
++ ___52+[BMSiriTransparencyReportLoggedFieldsEntry columns]_block_invoke
++ ___59+[BMAppleIntelligenceReportFedStatsTransparencyLog columns]_block_invoke
++ ___69+[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig columns]_block_invoke
++ ___69+[BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig columns]_block_invoke_2
++ ___75+[BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata columns]_block_invoke
++ ___BMRegionalSafetyAnalysisGuardrailResultErrorFromString_block_invoke
++ ___BMRegionalSafetyAnalysisGuardrailResultInstanceTypeFromString_block_invoke
++ ___BMRegionalSafetyAnalysisGuardrailResultJudgementSourceFromString_block_invoke
++ ___BMRegionalSafetyAnalysisGuardrailResultSensitiveFromString_block_invoke
++ ___BMRegionalSafetyAnalysisGuardrailResultSeverityFromString_block_invoke
++ ___BMRegionalSafetyAnalysisKeywordIDInstanceTypeFromString_block_invoke
++ ___BMRegionalSafetyAnalysisKeywordIDViolationCategoryFromString_block_invoke
++ ___BMRegionalSafetyAnalysisLiteViolationDataLiteViolationCategoryFromString_block_invoke
+- -[BMPasswordsSecurityRecommendations initWithDomain:severity:issueTypes:]
+- _BMSiriAssistantSuggestionFeaturesTemporalFeaturesTimePeriodFromString.sortedEnums
+- __OBJC_$_INSTANCE_METHODS_BMPasswordsSecurityRecommendations
+CStrings:
++ "3AA4400B-F6AD-4F0B-A6FB-129D7E85ABE8"
++ "3BCF8011-790C-49A1-BD4A-816DE43E9E1A"
++ "58C4A87F-BA2F-485F-B51E-FEF9C2383E2F"
++ "68BF406C-C913-4A9E-9672-FB8BF50B2B9C"
++ "6B998066-E2F5-41E4-AE10-8493A83A2CF3"
++ "A0567FF1-A1FC-4D31-822B-37FA5EBA39EA"
++ "A1"
++ "A1a"
++ "A1b"
++ "A1c"
++ "A1d"
++ "A1e"
++ "A1f"
++ "A1g"
++ "A1h"
++ "A2"
++ "A2a"
++ "A2b"
++ "A2c"
++ "A2d"
++ "A2e"
++ "A2f"
++ "A2g"
++ "A2h"
++ "A2i"
++ "A3"
++ "A3a"
++ "A3b"
++ "A3c"
++ "A3d"
++ "A3e"
++ "A4"
++ "A4a"
++ "A4b"
++ "A4c"
++ "A4d"
++ "A4e"
++ "A4f"
++ "A4g"
++ "A5"
++ "A5a"
++ "A5b"
++ "AnnxModuleRunFailed"
++ "AnnxModuleSetupFailed"
++ "AppleIntelligenceReport"
++ "AppleIntelligenceReport.FedStatsTransparencyLog"
++ "BE29F413-3A3E-4466-9660-1E73A1E56F22"
++ "BMAppleIntelligenceReportFedStatsTransparencyLog with key: %@, dimension: %@, metadata: %@"
++ "BMAppleIntelligenceReportFedStatsTransparencyLogDonationMetadata with taskConfig: %@"
++ "BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfig with taskExpiration: %@, minBatchSize: %@, features: %@, differentialPrivacyConfig: %@"
++ "BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigDpConfig with targetCentralEpsilon: %@, targetCentralDelta: %@, localEpsilon: %@"
++ "BMAppleIntelligenceReportFedStatsTransparencyLogTaskConfigFeatures with privateAccessToken: %@, ohttp: %@"
++ "BMPasswordsSecurityRecommendations with domain: %@, severity: %@, issueTypes: %@, countryCode: %@"
++ "BMRegionalSafetyAnalysisDisablement with didTriggerAutomaticDisablement: %@, useCaseIdentifier: %@, assetVersion: %@"
++ "BMRegionalSafetyAnalysisEligibility with isAppleIntelligenceEligible: %@, isAppleIntelligenceToggledOn: %@, isOnboarded3rdParty: %@, isStaleSafetyData: %@"
++ "BMRegionalSafetyAnalysisGuardrailResult with identifier: %@, markedUnsafe: %@, sensitivity: %@, useCaseIdentifier: %@, instanceType: %@, assetVersion: %@, error: %@, judgementSource: %@, userRequestID: %@, severity: %@"
++ "BMRegionalSafetyAnalysisKeywordID with identifier: %@, keywordIdentifier: %@, safetyDataVersion: %@, violationCategory: %@, instanceType: %@, userRequestID: %@"
++ "BMRegionalSafetyAnalysisLiteViolationData with identifier: %@, useCaseIdentifier: %@, liteViolationCategory: %@, safetyDataVersion: %@"
++ "BMSiriTransparencyReport with turnId: %@, invocationTimestamp: %@, invocationSource: %@, loggedFields: %@"
++ "BMSiriTransparencyReportLoggedFieldsEntry with key: %@, value: %@"
++ "BMSiriTransparencyReportLoggedValues with values: %@"
++ "CacheAssetsFailed"
++ "CheckOTAIOError"
++ "CheckOTAPackageHeaderError"
++ "CheckOTAPackageProcessError"
++ "ChildNodesIsMiss"
++ "CreateImageIntent"
++ "DetectFailed"
++ "Disablement"
++ "Eligibility"
++ "Embedding"
++ "ErrorAbortedDueToInferenceUnavailable"
++ "ErrorDidNotReceiveMailOneTimeCodeForAccountSetUpInMail"
++ "FedStatsTransparencyLog"
++ "FolderIsNotExist"
++ "FolderNotExist"
++ "GenerateImageIntent"
++ "ImageInferFailed"
++ "IsNotOperatorNode"
++ "IsUnknownNode"
++ "Keyword"
++ "KeywordID"
++ "KfcModuleSetupFailed"
++ "KfcSearchFailed"
++ "LiteViolationData"
++ "LoadAssetsCacheFailed"
++ "MainlandChina"
++ "MarkedSensitive"
++ "MarkedSensitiveAndRedirected"
++ "MarkedSensitiveAndRedirectedAndGotResponse"
++ "MergeFilesFailed"
++ "ModuleIsNotFound"
++ "ModulePreUpdateFailed"
++ "NoConfigForScence"
++ "NoZipperFound"
++ "NodeTypeIsException"
++ "OcrInferFailed"
++ "OcrServiceIsNil"
++ "OperatorIsNotRegister"
++ "ParseResourcesError"
++ "ParseSolutionError"
++ "ParseSolutionPatchError"
++ "PreparseAssetsFailed"
++ "QuakeModuleRunFailed"
++ "QuakeModuleSetupFailed"
++ "Qwen"
++ "RegionalSafetyAnalysis"
++ "RegionalSafetyAnalysis.Disablement"
++ "RegionalSafetyAnalysis.Eligibility"
++ "RegionalSafetyAnalysis.GuardrailResult"
++ "RegionalSafetyAnalysis.KeywordID"
++ "RegionalSafetyAnalysis.LiteViolationData"
++ "RemoveNeedDeletedFilesFailed"
++ "ResourceFileIsNotExist"
++ "ResourceFileNotExist"
++ "RestoreBackupWorkFailed"
++ "RootFolderNotExist"
++ "ScenceCodeNotSupport"
++ "ServiceIsLoading"
++ "ServiceNotInit"
++ "ServiceParamsIsMissed"
++ "Siri.ODDI.TransparencyReport"
++ "SolutionIsNotMatchSampleType"
++ "SolutionNotMatchSampleType"
++ "StartAbilityServiceError"
++ "TextInferFailed"
++ "TextSpliteResultIsEmpty"
++ "TransparencyReport"
++ "didTriggerAutomaticDisablement"
++ "differentialPrivacyConfig"
++ "differentialPrivacyConfig_json"
++ "dimension"
++ "invocationTimestamp"
++ "isAppleIntelligenceEligible"
++ "isAppleIntelligenceToggledOn"
++ "isOnboarded3rdParty"
++ "isStaleSafetyData"
++ "judgementSource"
++ "keywordIdentifier"
++ "liteViolationCategory"
++ "localEpsilon"
++ "loggedFields"
++ "loggedFields_json"
++ "minBatchSize"
++ "ohttp"
++ "privateAccessToken"
++ "safetyDataVersion"
++ "sensitivity"
++ "targetCentralDelta"
++ "targetCentralEpsilon"
++ "taskConfig"
++ "taskConfig_json"
++ "taskExpiration"
++ "values"
++ "values_json"
++ "violationCategory"
+- "BMPasswordsSecurityRecommendations with domain: %@, severity: %@, issueTypes: %@"
+```

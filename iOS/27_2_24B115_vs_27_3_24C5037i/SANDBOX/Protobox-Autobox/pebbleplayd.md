@@ -1,0 +1,43 @@
+## pebbleplayd
+
+> Group: ⬆️ Updated
+
+```diff
+
+ 		(require-not (global-name "com.apple.appprotectiond.read"))
+ 		(require-not (xpc-service-name "com.apple.MTLCompilerService"))
+ 		(require-not (xpc-service-name "com.apple.ImageIOXPCService"))
++		(require-not (global-name "com.apple.FileCoordination"))
+ 		(require-not (global-name "com.apple.CoreAuthentication.daemon"))
+ 		(require-not (global-name "com.apple.CARenderServer"))
+ 		(require-not (system-attribute developer-mode))
+
+ 		SYS_psynch_rw_unlock
+ 		SYS_psynch_rw_unlock2
+ 		SYS_psynch_cvclrprepost
++		SYS_iopolicysys
+ 		SYS_issetugid
+ 		SYS___pthread_kill
+ 		SYS___pthread_sigmask
+
+ 		SYS_connectx
+ 		SYS_getattrlistbulk
+ 		SYS_openat
++		SYS_renameat
+ 		SYS_faccessat
+ 		SYS_fstatat
+ 		SYS_fstatat64
+
+ 
+ (deny system-kas-info)
+ 
++(deny system-mac-syscall
++	(require-all
++		(mac-syscall-number 96)
++		(require-not (mac-policy-name "AMFI"))
++	)
++)
+ (with-filter (mac-policy-name "Sandbox")
+ 	(deny system-mac-syscall
+ 		(require-all
+```

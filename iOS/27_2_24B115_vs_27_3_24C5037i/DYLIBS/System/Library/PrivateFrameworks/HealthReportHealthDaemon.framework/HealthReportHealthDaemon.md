@@ -1,0 +1,220 @@
+## HealthReportHealthDaemon
+
+> `/System/Library/PrivateFrameworks/HealthReportHealthDaemon.framework/HealthReportHealthDaemon`
+
+```diff
+
+-7027.1.56.2.9
+-  __TEXT.__text: 0x84234
+-  __TEXT.__objc_methlist: 0x3dc
+-  __TEXT.__const: 0x5550
+-  __TEXT.__constg_swiftt: 0x12c8
+-  __TEXT.__swift5_typeref: 0x152c
+-  __TEXT.__swift5_builtin: 0x8c
+-  __TEXT.__swift5_reflstr: 0xa71
+-  __TEXT.__swift5_fieldmd: 0xecc
+-  __TEXT.__swift5_assocty: 0xed8
+-  __TEXT.__swift5_proto: 0x420
+-  __TEXT.__swift5_types: 0x1c0
+-  __TEXT.__oslogstring: 0xf4d
+-  __TEXT.__cstring: 0x2a6
++7027.2.13.0.0
++  __TEXT.__text: 0x834d8
++  __TEXT.__objc_methlist: 0x434
++  __TEXT.__const: 0x4f50
++  __TEXT.__constg_swiftt: 0x11d4
++  __TEXT.__swift5_typeref: 0x1412
++  __TEXT.__swift5_builtin: 0x78
++  __TEXT.__swift5_reflstr: 0xab1
++  __TEXT.__swift5_fieldmd: 0xde8
++  __TEXT.__swift5_assocty: 0xc98
++  __TEXT.__swift5_proto: 0x3c4
++  __TEXT.__swift5_types: 0x198
++  __TEXT.__cstring: 0x2d6
++  __TEXT.__swift5_capture: 0x37c
+   __TEXT.__swift5_protos: 0x24
+-  __TEXT.__swift5_capture: 0x314
+-  __TEXT.__swift_as_entry: 0x17c
+-  __TEXT.__swift_as_cont: 0xd0
+-  __TEXT.__swift_as_ret: 0xb8
+-  __TEXT.__unwind_info: 0x1f68
+-  __TEXT.__eh_frame: 0x20c0
++  __TEXT.__swift_as_entry: 0x124
++  __TEXT.__swift_as_cont: 0xa4
++  __TEXT.__oslogstring: 0xf9d
++  __TEXT.__swift_as_ret: 0x8c
++  __TEXT.__unwind_info: 0x1f20
++  __TEXT.__eh_frame: 0x1e10
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0xa8
+-  __DATA_CONST.__objc_classlist: 0x40
+-  __DATA_CONST.__objc_protolist: 0x90
++  __DATA_CONST.__objc_classlist: 0x48
++  __DATA_CONST.__objc_protolist: 0xa0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x420
+-  __DATA_CONST.__objc_protorefs: 0x48
++  __DATA_CONST.__objc_selrefs: 0x4a0
++  __DATA_CONST.__objc_protorefs: 0x50
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x3858
+-  __AUTH_CONST.__objc_const: 0x840
+-  __AUTH_CONST.__auth_got: 0x19a0
+-  __AUTH.__objc_data: 0x2c0
+-  __AUTH.__data: 0xf30
+-  __DATA.__data: 0x1688
+-  __DATA.__common: 0x350
++  __AUTH_CONST.__const: 0x34b0
++  __AUTH_CONST.__objc_const: 0x918
++  __AUTH_CONST.__auth_got: 0x19d8
++  __AUTH.__objc_data: 0x380
++  __AUTH.__data: 0xc10
++  __DATA.__data: 0x1708
++  __DATA.__common: 0x1f0
+   __DATA_DIRTY.__objc_data: 0x1c8
+-  __DATA_DIRTY.__data: 0xcf8
+-  __DATA_DIRTY.__bss: 0x2d80
++  __DATA_DIRTY.__data: 0xbd8
++  __DATA_DIRTY.__bss: 0x2780
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/HealthKit.framework/HealthKit
+
+   - /System/Library/PrivateFrameworks/HealthDaemonFoundation.framework/HealthDaemonFoundation
+   - /System/Library/PrivateFrameworks/HealthDomains.framework/HealthDomains
+   - /System/Library/PrivateFrameworks/HealthDomainsDaemon.framework/HealthDomainsDaemon
+-  - /System/Library/PrivateFrameworks/HealthEvaluations.framework/HealthEvaluations
+   - /System/Library/PrivateFrameworks/HealthFacts.framework/HealthFacts
+   - /System/Library/PrivateFrameworks/HealthFactsDaemon.framework/HealthFactsDaemon
+   - /System/Library/PrivateFrameworks/HealthFeatures.framework/HealthFeatures
+-  - /System/Library/PrivateFrameworks/HealthHistory.framework/HealthHistory
+   - /System/Library/PrivateFrameworks/HealthHistoryDaemon.framework/HealthHistoryDaemon
+-  - /System/Library/PrivateFrameworks/HealthHistoryTopics.framework/HealthHistoryTopics
+   - /System/Library/PrivateFrameworks/HealthMenstrualCycles.framework/HealthMenstrualCycles
+   - /System/Library/PrivateFrameworks/HealthOntologyDaemon.framework/HealthOntologyDaemon
+   - /System/Library/PrivateFrameworks/HealthOntologyKit.framework/HealthOntologyKit
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 2083
+-  Symbols:   973
+-  CStrings:  64
++  Functions: 2069
++  Symbols:   948
++  CStrings:  66
+ 
+Symbols:
++ _HDSQLEntityPropertyPersistentID
++ _HKQuantityTypeIdentifierStepCount
++ _OBJC_CLASS_$_HDSQLiteOrderingTerm
++ _OBJC_CLASS_$_HDStatisticsCollectionCalculatorDefaultSourceOrderProvider
++ _OBJC_CLASS_$_HKActivitySummary
++ _OBJC_CLASS_$_HKObjectType
++ _OBJC_CLASS_$_HKQuery
++ _OBJC_CLASS_$__HKDateIntervalCollection
++ _OBJC_METACLASS_$__TtC24HealthReportHealthDaemonP33_47CB07034196B85BFA9E10D45808DA0820ConceptIndexObserver
++ __DATA__TtC24HealthReportHealthDaemonP33_47CB07034196B85BFA9E10D45808DA0820ConceptIndexObserver
++ __INSTANCE_METHODS__TtC24HealthReportHealthDaemonP33_47CB07034196B85BFA9E10D45808DA0820ConceptIndexObserver
++ __IVARS__TtC24HealthReportHealthDaemonP33_47CB07034196B85BFA9E10D45808DA0820ConceptIndexObserver
++ __METACLASS_DATA__TtC24HealthReportHealthDaemonP33_47CB07034196B85BFA9E10D45808DA0820ConceptIndexObserver
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_HDConceptIndexManagerObserver
++ __OBJC_$_PROTOCOL_METHOD_TYPES_HDConceptIndexManagerObserver
++ __OBJC_$_PROTOCOL_REFS_HDConceptIndexManagerObserver
++ __OBJC_LABEL_PROTOCOL_$_HDConceptIndexManagerObserver
++ __OBJC_PROTOCOL_$_HDConceptIndexManagerObserver
++ __PROTOCOLS__TtC24HealthReportHealthDaemonP33_47CB07034196B85BFA9E10D45808DA0820ConceptIndexObserver
++ ___swift_memcpy120_8
++ _associated conformance 012HealthReportA6Daemon030DepressionRiskIndicatedSuicideE9EscalatorV0aB020EscalationEvaluatingAA5ModelAdEP_0A7Domains0I10Evaluation
++ _associated conformance 012HealthReportA6Daemon23DailyMovementEnumeratorV13InternalErrorOSHAASQ
++ _objc_release_x1
++ _swift_initStackObject
++ _swift_release_x28
++ _swift_release_x9
++ _swift_retain_x28
++ _symbolic SDy_____SdG 10Foundation4DateV
++ _symbolic So19HKElectrocardiogramCSg
++ _symbolic So8HKObjectC_____SAySo7NSErrorCSgGSgSbIggyyd_ s5Int64V
++ _symbolic _____ 012HealthReportA6Daemon030DepressionRiskIndicatedSuicideE9EscalatorV
++ _symbolic _____ 012HealthReportA6Daemon20ConceptIndexObserver33_47CB07034196B85BFA9E10D45808DA08LLC
++ _symbolic _____ 012HealthReportA6Daemon23DailyMovementEnumeratorV13InternalErrorO
++ _symbolic _____ 13HealthDomains28FallRiskEscalationEvaluationV
++ _symbolic _____Sg 012HealthReportA6Daemon20ConceptIndexObserver33_47CB07034196B85BFA9E10D45808DA08LLC
++ _symbolic _____ySDy__________SgGG 15Synchronization5MutexVAARi_zrlE 9HealthKit8SleepDayV AD0eF7SummaryV
++ _symbolic _____y_____G 13HealthDomains23PregnancyExpiringPolicyV AA45CardioFitnessAndRecoveryClassificationRulesetV
++ _type_layout_string 012HealthReportA6Daemon030DepressionRiskIndicatedSuicideE9EscalatorV
+- ___swift_memcpy112_8
+- _associated conformance 012HealthReportA6Daemon15SodiumEscalatorV0aB020EscalationEvaluatingAA5ModelAdEP_0A7Domains0F10Evaluation
+- _associated conformance 012HealthReportA6Daemon15SodiumEscalatorVAA019CriticalLabQuantityE0AA5EntryAaDP_0A7Domains19HasContributingData
+- _associated conformance 012HealthReportA6Daemon15SodiumEscalatorVAA019CriticalLabQuantityE0AA5EntryAaDP_0A7Domains20HasAnyClassification
+- _associated conformance 012HealthReportA6Daemon15SodiumEscalatorVAA019CriticalLabQuantityE0AA5EntryAaDP_16ContributingData0A7Domains03HasjK0PAH0mG10Quantities
+- _associated conformance 012HealthReportA6Daemon16CalciumEscalatorV0aB020EscalationEvaluatingAA5ModelAdEP_0A7Domains0F10Evaluation
+- _associated conformance 012HealthReportA6Daemon16CalciumEscalatorVAA019CriticalLabQuantityE0AA5EntryAaDP_0A7Domains19HasContributingData
+- _associated conformance 012HealthReportA6Daemon16CalciumEscalatorVAA019CriticalLabQuantityE0AA5EntryAaDP_0A7Domains20HasAnyClassification
+- _associated conformance 012HealthReportA6Daemon16CalciumEscalatorVAA019CriticalLabQuantityE0AA5EntryAaDP_16ContributingData0A7Domains03HasjK0PAH0mG10Quantities
+- _associated conformance 012HealthReportA6Daemon18PlateletsEscalatorV0aB020EscalationEvaluatingAA5ModelAdEP_0A7Domains0F10Evaluation
+- _associated conformance 012HealthReportA6Daemon18PlateletsEscalatorVAA019CriticalLabQuantityE0AA5EntryAaDP_0A7Domains19HasContributingData
+- _associated conformance 012HealthReportA6Daemon18PlateletsEscalatorVAA019CriticalLabQuantityE0AA5EntryAaDP_0A7Domains20HasAnyClassification
+- _associated conformance 012HealthReportA6Daemon18PlateletsEscalatorVAA019CriticalLabQuantityE0AA5EntryAaDP_16ContributingData0A7Domains03HasjK0PAH0mG10Quantities
+- _associated conformance 012HealthReportA6Daemon18PotassiumEscalatorV0aB020EscalationEvaluatingAA5ModelAdEP_0A7Domains0F10Evaluation
+- _associated conformance 012HealthReportA6Daemon18PotassiumEscalatorVAA019CriticalLabQuantityE0AA5EntryAaDP_0A7Domains19HasContributingData
+- _associated conformance 012HealthReportA6Daemon18PotassiumEscalatorVAA019CriticalLabQuantityE0AA5EntryAaDP_0A7Domains20HasAnyClassification
+- _associated conformance 012HealthReportA6Daemon18PotassiumEscalatorVAA019CriticalLabQuantityE0AA5EntryAaDP_16ContributingData0A7Domains03HasjK0PAH0mG10Quantities
+- _associated conformance 012HealthReportA6Daemon19CreatinineEscalatorV0aB020EscalationEvaluatingAA5ModelAdEP_0A7Domains0F10Evaluation
+- _associated conformance 012HealthReportA6Daemon19CreatinineEscalatorVAA019CriticalLabQuantityE0AA5EntryAaDP_0A7Domains19HasContributingData
+- _associated conformance 012HealthReportA6Daemon19CreatinineEscalatorVAA019CriticalLabQuantityE0AA5EntryAaDP_0A7Domains20HasAnyClassification
+- _associated conformance 012HealthReportA6Daemon19CreatinineEscalatorVAA019CriticalLabQuantityE0AA5EntryAaDP_16ContributingData0A7Domains03HasjK0PAH0mG10Quantities
+- _associated conformance 012HealthReportA6Daemon19HemoglobinEscalatorV0aB020EscalationEvaluatingAA5ModelAdEP_0A7Domains0F10Evaluation
+- _associated conformance 012HealthReportA6Daemon19HemoglobinEscalatorVAA019CriticalLabQuantityE0AA5EntryAaDP_0A7Domains19HasContributingData
+- _associated conformance 012HealthReportA6Daemon19HemoglobinEscalatorVAA019CriticalLabQuantityE0AA5EntryAaDP_0A7Domains20HasAnyClassification
+- _associated conformance 012HealthReportA6Daemon19HemoglobinEscalatorVAA019CriticalLabQuantityE0AA5EntryAaDP_16ContributingData0A7Domains03HasjK0PAH0mG10Quantities
+- _associated conformance 012HealthReportA6Daemon19LeukocytesEscalatorV0aB020EscalationEvaluatingAA5ModelAdEP_0A7Domains0F10Evaluation
+- _associated conformance 012HealthReportA6Daemon19LeukocytesEscalatorVAA019CriticalLabQuantityE0AA5EntryAaDP_0A7Domains19HasContributingData
+- _associated conformance 012HealthReportA6Daemon19LeukocytesEscalatorVAA019CriticalLabQuantityE0AA5EntryAaDP_0A7Domains20HasAnyClassification
+- _associated conformance 012HealthReportA6Daemon19LeukocytesEscalatorVAA019CriticalLabQuantityE0AA5EntryAaDP_16ContributingData0A7Domains03HasjK0PAH0mG10Quantities
+- _associated conformance 012HealthReportA6Daemon20NeutrophilsEscalatorV0aB020EscalationEvaluatingAA5ModelAdEP_0A7Domains0F10Evaluation
+- _associated conformance 012HealthReportA6Daemon20NeutrophilsEscalatorVAA019CriticalLabQuantityE0AA5EntryAaDP_0A7Domains19HasContributingData
+- _associated conformance 012HealthReportA6Daemon20NeutrophilsEscalatorVAA019CriticalLabQuantityE0AA5EntryAaDP_0A7Domains20HasAnyClassification
+- _associated conformance 012HealthReportA6Daemon20NeutrophilsEscalatorVAA019CriticalLabQuantityE0AA5EntryAaDP_16ContributingData0A7Domains03HasjK0PAH0mG10Quantities
+- _associated conformance 012HealthReportA6Daemon23FastingGlucoseEscalatorV0aB020EscalationEvaluatingAA5ModelAdEP_0A7Domains0G10Evaluation
+- _associated conformance 012HealthReportA6Daemon23FastingGlucoseEscalatorVAA019CriticalLabQuantityF0AA5EntryAaDP_0A7Domains19HasContributingData
+- _associated conformance 012HealthReportA6Daemon23FastingGlucoseEscalatorVAA019CriticalLabQuantityF0AA5EntryAaDP_0A7Domains20HasAnyClassification
+- _associated conformance 012HealthReportA6Daemon23FastingGlucoseEscalatorVAA019CriticalLabQuantityF0AA5EntryAaDP_16ContributingData0A7Domains03HaskL0PAH0nH10Quantities
+- _associated conformance 012HealthReportA6Daemon27KidneyLabsCriticalEscalatorV0aB020EscalationEvaluatingAA5ModelAdEP_0A7Domains0H10Evaluation
+- _associated conformance 012HealthReportA6Daemon27KidneyLabsCriticalEscalatorVAA019ClassificationLevelG0AA5EntryAaDP_0A7Domains06HasAnyH0
+- _associated conformance 012HealthReportA6Daemon29BlastsAbsoluteNumberEscalatorV0aB020EscalationEvaluatingAA5ModelAdEP_0A7Domains0H10Evaluation
+- _associated conformance 012HealthReportA6Daemon29BlastsAbsoluteNumberEscalatorVAA019CriticalLabQuantityG0AA5EntryAaDP_0A7Domains19HasContributingData
+- _associated conformance 012HealthReportA6Daemon29BlastsAbsoluteNumberEscalatorVAA019CriticalLabQuantityG0AA5EntryAaDP_0A7Domains20HasAnyClassification
+- _associated conformance 012HealthReportA6Daemon29BlastsAbsoluteNumberEscalatorVAA019CriticalLabQuantityG0AA5EntryAaDP_16ContributingData0A7Domains03HaslM0PAH0oI10Quantities
+- _associated conformance 012HealthReportA6Daemon35BloodAndImmuneLabsCriticalEscalatorV0aB020EscalationEvaluatingAA5ModelAdEP_0A7Domains0J10Evaluation
+- _associated conformance 012HealthReportA6Daemon35BloodAndImmuneLabsCriticalEscalatorVAA019ClassificationLevelI0AA5EntryAaDP_0A7Domains06HasAnyJ0
+- _associated conformance So41_HKPrivateElectrocardiogramClassificationVSHSCSQ
+- _symbolic Su
+- _symbolic _____ 012HealthReportA6Daemon15SodiumEscalatorV
+- _symbolic _____ 012HealthReportA6Daemon16CalciumEscalatorV
+- _symbolic _____ 012HealthReportA6Daemon18PlateletsEscalatorV
+- _symbolic _____ 012HealthReportA6Daemon18PotassiumEscalatorV
+- _symbolic _____ 012HealthReportA6Daemon19CreatinineEscalatorV
+- _symbolic _____ 012HealthReportA6Daemon19HemoglobinEscalatorV
+- _symbolic _____ 012HealthReportA6Daemon19LeukocytesEscalatorV
+- _symbolic _____ 012HealthReportA6Daemon20NeutrophilsEscalatorV
+- _symbolic _____ 012HealthReportA6Daemon23FastingGlucoseEscalatorV
+- _symbolic _____ 012HealthReportA6Daemon27KidneyLabsCriticalEscalatorV
+- _symbolic _____ 012HealthReportA6Daemon29BlastsAbsoluteNumberEscalatorV
+- _symbolic _____ 012HealthReportA6Daemon35BloodAndImmuneLabsCriticalEscalatorV
+- _symbolic _____ 13HealthDomains25EmptyEscalationEvaluationV
+- _symbolic _____ 13HealthDomains45CardioFitnessAndRecoveryClassificationRulesetV
+- _symbolic _____ So41_HKPrivateElectrocardiogramClassificationV
+- _type_layout_string 012HealthReportA6Daemon29BlastsAbsoluteNumberEscalatorV
+CStrings:
++ "HealthReportHealthDaemon.ConceptIndexObserver"
++ "[%{public}s] Began observing the concept index"
++ "[%{public}s] No concept index manager available; lab classifications will not be re-run once clinical records are indexed"
++ "[%{public}s] Notifying %{public}ld observers for concept index quiescence (%{public}ld records indexed)"
+- "[%s] Unable to evaluate escalation: panel classification has no lab quantity for measure '%s'"
+- "[%{public}s] Averaged measured sleep duration over %{public}ld summaries with no measured night to date it"
+```

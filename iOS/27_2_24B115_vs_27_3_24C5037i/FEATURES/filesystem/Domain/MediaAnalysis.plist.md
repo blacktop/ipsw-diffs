@@ -1,0 +1,16 @@
+## MediaAnalysis.plist
+
+> `Domain/MediaAnalysis.plist`
+
+```diff
+
+ 		<key>DevelopmentPhase</key>
+ 		<string>FeatureComplete</string>
+ 	</dict>
+-	<key>SearchUnifiedEmbeddingMD8</key>
++	<key>SearchUnifiedEmbeddingMD10</key>
+ 	<dict>
+ 		<key>DevelopmentPhase</key>
+ 		<string>FeatureComplete</string>
+
+```

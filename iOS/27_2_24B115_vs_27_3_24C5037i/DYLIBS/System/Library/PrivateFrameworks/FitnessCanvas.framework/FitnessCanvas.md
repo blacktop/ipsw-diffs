@@ -1,0 +1,80 @@
+## FitnessCanvas
+
+> `/System/Library/PrivateFrameworks/FitnessCanvas.framework/FitnessCanvas`
+
+```diff
+
+-2027.1.69.0.0
+-  __TEXT.__text: 0x24f74
+-  __TEXT.__const: 0x2500
+-  __TEXT.__constg_swiftt: 0x2958
+-  __TEXT.__swift5_typeref: 0x104e
+-  __TEXT.__swift5_reflstr: 0x658
+-  __TEXT.__swift5_fieldmd: 0x6b8
+-  __TEXT.__swift5_types: 0x90
++2027.2.29.0.2
++  __TEXT.__text: 0x25bf8
++  __TEXT.__const: 0x2580
++  __TEXT.__swift5_typeref: 0x11cd
+   __TEXT.__cstring: 0x125
++  __TEXT.__constg_swiftt: 0x2958
++  __TEXT.__swift5_reflstr: 0x65c
++  __TEXT.__swift5_fieldmd: 0x6b8
+   __TEXT.__swift5_proto: 0x1ec
+-  __TEXT.__oslogstring: 0x1cf
++  __TEXT.__swift5_types: 0x90
++  __TEXT.__oslogstring: 0x1c7
+   __TEXT.__swift5_capture: 0xa38
+   __TEXT.__swift5_assocty: 0x100
+   __TEXT.__swift_as_entry: 0x4c
+   __TEXT.__swift_as_ret: 0x70
+   __TEXT.__swift_as_cont: 0x94
++  __TEXT.__swift5_protos: 0x4
+   __TEXT.__swift5_builtin: 0x14
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__swift5_protos: 0x4
+-  __TEXT.__unwind_info: 0x900
+-  __TEXT.__eh_frame: 0x1058
++  __TEXT.__unwind_info: 0x910
++  __TEXT.__eh_frame: 0x10b8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_methname: 0x0
+
+   __DATA_CONST.__got: 0x0
+   __AUTH_CONST.__const: 0xf60
+   __AUTH_CONST.__objc_const: 0xa8
+-  __AUTH_CONST.__auth_got: 0x738
++  __AUTH_CONST.__auth_got: 0x770
+   __AUTH.__data: 0x1d0
+   __DATA.__data: 0x4d8
+   __DATA_DIRTY.__data: 0xc58
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 668
+-  Symbols:   440
++  Functions: 688
++  Symbols:   455
+   CStrings:  19
+ 
+Symbols:
++ _generic environment 15FitnessCanvasUI0B30ActionButtonDescriptorProtocolRzAA0b7ArtworkG0R_AA0b11ContextMenuG0R0_SeR1_SER1_SHR1_s8SendableR1_AA0b11ItemMetricsG0R2_AA0b21SectionHeaderSubtitlefG0R3_AA0bnmG0R4_AA0bn7DensityG0R5_AA0b9SizeClassG0R6_AA0b4ViewfG0R7_r8_l
++ _get_witness_table 15FitnessCanvasUI0B30ActionButtonDescriptorProtocolRzAA0b7ArtworkG0R_AA0b11ContextMenuG0R0_SeR1_SER1_SHR1_s8SendableR1_AA0b11ItemMetricsG0R2_AA0b21SectionHeaderSubtitlefG0R3_AA0bnmG0R4_AA0bn7DensityG0R5_AA0b9SizeClassG0R6_AA0b4ViewfG0R7_r8_lq0_AaDHD3_
++ _get_witness_table 15FitnessCanvasUI0B30ActionButtonDescriptorProtocolRzAA0b7ArtworkG0R_AA0b11ContextMenuG0R0_SeR1_SER1_SHR1_s8SendableR1_AA0b11ItemMetricsG0R2_AA0b21SectionHeaderSubtitlefG0R3_AA0bnmG0R4_AA0bn7DensityG0R5_AA0b9SizeClassG0R6_AA0b4ViewfG0R7_r8_lq1_SEHD5_
++ _get_witness_table 15FitnessCanvasUI0B30ActionButtonDescriptorProtocolRzAA0b7ArtworkG0R_AA0b11ContextMenuG0R0_SeR1_SER1_SHR1_s8SendableR1_AA0b11ItemMetricsG0R2_AA0b21SectionHeaderSubtitlefG0R3_AA0bnmG0R4_AA0bn7DensityG0R5_AA0b9SizeClassG0R6_AA0b4ViewfG0R7_r8_lq1_SHHD6_
++ _get_witness_table 15FitnessCanvasUI0B30ActionButtonDescriptorProtocolRzAA0b7ArtworkG0R_AA0b11ContextMenuG0R0_SeR1_SER1_SHR1_s8SendableR1_AA0b11ItemMetricsG0R2_AA0b21SectionHeaderSubtitlefG0R3_AA0bnmG0R4_AA0bn7DensityG0R5_AA0b9SizeClassG0R6_AA0b4ViewfG0R7_r8_lq1_SeHD4_
++ _get_witness_table 15FitnessCanvasUI0B30ActionButtonDescriptorProtocolRzAA0b7ArtworkG0R_AA0b11ContextMenuG0R0_SeR1_SER1_SHR1_s8SendableR1_AA0b11ItemMetricsG0R2_AA0b21SectionHeaderSubtitlefG0R3_AA0bnmG0R4_AA0bn7DensityG0R5_AA0b9SizeClassG0R6_AA0b4ViewfG0R7_r8_lq2_AaFHD8_
++ _get_witness_table 15FitnessCanvasUI0B30ActionButtonDescriptorProtocolRzAA0b7ArtworkG0R_AA0b11ContextMenuG0R0_SeR1_SER1_SHR1_s8SendableR1_AA0b11ItemMetricsG0R2_AA0b21SectionHeaderSubtitlefG0R3_AA0bnmG0R4_AA0bn7DensityG0R5_AA0b9SizeClassG0R6_AA0b4ViewfG0R7_r8_lq3_AaGHD9_
++ _get_witness_table 15FitnessCanvasUI0B30ActionButtonDescriptorProtocolRzAA0b7ArtworkG0R_AA0b11ContextMenuG0R0_SeR1_SER1_SHR1_s8SendableR1_AA0b11ItemMetricsG0R2_AA0b21SectionHeaderSubtitlefG0R3_AA0bnmG0R4_AA0bn7DensityG0R5_AA0b9SizeClassG0R6_AA0b4ViewfG0R7_r8_lq4_AaHHD10_
++ _get_witness_table 15FitnessCanvasUI0B30ActionButtonDescriptorProtocolRzAA0b7ArtworkG0R_AA0b11ContextMenuG0R0_SeR1_SER1_SHR1_s8SendableR1_AA0b11ItemMetricsG0R2_AA0b21SectionHeaderSubtitlefG0R3_AA0bnmG0R4_AA0bn7DensityG0R5_AA0b9SizeClassG0R6_AA0b4ViewfG0R7_r8_lq5_AaIHD11_
++ _get_witness_table 15FitnessCanvasUI0B30ActionButtonDescriptorProtocolRzAA0b7ArtworkG0R_AA0b11ContextMenuG0R0_SeR1_SER1_SHR1_s8SendableR1_AA0b11ItemMetricsG0R2_AA0b21SectionHeaderSubtitlefG0R3_AA0bnmG0R4_AA0bn7DensityG0R5_AA0b9SizeClassG0R6_AA0b4ViewfG0R7_r8_lq7_AaKHD13_
++ _get_witness_table 15FitnessCanvasUI0B30ActionButtonDescriptorProtocolRzAA0b7ArtworkG0R_AA0b11ContextMenuG0R0_SeR1_SER1_SHR1_s8SendableR1_AA0b11ItemMetricsG0R2_AA0b21SectionHeaderSubtitlefG0R3_AA0bnmG0R4_AA0bn7DensityG0R5_AA0b9SizeClassG0R6_AA0b4ViewfG0R7_r8_lq_AaCHD2_
++ _get_witness_table 15FitnessCanvasUI0B30ActionButtonDescriptorProtocolRzAA0b7ArtworkG0R_AA0b11ContextMenuG0R0_SeR1_SER1_SHR1_s8SendableR1_AA0b11ItemMetricsG0R2_AA0b21SectionHeaderSubtitlefG0R3_AA0bnmG0R4_AA0bn7DensityG0R5_AA0b9SizeClassG0R6_AA0b4ViewfG0R7_r8_lxAaBHD1_
++ _objc_release_x23
++ _swift_getAtKeyPath
++ _symbolic Say_____yxq_q0_q1_q2_q7_GG 15FitnessCanvasUI0B14ItemDescriptorV
++ _symbolic _____yxq_q0_q1_q2_q4_q5_q3_q7_G 15FitnessCanvasUI0B17SectionDescriptorV
+- _objc_release_x22
+```

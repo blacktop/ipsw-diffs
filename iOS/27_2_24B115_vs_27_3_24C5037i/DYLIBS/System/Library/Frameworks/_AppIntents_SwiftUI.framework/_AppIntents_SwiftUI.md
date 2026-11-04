@@ -1,0 +1,250 @@
+## _AppIntents_SwiftUI
+
+> `/System/Library/Frameworks/_AppIntents_SwiftUI.framework/_AppIntents_SwiftUI`
+
+```diff
+
+-301.1.16.0.0
+-  __TEXT.__text: 0x3f528
+-  __TEXT.__objc_methlist: 0x1f4
+-  __TEXT.__const: 0x3794
+-  __TEXT.__swift5_typeref: 0x223c
++301.2.7.2.0
++  __TEXT.__text: 0x47c8c
++  __TEXT.__objc_methlist: 0x214
++  __TEXT.__const: 0x4184
++  __TEXT.__swift5_typeref: 0x26dc
+   __TEXT.__swift5_capture: 0x99c
+-  __TEXT.__constg_swiftt: 0x17b4
+-  __TEXT.__swift5_reflstr: 0x4a5
+-  __TEXT.__swift5_assocty: 0x458
+-  __TEXT.__swift5_fieldmd: 0x8fc
+-  __TEXT.__swift5_builtin: 0x64
++  __TEXT.__constg_swiftt: 0x1b14
++  __TEXT.__swift5_reflstr: 0x635
++  __TEXT.__swift5_assocty: 0x4c8
++  __TEXT.__swift5_fieldmd: 0xb10
++  __TEXT.__swift5_builtin: 0xa0
+   __TEXT.__oslogstring: 0x34e
+-  __TEXT.__cstring: 0x61e
+-  __TEXT.__swift5_proto: 0x208
+-  __TEXT.__swift5_types: 0x108
+-  __TEXT.__swift_as_entry: 0x114
+-  __TEXT.__swift_as_ret: 0x9c
+-  __TEXT.__swift_as_cont: 0x15c
++  __TEXT.__cstring: 0x5ee
++  __TEXT.__swift5_proto: 0x28c
++  __TEXT.__swift5_types: 0x148
++  __TEXT.__swift_as_entry: 0x118
++  __TEXT.__swift_as_ret: 0xa4
++  __TEXT.__swift_as_cont: 0x164
+   __TEXT.__swift5_protos: 0x10
+-  __TEXT.__unwind_info: 0x1a88
+-  __TEXT.__eh_frame: 0x23cc
++  __TEXT.__unwind_info: 0x1e88
++  __TEXT.__eh_frame: 0x276c
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x128
+-  __DATA_CONST.__objc_classlist: 0x28
++  __DATA_CONST.__const: 0x138
++  __DATA_CONST.__objc_classlist: 0x30
+   __DATA_CONST.__objc_protolist: 0x28
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x3a8
++  __DATA_CONST.__objc_selrefs: 0x490
+   __DATA_CONST.__objc_protorefs: 0x18
+-  __DATA_CONST.__got: 0xa00
+-  __AUTH_CONST.__const: 0x2618
+-  __AUTH_CONST.__objc_const: 0x468
+-  __AUTH_CONST.__auth_got: 0x1538
+-  __AUTH.__objc_data: 0x48
+-  __AUTH.__data: 0x1a0
+-  __DATA.__data: 0x15e0
+-  __DATA.__common: 0xb8
++  __DATA_CONST.__got: 0xaf8
++  __AUTH_CONST.__const: 0x2b90
++  __AUTH_CONST.__objc_const: 0x578
++  __AUTH_CONST.__auth_got: 0x17a8
++  __AUTH.__objc_data: 0x170
++  __AUTH.__data: 0x258
++  __DATA.__data: 0x1990
++  __DATA.__common: 0xe0
+   __DATA_DIRTY.__objc_data: 0xb8
+   __DATA_DIRTY.__data: 0x620
+   __DATA_DIRTY.__bss: 0x200
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 2118
+-  Symbols:   919
++  Functions: 2435
++  Symbols:   1022
+   CStrings:  67
+ 
+Symbols:
++ _OBJC_CLASS_$_LNArchivedColor
++ _OBJC_CLASS_$_LNAssetCatalogColor
++ _OBJC_CLASS_$_LNColor
++ _OBJC_CLASS_$_LNColorRepresentation
++ _OBJC_CLASS_$_LNComponentsColor
++ _OBJC_CLASS_$_LNFeatureFlags
++ _OBJC_CLASS_$_LNSemanticColor
++ _OBJC_CLASS_$_LNSystemNamedColor
++ _OBJC_CLASS_$__TtC19_AppIntents_SwiftUI23AppEntityViewAnnotation
++ _OBJC_METACLASS_$__TtC19_AppIntents_SwiftUI23AppEntityViewAnnotation
++ __DATA__TtC19_AppIntents_SwiftUI23AppEntityViewAnnotation
++ __INSTANCE_METHODS__TtC19_AppIntents_SwiftUI23AppEntityViewAnnotation
++ __IVARS__TtC19_AppIntents_SwiftUI23AppEntityViewAnnotation
++ __METACLASS_DATA__TtC19_AppIntents_SwiftUI23AppEntityViewAnnotation
++ ___swift_memcpy10_8
++ ___swift_memcpy2_1
++ ___swift_memcpy9_8
++ ___unnamed_10
++ ___unnamed_12
++ ___unnamed_3
++ __swiftEmptyDictionarySingleton
++ __swift_stdlib_reportUnimplementedInitializer
++ _associated conformance 19_AppIntents_SwiftUI11CardSnippetVyxq_G0aB006EntityF7ContentAA0G0AeFP_AE0aG0
++ _associated conformance 19_AppIntents_SwiftUI17CardSnippetFamilyVSHAASQ
++ _associated conformance 19_AppIntents_SwiftUI19SnippetContentLayerV7StorageOSHAASQ
++ _associated conformance 19_AppIntents_SwiftUI19SnippetContentLayerVSHAASQ
++ _associated conformance 19_AppIntents_SwiftUI22SnippetContentLayerTagV0cD012ViewModifierAA4BodyAdEP_AD0I0
++ _associated conformance 19_AppIntents_SwiftUI22SnippetContentLayerTagV0cD023_ArchivableViewModifierAASE
++ _associated conformance 19_AppIntents_SwiftUI22SnippetContentLayerTagV0cD023_ArchivableViewModifierAASe
++ _associated conformance 19_AppIntents_SwiftUI22SnippetContentLayerTagV0cD023_ArchivableViewModifierAaD0jK0
++ _associated conformance 19_AppIntents_SwiftUI22SnippetContentLayerTagV10CodingKeys33_DE591192EE88775D68BDBF480768E94CLLOSHAASQ
++ _associated conformance 19_AppIntents_SwiftUI22SnippetContentLayerTagV10CodingKeys33_DE591192EE88775D68BDBF480768E94CLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 19_AppIntents_SwiftUI22SnippetContentLayerTagV10CodingKeys33_DE591192EE88775D68BDBF480768E94CLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19_AppIntents_SwiftUI22SnippetContentLayerTagV12EmptyCodable33_DE591192EE88775D68BDBF480768E94CLLV10CodingKeysOs0P3KeyAAs23CustomStringConvertible
++ _associated conformance 19_AppIntents_SwiftUI22SnippetContentLayerTagV12EmptyCodable33_DE591192EE88775D68BDBF480768E94CLLV10CodingKeysOs0P3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19_AppIntents_SwiftUI24CardSnippetFamilyStorageOSHAASQ
++ _associated conformance 7SwiftUI5ColorV10AppIntents07_IntentC16ConvertibleValue01_de1_aB0AD01_fH0
++ _associated conformance So19LNSemanticColorRoleVSHSCSQ
++ _get_enum_tag_for_layout_string 7SwiftUI11EnvironmentV7ContentOySay012_AppIntents_aB007SnippetD5LayerVG_G
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA014_ViewModifier_D0Vy012_AppIntents_aB007SnippetD8LayerTagVGAA08ModifiedD0VyAiA07_HiddenF0VGGAA0E0HPAiaPHPyHC_AnaPHPAiaPHPyHC_AmA0eF0HPyHCHCHC
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA4ViewPAAE24applyContainerBackground3for7contentQrqd__m_qd_0_AA03AnyE0VSgctAA0gH18PlacementCustomKeyRd__AaDRd_0_r0_lFQOyAA08ModifiedD0VyAeAE21appIntentSnippetIdiomQryFQOyANyAJ012_AppIntents_aB00R16OverrideModifierVG_Qo_AP0rD8LayerTagVG_AA0ghL0VAPE0rN0VANyANyAjA30_SafeAreaRegionsIgnoringLayoutVGAVGSgQo_ATGAaDHPqd0__AaDHD4_A5_HO_qd__AaDHD2_ATHOHC
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVySay012_AppIntents_aB007SnippetE5LayerVGGGAaBHPxAaBHD1__AkA0cI0HPyHCHC
++ _objc_release_x9
++ _objc_retainAutorelease
++ _objc_retain_x1
++ _objc_retain_x28
++ _swift_isUniquelyReferenced_nonNull_bridgeObject
++ _swift_isaMask
++ _swift_lookUpClassMethod
++ _swift_retain_x25
++ _swift_setDeallocating
++ _symbolic $s10AppIntents20EntitySnippetContentP
++ _symbolic SS4name______Sg9bundleURLt 10Foundation3URLV
++ _symbolic SSSg5label_yp5valuet
++ _symbolic SSSg5label_yp5valuetSg
++ _symbolic SaySo21LNColorRepresentationCG
++ _symbolic Say_____G 19_AppIntents_SwiftUI17CardSnippetFamilyV
++ _symbolic Say_____G 19_AppIntents_SwiftUI19SnippetContentLayerV
++ _symbolic Sb
++ _symbolic So20LNSnippetEnvironmentCSg
++ _symbolic Su
++ _symbolic _____ 10AppIntents0A17EntityVisualStateV
++ _symbolic _____ 10AppIntents14ViewAnnotationO
++ _symbolic _____ 10AppIntents18_IntentColorEntityV
++ _symbolic _____ 10AppIntents21DisplayRepresentationV
++ _symbolic _____ 19_AppIntents_SwiftUI0A20EntityViewAnnotationC
++ _symbolic _____ 19_AppIntents_SwiftUI11CardSnippetV
++ _symbolic _____ 19_AppIntents_SwiftUI17CardSnippetFamilyV
++ _symbolic _____ 19_AppIntents_SwiftUI19SnippetContentLayerV
++ _symbolic _____ 19_AppIntents_SwiftUI19SnippetContentLayerV7StorageO
++ _symbolic _____ 19_AppIntents_SwiftUI20CardSnippetRenderingV
++ _symbolic _____ 19_AppIntents_SwiftUI22SnippetContentLayerTagV
++ _symbolic _____ 19_AppIntents_SwiftUI22SnippetContentLayerTagV10CodingKeys33_DE591192EE88775D68BDBF480768E94CLLO
++ _symbolic _____ 19_AppIntents_SwiftUI22SnippetContentLayerTagV12EmptyCodable33_DE591192EE88775D68BDBF480768E94CLLV
++ _symbolic _____ 19_AppIntents_SwiftUI22SnippetContentLayerTagV12EmptyCodable33_DE591192EE88775D68BDBF480768E94CLLV10CodingKeysO
++ _symbolic _____ 19_AppIntents_SwiftUI24CardSnippetFamilyStorageO
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV012_AppIntents_aB0E31__Key_showsSnippetContentLayers33_DE591192EE88775D68BDBF480768E94CLLV
++ _symbolic _____ 7SwiftUI28ContainerBackgroundPlacementV
++ _symbolic _____ 7SwiftUI28ContainerBackgroundPlacementV012_AppIntents_aB0E10SnippetKeyV
++ _symbolic _____ So13LNSystemColorV
++ _symbolic _____ So19LNSemanticColorRoleV
++ _symbolic _____ So31LNStructuredDataRepresentationsV
++ _symbolic _____Sg 10AppIntents11IntentColorV
++ _symbolic _____Sg 10AppIntents21DisplayRepresentationV5ImageV
++ _symbolic _____Sg 10AppIntents21DisplayRepresentationV5ImageV19SymbolConfigurationO
++ _symbolic _____Sg 19_AppIntents_SwiftUI20CardSnippetRenderingV
++ _symbolic _____Sg 19_AppIntents_SwiftUI24CardSnippetFamilyStorageO
++ _symbolic _____Sg_ABt 10Foundation3URLV
++ _symbolic ___________Sgt 10AppIntents16EntityIdentifierV AA21DisplayRepresentationV
++ _symbolic ___________t 7SwiftUI5ColorV So010LNSemanticC4RoleV
++ _symbolic ___________t 7SwiftUI5ColorV So08LNSystemC0V
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV AA7AnyViewV AA30_SafeAreaRegionsIgnoringLayoutV 012_AppIntents_aB007SnippetD8LayerTagV
++ _symbolic _____yAAy__________G_____GSg 7SwiftUI15ModifiedContentV AA7AnyViewV AA30_SafeAreaRegionsIgnoringLayoutV 012_AppIntents_aB007SnippetD8LayerTagV
++ _symbolic _____ySay_____GG 7SwiftUI11EnvironmentV 012_AppIntents_aB019SnippetContentLayerV
++ _symbolic _____ySay_____GG 7SwiftUI30_EnvironmentKeyWritingModifierV 012_AppIntents_aB019SnippetContentLayerV
++ _symbolic _____ySbG 7SwiftUI9LazyStateV
++ _symbolic _____ySb_G 7SwiftUI9LazyStateV7StorageO
++ _symbolic _____ySo18LNSystemNamedColorCSo7UIColorCG s17_NativeDictionaryV
++ _symbolic _____ySo18LNSystemNamedColorCSo7UIColorCG s18_DictionaryStorageC
++ _symbolic _____ySo7UIColorC______tG s23_ContiguousArrayStorageC So13LNSystemColorV
++ _symbolic _____ySo7UIColorC______tG s23_ContiguousArrayStorageC So19LNSemanticColorRoleV
++ _symbolic _____y_____G 7SwiftUI21_ViewModifier_ContentV 012_AppIntents_aB007SnippetE8LayerTagV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19_AppIntents_SwiftUI22SnippetContentLayerTagV10CodingKeys33_DE591192EE88775D68BDBF480768E94CLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19_AppIntents_SwiftUI22SnippetContentLayerTagV10CodingKeys33_DE591192EE88775D68BDBF480768E94CLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19_AppIntents_SwiftUI22SnippetContentLayerTagV12EmptyCodable33_DE591192EE88775D68BDBF480768E94CLLV10CodingKeysO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 19_AppIntents_SwiftUI19SnippetContentLayerV
++ _symbolic _____y_____So21LNColorRepresentationCG s17_NativeDictionaryV 7SwiftUI5ColorV
++ _symbolic _____y_____So7UIColorCG s17_NativeDictionaryV So19LNSemanticColorRoleV
++ _symbolic _____y______AA_____19_AppIntents_SwiftUIyHCg_Qo_ 10AppIntents28_IntentColorConvertibleValuePAAE28defaultResolverSpecificationQrvpZQO 7SwiftUI0D0V AC
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA7AnyViewV AA30_SafeAreaRegionsIgnoringLayoutV
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 7SwiftUI5ColorV So010LNSemanticF4RoleV
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 7SwiftUI5ColorV So08LNSystemF0V
++ _symbolic _____y_____yAAy__________G_Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE21appIntentSnippetIdiomQryFQO AA03AnyE0V 012_AppIntents_aB00H16OverrideModifierV AI0hD8LayerTagV
++ _symbolic _____y_____y_____G_____G 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 012_AppIntents_aB007SnippetD8LayerTagV AA07_HiddenF0V
++ _symbolic _____y_____y_____G_____yAD_____GG 7SwiftUI19_ConditionalContentV AA014_ViewModifier_D0V 012_AppIntents_aB007SnippetD8LayerTagV AA08ModifiedD0V AA07_HiddenF0V
++ _symbolic _____y_____y_____G_____yAD_____G_G 7SwiftUI19_ConditionalContentV7StorageO AA014_ViewModifier_D0V 012_AppIntents_aB007SnippetD8LayerTagV AA08ModifiedD0V AA07_HiddenG0V
++ _symbolic _____y_____y_____y_____yABy__________G_Qo______G______AByAByAC_____GAGGSgQo_AFG 7SwiftUI19_ConditionalContentV AA4ViewPAAE24applyContainerBackground3for7contentQrqd__m_qd_0_AA03AnyE0VSgctAA0gH18PlacementCustomKeyRd__AaDRd_0_r0_lFQO AA08ModifiedD0V AeAE21appIntentSnippetIdiomQryFQO AJ 012_AppIntents_aB00R16OverrideModifierV AP0rD8LayerTagV AA0ghL0VAPE0rN0V AA30_SafeAreaRegionsIgnoringLayoutV
++ _symbolic _____y_____y_____y_____yABy__________G_Qo______G______AByAByAC_____GAGGSgQo_AF_G 7SwiftUI19_ConditionalContentV7StorageO AA4ViewPAAE24applyContainerBackground3for7contentQrqd__m_qd_0_AA03AnyF0VSgctAA0hI18PlacementCustomKeyRd__AaFRd_0_r0_lFQO AA08ModifiedD0V AgAE21appIntentSnippetIdiomQryFQO AL 012_AppIntents_aB00S16OverrideModifierV AR0sD8LayerTagV AA0hiM0VARE0sO0V AA30_SafeAreaRegionsIgnoringLayoutV
++ _symbolic _____yx_____ySay_____GGG 7SwiftUI15ModifiedContentV AA30_EnvironmentKeyWritingModifierV 012_AppIntents_aB007SnippetD5LayerV
++ _type_layout_string 10AppIntents0A6EntityRz7SwiftUI4ViewR_r0_l01_ab1_dE011CardSnippetVyxq_G
++ _type_layout_string 19_AppIntents_SwiftUI17CardSnippetFamilyV
++ _type_layout_string 19_AppIntents_SwiftUI19SnippetContentLayerV
++ _type_layout_string 19_AppIntents_SwiftUI20CardSnippetRenderingV
++ _type_layout_string 19_AppIntents_SwiftUI22SnippetContentLayerTagV
++ _type_layout_string So31LNStructuredDataRepresentationsV
+- _OUTLINED_FUNCTION_67
+- ___swift_memcpy112_8
+- ___unnamed_11
+- ___unnamed_9
+- _associated conformance 19_AppIntents_SwiftUI0C30UIColorFromIntentColorResolverV0aB00I0AA5InputAdEP_AD01_G5Value
+- _associated conformance 19_AppIntents_SwiftUI0C30UIColorFromIntentColorResolverV0aB00I0AA6OutputAdEP_AD01_G5Value
+- _associated conformance 19_AppIntents_SwiftUI0C30UIColorFromIntentColorResolverV0aB00I0AASH
+- _associated conformance 19_AppIntents_SwiftUI0C30UIColorFromIntentColorResolverVSHAASQ
+- _get_enum_tag_for_layout_string 7SwiftUI11EnvironmentV7ContentOy012_AppIntents_aB016SiriTipViewStyleV_G
+- _get_enum_tag_for_layout_string 7SwiftUI7BindingVySbGSg
+- _get_enum_tag_for_layout_string SSSgIegho_Sg
+- _get_witness_table 10AppIntents28ResolverSpecificationBuilderO0D0Vy7SwiftUI5ColorV_AH01_ab1_fG00f17UIColorFromIntenthC0V_QPAhA01_K5ValueAIyHCg_AhalIyHCg0_GAA0cD0HPyHC
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE21appIntentSnippetIdiomQryFQOyAA15ModifiedContentVyAA03AnyC0V012_AppIntents_aB00F16OverrideModifierVG_Qo_HO
+- _symbolic $s10AppIntents8ResolverP
+- _symbolic _____ 10AppIntents17IntentColorEntityV
+- _symbolic _____ 19_AppIntents_SwiftUI0C30UIColorFromIntentColorResolverV
+- _symbolic _____Sg 10AppIntents15ColorSourceTypeO
+- _symbolic _____Sg 10AppIntents23SemanticColorIdentifierV
+- _symbolic _____Sg_ABt 10AppIntents15ColorSourceTypeO
+- _symbolic _____ySS_So7UIColorCtG s23_ContiguousArrayStorageC
+- _symbolic _____y______AB______QPAB_____19_AppIntents_SwiftUIyHCg_AbdEyHCg0_G 10AppIntents28ResolverSpecificationBuilderO0D0V 7SwiftUI5ColorV 01_ab1_fG00f17UIColorFromIntenthC0V AA01_K5ValueP
+- _type_layout_string 19_AppIntents_SwiftUI11SiriTipViewV
+CStrings:
++ "Array<SnippetContentLayer>"
++ "_AppIntents_SwiftUI.AppEntityViewAnnotation"
++ "_debugCatalogBundleIdentifier"
++ "compact"
++ "init()"
++ "standard"
+- "quaternarySystemFill"
+- "secondarySystemBackground"
+- "secondarySystemFill"
+- "systemBackground"
+- "tertiarySystemBackground"
+- "tertiarySystemFill"
+```

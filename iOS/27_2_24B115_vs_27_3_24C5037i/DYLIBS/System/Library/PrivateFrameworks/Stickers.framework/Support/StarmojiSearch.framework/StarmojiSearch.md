@@ -1,0 +1,228 @@
+## StarmojiSearch
+
+> `/System/Library/PrivateFrameworks/Stickers.framework/Support/StarmojiSearch.framework/StarmojiSearch`
+
+```diff
+
+-90.1.5.0.0
+-  __TEXT.__text: 0x5b57c
++90.2.4.0.0
++  __TEXT.__text: 0x61290
+   __TEXT.__objc_methlist: 0x368
+-  __TEXT.__const: 0x5974
+-  __TEXT.__gcc_except_tab: 0x1c00
+-  __TEXT.__constg_swiftt: 0x12b8
+-  __TEXT.__swift5_typeref: 0x1288
++  __TEXT.__const: 0x5bc4
++  __TEXT.__gcc_except_tab: 0x1e0c
++  __TEXT.__constg_swiftt: 0x1328
++  __TEXT.__swift5_typeref: 0x1362
+   __TEXT.__swift5_builtin: 0x154
+-  __TEXT.__swift5_fieldmd: 0xc20
+-  __TEXT.__swift5_reflstr: 0x608
+-  __TEXT.__swift5_assocty: 0x3f8
+-  __TEXT.__swift5_proto: 0x260
+-  __TEXT.__swift5_types: 0xf8
++  __TEXT.__swift5_fieldmd: 0xd14
++  __TEXT.__swift5_reflstr: 0x6b8
++  __TEXT.__swift5_assocty: 0x428
++  __TEXT.__swift5_proto: 0x27c
++  __TEXT.__swift5_types: 0x108
+   __TEXT.__swift5_types2: 0x14
+-  __TEXT.__cstring: 0x39ac
++  __TEXT.__cstring: 0x3a5c
+   __TEXT.__swift5_protos: 0x54
+   __TEXT.__swift5_mpenum: 0x10
+   __TEXT.__swift_as_entry: 0x3c
+
+   __TEXT.__oslogstring: 0x29f
+   __TEXT.__swift_as_cont: 0x68
+   __TEXT.__swift5_capture: 0x12c
+-  __TEXT.__unwind_info: 0x2710
+-  __TEXT.__eh_frame: 0x3350
++  __TEXT.__unwind_info: 0x2908
++  __TEXT.__eh_frame: 0x35a8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x218
++  __DATA_CONST.__const: 0x220
+   __DATA_CONST.__objc_classlist: 0x40
+   __DATA_CONST.__objc_protolist: 0x18
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__weak_got: 0x40
+-  __DATA_CONST.__objc_selrefs: 0x1d8
++  __DATA_CONST.__objc_selrefs: 0x208
+   __DATA_CONST.__objc_protorefs: 0x10
+-  __DATA_CONST.__got: 0x3d8
+-  __AUTH_CONST.__const: 0x24b0
+-  __AUTH_CONST.__cfstring: 0x3c0
+-  __AUTH_CONST.__objc_const: 0x8e8
++  __DATA_CONST.__got: 0x440
++  __AUTH_CONST.__const: 0x2740
++  __AUTH_CONST.__cfstring: 0x420
++  __AUTH_CONST.__objc_const: 0x908
+   __AUTH_CONST.__weak_auth_got: 0x40
+-  __AUTH_CONST.__auth_got: 0xce0
+-  __DATA.__data: 0x95a
++  __AUTH_CONST.__auth_got: 0xd50
++  __DATA.__data: 0x9ea
+   __DATA.__common: 0x18
+   __DATA_DIRTY.__objc_data: 0x598
+-  __DATA_DIRTY.__data: 0x6e8
++  __DATA_DIRTY.__data: 0x6f0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
++  - /System/Library/Frameworks/NaturalLanguage.framework/NaturalLanguage
+   - /System/Library/PrivateFrameworks/CoreEmoji.framework/CoreEmoji
+   - /System/Library/PrivateFrameworks/CoreNLP.framework/CoreNLP
+   - /System/Library/PrivateFrameworks/EmojiFoundation.framework/EmojiFoundation
++  - /System/Library/PrivateFrameworks/InternationalSupport.framework/InternationalSupport
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
++  - /usr/lib/swift/libswiftNaturalLanguage.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 2158
+-  Symbols:   1761
+-  CStrings:  189
++  Functions: 2251
++  Symbols:   1826
++  CStrings:  195
+ 
+Symbols:
++ GCC_except_table100
++ GCC_except_table101
++ GCC_except_table102
++ GCC_except_table113
++ GCC_except_table35
++ GCC_except_table46
++ GCC_except_table47
++ GCC_except_table48
++ GCC_except_table49
++ GCC_except_table67
++ GCC_except_table72
++ GCC_except_table76
++ GCC_except_table77
++ GCC_except_table82
++ GCC_except_table87
++ GCC_except_table88
++ GCC_except_table94
++ GCC_except_table96
++ GCC_except_table97
++ _CFBundleCopyResourceURLForLocalization
++ _NSLocaleCountryCode
++ _NSLocaleLanguageCode
++ _NSLocaleScriptCode
++ _OBJC_CLASS_$_NLTokenizer
++ _OBJC_CLASS_$_NSLocale
++ _OBJC_CLASS_$_NSPropertyListSerialization
++ __MergedGlobals
++ __NSConcreteStackBlock
++ __ZN8stickers12_GLOBAL__N_114identityOfFileERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
++ __ZN8stickers12_GLOBAL__N_121createFrameworkBundleEv
++ __ZN8stickers15CoreEmojiBundle40createOverrideListURLForLocaleIdentifierEPK10__CFString
++ __ZN8stickers48createOverrideListURLForLocaleIdentifierInternalEPK10__CFString
++ __ZN8stickers8Searcher12SearcherImpl19replaceStickerIndexEONS_18StickerStaticIndexE
++ __ZNK8stickers18StickerStaticIndex7isStaleEv
++ __ZNK8stickers8Searcher12SearcherImpl14searchInternalERKNS_13SearchRequestERKNS_18StickerStaticIndexE
++ __ZNK8stickers8Searcher12SearcherImpl18autocompleteSearchERKNS_13SearchRequestERKNS_18StickerStaticIndexE
++ __ZNK8stickers8Searcher32requestStickerIndexReloadIfStaleEv
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZNK8stickers8Searcher12SearcherImpl14searchInternalERKNS2_13SearchRequestERKNS2_18StickerStaticIndexEEUlRKNS2_20InternalSearchResultESD_E_PSB_Lb0EEEvT1_SH_T0_NS_15iterator_traitsISH_E15difference_typeEb
++ __ZNSt3__111__sift_downB9fqe220106INS_17_ClassicAlgPolicyELb0ERZNK8stickers8Searcher12SearcherImpl14searchInternalERKNS2_13SearchRequestERKNS2_18StickerStaticIndexEEUlRKNS2_20InternalSearchResultESD_E_PSB_EEvT2_OT1_NS_15iterator_traitsISH_E15difference_typeESM_
++ __ZNSt3__112__hash_tableIN7Sticker6Search5Index4UUIDEN8stickers8UUIDHashENS5_9UUIDEqualENS_9allocatorIS4_EEE16__copy_constructB9fqe220106EPNS_16__hash_node_baseIPNS_11__hash_nodeIS4_PvEEEE
++ __ZNSt3__112__hash_tableIN7Sticker6Search5Index4UUIDEN8stickers8UUIDHashENS5_9UUIDEqualENS_9allocatorIS4_EEE16__copy_constructB9fqe220106EPNS_16__hash_node_baseIPNS_11__hash_nodeIS4_PvEEEESH_m
++ __ZNSt3__112__hash_tableIN7Sticker6Search5Index4UUIDEN8stickers8UUIDHashENS5_9UUIDEqualENS_9allocatorIS4_EEEC2ERKSA_
++ __ZNSt3__112shared_mutexD2B9fqe220106Ev
++ __ZNSt3__116__insertion_sortB9fqe220106INS_17_ClassicAlgPolicyERZNK8stickers8Searcher12SearcherImpl14searchInternalERKNS2_13SearchRequestERKNS2_18StickerStaticIndexEEUlRKNS2_20InternalSearchResultESD_E_PSB_EEvT1_SH_T0_
++ __ZNSt3__117__floyd_sift_downB9fqe220106INS_17_ClassicAlgPolicyERZNK8stickers8Searcher12SearcherImpl14searchInternalERKNS2_13SearchRequestERKNS2_18StickerStaticIndexEEUlRKNS2_20InternalSearchResultESD_E_PSB_EET1_SH_OT0_NS_15iterator_traitsISH_E15difference_typeE
++ __ZNSt3__119__partial_sort_implB9fqe220106INS_17_ClassicAlgPolicyERZNK8stickers8Searcher12SearcherImpl14searchInternalERKNS2_13SearchRequestERKNS2_18StickerStaticIndexEEUlRKNS2_20InternalSearchResultESD_E_PSB_SG_EET1_SH_SH_T2_OT0_
++ __ZNSt3__126__insertion_sort_unguardedB9fqe220106INS_17_ClassicAlgPolicyERZNK8stickers8Searcher12SearcherImpl14searchInternalERKNS2_13SearchRequestERKNS2_18StickerStaticIndexEEUlRKNS2_20InternalSearchResultESD_E_PSB_EEvT1_SH_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9fqe220106INS_17_ClassicAlgPolicyERZNK8stickers8Searcher12SearcherImpl14searchInternalERKNS2_13SearchRequestERKNS2_18StickerStaticIndexEEUlRKNS2_20InternalSearchResultESD_E_PSB_EEbT1_SH_T0_
++ __ZNSt3__131__partition_with_equals_on_leftB9fqe220106INS_17_ClassicAlgPolicyEPN8stickers20InternalSearchResultERZNKS2_8Searcher12SearcherImpl14searchInternalERKNS2_13SearchRequestERKNS2_18StickerStaticIndexEEUlRKS3_SE_E_EET0_SH_SH_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB9fqe220106INS_17_ClassicAlgPolicyEPN8stickers20InternalSearchResultERZNKS2_8Searcher12SearcherImpl14searchInternalERKNS2_13SearchRequestERKNS2_18StickerStaticIndexEEUlRKS3_SE_E_EENS_4pairIT0_bEESI_SI_T1_
++ __ZNSt3__14pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B9fqe220106INS_25__check_pair_constructionIS6_S6_EELi0EEERKS6_SC_
++ __ZNSt3__17__sort3B9fqe220106INS_17_ClassicAlgPolicyERZNK8stickers8Searcher12SearcherImpl14searchInternalERKNS2_13SearchRequestERKNS2_18StickerStaticIndexEEUlRKNS2_20InternalSearchResultESD_E_PSB_Li0EEEbT1_SH_SH_T0_
++ __ZNSt3__17__sort5B9fqe220106INS_17_ClassicAlgPolicyERZNK8stickers8Searcher12SearcherImpl14searchInternalERKNS2_13SearchRequestERKNS2_18StickerStaticIndexEEUlRKNS2_20InternalSearchResultESD_E_PSB_Li0EEEvT1_SH_SH_SH_SH_T0_
++ __ZNSt3__18optionalINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EEED2Ev
++ __ZNSt3__19__sift_upB9fqe220106INS_17_ClassicAlgPolicyERZNK8stickers8Searcher12SearcherImpl14searchInternalERKNS2_13SearchRequestERKNS2_18StickerStaticIndexEEUlRKNS2_20InternalSearchResultESD_E_PSB_EEvT1_SH_OT0_NS_15iterator_traitsISH_E15difference_typeE
++ ____ZNK8stickers8Searcher32requestStickerIndexReloadIfStaleEv_block_invoke
++ ___copy_helper_block_e8_32c60_ZTSNSt3__110shared_ptrIN8stickers8Searcher12SearcherImplEEE
++ ___cxa_guard_acquire
++ ___cxa_guard_release
++ ___destroy_helper_block_e8_32c60_ZTSNSt3__110shared_ptrIN8stickers8Searcher12SearcherImplEEE
++ ___swift_memcpy10_8
++ __swift_FORCE_LOAD_$_swiftNaturalLanguage
++ __swift_FORCE_LOAD_$_swiftNaturalLanguage_$_StarmojiSearch
++ _associated conformance 14StarmojiSearch19QueryResultOverrideV0B4TypeOSHAASQ
++ _associated conformance 14StarmojiSearch19QueryResultOverrideV8BehaviorOSHAASQ
++ _dispatch_async
++ _dispatch_queue_attr_make_with_qos_class
++ _dispatch_queue_create
++ _stat
++ _swift_release_x1
++ _symbolic SDySSSDySSypGG
++ _symbolic SDySS_____G 14StarmojiSearch19QueryResultOverrideV
++ _symbolic SaySiG
++ _symbolic Say_____G s6UInt32V
++ _symbolic _____ 14StarmojiSearch19QueryResultOverrideV
++ _symbolic _____ 14StarmojiSearch19QueryResultOverrideV0B4TypeO
++ _symbolic _____ 14StarmojiSearch19QueryResultOverrideV8BehaviorO
++ _symbolic _____ 14StarmojiSearch23QueryResultOverrideListV
++ _symbolic _____Sg 14StarmojiSearch23QueryResultOverrideListV
++ _symbolic _____yS2SG s18_DictionaryStorageC
++ _symbolic _____ySS_____G s18_DictionaryStorageC 14StarmojiSearch19QueryResultOverrideV
++ _symbolic _____y_____G s10ArraySliceV s6UInt16V
++ _symbolic _____y_____G s11_SetStorageC s6UInt32V
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s6UInt16V
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s6UInt32V
++ _symbolic _____y_____SSG s18_DictionaryStorageC s6UInt32V
++ _symbolic _____y__________G s18_DictionaryStorageC s6UInt32V s5Int64V
++ _symbolic ypSg
++ _type_layout_string 14StarmojiSearch19QueryResultOverrideV
++ _type_layout_string 14StarmojiSearch23QueryResultOverrideListV
+- GCC_except_table109
+- GCC_except_table32
+- GCC_except_table34
+- GCC_except_table40
+- GCC_except_table60
+- GCC_except_table73
+- GCC_except_table74
+- GCC_except_table78
+- GCC_except_table79
+- GCC_except_table93
+- GCC_except_table95
+- __ZNK8stickers8Searcher12SearcherImpl14searchInternalERKNS_13SearchRequestE
+- __ZNK8stickers8Searcher12SearcherImpl18autocompleteSearchERKNS_13SearchRequestE
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZNK8stickers8Searcher12SearcherImpl14searchInternalERKNS2_13SearchRequestEEUlRKNS2_20InternalSearchResultESA_E_PS8_Lb0EEEvT1_SE_T0_NS_15iterator_traitsISE_E15difference_typeEb
+- __ZNSt3__111__sift_downB9fqe220106INS_17_ClassicAlgPolicyELb0ERZNK8stickers8Searcher12SearcherImpl14searchInternalERKNS2_13SearchRequestEEUlRKNS2_20InternalSearchResultESA_E_PS8_EEvT2_OT1_NS_15iterator_traitsISE_E15difference_typeESJ_
+- __ZNSt3__116__insertion_sortB9fqe220106INS_17_ClassicAlgPolicyERZNK8stickers8Searcher12SearcherImpl14searchInternalERKNS2_13SearchRequestEEUlRKNS2_20InternalSearchResultESA_E_PS8_EEvT1_SE_T0_
+- __ZNSt3__117__floyd_sift_downB9fqe220106INS_17_ClassicAlgPolicyERZNK8stickers8Searcher12SearcherImpl14searchInternalERKNS2_13SearchRequestEEUlRKNS2_20InternalSearchResultESA_E_PS8_EET1_SE_OT0_NS_15iterator_traitsISE_E15difference_typeE
+- __ZNSt3__119__partial_sort_implB9fqe220106INS_17_ClassicAlgPolicyERZNK8stickers8Searcher12SearcherImpl14searchInternalERKNS2_13SearchRequestEEUlRKNS2_20InternalSearchResultESA_E_PS8_SD_EET1_SE_SE_T2_OT0_
+- __ZNSt3__126__insertion_sort_unguardedB9fqe220106INS_17_ClassicAlgPolicyERZNK8stickers8Searcher12SearcherImpl14searchInternalERKNS2_13SearchRequestEEUlRKNS2_20InternalSearchResultESA_E_PS8_EEvT1_SE_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9fqe220106INS_17_ClassicAlgPolicyERZNK8stickers8Searcher12SearcherImpl14searchInternalERKNS2_13SearchRequestEEUlRKNS2_20InternalSearchResultESA_E_PS8_EEbT1_SE_T0_
+- __ZNSt3__131__partition_with_equals_on_leftB9fqe220106INS_17_ClassicAlgPolicyEPN8stickers20InternalSearchResultERZNKS2_8Searcher12SearcherImpl14searchInternalERKNS2_13SearchRequestEEUlRKS3_SB_E_EET0_SE_SE_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB9fqe220106INS_17_ClassicAlgPolicyEPN8stickers20InternalSearchResultERZNKS2_8Searcher12SearcherImpl14searchInternalERKNS2_13SearchRequestEEUlRKS3_SB_E_EENS_4pairIT0_bEESF_SF_T1_
+- __ZNSt3__17__sort3B9fqe220106INS_17_ClassicAlgPolicyERZNK8stickers8Searcher12SearcherImpl14searchInternalERKNS2_13SearchRequestEEUlRKNS2_20InternalSearchResultESA_E_PS8_Li0EEEbT1_SE_SE_T0_
+- __ZNSt3__17__sort5B9fqe220106INS_17_ClassicAlgPolicyERZNK8stickers8Searcher12SearcherImpl14searchInternalERKNS2_13SearchRequestEEUlRKNS2_20InternalSearchResultESA_E_PS8_Li0EEEvT1_SE_SE_SE_SE_T0_
+- __ZNSt3__19__sift_upB9fqe220106INS_17_ClassicAlgPolicyERZNK8stickers8Searcher12SearcherImpl14searchInternalERKNS2_13SearchRequestEEUlRKNS2_20InternalSearchResultESA_E_PS8_EEvT1_SE_OT0_NS_15iterator_traitsISE_E15difference_typeE
+CStrings:
++ "Negative score ("
++ "SearchEngineOverrideList"
++ "SearchEngineOverrideLists"
++ "com.apple.stickers.StarmojiSearchCore.index-reload"
++ "overrideBehaviorType"
++ "plist"
+```

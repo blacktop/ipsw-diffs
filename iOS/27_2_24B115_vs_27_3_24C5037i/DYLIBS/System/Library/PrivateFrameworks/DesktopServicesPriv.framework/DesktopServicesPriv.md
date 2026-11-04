@@ -1,0 +1,951 @@
+## DesktopServicesPriv
+
+> `/System/Library/PrivateFrameworks/DesktopServicesPriv.framework/DesktopServicesPriv`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__ustring`
+
+```diff
+
+-1857.1.8.0.0
+-  __TEXT.__text: 0x1a2344
+-  __TEXT.__objc_methlist: 0x4afc
+-  __TEXT.__gcc_except_tab: 0x296e8
+-  __TEXT.__cstring: 0x6f60
+-  __TEXT.__const: 0x90a7
+-  __TEXT.__oslogstring: 0x9080
++1857.2.6.0.0
++  __TEXT.__text: 0x1a363c
++  __TEXT.__objc_methlist: 0x4b6c
++  __TEXT.__gcc_except_tab: 0x299d0
++  __TEXT.__const: 0x9140
++  __TEXT.__cstring: 0x6fb4
++  __TEXT.__oslogstring: 0x91b8
+   __TEXT.__ustring: 0x24
+-  __TEXT.__unwind_info: 0xd5b0
++  __TEXT.__unwind_info: 0xd658
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_protolist: 0x90
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__weak_got: 0x10
+-  __DATA_CONST.__objc_selrefs: 0x2940
++  __DATA_CONST.__objc_selrefs: 0x2988
+   __DATA_CONST.__objc_protorefs: 0x38
+   __DATA_CONST.__objc_superrefs: 0x1b8
+   __DATA_CONST.__objc_arraydata: 0x88
+-  __DATA_CONST.__got: 0xb58
+-  __AUTH_CONST.__const: 0x9850
+-  __AUTH_CONST.__cfstring: 0x3d80
+-  __AUTH_CONST.__objc_const: 0x7380
++  __DATA_CONST.__got: 0xb68
++  __AUTH_CONST.__const: 0x9898
++  __AUTH_CONST.__cfstring: 0x3dc0
++  __AUTH_CONST.__objc_const: 0x73f0
+   __AUTH_CONST.__weak_auth_got: 0x28
+   __AUTH_CONST.__objc_intobj: 0x138
+-  __AUTH_CONST.__objc_arrayobj: 0x30
+   __AUTH_CONST.__objc_dictobj: 0x28
++  __AUTH_CONST.__objc_arrayobj: 0x30
+   __AUTH_CONST.__auth_got: 0x1138
+   __AUTH.__objc_data: 0x1db0
+   __AUTH.__thread_vars: 0x30
+   __AUTH.__thread_bss: 0x10
+-  __DATA.__objc_ivar: 0x40c
++  __DATA.__objc_ivar: 0x418
+   __DATA.__data: 0xcd0
+-  __DATA.__common: 0x121
++  __DATA.__common: 0x120
+   __DATA_DIRTY.__objc_data: 0x50
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+
+   - /System/Library/PrivateFrameworks/CloudDocs.framework/CloudDocs
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+   - /System/Library/PrivateFrameworks/IconServices.framework/IconServices
++  - /System/Library/PrivateFrameworks/MetadataUtilities.framework/MetadataUtilities
+   - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
+   - /System/Library/PrivateFrameworks/Sharing.framework/Sharing
+   - /System/Library/PrivateFrameworks/TCC.framework/TCC
+
+   - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 7969
+-  Symbols:   12879
+-  CStrings:  1937
++  Functions: 7988
++  Symbols:   12911
++  CStrings:  1944
+ 
+Symbols:
++ +[FITag tagName:isEqualToTagName:]
++ -[FIDeleteOperation makeOperationRecordForNode:]
++ -[FIOperation _applyResolution:toPendingConflicts:]
++ -[FIOperation _canApplyResolutionToConflict:]
++ -[FIOperation _isPendingConflict:]
++ -[FIOperation advanceCurrentOpRecordIndex]
++ -[FIOperation applyResolution:toPendingConflicts:]
++ -[FIOperation currentOpRecordIndex]
++ -[FIOperation isPendingConflict:]
++ -[FIOperation resetCurrentOpRecordIndex]
++ -[FIOperation resolvingFPConflict]
++ -[FIOperation setCurrentOpRecordIndex:]
++ -[FIOperation setResolvingFPConflict:]
++ -[FITag compareKey]
++ GCC_except_table296
++ GCC_except_table303
++ GCC_except_table310
++ GCC_except_table318
++ GCC_except_table322
++ GCC_except_table367
++ GCC_except_table380
++ GCC_except_table395
++ GCC_except_table413
++ GCC_except_table417
++ GCC_except_table420
++ GCC_except_table445
++ GCC_except_table497
++ GCC_except_table500
++ GCC_except_table517
++ GCC_except_table520
++ GCC_except_table540
++ GCC_except_table551
++ GCC_except_table552
++ GCC_except_table553
++ GCC_except_table571
++ GCC_except_table572
++ GCC_except_table573
++ GCC_except_table574
++ GCC_except_table575
++ GCC_except_table576
++ GCC_except_table577
++ GCC_except_table588
++ GCC_except_table590
++ GCC_except_table591
++ GCC_except_table592
++ GCC_except_table593
++ GCC_except_table595
++ GCC_except_table601
++ GCC_except_table607
++ GCC_except_table612
++ GCC_except_table613
++ GCC_except_table614
++ GCC_except_table626
++ GCC_except_table627
++ GCC_except_table628
++ GCC_except_table631
++ GCC_except_table635
++ GCC_except_table637
++ GCC_except_table647
++ GCC_except_table659
++ GCC_except_table660
++ GCC_except_table667
++ GCC_except_table669
++ GCC_except_table679
++ GCC_except_table696
++ GCC_except_table702
++ GCC_except_table703
++ GCC_except_table708
++ GCC_except_table709
++ GCC_except_table711
++ GCC_except_table712
++ GCC_except_table748
++ GCC_except_table750
++ GCC_except_table759
++ GCC_except_table761
++ GCC_except_table766
++ GCC_except_table767
++ GCC_except_table774
++ GCC_except_table777
++ GCC_except_table786
++ GCC_except_table806
++ GCC_except_table819
++ GCC_except_table821
++ GCC_except_table827
++ GCC_except_table857
++ GCC_except_table870
++ GCC_except_table871
++ GCC_except_table872
++ GCC_except_table873
++ GCC_except_table878
++ GCC_except_table879
++ _NSLocalizedFailureErrorKey
++ _NSLocalizedFailureReasonErrorKey
++ _OBJC_IVAR_$_FILocalAppContainerCollection._populationFinished
++ _OBJC_IVAR_$_FIOperation._currentOpRecordIndex
++ _OBJC_IVAR_$_FIOperation._resolvingFPConflict
++ _OBJC_IVAR_$_FITag._compareKey
++ __MDStringCopyCollationData
++ __OBJC_$_CLASS_METHODS_FINode(ProtectedApps|trackNodes|Debugging)
++ __OBJC_$_INSTANCE_METHODS_FINode(ProtectedApps|trackNodes|Debugging)
++ __Z11DescriptionIU8__strongP17FIOperationRecordENSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEERKT_
++ __Z11MutableCopyI12NSDictionaryIP8NSStringP8NSObjectEEDaPT_
++ __Z12ResolveFlagsP5NSURL
++ __Z12ResolveFlagsRK7TString
++ __Z13FormatDetailsIU8__strongP8NSStringJPKcS4_EENSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEERKNS5_17basic_string_viewIcS8_EERKT_DpRKT0_
++ __Z16static_objc_castI19NSMutableDictionaryIP8NSStringP8NSObjectEU8__strongP11objc_objectEPT_T0_
++ __Z22PathEligibleForSyncingRK7TString
++ __Z26InterestedInProviderDomainP16FPProviderDomain
++ __Z26RemoveResolveFlagsFromPathRK7TString
++ __Z27CreateCollationKeyForStringPK10__CFString
++ __Z29SupportedNodeTreeResolveFlagsRK7TString
++ __ZGVZ22PathEligibleForSyncingRK7TStringE12allowedPaths
++ __ZGVZZN10TCFURLInfo16TranslateCFErrorEP9__CFErrorENK3$_0clEvE18ignoredDirectories
++ __ZL24archiveServiceConnectionPU44objcproto33DSArchiveServiceStreamingInternal11objc_objectP8NSString
++ __ZN11TCopyWriter32PreSizeSparseDestinationIfNeededEPK15TFileDescriptorR9TCopyItem
++ __ZN22TSelectorValueSwitcherIbED2Ev
++ __ZN26IDContainerIteratorAdaptorI7NSArrayIP17FIOperationRecordEE17NSForwardIteratorIS3_EC1ERKS6_l
++ __ZN26IDContainerIteratorAdaptorI7NSArrayIP17FIOperationRecordEE17NSForwardIteratorIS3_EC2ERKS6_
++ __ZN4fstd16callable_details15callable_holderIZ55-[FIOperation configureCompletionHandlers:fpOperation:]E4$_23vJU8__strongP7NSArrayIP6FINodeEU8__strongP7NSErrorEED0Ev
++ __ZN4fstd16callable_details15callable_holderIZ55-[FIOperation configureCompletionHandlers:fpOperation:]E4$_23vJU8__strongP7NSArrayIP6FINodeEU8__strongP7NSErrorEED1Ev
++ __ZN4fstd16callable_details15callable_holderIZ55-[FIOperation configureCompletionHandlers:fpOperation:]E4$_23vJU8__strongP7NSArrayIP6FINodeEU8__strongP7NSErrorEEclES7_SA_
++ __ZN5TNode13ResumeSyncingEv
++ __ZN5TNode14SuspendSyncingEv
++ __ZN7StDeferIZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_25ED1Ev
++ __ZN7StDeferIZN26TDSHelperCopyMoveOperation11PerformMoveERKNSt3__110shared_ptrI18TDSOperationRecordEEE3$_0ED1Ev
++ __ZN7StDeferIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_7clEP17FIOperationRecordEUlvE0_ED1Ev
++ __ZN7StDeferIZZ55-[FIOperation configureCompletionHandlers:fpOperation:]ENK4$_24clEvEUlvE_ED1Ev
++ __ZN8TVisitorIJZZ55-[FIOperation configureCompletionHandlers:fpOperation:]ENK4$_24clEvEUlP6FINodeE0_ZZ55-[FIOperation configureCompletionHandlers:fpOperation:]ENKS0_clEvEUlP6FPItemE_EED1Ev
++ __ZNK13TFSVolumeInfo18GetSyncingGCDQueueEv
++ __ZNK17TVolumeSyncThread15SyncingCanceledEv
++ __ZNK17TVolumeSyncThread18GetSyncingGCDQueueEv
++ __ZNK4fstd16callable_details15callable_holderIZ55-[FIOperation configureCompletionHandlers:fpOperation:]E4$_23vJU8__strongP7NSArrayIP6FINodeEU8__strongP7NSErrorEE9has_valueEv
++ __ZNK5TNode16SyncingSuspendedEv
++ __ZNK5TNode20IsSyncingAppropriateEv
++ __ZNKSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_20FvvEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_20FvvEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_20FvvEE7__cloneEPNS0_6__baseIS3_EE
++ __ZNKSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_20FvvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ40-[FIOperation handleRecoverableFPError:]E4$_26FvP17FIOperationRecordEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ40-[FIOperation handleRecoverableFPError:]E4$_26FvP17FIOperationRecordEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ40-[FIOperation handleRecoverableFPError:]E4$_26FvP17FIOperationRecordEE7__cloneEPNS0_6__baseIS5_EE
++ __ZNKSt3__110__function6__funcIZ40-[FIOperation handleRecoverableFPError:]E4$_26FvP17FIOperationRecordEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_8FvP12NSDictionaryIP8NSStringP8NSObjectEEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_8FvP12NSDictionaryIP8NSStringP8NSObjectEEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_8FvP12NSDictionaryIP8NSStringP8NSObjectEEE7__cloneEPNS0_6__baseISA_EE
++ __ZNKSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_8FvP12NSDictionaryIP8NSStringP8NSObjectEEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_90FvRU8__strongKP17FIOperationRecordEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_90FvRU8__strongKP17FIOperationRecordEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_90FvRU8__strongKP17FIOperationRecordEE7__cloneEPNS0_6__baseIS7_EE
++ __ZNKSt3__110__function6__funcIZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_90FvRU8__strongKP17FIOperationRecordEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_92FvRKbEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_92FvRKbEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_92FvRKbEE7__cloneEPNS0_6__baseIS5_EE
++ __ZNKSt3__110__function6__funcIZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_92FvRKbEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_11FvvEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_11FvvEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_11FvvEE7__cloneEPNS0_6__baseIS3_EE
++ __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_11FvvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_19FvP12NSDictionaryIP8NSStringP8NSObjectEEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_19FvP12NSDictionaryIP8NSStringP8NSObjectEEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_19FvP12NSDictionaryIP8NSStringP8NSObjectEEE7__cloneEPNS0_6__baseISA_EE
++ __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_19FvP12NSDictionaryIP8NSStringP8NSObjectEEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_7clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EE11target_typeEv
++ __ZNKSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_7clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_7clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EE7__cloneEPNS0_6__baseIS9_EE
++ __ZNKSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_7clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EE7__cloneEv
++ __ZNKSt3__110__function6__funcIZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_27clEP11objc_objectP7NSErrorEUlRKNS_6vectorINS_8optionalIU8__strongP6FINodeEENS_9allocatorISC_EEEEE_FvSH_EE11target_typeEv
++ __ZNKSt3__110__function6__funcIZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_27clEP11objc_objectP7NSErrorEUlRKNS_6vectorINS_8optionalIU8__strongP6FINodeEENS_9allocatorISC_EEEEE_FvSH_EE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_27clEP11objc_objectP7NSErrorEUlRKNS_6vectorINS_8optionalIU8__strongP6FINodeEENS_9allocatorISC_EEEEE_FvSH_EE7__cloneEPNS0_6__baseISJ_EE
++ __ZNKSt3__110__function6__funcIZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_27clEP11objc_objectP7NSErrorEUlRKNS_6vectorINS_8optionalIU8__strongP6FINodeEENS_9allocatorISC_EEEEE_FvSH_EE7__cloneEv
++ __ZNSt3__110__function12__value_funcIFvRKbEED2B9fqe220106Ev
++ __ZNSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_20FvvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_20FvvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_20FvvEED0Ev
++ __ZNSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_20FvvEED1Ev
++ __ZNSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_20FvvEEclEv
++ __ZNSt3__110__function6__funcIZ40-[FIOperation handleRecoverableFPError:]E4$_26FvP17FIOperationRecordEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ40-[FIOperation handleRecoverableFPError:]E4$_26FvP17FIOperationRecordEE7destroyEv
++ __ZNSt3__110__function6__funcIZ40-[FIOperation handleRecoverableFPError:]E4$_26FvP17FIOperationRecordEEC1B9fqe220106ERKS2_
++ __ZNSt3__110__function6__funcIZ40-[FIOperation handleRecoverableFPError:]E4$_26FvP17FIOperationRecordEED0Ev
++ __ZNSt3__110__function6__funcIZ40-[FIOperation handleRecoverableFPError:]E4$_26FvP17FIOperationRecordEED1Ev
++ __ZNSt3__110__function6__funcIZ40-[FIOperation handleRecoverableFPError:]E4$_26FvP17FIOperationRecordEEclEOU8__strongS4_
++ __ZNSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_8FvP12NSDictionaryIP8NSStringP8NSObjectEEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_8FvP12NSDictionaryIP8NSStringP8NSObjectEEE7destroyEv
++ __ZNSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_8FvP12NSDictionaryIP8NSStringP8NSObjectEEED0Ev
++ __ZNSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_8FvP12NSDictionaryIP8NSStringP8NSObjectEEED1Ev
++ __ZNSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_8FvP12NSDictionaryIP8NSStringP8NSObjectEEEclEOU8__strongS9_
++ __ZNSt3__110__function6__funcIZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_90FvRU8__strongKP17FIOperationRecordEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_90FvRU8__strongKP17FIOperationRecordEE7destroyEv
++ __ZNSt3__110__function6__funcIZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_90FvRU8__strongKP17FIOperationRecordEED0Ev
++ __ZNSt3__110__function6__funcIZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_90FvRU8__strongKP17FIOperationRecordEED1Ev
++ __ZNSt3__110__function6__funcIZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_90FvRU8__strongKP17FIOperationRecordEEclES6_
++ __ZNSt3__110__function6__funcIZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_92FvRKbEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_92FvRKbEE7destroyEv
++ __ZNSt3__110__function6__funcIZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_92FvRKbEED0Ev
++ __ZNSt3__110__function6__funcIZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_92FvRKbEED1Ev
++ __ZNSt3__110__function6__funcIZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_92FvRKbEEclES4_
++ __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_11FvvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_11FvvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_11FvvEED0Ev
++ __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_11FvvEED1Ev
++ __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_11FvvEEclEv
++ __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_19FvP12NSDictionaryIP8NSStringP8NSObjectEEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_19FvP12NSDictionaryIP8NSStringP8NSObjectEEE7destroyEv
++ __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_19FvP12NSDictionaryIP8NSStringP8NSObjectEEEC1B9fqe220106ERKS2_
++ __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_19FvP12NSDictionaryIP8NSStringP8NSObjectEEED0Ev
++ __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_19FvP12NSDictionaryIP8NSStringP8NSObjectEEED1Ev
++ __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_19FvP12NSDictionaryIP8NSStringP8NSObjectEEEclEOU8__strongS9_
++ __ZNSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_7clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_7clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EE7destroyEv
++ __ZNSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_7clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EED0Ev
++ __ZNSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_7clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EED1Ev
++ __ZNSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_7clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EEclES8_
++ __ZNSt3__110__function6__funcIZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_27clEP11objc_objectP7NSErrorEUlRKNS_6vectorINS_8optionalIU8__strongP6FINodeEENS_9allocatorISC_EEEEE_FvSH_EE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_27clEP11objc_objectP7NSErrorEUlRKNS_6vectorINS_8optionalIU8__strongP6FINodeEENS_9allocatorISC_EEEEE_FvSH_EE7destroyEv
++ __ZNSt3__110__function6__funcIZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_27clEP11objc_objectP7NSErrorEUlRKNS_6vectorINS_8optionalIU8__strongP6FINodeEENS_9allocatorISC_EEEEE_FvSH_EEC1B9fqe220106ERKSI_
++ __ZNSt3__110__function6__funcIZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_27clEP11objc_objectP7NSErrorEUlRKNS_6vectorINS_8optionalIU8__strongP6FINodeEENS_9allocatorISC_EEEEE_FvSH_EED0Ev
++ __ZNSt3__110__function6__funcIZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_27clEP11objc_objectP7NSErrorEUlRKNS_6vectorINS_8optionalIU8__strongP6FINodeEENS_9allocatorISC_EEEEE_FvSH_EED1Ev
++ __ZNSt3__110__function6__funcIZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_27clEP11objc_objectP7NSErrorEUlRKNS_6vectorINS_8optionalIU8__strongP6FINodeEENS_9allocatorISC_EEEEE_FvSH_EEclESH_
++ __ZNSt3__110unique_ptrI12TVersionDataNS_14default_deleteIS1_EEED1B9fqe220106Ev
++ __ZNSt3__114__split_bufferIU8__strongP8NSStringRNS_9allocatorIS3_EEED2Ev
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm0EEE10__dispatchB9fqe220106IONS1_9__variant15__value_visitorI8TVisitorIJZZ55-[FIOperation configureCompletionHandlers:fpOperation:]ENK4$_24clEvEUlP6FINodeE0_ZZ55-[FIOperation configureCompletionHandlers:fpOperation:]ENKS9_clEvEUlP6FPItemE_EEEEJRKNS0_6__baseILNS0_6_TraitE1EJU8__strongSB_U8__strongSE_EEEEEEDcT_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm1EEE10__dispatchB9fqe220106IONS1_9__variant15__value_visitorI8TVisitorIJZZ55-[FIOperation configureCompletionHandlers:fpOperation:]ENK4$_24clEvEUlP6FINodeE0_ZZ55-[FIOperation configureCompletionHandlers:fpOperation:]ENKS9_clEvEUlP6FPItemE_EEEEJRKNS0_6__baseILNS0_6_TraitE1EJU8__strongSB_U8__strongSE_EEEEEEDcT_DpT0_
++ __ZNSt3__122condition_variable_any4waitB9fqe220106INS_11unique_lockINS_5mutexEEEEEvRT_
++ __ZNSt3__16vectorI7TStringNS_9allocatorIS1_EEE24__emplace_back_slow_pathIJRA18_KcEEEPS1_DpOT_
++ __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE16__destroy_vectorclB9fqe220106Ev
++ __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE24__emplace_back_slow_pathIJS3_EEEPS3_DpOT_
++ __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS3_RS5_EE
++ __ZNSt3__19allocatorIU8__strongP8NSStringE17allocate_at_leastB9fqe220106Em
++ __ZTIN4fstd16callable_details15callable_holderIZ55-[FIOperation configureCompletionHandlers:fpOperation:]E4$_23vJU8__strongP7NSArrayIP6FINodeEU8__strongP7NSErrorEEE
++ __ZTINSt3__110__function6__baseIFvRKbEEE
++ __ZTINSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_20FvvEEE
++ __ZTINSt3__110__function6__funcIZ40-[FIOperation handleRecoverableFPError:]E4$_26FvP17FIOperationRecordEEE
++ __ZTINSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_8FvP12NSDictionaryIP8NSStringP8NSObjectEEEE
++ __ZTINSt3__110__function6__funcIZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_90FvRU8__strongKP17FIOperationRecordEEE
++ __ZTINSt3__110__function6__funcIZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_92FvRKbEEE
++ __ZTINSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_11FvvEEE
++ __ZTINSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_19FvP12NSDictionaryIP8NSStringP8NSObjectEEEE
++ __ZTINSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_7clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EEE
++ __ZTINSt3__110__function6__funcIZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_27clEP11objc_objectP7NSErrorEUlRKNS_6vectorINS_8optionalIU8__strongP6FINodeEENS_9allocatorISC_EEEEE_FvSH_EEE
++ __ZTIZ32-[FIOperation configureProgress]E4$_20
++ __ZTIZ40-[FIOperation handleRecoverableFPError:]E4$_26
++ __ZTIZ45-[FIOperation startFractionCompletedObserver]E3$_8
++ __ZTIZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_90
++ __ZTIZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_92
++ __ZTIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_19
++ __ZTIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_7clEP17FIOperationRecordEUlT_E_
++ __ZTIZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_27clEP11objc_objectP7NSErrorEUlRKNSt3__16vectorINS4_8optionalIU8__strongP6FINodeEENS4_9allocatorISA_EEEEE_
++ __ZTSN4fstd16callable_details15callable_holderIZ55-[FIOperation configureCompletionHandlers:fpOperation:]E4$_23vJU8__strongP7NSArrayIP6FINodeEU8__strongP7NSErrorEEE
++ __ZTSNSt3__110__function6__baseIFvRKbEEE
++ __ZTSNSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_20FvvEEE
++ __ZTSNSt3__110__function6__funcIZ40-[FIOperation handleRecoverableFPError:]E4$_26FvP17FIOperationRecordEEE
++ __ZTSNSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_8FvP12NSDictionaryIP8NSStringP8NSObjectEEEE
++ __ZTSNSt3__110__function6__funcIZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_90FvRU8__strongKP17FIOperationRecordEEE
++ __ZTSNSt3__110__function6__funcIZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_92FvRKbEEE
++ __ZTSNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_11FvvEEE
++ __ZTSNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_19FvP12NSDictionaryIP8NSStringP8NSObjectEEEE
++ __ZTSNSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_7clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EEE
++ __ZTSNSt3__110__function6__funcIZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_27clEP11objc_objectP7NSErrorEUlRKNS_6vectorINS_8optionalIU8__strongP6FINodeEENS_9allocatorISC_EEEEE_FvSH_EEE
++ __ZTSZ32-[FIOperation configureProgress]E4$_20
++ __ZTSZ40-[FIOperation handleRecoverableFPError:]E4$_26
++ __ZTSZ45-[FIOperation startFractionCompletedObserver]E3$_8
++ __ZTSZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_90
++ __ZTSZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_92
++ __ZTSZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_19
++ __ZTSZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_7clEP17FIOperationRecordEUlT_E_
++ __ZTSZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_27clEP11objc_objectP7NSErrorEUlRKNSt3__16vectorINS4_8optionalIU8__strongP6FINodeEENS4_9allocatorISA_EEEEE_
++ __ZTVN4fstd16callable_details15callable_holderIZ55-[FIOperation configureCompletionHandlers:fpOperation:]E4$_23vJU8__strongP7NSArrayIP6FINodeEU8__strongP7NSErrorEEE
++ __ZTVNSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_20FvvEEE
++ __ZTVNSt3__110__function6__funcIZ40-[FIOperation handleRecoverableFPError:]E4$_26FvP17FIOperationRecordEEE
++ __ZTVNSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_8FvP12NSDictionaryIP8NSStringP8NSObjectEEEE
++ __ZTVNSt3__110__function6__funcIZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_90FvRU8__strongKP17FIOperationRecordEEE
++ __ZTVNSt3__110__function6__funcIZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_92FvRKbEEE
++ __ZTVNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_11FvvEEE
++ __ZTVNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_19FvP12NSDictionaryIP8NSStringP8NSObjectEEEE
++ __ZTVNSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_7clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EEE
++ __ZTVNSt3__110__function6__funcIZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_27clEP11objc_objectP7NSErrorEUlRKNS_6vectorINS_8optionalIU8__strongP6FINodeEENS_9allocatorISC_EEEEE_FvSH_EEE
++ __ZZ22PathEligibleForSyncingRK7TStringE12allowedPaths
++ __ZZ27-[FIOperation initIterator]EN4$_388__invokeEP19OpaqueOperationData
++ __ZZ31-[FIOperation cancelWithError:]EN4$_34D1Ev
++ __ZZ40-[FIOperation handleRecoverableFPError:]EN4$_26D1Ev
++ __ZZ40-[FIOperation handleRecoverableFPError:]ENK4$_93clE19OperationResolution
++ __ZZ40-[FIOperation updateCountsFromOpStatus:]EN4$_668__invokeEP10NSProgressx
++ __ZZ40-[FIOperation updateCountsFromOpStatus:]EN4$_678__invokeEP10NSProgressx
++ __ZZ45-[FIOperation fetchNodesAsyncFor:completion:]EN5$_100D1Ev
++ __ZZ46-[FIOperation scheduleFPOperation:completion:]EN4$_27D1Ev
++ __ZZ47-[FIOperation _nodeForOperation:isDestination:]ENK4$_84clEP6FINode
++ __ZZ50-[FIOperation updateTotalCountsFromChildProgress:]EN4$_588__invokeEP10NSProgressx
++ __ZZ50-[FIOperation updateTotalCountsFromChildProgress:]EN4$_618__invokeEP10NSProgressx
++ __ZZ52-[FIOperation registerChildProgress:subscribedNode:]EN4$_19D1Ev
++ __ZZ52-[FIOperation registerChildProgress:subscribedNode:]ENK4$_80clEP8NSNumberS1_14ProgressUpdate
++ __ZZ54-[FIOperation updateCompletedCountsFromChildProgress:]EN4$_738__invokeEP10NSProgressx
++ __ZZ54-[FIOperation updateCompletedCountsFromChildProgress:]EN4$_768__invokeEP10NSProgressx
++ __ZZ55-[FIOperation configureCompletionHandlers:fpOperation:]EN4$_23D1Ev
++ __ZZ55-[FIOperation configureCompletionHandlers:fpOperation:]ENK4$_85clEbP7NSError
++ __ZZ55-[FIOperation makeOperationRecordForFPItem:completion:]EN4$_88D1Ev
++ __ZZ55-[FIOperation makeOperationRecordForFPItem:completion:]ENK4$_87clEP6FINode
++ __ZZN13TFSVolumeInfo16SetDeviceThreadsEvE17kSyncingQueueName
++ __ZZZ45-[FIOperation fetchNodesAsyncFor:completion:]ENK4$_99clEvENKUlP6FINodeE_clES1_
++ __ZZZ45-[FIOperation fetchNodesAsyncFor:completion:]ENK4$_99clEvENUlP6FINodeE_D1Ev
++ __ZZZ45-[FIOperation fetchNodesAsyncFor:completion:]ENK4$_99clEvENUlP6FINodeP7NSErrorE_D1Ev
++ __ZZZ45-[FIOperation fetchNodesAsyncFor:completion:]ENK5$_100clEvENUlvE_D1Ev
++ __ZZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_27clEP11objc_objectP7NSErrorENUlRKNSt3__16vectorINS4_8optionalIU8__strongP6FINodeEENS4_9allocatorISA_EEEEE_D1Ev
++ __ZZZ55-[FIOperation makeOperationRecordForFPItem:completion:]ENK4$_87clEP6FINodeENUlvE_D1Ev
++ __ZZZN10TCFURLInfo16TranslateCFErrorEP9__CFErrorENK3$_0clEvE18ignoredDirectories
++ __ZZZN10TCFURLInfo16TranslateCFErrorEP9__CFErrorENK3$_0clEvENKUlvE1_clEv
++ ____ZL24archiveServiceConnectionPU44objcproto33DSArchiveServiceStreamingInternal11objc_objectP8NSString_block_invoke
++ ____ZZ29-[FIOperation createProgress]ENK4$_30clEv_block_invoke
++ ____ZZ29-[FIOperation createProgress]ENK4$_30cvU13block_pointerFvvEEv_block_invoke
++ ____ZZ33-[FIOperation executeDSOperation]ENK4$_46clE15OperationStatus_block_invoke
++ ____ZZ33-[FIOperation executeDSOperation]ENK4$_46cvU13block_pointerFv15OperationStatusEEv_block_invoke
++ ____ZZ33-[FIOperation executeDSOperation]ENK4$_47clEv_block_invoke
++ ____ZZ33-[FIOperation executeDSOperation]ENK4$_47cvU13block_pointerFvvEEv_block_invoke
++ ____ZZ33-[FIOperation executeDSOperation]ENK4$_48clEP20OperationErrorRecordPK17OperationIterator_block_invoke
++ ____ZZ33-[FIOperation executeDSOperation]ENK4$_48cvU13block_pointerFvP20OperationErrorRecordPK17OperationIteratorEEv_block_invoke
++ ____ZZ33-[FIOperation executeDSOperation]ENK4$_49clEP20OperationErrorRecordPK17OperationIterator_block_invoke
++ ____ZZ33-[FIOperation executeDSOperation]ENK4$_49cvU13block_pointerFvP20OperationErrorRecordPK17OperationIteratorEEv_block_invoke
++ ____ZZ33-[FIOperation executeDSOperation]ENK4$_50clEP20OperationErrorRecord_block_invoke
++ ____ZZ33-[FIOperation executeDSOperation]ENK4$_50cvU13block_pointerFvP20OperationErrorRecordEEv_block_invoke
++ ____ZZ33-[FIOperation executeDSOperation]ENK4$_51clE16NodeSuboperation_block_invoke
++ ____ZZ33-[FIOperation executeDSOperation]ENK4$_51cvU13block_pointerFv16NodeSuboperationEEv_block_invoke
++ ____ZZ33-[FIOperation executeDSOperation]ENK4$_52clE16NodeSuboperationP13OpaqueNodeRef_block_invoke
++ ____ZZ33-[FIOperation executeDSOperation]ENK4$_52cvU13block_pointerFv16NodeSuboperationP13OpaqueNodeRefEEv_block_invoke
++ ____ZZ45-[FIOperation fetchNodesAsyncFor:completion:]ENK4$_99clEv_block_invoke
++ ____ZZ45-[FIOperation fetchNodesAsyncFor:completion:]ENK5$_100clEv_block_invoke
++ ____ZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_27clEP11objc_objectP7NSError_block_invoke
++ ____ZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_27cvU13block_pointerFvP11objc_objectP7NSErrorEEv_block_invoke
++ ____ZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_95clEP7NSError_block_invoke
++ ____ZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_95cvU13block_pointerFvP7NSErrorEEv_block_invoke
++ ____ZZ55-[FIOperation configureCompletionHandlers:fpOperation:]ENK4$_85clEbP7NSError_block_invoke
++ ____ZZ55-[FIOperation makeOperationRecordForFPItem:completion:]ENK4$_87clEP6FINode_block_invoke
++ ____ZZZ32-[FIOperation configureProgress]ENK4$_82clEP10NSProgressP6FINodeENKUlvE_cvU13block_pointerFvvEEv_block_invoke
++ ___block_descriptor_1128_ea8_32c76_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_46clE15OperationStatusEUlvE__e5_v8?0l
++ ___block_descriptor_112_ea8_32c60_ZTSKZ45-[FIOperation fetchNodesAsyncFor:completion:]E5$_100_e5_v8?0l
++ ___block_descriptor_40_ea8_32c43_ZTSKZ29-[FIOperation createProgress]E4$_30_e5_v8?0l
++ ___block_descriptor_40_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_46_e42_v1096?0{OperationStatus=I[1024c]qqqqqqq}8l
++ ___block_descriptor_40_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_47_e5_v8?0l
++ ___block_descriptor_40_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_48_e93_v24?0^{OperationErrorRecord=iII[1024c]B}8r^{OperationIterator=^{OpaqueOperationData}^?^?}16l
++ ___block_descriptor_40_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_49_e93_v24?0^{OperationErrorRecord=iII[1024c]B}8r^{OperationIterator=^{OpaqueOperationData}^?^?}16l
++ ___block_descriptor_40_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_50_e43_v16?0^{OperationErrorRecord=iII[1024c]B}8l
++ ___block_descriptor_40_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_51_e8_v12?0I8l
++ ___block_descriptor_40_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_52_e27_v20?0I8^{OpaqueNodeRef=}12l
++ ___block_descriptor_40_ea8_32c47_ZTSKZ33-[FIOperation executeFPOperation]E4$_94_e29_v24?0"NSArray"8"NSError"16l
++ ___block_descriptor_40_ea8_32c49_ZTSKZ35-[FIOperation setQualityOfService:]E4$_36_e5_v8?0l
++ ___block_descriptor_40_ea8_32c56_ZTSKZZ29-[FIOperation createProgress]ENK4$_30clEvEUlvE__e5_v8?0l
++ ___block_descriptor_40_ea8_32c58_ZTSKZ44-[FIOperation configureProgressUpdateSource]E4$_78_e5_v8?0l
++ ___block_descriptor_40_ea8_32c58_ZTSKZ44-[FIOperation startUpdateTimeRemainingTimer]E4$_77_e5_v8?0l
++ ___block_descriptor_40_ea8_32c60_ZTSKZ46-[FIOperation scheduleFPOperation:completion:]E4$_95_e17_v16?0"NSError"8l
++ ___block_descriptor_40_ea8_32c60_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_47clEvEUlvE__e5_v8?0l
++ ___block_descriptor_48_ea8_32c46_ZTSKZ32-[FIOperation configureProgress]E4$_83_e26_?<v?>16?0"NSProgress"8l
++ ___block_descriptor_48_ea8_32c75_ZTSKZ62-[FILocalAppContainerCollection synchronizeWithOptions:async:]E3$_7_e5_v8?0l
++ ___block_descriptor_48_ea8_32c77_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_51clE16NodeSuboperationEUlvE__e5_v8?0l
++ ___block_descriptor_48_ea8_32c81_ZTSKZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_95clEP7NSErrorEUlvE__e5_v8?0l
++ ___block_descriptor_48_ea8_32c82_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_50clEP20OperationErrorRecordEUlvE__e5_v8?0l
++ ___block_descriptor_56_ea8_32c103_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_48clEP20OperationErrorRecordPK17OperationIteratorEUlvE__e5_v8?0l
++ ___block_descriptor_56_ea8_32c103_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_49clEP20OperationErrorRecordPK17OperationIteratorEUlvE__e5_v8?0l
++ ___block_descriptor_56_ea8_32c45_ZTSKZ31-[FIOperation cancelWithError:]E4$_34_e5_v8?0l
++ ___block_descriptor_56_ea8_32c60_ZTSKZ46-[FIOperation scheduleFPOperation:completion:]E4$_27_e20_v24?08"NSError"16l
++ ___block_descriptor_56_ea8_32c69_ZTSKZ55-[FIOperation configureCompletionHandlers:fpOperation:]E4$_24_e5_v8?0l
++ ___block_descriptor_56_ea8_32c79_ZTSKZZ32-[FIOperation configureProgress]ENK4$_82clEP10NSProgressP6FINodeEUlvE__e5_v8?0l
++ ___block_descriptor_56_ea8_32c91_ZTSKZZ55-[FIOperation configureCompletionHandlers:fpOperation:]ENK4$_85clEbP7NSErrorEUlvE__e5_v8?0l
++ ___block_descriptor_56_ea8_32c93_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_52clE16NodeSuboperationP13OpaqueNodeRefEUlvE__e5_v8?0l
++ ___block_descriptor_56_ea8_32c95_ZTSKZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_27clEP11objc_objectP7NSErrorEUlmE__e8_v16?0Q8l
++ ___block_descriptor_72_ea8_32c70_ZTSKZ56-[FIOperation makeOperationRecordForFPError:completion:]E4$_86_e5_v8?0l
++ ___block_descriptor_72_ea8_32c88_ZTSKZZ45-[FIOperation fetchNodesAsyncFor:completion:]ENK4$_99clEvEUlP6FINodeP7NSErrorE__e28_v24?0"FINode"8"NSError"16l
++ ___block_descriptor_80_ea8_32c69_ZTSKZ55-[FIOperation makeOperationRecordForFPItem:completion:]E4$_88_e28_v24?0"FINode"8"NSError"16l
++ ___block_descriptor_80_ea8_32c89_ZTSKZZ55-[FIOperation makeOperationRecordForFPItem:completion:]ENK4$_87clEP6FINodeEUlvE__e5_v8?0l
++ ___block_descriptor_88_ea8_32c59_ZTSKZ45-[FIOperation fetchNodesAsyncFor:completion:]E4$_99_e5_v8?0l
++ ___block_descriptor_96_ea8_32c73_ZTSKZZ45-[FIOperation fetchNodesAsyncFor:completion:]ENK5$_100clEvEUlvE__e5_v8?0l
++ ___copy_helper_block_ea8_32c103_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_48clEP20OperationErrorRecordPK17OperationIteratorEUlvE_
++ ___copy_helper_block_ea8_32c103_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_49clEP20OperationErrorRecordPK17OperationIteratorEUlvE_
++ ___copy_helper_block_ea8_32c43_ZTSKZ29-[FIOperation createProgress]E4$_30
++ ___copy_helper_block_ea8_32c45_ZTSKZ31-[FIOperation cancelWithError:]E4$_34
++ ___copy_helper_block_ea8_32c46_ZTSKZ32-[FIOperation configureProgress]E4$_83
++ ___copy_helper_block_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_51
++ ___copy_helper_block_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_52
++ ___copy_helper_block_ea8_32c47_ZTSKZ33-[FIOperation executeFPOperation]E4$_94
++ ___copy_helper_block_ea8_32c49_ZTSKZ35-[FIOperation setQualityOfService:]E4$_36
++ ___copy_helper_block_ea8_32c56_ZTSKZZ29-[FIOperation createProgress]ENK4$_30clEvEUlvE_
++ ___copy_helper_block_ea8_32c58_ZTSKZ44-[FIOperation configureProgressUpdateSource]E4$_78
++ ___copy_helper_block_ea8_32c58_ZTSKZ44-[FIOperation startUpdateTimeRemainingTimer]E4$_77
++ ___copy_helper_block_ea8_32c59_ZTSKZ45-[FIOperation fetchNodesAsyncFor:completion:]E4$_99
++ ___copy_helper_block_ea8_32c60_ZTSKZ45-[FIOperation fetchNodesAsyncFor:completion:]E5$_100
++ ___copy_helper_block_ea8_32c60_ZTSKZ46-[FIOperation scheduleFPOperation:completion:]E4$_27
++ ___copy_helper_block_ea8_32c60_ZTSKZ46-[FIOperation scheduleFPOperation:completion:]E4$_95
++ ___copy_helper_block_ea8_32c60_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_47clEvEUlvE_
++ ___copy_helper_block_ea8_32c69_ZTSKZ55-[FIOperation configureCompletionHandlers:fpOperation:]E4$_24
++ ___copy_helper_block_ea8_32c69_ZTSKZ55-[FIOperation makeOperationRecordForFPItem:completion:]E4$_88
++ ___copy_helper_block_ea8_32c70_ZTSKZ56-[FIOperation makeOperationRecordForFPError:completion:]E4$_86
++ ___copy_helper_block_ea8_32c73_ZTSKZZ45-[FIOperation fetchNodesAsyncFor:completion:]ENK5$_100clEvEUlvE_
++ ___copy_helper_block_ea8_32c75_ZTSKZ62-[FILocalAppContainerCollection synchronizeWithOptions:async:]E3$_7
++ ___copy_helper_block_ea8_32c76_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_46clE15OperationStatusEUlvE_
++ ___copy_helper_block_ea8_32c77_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_51clE16NodeSuboperationEUlvE_
++ ___copy_helper_block_ea8_32c79_ZTSKZZ32-[FIOperation configureProgress]ENK4$_82clEP10NSProgressP6FINodeEUlvE_
++ ___copy_helper_block_ea8_32c81_ZTSKZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_95clEP7NSErrorEUlvE_
++ ___copy_helper_block_ea8_32c82_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_50clEP20OperationErrorRecordEUlvE_
++ ___copy_helper_block_ea8_32c88_ZTSKZZ45-[FIOperation fetchNodesAsyncFor:completion:]ENK4$_99clEvEUlP6FINodeP7NSErrorE_
++ ___copy_helper_block_ea8_32c89_ZTSKZZ55-[FIOperation makeOperationRecordForFPItem:completion:]ENK4$_87clEP6FINodeEUlvE_
++ ___copy_helper_block_ea8_32c91_ZTSKZZ55-[FIOperation configureCompletionHandlers:fpOperation:]ENK4$_85clEbP7NSErrorEUlvE_
++ ___copy_helper_block_ea8_32c93_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_52clE16NodeSuboperationP13OpaqueNodeRefEUlvE_
++ ___copy_helper_block_ea8_32c95_ZTSKZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_27clEP11objc_objectP7NSErrorEUlmE_
++ ___destroy_helper_block_ea8_32c103_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_48clEP20OperationErrorRecordPK17OperationIteratorEUlvE_
++ ___destroy_helper_block_ea8_32c103_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_49clEP20OperationErrorRecordPK17OperationIteratorEUlvE_
++ ___destroy_helper_block_ea8_32c43_ZTSKZ29-[FIOperation createProgress]E4$_30
++ ___destroy_helper_block_ea8_32c45_ZTSKZ31-[FIOperation cancelWithError:]E4$_34
++ ___destroy_helper_block_ea8_32c46_ZTSKZ32-[FIOperation configureProgress]E4$_83
++ ___destroy_helper_block_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_51
++ ___destroy_helper_block_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_52
++ ___destroy_helper_block_ea8_32c47_ZTSKZ33-[FIOperation executeFPOperation]E4$_94
++ ___destroy_helper_block_ea8_32c49_ZTSKZ35-[FIOperation setQualityOfService:]E4$_36
++ ___destroy_helper_block_ea8_32c56_ZTSKZZ29-[FIOperation createProgress]ENK4$_30clEvEUlvE_
++ ___destroy_helper_block_ea8_32c58_ZTSKZ44-[FIOperation configureProgressUpdateSource]E4$_78
++ ___destroy_helper_block_ea8_32c58_ZTSKZ44-[FIOperation startUpdateTimeRemainingTimer]E4$_77
++ ___destroy_helper_block_ea8_32c59_ZTSKZ45-[FIOperation fetchNodesAsyncFor:completion:]E4$_99
++ ___destroy_helper_block_ea8_32c60_ZTSKZ45-[FIOperation fetchNodesAsyncFor:completion:]E5$_100
++ ___destroy_helper_block_ea8_32c60_ZTSKZ46-[FIOperation scheduleFPOperation:completion:]E4$_27
++ ___destroy_helper_block_ea8_32c60_ZTSKZ46-[FIOperation scheduleFPOperation:completion:]E4$_95
++ ___destroy_helper_block_ea8_32c60_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_47clEvEUlvE_
++ ___destroy_helper_block_ea8_32c69_ZTSKZ55-[FIOperation configureCompletionHandlers:fpOperation:]E4$_24
++ ___destroy_helper_block_ea8_32c69_ZTSKZ55-[FIOperation makeOperationRecordForFPItem:completion:]E4$_88
++ ___destroy_helper_block_ea8_32c70_ZTSKZ56-[FIOperation makeOperationRecordForFPError:completion:]E4$_86
++ ___destroy_helper_block_ea8_32c73_ZTSKZZ45-[FIOperation fetchNodesAsyncFor:completion:]ENK5$_100clEvEUlvE_
++ ___destroy_helper_block_ea8_32c75_ZTSKZ62-[FILocalAppContainerCollection synchronizeWithOptions:async:]E3$_7
++ ___destroy_helper_block_ea8_32c76_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_46clE15OperationStatusEUlvE_
++ ___destroy_helper_block_ea8_32c77_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_51clE16NodeSuboperationEUlvE_
++ ___destroy_helper_block_ea8_32c79_ZTSKZZ32-[FIOperation configureProgress]ENK4$_82clEP10NSProgressP6FINodeEUlvE_
++ ___destroy_helper_block_ea8_32c81_ZTSKZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_95clEP7NSErrorEUlvE_
++ ___destroy_helper_block_ea8_32c82_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_50clEP20OperationErrorRecordEUlvE_
++ ___destroy_helper_block_ea8_32c88_ZTSKZZ45-[FIOperation fetchNodesAsyncFor:completion:]ENK4$_99clEvEUlP6FINodeP7NSErrorE_
++ ___destroy_helper_block_ea8_32c89_ZTSKZZ55-[FIOperation makeOperationRecordForFPItem:completion:]ENK4$_87clEP6FINodeEUlvE_
++ ___destroy_helper_block_ea8_32c91_ZTSKZZ55-[FIOperation configureCompletionHandlers:fpOperation:]ENK4$_85clEbP7NSErrorEUlvE_
++ ___destroy_helper_block_ea8_32c93_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_52clE16NodeSuboperationP13OpaqueNodeRefEUlvE_
++ ___destroy_helper_block_ea8_32c95_ZTSKZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_27clEP11objc_objectP7NSErrorEUlmE_
+- +[DSQuarantine writeDefaultQuarantineTemplateFile]
+- -[FIOperation _applyResolution:toRemainingConflicts:]
+- -[FIOperation currentIndex]
+- -[FIOperation resetIterator]
+- -[FIOperation setCurrentIndex:]
+- GCC_except_table1019
+- GCC_except_table1020
+- GCC_except_table1040
+- GCC_except_table1042
+- GCC_except_table1052
+- GCC_except_table1054
+- GCC_except_table1055
+- GCC_except_table1135
+- GCC_except_table1223
+- GCC_except_table1227
+- GCC_except_table163
+- GCC_except_table214
+- GCC_except_table311
+- GCC_except_table316
+- GCC_except_table366
+- GCC_except_table381
+- GCC_except_table422
+- GCC_except_table438
+- GCC_except_table468
+- GCC_except_table470
+- GCC_except_table491
+- GCC_except_table537
+- GCC_except_table544
+- GCC_except_table548
+- GCC_except_table549
+- GCC_except_table560
+- GCC_except_table561
+- GCC_except_table563
+- GCC_except_table567
+- GCC_except_table570
+- GCC_except_table580
+- GCC_except_table581
+- GCC_except_table584
+- GCC_except_table604
+- GCC_except_table618
+- GCC_except_table619
+- GCC_except_table621
+- GCC_except_table634
+- GCC_except_table636
+- GCC_except_table638
+- GCC_except_table640
+- GCC_except_table648
+- GCC_except_table661
+- GCC_except_table674
+- GCC_except_table676
+- GCC_except_table684
+- GCC_except_table685
+- GCC_except_table694
+- GCC_except_table701
+- GCC_except_table714
+- GCC_except_table792
+- GCC_except_table794
+- GCC_except_table795
+- GCC_except_table818
+- GCC_except_table837
+- GCC_except_table851
+- GCC_except_table853
+- GCC_except_table858
+- GCC_except_table859
+- GCC_except_table874
+- GCC_except_table875
+- GCC_except_table901
+- GCC_except_table903
+- GCC_except_table936
+- GCC_except_table963
+- GCC_except_table965
+- GCC_except_table967
+- GCC_except_table974
+- GCC_except_table975
+- GCC_except_table976
+- GCC_except_table977
+- GCC_except_table983
+- GCC_except_table987
+- _OBJC_IVAR_$_FIOperation._currentIndex
+- __OBJC_$_CLASS_METHODS_FINode(trackNodes|Debugging|ProtectedApps)
+- __OBJC_$_INSTANCE_METHODS_FINode(trackNodes|Debugging|ProtectedApps)
+- __Z11DescriptionRK9TCopyItem
+- __Z13FormatDetailsIU8__strongP8NSStringJbPKcEENSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEERKNS5_17basic_string_viewIcS8_EERKT_DpRKT0_
+- __Z13FormatDetailsIbJEENSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEERKNS0_17basic_string_viewIcS3_EERKT_DpRKT0_
+- __Z13FormatDetailsIbJPKcEENSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEERKNS2_17basic_string_viewIcS5_EERKT_DpRKT0_
+- __Z16FormatOneDetailsIbENSt3__14pairI15FormatOneResult11PrintFormatEERNS0_17basic_string_viewIcNS0_11char_traitsIcEEEERNS0_12basic_stringIcS7_NS0_9allocatorIcEEEERKT_
+- __Z18HasAnyResolveFlagsRK7TString
+- __Z19kTStringLiteralDataIJLc63EEE
+- __Z23PathEligibleForSynchingRK7TString
+- __Z26GCaseInsensitiveRawComparev
+- __Z32ErrorLocalizedStringWithOSStatusi
+- __ZGVZ23PathEligibleForSynchingRK7TStringE12allowedPaths
+- __ZGVZN10TCFURLInfo16TranslateCFErrorEP9__CFErrorE18ignoredDirectories
+- __ZL24archiveServiceConnectionPU44objcproto33DSArchiveServiceStreamingInternal11objc_object
+- __ZN25HexDescriptionPrinterGlueIbvE4dumpERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKb
+- __ZN27TCaseInsensitiveRawCollatorD0Ev
+- __ZN27TCaseInsensitiveRawCollatorD1Ev
+- __ZN4fstd16callable_details15callable_holderIZ55-[FIOperation configureCompletionHandlers:fpOperation:]E4$_21vJU8__strongP7NSArrayIP6FINodeEU8__strongP7NSErrorEED0Ev
+- __ZN4fstd16callable_details15callable_holderIZ55-[FIOperation configureCompletionHandlers:fpOperation:]E4$_21vJU8__strongP7NSArrayIP6FINodeEU8__strongP7NSErrorEED1Ev
+- __ZN4fstd16callable_details15callable_holderIZ55-[FIOperation configureCompletionHandlers:fpOperation:]E4$_21vJU8__strongP7NSArrayIP6FINodeEU8__strongP7NSErrorEEclES7_SA_
+- __ZN5TNode14ResumeSynchingEv
+- __ZN5TNode15SuspendSynchingEv
+- __ZN7StDeferIZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_24ED1Ev
+- __ZN7StDeferIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_6clEP17FIOperationRecordEUlvE0_ED1Ev
+- __ZN7StDeferIZZ55-[FIOperation configureCompletionHandlers:fpOperation:]ENK4$_23clEvEUlvE_ED1Ev
+- __ZN8TVisitorIJZZ55-[FIOperation configureCompletionHandlers:fpOperation:]ENK4$_23clEvEUlP6FINodeE0_ZZ55-[FIOperation configureCompletionHandlers:fpOperation:]ENKS0_clEvEUlP6FPItemE_EED1Ev
+- __ZNK13TFSVolumeInfo19GetSynchingGCDQueueEv
+- __ZNK17TVolumeSyncThread16SynchingCanceledEv
+- __ZNK17TVolumeSyncThread19GetSynchingGCDQueueEv
+- __ZNK27TCaseInsensitiveRawCollatorclERK7TStringS2_
+- __ZNK27TCaseInsensitiveRawCollatorclERK7TStringS2_RK7CFRange
+- __ZNK4fstd16callable_details15callable_holderIZ55-[FIOperation configureCompletionHandlers:fpOperation:]E4$_21vJU8__strongP7NSArrayIP6FINodeEU8__strongP7NSErrorEE9has_valueEv
+- __ZNK5TNode17SynchingSuspendedEv
+- __ZNK5TNode21IsSynchingAppropriateEv
+- __ZNK7TString10BeginsWithERKS_RK9ICollator
+- __ZNKSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_19FvvEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_19FvvEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_19FvvEE7__cloneEPNS0_6__baseIS3_EE
+- __ZNKSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_19FvvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ40-[FIOperation handleRecoverableFPError:]E4$_25FvP17FIOperationRecordEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ40-[FIOperation handleRecoverableFPError:]E4$_25FvP17FIOperationRecordEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ40-[FIOperation handleRecoverableFPError:]E4$_25FvP17FIOperationRecordEE7__cloneEPNS0_6__baseIS5_EE
+- __ZNKSt3__110__function6__funcIZ40-[FIOperation handleRecoverableFPError:]E4$_25FvP17FIOperationRecordEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_7FvP12NSDictionaryIP8NSStringP8NSObjectEEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_7FvP12NSDictionaryIP8NSStringP8NSObjectEEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_7FvP12NSDictionaryIP8NSStringP8NSObjectEEE7__cloneEPNS0_6__baseISA_EE
+- __ZNKSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_7FvP12NSDictionaryIP8NSStringP8NSObjectEEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_88FvRU8__strongKP17FIOperationRecordEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_88FvRU8__strongKP17FIOperationRecordEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_88FvRU8__strongKP17FIOperationRecordEE7__cloneEPNS0_6__baseIS7_EE
+- __ZNKSt3__110__function6__funcIZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_88FvRU8__strongKP17FIOperationRecordEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_10FvvEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_10FvvEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_10FvvEE7__cloneEPNS0_6__baseIS3_EE
+- __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_10FvvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_11FvP12NSDictionaryIP8NSStringP8NSObjectEEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_11FvP12NSDictionaryIP8NSStringP8NSObjectEEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_11FvP12NSDictionaryIP8NSStringP8NSObjectEEE7__cloneEPNS0_6__baseISA_EE
+- __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_11FvP12NSDictionaryIP8NSStringP8NSObjectEEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_6clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EE11target_typeEv
+- __ZNKSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_6clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_6clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EE7__cloneEPNS0_6__baseIS9_EE
+- __ZNKSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_6clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EE7__cloneEv
+- __ZNKSt3__110__function6__funcIZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_26clEP11objc_objectP7NSErrorEUlRKNS_6vectorINS_8optionalIU8__strongP6FINodeEENS_9allocatorISC_EEEEE_FvSH_EE11target_typeEv
+- __ZNKSt3__110__function6__funcIZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_26clEP11objc_objectP7NSErrorEUlRKNS_6vectorINS_8optionalIU8__strongP6FINodeEENS_9allocatorISC_EEEEE_FvSH_EE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_26clEP11objc_objectP7NSErrorEUlRKNS_6vectorINS_8optionalIU8__strongP6FINodeEENS_9allocatorISC_EEEEE_FvSH_EE7__cloneEPNS0_6__baseISJ_EE
+- __ZNKSt3__110__function6__funcIZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_26clEP11objc_objectP7NSErrorEUlRKNS_6vectorINS_8optionalIU8__strongP6FINodeEENS_9allocatorISC_EEEEE_FvSH_EE7__cloneEv
+- __ZNSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_19FvvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_19FvvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_19FvvEED0Ev
+- __ZNSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_19FvvEED1Ev
+- __ZNSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_19FvvEEclEv
+- __ZNSt3__110__function6__funcIZ40-[FIOperation handleRecoverableFPError:]E4$_25FvP17FIOperationRecordEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ40-[FIOperation handleRecoverableFPError:]E4$_25FvP17FIOperationRecordEE7destroyEv
+- __ZNSt3__110__function6__funcIZ40-[FIOperation handleRecoverableFPError:]E4$_25FvP17FIOperationRecordEEC1B9fqe220106ERKS2_
+- __ZNSt3__110__function6__funcIZ40-[FIOperation handleRecoverableFPError:]E4$_25FvP17FIOperationRecordEED0Ev
+- __ZNSt3__110__function6__funcIZ40-[FIOperation handleRecoverableFPError:]E4$_25FvP17FIOperationRecordEED1Ev
+- __ZNSt3__110__function6__funcIZ40-[FIOperation handleRecoverableFPError:]E4$_25FvP17FIOperationRecordEEclEOU8__strongS4_
+- __ZNSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_7FvP12NSDictionaryIP8NSStringP8NSObjectEEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_7FvP12NSDictionaryIP8NSStringP8NSObjectEEE7destroyEv
+- __ZNSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_7FvP12NSDictionaryIP8NSStringP8NSObjectEEED0Ev
+- __ZNSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_7FvP12NSDictionaryIP8NSStringP8NSObjectEEED1Ev
+- __ZNSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_7FvP12NSDictionaryIP8NSStringP8NSObjectEEEclEOU8__strongS9_
+- __ZNSt3__110__function6__funcIZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_88FvRU8__strongKP17FIOperationRecordEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_88FvRU8__strongKP17FIOperationRecordEE7destroyEv
+- __ZNSt3__110__function6__funcIZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_88FvRU8__strongKP17FIOperationRecordEED0Ev
+- __ZNSt3__110__function6__funcIZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_88FvRU8__strongKP17FIOperationRecordEED1Ev
+- __ZNSt3__110__function6__funcIZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_88FvRU8__strongKP17FIOperationRecordEEclES6_
+- __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_10FvvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_10FvvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_10FvvEED0Ev
+- __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_10FvvEED1Ev
+- __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_10FvvEEclEv
+- __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_11FvP12NSDictionaryIP8NSStringP8NSObjectEEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_11FvP12NSDictionaryIP8NSStringP8NSObjectEEE7destroyEv
+- __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_11FvP12NSDictionaryIP8NSStringP8NSObjectEEED0Ev
+- __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_11FvP12NSDictionaryIP8NSStringP8NSObjectEEED1Ev
+- __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_11FvP12NSDictionaryIP8NSStringP8NSObjectEEEclEOU8__strongS9_
+- __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_18FvP12NSDictionaryIP8NSStringP8NSObjectEEEC1B9fqe220106ERKS2_
+- __ZNSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_6clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_6clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EE7destroyEv
+- __ZNSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_6clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EED0Ev
+- __ZNSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_6clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EED1Ev
+- __ZNSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_6clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EEclES8_
+- __ZNSt3__110__function6__funcIZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_26clEP11objc_objectP7NSErrorEUlRKNS_6vectorINS_8optionalIU8__strongP6FINodeEENS_9allocatorISC_EEEEE_FvSH_EE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_26clEP11objc_objectP7NSErrorEUlRKNS_6vectorINS_8optionalIU8__strongP6FINodeEENS_9allocatorISC_EEEEE_FvSH_EE7destroyEv
+- __ZNSt3__110__function6__funcIZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_26clEP11objc_objectP7NSErrorEUlRKNS_6vectorINS_8optionalIU8__strongP6FINodeEENS_9allocatorISC_EEEEE_FvSH_EEC1B9fqe220106ERKSI_
+- __ZNSt3__110__function6__funcIZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_26clEP11objc_objectP7NSErrorEUlRKNS_6vectorINS_8optionalIU8__strongP6FINodeEENS_9allocatorISC_EEEEE_FvSH_EED0Ev
+- __ZNSt3__110__function6__funcIZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_26clEP11objc_objectP7NSErrorEUlRKNS_6vectorINS_8optionalIU8__strongP6FINodeEENS_9allocatorISC_EEEEE_FvSH_EED1Ev
+- __ZNSt3__110__function6__funcIZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_26clEP11objc_objectP7NSErrorEUlRKNS_6vectorINS_8optionalIU8__strongP6FINodeEENS_9allocatorISC_EEEEE_FvSH_EEclESH_
+- __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsEb
+- __ZNSt3__114__split_bufferIU8__strongP5NSURLRNS_9allocatorIS3_EEED2Ev
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm0EEE10__dispatchB9fqe220106IONS1_9__variant15__value_visitorI8TVisitorIJZZ55-[FIOperation configureCompletionHandlers:fpOperation:]ENK4$_23clEvEUlP6FINodeE0_ZZ55-[FIOperation configureCompletionHandlers:fpOperation:]ENKS9_clEvEUlP6FPItemE_EEEEJRKNS0_6__baseILNS0_6_TraitE1EJU8__strongSB_U8__strongSE_EEEEEEDcT_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm1EEE10__dispatchB9fqe220106IONS1_9__variant15__value_visitorI8TVisitorIJZZ55-[FIOperation configureCompletionHandlers:fpOperation:]ENK4$_23clEvEUlP6FINodeE0_ZZ55-[FIOperation configureCompletionHandlers:fpOperation:]ENKS9_clEvEUlP6FPItemE_EEEEJRKNS0_6__baseILNS0_6_TraitE1EJU8__strongSB_U8__strongSE_EEEEEEDcT_DpT0_
+- __ZNSt3__16vectorI7TStringNS_9allocatorIS1_EEE24__emplace_back_slow_pathIJRA19_KcEEEPS1_DpOT_
+- __ZNSt3__16vectorIU8__strongP5NSURLNS_9allocatorIS3_EEE16__destroy_vectorclB9fqe220106Ev
+- __ZNSt3__16vectorIU8__strongP5NSURLNS_9allocatorIS3_EEE20__throw_length_errorB9fqe220106Ev
+- __ZNSt3__16vectorIU8__strongP5NSURLNS_9allocatorIS3_EEE24__emplace_back_slow_pathIJRU8__strongKS2_EEEPS3_DpOT_
+- __ZNSt3__16vectorIU8__strongP5NSURLNS_9allocatorIS3_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS3_RS5_EE
+- __ZNSt3__16vectorIU8__strongP5NSURLNS_9allocatorIS3_EEE9push_backB9fqe220106ERU8__strongKS2_
+- __ZNSt3__19allocatorIU8__strongP5NSURLE17allocate_at_leastB9fqe220106Em
+- __ZTI27TCaseInsensitiveRawCollator
+- __ZTIN4fstd16callable_details15callable_holderIZ55-[FIOperation configureCompletionHandlers:fpOperation:]E4$_21vJU8__strongP7NSArrayIP6FINodeEU8__strongP7NSErrorEEE
+- __ZTINSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_19FvvEEE
+- __ZTINSt3__110__function6__funcIZ40-[FIOperation handleRecoverableFPError:]E4$_25FvP17FIOperationRecordEEE
+- __ZTINSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_7FvP12NSDictionaryIP8NSStringP8NSObjectEEEE
+- __ZTINSt3__110__function6__funcIZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_88FvRU8__strongKP17FIOperationRecordEEE
+- __ZTINSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_10FvvEEE
+- __ZTINSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_11FvP12NSDictionaryIP8NSStringP8NSObjectEEEE
+- __ZTINSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_6clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EEE
+- __ZTINSt3__110__function6__funcIZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_26clEP11objc_objectP7NSErrorEUlRKNS_6vectorINS_8optionalIU8__strongP6FINodeEENS_9allocatorISC_EEEEE_FvSH_EEE
+- __ZTIZ32-[FIOperation configureProgress]E4$_19
+- __ZTIZ40-[FIOperation handleRecoverableFPError:]E4$_25
+- __ZTIZ45-[FIOperation startFractionCompletedObserver]E3$_7
+- __ZTIZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_88
+- __ZTIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_10
+- __ZTIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_6clEP17FIOperationRecordEUlT_E_
+- __ZTIZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_26clEP11objc_objectP7NSErrorEUlRKNSt3__16vectorINS4_8optionalIU8__strongP6FINodeEENS4_9allocatorISA_EEEEE_
+- __ZTS27TCaseInsensitiveRawCollator
+- __ZTSN4fstd16callable_details15callable_holderIZ55-[FIOperation configureCompletionHandlers:fpOperation:]E4$_21vJU8__strongP7NSArrayIP6FINodeEU8__strongP7NSErrorEEE
+- __ZTSNSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_19FvvEEE
+- __ZTSNSt3__110__function6__funcIZ40-[FIOperation handleRecoverableFPError:]E4$_25FvP17FIOperationRecordEEE
+- __ZTSNSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_7FvP12NSDictionaryIP8NSStringP8NSObjectEEEE
+- __ZTSNSt3__110__function6__funcIZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_88FvRU8__strongKP17FIOperationRecordEEE
+- __ZTSNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_10FvvEEE
+- __ZTSNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_11FvP12NSDictionaryIP8NSStringP8NSObjectEEEE
+- __ZTSNSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_6clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EEE
+- __ZTSNSt3__110__function6__funcIZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_26clEP11objc_objectP7NSErrorEUlRKNS_6vectorINS_8optionalIU8__strongP6FINodeEENS_9allocatorISC_EEEEE_FvSH_EEE
+- __ZTSZ32-[FIOperation configureProgress]E4$_19
+- __ZTSZ40-[FIOperation handleRecoverableFPError:]E4$_25
+- __ZTSZ45-[FIOperation startFractionCompletedObserver]E3$_7
+- __ZTSZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_88
+- __ZTSZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_10
+- __ZTSZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_6clEP17FIOperationRecordEUlT_E_
+- __ZTSZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_26clEP11objc_objectP7NSErrorEUlRKNSt3__16vectorINS4_8optionalIU8__strongP6FINodeEENS4_9allocatorISA_EEEEE_
+- __ZTV27TCaseInsensitiveRawCollator
+- __ZTVN4fstd16callable_details15callable_holderIZ55-[FIOperation configureCompletionHandlers:fpOperation:]E4$_21vJU8__strongP7NSArrayIP6FINodeEU8__strongP7NSErrorEEE
+- __ZTVNSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_19FvvEEE
+- __ZTVNSt3__110__function6__funcIZ40-[FIOperation handleRecoverableFPError:]E4$_25FvP17FIOperationRecordEEE
+- __ZTVNSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_7FvP12NSDictionaryIP8NSStringP8NSObjectEEEE
+- __ZTVNSt3__110__function6__funcIZ48-[FIOperation resolutionForFPConflict:opRecord:]E4$_88FvRU8__strongKP17FIOperationRecordEEE
+- __ZTVNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_10FvvEEE
+- __ZTVNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_11FvP12NSDictionaryIP8NSStringP8NSObjectEEEE
+- __ZTVNSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_6clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EEE
+- __ZTVNSt3__110__function6__funcIZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_26clEP11objc_objectP7NSErrorEUlRKNS_6vectorINS_8optionalIU8__strongP6FINodeEENS_9allocatorISC_EEEEE_FvSH_EEE
+- __ZZ23PathEligibleForSynchingRK7TStringE12allowedPaths
+- __ZZ27-[FIOperation initIterator]EN4$_368__invokeEP19OpaqueOperationData
+- __ZZ31-[FIOperation cancelWithError:]EN4$_33D1Ev
+- __ZZ40-[FIOperation handleRecoverableFPError:]EN4$_25D1Ev
+- __ZZ40-[FIOperation handleRecoverableFPError:]ENK4$_89clE19OperationResolution
+- __ZZ40-[FIOperation updateCountsFromOpStatus:]EN4$_648__invokeEP10NSProgressx
+- __ZZ40-[FIOperation updateCountsFromOpStatus:]EN4$_658__invokeEP10NSProgressx
+- __ZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_6clEP17FIOperationRecord
+- __ZZ45-[FIOperation fetchNodesAsyncFor:completion:]EN4$_96D1Ev
+- __ZZ46-[FIOperation scheduleFPOperation:completion:]EN4$_26D1Ev
+- __ZZ47-[FIOperation _nodeForOperation:isDestination:]ENK4$_82clEP6FINode
+- __ZZ50-[FIOperation updateTotalCountsFromChildProgress:]EN4$_548__invokeEP10NSProgressx
+- __ZZ50-[FIOperation updateTotalCountsFromChildProgress:]EN4$_578__invokeEP10NSProgressx
+- __ZZ52-[FIOperation registerChildProgress:subscribedNode:]EN4$_18D1Ev
+- __ZZ52-[FIOperation registerChildProgress:subscribedNode:]ENK4$_78clEP8NSNumberS1_14ProgressUpdate
+- __ZZ54-[FIOperation updateCompletedCountsFromChildProgress:]EN4$_698__invokeEP10NSProgressx
+- __ZZ54-[FIOperation updateCompletedCountsFromChildProgress:]EN4$_728__invokeEP10NSProgressx
+- __ZZ55-[FIOperation configureCompletionHandlers:fpOperation:]EN4$_21D1Ev
+- __ZZ55-[FIOperation configureCompletionHandlers:fpOperation:]ENK4$_83clEbP7NSError
+- __ZZ55-[FIOperation makeOperationRecordForFPItem:completion:]EN4$_86D1Ev
+- __ZZ55-[FIOperation makeOperationRecordForFPItem:completion:]ENK4$_85clEP6FINode
+- __ZZN10TCFURLInfo16TranslateCFErrorEP9__CFErrorE18ignoredDirectories
+- __ZZN10TCFURLInfo16TranslateCFErrorEP9__CFErrorENK3$_1clEv
+- __ZZN13TFSVolumeInfo16SetDeviceThreadsEvE18kSynchingQueueName
+- __ZZZ45-[FIOperation fetchNodesAsyncFor:completion:]ENK4$_95clEvENKUlP6FINodeE_clES1_
+- __ZZZ45-[FIOperation fetchNodesAsyncFor:completion:]ENK4$_95clEvENUlP6FINodeE_D1Ev
+- __ZZZ45-[FIOperation fetchNodesAsyncFor:completion:]ENK4$_95clEvENUlP6FINodeP7NSErrorE_D1Ev
+- __ZZZ45-[FIOperation fetchNodesAsyncFor:completion:]ENK4$_96clEvENUlvE_D1Ev
+- __ZZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_26clEP11objc_objectP7NSErrorENUlRKNSt3__16vectorINS4_8optionalIU8__strongP6FINodeEENS4_9allocatorISA_EEEEE_D1Ev
+- __ZZZ55-[FIOperation makeOperationRecordForFPItem:completion:]ENK4$_85clEP6FINodeENUlvE_D1Ev
+- ____ZL24archiveServiceConnectionPU44objcproto33DSArchiveServiceStreamingInternal11objc_object_block_invoke
+- ____ZZ29-[FIOperation createProgress]ENK4$_27clEv_block_invoke
+- ____ZZ29-[FIOperation createProgress]ENK4$_27cvU13block_pointerFvvEEv_block_invoke
+- ____ZZ33-[FIOperation executeDSOperation]ENK4$_44clE15OperationStatus_block_invoke
+- ____ZZ33-[FIOperation executeDSOperation]ENK4$_44cvU13block_pointerFv15OperationStatusEEv_block_invoke
+- ____ZZ33-[FIOperation executeDSOperation]ENK4$_45clEv_block_invoke
+- ____ZZ33-[FIOperation executeDSOperation]ENK4$_45cvU13block_pointerFvvEEv_block_invoke
+- ____ZZ33-[FIOperation executeDSOperation]ENK4$_46clEP20OperationErrorRecordPK17OperationIterator_block_invoke
+- ____ZZ33-[FIOperation executeDSOperation]ENK4$_46cvU13block_pointerFvP20OperationErrorRecordPK17OperationIteratorEEv_block_invoke
+- ____ZZ33-[FIOperation executeDSOperation]ENK4$_47clEP20OperationErrorRecordPK17OperationIterator_block_invoke
+- ____ZZ33-[FIOperation executeDSOperation]ENK4$_47cvU13block_pointerFvP20OperationErrorRecordPK17OperationIteratorEEv_block_invoke
+- ____ZZ33-[FIOperation executeDSOperation]ENK4$_48clEP20OperationErrorRecord_block_invoke
+- ____ZZ33-[FIOperation executeDSOperation]ENK4$_48cvU13block_pointerFvP20OperationErrorRecordEEv_block_invoke
+- ____ZZ33-[FIOperation executeDSOperation]ENK4$_49clE16NodeSuboperation_block_invoke
+- ____ZZ33-[FIOperation executeDSOperation]ENK4$_49cvU13block_pointerFv16NodeSuboperationEEv_block_invoke
+- ____ZZ33-[FIOperation executeDSOperation]ENK4$_50clE16NodeSuboperationP13OpaqueNodeRef_block_invoke
+- ____ZZ33-[FIOperation executeDSOperation]ENK4$_50cvU13block_pointerFv16NodeSuboperationP13OpaqueNodeRefEEv_block_invoke
+- ____ZZ45-[FIOperation fetchNodesAsyncFor:completion:]ENK4$_95clEv_block_invoke
+- ____ZZ45-[FIOperation fetchNodesAsyncFor:completion:]ENK4$_96clEv_block_invoke
+- ____ZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_26clEP11objc_objectP7NSError_block_invoke
+- ____ZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_26cvU13block_pointerFvP11objc_objectP7NSErrorEEv_block_invoke
+- ____ZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_91clEP7NSError_block_invoke
+- ____ZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_91cvU13block_pointerFvP7NSErrorEEv_block_invoke
+- ____ZZ55-[FIOperation configureCompletionHandlers:fpOperation:]ENK4$_83clEbP7NSError_block_invoke
+- ____ZZ55-[FIOperation makeOperationRecordForFPItem:completion:]ENK4$_85clEP6FINode_block_invoke
+- ____ZZZ32-[FIOperation configureProgress]ENK4$_80clEP10NSProgressP6FINodeENKUlvE_cvU13block_pointerFvvEEv_block_invoke
+- ___block_descriptor_1128_ea8_32c76_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_44clE15OperationStatusEUlvE__e5_v8?0l
+- ___block_descriptor_112_ea8_32c59_ZTSKZ45-[FIOperation fetchNodesAsyncFor:completion:]E4$_96_e5_v8?0l
+- ___block_descriptor_40_ea8_32c43_ZTSKZ29-[FIOperation createProgress]E4$_27_e5_v8?0l
+- ___block_descriptor_40_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_44_e42_v1096?0{OperationStatus=I[1024c]qqqqqqq}8l
+- ___block_descriptor_40_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_45_e5_v8?0l
+- ___block_descriptor_40_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_46_e93_v24?0^{OperationErrorRecord=iII[1024c]B}8r^{OperationIterator=^{OpaqueOperationData}^?^?}16l
+- ___block_descriptor_40_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_47_e93_v24?0^{OperationErrorRecord=iII[1024c]B}8r^{OperationIterator=^{OpaqueOperationData}^?^?}16l
+- ___block_descriptor_40_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_48_e43_v16?0^{OperationErrorRecord=iII[1024c]B}8l
+- ___block_descriptor_40_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_49_e8_v12?0I8l
+- ___block_descriptor_40_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_50_e27_v20?0I8^{OpaqueNodeRef=}12l
+- ___block_descriptor_40_ea8_32c47_ZTSKZ33-[FIOperation executeFPOperation]E4$_90_e29_v24?0"NSArray"8"NSError"16l
+- ___block_descriptor_40_ea8_32c49_ZTSKZ35-[FIOperation setQualityOfService:]E4$_34_e5_v8?0l
+- ___block_descriptor_40_ea8_32c56_ZTSKZZ29-[FIOperation createProgress]ENK4$_27clEvEUlvE__e5_v8?0l
+- ___block_descriptor_40_ea8_32c58_ZTSKZ44-[FIOperation configureProgressUpdateSource]E4$_76_e5_v8?0l
+- ___block_descriptor_40_ea8_32c58_ZTSKZ44-[FIOperation startUpdateTimeRemainingTimer]E4$_75_e5_v8?0l
+- ___block_descriptor_40_ea8_32c60_ZTSKZ46-[FIOperation scheduleFPOperation:completion:]E4$_91_e17_v16?0"NSError"8l
+- ___block_descriptor_40_ea8_32c60_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_45clEvEUlvE__e5_v8?0l
+- ___block_descriptor_48_ea8_32c46_ZTSKZ32-[FIOperation configureProgress]E4$_81_e26_?<v?>16?0"NSProgress"8l
+- ___block_descriptor_48_ea8_32c75_ZTSKZ62-[FILocalAppContainerCollection synchronizeWithOptions:async:]E3$_6_e5_v8?0l
+- ___block_descriptor_48_ea8_32c77_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_49clE16NodeSuboperationEUlvE__e5_v8?0l
+- ___block_descriptor_48_ea8_32c81_ZTSKZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_91clEP7NSErrorEUlvE__e5_v8?0l
+- ___block_descriptor_48_ea8_32c82_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_48clEP20OperationErrorRecordEUlvE__e5_v8?0l
+- ___block_descriptor_56_ea8_32c103_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_46clEP20OperationErrorRecordPK17OperationIteratorEUlvE__e5_v8?0l
+- ___block_descriptor_56_ea8_32c103_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_47clEP20OperationErrorRecordPK17OperationIteratorEUlvE__e5_v8?0l
+- ___block_descriptor_56_ea8_32c45_ZTSKZ31-[FIOperation cancelWithError:]E4$_33_e5_v8?0l
+- ___block_descriptor_56_ea8_32c60_ZTSKZ46-[FIOperation scheduleFPOperation:completion:]E4$_26_e20_v24?08"NSError"16l
+- ___block_descriptor_56_ea8_32c69_ZTSKZ55-[FIOperation configureCompletionHandlers:fpOperation:]E4$_23_e5_v8?0l
+- ___block_descriptor_56_ea8_32c79_ZTSKZZ32-[FIOperation configureProgress]ENK4$_80clEP10NSProgressP6FINodeEUlvE__e5_v8?0l
+- ___block_descriptor_56_ea8_32c91_ZTSKZZ55-[FIOperation configureCompletionHandlers:fpOperation:]ENK4$_83clEbP7NSErrorEUlvE__e5_v8?0l
+- ___block_descriptor_56_ea8_32c93_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_50clE16NodeSuboperationP13OpaqueNodeRefEUlvE__e5_v8?0l
+- ___block_descriptor_56_ea8_32c95_ZTSKZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_26clEP11objc_objectP7NSErrorEUlmE__e8_v16?0Q8l
+- ___block_descriptor_72_ea8_32c70_ZTSKZ56-[FIOperation makeOperationRecordForFPError:completion:]E4$_84_e5_v8?0l
+- ___block_descriptor_72_ea8_32c88_ZTSKZZ45-[FIOperation fetchNodesAsyncFor:completion:]ENK4$_95clEvEUlP6FINodeP7NSErrorE__e28_v24?0"FINode"8"NSError"16l
+- ___block_descriptor_80_ea8_32c69_ZTSKZ55-[FIOperation makeOperationRecordForFPItem:completion:]E4$_86_e28_v24?0"FINode"8"NSError"16l
+- ___block_descriptor_80_ea8_32c89_ZTSKZZ55-[FIOperation makeOperationRecordForFPItem:completion:]ENK4$_85clEP6FINodeEUlvE__e5_v8?0l
+- ___block_descriptor_88_ea8_32c59_ZTSKZ45-[FIOperation fetchNodesAsyncFor:completion:]E4$_95_e5_v8?0l
+- ___block_descriptor_96_ea8_32c72_ZTSKZZ45-[FIOperation fetchNodesAsyncFor:completion:]ENK4$_96clEvEUlvE__e5_v8?0l
+- ___copy_helper_block_ea8_32c103_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_46clEP20OperationErrorRecordPK17OperationIteratorEUlvE_
+- ___copy_helper_block_ea8_32c103_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_47clEP20OperationErrorRecordPK17OperationIteratorEUlvE_
+- ___copy_helper_block_ea8_32c43_ZTSKZ29-[FIOperation createProgress]E4$_27
+- ___copy_helper_block_ea8_32c45_ZTSKZ31-[FIOperation cancelWithError:]E4$_33
+- ___copy_helper_block_ea8_32c46_ZTSKZ32-[FIOperation configureProgress]E4$_81
+- ___copy_helper_block_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_44
+- ___copy_helper_block_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_45
+- ___copy_helper_block_ea8_32c47_ZTSKZ33-[FIOperation executeFPOperation]E4$_90
+- ___copy_helper_block_ea8_32c49_ZTSKZ35-[FIOperation setQualityOfService:]E4$_34
+- ___copy_helper_block_ea8_32c56_ZTSKZZ29-[FIOperation createProgress]ENK4$_27clEvEUlvE_
+- ___copy_helper_block_ea8_32c58_ZTSKZ44-[FIOperation configureProgressUpdateSource]E4$_76
+- ___copy_helper_block_ea8_32c58_ZTSKZ44-[FIOperation startUpdateTimeRemainingTimer]E4$_75
+- ___copy_helper_block_ea8_32c59_ZTSKZ45-[FIOperation fetchNodesAsyncFor:completion:]E4$_95
+- ___copy_helper_block_ea8_32c59_ZTSKZ45-[FIOperation fetchNodesAsyncFor:completion:]E4$_96
+- ___copy_helper_block_ea8_32c60_ZTSKZ46-[FIOperation scheduleFPOperation:completion:]E4$_26
+- ___copy_helper_block_ea8_32c60_ZTSKZ46-[FIOperation scheduleFPOperation:completion:]E4$_91
+- ___copy_helper_block_ea8_32c60_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_45clEvEUlvE_
+- ___copy_helper_block_ea8_32c69_ZTSKZ55-[FIOperation configureCompletionHandlers:fpOperation:]E4$_23
+- ___copy_helper_block_ea8_32c69_ZTSKZ55-[FIOperation makeOperationRecordForFPItem:completion:]E4$_86
+- ___copy_helper_block_ea8_32c70_ZTSKZ56-[FIOperation makeOperationRecordForFPError:completion:]E4$_84
+- ___copy_helper_block_ea8_32c72_ZTSKZZ45-[FIOperation fetchNodesAsyncFor:completion:]ENK4$_96clEvEUlvE_
+- ___copy_helper_block_ea8_32c75_ZTSKZ62-[FILocalAppContainerCollection synchronizeWithOptions:async:]E3$_6
+- ___copy_helper_block_ea8_32c76_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_44clE15OperationStatusEUlvE_
+- ___copy_helper_block_ea8_32c77_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_49clE16NodeSuboperationEUlvE_
+- ___copy_helper_block_ea8_32c79_ZTSKZZ32-[FIOperation configureProgress]ENK4$_80clEP10NSProgressP6FINodeEUlvE_
+- ___copy_helper_block_ea8_32c81_ZTSKZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_91clEP7NSErrorEUlvE_
+- ___copy_helper_block_ea8_32c82_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_48clEP20OperationErrorRecordEUlvE_
+- ___copy_helper_block_ea8_32c88_ZTSKZZ45-[FIOperation fetchNodesAsyncFor:completion:]ENK4$_95clEvEUlP6FINodeP7NSErrorE_
+- ___copy_helper_block_ea8_32c89_ZTSKZZ55-[FIOperation makeOperationRecordForFPItem:completion:]ENK4$_85clEP6FINodeEUlvE_
+- ___copy_helper_block_ea8_32c91_ZTSKZZ55-[FIOperation configureCompletionHandlers:fpOperation:]ENK4$_83clEbP7NSErrorEUlvE_
+- ___copy_helper_block_ea8_32c93_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_50clE16NodeSuboperationP13OpaqueNodeRefEUlvE_
+- ___copy_helper_block_ea8_32c95_ZTSKZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_26clEP11objc_objectP7NSErrorEUlmE_
+- ___destroy_helper_block_ea8_32c103_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_46clEP20OperationErrorRecordPK17OperationIteratorEUlvE_
+- ___destroy_helper_block_ea8_32c103_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_47clEP20OperationErrorRecordPK17OperationIteratorEUlvE_
+- ___destroy_helper_block_ea8_32c43_ZTSKZ29-[FIOperation createProgress]E4$_27
+- ___destroy_helper_block_ea8_32c45_ZTSKZ31-[FIOperation cancelWithError:]E4$_33
+- ___destroy_helper_block_ea8_32c46_ZTSKZ32-[FIOperation configureProgress]E4$_81
+- ___destroy_helper_block_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_44
+- ___destroy_helper_block_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_45
+- ___destroy_helper_block_ea8_32c47_ZTSKZ33-[FIOperation executeFPOperation]E4$_90
+- ___destroy_helper_block_ea8_32c49_ZTSKZ35-[FIOperation setQualityOfService:]E4$_34
+- ___destroy_helper_block_ea8_32c56_ZTSKZZ29-[FIOperation createProgress]ENK4$_27clEvEUlvE_
+- ___destroy_helper_block_ea8_32c58_ZTSKZ44-[FIOperation configureProgressUpdateSource]E4$_76
+- ___destroy_helper_block_ea8_32c58_ZTSKZ44-[FIOperation startUpdateTimeRemainingTimer]E4$_75
+- ___destroy_helper_block_ea8_32c59_ZTSKZ45-[FIOperation fetchNodesAsyncFor:completion:]E4$_95
+- ___destroy_helper_block_ea8_32c59_ZTSKZ45-[FIOperation fetchNodesAsyncFor:completion:]E4$_96
+- ___destroy_helper_block_ea8_32c60_ZTSKZ46-[FIOperation scheduleFPOperation:completion:]E4$_26
+- ___destroy_helper_block_ea8_32c60_ZTSKZ46-[FIOperation scheduleFPOperation:completion:]E4$_91
+- ___destroy_helper_block_ea8_32c60_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_45clEvEUlvE_
+- ___destroy_helper_block_ea8_32c69_ZTSKZ55-[FIOperation configureCompletionHandlers:fpOperation:]E4$_23
+- ___destroy_helper_block_ea8_32c69_ZTSKZ55-[FIOperation makeOperationRecordForFPItem:completion:]E4$_86
+- ___destroy_helper_block_ea8_32c70_ZTSKZ56-[FIOperation makeOperationRecordForFPError:completion:]E4$_84
+- ___destroy_helper_block_ea8_32c72_ZTSKZZ45-[FIOperation fetchNodesAsyncFor:completion:]ENK4$_96clEvEUlvE_
+- ___destroy_helper_block_ea8_32c75_ZTSKZ62-[FILocalAppContainerCollection synchronizeWithOptions:async:]E3$_6
+- ___destroy_helper_block_ea8_32c76_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_44clE15OperationStatusEUlvE_
+- ___destroy_helper_block_ea8_32c77_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_49clE16NodeSuboperationEUlvE_
+- ___destroy_helper_block_ea8_32c79_ZTSKZZ32-[FIOperation configureProgress]ENK4$_80clEP10NSProgressP6FINodeEUlvE_
+- ___destroy_helper_block_ea8_32c81_ZTSKZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_91clEP7NSErrorEUlvE_
+- ___destroy_helper_block_ea8_32c82_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_48clEP20OperationErrorRecordEUlvE_
+- ___destroy_helper_block_ea8_32c88_ZTSKZZ45-[FIOperation fetchNodesAsyncFor:completion:]ENK4$_95clEvEUlP6FINodeP7NSErrorE_
+- ___destroy_helper_block_ea8_32c89_ZTSKZZ55-[FIOperation makeOperationRecordForFPItem:completion:]ENK4$_85clEP6FINodeEUlvE_
+- ___destroy_helper_block_ea8_32c91_ZTSKZZ55-[FIOperation configureCompletionHandlers:fpOperation:]ENK4$_83clEbP7NSErrorEUlvE_
+- ___destroy_helper_block_ea8_32c93_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_50clE16NodeSuboperationP13OpaqueNodeRefEUlvE_
+- ___destroy_helper_block_ea8_32c95_ZTSKZZ46-[FIOperation scheduleFPOperation:completion:]ENK4$_26clEP11objc_objectP7NSErrorEUlmE_
+CStrings:
++ "\t resultingPath: %{public}@\n\t translocationChanged: %{public}s\n\t status: %{public}s"
++ "%{public}s called while not resolving a conflict"
++ "-[FIOperation _isPendingConflict:]"
++ "/Developer/Applications"
++ "AccessDeniedFull"
++ "AccessDeniedReason"
++ "Dynamic UTType cache is larger than expected."
++ "Found two progress objects with the same UUID.\t\n Known: %{public}@\n\n\t new: %{public}@"
++ "Received a conflict not affecting the current conflict op record: %{public}s, current: %{public}s"
++ "TCFURLInfo::TranslateCFError -- status: %{public}s\n\t CFError: %{public}@\n\t URL: %{public}@\n\t Backtrace:\n%{public}s"
++ "TCFURLInfo::TranslateRawPOSIXError %{errno}d -> %{public}s, path: %{public}@\n%{public}s"
++ "TNode::GetNodeFromPath: no-follow path no longer matches its node. %{public}@"
++ "TNode::GetNodeFromPath: refusing to follow an alias in a no-follow path. %{public}@"
++ "kNodeSyncChildrenOnly"
++ "kNodeSyncSelfOnly"
++ "readTagsFromCloud: already up to date (serial=%ld)"
++ "readTagsFromCloud: skipping, cloud is older than local (cloudSerial=%ld, localSerial=%ld)"
++ "writer about to write data for %{public}s"
+- "\t resultingPath: %{public}@\n\t translocationChanged: %{bool}d\n\t status: %{public}s"
+- "AccessDenied"
+- "AppContainerCollection waiting for population to complete"
+- "Dynamic UTType cache is larger then expected."
+- "Found two progress objects with the same UUID.\t\n Knonwn: %{public}@\n\n\t new: %{public}@"
+- "TCFURLInfo::TranslateCFError -- status: %{public}s\n\t CFError: %{public}@\n\t URL: %{public}@\n\t Backtrace:\n%{public}@"
+- "TCFURLInfo::TranslateRawPOSIXError %{errno}d -> %{public}s, path: %{public}@\n%{public}@"
+- "kNodeSynchChildrenOnly"
+- "kNodeSynchSelfOnly"
+- "readTagsFromCloud: skipping stale cloud (cloudSerial=%ld, localSerial=%ld)"
+- "writer about to write data for for %{public}s"
+```

@@ -1,0 +1,3861 @@
+## NewsUI
+
+> `/System/Library/PrivateFrameworks/NewsUI.framework/NewsUI`
+
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__objc_imageinfo`
+
+```diff
+
+-5971.0.0.0.0
+-  __TEXT.__text: 0x33e58
+-  __TEXT.__objc_methlist: 0x6714
+-  __TEXT.__const: 0x268
+-  __TEXT.__cstring: 0x2178
+-  __TEXT.__gcc_except_tab: 0x72c
+-  __TEXT.__oslogstring: 0x11f9
++6006.0.0.0.0
++  __TEXT.__text: 0x38eec
++  __TEXT.__objc_methlist: 0x6424
++  __TEXT.__const: 0xde4
++  __TEXT.__cstring: 0x18b7
++  __TEXT.__gcc_except_tab: 0x764
++  __TEXT.__oslogstring: 0x126f
+   __TEXT.__ustring: 0x146
+-  __TEXT.__unwind_info: 0x14f0
++  __TEXT.__swift5_typeref: 0xd7e
++  __TEXT.__constg_swiftt: 0x164
++  __TEXT.__swift5_fieldmd: 0x12c
++  __TEXT.__swift5_proto: 0x24
++  __TEXT.__swift5_types: 0x24
++  __TEXT.__swift5_reflstr: 0x159
++  __TEXT.__swift5_capture: 0x10
++  __TEXT.__unwind_info: 0x1628
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1930
+-  __DATA_CONST.__objc_classlist: 0x3b8
++  __DATA_CONST.__const: 0x11b8
++  __DATA_CONST.__objc_classlist: 0x380
+   __DATA_CONST.__objc_catlist: 0x40
+-  __DATA_CONST.__objc_protolist: 0x378
++  __DATA_CONST.__objc_protolist: 0x520
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x3860
+-  __DATA_CONST.__objc_protorefs: 0x1d0
+-  __DATA_CONST.__objc_superrefs: 0x2f8
++  __DATA_CONST.__objc_selrefs: 0x36c0
++  __DATA_CONST.__objc_protorefs: 0x200
++  __DATA_CONST.__objc_superrefs: 0x2d8
+   __DATA_CONST.__objc_arraydata: 0x20
+-  __DATA_CONST.__got: 0x830
+-  __AUTH_CONST.__const: 0xd40
+-  __AUTH_CONST.__cfstring: 0x1280
+-  __AUTH_CONST.__objc_const: 0xe690
++  __DATA_CONST.__got: 0x7e8
++  __AUTH_CONST.__const: 0x5e0
++  __AUTH_CONST.__cfstring: 0x12a0
++  __AUTH_CONST.__objc_const: 0xdca8
+   __AUTH_CONST.__objc_doubleobj: 0x80
+   __AUTH_CONST.__objc_arrayobj: 0x18
+   __AUTH_CONST.__objc_intobj: 0x138
+-  __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0xd20
+-  __DATA.__objc_ivar: 0x620
+-  __DATA.__data: 0x29a0
+-  __DATA_DIRTY.__objc_data: 0x1810
++  __AUTH_CONST.__auth_got: 0x618
++  __AUTH.__objc_data: 0xda0
++  __AUTH.__data: 0xc0
++  __DATA.__objc_ivar: 0x5fc
++  __DATA.__data: 0x2ce0
++  __DATA.__common: 0x8
++  __DATA_DIRTY.__objc_data: 0x15e0
+   __DATA_DIRTY.__bss: 0xd0
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+
+   - /System/Library/PrivateFrameworks/TeaUI.framework/TeaUI
+   - /System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities
+   - /System/Library/PrivateFrameworks/UIAccessibility.framework/UIAccessibility
++  - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
++  - /System/Library/PrivateFrameworks/WebKitLegacy.framework/WebKitLegacy
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 1709
+-  Symbols:   4126
+-  CStrings:  365
++  - /usr/lib/swift/libswiftAVFoundation.dylib
++  - /usr/lib/swift/libswiftCore.dylib
++  - /usr/lib/swift/libswiftCoreAudio.dylib
++  - /usr/lib/swift/libswiftCoreFoundation.dylib
++  - /usr/lib/swift/libswiftCoreImage.dylib
++  - /usr/lib/swift/libswiftCoreLocation.dylib
++  - /usr/lib/swift/libswiftCoreMIDI.dylib
++  - /usr/lib/swift/libswiftDispatch.dylib
++  - /usr/lib/swift/libswiftMLCompute.dylib
++  - /usr/lib/swift/libswiftMetal.dylib
++  - /usr/lib/swift/libswiftNaturalLanguage.dylib
++  - /usr/lib/swift/libswiftOSLog.dylib
++  - /usr/lib/swift/libswiftObjectiveC.dylib
++  - /usr/lib/swift/libswiftQuartzCore.dylib
++  - /usr/lib/swift/libswiftSpatial.dylib
++  - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
++  - /usr/lib/swift/libswiftXPC.dylib
++  - /usr/lib/swift/libswift_Builtin_float.dylib
++  - /usr/lib/swift/libswiftos.dylib
++  - /usr/lib/swift/libswiftsimd.dylib
++  Functions: 1795
++  Symbols:   593
++  CStrings:  316
+ 
+Symbols:
++ _OBJC_CLASS_$_SXMarginDecoration
++ _OBJC_CLASS_$__TtCs12_SwiftObject
++ _OBJC_METACLASS_$__TtCs12_SwiftObject
++ ___chkstk_darwin
++ __swiftEmptyArrayStorage
++ __swift_FORCE_LOAD_$_swiftAVFoundation
++ __swift_FORCE_LOAD_$_swiftCoreAudio
++ __swift_FORCE_LOAD_$_swiftCoreFoundation
++ __swift_FORCE_LOAD_$_swiftCoreImage
++ __swift_FORCE_LOAD_$_swiftCoreLocation
++ __swift_FORCE_LOAD_$_swiftCoreMIDI
++ __swift_FORCE_LOAD_$_swiftDispatch
++ __swift_FORCE_LOAD_$_swiftFoundation
++ __swift_FORCE_LOAD_$_swiftMLCompute
++ __swift_FORCE_LOAD_$_swiftMetal
++ __swift_FORCE_LOAD_$_swiftNaturalLanguage
++ __swift_FORCE_LOAD_$_swiftOSLog
++ __swift_FORCE_LOAD_$_swiftObjectiveC
++ __swift_FORCE_LOAD_$_swiftQuartzCore
++ __swift_FORCE_LOAD_$_swiftSpatial
++ __swift_FORCE_LOAD_$_swiftUIKit
++ __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers
++ __swift_FORCE_LOAD_$_swiftXPC
++ __swift_FORCE_LOAD_$_swift_Builtin_float
++ __swift_FORCE_LOAD_$_swiftos
++ __swift_FORCE_LOAD_$_swiftsimd
++ __swift_stdlib_reportUnimplementedInitializer
++ _objc_allocWithZone
++ _objc_opt_self
++ _objc_retainAutoreleasedReturnValue
++ _swift_allocObject
++ _swift_bridgeObjectRelease
++ _swift_cvw_assignWithCopy
++ _swift_cvw_assignWithTake
++ _swift_cvw_destroy
++ _swift_cvw_initWithCopy
++ _swift_cvw_initializeBufferWithCopyOfBuffer
++ _swift_deallocClassInstance
++ _swift_deallocObject
++ _swift_deletedMethodError
++ _swift_dynamicCastObjCClass
++ _swift_errorRelease
++ _swift_getKeyPath
++ _swift_getObjCClassMetadata
++ _swift_getSingletonMetadata
++ _swift_getTypeByMangledNameInContext2
++ _swift_getWitnessTable
++ _swift_release
++ _swift_release_x19
++ _swift_release_x21
++ _swift_release_x23
++ _swift_release_x8
++ _swift_retain
++ _swift_retain_n
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x23
++ _swift_unexpectedError
++ _swift_unknownObjectRelease
++ _swift_unknownObjectRetain
++ _swift_unknownObjectWeakDestroy
++ _swift_unknownObjectWeakInit
++ _swift_unknownObjectWeakLoadStrong
++ _swift_updateClassMetadata2
+- +[NSError(NUArticles) nu_errorArticleContentTypeUnsupported:]
+- +[NSError(NUArticles) nu_errorArticleDownloadFailed:underlyingError:]
+- +[NSError(NUArticles) nu_errorArticleMissingContentURL:]
+- +[NSError(NUArticles) nu_errorArticleMissingHeadline:]
+- +[NSURL(NewsUI) nu_sanitizedURLForWebView:navigationAction:]
+- +[NSURL(WebKit) nu_canHandleNavigationAction:]
+- +[NUANFImageResolver imageResourceResponseForFileURL:perserveColorSpace:withSize:andQuality:]
+- +[NUAddToSafariReadingListActivityFactory createAddToSafariReadingListActivity]
+- +[NUArticleViewController _parentOrPresentingViewControllerFor:]
+- +[NUBasicAnimation animationWithKeyPath:]
+- +[NUBlockBasedURLModifier modifierWithBlock:]
+- +[NUErrorMessageFactory errorMessageForArticleViewWithOfflineReason:]
+- +[NUErrorMessageFactory errorMessageForTitle:subtitle:]
+- +[NUFeedTitleViewUpdate feedTitleViewUpdateCheckingForNewStoriesForType:]
+- +[NUFeedTitleViewUpdate feedTitleViewUpdateCheckingForUpdatesForType:]
+- +[NUFeedTitleViewUpdate feedTitleViewUpdateEmptyStateForType:]
+- +[NUFeedTitleViewUpdate feedTitleViewUpdateEmptyState]
+- +[NUFeedTitleViewUpdate feedTitleViewUpdateForAttributedText:]
+- +[NUFeedTitleViewUpdate feedTitleViewUpdateForAttributedText:forType:]
+- +[NUFeedTitleViewUpdate feedTitleViewUpdateForCheckingForNewStories]
+- +[NUFeedTitleViewUpdate feedTitleViewUpdateForCheckingForUpdates]
+- +[NUFeedTitleViewUpdate feedTitleViewUpdateForFeedImage:accessibilityTitle:]
+- +[NUFeedTitleViewUpdate feedTitleViewUpdateForFeedName:]
+- +[NUFeedTitleViewUpdate feedTitleViewUpdateForNewStoriesWithStoryCount:]
+- +[NUFeedTitleViewUpdate feedTitleViewUpdateNewStoriesWithStoryForType:storyCount:]
+- +[NUFeedTitleViewUpdate feedTitleViewUpdateNewStoriesWithStoryForType:storyCount:linger:]
+- +[NUImages newStoriesArrow]
+- +[NUImages premiumSealInner]
+- +[NUImages premiumSealOuterFR]
+- +[NUImages premiumSealOuter]
+- +[NUImages welcomeToNewsIcon]
+- +[NUTransition animation]
+- +[UIColor(NUAdditions) arrayOfColors]
+- +[UIColor(NUAdditions) nu_dynamicColor:withDarkStyleVariant:]
+- +[UIColor(NUAdditions) nu_safeColorForIdentifier:]
+- +[UIColor(NewsUI) nu_darkStyleDividerColor]
+- +[UIColor(NewsUI) nu_defaultSystemTintColor]
+- +[UIColor(NewsUI) nu_defaultTitleTextColor]
+- +[UIColor(NewsUI) nu_dividerColor]
+- +[UIColor(NewsUI) nu_dynamicColor:withDarkStyleVariant:]
+- +[UIColor(NewsUI) nu_lightStyleDividerColor]
+- +[UIView(NUAddtions) nu_animateWithDuration:delay:timingFunction:options:animations:completion:]
+- -[NSURL(NewsUI) nu_deepLinkURL]
+- -[NSURL(NewsUI) nu_handleExternalURLWithPrompt]
+- -[NUANFArticleDataProvider .cxx_destruct]
+- -[NUANFArticleDataProvider articleID]
+- -[NUANFArticleDataProvider article]
+- -[NUANFArticleDataProvider assetLoader]
+- -[NUANFArticleDataProvider cancelAssetPrefetch]
+- -[NUANFArticleDataProvider contentContext]
+- -[NUANFArticleDataProvider contextLoader]
+- -[NUANFArticleDataProvider embedDataManger]
+- -[NUANFArticleDataProvider eventManager]
+- -[NUANFArticleDataProvider fontLoader]
+- -[NUANFArticleDataProvider fontRegistration]
+- -[NUANFArticleDataProvider host]
+- -[NUANFArticleDataProvider initWithArticle:contentContext:fontRegistration:host:embedDataManager:linkedContentManager:]
+- -[NUANFArticleDataProvider linkedContentManager]
+- -[NUANFArticleDataProvider linkedContentProviders]
+- -[NUANFArticleDataProvider loadArticleWithCompletionBlock:]
+- -[NUANFArticleDataProvider loadContextWithCompletionBlock:]
+- -[NUANFArticleDataProvider prefetchAssets]
+- -[NUANFArticleDataProvider registerFonts]
+- -[NUANFArticleDataProvider registeredFontLoader]
+- -[NUANFArticleDataProvider relativePriority]
+- -[NUANFArticleDataProvider reloadArticleIfNeeded]
+- -[NUANFArticleDataProvider setArticle:]
+- -[NUANFArticleDataProvider setArticleID:]
+- -[NUANFArticleDataProvider setAssetLoader:]
+- -[NUANFArticleDataProvider setContextLoader:]
+- -[NUANFArticleDataProvider setEmbedDataManger:]
+- -[NUANFArticleDataProvider setEventManager:]
+- -[NUANFArticleDataProvider setFontLoader:]
+- -[NUANFArticleDataProvider setRegisteredFontLoader:]
+- -[NUANFArticleDataProvider setRelativePriority:]
+- -[NUANFArticleDataProvider setupAssetPrefetchCancellationWithOperation:]
+- -[NUANFArticleDataProvider setupAssetPrefetchRequestEventsWithEvents:]
+- -[NUANFArticleDataProviderFactory .cxx_destruct]
+- -[NUANFArticleDataProviderFactory contentContext]
+- -[NUANFArticleDataProviderFactory createArticleDataProviderWithArticle:]
+- -[NUANFArticleDataProviderFactory embedDataManager]
+- -[NUANFArticleDataProviderFactory fontRegistration]
+- -[NUANFArticleDataProviderFactory host]
+- -[NUANFArticleDataProviderFactory initWithContentContext:fontRegistration:host:embedDataManager:linkedContentManagerFactory:]
+- -[NUANFArticleDataProviderFactory linkedContentManagerFactory]
+- -[NUANFArticleFactory .cxx_destruct]
+- -[NUANFArticleFactory articleController]
+- -[NUANFArticleFactory createArticleForHeadline:]
+- -[NUANFArticleFactory createArticlesForArticleIDs:]
+- -[NUANFArticleFactory initWithArticleController:]
+- -[NUANFArticleFactory qualityOfService]
+- -[NUANFArticleFactory relativePriority]
+- -[NUANFArticleFactory setQualityOfService:]
+- -[NUANFArticleFactory setRelativePriority:]
+- -[NUANFAssetLoader .cxx_destruct]
+- -[NUANFAssetLoader assetDownloadOperationForResource:completion:]
+- -[NUANFAssetLoader assetURLsOperation]
+- -[NUANFAssetLoader assetsOperation]
+- -[NUANFAssetLoader asyncLoadAssetURLsOnceWithCompletion:]
+- -[NUANFAssetLoader asyncLoadAssetsOnceWithCompletion:]
+- -[NUANFAssetLoader documentController]
+- -[NUANFAssetLoader fallbackResourceForID:]
+- -[NUANFAssetLoader fetchedResourceIDs]
+- -[NUANFAssetLoader flintResourceManager]
+- -[NUANFAssetLoader initWithDocumentController:flintResourceManager:]
+- -[NUANFAssetLoader loadAssetURLsWithCompletion:]
+- -[NUANFAssetLoader loadAssetWithURL:completion:]
+- -[NUANFAssetLoader loadAssetsWithCompletion:]
+- -[NUANFAssetLoader relativePriority]
+- -[NUANFAssetLoader resourceForID:]
+- -[NUANFAssetLoader resourceIDForResourceURL:]
+- -[NUANFAssetLoader resourceIDs]
+- -[NUANFAssetLoader setAssetURLsOperation:]
+- -[NUANFAssetLoader setDocumentController:]
+- -[NUANFAssetLoader setFetchedResourceIDs:]
+- -[NUANFAssetLoader setFlintResourceManager:]
+- -[NUANFAssetLoader setRelativePriority:]
+- -[NUANFAssetLoader setResourceIDs:]
+- -[NUANFContextLoader .cxx_destruct]
+- -[NUANFContextLoader anfContent]
+- -[NUANFContextLoader assetLoader]
+- -[NUANFContextLoader asyncLoadContextOnceWithCompletion:]
+- -[NUANFContextLoader asyncOnceOperation]
+- -[NUANFContextLoader contextError]
+- -[NUANFContextLoader context]
+- -[NUANFContextLoader flintResourceManager]
+- -[NUANFContextLoader hasLoaded]
+- -[NUANFContextLoader headline]
+- -[NUANFContextLoader host]
+- -[NUANFContextLoader initWithANFContent:flintResourceManager:networkReachability:host:resourceURLTranslator:headline:]
+- -[NUANFContextLoader loadContextWithCompletion:]
+- -[NUANFContextLoader networkReachability]
+- -[NUANFContextLoader relativePriority]
+- -[NUANFContextLoader resourceURLTranslator]
+- -[NUANFContextLoader setAssetLoader:]
+- -[NUANFContextLoader setAsyncOnceOperation:]
+- -[NUANFContextLoader setContext:]
+- -[NUANFContextLoader setContextError:]
+- -[NUANFContextLoader setRelativePriority:]
+- -[NUANFDebugSettingsProvider addObserver:]
+- -[NUANFDebugSettingsProvider removeObserver:]
+- -[NUANFDebugSettingsProvider testingConditionEnabled]
+- -[NUANFDebugSettingsProvider viewportDebuggingEnabled]
+- -[NUANFEmbedConfigurationLoader .cxx_destruct]
+- -[NUANFEmbedConfigurationLoader appConfigurationManager]
+- -[NUANFEmbedConfigurationLoader asyncLoadEmbedConfigurationOnceWithCompletion:]
+- -[NUANFEmbedConfigurationLoader asyncOnceOperation]
+- -[NUANFEmbedConfigurationLoader embedConfiguration]
+- -[NUANFEmbedConfigurationLoader flintResourceManager]
+- -[NUANFEmbedConfigurationLoader initWithAppConfigManager:flintResourceManager:]
+- -[NUANFEmbedConfigurationLoader loadEmbededConfigurationWithCompletion:]
+- -[NUANFEmbedConfigurationLoader setAppConfigurationManager:]
+- -[NUANFEmbedConfigurationLoader setAsyncOnceOperation:]
+- -[NUANFEmbedConfigurationLoader setFlintResourceManager:]
+- -[NUANFFontLoader .cxx_destruct]
+- -[NUANFFontLoader anfContent]
+- -[NUANFFontLoader asyncLoadFontsOnceWithCompletion:]
+- -[NUANFFontLoader asyncOnceOperation]
+- -[NUANFFontLoader dealloc]
+- -[NUANFFontLoader flintResourceManager]
+- -[NUANFFontLoader fontRegistration]
+- -[NUANFFontLoader fontResourcesRegistered]
+- -[NUANFFontLoader fontResourcesToRegister]
+- -[NUANFFontLoader hasLoaded]
+- -[NUANFFontLoader initWithANFContent:flintResourceManager:fontRegistration:]
+- -[NUANFFontLoader loadFontsWithCompletion:]
+- -[NUANFFontLoader registerFonts]
+- -[NUANFFontLoader relativePriority]
+- -[NUANFFontLoader setRelativePriority:]
+- -[NUANFFontLoader unregisterFonts]
+- -[NUANFLinkedContentProvider .cxx_destruct]
+- -[NUANFLinkedContentProvider contentContext]
+- -[NUANFLinkedContentProvider headlineForIdentifier:]
+- -[NUANFLinkedContentProvider initWithContentContext:]
+- -[NUANFLinkedContentProvider issueForIdentifier:]
+- -[NUANFLinkedContentProvider linkedHeadlines]
+- -[NUANFLinkedContentProvider linkedIssues]
+- -[NUANFLinkedContentProvider linkedTags]
+- -[NUANFLinkedContentProvider loadLinkedArticlesWithIDs:priority:completion:]
+- -[NUANFLinkedContentProvider loadLinkedContentForHeadline:withContext:completion:]
+- -[NUANFLinkedContentProvider loadLinkedContentForHeadline:withContext:priority:completion:]
+- -[NUANFLinkedContentProvider loadLinkedIssuesWithIDs:priority:completion:]
+- -[NUANFLinkedContentProvider loadLinkedTagsWithIDs:priority:completion:]
+- -[NUANFLinkedContentProvider setLinkedHeadlines:]
+- -[NUANFLinkedContentProvider setLinkedIssues:]
+- -[NUANFLinkedContentProvider setLinkedTags:]
+- -[NUANFLinkedContentProvider tagForIdentifier:]
+- -[NUANFLinkedContentProviderFactory .cxx_destruct]
+- -[NUANFLinkedContentProviderFactory contentContext]
+- -[NUANFLinkedContentProviderFactory createLinkedContentProviderForArticle:]
+- -[NUANFLinkedContentProviderFactory initWithContentContext:]
+- -[NUANFRenderingConfigurationProvider .cxx_destruct]
+- -[NUANFRenderingConfigurationProvider appConfigurationManager]
+- -[NUANFRenderingConfigurationProvider configuration]
+- -[NUANFRenderingConfigurationProvider initWithAppConfigurationManager:]
+- -[NUANFResourceDataSource .cxx_destruct]
+- -[NUANFResourceDataSource assetLoader]
+- -[NUANFResourceDataSource configureWithDocumentController:assetLoader:]
+- -[NUANFResourceDataSource documentController]
+- -[NUANFResourceDataSource fallbackAssetForImageRequest:original:]
+- -[NUANFResourceDataSource fileURLForURL:onCompletion:onError:]
+- -[NUANFResourceDataSource headline]
+- -[NUANFResourceDataSource imageDecodingQueue]
+- -[NUANFResourceDataSource initWithNetworkReachability:resourceURLTranslator:headline:]
+- -[NUANFResourceDataSource loadImagesForImageRequest:completionBlock:]
+- -[NUANFResourceDataSource networkReachability]
+- -[NUANFResourceDataSource resourceURLTranslator]
+- -[NUANFResourceDataSource setAssetLoader:]
+- -[NUANFResourceDataSource setDocumentController:]
+- -[NUANFResourceDataSource translateURL:]
+- -[NUActivityIndicatorLoadingView .cxx_destruct]
+- -[NUActivityIndicatorLoadingView activityIndicatorView]
+- -[NUActivityIndicatorLoadingView initWithActivityIndicatorStyle:]
+- -[NUActivityIndicatorLoadingView initWithCoder:]
+- -[NUActivityIndicatorLoadingView initWithFrame:]
+- -[NUActivityIndicatorLoadingView initWithText:activityIndicatorStyle:]
+- -[NUActivityIndicatorLoadingView label]
+- -[NUActivityIndicatorLoadingView layoutSubviews]
+- -[NUActivityIndicatorLoadingView loadingViewStartAnimating]
+- -[NUActivityIndicatorLoadingView loadingViewStopAnimating]
+- -[NUAdSettings .cxx_destruct]
+- -[NUAdSettings debugAdvertisementSettings]
+- -[NUAdSettings initWithDebugAdvertisementSettings:]
+- -[NUAddToSafariReadingListActivity activityTitle]
+- -[NUAddToSafariReadingListActivity activityType]
+- -[NUAnimationFactory .cxx_destruct]
+- -[NUAnimationFactory _basicAnimationForView:withKeyPath:]
+- -[NUAnimationFactory _timingFunctionForAnimation]
+- -[NUAnimationFactory initWithMediaTimingFunction:]
+- -[NUAnimationFactory mediaTimingFunction]
+- -[NUAnimationQueue .cxx_destruct]
+- -[NUAnimationQueue addAnimation:]
+- -[NUAnimationQueue cancel]
+- -[NUAnimationQueue init]
+- -[NUAnimationQueue isRunning]
+- -[NUAnimationQueue queue]
+- -[NUAnimationQueue runUntilEmpty]
+- -[NUAnimationQueue setRunning:]
+- -[NUAnimationRunner .cxx_destruct]
+- -[NUAnimationRunner initWithRunBlock:]
+- -[NUAnimationRunner runBlock]
+- -[NUAnimationRunner runWithFinishBlock:]
+- -[NUApplicationAppActivityMonitorIOS .cxx_destruct]
+- -[NUApplicationAppActivityMonitorIOS _applicationWillTerminate]
+- -[NUApplicationAppActivityMonitorIOS _windowDidBecomeBackground]
+- -[NUApplicationAppActivityMonitorIOS _windowDidBecomeForeground]
+- -[NUApplicationAppActivityMonitorIOS addObserver:]
+- -[NUApplicationAppActivityMonitorIOS backgroundObserverBlocks]
+- -[NUApplicationAppActivityMonitorIOS currentApplicationState]
+- -[NUApplicationAppActivityMonitorIOS dealloc]
+- -[NUApplicationAppActivityMonitorIOS foregroundObserverBlocks]
+- -[NUApplicationAppActivityMonitorIOS init]
+- -[NUApplicationAppActivityMonitorIOS observers]
+- -[NUApplicationAppActivityMonitorIOS performOnApplicationDidBecomeActive:]
+- -[NUApplicationAppActivityMonitorIOS performOnApplicationDidEnterBackground:]
+- -[NUApplicationAppActivityMonitorIOS performOnApplicationWillEnterForeground:]
+- -[NUApplicationAppActivityMonitorIOS performOnApplicationWindowDidBecomeBackground:]
+- -[NUApplicationAppActivityMonitorIOS performOnApplicationWindowDidBecomeForeground:]
+- -[NUApplicationAppActivityMonitorIOS removeObserver:]
+- -[NUApplicationAppActivityMonitorIOS sceneDidBecomeActiveWithURL:sourceApplication:sceneID:]
+- -[NUApplicationAppActivityMonitorIOS sceneDidBecomeActive]
+- -[NUApplicationAppActivityMonitorIOS sceneDidEnterBackgroundWithSceneID:]
+- -[NUApplicationAppActivityMonitorIOS sceneDidEnterBackground]
+- -[NUApplicationAppActivityMonitorIOS sceneWillConnect]
+- -[NUApplicationAppActivityMonitorIOS sceneWillEnterForeground]
+- -[NUApplicationAppActivityMonitorIOS sceneWillResignActiveWithSceneID:]
+- -[NUApplicationAppActivityMonitorIOS windowBackgroundObserverBlocks]
+- -[NUApplicationAppActivityMonitorIOS windowForegroundObserverBlocks]
+- -[NUApplicationAppActivityMonitorMacOS .cxx_destruct]
+- -[NUApplicationAppActivityMonitorMacOS _applicationWillTerminate]
+- -[NUApplicationAppActivityMonitorMacOS _markWindowAsBackground]
+- -[NUApplicationAppActivityMonitorMacOS _markWindowAsForeground]
+- -[NUApplicationAppActivityMonitorMacOS addObserver:]
+- -[NUApplicationAppActivityMonitorMacOS backgroundObserverBlocks]
+- -[NUApplicationAppActivityMonitorMacOS currentApplicationState]
+- -[NUApplicationAppActivityMonitorMacOS dealloc]
+- -[NUApplicationAppActivityMonitorMacOS foregroundObserverBlocks]
+- -[NUApplicationAppActivityMonitorMacOS initWithNotificationCenter:windowBecameFrontmostNotificationName:windowLostFrontmostNotificationName:]
+- -[NUApplicationAppActivityMonitorMacOS isBecomingActive]
+- -[NUApplicationAppActivityMonitorMacOS isWindowForeground]
+- -[NUApplicationAppActivityMonitorMacOS notificationCenter]
+- -[NUApplicationAppActivityMonitorMacOS observers]
+- -[NUApplicationAppActivityMonitorMacOS performOnApplicationDidBecomeActive:]
+- -[NUApplicationAppActivityMonitorMacOS performOnApplicationDidEnterBackground:]
+- -[NUApplicationAppActivityMonitorMacOS performOnApplicationWillEnterForeground:]
+- -[NUApplicationAppActivityMonitorMacOS performOnApplicationWindowDidBecomeBackground:]
+- -[NUApplicationAppActivityMonitorMacOS performOnApplicationWindowDidBecomeForeground:]
+- -[NUApplicationAppActivityMonitorMacOS removeObserver:]
+- -[NUApplicationAppActivityMonitorMacOS sceneDidBecomeActiveWithURL:sourceApplication:sceneID:]
+- -[NUApplicationAppActivityMonitorMacOS sceneDidBecomeActive]
+- -[NUApplicationAppActivityMonitorMacOS sceneDidEnterBackgroundWithSceneID:]
+- -[NUApplicationAppActivityMonitorMacOS sceneDidEnterBackground]
+- -[NUApplicationAppActivityMonitorMacOS sceneWillConnect]
+- -[NUApplicationAppActivityMonitorMacOS sceneWillEnterForeground]
+- -[NUApplicationAppActivityMonitorMacOS sceneWillResignActiveWithSceneID:]
+- -[NUApplicationAppActivityMonitorMacOS setBecomingActive:]
+- -[NUApplicationAppActivityMonitorMacOS setWindowIsForeground:]
+- -[NUApplicationAppActivityMonitorMacOS windowBackgroundObserverBlocks]
+- -[NUApplicationAppActivityMonitorMacOS windowBecameFrontmostNotificationName]
+- -[NUApplicationAppActivityMonitorMacOS windowForegroundObserverBlocks]
+- -[NUApplicationAppActivityMonitorMacOS windowLostFrontmostNotificationName]
+- -[NUApplicationAssembly loadInRegistry:]
+- -[NUApplicationDevice .cxx_destruct]
+- -[NUApplicationDevice application]
+- -[NUApplicationDevice initWithApplication:screen:]
+- -[NUApplicationDevice isSplitScreen]
+- -[NUApplicationDevice screen]
+- -[NUApplicationFrameworkAssembly .cxx_destruct]
+- -[NUApplicationFrameworkAssembly assemblies]
+- -[NUApplicationFrameworkAssembly init]
+- -[NUApplicationURLHandler openURL:options:completion:]
+- -[NUArticleActivity .cxx_destruct]
+- -[NUArticleActivity activityImage]
+- -[NUArticleActivity activityItems]
+- -[NUArticleActivity activityTitle]
+- -[NUArticleActivity activityType]
+- -[NUArticleActivity canPerformWithActivityItems:]
+- -[NUArticleActivity initWithActivityType:title:image:performBlock:]
+- -[NUArticleActivity performActivity]
+- -[NUArticleActivity performBlock]
+- -[NUArticleActivity prepareWithActivityItems:]
+- -[NUArticleActivity setActivityItems:]
+- -[NUArticleActivityDefaultOptionsProvider articleActivityOptionsForHeadline:]
+- -[NUArticleActivityItemSource .cxx_destruct]
+- -[NUArticleActivityItemSource activityViewController:itemForActivityType:]
+- -[NUArticleActivityItemSource activityViewControllerPlaceholderItem:]
+- -[NUArticleActivityItemSource headline]
+- -[NUArticleActivityItemSource initWithHeadline:]
+- -[NUArticleActivityManager .cxx_destruct]
+- -[NUArticleActivityManager URLHandler]
+- -[NUArticleActivityManager URLModifier]
+- -[NUArticleActivityManager activities]
+- -[NUArticleActivityManager activityForType:]
+- -[NUArticleActivityManager activityImageForHeadline:withType:]
+- -[NUArticleActivityManager activityItemSources]
+- -[NUArticleActivityManager activityTitleForHeadline:withType:]
+- -[NUArticleActivityManager activityTypeForHeadline:withType:]
+- -[NUArticleActivityManager articleDislikedForHeadline:]
+- -[NUArticleActivityManager articleLikedForHeadline:]
+- -[NUArticleActivityManager articleSavedForHeadline:]
+- -[NUArticleActivityManager channelMutedForHeadline:]
+- -[NUArticleActivityManager headline]
+- -[NUArticleActivityManager initWithHeadline:readingHistory:readingList:subscriptionList:URLHandler:reportConcernViewPresenter:URLModifier:optionsProvider:]
+- -[NUArticleActivityManager optionsProvider]
+- -[NUArticleActivityManager performBlockForHeadline:withType:]
+- -[NUArticleActivityManager readingHistory]
+- -[NUArticleActivityManager readingList]
+- -[NUArticleActivityManager reportConcernViewPresenter]
+- -[NUArticleActivityManager subscriptionList]
+- -[NUArticleActivityManager supportedActivities]
+- -[NUArticleActivityManager toggleArticleDislikeStatusForHeadline:]
+- -[NUArticleActivityManager toggleArticleLikeStatusForHeadline:]
+- -[NUArticleActivityManager toggleMuteForHeadline:]
+- -[NUArticleActivityManager toggleSaveForHeadline:]
+- -[NUArticleActivityManagerFactory .cxx_destruct]
+- -[NUArticleActivityManagerFactory URLHandler]
+- -[NUArticleActivityManagerFactory activityProviderForHeadline:reportConcernViewPresenter:URLModifier:]
+- -[NUArticleActivityManagerFactory initWithReadingHistory:readingList:subscriptionList:URLHandler:optionsProvider:]
+- -[NUArticleActivityManagerFactory optionsProvider]
+- -[NUArticleActivityManagerFactory readingHistory]
+- -[NUArticleActivityManagerFactory readingList]
+- -[NUArticleActivityManagerFactory subscriptionList]
+- -[NUArticleAssembly loadInRegistry:]
+- -[NUArticleContainerTitleView .cxx_destruct]
+- -[NUArticleContainerTitleView applyPageStyle:]
+- -[NUArticleContainerTitleView initWithFrame:]
+- -[NUArticleContainerTitleView layoutSubviews]
+- -[NUArticleContainerTitleView pageStyle]
+- -[NUArticleContainerTitleView setPageStyle:]
+- -[NUArticleContainerTitleView titleView]
+- -[NUArticleContainerViewController .cxx_destruct]
+- -[NUArticleContainerViewController childViewControllerForStatusBarHidden]
+- -[NUArticleContainerViewController delegate]
+- -[NUArticleContainerViewController didReceiveMemoryWarning]
+- -[NUArticleContainerViewController enableNavigation:]
+- -[NUArticleContainerViewController initWithPagingFactory:router:]
+- -[NUArticleContainerViewController init]
+- -[NUArticleContainerViewController isLinkPreviewing]
+- -[NUArticleContainerViewController loadWithArticleIDs:]
+- -[NUArticleContainerViewController loadingDidFinishWithError:]
+- -[NUArticleContainerViewController loadingWillStart]
+- -[NUArticleContainerViewController overrideSafeAreaInsets]
+- -[NUArticleContainerViewController pageViewController:viewControllerAfterViewController:]
+- -[NUArticleContainerViewController pageViewController:viewControllerBeforeViewController:]
+- -[NUArticleContainerViewController pageViewController]
+- -[NUArticleContainerViewController pagingFactory]
+- -[NUArticleContainerViewController paging]
+- -[NUArticleContainerViewController router]
+- -[NUArticleContainerViewController setDelegate:]
+- -[NUArticleContainerViewController setLinkPreviewing:]
+- -[NUArticleContainerViewController setPaging:]
+- -[NUArticleContainerViewController viewControllerPageableForViewController:]
+- -[NUArticleContainerViewController viewDidLayoutSubviews]
+- -[NUArticleContainerViewController viewDidLoad]
+- -[NUArticleContentSizeManager .cxx_destruct]
+- -[NUArticleContentSizeManager contentScaleForArticle:]
+- -[NUArticleContentSizeManager contentSizeCategoryForArticle:]
+- -[NUArticleContentSizeManager contentSizeCategoryForSize:]
+- -[NUArticleContentSizeManager initWithTagSettings:]
+- -[NUArticleContentSizeManager tagSettings]
+- -[NUArticleContentSizeManager textSizeForContentSizeCategory:]
+- -[NUArticleContentSizeManager updateContentScale:forArticle:]
+- -[NUArticleContentSizeManager updateContentSizeCategory:forArticle:]
+- -[NUArticleContext .cxx_destruct]
+- -[NUArticleContext copyWithZone:]
+- -[NUArticleContext initWithShouldAutoPlayVideo:scrollPosition:]
+- -[NUArticleContext scrollPosition]
+- -[NUArticleContext shouldAutoPlayVideo]
+- -[NUArticleHostViewController .cxx_destruct]
+- -[NUArticleHostViewController analyticsReporting]
+- -[NUArticleHostViewController articleContext]
+- -[NUArticleHostViewController articleViewController:didDetectLiveUpdates:headline:]
+- -[NUArticleHostViewController articleViewController:didScrollToPosition:]
+- -[NUArticleHostViewController articleViewControllerDidScrollToBottomOfPrimaryContent:]
+- -[NUArticleHostViewController articleViewControllerFactory]
+- -[NUArticleHostViewController articleViewStyler]
+- -[NUArticleHostViewController article]
+- -[NUArticleHostViewController becomeFirstResponder]
+- -[NUArticleHostViewController checkForLiveCoverageUpdatesWithCompletion:]
+- -[NUArticleHostViewController contentScale]
+- -[NUArticleHostViewController contentSizeCategory]
+- -[NUArticleHostViewController contentSizeManager]
+- -[NUArticleHostViewController contentTypeViewController]
+- -[NUArticleHostViewController delegate]
+- -[NUArticleHostViewController didStartExperimentForArticleID:experimentIdentifier:treatmentGroup:]
+- -[NUArticleHostViewController errorMessageFactory]
+- -[NUArticleHostViewController experimentationDelegate]
+- -[NUArticleHostViewController initWithArticle:articleViewControllerFactory:settings:errorMessageFactory:contentSizeManager:]
+- -[NUArticleHostViewController initWithArticle:issue:articleViewControllerFactory:settings:errorMessageFactory:analyticsReporting:contentSizeManager:relativePriority:]
+- -[NUArticleHostViewController isExperimentationEnabled]
+- -[NUArticleHostViewController issue]
+- -[NUArticleHostViewController liveCoverageDelegate]
+- -[NUArticleHostViewController loadArticleAndEmbedArticleViewController]
+- -[NUArticleHostViewController loadingDelegate]
+- -[NUArticleHostViewController loadingDidFinishWithError:]
+- -[NUArticleHostViewController loadingDidStart]
+- -[NUArticleHostViewController loadingDidUpdateProgress:]
+- -[NUArticleHostViewController loadingListeners]
+- -[NUArticleHostViewController loadingTextForArticle:]
+- -[NUArticleHostViewController loadingView]
+- -[NUArticleHostViewController loadingWillStart]
+- -[NUArticleHostViewController multiLoadingDelegate]
+- -[NUArticleHostViewController offline]
+- -[NUArticleHostViewController pageIdentifier]
+- -[NUArticleHostViewController relativePriority]
+- -[NUArticleHostViewController reloadArticleWithLatestLiveCoverageContent]
+- -[NUArticleHostViewController reload]
+- -[NUArticleHostViewController reportEvent:]
+- -[NUArticleHostViewController resignFirstResponder]
+- -[NUArticleHostViewController responder]
+- -[NUArticleHostViewController scrollView]
+- -[NUArticleHostViewController searchWithContext:]
+- -[NUArticleHostViewController selectedText]
+- -[NUArticleHostViewController setArticleContext:]
+- -[NUArticleHostViewController setContentScale:]
+- -[NUArticleHostViewController setContentSizeCategory:]
+- -[NUArticleHostViewController setContentTypeViewController:]
+- -[NUArticleHostViewController setDelegate:]
+- -[NUArticleHostViewController setExperimentationDelegate:]
+- -[NUArticleHostViewController setLiveCoverageDelegate:]
+- -[NUArticleHostViewController setLoadingDelegate:]
+- -[NUArticleHostViewController setLoadingView:]
+- -[NUArticleHostViewController setOffline:]
+- -[NUArticleHostViewController setResponder:]
+- -[NUArticleHostViewController setShouldApplyBackgroundColor:]
+- -[NUArticleHostViewController setShouldShowLoadingCover:]
+- -[NUArticleHostViewController settings]
+- -[NUArticleHostViewController shouldApplyBackgroundColor]
+- -[NUArticleHostViewController shouldShowLoadingCover]
+- -[NUArticleHostViewController updateContentScaleAndSize]
+- -[NUArticleHostViewController viewDidLayoutSubviews]
+- -[NUArticleHostViewController viewDidLoad]
+- -[NUArticleHostViewController viewWillAppear:]
+- -[NUArticleHostViewController viewWillLayoutSubviews]
+- -[NUArticleHostViewControllerFactory .cxx_destruct]
+- -[NUArticleHostViewControllerFactory articleViewControllerFactory]
+- -[NUArticleHostViewControllerFactory contentSizeManager]
+- -[NUArticleHostViewControllerFactory createArticleHostViewControllerForArticle:]
+- -[NUArticleHostViewControllerFactory errorMessageFactory]
+- -[NUArticleHostViewControllerFactory initWithArticleViewControllerFactory:settings:errorMessageFactory:contentSizeManager:]
+- -[NUArticleHostViewControllerFactory settings]
+- -[NUArticleHostViewControllerProvider .cxx_destruct]
+- -[NUArticleHostViewControllerProvider articleHostViewController]
+- -[NUArticleHostViewControllerProvider initWithArticleHostViewController:]
+- -[NUArticleImageActivityItemSource .cxx_destruct]
+- -[NUArticleImageActivityItemSource activityViewController:itemForActivityType:]
+- -[NUArticleImageActivityItemSource activityViewControllerPlaceholderItem:]
+- -[NUArticleImageActivityItemSource articleImage]
+- -[NUArticleImageActivityItemSource initWithHeadline:]
+- -[NUArticleKeyCommandManager .cxx_destruct]
+- -[NUArticleKeyCommandManager handleKey:flags:]
+- -[NUArticleKeyCommandManager handleKeyCommand:]
+- -[NUArticleKeyCommandManager hasBeenTraversed]
+- -[NUArticleKeyCommandManager keyCommandsWithSelector:]
+- -[NUArticleKeyCommandManager registerScrollView:]
+- -[NUArticleKeyCommandManager scrollView]
+- -[NUArticleKeyCommandManager setHasBeenTraversed:]
+- -[NUArticleNavigationController viewDidLoad]
+- -[NUArticlePage .cxx_destruct]
+- -[NUArticlePage activityProvider:]
+- -[NUArticlePage activityProvider]
+- -[NUArticlePage allowNeighboringAdvertising]
+- -[NUArticlePage articleActivityFactory]
+- -[NUArticlePage articleHostViewControllerFactory]
+- -[NUArticlePage articleViewController]
+- -[NUArticlePage article]
+- -[NUArticlePage asyncOnceCancelHandler]
+- -[NUArticlePage asyncOnceLoadPageStyle:]
+- -[NUArticlePage asyncOnceOperation]
+- -[NUArticlePage identifier]
+- -[NUArticlePage initWithArticle:articleHostViewControllerFactory:articleActivityFactory:pageNextAction:]
+- -[NUArticlePage pageNextAction]
+- -[NUArticlePage pageStyle]
+- -[NUArticlePage pageStyling:]
+- -[NUArticlePage prepare]
+- -[NUArticlePage setActivityProvider:]
+- -[NUArticlePage setArticleViewController:]
+- -[NUArticlePage setAsyncOnceCancelHandler:]
+- -[NUArticlePage setAsyncOnceOperation:]
+- -[NUArticlePage setPageNextAction:]
+- -[NUArticlePage setPageStyle:]
+- -[NUArticlePage unprepare]
+- -[NUArticlePage viewController]
+- -[NUArticlePageFactory .cxx_destruct]
+- -[NUArticlePageFactory articleActivityFactory]
+- -[NUArticlePageFactory articleFactory]
+- -[NUArticlePageFactory articleHostViewControllerFactory]
+- -[NUArticlePageFactory createPagesForArticleIDs:]
+- -[NUArticlePageFactory initWithArticleFactory:articleActivityFactory:articleHostViewControllerFactory:]
+- -[NUArticlePageStyleOperation .cxx_destruct]
+- -[NUArticlePageStyleOperation article]
+- -[NUArticlePageStyleOperation completion]
+- -[NUArticlePageStyleOperation initWithArticle:pageNextAction:completion:]
+- -[NUArticlePageStyleOperation operationDidFinishWithError:]
+- -[NUArticlePageStyleOperation pageNextAction]
+- -[NUArticlePageStyleOperation pageStyle]
+- -[NUArticlePageStyleOperation performOperation]
+- -[NUArticlePageStyleOperation setPageStyle:]
+- -[NUArticlePageStyleOperation validateOperation]
+- -[NUArticlePrefetcher .cxx_destruct]
+- -[NUArticlePrefetcher _didChangeInterestedArticleIDs]
+- -[NUArticlePrefetcher _flushDataProviderIfNeededForHeadline:]
+- -[NUArticlePrefetcher _flushUnusedDataProvidersIfNeeded]
+- -[NUArticlePrefetcher _prefetchDataProviderWithArticleID:completion:]
+- -[NUArticlePrefetcher _reprocessInterestedArticleIDs]
+- -[NUArticlePrefetcher _revisitSuspendedState]
+- -[NUArticlePrefetcher addPrefetchInterestInArticleID:headline:]
+- -[NUArticlePrefetcher articleDataProviderCache]
+- -[NUArticlePrefetcher articleDataProviderFactory]
+- -[NUArticlePrefetcher articleFactory]
+- -[NUArticlePrefetcher failedArticleIDs]
+- -[NUArticlePrefetcher headlinesForArticles]
+- -[NUArticlePrefetcher highWaterMark]
+- -[NUArticlePrefetcher initWithArticleFactory:articleDataProviderFactory:]
+- -[NUArticlePrefetcher init]
+- -[NUArticlePrefetcher interestModificationDates]
+- -[NUArticlePrefetcher interestedArticleIDs]
+- -[NUArticlePrefetcher keyedOperationQueue:performAsyncOperationForKey:completion:]
+- -[NUArticlePrefetcher prefetchArticleID:headline:completion:]
+- -[NUArticlePrefetcher prefetchQueue]
+- -[NUArticlePrefetcher prefetchedArticleDataProviderForArticleID:]
+- -[NUArticlePrefetcher removePrefetchInterestInArticleID:]
+- -[NUArticlePrefetcher reprocessTimer]
+- -[NUArticlePrefetcher setArticleDataProviderCache:]
+- -[NUArticlePrefetcher setArticleDataProviderFactory:]
+- -[NUArticlePrefetcher setArticleFactory:]
+- -[NUArticlePrefetcher setFailedArticleIDs:]
+- -[NUArticlePrefetcher setHeadlinesForArticles:]
+- -[NUArticlePrefetcher setHighWaterMark:]
+- -[NUArticlePrefetcher setInterestModificationDates:]
+- -[NUArticlePrefetcher setInterestedArticleIDs:]
+- -[NUArticlePrefetcher setPrefetchQueue:]
+- -[NUArticlePrefetcher setReprocessTimer:]
+- -[NUArticlePrefetcher workQueue]
+- -[NUArticleResourceURLTranslator .cxx_destruct]
+- -[NUArticleResourceURLTranslator appConfigurationManager]
+- -[NUArticleResourceURLTranslator defaultURLForEndpoint:]
+- -[NUArticleResourceURLTranslator endpointForScheme:]
+- -[NUArticleResourceURLTranslator initWithAppConfigurationManager:]
+- -[NUArticleResourceURLTranslator translateFileURLForURL:]
+- -[NUArticleScrollPosition .cxx_destruct]
+- -[NUArticleScrollPosition initWithPosition:source:]
+- -[NUArticleScrollPosition position]
+- -[NUArticleScrollPosition source]
+- -[NUArticleScrollPositionManager headlineDidScroll:position:timeSpent:]
+- -[NUArticleScrollPositionManager headlineWillDisappear:position:timeSpent:]
+- -[NUArticleScrollPositionManager scrollPositionForHeadline:]
+- -[NUArticleTextActivityItemSource .cxx_destruct]
+- -[NUArticleTextActivityItemSource activityViewController:dataTypeIdentifierForActivityType:]
+- -[NUArticleTextActivityItemSource activityViewController:itemForActivityType:]
+- -[NUArticleTextActivityItemSource activityViewController:subjectForActivityType:]
+- -[NUArticleTextActivityItemSource activityViewControllerPlaceholderItem:]
+- -[NUArticleTextActivityItemSource initWithHeadline:]
+- -[NUArticleTextActivityItemSource itemTitle]
+- -[NUArticleURLActivityItemSource .cxx_destruct]
+- -[NUArticleURLActivityItemSource activityViewController:itemForActivityType:]
+- -[NUArticleURLActivityItemSource activityViewControllerPlaceholderItem:]
+- -[NUArticleURLActivityItemSource articleURL]
+- -[NUArticleURLActivityItemSource bodyStringForMailMessage]
+- -[NUArticleURLActivityItemSource initWithHeadline:URLModifier:]
+- -[NUArticleViewController .cxx_destruct]
+- -[NUArticleViewController accessibilityShouldScrollForScrollViewController:defaultValue:]
+- -[NUArticleViewController analyticsReporting]
+- -[NUArticleViewController applicationDidBecomeActive:]
+- -[NUArticleViewController applicationWillEnterForeground:]
+- -[NUArticleViewController articleContext]
+- -[NUArticleViewController articleDataProvider]
+- -[NUArticleViewController articleDidApplyDocumentStyle:]
+- -[NUArticleViewController articleIsPresentingFullscreen]
+- -[NUArticleViewController articleLoadedTime]
+- -[NUArticleViewController articleMessager]
+- -[NUArticleViewController articleScrollPositionManager]
+- -[NUArticleViewController articleViewStyler]
+- -[NUArticleViewController becomeFirstResponder]
+- -[NUArticleViewController canBecomeFirstResponder]
+- -[NUArticleViewController checkForLiveCoverageUpdatesWithCompletion:]
+- -[NUArticleViewController chromeControl]
+- -[NUArticleViewController contentScale]
+- -[NUArticleViewController contentSizeCategory]
+- -[NUArticleViewController currentPresentationAttributes]
+- -[NUArticleViewController debugSettingsProvider]
+- -[NUArticleViewController delegate]
+- -[NUArticleViewController didStartExperimentForDocument:experimentIdentifier:treatmentGroup:]
+- -[NUArticleViewController documentSectionBlueprintProvider]
+- -[NUArticleViewController endOfArticleDataProvider]
+- -[NUArticleViewController eventManager]
+- -[NUArticleViewController experimentationDelegate]
+- -[NUArticleViewController finalizeArticleLoadingWithContext:]
+- -[NUArticleViewController initWithArticleDataProvider:scrollViewController:appStateMonitor:keyCommandManager:loadingListeners:headerBlueprintProvider:debugSettingsProvider:videoPlayerViewControllerManager:articleScrollPositionManager:chromeControl:spotlightManager:liveCoverageManager:]
+- -[NUArticleViewController isExperimentationEnabled]
+- -[NUArticleViewController isPreviewingOrShowingHardPaywall]
+- -[NUArticleViewController keyCommandManager]
+- -[NUArticleViewController latestLiveCoverageContext]
+- -[NUArticleViewController liveCoverageDelegate]
+- -[NUArticleViewController liveCoverageManager:didDetectNewContent:newPostCount:]
+- -[NUArticleViewController liveCoverageManager:didFailWithError:]
+- -[NUArticleViewController liveCoverageManager]
+- -[NUArticleViewController loadArticle]
+- -[NUArticleViewController loadingDelegate]
+- -[NUArticleViewController loadingListeners]
+- -[NUArticleViewController manualScrollingStartDate]
+- -[NUArticleViewController navigationBarHeightForScrollViewController:]
+- -[NUArticleViewController offline]
+- -[NUArticleViewController preferredStatusBarStyle]
+- -[NUArticleViewController prefersStatusBarHidden]
+- -[NUArticleViewController prepareArticleLoadingWithContext:]
+- -[NUArticleViewController presentationMode]
+- -[NUArticleViewController processScrollPositionForViewDisappearance]
+- -[NUArticleViewController reloadArticleWithLatestLiveCoverageContent]
+- -[NUArticleViewController reportEvent:]
+- -[NUArticleViewController resignFirstResponder]
+- -[NUArticleViewController responder]
+- -[NUArticleViewController saveScrollPosition:]
+- -[NUArticleViewController scrollToAudioPositionAndHideMessageAfterEvent:]
+- -[NUArticleViewController scrollToTopAnimated:]
+- -[NUArticleViewController scrollViewController:didApplyDocumentStyle:]
+- -[NUArticleViewController scrollViewController:enableNavigation:]
+- -[NUArticleViewController scrollViewController:shouldOccludeAccessibilityElement:]
+- -[NUArticleViewController scrollViewControllerDidLayoutContent:]
+- -[NUArticleViewController scrollViewControllerDidScroll:]
+- -[NUArticleViewController scrollViewControllerDidScrollToBottomOfPrimaryContent:]
+- -[NUArticleViewController scrollViewControllerDidStopScrolling:]
+- -[NUArticleViewController scrollViewControllerDismissFullscreen:]
+- -[NUArticleViewController scrollViewControllerRequestsFullscreen:]
+- -[NUArticleViewController scrollViewControllerWillDismissFullscreen:]
+- -[NUArticleViewController scrollViewController]
+- -[NUArticleViewController scrollView]
+- -[NUArticleViewController searchWithContext:]
+- -[NUArticleViewController selectedText]
+- -[NUArticleViewController setAnalyticsReporting:]
+- -[NUArticleViewController setArticleContext:]
+- -[NUArticleViewController setArticleIsPresentingFullscreen:]
+- -[NUArticleViewController setArticleLoadedTime:]
+- -[NUArticleViewController setContentScale:]
+- -[NUArticleViewController setContentSizeCategory:]
+- -[NUArticleViewController setDelegate:]
+- -[NUArticleViewController setExperimentationDelegate:]
+- -[NUArticleViewController setLatestLiveCoverageContext:]
+- -[NUArticleViewController setLiveCoverageDelegate:]
+- -[NUArticleViewController setLoadingDelegate:]
+- -[NUArticleViewController setManualScrollingStartDate:]
+- -[NUArticleViewController setOffline:]
+- -[NUArticleViewController setPresentationMode:]
+- -[NUArticleViewController setShouldAutoPlayVideo:]
+- -[NUArticleViewController shouldAutoPlayVideo]
+- -[NUArticleViewController shouldSaveScrollPosition]
+- -[NUArticleViewController showArticleMessage:hideAfterEvent:]
+- -[NUArticleViewController spotlightManager]
+- -[NUArticleViewController testingConditionEnabled:]
+- -[NUArticleViewController timeSpentInArticle]
+- -[NUArticleViewController toolBarHeightForScrollViewController:]
+- -[NUArticleViewController traitCollectionDidChange:]
+- -[NUArticleViewController updatePresentationAttributes]
+- -[NUArticleViewController updateScrollPosition]
+- -[NUArticleViewController updateScrollViewControllerWithContentOverlayBlueprint:topOffset:]
+- -[NUArticleViewController updateScrollViewControllerWithFooterBlueprint:]
+- -[NUArticleViewController updateScrollViewControllerWithHeaderBlueprint:]
+- -[NUArticleViewController updateTextSelectionForPaywallPresentation]
+- -[NUArticleViewController videoPlayerViewControllerManager]
+- -[NUArticleViewController viewDidAppear:]
+- -[NUArticleViewController viewDidDisappear:]
+- -[NUArticleViewController viewDidLayoutSubviews]
+- -[NUArticleViewController viewDidLoad]
+- -[NUArticleViewController viewSafeAreaInsetsDidChange]
+- -[NUArticleViewController viewWillAppear:]
+- -[NUArticleViewController viewWillDisappear:]
+- -[NUArticleViewController viewportDebuggingEnabled:]
+- -[NUArticleViewController willReturnToFullscreen:]
+- -[NUArticleViewControllerFactory .cxx_destruct]
+- -[NUArticleViewControllerFactory appStateMonitor]
+- -[NUArticleViewControllerFactory articleDataProviderFactory]
+- -[NUArticleViewControllerFactory articlePrefetcher]
+- -[NUArticleViewControllerFactory articleScrollPositionManager]
+- -[NUArticleViewControllerFactory createArticleViewControllerWithArticle:issue:context:relativePriority:articleHostViewController:]
+- -[NUArticleViewControllerFactory headerBlueprintProvider]
+- -[NUArticleViewControllerFactory initWithArticleDataProviderFactory:appStateMonitor:keyCommandManager:headerBlueprintProvider:articlePrefetcher:articleScrollPositionManager:spotlightManager:resolver:]
+- -[NUArticleViewControllerFactory keyCommandManager]
+- -[NUArticleViewControllerFactory loadingListeners]
+- -[NUArticleViewControllerFactory resolver]
+- -[NUArticleViewControllerFactory spotlightManager]
+- -[NUArticleViewStyler .cxx_destruct]
+- -[NUArticleViewStyler initWithBackgroundColor:topBackgroundColor:]
+- -[NUArticleViewStyler mainBackgroundColor]
+- -[NUArticleViewStyler setTabBarTintColor:]
+- -[NUArticleViewStyler setToolbarTintColor:]
+- -[NUArticleViewStyler statusBarStyleForBackgroundColor:]
+- -[NUArticleViewStyler statusBarStyle]
+- -[NUArticleViewStyler styleTabBar:]
+- -[NUArticleViewStyler styleToolbar:]
+- -[NUArticleViewStyler tabBarTintColor]
+- -[NUArticleViewStyler toolbarTintColor]
+- -[NUArticleViewStyler topBackgroundStatusBarStyle]
+- -[NUArticleViewStyler topContentColor]
+- -[NUArticleViewStyler unstyleTabBar:overrideRestoreColor:]
+- -[NUArticleViewStyler unstyleToolbar:overrideRestoreColor:]
+- -[NUBasicAnimation .cxx_destruct]
+- -[NUBasicAnimation animationDidStop:finished:]
+- -[NUBasicAnimation completion]
+- -[NUBasicAnimation setCompletion:]
+- -[NUBlockBasedURLModifier .cxx_destruct]
+- -[NUBlockBasedURLModifier block]
+- -[NUBlockBasedURLModifier initWithBlock:]
+- -[NUBlockBasedURLModifier modifyURL:]
+- -[NUBlockBasedURLModifier setBlock:]
+- -[NUBundledArticleDataProvider .cxx_destruct]
+- -[NUBundledArticleDataProvider articleID]
+- -[NUBundledArticleDataProvider article]
+- -[NUBundledArticleDataProvider cancelAssetPrefetch]
+- -[NUBundledArticleDataProvider embedDataManager]
+- -[NUBundledArticleDataProvider embedForType:]
+- -[NUBundledArticleDataProvider fileURLForBundleURL:]
+- -[NUBundledArticleDataProvider fileURLForURL:onCompletion:onError:]
+- -[NUBundledArticleDataProvider initWithArticle:embedDataManager:linkedContentManager:]
+- -[NUBundledArticleDataProvider linkedContentManager]
+- -[NUBundledArticleDataProvider linkedContentProviders]
+- -[NUBundledArticleDataProvider loadContextWithCompletionBlock:]
+- -[NUBundledArticleDataProvider loadImagesForImageRequest:completionBlock:]
+- -[NUBundledArticleDataProvider performBlockForFontsInBundle:]
+- -[NUBundledArticleDataProvider prefetchAssets]
+- -[NUBundledArticleDataProvider registerFonts]
+- -[NUBundledArticleDataProvider relativePriority]
+- -[NUBundledArticleDataProvider setRelativePriority:]
+- -[NUBundledArticleDataProvider translateURL:]
+- -[NUContentAnalyticsEvent .cxx_destruct]
+- -[NUContentAnalyticsEvent event]
+- -[NUContentAnalyticsEvent initWithEvent:]
+- -[NUContentOverlayDocumentSectionBlueprintData .cxx_destruct]
+- -[NUContentOverlayDocumentSectionBlueprintData blueprint]
+- -[NUContentOverlayDocumentSectionBlueprintData initWithBlueprint:topOffset:]
+- -[NUContentOverlayDocumentSectionBlueprintData topOffset]
+- -[NUCoreAssembly loadInRegistry:]
+- -[NUCrossFadeTitleView .cxx_destruct]
+- -[NUCrossFadeTitleView _applyStylesToText:styleType:]
+- -[NUCrossFadeTitleView _applyStylesToTextAndGlyph:styleType:]
+- -[NUCrossFadeTitleView animator]
+- -[NUCrossFadeTitleView applyStylesToValueFromTitleViewUpdate:]
+- -[NUCrossFadeTitleView displayValueType]
+- -[NUCrossFadeTitleView initWithCoder:]
+- -[NUCrossFadeTitleView initWithFrame:]
+- -[NUCrossFadeTitleView initWithStyler:]
+- -[NUCrossFadeTitleView layoutSubviews]
+- -[NUCrossFadeTitleView relayoutWithAnimation:]
+- -[NUCrossFadeTitleView setDisplayValueType:]
+- -[NUCrossFadeTitleView setStyler:]
+- -[NUCrossFadeTitleView setUpdate:]
+- -[NUCrossFadeTitleView styler]
+- -[NUCrossFadeTitleView textAndGlyphView]
+- -[NUCrossFadeTitleView titleImageView]
+- -[NUCrossFadeTitleView titleLabel]
+- -[NUCrossFadeTitleView updateTitleViewWithUpdate:animated:completion:]
+- -[NUCrossFadeTitleView update]
+- -[NUCrossFadeTitleView viewForValueType:]
+- -[NUCrossFadeTitleView visibleFrame]
+- -[NUCrossFadeViewAnimator animateView:toEmptyStateWithCompletion:]
+- -[NUCrossFadeViewAnimator animateView:toValue:completion:]
+- -[NUCrossFadeViewAnimator crossFadeFromView:toView:value:completion:]
+- -[NUCrossFadeViewAnimator duration]
+- -[NUCrossFadeViewAnimator init]
+- -[NUCrossFadeViewAnimator resetView:]
+- -[NUCrossFadeViewAnimator setDuration:]
+- -[NUDeepLinkURLModifier modifyURL:]
+- -[NUDeviceTrait copyWithZone:]
+- -[NUDeviceTrait deviceTraitSize]
+- -[NUDeviceTrait initWithDeviceTraitSize:]
+- -[NUDeviceTrait isLandscape]
+- -[NUDocumentSectionBlueprintProvider .cxx_destruct]
+- -[NUDocumentSectionBlueprintProvider init]
+- -[NUDocumentSectionBlueprintProvider observableContentOverlayBlueprintData]
+- -[NUDocumentSectionBlueprintProvider observableFooterBlueprint]
+- -[NUDocumentSectionBlueprintProvider observableHeaderBlueprint]
+- -[NUDocumentSectionBlueprintProvider tempObservableContentOverlayBlueprintData]
+- -[NUDocumentSectionBlueprintProvider tempObservableFooterBlueprint]
+- -[NUDocumentSectionBlueprintProvider tempObservableHeaderBlueprint]
+- -[NUDocumentSectionItem .cxx_destruct]
+- -[NUDocumentSectionItem heightProvider]
+- -[NUDocumentSectionItem initWithViewController:heightProvider:]
+- -[NUDocumentSectionItem sectionHeight]
+- -[NUDocumentSectionItem sectionItemHeightForSize:traitCollection:]
+- -[NUDocumentSectionItem sectionItemViewController]
+- -[NUDocumentSectionItem viewController]
+- -[NUEmbedConfigurationOperation .cxx_destruct]
+- -[NUEmbedConfigurationOperation appConfigurationManager]
+- -[NUEmbedConfigurationOperation completion]
+- -[NUEmbedConfigurationOperation flintResourceManager]
+- -[NUEmbedConfigurationOperation initWithAppConfigManager:flintResourceManager:]
+- -[NUEmbedConfigurationOperation operationWillFinishWithError:]
+- -[NUEmbedConfigurationOperation performOperation]
+- -[NUEmbedConfigurationOperation result]
+- -[NUEmbedConfigurationOperation setAppConfigurationManager:]
+- -[NUEmbedConfigurationOperation setCompletion:]
+- -[NUEmbedConfigurationOperation setFlintResourceManager:]
+- -[NUEmbedConfigurationOperation setResult:]
+- -[NUEmbedConfigurationOperationResult .cxx_destruct]
+- -[NUEmbedConfigurationOperationResult data]
+- -[NUEmbedConfigurationOperationResult identifier]
+- -[NUEmbedConfigurationOperationResult initWithData:idenfifier:]
+- -[NUEmbedData autoPlayMediaWithValue:withType:]
+- -[NUEmbedDataManager .cxx_destruct]
+- -[NUEmbedDataManager embedConfigurationLoader]
+- -[NUEmbedDataManager embedConfiguration]
+- -[NUEmbedDataManager embedForType:]
+- -[NUEmbedDataManager hasLoaded]
+- -[NUEmbedDataManager initWithEmbedConfigurationLoader:]
+- -[NUEmbedDataManager loadEmbedDataWithCompletion:]
+- -[NUEmbedDataManager setEmbedConfiguration:]
+- -[NUErrorMessage .cxx_destruct]
+- -[NUErrorMessage copyWithZone:]
+- -[NUErrorMessage hash]
+- -[NUErrorMessage initWithTitle:subtitle:]
+- -[NUErrorMessage isEqual:]
+- -[NUErrorMessage subtitle]
+- -[NUErrorMessage title]
+- -[NUErrorMessageFactory .cxx_destruct]
+- -[NUErrorMessageFactory errorMessageForArticleViewWithOfflineReason:]
+- -[NUErrorMessageFactory errorMessageForArticleView]
+- -[NUErrorMessageFactory initWithNetworkReachability:]
+- -[NUErrorMessageFactory networkReachability]
+- -[NUErrorView .cxx_destruct]
+- -[NUErrorView accessibilityElements]
+- -[NUErrorView accessibilityLabel]
+- -[NUErrorView attributedStringForErrorMessage:]
+- -[NUErrorView errorMessage:]
+- -[NUErrorView errorMessage]
+- -[NUErrorView initWithErrorMessage:]
+- -[NUErrorView isAccessibilityElement]
+- -[NUErrorView labelMaxWidthTrait]
+- -[NUErrorView label]
+- -[NUErrorView layoutSubviews]
+- -[NUErrorView setErrorMessage:]
+- -[NUErrorView setLabelMaxWidthTrait:]
+- -[NUErrorView setTextAlignment:]
+- -[NUErrorView setVerticalAlignment:]
+- -[NUErrorView textAlignment]
+- -[NUErrorView verticalAlignment]
+- -[NUExtensionAppActivityMonitor .cxx_destruct]
+- -[NUExtensionAppActivityMonitor addObserver:]
+- -[NUExtensionAppActivityMonitor applicationDidEnterBackgroundNotification:]
+- -[NUExtensionAppActivityMonitor applicationWillEnterForegroundNotification:]
+- -[NUExtensionAppActivityMonitor backgroundObserverBlocks]
+- -[NUExtensionAppActivityMonitor currentApplicationState]
+- -[NUExtensionAppActivityMonitor dealloc]
+- -[NUExtensionAppActivityMonitor foregroundObserverBlocks]
+- -[NUExtensionAppActivityMonitor initWithNotificationCenter:]
+- -[NUExtensionAppActivityMonitor notificationCenter]
+- -[NUExtensionAppActivityMonitor observers]
+- -[NUExtensionAppActivityMonitor performOnApplicationDidBecomeActive:]
+- -[NUExtensionAppActivityMonitor performOnApplicationDidEnterBackground:]
+- -[NUExtensionAppActivityMonitor performOnApplicationWillEnterForeground:]
+- -[NUExtensionAppActivityMonitor performOnApplicationWindowDidBecomeBackground:]
+- -[NUExtensionAppActivityMonitor performOnApplicationWindowDidBecomeForeground:]
+- -[NUExtensionAppActivityMonitor removeObserver:]
+- -[NUExtensionAppActivityMonitor windowBackgroundObserverBlocks]
+- -[NUExtensionAppActivityMonitor windowForegroundObserverBlocks]
+- -[NUExtensionAssembly .cxx_destruct]
+- -[NUExtensionAssembly extensionContextProvider]
+- -[NUExtensionAssembly initWithExtensionContextProvider:]
+- -[NUExtensionAssembly loadInRegistry:]
+- -[NUExtensionDevice .cxx_destruct]
+- -[NUExtensionDevice hostViewController]
+- -[NUExtensionDevice initWithScreen:hostViewController:]
+- -[NUExtensionDevice isSplitScreen]
+- -[NUExtensionDevice screen]
+- -[NUExtensionFrameworkAssembly .cxx_destruct]
+- -[NUExtensionFrameworkAssembly assemblies]
+- -[NUExtensionFrameworkAssembly initWithExtensionContextProvider:]
+- -[NUExtensionURLHandler .cxx_destruct]
+- -[NUExtensionURLHandler extensionContext]
+- -[NUExtensionURLHandler initWithExtensionContext:]
+- -[NUExtensionURLHandler openURL:]
+- -[NUExtensionURLHandler openURL:options:completion:]
+- -[NUFadeViewAnimator fadeFromView:toView:completion:]
+- -[NUFadeViewAnimator fadeInDelay]
+- -[NUFadeViewAnimator fadeInDuration]
+- -[NUFadeViewAnimator fadeOutDuration]
+- -[NUFadeViewAnimator init]
+- -[NUFadeViewAnimator setFadeInDelay:]
+- -[NUFadeViewAnimator setFadeInDuration:]
+- -[NUFadeViewAnimator setFadeOutDuration:]
+- -[NUFeedTitleView .cxx_destruct]
+- -[NUFeedTitleView applyFeedTitleViewUpdate:animation:]
+- -[NUFeedTitleView applyFeedTitleViewUpdate:animation:force:]
+- -[NUFeedTitleView applyTitleViewUpdate:animation:]
+- -[NUFeedTitleView delegate]
+- -[NUFeedTitleView initWithFrame:]
+- -[NUFeedTitleView lastQueuedTitleViewUpdate]
+- -[NUFeedTitleView layoutSubviews]
+- -[NUFeedTitleView popApplyFeedTitleViewUpdateWithAnimation:]
+- -[NUFeedTitleView popApplyFeedTitleViewUpdateWithAnimation:force:]
+- -[NUFeedTitleView pushApplyFeedTitleViewUpdate:animation:]
+- -[NUFeedTitleView pushApplyFeedTitleViewUpdate:animation:force:]
+- -[NUFeedTitleView relayoutWithAnimation:]
+- -[NUFeedTitleView setDelegate:]
+- -[NUFeedTitleView setLastQueuedTitleViewUpdate:]
+- -[NUFeedTitleView setStyler:]
+- -[NUFeedTitleView styler]
+- -[NUFeedTitleView titleViewAnimationForAnimation:]
+- -[NUFeedTitleView titleViewDidTapOnTitleView:]
+- -[NUFeedTitleView titleViewUpdateForFeedTitleViewUpdate:force:]
+- -[NUFeedTitleView titleViewUpdateStack]
+- -[NUFeedTitleView titleView]
+- -[NUFeedTitleView useCompactTitleViewUpdates]
+- -[NUFeedTitleViewUpdate .cxx_destruct]
+- -[NUFeedTitleViewUpdate accessibilityTitle]
+- -[NUFeedTitleViewUpdate attributedText]
+- -[NUFeedTitleViewUpdate convertToTitleViewUpdateWithCompact:]
+- -[NUFeedTitleViewUpdate copyWithZone:]
+- -[NUFeedTitleViewUpdate feedImage]
+- -[NUFeedTitleViewUpdate feedName]
+- -[NUFeedTitleViewUpdate hash]
+- -[NUFeedTitleViewUpdate initWithType:updateType:]
+- -[NUFeedTitleViewUpdate init]
+- -[NUFeedTitleViewUpdate isEqual:]
+- -[NUFeedTitleViewUpdate lingerTimeInterval]
+- -[NUFeedTitleViewUpdate setAccessibilityTitle:]
+- -[NUFeedTitleViewUpdate setAttributedText:]
+- -[NUFeedTitleViewUpdate setFeedImage:]
+- -[NUFeedTitleViewUpdate setFeedName:]
+- -[NUFeedTitleViewUpdate setLingerTimeInterval:]
+- -[NUFeedTitleViewUpdate setStoryCount:]
+- -[NUFeedTitleViewUpdate setType:]
+- -[NUFeedTitleViewUpdate storyCount]
+- -[NUFeedTitleViewUpdate type]
+- -[NUFeedTitleViewUpdate updateType]
+- -[NUFontManager .cxx_destruct]
+- -[NUFontManager decreaseReferenceCountForFontWithURL:]
+- -[NUFontManager increaseReferenceCountForFontWithURL:]
+- -[NUFontManager init]
+- -[NUFontManager referenceCountForFontWithURL:]
+- -[NUFontManager referenceCounts]
+- -[NUFontManager registerFontWithURL:error:]
+- -[NUFontManager registrationQueue]
+- -[NUFontManager shouldUnregisterFontWithURL:]
+- -[NUFontManager unregisterFontAtURL:error:]
+- -[NUFontManager unregisterFontWithURL:]
+- -[NUHTMLBuilder .cxx_destruct]
+- -[NUHTMLBuilder HTML]
+- -[NUHTMLBuilder URLEncode:]
+- -[NUHTMLBuilder appendBreak]
+- -[NUHTMLBuilder appendHTML:]
+- -[NUHTMLBuilder appendLink:withURL:]
+- -[NUHTMLBuilder appendParagraph:]
+- -[NUHTMLBuilder appendParagraphText:]
+- -[NUHTMLBuilder appendStrong:]
+- -[NUHTMLBuilder appendText:]
+- -[NUHTMLBuilder encodeHTMLEntities:]
+- -[NUHTMLBuilder fullHTML]
+- -[NUHTMLBuilder init]
+- -[NUHTMLBuilder setString:]
+- -[NUHTMLBuilder string]
+- -[NUIdleWebViewControllerFactory createViewControllerForURL:]
+- -[NULinkedContentManager .cxx_destruct]
+- -[NULinkedContentManager initWithLinkedContentProviders:]
+- -[NULinkedContentManager linkedContentProviders]
+- -[NULinkedContentManager loadLinkedContentForHeadline:withContext:completion:]
+- -[NULinkedContentManager loadLinkedContentForHeadline:withContext:priority:completion:]
+- -[NULinkedContentManagerFactory .cxx_destruct]
+- -[NULinkedContentManagerFactory addLinkedContentProviderFactory:]
+- -[NULinkedContentManagerFactory createLinkedContentManagerForArticle:]
+- -[NULinkedContentManagerFactory factories]
+- -[NULinkedContentManagerFactory init]
+- -[NULiveCoverageManager .cxx_destruct]
+- -[NULiveCoverageManager applicationWillEnterForeground:]
+- -[NULiveCoverageManager articleDataProvider]
+- -[NULiveCoverageManager checkForUpdatesWithCompletion:]
+- -[NULiveCoverageManager configuration]
+- -[NULiveCoverageManager dealloc]
+- -[NULiveCoverageManager delegate]
+- -[NULiveCoverageManager effectivePollingInterval]
+- -[NULiveCoverageManager evaluatePollingState]
+- -[NULiveCoverageManager fetchAndProcessContextWithCompletion:]
+- -[NULiveCoverageManager hasInitializedPostIdentifiers]
+- -[NULiveCoverageManager initWithArticleDataProvider:configurationManager:]
+- -[NULiveCoverageManager isArticleCurrentlyLive:]
+- -[NULiveCoverageManager isManuallyChecking]
+- -[NULiveCoverageManager isPolling]
+- -[NULiveCoverageManager knownPostIdentifiers]
+- -[NULiveCoverageManager liveBlogPostIdentifiersInContext:]
+- -[NULiveCoverageManager lowDataMode]
+- -[NULiveCoverageManager lowPowerMode]
+- -[NULiveCoverageManager networkReachabilityDidChange:]
+- -[NULiveCoverageManager offline]
+- -[NULiveCoverageManager performPollingCheck]
+- -[NULiveCoverageManager pollingTimer]
+- -[NULiveCoverageManager powerStateDidChange:]
+- -[NULiveCoverageManager processNewContext:]
+- -[NULiveCoverageManager schedulePollingTimer]
+- -[NULiveCoverageManager setDelegate:]
+- -[NULiveCoverageManager setHasInitializedPostIdentifiers:]
+- -[NULiveCoverageManager setInitialContext:]
+- -[NULiveCoverageManager setIsManuallyChecking:]
+- -[NULiveCoverageManager setLowDataMode:]
+- -[NULiveCoverageManager setLowPowerMode:]
+- -[NULiveCoverageManager setOffline:]
+- -[NULiveCoverageManager setPollingTimer:]
+- -[NULiveCoverageManager setViewVisible:]
+- -[NULiveCoverageManager shouldBePolling]
+- -[NULiveCoverageManager stopPollingTimer]
+- -[NULiveCoverageManager viewVisible]
+- -[NUMailPresenter canComposeMail]
+- -[NUMailPresenter presentMail:]
+- -[NUManagerAssembly loadInRegistry:]
+- -[NUMediaSharingPolicyProvider .cxx_destruct]
+- -[NUMediaSharingPolicyProvider appConfigurationManager]
+- -[NUMediaSharingPolicyProvider headline]
+- -[NUMediaSharingPolicyProvider initWithHeadline:appConfigurationManager:]
+- -[NUMediaSharingPolicyProvider mediaSharingPolicy]
+- -[NUMessagePresenter canPresentMessage]
+- -[NUMessagePresenter presentMessage:]
+- -[NUNewsFeedTitleViewStyler .cxx_destruct]
+- -[NUNewsFeedTitleViewStyler initWithTextAlignment:]
+- -[NUNewsFeedTitleViewStyler init]
+- -[NUNewsFeedTitleViewStyler messageLargeFont]
+- -[NUNewsFeedTitleViewStyler messageSmallFont]
+- -[NUNewsFeedTitleViewStyler setTextColor:]
+- -[NUNewsFeedTitleViewStyler styleTextAsMessage:boundingSize:]
+- -[NUNewsFeedTitleViewStyler styleTextAsTitle:boundingSize:]
+- -[NUNewsFeedTitleViewStyler styleTitleText:styleType:boundingSize:]
+- -[NUNewsFeedTitleViewStyler textAlignment]
+- -[NUNewsFeedTitleViewStyler textColor]
+- -[NUNewsFeedTitleViewStyler titleExtraLargeFont]
+- -[NUNewsFeedTitleViewStyler titleParagraphStyleWithWrapping:]
+- -[NUNewsFeedTitleViewStyler updateWithTextColor:]
+- -[NUNoopChromeControl prefersChromeHidden:fromViewController:]
+- -[NUPageStyle .cxx_destruct]
+- -[NUPageStyle hideToolbar]
+- -[NUPageStyle init]
+- -[NUPageStyle isEqual:]
+- -[NUPageStyle nextButtonTitle]
+- -[NUPageStyle setHideToolbar:]
+- -[NUPageStyle setNextButtonTitle:]
+- -[NUPageStyle setTitle:]
+- -[NUPageStyle setTitleImage:]
+- -[NUPageStyle titleImage]
+- -[NUPageStyle title]
+- -[NUPageViewController .cxx_destruct]
+- -[NUPageViewController _assistiveTechnologyIsRunning]
+- -[NUPageViewController _keyboardSwitchGoingRight:]
+- -[NUPageViewController _shouldIgnoreDidScrollWithScrollView:]
+- -[NUPageViewController accessibilityHandleRequestToGoBackForPageViewControllerScrollView:]
+- -[NUPageViewController accessibilityHandleRequestToGoForewardForPageViewControllerScrollView:]
+- -[NUPageViewController addViewController:fromScroll:]
+- -[NUPageViewController appearingViewController]
+- -[NUPageViewController callLastViewAppearanceMethods]
+- -[NUPageViewController canSwitchToNextViewController]
+- -[NUPageViewController canSwitchToPreviousViewController]
+- -[NUPageViewController cancelScrollViewDidScroll]
+- -[NUPageViewController centerForIndex:]
+- -[NUPageViewController childViewControllerForStatusBarHidden]
+- -[NUPageViewController commonInit]
+- -[NUPageViewController dataSource]
+- -[NUPageViewController delegate]
+- -[NUPageViewController disappearingViewController]
+- -[NUPageViewController handleScrollEnd]
+- -[NUPageViewController handleScrollStart]
+- -[NUPageViewController idleDispatchGroup]
+- -[NUPageViewController initWithCoder:]
+- -[NUPageViewController initWithNibName:bundle:]
+- -[NUPageViewController isTransitioningToViewController]
+- -[NUPageViewController isTransitioning]
+- -[NUPageViewController keyboardOrActionSwitchToNextViewController]
+- -[NUPageViewController keyboardOrActionSwitchToPreviousViewController]
+- -[NUPageViewController managePreviousAndNextViewController]
+- -[NUPageViewController managedForViewController]
+- -[NUPageViewController nextViewController]
+- -[NUPageViewController originalVisibleViewController]
+- -[NUPageViewController pageSize]
+- -[NUPageViewController pagingEnabled]
+- -[NUPageViewController performWhenIdle:]
+- -[NUPageViewController possibleNextViewController]
+- -[NUPageViewController previousViewController]
+- -[NUPageViewController reindexViewControllers]
+- -[NUPageViewController removeViewController:]
+- -[NUPageViewController replayViewTransitions]
+- -[NUPageViewController repositionPages]
+- -[NUPageViewController scrollViewDidEndDecelerating:]
+- -[NUPageViewController scrollViewDidEndDragging:willDecelerate:]
+- -[NUPageViewController scrollViewDidEndScrollingAnimation:]
+- -[NUPageViewController scrollViewDidScroll:]
+- -[NUPageViewController scrollViewStartedScrolling]
+- -[NUPageViewController scrollViewWillBeginDragging:]
+- -[NUPageViewController scrollView]
+- -[NUPageViewController setAppearingViewController:]
+- -[NUPageViewController setCancelScrollViewDidScroll:]
+- -[NUPageViewController setDataSource:]
+- -[NUPageViewController setDelegate:]
+- -[NUPageViewController setDisappearingViewController:]
+- -[NUPageViewController setManagedForViewController:]
+- -[NUPageViewController setNextViewController:]
+- -[NUPageViewController setOriginalVisibleViewController:]
+- -[NUPageViewController setPagingEnabled:]
+- -[NUPageViewController setPossibleNextViewController:]
+- -[NUPageViewController setPreviousViewController:]
+- -[NUPageViewController setReplayViewTransitions:]
+- -[NUPageViewController setVisibleViewController:]
+- -[NUPageViewController shouldAutomaticallyForwardAppearanceMethods]
+- -[NUPageViewController switchToNextViewController]
+- -[NUPageViewController switchToPreviousViewController]
+- -[NUPageViewController transitionToSize:]
+- -[NUPageViewController transitioningSize]
+- -[NUPageViewController updateContentOffset]
+- -[NUPageViewController updateContentSize]
+- -[NUPageViewController updatePositionForViewController:]
+- -[NUPageViewController updateScrollView]
+- -[NUPageViewController viewDidAppear:]
+- -[NUPageViewController viewDidDisappear:]
+- -[NUPageViewController viewDidLoad]
+- -[NUPageViewController viewWillAppear:]
+- -[NUPageViewController viewWillDisappear:]
+- -[NUPageViewController viewWillLayoutSubviews]
+- -[NUPageViewController viewWillTransitionToSize:withTransitionCoordinator:]
+- -[NUPageViewController visibleViewController]
+- -[NUPageViewControllerScrollView .cxx_destruct]
+- -[NUPageViewControllerScrollView accessibilityDelegate]
+- -[NUPageViewControllerScrollView accessibilityScroll:]
+- -[NUPageViewControllerScrollView setAccessibilityDelegate:]
+- -[NUPagingBlueprint .cxx_destruct]
+- -[NUPagingBlueprint allPages]
+- -[NUPagingBlueprint blueprintItems]
+- -[NUPagingBlueprint firstPage]
+- -[NUPagingBlueprint forEachPage:]
+- -[NUPagingBlueprint initWithPages:]
+- -[NUPagingBlueprint lastPage]
+- -[NUPagingBlueprint pageAfterIdentifier:]
+- -[NUPagingBlueprint pageBeforeForIdentifier:]
+- -[NUPagingBlueprint pageForIdentifier:]
+- -[NUPagingBlueprint setBlueprintItems:]
+- -[NUPagingBlueprintItem .cxx_destruct]
+- -[NUPagingBlueprintItem hash]
+- -[NUPagingBlueprintItem identifier]
+- -[NUPagingBlueprintItem initWithPage:]
+- -[NUPagingBlueprintItem initWithPageID:]
+- -[NUPagingBlueprintItem isEqual:]
+- -[NUPagingBlueprintItem page]
+- -[NUPagingEngine .cxx_destruct]
+- -[NUPagingEngine articlePageFactory]
+- -[NUPagingEngine createPagingForArticleIDs:]
+- -[NUPagingEngine initWithArticlePageFactory:]
+- -[NUPagingEngine paging:byAddingPage:afterPage:]
+- -[NUPagingEngine paging:byRemovingPage:]
+- -[NUReachabilityProvider .cxx_destruct]
+- -[NUReachabilityProvider addReachabilityObserver:]
+- -[NUReachabilityProvider initWithNetworkReachability:]
+- -[NUReachabilityProvider isNetworkReachable]
+- -[NUReachabilityProvider networkReachabilityDidChange:]
+- -[NUReachabilityProvider networkReachability]
+- -[NUReachabilityProvider observers]
+- -[NUReachabilityProvider removeReachabilityObserver:]
+- -[NURouter .cxx_destruct]
+- -[NURouter initWithURLHandler:]
+- -[NURouter routeToNewsAppForYouFeed]
+- -[NURouter urlHandler]
+- -[NUSettings copyWithZone:]
+- -[NUSettings shouldShowArticlesInExcerptMode]
+- -[NUSlideViewAnimator .cxx_destruct]
+- -[NUSlideViewAnimator animationFactory]
+- -[NUSlideViewAnimator animationOptionsForAnimationFactory:]
+- -[NUSlideViewAnimator bounds]
+- -[NUSlideViewAnimator duration]
+- -[NUSlideViewAnimator fromViewTransformForDirection:]
+- -[NUSlideViewAnimator initWithBounds:]
+- -[NUSlideViewAnimator isAnimating]
+- -[NUSlideViewAnimator mediaTimingFunction]
+- -[NUSlideViewAnimator setAnimating:]
+- -[NUSlideViewAnimator setAnimationFactory:]
+- -[NUSlideViewAnimator setBounds:]
+- -[NUSlideViewAnimator setDuration:]
+- -[NUSlideViewAnimator setMediaTimingFunction:]
+- -[NUSlideViewAnimator setTranslateBoundsPadding:]
+- -[NUSlideViewAnimator toViewTransformForDirection:]
+- -[NUSlideViewAnimator translateBoundsPadding]
+- -[NUSlideViewAnimator translateFromView:toView:direction:completion:]
+- -[NUStoreFrontProvider .cxx_destruct]
+- -[NUStoreFrontProvider appleAccount]
+- -[NUStoreFrontProvider initWithAppleAccount:]
+- -[NUStoreFrontProvider storeFrontIdentifier]
+- -[NUTextAndGlyph .cxx_destruct]
+- -[NUTextAndGlyph alignment]
+- -[NUTextAndGlyph attributedText]
+- -[NUTextAndGlyph glyph]
+- -[NUTextAndGlyph initWithAttributedText:glyph:]
+- -[NUTextAndGlyph initWithAttributedText:text:glyph:]
+- -[NUTextAndGlyph initWithText:glyph:]
+- -[NUTextAndGlyph init]
+- -[NUTextAndGlyph setAlignment:]
+- -[NUTextAndGlyph text]
+- -[NUTextAndGlyphView .cxx_destruct]
+- -[NUTextAndGlyphView alignment]
+- -[NUTextAndGlyphView imageView]
+- -[NUTextAndGlyphView initWithFrame:]
+- -[NUTextAndGlyphView label]
+- -[NUTextAndGlyphView layoutSubviews]
+- -[NUTextAndGlyphView setAlignment:]
+- -[NUTextAndGlyphView setTextAndGlyph:]
+- -[NUTextAndGlyphView textAndGlyph]
+- -[NUTextAndGlyphView(NUCrossFadeViewAnimatable) nu_crossFadeViewClearVisibleState]
+- -[NUTextAndGlyphView(NUCrossFadeViewAnimatable) nu_crossFadeViewSetValue:]
+- -[NUTitleView .cxx_destruct]
+- -[NUTitleView animationQueue]
+- -[NUTitleView applyTitleViewUpdate:animation:]
+- -[NUTitleView createMaskingLayerForTranslation]
+- -[NUTitleView delegate]
+- -[NUTitleView fadeAnimator]
+- -[NUTitleView finishDisplayingTitleViewUpdate:finished:]
+- -[NUTitleView incomingTitleView]
+- -[NUTitleView initWithCoder:]
+- -[NUTitleView initWithFrame:]
+- -[NUTitleView initWithStyler:]
+- -[NUTitleView lastLayoutBounds]
+- -[NUTitleView layoutSubviews]
+- -[NUTitleView lingerSemaphore]
+- -[NUTitleView relayoutWithAnimation:]
+- -[NUTitleView setDelegate:]
+- -[NUTitleView setIncomingTitleView:]
+- -[NUTitleView setLastLayoutBounds:]
+- -[NUTitleView setLingerSemaphore:]
+- -[NUTitleView setStyler:]
+- -[NUTitleView setTitleView:]
+- -[NUTitleView slideAnimator]
+- -[NUTitleView styler]
+- -[NUTitleView titleViewHandleTapGesture]
+- -[NUTitleView titleView]
+- -[NUTitleViewStyler .cxx_destruct]
+- -[NUTitleViewStyler initWithTextColor:]
+- -[NUTitleViewStyler init]
+- -[NUTitleViewStyler messageLargeFont]
+- -[NUTitleViewStyler messageParagraphStyle]
+- -[NUTitleViewStyler messageSmallFont]
+- -[NUTitleViewStyler styleTextAsMessage:boundingSize:]
+- -[NUTitleViewStyler styleTextAsTitle:boundingSize:]
+- -[NUTitleViewStyler styleTitleText:styleType:boundingSize:]
+- -[NUTitleViewStyler textColor]
+- -[NUTitleViewStyler titleLargeFont]
+- -[NUTitleViewStyler titleParagraphStyleWithWrapping:]
+- -[NUTitleViewStyler titleSmallFont]
+- -[NUTitleViewUpdate .cxx_destruct]
+- -[NUTitleViewUpdate accessibilityTitle]
+- -[NUTitleViewUpdate initWithAttributedText:styleType:]
+- -[NUTitleViewUpdate initWithImage:]
+- -[NUTitleViewUpdate initWithText:styleType:]
+- -[NUTitleViewUpdate initWithText:styleType:glyph:]
+- -[NUTitleViewUpdate initWithValue:valueType:styleType:]
+- -[NUTitleViewUpdate init]
+- -[NUTitleViewUpdate isEqual:]
+- -[NUTitleViewUpdate lingerTimeInterval]
+- -[NUTitleViewUpdate setAccessibilityTitle:]
+- -[NUTitleViewUpdate setCancelPendingUpdates:]
+- -[NUTitleViewUpdate setLingerTimeInterval:]
+- -[NUTitleViewUpdate setSpeakAccessibilityTitleWhenDisplayed:]
+- -[NUTitleViewUpdate setTextAlignment:]
+- -[NUTitleViewUpdate shouldCancelPendingUpdates]
+- -[NUTitleViewUpdate shouldSpeakAccessibilityTitleWhenDisplayed]
+- -[NUTitleViewUpdate styleType]
+- -[NUTitleViewUpdate textAlignment]
+- -[NUTitleViewUpdate valueType]
+- -[NUTitleViewUpdate value]
+- -[NUTrait .cxx_destruct]
+- -[NUTrait copyWithZone:]
+- -[NUTrait defaultValue]
+- -[NUTrait initWithDefaultValue:]
+- -[NUTrait init]
+- -[NUTrait traitBlocks]
+- -[NUTrait valueForTraitCollection:size:]
+- -[NUTrait valueForTraitCollection:size:deviceTrait:]
+- -[NUTrait when:block:]
+- -[NUTransition .cxx_destruct]
+- -[NUTransition animationDidStop:finished:]
+- -[NUTransition completion]
+- -[NUTransition setCompletion:]
+- -[NUURLHandler .cxx_destruct]
+- -[NUURLHandler URLHandling]
+- -[NUURLHandler addModifier:]
+- -[NUURLHandler commitViewController:URL:]
+- -[NUURLHandler delegate]
+- -[NUURLHandler initWithURLHandling:universalLinksEnabled:]
+- -[NUURLHandler modifiers]
+- -[NUURLHandler modifyURL:]
+- -[NUURLHandler openURL:]
+- -[NUURLHandler presentViewController:animated:]
+- -[NUURLHandler previewViewControllerFactory]
+- -[NUURLHandler removeModifier:]
+- -[NUURLHandler setDelegate:]
+- -[NUURLHandler setPreviewViewControllerFactory:]
+- -[NUURLHandler setWebViewControllerFactory:]
+- -[NUURLHandler universalLinksEnabled]
+- -[NUURLHandler viewControllerForURL:]
+- -[NUURLHandler webViewControllerFactory]
+- -[NUWebContentComponentDeveloperSettingsProvider .cxx_destruct]
+- -[NUWebContentComponentDeveloperSettingsProvider developerSettings]
+- -[NUWebContentComponentDeveloperSettingsProvider headline]
+- -[NUWebContentComponentDeveloperSettingsProvider initWithHeadline:]
+- -[NUWebContentContentRuleProvider .cxx_destruct]
+- -[NUWebContentContentRuleProvider appConfigurationManager]
+- -[NUWebContentContentRuleProvider contentRules]
+- -[NUWebContentContentRuleProvider headline]
+- -[NUWebContentContentRuleProvider initWithAppConfigurationManager:headline:]
+- -[NUWebContentLoadingPolicyProvider .cxx_destruct]
+- -[NUWebContentLoadingPolicyProvider headline]
+- -[NUWebContentLoadingPolicyProvider initWithHeadline:]
+- -[NUWebContentLoadingPolicyProvider loadingPolicy]
+- -[NUWidgetDevice isSplitScreen]
+- -[UIBarButtonItem(NUAdditions) nu_view]
+- -[UIColor(NUCSS) nu_colorToCSSRGBA]
+- -[UIImageView(NUCrossFadeViewAnimatable) nu_crossFadeViewClearVisibleState]
+- -[UIImageView(NUCrossFadeViewAnimatable) nu_crossFadeViewSetValue:]
+- -[UILabel(NUCrossFadeViewAnimatable) nu_crossFadeViewClearVisibleState]
+- -[UILabel(NUCrossFadeViewAnimatable) nu_crossFadeViewSetValue:]
+- -[UIView(NUAddtions) nu_supportViewDebugging]
+- -[UIViewController(NUNavigationControl) navigationControl]
+- -[UIViewController(NUScrollView) findSafeAreaInsetsProviderForScrollView:]
+- -[UIViewController(NUScrollView) nu_adjustInsetsForScrollView:]
+- <redacted>
+- GCC_except_table0
+- GCC_except_table1
+- GCC_except_table10
+- GCC_except_table11
+- GCC_except_table12
+- GCC_except_table13
+- GCC_except_table14
+- GCC_except_table17
+- GCC_except_table18
+- GCC_except_table2
+- GCC_except_table21
+- GCC_except_table22
+- GCC_except_table25
+- GCC_except_table28
+- GCC_except_table29
+- GCC_except_table3
+- GCC_except_table31
+- GCC_except_table37
+- GCC_except_table38
+- GCC_except_table4
+- GCC_except_table5
+- GCC_except_table6
+- GCC_except_table69
+- GCC_except_table7
+- GCC_except_table8
+- GCC_except_table9
+- _FCProtocolCast
+- _FCURLForContainerizedUserAccountCachesDirectory
+- _FCURLForContainerizedUserAccountDocumentDirectory
+- _NUArticleLoadLog.once
+- _NUArticleLoadLog.result
+- _NUBundle.bundle
+- _NUBundle.onceToken
+- _NUDeviceTraitLookup.deviceTrait
+- _NUDeviceTraitLookup.onceToken
+- _NULiveCoverageLog.once
+- _NULiveCoverageLog.result
+- _NUNowPlayingLog.once
+- _NUNowPlayingLog.result
+- _NURSSLog.once
+- _NURSSLog.result
+- _NUSharedLog.once
+- _NUSharedLog.result
+- _NUTranslationAnimationTimingFunction.onceToken
+- _NUTranslationAnimationTimingFunction.timingFunction
+- _OBJC_CLASS_$_FCAppleAccount
+- _OBJC_CLASS_$_FCArticleController
+- _OBJC_CLASS_$_FCCloudContext
+- _OBJC_CLASS_$_FCConfigurationManager
+- _OBJC_CLASS_$_FCContextConfiguration
+- _OBJC_CLASS_$_FCFeldsparIDProvider
+- _OBJC_CLASS_$_FCFlintResourceManager
+- _OBJC_CLASS_$_FCIssue
+- _OBJC_CLASS_$_FCPrivateDataSyncAvailability
+- _OBJC_CLASS_$_FCPuzzleHistory
+- _OBJC_CLASS_$_FCPuzzleTypeSettings
+- _OBJC_CLASS_$_FCReadingHistory
+- _OBJC_CLASS_$_FCReadingList
+- _OBJC_CLASS_$_FCShortcutList
+- _OBJC_CLASS_$_FCSubscriptionList
+- _OBJC_CLASS_$_FCTagSettings
+- _OBJC_CLASS_$_FCUserInfo
+- _OBJC_CLASS_$_NUApplicationAssembly
+- _OBJC_CLASS_$_NUApplicationFrameworkAssembly
+- _OBJC_CLASS_$_NUArticleAssembly
+- _OBJC_CLASS_$_NUArticleViewControllerFactory
+- _OBJC_CLASS_$_NUCoreAssembly
+- _OBJC_CLASS_$_NUExtensionAssembly
+- _OBJC_CLASS_$_NUExtensionFrameworkAssembly
+- _OBJC_CLASS_$_NUManagerAssembly
+- _OBJC_CLASS_$_NUSwiftApplicationFrameworkAssembly
+- _OBJC_CLASS_$_SXFrameworkAssembly
+- _OBJC_CLASS_$_SXScrollViewController
+- _OBJC_IVAR_$_NUANFArticleDataProvider._article
+- _OBJC_IVAR_$_NUANFArticleDataProvider._articleID
+- _OBJC_IVAR_$_NUANFArticleDataProvider._assetLoader
+- _OBJC_IVAR_$_NUANFArticleDataProvider._contentContext
+- _OBJC_IVAR_$_NUANFArticleDataProvider._contextLoader
+- _OBJC_IVAR_$_NUANFArticleDataProvider._embedDataManger
+- _OBJC_IVAR_$_NUANFArticleDataProvider._eventManager
+- _OBJC_IVAR_$_NUANFArticleDataProvider._fontLoader
+- _OBJC_IVAR_$_NUANFArticleDataProvider._fontRegistration
+- _OBJC_IVAR_$_NUANFArticleDataProvider._host
+- _OBJC_IVAR_$_NUANFArticleDataProvider._linkedContentManager
+- _OBJC_IVAR_$_NUANFArticleDataProvider._linkedContentProviders
+- _OBJC_IVAR_$_NUANFArticleDataProvider._registeredFontLoader
+- _OBJC_IVAR_$_NUANFArticleDataProvider._relativePriority
+- _OBJC_IVAR_$_NUANFArticleDataProviderFactory._contentContext
+- _OBJC_IVAR_$_NUANFArticleDataProviderFactory._embedDataManager
+- _OBJC_IVAR_$_NUANFArticleDataProviderFactory._fontRegistration
+- _OBJC_IVAR_$_NUANFArticleDataProviderFactory._host
+- _OBJC_IVAR_$_NUANFArticleDataProviderFactory._linkedContentManagerFactory
+- _OBJC_IVAR_$_NUANFArticleFactory._articleController
+- _OBJC_IVAR_$_NUANFArticleFactory._qualityOfService
+- _OBJC_IVAR_$_NUANFArticleFactory._relativePriority
+- _OBJC_IVAR_$_NUANFAssetLoader._assetURLsOperation
+- _OBJC_IVAR_$_NUANFAssetLoader._assetsOperation
+- _OBJC_IVAR_$_NUANFAssetLoader._documentController
+- _OBJC_IVAR_$_NUANFAssetLoader._fetchedResourceIDs
+- _OBJC_IVAR_$_NUANFAssetLoader._flintResourceManager
+- _OBJC_IVAR_$_NUANFAssetLoader._relativePriority
+- _OBJC_IVAR_$_NUANFAssetLoader._resourceIDs
+- _OBJC_IVAR_$_NUANFContextLoader._anfContent
+- _OBJC_IVAR_$_NUANFContextLoader._assetLoader
+- _OBJC_IVAR_$_NUANFContextLoader._asyncOnceOperation
+- _OBJC_IVAR_$_NUANFContextLoader._context
+- _OBJC_IVAR_$_NUANFContextLoader._contextError
+- _OBJC_IVAR_$_NUANFContextLoader._flintResourceManager
+- _OBJC_IVAR_$_NUANFContextLoader._hasLoaded
+- _OBJC_IVAR_$_NUANFContextLoader._headline
+- _OBJC_IVAR_$_NUANFContextLoader._host
+- _OBJC_IVAR_$_NUANFContextLoader._networkReachability
+- _OBJC_IVAR_$_NUANFContextLoader._relativePriority
+- _OBJC_IVAR_$_NUANFContextLoader._resourceURLTranslator
+- _OBJC_IVAR_$_NUANFDebugSettingsProvider._testingConditionEnabled
+- _OBJC_IVAR_$_NUANFDebugSettingsProvider._viewportDebuggingEnabled
+- _OBJC_IVAR_$_NUANFEmbedConfigurationLoader._appConfigurationManager
+- _OBJC_IVAR_$_NUANFEmbedConfigurationLoader._asyncOnceOperation
+- _OBJC_IVAR_$_NUANFEmbedConfigurationLoader._embedConfiguration
+- _OBJC_IVAR_$_NUANFEmbedConfigurationLoader._flintResourceManager
+- _OBJC_IVAR_$_NUANFFontLoader._anfContent
+- _OBJC_IVAR_$_NUANFFontLoader._asyncOnceOperation
+- _OBJC_IVAR_$_NUANFFontLoader._flintResourceManager
+- _OBJC_IVAR_$_NUANFFontLoader._fontRegistration
+- _OBJC_IVAR_$_NUANFFontLoader._fontResourcesRegistered
+- _OBJC_IVAR_$_NUANFFontLoader._fontResourcesToRegister
+- _OBJC_IVAR_$_NUANFFontLoader._hasLoaded
+- _OBJC_IVAR_$_NUANFFontLoader._relativePriority
+- _OBJC_IVAR_$_NUANFLinkedContentProvider._contentContext
+- _OBJC_IVAR_$_NUANFLinkedContentProvider._linkedHeadlines
+- _OBJC_IVAR_$_NUANFLinkedContentProvider._linkedIssues
+- _OBJC_IVAR_$_NUANFLinkedContentProvider._linkedTags
+- _OBJC_IVAR_$_NUANFLinkedContentProviderFactory._contentContext
+- _OBJC_IVAR_$_NUANFRenderingConfigurationProvider._appConfigurationManager
+- _OBJC_IVAR_$_NUANFRenderingConfigurationProvider._configuration
+- _OBJC_IVAR_$_NUANFResourceDataSource._assetLoader
+- _OBJC_IVAR_$_NUANFResourceDataSource._documentController
+- _OBJC_IVAR_$_NUANFResourceDataSource._headline
+- _OBJC_IVAR_$_NUANFResourceDataSource._imageDecodingQueue
+- _OBJC_IVAR_$_NUANFResourceDataSource._networkReachability
+- _OBJC_IVAR_$_NUANFResourceDataSource._resourceURLTranslator
+- _OBJC_IVAR_$_NUActivityIndicatorLoadingView._activityIndicatorView
+- _OBJC_IVAR_$_NUActivityIndicatorLoadingView._label
+- _OBJC_IVAR_$_NUAdSettings._debugAdvertisementSettings
+- _OBJC_IVAR_$_NUAnimationFactory._mediaTimingFunction
+- _OBJC_IVAR_$_NUAnimationQueue._queue
+- _OBJC_IVAR_$_NUAnimationQueue._running
+- _OBJC_IVAR_$_NUAnimationRunner._runBlock
+- _OBJC_IVAR_$_NUApplicationAppActivityMonitorIOS._backgroundObserverBlocks
+- _OBJC_IVAR_$_NUApplicationAppActivityMonitorIOS._foregroundObserverBlocks
+- _OBJC_IVAR_$_NUApplicationAppActivityMonitorIOS._observers
+- _OBJC_IVAR_$_NUApplicationAppActivityMonitorIOS._windowBackgroundObserverBlocks
+- _OBJC_IVAR_$_NUApplicationAppActivityMonitorIOS._windowForegroundObserverBlocks
+- _OBJC_IVAR_$_NUApplicationAppActivityMonitorMacOS._backgroundObserverBlocks
+- _OBJC_IVAR_$_NUApplicationAppActivityMonitorMacOS._becomingActive
+- _OBJC_IVAR_$_NUApplicationAppActivityMonitorMacOS._foregroundObserverBlocks
+- _OBJC_IVAR_$_NUApplicationAppActivityMonitorMacOS._notificationCenter
+- _OBJC_IVAR_$_NUApplicationAppActivityMonitorMacOS._observers
+- _OBJC_IVAR_$_NUApplicationAppActivityMonitorMacOS._windowBackgroundObserverBlocks
+- _OBJC_IVAR_$_NUApplicationAppActivityMonitorMacOS._windowBecameFrontmostNotificationName
+- _OBJC_IVAR_$_NUApplicationAppActivityMonitorMacOS._windowForegroundObserverBlocks
+- _OBJC_IVAR_$_NUApplicationAppActivityMonitorMacOS._windowIsForeground
+- _OBJC_IVAR_$_NUApplicationAppActivityMonitorMacOS._windowLostFrontmostNotificationName
+- _OBJC_IVAR_$_NUApplicationDevice._application
+- _OBJC_IVAR_$_NUApplicationDevice._screen
+- _OBJC_IVAR_$_NUApplicationFrameworkAssembly._assemblies
+- _OBJC_IVAR_$_NUArticleActivity._activityImage
+- _OBJC_IVAR_$_NUArticleActivity._activityItems
+- _OBJC_IVAR_$_NUArticleActivity._activityTitle
+- _OBJC_IVAR_$_NUArticleActivity._activityType
+- _OBJC_IVAR_$_NUArticleActivity._performBlock
+- _OBJC_IVAR_$_NUArticleActivityItemSource._headline
+- _OBJC_IVAR_$_NUArticleActivityManager._URLHandler
+- _OBJC_IVAR_$_NUArticleActivityManager._URLModifier
+- _OBJC_IVAR_$_NUArticleActivityManager._headline
+- _OBJC_IVAR_$_NUArticleActivityManager._optionsProvider
+- _OBJC_IVAR_$_NUArticleActivityManager._readingHistory
+- _OBJC_IVAR_$_NUArticleActivityManager._readingList
+- _OBJC_IVAR_$_NUArticleActivityManager._reportConcernViewPresenter
+- _OBJC_IVAR_$_NUArticleActivityManager._subscriptionList
+- _OBJC_IVAR_$_NUArticleActivityManagerFactory._URLHandler
+- _OBJC_IVAR_$_NUArticleActivityManagerFactory._optionsProvider
+- _OBJC_IVAR_$_NUArticleActivityManagerFactory._readingHistory
+- _OBJC_IVAR_$_NUArticleActivityManagerFactory._readingList
+- _OBJC_IVAR_$_NUArticleActivityManagerFactory._subscriptionList
+- _OBJC_IVAR_$_NUArticleContainerTitleView._pageStyle
+- _OBJC_IVAR_$_NUArticleContainerTitleView._titleView
+- _OBJC_IVAR_$_NUArticleContainerViewController._delegate
+- _OBJC_IVAR_$_NUArticleContainerViewController._linkPreviewing
+- _OBJC_IVAR_$_NUArticleContainerViewController._pageViewController
+- _OBJC_IVAR_$_NUArticleContainerViewController._paging
+- _OBJC_IVAR_$_NUArticleContainerViewController._pagingFactory
+- _OBJC_IVAR_$_NUArticleContainerViewController._router
+- _OBJC_IVAR_$_NUArticleContentSizeManager._tagSettings
+- _OBJC_IVAR_$_NUArticleContext._scrollPosition
+- _OBJC_IVAR_$_NUArticleContext._shouldAutoPlayVideo
+- _OBJC_IVAR_$_NUArticleHostViewController._analyticsReporting
+- _OBJC_IVAR_$_NUArticleHostViewController._article
+- _OBJC_IVAR_$_NUArticleHostViewController._articleContext
+- _OBJC_IVAR_$_NUArticleHostViewController._articleViewControllerFactory
+- _OBJC_IVAR_$_NUArticleHostViewController._articleViewStyler
+- _OBJC_IVAR_$_NUArticleHostViewController._contentSizeManager
+- _OBJC_IVAR_$_NUArticleHostViewController._contentTypeViewController
+- _OBJC_IVAR_$_NUArticleHostViewController._delegate
+- _OBJC_IVAR_$_NUArticleHostViewController._errorMessageFactory
+- _OBJC_IVAR_$_NUArticleHostViewController._experimentationDelegate
+- _OBJC_IVAR_$_NUArticleHostViewController._issue
+- _OBJC_IVAR_$_NUArticleHostViewController._liveCoverageDelegate
+- _OBJC_IVAR_$_NUArticleHostViewController._loadingDelegate
+- _OBJC_IVAR_$_NUArticleHostViewController._loadingView
+- _OBJC_IVAR_$_NUArticleHostViewController._multiLoadingDelegate
+- _OBJC_IVAR_$_NUArticleHostViewController._offline
+- _OBJC_IVAR_$_NUArticleHostViewController._pageIdentifier
+- _OBJC_IVAR_$_NUArticleHostViewController._relativePriority
+- _OBJC_IVAR_$_NUArticleHostViewController._responder
+- _OBJC_IVAR_$_NUArticleHostViewController._settings
+- _OBJC_IVAR_$_NUArticleHostViewController._shouldApplyBackgroundColor
+- _OBJC_IVAR_$_NUArticleHostViewController._shouldShowLoadingCover
+- _OBJC_IVAR_$_NUArticleHostViewControllerFactory._articleViewControllerFactory
+- _OBJC_IVAR_$_NUArticleHostViewControllerFactory._contentSizeManager
+- _OBJC_IVAR_$_NUArticleHostViewControllerFactory._errorMessageFactory
+- _OBJC_IVAR_$_NUArticleHostViewControllerFactory._settings
+- _OBJC_IVAR_$_NUArticleHostViewControllerProvider._articleHostViewController
+- _OBJC_IVAR_$_NUArticleImageActivityItemSource._articleImage
+- _OBJC_IVAR_$_NUArticleKeyCommandManager._hasBeenTraversed
+- _OBJC_IVAR_$_NUArticleKeyCommandManager._scrollView
+- _OBJC_IVAR_$_NUArticlePage._activityProvider
+- _OBJC_IVAR_$_NUArticlePage._article
+- _OBJC_IVAR_$_NUArticlePage._articleActivityFactory
+- _OBJC_IVAR_$_NUArticlePage._articleHostViewControllerFactory
+- _OBJC_IVAR_$_NUArticlePage._articleViewController
+- _OBJC_IVAR_$_NUArticlePage._asyncOnceCancelHandler
+- _OBJC_IVAR_$_NUArticlePage._asyncOnceOperation
+- _OBJC_IVAR_$_NUArticlePage._pageNextAction
+- _OBJC_IVAR_$_NUArticlePage._pageStyle
+- _OBJC_IVAR_$_NUArticlePageFactory._articleActivityFactory
+- _OBJC_IVAR_$_NUArticlePageFactory._articleFactory
+- _OBJC_IVAR_$_NUArticlePageFactory._articleHostViewControllerFactory
+- _OBJC_IVAR_$_NUArticlePageStyleOperation._article
+- _OBJC_IVAR_$_NUArticlePageStyleOperation._completion
+- _OBJC_IVAR_$_NUArticlePageStyleOperation._pageNextAction
+- _OBJC_IVAR_$_NUArticlePageStyleOperation._pageStyle
+- _OBJC_IVAR_$_NUArticlePrefetcher._articleDataProviderCache
+- _OBJC_IVAR_$_NUArticlePrefetcher._articleDataProviderFactory
+- _OBJC_IVAR_$_NUArticlePrefetcher._articleFactory
+- _OBJC_IVAR_$_NUArticlePrefetcher._failedArticleIDs
+- _OBJC_IVAR_$_NUArticlePrefetcher._headlinesForArticles
+- _OBJC_IVAR_$_NUArticlePrefetcher._highWaterMark
+- _OBJC_IVAR_$_NUArticlePrefetcher._interestModificationDates
+- _OBJC_IVAR_$_NUArticlePrefetcher._interestedArticleIDs
+- _OBJC_IVAR_$_NUArticlePrefetcher._prefetchQueue
+- _OBJC_IVAR_$_NUArticlePrefetcher._reprocessTimer
+- _OBJC_IVAR_$_NUArticlePrefetcher._workQueue
+- _OBJC_IVAR_$_NUArticleResourceURLTranslator._appConfigurationManager
+- _OBJC_IVAR_$_NUArticleScrollPosition._position
+- _OBJC_IVAR_$_NUArticleScrollPosition._source
+- _OBJC_IVAR_$_NUArticleTextActivityItemSource._itemTitle
+- _OBJC_IVAR_$_NUArticleURLActivityItemSource._articleURL
+- _OBJC_IVAR_$_NUArticleViewController._analyticsReporting
+- _OBJC_IVAR_$_NUArticleViewController._articleContext
+- _OBJC_IVAR_$_NUArticleViewController._articleDataProvider
+- _OBJC_IVAR_$_NUArticleViewController._articleIsPresentingFullscreen
+- _OBJC_IVAR_$_NUArticleViewController._articleLoadedTime
+- _OBJC_IVAR_$_NUArticleViewController._articleScrollPositionManager
+- _OBJC_IVAR_$_NUArticleViewController._articleViewStyler
+- _OBJC_IVAR_$_NUArticleViewController._chromeControl
+- _OBJC_IVAR_$_NUArticleViewController._contentScale
+- _OBJC_IVAR_$_NUArticleViewController._contentSizeCategory
+- _OBJC_IVAR_$_NUArticleViewController._debugSettingsProvider
+- _OBJC_IVAR_$_NUArticleViewController._delegate
+- _OBJC_IVAR_$_NUArticleViewController._documentSectionBlueprintProvider
+- _OBJC_IVAR_$_NUArticleViewController._endOfArticleDataProvider
+- _OBJC_IVAR_$_NUArticleViewController._eventManager
+- _OBJC_IVAR_$_NUArticleViewController._experimentationDelegate
+- _OBJC_IVAR_$_NUArticleViewController._keyCommandManager
+- _OBJC_IVAR_$_NUArticleViewController._latestLiveCoverageContext
+- _OBJC_IVAR_$_NUArticleViewController._liveCoverageDelegate
+- _OBJC_IVAR_$_NUArticleViewController._liveCoverageManager
+- _OBJC_IVAR_$_NUArticleViewController._loadingDelegate
+- _OBJC_IVAR_$_NUArticleViewController._loadingListeners
+- _OBJC_IVAR_$_NUArticleViewController._manualScrollingStartDate
+- _OBJC_IVAR_$_NUArticleViewController._offline
+- _OBJC_IVAR_$_NUArticleViewController._presentationMode
+- _OBJC_IVAR_$_NUArticleViewController._scrollView
+- _OBJC_IVAR_$_NUArticleViewController._scrollViewController
+- _OBJC_IVAR_$_NUArticleViewController._shouldAutoPlayVideo
+- _OBJC_IVAR_$_NUArticleViewController._spotlightManager
+- _OBJC_IVAR_$_NUArticleViewController._videoPlayerViewControllerManager
+- _OBJC_IVAR_$_NUArticleViewControllerFactory._appStateMonitor
+- _OBJC_IVAR_$_NUArticleViewControllerFactory._articleDataProviderFactory
+- _OBJC_IVAR_$_NUArticleViewControllerFactory._articlePrefetcher
+- _OBJC_IVAR_$_NUArticleViewControllerFactory._articleScrollPositionManager
+- _OBJC_IVAR_$_NUArticleViewControllerFactory._headerBlueprintProvider
+- _OBJC_IVAR_$_NUArticleViewControllerFactory._keyCommandManager
+- _OBJC_IVAR_$_NUArticleViewControllerFactory._loadingListeners
+- _OBJC_IVAR_$_NUArticleViewControllerFactory._resolver
+- _OBJC_IVAR_$_NUArticleViewControllerFactory._spotlightManager
+- _OBJC_IVAR_$_NUArticleViewStyler._mainBackgroundColor
+- _OBJC_IVAR_$_NUArticleViewStyler._statusBarStyle
+- _OBJC_IVAR_$_NUArticleViewStyler._tabBarTintColor
+- _OBJC_IVAR_$_NUArticleViewStyler._toolbarTintColor
+- _OBJC_IVAR_$_NUArticleViewStyler._topContentColor
+- _OBJC_IVAR_$_NUBasicAnimation._completion
+- _OBJC_IVAR_$_NUBlockBasedURLModifier._block
+- _OBJC_IVAR_$_NUBundledArticleDataProvider._article
+- _OBJC_IVAR_$_NUBundledArticleDataProvider._embedDataManager
+- _OBJC_IVAR_$_NUBundledArticleDataProvider._linkedContentManager
+- _OBJC_IVAR_$_NUBundledArticleDataProvider._linkedContentProviders
+- _OBJC_IVAR_$_NUBundledArticleDataProvider._relativePriority
+- _OBJC_IVAR_$_NUContentAnalyticsEvent._event
+- _OBJC_IVAR_$_NUContentOverlayDocumentSectionBlueprintData._blueprint
+- _OBJC_IVAR_$_NUContentOverlayDocumentSectionBlueprintData._topOffset
+- _OBJC_IVAR_$_NUCrossFadeTitleView._animator
+- _OBJC_IVAR_$_NUCrossFadeTitleView._displayValueType
+- _OBJC_IVAR_$_NUCrossFadeTitleView._styler
+- _OBJC_IVAR_$_NUCrossFadeTitleView._textAndGlyphView
+- _OBJC_IVAR_$_NUCrossFadeTitleView._titleImageView
+- _OBJC_IVAR_$_NUCrossFadeTitleView._titleLabel
+- _OBJC_IVAR_$_NUCrossFadeTitleView._update
+- _OBJC_IVAR_$_NUCrossFadeViewAnimator._duration
+- _OBJC_IVAR_$_NUDeviceTrait._deviceTraitSize
+- _OBJC_IVAR_$_NUDocumentSectionBlueprintProvider._tempObservableContentOverlayBlueprintData
+- _OBJC_IVAR_$_NUDocumentSectionBlueprintProvider._tempObservableFooterBlueprint
+- _OBJC_IVAR_$_NUDocumentSectionBlueprintProvider._tempObservableHeaderBlueprint
+- _OBJC_IVAR_$_NUDocumentSectionItem._heightProvider
+- _OBJC_IVAR_$_NUDocumentSectionItem._sectionHeight
+- _OBJC_IVAR_$_NUDocumentSectionItem._viewController
+- _OBJC_IVAR_$_NUEmbedConfigurationOperation._appConfigurationManager
+- _OBJC_IVAR_$_NUEmbedConfigurationOperation._completion
+- _OBJC_IVAR_$_NUEmbedConfigurationOperation._flintResourceManager
+- _OBJC_IVAR_$_NUEmbedConfigurationOperation._result
+- _OBJC_IVAR_$_NUEmbedConfigurationOperationResult._data
+- _OBJC_IVAR_$_NUEmbedConfigurationOperationResult._identifier
+- _OBJC_IVAR_$_NUEmbedDataManager._embedConfiguration
+- _OBJC_IVAR_$_NUEmbedDataManager._embedConfigurationLoader
+- _OBJC_IVAR_$_NUEmbedDataManager._hasLoaded
+- _OBJC_IVAR_$_NUErrorMessage._subtitle
+- _OBJC_IVAR_$_NUErrorMessage._title
+- _OBJC_IVAR_$_NUErrorMessageFactory._networkReachability
+- _OBJC_IVAR_$_NUErrorView._errorMessage
+- _OBJC_IVAR_$_NUErrorView._label
+- _OBJC_IVAR_$_NUErrorView._labelMaxWidthTrait
+- _OBJC_IVAR_$_NUErrorView._textAlignment
+- _OBJC_IVAR_$_NUErrorView._verticalAlignment
+- _OBJC_IVAR_$_NUExtensionAppActivityMonitor._backgroundObserverBlocks
+- _OBJC_IVAR_$_NUExtensionAppActivityMonitor._foregroundObserverBlocks
+- _OBJC_IVAR_$_NUExtensionAppActivityMonitor._notificationCenter
+- _OBJC_IVAR_$_NUExtensionAppActivityMonitor._observers
+- _OBJC_IVAR_$_NUExtensionAppActivityMonitor._windowBackgroundObserverBlocks
+- _OBJC_IVAR_$_NUExtensionAppActivityMonitor._windowForegroundObserverBlocks
+- _OBJC_IVAR_$_NUExtensionAssembly._extensionContextProvider
+- _OBJC_IVAR_$_NUExtensionDevice._hostViewController
+- _OBJC_IVAR_$_NUExtensionDevice._screen
+- _OBJC_IVAR_$_NUExtensionFrameworkAssembly._assemblies
+- _OBJC_IVAR_$_NUExtensionURLHandler._extensionContext
+- _OBJC_IVAR_$_NUFadeViewAnimator._fadeInDelay
+- _OBJC_IVAR_$_NUFadeViewAnimator._fadeInDuration
+- _OBJC_IVAR_$_NUFadeViewAnimator._fadeOutDuration
+- _OBJC_IVAR_$_NUFeedTitleView._delegate
+- _OBJC_IVAR_$_NUFeedTitleView._lastQueuedTitleViewUpdate
+- _OBJC_IVAR_$_NUFeedTitleView._titleView
+- _OBJC_IVAR_$_NUFeedTitleView._titleViewUpdateStack
+- _OBJC_IVAR_$_NUFeedTitleViewUpdate._accessibilityTitle
+- _OBJC_IVAR_$_NUFeedTitleViewUpdate._attributedText
+- _OBJC_IVAR_$_NUFeedTitleViewUpdate._feedImage
+- _OBJC_IVAR_$_NUFeedTitleViewUpdate._feedName
+- _OBJC_IVAR_$_NUFeedTitleViewUpdate._lingerTimeInterval
+- _OBJC_IVAR_$_NUFeedTitleViewUpdate._storyCount
+- _OBJC_IVAR_$_NUFeedTitleViewUpdate._type
+- _OBJC_IVAR_$_NUFeedTitleViewUpdate._updateType
+- _OBJC_IVAR_$_NUFontManager._referenceCounts
+- _OBJC_IVAR_$_NUFontManager._registrationQueue
+- _OBJC_IVAR_$_NUHTMLBuilder._string
+- _OBJC_IVAR_$_NULinkedContentManager._linkedContentProviders
+- _OBJC_IVAR_$_NULinkedContentManagerFactory._factories
+- _OBJC_IVAR_$_NULiveCoverageManager._articleDataProvider
+- _OBJC_IVAR_$_NULiveCoverageManager._configuration
+- _OBJC_IVAR_$_NULiveCoverageManager._delegate
+- _OBJC_IVAR_$_NULiveCoverageManager._hasInitializedPostIdentifiers
+- _OBJC_IVAR_$_NULiveCoverageManager._isManuallyChecking
+- _OBJC_IVAR_$_NULiveCoverageManager._knownPostIdentifiers
+- _OBJC_IVAR_$_NULiveCoverageManager._lowDataMode
+- _OBJC_IVAR_$_NULiveCoverageManager._lowPowerMode
+- _OBJC_IVAR_$_NULiveCoverageManager._offline
+- _OBJC_IVAR_$_NULiveCoverageManager._pollingTimer
+- _OBJC_IVAR_$_NULiveCoverageManager._viewVisible
+- _OBJC_IVAR_$_NUMediaSharingPolicyProvider._appConfigurationManager
+- _OBJC_IVAR_$_NUMediaSharingPolicyProvider._headline
+- _OBJC_IVAR_$_NUNewsFeedTitleViewStyler._textAlignment
+- _OBJC_IVAR_$_NUNewsFeedTitleViewStyler._textColor
+- _OBJC_IVAR_$_NUPageStyle._hideToolbar
+- _OBJC_IVAR_$_NUPageStyle._nextButtonTitle
+- _OBJC_IVAR_$_NUPageStyle._title
+- _OBJC_IVAR_$_NUPageStyle._titleImage
+- _OBJC_IVAR_$_NUPageViewController._appearingViewController
+- _OBJC_IVAR_$_NUPageViewController._cancelScrollViewDidScroll
+- _OBJC_IVAR_$_NUPageViewController._dataSource
+- _OBJC_IVAR_$_NUPageViewController._delegate
+- _OBJC_IVAR_$_NUPageViewController._disappearingViewController
+- _OBJC_IVAR_$_NUPageViewController._idleDispatchGroup
+- _OBJC_IVAR_$_NUPageViewController._isTransitioning
+- _OBJC_IVAR_$_NUPageViewController._managedForViewController
+- _OBJC_IVAR_$_NUPageViewController._nextViewController
+- _OBJC_IVAR_$_NUPageViewController._originalVisibleViewController
+- _OBJC_IVAR_$_NUPageViewController._possibleNextViewController
+- _OBJC_IVAR_$_NUPageViewController._previousViewController
+- _OBJC_IVAR_$_NUPageViewController._replayViewTransitions
+- _OBJC_IVAR_$_NUPageViewController._scrollView
+- _OBJC_IVAR_$_NUPageViewController._scrollViewStartedScrolling
+- _OBJC_IVAR_$_NUPageViewController._transitioningSize
+- _OBJC_IVAR_$_NUPageViewController._visibleViewController
+- _OBJC_IVAR_$_NUPageViewControllerScrollView._accessibilityDelegate
+- _OBJC_IVAR_$_NUPagingBlueprint._blueprintItems
+- _OBJC_IVAR_$_NUPagingBlueprintItem._identifier
+- _OBJC_IVAR_$_NUPagingBlueprintItem._page
+- _OBJC_IVAR_$_NUPagingEngine._articlePageFactory
+- _OBJC_IVAR_$_NUReachabilityProvider._networkReachability
+- _OBJC_IVAR_$_NUReachabilityProvider._observers
+- _OBJC_IVAR_$_NURouter._urlHandler
+- _OBJC_IVAR_$_NUSlideViewAnimator._animating
+- _OBJC_IVAR_$_NUSlideViewAnimator._animationFactory
+- _OBJC_IVAR_$_NUSlideViewAnimator._bounds
+- _OBJC_IVAR_$_NUSlideViewAnimator._duration
+- _OBJC_IVAR_$_NUSlideViewAnimator._mediaTimingFunction
+- _OBJC_IVAR_$_NUSlideViewAnimator._translateBoundsPadding
+- _OBJC_IVAR_$_NUStoreFrontProvider._appleAccount
+- _OBJC_IVAR_$_NUTextAndGlyph._alignment
+- _OBJC_IVAR_$_NUTextAndGlyph._attributedText
+- _OBJC_IVAR_$_NUTextAndGlyph._glyph
+- _OBJC_IVAR_$_NUTextAndGlyph._text
+- _OBJC_IVAR_$_NUTextAndGlyphView._alignment
+- _OBJC_IVAR_$_NUTextAndGlyphView._imageView
+- _OBJC_IVAR_$_NUTextAndGlyphView._label
+- _OBJC_IVAR_$_NUTextAndGlyphView._textAndGlyph
+- _OBJC_IVAR_$_NUTitleView._animationQueue
+- _OBJC_IVAR_$_NUTitleView._delegate
+- _OBJC_IVAR_$_NUTitleView._fadeAnimator
+- _OBJC_IVAR_$_NUTitleView._incomingTitleView
+- _OBJC_IVAR_$_NUTitleView._lastLayoutBounds
+- _OBJC_IVAR_$_NUTitleView._lingerSemaphore
+- _OBJC_IVAR_$_NUTitleView._slideAnimator
+- _OBJC_IVAR_$_NUTitleView._styler
+- _OBJC_IVAR_$_NUTitleView._titleView
+- _OBJC_IVAR_$_NUTitleViewStyler._textColor
+- _OBJC_IVAR_$_NUTitleViewUpdate._accessibilityTitle
+- _OBJC_IVAR_$_NUTitleViewUpdate._cancelPendingUpdates
+- _OBJC_IVAR_$_NUTitleViewUpdate._lingerTimeInterval
+- _OBJC_IVAR_$_NUTitleViewUpdate._speakAccessibilityTitleWhenDisplayed
+- _OBJC_IVAR_$_NUTitleViewUpdate._styleType
+- _OBJC_IVAR_$_NUTitleViewUpdate._textAlignment
+- _OBJC_IVAR_$_NUTitleViewUpdate._value
+- _OBJC_IVAR_$_NUTitleViewUpdate._valueType
+- _OBJC_IVAR_$_NUTrait._defaultValue
+- _OBJC_IVAR_$_NUTrait._traitBlocks
+- _OBJC_IVAR_$_NUTransition._completion
+- _OBJC_IVAR_$_NUURLHandler._URLHandling
+- _OBJC_IVAR_$_NUURLHandler._delegate
+- _OBJC_IVAR_$_NUURLHandler._modifiers
+- _OBJC_IVAR_$_NUURLHandler._previewViewControllerFactory
+- _OBJC_IVAR_$_NUURLHandler._universalLinksEnabled
+- _OBJC_IVAR_$_NUURLHandler._webViewControllerFactory
+- _OBJC_IVAR_$_NUWebContentComponentDeveloperSettingsProvider._headline
+- _OBJC_IVAR_$_NUWebContentContentRuleProvider._appConfigurationManager
+- _OBJC_IVAR_$_NUWebContentContentRuleProvider._headline
+- _OBJC_IVAR_$_NUWebContentLoadingPolicyProvider._headline
+- _OBJC_METACLASS_$_NUApplicationAssembly
+- _OBJC_METACLASS_$_NUApplicationFrameworkAssembly
+- _OBJC_METACLASS_$_NUArticleAssembly
+- _OBJC_METACLASS_$_NUArticleViewControllerFactory
+- _OBJC_METACLASS_$_NUCoreAssembly
+- _OBJC_METACLASS_$_NUExtensionAssembly
+- _OBJC_METACLASS_$_NUExtensionFrameworkAssembly
+- _OBJC_METACLASS_$_NUManagerAssembly
+- _OBJC_METACLASS_$_NUSwiftApplicationFrameworkAssembly
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_1
+- __OBJC_$_CATEGORY_CLASS_METHODS_NSError_$_NUArticles
+- __OBJC_$_CATEGORY_CLASS_METHODS_UIView_$_NUAddtions
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_UIBarButtonItem_$_NUAdditions
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_UIImageView_$_NUCrossFadeViewAnimatable
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_UILabel_$_NUCrossFadeViewAnimatable
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_UIView_$_NUAddtions
+- __OBJC_$_CATEGORY_NSError_$_NUArticles
+- __OBJC_$_CATEGORY_NSURL_$_WebKit
+- __OBJC_$_CATEGORY_UIBarButtonItem_$_NUAdditions
+- __OBJC_$_CATEGORY_UIColor_$_NUAdditions
+- __OBJC_$_CATEGORY_UIImageView_$_NUCrossFadeViewAnimatable
+- __OBJC_$_CATEGORY_UILabel_$_NUCrossFadeViewAnimatable
+- __OBJC_$_CATEGORY_UIViewController_$_NUScrollView
+- __OBJC_$_CATEGORY_UIView_$_NUAddtions
+- __OBJC_$_CLASS_METHODS_NSURL(WebKit|NewsUI)
+- __OBJC_$_CLASS_METHODS_NUANFImageResolver
+- __OBJC_$_CLASS_METHODS_NUAddToSafariReadingListActivityFactory
+- __OBJC_$_CLASS_METHODS_NUArticleViewController
+- __OBJC_$_CLASS_METHODS_NUBasicAnimation
+- __OBJC_$_CLASS_METHODS_NUBlockBasedURLModifier
+- __OBJC_$_CLASS_METHODS_NUErrorMessageFactory
+- __OBJC_$_CLASS_METHODS_NUFeedTitleViewUpdate
+- __OBJC_$_CLASS_METHODS_NUImages
+- __OBJC_$_CLASS_METHODS_NUTransition
+- __OBJC_$_CLASS_METHODS_UIColor(NUAdditions|NUCSS|NewsUI)
+- __OBJC_$_INSTANCE_METHODS_NSURL(WebKit|NewsUI)
+- __OBJC_$_INSTANCE_METHODS_NUANFArticleDataProvider
+- __OBJC_$_INSTANCE_METHODS_NUANFArticleDataProviderFactory
+- __OBJC_$_INSTANCE_METHODS_NUANFArticleFactory
+- __OBJC_$_INSTANCE_METHODS_NUANFAssetLoader
+- __OBJC_$_INSTANCE_METHODS_NUANFContextLoader
+- __OBJC_$_INSTANCE_METHODS_NUANFDebugSettingsProvider
+- __OBJC_$_INSTANCE_METHODS_NUANFEmbedConfigurationLoader
+- __OBJC_$_INSTANCE_METHODS_NUANFFontLoader
+- __OBJC_$_INSTANCE_METHODS_NUANFLinkedContentProvider
+- __OBJC_$_INSTANCE_METHODS_NUANFLinkedContentProviderFactory
+- __OBJC_$_INSTANCE_METHODS_NUANFRenderingConfigurationProvider
+- __OBJC_$_INSTANCE_METHODS_NUANFResourceDataSource
+- __OBJC_$_INSTANCE_METHODS_NUActivityIndicatorLoadingView
+- __OBJC_$_INSTANCE_METHODS_NUAdSettings
+- __OBJC_$_INSTANCE_METHODS_NUAddToSafariReadingListActivity
+- __OBJC_$_INSTANCE_METHODS_NUAnimationFactory
+- __OBJC_$_INSTANCE_METHODS_NUAnimationQueue
+- __OBJC_$_INSTANCE_METHODS_NUAnimationRunner
+- __OBJC_$_INSTANCE_METHODS_NUApplicationAppActivityMonitorIOS
+- __OBJC_$_INSTANCE_METHODS_NUApplicationAppActivityMonitorMacOS
+- __OBJC_$_INSTANCE_METHODS_NUApplicationAssembly
+- __OBJC_$_INSTANCE_METHODS_NUApplicationDevice
+- __OBJC_$_INSTANCE_METHODS_NUApplicationFrameworkAssembly
+- __OBJC_$_INSTANCE_METHODS_NUApplicationURLHandler
+- __OBJC_$_INSTANCE_METHODS_NUArticleActivity
+- __OBJC_$_INSTANCE_METHODS_NUArticleActivityDefaultOptionsProvider
+- __OBJC_$_INSTANCE_METHODS_NUArticleActivityItemSource
+- __OBJC_$_INSTANCE_METHODS_NUArticleActivityManager
+- __OBJC_$_INSTANCE_METHODS_NUArticleActivityManagerFactory
+- __OBJC_$_INSTANCE_METHODS_NUArticleAssembly
+- __OBJC_$_INSTANCE_METHODS_NUArticleContainerTitleView
+- __OBJC_$_INSTANCE_METHODS_NUArticleContainerViewController
+- __OBJC_$_INSTANCE_METHODS_NUArticleContentSizeManager
+- __OBJC_$_INSTANCE_METHODS_NUArticleContext
+- __OBJC_$_INSTANCE_METHODS_NUArticleHostViewController
+- __OBJC_$_INSTANCE_METHODS_NUArticleHostViewControllerFactory
+- __OBJC_$_INSTANCE_METHODS_NUArticleHostViewControllerProvider
+- __OBJC_$_INSTANCE_METHODS_NUArticleImageActivityItemSource
+- __OBJC_$_INSTANCE_METHODS_NUArticleKeyCommandManager
+- __OBJC_$_INSTANCE_METHODS_NUArticleNavigationController
+- __OBJC_$_INSTANCE_METHODS_NUArticlePage
+- __OBJC_$_INSTANCE_METHODS_NUArticlePageFactory
+- __OBJC_$_INSTANCE_METHODS_NUArticlePageStyleOperation
+- __OBJC_$_INSTANCE_METHODS_NUArticlePrefetcher
+- __OBJC_$_INSTANCE_METHODS_NUArticleResourceURLTranslator
+- __OBJC_$_INSTANCE_METHODS_NUArticleScrollPosition
+- __OBJC_$_INSTANCE_METHODS_NUArticleScrollPositionManager
+- __OBJC_$_INSTANCE_METHODS_NUArticleTextActivityItemSource
+- __OBJC_$_INSTANCE_METHODS_NUArticleURLActivityItemSource
+- __OBJC_$_INSTANCE_METHODS_NUArticleViewController
+- __OBJC_$_INSTANCE_METHODS_NUArticleViewControllerFactory
+- __OBJC_$_INSTANCE_METHODS_NUArticleViewStyler
+- __OBJC_$_INSTANCE_METHODS_NUBasicAnimation
+- __OBJC_$_INSTANCE_METHODS_NUBlockBasedURLModifier
+- __OBJC_$_INSTANCE_METHODS_NUBundledArticleDataProvider
+- __OBJC_$_INSTANCE_METHODS_NUContentAnalyticsEvent
+- __OBJC_$_INSTANCE_METHODS_NUContentOverlayDocumentSectionBlueprintData
+- __OBJC_$_INSTANCE_METHODS_NUCoreAssembly
+- __OBJC_$_INSTANCE_METHODS_NUCrossFadeTitleView
+- __OBJC_$_INSTANCE_METHODS_NUCrossFadeViewAnimator
+- __OBJC_$_INSTANCE_METHODS_NUDeepLinkURLModifier
+- __OBJC_$_INSTANCE_METHODS_NUDeviceTrait
+- __OBJC_$_INSTANCE_METHODS_NUDocumentSectionBlueprintProvider
+- __OBJC_$_INSTANCE_METHODS_NUDocumentSectionItem
+- __OBJC_$_INSTANCE_METHODS_NUEmbedConfigurationOperation
+- __OBJC_$_INSTANCE_METHODS_NUEmbedConfigurationOperationResult
+- __OBJC_$_INSTANCE_METHODS_NUEmbedData
+- __OBJC_$_INSTANCE_METHODS_NUEmbedDataManager
+- __OBJC_$_INSTANCE_METHODS_NUErrorMessage
+- __OBJC_$_INSTANCE_METHODS_NUErrorMessageFactory
+- __OBJC_$_INSTANCE_METHODS_NUErrorView
+- __OBJC_$_INSTANCE_METHODS_NUExtensionAppActivityMonitor
+- __OBJC_$_INSTANCE_METHODS_NUExtensionAssembly
+- __OBJC_$_INSTANCE_METHODS_NUExtensionDevice
+- __OBJC_$_INSTANCE_METHODS_NUExtensionFrameworkAssembly
+- __OBJC_$_INSTANCE_METHODS_NUExtensionURLHandler
+- __OBJC_$_INSTANCE_METHODS_NUFadeViewAnimator
+- __OBJC_$_INSTANCE_METHODS_NUFeedTitleView
+- __OBJC_$_INSTANCE_METHODS_NUFeedTitleViewUpdate
+- __OBJC_$_INSTANCE_METHODS_NUFontManager
+- __OBJC_$_INSTANCE_METHODS_NUHTMLBuilder
+- __OBJC_$_INSTANCE_METHODS_NUIdleWebViewControllerFactory
+- __OBJC_$_INSTANCE_METHODS_NULinkedContentManager
+- __OBJC_$_INSTANCE_METHODS_NULinkedContentManagerFactory
+- __OBJC_$_INSTANCE_METHODS_NULiveCoverageManager
+- __OBJC_$_INSTANCE_METHODS_NUMailPresenter
+- __OBJC_$_INSTANCE_METHODS_NUManagerAssembly
+- __OBJC_$_INSTANCE_METHODS_NUMediaSharingPolicyProvider
+- __OBJC_$_INSTANCE_METHODS_NUMessagePresenter
+- __OBJC_$_INSTANCE_METHODS_NUNewsFeedTitleViewStyler
+- __OBJC_$_INSTANCE_METHODS_NUNoopChromeControl
+- __OBJC_$_INSTANCE_METHODS_NUPageStyle
+- __OBJC_$_INSTANCE_METHODS_NUPageViewController
+- __OBJC_$_INSTANCE_METHODS_NUPageViewControllerScrollView
+- __OBJC_$_INSTANCE_METHODS_NUPagingBlueprint
+- __OBJC_$_INSTANCE_METHODS_NUPagingBlueprintItem
+- __OBJC_$_INSTANCE_METHODS_NUPagingEngine
+- __OBJC_$_INSTANCE_METHODS_NUReachabilityProvider
+- __OBJC_$_INSTANCE_METHODS_NURouter
+- __OBJC_$_INSTANCE_METHODS_NUSettings
+- __OBJC_$_INSTANCE_METHODS_NUSlideViewAnimator
+- __OBJC_$_INSTANCE_METHODS_NUStoreFrontProvider
+- __OBJC_$_INSTANCE_METHODS_NUTextAndGlyph
+- __OBJC_$_INSTANCE_METHODS_NUTextAndGlyphView(NUCrossFadeViewAnimatable)
+- __OBJC_$_INSTANCE_METHODS_NUTitleView
+- __OBJC_$_INSTANCE_METHODS_NUTitleViewStyler
+- __OBJC_$_INSTANCE_METHODS_NUTitleViewUpdate
+- __OBJC_$_INSTANCE_METHODS_NUTrait
+- __OBJC_$_INSTANCE_METHODS_NUTransition
+- __OBJC_$_INSTANCE_METHODS_NUURLHandler
+- __OBJC_$_INSTANCE_METHODS_NUWebContentComponentDeveloperSettingsProvider
+- __OBJC_$_INSTANCE_METHODS_NUWebContentContentRuleProvider
+- __OBJC_$_INSTANCE_METHODS_NUWebContentLoadingPolicyProvider
+- __OBJC_$_INSTANCE_METHODS_NUWidgetDevice
+- __OBJC_$_INSTANCE_METHODS_UIColor(NUAdditions|NUCSS|NewsUI)
+- __OBJC_$_INSTANCE_METHODS_UIViewController(NUScrollView|NUNavigationControl)
+- __OBJC_$_INSTANCE_VARIABLES_NUANFArticleDataProvider
+- __OBJC_$_INSTANCE_VARIABLES_NUANFArticleDataProviderFactory
+- __OBJC_$_INSTANCE_VARIABLES_NUANFArticleFactory
+- __OBJC_$_INSTANCE_VARIABLES_NUANFAssetLoader
+- __OBJC_$_INSTANCE_VARIABLES_NUANFContextLoader
+- __OBJC_$_INSTANCE_VARIABLES_NUANFDebugSettingsProvider
+- __OBJC_$_INSTANCE_VARIABLES_NUANFEmbedConfigurationLoader
+- __OBJC_$_INSTANCE_VARIABLES_NUANFFontLoader
+- __OBJC_$_INSTANCE_VARIABLES_NUANFLinkedContentProvider
+- __OBJC_$_INSTANCE_VARIABLES_NUANFLinkedContentProviderFactory
+- __OBJC_$_INSTANCE_VARIABLES_NUANFRenderingConfigurationProvider
+- __OBJC_$_INSTANCE_VARIABLES_NUANFResourceDataSource
+- __OBJC_$_INSTANCE_VARIABLES_NUActivityIndicatorLoadingView
+- __OBJC_$_INSTANCE_VARIABLES_NUAdSettings
+- __OBJC_$_INSTANCE_VARIABLES_NUAnimationFactory
+- __OBJC_$_INSTANCE_VARIABLES_NUAnimationQueue
+- __OBJC_$_INSTANCE_VARIABLES_NUAnimationRunner
+- __OBJC_$_INSTANCE_VARIABLES_NUApplicationAppActivityMonitorIOS
+- __OBJC_$_INSTANCE_VARIABLES_NUApplicationAppActivityMonitorMacOS
+- __OBJC_$_INSTANCE_VARIABLES_NUApplicationDevice
+- __OBJC_$_INSTANCE_VARIABLES_NUApplicationFrameworkAssembly
+- __OBJC_$_INSTANCE_VARIABLES_NUArticleActivity
+- __OBJC_$_INSTANCE_VARIABLES_NUArticleActivityItemSource
+- __OBJC_$_INSTANCE_VARIABLES_NUArticleActivityManager
+- __OBJC_$_INSTANCE_VARIABLES_NUArticleActivityManagerFactory
+- __OBJC_$_INSTANCE_VARIABLES_NUArticleContainerTitleView
+- __OBJC_$_INSTANCE_VARIABLES_NUArticleContainerViewController
+- __OBJC_$_INSTANCE_VARIABLES_NUArticleContentSizeManager
+- __OBJC_$_INSTANCE_VARIABLES_NUArticleContext
+- __OBJC_$_INSTANCE_VARIABLES_NUArticleHostViewController
+- __OBJC_$_INSTANCE_VARIABLES_NUArticleHostViewControllerFactory
+- __OBJC_$_INSTANCE_VARIABLES_NUArticleHostViewControllerProvider
+- __OBJC_$_INSTANCE_VARIABLES_NUArticleImageActivityItemSource
+- __OBJC_$_INSTANCE_VARIABLES_NUArticleKeyCommandManager
+- __OBJC_$_INSTANCE_VARIABLES_NUArticlePage
+- __OBJC_$_INSTANCE_VARIABLES_NUArticlePageFactory
+- __OBJC_$_INSTANCE_VARIABLES_NUArticlePageStyleOperation
+- __OBJC_$_INSTANCE_VARIABLES_NUArticlePrefetcher
+- __OBJC_$_INSTANCE_VARIABLES_NUArticleResourceURLTranslator
+- __OBJC_$_INSTANCE_VARIABLES_NUArticleScrollPosition
+- __OBJC_$_INSTANCE_VARIABLES_NUArticleTextActivityItemSource
+- __OBJC_$_INSTANCE_VARIABLES_NUArticleURLActivityItemSource
+- __OBJC_$_INSTANCE_VARIABLES_NUArticleViewController
+- __OBJC_$_INSTANCE_VARIABLES_NUArticleViewControllerFactory
+- __OBJC_$_INSTANCE_VARIABLES_NUArticleViewStyler
+- __OBJC_$_INSTANCE_VARIABLES_NUBasicAnimation
+- __OBJC_$_INSTANCE_VARIABLES_NUBlockBasedURLModifier
+- __OBJC_$_INSTANCE_VARIABLES_NUBundledArticleDataProvider
+- __OBJC_$_INSTANCE_VARIABLES_NUContentAnalyticsEvent
+- __OBJC_$_INSTANCE_VARIABLES_NUContentOverlayDocumentSectionBlueprintData
+- __OBJC_$_INSTANCE_VARIABLES_NUCrossFadeTitleView
+- __OBJC_$_INSTANCE_VARIABLES_NUCrossFadeViewAnimator
+- __OBJC_$_INSTANCE_VARIABLES_NUDeviceTrait
+- __OBJC_$_INSTANCE_VARIABLES_NUDocumentSectionBlueprintProvider
+- __OBJC_$_INSTANCE_VARIABLES_NUDocumentSectionItem
+- __OBJC_$_INSTANCE_VARIABLES_NUEmbedConfigurationOperation
+- __OBJC_$_INSTANCE_VARIABLES_NUEmbedConfigurationOperationResult
+- __OBJC_$_INSTANCE_VARIABLES_NUEmbedDataManager
+- __OBJC_$_INSTANCE_VARIABLES_NUErrorMessage
+- __OBJC_$_INSTANCE_VARIABLES_NUErrorMessageFactory
+- __OBJC_$_INSTANCE_VARIABLES_NUErrorView
+- __OBJC_$_INSTANCE_VARIABLES_NUExtensionAppActivityMonitor
+- __OBJC_$_INSTANCE_VARIABLES_NUExtensionAssembly
+- __OBJC_$_INSTANCE_VARIABLES_NUExtensionDevice
+- __OBJC_$_INSTANCE_VARIABLES_NUExtensionFrameworkAssembly
+- __OBJC_$_INSTANCE_VARIABLES_NUExtensionURLHandler
+- __OBJC_$_INSTANCE_VARIABLES_NUFadeViewAnimator
+- __OBJC_$_INSTANCE_VARIABLES_NUFeedTitleView
+- __OBJC_$_INSTANCE_VARIABLES_NUFeedTitleViewUpdate
+- __OBJC_$_INSTANCE_VARIABLES_NUFontManager
+- __OBJC_$_INSTANCE_VARIABLES_NUHTMLBuilder
+- __OBJC_$_INSTANCE_VARIABLES_NULinkedContentManager
+- __OBJC_$_INSTANCE_VARIABLES_NULinkedContentManagerFactory
+- __OBJC_$_INSTANCE_VARIABLES_NULiveCoverageManager
+- __OBJC_$_INSTANCE_VARIABLES_NUMediaSharingPolicyProvider
+- __OBJC_$_INSTANCE_VARIABLES_NUNewsFeedTitleViewStyler
+- __OBJC_$_INSTANCE_VARIABLES_NUPageStyle
+- __OBJC_$_INSTANCE_VARIABLES_NUPageViewController
+- __OBJC_$_INSTANCE_VARIABLES_NUPageViewControllerScrollView
+- __OBJC_$_INSTANCE_VARIABLES_NUPagingBlueprint
+- __OBJC_$_INSTANCE_VARIABLES_NUPagingBlueprintItem
+- __OBJC_$_INSTANCE_VARIABLES_NUPagingEngine
+- __OBJC_$_INSTANCE_VARIABLES_NUReachabilityProvider
+- __OBJC_$_INSTANCE_VARIABLES_NURouter
+- __OBJC_$_INSTANCE_VARIABLES_NUSlideViewAnimator
+- __OBJC_$_INSTANCE_VARIABLES_NUStoreFrontProvider
+- __OBJC_$_INSTANCE_VARIABLES_NUTextAndGlyph
+- __OBJC_$_INSTANCE_VARIABLES_NUTextAndGlyphView
+- __OBJC_$_INSTANCE_VARIABLES_NUTitleView
+- __OBJC_$_INSTANCE_VARIABLES_NUTitleViewStyler
+- __OBJC_$_INSTANCE_VARIABLES_NUTitleViewUpdate
+- __OBJC_$_INSTANCE_VARIABLES_NUTrait
+- __OBJC_$_INSTANCE_VARIABLES_NUTransition
+- __OBJC_$_INSTANCE_VARIABLES_NUURLHandler
+- __OBJC_$_INSTANCE_VARIABLES_NUWebContentComponentDeveloperSettingsProvider
+- __OBJC_$_INSTANCE_VARIABLES_NUWebContentContentRuleProvider
+- __OBJC_$_INSTANCE_VARIABLES_NUWebContentLoadingPolicyProvider
+- __OBJC_$_PROP_LIST_FCAppActivityMonitor
+- __OBJC_$_PROP_LIST_FCAppleAccount
+- __OBJC_$_PROP_LIST_FCAudioPlaylistType
+- __OBJC_$_PROP_LIST_FCContentContext
+- __OBJC_$_PROP_LIST_FCFeedPersonalizingItem
+- __OBJC_$_PROP_LIST_FCFeedTransformationItem
+- __OBJC_$_PROP_LIST_FCHeadlineProviding
+- __OBJC_$_PROP_LIST_FCIssueReadingHistoryType
+- __OBJC_$_PROP_LIST_FCNetworkReachabilityType
+- __OBJC_$_PROP_LIST_FCNewsAppConfigurationManager
+- __OBJC_$_PROP_LIST_FCPrivateDataContext
+- __OBJC_$_PROP_LIST_NSObject
+- __OBJC_$_PROP_LIST_NUANFArticleDataProvider
+- __OBJC_$_PROP_LIST_NUANFArticleDataProviderFactory
+- __OBJC_$_PROP_LIST_NUANFArticleFactory
+- __OBJC_$_PROP_LIST_NUANFAssetLoader
+- __OBJC_$_PROP_LIST_NUANFContextLoader
+- __OBJC_$_PROP_LIST_NUANFDebugSettingsProvider
+- __OBJC_$_PROP_LIST_NUANFEmbedConfigurationLoader
+- __OBJC_$_PROP_LIST_NUANFFontLoader
+- __OBJC_$_PROP_LIST_NUANFLinkedContentProvider
+- __OBJC_$_PROP_LIST_NUANFLinkedContentProviderFactory
+- __OBJC_$_PROP_LIST_NUANFRenderingConfigurationProvider
+- __OBJC_$_PROP_LIST_NUANFResourceDataSource
+- __OBJC_$_PROP_LIST_NUActivityIndicatorLoadingView
+- __OBJC_$_PROP_LIST_NUAdSettings
+- __OBJC_$_PROP_LIST_NUAnimationFactory
+- __OBJC_$_PROP_LIST_NUAnimationQueue
+- __OBJC_$_PROP_LIST_NUAnimationRunner
+- __OBJC_$_PROP_LIST_NUApplicationAppActivityMonitorIOS
+- __OBJC_$_PROP_LIST_NUApplicationAppActivityMonitorMacOS
+- __OBJC_$_PROP_LIST_NUApplicationAssembly
+- __OBJC_$_PROP_LIST_NUApplicationDevice
+- __OBJC_$_PROP_LIST_NUApplicationFrameworkAssembly
+- __OBJC_$_PROP_LIST_NUApplicationURLHandler
+- __OBJC_$_PROP_LIST_NUArticleActivity
+- __OBJC_$_PROP_LIST_NUArticleActivityItemSource
+- __OBJC_$_PROP_LIST_NUArticleActivityManager
+- __OBJC_$_PROP_LIST_NUArticleActivityManagerFactory
+- __OBJC_$_PROP_LIST_NUArticleAssembly
+- __OBJC_$_PROP_LIST_NUArticleContainerTitleView
+- __OBJC_$_PROP_LIST_NUArticleContainerViewController
+- __OBJC_$_PROP_LIST_NUArticleContentSizeManager
+- __OBJC_$_PROP_LIST_NUArticleContext
+- __OBJC_$_PROP_LIST_NUArticleDataProvider
+- __OBJC_$_PROP_LIST_NUArticleHostViewController
+- __OBJC_$_PROP_LIST_NUArticleHostViewControllerFactory
+- __OBJC_$_PROP_LIST_NUArticleHostViewControllerProvider
+- __OBJC_$_PROP_LIST_NUArticleImageActivityItemSource
+- __OBJC_$_PROP_LIST_NUArticleKeyCommandManager
+- __OBJC_$_PROP_LIST_NUArticlePage
+- __OBJC_$_PROP_LIST_NUArticlePageFactory
+- __OBJC_$_PROP_LIST_NUArticlePageStyleOperation
+- __OBJC_$_PROP_LIST_NUArticlePrefetcher
+- __OBJC_$_PROP_LIST_NUArticleResourceURLTranslator
+- __OBJC_$_PROP_LIST_NUArticleScrollPosition
+- __OBJC_$_PROP_LIST_NUArticleTextActivityItemSource
+- __OBJC_$_PROP_LIST_NUArticleURLActivityItemSource
+- __OBJC_$_PROP_LIST_NUArticleViewController
+- __OBJC_$_PROP_LIST_NUArticleViewControllerFactory
+- __OBJC_$_PROP_LIST_NUArticleViewStyler
+- __OBJC_$_PROP_LIST_NUBarCompressible
+- __OBJC_$_PROP_LIST_NUBasicAnimation
+- __OBJC_$_PROP_LIST_NUBlockBasedURLModifier
+- __OBJC_$_PROP_LIST_NUBundledArticleDataProvider
+- __OBJC_$_PROP_LIST_NUContentAnalyticsEvent
+- __OBJC_$_PROP_LIST_NUContentOverlayDocumentSectionBlueprintData
+- __OBJC_$_PROP_LIST_NUCoreAssembly
+- __OBJC_$_PROP_LIST_NUCrossFadeTitleView
+- __OBJC_$_PROP_LIST_NUCrossFadeViewAnimator
+- __OBJC_$_PROP_LIST_NUDeepLinkURLModifier
+- __OBJC_$_PROP_LIST_NUDevice
+- __OBJC_$_PROP_LIST_NUDeviceTrait
+- __OBJC_$_PROP_LIST_NUDocumentSectionBlueprintProvider
+- __OBJC_$_PROP_LIST_NUDocumentSectionItem
+- __OBJC_$_PROP_LIST_NUEmbedConfigurationLoader
+- __OBJC_$_PROP_LIST_NUEmbedConfigurationOperation
+- __OBJC_$_PROP_LIST_NUEmbedConfigurationOperationResult
+- __OBJC_$_PROP_LIST_NUEmbedData
+- __OBJC_$_PROP_LIST_NUEmbedDataManager
+- __OBJC_$_PROP_LIST_NUErrorMessage
+- __OBJC_$_PROP_LIST_NUErrorMessageFactory
+- __OBJC_$_PROP_LIST_NUErrorView
+- __OBJC_$_PROP_LIST_NUExtensionAppActivityMonitor
+- __OBJC_$_PROP_LIST_NUExtensionAssembly
+- __OBJC_$_PROP_LIST_NUExtensionDevice
+- __OBJC_$_PROP_LIST_NUExtensionFrameworkAssembly
+- __OBJC_$_PROP_LIST_NUExtensionURLHandler
+- __OBJC_$_PROP_LIST_NUFadeViewAnimator
+- __OBJC_$_PROP_LIST_NUFeedTitleView
+- __OBJC_$_PROP_LIST_NUFeedTitleViewUpdate
+- __OBJC_$_PROP_LIST_NUFontManager
+- __OBJC_$_PROP_LIST_NUHTMLBuilder
+- __OBJC_$_PROP_LIST_NUIdleWebViewControllerFactory
+- __OBJC_$_PROP_LIST_NULinkedContentManager
+- __OBJC_$_PROP_LIST_NULinkedContentManagerFactory
+- __OBJC_$_PROP_LIST_NULiveCoverageManager
+- __OBJC_$_PROP_LIST_NULoadable
+- __OBJC_$_PROP_LIST_NUMailPresenter
+- __OBJC_$_PROP_LIST_NUManagerAssembly
+- __OBJC_$_PROP_LIST_NUMediaSharingPolicyProvider
+- __OBJC_$_PROP_LIST_NUMessagePresenter
+- __OBJC_$_PROP_LIST_NUNewsFeedTitleViewStyler
+- __OBJC_$_PROP_LIST_NUNoopChromeControl
+- __OBJC_$_PROP_LIST_NUPage
+- __OBJC_$_PROP_LIST_NUPageStyle
+- __OBJC_$_PROP_LIST_NUPageViewController
+- __OBJC_$_PROP_LIST_NUPageViewControllerScrollView
+- __OBJC_$_PROP_LIST_NUPageable
+- __OBJC_$_PROP_LIST_NUPaging
+- __OBJC_$_PROP_LIST_NUPagingBlueprint
+- __OBJC_$_PROP_LIST_NUPagingBlueprintItem
+- __OBJC_$_PROP_LIST_NUPagingEngine
+- __OBJC_$_PROP_LIST_NUReachabilityProvider
+- __OBJC_$_PROP_LIST_NURouter
+- __OBJC_$_PROP_LIST_NUSettings
+- __OBJC_$_PROP_LIST_NUSlideViewAnimator
+- __OBJC_$_PROP_LIST_NUSpotlightManager
+- __OBJC_$_PROP_LIST_NUStoreFrontProvider
+- __OBJC_$_PROP_LIST_NUTextAndGlyph
+- __OBJC_$_PROP_LIST_NUTitleView
+- __OBJC_$_PROP_LIST_NUTitleViewStyler
+- __OBJC_$_PROP_LIST_NUTitleViewUpdate
+- __OBJC_$_PROP_LIST_NUTrait
+- __OBJC_$_PROP_LIST_NUTransition
+- __OBJC_$_PROP_LIST_NUURLHandler
+- __OBJC_$_PROP_LIST_NUWebContentComponentDeveloperSettingsProvider
+- __OBJC_$_PROP_LIST_NUWebContentContentRuleProvider
+- __OBJC_$_PROP_LIST_NUWebContentLoadingPolicyProvider
+- __OBJC_$_PROP_LIST_NUWidgetDevice
+- __OBJC_$_PROP_LIST_SXEmbedType
+- __OBJC_$_PROP_LIST_SXHost
+- __OBJC_$_PROP_LIST_SXMediaSharingPolicyProvider
+- __OBJC_$_PROP_LIST_SXPresentationEnvironmentOverriding
+- __OBJC_$_PROP_LIST_SXRenderingConfigurationProvider
+- __OBJC_$_PROP_LIST_SXStoreFrontProvider
+- __OBJC_$_PROP_LIST_TFBundleAssembly
+- __OBJC_$_PROP_LIST_UIImageView_$_NUCrossFadeViewAnimatable
+- __OBJC_$_PROP_LIST_UILabel_$_NUCrossFadeViewAnimatable
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCAppActivityMonitor
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCAppActivityReceiver
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCAppleAccount
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCAudioPlaylistType
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCCacheFlushing
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCCacheInvalidating
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCClassifiable
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCContentContext
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCCurrentIssuesChecker
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCFeedPersonalizingItem
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCFeedTransformationItem
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCHeadlineProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCIssueReadingHistoryType
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCKeyedOperationQueueDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCNetworkReachabilityType
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCNewsAppConfigurationManager
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCPrivateDataContext
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFCopying
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUANFDebugSettingsObserver
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUANFDebugSettingsProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUActivityProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUAdSettings
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUArticleActivityFactory
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUArticleActivityOptionsProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUArticleContentSizeManager
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUArticleDataProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUArticleDataProviderFactory
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUArticleFactory
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUArticleHardPaywallPresentationReporting
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUArticleHostViewControllerFactory
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUArticleKeyCommandManager
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUArticleMessaging
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUArticlePrefetcherType
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUArticleResourceURLTranslator
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUArticleScrollPositionManagerType
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUArticleViewControllerFactory
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUArticleViewControllerLiveCoverageDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUArticleViewStyler
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUBarCompressible
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUChromeControl
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUCrossFadeViewAnimatable
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUDevice
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUDeviceTrait
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUDocumentSectionBlueprintProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUEmbedConfigurationLoader
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUEmbedDataManager
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUErrorMessageFactory
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUFontRegistration
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUFontRegistrator
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NULinkedContentProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NULinkedContentProviderFactory
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NULiveCoverageManagerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NULoadable
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NULoadingViewProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUNavigationControl
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUPage
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUPageNextActionable
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUPageStyling
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUPageViewControllerDataSource
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUPageViewControllerScrollViewAccessibilityDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUPageable
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUPaging
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUPagingFactory
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NURouter
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUSettings
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUSpotlightManager
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUTitleViewDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUTitleViewStyler
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUURLHandling
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUURLModifying
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUWebViewControllerFactoryType
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_CAAnimationDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FCAppActivityMonitor
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FCFeedPersonalizingItem
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FCFeedTransformationItem
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FCHeadlineProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FCNetworkReachabilityObserving
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FCNewsAppConfigurationManager
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NUArticleExperimentationDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NUArticleViewControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NULinkedContentProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NULoadingDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NULoadingViewProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NUPageViewControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SXAppStateMonitor
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SXDocumentSectionItemProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SXScrollViewControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SXURLHandling
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIActivityItemSource
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIPageViewControllerDataSource
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIPageViewControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIScrollViewDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT__UIBasicAnimationFactory
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWLoadingPolicyProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWReachabilityProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXAnalyticsReporting
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXAppStateMonitor
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXDocumentSectionItemProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXEmbedDataProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXEmbedType
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXExperimentationDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXHost
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXMailPresenter
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXMediaSharingPolicyProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXMessagePresenter
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXPresentationEnvironmentOverriding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXRenderingConfigurationProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXResourceDataSource
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXStoreFrontProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXURLHandling
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXURLPreviewing
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXWebContentComponentContentRuleProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXWebContentComponentDeveloperSettingsProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TFAssembly
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TFBundleAssembly
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_UIActivityItemSource
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_UIPageViewControllerDataSource
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS__UIBasicAnimationFactory
+- __OBJC_$_PROTOCOL_METHOD_TYPES_CAAnimationDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCAppActivityMonitor
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCAppActivityReceiver
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCAppleAccount
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCAudioPlaylistType
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCCacheFlushing
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCCacheInvalidating
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCClassifiable
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCContentContext
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCCurrentIssuesChecker
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCFeedPersonalizingItem
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCFeedTransformationItem
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCHeadlineProviding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCIssueReadingHistoryType
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCKeyedOperationQueueDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCNetworkReachabilityObserving
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCNetworkReachabilityType
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCNewsAppConfigurationManager
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCPrivateDataContext
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFCopying
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUANFDebugSettingsObserver
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUANFDebugSettingsProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUActivityProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUAdSettings
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUArticleActivityFactory
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUArticleActivityOptionsProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUArticleContentSizeManager
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUArticleDataProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUArticleDataProviderFactory
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUArticleExperimentationDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUArticleFactory
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUArticleHardPaywallPresentationReporting
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUArticleHostViewControllerFactory
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUArticleKeyCommandManager
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUArticleMessaging
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUArticlePrefetcherType
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUArticleResourceURLTranslator
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUArticleScrollPositionManagerType
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUArticleViewControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUArticleViewControllerFactory
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUArticleViewControllerLiveCoverageDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUArticleViewStyler
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUBarCompressible
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUChromeControl
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUCrossFadeViewAnimatable
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUDevice
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUDeviceTrait
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUDocumentSectionBlueprintProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUEmbedConfigurationLoader
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUEmbedDataManager
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUErrorMessageFactory
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUFontRegistration
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUFontRegistrator
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NULinkedContentProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NULinkedContentProviderFactory
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NULiveCoverageManagerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NULoadable
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NULoadingDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NULoadingViewProviding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUNavigationControl
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUPage
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUPageNextActionable
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUPageStyling
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUPageViewControllerDataSource
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUPageViewControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUPageViewControllerScrollViewAccessibilityDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUPageable
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUPaging
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUPagingFactory
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NURouter
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUSettings
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUSpotlightManager
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUTitleViewDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUTitleViewStyler
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUURLHandling
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUURLModifying
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUWebViewControllerFactoryType
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWLoadingPolicyProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWReachabilityProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXAnalyticsReporting
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXAppStateMonitor
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXDocumentSectionItemProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXEmbedDataProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXEmbedType
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXExperimentationDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXHost
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXMailPresenter
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXMediaSharingPolicyProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXMessagePresenter
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXPresentationEnvironmentOverriding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXRenderingConfigurationProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXResourceDataSource
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXScrollViewControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXStoreFrontProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXURLHandling
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXURLPreviewing
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXWebContentComponentContentRuleProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXWebContentComponentDeveloperSettingsProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TFAssembly
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TFBundleAssembly
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UIActivityItemSource
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UIPageViewControllerDataSource
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UIPageViewControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UIScrollViewDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES__UIBasicAnimationFactory
+- __OBJC_$_PROTOCOL_REFS_CAAnimationDelegate
+- __OBJC_$_PROTOCOL_REFS_FCAppActivityMonitor
+- __OBJC_$_PROTOCOL_REFS_FCAppActivityReceiver
+- __OBJC_$_PROTOCOL_REFS_FCAppleAccount
+- __OBJC_$_PROTOCOL_REFS_FCCacheFlushing
+- __OBJC_$_PROTOCOL_REFS_FCClassifiable
+- __OBJC_$_PROTOCOL_REFS_FCContentContext
+- __OBJC_$_PROTOCOL_REFS_FCCurrentIssuesChecker
+- __OBJC_$_PROTOCOL_REFS_FCFeedPersonalizingItem
+- __OBJC_$_PROTOCOL_REFS_FCFeedTransformationItem
+- __OBJC_$_PROTOCOL_REFS_FCHeadlineProviding
+- __OBJC_$_PROTOCOL_REFS_FCKeyedOperationQueueDelegate
+- __OBJC_$_PROTOCOL_REFS_FCNetworkReachabilityObserving
+- __OBJC_$_PROTOCOL_REFS_FCNetworkReachabilityType
+- __OBJC_$_PROTOCOL_REFS_FCNewsAppConfigurationManager
+- __OBJC_$_PROTOCOL_REFS_FCPrivateDataContext
+- __OBJC_$_PROTOCOL_REFS_NFCopying
+- __OBJC_$_PROTOCOL_REFS_NUANFDebugSettingsObserver
+- __OBJC_$_PROTOCOL_REFS_NUANFDebugSettingsProvider
+- __OBJC_$_PROTOCOL_REFS_NUActivityProvider
+- __OBJC_$_PROTOCOL_REFS_NUAdSettings
+- __OBJC_$_PROTOCOL_REFS_NUAnalyticsEvent
+- __OBJC_$_PROTOCOL_REFS_NUAppActivityMonitor
+- __OBJC_$_PROTOCOL_REFS_NUArticleActivityFactory
+- __OBJC_$_PROTOCOL_REFS_NUArticleContentSizeManager
+- __OBJC_$_PROTOCOL_REFS_NUArticleDataProvider
+- __OBJC_$_PROTOCOL_REFS_NUArticleDataProviderFactory
+- __OBJC_$_PROTOCOL_REFS_NUArticleExperimentationDelegate
+- __OBJC_$_PROTOCOL_REFS_NUArticleFactory
+- __OBJC_$_PROTOCOL_REFS_NUArticleHostViewControllerFactory
+- __OBJC_$_PROTOCOL_REFS_NUArticleKeyCommandManager
+- __OBJC_$_PROTOCOL_REFS_NUArticleResourceURLTranslator
+- __OBJC_$_PROTOCOL_REFS_NUArticleViewControllerDelegate
+- __OBJC_$_PROTOCOL_REFS_NUArticleViewControllerFactory
+- __OBJC_$_PROTOCOL_REFS_NUArticleViewControllerLiveCoverageDelegate
+- __OBJC_$_PROTOCOL_REFS_NUChromeControl
+- __OBJC_$_PROTOCOL_REFS_NUCrossFadeViewAnimatable
+- __OBJC_$_PROTOCOL_REFS_NUDevice
+- __OBJC_$_PROTOCOL_REFS_NUDeviceTrait
+- __OBJC_$_PROTOCOL_REFS_NUDocumentSectionBlueprintProvider
+- __OBJC_$_PROTOCOL_REFS_NUEmbedConfigurationLoader
+- __OBJC_$_PROTOCOL_REFS_NUEmbedDataManager
+- __OBJC_$_PROTOCOL_REFS_NUErrorMessageFactory
+- __OBJC_$_PROTOCOL_REFS_NUFontRegistration
+- __OBJC_$_PROTOCOL_REFS_NUFontRegistrator
+- __OBJC_$_PROTOCOL_REFS_NULinkedContentProvider
+- __OBJC_$_PROTOCOL_REFS_NULinkedContentProviderFactory
+- __OBJC_$_PROTOCOL_REFS_NULiveCoverageManagerDelegate
+- __OBJC_$_PROTOCOL_REFS_NULoadable
+- __OBJC_$_PROTOCOL_REFS_NULoadingDelegate
+- __OBJC_$_PROTOCOL_REFS_NULoadingViewProviding
+- __OBJC_$_PROTOCOL_REFS_NUNavigationControl
+- __OBJC_$_PROTOCOL_REFS_NUPage
+- __OBJC_$_PROTOCOL_REFS_NUPageNextActionable
+- __OBJC_$_PROTOCOL_REFS_NUPageStyling
+- __OBJC_$_PROTOCOL_REFS_NUPageViewControllerDataSource
+- __OBJC_$_PROTOCOL_REFS_NUPageViewControllerDelegate
+- __OBJC_$_PROTOCOL_REFS_NUPageViewControllerScrollViewAccessibilityDelegate
+- __OBJC_$_PROTOCOL_REFS_NUPageable
+- __OBJC_$_PROTOCOL_REFS_NUPaging
+- __OBJC_$_PROTOCOL_REFS_NUPagingFactory
+- __OBJC_$_PROTOCOL_REFS_NURouter
+- __OBJC_$_PROTOCOL_REFS_NUSafeAreaInsetsProviding
+- __OBJC_$_PROTOCOL_REFS_NUSettings
+- __OBJC_$_PROTOCOL_REFS_NUSpotlightManager
+- __OBJC_$_PROTOCOL_REFS_NUTitleViewDelegate
+- __OBJC_$_PROTOCOL_REFS_NUTitleViewStyler
+- __OBJC_$_PROTOCOL_REFS_NUURLHandling
+- __OBJC_$_PROTOCOL_REFS_NUURLModifying
+- __OBJC_$_PROTOCOL_REFS_NUWebViewControllerFactoryType
+- __OBJC_$_PROTOCOL_REFS_SWLoadingPolicyProvider
+- __OBJC_$_PROTOCOL_REFS_SWReachabilityProvider
+- __OBJC_$_PROTOCOL_REFS_SXAnalyticsReporting
+- __OBJC_$_PROTOCOL_REFS_SXAppStateMonitor
+- __OBJC_$_PROTOCOL_REFS_SXDocumentSectionItemProvider
+- __OBJC_$_PROTOCOL_REFS_SXEmbedDataProvider
+- __OBJC_$_PROTOCOL_REFS_SXEmbedType
+- __OBJC_$_PROTOCOL_REFS_SXExperimentationDelegate
+- __OBJC_$_PROTOCOL_REFS_SXHost
+- __OBJC_$_PROTOCOL_REFS_SXMailPresenter
+- __OBJC_$_PROTOCOL_REFS_SXMediaSharingPolicyProvider
+- __OBJC_$_PROTOCOL_REFS_SXMessagePresenter
+- __OBJC_$_PROTOCOL_REFS_SXPresentationEnvironmentOverriding
+- __OBJC_$_PROTOCOL_REFS_SXRenderingConfigurationProvider
+- __OBJC_$_PROTOCOL_REFS_SXResourceDataSource
+- __OBJC_$_PROTOCOL_REFS_SXScrollViewControllerDelegate
+- __OBJC_$_PROTOCOL_REFS_SXStoreFrontProvider
+- __OBJC_$_PROTOCOL_REFS_SXURLHandling
+- __OBJC_$_PROTOCOL_REFS_SXURLPreviewing
+- __OBJC_$_PROTOCOL_REFS_SXWebContentComponentContentRuleProvider
+- __OBJC_$_PROTOCOL_REFS_SXWebContentComponentDeveloperSettingsProvider
+- __OBJC_$_PROTOCOL_REFS_TFAssembly
+- __OBJC_$_PROTOCOL_REFS_TFBundleAssembly
+- __OBJC_$_PROTOCOL_REFS_TFFrameworkAssembly
+- __OBJC_$_PROTOCOL_REFS_UIActivityItemSource
+- __OBJC_$_PROTOCOL_REFS_UIPageViewControllerDataSource
+- __OBJC_$_PROTOCOL_REFS_UIPageViewControllerDelegate
+- __OBJC_$_PROTOCOL_REFS_UIScrollViewDelegate
+- __OBJC_$_PROTOCOL_REFS__UIBasicAnimationFactory
+- __OBJC_CATEGORY_PROTOCOLS_$_UIImageView_$_NUCrossFadeViewAnimatable
+- __OBJC_CATEGORY_PROTOCOLS_$_UILabel_$_NUCrossFadeViewAnimatable
+- __OBJC_CLASS_PROTOCOLS_$_NUANFArticleDataProvider
+- __OBJC_CLASS_PROTOCOLS_$_NUANFArticleDataProviderFactory
+- __OBJC_CLASS_PROTOCOLS_$_NUANFArticleFactory
+- __OBJC_CLASS_PROTOCOLS_$_NUANFDebugSettingsProvider
+- __OBJC_CLASS_PROTOCOLS_$_NUANFEmbedConfigurationLoader
+- __OBJC_CLASS_PROTOCOLS_$_NUANFLinkedContentProvider
+- __OBJC_CLASS_PROTOCOLS_$_NUANFLinkedContentProviderFactory
+- __OBJC_CLASS_PROTOCOLS_$_NUANFRenderingConfigurationProvider
+- __OBJC_CLASS_PROTOCOLS_$_NUANFResourceDataSource
+- __OBJC_CLASS_PROTOCOLS_$_NUActivityIndicatorLoadingView
+- __OBJC_CLASS_PROTOCOLS_$_NUAdSettings
+- __OBJC_CLASS_PROTOCOLS_$_NUAnimationFactory
+- __OBJC_CLASS_PROTOCOLS_$_NUApplicationAppActivityMonitorIOS
+- __OBJC_CLASS_PROTOCOLS_$_NUApplicationAppActivityMonitorMacOS
+- __OBJC_CLASS_PROTOCOLS_$_NUApplicationAssembly
+- __OBJC_CLASS_PROTOCOLS_$_NUApplicationDevice
+- __OBJC_CLASS_PROTOCOLS_$_NUApplicationFrameworkAssembly
+- __OBJC_CLASS_PROTOCOLS_$_NUApplicationURLHandler
+- __OBJC_CLASS_PROTOCOLS_$_NUArticleActivityDefaultOptionsProvider
+- __OBJC_CLASS_PROTOCOLS_$_NUArticleActivityItemSource
+- __OBJC_CLASS_PROTOCOLS_$_NUArticleActivityManager
+- __OBJC_CLASS_PROTOCOLS_$_NUArticleActivityManagerFactory
+- __OBJC_CLASS_PROTOCOLS_$_NUArticleAssembly
+- __OBJC_CLASS_PROTOCOLS_$_NUArticleContainerViewController
+- __OBJC_CLASS_PROTOCOLS_$_NUArticleContentSizeManager
+- __OBJC_CLASS_PROTOCOLS_$_NUArticleContext
+- __OBJC_CLASS_PROTOCOLS_$_NUArticleHostViewController
+- __OBJC_CLASS_PROTOCOLS_$_NUArticleHostViewControllerFactory
+- __OBJC_CLASS_PROTOCOLS_$_NUArticleKeyCommandManager
+- __OBJC_CLASS_PROTOCOLS_$_NUArticlePage
+- __OBJC_CLASS_PROTOCOLS_$_NUArticlePrefetcher
+- __OBJC_CLASS_PROTOCOLS_$_NUArticleResourceURLTranslator
+- __OBJC_CLASS_PROTOCOLS_$_NUArticleScrollPositionManager
+- __OBJC_CLASS_PROTOCOLS_$_NUArticleViewController
+- __OBJC_CLASS_PROTOCOLS_$_NUArticleViewControllerFactory
+- __OBJC_CLASS_PROTOCOLS_$_NUArticleViewStyler
+- __OBJC_CLASS_PROTOCOLS_$_NUBasicAnimation
+- __OBJC_CLASS_PROTOCOLS_$_NUBlockBasedURLModifier
+- __OBJC_CLASS_PROTOCOLS_$_NUBundledArticleDataProvider
+- __OBJC_CLASS_PROTOCOLS_$_NUContentAnalyticsEvent
+- __OBJC_CLASS_PROTOCOLS_$_NUCoreAssembly
+- __OBJC_CLASS_PROTOCOLS_$_NUDeepLinkURLModifier
+- __OBJC_CLASS_PROTOCOLS_$_NUDeviceTrait
+- __OBJC_CLASS_PROTOCOLS_$_NUDocumentSectionBlueprintProvider
+- __OBJC_CLASS_PROTOCOLS_$_NUDocumentSectionItem
+- __OBJC_CLASS_PROTOCOLS_$_NUEmbedData
+- __OBJC_CLASS_PROTOCOLS_$_NUEmbedDataManager
+- __OBJC_CLASS_PROTOCOLS_$_NUErrorMessage
+- __OBJC_CLASS_PROTOCOLS_$_NUErrorMessageFactory
+- __OBJC_CLASS_PROTOCOLS_$_NUExtensionAppActivityMonitor
+- __OBJC_CLASS_PROTOCOLS_$_NUExtensionAssembly
+- __OBJC_CLASS_PROTOCOLS_$_NUExtensionDevice
+- __OBJC_CLASS_PROTOCOLS_$_NUExtensionFrameworkAssembly
+- __OBJC_CLASS_PROTOCOLS_$_NUExtensionURLHandler
+- __OBJC_CLASS_PROTOCOLS_$_NUFeedTitleView
+- __OBJC_CLASS_PROTOCOLS_$_NUFeedTitleViewUpdate
+- __OBJC_CLASS_PROTOCOLS_$_NUFontManager
+- __OBJC_CLASS_PROTOCOLS_$_NUIdleWebViewControllerFactory
+- __OBJC_CLASS_PROTOCOLS_$_NULinkedContentManager
+- __OBJC_CLASS_PROTOCOLS_$_NULiveCoverageManager
+- __OBJC_CLASS_PROTOCOLS_$_NUMailPresenter
+- __OBJC_CLASS_PROTOCOLS_$_NUManagerAssembly
+- __OBJC_CLASS_PROTOCOLS_$_NUMediaSharingPolicyProvider
+- __OBJC_CLASS_PROTOCOLS_$_NUMessagePresenter
+- __OBJC_CLASS_PROTOCOLS_$_NUNewsFeedTitleViewStyler
+- __OBJC_CLASS_PROTOCOLS_$_NUNoopChromeControl
+- __OBJC_CLASS_PROTOCOLS_$_NUPageViewController
+- __OBJC_CLASS_PROTOCOLS_$_NUPagingBlueprint
+- __OBJC_CLASS_PROTOCOLS_$_NUPagingEngine
+- __OBJC_CLASS_PROTOCOLS_$_NUReachabilityProvider
+- __OBJC_CLASS_PROTOCOLS_$_NURouter
+- __OBJC_CLASS_PROTOCOLS_$_NUSettings
+- __OBJC_CLASS_PROTOCOLS_$_NUStoreFrontProvider
+- __OBJC_CLASS_PROTOCOLS_$_NUTextAndGlyphView(NUCrossFadeViewAnimatable)
+- __OBJC_CLASS_PROTOCOLS_$_NUTitleViewStyler
+- __OBJC_CLASS_PROTOCOLS_$_NUTrait
+- __OBJC_CLASS_PROTOCOLS_$_NUTransition
+- __OBJC_CLASS_PROTOCOLS_$_NUURLHandler
+- __OBJC_CLASS_PROTOCOLS_$_NUWebContentComponentDeveloperSettingsProvider
+- __OBJC_CLASS_PROTOCOLS_$_NUWebContentContentRuleProvider
+- __OBJC_CLASS_PROTOCOLS_$_NUWebContentLoadingPolicyProvider
+- __OBJC_CLASS_PROTOCOLS_$_NUWidgetDevice
+- __OBJC_CLASS_RO_$_NUANFArticleDataProvider
+- __OBJC_CLASS_RO_$_NUANFArticleDataProviderFactory
+- __OBJC_CLASS_RO_$_NUANFArticleFactory
+- __OBJC_CLASS_RO_$_NUANFAssetLoader
+- __OBJC_CLASS_RO_$_NUANFContextLoader
+- __OBJC_CLASS_RO_$_NUANFDebugSettingsProvider
+- __OBJC_CLASS_RO_$_NUANFEmbedConfigurationLoader
+- __OBJC_CLASS_RO_$_NUANFFontLoader
+- __OBJC_CLASS_RO_$_NUANFImageResolver
+- __OBJC_CLASS_RO_$_NUANFLinkedContentProvider
+- __OBJC_CLASS_RO_$_NUANFLinkedContentProviderFactory
+- __OBJC_CLASS_RO_$_NUANFRenderingConfigurationProvider
+- __OBJC_CLASS_RO_$_NUANFResourceDataSource
+- __OBJC_CLASS_RO_$_NUActivityIndicatorLoadingView
+- __OBJC_CLASS_RO_$_NUAdSettings
+- __OBJC_CLASS_RO_$_NUAddToSafariReadingListActivity
+- __OBJC_CLASS_RO_$_NUAddToSafariReadingListActivityFactory
+- __OBJC_CLASS_RO_$_NUAnimationFactory
+- __OBJC_CLASS_RO_$_NUAnimationQueue
+- __OBJC_CLASS_RO_$_NUAnimationRunner
+- __OBJC_CLASS_RO_$_NUApplicationAppActivityMonitorIOS
+- __OBJC_CLASS_RO_$_NUApplicationAppActivityMonitorMacOS
+- __OBJC_CLASS_RO_$_NUApplicationAssembly
+- __OBJC_CLASS_RO_$_NUApplicationDevice
+- __OBJC_CLASS_RO_$_NUApplicationFrameworkAssembly
+- __OBJC_CLASS_RO_$_NUApplicationURLHandler
+- __OBJC_CLASS_RO_$_NUArticleActivity
+- __OBJC_CLASS_RO_$_NUArticleActivityDefaultOptionsProvider
+- __OBJC_CLASS_RO_$_NUArticleActivityItemSource
+- __OBJC_CLASS_RO_$_NUArticleActivityManager
+- __OBJC_CLASS_RO_$_NUArticleActivityManagerFactory
+- __OBJC_CLASS_RO_$_NUArticleAssembly
+- __OBJC_CLASS_RO_$_NUArticleContainerTitleView
+- __OBJC_CLASS_RO_$_NUArticleContainerViewController
+- __OBJC_CLASS_RO_$_NUArticleContentSizeManager
+- __OBJC_CLASS_RO_$_NUArticleContext
+- __OBJC_CLASS_RO_$_NUArticleHostViewController
+- __OBJC_CLASS_RO_$_NUArticleHostViewControllerFactory
+- __OBJC_CLASS_RO_$_NUArticleHostViewControllerProvider
+- __OBJC_CLASS_RO_$_NUArticleImageActivityItemSource
+- __OBJC_CLASS_RO_$_NUArticleKeyCommandManager
+- __OBJC_CLASS_RO_$_NUArticleNavigationController
+- __OBJC_CLASS_RO_$_NUArticlePage
+- __OBJC_CLASS_RO_$_NUArticlePageFactory
+- __OBJC_CLASS_RO_$_NUArticlePageStyleOperation
+- __OBJC_CLASS_RO_$_NUArticlePrefetcher
+- __OBJC_CLASS_RO_$_NUArticleResourceURLTranslator
+- __OBJC_CLASS_RO_$_NUArticleScrollPosition
+- __OBJC_CLASS_RO_$_NUArticleScrollPositionManager
+- __OBJC_CLASS_RO_$_NUArticleTextActivityItemSource
+- __OBJC_CLASS_RO_$_NUArticleURLActivityItemSource
+- __OBJC_CLASS_RO_$_NUArticleViewController
+- __OBJC_CLASS_RO_$_NUArticleViewControllerFactory
+- __OBJC_CLASS_RO_$_NUArticleViewStyler
+- __OBJC_CLASS_RO_$_NUBasicAnimation
+- __OBJC_CLASS_RO_$_NUBlockBasedURLModifier
+- __OBJC_CLASS_RO_$_NUBundledArticleDataProvider
+- __OBJC_CLASS_RO_$_NUContentAnalyticsEvent
+- __OBJC_CLASS_RO_$_NUContentOverlayDocumentSectionBlueprintData
+- __OBJC_CLASS_RO_$_NUCoreAssembly
+- __OBJC_CLASS_RO_$_NUCrossFadeTitleView
+- __OBJC_CLASS_RO_$_NUCrossFadeViewAnimator
+- __OBJC_CLASS_RO_$_NUDeepLinkURLModifier
+- __OBJC_CLASS_RO_$_NUDeviceTrait
+- __OBJC_CLASS_RO_$_NUDocumentSectionBlueprintProvider
+- __OBJC_CLASS_RO_$_NUDocumentSectionItem
+- __OBJC_CLASS_RO_$_NUEmbedConfigurationOperation
+- __OBJC_CLASS_RO_$_NUEmbedConfigurationOperationResult
+- __OBJC_CLASS_RO_$_NUEmbedData
+- __OBJC_CLASS_RO_$_NUEmbedDataManager
+- __OBJC_CLASS_RO_$_NUErrorMessage
+- __OBJC_CLASS_RO_$_NUErrorMessageFactory
+- __OBJC_CLASS_RO_$_NUErrorView
+- __OBJC_CLASS_RO_$_NUExtensionAppActivityMonitor
+- __OBJC_CLASS_RO_$_NUExtensionAssembly
+- __OBJC_CLASS_RO_$_NUExtensionDevice
+- __OBJC_CLASS_RO_$_NUExtensionFrameworkAssembly
+- __OBJC_CLASS_RO_$_NUExtensionURLHandler
+- __OBJC_CLASS_RO_$_NUFadeViewAnimator
+- __OBJC_CLASS_RO_$_NUFeedTitleView
+- __OBJC_CLASS_RO_$_NUFeedTitleViewUpdate
+- __OBJC_CLASS_RO_$_NUFontManager
+- __OBJC_CLASS_RO_$_NUHTMLBuilder
+- __OBJC_CLASS_RO_$_NUIdleWebViewControllerFactory
+- __OBJC_CLASS_RO_$_NUImages
+- __OBJC_CLASS_RO_$_NULinkedContentManager
+- __OBJC_CLASS_RO_$_NULinkedContentManagerFactory
+- __OBJC_CLASS_RO_$_NULiveCoverageManager
+- __OBJC_CLASS_RO_$_NULocalization
+- __OBJC_CLASS_RO_$_NUMailPresenter
+- __OBJC_CLASS_RO_$_NUManagerAssembly
+- __OBJC_CLASS_RO_$_NUMediaSharingPolicyProvider
+- __OBJC_CLASS_RO_$_NUMessagePresenter
+- __OBJC_CLASS_RO_$_NUNewsFeedTitleViewStyler
+- __OBJC_CLASS_RO_$_NUNoopChromeControl
+- __OBJC_CLASS_RO_$_NUPageStyle
+- __OBJC_CLASS_RO_$_NUPageViewController
+- __OBJC_CLASS_RO_$_NUPageViewControllerScrollView
+- __OBJC_CLASS_RO_$_NUPagingBlueprint
+- __OBJC_CLASS_RO_$_NUPagingBlueprintItem
+- __OBJC_CLASS_RO_$_NUPagingEngine
+- __OBJC_CLASS_RO_$_NUReachabilityProvider
+- __OBJC_CLASS_RO_$_NURouter
+- __OBJC_CLASS_RO_$_NUSettings
+- __OBJC_CLASS_RO_$_NUSlideViewAnimator
+- __OBJC_CLASS_RO_$_NUStoreFrontProvider
+- __OBJC_CLASS_RO_$_NUSwiftApplicationFrameworkAssembly
+- __OBJC_CLASS_RO_$_NUTextAndGlyph
+- __OBJC_CLASS_RO_$_NUTextAndGlyphView
+- __OBJC_CLASS_RO_$_NUTitleView
+- __OBJC_CLASS_RO_$_NUTitleViewStyler
+- __OBJC_CLASS_RO_$_NUTitleViewUpdate
+- __OBJC_CLASS_RO_$_NUTrait
+- __OBJC_CLASS_RO_$_NUTransition
+- __OBJC_CLASS_RO_$_NUURLHandler
+- __OBJC_CLASS_RO_$_NUWebContentComponentDeveloperSettingsProvider
+- __OBJC_CLASS_RO_$_NUWebContentContentRuleProvider
+- __OBJC_CLASS_RO_$_NUWebContentLoadingPolicyProvider
+- __OBJC_CLASS_RO_$_NUWidgetDevice
+- __OBJC_LABEL_PROTOCOL_$_CAAnimationDelegate
+- __OBJC_LABEL_PROTOCOL_$_FCAppActivityMonitor
+- __OBJC_LABEL_PROTOCOL_$_FCAppActivityReceiver
+- __OBJC_LABEL_PROTOCOL_$_FCAppleAccount
+- __OBJC_LABEL_PROTOCOL_$_FCAudioPlaylistType
+- __OBJC_LABEL_PROTOCOL_$_FCCacheFlushing
+- __OBJC_LABEL_PROTOCOL_$_FCCacheInvalidating
+- __OBJC_LABEL_PROTOCOL_$_FCClassifiable
+- __OBJC_LABEL_PROTOCOL_$_FCContentContext
+- __OBJC_LABEL_PROTOCOL_$_FCCurrentIssuesChecker
+- __OBJC_LABEL_PROTOCOL_$_FCFeedPersonalizingItem
+- __OBJC_LABEL_PROTOCOL_$_FCFeedTransformationItem
+- __OBJC_LABEL_PROTOCOL_$_FCHeadlineProviding
+- __OBJC_LABEL_PROTOCOL_$_FCIssueReadingHistoryType
+- __OBJC_LABEL_PROTOCOL_$_FCKeyedOperationQueueDelegate
+- __OBJC_LABEL_PROTOCOL_$_FCNetworkReachabilityObserving
+- __OBJC_LABEL_PROTOCOL_$_FCNetworkReachabilityType
+- __OBJC_LABEL_PROTOCOL_$_FCNewsAppConfigurationManager
+- __OBJC_LABEL_PROTOCOL_$_FCPrivateDataContext
+- __OBJC_LABEL_PROTOCOL_$_NFCopying
+- __OBJC_LABEL_PROTOCOL_$_NSCopying
+- __OBJC_LABEL_PROTOCOL_$_NSObject
+- __OBJC_LABEL_PROTOCOL_$_NUANFDebugSettingsObserver
+- __OBJC_LABEL_PROTOCOL_$_NUANFDebugSettingsProvider
+- __OBJC_LABEL_PROTOCOL_$_NUActivityProvider
+- __OBJC_LABEL_PROTOCOL_$_NUAdSettings
+- __OBJC_LABEL_PROTOCOL_$_NUAnalyticsEvent
+- __OBJC_LABEL_PROTOCOL_$_NUAppActivityMonitor
+- __OBJC_LABEL_PROTOCOL_$_NUArticleActivityFactory
+- __OBJC_LABEL_PROTOCOL_$_NUArticleActivityOptionsProvider
+- __OBJC_LABEL_PROTOCOL_$_NUArticleContentSizeManager
+- __OBJC_LABEL_PROTOCOL_$_NUArticleDataProvider
+- __OBJC_LABEL_PROTOCOL_$_NUArticleDataProviderFactory
+- __OBJC_LABEL_PROTOCOL_$_NUArticleExperimentationDelegate
+- __OBJC_LABEL_PROTOCOL_$_NUArticleFactory
+- __OBJC_LABEL_PROTOCOL_$_NUArticleHardPaywallPresentationReporting
+- __OBJC_LABEL_PROTOCOL_$_NUArticleHostViewControllerFactory
+- __OBJC_LABEL_PROTOCOL_$_NUArticleKeyCommandManager
+- __OBJC_LABEL_PROTOCOL_$_NUArticleMessaging
+- __OBJC_LABEL_PROTOCOL_$_NUArticlePrefetcherType
+- __OBJC_LABEL_PROTOCOL_$_NUArticleResourceURLTranslator
+- __OBJC_LABEL_PROTOCOL_$_NUArticleScrollPositionManagerType
+- __OBJC_LABEL_PROTOCOL_$_NUArticleViewControllerDelegate
+- __OBJC_LABEL_PROTOCOL_$_NUArticleViewControllerFactory
+- __OBJC_LABEL_PROTOCOL_$_NUArticleViewControllerLiveCoverageDelegate
+- __OBJC_LABEL_PROTOCOL_$_NUArticleViewStyler
+- __OBJC_LABEL_PROTOCOL_$_NUBarCompressible
+- __OBJC_LABEL_PROTOCOL_$_NUChromeControl
+- __OBJC_LABEL_PROTOCOL_$_NUCrossFadeViewAnimatable
+- __OBJC_LABEL_PROTOCOL_$_NUDevice
+- __OBJC_LABEL_PROTOCOL_$_NUDeviceTrait
+- __OBJC_LABEL_PROTOCOL_$_NUDocumentSectionBlueprintProvider
+- __OBJC_LABEL_PROTOCOL_$_NUEmbedConfigurationLoader
+- __OBJC_LABEL_PROTOCOL_$_NUEmbedDataManager
+- __OBJC_LABEL_PROTOCOL_$_NUErrorMessageFactory
+- __OBJC_LABEL_PROTOCOL_$_NUFontRegistration
+- __OBJC_LABEL_PROTOCOL_$_NUFontRegistrator
+- __OBJC_LABEL_PROTOCOL_$_NULinkedContentProvider
+- __OBJC_LABEL_PROTOCOL_$_NULinkedContentProviderFactory
+- __OBJC_LABEL_PROTOCOL_$_NULiveCoverageManagerDelegate
+- __OBJC_LABEL_PROTOCOL_$_NULoadable
+- __OBJC_LABEL_PROTOCOL_$_NULoadingDelegate
+- __OBJC_LABEL_PROTOCOL_$_NULoadingViewProviding
+- __OBJC_LABEL_PROTOCOL_$_NUNavigationControl
+- __OBJC_LABEL_PROTOCOL_$_NUPage
+- __OBJC_LABEL_PROTOCOL_$_NUPageNextActionable
+- __OBJC_LABEL_PROTOCOL_$_NUPageStyling
+- __OBJC_LABEL_PROTOCOL_$_NUPageViewControllerDataSource
+- __OBJC_LABEL_PROTOCOL_$_NUPageViewControllerDelegate
+- __OBJC_LABEL_PROTOCOL_$_NUPageViewControllerScrollViewAccessibilityDelegate
+- __OBJC_LABEL_PROTOCOL_$_NUPageable
+- __OBJC_LABEL_PROTOCOL_$_NUPaging
+- __OBJC_LABEL_PROTOCOL_$_NUPagingFactory
+- __OBJC_LABEL_PROTOCOL_$_NURouter
+- __OBJC_LABEL_PROTOCOL_$_NUSafeAreaInsetsProviding
+- __OBJC_LABEL_PROTOCOL_$_NUSettings
+- __OBJC_LABEL_PROTOCOL_$_NUSpotlightManager
+- __OBJC_LABEL_PROTOCOL_$_NUTitleViewDelegate
+- __OBJC_LABEL_PROTOCOL_$_NUTitleViewStyler
+- __OBJC_LABEL_PROTOCOL_$_NUURLHandling
+- __OBJC_LABEL_PROTOCOL_$_NUURLModifying
+- __OBJC_LABEL_PROTOCOL_$_NUWebViewControllerFactoryType
+- __OBJC_LABEL_PROTOCOL_$_SWLoadingPolicyProvider
+- __OBJC_LABEL_PROTOCOL_$_SWReachabilityProvider
+- __OBJC_LABEL_PROTOCOL_$_SXAnalyticsReporting
+- __OBJC_LABEL_PROTOCOL_$_SXAppStateMonitor
+- __OBJC_LABEL_PROTOCOL_$_SXDocumentSectionItemProvider
+- __OBJC_LABEL_PROTOCOL_$_SXEmbedDataProvider
+- __OBJC_LABEL_PROTOCOL_$_SXEmbedType
+- __OBJC_LABEL_PROTOCOL_$_SXExperimentationDelegate
+- __OBJC_LABEL_PROTOCOL_$_SXHost
+- __OBJC_LABEL_PROTOCOL_$_SXMailPresenter
+- __OBJC_LABEL_PROTOCOL_$_SXMediaSharingPolicyProvider
+- __OBJC_LABEL_PROTOCOL_$_SXMessagePresenter
+- __OBJC_LABEL_PROTOCOL_$_SXPresentationEnvironmentOverriding
+- __OBJC_LABEL_PROTOCOL_$_SXRenderingConfigurationProvider
+- __OBJC_LABEL_PROTOCOL_$_SXResourceDataSource
+- __OBJC_LABEL_PROTOCOL_$_SXScrollViewControllerDelegate
+- __OBJC_LABEL_PROTOCOL_$_SXStoreFrontProvider
+- __OBJC_LABEL_PROTOCOL_$_SXURLHandling
+- __OBJC_LABEL_PROTOCOL_$_SXURLPreviewing
+- __OBJC_LABEL_PROTOCOL_$_SXWebContentComponentContentRuleProvider
+- __OBJC_LABEL_PROTOCOL_$_SXWebContentComponentDeveloperSettingsProvider
+- __OBJC_LABEL_PROTOCOL_$_TFAssembly
+- __OBJC_LABEL_PROTOCOL_$_TFBundleAssembly
+- __OBJC_LABEL_PROTOCOL_$_TFFrameworkAssembly
+- __OBJC_LABEL_PROTOCOL_$_UIActivityItemSource
+- __OBJC_LABEL_PROTOCOL_$_UIPageViewControllerDataSource
+- __OBJC_LABEL_PROTOCOL_$_UIPageViewControllerDelegate
+- __OBJC_LABEL_PROTOCOL_$_UIScrollViewDelegate
+- __OBJC_LABEL_PROTOCOL_$__UIBasicAnimationFactory
+- __OBJC_METACLASS_RO_$_NUANFArticleDataProvider
+- __OBJC_METACLASS_RO_$_NUANFArticleDataProviderFactory
+- __OBJC_METACLASS_RO_$_NUANFArticleFactory
+- __OBJC_METACLASS_RO_$_NUANFAssetLoader
+- __OBJC_METACLASS_RO_$_NUANFContextLoader
+- __OBJC_METACLASS_RO_$_NUANFDebugSettingsProvider
+- __OBJC_METACLASS_RO_$_NUANFEmbedConfigurationLoader
+- __OBJC_METACLASS_RO_$_NUANFFontLoader
+- __OBJC_METACLASS_RO_$_NUANFImageResolver
+- __OBJC_METACLASS_RO_$_NUANFLinkedContentProvider
+- __OBJC_METACLASS_RO_$_NUANFLinkedContentProviderFactory
+- __OBJC_METACLASS_RO_$_NUANFRenderingConfigurationProvider
+- __OBJC_METACLASS_RO_$_NUANFResourceDataSource
+- __OBJC_METACLASS_RO_$_NUActivityIndicatorLoadingView
+- __OBJC_METACLASS_RO_$_NUAdSettings
+- __OBJC_METACLASS_RO_$_NUAddToSafariReadingListActivity
+- __OBJC_METACLASS_RO_$_NUAddToSafariReadingListActivityFactory
+- __OBJC_METACLASS_RO_$_NUAnimationFactory
+- __OBJC_METACLASS_RO_$_NUAnimationQueue
+- __OBJC_METACLASS_RO_$_NUAnimationRunner
+- __OBJC_METACLASS_RO_$_NUApplicationAppActivityMonitorIOS
+- __OBJC_METACLASS_RO_$_NUApplicationAppActivityMonitorMacOS
+- __OBJC_METACLASS_RO_$_NUApplicationAssembly
+- __OBJC_METACLASS_RO_$_NUApplicationDevice
+- __OBJC_METACLASS_RO_$_NUApplicationFrameworkAssembly
+- __OBJC_METACLASS_RO_$_NUApplicationURLHandler
+- __OBJC_METACLASS_RO_$_NUArticleActivity
+- __OBJC_METACLASS_RO_$_NUArticleActivityDefaultOptionsProvider
+- __OBJC_METACLASS_RO_$_NUArticleActivityItemSource
+- __OBJC_METACLASS_RO_$_NUArticleActivityManager
+- __OBJC_METACLASS_RO_$_NUArticleActivityManagerFactory
+- __OBJC_METACLASS_RO_$_NUArticleAssembly
+- __OBJC_METACLASS_RO_$_NUArticleContainerTitleView
+- __OBJC_METACLASS_RO_$_NUArticleContainerViewController
+- __OBJC_METACLASS_RO_$_NUArticleContentSizeManager
+- __OBJC_METACLASS_RO_$_NUArticleContext
+- __OBJC_METACLASS_RO_$_NUArticleHostViewController
+- __OBJC_METACLASS_RO_$_NUArticleHostViewControllerFactory
+- __OBJC_METACLASS_RO_$_NUArticleHostViewControllerProvider
+- __OBJC_METACLASS_RO_$_NUArticleImageActivityItemSource
+- __OBJC_METACLASS_RO_$_NUArticleKeyCommandManager
+- __OBJC_METACLASS_RO_$_NUArticleNavigationController
+- __OBJC_METACLASS_RO_$_NUArticlePage
+- __OBJC_METACLASS_RO_$_NUArticlePageFactory
+- __OBJC_METACLASS_RO_$_NUArticlePageStyleOperation
+- __OBJC_METACLASS_RO_$_NUArticlePrefetcher
+- __OBJC_METACLASS_RO_$_NUArticleResourceURLTranslator
+- __OBJC_METACLASS_RO_$_NUArticleScrollPosition
+- __OBJC_METACLASS_RO_$_NUArticleScrollPositionManager
+- __OBJC_METACLASS_RO_$_NUArticleTextActivityItemSource
+- __OBJC_METACLASS_RO_$_NUArticleURLActivityItemSource
+- __OBJC_METACLASS_RO_$_NUArticleViewController
+- __OBJC_METACLASS_RO_$_NUArticleViewControllerFactory
+- __OBJC_METACLASS_RO_$_NUArticleViewStyler
+- __OBJC_METACLASS_RO_$_NUBasicAnimation
+- __OBJC_METACLASS_RO_$_NUBlockBasedURLModifier
+- __OBJC_METACLASS_RO_$_NUBundledArticleDataProvider
+- __OBJC_METACLASS_RO_$_NUContentAnalyticsEvent
+- __OBJC_METACLASS_RO_$_NUContentOverlayDocumentSectionBlueprintData
+- __OBJC_METACLASS_RO_$_NUCoreAssembly
+- __OBJC_METACLASS_RO_$_NUCrossFadeTitleView
+- __OBJC_METACLASS_RO_$_NUCrossFadeViewAnimator
+- __OBJC_METACLASS_RO_$_NUDeepLinkURLModifier
+- __OBJC_METACLASS_RO_$_NUDeviceTrait
+- __OBJC_METACLASS_RO_$_NUDocumentSectionBlueprintProvider
+- __OBJC_METACLASS_RO_$_NUDocumentSectionItem
+- __OBJC_METACLASS_RO_$_NUEmbedConfigurationOperation
+- __OBJC_METACLASS_RO_$_NUEmbedConfigurationOperationResult
+- __OBJC_METACLASS_RO_$_NUEmbedData
+- __OBJC_METACLASS_RO_$_NUEmbedDataManager
+- __OBJC_METACLASS_RO_$_NUErrorMessage
+- __OBJC_METACLASS_RO_$_NUErrorMessageFactory
+- __OBJC_METACLASS_RO_$_NUErrorView
+- __OBJC_METACLASS_RO_$_NUExtensionAppActivityMonitor
+- __OBJC_METACLASS_RO_$_NUExtensionAssembly
+- __OBJC_METACLASS_RO_$_NUExtensionDevice
+- __OBJC_METACLASS_RO_$_NUExtensionFrameworkAssembly
+- __OBJC_METACLASS_RO_$_NUExtensionURLHandler
+- __OBJC_METACLASS_RO_$_NUFadeViewAnimator
+- __OBJC_METACLASS_RO_$_NUFeedTitleView
+- __OBJC_METACLASS_RO_$_NUFeedTitleViewUpdate
+- __OBJC_METACLASS_RO_$_NUFontManager
+- __OBJC_METACLASS_RO_$_NUHTMLBuilder
+- __OBJC_METACLASS_RO_$_NUIdleWebViewControllerFactory
+- __OBJC_METACLASS_RO_$_NUImages
+- __OBJC_METACLASS_RO_$_NULinkedContentManager
+- __OBJC_METACLASS_RO_$_NULinkedContentManagerFactory
+- __OBJC_METACLASS_RO_$_NULiveCoverageManager
+- __OBJC_METACLASS_RO_$_NULocalization
+- __OBJC_METACLASS_RO_$_NUMailPresenter
+- __OBJC_METACLASS_RO_$_NUManagerAssembly
+- __OBJC_METACLASS_RO_$_NUMediaSharingPolicyProvider
+- __OBJC_METACLASS_RO_$_NUMessagePresenter
+- __OBJC_METACLASS_RO_$_NUNewsFeedTitleViewStyler
+- __OBJC_METACLASS_RO_$_NUNoopChromeControl
+- __OBJC_METACLASS_RO_$_NUPageStyle
+- __OBJC_METACLASS_RO_$_NUPageViewController
+- __OBJC_METACLASS_RO_$_NUPageViewControllerScrollView
+- __OBJC_METACLASS_RO_$_NUPagingBlueprint
+- __OBJC_METACLASS_RO_$_NUPagingBlueprintItem
+- __OBJC_METACLASS_RO_$_NUPagingEngine
+- __OBJC_METACLASS_RO_$_NUReachabilityProvider
+- __OBJC_METACLASS_RO_$_NURouter
+- __OBJC_METACLASS_RO_$_NUSettings
+- __OBJC_METACLASS_RO_$_NUSlideViewAnimator
+- __OBJC_METACLASS_RO_$_NUStoreFrontProvider
+- __OBJC_METACLASS_RO_$_NUSwiftApplicationFrameworkAssembly
+- __OBJC_METACLASS_RO_$_NUTextAndGlyph
+- __OBJC_METACLASS_RO_$_NUTextAndGlyphView
+- __OBJC_METACLASS_RO_$_NUTitleView
+- __OBJC_METACLASS_RO_$_NUTitleViewStyler
+- __OBJC_METACLASS_RO_$_NUTitleViewUpdate
+- __OBJC_METACLASS_RO_$_NUTrait
+- __OBJC_METACLASS_RO_$_NUTransition
+- __OBJC_METACLASS_RO_$_NUURLHandler
+- __OBJC_METACLASS_RO_$_NUWebContentComponentDeveloperSettingsProvider
+- __OBJC_METACLASS_RO_$_NUWebContentContentRuleProvider
+- __OBJC_METACLASS_RO_$_NUWebContentLoadingPolicyProvider
+- __OBJC_METACLASS_RO_$_NUWidgetDevice
+- __OBJC_PROTOCOL_$_CAAnimationDelegate
+- __OBJC_PROTOCOL_$_FCAppActivityMonitor
+- __OBJC_PROTOCOL_$_FCAppActivityReceiver
+- __OBJC_PROTOCOL_$_FCAppleAccount
+- __OBJC_PROTOCOL_$_FCAudioPlaylistType
+- __OBJC_PROTOCOL_$_FCCacheFlushing
+- __OBJC_PROTOCOL_$_FCCacheInvalidating
+- __OBJC_PROTOCOL_$_FCClassifiable
+- __OBJC_PROTOCOL_$_FCContentContext
+- __OBJC_PROTOCOL_$_FCCurrentIssuesChecker
+- __OBJC_PROTOCOL_$_FCFeedPersonalizingItem
+- __OBJC_PROTOCOL_$_FCFeedTransformationItem
+- __OBJC_PROTOCOL_$_FCHeadlineProviding
+- __OBJC_PROTOCOL_$_FCIssueReadingHistoryType
+- __OBJC_PROTOCOL_$_FCKeyedOperationQueueDelegate
+- __OBJC_PROTOCOL_$_FCNetworkReachabilityObserving
+- __OBJC_PROTOCOL_$_FCNetworkReachabilityType
+- __OBJC_PROTOCOL_$_FCNewsAppConfigurationManager
+- __OBJC_PROTOCOL_$_FCPrivateDataContext
+- __OBJC_PROTOCOL_$_NFCopying
+- __OBJC_PROTOCOL_$_NSCopying
+- __OBJC_PROTOCOL_$_NSObject
+- __OBJC_PROTOCOL_$_NUANFDebugSettingsObserver
+- __OBJC_PROTOCOL_$_NUANFDebugSettingsProvider
+- __OBJC_PROTOCOL_$_NUActivityProvider
+- __OBJC_PROTOCOL_$_NUAdSettings
+- __OBJC_PROTOCOL_$_NUAnalyticsEvent
+- __OBJC_PROTOCOL_$_NUAppActivityMonitor
+- __OBJC_PROTOCOL_$_NUArticleActivityFactory
+- __OBJC_PROTOCOL_$_NUArticleActivityOptionsProvider
+- __OBJC_PROTOCOL_$_NUArticleContentSizeManager
+- __OBJC_PROTOCOL_$_NUArticleDataProvider
+- __OBJC_PROTOCOL_$_NUArticleDataProviderFactory
+- __OBJC_PROTOCOL_$_NUArticleExperimentationDelegate
+- __OBJC_PROTOCOL_$_NUArticleFactory
+- __OBJC_PROTOCOL_$_NUArticleHardPaywallPresentationReporting
+- __OBJC_PROTOCOL_$_NUArticleHostViewControllerFactory
+- __OBJC_PROTOCOL_$_NUArticleKeyCommandManager
+- __OBJC_PROTOCOL_$_NUArticleMessaging
+- __OBJC_PROTOCOL_$_NUArticlePrefetcherType
+- __OBJC_PROTOCOL_$_NUArticleResourceURLTranslator
+- __OBJC_PROTOCOL_$_NUArticleScrollPositionManagerType
+- __OBJC_PROTOCOL_$_NUArticleViewControllerDelegate
+- __OBJC_PROTOCOL_$_NUArticleViewControllerFactory
+- __OBJC_PROTOCOL_$_NUArticleViewControllerLiveCoverageDelegate
+- __OBJC_PROTOCOL_$_NUArticleViewStyler
+- __OBJC_PROTOCOL_$_NUBarCompressible
+- __OBJC_PROTOCOL_$_NUChromeControl
+- __OBJC_PROTOCOL_$_NUCrossFadeViewAnimatable
+- __OBJC_PROTOCOL_$_NUDevice
+- __OBJC_PROTOCOL_$_NUDeviceTrait
+- __OBJC_PROTOCOL_$_NUDocumentSectionBlueprintProvider
+- __OBJC_PROTOCOL_$_NUEmbedConfigurationLoader
+- __OBJC_PROTOCOL_$_NUEmbedDataManager
+- __OBJC_PROTOCOL_$_NUErrorMessageFactory
+- __OBJC_PROTOCOL_$_NUFontRegistration
+- __OBJC_PROTOCOL_$_NUFontRegistrator
+- __OBJC_PROTOCOL_$_NULinkedContentProvider
+- __OBJC_PROTOCOL_$_NULinkedContentProviderFactory
+- __OBJC_PROTOCOL_$_NULiveCoverageManagerDelegate
+- __OBJC_PROTOCOL_$_NULoadable
+- __OBJC_PROTOCOL_$_NULoadingDelegate
+- __OBJC_PROTOCOL_$_NULoadingViewProviding
+- __OBJC_PROTOCOL_$_NUNavigationControl
+- __OBJC_PROTOCOL_$_NUPage
+- __OBJC_PROTOCOL_$_NUPageNextActionable
+- __OBJC_PROTOCOL_$_NUPageStyling
+- __OBJC_PROTOCOL_$_NUPageViewControllerDataSource
+- __OBJC_PROTOCOL_$_NUPageViewControllerDelegate
+- __OBJC_PROTOCOL_$_NUPageViewControllerScrollViewAccessibilityDelegate
+- __OBJC_PROTOCOL_$_NUPageable
+- __OBJC_PROTOCOL_$_NUPaging
+- __OBJC_PROTOCOL_$_NUPagingFactory
+- __OBJC_PROTOCOL_$_NURouter
+- __OBJC_PROTOCOL_$_NUSafeAreaInsetsProviding
+- __OBJC_PROTOCOL_$_NUSettings
+- __OBJC_PROTOCOL_$_NUSpotlightManager
+- __OBJC_PROTOCOL_$_NUTitleViewDelegate
+- __OBJC_PROTOCOL_$_NUTitleViewStyler
+- __OBJC_PROTOCOL_$_NUURLHandling
+- __OBJC_PROTOCOL_$_NUURLModifying
+- __OBJC_PROTOCOL_$_NUWebViewControllerFactoryType
+- __OBJC_PROTOCOL_$_SWLoadingPolicyProvider
+- __OBJC_PROTOCOL_$_SWReachabilityProvider
+- __OBJC_PROTOCOL_$_SXAnalyticsReporting
+- __OBJC_PROTOCOL_$_SXAppStateMonitor
+- __OBJC_PROTOCOL_$_SXDocumentSectionItemProvider
+- __OBJC_PROTOCOL_$_SXEmbedDataProvider
+- __OBJC_PROTOCOL_$_SXEmbedType
+- __OBJC_PROTOCOL_$_SXExperimentationDelegate
+- __OBJC_PROTOCOL_$_SXHost
+- __OBJC_PROTOCOL_$_SXMailPresenter
+- __OBJC_PROTOCOL_$_SXMediaSharingPolicyProvider
+- __OBJC_PROTOCOL_$_SXMessagePresenter
+- __OBJC_PROTOCOL_$_SXPresentationEnvironmentOverriding
+- __OBJC_PROTOCOL_$_SXRenderingConfigurationProvider
+- __OBJC_PROTOCOL_$_SXResourceDataSource
+- __OBJC_PROTOCOL_$_SXScrollViewControllerDelegate
+- __OBJC_PROTOCOL_$_SXStoreFrontProvider
+- __OBJC_PROTOCOL_$_SXURLHandling
+- __OBJC_PROTOCOL_$_SXURLPreviewing
+- __OBJC_PROTOCOL_$_SXWebContentComponentContentRuleProvider
+- __OBJC_PROTOCOL_$_SXWebContentComponentDeveloperSettingsProvider
+- __OBJC_PROTOCOL_$_TFAssembly
+- __OBJC_PROTOCOL_$_TFBundleAssembly
+- __OBJC_PROTOCOL_$_TFFrameworkAssembly
+- __OBJC_PROTOCOL_$_UIActivityItemSource
+- __OBJC_PROTOCOL_$_UIPageViewControllerDataSource
+- __OBJC_PROTOCOL_$_UIPageViewControllerDelegate
+- __OBJC_PROTOCOL_$_UIScrollViewDelegate
+- __OBJC_PROTOCOL_$__UIBasicAnimationFactory
+- __OBJC_PROTOCOL_REFERENCE_$_FCAppActivityMonitor
+- __OBJC_PROTOCOL_REFERENCE_$_FCAppActivityReceiver
+- __OBJC_PROTOCOL_REFERENCE_$_FCAppleAccount
+- __OBJC_PROTOCOL_REFERENCE_$_FCAudioPlaylistType
+- __OBJC_PROTOCOL_REFERENCE_$_FCContentContext
+- __OBJC_PROTOCOL_REFERENCE_$_FCCurrentIssuesChecker
+- __OBJC_PROTOCOL_REFERENCE_$_FCHeadlineProviding
+- __OBJC_PROTOCOL_REFERENCE_$_FCIssueReadingHistoryType
+- __OBJC_PROTOCOL_REFERENCE_$_FCNetworkReachabilityType
+- __OBJC_PROTOCOL_REFERENCE_$_FCNewsAppConfigurationManager
+- __OBJC_PROTOCOL_REFERENCE_$_FCPrivateDataContext
+- __OBJC_PROTOCOL_REFERENCE_$_NUANFDebugSettingsProvider
+- __OBJC_PROTOCOL_REFERENCE_$_NUAppActivityMonitor
+- __OBJC_PROTOCOL_REFERENCE_$_NUArticleActivityFactory
+- __OBJC_PROTOCOL_REFERENCE_$_NUArticleActivityOptionsProvider
+- __OBJC_PROTOCOL_REFERENCE_$_NUArticleContentSizeManager
+- __OBJC_PROTOCOL_REFERENCE_$_NUArticleDataProvider
+- __OBJC_PROTOCOL_REFERENCE_$_NUArticleDataProviderFactory
+- __OBJC_PROTOCOL_REFERENCE_$_NUArticleFactory
+- __OBJC_PROTOCOL_REFERENCE_$_NUArticleHardPaywallPresentationReporting
+- __OBJC_PROTOCOL_REFERENCE_$_NUArticleHostViewControllerFactory
+- __OBJC_PROTOCOL_REFERENCE_$_NUArticleKeyCommandManager
+- __OBJC_PROTOCOL_REFERENCE_$_NUArticleMessaging
+- __OBJC_PROTOCOL_REFERENCE_$_NUArticlePrefetcherType
+- __OBJC_PROTOCOL_REFERENCE_$_NUArticleScrollPositionManagerType
+- __OBJC_PROTOCOL_REFERENCE_$_NUArticleViewControllerFactory
+- __OBJC_PROTOCOL_REFERENCE_$_NUBarCompressible
+- __OBJC_PROTOCOL_REFERENCE_$_NUChromeControl
+- __OBJC_PROTOCOL_REFERENCE_$_NUDevice
+- __OBJC_PROTOCOL_REFERENCE_$_NUDocumentSectionBlueprintProvider
+- __OBJC_PROTOCOL_REFERENCE_$_NUEmbedConfigurationLoader
+- __OBJC_PROTOCOL_REFERENCE_$_NUEmbedDataManager
+- __OBJC_PROTOCOL_REFERENCE_$_NUErrorMessageFactory
+- __OBJC_PROTOCOL_REFERENCE_$_NUFontRegistration
+- __OBJC_PROTOCOL_REFERENCE_$_NULoadingDelegate
+- __OBJC_PROTOCOL_REFERENCE_$_NUNavigationControl
+- __OBJC_PROTOCOL_REFERENCE_$_NUPageable
+- __OBJC_PROTOCOL_REFERENCE_$_NUPagingFactory
+- __OBJC_PROTOCOL_REFERENCE_$_NURouter
+- __OBJC_PROTOCOL_REFERENCE_$_NUSafeAreaInsetsProviding
+- __OBJC_PROTOCOL_REFERENCE_$_NUSettings
+- __OBJC_PROTOCOL_REFERENCE_$_NUSpotlightManager
+- __OBJC_PROTOCOL_REFERENCE_$_NUURLHandling
+- __OBJC_PROTOCOL_REFERENCE_$_NUWebViewControllerFactoryType
+- __OBJC_PROTOCOL_REFERENCE_$_SWLoadingPolicyProvider
+- __OBJC_PROTOCOL_REFERENCE_$_SWReachabilityProvider
+- __OBJC_PROTOCOL_REFERENCE_$_SXAppStateMonitor
+- __OBJC_PROTOCOL_REFERENCE_$_SXEmbedDataProvider
+- __OBJC_PROTOCOL_REFERENCE_$_SXHost
+- __OBJC_PROTOCOL_REFERENCE_$_SXMailPresenter
+- __OBJC_PROTOCOL_REFERENCE_$_SXMediaSharingPolicyProvider
+- __OBJC_PROTOCOL_REFERENCE_$_SXMessagePresenter
+- __OBJC_PROTOCOL_REFERENCE_$_SXRenderingConfigurationProvider
+- __OBJC_PROTOCOL_REFERENCE_$_SXStoreFrontProvider
+- __OBJC_PROTOCOL_REFERENCE_$_SXURLHandling
+- __OBJC_PROTOCOL_REFERENCE_$_SXURLPreviewing
+- __OBJC_PROTOCOL_REFERENCE_$_SXWebContentComponentContentRuleProvider
+- __OBJC_PROTOCOL_REFERENCE_$_SXWebContentComponentDeveloperSettingsProvider
+- ___130-[NUArticleViewControllerFactory createArticleViewControllerWithArticle:issue:context:relativePriority:articleHostViewController:]_block_invoke
+- ___130-[NUArticleViewControllerFactory createArticleViewControllerWithArticle:issue:context:relativePriority:articleHostViewController:]_block_invoke_2
+- ___130-[NUArticleViewControllerFactory createArticleViewControllerWithArticle:issue:context:relativePriority:articleHostViewController:]_block_invoke_3
+- ___130-[NUArticleViewControllerFactory createArticleViewControllerWithArticle:issue:context:relativePriority:articleHostViewController:]_block_invoke_4
+- ___24-[NUURLHandler openURL:]_block_invoke
+- ___286-[NUArticleViewController initWithArticleDataProvider:scrollViewController:appStateMonitor:keyCommandManager:loadingListeners:headerBlueprintProvider:debugSettingsProvider:videoPlayerViewControllerManager:articleScrollPositionManager:chromeControl:spotlightManager:liveCoverageManager:]_block_invoke
+- ___286-[NUArticleViewController initWithArticleDataProvider:scrollViewController:appStateMonitor:keyCommandManager:loadingListeners:headerBlueprintProvider:debugSettingsProvider:videoPlayerViewControllerManager:articleScrollPositionManager:chromeControl:spotlightManager:liveCoverageManager:]_block_invoke_2
+- ___286-[NUArticleViewController initWithArticleDataProvider:scrollViewController:appStateMonitor:keyCommandManager:loadingListeners:headerBlueprintProvider:debugSettingsProvider:videoPlayerViewControllerManager:articleScrollPositionManager:chromeControl:spotlightManager:liveCoverageManager:]_block_invoke_3
+- ___286-[NUArticleViewController initWithArticleDataProvider:scrollViewController:appStateMonitor:keyCommandManager:loadingListeners:headerBlueprintProvider:debugSettingsProvider:videoPlayerViewControllerManager:articleScrollPositionManager:chromeControl:spotlightManager:liveCoverageManager:]_block_invoke_4
+- ___286-[NUArticleViewController initWithArticleDataProvider:scrollViewController:appStateMonitor:keyCommandManager:loadingListeners:headerBlueprintProvider:debugSettingsProvider:videoPlayerViewControllerManager:articleScrollPositionManager:chromeControl:spotlightManager:liveCoverageManager:]_block_invoke_5
+- ___29-[NUArticlePage pageStyling:]_block_invoke
+- ___33-[NUAnimationQueue runUntilEmpty]_block_invoke
+- ___33-[NUCoreAssembly loadInRegistry:]_block_invoke
+- ___33-[NUCoreAssembly loadInRegistry:]_block_invoke_10
+- ___33-[NUCoreAssembly loadInRegistry:]_block_invoke_11
+- ___33-[NUCoreAssembly loadInRegistry:]_block_invoke_12
+- ___33-[NUCoreAssembly loadInRegistry:]_block_invoke_13
+- ___33-[NUCoreAssembly loadInRegistry:]_block_invoke_14
+- ___33-[NUCoreAssembly loadInRegistry:]_block_invoke_15
+- ___33-[NUCoreAssembly loadInRegistry:]_block_invoke_16
+- ___33-[NUCoreAssembly loadInRegistry:]_block_invoke_17
+- ___33-[NUCoreAssembly loadInRegistry:]_block_invoke_18
+- ___33-[NUCoreAssembly loadInRegistry:]_block_invoke_19
+- ___33-[NUCoreAssembly loadInRegistry:]_block_invoke_2
+- ___33-[NUCoreAssembly loadInRegistry:]_block_invoke_20
+- ___33-[NUCoreAssembly loadInRegistry:]_block_invoke_21
+- ___33-[NUCoreAssembly loadInRegistry:]_block_invoke_22
+- ___33-[NUCoreAssembly loadInRegistry:]_block_invoke_23
+- ___33-[NUCoreAssembly loadInRegistry:]_block_invoke_24
+- ___33-[NUCoreAssembly loadInRegistry:]_block_invoke_3
+- ___33-[NUCoreAssembly loadInRegistry:]_block_invoke_4
+- ___33-[NUCoreAssembly loadInRegistry:]_block_invoke_5
+- ___33-[NUCoreAssembly loadInRegistry:]_block_invoke_6
+- ___33-[NUCoreAssembly loadInRegistry:]_block_invoke_7
+- ___33-[NUCoreAssembly loadInRegistry:]_block_invoke_8
+- ___33-[NUCoreAssembly loadInRegistry:]_block_invoke_9
+- ___33-[NUErrorView labelMaxWidthTrait]_block_invoke
+- ___33-[NUErrorView labelMaxWidthTrait]_block_invoke_2
+- ___34+[UIColor(NewsUI) nu_dividerColor]_block_invoke
+- ___34-[NUArticlePage activityProvider:]_block_invoke
+- ___35-[NUPagingBlueprint initWithPages:]_block_invoke
+- ___35-[NUTitleViewStyler titleLargeFont]_block_invoke
+- ___35-[NUTitleViewStyler titleSmallFont]_block_invoke
+- ___36-[NUArticleAssembly loadInRegistry:]_block_invoke
+- ___36-[NUArticleAssembly loadInRegistry:]_block_invoke_10
+- ___36-[NUArticleAssembly loadInRegistry:]_block_invoke_11
+- ___36-[NUArticleAssembly loadInRegistry:]_block_invoke_12
+- ___36-[NUArticleAssembly loadInRegistry:]_block_invoke_13
+- ___36-[NUArticleAssembly loadInRegistry:]_block_invoke_14
+- ___36-[NUArticleAssembly loadInRegistry:]_block_invoke_15
+- ___36-[NUArticleAssembly loadInRegistry:]_block_invoke_16
+- ___36-[NUArticleAssembly loadInRegistry:]_block_invoke_17
+- ___36-[NUArticleAssembly loadInRegistry:]_block_invoke_18
+- ___36-[NUArticleAssembly loadInRegistry:]_block_invoke_19
+- ___36-[NUArticleAssembly loadInRegistry:]_block_invoke_2
+- ___36-[NUArticleAssembly loadInRegistry:]_block_invoke_20
+- ___36-[NUArticleAssembly loadInRegistry:]_block_invoke_21
+- ___36-[NUArticleAssembly loadInRegistry:]_block_invoke_22
+- ___36-[NUArticleAssembly loadInRegistry:]_block_invoke_23
+- ___36-[NUArticleAssembly loadInRegistry:]_block_invoke_24
+- ___36-[NUArticleAssembly loadInRegistry:]_block_invoke_25
+- ___36-[NUArticleAssembly loadInRegistry:]_block_invoke_26
+- ___36-[NUArticleAssembly loadInRegistry:]_block_invoke_27
+- ___36-[NUArticleAssembly loadInRegistry:]_block_invoke_28
+- ___36-[NUArticleAssembly loadInRegistry:]_block_invoke_29
+- ___36-[NUArticleAssembly loadInRegistry:]_block_invoke_3
+- ___36-[NUArticleAssembly loadInRegistry:]_block_invoke_30
+- ___36-[NUArticleAssembly loadInRegistry:]_block_invoke_31
+- ___36-[NUArticleAssembly loadInRegistry:]_block_invoke_32
+- ___36-[NUArticleAssembly loadInRegistry:]_block_invoke_33
+- ___36-[NUArticleAssembly loadInRegistry:]_block_invoke_34
+- ___36-[NUArticleAssembly loadInRegistry:]_block_invoke_35
+- ___36-[NUArticleAssembly loadInRegistry:]_block_invoke_4
+- ___36-[NUArticleAssembly loadInRegistry:]_block_invoke_5
+- ___36-[NUArticleAssembly loadInRegistry:]_block_invoke_6
+- ___36-[NUArticleAssembly loadInRegistry:]_block_invoke_7
+- ___36-[NUArticleAssembly loadInRegistry:]_block_invoke_8
+- ___36-[NUArticleAssembly loadInRegistry:]_block_invoke_9
+- ___36-[NUManagerAssembly loadInRegistry:]_block_invoke
+- ___37-[NUTitleViewStyler messageLargeFont]_block_invoke
+- ___37-[NUTitleViewStyler messageSmallFont]_block_invoke
+- ___38-[NUArticleViewController loadArticle]_block_invoke
+- ___38-[NUArticleViewController viewDidLoad]_block_invoke
+- ___38-[NUArticleViewController viewDidLoad]_block_invoke_11
+- ___38-[NUArticleViewController viewDidLoad]_block_invoke_3
+- ___38-[NUArticleViewController viewDidLoad]_block_invoke_5
+- ___38-[NUArticleViewController viewDidLoad]_block_invoke_7
+- ___38-[NUArticleViewController viewDidLoad]_block_invoke_9
+- ___38-[NUExtensionAssembly loadInRegistry:]_block_invoke
+- ___38-[NUExtensionAssembly loadInRegistry:]_block_invoke_10
+- ___38-[NUExtensionAssembly loadInRegistry:]_block_invoke_11
+- ___38-[NUExtensionAssembly loadInRegistry:]_block_invoke_2
+- ___38-[NUExtensionAssembly loadInRegistry:]_block_invoke_3
+- ___38-[NUExtensionAssembly loadInRegistry:]_block_invoke_4
+- ___38-[NUExtensionAssembly loadInRegistry:]_block_invoke_5
+- ___38-[NUExtensionAssembly loadInRegistry:]_block_invoke_6
+- ___38-[NUExtensionAssembly loadInRegistry:]_block_invoke_7
+- ___38-[NUExtensionAssembly loadInRegistry:]_block_invoke_8
+- ___38-[NUExtensionAssembly loadInRegistry:]_block_invoke_9
+- ___38-[NUPageViewController viewDidAppear:]_block_invoke
+- ___39-[NUFontManager unregisterFontWithURL:]_block_invoke
+- ___39-[NUPageViewController viewWillAppear:]_block_invoke
+- ___40-[NUApplicationAssembly loadInRegistry:]_block_invoke
+- ___40-[NUApplicationAssembly loadInRegistry:]_block_invoke_2
+- ___40-[NUApplicationAssembly loadInRegistry:]_block_invoke_3
+- ___40-[NUApplicationAssembly loadInRegistry:]_block_invoke_4
+- ___40-[NUApplicationAssembly loadInRegistry:]_block_invoke_5
+- ___40-[NUApplicationAssembly loadInRegistry:]_block_invoke_6
+- ___40-[NUApplicationAssembly loadInRegistry:]_block_invoke_7
+- ___40-[NUApplicationAssembly loadInRegistry:]_block_invoke_8
+- ___40-[NUApplicationAssembly loadInRegistry:]_block_invoke_9
+- ___40-[NUArticlePage asyncOnceLoadPageStyle:]_block_invoke
+- ___40-[NUArticlePage asyncOnceLoadPageStyle:]_block_invoke_2
+- ___41-[NUPageViewController viewDidDisappear:]_block_invoke
+- ___42-[NUArticleHostViewController viewDidLoad]_block_invoke
+- ___42-[NUArticleHostViewController viewDidLoad]_block_invoke_3
+- ___42-[NUPageViewController viewWillDisappear:]_block_invoke
+- ___43+[UIColor(NewsUI) nu_darkStyleDividerColor]_block_invoke
+- ___43-[NUFontManager registerFontWithURL:error:]_block_invoke
+- ___44+[UIColor(NewsUI) nu_lightStyleDividerColor]_block_invoke
+- ___45-[NUArticlePrefetcher _revisitSuspendedState]_block_invoke
+- ___45-[NUBundledArticleDataProvider registerFonts]_block_invoke
+- ___45-[NUNewsFeedTitleViewStyler messageLargeFont]_block_invoke
+- ___45-[NUNewsFeedTitleViewStyler messageSmallFont]_block_invoke
+- ___46-[NUTitleView applyTitleViewUpdate:animation:]_block_invoke_2
+- ___46-[NUTitleView applyTitleViewUpdate:animation:]_block_invoke_4
+- ___46-[NUTitleView applyTitleViewUpdate:animation:]_block_invoke_6
+- ___46-[NUTitleView applyTitleViewUpdate:animation:]_block_invoke_8
+- ___47-[NSURL(NewsUI) nu_handleExternalURLWithPrompt]_block_invoke
+- ___47-[NSURL(NewsUI) nu_handleExternalURLWithPrompt]_block_invoke_2
+- ___47-[NSURL(NewsUI) nu_handleExternalURLWithPrompt]_block_invoke_3
+- ___47-[NUArticlePageStyleOperation performOperation]_block_invoke
+- ___47-[NUArticlePageStyleOperation performOperation]_block_invoke_2
+- ___47-[NUArticleViewController updateScrollPosition]_block_invoke
+- ___48-[NUANFAssetLoader loadAssetWithURL:completion:]_block_invoke
+- ___48-[NUANFAssetLoader loadAssetWithURL:completion:]_block_invoke_2
+- ___48-[NUANFAssetLoader loadAssetWithURL:completion:]_block_invoke_3
+- ___48-[NUANFAssetLoader loadAssetWithURL:completion:]_block_invoke_4
+- ___48-[NUANFAssetLoader loadAssetWithURL:completion:]_block_invoke_5
+- ___48-[NUANFContextLoader loadContextWithCompletion:]_block_invoke
+- ___48-[NUNewsFeedTitleViewStyler titleExtraLargeFont]_block_invoke
+- ___49-[NUANFArticleDataProvider reloadArticleIfNeeded]_block_invoke
+- ___49-[NUANFArticleDataProvider reloadArticleIfNeeded]_block_invoke_3
+- ___49-[NUArticlePageFactory createPagesForArticleIDs:]_block_invoke
+- ___49-[NUEmbedConfigurationOperation performOperation]_block_invoke
+- ___52-[NUANFFontLoader asyncLoadFontsOnceWithCompletion:]_block_invoke
+- ___52-[NUANFFontLoader asyncLoadFontsOnceWithCompletion:]_block_invoke_2
+- ___52-[NUANFFontLoader asyncLoadFontsOnceWithCompletion:]_block_invoke_3
+- ___52-[NUANFFontLoader asyncLoadFontsOnceWithCompletion:]_block_invoke_4
+- ___53-[NUArticleHostViewController loadingTextForArticle:]_block_invoke
+- ___53-[NUFadeViewAnimator fadeFromView:toView:completion:]_block_invoke
+- ___53-[NUFadeViewAnimator fadeFromView:toView:completion:]_block_invoke_2
+- ___53-[NUFadeViewAnimator fadeFromView:toView:completion:]_block_invoke_3
+- ___53-[NUFadeViewAnimator fadeFromView:toView:completion:]_block_invoke_4
+- ___54-[NUANFAssetLoader asyncLoadAssetsOnceWithCompletion:]_block_invoke
+- ___54-[NUANFAssetLoader asyncLoadAssetsOnceWithCompletion:]_block_invoke_2
+- ___56-[NUArticlePrefetcher _flushUnusedDataProvidersIfNeeded]_block_invoke
+- ___56-[NUTitleView finishDisplayingTitleViewUpdate:finished:]_block_invoke
+- ___56-[NUTitleView finishDisplayingTitleViewUpdate:finished:]_block_invoke_2
+- ___57-[NUANFAssetLoader asyncLoadAssetURLsOnceWithCompletion:]_block_invoke
+- ___57-[NUANFContextLoader asyncLoadContextOnceWithCompletion:]_block_invoke
+- ___57-[NUANFContextLoader asyncLoadContextOnceWithCompletion:]_block_invoke_2
+- ___57-[NUANFContextLoader asyncLoadContextOnceWithCompletion:]_block_invoke_3
+- ___57-[NUArticleHostViewController loadingDidFinishWithError:]_block_invoke_2
+- ___57-[NUArticleHostViewController loadingDidFinishWithError:]_block_invoke_4
+- ___58-[NUActivityIndicatorLoadingView loadingViewStopAnimating]_block_invoke
+- ___58-[NUCrossFadeViewAnimator animateView:toValue:completion:]_block_invoke
+- ___58-[NULiveCoverageManager liveBlogPostIdentifiersInContext:]_block_invoke
+- ___59-[NUANFArticleDataProvider loadArticleWithCompletionBlock:]_block_invoke
+- ___59-[NUANFArticleDataProvider loadArticleWithCompletionBlock:]_block_invoke_2
+- ___59-[NUANFArticleDataProvider loadArticleWithCompletionBlock:]_block_invoke_3
+- ___59-[NUANFArticleDataProvider loadContextWithCompletionBlock:]_block_invoke
+- ___59-[NUANFArticleDataProvider loadContextWithCompletionBlock:]_block_invoke_2
+- ___59-[NUActivityIndicatorLoadingView loadingViewStartAnimating]_block_invoke
+- ___59-[NUArticleContainerViewController didReceiveMemoryWarning]_block_invoke
+- ___61-[NUArticleActivityManager performBlockForHeadline:withType:]_block_invoke
+- ___61-[NUArticleActivityManager performBlockForHeadline:withType:]_block_invoke_2
+- ___61-[NUArticleActivityManager performBlockForHeadline:withType:]_block_invoke_3
+- ___61-[NUArticleActivityManager performBlockForHeadline:withType:]_block_invoke_4
+- ___61-[NUArticleActivityManager performBlockForHeadline:withType:]_block_invoke_5
+- ___61-[NUArticleActivityManager performBlockForHeadline:withType:]_block_invoke_6
+- ___61-[NUArticleActivityManager performBlockForHeadline:withType:]_block_invoke_7
+- ___61-[NUArticlePrefetcher prefetchArticleID:headline:completion:]_block_invoke
+- ___61-[NUArticleViewController finalizeArticleLoadingWithContext:]_block_invoke
+- ___61-[NUArticleViewController showArticleMessage:hideAfterEvent:]_block_invoke
+- ___62-[NUANFResourceDataSource fileURLForURL:onCompletion:onError:]_block_invoke
+- ___62-[NUANFResourceDataSource fileURLForURL:onCompletion:onError:]_block_invoke_2
+- ___62-[NUANFResourceDataSource fileURLForURL:onCompletion:onError:]_block_invoke_3
+- ___62-[NUANFResourceDataSource fileURLForURL:onCompletion:onError:]_block_invoke_4
+- ___62-[NULiveCoverageManager fetchAndProcessContextWithCompletion:]_block_invoke
+- ___63-[NUBundledArticleDataProvider loadContextWithCompletionBlock:]_block_invoke
+- ___63-[NUBundledArticleDataProvider loadContextWithCompletionBlock:]_block_invoke_2
+- ___63-[NUBundledArticleDataProvider loadContextWithCompletionBlock:]_block_invoke_3
+- ___63-[NUBundledArticleDataProvider loadContextWithCompletionBlock:]_block_invoke_4
+- ___65-[NUANFResourceDataSource fallbackAssetForImageRequest:original:]_block_invoke
+- ___66-[NUCrossFadeViewAnimator animateView:toEmptyStateWithCompletion:]_block_invoke
+- ___67-[NUBundledArticleDataProvider fileURLForURL:onCompletion:onError:]_block_invoke
+- ___68-[NUANFAssetLoader initWithDocumentController:flintResourceManager:]_block_invoke
+- ___69-[NUANFResourceDataSource loadImagesForImageRequest:completionBlock:]_block_invoke
+- ___69-[NUANFResourceDataSource loadImagesForImageRequest:completionBlock:]_block_invoke_10
+- ___69-[NUANFResourceDataSource loadImagesForImageRequest:completionBlock:]_block_invoke_2
+- ___69-[NUANFResourceDataSource loadImagesForImageRequest:completionBlock:]_block_invoke_3
+- ___69-[NUANFResourceDataSource loadImagesForImageRequest:completionBlock:]_block_invoke_4
+- ___69-[NUANFResourceDataSource loadImagesForImageRequest:completionBlock:]_block_invoke_5
+- ___69-[NUANFResourceDataSource loadImagesForImageRequest:completionBlock:]_block_invoke_6
+- ___69-[NUANFResourceDataSource loadImagesForImageRequest:completionBlock:]_block_invoke_7
+- ___69-[NUANFResourceDataSource loadImagesForImageRequest:completionBlock:]_block_invoke_8
+- ___69-[NUANFResourceDataSource loadImagesForImageRequest:completionBlock:]_block_invoke_9
+- ___69-[NUArticlePrefetcher _prefetchDataProviderWithArticleID:completion:]_block_invoke
+- ___69-[NUArticlePrefetcher _prefetchDataProviderWithArticleID:completion:]_block_invoke_2
+- ___69-[NUArticlePrefetcher _prefetchDataProviderWithArticleID:completion:]_block_invoke_3
+- ___69-[NUArticlePrefetcher _prefetchDataProviderWithArticleID:completion:]_block_invoke_4
+- ___69-[NUArticlePrefetcher _prefetchDataProviderWithArticleID:completion:]_block_invoke_6
+- ___69-[NUArticlePrefetcher _prefetchDataProviderWithArticleID:completion:]_block_invoke_7
+- ___69-[NUSlideViewAnimator translateFromView:toView:direction:completion:]_block_invoke
+- ___69-[NUSlideViewAnimator translateFromView:toView:direction:completion:]_block_invoke_2
+- ___70-[NUANFArticleDataProvider setupAssetPrefetchRequestEventsWithEvents:]_block_invoke
+- ___71-[NUArticleHostViewController loadArticleAndEmbedArticleViewController]_block_invoke
+- ___71-[NUArticleHostViewController loadArticleAndEmbedArticleViewController]_block_invoke_3
+- ___71-[NUArticleHostViewController loadArticleAndEmbedArticleViewController]_block_invoke_4
+- ___71-[NUArticleHostViewController loadArticleAndEmbedArticleViewController]_block_invoke_5
+- ___72-[NUANFArticleDataProvider setupAssetPrefetchCancellationWithOperation:]_block_invoke
+- ___72-[NUANFLinkedContentProvider loadLinkedTagsWithIDs:priority:completion:]_block_invoke
+- ___72-[NUANFLinkedContentProvider loadLinkedTagsWithIDs:priority:completion:]_block_invoke_2
+- ___72-[NUANFLinkedContentProvider loadLinkedTagsWithIDs:priority:completion:]_block_invoke_3
+- ___72-[NUANFLinkedContentProvider loadLinkedTagsWithIDs:priority:completion:]_block_invoke_4
+- ___74-[NUANFLinkedContentProvider loadLinkedIssuesWithIDs:priority:completion:]_block_invoke
+- ___74-[NUANFLinkedContentProvider loadLinkedIssuesWithIDs:priority:completion:]_block_invoke_2
+- ___74-[NUANFLinkedContentProvider loadLinkedIssuesWithIDs:priority:completion:]_block_invoke_3
+- ___74-[NUBundledArticleDataProvider loadImagesForImageRequest:completionBlock:]_block_invoke
+- ___74-[NUBundledArticleDataProvider loadImagesForImageRequest:completionBlock:]_block_invoke_2
+- ___75-[NUPageViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke
+- ___76-[NUANFLinkedContentProvider loadLinkedArticlesWithIDs:priority:completion:]_block_invoke
+- ___76-[NUANFLinkedContentProvider loadLinkedArticlesWithIDs:priority:completion:]_block_invoke_2
+- ___76-[NUANFLinkedContentProvider loadLinkedArticlesWithIDs:priority:completion:]_block_invoke_3
+- ___76-[NUANFLinkedContentProvider loadLinkedArticlesWithIDs:priority:completion:]_block_invoke_4
+- ___79-[NUANFEmbedConfigurationLoader asyncLoadEmbedConfigurationOnceWithCompletion:]_block_invoke
+- ___79-[NUANFEmbedConfigurationLoader asyncLoadEmbedConfigurationOnceWithCompletion:]_block_invoke_2
+- ___79-[NUANFEmbedConfigurationLoader asyncLoadEmbedConfigurationOnceWithCompletion:]_block_invoke_3
+- ___79-[NUANFEmbedConfigurationLoader asyncLoadEmbedConfigurationOnceWithCompletion:]_block_invoke_4
+- ___79-[NUANFEmbedConfigurationLoader asyncLoadEmbedConfigurationOnceWithCompletion:]_block_invoke_5
+- ___82-[NUArticlePrefetcher keyedOperationQueue:performAsyncOperationForKey:completion:]_block_invoke
+- ___87-[NULinkedContentManager loadLinkedContentForHeadline:withContext:priority:completion:]_block_invoke
+- ___87-[NULinkedContentManager loadLinkedContentForHeadline:withContext:priority:completion:]_block_invoke_2
+- ___89-[NUArticleContainerViewController pageViewController:viewControllerAfterViewController:]_block_invoke_3
+- ___90-[NUArticleContainerViewController pageViewController:viewControllerBeforeViewController:]_block_invoke_3
+- ___91-[NUANFLinkedContentProvider loadLinkedContentForHeadline:withContext:priority:completion:]_block_invoke
+- ___91-[NUANFLinkedContentProvider loadLinkedContentForHeadline:withContext:priority:completion:]_block_invoke_2
+- ___91-[NUANFLinkedContentProvider loadLinkedContentForHeadline:withContext:priority:completion:]_block_invoke_3
+- ___Block_byref_object_copy_
+- ___Block_byref_object_dispose_
+- ___NUArticleLoadLog_block_invoke
+- ___NUBundle_block_invoke
+- ___NUCrawlViewAndCollect_block_invoke
+- ___NUCrawlViewControllerAndCollect_block_invoke
+- ___NUCrawlViewController_block_invoke
+- ___NUCrawlView_block_invoke
+- ___NUDeviceTraitLookup_block_invoke
+- ___NUFirstViewControllerPassing_block_invoke
+- ___NUFirstViewPassing_block_invoke
+- ___NULiveCoverageLog_block_invoke
+- ___NUNowPlayingLog_block_invoke
+- ___NURSSLog_block_invoke
+- ___NUSharedLog_block_invoke
+- ___NUTranslationAnimationTimingFunction_block_invoke
+- ___NUViewContainsViewOfClass_block_invoke
+- ___NUViewControllerContainsViewControllerOfClass_block_invoke
+- ___NUViewControllerHierarchy_block_invoke
+- ___NUViewControllerHierarchy_block_invoke_2
+- ___NUViewHierarchy_block_invoke
+- ___NUViewHierarchy_block_invoke_2
+- ____NUCrawlViewController_block_invoke_2
+- ____NUCrawlViewController_block_invoke_3
+- ____NUCrawlView_block_invoke_2
+- ____NUCrawlView_block_invoke_3
+- ____NUCrawlView_block_invoke_4
+- ___block_descriptor_32_e11_#24?08#16l
+- ___block_descriptor_32_e15_v16?0"NSURL"8l
+- ___block_descriptor_32_e20_16?0"FCResource"8l
+- ___block_descriptor_32_e22_16?0"<TFResolver>"8l
+- ___block_descriptor_32_e29_"NSString"24?0"UIView"8Q16l
+- ___block_descriptor_32_e32_"<SXHost>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e34_"<NUDevice>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e34_"<NURouter>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e34_"FCUserInfo"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e36_"<NUSettings>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e36_"NUURLHandler"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e37_"FCReadingList"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e37_"FCTagSettings"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e38_"FCCloudContext"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e38_"FCShortcutList"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e38_d32?0"<NUDeviceTrait>"8{CGSize=dd}16l
+- ___block_descriptor_32_e39_"<NUURLHandling>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e39_"<SXURLHandling>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e39_"FCPuzzleHistory"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e39_"NSString"24?0"UIViewController"8Q16l
+- ___block_descriptor_32_e39_v24?0"<TFResolver>"8"NUURLHandler"16l
+- ___block_descriptor_32_e40_"<FCAppleAccount>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e40_"FCReadingHistory"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e41_"<NUChromeControl>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e41_"<NUPagingFactory>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e41_"<SXMailPresenter>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e41_"<SXURLPreviewing>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e41_"NUPagingBlueprintItem"16?0"<NUPage>"8l
+- ___block_descriptor_32_e42_"<FCContentContext>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e42_"<NUArticleFactory>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e42_"FCSubscriptionList"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e42_"NUEmbedDataManager"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e43_"<SXAppStateMonitor>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e43_"FCArticleController"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e44_"<NUFontRegistration>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e44_"<SXMessagePresenter>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e44_"FCPuzzleTypeSettings"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e44_"NUArticlePageFactory"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e45_"<FCAudioPlaylistType>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e45_"<SXEmbedDataProvider>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e45_"FCNetworkReachability"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e45_"NULiveCoverageManager"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e46_"<FCAppActivityMonitor>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e46_"<NUAppActivityMonitor>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e46_"<SXStoreFrontProvider>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e46_"FCFlintResourceManager"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e47_"<NUErrorMessageFactory>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e48_"<FCCurrentIssuesChecker>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e48_"<SWReachabilityProvider>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e49_"<NUArticlePrefetcherType>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e50_"<NUArticleActivityFactory>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e51_"<FCIssueReadingHistoryType>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e52_"<NUANFDebugSettingsProvider>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e52_"<NUEmbedConfigurationLoader>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e52_"NUMediaSharingPolicyProvider"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e53_"NUExtensionAppActivityMonitor"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e54_"<NUArticleDataProviderFactory>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e55_"<FCNewsAppConfigurationManager>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e56_"<NUArticleViewControllerFactory>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e56_"<NUWebViewControllerFactoryType>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e56_"NUArticleContainerViewController"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e56_v24?0"<TFResolver>"8"NULinkedContentManagerFactory"16l
+- ___block_descriptor_32_e57_"NUWebContentLoadingPolicyProvider"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e58_"<NUArticleActivityOptionsProvider>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e58_v24?0"<TFResolver>"8"<FCNewsAppConfigurationManager>"16l
+- ___block_descriptor_32_e59_v24?0"NUArticleHostViewController"8"UITraitCollection"16l
+- ___block_descriptor_32_e5_v8?0l
+- ___block_descriptor_32_e60_"<NUArticleHostViewControllerFactory>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e60_"<NUDocumentSectionBlueprintProvider>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e66_"<SXWebContentComponentContentRuleProvider>"16?0"<TFResolver>"8l
+- ___block_descriptor_32_e8_B16?08l
+- ___block_descriptor_32_e8_v12?0B8l
+- ___block_descriptor_40_e16_B16?0"UIView"8lu32l8
+- ___block_descriptor_40_e26_B16?0"UIViewController"8lu32l8
+- ___block_descriptor_40_e8_32bs_e23_v24?0B8B12"NSError"16ls32l8
+- ___block_descriptor_40_e8_32bs_e23_v32?0"UIView"8Q16^B24ls32l8
+- ___block_descriptor_40_e8_32bs_e32_v16?0"FCFetchOperationResult"8ls32l8
+- ___block_descriptor_40_e8_32bs_e33_v32?0"UIViewController"8Q16^B24ls32l8
+- ___block_descriptor_40_e8_32bs_e57_v24?0"NUEmbedConfigurationOperationResult"8"NSError"16ls32l8
+- ___block_descriptor_40_e8_32bs_e5_8?0ls32l8
+- ___block_descriptor_40_e8_32bs_e5_v8?0ls32l8
+- ___block_descriptor_40_e8_32bs_e8_v12?0B8ls32l8
+- ___block_descriptor_40_e8_32r_e40_B24?0"SXComponents"8"<SXComponent>"16lr32l8
+- ___block_descriptor_40_e8_32r_e5_v8?0lr32l8
+- ___block_descriptor_40_e8_32s_e15_"NSString"8?0ls32l8
+- ___block_descriptor_40_e8_32s_e17_v16?0"NSArray"8ls32l8
+- ___block_descriptor_40_e8_32s_e21_v16?0"<TFContext>"8ls32l8
+- ___block_descriptor_40_e8_32s_e23_"SXScrollPosition"8?0ls32l8
+- ___block_descriptor_40_e8_32s_e25_"NSString"16?0"NSURL"8ls32l8
+- ___block_descriptor_40_e8_32s_e29_"<NUPage>"16?0"FCArticle"8ls32l8
+- ___block_descriptor_40_e8_32s_e31_q24?0"NSString"8"NSString"16ls32l8
+- ___block_descriptor_40_e8_32s_e31_v24?0"FCArticle"8"NSError"16ls32l8
+- ___block_descriptor_40_e8_32s_e32_"<SXHost>"16?0"<TFResolver>"8ls32l8
+- ___block_descriptor_40_e8_32s_e34_"<NUDevice>"16?0"<TFResolver>"8ls32l8
+- ___block_descriptor_40_e8_32s_e45_"NUExtensionURLHandler"16?0"<TFResolver>"8ls32l8
+- ___block_descriptor_40_e8_32s_e5_8?0ls32l8
+- ___block_descriptor_40_e8_32s_e5_v8?0ls32l8
+- ___block_descriptor_40_e8_32w_e23_v16?0"UIAlertAction"8lw32l8
+- ___block_descriptor_40_e8_32w_e31_v16?0"<NUArticleViewStyler>"8lw32l8
+- ___block_descriptor_40_e8_32w_e31_v24?0"FCArticle"8"NSError"16lw32l8
+- ___block_descriptor_40_e8_32w_e36_v16?0"SXDocumentSectionBlueprint"8lw32l8
+- ___block_descriptor_40_e8_32w_e38_d32?0"<NUDeviceTrait>"8{CGSize=dd}16lw32l8
+- ___block_descriptor_40_e8_32w_e54_v16?0"NUContentOverlayDocumentSectionBlueprintData"8lw32l8
+- ___block_descriptor_40_e8_32w_e55_v32?0"SXContext"8"<NUFontRegistrator>"16"NSError"24lw32l8
+- ___block_descriptor_40_e8_32w_e5_v8?0lw32l8
+- ___block_descriptor_40_e8_32w_e8_v12?0B8lw32l8
+- ___block_descriptor_48_e8_32bs40r_e20_v24?0"UIView"8^B16lr40l8s32l8
+- ___block_descriptor_48_e8_32bs40r_e30_v24?0"UIViewController"8^B16lr40l8s32l8
+- ___block_descriptor_48_e8_32bs40r_e41_v32?0?<v?"UIView"^B>8"UIView"16^B24lr40l8s32l8
+- ___block_descriptor_48_e8_32bs40r_e61_v32?0?<v?"UIViewController"^B>8"UIViewController"16^B24lr40l8s32l8
+- ___block_descriptor_48_e8_32bs40w_e29_v24?0"NSArray"8"NSError"16lw40l8s32l8
+- ___block_descriptor_48_e8_32bs40w_e31_v24?0"FCArticle"8"NSError"16lw40l8s32l8
+- ___block_descriptor_48_e8_32bs40w_e32_v16?0"FCFetchOperationResult"8lw40l8s32l8
+- ___block_descriptor_48_e8_32bs40w_e33_v24?0"NUPageStyle"8"NSError"16lw40l8s32l8
+- ___block_descriptor_48_e8_32bs40w_e43_v24?0"<FCAssetDataProvider>"8"NSError"16lw40l8s32l8
+- ___block_descriptor_48_e8_32bs40w_e55_v32?0"SXContext"8"<NUFontRegistrator>"16"NSError"24lw40l8s32l8
+- ___block_descriptor_48_e8_32bs40w_e5_v8?0ls32l8w40l8
+- ___block_descriptor_48_e8_32bs40w_e5_v8?0lw40l8s32l8
+- ___block_descriptor_48_e8_32s40bs_e20_v24?0"UIView"8^B16ls40l8s32l8
+- ___block_descriptor_48_e8_32s40bs_e23_v32?0"UIView"8Q16^B24ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e30_v24?0"UIViewController"8^B16ls40l8s32l8
+- ___block_descriptor_48_e8_32s40bs_e33_v32?0"UIViewController"8Q16^B24ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e34_v24?0"NSDictionary"8"NSError"16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e5_8?0ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e5_v8?0ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e5_v8?0ls40l8s32l8
+- ___block_descriptor_48_e8_32s40bs_e8_v12?0B8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40r_e5_v8?0ls32l8r40l8
+- ___block_descriptor_48_e8_32s40s_e17_v16?0"NSArray"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e18_v16?0"<NUPage>"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e34_v24?0"NSDictionary"8"NSError"16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e46_v24?0"<FCNewsAppConfiguration>"8"NSError"16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e5_v8?0ls32l8s40l8
+- ___block_descriptor_48_e8_32s40w_e17_v16?0"NSArray"8lw40l8s32l8
+- ___block_descriptor_48_e8_32s40w_e23_v16?0"UIAlertAction"8lw40l8s32l8
+- ___block_descriptor_48_e8_32s40w_e5_v8?0lw40l8s32l8
+- ___block_descriptor_48_e8_32s40w_e8_v12?0B8lw40l8s32l8
+- ___block_descriptor_48_e8_32s_e5_v8?0ls32l8
+- ___block_descriptor_48_e8_32w40w_e5_v8?0lw32l8w40l8
+- ___block_descriptor_56_e8_32bs40r_e23_?<v?"UIView"^B>8?0lr40l8s32l8
+- ___block_descriptor_56_e8_32bs40w_e5_v8?0lw40l8s32l8
+- ___block_descriptor_56_e8_32s40bs48bs_e5_v8?0ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40bs48r_e5_v8?0lr48l8s32l8s40l8
+- ___block_descriptor_56_e8_32s40bs48w_e34_v24?0"NSDictionary"8"NSError"16lw48l8s40l8s32l8
+- ___block_descriptor_56_e8_32s40bs48w_e5_v8?0lw48l8s32l8s40l8
+- ___block_descriptor_56_e8_32s40s48bs_e23_v24?0B8B12"NSError"16ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48bs_e5_v8?0ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48bs_e5_v8?0ls48l8s32l8s40l8
+- ___block_descriptor_56_e8_32s40s48bs_e8_v12?0B8ls32l8s48l8s40l8
+- ___block_descriptor_56_e8_32s40s48s_e5_v8?0ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s_e5_v8?0ls32l8s40l8
+- ___block_descriptor_56_e8_32s40w_e14_v16?0?<v?>8lw40l8s32l8
+- ___block_descriptor_56_e8_32s_e56_v16?0"<UIViewControllerTransitionCoordinatorContext>"8ls32l8
+- ___block_descriptor_64_e8_32s40bs48bs56w_e5_v8?0lw56l8s40l8s32l8s48l8
+- ___block_descriptor_64_e8_32s40bs48r56w_e5_v8?0lw56l8s40l8r48l8s32l8
+- ___block_descriptor_64_e8_32s40bs48r56w_e5_v8?0lw56l8s40l8s32l8r48l8
+- ___block_descriptor_64_e8_32s40bs48w_e17_v16?0"NSError"8ls32l8w48l8s40l8
+- ___block_descriptor_64_e8_32s40s48bs56r_e5_v8?0lr56l8s48l8s32l8s40l8
+- ___block_descriptor_64_e8_32s40s48r_e52_v32?0"SXContext"8"NUANFAssetLoader"16"NSError"24ls32l8s40l8r48l8
+- ___block_descriptor_64_e8_32s40s48r_e5_v8?0ls32l8s40l8r48l8
+- ___block_descriptor_64_e8_32s40s48s56bs_e33_v16?0"<NUArticleDataProvider>"8ls32l8s40l8s56l8s48l8
+- ___block_descriptor_72_e8_32s40s48bs56r64w_e20_v16?0"FCResource"8lw64l8s48l8r56l8s32l8s40l8
+- ___block_descriptor_72_e8_32s40s48s56bs64r_e5_v8?0lr64l8s32l8s40l8s48l8s56l8
+- ___block_descriptor_72_e8_32s40s48s56bs64r_e5_v8?0ls32l8s40l8s48l8r64l8s56l8
+- ___block_descriptor_72_e8_32s40s48s56s64bs_e55_v32?0"SXContext"8"<NUFontRegistrator>"16"NSError"24ls32l8s40l8s64l8s48l8s56l8
+- ___block_descriptor_80_e8_32s40s48bs56r64w_e5_v8?0ls32l8w64l8s48l8r56l8s40l8
+- ___block_descriptor_88_e8_32s40s48s56s64s72s80s_e21_v16?0"<TFContext>"8ls32l8s40l8s48l8s56l8s64l8s72l8s80l8
+- ___block_descriptor_96_e8_32s40s_e5_v8?0ls32l8s40l8
+- ___block_literal_global
+- ___embedConfiguration
+- ___loadedEmbedConfigurationID
+- _messageLargeFont.largeFont
+- _messageLargeFont.onceToken
+- _messageSmallFont.onceToken
+- _messageSmallFont.smallFont
+- _nu_darkStyleDividerColor.dividerColor
+- _nu_darkStyleDividerColor.onceToken
+- _nu_dividerColor.dividerColor
+- _nu_dividerColor.onceToken
+- _nu_lightStyleDividerColor.dividerColor
+- _nu_lightStyleDividerColor.onceToken
+- _titleExtraLargeFont.extraLargeFont
+- _titleExtraLargeFont.onceToken
+- _titleLargeFont.largeFont
+- _titleLargeFont.onceToken
+- _titleSmallFont.onceToken
+- _titleSmallFont.smallFont
+CStrings:
++ "@\"NUArticleScrollPosition\"8@?0"
++ "@16@?0@\"<NUArticleDecoration>\"8"
++ "Article context loader was released before the context finished loading"
++ "Fatal error"
++ "NewsUI.NUArticleViewControllerFactory"
++ "NewsUI/NUApplicationModernAssembly.swift"
++ "NewsUI/NUArticleModernAssembly.swift"
++ "NewsUI/NUCoreModernAssembly.swift"
++ "NewsUI/NUExtensionModernAssembly.swift"
++ "NewsUI/NUManagerModernAssembly.swift"
++ "appActivityReceiver must be registered by Application or Extension assembly"
++ "discarding prefetched contents of rapid-updates article ID %{public}@ because backend version %lld is older than %lld"
++ "extensionURLHandler is registered by NUExtensionModernAssembly"
++ "init()"
++ "v16@?0@\"SXScrollPosition\"8"
++ "webViewControllerFactory must be registered by a higher-level assembly"
+- "\t"
+- "@\"<FCAppActivityMonitor>\"16@?0@\"<TFResolver>\"8"
+- "@\"<FCAppleAccount>\"16@?0@\"<TFResolver>\"8"
+- "@\"<FCAudioPlaylistType>\"16@?0@\"<TFResolver>\"8"
+- "@\"<FCContentContext>\"16@?0@\"<TFResolver>\"8"
+- "@\"<FCCurrentIssuesChecker>\"16@?0@\"<TFResolver>\"8"
+- "@\"<FCIssueReadingHistoryType>\"16@?0@\"<TFResolver>\"8"
+- "@\"<FCNewsAppConfigurationManager>\"16@?0@\"<TFResolver>\"8"
+- "@\"<NUANFDebugSettingsProvider>\"16@?0@\"<TFResolver>\"8"
+- "@\"<NUAppActivityMonitor>\"16@?0@\"<TFResolver>\"8"
+- "@\"<NUArticleActivityFactory>\"16@?0@\"<TFResolver>\"8"
+- "@\"<NUArticleActivityOptionsProvider>\"16@?0@\"<TFResolver>\"8"
+- "@\"<NUArticleDataProviderFactory>\"16@?0@\"<TFResolver>\"8"
+- "@\"<NUArticleFactory>\"16@?0@\"<TFResolver>\"8"
+- "@\"<NUArticleHostViewControllerFactory>\"16@?0@\"<TFResolver>\"8"
+- "@\"<NUArticlePrefetcherType>\"16@?0@\"<TFResolver>\"8"
+- "@\"<NUArticleViewControllerFactory>\"16@?0@\"<TFResolver>\"8"
+- "@\"<NUChromeControl>\"16@?0@\"<TFResolver>\"8"
+- "@\"<NUDevice>\"16@?0@\"<TFResolver>\"8"
+- "@\"<NUDocumentSectionBlueprintProvider>\"16@?0@\"<TFResolver>\"8"
+- "@\"<NUEmbedConfigurationLoader>\"16@?0@\"<TFResolver>\"8"
+- "@\"<NUErrorMessageFactory>\"16@?0@\"<TFResolver>\"8"
+- "@\"<NUFontRegistration>\"16@?0@\"<TFResolver>\"8"
+- "@\"<NUPagingFactory>\"16@?0@\"<TFResolver>\"8"
+- "@\"<NURouter>\"16@?0@\"<TFResolver>\"8"
+- "@\"<NUSettings>\"16@?0@\"<TFResolver>\"8"
+- "@\"<NUURLHandling>\"16@?0@\"<TFResolver>\"8"
+- "@\"<NUWebViewControllerFactoryType>\"16@?0@\"<TFResolver>\"8"
+- "@\"<SWReachabilityProvider>\"16@?0@\"<TFResolver>\"8"
+- "@\"<SXAppStateMonitor>\"16@?0@\"<TFResolver>\"8"
+- "@\"<SXEmbedDataProvider>\"16@?0@\"<TFResolver>\"8"
+- "@\"<SXHost>\"16@?0@\"<TFResolver>\"8"
+- "@\"<SXMailPresenter>\"16@?0@\"<TFResolver>\"8"
+- "@\"<SXMessagePresenter>\"16@?0@\"<TFResolver>\"8"
+- "@\"<SXStoreFrontProvider>\"16@?0@\"<TFResolver>\"8"
+- "@\"<SXURLHandling>\"16@?0@\"<TFResolver>\"8"
+- "@\"<SXURLPreviewing>\"16@?0@\"<TFResolver>\"8"
+- "@\"<SXWebContentComponentContentRuleProvider>\"16@?0@\"<TFResolver>\"8"
+- "@\"FCArticleController\"16@?0@\"<TFResolver>\"8"
+- "@\"FCCloudContext\"16@?0@\"<TFResolver>\"8"
+- "@\"FCFlintResourceManager\"16@?0@\"<TFResolver>\"8"
+- "@\"FCNetworkReachability\"16@?0@\"<TFResolver>\"8"
+- "@\"FCPuzzleHistory\"16@?0@\"<TFResolver>\"8"
+- "@\"FCPuzzleTypeSettings\"16@?0@\"<TFResolver>\"8"
+- "@\"FCReadingHistory\"16@?0@\"<TFResolver>\"8"
+- "@\"FCReadingList\"16@?0@\"<TFResolver>\"8"
+- "@\"FCShortcutList\"16@?0@\"<TFResolver>\"8"
+- "@\"FCSubscriptionList\"16@?0@\"<TFResolver>\"8"
+- "@\"FCTagSettings\"16@?0@\"<TFResolver>\"8"
+- "@\"FCUserInfo\"16@?0@\"<TFResolver>\"8"
+- "@\"NUArticleContainerViewController\"16@?0@\"<TFResolver>\"8"
+- "@\"NUArticlePageFactory\"16@?0@\"<TFResolver>\"8"
+- "@\"NUEmbedDataManager\"16@?0@\"<TFResolver>\"8"
+- "@\"NUExtensionAppActivityMonitor\"16@?0@\"<TFResolver>\"8"
+- "@\"NUExtensionURLHandler\"16@?0@\"<TFResolver>\"8"
+- "@\"NULiveCoverageManager\"16@?0@\"<TFResolver>\"8"
+- "@\"NUMediaSharingPolicyProvider\"16@?0@\"<TFResolver>\"8"
+- "@\"NUURLHandler\"16@?0@\"<TFResolver>\"8"
+- "@\"NUWebContentLoadingPolicyProvider\"16@?0@\"<TFResolver>\"8"
+- "@\"SXScrollPosition\"8@?0"
+- "@16@?0@\"<TFResolver>\"8"
+- "v16@?0@\"<TFContext>\"8"
+- "v24@?0@\"<TFResolver>\"8@\"<FCNewsAppConfigurationManager>\"16"
+- "v24@?0@\"<TFResolver>\"8@\"NULinkedContentManagerFactory\"16"
+- "v24@?0@\"<TFResolver>\"8@\"NUURLHandler\"16"
+```

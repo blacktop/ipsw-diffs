@@ -1,0 +1,519 @@
+## NewsKit
+
+> `/System/Library/PrivateFrameworks/NewsKit.framework/NewsKit`
+
+```diff
+
+-5971.0.0.0.0
+-  __TEXT.__text: 0x12e68
+-  __TEXT.__objc_methlist: 0x172c
+-  __TEXT.__const: 0x187c
+-  __TEXT.__constg_swiftt: 0x864
+-  __TEXT.__swift5_typeref: 0x40c
+-  __TEXT.__swift5_fieldmd: 0x604
+-  __TEXT.__swift5_builtin: 0x28
+-  __TEXT.__swift5_reflstr: 0x37e
++6006.0.0.0.0
++  __TEXT.__text: 0x145ec
++  __TEXT.__objc_methlist: 0x15b4
++  __TEXT.__const: 0x1a48
++  __TEXT.__constg_swiftt: 0x780
++  __TEXT.__swift5_typeref: 0x44c
++  __TEXT.__swift5_fieldmd: 0x5fc
++  __TEXT.__swift5_builtin: 0x3c
++  __TEXT.__swift5_reflstr: 0x33e
+   __TEXT.__swift5_assocty: 0xb0
+-  __TEXT.__swift5_proto: 0x130
+-  __TEXT.__swift5_types: 0xac
+-  __TEXT.__swift5_capture: 0xcc
+-  __TEXT.__cstring: 0x201
++  __TEXT.__swift5_proto: 0x138
++  __TEXT.__swift5_types: 0xb4
++  __TEXT.__cstring: 0x356
++  __TEXT.__swift5_capture: 0xe0
+   __TEXT.__oslogstring: 0x32
+   __TEXT.__swift_as_entry: 0x4
+   __TEXT.__swift_as_ret: 0x4
+   __TEXT.__swift_as_cont: 0xc
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x8a0
++  __TEXT.__unwind_info: 0x9a8
+   __TEXT.__eh_frame: 0x400
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x108
+-  __DATA_CONST.__objc_classlist: 0xc8
+-  __DATA_CONST.__objc_protolist: 0x1b0
++  __DATA_CONST.__objc_classlist: 0x80
++  __DATA_CONST.__objc_protolist: 0x180
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xe78
+-  __DATA_CONST.__objc_protorefs: 0xd8
++  __DATA_CONST.__objc_selrefs: 0xdb0
++  __DATA_CONST.__objc_protorefs: 0xc0
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x988
+-  __AUTH_CONST.__objc_const: 0x33e0
+-  __AUTH_CONST.__auth_got: 0x9f8
++  __AUTH_CONST.__const: 0xb68
++  __AUTH_CONST.__objc_const: 0x2d78
++  __AUTH_CONST.__auth_got: 0xa90
+   __AUTH.__objc_data: 0x2d0
+   __AUTH.__data: 0x680
+-  __DATA.__data: 0xdf0
++  __DATA.__data: 0xe20
+   __DATA.__common: 0x30
+   __DATA_DIRTY.__objc_data: 0xd0
+-  __DATA_DIRTY.__data: 0xca8
+-  __DATA_DIRTY.__bss: 0x500
++  __DATA_DIRTY.__data: 0x5c0
+   __DATA_DIRTY.__common: 0x8
++  __DATA_DIRTY.__bss: 0x80
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+
+   - /System/Library/PrivateFrameworks/NewsCore.framework/NewsCore
+   - /System/Library/PrivateFrameworks/NewsEngagement.framework/NewsEngagement
+   - /System/Library/PrivateFrameworks/NewsFeed.framework/NewsFeed
++  - /System/Library/PrivateFrameworks/NewsServicesInternal.framework/NewsServicesInternal
+   - /System/Library/PrivateFrameworks/NewsSubscription.framework/NewsSubscription
+   - /System/Library/PrivateFrameworks/NewsUI.framework/NewsUI
+   - /System/Library/PrivateFrameworks/Silex.framework/Silex
++  - /System/Library/PrivateFrameworks/SilexWeb.framework/SilexWeb
+   - /System/Library/PrivateFrameworks/TeaFoundation.framework/TeaFoundation
+   - /System/Library/PrivateFrameworks/TeaSettings.framework/TeaSettings
+   - /System/Library/PrivateFrameworks/TeaUI.framework/TeaUI
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 631
+-  Symbols:   582
+-  CStrings:  16
++  Functions: 693
++  Symbols:   183
++  CStrings:  23
+ 
+Symbols:
++ _OBJC_CLASS_$_FCBundleSubscriptionManager
++ _objc_release_x28
++ _swift_dynamicCastObjCClass
++ _swift_getKeyPath
++ _swift_retain_x23
+- <redacted>
+- _OBJC_CLASS_$_NUSwiftApplicationFrameworkAssembly
+- _OBJC_CLASS_$_SXSwiftFrameWorkAssembly
+- _OBJC_CLASS_$__TtC7NewsKit18SceneProvidingView
+- _OBJC_CLASS_$__TtC7NewsKit22StubAppActivityMonitor
+- _OBJC_CLASS_$__TtC7NewsKit24WebViewControllerFactory
+- _OBJC_METACLASS_$__TtC7NewsKit18SceneProvidingView
+- _OBJC_METACLASS_$__TtC7NewsKit22StubAppActivityMonitor
+- _OBJC_METACLASS_$__TtC7NewsKit24WebViewControllerFactory
+- _OBJC_METACLASS_$__TtC7NewsKitP33_97C4145B2F6687765D35AB4C72479A3E25PrivateDataActionProvider
+- __DATA__TtC7NewsKit11NewsService
+- __DATA__TtC7NewsKit13ArticleRouter
+- __DATA__TtC7NewsKit13NewsKitModule
+- __DATA__TtC7NewsKit14RouterAssembly
+- __DATA__TtC7NewsKit15FactoryAssembly
+- __DATA__TtC7NewsKit16KeyboardAssembly
+- __DATA__TtC7NewsKit16NewsCoreAssembly
+- __DATA__TtC7NewsKit16ProviderAssembly
+- __DATA__TtC7NewsKit16ServicesAssembly
+- __DATA__TtC7NewsKit16SettingsAssembly
+- __DATA__TtC7NewsKit17AnalyticsAssembly
+- __DATA__TtC7NewsKit18SceneProvidingView
+- __DATA__TtC7NewsKit19ArticleViewerRouter
+- __DATA__TtC7NewsKit19SubscriptionsRouter
+- __DATA__TtC7NewsKit20SubscriptionAssembly
+- __DATA__TtC7NewsKit22StubAppActivityMonitor
+- __DATA__TtC7NewsKit24WebViewControllerFactory
+- __DATA__TtC7NewsKit25EngagementFeatureSettings
+- __DATA__TtC7NewsKit25NewsArticleViewController
+- __DATA__TtC7NewsKit26CampaignLandingPageTracker
+- __DATA__TtC7NewsKit31PostPurchaseOnboardingPresenter
+- __DATA__TtC7NewsKit40ArticleRecirculationConfigurationService
+- __DATA__TtC7NewsKit40EngagementUpsellBannerPropertiesProvider
+- __DATA__TtC7NewsKit43PostPurchaseOnboardingViewControllerFactory
+- __DATA__TtC7NewsKitP33_97C4145B2F6687765D35AB4C72479A3E25PrivateDataActionProvider
+- __INSTANCE_METHODS__TtC7NewsKit18SceneProvidingView
+- __INSTANCE_METHODS__TtC7NewsKit22StubAppActivityMonitor
+- __INSTANCE_METHODS__TtC7NewsKit24WebViewControllerFactory
+- __INSTANCE_METHODS__TtC7NewsKitP33_97C4145B2F6687765D35AB4C72479A3E25PrivateDataActionProvider
+- __IVARS__TtC7NewsKit11NewsService
+- __IVARS__TtC7NewsKit13NewsKitModule
+- __IVARS__TtC7NewsKit18SceneProvidingView
+- __IVARS__TtC7NewsKit25EngagementFeatureSettings
+- __IVARS__TtC7NewsKit25NewsArticleViewController
+- __IVARS__TtC7NewsKit40ArticleRecirculationConfigurationService
+- __METACLASS_DATA__TtC7NewsKit11NewsService
+- __METACLASS_DATA__TtC7NewsKit13ArticleRouter
+- __METACLASS_DATA__TtC7NewsKit13NewsKitModule
+- __METACLASS_DATA__TtC7NewsKit14RouterAssembly
+- __METACLASS_DATA__TtC7NewsKit15FactoryAssembly
+- __METACLASS_DATA__TtC7NewsKit16KeyboardAssembly
+- __METACLASS_DATA__TtC7NewsKit16NewsCoreAssembly
+- __METACLASS_DATA__TtC7NewsKit16ProviderAssembly
+- __METACLASS_DATA__TtC7NewsKit16ServicesAssembly
+- __METACLASS_DATA__TtC7NewsKit16SettingsAssembly
+- __METACLASS_DATA__TtC7NewsKit17AnalyticsAssembly
+- __METACLASS_DATA__TtC7NewsKit18SceneProvidingView
+- __METACLASS_DATA__TtC7NewsKit19ArticleViewerRouter
+- __METACLASS_DATA__TtC7NewsKit19SubscriptionsRouter
+- __METACLASS_DATA__TtC7NewsKit20SubscriptionAssembly
+- __METACLASS_DATA__TtC7NewsKit22StubAppActivityMonitor
+- __METACLASS_DATA__TtC7NewsKit24WebViewControllerFactory
+- __METACLASS_DATA__TtC7NewsKit25EngagementFeatureSettings
+- __METACLASS_DATA__TtC7NewsKit25NewsArticleViewController
+- __METACLASS_DATA__TtC7NewsKit26CampaignLandingPageTracker
+- __METACLASS_DATA__TtC7NewsKit31PostPurchaseOnboardingPresenter
+- __METACLASS_DATA__TtC7NewsKit40ArticleRecirculationConfigurationService
+- __METACLASS_DATA__TtC7NewsKit40EngagementUpsellBannerPropertiesProvider
+- __METACLASS_DATA__TtC7NewsKit43PostPurchaseOnboardingViewControllerFactory
+- __METACLASS_DATA__TtC7NewsKitP33_97C4145B2F6687765D35AB4C72479A3E25PrivateDataActionProvider
+- __OBJC_$_INSTANCE_METHODS__TtC7NewsKit25NewsArticleViewController(NewsKit)
+- __OBJC_$_PROP_LIST_FCAppActivityMonitor
+- __OBJC_$_PROP_LIST_FCBundleSubscriptionManagerType
+- __OBJC_$_PROP_LIST_FCBundleSubscriptionProviderType
+- __OBJC_$_PROP_LIST_FCContentContext
+- __OBJC_$_PROP_LIST_FCCoreConfigurationManager
+- __OBJC_$_PROP_LIST_FCFeedPersonalizingItem
+- __OBJC_$_PROP_LIST_FCFeedTheming
+- __OBJC_$_PROP_LIST_FCFeedTransformationItem
+- __OBJC_$_PROP_LIST_FCFeldsparIDProvider
+- __OBJC_$_PROP_LIST_FCHeadlineProviding
+- __OBJC_$_PROP_LIST_FCIssueReadingHistoryType
+- __OBJC_$_PROP_LIST_FCNewsAppConfigurationManager
+- __OBJC_$_PROP_LIST_FCPaidAccessCheckerType
+- __OBJC_$_PROP_LIST_FCPrivateDataContext
+- __OBJC_$_PROP_LIST_FCPurchaseManagerType
+- __OBJC_$_PROP_LIST_FCPurchaseProviderType
+- __OBJC_$_PROP_LIST_NSObject
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCAppActivityMonitor
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCBundleSubscriptionManagerType
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCBundleSubscriptionProviderType
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCCacheFlushing
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCCacheInvalidating
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCClassifiable
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCContentContext
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCCoreConfigurationManager
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCEntitlementsOverrideProviderType
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCFeedPersonalizingItem
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCFeedTheming
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCFeedTransformationItem
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCFeldsparIDProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCHeadlineProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCIssueReadingHistoryType
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCNewsAppConfigurationManager
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCNonDestructivePrivateDataActionProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCPaidAccessCheckerType
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCPrivateDataContext
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCPurchaseManagerType
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCPurchaseProviderType
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCReceiptRefresherType
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCSubscriptionControllerType
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFCopying
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUWebViewControllerFactoryType
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FCAppActivityMonitor
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FCFeedPersonalizingItem
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FCFeedTransformationItem
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FCHeadlineProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FCNewsAppConfigurationManager
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCAppActivityMonitor
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCBundleSubscriptionManagerType
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCBundleSubscriptionProviderType
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCCacheFlushing
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCCacheInvalidating
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCClassifiable
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCContentContext
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCCoreConfigurationManager
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCEntitlementsOverrideProviderType
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCFeedPersonalizingItem
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCFeedTheming
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCFeedTransformationItem
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCFeldsparIDProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCHeadlineProviding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCIssueReadingHistoryType
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCNewsAppConfigurationManager
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCNonDestructivePrivateDataActionProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCPaidAccessCheckerType
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCPrivateDataContext
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCPurchaseManagerType
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCPurchaseProviderType
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCReceiptRefresherType
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCSubscriptionControllerType
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFCopying
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUWebViewControllerFactoryType
+- __OBJC_$_PROTOCOL_REFS_FCAppActivityMonitor
+- __OBJC_$_PROTOCOL_REFS_FCBundleSubscriptionManagerType
+- __OBJC_$_PROTOCOL_REFS_FCCacheFlushing
+- __OBJC_$_PROTOCOL_REFS_FCClassifiable
+- __OBJC_$_PROTOCOL_REFS_FCContentContext
+- __OBJC_$_PROTOCOL_REFS_FCCoreConfigurationManager
+- __OBJC_$_PROTOCOL_REFS_FCFeedPersonalizingItem
+- __OBJC_$_PROTOCOL_REFS_FCFeedTheming
+- __OBJC_$_PROTOCOL_REFS_FCFeedTransformationItem
+- __OBJC_$_PROTOCOL_REFS_FCFeldsparIDProvider
+- __OBJC_$_PROTOCOL_REFS_FCHeadlineProviding
+- __OBJC_$_PROTOCOL_REFS_FCNewsAppConfigurationManager
+- __OBJC_$_PROTOCOL_REFS_FCNonDestructivePrivateDataActionProvider
+- __OBJC_$_PROTOCOL_REFS_FCPrivateDataContext
+- __OBJC_$_PROTOCOL_REFS_FCPurchaseProviderType
+- __OBJC_$_PROTOCOL_REFS_FCSubscriptionControllerType
+- __OBJC_$_PROTOCOL_REFS_NFCopying
+- __OBJC_$_PROTOCOL_REFS_NUWebViewControllerFactoryType
+- __OBJC_LABEL_PROTOCOL_$_FCAppActivityMonitor
+- __OBJC_LABEL_PROTOCOL_$_FCBundleSubscriptionManagerType
+- __OBJC_LABEL_PROTOCOL_$_FCBundleSubscriptionProviderType
+- __OBJC_LABEL_PROTOCOL_$_FCCacheFlushing
+- __OBJC_LABEL_PROTOCOL_$_FCCacheInvalidating
+- __OBJC_LABEL_PROTOCOL_$_FCClassifiable
+- __OBJC_LABEL_PROTOCOL_$_FCContentContext
+- __OBJC_LABEL_PROTOCOL_$_FCCoreConfigurationManager
+- __OBJC_LABEL_PROTOCOL_$_FCEntitlementsOverrideProviderType
+- __OBJC_LABEL_PROTOCOL_$_FCFeedPersonalizingItem
+- __OBJC_LABEL_PROTOCOL_$_FCFeedTheming
+- __OBJC_LABEL_PROTOCOL_$_FCFeedTransformationItem
+- __OBJC_LABEL_PROTOCOL_$_FCFeldsparIDProvider
+- __OBJC_LABEL_PROTOCOL_$_FCHeadlineProviding
+- __OBJC_LABEL_PROTOCOL_$_FCIssueReadingHistoryType
+- __OBJC_LABEL_PROTOCOL_$_FCNewsAppConfigurationManager
+- __OBJC_LABEL_PROTOCOL_$_FCNonDestructivePrivateDataActionProvider
+- __OBJC_LABEL_PROTOCOL_$_FCPaidAccessCheckerType
+- __OBJC_LABEL_PROTOCOL_$_FCPrivateDataContext
+- __OBJC_LABEL_PROTOCOL_$_FCPurchaseManagerType
+- __OBJC_LABEL_PROTOCOL_$_FCPurchaseProviderType
+- __OBJC_LABEL_PROTOCOL_$_FCReceiptRefresherType
+- __OBJC_LABEL_PROTOCOL_$_FCSubscriptionControllerType
+- __OBJC_LABEL_PROTOCOL_$_NFCopying
+- __OBJC_LABEL_PROTOCOL_$_NSCopying
+- __OBJC_LABEL_PROTOCOL_$_NSObject
+- __OBJC_LABEL_PROTOCOL_$_NUWebViewControllerFactoryType
+- __OBJC_PROTOCOL_$_FCAppActivityMonitor
+- __OBJC_PROTOCOL_$_FCBundleSubscriptionManagerType
+- __OBJC_PROTOCOL_$_FCBundleSubscriptionProviderType
+- __OBJC_PROTOCOL_$_FCCacheFlushing
+- __OBJC_PROTOCOL_$_FCCacheInvalidating
+- __OBJC_PROTOCOL_$_FCClassifiable
+- __OBJC_PROTOCOL_$_FCContentContext
+- __OBJC_PROTOCOL_$_FCCoreConfigurationManager
+- __OBJC_PROTOCOL_$_FCEntitlementsOverrideProviderType
+- __OBJC_PROTOCOL_$_FCFeedPersonalizingItem
+- __OBJC_PROTOCOL_$_FCFeedTheming
+- __OBJC_PROTOCOL_$_FCFeedTransformationItem
+- __OBJC_PROTOCOL_$_FCFeldsparIDProvider
+- __OBJC_PROTOCOL_$_FCHeadlineProviding
+- __OBJC_PROTOCOL_$_FCIssueReadingHistoryType
+- __OBJC_PROTOCOL_$_FCNewsAppConfigurationManager
+- __OBJC_PROTOCOL_$_FCNonDestructivePrivateDataActionProvider
+- __OBJC_PROTOCOL_$_FCPaidAccessCheckerType
+- __OBJC_PROTOCOL_$_FCPrivateDataContext
+- __OBJC_PROTOCOL_$_FCPurchaseManagerType
+- __OBJC_PROTOCOL_$_FCPurchaseProviderType
+- __OBJC_PROTOCOL_$_FCReceiptRefresherType
+- __OBJC_PROTOCOL_$_FCSubscriptionControllerType
+- __OBJC_PROTOCOL_$_NFCopying
+- __OBJC_PROTOCOL_$_NSCopying
+- __OBJC_PROTOCOL_$_NSObject
+- __OBJC_PROTOCOL_$_NUWebViewControllerFactoryType
+- __PROTOCOLS__TtC7NewsKit22StubAppActivityMonitor
+- __PROTOCOLS__TtC7NewsKit24WebViewControllerFactory
+- __PROTOCOLS__TtC7NewsKitP33_97C4145B2F6687765D35AB4C72479A3E25PrivateDataActionProvider
+- ___swift__destructor
+- ___swift_allocate_boxed_opaque_existential_1
+- ___swift_allocate_value_buffer
+- ___swift_async_cont_functlets
+- ___swift_async_entry_functlets
+- ___swift_async_ret_functlets
+- ___swift_closure_destructor
+- ___swift_closure_destructorTm
+- ___swift_destroy_boxed_opaque_existential_1
+- ___swift_destroy_boxed_opaque_existential_1Tm
+- ___swift_memcpy0_1
+- ___swift_memcpy16_8
+- ___swift_memcpy1_1
+- ___swift_memcpy32_8
+- ___swift_memcpy9_8
+- ___swift_noop_void_return
+- ___swift_project_boxed_opaque_existential_1
+- ___swift_project_value_buffer
+- ___swift_reflection_version
+- __swift_FORCE_LOAD_$_swiftAVFoundation_$_NewsKit
+- __swift_FORCE_LOAD_$_swiftAccelerate_$_NewsKit
+- __swift_FORCE_LOAD_$_swiftAppleArchive_$_NewsKit
+- __swift_FORCE_LOAD_$_swiftCallKit_$_NewsKit
+- __swift_FORCE_LOAD_$_swiftCompression_$_NewsKit
+- __swift_FORCE_LOAD_$_swiftCoreAudio_$_NewsKit
+- __swift_FORCE_LOAD_$_swiftCoreAudio_Private_$_NewsKit
+- __swift_FORCE_LOAD_$_swiftCoreFoundation_$_NewsKit
+- __swift_FORCE_LOAD_$_swiftCoreImage_$_NewsKit
+- __swift_FORCE_LOAD_$_swiftCoreLocation_$_NewsKit
+- __swift_FORCE_LOAD_$_swiftCoreMIDI_$_NewsKit
+- __swift_FORCE_LOAD_$_swiftDispatch_$_NewsKit
+- __swift_FORCE_LOAD_$_swiftFoundation_$_NewsKit
+- __swift_FORCE_LOAD_$_swiftGLKit_$_NewsKit
+- __swift_FORCE_LOAD_$_swiftGameplayKit_$_NewsKit
+- __swift_FORCE_LOAD_$_swiftIntents_$_NewsKit
+- __swift_FORCE_LOAD_$_swiftMLCompute_$_NewsKit
+- __swift_FORCE_LOAD_$_swiftMetalKit_$_NewsKit
+- __swift_FORCE_LOAD_$_swiftMetal_$_NewsKit
+- __swift_FORCE_LOAD_$_swiftModelIO_$_NewsKit
+- __swift_FORCE_LOAD_$_swiftNaturalLanguage_$_NewsKit
+- __swift_FORCE_LOAD_$_swiftOSLog_$_NewsKit
+- __swift_FORCE_LOAD_$_swiftObjectiveC_$_NewsKit
+- __swift_FORCE_LOAD_$_swiftQuartzCore_$_NewsKit
+- __swift_FORCE_LOAD_$_swiftSceneKit_$_NewsKit
+- __swift_FORCE_LOAD_$_swiftSpatial_$_NewsKit
+- __swift_FORCE_LOAD_$_swiftSpriteKit_$_NewsKit
+- __swift_FORCE_LOAD_$_swiftUIKit_$_NewsKit
+- __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_NewsKit
+- __swift_FORCE_LOAD_$_swiftXPC_$_NewsKit
+- __swift_FORCE_LOAD_$_swift_Builtin_float_$_NewsKit
+- __swift_FORCE_LOAD_$_swiftos_$_NewsKit
+- __swift_FORCE_LOAD_$_swiftsimd_$_NewsKit
+- __swift_implicitisolationactor_to_executor_cast
+- __swift_stdlib_malloc_size
+- _associated conformance 7NewsKit0A11ArticleViewV7SwiftUI0D0AA4BodyAdEP_AdE
+- _associated conformance 7NewsKit0A11ArticleViewV7SwiftUI29UIViewControllerRepresentableAaD0D0
+- _associated conformance 7NewsKit0A12ChannelThemeV10CodingKeys33_B103348FFDC946DED1C531A9DB7ACD1FLLOSHAASQ
+- _associated conformance 7NewsKit0A12ChannelThemeV10CodingKeys33_B103348FFDC946DED1C531A9DB7ACD1FLLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 7NewsKit0A12ChannelThemeV10CodingKeys33_B103348FFDC946DED1C531A9DB7ACD1FLLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 7NewsKit0A16ArticleThumbnailV7SwiftUI4ViewAA4BodyAdEP_AdE
+- _associated conformance 7NewsKit0A21ChannelLogoCollectionV0D5ThemeOSHAASQ
+- _associated conformance 7NewsKit0A21ChannelLogoCollectionV10CodingKeys33_C16E248AC0A8D50CEC529AE92F942C00LLOSHAASQ
+- _associated conformance 7NewsKit0A21ChannelLogoCollectionV10CodingKeys33_C16E248AC0A8D50CEC529AE92F942C00LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 7NewsKit0A21ChannelLogoCollectionV10CodingKeys33_C16E248AC0A8D50CEC529AE92F942C00LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 7NewsKit0A7ArticleV10CodingKeys33_62DB9620393D69D422031369D25A3C48LLOSHAASQ
+- _associated conformance 7NewsKit0A7ArticleV10CodingKeys33_62DB9620393D69D422031369D25A3C48LLOs0D3KeyAAs23CustomStringConvertible
+- _associated conformance 7NewsKit0A7ArticleV10CodingKeys33_62DB9620393D69D422031369D25A3C48LLOs0D3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 7NewsKit0A7ArticleVs12IdentifiableAA2IDsADP_SH
+- _associated conformance 7NewsKit0A7ChannelV10CodingKeys33_0BDC2AC21E3884D63119B0C6FD74A8DELLOSHAASQ
+- _associated conformance 7NewsKit0A7ChannelV10CodingKeys33_0BDC2AC21E3884D63119B0C6FD74A8DELLOs0D3KeyAAs23CustomStringConvertible
+- _associated conformance 7NewsKit0A7ChannelV10CodingKeys33_0BDC2AC21E3884D63119B0C6FD74A8DELLOs0D3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 7NewsKit0A7ChannelV9LogoThemeOSHAASQ
+- _associated conformance 7NewsKit0A7ChannelVs12IdentifiableAA2IDsADP_SH
+- _associated conformance 7NewsKit40ArticleRecirculationConfigurationServiceC6Errors33_ACF06376EADEA6E46B9A416E1EA9B2A4LLOSHAASQ
+- _associated conformance 7NewsKit9RGBAColorV10CodingKeys33_652EC2DBFDF1046B3C0140A879C13245LLOSHAASQ
+- _associated conformance 7NewsKit9RGBAColorV10CodingKeys33_652EC2DBFDF1046B3C0140A879C13245LLOs0D3KeyAAs23CustomStringConvertible
+- _associated conformance 7NewsKit9RGBAColorV10CodingKeys33_652EC2DBFDF1046B3C0140A879C13245LLOs0D3KeyAAs28CustomDebugStringConvertible
+- _associated conformance So38UIApplicationOpenExternalURLOptionsKeyaSHSCSQ
+- _associated conformance So38UIApplicationOpenExternalURLOptionsKeyas20_SwiftNewtypeWrapperSCSY
+- _associated conformance So38UIApplicationOpenExternalURLOptionsKeyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
+- _block_copy_helper
+- _block_descriptor
+- _block_destroy_helper
+- _flat unique So13FCFeedTheming_p
+- _flat unique So29FCNewsAppConfigurationManager_p
+- _get_enum_tag_for_layout_string 7NewsKit0A11ArticleViewV7Content33_82DA8F6D821EC54EA1FF03F9DBFB0566LLO
+- _get_witness_table 7SwiftUI10AsyncImageVyAA19_ConditionalContentVyAA08ModifiedF0VyAA0D0VAA18_AspectRatioLayoutVGAA5ColorVGGAA4ViewHPyHC
+- _objc_retain_x8
+- _swift_release_x24
+- _swift_release_x26
+- _swift_retain_x25
+- _symbolic $s7SwiftUI29UIViewControllerRepresentableP
+- _symbolic $s7SwiftUI4ViewP
+- _symbolic $sSY
+- _symbolic $ss12IdentifiableP
+- _symbolic $ss21_ObjectiveCBridgeableP
+- _symbolic B0
+- _symbolic SS
+- _symbolic SSIegg_
+- _symbolic SSIegn_
+- _symbolic SaySSG
+- _symbolic Say_____G 7NewsKit0A7ArticleV
+- _symbolic Sb
+- _symbolic ScCySay_____G______pG 7NewsKit0A7ArticleV s5ErrorP
+- _symbolic Sd
+- _symbolic So14FCCloudContextCSg
+- _symbolic So16UIViewControllerC
+- _symbolic So22FCConfigurationManagerCSg
+- _symbolic So6UIViewC
+- _symbolic So7UIColorC
+- _symbolic So8NSObjectC
+- _symbolic So8NSStringC
+- _symbolic _____ 10Foundation3URLV
+- _symbolic _____ 10Foundation4DateV
+- _symbolic _____ 12CoreGraphics7CGFloatV
+- _symbolic _____ 12NewsArticles27ArticleViewerViewControllerC
+- _symbolic _____ 13TeaFoundation13SingletonPoolC
+- _symbolic _____ 13TeaFoundation9ContainerC
+- _symbolic _____ 7NewsKit0A11ArticleViewV
+- _symbolic _____ 7NewsKit0A11ArticleViewV7Content33_82DA8F6D821EC54EA1FF03F9DBFB0566LLO
+- _symbolic _____ 7NewsKit0A12ChannelThemeV
+- _symbolic _____ 7NewsKit0A12ChannelThemeV10CodingKeys33_B103348FFDC946DED1C531A9DB7ACD1FLLO
+- _symbolic _____ 7NewsKit0A12CoreAssemblyC
+- _symbolic _____ 7NewsKit0A16ArticleThumbnailV
+- _symbolic _____ 7NewsKit0A21ArticleViewControllerC
+- _symbolic _____ 7NewsKit0A21ChannelLogoCollectionV
+- _symbolic _____ 7NewsKit0A21ChannelLogoCollectionV0D5ThemeO
+- _symbolic _____ 7NewsKit0A21ChannelLogoCollectionV10CodingKeys33_C16E248AC0A8D50CEC529AE92F942C00LLO
+- _symbolic _____ 7NewsKit0A7ArticleV
+- _symbolic _____ 7NewsKit0A7ArticleV10CodingKeys33_62DB9620393D69D422031369D25A3C48LLO
+- _symbolic _____ 7NewsKit0A7ChannelV
+- _symbolic _____ 7NewsKit0A7ChannelV10CodingKeys33_0BDC2AC21E3884D63119B0C6FD74A8DELLO
+- _symbolic _____ 7NewsKit0A7ChannelV9LogoThemeO
+- _symbolic _____ 7NewsKit0A7ServiceC
+- _symbolic _____ 7NewsKit0aB6ModuleC
+- _symbolic _____ 7NewsKit13ArticleRouterC
+- _symbolic _____ 7NewsKit14RouterAssemblyC
+- _symbolic _____ 7NewsKit15FactoryAssemblyC
+- _symbolic _____ 7NewsKit16KeyboardAssemblyC
+- _symbolic _____ 7NewsKit16ProviderAssemblyC
+- _symbolic _____ 7NewsKit16ServicesAssemblyC
+- _symbolic _____ 7NewsKit16SettingsAssemblyC
+- _symbolic _____ 7NewsKit17AnalyticsAssemblyC
+- _symbolic _____ 7NewsKit18SceneProvidingViewC
+- _symbolic _____ 7NewsKit19ArticleViewerRouterC
+- _symbolic _____ 7NewsKit19FeatureAvailabilityV
+- _symbolic _____ 7NewsKit19SubscriptionsRouterC
+- _symbolic _____ 7NewsKit20SubscriptionAssemblyC
+- _symbolic _____ 7NewsKit22StubAppActivityMonitorC
+- _symbolic _____ 7NewsKit24WebViewControllerFactoryC
+- _symbolic _____ 7NewsKit25EngagementFeatureSettingsC
+- _symbolic _____ 7NewsKit25PrivateDataActionProvider33_97C4145B2F6687765D35AB4C72479A3ELLC
+- _symbolic _____ 7NewsKit26CampaignLandingPageTrackerC
+- _symbolic _____ 7NewsKit31PostPurchaseOnboardingPresenterC
+- _symbolic _____ 7NewsKit40ArticleRecirculationConfigurationServiceC
+- _symbolic _____ 7NewsKit40ArticleRecirculationConfigurationServiceC6Errors33_ACF06376EADEA6E46B9A416E1EA9B2A4LLO
+- _symbolic _____ 7NewsKit40EngagementUpsellBannerPropertiesProviderC
+- _symbolic _____ 7NewsKit43PostPurchaseOnboardingViewControllerFactoryC
+- _symbolic _____ 7NewsKit9RGBAColorV
+- _symbolic _____ 7NewsKit9RGBAColorV10CodingKeys33_652EC2DBFDF1046B3C0140A879C13245LLO
+- _symbolic _____ So38UIApplicationOpenExternalURLOptionsKeya
+- _symbolic _____ s5NeverO
+- _symbolic _____Sg 10Foundation3URLV
+- _symbolic _____Sg 7NewsKit0A12ChannelThemeV
+- _symbolic ______p 5TeaUI17SceneProviderTypeP
+- _symbolic ______p 7NewsAds20AdContextBuilderTypeP
+- _symbolic ______p 8NewsFeed14TagServiceTypeP
+- _symbolic ______p 8NewsFeed19HeadlineServiceTypeP
+- _symbolic ______p So29FCNewsAppConfigurationManagerP
+- _symbolic ______pIegg_ s5ErrorP
+- _symbolic ______pSg 13TeaFoundation12ResolverTypeP
+- _symbolic _____y_____y_____y__________G_____GG 7SwiftUI10AsyncImageV AA19_ConditionalContentV AA08ModifiedF0V AA0D0V AA18_AspectRatioLayoutV AA5ColorV
+- _symbolic x
+- _symbolic xSgXw
+- _symbolic xSgXwz_x______RzlXX So13FCFeedThemingP
+- _symbolic yt
+- _type_layout_string 7NewsKit0A11ArticleViewV
+- _type_layout_string 7NewsKit0A11ArticleViewV7Content33_82DA8F6D821EC54EA1FF03F9DBFB0566LLO
+- _type_layout_string 7NewsKit0A12ChannelThemeV
+- _type_layout_string 7NewsKit9RGBAColorV
+- _type_layout_string So38UIApplicationOpenExternalURLOptionsKeya
+CStrings:
++ "NewsKit/AnalyticsModernAssembly.swift"
++ "NewsKit/KeyboardModernAssembly.swift"
++ "NewsKit/NewsCoreModernAssembly.swift"
++ "NewsKit/ProviderModernAssembly.swift"
++ "NewsKit/RouterModernAssembly.swift"
++ "NewsKit/ServicesModernAssembly.swift"
++ "NewsKit/SubscriptionModernAssembly.swift"
+```

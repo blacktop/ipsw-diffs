@@ -1,0 +1,916 @@
+## newsd
+
+> `/System/Library/PrivateFrameworks/NewsDaemon.framework/newsd`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__objc_arrayobj`
+
+```diff
+
+-5971.0.0.0.0
+-  __TEXT.__text: 0x51304
+-  __TEXT.__auth_stubs: 0x22b0
+-  __TEXT.__objc_stubs: 0x4360
+-  __TEXT.__objc_methlist: 0x1a48
+-  __TEXT.__const: 0x1e70
+-  __TEXT.__gcc_except_tab: 0x2c0
+-  __TEXT.__cstring: 0x2a81
+-  __TEXT.__objc_methname: 0x5fd5
+-  __TEXT.__oslogstring: 0x288d
+-  __TEXT.__objc_classname: 0x95c
+-  __TEXT.__objc_methtype: 0x1c07
+-  __TEXT.__swift5_typeref: 0xd39
+-  __TEXT.__swift5_fieldmd: 0x870
+-  __TEXT.__constg_swiftt: 0x7d8
+-  __TEXT.__swift5_reflstr: 0x81c
++6006.0.0.0.0
++  __TEXT.__text: 0x50aa0
++  __TEXT.__auth_stubs: 0x2490
++  __TEXT.__objc_stubs: 0x3ec0
++  __TEXT.__objc_methlist: 0x1860
++  __TEXT.__const: 0x20b0
++  __TEXT.__gcc_except_tab: 0x2a8
++  __TEXT.__cstring: 0x251b
++  __TEXT.__objc_methname: 0x5a85
++  __TEXT.__oslogstring: 0x2886
++  __TEXT.__objc_classname: 0x7ec
++  __TEXT.__objc_methtype: 0x1a6b
++  __TEXT.__swift5_typeref: 0x10bb
++  __TEXT.__swift5_fieldmd: 0x874
++  __TEXT.__constg_swiftt: 0x748
++  __TEXT.__swift5_reflstr: 0x7fc
+   __TEXT.__swift5_builtin: 0x14
+   __TEXT.__swift5_protos: 0xc
+   __TEXT.__swift5_proto: 0x118
+-  __TEXT.__swift5_types: 0xa4
++  __TEXT.__swift5_types: 0xa8
+   __TEXT.__swift_as_entry: 0xd8
+   __TEXT.__swift_as_cont: 0x1d0
+-  __TEXT.__swift5_capture: 0x520
++  __TEXT.__swift5_capture: 0x510
+   __TEXT.__swift_as_ret: 0x110
+   __TEXT.__swift5_assocty: 0xd0
+-  __TEXT.__unwind_info: 0x17c0
++  __TEXT.__swift5_entry: 0x8
++  __TEXT.__unwind_info: 0x1738
+   __TEXT.__eh_frame: 0x26e8
+-  __DATA_CONST.__const: 0x2658
+-  __DATA_CONST.__cfstring: 0x480
+-  __DATA_CONST.__objc_classlist: 0x140
+-  __DATA_CONST.__objc_protolist: 0x1c8
++  __DATA_CONST.__const: 0x2428
++  __DATA_CONST.__cfstring: 0x420
++  __DATA_CONST.__objc_classlist: 0xf0
++  __DATA_CONST.__objc_protolist: 0x1d0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0x110
+-  __DATA_CONST.__objc_superrefs: 0x98
++  __DATA_CONST.__objc_protorefs: 0xf8
++  __DATA_CONST.__objc_superrefs: 0x78
+   __DATA_CONST.__objc_arraydata: 0x8
+   __DATA_CONST.__objc_arrayobj: 0x18
+-  __DATA_CONST.__auth_got: 0x1168
+-  __DATA_CONST.__got: 0x7b0
+-  __DATA_CONST.__auth_ptr: 0x5a0
+-  __DATA.__objc_const: 0x3ca8
+-  __DATA.__objc_selrefs: 0x1600
+-  __DATA.__objc_ivar: 0x110
+-  __DATA.__objc_data: 0xd78
+-  __DATA.__data: 0x1e30
++  __DATA_CONST.__auth_got: 0x1258
++  __DATA_CONST.__got: 0x740
++  __DATA_CONST.__auth_ptr: 0x5e0
++  __DATA.__objc_const: 0x33d8
++  __DATA.__objc_selrefs: 0x1500
++  __DATA.__objc_ivar: 0xf8
++  __DATA.__objc_data: 0xb98
++  __DATA.__data: 0x1ad0
+   __DATA.__common: 0x20
+   - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
++  - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 1482
+-  Symbols:   976
+-  CStrings:  1535
++  Functions: 1435
++  Symbols:   404
++  CStrings:  1447
+ 
+Symbols:
++ _NDAnalyticsMachServiceName
++ _NDConfigureAnalyticsEnvelopeManagerXPCHandler
++ _NDContentArchiveStoreVersion
++ _NDDownloadMachServiceName
++ _NDLiveActivityMachServiceName
++ _NDPushNotificationMachServiceName
++ _NDTodayFeedMachServiceName
++ _NDURLResolutionMachServiceName
++ _OBJC_CLASS_$_NDAnalyticsServiceListenerDelegate
++ _OBJC_CLASS_$_NDAnalyticsServiceRouter
++ _OBJC_CLASS_$_NDContentArchiveStore
++ _OBJC_CLASS_$_NDContentDownloadService
++ _OBJC_CLASS_$_NDContentVariantProvider
++ _OBJC_CLASS_$_NDDownloadConsumerProxy
++ _OBJC_CLASS_$_NDDownloadOperationFactory
++ _OBJC_CLASS_$_NDDownloadServiceListenerDelegate
++ _OBJC_CLASS_$_NDDownloadServiceStore
++ _OBJC_CLASS_$_NDFeedItemPoolManager
++ _OBJC_CLASS_$_NDNotificationPoolRefreshManager
++ _OBJC_CLASS_$_NDOfflineTodayFeedOperation
++ _OBJC_CLASS_$_NDPushNotificationListenerDelegate
++ _OBJC_CLASS_$_NDPushNotificationService
++ _OBJC_CLASS_$_NDTodayFeedManager
++ _OBJC_CLASS_$_NDURLResolutionListenerDelegate
++ _OBJC_CLASS_$_NDURLResolutionService
++ _OBJC_METACLASS_$_NDAnalyticsServiceListenerDelegate
++ _OBJC_METACLASS_$_NDAnalyticsServiceRouter
++ _OBJC_METACLASS_$_NDContentArchiveStore
++ _OBJC_METACLASS_$_NDContentDownloadService
++ _OBJC_METACLASS_$_NDContentVariantProvider
++ _OBJC_METACLASS_$_NDDownloadConsumerProxy
++ _OBJC_METACLASS_$_NDDownloadOperationFactory
++ _OBJC_METACLASS_$_NDDownloadServiceListenerDelegate
++ _OBJC_METACLASS_$_NDDownloadServiceStore
++ _OBJC_METACLASS_$_NDFeedItemPoolManager
++ _OBJC_METACLASS_$_NDNotificationPoolRefreshManager
++ _OBJC_METACLASS_$_NDOfflineTodayFeedOperation
++ _OBJC_METACLASS_$_NDPushNotificationListenerDelegate
++ _OBJC_METACLASS_$_NDPushNotificationService
++ _OBJC_METACLASS_$_NDTodayFeedManager
++ _OBJC_METACLASS_$_NDURLResolutionListenerDelegate
++ _OBJC_METACLASS_$_NDURLResolutionService
++ __swift_FORCE_LOAD_$_swiftAVFoundation
++ _main
++ _swift_release_n
+- _$s10Foundation10CocoaErrorV24xpcConnectionInterruptedAC4CodeVvgZ
+- _$s10Foundation10CocoaErrorV4CodeVAA01_cD8ProtocolAAMc
+- _$s10Foundation10CocoaErrorV4CodeVMa
+- _$s10Foundation11JSONDecoderC6decode_4fromxxm_AA4DataVtKSeRzlFTj
+- _$s10Foundation11JSONDecoderCACycfc
+- _$s10Foundation11JSONDecoderCMa
+- _$s10Foundation11JSONEncoderC6encodeyAA4DataVxKSERzlFTj
+- _$s10Foundation11JSONEncoderCACycfc
+- _$s10Foundation11JSONEncoderCMa
+- _$s10Foundation14DateComponentsV4hourSiSgvg
+- _$s10Foundation14DateComponentsV6minuteSiSgvg
+- _$s10Foundation14DateComponentsV6secondSiSgvg
+- _$s10Foundation14DateComponentsV7weekdaySiSgvg
+- _$s10Foundation14DateComponentsVMa
+- _$s10Foundation18_ErrorCodeProtocolPAAE2teoiySbx_s0B0_ptFZ
+- _$s10Foundation22_convertErrorToNSErrorySo0E0Cs0C0_pF
+- _$s10Foundation22_convertNSErrorToErrorys0E0_pSo0C0CSgF
+- _$s10Foundation3URLV13DirectoryHintO02isC0yA2EmFWC
+- _$s10Foundation3URLV13DirectoryHintO13inferFromPathyA2EmFWC
+- _$s10Foundation3URLV13DirectoryHintOMa
+- _$s10Foundation3URLV17lastPathComponentSSvg
+- _$s10Foundation3URLV19_bridgeToObjectiveCSo5NSURLCyF
+- _$s10Foundation3URLV22appendingPathComponentyACSSF
+- _$s10Foundation3URLV24checkResourceIsReachableSbyKF
+- _$s10Foundation3URLV36_unconditionallyBridgeFromObjectiveCyACSo5NSURLCSgFZ
+- _$s10Foundation3URLV8filePath13directoryHint10relativeToACSS_AC09DirectoryF0OACSgtcfC
+- _$s10Foundation3URLV9appending10components13directoryHintACxd_AC09DirectoryF0OtSyRzlF
+- _$s10Foundation3URLVMa
+- _$s10Foundation3URLVMn
+- _$s10Foundation4DataV10contentsOf7optionsAcA3URLVh_So20NSDataReadingOptionsVtKcfC
+- _$s10Foundation4DataV19_bridgeToObjectiveCSo6NSDataCyF
+- _$s10Foundation4DataV36_unconditionallyBridgeFromObjectiveCyACSo6NSDataCSgFZ
+- _$s10Foundation4DataV5write2to7optionsyAA3URLV_So20NSDataWritingOptionsVtKF
+- _$s10Foundation4DateV026timeIntervalSinceReferenceB0Sdvg
+- _$s10Foundation4DateV03TeaA0E10addSeconds_8calendarACSi_AA8CalendarVtF
+- _$s10Foundation4DateV11distantPastACvgZ
+- _$s10Foundation4DateV18addingTimeIntervalyACSdF
+- _$s10Foundation4DateV19_bridgeToObjectiveCSo6NSDateCyF
+- _$s10Foundation4DateV1loiySbAC_ACtFZ
+- _$s10Foundation4DateV1soiyA2C_SdtFZ
+- _$s10Foundation4DateV20timeIntervalSinceNowACSd_tcfC
+- _$s10Foundation4DateV20timeIntervalSinceNowSdvg
+- _$s10Foundation4DateV21timeIntervalSince1970Sdvg
+- _$s10Foundation4DateV2geoiySbAC_ACtFZ
+- _$s10Foundation4DateV2leoiySbAC_ACtFZ
+- _$s10Foundation4DateV36_unconditionallyBridgeFromObjectiveCyACSo6NSDateCSgFZ
+- _$s10Foundation4DateV3nowACvgZ
+- _$s10Foundation4DateVACycfC
+- _$s10Foundation4DateVMa
+- _$s10Foundation4DateVMn
+- _$s10Foundation4DateVSLAAMc
+- _$s10Foundation4DateVSQAAMc
+- _$s10Foundation4DateVs23CustomStringConvertibleAAMc
+- _$s10Foundation4UUIDV10uuidStringSSvg
+- _$s10Foundation4UUIDVACycfC
+- _$s10Foundation4UUIDVMa
+- _$s10Foundation8CalendarV10startOfDay3forAA4DateVAG_tF
+- _$s10Foundation8CalendarV14dateComponents2in4fromAA04DateD0VAA8TimeZoneV_AA0G0VtF
+- _$s10Foundation8CalendarV7currentACvgZ
+- _$s10Foundation8CalendarVMa
+- _$s10Foundation8TimeZoneV14secondsFromGMT3forSiAA4DateV_tF
+- _$s10Foundation8TimeZoneV7currentACvgZ
+- _$s10Foundation8TimeZoneVMa
+- _$s10NewsDaemon12MachServicesV14LiveActivities13TeaFoundation0C7ServiceVvgZ
+- _$s10NewsDaemon14NDFeedItemPoolC14UnderlyingTypeO7dropboxyAeA011DropboxFeeddE0VcAEmFWC
+- _$s10NewsDaemon14NDFeedItemPoolC14UnderlyingTypeOMa
+- _$s10NewsDaemon14NDFeedItemPoolCMa
+- _$s10NewsDaemon14NDFeedItemPoolCMn
+- _$s10NewsDaemon14NDFeedItemPoolCyA2C14UnderlyingTypeOcfc
+- _$s10NewsDaemon14ScoredFeedItemV04feedE05scoreACSo08NTPBFeedE0C_SdtcfC
+- _$s10NewsDaemon14ScoredFeedItemV04feedE0So08NTPBFeedE0Cvg
+- _$s10NewsDaemon14ScoredFeedItemV5scoreSdvg
+- _$s10NewsDaemon14ScoredFeedItemVMa
+- _$s10NewsDaemon14ScoredFeedItemVMn
+- _$s10NewsDaemon19DropboxFeedItemPoolV11refreshDate10Foundation0H0Vvg
+- _$s10NewsDaemon19DropboxFeedItemPoolV7fileURL16configurationSetAC10Foundation0H0V_So034FCFeedPersonalizationConfigurationJ0VtKcfC
+- _$s10NewsDaemon19DropboxFeedItemPoolVMa
+- _$s10NewsDaemon21NDSystemScheduledWorkC10identifier8priority4workACSS_AA0cdE8PriorityOyyYaYbctcfC
+- _$s10NewsDaemon21NDSystemScheduledWorkC11setNeedsRunyyF
+- _$s10NewsDaemon21NDSystemScheduledWorkCMa
+- _$s10NewsDaemon21NDSystemScheduledWorkCMn
+- _$s10NewsDaemon21ProxyFeedPersonalizerCMa
+- _$s10NewsDaemon22MergedFeedItemIteratorCMa
+- _$s10NewsDaemon22MergedFeedItemIteratorCStAAMc
+- _$s10NewsDaemon22MergedFeedItemSequenceV9sequencesACSayST_pAA06ScoreddE0V7ElementSTRts_XPG_tcfC
+- _$s10NewsDaemon22MergedFeedItemSequenceVMa
+- _$s10NewsDaemon22MergedFeedItemSequenceVSTAAMc
+- _$s10NewsDaemon25MultiDatabaseFeedItemPoolV0D6SourceO07resolveD00A4Core0efD0CyKF
+- _$s10NewsDaemon25MultiDatabaseFeedItemPoolV0D6SourceO10myArticlesyAE0A4Core0efD3RefCcAEmFWC
+- _$s10NewsDaemon25MultiDatabaseFeedItemPoolV0D6SourceO12isMyArticlesSbvg
+- _$s10NewsDaemon25MultiDatabaseFeedItemPoolV0D6SourceO14peopleAlsoReadyAE0A4Core0efD3RefCcAEmFWC
+- _$s10NewsDaemon25MultiDatabaseFeedItemPoolV0D6SourceO9globalESLyAE0A4Core0efD3RefCcAEmFWC
+- _$s10NewsDaemon25MultiDatabaseFeedItemPoolV0D6SourceO9isESLOnlySbvg
+- _$s10NewsDaemon25MultiDatabaseFeedItemPoolV0D6SourceO9perTagESLyAE0A4Core0efD3RefCcAEmFWC
+- _$s10NewsDaemon25MultiDatabaseFeedItemPoolV0D6SourceOMa
+- _$s10NewsDaemon25MultiDatabaseFeedItemPoolV0D6SourceOMn
+- _$s10NewsDaemon26NDFeedItemPoolFetchOptionsC4nameSSvg
+- _$s10NewsDaemon26NDFeedItemPoolFetchOptionsC6maxAgeSdvg
+- _$s10NewsDaemon26NDFeedItemPoolFetchOptionsCMn
+- _$s10NewsDaemon27LiveActivityScheduleRequestC0aC14ActivitiesCoreE09scheduledD0AD09ScheduledcD0Vvg
+- _$s10NewsDaemon27LiveActivityScheduleRequestCMn
+- _$s10NewsDaemon27NDScoringServiceEnvironmentC4newsACvgZ
+- _$s10NewsDaemon27NDScoringServiceEnvironmentC7currentACvgZ
+- _$s10NewsDaemon27NDScoringServiceEnvironmentCMa
+- _$s10NewsDaemon28EngagementDataEnqueueHandlerCAA0cdeF4TypeAAWP
+- _$s10NewsDaemon28EngagementDataEnqueueHandlerCACycfc
+- _$s10NewsDaemon28EngagementDataEnqueueHandlerCMa
+- _$s10NewsDaemon28NDFeedItemPoolEnabledSourcesV10myArticlesACvgZ
+- _$s10NewsDaemon28NDFeedItemPoolEnabledSourcesV14peopleAlsoReadACvgZ
+- _$s10NewsDaemon28NDFeedItemPoolEnabledSourcesV9globalESLACvgZ
+- _$s10NewsDaemon28NDFeedItemPoolEnabledSourcesV9perTagESLACvgZ
+- _$s10NewsDaemon28NDFeedItemPoolEnabledSourcesVMa
+- _$s10NewsDaemon28NDFeedItemPoolEnabledSourcesVs10SetAlgebraAAMc
+- _$s10NewsDaemon28NDManagedFeedItemPoolOptionsC015preferredFilterG0So06FCFeediG0Vvg
+- _$s10NewsDaemon28NDManagedFeedItemPoolOptionsC14enabledSourcesAA06NDFeedef7EnabledI0Vvg
+- _$s10NewsDaemon28NDManagedFeedItemPoolOptionsC14preferredCountSivg
+- _$s10NewsDaemon28NDManagedFeedItemPoolOptionsC14preferredOrder0A4Core0deI0Ovg
+- _$s10NewsDaemon28NDManagedFeedItemPoolOptionsC16configurationSetSo034FCFeedPersonalizationConfigurationI0Vvg
+- _$s10NewsDaemon28NDManagedFeedItemPoolOptionsC17preferredESLRatioSdvg
+- _$s10NewsDaemon28NDManagedFeedItemPoolOptionsC20includeAllFromTagIDsSaySSGvg
+- _$s10NewsDaemon28NDManagedFeedItemPoolOptionsC4nameSSvg
+- _$s10NewsDaemon28NDManagedFeedItemPoolOptionsCMa
+- _$s10NewsDaemon28NDManagedFeedItemPoolOptionsCMn
+- _$s10NewsDaemon28NDManagedFeedItemPoolOptionsCSEAAMc
+- _$s10NewsDaemon28NDManagedFeedItemPoolOptionsCSeAAMc
+- _$s10NewsDaemon29ProxyScoringServiceConnectionC08withSyncdE0yxyAA09NDScoringE4Type_p_yxSg_s5Error_pSgtctKXEKlF
+- _$s10NewsDaemon29ProxyScoringServiceConnectionC09withAsyncdE0yxyAA09NDScoringE4Type_p_yxSg_s5Error_pSgtctKXEYaKlF
+- _$s10NewsDaemon29ProxyScoringServiceConnectionC09withAsyncdE0yxyAA09NDScoringE4Type_p_yxSg_s5Error_pSgtctKXEYaKlFTu
+- _$s10NewsDaemon29ProxyScoringServiceConnectionC13InterestTokenC10invalidateyyF
+- _$s10NewsDaemon29ProxyScoringServiceConnectionC13interestTokenAC08InterestH0CyF
+- _$s10NewsDaemon29ProxyScoringServiceConnectionC6sharedACvgZ
+- _$s10NewsDaemon29ProxyScoringServiceConnectionCMa
+- _$s10NewsDaemon29ProxyScoringServiceConnectionCMn
+- _$s10NewsDaemon30NDTodayFeedServiceXPCInterfaceSo14NSXPCInterfaceCyF
+- _$s10NewsDaemon32EngagementDataEnqueueHandlerTypeMp
+- _$s10NewsDaemon32EngagementDataEnqueueHandlerTypeP07enqueuecD0yySDys11AnyHashableVypGFTj
+- _$s11SubSequenceSlTl
+- _$s11TeaSettings0B0C8NewsCoreE12AppIconBadgeV0efG6SourceO4newsyA2HmFWC
+- _$s11TeaSettings0B0C8NewsCoreE12AppIconBadgeV0efG6SourceO7mercuryyAHSS_tcAHmFWC
+- _$s11TeaSettings0B0C8NewsCoreE12AppIconBadgeV0efG6SourceO7unknownyA2HmFWC
+- _$s11TeaSettings0B0C8NewsCoreE12AppIconBadgeV0efG6SourceOMa
+- _$s11TeaSettings0B0C8NewsCoreE12AppIconBadgeV18actionMetricsEventAA7SettingCy10Foundation4DataVGvgZ
+- _$s11TeaSettings0B0C8NewsCoreE12AppIconBadgeV6activeAA7SettingCySbGvgZ
+- _$s11TeaSettings0B0C8NewsCoreE12AppIconBadgeV6sourceAA7SettingCyAF0efG6SourceOGvgZ
+- _$s11TeaSettings0B0C8NewsCoreE12AppIconBadgeV7metricsAA7SettingCy10Foundation4DataVGvgZ
+- _$s11TeaSettings12ConfigurableMp
+- _$s11TeaSettings12ConfigurableP7setting_12defaultValue_qd__AA7SettingCyqd__G_qd__Sgyqd__ctAA8SettableRd__lFTq
+- _$s11TeaSettings12ConfigurableP7setting_12defaultValueqd__AA7SettingCyqd__G_qd__SgtAA8SettableRd__lFTq
+- _$s11TeaSettings12ConfigurableP7settingyqd__AA7SettingCyqd__GAA8SettableRd__lFTq
+- _$s11TeaSettings12ConfigurableP7settingyqd__AA7SettingCyqd__G_yqd__ctAA8SettableRd__lFTq
+- _$s11TeaSettings12ConfigurablePAAE7setting_12defaultValue_qd__AA7SettingCyqd__G_qd__Sgyqd__ctAA8SettableRd__lF
+- _$s11TeaSettings12ConfigurablePAAE7setting_12defaultValueqd__AA7SettingCyqd__G_qd__SgtAA8SettableRd__lF
+- _$s11TeaSettings12ConfigurablePAAE7settingyqd__AA7SettingCyqd__GAA8SettableRd__lF
+- _$s11TeaSettings12ConfigurablePAAE7settingyqd__AA7SettingCyqd__G_yqd__ctAA8SettableRd__lF
+- _$s11TeaSettings9UpdatableMp
+- _$s11TeaSettings9UpdatableP4save7setting5valueyAA7SettingCyqd__G_qd__tAA8SettableRd__lFTq
+- _$s11TeaSettings9UpdatableP5apply6presetyAA6PresetC_tFTq
+- _$s11TeaSettings9UpdatableP5reset7settingyAA7SettingCyqd__G_tAA8SettableRd__lFTq
+- _$s11TeaSettings9UpdatablePAA12ConfigurableTb
+- _$s11TeaSettings9UpdatablePAAE4save7setting5valueyAA7SettingCyqd__G_qd__tAA8SettableRd__lF
+- _$s11TeaSettings9UpdatablePAAE5apply6presetyAA6PresetC_tF
+- _$s11TeaSettings9UpdatablePAAE5reset7settingyAA7SettingCyqd__G_tAA8SettableRd__lF
+- _$s13TeaFoundation10DefinitionC13thenConfigureyACyxGXDyx_AA12ResolverType_ptcF
+- _$s13TeaFoundation10DefinitionC7inScopeyACyxGXDAA0E0OF
+- _$s13TeaFoundation11MachServiceV16serviceInterfaceAA12XPCInterfaceVvg
+- _$s13TeaFoundation11MachServiceVMa
+- _$s13TeaFoundation12AssemblyTypeMp
+- _$s13TeaFoundation12AssemblyTypeP4load2inyAA14ProxyContainerC_tFTq
+- _$s13TeaFoundation12CapabilitiesC15isInternalBuildSbyFZ
+- _$s13TeaFoundation12CapabilitiesCMa
+- _$s13TeaFoundation12ResolverTypeP07bridgedC0So10TFResolver_pvgTj
+- _$s13TeaFoundation12ResolverTypeP7resolve_4nameqd__Sgqd__m_SSSgtlFTj
+- _$s13TeaFoundation12ResolverTypeP7resolveyqd__Sgqd__mRld__ClFTj
+- _$s13TeaFoundation12ResolverTypeP7resolveyqd__Sgqd__mlFTj
+- _$s13TeaFoundation12XPCInterfaceV16asNSXPCInterfaceSo0E0CyF
+- _$s13TeaFoundation12XPCInterfaceVMa
+- _$s13TeaFoundation13SingletonPoolCACycfc
+- _$s13TeaFoundation13SingletonPoolCMa
+- _$s13TeaFoundation14ProxyContainerC6publicAA012RegistrationD0Cvg
+- _$s13TeaFoundation14ProxyContainerC7privateAA012RegistrationD0Cvg
+- _$s13TeaFoundation15BridgedAssemblyCAA0D4TypeAAWP
+- _$s13TeaFoundation15BridgedAssemblyCMa
+- _$s13TeaFoundation15BridgedAssemblyCyACSo10TFAssembly_pcfc
+- _$s13TeaFoundation18BundleAssemblyTypeMp
+- _$s13TeaFoundation21RegistrationContainerC4lazy5blockyyACc_tF
+- _$s13TeaFoundation21RegistrationContainerC8register_4name7factoryAA10DefinitionCyxGxm_SSSgxAA12ResolverType_pctRlzClF
+- _$s13TeaFoundation21RegistrationContainerC8register_4name7factoryAA10DefinitionCyxGxm_SSSgxAA12ResolverType_pctlF
+- _$s13TeaFoundation5ScopeO9singletonyA2CmFWC
+- _$s13TeaFoundation5ScopeOMa
+- _$s13TeaFoundation8AccessorCMn
+- _$s13TeaFoundation8AccessorCyACyxGxyccfc
+- _$s13TeaFoundation9ContainerC11EnvironmentO6normalyA2EmFWC
+- _$s13TeaFoundation9ContainerC11EnvironmentOMa
+- _$s13TeaFoundation9ContainerC16bundleAssemblies10assemblies13singletonPool11environmentACSayAA18BundleAssemblyType_pG_SayAA0kL0_pGAA09SingletonH0CAC11EnvironmentOtcfc
+- _$s13TeaFoundation9ContainerC8resolverAA12ResolverType_pvg
+- _$s13TeaFoundation9ContainerCMa
+- _$s19NewsAnalyticsUpload8AssemblyC13TeaFoundation06BundleD4TypeAAMc
+- _$s19NewsAnalyticsUpload8AssemblyCMa
+- _$s22NewsLiveActivitiesCore09ScheduledB8ActivityV10activityIDAA08NewsroomfH0Vvg
+- _$s22NewsLiveActivitiesCore09ScheduledB8ActivityV10retryCountSivg
+- _$s22NewsLiveActivitiesCore09ScheduledB8ActivityV12scheduleDate10Foundation0H0Vvg
+- _$s22NewsLiveActivitiesCore09ScheduledB8ActivityV13retryCountMaxs5Int64Vvg
+- _$s22NewsLiveActivitiesCore09ScheduledB8ActivityV13retryIntervalSdvg
+- _$s22NewsLiveActivitiesCore09ScheduledB8ActivityV13scheduleDelaySdvg
+- _$s22NewsLiveActivitiesCore09ScheduledB8ActivityV15scheduleRequest0A6Daemon0bf8ScheduleH0Cvg
+- _$s22NewsLiveActivitiesCore09ScheduledB8ActivityV16backgroundTaskIDSSvg
+- _$s22NewsLiveActivitiesCore09ScheduledB8ActivityV18randomInitialDelaySdvg
+- _$s22NewsLiveActivitiesCore09ScheduledB8ActivityV18scheduleTimeWindowSdvg
+- _$s22NewsLiveActivitiesCore09ScheduledB8ActivityV20originalScheduleDate10Foundation0I0Vvg
+- _$s22NewsLiveActivitiesCore09ScheduledB8ActivityV23retryScheduleTimeWindowSdvg
+- _$s22NewsLiveActivitiesCore09ScheduledB8ActivityV24expectedDownloadByteSizes5Int64Vvg
+- _$s22NewsLiveActivitiesCore09ScheduledB8ActivityV4with22backgroundTaskIDSuffix12scheduleDate016originalScheduleL010retryCount0K5Delay0K10TimeWindowACSSSg_10Foundation0L0VSgAOSiSgSdSgAQtF
+- _$s22NewsLiveActivitiesCore09ScheduledB8ActivityVMa
+- _$s22NewsLiveActivitiesCore09ScheduledB8ActivityVMn
+- _$s22NewsLiveActivitiesCore0B25ActivitySubscriptionErrorO04liveE13HasNotStartedyAC10Foundation4DateV_tcACmFWC
+- _$s22NewsLiveActivitiesCore0B25ActivitySubscriptionErrorOMa
+- _$s22NewsLiveActivitiesCore0aB18ActivityRepositoryMp
+- _$s22NewsLiveActivitiesCore0aB18ActivityRepositoryP06removeE010identifieryAA08NewsroomE2IDV_tYaFTj
+- _$s22NewsLiveActivitiesCore0aB18ActivityRepositoryP06removeE010identifieryAA08NewsroomE2IDV_tYaFTjTu
+- _$s22NewsLiveActivitiesCore0aB18ActivityRepositoryP10activitiesSayAA0abE0VGvgTj
+- _$s22NewsLiveActivitiesCore0aB18ActivityRepositoryP10activitiesSayAA0abE0VGvgTjTu
+- _$s22NewsLiveActivitiesCore0aB18ActivityRepositoryP5storeyyAA0abE0VYaFTj
+- _$s22NewsLiveActivitiesCore0aB18ActivityRepositoryP5storeyyAA0abE0VYaFTjTu
+- _$s22NewsLiveActivitiesCore0aB20ActivityChangeSourceOMa
+- _$s22NewsLiveActivitiesCore0aB20ActivityChangeSourceOMn
+- _$s22NewsLiveActivitiesCore0aB20ActivityLauncherTypeMp
+- _$s22NewsLiveActivitiesCore0aB20ActivityLauncherTypeP05startE010activityIDyAA08NewsroomeJ0V_tYaKFTj
+- _$s22NewsLiveActivitiesCore0aB20ActivityLauncherTypeP05startE010activityIDyAA08NewsroomeJ0V_tYaKFTjTu
+- _$s22NewsLiveActivitiesCore0aB25ActivitySubscriptionStateO9scheduledyAcA09ScheduledbE0VcACmFWC
+- _$s22NewsLiveActivitiesCore0aB25ActivitySubscriptionStateOMa
+- _$s22NewsLiveActivitiesCore0aB25ActivitySubscriptionStateOMn
+- _$s22NewsLiveActivitiesCore0aB25ActivitySubscriptionStateOs23CustomStringConvertibleAAMc
+- _$s22NewsLiveActivitiesCore0aB8ActivityV17subscriptionStateAA0abe12SubscriptionG0Ovg
+- _$s22NewsLiveActivitiesCore0aB8ActivityV2idAA08NewsroomE2IDVvg
+- _$s22NewsLiveActivitiesCore0aB8ActivityV4with17subscriptionState22lastUpdatedContentDate0G6Source09dismissalM0AcA0abe12SubscriptionH0OSg_10Foundation0L0VSgAA0abe6ChangeM0OSgARtF
+- _$s22NewsLiveActivitiesCore0aB8ActivityVMa
+- _$s22NewsLiveActivitiesCore0aB8ActivityVMn
+- _$s22NewsLiveActivitiesCore18NewsroomActivityIDVMa
+- _$s22NewsLiveActivitiesCore18NewsroomActivityIDVs23CustomStringConvertibleAAMc
+- _$s22NewsLiveActivitiesCore8AssemblyC13TeaFoundation0E4TypeAAMc
+- _$s22NewsLiveActivitiesCore8AssemblyCMa
+- _$s2os0A4_log_3dso0B04type_ys12StaticStringV_SVSgSo03OS_a1_B0CSo0a1_b1_D2_tas7CVarArg_pdtF
+- _$s2os6LoggerV10NewsDaemonE012liveActivityD0ACvgZ
+- _$s2os6LoggerV10NewsDaemonE12feedItemPoolACvgZ
+- _$s2os6LoggerV10NewsDaemonE13notificationsACvgZ
+- _$s2os6LoggerV10NewsDaemonE14scoringServiceACvgZ
+- _$s2os6LoggerV10NewsDaemonE16todayFeedServiceACvgZ
+- _$s2os6LoggerV9logObjectSo03OS_a1_C0Cvg
+- _$s2os6LoggerVMa
+- _$s5IndexSlTl
+- _$s5TeaDB10ExpressionO2inyACSS_SayAA14QueryValueType_pGtcACmFWC
+- _$s5TeaDB10ExpressionOMa
+- _$s5TeaDB14QueryValueTypeMp
+- _$s5TeaDB6ColumnC5valuexSgvgTj
+- _$s5TeaDB6ColumnC5valuexSgvgTq
+- _$s5TeaDB6ColumnC5valuexSgvpMV
+- _$s5TeaDB6ColumnC5valuexSgvsTj
+- _$s5TeaDB6ColumnCMn
+- _$s7ElementSTTl
+- _$s7IndicesSlTl
+- _$s8Dispatch0A3QoSV11unspecifiedACvgZ
+- _$s8Dispatch0A3QoSVMa
+- _$s8Dispatch0A9PredicateO7onQueueyACSo17OS_dispatch_queueCcACmFWC
+- _$s8Dispatch0A9PredicateOMa
+- _$s8Dispatch25_dispatchPreconditionTestySbAA0A9PredicateOF
+- _$s8IteratorSTTl
+- _$s8NewsCore13FeedItemOrderO21forYouScoreDescendingyA2CmFWC
+- _$s8NewsCore13FeedItemOrderO21publishDateDescendingyA2CmFWC
+- _$s8NewsCore13FeedItemOrderO22defaultScoreDescendingyA2CmFWC
+- _$s8NewsCore13FeedItemOrderO3anyyA2CmFWC
+- _$s8NewsCore13FeedItemOrderOMa
+- _$s8NewsCore14FeedItemEntityV7ColumnsV6feedIDSSvgZ
+- _$s8NewsCore16FeedItemDatabaseC013feedIDsForTagG0ySaySSGAEKF
+- _$s8NewsCore16FeedItemDatabaseC03allcD8Entities_5orderQrxm_AA0cD5OrderOtKAA0cD10EntityTypeRzlF
+- _$s8NewsCore16FeedItemDatabaseC03allcD8Entities_5orderQrxm_AA0cD5OrderOtKAA0cD10EntityTypeRzlFQOMQ
+- _$s8NewsCore16FeedItemDatabaseC03allcD8Entities_5where5orderQrxm_5TeaDB10ExpressionOAA0cD5OrderOtKAA0cD10EntityTypeRzlF
+- _$s8NewsCore16FeedItemDatabaseC03allcD8Entities_5where5orderQrxm_5TeaDB10ExpressionOAA0cD5OrderOtKAA0cD10EntityTypeRzlFQOMQ
+- _$s8NewsCore16FeedItemDatabaseC11toReferenceAA0cdE3RefCyKF
+- _$s8NewsCore17MyArticlesRequestC04lastE6IssuedACSgvgZ
+- _$s8NewsCore17MyArticlesRequestC4copy4withACSo11FCDateRangeC_tF
+- _$s8NewsCore17MyArticlesRequestCMa
+- _$s8NewsCore21DropboxReadingHistoryC11addInterestAA0G9TokenType_pyF
+- _$s8NewsCore21DropboxReadingHistoryC17allReadArticleIDsShySSGvg
+- _$s8NewsCore21DropboxReadingHistoryC17allReadClusterIDsShySSGvg
+- _$s8NewsCore21DropboxReadingHistoryC17allSeenArticleIDsShySSGvg
+- _$s8NewsCore21DropboxReadingHistoryC17allSeenClusterIDsShySSGvg
+- _$s8NewsCore21DropboxReadingHistoryCMa
+- _$s8NewsCore21DropboxReadingHistoryCMn
+- _$s8NewsCore21FeedItemInventoryNameV10myArticlesSSvgZ
+- _$s8NewsCore21FeedItemInventoryNameV14peopleAlsoReadSSvgZ
+- _$s8NewsCore21FeedItemInventoryNameV9globalESLSSvgZ
+- _$s8NewsCore21FeedItemInventoryNameV9perTagESLSSvgZ
+- _$s8NewsCore21FeedItemInventoryTypeMp
+- _$s8NewsCore21FeedItemInventoryTypeP11databaseRefAA0cd8DatabaseH0CyKFTj
+- _$s8NewsCore21FeedItemInventoryTypeP15lastRefreshDate10Foundation0I0VSgvgTj
+- _$s8NewsCore21FeedItemInventoryTypeP15refreshIfNeeded6policyyAA0cdE13RefreshPolicyO_tYaKFTj
+- _$s8NewsCore21FeedItemInventoryTypeP15refreshIfNeeded6policyyAA0cdE13RefreshPolicyO_tYaKFTjTu
+- _$s8NewsCore21FeedItemInventoryTypeP23tokenForCoordinatedReadSo17FCFileAccessTokenCyYaKFTj
+- _$s8NewsCore21FeedItemInventoryTypeP23tokenForCoordinatedReadSo17FCFileAccessTokenCyYaKFTjTu
+- _$s8NewsCore21FeedItemInventoryTypePAAE22validateHasScoredItemsyyKF
+- _$s8NewsCore22FeedItemAndScoreEntityV04feedD0So08NTPBFeedD0Cvg
+- _$s8NewsCore22FeedItemAndScoreEntityV06forYouF05TeaDB6ColumnCySdGvg
+- _$s8NewsCore22FeedItemAndScoreEntityV06forYouF05TeaDB6ColumnCySdGvpMV
+- _$s8NewsCore22FeedItemAndScoreEntityV07defaultF05TeaDB6ColumnCySdGvg
+- _$s8NewsCore22FeedItemAndScoreEntityV07defaultF05TeaDB6ColumnCySdGvpMV
+- _$s8NewsCore22FeedItemAndScoreEntityVAA0cdG4TypeAAMc
+- _$s8NewsCore22FeedItemAndScoreEntityVMa
+- _$s8NewsCore22FeedItemAndScoreEntityVMn
+- _$s8NewsCore23DropboxSubscriptionListC11addInterestAA0G9TokenType_pyF
+- _$s8NewsCore23DropboxSubscriptionListC11mutedTagIDsShySSGvg
+- _$s8NewsCore23DropboxSubscriptionListC16subscribedTagIDsShySSGvg
+- _$s8NewsCore23DropboxSubscriptionListC18autoFavoriteTagIDsShySSGvg
+- _$s8NewsCore23DropboxSubscriptionListCMa
+- _$s8NewsCore23DropboxSubscriptionListCMn
+- _$s8NewsCore23NotificationHistoryItemV10notifiedAt10Foundation4DateVvg
+- _$s8NewsCore23NotificationHistoryItemV6sourceSo016NTPBNotificationE17ListRecord_SourceVvg
+- _$s8NewsCore23NotificationHistoryItemV9channelIDSSvg
+- _$s8NewsCore23NotificationHistoryItemV9clusterIDSSvg
+- _$s8NewsCore23NotificationHistoryItemVMa
+- _$s8NewsCore23NotificationHistoryItemVMn
+- _$s8NewsCore23NotificationHistoryItemV_10notifiedAtACSo016NTPBNotificationE0C_10Foundation4DateVtcfC
+- _$s8NewsCore23NotificationHistoryTypeMp
+- _$s8NewsCore23NotificationHistoryTypeP06recentD5ItemsSl_pAA0cD4ItemV7ElementRts_XPyYaKFTj
+- _$s8NewsCore23NotificationHistoryTypeP06recentD5ItemsSl_pAA0cD4ItemV7ElementRts_XPyYaKFTjTu
+- _$s8NewsCore23NotificationHistoryTypePAAE3addyyAA0cD4ItemVKF
+- _$s8NewsCore26FeedItemScoringServiceTypeMp
+- _$s8NewsCore26FeedItemScoringServiceTypeP10scoreItems2in16configurationSetyAA0cD8DatabaseC_So034FCFeedPersonalizationConfigurationL0VtYaKFTq
+- _$s8NewsCore27PrivateDataContextOverridesV18apsMachServiceName18relatedAppBundleIDACSSSg_AFtcfC
+- _$s8NewsCore27PrivateDataContextOverridesVMa
+- _$s8NewsCore28MyArticlesRequestFactoryTypeMp
+- _$s8NewsCore28MyArticlesRequestFactoryTypeP06createE09dateRange13configuration7sidecar8maxFeeds0M12ItemsPerFeed11binOverrideAA0cdE0CSo06FCDateJ0C_So19FCCoreConfiguration_pSgSo20FCForYouQuerySidecar_pSgS2iSo9FCFeedBinVtYaKFTq
+- _$s8NewsCore30FeedItemInventoryRefreshPolicyO7defaultyA2CmFWC
+- _$s8NewsCore30FeedItemInventoryRefreshPolicyOMa
+- _$s8NewsCore32DropboxBundleSubscriptionManagerCMa
+- _$s8NewsCore42SmarterFetchUserInterestVectorProviderTypeMp
+- _$s8NewsCore45DropboxSmarterFetchUserInterestVectorProviderCAA0defghI4TypeAAWP
+- _$s8NewsCore45DropboxSmarterFetchUserInterestVectorProviderCMa
+- _$s8NewsCore8AssemblyC13TeaFoundation06BundleC4TypeAAMc
+- _$s8NewsCore8AssemblyCMa
+- _$s8RawValueSYTl
+- _$sBOWV
+- _$sBoWV
+- _$sS2cEycfC
+- _$sSD10FoundationE19_bridgeToObjectiveCSo12NSDictionaryCyF
+- _$sSD10FoundationE36_unconditionallyBridgeFromObjectiveCySDyxq_GSo12NSDictionaryCSgFZ
+- _$sSD11descriptionSSvg
+- _$sSE6encode2toys7Encoder_p_tKFTq
+- _$sSEMp
+- _$sSH13_rawHashValue4seedS2i_tFTq
+- _$sSH4hash4intoys6HasherVz_tFTq
+- _$sSH9hashValueSivgTq
+- _$sSHMp
+- _$sSHSQTb
+- _$sSK11SubSequenceSl_SKTn
+- _$sSK5index6before5IndexQzAD_tFTq
+- _$sSK5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtFTq
+- _$sSK5index_8offsetBy5IndexQzAD_SitFTq
+- _$sSK7IndicesSl_SKTn
+- _$sSK8distance4from2toSi5IndexQz_AEtFTq
+- _$sSK9formIndex6beforey0B0Qzz_tFTq
+- _$sSKMp
+- _$sSKSlTb
+- _$sSL2geoiySbx_xtFZTj
+- _$sSQ2eeoiySbx_xtFZTj
+- _$sSQ2eeoiySbx_xtFZTq
+- _$sSQMp
+- _$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF
+- _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ
+- _$sSS10FoundationE6format_S2Sh_s7CVarArg_pdtcfC
+- _$sSS10describingSSx_tclufC
+- _$sSS10lowercasedSSyF
+- _$sSS11utf8CStrings15ContiguousArrayVys4Int8VGvg
+- _$sSS21_builtinStringLiteral17utf8CodeUnitCount7isASCIISSBp_BwBi1_tcfC
+- _$sSS4hash4intoys6HasherVz_tF
+- _$sSS5TeaDB14QueryValueTypeAAWP
+- _$sSS6appendyySSF
+- _$sSS8IteratorV4nextSJSgyF
+- _$sSS8UTF8ViewV13_foreignCountSiyF
+- _$sSSN
+- _$sSSSHsWP
+- _$sSSSysMc
+- _$sSSs7CVarArg10FoundationMc
+- _$sST12makeIterator0B0QzyFTj
+- _$sST12makeIterator0B0QzyFTq
+- _$sST13_copyContents12initializing8IteratorQz_SitSry7ElementQzG_tFTq
+- _$sST19underestimatedCountSivgTq
+- _$sST22_copyToContiguousArrays0cD0Vy7ElementQzGyFTq
+- _$sST31_customContainsEquatableElementySbSg0D0QzFTq
+- _$sST32withContiguousStorageIfAvailableyqd__Sgqd__SRy7ElementQzGKXEKlFTq
+- _$sST8IteratorST_StTn
+- _$sSTMp
+- _$sSTTL
+- _$sSTsE32withContiguousStorageIfAvailableyqd__Sgqd__SRy7ElementQzGKXEKlF
+- _$sSY8rawValue03RawB0QzvgTq
+- _$sSY8rawValuexSg03RawB0Qz_tcfCTq
+- _$sSYMp
+- _$sSa034_makeUniqueAndReserveCapacityIfNotB0yyFyXl_Ts5
+- _$sSa10FoundationE19_bridgeToObjectiveCSo7NSArrayCyF
+- _$sSa10FoundationE34_conditionallyBridgeFromObjectiveC_6resultSbSo7NSArrayC_SayxGSgztFZ
+- _$sSa10FoundationE36_unconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ
+- _$sSa11descriptionSSvg
+- _$sSa16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFyXl_Ts5
+- _$sSa37_appendElementAssumeUniqueAndCapacity_03newB0ySi_xntFyXl_Ts5
+- _$sSayxGSEsSERzlMc
+- _$sSayxGSTsMc
+- _$sSayxGSesSeRzlMc
+- _$sSbN
+- _$sScA15unownedExecutorScevgTj
+- _$sScC12continuation8functionScCyxq_GSccyxq_G_SStcfC
+- _$sScC6resume8throwingyq_n_tF
+- _$sScC6resume9returningyxn_tF
+- _$sScEMa
+- _$sScEs5ErrorsMc
+- _$sScP8rawValues5UInt8Vvg
+- _$sScPMa
+- _$sScT6cancelyyF
+- _$sScTss5NeverORszABRs_rlE17checkCancellationyyKFZ
+- _$sSd10FoundationE34_conditionallyBridgeFromObjectiveC_6resultSbSo8NSNumberC_SdSgztFZ
+- _$sSd5TeaDB10ColumnTypeAAWP
+- _$sSdN
+- _$sSds7CVarArgsWP
+- _$sSe4fromxs7Decoder_p_tKcfCTq
+- _$sSeMp
+- _$sSh10FoundationE36_unconditionallyBridgeFromObjectiveCyShyxGSo5NSSetCSgFZ
+- _$sSh11descriptionSSvg
+- _$sSh15minimumCapacityShyxGSi_tcfC
+- _$sSi10FoundationE19_bridgeToObjectiveCSo8NSNumberCyF
+- _$sSiN
+- _$sSiSLsWP
+- _$sSiSZsMc
+- _$sSiSxsWP
+- _$sSis23CustomStringConvertiblesWP
+- _$sSis7CVarArgsWP
+- _$sSk11SubSequenceSl_SkTn
+- _$sSk5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtFTq
+- _$sSk5index_8offsetBy5IndexQzAD_SitFTq
+- _$sSk7IndicesSl_SkTn
+- _$sSk8distance4from2toSi5IndexQz_AEtFTq
+- _$sSkMp
+- _$sSkSKTb
+- _$sSl10startIndex0B0QzvgTq
+- _$sSl11SubSequenceSl_SlTn
+- _$sSl20_failEarlyRangeCheck_6boundsy5IndexQz_SNyADGtFTq
+- _$sSl20_failEarlyRangeCheck_6boundsy5IndexQz_SnyADGtFTq
+- _$sSl20_failEarlyRangeCheck_6boundsySny5IndexQzG_AEtFTq
+- _$sSl30_customIndexOfEquatableElementy0B0QzSgSg0E0QzFTq
+- _$sSl34_customLastIndexOfEquatableElementy0C0QzSgSg0F0QzFTq
+- _$sSl5IndexSl_SLTn
+- _$sSl5countSivgTj
+- _$sSl5countSivgTq
+- _$sSl5index5after5IndexQzAD_tFTq
+- _$sSl5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtFTq
+- _$sSl5index_8offsetBy5IndexQzAD_SitFTq
+- _$sSl7IndicesSl_SlTn
+- _$sSl7indices7IndicesQzvgTq
+- _$sSl7isEmptySbvgTq
+- _$sSl8distance4from2toSi5IndexQz_AEtFTq
+- _$sSl8endIndex0B0QzvgTq
+- _$sSl9formIndex5aftery0B0Qzz_tFTq
+- _$sSlMp
+- _$sSlSTTb
+- _$sSly11SubSequenceQzSny5IndexQzGcigTq
+- _$sSly7ElementQz5IndexQzcirTq
+- _$sSnyxGSKsSxRzSZ6StrideRpzrlMc
+- _$sSnyxGSksSxRzSZ6StrideRpzrlMc
+- _$sSnyxGSlsSxRzSZ6StrideRpzrlMc
+- _$sSo12NSFileHandleC10FoundationE4read9upToCountAC4DataVSgSi_tKF
+- _$sSo13NSFileManagerC10FoundationE13replaceItemAt_04witheF006backupE4Name7optionsAC3URLVSgAI_AISSSgSo0abE18ReplacementOptionsVtKF
+- _$sSo13os_log_type_ta0A0E5errorABvgZ
+- _$sSo13os_log_type_ta0A0E7defaultABvgZ
+- _$sSo14AMSPushHandlerC10NewsDaemonE08newsPushB0AByFZ
+- _$sSo17OS_dispatch_queueC8DispatchE10AttributesVMa
+- _$sSo17OS_dispatch_queueC8DispatchE10AttributesVMn
+- _$sSo17OS_dispatch_queueC8DispatchE10AttributesVs10SetAlgebraACMc
+- _$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyO8workItemyA2EmFWC
+- _$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyOMa
+- _$sSo17OS_dispatch_queueC8DispatchE4mainABvgZ
+- _$sSo17OS_dispatch_queueC8DispatchE4sync7executexxyKXE_tKlF
+- _$sSo17OS_dispatch_queueC8DispatchE5label3qos10attributes20autoreleaseFrequency6targetABSS_AC0D3QoSVAbCE10AttributesVAbCE011AutoreleaseI0OABSgtcfC
+- _$sSo7NSArrayC10FoundationE12arrayLiteralABypd_tcfC
+- _$sSo8NSObjectCs7CVarArg10ObjectiveCMc
+- _$sSo9OS_os_logC0B0E7defaultABvgZ
+- _$sSt4next7ElementQzSgyFTj
+- _$ss018_bridgeAnyObjectToB0yypyXlSgF
+- _$ss10SetAlgebraP10isSuperset2ofSbx_tFTj
+- _$ss10SetAlgebraPyxqd__ncSTRd__7ElementQyd__ACRtzlufCTj
+- _$ss10_HashTableV12previousHole6beforeAB6BucketVAF_tF
+- _$ss11AnyHashableV13_rawHashValue4seedS2i_tF
+- _$ss11AnyHashableV2eeoiySbAB_ABtFZ
+- _$ss11AnyHashableVMn
+- _$ss11AnyHashableVN
+- _$ss11AnyHashableVSHsWP
+- _$ss11AnyHashableVyABxcSHRzlufC
+- _$ss11AnySequenceVMn
+- _$ss11AnySequenceVyxGSTsMc
+- _$ss11_SetStorageC4copy8originalAByxGs05__RawaB0C_tFZ
+- _$ss11_SetStorageC6resize8original8capacity4moveAByxGs05__RawaB0C_SiSbtFZ
+- _$ss11_SetStorageC8allocate8capacityAByxGSi_tFZ
+- _$ss11_SetStorageCMn
+- _$ss11_StringGutsV16_foreignCopyUTF84intoSiSgSrys5UInt8VG_tF
+- _$ss11_StringGutsV4growyySiF
+- _$ss11_StringGutsVN
+- _$ss12LazySequenceVMn
+- _$ss12_ArrayBufferV19_getElementSlowPathyyXlSiFyXl_Ts5
+- _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFyXl_Ts5
+- _$ss12_SequenceBoxCMn
+- _$ss13_StringObjectV10sharedUTF8SRys5UInt8VGvg
+- _$ss15ContiguousArrayV12_endMutationyyFyXl_Ts5
+- _$ss15ContiguousArrayV28_allocateBufferUninitialized15minimumCapacitys01_abD0VyxGSi_tFZ
+- _$ss15ContinuousClockV7InstantVMa
+- _$ss15ContinuousClockV7InstantVs0C8ProtocolsMc
+- _$ss15ContinuousClockVMa
+- _$ss15ContinuousClockVs0B0sMc
+- _$ss15InstantProtocolP8advanced2byx8DurationQz_tFTj
+- _$ss15LazyMapSequenceVMn
+- _$ss15_print_unlockedyyx_q_zts16TextOutputStreamR_r0_lF
+- _$ss16IndexingIteratorVMn
+- _$ss16IndexingIteratorVyxGStsMc
+- _$ss18LazyFilterSequenceVMn
+- _$ss18LazyFilterSequenceVyxGSTsMc
+- _$ss18_CocoaArrayWrapperV8endIndexSivg
+- _$ss18_DictionaryStorageC4copy8originalAByxq_Gs05__RawaB0C_tFZ
+- _$ss18_DictionaryStorageC6resize8original8capacity4moveAByxq_Gs05__RawaB0C_SiSbtFZ
+- _$ss18_DictionaryStorageC8allocate8capacityAByxq_GSi_tFZ
+- _$ss18_DictionaryStorageCMn
+- _$ss20__StaticArrayStorageCN
+- _$ss21_findStringSwitchCase5cases6stringSiSays06StaticB0VG_SStF
+- _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeySbSgSbm_xtKF
+- _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeySdSgSdm_xtKF
+- _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeySiSgSim_xtKF
+- _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeyqd__Sgqd__m_xtKSeRd__lF
+- _$ss22KeyedDecodingContainerV6decode_6forKeyS2Sm_xtKF
+- _$ss22KeyedDecodingContainerV6decode_6forKeyS2dm_xtKF
+- _$ss22KeyedDecodingContainerV6decode_6forKeyS2im_xtKF
+- _$ss22KeyedDecodingContainerV6decode_6forKeyqd__qd__m_xtKSeRd__lF
+- _$ss22KeyedDecodingContainerVMn
+- _$ss22KeyedEncodingContainerV15encodeIfPresent_6forKeyySdSg_xtKF
+- _$ss22KeyedEncodingContainerV6encode_6forKeyySS_xtKF
+- _$ss22KeyedEncodingContainerV6encode_6forKeyySd_xtKF
+- _$ss22KeyedEncodingContainerV6encode_6forKeyySi_xtKF
+- _$ss22KeyedEncodingContainerV6encode_6forKeyyqd___xtKSERd__lF
+- _$ss22KeyedEncodingContainerVMn
+- _$ss22_minimumMergeRunLengthyS2iF
+- _$ss23CustomStringConvertibleMp
+- _$ss23CustomStringConvertibleP11descriptionSSvgTj
+- _$ss23CustomStringConvertibleP11descriptionSSvgTq
+- _$ss23LazyPrefixWhileSequenceVMn
+- _$ss23_ContiguousArrayStorageCMn
+- _$ss26DefaultStringInterpolationVN
+- _$ss26DefaultStringInterpolationVs16TextOutputStreamsWP
+- _$ss27_stringCompareWithSmolCheck__9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF
+- _$ss28CustomDebugStringConvertibleMp
+- _$ss28CustomDebugStringConvertibleP16debugDescriptionSSvgTq
+- _$ss50ELEMENT_TYPE_OF_SET_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF
+- _$ss53KEY_TYPE_OF_DICTIONARY_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF
+- _$ss5ClockP3now7InstantQzvgTj
+- _$ss5ClockP5sleep5until9tolerancey7InstantQz_8DurationQzSgtYaKFTj
+- _$ss5ClockP5sleep5until9tolerancey7InstantQz_8DurationQzSgtYaKFTjTu
+- _$ss5ClockPss010ContinuousA0VRszrlE10continuousADvgZ
+- _$ss5ErrorMp
+- _$ss5ErrorP19_getEmbeddedNSErroryXlSgyFTq
+- _$ss5ErrorP5_codeSivgTq
+- _$ss5ErrorP7_domainSSvgTq
+- _$ss5ErrorP9_userInfoyXlSgvgTq
+- _$ss5ErrorPsE19_getEmbeddedNSErroryXlSgyF
+- _$ss5ErrorPsE5_codeSivg
+- _$ss5ErrorPsE7_domainSSvg
+- _$ss5ErrorPsE9_userInfoyXlSgvg
+- _$ss5ErrorWS
+- _$ss5Int32VMn
+- _$ss5Int32VN
+- _$ss5Int32VSHsWP
+- _$ss5Int64VMn
+- _$ss5NeverOMn
+- _$ss5NeverON
+- _$ss5NeverOs5ErrorsWP
+- _$ss5SliceVMn
+- _$ss5SliceVyxGSKsSKRzrlMc
+- _$ss5SliceVyxGSksSkRzrlMc
+- _$ss5SliceVyxGSlsMc
+- _$ss5UInt8VMn
+- _$ss6HasherV5_hash4seed5bytes5countS2i_s6UInt64VSitFZ
+- _$ss6HasherV5_hash4seed_S2i_s6UInt64VtFZ
+- _$ss6HasherV5_seedABSi_tcfC
+- _$ss6HasherV8_combineyySuF
+- _$ss6HasherV9_finalizeSiyF
+- _$ss6UInt64VN
+- _$ss6UInt64Vs7CVarArgsWP
+- _$ss7CVarArgMp
+- _$ss7DecoderP9container7keyedBys22KeyedDecodingContainerVyqd__Gqd__m_tKs9CodingKeyRd__lFTj
+- _$ss7EncoderP9container7keyedBys22KeyedEncodingContainerVyqd__Gqd__m_ts9CodingKeyRd__lFTj
+- _$ss8DurationV7secondsyABSdFZ
+- _$ss9CodingKeyMp
+- _$ss9CodingKeyP11stringValueSSvgTq
+- _$ss9CodingKeyP11stringValuexSgSS_tcfCTq
+- _$ss9CodingKeyP8intValueSiSgvgTq
+- _$ss9CodingKeyP8intValuexSgSi_tcfCTq
+- _$ss9CodingKeyPs23CustomStringConvertibleTb
+- _$ss9CodingKeyPs28CustomDebugStringConvertibleTb
+- _$ss9CodingKeyPsE11descriptionSSvg
+- _$ss9CodingKeyPsE16debugDescriptionSSvg
+- _$sypN
+- _$sytN
+- _NTXPCSuitableError
+- _OBJC_CLASS_$_FCAsyncSerialQueue
+- _OBJC_CLASS_$_FCFeedPersonalizedItems
+- _OBJC_CLASS_$_FCMapTable
+- _OBJC_CLASS_$_NDAnalyticsTelemetryUploader
+- _OBJC_CLASS_$_NTPBHeadlineAnalyticsElement
+- _OBJC_CLASS_$_NTPBTodayResultOperationInfo
+- _OBJC_CLASS_$_NTTodayContext
+- _kNSURLSessionLaunchOnDemandNotificationName
+- _kNSURLSessionLaunchOnDemandSessionIdentifierKey
+- _objc_opt_new
+- _objc_unsafeClaimAutoreleasedReturnValue
+- _swift_retain_x28
+- _xpc_dictionary_get_string
+CStrings:
++ "@\"NSArray\"32@0:8@\"NSArray\"16@\"NSDate\"24"
++ "@\"NSData\"16@0:8"
++ "FCItemExposureRegistryType"
++ "T@\"NSArray\",N,R"
++ "T@\"NSSet\",N,R"
++ "allExposedClusterIDs"
++ "allExposedItemIDs"
++ "eraseAll"
++ "exposuresForClusterIDs:"
++ "exposuresForItemIDs:"
++ "initWithConfiguration:configurationManager:contentHostDirectory:networkBehaviorMonitor:desiredHeadlineFieldOptions:feedUsage:appActivityMonitor:backgroundTaskable:pptContext:"
++ "newsd/NDModernAssembly.swift"
++ "newsd/NewsdLiveActivityModernAssembly.swift"
++ "newsd/NewsdNotificationsModernAssembly.swift"
++ "newsd/NewsdServiceModernAssembly.swift"
++ "pruneToMaxCount:"
++ "registerExposures:"
++ "removeExposureForItemID:"
++ "subsetOfItemIDs:accessedSinceDate:"
++ "toJSON"
++ "v32@0:8@\"OS_dispatch_queue\"16@?<v@?@\"<FCCoreConfiguration>\"@\"NSError\">24"
++ "willAccessItemIDs:"
+- "-[NDTodayClientConnection fetchLatestResultsWithParameters:completion:]"
+- "-[NDTodayClientConnection fetchModuleDescriptorsWithCompletion:]"
+- "-[NDTodayClientConnection fetchPlaceholderResultsWithOperationInfo:syncCompletion:]"
+- "-[NDTodayClientConnection initWithClient:contentContext:fetchQueue:]"
+- "-[NDTodayClientConnection init]"
+- "-[NDTodayClientConnection markAnalyticsElement:asReadAtDate:withCompletion:]"
+- "-[NDTodayClientConnection markAnalyticsElements:asSeenAtDate:withCompletion:]"
+- "-[NDTodayServiceListenerDelegate initWithContentContext:fetchQueue:]"
+- "-[NDTodayServiceListenerDelegate init]"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/NDTodayClientConnection.m"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/NDTodayServiceListenerDelegate.m"
+- "@\"<FCFeedPersonalizing>\"40@0:8@\"FCReadonlyPersonalizationAggregateStore\"16@\"<FCNewsAppConfigurationManager>\"24@\"<FCTodayPrivateData>\"32"
+- "@\"<NTTodayContext>\""
+- "@\"FCAsyncSerialQueue\""
+- "@\"NSURL\""
+- "@16@?0@\"<TFResolver>\"8"
+- "CFBundleVersion"
+- "FCFeedPersonalizerFactoryType"
+- "FCFeldsparIDProvider"
+- "NDAssembly"
+- "NDFeedPersonalizerFactory"
+- "NDNewsService"
+- "NDNewsServiceClient"
+- "NDNoSupportFeedPersonalizer"
+- "NDTodayClientConnection"
+- "NDTodayServiceListenerDelegate"
+- "T@\"<NTTodayContext>\",R,N,V_todayContext"
+- "T@\"<TFResolver>\",N,R"
+- "T@\"FCAsyncSerialQueue\",R,N,V_fetchQueue"
+- "T@\"NSObject<OS_dispatch_queue>\",R,N,V_accessQueue"
+- "T@\"NSURL\",R,C,N,V_cacheDirectoryFileURL"
+- "T@\"NSURL\",R,C,N,V_documentDirectoryFileURL"
+- "TFAssembly"
+- "URLSessionQueue"
+- "_TtC5newsd15ServiceAssembly"
+- "_TtC5newsd19PrivateDataAssembly"
+- "_TtC5newsd20LiveActivityAssembly"
+- "_TtC5newsd21NotificationsAssembly"
+- "_TtC5newsd23PersonalizationAssembly"
+- "_accessQueue"
+- "_cacheDirectoryFileURL"
+- "_documentDirectoryFileURL"
+- "_fetchQueue"
+- "_todayContext"
+- "analyticsElement"
+- "analyticsElements"
+- "cacheDirectoryFileURL"
+- "client"
+- "com.apple.newsd.ScoredNotificationPool.access"
+- "com.apple.newsd.analytics.backgroundSessionLaunch"
+- "com.apple.newsd.today"
+- "com.apple.newsd.todayclientconnection"
+- "documentDirectoryFileURL"
+- "fc_enumerateSideBySideWithArray:reverse:block:"
+- "fetchLatestResultsWithOperationInfo:completion:"
+- "fetchLatestResultsWithParameters:completion:"
+- "fetchModuleDescriptorsWithCompletion:"
+- "fetchPlaceholderResultsWithOperationInfo:syncCompletion:"
+- "fetchQueue"
+- "handleLaunchEventForBackgroundSessionWithIdentifier:completion:"
+- "inScope:"
+- "initWithClient:contentContext:fetchQueue:"
+- "initWithConfiguration:configurationManager:contentHostDirectory:networkBehaviorMonitor:networkReachability:desiredHeadlineFieldOptions:feedUsage:assetKeyManagerDelegate:appActivityMonitor:backgroundTaskable:pptContext:"
+- "initWithContentContext:feedPersonalizerFactory:groupingService:cacheInvalidationManager:todayBannerValidator:articleExposureRegistry:processVariant:accessQueue:fetchQueue:"
+- "initWithContentContext:fetchQueue:"
+- "initWithDocumentDirectoryFileURL:cacheDirectoryFileURL:"
+- "initWithMemoryCapacity:diskCapacity:diskPath:"
+- "initWithQualityOfService:"
+- "liveActivitiesEnabled"
+- "loadInRegistry:"
+- "markAnalyticsElement:asReadAtDate:withCompletion:"
+- "markAnalyticsElements:asSeenAtDate:withCompletion:"
+- "newFeedPersonalizerWithAggregateStore:appConfigurationManager:todayPrivateData:"
+- "operationInfo"
+- "parameters"
+- "placeholderResultsWithOperationInfo:"
+- "privateContainer"
+- "publicContainer"
+- "registerClass:factory:"
+- "registerProtocol:factory:"
+- "registerUserInfo:"
+- "remoteObjectProxy"
+- "resolveClass:"
+- "resolveProtocol:"
+- "serviceHasNewTodayResults"
+- "setNewResultsHandler:"
+- "setPrivateDelegate:"
+- "setRemoteObjectInterface:"
+- "setScoreProfiles:"
+- "setSortedItems:"
+- "stringWithCString:encoding:"
+- "syncCompletion"
+- "tfResolver"
+- "todayContext"
+- "v16@?0@\"NSObject<OS_xpc_object>\"8"
+- "v24@0:8@\"<FCFeldsparIDProviderObserving>\"16"
+- "v24@0:8@\"<TFContainerRegistry>\"16"
+- "v24@0:8@\"FCUserInfo\"16"
+- "v24@0:8@?<v@?@\"NSArray\"@\"NSError\"B>16"
+- "v24@?0@\"<TFResolver>\"8@\"NDAnalyticsEnvelopeManager\"16"
+- "v32@0:8@\"<NTTodayResultOperationInfoProviding>\"16@?<v@?@\"NTTodayResults\">24"
+- "v32@0:8@\"<NTTodayResultOperationInfoProviding>\"16@?<v@?@\"NTTodayResults\"@\"NSDictionary\"@\"NSObject<NTTodayResultOperationFetchInfoProviding>\"@\"NSError\"B>24"
+- "v32@0:8@\"NSObject<OS_dispatch_queue>\"16@?<v@?@\"<FCCoreConfiguration>\"@\"NSError\">24"
+- "v32@?0@\"NSString\"8@\"<NSXPCListenerDelegate>\"16^B24"
+- "v40@0:8@\"<NTHeadlineAnalyticsElementProviding>\"16@\"NSDate\"24@?<v@?@\"NSError\">32"
+- "v40@0:8@\"NSArray\"16@\"NSDate\"24@?<v@?@\"NSError\">32"
+- "v40@?0@\"NTTodayResults\"8@\"NSDictionary\"16@\"NSObject<NTTodayResultOperationFetchInfoProviding>\"24@\"NSError\"32"
+- "withConfiguration:"
+- "writeUserDidReadHeadlineWithAnalyticsElement:atDate:"
+- "writeUserDidSeeHeadlinesWithAnalyticsElements:atDate:"
+```

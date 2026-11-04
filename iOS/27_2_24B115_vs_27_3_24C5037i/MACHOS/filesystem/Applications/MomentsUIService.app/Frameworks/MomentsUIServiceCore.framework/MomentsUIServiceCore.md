@@ -1,0 +1,16 @@
+## MomentsUIServiceCore
+
+> `/Applications/MomentsUIService.app/Frameworks/MomentsUIServiceCore.framework/MomentsUIServiceCore`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+
+```diff
+
+-502.0.8.0.0
++504.0.7.0.0
+   __TEXT.__text: 0x17058
+   __TEXT.__auth_stubs: 0xc50
+   __TEXT.__objc_stubs: 0x740
+```

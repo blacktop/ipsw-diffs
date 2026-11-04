@@ -1,0 +1,52 @@
+## PhoneAppIntents
+
+> `FileSystem/System/Library/PrivateFrameworks/PhoneAppIntents.framework/LocalizedPerformError.loctable`
+
+```diff
+
+ en.ACTIVE_EMERGENCY_CALL = "Unable to dial call due to ongoing active emergency call."
+ en.ACTIVE_SOS = "Unable to dial call due to SOS being active."
+ en.AUDIO_ROUTE_NOT_FOUND = "Unable to find audio route to set call route to."
++en.CALLER_ID_IS_BLOCKED = "Can't switch to FaceTime because the caller ID is blocked"
++en.CALL_IS_ALREADY_FACETIME_VIDEO = "This call is already a FaceTime video call"
++en.CALL_NOT_CONNECTED = "Call not yet connected"
+ en.CALL_NOT_FOUND = "Unable to find call to perform action on."
+ en.CALL_TO_SENSITIVE_HANDLE = "Unable to dial call due to sensitive content previously being received from this call handle."
++en.COMPANION_DEVICE_NOT_PAIRED = "Unable to complete the request because no iPhone is paired with this Apple TV."
++en.COMPANION_DEVICE_UNREACHABLE = "Unable to complete the request because the paired iPhone could not be reached."
++en.COMPANION_FACETIME_UNSUPPORTED = "Unable to complete the request because the paired iPhone does not support FaceTime."
++en.COMPANION_LOCKDOWN_MODE_ENABLED = "Unable to complete the request because the paired iPhone has Lockdown Mode enabled."
++en.COMPANION_SOFTWARE_NOT_COMPATIBLE = "Unable to complete the request because the paired iPhone is on an incompatible software version."
+ en.CONFERENCE_CALL_GENERIC = "Unable to create FaceTime call with link."
++en.DESTINATION_BLOCKED = "Unable to dial call because the destination is blocked."
++en.DESTINATION_INVALID = "Unable to dial call because the destination is invalid."
+ en.EMERGENCY_TYPE_FOR_NONEMERGENCY_NUMBER = "Unable to dial call due to emergency call being made to a non-emergency number."
+ en.EXISTING_CALL_ON_SYSTEM = "Unable to dial call due to existing calls not allowing a second call on the system."
++en.FACETIME_APP_NOT_INSTALLED = "FaceTime isn't installed"
++en.FACETIME_AUDIO_UNAVAILABLE_IN_REGION = "FaceTime Audio isn't available in this region"
++en.FACETIME_LOCKED = "Unable to complete the request because FaceTime is locked or hidden."
++en.FACETIME_UNAVAILABLE = "Unable to complete the request because FaceTime has been removed."
++en.FACETIME_VIDEO_CALL_CANNOT_BE_HELD = "FaceTime video calls can't be put on hold"
+ en.GENERIC = "An unknown error occurred."
++en.INVALID_FACETIME_STATUS = "This contact isn't available on FaceTime"
+ en.MAX_PARTICIPANTS_EXCEEDED = "Too many participants specified"
++en.MULTIPLE_ACTIVE_CALLS = "Can't switch to FaceTime while there are multiple calls"
++en.NETWORK_UNAVAILABLE = "Unable to complete the request because no network connection is available."
++en.NOT_FACETIME_CALL = "This isn't a FaceTime call"
+ en.NO_DESTINATION = "No call destination specified."
+ en.NO_DESTINATION_NUMBER = "No phone number specified for destination."
++en.OPERATION_TIMED_OUT = "Unable to complete the request because it timed out."
++en.PERSONAL_CONTENT_NOT_ALLOWED = "Unable to complete the request because personal content is not allowed on this Apple TV."
+ en.RESTRICTED_BY_SCREENTIME = "Unable to dial call due to Screen Time preventing calls."
+ en.SECONDARY_CALLS_DISABLED = "Unable to dial call due to Calls from iPhone being disabled."
+ en.START_CALL_GENERIC = "Failed to initiate call."
+
+ en.UNSUPPORTED_FACETIME_VIDEO = "FaceTime Video calls are not supported on this device."
+ en.UNSUPPORTED_GROUP_CALLS = "Call provider does not support group calls"
+ en.UNSUPPORTED_HARDWARE = "Unable to support request on this device."
++en.UNSUPPORTED_HOLD = "This call doesn't support hold"
+ en.UNSUPPORTED_TELEPHONY = "Telephony calls are not supported on this device."
+ en.UNSUPPORTED_VIDEO_CALLS = "Call provider does not support video calls."
++en.USER_CANCELED = "The request was canceled."
+
+```

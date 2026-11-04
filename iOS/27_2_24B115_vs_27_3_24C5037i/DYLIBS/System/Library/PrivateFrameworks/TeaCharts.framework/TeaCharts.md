@@ -1,0 +1,854 @@
+## TeaCharts
+
+> `/System/Library/PrivateFrameworks/TeaCharts.framework/TeaCharts`
+
+```diff
+
+-1517.0.0.0.0
+-  __TEXT.__text: 0x2fd84
++1556.0.0.0.0
++  __TEXT.__text: 0x3c788
+   __TEXT.__objc_methlist: 0x68c
+-  __TEXT.__const: 0x3370
+-  __TEXT.__constg_swiftt: 0x22f8
+-  __TEXT.__swift5_typeref: 0x14fe
++  __TEXT.__const: 0x35c0
++  __TEXT.__constg_swiftt: 0x23a0
++  __TEXT.__swift5_typeref: 0x152a
+   __TEXT.__swift5_reflstr: 0xf98
+-  __TEXT.__swift5_fieldmd: 0x16d4
++  __TEXT.__swift5_fieldmd: 0x1734
+   __TEXT.__swift5_builtin: 0xc8
+   __TEXT.__swift5_assocty: 0x328
+-  __TEXT.__swift5_proto: 0x1a4
+-  __TEXT.__swift5_types: 0x1ec
++  __TEXT.__swift5_proto: 0x1c0
++  __TEXT.__swift5_types: 0x204
+   __TEXT.__swift5_protos: 0xb0
+-  __TEXT.__cstring: 0x553
+-  __TEXT.__swift5_capture: 0x238
++  __TEXT.__cstring: 0x64a
++  __TEXT.__swift5_capture: 0x258
+   __TEXT.__swift5_mpenum: 0x18
+-  __TEXT.__unwind_info: 0x15b0
+-  __TEXT.__eh_frame: 0x510
++  __TEXT.__unwind_info: 0x1598
++  __TEXT.__eh_frame: 0x518
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_selrefs: 0x570
+   __DATA_CONST.__objc_protorefs: 0x18
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x2c38
++  __AUTH_CONST.__const: 0x2da0
+   __AUTH_CONST.__objc_const: 0x2b38
+-  __AUTH_CONST.__auth_got: 0xa90
++  __AUTH_CONST.__auth_got: 0xac8
+   __AUTH.__objc_data: 0x240
+   __AUTH.__data: 0x438
+-  __DATA.__data: 0x550
++  __DATA.__data: 0x708
+   __DATA.__common: 0x8
+   __DATA_DIRTY.__objc_data: 0x670
+-  __DATA_DIRTY.__data: 0x29e0
++  __DATA_DIRTY.__data: 0x2990
+   __DATA_DIRTY.__bss: 0x1100
+   __DATA_DIRTY.__common: 0x10
+   - /System/Library/Frameworks/Accessibility.framework/Accessibility
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 1833
+-  Symbols:   1010
+-  CStrings:  32
++  Functions: 1616
++  Symbols:   240
++  CStrings:  37
+ 
+Symbols:
++ _objc_retain_x10
++ _objc_retain_x24
++ _objc_retain_x3
+- +[TCAccessibilityConstants dataSeriesContainerType]
+- -[UIAccessibilityElement(AccessibilityBridging_Sonification) _accessibilityDataSeriesGridlinePositionsForAxis:]
+- -[UIAccessibilityElement(AccessibilityBridging_Sonification) _accessibilityDataSeriesIncludesTrendlineInSonification]
+- -[UIAccessibilityElement(AccessibilityBridging_Sonification) _accessibilityDataSeriesMaximumValueForAxis:]
+- -[UIAccessibilityElement(AccessibilityBridging_Sonification) _accessibilityDataSeriesMinimumValueForAxis:]
+- -[UIAccessibilityElement(AccessibilityBridging_Sonification) _accessibilityDataSeriesName]
+- -[UIAccessibilityElement(AccessibilityBridging_Sonification) _accessibilityDataSeriesSonificationDuration]
+- -[UIAccessibilityElement(AccessibilityBridging_Sonification) _accessibilityDataSeriesSupportsSonification]
+- -[UIAccessibilityElement(AccessibilityBridging_Sonification) _accessibilityDataSeriesSupportsSummarization]
+- -[UIAccessibilityElement(AccessibilityBridging_Sonification) _accessibilityDataSeriesTitleForAxis:]
+- -[UIAccessibilityElement(AccessibilityBridging_Sonification) _accessibilityDataSeriesType]
+- -[UIAccessibilityElement(AccessibilityBridging_Sonification) _accessibilityDataSeriesUnitLabelForAxis:]
+- -[UIAccessibilityElement(AccessibilityBridging_Sonification) _accessibilityDataSeriesValueDescriptionForPosition:axis:]
+- -[UIAccessibilityElement(AccessibilityBridging_Sonification) _accessibilityDataSeriesValuesForAxis:]
+- -[UIAccessibilityElement(AccessibilityBridging_Sonification) _accessibilityDidChangeSonificationPlaybackPosition:]
+- -[UIAccessibilityElement(AccessibilityBridging_Sonification) tc_accessibilityDataSeriesGridlinePositionsForAxis:]
+- -[UIAccessibilityElement(AccessibilityBridging_Sonification) tc_accessibilityDataSeriesIncludesTrendlineInSonification]
+- -[UIAccessibilityElement(AccessibilityBridging_Sonification) tc_accessibilityDataSeriesMaximumValueForAxis:]
+- -[UIAccessibilityElement(AccessibilityBridging_Sonification) tc_accessibilityDataSeriesMinimumValueForAxis:]
+- -[UIAccessibilityElement(AccessibilityBridging_Sonification) tc_accessibilityDataSeriesName]
+- -[UIAccessibilityElement(AccessibilityBridging_Sonification) tc_accessibilityDataSeriesSonificationDuration]
+- -[UIAccessibilityElement(AccessibilityBridging_Sonification) tc_accessibilityDataSeriesSupportsSonification]
+- -[UIAccessibilityElement(AccessibilityBridging_Sonification) tc_accessibilityDataSeriesSupportsSummarization]
+- -[UIAccessibilityElement(AccessibilityBridging_Sonification) tc_accessibilityDataSeriesTitleForAxis:]
+- -[UIAccessibilityElement(AccessibilityBridging_Sonification) tc_accessibilityDataSeriesType]
+- -[UIAccessibilityElement(AccessibilityBridging_Sonification) tc_accessibilityDataSeriesUnitLabelForAxis:]
+- -[UIAccessibilityElement(AccessibilityBridging_Sonification) tc_accessibilityDataSeriesValueDescriptionForPosition:axis:]
+- -[UIAccessibilityElement(AccessibilityBridging_Sonification) tc_accessibilityDataSeriesValuesForAxis:]
+- -[UIAccessibilityElement(AccessibilityBridging_Sonification) tc_accessibilityDidChangeSonificationPlaybackPosition:]
+- -[UILongPressGestureRecognizer(Bridge) tc_startPoint]
+- <redacted>
+- _OBJC_METACLASS_$__TtC9TeaChartsP33_9EE3010B3705A23DEDCE010A1E35708921LineSeriesDataElement
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_10
+- _OUTLINED_FUNCTION_11
+- _OUTLINED_FUNCTION_12
+- _OUTLINED_FUNCTION_13
+- _OUTLINED_FUNCTION_14
+- _OUTLINED_FUNCTION_15
+- _OUTLINED_FUNCTION_16
+- _OUTLINED_FUNCTION_17
+- _OUTLINED_FUNCTION_18
+- _OUTLINED_FUNCTION_19
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_20
+- _OUTLINED_FUNCTION_21
+- _OUTLINED_FUNCTION_22
+- _OUTLINED_FUNCTION_23
+- _OUTLINED_FUNCTION_24
+- _OUTLINED_FUNCTION_25
+- _OUTLINED_FUNCTION_26
+- _OUTLINED_FUNCTION_27
+- _OUTLINED_FUNCTION_28
+- _OUTLINED_FUNCTION_29
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_30
+- _OUTLINED_FUNCTION_31
+- _OUTLINED_FUNCTION_32
+- _OUTLINED_FUNCTION_33
+- _OUTLINED_FUNCTION_34
+- _OUTLINED_FUNCTION_35
+- _OUTLINED_FUNCTION_36
+- _OUTLINED_FUNCTION_37
+- _OUTLINED_FUNCTION_38
+- _OUTLINED_FUNCTION_39
+- _OUTLINED_FUNCTION_4
+- _OUTLINED_FUNCTION_40
+- _OUTLINED_FUNCTION_41
+- _OUTLINED_FUNCTION_42
+- _OUTLINED_FUNCTION_43
+- _OUTLINED_FUNCTION_44
+- _OUTLINED_FUNCTION_45
+- _OUTLINED_FUNCTION_46
+- _OUTLINED_FUNCTION_47
+- _OUTLINED_FUNCTION_48
+- _OUTLINED_FUNCTION_49
+- _OUTLINED_FUNCTION_5
+- _OUTLINED_FUNCTION_50
+- _OUTLINED_FUNCTION_51
+- _OUTLINED_FUNCTION_52
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_7
+- _OUTLINED_FUNCTION_8
+- _OUTLINED_FUNCTION_9
+- __DATA__TtC9TeaCharts12GridAssembly
+- __DATA__TtC9TeaCharts13LineChartView
+- __DATA__TtC9TeaCharts13SparklineView
+- __DATA__TtC9TeaCharts14ChartsAssembly
+- __DATA__TtC9TeaCharts14GridViewStyler
+- __DATA__TtC9TeaCharts14LineSeriesView
+- __DATA__TtC9TeaCharts15ColumnChartView
+- __DATA__TtC9TeaCharts15LineChartStyler
+- __DATA__TtC9TeaCharts15SparklineLoader
+- __DATA__TtC9TeaCharts16GridViewProvider
+- __DATA__TtC9TeaCharts16GridViewRenderer
+- __DATA__TtC9TeaCharts17ColumnChartStyler
+- __DATA__TtC9TeaCharts17FrameworkAssembly
+- __DATA__TtC9TeaCharts17GridPathGenerator
+- __DATA__TtC9TeaCharts17LineChartAssembly
+- __DATA__TtC9TeaCharts17LineChartRenderer
+- __DATA__TtC9TeaCharts17LinePathGenerator
+- __DATA__TtC9TeaCharts17SparklineAssembly
+- __DATA__TtC9TeaCharts18LineImageGenerator
+- __DATA__TtC9TeaCharts19ColumnChartAssembly
+- __DATA__TtC9TeaCharts19ColumnChartRenderer
+- __DATA__TtC9TeaCharts19ColumnPathGenerator
+- __DATA__TtC9TeaCharts19LineChartInteractor
+- __DATA__TtC9TeaCharts20LineChartImageLoader
+- __DATA__TtC9TeaCharts20LineZoneMaskProvider
+- __DATA__TtC9TeaCharts21ColumnChartInteractor
+- __DATA__TtC9TeaCharts21LineChartViewProvider
+- __DATA__TtC9TeaCharts21SparklineViewRenderer
+- __DATA__TtC9TeaCharts22ColumnChartImageLoader
+- __DATA__TtC9TeaCharts23ColumnChartViewProvider
+- __DATA__TtC9TeaCharts24TapDragGestureRecognizer
+- __DATA__TtC9TeaCharts25ColumnChartImageGenerator
+- __DATA__TtC9TeaCharts25ValueCoordinateCalculator
+- __DATA__TtC9TeaCharts26LinearAxisCalculationModel
+- __DATA__TtC9TeaCharts27GridLayoutAttributesFactory
+- __DATA__TtC9TeaCharts27LineChartCoordinateProvider
+- __DATA__TtC9TeaCharts27SparklineCoordinateProvider
+- __DATA__TtC9TeaCharts28CategoryCoordinateCalculator
+- __DATA__TtC9TeaCharts28ChartLayoutAttributesFactory
+- __DATA__TtC9TeaCharts29ColumnChartCoordinateProvider
+- __DATA__TtC9TeaCharts30LineSeriesAccessibilityElement
+- __DATA__TtC9TeaCharts31ValueAxisGridViewModelGenerator
+- __DATA__TtC9TeaCharts34CategoryAxisGridViewModelGenerator
+- __DATA__TtC9TeaCharts38LineSeriesAccessibilityElementProvider
+- __DATA__TtC9TeaCharts8GridView
+- __DATA__TtC9TeaCharts8LineView
+- __DATA__TtC9TeaCharts9LineStyle
+- __DATA__TtC9TeaChartsP33_9EE3010B3705A23DEDCE010A1E35708921LineSeriesDataElement
+- __INSTANCE_METHODS__TtC9TeaCharts13LineChartView
+- __INSTANCE_METHODS__TtC9TeaCharts13SparklineView
+- __INSTANCE_METHODS__TtC9TeaCharts14LineSeriesView
+- __INSTANCE_METHODS__TtC9TeaCharts15ColumnChartView
+- __INSTANCE_METHODS__TtC9TeaCharts19ChartViewController
+- __INSTANCE_METHODS__TtC9TeaCharts21SparklineViewRenderer
+- __INSTANCE_METHODS__TtC9TeaCharts24TapDragGestureRecognizer
+- __INSTANCE_METHODS__TtC9TeaCharts28MultiTouchInteractionManager
+- __INSTANCE_METHODS__TtC9TeaCharts30LineSeriesAccessibilityElement
+- __INSTANCE_METHODS__TtC9TeaCharts8GridView
+- __INSTANCE_METHODS__TtC9TeaCharts8LineView
+- __INSTANCE_METHODS__TtC9TeaChartsP33_9EE3010B3705A23DEDCE010A1E35708921LineSeriesDataElement
+- __IVARS__TtC9TeaCharts11ZoneManager
+- __IVARS__TtC9TeaCharts12StyleManager
+- __IVARS__TtC9TeaCharts13LineChartView
+- __IVARS__TtC9TeaCharts13SparklineView
+- __IVARS__TtC9TeaCharts14LineSeriesView
+- __IVARS__TtC9TeaCharts15ColumnChartView
+- __IVARS__TtC9TeaCharts15LineChartStyler
+- __IVARS__TtC9TeaCharts15SparklineLoader
+- __IVARS__TtC9TeaCharts16GridViewProvider
+- __IVARS__TtC9TeaCharts16GridViewRenderer
+- __IVARS__TtC9TeaCharts17ChartModelFactory
+- __IVARS__TtC9TeaCharts17ColumnChartStyler
+- __IVARS__TtC9TeaCharts17FrameworkAssembly
+- __IVARS__TtC9TeaCharts17LineChartRenderer
+- __IVARS__TtC9TeaCharts17LinePathGenerator
+- __IVARS__TtC9TeaCharts18GridLabelFormatter
+- __IVARS__TtC9TeaCharts18InteractionManager
+- __IVARS__TtC9TeaCharts18LineImageGenerator
+- __IVARS__TtC9TeaCharts19ChartViewController
+- __IVARS__TtC9TeaCharts19ColumnChartRenderer
+- __IVARS__TtC9TeaCharts19ColumnPathGenerator
+- __IVARS__TtC9TeaCharts19LineChartInteractor
+- __IVARS__TtC9TeaCharts20HighlightInteraction
+- __IVARS__TtC9TeaCharts20LineChartImageLoader
+- __IVARS__TtC9TeaCharts20LineZoneMaskProvider
+- __IVARS__TtC9TeaCharts21LineChartViewProvider
+- __IVARS__TtC9TeaCharts21SparklineViewRenderer
+- __IVARS__TtC9TeaCharts22ColumnChartImageLoader
+- __IVARS__TtC9TeaCharts22GridViewModelGenerator
+- __IVARS__TtC9TeaCharts23ColumnChartViewProvider
+- __IVARS__TtC9TeaCharts24TapDragGestureRecognizer
+- __IVARS__TtC9TeaCharts25ColumnChartImageGenerator
+- __IVARS__TtC9TeaCharts25InteractionHandlerWrapper
+- __IVARS__TtC9TeaCharts27GridLayoutAttributesFactory
+- __IVARS__TtC9TeaCharts27LineChartCoordinateProvider
+- __IVARS__TtC9TeaCharts27SparklineCoordinateProvider
+- __IVARS__TtC9TeaCharts28ChartLayoutAttributesFactory
+- __IVARS__TtC9TeaCharts28MultiTouchInteractionManager
+- __IVARS__TtC9TeaCharts29ColumnChartCoordinateProvider
+- __IVARS__TtC9TeaCharts30LineSeriesAccessibilityElement
+- __IVARS__TtC9TeaCharts31ValueAxisGridViewModelGenerator
+- __IVARS__TtC9TeaCharts34CategoryAxisGridViewModelGenerator
+- __IVARS__TtC9TeaCharts38LineSeriesAccessibilityElementProvider
+- __IVARS__TtC9TeaCharts8GridView
+- __IVARS__TtC9TeaCharts8LineView
+- __IVARS__TtC9TeaCharts9LineStyle
+- __IVARS__TtC9TeaChartsP33_9EE3010B3705A23DEDCE010A1E35708921LineSeriesDataElement
+- __METACLASS_DATA__TtC9TeaCharts12GridAssembly
+- __METACLASS_DATA__TtC9TeaCharts13LineChartView
+- __METACLASS_DATA__TtC9TeaCharts13SparklineView
+- __METACLASS_DATA__TtC9TeaCharts14ChartsAssembly
+- __METACLASS_DATA__TtC9TeaCharts14GridViewStyler
+- __METACLASS_DATA__TtC9TeaCharts14LineSeriesView
+- __METACLASS_DATA__TtC9TeaCharts15ColumnChartView
+- __METACLASS_DATA__TtC9TeaCharts15LineChartStyler
+- __METACLASS_DATA__TtC9TeaCharts15SparklineLoader
+- __METACLASS_DATA__TtC9TeaCharts16GridViewProvider
+- __METACLASS_DATA__TtC9TeaCharts16GridViewRenderer
+- __METACLASS_DATA__TtC9TeaCharts17ColumnChartStyler
+- __METACLASS_DATA__TtC9TeaCharts17FrameworkAssembly
+- __METACLASS_DATA__TtC9TeaCharts17GridPathGenerator
+- __METACLASS_DATA__TtC9TeaCharts17LineChartAssembly
+- __METACLASS_DATA__TtC9TeaCharts17LineChartRenderer
+- __METACLASS_DATA__TtC9TeaCharts17LinePathGenerator
+- __METACLASS_DATA__TtC9TeaCharts17SparklineAssembly
+- __METACLASS_DATA__TtC9TeaCharts18LineImageGenerator
+- __METACLASS_DATA__TtC9TeaCharts19ColumnChartAssembly
+- __METACLASS_DATA__TtC9TeaCharts19ColumnChartRenderer
+- __METACLASS_DATA__TtC9TeaCharts19ColumnPathGenerator
+- __METACLASS_DATA__TtC9TeaCharts19LineChartInteractor
+- __METACLASS_DATA__TtC9TeaCharts20LineChartImageLoader
+- __METACLASS_DATA__TtC9TeaCharts20LineZoneMaskProvider
+- __METACLASS_DATA__TtC9TeaCharts21ColumnChartInteractor
+- __METACLASS_DATA__TtC9TeaCharts21LineChartViewProvider
+- __METACLASS_DATA__TtC9TeaCharts21SparklineViewRenderer
+- __METACLASS_DATA__TtC9TeaCharts22ColumnChartImageLoader
+- __METACLASS_DATA__TtC9TeaCharts23ColumnChartViewProvider
+- __METACLASS_DATA__TtC9TeaCharts24TapDragGestureRecognizer
+- __METACLASS_DATA__TtC9TeaCharts25ColumnChartImageGenerator
+- __METACLASS_DATA__TtC9TeaCharts25ValueCoordinateCalculator
+- __METACLASS_DATA__TtC9TeaCharts26LinearAxisCalculationModel
+- __METACLASS_DATA__TtC9TeaCharts27GridLayoutAttributesFactory
+- __METACLASS_DATA__TtC9TeaCharts27LineChartCoordinateProvider
+- __METACLASS_DATA__TtC9TeaCharts27SparklineCoordinateProvider
+- __METACLASS_DATA__TtC9TeaCharts28CategoryCoordinateCalculator
+- __METACLASS_DATA__TtC9TeaCharts28ChartLayoutAttributesFactory
+- __METACLASS_DATA__TtC9TeaCharts29ColumnChartCoordinateProvider
+- __METACLASS_DATA__TtC9TeaCharts30LineSeriesAccessibilityElement
+- __METACLASS_DATA__TtC9TeaCharts31ValueAxisGridViewModelGenerator
+- __METACLASS_DATA__TtC9TeaCharts34CategoryAxisGridViewModelGenerator
+- __METACLASS_DATA__TtC9TeaCharts38LineSeriesAccessibilityElementProvider
+- __METACLASS_DATA__TtC9TeaCharts8GridView
+- __METACLASS_DATA__TtC9TeaCharts8LineView
+- __METACLASS_DATA__TtC9TeaCharts9LineStyle
+- __METACLASS_DATA__TtC9TeaChartsP33_9EE3010B3705A23DEDCE010A1E35708921LineSeriesDataElement
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_UIAccessibilityElement_$_AccessibilityBridging_Sonification
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_UILongPressGestureRecognizer_$_Bridge
+- __OBJC_$_CATEGORY_UIAccessibilityElement_$_AccessibilityBridging_Sonification
+- __OBJC_$_CATEGORY_UILongPressGestureRecognizer_$_Bridge
+- __OBJC_$_CLASS_METHODS_TCAccessibilityConstants
+- __OBJC_$_CLASS_PROP_LIST_TCAccessibilityConstants
+- __OBJC_$_PROP_LIST_AXChart
+- __OBJC_$_PROP_LIST_NSObject
+- __OBJC_$_PROP_LIST_UILongPressGestureRecognizer_$_Bridge
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_AXChart
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIGestureRecognizerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AXChart
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UIGestureRecognizerDelegate
+- __OBJC_$_PROTOCOL_REFS_AXChart
+- __OBJC_$_PROTOCOL_REFS_UIGestureRecognizerDelegate
+- __OBJC_CLASS_RO_$_TCAccessibilityConstants
+- __OBJC_LABEL_PROTOCOL_$_AXChart
+- __OBJC_LABEL_PROTOCOL_$_NSObject
+- __OBJC_LABEL_PROTOCOL_$_UIGestureRecognizerDelegate
+- __OBJC_METACLASS_RO_$_TCAccessibilityConstants
+- __OBJC_PROTOCOL_$_AXChart
+- __OBJC_PROTOCOL_$_NSObject
+- __OBJC_PROTOCOL_$_UIGestureRecognizerDelegate
+- __PROPERTIES__TtC9TeaCharts30LineSeriesAccessibilityElement
+- __PROPERTIES__TtC9TeaChartsP33_9EE3010B3705A23DEDCE010A1E35708921LineSeriesDataElement
+- __PROTOCOLS__TtC9TeaCharts28MultiTouchInteractionManager
+- __PROTOCOLS__TtC9TeaCharts30LineSeriesAccessibilityElement
+- ___swift_assignWithCopy_strong
+- ___swift_assignWithTake_strong
+- ___swift_closure_destructor
+- ___swift_destroy_boxed_opaque_existential_0
+- ___swift_destroy_boxed_opaque_existential_1
+- ___swift_destroy_strong
+- ___swift_getEnumTagSinglePayload
+- ___swift_initWithCopy_strong
+- ___swift_instantiateGenericMetadata
+- ___swift_memcpy0_1
+- ___swift_memcpy112_8
+- ___swift_memcpy16_8
+- ___swift_memcpy17_8
+- ___swift_memcpy1_1
+- ___swift_memcpy24_8
+- ___swift_memcpy25_8
+- ___swift_memcpy32_8
+- ___swift_memcpy33_8
+- ___swift_memcpy41_8
+- ___swift_memcpy42_8
+- ___swift_memcpy48_8
+- ___swift_memcpy49_8
+- ___swift_memcpy64_8
+- ___swift_memcpy80_8
+- ___swift_memcpy88_8
+- ___swift_memcpy8_8
+- ___swift_memcpy9_8
+- ___swift_mutable_project_boxed_opaque_existential_1
+- ___swift_noop_void_return
+- ___swift_project_boxed_opaque_existential_0
+- ___swift_project_boxed_opaque_existential_1
+- ___swift_reflection_version
+- ___swift_storeEnumTagSinglePayload
+- ___unnamed_1
+- ___unnamed_2
+- ___unnamed_3
+- ___unnamed_4
+- ___unnamed_5
+- __swift_FORCE_LOAD_$_swiftCoreFoundation_$_TeaCharts
+- __swift_FORCE_LOAD_$_swiftCoreImage_$_TeaCharts
+- __swift_FORCE_LOAD_$_swiftCoreLocation_$_TeaCharts
+- __swift_FORCE_LOAD_$_swiftDispatch_$_TeaCharts
+- __swift_FORCE_LOAD_$_swiftFoundation_$_TeaCharts
+- __swift_FORCE_LOAD_$_swiftMetal_$_TeaCharts
+- __swift_FORCE_LOAD_$_swiftOSLog_$_TeaCharts
+- __swift_FORCE_LOAD_$_swiftObjectiveC_$_TeaCharts
+- __swift_FORCE_LOAD_$_swiftQuartzCore_$_TeaCharts
+- __swift_FORCE_LOAD_$_swiftSpatial_$_TeaCharts
+- __swift_FORCE_LOAD_$_swiftUIKit_$_TeaCharts
+- __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_TeaCharts
+- __swift_FORCE_LOAD_$_swiftXPC_$_TeaCharts
+- __swift_FORCE_LOAD_$_swift_Builtin_float_$_TeaCharts
+- __swift_FORCE_LOAD_$_swiftos_$_TeaCharts
+- __swift_FORCE_LOAD_$_swiftsimd_$_TeaCharts
+- __swift_stdlib_malloc_size
+- _associated conformance 9TeaCharts11OrientationOSHAASQ
+- _associated conformance 9TeaCharts11ZoneManagerCyxGAA0C12ProviderTypeAA0C0AaEP_AA0cF0
+- _associated conformance 9TeaCharts14LineChartModelVAA0dE4TypeAA5XAxisAaDP_AA04AxisF0
+- _associated conformance 9TeaCharts14LineChartModelVAA0dE4TypeAA5YAxisAaDP_AA04AxisF0
+- _associated conformance 9TeaCharts14LineChartModelVAA0dE4TypeAA9DataPointAaDP_SE
+- _associated conformance 9TeaCharts14LineChartModelVAA0dE4TypeAA9DataPointAaDP_SH
+- _associated conformance 9TeaCharts14LineChartModelVAA0dE4TypeAA9DataPointAaDP_Se
+- _associated conformance 9TeaCharts14SparklineStyleVSHAASQ
+- _associated conformance 9TeaCharts15SparklineLoaderC0cD5ErrorOSHAASQ
+- _associated conformance 9TeaCharts16ColumnChartModelVAA0dE4TypeAA5XAxisAaDP_AA04AxisF0
+- _associated conformance 9TeaCharts16ColumnChartModelVAA0dE4TypeAA5YAxisAaDP_AA04AxisF0
+- _associated conformance 9TeaCharts16ColumnChartModelVAA0dE4TypeAA9DataPointAaDP_SE
+- _associated conformance 9TeaCharts16ColumnChartModelVAA0dE4TypeAA9DataPointAaDP_SH
+- _associated conformance 9TeaCharts16ColumnChartModelVAA0dE4TypeAA9DataPointAaDP_Se
+- _associated conformance 9TeaCharts17CategoryDataPointV10CodingKeys33_A3459AA262545FB911112E021C35B733LLOSHAASQ
+- _associated conformance 9TeaCharts17CategoryDataPointV10CodingKeys33_A3459AA262545FB911112E021C35B733LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 9TeaCharts17CategoryDataPointV10CodingKeys33_A3459AA262545FB911112E021C35B733LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 9TeaCharts17CategoryDataPointVSHAASQ
+- _associated conformance 9TeaCharts17ChartModelFactoryCyxGAA0cdE4TypeAA0D0AaEP_AA0cdF0
+- _associated conformance 9TeaCharts17GridInsetBehaviorOSHAASQ
+- _associated conformance 9TeaCharts18InteractionManagerCyxGAA0cD4TypeAA10ChartModelAaEP_AA0fgE0
+- _associated conformance 9TeaCharts19LineChartInteractorCAA0dE4TypeAA5ModelAaDP_AA0dgF0
+- _associated conformance 9TeaCharts21ColumnChartInteractorCAA0dE4TypeAA5ModelAaDP_AA0dgF0
+- _associated conformance 9TeaCharts21LineChartViewProviderCAA0deF4TypeAA5ModelAaDP_AA0dhG0
+- _associated conformance 9TeaCharts21LineChartViewProviderCAA7ZonableAA11ZoneManagerAaDP_AA0hI4Type
+- _associated conformance 9TeaCharts21LineChartViewProviderCAA7ZonableAA5ModelAaDP_AA0dH4Type
+- _associated conformance 9TeaCharts21SparklineViewRendererC11LRUCacheKey33_63F35205C60B28EE5C065E39E4520A81LLVSHAASQ
+- _associated conformance 9TeaCharts22ColumnChartImageLoaderC0cdeF5ErrorOSHAASQ
+- _associated conformance 9TeaCharts22GridViewModelGeneratorCyxq_GAA0cdeF4TypeAA5XAxisAaEP_AA04AxisG0
+- _associated conformance 9TeaCharts22GridViewModelGeneratorCyxq_GAA0cdeF4TypeAA5YAxisAaEP_AA04AxisG0
+- _associated conformance 9TeaCharts23ColumnChartViewProviderCAA0deF4TypeAA5ModelAaDP_AA0dhG0
+- _associated conformance 9TeaCharts25InteractionHandlerWrapperCyxq_GAA0cD0AA10ChartModelAaEP_AA0fG4Type
+- _associated conformance 9TeaCharts27LineChartCoordinateProviderCAA0deF4TypeAA0D5ModelAaDP_AA0dhG0
+- _associated conformance 9TeaCharts28MultiTouchInteractionManagerCyxGAA0eF4TypeAA10ChartModelAaEP_AA0hiG0
+- _associated conformance 9TeaCharts28SparklineViewRendererOptionsV6MethodOSHAASQ
+- _associated conformance 9TeaCharts29ColumnChartCoordinateProviderCAA0deF4TypeAA0D5ModelAaDP_AA0dhG0
+- _associated conformance 9TeaCharts31ValueAxisGridViewModelGeneratorCAA0defgH4TypeAA0D0AaDP_AA0dI0
+- _associated conformance 9TeaCharts34CategoryAxisGridViewModelGeneratorCAA0defgH4TypeAA0D0AaDP_AA0dI0
+- _associated conformance 9TeaCharts38LineSeriesAccessibilityElementProviderCAA05ChartdefG4TypeAA0H5ModelAaDP_AA0hjI0
+- _associated conformance 9TeaCharts6SeriesV10CodingKeys33_F31CB4DDFC20B85914AC15E38F1C6D57LLOyx_GSHAASQ
+- _associated conformance 9TeaCharts6SeriesV10CodingKeys33_F31CB4DDFC20B85914AC15E38F1C6D57LLOyx_Gs0D3KeyAAs23CustomStringConvertible
+- _associated conformance 9TeaCharts6SeriesV10CodingKeys33_F31CB4DDFC20B85914AC15E38F1C6D57LLOyx_Gs0D3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 9TeaCharts6SeriesVyxGSHAASQ
+- _associated conformance 9TeaCharts7LineCapOSHAASQ
+- _associated conformance So12UIRectCornerVs10SetAlgebraSCSQ
+- _associated conformance So12UIRectCornerVs10SetAlgebraSCs25ExpressibleByArrayLiteral
+- _associated conformance So12UIRectCornerVs9OptionSetSCSY
+- _associated conformance So12UIRectCornerVs9OptionSetSCs0D7Algebra
+- _associated conformance So21NSAttributedStringKeyaSHSCSQ
+- _associated conformance So21NSAttributedStringKeyas20_SwiftNewtypeWrapperSCSY
+- _associated conformance So21NSAttributedStringKeyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
+- _block_copy_helper
+- _block_descriptor
+- _block_destroy_helper
+- _get_enum_tag_for_layout_string 9TeaCharts4FillO
+- _get_enum_tag_for_layout_string 9TeaCharts8GridTypeOyxG
+- _swift_getObjCClassFromMetadata
+- _swift_retain_x1
+- _symbolic $s9TeaCharts14ChartModelTypeP
+- _symbolic $s9TeaCharts15ZoneManagerTypeP
+- _symbolic $s9TeaCharts16StyleManagerTypeP
+- _symbolic $s9TeaCharts16ZoneProviderTypeP
+- _symbolic $s9TeaCharts17StyleProviderTypeP
+- _symbolic $s9TeaCharts18GridViewStylerTypeP
+- _symbolic $s9TeaCharts18InteractionHandlerP
+- _symbolic $s9TeaCharts19ChartInteractorTypeP
+- _symbolic $s9TeaCharts19LineChartStylerTypeP
+- _symbolic $s9TeaCharts19SparklineLoaderTypeP
+- _symbolic $s9TeaCharts20GridViewProviderTypeP
+- _symbolic $s9TeaCharts20GridViewRendererTypeP
+- _symbolic $s9TeaCharts21ChartModelFactoryTypeP
+- _symbolic $s9TeaCharts21ChartViewProviderTypeP
+- _symbolic $s9TeaCharts21ColumnChartStylerTypeP
+- _symbolic $s9TeaCharts21GridPathGeneratorTypeP
+- _symbolic $s9TeaCharts21LineChartRendererTypeP
+- _symbolic $s9TeaCharts21LinePathGeneratorTypeP
+- _symbolic $s9TeaCharts22GridLabelFormatterTypeP
+- _symbolic $s9TeaCharts22InteractionManagerTypeP
+- _symbolic $s9TeaCharts22LineImageGeneratorTypeP
+- _symbolic $s9TeaCharts23ColumnChartRendererTypeP
+- _symbolic $s9TeaCharts23ColumnPathGeneratorTypeP
+- _symbolic $s9TeaCharts23ValueLabelFormatterTypeP
+- _symbolic $s9TeaCharts24LineChartImageLoaderTypeP
+- _symbolic $s9TeaCharts24LineZoneMaskProviderTypeP
+- _symbolic $s9TeaCharts24StringLabelFormatterTypeP
+- _symbolic $s9TeaCharts25SparklineViewRendererTypeP
+- _symbolic $s9TeaCharts26ColumnChartImageLoaderTypeP
+- _symbolic $s9TeaCharts26GridViewModelGeneratorTypeP
+- _symbolic $s9TeaCharts27ChartCoordinateProviderTypeP
+- _symbolic $s9TeaCharts29ColumnChartImageGeneratorTypeP
+- _symbolic $s9TeaCharts29ValueAxisCalculationModelTypeP
+- _symbolic $s9TeaCharts29ValueCoordinateCalculatorTypeP
+- _symbolic $s9TeaCharts30AxisGridViewModelGeneratorTypeP
+- _symbolic $s9TeaCharts31GridLayoutAttributesFactoryTypeP
+- _symbolic $s9TeaCharts31SparklineCoordinateProviderTypeP
+- _symbolic $s9TeaCharts32CategoryCoordinateCalculatorTypeP
+- _symbolic $s9TeaCharts32ChartLayoutAttributesFactoryTypeP
+- _symbolic $s9TeaCharts33ChartLayoutAttributesProviderTypeP
+- _symbolic $s9TeaCharts43ChartSeriesAccessibilityElementProviderTypeP
+- _symbolic $s9TeaCharts7ZonableP
+- _symbolic $s9TeaCharts8AxisTypeP
+- _symbolic $s9TeaCharts8ZoneTypeP
+- _symbolic $sSY
+- _symbolic $ss10SetAlgebraP
+- _symbolic $ss21_ObjectiveCBridgeableP
+- _symbolic $ss25ExpressibleByArrayLiteralP
+- _symbolic $ss9OptionSetP
+- _symbolic 10ChartModel_____Qy0_ 9TeaCharts27ChartCoordinateProviderTypeP
+- _symbolic 10ChartModel_____Qy3_ 9TeaCharts22InteractionManagerTypeP
+- _symbolic 10ChartModel_____Qz 9TeaCharts18InteractionHandlerP
+- _symbolic 10ChartModel_____Qz 9TeaCharts22InteractionManagerTypeP
+- _symbolic 10ChartModel_____Qz 9TeaCharts27ChartCoordinateProviderTypeP
+- _symbolic 10ChartModel_____Qz 9TeaCharts43ChartSeriesAccessibilityElementProviderTypeP
+- _symbolic 10SeriesView_____Qz 9TeaCharts43ChartSeriesAccessibilityElementProviderTypeP
+- _symbolic 11ZoneManager_____Qz 9TeaCharts7ZonableP
+- _symbolic 26SeriesAccessibilityElement_____Qz 9TeaCharts43ChartSeriesAccessibilityElementProviderTypeP
+- _symbolic 4Axis_____Qy_ 9TeaCharts30AxisGridViewModelGeneratorTypeP
+- _symbolic 4Axis_____Qz 9TeaCharts30AxisGridViewModelGeneratorTypeP
+- _symbolic 4Zone_____Qz 9TeaCharts16ZoneProviderTypeP
+- _symbolic 5Model_____Qy_ 9TeaCharts21ChartViewProviderTypeP
+- _symbolic 5Model_____Qz 9TeaCharts19ChartInteractorTypeP
+- _symbolic 5Model_____Qz 9TeaCharts21ChartModelFactoryTypeP
+- _symbolic 5Model_____Qz 9TeaCharts21ChartViewProviderTypeP
+- _symbolic 5Model_____Qz 9TeaCharts7ZonableP
+- _symbolic 5Model_____QzSg 9TeaCharts19ChartInteractorTypeP
+- _symbolic 5Model______5XAxis_____QZ 9TeaCharts21ChartModelFactoryTypeP AA0cdF0P
+- _symbolic 5Model______5YAxis_____QZ 9TeaCharts21ChartModelFactoryTypeP AA0cdF0P
+- _symbolic 5Style_____Qy1_ 9TeaCharts17StyleProviderTypeP
+- _symbolic 5Style_____Qy_ 9TeaCharts21ChartViewProviderTypeP
+- _symbolic 5XAxis_____Qy2_ 9TeaCharts26GridViewModelGeneratorTypeP
+- _symbolic 5XAxis_____Qz 9TeaCharts14ChartModelTypeP
+- _symbolic 5XAxis_____Qz 9TeaCharts26GridViewModelGeneratorTypeP
+- _symbolic 5YAxis_____Qy2_ 9TeaCharts26GridViewModelGeneratorTypeP
+- _symbolic 5YAxis_____Qz 9TeaCharts14ChartModelTypeP
+- _symbolic 5YAxis_____Qz 9TeaCharts26GridViewModelGeneratorTypeP
+- _symbolic 9ChartView_____Qy_Sg 9TeaCharts21ChartViewProviderTypeP
+- _symbolic 9ChartView_____Qz 9TeaCharts21ChartViewProviderTypeP
+- _symbolic 9ChartView_____Qz 9TeaCharts7ZonableP
+- _symbolic 9DataPoint_____Qz 9TeaCharts14ChartModelTypeP
+- _symbolic B0
+- _symbolic B1
+- _symbolic Ieg_
+- _symbolic Ig_
+- _symbolic SDySSSiG
+- _symbolic SDySSSi_SDy_____SiGtGSg 9TeaCharts17CategoryDataPointV
+- _symbolic SDySSSo7UIImageCG
+- _symbolic SDySS_____G 9TeaCharts8LineViewC
+- _symbolic SDySi_____G 9TeaCharts30LineSeriesAccessibilityElementC
+- _symbolic SNySdG
+- _symbolic SS
+- _symbolic SSSg
+- _symbolic SaySDySS_____GG 9TeaCharts9LineStyleC
+- _symbolic SaySiG7pattern_t
+- _symbolic SaySo12CAShapeLayerCG
+- _symbolic SaySo7UIColorCG6colors_t
+- _symbolic SaySo7UILabelCG
+- _symbolic Say_____G 9TeaCharts11ColumnStyleV
+- _symbolic Say_____G 9TeaCharts14LineSeriesViewC
+- _symbolic Say_____G 9TeaCharts20GridLayoutAttributesV
+- _symbolic Say_____G 9TeaCharts25GridLabelLayoutAttributesV
+- _symbolic Say_____G 9TeaCharts8GridLineV
+- _symbolic Say_____G 9TeaCharts9LineStyleC
+- _symbolic Say_____GIegg_ 9TeaCharts15LineChartImagesV
+- _symbolic Say_____GIegn_ 9TeaCharts15LineChartImagesV
+- _symbolic Say_____GSg 9TeaCharts21LineSeriesDataElement33_9EE3010B3705A23DEDCE010A1E357089LLC
+- _symbolic Say______pG 13TeaFoundation12AssemblyTypeP
+- _symbolic Say_____y5Model_____Qz_____yAbC_9DataPoint_____QZGGG 9TeaCharts25InteractionHandlerWrapperC AA19ChartInteractorTypeP AA0C6CursorV AA0f5ModelH0P
+- _symbolic Say_____ySSGG 9TeaCharts4GridV
+- _symbolic Say_____ySdGG 9TeaCharts4GridV
+- _symbolic Say_____y_____GG 9TeaCharts6SeriesV AA17CategoryDataPointV
+- _symbolic Say_____y_____GG 9TeaCharts9ZoneStyleV AA04LineD0C
+- _symbolic SayxG
+- _symbolic Sayy_____yx_xGcG 9TeaCharts20HighlightInteractionC0D4TypeO
+- _symbolic SayyycG
+- _symbolic Sb
+- _symbolic Sd
+- _symbolic ShySo7UITouchCG
+- _symbolic Si
+- _symbolic So11UIImageViewC
+- _symbolic So12CAShapeLayerC
+- _symbolic So12UIBezierPathC
+- _symbolic So15NSDateFormatterC
+- _symbolic So16UIViewControllerC
+- _symbolic So17OS_dispatch_queueC
+- _symbolic So17UITraitCollectionC
+- _symbolic So18NSAttributedStringC
+- _symbolic So18NSAttributedStringCSg
+- _symbolic So19UIGestureRecognizerC
+- _symbolic So22UIAccessibilityElementC
+- _symbolic So24UIHoverGestureRecognizerC
+- _symbolic So24UIPinchGestureRecognizerC
+- _symbolic So28UILongPressGestureRecognizerC
+- _symbolic So6UIViewC
+- _symbolic So6UIViewCSg
+- _symbolic So7NSTimerCSg
+- _symbolic So7UIColorC
+- _symbolic So7UIColorCSg
+- _symbolic So7UIImageCIegg_
+- _symbolic So7UIImageCIegn_
+- _symbolic So7UIImageCSg
+- _symbolic So7UILabelC
+- _symbolic So8NSObjectC
+- _symbolic So8NSStringC
+- _symbolic Su
+- _symbolic _____ 10Foundation8TimeZoneV
+- _symbolic _____ 12CoreGraphics7CGFloatV
+- _symbolic _____ 13TeaFoundation10UnfairLockC
+- _symbolic _____ 9TeaCharts0B8AssemblyC
+- _symbolic _____ 9TeaCharts11ColumnStyleV
+- _symbolic _____ 9TeaCharts11OrientationO
+- _symbolic _____ 9TeaCharts11SeriesStyleV
+- _symbolic _____ 9TeaCharts11StrokeStyleO
+- _symbolic _____ 9TeaCharts11ZoneManagerC
+- _symbolic _____ 9TeaCharts12CategoryAxisV
+- _symbolic _____ 9TeaCharts12CategoryZoneV
+- _symbolic _____ 9TeaCharts12CornerRadiusV
+- _symbolic _____ 9TeaCharts12GridAssemblyC
+- _symbolic _____ 9TeaCharts12StyleManagerC
+- _symbolic _____ 9TeaCharts13GridViewModelV
+- _symbolic _____ 9TeaCharts13LayoutOptionsV
+- _symbolic _____ 9TeaCharts13LineChartViewC
+- _symbolic _____ 9TeaCharts13SparklineViewC
+- _symbolic _____ 9TeaCharts14GridViewStylerC
+- _symbolic _____ 9TeaCharts14LineChartModelV
+- _symbolic _____ 9TeaCharts14LineChartStyleV
+- _symbolic _____ 9TeaCharts14LineSeriesViewC
+- _symbolic _____ 9TeaCharts14SparklineModelV
+- _symbolic _____ 9TeaCharts14SparklineStyleV
+- _symbolic _____ 9TeaCharts15ColumnChartViewC
+- _symbolic _____ 9TeaCharts15CoordinateSpaceV
+- _symbolic _____ 9TeaCharts15InteractionTypeO
+- _symbolic _____ 9TeaCharts15LineChartImagesV
+- _symbolic _____ 9TeaCharts15LineChartStylerC
+- _symbolic _____ 9TeaCharts15SparklineLoaderC
+- _symbolic _____ 9TeaCharts15SparklineLoaderC0cD5ErrorO
+- _symbolic _____ 9TeaCharts16ColumnChartModelV
+- _symbolic _____ 9TeaCharts16ColumnChartStyleV
+- _symbolic _____ 9TeaCharts16GridViewProviderC
+- _symbolic _____ 9TeaCharts16GridViewRendererC
+- _symbolic _____ 9TeaCharts17CategoryDataPointV
+- _symbolic _____ 9TeaCharts17CategoryDataPointV10CodingKeys33_A3459AA262545FB911112E021C35B733LLO
+- _symbolic _____ 9TeaCharts17ChartModelFactoryC
+- _symbolic _____ 9TeaCharts17ColumnChartStylerC
+- _symbolic _____ 9TeaCharts17FrameworkAssemblyC
+- _symbolic _____ 9TeaCharts17GridInsetBehaviorO
+- _symbolic _____ 9TeaCharts17GridLayoutOptionsV
+- _symbolic _____ 9TeaCharts17GridPathGeneratorC
+- _symbolic _____ 9TeaCharts17InteractionCursorV
+- _symbolic _____ 9TeaCharts17LineChartAssemblyC
+- _symbolic _____ 9TeaCharts17LineChartRendererC
+- _symbolic _____ 9TeaCharts17LinePathGeneratorC
+- _symbolic _____ 9TeaCharts17SparklineAssemblyC
+- _symbolic _____ 9TeaCharts18ChartLayoutOptionsV
+- _symbolic _____ 9TeaCharts18ColumnChartOptionsV
+- _symbolic _____ 9TeaCharts18GridLabelFormatterC
+- _symbolic _____ 9TeaCharts18InteractionManagerC
+- _symbolic _____ 9TeaCharts18LineImageGeneratorC
+- _symbolic _____ 9TeaCharts19ChartViewControllerC
+- _symbolic _____ 9TeaCharts19ColumnChartAssemblyC
+- _symbolic _____ 9TeaCharts19ColumnChartRendererC
+- _symbolic _____ 9TeaCharts19ColumnPathGeneratorC
+- _symbolic _____ 9TeaCharts19LineChartInteractorC
+- _symbolic _____ 9TeaCharts20GridLayoutAttributesV
+- _symbolic _____ 9TeaCharts20HighlightInteractionC
+- _symbolic _____ 9TeaCharts20HighlightInteractionC0D4TypeO
+- _symbolic _____ 9TeaCharts20LineChartImageLoaderC
+- _symbolic _____ 9TeaCharts20LineZoneMaskProviderC
+- _symbolic _____ 9TeaCharts21ChartLayoutAttributesV
+- _symbolic _____ 9TeaCharts21ColumnChartInteractorC
+- _symbolic _____ 9TeaCharts21LineChartViewProviderC
+- _symbolic _____ 9TeaCharts21LineSeriesDataElement33_9EE3010B3705A23DEDCE010A1E357089LLC
+- _symbolic _____ 9TeaCharts21SparklineViewRendererC
+- _symbolic _____ 9TeaCharts21SparklineViewRendererC11LRUCacheKey33_63F35205C60B28EE5C065E39E4520A81LLV
+- _symbolic _____ 9TeaCharts22ColumnChartImageLoaderC
+- _symbolic _____ 9TeaCharts22ColumnChartImageLoaderC0cdeF5ErrorO
+- _symbolic _____ 9TeaCharts22GridViewModelGeneratorC
+- _symbolic _____ 9TeaCharts22LineChartLoaderOptionsV
+- _symbolic _____ 9TeaCharts22SparklineLayoutOptionsV
+- _symbolic _____ 9TeaCharts23ColumnChartViewProviderC
+- _symbolic _____ 9TeaCharts23GridSetLayoutAttributesV
+- _symbolic _____ 9TeaCharts24GridPathGeneratorOptionsV
+- _symbolic _____ 9TeaCharts24TapDragGestureRecognizerC
+- _symbolic _____ 9TeaCharts24TapDragGestureRecognizerC12LocationTypeO
+- _symbolic _____ 9TeaCharts25ColumnChartImageGeneratorC
+- _symbolic _____ 9TeaCharts25GridLabelFormatterOptionsV
+- _symbolic _____ 9TeaCharts25GridLabelLayoutAttributesV
+- _symbolic _____ 9TeaCharts25InteractionHandlerWrapperC
+- _symbolic _____ 9TeaCharts25SparklineLayoutAttributesV
+- _symbolic _____ 9TeaCharts25ValueCoordinateCalculatorC
+- _symbolic _____ 9TeaCharts26LinearAxisCalculationModelC
+- _symbolic _____ 9TeaCharts27GridLayoutAttributesFactoryC
+- _symbolic _____ 9TeaCharts27GridLayoutAttributesFactoryC5Label33_E9C80FCAE7D6B086A904B8B142ABAD21LLV
+- _symbolic _____ 9TeaCharts27LineChartCoordinateProviderC
+- _symbolic _____ 9TeaCharts27SparklineCoordinateProviderC
+- _symbolic _____ 9TeaCharts28CategoryCoordinateCalculatorC
+- _symbolic _____ 9TeaCharts28ChartLayoutAttributesFactoryC
+- _symbolic _____ 9TeaCharts28ColumnChartCoordinateOptionsV
+- _symbolic _____ 9TeaCharts28MultiTouchInteractionManagerC
+- _symbolic _____ 9TeaCharts28SparklineViewRendererOptionsV
+- _symbolic _____ 9TeaCharts28SparklineViewRendererOptionsV6MethodO
+- _symbolic _____ 9TeaCharts29ColumnChartCoordinateProviderC
+- _symbolic _____ 9TeaCharts29GridViewModelGeneratorOptionsV
+- _symbolic _____ 9TeaCharts30LineSeriesAccessibilityElementC
+- _symbolic _____ 9TeaCharts31ValueAxisGridViewModelGeneratorC
+- _symbolic _____ 9TeaCharts32ColumnChartImageGeneratorOptionsV
+- _symbolic _____ 9TeaCharts33AxisGridViewModelGeneratorOptionsV
+- _symbolic _____ 9TeaCharts34CategoryAxisGridViewModelGeneratorC
+- _symbolic _____ 9TeaCharts38LineSeriesAccessibilityElementProviderC
+- _symbolic _____ 9TeaCharts4FillO
+- _symbolic _____ 9TeaCharts4GridV
+- _symbolic _____ 9TeaCharts6SeriesV
+- _symbolic _____ 9TeaCharts6SeriesV10CodingKeys33_F31CB4DDFC20B85914AC15E38F1C6D57LLO
+- _symbolic _____ 9TeaCharts6StrokeV
+- _symbolic _____ 9TeaCharts7LineCapO
+- _symbolic _____ 9TeaCharts8GridLineV
+- _symbolic _____ 9TeaCharts8GridTypeO
+- _symbolic _____ 9TeaCharts8GridViewC
+- _symbolic _____ 9TeaCharts8LineViewC
+- _symbolic _____ 9TeaCharts9DataPointV
+- _symbolic _____ 9TeaCharts9GridLabelO
+- _symbolic _____ 9TeaCharts9GridStyleV
+- _symbolic _____ 9TeaCharts9LineStyleC
+- _symbolic _____ 9TeaCharts9ValueAxisV
+- _symbolic _____ 9TeaCharts9ZoneStyleV
+- _symbolic _____ So12UIEdgeInsetsV
+- _symbolic _____ So12UIRectCornerV
+- _symbolic _____ So21NSAttributedStringKeya
+- _symbolic _____ So6CGRectV
+- _symbolic _____ So6CGSizeV
+- _symbolic _____ So7CGPointV
+- _symbolic _____ So8_NSRangeV
+- _symbolic _____Sg 9TeaCharts12CategoryZoneV
+- _symbolic _____Sg 9TeaCharts24TapDragGestureRecognizerC12LocationTypeO
+- _symbolic _____Sg 9TeaCharts28ColumnChartCoordinateOptionsV
+- _symbolic _____Sg 9TeaCharts8GridViewC
+- _symbolic _____Sg So6CGRectV
+- _symbolic _____Sg So6CGSizeV
+- _symbolic _____Sg So7CGPointV
+- _symbolic _____SgXw 9TeaCharts19LineChartInteractorC
+- _symbolic _____SgXw 9TeaCharts30LineSeriesAccessibilityElementC
+- _symbolic ______AAt So7CGPointV
+- _symbolic ______p 13TeaFoundation16SynchronizerTypeP
+- _symbolic ______p 9TeaCharts18GridViewStylerTypeP
+- _symbolic ______p 9TeaCharts19LineChartStylerTypeP
+- _symbolic ______p 9TeaCharts19SparklineLoaderTypeP
+- _symbolic ______p 9TeaCharts20GridViewProviderTypeP
+- _symbolic ______p 9TeaCharts20GridViewRendererTypeP
+- _symbolic ______p 9TeaCharts21ColumnChartStylerTypeP
+- _symbolic ______p 9TeaCharts21GridPathGeneratorTypeP
+- _symbolic ______p 9TeaCharts21LineChartRendererTypeP
+- _symbolic ______p 9TeaCharts21LinePathGeneratorTypeP
+- _symbolic ______p 9TeaCharts22LineImageGeneratorTypeP
+- _symbolic ______p 9TeaCharts23ColumnChartRendererTypeP
+- _symbolic ______p 9TeaCharts23ColumnPathGeneratorTypeP
+- _symbolic ______p 9TeaCharts24LineChartImageLoaderTypeP
+- _symbolic ______p 9TeaCharts24LineZoneMaskProviderTypeP
+- _symbolic ______p 9TeaCharts26ColumnChartImageLoaderTypeP
+- _symbolic ______p 9TeaCharts29ColumnChartImageGeneratorTypeP
+- _symbolic ______p 9TeaCharts29ValueAxisCalculationModelTypeP
+- _symbolic ______p 9TeaCharts29ValueCoordinateCalculatorTypeP
+- _symbolic ______p 9TeaCharts31GridLayoutAttributesFactoryTypeP
+- _symbolic ______p 9TeaCharts32CategoryCoordinateCalculatorTypeP
+- _symbolic ______p 9TeaCharts32ChartLayoutAttributesFactoryTypeP
+- _symbolic ______pIegg_ s5ErrorP
+- _symbolic ______pSg 9TeaCharts23ValueLabelFormatterTypeP
+- _symbolic ______pSg 9TeaCharts24StringLabelFormatterTypeP
+- _symbolic _____y5Model_____QzSgG 13TeaFoundation14SyncObservableC 0A6Charts21ChartModelFactoryTypeP
+- _symbolic _____y5Model______9DataPoint_____QZG 9TeaCharts17InteractionCursorV AA19ChartInteractorTypeP AA0e5ModelG0P
+- _symbolic _____ySSG 13TeaFoundation16UniqueCollectionV
+- _symbolic _____ySo6UIViewCSay_____GG 13TeaFoundation20ObjectReuseProtectorC 0A6Charts15LineChartImagesV
+- _symbolic _____ySo6UIViewCSo7UIImageCG 13TeaFoundation20ObjectReuseProtectorC
+- _symbolic _____y_____G 13TeaFoundation16UniqueCollectionV 0A6Charts12CategoryZoneV
+- _symbolic _____y_____G 9TeaCharts11ZoneManagerC AA08CategoryC0V
+- _symbolic _____y_____G 9TeaCharts12StyleManagerC AA011ColumnChartC0V
+- _symbolic _____y_____G 9TeaCharts12StyleManagerC AA09LineChartC0V
+- _symbolic _____y_____G 9TeaCharts6SeriesV AA17CategoryDataPointV
+- _symbolic _____y_____SgG 13TeaFoundation14SyncObservableC 0A6Charts21ChartLayoutAttributesV
+- _symbolic _____y_____So7UIImageCG 13TeaFoundation8LRUCacheC 0A6Charts21SparklineViewRendererC0C3Key33_63F35205C60B28EE5C065E39E4520A81LLV
+- _symbolic _____y__________G 9TeaCharts15CoordinateSpaceV AA12CategoryAxisV AA05ValueF0V
+- _symbolic _____y__________GSg 9TeaCharts15CoordinateSpaceV AA12CategoryAxisV AA05ValueF0V
+- _symbolic _____y_____y5Model______9DataPoint_____QZGGSg 9TeaCharts20HighlightInteractionC AA0D6CursorV AA19ChartInteractorTypeP AA0f5ModelH0P
+- _symbolic _____yxG 13TeaFoundation16UniqueCollectionV
+- _symbolic _____yxG 9TeaCharts18GridLabelFormatterC
+- _symbolic _____yxG 9TeaCharts20HighlightInteractionC
+- _symbolic _____yxG 9TeaCharts28MultiTouchInteractionManagerC
+- _symbolic _____yxG 9TeaCharts6SeriesV
+- _symbolic _____yxG 9TeaCharts8GridTypeO
+- _symbolic _____yxG 9TeaCharts9GridLabelO
+- _symbolic _____yx_xGIegn_ 9TeaCharts20HighlightInteractionC0D4TypeO
+- _symbolic q0_
+- _symbolic q1_
+- _symbolic q2_
+- _symbolic q3_
+- _symbolic q_
+- _symbolic qd__
+- _symbolic qd___qd__t
+- _symbolic x
+- _symbolic xSg
+- _symbolic x_____c 9TeaCharts18ChartLayoutOptionsV
+- _symbolic y_____yq_Gc 9TeaCharts15InteractionTypeO
+- _symbolic ypSg_____Spy_____GIgnyy_ So8_NSRangeV 10ObjectiveC8ObjCBoolV
+- _symbolic yxc
+- _type_layout_string 9TeaCharts11ColumnStyleV
+- _type_layout_string 9TeaCharts11SeriesStyleV
+- _type_layout_string 9TeaCharts11StrokeStyleO
+- _type_layout_string 9TeaCharts12CategoryZoneV
+- _type_layout_string 9TeaCharts12CornerRadiusV
+- _type_layout_string 9TeaCharts13GridViewModelV
+- _type_layout_string 9TeaCharts13LayoutOptionsV
+- _type_layout_string 9TeaCharts14LineChartStyleV
+- _type_layout_string 9TeaCharts14SparklineStyleV
+- _type_layout_string 9TeaCharts15LineChartImagesV
+- _type_layout_string 9TeaCharts16ColumnChartStyleV
+- _type_layout_string 9TeaCharts17CategoryDataPointV
+- _type_layout_string 9TeaCharts17GridLayoutOptionsV
+- _type_layout_string 9TeaCharts18ChartLayoutOptionsV
+- _type_layout_string 9TeaCharts18ColumnChartOptionsV
+- _type_layout_string 9TeaCharts20GridLayoutAttributesV
+- _type_layout_string 9TeaCharts21ChartLayoutAttributesV
+- _type_layout_string 9TeaCharts21SparklineViewRendererC11LRUCacheKey33_63F35205C60B28EE5C065E39E4520A81LLV
+- _type_layout_string 9TeaCharts22SparklineLayoutOptionsV
+- _type_layout_string 9TeaCharts23GridSetLayoutAttributesV
+- _type_layout_string 9TeaCharts24GridPathGeneratorOptionsV
+- _type_layout_string 9TeaCharts25GridLabelFormatterOptionsV
+- _type_layout_string 9TeaCharts25GridLabelLayoutAttributesV
+- _type_layout_string 9TeaCharts25SparklineLayoutAttributesV
+- _type_layout_string 9TeaCharts27GridLayoutAttributesFactoryC5Label33_E9C80FCAE7D6B086A904B8B142ABAD21LLV
+- _type_layout_string 9TeaCharts28ColumnChartCoordinateOptionsV
+- _type_layout_string 9TeaCharts28SparklineViewRendererOptionsV
+- _type_layout_string 9TeaCharts29GridViewModelGeneratorOptionsV
+- _type_layout_string 9TeaCharts33AxisGridViewModelGeneratorOptionsV
+- _type_layout_string 9TeaCharts4FillO
+- _type_layout_string 9TeaCharts6StrokeV
+- _type_layout_string 9TeaCharts8GridLineV
+- _type_layout_string 9TeaCharts9DataPointV
+- _type_layout_string 9TeaCharts9GridStyleV
+- _type_layout_string 9TeaCharts9ValueAxisV
+- _type_layout_string SeRzSERzSHRzl9TeaCharts6SeriesVyxG
+- _type_layout_string So12UIEdgeInsetsV
+- _type_layout_string So12UIRectCornerV
+- _type_layout_string So21NSAttributedStringKeya
+- _type_layout_string So6CGRectV
+- _type_layout_string So7CGPointV
+- _type_layout_string So8_NSRangeV
+- _type_layout_string l9TeaCharts15InteractionTypeOyxG
+- _type_layout_string l9TeaCharts4GridVyxG
+- _type_layout_string l9TeaCharts8GridTypeOyxG
+- _type_layout_string l9TeaCharts9GridLabelOyxG
+CStrings:
++ "TeaCharts/ChartsModernAssembly.swift"
++ "TeaCharts/ColumnChartModernAssembly.swift"
++ "TeaCharts/GridModernAssembly.swift"
++ "TeaCharts/LineChartModernAssembly.swift"
++ "TeaCharts/SparklineModernAssembly.swift"
+```

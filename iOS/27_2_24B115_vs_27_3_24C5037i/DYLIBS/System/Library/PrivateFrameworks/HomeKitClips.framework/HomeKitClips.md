@@ -1,0 +1,454 @@
+## HomeKitClips
+
+> `/System/Library/PrivateFrameworks/HomeKitClips.framework/HomeKitClips`
+
+```diff
+
+-1520.2.7.1.3
+-  __TEXT.__text: 0x2b0354
++1535.0.0.0.2
++  __TEXT.__text: 0x2da834
+   __TEXT.__delay_stubs: 0xa00
+-  __TEXT.__delay_helper: 0xdd8
+-  __TEXT.__objc_methlist: 0x6a4
+-  __TEXT.__const: 0x14940
+-  __TEXT.__swift5_typeref: 0x6b86
+-  __TEXT.__constg_swiftt: 0x53d4
+-  __TEXT.__swift5_fieldmd: 0x5068
+-  __TEXT.__swift5_reflstr: 0x4309
++  __TEXT.__delay_helper: 0xe10
++  __TEXT.__objc_methlist: 0x6ac
++  __TEXT.__const: 0x15d70
++  __TEXT.__swift5_typeref: 0x7936
++  __TEXT.__constg_swiftt: 0x57b8
++  __TEXT.__swift5_fieldmd: 0x5440
++  __TEXT.__swift5_reflstr: 0x4639
+   __TEXT.__swift5_builtin: 0x1a4
+-  __TEXT.__swift5_assocty: 0xd08
+-  __TEXT.__swift5_proto: 0xe5c
+-  __TEXT.__swift5_types: 0x5ec
+-  __TEXT.__cstring: 0x5d08
+-  __TEXT.__oslogstring: 0x7f03
+-  __TEXT.__swift_as_entry: 0x738
+-  __TEXT.__swift_as_ret: 0x8c0
+-  __TEXT.__swift_as_cont: 0x1048
+-  __TEXT.__swift5_protos: 0x7c
+-  __TEXT.__swift5_capture: 0x1860
++  __TEXT.__swift5_assocty: 0xd38
++  __TEXT.__swift5_proto: 0xf04
++  __TEXT.__swift5_types: 0x620
++  __TEXT.__cstring: 0x5da8
++  __TEXT.__oslogstring: 0x8333
++  __TEXT.__swift_as_entry: 0x7d8
++  __TEXT.__swift_as_ret: 0x97c
++  __TEXT.__swift_as_cont: 0x10f0
++  __TEXT.__swift5_protos: 0x84
++  __TEXT.__swift5_capture: 0x1adc
+   __TEXT.__swift5_mpenum: 0x38
+-  __TEXT.__unwind_info: 0xa218
+-  __TEXT.__eh_frame: 0x1821c
++  __TEXT.__unwind_info: 0xab08
++  __TEXT.__eh_frame: 0x198dc
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_classlist: 0x168
+   __DATA_CONST.__objc_protolist: 0x90
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xaf8
++  __DATA_CONST.__objc_selrefs: 0xb58
+   __DATA_CONST.__objc_protorefs: 0x48
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0xc7a8
++  __AUTH_CONST.__const: 0xcef8
+   __AUTH_CONST.__cfstring: 0x20
+-  __AUTH_CONST.__objc_const: 0x29e0
+-  __AUTH_CONST.__auth_got: 0x18e0
+-  __AUTH.__objc_data: 0xd8
+-  __AUTH.__data: 0x3d40
+-  __DATA.__data: 0x42a0
+-  __DATA.__common: 0x4f8
++  __AUTH_CONST.__objc_const: 0x2b10
++  __AUTH_CONST.__auth_got: 0x19a0
++  __AUTH.__objc_data: 0x128
++  __AUTH.__data: 0x41c0
++  __DATA.__data: 0x4ad0
++  __DATA.__common: 0x588
+   __DATA_DIRTY.__objc_data: 0x928
+-  __DATA_DIRTY.__data: 0x3760
++  __DATA_DIRTY.__data: 0x3830
+   __DATA_DIRTY.__bss: 0xe00
+   __DATA_DIRTY.__common: 0xb0
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 9815
+-  Symbols:   2904
+-  CStrings:  1108
++  Functions: 10341
++  Symbols:   3096
++  CStrings:  1125
+ 
+Symbols:
++ _AVMetadataCommonIdentifierCreationDate
++ _AVMetadataIdentifierQuickTimeMetadataCreationDate
++ _AVMetadataKeySpaceCommon
++ _AVMetadataKeySpaceQuickTimeMetadata
++ _OBJC_CLASS_$_AVMetadataItem
++ _OBJC_CLASS_$_AVMutableMetadataItem
++ _OBJC_CLASS_$_NSURLSessionTaskTransactionMetrics
++ __IVARS__TtCC12HomeKitClips10CloudStoreP33_5A8EFC9731DC1F4325A82C9D9BEEB50819CloudOperationState
++ ___swift__destructor.119Tm
++ ___swift_closure_destructor.11Tm
++ ___swift_closure_destructor.137Tm
++ ___swift_closure_destructor.154Tm
++ ___swift_closure_destructor.194Tm
++ ___swift_closure_destructor.197Tm
++ ___swift_closure_destructor.199Tm
++ ___swift_closure_destructor.202Tm
++ ___swift_closure_destructor.207Tm
++ ___swift_closure_destructor.210Tm
++ ___swift_closure_destructor.220Tm
++ ___swift_closure_destructor.223Tm
++ ___swift_closure_destructor.46Tm
++ ___swift_closure_destructor.53Tm
++ ___swift_closure_destructor.63Tm
++ ___swift_closure_destructor.65Tm
++ ___swift_closure_destructor.68Tm
++ ___swift_closure_destructor.81Tm
++ ___swift_get_extra_inhabitant_index.17Tm
++ ___swift_get_extra_inhabitant_index.80Tm
++ ___swift_memcpy19_8
++ ___swift_store_extra_inhabitant_index.18Tm
++ ___swift_store_extra_inhabitant_index.81Tm
++ ___unnamed_12
++ _associated conformance 12HomeKitClips11PlaybackURLV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 12HomeKitClips11PlaybackURLV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0I0
++ _associated conformance 12HomeKitClips11PlaybackURLV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 12HomeKitClips11PlaybackURLVSHAASQ
++ _associated conformance 12HomeKitClips12PlaybackURLsV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 12HomeKitClips12PlaybackURLsV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0I0
++ _associated conformance 12HomeKitClips12PlaybackURLsV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 12HomeKitClips12PlaybackURLsVSHAASQ
++ _associated conformance 12HomeKitClips23MultiCameraCloudStorageO22AsyncLazyArraySequenceV0H8IteratorVy_xq_q0__GScIAA7FailureScI_s5Error
++ _associated conformance 12HomeKitClips23MultiCameraCloudStorageO22AsyncLazyArraySequenceVy_xq_q0_GAC010ContextualhK0AA0H8IteratorSci_AC0lhM0
++ _associated conformance 12HomeKitClips23MultiCameraCloudStorageO22AsyncLazyArraySequenceVy_xq_q0_GSciAA0H8IteratorSci_ScI
++ _associated conformance 12HomeKitClips31GetRecordingPlaybackURLsRequestV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 12HomeKitClips31GetRecordingPlaybackURLsRequestV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0L0
++ _associated conformance 12HomeKitClips31GetRecordingPlaybackURLsRequestV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 12HomeKitClips31GetRecordingPlaybackURLsRequestVSHAASQ
++ _associated conformance 12HomeKitClips32GetRecordingPlaybackURLsResponseV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 12HomeKitClips32GetRecordingPlaybackURLsResponseV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0L0
++ _associated conformance 12HomeKitClips32GetRecordingPlaybackURLsResponseV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 12HomeKitClips32GetRecordingPlaybackURLsResponseVSHAASQ
++ _associated conformance 12HomeKitClips32GetRecordingsDiscoveryURLRequestV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 12HomeKitClips32GetRecordingsDiscoveryURLRequestV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0K0
++ _associated conformance 12HomeKitClips32GetRecordingsDiscoveryURLRequestV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 12HomeKitClips32GetRecordingsDiscoveryURLRequestVSHAASQ
++ _associated conformance 12HomeKitClips33GetRecordingsDiscoveryURLResponseV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 12HomeKitClips33GetRecordingsDiscoveryURLResponseV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0K0
++ _associated conformance 12HomeKitClips33GetRecordingsDiscoveryURLResponseV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 12HomeKitClips33GetRecordingsDiscoveryURLResponseVSHAASQ
++ _associated conformance 12HomeKitClips5HKSV3V15CameraRecordingV11PlaybackURLVSHAASQ
++ _associated conformance 12HomeKitClips5HKSV3V22CameraDataStoreContextC13AssetCacheKey33_FD6568531BC8DA6E5D41CACDBD4765DBLLVSHAASQ
++ _get_enum_tag_for_layout_string SayxGq_s5Error_pRi_zRi0_zRi__Ri0__r0_ly12CloudKitCode22Ckcode_RecordTransportVytIseghHorzo_Sg
++ _get_witness_table 12HomeKitClips23MultiCameraCloudStorageO22AsyncLazyArraySequenceVy_0fB4Code22Ckcode_RecordTransportVSo8CKRecordCAC17ClipBundleContextVGSciHPyHC
++ _get_witness_table 12HomeKitClips23MultiCameraCloudStorageO22AsyncLazyArraySequenceVy_0fB4Code22Ckcode_RecordTransportVSo8CKRecordCytGSciHPyHC
++ _get_witness_table 12HomeKitClips23MultiCameraCloudStorageO22AsyncLazyArraySequenceVy_AC17RecordQueryResultVAGytGSciHPyHC
++ _get_witness_table 12HomeKitClips23MultiCameraCloudStorageO22ClipBundleItemSequenceVy_AC014AsyncLazyArrayK0Vy_0fB4Code22Ckcode_RecordTransportVSo8CKRecordCAC0hI7ContextVGGSciHPyHC
++ _get_witness_table s16AsyncMapSequenceVy12HomeKitClips23MultiCameraCloudStorageO0a9LazyArrayC0Vy_AE17RecordQueryResultVAIytGAE0nO0VGSciHPyHC
++ _get_witness_table s23AsyncCompactMapSequenceVy12HomeKitClips23MultiCameraCloudStorageO0a9LazyArrayD0Vy_0jF4Code22Ckcode_RecordTransportVSo8CKRecordCytGAC0P0VyAC0I8SnapshotVGGSciHPyHC
++ _get_witness_table s23AsyncCompactMapSequenceVy12HomeKitClips23MultiCameraCloudStorageO0a9LazyArrayD0Vy_0jF4Code22Ckcode_RecordTransportVSo8CKRecordCytGAE4ItemOGSciHPyHC
++ _kACRenewCredentialsShouldAvoidUIKey
++ _kACRenewCredentialsShouldAvoidUIKey$loadHelper_x8
++ _swift_allocateGenericClassMetadata
++ _swift_initClassMetadata2
++ _symbolic $s12HomeKitClips23MultiCameraCloudStorageO23ContextualAsyncIteratorP
++ _symbolic $s12HomeKitClips23MultiCameraCloudStorageO23ContextualAsyncSequenceP
++ _symbolic 13AsyncIteratorSci_7Context_____QZ 12HomeKitClips23MultiCameraCloudStorageO23ContextualAsyncIteratorP
++ _symbolic 7Context_____Qz 12HomeKitClips23MultiCameraCloudStorageO23ContextualAsyncSequenceP
++ _symbolic SDySSSDy__________GG s5Int64V 12HomeKitClips5HKSV3V15CameraRecordingV11PlaybackURLV
++ _symbolic SDySS_____G 12HomeKitClips12PlaybackURLsV
++ _symbolic SDy__________G 12HomeKitClips22CameraSignificantEventV2IDV AC
++ _symbolic SDy__________G 12HomeKitClips40CameraSignificantEventFaceClassificationV2IDV AC
++ _symbolic SDyx_____yxq__GG 12HomeKitClips8LRUCacheV5Entry33_20495CBFA535C383A01067C2666AAE96LLV
++ _symbolic SS3key______5valuet 12HomeKitClips12PlaybackURLsV
++ _symbolic SS______t 12HomeKitClips12PlaybackURLsV
++ _symbolic Say_____G 12HomeKitClips11PlaybackURLV
++ _symbolic Say_____G s5Int64V
++ _symbolic Say_____G___________pIeghHoozo_ 12CloudKitCode22Ckcode_RecordTransportV 04HomeB5Clips011MultiCameraA7StorageO17ClipBundleContextV s5ErrorP
++ _symbolic Say_____G______pIeghHozo_ 12CloudKitCode22Ckcode_RecordTransportV s5ErrorP
++ _symbolic Say_____G______pIeghHozo_ 12HomeKitClips23MultiCameraCloudStorageO17RecordQueryResultV s5ErrorP
++ _symbolic Say______pG 12HomeKitClips18CameraCloudStorageO7CapableP
++ _symbolic SayxG_q0_tyYaYbKc
++ _symbolic SayxG_q0_tyYaYbKcSg
++ _symbolic Sb______pIeghHrzo_ s5ErrorP
++ _symbolic ScCy__________G So30ACAccountCredentialRenewResultV s5NeverO
++ _symbolic ScCy___________pG 12HomeKitClips32GetRecordingPlaybackURLsResponseV s5ErrorP
++ _symbolic ScCy___________pGSg 12HomeKitClips20EnableCameraResponseV s5ErrorP
++ _symbolic ScCy___________pGSg 12HomeKitClips20QueryRecordsResponseV s5ErrorP
++ _symbolic ScCy___________pGSg 12HomeKitClips21DisableCameraResponseV s5ErrorP
++ _symbolic ScCy___________pGSg 12HomeKitClips22FetchSnapshotsResponseV s5ErrorP
++ _symbolic ScCy___________pGSg 12HomeKitClips24FetchClipBundlesResponseV s5ErrorP
++ _symbolic ScCy___________pGSg 12HomeKitClips24GetActiveCamerasResponseV s5ErrorP
++ _symbolic ScCy___________pGSg 12HomeKitClips28EnableCameraFeaturesResponseV s5ErrorP
++ _symbolic ScCy___________pGSg 12HomeKitClips29DisableCameraFeaturesResponseV s5ErrorP
++ _symbolic ScCy___________pGSg 12HomeKitClips31GetRecordingPlaybackURLResponseV s5ErrorP
++ _symbolic ScCy___________pGSg 12HomeKitClips32GetEnabledCameraFeaturesResponseV s5ErrorP
++ _symbolic ScCy___________pGSg 12HomeKitClips32GetRecordingPlaybackURLsResponseV s5ErrorP
++ _symbolic ScCy___________pGSg 12HomeKitClips39GetRecordingPublishingPointInfoResponseV s5ErrorP
++ _symbolic ScCy___________pGSg_So11CKOperationCSgt 12HomeKitClips20EnableCameraResponseV s5ErrorP
++ _symbolic ScCy___________pGSg_So11CKOperationCSgt 12HomeKitClips20QueryRecordsResponseV s5ErrorP
++ _symbolic ScCy___________pGSg_So11CKOperationCSgt 12HomeKitClips21DisableCameraResponseV s5ErrorP
++ _symbolic ScCy___________pGSg_So11CKOperationCSgt 12HomeKitClips22FetchSnapshotsResponseV s5ErrorP
++ _symbolic ScCy___________pGSg_So11CKOperationCSgt 12HomeKitClips24FetchClipBundlesResponseV s5ErrorP
++ _symbolic ScCy___________pGSg_So11CKOperationCSgt 12HomeKitClips24GetActiveCamerasResponseV s5ErrorP
++ _symbolic ScCy___________pGSg_So11CKOperationCSgt 12HomeKitClips28EnableCameraFeaturesResponseV s5ErrorP
++ _symbolic ScCy___________pGSg_So11CKOperationCSgt 12HomeKitClips29DisableCameraFeaturesResponseV s5ErrorP
++ _symbolic ScCy___________pGSg_So11CKOperationCSgt 12HomeKitClips31GetRecordingPlaybackURLResponseV s5ErrorP
++ _symbolic ScCy___________pGSg_So11CKOperationCSgt 12HomeKitClips32GetEnabledCameraFeaturesResponseV s5ErrorP
++ _symbolic ScCy___________pGSg_So11CKOperationCSgt 12HomeKitClips32GetRecordingPlaybackURLsResponseV s5ErrorP
++ _symbolic ScCy___________pGSg_So11CKOperationCSgt 12HomeKitClips39GetRecordingPublishingPointInfoResponseV s5ErrorP
++ _symbolic ScCy___________pG_So11CKOperationCSg9operationt 12HomeKitClips20EnableCameraResponseV s5ErrorP
++ _symbolic ScCy___________pG_So11CKOperationCSg9operationt 12HomeKitClips20QueryRecordsResponseV s5ErrorP
++ _symbolic ScCy___________pG_So11CKOperationCSg9operationt 12HomeKitClips21DisableCameraResponseV s5ErrorP
++ _symbolic ScCy___________pG_So11CKOperationCSg9operationt 12HomeKitClips22FetchSnapshotsResponseV s5ErrorP
++ _symbolic ScCy___________pG_So11CKOperationCSg9operationt 12HomeKitClips24FetchClipBundlesResponseV s5ErrorP
++ _symbolic ScCy___________pG_So11CKOperationCSg9operationt 12HomeKitClips24GetActiveCamerasResponseV s5ErrorP
++ _symbolic ScCy___________pG_So11CKOperationCSg9operationt 12HomeKitClips28EnableCameraFeaturesResponseV s5ErrorP
++ _symbolic ScCy___________pG_So11CKOperationCSg9operationt 12HomeKitClips29DisableCameraFeaturesResponseV s5ErrorP
++ _symbolic ScCy___________pG_So11CKOperationCSg9operationt 12HomeKitClips31GetRecordingPlaybackURLResponseV s5ErrorP
++ _symbolic ScCy___________pG_So11CKOperationCSg9operationt 12HomeKitClips32GetEnabledCameraFeaturesResponseV s5ErrorP
++ _symbolic ScCy___________pG_So11CKOperationCSg9operationt 12HomeKitClips32GetRecordingPlaybackURLsResponseV s5ErrorP
++ _symbolic ScCy___________pG_So11CKOperationCSg9operationt 12HomeKitClips39GetRecordingPublishingPointInfoResponseV s5ErrorP
++ _symbolic ScCyx______pG_So11CKOperationCSg9operationt s5ErrorP
++ _symbolic So11CKOperationCSg
++ _symbolic _____ 12HomeKitClips10CloudStoreC0D14OperationState33_5A8EFC9731DC1F4325A82C9D9BEEB508LLC
++ _symbolic _____ 12HomeKitClips10CloudStoreC0D14OperationState33_5A8EFC9731DC1F4325A82C9D9BEEB508LLC0G0O
++ _symbolic _____ 12HomeKitClips11PlaybackURLV
++ _symbolic _____ 12HomeKitClips12PlaybackURLsV
++ _symbolic _____ 12HomeKitClips23MultiCameraCloudStorageO17ClipBundleContextV
++ _symbolic _____ 12HomeKitClips31GetRecordingPlaybackURLsRequestV
++ _symbolic _____ 12HomeKitClips32GetRecordingPlaybackURLsResponseV
++ _symbolic _____ 12HomeKitClips32GetRecordingsDiscoveryURLRequestV
++ _symbolic _____ 12HomeKitClips33GetRecordingsDiscoveryURLResponseV
++ _symbolic _____ 12HomeKitClips5HKSV3V15CameraRecordingV11PlaybackURLV
++ _symbolic _____ 12HomeKitClips5HKSV3V22CameraDataStoreContextC13AssetCacheKey33_FD6568531BC8DA6E5D41CACDBD4765DBLLV
++ _symbolic _____ 12HomeKitClips8LRUCacheV
++ _symbolic _____ 12HomeKitClips8LRUCacheV5Entry33_20495CBFA535C383A01067C2666AAE96LLV
++ _symbolic _____ s15ContinuousClockV7InstantV
++ _symbolic _____3key_SS5valuet 10Foundation4UUIDV
++ _symbolic _____3key______yAASo7AVAssetC_G5valuet 12HomeKitClips5HKSV3V22CameraDataStoreContextC13AssetCacheKey33_FD6568531BC8DA6E5D41CACDBD4765DBLLV AA8LRUCacheV5Entry33_20495CBFA535C383A01067C2666AAE96LLV
++ _symbolic _____3key______yAA______G5valuet 12HomeKitClips5HKSV3V22CameraRecordingSessionV2IDV AA8LRUCacheV5Entry33_20495CBFA535C383A01067C2666AAE96LLV AC0E9DataStoreC0G15PlaybackRequestV
++ _symbolic _____Sg 12HomeKitClips12PlaybackURLsV
++ _symbolic _____Sg 12HomeKitClips31GetRecordingPlaybackURLsRequestV
++ _symbolic _____Sg 12HomeKitClips5HKSV3V15CameraDataStoreC22SessionPlaybackRequestV
++ _symbolic _____Sg 12HomeKitClips5HKSV3V15CameraRecordingV11PlaybackURLV
++ _symbolic _____Sg 21InternalSwiftProtobuf07Google_C9_DurationV
++ _symbolic _____Sg s15ContinuousClockV7InstantV
++ _symbolic _____Sg_ABt 12HomeKitClips12PlaybackURLsV
++ _symbolic _____Sg_ABt 21InternalSwiftProtobuf07Google_C9_DurationV
++ _symbolic _____XDXMT 12HomeKitClips18CameraCloudStorageO7ManagerC
++ _symbolic ___________t 12HomeKitClips22CameraSignificantEventV2IDV AC
++ _symbolic ___________t 12HomeKitClips40CameraSignificantEventFaceClassificationV2IDV AC
++ _symbolic ___________t 12HomeKitClips5HKSV3V22CameraRecordingSessionV2IDV AC0E9DataStoreC0G15PlaybackRequestV
++ _symbolic ___________t s5Int64V 12HomeKitClips5HKSV3V15CameraRecordingV11PlaybackURLV
++ _symbolic _____ySSSDy__________GG s18_DictionaryStorageC s5Int64V 12HomeKitClips5HKSV3V15CameraRecordingV11PlaybackURLV
++ _symbolic _____ySS_____G s18_DictionaryStorageC 12HomeKitClips12PlaybackURLsV
++ _symbolic _____ySb______p_G 12HMFoundation23CancellableContinuationC12ResumeHandleV s5ErrorP
++ _symbolic _____ySiG 15Synchronization5MutexVAARi_zrlE
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s5Int64V
++ _symbolic _____y_____SgG 15Synchronization5MutexVAARi_zrlE s15ContinuousClockV7InstantV
++ _symbolic _____y_____SgG 15Synchronization5_CellVAARi_zrlE s15ContinuousClockV7InstantV
++ _symbolic _____y_____So7AVAssetCG 12HomeKitClips8LRUCacheV AA5HKSV3V22CameraDataStoreContextC13AssetCacheKey33_FD6568531BC8DA6E5D41CACDBD4765DBLLV
++ _symbolic _____y_____So7AVAssetC_G 12HomeKitClips8LRUCacheV5Entry33_20495CBFA535C383A01067C2666AAE96LLV AA5HKSV3V22CameraDataStoreContextC13AssetCacheKey33_FD6568531BC8DA6E5D41CACDBD4765DBLLV
++ _symbolic _____y_____So7AVAssetC_GSg 12HomeKitClips8LRUCacheV5Entry33_20495CBFA535C383A01067C2666AAE96LLV AA5HKSV3V22CameraDataStoreContextC13AssetCacheKey33_FD6568531BC8DA6E5D41CACDBD4765DBLLV
++ _symbolic _____y______ABytG 12HomeKitClips23MultiCameraCloudStorageO22AsyncLazyArraySequenceV AC17RecordQueryResultV
++ _symbolic _____y______G 12HomeKitClips10CloudStoreC0D14OperationState33_5A8EFC9731DC1F4325A82C9D9BEEB508LLC AA20EnableCameraResponseV
++ _symbolic _____y______G 12HomeKitClips10CloudStoreC0D14OperationState33_5A8EFC9731DC1F4325A82C9D9BEEB508LLC AA20QueryRecordsResponseV
++ _symbolic _____y______G 12HomeKitClips10CloudStoreC0D14OperationState33_5A8EFC9731DC1F4325A82C9D9BEEB508LLC AA21DisableCameraResponseV
++ _symbolic _____y______G 12HomeKitClips10CloudStoreC0D14OperationState33_5A8EFC9731DC1F4325A82C9D9BEEB508LLC AA22FetchSnapshotsResponseV
++ _symbolic _____y______G 12HomeKitClips10CloudStoreC0D14OperationState33_5A8EFC9731DC1F4325A82C9D9BEEB508LLC AA24FetchClipBundlesResponseV
++ _symbolic _____y______G 12HomeKitClips10CloudStoreC0D14OperationState33_5A8EFC9731DC1F4325A82C9D9BEEB508LLC AA24GetActiveCamerasResponseV
++ _symbolic _____y______G 12HomeKitClips10CloudStoreC0D14OperationState33_5A8EFC9731DC1F4325A82C9D9BEEB508LLC AA28EnableCameraFeaturesResponseV
++ _symbolic _____y______G 12HomeKitClips10CloudStoreC0D14OperationState33_5A8EFC9731DC1F4325A82C9D9BEEB508LLC AA29DisableCameraFeaturesResponseV
++ _symbolic _____y______G 12HomeKitClips10CloudStoreC0D14OperationState33_5A8EFC9731DC1F4325A82C9D9BEEB508LLC AA31GetRecordingPlaybackURLResponseV
++ _symbolic _____y______G 12HomeKitClips10CloudStoreC0D14OperationState33_5A8EFC9731DC1F4325A82C9D9BEEB508LLC AA32GetEnabledCameraFeaturesResponseV
++ _symbolic _____y______G 12HomeKitClips10CloudStoreC0D14OperationState33_5A8EFC9731DC1F4325A82C9D9BEEB508LLC AA32GetRecordingPlaybackURLsResponseV
++ _symbolic _____y______G 12HomeKitClips10CloudStoreC0D14OperationState33_5A8EFC9731DC1F4325A82C9D9BEEB508LLC AA39GetRecordingPublishingPointInfoResponseV
++ _symbolic _____y______So8CKRecordC_____G 12HomeKitClips23MultiCameraCloudStorageO22AsyncLazyArraySequenceV 0fB4Code22Ckcode_RecordTransportV AC17ClipBundleContextV
++ _symbolic _____y______So8CKRecordCytG 12HomeKitClips23MultiCameraCloudStorageO22AsyncLazyArraySequenceV 0fB4Code22Ckcode_RecordTransportV
++ _symbolic _____y______So8CKRecordCyt_G 12HomeKitClips23MultiCameraCloudStorageO22AsyncLazyArraySequenceV0H8IteratorV 0fB4Code22Ckcode_RecordTransportV
++ _symbolic _____y_______G 12HomeKitClips10CloudStoreC0D14OperationState33_5A8EFC9731DC1F4325A82C9D9BEEB508LLC0G0O AA20EnableCameraResponseV
++ _symbolic _____y_______G 12HomeKitClips10CloudStoreC0D14OperationState33_5A8EFC9731DC1F4325A82C9D9BEEB508LLC0G0O AA20QueryRecordsResponseV
++ _symbolic _____y_______G 12HomeKitClips10CloudStoreC0D14OperationState33_5A8EFC9731DC1F4325A82C9D9BEEB508LLC0G0O AA21DisableCameraResponseV
++ _symbolic _____y_______G 12HomeKitClips10CloudStoreC0D14OperationState33_5A8EFC9731DC1F4325A82C9D9BEEB508LLC0G0O AA22FetchSnapshotsResponseV
++ _symbolic _____y_______G 12HomeKitClips10CloudStoreC0D14OperationState33_5A8EFC9731DC1F4325A82C9D9BEEB508LLC0G0O AA24FetchClipBundlesResponseV
++ _symbolic _____y_______G 12HomeKitClips10CloudStoreC0D14OperationState33_5A8EFC9731DC1F4325A82C9D9BEEB508LLC0G0O AA24GetActiveCamerasResponseV
++ _symbolic _____y_______G 12HomeKitClips10CloudStoreC0D14OperationState33_5A8EFC9731DC1F4325A82C9D9BEEB508LLC0G0O AA28EnableCameraFeaturesResponseV
++ _symbolic _____y_______G 12HomeKitClips10CloudStoreC0D14OperationState33_5A8EFC9731DC1F4325A82C9D9BEEB508LLC0G0O AA29DisableCameraFeaturesResponseV
++ _symbolic _____y_______G 12HomeKitClips10CloudStoreC0D14OperationState33_5A8EFC9731DC1F4325A82C9D9BEEB508LLC0G0O AA31GetRecordingPlaybackURLResponseV
++ _symbolic _____y_______G 12HomeKitClips10CloudStoreC0D14OperationState33_5A8EFC9731DC1F4325A82C9D9BEEB508LLC0G0O AA32GetEnabledCameraFeaturesResponseV
++ _symbolic _____y_______G 12HomeKitClips10CloudStoreC0D14OperationState33_5A8EFC9731DC1F4325A82C9D9BEEB508LLC0G0O AA32GetRecordingPlaybackURLsResponseV
++ _symbolic _____y_______G 12HomeKitClips10CloudStoreC0D14OperationState33_5A8EFC9731DC1F4325A82C9D9BEEB508LLC0G0O AA39GetRecordingPublishingPointInfoResponseV
++ _symbolic _____y__________G 12CloudKitCode15CKCodeOperationC 04HomeB5Clips31GetRecordingPlaybackURLsRequestV AD0hijK8ResponseV
++ _symbolic _____y__________G 12HomeKitClips8LRUCacheV AA5HKSV3V22CameraRecordingSessionV2IDV AE0F9DataStoreC0H15PlaybackRequestV
++ _symbolic _____y__________G s18_DictionaryStorageC 12HomeKitClips22CameraSignificantEventV2IDV AE
++ _symbolic _____y__________G s18_DictionaryStorageC 12HomeKitClips40CameraSignificantEventFaceClassificationV2IDV AE
++ _symbolic _____y__________G s18_DictionaryStorageC 12HomeKitClips5HKSV3V22CameraRecordingSessionV2IDV AE0G9DataStoreC0I15PlaybackRequestV
++ _symbolic _____y__________G s18_DictionaryStorageC s5Int64V 12HomeKitClips5HKSV3V15CameraRecordingV11PlaybackURLV
++ _symbolic _____y___________G 12HomeKitClips8LRUCacheV5Entry33_20495CBFA535C383A01067C2666AAE96LLV AA5HKSV3V22CameraRecordingSessionV2IDV AH0L9DataStoreC0N15PlaybackRequestV
++ _symbolic _____y___________GSg 12HomeKitClips8LRUCacheV5Entry33_20495CBFA535C383A01067C2666AAE96LLV AA5HKSV3V22CameraRecordingSessionV2IDV AH0L9DataStoreC0N15PlaybackRequestV
++ _symbolic _____y___________pG s6ResultOsRi_zRi0_zrlE 12HomeKitClips32GetRecordingPlaybackURLsResponseV s5ErrorP
++ _symbolic _____y__________yABSo7AVAssetC_GG s18_DictionaryStorageC 12HomeKitClips5HKSV3V22CameraDataStoreContextC13AssetCacheKey33_FD6568531BC8DA6E5D41CACDBD4765DBLLV AC8LRUCacheV5Entry33_20495CBFA535C383A01067C2666AAE96LLV
++ _symbolic _____y__________yAB______GG s18_DictionaryStorageC 12HomeKitClips5HKSV3V22CameraRecordingSessionV2IDV AC8LRUCacheV5Entry33_20495CBFA535C383A01067C2666AAE96LLV AE0G9DataStoreC0I15PlaybackRequestV
++ _symbolic _____y______y______So8CKRecordC_____GG 12HomeKitClips23MultiCameraCloudStorageO22ClipBundleItemSequenceV AC014AsyncLazyArrayK0V 0fB4Code22Ckcode_RecordTransportV AC0hI7ContextV
++ _symbolic _____y_____y______ACytG_____G s16AsyncMapSequenceV 12HomeKitClips23MultiCameraCloudStorageO0a9LazyArrayC0V AE17RecordQueryResultV AE0nO0V
++ _symbolic _____y_____y______So8CKRecordCytG_____G s23AsyncCompactMapSequenceV 12HomeKitClips23MultiCameraCloudStorageO0a9LazyArrayD0V 0jF4Code22Ckcode_RecordTransportV AE4ItemO
++ _symbolic _____y_____y______So8CKRecordCytG_____y_____GG s23AsyncCompactMapSequenceV 12HomeKitClips23MultiCameraCloudStorageO0a9LazyArrayD0V 0jF4Code22Ckcode_RecordTransportV AC0P0V AC0I8SnapshotV
++ _symbolic _____y_____y_______GG 15Synchronization5MutexVAARi_zrlE 12HomeKitClips10CloudStoreC0F14OperationState33_5A8EFC9731DC1F4325A82C9D9BEEB508LLC0I0O AD20EnableCameraResponseV
++ _symbolic _____y_____y_______GG 15Synchronization5MutexVAARi_zrlE 12HomeKitClips10CloudStoreC0F14OperationState33_5A8EFC9731DC1F4325A82C9D9BEEB508LLC0I0O AD20QueryRecordsResponseV
++ _symbolic _____y_____y_______GG 15Synchronization5MutexVAARi_zrlE 12HomeKitClips10CloudStoreC0F14OperationState33_5A8EFC9731DC1F4325A82C9D9BEEB508LLC0I0O AD21DisableCameraResponseV
++ _symbolic _____y_____y_______GG 15Synchronization5MutexVAARi_zrlE 12HomeKitClips10CloudStoreC0F14OperationState33_5A8EFC9731DC1F4325A82C9D9BEEB508LLC0I0O AD22FetchSnapshotsResponseV
++ _symbolic _____y_____y_______GG 15Synchronization5MutexVAARi_zrlE 12HomeKitClips10CloudStoreC0F14OperationState33_5A8EFC9731DC1F4325A82C9D9BEEB508LLC0I0O AD24FetchClipBundlesResponseV
++ _symbolic _____y_____y_______GG 15Synchronization5MutexVAARi_zrlE 12HomeKitClips10CloudStoreC0F14OperationState33_5A8EFC9731DC1F4325A82C9D9BEEB508LLC0I0O AD24GetActiveCamerasResponseV
++ _symbolic _____y_____y_______GG 15Synchronization5MutexVAARi_zrlE 12HomeKitClips10CloudStoreC0F14OperationState33_5A8EFC9731DC1F4325A82C9D9BEEB508LLC0I0O AD28EnableCameraFeaturesResponseV
++ _symbolic _____y_____y_______GG 15Synchronization5MutexVAARi_zrlE 12HomeKitClips10CloudStoreC0F14OperationState33_5A8EFC9731DC1F4325A82C9D9BEEB508LLC0I0O AD29DisableCameraFeaturesResponseV
++ _symbolic _____y_____y_______GG 15Synchronization5MutexVAARi_zrlE 12HomeKitClips10CloudStoreC0F14OperationState33_5A8EFC9731DC1F4325A82C9D9BEEB508LLC0I0O AD31GetRecordingPlaybackURLResponseV
++ _symbolic _____y_____y_______GG 15Synchronization5MutexVAARi_zrlE 12HomeKitClips10CloudStoreC0F14OperationState33_5A8EFC9731DC1F4325A82C9D9BEEB508LLC0I0O AD32GetEnabledCameraFeaturesResponseV
++ _symbolic _____y_____y_______GG 15Synchronization5MutexVAARi_zrlE 12HomeKitClips10CloudStoreC0F14OperationState33_5A8EFC9731DC1F4325A82C9D9BEEB508LLC0I0O AD32GetRecordingPlaybackURLsResponseV
++ _symbolic _____y_____y_______GG 15Synchronization5MutexVAARi_zrlE 12HomeKitClips10CloudStoreC0F14OperationState33_5A8EFC9731DC1F4325A82C9D9BEEB508LLC0I0O AD39GetRecordingPublishingPointInfoResponseV
++ _symbolic _____y_____y_x_GG 15Synchronization5MutexVAARi_zrlE 12HomeKitClips10CloudStoreC0F14OperationState33_5A8EFC9731DC1F4325A82C9D9BEEB508LLC0I0O
++ _symbolic _____y_xq_q0__G 12HomeKitClips23MultiCameraCloudStorageO22AsyncLazyArraySequenceV0H8IteratorV
++ _symbolic _____yc 10Foundation4DateV
++ _symbolic _____yyt______p_G 12HMFoundation23CancellableContinuationC12ResumeHandleV s5ErrorP
++ _symbolic q0_
++ _symbolic q0_Sg
++ _symbolic yyc
++ _type_layout_string 12HomeKitClips23MultiCameraCloudStorageO17ClipBundleContextV
++ _type_layout_string SHRzr0_l12HomeKitClips8LRUCacheVyxq_G
++ _type_layout_string s8SendableRzsAAR_sAAR0_r1_l12HomeKitClips23MultiCameraCloudStorageO22AsyncLazyArraySequenceVy_xq_q0_G
+- ___swift__destructor.118Tm
+- ___swift_closure_destructor.129Tm
+- ___swift_closure_destructor.132Tm
+- ___swift_closure_destructor.136Tm
+- ___swift_closure_destructor.142Tm
+- ___swift_closure_destructor.145Tm
+- ___swift_closure_destructor.147Tm
+- ___swift_closure_destructor.155Tm
+- ___swift_closure_destructor.158Tm
+- ___swift_closure_destructor.198Tm
+- ___swift_closure_destructor.201Tm
+- ___swift_closure_destructor.45Tm
+- ___swift_closure_destructor.52Tm
+- ___swift_closure_destructor.5Tm
+- ___swift_closure_destructor.64Tm
+- ___swift_closure_destructor.67Tm
+- ___swift_closure_destructor.7Tm
+- ___swift_get_extra_inhabitant_index.26Tm
+- ___swift_memcpy18_8
+- ___swift_store_extra_inhabitant_index.27Tm
+- ___unnamed_2
+- _associated conformance 12HomeKitClips23MultiCameraCloudStorageO22AsyncLazyArraySequenceV0H8IteratorVy_xq__GScIAA7FailureScI_s5Error
+- _associated conformance 12HomeKitClips23MultiCameraCloudStorageO22AsyncLazyArraySequenceVy_xq_GSciAA0H8IteratorSci_ScI
+- _get_enum_tag_for_layout_string SayxGs5Error_pRi_zRi0_zly12CloudKitCode22Ckcode_RecordTransportVIseghHozo_Sg
+- _get_enum_tag_for_layout_string SayxGs5Error_pRi_zRi0_zlyxIseghHozo_Sg
+- _get_witness_table 12HomeKitClips23MultiCameraCloudStorageO22AsyncLazyArraySequenceVy_0fB4Code22Ckcode_RecordTransportVSo8CKRecordCGSciHPyHC
+- _get_witness_table 12HomeKitClips23MultiCameraCloudStorageO22AsyncLazyArraySequenceVy_AC17RecordQueryResultVAGGSciHPyHC
+- _get_witness_table 12HomeKitClips23MultiCameraCloudStorageO22ClipBundleItemSequenceVy_AC014AsyncLazyArrayK0Vy_0fB4Code22Ckcode_RecordTransportVSo8CKRecordCGGSciHPyHC
+- _get_witness_table s16AsyncMapSequenceVy12HomeKitClips23MultiCameraCloudStorageO0a9LazyArrayC0Vy_AE17RecordQueryResultVAIGAE0nO0VGSciHPyHC
+- _get_witness_table s23AsyncCompactMapSequenceVy12HomeKitClips23MultiCameraCloudStorageO0a9LazyArrayD0Vy_0jF4Code22Ckcode_RecordTransportVSo8CKRecordCGAC0P0VyAC0I8SnapshotVGGSciHPyHC
+- _get_witness_table s23AsyncCompactMapSequenceVy12HomeKitClips23MultiCameraCloudStorageO0a9LazyArrayD0Vy_0jF4Code22Ckcode_RecordTransportVSo8CKRecordCGAE4ItemOGSciHPyHC
+- _symbolic SayxGyYaYbKc
+- _symbolic SayxGyYaYbKcSg
+- _symbolic ______SSt 10Foundation4UUIDV
+- _symbolic ______SStSg 10Foundation4UUIDV
+- _symbolic _____y______ABG 12HomeKitClips23MultiCameraCloudStorageO22AsyncLazyArraySequenceV AC17RecordQueryResultV
+- _symbolic _____y______SStG s23_ContiguousArrayStorageC 10Foundation4UUIDV
+- _symbolic _____y______So8CKRecordCG 12HomeKitClips23MultiCameraCloudStorageO22AsyncLazyArraySequenceV 0fB4Code22Ckcode_RecordTransportV
+- _symbolic _____y______So8CKRecordC_G 12HomeKitClips23MultiCameraCloudStorageO22AsyncLazyArraySequenceV0H8IteratorV 0fB4Code22Ckcode_RecordTransportV
+- _symbolic _____y______y______So8CKRecordCGG 12HomeKitClips23MultiCameraCloudStorageO22ClipBundleItemSequenceV AC014AsyncLazyArrayK0V 0fB4Code22Ckcode_RecordTransportV
+- _symbolic _____y_____y______ACG_____G s16AsyncMapSequenceV 12HomeKitClips23MultiCameraCloudStorageO0a9LazyArrayC0V AE17RecordQueryResultV AE0nO0V
+- _symbolic _____y_____y______So8CKRecordCG_____G s23AsyncCompactMapSequenceV 12HomeKitClips23MultiCameraCloudStorageO0a9LazyArrayD0V 0jF4Code22Ckcode_RecordTransportV AE4ItemO
+- _symbolic _____y_____y______So8CKRecordCG_____y_____GG s23AsyncCompactMapSequenceV 12HomeKitClips23MultiCameraCloudStorageO0a9LazyArrayD0V 0jF4Code22Ckcode_RecordTransportV AC0P0V AC0I8SnapshotV
+- _symbolic _____y_xq__G 12HomeKitClips23MultiCameraCloudStorageO22AsyncLazyArraySequenceV0H8IteratorV
+- _type_layout_string s8SendableRzsAAR_r0_l12HomeKitClips23MultiCameraCloudStorageO22AsyncLazyArraySequenceV0I8IteratorVy_xq__G
+- _type_layout_string s8SendableRzsAAR_r0_l12HomeKitClips23MultiCameraCloudStorageO22AsyncLazyArraySequenceVy_xq_G
+CStrings:
++ " operation "
++ "AARenewShouldPostFollowUp"
++ "Account repair not requested: %{public}s:%{public}ld"
++ "Account repair not requested: no primary Apple Account"
++ "Account repair requested, renewal result %{public}ld"
++ "Asset for %s (mode: %s) served from cache."
++ "CMAF ingest server info retrieved. Host: %s"
++ "Camera iCloud authorization obtained. Expiration: %s"
++ "Cloud storage enable failed: %@ [%{public}s]"
++ "Cloud storage operation timed out after %{public}s"
++ "Cloud storage operation took %{public}s"
++ "Failed to check or renew authorization for camera %s: %@ [%{public}s]"
++ "Loading request has an unsupported URL scheme."
++ "Playback URL for %{public}s expired at %{public}s; resolving on demand."
++ "Rejecting cloud storage operation: %ld already queued"
++ "Session playback request for %s served from cache."
++ "Starting cloud storage operation after waiting %{public}s behind %ld"
++ "Zone %{public}s already disabled; skipping disable"
++ "Zone state not observed [%{public}s]"
++ "[%s] Canceled in-flight %s CKCodeOperation because the calling task was canceled"
++ "[%s] Deleting %ld excluded clip(s) from Spotlight index"
++ "[%s] Excluding clip %s from index because its caption is flagged as sensitive or unsafe"
++ "[%s] Not retrying CKCodeOperation because the calling task was canceled"
++ "[%s] Not starting %s CKCodeOperation because the calling task was canceled"
++ "[%{public}s] (Playlist) %{public}s"
++ "[%{public}s] Authenticated download complete: %ld bytes in %{public}s"
++ "[%{public}s] Credential renewal failed: %s"
++ "[%{public}s] Credential renewal unknown result: %s"
++ "[%{public}s] Credentials renewed successfully"
++ "[%{public}s] Data Request: %@"
++ "[%{public}s] Error downloading authenticated resource: %@"
++ "[%{public}s] Failed to fetch key, error: %@"
++ "[%{public}s] Fetched camera key for keyID: %s"
++ "[%{public}s] HTTP Status Code: %ld, headers: %s"
++ "[%{public}s] Handling request for URL: %s"
++ "[%{public}s] Range: %s"
++ "[%{public}s] Received 401, renewing credentials"
++ "[%{public}s] Requesting playlist from URL: %{public}s"
++ "[%{public}s] Response status: %{public}ld, x-apple-request-uuid: %{public}s"
++ "[%{public}s] User rejected credential renewal"
++ "[%{public}s] resourceFetchType: %{public}s, duration: %{public}s for URL: %{public}s"
++ "camera.cloud.storage.authorization"
++ "export(asset:variant:destinationFileURL:creationDate:)"
++ "getRecordingPlaybackURLs"
++ "requestAccountRepair()"
+- "CMAF ingest server info retrieved. URL: %s"
+- "Camera iCloud authorization obtained. Token: %s, expiration: %s"
+- "Certificate within renewal threshold for camera %s, initiating renewal"
+- "Checking certificate expiration for camera %s"
+- "Cloud storage enable failed: %@"
+- "Failed to read certificate expiration date for camera %s: %@"
+- "Failed to renew authorization for camera %s: %@"
+- "Invalid playback URL: "
+- "Loading request has a unsupported URL scheme."
+- "[%s] (Playlist) %{public}s"
+- "[%s] Authenticated download complete: %ld bytes in %{public}s"
+- "[%s] Credential renewal failed: %s"
+- "[%s] Credential renewal unknown result: %s"
+- "[%s] Credentials renewed successfully"
+- "[%s] Data Request: %@"
+- "[%s] Error downloading authenticated resource: %@"
+- "[%s] Failed to fetch key, error: %@"
+- "[%s] Fetched camera key for keyID: %s"
+- "[%s] Got playback URL for zone %s, zoneOwner %s, session %lld"
+- "[%s] HTTP Status Code: %ld, headers: %s"
+- "[%s] Handling request for URL: %s"
+- "[%s] Range: %s"
+- "[%s] Received 401, renewing credentials"
+- "[%s] Requesting playlist from URL: %{public}s"
+- "[%s] Response status: %{public}ld, x-apple-request-uuid: %{public}s"
+- "[%s] Sending get playback URL request for zone %s, session %lld"
+- "[%s] User rejected credential renewal"
+- "export(asset:variant:destinationFileURL:)"
+```

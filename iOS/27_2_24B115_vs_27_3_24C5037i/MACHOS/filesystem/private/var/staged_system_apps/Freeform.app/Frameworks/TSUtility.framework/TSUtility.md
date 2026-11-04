@@ -1,0 +1,405 @@
+## TSUtility
+
+> `/private/var/staged_system_apps/Freeform.app/Frameworks/TSUtility.framework/TSUtility`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methtype`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_protos`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__objc_arrayobj`
+- `__DATA_CONST.__objc_intobj`
+- `__DATA_CONST.__objc_dictobj`
+- `__DATA.__objc_stublist`
+
+```diff
+
+-656.40.9.0.2
+-  __TEXT.__text: 0x2ec518
+-  __TEXT.__auth_stubs: 0x6b20
+-  __TEXT.__objc_stubs: 0x12f00
+-  __TEXT.__objc_methlist: 0xd758
+-  __TEXT.__const: 0x21a0bc
+-  __TEXT.__cstring: 0x20638
+-  __TEXT.__oslogstring: 0xffba
+-  __TEXT.__objc_classname: 0x2b58
++656.60.5.0.0
++  __TEXT.__text: 0x2f41ec
++  __TEXT.__auth_stubs: 0x6db0
++  __TEXT.__objc_stubs: 0x12fa0
++  __TEXT.__objc_methlist: 0xd7a0
++  __TEXT.__const: 0x21a36c
++  __TEXT.__cstring: 0x20d88
++  __TEXT.__oslogstring: 0x1019a
++  __TEXT.__objc_classname: 0x2ba8
+   __TEXT.__objc_methtype: 0x74f1
+-  __TEXT.__objc_methname: 0x1f66d
+-  __TEXT.__gcc_except_tab: 0x957c
++  __TEXT.__objc_methname: 0x1f7ad
++  __TEXT.__gcc_except_tab: 0x9570
+   __TEXT.__ustring: 0x3e8
+-  __TEXT.__constg_swiftt: 0x47c0
+-  __TEXT.__swift5_typeref: 0x6b94
+-  __TEXT.__swift5_fieldmd: 0x4380
+-  __TEXT.__swift5_reflstr: 0x2a4a
+-  __TEXT.__swift5_builtin: 0x208
++  __TEXT.__constg_swiftt: 0x488c
++  __TEXT.__swift5_typeref: 0x6a38
++  __TEXT.__swift5_fieldmd: 0x4508
++  __TEXT.__swift5_reflstr: 0x2bca
++  __TEXT.__swift5_builtin: 0x21c
+   __TEXT.__swift5_assocty: 0x8a0
+   __TEXT.__swift5_protos: 0x80
+-  __TEXT.__swift5_proto: 0xc50
+-  __TEXT.__swift5_types: 0x57c
+-  __TEXT.__swift5_capture: 0x1fbc
+-  __TEXT.__swift_as_entry: 0x25c
+-  __TEXT.__swift_as_ret: 0x26c
+-  __TEXT.__swift_as_cont: 0x4ac
+-  __TEXT.__swift5_mpenum: 0x10
+-  __TEXT.__unwind_info: 0x11268
+-  __TEXT.__eh_frame: 0x9394
+-  __DATA_CONST.__const: 0x1d9e0
+-  __DATA_CONST.__cfstring: 0xf980
+-  __DATA_CONST.__objc_classlist: 0xa10
++  __TEXT.__swift5_proto: 0xc54
++  __TEXT.__swift5_types: 0x594
++  __TEXT.__swift5_capture: 0x20b0
++  __TEXT.__swift_as_entry: 0x27c
++  __TEXT.__swift_as_ret: 0x290
++  __TEXT.__swift_as_cont: 0x508
++  __TEXT.__swift5_mpenum: 0x18
++  __TEXT.__unwind_info: 0x114e8
++  __TEXT.__eh_frame: 0x9bb4
++  __DATA_CONST.__const: 0x1ddd0
++  __DATA_CONST.__cfstring: 0xf9e0
++  __DATA_CONST.__objc_classlist: 0xa20
+   __DATA_CONST.__objc_catlist: 0x1d0
+   __DATA_CONST.__objc_protolist: 0x1e8
+   __DATA_CONST.__objc_imageinfo: 0x8
+
+   __DATA_CONST.__objc_intobj: 0xc18
+   __DATA_CONST.__objc_dictobj: 0xa0
+   __DATA_CONST.__objc_doubleobj: 0x10
+-  __DATA_CONST.__auth_got: 0x35a8
+-  __DATA_CONST.__got: 0x1a78
+-  __DATA_CONST.__auth_ptr: 0x17e0
+-  __DATA.__objc_const: 0x198a0
+-  __DATA.__objc_selrefs: 0x7000
++  __DATA_CONST.__auth_got: 0x36f0
++  __DATA_CONST.__got: 0x1b10
++  __DATA_CONST.__auth_ptr: 0x18b0
++  __DATA.__objc_const: 0x19a20
++  __DATA.__objc_selrefs: 0x7038
+   __DATA.__objc_ivar: 0xe2c
+-  __DATA.__objc_data: 0x6968
+-  __DATA.__data: 0x13760
++  __DATA.__objc_data: 0x6988
++  __DATA.__data: 0x138b8
+   __DATA.__objc_stublist: 0x8
+-  __DATA.__common: 0xa30
++  __DATA.__common: 0xa78
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - @rpath/TSFeatureFlags.framework/TSFeatureFlags
+   - @rpath/TSFundamentals.framework/TSFundamentals
+   - @rpath/TSGeometry.framework/TSGeometry
+-  Functions: 18031
+-  Symbols:   17169
+-  CStrings:  10473
++  Functions: 18177
++  Symbols:   17212
++  CStrings:  10534
+ 
+Symbols:
++ -[UITraitCollection(TSUAdditions) tsu_isCompactWidthAndRegularHeight]
++ -[UITraitCollection(TSUAdditions) tsu_isCompactWidthOrHeight]
++ -[UITraitCollection(TSUAdditions) tsu_isRegularWidthAndCompactHeight]
++ -[UITraitCollection(TSUAdditions) tsu_isRegularWidthAndHeight]
++ _OBJC_CLASS_$_TSSubscriptionStatusAlert
++ _OBJC_CLASS_$__TtCC14TSSubscription28SubscriptionSheetCoordinator29AppSubscriptionSheetPresenter
++ _OBJC_METACLASS_$_TSSubscriptionStatusAlert
++ _OBJC_METACLASS_$__TtCC14TSSubscription28SubscriptionSheetCoordinator29AppSubscriptionSheetPresenter
++ _TSUDateFormatterApplyHarmonizedSymbols
++ _TSUPXDBinary
++ _TSUPXDPackage
++ _TSUShapeGenerationCat
++ _TSUShapeGenerationCat_init_token
++ _TSUShapeGenerationCat_log_t
++ __CLASS_METHODS_TSSubscriptionStatusAlert
++ __CLASS_PROPERTIES_TSSubscriptionStatusAlert
++ __DATA_TSSubscriptionStatusAlert
++ __DATA__TtC11TSAnalytics33DeferredMigrationStartDateStorage
++ __DATA__TtCC14TSSubscription23SubscriptionStatusAlert10Controller
++ __DATA__TtCC14TSSubscription28SubscriptionSheetCoordinator29AppSubscriptionSheetPresenter
++ __INSTANCE_METHODS_TSSubscriptionStatusAlert
++ __INSTANCE_METHODS__TtCC14TSSubscription28SubscriptionSheetCoordinator29AppSubscriptionSheetPresenter
++ __IVARS__TtC11TSAnalytics33DeferredMigrationStartDateStorage
++ __IVARS__TtCC14TSSubscription23SubscriptionStatusAlert10Controller
++ __IVARS__TtCC14TSSubscription28SubscriptionSheetCoordinator29AppSubscriptionSheetPresenter
++ __METACLASS_DATA_TSSubscriptionStatusAlert
++ __METACLASS_DATA__TtC11TSAnalytics33DeferredMigrationStartDateStorage
++ __METACLASS_DATA__TtCC14TSSubscription23SubscriptionStatusAlert10Controller
++ __METACLASS_DATA__TtCC14TSSubscription28SubscriptionSheetCoordinator29AppSubscriptionSheetPresenter
++ __PROTOCOLS__TtCC14TSSubscription28SubscriptionSheetCoordinator29AppSubscriptionSheetPresenter
++ ___TSUDateFormatterApplyHarmonizedSymbols_block_invoke
++ ___swift_closure_destructor.7Tm
++ ___swift_memcpy72_8
++ _get_enum_tag_for_layout_string 14TSSubscription28SubscriptionSheetCoordinatorC03AppbC9PresenterC12ActionSourceO
++ _get_witness_table 7SwiftUI4ViewRzlAA19_ConditionalContentVyAA6VStackVyAA05TupleE0VyAA6SpacerV_ADyAA08ModifiedE0Vy14TSSubscription018PremiumAssetsModalC0V04CellC0VAA16_FlexFrameLayoutVGATGALyALyAA4TextVASGAA08_PaddingQ0VGAJxQPGGAaBPAAE11safeAreaBar4edge9alignment7spacing7contentQrAA12VerticalEdgeO_AA19HorizontalAlignmentV12CoreGraphics7CGFloatVSgqd__yXEtAaBRd__lFQOyA2_AAE21scrollEdgeEffectStyle_3forQrAA21ScrollEdgeEffectStyleVSg_AA4EdgeO3SetVtFQOyAA14GeometryReaderVyAA06ScrollC0VyALyAFyAHyADyALyAA6HStackVyAA7ForEachVySaySi6offset_AA5ImageV7elementtGSiATGGASGAA9LazyVGridVyA32_yA37_SiAQGGG_A_QPGGASGGG_Qo__AFyxGQo_GAaBHPA1_AaBHPyHC_qd0__AaBHD3_A53_HOHC
++ _get_witness_table 7SwiftUI6ButtonVyAA15ModifiedContentVyAA4ViewPAAE11glassEffect_2inQrAA5GlassV_qd__tAA5ShapeRd__lFQOyAEyAEyAEyAA5ImageVAA24_ForegroundStyleModifierVyAA5ColorVGGAA022_EnvironmentKeyWritingO0VyAA4FontVSgGGAA14_PaddingLayoutVG_AA07DefaultjhK0VQo_AA06_FrameV0VGGAaFHPyHC
++ _get_witness_table 7SwiftUI6VStackVyAA12TupleContentVyAA6ButtonVyAA08ModifiedE0VyAA4ViewPAAE11glassEffect_2inQrAA5GlassV_qd__tAA5ShapeRd__lFQOyAIyAIyAA4TextVAA14_PaddingLayoutVGAA010_FlexFrameP0VG_AA07DefaultljM0VQo_AA30_EnvironmentKeyWritingModifierVy12CoreGraphics7CGFloatVGGG_A7_QPGGAaJHPyHC
++ _objc_msgSend$capabilitiesForHardware
++ _objc_msgSend$supportsHaptics
++ _objc_msgSend$tsu_isCompactHeight
++ _objc_msgSend$tsu_isCompactWidth
++ _objc_msgSend$tsu_isCompactWidthOrHeight
++ _symbolic SS4page_SS9componentt
++ _symbolic SbIegd_
++ _symbolic SbIegr_
++ _symbolic So13TSUBezierPathC
++ _symbolic _____ 11TSAnalytics33DeferredMigrationStartDateStorageC
++ _symbolic _____ 12AppAnalytics0A14SessionManagerC
++ _symbolic _____ 12AppAnalytics15TrackingConsentC
++ _symbolic _____ 14TSSubscription23SubscriptionStatusAlertC
++ _symbolic _____ 14TSSubscription23SubscriptionStatusAlertC10ControllerC
++ _symbolic _____ 14TSSubscription23SubscriptionStatusAlertC7MessageV
++ _symbolic _____ 14TSSubscription23SubscriptionStatusAlertC7MessageV9StubError33_5506478B32D2A48C11D484696771E724LLV
++ _symbolic _____ 14TSSubscription28SubscriptionSheetCoordinatorC03AppbC9PresenterC
++ _symbolic _____ 14TSSubscription28SubscriptionSheetCoordinatorC03AppbC9PresenterC12ActionSourceO
++ _symbolic _____ 16AppSubscriptions13MessageActionV
++ _symbolic _____ 16AppSubscriptions14RegistrarModelV
++ _symbolic _____ 16AppSubscriptions16CloseButtonModelV
++ _symbolic _____ 2os6LoggerV
++ _symbolic _____ 9TSUtility17ShapeFeedbackInfoV
++ _symbolic _____ So10CGImageRefa
++ _symbolic _____IeyBd_ 10ObjectiveC8ObjCBoolV
++ _symbolic _____Sg 12AppAnalytics25MigrationStartDateStorageV
++ _symbolic _____Sg 14TSSubscription23SubscriptionStatusAlertC7MessageV
++ _symbolic _____Sg 16AppSubscriptions10LabelModelV
++ _symbolic _____Sg So10CGImageRefa
++ _symbolic _____XMT 14TSSubscription23SubscriptionStatusAlertC
++ _symbolic ______A2A_______________t 16AppSubscriptions10LabelModelV AA13MessageActionV AA011CloseButtonD0V AA09RegistrarD0V
++ _symbolic ______A2A_______________tSg 16AppSubscriptions10LabelModelV AA13MessageActionV AA011CloseButtonD0V AA09RegistrarD0V
++ _symbolic ___________p______tYaYbKScMYcc 16AppSubscriptions22MessageActionEndResultO AA23ViewControllerPresenterP 0A9Analytics7TrackerC
++ _symbolic ______p 11TSAnalytics25UserEventsSessionDelegateP
++ _symbolic ______p 12AppAnalytics24UserStartDateStorageTypeP
++ _symbolic _____y_____G 7FactoryAAV 11TSAnalytics31ApplicationManagerConfigurationV
++ _symbolic _____y_____G 7FactoryAAV 14TSSubscription23SubscriptionStatusAlertC10ControllerC
++ _symbolic _____y_____Sg_____G 7Combine12AnyPublisherV 14TSSubscription23SubscriptionStatusAlertC7MessageV s5NeverO
++ _symbolic _____y_____Sg_____G 7Combine18PassthroughSubjectC 14TSSubscription23SubscriptionStatusAlertC7MessageV s5NeverO
++ _symbolic _____y_____Sg_____G 7Combine19CurrentValueSubjectC 14TSSubscription23SubscriptionStatusAlertC7MessageV s5NeverO
++ _symbolic _____y______A2B_______________QPG 16AppSubscriptions28OptionalMessagePropertyGroupV AA10LabelModelV AA0D6ActionV AA011CloseButtonH0V AA09RegistrarH0V
++ _symbolic _____y______A2B_______________QPG 16AppSubscriptions35OptionalMessagePropertyGroupRequestV AA10LabelModelV AA0D6ActionV AA011CloseButtonI0V AA09RegistrarI0V
++ _symbolic _____y______A2B_______________QPGSg 16AppSubscriptions28OptionalMessagePropertyGroupV AA10LabelModelV AA0D6ActionV AA011CloseButtonH0V AA09RegistrarH0V
++ _symbolic _____y__________G 16AppSubscriptions20MessagePropertyQueryV AA0C13ActionRequestV AA0cF0V
++ _symbolic _____y__________G 16AppSubscriptions20MessagePropertyQueryV AA21RegistrarModelRequestV AA0fG0V
++ _symbolic _____y__________G 16AppSubscriptions20MessagePropertyQueryV AA23CloseButtonModelRequestV AA0fgH0V
++ _symbolic _____y___________y_____y_____y_____yAEyAEy__________G_____G______Qo______y_____GGG_AQQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA12TupleContentV AA6ButtonV AA08ModifiedI0V AA0D0PAAE11glassEffect_2inQrAA5GlassV_qd__tAA5ShapeRd__lFQO AA4TextV AA08_PaddingG0V AA010_FlexFrameG0V AA07DefaultomP0V AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV
++ _symbolic _____y______y_____Sg_____GACG 7Combine10PublishersO10CompactMapV AA19CurrentValueSubjectC 14TSSubscription23SubscriptionStatusAlertC7MessageV s5NeverO
++ _symbolic _____y______y______y_____Sg_____GADG_____yytAFGG 7Combine10PublishersO17PrefixUntilOutputV AC10CompactMapV AA19CurrentValueSubjectC 14TSSubscription23SubscriptionStatusAlertC7MessageV s5NeverO AA12AnyPublisherV
++ _symbolic _____y______y______y______y_____Sg_____GAEG_____yytAGGGSo17OS_dispatch_queueCG 7Combine10PublishersO7TimeoutV AC17PrefixUntilOutputV AC10CompactMapV AA19CurrentValueSubjectC 14TSSubscription23SubscriptionStatusAlertC7MessageV s5NeverO AA12AnyPublisherV
++ _symbolic _____y______y______y______y______y_____Sg_____GAFG_____yytAHGGSo17OS_dispatch_queueCGG 7Combine10PublishersO5FirstV AC7TimeoutV AC17PrefixUntilOutputV AC10CompactMapV AA19CurrentValueSubjectC 14TSSubscription23SubscriptionStatusAlertC7MessageV s5NeverO AA12AnyPublisherV
++ _symbolic _____y______ytG 7Combine10PublishersO3MapV So20NSNotificationCenterC10FoundationE9PublisherV
++ _symbolic _____y_____yAAy__________G_____G______Qo_ 7SwiftUI4ViewPAAE11glassEffect_2inQrAA5GlassV_qd__tAA5ShapeRd__lFQO AA15ModifiedContentV AA4TextV AA14_PaddingLayoutV AA010_FlexFrameM0V AA07DefaultgeH0V
++ _symbolic _____y_____y_____Sg_____GG 7FactoryAAV 7Combine18PassthroughSubjectC 14TSSubscription23SubscriptionStatusAlertC7MessageV s5NeverO
++ _symbolic _____y_____y______A2C_______________QPGG 16AppSubscriptions36MessagePropertySequenceAsyncIteratorV AA08OptionalcD5GroupV AA10LabelModelV AA0C6ActionV AA011CloseButtonK0V AA09RegistrarK0V
++ _symbolic _____y_____y______A2C_______________QPG_QPG 16AppSubscriptions23MessagePropertySequenceV AA08OptionalcD5GroupV AA10LabelModelV AA0C6ActionV AA011CloseButtonI0V AA09RegistrarI0V
++ _symbolic _____y_____y______A2C_______________QPG_____yAC_A2cdeFQPGG 16AppSubscriptions20MessagePropertyQueryV AA08OptionalcD12GroupRequestV AA10LabelModelV AA0C6ActionV AA011CloseButtonJ0V AA09RegistrarJ0V AA0fcdG0V
++ _symbolic _____y_____y______y______y______y______y_____Sg_____GAGG_____yytAIGGSo17OS_dispatch_queueCGGG 7Combine14AsyncPublisherV AA10PublishersO5FirstV AE7TimeoutV AE17PrefixUntilOutputV AE10CompactMapV AA19CurrentValueSubjectC 14TSSubscription23SubscriptionStatusAlertC7MessageV s5NeverO AA03AnyC0V
++ _symbolic _____y_____y______y______y______y______y_____Sg_____GAGG_____yytAIGGSo17OS_dispatch_queueCGG_G 7Combine14AsyncPublisherV8IteratorV AA10PublishersO5FirstV AG7TimeoutV AG17PrefixUntilOutputV AG10CompactMapV AA19CurrentValueSubjectC 14TSSubscription23SubscriptionStatusAlertC7MessageV s5NeverO AA03AnyC0V
++ _symbolic _____y_____y_____yAByAByABy__________y_____GG_____y_____SgGG_____G______Qo______GG 7SwiftUI6ButtonV AA15ModifiedContentV AA4ViewPAAE11glassEffect_2inQrAA5GlassV_qd__tAA5ShapeRd__lFQO AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA022_EnvironmentKeyWritingO0V AA4FontV AA14_PaddingLayoutV AA07DefaultjhK0V AA06_FrameV0V
++ _symbolic _____y_____y_____yAByABy__________G_____G______Qo______y_____GGG 7SwiftUI6ButtonV AA15ModifiedContentV AA4ViewPAAE11glassEffect_2inQrAA5GlassV_qd__tAA5ShapeRd__lFQO AA4TextV AA14_PaddingLayoutV AA010_FlexFrameN0V AA07DefaultjhK0V AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV
++ _symbolic _____y_____y_____yAByABy__________G_____G______Qo______y_____GGG_ANt 7SwiftUI6ButtonV AA15ModifiedContentV AA4ViewPAAE11glassEffect_2inQrAA5GlassV_qd__tAA5ShapeRd__lFQO AA4TextV AA14_PaddingLayoutV AA010_FlexFrameN0V AA07DefaultjhK0V AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV
++ _symbolic _____y_____y_____y______AAy_____y__________GAHGAEyAEy_____AGG_____GADxQPGG_____y_____y_____y_____yAEyAByACyAAyAEy_____y_____ySaySi6offset______7elementtGSiAHGGAGG_____yASyAWSiAFGGG_AMQPGGAGGGG_Qo__AByxGQo_G 7SwiftUI19_ConditionalContentV AA6VStackV AA05TupleD0V AA6SpacerV AA08ModifiedD0V 14TSSubscription22PremiumAssetsModalViewV04CellM0V AA16_FlexFrameLayoutV AA4TextV AA08_PaddingQ0V AA0M0PAAE11safeAreaBar4edge9alignment7spacing7contentQrAA12VerticalEdgeO_AA19HorizontalAlignmentV12CoreGraphics7CGFloatVSgqd__yXEtAaWRd__lFQO AxAE21scrollEdgeEffectStyle_3forQrAA21ScrollEdgeEffectStyleVSg_AA4EdgeO3SetVtFQO AA14GeometryReaderV AA06ScrollM0V AA6HStackV AA7ForEachV AA5ImageV AA9LazyVGridV
++ _symbolic _____y_____y_____y_____y_____yADyADy__________G_____G______Qo______y_____GGG_APQPGG 7SwiftUI6VStackV AA12TupleContentV AA6ButtonV AA08ModifiedE0V AA4ViewPAAE11glassEffect_2inQrAA5GlassV_qd__tAA5ShapeRd__lFQO AA4TextV AA14_PaddingLayoutV AA010_FlexFrameP0V AA07DefaultljM0V AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV
++ _symbolic _____yyt_____G 7Combine12AnyPublisherV s5NeverO
++ _symbolic y_____c 12AppAnalytics7TrackerC
++ _type_layout_string 14TSSubscription23SubscriptionStatusAlertC7MessageV
++ _type_layout_string 14TSSubscription28SubscriptionSheetCoordinatorC03AppbC9PresenterC12ActionSourceO
++ _type_layout_string 9TSUtility17ShapeFeedbackInfoV
+- -[UITraitCollection(TSUAdditions) tsu_isUnspecified]
+- _OBJC_CLASS_$_TSSubscriptionStatusAlertController
+- _OBJC_METACLASS_$_TSSubscriptionStatusAlertController
+- _OBJC_METACLASS_$__TtCC14TSSubscription28SubscriptionSheetCoordinatorP33_94FBBF1502CE81046048835ADEFA590E29AppSubscriptionSheetPresenter
+- __DATA_TSSubscriptionStatusAlertController
+- __DATA__TtCC14TSSubscription28SubscriptionSheetCoordinatorP33_94FBBF1502CE81046048835ADEFA590E29AppSubscriptionSheetPresenter
+- __INSTANCE_METHODS_TSSubscriptionStatusAlertController
+- __INSTANCE_METHODS__TtCC14TSSubscription28SubscriptionSheetCoordinatorP33_94FBBF1502CE81046048835ADEFA590E29AppSubscriptionSheetPresenter
+- __IVARS_TSSubscriptionStatusAlertController
+- __IVARS__TtCC14TSSubscription28SubscriptionSheetCoordinatorP33_94FBBF1502CE81046048835ADEFA590E29AppSubscriptionSheetPresenter
+- __METACLASS_DATA_TSSubscriptionStatusAlertController
+- __METACLASS_DATA__TtCC14TSSubscription28SubscriptionSheetCoordinatorP33_94FBBF1502CE81046048835ADEFA590E29AppSubscriptionSheetPresenter
+- __PROTOCOLS__TtCC14TSSubscription28SubscriptionSheetCoordinatorP33_94FBBF1502CE81046048835ADEFA590E29AppSubscriptionSheetPresenter
+- __UIEnhancedLandscapeEnabled
+- ___swift_closure_destructor.24Tm
+- _get_witness_table 7SwiftUI4ViewRzlAA19_ConditionalContentVyAA6VStackVyAA05TupleE0VyAA6SpacerV_ADyAA08ModifiedE0Vy14TSSubscription018PremiumAssetsModalC0V04CellC0VAA16_FlexFrameLayoutVGATGALyALyAA4TextVASGAA08_PaddingQ0VGAJxQPGGADyAA03AnyC0VAFyAHyAA14GeometryReaderVyAA06ScrollC0VyALyAFyAHyADyALyAA6HStackVyAA7ForEachVySaySi6offset_AA5ImageV7elementtGSiATGGASGAA9LazyVGridVyA11_yA16_SiAQGGG_A_QPGGASGGG_xQPGGGGAaBHPA1_AaBHPyHC_A32_AaBHPA3_AaBHPyHC_A31_AaBHPyHCHCHC
+- _get_witness_table 7SwiftUI6ButtonVyAA19_ConditionalContentVyAA7AnyViewVAA08ModifiedE0VyAA6ZStackVyAA05TupleE0VyAA06_ShapeG0VyAA6CircleVAA8MaterialVG_AIyAIyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAA016_ForegroundStyleR0VyAA5ColorVGGQPGGAA12_FrameLayoutVGGGAA0G0HPyHC
+- _get_witness_table 7SwiftUI6VStackVyAA12TupleContentVyAA6ButtonVyAA012_ConditionalE0VyAA7AnyViewVAA08ModifiedE0VyAMyAMyAMyAA4TextVAA14_PaddingLayoutVGAA010_FlexFrameM0VGAA19_BackgroundModifierVyAA06_ShapeI0VyAA7CapsuleVAA04TintR5StyleVGGGAA022_EnvironmentKeyWritingQ0Vy12CoreGraphics7CGFloatVGGGG_AGyAIyAkMyAMyAuWyAYyA_AA8MaterialVGGGA10_GGGQPGGAA0I0HPyHC
+- _symbolic SS_yyct
+- _symbolic So14NSUserDefaultsC
+- _symbolic _____ 14TSSubscription17SubscriptionIssueO
+- _symbolic _____ 14TSSubscription28SubscriptionSheetCoordinatorC03AppbC9Presenter33_94FBBF1502CE81046048835ADEFA590ELLC
+- _symbolic _____ 14TSSubscription33SubscriptionStatusAlertControllerC
+- _symbolic _____10expiration_t 10Foundation4DateV
+- _symbolic _____8purchase_t 10Foundation4DateV
+- _symbolic _____IeAgHr_ 14TSSubscription33SubscriptionStatusAlertControllerC
+- _symbolic _____Sg 11TSAnalytics20UserEventsControllerC
+- _symbolic _____Sg 11TSAnalytics25EssentialEventsControllerC
+- _symbolic _____Sg 11TSAnalytics31ApplicationManagerConfigurationV
+- _symbolic _____Sg 12AppAnalytics0A14SessionManagerC
+- _symbolic _____Sg 12AppAnalytics15TrackingConsentC
+- _symbolic _____Sg 12AppAnalytics15TrackingConsentC0C10PermissionO
+- _symbolic _____Sg 14TSSubscription17SubscriptionIssueO
+- _symbolic _____Sg10expiration_t 10Foundation4DateV
+- _symbolic _____SgIegr_ 14TSSubscription17SubscriptionIssueO
+- _symbolic _____SgXw 14TSSubscription33SubscriptionStatusAlertControllerC
+- _symbolic _____Sg_ABt 10Foundation4DateV
+- _symbolic ______AAt 14TSSubscription17SubscriptionIssueO
+- _symbolic _____yAAyAAyAAy__________G_____G_____y_____y__________GGG_____y_____GG 7SwiftUI15ModifiedContentV AA4TextV AA14_PaddingLayoutV AA010_FlexFrameG0V AA19_BackgroundModifierV AA10_ShapeViewV AA7CapsuleV AA04TintL5StyleV AA022_EnvironmentKeyWritingK0V 12CoreGraphics7CGFloatV
+- _symbolic _____yAAyAAyAAy__________G_____G_____y_____y__________GGG_____y_____GG 7SwiftUI15ModifiedContentV AA4TextV AA14_PaddingLayoutV AA010_FlexFrameG0V AA19_BackgroundModifierV AA10_ShapeViewV AA7CapsuleV AA8MaterialV AA022_EnvironmentKeyWritingK0V 12CoreGraphics7CGFloatV
+- _symbolic _____yAAyAAy__________G_____G_____y_____y__________GGG 7SwiftUI15ModifiedContentV AA4TextV AA14_PaddingLayoutV AA010_FlexFrameG0V AA19_BackgroundModifierV AA10_ShapeViewV AA7CapsuleV AA04TintL5StyleV
+- _symbolic _____yAAyAAy__________G_____G_____y_____y__________GGG 7SwiftUI15ModifiedContentV AA4TextV AA14_PaddingLayoutV AA010_FlexFrameG0V AA19_BackgroundModifierV AA10_ShapeViewV AA7CapsuleV AA8MaterialV
+- _symbolic _____y_____G 7FactoryAAV 14TSSubscription33SubscriptionStatusAlertControllerC
+- _symbolic _____y_____Sg_____G 7Combine12AnyPublisherV 14TSSubscription17SubscriptionIssueO s5NeverO
+- _symbolic _____y_____Sg_____G 7Combine18PassthroughSubjectC 14TSSubscription17SubscriptionIssueO s5NeverO
+- _symbolic _____y___________y_____y_____y__________yAGyAGyAGy__________G_____G_____y_____y__________GGG_____y_____GGGG_ADyAEyAfGyAGyAlMyANyAO_____GGGAVGGGQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA12TupleContentV AA6ButtonV AA012_ConditionalI0V AA03AnyD0V AA08ModifiedI0V AA4TextV AA08_PaddingG0V AA010_FlexFrameG0V AA19_BackgroundModifierV AA06_ShapeD0V AA7CapsuleV AA04TintT5StyleV AA022_EnvironmentKeyWritingS0V 12CoreGraphics7CGFloatV AA8MaterialV
+- _symbolic _____y__________yACyACyACy__________G_____G_____y_____y__________GGG_____y_____GGG 7SwiftUI19_ConditionalContentV AA7AnyViewV AA08ModifiedD0V AA4TextV AA14_PaddingLayoutV AA010_FlexFrameJ0V AA19_BackgroundModifierV AA06_ShapeF0V AA7CapsuleV AA04TintO5StyleV AA022_EnvironmentKeyWritingN0V 12CoreGraphics7CGFloatV
+- _symbolic _____y__________yACyACyACy__________G_____G_____y_____y__________GGG_____y_____GGG 7SwiftUI19_ConditionalContentV AA7AnyViewV AA08ModifiedD0V AA4TextV AA14_PaddingLayoutV AA010_FlexFrameJ0V AA19_BackgroundModifierV AA06_ShapeF0V AA7CapsuleV AA8MaterialV AA022_EnvironmentKeyWritingN0V 12CoreGraphics7CGFloatV
+- _symbolic _____y__________yACyACyACy__________G_____G_____y_____y__________GGG_____y_____GG_G 7SwiftUI19_ConditionalContentV7StorageO AA7AnyViewV AA08ModifiedD0V AA4TextV AA14_PaddingLayoutV AA010_FlexFrameK0V AA19_BackgroundModifierV AA06_ShapeG0V AA7CapsuleV AA04TintP5StyleV AA022_EnvironmentKeyWritingO0V 12CoreGraphics7CGFloatV
+- _symbolic _____y__________yACyACyACy__________G_____G_____y_____y__________GGG_____y_____GG_G 7SwiftUI19_ConditionalContentV7StorageO AA7AnyViewV AA08ModifiedD0V AA4TextV AA14_PaddingLayoutV AA010_FlexFrameK0V AA19_BackgroundModifierV AA06_ShapeG0V AA7CapsuleV AA8MaterialV AA022_EnvironmentKeyWritingO0V 12CoreGraphics7CGFloatV
+- _symbolic _____y__________y_____y_____y_____y__________G_ACyACy__________y_____SgGG_____y_____GGQPGG_____GG 7SwiftUI19_ConditionalContentV AA7AnyViewV AA08ModifiedD0V AA6ZStackV AA05TupleD0V AA06_ShapeF0V AA6CircleV AA8MaterialV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleQ0V AA5ColorV AA12_FrameLayoutV
+- _symbolic _____y__________y_____y_____y_____y__________G_ACyACy__________y_____SgGG_____y_____GGQPGG_____G_G 7SwiftUI19_ConditionalContentV7StorageO AA7AnyViewV AA08ModifiedD0V AA6ZStackV AA05TupleD0V AA06_ShapeG0V AA6CircleV AA8MaterialV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleR0V AA5ColorV AA12_FrameLayoutV
+- _symbolic _____y_____y_____Sg_____GG 7FactoryAAV 7Combine18PassthroughSubjectC 14TSSubscription17SubscriptionIssueO s5NeverO
+- _symbolic _____y_____y__________GG 7SwiftUI19_BackgroundModifierV AA10_ShapeViewV AA7CapsuleV AA04TintE5StyleV
+- _symbolic _____y_____y__________GG 7SwiftUI19_BackgroundModifierV AA10_ShapeViewV AA7CapsuleV AA8MaterialV
+- _symbolic _____y_____y__________yADyADyADy__________G_____G_____y_____y__________GGG_____y_____GGGG 7SwiftUI6ButtonV AA19_ConditionalContentV AA7AnyViewV AA08ModifiedE0V AA4TextV AA14_PaddingLayoutV AA010_FlexFrameK0V AA19_BackgroundModifierV AA06_ShapeG0V AA7CapsuleV AA04TintP5StyleV AA022_EnvironmentKeyWritingO0V 12CoreGraphics7CGFloatV
+- _symbolic _____y_____y__________yADyADyADy__________G_____G_____y_____y__________GGG_____y_____GGGG 7SwiftUI6ButtonV AA19_ConditionalContentV AA7AnyViewV AA08ModifiedE0V AA4TextV AA14_PaddingLayoutV AA010_FlexFrameK0V AA19_BackgroundModifierV AA06_ShapeG0V AA7CapsuleV AA8MaterialV AA022_EnvironmentKeyWritingO0V 12CoreGraphics7CGFloatV
+- _symbolic _____y_____y__________yADyADyADy__________G_____G_____y_____y__________GGG_____y_____GGGG_AAyAByAcDyADyAiJyAKyAL_____GGGASGGGt 7SwiftUI6ButtonV AA19_ConditionalContentV AA7AnyViewV AA08ModifiedE0V AA4TextV AA14_PaddingLayoutV AA010_FlexFrameK0V AA19_BackgroundModifierV AA06_ShapeG0V AA7CapsuleV AA04TintP5StyleV AA022_EnvironmentKeyWritingO0V 12CoreGraphics7CGFloatV AA8MaterialV
+- _symbolic _____y_____y__________y_____y_____y_____y__________G_ADyADy__________y_____SgGG_____y_____GGQPGG_____GGG 7SwiftUI6ButtonV AA19_ConditionalContentV AA7AnyViewV AA08ModifiedE0V AA6ZStackV AA05TupleE0V AA06_ShapeG0V AA6CircleV AA8MaterialV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleR0V AA5ColorV AA12_FrameLayoutV
+- _symbolic _____y_____y_____y______AAy_____y__________GAHGAEyAEy_____AGG_____GADxQPGGAAy_____AByACy_____y_____yAEyAByACyAAyAEy_____y_____ySaySi6offset______7elementtGSiAHGGAGG_____yATyAXSiAFGGG_AMQPGGAGGGG_xQPGGGG 7SwiftUI19_ConditionalContentV AA6VStackV AA05TupleD0V AA6SpacerV AA08ModifiedD0V 14TSSubscription22PremiumAssetsModalViewV04CellM0V AA16_FlexFrameLayoutV AA4TextV AA08_PaddingQ0V AA03AnyM0V AA14GeometryReaderV AA06ScrollM0V AA6HStackV AA7ForEachV AA5ImageV AA9LazyVGridV
+- _symbolic _____y_____y_____y__________G______yAGy__________y_____SgGG_____y_____GGQPGG 7SwiftUI6ZStackV AA12TupleContentV AA10_ShapeViewV AA6CircleV AA8MaterialV AA08ModifiedE0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleO0V AA5ColorV
+- _symbolic _____y_____y_____y_____y__________G_AAyAAy__________y_____SgGG_____y_____GGQPGG_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA05TupleD0V AA10_ShapeViewV AA6CircleV AA8MaterialV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleO0V AA5ColorV AA12_FrameLayoutV
+- _symbolic _____y_____y_____y_____y__________yAFyAFyAFy__________G_____G_____y_____y__________GGG_____y_____GGGG_ACyADyAeFyAFyAkLyAMyAN_____GGGAUGGGQPGG 7SwiftUI6VStackV AA12TupleContentV AA6ButtonV AA012_ConditionalE0V AA7AnyViewV AA08ModifiedE0V AA4TextV AA14_PaddingLayoutV AA010_FlexFrameM0V AA19_BackgroundModifierV AA06_ShapeI0V AA7CapsuleV AA04TintR5StyleV AA022_EnvironmentKeyWritingQ0V 12CoreGraphics7CGFloatV AA8MaterialV
+CStrings:
++ "$__lazy_storage_$_storage"
++ "15.4"
++ "A message that contains an urgent information about user's subscription."
++ "Close button on Subscription Status Alert"
++ "Considering showing subscription status alert."
++ "Delivering scheduled simulated status alert after a delay."
++ "Error: no analytics tracker available; skipping engagement sheet observation registration"
++ "Failed to handle shape feedback: %{public}@"
++ "Failed to subscribe to message stream: %@"
++ "G15.4"
++ "Generated Shape.svg"
++ "No configuration registered; analytics disabled"
++ "No message available for subscription status alert within leeway."
++ "Not presenting: the app declined the presentation"
++ "Observing statusAlert messages"
++ "Original Image (All Shapes)"
++ "Original Image (All Shapes).png"
++ "Original Image (This Shape)"
++ "Original Image(This Shape).png"
++ "Report a Concern > Generate Shape"
++ "Requesting messageVendor for observation"
++ "Schedule a delayed demo Message on next launch"
++ "Schedule a demo Message on next foregrounding"
++ "Scheduled a simulated status alert for the next launch."
++ "Showing subscription status alert for message: '%s:%s'"
++ "Simulate Subscription Alert"
++ "Skip PlacementClickEvent; user event collection not allowed"
++ "Skip PlacementImpressionEvent; user event collection not allowed"
++ "Submitting GenerateContentFailureEvent for %s"
++ "SubscriptionStatusAlertController"
++ "T15.4"
++ "T@\"AATrackingConsent\",N,R,VtrackingConsent"
++ "TSAnalytics.ApplicationManager"
++ "TSSubscription/SubscriptionStatusAlertController+UIKit.swift"
++ "TSSubscriptionScheduleStatusAlertOnNextLaunch"
++ "TSSubscriptionStatusAlert"
++ "TSUShapeGenerationCat"
++ "Td,N,R"
++ "The color of the shape."
++ "The description of the generated shape color"
++ "The description of the generated shape image"
++ "The description of the generated shape image grid"
++ "The description of the prompt"
++ "The generated image that all the shapes in your request were created from."
++ "The generated image that this shape was created from."
++ "The title of the generated shape attachment in Report a Concern for shape generation"
++ "The title of the grid of original images attachment in Report a Concern for shape generation"
++ "The title of the original image attachment in Report a Concern for shape generation"
++ "The title of the prompt attachment in Report a Concern for shape generation"
++ "The title of the shape color attachment in Report a Concern for shape generation"
++ "Unschedule any Message"
++ "_TtC11TSAnalytics33DeferredMigrationStartDateStorage"
++ "_TtCC14TSSubscription23SubscriptionStatusAlert10Controller"
++ "_TtCC14TSSubscription28SubscriptionSheetCoordinator29AppSubscriptionSheetPresenter"
++ "_tracker"
++ "applicationManagerConfiguration"
++ "applicationWillFinishLaunching"
++ "canPresentMessage"
++ "capabilitiesForHardware"
++ "com.pixelmatorteam.pixelmator.document.binary"
++ "com.pixelmatorteam.pixelmator.document.package"
++ "defaultLeeway"
++ "genShape"
++ "generativeShapes"
++ "https://support.apple.com/127888"
++ "https://unconfigured.invalid/async"
++ "id  _Nonnull TSULocalizedPList(id _Nonnull)"
++ "imageModelProvider"
++ "initialization finished"
++ "initialization started"
++ "isUserEventCollectionAllowed"
++ "isWhatsNewSuppressed"
++ "latestMessage"
++ "leewayInterruption"
++ "legacyStorage"
++ "logger"
++ "present(actionSource:analyticsTracker:)"
++ "presentMessageIfNeededWithCondition:"
++ "registerAnalyticsTracker:"
++ "supportsHaptics"
++ "suppressWhatsNew"
++ "tsu_isCompactWidthAndRegularHeight"
++ "tsu_isCompactWidthOrHeight"
++ "tsu_isRegularWidthAndCompactHeight"
++ "tsu_isRegularWidthAndHeight"
++ "void TSUDateFormatterApplyHarmonizedSymbols(CFDateFormatterRef, TSULocale *__strong)"
++ "wasUserRequested"
+- "15.3"
+- "Analytics already configured"
+- "ApplicationLifeCycle - setup userEventsController"
+- "ApplicationLifeCycle - userEventsController is nil"
+- "G15.3"
+- "Simulate Subscription Issue"
+- "Submitting GenerateContentFailureEvent (timeout) for %s"
+- "Subscription Expired"
+- "T15.3"
+- "T@\"AATrackingConsent\",N,&,VtrackingConsent"
+- "TSSubscription.SubscriptionStatusAlertController"
+- "TSSubscriptionStatusAlertController"
+- "_TtCC14TSSubscription28SubscriptionSheetCoordinatorP33_94FBBF1502CE81046048835ADEFA590E29AppSubscriptionSheetPresenter"
+- "applicationWillFinishLaunchingWithAnalyticsTracker:"
+- "currentSubscriptionIssue"
+- "defaults"
+- "https://support.apple.com/125029#intelligence"
+- "id TSULocalizedPList(id)"
+- "prepareTrackingConsent: already prepared, ignoring (KAG=%s)"
+- "prepareTrackingConsent: creating consent (KAG=%s)"
+- "prepareTrackingConsentWithKeychainAccessGroup:"
+- "present(pageID:componentID:analyticsTracker:)"
+- "presentMessageIfNeeded"
+- "setTrackingConsent:"
+- "tsu_isUnspecified"
+- "userEventsController is nil — setup(configuration:) has not been called"
+```

@@ -1,0 +1,439 @@
+## CompanionSetupKit
+
+> `/System/Library/PrivateFrameworks/CompanionSetupKit.framework/CompanionSetupKit`
+
+```diff
+
+-524.11.10.0.0
+-  __TEXT.__text: 0x51139c
++524.20.39.0.0
++  __TEXT.__text: 0x515c84
+   __TEXT.__objc_methlist: 0x123c
+-  __TEXT.__const: 0x39630
+-  __TEXT.__swift5_typeref: 0xbfde
+-  __TEXT.__constg_swiftt: 0x8588
+-  __TEXT.__swift5_reflstr: 0xabfe
+-  __TEXT.__swift5_fieldmd: 0xbeec
+-  __TEXT.__swift5_builtin: 0x320
+-  __TEXT.__swift5_assocty: 0x1800
+-  __TEXT.__swift5_proto: 0x2c38
+-  __TEXT.__swift5_types: 0xd4c
+-  __TEXT.__cstring: 0xe02d
+-  __TEXT.__oslogstring: 0xade3
+-  __TEXT.__swift5_capture: 0x50a4
++  __TEXT.__const: 0x3a1f8
++  __TEXT.__swift5_typeref: 0xc720
++  __TEXT.__constg_swiftt: 0x8820
++  __TEXT.__swift5_reflstr: 0xad7e
++  __TEXT.__swift5_fieldmd: 0xc0ac
++  __TEXT.__swift5_builtin: 0x334
++  __TEXT.__swift5_assocty: 0x1860
++  __TEXT.__swift5_proto: 0x2c50
++  __TEXT.__swift5_types: 0xd78
++  __TEXT.__cstring: 0xe3fd
++  __TEXT.__oslogstring: 0xafa3
++  __TEXT.__swift5_capture: 0x5604
+   __TEXT.__swift5_protos: 0x40
+-  __TEXT.__swift_as_entry: 0x16ac
+-  __TEXT.__swift_as_cont: 0x4cc4
++  __TEXT.__swift_as_entry: 0x1730
++  __TEXT.__swift_as_cont: 0x4cf8
+   __TEXT.__swift5_mpenum: 0xf4
+-  __TEXT.__swift_as_ret: 0x1f08
++  __TEXT.__swift_as_ret: 0x1f58
+   __TEXT.__gcc_except_tab: 0x14c
+-  __TEXT.__unwind_info: 0x1b578
+-  __TEXT.__eh_frame: 0x49648
++  __TEXT.__unwind_info: 0x1b5d8
++  __TEXT.__eh_frame: 0x4a040
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x12f0
+-  __DATA_CONST.__objc_classlist: 0x2f0
++  __DATA_CONST.__const: 0x1300
++  __DATA_CONST.__objc_classlist: 0x300
+   __DATA_CONST.__objc_catlist: 0x30
+   __DATA_CONST.__objc_protolist: 0x128
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1b68
++  __DATA_CONST.__objc_selrefs: 0x1b58
+   __DATA_CONST.__objc_protorefs: 0x88
+   __DATA_CONST.__objc_superrefs: 0x50
+   __DATA_CONST.__objc_arraydata: 0x38
+-  __DATA_CONST.__got: 0x14e0
+-  __AUTH_CONST.__const: 0x1f170
++  __DATA_CONST.__got: 0x1518
++  __AUTH_CONST.__const: 0x1feb8
+   __AUTH_CONST.__cfstring: 0x260
+-  __AUTH_CONST.__objc_const: 0x9310
++  __AUTH_CONST.__objc_const: 0x9418
+   __AUTH_CONST.__objc_intobj: 0x48
+   __AUTH_CONST.__objc_arrayobj: 0xa8
+   __AUTH_CONST.__auth_got: 0x2740
+-  __AUTH.__objc_data: 0x2440
+-  __AUTH.__data: 0x7238
++  __AUTH.__objc_data: 0x2498
++  __AUTH.__data: 0x74e8
+   __DATA.__objc_ivar: 0x54
+-  __DATA.__data: 0xb140
++  __DATA.__data: 0xb520
+   __DATA.__common: 0x498
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+
+   - /System/Library/PrivateFrameworks/MobileStoreDemoKit.framework/MobileStoreDemoKit
+   - /System/Library/PrivateFrameworks/MusicKitInternal.framework/MusicKitInternal
+   - /System/Library/PrivateFrameworks/Nexus.framework/Nexus
+-  - /System/Library/PrivateFrameworks/ProxCardKit.framework/ProxCardKit
+   - /System/Library/PrivateFrameworks/ProximityControl.framework/ProximityControl
+   - /System/Library/PrivateFrameworks/Rapport.framework/Rapport
+   - /System/Library/PrivateFrameworks/RemoteUI.framework/RemoteUI
+
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftSceneKit.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
++  - /usr/lib/swift/libswiftSynchronization.dylib
+   - /usr/lib/swift/libswiftSystem.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 23051
+-  Symbols:   6015
+-  CStrings:  2775
++  Functions: 23283
++  Symbols:   6089
++  CStrings:  2805
+ 
+Symbols:
++ _CBErrorDomain
++ _MCFeatureAssistantProfanityFilterForced
++ _MCFeatureAssistantUserGeneratedContentAllowed
++ _MCFeatureMathPaperSolvingAllowed
++ _MCFeatureSiriReduceSensitiveContentForced
++ _MCFeatureWritingToolsAllowed
++ __DATA__TtC17CompanionSetupKitP33_3C267E0A714BB497C52E44E1E98B05B011ConnectStep
++ __DATA__TtC17CompanionSetupKitP33_9E4BDB177ACD1537AA1B7E8810F38E8B15InterruptSignal
++ __IVARS__TtC17CompanionSetupKitP33_3C267E0A714BB497C52E44E1E98B05B011ConnectStep
++ __IVARS__TtC17CompanionSetupKitP33_9E4BDB177ACD1537AA1B7E8810F38E8B15InterruptSignal
++ __METACLASS_DATA__TtC17CompanionSetupKitP33_3C267E0A714BB497C52E44E1E98B05B011ConnectStep
++ __METACLASS_DATA__TtC17CompanionSetupKitP33_9E4BDB177ACD1537AA1B7E8810F38E8B15InterruptSignal
++ ___swift_closure_destructor.405Tm
++ ___swift_closure_destructor.436Tm
++ ___swift_closure_destructor.448Tm
++ ___swift_closure_destructor.468Tm
++ ___swift_closure_destructor.525Tm
++ ___swift_closure_destructor.580Tm
++ ___swift_closure_destructor.686Tm
++ ___swift_get_extra_inhabitant_index.229Tm
++ ___swift_memcpy273_8
++ ___swift_memcpy553_8
++ ___swift_store_extra_inhabitant_index.230Tm
++ ___unnamed_22
++ ___unnamed_34
++ ___unnamed_4
++ ___unnamed_67
++ _associated conformance 17CompanionSetupKit31CSKStepBasicConfigConfigurationV21CSKSiriAIRestrictionsV10CodingKeys33_D1FF41A27FDB20854F57911DA04123DELLOSHAASQ
++ _associated conformance 17CompanionSetupKit31CSKStepBasicConfigConfigurationV21CSKSiriAIRestrictionsV10CodingKeys33_D1FF41A27FDB20854F57911DA04123DELLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 17CompanionSetupKit31CSKStepBasicConfigConfigurationV21CSKSiriAIRestrictionsV10CodingKeys33_D1FF41A27FDB20854F57911DA04123DELLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance SC7CBErrorLeV10Foundation13CustomNSErrorSCs5Error
++ _associated conformance SC7CBErrorLeV10Foundation21_BridgedStoredNSErrorSC4CodeAcDP_8RawValueSYs17FixedWidthInteger
++ _associated conformance SC7CBErrorLeV10Foundation21_BridgedStoredNSErrorSC4CodeAcDP_AC06_ErrorF8Protocol
++ _associated conformance SC7CBErrorLeV10Foundation21_BridgedStoredNSErrorSC4CodeAcDP_SY
++ _associated conformance SC7CBErrorLeV10Foundation21_BridgedStoredNSErrorSCAC06CustomE0
++ _associated conformance SC7CBErrorLeV10Foundation21_BridgedStoredNSErrorSCAC26_ObjectiveCBridgeableError
++ _associated conformance SC7CBErrorLeV10Foundation21_BridgedStoredNSErrorSCSH
++ _associated conformance SC7CBErrorLeV10Foundation26_ObjectiveCBridgeableErrorSCs0E0
++ _associated conformance SC7CBErrorLeVSHSCSQ
++ _associated conformance So7CBErrorV10Foundation18_ErrorCodeProtocolSC01_C4TypeAcDP_AC21_BridgedStoredNSError
++ _associated conformance So7CBErrorV10Foundation18_ErrorCodeProtocolSCSQ
++ _keypath_set.22Tm
++ _keypath_set.24Tm
++ _keypath_set.53Tm
++ _swift_getExistentialTypeMetadata
++ _swift_task_getMainExecutor
++ _swift_unknownObjectRetain_n
++ _symbolic SSSg13mediaRemoteID_SbSg18peerToPeerVerifiedt
++ _symbolic Say_____y_____GG 17CompanionSetupKit17CSKStepDefinitionV AA25CSKSetupAppleTVClientStepO
++ _symbolic Say_____y_____GG 17CompanionSetupKit17CSKStepDefinitionV AA25CSKSetupAppleTVServerStepO
++ _symbolic Sb5force_t
++ _symbolic ScCy______pSg_____G s5ErrorP s5NeverO
++ _symbolic ScCy______pSg_____GSg s5ErrorP s5NeverO
++ _symbolic ScGy_____y______GSgG 17CompanionSetupKit7CSKFlowC9StepEvent33_9E4BDB177ACD1537AA1B7E8810F38E8BLLO AA021CSKSetupAppleTVClientE0O
++ _symbolic ScGy_____y______GSgG 17CompanionSetupKit7CSKFlowC9StepEvent33_9E4BDB177ACD1537AA1B7E8810F38E8BLLO AA021CSKSetupAppleTVServerE0O
++ _symbolic So12CBControllerC
++ _symbolic So9APCPlayerC
++ _symbolic _____ 17CompanionSetupKit11ConnectStep33_3C267E0A714BB497C52E44E1E98B05B0LLC
++ _symbolic _____ 17CompanionSetupKit14CSKStepContextV
++ _symbolic _____ 17CompanionSetupKit14CSKStepOutcomeO
++ _symbolic _____ 17CompanionSetupKit15InterruptSignal33_9E4BDB177ACD1537AA1B7E8810F38E8BLLC
++ _symbolic _____ 17CompanionSetupKit15InterruptSignal33_9E4BDB177ACD1537AA1B7E8810F38E8BLLC5StateO
++ _symbolic _____ 17CompanionSetupKit17CSKFlowTransitionV
++ _symbolic _____ 17CompanionSetupKit28CSKAudioPairingCarrierTimingV
++ _symbolic _____ 17CompanionSetupKit31CSKStepBasicConfigConfigurationV21CSKSiriAIRestrictionsV
++ _symbolic _____ 17CompanionSetupKit31CSKStepBasicConfigConfigurationV21CSKSiriAIRestrictionsV10CodingKeys33_D1FF41A27FDB20854F57911DA04123DELLO
++ _symbolic _____ 17CompanionSetupKit41PendingVoiceTriggerEnableCUEnvironmentKey33_104953712DCBF74CC797CEE885C606F1LLV
++ _symbolic _____ 17CompanionSetupKit7CSKFlowC10ActiveStep33_9E4BDB177ACD1537AA1B7E8810F38E8BLLV
++ _symbolic _____ 17CompanionSetupKit7CSKFlowC9StepEvent33_9E4BDB177ACD1537AA1B7E8810F38E8BLLO
++ _symbolic _____ SC7CBErrorLeV
++ _symbolic _____ So7CBErrorV
++ _symbolic _____4type_Sb13isReenrollingSb13siriAIEnabledSb22personalContentEnabledt 17CompanionSetupKit21CSKRecognizeMeAskTypeO
++ _symbolic _____4type_Sb13siriAIEnabledSb22personalContentEnabledt 17CompanionSetupKit21CSKRecognizeMeAskTypeO
++ _symbolic _____Sg 17CompanionSetupKit28CSKAudioPairingCarrierTimingV
++ _symbolic _____Sg 17CompanionSetupKit31CSKStepBasicConfigConfigurationV21CSKSiriAIRestrictionsV
++ _symbolic _____SgXw 17CompanionSetupKit25CSKRemoteUIViewControllerC
++ _symbolic ___________pIeghHozo_ 17CompanionSetupKit11ConnectStep33_3C267E0A714BB497C52E44E1E98B05B0LLC s5ErrorP
++ _symbolic __________y_____G______pIeghHgnzo_ 17CompanionSetupKit011CSKStepHomecB6ClientC AA0D7ContextV AA25CSKSetupAppleTVClientStepO s5ErrorP
++ _symbolic __________y_____G______pIeghHgnzo_ 17CompanionSetupKit011CSKStepWiFiB6ClientC AA0D7ContextV AA25CSKSetupAppleTVClientStepO s5ErrorP
++ _symbolic __________y_____G______pIeghHgnzo_ 17CompanionSetupKit019CSKStepAppleAccountB6ClientC AA0D7ContextV AA08CSKSetupE12TVClientStepO s5ErrorP
++ _symbolic __________y_____G______pIeghHgnzo_ 17CompanionSetupKit11CSKStepMiscC AA0D7ContextV AA25CSKSetupAppleTVClientStepO s5ErrorP
++ _symbolic __________y_____G______pIeghHgnzo_ 17CompanionSetupKit11CSKStepMiscC AA0D7ContextV AA25CSKSetupAppleTVServerStepO s5ErrorP
++ _symbolic __________y_____G______pIeghHgnzo_ 17CompanionSetupKit11ConnectStep33_3C267E0A714BB497C52E44E1E98B05B0LLC AA14CSKStepContextV AA021CSKSetupAppleTVClientE0O s5ErrorP
++ _symbolic __________y_____G______pIeghHgnzo_ 17CompanionSetupKit16CSKStepPreflightC AA0D7ContextV AA25CSKSetupAppleTVClientStepO s5ErrorP
++ _symbolic __________y_____G______pIeghHgnzo_ 17CompanionSetupKit18CSKStepCloudConfigC AA0D7ContextV AA25CSKSetupAppleTVServerStepO s5ErrorP
++ _symbolic __________y_____G______pIeghHgnzo_ 17CompanionSetupKit18CSKStepHelloServerC AA0D7ContextV AA25CSKSetupAppleTVServerStepO s5ErrorP
++ _symbolic __________y_____G______pIeghHgnzo_ 17CompanionSetupKit21CSKStepOSUpdateClientC AA0D7ContextV AA25CSKSetupAppleTVClientStepO s5ErrorP
++ _symbolic __________y_____G______pIeghHgnzo_ 17CompanionSetupKit23CSKStepActivationClientC AA0D7ContextV AA25CSKSetupAppleTVClientStepO s5ErrorP
++ _symbolic __________y_____G______pIeghHgnzo_ 17CompanionSetupKit23CSKStepQuickStartServerC AA0D7ContextV AA25CSKSetupAppleTVServerStepO s5ErrorP
++ _symbolic __________y_____G______pIeghHgnzo_ 17CompanionSetupKit23CSKStepTVProviderServerC AA0D7ContextV AA25CSKSetupAppleTVServerStepO s5ErrorP
++ _symbolic __________y_____G______pIeghHgnzo_ 17CompanionSetupKit23CSKStepWiFiPickerServerC AA0D7ContextV AA25CSKSetupAppleTVServerStepO s5ErrorP
++ _symbolic __________y_____G______pIeghHgnzo_ 17CompanionSetupKit24CSKStepBasicConfigClientC AA0D7ContextV AA25CSKSetupAppleTVClientStepO s5ErrorP
++ _symbolic __________y_____G______pIeghHgnzo_ 17CompanionSetupKit25CSKStepAppleTVFarFieldMicC AA0D7ContextV AA08CSKSetupE12TVServerStepO s5ErrorP
++ _symbolic __________y_____G______pIeghHgnzo_ 17CompanionSetupKit25CSKStepRegionPickerServerC AA0D7ContextV AA25CSKSetupAppleTVServerStepO s5ErrorP
++ _symbolic __________y_____G______pIeghHgnzo_ 17CompanionSetupKit27CSKStepLanguagePickerServerC AA0D7ContextV AA25CSKSetupAppleTVServerStepO s5ErrorP
++ _symbolic __________y_____G______pIeghHgnzo_ 17CompanionSetupKit31CSKStepTermsAndConditionsServerC AA0D7ContextV AA25CSKSetupAppleTVServerStepO s5ErrorP
++ _symbolic __________y_____G_____yACG______pIeghHgnrzo_ 17CompanionSetupKit011CSKStepHomecB6ClientC AA0D7ContextV AA25CSKSetupAppleTVClientStepO AA0D7OutcomeO s5ErrorP
++ _symbolic __________y_____G_____yACG______pIeghHgnrzo_ 17CompanionSetupKit011CSKStepWiFiB6ClientC AA0D7ContextV AA25CSKSetupAppleTVClientStepO AA0D7OutcomeO s5ErrorP
++ _symbolic __________y_____G_____yACG______pIeghHgnrzo_ 17CompanionSetupKit019CSKStepAppleAccountB6ClientC AA0D7ContextV AA08CSKSetupE12TVClientStepO AA0D7OutcomeO s5ErrorP
++ _symbolic __________y_____G_____yACG______pIeghHgnrzo_ 17CompanionSetupKit019CSKStepAppleAccountB6ManualC AA0D7ContextV AA08CSKSetupE12TVServerStepO AA0D7OutcomeO s5ErrorP
++ _symbolic __________y_____G_____yACG______pIeghHgnrzo_ 17CompanionSetupKit11CSKStepMiscC AA0D7ContextV AA25CSKSetupAppleTVClientStepO AA0D7OutcomeO s5ErrorP
++ _symbolic __________y_____G_____yACG______pIeghHgnrzo_ 17CompanionSetupKit11CSKStepMiscC AA0D7ContextV AA25CSKSetupAppleTVServerStepO AA0D7OutcomeO s5ErrorP
++ _symbolic __________y_____G_____yACG______pIeghHgnrzo_ 17CompanionSetupKit11ConnectStep33_3C267E0A714BB497C52E44E1E98B05B0LLC AA14CSKStepContextV AA021CSKSetupAppleTVClientE0O AA0P7OutcomeO s5ErrorP
++ _symbolic __________y_____G_____yACG______pIeghHgnrzo_ 17CompanionSetupKit16CSKStepPreflightC AA0D7ContextV AA25CSKSetupAppleTVClientStepO AA0D7OutcomeO s5ErrorP
++ _symbolic __________y_____G_____yACG______pIeghHgnrzo_ 17CompanionSetupKit18CSKStepCloudConfigC AA0D7ContextV AA25CSKSetupAppleTVServerStepO AA0D7OutcomeO s5ErrorP
++ _symbolic __________y_____G_____yACG______pIeghHgnrzo_ 17CompanionSetupKit18CSKStepHelloServerC AA0D7ContextV AA25CSKSetupAppleTVServerStepO AA0D7OutcomeO s5ErrorP
++ _symbolic __________y_____G_____yACG______pIeghHgnrzo_ 17CompanionSetupKit21CSKStepOSUpdateClientC AA0D7ContextV AA25CSKSetupAppleTVClientStepO AA0D7OutcomeO s5ErrorP
++ _symbolic __________y_____G_____yACG______pIeghHgnrzo_ 17CompanionSetupKit22CSKStepSettingsSummaryC AA0D7ContextV AA25CSKSetupAppleTVClientStepO AA0D7OutcomeO s5ErrorP
++ _symbolic __________y_____G_____yACG______pIeghHgnrzo_ 17CompanionSetupKit23CSKStepActivationClientC AA0D7ContextV AA25CSKSetupAppleTVClientStepO AA0D7OutcomeO s5ErrorP
++ _symbolic __________y_____G_____yACG______pIeghHgnrzo_ 17CompanionSetupKit23CSKStepManualActivationC AA0D7ContextV AA25CSKSetupAppleTVServerStepO AA0D7OutcomeO s5ErrorP
++ _symbolic __________y_____G_____yACG______pIeghHgnrzo_ 17CompanionSetupKit23CSKStepQuickStartServerC AA0D7ContextV AA25CSKSetupAppleTVServerStepO AA0D7OutcomeO s5ErrorP
++ _symbolic __________y_____G_____yACG______pIeghHgnrzo_ 17CompanionSetupKit23CSKStepTVProviderServerC AA0D7ContextV AA25CSKSetupAppleTVServerStepO AA0D7OutcomeO s5ErrorP
++ _symbolic __________y_____G_____yACG______pIeghHgnrzo_ 17CompanionSetupKit23CSKStepWiFiPickerServerC AA0D7ContextV AA25CSKSetupAppleTVServerStepO AA0D7OutcomeO s5ErrorP
++ _symbolic __________y_____G_____yACG______pIeghHgnrzo_ 17CompanionSetupKit24CSKStepBasicConfigClientC AA0D7ContextV AA25CSKSetupAppleTVClientStepO AA0D7OutcomeO s5ErrorP
++ _symbolic __________y_____G_____yACG______pIeghHgnrzo_ 17CompanionSetupKit25CSKStepAppleTVFarFieldMicC AA0D7ContextV AA08CSKSetupE12TVServerStepO AA0D7OutcomeO s5ErrorP
++ _symbolic __________y_____G_____yACG______pIeghHgnrzo_ 17CompanionSetupKit25CSKStepRegionPickerServerC AA0D7ContextV AA25CSKSetupAppleTVServerStepO AA0D7OutcomeO s5ErrorP
++ _symbolic __________y_____G_____yACG______pIeghHgnrzo_ 17CompanionSetupKit27CSKStepLanguagePickerServerC AA0D7ContextV AA25CSKSetupAppleTVServerStepO AA0D7OutcomeO s5ErrorP
++ _symbolic __________y_____G_____yACG______pIeghHgnrzo_ 17CompanionSetupKit31CSKStepTermsAndConditionsServerC AA0D7ContextV AA25CSKSetupAppleTVServerStepO AA0D7OutcomeO s5ErrorP
++ _symbolic ______p_____y_____G_____yACG______pIeghHgnrzo_ 17CompanionSetupKit7CSKStepP AA0D7ContextV AA25CSKSetupAppleTVClientStepO AA0D7OutcomeO s5ErrorP
++ _symbolic ______p_____y_____G_____yACG______pIeghHgnrzo_ 17CompanionSetupKit7CSKStepP AA0D7ContextV AA25CSKSetupAppleTVServerStepO AA0D7OutcomeO s5ErrorP
++ _symbolic ______p_____yxG_____yxG______pIeghHgnrzo_ 17CompanionSetupKit7CSKStepP AA0D7ContextV AA0D7OutcomeO s5ErrorP
++ _symbolic _____ySiG s16PartialRangeUpToV
++ _symbolic _____y_____G 15Synchronization5MutexVAARi_zrlE 17CompanionSetupKit15InterruptSignal33_9E4BDB177ACD1537AA1B7E8810F38E8BLLC5StateO
++ _symbolic _____y_____G 15Synchronization5_CellVAARi_zrlE 17CompanionSetupKit15InterruptSignal33_9E4BDB177ACD1537AA1B7E8810F38E8BLLC5StateO
++ _symbolic _____y_____G 17CompanionSetupKit14CSKStepContextV AA25CSKSetupAppleTVClientStepO
++ _symbolic _____y_____G 17CompanionSetupKit14CSKStepContextV AA25CSKSetupAppleTVServerStepO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 17CompanionSetupKit31CSKStepBasicConfigConfigurationV21CSKSiriAIRestrictionsV10CodingKeys33_D1FF41A27FDB20854F57911DA04123DELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 17CompanionSetupKit31CSKStepBasicConfigConfigurationV21CSKSiriAIRestrictionsV10CodingKeys33_D1FF41A27FDB20854F57911DA04123DELLO
++ _symbolic _____y_____GSgXw 17CompanionSetupKit7CSKFlowC AA25CSKSetupAppleTVClientStepO
++ _symbolic _____y_____GSgXw 17CompanionSetupKit7CSKFlowC AA25CSKSetupAppleTVServerStepO
++ _symbolic _____y______GSg 17CompanionSetupKit7CSKFlowC9StepEvent33_9E4BDB177ACD1537AA1B7E8810F38E8BLLO AA021CSKSetupAppleTVClientE0O
++ _symbolic _____y______GSg 17CompanionSetupKit7CSKFlowC9StepEvent33_9E4BDB177ACD1537AA1B7E8810F38E8BLLO AA021CSKSetupAppleTVServerE0O
++ _symbolic _____y______GSgIeAgHr_ 17CompanionSetupKit7CSKFlowC9StepEvent33_9E4BDB177ACD1537AA1B7E8810F38E8BLLO AA021CSKSetupAppleTVClientE0O
++ _symbolic _____y______GSgIeAgHr_ 17CompanionSetupKit7CSKFlowC9StepEvent33_9E4BDB177ACD1537AA1B7E8810F38E8BLLO AA021CSKSetupAppleTVServerE0O
++ _symbolic _____y_____y_____GG s15CollectionOfOneV 17CompanionSetupKit17CSKStepDefinitionV AC25CSKSetupAppleTVClientStepO
++ _symbolic _____y_____y_____GG s15CollectionOfOneV 17CompanionSetupKit17CSKStepDefinitionV AC25CSKSetupAppleTVServerStepO
++ _symbolic _____y_____y_____G______pG s6ResultOsRi_zRi0_zrlE 17CompanionSetupKit14CSKStepOutcomeO AC25CSKSetupAppleTVClientStepO s5ErrorP
++ _symbolic _____y_____y_____G______pG s6ResultOsRi_zRi0_zrlE 17CompanionSetupKit14CSKStepOutcomeO AC25CSKSetupAppleTVServerStepO s5ErrorP
++ _symbolic _____y_____yxG______pG s6ResultOsRi_zRi0_zrlE 17CompanionSetupKit14CSKStepOutcomeO s5ErrorP
++ _symbolic _____yxG 17CompanionSetupKit14CSKStepContextV
++ _symbolic _____yxGSgXw 17CompanionSetupKit7CSKFlowC
++ _symbolic _____yxGSgXwz____________RzlXX 17CompanionSetupKit7CSKFlowC AA25CSKSetupAppleTVClientStepO AA17CSKStepIdentifierP
++ _symbolic _____yxGSgXwz____________RzlXX 17CompanionSetupKit7CSKFlowC AA25CSKSetupAppleTVServerStepO AA17CSKStepIdentifierP
++ _symbolic _____yxGSgXwz_x______RzlXX 17CompanionSetupKit7CSKFlowC AA17CSKStepIdentifierP
++ _symbolic _____yxG______p______yxGtYaYbKc 17CompanionSetupKit14CSKStepOutcomeO AA0D0P AA0D7ContextV
++ _symbolic _____yx_GSg 17CompanionSetupKit7CSKFlowC10ActiveStep33_9E4BDB177ACD1537AA1B7E8810F38E8BLLV
++ _symbolic qd_______yxG______pIeghHgnzo_ 17CompanionSetupKit14CSKStepContextV s5ErrorP
++ _symbolic qd_______yxG_____yxG______pIeghHgnrzo_ 17CompanionSetupKit14CSKStepContextV AA0D7OutcomeO s5ErrorP
++ _symbolic x6target______9directiontSg 17CompanionSetupKit16CSKStepDirectionO
++ _symbolic xIeAgHr_
++ _symbolic ySay_____yxGGYaYbKc 17CompanionSetupKit17CSKStepDefinitionV
++ _symbolic y______pYaYbc s5ErrorP
++ _symbolic y_____yxGYaYbcSg 17CompanionSetupKit17CSKFlowTransitionV
++ _symbolic ytSg______pIgrzo_ s5ErrorP
++ _type_layout_string 17CompanionSetupKit17CSKStepIdentifierRzlAA0D7ContextVyxG
++ _type_layout_string 17CompanionSetupKit17CSKStepIdentifierRzlAA7CSKFlowC10ActiveStep33_9E4BDB177ACD1537AA1B7E8810F38E8BLLVyx_G
++ _type_layout_string 17CompanionSetupKit28CSKAudioPairingCarrierTimingV
++ _type_layout_string 17CompanionSetupKit31CSKStepBasicConfigConfigurationV21CSKSiriAIRestrictionsV
+- _OBJC_CLASS_$_PRXAction
+- _OBJC_CLASS_$_UIAlertAction
+- _OBJC_CLASS_$_UIAlertController
+- ___swift_closure_destructor.362Tm
+- ___swift_closure_destructor.407Tm
+- ___swift_closure_destructor.409Tm
+- ___swift_closure_destructor.494Tm
+- ___swift_closure_destructor.543Tm
+- ___swift_closure_destructor.624Tm
+- ___swift_get_extra_inhabitant_index.210Tm
+- ___swift_memcpy12_4
+- ___swift_memcpy241_8
+- ___swift_memcpy521_8
+- ___swift_store_extra_inhabitant_index.211Tm
+- ___unnamed_66
+- ___unnamed_9
+- _associated conformance 17CompanionSetupKit16CSKAddUserServerC7CommandO23HoldFinishingCodingKeys33_D3F08ADF928F7EC6B7302E0A75D1F1A2LLOSHAASQ
+- _associated conformance 17CompanionSetupKit16CSKAddUserServerC7CommandO23HoldFinishingCodingKeys33_D3F08ADF928F7EC6B7302E0A75D1F1A2LLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 17CompanionSetupKit16CSKAddUserServerC7CommandO23HoldFinishingCodingKeys33_D3F08ADF928F7EC6B7302E0A75D1F1A2LLOs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 17CompanionSetupKit19CSKSetupFlowManagerC0E7CommandO23HoldFinishingCodingKeys33_7547849D2F0661FC38D368F902A496FFLLOSHAASQ
+- _associated conformance 17CompanionSetupKit19CSKSetupFlowManagerC0E7CommandO23HoldFinishingCodingKeys33_7547849D2F0661FC38D368F902A496FFLLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 17CompanionSetupKit19CSKSetupFlowManagerC0E7CommandO23HoldFinishingCodingKeys33_7547849D2F0661FC38D368F902A496FFLLOs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 17CompanionSetupKit20CSKSetupPebbleServerC7CommandO23HoldFinishingCodingKeys33_D4CB4CCB597BB6F99529D6C40587333BLLOSHAASQ
+- _associated conformance 17CompanionSetupKit20CSKSetupPebbleServerC7CommandO23HoldFinishingCodingKeys33_D4CB4CCB597BB6F99529D6C40587333BLLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 17CompanionSetupKit20CSKSetupPebbleServerC7CommandO23HoldFinishingCodingKeys33_D4CB4CCB597BB6F99529D6C40587333BLLOs0J3KeyAAs28CustomDebugStringConvertible
+- _get_enum_tag_for_layout_string 17CompanionSetupKit019CSKStepAppleAccountB6ManualC5EventO
+- _keypath_set.21Tm
+- _keypath_set.23Tm
+- _keypath_set.52Tm
+- _swift_retain_x13
+- _symbolic Ieg_Sg
+- _symbolic SDyx_____yxGG 17CompanionSetupKit17CSKStepDefinitionV
+- _symbolic SSSg13mediaRemoteID_t
+- _symbolic So16UIViewControllerCSgXw
+- _symbolic So16UIViewControllerCSgXwz_Xx
+- _symbolic So28PRXCardContentViewControllerCSgXw
+- _symbolic So28PRXCardContentViewControllerCSgXwz_Xx
+- _symbolic _____ 17CompanionSetupKit16CSKAddUserServerC7CommandO23HoldFinishingCodingKeys33_D3F08ADF928F7EC6B7302E0A75D1F1A2LLO
+- _symbolic _____ 17CompanionSetupKit19CSKSetupFlowManagerC0E7CommandO23HoldFinishingCodingKeys33_7547849D2F0661FC38D368F902A496FFLLO
+- _symbolic _____ 17CompanionSetupKit20CSKSetupPebbleServerC7CommandO23HoldFinishingCodingKeys33_D4CB4CCB597BB6F99529D6C40587333BLLO
+- _symbolic _____4type_Sb13isReenrollingSb13siriAIEnabledt 17CompanionSetupKit21CSKRecognizeMeAskTypeO
+- _symbolic _____4type_Sb13siriAIEnabledt 17CompanionSetupKit21CSKRecognizeMeAskTypeO
+- _symbolic ________________pIeghHgnzo_ 17CompanionSetupKit011CSKStepHomecB6ClientC AA0D9DirectionO s5ErrorP
+- _symbolic ________________pIeghHgnzo_ 17CompanionSetupKit011CSKStepWiFiB6ClientC AA0D9DirectionO s5ErrorP
+- _symbolic ________________pIeghHgnzo_ 17CompanionSetupKit019CSKStepAppleAccountB6ClientC AA0D9DirectionO s5ErrorP
+- _symbolic ________________pIeghHgnzo_ 17CompanionSetupKit019CSKStepAppleAccountB6ManualC AA0D9DirectionO s5ErrorP
+- _symbolic ________________pIeghHgnzo_ 17CompanionSetupKit11CSKStepMiscC AA0D9DirectionO s5ErrorP
+- _symbolic ________________pIeghHgnzo_ 17CompanionSetupKit16CSKStepPreflightC AA0D9DirectionO s5ErrorP
+- _symbolic ________________pIeghHgnzo_ 17CompanionSetupKit18CSKStepCloudConfigC AA0D9DirectionO s5ErrorP
+- _symbolic ________________pIeghHgnzo_ 17CompanionSetupKit18CSKStepHelloServerC AA0D9DirectionO s5ErrorP
+- _symbolic ________________pIeghHgnzo_ 17CompanionSetupKit21CSKStepOSUpdateClientC AA0D9DirectionO s5ErrorP
+- _symbolic ________________pIeghHgnzo_ 17CompanionSetupKit21CSKStepOSUpdateServerC AA0D9DirectionO s5ErrorP
+- _symbolic ________________pIeghHgnzo_ 17CompanionSetupKit22CSKStepSettingsSummaryC AA0D9DirectionO s5ErrorP
+- _symbolic ________________pIeghHgnzo_ 17CompanionSetupKit23CSKStepActivationClientC AA0D9DirectionO s5ErrorP
+- _symbolic ________________pIeghHgnzo_ 17CompanionSetupKit23CSKStepManualActivationC AA0D9DirectionO s5ErrorP
+- _symbolic ________________pIeghHgnzo_ 17CompanionSetupKit23CSKStepQuickStartServerC AA0D9DirectionO s5ErrorP
+- _symbolic ________________pIeghHgnzo_ 17CompanionSetupKit23CSKStepTVProviderServerC AA0D9DirectionO s5ErrorP
+- _symbolic ________________pIeghHgnzo_ 17CompanionSetupKit23CSKStepWiFiPickerServerC AA0D9DirectionO s5ErrorP
+- _symbolic ________________pIeghHgnzo_ 17CompanionSetupKit24CSKStepBasicConfigClientC AA0D9DirectionO s5ErrorP
+- _symbolic ________________pIeghHgnzo_ 17CompanionSetupKit25CSKStepAppleTVFarFieldMicC AA0D9DirectionO s5ErrorP
+- _symbolic ________________pIeghHgnzo_ 17CompanionSetupKit25CSKStepRegionPickerServerC AA0D9DirectionO s5ErrorP
+- _symbolic ________________pIeghHgnzo_ 17CompanionSetupKit27CSKStepLanguagePickerServerC AA0D9DirectionO s5ErrorP
+- _symbolic ________________pIeghHgnzo_ 17CompanionSetupKit31CSKStepTermsAndConditionsServerC AA0D9DirectionO s5ErrorP
+- _symbolic ___________yAAGt 17CompanionSetupKit25CSKSetupAppleTVClientStepO AA17CSKStepDefinitionV
+- _symbolic ___________yAAGt 17CompanionSetupKit25CSKSetupAppleTVServerStepO AA17CSKStepDefinitionV
+- _symbolic ______pSg 17CompanionSetupKit7CSKStepP
+- _symbolic ______p___________pIeghHgnzo_ 17CompanionSetupKit7CSKStepP AA0D9DirectionO s5ErrorP
+- _symbolic _____y_____G s22KeyedDecodingContainerV 17CompanionSetupKit16CSKAddUserServerC7CommandO23HoldFinishingCodingKeys33_D3F08ADF928F7EC6B7302E0A75D1F1A2LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 17CompanionSetupKit19CSKSetupFlowManagerC0H7CommandO23HoldFinishingCodingKeys33_7547849D2F0661FC38D368F902A496FFLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 17CompanionSetupKit20CSKSetupPebbleServerC7CommandO23HoldFinishingCodingKeys33_D4CB4CCB597BB6F99529D6C40587333BLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 17CompanionSetupKit16CSKAddUserServerC7CommandO23HoldFinishingCodingKeys33_D3F08ADF928F7EC6B7302E0A75D1F1A2LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 17CompanionSetupKit19CSKSetupFlowManagerC0H7CommandO23HoldFinishingCodingKeys33_7547849D2F0661FC38D368F902A496FFLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 17CompanionSetupKit20CSKSetupPebbleServerC7CommandO23HoldFinishingCodingKeys33_D4CB4CCB597BB6F99529D6C40587333BLLO
+- _symbolic _____y______G 17CompanionSetupKit7CSKFlowC12RestorePointV AA25CSKSetupAppleTVClientStepO
+- _symbolic _____y___________yABGtG s23_ContiguousArrayStorageC 17CompanionSetupKit25CSKSetupAppleTVClientStepO AC17CSKStepDefinitionV
+- _symbolic _____y___________yABGtG s23_ContiguousArrayStorageC 17CompanionSetupKit25CSKSetupAppleTVServerStepO AC17CSKStepDefinitionV
+- _symbolic _____y__________yABGG s18_DictionaryStorageC 17CompanionSetupKit25CSKSetupAppleTVClientStepO AC17CSKStepDefinitionV
+- _symbolic _____y__________yABGG s18_DictionaryStorageC 17CompanionSetupKit25CSKSetupAppleTVServerStepO AC17CSKStepDefinitionV
+- _symbolic qd_____________pIeghHgnzo_ 17CompanionSetupKit16CSKStepDirectionO s5ErrorP
+- _symbolic ySbYaYbcSg
+- _symbolic y______p______tYaYbKc 17CompanionSetupKit7CSKStepP AA0D9DirectionO
+- _symbolic yx______tYaYbcSg 17CompanionSetupKit16CSKStepDirectionO
+- _type_layout_string 17CompanionSetupKit20CSKSetupPebbleServerC13ConfigurationV
+- _type_layout_string 17CompanionSetupKit47CSKBluetoothAdvertiserNearbyActionConfigurationV
+CStrings:
++ "### bluetooth pairing delete failed: %s, error=%@"
++ "### bluetooth pairing delete failed: no identifier, %s"
++ ", peerToPeerVerified="
++ "; personalContentEnabled="
++ "Actor type mismatch: expected (ConnectStep in _3C267E0A714BB497C52E44E1E98B05B0)"
++ "AudioPairing attempt failed: reporting deferred timeout"
++ "AudioPairing play end: attempt in flight, deferring timeout"
++ "AudioPairing replace previous play"
++ "AudioPairing stop fade: loopIndex=%ld, loopPosition=%.*f, fade=%.*f"
++ "EAP configuration"
++ "EAP trust exceptions"
++ "Flow task canceled"
++ "Interrupted before perform"
++ "No shareable EAP configuration"
++ "Peer doesn't support enterprise networks"
++ "ProximityServiceThirdPartyHomeSetup"
++ "RemoteUI retry activation"
++ "RemoteUI retry requested"
++ "ShareableEAPConfig"
++ "ShareableEAPTrustExceptions"
++ "Skipping enterprise extra network: ssid=%s"
++ "Step produced no result"
++ "WiFiSetup EAP: trustExceptions=%{bool}d"
++ "allowsAssistantUserGeneratedContent"
++ "allowsAssistantUserGeneratedContent="
++ "allowsMathPaperSolving"
++ "allowsMathPaperSolving="
++ "allowsWritingTools"
++ "allowsWritingTools="
++ "bluetooth pairing delete: peer removed pairing, %s"
++ "bluetooth pairing deleted: %s"
++ "detour: id=%s, returnStepID=%s"
++ "eapConfiguration"
++ "eapConfiguration=true"
++ "eapTrustExceptions"
++ "eapTrustExceptions=true"
++ "finish: peer mediaRemoteID=%s, peerToPeerVerified=%s"
++ "forcesAssistantProfanityFilter"
++ "forcesAssistantProfanityFilter="
++ "forcesReduceSensitiveContent"
++ "forcesReduceSensitiveContent="
++ "goBack ignored: navigation already pending"
++ "mediaRemoteID peerToPeerVerified "
++ "preStart: skipping prewarm while hosting AP"
++ "replaceRemainingSteps ignored: stale step"
++ "replaceRemainingSteps: currentID=%s, removingCount=%ld, ids=%s"
++ "set pending voiceTriggerEnabled: %{bool}d"
++ "siriAIRestrictions"
++ "siriDataSharingStatusVersion"
++ "step ended after cancel: id=%s"
++ "step interrupted before perform: id=%s"
++ "step interrupted during creation: id=%s"
++ "target direction "
++ "type isReenrolling siriAIEnabled personalContentEnabled "
++ "type siriAIEnabled personalContentEnabled "
++ "wifiEnterpriseSupported"
+- "### PostCompanion setup failed: error=%s"
+- "AudioPairing cancel previous play"
+- "AudioPairing loop %ld"
+- "CompanionSetupKit/CSKFlow.swift"
+- "DISMISS_ALERT_EXIT_BUTTON_TITLE"
+- "DISMISS_ALERT_TITLE"
+- "External cancellation"
+- "Finishing hold released"
+- "Holding at finishing"
+- "Step not found: "
+- "append: ids=%s"
+- "completed"
+- "finish: peer mediaRemoteID=%s"
+- "goTo: targetID=%s, currentID=%s"
+- "id historyIndex "
+- "insertAfter: ids=%s, afterID=%s"
+- "remove: id=%s"
+- "removeAfter: anchorID=%s, removingCount=%ld"
+- "step cancelled externally: id=%s"
+- "step interrupted (post-return): id=%s, navigatingTo=%s"
+- "step interrupted (post-return): id=%s, past end of flow"
+- "step interrupted: id=%s, past end of flow"
+- "step returned after cancel: id=%s"
+- "type isReenrolling siriAIEnabled "
+- "type siriAIEnabled "
+- "waitForFinishingHold()"
+```

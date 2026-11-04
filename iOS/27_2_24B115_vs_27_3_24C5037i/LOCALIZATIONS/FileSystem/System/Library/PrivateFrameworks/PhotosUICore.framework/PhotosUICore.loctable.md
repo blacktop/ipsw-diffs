@@ -1,0 +1,66 @@
+## PhotosUICore
+
+> `FileSystem/System/Library/PrivateFrameworks/PhotosUICore.framework/PhotosUICore.loctable`
+
+```diff
+
+ en.PICKER_CONFIGURATION_ALERT_BUTTON_OK = "OK"
+ en.PICKER_CONFIGURATION_ALERT_MESSAGE = "This app is using the Photos picker in an unsupported configuration."
+ en.PICKER_CONFIGURATION_ALERT_TITLE = "Photo or Video Unavailable"
++en.PICKER_CREATE_BUTTON_TITLE = "Create New"
+ en.PICKER_DATA_ACCESS_EDUCATION_UI_BUTTON_TITLE = "OK"
+ en.PICKER_DATA_ACCESS_EDUCATION_UI_DETAIL_TEXT = "Your photo library may be shown in this app, but it can only access the photos and videos you select to share with it.\n\nBecause the app does not receive access to your photo library, you won't be asked to manage privacy.\n\nApps that use Private Access to Photos will appear in Privacy settings."
+ en.PICKER_DATA_ACCESS_EDUCATION_UI_DETAIL_TEXT_CATALYST = "Your photo library may be shown in this app, but it can only access the photos and videos you select to share with it.\n\nBecause the app does not receive access to your photo library, you won't be asked to manage privacy."
+
+ en.PXSharePlayOneUpGroupActivityTitle = "Browse Photos Together"
+ en.PXShareWithFriends = "Share with friends"
+ en.PXShareWithFriends_QuestionMark = "Share with friends?"
++en.PXSharedAlbumAddToTitleMultipleAlbums.NSStringLocalizedFormatKey = "%#@messageFormat@"
++en.PXSharedAlbumAddToTitleMultipleAlbums.messageFormat.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
++en.PXSharedAlbumAddToTitleMultipleAlbums.messageFormat.NSStringFormatValueTypeKey = "ld"
++en.PXSharedAlbumAddToTitleMultipleAlbums.messageFormat.one = "Add to %ld Shared Album"
++en.PXSharedAlbumAddToTitleMultipleAlbums.messageFormat.other = "Add to %ld Shared Albums"
+ en.PXSharedAlbumAssetLimitErrorMessageAdmin = "This shared album has reached its maximum number of items. Remove items from the album to add more."
+ en.PXSharedAlbumAssetLimitErrorMessageContributor = "This shared album has reached its maximum number of items. Remove items from the album to add more."
+ en.PXSharedAlbumAssetLimitErrorTitle = "Shared Album Is Full"
+
+ en.PXStarRatingMenuThreeStarAccessibility = "Three Stars"
+ en.PXStarRatingMenuTwoStarAccessibility = "Two Stars"
+ en.PXStarRatingSwitchDescription = "Allow star ratings menu to appear on a photo detail view to quickly set and view ratings."
+-en.PXStarRatingSwitchTitle = "Show Ratings Controls"
++en.PXStarRatingSwitchTitle = "Ratings Control"
+ en.PXStarsRatingActionName = "Set Star Rating"
+ en.PXStylesSetupTipActionTitle = "Manage in Settings"
+ en.PXStylesSetupTipMessage = "Personalize how you appear every time you take a photo with one of five undertones."
+
+ en.PXTTRFileRadarTitle = "File Radar"
+ en.PXTimelineAlbumNotFound = "Album not found "
+ en.PXTimelineAlbumNotFoundWrapped = "Album\nNot found"
++en.PXTimelineAlbumProcessingAssets = "Photos will appear here when they are finished processing"
+ en.PXTimelineDisabledContentTitle = "Featured Content is Turned Off"
+ en.PXTimelineNoAlbumContentTitle = "No photos available in album"
+ en.PXTimelineNoContentTitle = "Photos will appear here when they are finished processing"
+
+ en.SEARCH_UNNAMED_RESULTS_PERSON_TITLE = "Unnamed Person"
+ en.SEARCH_UNNAMED_RESULTS_PET_TITLE = "Unnamed Pet"
+ en.SELECT_ALL_SHORTCUT = "Select All"
+-en.SHARED_ALBUM_ADD_TO_ALBUM_TITLE_ITEM.NSStringLocalizedFormatKey = "%1$#@n_items@"
+-en.SHARED_ALBUM_ADD_TO_ALBUM_TITLE_ITEM.n_items.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
+-en.SHARED_ALBUM_ADD_TO_ALBUM_TITLE_ITEM.n_items.NSStringFormatValueTypeKey = "d"
+-en.SHARED_ALBUM_ADD_TO_ALBUM_TITLE_ITEM.n_items.one = "Add 1 Item to %2$@"
+-en.SHARED_ALBUM_ADD_TO_ALBUM_TITLE_ITEM.n_items.other = "Add %1$d Items to %2$@"
+-en.SHARED_ALBUM_ADD_TO_ALBUM_TITLE_PHOTO.NSStringLocalizedFormatKey = "%1$#@n_photos@"
+-en.SHARED_ALBUM_ADD_TO_ALBUM_TITLE_PHOTO.n_photos.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
+-en.SHARED_ALBUM_ADD_TO_ALBUM_TITLE_PHOTO.n_photos.NSStringFormatValueTypeKey = "d"
+-en.SHARED_ALBUM_ADD_TO_ALBUM_TITLE_PHOTO.n_photos.one = "Add 1 Photo to %2$@"
+-en.SHARED_ALBUM_ADD_TO_ALBUM_TITLE_PHOTO.n_photos.other = "Add %1$d Photos to %2$@"
+-en.SHARED_ALBUM_ADD_TO_ALBUM_TITLE_VIDEO.NSStringLocalizedFormatKey = "%1$#@n_videos@"
+-en.SHARED_ALBUM_ADD_TO_ALBUM_TITLE_VIDEO.n_videos.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
+-en.SHARED_ALBUM_ADD_TO_ALBUM_TITLE_VIDEO.n_videos.NSStringFormatValueTypeKey = "d"
+-en.SHARED_ALBUM_ADD_TO_ALBUM_TITLE_VIDEO.n_videos.one = "Add 1 Video to %2$@"
+-en.SHARED_ALBUM_ADD_TO_ALBUM_TITLE_VIDEO.n_videos.other = "Add %1$d Videos to %2$@"
+ en.SHARED_ALBUM_ADD_TO_TITLE_ITEM.NSStringLocalizedFormatKey = "%#@n_items@"
+ en.SHARED_ALBUM_ADD_TO_TITLE_ITEM.n_items.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
+ en.SHARED_ALBUM_ADD_TO_TITLE_ITEM.n_items.NSStringFormatValueTypeKey = "d"
+
+```

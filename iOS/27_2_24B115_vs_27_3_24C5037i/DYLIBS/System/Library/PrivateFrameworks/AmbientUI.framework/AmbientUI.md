@@ -1,0 +1,934 @@
+## AmbientUI
+
+> `/System/Library/PrivateFrameworks/AmbientUI.framework/AmbientUI`
+
+```diff
+
+-109.1.1.0.0
+-  __TEXT.__text: 0x2ebf0
+-  __TEXT.__objc_methlist: 0x52c0
+-  __TEXT.__const: 0x794
+-  __TEXT.__gcc_except_tab: 0x554
+-  __TEXT.__cstring: 0x1a35
+-  __TEXT.__oslogstring: 0x1b4d
++109.3.6.0.0
++  __TEXT.__text: 0x4b3c4
++  __TEXT.__objc_methlist: 0x5a00
++  __TEXT.__const: 0x27d4
++  __TEXT.__gcc_except_tab: 0x578
++  __TEXT.__cstring: 0x2700
++  __TEXT.__oslogstring: 0x1e85
+   __TEXT.__dlopen_cstrs: 0xb8
+-  __TEXT.__constg_swiftt: 0xd0
+-  __TEXT.__swift5_typeref: 0xd8
+-  __TEXT.__swift5_builtin: 0x14
+-  __TEXT.__swift5_reflstr: 0x48
+-  __TEXT.__swift5_assocty: 0x30
+-  __TEXT.__swift5_proto: 0xc
+-  __TEXT.__swift5_types: 0xc
+-  __TEXT.__swift5_fieldmd: 0x44
+-  __TEXT.__unwind_info: 0x1420
++  __TEXT.__constg_swiftt: 0xbd8
++  __TEXT.__swift5_typeref: 0x2c42
++  __TEXT.__swift5_reflstr: 0x5ea
++  __TEXT.__swift5_fieldmd: 0x7e8
++  __TEXT.__swift5_builtin: 0x28
++  __TEXT.__swift5_assocty: 0x340
++  __TEXT.__swift5_proto: 0xc0
++  __TEXT.__swift5_types: 0xb4
++  __TEXT.__swift5_capture: 0xe0
++  __TEXT.__swift_as_entry: 0x8
++  __TEXT.__swift_as_ret: 0x8
++  __TEXT.__swift_as_cont: 0x18
++  __TEXT.__unwind_info: 0x1e60
++  __TEXT.__eh_frame: 0x280
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xbf8
+-  __DATA_CONST.__objc_classlist: 0x198
++  __DATA_CONST.__const: 0xce0
++  __DATA_CONST.__objc_classlist: 0x1e8
+   __DATA_CONST.__objc_catlist: 0x20
+-  __DATA_CONST.__objc_protolist: 0x1d8
++  __DATA_CONST.__objc_protolist: 0x220
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x3820
+-  __DATA_CONST.__objc_superrefs: 0x148
++  __DATA_CONST.__objc_selrefs: 0x3d00
++  __DATA_CONST.__objc_protorefs: 0x20
++  __DATA_CONST.__objc_superrefs: 0x150
+   __DATA_CONST.__objc_arraydata: 0x90
+-  __DATA_CONST.__got: 0x778
+-  __AUTH_CONST.__const: 0x3a8
+-  __AUTH_CONST.__cfstring: 0x1b40
+-  __AUTH_CONST.__objc_const: 0xcd50
++  __DATA_CONST.__got: 0xbc8
++  __AUTH_CONST.__const: 0x14c0
++  __AUTH_CONST.__cfstring: 0x1d20
++  __AUTH_CONST.__objc_const: 0xe7d8
+   __AUTH_CONST.__objc_arrayobj: 0x30
+   __AUTH_CONST.__objc_doubleobj: 0xb0
+   __AUTH_CONST.__objc_intobj: 0x30
+-  __AUTH_CONST.__auth_got: 0x620
+-  __AUTH.__objc_data: 0xc18
+-  __AUTH.__data: 0xc0
+-  __DATA.__objc_ivar: 0x4ac
+-  __DATA.__data: 0x16f8
+-  __DATA_DIRTY.__objc_data: 0x410
+-  __DATA_DIRTY.__data: 0x8
++  __AUTH_CONST.__auth_got: 0xf50
++  __AUTH.__objc_data: 0x1090
++  __AUTH.__data: 0x998
++  __DATA.__objc_ivar: 0x4fc
++  __DATA.__data: 0x24c0
++  __DATA.__objc_stublist: 0x8
++  __DATA.__common: 0x2f8
++  __DATA_DIRTY.__objc_data: 0x488
++  __DATA_DIRTY.__data: 0x30
+   __DATA_DIRTY.__bss: 0x38
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /System/Library/Frameworks/CoreText.framework/CoreText
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
++  - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/PrivateFrameworks/Ambient.framework/Ambient
+   - /System/Library/PrivateFrameworks/AmbientUIKit.framework/AmbientUIKit
+
+   - /System/Library/PrivateFrameworks/PosterBoardUIServices.framework/PosterBoardUIServices
+   - /System/Library/PrivateFrameworks/PosterKit.framework/PosterKit
+   - /System/Library/PrivateFrameworks/PrototypeTools.framework/PrototypeTools
++  - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /System/Library/PrivateFrameworks/SpringBoardHome.framework/SpringBoardHome
+   - /System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
++  - /usr/lib/swift/libswiftAccelerate.dylib
++  - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
++  - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
++  - /usr/lib/swift/libswiftObservation.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 1430
+-  Symbols:   2860
+-  CStrings:  402
++  Functions: 2236
++  Symbols:   3517
++  CStrings:  504
+ 
+Symbols:
++ +[AMUIHostSceneCoordinator _ambientUIWorkspace]
++ -[AMUIAmbientViewController _animateBatteryViewDismissalIfNecessaryWithStyle:]
++ -[AMUIAmbientViewController _batteryChargingDismissalStyleForIndicatorLeaving]
++ -[AMUIAmbientViewController _setBatteryChargingUIVisible:]
++ -[AMUIAmbientViewController _shouldPresentBatteryChargingUI]
++ -[AMUIAmbientViewController ambientPosterSceneDidBeginConfiguring]
++ -[AMUIAmbientViewController ambientPosterSceneDidBeginSuspendingPresentationTrigger]
++ -[AMUIAmbientViewController ambientPosterSceneDidEndConfiguring]
++ -[AMUIAmbientViewController ambientPosterSceneDidEndSuspendingPresentationTrigger]
++ -[AMUIAmbientViewController ambientPosterSceneDidRequestUnlock:completion:]
++ -[AMUIAmbientViewController batteryChargingViewControllerDidRequestDismissal:]
++ -[AMUIAmbientViewController batteryChargingViewControllerWillDisappear:]
++ -[AMUIAmbientViewController initWithSceneCoordinator:]
++ -[AMUIBatteryChargingRingView _adoptCurrentPresentationStateForLayer:]
++ -[AMUIBatteryChargingRingView _adoptCurrentPresentationState]
++ -[AMUIBatteryChargingRingView _adoptPresentationValueForKeyPath:layer:presentationLayer:]
++ -[AMUIBatteryChargingRingView _animatableLayers]
++ -[AMUIBatteryChargingRingView _layoutChargingIndicator]
++ -[AMUIBatteryChargingRingView chargingAnimationDisappearanceDelay]
++ -[AMUIBatteryChargingRingView chargingIndicatorHitRect]
++ -[AMUIBatteryChargingRingView dismissChargingViewWithCompletionHandler:]
++ -[AMUIBatteryChargingRingView isChargingViewPresented]
++ -[AMUIBatteryChargingRingView isDismissingChargingView]
++ -[AMUIBatteryChargingRingView presentationCompletionHandler]
++ -[AMUIBatteryChargingRingView setChargingViewPresented:]
++ -[AMUIBatteryChargingRingView setDismissingChargingView:]
++ -[AMUIBatteryChargingRingView setPresentationCompletionHandler:]
++ -[AMUIBatteryChargingView chargingAnimationDisappearanceDelay]
++ -[AMUIBatteryChargingView chargingIndicatorHitRect]
++ -[AMUIBatteryChargingView dismissChargingViewWithCompletionHandler:]
++ -[AMUIBatteryChargingViewController _handleChargingViewTapGesture:]
++ -[AMUIBatteryChargingViewController _notifyDelegateOfDisappearance]
++ -[AMUIBatteryChargingViewController _scheduleDisappearanceNotification]
++ -[AMUIBatteryChargingViewController _setupChargingViewTapGestureRecognizerIfNecessary]
++ -[AMUIBatteryChargingViewController chargingIndicatorDismissed]
++ -[AMUIBatteryChargingViewController chargingViewTapGestureRecognizer]
++ -[AMUIBatteryChargingViewController delegate]
++ -[AMUIBatteryChargingViewController dismissChargingAnimation:]
++ -[AMUIBatteryChargingViewController isShowingChargingIndicator]
++ -[AMUIBatteryChargingViewController setChargingIndicatorDismissed:]
++ -[AMUIBatteryChargingViewController setChargingViewTapGestureRecognizer:]
++ -[AMUIBatteryChargingViewController setDelegate:]
++ -[AMUIHostSceneCoordinator .cxx_destruct]
++ -[AMUIHostSceneCoordinator _applySizeClassResolversToScene]
++ -[AMUIHostSceneCoordinator _createScene]
++ -[AMUIHostSceneCoordinator _invalidateScene]
++ -[AMUIHostSceneCoordinator _loggingIdentifier]
++ -[AMUIHostSceneCoordinator _notifyContentStateTransitionIfNeededForScene:withReason:]
++ -[AMUIHostSceneCoordinator addObserver:]
++ -[AMUIHostSceneCoordinator additionalSceneExtensions]
++ -[AMUIHostSceneCoordinator initWithDisplayConfiguration:]
++ -[AMUIHostSceneCoordinator initWithWindowScene:]
++ -[AMUIHostSceneCoordinator initWithWindowScene:initialDisplayStyle:]
++ -[AMUIHostSceneCoordinator invalidate]
++ -[AMUIHostSceneCoordinator prepareForPresentation]
++ -[AMUIHostSceneCoordinator removeObserver:]
++ -[AMUIHostSceneCoordinator sceneContentStateDidChange:]
++ -[AMUIHostSceneCoordinator sceneDidDeactivate:withContext:]
++ -[AMUIHostSceneCoordinator sceneDidInvalidate:]
++ -[AMUIHostSceneCoordinator scene]
++ -[AMUIHostSceneCoordinator scenesForBacklightSession]
++ -[AMUIHostSceneCoordinator sendInteractionEvent:]
++ -[AMUIHostSceneCoordinator setAdditionalSceneExtensions:]
++ -[AMUIHostSceneCoordinator setDisplayStyle:]
++ -[AMUIHostSceneCoordinator setHorizontalSizeClassResolver:verticalSizeClassResolver:]
++ -[AMUIHostSceneCoordinator teardownPresentation]
++ -[AMUIOnboardingContainerView _usesModernOnboarding]
++ -[AMUIOnboardingContainerView onboardingContentViewRequestsDismissal:]
++ -[AMUIOnboardingContainerView pose]
++ -[AMUIOnboardingContainerView setPose:]
++ -[AMUIOnboardingViewController setPose:]
++ -[AMUIWidgetHostManager noteAmbientPresentingAnywhere:]
++ -[AMUIWidgetHostManager rushmoreHostManager]
++ -[AMUIWidgetHostManager setRushmoreHostManager:]
++ GCC_except_table29
++ GCC_except_table75
++ GCC_except_table82
++ GCC_except_table84
++ _CGRectGetMaxX
++ _CGRectGetMinX
++ _CGRectIsNull
++ _CGRectNull
++ _NSStringFromFBSceneContentState
++ _OBJC_CLASS_$_AMAmbientPolicyManager
++ _OBJC_CLASS_$_AMUIAmbientPosterSceneHostingController
++ _OBJC_CLASS_$_AMUIHostSceneCoordinator
++ _OBJC_CLASS_$_AMUIModernOnboardingHostView
++ _OBJC_CLASS_$_AMUIRushmoreWidgetHostManager
++ _OBJC_CLASS_$_BSCornerRadiusConfiguration
++ _OBJC_CLASS_$_CAPropertyAnimation
++ _OBJC_CLASS_$_CATextLayer
++ _OBJC_CLASS_$_FBSSceneClientIdentity
++ _OBJC_CLASS_$_FBSceneLayer
++ _OBJC_CLASS_$_FBSceneWorkspace
++ _OBJC_CLASS_$_NSMutableSet
++ _OBJC_CLASS_$_RBSProcessIdentity
++ _OBJC_CLASS_$_UIApplicationSceneSpecification
++ _OBJC_CLASS_$_UIMutableApplicationSceneSettings
++ _OBJC_CLASS_$_UIPageControl
++ _OBJC_CLASS_$_UIWindowScene
++ _OBJC_IVAR_$_AMUIAmbientViewController._batteryChargingUIVisible
++ _OBJC_IVAR_$_AMUIAmbientViewController._hostingController
++ _OBJC_IVAR_$_AMUIAmbientViewController._isDismissingBatteryChargingView
++ _OBJC_IVAR_$_AMUIBatteryChargingRingView._chargingViewPresented
++ _OBJC_IVAR_$_AMUIBatteryChargingRingView._dismissingChargingView
++ _OBJC_IVAR_$_AMUIBatteryChargingRingView._presentationCompletionHandler
++ _OBJC_IVAR_$_AMUIBatteryChargingViewController._chargingIndicatorDismissed
++ _OBJC_IVAR_$_AMUIBatteryChargingViewController._chargingViewTapGestureRecognizer
++ _OBJC_IVAR_$_AMUIBatteryChargingViewController._delegate
++ _OBJC_IVAR_$_AMUIHostSceneCoordinator._additionalSceneExtensions
++ _OBJC_IVAR_$_AMUIHostSceneCoordinator._displayConfiguration
++ _OBJC_IVAR_$_AMUIHostSceneCoordinator._displayStylePublisher
++ _OBJC_IVAR_$_AMUIHostSceneCoordinator._horizontalSizeClassResolver
++ _OBJC_IVAR_$_AMUIHostSceneCoordinator._observers
++ _OBJC_IVAR_$_AMUIHostSceneCoordinator._scene
++ _OBJC_IVAR_$_AMUIHostSceneCoordinator._verticalSizeClassResolver
++ _OBJC_IVAR_$_AMUIHostSceneCoordinator._windowScene
++ _OBJC_IVAR_$_AMUIOnboardingContainerView._pose
++ _OBJC_IVAR_$_AMUIOnboardingViewController._pose
++ _OBJC_IVAR_$_AMUIWidgetHostManager._rushmoreHostManager
++ _OBJC_METACLASS_$_AMUIAmbientPosterSceneHostingController
++ _OBJC_METACLASS_$_AMUIHostSceneCoordinator
++ _OBJC_METACLASS_$_AMUIModernOnboardingHostView
++ _OBJC_METACLASS_$_AMUIRushmoreWidgetHostManager
++ _OBJC_METACLASS_$__TtC9AmbientUIP33_B1AB5667CC7534D2F56F5B91C9A38E4433WrappedSceneViewHostingController
++ _OBJC_METACLASS_$__TtC9AmbientUIP33_F20FBEBC4FFD81988B3DD6DB2942E89721AMUICAPackageHostView
++ _SBHDisplayCornerMetricsForScreenType
++ __DATA_AMUIAmbientPosterSceneHostingController
++ __DATA_AMUIModernOnboardingHostView
++ __DATA_AMUIRushmoreWidgetHostManager
++ __DATA__TtC9AmbientUI23AMUIOnboardingViewModel
++ __DATA__TtC9AmbientUIP33_B1AB5667CC7534D2F56F5B91C9A38E4433WrappedSceneViewHostingController
++ __DATA__TtC9AmbientUIP33_B1AB5667CC7534D2F56F5B91C9A38E4440AmbientPosterSceneHostingControllerModel
++ __DATA__TtC9AmbientUIP33_F20FBEBC4FFD81988B3DD6DB2942E89721AMUICAPackageHostView
++ __DATA__TtCE9AmbientUICSo8NSBundleP33_FCA2D744C8C441E1D27091DA7B32ED0525AMUIOnboardingBundleToken
++ __DATA__TtCV9AmbientUI31AMUIOnboardingPageIndicatorView11Coordinator
++ __DATA__TtCV9AmbientUIP33_F20FBEBC4FFD81988B3DD6DB2942E89717AMUICAPackageView11Coordinator
++ __INSTANCE_METHODS_AMUIModernOnboardingHostView
++ __INSTANCE_METHODS_AMUIRushmoreWidgetHostManager
++ __INSTANCE_METHODS__TtC9AmbientUIP33_8D916EFDC10203887B62F75D9D4FDC2134AMUIOnboardingFullBleedHostingView
++ __INSTANCE_METHODS__TtC9AmbientUIP33_B1AB5667CC7534D2F56F5B91C9A38E4433WrappedSceneViewHostingController
++ __INSTANCE_METHODS__TtC9AmbientUIP33_F20FBEBC4FFD81988B3DD6DB2942E89721AMUICAPackageHostView
++ __INSTANCE_METHODS__TtCV9AmbientUI31AMUIOnboardingPageIndicatorView11Coordinator
++ __IVARS_AMUIAmbientPosterSceneHostingController
++ __IVARS_AMUIModernOnboardingHostView
++ __IVARS_AMUIRushmoreWidgetHostManager
++ __IVARS__TtC9AmbientUI23AMUIOnboardingViewModel
++ __IVARS__TtC9AmbientUIP33_B1AB5667CC7534D2F56F5B91C9A38E4440AmbientPosterSceneHostingControllerModel
++ __IVARS__TtC9AmbientUIP33_F20FBEBC4FFD81988B3DD6DB2942E89721AMUICAPackageHostView
++ __IVARS__TtCV9AmbientUI31AMUIOnboardingPageIndicatorView11Coordinator
++ __IVARS__TtCV9AmbientUIP33_F20FBEBC4FFD81988B3DD6DB2942E89717AMUICAPackageView11Coordinator
++ __METACLASS_DATA_AMUIAmbientPosterSceneHostingController
++ __METACLASS_DATA_AMUIModernOnboardingHostView
++ __METACLASS_DATA_AMUIRushmoreWidgetHostManager
++ __METACLASS_DATA__TtC9AmbientUI23AMUIOnboardingViewModel
++ __METACLASS_DATA__TtC9AmbientUIP33_B1AB5667CC7534D2F56F5B91C9A38E4433WrappedSceneViewHostingController
++ __METACLASS_DATA__TtC9AmbientUIP33_B1AB5667CC7534D2F56F5B91C9A38E4440AmbientPosterSceneHostingControllerModel
++ __METACLASS_DATA__TtC9AmbientUIP33_F20FBEBC4FFD81988B3DD6DB2942E89721AMUICAPackageHostView
++ __METACLASS_DATA__TtCE9AmbientUICSo8NSBundleP33_FCA2D744C8C441E1D27091DA7B32ED0525AMUIOnboardingBundleToken
++ __METACLASS_DATA__TtCV9AmbientUI31AMUIOnboardingPageIndicatorView11Coordinator
++ __METACLASS_DATA__TtCV9AmbientUIP33_F20FBEBC4FFD81988B3DD6DB2942E89717AMUICAPackageView11Coordinator
++ __MergedGlobals
++ __OBJC_$_CLASS_METHODS_AMUIHostSceneCoordinator
++ __OBJC_$_INSTANCE_METHODS_AMUIAmbientPosterSceneHostingController(AmbientUI)
++ __OBJC_$_INSTANCE_METHODS_AMUIHostSceneCoordinator
++ __OBJC_$_INSTANCE_VARIABLES_AMUIHostSceneCoordinator
++ __OBJC_$_PROP_LIST_AMUIHostSceneCoordinator
++ __OBJC_$_PROP_LIST_AMUIOnboardingContentView
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_AMUIHostSceneCoordinating
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_AMUIOnboardingContentView
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_AMUIOnboardingContentViewDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AMUIBatteryChargingViewControllerDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FBSceneDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FBSceneObserver
++ __OBJC_$_PROTOCOL_METHOD_TYPES_AMUIBatteryChargingViewControllerDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_AMUIHostSceneCoordinating
++ __OBJC_$_PROTOCOL_METHOD_TYPES_AMUIOnboardingContentView
++ __OBJC_$_PROTOCOL_METHOD_TYPES_AMUIOnboardingContentViewDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_FBSceneDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_FBSceneObserver
++ __OBJC_$_PROTOCOL_REFS_AMUIBatteryChargingViewControllerDelegate
++ __OBJC_$_PROTOCOL_REFS_AMUIHostSceneCoordinating
++ __OBJC_$_PROTOCOL_REFS_AMUIOnboardingContentView
++ __OBJC_$_PROTOCOL_REFS_AMUIOnboardingContentViewDelegate
++ __OBJC_$_PROTOCOL_REFS_FBSceneDelegate
++ __OBJC_$_PROTOCOL_REFS_FBSceneObserver
++ __OBJC_CLASS_PROTOCOLS_$_AMUIHostSceneCoordinator
++ __OBJC_CLASS_RO_$_AMUIHostSceneCoordinator
++ __OBJC_LABEL_PROTOCOL_$_AMUIBatteryChargingViewControllerDelegate
++ __OBJC_LABEL_PROTOCOL_$_AMUIHostSceneCoordinating
++ __OBJC_LABEL_PROTOCOL_$_AMUIOnboardingContentView
++ __OBJC_LABEL_PROTOCOL_$_AMUIOnboardingContentViewDelegate
++ __OBJC_LABEL_PROTOCOL_$_FBSceneDelegate
++ __OBJC_LABEL_PROTOCOL_$_FBSceneObserver
++ __OBJC_METACLASS_RO_$_AMUIHostSceneCoordinator
++ __OBJC_PROTOCOL_$_AMUIBatteryChargingViewControllerDelegate
++ __OBJC_PROTOCOL_$_AMUIHostSceneCoordinating
++ __OBJC_PROTOCOL_$_AMUIOnboardingContentView
++ __OBJC_PROTOCOL_$_AMUIOnboardingContentViewDelegate
++ __OBJC_PROTOCOL_$_FBSceneDelegate
++ __OBJC_PROTOCOL_$_FBSceneObserver
++ __PROPERTIES_AMUIModernOnboardingHostView
++ __PROPERTIES__TtC9AmbientUIP33_8D916EFDC10203887B62F75D9D4FDC2134AMUIOnboardingFullBleedHostingView
++ __PROTOCOLS_AMUIModernOnboardingHostView
++ ___40-[AMUIHostSceneCoordinator _createScene]_block_invoke
++ ___40-[AMUIHostSceneCoordinator _createScene]_block_invoke_2
++ ___40-[AMUIHostSceneCoordinator _createScene]_block_invoke_3
++ ___47+[AMUIHostSceneCoordinator _ambientUIWorkspace]_block_invoke
++ ___48-[AMUIHostSceneCoordinator teardownPresentation]_block_invoke
++ ___50-[AMUIHostSceneCoordinator prepareForPresentation]_block_invoke
++ ___70-[AMUIOnboardingContainerView onboardingContentViewRequestsDismissal:]_block_invoke
++ ___71-[AMUIBatteryChargingViewController _scheduleDisappearanceNotification]_block_invoke
++ ___72-[AMUIBatteryChargingRingView dismissChargingViewWithCompletionHandler:]_block_invoke
++ ___78-[AMUIAmbientViewController _animateBatteryViewDismissalIfNecessaryWithStyle:]_block_invoke
++ ___78-[AMUIAmbientViewController _animateBatteryViewDismissalIfNecessaryWithStyle:]_block_invoke_2
++ ___78-[AMUIAmbientViewController _animateBatteryViewDismissalIfNecessaryWithStyle:]_block_invoke_3
++ ___85-[AMUIHostSceneCoordinator _notifyContentStateTransitionIfNeededForScene:withReason:]_block_invoke
++ ___block_descriptor_32_e63_v24?0"FBSMutableSceneSettings"8"FBSSceneTransitionContext"16l
++ ___block_descriptor_40_e8_32bs_e5_v8?0ls32l8
++ ___block_descriptor_40_e8_32s_e33_v16?0"FBSMutableSceneSettings"8ls32l8
++ ___block_descriptor_40_e8_32s_e35_v16?0"FBSMutableSceneParameters"8ls32l8
++ ___block_descriptor_48_e8_32s40w_e5_v8?0lw40l8s32l8
++ ___block_descriptor_64_e8_32s40s48s56s_e39_v16?0"<FBSceneManagerSceneCreating>"8ls32l8s40l8s48l8s56l8
++ ___isOSVersionAtLeast
++ ___isPlatformVersionAtLeast
++ ___swift__destructor
++ ___swift_async_cont_functlets
++ ___swift_async_entry_functlets
++ ___swift_async_ret_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.14Tm
++ ___swift_closure_destructorTm
++ ___swift_destroy_boxed_opaque_existential_0
++ ___swift_instantiateGenericMetadata
++ ___swift_memcpy0_1
++ ___swift_memcpy104_8
++ ___swift_memcpy161_8
++ ___swift_memcpy16_8
++ ___swift_memcpy1_1
++ ___swift_memcpy32_8
++ ___swift_memcpy49_8
++ ___swift_memcpy80_8
++ ___swift_noop_void_return
++ ___unnamed_4
++ __ambientUIWorkspace.__AmbientUIWorkspace
++ __ambientUIWorkspace.onceToken
++ __availability_version_check
++ __initializeAvailabilityCheck
++ __swiftEmptyArrayStorage
++ __swiftEmptyDictionarySingleton
++ __swiftImmortalRefCount
++ __swift_FORCE_LOAD_$_swiftAccelerate
++ __swift_FORCE_LOAD_$_swiftAccelerate_$_AmbientUI
++ __swift_FORCE_LOAD_$_swiftCompression
++ __swift_FORCE_LOAD_$_swiftCompression_$_AmbientUI
++ __swift_FORCE_LOAD_$_swiftIntents
++ __swift_FORCE_LOAD_$_swiftIntents_$_AmbientUI
++ __swift_stdlib_malloc_size
++ __swift_stdlib_reportUnimplementedInitializer
++ _associated conformance 9AmbientUI16WrappedSceneView33_B1AB5667CC7534D2F56F5B91C9A38E44LLV05SwiftB00E0AA4BodyAeFP_AeF
++ _associated conformance 9AmbientUI17AMUICAPackageView33_F20FBEBC4FFD81988B3DD6DB2942E897LLV05SwiftB00D0AA4BodyAeFP_AeF
++ _associated conformance 9AmbientUI17AMUICAPackageView33_F20FBEBC4FFD81988B3DD6DB2942E897LLV05SwiftB019UIViewRepresentableAaE0D0
++ _associated conformance 9AmbientUI18AMUIOnboardingBlurOSHAASQ
++ _associated conformance 9AmbientUI18AMUIOnboardingPageVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 9AmbientUI21AMUIOnboardingVariantOSHAASQ
++ _associated conformance 9AmbientUI22AMUIOnboardingTextView33_5516CA75395D495D95DF6CC6304931BBLLV05SwiftB00E0AA4BodyAeFP_AeF
++ _associated conformance 9AmbientUI24AMUICAPackageContentModeOSHAASQ
++ _associated conformance 9AmbientUI24AMUIModernOnboardingViewV05SwiftB00E0AA4BodyAdEP_AdE
++ _associated conformance 9AmbientUI25AMUIOnboardingCloseButtonV05SwiftB04ViewAA4BodyAdEP_AdE
++ _associated conformance 9AmbientUI25AMUIOnboardingPackageNameVs26ExpressibleByStringLiteralAA0hI4TypesADP_s01_fg7BuiltinhI0
++ _associated conformance 9AmbientUI25AMUIOnboardingPackageNameVs26ExpressibleByStringLiteralAAs0fg23ExtendedGraphemeClusterI0
++ _associated conformance 9AmbientUI25AMUIOnboardingPackageNameVs33ExpressibleByUnicodeScalarLiteralAA0hiJ4TypesADP_s01_fg7BuiltinhiJ0
++ _associated conformance 9AmbientUI25AMUIOnboardingPackageNameVs43ExpressibleByExtendedGraphemeClusterLiteralAA0hijK4TypesADP_s01_fg7BuiltinhijK0
++ _associated conformance 9AmbientUI25AMUIOnboardingPackageNameVs43ExpressibleByExtendedGraphemeClusterLiteralAAs0fg13UnicodeScalarK0
++ _associated conformance 9AmbientUI25AMUIOnboardingPackageViewV05SwiftB00E0AA4BodyAdEP_AdE
++ _associated conformance 9AmbientUI26AMUIOnboardingBlurModifier33_33E6CC0E96577DFEEA4A5B7852923840LLV05SwiftB004ViewE0AA4BodyAeFP_AE0M0
++ _associated conformance 9AmbientUI26AMUIOnboardingTextPageView33_5516CA75395D495D95DF6CC6304931BBLLV05SwiftB00F0AA4BodyAeFP_AeF
++ _associated conformance 9AmbientUI29AMUIOnboardingTextGalleryViewV05SwiftB00F0AA4BodyAdEP_AdE
++ _associated conformance 9AmbientUI31AMUIOnboardingContentRevealMask33_6D88E6CD9A0CFDBE196688C5F9DB6659LLV05SwiftB04ViewAA4BodyAeFP_AeF
++ _associated conformance 9AmbientUI31AMUIOnboardingPageIndicatorViewV05SwiftB00F0AA4BodyAdEP_AdE
++ _associated conformance 9AmbientUI31AMUIOnboardingPageIndicatorViewV05SwiftB019UIViewRepresentableAaD0F0
++ _associated conformance 9AmbientUI32AMUIOnboardingDeviceBookModeViewV05SwiftB00G0AA4BodyAdEP_AdE
++ _associated conformance 9AmbientUI32AMUIOnboardingDeviceSlabModeViewV05SwiftB00G0AA4BodyAdEP_AdE
++ _associated conformance 9AmbientUI32AMUIOnboardingDeviceTentModeViewV05SwiftB00G0AA4BodyAdEP_AdE
++ _associated conformance 9AmbientUI33AMUIOnboardingContentPocketShadow33_6D88E6CD9A0CFDBE196688C5F9DB6659LLV05SwiftB04ViewAA4BodyAeFP_AeF
++ _associated conformance 9AmbientUI33AMUIOnboardingDeviceSlabModeShapeV05SwiftB0010InsettableG0AA05InsetG0AdEP_AdE
++ _associated conformance 9AmbientUI33AMUIOnboardingDeviceSlabModeShapeV05SwiftB0010InsettableG0AaD0G0
++ _associated conformance 9AmbientUI33AMUIOnboardingDeviceSlabModeShapeV05SwiftB00G0AaD10Animatable
++ _associated conformance 9AmbientUI33AMUIOnboardingDeviceSlabModeShapeV05SwiftB00G0AaD4View
++ _associated conformance 9AmbientUI33AMUIOnboardingDeviceSlabModeShapeV05SwiftB010AnimatableAA0I4DataAdEP_AD16VectorArithmetic
++ _associated conformance 9AmbientUI33AMUIOnboardingDeviceSlabModeShapeV05SwiftB04ViewAA4BodyAdEP_AdE
++ _associated conformance 9AmbientUI33AMUIOnboardingDeviceTentModeShapeV05SwiftB0010InsettableG0AA05InsetG0AdEP_AdE
++ _associated conformance 9AmbientUI33AMUIOnboardingDeviceTentModeShapeV05SwiftB0010InsettableG0AaD0G0
++ _associated conformance 9AmbientUI33AMUIOnboardingDeviceTentModeShapeV05SwiftB00G0AaD10Animatable
++ _associated conformance 9AmbientUI33AMUIOnboardingDeviceTentModeShapeV05SwiftB00G0AaD4View
++ _associated conformance 9AmbientUI33AMUIOnboardingDeviceTentModeShapeV05SwiftB010AnimatableAA0I4DataAdEP_AD16VectorArithmetic
++ _associated conformance 9AmbientUI33AMUIOnboardingDeviceTentModeShapeV05SwiftB04ViewAA4BodyAdEP_AdE
++ _associated conformance 9AmbientUI36AMUIOnboardingDeviceBookModePageView33_F3295B7DC70704AECA4EF4219B8B630ALLV05SwiftB00H0AA4BodyAeFP_AeF
++ _associated conformance 9AmbientUI37AMUIOnboardingDeviceBookModePageShape33_F3295B7DC70704AECA4EF4219B8B630ALLV05SwiftB00H0AaE10Animatable
++ _associated conformance 9AmbientUI37AMUIOnboardingDeviceBookModePageShape33_F3295B7DC70704AECA4EF4219B8B630ALLV05SwiftB00H0AaE4View
++ _associated conformance 9AmbientUI37AMUIOnboardingDeviceBookModePageShape33_F3295B7DC70704AECA4EF4219B8B630ALLV05SwiftB010AnimatableAA0Q4DataAeFP_AE16VectorArithmetic
++ _associated conformance 9AmbientUI37AMUIOnboardingDeviceBookModePageShape33_F3295B7DC70704AECA4EF4219B8B630ALLV05SwiftB04ViewAA4BodyAeFP_AeF
++ _associated conformance 9AmbientUI38AMUIOnboardingDeviceBookModePageBorder33_F3295B7DC70704AECA4EF4219B8B630ALLV05SwiftB010AnimatableAA0Q4DataAeFP_AE16VectorArithmetic
++ _associated conformance 9AmbientUI38AMUIOnboardingDeviceBookModePageBorder33_F3295B7DC70704AECA4EF4219B8B630ALLV05SwiftB04ViewAA4BodyAeFP_AeF
++ _associated conformance 9AmbientUI38AMUIOnboardingDeviceBookModePageBorder33_F3295B7DC70704AECA4EF4219B8B630ALLV05SwiftB05ShapeAaE10Animatable
++ _associated conformance 9AmbientUI38AMUIOnboardingDeviceBookModePageBorder33_F3295B7DC70704AECA4EF4219B8B630ALLV05SwiftB05ShapeAaE4View
++ _compatibilityInitializeAvailabilityCheck
++ _dispatch_once_f
++ _dlsym
++ _fclose
++ _flat unique So33AMUIOnboardingContentViewDelegate_p
++ _fopen
++ _fread
++ _fseek
++ _ftell
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE4task2id4name8priority4file4line_Qrqd___SSSgScPSSSiyyYaYAcntSQRd__lFQOQr
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE4task2id4name8priority4file4line_Qrqd___SSSgScPSSSiyyYaYAcntSQRd__lFQOqd0__AaBHC
++ _get_witness_table 7SwiftUI14LinearGradientVAA4ViewHPyHC
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6ButtonVyACyACyACyACyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAA016_ForegroundStyleJ0VyAA5ColorVGGAA12_FrameLayoutVGAA026_InsettableBackgroundShapeJ0VyArA6CircleVGGGAA08_PaddingP0VGAA4ViewHPA2_AAA6_HPyHC_A4_AA0vJ0HPyHCHC
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyAA014_ViewModifier_D0Vy07AmbientB0018AMUIOnboardingBlurF033_33E6CC0E96577DFEEA4A5B7852923840LLVGAA14_OpacityEffectVGAA01_iQ0VGAA0E0HPAmaQHPAjaQHPyHC_AlA0eF0HPyHCHC_AoaRHPyHCHC
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyAA4ViewPAAE22onScrollGeometryChange3for2of6actionQrqd__m_qd__AA0gH0Vcyqd___qd__tctSQRd__lFQOyAeAE22scrollEdgeEffectHidden_AGQrSb_AA0N0O3SetVtFQOyAeAE0M14BounceBehavior_4axesQrAA0grS0V_AA4AxisOAOVtFQOyAeAE0M10Indicators_ARQrAA0G19IndicatorVisibilityV_AWtFQOyAA0gE0VyACy07AmbientB0018AMUIOnboardingTextE033_5516CA75395D495D95DF6CC6304931BBLLVAA14_PaddingLayoutVGG_Qo__Qo__Qo__A1_0zG4FadeA3_LLVQo_AA014_MaskAlignmentO0VyAA6VStackVyAA05TupleD0VyACyAA14LinearGradientVAA12_FrameLayoutVG_AA06_ShapeE0VyAA9RectangleVAA5ColorVGA25_QPGGGGAA18_AnimationModifierVyA13_GGAaDHPA36_AaDHPqd0__AaDHD3_A14_HO_A35_AA0E8ModifierHPyHCHC_A39_AAA41_HPyHCHC
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACy07AmbientB025AMUIOnboardingPackageViewVAA11_ClipEffectVyAD0F23DeviceBookModePageShape33_F3295B7DC70704AECA4EF4219B8B630ALLVGGAA16_OverlayModifierVyAA06StrokeoH0VyAD0fklmN6BorderAJLLVAA5ColorVAA05EmptyH0VGGGAA17_Rotation3DEffectVGAA0H0HPAzAA2_HPAmAA2_HPAfAA2_HPyHC_AlA0hX0HPyHCHC_AyAA3_HPyHCHC_A0_AAA3_HPyHCHC
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA14LinearGradientVAA12_FrameLayoutVGAA11_BlurEffectVGAA07_OffsetJ0VGAA4ViewHPAkaOHPAhaOHPAeaOHPyHC_AgA0L8ModifierHPyHCHC_AjaPHPyHCHC_AmaPHPyHCHC
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA6VStackVyAA05TupleD0VyAA4TextV_AIQPGGAA30_EnvironmentKeyWritingModifierVyAA0G9AlignmentOGGAA16_FixedSizeLayoutVGAA010_FlexFrameO0VGAA4ViewHPAtaXHPAqaXHPAkaXHPyHC_ApA0rK0HPyHCHC_AsaYHPyHCHC_AvaYHPyHCHC
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACyAA6HStackVyAA05TupleD0Vy07AmbientB036AMUIOnboardingDeviceBookModePageView33_F3295B7DC70704AECA4EF4219B8B630ALLV_AKQPGGAA18_AspectRatioLayoutVGAA18_AnimationModifierVySbGGAA12_ScaleEffectVGASGAA017_AppearanceActionY0VGAA0M0HPAxAA0_HPAwAA0_HPAtAA0_HPApAA0_HPAmAA0_HPyHC_AoA0mY0HPyHCHC_AsAA1_HPyHCHC_AvAA1_HPyHCHC_AsAA1_HPyHCHC_AzAA1_HPyHCHC
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACyACyAA6ZStackVyAA05TupleD0VyAA10_ShapeViewVy07AmbientB0028AMUIOnboardingDeviceSlabModeG0VAA5ColorVG_ACyAA6IDViewVyACyAJ0j7PackageH0VAA12_FrameLayoutVG10Foundation4UUIDVGAA21_TraitWritingModifierVyAA010TransitionU3KeyVGGAA012StrokeBordergH0VyAlnA05EmptyH0VGQPGGAUGAA11_ClipEffectVyALGGAA13_OffsetEffectVGAA010_AnimationW0VyAYGGAA12_ScaleEffectVGA22_GAA0H0HPA26_AAA28_HPA23_AAA28_HPA19_AAA28_HPA16_AAA28_HPA12_AAA28_HPA11_AAA28_HPyHC_AuA0hW0HPyHCHC_A15_AAA29_HPyHCHC_A18_AAA29_HPyHCHC_A22_AAA29_HPyHCHC_A25_AAA29_HPyHCHC_A22_AAA29_HPyHCHC
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACyACyAA6ZStackVyAA05TupleD0VyAA10_ShapeViewVy07AmbientB0028AMUIOnboardingDeviceTentModeG0VAA5ColorVG_ACyAA6IDViewVyACyAJ0j7PackageH0VAA12_ScaleEffectVG10Foundation4UUIDVGAA21_TraitWritingModifierVyAA010TransitionU3KeyVGGAA012StrokeBordergH0VyAlnA05EmptyH0VGQPGGAA12_FrameLayoutVGAA05_ClipR0VyALGGAA07_OffsetR0VGAA010_AnimationW0VyAYGGAUGA24_GAA0H0HPA26_AAA28_HPA25_AAA28_HPA21_AAA28_HPA18_AAA28_HPA14_AAA28_HPA11_AAA28_HPyHC_A13_AA0hW0HPyHCHC_A17_AAA29_HPyHCHC_A20_AAA29_HPyHCHC_A24_AAA29_HPyHCHC_AuAA29_HPyHCHC_A24_AAA29_HPyHCHC
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamiceF0O5BoundRtd__lFQOyAA14GeometryReaderVyAA6ZStackVyAA12TupleContentVyAA08ModifiedM0VyAPyALyANyAA5ColorV_APyAPyAPyAA5GroupVyAA012_ConditionalM0VyAVyAPyAPy07AmbientB0028AMUIOnboardingDeviceTentModeC0VAA12_FrameLayoutVGAA05_FlexwX0VGAPyAPyAW0st4SlabvC0VA_GA2_GGAPyAPyAPyAW0st4BookvC0VA_GA2_GAA08_PaddingX0VGGGA_GAA20_MaskAlignmentEffectVyAW0sM10RevealMask33_6D88E6CD9A0CFDBE196688C5F9DB6659LLVGGAA16_OverlayModifierVyAPyAPyAW0sM12PocketShadowA22_LLVAA14_OpacityEffectVGAA18_AnimationModifierVy12CoreGraphics7CGFloatVGGGGAPyAW0s11TextGalleryC0VA_GQPGGA27_yAPyAPyAW0s13PageIndicatorC0VAA06_FixedfX0VGA14_GGGAA30_EnvironmentKeyWritingModifierVyAA0O6SchemeOGG_AW0S11CloseButtonVQPGGG_s19PartialRangeThroughVyAFGQo_HO
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE22onScrollGeometryChange3for2of6actionQrqd__m_qd__AA0eF0Vcyqd___qd__tctSQRd__lFQOyAcAE14scrollPosition2id6anchorQrAA7BindingVyqd__SgG_AA9UnitPointVSgtSHRd__lFQOyAcAE0K8DisabledyQrSbFQOyAcAE0K16EdgeEffectHidden_AEQrSb_AA0S0O3SetVtFQOyAcAE0K10Indicators_4axesQrAA0E19IndicatorVisibilityV_AA4AxisOAXVtFQOyAcAE0K14TargetBehavioryQrqd__AA0E14TargetBehaviorRd__lFQOyAA0eC0VyAcAE0K12TargetLayout9isEnabledQrSb_tFQOyAA10LazyHStackVyAA7ForEachVySaySi6offset_07AmbientB018AMUIOnboardingPageV7elementtGSiAA6IDViewVyAcAE0K10Transition_4axis10transitionQrAA0E23TransitionConfigurationV_A3_Sgqd__AA011EmptyVisualT0V_AA0E15TransitionPhaseOtYbctAA06VisualT0Rd__lFQOyAcAE22containerRelativeFrame_9alignmentQrA4__AA9AlignmentVtFQOyAA15ModifiedContentVyA39_yA16_022AMUIOnboardingTextPageC033_5516CA75395D495D95DF6CC6304931BBLLVAA14_PaddingLayoutVGA44_G_Qo__AAA33_PAAEA15_1x1yQr12CoreGraphics7CGFloatV_A53_tFQOyA48_AAE4blur6radius6opaqueQrA53__SbtFQOyA48_AAE7opacityyQrSdFQOyA30__Qo__Qo__Qo_Qo_SiGGG_Qo_G_AA06PagingE14TargetBehaviorVQo__Qo__Qo__Qo__SiQo__SiQo_HO
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE4task2id4name8priority4file4line_Qrqd___SSSgScPSSSiyyYaYAcntSQRd__lFQOy07AmbientB0013AMUICAPackageC033_F20FBEBC4FFD81988B3DD6DB2942E897LLV_SSQo_HO
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBP12DrawingBoardE21sceneGeometryOverrideyQrySo7FBSceneC_So25FBSSceneTransitionContextCSgSo0J12SettingsDiffCtYbScMYccFQOyAcDE0F22DeactivationReasonMaskyQrSo018UIApplicationSceneopQ0VFQOyAcDE02isS10ForegroundyQrSbFQOyAD0sC0V_Qo__Qo__Qo_HO
++ _initializeAvailabilityCheck
++ _malloc
++ _malloc_size
++ _memcpy
++ _memmove
++ _objc_class_stubs
++ _rewind
++ _sscanf
++ _swift_allocateGenericClassMetadata
++ _swift_arrayInitWithCopy
++ _swift_arrayInitWithTakeBackToFront
++ _swift_arrayInitWithTakeFrontToBack
++ _swift_beginAccess
++ _swift_bridgeObjectRetain
++ _swift_bridgeObjectRetain_n
++ _swift_coroFrameAlloc
++ _swift_cvw_assignWithCopy
++ _swift_cvw_assignWithTake
++ _swift_cvw_destroy
++ _swift_cvw_initStructMetadataWithLayoutString
++ _swift_cvw_initWithCopy
++ _swift_cvw_initWithTake
++ _swift_cvw_initializeBufferWithCopyOfBuffer
++ _swift_deallocObject
++ _swift_dynamicCast
++ _swift_dynamicCastObjCClass
++ _swift_dynamicCastObjCProtocolConditional
++ _swift_endAccess
++ _swift_errorRelease
++ _swift_getAtKeyPath
++ _swift_getEnumCaseMultiPayload
++ _swift_getEnumTagSinglePayloadGeneric
++ _swift_getFunctionTypeMetadata0
++ _swift_getGenericMetadata
++ _swift_getKeyPath
++ _swift_getOpaqueTypeConformance2
++ _swift_initClassMetadata2
++ _swift_isUniquelyReferenced_nonNull_native
++ _swift_isaMask
++ _swift_release_n
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x23
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_retain
++ _swift_retain_n
++ _swift_retain_x19
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x8
++ _swift_slowDealloc
++ _swift_storeEnumTagMultiPayload
++ _swift_storeEnumTagSinglePayloadGeneric
++ _swift_task_alloc
++ _swift_task_dealloc
++ _swift_task_switch
++ _swift_unknownObjectRetain
++ _swift_unknownObjectWeakAssign
++ _swift_unknownObjectWeakDestroy
++ _swift_unknownObjectWeakInit
++ _swift_unknownObjectWeakLoadStrong
++ _symbolic $s7SwiftUI10AnimatableP
++ _symbolic $s7SwiftUI12ViewModifierP
++ _symbolic $s7SwiftUI15InsettableShapeP
++ _symbolic $s7SwiftUI19UIViewRepresentableP
++ _symbolic $s7SwiftUI4ViewP
++ _symbolic $ss12IdentifiableP
++ _symbolic $ss26ExpressibleByStringLiteralP
++ _symbolic $ss33ExpressibleByUnicodeScalarLiteralP
++ _symbolic $ss43ExpressibleByExtendedGraphemeClusterLiteralP
++ _symbolic SDyS2SG
++ _symbolic SS
++ _symbolic SSSg
++ _symbolic SS_SSt
++ _symbolic SaySSG
++ _symbolic SaySi6offset______7elementtG 9AmbientUI18AMUIOnboardingPageV
++ _symbolic Say_____G 9AmbientUI18AMUIOnboardingPageV
++ _symbolic Say_____G 9AmbientUI31AMUIOnboardingPackagedViewAssetV
++ _symbolic Say_____G s8DurationV
++ _symbolic Sb
++ _symbolic ScA_pSg
++ _symbolic Sd
++ _symbolic Si6offset______7elementt 9AmbientUI18AMUIOnboardingPageV
++ _symbolic SiSg
++ _symbolic Si__________y_____y_____y_____yACy__________GAEG_Qo_______y_____y_____y______Qo__Qo__Qo_Qo_SiGIegynr_ 9AmbientUI18AMUIOnboardingPageV 05SwiftB06IDViewV AD4ViewPADE16scrollTransition_4axis10transitionQrAD06ScrollI13ConfigurationV_AD4AxisOSgqd__AD17EmptyVisualEffectV_AD0lI5PhaseOtYbctAD0pQ0Rd__lFQO AhDE22containerRelativeFrame_9alignmentQrAO3SetV_AD9AlignmentVtFQO AD15ModifiedContentV AA0c4TextdG033_5516CA75395D495D95DF6CC6304931BBLLV AD14_PaddingLayoutV AdUPADE6offset1x1yQr12CoreGraphics7CGFloatV_A13_tFQO A7_ADE4blur6radius6opaqueQrA13__SbtFQO A7_ADE7opacityyQrSdFQO AR
++ _symbolic So13UIPageControlC
++ _symbolic So13UIWindowSceneCSg
++ _symbolic So13UIWindowSceneCSgXw
++ _symbolic So16UIViewControllerC
++ _symbolic So17BSUICAPackageViewCSg
++ _symbolic So23FBSDisplayConfigurationC
++ _symbolic So23FBSMutableSceneSettingsCIgg_
++ _symbolic So6UIViewC
++ _symbolic So7FBSceneC
++ _symbolic So8NSBundleC
++ _symbolic _____ 10Foundation4UUIDV
++ _symbolic _____ 11Observation0A9RegistrarV
++ _symbolic _____ 12CoreGraphics7CGFloatV
++ _symbolic _____ 7SwiftUI11ColorSchemeO
++ _symbolic _____ 7SwiftUI13TextAlignmentO
++ _symbolic _____ 7SwiftUI14LinearGradientV
++ _symbolic _____ 7SwiftUI15LayoutDirectionO
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV
++ _symbolic _____ 7SwiftUI19EmptyAnimatableDataV
++ _symbolic _____ 9AmbientUI0A28PosterSceneHostingControllerC
++ _symbolic _____ 9AmbientUI0A33PosterSceneHostingControllerModel33_B1AB5667CC7534D2F56F5B91C9A38E44LLC
++ _symbolic _____ 9AmbientUI16WrappedSceneView33_B1AB5667CC7534D2F56F5B91C9A38E44LLV
++ _symbolic _____ 9AmbientUI17AMUICAPackageView33_F20FBEBC4FFD81988B3DD6DB2942E897LLV
++ _symbolic _____ 9AmbientUI17AMUICAPackageView33_F20FBEBC4FFD81988B3DD6DB2942E897LLV11CoordinatorC
++ _symbolic _____ 9AmbientUI18AMUIOnboardingBlurO
++ _symbolic _____ 9AmbientUI18AMUIOnboardingPageV
++ _symbolic _____ 9AmbientUI20AMUIOnboardingSpringV
++ _symbolic _____ 9AmbientUI21AMUICAPackageHostView33_F20FBEBC4FFD81988B3DD6DB2942E897LLC
++ _symbolic _____ 9AmbientUI21AMUIOnboardingVariantO
++ _symbolic _____ 9AmbientUI22AMUIOnboardingTextView33_5516CA75395D495D95DF6CC6304931BBLLV
++ _symbolic _____ 9AmbientUI23AMUIOnboardingViewModelC
++ _symbolic _____ 9AmbientUI24AMUICAPackageContentModeO
++ _symbolic _____ 9AmbientUI24AMUIModernOnboardingViewV
++ _symbolic _____ 9AmbientUI24AMUIOnboardingScrollFade33_5516CA75395D495D95DF6CC6304931BBLLV
++ _symbolic _____ 9AmbientUI25AMUIOnboardingCloseButtonV
++ _symbolic _____ 9AmbientUI25AMUIOnboardingPackageNameV
++ _symbolic _____ 9AmbientUI25AMUIOnboardingPackageViewV
++ _symbolic _____ 9AmbientUI25RushmoreWidgetHostManagerC
++ _symbolic _____ 9AmbientUI26AMUIOnboardingBlurModifier33_33E6CC0E96577DFEEA4A5B7852923840LLV
++ _symbolic _____ 9AmbientUI26AMUIOnboardingTextPageView33_5516CA75395D495D95DF6CC6304931BBLLV
++ _symbolic _____ 9AmbientUI27AMUIOnboardingPageAnimationV
++ _symbolic _____ 9AmbientUI28AMUIModernOnboardingHostViewC
++ _symbolic _____ 9AmbientUI29AMUIOnboardingDeviceAnimationV
++ _symbolic _____ 9AmbientUI29AMUIOnboardingTextGalleryViewV
++ _symbolic _____ 9AmbientUI31AMUIOnboardingContentRevealMask33_6D88E6CD9A0CFDBE196688C5F9DB6659LLV
++ _symbolic _____ 9AmbientUI31AMUIOnboardingPackagedViewAssetV
++ _symbolic _____ 9AmbientUI31AMUIOnboardingPageIndicatorViewV
++ _symbolic _____ 9AmbientUI31AMUIOnboardingPageIndicatorViewV11CoordinatorC
++ _symbolic _____ 9AmbientUI32AMUIOnboardingDeviceBookModeViewV
++ _symbolic _____ 9AmbientUI32AMUIOnboardingDeviceSlabModeViewV
++ _symbolic _____ 9AmbientUI32AMUIOnboardingDeviceTentModeViewV
++ _symbolic _____ 9AmbientUI33AMUIOnboardingContentPocketShadow33_6D88E6CD9A0CFDBE196688C5F9DB6659LLV
++ _symbolic _____ 9AmbientUI33AMUIOnboardingDeviceSlabModeShapeV
++ _symbolic _____ 9AmbientUI33AMUIOnboardingDeviceTentModeShapeV
++ _symbolic _____ 9AmbientUI33WrappedSceneViewHostingController33_B1AB5667CC7534D2F56F5B91C9A38E44LLC
++ _symbolic _____ 9AmbientUI34AMUIOnboardingFullBleedHostingView33_8D916EFDC10203887B62F75D9D4FDC21LLC
++ _symbolic _____ 9AmbientUI36AMUIOnboardingDeviceBookModePageView33_F3295B7DC70704AECA4EF4219B8B630ALLV
++ _symbolic _____ 9AmbientUI37AMUIOnboardingDeviceBookModePageShape33_F3295B7DC70704AECA4EF4219B8B630ALLV
++ _symbolic _____ 9AmbientUI38AMUIOnboardingDeviceBookModePageBorder33_F3295B7DC70704AECA4EF4219B8B630ALLV
++ _symbolic _____ 9PosterKit27AmbientWidgetHostingManagerC
++ _symbolic _____ So6CGSizeV
++ _symbolic _____ So8NSBundleC9AmbientUIE25AMUIOnboardingBundleToken33_FCA2D744C8C441E1D27091DA7B32ED05LLC
++ _symbolic _____ s5NeverO
++ _symbolic _____ s8DurationV
++ _symbolic _____Sg 12CoreGraphics7CGFloatV
++ _symbolic _____Sg 7SwiftUI4FontV
++ _symbolic _____Sg 9AmbientUI18AMUIOnboardingBlurO
++ _symbolic _____Sg 9AmbientUI20AMUIOnboardingSpringV
++ _symbolic _____SgXw 9AmbientUI28AMUIModernOnboardingHostViewC
++ _symbolic ___________yAByABy_____y_____yADyAByABy__________G_____GAByABy_____AFGAHGGAByAByABy_____AFGAHG_____GGGAFG_____y_____GG_____yAByABy__________G_____y_____GGGGABy_____AFGt 7SwiftUI5ColorV AA15ModifiedContentV AA5GroupV AA012_ConditionalE0V 07AmbientB032AMUIOnboardingDeviceTentModeViewV AA12_FrameLayoutV AA05_FlexnO0V AJ0ij4SlablM0V AJ0ij4BooklM0V AA08_PaddingO0V AA20_MaskAlignmentEffectV AJ0ie6RevealT033_6D88E6CD9A0CFDBE196688C5F9DB6659LLV AA16_OverlayModifierV AJ0iE12PocketShadowAZLLV AA08_OpacityV0V AA18_AnimationModifierV 12CoreGraphics7CGFloatV AJ0i11TextGalleryM0V
++ _symbolic ______pSgXw So33AMUIOnboardingContentViewDelegateP
++ _symbolic _____yAAyAAyAAyAAyAAy_____y_____y_____y__________G_AAy_____yAAy__________G_____G_____y_____GG_____yAeF_____GQPGGAJG_____yAEGG_____G_____yALGG_____GA2_G 7SwiftUI15ModifiedContentV AA6ZStackV AA05TupleD0V AA10_ShapeViewV 07AmbientB0028AMUIOnboardingDeviceSlabModeG0V AA5ColorV AA6IDViewV AJ0j7PackageH0V AA12_FrameLayoutV 10Foundation4UUIDV AA21_TraitWritingModifierV AA010TransitionU3KeyV AA012StrokeBordergH0V AA05EmptyH0V AA11_ClipEffectV AA13_OffsetEffectV AA010_AnimationW0V AA12_ScaleEffectV
++ _symbolic _____yAAyAAyAAyAAyAAy_____y_____y_____y__________G_AAy_____yAAy__________G_____G_____y_____GG_____yAeF_____GQPGG_____G_____yAEGG_____G_____yALGGAJGA3_G 7SwiftUI15ModifiedContentV AA6ZStackV AA05TupleD0V AA10_ShapeViewV 07AmbientB0028AMUIOnboardingDeviceTentModeG0V AA5ColorV AA6IDViewV AJ0j7PackageH0V AA12_ScaleEffectV 10Foundation4UUIDV AA21_TraitWritingModifierV AA010TransitionU3KeyV AA012StrokeBordergH0V AA05EmptyH0V AA12_FrameLayoutV AA05_ClipR0V AA07_OffsetR0V AA010_AnimationW0V
++ _symbolic _____yAAyAAyAAyAAy_____y_____y______ADQPGG_____G_____ySbGG_____GAJG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V 07AmbientB036AMUIOnboardingDeviceBookModePageView33_F3295B7DC70704AECA4EF4219B8B630ALLV AA18_AspectRatioLayoutV AA18_AnimationModifierV AA12_ScaleEffectV AA017_AppearanceActionY0V
++ _symbolic _____yAAyAAyAAyAAy_____y_____y_____y__________G_AAy_____yAAy__________G_____G_____y_____GG_____yAeF_____GQPGGAJG_____yAEGG_____G_____yALGG_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA05TupleD0V AA10_ShapeViewV 07AmbientB0028AMUIOnboardingDeviceSlabModeG0V AA5ColorV AA6IDViewV AJ0j7PackageH0V AA12_FrameLayoutV 10Foundation4UUIDV AA21_TraitWritingModifierV AA010TransitionU3KeyV AA012StrokeBordergH0V AA05EmptyH0V AA11_ClipEffectV AA13_OffsetEffectV AA010_AnimationW0V AA12_ScaleEffectV
++ _symbolic _____yAAyAAyAAyAAy_____y_____y_____y__________G_AAy_____yAAy__________G_____G_____y_____GG_____yAeF_____GQPGG_____G_____yAEGG_____G_____yALGGAJG 7SwiftUI15ModifiedContentV AA6ZStackV AA05TupleD0V AA10_ShapeViewV 07AmbientB0028AMUIOnboardingDeviceTentModeG0V AA5ColorV AA6IDViewV AJ0j7PackageH0V AA12_ScaleEffectV 10Foundation4UUIDV AA21_TraitWritingModifierV AA010TransitionU3KeyV AA012StrokeBordergH0V AA05EmptyH0V AA12_FrameLayoutV AA05_ClipR0V AA07_OffsetR0V AA010_AnimationW0V
++ _symbolic _____yAAyAAyAAy__________y_____SgGG_____y_____GG_____G_____yAI_____GG 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleI0V AA5ColorV AA12_FrameLayoutV AA026_InsettableBackgroundShapeI0V AA6CircleV
++ _symbolic _____yAAyAAyAAy_____y_____y______ADQPGG_____G_____ySbGG_____GAJG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V 07AmbientB036AMUIOnboardingDeviceBookModePageView33_F3295B7DC70704AECA4EF4219B8B630ALLV AA18_AspectRatioLayoutV AA18_AnimationModifierV AA12_ScaleEffectV
++ _symbolic _____yAAyAAyAAy_____y_____y_____y__________G_AAy_____yAAy__________G_____G_____y_____GG_____yAeF_____GQPGGAJG_____yAEGG_____G_____yALGG 7SwiftUI15ModifiedContentV AA6ZStackV AA05TupleD0V AA10_ShapeViewV 07AmbientB0028AMUIOnboardingDeviceSlabModeG0V AA5ColorV AA6IDViewV AJ0j7PackageH0V AA12_FrameLayoutV 10Foundation4UUIDV AA21_TraitWritingModifierV AA010TransitionU3KeyV AA012StrokeBordergH0V AA05EmptyH0V AA11_ClipEffectV AA13_OffsetEffectV AA010_AnimationW0V
++ _symbolic _____yAAyAAyAAy_____y_____y_____y__________G_AAy_____yAAy__________G_____G_____y_____GG_____yAeF_____GQPGG_____G_____yAEGG_____G_____yALGG 7SwiftUI15ModifiedContentV AA6ZStackV AA05TupleD0V AA10_ShapeViewV 07AmbientB0028AMUIOnboardingDeviceTentModeG0V AA5ColorV AA6IDViewV AJ0j7PackageH0V AA12_ScaleEffectV 10Foundation4UUIDV AA21_TraitWritingModifierV AA010TransitionU3KeyV AA012StrokeBordergH0V AA05EmptyH0V AA12_FrameLayoutV AA05_ClipR0V AA07_OffsetR0V AA010_AnimationW0V
++ _symbolic _____yAAyAAy__________G_____G_____G 7SwiftUI15ModifiedContentV 07AmbientB032AMUIOnboardingDeviceBookModeViewV AA12_FrameLayoutV AA05_FlexkL0V AA08_PaddingL0V
++ _symbolic _____yAAyAAy__________G_____G_____G 7SwiftUI15ModifiedContentV AA14LinearGradientV AA12_FrameLayoutV AA11_BlurEffectV AA07_OffsetJ0V
++ _symbolic _____yAAyAAy__________y_____GG_____y_____y_______________GGG_____G 7SwiftUI15ModifiedContentV 07AmbientB025AMUIOnboardingPackageViewV AA11_ClipEffectV AD0F23DeviceBookModePageShape33_F3295B7DC70704AECA4EF4219B8B630ALLV AA16_OverlayModifierV AA06StrokeoH0V AD0fklmN6BorderAJLLV AA5ColorV AA05EmptyH0V AA17_Rotation3DEffectV
++ _symbolic _____yAAyAAy__________y_____SgGG_____y_____GG_____G 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleI0V AA5ColorV AA12_FrameLayoutV
++ _symbolic _____yAAyAAy_____y_____yACyAAyAAy__________G_____GAAyAAy_____AEGAGGGAAyAAyAAy_____AEGAGG_____GGGAEG_____y_____GG_____yAAyAAy__________G_____y_____GGGG 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V 07AmbientB032AMUIOnboardingDeviceTentModeViewV AA12_FrameLayoutV AA05_FlexmN0V AH0hi4SlabkL0V AH0hi4BookkL0V AA08_PaddingN0V AA20_MaskAlignmentEffectV AH0hd6RevealS033_6D88E6CD9A0CFDBE196688C5F9DB6659LLV AA16_OverlayModifierV AH0hD12PocketShadowAXLLV AA08_OpacityU0V AA18_AnimationModifierV 12CoreGraphics7CGFloatV
++ _symbolic _____yAAyAAy_____y_____y______ADQPGG_____G_____ySbGG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V 07AmbientB036AMUIOnboardingDeviceBookModePageView33_F3295B7DC70704AECA4EF4219B8B630ALLV AA18_AspectRatioLayoutV AA18_AnimationModifierV AA12_ScaleEffectV
++ _symbolic _____yAAyAAy_____y_____y______ADQPGG_____y_____GG_____G_____G 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA0G9AlignmentO AA16_FixedSizeLayoutV AA010_FlexFrameO0V
++ _symbolic _____yAAyAAy_____y_____y_____y__________G_AAy_____yAAy__________G_____G_____y_____GG_____yAeF_____GQPGGAJG_____yAEGG_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA05TupleD0V AA10_ShapeViewV 07AmbientB0028AMUIOnboardingDeviceSlabModeG0V AA5ColorV AA6IDViewV AJ0j7PackageH0V AA12_FrameLayoutV 10Foundation4UUIDV AA21_TraitWritingModifierV AA010TransitionU3KeyV AA012StrokeBordergH0V AA05EmptyH0V AA11_ClipEffectV AA13_OffsetEffectV
++ _symbolic _____yAAyAAy_____y_____y_____y__________G_AAy_____yAAy__________G_____G_____y_____GG_____yAeF_____GQPGG_____G_____yAEGG_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA05TupleD0V AA10_ShapeViewV 07AmbientB0028AMUIOnboardingDeviceTentModeG0V AA5ColorV AA6IDViewV AJ0j7PackageH0V AA12_ScaleEffectV 10Foundation4UUIDV AA21_TraitWritingModifierV AA010TransitionU3KeyV AA012StrokeBordergH0V AA05EmptyH0V AA12_FrameLayoutV AA05_ClipR0V AA07_OffsetR0V
++ _symbolic _____yAAy__________GACG 7SwiftUI15ModifiedContentV 07AmbientB026AMUIOnboardingTextPageView33_5516CA75395D495D95DF6CC6304931BBLLV AA14_PaddingLayoutV
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV 07AmbientB032AMUIOnboardingDeviceBookModeViewV AA12_FrameLayoutV AA05_FlexkL0V
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV 07AmbientB032AMUIOnboardingDeviceSlabModeViewV AA12_FrameLayoutV AA05_FlexkL0V
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV 07AmbientB032AMUIOnboardingDeviceTentModeViewV AA12_FrameLayoutV AA05_FlexkL0V
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV AA14LinearGradientV AA12_FrameLayoutV AA11_BlurEffectV
++ _symbolic _____yAAy__________y_____GG_____y_____y_______________GGG 7SwiftUI15ModifiedContentV 07AmbientB025AMUIOnboardingPackageViewV AA11_ClipEffectV AD0F23DeviceBookModePageShape33_F3295B7DC70704AECA4EF4219B8B630ALLV AA16_OverlayModifierV AA06StrokeoH0V AD0fklmN6BorderAJLLV AA5ColorV AA05EmptyH0V
++ _symbolic _____yAAy__________y_____SgGG_____y_____GG 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleI0V AA5ColorV
++ _symbolic _____yAAy_____y_____G_____G_____G 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 07AmbientB0018AMUIOnboardingBlurF033_33E6CC0E96577DFEEA4A5B7852923840LLV AA14_OpacityEffectV AA01_iQ0V
++ _symbolic _____yAAy_____y_____yACyAAyAAy__________G_____GAAyAAy_____AEGAGGGAAyAAyAAy_____AEGAGG_____GGGAEG_____y_____GG 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V 07AmbientB032AMUIOnboardingDeviceTentModeViewV AA12_FrameLayoutV AA05_FlexmN0V AH0hi4SlabkL0V AH0hi4BookkL0V AA08_PaddingN0V AA20_MaskAlignmentEffectV AH0hd6RevealS033_6D88E6CD9A0CFDBE196688C5F9DB6659LLV
++ _symbolic _____yAAy_____y_____y______AAyAAyAAy_____y_____yAFyAAyAAy__________G_____GAAyAAy_____AHGAJGGAAyAAyAAy_____AHGAJG_____GGGAHG_____y_____GG_____yAAyAAy__________G_____y_____GGGGAAy_____AHGQPGGA0_yAAyAAy__________GASGGG_____y_____GG 7SwiftUI15ModifiedContentV AA6ZStackV AA05TupleD0V AA5ColorV AA5GroupV AA012_ConditionalD0V 07AmbientB032AMUIOnboardingDeviceTentModeViewV AA12_FrameLayoutV AA05_FlexpQ0V AN0kl4SlabnO0V AN0kl4BooknO0V AA08_PaddingQ0V AA20_MaskAlignmentEffectV AN0kd6RevealV033_6D88E6CD9A0CFDBE196688C5F9DB6659LLV AA16_OverlayModifierV AN0kD12PocketShadowA2_LLV AA08_OpacityX0V AA18_AnimationModifierV 12CoreGraphics7CGFloatV AN0k11TextGalleryO0V AN0k13PageIndicatorO0V AA010_FixedSizeQ0V AA30_EnvironmentKeyWritingModifierV AA0G6SchemeO
++ _symbolic _____yAAy_____y_____y______AAyAAyAAy_____y_____yAFyAAyAAy__________G_____GAAyAAy_____AHGAJGGAAyAAyAAy_____AHGAJG_____GGGAHG_____y_____GG_____yAAyAAy__________G_____y_____GGGGAAy_____AHGQPGGA0_yAAyAAy__________GASGGG_____y_____GG______t 7SwiftUI15ModifiedContentV AA6ZStackV AA05TupleD0V AA5ColorV AA5GroupV AA012_ConditionalD0V 07AmbientB032AMUIOnboardingDeviceTentModeViewV AA12_FrameLayoutV AA05_FlexpQ0V AN0kl4SlabnO0V AN0kl4BooknO0V AA08_PaddingQ0V AA20_MaskAlignmentEffectV AN0kd6RevealV033_6D88E6CD9A0CFDBE196688C5F9DB6659LLV AA16_OverlayModifierV AN0kD12PocketShadowA2_LLV AA08_OpacityX0V AA18_AnimationModifierV 12CoreGraphics7CGFloatV AN0k11TextGalleryO0V AN0k13PageIndicatorO0V AA010_FixedSizeQ0V AA30_EnvironmentKeyWritingModifierV AA0G6SchemeO AN0K11CloseButtonV
++ _symbolic _____yAAy_____y_____y______ADQPGG_____G_____ySbGG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V 07AmbientB036AMUIOnboardingDeviceBookModePageView33_F3295B7DC70704AECA4EF4219B8B630ALLV AA18_AspectRatioLayoutV AA18_AnimationModifierV
++ _symbolic _____yAAy_____y_____y______ADQPGG_____y_____GG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA0G9AlignmentO AA16_FixedSizeLayoutV
++ _symbolic _____yAAy_____y_____y_____y__________G_AAy_____yAAy__________G_____G_____y_____GG_____yAeF_____GQPGGAJG_____yAEGG 7SwiftUI15ModifiedContentV AA6ZStackV AA05TupleD0V AA10_ShapeViewV 07AmbientB0028AMUIOnboardingDeviceSlabModeG0V AA5ColorV AA6IDViewV AJ0j7PackageH0V AA12_FrameLayoutV 10Foundation4UUIDV AA21_TraitWritingModifierV AA010TransitionU3KeyV AA012StrokeBordergH0V AA05EmptyH0V AA11_ClipEffectV
++ _symbolic _____yAAy_____y_____y_____y__________G_AAy_____yAAy__________G_____G_____y_____GG_____yAeF_____GQPGG_____G_____yAEGG 7SwiftUI15ModifiedContentV AA6ZStackV AA05TupleD0V AA10_ShapeViewV 07AmbientB0028AMUIOnboardingDeviceTentModeG0V AA5ColorV AA6IDViewV AJ0j7PackageH0V AA12_ScaleEffectV 10Foundation4UUIDV AA21_TraitWritingModifierV AA010TransitionU3KeyV AA012StrokeBordergH0V AA05EmptyH0V AA12_FrameLayoutV AA05_ClipR0V
++ _symbolic _____yAAy_____y_____y_____y_____y_____yAAy__________GG_Qo__Qo__Qo_______Qo______y_____y_____yAAy__________G______y__________GAQQPGGGG_____yAJGG 7SwiftUI15ModifiedContentV AA4ViewPAAE22onScrollGeometryChange3for2of6actionQrqd__m_qd__AA0gH0Vcyqd___qd__tctSQRd__lFQO AeAE22scrollEdgeEffectHidden_AGQrSb_AA0N0O3SetVtFQO AeAE0M14BounceBehavior_4axesQrAA0grS0V_AA4AxisOAOVtFQO AeAE0M10Indicators_ARQrAA0G19IndicatorVisibilityV_AWtFQO AA0gE0V 07AmbientB0018AMUIOnboardingTextE033_5516CA75395D495D95DF6CC6304931BBLLV AA14_PaddingLayoutV A1_0zG4FadeA3_LLV AA014_MaskAlignmentO0V AA6VStackV AA05TupleD0V AA14LinearGradientV AA12_FrameLayoutV AA06_ShapeE0V AA9RectangleV AA5ColorV AA18_AnimationModifierV
++ _symbolic _____yS2SG s18_DictionaryStorageC
++ _symbolic _____ySSG 7SwiftUI19_TaskValueModifier2V
++ _symbolic _____ySSG s23_ContiguousArrayStorageC
++ _symbolic _____ySaySi6offset______7elementtGSi_____y_____y_____y_____yAGy__________GAIG_Qo_______y_____y_____y______Qo__Qo__Qo_Qo_SiGG 7SwiftUI7ForEachV 07AmbientB018AMUIOnboardingPageV AA6IDViewV AA4ViewPAAE16scrollTransition_4axis10transitionQrAA06ScrollK13ConfigurationV_AA4AxisOSgqd__AA17EmptyVisualEffectV_AA0nK5PhaseOtYbctAA0rS0Rd__lFQO AjAE22containerRelativeFrame_9alignmentQrAQ3SetV_AA9AlignmentVtFQO AA15ModifiedContentV AD0f4TextgI033_5516CA75395D495D95DF6CC6304931BBLLV AA14_PaddingLayoutV AaWPAAE6offset1x1yQr12CoreGraphics7CGFloatV_A15_tFQO A9_AAE4blur6radius6opaqueQrA15__SbtFQO A9_AAE7opacityyQrSdFQO AT
++ _symbolic _____ySbG 7SwiftUI11EnvironmentV
++ _symbolic _____ySbG 7SwiftUI18_AnimationModifierV
++ _symbolic _____ySbG 7SwiftUI9LazyStateV
++ _symbolic _____ySb_G 7SwiftUI9LazyStateV7StorageO
++ _symbolic _____ySi6offset______7elementtG s23_ContiguousArrayStorageC 9AmbientUI18AMUIOnboardingPageV
++ _symbolic _____ySiG 7SwiftUI7BindingV
++ _symbolic _____ySiG 7SwiftUI9LazyStateV
++ _symbolic _____ySiSgG 7SwiftUI7BindingV
++ _symbolic _____ySiSgG 7SwiftUI9LazyStateV
++ _symbolic _____ySiSg_G 7SwiftUI9LazyStateV7StorageO
++ _symbolic _____ySi_G 7SwiftUI9LazyStateV7StorageO
++ _symbolic _____ySo12FBSceneLayerC_QPG 10Foundation9PredicateV
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV AA15LayoutDirectionO
++ _symbolic _____y_____G 7SwiftUI11_ClipEffectV 07AmbientB033AMUIOnboardingDeviceSlabModeShapeV
++ _symbolic _____y_____G 7SwiftUI11_ClipEffectV 07AmbientB033AMUIOnboardingDeviceTentModeShapeV
++ _symbolic _____y_____G 7SwiftUI11_ClipEffectV 07AmbientB037AMUIOnboardingDeviceBookModePageShape33_F3295B7DC70704AECA4EF4219B8B630ALLV
++ _symbolic _____y_____G 7SwiftUI18_AnimationModifierV 07AmbientB024AMUIOnboardingScrollFade33_5516CA75395D495D95DF6CC6304931BBLLV
++ _symbolic _____y_____G 7SwiftUI18_AnimationModifierV 10Foundation4UUIDV
++ _symbolic _____y_____G 7SwiftUI19UIHostingControllerC 07AmbientB016WrappedSceneView33_B1AB5667CC7534D2F56F5B91C9A38E44LLV
++ _symbolic _____y_____G 7SwiftUI21_ViewModifier_ContentV 07AmbientB0018AMUIOnboardingBlurD033_33E6CC0E96577DFEEA4A5B7852923840LLV
++ _symbolic _____y_____G 7SwiftUI24_ForegroundStyleModifierV AA5ColorV
++ _symbolic _____y_____G 7SwiftUI26UIViewRepresentableContextV 07AmbientB017AMUICAPackageView33_F20FBEBC4FFD81988B3DD6DB2942E897LLV
++ _symbolic _____y_____G 7SwiftUI26UIViewRepresentableContextV 07AmbientB031AMUIOnboardingPageIndicatorViewV
++ _symbolic _____y_____G 7SwiftUI30_EnvironmentKeyWritingModifierV AA11ColorSchemeO
++ _symbolic _____y_____G 7SwiftUI30_EnvironmentKeyWritingModifierV AA13TextAlignmentO
++ _symbolic _____y_____G 7SwiftUI5StateV 07AmbientB023AMUIOnboardingViewModelC
++ _symbolic _____y_____G 7SwiftUI9LazyStateV 07AmbientB024AMUIOnboardingScrollFade33_5516CA75395D495D95DF6CC6304931BBLLV
++ _symbolic _____y_____G 9AmbientUI34AMUIOnboardingFullBleedHostingView33_8D916EFDC10203887B62F75D9D4FDC21LLC AA020AMUIModernOnboardingG0V
++ _symbolic _____y_____G s19PartialRangeThroughV 7SwiftUI15DynamicTypeSizeO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 7SwiftUI5ColorV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 7SwiftUI8GradientV4StopV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9AmbientUI18AMUIOnboardingPageV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9AmbientUI31AMUIOnboardingPackagedViewAssetV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s5UInt8V
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s8DurationV
++ _symbolic _____y_____GSg 7SwiftUI14_UIHostingViewC 07AmbientB0020AMUIModernOnboardingD0V
++ _symbolic _____y_____GSg 7SwiftUI19UIHostingControllerC 07AmbientB016WrappedSceneView33_B1AB5667CC7534D2F56F5B91C9A38E44LLV
++ _symbolic _____y_____SgG 7SwiftUI30_EnvironmentKeyWritingModifierV AA4FontV
++ _symbolic _____y______G 7SwiftUI11EnvironmentV7ContentO AA15LayoutDirectionO
++ _symbolic _____y______G 7SwiftUI9LazyStateV7StorageO 07AmbientB024AMUIOnboardingScrollFade33_5516CA75395D495D95DF6CC6304931BBLLV
++ _symbolic _____y______Qo_ 7SwiftUI12VisualEffectPAAE7opacityyQrSdFQO AA05EmptycD0V
++ _symbolic _____y______Qo_ 7SwiftUI4ViewP12DrawingBoardE17isSceneForegroundyQrSbFQO AD0gC0V
++ _symbolic _____y______SSQo_ 7SwiftUI4ViewPAAE4task2id4name8priority4file4line_Qrqd___SSSgScPSSSiyyYaYAcntSQRd__lFQO 07AmbientB0013AMUICAPackageC033_F20FBEBC4FFD81988B3DD6DB2942E897LLV
++ _symbolic _____y__________G 7SwiftUI10_ShapeViewV 07AmbientB0028AMUIOnboardingDeviceSlabModeC0V AA15ForegroundStyleV
++ _symbolic _____y__________G 7SwiftUI10_ShapeViewV 07AmbientB0028AMUIOnboardingDeviceTentModeC0V AA15ForegroundStyleV
++ _symbolic _____y__________G 7SwiftUI10_ShapeViewV 07AmbientB0032AMUIOnboardingDeviceBookModePageC033_F3295B7DC70704AECA4EF4219B8B630ALLV AA15ForegroundStyleV
++ _symbolic _____y__________G 7SwiftUI10_ShapeViewV 07AmbientB038AMUIOnboardingDeviceBookModePageBorder33_F3295B7DC70704AECA4EF4219B8B630ALLV AA15ForegroundStyleV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 07AmbientB022AMUIOnboardingTextView33_5516CA75395D495D95DF6CC6304931BBLLV AA14_PaddingLayoutV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 07AmbientB025AMUIOnboardingPackageViewV AA12_FrameLayoutV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 07AmbientB025AMUIOnboardingPackageViewV AA12_ScaleEffectV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 07AmbientB026AMUIOnboardingTextPageView33_5516CA75395D495D95DF6CC6304931BBLLV AA14_PaddingLayoutV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 07AmbientB029AMUIOnboardingTextGalleryViewV AA12_FrameLayoutV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 07AmbientB032AMUIOnboardingDeviceBookModeViewV AA12_FrameLayoutV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 07AmbientB032AMUIOnboardingDeviceSlabModeViewV AA12_FrameLayoutV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 07AmbientB032AMUIOnboardingDeviceTentModeViewV AA12_FrameLayoutV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA14LinearGradientV AA12_FrameLayoutV
++ _symbolic _____y__________G 7SwiftUI34_InsettableBackgroundShapeModifierV AA5ColorV AA6CircleV
++ _symbolic _____y__________G______y_____yAEy__________G_____G_____y_____GG_____yAbC_____Gt 7SwiftUI10_ShapeViewV 07AmbientB0028AMUIOnboardingDeviceSlabModeC0V AA5ColorV AA15ModifiedContentV AA6IDViewV AD0f7PackageD0V AA12_FrameLayoutV 10Foundation4UUIDV AA21_TraitWritingModifierV AA010TransitionS3KeyV AA012StrokeBordercD0V AA05EmptyD0V
++ _symbolic _____y__________G______y_____yAEy__________G_____G_____y_____GG_____yAbC_____Gt 7SwiftUI10_ShapeViewV 07AmbientB0028AMUIOnboardingDeviceTentModeC0V AA5ColorV AA15ModifiedContentV AA6IDViewV AD0f7PackageD0V AA12_ScaleEffectV 10Foundation4UUIDV AA21_TraitWritingModifierV AA010TransitionS3KeyV AA012StrokeBordercD0V AA05EmptyD0V
++ _symbolic _____y_______________G 7SwiftUI21StrokeBorderShapeViewV 07AmbientB0028AMUIOnboardingDeviceSlabModeE0V AA5ColorV AA05EmptyF0V
++ _symbolic _____y_______________G 7SwiftUI21StrokeBorderShapeViewV 07AmbientB0028AMUIOnboardingDeviceTentModeE0V AA5ColorV AA05EmptyF0V
++ _symbolic _____y___________y___________yAEyAEy_____y_____yAGyAEyAEy__________G_____GAEyAEy_____AIGAKGGAEyAEyAEy_____AIGAKG_____GGGAIG_____y_____GG_____yAEyAEy__________G_____y_____GGGGAEy_____AIGQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA12TupleContentV AA5ColorV AA08ModifiedI0V AA5GroupV AA012_ConditionalI0V 07AmbientB0028AMUIOnboardingDeviceTentModeD0V AA06_FrameG0V AA05_FlexsG0V AR0op4SlabrD0V AR0op4BookrD0V AA08_PaddingG0V AA20_MaskAlignmentEffectV AR0oi6RevealX033_6D88E6CD9A0CFDBE196688C5F9DB6659LLV AA16_OverlayModifierV AR0oI12PocketShadowA6_LLV AA08_OpacityZ0V AA18_AnimationModifierV 12CoreGraphics7CGFloatV AR0o11TextGalleryD0V
++ _symbolic _____y___________y_____yADy_____yACy______ADyADyADy_____y_____yAHyADyADy__________G_____GADyADy_____AJGALGGADyADyADy_____AJGALG_____GGGAJG_____y_____GG_____yADyADy__________G_____y_____GGGGADy_____AJGQPGGA2_yADyADy__________GAUGGG_____y_____GG______QPGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA12TupleContentV AA08ModifiedI0V AA0F0V AA5ColorV AA5GroupV AA012_ConditionalI0V 07AmbientB0028AMUIOnboardingDeviceTentModeD0V AA06_FrameG0V AA05_FlexsG0V AT0op4SlabrD0V AT0op4BookrD0V AA08_PaddingG0V AA20_MaskAlignmentEffectV AT0oi6RevealX033_6D88E6CD9A0CFDBE196688C5F9DB6659LLV AA16_OverlayModifierV AT0oI12PocketShadowA8_LLV AA08_OpacityZ0V AA18_AnimationModifierV 12CoreGraphics7CGFloatV AT0o11TextGalleryD0V AT0o13PageIndicatorD0V AA010_FixedSizeG0V AA30_EnvironmentKeyWritingModifierV AA0K6SchemeO AT0O11CloseButtonV
++ _symbolic _____y___________y_____y__________G______y_____yAHy__________G_____G_____y_____GG_____yAeF_____GQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA12TupleContentV AA06_ShapeD0V 07AmbientB0028AMUIOnboardingDeviceSlabModeJ0V AA5ColorV AA08ModifiedI0V AA6IDViewV AL0l7PackageD0V AA06_FrameG0V 10Foundation4UUIDV AA21_TraitWritingModifierV AA010TransitionW3KeyV AA012StrokeBorderjD0V AA05EmptyD0V
++ _symbolic _____y___________y_____y__________G______y_____yAHy__________G_____G_____y_____GG_____yAeF_____GQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA12TupleContentV AA06_ShapeD0V 07AmbientB0028AMUIOnboardingDeviceTentModeJ0V AA5ColorV AA08ModifiedI0V AA6IDViewV AL0l7PackageD0V AA12_ScaleEffectV 10Foundation4UUIDV AA21_TraitWritingModifierV AA010TransitionX3KeyV AA012StrokeBorderjD0V AA05EmptyD0V
++ _symbolic _____y__________ySSGG 7SwiftUI15ModifiedContentV 07AmbientB017AMUICAPackageView33_F20FBEBC4FFD81988B3DD6DB2942E897LLV AA19_TaskValueModifier2V
++ _symbolic _____y__________y_____GG 7SwiftUI15ModifiedContentV 07AmbientB025AMUIOnboardingPackageViewV AA11_ClipEffectV AD0F23DeviceBookModePageShape33_F3295B7DC70704AECA4EF4219B8B630ALLV
++ _symbolic _____y__________y_____SgGG 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV
++ _symbolic _____y_____yAAyAAyAAyAAy__________y_____SgGG_____y_____GG_____G_____yAJ_____GGG_____G 7SwiftUI15ModifiedContentV AA6ButtonV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleJ0V AA5ColorV AA12_FrameLayoutV AA026_InsettableBackgroundShapeJ0V AA6CircleV AA08_PaddingP0V
++ _symbolic _____y_____yAAy__________GACG_Qo_ 7SwiftUI4ViewPAAE22containerRelativeFrame_9alignmentQrAA4AxisO3SetV_AA9AlignmentVtFQO AA15ModifiedContentV 07AmbientB0022AMUIOnboardingTextPageC033_5516CA75395D495D95DF6CC6304931BBLLV AA14_PaddingLayoutV
++ _symbolic _____y_____yAAy__________G_____G_____y_____GG 7SwiftUI15ModifiedContentV AA6IDViewV 07AmbientB025AMUIOnboardingPackageViewV AA12_FrameLayoutV 10Foundation4UUIDV AA21_TraitWritingModifierV AA010TransitionN3KeyV
++ _symbolic _____y_____yAAy__________G_____G_____y_____GG 7SwiftUI15ModifiedContentV AA6IDViewV 07AmbientB025AMUIOnboardingPackageViewV AA12_ScaleEffectV 10Foundation4UUIDV AA21_TraitWritingModifierV AA010TransitionN3KeyV
++ _symbolic _____y_____yAByAByABy__________y_____SgGG_____y_____GG_____G_____yAJ_____GGG 7SwiftUI6ButtonV AA15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleJ0V AA5ColorV AA12_FrameLayoutV AA026_InsettableBackgroundShapeJ0V AA6CircleV
++ _symbolic _____y_____yABy__________G_____GAByABy_____ADGAFG_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V 07AmbientB032AMUIOnboardingDeviceTentModeViewV AA12_FrameLayoutV AA05_FlexmN0V AH0hi4SlabkL0V
++ _symbolic _____y_____yABy__________G_____GG 7SwiftUI16_OverlayModifierV AA15ModifiedContentV 07AmbientB031AMUIOnboardingPageIndicatorViewV AA16_FixedSizeLayoutV AA08_PaddingN0V
++ _symbolic _____y_____ySaySi6offset______7elementtGSi_____y_____y_____y_____yAHy__________GAJG_Qo_______y_____y_____y______Qo__Qo__Qo_Qo_SiGGG 7SwiftUI10LazyHStackV AA7ForEachV 07AmbientB018AMUIOnboardingPageV AA6IDViewV AA4ViewPAAE16scrollTransition_4axis10transitionQrAA06ScrollM13ConfigurationV_AA4AxisOSgqd__AA17EmptyVisualEffectV_AA0pM5PhaseOtYbctAA0tU0Rd__lFQO AlAE22containerRelativeFrame_9alignmentQrAS3SetV_AA9AlignmentVtFQO AA15ModifiedContentV AF0h4TextiK033_5516CA75395D495D95DF6CC6304931BBLLV AA14_PaddingLayoutV AaYPAAE6offset1x1yQr12CoreGraphics7CGFloatV_A17_tFQO A11_AAE4blur6radius6opaqueQrA17__SbtFQO A11_AAE7opacityyQrSdFQO AV
++ _symbolic _____y_____y_____G_____G 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 07AmbientB0018AMUIOnboardingBlurF033_33E6CC0E96577DFEEA4A5B7852923840LLV AA14_OpacityEffectV
++ _symbolic _____y_____y______ACQPGG 7SwiftUI6HStackV AA12TupleContentV 07AmbientB036AMUIOnboardingDeviceBookModePageView33_F3295B7DC70704AECA4EF4219B8B630ALLV
++ _symbolic _____y_____y______ACQPGG 7SwiftUI6VStackV AA12TupleContentV AA4TextV
++ _symbolic _____y_____y______Qo__Qo_ 7SwiftUI12VisualEffectPAAE4blur6radius6opaqueQr12CoreGraphics7CGFloatV_SbtFQO AcAE7opacityyQrSdFQO AA05EmptycD0V
++ _symbolic _____y_____y______Qo__Qo_ 7SwiftUI4ViewP12DrawingBoardE27sceneDeactivationReasonMaskyQrSo018UIApplicationSceneghI0VFQO AcDE02isK10ForegroundyQrSbFQO AD0kC0V
++ _symbolic _____y_____y__________GG 7SwiftUI10ScrollViewV AA15ModifiedContentV 07AmbientB0018AMUIOnboardingTextD033_5516CA75395D495D95DF6CC6304931BBLLV AA14_PaddingLayoutV
++ _symbolic _____y_____y__________G_____G 7SwiftUI6IDViewV AA15ModifiedContentV 07AmbientB025AMUIOnboardingPackageViewV AA12_FrameLayoutV 10Foundation4UUIDV
++ _symbolic _____y_____y__________G_____G 7SwiftUI6IDViewV AA15ModifiedContentV 07AmbientB025AMUIOnboardingPackageViewV AA12_ScaleEffectV 10Foundation4UUIDV
++ _symbolic _____y_____y_______________GG 7SwiftUI16_OverlayModifierV AA15StrokeShapeViewV 07AmbientB038AMUIOnboardingDeviceBookModePageBorder33_F3295B7DC70704AECA4EF4219B8B630ALLV AA5ColorV AA05EmptyG0V
++ _symbolic _____y_____y_____yAAy__________GACG_Qo_______y_____y_____y______Qo__Qo__Qo_Qo_ 7SwiftUI4ViewPAAE16scrollTransition_4axis10transitionQrAA06ScrollE13ConfigurationV_AA4AxisOSgqd__AA17EmptyVisualEffectV_AA0hE5PhaseOtYbctAA0lM0Rd__lFQO AcAE22containerRelativeFrame_9alignmentQrAJ3SetV_AA9AlignmentVtFQO AA15ModifiedContentV 07AmbientB0022AMUIOnboardingTextPageC033_5516CA75395D495D95DF6CC6304931BBLLV AA14_PaddingLayoutV AaPPAAE6offset1x1yQr12CoreGraphics7CGFloatV_A9_tFQO A3_AAE4blur6radius6opaqueQrA9__SbtFQO A3_AAE7opacityyQrSdFQO AM
++ _symbolic _____y_____y_____yACyAAyAAy__________G_____GAAyAAy_____AEGAGGGAAyAAyAAy_____AEGAGG_____GGGAEG 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V 07AmbientB032AMUIOnboardingDeviceTentModeViewV AA12_FrameLayoutV AA05_FlexmN0V AH0hi4SlabkL0V AH0hi4BookkL0V AA08_PaddingN0V
++ _symbolic _____y_____y_____yACy__________G_____GACyACy_____AEGAGGGACyACyACy_____AEGAGG_____G_G 7SwiftUI19_ConditionalContentV7StorageO AC AA08ModifiedD0V 07AmbientB032AMUIOnboardingDeviceTentModeViewV AA12_FrameLayoutV AA05_FlexmN0V AH0hi4SlabkL0V AH0hi4BookkL0V AA08_PaddingN0V
++ _symbolic _____y_____y_____ySaySi6offset______7elementtGSi_____y_____y_____y_____yAHy__________GAJG_Qo_______y_____y_____y______Qo__Qo__Qo_Qo_SiGGG_Qo_ 7SwiftUI4ViewPAAE18scrollTargetLayout9isEnabledQrSb_tFQO AA10LazyHStackV AA7ForEachV 07AmbientB018AMUIOnboardingPageV AA6IDViewV AcAE0D10Transition_4axis10transitionQrAA06ScrollQ13ConfigurationV_AA4AxisOSgqd__AA17EmptyVisualEffectV_AA0tQ5PhaseOtYbctAA0xY0Rd__lFQO AcAE22containerRelativeFrame_9alignmentQrAU3SetV_AA9AlignmentVtFQO AA15ModifiedContentV AJ0n4TextoC033_5516CA75395D495D95DF6CC6304931BBLLV AA08_PaddingF0V AAA_PAAE6offset1x1yQr12CoreGraphics7CGFloatV_A19_tFQO A13_AAE4blur6radius6opaqueQrA19__SbtFQO A13_AAE7opacityyQrSdFQO AX
++ _symbolic _____y_____y_____y______AAyAAyAAy_____y_____yAFyAAyAAy__________G_____GAAyAAy_____AHGAJGGAAyAAyAAy_____AHGAJG_____GGGAHG_____y_____GG_____yAAyAAy__________G_____y_____GGGGAAy_____AHGQPGGA0_yAAyAAy__________GASGGG 7SwiftUI15ModifiedContentV AA6ZStackV AA05TupleD0V AA5ColorV AA5GroupV AA012_ConditionalD0V 07AmbientB032AMUIOnboardingDeviceTentModeViewV AA12_FrameLayoutV AA05_FlexpQ0V AN0kl4SlabnO0V AN0kl4BooknO0V AA08_PaddingQ0V AA20_MaskAlignmentEffectV AN0kd6RevealV033_6D88E6CD9A0CFDBE196688C5F9DB6659LLV AA16_OverlayModifierV AN0kD12PocketShadowA2_LLV AA08_OpacityX0V AA18_AnimationModifierV 12CoreGraphics7CGFloatV AN0k11TextGalleryO0V AN0k13PageIndicatorO0V AA010_FixedSizeQ0V
++ _symbolic _____y_____y_____y______ADQPGG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V 07AmbientB036AMUIOnboardingDeviceBookModePageView33_F3295B7DC70704AECA4EF4219B8B630ALLV AA18_AspectRatioLayoutV
++ _symbolic _____y_____y_____y______ADQPGG_____y_____GG 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA0G9AlignmentO
++ _symbolic _____y_____y_____y______Qo__Qo__Qo_ 7SwiftUI12VisualEffectPAAE6offset1x1yQr12CoreGraphics7CGFloatV_AItFQO AcAE4blur6radius6opaqueQrAI_SbtFQO AcAE7opacityyQrSdFQO AA05EmptycD0V
++ _symbolic _____y_____y_____y______Qo__Qo__Qo_ 7SwiftUI4ViewP12DrawingBoardE21sceneGeometryOverrideyQrySo7FBSceneC_So25FBSSceneTransitionContextCSgSo0J12SettingsDiffCtYbScMYccFQO AcDE0F22DeactivationReasonMaskyQrSo018UIApplicationSceneopQ0VFQO AcDE02isS10ForegroundyQrSbFQO AD0sC0V
++ _symbolic _____y_____y_____y__________GG_Qo_ 7SwiftUI4ViewPAAE16scrollIndicators_4axesQrAA25ScrollIndicatorVisibilityV_AA4AxisO3SetVtFQO AA0gC0V AA15ModifiedContentV 07AmbientB0018AMUIOnboardingTextC033_5516CA75395D495D95DF6CC6304931BBLLV AA14_PaddingLayoutV
++ _symbolic _____y_____y_____y__________G______y_____yAGy__________G_____G_____y_____GG_____yAdE_____GQPGG 7SwiftUI6ZStackV AA12TupleContentV AA10_ShapeViewV 07AmbientB0028AMUIOnboardingDeviceSlabModeF0V AA5ColorV AA08ModifiedE0V AA6IDViewV AH0i7PackageG0V AA12_FrameLayoutV 10Foundation4UUIDV AA21_TraitWritingModifierV AA010TransitionU3KeyV AA012StrokeBorderfG0V AA05EmptyG0V
++ _symbolic _____y_____y_____y__________G______y_____yAGy__________G_____G_____y_____GG_____yAdE_____GQPGG 7SwiftUI6ZStackV AA12TupleContentV AA10_ShapeViewV 07AmbientB0028AMUIOnboardingDeviceTentModeF0V AA5ColorV AA08ModifiedE0V AA6IDViewV AH0i7PackageG0V AA12_ScaleEffectV 10Foundation4UUIDV AA21_TraitWritingModifierV AA010TransitionU3KeyV AA012StrokeBorderfG0V AA05EmptyG0V
++ _symbolic _____y_____y_____y_____yABy__________GADG_Qo_______y_____y_____y______Qo__Qo__Qo_Qo_SiG 7SwiftUI6IDViewV AA4ViewPAAE16scrollTransition_4axis10transitionQrAA06ScrollF13ConfigurationV_AA4AxisOSgqd__AA17EmptyVisualEffectV_AA0iF5PhaseOtYbctAA0mN0Rd__lFQO AeAE22containerRelativeFrame_9alignmentQrAL3SetV_AA9AlignmentVtFQO AA15ModifiedContentV 07AmbientB0022AMUIOnboardingTextPageD033_5516CA75395D495D95DF6CC6304931BBLLV AA14_PaddingLayoutV AaRPAAE6offset1x1yQr12CoreGraphics7CGFloatV_A11_tFQO A5_AAE4blur6radius6opaqueQrA11__SbtFQO A5_AAE7opacityyQrSdFQO AO
++ _symbolic _____y_____y_____y_____yADyAByACy______ADyADyADy_____y_____yAGyADyADy__________G_____GADyADy_____AIGAKGGADyADyADy_____AIGAKG_____GGGAIG_____y_____GG_____yADyADy__________G_____y_____GGGGADy_____AIGQPGGA1_yADyADy__________GATGGG_____y_____GG______QPGGG 7SwiftUI14GeometryReaderV AA6ZStackV AA12TupleContentV AA08ModifiedG0V AA5ColorV AA5GroupV AA012_ConditionalG0V 07AmbientB032AMUIOnboardingDeviceTentModeViewV AA12_FrameLayoutV AA05_FlexrS0V AP0mn4SlabpQ0V AP0mn4BookpQ0V AA08_PaddingS0V AA20_MaskAlignmentEffectV AP0mg6RevealX033_6D88E6CD9A0CFDBE196688C5F9DB6659LLV AA16_OverlayModifierV AP0mG12PocketShadowA4_LLV AA08_OpacityZ0V AA18_AnimationModifierV 12CoreGraphics7CGFloatV AP0m11TextGalleryQ0V AP0m13PageIndicatorQ0V AA010_FixedSizeS0V AA30_EnvironmentKeyWritingModifierV AA0I6SchemeO AP0M11CloseButtonV
++ _symbolic _____y_____y_____y_____ySaySi6offset______7elementtGSi_____y_____y_____y_____yAIy__________GAKG_Qo_______y_____y_____y______Qo__Qo__Qo_Qo_SiGGG_Qo_G 7SwiftUI10ScrollViewV AA0D0PAAE18scrollTargetLayout9isEnabledQrSb_tFQO AA10LazyHStackV AA7ForEachV 07AmbientB018AMUIOnboardingPageV AA6IDViewV AeAE0E10Transition_4axis10transitionQrAA0cR13ConfigurationV_AA4AxisOSgqd__AA17EmptyVisualEffectV_AA0cR5PhaseOtYbctAA0xY0Rd__lFQO AeAE22containerRelativeFrame_9alignmentQrAW3SetV_AA9AlignmentVtFQO AA15ModifiedContentV AL0o4TextpD033_5516CA75395D495D95DF6CC6304931BBLLV AA08_PaddingG0V AAA1_PAAE6offset1x1yQr12CoreGraphics7CGFloatV_A21_tFQO A15_AAE4blur6radius6opaqueQrA21__SbtFQO A15_AAE7opacityyQrSdFQO AZ
++ _symbolic _____y_____y_____y_____y__________GG_Qo__Qo_ 7SwiftUI4ViewPAAE20scrollBounceBehavior_4axesQrAA06ScrolleF0V_AA4AxisO3SetVtFQO AcAE0D10Indicators_AEQrAA0H19IndicatorVisibilityV_AKtFQO AA0hC0V AA15ModifiedContentV 07AmbientB0018AMUIOnboardingTextC033_5516CA75395D495D95DF6CC6304931BBLLV AA14_PaddingLayoutV
++ _symbolic _____y_____y_____y_____y__________G_AAy_____yAAy__________G_____G_____y_____GG_____yAeF_____GQPGGAJG 7SwiftUI15ModifiedContentV AA6ZStackV AA05TupleD0V AA10_ShapeViewV 07AmbientB0028AMUIOnboardingDeviceSlabModeG0V AA5ColorV AA6IDViewV AJ0j7PackageH0V AA12_FrameLayoutV 10Foundation4UUIDV AA21_TraitWritingModifierV AA010TransitionU3KeyV AA012StrokeBordergH0V AA05EmptyH0V
++ _symbolic _____y_____y_____y_____y__________G_AAy_____yAAy__________G_____G_____y_____GG_____yAeF_____GQPGG_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA05TupleD0V AA10_ShapeViewV 07AmbientB0028AMUIOnboardingDeviceTentModeG0V AA5ColorV AA6IDViewV AJ0j7PackageH0V AA12_ScaleEffectV 10Foundation4UUIDV AA21_TraitWritingModifierV AA010TransitionU3KeyV AA012StrokeBordergH0V AA05EmptyH0V AA12_FrameLayoutV
++ _symbolic _____y_____y_____y_____y__________G______y__________GAGQPGGG 7SwiftUI20_MaskAlignmentEffectV AA6VStackV AA12TupleContentV AA08ModifiedH0V AA14LinearGradientV AA12_FrameLayoutV AA10_ShapeViewV AA9RectangleV AA5ColorV
++ _symbolic _____y_____y_____y_____y_____yADyAByACy______ADyADyADy_____y_____yAGyADyADy__________G_____GADyADy_____AIGAKGGADyADyADy_____AIGAKG_____GGGAIG_____y_____GG_____yADyADy__________G_____y_____GGGGADy_____AIGQPGGA1_yADyADy__________GATGGG_____y_____GG______QPGGG______y_____GQo_ 7SwiftUI4ViewPAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamiceF0O5BoundRtd__lFQO AA14GeometryReaderV AA6ZStackV AA12TupleContentV AA08ModifiedM0V AA5ColorV AA5GroupV AA012_ConditionalM0V 07AmbientB0028AMUIOnboardingDeviceTentModeC0V AA12_FrameLayoutV AA05_FlexwX0V AW0st4SlabvC0V AW0st4BookvC0V AA08_PaddingX0V AA20_MaskAlignmentEffectV AW0sM10RevealMask33_6D88E6CD9A0CFDBE196688C5F9DB6659LLV AA16_OverlayModifierV AW0sM12PocketShadowA11_LLV AA14_OpacityEffectV AA18_AnimationModifierV 12CoreGraphics7CGFloatV AW0s11TextGalleryC0V AW0s13PageIndicatorC0V AA06_FixedfX0V AA30_EnvironmentKeyWritingModifierV AA0O6SchemeO AW0S11CloseButtonV s19PartialRangeThroughV AF
++ _symbolic _____y_____y_____y_____y_____ySaySi6offset______7elementtGSi_____y_____y_____y_____yAIy__________GAKG_Qo_______y_____y_____y______Qo__Qo__Qo_Qo_SiGGG_Qo_G______Qo_ 7SwiftUI4ViewPAAE20scrollTargetBehavioryQrqd__AA06ScrolleF0Rd__lFQO AA0gC0V AcAE0dE6Layout9isEnabledQrSb_tFQO AA10LazyHStackV AA7ForEachV 07AmbientB018AMUIOnboardingPageV AA6IDViewV AcAE0D10Transition_4axis10transitionQrAA0gS13ConfigurationV_AA4AxisOSgqd__AA17EmptyVisualEffectV_AA0gS5PhaseOtYbctAA0yZ0Rd__lFQO AcAE22containerRelativeFrame_9alignmentQrAY3SetV_AA9AlignmentVtFQO AA15ModifiedContentV AN0p4TextqC033_5516CA75395D495D95DF6CC6304931BBLLV AA08_PaddingH0V AAA3_PAAE6offset1x1yQr12CoreGraphics7CGFloatV_A23_tFQO A17_AAE4blur6radius6opaqueQrA23__SbtFQO A17_AAE7opacityyQrSdFQO A0_ AA06PaginggeF0V
++ _symbolic _____y_____y_____y_____y_____y__________GG_Qo__Qo__Qo_ 7SwiftUI4ViewPAAE22scrollEdgeEffectHidden_3forQrSb_AA0E0O3SetVtFQO AcAE0D14BounceBehavior_4axesQrAA06ScrolljK0V_AA4AxisOAHVtFQO AcAE0D10Indicators_AKQrAA0M19IndicatorVisibilityV_APtFQO AA0mC0V AA15ModifiedContentV 07AmbientB0018AMUIOnboardingTextC033_5516CA75395D495D95DF6CC6304931BBLLV AA14_PaddingLayoutV
++ _symbolic _____y_____y_____y_____y_____y_____yAAy__________GG_Qo__Qo__Qo_______Qo______y_____y_____yAAy__________G______y__________GAQQPGGGG 7SwiftUI15ModifiedContentV AA4ViewPAAE22onScrollGeometryChange3for2of6actionQrqd__m_qd__AA0gH0Vcyqd___qd__tctSQRd__lFQO AeAE22scrollEdgeEffectHidden_AGQrSb_AA0N0O3SetVtFQO AeAE0M14BounceBehavior_4axesQrAA0grS0V_AA4AxisOAOVtFQO AeAE0M10Indicators_ARQrAA0G19IndicatorVisibilityV_AWtFQO AA0gE0V 07AmbientB0018AMUIOnboardingTextE033_5516CA75395D495D95DF6CC6304931BBLLV AA14_PaddingLayoutV A1_0zG4FadeA3_LLV AA014_MaskAlignmentO0V AA6VStackV AA05TupleD0V AA14LinearGradientV AA12_FrameLayoutV AA06_ShapeE0V AA9RectangleV AA5ColorV
++ _symbolic _____y_____y_____y_____y_____y_____ySaySi6offset______7elementtGSi_____y_____y_____y_____yAIy__________GAKG_Qo_______y_____y_____y______Qo__Qo__Qo_Qo_SiGGG_Qo_G______Qo__Qo_ 7SwiftUI4ViewPAAE16scrollIndicators_4axesQrAA25ScrollIndicatorVisibilityV_AA4AxisO3SetVtFQO AcAE0D14TargetBehavioryQrqd__AA0glM0Rd__lFQO AA0gC0V AcAE0dL6Layout9isEnabledQrSb_tFQO AA10LazyHStackV AA7ForEachV 07AmbientB018AMUIOnboardingPageV AA6IDViewV AcAE0D10Transition_4axis10transitionQrAA0gY13ConfigurationV_AISgqd__AA17EmptyVisualEffectV_AA0gY5PhaseOtYbctAA12VisualEffectRd__lFQO AcAE22containerRelativeFrame_9alignmentQrAK_AA9AlignmentVtFQO AA15ModifiedContentV AV0v4TextwC033_5516CA75395D495D95DF6CC6304931BBLLV AA08_PaddingN0V AAA9_PAAE6offset1x1yQr12CoreGraphics7CGFloatV_A27_tFQO A21_AAE4blur6radius6opaqueQrA27__SbtFQO A21_AAE7opacityyQrSdFQO A6_ AA06PagingglM0V
++ _symbolic _____y_____y_____y_____y_____y_____y_____ySaySi6offset______7elementtGSi_____y_____y_____y_____yAIy__________GAKG_Qo_______y_____y_____y______Qo__Qo__Qo_Qo_SiGGG_Qo_G______Qo__Qo__Qo_ 7SwiftUI4ViewPAAE22scrollEdgeEffectHidden_3forQrSb_AA0E0O3SetVtFQO AcAE0D10Indicators_4axesQrAA25ScrollIndicatorVisibilityV_AA4AxisOAHVtFQO AcAE0D14TargetBehavioryQrqd__AA0lpQ0Rd__lFQO AA0lC0V AcAE0dP6Layout9isEnabledQrSb_tFQO AA10LazyHStackV AA7ForEachV 07AmbientB018AMUIOnboardingPageV AA6IDViewV AcAE0D10Transition_4axis10transitionQrAA0L23TransitionConfigurationV_AOSgqd__AA011EmptyVisualF0V_AA0L15TransitionPhaseOtYbctAA06VisualF0Rd__lFQO AcAE22containerRelativeFrame_9alignmentQrAP_AA9AlignmentVtFQO AA15ModifiedContentV A_0z8TextPageC033_5516CA75395D495D95DF6CC6304931BBLLV AA08_PaddingR0V AAA14_PAAE6offset1x1yQr12CoreGraphics7CGFloatV_A32_tFQO A26_AAE4blur6radius6opaqueQrA32__SbtFQO A26_AAE7opacityyQrSdFQO A11_ AA06PaginglpQ0V
++ _symbolic _____y_____y_____y_____y_____y_____y_____y_____ySaySi6offset______7elementtGSi_____y_____y_____y_____yAIy__________GAKG_Qo_______y_____y_____y______Qo__Qo__Qo_Qo_SiGGG_Qo_G______Qo__Qo__Qo__Qo_ 7SwiftUI4ViewPAAE14scrollDisabledyQrSbFQO AcAE0D16EdgeEffectHidden_3forQrSb_AA0F0O3SetVtFQO AcAE0D10Indicators_4axesQrAA25ScrollIndicatorVisibilityV_AA4AxisOAIVtFQO AcAE0D14TargetBehavioryQrqd__AA0mqR0Rd__lFQO AA0mC0V AcAE0dQ6Layout9isEnabledQrSb_tFQO AA10LazyHStackV AA7ForEachV 07AmbientB018AMUIOnboardingPageV AA6IDViewV AcAE0D10Transition_4axis10transitionQrAA0M23TransitionConfigurationV_APSgqd__AA011EmptyVisualG0V_AA0M15TransitionPhaseOtYbctAA06VisualG0Rd__lFQO AcAE22containerRelativeFrame_9alignmentQrAQ_AA9AlignmentVtFQO AA15ModifiedContentV A0_022AMUIOnboardingTextPageC033_5516CA75395D495D95DF6CC6304931BBLLV AA08_PaddingS0V AAA15_PAAE6offset1x1yQr12CoreGraphics7CGFloatV_A33_tFQO A27_AAE4blur6radius6opaqueQrA33__SbtFQO A27_AAE7opacityyQrSdFQO A12_ AA06PagingmqR0V
++ _symbolic _____y_____y_____y_____y_____y_____y_____y_____y_____ySaySi6offset______7elementtGSi_____y_____y_____y_____yAIy__________GAKG_Qo_______y_____y_____y______Qo__Qo__Qo_Qo_SiGGG_Qo_G______Qo__Qo__Qo__Qo__SiQo_ 7SwiftUI4ViewPAAE14scrollPosition2id6anchorQrAA7BindingVyqd__SgG_AA9UnitPointVSgtSHRd__lFQO AcAE0D8DisabledyQrSbFQO AcAE0D16EdgeEffectHidden_3forQrSb_AA0L0O3SetVtFQO AcAE0D10Indicators_4axesQrAA25ScrollIndicatorVisibilityV_AA4AxisOASVtFQO AcAE0D14TargetBehavioryQrqd__AA0swX0Rd__lFQO AA0sC0V AcAE0dW6Layout9isEnabledQrSb_tFQO AA10LazyHStackV AA7ForEachV 07AmbientB018AMUIOnboardingPageV AA6IDViewV AcAE0D10Transition_4axis10transitionQrAA0S23TransitionConfigurationV_AZSgqd__AA011EmptyVisualM0V_AA0S15TransitionPhaseOtYbctAA06VisualM0Rd__lFQO AcAE22containerRelativeFrame_9alignmentQrA__AA9AlignmentVtFQO AA15ModifiedContentV A10_022AMUIOnboardingTextPageC033_5516CA75395D495D95DF6CC6304931BBLLV AA08_PaddingY0V AAA25_PAAE6offset1x1yQr12CoreGraphics7CGFloatV_A43_tFQO A37_AAE4blur6radius6opaqueQrA43__SbtFQO A37_AAE7opacityyQrSdFQO A22_ AA06PagingswX0V
++ _symbolic _____y_____y_____y_____y_____y_____y_____y_____y_____y_____ySaySi6offset______7elementtGSi_____y_____y_____y_____yAIy__________GAKG_Qo_______y_____y_____y______Qo__Qo__Qo_Qo_SiGGG_Qo_G______Qo__Qo__Qo__Qo__SiQo__SiQo_ 7SwiftUI4ViewPAAE22onScrollGeometryChange3for2of6actionQrqd__m_qd__AA0eF0Vcyqd___qd__tctSQRd__lFQO AcAE14scrollPosition2id6anchorQrAA7BindingVyqd__SgG_AA9UnitPointVSgtSHRd__lFQO AcAE0K8DisabledyQrSbFQO AcAE0K16EdgeEffectHidden_AEQrSb_AA0S0O3SetVtFQO AcAE0K10Indicators_4axesQrAA0E19IndicatorVisibilityV_AA4AxisOAXVtFQO AcAE0K14TargetBehavioryQrqd__AA0E14TargetBehaviorRd__lFQO AA0eC0V AcAE0K12TargetLayout9isEnabledQrSb_tFQO AA10LazyHStackV AA7ForEachV 07AmbientB018AMUIOnboardingPageV AA6IDViewV AcAE0K10Transition_4axis10transitionQrAA0E23TransitionConfigurationV_A3_Sgqd__AA011EmptyVisualT0V_AA0E15TransitionPhaseOtYbctAA06VisualT0Rd__lFQO AcAE22containerRelativeFrame_9alignmentQrA4__AA9AlignmentVtFQO AA15ModifiedContentV A15_022AMUIOnboardingTextPageC033_5516CA75395D495D95DF6CC6304931BBLLV AA14_PaddingLayoutV AAA30_PAAE6offset1x1yQr12CoreGraphics7CGFloatV_A48_tFQO A42_AAE4blur6radius6opaqueQrA48__SbtFQO A42_AAE7opacityyQrSdFQO A27_ AA06PagingE14TargetBehaviorV
++ _symbolic _____yxG 7SwiftUI14_UIHostingViewC
++ _symbolic qd0__
++ _symbolic qd__
++ _symbolic x
++ _symbolic ySic
++ _symbolic ypSg
++ _symbolic yyc
++ _type_layout_string 9AmbientUI16WrappedSceneView33_B1AB5667CC7534D2F56F5B91C9A38E44LLV
++ _type_layout_string 9AmbientUI17AMUICAPackageView33_F20FBEBC4FFD81988B3DD6DB2942E897LLV
++ _type_layout_string 9AmbientUI20AMUIOnboardingSpringV
++ _type_layout_string 9AmbientUI24AMUIOnboardingScrollFade33_5516CA75395D495D95DF6CC6304931BBLLV
++ _type_layout_string 9AmbientUI25AMUIOnboardingCloseButtonV
++ _type_layout_string 9AmbientUI25AMUIOnboardingPackageNameV
++ _type_layout_string 9AmbientUI26AMUIOnboardingBlurModifier33_33E6CC0E96577DFEEA4A5B7852923840LLV
++ _type_layout_string 9AmbientUI27AMUIOnboardingPageAnimationV
++ _type_layout_string 9AmbientUI29AMUIOnboardingDeviceAnimationV
++ _type_layout_string 9AmbientUI29AMUIOnboardingTextGalleryViewV
++ _type_layout_string 9AmbientUI31AMUIOnboardingPackagedViewAssetV
++ _type_layout_string 9AmbientUI31AMUIOnboardingPageIndicatorViewV
++ _type_layout_string 9AmbientUI33AMUIOnboardingContentPocketShadow33_6D88E6CD9A0CFDBE196688C5F9DB6659LLV
++ _type_layout_string 9AmbientUI33AMUIOnboardingDeviceSlabModeShapeV
++ _type_layout_string 9AmbientUI33AMUIOnboardingDeviceTentModeShapeV
++ _type_layout_string 9AmbientUI36AMUIOnboardingDeviceBookModePageView33_F3295B7DC70704AECA4EF4219B8B630ALLV
++ _type_layout_string 9AmbientUI37AMUIOnboardingDeviceBookModePageShape33_F3295B7DC70704AECA4EF4219B8B630ALLV
++ _type_layout_string 9AmbientUI38AMUIOnboardingDeviceBookModePageBorder33_F3295B7DC70704AECA4EF4219B8B630ALLV
++ _type_layout_string So6CGSizeV
+- -[AMUIAmbientViewController _animateBatteryViewDismissalIfNecessary]
+- -[AMUIOnboardingContainerView onboardingViewRequestsDismissal:]
+- GCC_except_table28
+- GCC_except_table74
+- GCC_except_table76
+- GCC_except_table78
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_AMUIOnboardingViewDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AMUIOnboardingViewDelegate
+- __OBJC_$_PROTOCOL_REFS_AMUIOnboardingViewDelegate
+- __OBJC_LABEL_PROTOCOL_$_AMUIOnboardingViewDelegate
+- __OBJC_PROTOCOL_$_AMUIOnboardingViewDelegate
+- ___63-[AMUIOnboardingContainerView onboardingViewRequestsDismissal:]_block_invoke
+- ___68-[AMUIAmbientViewController _animateBatteryViewDismissalIfNecessary]_block_invoke
+- ___68-[AMUIAmbientViewController _animateBatteryViewDismissalIfNecessary]_block_invoke_2
+- ___block_descriptor_48_e8_32s40bs_e5_v8?0ls32l8s40l8
+CStrings:
++ "\na1"
++ "\""
++ "$"
++ "%d.%d.%d"
++ "%{public}@ %{public}@"
++ "%{public}@ activating scene by performing update: %{public}@"
++ "%{public}@ bailing preparation, scene is invalid: %{public}@"
++ "%{public}@ created scene: %{public}@"
++ "%{public}@ deactivating scene: %{public}@"
++ "%{public}@ failed to create application record for hosting application: %{public}@"
++ "%{public}@ failed to create process identity for hosting application"
++ "%{public}@ failed to find application identity for hosting application"
++ "/System/Library/CoreServices/SystemVersion.plist"
++ "<%@:%p>"
++ "AMUIAmbientViewController.m"
++ "AMUIHostSceneCoordinator.m"
++ "Accessing Environment<%s>'s value outside of being installed on a View. This will always read the default value and will not update."
++ "AmbientChargingRingTap"
++ "AmbientUI.AMUIModernOnboardingHostView"
++ "AmbientUI.AmbientPosterSceneHostingController"
++ "AmbientUI/AMUIAmbientPosterSceneHostingController.swift"
++ "AmbientUI/AMUIModernOnboardingHostView.swift"
++ "AmbientUI/AMUIModernOnboardingView.swift"
++ "AmbientUI/AMUIOnboardingCloseButton.swift"
++ "AmbientUI/AMUIOnboardingDeviceBookModeView.swift"
++ "AmbientUI/AMUIOnboardingDeviceSlabModeView.swift"
++ "AmbientUI/AMUIOnboardingDeviceTentModeView.swift"
++ "AmbientUI/AMUIOnboardingPackageView.swift"
++ "AmbientUI/AMUIOnboardingPageIndicatorView.swift"
++ "AmbientUI/AMUIOnboardingTextGalleryView.swift"
++ "Andromino"
++ "BSEqualObjects(scene, _scene)"
++ "Body of the first StandBy onboarding page."
++ "Body of the second StandBy onboarding page."
++ "Body of the third StandBy onboarding page."
++ "CFDataCreateWithBytesNoCopy"
++ "CFDictionaryGetValue"
++ "CFGetTypeID"
++ "CFPropertyListCreateFromXMLData"
++ "CFPropertyListCreateWithData"
++ "CFRelease"
++ "CFStringCreateWithCStringNoCopy"
++ "CFStringGetCString"
++ "CFStringGetTypeID"
++ "CUSTOMIZE_BUTTON"
++ "Customize StandBy"
++ "Fatal error"
++ "Label of the Customize button shown in the StandBy onboarding animation."
++ "Long press to adjust color or fonts, and add widgets."
++ "ONBOARDING_ADD_FACE_BODY"
++ "ONBOARDING_ADD_FACE_TITLE"
++ "ONBOARDING_CUSTOMIZE_BODY"
++ "ONBOARDING_CUSTOMIZE_BUTTON"
++ "ONBOARDING_CUSTOMIZE_TITLE"
++ "ONBOARDING_WELCOME_BODY"
++ "ONBOARDING_WELCOME_TITLE"
++ "ProductVersion"
++ "Remote scene began configuring"
++ "Remote scene began suspending presentation trigger"
++ "Remote scene ended configuring"
++ "Remote scene ended suspending presentation trigger"
++ "Remote scene requested unlock for reason: %{public}@, destination: %{public}@"
++ "Rushmore"
++ "SlabAmbientOnboardingAssetAddFace"
++ "SlabAmbientOnboardingAssetAddFace-RTL"
++ "SlabAmbientOnboardingAssetCustomize"
++ "SlabAmbientOnboardingAssetCustomize-RTL"
++ "SlabAmbientOnboardingAssetWelcome"
++ "SlabAmbientOnboardingAssetWelcome-RTL"
++ "StandBy-"
++ "StandByInfra"
++ "Tap + to explore and add a new StandBy face."
++ "Title of the first StandBy onboarding page."
++ "Title of the second StandBy onboarding page."
++ "Title of the third StandBy onboarding page."
++ "V68AmbientOnboardingAssetAddFace"
++ "V68AmbientOnboardingAssetAddFace-RTL"
++ "V68AmbientOnboardingAssetCustomize"
++ "V68AmbientOnboardingAssetCustomize-RTL"
++ "V68AmbientOnboardingAssetWelcome"
++ "V68AmbientOnboardingAssetWelcome-RTL"
++ "V68AmbientOnboardingAssetWelcomeLeft"
++ "V68AmbientOnboardingAssetWelcomeRight"
++ "View.task @ AmbientUI/AMUIOnboardingPackageView.swift:"
++ "Welcome to StandBy"
++ "Your iPhone can transform into a photo frame, clock, display for widgets, and more."
++ "com.apple.Rushmore"
++ "dismissalFadeOutAnimation"
++ "dismissalGrabberFadeOutAnimation"
++ "dismissalScaleOutAnimation"
++ "firstModernPresentation"
++ "init(coder:) has not been implemented"
++ "init(frame:)"
++ "init(nibName:bundle:)"
++ "kCFAllocatorNull"
++ "scene content state is %@, notifying observers"
++ "scene coordinator provided a nil scene"
++ "transform"
++ "transform.scale.x"
++ "v16@?0@\"<FBSceneManagerSceneCreating>\"8"
++ "v16@?0@\"FBSMutableSceneParameters\"8"
++ "v16@?0@\"FBSMutableSceneSettings\"8"
++ "v24@?0@\"FBSMutableSceneSettings\"8@\"FBSSceneTransitionContext\"16"
+- "\n\x81"
+```

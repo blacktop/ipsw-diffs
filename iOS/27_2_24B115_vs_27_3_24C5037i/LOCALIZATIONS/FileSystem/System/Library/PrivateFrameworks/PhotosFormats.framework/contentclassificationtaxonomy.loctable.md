@@ -1,0 +1,55 @@
+## PhotosFormats
+
+> `FileSystem/System/Library/PrivateFrameworks/PhotosFormats.framework/contentclassificationtaxonomy.loctable`
+
+```diff
+
+ en.document = "Document"
+ en.document-synonyms = "NULL"
+ en.driving-license = "Driver’s License"
++en.driving-license-es = "Driver’s License"
++en.driving-license-es-synonyms = "NULL"
+ en.driving-license-jp = "Driver’s License"
+ en.driving-license-jp-synonyms = "NULL"
+ en.driving-license-synonyms = "Driver License|Driver Licenses|Driver’s ID|Driver’s IDs|Driver’s Licenses|Driver’s Permit|Driver’s Permits|Driving License|Driving Licenses|Driving Permit|Driving Permits|Learner Permit|Learner Permits|Learner’s Permits|Learner’s Permit"
+
+ en.driving-license-tw-synonyms = "NULL"
+ en.identification-document = "Identification Document"
+ en.identification-document-synonyms = "ID Card|ID Cards|Identity Document|Identity Documents"
++en.pan-text = "Permanent Account Number"
++en.pan-text-synonyms = "NULL"
+ en.passport = "Passport"
+-en.passport-cn = "Passport"
+-en.passport-cn-synonyms = "NULL"
+-en.passport-es = "Passport"
+-en.passport-es-synonyms = "NULL"
+-en.passport-kr = "Passport"
+-en.passport-kr-synonyms = "NULL"
+-en.passport-mx = "Passport"
+-en.passport-mx-synonyms = "NULL"
+ en.passport-synonyms = "Passports|Passport Book|Passport Books|Travel Passport|Travel Passports|Travel Document|Travel Documents"
+ en.passport-text = "Passport"
+ en.passport-text-synonyms = "NULL"
+-en.passport-tw = "Passport"
+-en.passport-tw-synonyms = "NULL"
+ en.social-security-number = "Social Security Number"
+ en.social-security-number-synonyms = "Social Security|Social Security Card|Social Security Cards|SS Card|SS Cards|SSN Card|SSN Cards|SS Number|SS Numbers"
+ en.visa = "Visa"
+ en.visa-at = "Visa"
+ en.visa-at-synonyms = "NULL"
+-en.visa-ca = "Visa"
+-en.visa-ca-synonyms = "NULL"
+ en.visa-cn = "Visa Stamp"
+ en.visa-cn-synonyms = "NULL"
+ en.visa-hk = "Visa"
+
+ en.visa-jp-synonyms = "NULL"
+ en.visa-kr = "Visa"
+ en.visa-kr-synonyms = "NULL"
+-en.visa-mx = "Visa Stamp"
+-en.visa-mx-synonyms = "NULL"
+ en.visa-synonyms = "Visa Stamp|Visa Stamps|Entry Authorization|Travel Authorization|Immigration Document|Immigration Documents|Entry Visa"
+ en.visa-text = "Visa"
+ en.visa-text-synonyms = "NULL"
+
+```

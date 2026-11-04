@@ -1,0 +1,372 @@
+## Human
+
+> `/System/Library/PrivateFrameworks/Human.framework/Human`
+
+```diff
+
+-75.40.4.0.1
+-  __TEXT.__text: 0x2c6048
+-  __TEXT.__objc_methlist: 0xb34
+-  __TEXT.__const: 0x35ee4
+-  __TEXT.__oslogstring: 0x3326
+-  __TEXT.__constg_swiftt: 0xdc5c
+-  __TEXT.__swift5_typeref: 0xb292
+-  __TEXT.__swift5_reflstr: 0xe8ca
+-  __TEXT.__swift5_assocty: 0x1310
+-  __TEXT.__swift5_fieldmd: 0xede4
+-  __TEXT.__swift5_builtin: 0x280
+-  __TEXT.__swift5_proto: 0x2734
+-  __TEXT.__swift5_types: 0xf0c
+-  __TEXT.__swift_as_entry: 0x754
+-  __TEXT.__swift_as_ret: 0x8fc
+-  __TEXT.__swift_as_cont: 0x1688
+-  __TEXT.__cstring: 0x1872c
+-  __TEXT.__swift5_capture: 0x114c
++75.60.2.0.0
++  __TEXT.__text: 0x2ec6e0
++  __TEXT.__objc_methlist: 0xb14
++  __TEXT.__const: 0x36814
++  __TEXT.__oslogstring: 0x3500
++  __TEXT.__cstring: 0x1879c
++  __TEXT.__constg_swiftt: 0xe018
++  __TEXT.__swift5_typeref: 0xb39c
++  __TEXT.__swift5_reflstr: 0xed2a
++  __TEXT.__swift5_assocty: 0x1328
++  __TEXT.__swift5_fieldmd: 0xf19c
++  __TEXT.__swift5_builtin: 0x294
++  __TEXT.__swift5_proto: 0x2754
++  __TEXT.__swift5_types: 0xf40
++  __TEXT.__swift_as_entry: 0x780
++  __TEXT.__swift_as_ret: 0x94c
++  __TEXT.__swift_as_cont: 0x185c
++  __TEXT.__swift5_capture: 0x1070
+   __TEXT.__swift5_protos: 0x17c
+   __TEXT.__swift5_mpenum: 0xa4
+-  __TEXT.__unwind_info: 0xfaf8
+-  __TEXT.__eh_frame: 0x1cd00
++  __TEXT.__swift5_types2: 0x4
++  __TEXT.__unwind_info: 0x10328
++  __TEXT.__eh_frame: 0x1e9c0
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xbc8
+-  __DATA_CONST.__objc_classlist: 0x3a0
+-  __DATA_CONST.__objc_protolist: 0xd0
++  __DATA_CONST.__const: 0xbf0
++  __DATA_CONST.__objc_classlist: 0x3b0
++  __DATA_CONST.__objc_protolist: 0xc0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xcb0
+-  __DATA_CONST.__objc_protorefs: 0x68
+-  __DATA_CONST.__got: 0xd78
+-  __AUTH_CONST.__const: 0x21970
+-  __AUTH_CONST.__objc_const: 0xb588
+-  __AUTH_CONST.__auth_got: 0x1d60
+-  __AUTH.__objc_data: 0xc88
+-  __AUTH.__data: 0xb980
+-  __DATA.__data: 0xaaf0
+-  __DATA.__common: 0xdf0
++  __DATA_CONST.__objc_selrefs: 0xc88
++  __DATA_CONST.__objc_protorefs: 0x60
++  __DATA_CONST.__got: 0xd68
++  __AUTH_CONST.__const: 0x21cb0
++  __AUTH_CONST.__objc_const: 0xb9d0
++  __AUTH_CONST.__auth_got: 0x1dc8
++  __AUTH.__objc_data: 0xae0
++  __AUTH.__data: 0xbdc8
++  __DATA.__data: 0xac08
++  __DATA.__common: 0xde8
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 16989
+-  Symbols:   5379
+-  CStrings:  2523
++  Functions: 17398
++  Symbols:   5424
++  CStrings:  2540
+ 
+Symbols:
++ __DATA__TtC5Human12PlaybackGate
++ __DATA__TtC5Human14ReadinessLatch
++ __DATA__TtC5Human19OperationSerializer
++ __DATA__TtC5Human23GuidanceVariantSelector
++ __IVARS__TtC5Human12PlaybackGate
++ __IVARS__TtC5Human14ReadinessLatch
++ __IVARS__TtC5Human15StreamProcessor
++ __IVARS__TtC5Human19OperationSerializer
++ __IVARS__TtC5Human23GuidanceVariantSelector
++ __IVARS__TtC5Human6Locked
++ __METACLASS_DATA__TtC5Human12PlaybackGate
++ __METACLASS_DATA__TtC5Human14ReadinessLatch
++ __METACLASS_DATA__TtC5Human19OperationSerializer
++ __METACLASS_DATA__TtC5Human23GuidanceVariantSelector
++ __OBJC_$_INSTANCE_METHODS__TtCV5Human12CameraSource13CameraManager(Human)
++ __OBJC_CLASS_PROTOCOLS_$__TtCV5Human12CameraSource13CameraManager(Human)
++ ___swift_cannot_copy_noncopyable_type
++ ___swift_memcpy218_8
++ ___unnamed_51
++ _associated conformance 5Human17MovieStreamWriterC5StateOSHAASQ
++ _associated conformance 5Human20StreamProcessorErrorO10Foundation09LocalizedD0AAs0D0
++ _associated conformance 5Human24HandRaiseStreakDebouncerV5Frame33_C0411C7565CD0B1165508189FF8E911DLLOSHAASQ
++ _get_enum_tag_for_layout_string 5Human25MovementEvaluationManagerC18TransitionScheduleVSg
++ _swift_deallocUninitializedObject
++ _swift_getMetatypeMetadata
++ _swift_initStructMetadata
++ _swift_task_deinitOnExecutor
++ _swift_task_isCurrentExecutor
++ _swift_task_reportUnexpectedExecutor
++ _swift_unknownObjectRelease_n
++ _symbolic SS4node_t
++ _symbolic SaySo12AVAssetTrackCG
++ _symbolic Say_____G 5Human12PlaybackGateC6Waiter010_4E2EC7B69E21F68A548F3B4C85CBFB960LLV
++ _symbolic Say_____G 5Human19OperationSerializerC6Waiter33_B0CE57CFA34D0F3ECB5A1F3492B46608LLV
++ _symbolic ScCySaySo12AVAssetTrackCG______pG s5ErrorP
++ _symbolic ScCy_____ySo18MOVReaderInterfaceCG______pG 5Human20UncheckedSendableBoxV s5ErrorP
++ _symbolic ScCyyt______pG s5ErrorP
++ _symbolic SfSg_____Ybc_____Ybc 5Human8BodySideO AA8SkeletonV
++ _symbolic Si5index______2att 12CoreGraphics7CGFloatV
++ _symbolic Si6offset______7elementt 5Human25MovementEvaluationManagerC18TransitionScheduleV5EntryV
++ _symbolic _____ 5Human12CameraSourceV0B7ManagerC12CaptureStateV
++ _symbolic _____ 5Human12PlaybackGateC
++ _symbolic _____ 5Human12PlaybackGateC6Waiter010_4E2EC7B69E21F68A548F3B4C85CBFB960LLV
++ _symbolic _____ 5Human13MOVWriterNodeC11BacklogGateV
++ _symbolic _____ 5Human14ReadinessLatchC
++ _symbolic _____ 5Human15StreamProcessorC
++ _symbolic _____ 5Human15TurnSideArbiterV
++ _symbolic _____ 5Human17MovieStreamWriterC16FinishTransitionO
++ _symbolic _____ 5Human17MovieStreamWriterC5StateO
++ _symbolic _____ 5Human17MovieStreamWriterC7SessionV
++ _symbolic _____ 5Human19OperationSerializerC
++ _symbolic _____ 5Human19OperationSerializerC6Waiter33_B0CE57CFA34D0F3ECB5A1F3492B46608LLV
++ _symbolic _____ 5Human20CoachingLatencyTraceV
++ _symbolic _____ 5Human20StreamProcessorErrorO
++ _symbolic _____ 5Human20UncheckedSendableBoxV
++ _symbolic _____ 5Human23GuidanceVariantSelectorC
++ _symbolic _____ 5Human24HandRaiseStreakDebouncerV5Frame33_C0411C7565CD0B1165508189FF8E911DLLO
++ _symbolic _____ 5Human25StatefulPredictionMonitorV
++ _symbolic _____ 5Human6LockedC
++ _symbolic _____ So23AVCaptureDevicePositionV
++ _symbolic _____Sg 5Human15TurnSideArbiterV
++ _symbolic _____Sg 5Human18AudioPlaybackStateO
++ _symbolic _____Sg 5Human20CoachingLatencyTraceV
++ _symbolic _____Sg 5Human20ExperienceControllerV0B13ConfigurationV
++ _symbolic _____Sg 5Human20ExperienceControllerV11PauseSignalO
++ _symbolic _____Sg_ABt 5Human20CoachingLatencyTraceV
++ _symbolic ___________pIeghHnzo_ 5Human15ImageDescriptorV s5ErrorP
++ _symbolic ___________t 5Human24HandRaiseStreakDebouncerV5Frame33_C0411C7565CD0B1165508189FF8E911DLLO s5Int64V
++ _symbolic _____m 5Human13MOVWriterNodeC
++ _symbolic _____m 5Human13MotionTrackerV
++ _symbolic _____m 5Human20ExperienceControllerV8SwitcherC
++ _symbolic _____m 5Human31ImageAndMotionDescriptorAdaptorC
++ _symbolic _____ySSSgG 15Synchronization5MutexVAARi_zrlE
++ _symbolic _____ySbG 15Synchronization6AtomicV
++ _symbolic _____ySbG 5Human6LockedC
++ _symbolic _____yScsy___________pG_____G 5Human15StreamProcessorC AA14FlowDescriptorV s5ErrorP AA13MOVWriterNodeC
++ _symbolic _____yScsy___________pG_____G 5Human15StreamProcessorC AA14FlowDescriptorV s5ErrorP AA20ExperienceControllerV8SwitcherC
++ _symbolic _____yScsy___________pG_____G 5Human15StreamProcessorC AA27RawImageAndMotionDescriptorV s5ErrorP AA0efgH7AdaptorC
++ _symbolic _____yScsy___________pG_____yA2BGG 5Human15StreamProcessorC AA14FlowDescriptorV s5ErrorP AA17FrameRateReporterC
++ _symbolic _____yScsy___________pG_____yAB_____GG 5Human15StreamProcessorC AA24ImageAndMotionDescriptorV s5ErrorP AA3MapV AA04FlowG0V
++ _symbolic _____ySi5index______2attG s23_ContiguousArrayStorageC 12CoreGraphics7CGFloatV
++ _symbolic _____ySi6offset______7elementtG s23_ContiguousArrayStorageC 5Human25MovementEvaluationManagerC18TransitionScheduleV5EntryV
++ _symbolic _____ySo18MIOWriterInterfaceCGSg 5Human20UncheckedSendableBoxV
++ _symbolic _____ySo18MOVReaderInterfaceCG 5Human20UncheckedSendableBoxV
++ _symbolic _____ySo34AVCaptureDeviceRotationCoordinatorCGSg 5Human20UncheckedSendableBoxV
++ _symbolic _____y_____ABGm 5Human17FrameRateReporterC AA14FlowDescriptorV
++ _symbolic _____y_____G 15Synchronization5MutexVAARi_zrlE 5Human13MOVWriterNodeC11BacklogGateV
++ _symbolic _____y_____G 15Synchronization5MutexVAARi_zrlE 5Human17MovieStreamWriterC7SessionV
++ _symbolic _____y_____G 5Human19SimpleSlidingWindowV AA24HandRaiseStreakDebouncerV5Frame33_C0411C7565CD0B1165508189FF8E911DLLO
++ _symbolic _____y_____G 5Human6LockedC AA12CameraSourceV0C7ManagerC12CaptureStateV
++ _symbolic _____y_____G 5Human6LockedC AA20ExperienceControllerV0C13ConfigurationV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 5Human10ExperienceO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 5Human12PlaybackGateC6Waiter010_4E2EC7B69H21F68A548F3B4C85CBFB960LLV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 5Human19OperationSerializerC6Waiter33_B0CE57CFA34D0F3ECB5A1F3492B46608LLV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 5Human24HandRaiseStreakDebouncerV5Frame33_C0411C7565CD0B1165508189FF8E911DLLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC So23AVCaptureDevicePositionV
++ _symbolic _____y__________G 5Human15StreamProcessorC AA11VideoSourceV16ImageDescriptorsV AA0F26AndMotionDescriptorAdaptorC
++ _symbolic _____y__________G 5Human15StreamProcessorC AA12CameraSourceV16ImageDescriptorsV AA13MotionTrackerV
++ _symbolic _____y__________Gm 5Human3MapV AA24ImageAndMotionDescriptorV AA04FlowF0V
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 5Human24HandRaiseStreakDebouncerV5Frame33_C0411C7565CD0B1165508189FF8E911DLLO s5Int64V
++ _symbolic _____y______pSgG 5Human20UncheckedSendableBoxV So10MTLTextureP
++ _symbolic _____y______pSgG 5Human20UncheckedSendableBoxV So23MOVStreamReaderDelegateP
++ _symbolic _____y_____y______GG 5Human20UncheckedSendableBoxV 10Accelerate6vImageO11PixelBufferV AF14Interleaved8x4V
++ _symbolic _____y_____y______pSgGG 15Synchronization5MutexVAARi_zrlE 5Human20UncheckedSendableBoxV So10MTLTextureP
++ _symbolic _____yxG 15Synchronization5MutexVAARi_zrlE
++ _type_layout_string 5Human12CameraSourceV0B7ManagerC12CaptureStateV
++ _type_layout_string 5Human13MOVWriterNodeC11BacklogGateV
++ _type_layout_string 5Human15TurnSideArbiterV
++ _type_layout_string 5Human17MovieStreamWriterC7SessionV
++ _type_layout_string 5Human17RepCountProvidingRzAA08SkeletonD0RzAA09TimestampD0RzAA17FlexionModifiableR_r0_lAA21FlexibilityAssessmentC05AnkleG0Vyxq__G
++ _type_layout_string 5Human17RepCountProvidingRzAA08SkeletonD0RzAA09TimestampD0RzAA17FlexionModifiableR_r0_lAA21FlexibilityAssessmentC05ElbowG0Vyxq__G
++ _type_layout_string 5Human17RepCountProvidingRzAA08SkeletonD0RzAA09TimestampD0RzAA17FlexionModifiableR_r0_lAA21FlexibilityAssessmentC07HipKneeG0Vyxq__G
++ _type_layout_string 5Human17RepCountProvidingRzAA08SkeletonD0RzAA09TimestampD0RzAA17FlexionModifiableR_r0_lAA21FlexibilityAssessmentC08ShoulderG0Vyxq__G
++ _type_layout_string 5Human17RepCountProvidingRzAA08SkeletonD0RzAA09TimestampD0RzAA17FlexionModifiableR_r0_lAA21FlexibilityAssessmentC09HamstringG0Vyxq__G
++ _type_layout_string 5Human17SkeletonProvidingRzAA09TimestampC0RzAA26PoseToTextOutputModifiableR_r0_lAA0efG6ModuleVyxq_G
++ _type_layout_string 5Human20StreamProcessorErrorO
++ _type_layout_string 5Human26AlignmentGuidanceProvidingRzAA030FirstCorrectlyAlignedTimestampD0RzAA08RepCountD0RzAA08SkeletonD0RzAA0hD0RzAA22CompensationModifiableR_AA025PoseAssessmentRefProviderM0R_AA0ijM0R_r0_lAA0nO0C0L7Context33_803924E5ABC6D169FDCA8E1F49F18E49LLVyxq__G
++ _type_layout_string 5Human26AlignmentGuidanceProvidingRzAA030FirstCorrectlyAlignedTimestampD0RzAA08RepCountD0RzAA08SkeletonD0RzAA0hD0RzAA22CompensationModifiableR_AA025PoseAssessmentRefProviderM0R_AA0ijM0R_r0_lAA0nO0C10KneePushupVyxq__G
++ _type_layout_string 5Human26AlignmentGuidanceProvidingRzAA030FirstCorrectlyAlignedTimestampD0RzAA08RepCountD0RzAA08SkeletonD0RzAA0hD0RzAA22CompensationModifiableR_AA025PoseAssessmentRefProviderM0R_AA0ijM0R_r0_lAA0nO0C10SitToStandVyxq__G
++ _type_layout_string 5Human26AlignmentGuidanceProvidingRzAA030FirstCorrectlyAlignedTimestampD0RzAA08RepCountD0RzAA08SkeletonD0RzAA0hD0RzAA22CompensationModifiableR_AA025PoseAssessmentRefProviderM0R_AA0ijM0R_r0_lAA0nO0C13OverheadSquatVyxq__G
++ _type_layout_string 5Human26AlignmentGuidanceProvidingRzAA030FirstCorrectlyAlignedTimestampD0RzAA08RepCountD0RzAA08SkeletonD0RzAA0hD0RzAA22CompensationModifiableR_AA025PoseAssessmentRefProviderM0R_AA0ijM0R_r0_lAA0nO0C15SingleLegStanceVyxq__G
++ _type_layout_string 5Human26AlignmentGuidanceProvidingRzAA030FirstCorrectlyAlignedTimestampD0RzAA08RepCountD0RzAA08SkeletonD0RzAA0hD0RzAA22CompensationModifiableR_AA025PoseAssessmentRefProviderM0R_AA0ijM0R_r0_lAA0nO0C17OverheadSquatSideVyxq__G
++ _type_layout_string 5Human26AlignmentGuidanceProvidingRzAA030FirstCorrectlyAlignedTimestampD0RzAA08RepCountD0RzAA08SkeletonD0RzAA0hD0RzAA22CompensationModifiableR_AA025PoseAssessmentRefProviderM0R_AA0ijM0R_r0_lAA0nO0C5PlankVyxq__G
++ _type_layout_string 5Human26AlignmentGuidanceProvidingRzAA030FirstCorrectlyAlignedTimestampD0RzAA08RepCountD0RzAA08SkeletonD0RzAA0hD0RzAA22CompensationModifiableR_AA025PoseAssessmentRefProviderM0R_AA0ijM0R_r0_lAA0nO0C6PushupVyxq__G
+- _OBJC_CLASS_$_AVCaptureSynchronizedDepthData
+- _OBJC_CLASS_$_AVCaptureSynchronizedSampleBufferData
+- __DATA__TtC5HumanP33_E501D80C90F712FF4823D849A974AFA212PlaybackGate
+- __DATA__TtC5HumanP33_E501D80C90F712FF4823D849A974AFA222EndExerciseRequestFlag
+- __IVARS__TtC5HumanP33_E501D80C90F712FF4823D849A974AFA212PlaybackGate
+- __IVARS__TtC5HumanP33_E501D80C90F712FF4823D849A974AFA222EndExerciseRequestFlag
+- __METACLASS_DATA__TtC5HumanP33_E501D80C90F712FF4823D849A974AFA212PlaybackGate
+- __METACLASS_DATA__TtC5HumanP33_E501D80C90F712FF4823D849A974AFA222EndExerciseRequestFlag
+- __OBJC_$_INSTANCE_METHODS__TtCV5Human12CameraSource13CameraManager(Human|Human1)
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_AVCaptureDataOutputSynchronizerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AVCaptureDataOutputSynchronizerDelegate
+- __OBJC_$_PROTOCOL_REFS_AVCaptureDataOutputSynchronizerDelegate
+- __OBJC_CLASS_PROTOCOLS_$__TtCV5Human12CameraSource13CameraManager(Human|Human1)
+- __OBJC_LABEL_PROTOCOL_$_AVCaptureDataOutputSynchronizerDelegate
+- __OBJC_PROTOCOL_$_AVCaptureDataOutputSynchronizerDelegate
+- ___swift_closure_destructor.63Tm
+- ___swift_closure_destructor.67Tm
+- ___swift_memcpy202_8
+- ___unnamed_49
+- _associated conformance 5Human16ExerciseGuidanceO40HeartRateStreamLowAvailabilityCodingKeys33_44F0AEE30BC1E36237781413234DCF40LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 5Human16ExerciseGuidanceO40HeartRateStreamLowAvailabilityCodingKeys33_44F0AEE30BC1E36237781413234DCF40LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 5Human17MovieStreamWriterC5State33_26B173C6C52133097133CBC58CAEFC56LLOSHAASQ
+- _objc_retainAutoreleaseReturnValue
+- _swift_isaMask
+- _swift_projectBox
+- _swift_release_x11
+- _swift_task_future_wait_throwing
+- _symbolic IeAgH_
+- _symbolic SaySo15AVCaptureOutputCG
+- _symbolic ScCy_____ySo18MOVReaderInterfaceCG______pG 5Human20UncheckedSendableBox33_AE8B08E11456800317BCE254589F01D6LLV s5ErrorP
+- _symbolic ScTy___________pG 5Human14FlowDescriptorV s5ErrorP
+- _symbolic ScTyyt_____G s5NeverO
+- _symbolic ScTyyt______pG s5ErrorP
+- _symbolic SccySaySo12AVAssetTrackCG______pG s5ErrorP
+- _symbolic So18MIOWriterInterfaceCSg
+- _symbolic So20AVCaptureDeviceInputCSg
+- _symbolic So24AVCaptureDepthDataOutputCSg
+- _symbolic So24AVCaptureVideoDataOutputCSg
+- _symbolic So31AVCaptureDataOutputSynchronizerCSg
+- _symbolic So34AVCaptureDeviceRotationCoordinatorCSg
+- _symbolic _____ 5Human12PlaybackGate33_E501D80C90F712FF4823D849A974AFA2LLC
+- _symbolic _____ 5Human15StreamProcessorV
+- _symbolic _____ 5Human16ExerciseGuidanceO40HeartRateStreamLowAvailabilityCodingKeys33_44F0AEE30BC1E36237781413234DCF40LLO
+- _symbolic _____ 5Human17MovieStreamWriterC5State33_26B173C6C52133097133CBC58CAEFC56LLO
+- _symbolic _____ 5Human20UncheckedSendableBox33_AE8B08E11456800317BCE254589F01D6LLV
+- _symbolic _____ 5Human22EndExerciseRequestFlag33_E501D80C90F712FF4823D849A974AFA2LLC
+- _symbolic ___________pIegHnzo_ 5Human15ImageDescriptorV s5ErrorP
+- _symbolic ___________pIegHrzo_ 5Human14FlowDescriptorV s5ErrorP
+- _symbolic ______pSg So10MTLTextureP
+- _symbolic _____yScsy___________pG_____G 5Human15StreamProcessorV AA14FlowDescriptorV s5ErrorP AA13MOVWriterNodeC
+- _symbolic _____yScsy___________pG_____G 5Human15StreamProcessorV AA14FlowDescriptorV s5ErrorP AA20ExperienceControllerV8SwitcherC
+- _symbolic _____yScsy___________pG_____G 5Human15StreamProcessorV AA27RawImageAndMotionDescriptorV s5ErrorP AA0efgH7AdaptorC
+- _symbolic _____yScsy___________pG_____yA2BGG 5Human15StreamProcessorV AA14FlowDescriptorV s5ErrorP AA17FrameRateReporterC
+- _symbolic _____yScsy___________pG_____yAB_____GG 5Human15StreamProcessorV AA24ImageAndMotionDescriptorV s5ErrorP AA3MapV AA04FlowG0V
+- _symbolic _____ySo18MOVReaderInterfaceCG 5Human20UncheckedSendableBox33_AE8B08E11456800317BCE254589F01D6LLV
+- _symbolic _____y_____G 15Synchronization5MutexVAARi_zrlE 5Human17MovieStreamWriterC5State33_26B173C6C52133097133CBC58CAEFC56LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 5Human16ExerciseGuidanceO40HeartRateStreamLowAvailabilityCodingKeys33_44F0AEE30BC1E36237781413234DCF40LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 5Human16ExerciseGuidanceO40HeartRateStreamLowAvailabilityCodingKeys33_44F0AEE30BC1E36237781413234DCF40LLO
+- _symbolic _____y__________G 5Human15StreamProcessorV AA11VideoSourceV16ImageDescriptorsV AA0F26AndMotionDescriptorAdaptorC
+- _symbolic _____y__________G 5Human15StreamProcessorV AA12CameraSourceV16ImageDescriptorsV AA13MotionTrackerV
+- _symbolic _____y______pSgG 15Synchronization5MutexVAARi_zrlE So10MTLTextureP
+- _symbolic _____y______pSgG 5Human20UncheckedSendableBox33_AE8B08E11456800317BCE254589F01D6LLV So23MOVStreamReaderDelegateP
+- _symbolic _____yqd__xGz_x_qd_______RzSciRd__7ElementSciQyd__5Input_____Rtz______p7FailureSciRtd__r__lXX 5Human15StreamProcessorV AA11ComputeNodeP AE s5ErrorP
+- _symbolic _____yytG 15Synchronization5MutexVAARi_zrlE
+- _symbolic yt______pIegHrzo_ s5ErrorP
+- _type_layout_string 5Human17RepCountProvidingRzAA08SkeletonD0RzAA09TimestampD0RzAA17FlexionModifiableR_s8SendableR_r0_lAA21FlexibilityAssessmentC05AnkleG0Vyxq__G
+- _type_layout_string 5Human17RepCountProvidingRzAA08SkeletonD0RzAA09TimestampD0RzAA17FlexionModifiableR_s8SendableR_r0_lAA21FlexibilityAssessmentC05ElbowG0Vyxq__G
+- _type_layout_string 5Human17RepCountProvidingRzAA08SkeletonD0RzAA09TimestampD0RzAA17FlexionModifiableR_s8SendableR_r0_lAA21FlexibilityAssessmentC07HipKneeG0Vyxq__G
+- _type_layout_string 5Human17RepCountProvidingRzAA08SkeletonD0RzAA09TimestampD0RzAA17FlexionModifiableR_s8SendableR_r0_lAA21FlexibilityAssessmentC08ShoulderG0Vyxq__G
+- _type_layout_string 5Human17RepCountProvidingRzAA08SkeletonD0RzAA09TimestampD0RzAA17FlexionModifiableR_s8SendableR_r0_lAA21FlexibilityAssessmentC09HamstringG0Vyxq__G
+- _type_layout_string 5Human17SkeletonProvidingRzAA09TimestampC0RzAA26PoseToTextOutputModifiableR_s8SendableR_r0_lAA0efG6ModuleVyxq_G
+- _type_layout_string 5Human26AlignmentGuidanceProvidingRzAA030FirstCorrectlyAlignedTimestampD0RzAA08RepCountD0RzAA08SkeletonD0RzAA0hD0RzAA22CompensationModifiableR_AA025PoseAssessmentRefProviderM0R_AA0ijM0R_s8SendableR_r0_lAA0nO0C0L7Context33_803924E5ABC6D169FDCA8E1F49F18E49LLVyxq__G
+- _type_layout_string 5Human26AlignmentGuidanceProvidingRzAA030FirstCorrectlyAlignedTimestampD0RzAA08RepCountD0RzAA08SkeletonD0RzAA0hD0RzAA22CompensationModifiableR_AA025PoseAssessmentRefProviderM0R_AA0ijM0R_s8SendableR_r0_lAA0nO0C10KneePushupVyxq__G
+- _type_layout_string 5Human26AlignmentGuidanceProvidingRzAA030FirstCorrectlyAlignedTimestampD0RzAA08RepCountD0RzAA08SkeletonD0RzAA0hD0RzAA22CompensationModifiableR_AA025PoseAssessmentRefProviderM0R_AA0ijM0R_s8SendableR_r0_lAA0nO0C10SitToStandVyxq__G
+- _type_layout_string 5Human26AlignmentGuidanceProvidingRzAA030FirstCorrectlyAlignedTimestampD0RzAA08RepCountD0RzAA08SkeletonD0RzAA0hD0RzAA22CompensationModifiableR_AA025PoseAssessmentRefProviderM0R_AA0ijM0R_s8SendableR_r0_lAA0nO0C13OverheadSquatVyxq__G
+- _type_layout_string 5Human26AlignmentGuidanceProvidingRzAA030FirstCorrectlyAlignedTimestampD0RzAA08RepCountD0RzAA08SkeletonD0RzAA0hD0RzAA22CompensationModifiableR_AA025PoseAssessmentRefProviderM0R_AA0ijM0R_s8SendableR_r0_lAA0nO0C15SingleLegStanceVyxq__G
+- _type_layout_string 5Human26AlignmentGuidanceProvidingRzAA030FirstCorrectlyAlignedTimestampD0RzAA08RepCountD0RzAA08SkeletonD0RzAA0hD0RzAA22CompensationModifiableR_AA025PoseAssessmentRefProviderM0R_AA0ijM0R_s8SendableR_r0_lAA0nO0C17OverheadSquatSideVyxq__G
+- _type_layout_string 5Human26AlignmentGuidanceProvidingRzAA030FirstCorrectlyAlignedTimestampD0RzAA08RepCountD0RzAA08SkeletonD0RzAA0hD0RzAA22CompensationModifiableR_AA025PoseAssessmentRefProviderM0R_AA0ijM0R_s8SendableR_r0_lAA0nO0C5PlankVyxq__G
+- _type_layout_string 5Human26AlignmentGuidanceProvidingRzAA030FirstCorrectlyAlignedTimestampD0RzAA08RepCountD0RzAA08SkeletonD0RzAA0hD0RzAA22CompensationModifiableR_AA025PoseAssessmentRefProviderM0R_AA0ijM0R_s8SendableR_r0_lAA0nO0C6PushupVyxq__G
+CStrings:
++ "%{public}s: %{public}ld of %{public}ld entries."
++ "A stream from applied(to:) has one consumer, but a second pull arrived for "
++ "Cannot create input for capture device: %{private}@"
++ "Cannot finish: %{private}s"
++ "CoachingLatency %{public}s %{public}s"
++ "Could not create a rotated buffer from the pool"
++ "Dropped metadata for %{public}ld frames; the writer was behind"
++ "Hand-raise suppressed by forearm reliability gate (%{public}s)"
++ "Human/AssetManagement.swift"
++ "Human/BatteryMonitor.swift"
++ "Human/CommandLineOverlayRenderer.swift"
++ "Human/CompositingView.swift"
++ "Human/DeviceOrientationMonitor.swift"
++ "Human/ImageAndMotionDescriptorAdaptor.swift"
++ "Human/LowPowerModeMonitor.swift"
++ "Human/MovementEvaluationManager.swift"
++ "Human/OperationSerializer.swift"
++ "Human/PixelBufferMetalView.swift"
++ "Human/PlaybackGate.swift"
++ "Human/Preview2DSkeleton.swift"
++ "Human/Renderer2DView.swift"
++ "Human/SparkleCirclesView.swift"
++ "Human/SparkleJointView.swift"
++ "Human/SparkleView.swift"
++ "Human/ThermalStateMonitor.swift"
++ "Human/VFMEstimator.swift"
++ "Ignoring a resume to the uninitialized state"
++ "Metadata dropped: the writer had already finished"
++ "Put both knees on the floor."
++ "Reentrant stateful inference"
++ "Stateful inference state replaced mid-span"
++ "StreamProcessor.next() re-entered for %{public}s"
++ "Turn side swapped to %{public}s for %{public}s at yaw %{public}f"
++ "Unbalanced stateful inference monitor end"
++ "_createCheckedThrowingContinuation(_:)"
++ "com.apple.Human.MOVWriterNode.metadata"
++ "deliveryToSpokenMs"
++ "drainPendingMetadata()"
++ "finishedSuccessfully"
++ "noProgressTimeout"
++ "pendingOrPlaying"
++ "queryToDeliveryMs"
++ "queryToResponseReadyMs"
++ "sinceLastHeardMs"
+- "\n\tExpected Audio Streams: "
+- "Coaching when exercise ends due to inactivity"
+- "Confirmation that user is correctly aligned"
+- "Confirmation when user is correctly placed (canonical, used by LLM coaches)"
+- "Everything is completed."
+- "Heuristic-mode alternate confirmation when user is correctly placed"
+- "Lower both your knees."
+- "No writer for finishing"
+- "Ok, that’s it for now."
+- "Step test coaching when the heart rate signal is unavailable"
+- "There’s a problem reading your heart rate. Make sure your heart rate device is snug and in contact with your skin."
+- "Unexpected stop state: %{private}s"
+- "Waiting on audio streams to be added to the writer before continuing..."
+- "You’re all done."
+- "alignment.correctlyAligned.primary"
+- "alignment.correctlyAligned.variant1"
+- "alignment.correctlyAligned.variant2"
+- "com.apple.Human.CameraReader.ProcessingQueue"
+- "compensationIncompleteSit"
+- "exercise.heartRateStreamProblem.primary"
+- "exercise.inactivity.primary"
+- "exercise.inactivity.variant1"
+- "exercise.inactivity.variant2"
+- "heartRateStreamLowAvailability"
+- "placement.correctlyPlaced.primary"
+- "placement.correctlyPlaced.variant1"
+- "placement.correctlyPlaced.variant2"
+```

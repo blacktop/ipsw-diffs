@@ -1,0 +1,770 @@
+## NewsAnalyticsUpload
+
+> `/System/Library/PrivateFrameworks/NewsAnalyticsUpload.framework/NewsAnalyticsUpload`
+
+```diff
+
+-5971.0.0.0.0
+-  __TEXT.__text: 0x19168
+-  __TEXT.__objc_methlist: 0xb5c
+-  __TEXT.__const: 0x1889
+-  __TEXT.__cstring: 0x2fae
++6006.0.0.0.0
++  __TEXT.__text: 0x193a0
++  __TEXT.__objc_methlist: 0xb3c
++  __TEXT.__const: 0x1879
++  __TEXT.__cstring: 0x303e
+   __TEXT.__gcc_except_tab: 0x178
+   __TEXT.__oslogstring: 0x1c9
+-  __TEXT.__constg_swiftt: 0x3c8
+-  __TEXT.__swift5_typeref: 0x46b
+-  __TEXT.__swift5_fieldmd: 0x860
++  __TEXT.__constg_swiftt: 0x37c
++  __TEXT.__swift5_typeref: 0x4a7
++  __TEXT.__swift5_reflstr: 0x5e7
++  __TEXT.__swift5_fieldmd: 0x844
+   __TEXT.__swift5_builtin: 0x14
+-  __TEXT.__swift5_proto: 0x180
+-  __TEXT.__swift5_types: 0x6c
+-  __TEXT.__swift5_reflstr: 0x5f7
++  __TEXT.__swift5_types: 0x68
++  __TEXT.__swift5_proto: 0x17c
+   __TEXT.__swift5_assocty: 0xd8
+   __TEXT.__swift5_capture: 0x58
+-  __TEXT.__unwind_info: 0xb68
++  __TEXT.__unwind_info: 0xb50
+   __TEXT.__eh_frame: 0x6d8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x9f8
+-  __DATA_CONST.__objc_classlist: 0x68
++  __DATA_CONST.__const: 0xa20
++  __DATA_CONST.__objc_classlist: 0x58
+   __DATA_CONST.__objc_protolist: 0x90
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xb70
++  __DATA_CONST.__objc_selrefs: 0xb78
+   __DATA_CONST.__objc_protorefs: 0x20
+   __DATA_CONST.__objc_superrefs: 0x40
+   __DATA_CONST.__objc_arraydata: 0x58
+-  __DATA_CONST.__got: 0x368
+-  __AUTH_CONST.__const: 0x14f0
++  __DATA_CONST.__got: 0x378
++  __AUTH_CONST.__const: 0x1568
+   __AUTH_CONST.__cfstring: 0x5a0
+-  __AUTH_CONST.__objc_const: 0x1520
++  __AUTH_CONST.__objc_const: 0x1420
+   __AUTH_CONST.__objc_intobj: 0x1b0
+   __AUTH_CONST.__objc_arrayobj: 0x18
+-  __AUTH_CONST.__auth_got: 0x760
+-  __AUTH.__objc_data: 0x90
++  __AUTH_CONST.__auth_got: 0x770
++  __AUTH.__objc_data: 0x48
+   __DATA.__objc_ivar: 0x80
+-  __DATA.__data: 0x740
+-  __DATA_DIRTY.__objc_data: 0x3b8
+-  __DATA_DIRTY.__data: 0x598
+-  __DATA_DIRTY.__bss: 0x1c10
++  __DATA.__data: 0x780
++  __DATA_DIRTY.__objc_data: 0x348
++  __DATA_DIRTY.__data: 0x4a0
++  __DATA_DIRTY.__bss: 0x1b10
+   __DATA_DIRTY.__common: 0x30
++  - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+-  - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/PrivateFrameworks/AppAnalytics.framework/AppAnalytics
+   - /System/Library/PrivateFrameworks/NewsCore.framework/NewsCore
+   - /System/Library/PrivateFrameworks/NewsDaemon.framework/NewsDaemon
+
+   - /System/Library/PrivateFrameworks/TeaFoundation.framework/TeaFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
++  - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCore.dylib
++  - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
++  - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+-  - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 795
+-  Symbols:   880
+-  CStrings:  273
++  Functions: 790
++  Symbols:   248
++  CStrings:  276
+ 
+Symbols:
++ _NDConfigureAnalyticsEnvelopeManagerXPCHandler
++ __swift_FORCE_LOAD_$_swiftAVFoundation
++ __swift_FORCE_LOAD_$_swiftCoreAudio
++ __swift_FORCE_LOAD_$_swiftCoreMIDI
++ _kNSURLSessionLaunchOnDemandNotificationName
++ _kNSURLSessionLaunchOnDemandSessionIdentifierKey
++ _swift_release_x25
++ _xpc_dictionary_get_string
++ _xpc_set_event_stream_handler
+- +[NAUAnalyticsEnvelopeTracker _contentTypeProperty]
+- +[NAUAnalyticsEnvelopeTracker _daysSinceSubmissionDateProperty]
+- +[NAUAnalyticsEnvelopeTracker _registerContentTypes:withEventName:]
+- +[NAUAnalyticsEnvelopeTracker _registerEnvelopes:withEventName:]
+- +[NAUAnalyticsEnvelopeTracker registerEnvelopeContentTypesAsDropped:forReason:withError:]
+- +[NAUAnalyticsEnvelopeTracker registerEnvelopeContentTypesAsPreparedForUpload:]
+- +[NAUAnalyticsEnvelopeTracker registerEnvelopeContentTypesAsRetainedForUploadRetry:]
+- +[NAUAnalyticsEnvelopeTracker registerEnvelopeContentTypesAsUploaded:]
+- +[NAUAnalyticsEnvelopeTracker registerEnvelopeCreationAnticipatedForContentType:]
+- +[NAUAnalyticsEnvelopeTracker registerEnvelopesAsCreated:]
+- +[NAUAnalyticsEnvelopeTracker registerEnvelopesAsReceivedByUploader:]
+- +[NAUAnalyticsEnvelopeTracker registerEnvelopesAsSubmittedToUploader:]
+- -[NDAnalyticsEnvelopeManager .cxx_destruct]
+- -[NDAnalyticsEnvelopeManager URLSessionQueue]
+- -[NDAnalyticsEnvelopeManager _handleDroppedEnvelopesForLocalReasons:]
+- -[NDAnalyticsEnvelopeManager _handleOutcomeOfUploadAttemptWithPayload:success:error:willRetry:hitEndpoint:]
+- -[NDAnalyticsEnvelopeManager _lastUploadDatesByContentType]
+- -[NDAnalyticsEnvelopeManager _scheduleUploadIfNeededWithCompletion:]
+- -[NDAnalyticsEnvelopeManager _uploadTelemetryEnvelopes:]
+- -[NDAnalyticsEnvelopeManager envelopeStore:didFlushEnvelopesForEntries:]
+- -[NDAnalyticsEnvelopeManager envelopeStore]
+- -[NDAnalyticsEnvelopeManager handleLaunchEventForBackgroundSessionWithIdentifier:completion:]
+- -[NDAnalyticsEnvelopeManager initWithAppConfigurationManager:telemetryUploader:storeDirectoryFileURL:URLSessionQueue:]
+- -[NDAnalyticsEnvelopeManager init]
+- -[NDAnalyticsEnvelopeManager keyValueStoreLock]
+- -[NDAnalyticsEnvelopeManager lastUploadDatesByContentType]
+- -[NDAnalyticsEnvelopeManager payloadAssembler]
+- -[NDAnalyticsEnvelopeManager payloadUploader]
+- -[NDAnalyticsEnvelopeManager setEnvelopeStore:]
+- -[NDAnalyticsEnvelopeManager setKeyValueStoreLock:]
+- -[NDAnalyticsEnvelopeManager setLastUploadDatesByContentType:]
+- -[NDAnalyticsEnvelopeManager setPayloadAssembler:]
+- -[NDAnalyticsEnvelopeManager setPayloadUploader:]
+- -[NDAnalyticsEnvelopeManager setSubmissionQueue:]
+- -[NDAnalyticsEnvelopeManager setTelemetryUploader:]
+- -[NDAnalyticsEnvelopeManager setUploadScheduler:]
+- -[NDAnalyticsEnvelopeManager submissionQueue]
+- -[NDAnalyticsEnvelopeManager submitEnvelopes:withCompletion:]
+- -[NDAnalyticsEnvelopeManager telemetryUploader]
+- -[NDAnalyticsEnvelopeManager uploadScheduler:performUploadWithCompletion:]
+- -[NDAnalyticsEnvelopeManager uploadSchedulerDidDropScheduledBackgroundUpload:]
+- -[NDAnalyticsEnvelopeManager uploadScheduler]
+- -[NDAnalyticsEnvelopeStore .cxx_destruct]
+- -[NDAnalyticsEnvelopeStore _deleteEnvelopesForKeysFromStore:]
+- -[NDAnalyticsEnvelopeStore _reportEnvelopesToNewsAutomationIfNeeded:]
+- -[NDAnalyticsEnvelopeStore allEntriesWithHoldToken:]
+- -[NDAnalyticsEnvelopeStore assetStore]
+- -[NDAnalyticsEnvelopeStore cacheCoordinator:flushKeysWithWriteLock:]
+- -[NDAnalyticsEnvelopeStore cacheCoordinatorCurrentSizeWithReadLock:]
+- -[NDAnalyticsEnvelopeStore cacheCoordinator]
+- -[NDAnalyticsEnvelopeStore copyEnvelopes:]
+- -[NDAnalyticsEnvelopeStore deleteEnvelopesForEntries:]
+- -[NDAnalyticsEnvelopeStore enableFlushing]
+- -[NDAnalyticsEnvelopeStore envelopesForEntries:]
+- -[NDAnalyticsEnvelopeStore initWithStoreDirectoryFileURL:]
+- -[NDAnalyticsEnvelopeStore init]
+- -[NDAnalyticsEnvelopeStore observer]
+- -[NDAnalyticsEnvelopeStore setAssetStore:]
+- -[NDAnalyticsEnvelopeStore setCacheCoordinator:]
+- -[NDAnalyticsEnvelopeStore setObserver:]
+- -[NDAnalyticsEnvelopeStore sizesOfEnvelopesWithEntries:]
+- -[NDAnalyticsEnvelopeStoreEntry .cxx_destruct]
+- -[NDAnalyticsEnvelopeStoreEntry copyWithZone:]
+- -[NDAnalyticsEnvelopeStoreEntry description]
+- -[NDAnalyticsEnvelopeStoreEntry envelopeContentType]
+- -[NDAnalyticsEnvelopeStoreEntry envelopeIdentifier]
+- -[NDAnalyticsEnvelopeStoreEntry envelopeSubmissionDate]
+- -[NDAnalyticsEnvelopeStoreEntry hash]
+- -[NDAnalyticsEnvelopeStoreEntry initWithStringRepresentation:]
+- -[NDAnalyticsEnvelopeStoreEntry init]
+- -[NDAnalyticsEnvelopeStoreEntry isEqual:]
+- -[NDAnalyticsEnvelopeStoreEntry setEnvelopeContentType:]
+- -[NDAnalyticsEnvelopeStoreEntry setEnvelopeIdentifier:]
+- -[NDAnalyticsEnvelopeStoreEntry setEnvelopeSubmissionDate:]
+- -[NDAnalyticsEnvelopeStoreEntry stringRepresentation]
+- -[NDAnalyticsPayloadAssembler .cxx_destruct]
+- -[NDAnalyticsPayloadAssembler _fetchAnalyticsEnvelopeContentTypeConfigsWithCompletion:]
+- -[NDAnalyticsPayloadAssembler assemblePayloadsWithEntries:lastUploadDatesByContentType:droppedEnvelopeReasonsToUpload:envelopeSizeByEntry:completion:]
+- -[NDAnalyticsPayloadAssembler configProvider]
+- -[NDAnalyticsPayloadAssembler determinePayloadDeliveryWindowForEntries:withLastUploadDatesByContentType:completion:]
+- -[NDAnalyticsPayloadAssembler initWithConfigProvider:maxPayloadSize:]
+- -[NDAnalyticsPayloadAssembler init]
+- -[NDAnalyticsPayloadAssembler maxPayloadSize]
+- -[NDAnalyticsPayloadAssembler setConfigProvider:]
+- -[NDAnalyticsPayloadAssembler setMaxPayloadSize:]
+- -[NDAnalyticsPayloadInfo .cxx_destruct]
+- -[NDAnalyticsPayloadInfo copyWithZone:]
+- -[NDAnalyticsPayloadInfo droppedEntriesByReason]
+- -[NDAnalyticsPayloadInfo endpointURL]
+- -[NDAnalyticsPayloadInfo entriesToUpload]
+- -[NDAnalyticsPayloadInfo init]
+- -[NDAnalyticsPayloadInfo setDroppedEntriesByReason:]
+- -[NDAnalyticsPayloadInfo setEndpointURL:]
+- -[NDAnalyticsPayloadInfo setEntriesToUpload:]
+- -[NDAnalyticsPayloadInfo setValuesByHTTPHeaderField:]
+- -[NDAnalyticsPayloadInfo valuesByHTTPHeaderField]
+- -[NDAnalyticsPayloadUploader .cxx_destruct]
+- -[NDAnalyticsPayloadUploader endpointConnection]
+- -[NDAnalyticsPayloadUploader initWithAppConfigurationManager:]
+- -[NDAnalyticsPayloadUploader init]
+- -[NDAnalyticsPayloadUploader setEndpointConnection:]
+- -[NDAnalyticsPayloadUploader setUploadQueue:]
+- -[NDAnalyticsPayloadUploader uploadPayloadsForInfos:withEnvelopeStore:perPayloadCompletion:completion:]
+- -[NDAnalyticsPayloadUploader uploadQueue]
+- -[NDAnalyticsUploadScheduler .cxx_destruct]
+- -[NDAnalyticsUploadScheduler URLSession:task:didCompleteWithError:]
+- -[NDAnalyticsUploadScheduler URLSession:task:willBeginDelayedRequest:completionHandler:]
+- -[NDAnalyticsUploadScheduler URLSessionDidFinishEventsForBackgroundURLSession:]
+- -[NDAnalyticsUploadScheduler _scheduleBackgroundUploadInWindow:]
+- -[NDAnalyticsUploadScheduler _uploadWithCompletion:]
+- -[NDAnalyticsUploadScheduler backgroundSessionLaunchEventCounter]
+- -[NDAnalyticsUploadScheduler backgroundSessionQueue]
+- -[NDAnalyticsUploadScheduler backgroundSession]
+- -[NDAnalyticsUploadScheduler delegate]
+- -[NDAnalyticsUploadScheduler deliveryWindow]
+- -[NDAnalyticsUploadScheduler handleLaunchEventForBackgroundSessionWithIdentifier:completion:]
+- -[NDAnalyticsUploadScheduler initWithURLSessionQueue:]
+- -[NDAnalyticsUploadScheduler init]
+- -[NDAnalyticsUploadScheduler lock]
+- -[NDAnalyticsUploadScheduler operationThrottler:performAsyncOperationWithCompletion:]
+- -[NDAnalyticsUploadScheduler scheduleUploadInWindow:withForegroundUploadCompletion:]
+- -[NDAnalyticsUploadScheduler schedulingAndForegroundUploadThrottler]
+- -[NDAnalyticsUploadScheduler setBackgroundSession:]
+- -[NDAnalyticsUploadScheduler setBackgroundSessionLaunchEventCounter:]
+- -[NDAnalyticsUploadScheduler setBackgroundSessionQueue:]
+- -[NDAnalyticsUploadScheduler setDelegate:]
+- -[NDAnalyticsUploadScheduler setDeliveryWindow:]
+- -[NDAnalyticsUploadScheduler setLock:]
+- -[NDAnalyticsUploadScheduler setSchedulingAndForegroundUploadThrottler:]
+- -[NDAnalyticsUploadScheduler setUploadQueue:]
+- -[NDAnalyticsUploadScheduler uploadQueue]
+- -[NDAppConfigAnalyticsPayloadAssemblerConfigProvider .cxx_destruct]
+- -[NDAppConfigAnalyticsPayloadAssemblerConfigProvider appConfigurationManager]
+- -[NDAppConfigAnalyticsPayloadAssemblerConfigProvider fetchConfigWithCompletion:]
+- -[NDAppConfigAnalyticsPayloadAssemblerConfigProvider initWithAppConfigurationManager:]
+- -[NDAppConfigAnalyticsPayloadAssemblerConfigProvider init]
+- -[NDAppConfigAnalyticsPayloadAssemblerConfigProvider setAppConfigurationManager:]
+- <redacted>
+- GCC_except_table13
+- GCC_except_table15
+- GCC_except_table17
+- GCC_except_table19
+- GCC_except_table2
+- GCC_except_table22
+- GCC_except_table3
+- GCC_except_table7
+- GCC_except_table9
+- _NDSharedClientLog.once
+- _NDSharedClientLog.result
+- _NDSharedServiceLog.once
+- _NDSharedServiceLog.result
+- _OBJC_CLASS_$_NDAnalyticsUploadFrameworkAssembly
+- _OBJC_IVAR_$_NDAnalyticsEnvelopeManager._URLSessionQueue
+- _OBJC_IVAR_$_NDAnalyticsEnvelopeManager._envelopeStore
+- _OBJC_IVAR_$_NDAnalyticsEnvelopeManager._keyValueStoreLock
+- _OBJC_IVAR_$_NDAnalyticsEnvelopeManager._lastUploadDatesByContentType
+- _OBJC_IVAR_$_NDAnalyticsEnvelopeManager._payloadAssembler
+- _OBJC_IVAR_$_NDAnalyticsEnvelopeManager._payloadUploader
+- _OBJC_IVAR_$_NDAnalyticsEnvelopeManager._submissionQueue
+- _OBJC_IVAR_$_NDAnalyticsEnvelopeManager._telemetryUploader
+- _OBJC_IVAR_$_NDAnalyticsEnvelopeManager._uploadScheduler
+- _OBJC_IVAR_$_NDAnalyticsEnvelopeStore._assetStore
+- _OBJC_IVAR_$_NDAnalyticsEnvelopeStore._cacheCoordinator
+- _OBJC_IVAR_$_NDAnalyticsEnvelopeStore._observer
+- _OBJC_IVAR_$_NDAnalyticsEnvelopeStoreEntry._envelopeContentType
+- _OBJC_IVAR_$_NDAnalyticsEnvelopeStoreEntry._envelopeIdentifier
+- _OBJC_IVAR_$_NDAnalyticsEnvelopeStoreEntry._submissionDateMillisecondsSince1970
+- _OBJC_IVAR_$_NDAnalyticsPayloadAssembler._configProvider
+- _OBJC_IVAR_$_NDAnalyticsPayloadAssembler._maxPayloadSize
+- _OBJC_IVAR_$_NDAnalyticsPayloadInfo._droppedEntriesByReason
+- _OBJC_IVAR_$_NDAnalyticsPayloadInfo._endpointURL
+- _OBJC_IVAR_$_NDAnalyticsPayloadInfo._entriesToUpload
+- _OBJC_IVAR_$_NDAnalyticsPayloadInfo._valuesByHTTPHeaderField
+- _OBJC_IVAR_$_NDAnalyticsPayloadUploader._endpointConnection
+- _OBJC_IVAR_$_NDAnalyticsPayloadUploader._uploadQueue
+- _OBJC_IVAR_$_NDAnalyticsUploadScheduler._backgroundSession
+- _OBJC_IVAR_$_NDAnalyticsUploadScheduler._backgroundSessionLaunchEventCounter
+- _OBJC_IVAR_$_NDAnalyticsUploadScheduler._backgroundSessionQueue
+- _OBJC_IVAR_$_NDAnalyticsUploadScheduler._delegate
+- _OBJC_IVAR_$_NDAnalyticsUploadScheduler._deliveryWindow
+- _OBJC_IVAR_$_NDAnalyticsUploadScheduler._lock
+- _OBJC_IVAR_$_NDAnalyticsUploadScheduler._schedulingAndForegroundUploadThrottler
+- _OBJC_IVAR_$_NDAnalyticsUploadScheduler._uploadQueue
+- _OBJC_IVAR_$_NDAppConfigAnalyticsPayloadAssemblerConfigProvider._appConfigurationManager
+- _OBJC_METACLASS_$_NDAnalyticsUploadFrameworkAssembly
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_4
+- _OUTLINED_FUNCTION_5
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_7
+- __DATA_NDAnalyticsTelemetryUploader
+- __DATA_NDAnalyticsUploadFrameworkAssembly
+- __DATA__TtC19NewsAnalyticsUpload15DynamicEndpoint
+- __DATA__TtC19NewsAnalyticsUpload17TelemetryAssembly
+- __INSTANCE_METHODS_NDAnalyticsTelemetryUploader
+- __INSTANCE_METHODS_NDAnalyticsUploadFrameworkAssembly
+- __INSTANCE_METHODS__TtC19NewsAnalyticsUpload15DynamicEndpoint
+- __IVARS_NDAnalyticsTelemetryUploader
+- __IVARS_NDAnalyticsUploadFrameworkAssembly
+- __IVARS__TtC19NewsAnalyticsUpload15DynamicEndpoint
+- __METACLASS_DATA_NDAnalyticsTelemetryUploader
+- __METACLASS_DATA_NDAnalyticsUploadFrameworkAssembly
+- __METACLASS_DATA__TtC19NewsAnalyticsUpload15DynamicEndpoint
+- __METACLASS_DATA__TtC19NewsAnalyticsUpload17TelemetryAssembly
+- __OBJC_$_CLASS_METHODS_NAUAnalyticsEnvelopeTracker
+- __OBJC_$_INSTANCE_METHODS_NDAnalyticsEnvelopeManager
+- __OBJC_$_INSTANCE_METHODS_NDAnalyticsEnvelopeStore
+- __OBJC_$_INSTANCE_METHODS_NDAnalyticsEnvelopeStoreEntry
+- __OBJC_$_INSTANCE_METHODS_NDAnalyticsPayloadAssembler
+- __OBJC_$_INSTANCE_METHODS_NDAnalyticsPayloadInfo
+- __OBJC_$_INSTANCE_METHODS_NDAnalyticsPayloadUploader
+- __OBJC_$_INSTANCE_METHODS_NDAnalyticsUploadScheduler
+- __OBJC_$_INSTANCE_METHODS_NDAppConfigAnalyticsPayloadAssemblerConfigProvider
+- __OBJC_$_INSTANCE_VARIABLES_NDAnalyticsEnvelopeManager
+- __OBJC_$_INSTANCE_VARIABLES_NDAnalyticsEnvelopeStore
+- __OBJC_$_INSTANCE_VARIABLES_NDAnalyticsEnvelopeStoreEntry
+- __OBJC_$_INSTANCE_VARIABLES_NDAnalyticsPayloadAssembler
+- __OBJC_$_INSTANCE_VARIABLES_NDAnalyticsPayloadInfo
+- __OBJC_$_INSTANCE_VARIABLES_NDAnalyticsPayloadUploader
+- __OBJC_$_INSTANCE_VARIABLES_NDAnalyticsUploadScheduler
+- __OBJC_$_INSTANCE_VARIABLES_NDAppConfigAnalyticsPayloadAssemblerConfigProvider
+- __OBJC_$_PROP_LIST_FCNewsAppConfigurationManager
+- __OBJC_$_PROP_LIST_NDAnalyticsEnvelopeManager
+- __OBJC_$_PROP_LIST_NDAnalyticsEnvelopeStore
+- __OBJC_$_PROP_LIST_NDAnalyticsEnvelopeStoreEntry
+- __OBJC_$_PROP_LIST_NDAnalyticsPayloadAssembler
+- __OBJC_$_PROP_LIST_NDAnalyticsPayloadInfo
+- __OBJC_$_PROP_LIST_NDAnalyticsPayloadUploader
+- __OBJC_$_PROP_LIST_NDAnalyticsUploadScheduler
+- __OBJC_$_PROP_LIST_NDAppConfigAnalyticsPayloadAssemblerConfigProvider
+- __OBJC_$_PROP_LIST_NSObject
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCCacheCoordinatorDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCNewsAppConfigurationManager
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NDAnalyticsEnvelopeStore
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NDAnalyticsEnvelopeStoreEntry
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NDAnalyticsEnvelopeStoreObserver
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NDAnalyticsPayloadAssemblerConfigProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NDAnalyticsPayloadInfo
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NDAnalyticsService
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NDAnalyticsUploadSchedulerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FCCacheCoordinatorDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FCNewsAppConfigurationManager
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FCOperationThrottlerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSURLSessionDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSURLSessionTaskDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCCacheCoordinatorDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCNewsAppConfigurationManager
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCOperationThrottlerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NDAnalyticsEnvelopeStore
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NDAnalyticsEnvelopeStoreEntry
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NDAnalyticsEnvelopeStoreObserver
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NDAnalyticsPayloadAssemblerConfigProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NDAnalyticsPayloadInfo
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NDAnalyticsService
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NDAnalyticsUploadSchedulerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSURLSessionDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSURLSessionTaskDelegate
+- __OBJC_$_PROTOCOL_REFS_FCCacheCoordinatorDelegate
+- __OBJC_$_PROTOCOL_REFS_FCNewsAppConfigurationManager
+- __OBJC_$_PROTOCOL_REFS_FCOperationThrottlerDelegate
+- __OBJC_$_PROTOCOL_REFS_NDAnalyticsEnvelopeStore
+- __OBJC_$_PROTOCOL_REFS_NDAnalyticsEnvelopeStoreEntry
+- __OBJC_$_PROTOCOL_REFS_NDAnalyticsEnvelopeStoreObserver
+- __OBJC_$_PROTOCOL_REFS_NDAnalyticsPayloadInfo
+- __OBJC_$_PROTOCOL_REFS_NDAnalyticsService
+- __OBJC_$_PROTOCOL_REFS_NDAnalyticsUploadSchedulerDelegate
+- __OBJC_$_PROTOCOL_REFS_NSURLSessionDelegate
+- __OBJC_$_PROTOCOL_REFS_NSURLSessionTaskDelegate
+- __OBJC_CLASS_PROTOCOLS_$_NDAnalyticsEnvelopeManager
+- __OBJC_CLASS_PROTOCOLS_$_NDAnalyticsEnvelopeStore
+- __OBJC_CLASS_PROTOCOLS_$_NDAnalyticsEnvelopeStoreEntry
+- __OBJC_CLASS_PROTOCOLS_$_NDAnalyticsPayloadInfo
+- __OBJC_CLASS_PROTOCOLS_$_NDAnalyticsUploadScheduler
+- __OBJC_CLASS_PROTOCOLS_$_NDAppConfigAnalyticsPayloadAssemblerConfigProvider
+- __OBJC_CLASS_RO_$_NAUAnalyticsEnvelopeTracker
+- __OBJC_CLASS_RO_$_NDAnalyticsEnvelopeManager
+- __OBJC_CLASS_RO_$_NDAnalyticsEnvelopeStore
+- __OBJC_CLASS_RO_$_NDAnalyticsEnvelopeStoreEntry
+- __OBJC_CLASS_RO_$_NDAnalyticsPayloadAssembler
+- __OBJC_CLASS_RO_$_NDAnalyticsPayloadInfo
+- __OBJC_CLASS_RO_$_NDAnalyticsPayloadUploader
+- __OBJC_CLASS_RO_$_NDAnalyticsUploadScheduler
+- __OBJC_CLASS_RO_$_NDAppConfigAnalyticsPayloadAssemblerConfigProvider
+- __OBJC_LABEL_PROTOCOL_$_FCCacheCoordinatorDelegate
+- __OBJC_LABEL_PROTOCOL_$_FCNewsAppConfigurationManager
+- __OBJC_LABEL_PROTOCOL_$_FCOperationThrottlerDelegate
+- __OBJC_LABEL_PROTOCOL_$_NDAnalyticsEnvelopeStore
+- __OBJC_LABEL_PROTOCOL_$_NDAnalyticsEnvelopeStoreEntry
+- __OBJC_LABEL_PROTOCOL_$_NDAnalyticsEnvelopeStoreObserver
+- __OBJC_LABEL_PROTOCOL_$_NDAnalyticsPayloadAssemblerConfigProvider
+- __OBJC_LABEL_PROTOCOL_$_NDAnalyticsPayloadInfo
+- __OBJC_LABEL_PROTOCOL_$_NDAnalyticsService
+- __OBJC_LABEL_PROTOCOL_$_NDAnalyticsUploadSchedulerDelegate
+- __OBJC_LABEL_PROTOCOL_$_NSCopying
+- __OBJC_LABEL_PROTOCOL_$_NSObject
+- __OBJC_LABEL_PROTOCOL_$_NSURLSessionDelegate
+- __OBJC_LABEL_PROTOCOL_$_NSURLSessionTaskDelegate
+- __OBJC_METACLASS_RO_$_NAUAnalyticsEnvelopeTracker
+- __OBJC_METACLASS_RO_$_NDAnalyticsEnvelopeManager
+- __OBJC_METACLASS_RO_$_NDAnalyticsEnvelopeStore
+- __OBJC_METACLASS_RO_$_NDAnalyticsEnvelopeStoreEntry
+- __OBJC_METACLASS_RO_$_NDAnalyticsPayloadAssembler
+- __OBJC_METACLASS_RO_$_NDAnalyticsPayloadInfo
+- __OBJC_METACLASS_RO_$_NDAnalyticsPayloadUploader
+- __OBJC_METACLASS_RO_$_NDAnalyticsUploadScheduler
+- __OBJC_METACLASS_RO_$_NDAppConfigAnalyticsPayloadAssemblerConfigProvider
+- __OBJC_PROTOCOL_$_FCCacheCoordinatorDelegate
+- __OBJC_PROTOCOL_$_FCNewsAppConfigurationManager
+- __OBJC_PROTOCOL_$_FCOperationThrottlerDelegate
+- __OBJC_PROTOCOL_$_NDAnalyticsEnvelopeStore
+- __OBJC_PROTOCOL_$_NDAnalyticsEnvelopeStoreEntry
+- __OBJC_PROTOCOL_$_NDAnalyticsEnvelopeStoreObserver
+- __OBJC_PROTOCOL_$_NDAnalyticsPayloadAssemblerConfigProvider
+- __OBJC_PROTOCOL_$_NDAnalyticsPayloadInfo
+- __OBJC_PROTOCOL_$_NDAnalyticsService
+- __OBJC_PROTOCOL_$_NDAnalyticsUploadSchedulerDelegate
+- __OBJC_PROTOCOL_$_NSCopying
+- __OBJC_PROTOCOL_$_NSObject
+- __OBJC_PROTOCOL_$_NSURLSessionDelegate
+- __OBJC_PROTOCOL_$_NSURLSessionTaskDelegate
+- __PROPERTIES__TtC19NewsAnalyticsUpload15DynamicEndpoint
+- __PROTOCOLS__TtC19NewsAnalyticsUpload15DynamicEndpoint
+- __PROTOCOL_AAEndpointProvider
+- __PROTOCOL_AAEndpointType
+- __PROTOCOL_INSTANCE_METHODS_AAEndpointProvider
+- __PROTOCOL_INSTANCE_METHODS_AAEndpointType
+- __PROTOCOL_METHOD_TYPES_AAEndpointProvider
+- __PROTOCOL_METHOD_TYPES_AAEndpointType
+- __PROTOCOL_PROPERTIES_AAEndpointType
+- __PROTOCOL_PROTOCOLS_AAEndpointProvider
+- ___103-[NDAnalyticsPayloadUploader uploadPayloadsForInfos:withEnvelopeStore:perPayloadCompletion:completion:]_block_invoke
+- ___103-[NDAnalyticsPayloadUploader uploadPayloadsForInfos:withEnvelopeStore:perPayloadCompletion:completion:]_block_invoke_2
+- ___103-[NDAnalyticsPayloadUploader uploadPayloadsForInfos:withEnvelopeStore:perPayloadCompletion:completion:]_block_invoke_3
+- ___103-[NDAnalyticsPayloadUploader uploadPayloadsForInfos:withEnvelopeStore:perPayloadCompletion:completion:]_block_invoke_4
+- ___107-[NDAnalyticsEnvelopeManager _handleOutcomeOfUploadAttemptWithPayload:success:error:willRetry:hitEndpoint:]_block_invoke
+- ___107-[NDAnalyticsEnvelopeManager _handleOutcomeOfUploadAttemptWithPayload:success:error:willRetry:hitEndpoint:]_block_invoke_2
+- ___107-[NDAnalyticsEnvelopeManager _handleOutcomeOfUploadAttemptWithPayload:success:error:willRetry:hitEndpoint:]_block_invoke_3
+- ___107-[NDAnalyticsEnvelopeManager _handleOutcomeOfUploadAttemptWithPayload:success:error:willRetry:hitEndpoint:]_block_invoke_4
+- ___116-[NDAnalyticsPayloadAssembler determinePayloadDeliveryWindowForEntries:withLastUploadDatesByContentType:completion:]_block_invoke
+- ___150-[NDAnalyticsPayloadAssembler assemblePayloadsWithEntries:lastUploadDatesByContentType:droppedEnvelopeReasonsToUpload:envelopeSizeByEntry:completion:]_block_invoke
+- ___150-[NDAnalyticsPayloadAssembler assemblePayloadsWithEntries:lastUploadDatesByContentType:droppedEnvelopeReasonsToUpload:envelopeSizeByEntry:completion:]_block_invoke_10
+- ___150-[NDAnalyticsPayloadAssembler assemblePayloadsWithEntries:lastUploadDatesByContentType:droppedEnvelopeReasonsToUpload:envelopeSizeByEntry:completion:]_block_invoke_11
+- ___150-[NDAnalyticsPayloadAssembler assemblePayloadsWithEntries:lastUploadDatesByContentType:droppedEnvelopeReasonsToUpload:envelopeSizeByEntry:completion:]_block_invoke_12
+- ___150-[NDAnalyticsPayloadAssembler assemblePayloadsWithEntries:lastUploadDatesByContentType:droppedEnvelopeReasonsToUpload:envelopeSizeByEntry:completion:]_block_invoke_13
+- ___150-[NDAnalyticsPayloadAssembler assemblePayloadsWithEntries:lastUploadDatesByContentType:droppedEnvelopeReasonsToUpload:envelopeSizeByEntry:completion:]_block_invoke_2
+- ___150-[NDAnalyticsPayloadAssembler assemblePayloadsWithEntries:lastUploadDatesByContentType:droppedEnvelopeReasonsToUpload:envelopeSizeByEntry:completion:]_block_invoke_3
+- ___150-[NDAnalyticsPayloadAssembler assemblePayloadsWithEntries:lastUploadDatesByContentType:droppedEnvelopeReasonsToUpload:envelopeSizeByEntry:completion:]_block_invoke_4
+- ___150-[NDAnalyticsPayloadAssembler assemblePayloadsWithEntries:lastUploadDatesByContentType:droppedEnvelopeReasonsToUpload:envelopeSizeByEntry:completion:]_block_invoke_5
+- ___150-[NDAnalyticsPayloadAssembler assemblePayloadsWithEntries:lastUploadDatesByContentType:droppedEnvelopeReasonsToUpload:envelopeSizeByEntry:completion:]_block_invoke_6
+- ___150-[NDAnalyticsPayloadAssembler assemblePayloadsWithEntries:lastUploadDatesByContentType:droppedEnvelopeReasonsToUpload:envelopeSizeByEntry:completion:]_block_invoke_7
+- ___150-[NDAnalyticsPayloadAssembler assemblePayloadsWithEntries:lastUploadDatesByContentType:droppedEnvelopeReasonsToUpload:envelopeSizeByEntry:completion:]_block_invoke_8
+- ___150-[NDAnalyticsPayloadAssembler assemblePayloadsWithEntries:lastUploadDatesByContentType:droppedEnvelopeReasonsToUpload:envelopeSizeByEntry:completion:]_block_invoke_9
+- ___36-[NDAnalyticsEnvelopeStore observer]_block_invoke
+- ___40-[NDAnalyticsEnvelopeStore setObserver:]_block_invoke
+- ___42-[NDAnalyticsEnvelopeStore copyEnvelopes:]_block_invoke
+- ___42-[NDAnalyticsEnvelopeStore copyEnvelopes:]_block_invoke_2
+- ___42-[NDAnalyticsEnvelopeStore copyEnvelopes:]_block_invoke_3
+- ___47-[NDAnalyticsUploadScheduler backgroundSession]_block_invoke
+- ___48-[NDAnalyticsEnvelopeStore envelopesForEntries:]_block_invoke
+- ___48-[NDAnalyticsEnvelopeStore envelopesForEntries:]_block_invoke_2
+- ___52-[NDAnalyticsEnvelopeStore allEntriesWithHoldToken:]_block_invoke
+- ___52-[NDAnalyticsUploadScheduler _uploadWithCompletion:]_block_invoke
+- ___52-[NDAnalyticsUploadScheduler _uploadWithCompletion:]_block_invoke_2
+- ___53-[NDAnalyticsEnvelopeStoreEntry stringRepresentation]_block_invoke
+- ___54-[NDAnalyticsEnvelopeStore deleteEnvelopesForEntries:]_block_invoke
+- ___56-[NDAnalyticsEnvelopeManager _uploadTelemetryEnvelopes:]_block_invoke
+- ___56-[NDAnalyticsEnvelopeStore sizesOfEnvelopesWithEntries:]_block_invoke
+- ___56-[NDAnalyticsEnvelopeStore sizesOfEnvelopesWithEntries:]_block_invoke_2
+- ___58+[NAUAnalyticsEnvelopeTracker registerEnvelopesAsCreated:]_block_invoke
+- ___59-[NDAnalyticsEnvelopeManager _lastUploadDatesByContentType]_block_invoke
+- ___59-[NDAnalyticsEnvelopeManager _lastUploadDatesByContentType]_block_invoke_2
+- ___61-[NDAnalyticsEnvelopeManager submitEnvelopes:withCompletion:]_block_invoke
+- ___61-[NDAnalyticsEnvelopeManager submitEnvelopes:withCompletion:]_block_invoke_2
+- ___64+[NAUAnalyticsEnvelopeTracker _registerEnvelopes:withEventName:]_block_invoke
+- ___64-[NDAnalyticsUploadScheduler _scheduleBackgroundUploadInWindow:]_block_invoke
+- ___64-[NDAnalyticsUploadScheduler _scheduleBackgroundUploadInWindow:]_block_invoke_2
+- ___68-[NDAnalyticsEnvelopeManager _scheduleUploadIfNeededWithCompletion:]_block_invoke
+- ___68-[NDAnalyticsEnvelopeManager _scheduleUploadIfNeededWithCompletion:]_block_invoke_2
+- ___69+[NAUAnalyticsEnvelopeTracker registerEnvelopesAsReceivedByUploader:]_block_invoke
+- ___69-[NDAnalyticsEnvelopeManager _handleDroppedEnvelopesForLocalReasons:]_block_invoke
+- ___70+[NAUAnalyticsEnvelopeTracker registerEnvelopeContentTypesAsUploaded:]_block_invoke
+- ___70+[NAUAnalyticsEnvelopeTracker registerEnvelopeContentTypesAsUploaded:]_block_invoke_2
+- ___70+[NAUAnalyticsEnvelopeTracker registerEnvelopesAsSubmittedToUploader:]_block_invoke
+- ___74-[NDAnalyticsEnvelopeManager uploadScheduler:performUploadWithCompletion:]_block_invoke
+- ___74-[NDAnalyticsEnvelopeManager uploadScheduler:performUploadWithCompletion:]_block_invoke_2
+- ___74-[NDAnalyticsEnvelopeManager uploadScheduler:performUploadWithCompletion:]_block_invoke_3
+- ___74-[NDAnalyticsEnvelopeManager uploadScheduler:performUploadWithCompletion:]_block_invoke_4
+- ___79+[NAUAnalyticsEnvelopeTracker registerEnvelopeContentTypesAsPreparedForUpload:]_block_invoke
+- ___80-[NDAppConfigAnalyticsPayloadAssemblerConfigProvider fetchConfigWithCompletion:]_block_invoke
+- ___84+[NAUAnalyticsEnvelopeTracker registerEnvelopeContentTypesAsRetainedForUploadRetry:]_block_invoke
+- ___84-[NDAnalyticsUploadScheduler scheduleUploadInWindow:withForegroundUploadCompletion:]_block_invoke
+- ___85-[NDAnalyticsUploadScheduler operationThrottler:performAsyncOperationWithCompletion:]_block_invoke
+- ___88-[NDAnalyticsUploadScheduler URLSession:task:willBeginDelayedRequest:completionHandler:]_block_invoke
+- ___89+[NAUAnalyticsEnvelopeTracker registerEnvelopeContentTypesAsDropped:forReason:withError:]_block_invoke
+- ___89+[NAUAnalyticsEnvelopeTracker registerEnvelopeContentTypesAsDropped:forReason:withError:]_block_invoke_2
+- ___Block_byref_object_copy_
+- ___Block_byref_object_dispose_
+- ___NDAnalyticsEnvelopeContentTypesFromEntries_block_invoke
+- ___NDAnalyticsEnvelopeStoreEntriesFromStringRepresentations_block_invoke
+- ___NDAnalyticsEnvelopeStoreStringRepresentationsOfEntries_block_invoke
+- ___NDAnalyticsEnvelopeSubmissionDatesByContentType_block_invoke
+- ___NDAnalyticsEnvelopeSubmissionDatesByContentType_block_invoke_2
+- ___NDSharedClientLog_block_invoke
+- ___NDSharedServiceLog_block_invoke
+- ___block_descriptor_32_e17_v16?0"NSArray"8l
+- ___block_descriptor_32_e18_B16?0"NSNumber"8l
+- ___block_descriptor_32_e22_B16?0"NTPBEnvelope"8l
+- ___block_descriptor_32_e28_"NSNumber"16?0"NSString"8l
+- ___block_descriptor_32_e29_B32?0"NTPBEnvelope"8Q16^B24l
+- ___block_descriptor_32_e31_q24?0"NSNumber"8"NSNumber"16l
+- ___block_descriptor_32_e32_"NSNumber"16?0"NTPBEnvelope"8l
+- ___block_descriptor_32_e33_v32?0"NSURLSessionTask"8Q16^B24l
+- ___block_descriptor_32_e34_v32?0"NSNumber"8"NSArray"16^B24l
+- ___block_descriptor_32_e41_"NSNumber"24?0"NSNumber"8"NSNumber"16l
+- ___block_descriptor_32_e49_"NDAnalyticsEnvelopeStoreEntry"16?0"NSString"8l
+- ___block_descriptor_32_e49_"NSDate"16?0"<NDAnalyticsEnvelopeStoreEntry>"8l
+- ___block_descriptor_32_e51_"NSNumber"16?0"<NDAnalyticsEnvelopeStoreEntry>"8l
+- ___block_descriptor_32_e51_"NSString"16?0"<NDAnalyticsEnvelopeStoreEntry>"8l
+- ___block_descriptor_32_e5_v8?0l
+- ___block_descriptor_32_e77_q24?0"<NDAnalyticsEnvelopeStoreEntry>"8"<NDAnalyticsEnvelopeStoreEntry>"16l
+- ___block_descriptor_40_e8_32bs_e14_v16?0?<v?>8ls32l8
+- ___block_descriptor_40_e8_32bs_e34_v32?0"NSNumber"8"NSArray"16^B24ls32l8
+- ___block_descriptor_40_e8_32bs_e46_v24?0"<FCNewsAppConfiguration>"8"NSError"16ls32l8
+- ___block_descriptor_40_e8_32bs_e5_v8?0ls32l8
+- ___block_descriptor_40_e8_32s_e18_B16?0"NSNumber"8ls32l8
+- ___block_descriptor_40_e8_32s_e27_"NSArray"16?0"NSNumber"8ls32l8
+- ___block_descriptor_40_e8_32s_e51_"NSNumber"16?0"<NDAnalyticsEnvelopeStoreEntry>"8ls32l8
+- ___block_descriptor_40_e8_32s_e55_"<NDAnalyticsEnvelopeStoreEntry>"16?0"NTPBEnvelope"8ls32l8
+- ___block_descriptor_40_e8_32s_e55_"NTPBEnvelope"16?0"<NDAnalyticsEnvelopeStoreEntry>"8ls32l8
+- ___block_descriptor_40_e8_32s_e5_v8?0ls32l8
+- ___block_descriptor_48_e8_32bs40bs_e5_v8?0ls32l8s40l8
+- ___block_descriptor_48_e8_32bs40r_e5_v8?0ls32l8r40l8
+- ___block_descriptor_48_e8_32r40r_e29_v24?0"NSArray"8"NSArray"16lr32l8r40l8
+- ___block_descriptor_48_e8_32s40bs_e14_v16?0?<v?>8ls40l8s32l8
+- ___block_descriptor_48_e8_32s40bs_e33_v24?0"FCDateRange"8"NSError"16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e5_v8?0ls40l8s32l8
+- ___block_descriptor_48_e8_32s40r_e5_v8?0lr40l8s32l8
+- ___block_descriptor_48_e8_32s40r_e5_v8?0ls32l8r40l8
+- ___block_descriptor_48_e8_32s40s_e24_v16?0"NSMutableArray"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e25_v32?0"NSString"8Q16^B24ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e48_v32?0"<NDAnalyticsEnvelopeStoreEntry>"8Q16^B24ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e5_v8?0ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e60_v32?0"NDAnalyticsEnvelopeStoreEntry"8"NTPBEnvelope"16^B24ls32l8s40l8
+- ___block_descriptor_48_e8_32s_e51_"NSNumber"16?0"<NDAnalyticsEnvelopeStoreEntry>"8ls32l8
+- ___block_descriptor_50_e8_32s40s_e17_v16?0"NSArray"8ls32l8s40l8
+- ___block_descriptor_56_e8_32s40bs48bs_e23_v24?0B8"NSError"12B20ls40l8s48l8s32l8
+- ___block_descriptor_56_e8_32s40bs48r_e5_v8?0ls32l8s40l8r48l8
+- ___block_descriptor_56_e8_32s40s48bs_e14_v16?0?<v?>8ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48bs_e37_v32?0"NSDictionary"8Q16"NSError"24ls48l8s32l8s40l8
+- ___block_descriptor_56_e8_32s40s48bs_e46_v32?0"NSArray"8"NSDictionary"16"NSError"24ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48bs_e8_v12?0B8ls48l8s32l8s40l8
+- ___block_descriptor_56_e8_32s40s48r_e49_v28?0"<NDAnalyticsPayloadInfo>"8"NSError"16B24ls32l8s40l8r48l8
+- ___block_descriptor_56_e8_32s40s48r_e5_v8?0ls32l8r48l8s40l8
+- ___block_descriptor_56_e8_32s40s48s_e20_v24?0Q8"NSArray"16ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48s_e41_B16?0"<NDAnalyticsEnvelopeStoreEntry>"8ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48s_e5_v8?0ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48s_e65_v32?0"NSNumber"8"NTPBAnalyticsEnvelopeContentTypeConfig"16^B24ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s_e34_v32?0"NSNumber"8"NSArray"16^B24ls32l8s40l8
+- ___block_descriptor_57_e8_32s40s48s_e34_v32?0"NSNumber"8"NSArray"16^B24ls32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40r48r_e5_v8?0lr40l8s32l8r48l8
+- ___block_descriptor_64_e8_32s40s48r56r_e33_v32?0"NSNumber"8"NSDate"16^B24ls32l8s40l8r48l8r56l8
+- ___block_descriptor_64_e8_32s40s48s56bs_e14_v16?0?<v?>8ls32l8s40l8s48l8s56l8
+- ___block_descriptor_64_e8_32s40s48s_e23_v32?0"NSDate"8Q16^B24ls32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s48s_e34_v32?0"NSNumber"8"NSArray"16^B24ls32l8s40l8s48l8
+- ___block_descriptor_72_e8_32s40s48s56s_e23_v32?0"NSDate"8Q16^B24ls32l8s40l8s48l8s56l8
+- ___block_descriptor_80_e8_32s40s48s56s64s72bs_e37_v32?0"NSDictionary"8Q16"NSError"24ls32l8s40l8s72l8s48l8s56l8s64l8
+- ___block_descriptor_96_e8_32s40s48s56s64s72s_e34_v32?0"NSNumber"8"NSArray"16^B24ls32l8s40l8s48l8s56l8s64l8s72l8
+- ___block_literal_global
+- ___swift_allocate_boxed_opaque_existential_1
+- ___swift_allocate_value_buffer
+- ___swift_closure_destructor
+- ___swift_destroy_boxed_opaque_existential_1
+- ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
+- ___swift_instantiateConcreteTypeFromMangledNameV2
+- ___swift_memcpy0_1
+- ___swift_memcpy1_1
+- ___swift_memcpy32_8
+- ___swift_memcpy56_8
+- ___swift_memcpy64_8
+- ___swift_memcpy95_8
+- ___swift_noop_void_return
+- ___swift_project_boxed_opaque_existential_1
+- ___swift_project_value_buffer
+- ___swift_reflection_version
+- __swift_FORCE_LOAD_$_swiftAccelerate_$_NewsAnalyticsUpload
+- __swift_FORCE_LOAD_$_swiftCoreFoundation_$_NewsAnalyticsUpload
+- __swift_FORCE_LOAD_$_swiftCoreImage_$_NewsAnalyticsUpload
+- __swift_FORCE_LOAD_$_swiftCoreLocation_$_NewsAnalyticsUpload
+- __swift_FORCE_LOAD_$_swiftDispatch_$_NewsAnalyticsUpload
+- __swift_FORCE_LOAD_$_swiftFoundation_$_NewsAnalyticsUpload
+- __swift_FORCE_LOAD_$_swiftMLCompute_$_NewsAnalyticsUpload
+- __swift_FORCE_LOAD_$_swiftMetal_$_NewsAnalyticsUpload
+- __swift_FORCE_LOAD_$_swiftNaturalLanguage_$_NewsAnalyticsUpload
+- __swift_FORCE_LOAD_$_swiftOSLog_$_NewsAnalyticsUpload
+- __swift_FORCE_LOAD_$_swiftObjectiveC_$_NewsAnalyticsUpload
+- __swift_FORCE_LOAD_$_swiftQuartzCore_$_NewsAnalyticsUpload
+- __swift_FORCE_LOAD_$_swiftSpatial
+- __swift_FORCE_LOAD_$_swiftSpatial_$_NewsAnalyticsUpload
+- __swift_FORCE_LOAD_$_swiftUIKit
+- __swift_FORCE_LOAD_$_swiftUIKit_$_NewsAnalyticsUpload
+- __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_NewsAnalyticsUpload
+- __swift_FORCE_LOAD_$_swiftXPC_$_NewsAnalyticsUpload
+- __swift_FORCE_LOAD_$_swift_Builtin_float_$_NewsAnalyticsUpload
+- __swift_FORCE_LOAD_$_swiftos_$_NewsAnalyticsUpload
+- __swift_FORCE_LOAD_$_swiftsimd_$_NewsAnalyticsUpload
+- _associated conformance 19NewsAnalyticsUpload10CacheStateOSHAASQ
+- _associated conformance 19NewsAnalyticsUpload10DeviceDataV03AppB00E9EventTypeAASE
+- _associated conformance 19NewsAnalyticsUpload10DeviceDataV03AppB00E9EventTypeAASe
+- _associated conformance 19NewsAnalyticsUpload10DeviceDataV10CodingKeys33_F8510A19560AF9EF9470B5E76E2B90CBLLOSHAASQ
+- _associated conformance 19NewsAnalyticsUpload10DeviceDataV10CodingKeys33_F8510A19560AF9EF9470B5E76E2B90CBLLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 19NewsAnalyticsUpload10DeviceDataV10CodingKeys33_F8510A19560AF9EF9470B5E76E2B90CBLLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19NewsAnalyticsUpload11SessionDataV03AppB00E9EventTypeAASE
+- _associated conformance 19NewsAnalyticsUpload11SessionDataV03AppB00E9EventTypeAASe
+- _associated conformance 19NewsAnalyticsUpload11SessionDataV10CodingKeys33_F8510A19560AF9EF9470B5E76E2B90CBLLOSHAASQ
+- _associated conformance 19NewsAnalyticsUpload11SessionDataV10CodingKeys33_F8510A19560AF9EF9470B5E76E2B90CBLLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 19NewsAnalyticsUpload11SessionDataV10CodingKeys33_F8510A19560AF9EF9470B5E76E2B90CBLLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19NewsAnalyticsUpload14DevicePlatformOSHAASQ
+- _associated conformance 19NewsAnalyticsUpload16NetworkEventDataV03AppB00fE4TypeAASE
+- _associated conformance 19NewsAnalyticsUpload16NetworkEventDataV03AppB00fE4TypeAASe
+- _associated conformance 19NewsAnalyticsUpload16NetworkEventDataV10CodingKeys33_F8510A19560AF9EF9470B5E76E2B90CBLLOSHAASQ
+- _associated conformance 19NewsAnalyticsUpload16NetworkEventDataV10CodingKeys33_F8510A19560AF9EF9470B5E76E2B90CBLLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 19NewsAnalyticsUpload16NetworkEventDataV10CodingKeys33_F8510A19560AF9EF9470B5E76E2B90CBLLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19NewsAnalyticsUpload16NetworkEventTypeOSHAASQ
+- _associated conformance 19NewsAnalyticsUpload16OsInstallVariantOSHAASQ
+- _associated conformance 19NewsAnalyticsUpload18AggregateStateModeOSHAASQ
+- _associated conformance 19NewsAnalyticsUpload18ContentEnvironmentOSHAASQ
+- _associated conformance 19NewsAnalyticsUpload18ICloudAccountStateOSHAASQ
+- _associated conformance 19NewsAnalyticsUpload22ContentEnvironmentDataV03AppB00F9EventTypeAASE
+- _associated conformance 19NewsAnalyticsUpload22ContentEnvironmentDataV03AppB00F9EventTypeAASe
+- _associated conformance 19NewsAnalyticsUpload22ContentEnvironmentDataV10CodingKeys33_F8510A19560AF9EF9470B5E76E2B90CBLLOSHAASQ
+- _associated conformance 19NewsAnalyticsUpload22ContentEnvironmentDataV10CodingKeys33_F8510A19560AF9EF9470B5E76E2B90CBLLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 19NewsAnalyticsUpload22ContentEnvironmentDataV10CodingKeys33_F8510A19560AF9EF9470B5E76E2B90CBLLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19NewsAnalyticsUpload29CellularRadioAccessTechnologyOSHAASQ
+- _associated conformance 19NewsAnalyticsUpload7AppDataV0dB00E9EventTypeAASE
+- _associated conformance 19NewsAnalyticsUpload7AppDataV0dB00E9EventTypeAASe
+- _associated conformance 19NewsAnalyticsUpload7AppDataV10CodingKeys33_F8510A19560AF9EF9470B5E76E2B90CBLLOSHAASQ
+- _associated conformance 19NewsAnalyticsUpload7AppDataV10CodingKeys33_F8510A19560AF9EF9470B5E76E2B90CBLLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 19NewsAnalyticsUpload7AppDataV10CodingKeys33_F8510A19560AF9EF9470B5E76E2B90CBLLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19NewsAnalyticsUpload8UserDataV03AppB00E9EventTypeAASE
+- _associated conformance 19NewsAnalyticsUpload8UserDataV03AppB00E9EventTypeAASe
+- _associated conformance 19NewsAnalyticsUpload8UserDataV10CodingKeys33_F8510A19560AF9EF9470B5E76E2B90CBLLOSHAASQ
+- _associated conformance 19NewsAnalyticsUpload8UserDataV10CodingKeys33_F8510A19560AF9EF9470B5E76E2B90CBLLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 19NewsAnalyticsUpload8UserDataV10CodingKeys33_F8510A19560AF9EF9470B5E76E2B90CBLLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19NewsAnalyticsUpload8UserTypeOSHAASQ
+- _block_copy_helper
+- _block_descriptor
+- _block_destroy_helper
+- _flat unique So14AAEndpointType_p
+- _flat unique So29FCNewsAppConfigurationManager_p
+- _symbolic $sSY
+- _symbolic Ieg_Sg
+- _symbolic IeyB_
+- _symbolic SS
+- _symbolic SSSg
+- _symbolic SaySSG
+- _symbolic SaySSGSg
+- _symbolic SaySo25NTPBTelemetryNetworkEventCG
+- _symbolic Say_____G 12AppAnalytics11FlushEventsV
+- _symbolic Say_____G 12AppAnalytics14SessionManagerC7OptionsV
+- _symbolic Say_____G 8Dispatch0A13WorkItemFlagsV
+- _symbolic Say_____G s5Int32V
+- _symbolic Say_____G s5Int64V
+- _symbolic Say______pG 13TeaFoundation12AssemblyTypeP
+- _symbolic Sb
+- _symbolic SbSg
+- _symbolic Sf
+- _symbolic So13NTPBTelemetryC
+- _symbolic So17OS_dispatch_groupC
+- _symbolic So8NSObjectC
+- _symbolic _____ 10Foundation4DateV
+- _symbolic _____ 12AppAnalytics14SessionManagerC
+- _symbolic _____ 19NewsAnalyticsUpload10CacheStateO
+- _symbolic _____ 19NewsAnalyticsUpload10DeviceDataV
+- _symbolic _____ 19NewsAnalyticsUpload10DeviceDataV10CodingKeys33_F8510A19560AF9EF9470B5E76E2B90CBLLO
+- _symbolic _____ 19NewsAnalyticsUpload11SessionDataV
+- _symbolic _____ 19NewsAnalyticsUpload11SessionDataV10CodingKeys33_F8510A19560AF9EF9470B5E76E2B90CBLLO
+- _symbolic _____ 19NewsAnalyticsUpload14DevicePlatformO
+- _symbolic _____ 19NewsAnalyticsUpload14TelemetryEventV
+- _symbolic _____ 19NewsAnalyticsUpload15DynamicEndpointC
+- _symbolic _____ 19NewsAnalyticsUpload16NetworkEventDataV
+- _symbolic _____ 19NewsAnalyticsUpload16NetworkEventDataV10CodingKeys33_F8510A19560AF9EF9470B5E76E2B90CBLLO
+- _symbolic _____ 19NewsAnalyticsUpload16NetworkEventTypeO
+- _symbolic _____ 19NewsAnalyticsUpload16OsInstallVariantO
+- _symbolic _____ 19NewsAnalyticsUpload17TelemetryAssemblyC
+- _symbolic _____ 19NewsAnalyticsUpload17TelemetryUploaderC
+- _symbolic _____ 19NewsAnalyticsUpload18AggregateStateModeO
+- _symbolic _____ 19NewsAnalyticsUpload18ContentEnvironmentO
+- _symbolic _____ 19NewsAnalyticsUpload18ICloudAccountStateO
+- _symbolic _____ 19NewsAnalyticsUpload22ContentEnvironmentDataV
+- _symbolic _____ 19NewsAnalyticsUpload22ContentEnvironmentDataV10CodingKeys33_F8510A19560AF9EF9470B5E76E2B90CBLLO
+- _symbolic _____ 19NewsAnalyticsUpload29CellularRadioAccessTechnologyO
+- _symbolic _____ 19NewsAnalyticsUpload7AppDataV
+- _symbolic _____ 19NewsAnalyticsUpload7AppDataV10CodingKeys33_F8510A19560AF9EF9470B5E76E2B90CBLLO
+- _symbolic _____ 19NewsAnalyticsUpload8AssemblyC
+- _symbolic _____ 19NewsAnalyticsUpload8UserDataV
+- _symbolic _____ 19NewsAnalyticsUpload8UserDataV10CodingKeys33_F8510A19560AF9EF9470B5E76E2B90CBLLO
+- _symbolic _____ 19NewsAnalyticsUpload8UserTypeO
+- _symbolic _____ So21FCEndpointEnvironmentV
+- _symbolic _____ s5Int32V
+- _symbolic _____ s5Int64V
+- _symbolic _____Sg 10Foundation3URLV
+- _symbolic _____Sg 12AppAnalytics15TimestampJitterO
+- _symbolic _____Sg 19NewsAnalyticsUpload18AggregateStateModeO
+- _symbolic ______p 12AppAnalytics12EndpointTypeP
+- _symbolic ______p So29FCNewsAppConfigurationManagerP
+- _symbolic _____y_____G 12AppAnalytics11SessionDataV 04NewsB6Upload018ContentEnvironmentD0V
+- _symbolic _____y_____G 12AppAnalytics11SessionDataV 04NewsB6Upload04UserD0V
+- _symbolic _____y_____G 12AppAnalytics11SessionDataV 04NewsB6Upload06DeviceD0V
+- _symbolic _____y_____G 12AppAnalytics11SessionDataV 04NewsB6Upload0aD0V
+- _symbolic _____y_____G 12AppAnalytics11SessionDataV 04NewsB6UploadABV
+- _symbolic _____y_____G 12AppAnalytics13EventPropertyO 04NewsB6Upload07NetworkC4DataV
+- _symbolic _____y_____G s22KeyedDecodingContainerV 19NewsAnalyticsUpload10DeviceDataV10CodingKeys33_F8510A19560AF9EF9470B5E76E2B90CBLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 19NewsAnalyticsUpload11SessionDataV10CodingKeys33_F8510A19560AF9EF9470B5E76E2B90CBLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 19NewsAnalyticsUpload16NetworkEventDataV10CodingKeys33_F8510A19560AF9EF9470B5E76E2B90CBLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 19NewsAnalyticsUpload22ContentEnvironmentDataV10CodingKeys33_F8510A19560AF9EF9470B5E76E2B90CBLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 19NewsAnalyticsUpload7AppDataV10CodingKeys33_F8510A19560AF9EF9470B5E76E2B90CBLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 19NewsAnalyticsUpload8UserDataV10CodingKeys33_F8510A19560AF9EF9470B5E76E2B90CBLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 19NewsAnalyticsUpload10DeviceDataV10CodingKeys33_F8510A19560AF9EF9470B5E76E2B90CBLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 19NewsAnalyticsUpload11SessionDataV10CodingKeys33_F8510A19560AF9EF9470B5E76E2B90CBLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 19NewsAnalyticsUpload16NetworkEventDataV10CodingKeys33_F8510A19560AF9EF9470B5E76E2B90CBLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 19NewsAnalyticsUpload22ContentEnvironmentDataV10CodingKeys33_F8510A19560AF9EF9470B5E76E2B90CBLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 19NewsAnalyticsUpload7AppDataV10CodingKeys33_F8510A19560AF9EF9470B5E76E2B90CBLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 19NewsAnalyticsUpload8UserDataV10CodingKeys33_F8510A19560AF9EF9470B5E76E2B90CBLLO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 12AppAnalytics11FlushEventsV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 12AppAnalytics14DataEventTraitO
+- _symbolic _____y______pG s23_ContiguousArrayStorageC 13TeaFoundation12AssemblyTypeP
+- _symbolic _____y______pG s23_ContiguousArrayStorageC s7CVarArgP
+- _symbolic ypSg
+- _type_layout_string 19NewsAnalyticsUpload10DeviceDataV
+- _type_layout_string 19NewsAnalyticsUpload11SessionDataV
+- _type_layout_string 19NewsAnalyticsUpload22ContentEnvironmentDataV
+- _type_layout_string 19NewsAnalyticsUpload7AppDataV
+- _type_layout_string 19NewsAnalyticsUpload8UserDataV
+CStrings:
++ "NewsAnalyticsUpload/TelemetryModernAssembly.swift"
++ "com.apple.newsd.analytics.backgroundSessionLaunch"
++ "v16@?0@\"NSObject<OS_xpc_object>\"8"
+```

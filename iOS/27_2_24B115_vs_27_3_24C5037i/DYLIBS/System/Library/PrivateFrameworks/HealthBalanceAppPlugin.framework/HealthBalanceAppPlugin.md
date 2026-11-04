@@ -1,0 +1,248 @@
+## HealthBalanceAppPlugin
+
+> `/System/Library/PrivateFrameworks/HealthBalanceAppPlugin.framework/HealthBalanceAppPlugin`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__cstring`
+
+```diff
+
+-7027.1.56.2.9
+-  __TEXT.__text: 0x75cf0
++7027.2.13.0.0
++  __TEXT.__text: 0x837bc
+   __TEXT.__objc_methlist: 0x2cc
+-  __TEXT.__const: 0x5374
+-  __TEXT.__constg_swiftt: 0x18d0
+-  __TEXT.__swift5_typeref: 0x163a
+-  __TEXT.__swift5_builtin: 0x50
+-  __TEXT.__swift5_reflstr: 0xeeb
+-  __TEXT.__swift5_fieldmd: 0xfe0
+-  __TEXT.__swift5_assocty: 0x4d0
++  __TEXT.__const: 0x5a84
++  __TEXT.__constg_swiftt: 0x1bbc
++  __TEXT.__swift5_typeref: 0x17e4
++  __TEXT.__swift5_reflstr: 0x10c3
++  __TEXT.__swift5_fieldmd: 0x1218
+   __TEXT.__cstring: 0x204c
+-  __TEXT.__swift5_proto: 0x3e8
+-  __TEXT.__swift5_types: 0x1a0
+-  __TEXT.__oslogstring: 0x105f
+-  __TEXT.__swift_as_entry: 0x80
+-  __TEXT.__swift5_capture: 0x3e8
+-  __TEXT.__swift_as_ret: 0x88
+-  __TEXT.__swift_as_cont: 0xec
+-  __TEXT.__swift5_protos: 0x8
+-  __TEXT.__unwind_info: 0x2320
+-  __TEXT.__eh_frame: 0x1b7c
++  __TEXT.__oslogstring: 0x120f
++  __TEXT.__swift5_builtin: 0x50
++  __TEXT.__swift5_assocty: 0x588
++  __TEXT.__swift5_proto: 0x43c
++  __TEXT.__swift5_types: 0x1d0
++  __TEXT.__swift5_capture: 0x45c
++  __TEXT.__swift_as_entry: 0xbc
++  __TEXT.__swift_as_ret: 0xd0
++  __TEXT.__swift_as_cont: 0x16c
++  __TEXT.__swift5_protos: 0xc
++  __TEXT.__unwind_info: 0x26d8
++  __TEXT.__eh_frame: 0x2354
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x188
+-  __DATA_CONST.__objc_classlist: 0xd8
++  __DATA_CONST.__objc_classlist: 0x100
+   __DATA_CONST.__objc_protolist: 0x50
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x528
++  __DATA_CONST.__objc_selrefs: 0x518
+   __DATA_CONST.__objc_protorefs: 0x28
+-  __DATA_CONST.__got: 0x1048
+-  __AUTH_CONST.__const: 0x1ba8
+-  __AUTH_CONST.__objc_const: 0x1b88
+-  __AUTH_CONST.__auth_got: 0x22d8
+-  __AUTH.__objc_data: 0x8c0
+-  __AUTH.__data: 0x1188
+-  __DATA.__data: 0x1798
++  __DATA_CONST.__got: 0x1298
++  __AUTH_CONST.__const: 0x1e88
++  __AUTH_CONST.__objc_const: 0x1ed0
++  __AUTH_CONST.__auth_got: 0x2690
++  __AUTH.__objc_data: 0x9b0
++  __AUTH.__data: 0x16d0
++  __DATA.__data: 0x1988
+   __DATA.__objc_stublist: 0x40
+-  __DATA.__common: 0xa8
++  __DATA.__common: 0xf0
+   __DATA_DIRTY.__objc_data: 0x330
+-  __DATA_DIRTY.__data: 0x1650
+-  __DATA_DIRTY.__bss: 0x2a80
++  __DATA_DIRTY.__data: 0x16b0
++  __DATA_DIRTY.__bss: 0x2980
+   __DATA_DIRTY.__common: 0x60
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreData.framework/CoreData
+
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/Frameworks/UserNotifications.framework/UserNotifications
+   - /System/Library/Frameworks/WidgetKit.framework/WidgetKit
++  - /System/Library/PrivateFrameworks/AppliedSensingFitness.framework/AppliedSensingFitness
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+   - /System/Library/PrivateFrameworks/FitnessUI.framework/FitnessUI
+   - /System/Library/PrivateFrameworks/HealthAppHealthDaemonSupport.framework/HealthAppHealthDaemonSupport
+
+   - /System/Library/PrivateFrameworks/HealthArticlesUI.framework/HealthArticlesUI
+   - /System/Library/PrivateFrameworks/HealthBalance.framework/HealthBalance
+   - /System/Library/PrivateFrameworks/HealthBalanceUI.framework/HealthBalanceUI
++  - /System/Library/PrivateFrameworks/HealthContent.framework/HealthContent
++  - /System/Library/PrivateFrameworks/HealthContentUI.framework/HealthContentUI
+   - /System/Library/PrivateFrameworks/HealthDaemon.framework/HealthDaemon
+   - /System/Library/PrivateFrameworks/HealthDaemonFoundation.framework/HealthDaemonFoundation
+   - /System/Library/PrivateFrameworks/HealthExperience.framework/HealthExperience
+   - /System/Library/PrivateFrameworks/HealthExperienceUI.framework/HealthExperienceUI
+   - /System/Library/PrivateFrameworks/HealthFeatures.framework/HealthFeatures
++  - /System/Library/PrivateFrameworks/HealthFoundationUI.framework/HealthFoundationUI
+   - /System/Library/PrivateFrameworks/HealthKitAdditions.framework/HealthKitAdditions
+   - /System/Library/PrivateFrameworks/HealthKitOrchestrationAdditions.framework/HealthKitOrchestrationAdditions
++  - /System/Library/PrivateFrameworks/HealthMenstrualCycles.framework/HealthMenstrualCycles
+   - /System/Library/PrivateFrameworks/HealthMenstrualCyclesUI.framework/HealthMenstrualCyclesUI
+   - /System/Library/PrivateFrameworks/HealthOrchestration.framework/HealthOrchestration
+   - /System/Library/PrivateFrameworks/HealthPlatform.framework/HealthPlatform
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 2396
+-  Symbols:   1026
+-  CStrings:  267
++  Functions: 2621
++  Symbols:   1094
++  CStrings:  275
+ 
+Symbols:
++ _HKAnalyticsBoundedIntegerErrorSentinel
++ _NSSystemTimeZoneDidChangeNotification
++ _OBJC_CLASS_$_HKWorkoutTrainingLoad
++ _OBJC_CLASS_$_NSNotificationCenter
++ __DATA__TtC22HealthBalanceAppPlugin26ReadinessDashboardExecutor
++ __DATA__TtC22HealthBalanceAppPlugin34ReadinessDailyAnalyticsContributor
++ __DATA__TtC22HealthBalanceAppPlugin38ReadinessTrainingLoadDashboardExecutor
++ __DATA__TtCC22HealthBalanceAppPlugin26ReadinessDashboardExecutor7Planner
++ __DATA__TtCC22HealthBalanceAppPlugin38ReadinessTrainingLoadDashboardExecutor7Planner
++ __IVARS__TtC22HealthBalanceAppPlugin26ReadinessDashboardExecutor
++ __IVARS__TtC22HealthBalanceAppPlugin27HealthBalancePluginDelegate
++ __IVARS__TtC22HealthBalanceAppPlugin34ReadinessDailyAnalyticsContributor
++ __IVARS__TtC22HealthBalanceAppPlugin38ReadinessTrainingLoadDashboardExecutor
++ __IVARS__TtCC22HealthBalanceAppPlugin26ReadinessDashboardExecutor7Planner
++ __IVARS__TtCC22HealthBalanceAppPlugin38ReadinessTrainingLoadDashboardExecutor7Planner
++ __METACLASS_DATA__TtC22HealthBalanceAppPlugin26ReadinessDashboardExecutor
++ __METACLASS_DATA__TtC22HealthBalanceAppPlugin34ReadinessDailyAnalyticsContributor
++ __METACLASS_DATA__TtC22HealthBalanceAppPlugin38ReadinessTrainingLoadDashboardExecutor
++ __METACLASS_DATA__TtCC22HealthBalanceAppPlugin26ReadinessDashboardExecutor7Planner
++ __METACLASS_DATA__TtCC22HealthBalanceAppPlugin38ReadinessTrainingLoadDashboardExecutor7Planner
++ ___swift_closure_destructor.53Tm
++ __swift_implicitisolationactor_to_executor_cast
++ _associated conformance 22HealthBalanceAppPlugin0abD8DelegateC0A8Platform0acD32DailyAnalyticsPayloadContributorAaD0acD14PrincipalClass
++ _associated conformance 22HealthBalanceAppPlugin23ReadinessDailyAnalyticsV5StateOSHAASQ
++ _associated conformance 22HealthBalanceAppPlugin23ReadinessDailyAnalyticsV5StateOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 22HealthBalanceAppPlugin25InsetGroupedSectionHeaderV7SwiftUI4ViewAA4BodyAdEP_AdE
++ _associated conformance 22HealthBalanceAppPlugin26ReadinessDashboardExecutorC0A13Orchestration05AsyncG0AaD0G0
++ _associated conformance 22HealthBalanceAppPlugin26ReadinessDashboardExecutorC0A13Orchestration0G0AA7PlannerAdEP_AdF
++ _associated conformance 22HealthBalanceAppPlugin26ReadinessDashboardExecutorC7PlannerC0A13OrchestrationAdA8WorkPlanAfDP_AfG
++ _associated conformance 22HealthBalanceAppPlugin26ReadinessDashboardExecutorC7PlannerC0A8Platform0adH0AA0A13OrchestrationAD
++ _associated conformance 22HealthBalanceAppPlugin38ReadinessTrainingLoadDashboardExecutorC0A13Orchestration05AsyncI0AaD0I0
++ _associated conformance 22HealthBalanceAppPlugin38ReadinessTrainingLoadDashboardExecutorC0A13Orchestration0I0AA7PlannerAdEP_AdF
++ _associated conformance 22HealthBalanceAppPlugin38ReadinessTrainingLoadDashboardExecutorC7PlannerC0A13OrchestrationAdA8WorkPlanAfDP_AfG
++ _associated conformance 22HealthBalanceAppPlugin38ReadinessTrainingLoadDashboardExecutorC7PlannerC0A8Platform0adJ0AA0A13OrchestrationAD
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOQr
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOqd__AaBHC
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA4TextVAA16_FlexFrameLayoutVGAA08_PaddingH0VGAA31AccessibilityAttachmentModifierVGAA4ViewHPAkaOHPAhaOHPAeaOHPyHC_AgA0mL0HPyHCHC_AjaPHPyHCHC_AmaPHPyHCHC
++ _get_witness_table 7SwiftUI16SubscriptionViewVySo20NSNotificationCenterC10FoundationE9PublisherVAA0D0PAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAA15ModifiedContentVyAjAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyAOyAOyAA6VStackVyAA05TupleN0Vy016HealthExperienceB0020DisclosureCellHeaderD0V_AA6SpacerVAA6HStackVyAWyAA4TextV_AWyA0__AOy07WorkoutB0014ReadinessScoreD0VAA12_FrameLayoutVGQPGSgQPGGQPGGAA16_FlexFrameLayoutVGA18_G_Qo_AA0R18AttachmentModifierVG_0W3Kit8DayIndexVSgQo_GAaIHPyHC
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOyAA15ModifiedContentVyAA06ScrollC0VyAKyAcAE14contentMargins3for5edges9alignmentQrAA0J11MarginGuideV_AA4EdgeO3SetVAA9AlignmentVSgtFQOyAA6VStackVyAA05TupleJ0VyAC016HealthExperienceB0E24platformCellCornerRadiusQryFQOyAKyAKy07WorkoutB0015ReadinessDetailJ0VAA14_PaddingLayoutVGAA24_BackgroundStyleModifierVyAA5ColorVGG_Qo__A0_yA2_y0X16BalanceAppPlugin25InsetGroupedSectionHeaderV_ACA3_EA4_QryFQOyAKyAKyAKyAA4TextVAA16_FlexFrameLayoutVGA9_GA15_G_Qo_QPGGACA3_EA4_QryFQOyAKyAKyA0_yAA7ForEachVySaySi6offset_0xJ017ArticleDescriptorV7elementtGSSA2_yAA7DividerVSg_AcAE19simultaneousGesture_9includingQrqd___AA11GestureMaskVtAA7GestureRd__lFQOy0xjB0020ArticleTileContainerC0V_AA13_EndedGestureVyAA10TapGestureVGQo_QPGGGA9_GA15_G_Qo_SgA0_yA2_yA20__A0_yA2_yA3_06PinnedJ9ToggleRowV_AKyA22_A9_GQPGGQPGGQPGG_Qo_A9_GGA15_G_Qo_HO
++ _swift_bridgeObjectRelease_n
++ _swift_bridgeObjectRetain_n
++ _swift_continuation_await
++ _swift_continuation_init
++ _symbolic $s22HealthBalanceAppPlugin25ReadinessSleepScoreSourceP
++ _symbolic Ieg_
++ _symbolic Say_____G 22HealthBalanceAppPlugin23ReadinessDailyAnalyticsV5StateO
++ _symbolic ScCySb_____G s5NeverO
++ _symbolic Si5score______Sg5statet 22HealthBalanceAppPlugin23ReadinessDailyAnalyticsV5StateO
++ _symbolic Si6offset______7elementt 13HealthContent17ArticleDescriptorV
++ _symbolic _____ 11WorkoutCore19ReadinessScoreModelV
++ _symbolic _____ 12CoreGraphics7CGFloatV
++ _symbolic _____ 13HealthBalance26ReadinessInputsQueryResultV
++ _symbolic _____ 13HealthContent17ArticleDescriptorV
++ _symbolic _____ 22HealthBalanceAppPlugin21ReadinessSnippetScoreV
++ _symbolic _____ 22HealthBalanceAppPlugin22ReadinessComputedScoreV
++ _symbolic _____ 22HealthBalanceAppPlugin23ReadinessDailyAnalyticsV
++ _symbolic _____ 22HealthBalanceAppPlugin23ReadinessDailyAnalyticsV5ScoreO
++ _symbolic _____ 22HealthBalanceAppPlugin23ReadinessDailyAnalyticsV5StateO
++ _symbolic _____ 22HealthBalanceAppPlugin25InsetGroupedSectionHeaderV
++ _symbolic _____ 22HealthBalanceAppPlugin26ReadinessDashboardExecutorC
++ _symbolic _____ 22HealthBalanceAppPlugin26ReadinessDashboardExecutorC7PlannerC
++ _symbolic _____ 22HealthBalanceAppPlugin26ReadinessDashboardExecutorC8WorkPlanV
++ _symbolic _____ 22HealthBalanceAppPlugin34ReadinessDailyAnalyticsContributorC
++ _symbolic _____ 22HealthBalanceAppPlugin38ReadinessTrainingLoadDashboardExecutorC
++ _symbolic _____ 22HealthBalanceAppPlugin38ReadinessTrainingLoadDashboardExecutorC7PlannerC
++ _symbolic _____ 22HealthBalanceAppPlugin38ReadinessTrainingLoadDashboardExecutorC8WorkPlanV
++ _symbolic _____Sg 11WorkoutCore21ReadinessComputeErrorO
++ _symbolic _____Sg 9HealthKit8DayIndexV
++ _symbolic _____Sg___________tYaYbKc 13HealthBalance28TrainingLoadSampleDaySummaryV 0A3Kit0F5IndexV 10Foundation8CalendarV
++ _symbolic ______p 13HealthContent0B5StoreP
++ _symbolic ______p 22HealthBalanceAppPlugin25ReadinessSleepScoreSourceP
++ _symbolic _____yAAyAAy__________G_____G_____G 7SwiftUI15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV AA08_PaddingH0V AA31AccessibilityAttachmentModifierV
++ _symbolic _____ySay_____GG 7SwiftUI9LazyStateV 13HealthContent17ArticleDescriptorV
++ _symbolic _____y_____4date______9analyticstSgG 15Synchronization5MutexVAARi_zrlE 10Foundation4DateV 22HealthBalanceAppPlugin23ReadinessDailyAnalyticsV
++ _symbolic _____y_____G 7SwiftUI5StateV 016HealthExperienceB024DisclosureCellHeaderViewV0I5ModelC
++ _symbolic _____y_____GSg 14HealthPlatform28CachedReadinessScoreProviderC 0A16BalanceAppPlugin0d8ComputedE0V
++ _symbolic _____y__________y_____y_____yACyACy_____y_____y________________yAEy______AEyAG_ACy__________GQPGSgQPGGQPGG_____GASG_Qo______G______SgQo_G 7SwiftUI16SubscriptionViewV So20NSNotificationCenterC10FoundationE9PublisherV AA0D0PAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AA15ModifiedContentV AjAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6VStackV AA05TupleN0V 016HealthExperienceB0020DisclosureCellHeaderD0V AA6SpacerV AA6HStackV AA4TextV 07WorkoutB0014ReadinessScoreD0V AA12_FrameLayoutV AA16_FlexFrameLayoutV AA0R18AttachmentModifierV 0W3Kit8DayIndexV
++ _symbolic _____y_____y_____yAAy_____y_____y_____y_____yAAyAAy__________G_____y_____GG_Qo__ACyADy___________yAAyAAyAAy__________GAFGAJG_Qo_QPGG_____yAAyAAyACy_____ySaySi6offset______7elementtGSSADy_____Sg______y___________y_____GQo_QPGGGAFGAJG_Qo_SgACyADyAM_ACyADy______AAyAnFGQPGGQPGGQPGG_Qo_AFGGAJG_Qo_ 7SwiftUI4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AA15ModifiedContentV AA06ScrollC0V AcAE14contentMargins3for5edges9alignmentQrAA0J11MarginGuideV_AA4EdgeO3SetVAA9AlignmentVSgtFQO AA6VStackV AA05TupleJ0V AC016HealthExperienceB0E24platformCellCornerRadiusQryFQO 07WorkoutB0015ReadinessDetailJ0V AA14_PaddingLayoutV AA24_BackgroundStyleModifierV AA5ColorV 0X16BalanceAppPlugin25InsetGroupedSectionHeaderV ACA3_EA4_QryFQO AA4TextV AA16_FlexFrameLayoutV ACA3_EA4_QryFQO AA7ForEachV 0xJ017ArticleDescriptorV AA7DividerV AcAE19simultaneousGesture_9includingQrqd___AA11GestureMaskVtAA7GestureRd__lFQO 0xjB0020ArticleTileContainerC0V AA13_EndedGestureV AA10TapGestureV A3_06PinnedJ9ToggleRowV
++ _type_layout_string 22HealthBalanceAppPlugin21ReadinessSnippetScoreV
++ _type_layout_string 22HealthBalanceAppPlugin23ReadinessDailyAnalyticsV
++ _type_layout_string 22HealthBalanceAppPlugin25InsetGroupedSectionHeaderV
+- _HKQuantityTypeIdentifierAppleExerciseTime
+- _OBJC_CLASS_$_UINavigationBarAppearance
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA10ScrollViewVyACyACyAA6VStackVyAA05TupleD0VyACyACyACy07WorkoutB0015ReadinessDetailD0VAA14_PaddingLayoutVGAA24_BackgroundStyleModifierVyAA5ColorVGGAA11_ClipEffectVyAA16RoundedRectangleVGG_AGyAIyAA4TextV_ACyACyACyACyA1_AA010_FlexFrameM0VGANGATGAZGQPGGACyAA0F0PAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyA11_AAE06buttonO0yQrqd__AA015PrimitiveButtonO0Rd__lFQOyAA6ButtonVyACyACyAGyAIyACyACyACyACyAA5ImageVAA012_AspectRatioM0VGAA01_xM0VGA3_GAWyAA0U0VGG_ACyACyAGyAIyACyA1_AA022_EnvironmentKeyWritingP0VyAA0V9AlignmentOGG_A38_QPGGA3_GANGQPGGATGAZGG_AA011PlainButtonO0VQo__Qo_AA023AccessibilityAttachmentP0VGAGyAIyA1__AGyAIyACyA11_AAEA16_yQrqd__AAA17_Rd__lFQOyA19_yACyACyACyAA6HStackVyAIyA1__AA6SpacerVACyACyACyA21_A34_yAA4FontVSgGGAA011_ForegroundoP0VyASGGA53_GQPGGANGATGAZGG_A49_Qo_A53_G_ACyA1_ANGQPGGQPGGQPGGANGANGGATGAAA10_HPA86_AAA10_HPyHC_AtA0fP0HPyHCHC
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyACyACyAA6VStackVyAA05TupleD0VyAA4TextV_AA6SpacerVAA6HStackVyAMyAO_AMyAQ_ACy07WorkoutB0014ReadinessScoreE0VAA12_FrameLayoutVGQPGSgQPGGQPGGAA05_FlextU0VGA5_G_Qo_AA0I18AttachmentModifierVGAaDHPqd__AaDHD2_A8_HO_A10_AA0eX0HPyHCHC
+- _swift_getFunctionTypeMetadata0
+- _swift_release_x2
+- _symbolic _____ 22HealthBalanceAppPlugin33AboutReadinessArticleDataProviderV
+- _symbolic _____ 7SwiftUI13TextAlignmentO
+- _symbolic _____y_____yAAyAAy_____y_____yAAyAAyAAy__________G_____y_____GG_____y_____GG_ACyADy______AAyAAyAAyAAyAP_____GAFGAJGANGQPGGAAy_____y_____y_____yAAyAAyACyADyAAyAAyAAyAAy__________G_____GAQGALy_____GG_AAyAAyACyADyAAyAP_____y_____GG_A9_QPGGAQGAFGQPGGAJGANGG______Qo__Qo______GACyADyAP_ACyADyAAy_____yAXyAAyAAyAAy_____yADyAP______AAyAAyAAyAYA6_y_____SgGG_____yAIGGA22_GQPGGAFGAJGANGG_A19_Qo_A22_G_AAyApFGQPGGQPGGQPGGAFGAFGGAJG 7SwiftUI15ModifiedContentV AA10ScrollViewV AA6VStackV AA05TupleD0V 07WorkoutB0015ReadinessDetailD0V AA14_PaddingLayoutV AA24_BackgroundStyleModifierV AA5ColorV AA11_ClipEffectV AA16RoundedRectangleV AA4TextV AA010_FlexFrameM0V AA0F0PAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO A0_AAE06buttonO0yQrqd__AA015PrimitiveButtonO0Rd__lFQO AA6ButtonV AA5ImageV AA012_AspectRatioM0V AA01_xM0V AA0U0V AA022_EnvironmentKeyWritingP0V AA0V9AlignmentO AA011PlainButtonO0V AA023AccessibilityAttachmentP0V A0_AAEA5_yQrqd__AAA6_Rd__lFQO AA6HStackV AA6SpacerV AA4FontV AA011_ForegroundoP0V
+- _symbolic _____y_____yAAyAAy_____y_____y________________yACyAD_ACyAE_AAy__________GQPGSgQPGGQPGG_____GAPG_Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6VStackV AA05TupleD0V AA4TextV AA6SpacerV AA6HStackV 07WorkoutB0014ReadinessScoreE0V AA12_FrameLayoutV AA05_FlextU0V AA0I18AttachmentModifierV
+- _symbolic yyc
+- _type_layout_string 22HealthBalanceAppPlugin20ReadinessSnippetViewV0G5ModelV
+- _type_layout_string 22HealthBalanceAppPlugin27ReadinessSnippetContentViewV
+CStrings:
++ "Readiness algorithm parameters "
++ "ReadinessComputedScore"
++ "View.task @ HealthBalanceAppPlugin/ReadinessDetailScreen.swift:"
++ "[%{public}s] Computing readiness failed: %{public}s"
++ "[%{public}s] Failed to read cached Readiness inputs: %{public}s"
++ "[%{public}s] Missing readiness inputs anchor; skipping"
++ "[%{public}s] No published Readiness content, showing none: %{public}@"
++ "[%{public}s] Protected data is unavailable; contributing nothing"
++ "[%{public}s] Unknown ReadinessCategory %{public}s; not reporting a state"
++ "currentReadinessScore"
++ "currentReadinessState"
++ "dashboard-readiness"
++ "dashboard-readiness-training-load"
++ "date analytics "
++ "hasReadinessComputed"
++ "offset element "
++ "protectedDataIsAvailable()"
+- "AboutReadiness-HeroImage"
+- "AboutReadiness-Localizable"
+- "READINESS_DETAIL_PIN_FOOTER"
+- "READINESS_DETAIL_PIN_FOOTER_BROWSE"
+- "READINESS_DETAIL_PIN_TO_BROWSE"
+- "READINESS_DETAIL_PIN_TO_SUMMARY"
+- "READINESS_DETAIL_UNPIN_FROM_BROWSE"
+- "READINESS_DETAIL_UNPIN_FROM_SUMMARY"
+- "com.apple.health.Balance.Articles.AboutReadiness"
+```

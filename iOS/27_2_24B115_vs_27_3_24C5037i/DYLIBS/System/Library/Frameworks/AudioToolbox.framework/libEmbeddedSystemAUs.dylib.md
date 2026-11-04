@@ -1,0 +1,1049 @@
+## libEmbeddedSystemAUs.dylib
+
+> `/System/Library/Frameworks/AudioToolbox.framework/libEmbeddedSystemAUs.dylib`
+
+```diff
+
+-1638.215.0.0.0
+-  __TEXT.__text: 0xcee80
+-  __TEXT.__realtime: 0x38088
+-  __TEXT.__const: 0xb324
++1638.304.1.0.0
++  __TEXT.__text: 0xcf0d4
++  __TEXT.__realtime: 0x383c4
++  __TEXT.__const: 0xb328
+   __TEXT.__dlopen_cstrs: 0x2c1
+-  __TEXT.__gcc_except_tab: 0x77a8
+-  __TEXT.__cstring: 0xa026
++  __TEXT.__gcc_except_tab: 0x77bc
++  __TEXT.__cstring: 0xa2cc
+   __TEXT.__oslogstring: 0xc256
+-  __TEXT.__unwind_info: 0x4d80
++  __TEXT.__unwind_info: 0x4d88
+   __TEXT.__eh_frame: 0x108
+   __TEXT.__auth_stubs: 0x0
+   __DATA_CONST.__const: 0xe50
+
+   - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 3957
+-  Symbols:   6142
+-  CStrings:  1957
++  Functions: 3958
++  Symbols:   6144
++  CStrings:  1959
+ 
+Symbols:
++ GCC_except_table1001
++ GCC_except_table1005
++ GCC_except_table1018
++ GCC_except_table1024
++ GCC_except_table1027
++ GCC_except_table1033
++ GCC_except_table1036
++ GCC_except_table1038
++ GCC_except_table1097
++ GCC_except_table1109
++ GCC_except_table1111
++ GCC_except_table1116
++ GCC_except_table1118
++ GCC_except_table1120
++ GCC_except_table1124
++ GCC_except_table1136
++ GCC_except_table1141
++ GCC_except_table1142
++ GCC_except_table1154
++ GCC_except_table1155
++ GCC_except_table1159
++ GCC_except_table1160
++ GCC_except_table1167
++ GCC_except_table1173
++ GCC_except_table1197
++ GCC_except_table1211
++ GCC_except_table1223
++ GCC_except_table1239
++ GCC_except_table1249
++ GCC_except_table1264
++ GCC_except_table1274
++ GCC_except_table1278
++ GCC_except_table1287
++ GCC_except_table1290
++ GCC_except_table1291
++ GCC_except_table1320
++ GCC_except_table1321
++ GCC_except_table1333
++ GCC_except_table1334
++ GCC_except_table1343
++ GCC_except_table1344
++ GCC_except_table1349
++ GCC_except_table1353
++ GCC_except_table1356
++ GCC_except_table1366
++ GCC_except_table1369
++ GCC_except_table1380
++ GCC_except_table1387
++ GCC_except_table1396
++ GCC_except_table1412
++ GCC_except_table1418
++ GCC_except_table1435
++ GCC_except_table1445
++ GCC_except_table1453
++ GCC_except_table1460
++ GCC_except_table1463
++ GCC_except_table1472
++ GCC_except_table1492
++ GCC_except_table1505
++ GCC_except_table1510
++ GCC_except_table1513
++ GCC_except_table1525
++ GCC_except_table1526
++ GCC_except_table1530
++ GCC_except_table1531
++ GCC_except_table1558
++ GCC_except_table1572
++ GCC_except_table1577
++ GCC_except_table1583
++ GCC_except_table1595
++ GCC_except_table1602
++ GCC_except_table1603
++ GCC_except_table1608
++ GCC_except_table1612
++ GCC_except_table1615
++ GCC_except_table1618
++ GCC_except_table1622
++ GCC_except_table1625
++ GCC_except_table1628
++ GCC_except_table1631
++ GCC_except_table1634
++ GCC_except_table1637
++ GCC_except_table1640
++ GCC_except_table1658
++ GCC_except_table1670
++ GCC_except_table1676
++ GCC_except_table1683
++ GCC_except_table1686
++ GCC_except_table1700
++ GCC_except_table1705
++ GCC_except_table1706
++ GCC_except_table1709
++ GCC_except_table1741
++ GCC_except_table1744
++ GCC_except_table1745
++ GCC_except_table1756
++ GCC_except_table1764
++ GCC_except_table1767
++ GCC_except_table1775
++ GCC_except_table1776
++ GCC_except_table1787
++ GCC_except_table1788
++ GCC_except_table1793
++ GCC_except_table1796
++ GCC_except_table1797
++ GCC_except_table1826
++ GCC_except_table1829
++ GCC_except_table1843
++ GCC_except_table1851
++ GCC_except_table1856
++ GCC_except_table1864
++ GCC_except_table1876
++ GCC_except_table1879
++ GCC_except_table1882
++ GCC_except_table1890
++ GCC_except_table1907
++ GCC_except_table1926
++ GCC_except_table1933
++ GCC_except_table1936
++ GCC_except_table1959
++ GCC_except_table1964
++ GCC_except_table2003
++ GCC_except_table2004
++ GCC_except_table2010
++ GCC_except_table2015
++ GCC_except_table2018
++ GCC_except_table2030
++ GCC_except_table2037
++ GCC_except_table2062
++ GCC_except_table2072
++ GCC_except_table2083
++ GCC_except_table2087
++ GCC_except_table2094
++ GCC_except_table2111
++ GCC_except_table2126
++ GCC_except_table2127
++ GCC_except_table2135
++ GCC_except_table2161
++ GCC_except_table2164
++ GCC_except_table2167
++ GCC_except_table2168
++ GCC_except_table2179
++ GCC_except_table2184
++ GCC_except_table2188
++ GCC_except_table2195
++ GCC_except_table2205
++ GCC_except_table2209
++ GCC_except_table2212
++ GCC_except_table2213
++ GCC_except_table2222
++ GCC_except_table2229
++ GCC_except_table2237
++ GCC_except_table2241
++ GCC_except_table2244
++ GCC_except_table2248
++ GCC_except_table2254
++ GCC_except_table2255
++ GCC_except_table2262
++ GCC_except_table2263
++ GCC_except_table2266
++ GCC_except_table2267
++ GCC_except_table2270
++ GCC_except_table2287
++ GCC_except_table2290
++ GCC_except_table2297
++ GCC_except_table2301
++ GCC_except_table2307
++ GCC_except_table2308
++ GCC_except_table2323
++ GCC_except_table2330
++ GCC_except_table2331
++ GCC_except_table2344
++ GCC_except_table2345
++ GCC_except_table2354
++ GCC_except_table2355
++ GCC_except_table2370
++ GCC_except_table2378
++ GCC_except_table2388
++ GCC_except_table2391
++ GCC_except_table2392
++ GCC_except_table2397
++ GCC_except_table2411
++ GCC_except_table2412
++ GCC_except_table2418
++ GCC_except_table2423
++ GCC_except_table2426
++ GCC_except_table2430
++ GCC_except_table2434
++ GCC_except_table2438
++ GCC_except_table2439
++ GCC_except_table2446
++ GCC_except_table2456
++ GCC_except_table2457
++ GCC_except_table2461
++ GCC_except_table2478
++ GCC_except_table2481
++ GCC_except_table2486
++ GCC_except_table2487
++ GCC_except_table2509
++ GCC_except_table2510
++ GCC_except_table2520
++ GCC_except_table2524
++ GCC_except_table2525
++ GCC_except_table2540
++ GCC_except_table2541
++ GCC_except_table2546
++ GCC_except_table2549
++ GCC_except_table2556
++ GCC_except_table2569
++ GCC_except_table2570
++ GCC_except_table2575
++ GCC_except_table2594
++ GCC_except_table2595
++ GCC_except_table2600
++ GCC_except_table2601
++ GCC_except_table2605
++ GCC_except_table2609
++ GCC_except_table2612
++ GCC_except_table2617
++ GCC_except_table2618
++ GCC_except_table2623
++ GCC_except_table2624
++ GCC_except_table2629
++ GCC_except_table2637
++ GCC_except_table2642
++ GCC_except_table2647
++ GCC_except_table2652
++ GCC_except_table2653
++ GCC_except_table2656
++ GCC_except_table2662
++ GCC_except_table2663
++ GCC_except_table2672
++ GCC_except_table2673
++ GCC_except_table2679
++ GCC_except_table2680
++ GCC_except_table2686
++ GCC_except_table2694
++ GCC_except_table2699
++ GCC_except_table2700
++ GCC_except_table2703
++ GCC_except_table2708
++ GCC_except_table2709
++ GCC_except_table2719
++ GCC_except_table2720
++ GCC_except_table2733
++ GCC_except_table2734
++ GCC_except_table2744
++ GCC_except_table2745
++ GCC_except_table2765
++ GCC_except_table2777
++ GCC_except_table2782
++ GCC_except_table2802
++ GCC_except_table2809
++ GCC_except_table2840
++ GCC_except_table2841
++ GCC_except_table2847
++ GCC_except_table2850
++ GCC_except_table2869
++ GCC_except_table2880
++ GCC_except_table2889
++ GCC_except_table2896
++ GCC_except_table2897
++ GCC_except_table2900
++ GCC_except_table2905
++ GCC_except_table2906
++ GCC_except_table2916
++ GCC_except_table2932
++ GCC_except_table2964
++ GCC_except_table2971
++ GCC_except_table2972
++ GCC_except_table2979
++ GCC_except_table2990
++ GCC_except_table2993
++ GCC_except_table2996
++ GCC_except_table3007
++ GCC_except_table3012
++ GCC_except_table3018
++ GCC_except_table3022
++ GCC_except_table3029
++ GCC_except_table3030
++ GCC_except_table3038
++ GCC_except_table3044
++ GCC_except_table3045
++ GCC_except_table3078
++ GCC_except_table3117
++ GCC_except_table3126
++ GCC_except_table3129
++ GCC_except_table3147
++ GCC_except_table3191
++ GCC_except_table3192
++ GCC_except_table3198
++ GCC_except_table3202
++ GCC_except_table3203
++ GCC_except_table3207
++ GCC_except_table3215
++ GCC_except_table3216
++ GCC_except_table3242
++ GCC_except_table3259
++ GCC_except_table3266
++ GCC_except_table3267
++ GCC_except_table3270
++ GCC_except_table3284
++ GCC_except_table3287
++ GCC_except_table3292
++ GCC_except_table3293
++ GCC_except_table3298
++ GCC_except_table3301
++ GCC_except_table3309
++ GCC_except_table3318
++ GCC_except_table3321
++ GCC_except_table3322
++ GCC_except_table3331
++ GCC_except_table3338
++ GCC_except_table3339
++ GCC_except_table3347
++ GCC_except_table3350
++ GCC_except_table3354
++ GCC_except_table3355
++ GCC_except_table3380
++ GCC_except_table3381
++ GCC_except_table3391
++ GCC_except_table3439
++ GCC_except_table3454
++ GCC_except_table3488
++ GCC_except_table3494
++ GCC_except_table3498
++ GCC_except_table3506
++ GCC_except_table3515
++ GCC_except_table3543
++ GCC_except_table3561
++ GCC_except_table3562
++ GCC_except_table3569
++ GCC_except_table3572
++ GCC_except_table3582
++ GCC_except_table3583
++ GCC_except_table3591
++ GCC_except_table3596
++ GCC_except_table3611
++ GCC_except_table3620
++ GCC_except_table3621
++ GCC_except_table3624
++ GCC_except_table3631
++ GCC_except_table3640
++ GCC_except_table3650
++ GCC_except_table3663
++ GCC_except_table3670
++ GCC_except_table3674
++ GCC_except_table3679
++ GCC_except_table3702
++ GCC_except_table3712
++ GCC_except_table3722
++ GCC_except_table3725
++ GCC_except_table3732
++ GCC_except_table3733
++ GCC_except_table3743
++ GCC_except_table3759
++ GCC_except_table3768
++ GCC_except_table3772
++ GCC_except_table3773
++ GCC_except_table3779
++ GCC_except_table3782
++ GCC_except_table3785
++ GCC_except_table3809
++ GCC_except_table3817
++ GCC_except_table3818
++ GCC_except_table3822
++ GCC_except_table3841
++ GCC_except_table3842
++ GCC_except_table3845
++ GCC_except_table3856
++ GCC_except_table3860
++ GCC_except_table3879
++ GCC_except_table3888
++ GCC_except_table3898
++ GCC_except_table3899
++ GCC_except_table3906
++ GCC_except_table3907
++ GCC_except_table3911
++ GCC_except_table3912
++ GCC_except_table3919
++ GCC_except_table3926
++ GCC_except_table3942
++ GCC_except_table3950
++ GCC_except_table3961
++ GCC_except_table3966
++ GCC_except_table3973
++ GCC_except_table3990
++ GCC_except_table3997
++ GCC_except_table4000
++ GCC_except_table4012
++ GCC_except_table4013
++ GCC_except_table4020
++ GCC_except_table4021
++ GCC_except_table4034
++ GCC_except_table4045
++ GCC_except_table4048
++ GCC_except_table4057
++ GCC_except_table4060
++ GCC_except_table4061
++ GCC_except_table443
++ GCC_except_table445
++ GCC_except_table472
++ GCC_except_table475
++ GCC_except_table479
++ GCC_except_table500
++ GCC_except_table506
++ GCC_except_table508
++ GCC_except_table512
++ GCC_except_table519
++ GCC_except_table526
++ GCC_except_table529
++ GCC_except_table547
++ GCC_except_table564
++ GCC_except_table567
++ GCC_except_table586
++ GCC_except_table592
++ GCC_except_table595
++ GCC_except_table598
++ GCC_except_table611
++ GCC_except_table629
++ GCC_except_table637
++ GCC_except_table641
++ GCC_except_table649
++ GCC_except_table662
++ GCC_except_table679
++ GCC_except_table681
++ GCC_except_table686
++ GCC_except_table688
++ GCC_except_table693
++ GCC_except_table697
++ GCC_except_table704
++ GCC_except_table706
++ GCC_except_table709
++ GCC_except_table712
++ GCC_except_table714
++ GCC_except_table720
++ GCC_except_table754
++ GCC_except_table768
++ GCC_except_table772
++ GCC_except_table794
++ GCC_except_table798
++ GCC_except_table801
++ GCC_except_table807
++ GCC_except_table809
++ GCC_except_table827
++ GCC_except_table830
++ GCC_except_table839
++ GCC_except_table844
++ GCC_except_table846
++ GCC_except_table850
++ GCC_except_table853
++ GCC_except_table860
++ GCC_except_table863
++ GCC_except_table866
++ GCC_except_table879
++ GCC_except_table897
++ GCC_except_table902
++ GCC_except_table913
++ GCC_except_table917
++ GCC_except_table926
++ GCC_except_table951
++ GCC_except_table959
++ GCC_except_table966
++ GCC_except_table977
++ GCC_except_table980
++ GCC_except_table999
++ __ZN15PhaseVocoderTwo16ComputePastPhaseEj
++ __ZN15PhaseVocoderTwoC1EdjjjffPK23AudioChannelDescriptionbbR8RampList
++ __ZNK5ausdk7AUScope17GetElementOrErrorI30AUDeferredRendererInputElementEENS_11ExpectedPtrIT_EEj
++ __ZNSt3__16vectorIbNS_9allocatorIbEEE20__throw_length_errorB9foe220106Ev
++ __ZZN15PhaseVocoderTwoC1EdjjjffPK23AudioChannelDescriptionbbR8RampListE4once
++ ____ZN15PhaseVocoderTwoC2EdjjjffPK23AudioChannelDescriptionbbR8RampList_block_invoke
+- GCC_except_table1000
+- GCC_except_table1004
+- GCC_except_table1017
+- GCC_except_table1023
+- GCC_except_table1026
+- GCC_except_table1032
+- GCC_except_table1034
+- GCC_except_table1037
+- GCC_except_table1096
+- GCC_except_table1108
+- GCC_except_table1110
+- GCC_except_table1112
+- GCC_except_table1117
+- GCC_except_table1119
+- GCC_except_table1121
+- GCC_except_table1134
+- GCC_except_table1137
+- GCC_except_table1140
+- GCC_except_table1150
+- GCC_except_table1153
+- GCC_except_table1157
+- GCC_except_table1158
+- GCC_except_table1165
+- GCC_except_table1171
+- GCC_except_table1195
+- GCC_except_table1209
+- GCC_except_table1219
+- GCC_except_table1237
+- GCC_except_table1247
+- GCC_except_table1262
+- GCC_except_table1270
+- GCC_except_table1276
+- GCC_except_table1285
+- GCC_except_table1286
+- GCC_except_table1289
+- GCC_except_table1318
+- GCC_except_table1319
+- GCC_except_table1331
+- GCC_except_table1332
+- GCC_except_table1340
+- GCC_except_table1341
+- GCC_except_table1345
+- GCC_except_table1351
+- GCC_except_table1352
+- GCC_except_table1362
+- GCC_except_table1367
+- GCC_except_table1378
+- GCC_except_table1385
+- GCC_except_table1394
+- GCC_except_table1410
+- GCC_except_table1416
+- GCC_except_table1433
+- GCC_except_table1443
+- GCC_except_table1451
+- GCC_except_table1458
+- GCC_except_table1459
+- GCC_except_table1470
+- GCC_except_table1490
+- GCC_except_table1499
+- GCC_except_table1502
+- GCC_except_table1507
+- GCC_except_table1519
+- GCC_except_table1522
+- GCC_except_table1528
+- GCC_except_table1529
+- GCC_except_table1556
+- GCC_except_table1569
+- GCC_except_table1570
+- GCC_except_table1581
+- GCC_except_table1593
+- GCC_except_table1600
+- GCC_except_table1601
+- GCC_except_table1606
+- GCC_except_table1610
+- GCC_except_table1613
+- GCC_except_table1616
+- GCC_except_table1620
+- GCC_except_table1623
+- GCC_except_table1626
+- GCC_except_table1629
+- GCC_except_table1632
+- GCC_except_table1635
+- GCC_except_table1638
+- GCC_except_table1656
+- GCC_except_table1668
+- GCC_except_table1674
+- GCC_except_table1681
+- GCC_except_table1684
+- GCC_except_table1698
+- GCC_except_table1703
+- GCC_except_table1704
+- GCC_except_table1707
+- GCC_except_table1732
+- GCC_except_table1735
+- GCC_except_table1743
+- GCC_except_table1754
+- GCC_except_table1762
+- GCC_except_table1765
+- GCC_except_table1772
+- GCC_except_table1773
+- GCC_except_table1785
+- GCC_except_table1786
+- GCC_except_table1791
+- GCC_except_table1792
+- GCC_except_table1795
+- GCC_except_table1824
+- GCC_except_table1827
+- GCC_except_table1841
+- GCC_except_table1847
+- GCC_except_table1854
+- GCC_except_table1862
+- GCC_except_table1871
+- GCC_except_table1874
+- GCC_except_table1880
+- GCC_except_table1886
+- GCC_except_table1905
+- GCC_except_table1924
+- GCC_except_table1930
+- GCC_except_table1931
+- GCC_except_table1957
+- GCC_except_table1962
+- GCC_except_table1999
+- GCC_except_table2002
+- GCC_except_table2007
+- GCC_except_table2008
+- GCC_except_table2016
+- GCC_except_table2028
+- GCC_except_table2033
+- GCC_except_table2060
+- GCC_except_table2068
+- GCC_except_table2081
+- GCC_except_table2085
+- GCC_except_table2092
+- GCC_except_table2109
+- GCC_except_table2122
+- GCC_except_table2125
+- GCC_except_table2133
+- GCC_except_table2152
+- GCC_except_table2155
+- GCC_except_table2165
+- GCC_except_table2166
+- GCC_except_table2175
+- GCC_except_table2182
+- GCC_except_table2186
+- GCC_except_table2193
+- GCC_except_table2199
+- GCC_except_table2207
+- GCC_except_table2210
+- GCC_except_table2211
+- GCC_except_table2220
+- GCC_except_table2227
+- GCC_except_table2235
+- GCC_except_table2239
+- GCC_except_table2242
+- GCC_except_table2246
+- GCC_except_table2250
+- GCC_except_table2253
+- GCC_except_table2260
+- GCC_except_table2261
+- GCC_except_table2264
+- GCC_except_table2265
+- GCC_except_table2268
+- GCC_except_table2285
+- GCC_except_table2288
+- GCC_except_table2295
+- GCC_except_table2299
+- GCC_except_table2304
+- GCC_except_table2305
+- GCC_except_table2321
+- GCC_except_table2328
+- GCC_except_table2329
+- GCC_except_table2339
+- GCC_except_table2342
+- GCC_except_table2352
+- GCC_except_table2353
+- GCC_except_table2368
+- GCC_except_table2376
+- GCC_except_table2384
+- GCC_except_table2387
+- GCC_except_table2390
+- GCC_except_table2395
+- GCC_except_table2407
+- GCC_except_table2410
+- GCC_except_table2414
+- GCC_except_table2419
+- GCC_except_table2424
+- GCC_except_table2428
+- GCC_except_table2432
+- GCC_except_table2435
+- GCC_except_table2436
+- GCC_except_table2444
+- GCC_except_table2453
+- GCC_except_table2454
+- GCC_except_table2459
+- GCC_except_table2476
+- GCC_except_table2479
+- GCC_except_table2482
+- GCC_except_table2485
+- GCC_except_table2506
+- GCC_except_table2507
+- GCC_except_table2516
+- GCC_except_table2522
+- GCC_except_table2523
+- GCC_except_table2536
+- GCC_except_table2537
+- GCC_except_table2544
+- GCC_except_table2545
+- GCC_except_table2554
+- GCC_except_table2567
+- GCC_except_table2568
+- GCC_except_table2573
+- GCC_except_table2589
+- GCC_except_table2592
+- GCC_except_table2597
+- GCC_except_table2598
+- GCC_except_table2603
+- GCC_except_table2607
+- GCC_except_table2610
+- GCC_except_table2615
+- GCC_except_table2616
+- GCC_except_table2619
+- GCC_except_table2620
+- GCC_except_table2627
+- GCC_except_table2633
+- GCC_except_table2636
+- GCC_except_table2643
+- GCC_except_table2648
+- GCC_except_table2649
+- GCC_except_table2654
+- GCC_except_table2660
+- GCC_except_table2661
+- GCC_except_table2668
+- GCC_except_table2671
+- GCC_except_table2674
+- GCC_except_table2677
+- GCC_except_table2684
+- GCC_except_table2692
+- GCC_except_table2695
+- GCC_except_table2698
+- GCC_except_table2701
+- GCC_except_table2706
+- GCC_except_table2707
+- GCC_except_table2717
+- GCC_except_table2718
+- GCC_except_table2726
+- GCC_except_table2729
+- GCC_except_table2742
+- GCC_except_table2743
+- GCC_except_table2763
+- GCC_except_table2775
+- GCC_except_table2780
+- GCC_except_table2800
+- GCC_except_table2807
+- GCC_except_table2838
+- GCC_except_table2839
+- GCC_except_table2845
+- GCC_except_table2848
+- GCC_except_table2865
+- GCC_except_table2878
+- GCC_except_table2887
+- GCC_except_table2891
+- GCC_except_table2894
+- GCC_except_table2898
+- GCC_except_table2903
+- GCC_except_table2904
+- GCC_except_table2914
+- GCC_except_table2930
+- GCC_except_table2962
+- GCC_except_table2968
+- GCC_except_table2969
+- GCC_except_table2977
+- GCC_except_table2988
+- GCC_except_table2989
+- GCC_except_table2992
+- GCC_except_table3003
+- GCC_except_table3008
+- GCC_except_table3016
+- GCC_except_table3020
+- GCC_except_table3027
+- GCC_except_table3028
+- GCC_except_table3036
+- GCC_except_table3041
+- GCC_except_table3042
+- GCC_except_table3076
+- GCC_except_table3115
+- GCC_except_table3124
+- GCC_except_table3125
+- GCC_except_table3143
+- GCC_except_table3189
+- GCC_except_table3190
+- GCC_except_table3196
+- GCC_except_table3200
+- GCC_except_table3201
+- GCC_except_table3205
+- GCC_except_table3213
+- GCC_except_table3214
+- GCC_except_table3240
+- GCC_except_table3257
+- GCC_except_table3264
+- GCC_except_table3265
+- GCC_except_table3268
+- GCC_except_table3280
+- GCC_except_table3283
+- GCC_except_table3288
+- GCC_except_table3291
+- GCC_except_table3296
+- GCC_except_table3299
+- GCC_except_table3307
+- GCC_except_table3316
+- GCC_except_table3319
+- GCC_except_table3320
+- GCC_except_table3329
+- GCC_except_table3336
+- GCC_except_table3337
+- GCC_except_table3341
+- GCC_except_table3348
+- GCC_except_table3351
+- GCC_except_table3352
+- GCC_except_table3378
+- GCC_except_table3379
+- GCC_except_table3385
+- GCC_except_table3437
+- GCC_except_table3452
+- GCC_except_table3484
+- GCC_except_table3492
+- GCC_except_table3496
+- GCC_except_table3504
+- GCC_except_table3513
+- GCC_except_table3539
+- GCC_except_table3559
+- GCC_except_table3560
+- GCC_except_table3567
+- GCC_except_table3570
+- GCC_except_table3580
+- GCC_except_table3581
+- GCC_except_table3589
+- GCC_except_table3594
+- GCC_except_table3607
+- GCC_except_table3617
+- GCC_except_table3618
+- GCC_except_table3622
+- GCC_except_table3629
+- GCC_except_table3638
+- GCC_except_table3648
+- GCC_except_table3661
+- GCC_except_table3668
+- GCC_except_table3672
+- GCC_except_table3677
+- GCC_except_table3700
+- GCC_except_table3708
+- GCC_except_table3719
+- GCC_except_table3720
+- GCC_except_table3729
+- GCC_except_table3730
+- GCC_except_table3741
+- GCC_except_table3757
+- GCC_except_table3764
+- GCC_except_table3770
+- GCC_except_table3771
+- GCC_except_table3777
+- GCC_except_table3780
+- GCC_except_table3783
+- GCC_except_table3807
+- GCC_except_table3813
+- GCC_except_table3816
+- GCC_except_table3820
+- GCC_except_table3839
+- GCC_except_table3840
+- GCC_except_table3843
+- GCC_except_table3854
+- GCC_except_table3858
+- GCC_except_table3877
+- GCC_except_table3886
+- GCC_except_table3896
+- GCC_except_table3897
+- GCC_except_table3903
+- GCC_except_table3904
+- GCC_except_table3909
+- GCC_except_table3910
+- GCC_except_table3917
+- GCC_except_table3924
+- GCC_except_table3940
+- GCC_except_table3948
+- GCC_except_table3959
+- GCC_except_table3960
+- GCC_except_table3971
+- GCC_except_table3988
+- GCC_except_table3993
+- GCC_except_table3998
+- GCC_except_table4008
+- GCC_except_table4009
+- GCC_except_table4017
+- GCC_except_table4018
+- GCC_except_table4030
+- GCC_except_table4031
+- GCC_except_table4036
+- GCC_except_table4047
+- GCC_except_table4054
+- GCC_except_table4059
+- GCC_except_table440
+- GCC_except_table444
+- GCC_except_table470
+- GCC_except_table474
+- GCC_except_table476
+- GCC_except_table497
+- GCC_except_table505
+- GCC_except_table507
+- GCC_except_table511
+- GCC_except_table517
+- GCC_except_table525
+- GCC_except_table527
+- GCC_except_table545
+- GCC_except_table563
+- GCC_except_table566
+- GCC_except_table584
+- GCC_except_table591
+- GCC_except_table594
+- GCC_except_table597
+- GCC_except_table610
+- GCC_except_table628
+- GCC_except_table636
+- GCC_except_table640
+- GCC_except_table648
+- GCC_except_table661
+- GCC_except_table675
+- GCC_except_table680
+- GCC_except_table685
+- GCC_except_table687
+- GCC_except_table692
+- GCC_except_table696
+- GCC_except_table703
+- GCC_except_table705
+- GCC_except_table708
+- GCC_except_table711
+- GCC_except_table713
+- GCC_except_table719
+- GCC_except_table753
+- GCC_except_table767
+- GCC_except_table771
+- GCC_except_table793
+- GCC_except_table797
+- GCC_except_table800
+- GCC_except_table806
+- GCC_except_table808
+- GCC_except_table826
+- GCC_except_table829
+- GCC_except_table836
+- GCC_except_table843
+- GCC_except_table845
+- GCC_except_table849
+- GCC_except_table852
+- GCC_except_table858
+- GCC_except_table862
+- GCC_except_table865
+- GCC_except_table878
+- GCC_except_table895
+- GCC_except_table901
+- GCC_except_table911
+- GCC_except_table915
+- GCC_except_table925
+- GCC_except_table946
+- GCC_except_table957
+- GCC_except_table960
+- GCC_except_table976
+- GCC_except_table979
+- GCC_except_table992
+- __ZN15PhaseVocoderTwo11ResetPhasesEv
+- __ZN15PhaseVocoderTwoC1EdjjjffPK23AudioChannelDescriptionbR8RampList
+- __ZZN15PhaseVocoderTwoC1EdjjjffPK23AudioChannelDescriptionbR8RampListE4once
+- ____ZN15PhaseVocoderTwoC2EdjjjffPK23AudioChannelDescriptionbR8RampList_block_invoke
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.3.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:293: libc++ Hardening assertion __k != __leftmost failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.3.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:603: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.3.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:615: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.3.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:633: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.3.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:638: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.3.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:669: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.3.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:682: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.3.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:692: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.3.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:697: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.3.Internal.sdk/usr/include/c++/v1/__bit_reference:113: libc++ Hardening assertion __ctz + __clz < sizeof(_StorageType) * 8 failed: __fill_masked_range called with invalid range\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.3.Internal.sdk/usr/include/c++/v1/__expected/expected.h:1624: libc++ Hardening assertion !this->__has_val() failed: expected::error requires the expected to contain an error\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.3.Internal.sdk/usr/include/c++/v1/__expected/expected.h:868: libc++ Hardening assertion !this->__has_val() failed: expected::error requires the expected to contain an error\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.3.Internal.sdk/usr/include/c++/v1/__format/formatter_output.h:233: libc++ Hardening assertion __first <= __last failed: Not a valid range\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.3.Internal.sdk/usr/include/c++/v1/__format/formatter_output.h:246: libc++ Hardening assertion __first <= __last failed: Not a valid range\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.3.Internal.sdk/usr/include/c++/v1/__format/formatter_output.h:260: libc++ Hardening assertion __first <= __last failed: Not a valid range\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.3.Internal.sdk/usr/include/c++/v1/__utility/is_pointer_in_range.h:38: libc++ Hardening assertion std::__is_valid_range(__begin, __end) failed: [__begin, __end) is not a valid range\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.3.Internal.sdk/usr/include/c++/v1/__vector/vector.h:1161: libc++ Hardening assertion __position != end() failed: vector::erase(iterator) called with a non-dereferenceable iterator\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.3.Internal.sdk/usr/include/c++/v1/__vector/vector.h:1171: libc++ Hardening assertion __first <= __last failed: vector::erase(first, last) called with invalid range\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.3.Internal.sdk/usr/include/c++/v1/__vector/vector.h:414: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.3.Internal.sdk/usr/include/c++/v1/__vector/vector.h:419: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.3.Internal.sdk/usr/include/c++/v1/__vector/vector.h:434: libc++ Hardening assertion !empty() failed: front() called on an empty vector\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.3.Internal.sdk/usr/include/c++/v1/__vector/vector.h:438: libc++ Hardening assertion !empty() failed: front() called on an empty vector\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.3.Internal.sdk/usr/include/c++/v1/__vector/vector.h:442: libc++ Hardening assertion !empty() failed: back() called on an empty vector\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.3.Internal.sdk/usr/include/c++/v1/__vector/vector.h:509: libc++ Hardening assertion !empty() failed: vector::pop_back called on an empty vector\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.3.Internal.sdk/usr/include/c++/v1/__vector/vector_bool.h:297: libc++ Hardening assertion __n < size() failed: vector<bool>::operator[] index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.3.Internal.sdk/usr/include/c++/v1/array:279: libc++ Hardening assertion __n < _Size failed: out-of-bounds access in std::array<T, N>\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.3.Internal.sdk/usr/include/c++/v1/deque:1577: libc++ Hardening assertion !empty() failed: deque::back called on an empty deque\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.3.Internal.sdk/usr/include/c++/v1/deque:2213: libc++ Hardening assertion !empty() failed: deque::pop_back called on an empty deque\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.3.Internal.sdk/usr/include/c++/v1/list:1412: libc++ Hardening assertion __p != end() failed: list::erase(iterator) called with a non-dereferenceable iterator\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.3.Internal.sdk/usr/include/c++/v1/optional:1121: libc++ Hardening assertion this->has_value() failed: optional operator-> called on a disengaged value\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.3.Internal.sdk/usr/include/c++/v1/optional:1139: libc++ Hardening assertion this->has_value() failed: optional operator* called on a disengaged value\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.3.Internal.sdk/usr/include/c++/v1/string:1371: libc++ Hardening assertion __pos <= size() failed: string index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.3.Internal.sdk/usr/include/c++/v1/string_view:331: libc++ Hardening assertion __len <= static_cast<size_type>(numeric_limits<difference_type>::max()) failed: string_view::string_view(_CharT *, size_t): length does not fit in difference_type\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.3.Internal.sdk/usr/include/c++/v1/string_view:343: libc++ Hardening assertion (__end - __begin) >= 0 failed: std::string_view::string_view(iterator, sentinel) received invalid range\n"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.3.Internal.sdk/usr/include/c++/v1/valarray:831: libc++ Hardening assertion __i < size() failed: valarray::operator[] index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:293: libc++ Hardening assertion __k != __leftmost failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:603: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:615: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:633: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:638: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:669: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:682: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:692: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:697: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/__expected/expected.h:1624: libc++ Hardening assertion !this->__has_val() failed: expected::error requires the expected to contain an error\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/__expected/expected.h:868: libc++ Hardening assertion !this->__has_val() failed: expected::error requires the expected to contain an error\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/__format/formatter_output.h:233: libc++ Hardening assertion __first <= __last failed: Not a valid range\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/__format/formatter_output.h:246: libc++ Hardening assertion __first <= __last failed: Not a valid range\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/__format/formatter_output.h:260: libc++ Hardening assertion __first <= __last failed: Not a valid range\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/__utility/is_pointer_in_range.h:38: libc++ Hardening assertion std::__is_valid_range(__begin, __end) failed: [__begin, __end) is not a valid range\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/__vector/vector.h:1161: libc++ Hardening assertion __position != end() failed: vector::erase(iterator) called with a non-dereferenceable iterator\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/__vector/vector.h:1171: libc++ Hardening assertion __first <= __last failed: vector::erase(first, last) called with invalid range\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/__vector/vector.h:414: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/__vector/vector.h:419: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/__vector/vector.h:434: libc++ Hardening assertion !empty() failed: front() called on an empty vector\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/__vector/vector.h:438: libc++ Hardening assertion !empty() failed: front() called on an empty vector\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/__vector/vector.h:442: libc++ Hardening assertion !empty() failed: back() called on an empty vector\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/__vector/vector.h:509: libc++ Hardening assertion !empty() failed: vector::pop_back called on an empty vector\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/array:279: libc++ Hardening assertion __n < _Size failed: out-of-bounds access in std::array<T, N>\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/deque:1577: libc++ Hardening assertion !empty() failed: deque::back called on an empty deque\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/deque:2213: libc++ Hardening assertion !empty() failed: deque::pop_back called on an empty deque\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/list:1412: libc++ Hardening assertion __p != end() failed: list::erase(iterator) called with a non-dereferenceable iterator\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/optional:1121: libc++ Hardening assertion this->has_value() failed: optional operator-> called on a disengaged value\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/optional:1139: libc++ Hardening assertion this->has_value() failed: optional operator* called on a disengaged value\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/string:1371: libc++ Hardening assertion __pos <= size() failed: string index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/string_view:331: libc++ Hardening assertion __len <= static_cast<size_type>(numeric_limits<difference_type>::max()) failed: string_view::string_view(_CharT *, size_t): length does not fit in difference_type\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/string_view:343: libc++ Hardening assertion (__end - __begin) >= 0 failed: std::string_view::string_view(iterator, sentinel) received invalid range\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/include/c++/v1/valarray:831: libc++ Hardening assertion __i < size() failed: valarray::operator[] index out of bounds\n"
+```

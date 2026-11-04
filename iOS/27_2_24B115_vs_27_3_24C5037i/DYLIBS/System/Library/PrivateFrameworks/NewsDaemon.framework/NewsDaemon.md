@@ -1,0 +1,920 @@
+## NewsDaemon
+
+> `/System/Library/PrivateFrameworks/NewsDaemon.framework/NewsDaemon`
+
+```diff
+
+-5971.0.0.0.0
+-  __TEXT.__text: 0x2bbe4
+-  __TEXT.__objc_methlist: 0xf88
+-  __TEXT.__const: 0x29f8
+-  __TEXT.__cstring: 0x12a0
+-  __TEXT.__gcc_except_tab: 0xa0
+-  __TEXT.__oslogstring: 0xb4b
++6006.0.0.0.0
++  __TEXT.__text: 0x29a10
++  __TEXT.__objc_methlist: 0xd60
++  __TEXT.__const: 0x2a08
++  __TEXT.__cstring: 0xc30
++  __TEXT.__gcc_except_tab: 0x58
++  __TEXT.__oslogstring: 0xa9b
+   __TEXT.__dlopen_cstrs: 0x48
+   __TEXT.__swift5_typeref: 0xd4e
+   __TEXT.__swift5_fieldmd: 0x8b8
+
+   __TEXT.__swift_as_cont: 0x4c
+   __TEXT.__swift5_protos: 0x10
+   __TEXT.__swift5_mpenum: 0x14
+-  __TEXT.__unwind_info: 0x1208
++  __TEXT.__unwind_info: 0x10f8
+   __TEXT.__eh_frame: 0x1078
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x3b0
+-  __DATA_CONST.__objc_classlist: 0xc8
++  __DATA_CONST.__const: 0x2d8
++  __DATA_CONST.__objc_classlist: 0xb0
+   __DATA_CONST.__objc_catlist: 0x8
+-  __DATA_CONST.__objc_protolist: 0xb8
++  __DATA_CONST.__objc_protolist: 0xa8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x968
+-  __DATA_CONST.__objc_protorefs: 0x78
+-  __DATA_CONST.__objc_superrefs: 0x48
+-  __DATA_CONST.__got: 0x4a8
+-  __AUTH_CONST.__const: 0x1948
+-  __AUTH_CONST.__cfstring: 0x560
+-  __AUTH_CONST.__objc_const: 0x22a8
+-  __AUTH_CONST.__auth_got: 0xb30
+-  __AUTH.__objc_data: 0x358
++  __DATA_CONST.__objc_selrefs: 0x8a0
++  __DATA_CONST.__objc_protorefs: 0x68
++  __DATA_CONST.__objc_superrefs: 0x38
++  __DATA_CONST.__got: 0x480
++  __AUTH_CONST.__const: 0x18e8
++  __AUTH_CONST.__cfstring: 0x520
++  __AUTH_CONST.__objc_const: 0x1e18
++  __AUTH_CONST.__auth_got: 0xae0
++  __AUTH.__objc_data: 0x268
+   __AUTH.__data: 0x240
+-  __DATA.__objc_ivar: 0x68
+-  __DATA.__data: 0xa28
++  __DATA.__objc_ivar: 0x4c
++  __DATA.__data: 0x968
+   __DATA.__common: 0x8
+   __DATA_DIRTY.__objc_data: 0x7a8
+   __DATA_DIRTY.__data: 0x988
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
++  - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCore.dylib
++  - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
++  - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
++  - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 1310
+-  Symbols:   1102
+-  CStrings:  186
++  Functions: 1232
++  Symbols:   323
++  CStrings:  151
+ 
+Symbols:
++ __swift_FORCE_LOAD_$_swiftAVFoundation
++ __swift_FORCE_LOAD_$_swiftCoreAudio
++ __swift_FORCE_LOAD_$_swiftCoreImage
++ __swift_FORCE_LOAD_$_swiftCoreMIDI
+- +[NDDownloadLimits defaultLimits]
+- +[NDDownloadLimits supportsSecureCoding]
+- +[NDDownloadRequest supportsSecureCoding]
+- +[NDTodayFeed supportsSecureCoding]
+- +[NDTodayFeedConfig supportsSecureCoding]
+- +[NSURL(NDAdditions) newsdCachesURL]
+- +[NSURL(NDAdditions) newsdDocumentsURL]
+- +[NSURL(NDAdditions) newsdGroupContainerURL]
+- -[NDANFHelper _resourceIDFromURL:]
+- -[NDANFHelper _resourceIDsFromURLs:]
+- -[NDANFHelper manifestFromANFDocumentData:]
+- -[NDANFHelper popInterest]
+- -[NDANFHelper pushInterest]
+- -[NDANFHelperProxy .cxx_destruct]
+- -[NDANFHelperProxy _connectionToXPCService]
+- -[NDANFHelperProxy dealloc]
+- -[NDANFHelperProxy init]
+- -[NDANFHelperProxy manifestFromANFDocumentData:]
+- -[NDANFHelperProxy manifestFromANFDocumentData:reachedService:]
+- -[NDANFHelperProxy popInterest]
+- -[NDANFHelperProxy pushInterest]
+- -[NDANFHelperProxy setXpcConnection:]
+- -[NDANFHelperProxy setXpcConnectionInterest:]
+- -[NDANFHelperProxy setXpcConnectionLock:]
+- -[NDANFHelperProxy xpcConnectionInterest]
+- -[NDANFHelperProxy xpcConnectionLock]
+- -[NDANFHelperProxy xpcConnection]
+- -[NDANFHelperProxyWithFallback .cxx_destruct]
+- -[NDANFHelperProxyWithFallback inProcessHelper]
+- -[NDANFHelperProxyWithFallback init]
+- -[NDANFHelperProxyWithFallback manifestFromANFDocumentData:]
+- -[NDANFHelperProxyWithFallback popInterest]
+- -[NDANFHelperProxyWithFallback proxyHelper]
+- -[NDANFHelperProxyWithFallback pushInterest]
+- -[NDAssertion .cxx_destruct]
+- -[NDAssertion dealloc]
+- -[NDAssertion initWithName:]
+- -[NDAssertion initWithName:options:]
+- -[NDAssertion init]
+- -[NDAssertion powerAssertionID]
+- -[NDAssertion transaction]
+- -[NDDownloadLimits copyWithZone:]
+- -[NDDownloadLimits description]
+- -[NDDownloadLimits encodeWithCoder:]
+- -[NDDownloadLimits hash]
+- -[NDDownloadLimits initWithCoder:]
+- -[NDDownloadLimits initWithMinDeviceStorage:maxDownloadStorage:]
+- -[NDDownloadLimits isEqual:]
+- -[NDDownloadLimits maxDownloadStorage]
+- -[NDDownloadLimits minDeviceStorage]
+- -[NDDownloadRequest .cxx_destruct]
+- -[NDDownloadRequest articleID]
+- -[NDDownloadRequest contentID]
+- -[NDDownloadRequest contentType]
+- -[NDDownloadRequest copyWithZone:]
+- -[NDDownloadRequest description]
+- -[NDDownloadRequest encodeWithCoder:]
+- -[NDDownloadRequest hash]
+- -[NDDownloadRequest initWithCoder:]
+- -[NDDownloadRequest initWithContentID:options:]
+- -[NDDownloadRequest isEqual:]
+- -[NDDownloadRequest issueID]
+- -[NDDownloadRequest options]
+- -[NDDownloadRequest puzzleID]
+- -[NDDownloadRequest recipeID]
+- -[NDNewsDaemonContext .cxx_destruct]
+- -[NDNewsDaemonContext _queue]
+- -[NDNewsDaemonContext daemon]
+- -[NDNewsDaemonContext fetchLatestResultsWithParameters:completion:]
+- -[NDNewsDaemonContext fetchModuleDescriptorsWithCompletion:]
+- -[NDNewsDaemonContext fetchPlaceholderResultsWithOperationInfo:syncCompletion:]
+- -[NDNewsDaemonContext init]
+- -[NDNewsDaemonContext markAnalyticsElement:asReadAtDate:withCompletion:]
+- -[NDNewsDaemonContext markAnalyticsElements:asSeenAtDate:withCompletion:]
+- -[NDNewsDaemonContext serviceHasNewTodayResults]
+- -[NDNewsDaemonContext setDaemon:]
+- -[NDNewsDaemonContext setUpdateResultsHandler:]
+- -[NDNewsDaemonContext updateResultsHandler]
+- -[NDNewsServiceConnection .cxx_destruct]
+- -[NDNewsServiceConnection _establishConnectionIfNeededWithCompletion:]
+- -[NDNewsServiceConnection _unsafeEstablishConnectionIfNeededWithCompletion:]
+- -[NDNewsServiceConnection accessQueue]
+- -[NDNewsServiceConnection client]
+- -[NDNewsServiceConnection connection]
+- -[NDNewsServiceConnection daemon]
+- -[NDNewsServiceConnection dealloc]
+- -[NDNewsServiceConnection fetchLatestResultsWithParameters:completion:]
+- -[NDNewsServiceConnection fetchModuleDescriptorsWithCompletion:]
+- -[NDNewsServiceConnection fetchPlaceholderResultsWithOperationInfo:syncCompletion:]
+- -[NDNewsServiceConnection initWithClient:]
+- -[NDNewsServiceConnection markAnalyticsElement:asReadAtDate:withCompletion:]
+- -[NDNewsServiceConnection markAnalyticsElements:asSeenAtDate:withCompletion:]
+- -[NDNewsServiceConnection serviceHasNewTodayResults]
+- -[NDNewsServiceConnection setAccessQueue:]
+- -[NDNewsServiceConnection setClient:]
+- -[NDNewsServiceConnection setConnection:]
+- -[NDNewsServiceConnection setDaemon:]
+- -[NDNewsServiceConnectionClientProxy .cxx_destruct]
+- -[NDNewsServiceConnectionClientProxy client]
+- -[NDNewsServiceConnectionClientProxy serviceHasNewTodayResults]
+- -[NDNewsServiceConnectionClientProxy setClient:]
+- -[NDTodayFeed .cxx_destruct]
+- -[NDTodayFeed configData]
+- -[NDTodayFeed contentArchive]
+- -[NDTodayFeed contentManifest]
+- -[NDTodayFeed copyWithZone:]
+- -[NDTodayFeed description]
+- -[NDTodayFeed encodeWithCoder:]
+- -[NDTodayFeed initWithCoder:]
+- -[NDTodayFeed initWithConfigData:publishDate:contentManifest:contentArchive:]
+- -[NDTodayFeed publishDate]
+- -[NDTodayFeedConfig .cxx_destruct]
+- -[NDTodayFeedConfig copyWithZone:]
+- -[NDTodayFeedConfig description]
+- -[NDTodayFeedConfig encodeWithCoder:]
+- -[NDTodayFeedConfig initWithCoder:]
+- -[NDTodayFeedConfig initWithPublishDate:topStoriesArticleIDs:topStoriesPackageURLs:]
+- -[NDTodayFeedConfig publishDate]
+- -[NDTodayFeedConfig topStoriesArticleIDs]
+- -[NDTodayFeedConfig topStoriesPackageURLs]
+- <redacted>
+- GCC_except_table2
+- GCC_except_table25
+- _NDSharedClientLog.once
+- _NDSharedClientLog.result
+- _NDSharedServiceLog.once
+- _NDSharedServiceLog.result
+- _NDTodayFeedConfigDecodingServiceXPCConnection.onceToken
+- _NDTodayMachServiceName
+- _OBJC_CLASS_$_NDNewsDaemonContext
+- _OBJC_CLASS_$_NDNewsServiceConnection
+- _OBJC_CLASS_$_NDNewsServiceConnectionClientProxy
+- _OBJC_CLASS_$_NTPBTodayModuleDescriptor
+- _OBJC_CLASS_$_NTPBTodayResultOperationFetchInfo
+- _OBJC_IVAR_$_NDANFHelperProxy._xpcConnection
+- _OBJC_IVAR_$_NDANFHelperProxy._xpcConnectionInterest
+- _OBJC_IVAR_$_NDANFHelperProxy._xpcConnectionLock
+- _OBJC_IVAR_$_NDANFHelperProxyWithFallback._inProcessHelper
+- _OBJC_IVAR_$_NDANFHelperProxyWithFallback._proxyHelper
+- _OBJC_IVAR_$_NDAssertion._powerAssertionID
+- _OBJC_IVAR_$_NDAssertion._transaction
+- _OBJC_IVAR_$_NDDownloadLimits._maxDownloadStorage
+- _OBJC_IVAR_$_NDDownloadLimits._minDeviceStorage
+- _OBJC_IVAR_$_NDDownloadRequest._contentID
+- _OBJC_IVAR_$_NDDownloadRequest._contentType
+- _OBJC_IVAR_$_NDDownloadRequest._options
+- _OBJC_IVAR_$_NDNewsDaemonContext._daemon
+- _OBJC_IVAR_$_NDNewsDaemonContext._updateResultsHandler
+- _OBJC_IVAR_$_NDNewsServiceConnection._accessQueue
+- _OBJC_IVAR_$_NDNewsServiceConnection._client
+- _OBJC_IVAR_$_NDNewsServiceConnection._connection
+- _OBJC_IVAR_$_NDNewsServiceConnection._daemon
+- _OBJC_IVAR_$_NDNewsServiceConnectionClientProxy._client
+- _OBJC_IVAR_$_NDTodayFeed._configData
+- _OBJC_IVAR_$_NDTodayFeed._contentArchive
+- _OBJC_IVAR_$_NDTodayFeed._contentManifest
+- _OBJC_IVAR_$_NDTodayFeed._publishDate
+- _OBJC_IVAR_$_NDTodayFeedConfig._publishDate
+- _OBJC_IVAR_$_NDTodayFeedConfig._topStoriesArticleIDs
+- _OBJC_IVAR_$_NDTodayFeedConfig._topStoriesPackageURLs
+- _OBJC_METACLASS_$_NDNewsDaemonContext
+- _OBJC_METACLASS_$_NDNewsServiceConnection
+- _OBJC_METACLASS_$_NDNewsServiceConnectionClientProxy
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_4
+- _SilexLibraryCore.frameworkLibrary
+- __CLASS_METHODS_NDFeedItemPool
+- __CLASS_METHODS_NDFeedItemPoolFetchOptions
+- __CLASS_METHODS_NDManagedFeedItemPoolOptions
+- __CLASS_METHODS_NDProxyScoringServiceConnection
+- __CLASS_METHODS_NDProxyTodayFeedServiceConnection
+- __CLASS_METHODS__TtC10NewsDaemon27LiveActivityScheduleRequest
+- __CLASS_METHODS__TtC10NewsDaemon27NDScoringServiceEnvironment
+- __CLASS_PROPERTIES_NDFeedItemPool
+- __CLASS_PROPERTIES_NDFeedItemPoolFetchOptions
+- __CLASS_PROPERTIES_NDManagedFeedItemPoolOptions
+- __CLASS_PROPERTIES_NDProxyScoringServiceConnection
+- __CLASS_PROPERTIES_NDProxyTodayFeedServiceConnection
+- __CLASS_PROPERTIES__TtC10NewsDaemon27LiveActivityScheduleRequest
+- __CLASS_PROPERTIES__TtC10NewsDaemon27NDScoringServiceEnvironment
+- __DATA_NDFeedItemPool
+- __DATA_NDFeedItemPoolFetchOptions
+- __DATA_NDManagedFeedItemPoolOptions
+- __DATA_NDProxyScoringServiceConnection
+- __DATA_NDProxyTodayFeedServiceConnection
+- __DATA_NDSystemScheduledWork
+- __DATA__TtC10NewsDaemon21ProxyFeedPersonalizer
+- __DATA__TtC10NewsDaemon22MergedFeedItemIterator
+- __DATA__TtC10NewsDaemon27LiveActivityScheduleRequest
+- __DATA__TtC10NewsDaemon27NDScoringServiceEnvironment
+- __DATA__TtC10NewsDaemon28EngagementDataEnqueueHandler
+- __DATA__TtC10NewsDaemonP33_57384A5BC146306734585127338E266D12BundleLoader
+- __DATA__TtC10NewsDaemonP33_5BFDE7E676D38A77D7B513724A4B1F9E23DropboxFeedItemSequence
+- __DATA__TtCC10NewsDaemon29ProxyScoringServiceConnection13InterestToken
+- __INSTANCE_METHODS_NDFeedItemPool
+- __INSTANCE_METHODS_NDFeedItemPoolFetchOptions
+- __INSTANCE_METHODS_NDManagedFeedItemPoolOptions
+- __INSTANCE_METHODS_NDProxyScoringServiceConnection
+- __INSTANCE_METHODS_NDProxyTodayFeedServiceConnection
+- __INSTANCE_METHODS_NDSystemScheduledWork
+- __INSTANCE_METHODS__TtC10NewsDaemon21ProxyFeedPersonalizer
+- __INSTANCE_METHODS__TtC10NewsDaemon27LiveActivityScheduleRequest
+- __INSTANCE_METHODS__TtC10NewsDaemon27NDScoringServiceEnvironment
+- __IVARS_NDFeedItemPool
+- __IVARS_NDFeedItemPoolFetchOptions
+- __IVARS_NDManagedFeedItemPoolOptions
+- __IVARS_NDProxyScoringServiceConnection
+- __IVARS_NDProxyTodayFeedServiceConnection
+- __IVARS_NDSystemScheduledWork
+- __IVARS__TtC10NewsDaemon21ProxyFeedPersonalizer
+- __IVARS__TtC10NewsDaemon22MergedFeedItemIterator
+- __IVARS__TtC10NewsDaemon27LiveActivityScheduleRequest
+- __IVARS__TtC10NewsDaemon27NDScoringServiceEnvironment
+- __IVARS__TtC10NewsDaemon28EngagementDataEnqueueHandler
+- __IVARS__TtC10NewsDaemonP33_5BFDE7E676D38A77D7B513724A4B1F9E23DropboxFeedItemSequence
+- __IVARS__TtCC10NewsDaemon29ProxyScoringServiceConnection13InterestToken
+- __METACLASS_DATA_NDFeedItemPool
+- __METACLASS_DATA_NDFeedItemPoolFetchOptions
+- __METACLASS_DATA_NDManagedFeedItemPoolOptions
+- __METACLASS_DATA_NDProxyScoringServiceConnection
+- __METACLASS_DATA_NDProxyTodayFeedServiceConnection
+- __METACLASS_DATA_NDSystemScheduledWork
+- __METACLASS_DATA__TtC10NewsDaemon21ProxyFeedPersonalizer
+- __METACLASS_DATA__TtC10NewsDaemon22MergedFeedItemIterator
+- __METACLASS_DATA__TtC10NewsDaemon27LiveActivityScheduleRequest
+- __METACLASS_DATA__TtC10NewsDaemon27NDScoringServiceEnvironment
+- __METACLASS_DATA__TtC10NewsDaemon28EngagementDataEnqueueHandler
+- __METACLASS_DATA__TtC10NewsDaemonP33_57384A5BC146306734585127338E266D12BundleLoader
+- __METACLASS_DATA__TtC10NewsDaemonP33_5BFDE7E676D38A77D7B513724A4B1F9E23DropboxFeedItemSequence
+- __METACLASS_DATA__TtCC10NewsDaemon29ProxyScoringServiceConnection13InterestToken
+- __OBJC_$_CATEGORY_CLASS_METHODS_NSURL_$_NDAdditions
+- __OBJC_$_CATEGORY_NSURL_$_NDAdditions
+- __OBJC_$_CLASS_METHODS_NDDownloadLimits
+- __OBJC_$_CLASS_METHODS_NDDownloadRequest
+- __OBJC_$_CLASS_METHODS_NDTodayFeed
+- __OBJC_$_CLASS_METHODS_NDTodayFeedConfig
+- __OBJC_$_CLASS_PROP_LIST_NDDownloadLimits
+- __OBJC_$_CLASS_PROP_LIST_NDDownloadRequest
+- __OBJC_$_CLASS_PROP_LIST_NDTodayFeed
+- __OBJC_$_CLASS_PROP_LIST_NDTodayFeedConfig
+- __OBJC_$_CLASS_PROP_LIST_NSSecureCoding
+- __OBJC_$_INSTANCE_METHODS_NDANFHelper
+- __OBJC_$_INSTANCE_METHODS_NDANFHelperProxy
+- __OBJC_$_INSTANCE_METHODS_NDANFHelperProxyWithFallback
+- __OBJC_$_INSTANCE_METHODS_NDAssertion
+- __OBJC_$_INSTANCE_METHODS_NDDownloadLimits
+- __OBJC_$_INSTANCE_METHODS_NDDownloadRequest
+- __OBJC_$_INSTANCE_METHODS_NDNewsDaemonContext
+- __OBJC_$_INSTANCE_METHODS_NDNewsServiceConnection
+- __OBJC_$_INSTANCE_METHODS_NDNewsServiceConnectionClientProxy
+- __OBJC_$_INSTANCE_METHODS_NDTodayFeed
+- __OBJC_$_INSTANCE_METHODS_NDTodayFeedConfig
+- __OBJC_$_INSTANCE_VARIABLES_NDANFHelperProxy
+- __OBJC_$_INSTANCE_VARIABLES_NDANFHelperProxyWithFallback
+- __OBJC_$_INSTANCE_VARIABLES_NDAssertion
+- __OBJC_$_INSTANCE_VARIABLES_NDDownloadLimits
+- __OBJC_$_INSTANCE_VARIABLES_NDDownloadRequest
+- __OBJC_$_INSTANCE_VARIABLES_NDNewsDaemonContext
+- __OBJC_$_INSTANCE_VARIABLES_NDNewsServiceConnection
+- __OBJC_$_INSTANCE_VARIABLES_NDNewsServiceConnectionClientProxy
+- __OBJC_$_INSTANCE_VARIABLES_NDTodayFeed
+- __OBJC_$_INSTANCE_VARIABLES_NDTodayFeedConfig
+- __OBJC_$_PROP_LIST_FCFeedPersonalizing
+- __OBJC_$_PROP_LIST_FCFeedPersonalizingItem
+- __OBJC_$_PROP_LIST_NDANFHelperProxy
+- __OBJC_$_PROP_LIST_NDANFHelperProxyWithFallback
+- __OBJC_$_PROP_LIST_NDAssertion
+- __OBJC_$_PROP_LIST_NDDownloadLimits
+- __OBJC_$_PROP_LIST_NDDownloadRequest
+- __OBJC_$_PROP_LIST_NDNewsDaemonContext
+- __OBJC_$_PROP_LIST_NDNewsServiceConnection
+- __OBJC_$_PROP_LIST_NDNewsServiceConnectionClientProxy
+- __OBJC_$_PROP_LIST_NDTodayFeed
+- __OBJC_$_PROP_LIST_NDTodayFeedConfig
+- __OBJC_$_PROP_LIST_NSObject
+- __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCANFHelper
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCFeedPersonalizing
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCFeedPersonalizingItem
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCTagRanking
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NDANFDecodingServiceType
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NDDownloadConsumer
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NDDownloadService
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NDNewsService
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NDNewsServiceClient
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NDTodayFeedConfigDecodingServiceType
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FCFeedPersonalizing
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FCFeedPersonalizingItem
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCANFHelper
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCFeedPersonalizing
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCFeedPersonalizingItem
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCTagRanking
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NDANFDecodingServiceType
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NDDownloadConsumer
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NDDownloadService
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NDNewsService
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NDNewsServiceClient
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NDTodayFeedConfigDecodingServiceType
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding
+- __OBJC_$_PROTOCOL_REFS_FCFeedPersonalizing
+- __OBJC_$_PROTOCOL_REFS_FCFeedPersonalizingItem
+- __OBJC_$_PROTOCOL_REFS_FCTagRanking
+- __OBJC_$_PROTOCOL_REFS_NDDownloadConsumer
+- __OBJC_$_PROTOCOL_REFS_NDDownloadService
+- __OBJC_$_PROTOCOL_REFS_NDNewsService
+- __OBJC_$_PROTOCOL_REFS_NDNewsServiceClient
+- __OBJC_$_PROTOCOL_REFS_NSSecureCoding
+- __OBJC_CLASS_PROTOCOLS_$_NDANFHelper
+- __OBJC_CLASS_PROTOCOLS_$_NDANFHelperProxy
+- __OBJC_CLASS_PROTOCOLS_$_NDANFHelperProxyWithFallback
+- __OBJC_CLASS_PROTOCOLS_$_NDDownloadLimits
+- __OBJC_CLASS_PROTOCOLS_$_NDDownloadRequest
+- __OBJC_CLASS_PROTOCOLS_$_NDNewsDaemonContext
+- __OBJC_CLASS_PROTOCOLS_$_NDNewsServiceConnection
+- __OBJC_CLASS_PROTOCOLS_$_NDNewsServiceConnectionClientProxy
+- __OBJC_CLASS_PROTOCOLS_$_NDTodayFeed
+- __OBJC_CLASS_PROTOCOLS_$_NDTodayFeedConfig
+- __OBJC_CLASS_RO_$_NDANFHelper
+- __OBJC_CLASS_RO_$_NDANFHelperProxy
+- __OBJC_CLASS_RO_$_NDANFHelperProxyWithFallback
+- __OBJC_CLASS_RO_$_NDAssertion
+- __OBJC_CLASS_RO_$_NDDownloadLimits
+- __OBJC_CLASS_RO_$_NDDownloadRequest
+- __OBJC_CLASS_RO_$_NDNewsDaemonContext
+- __OBJC_CLASS_RO_$_NDNewsServiceConnection
+- __OBJC_CLASS_RO_$_NDNewsServiceConnectionClientProxy
+- __OBJC_CLASS_RO_$_NDTodayFeed
+- __OBJC_CLASS_RO_$_NDTodayFeedConfig
+- __OBJC_LABEL_PROTOCOL_$_FCANFHelper
+- __OBJC_LABEL_PROTOCOL_$_FCFeedPersonalizing
+- __OBJC_LABEL_PROTOCOL_$_FCFeedPersonalizingItem
+- __OBJC_LABEL_PROTOCOL_$_FCTagRanking
+- __OBJC_LABEL_PROTOCOL_$_NDANFDecodingServiceType
+- __OBJC_LABEL_PROTOCOL_$_NDDownloadConsumer
+- __OBJC_LABEL_PROTOCOL_$_NDDownloadService
+- __OBJC_LABEL_PROTOCOL_$_NDNewsService
+- __OBJC_LABEL_PROTOCOL_$_NDNewsServiceClient
+- __OBJC_LABEL_PROTOCOL_$_NDTodayFeedConfigDecodingServiceType
+- __OBJC_LABEL_PROTOCOL_$_NSCoding
+- __OBJC_LABEL_PROTOCOL_$_NSCopying
+- __OBJC_LABEL_PROTOCOL_$_NSObject
+- __OBJC_LABEL_PROTOCOL_$_NSSecureCoding
+- __OBJC_METACLASS_RO_$_NDANFHelper
+- __OBJC_METACLASS_RO_$_NDANFHelperProxy
+- __OBJC_METACLASS_RO_$_NDANFHelperProxyWithFallback
+- __OBJC_METACLASS_RO_$_NDAssertion
+- __OBJC_METACLASS_RO_$_NDDownloadLimits
+- __OBJC_METACLASS_RO_$_NDDownloadRequest
+- __OBJC_METACLASS_RO_$_NDNewsDaemonContext
+- __OBJC_METACLASS_RO_$_NDNewsServiceConnection
+- __OBJC_METACLASS_RO_$_NDNewsServiceConnectionClientProxy
+- __OBJC_METACLASS_RO_$_NDTodayFeed
+- __OBJC_METACLASS_RO_$_NDTodayFeedConfig
+- __OBJC_PROTOCOL_$_FCANFHelper
+- __OBJC_PROTOCOL_$_FCFeedPersonalizing
+- __OBJC_PROTOCOL_$_FCFeedPersonalizingItem
+- __OBJC_PROTOCOL_$_FCTagRanking
+- __OBJC_PROTOCOL_$_NDANFDecodingServiceType
+- __OBJC_PROTOCOL_$_NDDownloadConsumer
+- __OBJC_PROTOCOL_$_NDDownloadService
+- __OBJC_PROTOCOL_$_NDNewsService
+- __OBJC_PROTOCOL_$_NDNewsServiceClient
+- __OBJC_PROTOCOL_$_NDTodayFeedConfigDecodingServiceType
+- __OBJC_PROTOCOL_$_NSCoding
+- __OBJC_PROTOCOL_$_NSCopying
+- __OBJC_PROTOCOL_$_NSObject
+- __OBJC_PROTOCOL_$_NSSecureCoding
+- __OBJC_PROTOCOL_REFERENCE_$_NDANFDecodingServiceType
+- __OBJC_PROTOCOL_REFERENCE_$_NDDownloadConsumer
+- __OBJC_PROTOCOL_REFERENCE_$_NDDownloadService
+- __OBJC_PROTOCOL_REFERENCE_$_NDNewsService
+- __OBJC_PROTOCOL_REFERENCE_$_NDNewsServiceClient
+- __OBJC_PROTOCOL_REFERENCE_$_NDTodayFeedConfigDecodingServiceType
+- __PROPERTIES__TtC10NewsDaemon27NDScoringServiceEnvironment
+- __PROTOCOLS_NDFeedItemPool
+- __PROTOCOLS_NDFeedItemPoolFetchOptions
+- __PROTOCOLS_NDManagedFeedItemPoolOptions
+- __PROTOCOLS__TtC10NewsDaemon21ProxyFeedPersonalizer
+- __PROTOCOLS__TtC10NewsDaemon27LiveActivityScheduleRequest
+- __PROTOCOLS__TtC10NewsDaemon27NDScoringServiceEnvironment
+- __PROTOCOL_INSTANCE_METHODS__TtP10NewsDaemon20NDScoringServiceType_
+- __PROTOCOL_INSTANCE_METHODS__TtP10NewsDaemon22NDTodayFeedServiceType_
+- __PROTOCOL_INSTANCE_METHODS__TtP10NewsDaemon23LiveActivityServiceType_
+- __PROTOCOL_METHOD_TYPES__TtP10NewsDaemon20NDScoringServiceType_
+- __PROTOCOL_METHOD_TYPES__TtP10NewsDaemon22NDTodayFeedServiceType_
+- __PROTOCOL_METHOD_TYPES__TtP10NewsDaemon23LiveActivityServiceType_
+- __PROTOCOL__TtP10NewsDaemon20NDScoringServiceType_
+- __PROTOCOL__TtP10NewsDaemon22NDTodayFeedServiceType_
+- __PROTOCOL__TtP10NewsDaemon23LiveActivityServiceType_
+- ___32-[NDDownloadRequest description]_block_invoke
+- ___33+[NDDownloadLimits defaultLimits]_block_invoke
+- ___36-[NDANFHelper _resourceIDsFromURLs:]_block_invoke
+- ___43-[NDANFHelperProxy _connectionToXPCService]_block_invoke
+- ___47-[NDDownloadRequest initWithContentID:options:]_block_invoke
+- ___48-[NDNewsDaemonContext serviceHasNewTodayResults]_block_invoke
+- ___63-[NDANFHelperProxy manifestFromANFDocumentData:reachedService:]_block_invoke
+- ___63-[NDANFHelperProxy manifestFromANFDocumentData:reachedService:]_block_invoke_2
+- ___64-[NDNewsServiceConnection fetchModuleDescriptorsWithCompletion:]_block_invoke
+- ___70-[NDNewsServiceConnection _establishConnectionIfNeededWithCompletion:]_block_invoke
+- ___71-[NDNewsServiceConnection fetchLatestResultsWithParameters:completion:]_block_invoke
+- ___76-[NDNewsServiceConnection _unsafeEstablishConnectionIfNeededWithCompletion:]_block_invoke
+- ___76-[NDNewsServiceConnection markAnalyticsElement:asReadAtDate:withCompletion:]_block_invoke
+- ___76-[NDNewsServiceConnection markAnalyticsElement:asReadAtDate:withCompletion:]_block_invoke_2
+- ___77-[NDNewsServiceConnection markAnalyticsElements:asSeenAtDate:withCompletion:]_block_invoke
+- ___83-[NDNewsServiceConnection fetchPlaceholderResultsWithOperationInfo:syncCompletion:]_block_invoke
+- ___83-[NDNewsServiceConnection fetchPlaceholderResultsWithOperationInfo:syncCompletion:]_block_invoke_2
+- ___83-[NDNewsServiceConnection fetchPlaceholderResultsWithOperationInfo:syncCompletion:]_block_invoke_3
+- ___Block_byref_object_copy_
+- ___Block_byref_object_dispose_
+- ___NDSharedClientLog_block_invoke
+- ___NDSharedServiceLog_block_invoke
+- ___NDTodayFeedConfigDecodingServiceXPCConnection_block_invoke
+- ___SilexLibraryCore_block_invoke
+- ___block_descriptor_32_e17_v16?0"NSError"8l
+- ___block_descriptor_32_e5_v8?0l
+- ___block_descriptor_40_e5_v8?0l
+- ___block_descriptor_40_e8_32bs_e17_v16?0"NSError"8ls32l8
+- ___block_descriptor_40_e8_32r_e5_v8?0lr32l8
+- ___block_descriptor_40_e8_32s_e15_"NSString"8?0ls32l8
+- ___block_descriptor_40_e8_32s_e15_16?0"NSURL"8ls32l8
+- ___block_descriptor_40_e8_32s_e5_q8?0ls32l8
+- ___block_descriptor_40_e8_32s_e5_v8?0ls32l8
+- ___block_descriptor_40_e8_32w_e5_v8?0lw32l8
+- ___block_descriptor_48_e8_32s40bs_e5_v8?0ls32l8s40l8
+- ___block_descriptor_48_e8_32s40w_e5_v8?0ls32l8w40l8
+- ___block_descriptor_56_e8_32s40r48r_e43_v24?0"FCANFDocumentManifest"8"NSError"16lr40l8s32l8r48l8
+- ___block_descriptor_56_e8_32s40s48bs_e5_v8?0ls32l8s48l8s40l8
+- ___block_descriptor_64_e8_32s40s48s56bs_e5_v8?0ls32l8s56l8s40l8s48l8
+- ___block_literal_global
+- ___getSXContextClass_block_invoke
+- ___swift__destructor
+- ___swift_allocate_boxed_opaque_existential_1
+- ___swift_allocate_value_buffer
+- ___swift_async_cont_functlets
+- ___swift_async_entry_functlets
+- ___swift_async_ret_functlets
+- ___swift_closure_destructor
+- ___swift_closure_destructor.9Tm
+- ___swift_destroy_boxed_opaque_existential_1
+- ___swift_destroy_boxed_opaque_existential_1Tm
+- ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
+- ___swift_instantiateConcreteTypeFromMangledNameV2
+- ___swift_memcpy0_1
+- ___swift_memcpy16_8
+- ___swift_memcpy1_1
+- ___swift_memcpy24_8
+- ___swift_memcpy4_4
+- ___swift_memcpy56_8
+- ___swift_memcpy8_8
+- ___swift_mutable_project_boxed_opaque_existential_1
+- ___swift_noop_void_return
+- ___swift_project_boxed_opaque_existential_1
+- ___swift_project_value_buffer
+- ___swift_reflection_version
+- __dispatch_main_q
+- __swift_FORCE_LOAD_$_swiftAccelerate_$_NewsDaemon
+- __swift_FORCE_LOAD_$_swiftCoreFoundation_$_NewsDaemon
+- __swift_FORCE_LOAD_$_swiftCoreLocation_$_NewsDaemon
+- __swift_FORCE_LOAD_$_swiftDispatch_$_NewsDaemon
+- __swift_FORCE_LOAD_$_swiftFoundation_$_NewsDaemon
+- __swift_FORCE_LOAD_$_swiftMLCompute_$_NewsDaemon
+- __swift_FORCE_LOAD_$_swiftMetal_$_NewsDaemon
+- __swift_FORCE_LOAD_$_swiftNaturalLanguage_$_NewsDaemon
+- __swift_FORCE_LOAD_$_swiftOSLog_$_NewsDaemon
+- __swift_FORCE_LOAD_$_swiftObjectiveC_$_NewsDaemon
+- __swift_FORCE_LOAD_$_swiftQuartzCore_$_NewsDaemon
+- __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_NewsDaemon
+- __swift_FORCE_LOAD_$_swiftXPC_$_NewsDaemon
+- __swift_FORCE_LOAD_$_swift_Builtin_float_$_NewsDaemon
+- __swift_FORCE_LOAD_$_swiftos_$_NewsDaemon
+- __swift_FORCE_LOAD_$_swiftsimd_$_NewsDaemon
+- __swift_implicitisolationactor_to_executor_cast
+- __swift_stdlib_malloc_size
+- __unsafeEstablishConnectionIfNeededWithCompletion:.connectionIdentifier
+- _associated conformance 10NewsDaemon14NDFeedItemPoolC14UnderlyingTypeO10CodingKeys33_BDAC2CE5B96C356FEB1757E6109A7A9FLLOSHAASQ
+- _associated conformance 10NewsDaemon14NDFeedItemPoolC14UnderlyingTypeO10CodingKeys33_BDAC2CE5B96C356FEB1757E6109A7A9FLLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 10NewsDaemon14NDFeedItemPoolC14UnderlyingTypeO10CodingKeys33_BDAC2CE5B96C356FEB1757E6109A7A9FLLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 10NewsDaemon14NDFeedItemPoolC14UnderlyingTypeO17DropboxCodingKeys33_BDAC2CE5B96C356FEB1757E6109A7A9FLLOSHAASQ
+- _associated conformance 10NewsDaemon14NDFeedItemPoolC14UnderlyingTypeO17DropboxCodingKeys33_BDAC2CE5B96C356FEB1757E6109A7A9FLLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 10NewsDaemon14NDFeedItemPoolC14UnderlyingTypeO17DropboxCodingKeys33_BDAC2CE5B96C356FEB1757E6109A7A9FLLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 10NewsDaemon14NDFeedItemPoolC14UnderlyingTypeO23MultiDatabaseCodingKeys33_BDAC2CE5B96C356FEB1757E6109A7A9FLLOSHAASQ
+- _associated conformance 10NewsDaemon14NDFeedItemPoolC14UnderlyingTypeO23MultiDatabaseCodingKeys33_BDAC2CE5B96C356FEB1757E6109A7A9FLLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 10NewsDaemon14NDFeedItemPoolC14UnderlyingTypeO23MultiDatabaseCodingKeys33_BDAC2CE5B96C356FEB1757E6109A7A9FLLOs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 10NewsDaemon19DropboxFeedItemPoolV10CodingKeys33_5BFDE7E676D38A77D7B513724A4B1F9ELLOSHAASQ
+- _associated conformance 10NewsDaemon19DropboxFeedItemPoolV10CodingKeys33_5BFDE7E676D38A77D7B513724A4B1F9ELLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 10NewsDaemon19DropboxFeedItemPoolV10CodingKeys33_5BFDE7E676D38A77D7B513724A4B1F9ELLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 10NewsDaemon19DropboxFeedItemPoolV6Errors33_5BFDE7E676D38A77D7B513724A4B1F9ELLOSHAASQ
+- _associated conformance 10NewsDaemon22MergedFeedItemSequenceVSTAA8IteratorST_St
+- _associated conformance 10NewsDaemon23DropboxFeedItemSequence33_5BFDE7E676D38A77D7B513724A4B1F9ELLCSTAA8IteratorST_St
+- _associated conformance 10NewsDaemon25MultiDatabaseFeedItemPoolV0D6SourceO10CodingKeys33_18558D66A2FD91B03A690245F0D7F047LLOSHAASQ
+- _associated conformance 10NewsDaemon25MultiDatabaseFeedItemPoolV0D6SourceO10CodingKeys33_18558D66A2FD91B03A690245F0D7F047LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 10NewsDaemon25MultiDatabaseFeedItemPoolV0D6SourceO10CodingKeys33_18558D66A2FD91B03A690245F0D7F047LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 10NewsDaemon25MultiDatabaseFeedItemPoolV0D6SourceO10CodingType33_18558D66A2FD91B03A690245F0D7F047LLOSHAASQ
+- _associated conformance 10NewsDaemon25MultiDatabaseFeedItemPoolV10CodingKeys33_18558D66A2FD91B03A690245F0D7F047LLOSHAASQ
+- _associated conformance 10NewsDaemon25MultiDatabaseFeedItemPoolV10CodingKeys33_18558D66A2FD91B03A690245F0D7F047LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 10NewsDaemon25MultiDatabaseFeedItemPoolV10CodingKeys33_18558D66A2FD91B03A690245F0D7F047LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 10NewsDaemon25MultiDatabaseFeedItemPoolV12CodingErrors33_18558D66A2FD91B03A690245F0D7F047LLOSHAASQ
+- _associated conformance 10NewsDaemon27NDScoringServiceEnvironmentC10CodingKeys33_2CA832730808EF1A427C292DB784A630LLOSHAASQ
+- _associated conformance 10NewsDaemon27NDScoringServiceEnvironmentC10CodingKeys33_2CA832730808EF1A427C292DB784A630LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 10NewsDaemon27NDScoringServiceEnvironmentC10CodingKeys33_2CA832730808EF1A427C292DB784A630LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 10NewsDaemon28NDFeedItemPoolEnabledSourcesVs10SetAlgebraAASQ
+- _associated conformance 10NewsDaemon28NDFeedItemPoolEnabledSourcesVs10SetAlgebraAAs25ExpressibleByArrayLiteral
+- _associated conformance 10NewsDaemon28NDFeedItemPoolEnabledSourcesVs9OptionSetAASY
+- _associated conformance 10NewsDaemon28NDFeedItemPoolEnabledSourcesVs9OptionSetAAs0I7Algebra
+- _associated conformance 10NewsDaemon28NDManagedFeedItemPoolOptionsC10CodingKeys33_BE0A4F81B9ED1B3D0CCA3D937730E0BALLOSHAASQ
+- _associated conformance 10NewsDaemon28NDManagedFeedItemPoolOptionsC10CodingKeys33_BE0A4F81B9ED1B3D0CCA3D937730E0BALLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 10NewsDaemon28NDManagedFeedItemPoolOptionsC10CodingKeys33_BE0A4F81B9ED1B3D0CCA3D937730E0BALLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 10NewsDaemon29LiveActivityServiceConnectionV0cdE5ErrorO10Foundation09LocalizedG0AAs0G0
+- _associated conformance 10NewsDaemon29LiveActivityServiceConnectionV0cdE5ErrorOSHAASQ
+- _associated conformance 10NewsDaemon29NDSystemScheduledWorkPriorityOSHAASQ
+- _associated conformance 10NewsDaemon34LiveActivityScheduleRequestOptionsV10CodingKeys33_547492A568B1B33169991C662BF26686LLOSHAASQ
+- _associated conformance 10NewsDaemon34LiveActivityScheduleRequestOptionsV10CodingKeys33_547492A568B1B33169991C662BF26686LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 10NewsDaemon34LiveActivityScheduleRequestOptionsV10CodingKeys33_547492A568B1B33169991C662BF26686LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 10NewsDaemon34LiveActivityScheduleRequestOptionsVSHAASQ
+- _associated conformance SC30BGSystemTaskSchedulerErrorCodeLeV10Foundation021_ObjectiveCBridgeableD0SCs0D0
+- _associated conformance SC30BGSystemTaskSchedulerErrorCodeLeV10Foundation13CustomNSErrorSCs0D0
+- _associated conformance SC30BGSystemTaskSchedulerErrorCodeLeV10Foundation21_BridgedStoredNSErrorSC0E0AcDP_8RawValueSYs17FixedWidthInteger
+- _associated conformance SC30BGSystemTaskSchedulerErrorCodeLeV10Foundation21_BridgedStoredNSErrorSC0E0AcDP_AC01_dE8Protocol
+- _associated conformance SC30BGSystemTaskSchedulerErrorCodeLeV10Foundation21_BridgedStoredNSErrorSC0E0AcDP_SY
+- _associated conformance SC30BGSystemTaskSchedulerErrorCodeLeV10Foundation21_BridgedStoredNSErrorSCAC021_ObjectiveCBridgeableD0
+- _associated conformance SC30BGSystemTaskSchedulerErrorCodeLeV10Foundation21_BridgedStoredNSErrorSCAC06CustomI0
+- _associated conformance SC30BGSystemTaskSchedulerErrorCodeLeV10Foundation21_BridgedStoredNSErrorSCSH
+- _associated conformance SC30BGSystemTaskSchedulerErrorCodeLeVSHSCSQ
+- _associated conformance So16NSURLResourceKeyaSHSCSQ
+- _associated conformance So16NSURLResourceKeyas20_SwiftNewtypeWrapperSCSY
+- _associated conformance So16NSURLResourceKeyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
+- _associated conformance So19FCFeedFilterOptionsVs10SetAlgebraSCSQ
+- _associated conformance So19FCFeedFilterOptionsVs10SetAlgebraSCs25ExpressibleByArrayLiteral
+- _associated conformance So19FCFeedFilterOptionsVs9OptionSetSCSY
+- _associated conformance So19FCFeedFilterOptionsVs9OptionSetSCs0E7Algebra
+- _associated conformance So30BGSystemTaskSchedulerErrorCodeV10Foundation01_dE8ProtocolSC01_D4TypeAcDP_AC21_BridgedStoredNSError
+- _associated conformance So30BGSystemTaskSchedulerErrorCodeV10Foundation01_dE8ProtocolSCSQ
+- _audit_stringSilex
+- _block_copy_helper
+- _block_descriptor
+- _block_destroy_helper
+- _defaultLimits.onceToken
+- _defaultLimits.s_defaults
+- _dispatch_async
+- _dispatch_queue_attr_make_with_autorelease_frequency
+- _dispatch_queue_create
+- _dispatch_sync
+- _flat unique 10NewsDaemon20NDScoringServiceType_p
+- _flat unique 10NewsDaemon22NDTodayFeedServiceType_p
+- _flat unique 10NewsDaemon23LiveActivityServiceType_p
+- _flat unique ST_px7ElementSTRts_XP
+- _flat unique So23FCFeedPersonalizingItem_p
+- _flat unique St_px7ElementStRts_XP
+- _getSXContextClass.softClass
+- _get_enum_tag_for_layout_string 10NewsDaemon25MultiDatabaseFeedItemPoolV0D6SourceO
+- _get_enum_tag_for_layout_string 10NewsDaemon29ProxyScoringServiceConnectionC6Errors33_26AB11583D5CC439571F094EC0C7CC8FLLO
+- _get_enum_tag_for_layout_string 10NewsDaemon31ProxyTodayFeedServiceConnectionC6Errors33_B03B1AEEE8E861CB0475B8BDD397F7AALLO
+- _get_witness_table 5TeaDB10ColumnTypeRzlSdAaBHpyHC
+- _keypath_get_selector_defaultScoreProfile
+- _keypath_get_selector_forYouGroupScoreProfile
+- _keypath_get_selector_scoreProfiles
+- _keypath_get_selector_tabiScore
+- _objc_copyWeak
+- _objc_destroyWeak
+- _objc_initWeak
+- _objc_loadWeakRetained
+- _objc_retainBlock
+- _objc_storeWeak
+- _symbolic $s10Foundation18_ErrorCodeProtocolP
+- _symbolic $s10Foundation21_BridgedStoredNSErrorP
+- _symbolic $s10NewsDaemon18NDSystemTaskHandleP
+- _symbolic $s10NewsDaemon20NDScoringServiceTypeP
+- _symbolic $s10NewsDaemon22NDSystemTaskSchedulingP
+- _symbolic $s10NewsDaemon22NDTodayFeedServiceTypeP
+- _symbolic $s10NewsDaemon23LiveActivityServiceTypeP
+- _symbolic $s10NewsDaemon24FeedItemSequenceProviderP
+- _symbolic $s10NewsDaemon32EngagementDataEnqueueHandlerTypeP
+- _symbolic $sST
+- _symbolic $sSY
+- _symbolic $sSt
+- _symbolic $ss10SetAlgebraP
+- _symbolic $ss21_ObjectiveCBridgeableP
+- _symbolic $ss25ExpressibleByArrayLiteralP
+- _symbolic $ss9OptionSetP
+- _symbolic 7ElementSTQyd__
+- _symbolic 7ElementStQyd__
+- _symbolic B0
+- _symbolic IeghH_
+- _symbolic Iegh_
+- _symbolic Iegh_Ieghg_
+- _symbolic IeyBh_IeyBhy_
+- _symbolic SDySSSdGSg
+- _symbolic SDySSSdGSg______pSgIeggg_ s5ErrorP
+- _symbolic SDySSSdGSg______pSgIegng_ s5ErrorP
+- _symbolic SS
+- _symbolic SaySSG
+- _symbolic SaySo17FCFileAccessTokenCG
+- _symbolic Say_____G 10NewsDaemon22MergedFeedItemIteratorC6Stream33_E4B831F800785311457D20D6CC1F24EALLV
+- _symbolic Say_____G 10NewsDaemon25MultiDatabaseFeedItemPoolV0D6SourceO
+- _symbolic Say_____G 13TeaFoundation10UnfairLockC7OptionsV
+- _symbolic Say__________XjG lST_px7ElementRts_XPXGMq 10NewsDaemon14ScoredFeedItemV
+- _symbolic Say______pG So23FCFeedPersonalizingItemP
+- _symbolic Sb9cancelled_Sb7resumedScCyyt_____GSg12continuationt s5NeverO
+- _symbolic ScA_pSg
+- _symbolic ScCyx______pG s5ErrorP
+- _symbolic ScCyyt_____G s5NeverO
+- _symbolic ScCyyt_____GSg s5NeverO
+- _symbolic ScCyyt______pG s5ErrorP
+- _symbolic ScPSg
+- _symbolic Sd
+- _symbolic SdSg
+- _symbolic ShySSG
+- _symbolic Si
+- _symbolic Si6offset______7elementt 10NewsDaemon22MergedFeedItemIteratorC6Stream33_E4B831F800785311457D20D6CC1F24EALLV
+- _symbolic So12NTPBFeedItemC
+- _symbolic So13AMSEngagementCSg
+- _symbolic So13NSInputStreamC
+- _symbolic So15NSXPCConnectionC
+- _symbolic So15NSXPCConnectionCSg
+- _symbolic So16NTPBScoreProfileC
+- _symbolic So16NTPBScoreProfileCSg
+- _symbolic So17FCFileAccessTokenC
+- _symbolic So17NTPBScoreProfilesC
+- _symbolic So17NTPBScoreProfilesCSg
+- _symbolic So21PBMessageStreamReaderC
+- _symbolic So26AMSEngagementEnqueueResultCSg
+- _symbolic So7NSErrorC
+- _symbolic So8NSObjectC
+- _symbolic So8NSObjectCSg
+- _symbolic So8NSStringC
+- _symbolic _____ 10Foundation3URLV
+- _symbolic _____ 10Foundation4DateV
+- _symbolic _____ 10NewsDaemon12BundleLoader33_57384A5BC146306734585127338E266DLLC
+- _symbolic _____ 10NewsDaemon12MachServicesV
+- _symbolic _____ 10NewsDaemon14NDFeedItemPoolC
+- _symbolic _____ 10NewsDaemon14NDFeedItemPoolC14UnderlyingTypeO
+- _symbolic _____ 10NewsDaemon14NDFeedItemPoolC14UnderlyingTypeO10CodingKeys33_BDAC2CE5B96C356FEB1757E6109A7A9FLLO
+- _symbolic _____ 10NewsDaemon14NDFeedItemPoolC14UnderlyingTypeO17DropboxCodingKeys33_BDAC2CE5B96C356FEB1757E6109A7A9FLLO
+- _symbolic _____ 10NewsDaemon14NDFeedItemPoolC14UnderlyingTypeO23MultiDatabaseCodingKeys33_BDAC2CE5B96C356FEB1757E6109A7A9FLLO
+- _symbolic _____ 10NewsDaemon14ScoredFeedItemV
+- _symbolic _____ 10NewsDaemon19DropboxFeedItemPoolV
+- _symbolic _____ 10NewsDaemon19DropboxFeedItemPoolV10CodingKeys33_5BFDE7E676D38A77D7B513724A4B1F9ELLO
+- _symbolic _____ 10NewsDaemon19DropboxFeedItemPoolV6Errors33_5BFDE7E676D38A77D7B513724A4B1F9ELLO
+- _symbolic _____ 10NewsDaemon21NDSystemScheduledWorkC
+- _symbolic _____ 10NewsDaemon21ProxyFeedPersonalizerC
+- _symbolic _____ 10NewsDaemon22MergedFeedItemIteratorC
+- _symbolic _____ 10NewsDaemon22MergedFeedItemIteratorC6Stream33_E4B831F800785311457D20D6CC1F24EALLV
+- _symbolic _____ 10NewsDaemon22MergedFeedItemSequenceV
+- _symbolic _____ 10NewsDaemon23DropboxFeedItemSequence33_5BFDE7E676D38A77D7B513724A4B1F9ELLC
+- _symbolic _____ 10NewsDaemon25MultiDatabaseFeedItemPoolV
+- _symbolic _____ 10NewsDaemon25MultiDatabaseFeedItemPoolV0D6SourceO
+- _symbolic _____ 10NewsDaemon25MultiDatabaseFeedItemPoolV0D6SourceO10CodingKeys33_18558D66A2FD91B03A690245F0D7F047LLO
+- _symbolic _____ 10NewsDaemon25MultiDatabaseFeedItemPoolV0D6SourceO10CodingType33_18558D66A2FD91B03A690245F0D7F047LLO
+- _symbolic _____ 10NewsDaemon25MultiDatabaseFeedItemPoolV10CodingKeys33_18558D66A2FD91B03A690245F0D7F047LLO
+- _symbolic _____ 10NewsDaemon25MultiDatabaseFeedItemPoolV12CodingErrors33_18558D66A2FD91B03A690245F0D7F047LLO
+- _symbolic _____ 10NewsDaemon26NDFeedItemPoolFetchOptionsC
+- _symbolic _____ 10NewsDaemon27LiveActivityScheduleRequestC
+- _symbolic _____ 10NewsDaemon27NDScoringServiceEnvironmentC
+- _symbolic _____ 10NewsDaemon27NDScoringServiceEnvironmentC10CodingKeys33_2CA832730808EF1A427C292DB784A630LLO
+- _symbolic _____ 10NewsDaemon28EngagementDataEnqueueHandlerC
+- _symbolic _____ 10NewsDaemon28NDFeedItemPoolEnabledSourcesV
+- _symbolic _____ 10NewsDaemon28NDManagedFeedItemPoolOptionsC
+- _symbolic _____ 10NewsDaemon28NDManagedFeedItemPoolOptionsC10CodingKeys33_BE0A4F81B9ED1B3D0CCA3D937730E0BALLO
+- _symbolic _____ 10NewsDaemon29LiveActivityServiceConnectionV
+- _symbolic _____ 10NewsDaemon29LiveActivityServiceConnectionV0cdE5ErrorO
+- _symbolic _____ 10NewsDaemon29NDSystemScheduledWorkPriorityO
+- _symbolic _____ 10NewsDaemon29ProxyScoringServiceConnectionC
+- _symbolic _____ 10NewsDaemon29ProxyScoringServiceConnectionC13InterestTokenC
+- _symbolic _____ 10NewsDaemon29ProxyScoringServiceConnectionC6Errors33_26AB11583D5CC439571F094EC0C7CC8FLLO
+- _symbolic _____ 10NewsDaemon31ProxyTodayFeedServiceConnectionC
+- _symbolic _____ 10NewsDaemon31ProxyTodayFeedServiceConnectionC6Errors33_B03B1AEEE8E861CB0475B8BDD397F7AALLO
+- _symbolic _____ 10NewsDaemon34LiveActivityScheduleRequestOptionsV
+- _symbolic _____ 10NewsDaemon34LiveActivityScheduleRequestOptionsV10CodingKeys33_547492A568B1B33169991C662BF26686LLO
+- _symbolic _____ 13TeaFoundation10UnfairLockC
+- _symbolic _____ 2os6LoggerV
+- _symbolic _____ 8NewsCore13FeedItemOrderO
+- _symbolic _____ 8NewsCore19FeedItemDatabaseRefC
+- _symbolic _____ 8NewsCore22FeedItemAndScoreEntityV
+- _symbolic _____ 8NewsCore23CacheInvalidationConfigC
+- _symbolic _____ SC30BGSystemTaskSchedulerErrorCodeLeV
+- _symbolic _____ So16NSURLResourceKeya
+- _symbolic _____ So16os_unfair_lock_sV
+- _symbolic _____ So19FCFeedFilterOptionsV
+- _symbolic _____ So30BGSystemTaskSchedulerErrorCodeV
+- _symbolic _____ So37FCFeedPersonalizationConfigurationSetV
+- _symbolic _____ s5Int64V
+- _symbolic _____ s6UInt32V
+- _symbolic _____ s6UInt64V
+- _symbolic _____Sg 10Foundation3URLV
+- _symbolic _____Sg 10Foundation4DateV
+- _symbolic _____Sg 10NewsDaemon22MergedFeedItemIteratorC6Stream33_E4B831F800785311457D20D6CC1F24EALLV
+- _symbolic _____Sg 8NewsCore13FeedItemOrderO
+- _symbolic _____SgXw 10NewsDaemon21NDSystemScheduledWorkC
+- _symbolic _____SgXwz_Xx 10NewsDaemon21NDSystemScheduledWorkC
+- _symbolic __________Xj lST_px7ElementRts_XPXGMq 10NewsDaemon14ScoredFeedItemV
+- _symbolic __________Xj lSt_px7ElementRts_XPXGMq 10NewsDaemon14ScoredFeedItemV
+- _symbolic ______p 10NewsDaemon18NDSystemTaskHandleP
+- _symbolic ______p 10NewsDaemon20NDScoringServiceTypeP
+- _symbolic ______p 10NewsDaemon22NDSystemTaskSchedulingP
+- _symbolic ______p 10NewsDaemon22NDTodayFeedServiceTypeP
+- _symbolic ______p 10NewsDaemon23LiveActivityServiceTypeP
+- _symbolic ______p So23FCFeedPersonalizingItemP
+- _symbolic ______p s5ErrorP
+- _symbolic ______pIegg_ 10NewsDaemon18NDSystemTaskHandleP
+- _symbolic ______pSg s5ErrorP
+- _symbolic ______pSgz_Xx s5ErrorP
+- _symbolic ______px______pIegHgrzo_ 10NewsDaemon22NDTodayFeedServiceTypeP s5ErrorP
+- _symbolic ______pyt______pIegHgrzo_ 10NewsDaemon22NDTodayFeedServiceTypeP s5ErrorP
+- _symbolic _____ySSG s11_SetStorageC
+- _symbolic _____ySSG s23_ContiguousArrayStorageC
+- _symbolic _____ySSSdG s18_DictionaryStorageC
+- _symbolic _____ySSSo13FCFeedContextCG s18_DictionaryStorageC
+- _symbolic _____ySb7expired_ScTyyt_____GSg6runnertG 2os21OSAllocatedUnfairLockV s5NeverO
+- _symbolic _____ySb7expired_ScTyyt_____GSg6runnert_____G s13ManagedBufferCsRi__rlE s5NeverO So16os_unfair_lock_sV
+- _symbolic _____ySb9cancelled_Sb7resumedScCyyt_____GSg12continuationt_____G s13ManagedBufferCsRi__rlE s5NeverO So16os_unfair_lock_sV
+- _symbolic _____ySbG 15Synchronization5MutexVAARi_zrlE
+- _symbolic _____ySdG 5TeaDB6ColumnC
+- _symbolic _____ySiG 2os21OSAllocatedUnfairLockV
+- _symbolic _____ySi_____G s13ManagedBufferCsRi__rlE So16os_unfair_lock_sV
+- _symbolic _____ySnySiGG s23_ContiguousArrayStorageC
+- _symbolic _____ySo12NTPBFeedItemCSdSgG s7KeyPathC
+- _symbolic _____y_____G s11_SetStorageC So16NSURLResourceKeya
+- _symbolic _____y_____G s22KeyedDecodingContainerV 10NewsDaemon14NDFeedItemPoolC14UnderlyingTypeO10CodingKeys33_BDAC2CE5B96C356FEB1757E6109A7A9FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 10NewsDaemon14NDFeedItemPoolC14UnderlyingTypeO17DropboxCodingKeys33_BDAC2CE5B96C356FEB1757E6109A7A9FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 10NewsDaemon14NDFeedItemPoolC14UnderlyingTypeO23MultiDatabaseCodingKeys33_BDAC2CE5B96C356FEB1757E6109A7A9FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 10NewsDaemon19DropboxFeedItemPoolV10CodingKeys33_5BFDE7E676D38A77D7B513724A4B1F9ELLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 10NewsDaemon25MultiDatabaseFeedItemPoolV0G6SourceO10CodingKeys33_18558D66A2FD91B03A690245F0D7F047LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 10NewsDaemon25MultiDatabaseFeedItemPoolV10CodingKeys33_18558D66A2FD91B03A690245F0D7F047LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 10NewsDaemon27NDScoringServiceEnvironmentC10CodingKeys33_2CA832730808EF1A427C292DB784A630LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 10NewsDaemon28NDManagedFeedItemPoolOptionsC10CodingKeys33_BE0A4F81B9ED1B3D0CCA3D937730E0BALLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 10NewsDaemon34LiveActivityScheduleRequestOptionsV10CodingKeys33_547492A568B1B33169991C662BF26686LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 10NewsDaemon14NDFeedItemPoolC14UnderlyingTypeO10CodingKeys33_BDAC2CE5B96C356FEB1757E6109A7A9FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 10NewsDaemon14NDFeedItemPoolC14UnderlyingTypeO17DropboxCodingKeys33_BDAC2CE5B96C356FEB1757E6109A7A9FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 10NewsDaemon14NDFeedItemPoolC14UnderlyingTypeO23MultiDatabaseCodingKeys33_BDAC2CE5B96C356FEB1757E6109A7A9FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 10NewsDaemon19DropboxFeedItemPoolV10CodingKeys33_5BFDE7E676D38A77D7B513724A4B1F9ELLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 10NewsDaemon25MultiDatabaseFeedItemPoolV0G6SourceO10CodingKeys33_18558D66A2FD91B03A690245F0D7F047LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 10NewsDaemon25MultiDatabaseFeedItemPoolV10CodingKeys33_18558D66A2FD91B03A690245F0D7F047LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 10NewsDaemon27NDScoringServiceEnvironmentC10CodingKeys33_2CA832730808EF1A427C292DB784A630LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 10NewsDaemon28NDManagedFeedItemPoolOptionsC10CodingKeys33_BE0A4F81B9ED1B3D0CCA3D937730E0BALLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 10NewsDaemon34LiveActivityScheduleRequestOptionsV10CodingKeys33_547492A568B1B33169991C662BF26686LLO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 10NewsDaemon14ScoredFeedItemV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 10NewsDaemon22MergedFeedItemIteratorC6Stream33_E4B831F800785311457D20D6CC1F24EALLV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 13TeaFoundation11XPCArgumentV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 13TeaFoundation11XPCSelectorV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 13TeaFoundation8XPCClassV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC So16NSURLResourceKeya
+- _symbolic _____y_____G s23_ContiguousArrayStorageC So19FCFeedFilterOptionsV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC s5UInt8V
+- _symbolic _____y______Qo_ 8NewsCore16FeedItemDatabaseC03allcD8Entities_5orderQrxm_AA0cD5OrderOtKAA0cD10EntityTypeRzlFQO AA0cd8AndScoreJ0V
+- _symbolic _____y__________XjG s23_ContiguousArrayStorageC lST_px7ElementRts_XPXGMq 10NewsDaemon14ScoredFeedItemV
+- _symbolic _____y______pG s23_ContiguousArrayStorageC s7CVarArgP
+- _symbolic _____y_____y______Qo_G s12LazySequenceV 8NewsCore16FeedItemDatabaseC03alleF8Entities_5orderQrxm_AC0eF5OrderOtKAC0eF10EntityTypeRzlFQO AC0ef8AndScoreL0V
+- _symbolic _____y_____y______Qo______G s15LazyMapSequenceV 8NewsCore16FeedItemDatabaseC03allfG8Entities_5orderQrxm_AC0fG5OrderOtKAC0fG10EntityTypeRzlFQO AC0fg8AndScoreM0V 0D6Daemon06ScoredfG0V
+- _symbolic _____y_____y_____y______Qo______GG s23_ContiguousArrayStorageC s15LazyMapSequenceV 8NewsCore16FeedItemDatabaseC03alliJ8Entities_5orderQrxm_AE0iJ5OrderOtKAE0iJ10EntityTypeRzlFQO AE0ij8AndScoreP0V 0G6Daemon06ScorediJ0V
+- _symbolic _____yyXlG s23_ContiguousArrayStorageC
+- _symbolic qd__
+- _symbolic x
+- _symbolic xSgz_SDySSSdG_lXX
+- _symbolic xSgz_x_lXX
+- _symbolic ypSg
+- _symbolic ypXmT______t s13DecodingErrorO7ContextV
+- _symbolic ytIeAgHr_
+- _symbolic ytSg
+- _symbolic ytSgIeAgHr_
+- _symbolic yyYaYbc
+- _type_layout_string 10NewsDaemon14ScoredFeedItemV
+- _type_layout_string 10NewsDaemon22MergedFeedItemIteratorC6Stream33_E4B831F800785311457D20D6CC1F24EALLV
+- _type_layout_string 10NewsDaemon22MergedFeedItemSequenceV
+- _type_layout_string 10NewsDaemon25MultiDatabaseFeedItemPoolV
+- _type_layout_string 10NewsDaemon25MultiDatabaseFeedItemPoolV0D6SourceO
+- _type_layout_string 10NewsDaemon28NDFeedItemPoolEnabledSourcesV
+- _type_layout_string 10NewsDaemon29LiveActivityServiceConnectionV
+- _type_layout_string 10NewsDaemon29ProxyScoringServiceConnectionC6Errors33_26AB11583D5CC439571F094EC0C7CC8FLLO
+- _type_layout_string 10NewsDaemon31ProxyTodayFeedServiceConnectionC6Errors33_B03B1AEEE8E861CB0475B8BDD397F7AALLO
+- _type_layout_string SC30BGSystemTaskSchedulerErrorCodeLeV
+- _type_layout_string So16NSURLResourceKeya
+- _type_layout_string So16os_unfair_lock_sV
+- _type_layout_string So19FCFeedFilterOptionsV
+CStrings:
+- "-[NDNewsDaemonContext fetchLatestResultsWithParameters:completion:]"
+- "-[NDNewsDaemonContext fetchModuleDescriptorsWithCompletion:]"
+- "-[NDNewsDaemonContext fetchPlaceholderResultsWithOperationInfo:syncCompletion:]"
+- "-[NDNewsDaemonContext markAnalyticsElement:asReadAtDate:withCompletion:]"
+- "-[NDNewsDaemonContext markAnalyticsElements:asSeenAtDate:withCompletion:]"
+- "-[NDNewsServiceConnection _unsafeEstablishConnectionIfNeededWithCompletion:]"
+- "-[NDNewsServiceConnection fetchLatestResultsWithParameters:completion:]"
+- "-[NDNewsServiceConnection fetchLatestResultsWithParameters:completion:]_block_invoke"
+- "-[NDNewsServiceConnection fetchModuleDescriptorsWithCompletion:]"
+- "-[NDNewsServiceConnection fetchModuleDescriptorsWithCompletion:]_block_invoke"
+- "-[NDNewsServiceConnection fetchPlaceholderResultsWithOperationInfo:syncCompletion:]"
+- "-[NDNewsServiceConnection initWithClient:]"
+- "-[NDNewsServiceConnection markAnalyticsElement:asReadAtDate:withCompletion:]"
+- "-[NDNewsServiceConnection markAnalyticsElements:asSeenAtDate:withCompletion:]"
+- "-[NDNewsServiceConnection markAnalyticsElements:asSeenAtDate:withCompletion:]_block_invoke"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/NDNewsServiceConnection.m"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/FeldsparServicesUI/feldspar/NDNewsDaemonContext.m"
+- "1"
+- "Calling %s on daemon"
+- "Connection %ld was interrupted"
+- "Connection %ld was invalidated"
+- "Created connection %ld to newsd for NewsToday mach service"
+- "Invalid parameter not satisfying %s"
+- "Reusing connection %ld"
+- "analyticsElement"
+- "analyticsElements"
+- "client"
+- "com.apple.newsd.today"
+- "com.apple.newsdaemon.accessQueue"
+- "completion"
+- "date"
+- "headlineAnalyticsElements"
+- "operationInfo"
+- "parameters"
+- "syncCompletion"
+```

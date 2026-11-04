@@ -1,0 +1,2748 @@
+## NewsToday
+
+> `/System/Library/PrivateFrameworks/NewsToday.framework/NewsToday`
+
+```diff
+
+-5971.0.0.0.0
+-  __TEXT.__text: 0x447f0
+-  __TEXT.__objc_methlist: 0x651c
++6006.0.0.0.0
++  __TEXT.__text: 0x44a08
++  __TEXT.__objc_methlist: 0x6554
+   __TEXT.__const: 0xcf8
+-  __TEXT.__oslogstring: 0x17e0
+-  __TEXT.__cstring: 0x8ff5
++  __TEXT.__oslogstring: 0x1930
++  __TEXT.__cstring: 0x8db5
+   __TEXT.__ustring: 0x16
+   __TEXT.__gcc_except_tab: 0xa24
+   __TEXT.__constg_swiftt: 0x240
+
+   __TEXT.__swift_as_entry: 0x1c
+   __TEXT.__swift_as_ret: 0x20
+   __TEXT.__swift_as_cont: 0x20
+-  __TEXT.__unwind_info: 0x1608
++  __TEXT.__unwind_info: 0x15f0
+   __TEXT.__eh_frame: 0x908
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1860
+-  __DATA_CONST.__objc_classlist: 0x1f8
++  __DATA_CONST.__const: 0x1880
++  __DATA_CONST.__objc_classlist: 0x1f0
+   __DATA_CONST.__objc_catlist: 0x78
+   __DATA_CONST.__objc_protolist: 0x1d8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x3da0
+   __DATA_CONST.__objc_protorefs: 0x80
+-  __DATA_CONST.__objc_superrefs: 0x1c0
++  __DATA_CONST.__objc_superrefs: 0x1b8
+   __DATA_CONST.__objc_arraydata: 0x1a0
+-  __DATA_CONST.__got: 0xa80
+-  __AUTH_CONST.__const: 0xdc8
++  __DATA_CONST.__got: 0xa68
++  __AUTH_CONST.__const: 0xda8
+   __AUTH_CONST.__cfstring: 0x1e00
+-  __AUTH_CONST.__objc_const: 0xdf78
++  __AUTH_CONST.__objc_const: 0xde48
+   __AUTH_CONST.__objc_intobj: 0x120
+   __AUTH_CONST.__objc_doubleobj: 0x30
+   __AUTH_CONST.__objc_dictobj: 0x1b8
+
+   __AUTH_CONST.__auth_got: 0x798
+   __AUTH.__objc_data: 0x490
+   __AUTH.__data: 0x168
+-  __DATA.__objc_ivar: 0x5c8
++  __DATA.__objc_ivar: 0x5c4
+   __DATA.__data: 0x13b0
+-  __DATA_DIRTY.__objc_data: 0x10b8
++  __DATA_DIRTY.__objc_data: 0x1068
+   __DATA_DIRTY.__data: 0xc0
+   __DATA_DIRTY.__bss: 0x78
+   - /System/Library/Frameworks/CloudKit.framework/CloudKit
+
+   - /System/Library/PrivateFrameworks/SearchFoundation.framework/SearchFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
++  - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCore.dylib
++  - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
++  - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
++  - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 2011
+-  Symbols:   3263
++  Functions: 2006
++  Symbols:   637
+   CStrings:  823
+ 
+Symbols:
++ _FCPaywallLog
++ __swift_FORCE_LOAD_$_swiftAVFoundation
++ __swift_FORCE_LOAD_$_swiftCoreAudio
++ __swift_FORCE_LOAD_$_swiftCoreImage
++ __swift_FORCE_LOAD_$_swiftCoreMIDI
+- +[FCContentContext(NTAdditions) nt_contentContextWithConfigurationManager:contentHostDirectory:networkBehaviorMonitor:]
+- +[NTForYouRequestManifest supportsSecureCoding]
+- +[NTHeadline supportsSecureCoding]
+- +[NTHeadlinePersonalizationMetadata supportsSecureCoding]
+- +[NTNewsTodayResultOperation initialize]
+- +[NTPBTodayBannerConfig(FCAdditions) bannerConfigWithJSONDictionary:]
+- +[NTPBTodayModuleDescriptor(NTAdditions) nt_defaultModule]
+- +[NTPBTodayModuleDescriptor(NTAdditions) nt_moduleWithTagID:]
+- +[NTPBTodayPersonalizationEvent(FTAdditions) ft_eventWithDate:action:headline:section:headlineIndexInSection:precedingHeadlinesCount:precedingSectionsCount:]
+- +[NTPBTodaySectionConfig(FCAdditions) sectionConfigWithJSONDictionary:]
+- +[NTSection _itemClassesByType]
+- +[NTSection supportsSecureCoding]
+- +[NTTodayBanner supportsSecureCoding]
+- +[NTTodayResults supportsSecureCoding]
+- +[NTTodayResultsSource placeholderResultsWithFetchDescriptor:contentContext:operationInfo:]
+- -[FCKeyValueStore(FRRingBufferContainer) hasMaxForKey:]
+- -[FCKeyValueStore(FRRingBufferContainer) hasMinForKey:]
+- -[FCKeyValueStore(FRRingBufferContainer) maxForKey:]
+- -[FCKeyValueStore(FRRingBufferContainer) minForKey:]
+- -[FCKeyValueStore(FRRingBufferContainer) ringBufferForKey:]
+- -[FCKeyValueStore(FRRingBufferContainer) ringBufferForKey:capacity:]
+- -[FCKeyValueStore(FRRingBufferContainer) setRingBuffers:]
+- -[FRRingBuffer .cxx_destruct]
+- -[FRRingBuffer capacity]
+- -[FRRingBuffer description]
+- -[FRRingBuffer dictionary]
+- -[FRRingBuffer initWithCapacity:]
+- -[FRRingBuffer initWithCapacity:dictionary:]
+- -[FRRingBuffer insertValue:]
+- -[FRRingBuffer max]
+- -[FRRingBuffer min]
+- -[FRRingBuffer position]
+- -[FRRingBuffer setCapacity:]
+- -[FRRingBuffer setMax:]
+- -[FRRingBuffer setMin:]
+- -[FRRingBuffer setPosition:]
+- -[FRRingBuffer setValues:]
+- -[FRRingBuffer values]
+- -[NSDictionary(NNHeadlineSyncHelpers) sync_NewsURLString]
+- -[NSDictionary(NNHeadlineSyncHelpers) sync_colorHexString]
+- -[NSDictionary(NNHeadlineSyncHelpers) sync_excerpt]
+- -[NSDictionary(NNHeadlineSyncHelpers) sync_expirationDate]
+- -[NSDictionary(NNHeadlineSyncHelpers) sync_headlineCount]
+- -[NSDictionary(NNHeadlineSyncHelpers) sync_headlines]
+- -[NSDictionary(NNHeadlineSyncHelpers) sync_identifier]
+- -[NSDictionary(NNHeadlineSyncHelpers) sync_name]
+- -[NSDictionary(NNHeadlineSyncHelpers) sync_publisherIdentifier]
+- -[NSDictionary(NNHeadlineSyncHelpers) sync_publisherLogoImageData]
+- -[NSDictionary(NNHeadlineSyncHelpers) sync_publisherName]
+- -[NSDictionary(NNHeadlineSyncHelpers) sync_sections]
+- -[NSDictionary(NNHeadlineSyncHelpers) sync_thumbnailImageData]
+- -[NSDictionary(NNHeadlineSyncHelpers) sync_title]
+- -[NSDictionary(NNHeadlineSyncHelpers) sync_type]
+- -[NTAggregationBudgetInfo .cxx_destruct]
+- -[NTAggregationBudgetInfo allowSectionTitles]
+- -[NTAggregationBudgetInfo bannerSlotCost]
+- -[NTAggregationBudgetInfo copyWithZone:]
+- -[NTAggregationBudgetInfo embedsLimit]
+- -[NTAggregationBudgetInfo hasBannerSlotCost]
+- -[NTAggregationBudgetInfo init]
+- -[NTAggregationBudgetInfo respectMinMaxLimit]
+- -[NTAggregationBudgetInfo sectionSlotCostInfo]
+- -[NTAggregationBudgetInfo setAllowSectionTitles:]
+- -[NTAggregationBudgetInfo setBannerSlotCost:]
+- -[NTAggregationBudgetInfo setEmbedsLimit:]
+- -[NTAggregationBudgetInfo setHasBannerSlotCost:]
+- -[NTAggregationBudgetInfo setRespectMinMaxLimit:]
+- -[NTAggregationBudgetInfo setSectionSlotCostInfo:]
+- -[NTAggregationBudgetInfo setSlotsLimit:]
+- -[NTAggregationBudgetInfo slotsLimit]
+- -[NTArticleIDsSectionFetchDescriptor .cxx_destruct]
+- -[NTArticleIDsSectionFetchDescriptor assembleResultsWithCatchUpOperation:]
+- -[NTArticleIDsSectionFetchDescriptor configureCatchUpOperationWithFetchRequest:]
+- -[NTArticleIDsSectionFetchDescriptor copyWithZone:]
+- -[NTArticleIDsSectionFetchDescriptor incrementalLimitTransformationWithFeedPersonalizer:limit:priorFeedItems:lastEntryItems:]
+- -[NTArticleIDsSectionFetchDescriptor incrementalSortTransformationWithFeedPersonalizer:]
+- -[NTArticleIDsSectionFetchDescriptor initWithArticleIDsConfiguration:]
+- -[NTArticleIDsSectionFetchDescriptor init]
+- -[NTArticleIDsSectionFetchDescriptor privateFetchDescriptor]
+- -[NTArticleIDsSectionFetchDescriptor setPrivateFetchDescriptor:]
+- -[NTArticleListSectionFetchDescriptor .cxx_destruct]
+- -[NTArticleListSectionFetchDescriptor articleListRequest]
+- -[NTArticleListSectionFetchDescriptor assembleResultsWithCatchUpOperation:]
+- -[NTArticleListSectionFetchDescriptor configureCatchUpOperationWithFetchRequest:]
+- -[NTArticleListSectionFetchDescriptor copyWithZone:]
+- -[NTArticleListSectionFetchDescriptor incrementalLimitTransformationWithFeedPersonalizer:limit:priorFeedItems:lastEntryItems:]
+- -[NTArticleListSectionFetchDescriptor incrementalSortTransformationWithFeedPersonalizer:]
+- -[NTArticleListSectionFetchDescriptor initWithArticleListConfiguration:]
+- -[NTArticleListSectionFetchDescriptor init]
+- -[NTArticleListSectionFetchDescriptor setArticleListRequest:]
+- -[NTBestOfSectionTransformation .cxx_destruct]
+- -[NTBestOfSectionTransformation fallbackTransformation]
+- -[NTBestOfSectionTransformation groupingService]
+- -[NTBestOfSectionTransformation initWithGroupingService:limit:fallbackTransformation:]
+- -[NTBestOfSectionTransformation limit]
+- -[NTBestOfSectionTransformation transformFeedItems:]
+- -[NTCatchUpOperation .cxx_destruct]
+- -[NTCatchUpOperation _fetchArticleListAndArticleIDsResultsIfNeededWithCompletion:]
+- -[NTCatchUpOperation _fetchForYouResultsIfNeededWithCompletion:]
+- -[NTCatchUpOperation _fetchForYouResultsUsingDaemonWithCompletion:]
+- -[NTCatchUpOperation _fetchForYouResultsUsingFeedRequestWithCompletion:]
+- -[NTCatchUpOperation addArticleIDsRequest:]
+- -[NTCatchUpOperation addArticleIDsToExclude:]
+- -[NTCatchUpOperation addArticleListRequest:]
+- -[NTCatchUpOperation appConfiguration]
+- -[NTCatchUpOperation articleIDsRequests]
+- -[NTCatchUpOperation articleIDsToExclude]
+- -[NTCatchUpOperation articleListRequests]
+- -[NTCatchUpOperation catchUpCompletionHandler]
+- -[NTCatchUpOperation contentContext]
+- -[NTCatchUpOperation feedPersonalizer]
+- -[NTCatchUpOperation fetchDate]
+- -[NTCatchUpOperation forYouFetchInfo]
+- -[NTCatchUpOperation forYouRequest]
+- -[NTCatchUpOperation forYouResults]
+- -[NTCatchUpOperation forYouSource]
+- -[NTCatchUpOperation init]
+- -[NTCatchUpOperation isForYouEnabled]
+- -[NTCatchUpOperation operationWillFinishWithError:]
+- -[NTCatchUpOperation performOperation]
+- -[NTCatchUpOperation prepareOperation]
+- -[NTCatchUpOperation resultsByArticleIDsRequestID]
+- -[NTCatchUpOperation resultsByArticleListID]
+- -[NTCatchUpOperation setAppConfiguration:]
+- -[NTCatchUpOperation setArticleIDsRequests:]
+- -[NTCatchUpOperation setArticleIDsToExclude:]
+- -[NTCatchUpOperation setArticleListRequests:]
+- -[NTCatchUpOperation setCatchUpCompletionHandler:]
+- -[NTCatchUpOperation setContentContext:]
+- -[NTCatchUpOperation setFeedPersonalizer:]
+- -[NTCatchUpOperation setFetchDate:]
+- -[NTCatchUpOperation setForYouEnabled:]
+- -[NTCatchUpOperation setForYouFetchInfo:]
+- -[NTCatchUpOperation setForYouRequest:]
+- -[NTCatchUpOperation setForYouResults:]
+- -[NTCatchUpOperation setForYouSource:]
+- -[NTCatchUpOperation setResultsByArticleIDsRequestID:]
+- -[NTCatchUpOperation setResultsByArticleListID:]
+- -[NTCatchUpOperation setShouldIssueShadowDaemonFetch:]
+- -[NTCatchUpOperation setTodayConfigOperationHeldRecordsByType:]
+- -[NTCatchUpOperation shouldIssueShadowDaemonFetch]
+- -[NTCatchUpOperation todayConfigOperationHeldRecordsByType]
+- -[NTCatchUpOperation validateOperation]
+- -[NTCatchUpOperationArticleIDsRequest .cxx_destruct]
+- -[NTCatchUpOperationArticleIDsRequest articleIDs]
+- -[NTCatchUpOperationArticleIDsRequest copyWithZone:]
+- -[NTCatchUpOperationArticleIDsRequest identifier]
+- -[NTCatchUpOperationArticleIDsRequest initWithArticleIDs:overrideHeadlineMetadataByArticleID:]
+- -[NTCatchUpOperationArticleIDsRequest init]
+- -[NTCatchUpOperationArticleIDsRequest overrideHeadlineMetadataByArticleID]
+- -[NTCatchUpOperationArticleIDsRequest setArticleIDs:]
+- -[NTCatchUpOperationArticleIDsRequest setIdentifier:]
+- -[NTCatchUpOperationArticleIDsRequest setOverrideHeadlineMetadataByArticleID:]
+- -[NTCatchUpOperationForYouFetchInfo .cxx_destruct]
+- -[NTCatchUpOperationForYouFetchInfo attemptedCachedOnly]
+- -[NTCatchUpOperationForYouFetchInfo copyWithZone:]
+- -[NTCatchUpOperationForYouFetchInfo feedContextByFeedID]
+- -[NTCatchUpOperationForYouFetchInfo initWithAttemptedCachedOnly:feedContextByFeedID:]
+- -[NTCatchUpOperationForYouFetchInfo init]
+- -[NTCatchUpOperationResults .cxx_destruct]
+- -[NTCatchUpOperationResults copyWithItems:]
+- -[NTCatchUpOperationResults copyWithZone:]
+- -[NTCatchUpOperationResults hash]
+- -[NTCatchUpOperationResults initWithFeedItems:supplementalInterestToken:feedContextByFeedID:]
+- -[NTCatchUpOperationResults initWithHeadlines:rankingFeedback:actionURLsByArticleID:]
+- -[NTCatchUpOperationResults initWithItems:rankingFeedback:supplementalInterestToken:]
+- -[NTCatchUpOperationResults init]
+- -[NTCatchUpOperationResults isEqual:]
+- -[NTCatchUpOperationResults items]
+- -[NTCatchUpOperationResults rankingFeedback]
+- -[NTCatchUpOperationResults resultsByCombiningWithResults:]
+- -[NTCatchUpOperationResults supplementalInterestToken]
+- -[NTCatchUpOperationTagRequest .cxx_destruct]
+- -[NTCatchUpOperationTagRequest cutoffTime]
+- -[NTCatchUpOperationTagRequest fetchingBin]
+- -[NTCatchUpOperationTagRequest headlinesPerFeedFetchCount]
+- -[NTCatchUpOperationTagRequest initWithTagTodaySectionSpecificConfig:tagID:]
+- -[NTCatchUpOperationTagRequest init]
+- -[NTCatchUpOperationTagRequest tagID]
+- -[NTFeedTransformationFeedItem .cxx_destruct]
+- -[NTFeedTransformationFeedItem cacheCutoffTimeRelativeDate]
+- -[NTFeedTransformationFeedItem cacheExpirationDate]
+- -[NTFeedTransformationFeedItem clusterID]
+- -[NTFeedTransformationFeedItem copyWithZone:]
+- -[NTFeedTransformationFeedItem feedItemForHeadlineFetch]
+- -[NTFeedTransformationFeedItem feedItem]
+- -[NTFeedTransformationFeedItem feedTransformationItem]
+- -[NTFeedTransformationFeedItem hash]
+- -[NTFeedTransformationFeedItem identifier]
+- -[NTFeedTransformationFeedItem initWithFeedItem:cacheExpirationDate:surfacedByChannelID:]
+- -[NTFeedTransformationFeedItem init]
+- -[NTFeedTransformationFeedItem isEqual:]
+- -[NTFeedTransformationFeedItem isLocal]
+- -[NTFeedTransformationFeedItem markAsLocal]
+- -[NTFeedTransformationFeedItem needsFeedItemHeadlinesFetch]
+- -[NTFeedTransformationFeedItem protoitemWithFetchedFeedItemHeadline:configuration:]
+- -[NTFeedTransformationFeedItem setLocal:]
+- -[NTFeedTransformationFeedItem surfacedByChannelID]
+- -[NTFeedTransformationFeedItem todayItemType]
+- -[NTFeedTransformationHeadlineItem .cxx_destruct]
+- -[NTFeedTransformationHeadlineItem actionURL]
+- -[NTFeedTransformationHeadlineItem cacheCutoffTimeRelativeDate]
+- -[NTFeedTransformationHeadlineItem cacheExpirationDate]
+- -[NTFeedTransformationHeadlineItem clusterID]
+- -[NTFeedTransformationHeadlineItem copyWithZone:]
+- -[NTFeedTransformationHeadlineItem feedItemForHeadlineFetch]
+- -[NTFeedTransformationHeadlineItem feedTransformationItem]
+- -[NTFeedTransformationHeadlineItem hash]
+- -[NTFeedTransformationHeadlineItem headline]
+- -[NTFeedTransformationHeadlineItem identifier]
+- -[NTFeedTransformationHeadlineItem initWithHeadline:cacheExpirationDate:actionURL:]
+- -[NTFeedTransformationHeadlineItem init]
+- -[NTFeedTransformationHeadlineItem isEqual:]
+- -[NTFeedTransformationHeadlineItem isLocal]
+- -[NTFeedTransformationHeadlineItem markAsLocal]
+- -[NTFeedTransformationHeadlineItem needsFeedItemHeadlinesFetch]
+- -[NTFeedTransformationHeadlineItem protoitemWithFetchedFeedItemHeadline:configuration:]
+- -[NTFeedTransformationHeadlineItem setHeadline:]
+- -[NTFeedTransformationHeadlineItem setLocal:]
+- -[NTFeedTransformationHeadlineItem surfacedByChannelID]
+- -[NTFeedTransformationHeadlineItem todayItemType]
+- -[NTFeedTransformationIncrementalPersonalizedDiversifiedLimit .cxx_destruct]
+- -[NTFeedTransformationIncrementalPersonalizedDiversifiedLimit initWithFunctionProvider:limit:priorFeedItems:]
+- -[NTFeedTransformationIncrementalPersonalizedDiversifiedLimit init]
+- -[NTFeedTransformationIncrementalPersonalizedDiversifiedLimit priorFeedItems]
+- -[NTFeedTransformationIncrementalPersonalizedDiversifiedLimit privateLimitTransformation]
+- -[NTFeedTransformationIncrementalPersonalizedDiversifiedLimit setPriorFeedItems:]
+- -[NTFeedTransformationIncrementalPersonalizedDiversifiedLimit setPrivateLimitTransformation:]
+- -[NTFeedTransformationIncrementalPersonalizedDiversifiedLimit transformFeedItems:]
+- -[NTFeedTransformationItemFeedTransformation .cxx_destruct]
+- -[NTFeedTransformationItemFeedTransformation feedItemTransformation]
+- -[NTFeedTransformationItemFeedTransformation initWithFeedItemTransformation:]
+- -[NTFeedTransformationItemFeedTransformation init]
+- -[NTFeedTransformationItemFeedTransformation setFeedItemTransformation:]
+- -[NTFeedTransformationItemFeedTransformation transformFeedItems:]
+- -[NTFeedTransformationLimit initWithLimit:]
+- -[NTFeedTransformationLimit init]
+- -[NTFeedTransformationLimit limit]
+- -[NTFeedTransformationLimit setLimit:]
+- -[NTFeedTransformationLimit transformFeedItems:]
+- -[NTForYouRequest .cxx_destruct]
+- -[NTForYouRequest allowPaidBundleFeed]
+- -[NTForYouRequest copyWithZone:]
+- -[NTForYouRequest cutoffTime]
+- -[NTForYouRequest enableGlobalESL]
+- -[NTForYouRequest enablePeopleAlsoRead]
+- -[NTForYouRequest enablePerTagESL]
+- -[NTForYouRequest feedItemMaxCount]
+- -[NTForYouRequest feedMaxCount]
+- -[NTForYouRequest fetchingBin]
+- -[NTForYouRequest headlinesPerFeedFetchCount]
+- -[NTForYouRequest hiddenFeedIDs]
+- -[NTForYouRequest initWithForYouTodaySectionSpecificConfig:appConfiguration:topStoriesChannelID:localNewsTagID:hiddenFeedIDs:allowPaidBundleFeed:mutedTagIDs:purchasedTagIDs:rankedAllSubscribedTagIDs:paidAccessChecker:throttlingIdentifier:]
+- -[NTForYouRequest init]
+- -[NTForYouRequest localNewsTagID]
+- -[NTForYouRequest minimumUpdateInterval]
+- -[NTForYouRequest mutedTagIDs]
+- -[NTForYouRequest paidAccessChecker]
+- -[NTForYouRequest preferredESLRatio]
+- -[NTForYouRequest purchasedTagIDs]
+- -[NTForYouRequest rankedSubscribedTagIDs]
+- -[NTForYouRequest subscriptionsMinCount]
+- -[NTForYouRequest throttlingIdentifier]
+- -[NTForYouRequest topStoriesChannelID]
+- -[NTForYouRequestManifest .cxx_destruct]
+- -[NTForYouRequestManifest encodeWithCoder:]
+- -[NTForYouRequestManifest fetchDate]
+- -[NTForYouRequestManifest initWithCoder:]
+- -[NTForYouRequestManifest initWithFetchDate:tagIDs:]
+- -[NTForYouRequestManifest tagIDs]
+- -[NTForYouSectionFetchDescriptor .cxx_destruct]
+- -[NTForYouSectionFetchDescriptor _resolvedForYouSource]
+- -[NTForYouSectionFetchDescriptor _shouldIssueShadowDaemonFetch]
+- -[NTForYouSectionFetchDescriptor appConfiguration]
+- -[NTForYouSectionFetchDescriptor assembleResultsWithCatchUpOperation:]
+- -[NTForYouSectionFetchDescriptor configureCatchUpOperationWithFetchRequest:]
+- -[NTForYouSectionFetchDescriptor copyWithZone:]
+- -[NTForYouSectionFetchDescriptor forYouRequest]
+- -[NTForYouSectionFetchDescriptor groupingService]
+- -[NTForYouSectionFetchDescriptor incrementalLimitTransformationWithFeedPersonalizer:limit:priorFeedItems:lastEntryItems:]
+- -[NTForYouSectionFetchDescriptor incrementalSortTransformationWithFeedPersonalizer:]
+- -[NTForYouSectionFetchDescriptor initWithForYouConfiguration:appConfiguration:topStoriesChannelID:localNewsTagID:localNewsSelectionCriteria:hiddenFeedIDs:allowPaidBundleFeed:mutedTagIDs:purchasedTagIDs:rankedAllSubscribedTagIDs:paidAccessChecker:groupingService:]
+- -[NTForYouSectionFetchDescriptor init]
+- -[NTForYouSectionFetchDescriptor localNewsPromotionIndex]
+- -[NTForYouSectionFetchDescriptor localNewsSelectionCriteria]
+- -[NTForYouSectionFetchDescriptor localNewsTagID]
+- -[NTForYouSectionFetchDescriptor stabilizeAcrossRefreshes]
+- -[NTForYouService .cxx_destruct]
+- -[NTForYouService contentContext]
+- -[NTForYouService fetchForYouWithRequest:configuration:fetchDate:completionHandler:]
+- -[NTForYouService initWithContentContext:]
+- -[NTHeadline .cxx_destruct]
+- -[NTHeadline NewsURL]
+- -[NTHeadline adElement]
+- -[NTHeadline ageDisplayDate]
+- -[NTHeadline analyticsElement]
+- -[NTHeadline backingElement]
+- -[NTHeadline compactSourceNameImageRemoteURL]
+- -[NTHeadline compactSourceName]
+- -[NTHeadline copyWithZone:]
+- -[NTHeadline description]
+- -[NTHeadline encodeWithCoder:]
+- -[NTHeadline flintDocumentURL]
+- -[NTHeadline hash]
+- -[NTHeadline identifier]
+- -[NTHeadline initWithCoder:]
+- -[NTHeadline initWithIdentifier:]
+- -[NTHeadline init]
+- -[NTHeadline isAIGenerated]
+- -[NTHeadline isBundlePaid]
+- -[NTHeadline isEqual:]
+- -[NTHeadline isHiddenFromAutoFavorites]
+- -[NTHeadline itemType]
+- -[NTHeadline language]
+- -[NTHeadline liveCoverageCompleted]
+- -[NTHeadline liveCoverageModifiedDate]
+- -[NTHeadline needsPlaceholderThumbnail]
+- -[NTHeadline needsSeenStateTracking]
+- -[NTHeadline personalizationMetadata]
+- -[NTHeadline setAdElement:]
+- -[NTHeadline setAgeDisplayDate:]
+- -[NTHeadline setAiGenerated:]
+- -[NTHeadline setAnalyticsElement:]
+- -[NTHeadline setBackingElement:]
+- -[NTHeadline setCompactSourceName:]
+- -[NTHeadline setCompactSourceNameImageRemoteURL:]
+- -[NTHeadline setFlintDocumentURL:]
+- -[NTHeadline setHiddenFromAutoFavorites:]
+- -[NTHeadline setIdentifier:]
+- -[NTHeadline setIsBundlePaid:]
+- -[NTHeadline setLanguage:]
+- -[NTHeadline setLiveCoverageCompleted:]
+- -[NTHeadline setLiveCoverageModifiedDate:]
+- -[NTHeadline setNeedsPlaceholderThumbnail:]
+- -[NTHeadline setNeedsSeenStateTracking:]
+- -[NTHeadline setNewsURL:]
+- -[NTHeadline setPersonalizationMetadata:]
+- -[NTHeadline setShortExcerpt:]
+- -[NTHeadline setSourceName:]
+- -[NTHeadline setSourceNameImageRemoteURL:]
+- -[NTHeadline setSourceNameImageScale:]
+- -[NTHeadline setSourceTagID:]
+- -[NTHeadline setStoryType:]
+- -[NTHeadline setStoryTypeColorDark:]
+- -[NTHeadline setStoryTypeColorLight:]
+- -[NTHeadline setSupportsSavingForLater:]
+- -[NTHeadline setThumbnailFocalFrame:]
+- -[NTHeadline setThumbnailIdentifier:]
+- -[NTHeadline setThumbnailRemoteURL:]
+- -[NTHeadline setThumbnailSizePreset:]
+- -[NTHeadline setTitle:]
+- -[NTHeadline setTitleCompact:]
+- -[NTHeadline setTopicIDs:]
+- -[NTHeadline setVideoCallToActionTitle:]
+- -[NTHeadline setVideoCallToActionURL:]
+- -[NTHeadline shortExcerpt]
+- -[NTHeadline sourceNameImageRemoteURL]
+- -[NTHeadline sourceNameImageScale]
+- -[NTHeadline sourceName]
+- -[NTHeadline sourceTagID]
+- -[NTHeadline storyTypeColorDark]
+- -[NTHeadline storyTypeColorLight]
+- -[NTHeadline storyType]
+- -[NTHeadline supportsSavingForLater]
+- -[NTHeadline thumbnailFocalFrame]
+- -[NTHeadline thumbnailIdentifier]
+- -[NTHeadline thumbnailRemoteURL]
+- -[NTHeadline thumbnailSizePreset]
+- -[NTHeadline titleCompact]
+- -[NTHeadline title]
+- -[NTHeadline topicIDs]
+- -[NTHeadline videoCallToActionTitle]
+- -[NTHeadline videoCallToActionURL]
+- -[NTHeadline(Placeholder) articleID]
+- -[NTHeadline(Placeholder) cacheCutoffTimeRelativeDate]
+- -[NTHeadline(Placeholder) cacheExpirationDate]
+- -[NTHeadline(Placeholder) canBePurchased]
+- -[NTHeadline(Placeholder) clusterID]
+- -[NTHeadline(Placeholder) contentType]
+- -[NTHeadline(Placeholder) enumerateTopicCohortsWithBlock:]
+- -[NTHeadline(Placeholder) enumerateTopicConversionStatsWithBlock:]
+- -[NTHeadline(Placeholder) feedHalfLifeMilliseconds]
+- -[NTHeadline(Placeholder) feedID]
+- -[NTHeadline(Placeholder) feedItemForHeadlineFetch]
+- -[NTHeadline(Placeholder) feedTransformationItem]
+- -[NTHeadline(Placeholder) globalCohorts]
+- -[NTHeadline(Placeholder) globalConversionStats]
+- -[NTHeadline(Placeholder) globalUserFeedback]
+- -[NTHeadline(Placeholder) halfLife]
+- -[NTHeadline(Placeholder) hasGlobalUserFeedback]
+- -[NTHeadline(Placeholder) hasThumbnail]
+- -[NTHeadline(Placeholder) hasVideoStillImage]
+- -[NTHeadline(Placeholder) hasVideo]
+- -[NTHeadline(Placeholder) isANF]
+- -[NTHeadline(Placeholder) isCoread]
+- -[NTHeadline(Placeholder) isExplicitContent]
+- -[NTHeadline(Placeholder) isFromBlockedStorefront]
+- -[NTHeadline(Placeholder) isHiddenFromAutoFavorites]
+- -[NTHeadline(Placeholder) isPaid]
+- -[NTHeadline(Placeholder) isSponsored]
+- -[NTHeadline(Placeholder) itemID]
+- -[NTHeadline(Placeholder) lastModifiedDate]
+- -[NTHeadline(Placeholder) minimumNewsVersion]
+- -[NTHeadline(Placeholder) needsFeedItemHeadlinesFetch]
+- -[NTHeadline(Placeholder) order]
+- -[NTHeadline(Placeholder) protoitemWithFetchedFeedItemHeadline:configuration:]
+- -[NTHeadline(Placeholder) publishDateMilliseconds]
+- -[NTHeadline(Placeholder) publishDate]
+- -[NTHeadline(Placeholder) publisherArticleVersion]
+- -[NTHeadline(Placeholder) publisherCohorts]
+- -[NTHeadline(Placeholder) publisherConversionStats]
+- -[NTHeadline(Placeholder) publisherID]
+- -[NTHeadline(Placeholder) publisherTagMetadata]
+- -[NTHeadline(Placeholder) scoreProfile]
+- -[NTHeadline(Placeholder) sourceChannelID]
+- -[NTHeadline(Placeholder) sourceFeedID]
+- -[NTHeadline(Placeholder) surfacedByArticleListIDs]
+- -[NTHeadline(Placeholder) surfacedByChannelID]
+- -[NTHeadline(Placeholder) todayItemType]
+- -[NTHeadline(Placeholder) topicIDs]
+- -[NTHeadline(Placeholder) topics]
+- -[NTHeadlinePersonalizationMetadata .cxx_destruct]
+- -[NTHeadlinePersonalizationMetadata articleID]
+- -[NTHeadlinePersonalizationMetadata copyWithZone:]
+- -[NTHeadlinePersonalizationMetadata encodeWithCoder:]
+- -[NTHeadlinePersonalizationMetadata initWithArticleID:publisherID:scoredTopicIDs:scoreProfile:]
+- -[NTHeadlinePersonalizationMetadata initWithCoder:]
+- -[NTHeadlinePersonalizationMetadata init]
+- -[NTHeadlinePersonalizationMetadata publisherID]
+- -[NTHeadlinePersonalizationMetadata scoreProfile]
+- -[NTHeadlinePersonalizationMetadata scoredTopicIDs]
+- -[NTItemAggregationResult .cxx_destruct]
+- -[NTItemAggregationResult aggregatedItemsBySectionDescriptor]
+- -[NTItemAggregationResult copyWithHeadlineScale:]
+- -[NTItemAggregationResult copyWithZone:]
+- -[NTItemAggregationResult debugInspectionsBySectionDescriptor]
+- -[NTItemAggregationResult headlineScale]
+- -[NTItemAggregationResult headlineSlotCostWithSlotCost:]
+- -[NTItemAggregationResult initWithAggregatedItemsBySectionDescriptor:unusedSectionDescriptors:debugInspectionsBySectionDescriptor:]
+- -[NTItemAggregationResult init]
+- -[NTItemAggregationResult itemCount]
+- -[NTItemAggregationResult sectionOverheadSlotCostWithInfo:]
+- -[NTItemAggregationResult setAggregatedItemsBySectionDescriptor:]
+- -[NTItemAggregationResult setDebugInspectionsBySectionDescriptor:]
+- -[NTItemAggregationResult setHeadlineScale:]
+- -[NTItemAggregationResult setSlotsUsed:]
+- -[NTItemAggregationResult setUnusedSectionDescriptors:]
+- -[NTItemAggregationResult slotCostWithInfo:]
+- -[NTItemAggregationResult slotsUsed]
+- -[NTItemAggregationResult unusedSectionDescriptors]
+- -[NTItemsSectionFetchDescriptor .cxx_destruct]
+- -[NTItemsSectionFetchDescriptor assembleResultsWithCatchUpOperation:]
+- -[NTItemsSectionFetchDescriptor configureCatchUpOperationWithFetchRequest:]
+- -[NTItemsSectionFetchDescriptor copyWithZone:]
+- -[NTItemsSectionFetchDescriptor incrementalLimitTransformationWithFeedPersonalizer:limit:priorFeedItems:lastEntryItems:]
+- -[NTItemsSectionFetchDescriptor incrementalSortTransformationWithFeedPersonalizer:]
+- -[NTItemsSectionFetchDescriptor initWithItemsConfiguration:]
+- -[NTItemsSectionFetchDescriptor init]
+- -[NTItemsSectionFetchDescriptor itemsArticlesRequest]
+- -[NTItemsSectionFetchDescriptor itemsConfiguration]
+- -[NTItemsSectionFetchDescriptor setItemsArticlesRequest:]
+- -[NTItemsSectionFetchDescriptor setItemsConfiguration:]
+- -[NTLocalNewsPromotionTransformation .cxx_destruct]
+- -[NTLocalNewsPromotionTransformation baseTransformation]
+- -[NTLocalNewsPromotionTransformation initWithLocalNewsTagID:localNewsPromotionIndex:localNewsSelectionCriteria:baseTransformation:]
+- -[NTLocalNewsPromotionTransformation init]
+- -[NTLocalNewsPromotionTransformation localNewsPromotionIndex]
+- -[NTLocalNewsPromotionTransformation localNewsSelectionCriteria]
+- -[NTLocalNewsPromotionTransformation localNewsTagID]
+- -[NTLocalNewsPromotionTransformation transformFeedItems:]
+- -[NTNewsModuleDescriptorsOperation .cxx_destruct]
+- -[NTNewsModuleDescriptorsOperation _continueOperationWithTodayData:]
+- -[NTNewsModuleDescriptorsOperation _donateTodayConfigDataToNewsd:]
+- -[NTNewsModuleDescriptorsOperation operationWillFinishWithError:]
+- -[NTNewsModuleDescriptorsOperation performOperation]
+- -[NTNewsModuleDescriptorsOperation prefetchedContent]
+- -[NTNewsModuleDescriptorsOperation resultTodayModuleDescriptors]
+- -[NTNewsModuleDescriptorsOperation setPrefetchedContent:]
+- -[NTNewsModuleDescriptorsOperation setResultTodayModuleDescriptors:]
+- -[NTNewsModuleDescriptorsOperation validateOperation]
+- -[NTNewsModuleDescriptorsOperationPrefetchedContent .cxx_destruct]
+- -[NTNewsModuleDescriptorsOperationPrefetchedContent appConfiguration]
+- -[NTNewsModuleDescriptorsOperationPrefetchedContent copyWithZone:]
+- -[NTNewsModuleDescriptorsOperationPrefetchedContent initWithAppConfiguration:privateData:todayConfigsByRequestID:prefetchedHeldRecordsByType:]
+- -[NTNewsModuleDescriptorsOperationPrefetchedContent init]
+- -[NTNewsModuleDescriptorsOperationPrefetchedContent prefetchedHeldRecordsByType]
+- -[NTNewsModuleDescriptorsOperationPrefetchedContent privateData]
+- -[NTNewsModuleDescriptorsOperationPrefetchedContent todayConfigsByRequestID]
+- -[NTNewsSourceAvailabilityEntry .cxx_destruct]
+- -[NTNewsSourceAvailabilityEntry availabilityChangedNotificationBlock]
+- -[NTNewsSourceAvailabilityEntry initWithNetworkReachability:queue:]
+- -[NTNewsSourceAvailabilityEntry init]
+- -[NTNewsSourceAvailabilityEntry isAvailable]
+- -[NTNewsSourceAvailabilityEntry networkReachability]
+- -[NTNewsSourceAvailabilityEntry queue]
+- -[NTNewsSourceAvailabilityEntry setAvailabilityChangedNotificationBlock:]
+- -[NTNewsSourceAvailabilityEntry setNetworkReachability:]
+- -[NTNewsSourceAvailabilityEntry setQueue:]
+- -[NTNewsSourceAvailabilityEntry todayResultsFetchDescriptorClass]
+- -[NTNewsTodayResultOperation .cxx_destruct]
+- -[NTNewsTodayResultOperation _assembleQueueDescriptorsWithConfig:allowOnlyWatchEligibleSections:respectsWidgetVisibleSectionsLimit:personalizationTreatment:aggregateStore:appConfiguration:todayData:localNewsSelectionCriteria:completion:]
+- -[NTNewsTodayResultOperation _fetchTodayResultsWithFetchHelper:aggregator:budgetInfo:appConfiguration:feedPersonalizer:todayData:todayBanner:completion:]
+- -[NTNewsTodayResultOperation _finalizeTodayResultsWithSectionDescriptors:catchUpOperationResultsBySectionDescriptor:appConfiguration:feedPersonalizer:todayData:todayBanner:debugInspection:completion:]
+- -[NTNewsTodayResultOperation _firstRefreshDateDefaultsKey]
+- -[NTNewsTodayResultOperation _registerForYouFetchWithForYouFetchInfo:]
+- -[NTNewsTodayResultOperation _resolveLocalNewsSelectionCriteriaWithAppConfig:]
+- -[NTNewsTodayResultOperation _supplementTodayData:forResults:]
+- -[NTNewsTodayResultOperation articleIDsToExclude]
+- -[NTNewsTodayResultOperation canRetryWithError:retryAfter:]
+- -[NTNewsTodayResultOperation convertBannerBackgroundMethodToNTBannerBackgroundType:]
+- -[NTNewsTodayResultOperation convertBannerImageMethodToNTBannerImageType:]
+- -[NTNewsTodayResultOperation dictionaryFromColorGradient:]
+- -[NTNewsTodayResultOperation filterDate]
+- -[NTNewsTodayResultOperation forYouFetchInfo]
+- -[NTNewsTodayResultOperation gradientBackgroundPairFromLightGradientDict:darkGradientDict:]
+- -[NTNewsTodayResultOperation init]
+- -[NTNewsTodayResultOperation maxRetries]
+- -[NTNewsTodayResultOperation operationWillFinishWithError:]
+- -[NTNewsTodayResultOperation performOperation]
+- -[NTNewsTodayResultOperation prepareOperation]
+- -[NTNewsTodayResultOperation resetForRetry]
+- -[NTNewsTodayResultOperation resultAssetHandlesByAssetID]
+- -[NTNewsTodayResultOperation resultFetchInfo]
+- -[NTNewsTodayResultOperation resultHeadlineScaleFactor]
+- -[NTNewsTodayResultOperation resultTodayResults]
+- -[NTNewsTodayResultOperation setArticleIDsToExclude:]
+- -[NTNewsTodayResultOperation setFilterDate:]
+- -[NTNewsTodayResultOperation setForYouFetchInfo:]
+- -[NTNewsTodayResultOperation setResultAssetHandlesByAssetID:]
+- -[NTNewsTodayResultOperation setResultFetchInfo:]
+- -[NTNewsTodayResultOperation setResultHeadlineScaleFactor:]
+- -[NTNewsTodayResultOperation setResultTodayResults:]
+- -[NTNewsTodayResultOperation setTodayConfig:]
+- -[NTNewsTodayResultOperation todayBannerWithTodayConfig:todayData:]
+- -[NTNewsTodayResultOperation todayConfig]
+- -[NTNewsTodayResultOperation validateOperation]
+- -[NTNewsTodayResultsContentFillAggregator .cxx_destruct]
+- -[NTNewsTodayResultsContentFillAggregator _aggregateSections:itemsBySectionDescriptor:budgetInfo:todayData:lastEntrySnapshot:scale:]
+- -[NTNewsTodayResultsContentFillAggregator _bestResultOfResults:withBudgetInfo:]
+- -[NTNewsTodayResultsContentFillAggregator aggregateSections:itemsBySectionDescriptor:budgetInfo:todayData:lastEntrySnapshot:]
+- -[NTNewsTodayResultsContentFillAggregator aggregator]
+- -[NTNewsTodayResultsContentFillAggregator initWithAggregator:minHeadlineScale:maxHeadlineScale:]
+- -[NTNewsTodayResultsContentFillAggregator init]
+- -[NTNewsTodayResultsContentFillAggregator maxHeadlineScale]
+- -[NTNewsTodayResultsContentFillAggregator minHeadlineScale]
+- -[NTNewsTodayResultsContentFillAggregator setAggregator:]
+- -[NTNewsTodayResultsContentFillAggregator setMaxHeadlineScale:]
+- -[NTNewsTodayResultsContentFillAggregator setMinHeadlineScale:]
+- -[NTNewsTodayResultsExplicitAllocationAggregator .cxx_destruct]
+- -[NTNewsTodayResultsExplicitAllocationAggregator _itemsForSection:items:todayData:budgetInfo:previouslyChosenItems:priorClusterIDsInOtherSections:sectionItemsLimit:otherArticleIDs:lastEntryItems:remainingSlots:slotsUsed:noMoreItemsToGive:noRoomForMoreItems:debugInspection:]
+- -[NTNewsTodayResultsExplicitAllocationAggregator _sectionFilterTransformationWithDescriptor:todayData:priorClusterIDsInOtherSections:priorClusterIDsInSection:otherArticleIDs:]
+- -[NTNewsTodayResultsExplicitAllocationAggregator aggregateSections:itemsBySectionDescriptor:budgetInfo:todayData:lastEntrySnapshot:]
+- -[NTNewsTodayResultsExplicitAllocationAggregator configurationManager]
+- -[NTNewsTodayResultsExplicitAllocationAggregator feedPersonalizer]
+- -[NTNewsTodayResultsExplicitAllocationAggregator filterDate]
+- -[NTNewsTodayResultsExplicitAllocationAggregator initWithConfigurationManager:feedPersonalizer:filterDate:]
+- -[NTNewsTodayResultsExplicitAllocationAggregator init]
+- -[NTNewsTodayResultsExplicitAllocationAggregator setConfigurationManager:]
+- -[NTNewsTodayResultsExplicitAllocationAggregator setFeedPersonalizer:]
+- -[NTNewsTodayResultsExplicitAllocationAggregator setFilterDate:]
+- -[NTNewsTodayResultsFetchDescriptor copyWithZone:]
+- -[NTNewsTodayResultsFetchDescriptor descriptorsOperationClass]
+- -[NTNewsTodayResultsFetchDescriptor fetchOperationClass]
+- -[NTNewsTodayResultsFetchDescriptor init]
+- -[NTNewsTodayResultsFetchDescriptor placeholderSectionDescriptorsWithContentRequest:]
+- -[NTNewsTodayResultsFetchDescriptor sourceIdentifier]
+- -[NTNewsTodayResultsSourceFetchHelper .cxx_destruct]
+- -[NTNewsTodayResultsSourceFetchHelper initWithSectionQueueDescriptors:]
+- -[NTNewsTodayResultsSourceFetchHelper init]
+- -[NTNewsTodayResultsSourceFetchHelper remainingSectionsBySectionQueueDescriptors]
+- -[NTNewsTodayResultsSourceFetchHelper removeSectionDescriptors:]
+- -[NTNewsTodayResultsSourceFetchHelper sectionDescriptorsAtHeadsOfQueues]
+- -[NTNewsTodayResultsSourceFetchHelper sectionQueueDescriptors]
+- -[NTNewsTodayResultsSourceFetchHelper setRemainingSectionsBySectionQueueDescriptors:]
+- -[NTNewsTodayResultsSourceFetchHelper setSectionQueueDescriptors:]
+- -[NTNewsTodayResultsSourceFetchHelperSectionDescriptor .cxx_destruct]
+- -[NTNewsTodayResultsSourceFetchHelperSectionDescriptor actionTitle]
+- -[NTNewsTodayResultsSourceFetchHelperSectionDescriptor actionURL]
+- -[NTNewsTodayResultsSourceFetchHelperSectionDescriptor assembleResultsWithCatchUpOperation:]
+- -[NTNewsTodayResultsSourceFetchHelperSectionDescriptor backgroundColorDark]
+- -[NTNewsTodayResultsSourceFetchHelperSectionDescriptor backgroundColorLight]
+- -[NTNewsTodayResultsSourceFetchHelperSectionDescriptor backingTagID]
+- -[NTNewsTodayResultsSourceFetchHelperSectionDescriptor cachedResultCutoffTime]
+- -[NTNewsTodayResultsSourceFetchHelperSectionDescriptor compactName]
+- -[NTNewsTodayResultsSourceFetchHelperSectionDescriptor configureCatchUpOperationWithFetchRequest:]
+- -[NTNewsTodayResultsSourceFetchHelperSectionDescriptor copyWithZone:]
+- -[NTNewsTodayResultsSourceFetchHelperSectionDescriptor fallbackOrder]
+- -[NTNewsTodayResultsSourceFetchHelperSectionDescriptor identifier]
+- -[NTNewsTodayResultsSourceFetchHelperSectionDescriptor incrementalLimitTransformationWithFeedPersonalizer:limit:priorFeedItems:lastEntryItems:]
+- -[NTNewsTodayResultsSourceFetchHelperSectionDescriptor incrementalSortTransformationWithFeedPersonalizer:]
+- -[NTNewsTodayResultsSourceFetchHelperSectionDescriptor initWithSectionDescriptor:parentSectionQueueDescriptor:]
+- -[NTNewsTodayResultsSourceFetchHelperSectionDescriptor init]
+- -[NTNewsTodayResultsSourceFetchHelperSectionDescriptor maximumStoriesAllocation]
+- -[NTNewsTodayResultsSourceFetchHelperSectionDescriptor minimumStoriesAllocation]
+- -[NTNewsTodayResultsSourceFetchHelperSectionDescriptor nameActionURL]
+- -[NTNewsTodayResultsSourceFetchHelperSectionDescriptor nameColorDark]
+- -[NTNewsTodayResultsSourceFetchHelperSectionDescriptor nameColorLight]
+- -[NTNewsTodayResultsSourceFetchHelperSectionDescriptor name]
+- -[NTNewsTodayResultsSourceFetchHelperSectionDescriptor parentSectionQueueDescriptor]
+- -[NTNewsTodayResultsSourceFetchHelperSectionDescriptor paywalledArticlesMaxCount]
+- -[NTNewsTodayResultsSourceFetchHelperSectionDescriptor personalizationFeatureID]
+- -[NTNewsTodayResultsSourceFetchHelperSectionDescriptor promotionCriterion]
+- -[NTNewsTodayResultsSourceFetchHelperSectionDescriptor readArticlesFilterMethod]
+- -[NTNewsTodayResultsSourceFetchHelperSectionDescriptor referralBarName]
+- -[NTNewsTodayResultsSourceFetchHelperSectionDescriptor sectionDescriptor]
+- -[NTNewsTodayResultsSourceFetchHelperSectionDescriptor seenArticlesFilterMethod]
+- -[NTNewsTodayResultsSourceFetchHelperSectionDescriptor seenArticlesMinimumTimeSinceFirstSeenToFilter]
+- -[NTNewsTodayResultsSourceFetchHelperSectionDescriptor subidentifier]
+- -[NTNewsTodayResultsSourceFetchHelperSectionDescriptor supplementalInterSectionFilterOptions]
+- -[NTNewsTodayResultsSourceFetchHelperSectionDescriptor supplementalIntraSectionFilterOptions]
+- -[NTNoContentModuleDescriptorsOperation operationWillFinishWithError:]
+- -[NTNoContentModuleDescriptorsOperation performOperation]
+- -[NTNoContentModuleDescriptorsOperation validateOperation]
+- -[NTNoContentSourceAvailabilityEntry .cxx_destruct]
+- -[NTNoContentSourceAvailabilityEntry availabilityChangedNotificationBlock]
+- -[NTNoContentSourceAvailabilityEntry init]
+- -[NTNoContentSourceAvailabilityEntry isAvailable]
+- -[NTNoContentSourceAvailabilityEntry setAvailabilityChangedNotificationBlock:]
+- -[NTNoContentSourceAvailabilityEntry todayResultsFetchDescriptorClass]
+- -[NTNoContentTodayResultOperation .cxx_destruct]
+- -[NTNoContentTodayResultOperation operationWillFinishWithError:]
+- -[NTNoContentTodayResultOperation performOperation]
+- -[NTNoContentTodayResultOperation resultAssetHandlesByAssetID]
+- -[NTNoContentTodayResultOperation resultFetchInfo]
+- -[NTNoContentTodayResultOperation resultTodayResults]
+- -[NTNoContentTodayResultOperation setResultAssetHandlesByAssetID:]
+- -[NTNoContentTodayResultOperation setResultFetchInfo:]
+- -[NTNoContentTodayResultOperation setResultTodayResults:]
+- -[NTNoContentTodayResultOperation validateOperation]
+- -[NTNoContentTodayResultsFetchDescriptor copyWithZone:]
+- -[NTNoContentTodayResultsFetchDescriptor descriptorsOperationClass]
+- -[NTNoContentTodayResultsFetchDescriptor fetchOperationClass]
+- -[NTNoContentTodayResultsFetchDescriptor init]
+- -[NTNoContentTodayResultsFetchDescriptor placeholderSectionDescriptorsWithContentRequest:]
+- -[NTNoContentTodayResultsFetchDescriptor sourceIdentifier]
+- -[NTPBSectionDisplayDescriptor(NTAdditions) actionURL]
+- -[NTPBSectionDisplayDescriptor(NTAdditions) nameActionURL]
+- -[NTPBSectionDisplayDescriptor(NTAdditions) setActionURL:]
+- -[NTPBSectionDisplayDescriptor(NTAdditions) setNameActionURL:]
+- -[NTPBTodayConfig(Mastering) _resolveArticle:withPaidAccessChecker:heldArticleRecords:]
+- -[NTPBTodayConfig(Mastering) _resolveArticles:withPaidAccessChecker:heldArticleRecords:]
+- -[NTPBTodayConfig(Mastering) nt_resolveFallbacksWithPaidAccessChecker:heldArticleRecords:]
+- -[NTPBTodayConfig(NTAdditions) configByResolvingWithTag:]
+- -[NTPBTodayModuleContentRequest(NTAdditions) identifier]
+- -[NTPBTodayResultOperationFetchInfo(NTAdditions) appConfigTreatmentID]
+- -[NTPBTodayResultOperationFetchInfo(NTAdditions) locale]
+- -[NTPBTodayResultOperationFetchInfo(NTAdditions) setAppConfigTreatmentID:]
+- -[NTPBTodayResultOperationFetchInfo(NTAdditions) setLocale:]
+- -[NTPBTodayResultOperationFetchInfo(NTAdditions) setUserSegmentationSegmentSetIDs:]
+- -[NTPBTodayResultOperationFetchInfo(NTAdditions) setUserSegmentationTreatmentIDs:]
+- -[NTPBTodayResultOperationInfo(NTAdditions) assetsDirectoryFileURL]
+- -[NTPBTodayResultOperationInfo(NTAdditions) dynamicThumbnailSizeMinimumSizeInPixels]
+- -[NTPBTodayResultOperationInfo(NTAdditions) setAssetsDirectoryFileURL:]
+- -[NTPBTodayResultOperationInfo(NTAdditions) setDynamicThumbnailSizeMinimumSizeInPixels:]
+- -[NTPBTodaySectionConfigArticle(NTAdditions) displayDate]
+- -[NTPBTodaySectionConfigFont(NTAdditions) URL]
+- -[NTPBTodayWidgetConfig(NTAdditions) externalAnalyticsConfigurations]
+- -[NTPBTodayWidgetConfig(NTAdditions) setExternalAnalyticsConfigurations:]
+- -[NTPersonalizedSectionFetchDescriptor .cxx_destruct]
+- -[NTPersonalizedSectionFetchDescriptor assembleResultsWithCatchUpOperation:]
+- -[NTPersonalizedSectionFetchDescriptor configureCatchUpOperationWithFetchRequest:]
+- -[NTPersonalizedSectionFetchDescriptor copyWithZone:]
+- -[NTPersonalizedSectionFetchDescriptor incrementalLimitTransformationWithFeedPersonalizer:limit:priorFeedItems:lastEntryItems:]
+- -[NTPersonalizedSectionFetchDescriptor incrementalSortTransformationWithFeedPersonalizer:]
+- -[NTPersonalizedSectionFetchDescriptor initWithPersonalizedConfiguration:]
+- -[NTPersonalizedSectionFetchDescriptor init]
+- -[NTPersonalizedSectionFetchDescriptor mandatoryArticleIDsRequest]
+- -[NTPersonalizedSectionFetchDescriptor personalizedArticleIDsRequest]
+- -[NTPersonalizedSectionFetchDescriptor personalizedConfiguration]
+- -[NTPersonalizedSectionFetchDescriptor setMandatoryArticleIDsRequest:]
+- -[NTPersonalizedSectionFetchDescriptor setPersonalizedArticleIDsRequest:]
+- -[NTPersonalizedSectionFetchDescriptor setPersonalizedConfiguration:]
+- -[NTPersonalizedSectionLimitTransformation .cxx_destruct]
+- -[NTPersonalizedSectionLimitTransformation initWithMandatoryArticleIDs:personalizedArticleIDs:limit:]
+- -[NTPersonalizedSectionLimitTransformation init]
+- -[NTPersonalizedSectionLimitTransformation limit]
+- -[NTPersonalizedSectionLimitTransformation mandatoryArticleIDs]
+- -[NTPersonalizedSectionLimitTransformation personalizedArticleIDs]
+- -[NTPersonalizedSectionLimitTransformation setLimit:]
+- -[NTPersonalizedSectionLimitTransformation setMandatoryArticleIDs:]
+- -[NTPersonalizedSectionLimitTransformation setPersonalizedArticleIDs:]
+- -[NTPersonalizedSectionLimitTransformation transformFeedItems:]
+- -[NTPersonalizedSectionSortTransformation .cxx_destruct]
+- -[NTPersonalizedSectionSortTransformation initWithMandatoryArticleIDs:personalizedArticleIDs:sortTransformation:]
+- -[NTPersonalizedSectionSortTransformation init]
+- -[NTPersonalizedSectionSortTransformation mandatoryArticleIDs]
+- -[NTPersonalizedSectionSortTransformation personalizedArticleIDs]
+- -[NTPersonalizedSectionSortTransformation setMandatoryArticleIDs:]
+- -[NTPersonalizedSectionSortTransformation setPersonalizedArticleIDs:]
+- -[NTPersonalizedSectionSortTransformation setSortTransformation:]
+- -[NTPersonalizedSectionSortTransformation sortTransformation]
+- -[NTPersonalizedSectionSortTransformation transformFeedItems:]
+- -[NTQueueConfigSectionQueueDescriptor .cxx_destruct]
+- -[NTQueueConfigSectionQueueDescriptor copyWithZone:]
+- -[NTQueueConfigSectionQueueDescriptor initWithQueueConfig:appConfiguration:todayData:localNewsSelectionCriteria:inFavoritesOnlyMode:respectsWidgetVisibleSectionsLimit:groupingService:]
+- -[NTQueueConfigSectionQueueDescriptor init]
+- -[NTQueueConfigSectionQueueDescriptor sectionDescriptors]
+- -[NTQueueConfigSectionQueueDescriptor visibleSectionConfigsLimit]
+- -[NTSection .cxx_destruct]
+- -[NTSection actionTitle]
+- -[NTSection actionURL]
+- -[NTSection backgroundColorDark]
+- -[NTSection backgroundColorLight]
+- -[NTSection backingTagID]
+- -[NTSection copyWithZone:]
+- -[NTSection description]
+- -[NTSection displayDescriptor]
+- -[NTSection encodeWithCoder:]
+- -[NTSection hash]
+- -[NTSection identifier]
+- -[NTSection initWithCoder:]
+- -[NTSection initWithIdentifier:subidentifier:actionTitle:actionURL:personalizationFeatureID:items:rankingFeedback:displayDescriptor:referralBarName:backingTagID:]
+- -[NTSection init]
+- -[NTSection isEqual:]
+- -[NTSection items]
+- -[NTSection nameActionURL]
+- -[NTSection nameColorDark]
+- -[NTSection nameColorLight]
+- -[NTSection name]
+- -[NTSection personalizationFeatureID]
+- -[NTSection rankingFeedback]
+- -[NTSection referralBarName]
+- -[NTSection setActionTitle:]
+- -[NTSection setActionURL:]
+- -[NTSection setBackingTagID:]
+- -[NTSection setDisplayDescriptor:]
+- -[NTSection setIdentifier:]
+- -[NTSection setItems:]
+- -[NTSection setRankingFeedback:]
+- -[NTSection setReferralBarName:]
+- -[NTSection setSubidentifier:]
+- -[NTSection subidentifier]
+- -[NTSectionConfigSectionDescriptor .cxx_destruct]
+- -[NTSectionConfigSectionDescriptor actionTitle]
+- -[NTSectionConfigSectionDescriptor actionURL]
+- -[NTSectionConfigSectionDescriptor assembleResultsWithCatchUpOperation:]
+- -[NTSectionConfigSectionDescriptor backgroundColorDark]
+- -[NTSectionConfigSectionDescriptor backgroundColorLight]
+- -[NTSectionConfigSectionDescriptor backingTagID]
+- -[NTSectionConfigSectionDescriptor cachedResultCutoffTime]
+- -[NTSectionConfigSectionDescriptor compactName]
+- -[NTSectionConfigSectionDescriptor configureCatchUpOperationWithFetchRequest:]
+- -[NTSectionConfigSectionDescriptor copyWithZone:]
+- -[NTSectionConfigSectionDescriptor fallbackOrder]
+- -[NTSectionConfigSectionDescriptor fetchDescriptor]
+- -[NTSectionConfigSectionDescriptor identifier]
+- -[NTSectionConfigSectionDescriptor incrementalLimitTransformationWithFeedPersonalizer:limit:priorFeedItems:lastEntryItems:]
+- -[NTSectionConfigSectionDescriptor incrementalSortTransformationWithFeedPersonalizer:]
+- -[NTSectionConfigSectionDescriptor initWithSectionConfig:appConfiguration:topStoriesChannelID:hiddenFeedIDs:allowPaidBundleFeed:todayData:localNewsSelectionCriteria:supplementalFeedFilterOptions:groupingService:]
+- -[NTSectionConfigSectionDescriptor init]
+- -[NTSectionConfigSectionDescriptor maximumStoriesAllocation]
+- -[NTSectionConfigSectionDescriptor minimumStoriesAllocation]
+- -[NTSectionConfigSectionDescriptor nameActionURL]
+- -[NTSectionConfigSectionDescriptor nameColorDark]
+- -[NTSectionConfigSectionDescriptor nameColorLight]
+- -[NTSectionConfigSectionDescriptor name]
+- -[NTSectionConfigSectionDescriptor paywalledArticlesMaxCount]
+- -[NTSectionConfigSectionDescriptor personalizationFeatureID]
+- -[NTSectionConfigSectionDescriptor promotionCriterion]
+- -[NTSectionConfigSectionDescriptor readArticlesFilterMethod]
+- -[NTSectionConfigSectionDescriptor referralBarName]
+- -[NTSectionConfigSectionDescriptor seenArticlesFilterMethod]
+- -[NTSectionConfigSectionDescriptor seenArticlesMinimumTimeSinceFirstSeenToFilter]
+- -[NTSectionConfigSectionDescriptor setFetchDescriptor:]
+- -[NTSectionConfigSectionDescriptor setPaywalledArticlesMaxCount:]
+- -[NTSectionConfigSectionDescriptor subidentifier]
+- -[NTSectionConfigSectionDescriptor supplementalInterSectionFilterOptions]
+- -[NTSectionConfigSectionDescriptor supplementalIntraSectionFilterOptions]
+- -[NTSectionFeedFilterTransformation .cxx_destruct]
+- -[NTSectionFeedFilterTransformation initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:otherArticleIDs:otherClusterIDs:filterDate:paywalledArticlesMaxCount:]
+- -[NTSectionFeedFilterTransformation init]
+- -[NTSectionFeedFilterTransformation transformFeedItems:]
+- -[NTSectionFeedFilterTransformation underlyingTransformation]
+- -[NTSectionPlaceholderDescriptor .cxx_destruct]
+- -[NTSectionPlaceholderDescriptor actionTitle]
+- -[NTSectionPlaceholderDescriptor actionURL]
+- -[NTSectionPlaceholderDescriptor assembleResultsWithCatchUpOperation:]
+- -[NTSectionPlaceholderDescriptor backgroundColorDark]
+- -[NTSectionPlaceholderDescriptor backgroundColorLight]
+- -[NTSectionPlaceholderDescriptor backingTagID]
+- -[NTSectionPlaceholderDescriptor cachedResultCutoffTime]
+- -[NTSectionPlaceholderDescriptor compactName]
+- -[NTSectionPlaceholderDescriptor configureCatchUpOperationWithFetchRequest:]
+- -[NTSectionPlaceholderDescriptor copyWithZone:]
+- -[NTSectionPlaceholderDescriptor fallbackOrder]
+- -[NTSectionPlaceholderDescriptor identifier]
+- -[NTSectionPlaceholderDescriptor incrementalLimitTransformationWithFeedPersonalizer:limit:priorFeedItems:lastEntryItems:]
+- -[NTSectionPlaceholderDescriptor incrementalSortTransformationWithFeedPersonalizer:]
+- -[NTSectionPlaceholderDescriptor initWithName:nameColorLight:nameColorDark:minimumStoriesAllocation:maximumStoriesAllocation:backingTagID:]
+- -[NTSectionPlaceholderDescriptor init]
+- -[NTSectionPlaceholderDescriptor maximumStoriesAllocation]
+- -[NTSectionPlaceholderDescriptor minimumStoriesAllocation]
+- -[NTSectionPlaceholderDescriptor nameActionURL]
+- -[NTSectionPlaceholderDescriptor nameColorDark]
+- -[NTSectionPlaceholderDescriptor nameColorLight]
+- -[NTSectionPlaceholderDescriptor name]
+- -[NTSectionPlaceholderDescriptor paywalledArticlesMaxCount]
+- -[NTSectionPlaceholderDescriptor personalizationFeatureID]
+- -[NTSectionPlaceholderDescriptor promotionCriterion]
+- -[NTSectionPlaceholderDescriptor readArticlesFilterMethod]
+- -[NTSectionPlaceholderDescriptor referralBarName]
+- -[NTSectionPlaceholderDescriptor seenArticlesFilterMethod]
+- -[NTSectionPlaceholderDescriptor seenArticlesMinimumTimeSinceFirstSeenToFilter]
+- -[NTSectionPlaceholderDescriptor setPaywalledArticlesMaxCount:]
+- -[NTSectionPlaceholderDescriptor subidentifier]
+- -[NTSectionPlaceholderDescriptor supplementalInterSectionFilterOptions]
+- -[NTSectionPlaceholderDescriptor supplementalIntraSectionFilterOptions]
+- -[NTSourceAvailabilityManager .cxx_destruct]
+- -[NTSourceAvailabilityManager _recomputePreferredAvailableTodayResultsSource]
+- -[NTSourceAvailabilityManager _setPreferredAvailableTodayResultsSource:]
+- -[NTSourceAvailabilityManager availabilityEntriesInPreferredOrder]
+- -[NTSourceAvailabilityManager initWithAvailabilityEntriesInPreferredOrder:queue:]
+- -[NTSourceAvailabilityManager init]
+- -[NTSourceAvailabilityManager preferredSourceChangedNotificationBlock]
+- -[NTSourceAvailabilityManager preferredSourceFetchDescriptorClass]
+- -[NTSourceAvailabilityManager queue]
+- -[NTSourceAvailabilityManager setAvailabilityEntriesInPreferredOrder:]
+- -[NTSourceAvailabilityManager setPreferredSourceChangedNotificationBlock:]
+- -[NTSourceAvailabilityManager setPreferredSourceFetchDescriptorClass:]
+- -[NTSourceAvailabilityManager setQueue:]
+- -[NTStabilizingTransformation .cxx_destruct]
+- -[NTStabilizingTransformation allLastEntryItems]
+- -[NTStabilizingTransformation baseTransformation]
+- -[NTStabilizingTransformation initWithLastEntryItems:baseTransformation:]
+- -[NTStabilizingTransformation init]
+- -[NTStabilizingTransformation localNewsPromotionIndex]
+- -[NTStabilizingTransformation transformFeedItems:]
+- -[NTTagSectionFetchDescriptor .cxx_destruct]
+- -[NTTagSectionFetchDescriptor assembleResultsWithCatchUpOperation:]
+- -[NTTagSectionFetchDescriptor configureCatchUpOperationWithFetchRequest:]
+- -[NTTagSectionFetchDescriptor copyWithZone:]
+- -[NTTagSectionFetchDescriptor forYouRequest]
+- -[NTTagSectionFetchDescriptor incrementalLimitTransformationWithFeedPersonalizer:limit:priorFeedItems:lastEntryItems:]
+- -[NTTagSectionFetchDescriptor incrementalSortTransformationWithFeedPersonalizer:]
+- -[NTTagSectionFetchDescriptor initWithTagConfiguration:appConfiguration:purchasedTagIDs:paidAccessChecker:]
+- -[NTTagSectionFetchDescriptor init]
+- -[NTTagSectionFetchDescriptor setForYouRequest:]
+- -[NTTagSectionFetchDescriptor setTagRequest:]
+- -[NTTagSectionFetchDescriptor stabilizeAcrossRefreshes]
+- -[NTTagSectionFetchDescriptor tagRequest]
+- -[NTTodayBanner .cxx_destruct]
+- -[NTTodayBanner actionButtonText]
+- -[NTTodayBanner actionURL]
+- -[NTTodayBanner backgroundMethod]
+- -[NTTodayBanner body]
+- -[NTTodayBanner copyWithZone:]
+- -[NTTodayBanner encodeWithCoder:]
+- -[NTTodayBanner gradientBackgroundPair]
+- -[NTTodayBanner identifier]
+- -[NTTodayBanner imageMethod]
+- -[NTTodayBanner imageURL]
+- -[NTTodayBanner initWithCoder:]
+- -[NTTodayBanner initWithIdentifier:title:body:actionURL:actionButtonText:imageMethod:imageURL:backgroundMethod:solidBackgroundColorPair:gradientBackgroundPair:numberOfAppearancesToHide:numberOfTapsToHide:]
+- -[NTTodayBanner init]
+- -[NTTodayBanner numberOfAppearancesToHide]
+- -[NTTodayBanner numberOfTapsToHide]
+- -[NTTodayBanner solidBackgroundColorPair]
+- -[NTTodayBanner title]
+- -[NTTodayConfigConversionOperation .cxx_destruct]
+- -[NTTodayConfigConversionOperation _collectRecordIDsReferencedBySectionConfig:withArticleListIDs:articleIDs:]
+- -[NTTodayConfigConversionOperation _collectRecordIDsReferencedByTodayConfig:withArticleListIDs:articleIDs:]
+- -[NTTodayConfigConversionOperation _todayConfigWithConfigJSON:error:]
+- -[NTTodayConfigConversionOperation configuration]
+- -[NTTodayConfigConversionOperation context]
+- -[NTTodayConfigConversionOperation defaultConfigCompletionHandler]
+- -[NTTodayConfigConversionOperation defaultConfigError]
+- -[NTTodayConfigConversionOperation init]
+- -[NTTodayConfigConversionOperation networkEvents]
+- -[NTTodayConfigConversionOperation operationWillFinishWithError:]
+- -[NTTodayConfigConversionOperation performOperation]
+- -[NTTodayConfigConversionOperation resultDefaultConfig]
+- -[NTTodayConfigConversionOperation resultHeldRecordsByType]
+- -[NTTodayConfigConversionOperation resultSingleTagConfig]
+- -[NTTodayConfigConversionOperation setConfiguration:]
+- -[NTTodayConfigConversionOperation setContext:]
+- -[NTTodayConfigConversionOperation setDefaultConfigCompletionHandler:]
+- -[NTTodayConfigConversionOperation setDefaultConfigError:]
+- -[NTTodayConfigConversionOperation setNetworkEvents:]
+- -[NTTodayConfigConversionOperation setResultDefaultConfig:]
+- -[NTTodayConfigConversionOperation setResultHeldRecordsByType:]
+- -[NTTodayConfigConversionOperation setResultSingleTagConfig:]
+- -[NTTodayConfigConversionOperation setSingleTagConfigCompletionHandler:]
+- -[NTTodayConfigConversionOperation setSingleTagConfigError:]
+- -[NTTodayConfigConversionOperation setWidgetConfiguration:]
+- -[NTTodayConfigConversionOperation singleTagConfigCompletionHandler]
+- -[NTTodayConfigConversionOperation singleTagConfigError]
+- -[NTTodayConfigConversionOperation validateOperation]
+- -[NTTodayConfigConversionOperation widgetConfiguration]
+- -[NTTodayConfigOperation .cxx_destruct]
+- -[NTTodayConfigOperation _collectRecordIDsReferencedBySectionConfig:withArticleListIDs:articleIDs:]
+- -[NTTodayConfigOperation _todayConfigWithConfigJSON:articleListIDs:articleIDs:error:]
+- -[NTTodayConfigOperation configuration]
+- -[NTTodayConfigOperation context]
+- -[NTTodayConfigOperation defaultConfigCompletionHandler]
+- -[NTTodayConfigOperation defaultConfigError]
+- -[NTTodayConfigOperation init]
+- -[NTTodayConfigOperation networkEvents]
+- -[NTTodayConfigOperation operationWillFinishWithError:]
+- -[NTTodayConfigOperation performOperation]
+- -[NTTodayConfigOperation resultDefaultConfig]
+- -[NTTodayConfigOperation resultHeldRecordsByType]
+- -[NTTodayConfigOperation resultSingleTagConfig]
+- -[NTTodayConfigOperation setConfiguration:]
+- -[NTTodayConfigOperation setContext:]
+- -[NTTodayConfigOperation setDefaultConfigCompletionHandler:]
+- -[NTTodayConfigOperation setDefaultConfigError:]
+- -[NTTodayConfigOperation setNetworkEvents:]
+- -[NTTodayConfigOperation setResultDefaultConfig:]
+- -[NTTodayConfigOperation setResultHeldRecordsByType:]
+- -[NTTodayConfigOperation setResultSingleTagConfig:]
+- -[NTTodayConfigOperation setSingleTagConfigCompletionHandler:]
+- -[NTTodayConfigOperation setSingleTagConfigError:]
+- -[NTTodayConfigOperation setWidgetConfigID:]
+- -[NTTodayConfigOperation singleTagConfigCompletionHandler]
+- -[NTTodayConfigOperation singleTagConfigError]
+- -[NTTodayConfigOperation validateOperation]
+- -[NTTodayConfigOperation widgetConfigID]
+- -[NTTodayContext .cxx_destruct]
+- -[NTTodayContext _setupTodayResultsSource]
+- -[NTTodayContext accessQueue]
+- -[NTTodayContext articleExposureRegistry]
+- -[NTTodayContext cacheInvalidationManager]
+- -[NTTodayContext contentContext]
+- -[NTTodayContext feedPersonalizerFactory]
+- -[NTTodayContext fetchLatestResultsWithOperationInfo:completion:]
+- -[NTTodayContext fetchModuleDescriptorsWithCompletion:]
+- -[NTTodayContext fetchQueue]
+- -[NTTodayContext groupingService]
+- -[NTTodayContext initWithContentContext:feedPersonalizerFactory:groupingService:cacheInvalidationManager:todayBannerValidator:articleExposureRegistry:processVariant:accessQueue:fetchQueue:]
+- -[NTTodayContext init]
+- -[NTTodayContext networkReachabilityDidChange:]
+- -[NTTodayContext newResultsHandler]
+- -[NTTodayContext placeholderResultsWithOperationInfo:]
+- -[NTTodayContext readablePrivateDataStorage]
+- -[NTTodayContext setNewResultsHandler:]
+- -[NTTodayContext setTodayResultsSource:]
+- -[NTTodayContext sourceAvailabilityManager]
+- -[NTTodayContext todayBannerValidator]
+- -[NTTodayContext todayResultsSource]
+- -[NTTodayContext writablePrivateDataStorage]
+- -[NTTodayContext writeUserDidReadHeadlineWithAnalyticsElement:atDate:]
+- -[NTTodayContext writeUserDidSeeHeadlinesWithAnalyticsElements:atDate:]
+- -[NTTodayHeadlineProtoitem .cxx_destruct]
+- -[NTTodayHeadlineProtoitem actionURL]
+- -[NTTodayHeadlineProtoitem assetHandlesWithOperationInfo:]
+- -[NTTodayHeadlineProtoitem copyWithZone:]
+- -[NTTodayHeadlineProtoitem hash]
+- -[NTTodayHeadlineProtoitem headline]
+- -[NTTodayHeadlineProtoitem identifier]
+- -[NTTodayHeadlineProtoitem initWithIdentifier:headline:actionURL:]
+- -[NTTodayHeadlineProtoitem init]
+- -[NTTodayHeadlineProtoitem isEqual:]
+- -[NTTodayHeadlineProtoitem itemWithContentContext:operationInfo:sectionDescriptor:todayData:assetFileURLsByRemoteURL:]
+- -[NTTodayItemOperation .cxx_destruct]
+- -[NTTodayItemOperation _extractFeedItemsFromInputs]
+- -[NTTodayItemOperation _fetchProtoitemsWithCompletion:]
+- -[NTTodayItemOperation _saveWithCompletion:]
+- -[NTTodayItemOperation appConfiguration]
+- -[NTTodayItemOperation catchUpOperationResultsBySectionDescriptor]
+- -[NTTodayItemOperation contentContext]
+- -[NTTodayItemOperation feedItems]
+- -[NTTodayItemOperation feedPersonalizer]
+- -[NTTodayItemOperation forYouFetchInfo]
+- -[NTTodayItemOperation init]
+- -[NTTodayItemOperation operationInfo]
+- -[NTTodayItemOperation operationWillFinishWithError:]
+- -[NTTodayItemOperation performOperation]
+- -[NTTodayItemOperation resultAssetFileURLsByRemoteURL]
+- -[NTTodayItemOperation resultAssetsHoldToken]
+- -[NTTodayItemOperation resultRecordsHoldToken]
+- -[NTTodayItemOperation resultTodayItemsBySectionDescriptor]
+- -[NTTodayItemOperation setAppConfiguration:]
+- -[NTTodayItemOperation setCatchUpOperationResultsBySectionDescriptor:]
+- -[NTTodayItemOperation setContentContext:]
+- -[NTTodayItemOperation setFeedItems:]
+- -[NTTodayItemOperation setFeedPersonalizer:]
+- -[NTTodayItemOperation setForYouFetchInfo:]
+- -[NTTodayItemOperation setOperationInfo:]
+- -[NTTodayItemOperation setResultAssetFileURLsByRemoteURL:]
+- -[NTTodayItemOperation setResultAssetsHoldToken:]
+- -[NTTodayItemOperation setResultRecordsHoldToken:]
+- -[NTTodayItemOperation setResultTodayItemsBySectionDescriptor:]
+- -[NTTodayItemOperation setTodayData:]
+- -[NTTodayItemOperation setTodayItemCompletion:]
+- -[NTTodayItemOperation todayData]
+- -[NTTodayItemOperation todayItemCompletion]
+- -[NTTodayItemOperation validateOperation]
+- -[NTTodayModuleDescriptorsOperation .cxx_destruct]
+- -[NTTodayModuleDescriptorsOperation contentContext]
+- -[NTTodayModuleDescriptorsOperation contentRequest]
+- -[NTTodayModuleDescriptorsOperation descriptorsCompletion]
+- -[NTTodayModuleDescriptorsOperation init]
+- -[NTTodayModuleDescriptorsOperation privateDataStorage]
+- -[NTTodayModuleDescriptorsOperation setContentContext:]
+- -[NTTodayModuleDescriptorsOperation setContentRequest:]
+- -[NTTodayModuleDescriptorsOperation setDescriptorsCompletion:]
+- -[NTTodayModuleDescriptorsOperation setPrivateDataStorage:]
+- -[NTTodayPrivateData .cxx_destruct]
+- -[NTTodayPrivateData autoFavoriteTagIDs]
+- -[NTTodayPrivateData bundleSubscription]
+- -[NTTodayPrivateData copyWithZone:]
+- -[NTTodayPrivateData derivedPersonalizationData]
+- -[NTTodayPrivateData groupableTagIDs]
+- -[NTTodayPrivateData initWithDerivedPersonalizationData:localNewsTagID:mutedTagIDs:subscribedTagIDs:autoFavoriteTagIDs:purchasedTagIDs:groupableTagIDs:rankedAllSubscribedTagIDs:rankedAllSubscriptionDates:recentlySeenHistoryItems:recentlyReadHistoryItems:onboardingVersion:bundleSubscription:]
+- -[NTTodayPrivateData init]
+- -[NTTodayPrivateData localNewsTagID]
+- -[NTTodayPrivateData mutableCopyWithZone:]
+- -[NTTodayPrivateData mutedTagIDs]
+- -[NTTodayPrivateData onboardingVersion]
+- -[NTTodayPrivateData prepareForUseWithCompletion:]
+- -[NTTodayPrivateData purchasedTagIDs]
+- -[NTTodayPrivateData rankedAllSubscribedTagIDs]
+- -[NTTodayPrivateData rankedAllSubscriptionDates]
+- -[NTTodayPrivateData recentlyReadHistoryItems]
+- -[NTTodayPrivateData recentlySeenHistoryItems]
+- -[NTTodayPrivateData subscribedTagIDs]
+- -[NTTodayResultOperation .cxx_destruct]
+- -[NTTodayResultOperation articleExposureRegistry]
+- -[NTTodayResultOperation contentContext]
+- -[NTTodayResultOperation feedPersonalizerFactory]
+- -[NTTodayResultOperation groupingService]
+- -[NTTodayResultOperation headlineResultCompletionHandler]
+- -[NTTodayResultOperation init]
+- -[NTTodayResultOperation operationInfo]
+- -[NTTodayResultOperation prefetchedContent]
+- -[NTTodayResultOperation setArticleExposureRegistry:]
+- -[NTTodayResultOperation setContentContext:]
+- -[NTTodayResultOperation setFeedPersonalizerFactory:]
+- -[NTTodayResultOperation setGroupingService:]
+- -[NTTodayResultOperation setHeadlineResultCompletionHandler:]
+- -[NTTodayResultOperation setOperationInfo:]
+- -[NTTodayResultOperation setPrefetchedContent:]
+- -[NTTodayResultOperation setTodayBannerValidator:]
+- -[NTTodayResultOperation todayBannerValidator]
+- -[NTTodayResults .cxx_destruct]
+- -[NTTodayResults assetsHoldToken]
+- -[NTTodayResults banner]
+- -[NTTodayResults copyWithZone:]
+- -[NTTodayResults debugInspection]
+- -[NTTodayResults description]
+- -[NTTodayResults encodeWithCoder:]
+- -[NTTodayResults expirationDate]
+- -[NTTodayResults hash]
+- -[NTTodayResults headlineScale]
+- -[NTTodayResults initWithCoder:]
+- -[NTTodayResults initWithSourceIdentifier:sections:expirationDate:headlineScale:]
+- -[NTTodayResults initWithSourceIdentifier:sections:promotionCriterion:expirationDate:headlineScale:assetsHoldToken:recordsHoldToken:banner:debugInspection:]
+- -[NTTodayResults init]
+- -[NTTodayResults isEqual:]
+- -[NTTodayResults itemCount]
+- -[NTTodayResults promotionCriterion]
+- -[NTTodayResults recordsHoldToken]
+- -[NTTodayResults sections]
+- -[NTTodayResults sourceIdentifier]
+- -[NTTodayResultsSource .cxx_destruct]
+- -[NTTodayResultsSource _fetchLatestResultsWithOperationInfo:prefetchedContent:completion:]
+- -[NTTodayResultsSource _fetchTodayModuleDescriptorsWithContentRequest:qualityOfService:completion:]
+- -[NTTodayResultsSource articleExposureRegistry]
+- -[NTTodayResultsSource cacheInvalidationManager]
+- -[NTTodayResultsSource contentContext]
+- -[NTTodayResultsSource feedPersonalizerFactory]
+- -[NTTodayResultsSource fetchDescriptor]
+- -[NTTodayResultsSource fetchLatestResultsWithOperationInfo:completion:]
+- -[NTTodayResultsSource fetchModuleDescriptorsWithCompletion:]
+- -[NTTodayResultsSource groupingService]
+- -[NTTodayResultsSource hasFlushingBeenEnabled]
+- -[NTTodayResultsSource initWithFetchDescriptor:feedPersonalizerFactory:groupingService:cacheInvalidationManager:todayBannerValidator:articleExposureRegistry:privateDataStorage:contentContext:fetchQueue:]
+- -[NTTodayResultsSource init]
+- -[NTTodayResultsSource latestResultRecordsHoldToken]
+- -[NTTodayResultsSource placeholderResultsWithOperationInfo:]
+- -[NTTodayResultsSource privateDataStorage]
+- -[NTTodayResultsSource serialQueue]
+- -[NTTodayResultsSource setFlushingHasBeenEnabled:]
+- -[NTTodayResultsSource setLatestResultRecordsHoldToken:]
+- -[NTTodayResultsSource todayBannerValidator]
+- -[NTWidgetConfigDataOperation .cxx_destruct]
+- -[NTWidgetConfigDataOperation _finishByConvertingRecordsWithArticlesByID:articleListsByID:tagsByID:]
+- -[NTWidgetConfigDataOperation _finishByFetchingRecordsForArticleIDs:articleListIDs:]
+- -[NTWidgetConfigDataOperation configuration]
+- -[NTWidgetConfigDataOperation context]
+- -[NTWidgetConfigDataOperation expectedArticleIDs]
+- -[NTWidgetConfigDataOperation expectedArticleListIDs]
+- -[NTWidgetConfigDataOperation operationWillFinishWithError:]
+- -[NTWidgetConfigDataOperation performOperation]
+- -[NTWidgetConfigDataOperation resultHeldRecordsByType]
+- -[NTWidgetConfigDataOperation setConfiguration:]
+- -[NTWidgetConfigDataOperation setContext:]
+- -[NTWidgetConfigDataOperation setExpectedArticleIDs:]
+- -[NTWidgetConfigDataOperation setExpectedArticleListIDs:]
+- -[NTWidgetConfigDataOperation setResultHeldRecordsByType:]
+- -[NTWidgetConfigDataOperation setWidgetConfigDataCompletionHandler:]
+- -[NTWidgetConfigDataOperation setWidgetConfiguration:]
+- -[NTWidgetConfigDataOperation validateOperation]
+- -[NTWidgetConfigDataOperation widgetConfigDataCompletionHandler]
+- -[NTWidgetConfigDataOperation widgetConfiguration]
+- <redacted>
+- GCC_except_table1
+- GCC_except_table11
+- GCC_except_table13
+- GCC_except_table14
+- GCC_except_table16
+- GCC_except_table2
+- GCC_except_table20
+- GCC_except_table21
+- GCC_except_table22
+- GCC_except_table3
+- GCC_except_table31
+- GCC_except_table4
+- GCC_except_table40
+- GCC_except_table5
+- GCC_except_table61
+- _NNNanoSoloLog.log
+- _NNNanoSoloLog.onceToken
+- _NNSetupCompanionSyncLog.log
+- _NNSetupCompanionSyncLog.onceToken
+- _NTNewsEdgeArticleDateFields.onceToken
+- _NTNewsEdgeArticleDateFields.result
+- _NTNewsEdgeArticleEncodedFields.onceToken
+- _NTNewsEdgeArticleEncodedFields.result
+- _NTNewsEdgeArticleListRecordOverrideKeys.onceToken
+- _NTNewsEdgeArticleListRecordOverrideKeys.result
+- _NTNewsEdgeArticleRecordOverrideKeys.onceToken
+- _NTNewsEdgeArticleRecordOverrideKeys.result
+- _NTNewsEdgeTagEncodedFields.onceToken
+- _NTNewsEdgeTagEncodedFields.result
+- _NTNewsEdgeTagRecordOverrideKeys.onceToken
+- _NTNewsEdgeTagRecordOverrideKeys.result
+- _NTSharedLog.once
+- _NTSharedLog.result
+- _OBJC_CLASS_$_FCFeedTransformationPersonalizedDiversifiedLimit
+- _OBJC_CLASS_$_FCLegacyFeedPersonalizer
+- _OBJC_CLASS_$_FCPersonalizationFunctionProvider
+- _OBJC_CLASS_$_NTFeedTransformationIncrementalPersonalizedDiversifiedLimit
+- _OBJC_IVAR_$_FRRingBuffer._capacity
+- _OBJC_IVAR_$_FRRingBuffer._max
+- _OBJC_IVAR_$_FRRingBuffer._min
+- _OBJC_IVAR_$_FRRingBuffer._position
+- _OBJC_IVAR_$_FRRingBuffer._values
+- _OBJC_IVAR_$_NTAggregationBudgetInfo._allowSectionTitles
+- _OBJC_IVAR_$_NTAggregationBudgetInfo._bannerSlotCost
+- _OBJC_IVAR_$_NTAggregationBudgetInfo._embedsLimit
+- _OBJC_IVAR_$_NTAggregationBudgetInfo._hasBannerSlotCost
+- _OBJC_IVAR_$_NTAggregationBudgetInfo._respectMinMaxLimit
+- _OBJC_IVAR_$_NTAggregationBudgetInfo._sectionSlotCostInfo
+- _OBJC_IVAR_$_NTAggregationBudgetInfo._slotsLimit
+- _OBJC_IVAR_$_NTArticleIDsSectionFetchDescriptor._privateFetchDescriptor
+- _OBJC_IVAR_$_NTArticleListSectionFetchDescriptor._articleListRequest
+- _OBJC_IVAR_$_NTBestOfSectionTransformation._fallbackTransformation
+- _OBJC_IVAR_$_NTBestOfSectionTransformation._groupingService
+- _OBJC_IVAR_$_NTBestOfSectionTransformation._limit
+- _OBJC_IVAR_$_NTCatchUpOperation._appConfiguration
+- _OBJC_IVAR_$_NTCatchUpOperation._articleIDsRequests
+- _OBJC_IVAR_$_NTCatchUpOperation._articleIDsToExclude
+- _OBJC_IVAR_$_NTCatchUpOperation._articleListRequests
+- _OBJC_IVAR_$_NTCatchUpOperation._catchUpCompletionHandler
+- _OBJC_IVAR_$_NTCatchUpOperation._contentContext
+- _OBJC_IVAR_$_NTCatchUpOperation._feedPersonalizer
+- _OBJC_IVAR_$_NTCatchUpOperation._fetchDate
+- _OBJC_IVAR_$_NTCatchUpOperation._forYouEnabled
+- _OBJC_IVAR_$_NTCatchUpOperation._forYouFetchInfo
+- _OBJC_IVAR_$_NTCatchUpOperation._forYouRequest
+- _OBJC_IVAR_$_NTCatchUpOperation._forYouResults
+- _OBJC_IVAR_$_NTCatchUpOperation._forYouSource
+- _OBJC_IVAR_$_NTCatchUpOperation._resultsByArticleIDsRequestID
+- _OBJC_IVAR_$_NTCatchUpOperation._resultsByArticleListID
+- _OBJC_IVAR_$_NTCatchUpOperation._shouldIssueShadowDaemonFetch
+- _OBJC_IVAR_$_NTCatchUpOperation._todayConfigOperationHeldRecordsByType
+- _OBJC_IVAR_$_NTCatchUpOperationArticleIDsRequest._articleIDs
+- _OBJC_IVAR_$_NTCatchUpOperationArticleIDsRequest._identifier
+- _OBJC_IVAR_$_NTCatchUpOperationArticleIDsRequest._overrideHeadlineMetadataByArticleID
+- _OBJC_IVAR_$_NTCatchUpOperationForYouFetchInfo._attemptedCachedOnly
+- _OBJC_IVAR_$_NTCatchUpOperationForYouFetchInfo._feedContextByFeedID
+- _OBJC_IVAR_$_NTCatchUpOperationResults._items
+- _OBJC_IVAR_$_NTCatchUpOperationResults._rankingFeedback
+- _OBJC_IVAR_$_NTCatchUpOperationResults._supplementalInterestToken
+- _OBJC_IVAR_$_NTCatchUpOperationTagRequest._cutoffTime
+- _OBJC_IVAR_$_NTCatchUpOperationTagRequest._fetchingBin
+- _OBJC_IVAR_$_NTCatchUpOperationTagRequest._headlinesPerFeedFetchCount
+- _OBJC_IVAR_$_NTCatchUpOperationTagRequest._tagID
+- _OBJC_IVAR_$_NTFeedTransformationFeedItem._cacheExpirationDate
+- _OBJC_IVAR_$_NTFeedTransformationFeedItem._feedItem
+- _OBJC_IVAR_$_NTFeedTransformationFeedItem._local
+- _OBJC_IVAR_$_NTFeedTransformationFeedItem._surfacedByChannelID
+- _OBJC_IVAR_$_NTFeedTransformationHeadlineItem._actionURL
+- _OBJC_IVAR_$_NTFeedTransformationHeadlineItem._cacheExpirationDate
+- _OBJC_IVAR_$_NTFeedTransformationHeadlineItem._headline
+- _OBJC_IVAR_$_NTFeedTransformationHeadlineItem._local
+- _OBJC_IVAR_$_NTFeedTransformationHeadlineItem._surfacedByChannelID
+- _OBJC_IVAR_$_NTFeedTransformationIncrementalPersonalizedDiversifiedLimit._priorFeedItems
+- _OBJC_IVAR_$_NTFeedTransformationIncrementalPersonalizedDiversifiedLimit._privateLimitTransformation
+- _OBJC_IVAR_$_NTFeedTransformationItemFeedTransformation._feedItemTransformation
+- _OBJC_IVAR_$_NTFeedTransformationLimit._limit
+- _OBJC_IVAR_$_NTForYouRequest._allowPaidBundleFeed
+- _OBJC_IVAR_$_NTForYouRequest._cutoffTime
+- _OBJC_IVAR_$_NTForYouRequest._enableGlobalESL
+- _OBJC_IVAR_$_NTForYouRequest._enablePeopleAlsoRead
+- _OBJC_IVAR_$_NTForYouRequest._enablePerTagESL
+- _OBJC_IVAR_$_NTForYouRequest._feedItemMaxCount
+- _OBJC_IVAR_$_NTForYouRequest._feedMaxCount
+- _OBJC_IVAR_$_NTForYouRequest._fetchingBin
+- _OBJC_IVAR_$_NTForYouRequest._headlinesPerFeedFetchCount
+- _OBJC_IVAR_$_NTForYouRequest._hiddenFeedIDs
+- _OBJC_IVAR_$_NTForYouRequest._localNewsTagID
+- _OBJC_IVAR_$_NTForYouRequest._minimumUpdateInterval
+- _OBJC_IVAR_$_NTForYouRequest._mutedTagIDs
+- _OBJC_IVAR_$_NTForYouRequest._paidAccessChecker
+- _OBJC_IVAR_$_NTForYouRequest._preferredESLRatio
+- _OBJC_IVAR_$_NTForYouRequest._purchasedTagIDs
+- _OBJC_IVAR_$_NTForYouRequest._rankedSubscribedTagIDs
+- _OBJC_IVAR_$_NTForYouRequest._subscriptionsMinCount
+- _OBJC_IVAR_$_NTForYouRequest._throttlingIdentifier
+- _OBJC_IVAR_$_NTForYouRequest._topStoriesChannelID
+- _OBJC_IVAR_$_NTForYouRequestManifest._fetchDate
+- _OBJC_IVAR_$_NTForYouRequestManifest._tagIDs
+- _OBJC_IVAR_$_NTForYouSectionFetchDescriptor._appConfiguration
+- _OBJC_IVAR_$_NTForYouSectionFetchDescriptor._forYouRequest
+- _OBJC_IVAR_$_NTForYouSectionFetchDescriptor._groupingService
+- _OBJC_IVAR_$_NTForYouSectionFetchDescriptor._localNewsPromotionIndex
+- _OBJC_IVAR_$_NTForYouSectionFetchDescriptor._localNewsSelectionCriteria
+- _OBJC_IVAR_$_NTForYouSectionFetchDescriptor._localNewsTagID
+- _OBJC_IVAR_$_NTForYouSectionFetchDescriptor._stabilizeAcrossRefreshes
+- _OBJC_IVAR_$_NTForYouService._contentContext
+- _OBJC_IVAR_$_NTHeadline._NewsURL
+- _OBJC_IVAR_$_NTHeadline._adElement
+- _OBJC_IVAR_$_NTHeadline._ageDisplayDate
+- _OBJC_IVAR_$_NTHeadline._aiGenerated
+- _OBJC_IVAR_$_NTHeadline._analyticsElement
+- _OBJC_IVAR_$_NTHeadline._backingElement
+- _OBJC_IVAR_$_NTHeadline._compactSourceName
+- _OBJC_IVAR_$_NTHeadline._compactSourceNameImageRemoteURL
+- _OBJC_IVAR_$_NTHeadline._flintDocumentURL
+- _OBJC_IVAR_$_NTHeadline._hiddenFromAutoFavorites
+- _OBJC_IVAR_$_NTHeadline._identifier
+- _OBJC_IVAR_$_NTHeadline._isBundlePaid
+- _OBJC_IVAR_$_NTHeadline._language
+- _OBJC_IVAR_$_NTHeadline._liveCoverageCompleted
+- _OBJC_IVAR_$_NTHeadline._liveCoverageModifiedDate
+- _OBJC_IVAR_$_NTHeadline._needsPlaceholderThumbnail
+- _OBJC_IVAR_$_NTHeadline._needsSeenStateTracking
+- _OBJC_IVAR_$_NTHeadline._personalizationMetadata
+- _OBJC_IVAR_$_NTHeadline._shortExcerpt
+- _OBJC_IVAR_$_NTHeadline._sourceName
+- _OBJC_IVAR_$_NTHeadline._sourceNameImageRemoteURL
+- _OBJC_IVAR_$_NTHeadline._sourceNameImageScale
+- _OBJC_IVAR_$_NTHeadline._sourceTagID
+- _OBJC_IVAR_$_NTHeadline._storyType
+- _OBJC_IVAR_$_NTHeadline._storyTypeColorDark
+- _OBJC_IVAR_$_NTHeadline._storyTypeColorLight
+- _OBJC_IVAR_$_NTHeadline._supportsSavingForLater
+- _OBJC_IVAR_$_NTHeadline._thumbnailFocalFrame
+- _OBJC_IVAR_$_NTHeadline._thumbnailIdentifier
+- _OBJC_IVAR_$_NTHeadline._thumbnailRemoteURL
+- _OBJC_IVAR_$_NTHeadline._thumbnailSizePreset
+- _OBJC_IVAR_$_NTHeadline._title
+- _OBJC_IVAR_$_NTHeadline._titleCompact
+- _OBJC_IVAR_$_NTHeadline._topicIDs
+- _OBJC_IVAR_$_NTHeadline._videoCallToActionTitle
+- _OBJC_IVAR_$_NTHeadline._videoCallToActionURL
+- _OBJC_IVAR_$_NTHeadlinePersonalizationMetadata._articleID
+- _OBJC_IVAR_$_NTHeadlinePersonalizationMetadata._publisherID
+- _OBJC_IVAR_$_NTHeadlinePersonalizationMetadata._scoreProfile
+- _OBJC_IVAR_$_NTHeadlinePersonalizationMetadata._scoredTopicIDs
+- _OBJC_IVAR_$_NTItemAggregationResult._aggregatedItemsBySectionDescriptor
+- _OBJC_IVAR_$_NTItemAggregationResult._debugInspectionsBySectionDescriptor
+- _OBJC_IVAR_$_NTItemAggregationResult._headlineScale
+- _OBJC_IVAR_$_NTItemAggregationResult._slotsUsed
+- _OBJC_IVAR_$_NTItemAggregationResult._unusedSectionDescriptors
+- _OBJC_IVAR_$_NTItemsSectionFetchDescriptor._itemsArticlesRequest
+- _OBJC_IVAR_$_NTItemsSectionFetchDescriptor._itemsConfiguration
+- _OBJC_IVAR_$_NTLocalNewsPromotionTransformation._baseTransformation
+- _OBJC_IVAR_$_NTLocalNewsPromotionTransformation._localNewsPromotionIndex
+- _OBJC_IVAR_$_NTLocalNewsPromotionTransformation._localNewsSelectionCriteria
+- _OBJC_IVAR_$_NTLocalNewsPromotionTransformation._localNewsTagID
+- _OBJC_IVAR_$_NTNewsModuleDescriptorsOperation._prefetchedContent
+- _OBJC_IVAR_$_NTNewsModuleDescriptorsOperation._resultTodayModuleDescriptors
+- _OBJC_IVAR_$_NTNewsModuleDescriptorsOperationPrefetchedContent._appConfiguration
+- _OBJC_IVAR_$_NTNewsModuleDescriptorsOperationPrefetchedContent._prefetchedHeldRecordsByType
+- _OBJC_IVAR_$_NTNewsModuleDescriptorsOperationPrefetchedContent._privateData
+- _OBJC_IVAR_$_NTNewsModuleDescriptorsOperationPrefetchedContent._todayConfigsByRequestID
+- _OBJC_IVAR_$_NTNewsSourceAvailabilityEntry._availabilityChangedNotificationBlock
+- _OBJC_IVAR_$_NTNewsSourceAvailabilityEntry._available
+- _OBJC_IVAR_$_NTNewsSourceAvailabilityEntry._networkReachability
+- _OBJC_IVAR_$_NTNewsSourceAvailabilityEntry._queue
+- _OBJC_IVAR_$_NTNewsTodayResultOperation._articleIDsToExclude
+- _OBJC_IVAR_$_NTNewsTodayResultOperation._filterDate
+- _OBJC_IVAR_$_NTNewsTodayResultOperation._forYouFetchInfo
+- _OBJC_IVAR_$_NTNewsTodayResultOperation._resultAssetHandlesByAssetID
+- _OBJC_IVAR_$_NTNewsTodayResultOperation._resultFetchInfo
+- _OBJC_IVAR_$_NTNewsTodayResultOperation._resultHeadlineScaleFactor
+- _OBJC_IVAR_$_NTNewsTodayResultOperation._resultTodayResults
+- _OBJC_IVAR_$_NTNewsTodayResultOperation._todayConfig
+- _OBJC_IVAR_$_NTNewsTodayResultsContentFillAggregator._aggregator
+- _OBJC_IVAR_$_NTNewsTodayResultsContentFillAggregator._maxHeadlineScale
+- _OBJC_IVAR_$_NTNewsTodayResultsContentFillAggregator._minHeadlineScale
+- _OBJC_IVAR_$_NTNewsTodayResultsExplicitAllocationAggregator._configurationManager
+- _OBJC_IVAR_$_NTNewsTodayResultsExplicitAllocationAggregator._feedPersonalizer
+- _OBJC_IVAR_$_NTNewsTodayResultsExplicitAllocationAggregator._filterDate
+- _OBJC_IVAR_$_NTNewsTodayResultsSourceFetchHelper._remainingSectionsBySectionQueueDescriptors
+- _OBJC_IVAR_$_NTNewsTodayResultsSourceFetchHelper._sectionQueueDescriptors
+- _OBJC_IVAR_$_NTNewsTodayResultsSourceFetchHelperSectionDescriptor._parentSectionQueueDescriptor
+- _OBJC_IVAR_$_NTNewsTodayResultsSourceFetchHelperSectionDescriptor._sectionDescriptor
+- _OBJC_IVAR_$_NTNoContentSourceAvailabilityEntry.availabilityChangedNotificationBlock
+- _OBJC_IVAR_$_NTNoContentTodayResultOperation._resultAssetHandlesByAssetID
+- _OBJC_IVAR_$_NTNoContentTodayResultOperation._resultFetchInfo
+- _OBJC_IVAR_$_NTNoContentTodayResultOperation._resultTodayResults
+- _OBJC_IVAR_$_NTPersonalizedSectionFetchDescriptor._mandatoryArticleIDsRequest
+- _OBJC_IVAR_$_NTPersonalizedSectionFetchDescriptor._personalizedArticleIDsRequest
+- _OBJC_IVAR_$_NTPersonalizedSectionFetchDescriptor._personalizedConfiguration
+- _OBJC_IVAR_$_NTPersonalizedSectionLimitTransformation._limit
+- _OBJC_IVAR_$_NTPersonalizedSectionLimitTransformation._mandatoryArticleIDs
+- _OBJC_IVAR_$_NTPersonalizedSectionLimitTransformation._personalizedArticleIDs
+- _OBJC_IVAR_$_NTPersonalizedSectionSortTransformation._mandatoryArticleIDs
+- _OBJC_IVAR_$_NTPersonalizedSectionSortTransformation._personalizedArticleIDs
+- _OBJC_IVAR_$_NTPersonalizedSectionSortTransformation._sortTransformation
+- _OBJC_IVAR_$_NTQueueConfigSectionQueueDescriptor._sectionDescriptors
+- _OBJC_IVAR_$_NTQueueConfigSectionQueueDescriptor._visibleSectionConfigsLimit
+- _OBJC_IVAR_$_NTSection._actionTitle
+- _OBJC_IVAR_$_NTSection._actionURL
+- _OBJC_IVAR_$_NTSection._backingTagID
+- _OBJC_IVAR_$_NTSection._displayDescriptor
+- _OBJC_IVAR_$_NTSection._identifier
+- _OBJC_IVAR_$_NTSection._items
+- _OBJC_IVAR_$_NTSection._personalizationFeatureID
+- _OBJC_IVAR_$_NTSection._rankingFeedback
+- _OBJC_IVAR_$_NTSection._referralBarName
+- _OBJC_IVAR_$_NTSection._subidentifier
+- _OBJC_IVAR_$_NTSectionConfigSectionDescriptor._actionTitle
+- _OBJC_IVAR_$_NTSectionConfigSectionDescriptor._actionURL
+- _OBJC_IVAR_$_NTSectionConfigSectionDescriptor._backgroundColorDark
+- _OBJC_IVAR_$_NTSectionConfigSectionDescriptor._backgroundColorLight
+- _OBJC_IVAR_$_NTSectionConfigSectionDescriptor._backingTagID
+- _OBJC_IVAR_$_NTSectionConfigSectionDescriptor._cachedResultCutoffTime
+- _OBJC_IVAR_$_NTSectionConfigSectionDescriptor._compactName
+- _OBJC_IVAR_$_NTSectionConfigSectionDescriptor._fallbackOrder
+- _OBJC_IVAR_$_NTSectionConfigSectionDescriptor._fetchDescriptor
+- _OBJC_IVAR_$_NTSectionConfigSectionDescriptor._identifier
+- _OBJC_IVAR_$_NTSectionConfigSectionDescriptor._maximumStoriesAllocation
+- _OBJC_IVAR_$_NTSectionConfigSectionDescriptor._minimumStoriesAllocation
+- _OBJC_IVAR_$_NTSectionConfigSectionDescriptor._name
+- _OBJC_IVAR_$_NTSectionConfigSectionDescriptor._nameActionURL
+- _OBJC_IVAR_$_NTSectionConfigSectionDescriptor._nameColorDark
+- _OBJC_IVAR_$_NTSectionConfigSectionDescriptor._nameColorLight
+- _OBJC_IVAR_$_NTSectionConfigSectionDescriptor._paywalledArticlesMaxCount
+- _OBJC_IVAR_$_NTSectionConfigSectionDescriptor._personalizationFeatureID
+- _OBJC_IVAR_$_NTSectionConfigSectionDescriptor._promotionCriterion
+- _OBJC_IVAR_$_NTSectionConfigSectionDescriptor._readArticlesFilterMethod
+- _OBJC_IVAR_$_NTSectionConfigSectionDescriptor._referralBarName
+- _OBJC_IVAR_$_NTSectionConfigSectionDescriptor._seenArticlesFilterMethod
+- _OBJC_IVAR_$_NTSectionConfigSectionDescriptor._seenArticlesMinimumTimeSinceFirstSeenToFilter
+- _OBJC_IVAR_$_NTSectionConfigSectionDescriptor._subidentifier
+- _OBJC_IVAR_$_NTSectionConfigSectionDescriptor._supplementalInterSectionFilterOptions
+- _OBJC_IVAR_$_NTSectionConfigSectionDescriptor._supplementalIntraSectionFilterOptions
+- _OBJC_IVAR_$_NTSectionFeedFilterTransformation._underlyingTransformation
+- _OBJC_IVAR_$_NTSectionPlaceholderDescriptor._actionTitle
+- _OBJC_IVAR_$_NTSectionPlaceholderDescriptor._actionURL
+- _OBJC_IVAR_$_NTSectionPlaceholderDescriptor._backgroundColorDark
+- _OBJC_IVAR_$_NTSectionPlaceholderDescriptor._backgroundColorLight
+- _OBJC_IVAR_$_NTSectionPlaceholderDescriptor._backingTagID
+- _OBJC_IVAR_$_NTSectionPlaceholderDescriptor._cachedResultCutoffTime
+- _OBJC_IVAR_$_NTSectionPlaceholderDescriptor._compactName
+- _OBJC_IVAR_$_NTSectionPlaceholderDescriptor._fallbackOrder
+- _OBJC_IVAR_$_NTSectionPlaceholderDescriptor._identifier
+- _OBJC_IVAR_$_NTSectionPlaceholderDescriptor._maximumStoriesAllocation
+- _OBJC_IVAR_$_NTSectionPlaceholderDescriptor._minimumStoriesAllocation
+- _OBJC_IVAR_$_NTSectionPlaceholderDescriptor._name
+- _OBJC_IVAR_$_NTSectionPlaceholderDescriptor._nameActionURL
+- _OBJC_IVAR_$_NTSectionPlaceholderDescriptor._nameColorDark
+- _OBJC_IVAR_$_NTSectionPlaceholderDescriptor._nameColorLight
+- _OBJC_IVAR_$_NTSectionPlaceholderDescriptor._paywalledArticlesMaxCount
+- _OBJC_IVAR_$_NTSectionPlaceholderDescriptor._personalizationFeatureID
+- _OBJC_IVAR_$_NTSectionPlaceholderDescriptor._promotionCriterion
+- _OBJC_IVAR_$_NTSectionPlaceholderDescriptor._readArticlesFilterMethod
+- _OBJC_IVAR_$_NTSectionPlaceholderDescriptor._referralBarName
+- _OBJC_IVAR_$_NTSectionPlaceholderDescriptor._seenArticlesFilterMethod
+- _OBJC_IVAR_$_NTSectionPlaceholderDescriptor._seenArticlesMinimumTimeSinceFirstSeenToFilter
+- _OBJC_IVAR_$_NTSectionPlaceholderDescriptor._subidentifier
+- _OBJC_IVAR_$_NTSectionPlaceholderDescriptor._supplementalInterSectionFilterOptions
+- _OBJC_IVAR_$_NTSectionPlaceholderDescriptor._supplementalIntraSectionFilterOptions
+- _OBJC_IVAR_$_NTSourceAvailabilityManager._availabilityEntriesInPreferredOrder
+- _OBJC_IVAR_$_NTSourceAvailabilityManager._preferredSourceChangedNotificationBlock
+- _OBJC_IVAR_$_NTSourceAvailabilityManager._preferredSourceFetchDescriptorClass
+- _OBJC_IVAR_$_NTSourceAvailabilityManager._queue
+- _OBJC_IVAR_$_NTStabilizingTransformation._allLastEntryItems
+- _OBJC_IVAR_$_NTStabilizingTransformation._baseTransformation
+- _OBJC_IVAR_$_NTStabilizingTransformation._localNewsPromotionIndex
+- _OBJC_IVAR_$_NTTagSectionFetchDescriptor._forYouRequest
+- _OBJC_IVAR_$_NTTagSectionFetchDescriptor._stabilizeAcrossRefreshes
+- _OBJC_IVAR_$_NTTagSectionFetchDescriptor._tagRequest
+- _OBJC_IVAR_$_NTTodayBanner._actionButtonText
+- _OBJC_IVAR_$_NTTodayBanner._actionURL
+- _OBJC_IVAR_$_NTTodayBanner._backgroundMethod
+- _OBJC_IVAR_$_NTTodayBanner._body
+- _OBJC_IVAR_$_NTTodayBanner._gradientBackgroundPair
+- _OBJC_IVAR_$_NTTodayBanner._identifier
+- _OBJC_IVAR_$_NTTodayBanner._imageMethod
+- _OBJC_IVAR_$_NTTodayBanner._imageURL
+- _OBJC_IVAR_$_NTTodayBanner._numberOfAppearancesToHide
+- _OBJC_IVAR_$_NTTodayBanner._numberOfTapsToHide
+- _OBJC_IVAR_$_NTTodayBanner._solidBackgroundColorPair
+- _OBJC_IVAR_$_NTTodayBanner._title
+- _OBJC_IVAR_$_NTTodayConfigConversionOperation._configuration
+- _OBJC_IVAR_$_NTTodayConfigConversionOperation._context
+- _OBJC_IVAR_$_NTTodayConfigConversionOperation._defaultConfigCompletionHandler
+- _OBJC_IVAR_$_NTTodayConfigConversionOperation._defaultConfigError
+- _OBJC_IVAR_$_NTTodayConfigConversionOperation._networkEvents
+- _OBJC_IVAR_$_NTTodayConfigConversionOperation._resultDefaultConfig
+- _OBJC_IVAR_$_NTTodayConfigConversionOperation._resultHeldRecordsByType
+- _OBJC_IVAR_$_NTTodayConfigConversionOperation._resultSingleTagConfig
+- _OBJC_IVAR_$_NTTodayConfigConversionOperation._singleTagConfigCompletionHandler
+- _OBJC_IVAR_$_NTTodayConfigConversionOperation._singleTagConfigError
+- _OBJC_IVAR_$_NTTodayConfigConversionOperation._widgetConfiguration
+- _OBJC_IVAR_$_NTTodayConfigOperation._configuration
+- _OBJC_IVAR_$_NTTodayConfigOperation._context
+- _OBJC_IVAR_$_NTTodayConfigOperation._defaultConfigCompletionHandler
+- _OBJC_IVAR_$_NTTodayConfigOperation._defaultConfigError
+- _OBJC_IVAR_$_NTTodayConfigOperation._networkEvents
+- _OBJC_IVAR_$_NTTodayConfigOperation._resultDefaultConfig
+- _OBJC_IVAR_$_NTTodayConfigOperation._resultHeldRecordsByType
+- _OBJC_IVAR_$_NTTodayConfigOperation._resultSingleTagConfig
+- _OBJC_IVAR_$_NTTodayConfigOperation._singleTagConfigCompletionHandler
+- _OBJC_IVAR_$_NTTodayConfigOperation._singleTagConfigError
+- _OBJC_IVAR_$_NTTodayConfigOperation._widgetConfigID
+- _OBJC_IVAR_$_NTTodayContext._accessQueue
+- _OBJC_IVAR_$_NTTodayContext._articleExposureRegistry
+- _OBJC_IVAR_$_NTTodayContext._cacheInvalidationManager
+- _OBJC_IVAR_$_NTTodayContext._contentContext
+- _OBJC_IVAR_$_NTTodayContext._feedPersonalizerFactory
+- _OBJC_IVAR_$_NTTodayContext._fetchQueue
+- _OBJC_IVAR_$_NTTodayContext._groupingService
+- _OBJC_IVAR_$_NTTodayContext._newResultsHandler
+- _OBJC_IVAR_$_NTTodayContext._readablePrivateDataStorage
+- _OBJC_IVAR_$_NTTodayContext._sourceAvailabilityManager
+- _OBJC_IVAR_$_NTTodayContext._todayBannerValidator
+- _OBJC_IVAR_$_NTTodayContext._todayResultsSource
+- _OBJC_IVAR_$_NTTodayContext._writablePrivateDataStorage
+- _OBJC_IVAR_$_NTTodayHeadlineProtoitem._actionURL
+- _OBJC_IVAR_$_NTTodayHeadlineProtoitem._headline
+- _OBJC_IVAR_$_NTTodayHeadlineProtoitem._identifier
+- _OBJC_IVAR_$_NTTodayItemOperation._appConfiguration
+- _OBJC_IVAR_$_NTTodayItemOperation._catchUpOperationResultsBySectionDescriptor
+- _OBJC_IVAR_$_NTTodayItemOperation._contentContext
+- _OBJC_IVAR_$_NTTodayItemOperation._feedItems
+- _OBJC_IVAR_$_NTTodayItemOperation._feedPersonalizer
+- _OBJC_IVAR_$_NTTodayItemOperation._forYouFetchInfo
+- _OBJC_IVAR_$_NTTodayItemOperation._operationInfo
+- _OBJC_IVAR_$_NTTodayItemOperation._resultAssetFileURLsByRemoteURL
+- _OBJC_IVAR_$_NTTodayItemOperation._resultAssetsHoldToken
+- _OBJC_IVAR_$_NTTodayItemOperation._resultRecordsHoldToken
+- _OBJC_IVAR_$_NTTodayItemOperation._resultTodayItemsBySectionDescriptor
+- _OBJC_IVAR_$_NTTodayItemOperation._todayData
+- _OBJC_IVAR_$_NTTodayItemOperation._todayItemCompletion
+- _OBJC_IVAR_$_NTTodayModuleDescriptorsOperation._contentContext
+- _OBJC_IVAR_$_NTTodayModuleDescriptorsOperation._contentRequest
+- _OBJC_IVAR_$_NTTodayModuleDescriptorsOperation._descriptorsCompletion
+- _OBJC_IVAR_$_NTTodayModuleDescriptorsOperation._privateDataStorage
+- _OBJC_IVAR_$_NTTodayPrivateData._autoFavoriteTagIDs
+- _OBJC_IVAR_$_NTTodayPrivateData._bundleSubscription
+- _OBJC_IVAR_$_NTTodayPrivateData._derivedPersonalizationData
+- _OBJC_IVAR_$_NTTodayPrivateData._groupableTagIDs
+- _OBJC_IVAR_$_NTTodayPrivateData._localNewsTagID
+- _OBJC_IVAR_$_NTTodayPrivateData._mutedTagIDs
+- _OBJC_IVAR_$_NTTodayPrivateData._onboardingVersion
+- _OBJC_IVAR_$_NTTodayPrivateData._purchasedTagIDs
+- _OBJC_IVAR_$_NTTodayPrivateData._rankedAllSubscribedTagIDs
+- _OBJC_IVAR_$_NTTodayPrivateData._rankedAllSubscriptionDates
+- _OBJC_IVAR_$_NTTodayPrivateData._recentlyReadHistoryItems
+- _OBJC_IVAR_$_NTTodayPrivateData._recentlySeenHistoryItems
+- _OBJC_IVAR_$_NTTodayPrivateData._subscribedTagIDs
+- _OBJC_IVAR_$_NTTodayResultOperation._articleExposureRegistry
+- _OBJC_IVAR_$_NTTodayResultOperation._contentContext
+- _OBJC_IVAR_$_NTTodayResultOperation._feedPersonalizerFactory
+- _OBJC_IVAR_$_NTTodayResultOperation._groupingService
+- _OBJC_IVAR_$_NTTodayResultOperation._headlineResultCompletionHandler
+- _OBJC_IVAR_$_NTTodayResultOperation._operationInfo
+- _OBJC_IVAR_$_NTTodayResultOperation._prefetchedContent
+- _OBJC_IVAR_$_NTTodayResultOperation._todayBannerValidator
+- _OBJC_IVAR_$_NTTodayResults._assetsHoldToken
+- _OBJC_IVAR_$_NTTodayResults._banner
+- _OBJC_IVAR_$_NTTodayResults._debugInspection
+- _OBJC_IVAR_$_NTTodayResults._expirationDate
+- _OBJC_IVAR_$_NTTodayResults._headlineScale
+- _OBJC_IVAR_$_NTTodayResults._promotionCriterion
+- _OBJC_IVAR_$_NTTodayResults._recordsHoldToken
+- _OBJC_IVAR_$_NTTodayResults._sections
+- _OBJC_IVAR_$_NTTodayResults._sourceIdentifier
+- _OBJC_IVAR_$_NTTodayResultsSource._articleExposureRegistry
+- _OBJC_IVAR_$_NTTodayResultsSource._cacheInvalidationManager
+- _OBJC_IVAR_$_NTTodayResultsSource._contentContext
+- _OBJC_IVAR_$_NTTodayResultsSource._feedPersonalizerFactory
+- _OBJC_IVAR_$_NTTodayResultsSource._fetchDescriptor
+- _OBJC_IVAR_$_NTTodayResultsSource._flushingHasBeenEnabled
+- _OBJC_IVAR_$_NTTodayResultsSource._groupingService
+- _OBJC_IVAR_$_NTTodayResultsSource._latestResultRecordsHoldToken
+- _OBJC_IVAR_$_NTTodayResultsSource._privateDataStorage
+- _OBJC_IVAR_$_NTTodayResultsSource._serialQueue
+- _OBJC_IVAR_$_NTTodayResultsSource._todayBannerValidator
+- _OBJC_IVAR_$_NTWidgetConfigDataOperation._configuration
+- _OBJC_IVAR_$_NTWidgetConfigDataOperation._context
+- _OBJC_IVAR_$_NTWidgetConfigDataOperation._expectedArticleIDs
+- _OBJC_IVAR_$_NTWidgetConfigDataOperation._expectedArticleListIDs
+- _OBJC_IVAR_$_NTWidgetConfigDataOperation._resultHeldRecordsByType
+- _OBJC_IVAR_$_NTWidgetConfigDataOperation._widgetConfigDataCompletionHandler
+- _OBJC_IVAR_$_NTWidgetConfigDataOperation._widgetConfiguration
+- _OBJC_METACLASS_$_NTFeedTransformationIncrementalPersonalizedDiversifiedLimit
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_4
+- _OUTLINED_FUNCTION_5
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_7
+- _OUTLINED_FUNCTION_8
+- __DATA_NTProxyForYouService
+- __DATA_NTWidgetDebugInspection
+- __DATA_NTWidgetDebugInspectionSection
+- __INSTANCE_METHODS_NTProxyForYouService
+- __INSTANCE_METHODS_NTWidgetDebugInspection
+- __INSTANCE_METHODS_NTWidgetDebugInspectionSection
+- __IVARS_NTProxyForYouService
+- __IVARS_NTWidgetDebugInspection
+- __IVARS_NTWidgetDebugInspectionSection
+- __METACLASS_DATA_NTProxyForYouService
+- __METACLASS_DATA_NTWidgetDebugInspection
+- __METACLASS_DATA_NTWidgetDebugInspectionSection
+- __OBJC_$_CATEGORY_CLASS_METHODS_FCContentContext_$_NTAdditions
+- __OBJC_$_CATEGORY_CLASS_METHODS_NTPBTodayBannerConfig_$_FCAdditions
+- __OBJC_$_CATEGORY_CLASS_METHODS_NTPBTodayModuleDescriptor_$_NTAdditions
+- __OBJC_$_CATEGORY_CLASS_METHODS_NTPBTodayPersonalizationEvent_$_FTAdditions
+- __OBJC_$_CATEGORY_CLASS_METHODS_NTPBTodaySectionConfig_$_FCAdditions
+- __OBJC_$_CATEGORY_FCContentContext_$_NTAdditions
+- __OBJC_$_CATEGORY_FCKeyValueStore_$_FRRingBufferContainer
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_FCKeyValueStore_$_FRRingBufferContainer
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_NSDictionary_$_NNHeadlineSyncHelpers
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_NTPBSectionDisplayDescriptor_$_NTAdditions
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_NTPBTodayModuleContentRequest_$_NTAdditions
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_NTPBTodayResultOperationFetchInfo_$_NTAdditions
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_NTPBTodayResultOperationInfo_$_NTAdditions
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_NTPBTodaySectionConfigArticle_$_NTAdditions
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_NTPBTodaySectionConfigFont_$_NTAdditions
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_NTPBTodayWidgetConfig_$_NTAdditions
+- __OBJC_$_CATEGORY_NSDictionary_$_NNHeadlineSyncHelpers
+- __OBJC_$_CATEGORY_NTPBSectionDisplayDescriptor_$_NTAdditions
+- __OBJC_$_CATEGORY_NTPBTodayBannerConfig_$_FCAdditions
+- __OBJC_$_CATEGORY_NTPBTodayConfig_$_Mastering
+- __OBJC_$_CATEGORY_NTPBTodayModuleContentRequest_$_NTAdditions
+- __OBJC_$_CATEGORY_NTPBTodayModuleDescriptor_$_NTAdditions
+- __OBJC_$_CATEGORY_NTPBTodayPersonalizationEvent_$_FTAdditions
+- __OBJC_$_CATEGORY_NTPBTodayResultOperationFetchInfo_$_NTAdditions
+- __OBJC_$_CATEGORY_NTPBTodayResultOperationInfo_$_NTAdditions
+- __OBJC_$_CATEGORY_NTPBTodaySectionConfigArticle_$_NTAdditions
+- __OBJC_$_CATEGORY_NTPBTodaySectionConfigFont_$_NTAdditions
+- __OBJC_$_CATEGORY_NTPBTodaySectionConfig_$_FCAdditions
+- __OBJC_$_CATEGORY_NTPBTodayWidgetConfig_$_NTAdditions
+- __OBJC_$_CLASS_METHODS_NTForYouRequestManifest
+- __OBJC_$_CLASS_METHODS_NTHeadline
+- __OBJC_$_CLASS_METHODS_NTHeadlinePersonalizationMetadata
+- __OBJC_$_CLASS_METHODS_NTNewsTodayResultOperation
+- __OBJC_$_CLASS_METHODS_NTSection
+- __OBJC_$_CLASS_METHODS_NTTodayBanner
+- __OBJC_$_CLASS_METHODS_NTTodayResults
+- __OBJC_$_CLASS_METHODS_NTTodayResultsSource
+- __OBJC_$_CLASS_PROP_LIST_NSSecureCoding
+- __OBJC_$_CLASS_PROP_LIST_NTForYouRequestManifest
+- __OBJC_$_CLASS_PROP_LIST_NTHeadline
+- __OBJC_$_CLASS_PROP_LIST_NTHeadlinePersonalizationMetadata
+- __OBJC_$_CLASS_PROP_LIST_NTSection
+- __OBJC_$_CLASS_PROP_LIST_NTTodayBanner
+- __OBJC_$_CLASS_PROP_LIST_NTTodayResults
+- __OBJC_$_INSTANCE_METHODS_FRRingBuffer
+- __OBJC_$_INSTANCE_METHODS_NTAggregationBudgetInfo
+- __OBJC_$_INSTANCE_METHODS_NTArticleIDsSectionFetchDescriptor
+- __OBJC_$_INSTANCE_METHODS_NTArticleListSectionFetchDescriptor
+- __OBJC_$_INSTANCE_METHODS_NTBestOfSectionTransformation
+- __OBJC_$_INSTANCE_METHODS_NTCatchUpOperation
+- __OBJC_$_INSTANCE_METHODS_NTCatchUpOperationArticleIDsRequest
+- __OBJC_$_INSTANCE_METHODS_NTCatchUpOperationForYouFetchInfo
+- __OBJC_$_INSTANCE_METHODS_NTCatchUpOperationResults
+- __OBJC_$_INSTANCE_METHODS_NTCatchUpOperationTagRequest
+- __OBJC_$_INSTANCE_METHODS_NTFeedTransformationFeedItem
+- __OBJC_$_INSTANCE_METHODS_NTFeedTransformationHeadlineItem
+- __OBJC_$_INSTANCE_METHODS_NTFeedTransformationIncrementalPersonalizedDiversifiedLimit
+- __OBJC_$_INSTANCE_METHODS_NTFeedTransformationItemFeedTransformation
+- __OBJC_$_INSTANCE_METHODS_NTFeedTransformationLimit
+- __OBJC_$_INSTANCE_METHODS_NTForYouRequest
+- __OBJC_$_INSTANCE_METHODS_NTForYouRequestManifest
+- __OBJC_$_INSTANCE_METHODS_NTForYouSectionFetchDescriptor
+- __OBJC_$_INSTANCE_METHODS_NTForYouService
+- __OBJC_$_INSTANCE_METHODS_NTHeadline(Placeholder)
+- __OBJC_$_INSTANCE_METHODS_NTHeadlinePersonalizationMetadata
+- __OBJC_$_INSTANCE_METHODS_NTItemAggregationResult
+- __OBJC_$_INSTANCE_METHODS_NTItemsSectionFetchDescriptor
+- __OBJC_$_INSTANCE_METHODS_NTLocalNewsPromotionTransformation
+- __OBJC_$_INSTANCE_METHODS_NTNewsModuleDescriptorsOperation
+- __OBJC_$_INSTANCE_METHODS_NTNewsModuleDescriptorsOperationPrefetchedContent
+- __OBJC_$_INSTANCE_METHODS_NTNewsSourceAvailabilityEntry
+- __OBJC_$_INSTANCE_METHODS_NTNewsTodayResultOperation
+- __OBJC_$_INSTANCE_METHODS_NTNewsTodayResultsContentFillAggregator
+- __OBJC_$_INSTANCE_METHODS_NTNewsTodayResultsExplicitAllocationAggregator
+- __OBJC_$_INSTANCE_METHODS_NTNewsTodayResultsFetchDescriptor
+- __OBJC_$_INSTANCE_METHODS_NTNewsTodayResultsSourceFetchHelper
+- __OBJC_$_INSTANCE_METHODS_NTNewsTodayResultsSourceFetchHelperSectionDescriptor
+- __OBJC_$_INSTANCE_METHODS_NTNoContentModuleDescriptorsOperation
+- __OBJC_$_INSTANCE_METHODS_NTNoContentSourceAvailabilityEntry
+- __OBJC_$_INSTANCE_METHODS_NTNoContentTodayResultOperation
+- __OBJC_$_INSTANCE_METHODS_NTNoContentTodayResultsFetchDescriptor
+- __OBJC_$_INSTANCE_METHODS_NTPBTodayConfig(Mastering|NTAdditions)
+- __OBJC_$_INSTANCE_METHODS_NTPersonalizedSectionFetchDescriptor
+- __OBJC_$_INSTANCE_METHODS_NTPersonalizedSectionLimitTransformation
+- __OBJC_$_INSTANCE_METHODS_NTPersonalizedSectionSortTransformation
+- __OBJC_$_INSTANCE_METHODS_NTQueueConfigSectionQueueDescriptor
+- __OBJC_$_INSTANCE_METHODS_NTSection
+- __OBJC_$_INSTANCE_METHODS_NTSectionConfigSectionDescriptor
+- __OBJC_$_INSTANCE_METHODS_NTSectionFeedFilterTransformation
+- __OBJC_$_INSTANCE_METHODS_NTSectionPlaceholderDescriptor
+- __OBJC_$_INSTANCE_METHODS_NTSourceAvailabilityManager
+- __OBJC_$_INSTANCE_METHODS_NTStabilizingTransformation
+- __OBJC_$_INSTANCE_METHODS_NTTagSectionFetchDescriptor
+- __OBJC_$_INSTANCE_METHODS_NTTodayBanner
+- __OBJC_$_INSTANCE_METHODS_NTTodayConfigConversionOperation
+- __OBJC_$_INSTANCE_METHODS_NTTodayConfigOperation
+- __OBJC_$_INSTANCE_METHODS_NTTodayContext
+- __OBJC_$_INSTANCE_METHODS_NTTodayHeadlineProtoitem
+- __OBJC_$_INSTANCE_METHODS_NTTodayItemOperation
+- __OBJC_$_INSTANCE_METHODS_NTTodayModuleDescriptorsOperation
+- __OBJC_$_INSTANCE_METHODS_NTTodayPrivateData
+- __OBJC_$_INSTANCE_METHODS_NTTodayResultOperation
+- __OBJC_$_INSTANCE_METHODS_NTTodayResults
+- __OBJC_$_INSTANCE_METHODS_NTTodayResultsSource
+- __OBJC_$_INSTANCE_METHODS_NTWidgetConfigDataOperation
+- __OBJC_$_INSTANCE_VARIABLES_FRRingBuffer
+- __OBJC_$_INSTANCE_VARIABLES_NTAggregationBudgetInfo
+- __OBJC_$_INSTANCE_VARIABLES_NTArticleIDsSectionFetchDescriptor
+- __OBJC_$_INSTANCE_VARIABLES_NTArticleListSectionFetchDescriptor
+- __OBJC_$_INSTANCE_VARIABLES_NTBestOfSectionTransformation
+- __OBJC_$_INSTANCE_VARIABLES_NTCatchUpOperation
+- __OBJC_$_INSTANCE_VARIABLES_NTCatchUpOperationArticleIDsRequest
+- __OBJC_$_INSTANCE_VARIABLES_NTCatchUpOperationForYouFetchInfo
+- __OBJC_$_INSTANCE_VARIABLES_NTCatchUpOperationResults
+- __OBJC_$_INSTANCE_VARIABLES_NTCatchUpOperationTagRequest
+- __OBJC_$_INSTANCE_VARIABLES_NTFeedTransformationFeedItem
+- __OBJC_$_INSTANCE_VARIABLES_NTFeedTransformationHeadlineItem
+- __OBJC_$_INSTANCE_VARIABLES_NTFeedTransformationIncrementalPersonalizedDiversifiedLimit
+- __OBJC_$_INSTANCE_VARIABLES_NTFeedTransformationItemFeedTransformation
+- __OBJC_$_INSTANCE_VARIABLES_NTFeedTransformationLimit
+- __OBJC_$_INSTANCE_VARIABLES_NTForYouRequest
+- __OBJC_$_INSTANCE_VARIABLES_NTForYouRequestManifest
+- __OBJC_$_INSTANCE_VARIABLES_NTForYouSectionFetchDescriptor
+- __OBJC_$_INSTANCE_VARIABLES_NTForYouService
+- __OBJC_$_INSTANCE_VARIABLES_NTHeadline
+- __OBJC_$_INSTANCE_VARIABLES_NTHeadlinePersonalizationMetadata
+- __OBJC_$_INSTANCE_VARIABLES_NTItemAggregationResult
+- __OBJC_$_INSTANCE_VARIABLES_NTItemsSectionFetchDescriptor
+- __OBJC_$_INSTANCE_VARIABLES_NTLocalNewsPromotionTransformation
+- __OBJC_$_INSTANCE_VARIABLES_NTNewsModuleDescriptorsOperation
+- __OBJC_$_INSTANCE_VARIABLES_NTNewsModuleDescriptorsOperationPrefetchedContent
+- __OBJC_$_INSTANCE_VARIABLES_NTNewsSourceAvailabilityEntry
+- __OBJC_$_INSTANCE_VARIABLES_NTNewsTodayResultOperation
+- __OBJC_$_INSTANCE_VARIABLES_NTNewsTodayResultsContentFillAggregator
+- __OBJC_$_INSTANCE_VARIABLES_NTNewsTodayResultsExplicitAllocationAggregator
+- __OBJC_$_INSTANCE_VARIABLES_NTNewsTodayResultsSourceFetchHelper
+- __OBJC_$_INSTANCE_VARIABLES_NTNewsTodayResultsSourceFetchHelperSectionDescriptor
+- __OBJC_$_INSTANCE_VARIABLES_NTNoContentSourceAvailabilityEntry
+- __OBJC_$_INSTANCE_VARIABLES_NTNoContentTodayResultOperation
+- __OBJC_$_INSTANCE_VARIABLES_NTPersonalizedSectionFetchDescriptor
+- __OBJC_$_INSTANCE_VARIABLES_NTPersonalizedSectionLimitTransformation
+- __OBJC_$_INSTANCE_VARIABLES_NTPersonalizedSectionSortTransformation
+- __OBJC_$_INSTANCE_VARIABLES_NTQueueConfigSectionQueueDescriptor
+- __OBJC_$_INSTANCE_VARIABLES_NTSection
+- __OBJC_$_INSTANCE_VARIABLES_NTSectionConfigSectionDescriptor
+- __OBJC_$_INSTANCE_VARIABLES_NTSectionFeedFilterTransformation
+- __OBJC_$_INSTANCE_VARIABLES_NTSectionPlaceholderDescriptor
+- __OBJC_$_INSTANCE_VARIABLES_NTSourceAvailabilityManager
+- __OBJC_$_INSTANCE_VARIABLES_NTStabilizingTransformation
+- __OBJC_$_INSTANCE_VARIABLES_NTTagSectionFetchDescriptor
+- __OBJC_$_INSTANCE_VARIABLES_NTTodayBanner
+- __OBJC_$_INSTANCE_VARIABLES_NTTodayConfigConversionOperation
+- __OBJC_$_INSTANCE_VARIABLES_NTTodayConfigOperation
+- __OBJC_$_INSTANCE_VARIABLES_NTTodayContext
+- __OBJC_$_INSTANCE_VARIABLES_NTTodayHeadlineProtoitem
+- __OBJC_$_INSTANCE_VARIABLES_NTTodayItemOperation
+- __OBJC_$_INSTANCE_VARIABLES_NTTodayModuleDescriptorsOperation
+- __OBJC_$_INSTANCE_VARIABLES_NTTodayPrivateData
+- __OBJC_$_INSTANCE_VARIABLES_NTTodayResultOperation
+- __OBJC_$_INSTANCE_VARIABLES_NTTodayResults
+- __OBJC_$_INSTANCE_VARIABLES_NTTodayResultsSource
+- __OBJC_$_INSTANCE_VARIABLES_NTWidgetConfigDataOperation
+- __OBJC_$_PROP_LIST_FCBundleSubscriptionProviderType
+- __OBJC_$_PROP_LIST_FCCoreConfiguration
+- __OBJC_$_PROP_LIST_FCFeedPersonalizing
+- __OBJC_$_PROP_LIST_FCFeedPersonalizingItem
+- __OBJC_$_PROP_LIST_FCFeedTransformationItem
+- __OBJC_$_PROP_LIST_FCHeadlineMetadata
+- __OBJC_$_PROP_LIST_FCHeadlineProviding
+- __OBJC_$_PROP_LIST_FCKeyValueStore_$_FRRingBufferContainer
+- __OBJC_$_PROP_LIST_FCNewsAppConfiguration
+- __OBJC_$_PROP_LIST_FCNewsWidgetConfiguration
+- __OBJC_$_PROP_LIST_FCPurchaseProviderType
+- __OBJC_$_PROP_LIST_FCSharedCoreConfiguration
+- __OBJC_$_PROP_LIST_FCTodayPrivateData
+- __OBJC_$_PROP_LIST_FRRingBuffer
+- __OBJC_$_PROP_LIST_NNSyncableHeadline
+- __OBJC_$_PROP_LIST_NNSyncableResult
+- __OBJC_$_PROP_LIST_NNSyncableSection
+- __OBJC_$_PROP_LIST_NSDictionary_$_NNHeadlineSyncHelpers
+- __OBJC_$_PROP_LIST_NSObject
+- __OBJC_$_PROP_LIST_NTAggregationBudgetInfo
+- __OBJC_$_PROP_LIST_NTArticleIDsSectionFetchDescriptor
+- __OBJC_$_PROP_LIST_NTArticleListSectionFetchDescriptor
+- __OBJC_$_PROP_LIST_NTBestOfSectionTransformation
+- __OBJC_$_PROP_LIST_NTCatchUpOperation
+- __OBJC_$_PROP_LIST_NTCatchUpOperationArticleIDsRequest
+- __OBJC_$_PROP_LIST_NTCatchUpOperationForYouFetchInfo
+- __OBJC_$_PROP_LIST_NTCatchUpOperationResults
+- __OBJC_$_PROP_LIST_NTCatchUpOperationTagRequest
+- __OBJC_$_PROP_LIST_NTFeedTransformationFeedItem
+- __OBJC_$_PROP_LIST_NTFeedTransformationHeadlineItem
+- __OBJC_$_PROP_LIST_NTFeedTransformationIncrementalPersonalizedDiversifiedLimit
+- __OBJC_$_PROP_LIST_NTFeedTransformationItem
+- __OBJC_$_PROP_LIST_NTFeedTransformationItemFeedTransformation
+- __OBJC_$_PROP_LIST_NTFeedTransformationLimit
+- __OBJC_$_PROP_LIST_NTForYouRequest
+- __OBJC_$_PROP_LIST_NTForYouRequestManifest
+- __OBJC_$_PROP_LIST_NTForYouSectionFetchDescriptor
+- __OBJC_$_PROP_LIST_NTForYouService
+- __OBJC_$_PROP_LIST_NTHeadlineMetadata
+- __OBJC_$_PROP_LIST_NTHeadlinePersonalizationMetadata
+- __OBJC_$_PROP_LIST_NTHeadlineProviding
+- __OBJC_$_PROP_LIST_NTItemAggregationResult
+- __OBJC_$_PROP_LIST_NTItemsSectionFetchDescriptor
+- __OBJC_$_PROP_LIST_NTLocalNewsPromotionTransformation
+- __OBJC_$_PROP_LIST_NTNewsModuleDescriptorsOperation
+- __OBJC_$_PROP_LIST_NTNewsModuleDescriptorsOperationPrefetchedContent
+- __OBJC_$_PROP_LIST_NTNewsSourceAvailabilityEntry
+- __OBJC_$_PROP_LIST_NTNewsTodayResultOperation
+- __OBJC_$_PROP_LIST_NTNewsTodayResultsContentFillAggregator
+- __OBJC_$_PROP_LIST_NTNewsTodayResultsExplicitAllocationAggregator
+- __OBJC_$_PROP_LIST_NTNewsTodayResultsFetchDescriptor
+- __OBJC_$_PROP_LIST_NTNewsTodayResultsSourceFetchHelper
+- __OBJC_$_PROP_LIST_NTNewsTodayResultsSourceFetchHelperSectionDescriptor
+- __OBJC_$_PROP_LIST_NTNoContentSourceAvailabilityEntry
+- __OBJC_$_PROP_LIST_NTNoContentTodayResultOperation
+- __OBJC_$_PROP_LIST_NTNoContentTodayResultsFetchDescriptor
+- __OBJC_$_PROP_LIST_NTPBSectionDisplayDescriptor_$_NTAdditions
+- __OBJC_$_PROP_LIST_NTPBTodaySectionConfigArticle_$_NTAdditions
+- __OBJC_$_PROP_LIST_NTPBTodaySectionConfigFont_$_NTAdditions
+- __OBJC_$_PROP_LIST_NTPersonalizedSectionFetchDescriptor
+- __OBJC_$_PROP_LIST_NTPersonalizedSectionLimitTransformation
+- __OBJC_$_PROP_LIST_NTPersonalizedSectionSortTransformation
+- __OBJC_$_PROP_LIST_NTQueueConfigSectionQueueDescriptor
+- __OBJC_$_PROP_LIST_NTSection
+- __OBJC_$_PROP_LIST_NTSectionConfigSectionDescriptor
+- __OBJC_$_PROP_LIST_NTSectionDescriptor
+- __OBJC_$_PROP_LIST_NTSectionDisplayDescriptor
+- __OBJC_$_PROP_LIST_NTSectionFeedFilterTransformation
+- __OBJC_$_PROP_LIST_NTSectionPlaceholderDescriptor
+- __OBJC_$_PROP_LIST_NTSectionQueueDescriptor
+- __OBJC_$_PROP_LIST_NTSourceAvailabilityEntry
+- __OBJC_$_PROP_LIST_NTSourceAvailabilityManager
+- __OBJC_$_PROP_LIST_NTStabilizingTransformation
+- __OBJC_$_PROP_LIST_NTTagSectionFetchDescriptor
+- __OBJC_$_PROP_LIST_NTTodayBanner
+- __OBJC_$_PROP_LIST_NTTodayConfigConversionOperation
+- __OBJC_$_PROP_LIST_NTTodayConfigOperation
+- __OBJC_$_PROP_LIST_NTTodayContext
+- __OBJC_$_PROP_LIST_NTTodayHeadlineProtoitem
+- __OBJC_$_PROP_LIST_NTTodayItem
+- __OBJC_$_PROP_LIST_NTTodayItemOperation
+- __OBJC_$_PROP_LIST_NTTodayModuleDescriptorsOperation
+- __OBJC_$_PROP_LIST_NTTodayPrivateData
+- __OBJC_$_PROP_LIST_NTTodayProtoitem
+- __OBJC_$_PROP_LIST_NTTodayResultOperation
+- __OBJC_$_PROP_LIST_NTTodayResults
+- __OBJC_$_PROP_LIST_NTTodayResultsFetchDescriptor
+- __OBJC_$_PROP_LIST_NTTodayResultsSource
+- __OBJC_$_PROP_LIST_NTWidgetConfigDataOperation
+- __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCBundleSubscriptionProviderType
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCClassifiable
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCCoreConfiguration
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCFeedPersonalizing
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCFeedPersonalizingItem
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCFeedTransformationItem
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCFeedTransforming
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCHeadlineMetadata
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCHeadlineProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCNewsAppConfiguration
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCNewsWidgetConfiguration
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCPurchaseProviderType
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCSharedCoreConfiguration
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCTagRanking
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCTodayPrivateData
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FRRingBufferContainer
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFCopying
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFMutableCopying
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NNSyncableHeadline
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NNSyncableResult
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NNSyncableSection
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSMutableCopying
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NTFeedTransformationItem
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NTFeedTransforming
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NTForYouServiceType
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NTHeadlineMetadata
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NTHeadlinePersonalizationMetadata
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NTHeadlineProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NTSectionDescriptor
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NTSectionDisplayDescriptor
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NTSectionFetchDescriptor
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NTSectionQueueDescriptor
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NTSourceAvailabilityEntry
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NTTodayContext
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NTTodayEventTracker
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NTTodayItem
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NTTodayProtoitem
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NTTodayResultsAggregator
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NTTodayResultsFetchDescriptor
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NTTodayResultsSource
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FCCoreConfiguration
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FCFeedPersonalizing
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FCFeedPersonalizingItem
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FCFeedTransformationItem
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FCHeadlineMetadata
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FCHeadlineProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FCNetworkReachabilityObserving
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FCNewsAppConfiguration
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FCNewsWidgetConfiguration
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FCSharedCoreConfiguration
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCBundleSubscriptionProviderType
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCClassifiable
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCCoreConfiguration
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCFeedPersonalizing
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCFeedPersonalizingItem
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCFeedTransformationItem
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCFeedTransforming
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCHeadlineMetadata
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCHeadlineProviding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCNetworkReachabilityObserving
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCNewsAppConfiguration
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCNewsWidgetConfiguration
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCPurchaseProviderType
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCSharedCoreConfiguration
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCTagRanking
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCTodayPrivateData
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FRRingBufferContainer
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFCopying
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFMutableCopying
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NNSyncableHeadline
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NNSyncableResult
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NNSyncableSection
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSMutableCopying
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NTFeedTransformationItem
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NTFeedTransforming
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NTForYouServiceType
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NTHeadlineMetadata
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NTHeadlinePersonalizationMetadata
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NTHeadlineProviding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NTSectionDescriptor
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NTSectionDisplayDescriptor
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NTSectionFetchDescriptor
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NTSectionQueueDescriptor
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NTSourceAvailabilityEntry
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NTTodayContext
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NTTodayEventTracker
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NTTodayItem
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NTTodayProtoitem
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NTTodayResultsAggregator
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NTTodayResultsFetchDescriptor
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NTTodayResultsSource
+- __OBJC_$_PROTOCOL_REFS_FCClassifiable
+- __OBJC_$_PROTOCOL_REFS_FCCoreConfiguration
+- __OBJC_$_PROTOCOL_REFS_FCFeedPersonalizing
+- __OBJC_$_PROTOCOL_REFS_FCFeedPersonalizingItem
+- __OBJC_$_PROTOCOL_REFS_FCFeedTransformationItem
+- __OBJC_$_PROTOCOL_REFS_FCFeedTransforming
+- __OBJC_$_PROTOCOL_REFS_FCHeadlineMetadata
+- __OBJC_$_PROTOCOL_REFS_FCHeadlineProviding
+- __OBJC_$_PROTOCOL_REFS_FCNetworkReachabilityObserving
+- __OBJC_$_PROTOCOL_REFS_FCNewsAppConfiguration
+- __OBJC_$_PROTOCOL_REFS_FCNewsWidgetConfiguration
+- __OBJC_$_PROTOCOL_REFS_FCPurchaseProviderType
+- __OBJC_$_PROTOCOL_REFS_FCSharedCoreConfiguration
+- __OBJC_$_PROTOCOL_REFS_FCTagRanking
+- __OBJC_$_PROTOCOL_REFS_FCTodayPrivateData
+- __OBJC_$_PROTOCOL_REFS_FRRingBufferContainer
+- __OBJC_$_PROTOCOL_REFS_NFCopying
+- __OBJC_$_PROTOCOL_REFS_NFMutableCopying
+- __OBJC_$_PROTOCOL_REFS_NNSyncableHeadline
+- __OBJC_$_PROTOCOL_REFS_NNSyncableResult
+- __OBJC_$_PROTOCOL_REFS_NNSyncableSection
+- __OBJC_$_PROTOCOL_REFS_NSSecureCoding
+- __OBJC_$_PROTOCOL_REFS_NTFeedTransformationItem
+- __OBJC_$_PROTOCOL_REFS_NTFeedTransforming
+- __OBJC_$_PROTOCOL_REFS_NTHeadlineMetadata
+- __OBJC_$_PROTOCOL_REFS_NTHeadlinePersonalizationMetadata
+- __OBJC_$_PROTOCOL_REFS_NTHeadlineProviding
+- __OBJC_$_PROTOCOL_REFS_NTSectionDescriptor
+- __OBJC_$_PROTOCOL_REFS_NTSectionDisplayDescriptor
+- __OBJC_$_PROTOCOL_REFS_NTSectionFetchDescriptor
+- __OBJC_$_PROTOCOL_REFS_NTSectionQueueDescriptor
+- __OBJC_$_PROTOCOL_REFS_NTSourceAvailabilityEntry
+- __OBJC_$_PROTOCOL_REFS_NTTodayContext
+- __OBJC_$_PROTOCOL_REFS_NTTodayEventTracker
+- __OBJC_$_PROTOCOL_REFS_NTTodayItem
+- __OBJC_$_PROTOCOL_REFS_NTTodayProtoitem
+- __OBJC_$_PROTOCOL_REFS_NTTodayResultsAggregator
+- __OBJC_$_PROTOCOL_REFS_NTTodayResultsFetchDescriptor
+- __OBJC_$_PROTOCOL_REFS_NTTodayResultsSource
+- __OBJC_CATEGORY_PROTOCOLS_$_FCKeyValueStore_$_FRRingBufferContainer
+- __OBJC_CATEGORY_PROTOCOLS_$_NSDictionary_$_NNHeadlineSyncHelpers
+- __OBJC_CATEGORY_PROTOCOLS_$_NTPBTodaySectionConfigArticle_$_NTAdditions
+- __OBJC_CLASS_PROTOCOLS_$_NTAggregationBudgetInfo
+- __OBJC_CLASS_PROTOCOLS_$_NTArticleIDsSectionFetchDescriptor
+- __OBJC_CLASS_PROTOCOLS_$_NTArticleListSectionFetchDescriptor
+- __OBJC_CLASS_PROTOCOLS_$_NTBestOfSectionTransformation
+- __OBJC_CLASS_PROTOCOLS_$_NTCatchUpOperationArticleIDsRequest
+- __OBJC_CLASS_PROTOCOLS_$_NTCatchUpOperationForYouFetchInfo
+- __OBJC_CLASS_PROTOCOLS_$_NTCatchUpOperationResults
+- __OBJC_CLASS_PROTOCOLS_$_NTCatchUpOperationTagRequest
+- __OBJC_CLASS_PROTOCOLS_$_NTFeedTransformationFeedItem
+- __OBJC_CLASS_PROTOCOLS_$_NTFeedTransformationHeadlineItem
+- __OBJC_CLASS_PROTOCOLS_$_NTFeedTransformationIncrementalPersonalizedDiversifiedLimit
+- __OBJC_CLASS_PROTOCOLS_$_NTFeedTransformationItemFeedTransformation
+- __OBJC_CLASS_PROTOCOLS_$_NTFeedTransformationLimit
+- __OBJC_CLASS_PROTOCOLS_$_NTForYouRequest
+- __OBJC_CLASS_PROTOCOLS_$_NTForYouRequestManifest
+- __OBJC_CLASS_PROTOCOLS_$_NTForYouSectionFetchDescriptor
+- __OBJC_CLASS_PROTOCOLS_$_NTForYouService
+- __OBJC_CLASS_PROTOCOLS_$_NTHeadline(Placeholder)
+- __OBJC_CLASS_PROTOCOLS_$_NTHeadlinePersonalizationMetadata
+- __OBJC_CLASS_PROTOCOLS_$_NTItemAggregationResult
+- __OBJC_CLASS_PROTOCOLS_$_NTItemsSectionFetchDescriptor
+- __OBJC_CLASS_PROTOCOLS_$_NTLocalNewsPromotionTransformation
+- __OBJC_CLASS_PROTOCOLS_$_NTNewsModuleDescriptorsOperationPrefetchedContent
+- __OBJC_CLASS_PROTOCOLS_$_NTNewsSourceAvailabilityEntry
+- __OBJC_CLASS_PROTOCOLS_$_NTNewsTodayResultsContentFillAggregator
+- __OBJC_CLASS_PROTOCOLS_$_NTNewsTodayResultsExplicitAllocationAggregator
+- __OBJC_CLASS_PROTOCOLS_$_NTNewsTodayResultsFetchDescriptor
+- __OBJC_CLASS_PROTOCOLS_$_NTNewsTodayResultsSourceFetchHelperSectionDescriptor
+- __OBJC_CLASS_PROTOCOLS_$_NTNoContentSourceAvailabilityEntry
+- __OBJC_CLASS_PROTOCOLS_$_NTNoContentTodayResultsFetchDescriptor
+- __OBJC_CLASS_PROTOCOLS_$_NTPersonalizedSectionFetchDescriptor
+- __OBJC_CLASS_PROTOCOLS_$_NTPersonalizedSectionLimitTransformation
+- __OBJC_CLASS_PROTOCOLS_$_NTPersonalizedSectionSortTransformation
+- __OBJC_CLASS_PROTOCOLS_$_NTQueueConfigSectionQueueDescriptor
+- __OBJC_CLASS_PROTOCOLS_$_NTSection
+- __OBJC_CLASS_PROTOCOLS_$_NTSectionConfigSectionDescriptor
+- __OBJC_CLASS_PROTOCOLS_$_NTSectionFeedFilterTransformation
+- __OBJC_CLASS_PROTOCOLS_$_NTSectionPlaceholderDescriptor
+- __OBJC_CLASS_PROTOCOLS_$_NTStabilizingTransformation
+- __OBJC_CLASS_PROTOCOLS_$_NTTagSectionFetchDescriptor
+- __OBJC_CLASS_PROTOCOLS_$_NTTodayBanner
+- __OBJC_CLASS_PROTOCOLS_$_NTTodayContext
+- __OBJC_CLASS_PROTOCOLS_$_NTTodayHeadlineProtoitem
+- __OBJC_CLASS_PROTOCOLS_$_NTTodayPrivateData
+- __OBJC_CLASS_PROTOCOLS_$_NTTodayResults
+- __OBJC_CLASS_PROTOCOLS_$_NTTodayResultsSource
+- __OBJC_CLASS_RO_$_FRRingBuffer
+- __OBJC_CLASS_RO_$_NTAggregationBudgetInfo
+- __OBJC_CLASS_RO_$_NTArticleIDsSectionFetchDescriptor
+- __OBJC_CLASS_RO_$_NTArticleListSectionFetchDescriptor
+- __OBJC_CLASS_RO_$_NTBestOfSectionTransformation
+- __OBJC_CLASS_RO_$_NTCatchUpOperation
+- __OBJC_CLASS_RO_$_NTCatchUpOperationArticleIDsRequest
+- __OBJC_CLASS_RO_$_NTCatchUpOperationForYouFetchInfo
+- __OBJC_CLASS_RO_$_NTCatchUpOperationResults
+- __OBJC_CLASS_RO_$_NTCatchUpOperationTagRequest
+- __OBJC_CLASS_RO_$_NTFeedTransformationFeedItem
+- __OBJC_CLASS_RO_$_NTFeedTransformationHeadlineItem
+- __OBJC_CLASS_RO_$_NTFeedTransformationIncrementalPersonalizedDiversifiedLimit
+- __OBJC_CLASS_RO_$_NTFeedTransformationItemFeedTransformation
+- __OBJC_CLASS_RO_$_NTFeedTransformationLimit
+- __OBJC_CLASS_RO_$_NTForYouRequest
+- __OBJC_CLASS_RO_$_NTForYouRequestManifest
+- __OBJC_CLASS_RO_$_NTForYouSectionFetchDescriptor
+- __OBJC_CLASS_RO_$_NTForYouService
+- __OBJC_CLASS_RO_$_NTHeadline
+- __OBJC_CLASS_RO_$_NTHeadlinePersonalizationMetadata
+- __OBJC_CLASS_RO_$_NTItemAggregationResult
+- __OBJC_CLASS_RO_$_NTItemsSectionFetchDescriptor
+- __OBJC_CLASS_RO_$_NTLocalNewsPromotionTransformation
+- __OBJC_CLASS_RO_$_NTNewsModuleDescriptorsOperation
+- __OBJC_CLASS_RO_$_NTNewsModuleDescriptorsOperationPrefetchedContent
+- __OBJC_CLASS_RO_$_NTNewsSourceAvailabilityEntry
+- __OBJC_CLASS_RO_$_NTNewsTodayResultOperation
+- __OBJC_CLASS_RO_$_NTNewsTodayResultsContentFillAggregator
+- __OBJC_CLASS_RO_$_NTNewsTodayResultsExplicitAllocationAggregator
+- __OBJC_CLASS_RO_$_NTNewsTodayResultsFetchDescriptor
+- __OBJC_CLASS_RO_$_NTNewsTodayResultsSourceFetchHelper
+- __OBJC_CLASS_RO_$_NTNewsTodayResultsSourceFetchHelperSectionDescriptor
+- __OBJC_CLASS_RO_$_NTNoContentModuleDescriptorsOperation
+- __OBJC_CLASS_RO_$_NTNoContentSourceAvailabilityEntry
+- __OBJC_CLASS_RO_$_NTNoContentTodayResultOperation
+- __OBJC_CLASS_RO_$_NTNoContentTodayResultsFetchDescriptor
+- __OBJC_CLASS_RO_$_NTPersonalizedSectionFetchDescriptor
+- __OBJC_CLASS_RO_$_NTPersonalizedSectionLimitTransformation
+- __OBJC_CLASS_RO_$_NTPersonalizedSectionSortTransformation
+- __OBJC_CLASS_RO_$_NTQueueConfigSectionQueueDescriptor
+- __OBJC_CLASS_RO_$_NTSection
+- __OBJC_CLASS_RO_$_NTSectionConfigSectionDescriptor
+- __OBJC_CLASS_RO_$_NTSectionFeedFilterTransformation
+- __OBJC_CLASS_RO_$_NTSectionPlaceholderDescriptor
+- __OBJC_CLASS_RO_$_NTSourceAvailabilityManager
+- __OBJC_CLASS_RO_$_NTStabilizingTransformation
+- __OBJC_CLASS_RO_$_NTTagSectionFetchDescriptor
+- __OBJC_CLASS_RO_$_NTTodayBanner
+- __OBJC_CLASS_RO_$_NTTodayConfigConversionOperation
+- __OBJC_CLASS_RO_$_NTTodayConfigOperation
+- __OBJC_CLASS_RO_$_NTTodayContext
+- __OBJC_CLASS_RO_$_NTTodayHeadlineProtoitem
+- __OBJC_CLASS_RO_$_NTTodayItemOperation
+- __OBJC_CLASS_RO_$_NTTodayModuleDescriptorsOperation
+- __OBJC_CLASS_RO_$_NTTodayPrivateData
+- __OBJC_CLASS_RO_$_NTTodayResultOperation
+- __OBJC_CLASS_RO_$_NTTodayResults
+- __OBJC_CLASS_RO_$_NTTodayResultsSource
+- __OBJC_CLASS_RO_$_NTWidgetConfigDataOperation
+- __OBJC_LABEL_PROTOCOL_$_FCBundleSubscriptionProviderType
+- __OBJC_LABEL_PROTOCOL_$_FCClassifiable
+- __OBJC_LABEL_PROTOCOL_$_FCCoreConfiguration
+- __OBJC_LABEL_PROTOCOL_$_FCFeedPersonalizing
+- __OBJC_LABEL_PROTOCOL_$_FCFeedPersonalizingItem
+- __OBJC_LABEL_PROTOCOL_$_FCFeedTransformationItem
+- __OBJC_LABEL_PROTOCOL_$_FCFeedTransforming
+- __OBJC_LABEL_PROTOCOL_$_FCHeadlineMetadata
+- __OBJC_LABEL_PROTOCOL_$_FCHeadlineProviding
+- __OBJC_LABEL_PROTOCOL_$_FCNetworkReachabilityObserving
+- __OBJC_LABEL_PROTOCOL_$_FCNewsAppConfiguration
+- __OBJC_LABEL_PROTOCOL_$_FCNewsWidgetConfiguration
+- __OBJC_LABEL_PROTOCOL_$_FCPurchaseProviderType
+- __OBJC_LABEL_PROTOCOL_$_FCSharedCoreConfiguration
+- __OBJC_LABEL_PROTOCOL_$_FCTagRanking
+- __OBJC_LABEL_PROTOCOL_$_FCTodayPrivateData
+- __OBJC_LABEL_PROTOCOL_$_FRRingBufferContainer
+- __OBJC_LABEL_PROTOCOL_$_NFCopying
+- __OBJC_LABEL_PROTOCOL_$_NFMutableCopying
+- __OBJC_LABEL_PROTOCOL_$_NNSyncableHeadline
+- __OBJC_LABEL_PROTOCOL_$_NNSyncableResult
+- __OBJC_LABEL_PROTOCOL_$_NNSyncableSection
+- __OBJC_LABEL_PROTOCOL_$_NSCoding
+- __OBJC_LABEL_PROTOCOL_$_NSCopying
+- __OBJC_LABEL_PROTOCOL_$_NSMutableCopying
+- __OBJC_LABEL_PROTOCOL_$_NSObject
+- __OBJC_LABEL_PROTOCOL_$_NSSecureCoding
+- __OBJC_LABEL_PROTOCOL_$_NTFeedTransformationItem
+- __OBJC_LABEL_PROTOCOL_$_NTFeedTransforming
+- __OBJC_LABEL_PROTOCOL_$_NTForYouServiceType
+- __OBJC_LABEL_PROTOCOL_$_NTHeadlineMetadata
+- __OBJC_LABEL_PROTOCOL_$_NTHeadlinePersonalizationMetadata
+- __OBJC_LABEL_PROTOCOL_$_NTHeadlineProviding
+- __OBJC_LABEL_PROTOCOL_$_NTSectionDescriptor
+- __OBJC_LABEL_PROTOCOL_$_NTSectionDisplayDescriptor
+- __OBJC_LABEL_PROTOCOL_$_NTSectionFetchDescriptor
+- __OBJC_LABEL_PROTOCOL_$_NTSectionQueueDescriptor
+- __OBJC_LABEL_PROTOCOL_$_NTSourceAvailabilityEntry
+- __OBJC_LABEL_PROTOCOL_$_NTTodayContext
+- __OBJC_LABEL_PROTOCOL_$_NTTodayEventTracker
+- __OBJC_LABEL_PROTOCOL_$_NTTodayItem
+- __OBJC_LABEL_PROTOCOL_$_NTTodayProtoitem
+- __OBJC_LABEL_PROTOCOL_$_NTTodayResultsAggregator
+- __OBJC_LABEL_PROTOCOL_$_NTTodayResultsFetchDescriptor
+- __OBJC_LABEL_PROTOCOL_$_NTTodayResultsSource
+- __OBJC_METACLASS_RO_$_FRRingBuffer
+- __OBJC_METACLASS_RO_$_NTAggregationBudgetInfo
+- __OBJC_METACLASS_RO_$_NTArticleIDsSectionFetchDescriptor
+- __OBJC_METACLASS_RO_$_NTArticleListSectionFetchDescriptor
+- __OBJC_METACLASS_RO_$_NTBestOfSectionTransformation
+- __OBJC_METACLASS_RO_$_NTCatchUpOperation
+- __OBJC_METACLASS_RO_$_NTCatchUpOperationArticleIDsRequest
+- __OBJC_METACLASS_RO_$_NTCatchUpOperationForYouFetchInfo
+- __OBJC_METACLASS_RO_$_NTCatchUpOperationResults
+- __OBJC_METACLASS_RO_$_NTCatchUpOperationTagRequest
+- __OBJC_METACLASS_RO_$_NTFeedTransformationFeedItem
+- __OBJC_METACLASS_RO_$_NTFeedTransformationHeadlineItem
+- __OBJC_METACLASS_RO_$_NTFeedTransformationIncrementalPersonalizedDiversifiedLimit
+- __OBJC_METACLASS_RO_$_NTFeedTransformationItemFeedTransformation
+- __OBJC_METACLASS_RO_$_NTFeedTransformationLimit
+- __OBJC_METACLASS_RO_$_NTForYouRequest
+- __OBJC_METACLASS_RO_$_NTForYouRequestManifest
+- __OBJC_METACLASS_RO_$_NTForYouSectionFetchDescriptor
+- __OBJC_METACLASS_RO_$_NTForYouService
+- __OBJC_METACLASS_RO_$_NTHeadline
+- __OBJC_METACLASS_RO_$_NTHeadlinePersonalizationMetadata
+- __OBJC_METACLASS_RO_$_NTItemAggregationResult
+- __OBJC_METACLASS_RO_$_NTItemsSectionFetchDescriptor
+- __OBJC_METACLASS_RO_$_NTLocalNewsPromotionTransformation
+- __OBJC_METACLASS_RO_$_NTNewsModuleDescriptorsOperation
+- __OBJC_METACLASS_RO_$_NTNewsModuleDescriptorsOperationPrefetchedContent
+- __OBJC_METACLASS_RO_$_NTNewsSourceAvailabilityEntry
+- __OBJC_METACLASS_RO_$_NTNewsTodayResultOperation
+- __OBJC_METACLASS_RO_$_NTNewsTodayResultsContentFillAggregator
+- __OBJC_METACLASS_RO_$_NTNewsTodayResultsExplicitAllocationAggregator
+- __OBJC_METACLASS_RO_$_NTNewsTodayResultsFetchDescriptor
+- __OBJC_METACLASS_RO_$_NTNewsTodayResultsSourceFetchHelper
+- __OBJC_METACLASS_RO_$_NTNewsTodayResultsSourceFetchHelperSectionDescriptor
+- __OBJC_METACLASS_RO_$_NTNoContentModuleDescriptorsOperation
+- __OBJC_METACLASS_RO_$_NTNoContentSourceAvailabilityEntry
+- __OBJC_METACLASS_RO_$_NTNoContentTodayResultOperation
+- __OBJC_METACLASS_RO_$_NTNoContentTodayResultsFetchDescriptor
+- __OBJC_METACLASS_RO_$_NTPersonalizedSectionFetchDescriptor
+- __OBJC_METACLASS_RO_$_NTPersonalizedSectionLimitTransformation
+- __OBJC_METACLASS_RO_$_NTPersonalizedSectionSortTransformation
+- __OBJC_METACLASS_RO_$_NTQueueConfigSectionQueueDescriptor
+- __OBJC_METACLASS_RO_$_NTSection
+- __OBJC_METACLASS_RO_$_NTSectionConfigSectionDescriptor
+- __OBJC_METACLASS_RO_$_NTSectionFeedFilterTransformation
+- __OBJC_METACLASS_RO_$_NTSectionPlaceholderDescriptor
+- __OBJC_METACLASS_RO_$_NTSourceAvailabilityManager
+- __OBJC_METACLASS_RO_$_NTStabilizingTransformation
+- __OBJC_METACLASS_RO_$_NTTagSectionFetchDescriptor
+- __OBJC_METACLASS_RO_$_NTTodayBanner
+- __OBJC_METACLASS_RO_$_NTTodayConfigConversionOperation
+- __OBJC_METACLASS_RO_$_NTTodayConfigOperation
+- __OBJC_METACLASS_RO_$_NTTodayContext
+- __OBJC_METACLASS_RO_$_NTTodayHeadlineProtoitem
+- __OBJC_METACLASS_RO_$_NTTodayItemOperation
+- __OBJC_METACLASS_RO_$_NTTodayModuleDescriptorsOperation
+- __OBJC_METACLASS_RO_$_NTTodayPrivateData
+- __OBJC_METACLASS_RO_$_NTTodayResultOperation
+- __OBJC_METACLASS_RO_$_NTTodayResults
+- __OBJC_METACLASS_RO_$_NTTodayResultsSource
+- __OBJC_METACLASS_RO_$_NTWidgetConfigDataOperation
+- __OBJC_PROTOCOL_$_FCBundleSubscriptionProviderType
+- __OBJC_PROTOCOL_$_FCClassifiable
+- __OBJC_PROTOCOL_$_FCCoreConfiguration
+- __OBJC_PROTOCOL_$_FCFeedPersonalizing
+- __OBJC_PROTOCOL_$_FCFeedPersonalizingItem
+- __OBJC_PROTOCOL_$_FCFeedTransformationItem
+- __OBJC_PROTOCOL_$_FCFeedTransforming
+- __OBJC_PROTOCOL_$_FCHeadlineMetadata
+- __OBJC_PROTOCOL_$_FCHeadlineProviding
+- __OBJC_PROTOCOL_$_FCNetworkReachabilityObserving
+- __OBJC_PROTOCOL_$_FCNewsAppConfiguration
+- __OBJC_PROTOCOL_$_FCNewsWidgetConfiguration
+- __OBJC_PROTOCOL_$_FCPurchaseProviderType
+- __OBJC_PROTOCOL_$_FCSharedCoreConfiguration
+- __OBJC_PROTOCOL_$_FCTagRanking
+- __OBJC_PROTOCOL_$_FCTodayPrivateData
+- __OBJC_PROTOCOL_$_FRRingBufferContainer
+- __OBJC_PROTOCOL_$_NFCopying
+- __OBJC_PROTOCOL_$_NFMutableCopying
+- __OBJC_PROTOCOL_$_NNSyncableHeadline
+- __OBJC_PROTOCOL_$_NNSyncableResult
+- __OBJC_PROTOCOL_$_NNSyncableSection
+- __OBJC_PROTOCOL_$_NSCoding
+- __OBJC_PROTOCOL_$_NSCopying
+- __OBJC_PROTOCOL_$_NSMutableCopying
+- __OBJC_PROTOCOL_$_NSObject
+- __OBJC_PROTOCOL_$_NSSecureCoding
+- __OBJC_PROTOCOL_$_NTFeedTransformationItem
+- __OBJC_PROTOCOL_$_NTFeedTransforming
+- __OBJC_PROTOCOL_$_NTForYouServiceType
+- __OBJC_PROTOCOL_$_NTHeadlineMetadata
+- __OBJC_PROTOCOL_$_NTHeadlinePersonalizationMetadata
+- __OBJC_PROTOCOL_$_NTHeadlineProviding
+- __OBJC_PROTOCOL_$_NTSectionDescriptor
+- __OBJC_PROTOCOL_$_NTSectionDisplayDescriptor
+- __OBJC_PROTOCOL_$_NTSectionFetchDescriptor
+- __OBJC_PROTOCOL_$_NTSectionQueueDescriptor
+- __OBJC_PROTOCOL_$_NTSourceAvailabilityEntry
+- __OBJC_PROTOCOL_$_NTTodayContext
+- __OBJC_PROTOCOL_$_NTTodayEventTracker
+- __OBJC_PROTOCOL_$_NTTodayItem
+- __OBJC_PROTOCOL_$_NTTodayProtoitem
+- __OBJC_PROTOCOL_$_NTTodayResultsAggregator
+- __OBJC_PROTOCOL_$_NTTodayResultsFetchDescriptor
+- __OBJC_PROTOCOL_$_NTTodayResultsSource
+- __OBJC_PROTOCOL_REFERENCE_$_NNSyncableHeadline
+- __OBJC_PROTOCOL_REFERENCE_$_NNSyncableSection
+- __PROTOCOLS_NTProxyForYouService
+- ___100-[NTWidgetConfigDataOperation _finishByConvertingRecordsWithArticlesByID:articleListsByID:tagsByID:]_block_invoke
+- ___100-[NTWidgetConfigDataOperation _finishByConvertingRecordsWithArticlesByID:articleListsByID:tagsByID:]_block_invoke_2
+- ___118-[NTTagSectionFetchDescriptor incrementalLimitTransformationWithFeedPersonalizer:limit:priorFeedItems:lastEntryItems:]_block_invoke
+- ___121-[NTForYouSectionFetchDescriptor incrementalLimitTransformationWithFeedPersonalizer:limit:priorFeedItems:lastEntryItems:]_block_invoke
+- ___125-[NTNewsTodayResultsContentFillAggregator aggregateSections:itemsBySectionDescriptor:budgetInfo:todayData:lastEntrySnapshot:]_block_invoke
+- ___132-[NTNewsTodayResultsExplicitAllocationAggregator aggregateSections:itemsBySectionDescriptor:budgetInfo:todayData:lastEntrySnapshot:]_block_invoke
+- ___132-[NTNewsTodayResultsExplicitAllocationAggregator aggregateSections:itemsBySectionDescriptor:budgetInfo:todayData:lastEntrySnapshot:]_block_invoke_10
+- ___132-[NTNewsTodayResultsExplicitAllocationAggregator aggregateSections:itemsBySectionDescriptor:budgetInfo:todayData:lastEntrySnapshot:]_block_invoke_11
+- ___132-[NTNewsTodayResultsExplicitAllocationAggregator aggregateSections:itemsBySectionDescriptor:budgetInfo:todayData:lastEntrySnapshot:]_block_invoke_2
+- ___132-[NTNewsTodayResultsExplicitAllocationAggregator aggregateSections:itemsBySectionDescriptor:budgetInfo:todayData:lastEntrySnapshot:]_block_invoke_3
+- ___132-[NTNewsTodayResultsExplicitAllocationAggregator aggregateSections:itemsBySectionDescriptor:budgetInfo:todayData:lastEntrySnapshot:]_block_invoke_4
+- ___132-[NTNewsTodayResultsExplicitAllocationAggregator aggregateSections:itemsBySectionDescriptor:budgetInfo:todayData:lastEntrySnapshot:]_block_invoke_5
+- ___132-[NTNewsTodayResultsExplicitAllocationAggregator aggregateSections:itemsBySectionDescriptor:budgetInfo:todayData:lastEntrySnapshot:]_block_invoke_6
+- ___132-[NTNewsTodayResultsExplicitAllocationAggregator aggregateSections:itemsBySectionDescriptor:budgetInfo:todayData:lastEntrySnapshot:]_block_invoke_7
+- ___132-[NTNewsTodayResultsExplicitAllocationAggregator aggregateSections:itemsBySectionDescriptor:budgetInfo:todayData:lastEntrySnapshot:]_block_invoke_8
+- ___132-[NTNewsTodayResultsExplicitAllocationAggregator aggregateSections:itemsBySectionDescriptor:budgetInfo:todayData:lastEntrySnapshot:]_block_invoke_9
+- ___153-[NTNewsTodayResultOperation _fetchTodayResultsWithFetchHelper:aggregator:budgetInfo:appConfiguration:feedPersonalizer:todayData:todayBanner:completion:]_block_invoke
+- ___153-[NTNewsTodayResultOperation _fetchTodayResultsWithFetchHelper:aggregator:budgetInfo:appConfiguration:feedPersonalizer:todayData:todayBanner:completion:]_block_invoke_2
+- ___153-[NTNewsTodayResultOperation _fetchTodayResultsWithFetchHelper:aggregator:budgetInfo:appConfiguration:feedPersonalizer:todayData:todayBanner:completion:]_block_invoke_3
+- ___153-[NTNewsTodayResultOperation _fetchTodayResultsWithFetchHelper:aggregator:budgetInfo:appConfiguration:feedPersonalizer:todayData:todayBanner:completion:]_block_invoke_4
+- ___157+[NTPBTodayPersonalizationEvent(FTAdditions) ft_eventWithDate:action:headline:section:headlineIndexInSection:precedingHeadlinesCount:precedingSectionsCount:]_block_invoke
+- ___184-[NTQueueConfigSectionQueueDescriptor initWithQueueConfig:appConfiguration:todayData:localNewsSelectionCriteria:inFavoritesOnlyMode:respectsWidgetVisibleSectionsLimit:groupingService:]_block_invoke
+- ___189-[NTTodayContext initWithContentContext:feedPersonalizerFactory:groupingService:cacheInvalidationManager:todayBannerValidator:articleExposureRegistry:processVariant:accessQueue:fetchQueue:]_block_invoke
+- ___189-[NTTodayContext initWithContentContext:feedPersonalizerFactory:groupingService:cacheInvalidationManager:todayBannerValidator:articleExposureRegistry:processVariant:accessQueue:fetchQueue:]_block_invoke_2
+- ___189-[NTTodayContext initWithContentContext:feedPersonalizerFactory:groupingService:cacheInvalidationManager:todayBannerValidator:articleExposureRegistry:processVariant:accessQueue:fetchQueue:]_block_invoke_3
+- ___189-[NTTodayContext initWithContentContext:feedPersonalizerFactory:groupingService:cacheInvalidationManager:todayBannerValidator:articleExposureRegistry:processVariant:accessQueue:fetchQueue:]_block_invoke_4
+- ___200-[NTNewsTodayResultOperation _finalizeTodayResultsWithSectionDescriptors:catchUpOperationResultsBySectionDescriptor:appConfiguration:feedPersonalizer:todayData:todayBanner:debugInspection:completion:]_block_invoke
+- ___237-[NTNewsTodayResultOperation _assembleQueueDescriptorsWithConfig:allowOnlyWatchEligibleSections:respectsWidgetVisibleSectionsLimit:personalizationTreatment:aggregateStore:appConfiguration:todayData:localNewsSelectionCriteria:completion:]_block_invoke
+- ___237-[NTNewsTodayResultOperation _assembleQueueDescriptorsWithConfig:allowOnlyWatchEligibleSections:respectsWidgetVisibleSectionsLimit:personalizationTreatment:aggregateStore:appConfiguration:todayData:localNewsSelectionCriteria:completion:]_block_invoke_2
+- ___237-[NTNewsTodayResultOperation _assembleQueueDescriptorsWithConfig:allowOnlyWatchEligibleSections:respectsWidgetVisibleSectionsLimit:personalizationTreatment:aggregateStore:appConfiguration:todayData:localNewsSelectionCriteria:completion:]_block_invoke_3
+- ___237-[NTNewsTodayResultOperation _assembleQueueDescriptorsWithConfig:allowOnlyWatchEligibleSections:respectsWidgetVisibleSectionsLimit:personalizationTreatment:aggregateStore:appConfiguration:todayData:localNewsSelectionCriteria:completion:]_block_invoke_4
+- ___259-[NTSectionFeedFilterTransformation initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:otherArticleIDs:otherClusterIDs:filterDate:paywalledArticlesMaxCount:]_block_invoke
+- ___259-[NTSectionFeedFilterTransformation initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:otherArticleIDs:otherClusterIDs:filterDate:paywalledArticlesMaxCount:]_block_invoke_2
+- ___259-[NTSectionFeedFilterTransformation initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:otherArticleIDs:otherClusterIDs:filterDate:paywalledArticlesMaxCount:]_block_invoke_3
+- ___259-[NTSectionFeedFilterTransformation initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:otherArticleIDs:otherClusterIDs:filterDate:paywalledArticlesMaxCount:]_block_invoke_4
+- ___259-[NTSectionFeedFilterTransformation initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:otherArticleIDs:otherClusterIDs:filterDate:paywalledArticlesMaxCount:]_block_invoke_5
+- ___259-[NTSectionFeedFilterTransformation initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:otherArticleIDs:otherClusterIDs:filterDate:paywalledArticlesMaxCount:]_block_invoke_6
+- ___259-[NTSectionFeedFilterTransformation initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:otherArticleIDs:otherClusterIDs:filterDate:paywalledArticlesMaxCount:]_block_invoke_7
+- ___259-[NTSectionFeedFilterTransformation initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:otherArticleIDs:otherClusterIDs:filterDate:paywalledArticlesMaxCount:]_block_invoke_8
+- ___259-[NTSectionFeedFilterTransformation initWithTodayData:configurationManager:readArticlesFilterMethod:seenArticlesFilterMethod:minimumTimeSinceFirstSeenToFilter:supplementalFeedFilterOptions:otherArticleIDs:otherClusterIDs:filterDate:paywalledArticlesMaxCount:]_block_invoke_9
+- ___27-[NTSection initWithCoder:]_block_invoke
+- ___27-[NTTodayResults itemCount]_block_invoke
+- ___274-[NTNewsTodayResultsExplicitAllocationAggregator _itemsForSection:items:todayData:budgetInfo:previouslyChosenItems:priorClusterIDsInOtherSections:sectionItemsLimit:otherArticleIDs:lastEntryItems:remainingSlots:slotsUsed:noMoreItemsToGive:noRoomForMoreItems:debugInspection:]_block_invoke
+- ___274-[NTNewsTodayResultsExplicitAllocationAggregator _itemsForSection:items:todayData:budgetInfo:previouslyChosenItems:priorClusterIDsInOtherSections:sectionItemsLimit:otherArticleIDs:lastEntryItems:remainingSlots:slotsUsed:noMoreItemsToGive:noRoomForMoreItems:debugInspection:]_block_invoke_2
+- ___29-[NTSection encodeWithCoder:]_block_invoke
+- ___29-[NTSection encodeWithCoder:]_block_invoke_2
+- ___38-[NTCatchUpOperation performOperation]_block_invoke
+- ___38-[NTCatchUpOperation performOperation]_block_invoke_2
+- ___38-[NTCatchUpOperation performOperation]_block_invoke_3
+- ___40-[NTTodayItemOperation performOperation]_block_invoke
+- ___40-[NTTodayItemOperation performOperation]_block_invoke_2
+- ___40-[NTTodayItemOperation performOperation]_block_invoke_3
+- ___42-[NTTodayConfigOperation performOperation]_block_invoke
+- ___42-[NTTodayConfigOperation performOperation]_block_invoke_2
+- ___42-[NTTodayConfigOperation performOperation]_block_invoke_3
+- ___44-[NTTodayItemOperation _saveWithCompletion:]_block_invoke
+- ___46-[NTNewsTodayResultOperation performOperation]_block_invoke
+- ___47-[NTTodayContext networkReachabilityDidChange:]_block_invoke
+- ___50-[NTStabilizingTransformation transformFeedItems:]_block_invoke
+- ___50-[NTStabilizingTransformation transformFeedItems:]_block_invoke_2
+- ___50-[NTStabilizingTransformation transformFeedItems:]_block_invoke_3
+- ___50-[NTStabilizingTransformation transformFeedItems:]_block_invoke_4
+- ___51-[NTTodayItemOperation _extractFeedItemsFromInputs]_block_invoke
+- ___51-[NTTodayItemOperation _extractFeedItemsFromInputs]_block_invoke_2
+- ___51-[NTTodayItemOperation _extractFeedItemsFromInputs]_block_invoke_3
+- ___52-[NTNewsModuleDescriptorsOperation performOperation]_block_invoke
+- ___52-[NTTodayConfigConversionOperation performOperation]_block_invoke
+- ___52-[NTTodayConfigConversionOperation performOperation]_block_invoke_2
+- ___55-[NTTodayContext fetchModuleDescriptorsWithCompletion:]_block_invoke
+- ___55-[NTTodayContext fetchModuleDescriptorsWithCompletion:]_block_invoke_2
+- ___55-[NTTodayItemOperation _fetchProtoitemsWithCompletion:]_block_invoke
+- ___55-[NTTodayItemOperation _fetchProtoitemsWithCompletion:]_block_invoke_2
+- ___55-[NTTodayItemOperation _fetchProtoitemsWithCompletion:]_block_invoke_3
+- ___56-[NTItemAggregationResult headlineSlotCostWithSlotCost:]_block_invoke
+- ___56-[NTSectionFeedFilterTransformation transformFeedItems:]_block_invoke
+- ___56-[NTSectionFeedFilterTransformation transformFeedItems:]_block_invoke_2
+- ___57-[FCKeyValueStore(FRRingBufferContainer) setRingBuffers:]_block_invoke
+- ___57-[NTLocalNewsPromotionTransformation transformFeedItems:]_block_invoke
+- ___57-[NTLocalNewsPromotionTransformation transformFeedItems:]_block_invoke_3
+- ___58-[NTTodayHeadlineProtoitem assetHandlesWithOperationInfo:]_block_invoke
+- ___59-[NTItemAggregationResult sectionOverheadSlotCostWithInfo:]_block_invoke
+- ___59-[NTNewsTodayResultOperation canRetryWithError:retryAfter:]_block_invoke_3
+- ___61-[NTTodayResultsSource fetchModuleDescriptorsWithCompletion:]_block_invoke
+- ___61-[NTTodayResultsSource fetchModuleDescriptorsWithCompletion:]_block_invoke_2
+- ___62-[NTNewsTodayResultOperation _supplementTodayData:forResults:]_block_invoke
+- ___62-[NTPersonalizedSectionSortTransformation transformFeedItems:]_block_invoke
+- ___63-[NTPersonalizedSectionLimitTransformation transformFeedItems:]_block_invoke
+- ___64-[NTCatchUpOperation _fetchForYouResultsIfNeededWithCompletion:]_block_invoke
+- ___64-[NTCatchUpOperation _fetchForYouResultsIfNeededWithCompletion:]_block_invoke_2
+- ___64-[NTCatchUpOperation _fetchForYouResultsIfNeededWithCompletion:]_block_invoke_3
+- ___64-[NTCatchUpOperation _fetchForYouResultsIfNeededWithCompletion:]_block_invoke_4
+- ___64-[NTCatchUpOperation _fetchForYouResultsIfNeededWithCompletion:]_block_invoke_5
+- ___64-[NTCatchUpOperation _fetchForYouResultsIfNeededWithCompletion:]_block_invoke_6
+- ___65-[NTFeedTransformationItemFeedTransformation transformFeedItems:]_block_invoke
+- ___65-[NTTodayContext fetchLatestResultsWithOperationInfo:completion:]_block_invoke
+- ___65-[NTTodayContext fetchLatestResultsWithOperationInfo:completion:]_block_invoke_2
+- ___66-[NTNewsModuleDescriptorsOperation _donateTodayConfigDataToNewsd:]_block_invoke
+- ___67-[NTCatchUpOperation _fetchForYouResultsUsingDaemonWithCompletion:]_block_invoke
+- ___67-[NTCatchUpOperation _fetchForYouResultsUsingDaemonWithCompletion:]_block_invoke_2
+- ___67-[NTCatchUpOperation _fetchForYouResultsUsingDaemonWithCompletion:]_block_invoke_3
+- ___67-[NTNewsTodayResultOperation todayBannerWithTodayConfig:todayData:]_block_invoke
+- ___68-[NTNewsModuleDescriptorsOperation _continueOperationWithTodayData:]_block_invoke
+- ___68-[NTNewsModuleDescriptorsOperation _continueOperationWithTodayData:]_block_invoke_2
+- ___68-[NTNewsModuleDescriptorsOperation _continueOperationWithTodayData:]_block_invoke_3
+- ___69-[NTItemsSectionFetchDescriptor assembleResultsWithCatchUpOperation:]_block_invoke
+- ___69-[NTItemsSectionFetchDescriptor assembleResultsWithCatchUpOperation:]_block_invoke_2
+- ___69-[NTTodayConfigConversionOperation _todayConfigWithConfigJSON:error:]_block_invoke
+- ___71+[NTPBTodaySectionConfig(FCAdditions) sectionConfigWithJSONDictionary:]_block_invoke
+- ___71-[NTTodayContext writeUserDidSeeHeadlinesWithAnalyticsElements:atDate:]_block_invoke
+- ___71-[NTTodayContext writeUserDidSeeHeadlinesWithAnalyticsElements:atDate:]_block_invoke_2
+- ___71-[NTTodayResultsSource fetchLatestResultsWithOperationInfo:completion:]_block_invoke
+- ___71-[NTTodayResultsSource fetchLatestResultsWithOperationInfo:completion:]_block_invoke_2
+- ___71-[NTTodayResultsSource fetchLatestResultsWithOperationInfo:completion:]_block_invoke_3
+- ___71-[NTTodayResultsSource fetchLatestResultsWithOperationInfo:completion:]_block_invoke_4
+- ___72-[NTCatchUpOperation _fetchForYouResultsUsingFeedRequestWithCompletion:]_block_invoke
+- ___72-[NTCatchUpOperation _fetchForYouResultsUsingFeedRequestWithCompletion:]_block_invoke_2
+- ___72-[NTCatchUpOperation _fetchForYouResultsUsingFeedRequestWithCompletion:]_block_invoke_3
+- ___72-[NTNewsTodayResultsSourceFetchHelper sectionDescriptorsAtHeadsOfQueues]_block_invoke
+- ___77-[NTSourceAvailabilityManager _recomputePreferredAvailableTodayResultsSource]_block_invoke
+- ___78-[NTNewsTodayResultOperation _resolveLocalNewsSelectionCriteriaWithAppConfig:]_block_invoke
+- ___79-[NTNewsTodayResultsContentFillAggregator _bestResultOfResults:withBudgetInfo:]_block_invoke
+- ___79-[NTNewsTodayResultsContentFillAggregator _bestResultOfResults:withBudgetInfo:]_block_invoke_2
+- ___79-[NTNewsTodayResultsContentFillAggregator _bestResultOfResults:withBudgetInfo:]_block_invoke_3
+- ___81-[NTSourceAvailabilityManager initWithAvailabilityEntriesInPreferredOrder:queue:]_block_invoke
+- ___81-[NTSourceAvailabilityManager initWithAvailabilityEntriesInPreferredOrder:queue:]_block_invoke_2
+- ___82-[NTCatchUpOperation _fetchArticleListAndArticleIDsResultsIfNeededWithCompletion:]_block_invoke
+- ___82-[NTCatchUpOperation _fetchArticleListAndArticleIDsResultsIfNeededWithCompletion:]_block_invoke_2
+- ___82-[NTCatchUpOperation _fetchArticleListAndArticleIDsResultsIfNeededWithCompletion:]_block_invoke_3
+- ___82-[NTCatchUpOperation _fetchArticleListAndArticleIDsResultsIfNeededWithCompletion:]_block_invoke_4
+- ___82-[NTPBTodayResultOperationFetchInfo(NTAdditions) setUserSegmentationTreatmentIDs:]_block_invoke
+- ___83-[NTPBTodayResultOperationFetchInfo(NTAdditions) setUserSegmentationSegmentSetIDs:]_block_invoke
+- ___84-[NTForYouService fetchForYouWithRequest:configuration:fetchDate:completionHandler:]_block_invoke
+- ___84-[NTForYouService fetchForYouWithRequest:configuration:fetchDate:completionHandler:]_block_invoke_2
+- ___84-[NTForYouService fetchForYouWithRequest:configuration:fetchDate:completionHandler:]_block_invoke_3
+- ___84-[NTForYouService fetchForYouWithRequest:configuration:fetchDate:completionHandler:]_block_invoke_4
+- ___84-[NTForYouService fetchForYouWithRequest:configuration:fetchDate:completionHandler:]_block_invoke_5
+- ___84-[NTForYouService fetchForYouWithRequest:configuration:fetchDate:completionHandler:]_block_invoke_6
+- ___84-[NTForYouService fetchForYouWithRequest:configuration:fetchDate:completionHandler:]_block_invoke_7
+- ___84-[NTForYouService fetchForYouWithRequest:configuration:fetchDate:completionHandler:]_block_invoke_8
+- ___84-[NTWidgetConfigDataOperation _finishByFetchingRecordsForArticleIDs:articleListIDs:]_block_invoke
+- ___85-[NTCatchUpOperationResults initWithHeadlines:rankingFeedback:actionURLsByArticleID:]_block_invoke
+- ___85-[NTNewsTodayResultsFetchDescriptor placeholderSectionDescriptorsWithContentRequest:]_block_invoke
+- ___85-[NTNewsTodayResultsFetchDescriptor placeholderSectionDescriptorsWithContentRequest:]_block_invoke_2
+- ___85-[NTTodayConfigOperation _todayConfigWithConfigJSON:articleListIDs:articleIDs:error:]_block_invoke
+- ___88-[NTPBTodayConfig(Mastering) _resolveArticles:withPaidAccessChecker:heldArticleRecords:]_block_invoke
+- ___90-[NTTodayResultsSource _fetchLatestResultsWithOperationInfo:prefetchedContent:completion:]_block_invoke
+- ___91+[NTTodayResultsSource placeholderResultsWithFetchDescriptor:contentContext:operationInfo:]_block_invoke
+- ___91+[NTTodayResultsSource placeholderResultsWithFetchDescriptor:contentContext:operationInfo:]_block_invoke_2
+- ___91+[NTTodayResultsSource placeholderResultsWithFetchDescriptor:contentContext:operationInfo:]_block_invoke_3
+- ___93-[NTCatchUpOperationResults initWithFeedItems:supplementalInterestToken:feedContextByFeedID:]_block_invoke
+- ___Block_byref_object_copy_
+- ___Block_byref_object_dispose_
+- ___ColorPairWithJSONDictionary_block_invoke
+- ___NNNanoSoloLog_block_invoke
+- ___NNSetupCompanionSyncLog_block_invoke
+- ___NTArticleIDsRequestWithArticles_block_invoke
+- ___NTCKRecordFromJSONDictionary_block_invoke
+- ___NTCKRecordFromJSONDictionary_block_invoke_2
+- ___NTDeleteOnDiskAssets_block_invoke
+- ___NTHeadlineFromFCHeadline_block_invoke
+- ___NTIsUserInExperiment_block_invoke
+- ___NTNewsEdgeArticleDateFields_block_invoke
+- ___NTNewsEdgeArticleEncodedFields_block_invoke
+- ___NTNewsEdgeArticleListRecordOverrideKeys_block_invoke
+- ___NTNewsEdgeArticleRecordOverrideKeys_block_invoke
+- ___NTNewsEdgeTagEncodedFields_block_invoke
+- ___NTNewsEdgeTagRecordOverrideKeys_block_invoke
+- ___NTPBTodaySectionConfigGenerateArticles_block_invoke
+- ___NTPBTodaySectionConfigGenerateItems_block_invoke
+- ___NTSharedLog_block_invoke
+- ___block_descriptor_104_e8_32s40s48s56s64r72r80r88r96r_e5_v8?0lr64l8s32l8s40l8s48l8s56l8r72l8r80l8r88l8r96l8
+- ___block_descriptor_105_e8_32s40s48s56s64s72s80s88s96bs_e29_v24?0"NSArray"8"NSError"16ls96l8s32l8s40l8s48l8s56l8s64l8s72l8s80l8s88l8
+- ___block_descriptor_112_e8_32s40s48s56s64s72s80s88s96s104bs_e40_v24?0"NTCatchUpOperation"8"NSError"16ls104l8s32l8s40l8s48l8s56l8s64l8s72l8s80l8s88l8s96l8
+- ___block_descriptor_120_e8_32s40s48s56s64s72s80s88s96s104s112s_e53_v32?0"NTTodayResults"8"NSDictionary"16"NSError"24ls32l8s40l8s48l8s56l8s64l8s72l8s80l8s88l8s96l8s104l8s112l8
+- ___block_descriptor_136_e8_32s40s48s56s64s72s80s88s96s104s112s120s128r_e45_v32?0?<Q?"<NTSectionDescriptor>">8Q16^B24ls32l8r128l8s40l8s48l8s56l8s64l8s72l8s80l8s88l8s96l8s104l8s112l8s120l8
+- ___block_descriptor_136_e8_32s40s48s56s64s72s80s88s96s_e24_v16?0"NSMutableArray"8ls32l8s40l8s48l8s56l8s64l8s72l8s80l8s88l8s96l8
+- ___block_descriptor_144_e8_32s40s48s56s64s72s80s88s96s104s112s120s128s_e29_v24?0"NSArray"8"NSError"16ls32l8s40l8s48l8s56l8s64l8s72l8s80l8s88l8s96l8s104l8s112l8s120l8s128l8
+- ___block_descriptor_144_e8_32s40s48s56s64s72s80s88s96s104s112s120s128s_e5_v8?0ls32l8s40l8s48l8s56l8s64l8s72l8s80l8s88l8s96l8s104l8s112l8s120l8s128l8
+- ___block_descriptor_152_e8_32s40s48s56s64s72s80s88s96s104s112s120bs128r_e38_v32?0"<NTSectionDescriptor>"8Q16^B24lr128l8s32l8s40l8s48l8s56l8s120l8s64l8s72l8s80l8s88l8s96l8s104l8s112l8
+- ___block_descriptor_32_e18_B16?0"NSString"8l
+- ___block_descriptor_32_e22_16?0"NTPBFeedItem"8l
+- ___block_descriptor_32_e23_16?0"FCFeedRequest"8l
+- ___block_descriptor_32_e24_"NSSet"16?0"NSArray"8l
+- ___block_descriptor_32_e24_v16?0"NSMutableArray"8l
+- ___block_descriptor_32_e24_v16?0"NTTodayContext"8l
+- ___block_descriptor_32_e26_"FCCachePolicy"20?0i812l
+- ___block_descriptor_32_e31_16?0"<NTSectionDescriptor>"8l
+- ___block_descriptor_32_e31_16?0"NTPBTodaySnapshotItem"8l
+- ___block_descriptor_32_e31_Q16?0"<NTSectionDescriptor>"8l
+- ___block_descriptor_32_e31_q24?0"NSNumber"8"NSNumber"16l
+- ___block_descriptor_32_e32_"NSString"16?0"NTPBFeedItem"8l
+- ___block_descriptor_32_e32_16?0"<FCReadingHistoryItem>"8l
+- ___block_descriptor_32_e32_B16?0"NTPBTodaySectionConfig"8l
+- ___block_descriptor_32_e32_q16?0"<FCReadingHistoryItem>"8l
+- ___block_descriptor_32_e36_"NSString"16?0"<FCTagProviding>"8l
+- ___block_descriptor_32_e36_16?0"<NTFeedTransformationItem>"8l
+- ___block_descriptor_32_e36_B16?0"<NTFeedTransformationItem>"8l
+- ___block_descriptor_32_e39_B32?0"NTPBTodaySectionConfig"8Q16^B24l
+- ___block_descriptor_32_e40_"NSDate"16?0"<FCReadingHistoryItem>"8l
+- ___block_descriptor_32_e40_16?0"NSObject<FCReadingHistoryItem>"8l
+- ___block_descriptor_32_e44_"NSArray"16?0"NTCatchUpOperationResults"8l
+- ___block_descriptor_32_e44_B32?0"<NTSourceAvailabilityEntry>"8Q16^B24l
+- ___block_descriptor_32_e46_"NSString"16?0"<NTFeedTransformationItem>"8l
+- ___block_descriptor_32_e47_"<NSCopying>"16?0"NTPBTodaySnapshotSection"8l
+- ___block_descriptor_32_e49_"NSArray"16?0"NTSectionPlaceholderDescriptor"8l
+- ___block_descriptor_32_e51_16?0"NTPBArticleListTodaySectionSpecificConfig"8l
+- ___block_descriptor_32_e59_q24?0"NTPBTodaySectionConfig"8"NTPBTodaySectionConfig"16l
+- ___block_descriptor_32_e5_v8?0l
+- ___block_descriptor_32_e64_"<FCFeedTransformationItem>"16?0"<NTFeedTransformationItem>"8l
+- ___block_descriptor_40_e8_32bs_e108_v40?0"NTTodayResults"8"NSDictionary"16"NSObject<NTTodayResultOperationFetchInfoProviding>"24"NSError"32ls32l8
+- ___block_descriptor_40_e8_32bs_e29_v24?0"NSArray"8"NSError"16ls32l8
+- ___block_descriptor_40_e8_32bs_e5_v8?0ls32l8
+- ___block_descriptor_40_e8_32r_e26_v32?0"NTSection"8Q16^B24lr32l8
+- ___block_descriptor_40_e8_32s_e14_"NSArray"8?0ls32l8
+- ___block_descriptor_40_e8_32s_e14_v16?0?<v?>8ls32l8
+- ___block_descriptor_40_e8_32s_e18_B16?0"NSString"8ls32l8
+- ___block_descriptor_40_e8_32s_e20_"NTPBColorPair"8?0ls32l8
+- ___block_descriptor_40_e8_32s_e20_"NTTodayBanner"8?0ls32l8
+- ___block_descriptor_40_e8_32s_e21_B24?0d8"NSString"16ls32l8
+- ___block_descriptor_40_e8_32s_e22_B16?0"NTPBFeedItem"8ls32l8
+- ___block_descriptor_40_e8_32s_e22_v32?0"NSURL"8Q16^B24ls32l8
+- ___block_descriptor_40_e8_32s_e24_v16?0"NSMutableArray"8ls32l8
+- ___block_descriptor_40_e8_32s_e25_v32?0"NSNumber"8Q16^B24ls32l8
+- ___block_descriptor_40_e8_32s_e26_q16?0"<FCTagProviding>"8ls32l8
+- ___block_descriptor_40_e8_32s_e30_"NTItemAggregationResult"8?0ls32l8
+- ___block_descriptor_40_e8_32s_e32_B16?0"<FCReadingHistoryItem>"8ls32l8
+- ___block_descriptor_40_e8_32s_e33_B16?0"NTItemAggregationResult"8ls32l8
+- ___block_descriptor_40_e8_32s_e34_v24?0"NSDictionary"8"NSError"16ls32l8
+- ___block_descriptor_40_e8_32s_e35_v32?0"NSString"8"NSNumber"16^B24ls32l8
+- ___block_descriptor_40_e8_32s_e36_"<FCTagProviding>"16?0"NSString"8ls32l8
+- ___block_descriptor_40_e8_32s_e36_B16?0"<NTFeedTransformationItem>"8ls32l8
+- ___block_descriptor_40_e8_32s_e38_v16?0"NSObject<FCTodayPrivateData>"8ls32l8
+- ___block_descriptor_40_e8_32s_e39_v32?0"NSString"8"FRRingBuffer"16^B24ls32l8
+- ___block_descriptor_40_e8_32s_e40_"NTPBTodayQueueConfig"16?0"NSNumber"8ls32l8
+- ___block_descriptor_40_e8_32s_e43_v32?0"<NTFeedTransformationItem>"8Q16^B24ls32l8
+- ___block_descriptor_40_e8_32s_e47_16?0"<NTHeadlineAnalyticsElementProviding>"8ls32l8
+- ___block_descriptor_40_e8_32s_e47_v32?0"NSDictionary"8"NSObject"16"NSError"24ls32l8
+- ___block_descriptor_40_e8_32s_e50_"<NTFeedTransformationItem>"16?0"NTPBFeedItem"8ls32l8
+- ___block_descriptor_40_e8_32s_e57_q24?0"<NTSectionDescriptor>"8"<NTSectionDescriptor>"16ls32l8
+- ___block_descriptor_40_e8_32s_e59_"<NTFeedTransformationItem>"16?0"<FCHeadlineProviding>"8ls32l8
+- ___block_descriptor_40_e8_32s_e5_8?0ls32l8
+- ___block_descriptor_40_e8_32s_e5_B8?0ls32l8
+- ___block_descriptor_40_e8_32s_e5_v8?0ls32l8
+- ___block_descriptor_40_e8_32s_e64_"<NTFeedTransformationItem>"16?0"NTPBTodaySectionConfigItem"8ls32l8
+- ___block_descriptor_40_e8_32s_e65_v32?0"<NTSectionDescriptor>"8"NTCatchUpOperationResults"16^B24ls32l8
+- ___block_descriptor_40_e8_32s_e67_q24?0"<FCFeedTransformationItem>"8"<FCFeedTransformationItem>"16ls32l8
+- ___block_descriptor_40_e8_32s_e70_"NTCatchUpOperationResults"24?0"<NTSectionDescriptor>"8"NSArray"16ls32l8
+- ___block_descriptor_40_e8_32s_e85_v32?0"NTCatchUpOperationResults"8"NTCatchUpOperationForYouFetchInfo"16"NSError"24ls32l8
+- ___block_descriptor_40_e8_32w_e5_v8?0lw32l8
+- ___block_descriptor_44_e8_32s_e66_v24?0"NSString"8"COMAPPLEFELDSPARPROTOCOLLIVERPOOLCohortList"16ls32l8
+- ___block_descriptor_48_e5_v8?0l
+- ___block_descriptor_48_e8_32bs40bs_e45_v32?0"NSArray"8"<NFCopying>"16"NSError"24ls32l8s40l8
+- ___block_descriptor_48_e8_32r_e47_v32?0"<NTSectionDescriptor>"8"NSArray"16^B24lr32l8
+- ___block_descriptor_48_e8_32s40bs_e17_v16?0"NSError"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e49_v36?0"NSArray"8"NSDictionary"16B24"NSError"28ls40l8s32l8
+- ___block_descriptor_48_e8_32s40bs_e5_v8?0ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e5_v8?0ls40l8s32l8
+- ___block_descriptor_48_e8_32s40bs_e85_v32?0"NTCatchUpOperationResults"8"NTCatchUpOperationForYouFetchInfo"16"NSError"24ls32l8s40l8
+- ___block_descriptor_48_e8_32s40r_e29_v32?0"NSDictionary"8Q16^B24ls32l8r40l8
+- ___block_descriptor_48_e8_32s40r_e43_v32?0"<FCFeedTransformationItem>"8Q16^B24ls32l8r40l8
+- ___block_descriptor_48_e8_32s40r_e47_v32?0"<NTSectionDescriptor>"8"NSArray"16^B24ls32l8r40l8
+- ___block_descriptor_48_e8_32s40s_e24_v16?0"NSMutableArray"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e28_v24?08"FCInterestToken"16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e29_v16?0"NSMutableDictionary"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e30_v32?0"<NTTodayItem>"8Q16^B24ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e34_v16?0"<NDTodayFeedServiceType>"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e36_B16?0"<NTFeedTransformationItem>"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e38_v32?0"NTPBTodaySnapshotItem"8Q16^B24ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e39_v32?0"NSString"8"NSDictionary"16^B24ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e40_v32?0"NSString"8"<NTTodayItem>"16^B24ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e43_v32?0"<NTFeedTransformationItem>"8Q16^B24ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e44_"<NTTodayItem>"24?0"NSString"8"NSData"16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e46_v32?0"NTPBTodaySectionConfigArticle"8Q16^B24ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e47_v32?0"<NTSectionDescriptor>"8"NSArray"16^B24ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e51_"NTSection"16?0"NTSectionPlaceholderDescriptor"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e56_"<NTTodayProtoitem>"16?0"<NTFeedTransformationItem>"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e58_"NTCatchUpOperationResults"16?0"<NTSectionDescriptor>"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e5_8?0ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e5_v8?0ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e70_"NSArray"24?0"<NTSectionDescriptor>"8"NTCatchUpOperationResults"16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40w_e34_v24?0"NSDictionary"8"NSError"16ls32l8w40l8
+- ___block_descriptor_48_e8_32s40w_e5_v8?0ls32l8w40l8
+- ___block_descriptor_48_e8_32s_e5_Q8?0ls32l8
+- ___block_descriptor_49_e8_32s40s_e30_"NSURL"16?0"FCAssetHandle"8ls32l8s40l8
+- ___block_descriptor_50_e8_32s40s_e39_v32?0"NTPBTodaySectionConfig"8Q16^B24ls32l8s40l8
+- ___block_descriptor_56_e8_32s40bs48bs_e108_v40?0"NTTodayResults"8"NSDictionary"16"NSObject<NTTodayResultOperationFetchInfoProviding>"24"NSError"32ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40bs_e14_v16?0?<v?>8ls32l8s40l8
+- ___block_descriptor_56_e8_32s40r48r_e34_v24?0"NSDictionary"8"NSError"16lr40l8r48l8s32l8
+- ___block_descriptor_56_e8_32s40s48bs_e32_v24?0"FCMapTable"8"NSError"16ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48bs_e5_v8?0ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48bs_e85_v32?0"NTCatchUpOperationResults"8"NTCatchUpOperationForYouFetchInfo"16"NSError"24ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48r_e43_v32?0"<NTFeedTransformationItem>"8Q16^B24lr48l8s32l8s40l8
+- ___block_descriptor_56_e8_32s40s48r_e5_v8?0lr48l8s32l8s40l8
+- ___block_descriptor_56_e8_32s40s48s_e38_v32?0"<FCHeadlineProviding>"8Q16^B24ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48s_e51_v32?0"NSObject<NTSectionQueueDescriptor>"8Q16^B24ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48s_e58_v40?0"NSArray"8"NSArray"16"NSDictionary"24"NSError"32ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48s_e5_v8?0ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48s_e70_"NTPBTodaySectionConfigArticle"16?0"NTPBTodaySectionConfigArticle"8ls32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40r48r56r_e51_v32?0"NSDictionary"8"NSDictionary"16"NSError"24lr40l8r48l8r56l8s32l8
+- ___block_descriptor_64_e8_32s40r48r56r_e85_v32?0"NTCatchUpOperationResults"8"NTCatchUpOperationForYouFetchInfo"16"NSError"24lr40l8r48l8r56l8s32l8
+- ___block_descriptor_64_e8_32s40s48bs56bs_e45_v32?0"NSArray"8"<NFCopying>"16"NSError"24ls32l8s48l8s56l8s40l8
+- ___block_descriptor_64_e8_32s40s48bs56bs_e5_v8?0ls32l8s48l8s40l8s56l8
+- ___block_descriptor_64_e8_32s40s48bs_e108_v40?0"NTTodayResults"8"NSDictionary"16"NSObject<NTTodayResultOperationFetchInfoProviding>"24"NSError"32ls32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s48s56bs_e14_v16?0?<v?>8ls32l8s40l8s48l8s56l8
+- ___block_descriptor_64_e8_32s40s48s56bs_e5_v8?0ls56l8s32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s48s56bs_e68_v40?0"NSDictionary"8"NSDictionary"16"NSDictionary"24"NSError"32ls32l8s40l8s48l8s56l8
+- ___block_descriptor_64_e8_32s40s48s56s_e25_v32?0"NSString"816^B24ls32l8s40l8s48l8s56l8
+- ___block_descriptor_64_e8_32s40s48s56s_e43_v32?0"<FCFeedTransformationItem>"8Q16^B24ls32l8s40l8s48l8s56l8
+- ___block_descriptor_64_e8_32s40s48s56s_e57_"NSOrderedSet"24?0"<NTSectionDescriptor>"8"NSArray"16ls32l8s40l8s48l8s56l8
+- ___block_descriptor_64_e8_32s40s48s56s_e5_v8?0ls32l8s40l8s48l8s56l8
+- ___block_descriptor_65_e8_32s40s48s56s_e66_"NTSectionConfigSectionDescriptor"16?0"NTPBTodaySectionConfig"8ls32l8s40l8s48l8s56l8
+- ___block_descriptor_66_e8_32s40s48s56s_e58_"<NTSectionQueueDescriptor>"16?0"NTPBTodayQueueConfig"8ls32l8s40l8s48l8s56l8
+- ___block_descriptor_72_e8_32s40s48r56r64r_e74_v40?0"<FCNewsAppConfiguration>"8"NSDictionary"16"NSData"24"NSError"32ls32l8r48l8r56l8r64l8s40l8
+- ___block_descriptor_72_e8_32s40s48s56s64s_e43_"<NTTodayItem>"16?0"<NTTodayProtoitem>"8ls32l8s40l8s48l8s56l8s64l8
+- ___block_descriptor_72_e8_32s40s48s56s64s_e52_v32?0"NTCatchUpOperationArticleIDsRequest"8Q16^B24ls32l8s40l8s48l8s56l8s64l8
+- ___block_descriptor_72_e8_32s40s48s56s64s_e54_v32?0"NTPBTodayConfig"8"NSDictionary"16"NSError"24ls32l8s40l8s48l8s56l8s64l8
+- ___block_descriptor_72_e8_32s40s48s56s64s_e58_v32?0"NTPBArticleListTodaySectionSpecificConfig"8Q16^B24ls32l8s40l8s48l8s56l8s64l8
+- ___block_descriptor_72_e8_32s40s48s56s_e5_B8?0ls32l8s40l8s48l8s56l8
+- ___block_descriptor_80_e8_32s40s48s56s64r72r_e38_v32?0"<NTSectionDescriptor>"8Q16^B24ls32l8s40l8s48l8s56l8r64l8r72l8
+- ___block_descriptor_80_e8_32s40s48s56s64s72bs_e5_v8?0ls72l8s32l8s40l8s48l8s56l8s64l8
+- ___block_descriptor_80_e8_32s40s48s56s64s72s_e5_v8?0ls32l8s40l8s48l8s56l8s64l8s72l8
+- ___block_descriptor_88_e8_32s40r48r56r64r72r80r_e5_v8?0lr40l8r48l8r56l8s32l8r64l8r72l8r80l8
+- ___block_descriptor_88_e8_32s40s48s56s64s72s80bs_e77_v48?0"NSDictionary"8"NSDictionary"16"NSObject"24"NSObject"32"NSError"40ls80l8s32l8s40l8s48l8s56l8s64l8s72l8
+- ___block_descriptor_88_e8_32s40s48s56s64s72s80s_e8_v16?0d8ls32l8s40l8s48l8s56l8s64l8s72l8s80l8
+- ___block_descriptor_89_e8_32s40s48s56s64s72s80bs_e54_v40?0"NSArray"8"NSArray"16"NSObject"24"NSError"32ls80l8s32l8s40l8s48l8s56l8s64l8s72l8
+- ___block_descriptor_96_e8_32s40s48s56s64s72r80r88r_e54_v32?0"NTPBTodayConfig"8"NSDictionary"16"NSError"24ls32l8s40l8r72l8r80l8s48l8s56l8s64l8r88l8
+- ___block_descriptor_96_e8_32s40s48s56s64s72s80r88r_e5_v8?0lr80l8s32l8s40l8r88l8s48l8s56l8s64l8s72l8
+- ___block_literal_global
+- ___swift_allocate_boxed_opaque_existential_0
+- ___swift_async_cont_functlets
+- ___swift_async_entry_functlets
+- ___swift_async_ret_functlets
+- ___swift_closure_destructor
+- ___swift_closure_destructor.8Tm
+- ___swift_destroy_boxed_opaque_existential_0
+- ___swift_destroy_boxed_opaque_existential_1
+- ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
+- ___swift_instantiateConcreteTypeFromMangledNameV2
+- ___swift_memcpy0_1
+- ___swift_memcpy1_1
+- ___swift_memcpy392_8
+- ___swift_memcpy40_8
+- ___swift_memcpy56_8
+- ___swift_noop_void_return
+- ___swift_project_boxed_opaque_existential_0
+- ___swift_project_boxed_opaque_existential_1
+- ___swift_reflection_version
+- __donateTodayConfigDataToNewsd:.connectionIdentifier
+- __swift_FORCE_LOAD_$_swiftAccelerate_$_NewsToday
+- __swift_FORCE_LOAD_$_swiftCoreFoundation_$_NewsToday
+- __swift_FORCE_LOAD_$_swiftCoreLocation_$_NewsToday
+- __swift_FORCE_LOAD_$_swiftDispatch_$_NewsToday
+- __swift_FORCE_LOAD_$_swiftFoundation_$_NewsToday
+- __swift_FORCE_LOAD_$_swiftMLCompute_$_NewsToday
+- __swift_FORCE_LOAD_$_swiftMetal_$_NewsToday
+- __swift_FORCE_LOAD_$_swiftNaturalLanguage_$_NewsToday
+- __swift_FORCE_LOAD_$_swiftOSLog_$_NewsToday
+- __swift_FORCE_LOAD_$_swiftObjectiveC_$_NewsToday
+- __swift_FORCE_LOAD_$_swiftQuartzCore_$_NewsToday
+- __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_NewsToday
+- __swift_FORCE_LOAD_$_swiftXPC_$_NewsToday
+- __swift_FORCE_LOAD_$_swift_Builtin_float_$_NewsToday
+- __swift_FORCE_LOAD_$_swiftos_$_NewsToday
+- __swift_FORCE_LOAD_$_swiftsimd_$_NewsToday
+- __swift_stdlib_malloc_size
+- _associated conformance 9NewsToday18ProxyForYouServiceC6Errors33_69C73D4EBE458EA8DF6E89158219C367LLOSHAASQ
+- _associated conformance 9NewsToday21WidgetDebugInspectionC10CodingKeys33_D5621E7B66D75FB4AC510C092336F0C7LLOSHAASQ
+- _associated conformance 9NewsToday21WidgetDebugInspectionC10CodingKeys33_D5621E7B66D75FB4AC510C092336F0C7LLOs0F3KeyAAs06CustomD17StringConvertible
+- _associated conformance 9NewsToday21WidgetDebugInspectionC10CodingKeys33_D5621E7B66D75FB4AC510C092336F0C7LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 9NewsToday25WidgetDebugInspectionItem33_D5621E7B66D75FB4AC510C092336F0C7LLV10CodingKeysOSHAASQ
+- _associated conformance 9NewsToday25WidgetDebugInspectionItem33_D5621E7B66D75FB4AC510C092336F0C7LLV10CodingKeysOs0P3KeyAAs06CustomD17StringConvertible
+- _associated conformance 9NewsToday25WidgetDebugInspectionItem33_D5621E7B66D75FB4AC510C092336F0C7LLV10CodingKeysOs0P3KeyAAs23CustomStringConvertible
+- _associated conformance 9NewsToday28WidgetDebugInspectionSectionC10CodingKeys33_D5621E7B66D75FB4AC510C092336F0C7LLOSHAASQ
+- _associated conformance 9NewsToday28WidgetDebugInspectionSectionC10CodingKeys33_D5621E7B66D75FB4AC510C092336F0C7LLOs0G3KeyAAs06CustomD17StringConvertible
+- _associated conformance 9NewsToday28WidgetDebugInspectionSectionC10CodingKeys33_D5621E7B66D75FB4AC510C092336F0C7LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 9NewsToday33WidgetDebugInspectionScoreProfile33_D5621E7B66D75FB4AC510C092336F0C7LLV10CodingKeysOSHAASQ
+- _associated conformance 9NewsToday33WidgetDebugInspectionScoreProfile33_D5621E7B66D75FB4AC510C092336F0C7LLV10CodingKeysOs0Q3KeyAAs06CustomD17StringConvertible
+- _associated conformance 9NewsToday33WidgetDebugInspectionScoreProfile33_D5621E7B66D75FB4AC510C092336F0C7LLV10CodingKeysOs0Q3KeyAAs23CustomStringConvertible
+- _associated conformance 9NewsToday33WidgetDebugInspectionScoreProfile33_D5621E7B66D75FB4AC510C092336F0C7LLV12CoefficientsV10CodingKeysOSHAASQ
+- _associated conformance 9NewsToday33WidgetDebugInspectionScoreProfile33_D5621E7B66D75FB4AC510C092336F0C7LLV12CoefficientsV10CodingKeysOs0R3KeyAAs06CustomD17StringConvertible
+- _associated conformance 9NewsToday33WidgetDebugInspectionScoreProfile33_D5621E7B66D75FB4AC510C092336F0C7LLV12CoefficientsV10CodingKeysOs0R3KeyAAs23CustomStringConvertible
+- _associated conformance 9NewsToday33WidgetDebugInspectionScoreProfile33_D5621E7B66D75FB4AC510C092336F0C7LLV6CohortV10CodingKeysOSHAASQ
+- _associated conformance 9NewsToday33WidgetDebugInspectionScoreProfile33_D5621E7B66D75FB4AC510C092336F0C7LLV6CohortV10CodingKeysOs0R3KeyAAs06CustomD17StringConvertible
+- _associated conformance 9NewsToday33WidgetDebugInspectionScoreProfile33_D5621E7B66D75FB4AC510C092336F0C7LLV6CohortV10CodingKeysOs0R3KeyAAs23CustomStringConvertible
+- _block_copy_helper
+- _block_descriptor
+- _block_destroy_helper
+- _flat unique So19FCFeedPersonalizing_p
+- _flat unique So22FCNewsAppConfiguration_p
+- _flat unique So24FCFeedTransformationItem_p
+- _symbolic IeAgH_
+- _symbolic IeghH_
+- _symbolic SS
+- _symbolic SSSg
+- _symbolic SaySSG
+- _symbolic SaySo12NTPBFeedItemCG_SDySSSo13FCFeedContextCGSbt
+- _symbolic Say_____G 9NewsToday25WidgetDebugInspectionItem33_D5621E7B66D75FB4AC510C092336F0C7LLV
+- _symbolic Say_____G 9NewsToday28WidgetDebugInspectionSectionC
+- _symbolic SbSg
+- _symbolic ScA_pSg
+- _symbolic ScCy___________pG 10NewsDaemon14NDFeedItemPoolC s5ErrorP
+- _symbolic ScCyyt______pG s5ErrorP
+- _symbolic ScPSg
+- _symbolic Sd
+- _symbolic SdSg
+- _symbolic So15NTForYouRequestC
+- _symbolic So6NSDateC
+- _symbolic So7NSArrayCSgSo12NSDictionaryCSg_____So7NSErrorCSgIeyBhyyyy_ 10ObjectiveC8ObjCBoolV
+- _symbolic So8NSObjectC
+- _symbolic So8NSObjectCSg
+- _symbolic _____ 9NewsToday18ProxyForYouServiceC
+- _symbolic _____ 9NewsToday18ProxyForYouServiceC6Errors33_69C73D4EBE458EA8DF6E89158219C367LLO
+- _symbolic _____ 9NewsToday21WidgetDebugInspectionC
+- _symbolic _____ 9NewsToday21WidgetDebugInspectionC10CodingKeys33_D5621E7B66D75FB4AC510C092336F0C7LLO
+- _symbolic _____ 9NewsToday25WidgetDebugInspectionItem33_D5621E7B66D75FB4AC510C092336F0C7LLV
+- _symbolic _____ 9NewsToday25WidgetDebugInspectionItem33_D5621E7B66D75FB4AC510C092336F0C7LLV10CodingKeysO
+- _symbolic _____ 9NewsToday28WidgetDebugInspectionSectionC
+- _symbolic _____ 9NewsToday28WidgetDebugInspectionSectionC10CodingKeys33_D5621E7B66D75FB4AC510C092336F0C7LLO
+- _symbolic _____ 9NewsToday33WidgetDebugInspectionScoreProfile33_D5621E7B66D75FB4AC510C092336F0C7LLV
+- _symbolic _____ 9NewsToday33WidgetDebugInspectionScoreProfile33_D5621E7B66D75FB4AC510C092336F0C7LLV10CodingKeysO
+- _symbolic _____ 9NewsToday33WidgetDebugInspectionScoreProfile33_D5621E7B66D75FB4AC510C092336F0C7LLV12CoefficientsV
+- _symbolic _____ 9NewsToday33WidgetDebugInspectionScoreProfile33_D5621E7B66D75FB4AC510C092336F0C7LLV12CoefficientsV10CodingKeysO
+- _symbolic _____ 9NewsToday33WidgetDebugInspectionScoreProfile33_D5621E7B66D75FB4AC510C092336F0C7LLV6CohortV
+- _symbolic _____ 9NewsToday33WidgetDebugInspectionScoreProfile33_D5621E7B66D75FB4AC510C092336F0C7LLV6CohortV10CodingKeysO
+- _symbolic _____ s6UInt64V
+- _symbolic _____Sg 10Foundation4DateV
+- _symbolic _____Sg 9NewsToday33WidgetDebugInspectionScoreProfile33_D5621E7B66D75FB4AC510C092336F0C7LLV
+- _symbolic _____Sg 9NewsToday33WidgetDebugInspectionScoreProfile33_D5621E7B66D75FB4AC510C092336F0C7LLV12CoefficientsV
+- _symbolic _____Sg 9NewsToday33WidgetDebugInspectionScoreProfile33_D5621E7B66D75FB4AC510C092336F0C7LLV6CohortV
+- _symbolic _____Sg s5Int64V
+- _symbolic _____Sg s6UInt64V
+- _symbolic ______p So19FCFeedPersonalizingP
+- _symbolic ______p So22FCNewsAppConfigurationP
+- _symbolic ______p So24FCFeedTransformationItemP
+- _symbolic ______p s5ErrorP
+- _symbolic _____ySSSdG s18_DictionaryStorageC
+- _symbolic _____ySSSo8NSNumberCG s18_DictionaryStorageC
+- _symbolic _____y_____G s22KeyedDecodingContainerV 9NewsToday21WidgetDebugInspectionC10CodingKeys33_D5621E7B66D75FB4AC510C092336F0C7LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 9NewsToday25WidgetDebugInspectionItem33_D5621E7B66D75FB4AC510C092336F0C7LLV10CodingKeysO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 9NewsToday28WidgetDebugInspectionSectionC10CodingKeys33_D5621E7B66D75FB4AC510C092336F0C7LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 9NewsToday33WidgetDebugInspectionScoreProfile33_D5621E7B66D75FB4AC510C092336F0C7LLV10CodingKeysO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 9NewsToday33WidgetDebugInspectionScoreProfile33_D5621E7B66D75FB4AC510C092336F0C7LLV12CoefficientsV10CodingKeysO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 9NewsToday33WidgetDebugInspectionScoreProfile33_D5621E7B66D75FB4AC510C092336F0C7LLV6CohortV10CodingKeysO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 9NewsToday21WidgetDebugInspectionC10CodingKeys33_D5621E7B66D75FB4AC510C092336F0C7LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 9NewsToday25WidgetDebugInspectionItem33_D5621E7B66D75FB4AC510C092336F0C7LLV10CodingKeysO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 9NewsToday28WidgetDebugInspectionSectionC10CodingKeys33_D5621E7B66D75FB4AC510C092336F0C7LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 9NewsToday33WidgetDebugInspectionScoreProfile33_D5621E7B66D75FB4AC510C092336F0C7LLV10CodingKeysO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 9NewsToday33WidgetDebugInspectionScoreProfile33_D5621E7B66D75FB4AC510C092336F0C7LLV12CoefficientsV10CodingKeysO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 9NewsToday33WidgetDebugInspectionScoreProfile33_D5621E7B66D75FB4AC510C092336F0C7LLV6CohortV10CodingKeysO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 9NewsToday25WidgetDebugInspectionItem33_D5621E7B66D75FB4AC510C092336F0C7LLV
+- _symbolic ytIeAgHr_
+- _type_layout_string 9NewsToday33WidgetDebugInspectionScoreProfile33_D5621E7B66D75FB4AC510C092336F0C7LLV
+- _type_layout_string 9NewsToday33WidgetDebugInspectionScoreProfile33_D5621E7B66D75FB4AC510C092336F0C7LLV12CoefficientsV
+- _type_layout_string 9NewsToday33WidgetDebugInspectionScoreProfile33_D5621E7B66D75FB4AC510C092336F0C7LLV6CohortV
+CStrings:
++ "-[NTTagSectionFetchDescriptor initWithTagConfiguration:appConfiguration:purchasedTagIDs:paidAccessChecker:groupingService:]"
++ "@16@?0@\"NTPBArticleTopic\"8"
++ "Best Of group could not be formed, capping items to limit"
++ "ExperimentalPaywall: Bypassing global synthetic paywall - no matching experimental tags (configured: %@)"
++ "ExperimentalPaywall: Bypassing synthetic paywall imposition for notification-opened article: %@"
++ "ExperimentalPaywall: Global synthetic paywall with matching experimental tags: %@"
++ "ExperimentalPaywall: Imposing synthetic paywall - matching tags: %@"
++ "groupingService"
++ "hasAudio"
+- "-[NTFeedTransformationIncrementalPersonalizedDiversifiedLimit initWithFunctionProvider:limit:priorFeedItems:]"
+- "-[NTFeedTransformationIncrementalPersonalizedDiversifiedLimit init]"
+- "-[NTFeedTransformationIncrementalPersonalizedDiversifiedLimit transformFeedItems:]"
+- "-[NTTagSectionFetchDescriptor initWithTagConfiguration:appConfiguration:purchasedTagIDs:paidAccessChecker:]"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTFeedTransformationIncrementalPersonalizedDiversifiedLimit.m"
+- "@\"<FCFeedTransformationItem>\"16@?0@\"<NTFeedTransformationItem>\"8"
+- "Failed to produce Best Of group, falling back to default transformation"
+- "functionProvider"
+- "private transformation must return the prior items at the start of the array"
+```

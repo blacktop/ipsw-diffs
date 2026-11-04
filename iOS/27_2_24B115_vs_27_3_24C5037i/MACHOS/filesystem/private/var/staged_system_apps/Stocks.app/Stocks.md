@@ -1,0 +1,382 @@
+## Stocks
+
+> `/private/var/staged_system_apps/Stocks.app/Stocks`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_entry`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_mpenum`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__oslogstring`
+- `__TEXT.__swift_as_ret`
+- `__DATA_CONST.__objc_catlist2`
+- `__DATA.__objc_data`
+- `__DATA.__objc_stublist`
+
+```diff
+
+-2063.0.0.0.0
+-  __TEXT.__text: 0x32ee8
+-  __TEXT.__auth_stubs: 0x3230
+-  __TEXT.__objc_stubs: 0xaa0
+-  __TEXT.__objc_methlist: 0xd00
++2106.0.0.0.0
++  __TEXT.__text: 0x37ea4
++  __TEXT.__auth_stubs: 0x3620
++  __TEXT.__objc_stubs: 0xae0
++  __TEXT.__objc_methlist: 0xd30
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__const: 0x10c4
+-  __TEXT.__constg_swiftt: 0x7b8
+-  __TEXT.__swift5_typeref: 0x6da
++  __TEXT.__const: 0x1274
++  __TEXT.__constg_swiftt: 0x7bc
++  __TEXT.__swift5_typeref: 0x716
+   __TEXT.__swift5_builtin: 0x50
+-  __TEXT.__swift5_reflstr: 0x7f1
+-  __TEXT.__swift5_fieldmd: 0x618
++  __TEXT.__swift5_reflstr: 0x801
++  __TEXT.__swift5_fieldmd: 0x648
+   __TEXT.__swift5_assocty: 0x48
+-  __TEXT.__swift5_proto: 0xa0
+-  __TEXT.__swift5_types: 0x70
+-  __TEXT.__objc_classname: 0x648
+-  __TEXT.__objc_methname: 0x2bb5
+-  __TEXT.__objc_methtype: 0x1432
+-  __TEXT.__cstring: 0x1d8b
+-  __TEXT.__swift5_capture: 0x3e8
++  __TEXT.__swift5_proto: 0xac
++  __TEXT.__swift5_types: 0x78
++  __TEXT.__objc_classname: 0x608
++  __TEXT.__objc_methname: 0x2cd5
++  __TEXT.__objc_methtype: 0x1472
++  __TEXT.__cstring: 0x1dc3
++  __TEXT.__swift5_capture: 0x3c8
++  __TEXT.__swift5_protos: 0x18
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__swift5_protos: 0x14
+-  __TEXT.__swift_as_entry: 0x3c
++  __TEXT.__swift_as_entry: 0x50
+   __TEXT.__swift_as_cont: 0x98
+   __TEXT.__oslogstring: 0xb77
+   __TEXT.__swift_as_ret: 0xc
+-  __TEXT.__unwind_info: 0xd88
+-  __TEXT.__eh_frame: 0xc30
+-  __DATA_CONST.__const: 0xec0
+-  __DATA_CONST.__objc_classlist: 0x90
++  __TEXT.__unwind_info: 0xe80
++  __TEXT.__eh_frame: 0xfa8
++  __DATA_CONST.__const: 0xf20
++  __DATA_CONST.__objc_classlist: 0x78
+   __DATA_CONST.__objc_catlist2: 0x8
+-  __DATA_CONST.__objc_protolist: 0x168
++  __DATA_CONST.__objc_protolist: 0x178
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0xc0
+-  __DATA_CONST.__auth_got: 0x1920
+-  __DATA_CONST.__got: 0xaa0
+-  __DATA_CONST.__auth_ptr: 0x478
+-  __DATA.__objc_const: 0x1c08
+-  __DATA.__objc_selrefs: 0x850
++  __DATA_CONST.__objc_protorefs: 0xc8
++  __DATA_CONST.__auth_got: 0x1b18
++  __DATA_CONST.__got: 0xb58
++  __DATA_CONST.__auth_ptr: 0x4a8
++  __DATA.__objc_const: 0x1a68
++  __DATA.__objc_selrefs: 0x868
+   __DATA.__objc_data: 0x618
+-  __DATA.__data: 0x1e58
++  __DATA.__data: 0x1fb8
+   __DATA.__objc_stublist: 0x8
+   __DATA.__common: 0x58
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+
+   - /System/Library/PrivateFrameworks/NewsUI.framework/NewsUI
+   - /System/Library/PrivateFrameworks/ShareSheet.framework/ShareSheet
+   - /System/Library/PrivateFrameworks/Silex.framework/Silex
++  - /System/Library/PrivateFrameworks/SilexWeb.framework/SilexWeb
+   - /System/Library/PrivateFrameworks/StocksAnalytics.framework/StocksAnalytics
+   - /System/Library/PrivateFrameworks/StocksCore.framework/StocksCore
+   - /System/Library/PrivateFrameworks/StocksKit.framework/StocksKit
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 852
+-  Symbols:   1240
+-  CStrings:  748
++  Functions: 898
++  Symbols:   1323
++  CStrings:  751
+ 
+Symbols:
++ _$s10StocksCore0A17IntentHandlerTypeMp
++ _$s10StocksCore0aB14ModernAssemblyV13TeaFoundation0cD0AAMc
++ _$s10StocksCore0aB14ModernAssemblyVACycfC
++ _$s10StocksCore0aB14ModernAssemblyVMa
++ _$s10StocksCore16QuoteManagerTypeMp
++ _$s10StocksCore17SearchServiceTypeMp
++ _$s10StocksCore22QuoteDetailManagerTypeMp
++ _$s12NewsArticles0aB14ModernAssemblyV13TeaFoundation0cD0AAMc
++ _$s12NewsArticles0aB14ModernAssemblyVACycfC
++ _$s12NewsArticles0aB14ModernAssemblyVMa
++ _$s13TeaFoundation10definition5scope7factoryAA28ModernRegistrationDefinitionVyxGAA0F5ScopeOSg_xAA0F9ContainerCctlF
++ _$s13TeaFoundation12StateMachineC5statexvg
++ _$s13TeaFoundation13AssemblyGroupMp
++ _$s13TeaFoundation13AssemblyGroupP10assemblies8resolverSayAA06ModernC0_pGAA0G9ContainerC_tFTq
++ _$s13TeaFoundation13AssemblyGroupPAA06ModernC0Tb
++ _$s13TeaFoundation13AssemblyGroupPAAE5ready8resolveryAA15ModernContainerC_tF
++ _$s13TeaFoundation13AssemblyGroupPAAE9configure8resolveryAA15ModernContainerC_tF
++ _$s13TeaFoundation14ModernAssemblyMp
++ _$s13TeaFoundation14ModernAssemblyP5ready8resolveryAA0C9ContainerC_tFTq
++ _$s13TeaFoundation14ModernAssemblyP9configure8resolveryAA0C9ContainerC_tFTq
++ _$s13TeaFoundation14ModernAssemblyPAAE5ready8resolveryAA0C9ContainerC_tF
++ _$s13TeaFoundation15ModernContainerC0A2UIE10appMonitorAA0C10DefinitionVyAD03AppG4Type_pGvg
++ _$s13TeaFoundation15ModernContainerC0A2UIE11debugWindowAA0C10DefinitionVyAD05DebugG0CGvg
++ _$s13TeaFoundation15ModernContainerC0A2UIE11windowSceneAA17ContextDefinitionVySo08UIWindowG0CGvg
++ _$s13TeaFoundation15ModernContainerC0A2UIE11windowSceneAA17ContextDefinitionVySo08UIWindowG0CGvpMV
++ _$s13TeaFoundation15ModernContainerC0A2UIE13commandCenterAA0C10DefinitionVyAD07CommandG4Type_pGvg
++ _$s13TeaFoundation15ModernContainerC0A2UIE13sceneProviderAA0C10DefinitionVyAD05SceneG4Type_pGvg
++ _$s13TeaFoundation15ModernContainerC0A2UIE14settingsLayoutAA0C10DefinitionVySay0A8Settings5GroupVGGvg
++ _$s13TeaFoundation15ModernContainerC0A2UIE15debugDataSourceAA0C10DefinitionVyAD05DebuggH0CGvg
++ _$s13TeaFoundation15ModernContainerC0A2UIE18debugCacheRegistryAA0C10DefinitionVyAA05DebuggH0CGvg
++ _$s13TeaFoundation15ModernContainerC0A2UIE18startupTaskManagerAA0C10DefinitionVyAA07StartupgH0CGvg
++ _$s13TeaFoundation15ModernContainerC0A2UIE22uiAppURLHandlerManagerAA0C10DefinitionVyAA0hI0CyAD0G10URLContextVGGvg
++ _$s13TeaFoundation15ModernContainerC0A2UIE25debugNavigationControllerAA0C10DefinitionVyAD05DebuggH0CGvg
++ _$s13TeaFoundation15ModernContainerC0A2UIE26shortcutItemHandlerManagerAA0C10DefinitionVyAD08ShortcutghI0CGvg
++ _$s13TeaFoundation15ModernContainerC0A2UIE26userActivityHandlerManagerAA0C10DefinitionVyAD04UserghI0CGvg
++ _$s13TeaFoundation15ModernContainerC0A6SnappyE10testRunnerAA0C10DefinitionVySo06SNTestG0CGvg
++ _$s13TeaFoundation15ModernContainerC10StocksCoreE12quoteManagerAA0C10DefinitionVyAD05QuoteH4Type_pGvg
++ _$s13TeaFoundation15ModernContainerC10StocksCoreE13searchServiceAA0C10DefinitionVyAD06SearchH4Type_pGvg
++ _$s13TeaFoundation15ModernContainerC10StocksCoreE16watchlistManagerAA0C10DefinitionVyAD09WatchlistH4Type_pGvg
++ _$s13TeaFoundation15ModernContainerC10StocksCoreE17databaseCacheSizeAA0C10DefinitionVy0A2DB8DatabaseC0hI0OGvg
++ _$s13TeaFoundation15ModernContainerC10StocksCoreE18quoteDetailManagerAA0C10DefinitionVyAD05QuotehI4Type_pGvg
++ _$s13TeaFoundation15ModernContainerC10StocksCoreE20fcPurchaseControllerAA0C10DefinitionVySo010FCPurchaseI0CGvg
++ _$s13TeaFoundation15ModernContainerC10StocksCoreE20stockMetadataManagerAA0C10DefinitionVyAD05StockhI4Type_pGvg
++ _$s13TeaFoundation15ModernContainerC10StocksCoreE21stockPriceDataManagerAA0C10DefinitionVyAD05StockhiJ4Type_pGvg
++ _$s13TeaFoundation15ModernContainerC10StocksCoreE23appConfigurationManagerAA0C10DefinitionVyAD03ApphI4Type_pGvg
++ _$s13TeaFoundation15ModernContainerC10StocksCoreE24fcSubscriptionControllerAA0C10DefinitionVySo014FCSubscriptionI0CGvg
++ _$s13TeaFoundation15ModernContainerC10StocksCoreE25privateDataPollingServiceAA0C10DefinitionVyAD07PrivatehiJ4Type_pGvg
++ _$s13TeaFoundation15ModernContainerC10StocksCoreE25remoteNotificationManagerAA0C10DefinitionVyAA06RemotehI0CGvg
++ _$s13TeaFoundation15ModernContainerC10StocksCoreE27fcBundleSubscriptionManagerAA0C10DefinitionVySo08FCBundleiJ4Type_pGvg
++ _$s13TeaFoundation15ModernContainerC10StocksCoreE30fcEntitlementsOverrideProviderAA0C10DefinitionVySo014FCEntitlementsiJ4Type_pSgGvg
++ _$s13TeaFoundation15ModernContainerC10definition6fileID4line5scope7factoryAA0C10DefinitionVyxGSS_SiAA0C5ScopeOSgxACctlF
++ _$s13TeaFoundation15ModernContainerC12NewsArticlesE23headlineProviderFactoryAA0C10DefinitionVyAD08HeadlinehI4Type_pGvg
++ _$s13TeaFoundation15ModernContainerC12NewsArticlesE27savedArticleOptionsProviderAA0C10DefinitionVy0E4Feed05SavedhiJ0VGvg
++ _$s13TeaFoundation15ModernContainerC15StocksAnalyticsE14sessionManagerAA0C10DefinitionVy03AppF007SessionH0CGvg
++ _$s13TeaFoundation15ModernContainerC15StocksAnalyticsE15sessionObserverAA0C10DefinitionVyAD07SessionH0CGvg
++ _$s13TeaFoundation15ModernContainerC15StocksAnalyticsE17appSessionManagerAA0C10DefinitionVy03AppF00khI0CGvg
++ _$s13TeaFoundation15ModernContainerC15StocksAnalyticsE21heartbeatEventServiceAA0C10DefinitionVyAD09HeartbeathI4Type_pGvg
++ _$s13TeaFoundation15ModernContainerC15StocksAnalyticsE25privacyValidationProviderAA0C10DefinitionVy03AppF007PrivacyhI4Type_pGvg
++ _$s13TeaFoundation15ModernContainerC15StocksAnalyticsE30appIntentExecutionTypeProviderAA0C10DefinitionVyAD03ApphijkJ0_pGvg
++ _$s13TeaFoundation15ModernContainerC15StocksAnalyticsE34agreedToTermsAndConditionsProviderAA0C10DefinitionVyAD06AgreedhijkL0_pGvg
++ _$s13TeaFoundation15ModernContainerC17sceneStateManagerAA0C10DefinitionVyAA05ScenefG4Type_pGvg
++ _$s13TeaFoundation15ModernContainerC23applicationStateManagerAA0C10DefinitionVyAA011ApplicationfG4Type_pGvg
++ _$s13TeaFoundation15ModernContainerC6NewsUIE19appActivityReceiverAA0C10DefinitionVySo05FCApphI0_pGvg
++ _$s13TeaFoundation15ModernContainerC7optionsAA0D7OptionsVvg
++ _$s13TeaFoundation15ModernContainerC8NewsCoreE12cloudContextAA0C10DefinitionVySo07FCCloudH0CGvg
++ _$s13TeaFoundation15ModernContainerC8NewsCoreE12todayDropboxAA0C10DefinitionVySo022FCFileCoordinatedTodayH0CGvg
++ _$s13TeaFoundation15ModernContainerC8NewsFeedE15headlineServiceAA0C10DefinitionVyAD08HeadlineH4Type_pGvg
++ _$s13TeaFoundation15ModernContainerC8NewsFeedE17shareLinkProviderAA0C10DefinitionVyAD05SharehI4Type_pGvg
++ _$s13TeaFoundation15ModernContainerC8NewsFeedE24feedItemDismissalStorageAA0C10DefinitionVyAD0fhiJ4Type_pGvg
++ _$s13TeaFoundation15ModernContainerC8NewsFeedE7trackerAA0C10DefinitionVy12AppAnalytics7TrackerCGvg
++ _$s13TeaFoundation15ModernContainerC8StocksUIE15appEventManagerAA0C10DefinitionVyAA0hI0CyAD03AppH0OGGvg
++ _$s13TeaFoundation15ModernContainerC8StocksUIE16stocksBaseStylerAA0C10DefinitionVyAD0hI4Type_pGvg
++ _$s13TeaFoundation15ModernContainerC8StocksUIE18stocksBootstrapperAA19MainActorDefinitionVy0aF00H0CGvg
++ _$s13TeaFoundation15ModernContainerC8StocksUIE19stocksIntentHandlerAA0C10DefinitionVy0E4Core0ehI4Type_pGvg
++ _$s13TeaFoundation15ModernContainerC8StocksUIE20currentSceneResolverAA0C10DefinitionVyACGvg
++ _$s13TeaFoundation15ModernContainerC8StocksUIE20stocksStackNavigatorAA0C10DefinitionVy0aF00hI0CyAD0E8ActivityOGGvg
++ _$s13TeaFoundation15ModernContainerC8StocksUIE21stocksMainMenuManagerAA0C10DefinitionVy0aF00iJ4Type_pGvg
++ _$s13TeaFoundation15ModernContainerC8StocksUIE22backgroundFetchManagerAA0C10DefinitionVyAA010BackgroundhI0CGvg
++ _$s13TeaFoundation15ModernContainerC8StocksUIE23welcomeFlowProviderTypeAA0C10DefinitionVyAD07WelcomehiJ0_pGvg
++ _$s13TeaFoundation15ModernContainerC8StocksUIE24backgroundFetchSchedulerAA0C10DefinitionVy0aF0010BackgroundhI4Type_pGvg
++ _$s13TeaFoundation15ModernContainerC8StocksUIE25stocksNowPlayingPresenterAA19MainActorDefinitionVy12NewsArticles0hI10Presenting_pGvg
++ _$s13TeaFoundation15ModernContainerC8StocksUIE26identificationResetManagerAA0C10DefinitionVyAD014IdentificationhI0CGvg
++ _$s13TeaFoundation15ModernContainerC8StocksUIE26stocksKeyboardInputMonitorAA0C10DefinitionVy0aF00hiJ4Type_pGvg
++ _$s13TeaFoundation15ModernContainerC8StocksUIE29stocksSceneStateManagerBridgeAA0C10DefinitionVyAD0hijK0CGvg
++ _$s13TeaFoundation15ModernContainerC8StocksUIE30stocksScrollRestorationManagerAA0C10DefinitionVyAD0hiJ4Type_pGvg
++ _$s13TeaFoundation15ModernContainerC8StocksUIE32stocksOpenArticleIntentNavigatorAA0C10DefinitionVy8NewsFeed0hijK4Type_pGvg
++ _$s13TeaFoundation15ModernContainerC8StocksUIE32stocksV2UserActivityDeserializerAA0C10DefinitionVyAD0ehijK0CGvg
++ _$s13TeaFoundation15ModernContainerC8StocksUIE34stocksUserActivityIntentSerializerAA0C10DefinitionVyAD0ehijK4Type_pGvg
++ _$s13TeaFoundation15ModernContainerC8StocksUIE36stocksUserActivityIntentDeserializerAA0C10DefinitionVyAD0ehijK4Type_pGvg
++ _$s13TeaFoundation15ModernContainerC8StocksUIE38stocksArticleTopStoriesOptionsProviderAA0C10DefinitionVyAD0hijkL0VGvg
++ _$s13TeaFoundation15ModernContainerC8StocksUIE38stocksStateRestorationActivityProviderAA0C10DefinitionVy0aF00hijK0_pGvg
++ _$s13TeaFoundation15ModernContainerCMa
++ _$s13TeaFoundation15ModernContainerCMn
++ _$s13TeaFoundation16ContainerContextV13dynamicMemberxSgs7KeyPathCyAA06ModernC0CAA0D10DefinitionVyxGG_tcluis
++ _$s13TeaFoundation16ContainerFactoryC06createC7Manager5scopeAA06ModerncF0CAC5ScopeOSg_tF
++ _$s13TeaFoundation16ContainerFactoryC5ScopeO11applicationyA2EmFWC
++ _$s13TeaFoundation16ContainerFactoryC5ScopeO5sceneyA2EmFWC
++ _$s13TeaFoundation16ContainerFactoryC5ScopeOMa
++ _$s13TeaFoundation16ContainerFactoryC7options10assembliesAcA0C7OptionsV_SayAA14ModernAssembly_pGtcfc
++ _$s13TeaFoundation16ContainerFactoryCMa
++ _$s13TeaFoundation16ContainerFactoryCMn
++ _$s13TeaFoundation16ContainerOptionsV4typeAA0C4TypeOvg
++ _$s13TeaFoundation16ContainerOptionsV4typeAcA0C4TypeO_tcfC
++ _$s13TeaFoundation16ContainerOptionsVMa
++ _$s13TeaFoundation16ModernDefinitionV13whenResolving5blockyyAA0C9ContainerC_xtc_tF
++ _$s13TeaFoundation16ModernDefinitionV14callAsFunction14contextBuilderxyAA16ContainerContextVzXE_tF
++ _$s13TeaFoundation16ModernDefinitionV14callAsFunctionxyF
++ _$s13TeaFoundation16ModernDefinitionV8register5blockyAA0c12RegistrationD0VyxGyc_tF
++ _$s13TeaFoundation16ModernDefinitionVMa
++ _$s13TeaFoundation17ContextDefinitionVMn
++ _$s13TeaFoundation19MainActorDefinitionV14callAsFunctionxyF
++ _$s13TeaFoundation19MainActorDefinitionVMa
++ _$s13TeaFoundation22ModernContainerManagerC8resolverAA0cD0Cvg
++ _$s13TeaFoundation22ModernContainerManagerCMn
++ _$s14NewsEngagement0aB14ModernAssemblyV13TeaFoundation0cD0AAMc
++ _$s14NewsEngagement0aB14ModernAssemblyVACycfC
++ _$s14NewsEngagement0aB14ModernAssemblyVMa
++ _$s15StocksAnalytics0aB14ModernAssemblyV13TeaFoundation0cD0AAMc
++ _$s15StocksAnalytics0aB14ModernAssemblyVACycfC
++ _$s15StocksAnalytics0aB14ModernAssemblyVMa
++ _$s16NewsSubscription0aB14ModernAssemblyV13TeaFoundation0cD0AAMc
++ _$s16NewsSubscription0aB14ModernAssemblyVACycfC
++ _$s16NewsSubscription0aB14ModernAssemblyVMa
++ _$s19NewsPersonalization0aB14ModernAssemblyV13TeaFoundation0cD0AAMc
++ _$s19NewsPersonalization0aB14ModernAssemblyVACycfC
++ _$s19NewsPersonalization0aB14ModernAssemblyVMa
++ _$s21StocksPersonalization0aB14ModernAssemblyV13TeaFoundation0cD0AAMc
++ _$s21StocksPersonalization0aB14ModernAssemblyVACycfC
++ _$s21StocksPersonalization0aB14ModernAssemblyVMa
++ _$s5Silex0A14ModernAssemblyV13TeaFoundation0bC0AAMc
++ _$s5Silex0A14ModernAssemblyVACycfC
++ _$s5Silex0A14ModernAssemblyVMa
++ _$s5TeaUI16RestorationStateO2eeoiySbAC_ACtFZ
++ _$s5TeaUI27ContainerEnviromentProviderC13containerType3for11processInfo0A10Foundation0cG0OSo13UIApplicationC_So09NSProcessJ0CtF
++ _$s6NewsUI36NUApplicationFrameworkModernAssemblyV13TeaFoundation0eF0AAMc
++ _$s6NewsUI36NUApplicationFrameworkModernAssemblyVACycfC
++ _$s6NewsUI36NUApplicationFrameworkModernAssemblyVMa
++ _$s7NewsAds0aB14ModernAssemblyV13TeaFoundation0cD0AAMc
++ _$s7NewsAds0aB14ModernAssemblyVACycfC
++ _$s7NewsAds0aB14ModernAssemblyVMa
++ _$s8NewsCore0aB14ModernAssemblyV13TeaFoundation0cD0AAMc
++ _$s8NewsCore0aB14ModernAssemblyVACycfC
++ _$s8NewsCore0aB14ModernAssemblyVMa
++ _$s8NewsFeed0aB14ModernAssemblyV13TeaFoundation0cD0AAMc
++ _$s8NewsFeed0aB14ModernAssemblyVACycfC
++ _$s8NewsFeed0aB14ModernAssemblyVMa
++ _$s8SilexWeb0aB14ModernAssemblyV13TeaFoundation0cD0AAMc
++ _$s8SilexWeb0aB14ModernAssemblyVACycfC
++ _$s8SilexWeb0aB14ModernAssemblyVMa
++ _$s8StocksUI0A12ActivityTypeO17isStateRestorableSbvg
++ _$s8StocksUI0A12ActivityTypeO8rawValueACSgSS_tcfC
++ _$s8StocksUI0A12ActivityTypeOMa
++ _$s8StocksUI0A16UIModernAssemblyV13TeaFoundation06ModernD0AAMc
++ _$s8StocksUI0A16UIModernAssemblyVACycfC
++ _$s8StocksUI0A16UIModernAssemblyVMa
++ _$s9TeaSnappy20SNTestModernAssemblyV0A10Foundation0dE0AAMc
++ _$s9TeaSnappy20SNTestModernAssemblyVACycfC
++ _$s9TeaSnappy20SNTestModernAssemblyVMa
++ _OBJC_CLASS_$_FCCloudContext
++ _objc_retain_x28
++ _swift_conformsToProtocol2
++ _swift_initStaticObject
++ _swift_retain_x27
++ _swift_unknownObjectRelease_n
+- _$s10AppIntents0A17DependencyManagerC10StocksCoreE03addE12Dependencies5usingy13TeaFoundation12ResolverType_pyYac_tF
+- _$s10Foundation3URLV19_bridgeToObjectiveCSo5NSURLCyF
+- _$s10StocksCore8AssemblyC13TeaFoundation06BundleC4TypeAAMc
+- _$s10StocksCore8AssemblyCACycfc
+- _$s10StocksCore8AssemblyCMa
+- _$s12NewsArticles8AssemblyC13TeaFoundation06BundleC4TypeAAMc
+- _$s12NewsArticles8AssemblyCMa
+- _$s13TeaFoundation10DefinitionC11whenTestingyACyxGXDAA9ContainerC9TestSuiteO_xSgAA12ResolverType_pctF
+- _$s13TeaFoundation10DefinitionC7inScopeyACyxGXDAA0E0OF
+- _$s13TeaFoundation11ContextTypeP7useWeak_3foryqd___qd__mtRld__ClFTj
+- _$s13TeaFoundation12AssemblyTypeMp
+- _$s13TeaFoundation12AssemblyTypeP4load2inyAA14ProxyContainerC_tFTq
+- _$s13TeaFoundation12ResolverTypeMp
+- _$s13TeaFoundation12ResolverTypeP7resolve_4nameqd__Sgqd__m_SSSgtlFTj
+- _$s13TeaFoundation12ResolverTypeP7resolve_4withqd__Sgqd__m_yAA07ContextD0_pctRld__ClFTj
+- _$s13TeaFoundation12ResolverTypeP7resolveyqd__Sgqd__mRld__ClFTj
+- _$s13TeaFoundation12ResolverTypeP7resolveyqd__Sgqd__mlFTj
+- _$s13TeaFoundation13CallbackScopeO3anyyA2CmFWC
+- _$s13TeaFoundation13CallbackScopeOMa
+- _$s13TeaFoundation13SingletonPoolCACycfc
+- _$s13TeaFoundation13SingletonPoolCMa
+- _$s13TeaFoundation14ProxyContainerC6publicAA012RegistrationD0Cvg
+- _$s13TeaFoundation14ProxyContainerC7privateAA012RegistrationD0Cvg
+- _$s13TeaFoundation14ProxyContainerC8callbackAA24CallbackRegistrationType_pvg
+- _$s13TeaFoundation17FrameworkAssemblyCAA06BundleD4TypeAAWP
+- _$s13TeaFoundation17FrameworkAssemblyCMa
+- _$s13TeaFoundation18BundleAssemblyTypeMp
+- _$s13TeaFoundation21BridgedBundleAssemblyCAA0dE4TypeAAWP
+- _$s13TeaFoundation21BridgedBundleAssemblyCMa
+- _$s13TeaFoundation21BridgedBundleAssemblyCyACSo08TFBundleE0_pcfc
+- _$s13TeaFoundation21RegistrationContainerC8register_4name7factoryAA10DefinitionCyxGxm_SSSgxAA12ResolverType_pctRlzClF
+- _$s13TeaFoundation21RegistrationContainerC8register_4name7factoryAA10DefinitionCyxGxm_SSSgxAA12ResolverType_pctlF
+- _$s13TeaFoundation24CallbackRegistrationTypeP13whenResolving_5scope8callbackyqd__m_AA0C5ScopeOyqd___AA08ResolverE0_ptctRld__ClFTj
+- _$s13TeaFoundation24CallbackRegistrationTypeP13whenResolving_5scope8callbackyqd__m_AA0C5ScopeOyqd___AA08ResolverE0_ptctlFTj
+- _$s13TeaFoundation5ScopeO18containerSingletonyA2CmFWC
+- _$s13TeaFoundation5ScopeO9singletonyA2CmFWC
+- _$s13TeaFoundation5ScopeOMa
+- _$s13TeaFoundation9ContainerC8resolverAA12ResolverType_pvg
+- _$s13TeaFoundation9ContainerCMn
+- _$s14NewsEngagement8AssemblyC13TeaFoundation06BundleC4TypeAAMc
+- _$s14NewsEngagement8AssemblyCMa
+- _$s15StocksAnalytics8AssemblyC13TeaFoundation06BundleC4TypeAAMc
+- _$s15StocksAnalytics8AssemblyCACycfc
+- _$s15StocksAnalytics8AssemblyCMa
+- _$s16NewsSubscription8AssemblyC13TeaFoundation06BundleC4TypeAAMc
+- _$s16NewsSubscription8AssemblyCMa
+- _$s19NewsPersonalization8AssemblyC13TeaFoundation06BundleC4TypeAAMc
+- _$s19NewsPersonalization8AssemblyCMa
+- _$s21StocksPersonalization8AssemblyC13TeaFoundation06BundleC4TypeAAMc
+- _$s21StocksPersonalization8AssemblyCACycfc
+- _$s21StocksPersonalization8AssemblyCMa
+- _$s5TeaUI14ContainerScopeO11applicationyA2CmFWC
+- _$s5TeaUI14ContainerScopeO5sceneyA2CmFWC
+- _$s5TeaUI14ContainerScopeOMa
+- _$s5TeaUI16ContainerManagerC13singletonPool16bundleAssemblies10assembliesAC0A10Foundation09SingletonF0C_SayAG18BundleAssemblyType_pGSayAG0mN0_pGtcfc
+- _$s5TeaUI16ContainerManagerC20containerEnvironment0A10Foundation0C0C0F0Ovg
+- _$s5TeaUI16ContainerManagerC9container3for0A10Foundation0C0CAA0C5ScopeO_tF
+- _$s5TeaUI16ContainerManagerCMa
+- _$s5TeaUI16ContainerManagerCMn
+- _$s5TeaUI17FrameworkAssemblyC0A10Foundation06BundleD4TypeAAMc
+- _$s5TeaUI17FrameworkAssemblyCMa
+- _$s7NewsAds8AssemblyC13TeaFoundation06BundleC4TypeAAMc
+- _$s7NewsAds8AssemblyCMa
+- _$s8NewsCore8AssemblyC13TeaFoundation06BundleC4TypeAAMc
+- _$s8NewsCore8AssemblyCMa
+- _$s8NewsFeed23AppActivationURLHandlerCACycfc
+- _$s8NewsFeed23AppActivationURLHandlerCMa
+- _$s8NewsFeed8AssemblyC13TeaFoundation06BundleC4TypeAAMc
+- _$s8NewsFeed8AssemblyCMa
+- _$s8StocksUI8AssemblyC13TeaFoundation06BundleC4TypeAAMc
+- _$s8StocksUI8AssemblyCACycfc
+- _$s8StocksUI8AssemblyCMa
+- _$s9TeaCharts17FrameworkAssemblyC0A10Foundation06BundleD4TypeAAMc
+- _$s9TeaCharts17FrameworkAssemblyCACycfc
+- _$s9TeaCharts17FrameworkAssemblyCMa
+- _FCURLForTodayDropbox
+- _OBJC_CLASS_$_NUSwiftApplicationFrameworkAssembly
+- _OBJC_CLASS_$_SNAssembly
+- _OBJC_CLASS_$_SXSwiftFrameWorkAssembly
+- _swift_dynamicCastClassUnconditional
+- _swift_retain_x22
+CStrings:
++ "$__lazy_storage_$_modernContainerFactory"
++ "$__lazy_storage_$_modernContainerManager"
++ "$__lazy_storage_$_sceneContainerManager"
++ "@\"FCEntitlementsOverride\"24@0:8@\"NSArray\"16"
++ "@\"UIWindowScene\"24@0:8@\"UIApplication\"16"
++ "FCEntitlementsOverrideProviderType"
++ "StocksApp/ActivityModernAssembly.swift"
++ "StocksApp/ManagerModernAssembly.swift"
++ "_TtC9StocksAppP33_0B8EC299EF80E8129FDE82CFB6DE30B725StocksDebugSettingUpdater"
++ "entitlementsOverrideWithDefaultEntitlements:"
++ "resolver"
++ "windowSceneForTestingApplication:"
+- "$__lazy_storage_$_container"
+- "$__lazy_storage_$_containerManager"
+- "StocksApp/ManagerAssembly.swift"
+- "_TtC9StocksApp13DebugAssembly"
+- "_TtC9StocksApp15ManagerAssembly"
+- "_TtC9StocksApp16ActivityAssembly"
+- "_TtC9StocksApp16SettingsAssembly"
+- "initWithFileURL:"
+- "initialResolver"
+```

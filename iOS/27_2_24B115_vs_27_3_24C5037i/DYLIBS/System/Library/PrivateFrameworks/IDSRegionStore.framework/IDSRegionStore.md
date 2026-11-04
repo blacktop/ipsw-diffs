@@ -1,0 +1,291 @@
+## IDSRegionStore
+
+> `/System/Library/PrivateFrameworks/IDSRegionStore.framework/IDSRegionStore`
+
+```diff
+
+-2003.200.71.2.4
+-  __TEXT.__text: 0x14a14
+-  __TEXT.__const: 0x1b90
++2003.300.44.0.0
++  __TEXT.__text: 0x163c0
++  __TEXT.__objc_methlist: 0x44
++  __TEXT.__const: 0x1de8
+   __TEXT.__cstring: 0x2ab
+-  __TEXT.__swift5_typeref: 0x6f0
+-  __TEXT.__swift5_capture: 0xc0
++  __TEXT.__swift5_typeref: 0x7fd
++  __TEXT.__swift5_capture: 0x190
+   __TEXT.__oslogstring: 0x358
+-  __TEXT.__constg_swiftt: 0x740
+-  __TEXT.__swift5_reflstr: 0x1ce
+-  __TEXT.__swift5_fieldmd: 0x3d4
+-  __TEXT.__swift5_proto: 0x130
+-  __TEXT.__swift5_types: 0x5c
+-  __TEXT.__swift_as_entry: 0x88
+-  __TEXT.__swift_as_ret: 0x80
+-  __TEXT.__swift_as_cont: 0xe8
++  __TEXT.__constg_swiftt: 0x814
++  __TEXT.__swift5_reflstr: 0x227
++  __TEXT.__swift5_fieldmd: 0x484
++  __TEXT.__swift5_proto: 0x148
++  __TEXT.__swift5_types: 0x70
++  __TEXT.__swift_as_entry: 0x94
++  __TEXT.__swift_as_ret: 0x8c
++  __TEXT.__swift_as_cont: 0xf0
+   __TEXT.__swift5_assocty: 0xa8
+   __TEXT.__swift5_protos: 0x18
+   __TEXT.__swift5_acfuncs: 0x8c
+   __TEXT.__swift5_builtin: 0x14
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x978
+-  __TEXT.__eh_frame: 0x1408
++  __TEXT.__unwind_info: 0xa80
++  __TEXT.__eh_frame: 0x1580
++  __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x78
+-  __DATA_CONST.__objc_classlist: 0x38
++  __DATA_CONST.__objc_classlist: 0x48
+   __DATA_CONST.__objc_imageinfo: 0x8
++  __DATA_CONST.__objc_selrefs: 0x38
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x940
+-  __AUTH_CONST.__objc_const: 0x590
+-  __AUTH_CONST.__auth_got: 0x668
+-  __AUTH.__objc_data: 0xf0
+-  __AUTH.__data: 0x590
+-  __DATA.__data: 0x548
++  __AUTH_CONST.__const: 0xca8
++  __AUTH_CONST.__objc_const: 0x6d8
++  __AUTH_CONST.__auth_got: 0x6f0
++  __AUTH.__objc_data: 0x1b8
++  __AUTH.__data: 0x658
++  __DATA.__data: 0x578
+   __DATA.__common: 0x30
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/XPCDistributed.framework/XPCDistributed
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  Functions: 600
+-  Symbols:   1730
++  Functions: 683
++  Symbols:   1933
+   CStrings:  31
+ 
+Symbols:
++ _$s10Foundation22_convertErrorToNSErrorySo0E0Cs0C0_pF
++ _$s14IDSRegionStore0A11ApplicationO2eeoiySbAC_ACtFZ
++ _$s14IDSRegionStore0A11ApplicationO4apnsyA2CmFWC
++ _$s14IDSRegionStore0A11ApplicationO4hash4intoys6HasherVz_tF
++ _$s14IDSRegionStore0A11ApplicationO4mmcsyA2CmFWC
++ _$s14IDSRegionStore0A11ApplicationO9hashValueSivg
++ _$s14IDSRegionStore0A11ApplicationO9hashValueSivgTm
++ _$s14IDSRegionStore0A11ApplicationO9hashValueSivpMV
++ _$s14IDSRegionStore0A11ApplicationOACSQAAWL
++ _$s14IDSRegionStore0A11ApplicationOACSQAAWl
++ _$s14IDSRegionStore0A11ApplicationOMF
++ _$s14IDSRegionStore0A11ApplicationOMa
++ _$s14IDSRegionStore0A11ApplicationOMf
++ _$s14IDSRegionStore0A11ApplicationOMn
++ _$s14IDSRegionStore0A11ApplicationON
++ _$s14IDSRegionStore0A11ApplicationOSHAAMc
++ _$s14IDSRegionStore0A11ApplicationOSHAAMcMK
++ _$s14IDSRegionStore0A11ApplicationOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s14IDSRegionStore0A11ApplicationOSHAASH13_rawHashValue4seedS2i_tFTWTm
++ _$s14IDSRegionStore0A11ApplicationOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s14IDSRegionStore0A11ApplicationOSHAASH9hashValueSivgTW
++ _$s14IDSRegionStore0A11ApplicationOSHAASH9hashValueSivgTWTm
++ _$s14IDSRegionStore0A11ApplicationOSHAASQWb
++ _$s14IDSRegionStore0A11ApplicationOSQAAMc
++ _$s14IDSRegionStore0A11ApplicationOSQAAMcMK
++ _$s14IDSRegionStore0A11ApplicationOSQAASQ2eeoiySbx_xtFZTW
++ _$s14IDSRegionStore0A11ApplicationOWV
++ _$s14IDSRegionStore0A11ApplicationOwet
++ _$s14IDSRegionStore0A11ApplicationOwetTm
++ _$s14IDSRegionStore0A11ApplicationOwst
++ _$s14IDSRegionStore0A11ApplicationOwstTm
++ _$s14IDSRegionStore0A11ApplicationOwug
++ _$s14IDSRegionStore0A11ApplicationOwui
++ _$s14IDSRegionStore0A11ApplicationOwup
++ _$s14IDSRegionStore0A4InfoV22iMessageAccountRegions15deviceLocationsACSS_SaySSGtcfC
++ _$s14IDSRegionStore0A4InfoV22iMessageAccountRegionsSSvg
++ _$s14IDSRegionStore0A4InfoV22iMessageAccountRegionsSSvpMV
++ _$s14IDSRegionStore0A6PolicyV12cnRegionCode33_1904D1293795C2F6E2FC11607DB5BB68LLSSvpZ
++ _$s14IDSRegionStore0A6PolicyV16ConnectionRegionO2cnyA2EmFWC
++ _$s14IDSRegionStore0A6PolicyV16ConnectionRegionO2eeoiySbAE_AEtFZ
++ _$s14IDSRegionStore0A6PolicyV16ConnectionRegionO4hash4intoys6HasherVz_tF
++ _$s14IDSRegionStore0A6PolicyV16ConnectionRegionO5otheryA2EmFWC
++ _$s14IDSRegionStore0A6PolicyV16ConnectionRegionO9hashValueSivg
++ _$s14IDSRegionStore0A6PolicyV16ConnectionRegionO9hashValueSivpMV
++ _$s14IDSRegionStore0A6PolicyV16ConnectionRegionOAESQAAWL
++ _$s14IDSRegionStore0A6PolicyV16ConnectionRegionOAESQAAWl
++ _$s14IDSRegionStore0A6PolicyV16ConnectionRegionOMF
++ _$s14IDSRegionStore0A6PolicyV16ConnectionRegionOMa
++ _$s14IDSRegionStore0A6PolicyV16ConnectionRegionOMf
++ _$s14IDSRegionStore0A6PolicyV16ConnectionRegionOMn
++ _$s14IDSRegionStore0A6PolicyV16ConnectionRegionON
++ _$s14IDSRegionStore0A6PolicyV16ConnectionRegionOSHAAMc
++ _$s14IDSRegionStore0A6PolicyV16ConnectionRegionOSHAAMcMK
++ _$s14IDSRegionStore0A6PolicyV16ConnectionRegionOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s14IDSRegionStore0A6PolicyV16ConnectionRegionOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s14IDSRegionStore0A6PolicyV16ConnectionRegionOSHAASH9hashValueSivgTW
++ _$s14IDSRegionStore0A6PolicyV16ConnectionRegionOSHAASQWb
++ _$s14IDSRegionStore0A6PolicyV16ConnectionRegionOSQAAMc
++ _$s14IDSRegionStore0A6PolicyV16ConnectionRegionOSQAAMcMK
++ _$s14IDSRegionStore0A6PolicyV16ConnectionRegionOSQAASQ2eeoiySbx_xtFZTW
++ _$s14IDSRegionStore0A6PolicyV16ConnectionRegionOWV
++ _$s14IDSRegionStore0A6PolicyV16ConnectionRegionOwet
++ _$s14IDSRegionStore0A6PolicyV16ConnectionRegionOwst
++ _$s14IDSRegionStore0A6PolicyV16ConnectionRegionOwug
++ _$s14IDSRegionStore0A6PolicyV16ConnectionRegionOwui
++ _$s14IDSRegionStore0A6PolicyV16ConnectionRegionOwup
++ _$s14IDSRegionStore0A6PolicyV16connectionRegionA2C010ConnectionE0O_tcfC
++ _$s14IDSRegionStore0A6PolicyV16connectionRegionAC010ConnectionE0Ovg
++ _$s14IDSRegionStore0A6PolicyV16connectionRegionAC010ConnectionE0OvpMV
++ _$s14IDSRegionStore0A6PolicyV2eeoiySbAC_ACtFZ
++ _$s14IDSRegionStore0A6PolicyV8evaluate_3forAcA0A4InfoV_AA0A11ApplicationOtFZ
++ _$s14IDSRegionStore0A6PolicyVMF
++ _$s14IDSRegionStore0A6PolicyVMa
++ _$s14IDSRegionStore0A6PolicyVMf
++ _$s14IDSRegionStore0A6PolicyVMn
++ _$s14IDSRegionStore0A6PolicyVN
++ _$s14IDSRegionStore0A6PolicyVSQAAMc
++ _$s14IDSRegionStore0A6PolicyVSQAAMcMK
++ _$s14IDSRegionStore0A6PolicyVSQAASQ2eeoiySbx_xtFZTW
++ _$s14IDSRegionStore0A6PolicyVWV
++ _$s14IDSRegionStore0A6PolicyVwet
++ _$s14IDSRegionStore0A6PolicyVwst
++ _$s14IDSRegionStore0aB10ObjCBridgeC14currentRegions10completionyySSSg_SaySSGSgSo7NSErrorCSgtc_tF
++ _$s14IDSRegionStore0aB10ObjCBridgeC14currentRegions10completionyySSSg_SaySSGSgSo7NSErrorCSgtc_tFTm
++ _$s14IDSRegionStore0aB10ObjCBridgeC14currentRegions10completionyySSSg_SaySSGSgSo7NSErrorCSgtc_tFTo
++ _$s14IDSRegionStore0aB10ObjCBridgeC14currentRegions10completionyySSSg_SaySSGSgSo7NSErrorCSgtc_tFToTm
++ _$s14IDSRegionStore0aB10ObjCBridgeC14currentRegions10completionyySSSg_SaySSGSgSo7NSErrorCSgtc_tFyyYacfU_
++ _$s14IDSRegionStore0aB10ObjCBridgeC14currentRegions10completionyySSSg_SaySSGSgSo7NSErrorCSgtc_tFyyYacfU_TA
++ _$s14IDSRegionStore0aB10ObjCBridgeC14currentRegions10completionyySSSg_SaySSGSgSo7NSErrorCSgtc_tFyyYacfU_TA.36TQ0_
++ _$s14IDSRegionStore0aB10ObjCBridgeC14currentRegions10completionyySSSg_SaySSGSgSo7NSErrorCSgtc_tFyyYacfU_TA.36Tu
++ _$s14IDSRegionStore0aB10ObjCBridgeC14currentRegions10completionyySSSg_SaySSGSgSo7NSErrorCSgtc_tFyyYacfU_TATQ0_
++ _$s14IDSRegionStore0aB10ObjCBridgeC14currentRegions10completionyySSSg_SaySSGSgSo7NSErrorCSgtc_tFyyYacfU_TATu
++ _$s14IDSRegionStore0aB10ObjCBridgeC14currentRegions10completionyySSSg_SaySSGSgSo7NSErrorCSgtc_tFyyYacfU_TQ1_
++ _$s14IDSRegionStore0aB10ObjCBridgeC14currentRegions10completionyySSSg_SaySSGSgSo7NSErrorCSgtc_tFyyYacfU_TY0_
++ _$s14IDSRegionStore0aB10ObjCBridgeC14currentRegions10completionyySSSg_SaySSGSgSo7NSErrorCSgtc_tFyyYacfU_Tu
++ _$s14IDSRegionStore0aB10ObjCBridgeC14startObserving8onChangeyySS_SaySSGtYbc_tF
++ _$s14IDSRegionStore0aB10ObjCBridgeC14startObserving8onChangeyySS_SaySSGtYbc_tFTo
++ _$s14IDSRegionStore0aB10ObjCBridgeC18apnsConnectionIsCN10completionyySo8NSNumberCSg_So7NSErrorCSgtc_tF
++ _$s14IDSRegionStore0aB10ObjCBridgeC18apnsConnectionIsCN10completionyySo8NSNumberCSg_So7NSErrorCSgtc_tFTo
++ _$s14IDSRegionStore0aB10ObjCBridgeC18apnsConnectionIsCN10completionyySo8NSNumberCSg_So7NSErrorCSgtc_tFyyYacfU_
++ _$s14IDSRegionStore0aB10ObjCBridgeC18apnsConnectionIsCN10completionyySo8NSNumberCSg_So7NSErrorCSgtc_tFyyYacfU_TA
++ _$s14IDSRegionStore0aB10ObjCBridgeC18apnsConnectionIsCN10completionyySo8NSNumberCSg_So7NSErrorCSgtc_tFyyYacfU_TA.28TQ0_
++ _$s14IDSRegionStore0aB10ObjCBridgeC18apnsConnectionIsCN10completionyySo8NSNumberCSg_So7NSErrorCSgtc_tFyyYacfU_TA.28Tu
++ _$s14IDSRegionStore0aB10ObjCBridgeC18apnsConnectionIsCN10completionyySo8NSNumberCSg_So7NSErrorCSgtc_tFyyYacfU_TATQ0_
++ _$s14IDSRegionStore0aB10ObjCBridgeC18apnsConnectionIsCN10completionyySo8NSNumberCSg_So7NSErrorCSgtc_tFyyYacfU_TATu
++ _$s14IDSRegionStore0aB10ObjCBridgeC18apnsConnectionIsCN10completionyySo8NSNumberCSg_So7NSErrorCSgtc_tFyyYacfU_TQ1_
++ _$s14IDSRegionStore0aB10ObjCBridgeC18apnsConnectionIsCN10completionyySo8NSNumberCSg_So7NSErrorCSgtc_tFyyYacfU_TY0_
++ _$s14IDSRegionStore0aB10ObjCBridgeC18apnsConnectionIsCN10completionyySo8NSNumberCSg_So7NSErrorCSgtc_tFyyYacfU_Tu
++ _$s14IDSRegionStore0aB10ObjCBridgeC5store33_E658ABA7E5D11B94D42F2C76A9547641LLA2ACvpWvd
++ _$s14IDSRegionStore0aB10ObjCBridgeC5storeAc2AC_tcfC
++ _$s14IDSRegionStore0aB10ObjCBridgeC5storeAc2AC_tcfCTj
++ _$s14IDSRegionStore0aB10ObjCBridgeC5storeAc2AC_tcfCTq
++ _$s14IDSRegionStore0aB10ObjCBridgeC5storeAc2AC_tcfc
++ _$s14IDSRegionStore0aB10ObjCBridgeC9Forwarder33_E658ABA7E5D11B94D42F2C76A9547641LLC8onChangeyySS_SaySSGtYbcvpWvd
++ _$s14IDSRegionStore0aB10ObjCBridgeC9Forwarder33_E658ABA7E5D11B94D42F2C76A9547641LLCAA0aB8DelegateA2aGP06regionB0_11didUpdateToyA2AC_AA0A4InfoVtFTW
++ _$s14IDSRegionStore0aB10ObjCBridgeC9Forwarder33_E658ABA7E5D11B94D42F2C76A9547641LLCAA0aB8DelegateAAMc
++ _$s14IDSRegionStore0aB10ObjCBridgeC9Forwarder33_E658ABA7E5D11B94D42F2C76A9547641LLCAA0aB8DelegateAAWP
++ _$s14IDSRegionStore0aB10ObjCBridgeC9Forwarder33_E658ABA7E5D11B94D42F2C76A9547641LLCMF
++ _$s14IDSRegionStore0aB10ObjCBridgeC9Forwarder33_E658ABA7E5D11B94D42F2C76A9547641LLCMXX
++ _$s14IDSRegionStore0aB10ObjCBridgeC9Forwarder33_E658ABA7E5D11B94D42F2C76A9547641LLCMa
++ _$s14IDSRegionStore0aB10ObjCBridgeC9Forwarder33_E658ABA7E5D11B94D42F2C76A9547641LLCMf
++ _$s14IDSRegionStore0aB10ObjCBridgeC9Forwarder33_E658ABA7E5D11B94D42F2C76A9547641LLCMm
++ _$s14IDSRegionStore0aB10ObjCBridgeC9Forwarder33_E658ABA7E5D11B94D42F2C76A9547641LLCMn
++ _$s14IDSRegionStore0aB10ObjCBridgeC9Forwarder33_E658ABA7E5D11B94D42F2C76A9547641LLCN
++ _$s14IDSRegionStore0aB10ObjCBridgeC9Forwarder33_E658ABA7E5D11B94D42F2C76A9547641LLCfD
++ _$s14IDSRegionStore0aB10ObjCBridgeC9forwarder33_E658ABA7E5D11B94D42F2C76A9547641LLAC9ForwarderAELLCSgvpWvd
++ _$s14IDSRegionStore0aB10ObjCBridgeCACycfC
++ _$s14IDSRegionStore0aB10ObjCBridgeCACycfc
++ _$s14IDSRegionStore0aB10ObjCBridgeCACycfcTo
++ _$s14IDSRegionStore0aB10ObjCBridgeCMF
++ _$s14IDSRegionStore0aB10ObjCBridgeCMa
++ _$s14IDSRegionStore0aB10ObjCBridgeCMf
++ _$s14IDSRegionStore0aB10ObjCBridgeCMn
++ _$s14IDSRegionStore0aB10ObjCBridgeCMo
++ _$s14IDSRegionStore0aB10ObjCBridgeCMu
++ _$s14IDSRegionStore0aB10ObjCBridgeCN
++ _$s14IDSRegionStore0aB10ObjCBridgeCfD
++ _$s14IDSRegionStore0aB10ObjCBridgeCfETo
++ _$s14IDSRegionStoreAAC14regionalPolicy3forAA0aD0VAA0A11ApplicationO_tYaKF
++ _$s14IDSRegionStoreAAC14regionalPolicy3forAA0aD0VAA0A11ApplicationO_tYaKFTQ0_
++ _$s14IDSRegionStoreAAC14regionalPolicy3forAA0aD0VAA0A11ApplicationO_tYaKFTu
++ _$s14IDSRegionStoreAACABycfCTf4d_n
++ _$sBOWV
++ _$sS2SSysWL
++ _$sS2SSysWl
++ _$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF
++ _$sSS11utf8CStrings15ContiguousArrayVys4Int8VGvg
++ _$sSSSysMc
++ _$sSa10FoundationE19_bridgeToObjectiveCSo7NSArrayCyF
++ _$sScTss5NeverORs_rlE4name8priority9operationScTyxABGSSSg_ScPSgxyYaYAcntcfCyt_Tt2g5
++ _$sSo18NSComparisonResultVSQSCSQ2eeoiySbx_xtFZTW
++ _$sSo18NSComparisonResultVSYSCSY8rawValue03RawD0QzvgTW
++ _$sSo8NSNumberCSgSo7NSErrorCSgIeyByy_AcFIeggg_TRTA
++ _$sSo8NSStringCSgSo7NSArrayCSgSo7NSErrorCSgIeyByyy_SSSgSaySSGSgAIIegggg_TR
++ _$sSo8NSStringCSgSo7NSArrayCSgSo7NSErrorCSgIeyByyy_SSSgSaySSGSgAIIegggg_TRTA
++ _$sSo8NSStringCSo7NSArrayCIeyBhyy_SSSaySSGIeghgg_TR
++ _$sSo8NSStringCSo7NSArrayCIeyBhyy_SSSaySSGIeghgg_TRTA
++ _$sSy10FoundationE22caseInsensitiveCompareySo18NSComparisonResultVqd__SyRd__lF
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.13TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.13Tu
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.27TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.27Tu
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.32TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.32Tu
++ _OBJC_CLASS_$_IDSRegionStoreObjCBridge
++ _OBJC_CLASS_$_NSNumber
++ _OBJC_CLASS_$_NSObject
++ _OBJC_METACLASS_$_IDSRegionStoreObjCBridge
++ _OBJC_METACLASS_$_NSObject
++ __Block_copy
++ __Block_release
++ __DATA_IDSRegionStoreObjCBridge
++ __DATA__TtCC14IDSRegionStore24IDSRegionStoreObjCBridgeP33_E658ABA7E5D11B94D42F2C76A95476419Forwarder
++ __INSTANCE_METHODS_IDSRegionStoreObjCBridge
++ __IVARS_IDSRegionStoreObjCBridge
++ __IVARS__TtCC14IDSRegionStore24IDSRegionStoreObjCBridgeP33_E658ABA7E5D11B94D42F2C76A95476419Forwarder
++ __METACLASS_DATA_IDSRegionStoreObjCBridge
++ __METACLASS_DATA__TtCC14IDSRegionStore24IDSRegionStoreObjCBridgeP33_E658ABA7E5D11B94D42F2C76A95476419Forwarder
++ ___swift_closure_destructorTm
++ ___swift_memcpy24_8
++ _associated conformance 14IDSRegionStore0A11ApplicationOSHAASQ
++ _associated conformance 14IDSRegionStore0A6PolicyV16ConnectionRegionOSHAASQ
++ _objc_allocWithZone
++ _objc_msgSend
++ _objc_msgSendSuper2
++ _objc_release
++ _objc_release_x21
++ _objc_release_x28
++ _objc_retain_x19
++ _objc_retain_x20
++ _objc_retain_x21
++ _swift_deallocPartialClassInstance
++ _symbolic SSSgSaySSGSgSo7NSErrorCSgIegggg_
++ _symbolic So8NSNumberCSgSo7NSErrorCSgIeggg_
++ _symbolic So8NSNumberCSgSo7NSErrorCSgIeyByy_
++ _symbolic So8NSObjectC
++ _symbolic So8NSStringCSgSo7NSArrayCSgSo7NSErrorCSgIeyByyy_
++ _symbolic So8NSStringCSo7NSArrayCIeyBhyy_
++ _symbolic _____ 14IDSRegionStore0A11ApplicationO
++ _symbolic _____ 14IDSRegionStore0A6PolicyV
++ _symbolic _____ 14IDSRegionStore0A6PolicyV16ConnectionRegionO
++ _symbolic _____ 14IDSRegionStore0aB10ObjCBridgeC
++ _symbolic _____ 14IDSRegionStore0aB10ObjCBridgeC9Forwarder33_E658ABA7E5D11B94D42F2C76A9547641LLC
++ _symbolic _____Sg 14IDSRegionStore0aB10ObjCBridgeC9Forwarder33_E658ABA7E5D11B94D42F2C76A9547641LLC
++ _symbolic ySS_SaySSGtYbc
++ _type_layout_string 14IDSRegionStore0A6PolicyV
+- _$s14IDSRegionStore0A4InfoV22iMessageAccountRegions15deviceLocationsACSaySSG_AFtcfC
+- _$s14IDSRegionStore0A4InfoV22iMessageAccountRegionsSaySSGvg
+- _$s14IDSRegionStore0A4InfoV22iMessageAccountRegionsSaySSGvpMV
+```

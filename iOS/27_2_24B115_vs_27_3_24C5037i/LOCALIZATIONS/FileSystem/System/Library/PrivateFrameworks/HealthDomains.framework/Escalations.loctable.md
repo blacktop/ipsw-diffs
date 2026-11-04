@@ -1,0 +1,63 @@
+## HealthDomains
+
+> `FileSystem/System/Library/PrivateFrameworks/HealthDomains.framework/Escalations.loctable`
+
+```diff
+
+ en.Escalation.AdvancedHeartLabs.Name = "Cardiac Lab Results"
+ en.Escalation.AnxietyRiskModerate.Name = "Moderate Anxiety Risk"
+ en.Escalation.AnxietyRiskSevere.Name = "Severe Anxiety Risk"
+-en.Escalation.BlastsAbsoluteNumber.Name = "Blasts Result"
+ en.Escalation.BleedingAfterMenopause.Name = "Bleeding After Menopause"
+ en.Escalation.BleedingDuringPregnancy.Name = "Bleeding During Pregnancy"
+-en.Escalation.BloodAndImmuneLabsCritical.Name = "Blood Health Lab Results Critical"
+ en.Escalation.BloodAndImmuneLabsOutOfRange.Name = "Blood Health Lab Results"
+ en.Escalation.BloodGlucosePanel.Name = "Glucose Lab Results"
+ en.Escalation.BloodLipidsPanel.Name = "Cholesterol Lab Results"
+-en.Escalation.Calcium.Name = "Calcium Result"
+-en.Escalation.Creatinine.Name = "Creatinine Result"
++en.Escalation.DepressionRiskIndicatedSuicideRisk.Name = "Potential Harm Risk"
+ en.Escalation.DepressionRiskModerate.Name = "Moderate Depression Risk"
+ en.Escalation.DepressionRiskModeratelySevere.Name = "Moderately Severe Depression Risk"
+ en.Escalation.DepressionRiskSevere.Name = "Severe Depression Risk"
+
+ en.Escalation.ExcessAdiposity.Name = "Body Composition Needs Attention (High)"
+ en.Escalation.FallRisk.Description = "Your Fall Risk Factors are high and you may have an increased risk of falling in the next 12 months."
+ en.Escalation.FallRisk.Name = "High Fall Risk Factors"
+-en.Escalation.FastingGlucose.Name = "Glucose Lab Result"
+ en.Escalation.HearingLossProfound.Description = "Your hearing test indicates profound hearing loss."
+ en.Escalation.HearingLossProfound.Name = "Hearing Loss (Profound)"
+ en.Escalation.HearingLossSevere.Description = "Your hearing test indicates severe hearing loss."
+ en.Escalation.HearingLossSevere.Name = "Hearing Loss (Severe)"
+-en.Escalation.Hemoglobin.Name = "Hemoglobin Result"
+ en.Escalation.HighBloodPressureNotifications.Name = "High Blood Pressure"
+ en.Escalation.HighHeartRateNotifications.Description = "Your heart rate was elevated while you seemed to be inactive for 10 minutes."
+ en.Escalation.HighHeartRateNotifications.Name = "High Heart Rate"
+
+ en.Escalation.IrregularMenstrualCyclesDuringPerimenopause.Name = "Irregular Periods During Perimenopause"
+ en.Escalation.IrregularRhythmNotifications.Description = "Your heart has shown signs of an irregular rhythm suggestive of atrial fibrillation."
+ en.Escalation.IrregularRhythmNotifications.Name = "Irregular Rhythm Notifications"
+-en.Escalation.KidneyLabsCritical.Name = "Kidney Lab Results Critical"
+ en.Escalation.KidneyLabsOutOfRange.Name = "Kidney Lab Results"
+-en.Escalation.Leukocytes.Name = "White Blood Cell Count Result"
+ en.Escalation.LiverLabs.Name = "Liver Lab Results"
+ en.Escalation.LowHeartRateNotifications.Description = "Your heart rate was low for more than 10 minutes."
+ en.Escalation.LowHeartRateNotifications.Name = "Low Heart Rate"
+
+ en.Escalation.MedicationLactation.Name = "Medication and Lactation"
+ en.Escalation.MedicationPregnancy.Description = "Do not take this medication without first talking to your care team if you may be or could become pregnant. Serious fetal side effects may occur if this medication is taken during pregnancy. Your care team can help you find the best option for you."
+ en.Escalation.MedicationPregnancy.Name = "Medication and Pregnancy"
+-en.Escalation.Neutrophils.Name = "Neutrophils Result"
+ en.Escalation.PersistentIntermenstrualBleeding.Name = "Persistent Spotting"
+ en.Escalation.PersistentIntermenstrualBleedingDuringPerimenopause.Name = "Persistent Spotting During Perimenopause"
+-en.Escalation.Platelets.Name = "Platelets Result"
+-en.Escalation.Potassium.Name = "Potassium Result"
+ en.Escalation.ProlongedMenstrualPeriods.Name = "Prolonged Periods"
+ en.Escalation.ProlongedMenstrualPeriodsDuringPerimenopause.Name = "Prolonged Periods During Perimenopause"
+ en.Escalation.SleepApneaNotifications.Name = "Sleep Apnea Notifications"
+-en.Escalation.Sodium.Name = "Sodium Result"
+ en.Escalation.Underweight.Name = "Body Composition Needs Attention (Low)"
+ en.Escalation.WalkingSteadinessLow.Name = "Low Walking Steadiness"
+ en.Escalation.WalkingSteadinessVeryLow.Name = "Very Low Walking Steadiness"
+
+```

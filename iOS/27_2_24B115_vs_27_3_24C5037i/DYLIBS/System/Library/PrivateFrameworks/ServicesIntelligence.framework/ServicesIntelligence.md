@@ -1,0 +1,311 @@
+## ServicesIntelligence
+
+> `/System/Library/PrivateFrameworks/ServicesIntelligence.framework/ServicesIntelligence`
+
+```diff
+
+-1.81.0.0.0
+-  __TEXT.__text: 0x22ec28
++1.84.0.0.0
++  __TEXT.__text: 0x256864
+   __TEXT.__objc_methlist: 0x2ec
+-  __TEXT.__const: 0x23fe8
+-  __TEXT.__swift5_typeref: 0x6103
+-  __TEXT.__constg_swiftt: 0x521c
+-  __TEXT.__swift5_reflstr: 0x4103
+-  __TEXT.__swift5_fieldmd: 0x71a0
+-  __TEXT.__swift5_builtin: 0x1f4
+-  __TEXT.__swift5_assocty: 0x698
+-  __TEXT.__cstring: 0x5f23
+-  __TEXT.__swift5_proto: 0x1cd4
+-  __TEXT.__swift5_types: 0x85c
+-  __TEXT.__oslogstring: 0xadcf
+-  __TEXT.__swift_as_entry: 0x6e4
+-  __TEXT.__swift_as_ret: 0xd90
+-  __TEXT.__swift_as_cont: 0x1cb4
+-  __TEXT.__swift5_protos: 0x38
+-  __TEXT.__swift5_capture: 0x608
+-  __TEXT.__swift5_mpenum: 0x144
+-  __TEXT.__unwind_info: 0xc6d0
+-  __TEXT.__eh_frame: 0x1d708
++  __TEXT.__const: 0x25a68
++  __TEXT.__swift5_typeref: 0x67bf
++  __TEXT.__constg_swiftt: 0x5730
++  __TEXT.__swift5_reflstr: 0x42a3
++  __TEXT.__swift5_fieldmd: 0x76f0
++  __TEXT.__swift5_builtin: 0x208
++  __TEXT.__swift5_assocty: 0x6b8
++  __TEXT.__cstring: 0x6253
++  __TEXT.__swift5_proto: 0x1e14
++  __TEXT.__swift5_types: 0x8d4
++  __TEXT.__oslogstring: 0xb6bf
++  __TEXT.__swift_as_entry: 0x794
++  __TEXT.__swift_as_ret: 0xefc
++  __TEXT.__swift_as_cont: 0x1f20
++  __TEXT.__swift5_protos: 0x3c
++  __TEXT.__swift5_capture: 0x658
++  __TEXT.__swift5_mpenum: 0x14c
++  __TEXT.__unwind_info: 0xcfc0
++  __TEXT.__eh_frame: 0x1fac0
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1b8
+-  __DATA_CONST.__objc_classlist: 0xf0
++  __DATA_CONST.__const: 0x1c8
++  __DATA_CONST.__objc_classlist: 0x118
+   __DATA_CONST.__objc_protolist: 0x30
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x420
+   __DATA_CONST.__objc_protorefs: 0x18
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x13c00
+-  __AUTH_CONST.__objc_const: 0x1820
+-  __AUTH_CONST.__auth_got: 0x1448
++  __AUTH_CONST.__const: 0x14c10
++  __AUTH_CONST.__objc_const: 0x1b40
++  __AUTH_CONST.__auth_got: 0x15a0
+   __AUTH.__objc_data: 0x188
+-  __AUTH.__data: 0xb70
+-  __DATA.__data: 0x47d0
++  __AUTH.__data: 0xbf0
++  __DATA.__data: 0x4c10
+   __DATA.__common: 0x8
+   __DATA_DIRTY.__objc_data: 0x5e0
+-  __DATA_DIRTY.__data: 0x2f40
+-  __DATA_DIRTY.__bss: 0x8e80
++  __DATA_DIRTY.__data: 0x3360
++  __DATA_DIRTY.__bss: 0x9080
+   __DATA_DIRTY.__common: 0x130
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 11544
+-  Symbols:   2990
+-  CStrings:  1302
++  Functions: 12341
++  Symbols:   3158
++  CStrings:  1348
+ 
+Symbols:
++ __DATA__TtC20ServicesIntelligence10FitnessXPC
++ __DATA__TtC20ServicesIntelligence27FitnessTasteProfileProvider
++ __DATA__TtC20ServicesIntelligence30StrengthTasteProfileAggregator
++ __DATA__TtCC20ServicesIntelligence10FitnessXPC6Server
++ __DATA__TtCCC20ServicesIntelligence10FitnessXPC6Server14SessionHandler
++ __IVARS__TtCC20ServicesIntelligence10FitnessXPC6Server
++ __IVARS__TtCCC20ServicesIntelligence10FitnessXPC6Server14SessionHandler
++ __METACLASS_DATA__TtC20ServicesIntelligence10FitnessXPC
++ __METACLASS_DATA__TtC20ServicesIntelligence27FitnessTasteProfileProvider
++ __METACLASS_DATA__TtC20ServicesIntelligence30StrengthTasteProfileAggregator
++ __METACLASS_DATA__TtCC20ServicesIntelligence10FitnessXPC6Server
++ __METACLASS_DATA__TtCCC20ServicesIntelligence10FitnessXPC6Server14SessionHandler
++ _associated conformance 20ServicesIntelligence10FitnessXPCC6ServerC0E5ErrorOSHAASQ
++ _associated conformance 20ServicesIntelligence11AffinityKeyO10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLOSHAASQ
++ _associated conformance 20ServicesIntelligence11AffinityKeyO10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLOs0eD0AAs23CustomStringConvertible
++ _associated conformance 20ServicesIntelligence11AffinityKeyO10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLOs0eD0AAs28CustomDebugStringConvertible
++ _associated conformance 20ServicesIntelligence11AffinityKeyO17WeekdayCodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLOSHAASQ
++ _associated conformance 20ServicesIntelligence11AffinityKeyO17WeekdayCodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLOs0fD0AAs23CustomStringConvertible
++ _associated conformance 20ServicesIntelligence11AffinityKeyO17WeekdayCodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLOs0fD0AAs28CustomDebugStringConvertible
++ _associated conformance 20ServicesIntelligence11AffinityKeyO18MovementCodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLOSHAASQ
++ _associated conformance 20ServicesIntelligence11AffinityKeyO18MovementCodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLOs0fD0AAs23CustomStringConvertible
++ _associated conformance 20ServicesIntelligence11AffinityKeyO18MovementCodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLOs0fD0AAs28CustomDebugStringConvertible
++ _associated conformance 20ServicesIntelligence11AffinityKeyOSHAASQ
++ _associated conformance 20ServicesIntelligence11StrengthSetV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLOSHAASQ
++ _associated conformance 20ServicesIntelligence11StrengthSetV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 20ServicesIntelligence11StrengthSetV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ServicesIntelligence12AffinityDataV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLOSHAASQ
++ _associated conformance 20ServicesIntelligence12AffinityDataV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 20ServicesIntelligence12AffinityDataV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ServicesIntelligence14AffinityConfigV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLOSHAASQ
++ _associated conformance 20ServicesIntelligence14AffinityConfigV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 20ServicesIntelligence14AffinityConfigV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ServicesIntelligence15StrengthWorkoutV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLOSHAASQ
++ _associated conformance 20ServicesIntelligence15StrengthWorkoutV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 20ServicesIntelligence15StrengthWorkoutV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ServicesIntelligence16StrengthExerciseV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLOSHAASQ
++ _associated conformance 20ServicesIntelligence16StrengthExerciseV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 20ServicesIntelligence16StrengthExerciseV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ServicesIntelligence17AffinityDimensionV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLOSHAASQ
++ _associated conformance 20ServicesIntelligence17AffinityDimensionV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 20ServicesIntelligence17AffinityDimensionV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ServicesIntelligence17AggregationStatusV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLOSHAASQ
++ _associated conformance 20ServicesIntelligence17AggregationStatusV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 20ServicesIntelligence17AggregationStatusV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ServicesIntelligence20StrengthAffinityDataV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLOSHAASQ
++ _associated conformance 20ServicesIntelligence20StrengthAffinityDataV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 20ServicesIntelligence20StrengthAffinityDataV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _get_enum_tag_for_layout_string 20ServicesIntelligence11AffinityKeyO
++ _get_enum_tag_for_layout_string 20ServicesIntelligence20StrengthAffinityDataVSg
++ _swift_release_x12
++ _swift_retain_x1
++ _swift_retain_x27
++ _symbolic $s20ServicesIntelligence28FitnessTasteProfileProvidingP
++ _symbolic IeghH_
++ _symbolic SDySSSay_____GG 20ServicesIntelligence17AffinityDimensionV
++ _symbolic SDy__________G 20ServicesIntelligence11AffinityKeyO AA0C4DataV
++ _symbolic SS13correlationId______t 13SIDThinClient31SIDStrengthMovementsRankRequestV
++ _symbolic SS13correlationId______t 13SIDThinClient35SIDStrengthExerciseTypesRankRequestV
++ _symbolic SS3key______Sg5valuet 20ServicesIntelligence20StrengthAffinityDataV
++ _symbolic SS_Say_____Gt 20ServicesIntelligence17AffinityDimensionV
++ _symbolic SS______Sgt 20ServicesIntelligence17AggregationStatusV
++ _symbolic SS______Sgt 20ServicesIntelligence20StrengthAffinityDataV
++ _symbolic Say_____G 13SIDThinClient15SIDXPCTreatmentV
++ _symbolic Say_____G 20ServicesIntelligence11StrengthSetV
++ _symbolic Say_____G 20ServicesIntelligence16StrengthExerciseV
++ _symbolic Say_____G 20ServicesIntelligence17AffinityDimensionV
++ _symbolic Si12exerciseType_SaySiG10equipmentst
++ _symbolic Si6offset______7elementt 13SIDThinClient29SIDStrengthMovementPreferenceV
++ _symbolic Si6offset______7elementt 13SIDThinClient33SIDStrengthExerciseTypePreferenceV
++ _symbolic Si7weekday_Sd5scoret
++ _symbolic Su
++ _symbolic _____ 13SIDThinClient20SIDFitnessXPCRequestO
++ _symbolic _____ 20ServicesIntelligence10FitnessXPCC
++ _symbolic _____ 20ServicesIntelligence10FitnessXPCC6ServerC
++ _symbolic _____ 20ServicesIntelligence10FitnessXPCC6ServerC0E5ErrorO
++ _symbolic _____ 20ServicesIntelligence10FitnessXPCC6ServerC14SessionHandlerC
++ _symbolic _____ 20ServicesIntelligence10FitnessXPCC6ServerC14SessionHandlerC22StrengthScoringContext33_A238D2FAAA67DA4BC3369935A697675DLLV
++ _symbolic _____ 20ServicesIntelligence11AffinityKeyO
++ _symbolic _____ 20ServicesIntelligence11AffinityKeyO10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLO
++ _symbolic _____ 20ServicesIntelligence11AffinityKeyO17WeekdayCodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLO
++ _symbolic _____ 20ServicesIntelligence11AffinityKeyO18MovementCodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLO
++ _symbolic _____ 20ServicesIntelligence11StrengthSetV
++ _symbolic _____ 20ServicesIntelligence11StrengthSetV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLO
++ _symbolic _____ 20ServicesIntelligence12AffinityDataV
++ _symbolic _____ 20ServicesIntelligence12AffinityDataV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLO
++ _symbolic _____ 20ServicesIntelligence14AffinityConfigV
++ _symbolic _____ 20ServicesIntelligence14AffinityConfigV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLO
++ _symbolic _____ 20ServicesIntelligence14AffinityScorerO
++ _symbolic _____ 20ServicesIntelligence15StrengthWorkoutV
++ _symbolic _____ 20ServicesIntelligence15StrengthWorkoutV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLO
++ _symbolic _____ 20ServicesIntelligence16FitnessXPCLoggerV
++ _symbolic _____ 20ServicesIntelligence16StrengthExerciseV
++ _symbolic _____ 20ServicesIntelligence16StrengthExerciseV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLO
++ _symbolic _____ 20ServicesIntelligence17AffinityDimensionV
++ _symbolic _____ 20ServicesIntelligence17AffinityDimensionV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLO
++ _symbolic _____ 20ServicesIntelligence17AggregationStatusV
++ _symbolic _____ 20ServicesIntelligence17AggregationStatusV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLO
++ _symbolic _____ 20ServicesIntelligence20StrengthAffinityDataV
++ _symbolic _____ 20ServicesIntelligence20StrengthAffinityDataV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLO
++ _symbolic _____ 20ServicesIntelligence27FitnessTasteProfileProviderC
++ _symbolic _____ 20ServicesIntelligence29StrengthTasteProfileConstantsO
++ _symbolic _____ 20ServicesIntelligence30StrengthTasteProfileAggregatorC
++ _symbolic _____3key_Sd3rawt 20ServicesIntelligence11AffinityKeyO
++ _symbolic _____3key_Sd5scoret 20ServicesIntelligence11AffinityKeyO
++ _symbolic _____Sg 10Foundation8TimeZoneV
++ _symbolic _____Sg 20ServicesIntelligence17AggregationStatusV
++ _symbolic _____Sg 20ServicesIntelligence20StrengthAffinityDataV
++ _symbolic _____Sg s6UInt64V
++ _symbolic _____ySSSay_____GG s18_DictionaryStorageC 20ServicesIntelligence17AffinityDimensionV
++ _symbolic _____ySSSbG s18_DictionaryStorageC
++ _symbolic _____ySS_Say_____GtG s23_ContiguousArrayStorageC 20ServicesIntelligence17AffinityDimensionV
++ _symbolic _____ySS_____G s18_DictionaryStorageC 20ServicesIntelligence17AggregationStatusV
++ _symbolic _____ySS_____G s18_DictionaryStorageC 20ServicesIntelligence20StrengthAffinityDataV
++ _symbolic _____ySS_____SgG s18_DictionaryStorageC 20ServicesIntelligence17AggregationStatusV
++ _symbolic _____ySS_____SgG s18_DictionaryStorageC 20ServicesIntelligence20StrengthAffinityDataV
++ _symbolic _____ySS______SgtG s23_ContiguousArrayStorageC 20ServicesIntelligence17AggregationStatusV
++ _symbolic _____ySS______SgtG s23_ContiguousArrayStorageC 20ServicesIntelligence20StrengthAffinityDataV
++ _symbolic _____ySi12exerciseType_Sd5scoretG s23_ContiguousArrayStorageC
++ _symbolic _____ySi6offset______7elementtG s23_ContiguousArrayStorageC 13SIDThinClient29SIDStrengthMovementPreferenceV
++ _symbolic _____ySi6offset______7elementtG s23_ContiguousArrayStorageC 13SIDThinClient33SIDStrengthExerciseTypePreferenceV
++ _symbolic _____ySi7weekday_Sd5scoretG s23_ContiguousArrayStorageC
++ _symbolic _____ySiG s11_SetStorageC
++ _symbolic _____ySiSdG s18_DictionaryStorageC
++ _symbolic _____y_____3key_Sd3rawtG s23_ContiguousArrayStorageC 20ServicesIntelligence11AffinityKeyO
++ _symbolic _____y_____3key_Sd5scoretG s23_ContiguousArrayStorageC 20ServicesIntelligence11AffinityKeyO
++ _symbolic _____y_____G s14PrefixSequenceV 9CryptoKit12SHA256DigestV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ServicesIntelligence11AffinityKeyO10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ServicesIntelligence11AffinityKeyO17WeekdayCodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ServicesIntelligence11AffinityKeyO18MovementCodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ServicesIntelligence11StrengthSetV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ServicesIntelligence12AffinityDataV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ServicesIntelligence14AffinityConfigV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ServicesIntelligence15StrengthWorkoutV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ServicesIntelligence16StrengthExerciseV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ServicesIntelligence17AffinityDimensionV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ServicesIntelligence17AggregationStatusV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ServicesIntelligence20StrengthAffinityDataV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ServicesIntelligence11AffinityKeyO10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ServicesIntelligence11AffinityKeyO17WeekdayCodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ServicesIntelligence11AffinityKeyO18MovementCodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ServicesIntelligence11StrengthSetV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ServicesIntelligence12AffinityDataV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ServicesIntelligence14AffinityConfigV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ServicesIntelligence15StrengthWorkoutV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ServicesIntelligence16StrengthExerciseV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ServicesIntelligence17AffinityDimensionV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ServicesIntelligence17AggregationStatusV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ServicesIntelligence20StrengthAffinityDataV10CodingKeys33_2A36ACE240C593C7284AE28BA4AC33E0LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13SIDThinClient15SIDXPCTreatmentV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13SIDThinClient20SIDWeekdayPreferenceV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13SIDThinClient29SIDStrengthMovementPreferenceV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13SIDThinClient33SIDStrengthExerciseTypePreferenceV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 20ServicesIntelligence15StrengthWorkoutV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 20ServicesIntelligence17AffinityDimensionV
++ _symbolic _____y_____SdG s18_DictionaryStorageC 20ServicesIntelligence11AffinityKeyO
++ _symbolic _____y__________G s18_DictionaryStorageC 20ServicesIntelligence11AffinityKeyO AC0E4DataV
++ _symbolic ytIeghHr_
++ _symbolic yyYaYbcSg
++ _type_layout_string 20ServicesIntelligence10FitnessXPCC6ServerC14SessionHandlerC22StrengthScoringContext33_A238D2FAAA67DA4BC3369935A697675DLLV
++ _type_layout_string 20ServicesIntelligence11AffinityKeyO
++ _type_layout_string 20ServicesIntelligence11StrengthSetV
++ _type_layout_string 20ServicesIntelligence12AffinityDataV
++ _type_layout_string 20ServicesIntelligence14AffinityConfigV
++ _type_layout_string 20ServicesIntelligence15StrengthWorkoutV
++ _type_layout_string 20ServicesIntelligence16StrengthExerciseV
++ _type_layout_string 20ServicesIntelligence17AffinityDimensionV
++ _type_layout_string 20ServicesIntelligence17AggregationStatusV
++ _type_layout_string 20ServicesIntelligence20StrengthAffinityDataV
+CStrings:
++ "Aggregation_Status"
++ "Strength_Profile_Data"
++ "Strength_Workout_Events"
++ "Workouts_Deleted"
++ "[%{mask.hash}s] %s"
++ "[%{mask.hash}s] Processing request"
++ "[%{mask.hash}s] Sending failure response: %{public}s"
++ "[%{mask.hash}s] Sending success response"
++ "[%{mask.hash}s] [hello] Received"
++ "[AffinityScorer][computeWeightedSum] Unknown deltaUnit '%{public}s' — falling back to workouts count (no decay applied at read time)"
++ "[FitnessTasteProfileProvider][clearWorkoutsDeletedFlag] Clearing Workouts_Deleted flag"
++ "[FitnessTasteProfileProvider][fetchStrengthWorkouts] Fetched %ld rows"
++ "[FitnessTasteProfileProvider][fetchStrengthWorkouts] Fetching workouts since %llu"
++ "[FitnessTasteProfileProvider][readAggregationStatus] No aggregation status found"
++ "[FitnessTasteProfileProvider][readAggregationStatus] Reading from KV store"
++ "[FitnessTasteProfileProvider][readProfileData] No profile data found"
++ "[FitnessTasteProfileProvider][readProfileData] Reading from KV store"
++ "[FitnessTasteProfileProvider][resetProfileForFullRecompute] Clearing profile and aggregation status"
++ "[FitnessTasteProfileProvider][writeAggregationStatus] Writing to KV store"
++ "[FitnessTasteProfileProvider][writeProfileData] Writing to KV store, version: %lu"
++ "[FitnessXPC][fetchActiveTreatments] Failed: %s"
++ "[FitnessXPC][fetchActiveTreatments] Fetched %ld treatments"
++ "[StrengthTasteProfileAggregator][processWorkout] No dimensions configured for default treatment — affinity quantities will be empty, all scores will be 0"
++ "[StrengthTasteProfileAggregator][processWorkout] Skipping workout with future endTime=%llu (currentTime=%llu)"
++ "[StrengthTasteProfileAggregator][runAggregation] Full recompute triggered (workoutsDeleted=%{bool}d)"
++ "[StrengthTasteProfileAggregator][runAggregation] No workouts with start_time >= %llu; early exit. Backdated workouts (if any) will be processed on next full recompute."
++ "[StrengthTasteProfileAggregator][runAggregation] Profile missing despite valid status, full recompute"
++ "[StrengthTasteProfileAggregator][updateAffinity] NaN/Infinity in quantity for key=%s; replacing with 0"
++ "[StrengthTasteProfileAggregator][updateQuantity] Unknown deltaUnit '%{public}s' — falling back to count decay"
++ "[strengthGetWeekdayPreferences] Received"
++ "[strengthRankExerciseTypes] Received"
++ "[strengthRankMovements] Received"
++ "[syncHealthKitData] Received"
++ "] Hello from Apple SId Fitness version 14!"
++ "] Workouts deleted — resetting profile for full recompute"
++ "com.apple.fitcore"
++ "com.apple.servicesintelligence.fitness"
++ "com.apple.servicesintelligence.xpc.fitness"
++ "lastActivityProcessed"
++ "quantityTimestamp"
++ "strengthGetWeekdayPreferences"
++ "strengthPlan_getPreferredWeekdays"
++ "strengthPlan_rankExerciseTypes"
++ "strengthPlan_rankMovements"
++ "strengthRankExerciseTypes"
++ "strengthRankMovements"
+```

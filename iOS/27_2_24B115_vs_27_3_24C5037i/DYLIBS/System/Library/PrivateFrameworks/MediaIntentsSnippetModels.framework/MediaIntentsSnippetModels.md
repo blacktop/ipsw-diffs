@@ -1,0 +1,115 @@
+## MediaIntentsSnippetModels
+
+> `/System/Library/PrivateFrameworks/MediaIntentsSnippetModels.framework/MediaIntentsSnippetModels`
+
+```diff
+
+-3605.14.1.11.1
+-  __TEXT.__text: 0x2fefc
+-  __TEXT.__const: 0x327a
+-  __TEXT.__cstring: 0x141
+-  __TEXT.__swift5_typeref: 0xc25
+-  __TEXT.__swift5_reflstr: 0x562
++3610.4.1.0.0
++  __TEXT.__text: 0x3d358
++  __TEXT.__const: 0x3802
++  __TEXT.__cstring: 0x161
++  __TEXT.__swift5_typeref: 0xecd
++  __TEXT.__swift5_reflstr: 0x608
+   __TEXT.__swift5_assocty: 0x90
+-  __TEXT.__constg_swiftt: 0x714
+-  __TEXT.__swift5_fieldmd: 0xdc0
++  __TEXT.__constg_swiftt: 0x7d0
++  __TEXT.__swift5_fieldmd: 0xfcc
+   __TEXT.__swift5_builtin: 0x14
+   __TEXT.__swift5_mpenum: 0x10
+-  __TEXT.__swift5_proto: 0x358
+-  __TEXT.__swift5_types: 0xc4
+-  __TEXT.__unwind_info: 0x1358
+-  __TEXT.__eh_frame: 0x780
++  __TEXT.__swift5_proto: 0x3ac
++  __TEXT.__swift5_types: 0xd8
++  __TEXT.__unwind_info: 0x16d0
++  __TEXT.__eh_frame: 0xdd8
+   __TEXT.__auth_stubs: 0x0
+-  __DATA_CONST.__const: 0x5b8
++  __DATA_CONST.__const: 0x6c8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x1320
+-  __AUTH_CONST.__auth_got: 0x248
+-  __AUTH.__data: 0x548
+-  __DATA.__data: 0xd08
++  __AUTH_CONST.__const: 0x14d0
++  __AUTH_CONST.__auth_got: 0x250
++  __AUTH.__data: 0x680
++  __DATA.__data: 0xf10
+   __DATA_DIRTY.__data: 0x478
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/SiriUtilities.framework/SiriUtilities
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 1392
+-  Symbols:   388
+-  CStrings:  10
++  Functions: 1602
++  Symbols:   439
++  CStrings:  11
+ 
+Symbols:
++ _associated conformance 25MediaIntentsSnippetModels05VideocD0O08FreeformE8MetadataV0C3Kit0C5ModelAASE
++ _associated conformance 25MediaIntentsSnippetModels05VideocD0O08FreeformE8MetadataV0C3Kit0C5ModelAASe
++ _associated conformance 25MediaIntentsSnippetModels05VideocD0O08FreeformE8MetadataV10CodingKeys33_3F2DFD0582546019FD3CCE7933031191LLOSHAASQ
++ _associated conformance 25MediaIntentsSnippetModels05VideocD0O08FreeformE8MetadataV10CodingKeys33_3F2DFD0582546019FD3CCE7933031191LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 25MediaIntentsSnippetModels05VideocD0O08FreeformE8MetadataV10CodingKeys33_3F2DFD0582546019FD3CCE7933031191LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 25MediaIntentsSnippetModels05VideocD0O0E15ContentMetadataO08FreeformE10CodingKeys33_3F2DFD0582546019FD3CCE7933031191LLOSHAASQ
++ _associated conformance 25MediaIntentsSnippetModels05VideocD0O0E15ContentMetadataO08FreeformE10CodingKeys33_3F2DFD0582546019FD3CCE7933031191LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 25MediaIntentsSnippetModels05VideocD0O0E15ContentMetadataO08FreeformE10CodingKeys33_3F2DFD0582546019FD3CCE7933031191LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 25MediaIntentsSnippetModels05VideocD0O22ContentCreatorMetadataV0C3Kit0C5ModelAASE
++ _associated conformance 25MediaIntentsSnippetModels05VideocD0O22ContentCreatorMetadataV0C3Kit0C5ModelAASe
++ _associated conformance 25MediaIntentsSnippetModels05VideocD0O22ContentCreatorMetadataV10CodingKeys33_3F2DFD0582546019FD3CCE7933031191LLOSHAASQ
++ _associated conformance 25MediaIntentsSnippetModels05VideocD0O22ContentCreatorMetadataV10CodingKeys33_3F2DFD0582546019FD3CCE7933031191LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 25MediaIntentsSnippetModels05VideocD0O22ContentCreatorMetadataV10CodingKeys33_3F2DFD0582546019FD3CCE7933031191LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _symbolic Say_____G 25MediaIntentsSnippetModels05VideocD0O22ContentCreatorMetadataV
++ _symbolic Say_____GSg 25MediaIntentsSnippetModels05VideocD0O22ContentCreatorMetadataV
++ _symbolic _____ 25MediaIntentsSnippetModels05VideocD0O08FreeformE8MetadataV
++ _symbolic _____ 25MediaIntentsSnippetModels05VideocD0O08FreeformE8MetadataV10CodingKeys33_3F2DFD0582546019FD3CCE7933031191LLO
++ _symbolic _____ 25MediaIntentsSnippetModels05VideocD0O0E15ContentMetadataO08FreeformE10CodingKeys33_3F2DFD0582546019FD3CCE7933031191LLO
++ _symbolic _____ 25MediaIntentsSnippetModels05VideocD0O22ContentCreatorMetadataV
++ _symbolic _____ 25MediaIntentsSnippetModels05VideocD0O22ContentCreatorMetadataV10CodingKeys33_3F2DFD0582546019FD3CCE7933031191LLO
++ _symbolic _____Sg 25MediaIntentsSnippetModels05VideocD0O22ContentCreatorMetadataV
++ _symbolic _____ySSSgGSg 10SnippetKit8LoggableV
++ _symbolic _____ySaySSGSgGSg 10SnippetKit8LoggableV
++ _symbolic _____ySay_____GSgG 10SnippetKit8LoggableV 012MediaIntentsA6Models05VideoaF0O22ContentCreatorMetadataV
++ _symbolic _____ySay_____GSgGSg 10SnippetKit8LoggableV 012MediaIntentsA6Models05VideoaF0O0G10CastMemberV
++ _symbolic _____ySay_____GSgGSg 10SnippetKit8LoggableV 012MediaIntentsA6Models05VideoaF0O0G9ImageInfoV
++ _symbolic _____ySay_____GSgGSg 10SnippetKit8LoggableV 012MediaIntentsA6Models05VideoaF0O22ContentCreatorMetadataV
++ _symbolic _____ySay_____GSgGSg 10SnippetKit8LoggableV 10Foundation3URLV
++ _symbolic _____ySbSgGSg 10SnippetKit8LoggableV
++ _symbolic _____ySdSgGSg 10SnippetKit8LoggableV
++ _symbolic _____ySiSgGSg 10SnippetKit8LoggableV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 25MediaIntentsSnippetModels05VideofG0O08FreeformH8MetadataV10CodingKeys33_3F2DFD0582546019FD3CCE7933031191LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 25MediaIntentsSnippetModels05VideofG0O0H15ContentMetadataO08FreeformH10CodingKeys33_3F2DFD0582546019FD3CCE7933031191LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 25MediaIntentsSnippetModels05VideofG0O22ContentCreatorMetadataV10CodingKeys33_3F2DFD0582546019FD3CCE7933031191LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 25MediaIntentsSnippetModels05VideofG0O08FreeformH8MetadataV10CodingKeys33_3F2DFD0582546019FD3CCE7933031191LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 25MediaIntentsSnippetModels05VideofG0O0H15ContentMetadataO08FreeformH10CodingKeys33_3F2DFD0582546019FD3CCE7933031191LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 25MediaIntentsSnippetModels05VideofG0O22ContentCreatorMetadataV10CodingKeys33_3F2DFD0582546019FD3CCE7933031191LLO
++ _symbolic _____y_____SgG 10SnippetKit8LoggableV 012MediaIntentsA6Models05VideoaF0O22ContentCreatorMetadataV
++ _symbolic _____y_____SgGSg 10SnippetKit8LoggableV 012MediaIntentsA6Models05VideoaF0O0G10UIMetadataO
++ _symbolic _____y_____SgGSg 10SnippetKit8LoggableV 012MediaIntentsA6Models05VideoaF0O0G15ContentMetadataO
++ _symbolic _____y_____SgGSg 10SnippetKit8LoggableV 012MediaIntentsA6Models05VideoaF0O0G9ImageInfoV
++ _symbolic _____y_____SgGSg 10SnippetKit8LoggableV 012MediaIntentsA6Models05VideoaF0O11PersonModelV
++ _symbolic _____y_____SgGSg 10SnippetKit8LoggableV 012MediaIntentsA6Models05VideoaF0O13ContentRatingV
++ _symbolic _____y_____SgGSg 10SnippetKit8LoggableV 012MediaIntentsA6Models05VideoaF0O14TVShowMetadataV
++ _symbolic _____y_____SgGSg 10SnippetKit8LoggableV 012MediaIntentsA6Models05VideoaF0O16TVSeasonMetadataV
++ _symbolic _____y_____SgGSg 10SnippetKit8LoggableV 012MediaIntentsA6Models05VideoaF0O20RottenTomatoesRatingV
++ _symbolic _____y_____SgGSg 10SnippetKit8LoggableV 012MediaIntentsA6Models05VideoaF0O22ContentCreatorMetadataV
++ _symbolic _____y_____SgGSg 10SnippetKit8LoggableV 04ToolB010TypedValueO
++ _symbolic _____y_____SgGSg 10SnippetKit8LoggableV 10Foundation3URLV
++ _symbolic _____y_____SgGSg 10SnippetKit8LoggableV 10Foundation4DateV
++ _symbolic _____y_____SgGSg 10SnippetKit8LoggableV AA14ActionPropertyV
+CStrings:
++ "isExplicitContent"
+```

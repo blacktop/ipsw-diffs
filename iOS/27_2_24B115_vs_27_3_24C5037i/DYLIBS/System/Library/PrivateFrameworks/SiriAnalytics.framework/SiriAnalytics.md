@@ -1,0 +1,813 @@
+## SiriAnalytics
+
+> `/System/Library/PrivateFrameworks/SiriAnalytics.framework/SiriAnalytics`
+
+```diff
+
+-3605.33.1.0.0
+-  __TEXT.__text: 0x106a18
+-  __TEXT.__objc_methlist: 0x2228
+-  __TEXT.__const: 0xb760
+-  __TEXT.__constg_swiftt: 0x39d0
+-  __TEXT.__swift5_typeref: 0x38fa
+-  __TEXT.__swift5_reflstr: 0x220d
+-  __TEXT.__swift5_fieldmd: 0x2c54
+-  __TEXT.__swift5_builtin: 0x190
+-  __TEXT.__swift5_assocty: 0x630
+-  __TEXT.__cstring: 0x3f85
+-  __TEXT.__swift5_proto: 0x7b4
+-  __TEXT.__swift5_types: 0x420
+-  __TEXT.__swift_as_entry: 0x3d4
+-  __TEXT.__swift_as_ret: 0x458
+-  __TEXT.__swift_as_cont: 0x848
++3610.11.2.0.0
++  __TEXT.__text: 0xb52c4
++  __TEXT.__objc_methlist: 0x2164
++  __TEXT.__const: 0x9cd0
++  __TEXT.__constg_swiftt: 0x30b4
++  __TEXT.__swift5_typeref: 0x29e0
++  __TEXT.__swift5_reflstr: 0x1a6d
++  __TEXT.__swift5_fieldmd: 0x2328
++  __TEXT.__swift5_builtin: 0x140
++  __TEXT.__swift5_assocty: 0x600
++  __TEXT.__cstring: 0x3d59
++  __TEXT.__swift5_proto: 0x700
++  __TEXT.__swift5_types: 0x354
++  __TEXT.__swift_as_entry: 0x2ec
++  __TEXT.__swift_as_ret: 0x2e8
++  __TEXT.__swift_as_cont: 0x590
+   __TEXT.__swift5_protos: 0x3c
+-  __TEXT.__swift5_capture: 0x1bb0
+-  __TEXT.__oslogstring: 0x3c75
+-  __TEXT.__swift5_mpenum: 0x5c
+-  __TEXT.__gcc_except_tab: 0x304
+-  __TEXT.__unwind_info: 0x6c50
+-  __TEXT.__eh_frame: 0xba34
++  __TEXT.__swift5_capture: 0xea0
++  __TEXT.__oslogstring: 0x27f5
++  __TEXT.__swift5_mpenum: 0x54
++  __TEXT.__gcc_except_tab: 0x2dc
++  __TEXT.__unwind_info: 0x5588
++  __TEXT.__eh_frame: 0x88f4
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x1068
+-  __DATA_CONST.__objc_classlist: 0x370
++  __DATA_CONST.__objc_classlist: 0x320
+   __DATA_CONST.__objc_catlist: 0x20
+-  __DATA_CONST.__objc_protolist: 0xe8
++  __DATA_CONST.__objc_protolist: 0xd8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x14b8
+-  __DATA_CONST.__objc_protorefs: 0x70
++  __DATA_CONST.__objc_selrefs: 0x1200
++  __DATA_CONST.__objc_protorefs: 0x60
+   __DATA_CONST.__objc_superrefs: 0xd0
+-  __DATA_CONST.__got: 0x878
+-  __AUTH_CONST.__const: 0x8c20
++  __DATA_CONST.__got: 0x6c8
++  __AUTH_CONST.__const: 0x5b18
+   __AUTH_CONST.__cfstring: 0xf20
+-  __AUTH_CONST.__objc_const: 0x6aa0
+-  __AUTH_CONST.__auth_got: 0x1768
+-  __DATA.__objc_ivar: 0x200
+-  __DATA.__data: 0x2638
+-  __DATA.__common: 0x2e0
+-  __DATA_DIRTY.__objc_data: 0x2c08
+-  __DATA_DIRTY.__data: 0x4460
++  __AUTH_CONST.__objc_const: 0x60f0
++  __AUTH_CONST.__auth_got: 0x1478
++  __DATA.__objc_ivar: 0x1f8
++  __DATA.__data: 0x1f78
++  __DATA.__common: 0x270
++  __DATA_DIRTY.__objc_data: 0x29c8
++  __DATA_DIRTY.__data: 0x3a80
+   __DATA_DIRTY.__bss: 0x428
+-  __DATA_DIRTY.__common: 0x158
++  __DATA_DIRTY.__common: 0x148
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/ExtensionFoundation.framework/ExtensionFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /System/Library/PrivateFrameworks/FeedbackLogger.framework/FeedbackLogger
+   - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
+   - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
+-  - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
+   - /System/Library/PrivateFrameworks/SchemaTypesCore.framework/SchemaTypesCore
+   - /System/Library/PrivateFrameworks/SiriInstrumentation.framework/SiriInstrumentation
+   - /usr/lib/libMobileGestalt.dylib
+
+   - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 8018
+-  Symbols:   3481
+-  CStrings:  707
++  Functions: 6024
++  Symbols:   2930
++  CStrings:  596
+ 
+Symbols:
++ -[AssistantSiriAnalyticsClockWatcher initWithInternalTelemetry:sensitiveConditionsObservers:messageResolution:metastore:scheduler:dataPolicyObserver:]
++ GCC_except_table166
++ GCC_except_table170
++ GCC_except_table178
++ GCC_except_table326
++ GCC_except_table336
++ GCC_except_table343
++ GCC_except_table350
++ GCC_except_table375
++ GCC_except_table382
++ GCC_except_table389
++ GCC_except_table395
++ GCC_except_table401
++ GCC_except_table408
++ GCC_except_table415
++ GCC_except_table81
++ GCC_except_table97
+- -[AssistantSiriAnalyticsClockWatcher initWithInternalTelemetry:sensitiveConditionsObservers:messageResolution:preprocessor:metastore:scheduler:dataPolicyObserver:]
+- -[AssistantSiriAnalyticsService _getPreprocessor]
+- GCC_except_table100
+- GCC_except_table169
+- GCC_except_table173
+- GCC_except_table181
+- GCC_except_table332
+- GCC_except_table339
+- GCC_except_table346
+- GCC_except_table353
+- GCC_except_table378
+- GCC_except_table385
+- GCC_except_table392
+- GCC_except_table398
+- GCC_except_table404
+- GCC_except_table411
+- GCC_except_table418
+- GCC_except_table82
+- GCC_except_table83
+- GCC_except_table84
+- _MobileGestalt_get_deviceSupportsGenerativeModelSystems
+- _OBJC_CLASS_$_BMLighthouseTaskStatus
+- _OBJC_CLASS_$_LRSchemaLRClientEvent
+- _OBJC_CLASS_$_LRSchemaLRComponentIdentifierRedactionSignal
+- _OBJC_CLASS_$_LRSchemaLRPreprocessorInfo
+- _OBJC_CLASS_$_LRSchemaLRRedactionSignal
+- _OBJC_CLASS_$_LRSchemaLRRedactionSummaryReported
+- _OBJC_CLASS_$_LRSchemaLRTimespanRedactionSignal
+- _OBJC_CLASS_$_PFAAnyEventTypeStatistics
+- _OBJC_CLASS_$_PFAEventStatistics
+- _OBJC_CLASS_$_PFAIngestExtensionStatistics
+- _OBJC_CLASS_$_PFAPFAEventMetadata
+- _OBJC_CLASS_$_PFAPreprocessorExecutionContext
+- _OBJC_CLASS_$_PFAPreprocessorExecutionEnded
+- _OBJC_CLASS_$_PFAPreprocessorExecutionFailed
+- _OBJC_CLASS_$_PFAPreprocessorExecutionMetrics
+- _OBJC_CLASS_$_PFAPreprocessorExecutionStarted
+- _OBJC_CLASS_$_PFAPreprocessorOrchestratorResultsStatsReported
+- _OBJC_CLASS_$_PFAPreprocessorSessionEndStatsReported
+- _OBJC_CLASS_$_PFAPreprocessorSessionStartStatsReported
+- _OBJC_CLASS_$_PFAProcessedClockStatistics
+- _OBJC_CLASS_$_PLATFORMProvisionalConnectecedComponentIdentifier
+- _OBJC_CLASS_$_PLATFORMProvisionalConnectedComponents
+- _OBJC_CLASS_$_PLATFORMProvisionalConnectedComponentsByClock
+- _OBJC_CLASS_$_PLATFORMProvisionalConnectedComponentsWrapper
+- _OBJC_CLASS_$_RBSProcessIdentifier
+- _OBJC_CLASS_$_RBSProcessPredicate
+- _OBJC_CLASS_$_RBSTerminateContext
+- _OBJC_CLASS_$_RBSTerminateRequest
+- _OBJC_CLASS_$_SISchemaClientEvent
+- _OBJC_CLASS_$_SUTSchemaTestExecutionEvent
+- _OBJC_CLASS_$_SiriAnalyticsPreprocessor
+- _OBJC_CLASS_$__TtC13SiriAnalytics15StagingPoolHost
+- _OBJC_IVAR_$_AssistantSiriAnalyticsClockWatcher._preprocessor
+- _OBJC_IVAR_$_AssistantSiriAnalyticsService._preprocessor
+- _OBJC_METACLASS_$_SiriAnalyticsPreprocessor
+- _OBJC_METACLASS_$__TtC13SiriAnalytics15StagingPoolHost
+- _OUTLINED_FUNCTION_100
+- _OUTLINED_FUNCTION_101
+- _OUTLINED_FUNCTION_102
+- _OUTLINED_FUNCTION_103
+- _OUTLINED_FUNCTION_104
+- _OUTLINED_FUNCTION_105
+- _OUTLINED_FUNCTION_106
+- _OUTLINED_FUNCTION_107
+- _OUTLINED_FUNCTION_108
+- _OUTLINED_FUNCTION_109
+- _OUTLINED_FUNCTION_110
+- _OUTLINED_FUNCTION_111
+- _OUTLINED_FUNCTION_112
+- _OUTLINED_FUNCTION_113
+- _OUTLINED_FUNCTION_114
+- _OUTLINED_FUNCTION_115
+- _OUTLINED_FUNCTION_116
+- _OUTLINED_FUNCTION_117
+- _OUTLINED_FUNCTION_118
+- _OUTLINED_FUNCTION_119
+- _OUTLINED_FUNCTION_120
+- _OUTLINED_FUNCTION_121
+- _OUTLINED_FUNCTION_122
+- _OUTLINED_FUNCTION_123
+- _OUTLINED_FUNCTION_124
+- _OUTLINED_FUNCTION_125
+- _OUTLINED_FUNCTION_126
+- _OUTLINED_FUNCTION_127
+- _OUTLINED_FUNCTION_128
+- _OUTLINED_FUNCTION_129
+- _OUTLINED_FUNCTION_130
+- _OUTLINED_FUNCTION_131
+- _OUTLINED_FUNCTION_132
+- _OUTLINED_FUNCTION_133
+- _OUTLINED_FUNCTION_134
+- _OUTLINED_FUNCTION_135
+- _OUTLINED_FUNCTION_136
+- _OUTLINED_FUNCTION_137
+- _OUTLINED_FUNCTION_138
+- _OUTLINED_FUNCTION_139
+- _OUTLINED_FUNCTION_140
+- _OUTLINED_FUNCTION_141
+- _OUTLINED_FUNCTION_142
+- _OUTLINED_FUNCTION_143
+- _OUTLINED_FUNCTION_144
+- _OUTLINED_FUNCTION_145
+- _OUTLINED_FUNCTION_146
+- _OUTLINED_FUNCTION_147
+- _OUTLINED_FUNCTION_148
+- _OUTLINED_FUNCTION_149
+- _OUTLINED_FUNCTION_150
+- _OUTLINED_FUNCTION_151
+- _OUTLINED_FUNCTION_152
+- _OUTLINED_FUNCTION_153
+- _OUTLINED_FUNCTION_154
+- _OUTLINED_FUNCTION_155
+- _OUTLINED_FUNCTION_156
+- _OUTLINED_FUNCTION_157
+- _OUTLINED_FUNCTION_158
+- _OUTLINED_FUNCTION_159
+- _OUTLINED_FUNCTION_160
+- _OUTLINED_FUNCTION_161
+- _OUTLINED_FUNCTION_162
+- _OUTLINED_FUNCTION_163
+- _OUTLINED_FUNCTION_164
+- _OUTLINED_FUNCTION_165
+- _OUTLINED_FUNCTION_166
+- _OUTLINED_FUNCTION_167
+- _OUTLINED_FUNCTION_168
+- _OUTLINED_FUNCTION_169
+- _OUTLINED_FUNCTION_170
+- _OUTLINED_FUNCTION_171
+- _OUTLINED_FUNCTION_172
+- _OUTLINED_FUNCTION_173
+- _OUTLINED_FUNCTION_174
+- _OUTLINED_FUNCTION_175
+- _OUTLINED_FUNCTION_176
+- _OUTLINED_FUNCTION_177
+- _OUTLINED_FUNCTION_178
+- _OUTLINED_FUNCTION_179
+- _OUTLINED_FUNCTION_180
+- _OUTLINED_FUNCTION_181
+- _OUTLINED_FUNCTION_182
+- _OUTLINED_FUNCTION_183
+- _OUTLINED_FUNCTION_184
+- _OUTLINED_FUNCTION_185
+- _OUTLINED_FUNCTION_186
+- _OUTLINED_FUNCTION_187
+- _OUTLINED_FUNCTION_188
+- _OUTLINED_FUNCTION_189
+- _OUTLINED_FUNCTION_190
+- _OUTLINED_FUNCTION_191
+- _OUTLINED_FUNCTION_192
+- _OUTLINED_FUNCTION_193
+- _OUTLINED_FUNCTION_194
+- _OUTLINED_FUNCTION_195
+- _OUTLINED_FUNCTION_196
+- _OUTLINED_FUNCTION_197
+- _OUTLINED_FUNCTION_198
+- _OUTLINED_FUNCTION_199
+- _OUTLINED_FUNCTION_200
+- _OUTLINED_FUNCTION_201
+- _OUTLINED_FUNCTION_202
+- _OUTLINED_FUNCTION_203
+- _OUTLINED_FUNCTION_204
+- _OUTLINED_FUNCTION_205
+- _OUTLINED_FUNCTION_206
+- _OUTLINED_FUNCTION_207
+- _OUTLINED_FUNCTION_208
+- _OUTLINED_FUNCTION_209
+- _OUTLINED_FUNCTION_210
+- _OUTLINED_FUNCTION_211
+- _OUTLINED_FUNCTION_212
+- _OUTLINED_FUNCTION_213
+- _OUTLINED_FUNCTION_214
+- _OUTLINED_FUNCTION_215
+- _OUTLINED_FUNCTION_216
+- _OUTLINED_FUNCTION_217
+- _OUTLINED_FUNCTION_218
+- _OUTLINED_FUNCTION_219
+- _OUTLINED_FUNCTION_220
+- _OUTLINED_FUNCTION_221
+- _OUTLINED_FUNCTION_222
+- _OUTLINED_FUNCTION_223
+- _OUTLINED_FUNCTION_224
+- _OUTLINED_FUNCTION_225
+- _OUTLINED_FUNCTION_226
+- _OUTLINED_FUNCTION_227
+- _OUTLINED_FUNCTION_228
+- _OUTLINED_FUNCTION_229
+- _OUTLINED_FUNCTION_230
+- _OUTLINED_FUNCTION_231
+- _OUTLINED_FUNCTION_232
+- _OUTLINED_FUNCTION_53
+- _OUTLINED_FUNCTION_54
+- _OUTLINED_FUNCTION_55
+- _OUTLINED_FUNCTION_56
+- _OUTLINED_FUNCTION_57
+- _OUTLINED_FUNCTION_58
+- _OUTLINED_FUNCTION_59
+- _OUTLINED_FUNCTION_60
+- _OUTLINED_FUNCTION_61
+- _OUTLINED_FUNCTION_62
+- _OUTLINED_FUNCTION_63
+- _OUTLINED_FUNCTION_64
+- _OUTLINED_FUNCTION_65
+- _OUTLINED_FUNCTION_66
+- _OUTLINED_FUNCTION_67
+- _OUTLINED_FUNCTION_68
+- _OUTLINED_FUNCTION_69
+- _OUTLINED_FUNCTION_70
+- _OUTLINED_FUNCTION_71
+- _OUTLINED_FUNCTION_72
+- _OUTLINED_FUNCTION_73
+- _OUTLINED_FUNCTION_74
+- _OUTLINED_FUNCTION_75
+- _OUTLINED_FUNCTION_76
+- _OUTLINED_FUNCTION_77
+- _OUTLINED_FUNCTION_78
+- _OUTLINED_FUNCTION_79
+- _OUTLINED_FUNCTION_80
+- _OUTLINED_FUNCTION_81
+- _OUTLINED_FUNCTION_82
+- _OUTLINED_FUNCTION_83
+- _OUTLINED_FUNCTION_84
+- _OUTLINED_FUNCTION_85
+- _OUTLINED_FUNCTION_86
+- _OUTLINED_FUNCTION_87
+- _OUTLINED_FUNCTION_88
+- _OUTLINED_FUNCTION_89
+- _OUTLINED_FUNCTION_90
+- _OUTLINED_FUNCTION_91
+- _OUTLINED_FUNCTION_92
+- _OUTLINED_FUNCTION_93
+- _OUTLINED_FUNCTION_94
+- _OUTLINED_FUNCTION_95
+- _OUTLINED_FUNCTION_96
+- _OUTLINED_FUNCTION_97
+- _OUTLINED_FUNCTION_98
+- _OUTLINED_FUNCTION_99
+- __DATA_SiriAnalyticsPreprocessor
+- __DATA__TtC13SiriAnalytics12Preprocessor
+- __DATA__TtC13SiriAnalytics15StagingPoolHost
+- __DATA__TtC13SiriAnalytics17MetadataExtractor
+- __DATA__TtC13SiriAnalytics19ExtensionConnection
+- __DATA__TtC13SiriAnalytics21ExternalDataIngestion
+- __DATA__TtC13SiriAnalytics22DirectStagingIngestion
+- __DATA__TtC13SiriAnalytics22SessionBoundIdDetector
+- __DATA__TtC13SiriAnalytics31ExtensionOrchestratorConnection
+- __DATA__TtCV13SiriAnalytics11AhoCorasickP33_6CAD5E5F60A95F936EF30427E37BF1DD9BuildNode
+- __INSTANCE_METHODS_SiriAnalyticsPreprocessor
+- __INSTANCE_METHODS__TtC13SiriAnalytics15StagingPoolHost
+- __IVARS_SiriAnalyticsPreprocessor
+- __IVARS__TtC13SiriAnalytics12Preprocessor
+- __IVARS__TtC13SiriAnalytics15StagingPoolHost
+- __IVARS__TtC13SiriAnalytics17MetadataExtractor
+- __IVARS__TtC13SiriAnalytics19ExtensionConnection
+- __IVARS__TtC13SiriAnalytics21ExternalDataIngestion
+- __IVARS__TtC13SiriAnalytics22DirectStagingIngestion
+- __IVARS__TtC13SiriAnalytics22SessionBoundIdDetector
+- __IVARS__TtC13SiriAnalytics31ExtensionOrchestratorConnection
+- __IVARS__TtCV13SiriAnalytics11AhoCorasickP33_6CAD5E5F60A95F936EF30427E37BF1DD9BuildNode
+- __METACLASS_DATA_SiriAnalyticsPreprocessor
+- __METACLASS_DATA__TtC13SiriAnalytics12Preprocessor
+- __METACLASS_DATA__TtC13SiriAnalytics15StagingPoolHost
+- __METACLASS_DATA__TtC13SiriAnalytics17MetadataExtractor
+- __METACLASS_DATA__TtC13SiriAnalytics19ExtensionConnection
+- __METACLASS_DATA__TtC13SiriAnalytics21ExternalDataIngestion
+- __METACLASS_DATA__TtC13SiriAnalytics22DirectStagingIngestion
+- __METACLASS_DATA__TtC13SiriAnalytics22SessionBoundIdDetector
+- __METACLASS_DATA__TtC13SiriAnalytics31ExtensionOrchestratorConnection
+- __METACLASS_DATA__TtCV13SiriAnalytics11AhoCorasickP33_6CAD5E5F60A95F936EF30427E37BF1DD9BuildNode
+- __PROTOCOLS__TtC13SiriAnalytics15StagingPoolHost
+- __PROTOCOL_INSTANCE_METHODS__TtP13SiriAnalytics29ExtensionOrchestratorProtocol_
+- __PROTOCOL_INSTANCE_METHODS__TtP13SiriAnalytics33ExtensionOrchestratorHostProtocol_
+- __PROTOCOL_METHOD_TYPES__TtP13SiriAnalytics29ExtensionOrchestratorProtocol_
+- __PROTOCOL_METHOD_TYPES__TtP13SiriAnalytics33ExtensionOrchestratorHostProtocol_
+- __PROTOCOL__TtP13SiriAnalytics29ExtensionOrchestratorProtocol_
+- __PROTOCOL__TtP13SiriAnalytics33ExtensionOrchestratorHostProtocol_
+- ___58-[AssistantSiriAnalyticsService _buildDependenciesOnQueue]_block_invoke_3
+- ___58-[AssistantSiriAnalyticsService _buildDependenciesOnQueue]_block_invoke_4
+- ___swift_closure_destructor.10Tm
+- ___swift_closure_destructor.16Tm
+- ___swift_closure_destructor.92Tm
+- ___swift_memcpy20_8
+- ___swift_memcpy32_4
+- ___swift_memcpy41_8
+- ___swift_memcpy64_8
+- ___swift_memcpy9_8
+- ___unnamed_5
+- _associated conformance 13SiriAnalytics12PreprocessorC5StepsOSHAASQ
+- _associated conformance 13SiriAnalytics15ProcessingErrorOSHAASQ
+- _associated conformance 13SiriAnalytics16PlatformFeaturesO06UnilogD0OSHAASQ
+- _associated conformance 13SiriAnalytics16ProcessingReasonOSHAASQ
+- _associated conformance 13SiriAnalytics22PreprocessorCounterKeyVSHAASQ
+- _associated conformance 13SiriAnalytics24ExtensionConnectionErrorOSHAASQ
+- _associated conformance 13SiriAnalytics26PreprocessorTelemetryErrorOSHAASQ
+- _associated conformance 13SiriAnalytics27TextClassificationProcessorV0cD6PolicyOSHAASQ
+- _associated conformance 13SiriAnalytics27TextClassificationProcessorV19ReplacementProviderV0F3KeyVSHAASQ
+- _associated conformance 13SiriAnalytics28FullyQualifiedMessageTypeKeyVSHAASQ
+- _associated conformance 13SiriAnalytics28PreprocessorResultCounterKeyV09RedactionD0OSHAASQ
+- _associated conformance 13SiriAnalytics28PreprocessorResultCounterKeyVSHAASQ
+- _associated conformance So18LRSchemaLRDataKindVSHSCSQ
+- _dyld_get_active_platform
+- _flat unique 13SiriAnalytics20IngestionXPCProtocol_p
+- _flat unique 13SiriAnalytics29ExtensionOrchestratorProtocol_p
+- _flat unique 13SiriAnalytics33ExtensionOrchestratorHostProtocol_p
+- _get_enum_tag_for_layout_string 13SiriAnalytics25CompositeMessagePredicateO
+- _get_enum_tag_for_layout_string 13SiriAnalytics26OrchestratedExtensionErrorO
+- _swift_deallocUninitializedObject
+- _swift_getFunctionTypeMetadata0
+- _swift_release_n
+- _swift_release_x11
+- _swift_retain_x9
+- _swift_task_future_wait_throwing
+- _symbolic $s13SiriAnalytics29ExtensionOrchestratorProtocolP
+- _symbolic $s13SiriAnalytics33ExtensionOrchestratorHostProtocolP
+- _symbolic SDySJSiG
+- _symbolic SDySNy_____G_____G s6UInt64V 10Foundation4DataV
+- _symbolic SDySS_____G 13SiriAnalytics13StagingReportC
+- _symbolic SDySS_____G 13SiriAnalytics22TextDataClassificationV
+- _symbolic SDy_____SDy__________GG 10Foundation4UUIDV 19SiriInstrumentation19ComponentIdentifierC s6UInt64V
+- _symbolic SDy_____SayAAGG 10Foundation4UUIDV
+- _symbolic SDy_____ShyAAGG 10Foundation4UUIDV
+- _symbolic SDy_____So34LRSchemaLRRedactionSummaryReportedCG 10Foundation4UUIDV
+- _symbolic SDy__________G 10Foundation4DataV s6UInt64V
+- _symbolic SDy__________G 10Foundation4UUIDV 13SiriAnalytics12SUTProcessorV13EventMetadata33_5E8F79C176DCE4CC59FBFC2F3ABF48D3LLV
+- _symbolic SDy__________G 10Foundation4UUIDV 13SiriAnalytics27TextClassificationProcessorV19ReplacementProviderV
+- _symbolic SDy__________G 10Foundation4UUIDV 19SiriInstrumentation21ConnectedComponentIdsC
+- _symbolic SDy__________G 13SiriAnalytics27TextClassificationProcessorV19ReplacementProviderV0F3KeyV s6UInt64V
+- _symbolic SDy__________y_AAGG 10Foundation4UUIDV 13SiriAnalytics8PatternsV7FetchedO
+- _symbolic SDy__________y_Say_____GGG 10Foundation4UUIDV 13SiriAnalytics8PatternsV7FetchedO AD28SensitiveConditionMessageTagV
+- _symbolic SDy__________y______GG 10Foundation4UUIDV 13SiriAnalytics8PatternsV7FetchedO AD27TextClassificationProcessorV0H3SetV
+- _symbolic SDy__________y______GG 10Foundation4UUIDV 13SiriAnalytics8PatternsV7FetchedO AD29UserRequestDataClassificationV
+- _symbolic SNy_____G s6UInt64V
+- _symbolic SNy_____GIegr_ s6UInt64V
+- _symbolic SNyxG_AAtAA_AAtc
+- _symbolic SaySJG
+- _symbolic SaySNyxGG
+- _symbolic Say_____G 13SiriAnalytics16RootLogicalClockV
+- _symbolic Say_____G 13SiriAnalytics22TextDataClassificationV
+- _symbolic Say_____G 13SiriAnalytics28SensitiveConditionMessageTagV
+- _symbolic Say_____G 19ExtensionFoundation03AppA8IdentityV
+- _symbolic Say_____G s5Int32V
+- _symbolic Say_____GIegr_ So30SISchemaDeviceSensitivityStateV
+- _symbolic Say_____GSg So30SISchemaDeviceSensitivityStateV
+- _symbolic Say___________tG 13SiriAnalytics12PreprocessorC5StepsO AA15PerfMeasurementV
+- _symbolic Say______pG 13SiriAnalytics16MessagePredicateP
+- _symbolic Say_____y_____GG 10Foundation17KeyPathComparatorV 13SiriAnalytics16RootLogicalClockV
+- _symbolic ScCySDySS_____G______pG 13SiriAnalytics13StagingReportC s5ErrorP
+- _symbolic ScCy___________pG 13SiriAnalytics13StagingReportC s5ErrorP
+- _symbolic ScCy___________pGSg 13SiriAnalytics13StagingReportC s5ErrorP
+- _symbolic SccySS______pG s5ErrorP
+- _symbolic Sccy__________G 10Foundation3URLV s5NeverO
+- _symbolic Scgy___________pG 13SiriAnalytics13StagingReportC s5ErrorP
+- _symbolic SiIegd_
+- _symbolic SiIegr_
+- _symbolic Sny_____G SS5IndexV
+- _symbolic So12NSDictionaryCm
+- _symbolic So25SISchemaTopLevelUnionTypeC______t 13SiriAnalytics16ProcessingResultV
+- _symbolic So5NSURLCIeyBy_
+- _symbolic So7NSErrorCSg
+- _symbolic So7NSErrorCm
+- _symbolic So8BMSourceCySo22BMLighthouseTaskStatusCG
+- _symbolic So8BMStreamCySo22BMLighthouseTaskStatusCG
+- _symbolic So8NSStringCSgSo7NSErrorCSgIeyByy_
+- _symbolic So8NSStringCm
+- _symbolic _____ 13SiriAnalytics11AhoCorasickV
+- _symbolic _____ 13SiriAnalytics11AhoCorasickV5MatchV
+- _symbolic _____ 13SiriAnalytics11AhoCorasickV9BuildNode33_6CAD5E5F60A95F936EF30427E37BF1DDLLC
+- _symbolic _____ 13SiriAnalytics12OrchestratorV
+- _symbolic _____ 13SiriAnalytics12PreprocessorC
+- _symbolic _____ 13SiriAnalytics12PreprocessorC5StepsO
+- _symbolic _____ 13SiriAnalytics12SUTProcessorV
+- _symbolic _____ 13SiriAnalytics12SUTProcessorV13EventMetadata33_5E8F79C176DCE4CC59FBFC2F3ABF48D3LLV
+- _symbolic _____ 13SiriAnalytics13PerfMeasuringV
+- _symbolic _____ 13SiriAnalytics14ClosedRangeSetV
+- _symbolic _____ 13SiriAnalytics14ExtensionPointV
+- _symbolic _____ 13SiriAnalytics14MessageOnClockV
+- _symbolic _____ 13SiriAnalytics15PerfMeasurementV
+- _symbolic _____ 13SiriAnalytics15ProcessingErrorO
+- _symbolic _____ 13SiriAnalytics15StagingPoolHostC
+- _symbolic _____ 13SiriAnalytics16PlatformFeaturesO06UnilogD0O
+- _symbolic _____ 13SiriAnalytics16PreprocessorShimC
+- _symbolic _____ 13SiriAnalytics16ProcessingReasonO
+- _symbolic _____ 13SiriAnalytics16ProcessingResultV
+- _symbolic _____ 13SiriAnalytics17MetadataExtractorC
+- _symbolic _____ 13SiriAnalytics19ExtensionConnectionC
+- _symbolic _____ 13SiriAnalytics19MessageInClockIdSetV
+- _symbolic _____ 13SiriAnalytics20UserRequestAnnotatorV
+- _symbolic _____ 13SiriAnalytics21ExternalDataIngestionC
+- _symbolic _____ 13SiriAnalytics21MessageHasComponentIdV
+- _symbolic _____ 13SiriAnalytics21PreprocessorTelemetryV
+- _symbolic _____ 13SiriAnalytics22DirectStagingIngestionC
+- _symbolic _____ 13SiriAnalytics22MessageInAnyEventTypesV
+- _symbolic _____ 13SiriAnalytics22OrchestrationTelemetryV
+- _symbolic _____ 13SiriAnalytics22PreprocessorCounterKeyV
+- _symbolic _____ 13SiriAnalytics22SessionBoundIdDetectorC
+- _symbolic _____ 13SiriAnalytics23MessageInComponentIdSetV
+- _symbolic _____ 13SiriAnalytics23MessageInTimestampRangeV
+- _symbolic _____ 13SiriAnalytics24ExtensionConnectionErrorO
+- _symbolic _____ 13SiriAnalytics25CompositeMessagePredicateO
+- _symbolic _____ 13SiriAnalytics26OrchestratedExtensionErrorO
+- _symbolic _____ 13SiriAnalytics26PreprocessorTelemetryErrorO
+- _symbolic _____ 13SiriAnalytics27TextClassificationProcessorV
+- _symbolic _____ 13SiriAnalytics27TextClassificationProcessorV0D3SetV
+- _symbolic _____ 13SiriAnalytics27TextClassificationProcessorV0cD6PolicyO
+- _symbolic _____ 13SiriAnalytics27TextClassificationProcessorV19ReplacementProviderV
+- _symbolic _____ 13SiriAnalytics27TextClassificationProcessorV19ReplacementProviderV0F3KeyV
+- _symbolic _____ 13SiriAnalytics28DataCollectionPolicyResolverV
+- _symbolic _____ 13SiriAnalytics28FullyQualifiedMessageTypeKeyV
+- _symbolic _____ 13SiriAnalytics28PreprocessorResultCounterKeyV
+- _symbolic _____ 13SiriAnalytics28PreprocessorResultCounterKeyV09RedactionD0O
+- _symbolic _____ 13SiriAnalytics28SensitiveConditionMessageTagV
+- _symbolic _____ 13SiriAnalytics28SensitiveConditionsProcessorV
+- _symbolic _____ 13SiriAnalytics31ExtensionOrchestratorConnectionC
+- _symbolic _____ 13SiriAnalytics8PatternsV
+- _symbolic _____ 13SiriAnalytics8PatternsV7FetchedO
+- _symbolic _____ 19ExtensionFoundation03AppA7ProcessV
+- _symbolic _____ 19ExtensionFoundation03AppA8IdentityV
+- _symbolic _____ 19SiriInstrumentation16LogicalTimestampC
+- _symbolic _____ 19SiriInstrumentation19StoragePolicyRealmsV
+- _symbolic _____ So13audit_token_ta
+- _symbolic _____ So18LRSchemaLRDataKindV
+- _symbolic _____ s5Int64V
+- _symbolic _____14classification_Sny_____G5ranget 13SiriAnalytics22TextDataClassificationV SS5IndexV
+- _symbolic _____3key_SDy__________G5valuet 10Foundation4UUIDV 19SiriInstrumentation19ComponentIdentifierC s6UInt64V
+- _symbolic _____3key_ShyAAG5valuet 10Foundation4UUIDV
+- _symbolic _____3key_So25SISchemaTopLevelUnionTypeC______t5valuet 19SiriInstrumentation19StoragePolicyRealmsV 0A9Analytics16ProcessingResultV
+- _symbolic _____3key_So25SISchemaTopLevelUnionTypeC______t5valuetSg 19SiriInstrumentation19StoragePolicyRealmsV 0A9Analytics16ProcessingResultV
+- _symbolic _____3key_So34LRSchemaLRRedactionSummaryReportedC5valuet 10Foundation4UUIDV
+- _symbolic _____3key______5valuet 13SiriAnalytics22PreprocessorCounterKeyV s6UInt64V
+- _symbolic _____3key______5valuet 13SiriAnalytics28PreprocessorResultCounterKeyV s6UInt64V
+- _symbolic _____3val_t 10Foundation4UUIDV
+- _symbolic _____AASbIegnnd_ 13SiriAnalytics18GroupingIdentifierO
+- _symbolic _____Iegd_ s6UInt64V
+- _symbolic _____Iegr_ 13SiriAnalytics16ProcessingReasonO
+- _symbolic _____Iegr_ 13SiriAnalytics18GroupingIdentifierO
+- _symbolic _____Iegr_ 13SiriAnalytics18MonotonicTimestampV
+- _symbolic _____Iegr_ 13SiriAnalytics22GroupingIdentifierLinkV
+- _symbolic _____Iegr_ So30SISchemaDeviceSensitivityStateV
+- _symbolic _____Iegr_ s6UInt64V
+- _symbolic _____Sg 13SiriAnalytics12SUTProcessorV
+- _symbolic _____Sg 13SiriAnalytics18GroupingIdentifierO
+- _symbolic _____Sg 13SiriAnalytics21DataClassificationTagV
+- _symbolic _____Sg 13SiriAnalytics27TextClassificationProcessorV0D3SetV
+- _symbolic _____Sg 13SiriAnalytics28SensitiveConditionMessageTagV
+- _symbolic _____SgXw 13SiriAnalytics16PreprocessorShimC
+- _symbolic _____SgXw 13SiriAnalytics19ExtensionConnectionC
+- _symbolic _____SgXw 13SiriAnalytics31ExtensionOrchestratorConnectionC
+- _symbolic _____SgXwz_Xx 13SiriAnalytics16PreprocessorShimC
+- _symbolic _____SgXwz_Xx 13SiriAnalytics31ExtensionOrchestratorConnectionC
+- _symbolic _____Sg______Sgt 13SiriAnalytics8AnyEventV AA22GroupingIdentifierLinkV
+- _symbolic _____Sg______pSgIeggg_ 13SiriAnalytics13StagingReportC s5ErrorP
+- _symbolic _____Sgz_Xx 13SiriAnalytics12SUTProcessorV
+- _symbolic ______A7At s6UInt32V
+- _symbolic ______Sny_____Gt 13SiriAnalytics22TextDataClassificationV SS5IndexV
+- _symbolic ______So25SISchemaTopLevelUnionTypeC______tt 19SiriInstrumentation19StoragePolicyRealmsV 0A9Analytics16ProcessingResultV
+- _symbolic ___________t 13SiriAnalytics12PreprocessorC5StepsO AA15PerfMeasurementV
+- _symbolic ______p 13SiriAnalytics16MessagePredicateP
+- _symbolic ______p 13SiriAnalytics20IngestionXPCProtocolP
+- _symbolic ______p 13SiriAnalytics29ExtensionOrchestratorProtocolP
+- _symbolic ______p 13SiriAnalytics33ExtensionOrchestratorHostProtocolP
+- _symbolic ______p 19SiriInstrumentation21InjectableIdentifiersP
+- _symbolic ______p 19SiriInstrumentation22ExtractableIdentifiersP
+- _symbolic ______p 19SiriInstrumentation33MessageContainsTextClassificationP
+- _symbolic ______pSg 13SiriAnalytics16MessagePredicateP
+- _symbolic ______pSg 13SiriAnalytics20IngestionXPCProtocolP
+- _symbolic _____m 13SiriAnalytics13StagingReportC
+- _symbolic _____ySDy_____ScCy___________pGGG 2os21OSAllocatedUnfairLockV 10Foundation4UUIDV 13SiriAnalytics13StagingReportC s5ErrorP
+- _symbolic _____ySDy_____ScCy___________pGG_____G s13ManagedBufferCsRi__rlE 10Foundation4UUIDV 13SiriAnalytics13StagingReportC s5ErrorP So16os_unfair_lock_sV
+- _symbolic _____ySJG s23_ContiguousArrayStorageC
+- _symbolic _____ySJSiG s17_NativeDictionaryV
+- _symbolic _____ySJSi_G SD8_VariantV
+- _symbolic _____ySNy_____GG s23_ContiguousArrayStorageC s6UInt64V
+- _symbolic _____ySNy_____G_____G s17_NativeDictionaryV s6UInt64V 10Foundation4DataV
+- _symbolic _____ySSSo8NSObjectCG s17_NativeDictionaryV
+- _symbolic _____ySS_____G s17_NativeDictionaryV 13SiriAnalytics13StagingReportC
+- _symbolic _____ySS_____G s17_NativeDictionaryV 13SiriAnalytics22TextDataClassificationV
+- _symbolic _____ySay_____GG s23_ContiguousArrayStorageC 13SiriAnalytics28SensitiveConditionMessageTagV
+- _symbolic _____ySay_____GG s23_ContiguousArrayStorageC So30SISchemaDeviceSensitivityStateV
+- _symbolic _____ySb______ABtc_SStG s23_ContiguousArrayStorageC 13SiriAnalytics18GroupingIdentifierO
+- _symbolic _____ySiG s23_ContiguousArrayStorageC
+- _symbolic _____y_____14classification_Sny_____G5rangetG s23_ContiguousArrayStorageC 13SiriAnalytics22TextDataClassificationV SS5IndexV
+- _symbolic _____y_____ABG s17_NativeDictionaryV 13SiriAnalytics18GroupingIdentifierO
+- _symbolic _____y_____G 10Foundation17KeyPathComparatorV 13SiriAnalytics16RootLogicalClockV
+- _symbolic _____y_____G 13SiriAnalytics14ClosedRangeSetV s6UInt64V
+- _symbolic _____y_____G s11_SetStorageC 13SiriAnalytics16ProcessingReasonO
+- _symbolic _____y_____G s11_SetStorageC 13SiriAnalytics18GroupingIdentifierO
+- _symbolic _____y_____G s11_SetStorageC So21SISchemaComponentNameV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 13SiriAnalytics11AhoCorasickV5MatchV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 13SiriAnalytics16RootLogicalClockV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 13SiriAnalytics21DataClassificationTagV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 13SiriAnalytics22TextDataClassificationV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 13SiriAnalytics28SensitiveConditionMessageTagV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 13SiriAnalytics29UserRequestDataClassificationV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC s5Int32V
+- _symbolic _____y_____G_SDyA2BGt 19SiriInstrumentation5GraphV 0A9Analytics18GroupingIdentifierO
+- _symbolic _____y_____SDy__________GG s17_NativeDictionaryV 10Foundation4UUIDV 19SiriInstrumentation19ComponentIdentifierC s6UInt64V
+- _symbolic _____y_____SayABGG s17_NativeDictionaryV 10Foundation4UUIDV
+- _symbolic _____y_____Say_____GG s17_NativeDictionaryV So30SISchemaDeviceSensitivityStateV 13SiriAnalytics28SensitiveConditionMessageTagV
+- _symbolic _____y_____ScCy___________pGG s17_NativeDictionaryV 10Foundation4UUIDV 13SiriAnalytics13StagingReportC s5ErrorP
+- _symbolic _____y_____ShyABGG s17_NativeDictionaryV 10Foundation4UUIDV
+- _symbolic _____y_____So25PFAAnyEventTypeStatisticsCG s17_NativeDictionaryV So20SISchemaAnyEventTypeV
+- _symbolic _____y_____So34LRSchemaLRRedactionSummaryReportedCG s17_NativeDictionaryV 10Foundation4UUIDV
+- _symbolic _____y______G 13SiriAnalytics8PatternsV7FetchedO 10Foundation4UUIDV
+- _symbolic _____y______G 13SiriAnalytics8PatternsV7FetchedO AA27TextClassificationProcessorV0F3SetV
+- _symbolic _____y______G 19SiriInstrumentation5GraphV4EdgeV 0A9Analytics11ComponentIdV
+- _symbolic _____y______G 19SiriInstrumentation5GraphV4EdgeV AA19ComponentIdentifierC
+- _symbolic _____y______G 8Dendrite28DataFrameStreamTypedIteratorC7ElementV 13SiriAnalytics16StagingPoolEntryV
+- _symbolic _____y______G Sh5IndexV 19SiriInstrumentation19ComponentIdentifierC
+- _symbolic _____y______GSg 13SiriAnalytics8PatternsV7FetchedO 10Foundation4UUIDV
+- _symbolic _____y______GSg 8Dendrite28DataFrameStreamTypedIteratorC7ElementV 13SiriAnalytics16StagingPoolEntryV
+- _symbolic _____y______Sny_____GtG s23_ContiguousArrayStorageC 13SiriAnalytics22TextDataClassificationV SS5IndexV
+- _symbolic _____y______So25SISchemaTopLevelUnionTypeC______ttG s23_ContiguousArrayStorageC 19SiriInstrumentation0C12PolicyRealmsV 0D9Analytics16ProcessingResultV
+- _symbolic _____y__________G 13SiriAnalytics13CounterDigestV AA012PreprocessorC3KeyV s6UInt64V
+- _symbolic _____y__________G 13SiriAnalytics13CounterDigestV AA018PreprocessorResultC3KeyV s6UInt64V
+- _symbolic _____y__________G 13SiriAnalytics13CounterDigestV So18LRSchemaLRDataKindV s6UInt64V
+- _symbolic _____y__________G s17_NativeDictionaryV 10Foundation4DataV s6UInt64V
+- _symbolic _____y__________G s17_NativeDictionaryV 10Foundation4UUIDV 13SiriAnalytics12SUTProcessorV13EventMetadata33_5E8F79C176DCE4CC59FBFC2F3ABF48D3LLV
+- _symbolic _____y__________G s17_NativeDictionaryV 10Foundation4UUIDV 13SiriAnalytics27TextClassificationProcessorV19ReplacementProviderV
+- _symbolic _____y__________G s17_NativeDictionaryV 10Foundation4UUIDV 19SiriInstrumentation21ConnectedComponentIdsC
+- _symbolic _____y__________G s17_NativeDictionaryV 10Foundation4UUIDV s6UInt64V
+- _symbolic _____y__________G s17_NativeDictionaryV 13SiriAnalytics11ComponentIdV AC18MonotonicTimestampV
+- _symbolic _____y__________G s17_NativeDictionaryV 13SiriAnalytics22PreprocessorCounterKeyV s6UInt64V
+- _symbolic _____y__________G s17_NativeDictionaryV 13SiriAnalytics27TextClassificationProcessorV19ReplacementProviderV0H3KeyV s6UInt64V
+- _symbolic _____y__________G s17_NativeDictionaryV 13SiriAnalytics28FullyQualifiedMessageTypeKeyV s6UInt64V
+- _symbolic _____y__________G s17_NativeDictionaryV 13SiriAnalytics28PreprocessorResultCounterKeyV s6UInt64V
+- _symbolic _____y__________G s17_NativeDictionaryV 19SiriInstrumentation19ComponentIdentifierC s6UInt64V
+- _symbolic _____y__________G s17_NativeDictionaryV So18LRSchemaLRDataKindV s6UInt64V
+- _symbolic _____y__________G s17_NativeDictionaryV So21SISchemaComponentNameV 10Foundation4UUIDV
+- _symbolic _____y___________tG s23_ContiguousArrayStorageC 13SiriAnalytics12PreprocessorC5StepsO AC15PerfMeasurementV
+- _symbolic _____y__________y_ABGG s17_NativeDictionaryV 10Foundation4UUIDV 13SiriAnalytics8PatternsV7FetchedO
+- _symbolic _____y__________y_Say_____GGG s17_NativeDictionaryV 10Foundation4UUIDV 13SiriAnalytics8PatternsV7FetchedO AF28SensitiveConditionMessageTagV
+- _symbolic _____y__________y______GG s17_NativeDictionaryV 10Foundation4UUIDV 13SiriAnalytics8PatternsV7FetchedO AF27TextClassificationProcessorV0J3SetV
+- _symbolic _____y__________y______GG s17_NativeDictionaryV 10Foundation4UUIDV 13SiriAnalytics8PatternsV7FetchedO AF29ClockComponentIdComprehensionV
+- _symbolic _____y__________y______GG s17_NativeDictionaryV 10Foundation4UUIDV 13SiriAnalytics8PatternsV7FetchedO AF29UserRequestDataClassificationV
+- _symbolic _____y______pG s23_ContiguousArrayStorageC 13SiriAnalytics16MessagePredicateP
+- _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 10Foundation17KeyPathComparatorV 13SiriAnalytics16RootLogicalClockV
+- _symbolic _____yy_____cG s23_ContiguousArrayStorageC 13SiriAnalytics13StagedMessageV
+- _symbolic _____yypG s23_ContiguousArrayStorageC
+- _symbolic _____z_Xx 13SiriAnalytics20UserRequestAnnotatorV
+- _symbolic _____z_Xx 13SiriAnalytics21PreprocessorTelemetryV
+- _symbolic _____z_Xx 13SiriAnalytics27TextClassificationProcessorV
+- _symbolic _____z_Xx 13SiriAnalytics28SensitiveConditionsProcessorV
+- _symbolic x3val_t
+- _symbolic ySo16SISchemaAnyEventCYaKc
+- _type_layout_string 13SiriAnalytics11AhoCorasickV
+- _type_layout_string 13SiriAnalytics11AhoCorasickV5MatchV
+- _type_layout_string 13SiriAnalytics12OrchestratorV
+- _type_layout_string 13SiriAnalytics12SUTProcessorV
+- _type_layout_string 13SiriAnalytics12SUTProcessorV13EventMetadata33_5E8F79C176DCE4CC59FBFC2F3ABF48D3LLV
+- _type_layout_string 13SiriAnalytics13PerfMeasuringV
+- _type_layout_string 13SiriAnalytics14ExtensionPointV
+- _type_layout_string 13SiriAnalytics15PerfMeasurementV
+- _type_layout_string 13SiriAnalytics16ProcessingResultV
+- _type_layout_string 13SiriAnalytics19MessageInClockIdSetV
+- _type_layout_string 13SiriAnalytics21MessageHasComponentIdV
+- _type_layout_string 13SiriAnalytics22OrchestrationTelemetryV
+- _type_layout_string 13SiriAnalytics23MessageInTimestampRangeV
+- _type_layout_string 13SiriAnalytics25CompositeMessagePredicateO
+- _type_layout_string 13SiriAnalytics26OrchestratedExtensionErrorO
+- _type_layout_string 13SiriAnalytics27TextClassificationProcessorV
+- _type_layout_string 13SiriAnalytics27TextClassificationProcessorV0D3SetV
+- _type_layout_string 13SiriAnalytics27TextClassificationProcessorV19ReplacementProviderV
+- _type_layout_string 13SiriAnalytics27TextClassificationProcessorV19ReplacementProviderV0F3KeyV
+- _type_layout_string 13SiriAnalytics28DataCollectionPolicyResolverV
+- _type_layout_string 13SiriAnalytics28FullyQualifiedMessageTypeKeyV
+- _type_layout_string 13SiriAnalytics28SensitiveConditionMessageTagV
+- _type_layout_string SLRzl13SiriAnalytics14ClosedRangeSetVyxG
+- _type_layout_string So13audit_token_ta
+CStrings:
++ "Suppressing provisional collection internalInstall: %{bool}d seedBuild: %{bool}d."
+- "%ld redaction summaries accumulated."
+- "Adding opted in search request exceptions for %s"
+- "Aligned %llu : %s to clock: %s"
+- "Applying storage policies before processing with reason: %s"
+- "Asking host to vend staging access for extension: %s "
+- "Begin fetching sensitive conditions for logical clock: %s, root clock: %s"
+- "Begin processing reason:%s executionId:%s"
+- "Beginning ingest with extension: %s"
+- "Calling ingest on %s"
+- "Can't convert set of supported classes for interface"
+- "Can't get XPC connection for %s"
+- "Can't instantiate extension %s"
+- "Can't terminate: failed to get pid for %s"
+- "Compressing away edge from: %s, to: %s"
+- "Connection error to %s: %@"
+- "Could not unwrap message for processing, dropping"
+- "Data pool ordered event contained no anyEvent"
+- "Data pool ordered event did not unwrap properly/"
+- "Deallocating"
+- "Deflecting preprocessor run in assistantd due to unilog pipeline enablement."
+- "Detected %ld unique chatIds for clock %s, tagging as concurrent chat session"
+- "Dropping provisional message: %@ on seed/customer images"
+- "Emitting redaction summary for %s"
+- "End fetching sensitive conditions for logical clock: %s"
+- "End processing with processedMessages: %llu of total staged: %llu"
+- "Error checkpointing StagingPool: %@"
+- "Error checkpointing: %@"
+- "Error getting extension process for %s"
+- "Error ingesting with %s"
+- "Error querying extensions: %@"
+- "Error with remoteObjectProxy: %@"
+- "Even worse, they have the same TextExecutionEnd with the same timestamp: %llu and %llu"
+- "Extension %s will be terminated because it hit the hard timeout"
+- "Extension timed out and terminated: %s"
+- "Extension timed out: %s, error: %@"
+- "External data ingestion disabled"
+- "External data ingestion enabled"
+- "Failed processing message of type %s due to %@"
+- "Failed to drain staging pool: %@"
+- "Failed to emit telemetry: %@"
+- "Failed to prepare for message staging %s"
+- "Failed to unwrap AnyEvent"
+- "First pass analysis running"
+- "Found %ld ingestion extensions."
+- "Found multiple user request tags for requestId: %s. Data will not be annotated."
+- "Found sensitive conditions: %s for logical clock: %s"
+- "Found sensitive conditions: <none> for logical clock: %s"
+- "Found user request tag for %s"
+- "Found user request tag: <none> for %s"
+- "Ignoring infeasible timestamp: %llu, substituting with: %llu"
+- "Ingesting pure otel link: %s, timestamp: %s"
+- "Ingestion extension does not implement protocol: %s"
+- "Injecting superceded componentId: %s for componentName: %s"
+- "Integrating staging pool data into message staging..."
+- "Integration step finished, %llu messages integrated to staging"
+- "Linking from: %s, to: %s"
+- "Mapping composite predicate for %s to old clock scoped predicate. This represents a loss in fidelity."
+- "Message did not wrap as AnyEvent: %@"
+- "Multiple closed clocks: %s contain timestamp: %llu"
+- "No alignable timestamp tracked for trace identifier edge from: %s to: %s timestamp: %s"
+- "No aligned logical clock found for %llu : %s"
+- "No clock record found for %s"
+- "No monotonicTimestamp found for trace identifier edge from: %s to: %s"
+- "No registered ingestion extensions found."
+- "No staged event nor link."
+- "Orchestrator failed with %@"
+- "Preprocessor was deallocated waiting for the task"
+- "Process queue"
+- "Processing staged message: %s, of type: %s, traceContext:%s, supercededContext:%s"
+- "Projecting edge from: %s, to: %s"
+- "RBS request failed: %@"
+- "RBS request termination for process: %d"
+- "Running orchestrator"
+- "SUTSchemaTestExecutionEvent event types unknown: %lu"
+- "Saving component: %s, component Id: %s, clusterIdentifier: %s, startedOn: %llu, onClock: %s"
+- "SiriAnalytics.PreprocessorShim"
+- "SiriAnalytics.StagingPoolHost"
+- "SiriAnalytics/ExtensionOrchestratorConnection.swift"
+- "Skipping identifier and linking synthesis because grouping identifier: %s has no SELF alias."
+- "Skipping processing due to preferences"
+- "Staged event was not ordered"
+- "StagedMessage of anyEventType: %s did not have a timestamp, dropping event"
+- "Start unstaging messages"
+- "Suppressing message of type %s from off-device due to %s"
+- "Suppressing message of type %s from on-device and off-device due to %s"
+- "Suppressing message of type %s from on-device due to %s"
+- "Synthesized componentName: %s, componentUUID: %s, from traceId: %s, spanId: %s"
+- "Synthesized request link on clock: %s, from: (%s, %s, to: (%s, %s"
+- "TextSubstitution"
+- "Timestamp using continuous clock instead of suspending"
+- "Two TextExecutionBegin events have the same timestamp: %llu and %llu"
+- "Unable to acquire message staging"
+- "Unable to package telemetry for upload"
+- "Unable to re-wrap event."
+- "Unable to stage data pool message, aborting pool drain."
+- "Unable to wrap %@ as AnyEvent"
+- "Unexpected error: Fingerprint for range %s doesn't exist."
+- "UnilogProcessing"
+- "Unmatched TestExecutionEnd for fingerprint: %s"
+- "Unmatched TestExecutionEnd for malformed fingerprint Data: %s"
+- "applied %ld transforms across %ld classifications to %s"
+- "com.apple.lighthouse.SAExtensionOrchestrator"
+- "com.apple.lighthouse.SAOrchestratedExtension"
+- "com.apple.siri.analytics.messageStream.processing"
+- "conditionType: %s for requestId: %s affects subsequent requests: %s"
+- "execution: %s step: %s at %lldns"
+- "ingest()"
+- "processedInNanoseconds"
+- "processing text classifications for %s on clock %s"
+- "resetLogicalClock"
+- "siriUnilogPipeline"
+- "timeToFirstMessage"
+```

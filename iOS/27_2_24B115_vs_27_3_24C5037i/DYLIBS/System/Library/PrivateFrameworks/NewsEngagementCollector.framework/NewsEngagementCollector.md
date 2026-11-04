@@ -1,0 +1,97 @@
+## NewsEngagementCollector
+
+> `/System/Library/PrivateFrameworks/NewsEngagementCollector.framework/NewsEngagementCollector`
+
+```diff
+
+-5971.0.0.0.0
++6006.0.0.0.0
+   __TEXT.__text: 0x82fc
+   __TEXT.__const: 0x42c
+   __TEXT.__cstring: 0xcd
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   Functions: 224
+-  Symbols:   195
++  Symbols:   119
+   CStrings:  22
+ 
+Symbols:
+- <redacted>
+- __DATA__TtC23NewsEngagementCollector19EngagementCollector
+- __DATA__TtC23NewsEngagementCollector21EngagementDataManager
+- __DATA__TtC23NewsEngagementCollector9BaseDonor
+- __IVARS__TtC23NewsEngagementCollector19EngagementCollector
+- __IVARS__TtC23NewsEngagementCollector21EngagementDataManager
+- __IVARS__TtC23NewsEngagementCollector9BaseDonor
+- __METACLASS_DATA__TtC23NewsEngagementCollector19EngagementCollector
+- __METACLASS_DATA__TtC23NewsEngagementCollector21EngagementDataManager
+- __METACLASS_DATA__TtC23NewsEngagementCollector9BaseDonor
+- ___swift__destructor
+- ___swift_allocate_value_buffer
+- ___swift_async_cont_functlets
+- ___swift_async_entry_functlets
+- ___swift_async_ret_functlets
+- ___swift_closure_destructor
+- ___swift_destroy_boxed_opaque_existential_0
+- ___swift_destroy_boxed_opaque_existential_1Tm
+- ___swift_memcpy16_8
+- ___swift_memcpy8_8
+- ___swift_project_boxed_opaque_existential_1
+- ___swift_project_value_buffer
+- ___swift_reflection_version
+- __swift_FORCE_LOAD_$_swiftCoreFoundation_$_NewsEngagementCollector
+- __swift_FORCE_LOAD_$_swiftCoreLocation_$_NewsEngagementCollector
+- __swift_FORCE_LOAD_$_swiftDispatch_$_NewsEngagementCollector
+- __swift_FORCE_LOAD_$_swiftFoundation_$_NewsEngagementCollector
+- __swift_FORCE_LOAD_$_swiftOSLog_$_NewsEngagementCollector
+- __swift_FORCE_LOAD_$_swiftObjectiveC_$_NewsEngagementCollector
+- __swift_FORCE_LOAD_$_swiftXPC_$_NewsEngagementCollector
+- __swift_FORCE_LOAD_$_swift_Builtin_float_$_NewsEngagementCollector
+- __swift_FORCE_LOAD_$_swiftos_$_NewsEngagementCollector
+- __swift_stdlib_malloc_size
+- _associated conformance 23NewsEngagementCollector0B21PropertyConfigurationVSHAASQ
+- _block_copy_helper
+- _block_descriptor
+- _block_destroy_helper
+- _get_enum_tag_for_layout_string 23NewsEngagementCollector0C5ErrorO
+- _symbolic $s23NewsEngagementCollector0bC11ManagerTypeP
+- _symbolic $s23NewsEngagementCollector0bC4TypeP
+- _symbolic $s23NewsEngagementCollector13DonorObserverP
+- _symbolic $s23NewsEngagementCollector5DonorP
+- _symbolic Ig_
+- _symbolic SDySO_____G 23NewsEngagementCollector9BaseDonorC11Observation33_66FD55CB63D1E2BCB6204BE7B5C55447LLV
+- _symbolic SDySS_____y_____GG 13TeaFoundation16SingleValueStoreC 0B04DataV
+- _symbolic SDySSypG
+- _symbolic SDy__________G 23NewsEngagementCollector0B21PropertyConfigurationV AA05StateD5ValueV
+- _symbolic SDy__________Gz_Xx 23NewsEngagementCollector0B21PropertyConfigurationV AA05StateD5ValueV
+- _symbolic SS
+- _symbolic SS6reason_t
+- _symbolic Say_____G 23NewsEngagementCollector0B21PropertyConfigurationV
+- _symbolic Say______pG 23NewsEngagementCollector5DonorP
+- _symbolic ScCy_____Sg_____G 23NewsEngagementCollector18StatePropertyValueV s5NeverO
+- _symbolic So17OS_dispatch_groupC
+- _symbolic So17OS_dispatch_queueC
+- _symbolic _____ 10Foundation3URLV
+- _symbolic _____ 13TeaFoundation10UnfairLockC
+- _symbolic _____ 23NewsEngagementCollector0B11DataManagerC
+- _symbolic _____ 23NewsEngagementCollector0B17DataManagerConfigV
+- _symbolic _____ 23NewsEngagementCollector0B21PropertyConfigurationV
+- _symbolic _____ 23NewsEngagementCollector0C5ErrorO
+- _symbolic _____ 23NewsEngagementCollector0bC0C
+- _symbolic _____ 23NewsEngagementCollector18StatePropertyValueV
+- _symbolic _____ 23NewsEngagementCollector9BaseDonorC
+- _symbolic _____ 23NewsEngagementCollector9BaseDonorC11Observation33_66FD55CB63D1E2BCB6204BE7B5C55447LLV
+- _symbolic _____Sg 23NewsEngagementCollector18StatePropertyValueV
+- _symbolic _____SgXw 23NewsEngagementCollector0B11DataManagerC
+- _symbolic _____SgXwz_Xx 23NewsEngagementCollector0B11DataManagerC
+- _symbolic ______p 23NewsEngagementCollector0bC4TypeP
+- _symbolic ______pSgXw 23NewsEngagementCollector13DonorObserverP
+- _symbolic _____ySDy__________G_____GIegn_ s6ResultOsRi_zRi0_zrlE 23NewsEngagementCollector0C21PropertyConfigurationV AC05StateE5ValueV AC0D5ErrorO
+- _symbolic x
+- _type_layout_string 23NewsEngagementCollector0B21PropertyConfigurationV
+- _type_layout_string 23NewsEngagementCollector0C5ErrorO
+- _type_layout_string 23NewsEngagementCollector18StatePropertyValueV
+- _type_layout_string 23NewsEngagementCollector9BaseDonorC11Observation33_66FD55CB63D1E2BCB6204BE7B5C55447LLV
+```

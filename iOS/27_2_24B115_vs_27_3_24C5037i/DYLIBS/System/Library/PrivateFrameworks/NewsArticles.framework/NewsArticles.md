@@ -1,0 +1,7120 @@
+## NewsArticles
+
+> `/System/Library/PrivateFrameworks/NewsArticles.framework/NewsArticles`
+
+```diff
+
+-5971.0.0.0.0
+-  __TEXT.__text: 0x363638
+-  __TEXT.__objc_methlist: 0x79e4
+-  __TEXT.__const: 0x2bc54
+-  __TEXT.__cstring: 0x1042a
+-  __TEXT.__constg_swiftt: 0x11bd0
+-  __TEXT.__swift5_typeref: 0xd8a8
+-  __TEXT.__swift5_fieldmd: 0xee94
+-  __TEXT.__swift5_reflstr: 0xd33a
+-  __TEXT.__swift5_builtin: 0x5f0
+-  __TEXT.__swift5_assocty: 0x1660
+-  __TEXT.__swift5_protos: 0x534
+-  __TEXT.__swift5_proto: 0x1ebc
+-  __TEXT.__swift5_types: 0x1168
+-  __TEXT.__oslogstring: 0x31b5
+-  __TEXT.__swift5_capture: 0x49ac
+-  __TEXT.__swift5_mpenum: 0x15c
+-  __TEXT.__swift_as_entry: 0x274
+-  __TEXT.__swift_as_cont: 0x59c
++6006.0.0.0.0
++  __TEXT.__text: 0x3da684
++  __TEXT.__objc_methlist: 0x7bc4
++  __TEXT.__const: 0x2e414
++  __TEXT.__cstring: 0x127be
++  __TEXT.__constg_swiftt: 0x11974
++  __TEXT.__swift5_typeref: 0xe228
++  __TEXT.__swift5_fieldmd: 0xf0a8
++  __TEXT.__swift5_reflstr: 0xd55a
++  __TEXT.__swift5_builtin: 0x5c8
++  __TEXT.__swift5_assocty: 0x1680
++  __TEXT.__swift5_protos: 0x538
++  __TEXT.__swift5_proto: 0x1ec0
++  __TEXT.__swift5_types: 0x1194
++  __TEXT.__oslogstring: 0x3305
++  __TEXT.__swift5_capture: 0x4798
++  __TEXT.__swift5_mpenum: 0x160
++  __TEXT.__swift_as_entry: 0x298
++  __TEXT.__swift_as_cont: 0x518
+   __TEXT.__swift_as_ret: 0x294
+-  __TEXT.__unwind_info: 0xff78
+-  __TEXT.__eh_frame: 0xcce4
++  __TEXT.__unwind_info: 0x10f60
++  __TEXT.__eh_frame: 0xdea0
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x828
+-  __DATA_CONST.__objc_classlist: 0xeb8
++  __DATA_CONST.__const: 0x7c0
++  __DATA_CONST.__objc_classlist: 0xda8
+   __DATA_CONST.__objc_catlist: 0x18
+-  __DATA_CONST.__objc_protolist: 0x8d8
++  __DATA_CONST.__objc_protolist: 0x8c0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x4e80
+-  __DATA_CONST.__objc_protorefs: 0x4a0
++  __DATA_CONST.__objc_selrefs: 0x4e90
++  __DATA_CONST.__objc_protorefs: 0x490
+   __DATA_CONST.__objc_superrefs: 0x10
+-  __DATA_CONST.__objc_arraydata: 0x28
+-  __DATA_CONST.__got: 0x3ac0
+-  __AUTH_CONST.__const: 0x1bfd0
+-  __AUTH_CONST.__cfstring: 0x520
+-  __AUTH_CONST.__objc_const: 0x25438
+-  __AUTH_CONST.__objc_doubleobj: 0x30
+-  __AUTH_CONST.__objc_arrayobj: 0x30
+-  __AUTH_CONST.__auth_got: 0x6188
+-  __AUTH.__objc_data: 0x3330
+-  __AUTH.__data: 0x81b8
+-  __DATA.__objc_ivar: 0x30
+-  __DATA.__data: 0x96f8
+-  __DATA.__objc_stublist: 0x18
++  __DATA_CONST.__got: 0x3f68
++  __AUTH_CONST.__const: 0x1c398
++  __AUTH_CONST.__cfstring: 0x4a0
++  __AUTH_CONST.__objc_const: 0x238e8
++  __AUTH_CONST.__auth_got: 0x6788
++  __AUTH.__objc_data: 0x3d70
++  __AUTH.__data: 0x82e8
++  __DATA.__objc_ivar: 0x18
++  __DATA.__data: 0xbb60
++  __DATA.__objc_stublist: 0x10
+   __DATA.__common: 0x288
+-  __DATA_DIRTY.__objc_data: 0x3528
+-  __DATA_DIRTY.__data: 0x15258
+-  __DATA_DIRTY.__bss: 0xfd30
+-  __DATA_DIRTY.__common: 0x288
++  __DATA_DIRTY.__objc_data: 0x3498
++  __DATA_DIRTY.__data: 0x13458
++  __DATA_DIRTY.__bss: 0xe4b0
++  __DATA_DIRTY.__common: 0x290
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/AppleMediaServicesUI
+   - /System/Library/PrivateFrameworks/CookingKit.framework/CookingKit
+   - /System/Library/PrivateFrameworks/CookingSupport.framework/CookingSupport
+-  - /System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/InternalSwiftProtobuf
++  - /System/Library/PrivateFrameworks/MPUFoundation.framework/MPUFoundation
+   - /System/Library/PrivateFrameworks/MediaCoreUI.framework/MediaCoreUI
+   - /System/Library/PrivateFrameworks/MediaServices.framework/MediaServices
+   - /System/Library/PrivateFrameworks/NewsAds.framework/NewsAds
+
+   - /System/Library/PrivateFrameworks/NewsFeed.framework/NewsFeed
+   - /System/Library/PrivateFrameworks/NewsFoundation.framework/NewsFoundation
+   - /System/Library/PrivateFrameworks/NewsPersonalization.framework/NewsPersonalization
++  - /System/Library/PrivateFrameworks/NewsServicesInternal.framework/NewsServicesInternal
+   - /System/Library/PrivateFrameworks/NewsSubscription.framework/NewsSubscription
+   - /System/Library/PrivateFrameworks/NewsTransport.framework/NewsTransport
+   - /System/Library/PrivateFrameworks/NewsUI.framework/NewsUI
+   - /System/Library/PrivateFrameworks/ShareSheet.framework/ShareSheet
+   - /System/Library/PrivateFrameworks/Silex.framework/Silex
+   - /System/Library/PrivateFrameworks/SilexVideo.framework/SilexVideo
++  - /System/Library/PrivateFrameworks/SilexWeb.framework/SilexWeb
+   - /System/Library/PrivateFrameworks/TeaFoundation.framework/TeaFoundation
+   - /System/Library/PrivateFrameworks/TeaSettings.framework/TeaSettings
+   - /System/Library/PrivateFrameworks/TeaTemplate.framework/TeaTemplate
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftObservation.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+-  - /usr/lib/swift/libswiftRegexBuilder.dylib
+   - /usr/lib/swift/libswiftSceneKit.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftSpriteKit.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 18291
+-  Symbols:   7378
+-  CStrings:  1431
++  Functions: 19180
++  Symbols:   680
++  CStrings:  1595
+ 
+Symbols:
++ _AVAudioSessionPortAirPlay
++ _AVAudioSessionPortCarAudio
++ _CGPathCloseSubpath
++ _CGPathCreateMutable
++ _OBJC_CLASS_$_AVAudioSession
++ _OBJC_CLASS_$_CAShapeLayer
++ _OBJC_CLASS_$_FCESLInventory
++ _OBJC_CLASS_$_FCFeedItemScoreCache
++ _OBJC_CLASS_$_FCFeedPersonalizedItemScoreProfile
++ _OBJC_CLASS_$_NAWaveformIndicatorView
++ _OBJC_CLASS_$_SXComponentExposureMonitor
++ _OBJC_CLASS_$_SXComponentSizerEngine
++ _OBJC_CLASS_$_SXComponentStyleRendererFactory
++ _OBJC_CLASS_$_SXComponentViewEngine
++ _OBJC_CLASS_$_UIAccessibilityCustomAction
++ _OBJC_CLASS_$_UIAccessibilityElement
++ _OBJC_METACLASS_$_NAWaveformIndicatorView
++ _UIAccessibilityLayoutChangedNotification
++ _object_getClass
++ _swift_dynamicCastObjCClassUnconditional
++ _swift_dynamicCastObjCProtocolUnconditional
++ _swift_getExtendedFunctionTypeMetadata
++ _swift_release_x3
++ _swift_task_deinitOnExecutor
++ _swift_task_reportUnexpectedExecutor
+- +[NAAddToSafariReadingListActivityFactory createAddToSafariReadingListActivity]
+- -[NAActivity _bundleIdentifierForActivityImageCreation]
+- -[NAActivity _systemImageName]
+- -[NAAddToSafariReadingListActivity activityTitle]
+- -[NAAddToSafariReadingListActivity activityType]
+- -[NANowPlayingIndicatorView .cxx_destruct]
+- -[NANowPlayingIndicatorView _bufferTimerFired]
+- -[NANowPlayingIndicatorView _fixedSeedValueForBarIndex:]
+- -[NANowPlayingIndicatorView _randomSeedValueForBar]
+- -[NANowPlayingIndicatorView _reloadLevelViews]
+- -[NANowPlayingIndicatorView _removeAllAnimations:]
+- -[NANowPlayingIndicatorView _seedValueForBarIndex:]
+- -[NANowPlayingIndicatorView _updateLevelAnimations]
+- -[NANowPlayingIndicatorView bounceStyle]
+- -[NANowPlayingIndicatorView canBecomeFocused]
+- -[NANowPlayingIndicatorView drawRect:]
+- -[NANowPlayingIndicatorView initWithFrame:]
+- -[NANowPlayingIndicatorView interLevelSpacing]
+- -[NANowPlayingIndicatorView layoutSubviews]
+- -[NANowPlayingIndicatorView levelCornerRadius]
+- -[NANowPlayingIndicatorView levelGuttersColor]
+- -[NANowPlayingIndicatorView levelWidth]
+- -[NANowPlayingIndicatorView maximumLevelHeight]
+- -[NANowPlayingIndicatorView minimumLevelHeight]
+- -[NANowPlayingIndicatorView numberOfLevels]
+- -[NANowPlayingIndicatorView playbackState]
+- -[NANowPlayingIndicatorView setBounceStyle:]
+- -[NANowPlayingIndicatorView setInterLevelSpacing:]
+- -[NANowPlayingIndicatorView setLevelCornerRadius:]
+- -[NANowPlayingIndicatorView setLevelGuttersColor:]
+- -[NANowPlayingIndicatorView setLevelWidth:]
+- -[NANowPlayingIndicatorView setMaximumLevelHeight:]
+- -[NANowPlayingIndicatorView setMinimumLevelHeight:]
+- -[NANowPlayingIndicatorView setNumberOfLevels:]
+- -[NANowPlayingIndicatorView setPlaybackState:]
+- -[NANowPlayingIndicatorView setShowsLevelGutters:]
+- -[NANowPlayingIndicatorView showsLevelGutters]
+- -[NANowPlayingIndicatorView sizeThatFits:]
+- -[NANowPlayingIndicatorView tintColorDidChange]
+- -[PDFPage(Bridge) na_thumbnailOfSize:forBox:]
+- -[PDFView(Bridge) na_documentScrollView]
+- -[PDFView(Bridge) na_setBackgroundImage:forPage:]
+- <redacted>
+- _CGRectZero
+- _FCCheckExperimentalPaywall
+- _NUContentScaleDecrease
+- _NUContentScaleIncrease
+- _OBJC_CLASS_$_CAAnimationGroup
+- _OBJC_CLASS_$_CAKeyframeAnimation
+- _OBJC_CLASS_$_FCConfigurationManager
+- _OBJC_CLASS_$_FCTagController
+- _OBJC_CLASS_$_NAAssembly
+- _OBJC_CLASS_$_NAAudioButton
+- _OBJC_CLASS_$_NAWeakZoomable
+- _OBJC_CLASS_$_NSArray
+- _OBJC_CLASS_$_NSConstantArray
+- _OBJC_CLASS_$_NSConstantDoubleNumber
+- _OBJC_CLASS_$_NSMutableArray
+- _OBJC_CLASS_$_ReportConcernDetailModule
+- _OBJC_CLASS_$_UIFontMetrics
+- _OBJC_CLASS_$__TtC12NewsArticles10URLHandler
+- _OBJC_CLASS_$__TtC12NewsArticles11ArticleView
+- _OBJC_CLASS_$__TtC12NewsArticles13FocusableView
+- _OBJC_CLASS_$__TtC12NewsArticles13MailPresenter
+- _OBJC_CLASS_$__TtC12NewsArticles15AdComponentView
+- _OBJC_CLASS_$__TtC12NewsArticles15AdIgnorableView
+- _OBJC_CLASS_$__TtC12NewsArticles16AdComponentSizer
+- _OBJC_CLASS_$__TtC12NewsArticles16AdComponentState
+- _OBJC_CLASS_$__TtC12NewsArticles16BrandBarNewsIcon
+- _OBJC_CLASS_$__TtC12NewsArticles16MessagePresenter
+- _OBJC_CLASS_$__TtC12NewsArticles18ProxyConfiguration
+- _OBJC_CLASS_$__TtC12NewsArticles19ArticleShareHandler
+- _OBJC_CLASS_$__TtC12NewsArticles19ArticleViewerModule
+- _OBJC_CLASS_$__TtC12NewsArticles19ReadingListObserver
+- _OBJC_CLASS_$__TtC12NewsArticles19RecipeRadarReporter
+- _OBJC_CLASS_$__TtC12NewsArticles20ArticleFooterPaywall
+- _OBJC_CLASS_$__TtC12NewsArticles20RecipeViewController
+- _OBJC_CLASS_$__TtC12NewsArticles21AdComponentIntegrator
+- _OBJC_CLASS_$__TtC12NewsArticles21DarkModeConfiguration
+- _OBJC_CLASS_$__TtC12NewsArticles21TextSizeControlModule
+- _OBJC_CLASS_$__TtC12NewsArticles22AIHeaderViewController
+- _OBJC_CLASS_$__TtC12NewsArticles22AdComponentViewFactory
+- _OBJC_CLASS_$__TtC12NewsArticles22AdIgnorableViewFactory
+- _OBJC_CLASS_$__TtC12NewsArticles22AnalyticsEventReporter
+- _OBJC_CLASS_$__TtC12NewsArticles22LiveCoverageStatusView
+- _OBJC_CLASS_$__TtC12NewsArticles22PDFReplicaViewerModule
+- _OBJC_CLASS_$__TtC12NewsArticles22SubscribeActionHandler
+- _OBJC_CLASS_$__TtC12NewsArticles23AdComponentSizerFactory
+- _OBJC_CLASS_$__TtC12NewsArticles23ArticleViewerInteractor
+- _OBJC_CLASS_$__TtC12NewsArticles23EndOfArticleDataManager
+- _OBJC_CLASS_$__TtC12NewsArticles23RecipeMoreBarButtonItem
+- _OBJC_CLASS_$__TtC12NewsArticles24ANFDebugSettingsProvider
+- _OBJC_CLASS_$__TtC12NewsArticles24ArticleAdLayoutProcessor
+- _OBJC_CLASS_$__TtC12NewsArticles24LiveCoverageStatusButton
+- _OBJC_CLASS_$__TtC12NewsArticles24PDFReplicaViewController
+- _OBJC_CLASS_$__TtC12NewsArticles25ANFIssueCoverViewProvider
+- _OBJC_CLASS_$__TtC12NewsArticles25EndOfRecipeViewController
+- _OBJC_CLASS_$__TtC12NewsArticles25TableOfContentsHeaderView
+- _OBJC_CLASS_$__TtC12NewsArticles25TableOfContentsURLHandler
+- _OBJC_CLASS_$__TtC12NewsArticles26EndOfArticleViewController
+- _OBJC_CLASS_$__TtC12NewsArticles26SearchInArticleTextToolBar
+- _OBJC_CLASS_$__TtC12NewsArticles26SubscriptionStatusProvider
+- _OBJC_CLASS_$__TtC12NewsArticles26TableOfContentsPDFCellView
+- _OBJC_CLASS_$__TtC12NewsArticles27OfferUpsellScenarioProvider
+- _OBJC_CLASS_$__TtC12NewsArticles27ReportConcernViewController
+- _OBJC_CLASS_$__TtC12NewsArticles28ArticleViewerAppStateMonitor
+- _OBJC_CLASS_$__TtC12NewsArticles28RecipeBannerAdViewController
+- _OBJC_CLASS_$__TtC12NewsArticles29ANFDebugLayoutOptionsProvider
+- _OBJC_CLASS_$__TtC12NewsArticles29ArticleThumbnailComponentView
+- _OBJC_CLASS_$__TtC12NewsArticles29ProxyAuthenticationKeyManager
+- _OBJC_CLASS_$__TtC12NewsArticles29SearchInArticleViewController
+- _OBJC_CLASS_$__TtC12NewsArticles29SponsoredHeaderViewController
+- _OBJC_CLASS_$__TtC12NewsArticles29TableOfContentsViewController
+- _OBJC_CLASS_$__TtC12NewsArticles29TagSubscriptionStatusProvider
+- _OBJC_CLASS_$__TtC12NewsArticles29TextSizeControlViewController
+- _OBJC_CLASS_$__TtC12NewsArticles30PDFReplicaViewerViewController
+- _OBJC_CLASS_$__TtC12NewsArticles30SubscriptionButtonTextProvider
+- _OBJC_CLASS_$__TtC12NewsArticles31ArticleListeningProgressManager
+- _OBJC_CLASS_$__TtC12NewsArticles31PDFReplicaBarVisibilityAnimator
+- _OBJC_CLASS_$__TtC12NewsArticles32ModalArticleViewerViewController
+- _OBJC_CLASS_$__TtC12NewsArticles33RecipeArticleDrawerViewController
+- _OBJC_CLASS_$__TtC12NewsArticles33ReportConcernDetailViewController
+- _OBJC_CLASS_$__TtC12NewsArticles33SharedWithYouHeaderViewController
+- _OBJC_CLASS_$__TtC12NewsArticles34ArticleBottomPaletteViewController
+- _OBJC_CLASS_$__TtC12NewsArticles35InterstitialAdPreviewViewController
+- _OBJC_CLASS_$__TtC12NewsArticles36ANFIssueCoverLayoutAttributesFactory
+- _OBJC_CLASS_$__TtC12NewsArticles36ArticleThumbnailComponentViewFactory
+- _OBJC_CLASS_$__TtC12NewsArticles36NewsletterSubscriptionStatusProvider
+- _OBJC_CLASS_$__TtC12NewsArticles37ANFIssueTableOfContentsViewController
+- _OBJC_CLASS_$__TtC12NewsArticles37ArticleThumbnailComponentSizerFactory
+- _OBJC_CLASS_$__TtC12NewsArticles8BrandBar
+- _OBJC_IVAR_$_NANowPlayingIndicatorView._bounceStyle
+- _OBJC_IVAR_$_NANowPlayingIndicatorView._interLevelSpacing
+- _OBJC_IVAR_$_NANowPlayingIndicatorView._levelCornerRadius
+- _OBJC_IVAR_$_NANowPlayingIndicatorView._levelGuttersColor
+- _OBJC_IVAR_$_NANowPlayingIndicatorView._levelViews
+- _OBJC_IVAR_$_NANowPlayingIndicatorView._levelWidth
+- _OBJC_IVAR_$_NANowPlayingIndicatorView._maximumLevelHeight
+- _OBJC_IVAR_$_NANowPlayingIndicatorView._minimumLevelHeight
+- _OBJC_IVAR_$_NANowPlayingIndicatorView._numberOfLevels
+- _OBJC_IVAR_$_NANowPlayingIndicatorView._playbackState
+- _OBJC_IVAR_$_NANowPlayingIndicatorView._showsLevelGutters
+- _OBJC_IVAR_$_NANowPlayingIndicatorView.bufferingShouldDisplayAsPaused
+- _OBJC_METACLASS_$_NAAssembly
+- _OBJC_METACLASS_$_NAAudioButton
+- _OBJC_METACLASS_$_NAWeakZoomable
+- _OBJC_METACLASS_$_ReportConcernDetailModule
+- _OBJC_METACLASS_$__TtC12NewsArticles10URLHandler
+- _OBJC_METACLASS_$__TtC12NewsArticles11ArticleView
+- _OBJC_METACLASS_$__TtC12NewsArticles13FocusableView
+- _OBJC_METACLASS_$__TtC12NewsArticles13MailPresenter
+- _OBJC_METACLASS_$__TtC12NewsArticles15AdComponentView
+- _OBJC_METACLASS_$__TtC12NewsArticles15AdIgnorableView
+- _OBJC_METACLASS_$__TtC12NewsArticles16AdComponentSizer
+- _OBJC_METACLASS_$__TtC12NewsArticles16AdComponentState
+- _OBJC_METACLASS_$__TtC12NewsArticles16BrandBarNewsIcon
+- _OBJC_METACLASS_$__TtC12NewsArticles16MessagePresenter
+- _OBJC_METACLASS_$__TtC12NewsArticles18ProxyConfiguration
+- _OBJC_METACLASS_$__TtC12NewsArticles19ArticleShareHandler
+- _OBJC_METACLASS_$__TtC12NewsArticles19ArticleViewerModule
+- _OBJC_METACLASS_$__TtC12NewsArticles19ReadingListObserver
+- _OBJC_METACLASS_$__TtC12NewsArticles19RecipeRadarReporter
+- _OBJC_METACLASS_$__TtC12NewsArticles20ArticleFooterPaywall
+- _OBJC_METACLASS_$__TtC12NewsArticles20RecipeViewController
+- _OBJC_METACLASS_$__TtC12NewsArticles21AdComponentIntegrator
+- _OBJC_METACLASS_$__TtC12NewsArticles21DarkModeConfiguration
+- _OBJC_METACLASS_$__TtC12NewsArticles21TextSizeControlModule
+- _OBJC_METACLASS_$__TtC12NewsArticles22AIHeaderViewController
+- _OBJC_METACLASS_$__TtC12NewsArticles22AdComponentViewFactory
+- _OBJC_METACLASS_$__TtC12NewsArticles22AdIgnorableViewFactory
+- _OBJC_METACLASS_$__TtC12NewsArticles22AnalyticsEventReporter
+- _OBJC_METACLASS_$__TtC12NewsArticles22LiveCoverageStatusView
+- _OBJC_METACLASS_$__TtC12NewsArticles22PDFReplicaViewerModule
+- _OBJC_METACLASS_$__TtC12NewsArticles22SubscribeActionHandler
+- _OBJC_METACLASS_$__TtC12NewsArticles23AdComponentSizerFactory
+- _OBJC_METACLASS_$__TtC12NewsArticles23ArticleViewerInteractor
+- _OBJC_METACLASS_$__TtC12NewsArticles23EndOfArticleDataManager
+- _OBJC_METACLASS_$__TtC12NewsArticles23RecipeMoreBarButtonItem
+- _OBJC_METACLASS_$__TtC12NewsArticles24ANFDebugSettingsProvider
+- _OBJC_METACLASS_$__TtC12NewsArticles24ArticleAdLayoutProcessor
+- _OBJC_METACLASS_$__TtC12NewsArticles24LiveCoverageStatusButton
+- _OBJC_METACLASS_$__TtC12NewsArticles24PDFReplicaViewController
+- _OBJC_METACLASS_$__TtC12NewsArticles25ANFIssueCoverViewProvider
+- _OBJC_METACLASS_$__TtC12NewsArticles25EndOfRecipeViewController
+- _OBJC_METACLASS_$__TtC12NewsArticles25TableOfContentsHeaderView
+- _OBJC_METACLASS_$__TtC12NewsArticles25TableOfContentsURLHandler
+- _OBJC_METACLASS_$__TtC12NewsArticles26EndOfArticleViewController
+- _OBJC_METACLASS_$__TtC12NewsArticles26SearchInArticleTextToolBar
+- _OBJC_METACLASS_$__TtC12NewsArticles26SubscriptionStatusProvider
+- _OBJC_METACLASS_$__TtC12NewsArticles26TableOfContentsPDFCellView
+- _OBJC_METACLASS_$__TtC12NewsArticles27OfferUpsellScenarioProvider
+- _OBJC_METACLASS_$__TtC12NewsArticles27ReportConcernViewController
+- _OBJC_METACLASS_$__TtC12NewsArticles28ArticleViewerAppStateMonitor
+- _OBJC_METACLASS_$__TtC12NewsArticles28RecipeBannerAdViewController
+- _OBJC_METACLASS_$__TtC12NewsArticles29ANFDebugLayoutOptionsProvider
+- _OBJC_METACLASS_$__TtC12NewsArticles29ArticleThumbnailComponentView
+- _OBJC_METACLASS_$__TtC12NewsArticles29ArticleVideoAdProviderFactory
+- _OBJC_METACLASS_$__TtC12NewsArticles29ProxyAuthenticationKeyManager
+- _OBJC_METACLASS_$__TtC12NewsArticles29SearchInArticleViewController
+- _OBJC_METACLASS_$__TtC12NewsArticles29SponsoredHeaderViewController
+- _OBJC_METACLASS_$__TtC12NewsArticles29TableOfContentsViewController
+- _OBJC_METACLASS_$__TtC12NewsArticles29TagSubscriptionStatusProvider
+- _OBJC_METACLASS_$__TtC12NewsArticles29TextSizeControlViewController
+- _OBJC_METACLASS_$__TtC12NewsArticles30PDFReplicaViewerViewController
+- _OBJC_METACLASS_$__TtC12NewsArticles30RecipeContentPrefetchOperation
+- _OBJC_METACLASS_$__TtC12NewsArticles30SubscriptionButtonTextProvider
+- _OBJC_METACLASS_$__TtC12NewsArticles31ArticleListeningProgressManager
+- _OBJC_METACLASS_$__TtC12NewsArticles31PDFReplicaBarVisibilityAnimator
+- _OBJC_METACLASS_$__TtC12NewsArticles32ModalArticleViewerViewController
+- _OBJC_METACLASS_$__TtC12NewsArticles33RecipeArticleDrawerViewController
+- _OBJC_METACLASS_$__TtC12NewsArticles33ReportConcernDetailViewController
+- _OBJC_METACLASS_$__TtC12NewsArticles33SharedWithYouHeaderViewController
+- _OBJC_METACLASS_$__TtC12NewsArticles34ArticleBottomPaletteViewController
+- _OBJC_METACLASS_$__TtC12NewsArticles35InterstitialAdPreviewViewController
+- _OBJC_METACLASS_$__TtC12NewsArticles36ANFIssueCoverLayoutAttributesFactory
+- _OBJC_METACLASS_$__TtC12NewsArticles36ArticleThumbnailComponentViewFactory
+- _OBJC_METACLASS_$__TtC12NewsArticles36NewsletterSubscriptionStatusProvider
+- _OBJC_METACLASS_$__TtC12NewsArticles37ANFIssueTableOfContentsViewController
+- _OBJC_METACLASS_$__TtC12NewsArticles37ArticleThumbnailComponentSizerFactory
+- _OBJC_METACLASS_$__TtC12NewsArticles8BrandBar
+- _OBJC_METACLASS_$__TtC12NewsArticlesP33_C03E0B959E775327989EE4DDE248085F14NotifyOnDeinit
+- _OBJC_METACLASS_$__TtC12NewsArticlesP33_D28D6015DE731BE624B02DB54B95AB0426AttributionViewWrapperView
+- _OBJC_METACLASS_$__TtC12NewsArticlesP33_EB63D8792045F9CB316DE87A7AC9CC2D15PassthroughView
+- _OBJC_METACLASS_$__TtC5TeaUI10PillButton
+- _OBJC_METACLASS_$__TtCC12NewsArticles31CookingKitOfflineStatusProviderP33_EF59ED90E032401F143361A339AB67998Observer
+- _SXConvertibleValueMakeFromString
+- _SXNewsletterSubscriptionStatusFromString
+- _SXOfferUpsellScenarioFromString
+- _SXSubscriptionActivationEligibilityFromString
+- _SXSubscriptionStatusFromString
+- _SXViewingLocationFromString
+- _UIEdgeInsetsInsetRect
+- _UIRectFillUsingBlendMode
+- __CATEGORY_INSTANCE_METHODS__TtC8NewsFeed18FeedScalingManager_$_NewsArticles
+- __CATEGORY_PROTOCOLS__TtC8NewsFeed18FeedScalingManager_$_NewsArticles
+- __CATEGORY__TtC8NewsFeed18FeedScalingManager_$_NewsArticles
+- __CLASS_METHODS_NAAudioButton
+- __CLASS_METHODS_NAImages
+- __CLASS_METHODS__TtC12NewsArticles34ArticleNavigationBarPaletteContent
+- __CLASS_PROPERTIES_NAAudioButton
+- __CLASS_PROPERTIES_NAImages
+- __CLASS_PROPERTIES__TtC12NewsArticles34ArticleNavigationBarPaletteContent
+- __DATA_NAArticleFooterContext
+- __DATA_NAAssembly
+- __DATA_NAAudioButton
+- __DATA_NABarButtonItem
+- __DATA_NAEndOfArticlePresentationOptions
+- __DATA_NAImages
+- __DATA_NAPlayableArticleInfo
+- __DATA_NAWeakZoomable
+- __DATA_ReportConcernDetailModule
+- __DATA_TSIssueViewerModule
+- __DATA__TtC12NewsArticles10URLHandler
+- __DATA__TtC12NewsArticles11AdsAssembly
+- __DATA__TtC12NewsArticles11ArticleView
+- __DATA__TtC12NewsArticles11IssueLoader
+- __DATA__TtC12NewsArticles11LinkHandler
+- __DATA__TtC12NewsArticles11TipAssembly
+- __DATA__TtC12NewsArticles12ColorPalette
+- __DATA__TtC12NewsArticles12IssueManager
+- __DATA__TtC12NewsArticles12RecipeModule
+- __DATA__TtC12NewsArticles12RecipeRouter
+- __DATA__TtC12NewsArticles12RecipeStyler
+- __DATA__TtC12NewsArticles13AdDataManager
+- __DATA__TtC12NewsArticles13ArticleModule
+- __DATA__TtC12NewsArticles13ArticleStyler
+- __DATA__TtC12NewsArticles13CancelHandler
+- __DATA__TtC12NewsArticles13FocusableView
+- __DATA__TtC12NewsArticles13MailPresenter
+- __DATA__TtC12NewsArticles13ProxyAssembly
+- __DATA__TtC12NewsArticles13TipInteractor
+- __DATA__TtC12NewsArticles14BrandBarStyler
+- __DATA__TtC12NewsArticles14HistoryService
+- __DATA__TtC12NewsArticles14RecipeAssembly
+- __DATA__TtC12NewsArticles14StylerAssembly
+- __DATA__TtC12NewsArticles15ANFIssueService
+- __DATA__TtC12NewsArticles15AdComponentView
+- __DATA__TtC12NewsArticles15AdIgnorableView
+- __DATA__TtC12NewsArticles15ArticleAssembly
+- __DATA__TtC12NewsArticles15CommandAssembly
+- __DATA__TtC12NewsArticles15FactoryAssembly
+- __DATA__TtC12NewsArticles15ManagerAssembly
+- __DATA__TtC12NewsArticles15OfflineAssembly
+- __DATA__TtC12NewsArticles15ServiceAssembly
+- __DATA__TtC12NewsArticles15SharingAssembly
+- __DATA__TtC12NewsArticles15TipEventHandler
+- __DATA__TtC12NewsArticles15UtilityAssembly
+- __DATA__TtC12NewsArticles16AdComponentSizer
+- __DATA__TtC12NewsArticles16AdComponentState
+- __DATA__TtC12NewsArticles16BrandBarNewsIcon
+- __DATA__TtC12NewsArticles16BrandBarRenderer
+- __DATA__TtC12NewsArticles16HeadlineProvider
+- __DATA__TtC12NewsArticles16MessagePresenter
+- __DATA__TtC12NewsArticles16PDFReplicaModule
+- __DATA__TtC12NewsArticles16PDFReplicaRouter
+- __DATA__TtC12NewsArticles16PDFReplicaStyler
+- __DATA__TtC12NewsArticles16RecipeInteractor
+- __DATA__TtC12NewsArticles16RendererAssembly
+- __DATA__TtC12NewsArticles16TextViewProvider
+- __DATA__TtC12NewsArticles16TipConfigFactory
+- __DATA__TtC12NewsArticles16TipMigrationTask
+- __DATA__TtC12NewsArticles17AdSettingsFactory
+- __DATA__TtC12NewsArticles17AnalyticsAssembly
+- __DATA__TtC12NewsArticles17ArticleInteractor
+- __DATA__TtC12NewsArticles17AssetFetchService
+- __DATA__TtC12NewsArticles17EndOfRecipeConfig
+- __DATA__TtC12NewsArticles17EndOfRecipeModule
+- __DATA__TtC12NewsArticles17EndOfRecipeRouter
+- __DATA__TtC12NewsArticles17EndOfRecipeStyler
+- __DATA__TtC12NewsArticles17IssueViewerRouter
+- __DATA__TtC12NewsArticles17IssueViewerStyler
+- __DATA__TtC12NewsArticles17LiveCoverageState
+- __DATA__TtC12NewsArticles17RecipeDataManager
+- __DATA__TtC12NewsArticles17RecipeImageLoader
+- __DATA__TtC12NewsArticles17RecipeURLProvider
+- __DATA__TtC12NewsArticles17TipViewController
+- __DATA__TtC12NewsArticles18ArticleDataManager
+- __DATA__TtC12NewsArticles18EndOfArticleModule
+- __DATA__TtC12NewsArticles18EndOfArticleRouter
+- __DATA__TtC12NewsArticles18EndOfArticleStyler
+- __DATA__TtC12NewsArticles18IssueLoaderFactory
+- __DATA__TtC12NewsArticles18NewsletterAssembly
+- __DATA__TtC12NewsArticles18PDFReplicaAssembly
+- __DATA__TtC12NewsArticles18ProxyConfiguration
+- __DATA__TtC12NewsArticles18RecipeEventHandler
+- __DATA__TtC12NewsArticles18RecipeViewerModule
+- __DATA__TtC12NewsArticles18RecipeViewerRouter
+- __DATA__TtC12NewsArticles18RecipeViewerStyler
+- __DATA__TtC12NewsArticles18SavedRecipeService
+- __DATA__TtC12NewsArticles18SearchableDelegate
+- __DATA__TtC12NewsArticles18ZoomCommandHandler
+- __DATA__TtC12NewsArticles19AccessLevelProvider
+- __DATA__TtC12NewsArticles19AdComponentAssembly
+- __DATA__TtC12NewsArticles19ArticleEventHandler
+- __DATA__TtC12NewsArticles19ArticleMessageLabel
+- __DATA__TtC12NewsArticles19ArticleShareHandler
+- __DATA__TtC12NewsArticles19ArticleViewerModule
+- __DATA__TtC12NewsArticles19ArticleViewerRouter
+- __DATA__TtC12NewsArticles19ArticleViewerStyler
+- __DATA__TtC12NewsArticles19EndOfRecipeAssembly
+- __DATA__TtC12NewsArticles19EndOfRecipeFeedPool
+- __DATA__TtC12NewsArticles19IssueArticleService
+- __DATA__TtC12NewsArticles19IssueViewerAssembly
+- __DATA__TtC12NewsArticles19ReadingListObserver
+- __DATA__TtC12NewsArticles19RecipeRadarReporter
+- __DATA__TtC12NewsArticles19RecipeViewerTracker
+- __DATA__TtC12NewsArticles19ReportConcernModule
+- __DATA__TtC12NewsArticles19ReportConcernRouter
+- __DATA__TtC12NewsArticles19ReportConcernStyler
+- __DATA__TtC12NewsArticles19SavedStatusProvider
+- __DATA__TtC12NewsArticles20ArticleFooterPaywall
+- __DATA__TtC12NewsArticles20ArticlePagePrewarmer
+- __DATA__TtC12NewsArticles20EndOfArticleAssembly
+- __DATA__TtC12NewsArticles20EndOfArticleFeedPool
+- __DATA__TtC12NewsArticles20InterstitialAdModule
+- __DATA__TtC12NewsArticles20InterstitialAdRouter
+- __DATA__TtC12NewsArticles20InterstitialAdStyler
+- __DATA__TtC12NewsArticles20NowPlayingURLHandler
+- __DATA__TtC12NewsArticles20PDFReplicaInteractor
+- __DATA__TtC12NewsArticles20RecipeSharingHandler
+- __DATA__TtC12NewsArticles20RecipeViewController
+- __DATA__TtC12NewsArticles20RecipeViewerAssembly
+- __DATA__TtC12NewsArticles20ReportConcernCommand
+- __DATA__TtC12NewsArticles20ReportConcernService
+- __DATA__TtC12NewsArticles20SharedStatusProvider
+- __DATA__TtC12NewsArticles20StubTipConfigFactory
+- __DATA__TtC12NewsArticles20SubscriptionAssembly
+- __DATA__TtC12NewsArticles21AdComponentIntegrator
+- __DATA__TtC12NewsArticles21ArticleAudioPrewarmer
+- __DATA__TtC12NewsArticles21ArticleFooterProvider
+- __DATA__TtC12NewsArticles21ArticleHeaderProvider
+- __DATA__TtC12NewsArticles21ArticlePreviewManager
+- __DATA__TtC12NewsArticles21ArticlePreviewService
+- __DATA__TtC12NewsArticles21ArticleViewController
+- __DATA__TtC12NewsArticles21ArticleViewerAssembly
+- __DATA__TtC12NewsArticles21ArticleViewerFeatures
+- __DATA__TtC12NewsArticles21BrandBarConfigManager
+- __DATA__TtC12NewsArticles21CurrentRecipeUserData
+- __DATA__TtC12NewsArticles21DarkModeConfiguration
+- __DATA__TtC12NewsArticles21InterstitialAdManager
+- __DATA__TtC12NewsArticles21InterstitialAdTracker
+- __DATA__TtC12NewsArticles21IssueViewerInteractor
+- __DATA__TtC12NewsArticles21NowPlayingMenuFactory
+- __DATA__TtC12NewsArticles21PDFReplicaDataManager
+- __DATA__TtC12NewsArticles21RecipeBannerAdFactory
+- __DATA__TtC12NewsArticles21RecipeHistoryProvider
+- __DATA__TtC12NewsArticles21RecipeUserDataManager
+- __DATA__TtC12NewsArticles21ReportConcernAssembly
+- __DATA__TtC12NewsArticles21SearchInArticleModule
+- __DATA__TtC12NewsArticles21SharingCommandHandler
+- __DATA__TtC12NewsArticles21TableOfContentsModule
+- __DATA__TtC12NewsArticles21TableOfContentsRouter
+- __DATA__TtC12NewsArticles21TableOfContentsStyler
+- __DATA__TtC12NewsArticles21TextSizeControlModule
+- __DATA__TtC12NewsArticles21TextSizeControlStyler
+- __DATA__TtC12NewsArticles21WeakRecipeCoordinator
+- __DATA__TtC12NewsArticles22AIHeaderViewController
+- __DATA__TtC12NewsArticles22AdComponentViewFactory
+- __DATA__TtC12NewsArticles22AdIgnorableViewFactory
+- __DATA__TtC12NewsArticles22AnalyticsEventReporter
+- __DATA__TtC12NewsArticles22ArticleBannerAdFactory
+- __DATA__TtC12NewsArticles22ArticleFeatureProvider
+- __DATA__TtC12NewsArticles22ArticleProviderService
+- __DATA__TtC12NewsArticles22ContentPrefetchManager
+- __DATA__TtC12NewsArticles22EndOfRecipeDataManager
+- __DATA__TtC12NewsArticles22InterstitialAdAssembly
+- __DATA__TtC12NewsArticles22IssueViewerDataManager
+- __DATA__TtC12NewsArticles22LiveCoverageStatusView
+- __DATA__TtC12NewsArticles22NoSelectedTextProvider
+- __DATA__TtC12NewsArticles22NoopAudioActionHandler
+- __DATA__TtC12NewsArticles22PDFReplicaEventHandler
+- __DATA__TtC12NewsArticles22PDFReplicaViewerModule
+- __DATA__TtC12NewsArticles22PDFReplicaViewerRouter
+- __DATA__TtC12NewsArticles22PDFReplicaViewerStyler
+- __DATA__TtC12NewsArticles22RecipeViewerInteractor
+- __DATA__TtC12NewsArticles22SubscribeActionHandler
+- __DATA__TtC12NewsArticles23AdComponentSizerFactory
+- __DATA__TtC12NewsArticles23ArticleViewerInteractor
+- __DATA__TtC12NewsArticles23EndOfArticleDataManager
+- __DATA__TtC12NewsArticles23EndOfArticleItemFactory
+- __DATA__TtC12NewsArticles23EndOfRecipeEventHandler
+- __DATA__TtC12NewsArticles23EndOfRecipeModelFactory
+- __DATA__TtC12NewsArticles23HeadlineProviderFactory
+- __DATA__TtC12NewsArticles23IssueViewerEventHandler
+- __DATA__TtC12NewsArticles23PDFReplicaPagePrewarmer
+- __DATA__TtC12NewsArticles23ReadStoryCommandHandler
+- __DATA__TtC12NewsArticles23RecipeBannerAdRequester
+- __DATA__TtC12NewsArticles23RecipeContentPrefetcher
+- __DATA__TtC12NewsArticles23RecipeMoreBarButtonItem
+- __DATA__TtC12NewsArticles23RecipeViewerDataManager
+- __DATA__TtC12NewsArticles23SearchInArticleAssembly
+- __DATA__TtC12NewsArticles23TableOfContentsAssembly
+- __DATA__TtC12NewsArticles23TextAttributionProvider
+- __DATA__TtC12NewsArticles23TextSizeControlAssembly
+- __DATA__TtC12NewsArticles23TipDialogRequestFactory
+- __DATA__TtC12NewsArticles24ANFDebugSettingsProvider
+- __DATA__TtC12NewsArticles24ArticleAdLayoutProcessor
+- __DATA__TtC12NewsArticles24ArticleBannerAdRequester
+- __DATA__TtC12NewsArticles24ArticleViewerDataManager
+- __DATA__TtC12NewsArticles24ArticleViewerPageTracker
+- __DATA__TtC12NewsArticles24AudioArticleViewerStyler
+- __DATA__TtC12NewsArticles24BrandBarAnimationFactory
+- __DATA__TtC12NewsArticles24CompositeTrackPlayerItem
+- __DATA__TtC12NewsArticles24ConfirmationToastFactory
+- __DATA__TtC12NewsArticles24EndOfArticleEventHandler
+- __DATA__TtC12NewsArticles24EndOfArticleModelFactory
+- __DATA__TtC12NewsArticles24InterstitialAdInteractor
+- __DATA__TtC12NewsArticles24LiveCoverageStatusButton
+- __DATA__TtC12NewsArticles24ModalArticleViewerModule
+- __DATA__TtC12NewsArticles24ModalArticleViewerRouter
+- __DATA__TtC12NewsArticles24PDFReplicaViewController
+- __DATA__TtC12NewsArticles24PDFReplicaViewerAssembly
+- __DATA__TtC12NewsArticles24RecipeViewerEventHandler
+- __DATA__TtC12NewsArticles24ReportConcernDataManager
+- __DATA__TtC12NewsArticles24TipViewControllerFactory
+- __DATA__TtC12NewsArticles24UserConcernConfigManager
+- __DATA__TtC12NewsArticles24WeakSelectedTextProvider
+- __DATA__TtC12NewsArticles25ANFIssueCoverViewProvider
+- __DATA__TtC12NewsArticles25ArticlePrerollAdRequester
+- __DATA__TtC12NewsArticles25ArticleViewerEventHandler
+- __DATA__TtC12NewsArticles25ArticleViewerMenuProvider
+- __DATA__TtC12NewsArticles25CampaignLandingPageModule
+- __DATA__TtC12NewsArticles25CampaignLandingPageStyler
+- __DATA__TtC12NewsArticles25CopyArticleCommandHandler
+- __DATA__TtC12NewsArticles25EndOfArticleResultFactory
+- __DATA__TtC12NewsArticles25EndOfRecipeSectionFactory
+- __DATA__TtC12NewsArticles25EndOfRecipeViewController
+- __DATA__TtC12NewsArticles25InterstitialAdDataManager
+- __DATA__TtC12NewsArticles25IssueViewerViewController
+- __DATA__TtC12NewsArticles25ModalArticleViewerTracker
+- __DATA__TtC12NewsArticles25NoopArticleAudioPrewarmer
+- __DATA__TtC12NewsArticles25RecipeArticleDrawerModule
+- __DATA__TtC12NewsArticles25RecipeArticleDrawerRouter
+- __DATA__TtC12NewsArticles25RecipeBlueprintRouteModel
+- __DATA__TtC12NewsArticles25ReportConcernDetailRouter
+- __DATA__TtC12NewsArticles25ReportConcernDetailStyler
+- __DATA__TtC12NewsArticles25ReportConcernEventHandler
+- __DATA__TtC12NewsArticles25TableOfContentsHeaderView
+- __DATA__TtC12NewsArticles25TableOfContentsURLHandler
+- __DATA__TtC12NewsArticles26ArticleBlueprintRouteModel
+- __DATA__TtC12NewsArticles26ArticleBottomPaletteStyler
+- __DATA__TtC12NewsArticles26AudioArticleMessageUpdater
+- __DATA__TtC12NewsArticles26BlueprintRecipeViewerToken
+- __DATA__TtC12NewsArticles26EndOfArticleSectionFactory
+- __DATA__TtC12NewsArticles26EndOfArticleViewController
+- __DATA__TtC12NewsArticles26EndOfRecipeFeedPoolService
+- __DATA__TtC12NewsArticles26InterstitialAdEventHandler
+- __DATA__TtC12NewsArticles26InterstitialAdModelFactory
+- __DATA__TtC12NewsArticles26IssuePDFReplicaPageService
+- __DATA__TtC12NewsArticles26IssueTableOfContentsModule
+- __DATA__TtC12NewsArticles26MarkAsCookedCommandHandler
+- __DATA__TtC12NewsArticles26ModalArticleViewerAssembly
+- __DATA__TtC12NewsArticles26NoPlayingAudioInfoProvider
+- __DATA__TtC12NewsArticles26OpenInSafariCommandHandler
+- __DATA__TtC12NewsArticles26PDFReplicaViewerInteractor
+- __DATA__TtC12NewsArticles26RecipeCoordinatorContainer
+- __DATA__TtC12NewsArticles26RecipeRecirculationService
+- __DATA__TtC12NewsArticles26RecipeViewerViewController
+- __DATA__TtC12NewsArticles26ReplicaAdvertisementStyler
+- __DATA__TtC12NewsArticles26SearchInArticleTextToolBar
+- __DATA__TtC12NewsArticles26SubscriptionStatusProvider
+- __DATA__TtC12NewsArticles26TableOfContentsPDFCellView
+- __DATA__TtC12NewsArticles27ArticleRecirculationService
+- __DATA__TtC12NewsArticles27ArticleViewerArticleFactory
+- __DATA__TtC12NewsArticles27ArticleViewerFeatureManager
+- __DATA__TtC12NewsArticles27ArticleViewerViewController
+- __DATA__TtC12NewsArticles27BlueprintArticleViewerToken
+- __DATA__TtC12NewsArticles27BrandBarNavigationAnimation
+- __DATA__TtC12NewsArticles27CampaignLandingPageAssembly
+- __DATA__TtC12NewsArticles27DisabledNowPlayingPresenter
+- __DATA__TtC12NewsArticles27EndOfArticleFeedPoolService
+- __DATA__TtC12NewsArticles27InterstitialAdPreviewModule
+- __DATA__TtC12NewsArticles27InterstitialAdPreviewRouter
+- __DATA__TtC12NewsArticles27InterstitialAdPreviewStyler
+- __DATA__TtC12NewsArticles27IssueReadingHistoryRecorder
+- __DATA__TtC12NewsArticles27OfferUpsellScenarioAssembly
+- __DATA__TtC12NewsArticles27OfferUpsellScenarioProvider
+- __DATA__TtC12NewsArticles27PDFReplicaViewerDataManager
+- __DATA__TtC12NewsArticles27RecipeArticleDrawerAssembly
+- __DATA__TtC12NewsArticles27ReloadArticleCommandHandler
+- __DATA__TtC12NewsArticles27ReportConcernCommandHandler
+- __DATA__TtC12NewsArticles27ReportConcernDetailAssembly
+- __DATA__TtC12NewsArticles27ReportConcernViewController
+- __DATA__TtC12NewsArticles27TableOfContentsEventHandler
+- __DATA__TtC12NewsArticles28AIHeaderViewControllerStyler
+- __DATA__TtC12NewsArticles28AlertOpenBlockedStoryFactory
+- __DATA__TtC12NewsArticles28ArticleScrollPositionManager
+- __DATA__TtC12NewsArticles28ArticleViewerAppStateMonitor
+- __DATA__TtC12NewsArticles28EndOfRecipeFeedConfigManager
+- __DATA__TtC12NewsArticles28InterstitialAdPreviewTracker
+- __DATA__TtC12NewsArticles28ModalArticleViewerInteractor
+- __DATA__TtC12NewsArticles28PDFReplicaViewerEventHandler
+- __DATA__TtC12NewsArticles28PDFReplicaViewerMenuProvider
+- __DATA__TtC12NewsArticles28RecipeArticleDrawerViewModel
+- __DATA__TtC12NewsArticles28RecipeBannerAdViewController
+- __DATA__TtC12NewsArticles29ANFDebugLayoutOptionsProvider
+- __DATA__TtC12NewsArticles29ArticleReadingHistoryRecorder
+- __DATA__TtC12NewsArticles29ArticleThumbnailComponentView
+- __DATA__TtC12NewsArticles29ArticleVideoAdProviderFactory
+- __DATA__TtC12NewsArticles29CampaignLandingPageInteractor
+- __DATA__TtC12NewsArticles29EndOfArticleFeedConfigManager
+- __DATA__TtC12NewsArticles29InterstitialAdHistoryRecorder
+- __DATA__TtC12NewsArticles29InterstitialAdPreviewAssembly
+- __DATA__TtC12NewsArticles29ProxyAuthenticationKeyManager
+- __DATA__TtC12NewsArticles29RecipeViewerBlueprintProvider
+- __DATA__TtC12NewsArticles29SearchInArticleViewController
+- __DATA__TtC12NewsArticles29SharingCompleteCommandHandler
+- __DATA__TtC12NewsArticles29SponsoredHeaderViewController
+- __DATA__TtC12NewsArticles29TableOfContentsViewController
+- __DATA__TtC12NewsArticles29TagSubscriptionStatusAssembly
+- __DATA__TtC12NewsArticles29TagSubscriptionStatusProvider
+- __DATA__TtC12NewsArticles29TextSizeControlViewController
+- __DATA__TtC12NewsArticles30AIHeaderViewControllerRenderer
+- __DATA__TtC12NewsArticles30ArticleThumbnailComponentSizer
+- __DATA__TtC12NewsArticles30ArticleViewerBlueprintProvider
+- __DATA__TtC12NewsArticles30ArticleViewerImpressionManager
+- __DATA__TtC12NewsArticles30AudioMediaServicesResetHandler
+- __DATA__TtC12NewsArticles30ModalArticleViewerEventHandler
+- __DATA__TtC12NewsArticles30PDFReplicaViewerViewController
+- __DATA__TtC12NewsArticles30RecipeContentPrefetchOperation
+- __DATA__TtC12NewsArticles30ReportConcernDetailDataManager
+- __DATA__TtC12NewsArticles30SubscriptionButtonTextProvider
+- __DATA__TtC12NewsArticles30WebContentLoadEventTransformer
+- __DATA__TtC12NewsArticles31ArticleBannerAdPlacementFactory
+- __DATA__TtC12NewsArticles31ArticleBannerAdRequesterFactory
+- __DATA__TtC12NewsArticles31ArticleListeningProgressManager
+- __DATA__TtC12NewsArticles31ArticleLoadingIndicatorProvider
+- __DATA__TtC12NewsArticles31AudioArtworkImageRequestFactory
+- __DATA__TtC12NewsArticles31AudioRemoteCommandCenterManager
+- __DATA__TtC12NewsArticles31AudioSessionInterruptionHandler
+- __DATA__TtC12NewsArticles31CampaignLandingPageEventHandler
+- __DATA__TtC12NewsArticles31CookingKitOfflineStatusProvider
+- __DATA__TtC12NewsArticles31InterstitialAdPreviewInteractor
+- __DATA__TtC12NewsArticles31PDFReplicaBarVisibilityAnimator
+- __DATA__TtC12NewsArticles31PostPurchaseOnboardingPrewarmer
+- __DATA__TtC12NewsArticles31RemoveFromHistoryCommandHandler
+- __DATA__TtC12NewsArticles31ReportConcernDetailEventHandler
+- __DATA__TtC12NewsArticles31TableOfContentsHeaderViewStyler
+- __DATA__TtC12NewsArticles31URLPreviewViewControllerFactory
+- __DATA__TtC12NewsArticles32AnalyticsEventTransformerManager
+- __DATA__TtC12NewsArticles32ArticleViewerBlueprintRouteModel
+- __DATA__TtC12NewsArticles32AudioCompletedListeningProcessor
+- __DATA__TtC12NewsArticles32AudioNowPlayingInfoCenterManager
+- __DATA__TtC12NewsArticles32CookingKitExternalRecipeHydrator
+- __DATA__TtC12NewsArticles32InterstitialAdPreviewDataManager
+- __DATA__TtC12NewsArticles32LinkTapAnalyticsEventTransformer
+- __DATA__TtC12NewsArticles32ModalArticleViewerViewController
+- __DATA__TtC12NewsArticles32MoreArticleViewerFeatureProvider
+- __DATA__TtC12NewsArticles32RecipeViewerBarButtonItemFactory
+- __DATA__TtC12NewsArticles32RecipeViewerPageBlueprintFactory
+- __DATA__TtC12NewsArticles32SaveArticleViewerFeatureProvider
+- __DATA__TtC12NewsArticles32TableOfContentsPDFCellViewStyler
+- __DATA__TtC12NewsArticles33ArticleMastheadRootViewController
+- __DATA__TtC12NewsArticles33ArticleRecirculationConfigFactory
+- __DATA__TtC12NewsArticles33ArticleThumbnailComponentAssembly
+- __DATA__TtC12NewsArticles33ArticleViewerOverflowMenuProvider
+- __DATA__TtC12NewsArticles33ArticleViewerPageBlueprintFactory
+- __DATA__TtC12NewsArticles33AudioArticleViewerFeatureProvider
+- __DATA__TtC12NewsArticles33CampaignLandingPageViewController
+- __DATA__TtC12NewsArticles33EndOfRecipeBlueprintLayoutBuilder
+- __DATA__TtC12NewsArticles33EndOfRecipeViewControllerProvider
+- __DATA__TtC12NewsArticles33ExportToGroceryListCommandHandler
+- __DATA__TtC12NewsArticles33InterstitialAdPreviewEventHandler
+- __DATA__TtC12NewsArticles33IssueTableOfContentsActionHandler
+- __DATA__TtC12NewsArticles33PDFReplicaViewerPrewarmerProvider
+- __DATA__TtC12NewsArticles33RecipeArticleDrawerViewController
+- __DATA__TtC12NewsArticles33ReportConcernDetailCommandHandler
+- __DATA__TtC12NewsArticles33ReportConcernDetailViewController
+- __DATA__TtC12NewsArticles33ShareArticleViewerFeatureProvider
+- __DATA__TtC12NewsArticles33SharedWithYouHeaderViewController
+- __DATA__TtC12NewsArticles33TableOfContentsHeaderViewRenderer
+- __DATA__TtC12NewsArticles34ArticleBottomPalettePluginProvider
+- __DATA__TtC12NewsArticles34ArticleBottomPaletteViewController
+- __DATA__TtC12NewsArticles34ArticleNavigationBarPaletteContent
+- __DATA__TtC12NewsArticles34ArticleViewerPagePrewarmerProvider
+- __DATA__TtC12NewsArticles34EndOfArticleBlueprintLayoutBuilder
+- __DATA__TtC12NewsArticles34EndOfRecipeFeedGroupEmitterFactory
+- __DATA__TtC12NewsArticles34MediaViewAnalyticsEventTransformer
+- __DATA__TtC12NewsArticles34OpenRatingsInspectorCommandHandler
+- __DATA__TtC12NewsArticles34PDFReplicaBarVisibilityCoordinator
+- __DATA__TtC12NewsArticles34PDFReplicaLoadingIndicatorProvider
+- __DATA__TtC12NewsArticles34RecipeArticleViewerFeatureProvider
+- __DATA__TtC12NewsArticles34SubscriptionAccessMeterIncrementer
+- __DATA__TtC12NewsArticles34TableOfContentsPDFCellViewRenderer
+- __DATA__TtC12NewsArticles35AdPolicyViewportEnvironmentProvider
+- __DATA__TtC12NewsArticles35BrandBarToolbarCompressionAnimation
+- __DATA__TtC12NewsArticles35EndOfArticleFeedGroupEmitterFactory
+- __DATA__TtC12NewsArticles35EndOfRecipeBlueprintModifierFactory
+- __DATA__TtC12NewsArticles35EndOfRecipeFeedServiceConfigFetcher
+- __DATA__TtC12NewsArticles35InterstitialAdPreviewViewController
+- __DATA__TtC12NewsArticles35RelatedEndOfArticleFeedGroupEmitter
+- __DATA__TtC12NewsArticles35ReportConcernBlueprintLayoutBuilder
+- __DATA__TtC12NewsArticles35SponsoredHeaderViewControllerStyler
+- __DATA__TtC12NewsArticles36ANFIssueCoverLayoutAttributesFactory
+- __DATA__TtC12NewsArticles36ArticleNavigationBarMessageContainer
+- __DATA__TtC12NewsArticles36ArticleThumbnailComponentViewFactory
+- __DATA__TtC12NewsArticles36ArticleViewerViewNavigationItemStash
+- __DATA__TtC12NewsArticles36EndOfArticleBlueprintModifierFactory
+- __DATA__TtC12NewsArticles36EndOfArticleFeedServiceConfigFetcher
+- __DATA__TtC12NewsArticles36EndOfRecipeBlueprintViewCellProvider
+- __DATA__TtC12NewsArticles36IssueEmbeddableViewControllerFactory
+- __DATA__TtC12NewsArticles36MediaEngageAnalyticsEventTransformer
+- __DATA__TtC12NewsArticles36ModalArticleViewerAudioActionHandler
+- __DATA__TtC12NewsArticles36MoreFromEndOfArticleFeedGroupEmitter
+- __DATA__TtC12NewsArticles36NewsletterSubscriptionStatusProvider
+- __DATA__TtC12NewsArticles36PDFReplicaViewerPageBlueprintFactory
+- __DATA__TtC12NewsArticles36RecipeBannerAdViewControllerProvider
+- __DATA__TtC12NewsArticles37ANFIssueTableOfContentsViewController
+- __DATA__TtC12NewsArticles37ArticleThumbnailComponentSizerFactory
+- __DATA__TtC12NewsArticles37EndOfArticleBlueprintViewCellProvider
+- __DATA__TtC12NewsArticles37ReportConcernBlueprintModifierFactory
+- __DATA__TtC12NewsArticles37SponsoredHeaderViewControllerRenderer
+- __DATA__TtC12NewsArticles37TableOfContentsBlueprintLayoutBuilder
+- __DATA__TtC12NewsArticles38ArticleScrollAnalyticsEventTransformer
+- __DATA__TtC12NewsArticles38AudioMiniPlayerPresentationStartupTask
+- __DATA__TtC12NewsArticles38MediaExposureAnalyticsEventTransformer
+- __DATA__TtC12NewsArticles38MoreToReadEndOfArticleFeedGroupEmitter
+- __DATA__TtC12NewsArticles38PDFReplicaViewerViewControllerProvider
+- __DATA__TtC12NewsArticles38RecipeViewerPageViewControllerProvider
+- __DATA__TtC12NewsArticles38ReportConcernBlueprintViewCellProvider
+- __DATA__TtC12NewsArticles38TextResizeArticleViewerFeatureProvider
+- __DATA__TtC12NewsArticles39ArticleViewerPageViewControllerProvider
+- __DATA__TtC12NewsArticles39LikeDislikeArticleViewerFeatureProvider
+- __DATA__TtC12NewsArticles39RecipeRecirculationConfigurationService
+- __DATA__TtC12NewsArticles39RecommendedEndOfArticleFeedGroupEmitter
+- __DATA__TtC12NewsArticles39SharedWithYouHeaderViewControllerStyler
+- __DATA__TtC12NewsArticles39TableOfContentsBlueprintModifierFactory
+- __DATA__TtC12NewsArticles40ArticleRecirculationConfigurationService
+- __DATA__TtC12NewsArticles40InsertAdvertisementPageBlueprintModifier
+- __DATA__TtC12NewsArticles40OverflowMenuArticleViewerFeatureProvider
+- __DATA__TtC12NewsArticles40RemoveAdvertisementPageBlueprintModifier
+- __DATA__TtC12NewsArticles40ReportConcernBlueprintViewHeaderProvider
+- __DATA__TtC12NewsArticles40TableOfContentsBlueprintViewCellProvider
+- __DATA__TtC12NewsArticles41DeeplinkArticlePresentationContextService
+- __DATA__TtC12NewsArticles41MoreFromIssueEndOfArticleFeedGroupEmitter
+- __DATA__TtC12NewsArticles41ReportConcernDetailBlueprintLayoutBuilder
+- __DATA__TtC12NewsArticles41SharedWithYouHeaderViewControllerRenderer
+- __DATA__TtC12NewsArticles42ComponentExposureAnalyticsEventTransformer
+- __DATA__TtC12NewsArticles42OverflowMenuArticleViewerFeatureTransition
+- __DATA__TtC12NewsArticles42SaveArticleViewerFeatureVisibilityProvider
+- __DATA__TtC12NewsArticles43ArticleViewerBarCompressionAnimationFactory
+- __DATA__TtC12NewsArticles43EmptyArticleViewerFeatureTransitionAnimator
+- __DATA__TtC12NewsArticles43ReportConcernDetailBlueprintModifierFactory
+- __DATA__TtC12NewsArticles43ShareArticleViewerFeatureVisibilityProvider
+- __DATA__TtC12NewsArticles43SharedArticleBottomPaletteFeatureDescriptor
+- __DATA__TtC12NewsArticles44CookingKitOfflineContentAvailabilityProvider
+- __DATA__TtC12NewsArticles44MediaEngageCompleteAnalyticsEventTransformer
+- __DATA__TtC12NewsArticles44ReplicaAdvertisementLoadingIndicatorProvider
+- __DATA__TtC12NewsArticles44ReportConcernDetailBlueprintViewCellProvider
+- __DATA__TtC12NewsArticles46ReportConcernDetailBlueprintViewHeaderProvider
+- __DATA__TtC12NewsArticles47ModalSaveArticleViewerFeatureVisibilityProvider
+- __DATA__TtC12NewsArticles49EndOfRecipeBlueprintViewSupplementaryViewProvider
+- __DATA__TtC12NewsArticles49LikeDislikeArticleViewerFeatureVisibilityProvider
+- __DATA__TtC12NewsArticles49LiveCoverageArticleBottomPaletteFeatureDescriptor
+- __DATA__TtC12NewsArticles50EndOfArticleBlueprintViewSupplementaryViewProvider
+- __DATA__TtC12NewsArticles53TableOfContentsBlueprintViewSupplementaryViewProvider
+- __DATA__TtC12NewsArticles54ModalLikeDislikeArticleViewerFeatureVisibilityProvider
+- __DATA__TtC12NewsArticles6Router
+- __DATA__TtC12NewsArticles8BrandBar
+- __DATA__TtC12NewsArticles9TipRouter
+- __DATA__TtC12NewsArticlesP33_03D352CB52A844A850D0B03681801B2C19ResourceBundleClass
+- __DATA__TtC12NewsArticlesP33_20682026FDEE23AD802E861AE9DB55679Localized
+- __DATA__TtC12NewsArticlesP33_47DCD0B7BC3245DD6E140C66842EC9C27Tracker
+- __DATA__TtC12NewsArticlesP33_A980B14E2B39EF8B6827173E8EE57D7133UnthrottledContentPrefetchManager
+- __DATA__TtC12NewsArticlesP33_C03E0B959E775327989EE4DDE248085F14NotifyOnDeinit
+- __DATA__TtC12NewsArticlesP33_D28D6015DE731BE624B02DB54B95AB0426AttributionViewWrapperView
+- __DATA__TtC12NewsArticlesP33_EB63D8792045F9CB316DE87A7AC9CC2D15PassthroughView
+- __DATA__TtCC12NewsArticles18SavedRecipeServiceP33_E478F8572AB02776F2CE7A8A5902D12B8Observer
+- __DATA__TtCC12NewsArticles27ArticleViewerFeatureManagerP33_21B94012A68AC1CB22AFD9FE166F619322FeatureProviderWrapper
+- __DATA__TtCC12NewsArticles31CookingKitOfflineStatusProviderP33_EF59ED90E032401F143361A339AB67998Observer
+- __DATA__TtCE12NewsArticlesVVE5TeaUIC11TeaSettings8Settings4Tips5Debug27RecipeChromeConfigOverrides
+- __DATA__TtCO12NewsArticles10NowPlaying11CurrentItem
+- __DATA__TtCO12NewsArticles10NowPlaying16SpeedPickerModel
+- __DATA__TtCVE12NewsArticlesC11TeaSettings8Settings11Compression20CompressionOverrides
+- __DATA__TtCVE12NewsArticlesC11TeaSettings8Settings3ANF11Conditional
+- __DATA__TtCVE12NewsArticlesC11TeaSettings8Settings3ANF19EmbedProxyOverrides
+- __DATA__TtCVE12NewsArticlesC11TeaSettings8Settings3ANF8DarkMode
+- __DATA__TtCVVE12NewsArticlesC11TeaSettings8Settings19NewsArticlesModules15EndOfRecipeFeed15ConfigOverrides
+- __DATA__TtCVVE12NewsArticlesC11TeaSettings8Settings19NewsArticlesModules16EndOfArticleFeed15ConfigOverrides
+- __INSTANCE_METHODS_NAArticleFooterContext
+- __INSTANCE_METHODS_NAAssembly
+- __INSTANCE_METHODS_NAAudioButton
+- __INSTANCE_METHODS_NABarButtonItem
+- __INSTANCE_METHODS_NAEndOfArticlePresentationOptions
+- __INSTANCE_METHODS_NAImages
+- __INSTANCE_METHODS_NAPlayableArticleInfo
+- __INSTANCE_METHODS_ReportConcernDetailModule
+- __INSTANCE_METHODS_TSIssueViewerModule
+- __INSTANCE_METHODS__TtC12NewsArticles11ArticleView
+- __INSTANCE_METHODS__TtC12NewsArticles11AudioPlayer
+- __INSTANCE_METHODS__TtC12NewsArticles13FocusableView
+- __INSTANCE_METHODS__TtC12NewsArticles15AdComponentView
+- __INSTANCE_METHODS__TtC12NewsArticles15AdIgnorableView
+- __INSTANCE_METHODS__TtC12NewsArticles16AdComponentState
+- __INSTANCE_METHODS__TtC12NewsArticles16BrandBarNewsIcon
+- __INSTANCE_METHODS__TtC12NewsArticles16MessagePresenter
+- __INSTANCE_METHODS__TtC12NewsArticles17WebViewController
+- __INSTANCE_METHODS__TtC12NewsArticles18ProxyConfiguration
+- __INSTANCE_METHODS__TtC12NewsArticles19ArticleMessageLabel
+- __INSTANCE_METHODS__TtC12NewsArticles19ArticleShareHandler
+- __INSTANCE_METHODS__TtC12NewsArticles19ArticleViewerModule
+- __INSTANCE_METHODS__TtC12NewsArticles19RecipeRadarReporter
+- __INSTANCE_METHODS__TtC12NewsArticles20ArticleFooterPaywall
+- __INSTANCE_METHODS__TtC12NewsArticles20ReportConcernCommand
+- __INSTANCE_METHODS__TtC12NewsArticles21AdComponentIntegrator
+- __INSTANCE_METHODS__TtC12NewsArticles21TextSizeControlModule
+- __INSTANCE_METHODS__TtC12NewsArticles22AIHeaderViewController
+- __INSTANCE_METHODS__TtC12NewsArticles22AdComponentViewFactory
+- __INSTANCE_METHODS__TtC12NewsArticles22AdIgnorableViewFactory
+- __INSTANCE_METHODS__TtC12NewsArticles22AudioPlaybackConductor
+- __INSTANCE_METHODS__TtC12NewsArticles22EndOfArticleInteractor
+- __INSTANCE_METHODS__TtC12NewsArticles22LiveCoverageStatusView
+- __INSTANCE_METHODS__TtC12NewsArticles22PDFReplicaViewerModule
+- __INSTANCE_METHODS__TtC12NewsArticles23AdComponentSizerFactory
+- __INSTANCE_METHODS__TtC12NewsArticles23EndOfArticleDataManager
+- __INSTANCE_METHODS__TtC12NewsArticles23RecipeContentPrefetcher
+- __INSTANCE_METHODS__TtC12NewsArticles23RecipeMoreBarButtonItem
+- __INSTANCE_METHODS__TtC12NewsArticles24ArticleAdLayoutProcessor
+- __INSTANCE_METHODS__TtC12NewsArticles24LiveCoverageStatusButton
+- __INSTANCE_METHODS__TtC12NewsArticles24WebViewControllerFactory
+- __INSTANCE_METHODS__TtC12NewsArticles25ANFIssueCoverViewProvider
+- __INSTANCE_METHODS__TtC12NewsArticles25TableOfContentsHeaderView
+- __INSTANCE_METHODS__TtC12NewsArticles25TableOfContentsInteractor
+- __INSTANCE_METHODS__TtC12NewsArticles26NoPlayingAudioInfoProvider
+- __INSTANCE_METHODS__TtC12NewsArticles26SearchInArticleTextToolBar
+- __INSTANCE_METHODS__TtC12NewsArticles26TableOfContentsPDFCellView
+- __INSTANCE_METHODS__TtC12NewsArticles27BrandBarNavigationAnimation
+- __INSTANCE_METHODS__TtC12NewsArticles28ArticleScrollPositionManager
+- __INSTANCE_METHODS__TtC12NewsArticles28InterstitialAdViewController
+- __INSTANCE_METHODS__TtC12NewsArticles28RecipeBannerAdViewController
+- __INSTANCE_METHODS__TtC12NewsArticles29ArticleThumbnailComponentView
+- __INSTANCE_METHODS__TtC12NewsArticles29ArticleVideoAdProviderFactory
+- __INSTANCE_METHODS__TtC12NewsArticles29SearchInArticleViewController
+- __INSTANCE_METHODS__TtC12NewsArticles29SponsoredHeaderViewController
+- __INSTANCE_METHODS__TtC12NewsArticles30ArticleThumbnailComponentSizer
+- __INSTANCE_METHODS__TtC12NewsArticles30AudioMediaServicesResetHandler
+- __INSTANCE_METHODS__TtC12NewsArticles30RecipeContentPrefetchOperation
+- __INSTANCE_METHODS__TtC12NewsArticles30SubscriptionButtonTextProvider
+- __INSTANCE_METHODS__TtC12NewsArticles31AudioRemoteCommandCenterManager
+- __INSTANCE_METHODS__TtC12NewsArticles31AudioSessionInterruptionHandler
+- __INSTANCE_METHODS__TtC12NewsArticles31URLPreviewViewControllerFactory
+- __INSTANCE_METHODS__TtC12NewsArticles33RecipeArticleDrawerViewController
+- __INSTANCE_METHODS__TtC12NewsArticles33SharedWithYouHeaderViewController
+- __INSTANCE_METHODS__TtC12NewsArticles34ArticleBottomPaletteViewController
+- __INSTANCE_METHODS__TtC12NewsArticles35BrandBarToolbarCompressionAnimation
+- __INSTANCE_METHODS__TtC12NewsArticles36ANFIssueCoverLayoutAttributesFactory
+- __INSTANCE_METHODS__TtC12NewsArticles8BrandBar
+- __INSTANCE_METHODS__TtC12NewsArticlesP33_C03E0B959E775327989EE4DDE248085F14NotifyOnDeinit
+- __INSTANCE_METHODS__TtC12NewsArticlesP33_D28D6015DE731BE624B02DB54B95AB0426AttributionViewWrapperView
+- __INSTANCE_METHODS__TtC12NewsArticlesP33_EB63D8792045F9CB316DE87A7AC9CC2D15PassthroughView
+- __INSTANCE_METHODS__TtCC12NewsArticles31CookingKitOfflineStatusProviderP33_EF59ED90E032401F143361A339AB67998Observer
+- __INSTANCE_METHODS__TtCO12NewsArticles10NowPlaying26ContextInteractionDelegate
+- __IVARS_NAArticleFooterContext
+- __IVARS_NAAssembly
+- __IVARS_NAAudioButton
+- __IVARS_NABarButtonItem
+- __IVARS_NAEndOfArticlePresentationOptions
+- __IVARS_NAPlayableArticleInfo
+- __IVARS_NAWeakZoomable
+- __IVARS_ReportConcernDetailModule
+- __IVARS_TSIssueViewerModule
+- __IVARS__TtC12NewsArticles10URLHandler
+- __IVARS__TtC12NewsArticles11AudioPlayer
+- __IVARS__TtC12NewsArticles11IssueLoader
+- __IVARS__TtC12NewsArticles12ColorPalette
+- __IVARS__TtC12NewsArticles12IssueManager
+- __IVARS__TtC12NewsArticles12RecipeModule
+- __IVARS__TtC12NewsArticles12RecipeRouter
+- __IVARS__TtC12NewsArticles12RecipeStyler
+- __IVARS__TtC12NewsArticles13AdDataManager
+- __IVARS__TtC12NewsArticles13ArticleModule
+- __IVARS__TtC12NewsArticles13CancelHandler
+- __IVARS__TtC12NewsArticles13FocusableView
+- __IVARS__TtC12NewsArticles13MailPresenter
+- __IVARS__TtC12NewsArticles13TipInteractor
+- __IVARS__TtC12NewsArticles14HistoryService
+- __IVARS__TtC12NewsArticles15ANFIssueService
+- __IVARS__TtC12NewsArticles15AdComponentView
+- __IVARS__TtC12NewsArticles15TipEventHandler
+- __IVARS__TtC12NewsArticles16AdComponentSizer
+- __IVARS__TtC12NewsArticles16AdComponentState
+- __IVARS__TtC12NewsArticles16BrandBarRenderer
+- __IVARS__TtC12NewsArticles16HeadlineProvider
+- __IVARS__TtC12NewsArticles16PDFReplicaModule
+- __IVARS__TtC12NewsArticles16PDFReplicaRouter
+- __IVARS__TtC12NewsArticles16PDFReplicaStyler
+- __IVARS__TtC12NewsArticles16RecipeInteractor
+- __IVARS__TtC12NewsArticles16TextViewProvider
+- __IVARS__TtC12NewsArticles16TipConfigFactory
+- __IVARS__TtC12NewsArticles17ArticleInteractor
+- __IVARS__TtC12NewsArticles17AssetFetchService
+- __IVARS__TtC12NewsArticles17EndOfRecipeConfig
+- __IVARS__TtC12NewsArticles17EndOfRecipeModule
+- __IVARS__TtC12NewsArticles17EndOfRecipeRouter
+- __IVARS__TtC12NewsArticles17EndOfRecipeStyler
+- __IVARS__TtC12NewsArticles17IssueViewerRouter
+- __IVARS__TtC12NewsArticles17IssueViewerStyler
+- __IVARS__TtC12NewsArticles17LiveCoverageState
+- __IVARS__TtC12NewsArticles17RecipeDataManager
+- __IVARS__TtC12NewsArticles17RecipeImageLoader
+- __IVARS__TtC12NewsArticles17TipViewController
+- __IVARS__TtC12NewsArticles17WebViewController
+- __IVARS__TtC12NewsArticles18EndOfArticleModule
+- __IVARS__TtC12NewsArticles18EndOfArticleRouter
+- __IVARS__TtC12NewsArticles18EndOfArticleStyler
+- __IVARS__TtC12NewsArticles18IssueLoaderFactory
+- __IVARS__TtC12NewsArticles18ProxyConfiguration
+- __IVARS__TtC12NewsArticles18RecipeEventHandler
+- __IVARS__TtC12NewsArticles18RecipeViewerModule
+- __IVARS__TtC12NewsArticles18RecipeViewerRouter
+- __IVARS__TtC12NewsArticles18RecipeViewerStyler
+- __IVARS__TtC12NewsArticles18SavedRecipeService
+- __IVARS__TtC12NewsArticles18SearchableDelegate
+- __IVARS__TtC12NewsArticles19AccessLevelProvider
+- __IVARS__TtC12NewsArticles19ArticleEventHandler
+- __IVARS__TtC12NewsArticles19ArticleMessageLabel
+- __IVARS__TtC12NewsArticles19ArticleShareHandler
+- __IVARS__TtC12NewsArticles19ArticleViewerModule
+- __IVARS__TtC12NewsArticles19ArticleViewerRouter
+- __IVARS__TtC12NewsArticles19ArticleViewerStyler
+- __IVARS__TtC12NewsArticles19EndOfRecipeFeedPool
+- __IVARS__TtC12NewsArticles19IssueArticleService
+- __IVARS__TtC12NewsArticles19ReadingListObserver
+- __IVARS__TtC12NewsArticles19RecipeRadarReporter
+- __IVARS__TtC12NewsArticles19RecipeViewerTracker
+- __IVARS__TtC12NewsArticles19ReportConcernModule
+- __IVARS__TtC12NewsArticles19ReportConcernRouter
+- __IVARS__TtC12NewsArticles19ReportConcernStyler
+- __IVARS__TtC12NewsArticles19SavedStatusProvider
+- __IVARS__TtC12NewsArticles20ArticleFooterPaywall
+- __IVARS__TtC12NewsArticles20ArticleViewerFeature
+- __IVARS__TtC12NewsArticles20EndOfArticleFeedPool
+- __IVARS__TtC12NewsArticles20InterstitialAdModule
+- __IVARS__TtC12NewsArticles20InterstitialAdRouter
+- __IVARS__TtC12NewsArticles20InterstitialAdStyler
+- __IVARS__TtC12NewsArticles20NowPlayingURLHandler
+- __IVARS__TtC12NewsArticles20PDFReplicaInteractor
+- __IVARS__TtC12NewsArticles20RecipeSharingHandler
+- __IVARS__TtC12NewsArticles20RecipeViewController
+- __IVARS__TtC12NewsArticles20ReportConcernCommand
+- __IVARS__TtC12NewsArticles20ReportConcernService
+- __IVARS__TtC12NewsArticles20SharedStatusProvider
+- __IVARS__TtC12NewsArticles21AdComponentIntegrator
+- __IVARS__TtC12NewsArticles21ArticleAudioPrewarmer
+- __IVARS__TtC12NewsArticles21ArticleFooterProvider
+- __IVARS__TtC12NewsArticles21ArticleHeaderProvider
+- __IVARS__TtC12NewsArticles21ArticlePreviewManager
+- __IVARS__TtC12NewsArticles21ArticlePreviewService
+- __IVARS__TtC12NewsArticles21ArticleViewController
+- __IVARS__TtC12NewsArticles21BrandBarConfigManager
+- __IVARS__TtC12NewsArticles21CurrentRecipeUserData
+- __IVARS__TtC12NewsArticles21DarkModeConfiguration
+- __IVARS__TtC12NewsArticles21EndOfRecipeInteractor
+- __IVARS__TtC12NewsArticles21InterstitialAdManager
+- __IVARS__TtC12NewsArticles21InterstitialAdTracker
+- __IVARS__TtC12NewsArticles21IssueViewerInteractor
+- __IVARS__TtC12NewsArticles21NowPlayingMenuFactory
+- __IVARS__TtC12NewsArticles21PDFReplicaDataManager
+- __IVARS__TtC12NewsArticles21RecipeBannerAdFactory
+- __IVARS__TtC12NewsArticles21RecipeHistoryProvider
+- __IVARS__TtC12NewsArticles21RecipeUserDataManager
+- __IVARS__TtC12NewsArticles21SearchInArticleModule
+- __IVARS__TtC12NewsArticles21SharingCommandHandler
+- __IVARS__TtC12NewsArticles21TableOfContentsModule
+- __IVARS__TtC12NewsArticles21TableOfContentsRouter
+- __IVARS__TtC12NewsArticles21TableOfContentsStyler
+- __IVARS__TtC12NewsArticles21TextSizeControlModule
+- __IVARS__TtC12NewsArticles21WeakRecipeCoordinator
+- __IVARS__TtC12NewsArticles22AIHeaderViewController
+- __IVARS__TtC12NewsArticles22AdComponentViewFactory
+- __IVARS__TtC12NewsArticles22AnalyticsEventReporter
+- __IVARS__TtC12NewsArticles22ArticleBannerAdFactory
+- __IVARS__TtC12NewsArticles22ArticleFeatureProvider
+- __IVARS__TtC12NewsArticles22ArticleProviderService
+- __IVARS__TtC12NewsArticles22AudioPlaybackConductor
+- __IVARS__TtC12NewsArticles22ContentPrefetchManager
+- __IVARS__TtC12NewsArticles22EndOfArticleInteractor
+- __IVARS__TtC12NewsArticles22EndOfRecipeDataManager
+- __IVARS__TtC12NewsArticles22IssueViewerDataManager
+- __IVARS__TtC12NewsArticles22LiveCoverageStatusView
+- __IVARS__TtC12NewsArticles22NoSelectedTextProvider
+- __IVARS__TtC12NewsArticles22PDFReplicaEventHandler
+- __IVARS__TtC12NewsArticles22PDFReplicaViewerModule
+- __IVARS__TtC12NewsArticles22PDFReplicaViewerRouter
+- __IVARS__TtC12NewsArticles22PDFReplicaViewerStyler
+- __IVARS__TtC12NewsArticles22RecipeViewerInteractor
+- __IVARS__TtC12NewsArticles22SubscribeActionHandler
+- __IVARS__TtC12NewsArticles23AdComponentSizerFactory
+- __IVARS__TtC12NewsArticles23ArticleViewerInteractor
+- __IVARS__TtC12NewsArticles23EndOfArticleDataManager
+- __IVARS__TtC12NewsArticles23EndOfArticleItemFactory
+- __IVARS__TtC12NewsArticles23EndOfRecipeEventHandler
+- __IVARS__TtC12NewsArticles23EndOfRecipeModelFactory
+- __IVARS__TtC12NewsArticles23HeadlineProviderFactory
+- __IVARS__TtC12NewsArticles23IssueViewerEventHandler
+- __IVARS__TtC12NewsArticles23PDFReplicaPagePrewarmer
+- __IVARS__TtC12NewsArticles23RecipeBannerAdRequester
+- __IVARS__TtC12NewsArticles23RecipeContentPrefetcher
+- __IVARS__TtC12NewsArticles23RecipeRouteModelFactory
+- __IVARS__TtC12NewsArticles23RecipeViewerDataManager
+- __IVARS__TtC12NewsArticles23ReportConcernInteractor
+- __IVARS__TtC12NewsArticles23TextAttributionProvider
+- __IVARS__TtC12NewsArticles24ANFDebugSettingsProvider
+- __IVARS__TtC12NewsArticles24ArticleAdLayoutProcessor
+- __IVARS__TtC12NewsArticles24ArticleBannerAdRequester
+- __IVARS__TtC12NewsArticles24ArticleViewerDataManager
+- __IVARS__TtC12NewsArticles24ArticleViewerPageTracker
+- __IVARS__TtC12NewsArticles24BrandBarAnimationFactory
+- __IVARS__TtC12NewsArticles24CompositeTrackPlayerItem
+- __IVARS__TtC12NewsArticles24EndOfArticleEventHandler
+- __IVARS__TtC12NewsArticles24EndOfArticleModelFactory
+- __IVARS__TtC12NewsArticles24InterstitialAdInteractor
+- __IVARS__TtC12NewsArticles24LiveCoverageStatusButton
+- __IVARS__TtC12NewsArticles24ModalArticleViewerModule
+- __IVARS__TtC12NewsArticles24ModalArticleViewerRouter
+- __IVARS__TtC12NewsArticles24PDFReplicaViewController
+- __IVARS__TtC12NewsArticles24RecipeViewerEventHandler
+- __IVARS__TtC12NewsArticles24ReportConcernDataManager
+- __IVARS__TtC12NewsArticles24TipViewControllerFactory
+- __IVARS__TtC12NewsArticles24UserConcernConfigManager
+- __IVARS__TtC12NewsArticles24WeakSelectedTextProvider
+- __IVARS__TtC12NewsArticles24WebViewControllerFactory
+- __IVARS__TtC12NewsArticles25ANFIssueCoverViewProvider
+- __IVARS__TtC12NewsArticles25ArticlePrerollAdRequester
+- __IVARS__TtC12NewsArticles25ArticleViewerEventHandler
+- __IVARS__TtC12NewsArticles25ArticleViewerMenuProvider
+- __IVARS__TtC12NewsArticles25CampaignLandingPageModule
+- __IVARS__TtC12NewsArticles25CampaignLandingPageStyler
+- __IVARS__TtC12NewsArticles25CopyArticleCommandHandler
+- __IVARS__TtC12NewsArticles25EndOfRecipeSectionFactory
+- __IVARS__TtC12NewsArticles25EndOfRecipeViewController
+- __IVARS__TtC12NewsArticles25IssueViewerViewController
+- __IVARS__TtC12NewsArticles25ModalArticleViewerTracker
+- __IVARS__TtC12NewsArticles25RecipeArticleDrawerModule
+- __IVARS__TtC12NewsArticles25RecipeArticleDrawerRouter
+- __IVARS__TtC12NewsArticles25RecipeBlueprintRouteModel
+- __IVARS__TtC12NewsArticles25ReportConcernDetailRouter
+- __IVARS__TtC12NewsArticles25ReportConcernDetailStyler
+- __IVARS__TtC12NewsArticles25ReportConcernEventHandler
+- __IVARS__TtC12NewsArticles25TableOfContentsHeaderView
+- __IVARS__TtC12NewsArticles25TableOfContentsInteractor
+- __IVARS__TtC12NewsArticles25TableOfContentsURLHandler
+- __IVARS__TtC12NewsArticles26ArticleBlueprintRouteModel
+- __IVARS__TtC12NewsArticles26AudioArticleMessageUpdater
+- __IVARS__TtC12NewsArticles26EndOfArticleSectionFactory
+- __IVARS__TtC12NewsArticles26EndOfArticleViewController
+- __IVARS__TtC12NewsArticles26EndOfRecipeFeedPoolService
+- __IVARS__TtC12NewsArticles26InterstitialAdEventHandler
+- __IVARS__TtC12NewsArticles26InterstitialAdModelFactory
+- __IVARS__TtC12NewsArticles26IssueTableOfContentsModule
+- __IVARS__TtC12NewsArticles26MarkAsCookedCommandHandler
+- __IVARS__TtC12NewsArticles26NoPlayingAudioInfoProvider
+- __IVARS__TtC12NewsArticles26OpenInSafariCommandHandler
+- __IVARS__TtC12NewsArticles26PDFReplicaViewerInteractor
+- __IVARS__TtC12NewsArticles26RecipeCoordinatorContainer
+- __IVARS__TtC12NewsArticles26RecipeRecirculationService
+- __IVARS__TtC12NewsArticles26RecipeViewerViewController
+- __IVARS__TtC12NewsArticles26ReplicaAdvertisementStyler
+- __IVARS__TtC12NewsArticles26SearchInArticleTextToolBar
+- __IVARS__TtC12NewsArticles26SubscriptionStatusProvider
+- __IVARS__TtC12NewsArticles26TableOfContentsPDFCellView
+- __IVARS__TtC12NewsArticles27ArticleRecirculationService
+- __IVARS__TtC12NewsArticles27ArticleViewerArticleFactory
+- __IVARS__TtC12NewsArticles27ArticleViewerFeatureManager
+- __IVARS__TtC12NewsArticles27ArticleViewerViewController
+- __IVARS__TtC12NewsArticles27BrandBarNavigationAnimation
+- __IVARS__TtC12NewsArticles27EndOfArticleFeedPoolService
+- __IVARS__TtC12NewsArticles27InterstitialAdPreviewModule
+- __IVARS__TtC12NewsArticles27InterstitialAdPreviewRouter
+- __IVARS__TtC12NewsArticles27InterstitialAdPreviewStyler
+- __IVARS__TtC12NewsArticles27IssueReadingHistoryRecorder
+- __IVARS__TtC12NewsArticles27OfferUpsellScenarioProvider
+- __IVARS__TtC12NewsArticles27ReloadArticleCommandHandler
+- __IVARS__TtC12NewsArticles27ReportConcernCommandHandler
+- __IVARS__TtC12NewsArticles27ReportConcernViewController
+- __IVARS__TtC12NewsArticles27TableOfContentsEventHandler
+- __IVARS__TtC12NewsArticles28AIHeaderViewControllerStyler
+- __IVARS__TtC12NewsArticles28AlertOpenBlockedStoryFactory
+- __IVARS__TtC12NewsArticles28ArticleScrollPositionManager
+- __IVARS__TtC12NewsArticles28ArticleViewerAppStateMonitor
+- __IVARS__TtC12NewsArticles28EndOfRecipeFeedConfigManager
+- __IVARS__TtC12NewsArticles28InterstitialAdPreviewTracker
+- __IVARS__TtC12NewsArticles28InterstitialAdViewController
+- __IVARS__TtC12NewsArticles28ModalArticleViewerInteractor
+- __IVARS__TtC12NewsArticles28PDFReplicaViewerEventHandler
+- __IVARS__TtC12NewsArticles28PDFReplicaViewerMenuProvider
+- __IVARS__TtC12NewsArticles28RecipeArticleDrawerViewModel
+- __IVARS__TtC12NewsArticles28RecipeBannerAdViewController
+- __IVARS__TtC12NewsArticles29ANFDebugLayoutOptionsProvider
+- __IVARS__TtC12NewsArticles29ArticleReadingHistoryRecorder
+- __IVARS__TtC12NewsArticles29ArticleThumbnailComponentView
+- __IVARS__TtC12NewsArticles29ArticleVideoAdProviderFactory
+- __IVARS__TtC12NewsArticles29CampaignLandingPageInteractor
+- __IVARS__TtC12NewsArticles29EndOfArticleFeedConfigManager
+- __IVARS__TtC12NewsArticles29InterstitialAdHistoryRecorder
+- __IVARS__TtC12NewsArticles29ProxyAuthenticationKeyManager
+- __IVARS__TtC12NewsArticles29RecipeViewerBlueprintProvider
+- __IVARS__TtC12NewsArticles29ReportConcernDetailInteractor
+- __IVARS__TtC12NewsArticles29SearchInArticleViewController
+- __IVARS__TtC12NewsArticles29SponsoredHeaderViewController
+- __IVARS__TtC12NewsArticles29TableOfContentsViewController
+- __IVARS__TtC12NewsArticles29TagSubscriptionStatusProvider
+- __IVARS__TtC12NewsArticles29TextSizeControlViewController
+- __IVARS__TtC12NewsArticles30AIHeaderViewControllerRenderer
+- __IVARS__TtC12NewsArticles30ArticleThumbnailComponentSizer
+- __IVARS__TtC12NewsArticles30ArticleViewerBlueprintProvider
+- __IVARS__TtC12NewsArticles30ArticleViewerImpressionManager
+- __IVARS__TtC12NewsArticles30AudioMediaServicesResetHandler
+- __IVARS__TtC12NewsArticles30ModalArticleViewerEventHandler
+- __IVARS__TtC12NewsArticles30PDFReplicaViewerViewController
+- __IVARS__TtC12NewsArticles30RecipeContentPrefetchOperation
+- __IVARS__TtC12NewsArticles30ReportConcernDetailDataManager
+- __IVARS__TtC12NewsArticles30SubscriptionButtonTextProvider
+- __IVARS__TtC12NewsArticles31ArticleBannerAdPlacementFactory
+- __IVARS__TtC12NewsArticles31ArticleBannerAdRequesterFactory
+- __IVARS__TtC12NewsArticles31ArticleListeningProgressManager
+- __IVARS__TtC12NewsArticles31ArticleLoadingIndicatorProvider
+- __IVARS__TtC12NewsArticles31AudioRemoteCommandCenterManager
+- __IVARS__TtC12NewsArticles31AudioSessionInterruptionHandler
+- __IVARS__TtC12NewsArticles31CampaignLandingPageEventHandler
+- __IVARS__TtC12NewsArticles31CookingKitOfflineStatusProvider
+- __IVARS__TtC12NewsArticles31InterstitialAdPreviewInteractor
+- __IVARS__TtC12NewsArticles31PDFReplicaBarVisibilityAnimator
+- __IVARS__TtC12NewsArticles31PostPurchaseOnboardingPrewarmer
+- __IVARS__TtC12NewsArticles31RemoveFromHistoryCommandHandler
+- __IVARS__TtC12NewsArticles31ReportConcernDetailEventHandler
+- __IVARS__TtC12NewsArticles31TableOfContentsHeaderViewStyler
+- __IVARS__TtC12NewsArticles32AnalyticsEventTransformerManager
+- __IVARS__TtC12NewsArticles32ArticleViewerBlueprintRouteModel
+- __IVARS__TtC12NewsArticles32AudioCompletedListeningProcessor
+- __IVARS__TtC12NewsArticles32CookingKitExternalRecipeHydrator
+- __IVARS__TtC12NewsArticles32ModalArticleViewerViewController
+- __IVARS__TtC12NewsArticles32MoreArticleViewerFeatureProvider
+- __IVARS__TtC12NewsArticles32RecipeViewerBarButtonItemFactory
+- __IVARS__TtC12NewsArticles32RecipeViewerPageBlueprintFactory
+- __IVARS__TtC12NewsArticles32SaveArticleViewerFeatureProvider
+- __IVARS__TtC12NewsArticles32TableOfContentsPDFCellViewStyler
+- __IVARS__TtC12NewsArticles33ArticleBlueprintRouteModelFactory
+- __IVARS__TtC12NewsArticles33ArticleMastheadRootViewController
+- __IVARS__TtC12NewsArticles33ArticleRecirculationConfigFactory
+- __IVARS__TtC12NewsArticles33ArticleViewerOverflowMenuProvider
+- __IVARS__TtC12NewsArticles33ArticleViewerPageBlueprintFactory
+- __IVARS__TtC12NewsArticles33AudioArticleViewerFeatureProvider
+- __IVARS__TtC12NewsArticles33BlueprintRecipeViewerTokenSession
+- __IVARS__TtC12NewsArticles33CampaignLandingPageViewController
+- __IVARS__TtC12NewsArticles33EndOfRecipeBlueprintLayoutBuilder
+- __IVARS__TtC12NewsArticles33EndOfRecipeViewControllerProvider
+- __IVARS__TtC12NewsArticles33ExportToGroceryListCommandHandler
+- __IVARS__TtC12NewsArticles33InterstitialAdPreviewEventHandler
+- __IVARS__TtC12NewsArticles33IssueTableOfContentsActionHandler
+- __IVARS__TtC12NewsArticles33PDFReplicaViewerPrewarmerProvider
+- __IVARS__TtC12NewsArticles33RecipeArticleDrawerViewController
+- __IVARS__TtC12NewsArticles33ReportConcernDetailViewController
+- __IVARS__TtC12NewsArticles33ShareArticleViewerFeatureProvider
+- __IVARS__TtC12NewsArticles33SharedWithYouHeaderViewController
+- __IVARS__TtC12NewsArticles33TableOfContentsHeaderViewRenderer
+- __IVARS__TtC12NewsArticles34ArticleBottomPalettePluginProvider
+- __IVARS__TtC12NewsArticles34ArticleBottomPaletteViewController
+- __IVARS__TtC12NewsArticles34ArticleNavigationBarPaletteContent
+- __IVARS__TtC12NewsArticles34ArticleViewerPagePrewarmerProvider
+- __IVARS__TtC12NewsArticles34BlueprintArticleViewerTokenSession
+- __IVARS__TtC12NewsArticles34EndOfArticleBlueprintLayoutBuilder
+- __IVARS__TtC12NewsArticles34EndOfRecipeFeedGroupEmitterFactory
+- __IVARS__TtC12NewsArticles34OpenRatingsInspectorCommandHandler
+- __IVARS__TtC12NewsArticles34PDFReplicaBarVisibilityCoordinator
+- __IVARS__TtC12NewsArticles34RecipeArticleViewerFeatureProvider
+- __IVARS__TtC12NewsArticles34SubscriptionAccessMeterIncrementer
+- __IVARS__TtC12NewsArticles34TableOfContentsPDFCellViewRenderer
+- __IVARS__TtC12NewsArticles35AdPolicyViewportEnvironmentProvider
+- __IVARS__TtC12NewsArticles35BrandBarToolbarCompressionAnimation
+- __IVARS__TtC12NewsArticles35EndOfArticleFeedGroupEmitterFactory
+- __IVARS__TtC12NewsArticles35EndOfRecipeBlueprintModifierFactory
+- __IVARS__TtC12NewsArticles35EndOfRecipeFeedServiceConfigFetcher
+- __IVARS__TtC12NewsArticles35InterstitialAdPreviewViewController
+- __IVARS__TtC12NewsArticles35RelatedEndOfArticleFeedGroupEmitter
+- __IVARS__TtC12NewsArticles35ReportConcernBlueprintLayoutBuilder
+- __IVARS__TtC12NewsArticles35SponsoredHeaderViewControllerStyler
+- __IVARS__TtC12NewsArticles36ANFIssueCoverLayoutAttributesFactory
+- __IVARS__TtC12NewsArticles36ArticleNavigationBarMessageContainer
+- __IVARS__TtC12NewsArticles36ArticleThumbnailComponentViewFactory
+- __IVARS__TtC12NewsArticles36ArticleViewerViewNavigationItemStash
+- __IVARS__TtC12NewsArticles36EndOfArticleBlueprintModifierFactory
+- __IVARS__TtC12NewsArticles36EndOfArticleFeedServiceConfigFetcher
+- __IVARS__TtC12NewsArticles36EndOfRecipeBlueprintViewCellProvider
+- __IVARS__TtC12NewsArticles36IssueEmbeddableViewControllerFactory
+- __IVARS__TtC12NewsArticles36ModalArticleViewerAudioActionHandler
+- __IVARS__TtC12NewsArticles36MoreFromEndOfArticleFeedGroupEmitter
+- __IVARS__TtC12NewsArticles36NewsletterSubscriptionStatusProvider
+- __IVARS__TtC12NewsArticles36PDFReplicaViewerPageBlueprintFactory
+- __IVARS__TtC12NewsArticles36RecipeBannerAdViewControllerProvider
+- __IVARS__TtC12NewsArticles37ANFIssueTableOfContentsViewController
+- __IVARS__TtC12NewsArticles37ArticleThumbnailComponentSizerFactory
+- __IVARS__TtC12NewsArticles37EndOfArticleBlueprintViewCellProvider
+- __IVARS__TtC12NewsArticles37SponsoredHeaderViewControllerRenderer
+- __IVARS__TtC12NewsArticles37TableOfContentsBlueprintLayoutBuilder
+- __IVARS__TtC12NewsArticles38AudioMiniPlayerPresentationStartupTask
+- __IVARS__TtC12NewsArticles38BlueprintRecipeViewerBlueprintProvider
+- __IVARS__TtC12NewsArticles38MoreToReadEndOfArticleFeedGroupEmitter
+- __IVARS__TtC12NewsArticles38PDFReplicaViewerViewControllerProvider
+- __IVARS__TtC12NewsArticles38RecipeViewerPageViewControllerProvider
+- __IVARS__TtC12NewsArticles38ReportConcernBlueprintViewCellProvider
+- __IVARS__TtC12NewsArticles38TextResizeArticleViewerFeatureProvider
+- __IVARS__TtC12NewsArticles39ArticleViewerPageViewControllerProvider
+- __IVARS__TtC12NewsArticles39BlueprintArticleViewerBlueprintProvider
+- __IVARS__TtC12NewsArticles39LikeDislikeArticleViewerFeatureProvider
+- __IVARS__TtC12NewsArticles39RecipeRecirculationConfigurationService
+- __IVARS__TtC12NewsArticles39RecommendedEndOfArticleFeedGroupEmitter
+- __IVARS__TtC12NewsArticles39SharedWithYouHeaderViewControllerStyler
+- __IVARS__TtC12NewsArticles39TableOfContentsBlueprintModifierFactory
+- __IVARS__TtC12NewsArticles40InsertAdvertisementPageBlueprintModifier
+- __IVARS__TtC12NewsArticles40OverflowMenuArticleViewerFeatureProvider
+- __IVARS__TtC12NewsArticles40TableOfContentsBlueprintViewCellProvider
+- __IVARS__TtC12NewsArticles41DeeplinkArticlePresentationContextService
+- __IVARS__TtC12NewsArticles41MoreFromIssueEndOfArticleFeedGroupEmitter
+- __IVARS__TtC12NewsArticles41ReportConcernDetailBlueprintLayoutBuilder
+- __IVARS__TtC12NewsArticles41SharedWithYouHeaderViewControllerRenderer
+- __IVARS__TtC12NewsArticles42OverflowMenuArticleViewerFeatureTransition
+- __IVARS__TtC12NewsArticles42SaveArticleViewerFeatureVisibilityProvider
+- __IVARS__TtC12NewsArticles43ShareArticleViewerFeatureVisibilityProvider
+- __IVARS__TtC12NewsArticles43SharedArticleBottomPaletteFeatureDescriptor
+- __IVARS__TtC12NewsArticles44BlueprintGroupArticleViewerBlueprintProvider
+- __IVARS__TtC12NewsArticles44CookingKitOfflineContentAvailabilityProvider
+- __IVARS__TtC12NewsArticles44ReportConcernDetailBlueprintViewCellProvider
+- __IVARS__TtC12NewsArticles49EndOfRecipeBlueprintViewSupplementaryViewProvider
+- __IVARS__TtC12NewsArticles49LikeDislikeArticleViewerFeatureVisibilityProvider
+- __IVARS__TtC12NewsArticles50EndOfArticleBlueprintViewSupplementaryViewProvider
+- __IVARS__TtC12NewsArticles53TableOfContentsBlueprintViewSupplementaryViewProvider
+- __IVARS__TtC12NewsArticles8BrandBar
+- __IVARS__TtC12NewsArticles9TipRouter
+- __IVARS__TtC12NewsArticlesP33_A980B14E2B39EF8B6827173E8EE57D7133UnthrottledContentPrefetchManager
+- __IVARS__TtC12NewsArticlesP33_C03E0B959E775327989EE4DDE248085F14NotifyOnDeinit
+- __IVARS__TtC12NewsArticlesP33_D28D6015DE731BE624B02DB54B95AB0426AttributionViewWrapperView
+- __IVARS__TtCC12NewsArticles18SavedRecipeServiceP33_E478F8572AB02776F2CE7A8A5902D12B8Observer
+- __IVARS__TtCC12NewsArticles27ArticleViewerFeatureManagerP33_21B94012A68AC1CB22AFD9FE166F619322FeatureProviderWrapper
+- __IVARS__TtCC12NewsArticles31CookingKitOfflineStatusProviderP33_EF59ED90E032401F143361A339AB67998Observer
+- __IVARS__TtCO12NewsArticles10NowPlaying10Controller
+- __IVARS__TtCO12NewsArticles10NowPlaying11CurrentItem
+- __IVARS__TtCO12NewsArticles10NowPlaying11ImageLoader
+- __IVARS__TtCO12NewsArticles10NowPlaying14QueueViewModel
+- __IVARS__TtCO12NewsArticles10NowPlaying15ViewCoordinator
+- __IVARS__TtCO12NewsArticles10NowPlaying16SpeedPickerModel
+- __IVARS__TtCO12NewsArticles10NowPlaying18SkipSessionManager
+- __IVARS__TtCO12NewsArticles10NowPlaying24PublisherLogoImageLoader
+- __IVARS__TtCO12NewsArticles10NowPlaying26ContextInteractionDelegate
+- __IVARS__TtCVE12NewsArticlesC11TeaSettings8Settings3ANF11Conditional
+- __IVARS__TtCVE12NewsArticlesC11TeaSettings8Settings3ANF19EmbedProxyOverrides
+- __IVARS__TtCVE12NewsArticlesC11TeaSettings8Settings3ANF8DarkMode
+- __METACLASS_DATA_NAArticleFooterContext
+- __METACLASS_DATA_NAAssembly
+- __METACLASS_DATA_NAAudioButton
+- __METACLASS_DATA_NABarButtonItem
+- __METACLASS_DATA_NAEndOfArticlePresentationOptions
+- __METACLASS_DATA_NAImages
+- __METACLASS_DATA_NAPlayableArticleInfo
+- __METACLASS_DATA_NAWeakZoomable
+- __METACLASS_DATA_ReportConcernDetailModule
+- __METACLASS_DATA_TSIssueViewerModule
+- __METACLASS_DATA__TtC12NewsArticles10URLHandler
+- __METACLASS_DATA__TtC12NewsArticles11AdsAssembly
+- __METACLASS_DATA__TtC12NewsArticles11ArticleView
+- __METACLASS_DATA__TtC12NewsArticles11IssueLoader
+- __METACLASS_DATA__TtC12NewsArticles11LinkHandler
+- __METACLASS_DATA__TtC12NewsArticles11TipAssembly
+- __METACLASS_DATA__TtC12NewsArticles12ColorPalette
+- __METACLASS_DATA__TtC12NewsArticles12IssueManager
+- __METACLASS_DATA__TtC12NewsArticles12RecipeModule
+- __METACLASS_DATA__TtC12NewsArticles12RecipeRouter
+- __METACLASS_DATA__TtC12NewsArticles12RecipeStyler
+- __METACLASS_DATA__TtC12NewsArticles13AdDataManager
+- __METACLASS_DATA__TtC12NewsArticles13ArticleModule
+- __METACLASS_DATA__TtC12NewsArticles13ArticleStyler
+- __METACLASS_DATA__TtC12NewsArticles13CancelHandler
+- __METACLASS_DATA__TtC12NewsArticles13FocusableView
+- __METACLASS_DATA__TtC12NewsArticles13MailPresenter
+- __METACLASS_DATA__TtC12NewsArticles13ProxyAssembly
+- __METACLASS_DATA__TtC12NewsArticles13TipInteractor
+- __METACLASS_DATA__TtC12NewsArticles14BrandBarStyler
+- __METACLASS_DATA__TtC12NewsArticles14HistoryService
+- __METACLASS_DATA__TtC12NewsArticles14RecipeAssembly
+- __METACLASS_DATA__TtC12NewsArticles14StylerAssembly
+- __METACLASS_DATA__TtC12NewsArticles15ANFIssueService
+- __METACLASS_DATA__TtC12NewsArticles15AdComponentView
+- __METACLASS_DATA__TtC12NewsArticles15AdIgnorableView
+- __METACLASS_DATA__TtC12NewsArticles15ArticleAssembly
+- __METACLASS_DATA__TtC12NewsArticles15CommandAssembly
+- __METACLASS_DATA__TtC12NewsArticles15FactoryAssembly
+- __METACLASS_DATA__TtC12NewsArticles15ManagerAssembly
+- __METACLASS_DATA__TtC12NewsArticles15OfflineAssembly
+- __METACLASS_DATA__TtC12NewsArticles15ServiceAssembly
+- __METACLASS_DATA__TtC12NewsArticles15SharingAssembly
+- __METACLASS_DATA__TtC12NewsArticles15TipEventHandler
+- __METACLASS_DATA__TtC12NewsArticles15UtilityAssembly
+- __METACLASS_DATA__TtC12NewsArticles16AdComponentSizer
+- __METACLASS_DATA__TtC12NewsArticles16AdComponentState
+- __METACLASS_DATA__TtC12NewsArticles16BrandBarNewsIcon
+- __METACLASS_DATA__TtC12NewsArticles16BrandBarRenderer
+- __METACLASS_DATA__TtC12NewsArticles16HeadlineProvider
+- __METACLASS_DATA__TtC12NewsArticles16MessagePresenter
+- __METACLASS_DATA__TtC12NewsArticles16PDFReplicaModule
+- __METACLASS_DATA__TtC12NewsArticles16PDFReplicaRouter
+- __METACLASS_DATA__TtC12NewsArticles16PDFReplicaStyler
+- __METACLASS_DATA__TtC12NewsArticles16RecipeInteractor
+- __METACLASS_DATA__TtC12NewsArticles16RendererAssembly
+- __METACLASS_DATA__TtC12NewsArticles16TextViewProvider
+- __METACLASS_DATA__TtC12NewsArticles16TipConfigFactory
+- __METACLASS_DATA__TtC12NewsArticles16TipMigrationTask
+- __METACLASS_DATA__TtC12NewsArticles17AdSettingsFactory
+- __METACLASS_DATA__TtC12NewsArticles17AnalyticsAssembly
+- __METACLASS_DATA__TtC12NewsArticles17ArticleInteractor
+- __METACLASS_DATA__TtC12NewsArticles17AssetFetchService
+- __METACLASS_DATA__TtC12NewsArticles17EndOfRecipeConfig
+- __METACLASS_DATA__TtC12NewsArticles17EndOfRecipeModule
+- __METACLASS_DATA__TtC12NewsArticles17EndOfRecipeRouter
+- __METACLASS_DATA__TtC12NewsArticles17EndOfRecipeStyler
+- __METACLASS_DATA__TtC12NewsArticles17IssueViewerRouter
+- __METACLASS_DATA__TtC12NewsArticles17IssueViewerStyler
+- __METACLASS_DATA__TtC12NewsArticles17LiveCoverageState
+- __METACLASS_DATA__TtC12NewsArticles17RecipeDataManager
+- __METACLASS_DATA__TtC12NewsArticles17RecipeImageLoader
+- __METACLASS_DATA__TtC12NewsArticles17RecipeURLProvider
+- __METACLASS_DATA__TtC12NewsArticles17TipViewController
+- __METACLASS_DATA__TtC12NewsArticles18ArticleDataManager
+- __METACLASS_DATA__TtC12NewsArticles18EndOfArticleModule
+- __METACLASS_DATA__TtC12NewsArticles18EndOfArticleRouter
+- __METACLASS_DATA__TtC12NewsArticles18EndOfArticleStyler
+- __METACLASS_DATA__TtC12NewsArticles18IssueLoaderFactory
+- __METACLASS_DATA__TtC12NewsArticles18NewsletterAssembly
+- __METACLASS_DATA__TtC12NewsArticles18PDFReplicaAssembly
+- __METACLASS_DATA__TtC12NewsArticles18ProxyConfiguration
+- __METACLASS_DATA__TtC12NewsArticles18RecipeEventHandler
+- __METACLASS_DATA__TtC12NewsArticles18RecipeViewerModule
+- __METACLASS_DATA__TtC12NewsArticles18RecipeViewerRouter
+- __METACLASS_DATA__TtC12NewsArticles18RecipeViewerStyler
+- __METACLASS_DATA__TtC12NewsArticles18SavedRecipeService
+- __METACLASS_DATA__TtC12NewsArticles18SearchableDelegate
+- __METACLASS_DATA__TtC12NewsArticles18ZoomCommandHandler
+- __METACLASS_DATA__TtC12NewsArticles19AccessLevelProvider
+- __METACLASS_DATA__TtC12NewsArticles19AdComponentAssembly
+- __METACLASS_DATA__TtC12NewsArticles19ArticleEventHandler
+- __METACLASS_DATA__TtC12NewsArticles19ArticleMessageLabel
+- __METACLASS_DATA__TtC12NewsArticles19ArticleShareHandler
+- __METACLASS_DATA__TtC12NewsArticles19ArticleViewerModule
+- __METACLASS_DATA__TtC12NewsArticles19ArticleViewerRouter
+- __METACLASS_DATA__TtC12NewsArticles19ArticleViewerStyler
+- __METACLASS_DATA__TtC12NewsArticles19EndOfRecipeAssembly
+- __METACLASS_DATA__TtC12NewsArticles19EndOfRecipeFeedPool
+- __METACLASS_DATA__TtC12NewsArticles19IssueArticleService
+- __METACLASS_DATA__TtC12NewsArticles19IssueViewerAssembly
+- __METACLASS_DATA__TtC12NewsArticles19ReadingListObserver
+- __METACLASS_DATA__TtC12NewsArticles19RecipeRadarReporter
+- __METACLASS_DATA__TtC12NewsArticles19RecipeViewerTracker
+- __METACLASS_DATA__TtC12NewsArticles19ReportConcernModule
+- __METACLASS_DATA__TtC12NewsArticles19ReportConcernRouter
+- __METACLASS_DATA__TtC12NewsArticles19ReportConcernStyler
+- __METACLASS_DATA__TtC12NewsArticles19SavedStatusProvider
+- __METACLASS_DATA__TtC12NewsArticles20ArticleFooterPaywall
+- __METACLASS_DATA__TtC12NewsArticles20ArticlePagePrewarmer
+- __METACLASS_DATA__TtC12NewsArticles20EndOfArticleAssembly
+- __METACLASS_DATA__TtC12NewsArticles20EndOfArticleFeedPool
+- __METACLASS_DATA__TtC12NewsArticles20InterstitialAdModule
+- __METACLASS_DATA__TtC12NewsArticles20InterstitialAdRouter
+- __METACLASS_DATA__TtC12NewsArticles20InterstitialAdStyler
+- __METACLASS_DATA__TtC12NewsArticles20NowPlayingURLHandler
+- __METACLASS_DATA__TtC12NewsArticles20PDFReplicaInteractor
+- __METACLASS_DATA__TtC12NewsArticles20RecipeSharingHandler
+- __METACLASS_DATA__TtC12NewsArticles20RecipeViewController
+- __METACLASS_DATA__TtC12NewsArticles20RecipeViewerAssembly
+- __METACLASS_DATA__TtC12NewsArticles20ReportConcernCommand
+- __METACLASS_DATA__TtC12NewsArticles20ReportConcernService
+- __METACLASS_DATA__TtC12NewsArticles20SharedStatusProvider
+- __METACLASS_DATA__TtC12NewsArticles20StubTipConfigFactory
+- __METACLASS_DATA__TtC12NewsArticles20SubscriptionAssembly
+- __METACLASS_DATA__TtC12NewsArticles21AdComponentIntegrator
+- __METACLASS_DATA__TtC12NewsArticles21ArticleAudioPrewarmer
+- __METACLASS_DATA__TtC12NewsArticles21ArticleFooterProvider
+- __METACLASS_DATA__TtC12NewsArticles21ArticleHeaderProvider
+- __METACLASS_DATA__TtC12NewsArticles21ArticlePreviewManager
+- __METACLASS_DATA__TtC12NewsArticles21ArticlePreviewService
+- __METACLASS_DATA__TtC12NewsArticles21ArticleViewController
+- __METACLASS_DATA__TtC12NewsArticles21ArticleViewerAssembly
+- __METACLASS_DATA__TtC12NewsArticles21ArticleViewerFeatures
+- __METACLASS_DATA__TtC12NewsArticles21BrandBarConfigManager
+- __METACLASS_DATA__TtC12NewsArticles21CurrentRecipeUserData
+- __METACLASS_DATA__TtC12NewsArticles21DarkModeConfiguration
+- __METACLASS_DATA__TtC12NewsArticles21InterstitialAdManager
+- __METACLASS_DATA__TtC12NewsArticles21InterstitialAdTracker
+- __METACLASS_DATA__TtC12NewsArticles21IssueViewerInteractor
+- __METACLASS_DATA__TtC12NewsArticles21NowPlayingMenuFactory
+- __METACLASS_DATA__TtC12NewsArticles21PDFReplicaDataManager
+- __METACLASS_DATA__TtC12NewsArticles21RecipeBannerAdFactory
+- __METACLASS_DATA__TtC12NewsArticles21RecipeHistoryProvider
+- __METACLASS_DATA__TtC12NewsArticles21RecipeUserDataManager
+- __METACLASS_DATA__TtC12NewsArticles21ReportConcernAssembly
+- __METACLASS_DATA__TtC12NewsArticles21SearchInArticleModule
+- __METACLASS_DATA__TtC12NewsArticles21SharingCommandHandler
+- __METACLASS_DATA__TtC12NewsArticles21TableOfContentsModule
+- __METACLASS_DATA__TtC12NewsArticles21TableOfContentsRouter
+- __METACLASS_DATA__TtC12NewsArticles21TableOfContentsStyler
+- __METACLASS_DATA__TtC12NewsArticles21TextSizeControlModule
+- __METACLASS_DATA__TtC12NewsArticles21TextSizeControlStyler
+- __METACLASS_DATA__TtC12NewsArticles21WeakRecipeCoordinator
+- __METACLASS_DATA__TtC12NewsArticles22AIHeaderViewController
+- __METACLASS_DATA__TtC12NewsArticles22AdComponentViewFactory
+- __METACLASS_DATA__TtC12NewsArticles22AdIgnorableViewFactory
+- __METACLASS_DATA__TtC12NewsArticles22AnalyticsEventReporter
+- __METACLASS_DATA__TtC12NewsArticles22ArticleBannerAdFactory
+- __METACLASS_DATA__TtC12NewsArticles22ArticleFeatureProvider
+- __METACLASS_DATA__TtC12NewsArticles22ArticleProviderService
+- __METACLASS_DATA__TtC12NewsArticles22ContentPrefetchManager
+- __METACLASS_DATA__TtC12NewsArticles22EndOfRecipeDataManager
+- __METACLASS_DATA__TtC12NewsArticles22InterstitialAdAssembly
+- __METACLASS_DATA__TtC12NewsArticles22IssueViewerDataManager
+- __METACLASS_DATA__TtC12NewsArticles22LiveCoverageStatusView
+- __METACLASS_DATA__TtC12NewsArticles22NoSelectedTextProvider
+- __METACLASS_DATA__TtC12NewsArticles22NoopAudioActionHandler
+- __METACLASS_DATA__TtC12NewsArticles22PDFReplicaEventHandler
+- __METACLASS_DATA__TtC12NewsArticles22PDFReplicaViewerModule
+- __METACLASS_DATA__TtC12NewsArticles22PDFReplicaViewerRouter
+- __METACLASS_DATA__TtC12NewsArticles22PDFReplicaViewerStyler
+- __METACLASS_DATA__TtC12NewsArticles22RecipeViewerInteractor
+- __METACLASS_DATA__TtC12NewsArticles22SubscribeActionHandler
+- __METACLASS_DATA__TtC12NewsArticles23AdComponentSizerFactory
+- __METACLASS_DATA__TtC12NewsArticles23ArticleViewerInteractor
+- __METACLASS_DATA__TtC12NewsArticles23EndOfArticleDataManager
+- __METACLASS_DATA__TtC12NewsArticles23EndOfArticleItemFactory
+- __METACLASS_DATA__TtC12NewsArticles23EndOfRecipeEventHandler
+- __METACLASS_DATA__TtC12NewsArticles23EndOfRecipeModelFactory
+- __METACLASS_DATA__TtC12NewsArticles23HeadlineProviderFactory
+- __METACLASS_DATA__TtC12NewsArticles23IssueViewerEventHandler
+- __METACLASS_DATA__TtC12NewsArticles23PDFReplicaPagePrewarmer
+- __METACLASS_DATA__TtC12NewsArticles23ReadStoryCommandHandler
+- __METACLASS_DATA__TtC12NewsArticles23RecipeBannerAdRequester
+- __METACLASS_DATA__TtC12NewsArticles23RecipeContentPrefetcher
+- __METACLASS_DATA__TtC12NewsArticles23RecipeMoreBarButtonItem
+- __METACLASS_DATA__TtC12NewsArticles23RecipeViewerDataManager
+- __METACLASS_DATA__TtC12NewsArticles23SearchInArticleAssembly
+- __METACLASS_DATA__TtC12NewsArticles23TableOfContentsAssembly
+- __METACLASS_DATA__TtC12NewsArticles23TextAttributionProvider
+- __METACLASS_DATA__TtC12NewsArticles23TextSizeControlAssembly
+- __METACLASS_DATA__TtC12NewsArticles23TipDialogRequestFactory
+- __METACLASS_DATA__TtC12NewsArticles24ANFDebugSettingsProvider
+- __METACLASS_DATA__TtC12NewsArticles24ArticleAdLayoutProcessor
+- __METACLASS_DATA__TtC12NewsArticles24ArticleBannerAdRequester
+- __METACLASS_DATA__TtC12NewsArticles24ArticleViewerDataManager
+- __METACLASS_DATA__TtC12NewsArticles24ArticleViewerPageTracker
+- __METACLASS_DATA__TtC12NewsArticles24AudioArticleViewerStyler
+- __METACLASS_DATA__TtC12NewsArticles24BrandBarAnimationFactory
+- __METACLASS_DATA__TtC12NewsArticles24CompositeTrackPlayerItem
+- __METACLASS_DATA__TtC12NewsArticles24ConfirmationToastFactory
+- __METACLASS_DATA__TtC12NewsArticles24EndOfArticleEventHandler
+- __METACLASS_DATA__TtC12NewsArticles24EndOfArticleModelFactory
+- __METACLASS_DATA__TtC12NewsArticles24InterstitialAdInteractor
+- __METACLASS_DATA__TtC12NewsArticles24LiveCoverageStatusButton
+- __METACLASS_DATA__TtC12NewsArticles24ModalArticleViewerModule
+- __METACLASS_DATA__TtC12NewsArticles24ModalArticleViewerRouter
+- __METACLASS_DATA__TtC12NewsArticles24PDFReplicaViewController
+- __METACLASS_DATA__TtC12NewsArticles24PDFReplicaViewerAssembly
+- __METACLASS_DATA__TtC12NewsArticles24RecipeViewerEventHandler
+- __METACLASS_DATA__TtC12NewsArticles24ReportConcernDataManager
+- __METACLASS_DATA__TtC12NewsArticles24TipViewControllerFactory
+- __METACLASS_DATA__TtC12NewsArticles24UserConcernConfigManager
+- __METACLASS_DATA__TtC12NewsArticles24WeakSelectedTextProvider
+- __METACLASS_DATA__TtC12NewsArticles25ANFIssueCoverViewProvider
+- __METACLASS_DATA__TtC12NewsArticles25ArticlePrerollAdRequester
+- __METACLASS_DATA__TtC12NewsArticles25ArticleViewerEventHandler
+- __METACLASS_DATA__TtC12NewsArticles25ArticleViewerMenuProvider
+- __METACLASS_DATA__TtC12NewsArticles25CampaignLandingPageModule
+- __METACLASS_DATA__TtC12NewsArticles25CampaignLandingPageStyler
+- __METACLASS_DATA__TtC12NewsArticles25CopyArticleCommandHandler
+- __METACLASS_DATA__TtC12NewsArticles25EndOfArticleResultFactory
+- __METACLASS_DATA__TtC12NewsArticles25EndOfRecipeSectionFactory
+- __METACLASS_DATA__TtC12NewsArticles25EndOfRecipeViewController
+- __METACLASS_DATA__TtC12NewsArticles25InterstitialAdDataManager
+- __METACLASS_DATA__TtC12NewsArticles25IssueViewerViewController
+- __METACLASS_DATA__TtC12NewsArticles25ModalArticleViewerTracker
+- __METACLASS_DATA__TtC12NewsArticles25NoopArticleAudioPrewarmer
+- __METACLASS_DATA__TtC12NewsArticles25RecipeArticleDrawerModule
+- __METACLASS_DATA__TtC12NewsArticles25RecipeArticleDrawerRouter
+- __METACLASS_DATA__TtC12NewsArticles25RecipeBlueprintRouteModel
+- __METACLASS_DATA__TtC12NewsArticles25ReportConcernDetailRouter
+- __METACLASS_DATA__TtC12NewsArticles25ReportConcernDetailStyler
+- __METACLASS_DATA__TtC12NewsArticles25ReportConcernEventHandler
+- __METACLASS_DATA__TtC12NewsArticles25TableOfContentsHeaderView
+- __METACLASS_DATA__TtC12NewsArticles25TableOfContentsURLHandler
+- __METACLASS_DATA__TtC12NewsArticles26ArticleBlueprintRouteModel
+- __METACLASS_DATA__TtC12NewsArticles26ArticleBottomPaletteStyler
+- __METACLASS_DATA__TtC12NewsArticles26AudioArticleMessageUpdater
+- __METACLASS_DATA__TtC12NewsArticles26BlueprintRecipeViewerToken
+- __METACLASS_DATA__TtC12NewsArticles26EndOfArticleSectionFactory
+- __METACLASS_DATA__TtC12NewsArticles26EndOfArticleViewController
+- __METACLASS_DATA__TtC12NewsArticles26EndOfRecipeFeedPoolService
+- __METACLASS_DATA__TtC12NewsArticles26InterstitialAdEventHandler
+- __METACLASS_DATA__TtC12NewsArticles26InterstitialAdModelFactory
+- __METACLASS_DATA__TtC12NewsArticles26IssuePDFReplicaPageService
+- __METACLASS_DATA__TtC12NewsArticles26IssueTableOfContentsModule
+- __METACLASS_DATA__TtC12NewsArticles26MarkAsCookedCommandHandler
+- __METACLASS_DATA__TtC12NewsArticles26ModalArticleViewerAssembly
+- __METACLASS_DATA__TtC12NewsArticles26NoPlayingAudioInfoProvider
+- __METACLASS_DATA__TtC12NewsArticles26OpenInSafariCommandHandler
+- __METACLASS_DATA__TtC12NewsArticles26PDFReplicaViewerInteractor
+- __METACLASS_DATA__TtC12NewsArticles26RecipeCoordinatorContainer
+- __METACLASS_DATA__TtC12NewsArticles26RecipeRecirculationService
+- __METACLASS_DATA__TtC12NewsArticles26RecipeViewerViewController
+- __METACLASS_DATA__TtC12NewsArticles26ReplicaAdvertisementStyler
+- __METACLASS_DATA__TtC12NewsArticles26SearchInArticleTextToolBar
+- __METACLASS_DATA__TtC12NewsArticles26SubscriptionStatusProvider
+- __METACLASS_DATA__TtC12NewsArticles26TableOfContentsPDFCellView
+- __METACLASS_DATA__TtC12NewsArticles27ArticleRecirculationService
+- __METACLASS_DATA__TtC12NewsArticles27ArticleViewerArticleFactory
+- __METACLASS_DATA__TtC12NewsArticles27ArticleViewerFeatureManager
+- __METACLASS_DATA__TtC12NewsArticles27ArticleViewerViewController
+- __METACLASS_DATA__TtC12NewsArticles27BlueprintArticleViewerToken
+- __METACLASS_DATA__TtC12NewsArticles27BrandBarNavigationAnimation
+- __METACLASS_DATA__TtC12NewsArticles27CampaignLandingPageAssembly
+- __METACLASS_DATA__TtC12NewsArticles27DisabledNowPlayingPresenter
+- __METACLASS_DATA__TtC12NewsArticles27EndOfArticleFeedPoolService
+- __METACLASS_DATA__TtC12NewsArticles27InterstitialAdPreviewModule
+- __METACLASS_DATA__TtC12NewsArticles27InterstitialAdPreviewRouter
+- __METACLASS_DATA__TtC12NewsArticles27InterstitialAdPreviewStyler
+- __METACLASS_DATA__TtC12NewsArticles27IssueReadingHistoryRecorder
+- __METACLASS_DATA__TtC12NewsArticles27OfferUpsellScenarioAssembly
+- __METACLASS_DATA__TtC12NewsArticles27OfferUpsellScenarioProvider
+- __METACLASS_DATA__TtC12NewsArticles27PDFReplicaViewerDataManager
+- __METACLASS_DATA__TtC12NewsArticles27RecipeArticleDrawerAssembly
+- __METACLASS_DATA__TtC12NewsArticles27ReloadArticleCommandHandler
+- __METACLASS_DATA__TtC12NewsArticles27ReportConcernCommandHandler
+- __METACLASS_DATA__TtC12NewsArticles27ReportConcernDetailAssembly
+- __METACLASS_DATA__TtC12NewsArticles27ReportConcernViewController
+- __METACLASS_DATA__TtC12NewsArticles27TableOfContentsEventHandler
+- __METACLASS_DATA__TtC12NewsArticles28AIHeaderViewControllerStyler
+- __METACLASS_DATA__TtC12NewsArticles28AlertOpenBlockedStoryFactory
+- __METACLASS_DATA__TtC12NewsArticles28ArticleScrollPositionManager
+- __METACLASS_DATA__TtC12NewsArticles28ArticleViewerAppStateMonitor
+- __METACLASS_DATA__TtC12NewsArticles28EndOfRecipeFeedConfigManager
+- __METACLASS_DATA__TtC12NewsArticles28InterstitialAdPreviewTracker
+- __METACLASS_DATA__TtC12NewsArticles28ModalArticleViewerInteractor
+- __METACLASS_DATA__TtC12NewsArticles28PDFReplicaViewerEventHandler
+- __METACLASS_DATA__TtC12NewsArticles28PDFReplicaViewerMenuProvider
+- __METACLASS_DATA__TtC12NewsArticles28RecipeArticleDrawerViewModel
+- __METACLASS_DATA__TtC12NewsArticles28RecipeBannerAdViewController
+- __METACLASS_DATA__TtC12NewsArticles29ANFDebugLayoutOptionsProvider
+- __METACLASS_DATA__TtC12NewsArticles29ArticleReadingHistoryRecorder
+- __METACLASS_DATA__TtC12NewsArticles29ArticleThumbnailComponentView
+- __METACLASS_DATA__TtC12NewsArticles29ArticleVideoAdProviderFactory
+- __METACLASS_DATA__TtC12NewsArticles29CampaignLandingPageInteractor
+- __METACLASS_DATA__TtC12NewsArticles29EndOfArticleFeedConfigManager
+- __METACLASS_DATA__TtC12NewsArticles29InterstitialAdHistoryRecorder
+- __METACLASS_DATA__TtC12NewsArticles29InterstitialAdPreviewAssembly
+- __METACLASS_DATA__TtC12NewsArticles29ProxyAuthenticationKeyManager
+- __METACLASS_DATA__TtC12NewsArticles29RecipeViewerBlueprintProvider
+- __METACLASS_DATA__TtC12NewsArticles29SearchInArticleViewController
+- __METACLASS_DATA__TtC12NewsArticles29SharingCompleteCommandHandler
+- __METACLASS_DATA__TtC12NewsArticles29SponsoredHeaderViewController
+- __METACLASS_DATA__TtC12NewsArticles29TableOfContentsViewController
+- __METACLASS_DATA__TtC12NewsArticles29TagSubscriptionStatusAssembly
+- __METACLASS_DATA__TtC12NewsArticles29TagSubscriptionStatusProvider
+- __METACLASS_DATA__TtC12NewsArticles29TextSizeControlViewController
+- __METACLASS_DATA__TtC12NewsArticles30AIHeaderViewControllerRenderer
+- __METACLASS_DATA__TtC12NewsArticles30ArticleThumbnailComponentSizer
+- __METACLASS_DATA__TtC12NewsArticles30ArticleViewerBlueprintProvider
+- __METACLASS_DATA__TtC12NewsArticles30ArticleViewerImpressionManager
+- __METACLASS_DATA__TtC12NewsArticles30AudioMediaServicesResetHandler
+- __METACLASS_DATA__TtC12NewsArticles30ModalArticleViewerEventHandler
+- __METACLASS_DATA__TtC12NewsArticles30PDFReplicaViewerViewController
+- __METACLASS_DATA__TtC12NewsArticles30RecipeContentPrefetchOperation
+- __METACLASS_DATA__TtC12NewsArticles30ReportConcernDetailDataManager
+- __METACLASS_DATA__TtC12NewsArticles30SubscriptionButtonTextProvider
+- __METACLASS_DATA__TtC12NewsArticles30WebContentLoadEventTransformer
+- __METACLASS_DATA__TtC12NewsArticles31ArticleBannerAdPlacementFactory
+- __METACLASS_DATA__TtC12NewsArticles31ArticleBannerAdRequesterFactory
+- __METACLASS_DATA__TtC12NewsArticles31ArticleListeningProgressManager
+- __METACLASS_DATA__TtC12NewsArticles31ArticleLoadingIndicatorProvider
+- __METACLASS_DATA__TtC12NewsArticles31AudioArtworkImageRequestFactory
+- __METACLASS_DATA__TtC12NewsArticles31AudioRemoteCommandCenterManager
+- __METACLASS_DATA__TtC12NewsArticles31AudioSessionInterruptionHandler
+- __METACLASS_DATA__TtC12NewsArticles31CampaignLandingPageEventHandler
+- __METACLASS_DATA__TtC12NewsArticles31CookingKitOfflineStatusProvider
+- __METACLASS_DATA__TtC12NewsArticles31InterstitialAdPreviewInteractor
+- __METACLASS_DATA__TtC12NewsArticles31PDFReplicaBarVisibilityAnimator
+- __METACLASS_DATA__TtC12NewsArticles31PostPurchaseOnboardingPrewarmer
+- __METACLASS_DATA__TtC12NewsArticles31RemoveFromHistoryCommandHandler
+- __METACLASS_DATA__TtC12NewsArticles31ReportConcernDetailEventHandler
+- __METACLASS_DATA__TtC12NewsArticles31TableOfContentsHeaderViewStyler
+- __METACLASS_DATA__TtC12NewsArticles31URLPreviewViewControllerFactory
+- __METACLASS_DATA__TtC12NewsArticles32AnalyticsEventTransformerManager
+- __METACLASS_DATA__TtC12NewsArticles32ArticleViewerBlueprintRouteModel
+- __METACLASS_DATA__TtC12NewsArticles32AudioCompletedListeningProcessor
+- __METACLASS_DATA__TtC12NewsArticles32AudioNowPlayingInfoCenterManager
+- __METACLASS_DATA__TtC12NewsArticles32CookingKitExternalRecipeHydrator
+- __METACLASS_DATA__TtC12NewsArticles32InterstitialAdPreviewDataManager
+- __METACLASS_DATA__TtC12NewsArticles32LinkTapAnalyticsEventTransformer
+- __METACLASS_DATA__TtC12NewsArticles32ModalArticleViewerViewController
+- __METACLASS_DATA__TtC12NewsArticles32MoreArticleViewerFeatureProvider
+- __METACLASS_DATA__TtC12NewsArticles32RecipeViewerBarButtonItemFactory
+- __METACLASS_DATA__TtC12NewsArticles32RecipeViewerPageBlueprintFactory
+- __METACLASS_DATA__TtC12NewsArticles32SaveArticleViewerFeatureProvider
+- __METACLASS_DATA__TtC12NewsArticles32TableOfContentsPDFCellViewStyler
+- __METACLASS_DATA__TtC12NewsArticles33ArticleMastheadRootViewController
+- __METACLASS_DATA__TtC12NewsArticles33ArticleRecirculationConfigFactory
+- __METACLASS_DATA__TtC12NewsArticles33ArticleThumbnailComponentAssembly
+- __METACLASS_DATA__TtC12NewsArticles33ArticleViewerOverflowMenuProvider
+- __METACLASS_DATA__TtC12NewsArticles33ArticleViewerPageBlueprintFactory
+- __METACLASS_DATA__TtC12NewsArticles33AudioArticleViewerFeatureProvider
+- __METACLASS_DATA__TtC12NewsArticles33CampaignLandingPageViewController
+- __METACLASS_DATA__TtC12NewsArticles33EndOfRecipeBlueprintLayoutBuilder
+- __METACLASS_DATA__TtC12NewsArticles33EndOfRecipeViewControllerProvider
+- __METACLASS_DATA__TtC12NewsArticles33ExportToGroceryListCommandHandler
+- __METACLASS_DATA__TtC12NewsArticles33InterstitialAdPreviewEventHandler
+- __METACLASS_DATA__TtC12NewsArticles33IssueTableOfContentsActionHandler
+- __METACLASS_DATA__TtC12NewsArticles33PDFReplicaViewerPrewarmerProvider
+- __METACLASS_DATA__TtC12NewsArticles33RecipeArticleDrawerViewController
+- __METACLASS_DATA__TtC12NewsArticles33ReportConcernDetailCommandHandler
+- __METACLASS_DATA__TtC12NewsArticles33ReportConcernDetailViewController
+- __METACLASS_DATA__TtC12NewsArticles33ShareArticleViewerFeatureProvider
+- __METACLASS_DATA__TtC12NewsArticles33SharedWithYouHeaderViewController
+- __METACLASS_DATA__TtC12NewsArticles33TableOfContentsHeaderViewRenderer
+- __METACLASS_DATA__TtC12NewsArticles34ArticleBottomPalettePluginProvider
+- __METACLASS_DATA__TtC12NewsArticles34ArticleBottomPaletteViewController
+- __METACLASS_DATA__TtC12NewsArticles34ArticleNavigationBarPaletteContent
+- __METACLASS_DATA__TtC12NewsArticles34ArticleViewerPagePrewarmerProvider
+- __METACLASS_DATA__TtC12NewsArticles34EndOfArticleBlueprintLayoutBuilder
+- __METACLASS_DATA__TtC12NewsArticles34EndOfRecipeFeedGroupEmitterFactory
+- __METACLASS_DATA__TtC12NewsArticles34MediaViewAnalyticsEventTransformer
+- __METACLASS_DATA__TtC12NewsArticles34OpenRatingsInspectorCommandHandler
+- __METACLASS_DATA__TtC12NewsArticles34PDFReplicaBarVisibilityCoordinator
+- __METACLASS_DATA__TtC12NewsArticles34PDFReplicaLoadingIndicatorProvider
+- __METACLASS_DATA__TtC12NewsArticles34RecipeArticleViewerFeatureProvider
+- __METACLASS_DATA__TtC12NewsArticles34SubscriptionAccessMeterIncrementer
+- __METACLASS_DATA__TtC12NewsArticles34TableOfContentsPDFCellViewRenderer
+- __METACLASS_DATA__TtC12NewsArticles35AdPolicyViewportEnvironmentProvider
+- __METACLASS_DATA__TtC12NewsArticles35BrandBarToolbarCompressionAnimation
+- __METACLASS_DATA__TtC12NewsArticles35EndOfArticleFeedGroupEmitterFactory
+- __METACLASS_DATA__TtC12NewsArticles35EndOfRecipeBlueprintModifierFactory
+- __METACLASS_DATA__TtC12NewsArticles35EndOfRecipeFeedServiceConfigFetcher
+- __METACLASS_DATA__TtC12NewsArticles35InterstitialAdPreviewViewController
+- __METACLASS_DATA__TtC12NewsArticles35RelatedEndOfArticleFeedGroupEmitter
+- __METACLASS_DATA__TtC12NewsArticles35ReportConcernBlueprintLayoutBuilder
+- __METACLASS_DATA__TtC12NewsArticles35SponsoredHeaderViewControllerStyler
+- __METACLASS_DATA__TtC12NewsArticles36ANFIssueCoverLayoutAttributesFactory
+- __METACLASS_DATA__TtC12NewsArticles36ArticleNavigationBarMessageContainer
+- __METACLASS_DATA__TtC12NewsArticles36ArticleThumbnailComponentViewFactory
+- __METACLASS_DATA__TtC12NewsArticles36ArticleViewerViewNavigationItemStash
+- __METACLASS_DATA__TtC12NewsArticles36EndOfArticleBlueprintModifierFactory
+- __METACLASS_DATA__TtC12NewsArticles36EndOfArticleFeedServiceConfigFetcher
+- __METACLASS_DATA__TtC12NewsArticles36EndOfRecipeBlueprintViewCellProvider
+- __METACLASS_DATA__TtC12NewsArticles36IssueEmbeddableViewControllerFactory
+- __METACLASS_DATA__TtC12NewsArticles36MediaEngageAnalyticsEventTransformer
+- __METACLASS_DATA__TtC12NewsArticles36ModalArticleViewerAudioActionHandler
+- __METACLASS_DATA__TtC12NewsArticles36MoreFromEndOfArticleFeedGroupEmitter
+- __METACLASS_DATA__TtC12NewsArticles36NewsletterSubscriptionStatusProvider
+- __METACLASS_DATA__TtC12NewsArticles36PDFReplicaViewerPageBlueprintFactory
+- __METACLASS_DATA__TtC12NewsArticles36RecipeBannerAdViewControllerProvider
+- __METACLASS_DATA__TtC12NewsArticles37ANFIssueTableOfContentsViewController
+- __METACLASS_DATA__TtC12NewsArticles37ArticleThumbnailComponentSizerFactory
+- __METACLASS_DATA__TtC12NewsArticles37EndOfArticleBlueprintViewCellProvider
+- __METACLASS_DATA__TtC12NewsArticles37ReportConcernBlueprintModifierFactory
+- __METACLASS_DATA__TtC12NewsArticles37SponsoredHeaderViewControllerRenderer
+- __METACLASS_DATA__TtC12NewsArticles37TableOfContentsBlueprintLayoutBuilder
+- __METACLASS_DATA__TtC12NewsArticles38ArticleScrollAnalyticsEventTransformer
+- __METACLASS_DATA__TtC12NewsArticles38AudioMiniPlayerPresentationStartupTask
+- __METACLASS_DATA__TtC12NewsArticles38MediaExposureAnalyticsEventTransformer
+- __METACLASS_DATA__TtC12NewsArticles38MoreToReadEndOfArticleFeedGroupEmitter
+- __METACLASS_DATA__TtC12NewsArticles38PDFReplicaViewerViewControllerProvider
+- __METACLASS_DATA__TtC12NewsArticles38RecipeViewerPageViewControllerProvider
+- __METACLASS_DATA__TtC12NewsArticles38ReportConcernBlueprintViewCellProvider
+- __METACLASS_DATA__TtC12NewsArticles38TextResizeArticleViewerFeatureProvider
+- __METACLASS_DATA__TtC12NewsArticles39ArticleViewerPageViewControllerProvider
+- __METACLASS_DATA__TtC12NewsArticles39LikeDislikeArticleViewerFeatureProvider
+- __METACLASS_DATA__TtC12NewsArticles39RecipeRecirculationConfigurationService
+- __METACLASS_DATA__TtC12NewsArticles39RecommendedEndOfArticleFeedGroupEmitter
+- __METACLASS_DATA__TtC12NewsArticles39SharedWithYouHeaderViewControllerStyler
+- __METACLASS_DATA__TtC12NewsArticles39TableOfContentsBlueprintModifierFactory
+- __METACLASS_DATA__TtC12NewsArticles40ArticleRecirculationConfigurationService
+- __METACLASS_DATA__TtC12NewsArticles40InsertAdvertisementPageBlueprintModifier
+- __METACLASS_DATA__TtC12NewsArticles40OverflowMenuArticleViewerFeatureProvider
+- __METACLASS_DATA__TtC12NewsArticles40RemoveAdvertisementPageBlueprintModifier
+- __METACLASS_DATA__TtC12NewsArticles40ReportConcernBlueprintViewHeaderProvider
+- __METACLASS_DATA__TtC12NewsArticles40TableOfContentsBlueprintViewCellProvider
+- __METACLASS_DATA__TtC12NewsArticles41DeeplinkArticlePresentationContextService
+- __METACLASS_DATA__TtC12NewsArticles41MoreFromIssueEndOfArticleFeedGroupEmitter
+- __METACLASS_DATA__TtC12NewsArticles41ReportConcernDetailBlueprintLayoutBuilder
+- __METACLASS_DATA__TtC12NewsArticles41SharedWithYouHeaderViewControllerRenderer
+- __METACLASS_DATA__TtC12NewsArticles42ComponentExposureAnalyticsEventTransformer
+- __METACLASS_DATA__TtC12NewsArticles42OverflowMenuArticleViewerFeatureTransition
+- __METACLASS_DATA__TtC12NewsArticles42SaveArticleViewerFeatureVisibilityProvider
+- __METACLASS_DATA__TtC12NewsArticles43ArticleViewerBarCompressionAnimationFactory
+- __METACLASS_DATA__TtC12NewsArticles43EmptyArticleViewerFeatureTransitionAnimator
+- __METACLASS_DATA__TtC12NewsArticles43ReportConcernDetailBlueprintModifierFactory
+- __METACLASS_DATA__TtC12NewsArticles43ShareArticleViewerFeatureVisibilityProvider
+- __METACLASS_DATA__TtC12NewsArticles43SharedArticleBottomPaletteFeatureDescriptor
+- __METACLASS_DATA__TtC12NewsArticles44CookingKitOfflineContentAvailabilityProvider
+- __METACLASS_DATA__TtC12NewsArticles44MediaEngageCompleteAnalyticsEventTransformer
+- __METACLASS_DATA__TtC12NewsArticles44ReplicaAdvertisementLoadingIndicatorProvider
+- __METACLASS_DATA__TtC12NewsArticles44ReportConcernDetailBlueprintViewCellProvider
+- __METACLASS_DATA__TtC12NewsArticles46ReportConcernDetailBlueprintViewHeaderProvider
+- __METACLASS_DATA__TtC12NewsArticles47ModalSaveArticleViewerFeatureVisibilityProvider
+- __METACLASS_DATA__TtC12NewsArticles49EndOfRecipeBlueprintViewSupplementaryViewProvider
+- __METACLASS_DATA__TtC12NewsArticles49LikeDislikeArticleViewerFeatureVisibilityProvider
+- __METACLASS_DATA__TtC12NewsArticles49LiveCoverageArticleBottomPaletteFeatureDescriptor
+- __METACLASS_DATA__TtC12NewsArticles50EndOfArticleBlueprintViewSupplementaryViewProvider
+- __METACLASS_DATA__TtC12NewsArticles53TableOfContentsBlueprintViewSupplementaryViewProvider
+- __METACLASS_DATA__TtC12NewsArticles54ModalLikeDislikeArticleViewerFeatureVisibilityProvider
+- __METACLASS_DATA__TtC12NewsArticles6Router
+- __METACLASS_DATA__TtC12NewsArticles8BrandBar
+- __METACLASS_DATA__TtC12NewsArticles9TipRouter
+- __METACLASS_DATA__TtC12NewsArticlesP33_03D352CB52A844A850D0B03681801B2C19ResourceBundleClass
+- __METACLASS_DATA__TtC12NewsArticlesP33_20682026FDEE23AD802E861AE9DB55679Localized
+- __METACLASS_DATA__TtC12NewsArticlesP33_47DCD0B7BC3245DD6E140C66842EC9C27Tracker
+- __METACLASS_DATA__TtC12NewsArticlesP33_A980B14E2B39EF8B6827173E8EE57D7133UnthrottledContentPrefetchManager
+- __METACLASS_DATA__TtC12NewsArticlesP33_C03E0B959E775327989EE4DDE248085F14NotifyOnDeinit
+- __METACLASS_DATA__TtC12NewsArticlesP33_D28D6015DE731BE624B02DB54B95AB0426AttributionViewWrapperView
+- __METACLASS_DATA__TtC12NewsArticlesP33_EB63D8792045F9CB316DE87A7AC9CC2D15PassthroughView
+- __METACLASS_DATA__TtCC12NewsArticles18SavedRecipeServiceP33_E478F8572AB02776F2CE7A8A5902D12B8Observer
+- __METACLASS_DATA__TtCC12NewsArticles27ArticleViewerFeatureManagerP33_21B94012A68AC1CB22AFD9FE166F619322FeatureProviderWrapper
+- __METACLASS_DATA__TtCC12NewsArticles31CookingKitOfflineStatusProviderP33_EF59ED90E032401F143361A339AB67998Observer
+- __METACLASS_DATA__TtCE12NewsArticlesVVE5TeaUIC11TeaSettings8Settings4Tips5Debug27RecipeChromeConfigOverrides
+- __METACLASS_DATA__TtCO12NewsArticles10NowPlaying11CurrentItem
+- __METACLASS_DATA__TtCO12NewsArticles10NowPlaying16SpeedPickerModel
+- __METACLASS_DATA__TtCVE12NewsArticlesC11TeaSettings8Settings11Compression20CompressionOverrides
+- __METACLASS_DATA__TtCVE12NewsArticlesC11TeaSettings8Settings3ANF11Conditional
+- __METACLASS_DATA__TtCVE12NewsArticlesC11TeaSettings8Settings3ANF19EmbedProxyOverrides
+- __METACLASS_DATA__TtCVE12NewsArticlesC11TeaSettings8Settings3ANF8DarkMode
+- __METACLASS_DATA__TtCVVE12NewsArticlesC11TeaSettings8Settings19NewsArticlesModules15EndOfRecipeFeed15ConfigOverrides
+- __METACLASS_DATA__TtCVVE12NewsArticlesC11TeaSettings8Settings19NewsArticlesModules16EndOfArticleFeed15ConfigOverrides
+- __MergedGlobals
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_PDFPage_$_Bridge
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_PDFView_$_Bridge
+- __OBJC_$_CATEGORY_PDFPage_$_Bridge
+- __OBJC_$_CATEGORY_PDFView_$_Bridge
+- __OBJC_$_CLASS_METHODS_NAAddToSafariReadingListActivityFactory
+- __OBJC_$_INSTANCE_METHODS_NAActivity
+- __OBJC_$_INSTANCE_METHODS_NAAddToSafariReadingListActivity
+- __OBJC_$_INSTANCE_METHODS_NANowPlayingIndicatorView
+- __OBJC_$_INSTANCE_METHODS_NAWeakZoomable(NewsArticles)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles10URLHandler(NewsArticles)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles13MailPresenter(NewsArticles)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles16AdComponentSizer(NewsArticles)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles17TipViewController(NewsArticles|NewsArticles1)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles19ReadingListObserver(NewsArticles)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles20RecipeViewController(NewsArticles)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles21ArticleAudioPrewarmer(NewsArticles)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles21ArticleViewController(NewsArticles|NewsArticles1|NewsArticles2|NewsArticles3|NewsArticles4|NewsArticles5|NewsArticles6|NewsArticles7|NewsArticles8|NewsArticles9|NewsArticles10|NewsArticles11|NewsArticles12|NewsArticles13|NewsArticles14)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles21DarkModeConfiguration(NewsArticles)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles22AnalyticsEventReporter(NewsArticles)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles22SubscribeActionHandler(NewsArticles|NewsArticles1|NewsArticles2)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles23ArticleViewerInteractor(NewsArticles)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles23TextAttributionProvider(NewsArticles)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles24ANFDebugSettingsProvider(NewsArticles)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles24PDFReplicaViewController(NewsArticles|NewsArticles1|NewsArticles2)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles25EndOfRecipeViewController(NewsArticles)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles25IssueViewerViewController(NewsArticles|NewsArticles1)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles25TableOfContentsURLHandler(NewsArticles|NewsArticles1)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles26EndOfArticleViewController(NewsArticles|NewsArticles1|NewsArticles2)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles26RecipeViewerViewController(NewsArticles)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles26SubscriptionStatusProvider(NewsArticles|NewsArticles1)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles27ArticleViewerViewController(NewsArticles|NewsArticles1|NewsArticles2)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles27OfferUpsellScenarioProvider(NewsArticles)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles27ReportConcernViewController(NewsArticles)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles28ArticleViewerAppStateMonitor(NewsArticles)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles29ANFDebugLayoutOptionsProvider(NewsArticles)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles29ProxyAuthenticationKeyManager(NewsArticles)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles29TableOfContentsViewController(NewsArticles)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles29TagSubscriptionStatusProvider(NewsArticles|NewsArticles1)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles29TextSizeControlViewController(NewsArticles|NewsArticles1)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles30PDFReplicaViewerViewController(NewsArticles|NewsArticles1)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles31ArticleListeningProgressManager(NewsArticles)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles31PDFReplicaBarVisibilityAnimator(NewsArticles)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles32ModalArticleViewerViewController(NewsArticles)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles33ArticleMastheadRootViewController(NewsArticles)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles33CampaignLandingPageViewController(NewsArticles)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles33ReportConcernDetailViewController(NewsArticles)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles34ArticleNavigationBarPaletteContent(NewsArticles)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles35InterstitialAdPreviewViewController(NewsArticles)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles36ArticleNavigationBarMessageContainer(NewsArticles)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles36ArticleThumbnailComponentViewFactory(NewsArticles)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles36NewsletterSubscriptionStatusProvider(NewsArticles|NewsArticles1)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles37ANFIssueTableOfContentsViewController(NewsArticles)
+- __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles37ArticleThumbnailComponentSizerFactory(NewsArticles)
+- __OBJC_$_INSTANCE_VARIABLES_NANowPlayingIndicatorView
+- __OBJC_$_PROP_LIST_FCAssetDataProvider
+- __OBJC_$_PROP_LIST_FCBundleSubscriptionManagerType
+- __OBJC_$_PROP_LIST_FCBundleSubscriptionProviderType
+- __OBJC_$_PROP_LIST_FCChannelProviding
+- __OBJC_$_PROP_LIST_FCContentContext
+- __OBJC_$_PROP_LIST_FCCoreConfiguration
+- __OBJC_$_PROP_LIST_FCCoreConfigurationManager
+- __OBJC_$_PROP_LIST_FCFeedPersonalizing
+- __OBJC_$_PROP_LIST_FCFeedPersonalizingItem
+- __OBJC_$_PROP_LIST_FCFeedTheming
+- __OBJC_$_PROP_LIST_FCFeedTransformationItem
+- __OBJC_$_PROP_LIST_FCHeadlineProviding
+- __OBJC_$_PROP_LIST_FCIssueReadingHistoryType
+- __OBJC_$_PROP_LIST_FCNetworkReachabilityType
+- __OBJC_$_PROP_LIST_FCNewsAppConfiguration
+- __OBJC_$_PROP_LIST_FCNewsAppConfigurationManager
+- __OBJC_$_PROP_LIST_FCNewsWidgetConfiguration
+- __OBJC_$_PROP_LIST_FCNewsletterManager
+- __OBJC_$_PROP_LIST_FCPaidAccessCheckerType
+- __OBJC_$_PROP_LIST_FCPuzzleProviding
+- __OBJC_$_PROP_LIST_FCPuzzleTypeProviding
+- __OBJC_$_PROP_LIST_FCReadingHistoryItem
+- __OBJC_$_PROP_LIST_FCSharedCoreConfiguration
+- __OBJC_$_PROP_LIST_FCTagProviding
+- __OBJC_$_PROP_LIST_NANowPlayingIndicatorView
+- __OBJC_$_PROP_LIST_NSObject
+- __OBJC_$_PROP_LIST_NUANFDebugSettingsProvider
+- __OBJC_$_PROP_LIST_NUAdSettings
+- __OBJC_$_PROP_LIST_NUArticleKeyCommandManager
+- __OBJC_$_PROP_LIST_NUArticleViewControllerFactory
+- __OBJC_$_PROP_LIST_NUSettings
+- __OBJC_$_PROP_LIST_SXAdComponent
+- __OBJC_$_PROP_LIST_SXArticleThumbnailComponent
+- __OBJC_$_PROP_LIST_SXComponentAdvertisingMetadataProviding
+- __OBJC_$_PROP_LIST_SXComponentProperties
+- __OBJC_$_PROP_LIST_SXComponentState
+- __OBJC_$_PROP_LIST_SXComponentTypeDescribing
+- __OBJC_$_PROP_LIST_SXConditionalComponentProperties
+- __OBJC_$_PROP_LIST_SXConditionalObject
+- __OBJC_$_PROP_LIST_SXDOMObjectProviding
+- __OBJC_$_PROP_LIST_SXDarkModeConfiguration
+- __OBJC_$_PROP_LIST_SXDocumentControllerProvider
+- __OBJC_$_PROP_LIST_SXFeatures
+- __OBJC_$_PROP_LIST_SXHost
+- __OBJC_$_PROP_LIST_SXHostable
+- __OBJC_$_PROP_LIST_SXLayoutPipeline
+- __OBJC_$_PROP_LIST_SXNewsletterSubscriptionStatusProviding
+- __OBJC_$_PROP_LIST_SXOfferUpsellScenarioProviding
+- __OBJC_$_PROP_LIST_SXPresentationDelegateProvider
+- __OBJC_$_PROP_LIST_SXPresentationEnvironmentOverriding
+- __OBJC_$_PROP_LIST_SXProxyConfiguration
+- __OBJC_$_PROP_LIST_SXSubscriptionButtonTextProviding
+- __OBJC_$_PROP_LIST_SXSubscriptionStatusProviding
+- __OBJC_$_PROP_LIST_SXTagSubscriptionStatusProviding
+- __OBJC_$_PROP_LIST_SXTextAttributionProviding
+- __OBJC_$_PROP_LIST_SXViewControllerPresenting
+- __OBJC_$_PROP_LIST_TUBarCompressionAnimating
+- __OBJC_$_PROP_LIST_UIInteraction
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_AMSUIMessageViewControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCAVAssetPrewarming
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCAssetDataProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCBundleSubscriptionManagerType
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCBundleSubscriptionProviderType
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCCacheFlushing
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCCacheInvalidating
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCChannelProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCClassifiable
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCCommandDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCContentContext
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCCoreConfiguration
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCCoreConfigurationManager
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCEndpointConnectionType
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCFeedPersonalizing
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCFeedPersonalizingItem
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCFeedTheming
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCFeedTransformationItem
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCHeadlineProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCIssueReadingHistoryType
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCNetworkReachabilityType
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCNewsAppConfiguration
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCNewsAppConfigurationManager
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCNewsWidgetConfiguration
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCNewsletterManager
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCNewsletterSubscriptionObserver
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCPaidAccessCheckerType
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCPuzzleProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCPuzzleTypeProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCReadingHistoryItem
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCReadingListObserving
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCSharedCoreConfiguration
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCTagProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCTagRanking
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFCopying
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSMutableCopying
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUANFDebugSettingsObserver
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUANFDebugSettingsProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUAdSettings
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUAnalyticsReporting
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUArticleContentSizeManager
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUArticleHardPaywallPresentationReporting
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUArticleKeyCommandManager
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUArticleMessaging
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUArticlePrefetcherType
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUArticleScrollPositionManagerType
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUArticleViewControllerFactory
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUArticleViewControllerLiveCoverageDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUArticleViewControllerLoadingListener
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUDocumentSectionBlueprintProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUErrorMessageFactory
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUNavigationControl
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUPreviewViewControllerFactory
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUSettings
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUURLHandlerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUURLHandling
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUWebViewControllerFactoryType
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AMSUIMessageViewControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FCBundleSubscriptionChangeObserver
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FCCoreConfiguration
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FCFeedPersonalizing
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FCFeedPersonalizingItem
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FCFeedTransformationItem
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FCHeadlineProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FCNetworkReachabilityObserving
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FCNewsAppConfiguration
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FCNewsAppConfigurationManager
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FCNewsWidgetConfiguration
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FCReadingHistoryObserving
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FCSharedCoreConfiguration
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FCSubscriptionObserving
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FCTagProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_MFMailComposeViewControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NUArticleExperimentationDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NUArticleHostViewControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NUArticleViewControllerLoadingListener
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NULoadingDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_PDFViewDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SFSafariViewControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SXAppStateMonitor
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SXConditionalObject
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SXDocumentSectionItemProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SXSubscribeActionHandler
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SXTextAttributionProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SXURLHandling
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_TUBarCompressionAnimating
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIAdaptivePresentationControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIContextMenuInteractionDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIGestureRecognizerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIPopoverPresentationControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIScrollViewDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UITextFieldDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWFeedConfigurationFactory
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXAdComponent
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXAdIgnorableViewFactory
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXAppStateMonitor
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXArticleThumbnailComponent
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXComponentAdvertisingMetadataProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXComponentExposureMonitor
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXComponentProperties
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXComponentSizerEngine
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXComponentSizerFactory
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXComponentState
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXComponentStyleRendererFactory
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXComponentTypeDescribing
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXComponentViewEngine
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXConditionalComponentProperties
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXDOMObjectProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXDarkModeConfiguration
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXDebugLayoutOptionsObserving
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXDebugLayoutOptionsProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXDocumentControllerProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXDocumentSectionItemProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXFeatures
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXHost
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXHostable
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXIssueCoverLayoutAttributesFactory
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXIssueCoverViewProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXLayoutInvalidator
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXLayoutPipeline
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXLayoutProcessor
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXMailPresenter
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXMessagePresenter
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXNewsletterSubscriptionStatusObserving
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXNewsletterSubscriptionStatusProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXOfferUpsellScenarioObserving
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXOfferUpsellScenarioProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXPresentationDelegateProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXPresentationEnvironmentOverriding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXProxyAuthenticationKeyProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXProxyConfiguration
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXShareHandling
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXSubscribeActionHandler
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXSubscriptionButtonTextProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXSubscriptionStatusObserving
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXSubscriptionStatusProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXTagSubscriptionStatusObserving
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXTagSubscriptionStatusProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXTextAttributionProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXURLHandling
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXURLPreviewing
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXVideoAdProviderFactory
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXViewControllerPresenting
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TUBarCompressionAnimating
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TUBarPaletteContents
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_UIContextMenuInteractionDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_UIInteraction
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_UIPopoverPresentationControllerSourceItem
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AMSUIMessageViewControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCAVAssetPrewarming
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCAssetDataProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCBundleSubscriptionChangeObserver
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCBundleSubscriptionManagerType
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCBundleSubscriptionProviderType
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCCacheFlushing
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCCacheInvalidating
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCChannelProviding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCClassifiable
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCCommandDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCContentContext
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCCoreConfiguration
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCCoreConfigurationManager
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCEndpointConnectionType
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCFeedPersonalizing
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCFeedPersonalizingItem
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCFeedTheming
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCFeedTransformationItem
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCHeadlineProviding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCIssueReadingHistoryType
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCNetworkReachabilityObserving
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCNetworkReachabilityType
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCNewsAppConfiguration
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCNewsAppConfigurationManager
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCNewsWidgetConfiguration
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCNewsletterManager
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCNewsletterSubscriptionObserver
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCPaidAccessCheckerType
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCPuzzleProviding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCPuzzleTypeProviding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCReadingHistoryItem
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCReadingHistoryObserving
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCReadingListObserving
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCSharedCoreConfiguration
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCSubscriptionObserving
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCTagProviding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCTagRanking
+- __OBJC_$_PROTOCOL_METHOD_TYPES_MFMailComposeViewControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFCopying
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSMutableCopying
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUANFDebugSettingsObserver
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUANFDebugSettingsProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUAdSettings
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUAnalyticsReporting
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUArticleContentSizeManager
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUArticleExperimentationDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUArticleHardPaywallPresentationReporting
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUArticleHostViewControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUArticleKeyCommandManager
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUArticleMessaging
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUArticlePrefetcherType
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUArticleScrollPositionManagerType
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUArticleViewControllerFactory
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUArticleViewControllerLiveCoverageDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUArticleViewControllerLoadingListener
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUDocumentSectionBlueprintProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUErrorMessageFactory
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NULoadingDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUNavigationControl
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUPreviewViewControllerFactory
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUSettings
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUURLHandlerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUURLHandling
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUWebViewControllerFactoryType
+- __OBJC_$_PROTOCOL_METHOD_TYPES_PDFViewDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SFSafariViewControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SWFeedConfigurationFactory
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXAdComponent
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXAdIgnorableViewFactory
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXAppStateMonitor
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXArticleThumbnailComponent
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXComponentAdvertisingMetadataProviding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXComponentExposureMonitor
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXComponentProperties
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXComponentSizerEngine
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXComponentSizerFactory
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXComponentState
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXComponentStyleRendererFactory
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXComponentTypeDescribing
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXComponentViewEngine
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXConditionalComponentProperties
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXConditionalObject
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXDOMObjectProviding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXDarkModeConfiguration
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXDebugLayoutOptionsObserving
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXDebugLayoutOptionsProviding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXDocumentControllerProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXDocumentSectionItemProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXFeatures
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXHost
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXHostable
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXIssueCoverLayoutAttributesFactory
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXIssueCoverViewProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXLayoutInvalidator
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXLayoutPipeline
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXLayoutProcessor
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXMailPresenter
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXMessagePresenter
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXNewsletterSubscriptionStatusObserving
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXNewsletterSubscriptionStatusProviding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXOfferUpsellScenarioObserving
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXOfferUpsellScenarioProviding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXPresentationDelegateProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXPresentationEnvironmentOverriding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXProxyAuthenticationKeyProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXProxyConfiguration
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXShareHandling
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXSubscribeActionHandler
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXSubscriptionButtonTextProviding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXSubscriptionStatusObserving
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXSubscriptionStatusProviding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXTagSubscriptionStatusObserving
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXTagSubscriptionStatusProviding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXTextAttributionProviding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXURLHandling
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXURLPreviewing
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXVideoAdProviderFactory
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SXViewControllerPresenting
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TUBarCompressionAnimating
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TUBarPaletteContents
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UIAdaptivePresentationControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UIContextMenuInteractionDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UIGestureRecognizerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UIInteraction
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UIPopoverPresentationControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UIPopoverPresentationControllerSourceItem
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UIScrollViewDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UITextFieldDelegate
+- __OBJC_$_PROTOCOL_REFS_AMSUIMessageViewControllerDelegate
+- __OBJC_$_PROTOCOL_REFS_FCBundleSubscriptionChangeObserver
+- __OBJC_$_PROTOCOL_REFS_FCBundleSubscriptionManagerType
+- __OBJC_$_PROTOCOL_REFS_FCCacheFlushing
+- __OBJC_$_PROTOCOL_REFS_FCChannelProviding
+- __OBJC_$_PROTOCOL_REFS_FCClassifiable
+- __OBJC_$_PROTOCOL_REFS_FCCommandDelegate
+- __OBJC_$_PROTOCOL_REFS_FCContentContext
+- __OBJC_$_PROTOCOL_REFS_FCCoreConfiguration
+- __OBJC_$_PROTOCOL_REFS_FCCoreConfigurationManager
+- __OBJC_$_PROTOCOL_REFS_FCEndpointConnectionType
+- __OBJC_$_PROTOCOL_REFS_FCFeedPersonalizing
+- __OBJC_$_PROTOCOL_REFS_FCFeedPersonalizingItem
+- __OBJC_$_PROTOCOL_REFS_FCFeedTheming
+- __OBJC_$_PROTOCOL_REFS_FCFeedTransformationItem
+- __OBJC_$_PROTOCOL_REFS_FCHeadlineProviding
+- __OBJC_$_PROTOCOL_REFS_FCNetworkReachabilityObserving
+- __OBJC_$_PROTOCOL_REFS_FCNetworkReachabilityType
+- __OBJC_$_PROTOCOL_REFS_FCNewsAppConfiguration
+- __OBJC_$_PROTOCOL_REFS_FCNewsAppConfigurationManager
+- __OBJC_$_PROTOCOL_REFS_FCNewsWidgetConfiguration
+- __OBJC_$_PROTOCOL_REFS_FCNewsletterManager
+- __OBJC_$_PROTOCOL_REFS_FCNewsletterSubscriptionObserver
+- __OBJC_$_PROTOCOL_REFS_FCPuzzleProviding
+- __OBJC_$_PROTOCOL_REFS_FCPuzzleTypeProviding
+- __OBJC_$_PROTOCOL_REFS_FCReadingHistoryItem
+- __OBJC_$_PROTOCOL_REFS_FCReadingHistoryObserving
+- __OBJC_$_PROTOCOL_REFS_FCReadingListObserving
+- __OBJC_$_PROTOCOL_REFS_FCSharedCoreConfiguration
+- __OBJC_$_PROTOCOL_REFS_FCSubscriptionObserving
+- __OBJC_$_PROTOCOL_REFS_FCTagProviding
+- __OBJC_$_PROTOCOL_REFS_FCTagRanking
+- __OBJC_$_PROTOCOL_REFS_MFMailComposeViewControllerDelegate
+- __OBJC_$_PROTOCOL_REFS_NAANFHostable
+- __OBJC_$_PROTOCOL_REFS_NANavigationControl
+- __OBJC_$_PROTOCOL_REFS_NFCopying
+- __OBJC_$_PROTOCOL_REFS_NUANFDebugSettingsObserver
+- __OBJC_$_PROTOCOL_REFS_NUANFDebugSettingsProvider
+- __OBJC_$_PROTOCOL_REFS_NUAdSettings
+- __OBJC_$_PROTOCOL_REFS_NUAnalyticsReporting
+- __OBJC_$_PROTOCOL_REFS_NUArticleContentSizeManager
+- __OBJC_$_PROTOCOL_REFS_NUArticleExperimentationDelegate
+- __OBJC_$_PROTOCOL_REFS_NUArticleHostViewControllerDelegate
+- __OBJC_$_PROTOCOL_REFS_NUArticleKeyCommandManager
+- __OBJC_$_PROTOCOL_REFS_NUArticleViewControllerFactory
+- __OBJC_$_PROTOCOL_REFS_NUArticleViewControllerLiveCoverageDelegate
+- __OBJC_$_PROTOCOL_REFS_NUArticleViewControllerLoadingListener
+- __OBJC_$_PROTOCOL_REFS_NUDocumentSectionBlueprintProvider
+- __OBJC_$_PROTOCOL_REFS_NUErrorMessageFactory
+- __OBJC_$_PROTOCOL_REFS_NULoadingDelegate
+- __OBJC_$_PROTOCOL_REFS_NUNavigationControl
+- __OBJC_$_PROTOCOL_REFS_NUPreviewViewControllerFactory
+- __OBJC_$_PROTOCOL_REFS_NUSafeAreaInsetsProviding
+- __OBJC_$_PROTOCOL_REFS_NUSettings
+- __OBJC_$_PROTOCOL_REFS_NUURLHandlerDelegate
+- __OBJC_$_PROTOCOL_REFS_NUURLHandling
+- __OBJC_$_PROTOCOL_REFS_NUWebViewControllerFactoryType
+- __OBJC_$_PROTOCOL_REFS_PDFViewDelegate
+- __OBJC_$_PROTOCOL_REFS_SFSafariViewControllerDelegate
+- __OBJC_$_PROTOCOL_REFS_SWFeedConfigurationFactory
+- __OBJC_$_PROTOCOL_REFS_SXAdComponent
+- __OBJC_$_PROTOCOL_REFS_SXAdIgnorableViewFactory
+- __OBJC_$_PROTOCOL_REFS_SXAppStateMonitor
+- __OBJC_$_PROTOCOL_REFS_SXArticleThumbnailComponent
+- __OBJC_$_PROTOCOL_REFS_SXComponent
+- __OBJC_$_PROTOCOL_REFS_SXComponentAdvertisingMetadataProviding
+- __OBJC_$_PROTOCOL_REFS_SXComponentExposureMonitor
+- __OBJC_$_PROTOCOL_REFS_SXComponentProperties
+- __OBJC_$_PROTOCOL_REFS_SXComponentSizerEngine
+- __OBJC_$_PROTOCOL_REFS_SXComponentSizerFactory
+- __OBJC_$_PROTOCOL_REFS_SXComponentState
+- __OBJC_$_PROTOCOL_REFS_SXComponentStyleRendererFactory
+- __OBJC_$_PROTOCOL_REFS_SXComponentTypeDescribing
+- __OBJC_$_PROTOCOL_REFS_SXComponentViewEngine
+- __OBJC_$_PROTOCOL_REFS_SXConditionalComponentProperties
+- __OBJC_$_PROTOCOL_REFS_SXConditionalObject
+- __OBJC_$_PROTOCOL_REFS_SXDOMObjectProviding
+- __OBJC_$_PROTOCOL_REFS_SXDarkModeConfiguration
+- __OBJC_$_PROTOCOL_REFS_SXDebugLayoutOptionsObserving
+- __OBJC_$_PROTOCOL_REFS_SXDebugLayoutOptionsProviding
+- __OBJC_$_PROTOCOL_REFS_SXDocumentControllerProvider
+- __OBJC_$_PROTOCOL_REFS_SXDocumentSectionItemProvider
+- __OBJC_$_PROTOCOL_REFS_SXFeatures
+- __OBJC_$_PROTOCOL_REFS_SXHost
+- __OBJC_$_PROTOCOL_REFS_SXHostable
+- __OBJC_$_PROTOCOL_REFS_SXIssueCoverLayoutAttributesFactory
+- __OBJC_$_PROTOCOL_REFS_SXIssueCoverViewProvider
+- __OBJC_$_PROTOCOL_REFS_SXLayoutInvalidator
+- __OBJC_$_PROTOCOL_REFS_SXLayoutPipeline
+- __OBJC_$_PROTOCOL_REFS_SXLayoutProcessor
+- __OBJC_$_PROTOCOL_REFS_SXMailPresenter
+- __OBJC_$_PROTOCOL_REFS_SXMessagePresenter
+- __OBJC_$_PROTOCOL_REFS_SXNewsletterSubscriptionStatusObserving
+- __OBJC_$_PROTOCOL_REFS_SXNewsletterSubscriptionStatusProviding
+- __OBJC_$_PROTOCOL_REFS_SXOfferUpsellScenarioObserving
+- __OBJC_$_PROTOCOL_REFS_SXOfferUpsellScenarioProviding
+- __OBJC_$_PROTOCOL_REFS_SXPresentationDelegateProvider
+- __OBJC_$_PROTOCOL_REFS_SXPresentationEnvironmentOverriding
+- __OBJC_$_PROTOCOL_REFS_SXProxyAuthenticationKeyProvider
+- __OBJC_$_PROTOCOL_REFS_SXProxyConfiguration
+- __OBJC_$_PROTOCOL_REFS_SXShareHandling
+- __OBJC_$_PROTOCOL_REFS_SXSubscribeActionHandler
+- __OBJC_$_PROTOCOL_REFS_SXSubscriptionButtonTextProviding
+- __OBJC_$_PROTOCOL_REFS_SXSubscriptionStatusObserving
+- __OBJC_$_PROTOCOL_REFS_SXSubscriptionStatusProviding
+- __OBJC_$_PROTOCOL_REFS_SXTagSubscriptionStatusObserving
+- __OBJC_$_PROTOCOL_REFS_SXTagSubscriptionStatusProviding
+- __OBJC_$_PROTOCOL_REFS_SXTextAttributionProviding
+- __OBJC_$_PROTOCOL_REFS_SXURLHandling
+- __OBJC_$_PROTOCOL_REFS_SXURLPreviewing
+- __OBJC_$_PROTOCOL_REFS_SXVideoAdProviderFactory
+- __OBJC_$_PROTOCOL_REFS_SXViewControllerPresenting
+- __OBJC_$_PROTOCOL_REFS_UIAdaptivePresentationControllerDelegate
+- __OBJC_$_PROTOCOL_REFS_UIContextMenuInteractionDelegate
+- __OBJC_$_PROTOCOL_REFS_UIGestureRecognizerDelegate
+- __OBJC_$_PROTOCOL_REFS_UIInteraction
+- __OBJC_$_PROTOCOL_REFS_UIPopoverPresentationControllerDelegate
+- __OBJC_$_PROTOCOL_REFS_UIPopoverPresentationControllerSourceItem
+- __OBJC_$_PROTOCOL_REFS_UIScrollViewDelegate
+- __OBJC_$_PROTOCOL_REFS_UITextFieldDelegate
+- __OBJC_CLASS_PROTOCOLS_$_NAWeakZoomable(NewsArticles)
+- __OBJC_CLASS_PROTOCOLS_$__TtC12NewsArticles10URLHandler(NewsArticles)
+- __OBJC_CLASS_PROTOCOLS_$__TtC12NewsArticles13MailPresenter(NewsArticles)
+- __OBJC_CLASS_PROTOCOLS_$__TtC12NewsArticles17TipViewController(NewsArticles|NewsArticles1)
+- __OBJC_CLASS_PROTOCOLS_$__TtC12NewsArticles19ReadingListObserver(NewsArticles)
+- __OBJC_CLASS_PROTOCOLS_$__TtC12NewsArticles21ArticleAudioPrewarmer(NewsArticles)
+- __OBJC_CLASS_PROTOCOLS_$__TtC12NewsArticles21ArticleViewController(NewsArticles|NewsArticles1|NewsArticles2|NewsArticles3|NewsArticles4|NewsArticles5|NewsArticles6|NewsArticles7|NewsArticles8|NewsArticles9|NewsArticles10|NewsArticles11|NewsArticles12|NewsArticles13|NewsArticles14)
+- __OBJC_CLASS_PROTOCOLS_$__TtC12NewsArticles21DarkModeConfiguration(NewsArticles)
+- __OBJC_CLASS_PROTOCOLS_$__TtC12NewsArticles22AnalyticsEventReporter(NewsArticles)
+- __OBJC_CLASS_PROTOCOLS_$__TtC12NewsArticles22SubscribeActionHandler(NewsArticles|NewsArticles1|NewsArticles2)
+- __OBJC_CLASS_PROTOCOLS_$__TtC12NewsArticles23ArticleViewerInteractor(NewsArticles)
+- __OBJC_CLASS_PROTOCOLS_$__TtC12NewsArticles23TextAttributionProvider(NewsArticles)
+- __OBJC_CLASS_PROTOCOLS_$__TtC12NewsArticles24ANFDebugSettingsProvider(NewsArticles)
+- __OBJC_CLASS_PROTOCOLS_$__TtC12NewsArticles24PDFReplicaViewController(NewsArticles|NewsArticles1|NewsArticles2)
+- __OBJC_CLASS_PROTOCOLS_$__TtC12NewsArticles25IssueViewerViewController(NewsArticles|NewsArticles1)
+- __OBJC_CLASS_PROTOCOLS_$__TtC12NewsArticles25TableOfContentsURLHandler(NewsArticles|NewsArticles1)
+- __OBJC_CLASS_PROTOCOLS_$__TtC12NewsArticles26EndOfArticleViewController(NewsArticles|NewsArticles1|NewsArticles2)
+- __OBJC_CLASS_PROTOCOLS_$__TtC12NewsArticles26SubscriptionStatusProvider(NewsArticles|NewsArticles1)
+- __OBJC_CLASS_PROTOCOLS_$__TtC12NewsArticles27ArticleViewerViewController(NewsArticles|NewsArticles1|NewsArticles2)
+- __OBJC_CLASS_PROTOCOLS_$__TtC12NewsArticles27OfferUpsellScenarioProvider(NewsArticles)
+- __OBJC_CLASS_PROTOCOLS_$__TtC12NewsArticles28ArticleViewerAppStateMonitor(NewsArticles)
+- __OBJC_CLASS_PROTOCOLS_$__TtC12NewsArticles29ANFDebugLayoutOptionsProvider(NewsArticles)
+- __OBJC_CLASS_PROTOCOLS_$__TtC12NewsArticles29ProxyAuthenticationKeyManager(NewsArticles)
+- __OBJC_CLASS_PROTOCOLS_$__TtC12NewsArticles29TagSubscriptionStatusProvider(NewsArticles|NewsArticles1)
+- __OBJC_CLASS_PROTOCOLS_$__TtC12NewsArticles29TextSizeControlViewController(NewsArticles|NewsArticles1)
+- __OBJC_CLASS_PROTOCOLS_$__TtC12NewsArticles31ArticleListeningProgressManager(NewsArticles)
+- __OBJC_CLASS_PROTOCOLS_$__TtC12NewsArticles31PDFReplicaBarVisibilityAnimator(NewsArticles)
+- __OBJC_CLASS_PROTOCOLS_$__TtC12NewsArticles33ArticleMastheadRootViewController(NewsArticles)
+- __OBJC_CLASS_PROTOCOLS_$__TtC12NewsArticles34ArticleNavigationBarPaletteContent(NewsArticles)
+- __OBJC_CLASS_PROTOCOLS_$__TtC12NewsArticles36ArticleNavigationBarMessageContainer(NewsArticles)
+- __OBJC_CLASS_PROTOCOLS_$__TtC12NewsArticles36NewsletterSubscriptionStatusProvider(NewsArticles|NewsArticles1)
+- __OBJC_CLASS_PROTOCOLS_$__TtC12NewsArticles37ANFIssueTableOfContentsViewController(NewsArticles)
+- __OBJC_CLASS_PROTOCOLS_$__TtC12NewsArticles37ArticleThumbnailComponentSizerFactory(NewsArticles)
+- __OBJC_CLASS_RO_$_NAActivity
+- __OBJC_CLASS_RO_$_NAAddToSafariReadingListActivity
+- __OBJC_CLASS_RO_$_NAAddToSafariReadingListActivityFactory
+- __OBJC_CLASS_RO_$_NANowPlayingIndicatorView
+- __OBJC_LABEL_PROTOCOL_$_AMSUIMessageViewControllerDelegate
+- __OBJC_LABEL_PROTOCOL_$_FCAVAssetPrewarming
+- __OBJC_LABEL_PROTOCOL_$_FCAssetDataProvider
+- __OBJC_LABEL_PROTOCOL_$_FCBundleSubscriptionChangeObserver
+- __OBJC_LABEL_PROTOCOL_$_FCBundleSubscriptionManagerType
+- __OBJC_LABEL_PROTOCOL_$_FCBundleSubscriptionProviderType
+- __OBJC_LABEL_PROTOCOL_$_FCCacheFlushing
+- __OBJC_LABEL_PROTOCOL_$_FCCacheInvalidating
+- __OBJC_LABEL_PROTOCOL_$_FCChannelProviding
+- __OBJC_LABEL_PROTOCOL_$_FCClassifiable
+- __OBJC_LABEL_PROTOCOL_$_FCCommandDelegate
+- __OBJC_LABEL_PROTOCOL_$_FCContentContext
+- __OBJC_LABEL_PROTOCOL_$_FCCoreConfiguration
+- __OBJC_LABEL_PROTOCOL_$_FCCoreConfigurationManager
+- __OBJC_LABEL_PROTOCOL_$_FCEndpointConnectionType
+- __OBJC_LABEL_PROTOCOL_$_FCFeedPersonalizing
+- __OBJC_LABEL_PROTOCOL_$_FCFeedPersonalizingItem
+- __OBJC_LABEL_PROTOCOL_$_FCFeedTheming
+- __OBJC_LABEL_PROTOCOL_$_FCFeedTransformationItem
+- __OBJC_LABEL_PROTOCOL_$_FCHeadlineProviding
+- __OBJC_LABEL_PROTOCOL_$_FCIssueReadingHistoryType
+- __OBJC_LABEL_PROTOCOL_$_FCNetworkReachabilityObserving
+- __OBJC_LABEL_PROTOCOL_$_FCNetworkReachabilityType
+- __OBJC_LABEL_PROTOCOL_$_FCNewsAppConfiguration
+- __OBJC_LABEL_PROTOCOL_$_FCNewsAppConfigurationManager
+- __OBJC_LABEL_PROTOCOL_$_FCNewsWidgetConfiguration
+- __OBJC_LABEL_PROTOCOL_$_FCNewsletterManager
+- __OBJC_LABEL_PROTOCOL_$_FCNewsletterSubscriptionObserver
+- __OBJC_LABEL_PROTOCOL_$_FCPaidAccessCheckerType
+- __OBJC_LABEL_PROTOCOL_$_FCPuzzleProviding
+- __OBJC_LABEL_PROTOCOL_$_FCPuzzleTypeProviding
+- __OBJC_LABEL_PROTOCOL_$_FCReadingHistoryItem
+- __OBJC_LABEL_PROTOCOL_$_FCReadingHistoryObserving
+- __OBJC_LABEL_PROTOCOL_$_FCReadingListObserving
+- __OBJC_LABEL_PROTOCOL_$_FCSharedCoreConfiguration
+- __OBJC_LABEL_PROTOCOL_$_FCSubscriptionObserving
+- __OBJC_LABEL_PROTOCOL_$_FCTagProviding
+- __OBJC_LABEL_PROTOCOL_$_FCTagRanking
+- __OBJC_LABEL_PROTOCOL_$_MFMailComposeViewControllerDelegate
+- __OBJC_LABEL_PROTOCOL_$_NAANFHostable
+- __OBJC_LABEL_PROTOCOL_$_NANavigationControl
+- __OBJC_LABEL_PROTOCOL_$_NFCopying
+- __OBJC_LABEL_PROTOCOL_$_NSCopying
+- __OBJC_LABEL_PROTOCOL_$_NSMutableCopying
+- __OBJC_LABEL_PROTOCOL_$_NSObject
+- __OBJC_LABEL_PROTOCOL_$_NUANFDebugSettingsObserver
+- __OBJC_LABEL_PROTOCOL_$_NUANFDebugSettingsProvider
+- __OBJC_LABEL_PROTOCOL_$_NUAdSettings
+- __OBJC_LABEL_PROTOCOL_$_NUAnalyticsReporting
+- __OBJC_LABEL_PROTOCOL_$_NUArticleContentSizeManager
+- __OBJC_LABEL_PROTOCOL_$_NUArticleExperimentationDelegate
+- __OBJC_LABEL_PROTOCOL_$_NUArticleHardPaywallPresentationReporting
+- __OBJC_LABEL_PROTOCOL_$_NUArticleHostViewControllerDelegate
+- __OBJC_LABEL_PROTOCOL_$_NUArticleKeyCommandManager
+- __OBJC_LABEL_PROTOCOL_$_NUArticleMessaging
+- __OBJC_LABEL_PROTOCOL_$_NUArticlePrefetcherType
+- __OBJC_LABEL_PROTOCOL_$_NUArticleScrollPositionManagerType
+- __OBJC_LABEL_PROTOCOL_$_NUArticleViewControllerFactory
+- __OBJC_LABEL_PROTOCOL_$_NUArticleViewControllerLiveCoverageDelegate
+- __OBJC_LABEL_PROTOCOL_$_NUArticleViewControllerLoadingListener
+- __OBJC_LABEL_PROTOCOL_$_NUDocumentSectionBlueprintProvider
+- __OBJC_LABEL_PROTOCOL_$_NUErrorMessageFactory
+- __OBJC_LABEL_PROTOCOL_$_NULoadingDelegate
+- __OBJC_LABEL_PROTOCOL_$_NUNavigationControl
+- __OBJC_LABEL_PROTOCOL_$_NUPreviewViewControllerFactory
+- __OBJC_LABEL_PROTOCOL_$_NUSafeAreaInsetsProviding
+- __OBJC_LABEL_PROTOCOL_$_NUSettings
+- __OBJC_LABEL_PROTOCOL_$_NUURLHandlerDelegate
+- __OBJC_LABEL_PROTOCOL_$_NUURLHandling
+- __OBJC_LABEL_PROTOCOL_$_NUWebViewControllerFactoryType
+- __OBJC_LABEL_PROTOCOL_$_PDFViewDelegate
+- __OBJC_LABEL_PROTOCOL_$_SFSafariViewControllerDelegate
+- __OBJC_LABEL_PROTOCOL_$_SWFeedConfigurationFactory
+- __OBJC_LABEL_PROTOCOL_$_SXAdComponent
+- __OBJC_LABEL_PROTOCOL_$_SXAdIgnorableViewFactory
+- __OBJC_LABEL_PROTOCOL_$_SXAppStateMonitor
+- __OBJC_LABEL_PROTOCOL_$_SXArticleThumbnailComponent
+- __OBJC_LABEL_PROTOCOL_$_SXComponent
+- __OBJC_LABEL_PROTOCOL_$_SXComponentAdvertisingMetadataProviding
+- __OBJC_LABEL_PROTOCOL_$_SXComponentExposureMonitor
+- __OBJC_LABEL_PROTOCOL_$_SXComponentProperties
+- __OBJC_LABEL_PROTOCOL_$_SXComponentSizerEngine
+- __OBJC_LABEL_PROTOCOL_$_SXComponentSizerFactory
+- __OBJC_LABEL_PROTOCOL_$_SXComponentState
+- __OBJC_LABEL_PROTOCOL_$_SXComponentStyleRendererFactory
+- __OBJC_LABEL_PROTOCOL_$_SXComponentTypeDescribing
+- __OBJC_LABEL_PROTOCOL_$_SXComponentViewEngine
+- __OBJC_LABEL_PROTOCOL_$_SXConditionalComponentProperties
+- __OBJC_LABEL_PROTOCOL_$_SXConditionalObject
+- __OBJC_LABEL_PROTOCOL_$_SXDOMObjectProviding
+- __OBJC_LABEL_PROTOCOL_$_SXDarkModeConfiguration
+- __OBJC_LABEL_PROTOCOL_$_SXDebugLayoutOptionsObserving
+- __OBJC_LABEL_PROTOCOL_$_SXDebugLayoutOptionsProviding
+- __OBJC_LABEL_PROTOCOL_$_SXDocumentControllerProvider
+- __OBJC_LABEL_PROTOCOL_$_SXDocumentSectionItemProvider
+- __OBJC_LABEL_PROTOCOL_$_SXFeatures
+- __OBJC_LABEL_PROTOCOL_$_SXHost
+- __OBJC_LABEL_PROTOCOL_$_SXHostable
+- __OBJC_LABEL_PROTOCOL_$_SXIssueCoverLayoutAttributesFactory
+- __OBJC_LABEL_PROTOCOL_$_SXIssueCoverViewProvider
+- __OBJC_LABEL_PROTOCOL_$_SXLayoutInvalidator
+- __OBJC_LABEL_PROTOCOL_$_SXLayoutPipeline
+- __OBJC_LABEL_PROTOCOL_$_SXLayoutProcessor
+- __OBJC_LABEL_PROTOCOL_$_SXMailPresenter
+- __OBJC_LABEL_PROTOCOL_$_SXMessagePresenter
+- __OBJC_LABEL_PROTOCOL_$_SXNewsletterSubscriptionStatusObserving
+- __OBJC_LABEL_PROTOCOL_$_SXNewsletterSubscriptionStatusProviding
+- __OBJC_LABEL_PROTOCOL_$_SXOfferUpsellScenarioObserving
+- __OBJC_LABEL_PROTOCOL_$_SXOfferUpsellScenarioProviding
+- __OBJC_LABEL_PROTOCOL_$_SXPresentationDelegateProvider
+- __OBJC_LABEL_PROTOCOL_$_SXPresentationEnvironmentOverriding
+- __OBJC_LABEL_PROTOCOL_$_SXProxyAuthenticationKeyProvider
+- __OBJC_LABEL_PROTOCOL_$_SXProxyConfiguration
+- __OBJC_LABEL_PROTOCOL_$_SXShareHandling
+- __OBJC_LABEL_PROTOCOL_$_SXSubscribeActionHandler
+- __OBJC_LABEL_PROTOCOL_$_SXSubscriptionButtonTextProviding
+- __OBJC_LABEL_PROTOCOL_$_SXSubscriptionStatusObserving
+- __OBJC_LABEL_PROTOCOL_$_SXSubscriptionStatusProviding
+- __OBJC_LABEL_PROTOCOL_$_SXTagSubscriptionStatusObserving
+- __OBJC_LABEL_PROTOCOL_$_SXTagSubscriptionStatusProviding
+- __OBJC_LABEL_PROTOCOL_$_SXTextAttributionProviding
+- __OBJC_LABEL_PROTOCOL_$_SXURLHandling
+- __OBJC_LABEL_PROTOCOL_$_SXURLPreviewing
+- __OBJC_LABEL_PROTOCOL_$_SXVideoAdProviderFactory
+- __OBJC_LABEL_PROTOCOL_$_SXViewControllerPresenting
+- __OBJC_LABEL_PROTOCOL_$_TUBarCompressionAnimating
+- __OBJC_LABEL_PROTOCOL_$_TUBarPaletteContents
+- __OBJC_LABEL_PROTOCOL_$_UIAdaptivePresentationControllerDelegate
+- __OBJC_LABEL_PROTOCOL_$_UIContextMenuInteractionDelegate
+- __OBJC_LABEL_PROTOCOL_$_UIGestureRecognizerDelegate
+- __OBJC_LABEL_PROTOCOL_$_UIInteraction
+- __OBJC_LABEL_PROTOCOL_$_UIPopoverPresentationControllerDelegate
+- __OBJC_LABEL_PROTOCOL_$_UIPopoverPresentationControllerSourceItem
+- __OBJC_LABEL_PROTOCOL_$_UIScrollViewDelegate
+- __OBJC_LABEL_PROTOCOL_$_UITextFieldDelegate
+- __OBJC_METACLASS_RO_$_NAActivity
+- __OBJC_METACLASS_RO_$_NAAddToSafariReadingListActivity
+- __OBJC_METACLASS_RO_$_NAAddToSafariReadingListActivityFactory
+- __OBJC_METACLASS_RO_$_NANowPlayingIndicatorView
+- __OBJC_PROTOCOL_$_AMSUIMessageViewControllerDelegate
+- __OBJC_PROTOCOL_$_FCAVAssetPrewarming
+- __OBJC_PROTOCOL_$_FCAssetDataProvider
+- __OBJC_PROTOCOL_$_FCBundleSubscriptionChangeObserver
+- __OBJC_PROTOCOL_$_FCBundleSubscriptionManagerType
+- __OBJC_PROTOCOL_$_FCBundleSubscriptionProviderType
+- __OBJC_PROTOCOL_$_FCCacheFlushing
+- __OBJC_PROTOCOL_$_FCCacheInvalidating
+- __OBJC_PROTOCOL_$_FCChannelProviding
+- __OBJC_PROTOCOL_$_FCClassifiable
+- __OBJC_PROTOCOL_$_FCCommandDelegate
+- __OBJC_PROTOCOL_$_FCContentContext
+- __OBJC_PROTOCOL_$_FCCoreConfiguration
+- __OBJC_PROTOCOL_$_FCCoreConfigurationManager
+- __OBJC_PROTOCOL_$_FCEndpointConnectionType
+- __OBJC_PROTOCOL_$_FCFeedPersonalizing
+- __OBJC_PROTOCOL_$_FCFeedPersonalizingItem
+- __OBJC_PROTOCOL_$_FCFeedTheming
+- __OBJC_PROTOCOL_$_FCFeedTransformationItem
+- __OBJC_PROTOCOL_$_FCHeadlineProviding
+- __OBJC_PROTOCOL_$_FCIssueReadingHistoryType
+- __OBJC_PROTOCOL_$_FCNetworkReachabilityObserving
+- __OBJC_PROTOCOL_$_FCNetworkReachabilityType
+- __OBJC_PROTOCOL_$_FCNewsAppConfiguration
+- __OBJC_PROTOCOL_$_FCNewsAppConfigurationManager
+- __OBJC_PROTOCOL_$_FCNewsWidgetConfiguration
+- __OBJC_PROTOCOL_$_FCNewsletterManager
+- __OBJC_PROTOCOL_$_FCNewsletterSubscriptionObserver
+- __OBJC_PROTOCOL_$_FCPaidAccessCheckerType
+- __OBJC_PROTOCOL_$_FCPuzzleProviding
+- __OBJC_PROTOCOL_$_FCPuzzleTypeProviding
+- __OBJC_PROTOCOL_$_FCReadingHistoryItem
+- __OBJC_PROTOCOL_$_FCReadingHistoryObserving
+- __OBJC_PROTOCOL_$_FCReadingListObserving
+- __OBJC_PROTOCOL_$_FCSharedCoreConfiguration
+- __OBJC_PROTOCOL_$_FCSubscriptionObserving
+- __OBJC_PROTOCOL_$_FCTagProviding
+- __OBJC_PROTOCOL_$_FCTagRanking
+- __OBJC_PROTOCOL_$_MFMailComposeViewControllerDelegate
+- __OBJC_PROTOCOL_$_NAANFHostable
+- __OBJC_PROTOCOL_$_NANavigationControl
+- __OBJC_PROTOCOL_$_NFCopying
+- __OBJC_PROTOCOL_$_NSCopying
+- __OBJC_PROTOCOL_$_NSMutableCopying
+- __OBJC_PROTOCOL_$_NSObject
+- __OBJC_PROTOCOL_$_NUANFDebugSettingsObserver
+- __OBJC_PROTOCOL_$_NUANFDebugSettingsProvider
+- __OBJC_PROTOCOL_$_NUAdSettings
+- __OBJC_PROTOCOL_$_NUAnalyticsReporting
+- __OBJC_PROTOCOL_$_NUArticleContentSizeManager
+- __OBJC_PROTOCOL_$_NUArticleExperimentationDelegate
+- __OBJC_PROTOCOL_$_NUArticleHardPaywallPresentationReporting
+- __OBJC_PROTOCOL_$_NUArticleHostViewControllerDelegate
+- __OBJC_PROTOCOL_$_NUArticleKeyCommandManager
+- __OBJC_PROTOCOL_$_NUArticleMessaging
+- __OBJC_PROTOCOL_$_NUArticlePrefetcherType
+- __OBJC_PROTOCOL_$_NUArticleScrollPositionManagerType
+- __OBJC_PROTOCOL_$_NUArticleViewControllerFactory
+- __OBJC_PROTOCOL_$_NUArticleViewControllerLiveCoverageDelegate
+- __OBJC_PROTOCOL_$_NUArticleViewControllerLoadingListener
+- __OBJC_PROTOCOL_$_NUDocumentSectionBlueprintProvider
+- __OBJC_PROTOCOL_$_NUErrorMessageFactory
+- __OBJC_PROTOCOL_$_NULoadingDelegate
+- __OBJC_PROTOCOL_$_NUNavigationControl
+- __OBJC_PROTOCOL_$_NUPreviewViewControllerFactory
+- __OBJC_PROTOCOL_$_NUSafeAreaInsetsProviding
+- __OBJC_PROTOCOL_$_NUSettings
+- __OBJC_PROTOCOL_$_NUURLHandlerDelegate
+- __OBJC_PROTOCOL_$_NUURLHandling
+- __OBJC_PROTOCOL_$_NUWebViewControllerFactoryType
+- __OBJC_PROTOCOL_$_PDFViewDelegate
+- __OBJC_PROTOCOL_$_SFSafariViewControllerDelegate
+- __OBJC_PROTOCOL_$_SWFeedConfigurationFactory
+- __OBJC_PROTOCOL_$_SXAdComponent
+- __OBJC_PROTOCOL_$_SXAdIgnorableViewFactory
+- __OBJC_PROTOCOL_$_SXAppStateMonitor
+- __OBJC_PROTOCOL_$_SXArticleThumbnailComponent
+- __OBJC_PROTOCOL_$_SXComponent
+- __OBJC_PROTOCOL_$_SXComponentAdvertisingMetadataProviding
+- __OBJC_PROTOCOL_$_SXComponentExposureMonitor
+- __OBJC_PROTOCOL_$_SXComponentProperties
+- __OBJC_PROTOCOL_$_SXComponentSizerEngine
+- __OBJC_PROTOCOL_$_SXComponentSizerFactory
+- __OBJC_PROTOCOL_$_SXComponentState
+- __OBJC_PROTOCOL_$_SXComponentStyleRendererFactory
+- __OBJC_PROTOCOL_$_SXComponentTypeDescribing
+- __OBJC_PROTOCOL_$_SXComponentViewEngine
+- __OBJC_PROTOCOL_$_SXConditionalComponentProperties
+- __OBJC_PROTOCOL_$_SXConditionalObject
+- __OBJC_PROTOCOL_$_SXDOMObjectProviding
+- __OBJC_PROTOCOL_$_SXDarkModeConfiguration
+- __OBJC_PROTOCOL_$_SXDebugLayoutOptionsObserving
+- __OBJC_PROTOCOL_$_SXDebugLayoutOptionsProviding
+- __OBJC_PROTOCOL_$_SXDocumentControllerProvider
+- __OBJC_PROTOCOL_$_SXDocumentSectionItemProvider
+- __OBJC_PROTOCOL_$_SXFeatures
+- __OBJC_PROTOCOL_$_SXHost
+- __OBJC_PROTOCOL_$_SXHostable
+- __OBJC_PROTOCOL_$_SXIssueCoverLayoutAttributesFactory
+- __OBJC_PROTOCOL_$_SXIssueCoverViewProvider
+- __OBJC_PROTOCOL_$_SXLayoutInvalidator
+- __OBJC_PROTOCOL_$_SXLayoutPipeline
+- __OBJC_PROTOCOL_$_SXLayoutProcessor
+- __OBJC_PROTOCOL_$_SXMailPresenter
+- __OBJC_PROTOCOL_$_SXMessagePresenter
+- __OBJC_PROTOCOL_$_SXNewsletterSubscriptionStatusObserving
+- __OBJC_PROTOCOL_$_SXNewsletterSubscriptionStatusProviding
+- __OBJC_PROTOCOL_$_SXOfferUpsellScenarioObserving
+- __OBJC_PROTOCOL_$_SXOfferUpsellScenarioProviding
+- __OBJC_PROTOCOL_$_SXPresentationDelegateProvider
+- __OBJC_PROTOCOL_$_SXPresentationEnvironmentOverriding
+- __OBJC_PROTOCOL_$_SXProxyAuthenticationKeyProvider
+- __OBJC_PROTOCOL_$_SXProxyConfiguration
+- __OBJC_PROTOCOL_$_SXShareHandling
+- __OBJC_PROTOCOL_$_SXSubscribeActionHandler
+- __OBJC_PROTOCOL_$_SXSubscriptionButtonTextProviding
+- __OBJC_PROTOCOL_$_SXSubscriptionStatusObserving
+- __OBJC_PROTOCOL_$_SXSubscriptionStatusProviding
+- __OBJC_PROTOCOL_$_SXTagSubscriptionStatusObserving
+- __OBJC_PROTOCOL_$_SXTagSubscriptionStatusProviding
+- __OBJC_PROTOCOL_$_SXTextAttributionProviding
+- __OBJC_PROTOCOL_$_SXURLHandling
+- __OBJC_PROTOCOL_$_SXURLPreviewing
+- __OBJC_PROTOCOL_$_SXVideoAdProviderFactory
+- __OBJC_PROTOCOL_$_SXViewControllerPresenting
+- __OBJC_PROTOCOL_$_TUBarCompressionAnimating
+- __OBJC_PROTOCOL_$_TUBarPaletteContents
+- __OBJC_PROTOCOL_$_UIAdaptivePresentationControllerDelegate
+- __OBJC_PROTOCOL_$_UIContextMenuInteractionDelegate
+- __OBJC_PROTOCOL_$_UIGestureRecognizerDelegate
+- __OBJC_PROTOCOL_$_UIInteraction
+- __OBJC_PROTOCOL_$_UIPopoverPresentationControllerDelegate
+- __OBJC_PROTOCOL_$_UIPopoverPresentationControllerSourceItem
+- __OBJC_PROTOCOL_$_UIScrollViewDelegate
+- __OBJC_PROTOCOL_$_UITextFieldDelegate
+- __PROPERTIES_NABarButtonItem
+- __PROPERTIES__TtC12NewsArticles13FocusableView
+- __PROPERTIES__TtC12NewsArticles16AdComponentState
+- __PROPERTIES__TtC12NewsArticles17TipViewController
+- __PROPERTIES__TtC12NewsArticles18ProxyConfiguration
+- __PROPERTIES__TtC12NewsArticles20ArticleFooterPaywall
+- __PROPERTIES__TtC12NewsArticles22AdComponentViewFactory
+- __PROPERTIES__TtC12NewsArticles22AudioPlaybackConductor
+- __PROPERTIES__TtC12NewsArticles23AdComponentSizerFactory
+- __PROPERTIES__TtC12NewsArticles24ANFDebugSettingsProvider
+- __PROPERTIES__TtC12NewsArticles24LiveCoverageStatusButton
+- __PROPERTIES__TtC12NewsArticles26NoPlayingAudioInfoProvider
+- __PROPERTIES__TtC12NewsArticles26SubscriptionStatusProvider
+- __PROPERTIES__TtC12NewsArticles27BrandBarNavigationAnimation
+- __PROPERTIES__TtC12NewsArticles29SearchInArticleViewController
+- __PROPERTIES__TtC12NewsArticles29TagSubscriptionStatusProvider
+- __PROPERTIES__TtC12NewsArticles30PDFReplicaViewerViewController
+- __PROPERTIES__TtC12NewsArticles30SubscriptionButtonTextProvider
+- __PROPERTIES__TtC12NewsArticles35BrandBarToolbarCompressionAnimation
+- __PROPERTIES__TtC12NewsArticles36ArticleThumbnailComponentViewFactory
+- __PROPERTIES__TtC12NewsArticles37ArticleThumbnailComponentSizerFactory
+- __PROTOCOLS_NAAudioButton
+- __PROTOCOLS__TtC12NewsArticles11ArticleView
+- __PROTOCOLS__TtC12NewsArticles15AdIgnorableView
+- __PROTOCOLS__TtC12NewsArticles16AdComponentState
+- __PROTOCOLS__TtC12NewsArticles16MessagePresenter
+- __PROTOCOLS__TtC12NewsArticles18ProxyConfiguration
+- __PROTOCOLS__TtC12NewsArticles19ArticleShareHandler
+- __PROTOCOLS__TtC12NewsArticles20ArticleFooterPaywall
+- __PROTOCOLS__TtC12NewsArticles21TextSizeControlModule
+- __PROTOCOLS__TtC12NewsArticles22AIHeaderViewController
+- __PROTOCOLS__TtC12NewsArticles22AdIgnorableViewFactory
+- __PROTOCOLS__TtC12NewsArticles22AudioPlaybackConductor
+- __PROTOCOLS__TtC12NewsArticles22EndOfArticleInteractor
+- __PROTOCOLS__TtC12NewsArticles23AdComponentSizerFactory
+- __PROTOCOLS__TtC12NewsArticles24ArticleAdLayoutProcessor
+- __PROTOCOLS__TtC12NewsArticles24WebViewControllerFactory
+- __PROTOCOLS__TtC12NewsArticles25ANFIssueCoverViewProvider
+- __PROTOCOLS__TtC12NewsArticles25TableOfContentsInteractor
+- __PROTOCOLS__TtC12NewsArticles26NoPlayingAudioInfoProvider
+- __PROTOCOLS__TtC12NewsArticles27BrandBarNavigationAnimation
+- __PROTOCOLS__TtC12NewsArticles28ArticleScrollPositionManager
+- __PROTOCOLS__TtC12NewsArticles29ArticleVideoAdProviderFactory
+- __PROTOCOLS__TtC12NewsArticles29SearchInArticleViewController
+- __PROTOCOLS__TtC12NewsArticles29SponsoredHeaderViewController
+- __PROTOCOLS__TtC12NewsArticles30SubscriptionButtonTextProvider
+- __PROTOCOLS__TtC12NewsArticles31URLPreviewViewControllerFactory
+- __PROTOCOLS__TtC12NewsArticles33SharedWithYouHeaderViewController
+- __PROTOCOLS__TtC12NewsArticles35BrandBarToolbarCompressionAnimation
+- __PROTOCOLS__TtC12NewsArticles36ANFIssueCoverLayoutAttributesFactory
+- __PROTOCOLS__TtCC12NewsArticles31CookingKitOfflineStatusProviderP33_EF59ED90E032401F143361A339AB67998Observer
+- __PROTOCOLS__TtCO12NewsArticles10NowPlaying26ContextInteractionDelegate
+- __PROTOCOL_APPCVisibilityIgnorable
+- __PROTOCOL_INSTANCE_METHODS_NAArticleFooterDelegate
+- __PROTOCOL_INSTANCE_METHODS_NAArticleFooterType
+- __PROTOCOL_INSTANCE_METHODS_NAEndOfArticleResultProviderDelegate
+- __PROTOCOL_INSTANCE_METHODS_NAEndOfArticleResultProviderType
+- __PROTOCOL_INSTANCE_METHODS_NAPlayingAudioInfoProviding
+- __PROTOCOL_INSTANCE_METHODS_NATextSizeControlModule
+- __PROTOCOL_INSTANCE_METHODS_NAZoomable
+- __PROTOCOL_INSTANCE_METHODS_NETagImageShareAttributeProviderType
+- __PROTOCOL_INSTANCE_METHODS_TSSharedImageCacheType
+- __PROTOCOL_INSTANCE_METHODS_TUDeselectable
+- __PROTOCOL_INSTANCE_METHODS_TUKeyCommandTraversable
+- __PROTOCOL_METHOD_TYPES_NAArticleFooterDelegate
+- __PROTOCOL_METHOD_TYPES_NAArticleFooterType
+- __PROTOCOL_METHOD_TYPES_NAEndOfArticleResultProviderDelegate
+- __PROTOCOL_METHOD_TYPES_NAEndOfArticleResultProviderType
+- __PROTOCOL_METHOD_TYPES_NAPlayingAudioInfoProviding
+- __PROTOCOL_METHOD_TYPES_NATextSizeControlModule
+- __PROTOCOL_METHOD_TYPES_NAZoomable
+- __PROTOCOL_METHOD_TYPES_NETagImageShareAttributeProviderType
+- __PROTOCOL_METHOD_TYPES_TSSharedImageCacheType
+- __PROTOCOL_METHOD_TYPES_TUDeselectable
+- __PROTOCOL_METHOD_TYPES_TUKeyCommandTraversable
+- __PROTOCOL_NAArticleFooterDelegate
+- __PROTOCOL_NAArticleFooterType
+- __PROTOCOL_NAAudioButtonType
+- __PROTOCOL_NAEndOfArticleResultProviderDelegate
+- __PROTOCOL_NAEndOfArticleResultProviderType
+- __PROTOCOL_NAPlayingAudioInfoProviding
+- __PROTOCOL_NATextSizeControlModule
+- __PROTOCOL_NAZoomable
+- __PROTOCOL_NETagImageShareAttributeProviderType
+- __PROTOCOL_PROPERTIES_NAArticleFooterType
+- __PROTOCOL_PROPERTIES_NAEndOfArticleResultProviderType
+- __PROTOCOL_PROPERTIES_NAPlayingAudioInfoProviding
+- __PROTOCOL_PROTOCOLS_NAArticleFooterType
+- __PROTOCOL_TSSharedImageCacheType
+- __PROTOCOL_TUDeselectable
+- __PROTOCOL_TUKeyCommandTraversable
+- ___isPlatformVersionAtLeast
+- ___kCFBooleanFalse
+- ___kCFBooleanTrue
+- ___swift__destructor
+- ___swift_allocate_boxed_opaque_existential_0
+- ___swift_allocate_boxed_opaque_existential_1
+- ___swift_allocate_boxed_opaque_existential_1Tm
+- ___swift_allocate_boxed_opaque_existential_2Tm
+- ___swift_allocate_value_buffer
+- ___swift_assignWithCopy_strong
+- ___swift_assignWithTake_strong
+- ___swift_async_cont_functlets
+- ___swift_async_entry_functlets
+- ___swift_async_ret_functlets
+- ___swift_closure_destructor
+- ___swift_closure_destructor.10Tm
+- ___swift_closure_destructor.11Tm
+- ___swift_closure_destructor.12Tm
+- ___swift_closure_destructor.14Tm
+- ___swift_closure_destructor.156Tm
+- ___swift_closure_destructor.15Tm
+- ___swift_closure_destructor.160Tm
+- ___swift_closure_destructor.17Tm
+- ___swift_closure_destructor.19Tm
+- ___swift_closure_destructor.20Tm
+- ___swift_closure_destructor.21Tm
+- ___swift_closure_destructor.23Tm
+- ___swift_closure_destructor.24Tm
+- ___swift_closure_destructor.25Tm
+- ___swift_closure_destructor.31Tm
+- ___swift_closure_destructor.49Tm
+- ___swift_closure_destructor.4Tm
+- ___swift_closure_destructor.5Tm
+- ___swift_closure_destructor.6Tm
+- ___swift_closure_destructor.78Tm
+- ___swift_closure_destructor.7Tm
+- ___swift_closure_destructor.88Tm
+- ___swift_closure_destructorTm
+- ___swift_destroy_boxed_opaque_existential_0
+- ___swift_destroy_boxed_opaque_existential_0Tm
+- ___swift_destroy_boxed_opaque_existential_1
+- ___swift_destroy_boxed_opaque_existential_1Tm
+- ___swift_destroy_strong
+- ___swift_exist.box.addr_destructor
+- ___swift_get_extra_inhabitant_indexTm
+- ___swift_initWithCopy_strong
+- ___swift_instantiateGenericMetadata
+- ___swift_memcpy0_1
+- ___swift_memcpy104_8
+- ___swift_memcpy1073_8
+- ___swift_memcpy1104_8
+- ___swift_memcpy112_8
+- ___swift_memcpy114_8
+- ___swift_memcpy120_8
+- ___swift_memcpy128_8
+- ___swift_memcpy13_4
+- ___swift_memcpy144_8
+- ___swift_memcpy152_8
+- ___swift_memcpy153_8
+- ___swift_memcpy160_8
+- ___swift_memcpy168_8
+- ___swift_memcpy169_8
+- ___swift_memcpy16_8
+- ___swift_memcpy17_8
+- ___swift_memcpy1_1
+- ___swift_memcpy209_8
+- ___swift_memcpy24_4
+- ___swift_memcpy24_8
+- ___swift_memcpy25_8
+- ___swift_memcpy26_8
+- ___swift_memcpy280_8
+- ___swift_memcpy2_1
+- ___swift_memcpy32_8
+- ___swift_memcpy33_8
+- ___swift_memcpy40_8
+- ___swift_memcpy41_8
+- ___swift_memcpy48_8
+- ___swift_memcpy49_8
+- ___swift_memcpy4_4
+- ___swift_memcpy56_8
+- ___swift_memcpy57_8
+- ___swift_memcpy64_8
+- ___swift_memcpy65_8
+- ___swift_memcpy72_8
+- ___swift_memcpy73_8
+- ___swift_memcpy80_8
+- ___swift_memcpy88_8
+- ___swift_memcpy89_8
+- ___swift_memcpy8_8
+- ___swift_memcpy96_8
+- ___swift_memcpy97_8
+- ___swift_memcpy9_4
+- ___swift_memcpy9_8
+- ___swift_mutable_project_boxed_opaque_existential_1
+- ___swift_noop_void_return
+- ___swift_project_boxed_opaque_existential_0
+- ___swift_project_boxed_opaque_existential_0Tm
+- ___swift_project_boxed_opaque_existential_1
+- ___swift_project_boxed_opaque_existential_1Tm
+- ___swift_project_value_buffer
+- ___swift_reflection_version
+- ___swift_store_extra_inhabitant_indexTm
+- ___unnamed_1
+- ___unnamed_2
+- ___unnamed_3
+- ___unnamed_4
+- ___unnamed_5
+- ___unnamed_6
+- ___unnamed_9
+- __initializeAvailabilityCheck
+- __swift_FORCE_LOAD_$_swiftAVFoundation_$_NewsArticles
+- __swift_FORCE_LOAD_$_swiftAccelerate_$_NewsArticles
+- __swift_FORCE_LOAD_$_swiftAppleArchive_$_NewsArticles
+- __swift_FORCE_LOAD_$_swiftCallKit_$_NewsArticles
+- __swift_FORCE_LOAD_$_swiftCompression_$_NewsArticles
+- __swift_FORCE_LOAD_$_swiftCoreAudio_$_NewsArticles
+- __swift_FORCE_LOAD_$_swiftCoreAudio_Private_$_NewsArticles
+- __swift_FORCE_LOAD_$_swiftCoreFoundation_$_NewsArticles
+- __swift_FORCE_LOAD_$_swiftCoreImage_$_NewsArticles
+- __swift_FORCE_LOAD_$_swiftCoreLocation_$_NewsArticles
+- __swift_FORCE_LOAD_$_swiftCoreMIDI_$_NewsArticles
+- __swift_FORCE_LOAD_$_swiftDispatch_$_NewsArticles
+- __swift_FORCE_LOAD_$_swiftFoundation_$_NewsArticles
+- __swift_FORCE_LOAD_$_swiftGLKit_$_NewsArticles
+- __swift_FORCE_LOAD_$_swiftGameplayKit_$_NewsArticles
+- __swift_FORCE_LOAD_$_swiftIntents_$_NewsArticles
+- __swift_FORCE_LOAD_$_swiftMLCompute_$_NewsArticles
+- __swift_FORCE_LOAD_$_swiftMetalKit_$_NewsArticles
+- __swift_FORCE_LOAD_$_swiftMetal_$_NewsArticles
+- __swift_FORCE_LOAD_$_swiftModelIO_$_NewsArticles
+- __swift_FORCE_LOAD_$_swiftNaturalLanguage_$_NewsArticles
+- __swift_FORCE_LOAD_$_swiftOSLog_$_NewsArticles
+- __swift_FORCE_LOAD_$_swiftObjectiveC_$_NewsArticles
+- __swift_FORCE_LOAD_$_swiftQuartzCore_$_NewsArticles
+- __swift_FORCE_LOAD_$_swiftSceneKit_$_NewsArticles
+- __swift_FORCE_LOAD_$_swiftSpatial_$_NewsArticles
+- __swift_FORCE_LOAD_$_swiftSpriteKit_$_NewsArticles
+- __swift_FORCE_LOAD_$_swiftUIKit_$_NewsArticles
+- __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_NewsArticles
+- __swift_FORCE_LOAD_$_swiftXPC_$_NewsArticles
+- __swift_FORCE_LOAD_$_swift_Builtin_float_$_NewsArticles
+- __swift_FORCE_LOAD_$_swiftos_$_NewsArticles
+- __swift_FORCE_LOAD_$_swiftsimd_$_NewsArticles
+- __swift_implicitisolationactor_to_executor_cast
+- __swift_stdlib_malloc_size
+- _arc4random_uniform
+- _associated conformance 12NewsArticles012RecipeDrawerC4ItemV7SwiftUI4ViewAA4BodyAdEP_AdE
+- _associated conformance 12NewsArticles017RecipeTopicsEndOfC14FeedGroupKnobsV10CodingKeys33_AEA9AE7C11416B2BBAEED91731FBFE41LLOSHAASQ
+- _associated conformance 12NewsArticles017RecipeTopicsEndOfC14FeedGroupKnobsV10CodingKeys33_AEA9AE7C11416B2BBAEED91731FBFE41LLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles017RecipeTopicsEndOfC14FeedGroupKnobsV10CodingKeys33_AEA9AE7C11416B2BBAEED91731FBFE41LLOs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles017RecipeTopicsEndOfC16FeedGroupEmitterV0aG004BaseghI4TypeAA0G13ServiceConfigAdEP_AD0glmK0
+- _associated conformance 12NewsArticles017RecipeTopicsEndOfC16FeedGroupEmitterV0aG004BaseghI4TypeAA13TeaFoundation12Identifiable
+- _associated conformance 12NewsArticles017RecipeTopicsEndOfC16FeedGroupEmitterV0aG004BaseghI4TypeAA13TeaFoundation16ShortDescribable
+- _associated conformance 12NewsArticles017RecipeTopicsEndOfC16FeedGroupEmitterV0aG006ModernghI4TypeAaD04BaseghiK0
+- _associated conformance 12NewsArticles017RecipeTopicsEndOfC16FeedGroupEmitterV13TeaFoundation16ShortDescribableAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles017RecipeTopicsEndOfC19FeedGroupConfigDataV10CodingKeys33_ABDB540CCC3754B51C3B05D94B5B4521LLOSHAASQ
+- _associated conformance 12NewsArticles017RecipeTopicsEndOfC19FeedGroupConfigDataV10CodingKeys33_ABDB540CCC3754B51C3B05D94B5B4521LLOs0K3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles017RecipeTopicsEndOfC19FeedGroupConfigDataV10CodingKeys33_ABDB540CCC3754B51C3B05D94B5B4521LLOs0K3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles017RecipeTopicsEndOfC9FeedGroupV0aG00G9GroupableAA13TeaFoundation12Identifiable
+- _associated conformance 12NewsArticles017RecipeTopicsEndOfC9FeedGroupV0aG00G9GroupableAASQ
+- _associated conformance 12NewsArticles017RecipeTopicsEndOfC9FeedGroupV0aG00G9GroupableAaD0gH10Debuggable
+- _associated conformance 12NewsArticles017RecipeTopicsEndOfC9FeedGroupV10CodingKeys33_A83D46F3C0269186E6042FE8162B9842LLOSHAASQ
+- _associated conformance 12NewsArticles017RecipeTopicsEndOfC9FeedGroupV10CodingKeys33_A83D46F3C0269186E6042FE8162B9842LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles017RecipeTopicsEndOfC9FeedGroupV10CodingKeys33_A83D46F3C0269186E6042FE8162B9842LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles019RecipeRecirculationC15SourceCandidateO0E4Type33_5EEB2EE81308312AC2E29152DAA5E929LLOSHAASQ
+- _associated conformance 12NewsArticles019RecipeRecirculationC15SourceCandidateO10CodingKeys33_5EEB2EE81308312AC2E29152DAA5E929LLOSHAASQ
+- _associated conformance 12NewsArticles019RecipeRecirculationC15SourceCandidateO10CodingKeys33_5EEB2EE81308312AC2E29152DAA5E929LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles019RecipeRecirculationC15SourceCandidateO10CodingKeys33_5EEB2EE81308312AC2E29152DAA5E929LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles037EndOfRecipeBlueprintViewSupplementaryG8ProviderC5TeaUI0fghgI4TypeAA10DescriptorAdEP_0J10Foundation12Identifiable
+- _associated conformance 12NewsArticles037EndOfRecipeBlueprintViewSupplementaryG8ProviderC5TeaUI0fghgI4TypeAA11LayoutModelAdEP_AD0fm10AttributesL0
+- _associated conformance 12NewsArticles037EndOfRecipeBlueprintViewSupplementaryG8ProviderC5TeaUI0fghgI4TypeAA16LayoutDescriptorAdEP_AD0fm10AttributesL0
+- _associated conformance 12NewsArticles037EndOfRecipeBlueprintViewSupplementaryG8ProviderC5TeaUI0fghgI4TypeAA5ModelAdEP_AD9Modelable
+- _associated conformance 12NewsArticles038EndOfArticleBlueprintViewSupplementaryG8ProviderC5TeaUI0fghgI4TypeAA10DescriptorAdEP_0J10Foundation12Identifiable
+- _associated conformance 12NewsArticles038EndOfArticleBlueprintViewSupplementaryG8ProviderC5TeaUI0fghgI4TypeAA11LayoutModelAdEP_AD0fm10AttributesL0
+- _associated conformance 12NewsArticles038EndOfArticleBlueprintViewSupplementaryG8ProviderC5TeaUI0fghgI4TypeAA16LayoutDescriptorAdEP_AD0fm10AttributesL0
+- _associated conformance 12NewsArticles038EndOfArticleBlueprintViewSupplementaryG8ProviderC5TeaUI0fghgI4TypeAA5ModelAdEP_AD9Modelable
+- _associated conformance 12NewsArticles041TableOfContentsBlueprintViewSupplementaryG8ProviderC5TeaUI0fghgI4TypeAA10DescriptorAdEP_0J10Foundation12Identifiable
+- _associated conformance 12NewsArticles041TableOfContentsBlueprintViewSupplementaryG8ProviderC5TeaUI0fghgI4TypeAA11LayoutModelAdEP_AD0fm10AttributesL0
+- _associated conformance 12NewsArticles041TableOfContentsBlueprintViewSupplementaryG8ProviderC5TeaUI0fghgI4TypeAA16LayoutDescriptorAdEP_AD0fm10AttributesL0
+- _associated conformance 12NewsArticles041TableOfContentsBlueprintViewSupplementaryG8ProviderC5TeaUI0fghgI4TypeAA5ModelAdEP_AD9Modelable
+- _associated conformance 12NewsArticles07RelatedB20EndOfRecipeFeedGroupV0aG00G9GroupableAA13TeaFoundation12Identifiable
+- _associated conformance 12NewsArticles07RelatedB20EndOfRecipeFeedGroupV0aG00G9GroupableAASQ
+- _associated conformance 12NewsArticles07RelatedB20EndOfRecipeFeedGroupV0aG00G9GroupableAaD0gH10Debuggable
+- _associated conformance 12NewsArticles07RelatedB20EndOfRecipeFeedGroupV10CodingKeys33_74285EA96B2C6FF04B8089A4CE28115BLLOSHAASQ
+- _associated conformance 12NewsArticles07RelatedB20EndOfRecipeFeedGroupV10CodingKeys33_74285EA96B2C6FF04B8089A4CE28115BLLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles07RelatedB20EndOfRecipeFeedGroupV10CodingKeys33_74285EA96B2C6FF04B8089A4CE28115BLLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles07RelatedB25EndOfRecipeFeedGroupKnobsV10CodingKeys33_DE69614F9567FDA918D96F1A526F22E6LLOSHAASQ
+- _associated conformance 12NewsArticles07RelatedB25EndOfRecipeFeedGroupKnobsV10CodingKeys33_DE69614F9567FDA918D96F1A526F22E6LLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles07RelatedB25EndOfRecipeFeedGroupKnobsV10CodingKeys33_DE69614F9567FDA918D96F1A526F22E6LLOs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles07RelatedB27EndOfRecipeFeedGroupEmitterV0aG004BaseghI4TypeAA0G13ServiceConfigAdEP_AD0glmK0
+- _associated conformance 12NewsArticles07RelatedB27EndOfRecipeFeedGroupEmitterV0aG004BaseghI4TypeAA13TeaFoundation12Identifiable
+- _associated conformance 12NewsArticles07RelatedB27EndOfRecipeFeedGroupEmitterV0aG004BaseghI4TypeAA13TeaFoundation16ShortDescribable
+- _associated conformance 12NewsArticles07RelatedB27EndOfRecipeFeedGroupEmitterV0aG006ModernghI4TypeAaD04BaseghiK0
+- _associated conformance 12NewsArticles07RelatedB27EndOfRecipeFeedGroupEmitterV13TeaFoundation16ShortDescribableAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles07RelatedB30EndOfRecipeFeedGroupConfigDataV10CodingKeys33_6C66F000AA846128D8569DF7310D1AFELLOSHAASQ
+- _associated conformance 12NewsArticles07RelatedB30EndOfRecipeFeedGroupConfigDataV10CodingKeys33_6C66F000AA846128D8569DF7310D1AFELLOs0K3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles07RelatedB30EndOfRecipeFeedGroupConfigDataV10CodingKeys33_6C66F000AA846128D8569DF7310D1AFELLOs0K3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles10IssuePagesV3ANFV10CodingKeys33_9989897015CBCC4CF8DC336CBC4CD0B4LLOSHAASQ
+- _associated conformance 12NewsArticles10IssuePagesV3ANFV10CodingKeys33_9989897015CBCC4CF8DC336CBC4CD0B4LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles10IssuePagesV3ANFV10CodingKeys33_9989897015CBCC4CF8DC336CBC4CD0B4LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles10IssuePagesV3ANFV4PageO0F4TypeOSHAASQ
+- _associated conformance 12NewsArticles10IssuePagesV3ANFV4PageO20ReplicaAdvertisementV10CodingKeys33_9989897015CBCC4CF8DC336CBC4CD0B4LLOSHAASQ
+- _associated conformance 12NewsArticles10IssuePagesV3ANFV4PageO20ReplicaAdvertisementV10CodingKeys33_9989897015CBCC4CF8DC336CBC4CD0B4LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles10IssuePagesV3ANFV4PageO20ReplicaAdvertisementV10CodingKeys33_9989897015CBCC4CF8DC336CBC4CD0B4LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles10IssuePagesV3ANFV4PageO20ReplicaAdvertisementV8MIMETypeOSHAASQ
+- _associated conformance 12NewsArticles10IssuePagesV3ANFV4PageO4Keys33_9989897015CBCC4CF8DC336CBC4CD0B4LLOSHAASQ
+- _associated conformance 12NewsArticles10IssuePagesV3ANFV4PageO4Keys33_9989897015CBCC4CF8DC336CBC4CD0B4LLOs9CodingKeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles10IssuePagesV3ANFV4PageO4Keys33_9989897015CBCC4CF8DC336CBC4CD0B4LLOs9CodingKeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles10IssuePagesV3ANFV4PageO7ArticleV10CodingKeys33_9989897015CBCC4CF8DC336CBC4CD0B4LLOSHAASQ
+- _associated conformance 12NewsArticles10IssuePagesV3ANFV4PageO7ArticleV10CodingKeys33_9989897015CBCC4CF8DC336CBC4CD0B4LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles10IssuePagesV3ANFV4PageO7ArticleV10CodingKeys33_9989897015CBCC4CF8DC336CBC4CD0B4LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles10IssuePagesV3PDFV10CodingKeys33_9989897015CBCC4CF8DC336CBC4CD0B4LLOSHAASQ
+- _associated conformance 12NewsArticles10IssuePagesV3PDFV10CodingKeys33_9989897015CBCC4CF8DC336CBC4CD0B4LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles10IssuePagesV3PDFV10CodingKeys33_9989897015CBCC4CF8DC336CBC4CD0B4LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles10IssuePagesV3PDFV4PageV10CodingKeys33_9989897015CBCC4CF8DC336CBC4CD0B4LLOSHAASQ
+- _associated conformance 12NewsArticles10IssuePagesV3PDFV4PageV10CodingKeys33_9989897015CBCC4CF8DC336CBC4CD0B4LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles10IssuePagesV3PDFV4PageV10CodingKeys33_9989897015CBCC4CF8DC336CBC4CD0B4LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles10NowPlayingO10ControllerC19PlayNextButtonLabel33_4BBC3C9FE7900BE83F33085C0558EC6ALLVy_x_G7SwiftUI4ViewAA4BodyAjKP_AjK
+- _associated conformance 12NewsArticles10NowPlayingO10ControllerCy_xG11MediaCoreUI0cdE0AA13HostedContentAgHP_05SwiftH04View
+- _associated conformance 12NewsArticles10NowPlayingO10ControllerCy_xG11MediaCoreUI0cdE0AA6LookupAgHP_AG04ViewI0
+- _associated conformance 12NewsArticles10NowPlayingO10NoticeViewV7SwiftUI0F0AA4BodyAfGP_AfG
+- _associated conformance 12NewsArticles10NowPlayingO10NoticeViewV7SwiftUI19UIViewRepresentableAaF0F0
+- _associated conformance 12NewsArticles10NowPlayingO10PlayerModeOSHAASQ
+- _associated conformance 12NewsArticles10NowPlayingO11ArtworkViewVy_xG7SwiftUI0F0AA4BodyAgHP_AgH
+- _associated conformance 12NewsArticles10NowPlayingO11CurrentItemC11MediaCoreUI0cdeF0AAs12Identifiable
+- _associated conformance 12NewsArticles10NowPlayingO11CurrentItemCs12IdentifiableAA2IDsAFP_SH
+- _associated conformance 12NewsArticles10NowPlayingO12QueueRowViewVy_xG7SwiftUI0G0AA4BodyAgHP_AgH
+- _associated conformance 12NewsArticles10NowPlayingO15SpeedPickerViewV7SwiftUI0G0AA4BodyAfGP_AfG
+- _associated conformance 12NewsArticles10NowPlayingO17PublisherLogoViewV6TaskID33_6A39892C07F492B6727BD7AAABA7DDEELLVy_x_GSHAASQ
+- _associated conformance 12NewsArticles10NowPlayingO17PublisherLogoViewVy_xG7SwiftUI0G0AA4BodyAgHP_AgH
+- _associated conformance 12NewsArticles10NowPlayingO18LabelStyleModifier33_156D83376656B3D3B2D493B88DAEA047LLV7SwiftUI04ViewG0AA4BodyAgHP_AG0Q0
+- _associated conformance 12NewsArticles10NowPlayingO18SkipSessionManagerC9DirectionOy_x_GSHAASQ
+- _associated conformance 12NewsArticles10NowPlayingO26ContextMenuInteractionViewVy_xG7SwiftUI0H0AA4BodyAgHP_AgH
+- _associated conformance 12NewsArticles10NowPlayingO26ContextMenuInteractionViewVy_xG7SwiftUI19UIViewRepresentableAaG0H0
+- _associated conformance 12NewsArticles10NowPlayingO4MenuVy_xG7SwiftUI4ViewAA4BodyAgHP_AgH
+- _associated conformance 12NewsArticles10NowPlayingO5ImageVy_xG7SwiftUI4ViewAA4BodyAgHP_AgH
+- _associated conformance 12NewsArticles10NowPlayingO9QueueItemVy_xGs12IdentifiableAA2IDsAGP_SH
+- _associated conformance 12NewsArticles10NowPlayingO9QueueViewVy_xG7SwiftUI0F0AA4BodyAgHP_AgH
+- _associated conformance 12NewsArticles11AudioActionOSHAASQ
+- _associated conformance 12NewsArticles11AudioPlayerCyxG11TeaSettings9UpdatableAaE12Configurable
+- _associated conformance 12NewsArticles11AudioPlayerCyxGAA0cD4TypeAA8PlayableAaEP_AA0cF0
+- _associated conformance 12NewsArticles11DebugRecipeV06LoadedD0V13ImageMetadataV10CodingKeys33_480057C3E8F03528DE36722EA0FB64A0LLOSHAASQ
+- _associated conformance 12NewsArticles11DebugRecipeV06LoadedD0V13ImageMetadataV10CodingKeys33_480057C3E8F03528DE36722EA0FB64A0LLOs0H3KeyAAs06CustomC17StringConvertible
+- _associated conformance 12NewsArticles11DebugRecipeV06LoadedD0V13ImageMetadataV10CodingKeys33_480057C3E8F03528DE36722EA0FB64A0LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles11DebugRecipeV06LoadedD0V6FieldsV10CodingKeys33_480057C3E8F03528DE36722EA0FB64A0LLOSHAASQ
+- _associated conformance 12NewsArticles11DebugRecipeV06LoadedD0V6FieldsV10CodingKeys33_480057C3E8F03528DE36722EA0FB64A0LLOs0G3KeyAAs06CustomC17StringConvertible
+- _associated conformance 12NewsArticles11DebugRecipeV06LoadedD0V6FieldsV10CodingKeys33_480057C3E8F03528DE36722EA0FB64A0LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles11DebugRecipeV06LoadedD0V9PublisherV10CodingKeys33_480057C3E8F03528DE36722EA0FB64A0LLOSHAASQ
+- _associated conformance 12NewsArticles11DebugRecipeV06LoadedD0V9PublisherV10CodingKeys33_480057C3E8F03528DE36722EA0FB64A0LLOs0G3KeyAAs06CustomC17StringConvertible
+- _associated conformance 12NewsArticles11DebugRecipeV06LoadedD0V9PublisherV10CodingKeys33_480057C3E8F03528DE36722EA0FB64A0LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles11RecipeEventOSHAASQ
+- _associated conformance 12NewsArticles11UserConcernV03SubD0V10CodingKeys030_EED4111CCF49BB0C93B6A9C004DA7M1CLLOSHAASQ
+- _associated conformance 12NewsArticles11UserConcernV03SubD0V10CodingKeys030_EED4111CCF49BB0C93B6A9C004DA7M1CLLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles11UserConcernV03SubD0V10CodingKeys030_EED4111CCF49BB0C93B6A9C004DA7M1CLLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles11UserConcernV10CodingKeys030_EED4111CCF49BB0C93B6A9C004DA7L1CLLOSHAASQ
+- _associated conformance 12NewsArticles11UserConcernV10CodingKeys030_EED4111CCF49BB0C93B6A9C004DA7L1CLLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles11UserConcernV10CodingKeys030_EED4111CCF49BB0C93B6A9C004DA7L1CLLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles12ArticleEventOSHAASQ
+- _associated conformance 12NewsArticles12HistoryStateVs10SetAlgebraAASQ
+- _associated conformance 12NewsArticles12HistoryStateVs10SetAlgebraAAs25ExpressibleByArrayLiteral
+- _associated conformance 12NewsArticles12HistoryStateVs9OptionSetAASY
+- _associated conformance 12NewsArticles12HistoryStateVs9OptionSetAAs0F7Algebra
+- _associated conformance 12NewsArticles12IssueManagerC6ErrorsOSHAASQ
+- _associated conformance 12NewsArticles12RefreshStateOSHAASQ
+- _associated conformance 12NewsArticles13ArticleConfig33_35122D697059B441BED36C9BB23CEEFCLLV10CodingKeysOSHAASQ
+- _associated conformance 12NewsArticles13ArticleConfig33_35122D697059B441BED36C9BB23CEEFCLLV10CodingKeysOs0K3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles13ArticleConfig33_35122D697059B441BED36C9BB23CEEFCLLV10CodingKeysOs0K3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles13ConcernReasonV10CodingKeys33_11C9604C24B07610B82CDCA117A22C70LLOSHAASQ
+- _associated conformance 12NewsArticles13ConcernReasonV10CodingKeys33_11C9604C24B07610B82CDCA117A22C70LLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles13ConcernReasonV10CodingKeys33_11C9604C24B07610B82CDCA117A22C70LLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles13RecipeSessionV9PageEventOSHAASQ
+- _associated conformance 12NewsArticles14WebViewSessionV7TriggerOSHAASQ
+- _associated conformance 12NewsArticles15ANFIssueServiceC6ErrorsOSHAASQ
+- _associated conformance 12NewsArticles15AssetFetchErrorOSHAASQ
+- _associated conformance 12NewsArticles15SubConcernModelV13TeaFoundation8DiffableAASH
+- _associated conformance 12NewsArticles15SubConcernModelV13TeaFoundation8DiffableAaD12Identifiable
+- _associated conformance 12NewsArticles15SubConcernModelV5TeaUI9ModelableAA0F10Foundation8Diffable
+- _associated conformance 12NewsArticles15SubConcernModelV5TeaUI9ModelableAaD14Impressionable
+- _associated conformance 12NewsArticles15SubConcernModelVSHAASQ
+- _associated conformance 12NewsArticles15UserConcernDataV10CodingKeys33_11C9604C24B07610B82CDCA117A22C70LLOSHAASQ
+- _associated conformance 12NewsArticles15UserConcernDataV10CodingKeys33_11C9604C24B07610B82CDCA117A22C70LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles15UserConcernDataV10CodingKeys33_11C9604C24B07610B82CDCA117A22C70LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles16EndOfArticleItemOSHAASQ
+- _associated conformance 12NewsArticles16EndOfRecipeModelO13TeaFoundation8DiffableAASH
+- _associated conformance 12NewsArticles16EndOfRecipeModelO13TeaFoundation8DiffableAaD12Identifiable
+- _associated conformance 12NewsArticles16EndOfRecipeModelO5TeaUI9ModelableAA0G10Foundation8Diffable
+- _associated conformance 12NewsArticles16EndOfRecipeModelO5TeaUI9ModelableAaD14Impressionable
+- _associated conformance 12NewsArticles16EndOfRecipeModelOSHAASQ
+- _associated conformance 12NewsArticles16HeadlineProviderC6ErrorsOSHAASQ
+- _associated conformance 12NewsArticles16RecipeViewerPageO13TeaFoundation8DiffableAASH
+- _associated conformance 12NewsArticles16RecipeViewerPageO13TeaFoundation8DiffableAaD12Identifiable
+- _associated conformance 12NewsArticles16RecipeViewerPageO5TeaUI0E4TypeAA0E6MarkerAdEP_SQ
+- _associated conformance 12NewsArticles16RecipeViewerPageO5TeaUI0E4TypeAA0F10Foundation8Diffable
+- _associated conformance 12NewsArticles16RecipeViewerPageOSHAASQ
+- _associated conformance 12NewsArticles16TipMigrationTaskC11TeaSettings9UpdatableAaD12Configurable
+- _associated conformance 12NewsArticles16UserConcernModelV13TeaFoundation8DiffableAASH
+- _associated conformance 12NewsArticles16UserConcernModelV13TeaFoundation8DiffableAaD12Identifiable
+- _associated conformance 12NewsArticles16UserConcernModelV5TeaUI9ModelableAA0F10Foundation8Diffable
+- _associated conformance 12NewsArticles16UserConcernModelV5TeaUI9ModelableAaD14Impressionable
+- _associated conformance 12NewsArticles16UserConcernModelVSHAASQ
+- _associated conformance 12NewsArticles17ArticleTextRangesV10CodingKeys33_D90BFB9756278962FB3FF873B46A4DD7LLOSHAASQ
+- _associated conformance 12NewsArticles17ArticleTextRangesV10CodingKeys33_D90BFB9756278962FB3FF873B46A4DD7LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles17ArticleTextRangesV10CodingKeys33_D90BFB9756278962FB3FF873B46A4DD7LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles17ArticleTextRangesV8Metadata33_D90BFB9756278962FB3FF873B46A4DD7LLV10CodingKeysOSHAASQ
+- _associated conformance 12NewsArticles17ArticleTextRangesV8Metadata33_D90BFB9756278962FB3FF873B46A4DD7LLV10CodingKeysOs0N3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles17ArticleTextRangesV8Metadata33_D90BFB9756278962FB3FF873B46A4DD7LLV10CodingKeysOs0N3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles17ArticleTextRangesV9Paragraph33_D90BFB9756278962FB3FF873B46A4DD7LLV10CodingKeysOSHAASQ
+- _associated conformance 12NewsArticles17ArticleTextRangesV9Paragraph33_D90BFB9756278962FB3FF873B46A4DD7LLV10CodingKeysOs0N3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles17ArticleTextRangesV9Paragraph33_D90BFB9756278962FB3FF873B46A4DD7LLV10CodingKeysOs0N3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles17ArticleTextRangesV9Paragraph33_D90BFB9756278962FB3FF873B46A4DD7LLV8MetadataV10CodingKeysOSHAASQ
+- _associated conformance 12NewsArticles17ArticleTextRangesV9Paragraph33_D90BFB9756278962FB3FF873B46A4DD7LLV8MetadataV10CodingKeysOs0O3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles17ArticleTextRangesV9Paragraph33_D90BFB9756278962FB3FF873B46A4DD7LLV8MetadataV10CodingKeysOs0O3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles17ArticleViewerPageO13TeaFoundation8DiffableAASH
+- _associated conformance 12NewsArticles17ArticleViewerPageO13TeaFoundation8DiffableAaD12Identifiable
+- _associated conformance 12NewsArticles17ArticleViewerPageO5TeaUI0E4TypeAA0E6MarkerAdEP_SQ
+- _associated conformance 12NewsArticles17ArticleViewerPageO5TeaUI0E4TypeAA0F10Foundation8Diffable
+- _associated conformance 12NewsArticles17ArticleViewerPageOSHAASQ
+- _associated conformance 12NewsArticles17EndOfArticleModelO13TeaFoundation8DiffableAASH
+- _associated conformance 12NewsArticles17EndOfArticleModelO13TeaFoundation8DiffableAaD12Identifiable
+- _associated conformance 12NewsArticles17EndOfArticleModelO5TeaUI9ModelableAA0G10Foundation8Diffable
+- _associated conformance 12NewsArticles17EndOfArticleModelO5TeaUI9ModelableAaD14Impressionable
+- _associated conformance 12NewsArticles17EndOfArticleModelOSHAASQ
+- _associated conformance 12NewsArticles17LinkHandlerTraitsVs10SetAlgebraAASQ
+- _associated conformance 12NewsArticles17LinkHandlerTraitsVs10SetAlgebraAAs25ExpressibleByArrayLiteral
+- _associated conformance 12NewsArticles17LinkHandlerTraitsVs9OptionSetAASY
+- _associated conformance 12NewsArticles17LinkHandlerTraitsVs9OptionSetAAs0G7Algebra
+- _associated conformance 12NewsArticles17UserConcernConfigV10CodingKeys030_EED4111CCF49BB0C93B6A9C004DA7M1CLLOSHAASQ
+- _associated conformance 12NewsArticles17UserConcernConfigV10CodingKeys030_EED4111CCF49BB0C93B6A9C004DA7M1CLLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles17UserConcernConfigV10CodingKeys030_EED4111CCF49BB0C93B6A9C004DA7M1CLLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles17WebViewControllerCyxG5TeaUI21StackNavigatingRouterAA3ActAeFP_AE8Activity
+- _associated conformance 12NewsArticles18AnalyticsMediaTypeOSHAASQ
+- _associated conformance 12NewsArticles18ArticleRouteOptionOSHAASQ
+- _associated conformance 12NewsArticles18IssueContentFormatOSHAASQ
+- _associated conformance 12NewsArticles18PDFReplicaPageLinkO0E4Keys33_32209FE2BFA58111248ABCFE1F58756BLLOSHAASQ
+- _associated conformance 12NewsArticles18PDFReplicaPageLinkO0E4Keys33_32209FE2BFA58111248ABCFE1F58756BLLOs9CodingKeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles18PDFReplicaPageLinkO0E4Keys33_32209FE2BFA58111248ABCFE1F58756BLLOs9CodingKeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles18PDFReplicaPageLinkO0E4Type33_32209FE2BFA58111248ABCFE1F58756BLLOSHAASQ
+- _associated conformance 12NewsArticles18PDFReplicaPageLinkO12TapRectangle33_32209FE2BFA58111248ABCFE1F58756BLLV10CodingKeysOSHAASQ
+- _associated conformance 12NewsArticles18PDFReplicaPageLinkO12TapRectangle33_32209FE2BFA58111248ABCFE1F58756BLLV10CodingKeysOs0L3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles18PDFReplicaPageLinkO12TapRectangle33_32209FE2BFA58111248ABCFE1F58756BLLV10CodingKeysOs0L3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles18ReportConcernModelO13TeaFoundation8DiffableAASH
+- _associated conformance 12NewsArticles18ReportConcernModelO13TeaFoundation8DiffableAaD12Identifiable
+- _associated conformance 12NewsArticles18ReportConcernModelO5TeaUI9ModelableAA0F10Foundation8Diffable
+- _associated conformance 12NewsArticles18ReportConcernModelO5TeaUI9ModelableAaD14Impressionable
+- _associated conformance 12NewsArticles18ReportConcernModelOSHAASQ
+- _associated conformance 12NewsArticles19ArticleLoadingEventO13TeaFoundation012StateMachineE0AA0H0AdEP_AD0hiH0
+- _associated conformance 12NewsArticles19ArticleLoadingEventOSHAASQ
+- _associated conformance 12NewsArticles19ArticleLoadingStateO13TeaFoundation0e7MachineE0AASH
+- _associated conformance 12NewsArticles19ArticleLoadingStateOSHAASQ
+- _associated conformance 12NewsArticles19ArticleViewerRouterC6Errors33_611BEE6A8F5D0AE8DDE899E5FB908CBFLLOSHAASQ
+- _associated conformance 12NewsArticles19DefaultConcernModelOSHAASQ
+- _associated conformance 12NewsArticles19DefaultConcernModelOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 12NewsArticles19EndOfArticleContextOSHAASQ
+- _associated conformance 12NewsArticles19EndOfRecipeFeedPoolC0aF00fG4TypeAA0F5GroupAdEP_AD0fiH0
+- _associated conformance 12NewsArticles19IssueArticleServiceC6ErrorsOSHAASQ
+- _associated conformance 12NewsArticles19PDFReplicaAssetTypeOSHAASQ
+- _associated conformance 12NewsArticles20AnalyticsGalleryTypeOSHAASQ
+- _associated conformance 12NewsArticles20ConcernReasonSubTypeV10CodingKeys33_11C9604C24B07610B82CDCA117A22C70LLOSHAASQ
+- _associated conformance 12NewsArticles20ConcernReasonSubTypeV10CodingKeys33_11C9604C24B07610B82CDCA117A22C70LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles20ConcernReasonSubTypeV10CodingKeys33_11C9604C24B07610B82CDCA117A22C70LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles20EndOfArticleBackfillOSHAASQ
+- _associated conformance 12NewsArticles20EndOfArticleFeedPoolC0aF00fG4TypeAA0F5GroupAdEP_AD0fiH0
+- _associated conformance 12NewsArticles20EndOfRecipeFeedGroupO07RelatedB10CodingKeys33_24ABAAAC26DAF4C0721820D3D93B5D09LLOSHAASQ
+- _associated conformance 12NewsArticles20EndOfRecipeFeedGroupO07RelatedB10CodingKeys33_24ABAAAC26DAF4C0721820D3D93B5D09LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles20EndOfRecipeFeedGroupO07RelatedB10CodingKeys33_24ABAAAC26DAF4C0721820D3D93B5D09LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles20EndOfRecipeFeedGroupO0E16TopicsCodingKeys33_24ABAAAC26DAF4C0721820D3D93B5D09LLOSHAASQ
+- _associated conformance 12NewsArticles20EndOfRecipeFeedGroupO0E16TopicsCodingKeys33_24ABAAAC26DAF4C0721820D3D93B5D09LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles20EndOfRecipeFeedGroupO0E16TopicsCodingKeys33_24ABAAAC26DAF4C0721820D3D93B5D09LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles20EndOfRecipeFeedGroupO0aF00F9GroupableAA13TeaFoundation12Identifiable
+- _associated conformance 12NewsArticles20EndOfRecipeFeedGroupO0aF00F9GroupableAASQ
+- _associated conformance 12NewsArticles20EndOfRecipeFeedGroupO0aF00F9GroupableAaD0fG10Debuggable
+- _associated conformance 12NewsArticles20EndOfRecipeFeedGroupO0aF00fG4TypeAA13TeaFoundation16ShortDescribable
+- _associated conformance 12NewsArticles20EndOfRecipeFeedGroupO0aF00fG4TypeAA4KindAdEP_SE
+- _associated conformance 12NewsArticles20EndOfRecipeFeedGroupO0aF00fG4TypeAA4KindAdEP_SH
+- _associated conformance 12NewsArticles20EndOfRecipeFeedGroupO0aF00fG4TypeAA4KindAdEP_SY
+- _associated conformance 12NewsArticles20EndOfRecipeFeedGroupO0aF00fG4TypeAA4KindAdEP_Se
+- _associated conformance 12NewsArticles20EndOfRecipeFeedGroupO0aF00fG4TypeAaD0F9Groupable
+- _associated conformance 12NewsArticles20EndOfRecipeFeedGroupO10CodingKeys33_24ABAAAC26DAF4C0721820D3D93B5D09LLOSHAASQ
+- _associated conformance 12NewsArticles20EndOfRecipeFeedGroupO10CodingKeys33_24ABAAAC26DAF4C0721820D3D93B5D09LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles20EndOfRecipeFeedGroupO10CodingKeys33_24ABAAAC26DAF4C0721820D3D93B5D09LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles20EndOfRecipeFeedGroupO13TeaFoundation16ShortDescribableAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles20EndOfRecipeFeedGroupO24RelatedRecipesCodingKeys33_24ABAAAC26DAF4C0721820D3D93B5D09LLOSHAASQ
+- _associated conformance 12NewsArticles20EndOfRecipeFeedGroupO24RelatedRecipesCodingKeys33_24ABAAAC26DAF4C0721820D3D93B5D09LLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles20EndOfRecipeFeedGroupO24RelatedRecipesCodingKeys33_24ABAAAC26DAF4C0721820D3D93B5D09LLOs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles20NowPlayingURLHandlerC5TeaUI010UIAppAsyncE4TypeAA0F10Foundation0ieJ0
+- _associated conformance 12NewsArticles20PDFReplicaViewerPageO13TeaFoundation8DiffableAASH
+- _associated conformance 12NewsArticles20PDFReplicaViewerPageO13TeaFoundation8DiffableAaD12Identifiable
+- _associated conformance 12NewsArticles20PDFReplicaViewerPageO5TeaUI0E4TypeAA0E6MarkerAdEP_SQ
+- _associated conformance 12NewsArticles20PDFReplicaViewerPageO5TeaUI0E4TypeAA0F10Foundation8Diffable
+- _associated conformance 12NewsArticles20PDFReplicaViewerPageOSHAASQ
+- _associated conformance 12NewsArticles20RecipeViewControllerC5TeaUI12PageViewableAA0F10Foundation12Identifiable
+- _associated conformance 12NewsArticles20TableOfContentsModelO13TeaFoundation8DiffableAASH
+- _associated conformance 12NewsArticles20TableOfContentsModelO13TeaFoundation8DiffableAaD12Identifiable
+- _associated conformance 12NewsArticles20TableOfContentsModelO5TeaUI9ModelableAA0G10Foundation8Diffable
+- _associated conformance 12NewsArticles20TableOfContentsModelO5TeaUI9ModelableAaD14Impressionable
+- _associated conformance 12NewsArticles20TableOfContentsModelOSHAASQ
+- _associated conformance 12NewsArticles21AlertOpenBlockedStoryV13SelectionTypeOSHAASQ
+- _associated conformance 12NewsArticles21AlertOpenBlockedStoryV15SelectionReasonOSHAASQ
+- _associated conformance 12NewsArticles21ArticleSessionTriggerOSHAASQ
+- _associated conformance 12NewsArticles21ArticleViewControllerC11TeaSettings9UpdatableAaD12Configurable
+- _associated conformance 12NewsArticles21ArticleViewControllerC22PaywallPrepRequirementOSHAASQ
+- _associated conformance 12NewsArticles21ArticleViewControllerC5TeaUI12PageViewableAA0F10Foundation12Identifiable
+- _associated conformance 12NewsArticles21BrandBarConfigManagerC11TeaSettings9UpdatableAaD12Configurable
+- _associated conformance 12NewsArticles21EndOfArticleCellStyleOSHAASQ
+- _associated conformance 12NewsArticles21EndOfArticleFeedGroupO0aF00F9GroupableAA13TeaFoundation12Identifiable
+- _associated conformance 12NewsArticles21EndOfArticleFeedGroupO0aF00F9GroupableAASQ
+- _associated conformance 12NewsArticles21EndOfArticleFeedGroupO0aF00F9GroupableAaD0fG10Debuggable
+- _associated conformance 12NewsArticles21EndOfArticleFeedGroupO0aF00fG4TypeAA13TeaFoundation16ShortDescribable
+- _associated conformance 12NewsArticles21EndOfArticleFeedGroupO0aF00fG4TypeAA4KindAdEP_SE
+- _associated conformance 12NewsArticles21EndOfArticleFeedGroupO0aF00fG4TypeAA4KindAdEP_SH
+- _associated conformance 12NewsArticles21EndOfArticleFeedGroupO0aF00fG4TypeAA4KindAdEP_SY
+- _associated conformance 12NewsArticles21EndOfArticleFeedGroupO0aF00fG4TypeAA4KindAdEP_Se
+- _associated conformance 12NewsArticles21EndOfArticleFeedGroupO0aF00fG4TypeAaD0F9Groupable
+- _associated conformance 12NewsArticles21EndOfArticleFeedGroupO13TeaFoundation16ShortDescribableAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles21EndOfRecipeFeedConfigV0aF00fG4TypeAA0F14ServiceContextAdEP_AD0fijH0
+- _associated conformance 12NewsArticles21EndOfRecipeFeedConfigV0aF00fG4TypeAA0f5GroupG0AdEP_AD0figH0
+- _associated conformance 12NewsArticles21EndOfRecipeFeedConfigV10CodingKeys33_1B8B19F18515648B761D9DBB4F025B25LLOSHAASQ
+- _associated conformance 12NewsArticles21EndOfRecipeFeedConfigV10CodingKeys33_1B8B19F18515648B761D9DBB4F025B25LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles21EndOfRecipeFeedConfigV10CodingKeys33_1B8B19F18515648B761D9DBB4F025B25LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles21InterstitialAdManagerC5EventOSHAASQ
+- _associated conformance 12NewsArticles21IssueViewerInteractorC5EventOSHAASQ
+- _associated conformance 12NewsArticles21PDFReplicaDataManagerC6ErrorsOSHAASQ
+- _associated conformance 12NewsArticles21PDFReplicaPageOptionsVs10SetAlgebraAASQ
+- _associated conformance 12NewsArticles21PDFReplicaPageOptionsVs10SetAlgebraAAs25ExpressibleByArrayLiteral
+- _associated conformance 12NewsArticles21PDFReplicaPageOptionsVs9OptionSetAASY
+- _associated conformance 12NewsArticles21PDFReplicaPageOptionsVs9OptionSetAAs0G7Algebra
+- _associated conformance 12NewsArticles21RecipeDrawerImageViewV7SwiftUI0F0AA4BodyAdEP_AdE
+- _associated conformance 12NewsArticles22ArticleFeatureLocationOSHAASQ
+- _associated conformance 12NewsArticles22ArticleViewerBlueprintO0C4ItemV6TraitsOSHAASQ
+- _associated conformance 12NewsArticles22ArticleViewerBlueprintO11PreviewItemV6TraitsOSHAASQ
+- _associated conformance 12NewsArticles22AudioPlaybackConductorCyxq_q0_GAA0cdE4TypeAA8PlayableAaEP_AA0cG0
+- _associated conformance 12NewsArticles22EndOfArticleFeedConfigV0aF00fG4TypeAA0F14ServiceContextAdEP_AD0fijH0
+- _associated conformance 12NewsArticles22EndOfArticleFeedConfigV0aF00fG4TypeAA0f5GroupG0AdEP_AD0figH0
+- _associated conformance 12NewsArticles22EndOfArticleFeedConfigV10CodingKeys33_4DA123D09A1A401E58787B4D5CD2F12BLLOSHAASQ
+- _associated conformance 12NewsArticles22EndOfArticleFeedConfigV10CodingKeys33_4DA123D09A1A401E58787B4D5CD2F12BLLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles22EndOfArticleFeedConfigV10CodingKeys33_4DA123D09A1A401E58787B4D5CD2F12BLLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles22EndOfArticleItemOriginOSHAASQ
+- _associated conformance 12NewsArticles22EndOfRecipeDataManagerC0A4Feed0h6PluginG8DelegateAA5TeaUI0iJ0
+- _associated conformance 12NewsArticles22EndOfRecipeDataManagerC0A4Feed0h6PluginG8DelegateAaD06Formati5EventJ0
+- _associated conformance 12NewsArticles22EndOfRecipeLayoutModelO5TeaUI09BlueprintF19FrameAttributesTypeAaD0jflM0
+- _associated conformance 12NewsArticles22ProxyAuthenticationKeyV10CodingKeys33_CD6678FA93DD2E86CCDF1FC853060901LLOSHAASQ
+- _associated conformance 12NewsArticles22ProxyAuthenticationKeyV10CodingKeys33_CD6678FA93DD2E86CCDF1FC853060901LLOs0fE0AAs23CustomStringConvertible
+- _associated conformance 12NewsArticles22ProxyAuthenticationKeyV10CodingKeys33_CD6678FA93DD2E86CCDF1FC853060901LLOs0fE0AAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles23EndOfArticleLayoutModelO5TeaUI09BlueprintF19FrameAttributesTypeAaD0jflM0
+- _associated conformance 12NewsArticles23EndOfArticleLayoutModelO5TeaUI09BlueprintF32SupplementaryAttributesProvidingAaD0jf5FrameL4Type
+- _associated conformance 12NewsArticles23EndOfArticleSectionTypeOSHAASQ
+- _associated conformance 12NewsArticles23EndOfArticleSectionTypeOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 12NewsArticles23EndOfRecipeExpandResultV13TeaFoundation16ShortDescribableAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles23EndOfRecipeModelFactoryC0A4Feed06Formatf3SubG4TypeAA0F0AdEP_AD0H17ItemRepresentable
+- _associated conformance 12NewsArticles23PDFReplicaViewerOptionsV11DisplayModeOSHAASQ
+- _associated conformance 12NewsArticles23RecipeArticleDrawerViewV7SwiftUI0F0AA4BodyAdEP_AdE
+- _associated conformance 12NewsArticles23RecipeBannerAdRequesterC6ErrorsOSHAASQ
+- _associated conformance 12NewsArticles23RecipeRecirculationDataV10CodingKeys33_1535427928E8413FE3D8A17E543E66DCLLOSHAASQ
+- _associated conformance 12NewsArticles23RecipeRecirculationDataV10CodingKeys33_1535427928E8413FE3D8A17E543E66DCLLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles23RecipeRecirculationDataV10CodingKeys33_1535427928E8413FE3D8A17E543E66DCLLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles23RecipeViewerDataManagerC5Error33_54F0E3CF1CC50548A1147A4CE456B75ALLOSHAASQ
+- _associated conformance 12NewsArticles23ViewingLocationOverrideO11TeaSettings8SettableAASQ
+- _associated conformance 12NewsArticles23ViewingLocationOverrideOSHAASQ
+- _associated conformance 12NewsArticles24AnalyticsMediaPlayMethodOSHAASQ
+- _associated conformance 12NewsArticles24AnalyticsMediaUserActionOSHAASQ
+- _associated conformance 12NewsArticles24AudioTrackTransformationV13TeaFoundation16ShortDescribableAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles24EndOfRecipeFeedGroupKindOSHAASQ
+- _associated conformance 12NewsArticles24EndOfRecipeFeedGroupKindOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 12NewsArticles24PDFReplicaViewControllerC22PaywallPrepRequirementOSHAASQ
+- _associated conformance 12NewsArticles24PDFReplicaViewControllerC5TeaUI12PageViewableAA0F10Foundation12Identifiable
+- _associated conformance 12NewsArticles24ReportConcernDetailModelO13TeaFoundation8DiffableAASH
+- _associated conformance 12NewsArticles24ReportConcernDetailModelO13TeaFoundation8DiffableAaD12Identifiable
+- _associated conformance 12NewsArticles24ReportConcernDetailModelO5TeaUI9ModelableAA0G10Foundation8Diffable
+- _associated conformance 12NewsArticles24ReportConcernDetailModelO5TeaUI9ModelableAaD14Impressionable
+- _associated conformance 12NewsArticles24ReportConcernDetailModelOSHAASQ
+- _associated conformance 12NewsArticles24UserConcernConfigManagerC6ErrorsOSHAASQ
+- _associated conformance 12NewsArticles25AudioTrackOverlayPositionOSHAASQ
+- _associated conformance 12NewsArticles25DefaultRecipeConcernModelOSHAASQ
+- _associated conformance 12NewsArticles25DefaultRecipeConcernModelOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 12NewsArticles25EndOfArticleFeedGroupKindOSHAASQ
+- _associated conformance 12NewsArticles25EndOfArticleFeedGroupKindOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 12NewsArticles25EndOfRecipeFeedGroupKnobsV10CodingKeys33_6170ACFD73ED05B89E96F312E2BD2B2ELLOSHAASQ
+- _associated conformance 12NewsArticles25EndOfRecipeFeedGroupKnobsV10CodingKeys33_6170ACFD73ED05B89E96F312E2BD2B2ELLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles25EndOfRecipeFeedGroupKnobsV10CodingKeys33_6170ACFD73ED05B89E96F312E2BD2B2ELLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles25EndOfRecipeViewControllerC5TeaUI09BlueprintfG12DelegateTypeAA10DescriptorAdEP_0H10Foundation12Identifiable
+- _associated conformance 12NewsArticles25EndOfRecipeViewControllerC5TeaUI09BlueprintfG12DelegateTypeAA5ModelAdEP_AD9Modelable
+- _associated conformance 12NewsArticles25RecipeBlueprintRouteModelC6TraitsOSHAASQ
+- _associated conformance 12NewsArticles25RecipeRecirculationConfigV10CodingKeys33_4D5EC3819B571AB890A62E9043AF13E2LLOSHAASQ
+- _associated conformance 12NewsArticles25RecipeRecirculationConfigV10CodingKeys33_4D5EC3819B571AB890A62E9043AF13E2LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles25RecipeRecirculationConfigV10CodingKeys33_4D5EC3819B571AB890A62E9043AF13E2LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles25TableOfContentsAutomationV10CodingKeys33_8C34C468B40F88B06EB013AA6BE535F6LLOyx_GSHAASQ
+- _associated conformance 12NewsArticles25TableOfContentsAutomationV10CodingKeys33_8C34C468B40F88B06EB013AA6BE535F6LLOyx_Gs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles25TableOfContentsAutomationV10CodingKeys33_8C34C468B40F88B06EB013AA6BE535F6LLOyx_Gs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles25TableOfContentsAutomationVyxG5TeaUI0F4TypeAASE
+- _associated conformance 12NewsArticles25TableOfContentsAutomationVyxG5TeaUI0F4TypeAASe
+- _associated conformance 12NewsArticles25TableOfContentsGridLayoutV0G10AttributesV10CodingKeys33_4A567A76E85857E0ABD82E7109612A0FLLOSHAASQ
+- _associated conformance 12NewsArticles25TableOfContentsGridLayoutV0G10AttributesV10CodingKeys33_4A567A76E85857E0ABD82E7109612A0FLLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles25TableOfContentsGridLayoutV0G10AttributesV10CodingKeys33_4A567A76E85857E0ABD82E7109612A0FLLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles25TableOfContentsGridLayoutV0G10AttributesV11TeaTemplate0G12ValueLiteralAASE
+- _associated conformance 12NewsArticles25TableOfContentsGridLayoutV0G10AttributesV11TeaTemplate0G12ValueLiteralAASe
+- _associated conformance 12NewsArticles25TableOfContentsGridLayoutV0G10AttributesV11TeaTemplate0G12ValueLiteralAaF0G10Adjustable
+- _associated conformance 12NewsArticles25TableOfContentsGridLayoutV0G10AttributesV11TeaTemplate0gH4TypeAaF0G12ValueLiteral
+- _associated conformance 12NewsArticles25TableOfContentsHeaderViewC5TeaUI8ReusableAaD8Editable
+- _associated conformance 12NewsArticles26ArticleBottomPaletteActionOSHAASQ
+- _associated conformance 12NewsArticles26ArticlePreviewServiceErrorOSHAASQ
+- _associated conformance 12NewsArticles26ArticleRecirculationConfigV0C10CollectionO06ScoredC0V10CodingKeys33_A700CA37AD4C8985A0F00794853DC68ELLOSHAASQ
+- _associated conformance 12NewsArticles26ArticleRecirculationConfigV0C10CollectionO06ScoredC0V10CodingKeys33_A700CA37AD4C8985A0F00794853DC68ELLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles26ArticleRecirculationConfigV0C10CollectionO06ScoredC0V10CodingKeys33_A700CA37AD4C8985A0F00794853DC68ELLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles26ArticleRecirculationConfigV0C8ProviderO10CodingKeys33_C7C3333ADA94C5ADB670AC07D035752ALLOSHAASQ
+- _associated conformance 12NewsArticles26ArticleRecirculationConfigV0C8ProviderO10CodingKeys33_C7C3333ADA94C5ADB670AC07D035752ALLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles26ArticleRecirculationConfigV0C8ProviderO10CodingKeys33_C7C3333ADA94C5ADB670AC07D035752ALLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles26ArticleRecirculationConfigV10CodingKeys33_8362A60A3A04FBA9C2D4EC6157A0DA3CLLOSHAASQ
+- _associated conformance 12NewsArticles26ArticleRecirculationConfigV10CodingKeys33_8362A60A3A04FBA9C2D4EC6157A0DA3CLLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles26ArticleRecirculationConfigV10CodingKeys33_8362A60A3A04FBA9C2D4EC6157A0DA3CLLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles26ArticleRecirculationConfigV12FilterOptionOSHAASQ
+- _associated conformance 12NewsArticles26ArticleRecirculationConfigV13OrderByOptionOSHAASQ
+- _associated conformance 12NewsArticles26ArticleRecirculationConfigV13SectionQuotasV10CodingKeys33_6A03A7338ED73D341DA8684171823AD2LLOSHAASQ
+- _associated conformance 12NewsArticles26ArticleRecirculationConfigV13SectionQuotasV10CodingKeys33_6A03A7338ED73D341DA8684171823AD2LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles26ArticleRecirculationConfigV13SectionQuotasV10CodingKeys33_6A03A7338ED73D341DA8684171823AD2LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles26ArticleRecirculationConfigV14RuleCollectionO10CodingKeys33_B8C166021A6D623D8CFF4D68A435DE80LLOSHAASQ
+- _associated conformance 12NewsArticles26ArticleRecirculationConfigV14RuleCollectionO10CodingKeys33_B8C166021A6D623D8CFF4D68A435DE80LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles26ArticleRecirculationConfigV14RuleCollectionO10CodingKeys33_B8C166021A6D623D8CFF4D68A435DE80LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles26ArticleRecirculationConfigV4RuleV10CodingKeys33_C1D3CFCA788C9311ED0273E0320AB166LLOSHAASQ
+- _associated conformance 12NewsArticles26ArticleRecirculationConfigV4RuleV10CodingKeys33_C1D3CFCA788C9311ED0273E0320AB166LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles26ArticleRecirculationConfigV4RuleV10CodingKeys33_C1D3CFCA788C9311ED0273E0320AB166LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles26ArticleRecirculationConfigV4RuleV20ScoringConfigurationV10CodingKeys33_C1D3CFCA788C9311ED0273E0320AB166LLOSHAASQ
+- _associated conformance 12NewsArticles26ArticleRecirculationConfigV4RuleV20ScoringConfigurationV10CodingKeys33_C1D3CFCA788C9311ED0273E0320AB166LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles26ArticleRecirculationConfigV4RuleV20ScoringConfigurationV10CodingKeys33_C1D3CFCA788C9311ED0273E0320AB166LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles26ArticleRecirculationConfigV5QueryOSHAASQ
+- _associated conformance 12NewsArticles26ArticleRecirculationConfigV7SectionO09SpecifiedF0V10CodingKeys33_6F180286423B2195C6C9B56C89BDECF7LLOSHAASQ
+- _associated conformance 12NewsArticles26ArticleRecirculationConfigV7SectionO09SpecifiedF0V10CodingKeys33_6F180286423B2195C6C9B56C89BDECF7LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles26ArticleRecirculationConfigV7SectionO09SpecifiedF0V10CodingKeys33_6F180286423B2195C6C9B56C89BDECF7LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles26ArticleRecirculationConfigV7SectionO0F4TypeOSHAASQ
+- _associated conformance 12NewsArticles26ArticleRecirculationConfigV7SectionO11HeaderStyleOSHAASQ
+- _associated conformance 12NewsArticles26ArticleRecirculationConfigV7SectionO22GroupSizeConfigurationV10CodingKeys33_6F180286423B2195C6C9B56C89BDECF7LLOSHAASQ
+- _associated conformance 12NewsArticles26ArticleRecirculationConfigV7SectionO22GroupSizeConfigurationV10CodingKeys33_6F180286423B2195C6C9B56C89BDECF7LLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles26ArticleRecirculationConfigV7SectionO22GroupSizeConfigurationV10CodingKeys33_6F180286423B2195C6C9B56C89BDECF7LLOs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles26ArticleRecirculationConfigV8SectionsV10CodingKeys33_6F180286423B2195C6C9B56C89BDECF7LLOSHAASQ
+- _associated conformance 12NewsArticles26ArticleRecirculationConfigV8SectionsV10CodingKeys33_6F180286423B2195C6C9B56C89BDECF7LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles26ArticleRecirculationConfigV8SectionsV10CodingKeys33_6F180286423B2195C6C9B56C89BDECF7LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles26EndOfArticleFeedGroupKnobsV10CodingKeys33_AEE97B5F86650460890742AB2F2364ECLLOSHAASQ
+- _associated conformance 12NewsArticles26EndOfArticleFeedGroupKnobsV10CodingKeys33_AEE97B5F86650460890742AB2F2364ECLLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles26EndOfArticleFeedGroupKnobsV10CodingKeys33_AEE97B5F86650460890742AB2F2364ECLLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles26EndOfArticleViewControllerC5TeaUI09BlueprintfG12DelegateTypeAA10DescriptorAdEP_0H10Foundation12Identifiable
+- _associated conformance 12NewsArticles26EndOfArticleViewControllerC5TeaUI09BlueprintfG12DelegateTypeAA5ModelAdEP_AD9Modelable
+- _associated conformance 12NewsArticles26EndOfRecipeFeedGroupConfigO0aF00fgH4TypeAA13TeaFoundation12Identifiable
+- _associated conformance 12NewsArticles26EndOfRecipeFeedGroupConfigO0aF00fgH4TypeAASE
+- _associated conformance 12NewsArticles26EndOfRecipeFeedGroupConfigO0aF00fgH4TypeAASQ
+- _associated conformance 12NewsArticles26EndOfRecipeFeedGroupConfigO0aF00fgH4TypeAASe
+- _associated conformance 12NewsArticles26EndOfRecipeFeedGroupConfigO10CodingKeys33_949D7D4DF29B0FB32B25235D24046935LLOSHAASQ
+- _associated conformance 12NewsArticles26EndOfRecipeFeedGroupConfigO10CodingKeys33_949D7D4DF29B0FB32B25235D24046935LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles26EndOfRecipeFeedGroupConfigO10CodingKeys33_949D7D4DF29B0FB32B25235D24046935LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles26EndOfRecipeFeedGroupConfigO10CodingType33_949D7D4DF29B0FB32B25235D24046935LLOSHAASQ
+- _associated conformance 12NewsArticles26EndOfRecipeFeedKnobsConfigV10CodingKeys33_3D870C9C1BBB315FF0A33A13447C52D7LLOSHAASQ
+- _associated conformance 12NewsArticles26EndOfRecipeFeedKnobsConfigV10CodingKeys33_3D870C9C1BBB315FF0A33A13447C52D7LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles26EndOfRecipeFeedKnobsConfigV10CodingKeys33_3D870C9C1BBB315FF0A33A13447C52D7LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles26EndOfRecipeFeedPoolServiceC0aF00fgH4TypeAA0fH6ConfigAdEP_AD0fhjI0
+- _associated conformance 12NewsArticles26IssuePDFReplicaPageServiceC6ErrorsOSHAASQ
+- _associated conformance 12NewsArticles26IssueTableOfContentsModuleC0C5ErrorOSHAASQ
+- _associated conformance 12NewsArticles26MarkAsCookedCommandHandlerC5TeaUI05StatefG4TypeAA0f7ContextJ0AdEP_AD0fjK0
+- _associated conformance 12NewsArticles26RecipeRecirculationServiceC6ErrorsOSHAASQ
+- _associated conformance 12NewsArticles26RecipeViewerViewControllerC5Event33_8BD4E40FB96FB5E702789588E749BEE0LLOSHAASQ
+- _associated conformance 12NewsArticles26RecipeViewerViewControllerC5TeaUI04PageeF12DelegateTypeAA0I0AdEP_AD0iK0
+- _associated conformance 12NewsArticles26SubscriptionStatusOverrideO11TeaSettings8SettableAASQ
+- _associated conformance 12NewsArticles26SubscriptionStatusOverrideOSHAASQ
+- _associated conformance 12NewsArticles26TableOfContentsLayoutModelO5TeaUI09BlueprintF19FrameAttributesTypeAaD0jflM0
+- _associated conformance 12NewsArticles26TableOfContentsPDFCellViewC5TeaUI8ReusableAaD8Editable
+- _associated conformance 12NewsArticles27ArticleViewerViewControllerC15AppearanceStateOSHAASQ
+- _associated conformance 12NewsArticles27ArticleViewerViewControllerC19NarrativeAudioState33_F478AAD21120CB51E42B62988BC310EFLLOSHAASQ
+- _associated conformance 12NewsArticles27ArticleViewerViewControllerC5Event33_F478AAD21120CB51E42B62988BC310EFLLOSHAASQ
+- _associated conformance 12NewsArticles27ArticleViewerViewControllerC5TeaUI04PageeF12DelegateTypeAA0I0AdEP_AD0iK0
+- _associated conformance 12NewsArticles27ArticleViewerViewControllerC5TeaUI24ObservingBarCompressibleAaD06ScrollE10Observable
+- _associated conformance 12NewsArticles27ArticleViewerViewControllerC5TeaUI24ObservingBarCompressibleAaD0jK0
+- _associated conformance 12NewsArticles27ContextArticleViewerFeatureV15ExclusionGroupsVs10SetAlgebraAASQ
+- _associated conformance 12NewsArticles27ContextArticleViewerFeatureV15ExclusionGroupsVs10SetAlgebraAAs25ExpressibleByArrayLiteral
+- _associated conformance 12NewsArticles27ContextArticleViewerFeatureV15ExclusionGroupsVs9OptionSetAASY
+- _associated conformance 12NewsArticles27ContextArticleViewerFeatureV15ExclusionGroupsVs9OptionSetAAs0J7Algebra
+- _associated conformance 12NewsArticles27EndOfArticleFeedGroupConfigO0aF00fgH4TypeAA13TeaFoundation12Identifiable
+- _associated conformance 12NewsArticles27EndOfArticleFeedGroupConfigO0aF00fgH4TypeAASE
+- _associated conformance 12NewsArticles27EndOfArticleFeedGroupConfigO0aF00fgH4TypeAASQ
+- _associated conformance 12NewsArticles27EndOfArticleFeedGroupConfigO0aF00fgH4TypeAASe
+- _associated conformance 12NewsArticles27EndOfArticleFeedGroupConfigO10CodingKeys33_0AC3F2366D129ED8A4A140AD833D0A11LLOSHAASQ
+- _associated conformance 12NewsArticles27EndOfArticleFeedGroupConfigO10CodingKeys33_0AC3F2366D129ED8A4A140AD833D0A11LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles27EndOfArticleFeedGroupConfigO10CodingKeys33_0AC3F2366D129ED8A4A140AD833D0A11LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles27EndOfArticleFeedGroupConfigO10CodingType33_0AC3F2366D129ED8A4A140AD833D0A11LLOSHAASQ
+- _associated conformance 12NewsArticles27EndOfArticleFeedKnobsConfigV10CodingKeys33_B8FA312608AC3A200CCB30174A975EE8LLOSHAASQ
+- _associated conformance 12NewsArticles27EndOfArticleFeedKnobsConfigV10CodingKeys33_B8FA312608AC3A200CCB30174A975EE8LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles27EndOfArticleFeedKnobsConfigV10CodingKeys33_B8FA312608AC3A200CCB30174A975EE8LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles27EndOfArticleFeedPoolServiceC0aF00fgH4TypeAA0fH6ConfigAdEP_AD0fhjI0
+- _associated conformance 12NewsArticles27EndOfArticleSectionPositionOSHAASQ
+- _associated conformance 12NewsArticles27InterstitialAdManagerErrorsO13DiscardReasonOSHAASQ
+- _associated conformance 12NewsArticles27OfferUpsellScenarioOverrideO11TeaSettings8SettableAASQ
+- _associated conformance 12NewsArticles27OfferUpsellScenarioOverrideOSHAASQ
+- _associated conformance 12NewsArticles27ReportConcernViewControllerC5TeaUI09BlueprinteF12DelegateTypeAA10DescriptorAdEP_0G10Foundation12Identifiable
+- _associated conformance 12NewsArticles27ReportConcernViewControllerC5TeaUI09BlueprinteF12DelegateTypeAA5ModelAdEP_AD9Modelable
+- _associated conformance 12NewsArticles28EndOfRecipeFeedConfigManagerC5Error33_EBEC51F8F83739875569C8068A959D89LLOSHAASQ
+- _associated conformance 12NewsArticles28EndOfRecipeFeedContentConfigV0aF00fgH4TypeAA0f5KnobsH0AdEP_AD0fjhI0
+- _associated conformance 12NewsArticles28EndOfRecipeFeedContentConfigV0aF00fgH4TypeAA0fH0AdEP_AD0fhI0
+- _associated conformance 12NewsArticles28EndOfRecipeFeedContentConfigV10CodingKeys33_5C826CE817E688AA056DC0AA51342E99LLOSHAASQ
+- _associated conformance 12NewsArticles28EndOfRecipeFeedContentConfigV10CodingKeys33_5C826CE817E688AA056DC0AA51342E99LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles28EndOfRecipeFeedContentConfigV10CodingKeys33_5C826CE817E688AA056DC0AA51342E99LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles28EndOfRecipeFeedServiceConfigV0aF00fgH4TypeAA0F4PoolAdEP_AD0fjI0
+- _associated conformance 12NewsArticles28EndOfRecipeFeedServiceConfigV0aF00fgH4TypeAA0f7ContentH0AdEP_AD0fjhI0
+- _associated conformance 12NewsArticles28EndOfRecipeFeedServiceConfigV0aF00fgH4TypeAaD0f7JournalH9Providing
+- _associated conformance 12NewsArticles28InterstitialAdViewControllerCyxG5TeaUI12PageViewableAA0G10Foundation12Identifiable
+- _associated conformance 12NewsArticles28RecipeArticleDrawerViewModelC0C0Vs12IdentifiableAA2IDsAFP_SH
+- _associated conformance 12NewsArticles28RecipeBannerAdViewControllerC6ErrorsOSHAASQ
+- _associated conformance 12NewsArticles28RelatedEndOfArticleFeedGroupV0aG00G9GroupableAA13TeaFoundation12Identifiable
+- _associated conformance 12NewsArticles28RelatedEndOfArticleFeedGroupV0aG00G9GroupableAASQ
+- _associated conformance 12NewsArticles28RelatedEndOfArticleFeedGroupV0aG00G9GroupableAaD0gH10Debuggable
+- _associated conformance 12NewsArticles29EndOfArticleFeedConfigManagerC6ErrorsOSHAASQ
+- _associated conformance 12NewsArticles29EndOfArticleFeedContentConfigV0aF00fgH4TypeAA0f5KnobsH0AdEP_AD0fjhI0
+- _associated conformance 12NewsArticles29EndOfArticleFeedContentConfigV0aF00fgH4TypeAA0fH0AdEP_AD0fhI0
+- _associated conformance 12NewsArticles29EndOfArticleFeedContentConfigV10CodingKeys33_A590BC8695AED1D15AF5AB56A5620C20LLOSHAASQ
+- _associated conformance 12NewsArticles29EndOfArticleFeedContentConfigV10CodingKeys33_A590BC8695AED1D15AF5AB56A5620C20LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles29EndOfArticleFeedContentConfigV10CodingKeys33_A590BC8695AED1D15AF5AB56A5620C20LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles29EndOfArticleFeedServiceConfigV0aF00fgH4TypeAA0F4PoolAdEP_AD0fjI0
+- _associated conformance 12NewsArticles29EndOfArticleFeedServiceConfigV0aF00fgH4TypeAA0f7ContentH0AdEP_AD0fjhI0
+- _associated conformance 12NewsArticles29EndOfArticleFeedServiceConfigV0aF00fgH4TypeAaD0f7JournalH9Providing
+- _associated conformance 12NewsArticles29MoreFromEndOfArticleFeedGroupV0aH00H9GroupableAA13TeaFoundation12Identifiable
+- _associated conformance 12NewsArticles29MoreFromEndOfArticleFeedGroupV0aH00H9GroupableAASQ
+- _associated conformance 12NewsArticles29MoreFromEndOfArticleFeedGroupV0aH00H9GroupableAaD0hI10Debuggable
+- _associated conformance 12NewsArticles29PDFReplicaViewerFeatureActionOSHAASQ
+- _associated conformance 12NewsArticles29TableOfContentsViewControllerC5TeaUI09BlueprintfG12DelegateTypeAA10DescriptorAdEP_0H10Foundation12Identifiable
+- _associated conformance 12NewsArticles29TableOfContentsViewControllerC5TeaUI09BlueprintfG12DelegateTypeAA5ModelAdEP_AD9Modelable
+- _associated conformance 12NewsArticles29TagSubscriptionStatusOverrideO11TeaSettings8SettableAASQ
+- _associated conformance 12NewsArticles29TagSubscriptionStatusOverrideOSHAASQ
+- _associated conformance 12NewsArticles30DarkModeColorInversionBehaviorO11TeaSettings8SettableAASQ
+- _associated conformance 12NewsArticles30DarkModeColorInversionBehaviorOSHAASQ
+- _associated conformance 12NewsArticles30IssueTableOfContentsPostActionOSHAASQ
+- _associated conformance 12NewsArticles30PDFReplicaViewerViewControllerC5EventOSHAASQ
+- _associated conformance 12NewsArticles30PDFReplicaViewerViewControllerC5TeaUI04PageeF12DelegateTypeAA0I0AdEP_AD0iK0
+- _associated conformance 12NewsArticles30ReportConcernSectionDescriptorOSHAASQ
+- _associated conformance 12NewsArticles30WebContentLoadEventTransformerC0G5ErrorOSHAASQ
+- _associated conformance 12NewsArticles31ArticleViewerFeatureAppearStateOSHAASQ
+- _associated conformance 12NewsArticles31ArticleViewerPageItemPostActionOSHAASQ
+- _associated conformance 12NewsArticles31EndOfRecipeUpdatePluginModifierV5Error33_E54D3FCC7EAA65FE8F6E41F106215D8ELLOSHAASQ
+- _associated conformance 12NewsArticles31EndOfRecipeUpdatePluginModifierV5TeaUI09BlueprintH4TypeAA10DescriptorAdEP_0I10Foundation12Identifiable
+- _associated conformance 12NewsArticles31EndOfRecipeUpdatePluginModifierV5TeaUI09BlueprintH4TypeAA5ModelAdEP_AD9Modelable
+- _associated conformance 12NewsArticles31EndOfRecipeUpdatePluginModifierV5TeaUI09BlueprintH4TypeAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles31InterstitialAdPreviewInteractorC6ErrorsOSHAASQ
+- _associated conformance 12NewsArticles31MoreToReadEndOfArticleFeedGroupV0aI00I9GroupableAA13TeaFoundation12Identifiable
+- _associated conformance 12NewsArticles31MoreToReadEndOfArticleFeedGroupV0aI00I9GroupableAASQ
+- _associated conformance 12NewsArticles31MoreToReadEndOfArticleFeedGroupV0aI00I9GroupableAaD0iJ10Debuggable
+- _associated conformance 12NewsArticles31TableOfContentsHeaderViewLayoutV0H10AttributesV10CodingKeys33_47FBA7E359775C445BE4699F076C8043LLOSHAASQ
+- _associated conformance 12NewsArticles31TableOfContentsHeaderViewLayoutV0H10AttributesV10CodingKeys33_47FBA7E359775C445BE4699F076C8043LLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles31TableOfContentsHeaderViewLayoutV0H10AttributesV10CodingKeys33_47FBA7E359775C445BE4699F076C8043LLOs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles31TableOfContentsHeaderViewLayoutV0H10AttributesV11TeaTemplate0H12ValueLiteralAASE
+- _associated conformance 12NewsArticles31TableOfContentsHeaderViewLayoutV0H10AttributesV11TeaTemplate0H12ValueLiteralAASe
+- _associated conformance 12NewsArticles31TableOfContentsHeaderViewLayoutV0H10AttributesV11TeaTemplate0H12ValueLiteralAaF0H10Adjustable
+- _associated conformance 12NewsArticles31TableOfContentsHeaderViewLayoutV0H10AttributesV11TeaTemplate0hI4TypeAaF0H12ValueLiteral
+- _associated conformance 12NewsArticles32AnalyticsEventTransformerManagerC0eF5ErrorOSHAASQ
+- _associated conformance 12NewsArticles32ArticleRecirculationServiceErrorOSHAASQ
+- _associated conformance 12NewsArticles32LinkTapAnalyticsEventTransformerC0G5ErrorOSHAASQ
+- _associated conformance 12NewsArticles32MoreArticleViewerFeatureProviderCAA0defG4TypeAA0F7ContextAaDP_AA0fiH0
+- _associated conformance 12NewsArticles32RecipeRecirculationConfigSectionV10CodingKeys33_6AE5DDE703C846F6DFBA9495713F1E3ELLOSHAASQ
+- _associated conformance 12NewsArticles32RecipeRecirculationConfigSectionV10CodingKeys33_6AE5DDE703C846F6DFBA9495713F1E3ELLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles32RecipeRecirculationConfigSectionV10CodingKeys33_6AE5DDE703C846F6DFBA9495713F1E3ELLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles32RecommendedEndOfArticleFeedGroupV0aG00G9GroupableAA13TeaFoundation12Identifiable
+- _associated conformance 12NewsArticles32RecommendedEndOfArticleFeedGroupV0aG00G9GroupableAASQ
+- _associated conformance 12NewsArticles32RecommendedEndOfArticleFeedGroupV0aG00G9GroupableAaD0gH10Debuggable
+- _associated conformance 12NewsArticles32SaveArticleViewerFeatureProviderCAA0defG4TypeAA0F7ContextAaDP_AA0fiH0
+- _associated conformance 12NewsArticles32TableOfContentsPDFCellViewLayoutV0H10AttributesV10CodingKeys33_D16FAEAD88BE00834D8DFA0063370702LLOSHAASQ
+- _associated conformance 12NewsArticles32TableOfContentsPDFCellViewLayoutV0H10AttributesV10CodingKeys33_D16FAEAD88BE00834D8DFA0063370702LLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles32TableOfContentsPDFCellViewLayoutV0H10AttributesV10CodingKeys33_D16FAEAD88BE00834D8DFA0063370702LLOs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles32TableOfContentsPDFCellViewLayoutV0H10AttributesV11TeaTemplate0H12ValueLiteralAASE
+- _associated conformance 12NewsArticles32TableOfContentsPDFCellViewLayoutV0H10AttributesV11TeaTemplate0H12ValueLiteralAASe
+- _associated conformance 12NewsArticles32TableOfContentsPDFCellViewLayoutV0H10AttributesV11TeaTemplate0H12ValueLiteralAaF0H10Adjustable
+- _associated conformance 12NewsArticles32TableOfContentsPDFCellViewLayoutV0H10AttributesV11TeaTemplate0hI4TypeAaF0H12ValueLiteral
+- _associated conformance 12NewsArticles33ArticleViewerBarButtonLayoutErrorOSHAASQ
+- _associated conformance 12NewsArticles33ArticleViewerPageBlueprintFactoryC6ErrorsOSHAASQ
+- _associated conformance 12NewsArticles33AudioArticleViewerFeatureProviderCAA0defG4TypeAA0F7ContextAaDP_AA0fiH0
+- _associated conformance 12NewsArticles33EndOfRecipeBlueprintLayoutBuilderC5TeaUI0fgH4TypeAA0G10DescriptorAdEP_AD0fg10AttributesK0
+- _associated conformance 12NewsArticles33EndOfRecipeBlueprintLayoutBuilderC5TeaUI0fgH4TypeAA0G5ModelAdEP_AD0fg10AttributesK0
+- _associated conformance 12NewsArticles33EndOfRecipeBlueprintLayoutBuilderC5TeaUI0fgH4TypeAA10DescriptorAdEP_0I10Foundation12Identifiable
+- _associated conformance 12NewsArticles33EndOfRecipeBlueprintLayoutBuilderC5TeaUI0fgH4TypeAA5ModelAdEP_AD9Modelable
+- _associated conformance 12NewsArticles33ExportToGroceryListCommandHandlerC5TeaUI05StategH4TypeAA0g7ContextK0AdEP_AD0gkL0
+- _associated conformance 12NewsArticles33PDFReplicaViewerPrewarmerProviderC5TeaUI04PageeF4TypeAA0I0AdEP_AD0iJ0
+- _associated conformance 12NewsArticles33RecipeRecirculationConfigOrderingOSHAASQ
+- _associated conformance 12NewsArticles33RelatedEndOfArticleFeedGroupKnobsV10CodingKeys33_C0776E7468D3B32A7AA117D61EE69FBELLOSHAASQ
+- _associated conformance 12NewsArticles33RelatedEndOfArticleFeedGroupKnobsV10CodingKeys33_C0776E7468D3B32A7AA117D61EE69FBELLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles33RelatedEndOfArticleFeedGroupKnobsV10CodingKeys33_C0776E7468D3B32A7AA117D61EE69FBELLOs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles33ReportConcernDetailViewControllerC5TeaUI09BlueprintfG12DelegateTypeAA10DescriptorAdEP_0H10Foundation12Identifiable
+- _associated conformance 12NewsArticles33ReportConcernDetailViewControllerC5TeaUI09BlueprintfG12DelegateTypeAA5ModelAdEP_AD9Modelable
+- _associated conformance 12NewsArticles33ShareArticleViewerFeatureProviderCAA0defG4TypeAA0F7ContextAaDP_AA0fiH0
+- _associated conformance 12NewsArticles34ArticleViewerPageFeaturePostActionOSHAASQ
+- _associated conformance 12NewsArticles34ArticleViewerPagePrewarmerProviderC5TeaUI0efG4TypeAA0E0AdEP_AD0eJ0
+- _associated conformance 12NewsArticles34CombinedArticleRecirculationConfigV7SectionV0cdeG5ErrorOSHAASQ
+- _associated conformance 12NewsArticles34EndOfArticleBlueprintLayoutBuilderC5TeaUI0fgH4TypeAA0G10DescriptorAdEP_AD0fg10AttributesK0
+- _associated conformance 12NewsArticles34EndOfArticleBlueprintLayoutBuilderC5TeaUI0fgH4TypeAA0G5ModelAdEP_AD0fg10AttributesK0
+- _associated conformance 12NewsArticles34EndOfArticleBlueprintLayoutBuilderC5TeaUI0fgH4TypeAA10DescriptorAdEP_0I10Foundation12Identifiable
+- _associated conformance 12NewsArticles34EndOfArticleBlueprintLayoutBuilderC5TeaUI0fgH4TypeAA5ModelAdEP_AD9Modelable
+- _associated conformance 12NewsArticles34EndOfRecipeFeedGroupEmitterFactoryC0aF00fghI4TypeAA0F13ServiceConfigAdEP_AD0fklJ0
+- _associated conformance 12NewsArticles34EndOfRecipeLayoutSectionDescriptorO5TeaUI09BlueprintF19FrameAttributesTypeAaD0kfmN0
+- _associated conformance 12NewsArticles34EndOfRecipeLayoutSectionDescriptorO5TeaUI09BlueprintF32SupplementaryAttributesProvidingAaD0kf5FrameM4Type
+- _associated conformance 12NewsArticles34MediaViewAnalyticsEventTransformerC0G5ErrorOSHAASQ
+- _associated conformance 12NewsArticles34MoreFromEndOfArticleFeedGroupKnobsV10CodingKeys33_DD27EEB13560CEABAEA11BF6D3B3C32CLLOSHAASQ
+- _associated conformance 12NewsArticles34MoreFromEndOfArticleFeedGroupKnobsV10CodingKeys33_DD27EEB13560CEABAEA11BF6D3B3C32CLLOs0K3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles34MoreFromEndOfArticleFeedGroupKnobsV10CodingKeys33_DD27EEB13560CEABAEA11BF6D3B3C32CLLOs0K3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles34MoreFromIssueEndOfArticleFeedGroupV0aI00I9GroupableAA13TeaFoundation12Identifiable
+- _associated conformance 12NewsArticles34MoreFromIssueEndOfArticleFeedGroupV0aI00I9GroupableAASQ
+- _associated conformance 12NewsArticles34MoreFromIssueEndOfArticleFeedGroupV0aI00I9GroupableAaD0iJ10Debuggable
+- _associated conformance 12NewsArticles34RecipeArticleViewerFeatureProviderCAA0defG4TypeAA0F7ContextAaDP_AA0fiH0
+- _associated conformance 12NewsArticles34RelatedRecipesEndOfRecipeFeedGroupV0aH00H9GroupableAA13TeaFoundation12Identifiable
+- _associated conformance 12NewsArticles34RelatedRecipesEndOfRecipeFeedGroupV0aH00H9GroupableAASQ
+- _associated conformance 12NewsArticles34RelatedRecipesEndOfRecipeFeedGroupV0aH00H9GroupableAaD0hI10Debuggable
+- _associated conformance 12NewsArticles34RelatedRecipesEndOfRecipeFeedGroupV10CodingKeys33_0A36BABE1DCB386952280C419163DB2BLLOSHAASQ
+- _associated conformance 12NewsArticles34RelatedRecipesEndOfRecipeFeedGroupV10CodingKeys33_0A36BABE1DCB386952280C419163DB2BLLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles34RelatedRecipesEndOfRecipeFeedGroupV10CodingKeys33_0A36BABE1DCB386952280C419163DB2BLLOs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles35EndOfArticleFeedGroupEmitterFactoryC0aF00fghI4TypeAA0F13ServiceConfigAdEP_AD0fklJ0
+- _associated conformance 12NewsArticles35EndOfArticleLayoutSectionDescriptorO5TeaUI09BlueprintF19FrameAttributesTypeAaD0kfmN0
+- _associated conformance 12NewsArticles35EndOfArticleLayoutSectionDescriptorO5TeaUI09BlueprintF32SupplementaryAttributesProvidingAaD0kf5FrameM4Type
+- _associated conformance 12NewsArticles35EndOfRecipeBlueprintModifierFactoryCAA0cdefgH4TypeAA10DescriptorAaDP_13TeaFoundation12Identifiable
+- _associated conformance 12NewsArticles35EndOfRecipeBlueprintModifierFactoryCAA0cdefgH4TypeAA5ModelAaDP_5TeaUI9Modelable
+- _associated conformance 12NewsArticles35EndOfRecipeFeedServiceConfigFetcherC0aF00fghI4TypeAA0fG7ContextAdEP_AD0fgkJ0
+- _associated conformance 12NewsArticles35EndOfRecipeFeedServiceConfigFetcherC0aF00fghI4TypeAA0fgH0AdEP_AD0fghJ0
+- _associated conformance 12NewsArticles35EndOfRecipeFeedServiceConfigFetcherC6ErrorsOSHAASQ
+- _associated conformance 12NewsArticles35EndOfRecipePrewarmBlueprintModifierV5TeaUI0gH4TypeAA10DescriptorAdEP_0I10Foundation12Identifiable
+- _associated conformance 12NewsArticles35EndOfRecipePrewarmBlueprintModifierV5TeaUI0gH4TypeAA5ModelAdEP_AD9Modelable
+- _associated conformance 12NewsArticles35EndOfRecipePrewarmBlueprintModifierV5TeaUI0gH4TypeAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles35InterstitialAdPreviewViewControllerC5EventOSHAASQ
+- _associated conformance 12NewsArticles35RelatedEndOfArticleFeedGroupEmitterC0aG004BaseghI4TypeAA0G13ServiceConfigAdEP_AD0glmK0
+- _associated conformance 12NewsArticles35RelatedEndOfArticleFeedGroupEmitterC0aG004BaseghI4TypeAA13TeaFoundation12Identifiable
+- _associated conformance 12NewsArticles35RelatedEndOfArticleFeedGroupEmitterC0aG004BaseghI4TypeAA13TeaFoundation16ShortDescribable
+- _associated conformance 12NewsArticles35RelatedEndOfArticleFeedGroupEmitterC0aG006ModernghI4TypeAaD04BaseghiK0
+- _associated conformance 12NewsArticles35RelatedEndOfArticleFeedGroupEmitterC13TeaFoundation16ShortDescribableAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles35ReportConcernBlueprintLayoutBuilderC5TeaUI0efG4TypeAA0F10DescriptorAdEP_AD0ef10AttributesJ0
+- _associated conformance 12NewsArticles35ReportConcernBlueprintLayoutBuilderC5TeaUI0efG4TypeAA0F5ModelAdEP_AD0ef10AttributesJ0
+- _associated conformance 12NewsArticles35ReportConcernBlueprintLayoutBuilderC5TeaUI0efG4TypeAA10DescriptorAdEP_0H10Foundation12Identifiable
+- _associated conformance 12NewsArticles35ReportConcernBlueprintLayoutBuilderC5TeaUI0efG4TypeAA5ModelAdEP_AD9Modelable
+- _associated conformance 12NewsArticles36ArticleNavigationBarMessageContainerC5State33_C03E0B959E775327989EE4DDE248085FLLOSHAASQ
+- _associated conformance 12NewsArticles36EndOfArticleBlueprintModifierFactoryCAA0cdefgH4TypeAA10DescriptorAaDP_13TeaFoundation12Identifiable
+- _associated conformance 12NewsArticles36EndOfArticleBlueprintModifierFactoryCAA0cdefgH4TypeAA5ModelAaDP_5TeaUI9Modelable
+- _associated conformance 12NewsArticles36EndOfArticleFeedServiceConfigFetcherC0aF00fghI4TypeAA0fG7ContextAdEP_AD0fgkJ0
+- _associated conformance 12NewsArticles36EndOfArticleFeedServiceConfigFetcherC0aF00fghI4TypeAA0fgH0AdEP_AD0fghJ0
+- _associated conformance 12NewsArticles36EndOfArticleFeedServiceConfigFetcherC6ErrorsOSHAASQ
+- _associated conformance 12NewsArticles36EndOfArticlePrewarmBlueprintModifierV5TeaUI0gH4TypeAA10DescriptorAdEP_0I10Foundation12Identifiable
+- _associated conformance 12NewsArticles36EndOfArticlePrewarmBlueprintModifierV5TeaUI0gH4TypeAA5ModelAdEP_AD9Modelable
+- _associated conformance 12NewsArticles36EndOfArticlePrewarmBlueprintModifierV5TeaUI0gH4TypeAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles36EndOfRecipeBlueprintViewCellProviderC5TeaUI0fghI4TypeAA11LayoutModelAdEP_AD0fm10AttributesL0
+- _associated conformance 12NewsArticles36EndOfRecipeBlueprintViewCellProviderC5TeaUI0fghI4TypeAA5ModelAdEP_AD9Modelable
+- _associated conformance 12NewsArticles36EndOfRecipeRelayoutBlueprintModifierV5TeaUI0gH4TypeAA10DescriptorAdEP_0I10Foundation12Identifiable
+- _associated conformance 12NewsArticles36EndOfRecipeRelayoutBlueprintModifierV5TeaUI0gH4TypeAA5ModelAdEP_AD9Modelable
+- _associated conformance 12NewsArticles36EndOfRecipeRelayoutBlueprintModifierV5TeaUI0gH4TypeAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles36MediaEngageAnalyticsEventTransformerC0G5ErrorOSHAASQ
+- _associated conformance 12NewsArticles36MoreFromEndOfArticleFeedGroupEmitterC0aH004BasehiJ4TypeAA0H13ServiceConfigAdEP_AD0hmnL0
+- _associated conformance 12NewsArticles36MoreFromEndOfArticleFeedGroupEmitterC0aH004BasehiJ4TypeAA13TeaFoundation12Identifiable
+- _associated conformance 12NewsArticles36MoreFromEndOfArticleFeedGroupEmitterC0aH004BasehiJ4TypeAA13TeaFoundation16ShortDescribable
+- _associated conformance 12NewsArticles36MoreFromEndOfArticleFeedGroupEmitterC0aH006ModernhiJ4TypeAaD04BasehijL0
+- _associated conformance 12NewsArticles36MoreFromEndOfArticleFeedGroupEmitterC13TeaFoundation16ShortDescribableAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles36MoreToReadEndOfArticleFeedGroupKnobsV10CodingKeys33_A1FD8FD040BDC18CA6907ADC6845297FLLOSHAASQ
+- _associated conformance 12NewsArticles36MoreToReadEndOfArticleFeedGroupKnobsV10CodingKeys33_A1FD8FD040BDC18CA6907ADC6845297FLLOs0L3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles36MoreToReadEndOfArticleFeedGroupKnobsV10CodingKeys33_A1FD8FD040BDC18CA6907ADC6845297FLLOs0L3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles36NewsletterSubscriptionStatusOverrideO11TeaSettings8SettableAASQ
+- _associated conformance 12NewsArticles36NewsletterSubscriptionStatusOverrideOSHAASQ
+- _associated conformance 12NewsArticles37EndOfArticleBlueprintViewCellProviderC5TeaUI0fghI4TypeAA11LayoutModelAdEP_AD0fm10AttributesL0
+- _associated conformance 12NewsArticles37EndOfArticleBlueprintViewCellProviderC5TeaUI0fghI4TypeAA5ModelAdEP_AD9Modelable
+- _associated conformance 12NewsArticles37RecipeRecirculationConfigFilterOptionOSHAASQ
+- _associated conformance 12NewsArticles37RecommendedEndOfArticleFeedGroupKnobsV10CodingKeys33_49B16E142F4C34BD739446C2B1CD7C0ELLOSHAASQ
+- _associated conformance 12NewsArticles37RecommendedEndOfArticleFeedGroupKnobsV10CodingKeys33_49B16E142F4C34BD739446C2B1CD7C0ELLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles37RecommendedEndOfArticleFeedGroupKnobsV10CodingKeys33_49B16E142F4C34BD739446C2B1CD7C0ELLOs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles37ReportConcernBlueprintModifierFactoryCAA0cdefG4TypeAA10DescriptorAaDP_13TeaFoundation12Identifiable
+- _associated conformance 12NewsArticles37ReportConcernBlueprintModifierFactoryCAA0cdefG4TypeAA5ModelAaDP_5TeaUI9Modelable
+- _associated conformance 12NewsArticles37ReportConcernPrewarmBlueprintModifierV5TeaUI0fG4TypeAA10DescriptorAdEP_0H10Foundation12Identifiable
+- _associated conformance 12NewsArticles37ReportConcernPrewarmBlueprintModifierV5TeaUI0fG4TypeAA5ModelAdEP_AD9Modelable
+- _associated conformance 12NewsArticles37ReportConcernPrewarmBlueprintModifierV5TeaUI0fG4TypeAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles37TableOfContentsBlueprintLayoutBuilderC5TeaUI0fgH4TypeAA0G10DescriptorAdEP_AD0fg10AttributesK0
+- _associated conformance 12NewsArticles37TableOfContentsBlueprintLayoutBuilderC5TeaUI0fgH4TypeAA0G5ModelAdEP_AD0fg10AttributesK0
+- _associated conformance 12NewsArticles37TableOfContentsBlueprintLayoutBuilderC5TeaUI0fgH4TypeAA10DescriptorAdEP_0I10Foundation12Identifiable
+- _associated conformance 12NewsArticles37TableOfContentsBlueprintLayoutBuilderC5TeaUI0fgH4TypeAA5ModelAdEP_AD9Modelable
+- _associated conformance 12NewsArticles38ArticleScrollAnalyticsEventTransformerC0G5ErrorOSHAASQ
+- _associated conformance 12NewsArticles38MediaExposureAnalyticsEventTransformerC0G5ErrorOSHAASQ
+- _associated conformance 12NewsArticles38MoreToReadEndOfArticleFeedGroupEmitterC0aI004BaseijK4TypeAA0I13ServiceConfigAdEP_AD0inoM0
+- _associated conformance 12NewsArticles38MoreToReadEndOfArticleFeedGroupEmitterC0aI004BaseijK4TypeAA13TeaFoundation12Identifiable
+- _associated conformance 12NewsArticles38MoreToReadEndOfArticleFeedGroupEmitterC0aI004BaseijK4TypeAA13TeaFoundation16ShortDescribable
+- _associated conformance 12NewsArticles38MoreToReadEndOfArticleFeedGroupEmitterC0aI006ModernijK4TypeAaD04BaseijkM0
+- _associated conformance 12NewsArticles38MoreToReadEndOfArticleFeedGroupEmitterC13TeaFoundation16ShortDescribableAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles38PDFReplicaViewerViewControllerProviderC5TeaUI04PageefG4TypeAA0J0AdEP_AD0jK0
+- _associated conformance 12NewsArticles38RecipeViewerPageViewControllerProviderC5TeaUI0efgH4TypeAA0E0AdEP_AD0eK0
+- _associated conformance 12NewsArticles38RelatedEndOfArticleFeedGroupConfigDataV10CodingKeys33_787A893CF48C0DDC7A7373CAB1B5C701LLOSHAASQ
+- _associated conformance 12NewsArticles38RelatedEndOfArticleFeedGroupConfigDataV10CodingKeys33_787A893CF48C0DDC7A7373CAB1B5C701LLOs0K3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles38RelatedEndOfArticleFeedGroupConfigDataV10CodingKeys33_787A893CF48C0DDC7A7373CAB1B5C701LLOs0K3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles38ReportConcernBlueprintViewCellProviderC5TeaUI0efgH4TypeAA11LayoutModelAdEP_AD0el10AttributesK0
+- _associated conformance 12NewsArticles38ReportConcernBlueprintViewCellProviderC5TeaUI0efgH4TypeAA5ModelAdEP_AD9Modelable
+- _associated conformance 12NewsArticles38TableOfContentsLayoutSectionDescriptorO5TeaUI09BlueprintF19FrameAttributesTypeAaD0kfmN0
+- _associated conformance 12NewsArticles38TableOfContentsLayoutSectionDescriptorO5TeaUI09BlueprintF32SupplementaryAttributesProvidingAaD0kf5FrameM4Type
+- _associated conformance 12NewsArticles38TableOfContentsLayoutSectionDescriptorOSHAASQ
+- _associated conformance 12NewsArticles38TextResizeArticleViewerFeatureProviderCAA0efgH4TypeAA0G7ContextAaDP_AA0gjI0
+- _associated conformance 12NewsArticles39ArticleViewerPageViewControllerProviderC5TeaUI0efgH4TypeAA0E0AdEP_AD0eK0
+- _associated conformance 12NewsArticles39CombinedArticleRecirculationConfigError33_3F116B27C617D7D152D3C38EDE62A09FLLOSHAASQ
+- _associated conformance 12NewsArticles39LikeDislikeArticleViewerFeatureProviderCAA0efgH4TypeAA0G7ContextAaDP_AA0gjI0
+- _associated conformance 12NewsArticles39MoreFromEndOfArticleFeedGroupConfigDataV10CodingKeys33_3F58599B38932C47C8BF5D8EFF9751DCLLOSHAASQ
+- _associated conformance 12NewsArticles39MoreFromEndOfArticleFeedGroupConfigDataV10CodingKeys33_3F58599B38932C47C8BF5D8EFF9751DCLLOs0L3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles39MoreFromEndOfArticleFeedGroupConfigDataV10CodingKeys33_3F58599B38932C47C8BF5D8EFF9751DCLLOs0L3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles39MoreFromIssueEndOfArticleFeedGroupKnobsV10CodingKeys33_AB575331895D00DFF1B48A73E1197DB8LLOSHAASQ
+- _associated conformance 12NewsArticles39MoreFromIssueEndOfArticleFeedGroupKnobsV10CodingKeys33_AB575331895D00DFF1B48A73E1197DB8LLOs0L3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles39MoreFromIssueEndOfArticleFeedGroupKnobsV10CodingKeys33_AB575331895D00DFF1B48A73E1197DB8LLOs0L3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles39RecipeRecirculationConfigurationServiceC6Errors33_E69C37ED14770DD7AC9D5818930E913ELLOSHAASQ
+- _associated conformance 12NewsArticles39RecommendedEndOfArticleFeedGroupEmitterC0aG004BaseghI4TypeAA0G13ServiceConfigAdEP_AD0glmK0
+- _associated conformance 12NewsArticles39RecommendedEndOfArticleFeedGroupEmitterC0aG004BaseghI4TypeAA13TeaFoundation12Identifiable
+- _associated conformance 12NewsArticles39RecommendedEndOfArticleFeedGroupEmitterC0aG004BaseghI4TypeAA13TeaFoundation16ShortDescribable
+- _associated conformance 12NewsArticles39RecommendedEndOfArticleFeedGroupEmitterC0aG006ModernghI4TypeAaD04BaseghiK0
+- _associated conformance 12NewsArticles39RecommendedEndOfArticleFeedGroupEmitterC13TeaFoundation16ShortDescribableAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles39RelatedRecipesEndOfRecipeFeedGroupKnobsV10CodingKeys33_29DA04511DD0FFE92BB80F73EBEC11EALLOSHAASQ
+- _associated conformance 12NewsArticles39RelatedRecipesEndOfRecipeFeedGroupKnobsV10CodingKeys33_29DA04511DD0FFE92BB80F73EBEC11EALLOs0K3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles39RelatedRecipesEndOfRecipeFeedGroupKnobsV10CodingKeys33_29DA04511DD0FFE92BB80F73EBEC11EALLOs0K3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles39TableOfContentsBlueprintModifierFactoryCAA0cdefgH4TypeAA10DescriptorAaDP_13TeaFoundation12Identifiable
+- _associated conformance 12NewsArticles39TableOfContentsBlueprintModifierFactoryCAA0cdefgH4TypeAA5ModelAaDP_5TeaUI9Modelable
+- _associated conformance 12NewsArticles39TableOfContentsPrewarmBlueprintModifierV5TeaUI0gH4TypeAA10DescriptorAdEP_0I10Foundation12Identifiable
+- _associated conformance 12NewsArticles39TableOfContentsPrewarmBlueprintModifierV5TeaUI0gH4TypeAA5ModelAdEP_AD9Modelable
+- _associated conformance 12NewsArticles39TableOfContentsPrewarmBlueprintModifierV5TeaUI0gH4TypeAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles40InsertAdvertisementPageBlueprintModifierC5TeaUI0efG4TypeAA0E0AdEP_AD0eJ0
+- _associated conformance 12NewsArticles40OverflowMenuArticleViewerFeatureProviderCAA0efgH4TypeAA0G7ContextAaDP_AA0gjI0
+- _associated conformance 12NewsArticles40RemoveAdvertisementPageBlueprintModifierC5TeaUI0efG4TypeAA0E0AdEP_AD0eJ0
+- _associated conformance 12NewsArticles40ReportConcernBlueprintViewHeaderProviderC5TeaUI0efg6FooterH4TypeAA10DescriptorAdEP_0I10Foundation12Identifiable
+- _associated conformance 12NewsArticles40ReportConcernBlueprintViewHeaderProviderC5TeaUI0efg6FooterH4TypeAA11LayoutModelAdEP_AD0em10AttributesL0
+- _associated conformance 12NewsArticles40ReportConcernBlueprintViewHeaderProviderC5TeaUI0efg6FooterH4TypeAA16LayoutDescriptorAdEP_AD0em10AttributesL0
+- _associated conformance 12NewsArticles40ReportConcernBlueprintViewHeaderProviderC5TeaUI0efg6FooterH4TypeAA5ModelAdEP_AD9Modelable
+- _associated conformance 12NewsArticles40TableOfContentsBlueprintViewCellProviderC5TeaUI0fghI4TypeAA11LayoutModelAdEP_AD0fm10AttributesL0
+- _associated conformance 12NewsArticles40TableOfContentsBlueprintViewCellProviderC5TeaUI0fghI4TypeAA5ModelAdEP_AD9Modelable
+- _associated conformance 12NewsArticles41MoreFromIssueEndOfArticleFeedGroupEmitterC0aI004BaseijK4TypeAA0I13ServiceConfigAdEP_AD0inoM0
+- _associated conformance 12NewsArticles41MoreFromIssueEndOfArticleFeedGroupEmitterC0aI004BaseijK4TypeAA13TeaFoundation12Identifiable
+- _associated conformance 12NewsArticles41MoreFromIssueEndOfArticleFeedGroupEmitterC0aI004BaseijK4TypeAA13TeaFoundation16ShortDescribable
+- _associated conformance 12NewsArticles41MoreFromIssueEndOfArticleFeedGroupEmitterC0aI006ModernijK4TypeAaD04BaseijkM0
+- _associated conformance 12NewsArticles41MoreFromIssueEndOfArticleFeedGroupEmitterC13TeaFoundation16ShortDescribableAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles41MoreToReadEndOfArticleFeedGroupConfigDataV10CodingKeys33_541C293586290724FE3516BF17F09261LLOSHAASQ
+- _associated conformance 12NewsArticles41MoreToReadEndOfArticleFeedGroupConfigDataV10CodingKeys33_541C293586290724FE3516BF17F09261LLOs0M3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles41MoreToReadEndOfArticleFeedGroupConfigDataV10CodingKeys33_541C293586290724FE3516BF17F09261LLOs0M3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles41RelatedRecipesEndOfRecipeFeedGroupEmitterV0aH004BasehiJ4TypeAA0H13ServiceConfigAdEP_AD0hmnL0
+- _associated conformance 12NewsArticles41RelatedRecipesEndOfRecipeFeedGroupEmitterV0aH004BasehiJ4TypeAA13TeaFoundation12Identifiable
+- _associated conformance 12NewsArticles41RelatedRecipesEndOfRecipeFeedGroupEmitterV0aH004BasehiJ4TypeAA13TeaFoundation16ShortDescribable
+- _associated conformance 12NewsArticles41RelatedRecipesEndOfRecipeFeedGroupEmitterV0aH006ModernhiJ4TypeAaD04BasehijL0
+- _associated conformance 12NewsArticles41RelatedRecipesEndOfRecipeFeedGroupEmitterV13TeaFoundation16ShortDescribableAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles41ReportConcernDetailBlueprintLayoutBuilderC5TeaUI0fgH4TypeAA0G10DescriptorAdEP_AD0fg10AttributesK0
+- _associated conformance 12NewsArticles41ReportConcernDetailBlueprintLayoutBuilderC5TeaUI0fgH4TypeAA0G5ModelAdEP_AD0fg10AttributesK0
+- _associated conformance 12NewsArticles41ReportConcernDetailBlueprintLayoutBuilderC5TeaUI0fgH4TypeAA10DescriptorAdEP_0I10Foundation12Identifiable
+- _associated conformance 12NewsArticles41ReportConcernDetailBlueprintLayoutBuilderC5TeaUI0fgH4TypeAA5ModelAdEP_AD9Modelable
+- _associated conformance 12NewsArticles41SubscriptionActivationEligibilityOverrideO11TeaSettings8SettableAASQ
+- _associated conformance 12NewsArticles41SubscriptionActivationEligibilityOverrideOSHAASQ
+- _associated conformance 12NewsArticles42ComponentExposureAnalyticsEventTransformerC0G5ErrorOSHAASQ
+- _associated conformance 12NewsArticles42RecommendedEndOfArticleFeedGroupConfigDataV10CodingKeys33_00DB9962556236123B0EFA29CEF1332FLLOSHAASQ
+- _associated conformance 12NewsArticles42RecommendedEndOfArticleFeedGroupConfigDataV10CodingKeys33_00DB9962556236123B0EFA29CEF1332FLLOs0K3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles42RecommendedEndOfArticleFeedGroupConfigDataV10CodingKeys33_00DB9962556236123B0EFA29CEF1332FLLOs0K3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles43ReportConcernDetailBlueprintModifierFactoryCAA0cdefgH4TypeAA10DescriptorAaDP_13TeaFoundation12Identifiable
+- _associated conformance 12NewsArticles43ReportConcernDetailBlueprintModifierFactoryCAA0cdefgH4TypeAA5ModelAaDP_5TeaUI9Modelable
+- _associated conformance 12NewsArticles43ReportConcernDetailPrewarmBlueprintModifierV5TeaUI0gH4TypeAA10DescriptorAdEP_0I10Foundation12Identifiable
+- _associated conformance 12NewsArticles43ReportConcernDetailPrewarmBlueprintModifierV5TeaUI0gH4TypeAA5ModelAdEP_AD9Modelable
+- _associated conformance 12NewsArticles43ReportConcernDetailPrewarmBlueprintModifierV5TeaUI0gH4TypeAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles44MediaEngageCompleteAnalyticsEventTransformerC0H5ErrorOSHAASQ
+- _associated conformance 12NewsArticles44MoreFromIssueEndOfArticleFeedGroupConfigDataV10CodingKeys33_52CE53264831D57849A0719C1670B35ALLOSHAASQ
+- _associated conformance 12NewsArticles44MoreFromIssueEndOfArticleFeedGroupConfigDataV10CodingKeys33_52CE53264831D57849A0719C1670B35ALLOs0M3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles44MoreFromIssueEndOfArticleFeedGroupConfigDataV10CodingKeys33_52CE53264831D57849A0719C1670B35ALLOs0M3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles44RelatedRecipesEndOfRecipeFeedGroupConfigDataV10CodingKeys33_E008757EFEF6505D9FDE8121B1ED28ECLLOSHAASQ
+- _associated conformance 12NewsArticles44RelatedRecipesEndOfRecipeFeedGroupConfigDataV10CodingKeys33_E008757EFEF6505D9FDE8121B1ED28ECLLOs0L3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles44RelatedRecipesEndOfRecipeFeedGroupConfigDataV10CodingKeys33_E008757EFEF6505D9FDE8121B1ED28ECLLOs0L3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles44ReportConcernDefaultPrewarmBlueprintModifierV5TeaUI0gH4TypeAA10DescriptorAdEP_0I10Foundation12Identifiable
+- _associated conformance 12NewsArticles44ReportConcernDefaultPrewarmBlueprintModifierV5TeaUI0gH4TypeAA5ModelAdEP_AD9Modelable
+- _associated conformance 12NewsArticles44ReportConcernDefaultPrewarmBlueprintModifierV5TeaUI0gH4TypeAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles44ReportConcernDetailBlueprintViewCellProviderC5TeaUI0fghI4TypeAA11LayoutModelAdEP_AD0fm10AttributesL0
+- _associated conformance 12NewsArticles44ReportConcernDetailBlueprintViewCellProviderC5TeaUI0fghI4TypeAA5ModelAdEP_AD9Modelable
+- _associated conformance 12NewsArticles45RecipeRecirculationConfigSectionSelectionRuleV10CodingKeys33_AF88CB04FB168206B2C5771362CCAAF7LLOSHAASQ
+- _associated conformance 12NewsArticles45RecipeRecirculationConfigSectionSelectionRuleV10CodingKeys33_AF88CB04FB168206B2C5771362CCAAF7LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles45RecipeRecirculationConfigSectionSelectionRuleV10CodingKeys33_AF88CB04FB168206B2C5771362CCAAF7LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12NewsArticles46ReportConcernDetailBlueprintViewHeaderProviderC5TeaUI0fgh6FooterI4TypeAA10DescriptorAdEP_0J10Foundation12Identifiable
+- _associated conformance 12NewsArticles46ReportConcernDetailBlueprintViewHeaderProviderC5TeaUI0fgh6FooterI4TypeAA11LayoutModelAdEP_AD0fn10AttributesM0
+- _associated conformance 12NewsArticles46ReportConcernDetailBlueprintViewHeaderProviderC5TeaUI0fgh6FooterI4TypeAA16LayoutDescriptorAdEP_AD0fn10AttributesM0
+- _associated conformance 12NewsArticles46ReportConcernDetailBlueprintViewHeaderProviderC5TeaUI0fgh6FooterI4TypeAA5ModelAdEP_AD9Modelable
+- _associated conformance 12NewsArticles50ReportConcernDefaultRecipePrewarmBlueprintModifierV5TeaUI0hI4TypeAA10DescriptorAdEP_0J10Foundation12Identifiable
+- _associated conformance 12NewsArticles50ReportConcernDefaultRecipePrewarmBlueprintModifierV5TeaUI0hI4TypeAA5ModelAdEP_AD9Modelable
+- _associated conformance 12NewsArticles50ReportConcernDefaultRecipePrewarmBlueprintModifierV5TeaUI0hI4TypeAAs23CustomStringConvertible
+- _associated conformance 12NewsArticles51TableOfContentsSubscriptionChangedBlueprintModifierV5TeaUI0hI4TypeAA10DescriptorAdEP_0J10Foundation12Identifiable
+- _associated conformance 12NewsArticles51TableOfContentsSubscriptionChangedBlueprintModifierV5TeaUI0hI4TypeAA5ModelAdEP_AD9Modelable
+- _associated conformance 12NewsArticles51TableOfContentsSubscriptionChangedBlueprintModifierV5TeaUI0hI4TypeAAs23CustomStringConvertible
+- _associated conformance So12UIFontWeightaSHSCSQ
+- _associated conformance So12UIFontWeightas20_SwiftNewtypeWrapperSCSY
+- _associated conformance So12UIFontWeightas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
+- _associated conformance So12UIRectCornerVs10SetAlgebraSCSQ
+- _associated conformance So12UIRectCornerVs10SetAlgebraSCs25ExpressibleByArrayLiteral
+- _associated conformance So12UIRectCornerVs9OptionSetSCSY
+- _associated conformance So12UIRectCornerVs9OptionSetSCs0D7Algebra
+- _associated conformance So14UIActivityTypeaSHSCSQ
+- _associated conformance So14UIActivityTypeas20_SwiftNewtypeWrapperSCSY
+- _associated conformance So14UIActivityTypeas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
+- _associated conformance So16NUArticleMessageVSHSCSQ
+- _associated conformance So21NSAttributedStringKeyaSHSCSQ
+- _associated conformance So21NSAttributedStringKeyas20_SwiftNewtypeWrapperSCSY
+- _associated conformance So21NSAttributedStringKeyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
+- _associated conformance So21UIContentSizeCategoryaSHSCSQ
+- _associated conformance So21UIContentSizeCategoryas20_SwiftNewtypeWrapperSCSY
+- _associated conformance So21UIContentSizeCategoryas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
+- _associated conformance So24UIFontDescriptorTraitKeyaSHSCSQ
+- _associated conformance So24UIFontDescriptorTraitKeyas20_SwiftNewtypeWrapperSCSY
+- _associated conformance So24UIFontDescriptorTraitKeyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
+- _associated conformance So29UIFontDescriptorAttributeNameaSHSCSQ
+- _associated conformance So29UIFontDescriptorAttributeNameas20_SwiftNewtypeWrapperSCSY
+- _associated conformance So29UIFontDescriptorAttributeNameas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
+- _block_copy_helper
+- _block_descriptor
+- _block_destroy_helper
+- _compatibilityInitializeAvailabilityCheck
+- _flat unique So10NAZoomable_p
+- _flat unique So13FCFeedTheming_p
+- _flat unique So13NUURLHandling_p
+- _flat unique So13SXAdComponent_p
+- _flat unique So14FCTagProviding_p
+- _flat unique So16FCContentContext_p
+- _flat unique So17FCCommandDelegate_p
+- _flat unique So18FCChannelProviding_p
+- _flat unique So19FCAVAssetPrewarming_p
+- _flat unique So19FCAssetDataProvider_p
+- _flat unique So19FCCoreConfiguration_p
+- _flat unique So19FCFeedPersonalizing_p
+- _flat unique So19FCHeadlineProviding_p
+- _flat unique So19FCNewsletterManager_p
+- _flat unique So19NAArticleFooterType_p
+- _flat unique So19SXLayoutInvalidator_p
+- _flat unique So21NUErrorMessageFactory_p
+- _flat unique So22FCNewsAppConfiguration_p
+- _flat unique So23FCFeedPersonalizingItem_p
+- _flat unique So23FCPaidAccessCheckerType_p
+- _flat unique So23NAArticleFooterDelegate_p
+- _flat unique So23NUArticlePrefetcherType_p
+- _flat unique So24FCEndpointConnectionType_p
+- _flat unique So25FCIssueReadingHistoryType_p
+- _flat unique So25FCNetworkReachabilityType_p
+- _flat unique So26FCCoreConfigurationManager_p
+- _flat unique So26NUANFDebugSettingsObserver_p
+- _flat unique So26NUArticleKeyCommandManager_p
+- _flat unique So26SWFeedConfigurationFactory_p
+- _flat unique So26SXComponentExposureMonitor_p
+- _flat unique So26SXViewControllerPresenting_p
+- _flat unique So28SXDocumentControllerProvider_p
+- _flat unique So29FCNewsAppConfigurationManager_p
+- _flat unique So29SXDebugLayoutOptionsObserving_p
+- _flat unique So29SXDocumentSectionItemProvider_p
+- _flat unique So29SXSubscriptionStatusObserving_p
+- _flat unique So30SXOfferUpsellScenarioObserving_p
+- _flat unique So31FCBundleSubscriptionManagerType_p
+- _flat unique So32SXTagSubscriptionStatusObserving_p
+- _flat unique So32UIContextMenuInteractionDelegate_p
+- _flat unique So34NUDocumentSectionBlueprintProvider_p
+- _flat unique So36NAEndOfArticleResultProviderDelegate_p
+- _flat unique So39SXNewsletterSubscriptionStatusObserving_p
+- _flat unique So41UIPopoverPresentationControllerSourceItem_p
+- _flat unique So6SXHost_p
+- _flat unique So8NSObject_p
+- _generic environment 12NewsArticles16NowPlayableTrackRzl
+- _generic environment 12NewsArticles26EndOfArticleQuotaCandidateRzSQRzl
+- _get_enum_tag_for_layout_string 12NewsArticles012RecipeViewerC0VSg
+- _get_enum_tag_for_layout_string 12NewsArticles013ArticleViewerC4PageV19PresentationContextO
+- _get_enum_tag_for_layout_string 12NewsArticles10IssuePagesV3ANFV4PageO
+- _get_enum_tag_for_layout_string 12NewsArticles11IssueLoaderC5ModelO
+- _get_enum_tag_for_layout_string 12NewsArticles12ANFIssuePageO
+- _get_enum_tag_for_layout_string 12NewsArticles14AudioTrackKindO
+- _get_enum_tag_for_layout_string 12NewsArticles16ArticleGroupDataO
+- _get_enum_tag_for_layout_string 12NewsArticles16EndOfArticleItemO
+- _get_enum_tag_for_layout_string 12NewsArticles17HeadlineThumbnailV5Model33_5B9F28DC211094A1782E14306D872C08LLVSg
+- _get_enum_tag_for_layout_string 12NewsArticles18PDFReplicaPageLinkO
+- _get_enum_tag_for_layout_string 12NewsArticles19ArticleRecipeResultO
+- _get_enum_tag_for_layout_string 12NewsArticles19ArticleRecipeResultOSg
+- _get_enum_tag_for_layout_string 12NewsArticles21RecipeRouteIdentifierO
+- _get_enum_tag_for_layout_string 12NewsArticles21RecipeViewerBlueprintO
+- _get_enum_tag_for_layout_string 12NewsArticles21RecipeViewerBlueprintO0C4ItemV5ModelO
+- _get_enum_tag_for_layout_string 12NewsArticles24ReportConcernDetailModelO
+- _get_enum_tag_for_layout_string 12NewsArticles25EndOfArticleSectionResultVSg
+- _get_enum_tag_for_layout_string 12NewsArticles26ArticleRecirculationConfigV0C10CollectionO
+- _get_enum_tag_for_layout_string 12NewsArticles26ArticleRecirculationConfigV12OptionalRuleO
+- _get_enum_tag_for_layout_string 12NewsArticles26ArticleRecirculationConfigV14RuleCollectionO
+- _get_enum_tag_for_layout_string 12NewsArticles26ArticleRecirculationConfigV14RuleCollectionOSg
+- _get_enum_tag_for_layout_string 12NewsArticles26ArticleRecirculationConfigV7SectionO
+- _get_enum_tag_for_layout_string 12NewsArticles26ArticleRecirculationConfigV7SectionO09SpecifiedF0VSg
+- _get_enum_tag_for_layout_string 12NewsArticles26ArticleRecirculationConfigV7SectionOSg
+- _get_enum_tag_for_layout_string 12NewsArticles26RecipeRecirculationSectionO
+- _get_enum_tag_for_layout_string 12NewsArticles27InterstitialAdManagerErrorsO
+- _get_enum_tag_for_layout_string 12NewsArticles28ArticleProviderServiceResultO
+- _get_enum_tag_for_layout_string 12NewsArticles28RecipeArticleDrawerViewModelC0cE5StateO
+- _get_enum_tag_for_layout_string 12NewsArticles29EndOfArticleSectionDescriptorO
+- _get_enum_tag_for_layout_string 12NewsArticles29ProxyAuthenticationKeyManagerC6Errors33_575492171AA326AD26415D0F29E3E0C8LLO
+- _get_enum_tag_for_layout_string 12NewsArticles29SubscribePostPurchaseBehaviorO
+- _get_enum_tag_for_layout_string 12NewsArticles29SubscribePostPurchaseBehaviorO19SupplementaryActionO
+- _get_enum_tag_for_layout_string 12NewsArticles30ArticleViewerFeatureTransitionO
+- _get_enum_tag_for_layout_string 12NewsArticles30EndOfArticleSectionHeaderStyleO
+- _get_enum_tag_for_layout_string 12NewsArticles30RecipeContentPrefetchOperationC11RequestKindO
+- _get_enum_tag_for_layout_string 12NewsArticles30RecipeContentPrefetchOperationC5Error33_ADA7F258D9E662ABE39586398C19D399LLO
+- _get_enum_tag_for_layout_string 12NewsArticles32ArticleBlueprintGroupDataContextO
+- _get_enum_tag_for_layout_string 12NewsArticles34DeeplinkArticlePresentationContextO
+- _get_enum_tag_for_layout_string 12NewsArticles42BarButtonItemArticleViewerFeatureViewModelVSg
+- _get_enum_tag_for_layout_string 12NewsArticles44ArticleRecirculationSpecifiedSectionDataType_pSg
+- _get_enum_tag_for_layout_string 12NewsArticles46OverflowMenuArticleViewerFeatureTransitionKindO
+- _get_enum_tag_for_layout_string 12NewsArticles52ArticleRecirculationSpecifiedSectionDataProviderType_pSg
+- _get_enum_tag_for_layout_string 12NewsArticles5IssueO
+- _get_enum_tag_for_layout_string 5TeaUI15AssetHandleType_pSg
+- _get_enum_tag_for_layout_string 8NewsFeed0B18ServiceFetchResultOy0A8Articles011EndOfRecipebC6ConfigVG
+- _get_enum_tag_for_layout_string 8NewsFeed0B18ServiceFetchResultOy0A8Articles012EndOfArticlebC6ConfigVG
+- _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE4task2id4name8priority4file4line_Qrqd___SSSgScPSSSiyyYaYAcntSQRd__lFQOQr
+- _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOQr
+- _get_underlying_witness 7SwiftUI4ViewPAAEAcAE4task2id4name8priority4file4line_Qrqd___SSSgScPSSSiyyYaYAcntSQRd__lFQOqd0__AaBHC
+- _get_underlying_witness 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOqd__AaBHC
+- _get_witness_table 11MediaCoreUI18PreciseSpeedPickerVy05SwiftC09EmptyViewVGAD0I0HPyHC
+- _get_witness_table 12NewsArticles16NowPlayableTrackRzl11MediaCoreUI15_ViewLookupNodeVy05SwiftH015ModifiedContentVyAA0C7PlayingO013PublisherLogoI0Vy_xGAF26_PreferenceWritingModifierVyAF23PreferredColorSchemeKeyVGGAEyAF012_ConditionalN0VyAJ06NoticeI0VAF05EmptyI0VGAEyAF0I0PAFE11buttonStyleyQrqd__AF20PrimitiveButtonStyleRd__lFQOyAF6ButtonVyAHyAF5ImageVAF012_EnvironmentxsT0VyAF4FontVSgGGG_AF16PlainButtonStyleVQo_AEyAF6IDViewVyAJ4MenuVy_xGSiGAEyA4_yA6_GAEyAC0co6HostedN12ToggleButtonC7contentQrvpQOyA6__Qo_AEyAHyAHyA4_yAJ10ControllerC19PlayNextButtonLabel33_4BBC3C9FE7900BE83F33085C0558EC6ALLVy_x_GGAF012_Environmentx9TransformT0VySbGGAF14_OpacityEffectVGAEyAJ011SpeedPickerI0VAEyAJ07ArtworkI0Vy_xGAC01_iJ4TailVGGGGGGGGGAC0iJ0HPyHC
+- _get_witness_table 12NewsArticles16NowPlayableTrackRzl7SwiftUI15ModifiedContentVy09MediaCoreG00C15PlayingQueueRowVyAA0cL0O5ImageVy_xGAJ0M4ItemVy_xGGAC14_PaddingLayoutVGAC4ViewHPAqcUHPyHC_AsC0S8ModifierHPyHCHC
+- _get_witness_table 12NewsArticles16NowPlayableTrackRzl7SwiftUI15ModifiedContentVyAC4ViewPACE11buttonStyleyQrqd__AC015PrimitiveButtonL0Rd__lFQOyAC0N0VyAEyAC5ImageVAA0C7PlayingO05LabelL8Modifier33_156D83376656B3D3B2D493B88DAEA047LLVGG_AC05PlainnL0VQo_AC08_OverlayR0VyAO022ContextMenuInteractionJ0Vy_xGGGAcFHPqd0__AcFHD3_AWHO_A1_AC0jR0HPyHCHC
+- _get_witness_table 12NewsArticles16NowPlayableTrackRzl7SwiftUI15ModifiedContentVyAEyAC5ImageVAC30_EnvironmentKeyWritingModifierVyAC4FontVSgGGAC016_ForegroundStyleN0VyAC5ColorVGGAC4ViewHPAncUHPAgcUHPyHC_AmC0sN0HPyHCHC_AscVHPyHCHC
+- _get_witness_table 12NewsArticles16NowPlayableTrackRzl7SwiftUI15ModifiedContentVyAEyAEy09MediaCoreG00C12PlayingQueueVyAEyAEyAF0clM7SectionVyAC7ForEachVySayAA0cL0O0M4ItemVy_xGGSSAC13EquatableViewVyAN0m3RowS0Vy_xGGGAC6HStackVyAC05TupleI0VyAC4TextV_AC6SpacerVQPGGGAC21_TraitWritingModifierVyAC06OnMoveY3KeyVGGA10_yAC08OnDeleteY3KeyVGGGAC18_AnimationModifierVyARGGAC011_PreferenceZ8ModifierVyAC23PreferredColorSchemeKeyVGGAC16_OverlayModifierVyA3_SgGGAC0S0HPA29_ACA35_HPA23_ACA35_HPA19_ACA35_HPyHC_A22_AC0S8ModifierHPyHCHC_A28_ACA36_HPyHCHC_A33_ACA36_HPyHCHC
+- _get_witness_table 12NewsArticles16NowPlayableTrackRzl7SwiftUI5GroupVyAC19_ConditionalContentVyAA0C7PlayingO5ImageVy_xGAcJVGGAC4ViewHPAncPHPAlcPHPyHC_AmcPHPyHCHC_HC
+- _get_witness_table 12NewsArticles16NowPlayableTrackRzl7SwiftUI5ImageVAC4ViewHPyHC
+- _get_witness_table 12NewsArticles16NowPlayableTrackRzlqd0__7SwiftUI4ViewHD3_AcDPACE4task2id4name8priority4file4line_Qrqd___SSSgScPSSSiyyYaYAcntSQRd__lFQOyAC15ModifiedContentVyAC5GroupVyAC012_ConditionalP0VyAC5ImageVATGGAC18_AnimationModifierVySbGG_SSQo_HO
+- _get_witness_table 12NewsArticles16NowPlayableTrackRzlqd0__7SwiftUI4ViewHD3_AcDPACE4task2id4name8priority4file4line_Qrqd___SSSgScPSSSiyyYaYAcntSQRd__lFQOyAC15ModifiedContentVyAC6VStackVyAC05TupleP0VyAC012_ConditionalP0VyATyANyANyANyAC5ImageVAC18_AspectRatioLayoutVGAC06_FrameW0VGAC31AccessibilityAttachmentModifierVGAC4TextVGAC05EmptyH0VG_ANyAC6SpacerVA_GQPGGAC18_AnimationModifierVySbGG_AA0C7PlayingO013PublisherLogoH0V6TaskID33_6A39892C07F492B6727BD7AAABA7DDEELLVy_x_GQo_HO
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyAA6CircleVAA24_ForegroundStyleModifierVyAA017HierarchicalShapeG0VGGAA08_OverlayH0VyAA05_Viewh1_D0Vy12NewsArticles10NowPlayingO05LabelgH033_156D83376656B3D3B2D493B88DAEA047LLVGGGAA0L0HPAkaYHPAeaYHPyHC_AjA0lH0HPyHCHC_AwaZHPyHCHC
+- _get_witness_table 7SwiftUI19_ConditionalContentVyACyAA12ProgressViewVyAA05EmptyF0VAGGAA0F0PAAE9listStyleyQrqd__AA04ListI0Rd__lFQOyAA0J0Vys5NeverOAA7ForEachVySay12NewsArticles019RecipeArticleDrawerF5ModelC0P0VGSSAjAE0H12RowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQOyAA6ButtonVyAS0prP4ItemVG_Qo_GG_AA05PlainjI0VQo_GAA4TextVGAaIHPA16_AaIHPAhaIHPyHC_qd0__AaIHD3_A15_HOHC_A18_AaIHPyHCHC
+- _get_witness_table 7SwiftUI6HStackVyAA12TupleContentVy12NewsArticles21RecipeDrawerImageViewV_AA08ModifiedE0VyAA6VStackVyAEyAA4TextV_AA012_ConditionalE0VyA2NSgGQPGGAA21_TraitWritingModifierVyAA014LayoutPriorityP3KeyVGGAA6SpacerVAJyAJyAA0J0VAA016_ForegroundStyleR0VyAA5ColorVGGAYGQPGGAA0K0HPyHC
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOyAA6VStackVyAA19_ConditionalContentVyAA08ModifiedK0VyAOyAOyAOyAA5ImageVAA12_FrameLayoutVGAA24_BackgroundStyleModifierVyAA5ColorVGGAA11_ClipEffectVyAA16RoundedRectangleVGGAYGAOyAOyAOyAOyAA0W0VASGA3_GAA011_ForegroundqR0VyAA017HierarchicalShapeqR0VyAXGGGAA08_OverlayR0VyAOyAqA022_EnvironmentKeyWritingR0VyAXSgGGGGGG_Qo_HO
+- _initializeAvailabilityCheck
+- _kCAAnimationCubic
+- _kCAAnimationDiscrete
+- _kCAAnimationPaced
+- _kCAFillModeBoth
+- _kCAMediaTimingFunctionEaseInEaseOut
+- _keypath_getTm
+- _keypath_get_selector_status
+- _keypath_get_selector_timeControlStatus
+- _keypath_set.39Tm
+- _keypath_setTm
+- _objc_class_stubs
+- _objc_enumerationMutation
+- _objc_retain_x3
+- _swift_continuation_throwingResume
+- _swift_continuation_throwingResumeWithError
+- _symbolic $s11MediaCoreUI20NowPlayingControllerP
+- _symbolic $s12NewsArticles012RecipeViewerC13RepresentableP
+- _symbolic $s12NewsArticles013ArticleViewerC11FactoryTypeP
+- _symbolic $s12NewsArticles10PageViewerP
+- _symbolic $s12NewsArticles10RouterTypeP
+- _symbolic $s12NewsArticles10SearchableP
+- _symbolic $s12NewsArticles13AudioPlayableP
+- _symbolic $s12NewsArticles13PrewarmerTypeP
+- _symbolic $s12NewsArticles13TipRouterTypeP
+- _symbolic $s12NewsArticles14BaseStylerTypeP
+- _symbolic $s12NewsArticles15AudioButtonTypeP
+- _symbolic $s12NewsArticles15AudioPlayerTypeP
+- _symbolic $s12NewsArticles15IssueLoaderTypeP
+- _symbolic $s12NewsArticles15LinkHandlerTypeP
+- _symbolic $s12NewsArticles16IssueManagerTypeP
+- _symbolic $s12NewsArticles16NowPlayableTrackP
+- _symbolic $s12NewsArticles16RecipeModuleTypeP
+- _symbolic $s12NewsArticles16RecipeRouterTypeP
+- _symbolic $s12NewsArticles16RecipeStylerTypeP
+- _symbolic $s12NewsArticles17ArticleFooterTypeP
+- _symbolic $s12NewsArticles17ArticleHeaderTypeP
+- _symbolic $s12NewsArticles17ArticleModuleTypeP
+- _symbolic $s12NewsArticles17ArticleRouterTypeP
+- _symbolic $s12NewsArticles17ArticleStylerTypeP
+- _symbolic $s12NewsArticles17CancelHandlerTypeP
+- _symbolic $s12NewsArticles17TipInteractorTypeP
+- _symbolic $s12NewsArticles18ArticlePreviewableP
+- _symbolic $s12NewsArticles18AudioPlaybackQueueP
+- _symbolic $s12NewsArticles18BrandBarStylerTypeP
+- _symbolic $s12NewsArticles18FeatureContextTypeP
+- _symbolic $s12NewsArticles18HistoryServiceTypeP
+- _symbolic $s12NewsArticles19ANFIssueServiceTypeP
+- _symbolic $s12NewsArticles19TipEventHandlerTypeP
+- _symbolic $s12NewsArticles20ArticleRepresentableP
+- _symbolic $s12NewsArticles20BrandBarRendererTypeP
+- _symbolic $s12NewsArticles20HeadlineProviderTypeP
+- _symbolic $s12NewsArticles20NowPlayingPresentingP
+- _symbolic $s12NewsArticles20PDFReplicaModuleTypeP
+- _symbolic $s12NewsArticles20PDFReplicaRouterTypeP
+- _symbolic $s12NewsArticles20PDFReplicaStylerTypeP
+- _symbolic $s12NewsArticles20RecipeInteractorTypeP
+- _symbolic $s12NewsArticles20TextViewProviderTypeP
+- _symbolic $s12NewsArticles20TipConfigFactoryTypeP
+- _symbolic $s12NewsArticles21ArticleFooterDelegateP
+- _symbolic $s12NewsArticles21ArticleHeaderDelegateP
+- _symbolic $s12NewsArticles21ArticleInteractorTypeP
+- _symbolic $s12NewsArticles21ArticlePageUpdateableP
+- _symbolic $s12NewsArticles21AssetFetchServiceTypeP
+- _symbolic $s12NewsArticles21ColorPaletteProvidingP
+- _symbolic $s12NewsArticles21ConfirmationToastTypeP
+- _symbolic $s12NewsArticles21CoverViewProviderTypeP
+- _symbolic $s12NewsArticles21EndOfArticleStyleTypeP
+- _symbolic $s12NewsArticles21EndOfRecipeModuleTypeP
+- _symbolic $s12NewsArticles21EndOfRecipeRouterTypeP
+- _symbolic $s12NewsArticles21EndOfRecipeStylerTypeP
+- _symbolic $s12NewsArticles21IssueViewerEmbeddableP
+- _symbolic $s12NewsArticles21IssueViewerModuleTypeP
+- _symbolic $s12NewsArticles21IssueViewerRouterTypeP
+- _symbolic $s12NewsArticles21IssueViewerStylerTypeP
+- _symbolic $s12NewsArticles21RecipeCoordinatorTypeP
+- _symbolic $s12NewsArticles21RecipeDataManagerTypeP
+- _symbolic $s12NewsArticles21StocksFeedServiceTypeP
+- _symbolic $s12NewsArticles22ArticleCoordinatorTypeP
+- _symbolic $s12NewsArticles22ArticleDataManagerTypeP
+- _symbolic $s12NewsArticles22AudioActionHandlerTypeP
+- _symbolic $s12NewsArticles22BrandBarHeightProviderP
+- _symbolic $s12NewsArticles22EndOfArticleModuleTypeP
+- _symbolic $s12NewsArticles22EndOfArticleRouterTypeP
+- _symbolic $s12NewsArticles22EndOfArticleStylerTypeP
+- _symbolic $s12NewsArticles22IssueLoaderFactoryTypeP
+- _symbolic $s12NewsArticles22RecipeEventHandlerTypeP
+- _symbolic $s12NewsArticles22RecipeViewerModuleTypeP
+- _symbolic $s12NewsArticles22RecipeViewerRouterTypeP
+- _symbolic $s12NewsArticles22RecipeViewerStylerTypeP
+- _symbolic $s12NewsArticles22WebViewCoordinatorTypeP
+- _symbolic $s12NewsArticles23AccessLevelProviderTypeP
+- _symbolic $s12NewsArticles23ArticleEventHandlerTypeP
+- _symbolic $s12NewsArticles23ArticleViewerModuleTypeP
+- _symbolic $s12NewsArticles23ArticleViewerRouterTypeP
+- _symbolic $s12NewsArticles23ArticleViewerStylerTypeP
+- _symbolic $s12NewsArticles23IssueArticleServiceTypeP
+- _symbolic $s12NewsArticles23ParallaxXUpdateDelegateP
+- _symbolic $s12NewsArticles23ReadingListObserverTypeP
+- _symbolic $s12NewsArticles23RecipeViewerTrackerTypeP
+- _symbolic $s12NewsArticles23ReportConcernModuleTypeP
+- _symbolic $s12NewsArticles23ReportConcernRouterTypeP
+- _symbolic $s12NewsArticles23ReportConcernStylerTypeP
+- _symbolic $s12NewsArticles23SavedStatusProviderTypeP
+- _symbolic $s12NewsArticles24ArticleViewerBarPageItemP
+- _symbolic $s12NewsArticles24ArticleViewerFeatureTypeP
+- _symbolic $s12NewsArticles24BarButtonItemHandlerTypeP
+- _symbolic $s12NewsArticles24InterstitialAdModuleTypeP
+- _symbolic $s12NewsArticles24InterstitialAdRouterTypeP
+- _symbolic $s12NewsArticles24InterstitialAdStylerTypeP
+- _symbolic $s12NewsArticles24PDFReplicaInteractorTypeP
+- _symbolic $s12NewsArticles24RecipeViewerObserverTypeP
+- _symbolic $s12NewsArticles24ReportConcernServiceTypeP
+- _symbolic $s12NewsArticles24SelectedTextProviderTypeP
+- _symbolic $s12NewsArticles24SharedStatusProviderTypeP
+- _symbolic $s12NewsArticles24TagContentPrefetcherTypeP
+- _symbolic $s12NewsArticles25AdComponentIntegratorTypeP
+- _symbolic $s12NewsArticles25ArticleAudioPrewarmerTypeP
+- _symbolic $s12NewsArticles25ArticleFooterProviderTypeP
+- _symbolic $s12NewsArticles25ArticleHeaderProviderTypeP
+- _symbolic $s12NewsArticles25ArticlePreviewManagerTypeP
+- _symbolic $s12NewsArticles25ArticlePreviewServiceTypeP
+- _symbolic $s12NewsArticles25ArticleViewerObserverTypeP
+- _symbolic $s12NewsArticles25ArticleViewerPageDelegateP
+- _symbolic $s12NewsArticles25AudioPlaybackControllableP
+- _symbolic $s12NewsArticles25BarButtonItemProviderTypeP
+- _symbolic $s12NewsArticles25BrandBarConfigManagerTypeP
+- _symbolic $s12NewsArticles25EndOfRecipeInteractorTypeP
+- _symbolic $s12NewsArticles25InterstitialAdTrackerTypeP
+- _symbolic $s12NewsArticles25IssueViewerInteractorTypeP
+- _symbolic $s12NewsArticles25NowPlayingMenuFactoryTypeP
+- _symbolic $s12NewsArticles25PDFReplicaCoordinatorTypeP
+- _symbolic $s12NewsArticles25PDFReplicaDataManagerTypeP
+- _symbolic $s12NewsArticles25PlayingAudioInfoProvidingP
+- _symbolic $s12NewsArticles25RecipeBannerAdFactoryTypeP
+- _symbolic $s12NewsArticles25SearchInArticleModuleTypeP
+- _symbolic $s12NewsArticles25TableOfContentsModuleTypeP
+- _symbolic $s12NewsArticles25TableOfContentsRouterTypeP
+- _symbolic $s12NewsArticles25TableOfContentsStylerTypeP
+- _symbolic $s12NewsArticles25TextSizeControlModuleTypeP
+- _symbolic $s12NewsArticles25TextSizeControlStylerTypeP
+- _symbolic $s12NewsArticles26ArticleBannerAdFactoryTypeP
+- _symbolic $s12NewsArticles26ArticleCoordinatorDelegateP
+- _symbolic $s12NewsArticles26ArticleFeatureProviderTypeP
+- _symbolic $s12NewsArticles26ArticleProviderServiceTypeP
+- _symbolic $s12NewsArticles26AudioPlaybackConductorTypeP
+- _symbolic $s12NewsArticles26ContentPrefetchManagerTypeP
+- _symbolic $s12NewsArticles26EndOfArticleInteractorTypeP
+- _symbolic $s12NewsArticles26EndOfArticleQuotaCandidateP
+- _symbolic $s12NewsArticles26EndOfRecipeCoordinatorTypeP
+- _symbolic $s12NewsArticles26EndOfRecipeDataManagerTypeP
+- _symbolic $s12NewsArticles26IssueLinkActionHandlerTypeP
+- _symbolic $s12NewsArticles26IssueViewerCoordinatorTypeP
+- _symbolic $s12NewsArticles26IssueViewerDataManagerTypeP
+- _symbolic $s12NewsArticles26PDFReplicaEventHandlerTypeP
+- _symbolic $s12NewsArticles26PDFReplicaViewerModuleTypeP
+- _symbolic $s12NewsArticles26PDFReplicaViewerRouterTypeP
+- _symbolic $s12NewsArticles26PDFReplicaViewerStylerTypeP
+- _symbolic $s12NewsArticles26RecipeViewerInteractorTypeP
+- _symbolic $s12NewsArticles27ArticleViewerImpressionableP
+- _symbolic $s12NewsArticles27ArticleViewerInteractorTypeP
+- _symbolic $s12NewsArticles27EndOfArticleCoordinatorTypeP
+- _symbolic $s12NewsArticles27EndOfArticleDataManagerTypeP
+- _symbolic $s12NewsArticles27EndOfArticleItemFactoryTypeP
+- _symbolic $s12NewsArticles27EndOfRecipeEventHandlerTypeP
+- _symbolic $s12NewsArticles27HeadlineProviderFactoryTypeP
+- _symbolic $s12NewsArticles27IssueViewerEventHandlerTypeP
+- _symbolic $s12NewsArticles27RecipeContentPrefetcherTypeP
+- _symbolic $s12NewsArticles27RecipeRouteModelFactoryTypeP
+- _symbolic $s12NewsArticles27RecipeViewerCoordinatorTypeP
+- _symbolic $s12NewsArticles27RecipeViewerDataManagerTypeP
+- _symbolic $s12NewsArticles27ReportConcernInteractorTypeP
+- _symbolic $s12NewsArticles27TipDialogRequestFactoryTypeP
+- _symbolic $s12NewsArticles28ArticleLinkActionHandlerTypeP
+- _symbolic $s12NewsArticles28ArticleViewerCoordinatorTypeP
+- _symbolic $s12NewsArticles28ArticleViewerDataManagerTypeP
+- _symbolic $s12NewsArticles28ArticleViewerPageTrackerTypeP
+- _symbolic $s12NewsArticles28AudioArticleViewerStylerTypeP
+- _symbolic $s12NewsArticles28CookingKitTrackerManagerTypeP
+- _symbolic $s12NewsArticles28EndOfArticleEventHandlerTypeP
+- _symbolic $s12NewsArticles28InterstitialAdInteractorTypeP
+- _symbolic $s12NewsArticles28ModalArticleViewerModuleTypeP
+- _symbolic $s12NewsArticles28RecipeInteractorTypeDelegateP
+- _symbolic $s12NewsArticles28RecipeViewControllerDelegateP
+- _symbolic $s12NewsArticles28RecipeViewerEventHandlerTypeP
+- _symbolic $s12NewsArticles28ReportConcernDataManagerTypeP
+- _symbolic $s12NewsArticles28UserConcernConfigManagerTypeP
+- _symbolic $s12NewsArticles28WebViewControllerFactoryTypeP
+- _symbolic $s12NewsArticles29AnalyticsEventTransformerTypeP
+- _symbolic $s12NewsArticles29ArticleInteractorTypeDelegateP
+- _symbolic $s12NewsArticles29ArticleViewerEventHandlerTypeP
+- _symbolic $s12NewsArticles29ArticleViewerMenuProviderTypeP
+- _symbolic $s12NewsArticles29ArticleViewerPageRendererTypeP
+- _symbolic $s12NewsArticles29CampaignLandingPageModuleTypeP
+- _symbolic $s12NewsArticles29CampaignLandingPageRouterTypeP
+- _symbolic $s12NewsArticles29CampaignLandingPageStylerTypeP
+- _symbolic $s12NewsArticles29EndOfArticleResultFactoryTypeP
+- _symbolic $s12NewsArticles29EndOfRecipeSectionFactoryTypeP
+- _symbolic $s12NewsArticles29InterstitialAdDataManagerTypeP
+- _symbolic $s12NewsArticles29ModalArticleViewerTrackerTypeP
+- _symbolic $s12NewsArticles29NowPlayingViewCoordinatorTypeP
+- _symbolic $s12NewsArticles29PDFReplicaCoordinatorDelegateP
+- _symbolic $s12NewsArticles29RecipeArticleDrawerModuleTypeP
+- _symbolic $s12NewsArticles29RecipeRecirculationConfigTypeP
+- _symbolic $s12NewsArticles29ReportConcernDetailModuleTypeP
+- _symbolic $s12NewsArticles29ReportConcernDetailRouterTypeP
+- _symbolic $s12NewsArticles29ReportConcernDetailStylerTypeP
+- _symbolic $s12NewsArticles29ReportConcernEventHandlerTypeP
+- _symbolic $s12NewsArticles29TableOfContentsInteractorTypeP
+- _symbolic $s12NewsArticles30ArticleBottomPaletteStylerTypeP
+- _symbolic $s12NewsArticles30ArticleRecirculationConfigTypeP
+- _symbolic $s12NewsArticles30CampaignLandingPageTrackerTypeP
+- _symbolic $s12NewsArticles30EndOfArticleQuotaSatisfierTypeP
+- _symbolic $s12NewsArticles30EndOfArticleResultProviderTypeP
+- _symbolic $s12NewsArticles30EndOfArticleSectionFactoryTypeP
+- _symbolic $s12NewsArticles30EndOfRecipeDataManagerDelegateP
+- _symbolic $s12NewsArticles30InterstitialAdEventHandlerTypeP
+- _symbolic $s12NewsArticles30InterstitialAdModelFactoryTypeP
+- _symbolic $s12NewsArticles30IssuePDFReplicaPageServiceTypeP
+- _symbolic $s12NewsArticles30IssueTableOfContentsModuleTypeP
+- _symbolic $s12NewsArticles30IssueViewerCoordinatorDelegateP
+- _symbolic $s12NewsArticles30PDFReplicaViewerInteractorTypeP
+- _symbolic $s12NewsArticles30RecipeEventHandlerTypeDelegateP
+- _symbolic $s12NewsArticles30RecipeRecirculationServiceTypeP
+- _symbolic $s12NewsArticles30TableOfContentsCoordinatorTypeP
+- _symbolic $s12NewsArticles31ArticleEventHandlerTypeDelegateP
+- _symbolic $s12NewsArticles31ArticleRecirculationServiceTypeP
+- _symbolic $s12NewsArticles31ArticleViewerFeatureManagerTypeP
+- _symbolic $s12NewsArticles31ArticleViewerImpressionObserverP
+- _symbolic $s12NewsArticles31InterstitialAdPreviewModuleTypeP
+- _symbolic $s12NewsArticles31InterstitialAdPreviewRouterTypeP
+- _symbolic $s12NewsArticles31InterstitialAdPreviewStylerTypeP
+- _symbolic $s12NewsArticles31PDFReplicaViewerCoordinatorTypeP
+- _symbolic $s12NewsArticles31PDFReplicaViewerDataManagerTypeP
+- _symbolic $s12NewsArticles31RecipeViewerCoordinatorDelegateP
+- _symbolic $s12NewsArticles31TableOfContentsEventHandlerTypeP
+- _symbolic $s12NewsArticles32AIHeaderViewControllerStylerTypeP
+- _symbolic $s12NewsArticles32AlertOpenBlockedStoryFactoryTypeP
+- _symbolic $s12NewsArticles32ArticleGroupDataContextProvidingP
+- _symbolic $s12NewsArticles32ArticleViewerCoordinatorDelegateP
+- _symbolic $s12NewsArticles32ArticleViewerFeatureProviderTypeP
+- _symbolic $s12NewsArticles32BridgedTextSizeControlModuleTypeP
+- _symbolic $s12NewsArticles32ContentBackgroundColorObservableP
+- _symbolic $s12NewsArticles32EndOfRecipeFeedConfigManagerTypeP
+- _symbolic $s12NewsArticles32InterstitialAdPreviewTrackerTypeP
+- _symbolic $s12NewsArticles32ModalArticleViewerInteractorTypeP
+- _symbolic $s12NewsArticles32PDFReplicaInteractorTypeDelegateP
+- _symbolic $s12NewsArticles32PDFReplicaViewControllerDelegateP
+- _symbolic $s12NewsArticles32PDFReplicaViewerEventHandlerTypeP
+- _symbolic $s12NewsArticles32PDFReplicaViewerMenuProviderTypeP
+- _symbolic $s12NewsArticles33ArticleReadingHistoryRecorderTypeP
+- _symbolic $s12NewsArticles33CampaignLandingPageInteractorTypeP
+- _symbolic $s12NewsArticles33EndOfArticleFeedConfigManagerTypeP
+- _symbolic $s12NewsArticles33EndOfRecipeInteractorTypeDelegateP
+- _symbolic $s12NewsArticles33InterstitialAdHistoryRecorderTypeP
+- _symbolic $s12NewsArticles33IssueViewerInteractorTypeDelegateP
+- _symbolic $s12NewsArticles33RecipeViewerBlueprintProviderTypeP
+- _symbolic $s12NewsArticles33ReportConcernDetailInteractorTypeP
+- _symbolic $s12NewsArticles34AIHeaderViewControllerRendererTypeP
+- _symbolic $s12NewsArticles34ArticleViewerBlueprintProviderTypeP
+- _symbolic $s12NewsArticles34ArticleViewerImpressionManagerTypeP
+- _symbolic $s12NewsArticles34AudioListeningProgressProviderTypeP
+- _symbolic $s12NewsArticles34EndOfArticleInteractorTypeDelegateP
+- _symbolic $s12NewsArticles34EndOfArticleResultProviderDelegateP
+- _symbolic $s12NewsArticles34ModalArticleViewerEventHandlerTypeP
+- _symbolic $s12NewsArticles34PDFReplicaEventHandlerTypeDelegateP
+- _symbolic $s12NewsArticles34RecipeViewerInteractorTypeDelegateP
+- _symbolic $s12NewsArticles34ReportConcernDetailDataManagerTypeP
+- _symbolic $s12NewsArticles34TableOfContentsCoordinatorDelegateP
+- _symbolic $s12NewsArticles35ArticleBannerAdPlacementFactoryTypeP
+- _symbolic $s12NewsArticles35ArticleBannerAdRequesterFactoryTypeP
+- _symbolic $s12NewsArticles35ArticleListeningProgressManagerTypeP
+- _symbolic $s12NewsArticles35ArticleViewerFeatureManagerDelegateP
+- _symbolic $s12NewsArticles35ArticleViewerInteractorTypeDelegateP
+- _symbolic $s12NewsArticles35CampaignLandingPageEventHandlerTypeP
+- _symbolic $s12NewsArticles35EndOfArticleDataManagerTypeDelegateP
+- _symbolic $s12NewsArticles35EndOfRecipeEventHandlerTypeDelegateP
+- _symbolic $s12NewsArticles35InterstitialAdPreviewInteractorTypeP
+- _symbolic $s12NewsArticles35IssueViewerEventHandlerTypeDelegateP
+- _symbolic $s12NewsArticles35PDFReplicaBarVisibilityAnimatorTypeP
+- _symbolic $s12NewsArticles35PDFReplicaViewerCoordinatorDelegateP
+- _symbolic $s12NewsArticles35ReplicaAdvertisementCoordinatorTypeP
+- _symbolic $s12NewsArticles35ReportConcernDetailEventHandlerTypeP
+- _symbolic $s12NewsArticles35ReportConcernInteractorTypeDelegateP
+- _symbolic $s12NewsArticles35TableOfContentsHeaderViewStylerTypeP
+- _symbolic $s12NewsArticles36AnalyticsEventTransformerManagerTypeP
+- _symbolic $s12NewsArticles36EndOfArticleEventHandlerTypeDelegateP
+- _symbolic $s12NewsArticles36InterstitialAdInteractorTypeDelegateP
+- _symbolic $s12NewsArticles36InterstitialAdPreviewDataManagerTypeP
+- _symbolic $s12NewsArticles36RecipeViewerBarButtonItemFactoryTypeP
+- _symbolic $s12NewsArticles36RecipeViewerEventHandlerTypeDelegateP
+- _symbolic $s12NewsArticles36RecipeViewerPageBlueprintFactoryTypeP
+- _symbolic $s12NewsArticles36TableOfContentsPDFCellViewStylerTypeP
+- _symbolic $s12NewsArticles37ArticleBlueprintRouteModelFactoryTypeP
+- _symbolic $s12NewsArticles37ArticleBottomPaletteFeatureDescriptorP
+- _symbolic $s12NewsArticles37ArticleViewerEventHandlerTypeDelegateP
+- _symbolic $s12NewsArticles37ArticleViewerOverflowMenuProviderTypeP
+- _symbolic $s12NewsArticles37ArticleViewerPageBlueprintFactoryTypeP
+- _symbolic $s12NewsArticles37EndOfArticleQuotaSatisfierFactoryTypeP
+- _symbolic $s12NewsArticles37InterstitialAdPreviewEventHandlerTypeP
+- _symbolic $s12NewsArticles37IssueContentViewControllerFactoryTypeP
+- _symbolic $s12NewsArticles37IssueTableOfContentsActionHandlerTypeP
+- _symbolic $s12NewsArticles37ReportConcernEventHandlerTypeDelegateP
+- _symbolic $s12NewsArticles37TableOfContentsHeaderViewRendererTypeP
+- _symbolic $s12NewsArticles37TableOfContentsInteractorTypeDelegateP
+- _symbolic $s12NewsArticles38ArticleBottomPalettePluginProviderTypeP
+- _symbolic $s12NewsArticles38ArticleErrorMessageFactoryProviderTypeP
+- _symbolic $s12NewsArticles38ArticleViewerInterstitialAdManagerTypeP
+- _symbolic $s12NewsArticles38ArticleViewerPageItemActionHandlerTypeP
+- _symbolic $s12NewsArticles38InterstitialAdEventHandlerTypeDelegateP
+- _symbolic $s12NewsArticles38PDFReplicaViewerInteractorTypeDelegateP
+- _symbolic $s12NewsArticles38TableOfContentsPDFCellViewRendererTypeP
+- _symbolic $s12NewsArticles39EndOfArticleSectionTitleHeaderStyleTypeP
+- _symbolic $s12NewsArticles39EndOfRecipeBlueprintModifierFactoryTypeP
+- _symbolic $s12NewsArticles39PDFReplicaBarVisibilityAnimatorDelegateP
+- _symbolic $s12NewsArticles39SponsoredHeaderViewControllerStylerTypeP
+- _symbolic $s12NewsArticles39TableOfContentsEventHandlerTypeDelegateP
+- _symbolic $s12NewsArticles40EndOfArticleAdditiveContextMenuProvidingP
+- _symbolic $s12NewsArticles40EndOfArticleBlueprintModifierFactoryTypeP
+- _symbolic $s12NewsArticles40ModalArticleViewerInteractorTypeDelegateP
+- _symbolic $s12NewsArticles40PDFReplicaViewerEventHandlerTypeDelegateP
+- _symbolic $s12NewsArticles40PDFReplicaViewerPageBlueprintFactoryTypeP
+- _symbolic $s12NewsArticles41ArticleNavigationBarPaletteContentSubviewP
+- _symbolic $s12NewsArticles41ArticleViewerPageFeatureActionHandlerTypeP
+- _symbolic $s12NewsArticles41CampaignLandingPageInteractorTypeDelegateP
+- _symbolic $s12NewsArticles41ReportConcernBlueprintModifierFactoryTypeP
+- _symbolic $s12NewsArticles41ReportConcernDetailInteractorTypeDelegateP
+- _symbolic $s12NewsArticles41SponsoredHeaderViewControllerRendererTypeP
+- _symbolic $s12NewsArticles42ArticleViewerFeatureAnimatedTransitionTypeP
+- _symbolic $s12NewsArticles42ArticleViewerInterstitialAdManagerDelegateP
+- _symbolic $s12NewsArticles42IssueTableOfContentsArticleCoordinatorTypeP
+- _symbolic $s12NewsArticles42ModalArticleViewerEventHandlerTypeDelegateP
+- _symbolic $s12NewsArticles43CampaignLandingPageEventHandlerTypeDelegateP
+- _symbolic $s12NewsArticles43InterstitialAdPreviewInteractorTypeDelegateP
+- _symbolic $s12NewsArticles43RecipeRecirculationConfigurationServiceTypeP
+- _symbolic $s12NewsArticles43ReportConcernDetailEventHandlerTypeDelegateP
+- _symbolic $s12NewsArticles43SharedWithYouHeaderViewControllerStylerTypeP
+- _symbolic $s12NewsArticles43TableOfContentsBlueprintModifierFactoryTypeP
+- _symbolic $s12NewsArticles44ArticleRecirculationConfigurationServiceTypeP
+- _symbolic $s12NewsArticles44ArticleRecirculationSpecifiedSectionDataTypeP
+- _symbolic $s12NewsArticles44ArticleViewerFeatureAppearanceTransitionTypeP
+- _symbolic $s12NewsArticles44EndOfRecipeBlueprintViewCellProviderDelegateP
+- _symbolic $s12NewsArticles45DeeplinkArticlePresentationContextServiceTypeP
+- _symbolic $s12NewsArticles45EndOfArticleBlueprintViewCellProviderDelegateP
+- _symbolic $s12NewsArticles45InterstitialAdPreviewEventHandlerTypeDelegateP
+- _symbolic $s12NewsArticles45SharedWithYouHeaderViewControllerRendererTypeP
+- _symbolic $s12NewsArticles46ReportConcernBlueprintViewCellProviderDelegateP
+- _symbolic $s12NewsArticles46SaveArticleViewerFeatureVisibilityProviderTypeP
+- _symbolic $s12NewsArticles47ArticleViewerBarCompressionAnimationFactoryTypeP
+- _symbolic $s12NewsArticles47ReportConcernDetailBlueprintModifierFactoryTypeP
+- _symbolic $s12NewsArticles47ShareArticleViewerFeatureVisibilityProviderTypeP
+- _symbolic $s12NewsArticles48TableOfContentsBlueprintViewCellProviderDelegateP
+- _symbolic $s12NewsArticles52ArticleRecirculationSpecifiedSectionDataProviderTypeP
+- _symbolic $s12NewsArticles52ReportConcernDetailBlueprintViewCellProviderDelegateP
+- _symbolic $s12NewsArticles53LikeDislikeArticleViewerFeatureVisibilityProviderTypeP
+- _symbolic $s12NewsArticles54EndOfArticleBlueprintViewSupplementaryProviderDelegateP
+- _symbolic $s12NewsArticles59ArticleRecirculationSpecifiedSectionDataProviderFactoryTypeP
+- _symbolic $s13TeaFoundation17StateMachineEventP
+- _symbolic $s13TeaFoundation19AsyncURLHandlerTypeP
+- _symbolic $s5TeaUI026BlueprintViewSupplementaryD12ProviderTypeP
+- _symbolic $s5TeaUI18CommandHandlerTypeP
+- _symbolic $s5TeaUI21BlueprintModifierTypeP
+- _symbolic $s5TeaUI21StackNavigatingRouterP
+- _symbolic $s5TeaUI23StateCommandHandlerTypeP
+- _symbolic $s5TeaUI25PageBlueprintModifierTypeP
+- _symbolic $s5TeaUI25PagePrewarmerProviderTypeP
+- _symbolic $s5TeaUI26BlueprintLayoutBuilderTypeP
+- _symbolic $s5TeaUI29BlueprintViewCellProviderTypeP
+- _symbolic $s5TeaUI30PageViewControllerDelegateTypeP
+- _symbolic $s5TeaUI30PageViewControllerProviderTypeP
+- _symbolic $s5TeaUI35BlueprintViewControllerDelegateTypeP
+- _symbolic $s5TeaUI37BlueprintViewHeaderFooterProviderTypeP
+- _symbolic $s5TeaUI8PageTypeP
+- _symbolic $s7SwiftUI12ViewModifierP
+- _symbolic $s7SwiftUI19UIViewRepresentableP
+- _symbolic $s7SwiftUI4ViewP
+- _symbolic $s8NewsFeed04BaseB16GroupEmitterTypeP
+- _symbolic $s8NewsFeed0B10ConfigTypeP
+- _symbolic $s8NewsFeed0B15KnobsConfigTypeP
+- _symbolic $s8NewsFeed0B15PoolServiceTypeP
+- _symbolic $s8NewsFeed0B17ContentConfigTypeP
+- _symbolic $s8NewsFeed0B17ServiceConfigTypeP
+- _symbolic $s8NewsFeed0B23GroupEmitterFactoryTypeP
+- _symbolic $s8NewsFeed0B24ServiceConfigFetcherTypeP
+- _symbolic $s8NewsFeed0B8PoolTypeP
+- _symbolic $s8NewsFeed0B9GroupTypeP
+- _symbolic $s8NewsFeed25FormatModelSubFactoryTypeP
+- _symbolic $sSY
+- _symbolic $ss10SetAlgebraP
+- _symbolic $ss12CaseIterableP
+- _symbolic $ss12IdentifiableP
+- _symbolic $ss21_ObjectiveCBridgeableP
+- _symbolic $ss25ExpressibleByArrayLiteralP
+- _symbolic $ss9OptionSetP
+- _symbolic 10Descriptor_____Qz 12NewsArticles39EndOfRecipeBlueprintModifierFactoryTypeP
+- _symbolic 10Descriptor_____Qz 12NewsArticles40EndOfArticleBlueprintModifierFactoryTypeP
+- _symbolic 10Descriptor_____Qz 12NewsArticles41ReportConcernBlueprintModifierFactoryTypeP
+- _symbolic 10Descriptor_____Qz 12NewsArticles43TableOfContentsBlueprintModifierFactoryTypeP
+- _symbolic 10Descriptor_____Qz 12NewsArticles47ReportConcernDetailBlueprintModifierFactoryTypeP
+- _symbolic 11LayoutModel_____Qz 5TeaUI27BlueprintLayoutProviderTypeP
+- _symbolic 14FeatureContext_____Qz 12NewsArticles32ArticleViewerFeatureProviderTypeP
+- _symbolic 5Model_____Qz 12NewsArticles39EndOfRecipeBlueprintModifierFactoryTypeP
+- _symbolic 5Model_____Qz 12NewsArticles40EndOfArticleBlueprintModifierFactoryTypeP
+- _symbolic 5Model_____Qz 12NewsArticles41ReportConcernBlueprintModifierFactoryTypeP
+- _symbolic 5Model_____Qz 12NewsArticles43TableOfContentsBlueprintModifierFactoryTypeP
+- _symbolic 5Model_____Qz 12NewsArticles47ReportConcernDetailBlueprintModifierFactoryTypeP
+- _symbolic 8Playable_____Qy0_ 12NewsArticles34AudioListeningProgressProviderTypeP
+- _symbolic 8Playable_____Qy_ 12NewsArticles18AudioPlaybackQueueP
+- _symbolic 8Playable_____Qz 12NewsArticles15AudioPlayerTypeP
+- _symbolic 8Playable_____Qz 12NewsArticles18AudioPlaybackQueueP
+- _symbolic 8Playable_____Qz 12NewsArticles26AudioPlaybackConductorTypeP
+- _symbolic 8Playable_____Qz 12NewsArticles34AudioListeningProgressProviderTypeP
+- _symbolic B0
+- _symbolic B1
+- _symbolic B2
+- _symbolic G0G0R0__
+- _symbolic G0G0R2__
+- _symbolic G0G0R3__
+- _symbolic G0R1_
+- _symbolic Ieg_
+- _symbolic Ieg_Sg
+- _symbolic IeyB_
+- _symbolic Ig_
+- _symbolic SDySSSay_____GG 12NewsArticles16EndOfArticleItemO
+- _symbolic SDySSSay_____GG 12NewsArticles21AdComponentIntegratorC4Item33_0DE14D2887100891CCCA81A141657B0ALLV
+- _symbolic SDySSSay_____GGz_Xx 12NewsArticles16EndOfArticleItemO
+- _symbolic SDySSSayyycGG
+- _symbolic SDySSSdG
+- _symbolic SDySSSdGz_Xx
+- _symbolic SDySSSo8FCRecipeCG
+- _symbolic SDySS_____G 10CookingKit14RecipeUserDataV
+- _symbolic SDySS_____G 12NewsArticles16RecipeViewerPageO
+- _symbolic SDySS_____G 12NewsArticles17ArticleViewerPageO
+- _symbolic SDySS_____G 12NewsArticles26ArticleRecirculationConfigV0C8ProviderO
+- _symbolic SDySS_____G 12NewsArticles27ArticleViewerFeatureManagerC0E15ProviderWrapper33_21B94012A68AC1CB22AFD9FE166F6193LLC
+- _symbolic SDySS_____G 12NewsArticles31ArticleListeningProgressManagerC11Observation33_EA2F21286EC6B4F2AB075E81B782BCEFLLV
+- _symbolic SDySS_____G 5TeaUI11PluginModelC
+- _symbolic SDySS_____G 8NewsFeed0B10ScoredItemV
+- _symbolic SDySS_____GSg 12NewsArticles26ArticleRecirculationConfigV13SectionQuotasV
+- _symbolic SDySS_____Gz_Xx 8NewsFeed0B10ScoredItemV
+- _symbolic SDySS______pG 12NewsArticles29AnalyticsEventTransformerTypeP
+- _symbolic SDySS______pGIegg_ So19FCAssetDataProviderP
+- _symbolic SDySS______pGIegn_ So19FCAssetDataProviderP
+- _symbolic SDySS______pGSg______pSgIeggg_ So19FCAssetDataProviderP s5ErrorP
+- _symbolic SDySS_____y_____GG 13TeaFoundation7PromiseC 0A2UI11PluginModelC
+- _symbolic SDySS_____y______pGG 12NewsArticles12FeatureStateV AA0C11ContextTypeP
+- _symbolic SDySiSdG
+- _symbolic SDy__________G So16NUArticleMessageV 12NewsArticles018AudioArticleViewerB4TextV
+- _symbolic SE_p_SS4namet
+- _symbolic SS
+- _symbolic SS10identifier_SS17articleIdentifiert
+- _symbolic SS10identifier_SaySSG11identifiers_____16navigationActiont 12NewsArticles23ArticleNavigationActionO
+- _symbolic SS10identifier______16navigationActiont 12NewsArticles23ArticleNavigationActionO
+- _symbolic SS10identifier______9tapTargett So6CGRectV
+- _symbolic SS10identifier______Sg9sourceURLt 10Foundation3URLV
+- _symbolic SS10identifier_t
+- _symbolic SS12recipeListID_t
+- _symbolic SS17articleIdentifier_SS07channelB0t
+- _symbolic SS19componentIdentifier_t
+- _symbolic SS2id_t
+- _symbolic SS3url______9tapTargett So6CGRectV
+- _symbolic SS4text_t
+- _symbolic SS5title______16layoutAttributest 5TeaUI22HeightLayoutAttributesV
+- _symbolic SS6header_t
+- _symbolic SS7message_t
+- _symbolic SS8recipeID_t
+- _symbolic SSSg
+- _symbolic SSSg14pageIdentifier_t
+- _symbolic SSSgAAIeggg_
+- _symbolic SSSgz_Xx
+- _symbolic SS_SS18feedItemIdentifiert
+- _symbolic SS_ScTySo8FCRecipeC______pG_____7contextt s5ErrorP 12NewsArticles18RecipeRouteContextV
+- _symbolic SS_ScTySo8FCRecipeC______pGt s5ErrorP
+- _symbolic SS______7contextt 12NewsArticles18RecipeRouteContextV
+- _symbolic SS______t 12NewsArticles23ArticleNavigationActionO
+- _symbolic SS______t 8NewsFeed0B11RequestTypeO
+- _symbolic SaySSG
+- _symbolic SaySay_____GG 12NewsArticles26ArticleRecirculationConfigV0C8ProviderO
+- _symbolic SaySay_____GG 12NewsArticles26ArticleRecirculationConfigV4RuleV
+- _symbolic SaySay_____GG 12NewsArticles33ArticleRecirculationConfigFactoryC12RealizedRuleV
+- _symbolic SaySdG
+- _symbolic SaySo12AVPlayerItemCG
+- _symbolic SaySo13UIMenuElementCGIegg_
+- _symbolic SaySo15UIBarButtonItemCGSg
+- _symbolic SaySo8FCRecipeCG
+- _symbolic Say_____G 12NewsArticles012RecipeViewerC0V
+- _symbolic Say_____G 12NewsArticles10IssuePagesV3ANFV4PageO
+- _symbolic Say_____G 12NewsArticles10IssuePagesV3PDFV4PageV
+- _symbolic Say_____G 12NewsArticles11UserConcernV
+- _symbolic Say_____G 12NewsArticles11UserConcernV03SubD0V
+- _symbolic Say_____G 12NewsArticles12ANFIssuePageO
+- _symbolic Say_____G 12NewsArticles12AsyncArticleV
+- _symbolic Say_____G 12NewsArticles14PDFReplicaPageV
+- _symbolic Say_____G 12NewsArticles15SubConcernModelV
+- _symbolic Say_____G 12NewsArticles16EndOfArticleItemO
+- _symbolic Say_____G 12NewsArticles17ArticleTextRangesV9Paragraph33_D90BFB9756278962FB3FF873B46A4DD7LLV
+- _symbolic Say_____G 12NewsArticles18PDFReplicaPageLinkO
+- _symbolic Say_____G 12NewsArticles19DefaultConcernModelO
+- _symbolic Say_____G 12NewsArticles20ConcernReasonSubTypeV
+- _symbolic Say_____G 12NewsArticles21RecipeViewerBlueprintO0C4ItemV
+- _symbolic Say_____G 12NewsArticles22ArticleViewerBlueprintO0C4ItemV
+- _symbolic Say_____G 12NewsArticles22ArticleViewerBlueprintO0C4ItemV6TraitsO
+- _symbolic Say_____G 12NewsArticles22ArticleViewerBlueprintO11PreviewItemV6TraitsO
+- _symbolic Say_____G 12NewsArticles23EndOfArticleSectionTypeO
+- _symbolic Say_____G 12NewsArticles23EndOfRecipeExpandResultV
+- _symbolic Say_____G 12NewsArticles24EndOfArticleExpandResultV
+- _symbolic Say_____G 12NewsArticles24EndOfRecipeFeedGroupKindO
+- _symbolic Say_____G 12NewsArticles25DefaultRecipeConcernModelO
+- _symbolic Say_____G 12NewsArticles25EndOfArticleFeedGroupKindO
+- _symbolic Say_____G 12NewsArticles25RecipeBlueprintRouteModelC6TraitsO
+- _symbolic Say_____G 12NewsArticles26ArticleRecirculationConfigV0C10CollectionO06ScoredC0V
+- _symbolic Say_____G 12NewsArticles26ArticleRecirculationConfigV0C8ProviderO
+- _symbolic Say_____G 12NewsArticles26ArticleRecirculationConfigV4RuleV
+- _symbolic Say_____G 12NewsArticles26ArticleViewerBarButtonItemV
+- _symbolic Say_____G 12NewsArticles26RecipeRecirculationSectionO
+- _symbolic Say_____G 12NewsArticles27ArticleViewerBarButtonGroupV
+- _symbolic Say_____G 12NewsArticles28ArticleViewerBarButtonLayoutV
+- _symbolic Say_____G 12NewsArticles28RecipeArticleDrawerViewModelC0C0V
+- _symbolic Say_____G 12NewsArticles30ArticleViewerFeatureTransitionO
+- _symbolic Say_____G 12NewsArticles31TableOfContentsHeaderViewLayoutV0H10AttributesV
+- _symbolic Say_____G 12NewsArticles32TableOfContentsPDFCellViewLayoutV0H10AttributesV
+- _symbolic Say_____G 12NewsArticles33ArticleRecirculationConfigFactoryC12RealizedRuleV
+- _symbolic Say_____G 12NewsArticles34EndOfRecipeLayoutSectionDescriptorO10DecorationO
+- _symbolic Say_____G 12NewsArticles34EndOfRecipeLayoutSectionDescriptorO6FooterO
+- _symbolic Say_____G 12NewsArticles34EndOfRecipeLayoutSectionDescriptorO6HeaderO
+- _symbolic Say_____G 12NewsArticles35EndOfArticleLayoutSectionDescriptorO10DecorationO
+- _symbolic Say_____G 12NewsArticles35EndOfArticleLayoutSectionDescriptorO6FooterO
+- _symbolic Say_____G 12NewsArticles35EndOfArticleLayoutSectionDescriptorO6HeaderO
+- _symbolic Say_____G 12NewsArticles37RecipeRecirculationConfigFilterOptionO
+- _symbolic Say_____G 12NewsArticles45ArticleBottomPaletteFeatureComponentViewModelV
+- _symbolic Say_____G 12NewsArticles45RecipeRecirculationConfigSectionSelectionRuleV
+- _symbolic Say_____G 16NewsSubscription14PurchaseTraitsO
+- _symbolic Say_____G 5TeaUI15RadarAttachmentO
+- _symbolic Say_____G So16NUArticleMessageV
+- _symbolic Say_____G8selected_AB10candidatestSg 12NewsArticles16EndOfArticleItemO
+- _symbolic Say_____G8selected_AB10candidatestSgz_Xx 12NewsArticles16EndOfArticleItemO
+- _symbolic Say_____GIegg_ 12NewsArticles7ArticleV
+- _symbolic Say_____GIegn_ 12NewsArticles7ArticleV
+- _symbolic Say_____GSg 12NewsArticles10IssuePagesV3ANFV4PageO
+- _symbolic Say_____GSg 12NewsArticles16EndOfArticleItemO
+- _symbolic Say_____GSg 12NewsArticles26ArticleRecirculationConfigV12FilterOptionO
+- _symbolic Say_____GSgz_Xx 12NewsArticles10IssuePagesV3ANFV4PageO
+- _symbolic Say_____G_AB10candidatest 12NewsArticles16EndOfArticleItemO
+- _symbolic Say_____G______5groupt 12NewsArticles22ArticleViewerBlueprintO0C4ItemV AA0C9GroupDataO
+- _symbolic Say_____Gz_Xx 12NewsArticles16EndOfArticleItemO
+- _symbolic Say______SdtG 12NewsArticles16EndOfArticleItemO
+- _symbolic Say______So16UIViewControllerCXcG 12NewsArticles17ArticleFooterTypeP
+- _symbolic Say______pG 12NewsArticles31ArticleViewerImpressionObserverP
+- _symbolic Say______pG 12NewsArticles37ArticleBottomPaletteFeatureDescriptorP
+- _symbolic Say______pG 12NewsArticles44ArticleViewerFeatureAppearanceTransitionTypeP
+- _symbolic Say______pG 13TeaFoundation12AssemblyTypeP
+- _symbolic Say______pG So14FCTagProvidingP
+- _symbolic Say______pG So19FCHeadlineProvidingP
+- _symbolic Say______pG So23FCFeedPersonalizingItemP
+- _symbolic Say______pG So29SXDocumentSectionItemProviderP
+- _symbolic Say______pGIegg_ So19FCHeadlineProvidingP
+- _symbolic Say______pGIegn_ So19FCHeadlineProvidingP
+- _symbolic Say______pGz_Xx So19FCHeadlineProvidingP
+- _symbolic Say______pSgG 5TeaUI20ContextMenuGroupableP
+- _symbolic Say_____y_xGG 12NewsArticles10NowPlayingO9QueueItemV
+- _symbolic SayxG
+- _symbolic Sayy_____cG 10Foundation3URLV
+- _symbolic SayyycG
+- _symbolic Sb
+- _symbolic SbIegd_
+- _symbolic SbIegn_
+- _symbolic SbIegr_
+- _symbolic SbIegy_
+- _symbolic SbSg
+- _symbolic Sb_____Iegyd_ So34SXSubscribeActionPostPurchaseStateV
+- _symbolic Sb______AA_____tc 12NewsArticles17ArticleViewerPageO AA0cD20FeatureUpdateOptionsV
+- _symbolic Sb___________tc 12NewsArticles17ArticleViewerPageO AA0cD20FeatureUpdateOptionsV
+- _symbolic Sb_____yxG_ABtc 12NewsArticles18AudioPlaybackStateO
+- _symbolic Sbyc
+- _symbolic SbycSg
+- _symbolic ScA_pSg
+- _symbolic ScCySS______pG s5ErrorP
+- _symbolic ScCyyt______pG s5ErrorP
+- _symbolic ScSyyyYaYbcG
+- _symbolic ScTySaySo8FCRecipeCG______pG s5ErrorP
+- _symbolic ScTySaySo8FCRecipeCG______pGSg s5ErrorP
+- _symbolic ScTySo8FCRecipeC______pG s5ErrorP
+- _symbolic ScTy___________pG 12NewsArticles30RecipeRecirculationFetchResultV s5ErrorP
+- _symbolic ScTyyt_____G s5NeverO
+- _symbolic ScTyyt_____GSg s5NeverO
+- _symbolic ScTyyt______pGSg s5ErrorP
+- _symbolic Sd
+- _symbolic SdSg
+- _symbolic Sf
+- _symbolic SfSg
+- _symbolic Sf_SNySfG15supportedSpeedst
+- _symbolic ShySSG
+- _symbolic ShySSGSg
+- _symbolic ShySSGz_Xx
+- _symbolic Shy_____G 12NewsArticles23EndOfArticleSectionTypeO
+- _symbolic Shy_____G 7Combine14AnyCancellableC
+- _symbolic Shy_____GSg 8NewsFeed0B8PlatformO
+- _symbolic Si
+- _symbolic Si7primary_Si9secondarySi8tertiarySi10quaternaryt
+- _symbolic Si9postCount______16lastModifiedDatet 10Foundation4DateV
+- _symbolic SiSg
+- _symbolic So10SXFeaturesC
+- _symbolic So10SXViewportC
+- _symbolic So10UITextViewCSgXw
+- _symbolic So11NSHashTableCy______pG So26NUANFDebugSettingsObserverP
+- _symbolic So11NSHashTableCy______pG So29SXDebugLayoutOptionsObservingP
+- _symbolic So11NSHashTableCy______pG So29SXSubscriptionStatusObservingP
+- _symbolic So11NSHashTableCy______pG So30SXOfferUpsellScenarioObservingP
+- _symbolic So11NSHashTableCy______pG So32SXTagSubscriptionStatusObservingP
+- _symbolic So11NSHashTableCy______pG So39SXNewsletterSubscriptionStatusObservingP
+- _symbolic So11PDFDocumentCIegg_
+- _symbolic So11PDFDocumentCIegn_
+- _symbolic So11UIStackViewC
+- _symbolic So11UITableViewC
+- _symbolic So12AVPlayerItemC
+- _symbolic So12FCObservableCy_____G 12NewsArticles19PlayableArticleInfoC
+- _symbolic So12FCObservableCyqd__G
+- _symbolic So12NSCountedSetC
+- _symbolic So12NSOrderedSetC
+- _symbolic So12NTPBFeedItemC______t 12NewsArticles16EndOfArticleItemO8MetadataV
+- _symbolic So12UIScrollViewC
+- _symbolic So12UIScrollViewCSgXw
+- _symbolic So13AVQueuePlayerC
+- _symbolic So13AVQueuePlayerCSg
+- _symbolic So13FCAssetHandleC
+- _symbolic So13FCAssetHandleCSg___________tc So6CGSizeV 12CoreGraphics7CGFloatV
+- _symbolic So13FCCachePolicyC
+- _symbolic So13FCReadingListC
+- _symbolic So13FCReadingListCSg
+- _symbolic So14FCAssetManagerC
+- _symbolic So14FCCloudContextC
+- _symbolic So14NFStateMachineCSg
+- _symbolic So15FCAccessCheckerCySo8FCRecipeCG
+- _symbolic So15SXComponentViewC
+- _symbolic So15UIBarButtonItemC
+- _symbolic So15UIBarButtonItemCSg
+- _symbolic So15UITableViewCellC
+- _symbolic So16FCReadingHistoryC
+- _symbolic So16NSOperationQueueC
+- _symbolic So16SXComponentSizerC
+- _symbolic So16SXScrollPositionC
+- _symbolic So16SXScrollPositionC06scrollB0_t
+- _symbolic So16SXVideoComponentC
+- _symbolic So16UICollectionViewC
+- _symbolic So16UIRefreshControlCSg
+- _symbolic So16UIViewControllerC
+- _symbolic So16UIViewControllerC04viewB0_t
+- _symbolic So16UIViewControllerCSg
+- _symbolic So16UIViewControllerCSgXw
+- _symbolic So16UIViewControllerCSgXwz_Xx
+- _symbolic So17OS_dispatch_groupC
+- _symbolic So17OS_dispatch_queueC
+- _symbolic So17SXLayoutBlueprintC
+- _symbolic So17UISearchTextFieldC
+- _symbolic So17UITraitCollectionC
+- _symbolic So17UITraitCollectionCSg
+- _symbolic So18FCSubscriptionListC
+- _symbolic So18NSAttributedStringC
+- _symbolic So18NSAttributedStringCSg
+- _symbolic So18UITabBarControllerCSgXw
+- _symbolic So19FCArticleControllerC
+- _symbolic So20UICollectionViewCellC
+- _symbolic So21MPRemoteCommandCenterC
+- _symbolic So21MPRemoteCommandCenterCIego_
+- _symbolic So21OS_dispatch_semaphoreC
+- _symbolic So21UIDeferredMenuElementC
+- _symbolic So21UIDeferredMenuElementCSg
+- _symbolic So22MPNowPlayingInfoCenterC
+- _symbolic So22SFSafariViewControllerC
+- _symbolic So22SXComponentViewFactoryC
+- _symbolic So22UIPanGestureRecognizerCSg
+- _symbolic So22UITapGestureRecognizerC
+- _symbolic So23SXTagSubscriptionStatusC
+- _symbolic So24FCSubscriptionControllerC
+- _symbolic So24UIContextMenuInteractionCSgXw
+- _symbolic So24UIContextMenuInteractionCSgXwz_Xx
+- _symbolic So24UIPinchGestureRecognizerC
+- _symbolic So25FCEmbedProxyConfigurationCSg
+- _symbolic So25FCResourcesFetchOperationCSgXw
+- _symbolic So25NANowPlayingIndicatorViewC
+- _symbolic So25SXMultiScrollViewDelegateCSg
+- _symbolic So26NUANFLinkedContentProviderC
+- _symbolic So27NSRelativeDateTimeFormatterC
+- _symbolic So27NUArticleHostViewControllerC
+- _symbolic So28AMSUIBubbleTipViewControllerC
+- _symbolic So33FCSubscriptionButtonConfigurationC
+- _symbolic So6UIFontCSg
+- _symbolic So6UIViewC
+- _symbolic So6UIViewCSg
+- _symbolic So6UIViewCSgXw
+- _symbolic So7AVAssetC
+- _symbolic So7AVAssetCyc
+- _symbolic So7AVAssetCyc17baseAssetProvider______9transformt 12NewsArticles24AudioTrackTransformationV
+- _symbolic So7CALayerC
+- _symbolic So7FCIssueC
+- _symbolic So7FCIssueC5issue_t
+- _symbolic So7FCIssueCSg
+- _symbolic So7FCIssueC_SS18feedItemIdentifiert
+- _symbolic So7NSArrayCIeyBy_
+- _symbolic So7NSTimerCSg
+- _symbolic So7PDFViewC
+- _symbolic So7UIColorC
+- _symbolic So7UIColorCSg
+- _symbolic So7UIImageC
+- _symbolic So7UIImageCSg
+- _symbolic So7UIImageCSgIegg_
+- _symbolic So7UIImageCSgytIegnr_
+- _symbolic So7UILabelC
+- _symbolic So8FCRecipeC
+- _symbolic So8FCRecipeC14featuredRecipe______11fetchResultt 12NewsArticles30RecipeRecirculationFetchResultV
+- _symbolic So8FCRecipeCSg
+- _symbolic So8FCRecipeC______7contextt 12NewsArticles18RecipeRouteContextV
+- _symbolic So8NSNumberC
+- _symbolic So8NSObjectC
+- _symbolic So8NSStringC
+- _symbolic So8NSStringCSgACIeyByy_
+- _symbolic So8UIButtonC
+- _symbolic So8UIWindowCSg6window_t
+- _symbolic So9FCArticleC
+- _symbolic So9FCArticleCSg
+- _symbolic So9FCCommandC
+- _symbolic So9UIToolbarC
+- _symbolic Su
+- _symbolic SuSg
+- _symbolic _____ 10CookingKit11AdPlacementO
+- _symbolic _____ 10CookingKit15RecipeAdContextV
+- _symbolic _____ 10CookingKit23RecipeAnalyticsSnapshotC
+- _symbolic _____ 10CookingKit6RecipeV
+- _symbolic _____ 10Foundation3URLV
+- _symbolic _____ 10Foundation4DataV
+- _symbolic _____ 10Foundation4DateV
+- _symbolic _____ 11MediaCoreUI19NowPlayingViewModelC
+- _symbolic _____ 11MediaCoreUI19NowPlayingViewModelC13SubtitleStyleO
+- _symbolic _____ 11MediaCoreUI19NowPlayingViewModelC20EyebrowConfigurationV
+- _symbolic _____ 11MediaCoreUI31NowPlayingMetadataConfigurationV
+- _symbolic _____ 11Observation0A9RegistrarV
+- _symbolic _____ 11TeaSettings0B0C
+- _symbolic _____ 11TeaSettings0B0C0A2UIE4TipsV5DebugV
+- _symbolic _____ 11TeaSettings0B0C0A2UIE4TipsV5DebugV12NewsArticlesE27RecipeChromeConfigOverridesC
+- _symbolic _____ 11TeaSettings0B0C12NewsArticlesE0cD7ModulesV
+- _symbolic _____ 11TeaSettings0B0C12NewsArticlesE0cD7ModulesV15EndOfRecipeFeedV
+- _symbolic _____ 11TeaSettings0B0C12NewsArticlesE0cD7ModulesV15EndOfRecipeFeedV15ConfigOverridesC
+- _symbolic _____ 11TeaSettings0B0C12NewsArticlesE0cD7ModulesV16EndOfArticleFeedV
+- _symbolic _____ 11TeaSettings0B0C12NewsArticlesE0cD7ModulesV16EndOfArticleFeedV15ConfigOverridesC
+- _symbolic _____ 11TeaSettings0B0C12NewsArticlesE0cD7ModulesV6RecipeV
+- _symbolic _____ 11TeaSettings0B0C12NewsArticlesE11CompressionV
+- _symbolic _____ 11TeaSettings0B0C12NewsArticlesE11CompressionV0E9OverridesC
+- _symbolic _____ 11TeaSettings0B0C12NewsArticlesE12LiveCoverageV
+- _symbolic _____ 11TeaSettings0B0C12NewsArticlesE3ANFV
+- _symbolic _____ 11TeaSettings0B0C12NewsArticlesE3ANFV11ConditionalC
+- _symbolic _____ 11TeaSettings0B0C12NewsArticlesE3ANFV15ExperimentationV
+- _symbolic _____ 11TeaSettings0B0C12NewsArticlesE3ANFV19EmbedProxyOverridesC
+- _symbolic _____ 11TeaSettings0B0C12NewsArticlesE3ANFV5EmbedV
+- _symbolic _____ 11TeaSettings0B0C12NewsArticlesE3ANFV8DarkModeC
+- _symbolic _____ 11TeaSettings0B0C12NewsArticlesE3ANFV9DebuggingV
+- _symbolic _____ 11TeaSettings0B0C12NewsArticlesE6DraftsV
+- _symbolic _____ 11TeaSettings12SettingGroupC
+- _symbolic _____ 11TeaSettings7PresetsC
+- _symbolic _____ 11TeaSettings7PresetsC12NewsArticlesE13ArticleViewerV
+- _symbolic _____ 11TeaTemplate13LayoutOptionsV
+- _symbolic _____ 11TeaTemplate6ColumnO
+- _symbolic _____ 12AppAnalytics7TrackerC
+- _symbolic _____ 12CoreGraphics7CGFloatV
+- _symbolic _____ 12NewsArticles012RecipeDrawerC4ItemV
+- _symbolic _____ 12NewsArticles012RecipeViewerC0V
+- _symbolic _____ 12NewsArticles012RecipeViewerC4PageV
+- _symbolic _____ 12NewsArticles013ArticleViewerC4PageV
+- _symbolic _____ 12NewsArticles013ArticleViewerC4PageV19PresentationContextO
+- _symbolic _____ 12NewsArticles013ArticleViewerC7FactoryC
+- _symbolic _____ 12NewsArticles017AsyncRecipeViewerD0V
+- _symbolic _____ 12NewsArticles017AsyncRecipeViewerD4TaskV
+- _symbolic _____ 12NewsArticles017RecipeTopicsEndOfC14FeedGroupKnobsV
+- _symbolic _____ 12NewsArticles017RecipeTopicsEndOfC14FeedGroupKnobsV10CodingKeys33_AEA9AE7C11416B2BBAEED91731FBFE41LLO
+- _symbolic _____ 12NewsArticles017RecipeTopicsEndOfC16FeedGroupEmitterV
+- _symbolic _____ 12NewsArticles017RecipeTopicsEndOfC19FeedGroupConfigDataV
+- _symbolic _____ 12NewsArticles017RecipeTopicsEndOfC19FeedGroupConfigDataV10CodingKeys33_ABDB540CCC3754B51C3B05D94B5B4521LLO
+- _symbolic _____ 12NewsArticles017RecipeTopicsEndOfC9FeedGroupV
+- _symbolic _____ 12NewsArticles017RecipeTopicsEndOfC9FeedGroupV10CodingKeys33_A83D46F3C0269186E6042FE8162B9842LLO
+- _symbolic _____ 12NewsArticles019RecipeRecirculationC15SourceCandidateO
+- _symbolic _____ 12NewsArticles019RecipeRecirculationC15SourceCandidateO0E4Type33_5EEB2EE81308312AC2E29152DAA5E929LLO
+- _symbolic _____ 12NewsArticles019RecipeRecirculationC15SourceCandidateO10CodingKeys33_5EEB2EE81308312AC2E29152DAA5E929LLO
+- _symbolic _____ 12NewsArticles021BlueprintRecipeViewerC8ProviderC
+- _symbolic _____ 12NewsArticles022AttributionViewWrapperD033_D28D6015DE731BE624B02DB54B95AB04LLC
+- _symbolic _____ 12NewsArticles022BlueprintArticleViewerC8ProviderC
+- _symbolic _____ 12NewsArticles027ArticleViewerBlueprintRouteC0O
+- _symbolic _____ 12NewsArticles027BlueprintGroupArticleViewerC8ProviderC
+- _symbolic _____ 12NewsArticles037EndOfRecipeBlueprintViewSupplementaryG8ProviderC
+- _symbolic _____ 12NewsArticles038EndOfArticleBlueprintViewSupplementaryG8ProviderC
+- _symbolic _____ 12NewsArticles041TableOfContentsBlueprintViewSupplementaryG8ProviderC
+- _symbolic _____ 12NewsArticles07RelatedB20EndOfRecipeFeedGroupV
+- _symbolic _____ 12NewsArticles07RelatedB20EndOfRecipeFeedGroupV10CodingKeys33_74285EA96B2C6FF04B8089A4CE28115BLLO
+- _symbolic _____ 12NewsArticles07RelatedB25EndOfRecipeFeedGroupKnobsV
+- _symbolic _____ 12NewsArticles07RelatedB25EndOfRecipeFeedGroupKnobsV10CodingKeys33_DE69614F9567FDA918D96F1A526F22E6LLO
+- _symbolic _____ 12NewsArticles07RelatedB27EndOfRecipeFeedGroupEmitterV
+- _symbolic _____ 12NewsArticles07RelatedB30EndOfRecipeFeedGroupConfigDataV
+- _symbolic _____ 12NewsArticles07RelatedB30EndOfRecipeFeedGroupConfigDataV10CodingKeys33_6C66F000AA846128D8569DF7310D1AFELLO
+- _symbolic _____ 12NewsArticles08BrandBarA4IconC
+- _symbolic _____ 12NewsArticles10BaseStylerV
+- _symbolic _____ 12NewsArticles10IssuePagesV
+- _symbolic _____ 12NewsArticles10IssuePagesV3ANFV
+- _symbolic _____ 12NewsArticles10IssuePagesV3ANFV10CodingKeys33_9989897015CBCC4CF8DC336CBC4CD0B4LLO
+- _symbolic _____ 12NewsArticles10IssuePagesV3ANFV4PageO
+- _symbolic _____ 12NewsArticles10IssuePagesV3ANFV4PageO0F4TypeO
+- _symbolic _____ 12NewsArticles10IssuePagesV3ANFV4PageO20ReplicaAdvertisementV
+- _symbolic _____ 12NewsArticles10IssuePagesV3ANFV4PageO20ReplicaAdvertisementV10CodingKeys33_9989897015CBCC4CF8DC336CBC4CD0B4LLO
+- _symbolic _____ 12NewsArticles10IssuePagesV3ANFV4PageO20ReplicaAdvertisementV8MIMETypeO
+- _symbolic _____ 12NewsArticles10IssuePagesV3ANFV4PageO4Keys33_9989897015CBCC4CF8DC336CBC4CD0B4LLO
+- _symbolic _____ 12NewsArticles10IssuePagesV3ANFV4PageO7ArticleV
+- _symbolic _____ 12NewsArticles10IssuePagesV3ANFV4PageO7ArticleV10CodingKeys33_9989897015CBCC4CF8DC336CBC4CD0B4LLO
+- _symbolic _____ 12NewsArticles10IssuePagesV3PDFV
+- _symbolic _____ 12NewsArticles10IssuePagesV3PDFV10CodingKeys33_9989897015CBCC4CF8DC336CBC4CD0B4LLO
+- _symbolic _____ 12NewsArticles10IssuePagesV3PDFV4PageV
+- _symbolic _____ 12NewsArticles10IssuePagesV3PDFV4PageV10CodingKeys33_9989897015CBCC4CF8DC336CBC4CD0B4LLO
+- _symbolic _____ 12NewsArticles10LinkActionO
+- _symbolic _____ 12NewsArticles10NowPlayingO
+- _symbolic _____ 12NewsArticles10NowPlayingO10ControllerC
+- _symbolic _____ 12NewsArticles10NowPlayingO10ControllerC19PlayNextButtonLabel33_4BBC3C9FE7900BE83F33085C0558EC6ALLV
+- _symbolic _____ 12NewsArticles10NowPlayingO10NoticeViewV
+- _symbolic _____ 12NewsArticles10NowPlayingO10PlayerModeO
+- _symbolic _____ 12NewsArticles10NowPlayingO11ArtworkViewV
+- _symbolic _____ 12NewsArticles10NowPlayingO11CurrentItemC
+- _symbolic _____ 12NewsArticles10NowPlayingO11ImageLoaderC
+- _symbolic _____ 12NewsArticles10NowPlayingO12QueueRowViewV
+- _symbolic _____ 12NewsArticles10NowPlayingO14QueueViewModelC
+- _symbolic _____ 12NewsArticles10NowPlayingO15SpeedPickerViewV
+- _symbolic _____ 12NewsArticles10NowPlayingO15ViewCoordinatorC
+- _symbolic _____ 12NewsArticles10NowPlayingO16CurrentSeekState33_4BBC3C9FE7900BE83F33085C0558EC6ALLV
+- _symbolic _____ 12NewsArticles10NowPlayingO16SpeedPickerModelC
+- _symbolic _____ 12NewsArticles10NowPlayingO17PublisherLogoViewV
+- _symbolic _____ 12NewsArticles10NowPlayingO17PublisherLogoViewV6TaskID33_6A39892C07F492B6727BD7AAABA7DDEELLV
+- _symbolic _____ 12NewsArticles10NowPlayingO18LabelStyleModifier33_156D83376656B3D3B2D493B88DAEA047LLV
+- _symbolic _____ 12NewsArticles10NowPlayingO18SkipSessionManagerC
+- _symbolic _____ 12NewsArticles10NowPlayingO18SkipSessionManagerC0F033_5BA4CC031C6D4E9A3B801F77650A23B2LLV
+- _symbolic _____ 12NewsArticles10NowPlayingO18SkipSessionManagerC9DirectionO
+- _symbolic _____ 12NewsArticles10NowPlayingO24PublisherLogoImageLoaderC
+- _symbolic _____ 12NewsArticles10NowPlayingO26ContextInteractionDelegateC
+- _symbolic _____ 12NewsArticles10NowPlayingO26ContextMenuInteractionViewV
+- _symbolic _____ 12NewsArticles10NowPlayingO4MenuV
+- _symbolic _____ 12NewsArticles10NowPlayingO5ImageV
+- _symbolic _____ 12NewsArticles10NowPlayingO6NoticeO
+- _symbolic _____ 12NewsArticles10NowPlayingO8Snapshot33_4BBC3C9FE7900BE83F33085C0558EC6ALLV
+- _symbolic _____ 12NewsArticles10NowPlayingO9QueueItemV
+- _symbolic _____ 12NewsArticles10NowPlayingO9QueueViewV
+- _symbolic _____ 12NewsArticles10RouteModelO
+- _symbolic _____ 12NewsArticles10URLHandlerC
+- _symbolic _____ 12NewsArticles11AdsAssemblyC
+- _symbolic _____ 12NewsArticles11ArticleViewC
+- _symbolic _____ 12NewsArticles11AudioActionO
+- _symbolic _____ 12NewsArticles11AudioButtonC
+- _symbolic _____ 12NewsArticles11AudioPlayerC
+- _symbolic _____ 12NewsArticles11DebugRecipeV
+- _symbolic _____ 12NewsArticles11DebugRecipeV06LoadedD0V
+- _symbolic _____ 12NewsArticles11DebugRecipeV06LoadedD0V13ImageMetadataV
+- _symbolic _____ 12NewsArticles11DebugRecipeV06LoadedD0V13ImageMetadataV10CodingKeys33_480057C3E8F03528DE36722EA0FB64A0LLO
+- _symbolic _____ 12NewsArticles11DebugRecipeV06LoadedD0V6FieldsV
+- _symbolic _____ 12NewsArticles11DebugRecipeV06LoadedD0V6FieldsV10CodingKeys33_480057C3E8F03528DE36722EA0FB64A0LLO
+- _symbolic _____ 12NewsArticles11DebugRecipeV06LoadedD0V9PublisherV
+- _symbolic _____ 12NewsArticles11DebugRecipeV06LoadedD0V9PublisherV10CodingKeys33_480057C3E8F03528DE36722EA0FB64A0LLO
+- _symbolic _____ 12NewsArticles11IssueLoaderC
+- _symbolic _____ 12NewsArticles11IssueLoaderC5ModelO
+- _symbolic _____ 12NewsArticles11LinkHandlerC
+- _symbolic _____ 12NewsArticles11RecipeEventO
+- _symbolic _____ 12NewsArticles11TipAssemblyC
+- _symbolic _____ 12NewsArticles11UserConcernV
+- _symbolic _____ 12NewsArticles11UserConcernV03SubD0V
+- _symbolic _____ 12NewsArticles11UserConcernV03SubD0V10CodingKeys030_EED4111CCF49BB0C93B6A9C004DA7M1CLLO
+- _symbolic _____ 12NewsArticles11UserConcernV10CodingKeys030_EED4111CCF49BB0C93B6A9C004DA7L1CLLO
+- _symbolic _____ 12NewsArticles12ANFIssuePageO
+- _symbolic _____ 12NewsArticles12ANFOverridesV
+- _symbolic _____ 12NewsArticles12ArticleEventO
+- _symbolic _____ 12NewsArticles12ArticleModelO
+- _symbolic _____ 12NewsArticles12AsyncArticleV
+- _symbolic _____ 12NewsArticles12ColorPaletteC
+- _symbolic _____ 12NewsArticles12FeatureStateV
+- _symbolic _____ 12NewsArticles12HistoryStateV
+- _symbolic _____ 12NewsArticles12IssueManagerC
+- _symbolic _____ 12NewsArticles12IssueManagerC6ErrorsO
+- _symbolic _____ 12NewsArticles12RecipeModuleC
+- _symbolic _____ 12NewsArticles12RecipeRouterC
+- _symbolic _____ 12NewsArticles12RecipeStylerC
+- _symbolic _____ 12NewsArticles12RefreshStateO
+- _symbolic _____ 12NewsArticles12WeakZoomableC
+- _symbolic _____ 12NewsArticles12WebViewStyleV
+- _symbolic _____ 12NewsArticles13AdDataManagerC
+- _symbolic _____ 12NewsArticles13ArticleConfig33_35122D697059B441BED36C9BB23CEEFCLLV
+- _symbolic _____ 12NewsArticles13ArticleConfig33_35122D697059B441BED36C9BB23CEEFCLLV10CodingKeysO
+- _symbolic _____ 12NewsArticles13ArticleModuleC
+- _symbolic _____ 12NewsArticles13ArticleStylerC
+- _symbolic _____ 12NewsArticles13BarButtonItemC
+- _symbolic _____ 12NewsArticles13CancelHandlerC
+- _symbolic _____ 12NewsArticles13ConcernReasonV
+- _symbolic _____ 12NewsArticles13ConcernReasonV10CodingKeys33_11C9604C24B07610B82CDCA117A22C70LLO
+- _symbolic _____ 12NewsArticles13FocusableViewC
+- _symbolic _____ 12NewsArticles13MailPresenterC
+- _symbolic _____ 12NewsArticles13ProxyAssemblyC
+- _symbolic _____ 12NewsArticles13RecipeSessionV
+- _symbolic _____ 12NewsArticles13RecipeSessionV9PageEventO
+- _symbolic _____ 12NewsArticles13TagRouteModelV
+- _symbolic _____ 12NewsArticles13TipInteractorC
+- _symbolic _____ 12NewsArticles14AnalyticsEventO
+- _symbolic _____ 12NewsArticles14ArticleSessionV
+- _symbolic _____ 12NewsArticles14AudioSeekStateO
+- _symbolic _____ 12NewsArticles14AudioTrackKindO
+- _symbolic _____ 12NewsArticles14BarButtonOrderV
+- _symbolic _____ 12NewsArticles14BrandBarStylerC
+- _symbolic _____ 12NewsArticles14HistoryServiceC
+- _symbolic _____ 12NewsArticles14NotifyOnDeinit33_C03E0B959E775327989EE4DDE248085FLLC
+- _symbolic _____ 12NewsArticles14PDFReplicaPageV
+- _symbolic _____ 12NewsArticles14RecipeAssemblyC
+- _symbolic _____ 12NewsArticles14RecipeBannerAdV
+- _symbolic _____ 12NewsArticles14StylerAssemblyC
+- _symbolic _____ 12NewsArticles14WebViewSessionV
+- _symbolic _____ 12NewsArticles14WebViewSessionV7TriggerO
+- _symbolic _____ 12NewsArticles15ANFIssueServiceC
+- _symbolic _____ 12NewsArticles15ANFIssueServiceC6ErrorsO
+- _symbolic _____ 12NewsArticles15AdComponentViewC
+- _symbolic _____ 12NewsArticles15AdIgnorableViewC
+- _symbolic _____ 12NewsArticles15ArticleAssemblyC
+- _symbolic _____ 12NewsArticles15ArticleBannerAdV
+- _symbolic _____ 12NewsArticles15AssetFetchErrorO
+- _symbolic _____ 12NewsArticles15BrandBarContentV
+- _symbolic _____ 12NewsArticles15CommandAssemblyC
+- _symbolic _____ 12NewsArticles15CookingAssemblyV
+- _symbolic _____ 12NewsArticles15FactoryAssemblyC
+- _symbolic _____ 12NewsArticles15ManagerAssemblyC
+- _symbolic _____ 12NewsArticles15OfflineAssemblyC
+- _symbolic _____ 12NewsArticles15PDFReplicaIssueV
+- _symbolic _____ 12NewsArticles15PassthroughView33_EB63D8792045F9CB316DE87A7AC9CC2DLLC
+- _symbolic _____ 12NewsArticles15RecipeViewModelV
+- _symbolic _____ 12NewsArticles15ServiceAssemblyC
+- _symbolic _____ 12NewsArticles15SharingAssemblyC
+- _symbolic _____ 12NewsArticles15SubConcernModelV
+- _symbolic _____ 12NewsArticles15TagRouteContextV
+- _symbolic _____ 12NewsArticles15TipEventHandlerC
+- _symbolic _____ 12NewsArticles15UserConcernDataV
+- _symbolic _____ 12NewsArticles15UserConcernDataV10CodingKeys33_11C9604C24B07610B82CDCA117A22C70LLO
+- _symbolic _____ 12NewsArticles15UtilityAssemblyC
+- _symbolic _____ 12NewsArticles16AdComponentSizerC
+- _symbolic _____ 12NewsArticles16AdComponentStateC
+- _symbolic _____ 12NewsArticles16ArticleGroupDataO
+- _symbolic _____ 12NewsArticles16BrandBarRendererC
+- _symbolic _____ 12NewsArticles16EndOfArticleItemO
+- _symbolic _____ 12NewsArticles16EndOfArticleItemO8MetadataV
+- _symbolic _____ 12NewsArticles16EndOfRecipeModelO
+- _symbolic _____ 12NewsArticles16HeadlineProviderC
+- _symbolic _____ 12NewsArticles16HeadlineProviderC6ErrorsO
+- _symbolic _____ 12NewsArticles16IssueViewSessionV
+- _symbolic _____ 12NewsArticles16MessagePresenterC
+- _symbolic _____ 12NewsArticles16PDFReplicaModuleC
+- _symbolic _____ 12NewsArticles16PDFReplicaRouterC
+- _symbolic _____ 12NewsArticles16PDFReplicaStylerC
+- _symbolic _____ 12NewsArticles16RecipeInteractorC
+- _symbolic _____ 12NewsArticles16RecipeNotesStateV
+- _symbolic _____ 12NewsArticles16RecipeRouteModelO
+- _symbolic _____ 12NewsArticles16RecipeViewerPageO
+- _symbolic _____ 12NewsArticles16RendererAssemblyC
+- _symbolic _____ 12NewsArticles16TextViewProviderC
+- _symbolic _____ 12NewsArticles16TipConfigFactoryC
+- _symbolic _____ 12NewsArticles16TipMigrationTaskC
+- _symbolic _____ 12NewsArticles16UserConcernModelV
+- _symbolic _____ 12NewsArticles17AdSettingsFactoryC
+- _symbolic _____ 12NewsArticles17AnalyticsAssemblyC
+- _symbolic _____ 12NewsArticles17AnalyticsLinkDataV
+- _symbolic _____ 12NewsArticles17ArticleInteractorC
+- _symbolic _____ 12NewsArticles17ArticleRouteModelO
+- _symbolic _____ 12NewsArticles17ArticleTextRangesV
+- _symbolic _____ 12NewsArticles17ArticleTextRangesV10CodingKeys33_D90BFB9756278962FB3FF873B46A4DD7LLO
+- _symbolic _____ 12NewsArticles17ArticleTextRangesV8Metadata33_D90BFB9756278962FB3FF873B46A4DD7LLV
+- _symbolic _____ 12NewsArticles17ArticleTextRangesV8Metadata33_D90BFB9756278962FB3FF873B46A4DD7LLV10CodingKeysO
+- _symbolic _____ 12NewsArticles17ArticleTextRangesV9Paragraph33_D90BFB9756278962FB3FF873B46A4DD7LLV
+- _symbolic _____ 12NewsArticles17ArticleTextRangesV9Paragraph33_D90BFB9756278962FB3FF873B46A4DD7LLV10CodingKeysO
+- _symbolic _____ 12NewsArticles17ArticleTextRangesV9Paragraph33_D90BFB9756278962FB3FF873B46A4DD7LLV8MetadataV
+- _symbolic _____ 12NewsArticles17ArticleTextRangesV9Paragraph33_D90BFB9756278962FB3FF873B46A4DD7LLV8MetadataV10CodingKeysO
+- _symbolic _____ 12NewsArticles17ArticleViewerPageO
+- _symbolic _____ 12NewsArticles17AssetFetchServiceC
+- _symbolic _____ 12NewsArticles17AudioPlaybackRateO
+- _symbolic _____ 12NewsArticles17EndOfArticleModelO
+- _symbolic _____ 12NewsArticles17EndOfArticleModelO8FeaturesV
+- _symbolic _____ 12NewsArticles17EndOfArticleStyleV
+- _symbolic _____ 12NewsArticles17EndOfRecipeConfigC
+- _symbolic _____ 12NewsArticles17EndOfRecipeModuleC
+- _symbolic _____ 12NewsArticles17EndOfRecipeRouterC
+- _symbolic _____ 12NewsArticles17EndOfRecipeStylerC
+- _symbolic _____ 12NewsArticles17HeadlineThumbnailV
+- _symbolic _____ 12NewsArticles17HeadlineThumbnailV5Model33_5B9F28DC211094A1782E14306D872C08LLV
+- _symbolic _____ 12NewsArticles17IssueViewerModuleC
+- _symbolic _____ 12NewsArticles17IssueViewerRouterC
+- _symbolic _____ 12NewsArticles17IssueViewerStylerC
+- _symbolic _____ 12NewsArticles17LinkHandlerTraitsV
+- _symbolic _____ 12NewsArticles17LiveCoverageStateC
+- _symbolic _____ 12NewsArticles17LiveCoverageStateC6StatusO
+- _symbolic _____ 12NewsArticles17RecipeDataManagerC
+- _symbolic _____ 12NewsArticles17RecipeDataManagerC5ErrorO
+- _symbolic _____ 12NewsArticles17RecipeImageLoaderC
+- _symbolic _____ 12NewsArticles17RecipeURLProviderC
+- _symbolic _____ 12NewsArticles17TipViewControllerC
+- _symbolic _____ 12NewsArticles17UserConcernConfigV
+- _symbolic _____ 12NewsArticles17UserConcernConfigV10CodingKeys030_EED4111CCF49BB0C93B6A9C004DA7M1CLLO
+- _symbolic _____ 12NewsArticles17WebViewControllerC
+- _symbolic _____ 12NewsArticles18AnalyticsMediaDataV
+- _symbolic _____ 12NewsArticles18AnalyticsMediaTypeO
+- _symbolic _____ 12NewsArticles18AnalyticsTimedDataV
+- _symbolic _____ 12NewsArticles18ArticleDataManagerC
+- _symbolic _____ 12NewsArticles18ArticleRouteOptionO
+- _symbolic _____ 12NewsArticles18AudioPlaybackStateO
+- _symbolic _____ 12NewsArticles18CandidateInventory33_49ED1A055595F6EC85C7884CAD909EB1LLV
+- _symbolic _____ 12NewsArticles18EndOfArticleModuleC
+- _symbolic _____ 12NewsArticles18EndOfArticleResultV
+- _symbolic _____ 12NewsArticles18EndOfArticleRouterC
+- _symbolic _____ 12NewsArticles18EndOfArticleStylerC
+- _symbolic _____ 12NewsArticles18IssueContentFormatO
+- _symbolic _____ 12NewsArticles18IssueLoaderFactoryC
+- _symbolic _____ 12NewsArticles18NewsletterAssemblyC
+- _symbolic _____ 12NewsArticles18PDFReplicaAssemblyC
+- _symbolic _____ 12NewsArticles18PDFReplicaPageLinkO
+- _symbolic _____ 12NewsArticles18PDFReplicaPageLinkO0E4Keys33_32209FE2BFA58111248ABCFE1F58756BLLO
+- _symbolic _____ 12NewsArticles18PDFReplicaPageLinkO0E4Type33_32209FE2BFA58111248ABCFE1F58756BLLO
+- _symbolic _____ 12NewsArticles18PDFReplicaPageLinkO12TapRectangle33_32209FE2BFA58111248ABCFE1F58756BLLV
+- _symbolic _____ 12NewsArticles18PDFReplicaPageLinkO12TapRectangle33_32209FE2BFA58111248ABCFE1F58756BLLV10CodingKeysO
+- _symbolic _____ 12NewsArticles18ProxyConfigurationC
+- _symbolic _____ 12NewsArticles18RecipeEventHandlerC
+- _symbolic _____ 12NewsArticles18RecipeOfflineModelV
+- _symbolic _____ 12NewsArticles18RecipeRouteContextV
+- _symbolic _____ 12NewsArticles18RecipeViewerConfigV
+- _symbolic _____ 12NewsArticles18RecipeViewerModuleC
+- _symbolic _____ 12NewsArticles18RecipeViewerRouterC
+- _symbolic _____ 12NewsArticles18RecipeViewerStylerC
+- _symbolic _____ 12NewsArticles18ReportConcernModelO
+- _symbolic _____ 12NewsArticles18SavedRecipeServiceC
+- _symbolic _____ 12NewsArticles18SavedRecipeServiceC8Observer33_E478F8572AB02776F2CE7A8A5902D12BLLC
+- _symbolic _____ 12NewsArticles18SearchableDelegateC
+- _symbolic _____ 12NewsArticles18ZoomCommandHandlerC
+- _symbolic _____ 12NewsArticles19AccessLevelProviderC
+- _symbolic _____ 12NewsArticles19AdComponentAssemblyC
+- _symbolic _____ 12NewsArticles19ArticleEventHandlerC
+- _symbolic _____ 12NewsArticles19ArticleLoadingEventO
+- _symbolic _____ 12NewsArticles19ArticleLoadingStateO
+- _symbolic _____ 12NewsArticles19ArticleMessageLabelC
+- _symbolic _____ 12NewsArticles19ArticleOfflineModelV
+- _symbolic _____ 12NewsArticles19ArticleRecipeResultO
+- _symbolic _____ 12NewsArticles19ArticleShareHandlerC
+- _symbolic _____ 12NewsArticles19ArticleViewerModuleC
+- _symbolic _____ 12NewsArticles19ArticleViewerRouterC
+- _symbolic _____ 12NewsArticles19ArticleViewerRouterC6Errors33_611BEE6A8F5D0AE8DDE899E5FB908CBFLLO
+- _symbolic _____ 12NewsArticles19ArticleViewerStylerC
+- _symbolic _____ 12NewsArticles19BarButtonItemActionO
+- _symbolic _____ 12NewsArticles19DefaultConcernModelO
+- _symbolic _____ 12NewsArticles19EndOfArticleContextO
+- _symbolic _____ 12NewsArticles19EndOfRecipeAssemblyC
+- _symbolic _____ 12NewsArticles19EndOfRecipeFeedPoolC
+- _symbolic _____ 12NewsArticles19InterstitialAdModelO
+- _symbolic _____ 12NewsArticles19InterstitialAdModelO0cD0V
+- _symbolic _____ 12NewsArticles19IssueArticleServiceC
+- _symbolic _____ 12NewsArticles19IssueArticleServiceC6ErrorsO
+- _symbolic _____ 12NewsArticles19IssueViewerAssemblyC
+- _symbolic _____ 12NewsArticles19PDFReplicaAssetTypeO
+- _symbolic _____ 12NewsArticles19PlayableArticleInfoC
+- _symbolic _____ 12NewsArticles19ReadingListObserverC
+- _symbolic _____ 12NewsArticles19RecipeModuleContextV
+- _symbolic _____ 12NewsArticles19RecipeRadarReporterC
+- _symbolic _____ 12NewsArticles19RecipeViewerTrackerC
+- _symbolic _____ 12NewsArticles19ReportConcernModuleC
+- _symbolic _____ 12NewsArticles19ReportConcernRouterC
+- _symbolic _____ 12NewsArticles19ReportConcernStylerC
+- _symbolic _____ 12NewsArticles19ResourceBundleClass33_03D352CB52A844A850D0B03681801B2CLLC
+- _symbolic _____ 12NewsArticles19SavedStatusProviderC
+- _symbolic _____ 12NewsArticles20AnalyticsGalleryDataV
+- _symbolic _____ 12NewsArticles20AnalyticsGalleryTypeO
+- _symbolic _____ 12NewsArticles20ArticleFooterContextC
+- _symbolic _____ 12NewsArticles20ArticleFooterPaywallC
+- _symbolic _____ 12NewsArticles20ArticlePagePrewarmerC
+- _symbolic _____ 12NewsArticles20ArticleViewerFeatureC
+- _symbolic _____ 12NewsArticles20ConcernReasonSubTypeV
+- _symbolic _____ 12NewsArticles20ConcernReasonSubTypeV10CodingKeys33_11C9604C24B07610B82CDCA117A22C70LLO
+- _symbolic _____ 12NewsArticles20EndOfArticleAssemblyC
+- _symbolic _____ 12NewsArticles20EndOfArticleBackfillO
+- _symbolic _____ 12NewsArticles20EndOfArticleFeedPoolC
+- _symbolic _____ 12NewsArticles20EndOfRecipeFeedGroupO
+- _symbolic _____ 12NewsArticles20EndOfRecipeFeedGroupO07RelatedB10CodingKeys33_24ABAAAC26DAF4C0721820D3D93B5D09LLO
+- _symbolic _____ 12NewsArticles20EndOfRecipeFeedGroupO0E16TopicsCodingKeys33_24ABAAAC26DAF4C0721820D3D93B5D09LLO
+- _symbolic _____ 12NewsArticles20EndOfRecipeFeedGroupO10CodingKeys33_24ABAAAC26DAF4C0721820D3D93B5D09LLO
+- _symbolic _____ 12NewsArticles20EndOfRecipeFeedGroupO24RelatedRecipesCodingKeys33_24ABAAAC26DAF4C0721820D3D93B5D09LLO
+- _symbolic _____ 12NewsArticles20InterstitialAdModuleC
+- _symbolic _____ 12NewsArticles20InterstitialAdRouterC
+- _symbolic _____ 12NewsArticles20InterstitialAdStylerC
+- _symbolic _____ 12NewsArticles20NowPlayingURLHandlerC
+- _symbolic _____ 12NewsArticles20PDFReplicaInteractorC
+- _symbolic _____ 12NewsArticles20PDFReplicaViewerPageO
+- _symbolic _____ 12NewsArticles20RecipeSessionTriggerO
+- _symbolic _____ 12NewsArticles20RecipeSharingHandlerC
+- _symbolic _____ 12NewsArticles20RecipeViewControllerC
+- _symbolic _____ 12NewsArticles20RecipeViewControllerC0C11LoadContext33_79180F22F085E90DC316DD9A2B1B9C2DLLO
+- _symbolic _____ 12NewsArticles20RecipeViewerAssemblyC
+- _symbolic _____ 12NewsArticles20ReportConcernCommandC
+- _symbolic _____ 12NewsArticles20ReportConcernServiceC
+- _symbolic _____ 12NewsArticles20SharedStatusProviderC
+- _symbolic _____ 12NewsArticles20StubTipConfigFactoryC
+- _symbolic _____ 12NewsArticles20SubscribeActionModelV
+- _symbolic _____ 12NewsArticles20SubscriptionAssemblyC
+- _symbolic _____ 12NewsArticles20TableOfContentsModelO
+- _symbolic _____ 12NewsArticles20ToolbarLayoutOptionsV
+- _symbolic _____ 12NewsArticles21AdComponentIntegratorC
+- _symbolic _____ 12NewsArticles21AdComponentIntegratorC4Item33_0DE14D2887100891CCCA81A141657B0ALLV
+- _symbolic _____ 12NewsArticles21AlertIssueUnavailableO
+- _symbolic _____ 12NewsArticles21AlertOpenBlockedStoryV
+- _symbolic _____ 12NewsArticles21AlertOpenBlockedStoryV13SelectionTypeO
+- _symbolic _____ 12NewsArticles21AlertOpenBlockedStoryV15SelectionReasonO
+- _symbolic _____ 12NewsArticles21AnalyticsWebEmbedDataV
+- _symbolic _____ 12NewsArticles21ArticleAudioPrewarmerC
+- _symbolic _____ 12NewsArticles21ArticleFooterProviderC
+- _symbolic _____ 12NewsArticles21ArticleHeaderProviderC
+- _symbolic _____ 12NewsArticles21ArticlePreviewManagerC
+- _symbolic _____ 12NewsArticles21ArticlePreviewManagerC0D9Container33_E5971DD7158D3247DDFEC65302AC346ALLV
+- _symbolic _____ 12NewsArticles21ArticlePreviewServiceC
+- _symbolic _____ 12NewsArticles21ArticleSessionTriggerO
+- _symbolic _____ 12NewsArticles21ArticleViewControllerC
+- _symbolic _____ 12NewsArticles21ArticleViewControllerC22PaywallPrepRequirementO
+- _symbolic _____ 12NewsArticles21ArticleViewerAssemblyC
+- _symbolic _____ 12NewsArticles21ArticleViewerFeaturesC
+- _symbolic _____ 12NewsArticles21BrandBarConfigManagerC
+- _symbolic _____ 12NewsArticles21CurrentRecipeUserDataC
+- _symbolic _____ 12NewsArticles21DarkModeConfigurationC
+- _symbolic _____ 12NewsArticles21EndOfArticleCellStyleO
+- _symbolic _____ 12NewsArticles21EndOfArticleFeedGroupO
+- _symbolic _____ 12NewsArticles21EndOfRecipeFeedConfigV
+- _symbolic _____ 12NewsArticles21EndOfRecipeFeedConfigV10CodingKeys33_1B8B19F18515648B761D9DBB4F025B25LLO
+- _symbolic _____ 12NewsArticles21EndOfRecipeInteractorC
+- _symbolic _____ 12NewsArticles21EndOfRecipeRouteModelO
+- _symbolic _____ 12NewsArticles21HeadlinePublisherLogoV
+- _symbolic _____ 12NewsArticles21InterstitialAdManagerC
+- _symbolic _____ 12NewsArticles21InterstitialAdManagerC5EventO
+- _symbolic _____ 12NewsArticles21InterstitialAdSessionV
+- _symbolic _____ 12NewsArticles21InterstitialAdTrackerC
+- _symbolic _____ 12NewsArticles21IssueViewerInteractorC
+- _symbolic _____ 12NewsArticles21IssueViewerInteractorC5EventO
+- _symbolic _____ 12NewsArticles21NowPlayingMenuFactoryC
+- _symbolic _____ 12NewsArticles21PDFReplicaDataManagerC
+- _symbolic _____ 12NewsArticles21PDFReplicaDataManagerC6ErrorsO
+- _symbolic _____ 12NewsArticles21PDFReplicaPageOptionsV
+- _symbolic _____ 12NewsArticles21PDFReplicaViewerRouteO
+- _symbolic _____ 12NewsArticles21RecipeBannerAdFactoryC
+- _symbolic _____ 12NewsArticles21RecipeDrawerImageViewV
+- _symbolic _____ 12NewsArticles21RecipeHistoryProviderC
+- _symbolic _____ 12NewsArticles21RecipeRouteIdentifierO
+- _symbolic _____ 12NewsArticles21RecipeUserDataManagerC
+- _symbolic _____ 12NewsArticles21RecipeViewerBlueprintO
+- _symbolic _____ 12NewsArticles21RecipeViewerBlueprintO0C4ItemV
+- _symbolic _____ 12NewsArticles21RecipeViewerBlueprintO0C4ItemV5ModelO
+- _symbolic _____ 12NewsArticles21ReportConcernAssemblyC
+- _symbolic _____ 12NewsArticles21SearchInArticleModuleC
+- _symbolic _____ 12NewsArticles21SharingCommandHandlerC
+- _symbolic _____ 12NewsArticles21TableOfContentsModuleC
+- _symbolic _____ 12NewsArticles21TableOfContentsRouterC
+- _symbolic _____ 12NewsArticles21TableOfContentsStylerC
+- _symbolic _____ 12NewsArticles21TextSizeControlModuleC
+- _symbolic _____ 12NewsArticles21TextSizeControlStylerC
+- _symbolic _____ 12NewsArticles21WeakRecipeCoordinatorC
+- _symbolic _____ 12NewsArticles22AIHeaderViewControllerC
+- _symbolic _____ 12NewsArticles22AdComponentViewFactoryC
+- _symbolic _____ 12NewsArticles22AdIgnorableViewFactoryC
+- _symbolic _____ 12NewsArticles22AlertRecipeUnavailableO
+- _symbolic _____ 12NewsArticles22AnalyticsEventReporterC
+- _symbolic _____ 12NewsArticles22ArticleBannerAdFactoryC
+- _symbolic _____ 12NewsArticles22ArticleFeatureLocationO
+- _symbolic _____ 12NewsArticles22ArticleFeatureProviderC
+- _symbolic _____ 12NewsArticles22ArticleProviderServiceC
+- _symbolic _____ 12NewsArticles22ArticleViewerBlueprintO
+- _symbolic _____ 12NewsArticles22ArticleViewerBlueprintO0C4ItemV
+- _symbolic _____ 12NewsArticles22ArticleViewerBlueprintO0C4ItemV5ModelO
+- _symbolic _____ 12NewsArticles22ArticleViewerBlueprintO0C4ItemV6TraitsO
+- _symbolic _____ 12NewsArticles22ArticleViewerBlueprintO11PreviewItemV
+- _symbolic _____ 12NewsArticles22ArticleViewerBlueprintO11PreviewItemV5ModelO
+- _symbolic _____ 12NewsArticles22ArticleViewerBlueprintO11PreviewItemV6TraitsO
+- _symbolic _____ 12NewsArticles22AudioPlaybackConductorC
+- _symbolic _____ 12NewsArticles22ContentPrefetchManagerC
+- _symbolic _____ 12NewsArticles22EndOfArticleFeedConfigV
+- _symbolic _____ 12NewsArticles22EndOfArticleFeedConfigV10CodingKeys33_4DA123D09A1A401E58787B4D5CD2F12BLLO
+- _symbolic _____ 12NewsArticles22EndOfArticleInteractorC
+- _symbolic _____ 12NewsArticles22EndOfArticleItemOriginO
+- _symbolic _____ 12NewsArticles22EndOfRecipeDataManagerC
+- _symbolic _____ 12NewsArticles22EndOfRecipeLayoutModelO
+- _symbolic _____ 12NewsArticles22InterstitialAdAssemblyC
+- _symbolic _____ 12NewsArticles22IssueViewerDataManagerC
+- _symbolic _____ 12NewsArticles22LiveCoverageStatusViewC
+- _symbolic _____ 12NewsArticles22NoSelectedTextProviderC
+- _symbolic _____ 12NewsArticles22NoopAudioActionHandlerC
+- _symbolic _____ 12NewsArticles22PDFReplicaEventHandlerC
+- _symbolic _____ 12NewsArticles22PDFReplicaViewerModuleC
+- _symbolic _____ 12NewsArticles22PDFReplicaViewerRouterC
+- _symbolic _____ 12NewsArticles22PDFReplicaViewerStylerC
+- _symbolic _____ 12NewsArticles22ProxyAuthenticationKeyV
+- _symbolic _____ 12NewsArticles22ProxyAuthenticationKeyV10CodingKeys33_CD6678FA93DD2E86CCDF1FC853060901LLO
+- _symbolic _____ 12NewsArticles22RecipeViewerInteractorC
+- _symbolic _____ 12NewsArticles22RecipeViewerInteractorC06recipeD7Recipes33_77884F80F5486DF517A80CF3E494D0B3LL4fromSayAA0cdC0VGSayAA0cD9BlueprintO0C4ItemVG_tYaF6ResultL_V
+- _symbolic _____ 12NewsArticles22SubscribeActionHandlerC
+- _symbolic _____ 12NewsArticles22SubscribeActionHandlerC18HeadlineAttributesV
+- _symbolic _____ 12NewsArticles22SubscribeActionHandlerC6ErrorsO
+- _symbolic _____ 12NewsArticles23ANFReplicaAdvertisementV
+- _symbolic _____ 12NewsArticles23AdComponentSizerFactoryC
+- _symbolic _____ 12NewsArticles23AlertArticleUnavailableO
+- _symbolic _____ 12NewsArticles23ArticleGroupDataContextV
+- _symbolic _____ 12NewsArticles23ArticleNavigationActionO
+- _symbolic _____ 12NewsArticles23ArticlePageColorPaletteV
+- _symbolic _____ 12NewsArticles23ArticleViewerInteractorC
+- _symbolic _____ 12NewsArticles23ContentBackgroundColorsV
+- _symbolic _____ 12NewsArticles23EndOfArticleDataManagerC
+- _symbolic _____ 12NewsArticles23EndOfArticleItemFactoryC
+- _symbolic _____ 12NewsArticles23EndOfArticleLayoutModelO
+- _symbolic _____ 12NewsArticles23EndOfArticleSectionTypeO
+- _symbolic _____ 12NewsArticles23EndOfRecipeEventHandlerC
+- _symbolic _____ 12NewsArticles23EndOfRecipeExpandResultV
+- _symbolic _____ 12NewsArticles23EndOfRecipeModelFactoryC
+- _symbolic _____ 12NewsArticles23EndOfRecipeOfflineModelV
+- _symbolic _____ 12NewsArticles23HeadlineProviderFactoryC
+- _symbolic _____ 12NewsArticles23IssueViewerEventHandlerC
+- _symbolic _____ 12NewsArticles23PDFReplicaPagePrewarmerC
+- _symbolic _____ 12NewsArticles23PDFReplicaViewerOptionsV
+- _symbolic _____ 12NewsArticles23PDFReplicaViewerOptionsV11DisplayModeO
+- _symbolic _____ 12NewsArticles23ReadStoryCommandHandlerC
+- _symbolic _____ 12NewsArticles23RecipeArticleDrawerViewV
+- _symbolic _____ 12NewsArticles23RecipeBannerAdRequesterC
+- _symbolic _____ 12NewsArticles23RecipeBannerAdRequesterC6ErrorsO
+- _symbolic _____ 12NewsArticles23RecipeContentPrefetcherC
+- _symbolic _____ 12NewsArticles23RecipeMoreBarButtonItemC
+- _symbolic _____ 12NewsArticles23RecipeRecirculationDataV
+- _symbolic _____ 12NewsArticles23RecipeRecirculationDataV10CodingKeys33_1535427928E8413FE3D8A17E543E66DCLLO
+- _symbolic _____ 12NewsArticles23RecipeRouteModelFactoryC
+- _symbolic _____ 12NewsArticles23RecipeViewerDataManagerC
+- _symbolic _____ 12NewsArticles23RecipeViewerDataManagerC5Error33_54F0E3CF1CC50548A1147A4CE456B75ALLO
+- _symbolic _____ 12NewsArticles23ReportConcernInteractorC
+- _symbolic _____ 12NewsArticles23SearchInArticleAssemblyC
+- _symbolic _____ 12NewsArticles23TableOfContentsAssemblyC
+- _symbolic _____ 12NewsArticles23TextAttributionProviderC
+- _symbolic _____ 12NewsArticles23TextSizeControlAssemblyC
+- _symbolic _____ 12NewsArticles23TipDialogRequestFactoryC
+- _symbolic _____ 12NewsArticles23ViewingLocationOverrideO
+- _symbolic _____ 12NewsArticles24ANFDebugSettingsProviderC
+- _symbolic _____ 12NewsArticles24AnalyticsMediaEngageDataV
+- _symbolic _____ 12NewsArticles24AnalyticsMediaPlayMethodO
+- _symbolic _____ 12NewsArticles24AnalyticsMediaUserActionO
+- _symbolic _____ 12NewsArticles24ArticleAdLayoutProcessorC
+- _symbolic _____ 12NewsArticles24ArticleBannerAdRequesterC
+- _symbolic _____ 12NewsArticles24ArticleRecirculationDataV
+- _symbolic _____ 12NewsArticles24ArticleViewerDataManagerC
+- _symbolic _____ 12NewsArticles24ArticleViewerPageTrackerC
+- _symbolic _____ 12NewsArticles24ArticleViewerPreviewPageV
+- _symbolic _____ 12NewsArticles24AudioArticleViewerStylerC
+- _symbolic _____ 12NewsArticles24AudioTrackTransformationV
+- _symbolic _____ 12NewsArticles24BrandBarAnimationFactoryC
+- _symbolic _____ 12NewsArticles24CompositeTrackPlayerItemC
+- _symbolic _____ 12NewsArticles24ConfirmationToastFactoryC
+- _symbolic _____ 12NewsArticles24EndOfArticleEventHandlerC
+- _symbolic _____ 12NewsArticles24EndOfArticleExpandResultV
+- _symbolic _____ 12NewsArticles24EndOfArticleModelFactoryC
+- _symbolic _____ 12NewsArticles24EndOfRecipeExpandContextV
+- _symbolic _____ 12NewsArticles24EndOfRecipeExpandRequestV
+- _symbolic _____ 12NewsArticles24EndOfRecipeFeedGroupKindO
+- _symbolic _____ 12NewsArticles24EndOfRecipePrewarmResultV
+- _symbolic _____ 12NewsArticles24InterstitialAdInteractorC
+- _symbolic _____ 12NewsArticles24LiveCoverageStatusButtonC
+- _symbolic _____ 12NewsArticles24ModalArticleViewerModuleC
+- _symbolic _____ 12NewsArticles24ModalArticleViewerRouterC
+- _symbolic _____ 12NewsArticles24PDFReplicaViewControllerC
+- _symbolic _____ 12NewsArticles24PDFReplicaViewControllerC22PaywallPrepRequirementO
+- _symbolic _____ 12NewsArticles24PDFReplicaViewerAssemblyC
+- _symbolic _____ 12NewsArticles24RecipeCoordinatorContextV
+- _symbolic _____ 12NewsArticles24RecipeViewerEventHandlerC
+- _symbolic _____ 12NewsArticles24ReplicaAdvertisementPageV
+- _symbolic _____ 12NewsArticles24ReportConcernDataManagerC
+- _symbolic _____ 12NewsArticles24ReportConcernDetailModelO
+- _symbolic _____ 12NewsArticles24ReportConcernLayoutModelO
+- _symbolic _____ 12NewsArticles24TextResizeFeatureContextV
+- _symbolic _____ 12NewsArticles24TipViewControllerFactoryC
+- _symbolic _____ 12NewsArticles24UserConcernConfigManagerC
+- _symbolic _____ 12NewsArticles24UserConcernConfigManagerC6ErrorsO
+- _symbolic _____ 12NewsArticles24WeakSelectedTextProviderC
+- _symbolic _____ 12NewsArticles24WebViewControllerFactoryC
+- _symbolic _____ 12NewsArticles25ANFIssueCoverViewProviderC
+- _symbolic _____ 12NewsArticles25AlertBlockedStoryBehaviorV
+- _symbolic _____ 12NewsArticles25AnalyticsANFComponentDataV
+- _symbolic _____ 12NewsArticles25ArticlePrerollAdRequesterC
+- _symbolic _____ 12NewsArticles25ArticleRouteModelRedirectO
+- _symbolic _____ 12NewsArticles25ArticleViewerColorPaletteV
+- _symbolic _____ 12NewsArticles25ArticleViewerEventHandlerC
+- _symbolic _____ 12NewsArticles25ArticleViewerMenuProviderC
+- _symbolic _____ 12NewsArticles25AudioTrackOverlayPositionO
+- _symbolic _____ 12NewsArticles25CampaignLandingPageModuleC
+- _symbolic _____ 12NewsArticles25CampaignLandingPageStylerC
+- _symbolic _____ 12NewsArticles25CopyArticleCommandHandlerC
+- _symbolic _____ 12NewsArticles25DefaultRecipeConcernModelO
+- _symbolic _____ 12NewsArticles25EndOfArticleExpandRequestV
+- _symbolic _____ 12NewsArticles25EndOfArticleFeedGroupKindO
+- _symbolic _____ 12NewsArticles25EndOfArticlePrewarmResultV
+- _symbolic _____ 12NewsArticles25EndOfArticleResultFactoryC
+- _symbolic _____ 12NewsArticles25EndOfArticleSectionResultV
+- _symbolic _____ 12NewsArticles25EndOfRecipeFeedGroupKnobsV
+- _symbolic _____ 12NewsArticles25EndOfRecipeFeedGroupKnobsV10CodingKeys33_6170ACFD73ED05B89E96F312E2BD2B2ELLO
+- _symbolic _____ 12NewsArticles25EndOfRecipeSectionFactoryC
+- _symbolic _____ 12NewsArticles25EndOfRecipeViewControllerC
+- _symbolic _____ 12NewsArticles25InterstitialAdDataManagerC
+- _symbolic _____ 12NewsArticles25IssueViewerViewControllerC
+- _symbolic _____ 12NewsArticles25ModalArticleViewerTrackerC
+- _symbolic _____ 12NewsArticles25NoopArticleAudioPrewarmerC
+- _symbolic _____ 12NewsArticles25RecipeArticleDrawerModuleC
+- _symbolic _____ 12NewsArticles25RecipeArticleDrawerRouterC
+- _symbolic _____ 12NewsArticles25RecipeBlueprintRouteModelC
+- _symbolic _____ 12NewsArticles25RecipeBlueprintRouteModelC6TraitsO
+- _symbolic _____ 12NewsArticles25RecipeContentPrefetchItemO
+- _symbolic _____ 12NewsArticles25RecipeRecirculationConfigV
+- _symbolic _____ 12NewsArticles25RecipeRecirculationConfigV10CodingKeys33_4D5EC3819B571AB890A62E9043AF13E2LLO
+- _symbolic _____ 12NewsArticles25ReportConcernDetailModuleC
+- _symbolic _____ 12NewsArticles25ReportConcernDetailRouterC
+- _symbolic _____ 12NewsArticles25ReportConcernDetailStylerC
+- _symbolic _____ 12NewsArticles25ReportConcernEventHandlerC
+- _symbolic _____ 12NewsArticles25SaveArticleFeatureContextV
+- _symbolic _____ 12NewsArticles25TableOfContentsAutomationV
+- _symbolic _____ 12NewsArticles25TableOfContentsAutomationV10CodingKeys33_8C34C468B40F88B06EB013AA6BE535F6LLO
+- _symbolic _____ 12NewsArticles25TableOfContentsGridLayoutV
+- _symbolic _____ 12NewsArticles25TableOfContentsGridLayoutV0G10AttributesV
+- _symbolic _____ 12NewsArticles25TableOfContentsGridLayoutV0G10AttributesV10CodingKeys33_4A567A76E85857E0ABD82E7109612A0FLLO
+- _symbolic _____ 12NewsArticles25TableOfContentsHeaderViewC
+- _symbolic _____ 12NewsArticles25TableOfContentsInteractorC
+- _symbolic _____ 12NewsArticles25TableOfContentsURLHandlerC
+- _symbolic _____ 12NewsArticles26ArticleBlueprintRouteModelC
+- _symbolic _____ 12NewsArticles26ArticleBottomPaletteActionO
+- _symbolic _____ 12NewsArticles26ArticleBottomPaletteStylerC
+- _symbolic _____ 12NewsArticles26ArticlePreviewServiceErrorO
+- _symbolic _____ 12NewsArticles26ArticleRecirculationConfigV
+- _symbolic _____ 12NewsArticles26ArticleRecirculationConfigV0C10CollectionO
+- _symbolic _____ 12NewsArticles26ArticleRecirculationConfigV0C10CollectionO06ScoredC0V
+- _symbolic _____ 12NewsArticles26ArticleRecirculationConfigV0C10CollectionO06ScoredC0V10CodingKeys33_A700CA37AD4C8985A0F00794853DC68ELLO
+- _symbolic _____ 12NewsArticles26ArticleRecirculationConfigV0C10CollectionO0cF11CodingErrorO
+- _symbolic _____ 12NewsArticles26ArticleRecirculationConfigV0C8ProviderO
+- _symbolic _____ 12NewsArticles26ArticleRecirculationConfigV0C8ProviderO0cF11CodingErrorO
+- _symbolic _____ 12NewsArticles26ArticleRecirculationConfigV0C8ProviderO10CodingKeys33_C7C3333ADA94C5ADB670AC07D035752ALLO
+- _symbolic _____ 12NewsArticles26ArticleRecirculationConfigV10CodingKeys33_8362A60A3A04FBA9C2D4EC6157A0DA3CLLO
+- _symbolic _____ 12NewsArticles26ArticleRecirculationConfigV12FilterOptionO
+- _symbolic _____ 12NewsArticles26ArticleRecirculationConfigV12OptionalRuleO
+- _symbolic _____ 12NewsArticles26ArticleRecirculationConfigV13OrderByOptionO
+- _symbolic _____ 12NewsArticles26ArticleRecirculationConfigV13SectionQuotasV
+- _symbolic _____ 12NewsArticles26ArticleRecirculationConfigV13SectionQuotasV10CodingKeys33_6A03A7338ED73D341DA8684171823AD2LLO
+- _symbolic _____ 12NewsArticles26ArticleRecirculationConfigV14RuleCollectionO
+- _symbolic _____ 12NewsArticles26ArticleRecirculationConfigV14RuleCollectionO0fG11CodingErrorO
+- _symbolic _____ 12NewsArticles26ArticleRecirculationConfigV14RuleCollectionO10CodingKeys33_B8C166021A6D623D8CFF4D68A435DE80LLO
+- _symbolic _____ 12NewsArticles26ArticleRecirculationConfigV4RuleV
+- _symbolic _____ 12NewsArticles26ArticleRecirculationConfigV4RuleV10CodingKeys33_C1D3CFCA788C9311ED0273E0320AB166LLO
+- _symbolic _____ 12NewsArticles26ArticleRecirculationConfigV4RuleV20ScoringConfigurationV
+- _symbolic _____ 12NewsArticles26ArticleRecirculationConfigV4RuleV20ScoringConfigurationV10CodingKeys33_C1D3CFCA788C9311ED0273E0320AB166LLO
+- _symbolic _____ 12NewsArticles26ArticleRecirculationConfigV5QueryO
+- _symbolic _____ 12NewsArticles26ArticleRecirculationConfigV7SectionO
+- _symbolic _____ 12NewsArticles26ArticleRecirculationConfigV7SectionO09SpecifiedF0V
+- _symbolic _____ 12NewsArticles26ArticleRecirculationConfigV7SectionO09SpecifiedF0V10CodingKeys33_6F180286423B2195C6C9B56C89BDECF7LLO
+- _symbolic _____ 12NewsArticles26ArticleRecirculationConfigV7SectionO0F11CodingErrorO
+- _symbolic _____ 12NewsArticles26ArticleRecirculationConfigV7SectionO0F4TypeO
+- _symbolic _____ 12NewsArticles26ArticleRecirculationConfigV7SectionO11HeaderStyleO
+- _symbolic _____ 12NewsArticles26ArticleRecirculationConfigV7SectionO22GroupSizeConfigurationV
+- _symbolic _____ 12NewsArticles26ArticleRecirculationConfigV7SectionO22GroupSizeConfigurationV10CodingKeys33_6F180286423B2195C6C9B56C89BDECF7LLO
+- _symbolic _____ 12NewsArticles26ArticleRecirculationConfigV8SectionsV
+- _symbolic _____ 12NewsArticles26ArticleRecirculationConfigV8SectionsV10CodingKeys33_6F180286423B2195C6C9B56C89BDECF7LLO
+- _symbolic _____ 12NewsArticles26ArticleViewerBarButtonItemV
+- _symbolic _____ 12NewsArticles26ArticleViewerFeatureActionO
+- _symbolic _____ 12NewsArticles26AudioArticleMessageUpdaterC
+- _symbolic _____ 12NewsArticles26BlueprintRecipeViewerTokenC
+- _symbolic _____ 12NewsArticles26EndOfArticleFeedGroupKnobsV
+- _symbolic _____ 12NewsArticles26EndOfArticleFeedGroupKnobsV10CodingKeys33_AEE97B5F86650460890742AB2F2364ECLLO
+- _symbolic _____ 12NewsArticles26EndOfArticleSectionFactoryC
+- _symbolic _____ 12NewsArticles26EndOfArticleViewControllerC
+- _symbolic _____ 12NewsArticles26EndOfRecipeFeedGapLocationO
+- _symbolic _____ 12NewsArticles26EndOfRecipeFeedGroupConfigO
+- _symbolic _____ 12NewsArticles26EndOfRecipeFeedGroupConfigO10CodingKeys33_949D7D4DF29B0FB32B25235D24046935LLO
+- _symbolic _____ 12NewsArticles26EndOfRecipeFeedGroupConfigO10CodingType33_949D7D4DF29B0FB32B25235D24046935LLO
+- _symbolic _____ 12NewsArticles26EndOfRecipeFeedKnobsConfigV
+- _symbolic _____ 12NewsArticles26EndOfRecipeFeedKnobsConfigV10CodingKeys33_3D870C9C1BBB315FF0A33A13447C52D7LLO
+- _symbolic _____ 12NewsArticles26EndOfRecipeFeedPoolServiceC
+- _symbolic _____ 12NewsArticles26InterstitialAdEventHandlerC
+- _symbolic _____ 12NewsArticles26InterstitialAdModelFactoryC
+- _symbolic _____ 12NewsArticles26IssuePDFReplicaPageServiceC
+- _symbolic _____ 12NewsArticles26IssuePDFReplicaPageServiceC6ErrorsO
+- _symbolic _____ 12NewsArticles26IssueTableOfContentsActionO
+- _symbolic _____ 12NewsArticles26IssueTableOfContentsModuleC
+- _symbolic _____ 12NewsArticles26IssueTableOfContentsModuleC0C5ErrorO
+- _symbolic _____ 12NewsArticles26MarkAsCookedCommandHandlerC
+- _symbolic _____ 12NewsArticles26ModalArticleViewerAssemblyC
+- _symbolic _____ 12NewsArticles26NoPlayingAudioInfoProviderC
+- _symbolic _____ 12NewsArticles26OpenInSafariCommandHandlerC
+- _symbolic _____ 12NewsArticles26PDFReplicaViewerInteractorC
+- _symbolic _____ 12NewsArticles26PDFReplicaViewerPageMarkerV
+- _symbolic _____ 12NewsArticles26RecipeCardPlacementContextV
+- _symbolic _____ 12NewsArticles26RecipeCoordinatorContainerC
+- _symbolic _____ 12NewsArticles26RecipeRecirculationSectionO
+- _symbolic _____ 12NewsArticles26RecipeRecirculationServiceC
+- _symbolic _____ 12NewsArticles26RecipeRecirculationServiceC6ErrorsO
+- _symbolic _____ 12NewsArticles26RecipeViewerViewControllerC
+- _symbolic _____ 12NewsArticles26RecipeViewerViewControllerC5Event33_8BD4E40FB96FB5E702789588E749BEE0LLO
+- _symbolic _____ 12NewsArticles26ReplicaAdvertisementStylerC
+- _symbolic _____ 12NewsArticles26SearchInArticleTextToolBarC
+- _symbolic _____ 12NewsArticles26SubscriptionStatusOverrideO
+- _symbolic _____ 12NewsArticles26SubscriptionStatusProviderC
+- _symbolic _____ 12NewsArticles26TableOfContentsLayoutModelO
+- _symbolic _____ 12NewsArticles26TableOfContentsPDFCellViewC
+- _symbolic _____ 12NewsArticles27ArticleBlueprintRouteResultV
+- _symbolic _____ 12NewsArticles27ArticleBottomPaletteContextV
+- _symbolic _____ 12NewsArticles27ArticleRecirculationServiceC
+- _symbolic _____ 12NewsArticles27ArticleRecirculationServiceC10scoredSort33_79D6CBE0699DE2160DF3DCEF60CD9FBDLL3for10itemScores012personalizedQ05alphaSayAA05EndOfC4ItemOGAL_SDySSSdGSay0A4Feed0w6ScoredV0VGSdtF0xV0L_V
+- _symbolic _____ 12NewsArticles27ArticleRecirculationServiceC11MergeResultV
+- _symbolic _____ 12NewsArticles27ArticleViewerBarButtonGroupV
+- _symbolic _____ 12NewsArticles27ArticleViewerFeatureManagerC
+- _symbolic _____ 12NewsArticles27ArticleViewerFeatureManagerC0E15ProviderWrapper33_21B94012A68AC1CB22AFD9FE166F6193LLC
+- _symbolic _____ 12NewsArticles27ArticleViewerPageItemActionO
+- _symbolic _____ 12NewsArticles27ArticleViewerViewControllerC
+- _symbolic _____ 12NewsArticles27ArticleViewerViewControllerC15AppearanceStateO
+- _symbolic _____ 12NewsArticles27ArticleViewerViewControllerC19NarrativeAudioState33_F478AAD21120CB51E42B62988BC310EFLLO
+- _symbolic _____ 12NewsArticles27ArticleViewerViewControllerC5Event33_F478AAD21120CB51E42B62988BC310EFLLO
+- _symbolic _____ 12NewsArticles27BlueprintArticleViewerTokenC
+- _symbolic _____ 12NewsArticles27BrandBarNavigationAnimationC
+- _symbolic _____ 12NewsArticles27CampaignLandingPageAssemblyC
+- _symbolic _____ 12NewsArticles27ContextArticleViewerFeatureV
+- _symbolic _____ 12NewsArticles27ContextArticleViewerFeatureV15ExclusionGroupsV
+- _symbolic _____ 12NewsArticles27DisabledNowPlayingPresenterC
+- _symbolic _____ 12NewsArticles27EndOfArticleFeedGapLocationO
+- _symbolic _____ 12NewsArticles27EndOfArticleFeedGroupConfigO
+- _symbolic _____ 12NewsArticles27EndOfArticleFeedGroupConfigO10CodingKeys33_0AC3F2366D129ED8A4A140AD833D0A11LLO
+- _symbolic _____ 12NewsArticles27EndOfArticleFeedGroupConfigO10CodingType33_0AC3F2366D129ED8A4A140AD833D0A11LLO
+- _symbolic _____ 12NewsArticles27EndOfArticleFeedKnobsConfigV
+- _symbolic _____ 12NewsArticles27EndOfArticleFeedKnobsConfigV10CodingKeys33_B8FA312608AC3A200CCB30174A975EE8LLO
+- _symbolic _____ 12NewsArticles27EndOfArticleFeedPoolServiceC
+- _symbolic _____ 12NewsArticles27EndOfArticleSectionPositionO
+- _symbolic _____ 12NewsArticles27InterstitialAdManagerErrorsO
+- _symbolic _____ 12NewsArticles27InterstitialAdManagerErrorsO13DiscardReasonO
+- _symbolic _____ 12NewsArticles27InterstitialAdPreviewModuleC
+- _symbolic _____ 12NewsArticles27InterstitialAdPreviewRouterC
+- _symbolic _____ 12NewsArticles27InterstitialAdPreviewStylerC
+- _symbolic _____ 12NewsArticles27IssueReadingHistoryRecorderC
+- _symbolic _____ 12NewsArticles27OfferUpsellScenarioAssemblyC
+- _symbolic _____ 12NewsArticles27OfferUpsellScenarioOverrideO
+- _symbolic _____ 12NewsArticles27OfferUpsellScenarioProviderC
+- _symbolic _____ 12NewsArticles27PDFReplicaViewerDataManagerC
+- _symbolic _____ 12NewsArticles27PDFReplicaViewerReplicaPageV
+- _symbolic _____ 12NewsArticles27RecipeArticleDrawerAssemblyC
+- _symbolic _____ 12NewsArticles27RecipeNotesEditorRouteModelV
+- _symbolic _____ 12NewsArticles27ReloadArticleCommandHandlerC
+- _symbolic _____ 12NewsArticles27ReportConcernCommandHandlerC
+- _symbolic _____ 12NewsArticles27ReportConcernDetailAssemblyC
+- _symbolic _____ 12NewsArticles27ReportConcernViewControllerC
+- _symbolic _____ 12NewsArticles27TableOfContentsColorPaletteV
+- _symbolic _____ 12NewsArticles27TableOfContentsEventHandlerC
+- _symbolic _____ 12NewsArticles28AIHeaderViewControllerStylerC
+- _symbolic _____ 12NewsArticles28AlertLiveCoverageUnavailableV
+- _symbolic _____ 12NewsArticles28AlertOpenBlockedStoryFactoryC
+- _symbolic _____ 12NewsArticles28ArticleBlueprintRouteRequestV
+- _symbolic _____ 12NewsArticles28ArticleProviderServiceResultO
+- _symbolic _____ 12NewsArticles28ArticleScrollPositionManagerC
+- _symbolic _____ 12NewsArticles28ArticleViewerAppStateMonitorC
+- _symbolic _____ 12NewsArticles28ArticleViewerBarButtonLayoutV
+- _symbolic _____ 12NewsArticles28AudioNowPlayingPlaybackStateO
+- _symbolic _____ 12NewsArticles28AudioPlaybackUpdateFrequencyV
+- _symbolic _____ 12NewsArticles28EndOfRecipeFeedConfigManagerC
+- _symbolic _____ 12NewsArticles28EndOfRecipeFeedConfigManagerC5Error33_EBEC51F8F83739875569C8068A959D89LLO
+- _symbolic _____ 12NewsArticles28EndOfRecipeFeedContentConfigV
+- _symbolic _____ 12NewsArticles28EndOfRecipeFeedContentConfigV10CodingKeys33_5C826CE817E688AA056DC0AA51342E99LLO
+- _symbolic _____ 12NewsArticles28EndOfRecipeFeedServiceConfigV
+- _symbolic _____ 12NewsArticles28EndOfRecipeSectionDescriptorO
+- _symbolic _____ 12NewsArticles28InterstitialAdPreviewTrackerC
+- _symbolic _____ 12NewsArticles28InterstitialAdViewControllerC
+- _symbolic _____ 12NewsArticles28ModalArticleViewerInteractorC
+- _symbolic _____ 12NewsArticles28PDFReplicaViewerColorPaletteV
+- _symbolic _____ 12NewsArticles28PDFReplicaViewerEventHandlerC
+- _symbolic _____ 12NewsArticles28PDFReplicaViewerMenuProviderC
+- _symbolic _____ 12NewsArticles28RecipeArticleDrawerViewModelC
+- _symbolic _____ 12NewsArticles28RecipeArticleDrawerViewModelC0C0V
+- _symbolic _____ 12NewsArticles28RecipeArticleDrawerViewModelC0C9ThumbnailV
+- _symbolic _____ 12NewsArticles28RecipeArticleDrawerViewModelC0cE5StateO
+- _symbolic _____ 12NewsArticles28RecipeBannerAdViewControllerC
+- _symbolic _____ 12NewsArticles28RecipeBannerAdViewControllerC6ErrorsO
+- _symbolic _____ 12NewsArticles28RelatedEndOfArticleFeedGroupV
+- _symbolic _____ 12NewsArticles28UserConcernConfigFetchResultV
+- _symbolic _____ 12NewsArticles29ANFDebugLayoutOptionsProviderC
+- _symbolic _____ 12NewsArticles29ArticleReadingHistoryRecorderC
+- _symbolic _____ 12NewsArticles29ArticleThumbnailComponentViewC
+- _symbolic _____ 12NewsArticles29ArticleVideoAdProviderFactoryC
+- _symbolic _____ 12NewsArticles29AudioArticleViewerMessageTextV
+- _symbolic _____ 12NewsArticles29CampaignLandingPageInteractorC
+- _symbolic _____ 12NewsArticles29EndOfArticleFeedConfigManagerC
+- _symbolic _____ 12NewsArticles29EndOfArticleFeedConfigManagerC6ErrorsO
+- _symbolic _____ 12NewsArticles29EndOfArticleFeedContentConfigV
+- _symbolic _____ 12NewsArticles29EndOfArticleFeedContentConfigV10CodingKeys33_A590BC8695AED1D15AF5AB56A5620C20LLO
+- _symbolic _____ 12NewsArticles29EndOfArticleFeedServiceConfigV
+- _symbolic _____ 12NewsArticles29EndOfArticleSectionDescriptorO
+- _symbolic _____ 12NewsArticles29EndOfRecipeFeedServiceContextV
+- _symbolic _____ 12NewsArticles29InterstitialAdHistoryRecorderC
+- _symbolic _____ 12NewsArticles29InterstitialAdPreviewAssemblyC
+- _symbolic _____ 12NewsArticles29InterstitialAdvertisementPageV
+- _symbolic _____ 12NewsArticles29MoreFromEndOfArticleFeedGroupV
+- _symbolic _____ 12NewsArticles29NowPlayingPresentationRequestV
+- _symbolic _____ 12NewsArticles29PDFReplicaViewerFeatureActionO
+- _symbolic _____ 12NewsArticles29ProxyAuthenticationKeyManagerC
+- _symbolic _____ 12NewsArticles29ProxyAuthenticationKeyManagerC6Errors33_575492171AA326AD26415D0F29E3E0C8LLO
+- _symbolic _____ 12NewsArticles29RecipeUnitInspectorRouteModelV
+- _symbolic _____ 12NewsArticles29RecipeViewerBlueprintProviderC
+- _symbolic _____ 12NewsArticles29ReportConcernDetailInteractorC
+- _symbolic _____ 12NewsArticles29SearchInArticleViewControllerC
+- _symbolic _____ 12NewsArticles29SharingCompleteCommandHandlerC
+- _symbolic _____ 12NewsArticles29SponsoredHeaderViewControllerC
+- _symbolic _____ 12NewsArticles29SubscribePostPurchaseBehaviorO
+- _symbolic _____ 12NewsArticles29SubscribePostPurchaseBehaviorO19SupplementaryActionO
+- _symbolic _____ 12NewsArticles29TableOfContentsViewControllerC
+- _symbolic _____ 12NewsArticles29TagSubscriptionStatusAssemblyC
+- _symbolic _____ 12NewsArticles29TagSubscriptionStatusOverrideO
+- _symbolic _____ 12NewsArticles29TagSubscriptionStatusProviderC
+- _symbolic _____ 12NewsArticles29TextSizeControlViewControllerC
+- _symbolic _____ 12NewsArticles30AIHeaderViewControllerRendererC
+- _symbolic _____ 12NewsArticles30ArticleThumbnailComponentSizerC
+- _symbolic _____ 12NewsArticles30ArticleViewerBlueprintProviderC
+- _symbolic _____ 12NewsArticles30ArticleViewerFeatureTransitionO
+- _symbolic _____ 12NewsArticles30ArticleViewerImpressionManagerC
+- _symbolic _____ 12NewsArticles30ArticleViewerMenuProviderModelV
+- _symbolic _____ 12NewsArticles30AudioMediaServicesResetHandlerC
+- _symbolic _____ 12NewsArticles30DarkModeColorInversionBehaviorO
+- _symbolic _____ 12NewsArticles30EndOfArticleFeedServiceContextV
+- _symbolic _____ 12NewsArticles30EndOfArticleSectionHeaderStyleO
+- _symbolic _____ 12NewsArticles30IssueTableOfContentsPostActionO
+- _symbolic _____ 12NewsArticles30ModalArticleViewerEventHandlerC
+- _symbolic _____ 12NewsArticles30PDFReplicaViewerViewControllerC
+- _symbolic _____ 12NewsArticles30PDFReplicaViewerViewControllerC5EventO
+- _symbolic _____ 12NewsArticles30RecipeContentPrefetchOperationC
+- _symbolic _____ 12NewsArticles30RecipeContentPrefetchOperationC11RequestKindO
+- _symbolic _____ 12NewsArticles30RecipeContentPrefetchOperationC5Error33_ADA7F258D9E662ABE39586398C19D399LLO
+- _symbolic _____ 12NewsArticles30RecipeRecirculationFetchResultV
+- _symbolic _____ 12NewsArticles30ReportConcernDetailDataManagerC
+- _symbolic _____ 12NewsArticles30ReportConcernDetailLayoutModelO
+- _symbolic _____ 12NewsArticles30ReportConcernSectionDescriptorO
+- _symbolic _____ 12NewsArticles30SubscriptionButtonTextProviderC
+- _symbolic _____ 12NewsArticles30TableOfContentsHeaderViewModelV
+- _symbolic _____ 12NewsArticles30WebContentLoadEventTransformerC
+- _symbolic _____ 12NewsArticles30WebContentLoadEventTransformerC0G5ErrorO
+- _symbolic _____ 12NewsArticles31ArticleBannerAdPlacementFactoryC
+- _symbolic _____ 12NewsArticles31ArticleBannerAdRequesterFactoryC
+- _symbolic _____ 12NewsArticles31ArticleListeningProgressManagerC
+- _symbolic _____ 12NewsArticles31ArticleListeningProgressManagerC11Observation33_EA2F21286EC6B4F2AB075E81B782BCEFLLV
+- _symbolic _____ 12NewsArticles31ArticleLoadingIndicatorProviderC
+- _symbolic _____ 12NewsArticles31ArticleRecirculationFetchConfigO
+- _symbolic _____ 12NewsArticles31ArticleViewerFeatureAppearStateO
+- _symbolic _____ 12NewsArticles31ArticleViewerMoreFeatureContextV
+- _symbolic _____ 12NewsArticles31ArticleViewerPageItemPostActionO
+- _symbolic _____ 12NewsArticles31AudioArtworkImageRequestFactoryC
+- _symbolic _____ 12NewsArticles31AudioRemoteCommandCenterManagerC
+- _symbolic _____ 12NewsArticles31AudioRemoteCommandCenterManagerC13PlaybackState33_AD6F67236CF23EE283A92C73040C04E1LLV
+- _symbolic _____ 12NewsArticles31AudioSessionInterruptionHandlerC
+- _symbolic _____ 12NewsArticles31BlueprintRecipeViewerTokenState33_4BC89CB3D96B763EF772AC751768F543LLO
+- _symbolic _____ 12NewsArticles31CampaignLandingPageEventHandlerC
+- _symbolic _____ 12NewsArticles31CookingKitOfflineStatusProviderC
+- _symbolic _____ 12NewsArticles31CookingKitOfflineStatusProviderC8Observer33_EF59ED90E032401F143361A339AB6799LLC
+- _symbolic _____ 12NewsArticles31EndOfArticlePresentationOptionsC
+- _symbolic _____ 12NewsArticles31EndOfRecipeUpdatePluginModifierV
+- _symbolic _____ 12NewsArticles31EndOfRecipeUpdatePluginModifierV5Error33_E54D3FCC7EAA65FE8F6E41F106215D8ELLO
+- _symbolic _____ 12NewsArticles31InterstitialAdPreviewInteractorC
+- _symbolic _____ 12NewsArticles31InterstitialAdPreviewInteractorC6ErrorsO
+- _symbolic _____ 12NewsArticles31MoreToReadEndOfArticleFeedGroupV
+- _symbolic _____ 12NewsArticles31PDFReplicaBarVisibilityAnimatorC
+- _symbolic _____ 12NewsArticles31PostPurchaseOnboardingPrewarmerC
+- _symbolic _____ 12NewsArticles31RecipeBlueprintRouteModelResultV
+- _symbolic _____ 12NewsArticles31RemoveFromHistoryCommandHandlerC
+- _symbolic _____ 12NewsArticles31ReportConcernDetailEventHandlerC
+- _symbolic _____ 12NewsArticles31TableOfContentsHeaderViewLayoutV
+- _symbolic _____ 12NewsArticles31TableOfContentsHeaderViewLayoutV0H10AttributesV
+- _symbolic _____ 12NewsArticles31TableOfContentsHeaderViewLayoutV0H10AttributesV10CodingKeys33_47FBA7E359775C445BE4699F076C8043LLO
+- _symbolic _____ 12NewsArticles31TableOfContentsHeaderViewLayoutV7ContextV
+- _symbolic _____ 12NewsArticles31TableOfContentsHeaderViewStylerC
+- _symbolic _____ 12NewsArticles31TableOfContentsPDFCellViewModelV
+- _symbolic _____ 12NewsArticles31URLPreviewViewControllerFactoryC
+- _symbolic _____ 12NewsArticles32AnalyticsEventTransformerManagerC
+- _symbolic _____ 12NewsArticles32AnalyticsEventTransformerManagerC0eF5ErrorO
+- _symbolic _____ 12NewsArticles32ArticleBlueprintGroupDataContextO
+- _symbolic _____ 12NewsArticles32ArticleRecirculationServiceErrorO
+- _symbolic _____ 12NewsArticles32ArticleViewerAudioFeatureContextV
+- _symbolic _____ 12NewsArticles32ArticleViewerBlueprintRouteModelC
+- _symbolic _____ 12NewsArticles32ArticleViewerOverflowMenuContextV
+- _symbolic _____ 12NewsArticles32ArticleViewerShareFeatureContextV
+- _symbolic _____ 12NewsArticles32ArticleViewerShareFeatureContextV4PageO
+- _symbolic _____ 12NewsArticles32AudioCompletedListeningProcessorC
+- _symbolic _____ 12NewsArticles32AudioNowPlayingInfoCenterManagerC
+- _symbolic _____ 12NewsArticles32BlueprintArticleViewerTokenState33_AD3CF8001B1619FAA895FDE1E5FCA757LLO
+- _symbolic _____ 12NewsArticles32CookingKitExternalRecipeHydratorC
+- _symbolic _____ 12NewsArticles32EndOfRecipeFeedConfigFetchResultV
+- _symbolic _____ 12NewsArticles32InterstitialAdPreviewDataManagerC
+- _symbolic _____ 12NewsArticles32LikeDislikeArticleFeatureContextV
+- _symbolic _____ 12NewsArticles32LinkTapAnalyticsEventTransformerC
+- _symbolic _____ 12NewsArticles32LinkTapAnalyticsEventTransformerC0G5ErrorO
+- _symbolic _____ 12NewsArticles32ModalArticleViewerViewControllerC
+- _symbolic _____ 12NewsArticles32MoreArticleViewerFeatureProviderC
+- _symbolic _____ 12NewsArticles32RecipeBlueprintRouteModelRequestV
+- _symbolic _____ 12NewsArticles32RecipeRatingsInspectorRouteModelV
+- _symbolic _____ 12NewsArticles32RecipeRecirculationConfigSectionV
+- _symbolic _____ 12NewsArticles32RecipeRecirculationConfigSectionV10CodingKeys33_6AE5DDE703C846F6DFBA9495713F1E3ELLO
+- _symbolic _____ 12NewsArticles32RecipeScalingInspectorRouteModelV
+- _symbolic _____ 12NewsArticles32RecipeViewerBarButtonItemFactoryC
+- _symbolic _____ 12NewsArticles32RecipeViewerPageBlueprintFactoryC
+- _symbolic _____ 12NewsArticles32RecommendedEndOfArticleFeedGroupV
+- _symbolic _____ 12NewsArticles32SaveArticleViewerFeatureProviderC
+- _symbolic _____ 12NewsArticles32TableOfContentsPDFCellViewLayoutV
+- _symbolic _____ 12NewsArticles32TableOfContentsPDFCellViewLayoutV0H10AttributesV
+- _symbolic _____ 12NewsArticles32TableOfContentsPDFCellViewLayoutV0H10AttributesV10CodingKeys33_D16FAEAD88BE00834D8DFA0063370702LLO
+- _symbolic _____ 12NewsArticles32TableOfContentsPDFCellViewLayoutV7ContextV
+- _symbolic _____ 12NewsArticles32TableOfContentsPDFCellViewStylerC
+- _symbolic _____ 12NewsArticles32TableOfContentsSectionDescriptorO
+- _symbolic _____ 12NewsArticles33AnalyticsMediaEngageCompletedDataV
+- _symbolic _____ 12NewsArticles33ArticleBlueprintRouteModelFactoryC
+- _symbolic _____ 12NewsArticles33ArticleMastheadRootViewControllerC
+- _symbolic _____ 12NewsArticles33ArticleRecirculationConfigFactoryC
+- _symbolic _____ 12NewsArticles33ArticleRecirculationConfigFactoryC12RealizedRuleV
+- _symbolic _____ 12NewsArticles33ArticleThumbnailComponentAssemblyC
+- _symbolic _____ 12NewsArticles33ArticleViewerBarButtonLayoutErrorO
+- _symbolic _____ 12NewsArticles33ArticleViewerFeatureUpdateOptionsV
+- _symbolic _____ 12NewsArticles33ArticleViewerOverflowMenuProviderC
+- _symbolic _____ 12NewsArticles33ArticleViewerPageBlueprintFactoryC
+- _symbolic _____ 12NewsArticles33ArticleViewerPageBlueprintFactoryC6ErrorsO
+- _symbolic _____ 12NewsArticles33ArticleViewerRecipeFeatureContextV
+- _symbolic _____ 12NewsArticles33ArticleViewerRecipeFeatureContextV4PageO
+- _symbolic _____ 12NewsArticles33AudioArticleViewerFeatureProviderC
+- _symbolic _____ 12NewsArticles33BlueprintRecipeViewerTokenSessionC
+- _symbolic _____ 12NewsArticles33CampaignLandingPageViewControllerC
+- _symbolic _____ 12NewsArticles33EndOfArticleFeedConfigFetchResultV
+- _symbolic _____ 12NewsArticles33EndOfArticleQuotaSatisfierFactoryV
+- _symbolic _____ 12NewsArticles33EndOfArticleQuotaSatisfierFactoryV09AppConfigfG0V
+- _symbolic _____ 12NewsArticles33EndOfArticleQuotaSatisfierFactoryV09AppConfigfG0V10ValidationO
+- _symbolic _____ 12NewsArticles33EndOfArticleQuotaSatisfierFactoryV0e13RecirculationfG0V
+- _symbolic _____ 12NewsArticles33EndOfArticleQuotaSatisfierFactoryV0e13RecirculationfG0V10ValidationO
+- _symbolic _____ 12NewsArticles33EndOfRecipeBlueprintLayoutBuilderC
+- _symbolic _____ 12NewsArticles33EndOfRecipeViewControllerProviderC
+- _symbolic _____ 12NewsArticles33ExportToGroceryListCommandHandlerC
+- _symbolic _____ 12NewsArticles33InterstitialAdPreviewEventHandlerC
+- _symbolic _____ 12NewsArticles33IssueTableOfContentsActionHandlerC
+- _symbolic _____ 12NewsArticles33PDFReplicaViewerPrewarmerProviderC
+- _symbolic _____ 12NewsArticles33RecipeArticleDrawerViewControllerC
+- _symbolic _____ 12NewsArticles33RecipeRecirculationConfigOrderingO
+- _symbolic _____ 12NewsArticles33RelatedEndOfArticleFeedGroupKnobsV
+- _symbolic _____ 12NewsArticles33RelatedEndOfArticleFeedGroupKnobsV10CodingKeys33_C0776E7468D3B32A7AA117D61EE69FBELLO
+- _symbolic _____ 12NewsArticles33ReportConcernDetailCommandHandlerC
+- _symbolic _____ 12NewsArticles33ReportConcernDetailViewControllerC
+- _symbolic _____ 12NewsArticles33ShareArticleViewerFeatureProviderC
+- _symbolic _____ 12NewsArticles33SharedWithYouHeaderViewControllerC
+- _symbolic _____ 12NewsArticles33TableOfContentsHeaderViewRendererC
+- _symbolic _____ 12NewsArticles33UnthrottledContentPrefetchManager33_A980B14E2B39EF8B6827173E8EE57D71LLC
+- _symbolic _____ 12NewsArticles34ArticleBottomPalettePluginProviderC
+- _symbolic _____ 12NewsArticles34ArticleBottomPaletteViewControllerC
+- _symbolic _____ 12NewsArticles34ArticleNavigationBarPaletteContentC
+- _symbolic _____ 12NewsArticles34ArticleViewerPageFeaturePostActionO
+- _symbolic _____ 12NewsArticles34ArticleViewerPagePrewarmerProviderC
+- _symbolic _____ 12NewsArticles34BlueprintArticleViewerTokenSessionC
+- _symbolic _____ 12NewsArticles34CombinedArticleRecirculationConfigV
+- _symbolic _____ 12NewsArticles34CombinedArticleRecirculationConfigV7SectionV
+- _symbolic _____ 12NewsArticles34CombinedArticleRecirculationConfigV7SectionV0cdeG5ErrorO
+- _symbolic _____ 12NewsArticles34DeeplinkArticlePresentationContextO
+- _symbolic _____ 12NewsArticles34EndOfArticleBlueprintLayoutBuilderC
+- _symbolic _____ 12NewsArticles34EndOfRecipeFeedGroupEmitterFactoryC
+- _symbolic _____ 12NewsArticles34EndOfRecipeLayoutSectionDescriptorO
+- _symbolic _____ 12NewsArticles34EndOfRecipeLayoutSectionDescriptorO0F4DataV
+- _symbolic _____ 12NewsArticles34EndOfRecipeLayoutSectionDescriptorO10DecorationO
+- _symbolic _____ 12NewsArticles34EndOfRecipeLayoutSectionDescriptorO6FooterO
+- _symbolic _____ 12NewsArticles34EndOfRecipeLayoutSectionDescriptorO6HeaderO
+- _symbolic _____ 12NewsArticles34MediaViewAnalyticsEventTransformerC
+- _symbolic _____ 12NewsArticles34MediaViewAnalyticsEventTransformerC0G5ErrorO
+- _symbolic _____ 12NewsArticles34MoreFromEndOfArticleFeedGroupKnobsV
+- _symbolic _____ 12NewsArticles34MoreFromEndOfArticleFeedGroupKnobsV10CodingKeys33_DD27EEB13560CEABAEA11BF6D3B3C32CLLO
+- _symbolic _____ 12NewsArticles34MoreFromIssueEndOfArticleFeedGroupV
+- _symbolic _____ 12NewsArticles34OpenRatingsInspectorCommandHandlerC
+- _symbolic _____ 12NewsArticles34PDFReplicaBarVisibilityCoordinatorC
+- _symbolic _____ 12NewsArticles34PDFReplicaLoadingIndicatorProviderC
+- _symbolic _____ 12NewsArticles34RecipeArticleViewerFeatureProviderC
+- _symbolic _____ 12NewsArticles34RelatedRecipesEndOfRecipeFeedGroupV
+- _symbolic _____ 12NewsArticles34RelatedRecipesEndOfRecipeFeedGroupV10CodingKeys33_0A36BABE1DCB386952280C419163DB2BLLO
+- _symbolic _____ 12NewsArticles34SubscriptionAccessMeterIncrementerC
+- _symbolic _____ 12NewsArticles34TableOfContentsPDFCellViewRendererC
+- _symbolic _____ 12NewsArticles35AdPolicyViewportEnvironmentProviderC
+- _symbolic _____ 12NewsArticles35BrandBarToolbarCompressionAnimationC
+- _symbolic _____ 12NewsArticles35EndOfArticleFeedGroupEmitterFactoryC
+- _symbolic _____ 12NewsArticles35EndOfArticleLayoutSectionDescriptorO
+- _symbolic _____ 12NewsArticles35EndOfArticleLayoutSectionDescriptorO0F4DataV
+- _symbolic _____ 12NewsArticles35EndOfArticleLayoutSectionDescriptorO10DecorationO
+- _symbolic _____ 12NewsArticles35EndOfArticleLayoutSectionDescriptorO6FooterO
+- _symbolic _____ 12NewsArticles35EndOfArticleLayoutSectionDescriptorO6HeaderO
+- _symbolic _____ 12NewsArticles35EndOfRecipeBlueprintModifierFactoryC
+- _symbolic _____ 12NewsArticles35EndOfRecipeFeedServiceConfigFetcherC
+- _symbolic _____ 12NewsArticles35EndOfRecipeFeedServiceConfigFetcherC6ErrorsO
+- _symbolic _____ 12NewsArticles35EndOfRecipePrewarmBlueprintModifierV
+- _symbolic _____ 12NewsArticles35InterstitialAdPreviewViewControllerC
+- _symbolic _____ 12NewsArticles35InterstitialAdPreviewViewControllerC5EventO
+- _symbolic _____ 12NewsArticles35RelatedEndOfArticleFeedGroupEmitterC
+- _symbolic _____ 12NewsArticles35ReportConcernBlueprintLayoutBuilderC
+- _symbolic _____ 12NewsArticles35SponsoredHeaderViewControllerStylerC
+- _symbolic _____ 12NewsArticles36ANFIssueCoverLayoutAttributesFactoryC
+- _symbolic _____ 12NewsArticles36ArticleBottomPaletteFeatureViewModelV
+- _symbolic _____ 12NewsArticles36ArticleNavigationBarMessageContainerC
+- _symbolic _____ 12NewsArticles36ArticleNavigationBarMessageContainerC5State33_C03E0B959E775327989EE4DDE248085FLLO
+- _symbolic _____ 12NewsArticles36ArticleThumbnailComponentViewFactoryC
+- _symbolic _____ 12NewsArticles36ArticleViewerFeatureAnimationContextV
+- _symbolic _____ 12NewsArticles36ArticleViewerViewNavigationItemStashC
+- _symbolic _____ 12NewsArticles36EndOfArticleBlueprintModifierFactoryC
+- _symbolic _____ 12NewsArticles36EndOfArticleFeedServiceConfigFetcherC
+- _symbolic _____ 12NewsArticles36EndOfArticleFeedServiceConfigFetcherC6ErrorsO
+- _symbolic _____ 12NewsArticles36EndOfArticlePrewarmBlueprintModifierV
+- _symbolic _____ 12NewsArticles36EndOfRecipeBlueprintViewCellProviderC
+- _symbolic _____ 12NewsArticles36EndOfRecipeRelayoutBlueprintModifierV
+- _symbolic _____ 12NewsArticles36IssueEmbeddableViewControllerFactoryC
+- _symbolic _____ 12NewsArticles36MediaEngageAnalyticsEventTransformerC
+- _symbolic _____ 12NewsArticles36MediaEngageAnalyticsEventTransformerC0G5ErrorO
+- _symbolic _____ 12NewsArticles36ModalArticleViewerAudioActionHandlerC
+- _symbolic _____ 12NewsArticles36MoreFromEndOfArticleFeedGroupEmitterC
+- _symbolic _____ 12NewsArticles36MoreToReadEndOfArticleFeedGroupKnobsV
+- _symbolic _____ 12NewsArticles36MoreToReadEndOfArticleFeedGroupKnobsV10CodingKeys33_A1FD8FD040BDC18CA6907ADC6845297FLLO
+- _symbolic _____ 12NewsArticles36NewsletterSubscriptionStatusOverrideO
+- _symbolic _____ 12NewsArticles36NewsletterSubscriptionStatusProviderC
+- _symbolic _____ 12NewsArticles36PDFReplicaViewerPageBlueprintFactoryC
+- _symbolic _____ 12NewsArticles36RecipeBannerAdViewControllerProviderC
+- _symbolic _____ 12NewsArticles36ReportConcernDetailSectionDescriptorO
+- _symbolic _____ 12NewsArticles36ReportConcernLayoutSectionDescriptorO
+- _symbolic _____ 12NewsArticles37ANFIssueTableOfContentsViewControllerC
+- _symbolic _____ 12NewsArticles37ArticleThumbnailComponentSizerFactoryC
+- _symbolic _____ 12NewsArticles37EndOfArticleBlueprintViewCellProviderC
+- _symbolic _____ 12NewsArticles37RecipeRecirculationConfigFilterOptionO
+- _symbolic _____ 12NewsArticles37RecommendedEndOfArticleFeedGroupKnobsV
+- _symbolic _____ 12NewsArticles37RecommendedEndOfArticleFeedGroupKnobsV10CodingKeys33_49B16E142F4C34BD739446C2B1CD7C0ELLO
+- _symbolic _____ 12NewsArticles37ReportConcernBlueprintModifierFactoryC
+- _symbolic _____ 12NewsArticles37ReportConcernPrewarmBlueprintModifierV
+- _symbolic _____ 12NewsArticles37SponsoredHeaderViewControllerRendererC
+- _symbolic _____ 12NewsArticles37TableOfContentsBlueprintLayoutBuilderC
+- _symbolic _____ 12NewsArticles38ArticleScrollAnalyticsEventTransformerC
+- _symbolic _____ 12NewsArticles38ArticleScrollAnalyticsEventTransformerC0G5ErrorO
+- _symbolic _____ 12NewsArticles38AudioMiniPlayerPresentationStartupTaskC
+- _symbolic _____ 12NewsArticles38MediaExposureAnalyticsEventTransformerC
+- _symbolic _____ 12NewsArticles38MediaExposureAnalyticsEventTransformerC0G5ErrorO
+- _symbolic _____ 12NewsArticles38MoreToReadEndOfArticleFeedGroupEmitterC
+- _symbolic _____ 12NewsArticles38PDFReplicaViewerViewControllerProviderC
+- _symbolic _____ 12NewsArticles38RecipeViewerPageViewControllerProviderC
+- _symbolic _____ 12NewsArticles38RelatedEndOfArticleFeedGroupConfigDataV
+- _symbolic _____ 12NewsArticles38RelatedEndOfArticleFeedGroupConfigDataV10CodingKeys33_787A893CF48C0DDC7A7373CAB1B5C701LLO
+- _symbolic _____ 12NewsArticles38ReportConcernBlueprintViewCellProviderC
+- _symbolic _____ 12NewsArticles38TableOfContentsLayoutSectionDescriptorO
+- _symbolic _____ 12NewsArticles38TextResizeArticleViewerFeatureProviderC
+- _symbolic _____ 12NewsArticles39ArticleViewerPageViewControllerProviderC
+- _symbolic _____ 12NewsArticles39CombinedArticleRecirculationConfigError33_3F116B27C617D7D152D3C38EDE62A09FLLO
+- _symbolic _____ 12NewsArticles39LikeDislikeArticleViewerFeatureProviderC
+- _symbolic _____ 12NewsArticles39MoreFromEndOfArticleFeedGroupConfigDataV
+- _symbolic _____ 12NewsArticles39MoreFromEndOfArticleFeedGroupConfigDataV10CodingKeys33_3F58599B38932C47C8BF5D8EFF9751DCLLO
+- _symbolic _____ 12NewsArticles39MoreFromIssueEndOfArticleFeedGroupKnobsV
+- _symbolic _____ 12NewsArticles39MoreFromIssueEndOfArticleFeedGroupKnobsV10CodingKeys33_AB575331895D00DFF1B48A73E1197DB8LLO
+- _symbolic _____ 12NewsArticles39RecipeRecirculationConfigurationServiceC
+- _symbolic _____ 12NewsArticles39RecipeRecirculationConfigurationServiceC6Errors33_E69C37ED14770DD7AC9D5818930E913ELLO
+- _symbolic _____ 12NewsArticles39RecommendedEndOfArticleFeedGroupEmitterC
+- _symbolic _____ 12NewsArticles39RelatedRecipesEndOfRecipeFeedGroupKnobsV
+- _symbolic _____ 12NewsArticles39RelatedRecipesEndOfRecipeFeedGroupKnobsV10CodingKeys33_29DA04511DD0FFE92BB80F73EBEC11EALLO
+- _symbolic _____ 12NewsArticles39SharedWithYouHeaderViewControllerStylerC
+- _symbolic _____ 12NewsArticles39TableOfContentsBlueprintModifierFactoryC
+- _symbolic _____ 12NewsArticles39TableOfContentsPrewarmBlueprintModifierV
+- _symbolic _____ 12NewsArticles40ArticleRecirculationConfigurationServiceC
+- _symbolic _____ 12NewsArticles40CompositeTrackPlayerItemBoundaryOverrideO
+- _symbolic _____ 12NewsArticles40InsertAdvertisementPageBlueprintModifierC
+- _symbolic _____ 12NewsArticles40InsertAdvertisementPageBlueprintModifierC6ErrorsO
+- _symbolic _____ 12NewsArticles40OverflowMenuArticleViewerFeatureProviderC
+- _symbolic _____ 12NewsArticles40RemoveAdvertisementPageBlueprintModifierC
+- _symbolic _____ 12NewsArticles40ReportConcernBlueprintViewHeaderProviderC
+- _symbolic _____ 12NewsArticles40TableOfContentsBlueprintViewCellProviderC
+- _symbolic _____ 12NewsArticles41DeeplinkArticlePresentationContextServiceC
+- _symbolic _____ 12NewsArticles41MoreFromIssueEndOfArticleFeedGroupEmitterC
+- _symbolic _____ 12NewsArticles41MoreToReadEndOfArticleFeedGroupConfigDataV
+- _symbolic _____ 12NewsArticles41MoreToReadEndOfArticleFeedGroupConfigDataV10CodingKeys33_541C293586290724FE3516BF17F09261LLO
+- _symbolic _____ 12NewsArticles41RelatedRecipesEndOfRecipeFeedGroupEmitterV
+- _symbolic _____ 12NewsArticles41ReportConcernDetailBlueprintLayoutBuilderC
+- _symbolic _____ 12NewsArticles41SharedWithYouHeaderViewControllerRendererC
+- _symbolic _____ 12NewsArticles41SubscriptionActivationEligibilityOverrideO
+- _symbolic _____ 12NewsArticles42BarButtonItemArticleViewerFeatureViewModelV
+- _symbolic _____ 12NewsArticles42ComponentExposureAnalyticsEventTransformerC
+- _symbolic _____ 12NewsArticles42ComponentExposureAnalyticsEventTransformerC0G5ErrorO
+- _symbolic _____ 12NewsArticles42OverflowMenuArticleViewerFeatureTransitionC
+- _symbolic _____ 12NewsArticles42RecommendedEndOfArticleFeedGroupConfigDataV
+- _symbolic _____ 12NewsArticles42RecommendedEndOfArticleFeedGroupConfigDataV10CodingKeys33_00DB9962556236123B0EFA29CEF1332FLLO
+- _symbolic _____ 12NewsArticles42ReportConcernDetailLayoutSectionDescriptorO
+- _symbolic _____ 12NewsArticles42SaveArticleViewerFeatureVisibilityProviderC
+- _symbolic _____ 12NewsArticles43ArticleViewerBarCompressionAnimationFactoryC
+- _symbolic _____ 12NewsArticles43BarButtonItemArticleViewerFeatureTransitionV
+- _symbolic _____ 12NewsArticles43EmptyArticleViewerFeatureTransitionAnimatorC
+- _symbolic _____ 12NewsArticles43ReportConcernDetailBlueprintModifierFactoryC
+- _symbolic _____ 12NewsArticles43ReportConcernDetailPrewarmBlueprintModifierV
+- _symbolic _____ 12NewsArticles43ShareArticleViewerFeatureVisibilityProviderC
+- _symbolic _____ 12NewsArticles43SharedArticleBottomPaletteFeatureDescriptorC
+- _symbolic _____ 12NewsArticles44CookingKitOfflineContentAvailabilityProviderC
+- _symbolic _____ 12NewsArticles44MediaEngageCompleteAnalyticsEventTransformerC
+- _symbolic _____ 12NewsArticles44MediaEngageCompleteAnalyticsEventTransformerC0H5ErrorO
+- _symbolic _____ 12NewsArticles44MoreFromIssueEndOfArticleFeedGroupConfigDataV
+- _symbolic _____ 12NewsArticles44MoreFromIssueEndOfArticleFeedGroupConfigDataV10CodingKeys33_52CE53264831D57849A0719C1670B35ALLO
+- _symbolic _____ 12NewsArticles44RelatedRecipesEndOfRecipeFeedGroupConfigDataV
+- _symbolic _____ 12NewsArticles44RelatedRecipesEndOfRecipeFeedGroupConfigDataV10CodingKeys33_E008757EFEF6505D9FDE8121B1ED28ECLLO
+- _symbolic _____ 12NewsArticles44ReplicaAdvertisementLoadingIndicatorProviderC
+- _symbolic _____ 12NewsArticles44ReportConcernDefaultPrewarmBlueprintModifierV
+- _symbolic _____ 12NewsArticles44ReportConcernDetailBlueprintViewCellProviderC
+- _symbolic _____ 12NewsArticles45ArticleBottomPaletteFeatureComponentViewModelV
+- _symbolic _____ 12NewsArticles45RecipeRecirculationConfigSectionSelectionRuleV
+- _symbolic _____ 12NewsArticles45RecipeRecirculationConfigSectionSelectionRuleV10CodingKeys33_AF88CB04FB168206B2C5771362CCAAF7LLO
+- _symbolic _____ 12NewsArticles46OverflowMenuArticleViewerFeatureTransitionKindO
+- _symbolic _____ 12NewsArticles46ReportConcernDetailBlueprintViewHeaderProviderC
+- _symbolic _____ 12NewsArticles47ModalSaveArticleViewerFeatureVisibilityProviderC
+- _symbolic _____ 12NewsArticles49LikeDislikeArticleViewerFeatureVisibilityProviderC
+- _symbolic _____ 12NewsArticles49LiveCoverageArticleBottomPaletteFeatureDescriptorC
+- _symbolic _____ 12NewsArticles50ReportConcernDefaultRecipePrewarmBlueprintModifierV
+- _symbolic _____ 12NewsArticles51TableOfContentsSubscriptionChangedBlueprintModifierV
+- _symbolic _____ 12NewsArticles54ModalLikeDislikeArticleViewerFeatureVisibilityProviderC
+- _symbolic _____ 12NewsArticles5IssueO
+- _symbolic _____ 12NewsArticles6ImagesC
+- _symbolic _____ 12NewsArticles6RouterC
+- _symbolic _____ 12NewsArticles7ArticleV
+- _symbolic _____ 12NewsArticles7Tracker33_47DCD0B7BC3245DD6E140C66842EC9C2LLC
+- _symbolic _____ 12NewsArticles8ANFIssueV
+- _symbolic _____ 12NewsArticles8AssemblyC
+- _symbolic _____ 12NewsArticles8BrandBarC
+- _symbolic _____ 12NewsArticles9Localized33_20682026FDEE23AD802E861AE9DB5567LLC
+- _symbolic _____ 12NewsArticles9TipRouterC
+- _symbolic _____ 13TeaFoundation10UnfairLockC
+- _symbolic _____ 13TeaFoundation17URLHandlerPatternV8NewsFeedE4BaseV
+- _symbolic _____ 16NewsSubscription11PaywallTypeO
+- _symbolic _____ 16NewsSubscription13ArticleAccessO
+- _symbolic _____ 16NewsSubscription15PurchaseContextV
+- _symbolic _____ 16NewsSubscription16ArticleAccessMapV
+- _symbolic _____ 16NewsSubscription18InAppPurchaseErrorO
+- _symbolic _____ 16NewsSubscription21PaywallViewControllerC
+- _symbolic _____ 16NewsSubscription23PostPurchaseDestinationO
+- _symbolic _____ 16NewsSubscription7PaywallO
+- _symbolic _____ 16NewsSubscription7PaywallO04SoftC6ModuleV
+- _symbolic _____ 5TeaUI10PillButtonC
+- _symbolic _____ 5TeaUI10TipManagerC
+- _symbolic _____ 5TeaUI11PluginModelC
+- _symbolic _____ 5TeaUI11SwipeActionV
+- _symbolic _____ 5TeaUI11SwipeActionV12NewsArticlesE5AudioV
+- _symbolic _____ 5TeaUI11TipRecorderC
+- _symbolic _____ 5TeaUI12BootstrapperC
+- _symbolic _____ 5TeaUI13AppURLContextV
+- _symbolic _____ 5TeaUI15PageViewSessionV
+- _symbolic _____ 5TeaUI15SharingActivityC
+- _symbolic _____ 5TeaUI15SharingActivityC12NewsArticlesE5AudioV
+- _symbolic _____ 5TeaUI16CommandContainerC
+- _symbolic _____ 5TeaUI16CoverViewManagerC
+- _symbolic _____ 5TeaUI16TipSourceManagerC
+- _symbolic _____ 5TeaUI17TipViewImpressionV
+- _symbolic _____ 5TeaUI19WindowTitleUpdatingV
+- _symbolic _____ 5TeaUI21BarCompressionManagerC
+- _symbolic _____ 5TeaUI22BlueprintLayoutOptionsV
+- _symbolic _____ 5TeaUI22CommandExecutionSourceC
+- _symbolic _____ 5TeaUI22ScrollViewProxyManagerC
+- _symbolic _____ 5TeaUI24CommandCenterWithTrackerC
+- _symbolic _____ 5TeaUI25BlueprintSelectionOptionsV
+- _symbolic _____ 5TeaUI27PluginLayoutOptionsProviderC
+- _symbolic _____ 5TeaUI33BlueprintLayoutCollectionProviderC
+- _symbolic _____ 5TeaUI6PluginC
+- _symbolic _____ 5TeaUI8CommandsC
+- _symbolic _____ 5TeaUI8CommandsC12NewsArticlesE13ArticleSearchV
+- _symbolic _____ 5TeaUI9ImageViewC
+- _symbolic _____ 5TeaUI9TipConfigV8ResolvedV
+- _symbolic _____ 7NewsAds12CreativeTypeO
+- _symbolic _____ 7NewsAds13BannerAdStateO
+- _symbolic _____ 7NewsAds15FeedGroupAdDataV
+- _symbolic _____ 7NewsAds18PrerollAdPlacementV
+- _symbolic _____ 7NewsAds23InterstitialAdPlacementV
+- _symbolic _____ 7NewsAds25AdPolicyLayoutEnvironmentV
+- _symbolic _____ 7NewsAds33AdPolicyLayoutEnvironmentProviderC
+- _symbolic _____ 7NewsAds35BannerAdViewLayoutAttributesFactoryC
+- _symbolic _____ 7NewsAds8BannerAdV
+- _symbolic _____ 7NewsAds9AdPreviewV
+- _symbolic _____ 7SwiftUI11ColorSchemeO
+- _symbolic _____ 7SwiftUI17EnvironmentValuesV
+- _symbolic _____ 7SwiftUI19ColorSchemeContrastO
+- _symbolic _____ 7SwiftUI5ImageV
+- _symbolic _____ 8NewsFeed010RecipeUserB14DataRepositoryC
+- _symbolic _____ 8NewsFeed06FormatB5GroupV
+- _symbolic _____ 8NewsFeed0B11RequestTypeO
+- _symbolic _____ 8NewsFeed0B12ModelFactoryC
+- _symbolic _____ 8NewsFeed0B13ConfigDecoderC
+- _symbolic _____ 8NewsFeed0B15GroupDecorationO
+- _symbolic _____ 8NewsFeed0B15PoolCachePolicyO
+- _symbolic _____ 8NewsFeed0B19LayoutSolverOptionsV
+- _symbolic _____ 8NewsFeed0B27ItemSupplementaryAttributesO
+- _symbolic _____ 8NewsFeed0B30GroupNativeAdInsertionLocationO
+- _symbolic _____ 8NewsFeed0B4ItemO
+- _symbolic _____ 8NewsFeed0B4KindO
+- _symbolic _____ 8NewsFeed0B8WebEmbedV
+- _symbolic _____ 8NewsFeed10IssueCoverO
+- _symbolic _____ 8NewsFeed10SharedItemV
+- _symbolic _____ 8NewsFeed11AudioOriginO
+- _symbolic _____ 8NewsFeed12OfflineModelV
+- _symbolic _____ 8NewsFeed13FormatContentV
+- _symbolic _____ 8NewsFeed15AudioPlayMethodO
+- _symbolic _____ 8NewsFeed16ReadStoryContextO
+- _symbolic _____ 8NewsFeed17RecipeCookedStateO
+- _symbolic _____ 8NewsFeed19CommandShareContentO
+- _symbolic _____ 8NewsFeed20ArticleThumbnailViewC
+- _symbolic _____ 8NewsFeed20AudioListeningSourceO
+- _symbolic _____ 8NewsFeed20IssueCoverViewButtonC
+- _symbolic _____ 8NewsFeed20ReportConcernContextO
+- _symbolic _____ 8NewsFeed23TagMastheadViewProviderC
+- _symbolic _____ 8NewsFeed26ExportToGroceryListContextV
+- _symbolic _____ 8NewsFeed27CommandShareContentCompleteV
+- _symbolic _____ 8NewsFeed28ReportConcernCompleteContextV
+- _symbolic _____ 8NewsFeed30IssueCoverViewLayoutAttributesV
+- _symbolic _____ 8NewsFeed31ExportToGroceryListCommandStateO
+- _symbolic _____ 8NewsFeed31FormatDecorationProviderFactoryC
+- _symbolic _____ 8NewsFeed37IssueCoverViewLayoutAttributesFactoryC
+- _symbolic _____ 8NewsFeed37SharingActivityItemFactoryWithTrackerC
+- _symbolic _____ 8NewsFeed41SingletonShareAttributionViewReuseManagerC
+- _symbolic _____ 8NewsFeed8PageKindO
+- _symbolic _____ So10UIBarStyleV
+- _symbolic _____ So11CGBlendModeV
+- _symbolic _____ So11CMTimeFlagsV
+- _symbolic _____ So12UIEdgeInsetsV
+- _symbolic _____ So12UIFontWeighta
+- _symbolic _____ So12UIRectCornerV
+- _symbolic _____ So13FCArticleRoleV
+- _symbolic _____ So14UIActivityTypea
+- _symbolic _____ So15SXComponentRoleV
+- _symbolic _____ So16NUArticleMessageV
+- _symbolic _____ So16UIStatusBarStyleV
+- _symbolic _____ So16os_unfair_lock_sV
+- _symbolic _____ So17SXViewingLocationV
+- _symbolic _____ So18AVPlayerItemStatusV
+- _symbolic _____ So18FCRelativePriorityV
+- _symbolic _____ So18NSComparisonResultV
+- _symbolic _____ So20SXSubscriptionStatusV
+- _symbolic _____ So20UIBarButtonItemStyleV
+- _symbolic _____ So21NSAttributedStringKeya
+- _symbolic _____ So21SXOfferUpsellScenarioV
+- _symbolic _____ So21UIContentSizeCategorya
+- _symbolic _____ So24FCNewsletterSubscriptionV
+- _symbolic _____ So24UIFontDescriptorTraitKeya
+- _symbolic _____ So24UIUserInterfaceSizeClassV
+- _symbolic _____ So25AVPlayerTimeControlStatusV
+- _symbolic _____ So27SXAnalyticsEventGalleryTypeV
+- _symbolic _____ So28FCContentAccessBlockedReasonV
+- _symbolic _____ So29TUPageViewControllerDirectionV
+- _symbolic _____ So29UIFontDescriptorAttributeNamea
+- _symbolic _____ So30SXNewsletterSubscriptionStatusV
+- _symbolic _____ So30UIUserInterfaceLayoutDirectionV
+- _symbolic _____ So34SXSubscribeActionPostPurchaseStateV
+- _symbolic _____ So35SXSubscriptionActivationEligibilityV
+- _symbolic _____ So35TSAccessibilityInterfaceStyleIntentV
+- _symbolic _____ So6CGRectV
+- _symbolic _____ So6CGSizeV
+- _symbolic _____ So6CMTimea
+- _symbolic _____ So7CGPointV
+- _symbolic _____ So9FCTernaryV
+- _symbolic _____ So9SXTernaryV
+- _symbolic _____ s5Int32V
+- _symbolic _____ s5Int64V
+- _symbolic _____ s5NeverO
+- _symbolic _____ s6UInt32V
+- _symbolic _____11articlePage_ScTySaySo8FCRecipeCG______pG10recipeTaskt 12NewsArticles17ArticleViewerPageO s5ErrorP
+- _symbolic _____11articlePage_ScTySo8FCRecipeC______pG10recipeTaskSS0D2IDt 12NewsArticles17ArticleViewerPageO s5ErrorP
+- _symbolic _____16lastModifiedDate_t 10Foundation4DateV
+- _symbolic _____16layoutAttributes_t 5TeaUI22HeightLayoutAttributesV
+- _symbolic _____16layoutAttributes_t 8NewsFeed0B20ItemLayoutAttributesO
+- _symbolic _____3url_t 10Foundation3URLV
+- _symbolic _____4page_t 12NewsArticles17ArticleViewerPageO
+- _symbolic _____4text______16layoutAttributest 12NewsArticles15SubConcernModelV 5TeaUI22HeightLayoutAttributesV
+- _symbolic _____5token______yxq_G17blueprintProvider_____yq0_q1_G0b6LayoutC0t 12NewsArticles26BlueprintRecipeViewerTokenC 5TeaUI0C8ProviderC AD0c6LayoutI0C
+- _symbolic _____5token______yxq_G17blueprintProvider_____yq0_q1_G0b6LayoutC0t 12NewsArticles27BlueprintArticleViewerTokenC 5TeaUI0C8ProviderC AD0c6LayoutI0C
+- _symbolic _____7article______6actiont 12NewsArticles7ArticleV AA0C16NavigationActionO
+- _symbolic _____7article_______pSg10sourceItemt 12NewsArticles7ArticleV So41UIPopoverPresentationControllerSourceItemP
+- _symbolic _____7concern______16layoutAttributest 12NewsArticles16UserConcernModelV 5TeaUI22HeightLayoutAttributesV
+- _symbolic _____7concern_t 12NewsArticles15SubConcernModelV
+- _symbolic _____7context_Say______pG17backfillHeadlinest 12NewsArticles23ArticleGroupDataContextV So19FCHeadlineProvidingP
+- _symbolic _____7context______7concernt 8NewsFeed20ReportConcernContextO 0A8Articles04UserD5ModelV
+- _symbolic _____7context_t 12NewsArticles23ArticleGroupDataContextV
+- _symbolic _____7context_t 8NewsFeed20ReportConcernContextO
+- _symbolic _____7journal_t 7NewsAds12DebugJournalV
+- _symbolic _____8linkData_t 12NewsArticles17AnalyticsLinkDataV
+- _symbolic _____9mediaData______014engageCompleteB0_____17componentMetadatat 12NewsArticles18AnalyticsMediaDataV AA0cd15EngageCompletedE0V AA0c12ANFComponentE0V
+- _symbolic _____9mediaData______05timedB0_____06engageB0_____17componentMetadatat 12NewsArticles18AnalyticsMediaDataV AA0c5TimedE0V AA0cd6EngageE0V AA0c12ANFComponentE0V
+- _symbolic _____9mediaData______05timedB0_____Sg07galleryB0_____17componentMetadatat 12NewsArticles18AnalyticsMediaDataV AA0c5TimedE0V AA0c7GalleryE0V AA0c12ANFComponentE0V
+- _symbolic _____9timedData______05embedB0______p5errort 12NewsArticles18AnalyticsTimedDataV AA0c8WebEmbedE0V s5ErrorP
+- _symbolic _____9timedData______05embedB0t 12NewsArticles18AnalyticsTimedDataV AA0c8WebEmbedE0V
+- _symbolic _____9timedData______13startPositionAC03endD0AC8velocityt 12NewsArticles18AnalyticsTimedDataV 12CoreGraphics7CGFloatV
+- _symbolic _____9timedData______17componentMetadatat 12NewsArticles18AnalyticsTimedDataV AA0c12ANFComponentE0V
+- _symbolic _____IeAgHr_ 12NewsArticles22RecipeViewerInteractorC06recipeD7Recipes33_77884F80F5486DF517A80CF3E494D0B3LL4fromSayAA0cdC0VGSayAA0cD9BlueprintO0C4ItemVG_tYaF6ResultL_V
+- _symbolic _____Iegg_ 12NewsArticles28UserConcernConfigFetchResultV
+- _symbolic _____Ieghl_ 10CookingKit14RecipeUserDataV
+- _symbolic _____Iegn_ 10Foundation3URLV
+- _symbolic _____Iegn_ 12NewsArticles18EndOfArticleResultV
+- _symbolic _____Iegn_ 12NewsArticles22ProxyAuthenticationKeyV
+- _symbolic _____Iegn_ 12NewsArticles26ArticleViewerFeatureActionO
+- _symbolic _____Iegn_ 12NewsArticles28RecipeArticleDrawerViewModelC0C0V
+- _symbolic _____Iegn_ 12NewsArticles28UserConcernConfigFetchResultV
+- _symbolic _____Iegn_ 7NewsAds27AdPolicyViewportEnvironmentV
+- _symbolic _____Iego_ 12NewsArticles022AttributionViewWrapperD033_D28D6015DE731BE624B02DB54B95AB04LLC
+- _symbolic _____Iego_ 12NewsArticles29SearchInArticleViewControllerC
+- _symbolic _____Iegy_ So6CGSizeV
+- _symbolic _____Sg 10CookingKit14RecipeUserDataV
+- _symbolic _____Sg 10Foundation21NSKeyValueObservationC
+- _symbolic _____Sg 10Foundation3URLV
+- _symbolic _____Sg 10Foundation4DataV
+- _symbolic _____Sg 10Foundation4DateV
+- _symbolic _____Sg 10Foundation9IndexPathV
+- _symbolic _____Sg 11MediaCoreUI19NowPlayingViewModelC18MiniPlayerSubtitleV
+- _symbolic _____Sg 11MediaCoreUI35NowPlayingInstallationConfigurationV
+- _symbolic _____Sg 12AppAnalytics7TrackerC
+- _symbolic _____Sg 12CoreGraphics7CGFloatV
+- _symbolic _____Sg 12NewsArticles012RecipeViewerC0V
+- _symbolic _____Sg 12NewsArticles10NowPlayingO6NoticeO
+- _symbolic _____Sg 12NewsArticles10NowPlayingO8Snapshot33_4BBC3C9FE7900BE83F33085C0558EC6ALLV
+- _symbolic _____Sg 12NewsArticles11DebugRecipeV06LoadedD0V
+- _symbolic _____Sg 12NewsArticles12ANFOverridesV
+- _symbolic _____Sg 12NewsArticles13RecipeSessionV
+- _symbolic _____Sg 12NewsArticles14WebViewSessionV
+- _symbolic _____Sg 12NewsArticles15SubConcernModelV
+- _symbolic _____Sg 12NewsArticles16ArticleGroupDataO
+- _symbolic _____Sg 12NewsArticles16IssueViewSessionV
+- _symbolic _____Sg 12NewsArticles17ArticleRouteModelO
+- _symbolic _____Sg 12NewsArticles17ArticleViewerPageO
+- _symbolic _____Sg 12NewsArticles17HeadlineThumbnailV5Model33_5B9F28DC211094A1782E14306D872C08LLV
+- _symbolic _____Sg 12NewsArticles19ArticleRecipeResultO
+- _symbolic _____Sg 12NewsArticles19PlayableArticleInfoC
+- _symbolic _____Sg 12NewsArticles21AlertOpenBlockedStoryV15SelectionReasonO
+- _symbolic _____Sg 12NewsArticles21ArticlePreviewManagerC0D9Container33_E5971DD7158D3247DDFEC65302AC346ALLV
+- _symbolic _____Sg 12NewsArticles22ProxyAuthenticationKeyV
+- _symbolic _____Sg 12NewsArticles22SubscribeActionHandlerC18HeadlineAttributesV
+- _symbolic _____Sg 12NewsArticles23PDFReplicaViewerOptionsV
+- _symbolic _____Sg 12NewsArticles24AnalyticsMediaPlayMethodO
+- _symbolic _____Sg 12NewsArticles25AlertBlockedStoryBehaviorV
+- _symbolic _____Sg 12NewsArticles25EndOfArticleSectionResultV
+- _symbolic _____Sg 12NewsArticles26ArticleRecirculationConfigV14RuleCollectionO
+- _symbolic _____Sg 12NewsArticles26ArticleRecirculationConfigV4RuleV20ScoringConfigurationV
+- _symbolic _____Sg 12NewsArticles26ArticleRecirculationConfigV7SectionO
+- _symbolic _____Sg 12NewsArticles26ArticleRecirculationConfigV7SectionO09SpecifiedF0V
+- _symbolic _____Sg 12NewsArticles26ArticleRecirculationConfigV7SectionO0F4TypeO
+- _symbolic _____Sg 12NewsArticles26ArticleRecirculationConfigV7SectionO22GroupSizeConfigurationV
+- _symbolic _____Sg 12NewsArticles28RecipeArticleDrawerViewModelC0C0V
+- _symbolic _____Sg 12NewsArticles30ArticleViewerMenuProviderModelV
+- _symbolic _____Sg 12NewsArticles32ArticleBlueprintGroupDataContextO
+- _symbolic _____Sg 12NewsArticles34ArticleBottomPaletteViewControllerC
+- _symbolic _____Sg 12NewsArticles34ArticleNavigationBarPaletteContentC
+- _symbolic _____Sg 12NewsArticles36ArticleViewerViewNavigationItemStashC
+- _symbolic _____Sg 12NewsArticles40InsertAdvertisementPageBlueprintModifierC
+- _symbolic _____Sg 12NewsArticles42BarButtonItemArticleViewerFeatureViewModelV
+- _symbolic _____Sg 12NewsArticles5IssueO
+- _symbolic _____Sg 12NewsArticles7ArticleV
+- _symbolic _____Sg 12NewsArticles8ANFIssueV
+- _symbolic _____Sg 12NewsArticles8BrandBarC
+- _symbolic _____Sg 13TeaFoundation7VersionV
+- _symbolic _____Sg 14CookingSupport33RecipeCardContainerViewControllerC
+- _symbolic _____Sg 16NewsSubscription21PaywallViewControllerC
+- _symbolic _____Sg 16NewsSubscription23PostPurchaseDestinationO
+- _symbolic _____Sg 16NewsSubscription31PurchasingSpinnerViewControllerC
+- _symbolic _____Sg 16NewsSubscription5OfferV
+- _symbolic _____Sg 5TeaUI12TipPlacementC
+- _symbolic _____Sg 5TeaUI22CommandExecutionSourceC
+- _symbolic _____Sg 5TeaUI29PageSheetPresentationObserverC
+- _symbolic _____Sg 5TeaUI30FloatingTabBarAccessoryManagerC
+- _symbolic _____Sg 5TeaUI6PluginC
+- _symbolic _____Sg 7NewsAds18AdPendingLoadTokenC
+- _symbolic _____Sg 7NewsAds23DebugJournalSummaryViewC
+- _symbolic _____Sg 7NewsAds28BannerAdViewLayoutAttributesV
+- _symbolic _____Sg 7SwiftUI4FontV
+- _symbolic _____Sg 7SwiftUI5ColorV
+- _symbolic _____Sg 8NewsFeed0B14ConfigMetadataV
+- _symbolic _____Sg So12UIEdgeInsetsV
+- _symbolic _____Sg So13FCArticleRoleV
+- _symbolic _____Sg So17SXViewingLocationV
+- _symbolic _____Sg So20SXSubscriptionStatusV
+- _symbolic _____Sg So21SXOfferUpsellScenarioV
+- _symbolic _____Sg So21UIContentSizeCategorya
+- _symbolic _____Sg So30SXNewsletterSubscriptionStatusV
+- _symbolic _____Sg So35SXSubscriptionActivationEligibilityV
+- _symbolic _____Sg So6CGSizeV
+- _symbolic _____Sg So7CGPointV
+- _symbolic _____Sg s5Int32V
+- _symbolic _____Sg16lastModifiedDate_t 10Foundation4DateV
+- _symbolic _____SgIegg_ 10Foundation4DataV
+- _symbolic _____SgIegn_ 10Foundation4DataV
+- _symbolic _____SgSg 5TeaUI29TransitionContainerIdentifierO
+- _symbolic _____SgXw 12NewsArticles11AudioButtonC
+- _symbolic _____SgXw 12NewsArticles15AdComponentViewC
+- _symbolic _____SgXw 12NewsArticles15TipEventHandlerC
+- _symbolic _____SgXw 12NewsArticles17ArticleInteractorC
+- _symbolic _____SgXw 12NewsArticles17EndOfRecipeModuleC
+- _symbolic _____SgXw 12NewsArticles17TipViewControllerC
+- _symbolic _____SgXw 12NewsArticles18SavedRecipeServiceC
+- _symbolic _____SgXw 12NewsArticles19ArticleViewerRouterC
+- _symbolic _____SgXw 12NewsArticles20RecipeViewControllerC
+- _symbolic _____SgXw 12NewsArticles20ReportConcernCommandC
+- _symbolic _____SgXw 12NewsArticles21ArticleViewControllerC
+- _symbolic _____SgXw 12NewsArticles21CurrentRecipeUserDataC
+- _symbolic _____SgXw 12NewsArticles21InterstitialAdManagerC
+- _symbolic _____SgXw 12NewsArticles21IssueViewerInteractorC
+- _symbolic _____SgXw 12NewsArticles21PDFReplicaDataManagerC
+- _symbolic _____SgXw 12NewsArticles21RecipeUserDataManagerC
+- _symbolic _____SgXw 12NewsArticles22AnalyticsEventReporterC
+- _symbolic _____SgXw 12NewsArticles22ArticleProviderServiceC
+- _symbolic _____SgXw 12NewsArticles22ContentPrefetchManagerC
+- _symbolic _____SgXw 12NewsArticles22EndOfRecipeDataManagerC
+- _symbolic _____SgXw 12NewsArticles22LiveCoverageStatusViewC
+- _symbolic _____SgXw 12NewsArticles22RecipeViewerInteractorC
+- _symbolic _____SgXw 12NewsArticles22SubscribeActionHandlerC
+- _symbolic _____SgXw 12NewsArticles23ArticleViewerInteractorC
+- _symbolic _____SgXw 12NewsArticles23RecipeContentPrefetcherC
+- _symbolic _____SgXw 12NewsArticles24ANFDebugSettingsProviderC
+- _symbolic _____SgXw 12NewsArticles24PDFReplicaViewControllerC
+- _symbolic _____SgXw 12NewsArticles25RecipeBlueprintRouteModelC
+- _symbolic _____SgXw 12NewsArticles26EndOfArticleViewControllerC
+- _symbolic _____SgXw 12NewsArticles26RecipeViewerViewControllerC
+- _symbolic _____SgXw 12NewsArticles27ArticleRecirculationServiceC
+- _symbolic _____SgXw 12NewsArticles27ArticleViewerFeatureManagerC
+- _symbolic _____SgXw 12NewsArticles27ArticleViewerViewControllerC
+- _symbolic _____SgXw 12NewsArticles28PDFReplicaViewerMenuProviderC
+- _symbolic _____SgXw 12NewsArticles28RecipeBannerAdViewControllerC
+- _symbolic _____SgXw 12NewsArticles29ANFDebugLayoutOptionsProviderC
+- _symbolic _____SgXw 12NewsArticles29SearchInArticleViewControllerC
+- _symbolic _____SgXw 12NewsArticles29TextSizeControlViewControllerC
+- _symbolic _____SgXw 12NewsArticles30PDFReplicaViewerViewControllerC
+- _symbolic _____SgXw 12NewsArticles31AudioRemoteCommandCenterManagerC
+- _symbolic _____SgXw 12NewsArticles31CookingKitOfflineStatusProviderC
+- _symbolic _____SgXw 12NewsArticles31InterstitialAdPreviewInteractorC
+- _symbolic _____SgXw 12NewsArticles32ModalArticleViewerViewControllerC
+- _symbolic _____SgXw 12NewsArticles32MoreArticleViewerFeatureProviderC
+- _symbolic _____SgXw 12NewsArticles32RecipeViewerBarButtonItemFactoryC
+- _symbolic _____SgXw 12NewsArticles33ArticleViewerPageBlueprintFactoryC
+- _symbolic _____SgXw 12NewsArticles33AudioArticleViewerFeatureProviderC
+- _symbolic _____SgXw 12NewsArticles33CampaignLandingPageViewControllerC
+- _symbolic _____SgXw 12NewsArticles33EndOfRecipeViewControllerProviderC
+- _symbolic _____SgXw 12NewsArticles33RecipeArticleDrawerViewControllerC
+- _symbolic _____SgXw 12NewsArticles33SharedWithYouHeaderViewControllerC
+- _symbolic _____SgXw 12NewsArticles34ArticleBottomPaletteViewControllerC
+- _symbolic _____SgXw 12NewsArticles35InterstitialAdPreviewViewControllerC
+- _symbolic _____SgXw 12NewsArticles36ArticleNavigationBarMessageContainerC
+- _symbolic _____SgXw 12NewsArticles36ArticleThumbnailComponentViewFactoryC
+- _symbolic _____SgXw 12NewsArticles37EndOfArticleBlueprintViewCellProviderC
+- _symbolic _____SgXw 12NewsArticles40OverflowMenuArticleViewerFeatureProviderC
+- _symbolic _____SgXw 5TeaUI18BlockBarButtonItemC
+- _symbolic _____SgXwz_Xx 12NewsArticles15AdComponentViewC
+- _symbolic _____SgXwz_Xx 12NewsArticles15TipEventHandlerC
+- _symbolic _____SgXwz_Xx 12NewsArticles17ArticleInteractorC
+- _symbolic _____SgXwz_Xx 12NewsArticles17EndOfRecipeModuleC
+- _symbolic _____SgXwz_Xx 12NewsArticles18SavedRecipeServiceC
+- _symbolic _____SgXwz_Xx 12NewsArticles20RecipeViewControllerC
+- _symbolic _____SgXwz_Xx 12NewsArticles20ReportConcernCommandC
+- _symbolic _____SgXwz_Xx 12NewsArticles21ArticleViewControllerC
+- _symbolic _____SgXwz_Xx 12NewsArticles21CurrentRecipeUserDataC
+- _symbolic _____SgXwz_Xx 12NewsArticles21InterstitialAdManagerC
+- _symbolic _____SgXwz_Xx 12NewsArticles21RecipeUserDataManagerC
+- _symbolic _____SgXwz_Xx 12NewsArticles22AnalyticsEventReporterC
+- _symbolic _____SgXwz_Xx 12NewsArticles22ArticleProviderServiceC
+- _symbolic _____SgXwz_Xx 12NewsArticles22ContentPrefetchManagerC
+- _symbolic _____SgXwz_Xx 12NewsArticles22RecipeViewerInteractorC
+- _symbolic _____SgXwz_Xx 12NewsArticles22SubscribeActionHandlerC
+- _symbolic _____SgXwz_Xx 12NewsArticles23RecipeContentPrefetcherC
+- _symbolic _____SgXwz_Xx 12NewsArticles26RecipeViewerViewControllerC
+- _symbolic _____SgXwz_Xx 12NewsArticles27ArticleRecirculationServiceC
+- _symbolic _____SgXwz_Xx 12NewsArticles27ArticleViewerViewControllerC
+- _symbolic _____SgXwz_Xx 12NewsArticles28PDFReplicaViewerMenuProviderC
+- _symbolic _____SgXwz_Xx 12NewsArticles28RecipeBannerAdViewControllerC
+- _symbolic _____SgXwz_Xx 12NewsArticles29SearchInArticleViewControllerC
+- _symbolic _____SgXwz_Xx 12NewsArticles29TextSizeControlViewControllerC
+- _symbolic _____SgXwz_Xx 12NewsArticles30PDFReplicaViewerViewControllerC
+- _symbolic _____SgXwz_Xx 12NewsArticles31CookingKitOfflineStatusProviderC
+- _symbolic _____SgXwz_Xx 12NewsArticles31InterstitialAdPreviewInteractorC
+- _symbolic _____SgXwz_Xx 12NewsArticles32MoreArticleViewerFeatureProviderC
+- _symbolic _____SgXwz_Xx 12NewsArticles32RecipeViewerBarButtonItemFactoryC
+- _symbolic _____SgXwz_Xx 12NewsArticles33ArticleViewerPageBlueprintFactoryC
+- _symbolic _____SgXwz_Xx 12NewsArticles33EndOfRecipeViewControllerProviderC
+- _symbolic _____SgXwz_Xx 12NewsArticles33SharedWithYouHeaderViewControllerC
+- _symbolic _____SgXwz_Xx 12NewsArticles34ArticleBottomPaletteViewControllerC
+- _symbolic _____SgXwz_Xx 12NewsArticles36ArticleNavigationBarMessageContainerC
+- _symbolic _____SgXwz_Xx 12NewsArticles37EndOfArticleBlueprintViewCellProviderC
+- _symbolic _____SgXwz_Xx 12NewsArticles40OverflowMenuArticleViewerFeatureProviderC
+- _symbolic _____SgXwz_Xx 5TeaUI18BlockBarButtonItemC
+- _symbolic _____Sgz_Xx 10Foundation4DataV
+- _symbolic _____XDXMT 12NewsArticles27ArticleViewerViewControllerC
+- _symbolic _____Xo 12NewsArticles19ArticleViewerRouterC
+- _symbolic _____Xo 12NewsArticles26IssueTableOfContentsModuleC
+- _symbolic _____Xo 12NewsArticles36IssueEmbeddableViewControllerFactoryC
+- _symbolic _____Xo 12NewsArticles40TableOfContentsBlueprintViewCellProviderC
+- _symbolic ______SS4nameSS9extensiont 10Foundation4DataV
+- _symbolic ______Sb13openInBrowsert 10Foundation3URLV
+- _symbolic ______Sb21showIssuePresentationt 12NewsArticles17ArticleRouteModelO
+- _symbolic ______So15UIBarButtonItemC4itemt 8NewsFeed13SharingIntentV
+- _symbolic ______So15UIBarButtonItemCSg03barbC0t 8NewsFeed13SharingIntentV
+- _symbolic ______So16UIViewControllerCXc 5TeaUI13ModalHostableP
+- _symbolic ______So16UIViewControllerCXcSg 12NewsArticles21IssueViewerEmbeddableP
+- _symbolic ______So6UIViewCXc 7NewsAds22InterstitialAdViewTypeP
+- _symbolic ______So6UIViewCXcSg 7NewsAds16BannerAdViewTypeP
+- _symbolic __________Iegny_ 12NewsArticles17ArticleViewerPageO So29TUPageViewControllerDirectionV
+- _symbolic __________IeyByd_ 10ObjectiveC8ObjCBoolV So34SXSubscribeActionPostPurchaseStateV
+- _symbolic ___________16layoutAttributest 12NewsArticles30TableOfContentsHeaderViewModelV AA0cdefG6LayoutV0I10AttributesV
+- _symbolic ___________16layoutAttributest 12NewsArticles31TableOfContentsPDFCellViewModelV AA0cdefG6LayoutV0I10AttributesV
+- _symbolic ___________23articleNavigationActiont 12NewsArticles32ArticleViewerBlueprintRouteModelC AA0C16NavigationActionO
+- _symbolic ___________7contextt 12NewsArticles13TagRouteModelV AA0cD7ContextV
+- _symbolic ___________7optionst 12NewsArticles10RouteModelO 5TeaUI25BlueprintSelectionOptionsV
+- _symbolic ___________pSg_AC_____SgADtc 12NewsArticles30ArticleViewerFeatureTransitionO AA0E11ContextTypeP AA0cdE13UpdateOptionsV
+- _symbolic ___________t 12NewsArticles013ArticleViewerC4PageV AA0C9GroupDataO
+- _symbolic __________c 12NewsArticles30IssueTableOfContentsPostActionO AA0cdefH0O
+- _symbolic __________ySay______pGGIegnr_ 12NewsArticles24ArticleRecirculationDataV 13TeaFoundation6ResultO So19FCHeadlineProvidingP
+- _symbolic __________y_____GIegnr_ 12NewsArticles24ArticleRecirculationDataV 13TeaFoundation6ResultO AA05EndOfcH0V
+- _symbolic __________ytIegnnr_ 12NewsArticles17ArticleViewerPageO So29TUPageViewControllerDirectionV
+- _symbolic ______p 10CookingKit15ImageLoaderTypeP
+- _symbolic ______p 10CookingKit16RecipeBridgeTypeP
+- _symbolic ______p 10CookingKit25RecipeUserDataManagerTypeP
+- _symbolic ______p 10CookingKit25UnitConfigDataManagerTypeP
+- _symbolic ______p 10CookingKit28RatingsSubmissionManagerTypeP
+- _symbolic ______p 10CookingKit30RecipeDiagnosticsCollectorTypeP
+- _symbolic ______p 12NewsArticles10RouterTypeP
+- _symbolic ______p 12NewsArticles13TipRouterTypeP
+- _symbolic ______p 12NewsArticles14BaseStylerTypeP
+- _symbolic ______p 12NewsArticles15IssueLoaderTypeP
+- _symbolic ______p 12NewsArticles15LinkHandlerTypeP
+- _symbolic ______p 12NewsArticles16IssueManagerTypeP
+- _symbolic ______p 12NewsArticles16RecipeModuleTypeP
+- _symbolic ______p 12NewsArticles16RecipeRouterTypeP
+- _symbolic ______p 12NewsArticles16RecipeStylerTypeP
+- _symbolic ______p 12NewsArticles17ArticleModuleTypeP
+- _symbolic ______p 12NewsArticles17ArticleRouterTypeP
+- _symbolic ______p 12NewsArticles17ArticleStylerTypeP
+- _symbolic ______p 12NewsArticles17TipInteractorTypeP
+- _symbolic ______p 12NewsArticles18BrandBarStylerTypeP
+- _symbolic ______p 12NewsArticles18FeatureContextTypeP
+- _symbolic ______p 12NewsArticles18HistoryServiceTypeP
+- _symbolic ______p 12NewsArticles19ANFIssueServiceTypeP
+- _symbolic ______p 12NewsArticles19TipEventHandlerTypeP
+- _symbolic ______p 12NewsArticles20BrandBarRendererTypeP
+- _symbolic ______p 12NewsArticles20NowPlayingPresentingP
+- _symbolic ______p 12NewsArticles20PDFReplicaModuleTypeP
+- _symbolic ______p 12NewsArticles20PDFReplicaRouterTypeP
+- _symbolic ______p 12NewsArticles20PDFReplicaStylerTypeP
+- _symbolic ______p 12NewsArticles20RecipeInteractorTypeP
+- _symbolic ______p 12NewsArticles20TipConfigFactoryTypeP
+- _symbolic ______p 12NewsArticles21ArticleHeaderDelegateP
+- _symbolic ______p 12NewsArticles21ArticleInteractorTypeP
+- _symbolic ______p 12NewsArticles21AssetFetchServiceTypeP
+- _symbolic ______p 12NewsArticles21ColorPaletteProvidingP
+- _symbolic ______p 12NewsArticles21CoverViewProviderTypeP
+- _symbolic ______p 12NewsArticles21EndOfRecipeRouterTypeP
+- _symbolic ______p 12NewsArticles21EndOfRecipeStylerTypeP
+- _symbolic ______p 12NewsArticles21IssueViewerRouterTypeP
+- _symbolic ______p 12NewsArticles21IssueViewerStylerTypeP
+- _symbolic ______p 12NewsArticles21RecipeCoordinatorTypeP
+- _symbolic ______p 12NewsArticles21RecipeDataManagerTypeP
+- _symbolic ______p 12NewsArticles22ArticleDataManagerTypeP
+- _symbolic ______p 12NewsArticles22AudioActionHandlerTypeP
+- _symbolic ______p 12NewsArticles22EndOfArticleModuleTypeP
+- _symbolic ______p 12NewsArticles22EndOfArticleRouterTypeP
+- _symbolic ______p 12NewsArticles22EndOfArticleStylerTypeP
+- _symbolic ______p 12NewsArticles22RecipeEventHandlerTypeP
+- _symbolic ______p 12NewsArticles22RecipeViewerRouterTypeP
+- _symbolic ______p 12NewsArticles22RecipeViewerStylerTypeP
+- _symbolic ______p 12NewsArticles23AccessLevelProviderTypeP
+- _symbolic ______p 12NewsArticles23ArticleEventHandlerTypeP
+- _symbolic ______p 12NewsArticles23ArticleViewerRouterTypeP
+- _symbolic ______p 12NewsArticles23ArticleViewerStylerTypeP
+- _symbolic ______p 12NewsArticles23IssueArticleServiceTypeP
+- _symbolic ______p 12NewsArticles23ReadingListObserverTypeP
+- _symbolic ______p 12NewsArticles23RecipeViewerTrackerTypeP
+- _symbolic ______p 12NewsArticles23ReportConcernModuleTypeP
+- _symbolic ______p 12NewsArticles23ReportConcernRouterTypeP
+- _symbolic ______p 12NewsArticles23ReportConcernStylerTypeP
+- _symbolic ______p 12NewsArticles24ArticleViewerFeatureTypeP
+- _symbolic ______p 12NewsArticles24InterstitialAdModuleTypeP
+- _symbolic ______p 12NewsArticles24InterstitialAdRouterTypeP
+- _symbolic ______p 12NewsArticles24InterstitialAdStylerTypeP
+- _symbolic ______p 12NewsArticles24PDFReplicaInteractorTypeP
+- _symbolic ______p 12NewsArticles24ReportConcernServiceTypeP
+- _symbolic ______p 12NewsArticles24SelectedTextProviderTypeP
+- _symbolic ______p 12NewsArticles25AdComponentIntegratorTypeP
+- _symbolic ______p 12NewsArticles25ArticleAudioPrewarmerTypeP
+- _symbolic ______p 12NewsArticles25ArticleFooterProviderTypeP
+- _symbolic ______p 12NewsArticles25ArticleHeaderProviderTypeP
+- _symbolic ______p 12NewsArticles25ArticlePreviewManagerTypeP
+- _symbolic ______p 12NewsArticles25ArticlePreviewServiceTypeP
+- _symbolic ______p 12NewsArticles25BrandBarConfigManagerTypeP
+- _symbolic ______p 12NewsArticles25EndOfRecipeInteractorTypeP
+- _symbolic ______p 12NewsArticles25InterstitialAdTrackerTypeP
+- _symbolic ______p 12NewsArticles25IssueViewerInteractorTypeP
+- _symbolic ______p 12NewsArticles25NowPlayingMenuFactoryTypeP
+- _symbolic ______p 12NewsArticles25PDFReplicaDataManagerTypeP
+- _symbolic ______p 12NewsArticles25RecipeBannerAdFactoryTypeP
+- _symbolic ______p 12NewsArticles25SearchInArticleModuleTypeP
+- _symbolic ______p 12NewsArticles25TableOfContentsRouterTypeP
+- _symbolic ______p 12NewsArticles25TableOfContentsStylerTypeP
+- _symbolic ______p 12NewsArticles25TextSizeControlStylerTypeP
+- _symbolic ______p 12NewsArticles26ArticleBannerAdFactoryTypeP
+- _symbolic ______p 12NewsArticles26ArticleProviderServiceTypeP
+- _symbolic ______p 12NewsArticles26ContentPrefetchManagerTypeP
+- _symbolic ______p 12NewsArticles26EndOfArticleInteractorTypeP
+- _symbolic ______p 12NewsArticles26EndOfRecipeDataManagerTypeP
+- _symbolic ______p 12NewsArticles26IssueLinkActionHandlerTypeP
+- _symbolic ______p 12NewsArticles26IssueViewerDataManagerTypeP
+- _symbolic ______p 12NewsArticles26PDFReplicaEventHandlerTypeP
+- _symbolic ______p 12NewsArticles26PDFReplicaViewerRouterTypeP
+- _symbolic ______p 12NewsArticles26PDFReplicaViewerStylerTypeP
+- _symbolic ______p 12NewsArticles26RecipeViewerInteractorTypeP
+- _symbolic ______p 12NewsArticles27ArticleViewerInteractorTypeP
+- _symbolic ______p 12NewsArticles27EndOfArticleDataManagerTypeP
+- _symbolic ______p 12NewsArticles27EndOfArticleItemFactoryTypeP
+- _symbolic ______p 12NewsArticles27EndOfRecipeEventHandlerTypeP
+- _symbolic ______p 12NewsArticles27HeadlineProviderFactoryTypeP
+- _symbolic ______p 12NewsArticles27IssueViewerEventHandlerTypeP
+- _symbolic ______p 12NewsArticles27RecipeViewerDataManagerTypeP
+- _symbolic ______p 12NewsArticles27ReportConcernInteractorTypeP
+- _symbolic ______p 12NewsArticles27TipDialogRequestFactoryTypeP
+- _symbolic ______p 12NewsArticles28ArticleViewerDataManagerTypeP
+- _symbolic ______p 12NewsArticles28ArticleViewerPageTrackerTypeP
+- _symbolic ______p 12NewsArticles28AudioArticleViewerStylerTypeP
+- _symbolic ______p 12NewsArticles28CookingKitTrackerManagerTypeP
+- _symbolic ______p 12NewsArticles28EndOfArticleEventHandlerTypeP
+- _symbolic ______p 12NewsArticles28InterstitialAdInteractorTypeP
+- _symbolic ______p 12NewsArticles28RecipeViewerEventHandlerTypeP
+- _symbolic ______p 12NewsArticles28ReportConcernDataManagerTypeP
+- _symbolic ______p 12NewsArticles28UserConcernConfigManagerTypeP
+- _symbolic ______p 12NewsArticles28WebViewControllerFactoryTypeP
+- _symbolic ______p 12NewsArticles29ArticleViewerEventHandlerTypeP
+- _symbolic ______p 12NewsArticles29ArticleViewerMenuProviderTypeP
+- _symbolic ______p 12NewsArticles29CampaignLandingPageRouterTypeP
+- _symbolic ______p 12NewsArticles29CampaignLandingPageStylerTypeP
+- _symbolic ______p 12NewsArticles29EndOfArticleResultFactoryTypeP
+- _symbolic ______p 12NewsArticles29EndOfRecipeSectionFactoryTypeP
+- _symbolic ______p 12NewsArticles29InterstitialAdDataManagerTypeP
+- _symbolic ______p 12NewsArticles29ModalArticleViewerTrackerTypeP
+- _symbolic ______p 12NewsArticles29ReportConcernDetailRouterTypeP
+- _symbolic ______p 12NewsArticles29ReportConcernDetailStylerTypeP
+- _symbolic ______p 12NewsArticles29ReportConcernEventHandlerTypeP
+- _symbolic ______p 12NewsArticles29TableOfContentsInteractorTypeP
+- _symbolic ______p 12NewsArticles30ArticleBottomPaletteStylerTypeP
+- _symbolic ______p 12NewsArticles30CampaignLandingPageTrackerTypeP
+- _symbolic ______p 12NewsArticles30EndOfArticleSectionFactoryTypeP
+- _symbolic ______p 12NewsArticles30InterstitialAdEventHandlerTypeP
+- _symbolic ______p 12NewsArticles30InterstitialAdModelFactoryTypeP
+- _symbolic ______p 12NewsArticles30IssuePDFReplicaPageServiceTypeP
+- _symbolic ______p 12NewsArticles30PDFReplicaViewerInteractorTypeP
+- _symbolic ______p 12NewsArticles30RecipeRecirculationServiceTypeP
+- _symbolic ______p 12NewsArticles31ArticleRecirculationServiceTypeP
+- _symbolic ______p 12NewsArticles31ArticleViewerFeatureManagerTypeP
+- _symbolic ______p 12NewsArticles31InterstitialAdPreviewRouterTypeP
+- _symbolic ______p 12NewsArticles31InterstitialAdPreviewStylerTypeP
+- _symbolic ______p 12NewsArticles31PDFReplicaViewerDataManagerTypeP
+- _symbolic ______p 12NewsArticles31TableOfContentsEventHandlerTypeP
+- _symbolic ______p 12NewsArticles32AIHeaderViewControllerStylerTypeP
+- _symbolic ______p 12NewsArticles32AlertOpenBlockedStoryFactoryTypeP
+- _symbolic ______p 12NewsArticles32ArticleGroupDataContextProvidingP
+- _symbolic ______p 12NewsArticles32EndOfRecipeFeedConfigManagerTypeP
+- _symbolic ______p 12NewsArticles32InterstitialAdPreviewTrackerTypeP
+- _symbolic ______p 12NewsArticles32ModalArticleViewerInteractorTypeP
+- _symbolic ______p 12NewsArticles32PDFReplicaViewerEventHandlerTypeP
+- _symbolic ______p 12NewsArticles32PDFReplicaViewerMenuProviderTypeP
+- _symbolic ______p 12NewsArticles33ArticleReadingHistoryRecorderTypeP
+- _symbolic ______p 12NewsArticles33CampaignLandingPageInteractorTypeP
+- _symbolic ______p 12NewsArticles33EndOfArticleFeedConfigManagerTypeP
+- _symbolic ______p 12NewsArticles33InterstitialAdHistoryRecorderTypeP
+- _symbolic ______p 12NewsArticles33RecipeViewerBlueprintProviderTypeP
+- _symbolic ______p 12NewsArticles33ReportConcernDetailInteractorTypeP
+- _symbolic ______p 12NewsArticles34AIHeaderViewControllerRendererTypeP
+- _symbolic ______p 12NewsArticles34ArticleViewerBlueprintProviderTypeP
+- _symbolic ______p 12NewsArticles34ArticleViewerImpressionManagerTypeP
+- _symbolic ______p 12NewsArticles34ModalArticleViewerEventHandlerTypeP
+- _symbolic ______p 12NewsArticles34ReportConcernDetailDataManagerTypeP
+- _symbolic ______p 12NewsArticles35ArticleBannerAdRequesterFactoryTypeP
+- _symbolic ______p 12NewsArticles35ArticleListeningProgressManagerTypeP
+- _symbolic ______p 12NewsArticles35CampaignLandingPageEventHandlerTypeP
+- _symbolic ______p 12NewsArticles35InterstitialAdPreviewInteractorTypeP
+- _symbolic ______p 12NewsArticles35ReplicaAdvertisementCoordinatorTypeP
+- _symbolic ______p 12NewsArticles35ReportConcernDetailEventHandlerTypeP
+- _symbolic ______p 12NewsArticles35TableOfContentsHeaderViewStylerTypeP
+- _symbolic ______p 12NewsArticles36AnalyticsEventTransformerManagerTypeP
+- _symbolic ______p 12NewsArticles36InterstitialAdPreviewDataManagerTypeP
+- _symbolic ______p 12NewsArticles36RecipeViewerBarButtonItemFactoryTypeP
+- _symbolic ______p 12NewsArticles36RecipeViewerPageBlueprintFactoryTypeP
+- _symbolic ______p 12NewsArticles36TableOfContentsPDFCellViewStylerTypeP
+- _symbolic ______p 12NewsArticles37ArticleViewerOverflowMenuProviderTypeP
+- _symbolic ______p 12NewsArticles37ArticleViewerPageBlueprintFactoryTypeP
+- _symbolic ______p 12NewsArticles37EndOfArticleQuotaSatisfierFactoryTypeP
+- _symbolic ______p 12NewsArticles37InterstitialAdPreviewEventHandlerTypeP
+- _symbolic ______p 12NewsArticles37IssueContentViewControllerFactoryTypeP
+- _symbolic ______p 12NewsArticles37IssueTableOfContentsActionHandlerTypeP
+- _symbolic ______p 12NewsArticles37TableOfContentsHeaderViewRendererTypeP
+- _symbolic ______p 12NewsArticles38ArticleBottomPalettePluginProviderTypeP
+- _symbolic ______p 12NewsArticles38ArticleViewerInterstitialAdManagerTypeP
+- _symbolic ______p 12NewsArticles38TableOfContentsPDFCellViewRendererTypeP
+- _symbolic ______p 12NewsArticles39SponsoredHeaderViewControllerStylerTypeP
+- _symbolic ______p 12NewsArticles40PDFReplicaViewerPageBlueprintFactoryTypeP
+- _symbolic ______p 12NewsArticles41SponsoredHeaderViewControllerRendererTypeP
+- _symbolic ______p 12NewsArticles42ArticleViewerFeatureAnimatedTransitionTypeP
+- _symbolic ______p 12NewsArticles43RecipeRecirculationConfigurationServiceTypeP
+- _symbolic ______p 12NewsArticles43SharedWithYouHeaderViewControllerStylerTypeP
+- _symbolic ______p 12NewsArticles44ArticleRecirculationConfigurationServiceTypeP
+- _symbolic ______p 12NewsArticles44ArticleRecirculationSpecifiedSectionDataTypeP
+- _symbolic ______p 12NewsArticles44ArticleViewerFeatureAppearanceTransitionTypeP
+- _symbolic ______p 12NewsArticles45SharedWithYouHeaderViewControllerRendererTypeP
+- _symbolic ______p 12NewsArticles46SaveArticleViewerFeatureVisibilityProviderTypeP
+- _symbolic ______p 12NewsArticles47ArticleViewerBarCompressionAnimationFactoryTypeP
+- _symbolic ______p 12NewsArticles47ShareArticleViewerFeatureVisibilityProviderTypeP
+- _symbolic ______p 12NewsArticles52ArticleRecirculationSpecifiedSectionDataProviderTypeP
+- _symbolic ______p 12NewsArticles53LikeDislikeArticleViewerFeatureVisibilityProviderTypeP
+- _symbolic ______p 12NewsArticles59ArticleRecirculationSpecifiedSectionDataProviderFactoryTypeP
+- _symbolic ______p 13TeaFoundation10LocaleTypeP
+- _symbolic ______p 13TeaFoundation12ResolverTypeP
+- _symbolic ______p 13TeaFoundation21SceneStateManagerTypeP
+- _symbolic ______p 16NewsSubscription019PaywallTypeProviderD0P
+- _symbolic ______p 16NewsSubscription06BundleB20DetectionManagerTypeP
+- _symbolic ______p 16NewsSubscription0B15AccessMeterTypeP
+- _symbolic ______p 16NewsSubscription16OfferManagerTypeP
+- _symbolic ______p 16NewsSubscription18PaywallFactoryTypeP
+- _symbolic ______p 16NewsSubscription19PurchaseStarterTypeP
+- _symbolic ______p 16NewsSubscription21PurchasePresenterTypeP
+- _symbolic ______p 16NewsSubscription23SubscriptionsRouterTypeP
+- _symbolic ______p 16NewsSubscription33ArticlePurchaseOffersProviderTypeP
+- _symbolic ______p 16NewsSubscription33PostPurchaseOnboardingManagerTypeP
+- _symbolic ______p 16NewsSubscription35PostPurchaseOnboardingPrewarmerTypeP
+- _symbolic ______p 16NewsSubscription36FamilySharingLandingPageLauncherTypeP
+- _symbolic ______p 16NewsSubscription41PaidBundleViaOfferFeatureAvailabilityTypeP
+- _symbolic ______p 16NewsSubscription42PurchasingSpinnerViewControllerFactoryTypeP
+- _symbolic ______p 5TeaUI14ImageCacheTypeP
+- _symbolic ______p 5TeaUI14TipTrackerTypeP
+- _symbolic ______p 5TeaUI15AssetHandleTypeP
+- _symbolic ______p 5TeaUI17AppURLHandlerTypeP
+- _symbolic ______p 5TeaUI17CommandCenterTypeP
+- _symbolic ______p 5TeaUI17SceneProviderTypeP
+- _symbolic ______p 5TeaUI22PageSessionManagerTypeP
+- _symbolic ______p 5TeaUI24KeyboardInputMonitorTypeP
+- _symbolic ______p 5TeaUI24ShareMenuItemManagerTypeP
+- _symbolic ______p 5TeaUI25ProcessedImageRequestTypeP
+- _symbolic ______p 5TeaUI34BlueprintLayoutOptionsProviderTypeP
+- _symbolic ______p 5TeaUI37BlueprintLayoutCollectionProviderTypeP
+- _symbolic ______p 7NewsAds13AdManagerTypeP
+- _symbolic ______p 7NewsAds18VideoAdTrackerTypeP
+- _symbolic ______p 7NewsAds20AdContextBuilderTypeP
+- _symbolic ______p 7NewsAds23BannerAdLayoutStoreTypeP
+- _symbolic ______p 7NewsAds24BannerAdViewRendererTypeP
+- _symbolic ______p 7NewsAds28AdRequestPolicyValidatorTypeP
+- _symbolic ______p 7NewsAds30AdPlacementPolicyValidatorTypeP
+- _symbolic ______p 7NewsAds35DebugJournalSummaryViewRendererTypeP
+- _symbolic ______p 7NewsAds50DebugJournalSummaryViewLayoutAttributesFactoryTypeP
+- _symbolic ______p 8NewsCore13RecipeBoxTypeP
+- _symbolic ______p 8NewsCore17RecipeHistoryTypeP
+- _symbolic ______p 8NewsCore23RecipeUserDataStoreTypeP
+- _symbolic ______p 8NewsFeed0B16ItemRendererTypeP
+- _symbolic ______p 8NewsFeed0B18ContextFactoryTypeP
+- _symbolic ______p 8NewsFeed0B19NativeAdManagerTypeP
+- _symbolic ______p 8NewsFeed0B26PersonalizationServiceTypeP
+- _symbolic ______p 8NewsFeed0B29ItemSupplementaryRendererTypeP
+- _symbolic ______p 8NewsFeed14TagServiceTypeP
+- _symbolic ______p 8NewsFeed16IssueServiceTypeP
+- _symbolic ______p 8NewsFeed16OfflineProvidingP
+- _symbolic ______p 8NewsFeed17FormatServiceTypeP
+- _symbolic ______p 8NewsFeed17RecipeFactoryTypeP
+- _symbolic ______p 8NewsFeed17RecipeServiceTypeP
+- _symbolic ______p 8NewsFeed19FontBookFactoryTypeP
+- _symbolic ______p 8NewsFeed19HeadlineServiceTypeP
+- _symbolic ______p 8NewsFeed19ResourceServiceTypeP
+- _symbolic ______p 8NewsFeed20ShareAttributionViewP
+- _symbolic ______p 8NewsFeed21ShareLinkProviderTypeP
+- _symbolic ______p 8NewsFeed21SharedItemManagerTypeP
+- _symbolic ______p 8NewsFeed22AssetHandleFactoryTypeP
+- _symbolic ______p 8NewsFeed22LocalRecipeManagerTypeP
+- _symbolic ______p 8NewsFeed23FeatureAvailabilityTypeP
+- _symbolic ______p 8NewsFeed24HeadlineViewRendererTypeP
+- _symbolic ______p 8NewsFeed24RecipeAccessProviderTypeP
+- _symbolic ______p 8NewsFeed26AppLaunchMethodCheckerTypeP
+- _symbolic ______p 8NewsFeed26IssueCoverViewRendererTypeP
+- _symbolic ______p 8NewsFeed27FeaturePromotionManagerTypeP
+- _symbolic ______p 8NewsFeed27PaidBundleConfigManagerTypeP
+- _symbolic ______p 8NewsFeed29FeaturePromotionPresenterTypeP
+- _symbolic ______p 8NewsFeed32ArticleThumbnailViewRendererTypeP
+- _symbolic ______p 8NewsFeed32ContentAvailabilityValidatorTypeP
+- _symbolic ______p 8NewsFeed34SharingActivityProviderFactoryTypeP
+- _symbolic ______p 8NewsFeed38RecipeFeaturesConfigurationFactoryTypeP
+- _symbolic ______p 8NewsFeed39IssueHeadlinesFetchOperationFactoryTypeP
+- _symbolic ______p 8NewsFeed41IssueCoverViewLayoutAttributesFactoryTypeP
+- _symbolic ______p 8NewsFeed8ZoomableP
+- _symbolic ______p So13NUURLHandlingP
+- _symbolic ______p So13SXAdComponentP
+- _symbolic ______p So14FCTagProvidingP
+- _symbolic ______p So16FCContentContextP
+- _symbolic ______p So18FCChannelProvidingP
+- _symbolic ______p So19FCAVAssetPrewarmingP
+- _symbolic ______p So19FCFeedPersonalizingP
+- _symbolic ______p So19FCHeadlineProvidingP
+- _symbolic ______p So19SXLayoutInvalidatorP
+- _symbolic ______p So21NUErrorMessageFactoryP
+- _symbolic ______p So22FCNewsAppConfigurationP
+- _symbolic ______p So23FCPaidAccessCheckerTypeP
+- _symbolic ______p So23NUArticlePrefetcherTypeP
+- _symbolic ______p So24FCEndpointConnectionTypeP
+- _symbolic ______p So25FCIssueReadingHistoryTypeP
+- _symbolic ______p So25FCNetworkReachabilityTypeP
+- _symbolic ______p So26FCCoreConfigurationManagerP
+- _symbolic ______p So26NUArticleKeyCommandManagerP
+- _symbolic ______p So26SWFeedConfigurationFactoryP
+- _symbolic ______p So26SXComponentExposureMonitorP
+- _symbolic ______p So26SXViewControllerPresentingP
+- _symbolic ______p So28SXDocumentControllerProviderP
+- _symbolic ______p So29FCNewsAppConfigurationManagerP
+- _symbolic ______p So31FCBundleSubscriptionManagerTypeP
+- _symbolic ______p So34NUDocumentSectionBlueprintProviderP
+- _symbolic ______p So41UIPopoverPresentationControllerSourceItemP
+- _symbolic ______p So6SXHostP
+- _symbolic ______p s5ErrorP
+- _symbolic ______p12mainHeadline______6resultt So19FCHeadlineProvidingP 12NewsArticles18EndOfArticleResultV
+- _symbolic ______p15underlyingError_t s5ErrorP
+- _symbolic ______p16titleHeaderStyle_So7UIColorC15backgroundColort 12NewsArticles39EndOfArticleSectionTitleHeaderStyleTypeP
+- _symbolic ______p3tag_So6UIViewCSg10sourceViewt So14FCTagProvidingP
+- _symbolic ______p3tag_______p16titleHeaderStyleSo7UIColorC15backgroundColort So14FCTagProvidingP 12NewsArticles39EndOfArticleSectionTitleHeaderStyleTypeP
+- _symbolic ______p3tag_t So14FCTagProvidingP
+- _symbolic ______p5error_t s5ErrorP
+- _symbolic ______p8headline______23articleNavigationAction______p17blueprintProvider______p8observert So19FCHeadlineProvidingP 12NewsArticles23ArticleNavigationActionO AC0E27ViewerBlueprintProviderTypeP AC0eh8ObserverK0P
+- _symbolic ______p8headline______7context_____16layoutAttributest So19FCHeadlineProvidingP 8NewsFeed18HeadlineViewLayoutV7ContextV AE10AttributesV
+- _symbolic ______p8headline_t So19FCHeadlineProvidingP
+- _symbolic ______pIegg_ So19FCAssetDataProviderP
+- _symbolic ______pIegg_ So19FCCoreConfigurationP
+- _symbolic ______pIegg_ s5ErrorP
+- _symbolic ______pIegn_ 12NewsArticles26ContentPrefetchManagerTypeP
+- _symbolic ______pIegn_ 13TeaFoundation11ContextTypeP
+- _symbolic ______pIegn_ So19FCAssetDataProviderP
+- _symbolic ______pIegn_ So19FCCoreConfigurationP
+- _symbolic ______pSg 10CookingKit21RecipeURLProviderTypeP
+- _symbolic ______pSg 11MediaCoreUI26NowPlayingArtworkTreatmentP
+- _symbolic ______pSg 12NewsArticles17CancelHandlerTypeP
+- _symbolic ______pSg 12NewsArticles21ArticleFooterDelegateP
+- _symbolic ______pSg 12NewsArticles21RecipeCoordinatorTypeP
+- _symbolic ______pSg 12NewsArticles21StocksFeedServiceTypeP
+- _symbolic ______pSg 12NewsArticles22ArticleCoordinatorTypeP
+- _symbolic ______pSg 12NewsArticles22WebViewCoordinatorTypeP
+- _symbolic ______pSg 12NewsArticles24TagContentPrefetcherTypeP
+- _symbolic ______pSg 12NewsArticles25PDFReplicaCoordinatorTypeP
+- _symbolic ______pSg 12NewsArticles26EndOfRecipeCoordinatorTypeP
+- _symbolic ______pSg 12NewsArticles26IssueViewerCoordinatorTypeP
+- _symbolic ______pSg 12NewsArticles27EndOfArticleCoordinatorTypeP
+- _symbolic ______pSg 12NewsArticles27RecipeContentPrefetcherTypeP
+- _symbolic ______pSg 12NewsArticles27RecipeViewerCoordinatorTypeP
+- _symbolic ______pSg 12NewsArticles28ArticleViewerCoordinatorTypeP
+- _symbolic ______pSg 12NewsArticles29NowPlayingViewCoordinatorTypeP
+- _symbolic ______pSg 12NewsArticles30TableOfContentsCoordinatorTypeP
+- _symbolic ______pSg 12NewsArticles31PDFReplicaViewerCoordinatorTypeP
+- _symbolic ______pSg 12NewsArticles32AlertOpenBlockedStoryFactoryTypeP
+- _symbolic ______pSg 12NewsArticles35PDFReplicaBarVisibilityAnimatorTypeP
+- _symbolic ______pSg 12NewsArticles42IssueTableOfContentsArticleCoordinatorTypeP
+- _symbolic ______pSg 12NewsArticles44ArticleRecirculationSpecifiedSectionDataTypeP
+- _symbolic ______pSg 12NewsArticles52ArticleRecirculationSpecifiedSectionDataProviderTypeP
+- _symbolic ______pSg 13TeaFoundation10DisposableP
+- _symbolic ______pSg 5TeaUI15AssetHandleTypeP
+- _symbolic ______pSg 7NewsAds20AdContextBuilderTypeP
+- _symbolic ______pSg 8NewsFeed0B21DismissingManagerTypeP
+- _symbolic ______pSg 8NewsFeed21SharedItemManagerTypeP
+- _symbolic ______pSg 8NewsFeed34SharingActivityProviderFactoryTypeP
+- _symbolic ______pSg So13FCFeedThemingP
+- _symbolic ______pSg So14FCTagProvidingP
+- _symbolic ______pSg So17FCCommandDelegateP
+- _symbolic ______pSg So18FCChannelProvidingP
+- _symbolic ______pSg So19FCHeadlineProvidingP
+- _symbolic ______pSg So19FCNewsletterManagerP
+- _symbolic ______pSg So22FCNewsAppConfigurationP
+- _symbolic ______pSg So23FCPaidAccessCheckerTypeP
+- _symbolic ______pSg So41UIPopoverPresentationControllerSourceItemP
+- _symbolic ______pSg So8NSObjectP
+- _symbolic ______pSg s5ErrorP
+- _symbolic ______pSgIego_ So41UIPopoverPresentationControllerSourceItemP
+- _symbolic ______pSgSg So32UIContextMenuInteractionDelegateP
+- _symbolic ______pSgXw 12NewsArticles10SearchableP
+- _symbolic ______pSgXw 12NewsArticles18ArticlePreviewableP
+- _symbolic ______pSgXw 12NewsArticles21ArticleFooterDelegateP
+- _symbolic ______pSgXw 12NewsArticles21ArticleHeaderDelegateP
+- _symbolic ______pSgXw 12NewsArticles21RecipeCoordinatorTypeP
+- _symbolic ______pSgXw 12NewsArticles23ParallaxXUpdateDelegateP
+- _symbolic ______pSgXw 12NewsArticles24RecipeViewerObserverTypeP
+- _symbolic ______pSgXw 12NewsArticles24SelectedTextProviderTypeP
+- _symbolic ______pSgXw 12NewsArticles25ArticleViewerObserverTypeP
+- _symbolic ______pSgXw 12NewsArticles25ArticleViewerPageDelegateP
+- _symbolic ______pSgXw 12NewsArticles28RecipeInteractorTypeDelegateP
+- _symbolic ______pSgXw 12NewsArticles28RecipeViewControllerDelegateP
+- _symbolic ______pSgXw 12NewsArticles29ArticleInteractorTypeDelegateP
+- _symbolic ______pSgXw 12NewsArticles30EndOfRecipeDataManagerDelegateP
+- _symbolic ______pSgXw 12NewsArticles30RecipeEventHandlerTypeDelegateP
+- _symbolic ______pSgXw 12NewsArticles31ArticleEventHandlerTypeDelegateP
+- _symbolic ______pSgXw 12NewsArticles32PDFReplicaInteractorTypeDelegateP
+- _symbolic ______pSgXw 12NewsArticles32PDFReplicaViewControllerDelegateP
+- _symbolic ______pSgXw 12NewsArticles33EndOfRecipeInteractorTypeDelegateP
+- _symbolic ______pSgXw 12NewsArticles33IssueViewerInteractorTypeDelegateP
+- _symbolic ______pSgXw 12NewsArticles34EndOfArticleInteractorTypeDelegateP
+- _symbolic ______pSgXw 12NewsArticles34EndOfArticleResultProviderDelegateP
+- _symbolic ______pSgXw 12NewsArticles34PDFReplicaEventHandlerTypeDelegateP
+- _symbolic ______pSgXw 12NewsArticles34RecipeViewerInteractorTypeDelegateP
+- _symbolic ______pSgXw 12NewsArticles35ArticleViewerFeatureManagerDelegateP
+- _symbolic ______pSgXw 12NewsArticles35ArticleViewerInteractorTypeDelegateP
+- _symbolic ______pSgXw 12NewsArticles35EndOfArticleDataManagerTypeDelegateP
+- _symbolic ______pSgXw 12NewsArticles35EndOfRecipeEventHandlerTypeDelegateP
+- _symbolic ______pSgXw 12NewsArticles35IssueViewerEventHandlerTypeDelegateP
+- _symbolic ______pSgXw 12NewsArticles35ReportConcernInteractorTypeDelegateP
+- _symbolic ______pSgXw 12NewsArticles36EndOfArticleEventHandlerTypeDelegateP
+- _symbolic ______pSgXw 12NewsArticles36InterstitialAdInteractorTypeDelegateP
+- _symbolic ______pSgXw 12NewsArticles36RecipeViewerEventHandlerTypeDelegateP
+- _symbolic ______pSgXw 12NewsArticles37ArticleViewerEventHandlerTypeDelegateP
+- _symbolic ______pSgXw 12NewsArticles37ReportConcernEventHandlerTypeDelegateP
+- _symbolic ______pSgXw 12NewsArticles37TableOfContentsInteractorTypeDelegateP
+- _symbolic ______pSgXw 12NewsArticles38InterstitialAdEventHandlerTypeDelegateP
+- _symbolic ______pSgXw 12NewsArticles38PDFReplicaViewerInteractorTypeDelegateP
+- _symbolic ______pSgXw 12NewsArticles39PDFReplicaBarVisibilityAnimatorDelegateP
+- _symbolic ______pSgXw 12NewsArticles39TableOfContentsEventHandlerTypeDelegateP
+- _symbolic ______pSgXw 12NewsArticles40ModalArticleViewerInteractorTypeDelegateP
+- _symbolic ______pSgXw 12NewsArticles40PDFReplicaViewerEventHandlerTypeDelegateP
+- _symbolic ______pSgXw 12NewsArticles41CampaignLandingPageInteractorTypeDelegateP
+- _symbolic ______pSgXw 12NewsArticles41ReportConcernDetailInteractorTypeDelegateP
+- _symbolic ______pSgXw 12NewsArticles42ArticleViewerInterstitialAdManagerDelegateP
+- _symbolic ______pSgXw 12NewsArticles42ModalArticleViewerEventHandlerTypeDelegateP
+- _symbolic ______pSgXw 12NewsArticles43CampaignLandingPageEventHandlerTypeDelegateP
+- _symbolic ______pSgXw 12NewsArticles43InterstitialAdPreviewInteractorTypeDelegateP
+- _symbolic ______pSgXw 12NewsArticles43ReportConcernDetailEventHandlerTypeDelegateP
+- _symbolic ______pSgXw 12NewsArticles44EndOfRecipeBlueprintViewCellProviderDelegateP
+- _symbolic ______pSgXw 12NewsArticles45EndOfArticleBlueprintViewCellProviderDelegateP
+- _symbolic ______pSgXw 12NewsArticles45InterstitialAdPreviewEventHandlerTypeDelegateP
+- _symbolic ______pSgXw 12NewsArticles46ReportConcernBlueprintViewCellProviderDelegateP
+- _symbolic ______pSgXw 12NewsArticles48TableOfContentsBlueprintViewCellProviderDelegateP
+- _symbolic ______pSgXw 12NewsArticles52ReportConcernDetailBlueprintViewCellProviderDelegateP
+- _symbolic ______pSgXw 12NewsArticles54EndOfArticleBlueprintViewSupplementaryProviderDelegateP
+- _symbolic ______pSgXw 5TeaUI17CommandCenterTypeP
+- _symbolic ______pSgXw 5TeaUI31PluggableViewControllerDelegateP
+- _symbolic ______pSgXw 5TeaUI39FloatingTabBarAccessoryProviderDelegateP
+- _symbolic ______pSgXw 8NewsFeed8ZoomableP
+- _symbolic ______pSgXw So26SXViewControllerPresentingP
+- _symbolic ______pSgXw So41UIPopoverPresentationControllerSourceItemP
+- _symbolic ______pSgXwz_Xx So41UIPopoverPresentationControllerSourceItemP
+- _symbolic ______pSg______AC_______________tc 12NewsArticles42ArticleViewerFeatureAnimatedTransitionTypeP AA0cD4PageO 12CoreGraphics7CGFloatV So29TUPageViewControllerDirectionV AA0cdE13UpdateOptionsV
+- _symbolic ______pSgz_Xx So14FCTagProvidingP
+- _symbolic ______p_So23NUArticleScrollPositionCtSg So19FCHeadlineProvidingP
+- _symbolic ______p______5routet 5TeaUI9AlertableP 12NewsArticles17ArticleRouteModelO
+- _symbolic ______p______t 5TeaUI9AlertableP 12NewsArticles16RecipeRouteModelO
+- _symbolic ______p______t So19FCHeadlineProvidingP 12NewsArticles16EndOfArticleItemO8MetadataV
+- _symbolic ______pyc 11MediaCoreUI26NowPlayingArtworkTreatmentP
+- _symbolic ______pyc 12NewsArticles41ArticleNavigationBarPaletteContentSubviewP
+- _symbolic ______pytIegnr_ 13TeaFoundation11ContextTypeP
+- _symbolic _____y8Playable_____QzSgG 13TeaFoundation14SyncObservableC 12NewsArticles15AudioPlayerTypeP
+- _symbolic _____y8Playable_____QzSgGSg 13TeaFoundation14SyncObservableC 12NewsArticles15AudioPlayerTypeP
+- _symbolic _____yAAyAAy_____yAAyAAy_____y_____ySay_____y_xGGSS_____y_____y_xGGG_____y_____y___________QPGGG_____y_____GGATy_____GGG_____yAGGG_____y_____GG_____yAOSgGG 7SwiftUI15ModifiedContentV 09MediaCoreB015NowPlayingQueueV AD0ghI7SectionV AA7ForEachV 12NewsArticles0gH0O0I4ItemV AA13EquatableViewV AM0i3RowQ0V AA6HStackV AA05TupleD0V AA4TextV AA6SpacerV AA21_TraitWritingModifierV AA06OnMoveW3KeyV AA0z6DeleteW3KeyV AA010_AnimationY0V AA011_PreferencexY0V AA23PreferredColorSchemeKeyV AA08_OverlayY0V
+- _symbolic _____yAAy__________y_____GG_____y_____y_____GGG 7SwiftUI15ModifiedContentV AA6CircleV AA24_ForegroundStyleModifierV AA017HierarchicalShapeG0V AA08_OverlayH0V AA05_Viewh1_D0V 12NewsArticles10NowPlayingO05LabelgH033_156D83376656B3D3B2D493B88DAEA047LLV
+- _symbolic _____yAAy__________y_____SgGG_____y_____GG 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleI0V AA5ColorV
+- _symbolic _____yAAy_____y_____ACG_____y_____y__________ySay_____GSS_____y_____y_____G_Qo_GG______Qo_G_____G 7SwiftUI19_ConditionalContentV AA12ProgressViewV AA05EmptyF0V AA0F0PAAE9listStyleyQrqd__AA04ListI0Rd__lFQO AA0J0V s5NeverO AA7ForEachV 12NewsArticles019RecipeArticleDrawerF5ModelC0P0V AiAE0H12RowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AA6ButtonV AR0prP4ItemV AA05PlainjI0V AA4TextV
+- _symbolic _____yAAy_____y_____y_x_GG_____ySbGG_____G 7SwiftUI15ModifiedContentV AA6ButtonV 12NewsArticles10NowPlayingO10ControllerC08PlayNextE5Label33_4BBC3C9FE7900BE83F33085C0558EC6ALLV AA32_EnvironmentKeyTransformModifierV AA14_OpacityEffectV
+- _symbolic _____ySDySS_____GG 2os21OSAllocatedUnfairLockV 12NewsArticles21WeakRecipeCoordinatorC
+- _symbolic _____ySSG 11TeaSettings7SettingC
+- _symbolic _____ySSSgG 7SwiftUI9LazyStateV
+- _symbolic _____ySS_____G 13TeaFoundation14PromiseDeduperC 12NewsArticles22ProxyAuthenticationKeyV
+- _symbolic _____ySS_____G 13TeaFoundation20CodingSafeDictionaryV 12NewsArticles019RecipeRecirculationH15SourceCandidateO
+- _symbolic _____ySS_____G 13TeaFoundation5CacheC 12NewsArticles17ArticleTextRangesV
+- _symbolic _____ySS_____G 13TeaFoundation5CacheC 12NewsArticles25RecipeContentPrefetchItemO
+- _symbolic _____ySS_____G 13TeaFoundation5CacheC 12NewsArticles5IssueO
+- _symbolic _____ySS_____y_____GG 13TeaFoundation5CacheC AA7PromiseC 12NewsArticles28ArticleProviderServiceResultO
+- _symbolic _____ySaySSG_G ScS12ContinuationV
+- _symbolic _____ySay_____G7configs_______pSg10channelTagAF016surfacingSectionC0tGIegg_ 13TeaFoundation6ResultO 12NewsArticles26ArticleRecirculationConfigV So14FCTagProvidingP
+- _symbolic _____ySay______pGGIegg_ 13TeaFoundation6ResultO So19FCHeadlineProvidingP
+- _symbolic _____ySay______pGGIegn_ 13TeaFoundation6ResultO So19FCHeadlineProvidingP
+- _symbolic _____ySayxGG 13TeaFoundation14SyncObservableC
+- _symbolic _____ySbG 11TeaSettings7SettingC
+- _symbolic _____ySbG 13TeaFoundation14SyncObservableC
+- _symbolic _____ySbG 2os21OSAllocatedUnfairLockV
+- _symbolic _____ySbGIego_ 13TeaFoundation7PromiseC
+- _symbolic _____yScTyyt_____GSgG 15Synchronization5MutexVAARi_zrlE s5NeverO
+- _symbolic _____ySdG 13TeaFoundation14SyncObservableC
+- _symbolic _____ySfG 11TeaSettings7SettingC
+- _symbolic _____ySiG 8NewsFeed0B19GroupKnobsRuleValueC
+- _symbolic _____ySo12UIScrollViewCSgG 13TeaFoundation14SyncObservableC
+- _symbolic _____ySo21MPRemoteCommandCenterCG 13TeaFoundation4LazyC
+- _symbolic _____ySo7UIImageCSgG 7SwiftUI9LazyStateV
+- _symbolic _____ySo8FCRecipeCG 8NewsFeed0B12ScoredRecipeV
+- _symbolic _____y_____G 11MediaCoreUI18PreciseSpeedPickerV 05SwiftC09EmptyViewV
+- _symbolic _____y_____G 11MediaCoreUI35NowPlayingHostedContentToggleButtonC 05SwiftC05ImageV
+- _symbolic _____y_____G 11TeaSettings7SettingC 12NewsArticles23ViewingLocationOverrideO
+- _symbolic _____y_____G 11TeaSettings7SettingC 12NewsArticles26SubscriptionStatusOverrideO
+- _symbolic _____y_____G 11TeaSettings7SettingC 12NewsArticles27OfferUpsellScenarioOverrideO
+- _symbolic _____y_____G 11TeaSettings7SettingC 12NewsArticles29TagSubscriptionStatusOverrideO
+- _symbolic _____y_____G 11TeaSettings7SettingC 12NewsArticles30DarkModeColorInversionBehaviorO
+- _symbolic _____y_____G 11TeaSettings7SettingC 12NewsArticles36NewsletterSubscriptionStatusOverrideO
+- _symbolic _____y_____G 11TeaSettings7SettingC 12NewsArticles41SubscriptionActivationEligibilityOverrideO
+- _symbolic _____y_____G 11TeaTemplate10LayoutItemC 8NewsFeed014IssueCoverViewC10AttributesV
+- _symbolic _____y_____G 11TeaTemplate10LayoutItemC So6CGRectV
+- _symbolic _____y_____G 11TeaTemplate14LayoutItemListC 12NewsArticles025TableOfContentsHeaderViewC0V0C10AttributesV
+- _symbolic _____y_____G 11TeaTemplate14LayoutItemListC 12NewsArticles026TableOfContentsPDFCellViewC0V0C10AttributesV
+- _symbolic _____y_____G 13TeaFoundation12EventManagerC 12NewsArticles014InterstitialAdD0C0C0O
+- _symbolic _____y_____G 13TeaFoundation12EventManagerC 12NewsArticles06RecipeC0O
+- _symbolic _____y_____G 13TeaFoundation12EventManagerC 12NewsArticles07ArticleC0O
+- _symbolic _____y_____G 13TeaFoundation12EventManagerC 12NewsArticles21ArticleViewControllerC22PaywallPrepRequirementO
+- _symbolic _____y_____G 13TeaFoundation12EventManagerC 12NewsArticles21IssueViewerInteractorC0C0O
+- _symbolic _____y_____G 13TeaFoundation12EventManagerC 12NewsArticles24PDFReplicaViewControllerC22PaywallPrepRequirementO
+- _symbolic _____y_____G 13TeaFoundation12EventManagerC 12NewsArticles26RecipeViewerViewControllerC0C033_8BD4E40FB96FB5E702789588E749BEE0LLO
+- _symbolic _____y_____G 13TeaFoundation12EventManagerC 12NewsArticles27ArticleViewerViewControllerC0C033_F478AAD21120CB51E42B62988BC310EFLLO
+- _symbolic _____y_____G 13TeaFoundation12EventManagerC 12NewsArticles30PDFReplicaViewerViewControllerC0C0O
+- _symbolic _____y_____G 13TeaFoundation12EventManagerC 12NewsArticles35InterstitialAdPreviewViewControllerC0C0O
+- _symbolic _____y_____G 13TeaFoundation14AsyncOperationC 12NewsArticles25RecipeContentPrefetchItemO
+- _symbolic _____y_____G 13TeaFoundation14SyncObservableC 0A2UI24DockablePresentationModeO
+- _symbolic _____y_____G 13TeaFoundation14SyncObservableC 12NewsArticles10NowPlayingO10PlayerModeO
+- _symbolic _____y_____G 13TeaFoundation14SyncObservableC 12NewsArticles12RefreshStateO
+- _symbolic _____y_____G 13TeaFoundation14SyncObservableC 12NewsArticles14AudioSeekStateO
+- _symbolic _____y_____G 13TeaFoundation14SyncObservableC 12NewsArticles17AudioPlaybackRateO
+- _symbolic _____y_____G 13TeaFoundation14SyncObservableC 12NewsArticles17LiveCoverageStateC6StatusO
+- _symbolic _____y_____G 13TeaFoundation14SyncObservableC 12NewsArticles21RecipeViewerBlueprintO
+- _symbolic _____y_____G 13TeaFoundation14SyncObservableC 12NewsArticles22ArticleViewerBlueprintO
+- _symbolic _____y_____G 13TeaFoundation14SyncObservableC 12NewsArticles23ContentBackgroundColorsV
+- _symbolic _____y_____G 13TeaFoundation14SyncObservableC 12NewsArticles31AudioRemoteCommandCenterManagerC13PlaybackState33_AD6F67236CF23EE283A92C73040C04E1LLV
+- _symbolic _____y_____G 13TeaFoundation14SyncObservableC 8NewsFeed0F17ListeningProgressO
+- _symbolic _____y_____G 13TeaFoundation14SyncObservableC So25AVPlayerTimeControlStatusV
+- _symbolic _____y_____G 13TeaFoundation17URLHandlerContextV 0A2UI13AppURLContextV
+- _symbolic _____y_____G 13TeaFoundation7PromiseC 12NewsArticles25EndOfArticleSectionResultV
+- _symbolic _____y_____G 5TeaUI12DynamicValueV AA30FullscreenTransitionCoverStyleO
+- _symbolic _____y_____G 5TeaUI12DynamicValueV So10UIBarStyleV
+- _symbolic _____y_____G 5TeaUI12DynamicValueV So16UIStatusBarStyleV
+- _symbolic _____y_____G 5TeaUI12DynamicValueV So35TSAccessibilityInterfaceStyleIntentV
+- _symbolic _____y_____G 5TeaUI13BlueprintItemV 12NewsArticles17EndOfArticleModelO
+- _symbolic _____y_____G 5TeaUI13BlueprintItemV 12NewsArticles20TableOfContentsModelO
+- _symbolic _____y_____G 5TeaUI13PageBlueprintV 12NewsArticles013ArticleViewerC0O
+- _symbolic _____y_____G 5TeaUI18CollectionViewCellC 12NewsArticles021TableOfContentsHeaderD0C
+- _symbolic _____y_____G 5TeaUI20PageBlueprintManagerC 12NewsArticles012RecipeViewerC0O
+- _symbolic _____y_____G 5TeaUI20PageBlueprintManagerC 12NewsArticles013ArticleViewerC0O
+- _symbolic _____y_____G 5TeaUI20PageBlueprintManagerC 12NewsArticles016PDFReplicaViewerC0O
+- _symbolic _____y_____G 5TeaUI22MastheadViewControllerC 12NewsArticles07Articlec4RootdE0C
+- _symbolic _____y_____G 7SwiftUI11EnvironmentV 12CoreGraphics7CGFloatV
+- _symbolic _____y_____G 7SwiftUI11EnvironmentV AA11ColorSchemeO
+- _symbolic _____y_____G 7SwiftUI11EnvironmentV AA19ColorSchemeContrastO
+- _symbolic _____y_____G 7SwiftUI19UIHostingControllerC 12NewsArticles23RecipeArticleDrawerViewV
+- _symbolic _____y_____G 7SwiftUI6ButtonV AA5ImageV
+- _symbolic _____y_____G 7SwiftUI8BindableV 12NewsArticles10NowPlayingO16SpeedPickerModelC
+- _symbolic _____y_____G 8NewsFeed0B11GroupConfigV 0A8Articles017RecipeTopicsEndOffbcD4DataV
+- _symbolic _____y_____G 8NewsFeed0B11GroupConfigV 0A8Articles019RelatedEndOfArticlebcD4DataV
+- _symbolic _____y_____G 8NewsFeed0B11GroupConfigV 0A8Articles020MoreFromEndOfArticlebcD4DataV
+- _symbolic _____y_____G 8NewsFeed0B11GroupConfigV 0A8Articles022MoreToReadEndOfArticlebcD4DataV
+- _symbolic _____y_____G 8NewsFeed0B11GroupConfigV 0A8Articles023RecommendedEndOfArticlebcD4DataV
+- _symbolic _____y_____G 8NewsFeed0B11GroupConfigV 0A8Articles025MoreFromIssueEndOfArticlebcD4DataV
+- _symbolic _____y_____G 8NewsFeed0B11GroupConfigV 0A8Articles025RelatedRecipesEndOfRecipebcD4DataV
+- _symbolic _____y_____G 8NewsFeed0B11GroupConfigV 0A8Articles07Relatede11EndOfRecipebcD4DataV
+- _symbolic _____y_____G 8NewsFeed0B12LayoutSolverC AA05GroupC9InventoryV
+- _symbolic _____y_____G 8NewsFeed0B13NativeAdModelV 0A8Articles29EndOfArticleSectionDescriptorO
+- _symbolic _____y_____G 8NewsFeed0B13PluginManagerC 0A8Articles011EndOfRecipeB13ServiceConfigV
+- _symbolic _____y_____G 8NewsFeed0B15GroupKnobsRulesV 0A8Articles011EndOfRecipeB13ServiceConfigV
+- _symbolic _____y_____G 8NewsFeed0B15GroupKnobsRulesV 0A8Articles012EndOfArticleB13ServiceConfigV
+- _symbolic _____y_____G 8NewsFeed0B18ServiceFetchResultO 0A8Articles011EndOfRecipebC6ConfigV
+- _symbolic _____y_____G 8NewsFeed0B18ServiceFetchResultO 0A8Articles012EndOfArticlebC6ConfigV
+- _symbolic _____y_____G 8NewsFeed0B19GroupKnobsRuleValueC AA0bC25NativeAdInsertionLocationO
+- _symbolic _____y_____G 8NewsFeed0B28GroupConfigPlacementResolverV 0A8Articles011EndOfRecipebcD0O
+- _symbolic _____y_____G 8NewsFeed0B28GroupConfigPlacementResolverV 0A8Articles012EndOfArticlebcD0O
+- _symbolic _____y_____G 8NewsFeed0B8LocationO 0A8Articles011EndOfRecipeB13ServiceConfigV
+- _symbolic _____y_____G 8NewsFeed0B8LocationO 0A8Articles012EndOfArticleB13ServiceConfigV
+- _symbolic _____y_____G 8NewsFeed14OfflineManagerC 0A8Articles011EndOfRecipeC5ModelV
+- _symbolic _____y_____G 8NewsFeed14OfflineManagerC 0A8Articles06RecipeC5ModelV
+- _symbolic _____y_____G 8NewsFeed14OfflineManagerC 0A8Articles07ArticleC5ModelV
+- _symbolic _____y_____G 8NewsFeed18SaveCommandContextV AA0C7ContentO
+- _symbolic _____y_____GIegn_ 13TeaFoundation6ResultO 12NewsArticles012EndOfArticleC0V
+- _symbolic _____y_____GIegn_ 13TeaFoundation6ResultO 12NewsArticles19InterstitialAdModelO
+- _symbolic _____y_____GIegn_ 13TeaFoundation6ResultO 12NewsArticles25RecipeContentPrefetchItemO
+- _symbolic _____y_____GIegn_ 13TeaFoundation6ResultO 12NewsArticles27ArticleRecirculationServiceC05MergeC0V
+- _symbolic _____y_____GSg 11MediaCoreUI35NowPlayingHostedContentToggleButtonC 05SwiftC05ImageV
+- _symbolic _____y_____GSg 8NewsFeed14OfflineManagerC 0A8Articles06RecipeC5ModelV
+- _symbolic _____y_____GSgXw 12NewsArticles22EndOfArticleInteractorC AA0cdE24BlueprintModifierFactoryC
+- _symbolic _____y_____SgG 13TeaFoundation14SyncObservableC 0A2UI33FloatingTabBarNavigationTitleViewC
+- _symbolic _____y_____SgG 15Synchronization5MutexVAARi_zrlE 10CookingKit14RecipeUserDataV
+- _symbolic _____y______G 12NewsArticles19InterstitialAdModelO0cD0V 0A3Ads07ArticlecD7ContextV
+- _symbolic _____y______G 12NewsArticles19InterstitialAdModelO0cD0V 0A3Ads07PreviewcD7ContextV
+- _symbolic _____y______G ScS12ContinuationV 10CookingKit13OfflineStatusO
+- _symbolic _____y______Qo_ 11MediaCoreUI35NowPlayingHostedContentToggleButtonC7contentQrvpQO 05SwiftC05ImageV
+- _symbolic _____y__________G 13TeaFoundation12StateMachineC 12NewsArticles014ArticleLoadingC0O AD0gH5EventO
+- _symbolic _____y__________G 5TeaUI16BlueprintSectionV 12NewsArticles012EndOfArticleD10DescriptorO AD0ghI5ModelO
+- _symbolic _____y__________G 5TeaUI23BlueprintLayoutProviderC 12NewsArticles011EndOfRecipeD17SectionDescriptorO AD0hijD5ModelO
+- _symbolic _____y__________G 5TeaUI23BlueprintLayoutProviderC 12NewsArticles012EndOfArticleD17SectionDescriptorO AD0hijD5ModelO
+- _symbolic _____y__________G 5TeaUI9BlueprintV 12NewsArticles28EndOfRecipeSectionDescriptorO AD0fgH5ModelO
+- _symbolic _____y__________G 7NewsAds14AdRequestStoreC AA014ArticlePrerollC7ContextV AA0gC9PlacementV
+- _symbolic _____y__________G 7NewsAds14AdRequestStoreC AA019ArticleInterstitialC7ContextV AA0gC9PlacementV
+- _symbolic _____y__________G 7NewsAds22VideoAdProviderFactoryC AA014ArticlePrerollD7ContextV 0A8Articles0ghD9RequesterC
+- _symbolic _____y__________G 7NewsAds7JournalC AA15NativeAdContextV AA0dE9PlacementV
+- _symbolic _____y__________G 7NewsAds7JournalC AA22ContentBannerAdContextV AA06RecipeeF9PlacementV
+- _symbolic _____y__________G 7NewsAds7JournalC AA22ContentBannerAdContextV AA0deF9PlacementV
+- _symbolic _____y__________G 7NewsAds7JournalC AA23ArticlePrerollAdContextV AA0eF9PlacementV
+- _symbolic _____y__________G 7NewsAds7JournalC AA28ArticleInterstitialAdContextV AA0eF9PlacementV
+- _symbolic _____y__________G 7NewsAds9AdRequestV AA019ArticleInterstitialC7ContextV AA0fC9PlacementV
+- _symbolic _____y__________G 7SwiftUI19_ConditionalContentV 12NewsArticles10NowPlayingO10NoticeViewV AA05EmptyJ0V
+- _symbolic _____y__________G 8NewsFeed03AnyB20ServiceConfigFetcherC 0A8Articles011EndOfRecipebD7ContextV AD0hijbdE0V
+- _symbolic _____y__________G 8NewsFeed03AnyB20ServiceConfigFetcherC 0A8Articles012EndOfArticlebD7ContextV AD0hijbdE0V
+- _symbolic _____y__________G 8NewsFeed0B5ModelV AA0B8HeadlineV 0A8Articles012EndOfArticleC0O8FeaturesV
+- _symbolic _____y__________GIegn_ 5TeaUI23BlueprintModifierResultO 12NewsArticles28EndOfRecipeSectionDescriptorO AD0hiJ5ModelO
+- _symbolic _____y__________G_AAy_____ACG8fallbackt 8NewsFeed0B5ModelV 0A3Ads8NativeAdO8HeadlineO 0A8Articles012EndOfArticleC0O8FeaturesV AA0bG0V
+- _symbolic _____y_______________G 7NewsAds14BannerAdUpdateV 0A8Articles07ArticlecD0V AA07ContentcD7ContextV AA0hcD9PlacementV
+- _symbolic _____y_______________G 7NewsAds16AdRequestManagerC AA013ContentBannerC7ContextV AA0fgC8ProviderC AA06RecipegC9PlacementV
+- _symbolic _____y_______________G 7NewsAds16AdRequestManagerC AA013ContentBannerC7ContextV AA0fgC8ProviderC AA0fgC9PlacementV
+- _symbolic _____y_______________G 7NewsAds16AdRequestManagerC AA014ArticlePrerollC7ContextV AA0gC8ProviderC AA0gC9PlacementV
+- _symbolic _____y_______________G 7NewsAds16AdRequestManagerC AA019ArticleInterstitialC7ContextV AA0gC8ProviderC AA0gC9PlacementV
+- _symbolic _____y_______________G 7NewsAds25InterstitialAdViewManagerC AA07ArticlecD7ContextV AA0cD8ProviderC AA0cD9PlacementV
+- _symbolic _____y_______________G 7NewsAds25InterstitialAdViewManagerC AA07PreviewcD7ContextV AA0cD8ProviderC AA0cD9PlacementV
+- _symbolic _____y____________________G 12NewsArticles33BlueprintRecipeViewerTokenSessionC AA05EndOfD17SectionDescriptorO AA0hiD5ModelO AA0hid6LayoutjK0O AA0hidmL0O
+- _symbolic _____y____________________G 7NewsAds19BannerAdViewManagerC AA07ContentcD7ContextV AA0gcD8ProviderC AA06RecipecD9PlacementV 0A8Articles0jcD0V
+- _symbolic _____y____________________G 7NewsAds19BannerAdViewManagerC AA07ContentcD7ContextV AA0gcD8ProviderC AA0gcD9PlacementV 0A8Articles07ArticlecD0V
+- _symbolic _____y__________yAB_____y_xGGGSg 11MediaCoreUI13ContentLookupV AA016NowPlayingHostedD2IDV AA0D7Lookup1V 12NewsArticles0fG0O9QueueViewV
+- _symbolic _____y__________y_____y_____y_xG_____y_____GGACy_____y__________GACy_____y_____yADy__________y_____SgGGG______Qo_ACy_____y_____y_xGSiGACyAOyAPGACy_____yAP_Qo_ACyADyADyAOy_____y_x_GG_____ySbGG_____GACy_____ACy_____y_xG_____GGGGGGGGGGSg 11MediaCoreUI12ViewProviderV AA18NowPlayingLookupIDV AA01_dH4NodeV 05SwiftC015ModifiedContentV 12NewsArticles0fG0O013PublisherLogoD0V AH26_PreferenceWritingModifierV AH23PreferredColorSchemeKeyV AH012_ConditionalM0V AM06NoticeD0V AH05EmptyD0V AH0D0PAHE11buttonStyleyQrqd__AH20PrimitiveButtonStyleRd__lFQO AH6ButtonV AH5ImageV AH012_EnvironmentxsT0V AH4FontV AH16PlainButtonStyleV AH6IDViewV AM4MenuV AA0fg6HostedM12ToggleButtonC7contentQrvpQO AM10ControllerC19PlayNextButtonLabel33_4BBC3C9FE7900BE83F33085C0558EC6ALLV AH012_Environmentx9TransformT0V AH14_OpacityEffectV AM011SpeedPickerD0V AM07ArtworkD0V AA01_dH4TailV
+- _symbolic _____y__________y_xGG 11MediaCoreUI14ContentLookup1V AA016NowPlayingHostedD2IDV 12NewsArticles0fG0O9QueueViewV
+- _symbolic _____y______pG14commandContext_t 8NewsFeed19AudioCommandContextV So19FCHeadlineProvidingP
+- _symbolic _____y______pSgG 13TeaFoundation14SyncObservableC s5ErrorP
+- _symbolic _____y_____y8Playable_____QzGG 13TeaFoundation14SyncObservableC 12NewsArticles18AudioPlaybackStateO AD0G10PlayerTypeP
+- _symbolic _____y_____y8Playable_____QzGGSg 13TeaFoundation14SyncObservableC 12NewsArticles28AudioNowPlayingPlaybackStateO AD0G10PlayerTypeP
+- _symbolic _____y_____y_____GG 13TeaFoundation4LazyC AA7PromiseC 12NewsArticles28UserConcernConfigFetchResultV
+- _symbolic _____y_____y_____GG 15Synchronization5MutexVAARi_zrlE 13TeaFoundation11MulticasterV 10CookingKit14RecipeUserDataV
+- _symbolic _____y_____y_____GG 5TeaUI22PageBlueprintPrewarmerC AA0cD7ManagerC 12NewsArticles013ArticleViewerC0O
+- _symbolic _____y_____y_____GG 8NewsFeed19FormatCodingDefaultV AA0cD20SafeishArrayStrategyV 0A8Articles32RecipeRecirculationConfigSectionV
+- _symbolic _____y_____y_____G_______________yADGG 5TeaUI24ModernPageViewControllerC AA0D16BlueprintManagerC 12NewsArticles012RecipeViewerD0O AF0kldeF8ProviderC AF0kleF0C AA0dG9PrewarmerC
+- _symbolic _____y_____y_____G_______________yADGG 5TeaUI24ModernPageViewControllerC AA0D16BlueprintManagerC 12NewsArticles013ArticleViewerD0O AF0kldeF8ProviderC AF0kleF0C AA0dG9PrewarmerC
+- _symbolic _____y_____y_____G_______________yAD_____GG 5TeaUI24ModernPageViewControllerC AA0D16BlueprintManagerC 12NewsArticles016PDFReplicaViewerD0O AF0kleF8ProviderC AF0kleF0C AA0cdG9PrewarmerC AF0klnM0C
+- _symbolic _____y_____y__________GG 12NewsArticles23RecipeRouteModelFactoryC 5TeaUI23BlueprintLayoutProviderC AA05EndOfcJ17SectionDescriptorO AA0lmcjE0O
+- _symbolic _____y_____y__________GG 12NewsArticles33ArticleBlueprintRouteModelFactoryC 5TeaUI0D14LayoutProviderC AA011EndOfRecipeJ17SectionDescriptorO AA0lmnjF0O
+- _symbolic _____y_____y__________GG 12NewsArticles33ArticleBlueprintRouteModelFactoryC 5TeaUI0D14LayoutProviderC AA05EndOfcJ17SectionDescriptorO AA0lmcjF0O
+- _symbolic _____y_____y__________GGSgXw 12NewsArticles021BlueprintRecipeViewerC8ProviderC 5TeaUI0c6LayoutF0C AA05EndOfdI17SectionDescriptorO AA0jkdI5ModelO
+- _symbolic _____y_____y__________GGSgXw 12NewsArticles022BlueprintArticleViewerC8ProviderC 5TeaUI0c6LayoutF0C AA011EndOfRecipeI17SectionDescriptorO AA0jklI5ModelO
+- _symbolic _____y_____y__________GGSgXw 12NewsArticles022BlueprintArticleViewerC8ProviderC 5TeaUI0c6LayoutF0C AA05EndOfdI17SectionDescriptorO AA0jkdI5ModelO
+- _symbolic _____y_____y__________GGSgXw 12NewsArticles027BlueprintGroupArticleViewerC8ProviderC 5TeaUI0c6LayoutG0C AA011EndOfRecipeJ17SectionDescriptorO AA0klmJ5ModelO
+- _symbolic _____y_____y__________GGSgXw 12NewsArticles027BlueprintGroupArticleViewerC8ProviderC 5TeaUI0c6LayoutG0C AA05EndOfeJ17SectionDescriptorO AA0kleJ5ModelO
+- _symbolic _____y_____y__________G_____yAcD_____ySo11UITableViewC_____yAE_____y__________G__________G_____yAeN_____APG_____yAEGAPGGG 5TeaUI17BlueprintPipelineC AA0C8ProviderC 12NewsArticles30ReportConcernSectionDescriptorO AF0hI5ModelO AA0C9IntegatorC AA0c4ViewE0C AA0c5TableN10DataSourceC AA0c6LayoutE0C AF0hirjK0O AF0hirL0O AF0hicn4CellE0C AF0hiN10ControllerC AA0coN8DelegateC AF0hicn6HeaderE0C AA0con4DragU0C
+- _symbolic _____y_____y__________G_____yAcD_____ySo11UITableViewC_____yAE_____y__________G__________G_____yAeN_____APG_____yAEGAPGGG 5TeaUI17BlueprintPipelineC AA0C8ProviderC 12NewsArticles36ReportConcernDetailSectionDescriptorO AF0hiJ5ModelO AA0C9IntegatorC AA0c4ViewE0C AA0c5TableO10DataSourceC AA0c6LayoutE0C AF0hijskL0O AF0hijsM0O AF0hijco4CellE0C AF0hijO10ControllerC AA0cpO8DelegateC AF0hijco6HeaderE0C AA0cpo4DragV0C
+- _symbolic _____y_____y__________G_____yAcD_____ySo16UICollectionViewC_____yAE_____y__________G__________G_____yAeN_____G_____yAeNGASGGG 5TeaUI17BlueprintPipelineC AA0C8ProviderC 12NewsArticles28EndOfRecipeSectionDescriptorO AF0hiJ5ModelO AA0C9IntegatorC AA0c4ViewE0C AA0c10CollectionO10DataSourceC AA0c6LayoutE0C AF0hijskL0O AF0hijsM0O AF0hijco4CellE0C AF0hijco13SupplementaryoE0C AA0cpO8DelegateC AF0hijO10ControllerC AA0cpo4DragV0C
+- _symbolic _____y_____y__________G_____yAcD_____ySo16UICollectionViewC_____yAE_____y__________G__________G_____yAeN_____G_____yAeNGASGGG 5TeaUI17BlueprintPipelineC AA0C8ProviderC 12NewsArticles29EndOfArticleSectionDescriptorO AF0hiJ5ModelO AA0C9IntegatorC AA0c4ViewE0C AA0c10CollectionO10DataSourceC AA0c6LayoutE0C AF0hijskL0O AF0hijsM0O AF0hijco4CellE0C AF0hijco13SupplementaryoE0C AA0cpO8DelegateC AF0hijO10ControllerC AA0cpo4DragV0C
+- _symbolic _____y_____y__________G_____yAcD_____ySo16UICollectionViewC_____yAE_____y__________G__________G_____yAeN_____G_____yAeNGASGGG 5TeaUI17BlueprintPipelineC AA0C8ProviderC 12NewsArticles32TableOfContentsSectionDescriptorO AF0hiJ5ModelO AA0C9IntegatorC AA0c4ViewE0C AA0c10CollectionO10DataSourceC AA0c6LayoutE0C AF0hijskL0O AF0hijsM0O AF0hijco4CellE0C AF0hijco13SupplementaryoE0C AA0cpO8DelegateC AF0hijO10ControllerC AA0cpo4DragV0C
+- _symbolic _____y_____y__________G_____ySo11UITableViewC_____yAE_____y__________G__________G_____yAeM_____AOG_____yAEGAOGAOG 5TeaUI23BlueprintViewControllerC AA0C8ProviderC 12NewsArticles30ReportConcernSectionDescriptorO AF0iJ5ModelO AA0cdF0C AA0c5TableD10DataSourceC AA0c6LayoutF0C AF0ijqkL0O AF0ijqM0O AF0ijcd4CellF0C AF0ijdE0C AA0cnD8DelegateC AF0ijcd6HeaderF0C AA0cnd4DragS0C
+- _symbolic _____y_____y__________G_____ySo11UITableViewC_____yAE_____y__________G__________G_____yAeM_____AOG_____yAEGAOGAOG 5TeaUI23BlueprintViewControllerC AA0C8ProviderC 12NewsArticles36ReportConcernDetailSectionDescriptorO AF0ijK5ModelO AA0cdF0C AA0c5TableD10DataSourceC AA0c6LayoutF0C AF0ijkrlM0O AF0ijkrN0O AF0ijkcd4CellF0C AF0ijkdE0C AA0coD8DelegateC AF0ijkcd6HeaderF0C AA0cod4DragT0C
+- _symbolic _____y_____y__________G_____ySo16UICollectionViewC_____yAE_____y__________G__________G_____yAeM_____G_____yAeMGARGARG 5TeaUI23BlueprintViewControllerC AA0C8ProviderC 12NewsArticles28EndOfRecipeSectionDescriptorO AF0ijK5ModelO AA0cdF0C AA0c10CollectionD10DataSourceC AA0c6LayoutF0C AF0ijkrlM0O AF0ijkrN0O AF0ijkcd4CellF0C AF0ijkcd13SupplementarydF0C AA0coD8DelegateC AF0ijkdE0C AA0cod4DragU0C
+- _symbolic _____y_____y__________G_____ySo16UICollectionViewC_____yAE_____y__________G__________G_____yAeM_____G_____yAeMGARGARG 5TeaUI23BlueprintViewControllerC AA0C8ProviderC 12NewsArticles29EndOfArticleSectionDescriptorO AF0ijK5ModelO AA0cdF0C AA0c10CollectionD10DataSourceC AA0c6LayoutF0C AF0ijkrlM0O AF0ijkrN0O AF0ijkcd4CellF0C AF0ijkcd13SupplementarydF0C AA0coD8DelegateC AF0ijkdE0C AA0cod4DragU0C
+- _symbolic _____y_____y__________G_____ySo16UICollectionViewC_____yAE_____y__________G__________G_____yAeM_____G_____yAeMGARGARG 5TeaUI23BlueprintViewControllerC AA0C8ProviderC 12NewsArticles32TableOfContentsSectionDescriptorO AF0ijK5ModelO AA0cdF0C AA0c10CollectionD10DataSourceC AA0c6LayoutF0C AF0ijkrlM0O AF0ijkrN0O AF0ijkcd4CellF0C AF0ijkcd13SupplementarydF0C AA0coD8DelegateC AF0ijkdE0C AA0cod4DragU0C
+- _symbolic _____y_____y__________G_____ySo16UICollectionViewC_____yAE_____y__________G__________G_____yAeM_____G_____yAeMGARGARGSgXw 5TeaUI23BlueprintViewControllerC AA0C8ProviderC 12NewsArticles29EndOfArticleSectionDescriptorO AF0ijK5ModelO AA0cdF0C AA0c10CollectionD10DataSourceC AA0c6LayoutF0C AF0ijkrlM0O AF0ijkrN0O AF0ijkcd4CellF0C AF0ijkcd13SupplementarydF0C AA0coD8DelegateC AF0ijkdE0C AA0cod4DragU0C
+- _symbolic _____y_____y___________y_____yABy___________yA2FSgGQPGG_____y_____GG_____ADyADy__________y_____GGANGQPGG 7SwiftUI6HStackV AA12TupleContentV 12NewsArticles21RecipeDrawerImageViewV AA08ModifiedE0V AA6VStackV AA4TextV AA012_ConditionalE0V AA21_TraitWritingModifierV AA014LayoutPriorityP3KeyV AA6SpacerV AA0J0V AA016_ForegroundStyleR0V AA5ColorV
+- _symbolic _____y_____y__________y_____GGG 8NewsFeed0B7ServiceC AA0B13CursorFactoryC 0A8Articles011EndOfRecipeb12GroupEmitterE0C AA0B11PoolManagerC AF0ghiblC0C
+- _symbolic _____y_____y__________y_____GGG 8NewsFeed0B7ServiceC AA0B13CursorFactoryC 0A8Articles012EndOfArticleb12GroupEmitterE0C AA0B11PoolManagerC AF0ghiblC0C
+- _symbolic _____y_____y_____yAAy__________GG______Qo______y_____y_xGGG 7SwiftUI15ModifiedContentV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonG0Rd__lFQO AA0I0V AA5ImageV 12NewsArticles10NowPlayingO05LabelG8Modifier33_156D83376656B3D3B2D493B88DAEA047LLV AA05PlainiG0V AA08_OverlayP0V AN022ContextMenuInteractionE0V
+- _symbolic _____y_____y_____y__________y_____SgGGG______Qo_ 7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lFQO AA0G0V AA15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA05PlaingE0V
+- _symbolic _____y_____y_____y_____yACyACyACy__________G_____y_____GG_____y_____GGAIGACyACyACyACy_____AEGAMG_____y_____yAHGGG_____yACyAD_____yAHSgGGGGGG_Qo_ 7SwiftUI4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AA6VStackV AA19_ConditionalContentV AA08ModifiedK0V AA5ImageV AA12_FrameLayoutV AA24_BackgroundStyleModifierV AA5ColorV AA11_ClipEffectV AA16RoundedRectangleV AA0W0V AA011_ForegroundqR0V AA017HierarchicalShapeqR0V AA08_OverlayR0V AA022_EnvironmentKeyWritingR0V
+- _symbolic _____y_____y_____y_____y_____ADGG_____ySbGG_SSQo_ 7SwiftUI4ViewPAAE4task2id4name8priority4file4line_Qrqd___SSSgScPSSSiyyYaYAcntSQRd__lFQO AA15ModifiedContentV AA5GroupV AA012_ConditionalK0V AA5ImageV AA18_AnimationModifierV
+- _symbolic _____y_____y_____y_____y_____yADyAAyAAyAAy__________G_____G_____G_____G_____G_AAy_____AHGQPGG_____ySbGG______y_x_GQo_ 7SwiftUI4ViewPAAE4task2id4name8priority4file4line_Qrqd___SSSgScPSSSiyyYaYAcntSQRd__lFQO AA15ModifiedContentV AA6VStackV AA05TupleK0V AA012_ConditionalK0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameR0V AA31AccessibilityAttachmentModifierV AA4TextV AA05EmptyC0V AA6SpacerV AA010_AnimationV0V 12NewsArticles10NowPlayingO013PublisherLogoC0V6TaskID33_6A39892C07F492B6727BD7AAABA7DDEELLV
+- _symbolic _____y_____y_____y_xG_____GG 7SwiftUI5GroupV AA19_ConditionalContentV 12NewsArticles10NowPlayingO5ImageV AaIV
+- _symbolic _____y_____y_____y_xG_____y_____GGAAy_____y__________GAAy_____y_____yABy__________y_____SgGGG______Qo_AAy_____y_____y_xGSiGAAyAMyANGAAy_____yAN_Qo_AAyAByAByAMy_____y_x_GG_____ySbGG_____GAAy_____AAy_____y_xG_____GGGGGGGGG 11MediaCoreUI15_ViewLookupNodeV 05SwiftC015ModifiedContentV 12NewsArticles10NowPlayingO013PublisherLogoD0V AD26_PreferenceWritingModifierV AD23PreferredColorSchemeKeyV AD012_ConditionalI0V AI06NoticeD0V AD05EmptyD0V AD0D0PADE11buttonStyleyQrqd__AD20PrimitiveButtonStyleRd__lFQO AD6ButtonV AD5ImageV AD012_EnvironmentvqR0V AD4FontV AD16PlainButtonStyleV AD6IDViewV AI4MenuV AA0lm6HostedI12ToggleButtonC7contentQrvpQO AI10ControllerC19PlayNextButtonLabel33_4BBC3C9FE7900BE83F33085C0558EC6ALLV AD012_Environmentv9TransformR0V AD14_OpacityEffectV AI011SpeedPickerD0V AI07ArtworkD0V AA01_dE4TailV
+- _symbolic _____y_____y_____y_xG_____y_xGG_____G 7SwiftUI15ModifiedContentV 09MediaCoreB018NowPlayingQueueRowV 12NewsArticles0gH0O5ImageV AI0I4ItemV AA14_PaddingLayoutV
+- _symbolic _____y_____y_xGGSg 11MediaCoreUI22NowPlayingInstallationC 12NewsArticles0dE0O10ControllerC
+- _symbolic _____y_____y_xGGSgXw 11MediaCoreUI22NowPlayingInstallationC 12NewsArticles0dE0O10ControllerC
+- _symbolic _____y_____y_xGGSgXwz_x______RzlXX 11MediaCoreUI22NowPlayingInstallationC 12NewsArticles0dE0O10ControllerC AD0D13PlayableTrackP
+- _symbolic _____y_____y_xGSiG 7SwiftUI6IDViewV 12NewsArticles10NowPlayingO4MenuV
+- _symbolic _____y_____y_xG_____y_____GG 7SwiftUI15ModifiedContentV 12NewsArticles10NowPlayingO17PublisherLogoViewV AA26_PreferenceWritingModifierV AA23PreferredColorSchemeKeyV
+- _symbolic _____y_____ytG 8NewsFeed0B5ModelV AA0B3TagV
+- _symbolic _____y_____ytG 8NewsFeed0B5ModelV AA0B6RecipeV
+- _symbolic _____y_____ytG 8NewsFeed0B5ModelV AA0B8HeadlineV
+- _symbolic _____y_____yxGG 13TeaFoundation14SyncObservableC 12NewsArticles18AudioPlaybackStateO
+- _symbolic _____y_____yxGG 13TeaFoundation14SyncObservableC 12NewsArticles28AudioNowPlayingPlaybackStateO
+- _symbolic _____y_xG 12NewsArticles10NowPlayingO10ControllerC
+- _symbolic _____y_xG 12NewsArticles10NowPlayingO11ArtworkViewV
+- _symbolic _____y_xG 12NewsArticles10NowPlayingO11ImageLoaderC
+- _symbolic _____y_xG 12NewsArticles10NowPlayingO12QueueRowViewV
+- _symbolic _____y_xG 12NewsArticles10NowPlayingO14QueueViewModelC
+- _symbolic _____y_xG 12NewsArticles10NowPlayingO17PublisherLogoViewV
+- _symbolic _____y_xG 12NewsArticles10NowPlayingO24PublisherLogoImageLoaderC
+- _symbolic _____y_xG 12NewsArticles10NowPlayingO26ContextInteractionDelegateC
+- _symbolic _____y_xG 12NewsArticles10NowPlayingO5ImageV
+- _symbolic _____y_xG 12NewsArticles10NowPlayingO9QueueItemV
+- _symbolic _____y_xG 12NewsArticles10NowPlayingO9QueueViewV
+- _symbolic _____y_xG 12NewsArticles19InterstitialAdModelO0cD0V
+- _symbolic _____y_xGSg 12NewsArticles10NowPlayingO10ControllerC
+- _symbolic _____y_xGSg 12NewsArticles10NowPlayingO11ImageLoaderC
+- _symbolic _____y_xGSg 12NewsArticles10NowPlayingO18SkipSessionManagerC
+- _symbolic _____y_xGSg 12NewsArticles10NowPlayingO24PublisherLogoImageLoaderC
+- _symbolic _____y_xGSgXw 12NewsArticles10NowPlayingO10ControllerC
+- _symbolic _____y_xGSgXw 12NewsArticles10NowPlayingO15ViewCoordinatorC
+- _symbolic _____y_xGSgXw 12NewsArticles10NowPlayingO18SkipSessionManagerC
+- _symbolic _____y_xGSgXw 12NewsArticles10NowPlayingO26ContextInteractionDelegateC
+- _symbolic _____y_xGSgXwz_x______RzlXX 12NewsArticles10NowPlayingO10ControllerC AA0C13PlayableTrackP
+- _symbolic _____y_xGSgXwz_x______RzlXX 12NewsArticles10NowPlayingO15ViewCoordinatorC AA0C13PlayableTrackP
+- _symbolic _____y_xGSgXwz_x______RzlXX 12NewsArticles10NowPlayingO18SkipSessionManagerC AA0C13PlayableTrackP
+- _symbolic _____y_xGSgXwz_x______RzlXX 12NewsArticles10NowPlayingO26ContextInteractionDelegateC AA0C13PlayableTrackP
+- _symbolic _____y_x_G 12NewsArticles10NowPlayingO18SkipSessionManagerC9DirectionO
+- _symbolic _____y_x_GSg 12NewsArticles10NowPlayingO18SkipSessionManagerC0F033_5BA4CC031C6D4E9A3B801F77650A23B2LLV
+- _symbolic _____yc 12CoreGraphics7CGFloatV
+- _symbolic _____yq0_q1_G 5TeaUI23BlueprintLayoutProviderC
+- _symbolic _____yqd__G 12NewsArticles28AudioPlaybackUpdateFrequencyV
+- _symbolic _____yqd__Gz_AB_qd__ABRsz_____Rd__r__lXX 12NewsArticles18AudioPlaybackStateO AA0C8PlayableP
+- _symbolic _____ytIegnr_ 12NewsArticles28RecipeArticleDrawerViewModelC0C0V
+- _symbolic _____yxG 12NewsArticles11AudioPlayerC
+- _symbolic _____yxG 12NewsArticles21EndOfRecipeInteractorC
+- _symbolic _____yxG 5TeaUI14StackNavigatorC
+- _symbolic _____yxGSg 12NewsArticles12FeatureStateV
+- _symbolic _____yxGSg 5TeaUI14StackNavigatorC
+- _symbolic _____yxGSgXw 12NewsArticles021BlueprintRecipeViewerC8ProviderC
+- _symbolic _____yxGSgXw 12NewsArticles022BlueprintArticleViewerC8ProviderC
+- _symbolic _____yxGSgXw 12NewsArticles027BlueprintGroupArticleViewerC8ProviderC
+- _symbolic _____yxGSgXw 12NewsArticles11AudioPlayerC
+- _symbolic _____yxGSgXw 12NewsArticles21EndOfRecipeInteractorC
+- _symbolic _____yxGSgXw 12NewsArticles22EndOfArticleInteractorC
+- _symbolic _____yxGSgXw 12NewsArticles28InterstitialAdViewControllerC
+- _symbolic _____yxGSgXwz______y__________G______Rz_____11LayoutModel_____Rpz_____ALRQ_____ALRQlXX 12NewsArticles021BlueprintRecipeViewerC8ProviderC 5TeaUI0c6LayoutF0C AA05EndOfdI17SectionDescriptorO AA0jkdI5ModelO AD0ciF4TypeP AA0deD13RepresentableP AL 0G10Foundation12IdentifiableP AD14VisualRankableP
+- _symbolic _____yxGSgXwz______y__________G______Rz_____11LayoutModel_____Rpz_____ALRQ_____ALRQlXX 12NewsArticles022BlueprintArticleViewerC8ProviderC 5TeaUI0c6LayoutF0C AA011EndOfRecipeI17SectionDescriptorO AA0jklI5ModelO AD0ciF4TypeP AA0D13RepresentableP AL 0G10Foundation12IdentifiableP AD14VisualRankableP
+- _symbolic _____yxGSgXwz______y__________G______Rz_____11LayoutModel_____Rpz_____ALRQ_____ALRQlXX 12NewsArticles022BlueprintArticleViewerC8ProviderC 5TeaUI0c6LayoutF0C AA05EndOfdI17SectionDescriptorO AA0jkdI5ModelO AD0ciF4TypeP AA0D13RepresentableP AL 0G10Foundation12IdentifiableP AD14VisualRankableP
+- _symbolic _____yxGSgXwz______y__________G______Rz_____11LayoutModel_____Rpz_____ALRQ_____ALRQlXX 12NewsArticles027BlueprintGroupArticleViewerC8ProviderC 5TeaUI0c6LayoutG0C AA011EndOfRecipeJ17SectionDescriptorO AA0klmJ5ModelO AD0cjG4TypeP AA0E13RepresentableP AL 0H10Foundation12IdentifiableP AD14VisualRankableP
+- _symbolic _____yxGSgXwz______y__________G______Rz_____11LayoutModel_____Rpz_____ALRQ_____ALRQlXX 12NewsArticles027BlueprintGroupArticleViewerC8ProviderC 5TeaUI0c6LayoutG0C AA05EndOfeJ17SectionDescriptorO AA0kleJ5ModelO AD0cjG4TypeP AA0E13RepresentableP AL 0H10Foundation12IdentifiableP AD14VisualRankableP
+- _symbolic _____yxGSgXwz_x______Rz_____10Descriptor_____Rtz_____5ModelAGRtzlXX 12NewsArticles21EndOfRecipeInteractorC AA0cdE28BlueprintModifierFactoryTypeP AA0cdE17SectionDescriptorO AE AA0cdE5ModelO
+- _symbolic _____yxGSgXwz_x______Rz_____10Descriptor_____Rtz_____5ModelAGRtzlXX 12NewsArticles22EndOfArticleInteractorC AA0cdE28BlueprintModifierFactoryTypeP AA0cdE17SectionDescriptorO AE AA0cdE5ModelO
+- _symbolic _____yxGSgXwz_x______Rz_____11LayoutModel_____Rpz_____AHRQ_____AHRQlXX 12NewsArticles021BlueprintRecipeViewerC8ProviderC 5TeaUI0c6LayoutF4TypeP AA0deD13RepresentableP AF 0G10Foundation12IdentifiableP AD14VisualRankableP
+- _symbolic _____yxGSgXwz_x______Rz_____11LayoutModel_____Rpz_____AHRQ_____AHRQlXX 12NewsArticles022BlueprintArticleViewerC8ProviderC 5TeaUI0c6LayoutF4TypeP AA0D13RepresentableP AF 0G10Foundation12IdentifiableP AD14VisualRankableP
+- _symbolic _____yxGSgXwz_x______Rz_____11LayoutModel_____Rpz_____AHRQ_____AHRQlXX 12NewsArticles027BlueprintGroupArticleViewerC8ProviderC 5TeaUI0c6LayoutG4TypeP AA0E13RepresentableP AF 0H10Foundation12IdentifiableP AD14VisualRankableP
+- _symbolic _____yxGSgXwz_x______RzlXX 12NewsArticles11AudioPlayerC AA0C8PlayableP
+- _symbolic _____yxGSgXwz_x______RzlXX 12NewsArticles28InterstitialAdViewControllerC 0A3Ads0D11ContextTypeP
+- _symbolic _____yxG_____Iegnd_ 12NewsArticles28AudioNowPlayingPlaybackStateO AA0C26RemoteCommandCenterManagerC0fG033_AD6F67236CF23EE283A92C73040C04E1LLV
+- _symbolic _____yx_____G 7NewsAds25InterstitialViewInsertionV AA0C11AdPlacementV
+- _symbolic _____yx_____G 7NewsAds7JournalC AA23InterstitialAdPlacementV
+- _symbolic _____yx__________G 7NewsAds25InterstitialAdViewManagerC AA0cD8ProviderC AA0cD9PlacementV
+- _symbolic _____yxq_G 5TeaUI17BlueprintProviderC
+- _symbolic _____yxq_G9blueprint______yq0_q1_G0A6Layoutt 5TeaUI9BlueprintV AA0C6LayoutV
+- _symbolic _____yxq_q0_GSgXw 12NewsArticles22AudioPlaybackConductorC
+- _symbolic _____yxq_q0_GSgXwz_x_q_q0______Rz_____R______R0_8Playable_____Qy_AG_____RtzAG_____Qy0_AIRSr1_lXX 12NewsArticles22AudioPlaybackConductorC AA0C10PlayerTypeP AA0cD5QueueP AA0c25ListeningProgressProviderG0P AG AE AI
+- _symbolic _____yxq_q0_q1_G 12NewsArticles31BlueprintRecipeViewerTokenState33_4BC89CB3D96B763EF772AC751768F543LLO
+- _symbolic _____yxq_q0_q1_G 12NewsArticles32BlueprintArticleViewerTokenState33_AD3CF8001B1619FAA895FDE1E5FCA757LLO
+- _symbolic _____yytG 13TeaFoundation14SyncObservableC
+- _symbolic _____yytG 5TeaUI6ActionC
+- _symbolic _____yytGSg 5TeaUI8DebounceC
+- _symbolic _____yyyYaYbc_G ScS12ContinuationV
+- _symbolic _____z_Xx 12NewsArticles11DebugRecipeV
+- _symbolic _____z_Xx 12NewsArticles24ArticleRecirculationDataV
+- _symbolic q0_
+- _symbolic q1_
+- _symbolic q_
+- _symbolic qd0__
+- _symbolic qd__
+- _symbolic x
+- _symbolic x4item_Sd4time_____12playbackRateSb7waitingt 12NewsArticles17AudioPlaybackRateO
+- _symbolic x4item_Sd4time_____12playbackRatet 12NewsArticles17AudioPlaybackRateO
+- _symbolic xSg
+- _symbolic xqd__Iegno_
+- _symbolic ySo7UIImageCSgcSg
+- _symbolic yXlSg
+- _symbolic yXlSgXw
+- _symbolic y______So16UIViewControllerCXccSg 12NewsArticles21IssueViewerEmbeddableP
+- _symbolic y___________tcSg 12NewsArticles17ArticleViewerPageO So29TUPageViewControllerDirectionV
+- _symbolic y______pcSg 13TeaFoundation11ContextTypeP
+- _symbolic y_____c 12NewsArticles26ArticleViewerFeatureActionO
+- _symbolic y_____c 12NewsArticles27ArticleViewerViewControllerC
+- _symbolic y_____cSg 12NewsArticles26ArticleBottomPaletteActionO
+- _symbolic y_____cSg 12NewsArticles26ArticleViewerFeatureActionO
+- _symbolic y_____cSg 12NewsArticles26RecipeViewerViewControllerC
+- _symbolic y_____cSg 12NewsArticles28RecipeArticleDrawerViewModelC0C0V
+- _symbolic ypSg
+- _symbolic yt
+- _symbolic ytIeAgHr_
+- _symbolic ytIegn_
+- _symbolic ytIegr_
+- _symbolic ytSgIeAgHr_
+- _symbolic ytSg______pIgrzo_ s5ErrorP
+- _symbolic yt______pIgrzo_ s5ErrorP
+- _symbolic yyYbc
+- _symbolic yyc
+- _symbolic yycSg
+- _type_layout_string 12NewsArticles012RecipeDrawerC4ItemV
+- _type_layout_string 12NewsArticles012RecipeViewerC0V
+- _type_layout_string 12NewsArticles012RecipeViewerC4PageV
+- _type_layout_string 12NewsArticles013ArticleViewerC4PageV19PresentationContextO
+- _type_layout_string 12NewsArticles017AsyncRecipeViewerD0V
+- _type_layout_string 12NewsArticles017AsyncRecipeViewerD4TaskV
+- _type_layout_string 12NewsArticles019RecipeRecirculationC15SourceCandidateO
+- _type_layout_string 12NewsArticles10BaseStylerV
+- _type_layout_string 12NewsArticles10IssuePagesV3ANFV4PageO
+- _type_layout_string 12NewsArticles10IssuePagesV3ANFV4PageO20ReplicaAdvertisementV
+- _type_layout_string 12NewsArticles10IssuePagesV3ANFV4PageO7ArticleV
+- _type_layout_string 12NewsArticles10IssuePagesV3PDFV
+- _type_layout_string 12NewsArticles10IssuePagesV3PDFV4PageV
+- _type_layout_string 12NewsArticles10NowPlayingO10NoticeViewV
+- _type_layout_string 12NewsArticles10NowPlayingO6NoticeO
+- _type_layout_string 12NewsArticles10NowPlayingO8Snapshot33_4BBC3C9FE7900BE83F33085C0558EC6ALLV
+- _type_layout_string 12NewsArticles11DebugRecipeV06LoadedD0V9PublisherV
+- _type_layout_string 12NewsArticles11IssueLoaderC5ModelO
+- _type_layout_string 12NewsArticles12ANFIssuePageO
+- _type_layout_string 12NewsArticles12ANFOverridesV
+- _type_layout_string 12NewsArticles12HistoryStateV
+- _type_layout_string 12NewsArticles12WebViewStyleV
+- _type_layout_string 12NewsArticles13ArticleConfig33_35122D697059B441BED36C9BB23CEEFCLLV
+- _type_layout_string 12NewsArticles13AudioPlayableRzlAA0C23PlaybackUpdateFrequencyVyxG
+- _type_layout_string 12NewsArticles13TagRouteModelV
+- _type_layout_string 12NewsArticles14AudioTrackKindO
+- _type_layout_string 12NewsArticles14BarButtonOrderV
+- _type_layout_string 12NewsArticles14PDFReplicaPageV
+- _type_layout_string 12NewsArticles15BrandBarContentV
+- _type_layout_string 12NewsArticles15SubConcernModelV
+- _type_layout_string 12NewsArticles15TagRouteContextV
+- _type_layout_string 12NewsArticles15UserConcernDataV
+- _type_layout_string 12NewsArticles16ArticleGroupDataO
+- _type_layout_string 12NewsArticles16EndOfArticleItemO
+- _type_layout_string 12NewsArticles16EndOfArticleItemO8MetadataV
+- _type_layout_string 12NewsArticles16IssueViewSessionV
+- _type_layout_string 12NewsArticles16RecipeNotesStateV
+- _type_layout_string 12NewsArticles16RecipeViewerPageO
+- _type_layout_string 12NewsArticles16UserConcernModelV
+- _type_layout_string 12NewsArticles17ArticleTextRangesV
+- _type_layout_string 12NewsArticles17ArticleTextRangesV8Metadata33_D90BFB9756278962FB3FF873B46A4DD7LLV
+- _type_layout_string 12NewsArticles17ArticleTextRangesV9Paragraph33_D90BFB9756278962FB3FF873B46A4DD7LLV
+- _type_layout_string 12NewsArticles17ArticleTextRangesV9Paragraph33_D90BFB9756278962FB3FF873B46A4DD7LLV8MetadataV
+- _type_layout_string 12NewsArticles17EndOfArticleModelO8FeaturesV
+- _type_layout_string 12NewsArticles17EndOfArticleStyleV
+- _type_layout_string 12NewsArticles17HeadlineThumbnailV
+- _type_layout_string 12NewsArticles17HeadlineThumbnailV5Model33_5B9F28DC211094A1782E14306D872C08LLV
+- _type_layout_string 12NewsArticles17LinkHandlerTraitsV
+- _type_layout_string 12NewsArticles17RecipeDataManagerC5ErrorO
+- _type_layout_string 12NewsArticles17UserConcernConfigV
+- _type_layout_string 12NewsArticles18AnalyticsMediaDataV
+- _type_layout_string 12NewsArticles18EndOfArticleResultV
+- _type_layout_string 12NewsArticles18PDFReplicaPageLinkO
+- _type_layout_string 12NewsArticles18PDFReplicaPageLinkO12TapRectangle33_32209FE2BFA58111248ABCFE1F58756BLLV
+- _type_layout_string 12NewsArticles18RecipeViewerConfigV
+- _type_layout_string 12NewsArticles19ArticleRecipeResultO
+- _type_layout_string 12NewsArticles20AnalyticsGalleryDataV
+- _type_layout_string 12NewsArticles20ConcernReasonSubTypeV
+- _type_layout_string 12NewsArticles20PDFReplicaViewerPageO
+- _type_layout_string 12NewsArticles20ToolbarLayoutOptionsV
+- _type_layout_string 12NewsArticles21ArticlePreviewManagerC0D9Container33_E5971DD7158D3247DDFEC65302AC346ALLV
+- _type_layout_string 12NewsArticles21HeadlinePublisherLogoV
+- _type_layout_string 12NewsArticles21PDFReplicaPageOptionsV
+- _type_layout_string 12NewsArticles21RecipeRouteIdentifierO
+- _type_layout_string 12NewsArticles21RecipeViewerBlueprintO
+- _type_layout_string 12NewsArticles21RecipeViewerBlueprintO0C4ItemV
+- _type_layout_string 12NewsArticles21RecipeViewerBlueprintO0C4ItemV5ModelO
+- _type_layout_string 12NewsArticles22ArticleViewerBlueprintO11PreviewItemV
+- _type_layout_string 12NewsArticles22ArticleViewerBlueprintO11PreviewItemV5ModelO
+- _type_layout_string 12NewsArticles22RecipeViewerInteractorC06recipeD7Recipes33_77884F80F5486DF517A80CF3E494D0B3LL4fromSayAA0cdC0VGSayAA0cD9BlueprintO0C4ItemVG_tYaF6ResultL_V
+- _type_layout_string 12NewsArticles22SubscribeActionHandlerC18HeadlineAttributesV
+- _type_layout_string 12NewsArticles22SubscribeActionHandlerC6ErrorsO
+- _type_layout_string 12NewsArticles23ANFReplicaAdvertisementV
+- _type_layout_string 12NewsArticles23ArticleGroupDataContextV
+- _type_layout_string 12NewsArticles23ContentBackgroundColorsV
+- _type_layout_string 12NewsArticles23EndOfRecipeExpandResultV
+- _type_layout_string 12NewsArticles23PDFReplicaViewerOptionsV
+- _type_layout_string 12NewsArticles24AnalyticsMediaEngageDataV
+- _type_layout_string 12NewsArticles24ArticleRecirculationDataV
+- _type_layout_string 12NewsArticles24ArticleViewerPreviewPageV
+- _type_layout_string 12NewsArticles24AudioTrackTransformationV
+- _type_layout_string 12NewsArticles24EndOfArticleExpandResultV
+- _type_layout_string 12NewsArticles24EndOfRecipeExpandContextV
+- _type_layout_string 12NewsArticles24EndOfRecipePrewarmResultV
+- _type_layout_string 12NewsArticles24ReplicaAdvertisementPageV
+- _type_layout_string 12NewsArticles24ReportConcernDetailModelO
+- _type_layout_string 12NewsArticles24TextResizeFeatureContextV
+- _type_layout_string 12NewsArticles25AlertBlockedStoryBehaviorV
+- _type_layout_string 12NewsArticles25AnalyticsANFComponentDataV
+- _type_layout_string 12NewsArticles25EndOfArticlePrewarmResultV
+- _type_layout_string 12NewsArticles25EndOfArticleSectionResultV
+- _type_layout_string 12NewsArticles25SaveArticleFeatureContextV
+- _type_layout_string 12NewsArticles25TableOfContentsGridLayoutV
+- _type_layout_string 12NewsArticles25TableOfContentsGridLayoutV0G10AttributesV
+- _type_layout_string 12NewsArticles26ArticleRecirculationConfigV
+- _type_layout_string 12NewsArticles26ArticleRecirculationConfigV0C10CollectionO
+- _type_layout_string 12NewsArticles26ArticleRecirculationConfigV0C10CollectionO06ScoredC0V
+- _type_layout_string 12NewsArticles26ArticleRecirculationConfigV0C10CollectionO0cF11CodingErrorO
+- _type_layout_string 12NewsArticles26ArticleRecirculationConfigV0C8ProviderO0cF11CodingErrorO
+- _type_layout_string 12NewsArticles26ArticleRecirculationConfigV12OptionalRuleO
+- _type_layout_string 12NewsArticles26ArticleRecirculationConfigV13SectionQuotasV
+- _type_layout_string 12NewsArticles26ArticleRecirculationConfigV14RuleCollectionO
+- _type_layout_string 12NewsArticles26ArticleRecirculationConfigV14RuleCollectionO0fG11CodingErrorO
+- _type_layout_string 12NewsArticles26ArticleRecirculationConfigV4RuleV
+- _type_layout_string 12NewsArticles26ArticleRecirculationConfigV4RuleV20ScoringConfigurationV
+- _type_layout_string 12NewsArticles26ArticleRecirculationConfigV7SectionO
+- _type_layout_string 12NewsArticles26ArticleRecirculationConfigV7SectionO09SpecifiedF0V
+- _type_layout_string 12NewsArticles26ArticleRecirculationConfigV7SectionO0F11CodingErrorO
+- _type_layout_string 12NewsArticles26ArticleRecirculationConfigV7SectionO22GroupSizeConfigurationV
+- _type_layout_string 12NewsArticles26ArticleRecirculationConfigV8SectionsV
+- _type_layout_string 12NewsArticles26ArticleViewerBarButtonItemV
+- _type_layout_string 12NewsArticles26EndOfArticleQuotaCandidateRzSQRzlAA0G9Inventory33_49ED1A055595F6EC85C7884CAD909EB1LLVyxG
+- _type_layout_string 12NewsArticles26PDFReplicaViewerPageMarkerV
+- _type_layout_string 12NewsArticles26RecipeRecirculationSectionO
+- _type_layout_string 12NewsArticles27ArticleRecirculationServiceC10scoredSort33_79D6CBE0699DE2160DF3DCEF60CD9FBDLL3for10itemScores012personalizedQ05alphaSayAA05EndOfC4ItemOGAL_SDySSSdGSay0A4Feed0w6ScoredV0VGSdtF0xV0L_V
+- _type_layout_string 12NewsArticles27ArticleRecirculationServiceC11MergeResultV
+- _type_layout_string 12NewsArticles27ArticleViewerBarButtonGroupV
+- _type_layout_string 12NewsArticles27ContextArticleViewerFeatureV
+- _type_layout_string 12NewsArticles27ContextArticleViewerFeatureV15ExclusionGroupsV
+- _type_layout_string 12NewsArticles27InterstitialAdManagerErrorsO
+- _type_layout_string 12NewsArticles27PDFReplicaViewerReplicaPageV
+- _type_layout_string 12NewsArticles27RecipeNotesEditorRouteModelV
+- _type_layout_string 12NewsArticles27TableOfContentsColorPaletteV
+- _type_layout_string 12NewsArticles28ArticleProviderServiceResultO
+- _type_layout_string 12NewsArticles28ArticleViewerBarButtonLayoutV
+- _type_layout_string 12NewsArticles28RecipeArticleDrawerViewModelC0C0V
+- _type_layout_string 12NewsArticles28RecipeArticleDrawerViewModelC0C9ThumbnailV
+- _type_layout_string 12NewsArticles28RecipeArticleDrawerViewModelC0cE5StateO
+- _type_layout_string 12NewsArticles28UserConcernConfigFetchResultV
+- _type_layout_string 12NewsArticles29AudioArticleViewerMessageTextV
+- _type_layout_string 12NewsArticles29EndOfArticleSectionDescriptorO
+- _type_layout_string 12NewsArticles29EndOfRecipeFeedServiceContextV
+- _type_layout_string 12NewsArticles29ProxyAuthenticationKeyManagerC6Errors33_575492171AA326AD26415D0F29E3E0C8LLO
+- _type_layout_string 12NewsArticles29RecipeUnitInspectorRouteModelV
+- _type_layout_string 12NewsArticles29SubscribePostPurchaseBehaviorO
+- _type_layout_string 12NewsArticles29SubscribePostPurchaseBehaviorO19SupplementaryActionO
+- _type_layout_string 12NewsArticles30ArticleViewerFeatureTransitionO
+- _type_layout_string 12NewsArticles30EndOfArticleFeedServiceContextV
+- _type_layout_string 12NewsArticles30EndOfArticleSectionHeaderStyleO
+- _type_layout_string 12NewsArticles30RecipeContentPrefetchOperationC11RequestKindO
+- _type_layout_string 12NewsArticles30RecipeContentPrefetchOperationC5Error33_ADA7F258D9E662ABE39586398C19D399LLO
+- _type_layout_string 12NewsArticles30RecipeRecirculationFetchResultV
+- _type_layout_string 12NewsArticles31ArticleListeningProgressManagerC11Observation33_EA2F21286EC6B4F2AB075E81B782BCEFLLV
+- _type_layout_string 12NewsArticles31AudioRemoteCommandCenterManagerC13PlaybackState33_AD6F67236CF23EE283A92C73040C04E1LLV
+- _type_layout_string 12NewsArticles31EndOfRecipeUpdatePluginModifierV
+- _type_layout_string 12NewsArticles31RecipeBlueprintRouteModelResultV
+- _type_layout_string 12NewsArticles31TableOfContentsHeaderViewLayoutV
+- _type_layout_string 12NewsArticles31TableOfContentsPDFCellViewModelV
+- _type_layout_string 12NewsArticles32ArticleBlueprintGroupDataContextO
+- _type_layout_string 12NewsArticles32RecipeRatingsInspectorRouteModelV
+- _type_layout_string 12NewsArticles32RecipeRecirculationConfigSectionV
+- _type_layout_string 12NewsArticles32RecipeScalingInspectorRouteModelV
+- _type_layout_string 12NewsArticles32TableOfContentsPDFCellViewLayoutV
+- _type_layout_string 12NewsArticles32TableOfContentsPDFCellViewLayoutV0H10AttributesV
+- _type_layout_string 12NewsArticles32TableOfContentsSectionDescriptorO
+- _type_layout_string 12NewsArticles33AnalyticsMediaEngageCompletedDataV
+- _type_layout_string 12NewsArticles33ArticleRecirculationConfigFactoryC12RealizedRuleV
+- _type_layout_string 12NewsArticles33ArticleViewerFeatureUpdateOptionsV
+- _type_layout_string 12NewsArticles33EndOfArticleQuotaSatisfierFactoryV
+- _type_layout_string 12NewsArticles33EndOfArticleQuotaSatisfierFactoryV09AppConfigfG0V
+- _type_layout_string 12NewsArticles33EndOfArticleQuotaSatisfierFactoryV0e13RecirculationfG0V
+- _type_layout_string 12NewsArticles34CombinedArticleRecirculationConfigV
+- _type_layout_string 12NewsArticles34CombinedArticleRecirculationConfigV7SectionV
+- _type_layout_string 12NewsArticles34DeeplinkArticlePresentationContextO
+- _type_layout_string 12NewsArticles34EndOfRecipeLayoutSectionDescriptorO
+- _type_layout_string 12NewsArticles34EndOfRecipeLayoutSectionDescriptorO0F4DataV
+- _type_layout_string 12NewsArticles35EndOfArticleLayoutSectionDescriptorO
+- _type_layout_string 12NewsArticles35EndOfArticleLayoutSectionDescriptorO0F4DataV
+- _type_layout_string 12NewsArticles35EndOfRecipePrewarmBlueprintModifierV
+- _type_layout_string 12NewsArticles36ArticleBottomPaletteFeatureViewModelV
+- _type_layout_string 12NewsArticles36EndOfArticlePrewarmBlueprintModifierV
+- _type_layout_string 12NewsArticles36EndOfRecipeRelayoutBlueprintModifierV
+- _type_layout_string 12NewsArticles36ReportConcernDetailSectionDescriptorO
+- _type_layout_string 12NewsArticles39TableOfContentsPrewarmBlueprintModifierV
+- _type_layout_string 12NewsArticles40InsertAdvertisementPageBlueprintModifierC6ErrorsO
+- _type_layout_string 12NewsArticles42BarButtonItemArticleViewerFeatureViewModelV
+- _type_layout_string 12NewsArticles43BarButtonItemArticleViewerFeatureTransitionV
+- _type_layout_string 12NewsArticles45ArticleBottomPaletteFeatureComponentViewModelV
+- _type_layout_string 12NewsArticles45RecipeRecirculationConfigSectionSelectionRuleV
+- _type_layout_string 12NewsArticles46OverflowMenuArticleViewerFeatureTransitionKindO
+- _type_layout_string 12NewsArticles51TableOfContentsSubscriptionChangedBlueprintModifierV
+- _type_layout_string 12NewsArticles5IssueO
+- _type_layout_string 12NewsArticles7ArticleV
+- _type_layout_string 12NewsArticles8ANFIssueV
+- _type_layout_string So12UIEdgeInsetsV
+- _type_layout_string So12UIFontWeighta
+- _type_layout_string So12UIRectCornerV
+- _type_layout_string So16os_unfair_lock_sV
+- _type_layout_string So21UIContentSizeCategorya
+- _type_layout_string So6CGRectV
+- _type_layout_string So6CMTimea
+- _type_layout_string So7CGPointV
+CStrings:
++ "Accessibility label for the indicator in the margin of a News article that marks where the user last stopped listening to the article's audio."
++ "Began contextual player presentation, state=%s"
++ "Continue Listening"
++ "Credits the author(s) of a track in the audio player"
++ "Credits the host(s) of a daily briefing in the audio player"
++ "Credits the narrator(s) of a track in the audio player"
++ "Dropping fulfilled update without a stored layout, placement=%{public}@"
++ "Encountered error fetching ESL section articles %@"
++ "Encountered error selecting ESL section items %@"
++ "Ended contextual player presentation, state=%s"
++ "Ignoring unsupported article providers %{public}@"
++ "Ignoring unsupported filter options %{public}@"
++ "Ignoring unsupported header style %{public}@ for section %{public}@"
++ "Ignoring unsupported section type %{public}@ for section %{public}@"
++ "NewsArticles.ArticleDecorationProvider"
++ "NewsArticles.ArticleLastListenedIndicator"
++ "NewsArticles.ArticleLastListenedIndicatorView"
++ "NewsArticles.ArticleNavigationBarAudioPlayButton"
++ "NewsArticles.ArticleNavigationBarAudioPlayingButton"
++ "NewsArticles.WaveformIndicatorView"
++ "NewsArticles/AdComponentModernAssembly.swift"
++ "NewsArticles/AdComponentView.swift"
++ "NewsArticles/AdIgnorableViewFactory.swift"
++ "NewsArticles/AdPolicyViewportEnvironmentProvider.swift"
++ "NewsArticles/AdsModernAssembly.swift"
++ "NewsArticles/AnalyticsModernAssembly.swift"
++ "NewsArticles/ArticleDecorationProvider.swift"
++ "NewsArticles/ArticleLastListenedIndicator.swift"
++ "NewsArticles/ArticleModernAssembly.swift"
++ "NewsArticles/ArticleModule.swift"
++ "NewsArticles/ArticleNavigationBarAudioPlayButton.swift"
++ "NewsArticles/ArticleNavigationBarAudioPlayingButton.swift"
++ "NewsArticles/ArticleThumbnailComponentModernAssembly.swift"
++ "NewsArticles/ArticleThumbnailComponentView.swift"
++ "NewsArticles/ArticleThumbnailComponentViewFactory.swift"
++ "NewsArticles/ArticleViewerBlueprintRouteModel.swift"
++ "NewsArticles/ArticleViewerInteractor.swift"
++ "NewsArticles/ArticleViewerModernAssembly.swift"
++ "NewsArticles/ArticleViewerModule.swift"
++ "NewsArticles/ArticleViewerPageBlueprintFactory.swift"
++ "NewsArticles/ArticleViewerRouter.swift"
++ "NewsArticles/AudioArticleViewerFeatureProvider.swift"
++ "NewsArticles/AudioMediaServicesResetHandler.swift"
++ "NewsArticles/AudioNowPlayingInfoCenterManager.swift"
++ "NewsArticles/AudioPlaybackConductor.swift"
++ "NewsArticles/AudioPlaybackQueue.swift"
++ "NewsArticles/AudioPlaybackState.swift"
++ "NewsArticles/AudioPlayer.swift"
++ "NewsArticles/AudioRemoteCommandCenterManager.swift"
++ "NewsArticles/BlueprintArticleViewerBlueprintProvider.swift"
++ "NewsArticles/BlueprintGroupArticleViewerBlueprintProvider.swift"
++ "NewsArticles/BlueprintRecipeViewerBlueprintProvider.swift"
++ "NewsArticles/CampaignLandingPageModernAssembly.swift"
++ "NewsArticles/CampaignLandingPageModule.swift"
++ "NewsArticles/CommandModernAssembly.swift"
++ "NewsArticles/ContentPrefetchManager.swift"
++ "NewsArticles/CookingModernAssembly.swift"
++ "NewsArticles/EndOfArticleInteractor.swift"
++ "NewsArticles/EndOfArticleModel.swift"
++ "NewsArticles/EndOfArticleModernAssembly.swift"
++ "NewsArticles/EndOfArticleModule.swift"
++ "NewsArticles/EndOfRecipeDataManager.swift"
++ "NewsArticles/EndOfRecipeInteractor.swift"
++ "NewsArticles/EndOfRecipeModel.swift"
++ "NewsArticles/EndOfRecipeModernAssembly.swift"
++ "NewsArticles/EndOfRecipeModule.swift"
++ "NewsArticles/EndOfRecipeViewControllerProvider.swift"
++ "NewsArticles/FactoryModernAssembly.swift"
++ "NewsArticles/FocusableView.swift"
++ "NewsArticles/FormatViewController+NewsArticles.swift"
++ "NewsArticles/InterstitialAdManager.swift"
++ "NewsArticles/InterstitialAdModernAssembly.swift"
++ "NewsArticles/InterstitialAdModule.swift"
++ "NewsArticles/InterstitialAdPreviewInteractor.swift"
++ "NewsArticles/InterstitialAdPreviewModernAssembly.swift"
++ "NewsArticles/InterstitialAdPreviewModule.swift"
++ "NewsArticles/IssueContentViewControllerFactoryType.swift"
++ "NewsArticles/IssueViewerModernAssembly.swift"
++ "NewsArticles/IssueViewerModule.swift"
++ "NewsArticles/LikeDislikeArticleViewerFeatureProvider.swift"
++ "NewsArticles/ManagerModernAssembly.swift"
++ "NewsArticles/ModalArticleViewerModernAssembly.swift"
++ "NewsArticles/ModalArticleViewerModule.swift"
++ "NewsArticles/ModalArticleViewerRouter.swift"
++ "NewsArticles/MoreArticleViewerFeatureProvider.swift"
++ "NewsArticles/NewsArticlesModernAssembly.swift"
++ "NewsArticles/NewsletterModernAssembly.swift"
++ "NewsArticles/NowPlaying+ArtworkView.swift"
++ "NewsArticles/NowPlaying+ContextInteractionDelegate.swift"
++ "NewsArticles/NowPlaying+Controller.swift"
++ "NewsArticles/NowPlaying+Image.swift"
++ "NewsArticles/NowPlaying+Menu.swift"
++ "NewsArticles/NowPlaying+QueueRowView.swift"
++ "NewsArticles/NowPlaying+QueueView.swift"
++ "NewsArticles/OfflineModernAssembly.swift"
++ "NewsArticles/OpenRatingsInspectorCommandHandler.swift"
++ "NewsArticles/OverflowMenuArticleViewerFeatureProvider.swift"
++ "NewsArticles/OverflowMenuArticleViewerFeatureTransition.swift"
++ "NewsArticles/PDFReplicaBarVisibilityAnimator.swift"
++ "NewsArticles/PDFReplicaBarVisibilityCoordinator.swift"
++ "NewsArticles/PDFReplicaModernAssembly.swift"
++ "NewsArticles/PDFReplicaModule.swift"
++ "NewsArticles/PDFReplicaViewerMenuProvider.swift"
++ "NewsArticles/PDFReplicaViewerModernAssembly.swift"
++ "NewsArticles/PDFReplicaViewerModule.swift"
++ "NewsArticles/RecipeArticleDrawerModernAssembly.swift"
++ "NewsArticles/RecipeArticleDrawerView.swift"
++ "NewsArticles/RecipeArticleDrawerViewModel.swift"
++ "NewsArticles/RecipeArticleViewerFeatureProvider.swift"
++ "NewsArticles/RecipeContentPrefetcher.swift"
++ "NewsArticles/RecipeInteractor.swift"
++ "NewsArticles/RecipeModernAssembly.swift"
++ "NewsArticles/RecipeModule.swift"
++ "NewsArticles/RecipeMoreBarButtonItem.swift"
++ "NewsArticles/RecipeRadarReporter.swift"
++ "NewsArticles/RecipeViewerBarButtonItemFactory.swift"
++ "NewsArticles/RecipeViewerInteractor.swift"
++ "NewsArticles/RecipeViewerModernAssembly.swift"
++ "NewsArticles/RecipeViewerModule.swift"
++ "NewsArticles/RendererModernAssembly.swift"
++ "NewsArticles/ReportConcernDataManager.swift"
++ "NewsArticles/ReportConcernDetailDataManager.swift"
++ "NewsArticles/ReportConcernDetailInteractor.swift"
++ "NewsArticles/ReportConcernDetailModernAssembly.swift"
++ "NewsArticles/ReportConcernDetailModule.swift"
++ "NewsArticles/ReportConcernDetailRouter.swift"
++ "NewsArticles/ReportConcernInteractor.swift"
++ "NewsArticles/ReportConcernModernAssembly.swift"
++ "NewsArticles/ReportConcernModule.swift"
++ "NewsArticles/ReportConcernRouter.swift"
++ "NewsArticles/SaveArticleViewerFeatureProvider.swift"
++ "NewsArticles/SavedRecipeService.swift"
++ "NewsArticles/SearchInArticleModernAssembly.swift"
++ "NewsArticles/SearchInArticleModule.swift"
++ "NewsArticles/ServiceModernAssembly.swift"
++ "NewsArticles/ShareArticleViewerFeatureProvider.swift"
++ "NewsArticles/SharingCommandHandler.swift"
++ "NewsArticles/SharingModernAssembly.swift"
++ "NewsArticles/StylerModernAssembly.swift"
++ "NewsArticles/SubscriptionModernAssembly.swift"
++ "NewsArticles/TableOfContentsBlueprintViewCellProvider.swift"
++ "NewsArticles/TableOfContentsModernAssembly.swift"
++ "NewsArticles/TableOfContentsModule.swift"
++ "NewsArticles/TableOfContentsPDFCellViewRenderer.swift"
++ "NewsArticles/TagSubscriptionStatusModernAssembly.swift"
++ "NewsArticles/TextResizeArticleViewerFeatureProvider.swift"
++ "NewsArticles/TextSizeControlModernAssembly.swift"
++ "NewsArticles/TextSizeControlModule.swift"
++ "NewsArticles/TipModernAssembly.swift"
++ "NewsArticles/TipRouter.swift"
++ "NewsArticles/TipViewControllerFactory.swift"
++ "NewsArticles/UIButton+NewsArticles.swift"
++ "NewsArticles/UtilityModernAssembly.swift"
++ "NewsArticles/WaveformIndicatorView.swift"
++ "NewsArticles/WebViewController.swift"
++ "NewsArticles/WebViewControllerFactory.swift"
++ "No text to audio mapping to resolve a last listened position with for %{public}@"
++ "Overflow menu title for the audio navigation bar button in a News article, when audio is playing."
++ "Overflow menu title for the audio navigation bar button in a News article, when picking up from where the user left off."
++ "Overflow menu title for the audio navigation bar button in a News article, when starting from the beginning [non-subscriber]."
++ "Overflow menu title for the audio navigation bar button in a News article, when starting from the beginning [subscriber]."
++ "Recovering discarded ad as fulfilled after moving offscreen, placement=%{public}@"
++ "Selected %lu items from %lu candidates for ESL section, time=%llums"
++ "Separates the author and narrator credits in the audio player attribution line"
++ "Unhandled @unknown default adLocation: %{public}@"
++ "Unhandled @unknown default case %{public}s"
++ "Unhandled @unknown default case: %{public}s"
++ "Unhandled CardSplitViewState: %{public}s"
++ "Unhandled FCArticleRole case: %{public}s"
++ "Unhandled ReportConcernContext"
++ "Unhandled ReportConcernContext in layout builder"
++ "Unknown case encountered: %{public}s"
++ "_createCheckedThrowingContinuation(_:)"
++ "articleLinkActionHandler must be registered by a higher-level assembly"
++ "articleRouter must be registered by a higher-level assembly"
++ "audio-artwork-placeholder"
++ "audioActionHandler must be registered by a higher-level assembly"
++ "blueprint diff bookmark "
++ "campaignLandingPageRouter must be registered by a higher-level assembly"
++ "campaignLandingPageTracker must be registered by a higher-level assembly"
++ "candidate sortingScore "
++ "contentAvailabilityValidator must be registered by a higher-level assembly"
++ "cookingKitTrackerManager must be registered by a higher-level assembly"
++ "endOfRecipeCoordinator must be registered by a higher-level assembly"
++ "eslInventory"
++ "issueLinkActionHandler must be registered by a higher-level assembly"
++ "issueTableOfContentsArticleCoordinator must be registered by a higher-level assembly"
++ "item sortingScore "
++ "news.audio.volume"
++ "recipeCoordinator must be registered by a higher-level assembly"
++ "replicaAdvertisementCoordinator must be registered by a higher-level assembly"
++ "tabBarController set while playback is active — showing player, mode=%s"
++ "tableOfContentsCoordinator must be registered by a higher-level assembly"
++ "webViewControllerFactory must be registered by a higher-level assembly"
+- "Injected via `context`"
+- "IsArticlePaywallAvailable"
+- "Label for the audio button for the currently paused article"
+- "Label for the audio button for the currently playing article"
+- "Label for the audio button shown when it is not for the currently playing article for subscribed users"
+- "Label for the audio button shown when it is not for the currently playing article for unsubscribed users"
+- "NewsArticles.AudioButton"
+- "NewsArticles/ArticleListeningProgressManager.swift"
+- "NewsArticles/AudioButton.swift"
+- "NewsArticles/CookingAssembly.swift"
+- "NewsArticles/EndOfRecipeAssembly.swift"
+- "NewsArticles/HeadlinePublisherLogo.swift"
+- "NewsArticles/RecipeAssembly.swift"
+- "NewsArticles/TipAssembly.swift"
+- "Scrolled to match audio."
+- "Shorter text shown in navigation bar on smaller devices when scrolling article to match audio listening position."
+- "Story scrolled to match your audio position."
+- "Text shown in navigation bar when scrolling article to match audio listening position."
+- "The title of the 'Pause' configuration of the audio navigation bar button in a News article."
+- "The title of the 'Play' configuration of the audio navigation bar button in a News article."
+- "The title of the 'Preview' configuration of the audio navigation bar button in a News article."
+- "`EndOfRecipeConfig` is resolved via `context`"
+- "`RecipeRouteModel` is injected from context"
+- "article-interstitial"
+- "bounds.size.height"
+- "hidden"
+- "nowPlayingIndicatorAnimation"
+- "opacity"
+- "preview-interstitial"
+- "tabBarController set while already playing — showing player, mode=%s"
+```

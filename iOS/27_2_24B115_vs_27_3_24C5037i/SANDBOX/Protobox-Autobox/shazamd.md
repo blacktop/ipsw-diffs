@@ -1,0 +1,56 @@
+## shazamd
+
+> Group: ⬆️ Updated
+
+```diff
+
+ 		(require-not (global-name "com.apple.diagnosticd"))
+ 		(require-not (global-name "com.apple.usernotifications.listener"))
+ 		(require-not (global-name "com.apple.relevanced.AudioIntelligenceAvailability"))
++		(require-not (global-name "com.apple.timed.xpc"))
+ 		(require-not (global-name "com.apple.cloudd"))
+ 		(require-not (global-name "com.apple.fairplayd.versioned"))
+ 		(require-not (global-name "com.apple.distributed_notifications@1v3"))
+ 		(require-not (global-name "com.apple.symptom_analytics"))
++		(require-not (global-name "com.apple.linkd.autoShortcut"))
+ 		(require-not (global-name "com.apple.sessionservices"))
+ 		(require-not (global-name "com.apple.carousel.connectionstatusservice"))
+ 		(require-not (global-name "com.apple.audio.AudioSession"))
+
+ 		(require-not (global-name "com.apple.jetpackassetd.xpc"))
+ 		(require-not (global-name "com.apple.adid"))
+ 		(require-not (global-name "com.apple.shazamd.ui"))
++		(require-not (global-name "com.apple.linkd.application-service"))
+ 		(require-not (global-name "com.apple.systemstatus.activityattribution"))
+ 		(require-not (global-name "com.apple.gpumemd.source"))
+ 		(require-not (global-name "com.apple.logd.events"))
+
+ 
+ (deny system-kas-info)
+ 
++(with-filter (mac-policy-name "Sandbox")
++	(deny system-mac-syscall
++		(require-all
++			(require-not (mac-syscall-number 7))
++			(require-not (mac-syscall-number 6))
++			(require-not (mac-syscall-number 4))
++			(require-not (mac-syscall-number 67))
++			(require-not (mac-syscall-number 2))
++		)
++	)
++)
+ (deny system-mac-syscall
+ 	(require-all
+-		(mac-syscall-number 1)
+-		(require-not (mac-policy-name "vnguard"))
++		(mac-syscall-number 96)
++		(require-not (mac-policy-name "AMFI"))
++	)
++)
++(with-filter (mac-policy-name "vnguard")
++	(deny system-mac-syscall
++		(require-not (mac-syscall-number 1))
+ 	)
+ )
+ (deny system-mac-syscall
+```

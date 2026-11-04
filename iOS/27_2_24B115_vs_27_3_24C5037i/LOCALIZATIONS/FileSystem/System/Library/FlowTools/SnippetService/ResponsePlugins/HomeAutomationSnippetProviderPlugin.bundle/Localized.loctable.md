@@ -1,0 +1,56 @@
+## HomeAutomationSnippetProviderPlugin
+
+> `FileSystem/System/Library/FlowTools/SnippetService/ResponsePlugins/HomeAutomationSnippetProviderPlugin.bundle/Localized.loctable`
+
+```diff
+
+ en.Accessory_Room_title = "%1$@ %2$@"
+ en.Accessory_plural_title = "Accessories"
+ en.AirPurifier_plural_title = "Air Purifiers"
++en.ArmedAway_title = "Armed and set to Away mode"
++en.ArmedNight_title = "Armed and set to Night mode"
++en.ArmedStay_title = "Armed and set to Home mode"
+ en.AutoMode_title = "Auto"
+ en.Auto_title = "Keeping between %@-%@"
+ en.Automation_ArriveHome_title = "When you arrive home"
+
+ en.Brightness_title = "Set to %@"
+ en.Clockwise_title = "Clockwise"
+ en.Close_title = "Closed"
++en.Confirm_title = "Confirm"
+ en.Contact_Owner_title = "Contact Owner"
+ en.CoolMode_title = "Cooling"
+ en.Cool_title = "Cooling to %@"
+ en.CounterClockwise_title = "Counter clockwise"
+ en.DehumidifyMode_title = "Dehumidifying"
+ en.Device_All_title = "All"
++en.Disarmed_title = "Disarmed"
+ en.DoorLock_plural_title = "Door Locks"
+ en.Door_plural_title = "Doors"
+ en.Enabled = "Enabled"
+
+ en.NoResponse = "No Response"
+ en.Off_title = "Off"
+ en.On_title = "On"
++en.Open_Confirm_title = "Open"
+ en.Open_title = "Open"
+ en.Outlet_plural_title = "Outlets"
+ en.PositionState_title = "Set to %@"
+ en.RVC_Cleaning_title = "Cleaning"
+ en.RVC_Pause_title = "Paused"
+ en.RVC_SendToDock_title = "Returning to Dock"
++en.Reject_title = "Cancel"
+ en.Request_Sent_title = "Request Sent"
+ en.RobotVacuum_plural_title = "Robot Vacuums"
+ en.Room_ALL_title = "Everywhere"
+ en.Room_Home_ALL_title = "Everywhere in %@ Home"
+ en.RotationSpeed_title = "Set to %@"
++en.SecuritySystem_plural_title = "Security Systems"
+ en.Sprinkler_plural_title = "Sprinklers"
+ en.Thermostat_plural_title = "Thermostats"
++en.Unlock_Comfirm_title = "Unlock"
+ en.Unlock_title = "Unlocked"
+ en.Valve_plural_title = "Valves"
+ en.WindowCovering_plural_title = "Shades"
+
+```

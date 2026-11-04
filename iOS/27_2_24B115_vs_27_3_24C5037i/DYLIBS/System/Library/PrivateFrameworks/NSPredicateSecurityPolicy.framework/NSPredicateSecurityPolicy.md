@@ -1,0 +1,207 @@
+## NSPredicateSecurityPolicy
+
+> `/System/Library/PrivateFrameworks/NSPredicateSecurityPolicy.framework/NSPredicateSecurityPolicy`
+
+```diff
+
+-10.40.3.0.0
+-  __TEXT.__text: 0xa80
+-  __TEXT.__const: 0x91d0
+-  __TEXT.__cstring: 0x198
++10.60.3.0.0
++  __TEXT.__text: 0xaac
++  __TEXT.__const: 0x8510
++  __TEXT.__cstring: 0x19e
+   __TEXT.__unwind_info: 0x80
+   __TEXT.__auth_stubs: 0x0
+-  __DATA_CONST.__const: 0xa0e0
++  __DATA_CONST.__const: 0x4a40
+   __DATA_CONST.__got: 0x0
+   __AUTH_CONST.__auth_got: 0x0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 10
+-  Symbols:   329
+-  CStrings:  18
++  Functions: 11
++  Symbols:   179
++  CStrings:  17
+ 
+Symbols:
++ _CFGetTypeID
++ _CFStringGetLength
++ _CFStringGetTypeID
++ _class_isMetaClass
++ _nspspGetManagedObjectSelectors
++ _nspspGetManagedObjectSelectors.managedObjectSelectors
++ _strcmp
+- _RTGetNSPredicateSecurityPolicyData.selector_list_131
+- _RTGetNSPredicateSecurityPolicyData.selector_list_132
+- _RTGetNSPredicateSecurityPolicyData.selector_list_133
+- _RTGetNSPredicateSecurityPolicyData.selector_list_134
+- _RTGetNSPredicateSecurityPolicyData.selector_list_135
+- _RTGetNSPredicateSecurityPolicyData.selector_list_136
+- _RTGetNSPredicateSecurityPolicyData.selector_list_137
+- _RTGetNSPredicateSecurityPolicyData.selector_list_138
+- _RTGetNSPredicateSecurityPolicyData.selector_list_139
+- _RTGetNSPredicateSecurityPolicyData.selector_list_140
+- _RTGetNSPredicateSecurityPolicyData.selector_list_141
+- _RTGetNSPredicateSecurityPolicyData.selector_list_142
+- _RTGetNSPredicateSecurityPolicyData.selector_list_143
+- _RTGetNSPredicateSecurityPolicyData.selector_list_144
+- _RTGetNSPredicateSecurityPolicyData.selector_list_145
+- _RTGetNSPredicateSecurityPolicyData.selector_list_146
+- _RTGetNSPredicateSecurityPolicyData.selector_list_147
+- _RTGetNSPredicateSecurityPolicyData.selector_list_148
+- _RTGetNSPredicateSecurityPolicyData.selector_list_149
+- _RTGetNSPredicateSecurityPolicyData.selector_list_150
+- _RTGetNSPredicateSecurityPolicyData.selector_list_151
+- _RTGetNSPredicateSecurityPolicyData.selector_list_152
+- _RTGetNSPredicateSecurityPolicyData.selector_list_153
+- _RTGetNSPredicateSecurityPolicyData.selector_list_154
+- _RTGetNSPredicateSecurityPolicyData.selector_list_155
+- _RTGetNSPredicateSecurityPolicyData.selector_list_156
+- _RTGetNSPredicateSecurityPolicyData.selector_list_157
+- _RTGetNSPredicateSecurityPolicyData.selector_list_158
+- _RTGetNSPredicateSecurityPolicyData.selector_list_159
+- _RTGetNSPredicateSecurityPolicyData.selector_list_160
+- _RTGetNSPredicateSecurityPolicyData.selector_list_161
+- _RTGetNSPredicateSecurityPolicyData.selector_list_162
+- _RTGetNSPredicateSecurityPolicyData.selector_list_163
+- _RTGetNSPredicateSecurityPolicyData.selector_list_164
+- _RTGetNSPredicateSecurityPolicyData.selector_list_165
+- _RTGetNSPredicateSecurityPolicyData.selector_list_166
+- _RTGetNSPredicateSecurityPolicyData.selector_list_167
+- _RTGetNSPredicateSecurityPolicyData.selector_list_168
+- _RTGetNSPredicateSecurityPolicyData.selector_list_169
+- _RTGetNSPredicateSecurityPolicyData.selector_list_170
+- _RTGetNSPredicateSecurityPolicyData.selector_list_171
+- _RTGetNSPredicateSecurityPolicyData.selector_list_172
+- _RTGetNSPredicateSecurityPolicyData.selector_list_173
+- _RTGetNSPredicateSecurityPolicyData.selector_list_174
+- _RTGetNSPredicateSecurityPolicyData.selector_list_175
+- _RTGetNSPredicateSecurityPolicyData.selector_list_176
+- _RTGetNSPredicateSecurityPolicyData.selector_list_177
+- _RTGetNSPredicateSecurityPolicyData.selector_list_178
+- _RTGetNSPredicateSecurityPolicyData.selector_list_179
+- _RTGetNSPredicateSecurityPolicyData.selector_list_180
+- _RTGetNSPredicateSecurityPolicyData.selector_list_181
+- _RTGetNSPredicateSecurityPolicyData.selector_list_182
+- _RTGetNSPredicateSecurityPolicyData.selector_list_183
+- _RTGetNSPredicateSecurityPolicyData.selector_list_184
+- _RTGetNSPredicateSecurityPolicyData.selector_list_185
+- _RTGetNSPredicateSecurityPolicyData.selector_list_186
+- _RTGetNSPredicateSecurityPolicyData.selector_list_187
+- _RTGetNSPredicateSecurityPolicyData.selector_list_188
+- _RTGetNSPredicateSecurityPolicyData.selector_list_189
+- _RTGetNSPredicateSecurityPolicyData.selector_list_190
+- _RTGetNSPredicateSecurityPolicyData.selector_list_191
+- _RTGetNSPredicateSecurityPolicyData.selector_list_192
+- _RTGetNSPredicateSecurityPolicyData.selector_list_193
+- _RTGetNSPredicateSecurityPolicyData.selector_list_194
+- _RTGetNSPredicateSecurityPolicyData.selector_list_195
+- _RTGetNSPredicateSecurityPolicyData.selector_list_196
+- _RTGetNSPredicateSecurityPolicyData.selector_list_197
+- _RTGetNSPredicateSecurityPolicyData.selector_list_198
+- _RTGetNSPredicateSecurityPolicyData.selector_list_199
+- _RTGetNSPredicateSecurityPolicyData.selector_list_200
+- _RTGetNSPredicateSecurityPolicyData.selector_list_201
+- _RTGetNSPredicateSecurityPolicyData.selector_list_202
+- _RTGetNSPredicateSecurityPolicyData.selector_list_203
+- _RTGetNSPredicateSecurityPolicyData.selector_list_204
+- _RTGetNSPredicateSecurityPolicyData.selector_list_205
+- _RTGetNSPredicateSecurityPolicyData.selector_list_206
+- _RTGetNSPredicateSecurityPolicyData.selector_list_207
+- _RTGetNSPredicateSecurityPolicyData.selector_list_208
+- _RTGetNSPredicateSecurityPolicyData.selector_list_209
+- _RTGetNSPredicateSecurityPolicyData.selector_list_210
+- _RTGetNSPredicateSecurityPolicyData.selector_list_211
+- _RTGetNSPredicateSecurityPolicyData.selector_list_212
+- _RTGetNSPredicateSecurityPolicyData.selector_list_213
+- _RTGetNSPredicateSecurityPolicyData.selector_list_214
+- _RTGetNSPredicateSecurityPolicyData.selector_list_215
+- _RTGetNSPredicateSecurityPolicyData.selector_list_216
+- _RTGetNSPredicateSecurityPolicyData.selector_list_217
+- _RTGetNSPredicateSecurityPolicyData.selector_list_218
+- _RTGetNSPredicateSecurityPolicyData.selector_list_219
+- _RTGetNSPredicateSecurityPolicyData.selector_list_220
+- _RTGetNSPredicateSecurityPolicyData.selector_list_221
+- _RTGetNSPredicateSecurityPolicyData.selector_list_222
+- _RTGetNSPredicateSecurityPolicyData.selector_list_223
+- _RTGetNSPredicateSecurityPolicyData.selector_list_224
+- _RTGetNSPredicateSecurityPolicyData.selector_list_225
+- _RTGetNSPredicateSecurityPolicyData.selector_list_226
+- _RTGetNSPredicateSecurityPolicyData.selector_list_227
+- _RTGetNSPredicateSecurityPolicyData.selector_list_228
+- _RTGetNSPredicateSecurityPolicyData.selector_list_229
+- _RTGetNSPredicateSecurityPolicyData.selector_list_230
+- _RTGetNSPredicateSecurityPolicyData.selector_list_231
+- _RTGetNSPredicateSecurityPolicyData.selector_list_232
+- _RTGetNSPredicateSecurityPolicyData.selector_list_233
+- _RTGetNSPredicateSecurityPolicyData.selector_list_234
+- _RTGetNSPredicateSecurityPolicyData.selector_list_235
+- _RTGetNSPredicateSecurityPolicyData.selector_list_236
+- _RTGetNSPredicateSecurityPolicyData.selector_list_237
+- _RTGetNSPredicateSecurityPolicyData.selector_list_238
+- _RTGetNSPredicateSecurityPolicyData.selector_list_239
+- _RTGetNSPredicateSecurityPolicyData.selector_list_240
+- _RTGetNSPredicateSecurityPolicyData.selector_list_241
+- _RTGetNSPredicateSecurityPolicyData.selector_list_242
+- _RTGetNSPredicateSecurityPolicyData.selector_list_243
+- _RTGetNSPredicateSecurityPolicyData.selector_list_244
+- _RTGetNSPredicateSecurityPolicyData.selector_list_245
+- _RTGetNSPredicateSecurityPolicyData.selector_list_246
+- _RTGetNSPredicateSecurityPolicyData.selector_list_247
+- _RTGetNSPredicateSecurityPolicyData.selector_list_248
+- _RTGetNSPredicateSecurityPolicyData.selector_list_249
+- _RTGetNSPredicateSecurityPolicyData.selector_list_250
+- _RTGetNSPredicateSecurityPolicyData.selector_list_251
+- _RTGetNSPredicateSecurityPolicyData.selector_list_252
+- _RTGetNSPredicateSecurityPolicyData.selector_list_253
+- _RTGetNSPredicateSecurityPolicyData.selector_list_254
+- _RTGetNSPredicateSecurityPolicyData.selector_list_255
+- _RTGetNSPredicateSecurityPolicyData.selector_list_256
+- _RTGetNSPredicateSecurityPolicyData.selector_list_257
+- _RTGetNSPredicateSecurityPolicyData.selector_list_258
+- _RTGetNSPredicateSecurityPolicyData.selector_list_259
+- _RTGetNSPredicateSecurityPolicyData.selector_list_260
+- _RTGetNSPredicateSecurityPolicyData.selector_list_261
+- _RTGetNSPredicateSecurityPolicyData.selector_list_262
+- _RTGetNSPredicateSecurityPolicyData.selector_list_263
+- _RTGetNSPredicateSecurityPolicyData.selector_list_264
+- _RTGetNSPredicateSecurityPolicyData.selector_list_265
+- _RTGetNSPredicateSecurityPolicyData.selector_list_266
+- _RTGetNSPredicateSecurityPolicyData.selector_list_267
+- _RTGetNSPredicateSecurityPolicyData.selector_list_268
+- _RTGetNSPredicateSecurityPolicyData.selector_list_269
+- _RTGetNSPredicateSecurityPolicyData.selector_list_270
+- _RTGetNSPredicateSecurityPolicyData.selector_list_271
+- _RTGetNSPredicateSecurityPolicyData.selector_list_272
+- _RTGetNSPredicateSecurityPolicyData.selector_list_273
+- _RTGetNSPredicateSecurityPolicyData.selector_list_274
+- _RTGetNSPredicateSecurityPolicyData.selector_list_275
+- _RTGetNSPredicateSecurityPolicyData.selector_list_276
+- _RTGetNSPredicateSecurityPolicyData.selector_list_277
+- _RTGetNSPredicateSecurityPolicyData.selector_list_278
+- _RTGetNSPredicateSecurityPolicyData.selector_list_279
+- _RTGetNSPredicateSecurityPolicyData.selector_list_280
+- _RTGetNSPredicateSecurityPolicyData.selector_list_281
+- _RTGetNSPredicateSecurityPolicyData.selector_list_282
+- _RTGetNSPredicateSecurityPolicyData.selector_list_283
+- _RTGetNSPredicateSecurityPolicyData.selector_list_284
+- _RTGetNSPredicateSecurityPolicyData.selector_list_285
+- _RTGetNSPredicateSecurityPolicyData.selector_list_286
+- _RTGetNSPredicateSecurityPolicyData.selector_list_287
+Functions:
+~ _RTPredicateSecurityPolicyClassSelectorAllowed : 924 -> 948
+~ _isChildOfNSManagedObject : 108 -> 148
+~ _RTPredicateSecurityPolicyRaiseException : 128 -> 96
++ _nspspGetManagedObjectSelectors
+CStrings:
++ "_notifyObserversForKeyPath:change:"
++ "exceptionWithName:reason:userInfo:"
+- "_notifyObserversForKeyPath:"
+- "alloc"
+- "initWithName:reason:userInfo:"
+```

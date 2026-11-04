@@ -1,0 +1,208 @@
+## HealthOntologyDaemonPlugin
+
+> `/System/Library/PrivateFrameworks/HealthOntologyDaemonPlugin.framework/HealthOntologyDaemonPlugin`
+
+```diff
+
+-7027.1.56.2.9
+-  __TEXT.__text: 0x5f498
++7027.2.13.0.0
++  __TEXT.__text: 0x6ff84
+   __TEXT.__objc_methlist: 0x4a4
+-  __TEXT.__const: 0x2ba8
+-  __TEXT.__constg_swiftt: 0x12ec
+-  __TEXT.__swift5_typeref: 0xa9a
++  __TEXT.__const: 0x3578
++  __TEXT.__constg_swiftt: 0x16e4
++  __TEXT.__swift5_typeref: 0xc2a
+   __TEXT.__swift5_builtin: 0x320
+-  __TEXT.__swift5_reflstr: 0x9c1
+-  __TEXT.__swift5_assocty: 0x2b8
+-  __TEXT.__swift5_fieldmd: 0x8e8
+-  __TEXT.__cstring: 0xdb9
+-  __TEXT.__swift5_proto: 0x26c
+-  __TEXT.__swift5_types: 0x148
++  __TEXT.__swift5_reflstr: 0xf51
++  __TEXT.__swift5_assocty: 0x2e8
++  __TEXT.__swift5_fieldmd: 0xf4c
++  __TEXT.__cstring: 0x11d9
++  __TEXT.__swift5_proto: 0x2a8
++  __TEXT.__swift5_types: 0x1b8
+   __TEXT.__swift5_protos: 0x2c
+-  __TEXT.__swift5_capture: 0x26c
++  __TEXT.__swift5_capture: 0x25c
+   __TEXT.__oslogstring: 0x21d
+   __TEXT.__swift5_mpenum: 0x30
+-  __TEXT.__unwind_info: 0x1348
+-  __TEXT.__eh_frame: 0x2020
++  __TEXT.__unwind_info: 0x1778
++  __TEXT.__eh_frame: 0x2788
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x90
+-  __DATA_CONST.__objc_classlist: 0xa0
++  __DATA_CONST.__objc_classlist: 0xb0
+   __DATA_CONST.__objc_protolist: 0xa0
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x2a8
+   __DATA_CONST.__objc_protorefs: 0x58
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x1d91
+-  __AUTH_CONST.__objc_const: 0x15f8
+-  __AUTH_CONST.__auth_got: 0x1028
++  __AUTH_CONST.__const: 0x2a31
++  __AUTH_CONST.__objc_const: 0x1828
++  __AUTH_CONST.__auth_got: 0x1210
+   __AUTH.__objc_data: 0x120
+-  __AUTH.__data: 0x650
+-  __DATA.__data: 0xff0
++  __AUTH.__data: 0x7b0
++  __DATA.__data: 0x1130
+   __DATA.__common: 0x28
+   __DATA_DIRTY.__objc_data: 0x3a8
+-  __DATA_DIRTY.__data: 0x1290
++  __DATA_DIRTY.__data: 0x1298
+   __DATA_DIRTY.__bss: 0x880
+   __DATA_DIRTY.__common: 0x20
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 1252
+-  Symbols:   621
+-  CStrings:  94
++  Functions: 1579
++  Symbols:   709
++  CStrings:  126
+ 
+Symbols:
++ __DATA__TtC26HealthOntologyDaemonPlugin26UnitSynonymLookupEvaluator
++ __DATA__TtC26HealthOntologyDaemonPlugin34SectionedEducationContentEvaluator
++ __IVARS__TtC26HealthOntologyDaemonPlugin26UnitSynonymLookupEvaluator
++ __IVARS__TtC26HealthOntologyDaemonPlugin34SectionedEducationContentEvaluator
++ __METACLASS_DATA__TtC26HealthOntologyDaemonPlugin26UnitSynonymLookupEvaluator
++ __METACLASS_DATA__TtC26HealthOntologyDaemonPlugin34SectionedEducationContentEvaluator
++ ___swift_memcpy104_8
++ ___swift_memcpy112_8
++ ___swift_memcpy128_8
++ ___swift_memcpy153_8
++ ___swift_memcpy32_8
++ ___swift_memcpy40_8
++ ___swift_memcpy64_8
++ ___swift_memcpy72_8
++ ___swift_memcpy80_8
++ ___swift_memcpy96_8
++ _associated conformance 26HealthOntologyDaemonPlugin26UnitSynonymLookupEvaluatorC0aB3Kit07RequestH0AA0J0AdEP_AD0bJ0
++ _associated conformance 26HealthOntologyDaemonPlugin26UnitSynonymLookupEvaluatorCAA23HgQLDecodableEvaluatingAA7Request0aB3Kit0lH0P_AF0ijL0
++ _associated conformance 26HealthOntologyDaemonPlugin32SectionedEducationContentDecoderV0G3Key33_2ED0E8F22265340CAA0BE8691E2B768ALLVSHAASQ
++ _associated conformance 26HealthOntologyDaemonPlugin34SectionedEducationContentEvaluatorC0aB3Kit07RequestH0AA0J0AdEP_AD0bJ0
++ _symbolic SDySiSSG
++ _symbolic SDySi_____G 26HealthOntologyDaemonPlugin28LabKitGroupingConceptDecoderV11RangeFields33_EFF6CB3EAF8655CB9ADB15F971C3433CLLV
++ _symbolic SDySi_____G 26HealthOntologyDaemonPlugin28LabKitGroupingConceptDecoderV5Panel33_EFF6CB3EAF8655CB9ADB15F971C3433CLLV
++ _symbolic SDySi_____G 26HealthOntologyDaemonPlugin28LabKitGroupingConceptDecoderV7Grouper33_EFF6CB3EAF8655CB9ADB15F971C3433CLLV
++ _symbolic SDySi_____G 26HealthOntologyDaemonPlugin29ReadConfigurationModelDecoderV0F033_12DADC1FE98B69DD6C23C7AEF30BB14ELLV
++ _symbolic SDySi_____G 26HealthOntologyDaemonPlugin29ReadConfigurationModelDecoderV11BoundFields33_12DADC1FE98B69DD6C23C7AEF30BB14ELLV
++ _symbolic SDySi_____G 26HealthOntologyDaemonPlugin29ReadConfigurationModelDecoderV9Parameter33_12DADC1FE98B69DD6C23C7AEF30BB14ELLV
++ _symbolic SDySi_____G 26HealthOntologyDaemonPlugin32SectionedEducationContentDecoderV13SectionFields33_2ED0E8F22265340CAA0BE8691E2B768ALLV
++ _symbolic SDySi_____G 26HealthOntologyDaemonPlugin35ClassificationEvaluatorModelDecoderV0F033_12DADC1FE98B69DD6C23C7AEF30BB14ELLV
++ _symbolic SDySi_____G 26HealthOntologyDaemonPlugin35ClassificationEvaluatorModelDecoderV11BoundFields33_12DADC1FE98B69DD6C23C7AEF30BB14ELLV
++ _symbolic SDySi_____G 26HealthOntologyDaemonPlugin35ClassificationEvaluatorModelDecoderV11RangeBounds33_12DADC1FE98B69DD6C23C7AEF30BB14ELLV
++ _symbolic SDySi_____G 26HealthOntologyDaemonPlugin35UniversalClassificationModelDecoderV0F033_12DADC1FE98B69DD6C23C7AEF30BB14ELLV
++ _symbolic SDySi_____G 26HealthOntologyDaemonPlugin35UniversalClassificationModelDecoderV10Definition33_12DADC1FE98B69DD6C23C7AEF30BB14ELLV
++ _symbolic SDy_____SDy11OntologyRow_____Qz_____GG s11AnyHashableV 17HealthOntologyKit13HgQLDecodableP AC0F12QLIndexedRowV
++ _symbolic SDy__________G 26HealthOntologyDaemonPlugin32SectionedEducationContentDecoderV0G3Key33_2ED0E8F22265340CAA0BE8691E2B768ALLV AC0G0AELLV
++ _symbolic SSSg
++ _symbolic SdSg
++ _symbolic ShySiG
++ _symbolic _____ 17HealthOntologyKit24UnitSynonymLookupRequestV
++ _symbolic _____ 17HealthOntologyKit32SectionedEducationContentRequestV
++ _symbolic _____ 26HealthOntologyDaemonPlugin26UnitSynonymLookupEvaluatorC
++ _symbolic _____ 26HealthOntologyDaemonPlugin28LabKitGroupingConceptDecoderV
++ _symbolic _____ 26HealthOntologyDaemonPlugin28LabKitGroupingConceptDecoderV11PanelFields33_EFF6CB3EAF8655CB9ADB15F971C3433CLLV
++ _symbolic _____ 26HealthOntologyDaemonPlugin28LabKitGroupingConceptDecoderV11RangeFields33_EFF6CB3EAF8655CB9ADB15F971C3433CLLV
++ _symbolic _____ 26HealthOntologyDaemonPlugin28LabKitGroupingConceptDecoderV13GrouperFields33_EFF6CB3EAF8655CB9ADB15F971C3433CLLV
++ _symbolic _____ 26HealthOntologyDaemonPlugin28LabKitGroupingConceptDecoderV5Panel33_EFF6CB3EAF8655CB9ADB15F971C3433CLLV
++ _symbolic _____ 26HealthOntologyDaemonPlugin28LabKitGroupingConceptDecoderV7Grouper33_EFF6CB3EAF8655CB9ADB15F971C3433CLLV
++ _symbolic _____ 26HealthOntologyDaemonPlugin29ReadConfigurationModelDecoderV
++ _symbolic _____ 26HealthOntologyDaemonPlugin29ReadConfigurationModelDecoderV0F033_12DADC1FE98B69DD6C23C7AEF30BB14ELLV
++ _symbolic _____ 26HealthOntologyDaemonPlugin29ReadConfigurationModelDecoderV0F6Fields33_12DADC1FE98B69DD6C23C7AEF30BB14ELLV
++ _symbolic _____ 26HealthOntologyDaemonPlugin29ReadConfigurationModelDecoderV11BoundFields33_12DADC1FE98B69DD6C23C7AEF30BB14ELLV
++ _symbolic _____ 26HealthOntologyDaemonPlugin29ReadConfigurationModelDecoderV15ParameterFields33_12DADC1FE98B69DD6C23C7AEF30BB14ELLV
++ _symbolic _____ 26HealthOntologyDaemonPlugin29ReadConfigurationModelDecoderV9Parameter33_12DADC1FE98B69DD6C23C7AEF30BB14ELLV
++ _symbolic _____ 26HealthOntologyDaemonPlugin32SectionedEducationContentDecoderV
++ _symbolic _____ 26HealthOntologyDaemonPlugin32SectionedEducationContentDecoderV0G033_2ED0E8F22265340CAA0BE8691E2B768ALLV
++ _symbolic _____ 26HealthOntologyDaemonPlugin32SectionedEducationContentDecoderV0G3Key33_2ED0E8F22265340CAA0BE8691E2B768ALLV
++ _symbolic _____ 26HealthOntologyDaemonPlugin32SectionedEducationContentDecoderV13SectionFields33_2ED0E8F22265340CAA0BE8691E2B768ALLV
++ _symbolic _____ 26HealthOntologyDaemonPlugin34SectionedEducationContentEvaluatorC
++ _symbolic _____ 26HealthOntologyDaemonPlugin35ClassificationEvaluatorModelDecoderV
++ _symbolic _____ 26HealthOntologyDaemonPlugin35ClassificationEvaluatorModelDecoderV0F033_12DADC1FE98B69DD6C23C7AEF30BB14ELLV
++ _symbolic _____ 26HealthOntologyDaemonPlugin35ClassificationEvaluatorModelDecoderV0F6Fields33_12DADC1FE98B69DD6C23C7AEF30BB14ELLV
++ _symbolic _____ 26HealthOntologyDaemonPlugin35ClassificationEvaluatorModelDecoderV11BoundFields33_12DADC1FE98B69DD6C23C7AEF30BB14ELLV
++ _symbolic _____ 26HealthOntologyDaemonPlugin35ClassificationEvaluatorModelDecoderV11RangeBounds33_12DADC1FE98B69DD6C23C7AEF30BB14ELLV
++ _symbolic _____ 26HealthOntologyDaemonPlugin35UniversalClassificationModelDecoderV
++ _symbolic _____ 26HealthOntologyDaemonPlugin35UniversalClassificationModelDecoderV0F033_12DADC1FE98B69DD6C23C7AEF30BB14ELLV
++ _symbolic _____ 26HealthOntologyDaemonPlugin35UniversalClassificationModelDecoderV0F6Fields33_12DADC1FE98B69DD6C23C7AEF30BB14ELLV
++ _symbolic _____ 26HealthOntologyDaemonPlugin35UniversalClassificationModelDecoderV10Definition33_12DADC1FE98B69DD6C23C7AEF30BB14ELLV
++ _symbolic _____ 26HealthOntologyDaemonPlugin35UniversalClassificationModelDecoderV16DefinitionFields33_12DADC1FE98B69DD6C23C7AEF30BB14ELLV
++ _type_layout_string 26HealthOntologyDaemonPlugin28LabKitGroupingConceptDecoderV
++ _type_layout_string 26HealthOntologyDaemonPlugin28LabKitGroupingConceptDecoderV11RangeFields33_EFF6CB3EAF8655CB9ADB15F971C3433CLLV
++ _type_layout_string 26HealthOntologyDaemonPlugin28LabKitGroupingConceptDecoderV13GrouperFields33_EFF6CB3EAF8655CB9ADB15F971C3433CLLV
++ _type_layout_string 26HealthOntologyDaemonPlugin28LabKitGroupingConceptDecoderV5Panel33_EFF6CB3EAF8655CB9ADB15F971C3433CLLV
++ _type_layout_string 26HealthOntologyDaemonPlugin28LabKitGroupingConceptDecoderV7Grouper33_EFF6CB3EAF8655CB9ADB15F971C3433CLLV
++ _type_layout_string 26HealthOntologyDaemonPlugin29ReadConfigurationModelDecoderV0F033_12DADC1FE98B69DD6C23C7AEF30BB14ELLV
++ _type_layout_string 26HealthOntologyDaemonPlugin29ReadConfigurationModelDecoderV0F6Fields33_12DADC1FE98B69DD6C23C7AEF30BB14ELLV
++ _type_layout_string 26HealthOntologyDaemonPlugin29ReadConfigurationModelDecoderV11BoundFields33_12DADC1FE98B69DD6C23C7AEF30BB14ELLV
++ _type_layout_string 26HealthOntologyDaemonPlugin29ReadConfigurationModelDecoderV15ParameterFields33_12DADC1FE98B69DD6C23C7AEF30BB14ELLV
++ _type_layout_string 26HealthOntologyDaemonPlugin29ReadConfigurationModelDecoderV9Parameter33_12DADC1FE98B69DD6C23C7AEF30BB14ELLV
++ _type_layout_string 26HealthOntologyDaemonPlugin32SectionedEducationContentDecoderV
++ _type_layout_string 26HealthOntologyDaemonPlugin32SectionedEducationContentDecoderV0G033_2ED0E8F22265340CAA0BE8691E2B768ALLV
++ _type_layout_string 26HealthOntologyDaemonPlugin32SectionedEducationContentDecoderV0G3Key33_2ED0E8F22265340CAA0BE8691E2B768ALLV
++ _type_layout_string 26HealthOntologyDaemonPlugin32SectionedEducationContentDecoderV13SectionFields33_2ED0E8F22265340CAA0BE8691E2B768ALLV
++ _type_layout_string 26HealthOntologyDaemonPlugin35ClassificationEvaluatorModelDecoderV0F033_12DADC1FE98B69DD6C23C7AEF30BB14ELLV
++ _type_layout_string 26HealthOntologyDaemonPlugin35ClassificationEvaluatorModelDecoderV0F6Fields33_12DADC1FE98B69DD6C23C7AEF30BB14ELLV
++ _type_layout_string 26HealthOntologyDaemonPlugin35ClassificationEvaluatorModelDecoderV11BoundFields33_12DADC1FE98B69DD6C23C7AEF30BB14ELLV
++ _type_layout_string 26HealthOntologyDaemonPlugin35ClassificationEvaluatorModelDecoderV11RangeBounds33_12DADC1FE98B69DD6C23C7AEF30BB14ELLV
++ _type_layout_string 26HealthOntologyDaemonPlugin35UniversalClassificationModelDecoderV0F033_12DADC1FE98B69DD6C23C7AEF30BB14ELLV
++ _type_layout_string 26HealthOntologyDaemonPlugin35UniversalClassificationModelDecoderV0F6Fields33_12DADC1FE98B69DD6C23C7AEF30BB14ELLV
++ _type_layout_string 26HealthOntologyDaemonPlugin35UniversalClassificationModelDecoderV10Definition33_12DADC1FE98B69DD6C23C7AEF30BB14ELLV
++ _type_layout_string 26HealthOntologyDaemonPlugin35UniversalClassificationModelDecoderV16DefinitionFields33_12DADC1FE98B69DD6C23C7AEF30BB14ELLV
+- _associated conformance 26HealthOntologyDaemonPlugin23LabKitConceptsEvaluatorCAA23HgQLDecodableEvaluatingAA7Request0abF00lH0P_AF0ijL0
+- _symbolic SDy_____Shy11OntologyRow_____QzGG s11AnyHashableV 17HealthOntologyKit13HgQLDecodableP
+CStrings:
++ "Inconsistent data detected among peer rows for "
++ "boundUnitHealthKitString"
++ "classificationLevelIdentifier"
++ "definitionOperand"
++ "descriptionLocalizationKey"
++ "disclaimerLocalizationKey"
++ "excludedEvaluatorId"
++ "excludedMemberId"
++ "grouperNameLocalizationKey"
++ "interpretationId"
++ "lbUnitHealthKitString"
++ "lbUnitLocalizationKey"
++ "measureIdentifier"
++ "optionalEvaluatorId"
++ "optionalMemberId"
++ "panelDescription"
++ "panelDescriptionLocalizationKey"
++ "panelNameLocalizationKey"
++ "parameterIdentifier"
++ "parameterMeasureId"
++ "read configuration"
++ "readConfiguration"
++ "readConfigurationId"
++ "requiredEvaluatorId"
++ "requiredMemberId"
++ "requiresReferenceRange"
++ "sectionDescription"
++ "sourceDataComparator"
++ "subcategoryMeasureId"
++ "titleLocalizationKey"
++ "ubUnitHealthKitString"
++ "ubUnitLocalizationKey"
+```

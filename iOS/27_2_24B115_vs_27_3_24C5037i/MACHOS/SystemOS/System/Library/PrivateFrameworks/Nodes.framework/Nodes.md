@@ -1,0 +1,1323 @@
+## Nodes
+
+> `/System/Library/PrivateFrameworks/Nodes.framework/Nodes`
+
+```diff
+
+-30.0.0.0.0
+-  __TEXT.__text: 0x3c9d20
+-  __TEXT.__auth_stubs: 0x27a0
+-  __TEXT.__objc_stubs: 0x1c80
+-  __TEXT.__objc_methlist: 0x164
+-  __TEXT.__const: 0x42000
+-  __TEXT.__constg_swiftt: 0x8c84
+-  __TEXT.__swift5_typeref: 0xadc3
+-  __TEXT.__swift5_builtin: 0x35c
+-  __TEXT.__swift5_reflstr: 0xa36e
+-  __TEXT.__swift5_fieldmd: 0x13a64
+-  __TEXT.__swift5_assocty: 0x1f68
+-  __TEXT.__swift5_proto: 0x3e18
+-  __TEXT.__swift5_types: 0xec4
+-  __TEXT.__cstring: 0x33d78
+-  __TEXT.__swift5_capture: 0x6b8
+-  __TEXT.__objc_classname: 0x402
+-  __TEXT.__objc_methname: 0x1d1f
+-  __TEXT.__swift_as_entry: 0x758
+-  __TEXT.__swift_as_ret: 0x7ac
+-  __TEXT.__swift_as_cont: 0x764
+-  __TEXT.__swift5_protos: 0x68
+-  __TEXT.__objc_methtype: 0x1e1
+-  __TEXT.__swift5_mpenum: 0xc4
+-  __TEXT.__oslogstring: 0x8b1
+-  __TEXT.__unwind_info: 0x13bf0
+-  __TEXT.__eh_frame: 0x19b48
+-  __DATA_CONST.__const: 0x280a8
+-  __DATA_CONST.__objc_classlist: 0xc0
+-  __DATA_CONST.__objc_protolist: 0x20
++31.0.0.0.0
++  __TEXT.__text: 0x43ab88
++  __TEXT.__auth_stubs: 0x2bf0
++  __TEXT.__objc_stubs: 0x2120
++  __TEXT.__objc_methlist: 0x31c
++  __TEXT.__const: 0x463d8
++  __TEXT.__constg_swiftt: 0x9654
++  __TEXT.__swift5_typeref: 0xbc12
++  __TEXT.__swift5_builtin: 0x3ac
++  __TEXT.__swift5_reflstr: 0xae84
++  __TEXT.__swift5_fieldmd: 0x14f9c
++  __TEXT.__swift5_assocty: 0x20b8
++  __TEXT.__swift5_proto: 0x418c
++  __TEXT.__swift5_types: 0xff4
++  __TEXT.__objc_classname: 0x3c5
++  __TEXT.__objc_methname: 0x2512
++  __TEXT.__objc_methtype: 0x311
++  __TEXT.__cstring: 0x39367
++  __TEXT.__swift5_capture: 0xa44
++  __TEXT.__swift_as_entry: 0x790
++  __TEXT.__swift_as_ret: 0x840
++  __TEXT.__swift_as_cont: 0x7f0
++  __TEXT.__swift5_protos: 0x6c
++  __TEXT.__swift5_mpenum: 0x100
++  __TEXT.__oslogstring: 0xa01
++  __TEXT.__unwind_info: 0x15530
++  __TEXT.__eh_frame: 0x1b270
++  __DATA_CONST.__const: 0x2b148
++  __DATA_CONST.__objc_classlist: 0xb8
++  __DATA_CONST.__objc_protolist: 0x40
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x7e0
+-  __DATA_CONST.__objc_protorefs: 0x10
+-  __DATA_CONST.__auth_got: 0x13d8
+-  __DATA_CONST.__got: 0x7a8
+-  __DATA_CONST.__auth_ptr: 0x1870
+-  __DATA.__objc_const: 0x1e10
+-  __DATA.__objc_data: 0x570
+-  __DATA.__data: 0x13798
+-  __DATA.__common: 0xa8
++  __DATA_CONST.__objc_selrefs: 0x990
++  __DATA_CONST.__objc_protorefs: 0x20
++  __DATA_CONST.__auth_got: 0x1600
++  __DATA_CONST.__got: 0x8b8
++  __DATA_CONST.__auth_ptr: 0x1a28
++  __DATA.__objc_const: 0x1fb8
++  __DATA.__objc_data: 0x6d8
++  __DATA.__data: 0x152b8
++  __DATA.__common: 0x118
++  - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/ImagePlayground.framework/ImagePlayground
+   - /System/Library/Frameworks/Metal.framework/Metal
++  - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+   - /System/Library/Frameworks/Security.framework/Security
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftSceneKit.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
++  - /usr/lib/swift/libswiftSynchronization.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 20019
+-  Symbols:   5383
+-  CStrings:  1681
++  Functions: 21975
++  Symbols:   5845
++  CStrings:  1874
+ 
+Symbols:
++ _AVAssetExportPresetHighestQuality
++ _AVFormatIDKey
++ _AVLinearPCMBitDepthKey
++ _AVLinearPCMIsBigEndianKey
++ _AVLinearPCMIsFloatKey
++ _AVLinearPCMIsNonInterleaved
++ _AVMediaTypeAudio
++ _AVVideoCompositionPerFrameHDRDisplayMetadataPolicyPropagate
++ _CACurrentMediaTime
++ _CMAudioFormatDescriptionGetStreamBasicDescription
++ _CMBlockBufferCopyDataBytes
++ _CMBlockBufferGetDataLength
++ _CMSampleBufferGetDataBuffer
++ _CMSampleBufferGetFormatDescription
++ _CMTimeCompare
++ _CMTimeMaximum
++ _CMTimeMinimum
++ _CMTimeMultiply
++ _CMTimeMultiplyByRatio
++ _CMTimeRangeGetIntersection
++ _CMTimeSubtract
++ _NSFileModificationDate
++ _NSFileSize
++ _OBJC_CLASS_$_AVAssetExportSession
++ _OBJC_CLASS_$_AVAudioMixInputParameters
++ _OBJC_CLASS_$_AVComposition
++ _OBJC_CLASS_$_AVMutableAudioMix
++ _OBJC_CLASS_$_AVMutableAudioMixInputParameters
++ _OBJC_CLASS_$_AVMutableComposition
++ _OBJC_CLASS_$_AVPlayerItem
++ _OBJC_CLASS_$_AVPlayerItemVideoOutput
++ _OBJC_CLASS_$_AVPlayerLooper
++ _OBJC_CLASS_$_AVQueuePlayer
++ _OBJC_CLASS_$_AVVideoComposition
++ _OBJC_CLASS_$_NSDateFormatter
++ _OBJC_CLASS_$_NSNumber
++ _OBJC_CLASS_$_NSValue
++ _OBJC_CLASS_$__TtC5Nodes19NodeFrameCompositor
++ _OBJC_CLASS_$__TtC5Nodes20NodeFrameInstruction
++ _OBJC_METACLASS_$__TtC5Nodes19NodeFrameCompositor
++ _OBJC_METACLASS_$__TtC5Nodes20NodeFrameInstruction
++ _SecItemDelete
++ __DATA__TtC5Nodes15LoopingPlayback
++ __DATA__TtC5Nodes19NodeFrameCompositor
++ __DATA__TtC5Nodes20NodeFrameInstruction
++ __DATA__TtC5Nodes21VideoPlaybackRegistry
++ __DATA__TtC5Nodes23VideoPlaybackController
++ __DATA__TtC5Nodes9ClipProbe
++ __INSTANCE_METHODS__TtC5Nodes19NodeFrameCompositor
++ __INSTANCE_METHODS__TtC5Nodes20NodeFrameInstruction
++ __IVARS__TtC5Nodes15LoopingPlayback
++ __IVARS__TtC5Nodes19NodeFrameCompositor
++ __IVARS__TtC5Nodes20NodeFrameInstruction
++ __IVARS__TtC5Nodes21VideoPlaybackRegistry
++ __IVARS__TtC5Nodes23VideoPlaybackController
++ __IVARS__TtC5Nodes9ClipProbe
++ __METACLASS_DATA__TtC5Nodes15LoopingPlayback
++ __METACLASS_DATA__TtC5Nodes19NodeFrameCompositor
++ __METACLASS_DATA__TtC5Nodes20NodeFrameInstruction
++ __METACLASS_DATA__TtC5Nodes21VideoPlaybackRegistry
++ __METACLASS_DATA__TtC5Nodes23VideoPlaybackController
++ __METACLASS_DATA__TtC5Nodes9ClipProbe
++ __OBJC_$_PROP_LIST_AVVideoCompositing
++ __OBJC_$_PROP_LIST_AVVideoCompositionInstruction
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_AVVideoCompositing
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_AVVideoCompositionInstruction
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AVVideoCompositing
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AVVideoCompositionInstruction
++ __OBJC_$_PROTOCOL_METHOD_TYPES_AVVideoCompositing
++ __OBJC_$_PROTOCOL_METHOD_TYPES_AVVideoCompositionInstruction
++ __OBJC_$_PROTOCOL_REFS_AVVideoCompositing
++ __OBJC_$_PROTOCOL_REFS_AVVideoCompositionInstruction
++ __OBJC_LABEL_PROTOCOL_$_AVVideoCompositing
++ __OBJC_LABEL_PROTOCOL_$_AVVideoCompositionInstruction
++ __OBJC_PROTOCOL_$_AVVideoCompositing
++ __OBJC_PROTOCOL_$_AVVideoCompositionInstruction
++ __PROPERTIES__TtC5Nodes19NodeFrameCompositor
++ __PROPERTIES__TtC5Nodes20NodeFrameInstruction
++ __PROTOCOLS__TtC5Nodes19NodeFrameCompositor
++ __PROTOCOLS__TtC5Nodes20NodeFrameInstruction
++ ___swift__destructorTm
++ ___swift_closure_destructor.34Tm
++ ___swift_closure_destructor.45Tm
++ ___swift_memcpy128_8
++ ___swift_memcpy48_4
++ ___swift_memcpy52_8
++ ___swift_memcpy56_4
++ ___swift_memcpy57_4
++ ___swift_memcpy5_4
++ _associated conformance 5Nodes10AgentModelO16Opus55CodingKeys33_2A18D990AE0DDC3A917F64C3C4B0009CLLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 5Nodes10AgentModelO16Opus55CodingKeys33_2A18D990AE0DDC3A917F64C3C4B0009CLLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5Nodes10ScreenplayV10CodingKeys33_EFAD93E84696F78A9B696A2C3317B611LLOSHAASQ
++ _associated conformance 5Nodes10ScreenplayV10CodingKeys33_EFAD93E84696F78A9B696A2C3317B611LLOs0C3KeyAAs23CustomStringConvertible
++ _associated conformance 5Nodes10ScreenplayV10CodingKeys33_EFAD93E84696F78A9B696A2C3317B611LLOs0C3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5Nodes10ScreenplayVSHAASQ
++ _associated conformance 5Nodes10StoryboardV10CodingKeys33_E8E5F487487D4E2F3736B9B12DEA1F28LLOSHAASQ
++ _associated conformance 5Nodes10StoryboardV10CodingKeys33_E8E5F487487D4E2F3736B9B12DEA1F28LLOs0C3KeyAAs23CustomStringConvertible
++ _associated conformance 5Nodes10StoryboardV10CodingKeys33_E8E5F487487D4E2F3736B9B12DEA1F28LLOs0C3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5Nodes10StoryboardVSHAASQ
++ _associated conformance 5Nodes11SceneOutfitV10CodingKeys33_8382DCAB72A089FEC9F1260046E4382BLLOSHAASQ
++ _associated conformance 5Nodes11SceneOutfitV10CodingKeys33_8382DCAB72A089FEC9F1260046E4382BLLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 5Nodes11SceneOutfitV10CodingKeys33_8382DCAB72A089FEC9F1260046E4382BLLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5Nodes11SceneOutfitVSHAASQ
++ _associated conformance 5Nodes11SceneOutfitVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 5Nodes12DialogueLineV10CodingKeys33_EFAD93E84696F78A9B696A2C3317B611LLOSHAASQ
++ _associated conformance 5Nodes12DialogueLineV10CodingKeys33_EFAD93E84696F78A9B696A2C3317B611LLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 5Nodes12DialogueLineV10CodingKeys33_EFAD93E84696F78A9B696A2C3317B611LLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5Nodes12DialogueLineVSHAASQ
++ _associated conformance 5Nodes12DialogueLineVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 5Nodes12GenimioModelO24Geminio38FlashCodingKeys33_3E3E725C83D4F656C5E697538EE9FF00LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 5Nodes12GenimioModelO24Geminio38FlashCodingKeys33_3E3E725C83D4F656C5E697538EE9FF00LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5Nodes13AudioWaveformO10ProbeErrorOSHAASQ
++ _associated conformance 5Nodes13JSONRequesterV13serverMessage2inSSSg10Foundation4DataV_tFZ9ErrorBodyL_V10CodingKeysOSHAASQ
++ _associated conformance 5Nodes13JSONRequesterV13serverMessage2inSSSg10Foundation4DataV_tFZ9ErrorBodyL_V10CodingKeysOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 5Nodes13JSONRequesterV13serverMessage2inSSSg10Foundation4DataV_tFZ9ErrorBodyL_V10CodingKeysOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5Nodes13JSONRequesterV13serverMessage2inSSSg10Foundation4DataV_tFZ9ErrorBodyL_V6NestedV10CodingKeysOSHAASQ
++ _associated conformance 5Nodes13JSONRequesterV13serverMessage2inSSSg10Foundation4DataV_tFZ9ErrorBodyL_V6NestedV10CodingKeysOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 5Nodes13JSONRequesterV13serverMessage2inSSSg10Foundation4DataV_tFZ9ErrorBodyL_V6NestedV10CodingKeysOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5Nodes14ClipAudioLevelV10CodingKeys33_C4CC3AC3C101E62874D1B67C65306DA4LLOSHAASQ
++ _associated conformance 5Nodes14ClipAudioLevelV10CodingKeys33_C4CC3AC3C101E62874D1B67C65306DA4LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 5Nodes14ClipAudioLevelV10CodingKeys33_C4CC3AC3C101E62874D1B67C65306DA4LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5Nodes14ClipAudioLevelVSHAASQ
++ _associated conformance 5Nodes14ScreenplayNodeV10CodingKeys33_8348716F39D46FA5CB19B808046495F9LLOSHAASQ
++ _associated conformance 5Nodes14ScreenplayNodeV10CodingKeys33_8348716F39D46FA5CB19B808046495F9LLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 5Nodes14ScreenplayNodeV10CodingKeys33_8348716F39D46FA5CB19B808046495F9LLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5Nodes14ScreenplayNodeVSHAASQ
++ _associated conformance 5Nodes14ScreenplayNodeVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 5Nodes14ShotClipStatusOSHAASQ
++ _associated conformance 5Nodes14StoryboardNodeV10CodingKeys33_879F6232A9FBC6FB9E97306DEA9BF7F2LLOSHAASQ
++ _associated conformance 5Nodes14StoryboardNodeV10CodingKeys33_879F6232A9FBC6FB9E97306DEA9BF7F2LLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 5Nodes14StoryboardNodeV10CodingKeys33_879F6232A9FBC6FB9E97306DEA9BF7F2LLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5Nodes14StoryboardNodeV14ShotClipRecordV10CodingKeys33_605A606279D2981C423340E3BC3D5ED6LLOSHAASQ
++ _associated conformance 5Nodes14StoryboardNodeV14ShotClipRecordV10CodingKeys33_605A606279D2981C423340E3BC3D5ED6LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 5Nodes14StoryboardNodeV14ShotClipRecordV10CodingKeys33_605A606279D2981C423340E3BC3D5ED6LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5Nodes14StoryboardNodeVSHAASQ
++ _associated conformance 5Nodes14StoryboardNodeVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 5Nodes14StoryboardShotV10CodingKeys33_E8E5F487487D4E2F3736B9B12DEA1F28LLOSHAASQ
++ _associated conformance 5Nodes14StoryboardShotV10CodingKeys33_E8E5F487487D4E2F3736B9B12DEA1F28LLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 5Nodes14StoryboardShotV10CodingKeys33_E8E5F487487D4E2F3736B9B12DEA1F28LLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5Nodes14StoryboardShotVSHAASQ
++ _associated conformance 5Nodes14StoryboardShotVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 5Nodes15ScreenplaySceneV10CodingKeys33_EFAD93E84696F78A9B696A2C3317B611LLOSHAASQ
++ _associated conformance 5Nodes15ScreenplaySceneV10CodingKeys33_EFAD93E84696F78A9B696A2C3317B611LLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 5Nodes15ScreenplaySceneV10CodingKeys33_EFAD93E84696F78A9B696A2C3317B611LLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5Nodes15ScreenplaySceneV7SettingOSHAASQ
++ _associated conformance 5Nodes15ScreenplaySceneV7SettingOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 5Nodes15ScreenplaySceneVSHAASQ
++ _associated conformance 5Nodes15ScreenplaySceneVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 5Nodes15SequencerClipIDVSHAASQ
++ _associated conformance 5Nodes16AntropogenoModelO16Opus55CodingKeys33_73EDBEBB2BE3AE6D00892F4741686823LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 5Nodes16AntropogenoModelO16Opus55CodingKeys33_73EDBEBB2BE3AE6D00892F4741686823LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5Nodes16CharacterProfileV10CodingKeys33_8382DCAB72A089FEC9F1260046E4382BLLOSHAASQ
++ _associated conformance 5Nodes16CharacterProfileV10CodingKeys33_8382DCAB72A089FEC9F1260046E4382BLLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 5Nodes16CharacterProfileV10CodingKeys33_8382DCAB72A089FEC9F1260046E4382BLLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5Nodes16CharacterProfileVSHAASQ
++ _associated conformance 5Nodes16CharacterProfileVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 5Nodes18CharacterBibleNodeV10CodingKeys33_7F75B7F0121D57BD9094417C0C5BC0DFLLOSHAASQ
++ _associated conformance 5Nodes18CharacterBibleNodeV10CodingKeys33_7F75B7F0121D57BD9094417C0C5BC0DFLLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 5Nodes18CharacterBibleNodeV10CodingKeys33_7F75B7F0121D57BD9094417C0C5BC0DFLLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5Nodes18CharacterBibleNodeVSHAASQ
++ _associated conformance 5Nodes18CharacterBibleNodeVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 5Nodes18VideoClipSetMemberVSHAASQ
++ _associated conformance 5Nodes19StoryboardBreakdownV10CodingKeys33_727B6126E75981F946418A0A068C124DLLOSHAASQ
++ _associated conformance 5Nodes19StoryboardBreakdownV10CodingKeys33_727B6126E75981F946418A0A068C124DLLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 5Nodes19StoryboardBreakdownV10CodingKeys33_727B6126E75981F946418A0A068C124DLLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5Nodes19StoryboardBreakdownV4ShotV10CodingKeys33_727B6126E75981F946418A0A068C124DLLOSHAASQ
++ _associated conformance 5Nodes19StoryboardBreakdownV4ShotV10CodingKeys33_727B6126E75981F946418A0A068C124DLLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 5Nodes19StoryboardBreakdownV4ShotV10CodingKeys33_727B6126E75981F946418A0A068C124DLLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5Nodes19StoryboardBreakdownV4ShotVSHAASQ
++ _associated conformance 5Nodes19StoryboardBreakdownVSHAASQ
++ _associated conformance 5Nodes22VideoPlaybackSignatureVSHAASQ
++ _associated conformance 5Nodes24LegacySceneClipMigrationO6RecordV10CodingKeys33_F31569DEEB3155700B7B2E34448AAB8CLLOSHAASQ
++ _associated conformance 5Nodes24LegacySceneClipMigrationO6RecordV10CodingKeys33_F31569DEEB3155700B7B2E34448AAB8CLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 5Nodes24LegacySceneClipMigrationO6RecordV10CodingKeys33_F31569DEEB3155700B7B2E34448AAB8CLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5Nodes4CastV10CodingKeys33_8382DCAB72A089FEC9F1260046E4382BLLOSHAASQ
++ _associated conformance 5Nodes4CastV10CodingKeys33_8382DCAB72A089FEC9F1260046E4382BLLOs0C3KeyAAs23CustomStringConvertible
++ _associated conformance 5Nodes4CastV10CodingKeys33_8382DCAB72A089FEC9F1260046E4382BLLOs0C3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5Nodes4CastVSHAASQ
++ _associated conformance 5Nodes7LibraryV8CategoryO15MovieCodingKeys33_0A7B6CE5E0934147F7D9B7E6B238EC59LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 5Nodes7LibraryV8CategoryO15MovieCodingKeys33_0A7B6CE5E0934147F7D9B7E6B238EC59LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5Nodes7LibraryV8CategoryO9MovieNodeO10CodingKeys33_579E2A62409723F21E022EFCC442FD49LLOSHAASQ
++ _associated conformance 5Nodes7LibraryV8CategoryO9MovieNodeO10CodingKeys33_579E2A62409723F21E022EFCC442FD49LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 5Nodes7LibraryV8CategoryO9MovieNodeO10CodingKeys33_579E2A62409723F21E022EFCC442FD49LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5Nodes7LibraryV8CategoryO9MovieNodeO20ScreenplayCodingKeys33_579E2A62409723F21E022EFCC442FD49LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 5Nodes7LibraryV8CategoryO9MovieNodeO20ScreenplayCodingKeys33_579E2A62409723F21E022EFCC442FD49LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5Nodes7LibraryV8CategoryO9MovieNodeO20StoryboardCodingKeys33_579E2A62409723F21E022EFCC442FD49LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 5Nodes7LibraryV8CategoryO9MovieNodeO20StoryboardCodingKeys33_579E2A62409723F21E022EFCC442FD49LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5Nodes7LibraryV8CategoryO9MovieNodeO24CharacterBibleCodingKeys33_579E2A62409723F21E022EFCC442FD49LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 5Nodes7LibraryV8CategoryO9MovieNodeO24CharacterBibleCodingKeys33_579E2A62409723F21E022EFCC442FD49LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5Nodes7LibraryV8CategoryO9MovieNodeOSHAASQ
++ _associated conformance 5Nodes7LibraryV8CategoryO9MovieNodeOs12CaseIterableAA8AllCasessAHP_Sl
++ _associated conformance So18NSFileAttributeKeyaSHSCSQ
++ _associated conformance So18NSFileAttributeKeyas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So18NSFileAttributeKeyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _flat unique So29AVVideoCompositionInstruction_p
++ _get_enum_tag_for_layout_string 5Nodes12CompiledClipV4ExprO
++ _get_enum_tag_for_layout_string 5Nodes13JSONRequesterV13serverMessage2inSSSg10Foundation4DataV_tFZ9ErrorBodyL_V6NestedVSg
++ _get_enum_tag_for_layout_string 5Nodes8ClipPlanO
++ _get_enum_tag_for_layout_string 5Nodes8SidePlanV6SourceO
++ _get_enum_tag_for_layout_string 5Nodes9FrameExprO
++ _kCMTimeInvalid
++ _kCVPixelBufferMetalCompatibilityKey
++ _keypath_set.31Tm
++ _objc_autoreleaseReturnValue
++ _objc_msgSend$addMutableTrackWithMediaType:preferredTrackID:
++ _objc_msgSend$attributesOfItemAtPath:error:
++ _objc_msgSend$blackColor
++ _objc_msgSend$cancelReading
++ _objc_msgSend$compositionTime
++ _objc_msgSend$copy
++ _objc_msgSend$copyPixelBufferForItemTime:itemTimeForDisplay:
++ _objc_msgSend$currentItem
++ _objc_msgSend$currentTime
++ _objc_msgSend$disableLooping
++ _objc_msgSend$finishCancelledRequest
++ _objc_msgSend$finishWithComposedVideoFrame:
++ _objc_msgSend$finishWithError:
++ _objc_msgSend$generateCGImageAsynchronouslyForTime:completionHandler:
++ _objc_msgSend$hasNewPixelBufferForItemTime:
++ _objc_msgSend$initWithAsset:presetName:
++ _objc_msgSend$initWithInt:
++ _objc_msgSend$initWithPixelBufferAttributes:
++ _objc_msgSend$insertEmptyTimeRange:
++ _objc_msgSend$insertTimeRange:ofTrack:atTime:error:
++ _objc_msgSend$intValue
++ _objc_msgSend$integerValue
++ _objc_msgSend$itemTimeForHostTime:
++ _objc_msgSend$loopingPlayerItems
++ _objc_msgSend$newPixelBuffer
++ _objc_msgSend$objectForKey:
++ _objc_msgSend$pause
++ _objc_msgSend$play
++ _objc_msgSend$playerLooperWithPlayer:templateItem:
++ _objc_msgSend$rate
++ _objc_msgSend$removeAllItems
++ _objc_msgSend$removeObjectForKey:
++ _objc_msgSend$removeOutput:
++ _objc_msgSend$renderContext
++ _objc_msgSend$scaleTimeRange:toDuration:
++ _objc_msgSend$seekToTime:toleranceBefore:toleranceAfter:
++ _objc_msgSend$setAudioMix:
++ _objc_msgSend$setAutomaticallyWaitsToMinimizeStalling:
++ _objc_msgSend$setDateFormat:
++ _objc_msgSend$setInputParameters:
++ _objc_msgSend$setLocale:
++ _objc_msgSend$setMuted:
++ _objc_msgSend$setRequestedTimeToleranceAfter:
++ _objc_msgSend$setRequestedTimeToleranceBefore:
++ _objc_msgSend$setTimeZone:
++ _objc_msgSend$setTrackID:
++ _objc_msgSend$setVideoComposition:
++ _objc_msgSend$setVolumeRampFromStartVolume:toEndVolume:timeRange:
++ _objc_msgSend$sourceFrameByTrackID:
++ _objc_msgSend$sourceTrackIDs
++ _objc_msgSend$trackID
++ _objc_msgSend$videoCompositionInstruction
++ _swift_projectBox
++ _swift_release_x13
++ _swift_task_future_wait_throwing
++ _swift_unknownObjectRetain_n
++ _symbolic $s5Nodes16VideoClipSetNodeP
++ _symbolic $s5Nodes18PlayheadOwningNodeP
++ _symbolic $s5Nodes19EditorAuthoredStateP
++ _symbolic SDySS_____G 10Foundation4DataV
++ _symbolic SDySS_____G 5Nodes14ClipAudioLevelV
++ _symbolic SDySS_____G 5Nodes14StoryboardNodeV14ShotClipRecordV
++ _symbolic SDySS_____G 5Nodes18VideoSequencerNodeV10LossyLevel33_5BE1E7E4FC73748F2F80D1999F0F9DBDLLV
++ _symbolic SDySS_____G 5Nodes8ShotClipV
++ _symbolic SDySSypGSg
++ _symbolic SDy__________G 10Foundation3URLV 5Nodes8ClipInfoV
++ _symbolic SDy__________G 10Foundation3URLV 5Nodes9ClipProbeC5Entry33_984638285A5DF4E516E57F4C6D62C5F3LLV
++ _symbolic SDy__________G 10Foundation3URLV 5Nodes9ClipProbeC9FileStampV
++ _symbolic SDy__________G 10Foundation4UUIDV 5Nodes19NodeFrameCompositorC14PendingRequest33_B3349145FBAAE7BB3966AFFC67CDC1EDLLV
++ _symbolic SDy__________G 10Foundation4UUIDV 5Nodes23VideoPlaybackControllerC
++ _symbolic SDy__________G 5Nodes15SequencerClipIDV AA0C10AudioLevelV
++ _symbolic SDy__________G 5Nodes15SequencerClipIDV So11CMTimeRangea
++ _symbolic SDy__________G s5Int32V 5Nodes15SendableCIImageV
++ _symbolic SS3key______5valuet 5Nodes8ShotClipV
++ _symbolic SS3key______5valuet 5Nodes9FrameExprO
++ _symbolic SS4port_Say_____G6piecest 5Nodes12CompiledClipV5PieceV
++ _symbolic SS______t 5Nodes14ClipAudioLevelV
++ _symbolic SS______t 5Nodes7GenimioV14ResponseSchemaO
++ _symbolic SS______t 5Nodes8ShotClipV
++ _symbolic SS______t 5Nodes8SideClipO
++ _symbolic SS______tSg 5Nodes8SideClipO
++ _symbolic SaySo12AVPlayerItemC4item_So0aB11VideoOutputC6outputtG
++ _symbolic SaySo7CIImageCGSg___________tYaYbKYCc 10Foundation4UUIDV 5Nodes5GraphV
++ _symbolic Say_____G 10Foundation11JSONEncoderC16OutputFormattingV
++ _symbolic Say_____G 5Nodes11SceneOutfitV
++ _symbolic Say_____G 5Nodes12CompiledClipV5PieceV
++ _symbolic Say_____G 5Nodes12DialogueLineV
++ _symbolic Say_____G 5Nodes12TrackSegmentV
++ _symbolic Say_____G 5Nodes14AudioPlacementV
++ _symbolic Say_____G 5Nodes14StoryboardShotV
++ _symbolic Say_____G 5Nodes15ScreenplaySceneV
++ _symbolic Say_____G 5Nodes15ScreenplaySceneV7SettingO
++ _symbolic Say_____G 5Nodes15SequencerClipIDV
++ _symbolic Say_____G 5Nodes16CharacterProfileV
++ _symbolic Say_____G 5Nodes16VideoTrackLayoutV
++ _symbolic Say_____G 5Nodes19StoryboardBreakdownV4ShotV
++ _symbolic Say_____G 5Nodes19TimelineInstructionV
++ _symbolic Say_____G 5Nodes7LibraryV8CategoryO9MovieNodeO
++ _symbolic Say_____G 5Nodes9AudioFadeV
++ _symbolic Say_____G 5Nodes9AudioLaneV
++ _symbolic Say_____G s5Int32V
++ _symbolic Say_____G7members_t 5Nodes14SequenceMemberV
++ _symbolic Sb_____YbScMYccSg 5Nodes13VideoTimelineV
++ _symbolic ScCy___________pG So10CGImageRefa s5ErrorP
++ _symbolic ScCyyt_____GSg s5NeverO
++ _symbolic ScTySS______pGSg s5ErrorP
++ _symbolic ScTyyt_____G s5NeverO
++ _symbolic Shy_____G 10Foundation3URLV
++ _symbolic Si6offset______7elementt 5Nodes16ChainInputBranch33_F0A43E9C86ED5FAA934F237AA4E93C66LLV
++ _symbolic Si6offset______7elementt 5Nodes18ChainTimelineEntry33_F0A43E9C86ED5FAA934F237AA4E93C66LLV
++ _symbolic Si6offset______7elementt 5Nodes19StoryboardBreakdownV4ShotV
++ _symbolic Si______t 5Nodes15ScreenplaySceneV
++ _symbolic So12AVPlayerItemC4item_So0aB11VideoOutputC6outputt
++ _symbolic So13AVCompositionC
++ _symbolic So13AVQueuePlayerC
++ _symbolic So14AVPlayerLooperC
++ _symbolic So37AVAsynchronousVideoCompositionRequestC
++ _symbolic _____ 5Nodes10AgentModelO16Opus55CodingKeys33_2A18D990AE0DDC3A917F64C3C4B0009CLLO
++ _symbolic _____ 5Nodes10ScreenplayV
++ _symbolic _____ 5Nodes10ScreenplayV10CodingKeys33_EFAD93E84696F78A9B696A2C3317B611LLO
++ _symbolic _____ 5Nodes10StoryboardV
++ _symbolic _____ 5Nodes10StoryboardV10CodingKeys33_E8E5F487487D4E2F3736B9B12DEA1F28LLO
++ _symbolic _____ 5Nodes11SceneOutfitV
++ _symbolic _____ 5Nodes11SceneOutfitV10CodingKeys33_8382DCAB72A089FEC9F1260046E4382BLLO
++ _symbolic _____ 5Nodes12CompiledClipV
++ _symbolic _____ 5Nodes12CompiledClipV4ExprO
++ _symbolic _____ 5Nodes12CompiledClipV5PieceV
++ _symbolic _____ 5Nodes12DialogueLineV
++ _symbolic _____ 5Nodes12DialogueLineV10CodingKeys33_EFAD93E84696F78A9B696A2C3317B611LLO
++ _symbolic _____ 5Nodes12GenimioModelO24Geminio38FlashCodingKeys33_3E3E725C83D4F656C5E697538EE9FF00LLO
++ _symbolic _____ 5Nodes12TrackSegmentV
++ _symbolic _____ 5Nodes13AudioWaveformO
++ _symbolic _____ 5Nodes13AudioWaveformO10ProbeErrorO
++ _symbolic _____ 5Nodes13FrameResolverV
++ _symbolic _____ 5Nodes13JSONRequesterV13serverMessage2inSSSg10Foundation4DataV_tFZ9ErrorBodyL_V
++ _symbolic _____ 5Nodes13JSONRequesterV13serverMessage2inSSSg10Foundation4DataV_tFZ9ErrorBodyL_V10CodingKeysO
++ _symbolic _____ 5Nodes13JSONRequesterV13serverMessage2inSSSg10Foundation4DataV_tFZ9ErrorBodyL_V6NestedV
++ _symbolic _____ 5Nodes13JSONRequesterV13serverMessage2inSSSg10Foundation4DataV_tFZ9ErrorBodyL_V6NestedV10CodingKeysO
++ _symbolic _____ 5Nodes13VideoTimelineV
++ _symbolic _____ 5Nodes14AudioLaneMixerO
++ _symbolic _____ 5Nodes14AudioLaneMixerO11GainSegmentV
++ _symbolic _____ 5Nodes14AudioPlacementV
++ _symbolic _____ 5Nodes14ClipAudioLevelV
++ _symbolic _____ 5Nodes14ClipAudioLevelV10CodingKeys33_C4CC3AC3C101E62874D1B67C65306DA4LLO
++ _symbolic _____ 5Nodes14ProgressWindowV
++ _symbolic _____ 5Nodes14ScreenplayNodeV
++ _symbolic _____ 5Nodes14ScreenplayNodeV10CodingKeys33_8348716F39D46FA5CB19B808046495F9LLO
++ _symbolic _____ 5Nodes14SequenceMemberV
++ _symbolic _____ 5Nodes14ShotClipStatusO
++ _symbolic _____ 5Nodes14StoryboardNodeV
++ _symbolic _____ 5Nodes14StoryboardNodeV10CodingKeys33_879F6232A9FBC6FB9E97306DEA9BF7F2LLO
++ _symbolic _____ 5Nodes14StoryboardNodeV11ClipRequestV
++ _symbolic _____ 5Nodes14StoryboardNodeV14ShotClipRecordV
++ _symbolic _____ 5Nodes14StoryboardNodeV14ShotClipRecordV10CodingKeys33_605A606279D2981C423340E3BC3D5ED6LLO
++ _symbolic _____ 5Nodes14StoryboardShotV
++ _symbolic _____ 5Nodes14StoryboardShotV10CodingKeys33_E8E5F487487D4E2F3736B9B12DEA1F28LLO
++ _symbolic _____ 5Nodes15LoopingPlaybackC
++ _symbolic _____ 5Nodes15ScreenplaySceneV
++ _symbolic _____ 5Nodes15ScreenplaySceneV10CodingKeys33_EFAD93E84696F78A9B696A2C3317B611LLO
++ _symbolic _____ 5Nodes15ScreenplaySceneV7SettingO
++ _symbolic _____ 5Nodes15SequencerClipIDV
++ _symbolic _____ 5Nodes16AntropogenoModelO16Opus55CodingKeys33_73EDBEBB2BE3AE6D00892F4741686823LLO
++ _symbolic _____ 5Nodes16ChainInputBranch33_F0A43E9C86ED5FAA934F237AA4E93C66LLV
++ _symbolic _____ 5Nodes16CharacterProfileV
++ _symbolic _____ 5Nodes16CharacterProfileV10CodingKeys33_8382DCAB72A089FEC9F1260046E4382BLLO
++ _symbolic _____ 5Nodes16ClipAudioPreviewV
++ _symbolic _____ 5Nodes16ProgramSwapStateV
++ _symbolic _____ 5Nodes16VideoTrackLayoutV
++ _symbolic _____ 5Nodes17ChainBranchMember33_F0A43E9C86ED5FAA934F237AA4E93C66LLV
++ _symbolic _____ 5Nodes17ProjectTokenStoreO
++ _symbolic _____ 5Nodes18ChainTimelineEntry33_F0A43E9C86ED5FAA934F237AA4E93C66LLV
++ _symbolic _____ 5Nodes18CharacterBibleNodeV
++ _symbolic _____ 5Nodes18CharacterBibleNodeV10CodingKeys33_7F75B7F0121D57BD9094417C0C5BC0DFLLO
++ _symbolic _____ 5Nodes18VideoClipSetMemberV
++ _symbolic _____ 5Nodes18VideoSequencerNodeV10LossyLevel33_5BE1E7E4FC73748F2F80D1999F0F9DBDLLV
++ _symbolic _____ 5Nodes19NodeFrameCompositorC
++ _symbolic _____ 5Nodes19NodeFrameCompositorC14PendingRequest33_B3349145FBAAE7BB3966AFFC67CDC1EDLLV
++ _symbolic _____ 5Nodes19StoryboardBreakdownV
++ _symbolic _____ 5Nodes19StoryboardBreakdownV10CodingKeys33_727B6126E75981F946418A0A068C124DLLO
++ _symbolic _____ 5Nodes19StoryboardBreakdownV4ShotV
++ _symbolic _____ 5Nodes19StoryboardBreakdownV4ShotV10CodingKeys33_727B6126E75981F946418A0A068C124DLLO
++ _symbolic _____ 5Nodes19TimelineInstructionV
++ _symbolic _____ 5Nodes20MaterializedTimelineV
++ _symbolic _____ 5Nodes20NodeFrameInstructionC
++ _symbolic _____ 5Nodes21VideoPlaybackRegistryC
++ _symbolic _____ 5Nodes21VideoTimelineCompilerO
++ _symbolic _____ 5Nodes22VideoPlaybackSignatureV
++ _symbolic _____ 5Nodes23VideoPlaybackControllerC
++ _symbolic _____ 5Nodes24LegacySceneClipMigrationO
++ _symbolic _____ 5Nodes24LegacySceneClipMigrationO6RecordV
++ _symbolic _____ 5Nodes24LegacySceneClipMigrationO6RecordV10CodingKeys33_F31569DEEB3155700B7B2E34448AAB8CLLO
++ _symbolic _____ 5Nodes4CastV
++ _symbolic _____ 5Nodes4CastV10CodingKeys33_8382DCAB72A089FEC9F1260046E4382BLLO
++ _symbolic _____ 5Nodes7LibraryV8CategoryO15MovieCodingKeys33_0A7B6CE5E0934147F7D9B7E6B238EC59LLO
++ _symbolic _____ 5Nodes7LibraryV8CategoryO9MovieNodeO
++ _symbolic _____ 5Nodes7LibraryV8CategoryO9MovieNodeO10CodingKeys33_579E2A62409723F21E022EFCC442FD49LLO
++ _symbolic _____ 5Nodes7LibraryV8CategoryO9MovieNodeO20ScreenplayCodingKeys33_579E2A62409723F21E022EFCC442FD49LLO
++ _symbolic _____ 5Nodes7LibraryV8CategoryO9MovieNodeO20StoryboardCodingKeys33_579E2A62409723F21E022EFCC442FD49LLO
++ _symbolic _____ 5Nodes7LibraryV8CategoryO9MovieNodeO24CharacterBibleCodingKeys33_579E2A62409723F21E022EFCC442FD49LLO
++ _symbolic _____ 5Nodes8ClipInfoV
++ _symbolic _____ 5Nodes8ClipPlanO
++ _symbolic _____ 5Nodes8ShotClipV
++ _symbolic _____ 5Nodes8SideClipO
++ _symbolic _____ 5Nodes8SidePlanV
++ _symbolic _____ 5Nodes8SidePlanV6SourceO
++ _symbolic _____ 5Nodes9AudioFadeV
++ _symbolic _____ 5Nodes9AudioLaneV
++ _symbolic _____ 5Nodes9ClipProbeC
++ _symbolic _____ 5Nodes9ClipProbeC5Entry33_984638285A5DF4E516E57F4C6D62C5F3LLV
++ _symbolic _____ 5Nodes9ClipProbeC9FileStampV
++ _symbolic _____ 5Nodes9FrameExprO
++ _symbolic _____ 5Nodes9SeekStateV
++ _symbolic _____ 5Nodes9SeekStateV8InFlightV
++ _symbolic _____ So11CMTimeRangea
++ _symbolic _____ So18NSFileAttributeKeya
++ _symbolic _____ s15ContinuousClockV7InstantV
++ _symbolic _____ s8DurationV
++ _symbolic _____3key_AA5valuet 10Foundation4UUIDV
++ _symbolic _____3key_Say_____G5valuet 10Foundation4UUIDV 5Nodes4EdgeV
++ _symbolic _____3key_ScCyyt_____G5valuet 10Foundation4UUIDV s5NeverO
++ _symbolic _____3key_ScCyyt_____G5valuetSg 10Foundation4UUIDV s5NeverO
++ _symbolic _____3key______5valuet 5Nodes15SequencerClipIDV AA0C10AudioLevelV
++ _symbolic _____3key______5valuet 5Nodes15SequencerClipIDV So11CMTimeRangea
++ _symbolic _____3url_t 10Foundation3URLV
++ _symbolic _____4edge______8replacest 5Nodes4EdgeV 10Foundation4UUIDV
++ _symbolic _____4edge______8replacestSg 5Nodes4EdgeV 10Foundation4UUIDV
++ _symbolic _____5range_Say_____G5exprst So11CMTimeRangea 5Nodes12CompiledClipV4ExprO
++ _symbolic _____SdIeghny_ 10Foundation4UUIDV
++ _symbolic _____SdytIeghnnr_ 10Foundation4UUIDV
++ _symbolic _____Sg 10Foundation8TimeZoneV
++ _symbolic _____Sg 5Nodes11SceneOutfitV
++ _symbolic _____Sg 5Nodes12CompiledClipV
++ _symbolic _____Sg 5Nodes13FrameResolverV
++ _symbolic _____Sg 5Nodes13JSONRequesterV13serverMessage2inSSSg10Foundation4DataV_tFZ9ErrorBodyL_V6NestedV
++ _symbolic _____Sg 5Nodes13VideoTimelineV
++ _symbolic _____Sg 5Nodes14ClipAudioLevelV
++ _symbolic _____Sg 5Nodes14ScreenplayNodeV
++ _symbolic _____Sg 5Nodes14StoryboardNodeV
++ _symbolic _____Sg 5Nodes14StoryboardShotV
++ _symbolic _____Sg 5Nodes15LoopingPlaybackC
++ _symbolic _____Sg 5Nodes15ScreenplaySceneV
++ _symbolic _____Sg 5Nodes15SequencerClipIDV
++ _symbolic _____Sg 5Nodes16ClipAudioPreviewV
++ _symbolic _____Sg 5Nodes18CharacterBibleNodeV
++ _symbolic _____Sg 5Nodes18VideoClipSetMemberV
++ _symbolic _____Sg 5Nodes8ClipInfoV
++ _symbolic _____Sg 5Nodes8ClipPlanO
++ _symbolic _____Sg 5Nodes8ShotClipV
++ _symbolic _____Sg 5Nodes8SidePlanV
++ _symbolic _____Sg 5Nodes9ClipProbeC5Entry33_984638285A5DF4E516E57F4C6D62C5F3LLV
++ _symbolic _____Sg 5Nodes9ClipProbeC9FileStampV
++ _symbolic _____Sg 5Nodes9SeekStateV8InFlightV
++ _symbolic _____Sg So6CMTimea
++ _symbolic _____Sg s15ContinuousClockV7InstantV
++ _symbolic _____Sg3url______Sg9preservedt 10Foundation3URLV AA4DataV
++ _symbolic _____Sg6clipID______0A0Sf6volumet 5Nodes15SequencerClipIDV AA08CompiledC0V
++ _symbolic _____Sg6clipID______0A0Sf6volumetSg 5Nodes15SequencerClipIDV AA08CompiledC0V
++ _symbolic _____SgXw 5Nodes21VideoPlaybackRegistryC
++ _symbolic _____SgXw 5Nodes23VideoPlaybackControllerC
++ _symbolic _____SgXwz_Xx 5Nodes21VideoPlaybackRegistryC
++ _symbolic _____SgXwz_Xx 5Nodes23VideoPlaybackControllerC
++ _symbolic _____Sg_ABt 5Nodes14StoryboardShotV
++ _symbolic _____Sg_ABt 5Nodes8ClipInfoV
++ _symbolic _____Sg_ABt 5Nodes8ShotClipV
++ _symbolic _____Sg_ABt 5Nodes9ClipProbeC9FileStampV
++ _symbolic _____XDXMT 5Nodes21VideoPlaybackRegistryC
++ _symbolic ______Say_____Gt 10Foundation4UUIDV 5Nodes4EdgeV
++ _symbolic ______ScCyyt_____Gt 10Foundation4UUIDV s5NeverO
++ _symbolic ___________Sgt 10Foundation3URLV 5Nodes8ClipInfoV
++ _symbolic ___________SgtIeAgHr_ 10Foundation3URLV 5Nodes8ClipInfoV
++ _symbolic ___________SgtSg 10Foundation3URLV 5Nodes8ClipInfoV
++ _symbolic ___________p 5Nodes19EditorAuthoredStateP AA4NodeP
++ _symbolic ___________t 10Foundation3URLV 5Nodes8ClipInfoV
++ _symbolic ___________t 10Foundation3URLV 5Nodes9ClipProbeC5Entry33_984638285A5DF4E516E57F4C6D62C5F3LLV
++ _symbolic ___________t 10Foundation3URLV 5Nodes9ClipProbeC9FileStampV
++ _symbolic ___________t 10Foundation4UUIDV 5Nodes14ShotClipStatusO
++ _symbolic ___________t 10Foundation4UUIDV 5Nodes19NodeFrameCompositorC14PendingRequest33_B3349145FBAAE7BB3966AFFC67CDC1EDLLV
++ _symbolic ___________t 10Foundation4UUIDV 5Nodes23VideoPlaybackControllerC
++ _symbolic ___________t 5Nodes15SequencerClipIDV AA0C10AudioLevelV
++ _symbolic ___________t 5Nodes15SequencerClipIDV AA18ChainTimelineEntry33_F0A43E9C86ED5FAA934F237AA4E93C66LLV
++ _symbolic ___________t 5Nodes15SequencerClipIDV So11CMTimeRangea
++ _symbolic ______p 5Nodes16VideoClipSetNodeP
++ _symbolic ______p 5Nodes18PlayheadOwningNodeP
++ _symbolic ______p 5Nodes23ComputeHostConfigurableP
++ _symbolic ______p 5Nodes25FluxInferenceConfigurableP
++ _symbolic ______p 5Nodes26AuthenticationConfigurableP
++ _symbolic ______p So29AVVideoCompositionInstructionP
++ _symbolic ______p4node_SS11primaryPort_____0B0Say_____G5sidest 5Nodes13ProcessorNodeP AA8ClipPlanO AA04SideE0V
++ _symbolic ______p4node_SS4portt 5Nodes13ProcessorNodeP
++ _symbolic ______pSg 5Nodes18PlayheadOwningNodeP
++ _symbolic ______p_SS11primaryPort_____0A0SDySSACG5sides_____Sg8progresst 5Nodes13ProcessorNodeP AA12CompiledClipV4ExprO AA14ProgressWindowV
++ _symbolic ______p_SS11primaryPort_____0A0SDySSACG5sides_____Sg8progresst 5Nodes13ProcessorNodeP AA9FrameExprO AA14ProgressWindowV
++ _symbolic _____m 5Nodes10ScreenplayV
++ _symbolic _____m 5Nodes10StoryboardV
++ _symbolic _____m 5Nodes14ScreenplayNodeV
++ _symbolic _____m 5Nodes14StoryboardNodeV
++ _symbolic _____m 5Nodes18CharacterBibleNodeV
++ _symbolic _____m 5Nodes4CastV
++ _symbolic _____yS2iG s18_DictionaryStorageC
++ _symbolic _____ySDy__________GG 15Synchronization5MutexVAARi_zrlE 10Foundation4UUIDV 5Nodes19NodeFrameCompositorC14PendingRequest33_B3349145FBAAE7BB3966AFFC67CDC1EDLLV
++ _symbolic _____ySS3key______5valuetG s23_ContiguousArrayStorageC 5Nodes9FrameExprO
++ _symbolic _____ySS4port_Say_____G6piecestG s23_ContiguousArrayStorageC 5Nodes12CompiledClipV5PieceV
++ _symbolic _____ySS_____G s18_DictionaryStorageC 5Nodes12CompiledClipV4ExprO
++ _symbolic _____ySS_____G s18_DictionaryStorageC 5Nodes14ClipAudioLevelV
++ _symbolic _____ySS_____G s18_DictionaryStorageC 5Nodes14StoryboardNodeV14ShotClipRecordV
++ _symbolic _____ySS_____G s18_DictionaryStorageC 5Nodes7GenimioV14ResponseSchemaO
++ _symbolic _____ySS_____G s18_DictionaryStorageC 5Nodes8ShotClipV
++ _symbolic _____ySS_____G s18_DictionaryStorageC 5Nodes9FrameExprO
++ _symbolic _____ySS______tG s23_ContiguousArrayStorageC 5Nodes14ClipAudioLevelV
++ _symbolic _____ySS______tG s23_ContiguousArrayStorageC 5Nodes7GenimioV14ResponseSchemaO
++ _symbolic _____ySS______tG s23_ContiguousArrayStorageC 5Nodes8SideClipO
++ _symbolic _____ySay_____GG s23_ContiguousArrayStorageC 5Nodes12CompiledClipV5PieceV
++ _symbolic _____ySay_____GG s23_ContiguousArrayStorageC 5Nodes12TrackSegmentV
++ _symbolic _____ySfG s23_ContiguousArrayStorageC
++ _symbolic _____ySiG s11_SetStorageC
++ _symbolic _____ySiG s23_ContiguousArrayStorageC
++ _symbolic _____ySi_____G s18_DictionaryStorageC 5Nodes15ScreenplaySceneV
++ _symbolic _____ySi_____G s18_DictionaryStorageC s5Int32V
++ _symbolic _____ySi______tG s23_ContiguousArrayStorageC 5Nodes15ScreenplaySceneV
++ _symbolic _____ySo12AVAssetTrackCSfG 12AVFoundation15AVAsyncPropertyC
++ _symbolic _____ySo12AVAssetTrackC_____G 12AVFoundation15AVAsyncPropertyC So11CMTimeRangea
++ _symbolic _____ySo12AVPlayerItemC4item_So0aB11VideoOutputC6outputtG s23_ContiguousArrayStorageC
++ _symbolic _____y_____5range_Say_____G5exprstG s23_ContiguousArrayStorageC So11CMTimeRangea 5Nodes12CompiledClipV4ExprO
++ _symbolic _____y_____G s11_SetStorageC 10Foundation3URLV
++ _symbolic _____y_____G s11_SetStorageC 5Nodes15SequencerClipIDV
++ _symbolic _____y_____G s11_SetStorageC s5Int32V
++ _symbolic _____y_____G s15CollectionOfOneV 5Nodes15SequencerClipIDV
++ _symbolic _____y_____G s15CollectionOfOneV 5Nodes18ChainTimelineEntry33_F0A43E9C86ED5FAA934F237AA4E93C66LLV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5Nodes10AgentModelO16Opus55CodingKeys33_2A18D990AE0DDC3A917F64C3C4B0009CLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5Nodes10ScreenplayV10CodingKeys33_EFAD93E84696F78A9B696A2C3317B611LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5Nodes10StoryboardV10CodingKeys33_E8E5F487487D4E2F3736B9B12DEA1F28LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5Nodes11SceneOutfitV10CodingKeys33_8382DCAB72A089FEC9F1260046E4382BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5Nodes12DialogueLineV10CodingKeys33_EFAD93E84696F78A9B696A2C3317B611LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5Nodes12GenimioModelO24Geminio38FlashCodingKeys33_3E3E725C83D4F656C5E697538EE9FF00LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5Nodes13JSONRequesterV13serverMessage2inSSSg10Foundation4DataV_tFZ9ErrorBodyL_V10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5Nodes13JSONRequesterV13serverMessage2inSSSg10Foundation4DataV_tFZ9ErrorBodyL_V6NestedV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5Nodes14ClipAudioLevelV10CodingKeys33_C4CC3AC3C101E62874D1B67C65306DA4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5Nodes14ScreenplayNodeV10CodingKeys33_8348716F39D46FA5CB19B808046495F9LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5Nodes14StoryboardNodeV10CodingKeys33_879F6232A9FBC6FB9E97306DEA9BF7F2LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5Nodes14StoryboardNodeV14ShotClipRecordV10CodingKeys33_605A606279D2981C423340E3BC3D5ED6LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5Nodes14StoryboardShotV10CodingKeys33_E8E5F487487D4E2F3736B9B12DEA1F28LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5Nodes15ScreenplaySceneV10CodingKeys33_EFAD93E84696F78A9B696A2C3317B611LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5Nodes16AntropogenoModelO16Opus55CodingKeys33_73EDBEBB2BE3AE6D00892F4741686823LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5Nodes16CharacterProfileV10CodingKeys33_8382DCAB72A089FEC9F1260046E4382BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5Nodes18CharacterBibleNodeV10CodingKeys33_7F75B7F0121D57BD9094417C0C5BC0DFLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5Nodes19StoryboardBreakdownV10CodingKeys33_727B6126E75981F946418A0A068C124DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5Nodes19StoryboardBreakdownV4ShotV10CodingKeys33_727B6126E75981F946418A0A068C124DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5Nodes24LegacySceneClipMigrationO6RecordV10CodingKeys33_F31569DEEB3155700B7B2E34448AAB8CLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5Nodes4CastV10CodingKeys33_8382DCAB72A089FEC9F1260046E4382BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5Nodes7LibraryV8CategoryO15MovieCodingKeys33_0A7B6CE5E0934147F7D9B7E6B238EC59LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5Nodes7LibraryV8CategoryO9MovieNodeO10CodingKeys33_579E2A62409723F21E022EFCC442FD49LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5Nodes7LibraryV8CategoryO9MovieNodeO20ScreenplayCodingKeys33_579E2A62409723F21E022EFCC442FD49LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5Nodes7LibraryV8CategoryO9MovieNodeO20StoryboardCodingKeys33_579E2A62409723F21E022EFCC442FD49LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5Nodes7LibraryV8CategoryO9MovieNodeO24CharacterBibleCodingKeys33_579E2A62409723F21E022EFCC442FD49LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5Nodes10AgentModelO16Opus55CodingKeys33_2A18D990AE0DDC3A917F64C3C4B0009CLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5Nodes10ScreenplayV10CodingKeys33_EFAD93E84696F78A9B696A2C3317B611LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5Nodes10StoryboardV10CodingKeys33_E8E5F487487D4E2F3736B9B12DEA1F28LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5Nodes11SceneOutfitV10CodingKeys33_8382DCAB72A089FEC9F1260046E4382BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5Nodes12DialogueLineV10CodingKeys33_EFAD93E84696F78A9B696A2C3317B611LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5Nodes12GenimioModelO24Geminio38FlashCodingKeys33_3E3E725C83D4F656C5E697538EE9FF00LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5Nodes14ClipAudioLevelV10CodingKeys33_C4CC3AC3C101E62874D1B67C65306DA4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5Nodes14ScreenplayNodeV10CodingKeys33_8348716F39D46FA5CB19B808046495F9LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5Nodes14StoryboardNodeV10CodingKeys33_879F6232A9FBC6FB9E97306DEA9BF7F2LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5Nodes14StoryboardNodeV14ShotClipRecordV10CodingKeys33_605A606279D2981C423340E3BC3D5ED6LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5Nodes14StoryboardShotV10CodingKeys33_E8E5F487487D4E2F3736B9B12DEA1F28LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5Nodes15ScreenplaySceneV10CodingKeys33_EFAD93E84696F78A9B696A2C3317B611LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5Nodes16AntropogenoModelO16Opus55CodingKeys33_73EDBEBB2BE3AE6D00892F4741686823LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5Nodes16CharacterProfileV10CodingKeys33_8382DCAB72A089FEC9F1260046E4382BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5Nodes18CharacterBibleNodeV10CodingKeys33_7F75B7F0121D57BD9094417C0C5BC0DFLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5Nodes19StoryboardBreakdownV10CodingKeys33_727B6126E75981F946418A0A068C124DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5Nodes19StoryboardBreakdownV4ShotV10CodingKeys33_727B6126E75981F946418A0A068C124DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5Nodes4CastV10CodingKeys33_8382DCAB72A089FEC9F1260046E4382BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5Nodes7LibraryV8CategoryO15MovieCodingKeys33_0A7B6CE5E0934147F7D9B7E6B238EC59LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5Nodes7LibraryV8CategoryO9MovieNodeO10CodingKeys33_579E2A62409723F21E022EFCC442FD49LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5Nodes7LibraryV8CategoryO9MovieNodeO20ScreenplayCodingKeys33_579E2A62409723F21E022EFCC442FD49LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5Nodes7LibraryV8CategoryO9MovieNodeO20StoryboardCodingKeys33_579E2A62409723F21E022EFCC442FD49LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5Nodes7LibraryV8CategoryO9MovieNodeO24CharacterBibleCodingKeys33_579E2A62409723F21E022EFCC442FD49LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation11JSONEncoderC16OutputFormattingV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 5Nodes12CompiledClipV4ExprO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 5Nodes12CompiledClipV5PieceV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 5Nodes12TrackSegmentV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 5Nodes14AudioLaneMixerO11GainSegmentV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 5Nodes14AudioPlacementV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 5Nodes14ScreenplayNodeV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 5Nodes14SequenceMemberV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 5Nodes14StoryboardNodeV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 5Nodes14StoryboardShotV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 5Nodes15ScreenplaySceneV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 5Nodes15SequencerClipIDV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 5Nodes16ChainInputBranch33_F0A43E9C86ED5FAA934F237AA4E93C66LLV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 5Nodes16VideoTrackLayoutV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 5Nodes17ChainBranchMember33_F0A43E9C86ED5FAA934F237AA4E93C66LLV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 5Nodes18ChainTimelineEntry33_F0A43E9C86ED5FAA934F237AA4E93C66LLV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 5Nodes18VideoClipSetMemberV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 5Nodes19NodeFrameCompositorC14PendingRequest33_B3349145FBAAE7BB3966AFFC67CDC1EDLLV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 5Nodes19TimelineInstructionV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 5Nodes24LegacySceneClipMigrationO6RecordV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 5Nodes8ClipPlanO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 5Nodes8SidePlanV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 5Nodes9AudioFadeV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 5Nodes9AudioLaneV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC So11CMTimeRangea
++ _symbolic _____y_____G s23_ContiguousArrayStorageC So6CMTimea
++ _symbolic _____y_____Say_____GG s18_DictionaryStorageC 10Foundation4UUIDV 5Nodes4EdgeV
++ _symbolic _____y_____ScCyyt_____GG s18_DictionaryStorageC 10Foundation4UUIDV s5NeverO
++ _symbolic _____y_____Sg6clipID______0A0Sf6volumetG s23_ContiguousArrayStorageC 5Nodes15SequencerClipIDV AC08CompiledF0V
++ _symbolic _____y______Say_____GtG s23_ContiguousArrayStorageC 10Foundation4UUIDV 5Nodes4EdgeV
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation3URLV 5Nodes8ClipInfoV
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation3URLV 5Nodes9ClipProbeC5Entry33_984638285A5DF4E516E57F4C6D62C5F3LLV
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation3URLV 5Nodes9ClipProbeC9FileStampV
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV 5Nodes14ShotClipStatusO
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV 5Nodes19NodeFrameCompositorC14PendingRequest33_B3349145FBAAE7BB3966AFFC67CDC1EDLLV
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV 5Nodes23VideoPlaybackControllerC
++ _symbolic _____y__________G s18_DictionaryStorageC 5Nodes15SequencerClipIDV AC0E10AudioLevelV
++ _symbolic _____y__________G s18_DictionaryStorageC 5Nodes15SequencerClipIDV AC18ChainTimelineEntry33_F0A43E9C86ED5FAA934F237AA4E93C66LLV
++ _symbolic _____y__________G s18_DictionaryStorageC 5Nodes15SequencerClipIDV So11CMTimeRangea
++ _symbolic _____y__________G s18_DictionaryStorageC s5Int32V 5Nodes15SendableCIImageV
++ _symbolic _____y___________Sgt_G ScG8IteratorV 10Foundation3URLV 5Nodes8ClipInfoV
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 5Nodes15SequencerClipIDV AC0F10AudioLevelV
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 5Nodes15SequencerClipIDV AC18ChainTimelineEntry33_F0A43E9C86ED5FAA934F237AA4E93C66LLV
++ _symbolic _____y______p4node_SS4porttG s15CollectionOfOneV 5Nodes13ProcessorNodeP
++ _symbolic _____y______p4node_SS4porttG s23_ContiguousArrayStorageC 5Nodes13ProcessorNodeP
++ _symbolic y______SdtYbScMYccSg 10Foundation4UUIDV
++ _symbolic ytSg
++ _symbolic ytSgIeAgHr_
++ _type_layout_string 5Nodes10ScreenplayV
++ _type_layout_string 5Nodes10StoryboardV
++ _type_layout_string 5Nodes12CompiledClipV4ExprO
++ _type_layout_string 5Nodes12CompiledClipV5PieceV
++ _type_layout_string 5Nodes13FrameResolverV
++ _type_layout_string 5Nodes13JSONRequesterV13serverMessage2inSSSg10Foundation4DataV_tFZ9ErrorBodyL_V
++ _type_layout_string 5Nodes13JSONRequesterV13serverMessage2inSSSg10Foundation4DataV_tFZ9ErrorBodyL_V6NestedV
++ _type_layout_string 5Nodes14AudioLaneMixerO11GainSegmentV
++ _type_layout_string 5Nodes14ClipAudioLevelV
++ _type_layout_string 5Nodes14StoryboardNodeV14ShotClipRecordV
++ _type_layout_string 5Nodes16VideoTrackLayoutV
++ _type_layout_string 5Nodes18VideoSequencerNodeV10LossyLevel33_5BE1E7E4FC73748F2F80D1999F0F9DBDLLV
++ _type_layout_string 5Nodes19NodeFrameCompositorC14PendingRequest33_B3349145FBAAE7BB3966AFFC67CDC1EDLLV
++ _type_layout_string 5Nodes19StoryboardBreakdownV
++ _type_layout_string 5Nodes19StoryboardBreakdownV4ShotV
++ _type_layout_string 5Nodes19TimelineInstructionV
++ _type_layout_string 5Nodes20MaterializedTimelineV
++ _type_layout_string 5Nodes22VideoPlaybackSignatureV
++ _type_layout_string 5Nodes4CastV
++ _type_layout_string 5Nodes8ClipPlanO
++ _type_layout_string 5Nodes8SidePlanV
++ _type_layout_string 5Nodes8SidePlanV6SourceO
++ _type_layout_string 5Nodes9AudioFadeV
++ _type_layout_string 5Nodes9AudioLaneV
++ _type_layout_string 5Nodes9FrameExprO
++ _type_layout_string So11CMTimeRangea
++ _type_layout_string So18NSFileAttributeKeya
+- _AVVideoCodecKey
+- _AVVideoCodecTypeH264
+- _AVVideoHeightKey
+- _AVVideoWidthKey
+- _CMSampleBufferGetDuration
+- _CMSampleBufferGetImageBuffer
+- _CMSampleBufferGetPresentationTimeStamp
+- _CVPixelBufferPoolCreatePixelBuffer
+- _OBJC_CLASS_$_AVAssetWriter
+- _OBJC_CLASS_$_AVAssetWriterInput
+- _OBJC_CLASS_$_AVAssetWriterInputPixelBufferAdaptor
+- __DATA__TtC5Nodes18VideoFilterSession
+- __DATA__TtC5Nodes23VideoSessionCoordinator
+- __DATA__TtC5NodesP33_06B5AE94B12BEA0BC2F54EF6543B054115VideoSidePuller
+- __DATA__TtC5NodesP33_06B5AE94B12BEA0BC2F54EF6543B054121SequencedTargetPuller
+- __DATA__TtCV5Nodes18VideoFrameSequence8Iterator
+- __DATA__TtCV5Nodes21FilteredFrameSequence8Iterator
+- __DATA__TtCV5Nodes25ConcatenatedFrameSequence8Iterator
+- __IVARS__TtC5Nodes18VideoFilterSession
+- __IVARS__TtC5Nodes23VideoSessionCoordinator
+- __IVARS__TtC5NodesP33_06B5AE94B12BEA0BC2F54EF6543B054115VideoSidePuller
+- __IVARS__TtC5NodesP33_06B5AE94B12BEA0BC2F54EF6543B054121SequencedTargetPuller
+- __IVARS__TtCV5Nodes18VideoFrameSequence8Iterator
+- __IVARS__TtCV5Nodes21FilteredFrameSequence8Iterator
+- __IVARS__TtCV5Nodes25ConcatenatedFrameSequence8Iterator
+- __METACLASS_DATA__TtC5Nodes18VideoFilterSession
+- __METACLASS_DATA__TtC5Nodes23VideoSessionCoordinator
+- __METACLASS_DATA__TtC5NodesP33_06B5AE94B12BEA0BC2F54EF6543B054115VideoSidePuller
+- __METACLASS_DATA__TtC5NodesP33_06B5AE94B12BEA0BC2F54EF6543B054121SequencedTargetPuller
+- __METACLASS_DATA__TtCV5Nodes18VideoFrameSequence8Iterator
+- __METACLASS_DATA__TtCV5Nodes21FilteredFrameSequence8Iterator
+- __METACLASS_DATA__TtCV5Nodes25ConcatenatedFrameSequence8Iterator
+- ___swift_allocate_boxed_opaque_existential_0Tm
+- ___swift_assign_boxed_opaque_existential_1
+- ___swift_closure_destructor.36Tm
+- ___swift_closure_destructor.47Tm
+- _associated conformance 5Nodes12GenimioModelO24Geminio35FlashCodingKeys33_3E3E725C83D4F656C5E697538EE9FF00LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 5Nodes12GenimioModelO24Geminio35FlashCodingKeys33_3E3E725C83D4F656C5E697538EE9FF00LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 5Nodes16AntropogenoModelO15Opus5CodingKeys33_73EDBEBB2BE3AE6D00892F4741686823LLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 5Nodes16AntropogenoModelO15Opus5CodingKeys33_73EDBEBB2BE3AE6D00892F4741686823LLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 5Nodes18VideoFrameSequenceV8IteratorCScIAA7FailureScI_s5Error
+- _associated conformance 5Nodes18VideoFrameSequenceVSciAA13AsyncIteratorSci_ScI
+- _associated conformance 5Nodes21FilteredFrameSequenceV8IteratorCScIAA7FailureScI_s5Error
+- _associated conformance 5Nodes21FilteredFrameSequenceVSciAA13AsyncIteratorSci_ScI
+- _associated conformance 5Nodes23ConcatenatedVideoSourceV10CodingKeys33_BE3427BE4ED7D7131E2B15AA8C43CBCCLLOSHAASQ
+- _associated conformance 5Nodes23ConcatenatedVideoSourceV10CodingKeys33_BE3427BE4ED7D7131E2B15AA8C43CBCCLLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 5Nodes23ConcatenatedVideoSourceV10CodingKeys33_BE3427BE4ED7D7131E2B15AA8C43CBCCLLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 5Nodes23ConcatenatedVideoSourceVSHAASQ
+- _associated conformance 5Nodes23ConcatenatedVideoSourceVs12IdentifiableAA2IDsADP_SH
+- _associated conformance 5Nodes25ConcatenatedFrameSequenceV8IteratorCScIAA7FailureScI_s5Error
+- _associated conformance 5Nodes25ConcatenatedFrameSequenceVSciAA13AsyncIteratorSci_ScI
+- _associated conformance So16AVVideoCodecTypeaSHSCSQ
+- _associated conformance So16AVVideoCodecTypeas20_SwiftNewtypeWrapperSCSY
+- _associated conformance So16AVVideoCodecTypeas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
+- _flat unique ScI_px7ElementScIRts_q_7FailureScIRtsXP
+- _flat unique Sci_px7ElementSciRts_q_7FailureSciRtsXP
+- _get_enum_tag_for_layout_string 5Nodes14VideoSideInputV4KindO
+- _kCVPixelBufferHeightKey
+- _kCVPixelBufferWidthKey
+- _objc_msgSend$addInput:
+- _objc_msgSend$appendPixelBuffer:withPresentationTime:
+- _objc_msgSend$canAddInput:
+- _objc_msgSend$clearCaches
+- _objc_msgSend$finishWritingWithCompletionHandler:
+- _objc_msgSend$initWithAssetWriterInput:sourcePixelBufferAttributes:
+- _objc_msgSend$initWithMediaType:outputSettings:
+- _objc_msgSend$initWithURL:fileType:error:
+- _objc_msgSend$isReadyForMoreMediaData
+- _objc_msgSend$markAsFinished
+- _objc_msgSend$pixelBufferPool
+- _objc_msgSend$setExpectsMediaDataInRealTime:
+- _objc_msgSend$sharedSession
+- _objc_msgSend$startSessionAtSourceTime:
+- _objc_msgSend$startWriting
+- _swift_willThrowTypedImpl
+- _symbolic $s5Nodes21StreamingConsumerNodeP
+- _symbolic $s5Nodes21StreamingProducerNodeP
+- _symbolic $sScI
+- _symbolic $sSci
+- _symbolic 7ElementScIQyd__
+- _symbolic 7ElementSciQyd__
+- _symbolic 7FailureScIQyd__
+- _symbolic 7FailureSciQyd__
+- _symbolic SDy_____Say_____GG 10Foundation4UUIDV 5Nodes14VideoSideInputV
+- _symbolic SDy_____So7CIImageCG 10Foundation4UUIDV
+- _symbolic SDy__________G 10Foundation4UUIDV So10CGImageRefa
+- _symbolic SDy__________GSg 10Foundation4UUIDV 5Nodes8PortDataV
+- _symbolic SS3key______5valuetSg 5Nodes8PortDataV
+- _symbolic Say_____G 5Nodes18VideoFilterSessionC
+- _symbolic Say_____G 5Nodes23ConcatenatedVideoSourceV7SegmentV
+- _symbolic Say________________pXjyYbcG r0_lSci_px7ElementRts_q_7FailureRtsXPXGMq 5Nodes11StreamFrameV s5ErrorP
+- _symbolic Scsy___________pG 5Nodes11StreamFrameV s5ErrorP
+- _symbolic So13AVAssetReaderCSg
+- _symbolic So24AVAssetReaderTrackOutputCSg
+- _symbolic So7CIImageCSg
+- _symbolic _____ 5Nodes11StreamFrameV
+- _symbolic _____ 5Nodes12GenimioModelO24Geminio35FlashCodingKeys33_3E3E725C83D4F656C5E697538EE9FF00LLO
+- _symbolic _____ 5Nodes13GraphExecutorC14StreamingChainV
+- _symbolic _____ 5Nodes13GraphExecutorC23identifyStreamingChainsSayAC0E5ChainVGyF5GroupL_V
+- _symbolic _____ 5Nodes14VideoSideInputV
+- _symbolic _____ 5Nodes14VideoSideInputV4KindO
+- _symbolic _____ 5Nodes15VideoSidePuller33_06B5AE94B12BEA0BC2F54EF6543B0541LLC
+- _symbolic _____ 5Nodes16AntropogenoModelO15Opus5CodingKeys33_73EDBEBB2BE3AE6D00892F4741686823LLO
+- _symbolic _____ 5Nodes18VideoFilterSessionC
+- _symbolic _____ 5Nodes18VideoFilterSessionC11SideRuntime33_06B5AE94B12BEA0BC2F54EF6543B0541LLV
+- _symbolic _____ 5Nodes18VideoFrameSequenceV
+- _symbolic _____ 5Nodes18VideoFrameSequenceV8IteratorC
+- _symbolic _____ 5Nodes21FilteredFrameSequenceV
+- _symbolic _____ 5Nodes21FilteredFrameSequenceV8IteratorC
+- _symbolic _____ 5Nodes21SequencedTargetPuller33_06B5AE94B12BEA0BC2F54EF6543B0541LLC
+- _symbolic _____ 5Nodes23ConcatenatedVideoSourceV
+- _symbolic _____ 5Nodes23ConcatenatedVideoSourceV10CodingKeys33_BE3427BE4ED7D7131E2B15AA8C43CBCCLLO
+- _symbolic _____ 5Nodes23ConcatenatedVideoSourceV7SegmentV
+- _symbolic _____ 5Nodes23VideoSessionCoordinatorC
+- _symbolic _____ 5Nodes25ConcatenatedFrameSequenceV
+- _symbolic _____ 5Nodes25ConcatenatedFrameSequenceV8IteratorC
+- _symbolic _____ So16AVVideoCodecTypea
+- _symbolic _____2id_________________pXj8iteratorSDyAA_____GSg4lastt 10Foundation4UUIDV r0_lScI_px7ElementRts_q_7FailureRtsXPXGMq 5Nodes11StreamFrameV s5ErrorP AH8PortDataV
+- _symbolic _____3key_Say_____G5valuet 10Foundation4UUIDV 5Nodes14VideoSideInputV
+- _symbolic _____3key_Say_____G5valuet 10Foundation4UUIDV 5Nodes18VideoFilterSessionC11SideRuntime33_06B5AE94B12BEA0BC2F54EF6543B0541LLV
+- _symbolic _____3key_So7CIImageC5valuet 10Foundation4UUIDV
+- _symbolic _____3key_So7CIImageC5valuetSg 10Foundation4UUIDV
+- _symbolic _____3key______5valuet 10Foundation4UUIDV 5Nodes15SendableCIImageV
+- _symbolic _____3key______5valuet 10Foundation4UUIDV So10CGImageRefa
+- _symbolic _____6nodeID_SS8portName______p6sourceSay______pG7filterst 10Foundation4UUIDV 5Nodes21StreamingProducerNodeP AD09ProcessorF0P
+- _symbolic _____6nodeID_SS8portName______p6sourceSay______pG7filterstSg 10Foundation4UUIDV 5Nodes21StreamingProducerNodeP AD09ProcessorF0P
+- _symbolic _____Sg 5Nodes14VideoSideInputV
+- _symbolic _____Sg 5Nodes15VideoSidePuller33_06B5AE94B12BEA0BC2F54EF6543B0541LLC
+- _symbolic _____Sg 5Nodes15VideoViewerNodeV
+- _symbolic _____Sg 5Nodes18VideoSequencerClipV
+- _symbolic _____Sg 5Nodes23ConcatenatedVideoSourceV
+- _symbolic _____SgXw 5Nodes18VideoFilterSessionC
+- _symbolic _____SgXwz_Xx 5Nodes18VideoFilterSessionC
+- _symbolic _____Sg_ABt 5Nodes23ConcatenatedVideoSourceV
+- _symbolic ______SDySSSo7CIImageCGt 10Foundation4UUIDV
+- _symbolic ______Say_____Gt 10Foundation4UUIDV 5Nodes14VideoSideInputV
+- _symbolic ______Say_____Gt 10Foundation4UUIDV 5Nodes18VideoFilterSessionC11SideRuntime33_06B5AE94B12BEA0BC2F54EF6543B0541LLV
+- _symbolic ______Sdt 10Foundation4UUIDV
+- _symbolic ______ShyAAGt 10Foundation4UUIDV
+- _symbolic ______So7CIImageCt 10Foundation4UUIDV
+- _symbolic ______So7CIImageCtSg 10Foundation4UUIDV
+- _symbolic ________________pXj r0_lScI_px7ElementRts_q_7FailureRtsXPXGMq 5Nodes11StreamFrameV s5ErrorP
+- _symbolic ________________pXjSg r0_lScI_px7ElementRts_q_7FailureRtsXPXGMq 5Nodes11StreamFrameV s5ErrorP
+- _symbolic ________________pXjyYbc r0_lSci_px7ElementRts_q_7FailureRtsXPXGMq 5Nodes11StreamFrameV s5ErrorP
+- _symbolic ___________t 10Foundation4UUIDV So10CGImageRefa
+- _symbolic ______p 5Nodes21StreamingConsumerNodeP
+- _symbolic ______p 5Nodes21StreamingProducerNodeP
+- _symbolic ______p6source_Say______pG7filtersSDy_____Say_____GG10sideInputst 5Nodes21StreamingProducerNodeP AA09ProcessorD0P 10Foundation4UUIDV AA14VideoSideInputV
+- _symbolic ______p6source_Say______pG7filtersSDy_____Say_____GG10sideInputstSg 5Nodes21StreamingProducerNodeP AA09ProcessorD0P 10Foundation4UUIDV AA14VideoSideInputV
+- _symbolic ______p6source_Say______pG7filterst 5Nodes21StreamingProducerNodeP AA09ProcessorD0P
+- _symbolic ______pSg 5Nodes12ConsumerNodeP
+- _symbolic ______pSg 5Nodes13ProcessorNodeP
+- _symbolic ______pSg 5Nodes15TimedTransitionP
+- _symbolic ______pSg 5Nodes21StreamingConsumerNodeP
+- _symbolic ______pSg 5Nodes21StreamingProducerNodeP
+- _symbolic _____y_____2id_________________pXj8iteratorSDyAB_____GSg4lasttG s23_ContiguousArrayStorageC 10Foundation4UUIDV r0_lScI_px7ElementRts_q_7FailureRtsXPXGMq 5Nodes11StreamFrameV s5ErrorP AJ8PortDataV
+- _symbolic _____y_____G s15CollectionOfOneV 10Foundation4UUIDV
+- _symbolic _____y_____G s22KeyedDecodingContainerV 5Nodes12GenimioModelO24Geminio35FlashCodingKeys33_3E3E725C83D4F656C5E697538EE9FF00LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 5Nodes16AntropogenoModelO15Opus5CodingKeys33_73EDBEBB2BE3AE6D00892F4741686823LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 5Nodes23ConcatenatedVideoSourceV10CodingKeys33_BE3427BE4ED7D7131E2B15AA8C43CBCCLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 5Nodes12GenimioModelO24Geminio35FlashCodingKeys33_3E3E725C83D4F656C5E697538EE9FF00LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 5Nodes16AntropogenoModelO15Opus5CodingKeys33_73EDBEBB2BE3AE6D00892F4741686823LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 5Nodes23ConcatenatedVideoSourceV10CodingKeys33_BE3427BE4ED7D7131E2B15AA8C43CBCCLLO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 5Nodes13GraphExecutorC14StreamingChainV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 5Nodes13GraphExecutorC23identifyStreamingChainsSayAE0H5ChainVGyF5GroupL_V
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 5Nodes14VideoSideInputV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 5Nodes18VideoFilterSessionC11SideRuntime33_06B5AE94B12BEA0BC2F54EF6543B0541LLV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 5Nodes23ConcatenatedVideoSourceV7SegmentV
+- _symbolic _____y_____SDySSSo7CIImageCGG s18_DictionaryStorageC 10Foundation4UUIDV
+- _symbolic _____y_____Say_____GG s18_DictionaryStorageC 10Foundation4UUIDV 5Nodes14VideoSideInputV
+- _symbolic _____y_____Say_____GG s18_DictionaryStorageC 10Foundation4UUIDV 5Nodes18VideoFilterSessionC11SideRuntime33_06B5AE94B12BEA0BC2F54EF6543B0541LLV
+- _symbolic _____y_____SdG s18_DictionaryStorageC 10Foundation3URLV
+- _symbolic _____y_____SdG s18_DictionaryStorageC 10Foundation4UUIDV
+- _symbolic _____y_____ShyABGG s18_DictionaryStorageC 10Foundation4UUIDV
+- _symbolic _____y_____So7CIImageCG s18_DictionaryStorageC 10Foundation4UUIDV
+- _symbolic _____y______SDyAB_____GtG s23_ContiguousArrayStorageC 10Foundation4UUIDV 5Nodes8PortDataV
+- _symbolic _____y______SdtG s23_ContiguousArrayStorageC 10Foundation4UUIDV
+- _symbolic _____y__________G s18_DictionaryStorageC 10Foundation3URLV So6CGSizeV
+- _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV 5Nodes15SendableCIImageV
+- _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV So10CGImageRefa
+- _symbolic _____y________________pXjyYbcG s23_ContiguousArrayStorageC r0_lSci_px7ElementRts_q_7FailureRtsXPXGMq 5Nodes11StreamFrameV s5ErrorP
+- _symbolic _____y___________p_G Scs12ContinuationV 5Nodes11StreamFrameV s5ErrorP
+- _symbolic _____y___________p__G Scs12ContinuationV15BufferingPolicyO 5Nodes11StreamFrameV s5ErrorP
+- _symbolic q_
+- _symbolic y___________SgtYaYbYCcSg 10Foundation4UUIDV 5Nodes11StreamFrameV
+- _type_layout_string 5Nodes11StreamFrameV
+- _type_layout_string 5Nodes13GraphExecutorC14StreamingChainV
+- _type_layout_string 5Nodes13GraphExecutorC23identifyStreamingChainsSayAC0E5ChainVGyF5GroupL_V
+- _type_layout_string 5Nodes14VideoSideInputV
+- _type_layout_string 5Nodes14VideoSideInputV4KindO
+- _type_layout_string 5Nodes18VideoFilterSessionC11SideRuntime33_06B5AE94B12BEA0BC2F54EF6543B0541LLV
+- _type_layout_string 5Nodes21FilteredFrameSequenceV
+- _type_layout_string 5Nodes25ConcatenatedFrameSequenceV
+- _type_layout_string So16AVVideoCodecTypea
+CStrings:
++ "\n\nDIRECTION (overrides the guidance above where the two disagree): "
++ "\n\nRecovery Suggestions:\n1. Review the node's input data for correctness\n2. Check that all required input ports have valid values\n3. Verify the node's configuration and parameters\n4. Inspect the underlying error details above for specific issues\n5. Ensure the node's implementation handles edge cases properly"
++ "\n\nRecovery Suggestions:\n1. Review your graph connections to identify the circular dependency\n2. Remove or redirect edges that create the cycle\n3. Ensure data flows in one direction without loops\n4. Use a graph visualization tool to identify the problematic nodes"
++ "\n\nRecovery Suggestions:\n1. Verify the node exists in the graph\n2. Check that all upstream nodes have been executed successfully\n3. Ensure edges connecting to this node are properly configured\n4. Verify the node produces the expected output ports\n5. Check that the graph structure is complete before execution"
++ "\n\nRecovery Suggestions:\n1. Verify the node was added to the correct collection (sources/computes/sinks)\n2. Check that the node's category matches its protocol conformance\n3. Ensure the node hasn't been modified incorrectly after creation\n4. Review the graph construction logic for potential category mismatches"
++ " Update it, or clear it to use your personal quota."
++ " image(s) are STYLE references — take only their look: medium, color palette, lighting, texture, brushwork, and mood. Ignore what they depict: no subject, object, or scene from a style reference may appear in the result."
++ " styles into one coherent look across the whole image. Do not split the image into regions that each take a different style."
++ " supplied image(s) define what the characters LOOK LIKE. "
++ "5-5-supo-edualc.ciporhtna"
++ "; any past that are dropped.\n- \"Prompt\" (text): Optional direction, sent after the node's own instructions and overriding them where they disagree (e.g. \"transfer only the lighting\").\n- \"Variation\" (number): Optional seed; random if absent.\n\nOutputs:\n- \"Image\" (image): Stylized images grouped by composition — `generations` variants per composition, with or without a Prompt. Ten compositions at one generation give ten results, each using all the styles.\n\nSettings:\n- aspectRatio (`Proxy.ImageAspectRatio`, defaults to `.square`).\n- resolution (`Proxy.ImageResolution`, defaults to `.medium`).\n- generations (`Proxy.ImageGenerations`): generation count per composition.\n\nBackend: Floodgate `Proxy` with provider `.genimio` (model `genimio31FlashImage`, Nano Banana). One request per composition, carrying that composition and then every style as `referenceImages`, with instructions telling the model which image is which. Compositions run one after another. Conforms to `AuthenticationConfigurable`. A legacy ComfyUI `wallpaperWithoutLLM` workflow exists but is unused.\n\nBehavior: Throws `NodeError.invalidInputs` if either image port is empty. Network/API failures propagate.\n\nWorkflow tips: An ImageLoader holding the composition(s) feeding \"Composition Image\" and one ImageLoader holding every style image feeding \"Style Image\" — an input takes a single connection, so several images must arrive as one batch. Optionally an upstream PromptProducer for steering, then route to ImagePreview.\n\nEditable in-place: `name`, `position`, `aspectRatio`, `resolution`, `generations`."
++ "?"
++ "@\"NSArray\"16@0:8"
++ "@\"NSDictionary\"16@0:8"
++ "A category of nodes that turn a story into a short movie: screenplay, characters, and an animated storyboard."
++ "AVVideoCompositing"
++ "AVVideoCompositionInstruction"
++ "B"
++ "BLEND: combine all "
++ "Break this screenplay into shots. There are "
++ "Breaks a screenplay into shots and animates each one into a clip."
++ "CAST: none supplied — take each character only from how the screenplay describes them."
++ "CHARACTERS IN FRAME — render each exactly as described, so the same person is recognizable in every shot of the film:\n\n"
++ "Change Clip Audio"
++ "Change Clip Volume"
++ "Change Key Frame Settings"
++ "Character Sheets"
++ "Could not assemble the video timeline."
++ "Could not read the project token (OSStatus %{public}d)"
++ "Could not render a video frame."
++ "Could not replace the project token (OSStatus %{public}d)"
++ "Could not start exporting the video."
++ "Could not store the project token (OSStatus %{public}d)"
++ "Delete Key Frame"
++ "EEE, dd MMM yyyy HH:mm:ss zzz"
++ "EXT."
++ "Floodgate didn't accept the Floodgate Project Token saved in Settings. "
++ "Floodgate gave no reason."
++ "Generate Key Frame"
++ "Generate ONE single photographic film still — the key frame of a movie shot.\n\nSHOT: "
++ "Generate Storyboard"
++ "Holds the movie's characters, including what each wears in every scene."
++ "Holds the story of a movie as a list of scenes."
++ "INT."
++ "INT./EXT."
++ "Loads a video file and plays it; Execute outputs the frame at its playhead."
++ "Migrated the Floodgate project token out of UserDefaults into the keychain."
++ "Model returned no text."
++ "Node expects a screenplay on its Screenplay input."
++ "Node expects at least one composition image and at least one style image."
++ "Nodes.NodeFrameInstruction"
++ "Nodes/AsyncSemaphore.swift"
++ "Nodes/GraphStore+Movie.swift"
++ "Nodes/VideoPlaybackController+Seeking.swift"
++ "Nodes/VideoPlaybackController.swift"
++ "Nodes/VideoPlaybackRegistry.swift"
++ "Plays several clips one after another as a single video sequence. Wire a Storyboard's Clips output in and every animated shot becomes a clip you can rearrange."
++ "Plays the video wired into it, with its own playhead, and passes it through."
++ "Purpose: Animates a still image into a short video, optionally guided by a text prompt. The model invents where the motion leads. Ideal for product photography motion, animated avatars, and turning concept art into reels.\n\nInputs:\n- \"Image\" (image): The first frame — the one the clip animates out of. Required.\n- \"User Prompt\" (text): Optional motion description (defaults to empty).\n- \"System Prompt\" (text): Optional steering instruction.\n- \"Variation\" (number): Optional seed; randomized if absent, then reused across re-runs.\n\nOutputs:\n- \"Image\" (frames): The generated clip, cached as a local file on `generatedVideoURL`. Every Video Viewer or Video Sequencer wired downstream plays that file on its own transport (play, pause, scrub, its own `playhead`); nothing streams through the port and this node has no transport of its own. The batch (Execute) output is the clip's first frame; to hand image nodes another moment, wire a Video Viewer after this node and set the viewer's `playhead`.\n\nSettings:\n- aspectRatio (`Proxy.VideoAspectRatio`): Stored — execution forces `landscape16x9`.\n- resolution (`Proxy.VideoResolution`): Stored — execution forces `.p720`.\n- duration (`Proxy.VideoDuration`): Clip length; defaults to 4 seconds.\n\nSibling nodes for the other video features — do NOT try to reproduce these here, this node has no ports for them: to also pin where the clip *ends*, use FirstLastFrameToVideoGeneration; to keep a subject recognizable without dictating any frame, use ReferencesToVideoGeneration. The service treats the three as mutually exclusive features.\n\nBackend: Floodgate `Proxy` (provider `.genimio`, model `vedo31Generate001`) via the shared `GeneratedVideoNode` path. Conforms to `AuthenticationConfigurable`.\n\nBehavior: Long-polls the generation job (8s interval, no audio). The clip is cached against a fingerprint of the input image plus the prompt, seed, and duration, so a downstream edit re-runs the graph without paying for a new generation. Throws `NodeError.invalidInputs` if \"Image\" is missing.\n\nWorkflow tips: ImageLoader → ImageToVideo (with optional PromptProducer for motion intent) → Video Viewer. Chain after TextToImage or NanoBanana to animate freshly generated stills.\n\nEditable in-place: `name`, `position`, `aspectRatio`, `resolution`, `duration`."
++ "Purpose: File-system video source. Holds a `URL` (`selectedURL`) and a `playhead` (seconds). It plays the file in its own inline player — play/pause, scrubber, arrow-key frame steps — and is the standard entry point for video into a Core Image filter pipeline.\n\nInputs:\n- None. This is a `ProducerNode` and a `PlayheadOwningNode`.\n\nOutputs:\n- \"Image\" (frames): on Execute, the single decoded frame at `playhead`, as a `CIImage`, so any image filter can be attached directly. Downstream video nodes play the whole file through their own players; nothing streams through the port.\n\nSettings: None (`hasSettings = false`). The configuration is the URL and the playhead.\n\nBackend: Local file IO via AVFoundation — no AI call, no network, no auth.\n\nBehavior: Playback is pulled by AVFoundation in real time, looping, with the file's audio. Execute renders exactly one frame — the one at `playhead`, clamped to the last frame — so scrubbing to a moment and then executing feeds that frame to image-only nodes downstream. A Source with no `selectedURL`, or whose file is missing or has no readable video, makes Execute fail on this node. The playhead is transport state, not an edit: undo and redo never move it.\n\nWorkflow tips: Wire \"Image\" into any Core Image filter, then into a Video Viewer to watch the filtered clip. Setting `playhead` pauses the node at that frame, which is the frame a batch run uses.\n\nEditable in-place: `name`, `position`, `selectedURL` (typically set via a file picker from the inline producer preview), `playhead` (seconds, >= 0; omitted from the document when 0). An `update_node` that carries `playhead` pauses the node's player at that frame, even if it was playing, so the next Execute uses exactly that frame. One `update_node` carrying both `selectedURL` and `playhead` loads the file paused there instead of playing it from the start."
++ "Purpose: Generates a clip from a prompt while keeping the subjects in up to three reference images recognizable. Unlike ImageToVideoGeneration, the references do NOT dictate any particular frame — the prompt describes the scene, the references say what the things in it look like. Ideal for casting a specific character or product into a described scene, and for holding brand assets consistent across a set of clips.\n\nInputs:\n- \"Reference 1\"/\"Reference 2\"/\"Reference 3\" (image): Subject images (a person, a product, a prop). At least one required. The three ports share one budget of three images, so one port carrying a three-image batch is equivalent to three ports carrying one each; anything past the limit is dropped.\n- \"User Prompt\" (text): The scene and motion description. This is what drives the clip.\n- \"System Prompt\" (text): Optional steering instruction.\n- \"Variation\" (number): Optional seed; randomized if absent, then reused across re-runs.\n\nOutputs:\n- \"Image\" (frames): The generated clip, cached as a local file on `generatedVideoURL`. Every Video Viewer or Video Sequencer wired downstream plays that file on its own transport (play, pause, scrub, its own `playhead`); nothing streams through the port and this node has no transport of its own. The batch (Execute) output is the clip's first frame; to hand image nodes another moment, wire a Video Viewer after this node and set the viewer's `playhead`.\n\nSettings:\n- aspectRatio (`Proxy.VideoAspectRatio`): Stored — execution forces `landscape16x9`.\n- resolution (`Proxy.VideoResolution`): Stored — execution forces `.p720`.\n- There is deliberately NO duration setting: the service's reference-to-video feature only produces 8-second clips (`Proxy.referenceToVideoDuration`) and rejects any other length outright, so the length is fixed rather than settable-and-wrong.\n\nBackend: Floodgate `Proxy` (provider `.genimio`, model `vedo31Generate001`) via the shared `GeneratedVideoNode` path. Conforms to `AuthenticationConfigurable`.\n\nBehavior: Long-polls the generation job (8s interval, no audio). The clip is cached against a fingerprint of every reference plus the prompt and seed. Throws `NodeError.invalidInputs` when no reference is wired.\n\nWorkflow tips: ImageLoader (or NanoBanana) per subject → References to Video, with a PromptProducer describing the scene → Video Viewer. This node has no first-frame port by design — to animate outward from a specific still, use ImageToVideoGeneration.\n\nEditable in-place: `name`, `position`, `aspectRatio`, `resolution`."
++ "Purpose: Generates the video *between* two stills — the clip starts on the first frame and has to arrive at the last. Ideal for interpolating a transition between key frames, morphing one product shot into another, closing a loop by ending where it started, and storyboards where the ends are known but the middle is not.\n\nInputs:\n- \"First Frame\" (image): The frame the clip starts on. Required.\n- \"Last Frame\" (image): The frame the clip must land on. Required.\n- \"User Prompt\" (text): Optional description of how to get from one to the other.\n- \"System Prompt\" (text): Optional steering instruction.\n- \"Variation\" (number): Optional seed; randomized if absent, then reused across re-runs.\n\nBoth frames are required. With only one wired, the request is a plain image-to-video generation — use ImageToVideoGeneration instead; this node throws `NodeError.invalidInputs`.\n\nOutputs:\n- \"Image\" (frames): The generated clip, cached as a local file on `generatedVideoURL`. Every Video Viewer or Video Sequencer wired downstream plays that file on its own transport (play, pause, scrub, its own `playhead`); nothing streams through the port and this node has no transport of its own. The batch (Execute) output is the clip's first frame; to hand image nodes another moment, wire a Video Viewer after this node and set the viewer's `playhead`.\n\nSettings:\n- aspectRatio (`Proxy.VideoAspectRatio`): Stored — execution forces `landscape16x9`.\n- resolution (`Proxy.VideoResolution`): Stored — execution forces `.p720`.\n- duration (`Proxy.VideoDuration`): How long the clip takes to travel from the first frame to the last; defaults to 4 seconds.\n\nBackend: Floodgate `Proxy` (provider `.genimio`, model `vedo31Generate001`) via the shared `GeneratedVideoNode` path. Conforms to `AuthenticationConfigurable`.\n\nBehavior: Long-polls the generation job (8s interval, no audio). The clip is cached against a fingerprint of both frames plus the prompt, seed, and duration.\n\nWorkflow tips: two ImageLoaders (or two stills off one generation) → First & Last Frame to Video → Video Viewer. Feeding the same image to both ports yields a clip that returns to its starting pose, which loops cleanly.\n\nEditable in-place: `name`, `position`, `aspectRatio`, `resolution`, `duration`."
++ "Purpose: Restyles each composition image in the visual style of one or more style images; several styles blend into a single look. Useful for artistic restyling, mood or lighting transfer, and creative variations.\n\nInputs:\n- \"Composition Image\" (image): The image(s) to restyle; provides layout/content. Required. Each image of a batch is restyled separately, in its own request.\n- \"Style Image\" (image): The style reference(s). Required. Every image in the batch joins every composition's request, up to "
++ "Purpose: Sequence assembler. Concatenates every video branch wired into its single \"Video\" input into one continuous clip and plays it, publishing the whole sequence on its \"Video\" output.\n\nInputs:\n- \"Video\" (frames): **accepts multiple connections** — this is the only node in the graph whose input port does. Each connected branch contributes one clip; clips play in order, one after another, never overlapped or blended. A Storyboard node's \"Clips\" output may be wired here too: that ONE connection contributes a separate timeline clip per animated shot, in shot order until rearranged. Shots with no clip yet are skipped. A nested sequencer contributes its whole sequence as one clip.\n\nOutputs:\n- \"Video\" (frames): the assembled sequence, usable like any other clip — attach filters or a Video Viewer after it.\n\nSettings: None (`hasSettings = false`). The clip order and the per-clip audio levels are the configuration.\n\nBackend: Local file IO via AVFoundation — no AI call, no network, no auth. Nothing is re-encoded for playback: the clips are placed end to end on one composition timeline.\n\nBehavior: Each connected branch is a full clip — any filters, blends and transitions upstream included — placed after the previous one; a clip whose file cannot be read contributes no time. A generation node's clip and a Storyboard's \"Clips\" play normally: they are stored files. A clip a finished generation adds never starts the sequence playing; it stays playing or paused as the person left it. A branch whose video passes through a Subgraph or an AI or remote-backed processor (one that needs authentication, a compute host or on-device Flux inference), or through a filter one of them feeds, contributes no clip: live video never runs those nodes again. The sequencer has its own playhead and transport, and the sheet's timeline seeks; on Execute its \"Video\" output is the frame at `playhead`. With no input wired at all, Execute fails on this node; a Storyboard's \"Clips\" with no animated shot yet passes through as an empty batch. The playhead is transport state, not an edit: undo and redo never move it. Duplicate connections from the same source are allowed and repeat that clip. Each clip's sound plays at its own level — set under its tile in the sheet — wherever the sequence is heard, including exports; a nested sequencer's levels multiply with the level of the tile it occupies.\n\nWorkflow tips: Wire two or more Video Sources into \"Video\", then double-click the node to open the sequencer sheet and drag the clip tiles to rearrange the sequence. Connection order is the initial order. To play a whole movie, wire Storyboard \"Clips\" -> \"Video\" and drag its shot clips into order, freely interleaved with other clips. Turn a clip down or mute it in the audio box under its tile.\n\nEditable in-place: `name`, `position`, `playhead` (seconds), and `clipOrder` (the playback order, as input edge identifiers — reorder via the sheet). The per-clip arrangement is kept in `timeline` as \"<edge>\" / \"<edge>/<shot>\" strings (a storyboard's shots are \"<edge>/<shot id>\"). Write ONE of the two: `timeline` to arrange individual shots, or `clipOrder` alone to reorder whole branches (a storyboard's shots then regroup at its edge's position). `clipAudio` holds per-clip levels, one per timeline tile, keyed like `timeline`: {\"<key>\": {\"volume\": 0.0–1.0, \"muted\": bool}}. A storyboard shot's key is always \"<edge>/<shot id>\" — a bare \"<edge>\" key does not reach the shots of a Storyboard \"Clips\" edge. A clip with no entry plays at full volume; send the whole map, since `update_node` replaces top-level keys. An `update_node` that carries `playhead` pauses the sequencer at that frame, even if it was playing."
++ "Purpose: Synthesizes a short video clip from a textual description. The video equivalent of TextToImage — useful for marketing motion, animated mockups, and concept reels.\n\nInputs:\n- \"User Prompt\" (text): The scene/motion description. Required.\n- \"System Prompt\" (text): Optional steering instruction.\n- \"Variation\" (number): Optional seed; randomized if absent.\n\nOutputs:\n- \"Image\" (frames): The generated clip, cached as a local file on `generatedVideoURL`. Every Video Viewer or Video Sequencer wired downstream plays that file on its own transport (play, pause, scrub, its own `playhead`); nothing streams through the port and this node has no transport of its own. The batch (Execute) output is the clip's first frame; to hand image nodes another moment, wire a Video Viewer after this node and set the viewer's `playhead`.\n\nSettings:\n- aspectRatio (`Proxy.VideoAspectRatio`): Stored, but currently the call site forces `landscape16x9` at execution time.\n- resolution (`Proxy.VideoResolution`): Stored; execution forces `.p720`.\n- duration (`Proxy.VideoDuration`): Clip length; defaults to 4 seconds when unset.\n\nBackend: Floodgate `Proxy` (provider `.genimio`, model `vedo`). Conforms to `AuthenticationConfigurable`; throws `ProxyError.authenticationFailed` without auth headers. ComfyUI path is intentionally unimplemented (throws `NodeError.invalidOutputs`).\n\nBehavior: Calls `proxy.generateVideos` with `pollInterval = 8s` and `generateAudio = false`. Latency is high (long-poll the Vedo job). Throws `NodeError.invalidInputs` if `User Prompt` is missing and `NodeError.invalidOutputs` if no video is returned.\n\nWorkflow tips: PromptProducer → TextToVideo → Video Viewer. Combine with a Genimio text node upstream to expand a concept into a richer cinematic prompt.\n\nEditable in-place: `name`, `position`, `aspectRatio`, `resolution`, `duration`."
++ "Purpose: The story a short movie is built from. Holds a screenplay — a title, a logline, and an ordered list of scenes, each with a slug line, action, and dialogue — and emits it for the Storyboard node to break into shots. Double-clicking the node opens the screenplay editor, which can also draft the scenes from pasted prose with a single LLM call.\n\nInputs:\n- None. This is a `ProducerNode`.\n\nOutputs:\n- \"Screenplay\" (screenplay): The stored screenplay, as JSON. The `.screenplay` port type carries its value in a text container, so this port also connects to any `.text` input — wire it to a Text Viewer to inspect the JSON, or to an LLM node to rewrite it.\n\nSettings: None (`hasSettings = false`). Configuration is the screenplay itself.\n\nBackend: Local — no AI call, no network, no auth. (The editor's \"Import from prose\" action does call Floodgate, but that runs from the sheet, not from graph execution.)\n\nBehavior: `generate()` returns the stored screenplay's JSON. The graph store gates execution via `isReadyToExecute`, which is `false` when there are no scenes — in that case `GraphStore` raises `GraphStoreError.producerNodeNotReady` before this node runs, so an empty story never spends an LLM call downstream.\n\nWorkflow tips: Screenplay -> Storyboard is the spine of the movie pipeline. Add a Character Bible and wire it to the Storyboard node's \"Characters\" input so shots know who is in them. To draft a story from prose, double-click the node and use \"Import from prose\" rather than typing scenes by hand.\n\nEditable in-place: `name`, `position`, `size`. The screenplay itself is edited in the sheet, or replaced wholesale by setting `screenplayData` — note `update_node` merges only top-level keys, so send the entire screenplay JSON, never a partial patch."
++ "Purpose: Turns a screenplay into a shot-by-shot storyboard in one schema-constrained LLM call, then animates every shot into a clip. Each shot records which scene it covers, its framing and camera move, who is in it, a still prompt for its key frame, a motion prompt for its clip, and a clip length of 4, 6 or 8 seconds. Double-clicking the node opens the storyboard editor, where every field can be reworded, shots reordered or deleted, the breakdown re-run, key frames generated, and each shot animated into its clip.\n\nInputs:\n- \"Screenplay\" (screenplay): The story to cover. Required, and it must have at least one scene. A plain text value is also accepted, so an LLM node can author the screenplay.\n- \"Characters\" (characters): Optional cast. Supplies each character's appearance so the same person is described consistently in every shot's prompt. Without it, shots carry only the names the screenplay mentions.\n- \"Character Sheets\" (image): Optional reference images used when generating key frames — typically a Character Creator node's eight-panel sheet. Wire it through an Image Viewer, because a processor's output images are not stored on the node and the editor reads its references without running the graph. Without them, identity comes from the written descriptions alone.\n- \"System Prompt\" (text): Optional extra direction for the breakdown, appended after the built-in rules — use it for style (\"shoot it like a 70s thriller\"), not for the rules themselves.\n\nOutputs:\n- \"Storyboard\" (storyboard): The shot board, as JSON.\n- \"Text\" (text): The same board as a readable shot list, for a Text Viewer.\n- \"Clips\" (frames): Every animated shot's clip — a SEQUENCE of videos on one port. Wire it straight into a Video Sequencer's \"Video\" input: each shot appears there as its own timeline clip, in shot order until rearranged in the sequencer. A Video Viewer or a filter chain can take it too (it then plays the clips in shot order). Shots without a clip yet are skipped, so a half-animated board plays what it has. The batch value is an empty frame list; downstream video nodes play the clip files through their own players.\n\nSettings: None on the node (`hasSettings = false`). Key-frame aspect ratio and resolution, and whether clips are animated with sound, are set in the editor next to the generate controls, because key frames and clips are generated from the sheet rather than during a graph run.\n\nBackend: Breakdown — Floodgate `Proxy`, provider `.genimio`, model `genimio31ProPreview`, via the internal schema-constrained `ask` overload. Key frames — `genimio31FlashImage`. Clips — `vedo` image-to-video with the shot's approved key frame as `firstFrame` (prompt-only when the shot has no key frame), 16:9, 720p, and `generateAudio` set from the board's Audio setting — on by default, so a clip arrives scored. Image-to-video rather than reference-to-video on purpose: reference images lock the service to 8-second clips, a first frame keeps 4, 6 and 8. Conforms to `AuthenticationConfigurable`; without headers calls fail with `ProxyError.authenticationFailed`.\n\nBehavior: `applied(to:)` fingerprints the screenplay, cast and system prompt into `breakdownKey`. When the fingerprint is unchanged and a board is already stored, it returns that board untouched and makes no call — so running the graph again never discards an edited storyboard. `applied(to:)` does NOT generate key frames or clips; both are generated per shot from the editor and stored on the node, sealed, because generated media is Tier 1 content. Each clip records a cache key over its motion prompt, framing, camera move, length, seed, key frame and the Audio setting, so the editor can mark a clip stale after an edit and re-animate it with the same seed. Turning Audio on therefore marks every clip generated silent as stale; turning it off restores their keys exactly.\n\nWorkflow tips: Screenplay -> Storyboard, plus Character Bible -> Storyboard \"Characters\". Open the editor, generate the breakdown and the key frames, then \"Animate\" the shots. Wire Storyboard \"Clips\" -> Video Sequencer \"Video\" to assemble the movie, then rearrange the shot clips in the sequencer sheet. A shot animated later lands beside the shot before it.\n\nEditable in-place: `name`, `position`, `size`, `generateAudio`. The board itself is edited in the sheet, or replaced wholesale by setting `storyboardData` — note `update_node` merges only top-level keys, so send the entire board JSON, never a partial patch. Setting `storyboardData` without clearing `breakdownKey` keeps the edit; clearing `breakdownKey` forces the next run to regenerate. `shotClips` holds the sealed clips and is not meant to be written by hand."
++ "Purpose: Video player. Plays whatever video reaches its \"Image\" input — a Video Source, a generated clip, a sequence, and any Core Image filters, blends or transitions between them — with its own playhead and transport, independent of every other video node. Passes its input through so further filters can be attached after it.\n\nInputs:\n- \"Image\" (image): the video to play. Required. A still (an image with no video upstream) has nothing to play: playback shows \"No video\", and Execute passes the still through.\n\nOutputs:\n- \"Image\" (image): on Execute, the frame at this viewer's `playhead`, with every upstream filter applied.\n\nSettings: None (`hasSettings = false`).\n\nBackend: Local — no AI, no network. The upstream graph compiles into a timeline that AVFoundation plays through a custom compositor running the filters per frame, in real time with audio in sync. Filter parameter edits — from sliders, undo or `update_node` — show on the next frame, playing or paused. Save exports the same timeline to a .mov at its native frame rate.\n\nBehavior: A clip an AI node has already made plays normally: a generation node's clip (cached on its `generatedVideoURL`) and a Storyboard's \"Clips\" play here like a Video Source's file — except that a generated clip never starts playing by itself: when a generation finishes, the viewer shows it without starting playback, and the person presses play. What live playback never does is run a Subgraph or an AI or remote-backed processor (one that needs authentication, a compute host or on-device Flux inference) again: video that passes through one, or a filter one of them feeds (a blend whose background is an AI image), has no timeline, so the viewer shows its placeholder — but Execute still hands it that branch's batch result. So does a filter with a connected input that cannot be played: an empty Video Source, a generation node with no clip yet, or a still made by more than a single chain of one-input filters. The playhead is transport state, not an edit: undo and redo never move it.\n\nWorkflow tips: VideoSource → image filters → Video Viewer. Scrub to a moment, then Execute to hand that frame to image-only nodes downstream. A filter that throws is skipped for that frame rather than blanking it.\n\nEditable in-place: `name`, `position`, `playhead` (seconds, >= 0; omitted from the document when 0). An `update_node` that carries `playhead` pauses the viewer at that frame, even if it was playing; that frame is what Execute then hands downstream."
++ "Purpose: Who is in a short movie. Holds a cast — for each character a name, age, gender, facial description, hair style and colour, build, free-form notes, and a per-scene wardrobe — and emits it for the Storyboard node and for the Character Creator node. Double-clicking the node opens the character editor.\n\nInputs:\n- None. This is a `ProducerNode`.\n\nOutputs:\n- \"Characters\" (characters): The stored cast, as JSON. The `.characters` port type carries its value in a text container, so this port also connects to any `.text` input — which is how it feeds the Character Creator node's \"User Prompt\" to produce an eight-panel reference sheet.\n\nSettings: None (`hasSettings = false`). Configuration is the cast itself.\n\nBackend: Local — no AI call, no network, no auth. This node describes characters; Character Creator is what draws them.\n\nBehavior: `generate()` returns the stored cast's JSON. The graph store gates execution via `isReadyToExecute`, which is `false` when there are no characters — in that case `GraphStore` raises `GraphStoreError.producerNodeNotReady` before this node runs.\n\nWorkflow tips: The canonical wiring is Character Bible -> Character Creator \"User Prompt\", with a portrait on Character Creator's \"Face Portrait\" input, producing a settled eight-panel sheet to condition every later shot. Also wire Character Bible -> Storyboard \"Characters\" so each shot knows who appears in it. A wardrobe entry with no scene applies everywhere; a scene-specific entry overrides it for that scene only.\n\nEditable in-place: `name`, `position`, `size`. The cast itself is edited in the sheet, or replaced wholesale by setting `castData` — note `update_node` merges only top-level keys, so send the entire cast JSON, never a partial patch."
++ "REFERENCES, in the order supplied: the FIRST image is the COMPOSITION — keep its subjects, layout, framing, perspective, and proportions. The LAST "
++ "REFERENCES: the "
++ "Restyle the composition image in the visual style of the style reference image(s), and output ONE single image."
++ "Restyles each composition image in the combined style of one or more style images."
++ "STRICT: a single still frame. No motion blur, no speed lines, no multiple exposures — this frame is the first frame of a moving shot and any implied movement will be animated from it. No text, subtitles, captions, watermarks, logos, borders, or split panels. Fill the frame edge to edge; no letterboxing."
++ "Structured JSON output is not available for this provider."
++ "T@\"NSArray\",?,R,N"
++ "T@\"NSArray\",N,R"
++ "T@\"NSArray\",R,N"
++ "T@\"NSDictionary\",N,R"
++ "T@\"NSDictionary\",R,N"
++ "TB,?,R,N"
++ "TB,N,R,VcontainsTweening"
++ "TB,N,R,VenablePostProcessing"
++ "TB,R,N"
++ "Take identity, hair, and clothing from them. Do NOT copy their framing, pose, "
++ "The connected screenplay has no scenes yet."
++ "The model returned no shots for this screenplay."
++ "The model's breakdown could not be read: "
++ "The service returned no clip for shot "
++ "The service returned no usable key frame for shot "
++ "The value on the Screenplay input is not a screenplay."
++ "The video could not be played."
++ "The video service sent a link instead of the clip itself. Only clips delivered inline are accepted."
++ "The video took too long to load."
++ "This storyboard has no shot with that identifier."
++ "Ti,N,R,VpassthroughTrackID"
++ "Ti,R,N"
++ "T{?={?=qiIq}{?=qiIq}},N,R,VtimeRange"
++ "T{?={?=qiIq}{?=qiIq}},R,N"
++ "Unrecognized scene setting \""
++ "Video filter %{public}s (%{public}s) failed and is skipped; its input passes through: %{public}s"
++ "WARDROBE FOR THIS SHOT: "
++ "X-Floodgate-Project-Token"
++ "You are an experienced film director and storyboard artist. You break a screenplay into the shots needed to film it, and you return only the structured breakdown you are asked for.\n\nRULES\n\nSHOT COVERAGE: cover every scene. Give a scene as many shots as it needs to read clearly — usually two to four, one for a very short beat, more for a scene with several exchanges of dialogue. Never merge two scenes into one shot. Report which scene a shot covers with the scene's `sceneNumber`, exactly as numbered in the screenplay you are given.\n\nDURATION: each shot is generated as a clip of exactly 4, 6 or 8 seconds, and nothing else is possible. Choose the shortest length that holds the action: 4s for a cut, a reaction, or an insert; 6s for a line of dialogue or a short move; 8s only for a sustained action or an establishing shot the audience needs time to read.\n\nIMAGE PROMPT: describe the shot as a single still photograph — framing, subject placement, lens feel, light, colour, background, mood. Present tense, no camera movement, no sound, no story exposition. This prompt generates one frame, so anything that happens over time belongs in the video prompt instead. Name the characters in frame by name, and describe how they look using the character descriptions supplied, so the same person is recognizable across shots.\n\nVIDEO PROMPT: describe only what MOVES, starting from that still — the subject's motion and the camera's. One continuous take. Do not restate the composition.\n\nCHARACTERS: list the names of the characters visible in the shot, spelled exactly as in the screenplay and cast. A shot with nobody in it gets an empty list.\n\nOUTFIT NOTES: only when a shot needs something the character description does not already say — soaked clothes, a torn sleeve, a coat now removed. Otherwise leave it empty.\n\nACTION: one plain sentence of what happens, for a human reading the board. Not a prompt.\n\nDIALOGUE: do not invent any. Lines come from the screenplay and are attached automatically."
++ "You are an experienced film director and storyboard artist. You break a screenplay into the shots needed to film it, and you return only the structured breakdown you are asked for.\n\nRULES\n\nSHOT COVERAGE: cover every scene. Give a scene as many shots as it needs to read clearly — usually two to four, one for a very short beat, more for a scene with several exchanges of dialogue. Never merge two scenes into one shot. Report which scene a shot covers with the scene's `sceneNumber`, exactly as numbered in the screenplay you are given.\n\nDURATION: each shot is generated as a clip of exactly 4, 6 or 8 seconds, and nothing else is possible. Choose the shortest length that holds the action: 4s for a cut, a reaction, or an insert; 6s for a line of dialogue or a short move; 8s only for a sustained action or an establishing shot the audience needs time to read.\n\nIMAGE PROMPT: describe the shot as a single still photograph — framing, subject placement, lens feel, light, colour, background, mood. Present tense, no camera movement, no sound, no story exposition. This prompt generates one frame, so anything that happens over time belongs in the video prompt instead. Name the characters in frame by name, and describe how they look using the character descriptions supplied, so the same person is recognizable across shots.\n\nVIDEO PROMPT: describe only what MOVES, starting from that still — the subject's motion and the camera's. One continuous take. Do not restate the composition.\n\nCHARACTERS: list the names of the characters visible in the shot, spelled exactly as in the screenplay and cast. A shot with nobody in it gets an empty list.\n\nOUTFIT NOTES: only when a shot needs something the character description does not already say — soaked clothes, a torn sleeve, a coat now removed. Otherwise leave it empty.\n\nACTION: one plain sentence of what happens, for a human reading the board. Not a prompt.\n\nDIALOGUE: do not invent any. Lines come from the screenplay and are attached automatically.\n\nADDITIONAL DIRECTION FROM THE AUTHOR (follow it within the rules above):\n"
++ "_TtC5Nodes15LoopingPlayback"
++ "_TtC5Nodes19NodeFrameCompositor"
++ "_TtC5Nodes20NodeFrameInstruction"
++ "_TtC5Nodes21VideoPlaybackRegistry"
++ "_TtC5Nodes23VideoPlaybackController"
++ "_TtC5Nodes9ClipProbe"
++ "_awaitingFrame"
++ "_displayedFrame"
++ "_errorMessage"
++ "_membership"
++ "_muted"
++ "_playheadRequests"
++ "_playheadSeconds"
++ "_startTask"
++ "_timeline"
++ "action"
++ "addMutableTrackWithMediaType:preferredTrackID:"
++ "age"
++ "anticipateRenderingUsingHint:"
++ "applyGeneration"
++ "attributesOfItemAtPath:error:"
++ "audioTrackIDs"
++ "autoplayAudioConflict"
++ "background, or lighting — the composition is described above."
++ "blackColor"
++ "breakdownKey"
++ "build"
++ "cache"
++ "cameraMove"
++ "canConformColorOfSourceFrames"
++ "cancelAllPendingVideoCompositionRequests"
++ "cancelReading"
++ "castData"
++ "character"
++ "characterNames"
++ "characters"
++ "clipAudio"
++ "com.apple.clownfish.floodgate"
++ "commitHandler"
++ "compositionTime"
++ "containsTweening"
++ "controllers"
++ "copy"
++ "copyPixelBufferForItemTime:itemTimeForDisplay:"
++ "currentItem"
++ "currentTime"
++ "dialogue"
++ "disableLooping"
++ "durationSeconds"
++ "enablePostProcessing"
++ "estimatedSeconds"
++ "expr"
++ "extreme close-up"
++ "faceDescription"
++ "finishCancelledRequest"
++ "finishWithComposedVideoFrame:"
++ "finishWithError:"
++ "frameResolver"
++ "gender"
++ "generateAudio"
++ "generateCGImageAsynchronouslyForTime:completionHandler:"
++ "hairColor"
++ "hairStyle"
++ "hasApplied"
++ "hasNewPixelBufferForItemTime:"
++ "hsalf-8.3-inimeg"
++ "i"
++ "i16@0:8"
++ "imagePrompt"
++ "initWithAsset:presetName:"
++ "initWithInt:"
++ "initWithPixelBufferAttributes:"
++ "insertEmptyTimeRange:"
++ "insertTimeRange:ofTrack:atTime:error:"
++ "intValue"
++ "integerValue"
++ "itemTimeForHostTime:"
++ "keyFramesSealed"
++ "line"
++ "loadCount"
++ "location"
++ "logline"
++ "looper"
++ "loopingPlayerItems"
++ "muted"
++ "newPixelBuffer"
++ "nodeID"
++ "notes"
++ "objectForKey:"
++ "onPlayheadCommit"
++ "outfitNotes"
++ "over-the-shoulder"
++ "parenthetical"
++ "parkedPlayhead"
++ "passthroughTrackID"
++ "pause"
++ "play"
++ "playback"
++ "player"
++ "playerLooperWithPlayer:templateItem:"
++ "playhead"
++ "prerollForRenderingUsingHint:"
++ "programSwap"
++ "rate"
++ "rebuildingGeneration"
++ "removeAllItems"
++ "removeObjectForKey:"
++ "removeOutput:"
++ "renderContext"
++ "renderContextChanged:"
++ "renderSize"
++ "requiredPixelBufferAttributesForRenderContext"
++ "requiredSourceSampleDataTrackIDs"
++ "requiredSourceTrackIDs"
++ "requiredTrackIDs"
++ "resumeAfterScrub"
++ "scaleTimeRange:toDuration:"
++ "sceneID"
++ "sceneNumber"
++ "scenes"
++ "screenplay"
++ "screenplayData"
++ "seekState"
++ "seekToTime:toleranceBefore:toleranceAfter:"
++ "setAudioMix:"
++ "setAutomaticallyWaitsToMinimizeStalling:"
++ "setDateFormat:"
++ "setInputParameters:"
++ "setLocale:"
++ "setMuted:"
++ "setRequestedTimeToleranceAfter:"
++ "setRequestedTimeToleranceBefore:"
++ "setTimeZone:"
++ "setTrackID:"
++ "setVideoComposition:"
++ "setVolumeRampFromStartVolume:toEndVolume:timeRange:"
++ "setting"
++ "shotClips"
++ "shotType"
++ "shots"
++ "slug"
++ "sourceFrameByTrackID:"
++ "sourcePixelBufferAttributes"
++ "sourceStamps"
++ "sourceTrackIDs"
++ "startVideoCompositionRequest:"
++ "stillFrame(atSeconds:)"
++ "storyboard"
++ "storyboardData"
++ "supportsHDRSourceFrames"
++ "supportsSourceTaggedBuffers"
++ "supportsWideColorSourceFrames"
++ "timeOfDay"
++ "timeRange"
++ "timeline"
++ "title"
++ "trackID"
++ "v24@0:8@\"AVAsynchronousVideoCompositionRequest\"16"
++ "v24@0:8@\"AVVideoCompositionRenderContext\"16"
++ "v24@0:8@\"AVVideoCompositionRenderHint\"16"
++ "v48@?0^{CGImage=}8{?=qiIq}16@\"NSError\"40"
++ "videoCompositionInstruction"
++ "videoPrompt"
++ "volume"
++ "wardrobe"
++ "willSnapshot"
++ "workingGraph"
++ "{?={?=qiIq}{?=qiIq}}"
++ "{?={?=qiIq}{?=qiIq}}16@0:8"
+- "\n\nRecovery Suggestions:\n1. Review the node's input data for correctness\n2. Check that all required input ports have valid values\n3. Verify the node's configuration and parameters\n4. Inspect the underlying error details above for specific issues\n5. Ensure the node's implementation handles edge cases properly\n\nCommon causes:\n• Invalid input data (wrong type, out of range, nil values)\n• Missing required inputs or configuration\n• Resource unavailability (files, network, compute resources)\n• Implementation bugs in the node's processing logic\n• Type mismatches between connected ports"
+- "\n\nRecovery Suggestions:\n1. Review your graph connections to identify the circular dependency\n2. Remove or redirect edges that create the cycle\n3. Ensure data flows in one direction without loops\n4. Use a graph visualization tool to identify the problematic nodes\n\nCommon causes:\n• Node A depends on Node B, which depends on Node A\n• A chain of dependencies that eventually loops back to the start\n• Self-referencing nodes (a node connected to itself)"
+- "\n\nRecovery Suggestions:\n1. Verify the node exists in the graph\n2. Check that all upstream nodes have been executed successfully\n3. Ensure edges connecting to this node are properly configured\n4. Verify the node produces the expected output ports\n5. Check that the graph structure is complete before execution\n\nCommon causes:\n• Node was removed from the graph but edges still reference it\n• Upstream node failed to execute or produce outputs\n• Missing edge connections between dependent nodes\n• Node ID mismatch in edge definitions"
+- "\n\nRecovery Suggestions:\n1. Verify the node was added to the correct collection (sources/computes/sinks)\n2. Check that the node's category matches its protocol conformance\n3. Ensure the node hasn't been modified incorrectly after creation\n4. Review the graph construction logic for potential category mismatches\n\nCommon causes:\n• Node was added to wrong category array in the graph\n• Node's category property doesn't match its protocol conformance\n• Type casting error due to incorrect node type assumptions\n• Corrupted graph data during serialization/deserialization\n\nTechnical Details:\nA node with category '"
+- "' cannot be executed as a '"
+- "' node. Each node must conform to the protocol matching its declared category:\n• .producer requires ProducerNode protocol\n• .processor requires ProcessorNode protocol\n• .consumer requires ConsumerNode protocol"
+- "5-supo-edualc.ciporhtna"
+- "Generates a new image using the composition image and the style image."
+- "Loads a video file and streams it as Core Image frames."
+- "Nodes/GraphExecutor+Streaming.swift"
+- "Nodes/GraphStore+TransitionDuration.swift"
+- "Nodes/GraphStore+VideoSession.swift"
+- "Nodes/VideoFilterSession.swift"
+- "Nodes/VideoSessionCoordinator.swift"
+- "Plays a filtered Core Image frame stream and passes it through."
+- "Plays several clips one after another as a single video sequence."
+- "Purpose: Animates a still image into a short video, optionally guided by a text prompt. The model invents where the motion leads. Ideal for product photography motion, animated avatars, and turning concept art into reels.\n\nInputs:\n- \"Image\" (image): The first frame — the one the clip animates out of. Required.\n- \"User Prompt\" (text): Optional motion description (defaults to empty).\n- \"System Prompt\" (text): Optional steering instruction.\n- \"Variation\" (number): Optional seed; randomized if absent, then reused across re-runs.\n\nOutputs:\n- \"Image\" (frames): The generated clip streamed as `CIImage` frames. A live preview loops the frames downstream until paused; the one-shot batch result is the clip's first frame. The local clip is cached on `generatedVideoURL` for streaming.\n\nSettings:\n- aspectRatio (`Proxy.VideoAspectRatio`): Stored — execution forces `landscape16x9`.\n- resolution (`Proxy.VideoResolution`): Stored — execution forces `.p720`.\n- duration (`Proxy.VideoDuration`): Clip length; defaults to 4 seconds.\n\nSibling nodes for the other video features — do NOT try to reproduce these here, this node has no ports for them: to also pin where the clip *ends*, use FirstLastFrameToVideoGeneration; to keep a subject recognizable without dictating any frame, use ReferencesToVideoGeneration. The service treats the three as mutually exclusive features.\n\nBackend: Floodgate `Proxy` (provider `.genimio`, model `vedo31Generate001`) via the shared `GeneratedVideoNode` path. Conforms to `AuthenticationConfigurable`.\n\nBehavior: Long-polls the generation job (8s interval, no audio). The clip is cached against a fingerprint of the input image plus the prompt, seed, and duration, so a downstream edit re-runs the graph without paying for a new generation. Throws `NodeError.invalidInputs` if \"Image\" is missing.\n\nWorkflow tips: ImageLoader → ImageToVideo (with optional PromptProducer for motion intent) → VideoViewer. Chain after TextToImage or NanoBanana to animate freshly generated stills.\n\nEditable in-place: `name`, `position`, `aspectRatio`, `resolution`, `duration`."
+- "Purpose: Combines the structural content of one image (composition) with the visual style of another (style) to produce a stylized result. Useful for artistic restyling, mood transfer, and creative variations.\n\nInputs:\n- \"Composition Image\" (image): Provides layout/content. Required.\n- \"Style Image\" (image): Provides visual aesthetic. Required.\n- \"Prompt\" (text): Optional steering text. If omitted, an empty prompt is sent.\n- \"Variation\" (number): Optional seed; random if absent.\n\nOutputs:\n- \"Image\" (image): Stylized image(s).\n\nSettings:\n- aspectRatio (`Proxy.ImageAspectRatio`, defaults to `.square`).\n- resolution (`Proxy.ImageResolution`, defaults to `.medium`).\n- generations (`Proxy.ImageGenerations`): generation count.\n\nBackend: Floodgate `Proxy` with provider `.genimio` (model `genimio31FlashImagePreview`); both images are passed as `referenceImages`. Conforms to `AuthenticationConfigurable`. A legacy ComfyUI `wallpaperWithoutLLM` workflow exists but is unused by default.\n\nBehavior: Throws `NodeError.invalidInputs` if either image is missing. Network/API failures propagate.\n\nWorkflow tips: Two ImageLoader nodes feeding \"Composition Image\" and \"Style Image\", optionally an upstream PromptProducer for steering, then route to ImagePreview.\n\nEditable in-place: `name`, `position`, `aspectRatio`, `resolution`, `generations`."
+- "Purpose: File-system video source. Holds a `URL` (`selectedURL`) and, on the streaming execution path, emits the file's frames lazily as `CIImage` images (one per decoded frame) via `frameStream()`. The standard entry point for video into a Core Image filter pipeline.\n\nInputs:\n- None. This is a `ProducerNode` (and a `StreamingProducerNode`).\n\nOutputs:\n- \"Image\" (frames): a stream of decoded video frames as `CIImage`, so any image filter can be attached directly.\n\nSettings: None (`hasSettings = false`). The configuration is the URL itself.\n\nBackend: Local file IO via `AVAssetReader` — no AI call, no network, no auth.\n\nBehavior: Decodes frames on demand (pull-based, backpressured). The batch `generate()` yields no frames; frames flow only on the streaming path.\n\nWorkflow tips: Wire \"Image\" into any Core Image filter, then into a video preview/player.\n\nEditable in-place: `name`, `position`, `selectedURL` (typically set via a file picker from the inline producer preview)."
+- "Purpose: Frame-stream player. Terminates a Core Image filter chain fed by a Video Source, playing the filtered frames live (looping) and collecting them for export. Passes frames through so further filters can be attached after it.\n\nInputs:\n- \"Image\" (image): the stream of `CIImage` frames to play. Required.\n\nOutputs:\n- \"Image\" (image): the same frames, unchanged.\n\nSettings: None (`hasSettings = false`).\n\nBackend: Local — no AI, no network. A `VideoFilterSession` drives looping playback, records per-frame parameter automation, and exports the collected frames to a file.\n\nWorkflow tips: VideoSource → image filters → VideoPreview. While it loops, adjust a filter's slider to paint per-frame automation (last edit per frame wins), then export.\n\nEditable in-place: `name`, `position`."
+- "Purpose: Generates a clip from a prompt while keeping the subjects in up to three reference images recognizable. Unlike ImageToVideoGeneration, the references do NOT dictate any particular frame — the prompt describes the scene, the references say what the things in it look like. Ideal for casting a specific character or product into a described scene, and for holding brand assets consistent across a set of clips.\n\nInputs:\n- \"Reference 1\"/\"Reference 2\"/\"Reference 3\" (image): Subject images (a person, a product, a prop). At least one required. The three ports share one budget of three images, so one port carrying a three-image batch is equivalent to three ports carrying one each; anything past the limit is dropped.\n- \"User Prompt\" (text): The scene and motion description. This is what drives the clip.\n- \"System Prompt\" (text): Optional steering instruction.\n- \"Variation\" (number): Optional seed; randomized if absent, then reused across re-runs.\n\nOutputs:\n- \"Image\" (frames): The generated clip streamed as `CIImage` frames. A live preview loops the frames downstream until paused; the one-shot batch result is the clip's first frame.\n\nSettings:\n- aspectRatio (`Proxy.VideoAspectRatio`): Stored — execution forces `landscape16x9`.\n- resolution (`Proxy.VideoResolution`): Stored — execution forces `.p720`.\n- There is deliberately NO duration setting: the service's reference-to-video feature only produces 8-second clips (`Proxy.referenceToVideoDuration`) and rejects any other length outright, so the length is fixed rather than settable-and-wrong.\n\nBackend: Floodgate `Proxy` (provider `.genimio`, model `vedo31Generate001`) via the shared `GeneratedVideoNode` path. Conforms to `AuthenticationConfigurable`.\n\nBehavior: Long-polls the generation job (8s interval, no audio). The clip is cached against a fingerprint of every reference plus the prompt and seed. Throws `NodeError.invalidInputs` when no reference is wired.\n\nWorkflow tips: ImageLoader (or NanoBanana) per subject → References to Video, with a PromptProducer describing the scene → VideoViewer. This node has no first-frame port by design — to animate outward from a specific still, use ImageToVideoGeneration.\n\nEditable in-place: `name`, `position`, `aspectRatio`, `resolution`."
+- "Purpose: Generates the video *between* two stills — the clip starts on the first frame and has to arrive at the last. Ideal for interpolating a transition between key frames, morphing one product shot into another, closing a loop by ending where it started, and storyboards where the ends are known but the middle is not.\n\nInputs:\n- \"First Frame\" (image): The frame the clip starts on. Required.\n- \"Last Frame\" (image): The frame the clip must land on. Required.\n- \"User Prompt\" (text): Optional description of how to get from one to the other.\n- \"System Prompt\" (text): Optional steering instruction.\n- \"Variation\" (number): Optional seed; randomized if absent, then reused across re-runs.\n\nBoth frames are required. With only one wired, the request is a plain image-to-video generation — use ImageToVideoGeneration instead; this node throws `NodeError.invalidInputs`.\n\nOutputs:\n- \"Image\" (frames): The generated clip streamed as `CIImage` frames. A live preview loops the frames downstream until paused; the one-shot batch result is the clip's first frame.\n\nSettings:\n- aspectRatio (`Proxy.VideoAspectRatio`): Stored — execution forces `landscape16x9`.\n- resolution (`Proxy.VideoResolution`): Stored — execution forces `.p720`.\n- duration (`Proxy.VideoDuration`): How long the clip takes to travel from the first frame to the last; defaults to 4 seconds.\n\nBackend: Floodgate `Proxy` (provider `.genimio`, model `vedo31Generate001`) via the shared `GeneratedVideoNode` path. Conforms to `AuthenticationConfigurable`.\n\nBehavior: Long-polls the generation job (8s interval, no audio). The clip is cached against a fingerprint of both frames plus the prompt, seed, and duration.\n\nWorkflow tips: two ImageLoaders (or two stills off one generation) → First & Last Frame to Video → VideoViewer. Feeding the same image to both ports yields a clip that returns to its starting pose, which loops cleanly.\n\nEditable in-place: `name`, `position`, `aspectRatio`, `resolution`, `duration`."
+- "Purpose: Sequence assembler. Concatenates every video branch wired into its single \"Video\" input into one continuous clip and plays it, publishing the whole sequence on its \"Video\" output.\n\nInputs:\n- \"Video\" (frames): **accepts multiple connections** — this is the only node in the graph whose input port does. Each connected branch contributes one clip; clips play in order, one after another, never overlapped or blended.\n\nOutputs:\n- \"Video\" (frames): the assembled sequence, usable like any other clip — attach filters or a Video Viewer after it.\n\nSettings: None (`hasSettings = false`). The clip order is the configuration.\n\nBackend: Local file IO via `AVAssetReader` — no AI call, no network, no auth. Nothing is re-encoded: the clips are decoded lazily in order and their frame timestamps rebased onto one timeline.\n\nBehavior: Frames flow only on the streaming path, like a Video Source; the node acts as the ORIGIN of its chain, so anything wired above it is a clip rather than an upstream filter. Duplicate connections from the same source are allowed and repeat that clip.\n\nWorkflow tips: Wire two or more Video Sources into \"Video\", then double-click the node to open the sequencer sheet and drag the clip tiles to rearrange the sequence. Connection order is the initial order.\n\nEditable in-place: `name`, `position`, and `clipOrder` (the playback order, as input edge identifiers — reorder via the sheet)."
+- "Purpose: Synthesizes a short video clip from a textual description. The video equivalent of TextToImage — useful for marketing motion, animated mockups, and concept reels.\n\nInputs:\n- \"User Prompt\" (text): The scene/motion description. Required.\n- \"System Prompt\" (text): Optional steering instruction.\n- \"Variation\" (number): Optional seed; randomized if absent.\n\nOutputs:\n- \"Image\" (frames): The generated clip streamed as `CIImage` frames. A live preview loops the frames downstream until paused; the one-shot batch result is the clip's first frame. The local clip is cached on `generatedVideoURL` for streaming.\n\nSettings:\n- aspectRatio (`Proxy.VideoAspectRatio`): Stored, but currently the call site forces `landscape16x9` at execution time.\n- resolution (`Proxy.VideoResolution`): Stored; execution forces `.p720`.\n- duration (`Proxy.VideoDuration`): Clip length; defaults to 4 seconds when unset.\n\nBackend: Floodgate `Proxy` (provider `.genimio`, model `vedo`). Conforms to `AuthenticationConfigurable`; throws `ProxyError.authenticationFailed` without auth headers. ComfyUI path is intentionally unimplemented (throws `NodeError.invalidOutputs`).\n\nBehavior: Calls `proxy.generateVideos` with `pollInterval = 8s` and `generateAudio = false`. Latency is high (long-poll the Vedo job). Throws `NodeError.invalidInputs` if `User Prompt` is missing and `NodeError.invalidOutputs` if no video is returned.\n\nWorkflow tips: PromptProducer → TextToVideo → VideoPreview. Combine with a Genimio text node upstream to expand a concept into a richer cinematic prompt.\n\nEditable in-place: `name`, `position`, `aspectRatio`, `resolution`, `duration`."
+- "VideoFilterSession"
+- "VideoFilterSession decode failed: %s"
+- "X-Coffeegate-Project-Token"
+- "_TtC5Nodes18VideoFilterSession"
+- "_TtC5Nodes23VideoSessionCoordinator"
+- "_TtC5NodesP33_06B5AE94B12BEA0BC2F54EF6543B054115VideoSidePuller"
+- "_TtC5NodesP33_06B5AE94B12BEA0BC2F54EF6543B054121SequencedTargetPuller"
+- "_TtCV5Nodes18VideoFrameSequence8Iterator"
+- "_TtCV5Nodes21FilteredFrameSequence8Iterator"
+- "_TtCV5Nodes25ConcatenatedFrameSequence8Iterator"
+- "_chainNodeIDs"
+- "_createCheckedContinuation(_:)"
+- "_currentFrame"
+- "_currentFrameIndex"
+- "_currentFrames"
+- "_currentTime"
+- "_displayNodeIDs"
+- "_filters"
+- "_loops"
+- "_playbackGeneration"
+- "_playbackTask"
+- "_sessions"
+- "_sideInputs"
+- "_sourceDuration"
+- "_targetDuration"
+- "addInput:"
+- "appendPixelBuffer:withPresentationTime:"
+- "base"
+- "canAddInput:"
+- "clearCaches"
+- "clipURLs"
+- "clips"
+- "currentEnd"
+- "filters"
+- "finishWritingWithCompletionHandler:"
+- "finished"
+- "frameSink"
+- "hsalf-5.3-inimeg"
+- "initWithAssetWriterInput:sourcePixelBufferAttributes:"
+- "initWithMediaType:outputSettings:"
+- "initWithURL:fileType:error:"
+- "isReadyForMoreMediaData"
+- "iterator"
+- "lastImage"
+- "lastStages"
+- "markAsFinished"
+- "offset"
+- "outputSpec"
+- "pixelBufferPool"
+- "reader"
+- "setExpectsMediaDataInRealTime:"
+- "sharedSession"
+- "startSessionAtSourceTime:"
+- "startWriting"
+- "terminalID"
+- "trackOutput"
+- "v8@?0"
+```

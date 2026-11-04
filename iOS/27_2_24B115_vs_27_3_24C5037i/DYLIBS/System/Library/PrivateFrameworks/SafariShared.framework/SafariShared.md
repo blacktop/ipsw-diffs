@@ -1,0 +1,1657 @@
+## SafariShared
+
+> `/System/Library/PrivateFrameworks/SafariShared.framework/SafariShared`
+
+```diff
+
+-625.2.8.10.6
+-  __TEXT.__text: 0x2a7c28
+-  __TEXT.__objc_methlist: 0x162e4
+-  __TEXT.__const: 0xa3ad4
+-  __TEXT.__gcc_except_tab: 0x1ef6c
+-  __TEXT.__cstring: 0x23a17
++626.1.12.10.3
++  __TEXT.__text: 0x30eb48
++  __TEXT.__objc_methlist: 0x1689c
++  __TEXT.__gcc_except_tab: 0x1ee98
++  __TEXT.__const: 0x80394
++  __TEXT.__cstring: 0x25ea4
+   __TEXT.__ustring: 0xcec0
+-  __TEXT.__oslogstring: 0x15d42
++  __TEXT.__oslogstring: 0x17132
+   __TEXT.__dlopen_cstrs: 0x2b7
+-  __TEXT.__swift5_typeref: 0x376a
+-  __TEXT.__swift5_fieldmd: 0x18f8
+-  __TEXT.__constg_swiftt: 0x2218
+-  __TEXT.__swift5_builtin: 0x190
+-  __TEXT.__swift5_reflstr: 0x1668
+-  __TEXT.__swift5_assocty: 0x450
+-  __TEXT.__swift5_protos: 0x38
+-  __TEXT.__swift5_proto: 0x400
+-  __TEXT.__swift5_types: 0x1a4
+-  __TEXT.__swift5_capture: 0x1178
+-  __TEXT.__swift5_mpenum: 0x30
+-  __TEXT.__swift_as_entry: 0x184
+-  __TEXT.__swift_as_ret: 0x16c
+-  __TEXT.__swift_as_cont: 0x2f0
+-  __TEXT.__unwind_info: 0x11680
+-  __TEXT.__eh_frame: 0x55e8
++  __TEXT.__swift5_typeref: 0x450a
++  __TEXT.__swift5_fieldmd: 0x264c
++  __TEXT.__constg_swiftt: 0x2b84
++  __TEXT.__swift5_reflstr: 0x233d
++  __TEXT.__swift5_builtin: 0x208
++  __TEXT.__swift5_assocty: 0x600
++  __TEXT.__swift5_protos: 0x50
++  __TEXT.__swift5_proto: 0x648
++  __TEXT.__swift5_types: 0x268
++  __TEXT.__swift5_capture: 0x1a28
++  __TEXT.__swift5_mpenum: 0x38
++  __TEXT.__swift_as_entry: 0x238
++  __TEXT.__swift_as_ret: 0x240
++  __TEXT.__swift_as_cont: 0x4d4
++  __TEXT.__unwind_info: 0x13118
++  __TEXT.__eh_frame: 0x7ea0
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x166f8
+-  __DATA_CONST.__objc_classlist: 0xcc8
+-  __DATA_CONST.__objc_catlist: 0x90
+-  __DATA_CONST.__objc_protolist: 0x2c8
++  __DATA_CONST.__const: 0x16948
++  __DATA_CONST.__objc_classlist: 0xd10
++  __DATA_CONST.__objc_catlist: 0x98
++  __DATA_CONST.__objc_protolist: 0x2e8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__weak_got: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xc1f8
+-  __DATA_CONST.__objc_protorefs: 0xc0
+-  __DATA_CONST.__objc_superrefs: 0x968
++  __DATA_CONST.__objc_selrefs: 0xc408
++  __DATA_CONST.__objc_protorefs: 0xe0
++  __DATA_CONST.__objc_superrefs: 0x978
+   __DATA_CONST.__objc_arraydata: 0xb00
+-  __DATA_CONST.__got: 0x2140
+-  __AUTH_CONST.__const: 0xb560
+-  __AUTH_CONST.__cfstring: 0x1b200
+-  __AUTH_CONST.__objc_const: 0x288c0
++  __DATA_CONST.__got: 0x23b8
++  __AUTH_CONST.__const: 0xddd8
++  __AUTH_CONST.__cfstring: 0x1b5a0
++  __AUTH_CONST.__objc_const: 0x29610
+   __AUTH_CONST.__weak_auth_got: 0x28
+   __AUTH_CONST.__objc_intobj: 0x780
+   __AUTH_CONST.__objc_arrayobj: 0x360
+   __AUTH_CONST.__objc_dictobj: 0x140
+   __AUTH_CONST.__objc_doubleobj: 0xa0
+-  __AUTH_CONST.__auth_got: 0x2d78
+-  __AUTH.__objc_data: 0x7d18
+-  __AUTH.__data: 0x1860
+-  __DATA.__objc_ivar: 0x1958
+-  __DATA.__data: 0x58d8
+-  __DATA.__common: 0xa0
++  __AUTH_CONST.__auth_got: 0x32d8
++  __AUTH.__objc_data: 0x80a8
++  __AUTH.__data: 0x1eb0
++  __DATA.__objc_ivar: 0x1994
++  __DATA.__data: 0x64f8
++  __DATA.__common: 0xf8
+   __DATA_DIRTY.__objc_data: 0x320
+   __DATA_DIRTY.__bss: 0x9
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/CoreSpotlight.framework/CoreSpotlight
+   - /System/Library/Frameworks/CoreText.framework/CoreText
++  - /System/Library/Frameworks/CryptoKit.framework/CryptoKit
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/JavaScriptCore.framework/JavaScriptCore
+   - /System/Library/Frameworks/NaturalLanguage.framework/NaturalLanguage
+
+   - /System/Library/PrivateFrameworks/GenerativeModels.framework/GenerativeModels
+   - /System/Library/PrivateFrameworks/GenerativeModelsFoundation.framework/GenerativeModelsFoundation
+   - /System/Library/PrivateFrameworks/IconServices.framework/IconServices
++  - /System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/InternalSwiftProtobuf
+   - /System/Library/PrivateFrameworks/Lexicon.framework/Lexicon
+   - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
+   - /System/Library/PrivateFrameworks/ManagedSettingsObjC.framework/ManagedSettingsObjC
+
+   - /System/Library/PrivateFrameworks/UnilogSafariFeatureLibrary.framework/UnilogSafariFeatureLibrary
+   - /System/Library/PrivateFrameworks/UnilogSafariSearchLibrary.framework/UnilogSafariSearchLibrary
+   - /System/Library/PrivateFrameworks/UsageTracking.framework/UsageTracking
++  - /System/Library/PrivateFrameworks/VoiceShortcutClient.framework/VoiceShortcutClient
++  - /System/Library/PrivateFrameworks/WebPrivacy.framework/WebPrivacy
+   - /usr/lib/libCTGreenTeaLogger.dylib
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 14868
+-  Symbols:   19429
+-  CStrings:  6174
++  Functions: 16772
++  Symbols:   19866
++  CStrings:  6463
+ 
+Symbols:
++ +[WBSAutomaticPasswordChangeAgentLogs supportsSecureCoding]
++ +[WBSFormMetadataController phoneNumberRecognizerScriptSource]
++ +[WBSFormMetadataController regularExpressionForMaskedEmailAddress]
++ +[WBSFormMetadataController unusableAlternateAuthenticationKeywordsForAutomaticPasswordChange]
++ +[WBSInternalFeedbackRadarComponent webKitNewBugs]
++ +[WBSOrderedTestResults keyForTest:inBundle:]
++ +[WBSSafariWebCompatibilityFeedbackSyncEngine telemetryStringForAutoDarkModeStateOfURL:systemPrefersDarkAppearance:isDarkened:]
++ +[WBSTrialSearchParameters trialSearchParametersFromCurrentExperiment]
++ -[NSURL(SafariSharedExtras) safari_isFileURLContainedInDirectory:]
++ -[WBSAutoFillTestController runTest:bundle:storeResultsIn:worker:completionHandler:]
++ -[WBSAutoFillTestController runTest:bundle:storeResultsIn:worker:tryCount:completionHandler:]
++ -[WBSAutoFillTestController supportsParallelExecution]
++ -[WBSAutoFillValuesResult filledGeneratedOneTimeCode]
++ -[WBSAutoFillValuesResult oneTimeCodeIsEligibleForAutomaticLogin]
++ -[WBSAutoFillValuesResult oneTimeCodeWasSubmittedAutomatically]
++ -[WBSAutoFillValuesResult provenanceOfOneTimeCode]
++ -[WBSAutoFillValuesResult setFilledGeneratedOneTimeCode:]
++ -[WBSAutoFillValuesResult setOneTimeCodeIsEligibleForAutomaticLogin:]
++ -[WBSAutoFillValuesResult setOneTimeCodeWasSubmittedAutomatically:]
++ -[WBSAutoFillValuesResult setProvenanceOfOneTimeCode:]
++ -[WBSAutomaticPasswordChangeAgentLogs .cxx_destruct]
++ -[WBSAutomaticPasswordChangeAgentLogs copyWithZone:]
++ -[WBSAutomaticPasswordChangeAgentLogs encodeWithCoder:]
++ -[WBSAutomaticPasswordChangeAgentLogs full]
++ -[WBSAutomaticPasswordChangeAgentLogs initWithCoder:]
++ -[WBSAutomaticPasswordChangeAgentLogs initWithFull:simplified:]
++ -[WBSAutomaticPasswordChangeAgentLogs simplified]
++ -[WBSBrowsingAssistantController onDemandSummaryUsedExternalIntelligence]
++ -[WBSBrowsingAssistantController setOnDemandSummaryUsedExternalIntelligence:]
++ -[WBSBulkClassificationController _runClassificationForURL:viewportSize:worker:completionHandler:]
++ -[WBSFormControlMetadata maskedEmailAddressForOneTimeCode]
++ -[WBSFormControlMetadata maskedPhoneNumberForOneTimeCode]
++ -[WBSFormControlMetadata phoneNumberMask]
++ -[WBSFormControlMetadata provenanceOfOneTimeCode]
++ -[WBSFormControlMetadata sfOneTimeCodeProvenance]
++ -[WBSFormDataController autoFillValuesForAutomaticPasswordChangeWithAccountInfo:formContexts:savedAccountContext:options:generatedPassword:oneTimeCodeSupplier:completionHandler:]
++ -[WBSFormMetadata firstUnfilledOneTimeCodeOrPasswordField]
++ -[WBSHistory clearHistoryForDomain:completionHandler:]
++ -[WBSHistory clearHistoryFromDate:toDate:completionHandler:]
++ -[WBSMutableFormControlMetadata setMaskedEmailAddressForOneTimeCode:]
++ -[WBSMutableFormControlMetadata setMaskedPhoneNumberForOneTimeCode:]
++ -[WBSMutableFormControlMetadata setPhoneNumberMask:]
++ -[WBSMutableFormControlMetadata setProvenanceOfOneTimeCode:]
++ -[WBSOrderedTestResults .cxx_destruct]
++ -[WBSOrderedTestResults _drainFinishedTests]
++ -[WBSOrderedTestResults _enqueueReplay:forTest:inBundle:]
++ -[WBSOrderedTestResults beginTest:inBundle:]
++ -[WBSOrderedTestResults endTest:inBundle:]
++ -[WBSOrderedTestResults flushWithCompletionHandler:]
++ -[WBSOrderedTestResults initWithUnderlyingResults:orderedTestKeys:]
++ -[WBSOrderedTestResults reportActualResults:expectedResults:expectedResultsName:descriptiveResultsName:uniformTypeIdentifier:forStage:forTest:inBundle:]
++ -[WBSOrderedTestResults reportError:descriptiveResultsName:forStage:forTest:inBundle:]
++ -[WBSOrderedTestResults reportPerformance:forStage:forTest:inBundle:]
++ -[WBSOrderedTestResults reportResults:resultsName:descriptiveResultsName:uniformTypeIdentifier:forStage:forTest:inBundle:]
++ -[WBSPageContext _getTitle:summary:]
++ -[WBSPageContextManager pageContextsAsCSVWithProfileIdentifier:]
++ -[WBSPageTest expectedResultsName]
++ -[WBSPageTest initWithIdentifier:pageURL:expectedResultsURL:expectedResultsName:dictionary:]
++ -[WBSPageTestController allowsStorageAccessFromFileURLs]
++ -[WBSPageTestController createWorkerWithCompletionHandler:]
++ -[WBSPageTestController positionsWindowsOffScreen]
++ -[WBSPageTestController requestedOffscreenValue]
++ -[WBSPageTestController setRequestedOffscreenValue:]
++ -[WBSParallelTestExecutor .cxx_destruct]
++ -[WBSParallelTestExecutor _complete]
++ -[WBSParallelTestExecutor _createWorkerAtIndex:into:]
++ -[WBSParallelTestExecutor _runNextTestOnWorker:]
++ -[WBSParallelTestExecutor _tearDownAndComplete]
++ -[WBSParallelTestExecutor _workerFinished]
++ -[WBSParallelTestExecutor initWithController:queue:orderedResults:underlyingResults:items:numberOfWorkers:]
++ -[WBSParallelTestExecutor runWithCompletionBlock:]
++ -[WBSSiriIntelligenceDonorTabData setTextContent:]
++ -[WBSSiriIntelligenceDonorTabData textContent]
++ -[WBSTestController _runTestsInParallel:storeResultsIn:completionBlock:]
++ -[WBSTestController createWorkerWithCompletionHandler:]
++ -[WBSTestController numberOfWorkers]
++ -[WBSTestController runTest:bundle:storeResultsIn:worker:completionHandler:]
++ -[WBSTestController setNumberOfWorkers:]
++ -[WBSTestController supportsParallelExecution]
++ -[WBSTestControllerTestItem .cxx_destruct]
++ -[WBSTestControllerTestItem bundle]
++ -[WBSTestControllerTestItem initWithBundle:test:]
++ -[WBSTestControllerTestItem test]
++ -[WBSTrialManager applicationDidEnterBackground]
++ -[WBSTrialManager delegate]
++ -[WBSTrialManager setDelegate:]
++ -[WBSTrialSearchParameters updateForCF:forTrial:]
++ -[WBSTrialSearchParametersTrialObserver trialManagerDidUpdateFactors:]
++ GCC_except_table188
++ GCC_except_table199
++ GCC_except_table225
++ GCC_except_table274
++ GCC_except_table277
++ GCC_except_table280
++ GCC_except_table287
++ GCC_except_table291
++ GCC_except_table296
++ GCC_except_table308
++ GCC_except_table309
++ GCC_except_table315
++ GCC_except_table318
++ _MobileGestalt_copy_buildVersion_obj
++ _MobileGestalt_get_current_device
++ _NSUnderlyingErrorKey
++ _OBJC_CLASS_$_VCVoiceShortcutClient
++ _OBJC_CLASS_$_WBSAutoDarkModePreferenceManager
++ _OBJC_CLASS_$_WBSAutoDarkModeQuirksManager
++ _OBJC_CLASS_$_WBSAutoDarkModeWebsiteState
++ _OBJC_CLASS_$_WBSAutomaticPasswordChangeAgentLogs
++ _OBJC_CLASS_$_WBSNotifyMeWhenSQLiteStore
++ _OBJC_CLASS_$_WBSOrderedTestResults
++ _OBJC_CLASS_$_WBSPageLevelAutoFillSuppliedOneTimeCode
++ _OBJC_CLASS_$_WBSParallelTestExecutor
++ _OBJC_CLASS_$_WBSTestControllerTestItem
++ _OBJC_CLASS_$_WBSTrialSearchParametersTrialObserver
++ _OBJC_CLASS_$_WPResourceRequestOptions
++ _OBJC_CLASS_$_WPResources
++ _OBJC_IVAR_$_WBSAutoFillValuesResult._filledGeneratedOneTimeCode
++ _OBJC_IVAR_$_WBSAutoFillValuesResult._oneTimeCodeIsEligibleForAutomaticLogin
++ _OBJC_IVAR_$_WBSAutoFillValuesResult._oneTimeCodeWasSubmittedAutomatically
++ _OBJC_IVAR_$_WBSAutoFillValuesResult._provenanceOfOneTimeCode
++ _OBJC_IVAR_$_WBSAutomaticPasswordChangeAgentLogs._full
++ _OBJC_IVAR_$_WBSAutomaticPasswordChangeAgentLogs._simplified
++ _OBJC_IVAR_$_WBSBrowsingAssistantController._onDemandSummaryUsedExternalIntelligence
++ _OBJC_IVAR_$_WBSFormControlMetadata._maskedEmailAddressForOneTimeCode
++ _OBJC_IVAR_$_WBSFormControlMetadata._maskedPhoneNumberForOneTimeCode
++ _OBJC_IVAR_$_WBSFormControlMetadata._phoneNumberMask
++ _OBJC_IVAR_$_WBSFormControlMetadata._provenanceOfOneTimeCode
++ _OBJC_IVAR_$_WBSOrderedTestResults._bufferedReplaysByKey
++ _OBJC_IVAR_$_WBSOrderedTestResults._cursor
++ _OBJC_IVAR_$_WBSOrderedTestResults._finishedTestKeys
++ _OBJC_IVAR_$_WBSOrderedTestResults._internalQueue
++ _OBJC_IVAR_$_WBSOrderedTestResults._orderedTestKeys
++ _OBJC_IVAR_$_WBSOrderedTestResults._underlyingResults
++ _OBJC_IVAR_$_WBSPageContext._titleAndSummaryLock
++ _OBJC_IVAR_$_WBSPageTest._expectedResultsName
++ _OBJC_IVAR_$_WBSPageTestController._allowsStorageAccessFromFileURLs
++ _OBJC_IVAR_$_WBSPageTestController._requestedOffscreenValue
++ _OBJC_IVAR_$_WBSParallelTestExecutor._completionBlock
++ _OBJC_IVAR_$_WBSParallelTestExecutor._controller
++ _OBJC_IVAR_$_WBSParallelTestExecutor._fatalErrorWasRaised
++ _OBJC_IVAR_$_WBSParallelTestExecutor._finishedWorkerCount
++ _OBJC_IVAR_$_WBSParallelTestExecutor._items
++ _OBJC_IVAR_$_WBSParallelTestExecutor._nextItemIndex
++ _OBJC_IVAR_$_WBSParallelTestExecutor._numberOfWorkers
++ _OBJC_IVAR_$_WBSParallelTestExecutor._orderedResults
++ _OBJC_IVAR_$_WBSParallelTestExecutor._queue
++ _OBJC_IVAR_$_WBSParallelTestExecutor._requestedNumberOfWorkers
++ _OBJC_IVAR_$_WBSParallelTestExecutor._underlyingResults
++ _OBJC_IVAR_$_WBSParallelTestExecutor._workers
++ _OBJC_IVAR_$_WBSSiriIntelligenceDonorTabData._textContent
++ _OBJC_IVAR_$_WBSTestController._numberOfWorkers
++ _OBJC_IVAR_$_WBSTestControllerTestItem._bundle
++ _OBJC_IVAR_$_WBSTestControllerTestItem._test
++ _OBJC_IVAR_$_WBSTrialManager._delegate
++ _OBJC_IVAR_$_WBSTrialManager._hasNewExperimentUpdates
++ _OBJC_METACLASS_$_WBSAutoDarkModePreferenceManager
++ _OBJC_METACLASS_$_WBSAutoDarkModeQuirksManager
++ _OBJC_METACLASS_$_WBSAutoDarkModeWebsiteState
++ _OBJC_METACLASS_$_WBSAutomaticPasswordChangeAgentLogs
++ _OBJC_METACLASS_$_WBSNotifyMeWhenSQLiteStore
++ _OBJC_METACLASS_$_WBSOrderedTestResults
++ _OBJC_METACLASS_$_WBSPageLevelAutoFillSuppliedOneTimeCode
++ _OBJC_METACLASS_$_WBSParallelTestExecutor
++ _OBJC_METACLASS_$_WBSTestControllerTestItem
++ _OBJC_METACLASS_$_WBSTrialSearchParametersTrialObserver
++ _WBSAutoDarkModeCustomizeTipGenerationKey
++ _WBSAutoDarkModeEnabledDidChangeNotification
++ _WBSAutoDarkModeEnabledIndicatorDomainsKey
++ _WBSAutoDarkModeEnabledKey
++ _WBSAutoDarkModeKnownIssuesAtChoiceKey
++ _WBSAutoDarkModeLastDailyReportTimeKey
++ _WBSAutoDarkModePreferenceDidChangeNotification
++ _WBSAutoDarkModePreferenceIdentifier
++ _WBSAutoDarkModePreviewForcesDarkAppearanceKey
++ _WBSAutoDarkModePreviewSourceKey
++ _WBSAutoDarkModePreviewingKey
++ _WBSAutoDarkModeQuirksDidChangeNotification
++ _WBSAutoDarkModeSuggestionDismissalCountKey
++ _WBSAutoDarkModeSuggestionLastShownDateKey
++ _WBSAutoDarkModeSymbolName
++ _WBSAutomaticPasswordChangeErrorDomain
++ _WBSChangedUserMediaPreferenceIdentifierUserInfoKey
++ _WBSChangedUserMediaPreferenceValueUserInfoKey
++ _WBSCharacterThresholdForAnywhereInTitleOrURL
++ _WBSCharacterThresholdForStartOfTitle
++ _WBSCharacterThresholdForStartOfTitleWord
++ _WBSCharacterThresholdForStartOfTitleWordMatchLongEnoughForTopHit
++ _WBSCharacterThresholdForStartOfURL
++ _WBSCharacterThresholdForStartOfURLPathComponent
++ _WBSDebugAutoDarkModeHidesInternalUIKey
++ _WBSDebugAutoDarkModeOverrideKey
++ _WBSDebugAutoDarkModeUnsupportedWebsitesKey
++ _WBSDebugAutomaticPasswordChangesAutoFillModeVerificationCode
++ _WBSDebugSetDefaultBrowserBannerAssumesSafariIsNotDefaultPreferenceKey
++ _WBSDebugTabDonationBatchCountKey
++ _WBSDebugTabDonationRateLimitKey
++ _WBSDidCompleteAutoDarkModeOnboardingKey
++ _WBSDomainWithChangedGeolocationPreferenceUserInfoKey
++ _WBSDomainWithChangedUserMediaPreferenceUserInfoKey
++ _WBSDomainWithModifiedAutoDarkModePreferenceUserInfoKey
++ _WBSEnableGlobalPrivacyControlKey
++ _WBSEnableRecentSearchesStartPageModuleBelowFavoritesKey
++ _WBSFormMetadataControlMaskedEmailAddressForOneTimeCodeKey
++ _WBSFormMetadataControlMaskedPhoneNumberForOneTimeCodeKey
++ _WBSFormMetadataControlPhoneNumberMaskKey
++ _WBSFormMetadataControlProvenanceOfOneTimeCodeKey
++ _WBSFormMetadataHintsClearsCachedOneTimeCodePatternMatchesKey
++ _WBSFormMetadataHintsPasswordFieldTypeHintKey
++ _WBSMatchingWordsInTitleThreshold
++ _WBSNormalizedTopSitesScoreAndVisitCountMultiplier
++ _WBSPerSiteGeolocationPreferenceDidChangeNotification
++ _WBSPerSitePreferenceNameAutoDarkMode
++ _WBSPerSiteUserMediaPreferenceDidChangeNotification
++ _WBSPercentageThresholdForAnywhereInTitle
++ _WBSPercentageThresholdForAnywhereInURL
++ _WBSPhoneNumberMaskHiddenDigit
++ _WBSPhoneNumberMaskMissingDigit
++ _WBSSafariSettingsAutoDarkModeKey
++ _WBSSecondsUntilNextDailyAnalyticsReportForKey
++ _WBSTelephoneDigitOrderedPartToken
++ _WBSWebCompatibilityFeedbackAutoDarkModeStateKey
++ _WPNotificationUserInfoResourceTypeKey
++ _WPResourceDataChangedNotificationName
++ __CATEGORY_INSTANCE_METHODS_WBSAnalyticsLogger_$_NotifyMeWhen
++ __CATEGORY_WBSAnalyticsLogger_$_NotifyMeWhen
++ __CLASS_METHODS_WBSAutoDarkModePreferenceManager
++ __CLASS_METHODS_WBSCertificateBypassManager
++ __CLASS_METHODS_WBSNotifyMeWhenSQLiteStore
++ __CLASS_PROPERTIES_WBSAutoDarkModePreferenceManager
++ __CLASS_PROPERTIES_WBSCertificateBypassManager
++ __CLASS_PROPERTIES_WBSNotifyMeWhenSQLiteStore
++ __DATA_WBSAutoDarkModePreferenceManager
++ __DATA_WBSAutoDarkModeQuirksManager
++ __DATA_WBSAutoDarkModeWebsiteState
++ __DATA_WBSCertificateBypassManager
++ __DATA_WBSNotifyMeWhenSQLiteStore
++ __DATA_WBSPageLevelAutoFillSuppliedOneTimeCode
++ __INSTANCE_METHODS_WBSAutoDarkModePreferenceManager
++ __INSTANCE_METHODS_WBSAutoDarkModeQuirksManager
++ __INSTANCE_METHODS_WBSAutoDarkModeWebsiteState
++ __INSTANCE_METHODS_WBSCertificateBypassManager
++ __INSTANCE_METHODS_WBSNotifyMeWhenSQLiteStore
++ __INSTANCE_METHODS_WBSPageLevelAutoFillSuppliedOneTimeCode
++ __IVARS_WBSAutoDarkModePreferenceManager
++ __IVARS_WBSAutoDarkModeQuirksManager
++ __IVARS_WBSAutoDarkModeWebsiteState
++ __IVARS_WBSCertificateBypassManager
++ __IVARS_WBSNotifyMeWhenSQLiteStore
++ __IVARS_WBSPageLevelAutoFillSuppliedOneTimeCode
++ __METACLASS_DATA_WBSAutoDarkModePreferenceManager
++ __METACLASS_DATA_WBSAutoDarkModeQuirksManager
++ __METACLASS_DATA_WBSAutoDarkModeWebsiteState
++ __METACLASS_DATA_WBSCertificateBypassManager
++ __METACLASS_DATA_WBSNotifyMeWhenSQLiteStore
++ __METACLASS_DATA_WBSPageLevelAutoFillSuppliedOneTimeCode
++ __OBJC_$_CLASS_METHODS_WBSAutomaticPasswordChangeAgentLogs
++ __OBJC_$_CLASS_METHODS_WBSOrderedTestResults
++ __OBJC_$_CLASS_PROP_LIST_WBSAutomaticPasswordChangeAgentLogs
++ __OBJC_$_INSTANCE_METHODS_WBSAutomaticPasswordChangeAgentLogs
++ __OBJC_$_INSTANCE_METHODS_WBSOrderedTestResults
++ __OBJC_$_INSTANCE_METHODS_WBSParallelTestExecutor
++ __OBJC_$_INSTANCE_METHODS_WBSTestControllerTestItem
++ __OBJC_$_INSTANCE_METHODS_WBSTrialSearchParametersTrialObserver
++ __OBJC_$_INSTANCE_VARIABLES_WBSAutomaticPasswordChangeAgentLogs
++ __OBJC_$_INSTANCE_VARIABLES_WBSOrderedTestResults
++ __OBJC_$_INSTANCE_VARIABLES_WBSParallelTestExecutor
++ __OBJC_$_INSTANCE_VARIABLES_WBSTestControllerTestItem
++ __OBJC_$_PROP_LIST_WBSAutomaticPasswordChangeAgentLogs
++ __OBJC_$_PROP_LIST_WBSTestControllerTestItem
++ __OBJC_$_PROP_LIST_WBSTrialSearchParametersTrialObserver
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_WBSTrialManagerDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_WBSTrialManagerDelegate
++ __OBJC_$_PROTOCOL_REFS_WBSTrialManagerDelegate
++ __OBJC_CLASS_PROTOCOLS_$_WBSAutomaticPasswordChangeAgentLogs
++ __OBJC_CLASS_PROTOCOLS_$_WBSOrderedTestResults
++ __OBJC_CLASS_PROTOCOLS_$_WBSTrialSearchParametersTrialObserver
++ __OBJC_CLASS_RO_$_WBSAutomaticPasswordChangeAgentLogs
++ __OBJC_CLASS_RO_$_WBSOrderedTestResults
++ __OBJC_CLASS_RO_$_WBSParallelTestExecutor
++ __OBJC_CLASS_RO_$_WBSTestControllerTestItem
++ __OBJC_CLASS_RO_$_WBSTrialSearchParametersTrialObserver
++ __OBJC_LABEL_PROTOCOL_$_WBSTrialManagerDelegate
++ __OBJC_METACLASS_RO_$_WBSAutomaticPasswordChangeAgentLogs
++ __OBJC_METACLASS_RO_$_WBSOrderedTestResults
++ __OBJC_METACLASS_RO_$_WBSParallelTestExecutor
++ __OBJC_METACLASS_RO_$_WBSTestControllerTestItem
++ __OBJC_METACLASS_RO_$_WBSTrialSearchParametersTrialObserver
++ __OBJC_PROTOCOL_$_WBSTrialManagerDelegate
++ __PROPERTIES_WBSAutoDarkModePreferenceManager
++ __PROPERTIES_WBSAutoDarkModeQuirksManager
++ __PROPERTIES_WBSAutoDarkModeWebsiteState
++ __PROPERTIES_WBSNotifyMeWhenSQLiteStore
++ __PROPERTIES_WBSPageLevelAutoFillSuppliedOneTimeCode
++ __PROTOCOLS_WBSAutoDarkModePreferenceManager
++ __PROTOCOL_INSTANCE_METHODS__TtP12SafariSharedP33_0A3DDE34CC0E3C82713961AF069B0CCD22WBSWebPrivacyResources_
++ __PROTOCOL_METHOD_TYPES__TtP12SafariSharedP33_0A3DDE34CC0E3C82713961AF069B0CCD22WBSWebPrivacyResources_
++ __PROTOCOL_PROTOCOLS__TtP12SafariSharedP33_0A3DDE34CC0E3C82713961AF069B0CCD22WBSWebPrivacyResources_
++ __PROTOCOL__TtP12SafariSharedP33_0A3DDE34CC0E3C82713961AF069B0CCD22WBSWebPrivacyResources_
++ __ZL27canonicalFilePathComponentsP5NSURL
++ __ZL27saveChangesButtonLabelsData
++ __ZL37controlContainsUnrelatedUserNameValueP22WBSFormControlMetadataP8NSString
++ __ZL38regularExpressionForMaskedEmailAddressv
++ __ZL44cachedRegularExpressionForMaskedEmailAddress
++ __ZL71cachedUnusableAlternateAuthenticationKeywordsForAutomaticPasswordChange
++ __ZN12SafariSharedL39jsSaveChangesButtonLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_
++ __ZN12SafariSharedL40jsRegularExpressionForMaskedEmailAddressEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_
++ __ZZL34WBSEnsureTrialObserverIsRegisteredP15WBSTrialManagerE8observer
++ __ZZL34WBSEnsureTrialObserverIsRegisteredP15WBSTrialManagerE9onceToken
++ ___122-[WBSOrderedTestResults reportResults:resultsName:descriptiveResultsName:uniformTypeIdentifier:forStage:forTest:inBundle:]_block_invoke
++ ___122-[WBSOrderedTestResults reportResults:resultsName:descriptiveResultsName:uniformTypeIdentifier:forStage:forTest:inBundle:]_block_invoke_2
++ ___152-[WBSOrderedTestResults reportActualResults:expectedResults:expectedResultsName:descriptiveResultsName:uniformTypeIdentifier:forStage:forTest:inBundle:]_block_invoke
++ ___152-[WBSOrderedTestResults reportActualResults:expectedResults:expectedResultsName:descriptiveResultsName:uniformTypeIdentifier:forStage:forTest:inBundle:]_block_invoke_2
++ ___178-[WBSFormDataController autoFillValuesForAutomaticPasswordChangeWithAccountInfo:formContexts:savedAccountContext:options:generatedPassword:oneTimeCodeSupplier:completionHandler:]_block_invoke
++ ___178-[WBSFormDataController autoFillValuesForAutomaticPasswordChangeWithAccountInfo:formContexts:savedAccountContext:options:generatedPassword:oneTimeCodeSupplier:completionHandler:]_block_invoke_10
++ ___178-[WBSFormDataController autoFillValuesForAutomaticPasswordChangeWithAccountInfo:formContexts:savedAccountContext:options:generatedPassword:oneTimeCodeSupplier:completionHandler:]_block_invoke_11
++ ___178-[WBSFormDataController autoFillValuesForAutomaticPasswordChangeWithAccountInfo:formContexts:savedAccountContext:options:generatedPassword:oneTimeCodeSupplier:completionHandler:]_block_invoke_2
++ ___178-[WBSFormDataController autoFillValuesForAutomaticPasswordChangeWithAccountInfo:formContexts:savedAccountContext:options:generatedPassword:oneTimeCodeSupplier:completionHandler:]_block_invoke_3
++ ___178-[WBSFormDataController autoFillValuesForAutomaticPasswordChangeWithAccountInfo:formContexts:savedAccountContext:options:generatedPassword:oneTimeCodeSupplier:completionHandler:]_block_invoke_4
++ ___178-[WBSFormDataController autoFillValuesForAutomaticPasswordChangeWithAccountInfo:formContexts:savedAccountContext:options:generatedPassword:oneTimeCodeSupplier:completionHandler:]_block_invoke_5
++ ___178-[WBSFormDataController autoFillValuesForAutomaticPasswordChangeWithAccountInfo:formContexts:savedAccountContext:options:generatedPassword:oneTimeCodeSupplier:completionHandler:]_block_invoke_6
++ ___178-[WBSFormDataController autoFillValuesForAutomaticPasswordChangeWithAccountInfo:formContexts:savedAccountContext:options:generatedPassword:oneTimeCodeSupplier:completionHandler:]_block_invoke_7
++ ___178-[WBSFormDataController autoFillValuesForAutomaticPasswordChangeWithAccountInfo:formContexts:savedAccountContext:options:generatedPassword:oneTimeCodeSupplier:completionHandler:]_block_invoke_8
++ ___178-[WBSFormDataController autoFillValuesForAutomaticPasswordChangeWithAccountInfo:formContexts:savedAccountContext:options:generatedPassword:oneTimeCodeSupplier:completionHandler:]_block_invoke_9
++ ___31-[WBSTrialManager inExperiment]_block_invoke
++ ___40-[WBSTrialManager inExperimentOrRollout]_block_invoke
++ ___42-[WBSOrderedTestResults endTest:inBundle:]_block_invoke
++ ___42-[WBSOrderedTestResults endTest:inBundle:]_block_invoke_2
++ ___43-[WBSTrialManager fetchFactorsInNamespace:]_block_invoke_2
++ ___44-[WBSOrderedTestResults beginTest:inBundle:]_block_invoke
++ ___44-[WBSOrderedTestResults beginTest:inBundle:]_block_invoke_2
++ ___47-[WBSParallelTestExecutor _tearDownAndComplete]_block_invoke
++ ___47-[WBSParallelTestExecutor _tearDownAndComplete]_block_invoke_2
++ ___47-[WBSParallelTestExecutor _tearDownAndComplete]_block_invoke_3
++ ___48-[WBSParallelTestExecutor _runNextTestOnWorker:]_block_invoke
++ ___48-[WBSParallelTestExecutor _runNextTestOnWorker:]_block_invoke_2
++ ___48-[WBSParallelTestExecutor _runNextTestOnWorker:]_block_invoke_3
++ ___48-[WBSParallelTestExecutor _runNextTestOnWorker:]_block_invoke_4
++ ___48-[WBSParallelTestExecutor _runNextTestOnWorker:]_block_invoke_5
++ ___48-[WBSParallelTestExecutor _runNextTestOnWorker:]_block_invoke_6
++ ___48-[WBSTrialManager applicationDidEnterBackground]_block_invoke
++ ___50+[WBSInternalFeedbackRadarComponent webKitNewBugs]_block_invoke
++ ___50-[WBSParallelTestExecutor runWithCompletionBlock:]_block_invoke
++ ___50-[WBSParallelTestExecutor runWithCompletionBlock:]_block_invoke_2
++ ___52-[WBSOrderedTestResults flushWithCompletionHandler:]_block_invoke
++ ___53-[WBSParallelTestExecutor _createWorkerAtIndex:into:]_block_invoke
++ ___53-[WBSParallelTestExecutor _createWorkerAtIndex:into:]_block_invoke_2
++ ___54-[WBSHistory clearHistoryForDomain:completionHandler:]_block_invoke
++ ___54-[WBSHistory clearHistoryForDomain:completionHandler:]_block_invoke_2
++ ___59-[WBSPageTestController createWorkerWithCompletionHandler:]_block_invoke
++ ___60-[WBSHistory clearHistoryFromDate:toDate:completionHandler:]_block_invoke
++ ___60-[WBSHistory clearHistoryFromDate:toDate:completionHandler:]_block_invoke_2
++ ___60-[WBSHistory clearHistoryFromDate:toDate:completionHandler:]_block_invoke_3
++ ___64-[WBSTestController _runTestsAndStoreResultsIn:completionBlock:]_block_invoke_13
++ ___64-[WBSTestController _runTestsAndStoreResultsIn:completionBlock:]_block_invoke_14
++ ___69-[WBSOrderedTestResults reportPerformance:forStage:forTest:inBundle:]_block_invoke
++ ___69-[WBSOrderedTestResults reportPerformance:forStage:forTest:inBundle:]_block_invoke_2
++ ___70-[WBSTrialSearchParametersTrialObserver trialManagerDidUpdateFactors:]_block_invoke
++ ___86-[WBSOrderedTestResults reportError:descriptiveResultsName:forStage:forTest:inBundle:]_block_invoke
++ ___86-[WBSOrderedTestResults reportError:descriptiveResultsName:forStage:forTest:inBundle:]_block_invoke_2
++ ___93-[WBSAutoFillTestController runTest:bundle:storeResultsIn:worker:tryCount:completionHandler:]_block_invoke
++ ___93-[WBSAutoFillTestController runTest:bundle:storeResultsIn:worker:tryCount:completionHandler:]_block_invoke_2
++ ___96-[WBSGeolocationPreferenceManager _setValue:forDomain:shouldIncludeTimestamp:completionHandler:]_block_invoke_2
++ ___98-[WBSBulkClassificationController _runClassificationForURL:viewportSize:worker:completionHandler:]_block_invoke
++ ____ZL34WBSEnsureTrialObserverIsRegisteredP15WBSTrialManager_block_invoke
++ ___block_descriptor_32_e32_B16?0"WBSFormControlMetadata"8l
++ ___block_descriptor_40_e8_32bs_e41_v24?0"<WBSPageTestWorker>"8"NSError"16ls32l8
++ ___block_descriptor_40_e8_32s_e39_"NSDictionary"16?0"WBSFormMetadata"8ls32l8
++ ___block_descriptor_41_ea8_32s_e32_B16?0"WBSFormControlMetadata"8ls32l8
++ ___block_descriptor_48_e8_32s40s_e26_v16?0"<WBSTestResults>"8ls32l8s40l8
++ ___block_descriptor_48_ea8_32s40s_e24_v16?0"WBSHistoryItem"8ls32l8s40l8
++ ___block_descriptor_49_ea8_32s40s_e8_B16?0Q8ls32l8s40l8
++ ___block_descriptor_56_e8_32s40s48bs_e17_v16?0"NSError"8ls48l8s32l8s40l8
++ ___block_descriptor_56_e8_32s40s48bs_e20_v24?08"NSError"16ls32l8s40l8s48l8
++ ___block_descriptor_56_e8_32s40s48s_e38_v32?0"<WBSTestBundle>"8Q16?<v?B>24ls32l8s40l8s48l8
++ ___block_descriptor_56_e8_32s40s48s_e48_v32?0"_WKFrameHandle"8"WBSFormMetadata"16^B24ls32l8s40l8s48l8
++ ___block_descriptor_56_e8_32s40s_e20_v24?08"NSError"16ls32l8s40l8
++ ___block_descriptor_56_ea8_32s40s48bs_e24_v16?0"WBSFormContext"8ls32l8s48l8s40l8
++ ___block_descriptor_64_e8_32s40s48s56s_e26_v16?0"<WBSTestResults>"8ls32l8s40l8s48l8s56l8
++ ___block_descriptor_64_e8_32s40s48s_e15_v32?08Q16^B24ls32l8s40l8s48l8
++ ___block_descriptor_64_e8_32s40s48s_e17_v16?0"NSError"8ls32l8s40l8s48l8
++ ___block_descriptor_64_ea8_32s40s48s56bs_e15_v16?0"NSSet"8ls32l8s40l8s56l8s48l8
++ ___block_descriptor_64_ea8_32s40s48s56bs_e49_v16?0"WBSPageLevelAutoFillSuppliedOneTimeCode"8ls32l8s40l8s48l8s56l8
++ ___block_descriptor_72_e8_32s40s48s56s64bs_e17_v16?0"NSError"8ls32l8s40l8s64l8s48l8s56l8
++ ___block_descriptor_72_e8_32s40s48s56s64r_e32_v32?0"<WBSTest>"8Q16?<v?B>24ls32l8s40l8r64l8s48l8s56l8
++ ___block_descriptor_72_e8_32s40s48s56s64s_e26_v16?0"<WBSTestResults>"8ls32l8s40l8s48l8s56l8s64l8
++ ___block_descriptor_72_e8_32s40s48s56s_e25_v32?0"NSString"8Q16^B24ls32l8s40l8s48l8s56l8
++ ___block_descriptor_73_ea8_32s40s48s56s64bs_e5_v8?0ls32l8s40l8s48l8s56l8s64l8
++ ___block_descriptor_80_e8_32s40s48s56s64s72bs_e20_v24?08"NSError"16ls32l8s40l8s48l8s72l8s56l8s64l8
++ ___block_descriptor_88_e8_32s40s48s56s64s72bs80r_e17_v16?0"NSError"8lr80l8s32l8s40l8s48l8s72l8s56l8s64l8
++ ___block_descriptor_88_e8_32s40s48s56s64s72bs_e5_v8?0ls32l8s40l8s48l8s56l8s64l8s72l8
++ ___block_descriptor_88_e8_32s40s48s56s64s72s80bs_e5_v8?0ls32l8s40l8s48l8s56l8s64l8s72l8s80l8
++ ___block_descriptor_88_e8_32s40s48s56s64s72s80s_e26_v16?0"<WBSTestResults>"8ls32l8s40l8s48l8s56l8s64l8s72l8s80l8
++ ___block_descriptor_96_e8_32s40s48s56s64s72s80bs_e48_v24?0"<WBSFormsMetadataProvider>"8"NSError"16ls32l8s40l8s48l8s56l8s64l8s80l8s72l8
++ ___block_descriptor_96_e8_32s40s48s56s64s72s80s88bs_e29_v24?0"NSArray"8"NSError"16ls32l8s40l8s48l8s88l8s56l8s64l8s72l8s80l8
++ ___block_descriptor_96_e8_32s40s48s56s64s72s80s88s_e26_v16?0"<WBSTestResults>"8ls32l8s40l8s48l8s56l8s64l8s72l8s80l8s88l8
++ ___jsonStringForValue_block_invoke
++ ___jsonStringForValue_block_invoke_2
++ ___orderedKeys_block_invoke
++ ___swift_closure_destructor.112Tm
++ ___swift_closure_destructor.127Tm
++ ___swift_closure_destructor.152Tm
++ ___swift_closure_destructor.164Tm
++ ___swift_closure_destructor.185Tm
++ ___swift_closure_destructor.20Tm
++ ___swift_closure_destructor.29Tm
++ ___swift_closure_destructor.311Tm
++ ___swift_closure_destructor.35Tm
++ ___swift_closure_destructor.45Tm
++ ___swift_closure_destructor.53Tm
++ ___swift_closure_destructor.92Tm
++ ___swift_destroy_boxed_opaque_existential_0Tm
++ ___swift_get_extra_inhabitant_index.8Tm
++ ___swift_memcpy56_8
++ ___swift_memcpy80_8
++ ___swift_memcpy88_8
++ ___swift_memcpy96_8
++ ___swift_mutable_project_boxed_opaque_existential_1
++ ___swift_project_boxed_opaque_existential_0Tm
++ ___swift_project_boxed_opaque_existential_1Tm
++ ___swift_store_extra_inhabitant_index.9Tm
++ ___unnamed_45
++ ___unnamed_75
++ ___unnamed_76
++ _associated conformance 12SafariShared12WBSAgentSpanV10CodingKeys33_FF87D141FA68B7623567D69FB77765DELLOSHAASQ
++ _associated conformance 12SafariShared12WBSAgentSpanV10CodingKeys33_FF87D141FA68B7623567D69FB77765DELLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 12SafariShared12WBSAgentSpanV10CodingKeys33_FF87D141FA68B7623567D69FB77765DELLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12SafariShared12WBSAgentSpanV11PullOutcomeV10CodingKeys33_FF87D141FA68B7623567D69FB77765DELLOSHAASQ
++ _associated conformance 12SafariShared12WBSAgentSpanV11PullOutcomeV10CodingKeys33_FF87D141FA68B7623567D69FB77765DELLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 12SafariShared12WBSAgentSpanV11PullOutcomeV10CodingKeys33_FF87D141FA68B7623567D69FB77765DELLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12SafariShared12WBSAgentSpanV11PullOutcomeV6StatusOSHAASQ
++ _associated conformance 12SafariShared12WBSAgentSpanV4KindVSHAASQ
++ _associated conformance 12SafariShared12WBSAgentSpanV4ToolV10CodingKeys33_FF87D141FA68B7623567D69FB77765DELLOSHAASQ
++ _associated conformance 12SafariShared12WBSAgentSpanV4ToolV10CodingKeys33_FF87D141FA68B7623567D69FB77765DELLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 12SafariShared12WBSAgentSpanV4ToolV10CodingKeys33_FF87D141FA68B7623567D69FB77765DELLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12SafariShared12WBSAgentSpanV7FailureV10CodingKeys33_FF87D141FA68B7623567D69FB77765DELLOSHAASQ
++ _associated conformance 12SafariShared12WBSAgentSpanV7FailureV10CodingKeys33_FF87D141FA68B7623567D69FB77765DELLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 12SafariShared12WBSAgentSpanV7FailureV10CodingKeys33_FF87D141FA68B7623567D69FB77765DELLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12SafariShared12WBSAgentSpanV7FailureV11DispositionOSHAASQ
++ _associated conformance 12SafariShared13Crx3_KeyProofV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 12SafariShared13Crx3_KeyProofV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0I0
++ _associated conformance 12SafariShared13Crx3_KeyProofV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 12SafariShared13Crx3_KeyProofVSHAASQ
++ _associated conformance 12SafariShared13WBSAgentToolsO14PageContentKeyOSHAASQ
++ _associated conformance 12SafariShared13WBSAgentToolsO14PageContentKeyOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 12SafariShared13WBSAgentToolsO17PageContentFormatOSHAASQ
++ _associated conformance 12SafariShared17CertificateBypass33_B3A9A45F5D1E9250B2C8374B4A4E2B17LLV10CodingKeysOSHAASQ
++ _associated conformance 12SafariShared17CertificateBypass33_B3A9A45F5D1E9250B2C8374B4A4E2B17LLV10CodingKeysOs0Q3KeyAAs23CustomStringConvertible
++ _associated conformance 12SafariShared17CertificateBypass33_B3A9A45F5D1E9250B2C8374B4A4E2B17LLV10CodingKeysOs0Q3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12SafariShared18Crx3_PackageHeaderV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 12SafariShared18Crx3_PackageHeaderV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0I0
++ _associated conformance 12SafariShared18Crx3_PackageHeaderV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 12SafariShared18Crx3_PackageHeaderVSHAASQ
++ _associated conformance 12SafariShared19Crx3_SignedMetadataV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 12SafariShared19Crx3_SignedMetadataV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0I0
++ _associated conformance 12SafariShared19Crx3_SignedMetadataV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 12SafariShared19Crx3_SignedMetadataVSHAASQ
++ _associated conformance 12SafariShared20CertificateBypassKey33_B3A9A45F5D1E9250B2C8374B4A4E2B17LLVSHAASQ
++ _associated conformance 12SafariShared24WBSNotifyMeWhenFrequencyOSHAASQ
++ _associated conformance 12SafariShared28WBSNotifyMeWhenUserAgentKindOSHAASQ
++ _associated conformance 12SafariShared30V2CertificateBypassStoreFormat33_B3A9A45F5D1E9250B2C8374B4A4E2B17LLV10CodingKeysOSHAASQ
++ _associated conformance 12SafariShared30V2CertificateBypassStoreFormat33_B3A9A45F5D1E9250B2C8374B4A4E2B17LLV10CodingKeysOs0T3KeyAAs23CustomStringConvertible
++ _associated conformance 12SafariShared30V2CertificateBypassStoreFormat33_B3A9A45F5D1E9250B2C8374B4A4E2B17LLV10CodingKeysOs0T3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12SafariShared30WBSNotifyMeWhenShortcutsClientV5ErrorO10Foundation09LocalizedH0AAsAD
++ _associated conformance 12SafariShared30WBSNotifyMeWhenShortcutsClientV5ErrorOSHAASQ
++ _associated conformance 12SafariShared31WBSNotifyMeWhenPollingFrequencyV10CodingKeys33_1615E2E476FC4DE95191D6DD5D55D7FDLLOSHAASQ
++ _associated conformance 12SafariShared31WBSNotifyMeWhenPollingFrequencyV10CodingKeys33_1615E2E476FC4DE95191D6DD5D55D7FDLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 12SafariShared31WBSNotifyMeWhenPollingFrequencyV10CodingKeys33_1615E2E476FC4DE95191D6DD5D55D7FDLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12SafariShared32WBSNotifyMeWhenAutomationLogTypeOSHAASQ
++ _associated conformance SC35WBSAutomaticPasswordChangeErrorCodeLeV10Foundation021_ObjectiveCBridgeableD0SCs0D0
++ _associated conformance SC35WBSAutomaticPasswordChangeErrorCodeLeV10Foundation13CustomNSErrorSCs0D0
++ _associated conformance SC35WBSAutomaticPasswordChangeErrorCodeLeV10Foundation21_BridgedStoredNSErrorSC0E0AcDP_8RawValueSYs17FixedWidthInteger
++ _associated conformance SC35WBSAutomaticPasswordChangeErrorCodeLeV10Foundation21_BridgedStoredNSErrorSC0E0AcDP_AC01_dE8Protocol
++ _associated conformance SC35WBSAutomaticPasswordChangeErrorCodeLeV10Foundation21_BridgedStoredNSErrorSC0E0AcDP_SY
++ _associated conformance SC35WBSAutomaticPasswordChangeErrorCodeLeV10Foundation21_BridgedStoredNSErrorSCAC021_ObjectiveCBridgeableD0
++ _associated conformance SC35WBSAutomaticPasswordChangeErrorCodeLeV10Foundation21_BridgedStoredNSErrorSCAC06CustomI0
++ _associated conformance SC35WBSAutomaticPasswordChangeErrorCodeLeV10Foundation21_BridgedStoredNSErrorSCSH
++ _associated conformance SC35WBSAutomaticPasswordChangeErrorCodeLeVSHSCSQ
++ _associated conformance SD12SafariSharedAA20CertificateBypassKey33_B3A9A45F5D1E9250B2C8374B4A4E2B17LLVRszAA0cD0ACLLVRs_rlE0cD10StoreErrorOyxq__GSHAASQ
++ _associated conformance So18NSNotificationNameaSHSCSQ
++ _associated conformance So18NSNotificationNameas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So18NSNotificationNameas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _associated conformance So26WBSNotifyMeWhenSQLiteStoreC12SafariSharedE19AutomationExistenceOSHACSQ
++ _associated conformance So26WBSNotifyMeWhenSQLiteStoreC12SafariSharedE5ErrorO10Foundation09LocalizedH0ACsAD
++ _associated conformance So26WBSNotifyMeWhenSQLiteStoreC12SafariSharedE9SyncStateOSHACSQ
++ _associated conformance So35WBSAutomaticPasswordChangeErrorCodeV10Foundation01_dE8ProtocolSC01_D4TypeAcDP_AC21_BridgedStoredNSError
++ _associated conformance So35WBSAutomaticPasswordChangeErrorCodeV10Foundation01_dE8ProtocolSCSQ
++ _get_enum_tag_for_layout_string 12SafariShared12WBSAgentSpanV7FailureVSg
++ _get_enum_tag_for_layout_string So26WBSNotifyMeWhenSQLiteStoreC12SafariSharedE5ErrorO
++ _jsonFragmentForScalar
++ _jsonStringForValue
++ _keypath_get_selector_maskedEmailAddressForOneTimeCode
++ _keypath_get_selector_maskedPhoneNumberForOneTimeCode
++ _maxTabDataDonationBatchCount
++ _phoneNumberRecognizerSource
++ _phoneNumberRecognizerSourceLength
++ _saveChangesButtonLabels
++ _swift_makeBoxUnique
++ _swift_release_x12
++ _swift_retain_x1
++ _swift_task_deinitOnExecutor
++ _symbolic $s12SafariShared19WBSAgentSpanOutcomeP
++ _symbolic $s12SafariShared20WBSAgentSpanRecorderP
++ _symbolic $s12SafariShared22WBSWebPrivacyResources33_0A3DDE34CC0E3C82713961AF069B0CCDLLP
++ _symbolic $s12SafariShared28CertificateBypassStoreFormat33_B3A9A45F5D1E9250B2C8374B4A4E2B17LLP
++ _symbolic $s12SafariShared31WBSAgentTranscriptSizeObservingP
++ _symbolic $s12SafariShared31WBSNotifyMeWhenTriggerConditionP
++ _symbolic $s12SafariShared33WBSNotifyMeWhenShortcutsProvidingP
++ _symbolic G0R3_
++ _symbolic Ieg_Sg
++ _symbolic IeyB_
++ _symbolic SDyS2SGSg
++ _symbolic SDySSSDySS_____GG 12SafariShared17CertificateBypass33_B3A9A45F5D1E9250B2C8374B4A4E2B17LLV
++ _symbolic SDySS_____G 12SafariShared17CertificateBypass33_B3A9A45F5D1E9250B2C8374B4A4E2B17LLV
++ _symbolic SDySS_____G 12SafariShared34WBSNotifyMeWhenShortcutsAutomationV
++ _symbolic SDy__________G 10Foundation4UUIDV AA4DateV
++ _symbolic SDy__________G 12SafariShared20CertificateBypassKey33_B3A9A45F5D1E9250B2C8374B4A4E2B17LLV AA0cD0ACLLV
++ _symbolic SS3key______5valuet 12SafariShared17CertificateBypass33_B3A9A45F5D1E9250B2C8374B4A4E2B17LLV
++ _symbolic SS4name_SS9argumentsSS2idt
++ _symbolic SS5field_SS6reasont
++ _symbolic SSSg13shortcutsUUID_SiSg6infoIDAA3urlt
++ _symbolic SS______t 12SafariShared34WBSNotifyMeWhenShortcutsAutomationV
++ _symbolic SaySDySSypGG
++ _symbolic SaySSGSg
++ _symbolic Say_____G 12SafariShared12WBSAgentSpanV
++ _symbolic Say_____G 12SafariShared13Crx3_KeyProofV
++ _symbolic Say_____G 12SafariShared13WBSAgentToolsO14PageContentKeyO
++ _symbolic Say_____G 12SafariShared29WBSNotifyMeWhenAutomationInfoV
++ _symbolic Say_____G 12SafariShared33WBSNotifyMeWhenAutomationLogEntryV
++ _symbolic Say______pG 16GenerativeAgents11InputFilterP
++ _symbolic Say_____yxGGSg 12SafariShared25WBSBookmarksFolderClusterV
++ _symbolic SbIegd_
++ _symbolic SbIegy_Sg
++ _symbolic SbIeyBy_Sg
++ _symbolic ScCySaySSG______pG s5ErrorP
++ _symbolic ScCySay_____G______pG 12SafariShared29WBSNotifyMeWhenAutomationInfoV s5ErrorP
++ _symbolic ScCySay_____G______pG 12SafariShared33WBSNotifyMeWhenAutomationLogEntryV s5ErrorP
++ _symbolic ScCySb______pG s5ErrorP
++ _symbolic ScCySdSg______pG s5ErrorP
++ _symbolic ScCySi______pG s5ErrorP
++ _symbolic ScCy__________G So26WBSNotifyMeWhenSQLiteStoreC12SafariSharedE19AutomationExistenceO s5NeverO
++ _symbolic ScCy___________pG 12SafariShared29WBSNotifyMeWhenAutomationInfoV s5ErrorP
++ _symbolic ScCy___________pG 12SafariShared33WBSNotifyMeWhenAutomationLogEntryV s5ErrorP
++ _symbolic ScCyyt______pG s5ErrorP
++ _symbolic ScTyyt______pG s5ErrorP
++ _symbolic Sccy__________G So33WBSSQLiteStoreOpenOperationStatusV s5NeverO
++ _symbolic ShySSGz_Xx
++ _symbolic Si2id_SS4uuidt
++ _symbolic Si6infoID_t
++ _symbolic So17OS_dispatch_groupC
++ _symbolic So18WBSAnalyticsLoggerC
++ _symbolic So18WBSAnalyticsLoggerCSgXw
++ _symbolic So18WBSAnalyticsLoggerCSgXwz_Xx
++ _symbolic So18WBSAnalyticsLoggerCXDXMT
++ _symbolic So20WBSPerSitePreferenceC
++ _symbolic So26WBSNotifyMeWhenSQLiteStoreC
++ _symbolic So26WBSNotifyMeWhenSQLiteStoreCSgXw
++ _symbolic So26WBSNotifyMeWhenSQLiteStoreCSgXwz_Xx
++ _symbolic So26WBSNotifyMeWhenSQLiteStoreCXDXMT
++ _symbolic So27WBSAutoDarkModeWebsiteStateCIegg_
++ _symbolic So27WBSAutoDarkModeWebsiteStateCIeyBy_
++ _symbolic So27WBSCertificateBypassManagerCSgXw
++ _symbolic So27WBSCertificateBypassManagerCSgXwz_Xx
++ _symbolic So27WBSCertificateBypassManagerCXDXMT
++ _symbolic So28WBSAutoDarkModeQuirksManagerCSgXw
++ _symbolic So28WBSAutoDarkModeQuirksManagerCSgXwz_Xx
++ _symbolic So32WBSAutoDarkModePreferenceManagerC
++ _symbolic So32WBSAutoDarkModePreferenceManagerCSgXw
++ _symbolic So32WBSAutoDarkModePreferenceManagerCSgXwz_Xx
++ _symbolic So32WBSAutoDarkModePreferenceManagerCXDXMT
++ _symbolic _____ 10Foundation4DataV
++ _symbolic _____ 10SafariCore23WBSAnySendableEncodableV
++ _symbolic _____ 12SafariShared10VersionTag33_B3A9A45F5D1E9250B2C8374B4A4E2B17LLV
++ _symbolic _____ 12SafariShared12WBSAgentSpanV
++ _symbolic _____ 12SafariShared12WBSAgentSpanV10CodingKeys33_FF87D141FA68B7623567D69FB77765DELLO
++ _symbolic _____ 12SafariShared12WBSAgentSpanV11PullOutcomeV
++ _symbolic _____ 12SafariShared12WBSAgentSpanV11PullOutcomeV10CodingKeys33_FF87D141FA68B7623567D69FB77765DELLO
++ _symbolic _____ 12SafariShared12WBSAgentSpanV11PullOutcomeV6StatusO
++ _symbolic _____ 12SafariShared12WBSAgentSpanV4KindV
++ _symbolic _____ 12SafariShared12WBSAgentSpanV4ToolV
++ _symbolic _____ 12SafariShared12WBSAgentSpanV4ToolV10CodingKeys33_FF87D141FA68B7623567D69FB77765DELLO
++ _symbolic _____ 12SafariShared12WBSAgentSpanV7FailureV
++ _symbolic _____ 12SafariShared12WBSAgentSpanV7FailureV10CodingKeys33_FF87D141FA68B7623567D69FB77765DELLO
++ _symbolic _____ 12SafariShared12WBSAgentSpanV7FailureV11DispositionO
++ _symbolic _____ 12SafariShared12WBSAgentSpanV7PendingV
++ _symbolic _____ 12SafariShared13Crx3_KeyProofV
++ _symbolic _____ 12SafariShared13WBSAgentToolsO14PageContentKeyO
++ _symbolic _____ 12SafariShared13WBSAgentToolsO17PageContentFormatO
++ _symbolic _____ 12SafariShared17CertificateBypass33_B3A9A45F5D1E9250B2C8374B4A4E2B17LLV
++ _symbolic _____ 12SafariShared17CertificateBypass33_B3A9A45F5D1E9250B2C8374B4A4E2B17LLV10CodingKeysO
++ _symbolic _____ 12SafariShared18Crx3_PackageHeaderV
++ _symbolic _____ 12SafariShared18WBSAgentControllerC13RequestedTool33_BB0CD2D0C8036A089F40018934D354B9LLV
++ _symbolic _____ 12SafariShared18WBSAgentControllerC20TimedTranscriptEvent33_BB0CD2D0C8036A089F40018934D354B9LLV
++ _symbolic _____ 12SafariShared19Crx3_SignedMetadataV
++ _symbolic _____ 12SafariShared20CertificateBypassKey33_B3A9A45F5D1E9250B2C8374B4A4E2B17LLV
++ _symbolic _____ 12SafariShared24WBSNotifyMeWhenFrequencyO
++ _symbolic _____ 12SafariShared28WBSNotifyMeWhenUserAgentKindO
++ _symbolic _____ 12SafariShared29WBSNotifyMeWhenAutomationInfoV
++ _symbolic _____ 12SafariShared30V2CertificateBypassStoreFormat33_B3A9A45F5D1E9250B2C8374B4A4E2B17LLV
++ _symbolic _____ 12SafariShared30V2CertificateBypassStoreFormat33_B3A9A45F5D1E9250B2C8374B4A4E2B17LLV10CodingKeysO
++ _symbolic _____ 12SafariShared30WBSNotifyMeWhenShortcutsClientV
++ _symbolic _____ 12SafariShared30WBSNotifyMeWhenShortcutsClientV5ErrorO
++ _symbolic _____ 12SafariShared31WBSNotifyMeWhenPollingFrequencyV
++ _symbolic _____ 12SafariShared31WBSNotifyMeWhenPollingFrequencyV10CodingKeys33_1615E2E476FC4DE95191D6DD5D55D7FDLLO
++ _symbolic _____ 12SafariShared32WBSNotifyMeWhenAutomationLogTypeO
++ _symbolic _____ 12SafariShared33WBSNotifyMeWhenAutomationLogEntryV
++ _symbolic _____ 12SafariShared34WBSNotifyMeWhenShortcutsAutomationV
++ _symbolic _____ 12SafariShared37WBSNotifyMeWhenTriggerConditionCustomV
++ _symbolic _____ 12SafariShared39WBSNotifyMeWhenShortcutsCreationRequestV
++ _symbolic _____ 12SafariShared41WBSNotifyMeWhenTriggerConditionSuggestionV
++ _symbolic _____ 12SafariShared43WBSAgentControllerFinalTurnPastTotalTimeoutV
++ _symbolic _____ 16GenerativeAgents15TranscriptEventV
++ _symbolic _____ 21InternalSwiftProtobuf14UnknownStorageV
++ _symbolic _____ SC35WBSAutomaticPasswordChangeErrorCodeLeV
++ _symbolic _____ SD12SafariSharedAA20CertificateBypassKey33_B3A9A45F5D1E9250B2C8374B4A4E2B17LLVRszAA0cD0ACLLVRs_rlE0cD10StoreErrorO
++ _symbolic _____ So18NSNotificationNamea
++ _symbolic _____ So26WBSNotifyMeWhenSQLiteStoreC12SafariSharedE19AutomationExistenceO
++ _symbolic _____ So26WBSNotifyMeWhenSQLiteStoreC12SafariSharedE5ErrorO
++ _symbolic _____ So26WBSNotifyMeWhenSQLiteStoreC12SafariSharedE9SyncStateO
++ _symbolic _____ So30WBSAutoDarkModePreferenceValueV
++ _symbolic _____ So33WBSSQLiteStoreOpenOperationStatusV
++ _symbolic _____ So35WBSAutomaticPasswordChangeErrorCodeV
++ _symbolic _____ So44WBSAnalyticsNotifyMeWhenTriggerConditionTypeV
++ _symbolic _____ s8DurationV
++ _symbolic _____3key______5valuet 12SafariShared20CertificateBypassKey33_B3A9A45F5D1E9250B2C8374B4A4E2B17LLV AA0cD0ACLLV
++ _symbolic _____Iegy_ So30WBSAutoDarkModePreferenceValueV
++ _symbolic _____IeyBd_ 10ObjectiveC8ObjCBoolV
++ _symbolic _____IeyBy_ 10ObjectiveC8ObjCBoolV
++ _symbolic _____IeyBy_ So30WBSAutoDarkModePreferenceValueV
++ _symbolic _____SbIegyy_ So30WBSAutoDarkModePreferenceValueV
++ _symbolic _____Sg 10Foundation8CalendarV
++ _symbolic _____Sg 10Foundation8TimeZoneV
++ _symbolic _____Sg 10SafariCore44WBSAutomaticPasswordChangeManualInterventionO
++ _symbolic _____Sg 10SafariCore44WBSAutomaticPasswordChangeManualInterventionO6RecordV
++ _symbolic _____Sg 12SafariShared12WBSAgentSpanV4ToolV
++ _symbolic _____Sg 12SafariShared12WBSAgentSpanV7FailureV
++ _symbolic _____Sg 12SafariShared17CertificateBypass33_B3A9A45F5D1E9250B2C8374B4A4E2B17LLV
++ _symbolic _____Sg 12SafariShared29WBSNotifyMeWhenAutomationInfoV
++ _symbolic _____Sg 12SafariShared33WBSNotifyMeWhenAutomationLogEntryV
++ _symbolic _____Sg 12SafariShared43WBSAgentControllerFinalTurnPastTotalTimeoutV
++ _symbolic _____Sg 19VoiceShortcutClient19CalendarDateTriggerV
++ _symbolic _____Sg s15ContinuousClockV7InstantV
++ _symbolic _____Sg s5Int32V
++ _symbolic _____Sg8category______Sg14retryAfterDatet 26AppleIntelligenceReporting0aB13ErrorCategoryO 10Foundation4DateV
++ _symbolic _____Sg_ABt s15ContinuousClockV7InstantV
++ _symbolic _____SgyYbcSg s5Int32V
++ _symbolic __________IeyByy_ So30WBSAutoDarkModePreferenceValueV 10ObjectiveC8ObjCBoolV
++ _symbolic ___________t 10Foundation4UUIDV AA4DateV
++ _symbolic ___________t 12SafariShared20CertificateBypassKey33_B3A9A45F5D1E9250B2C8374B4A4E2B17LLV AA0cD0ACLLV
++ _symbolic ______p 10Foundation15ContiguousBytesP
++ _symbolic ______p 10SafariCore17WBSSQLiteBindableP
++ _symbolic ______p 12SafariShared31WBSAgentTranscriptSizeObservingP
++ _symbolic ______p 16GenerativeAgents11InputFilterP
++ _symbolic ______p 19VoiceShortcutClient7TriggerP
++ _symbolic ______pSg s5ErrorP
++ _symbolic ______pXp s5ErrorP
++ _symbolic _____ySS4name_SS9argumentsSS2idtG s23_ContiguousArrayStorageC
++ _symbolic _____ySSSDySS_____GG s18_DictionaryStorageC 12SafariShared17CertificateBypass33_B3A9A45F5D1E9250B2C8374B4A4E2B17LLV
++ _symbolic _____ySSSbG s18_DictionaryStorageC
++ _symbolic _____ySS_____G s18_DictionaryStorageC 12SafariShared17CertificateBypass33_B3A9A45F5D1E9250B2C8374B4A4E2B17LLV
++ _symbolic _____ySS_____G s18_DictionaryStorageC 12SafariShared34WBSNotifyMeWhenShortcutsAutomationV
++ _symbolic _____ySS______tG s23_ContiguousArrayStorageC 12SafariShared34WBSNotifyMeWhenShortcutsAutomationV
++ _symbolic _____ySi2id_SS4uuidtG s23_ContiguousArrayStorageC
++ _symbolic _____ySo14WBSPageContextCG s11_SetStorageC
++ _symbolic _____y_____G 12SafariShared10VersionTag33_B3A9A45F5D1E9250B2C8374B4A4E2B17LLV AA30V2CertificateBypassStoreFormatACLLV
++ _symbolic _____y_____G s11_SetStorageC 10Foundation8CalendarV9ComponentO
++ _symbolic _____y_____G s11_SetStorageC 10SafariCore44WBSAutomaticPasswordChangeManualInterventionO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12SafariShared17CertificateBypass33_B3A9A45F5D1E9250B2C8374B4A4E2B17LLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12SafariShared30V2CertificateBypassStoreFormat33_B3A9A45F5D1E9250B2C8374B4A4E2B17LLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12SafariShared31WBSNotifyMeWhenPollingFrequencyV10CodingKeys33_1615E2E476FC4DE95191D6DD5D55D7FDLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12SafariShared12WBSAgentSpanV10CodingKeys33_FF87D141FA68B7623567D69FB77765DELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12SafariShared12WBSAgentSpanV11PullOutcomeV10CodingKeys33_FF87D141FA68B7623567D69FB77765DELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12SafariShared12WBSAgentSpanV4ToolV10CodingKeys33_FF87D141FA68B7623567D69FB77765DELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12SafariShared12WBSAgentSpanV7FailureV10CodingKeys33_FF87D141FA68B7623567D69FB77765DELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12SafariShared17CertificateBypass33_B3A9A45F5D1E9250B2C8374B4A4E2B17LLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12SafariShared30V2CertificateBypassStoreFormat33_B3A9A45F5D1E9250B2C8374B4A4E2B17LLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12SafariShared31WBSNotifyMeWhenPollingFrequencyV10CodingKeys33_1615E2E476FC4DE95191D6DD5D55D7FDLLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation8CalendarV14RecurrenceRuleV7WeekdayO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation8CalendarV9ComponentO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10SafariCore26WBSLocalizedPluralVariableV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10SafariCore44WBSAutomaticPasswordChangeManualInterventionO6RecordV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12SafariShared12WBSAgentSpanV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12SafariShared29WBSNotifyMeWhenAutomationInfoV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12SafariShared34WBSNotifyMeWhenShortcutsAutomationV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s8DurationV
++ _symbolic _____y_____SgG s23_ContiguousArrayStorageC s8DurationV
++ _symbolic _____y______G 12SafariShared12WBSAgentSpanV7PendingV AC11PullOutcomeV
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV AC4DateV
++ _symbolic _____y__________G s18_DictionaryStorageC 12SafariShared20CertificateBypassKey33_B3A9A45F5D1E9250B2C8374B4A4E2B17LLV AC0eF0AELLV
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 19VoiceShortcutClient7TriggerP
++ _symbolic _____y______pXpG s23_ContiguousArrayStorageC 12SafariShared28CertificateBypassStoreFormat33_B3A9A45F5D1E9250B2C8374B4A4E2B17LLP
++ _symbolic _____y_____yx_G______p_G Scs12ContinuationV 12SafariShared18WBSAgentControllerC20TimedTranscriptEvent33_BB0CD2D0C8036A089F40018934D354B9LLV s5ErrorP
++ _symbolic _____yypG s23_ContiguousArrayStorageC
++ _symbolic qd________pIegHrzo_ s5ErrorP
++ _symbolic yXl_____IeyByy_ 10ObjectiveC8ObjCBoolV
++ _symbolic ypSbIegny_
++ _type_layout_string 12SafariShared12WBSAgentSpanV11PullOutcomeV
++ _type_layout_string 12SafariShared12WBSAgentSpanV4KindV
++ _type_layout_string 12SafariShared12WBSAgentSpanV4ToolV
++ _type_layout_string 12SafariShared12WBSAgentSpanV7FailureV
++ _type_layout_string 12SafariShared20CertificateBypassKey33_B3A9A45F5D1E9250B2C8374B4A4E2B17LLV
++ _type_layout_string 12SafariShared30V2CertificateBypassStoreFormat33_B3A9A45F5D1E9250B2C8374B4A4E2B17LLV
++ _type_layout_string 12SafariShared33WBSNotifyMeWhenAutomationLogEntryV
++ _type_layout_string 12SafariShared37WBSNotifyMeWhenTriggerConditionCustomV
++ _type_layout_string 12SafariShared41WBSNotifyMeWhenTriggerConditionSuggestionV
++ _type_layout_string 12SafariShared43WBSAgentControllerFinalTurnPastTotalTimeoutV
++ _type_layout_string 29GenerativeFunctionsFoundation9GenerableRzl12SafariShared18WBSAgentControllerC13RequestedTool33_BB0CD2D0C8036A089F40018934D354B9LLVyx_G
++ _type_layout_string So26WBSNotifyMeWhenSQLiteStoreC12SafariSharedE5ErrorO
++ _webKitNewBugs.component
++ _webKitNewBugs.onceToken
+- +[WBSCertificateBypassManager sharedManager]
+- -[WBSAutoFillTestController runTest:bundle:storeResultsIn:completionHandler:]
+- -[WBSAutoFillTestController runTest:bundle:storeResultsIn:tryCount:completionHandler:]
+- -[WBSAutoFillValuesResult setSuspectedProvenanceOfOneTimeCode:]
+- -[WBSAutoFillValuesResult suspectedProvenanceOfOneTimeCode]
+- -[WBSBiomeDonationManager _windowProxyStream]
+- -[WBSBulkClassificationController _runClassificationForURL:viewportSize:delegate:completionHandler:]
+- -[WBSCertificateBypassManager .cxx_destruct]
+- -[WBSCertificateBypassManager _clearBypassesInRelationToDate:comparison:]
+- -[WBSCertificateBypassManager _didCertificateExceptionsApplySuccessfully:protectionSpace:]
+- -[WBSCertificateBypassManager _hostAndPortForProtectionSpace:]
+- -[WBSCertificateBypassManager _readStateFromStorage]
+- -[WBSCertificateBypassManager clearCertificateBypassesCreatedAfterDate:]
+- -[WBSCertificateBypassManager clearCertificateBypassesCreatedBeforeDate:]
+- -[WBSCertificateBypassManager clearCertificateBypassesForHostIfNecessary:withTrust:]
+- -[WBSCertificateBypassManager didInvalidCertificateExceptionsApplySuccessfullyForProtectionSpace:inPrivateBrowsing:]
+- -[WBSCertificateBypassManager didInvalidCertificateExceptionsApplySuccessfullyForURL:trust:inPrivateBrowsing:]
+- -[WBSCertificateBypassManager init]
+- -[WBSCertificateBypassManager rememberCertificateBypassForProtectionSpace:inPrivateBrowsing:]
+- -[WBSCertificateBypassManager savePendingChangesBeforeTermination]
+- -[WBSFormControlMetadata suspectedMaskedEmailAddressForOneTimeCode]
+- -[WBSFormControlMetadata suspectedProvenanceOfOneTimeCode]
+- -[WBSFormDataController _currentOneTimeCodeFromProvider:forURL:receivedAfterDate:fieldClassification:]
+- -[WBSFormDataController _getOneTimeCodeForField:atURL:snapshottedGenerator:oneTimeCodeProvider:receivedAfterDate:staleOneTimeCodeThresholdDate:completionHandler:]
+- -[WBSFormDataController _waitForOneTimeCodeWithProvider:receivedAfterDate:timeout:atURL:fieldClassification:completionHandler:]
+- -[WBSFormDataController autoFillValuesForAutomaticPasswordChangeWithAccountInfo:formContexts:savedAccountContext:options:generatedPassword:oneTimeCodeProvider:earliestOneTimeCodeDate:staleOneTimeCodeThresholdDate:completionHandler:]
+- -[WBSFormMetadataController autoFillFormInFrame:withValues:setAutoFilled:focusFieldAfterFilling:fieldToFocus:fieldsToObscure:submitForm:completionHandler:]
+- -[WBSFormMetadataController autoFillOneTimeCodeFieldsInFrame:withValue:shouldSubmit:completionHandler:]
+- -[WBSMutableFormControlMetadata setSuspectedMaskedEmailAddressForOneTimeCode:]
+- -[WBSMutableFormControlMetadata setSuspectedProvenanceOfOneTimeCode:]
+- -[WBSPageTest initWithIdentifier:pageURL:expectedResultsURL:dictionary:]
+- -[WBSTrialManager isReady]
+- -[WBSTrialSearchParameters _updateWithTrial:forTrial:]
+- -[WBSTrialSearchParameters characterThresholdForAnywhereInTitleOrURL]
+- -[WBSTrialSearchParameters characterThresholdForStartOfTitleWordMatchLongEnoughForTopHit]
+- -[WBSTrialSearchParameters characterThresholdForStartOfTitleWord]
+- -[WBSTrialSearchParameters characterThresholdForStartOfTitle]
+- -[WBSTrialSearchParameters characterThresholdForStartOfURLPathComponent]
+- -[WBSTrialSearchParameters characterThresholdForStartOfURL]
+- -[WBSTrialSearchParameters enableCompletionListHistoryDeduplicationSwitchToTabValue]
+- -[WBSTrialSearchParameters enableCompletionListHistoryDeduplicationValue]
+- -[WBSTrialSearchParameters isDedupeThroughAlternativeURLsEnabled]
+- -[WBSTrialSearchParameters isResultFilteringDisabled]
+- -[WBSTrialSearchParameters matchingWordsInTitleThreshold]
+- -[WBSTrialSearchParameters maxBookmarksAndHistoryItems]
+- -[WBSTrialSearchParameters normalizedTopSitesScoreAndVisitCountMultiplier]
+- -[WBSTrialSearchParameters percentageThresholdForAnywhereInTitle]
+- -[WBSTrialSearchParameters percentageThresholdForAnywhereInURL]
+- -[WBSTrialSearchParameters searchProviderIdentifier]
+- -[WBSTrialSearchParameters setCharacterThresholdForAnywhereInTitleOrURL:]
+- -[WBSTrialSearchParameters setCharacterThresholdForStartOfTitle:]
+- -[WBSTrialSearchParameters setCharacterThresholdForStartOfTitleWord:]
+- -[WBSTrialSearchParameters setCharacterThresholdForStartOfTitleWordMatchLongEnoughForTopHit:]
+- -[WBSTrialSearchParameters setCharacterThresholdForStartOfURL:]
+- -[WBSTrialSearchParameters setCharacterThresholdForStartOfURLPathComponent:]
+- -[WBSTrialSearchParameters setEnableCompletionListHistoryDeduplicationSwitchToTabValue:]
+- -[WBSTrialSearchParameters setEnableCompletionListHistoryDeduplicationValue:]
+- -[WBSTrialSearchParameters setIsDedupeThroughAlternativeURLsEnabled:]
+- -[WBSTrialSearchParameters setIsResultFilteringDisabled:]
+- -[WBSTrialSearchParameters setMatchingWordsInTitleThreshold:]
+- -[WBSTrialSearchParameters setMaxBookmarksAndHistoryItems:]
+- -[WBSTrialSearchParameters setNormalizedTopSitesScoreAndVisitCountMultiplier:]
+- -[WBSTrialSearchParameters setPercentageThresholdForAnywhereInTitle:]
+- -[WBSTrialSearchParameters setPercentageThresholdForAnywhereInURL:]
+- -[WBSTrialSearchParameters setStrengthenAutocompleteTriggerExtensionMatching:]
+- -[WBSTrialSearchParameters strengthenAutocompleteTriggerExtensionMatching]
+- -[_WBSOneTimeCodeObserver .cxx_destruct]
+- -[_WBSOneTimeCodeObserver initWithHandler:]
+- -[_WBSOneTimeCodeObserver oneTimeCodeProviderDeliveredCodesDidChange:]
+- GCC_except_table211
+- GCC_except_table243
+- GCC_except_table255
+- GCC_except_table289
+- GCC_except_table301
+- GCC_except_table313
+- GCC_except_table316
+- _BMSafariWindowProxyIdentifier
+- _OBJC_CLASS_$__WBSOneTimeCodeObserver
+- _OBJC_IVAR_$_WBSAutoFillValuesResult._suspectedProvenanceOfOneTimeCode
+- _OBJC_IVAR_$_WBSBiomeDonationManager._windowProxyStream
+- _OBJC_IVAR_$_WBSCertificateBypassManager._bypassedHostsToCertificateExceptions
+- _OBJC_IVAR_$_WBSCertificateBypassManager._bypassedHostsToCertificateExceptionsInPrivateBrowsing
+- _OBJC_IVAR_$_WBSCertificateBypassManager._plistWriter
+- _OBJC_IVAR_$_WBSFormControlMetadata._suspectedMaskedEmailAddressForOneTimeCode
+- _OBJC_IVAR_$_WBSFormControlMetadata._suspectedProvenanceOfOneTimeCode
+- _OBJC_IVAR_$_WBSTrialSearchParameters._characterThresholdForAnywhereInTitleOrURL
+- _OBJC_IVAR_$_WBSTrialSearchParameters._characterThresholdForStartOfTitle
+- _OBJC_IVAR_$_WBSTrialSearchParameters._characterThresholdForStartOfTitleWord
+- _OBJC_IVAR_$_WBSTrialSearchParameters._characterThresholdForStartOfTitleWordMatchLongEnoughForTopHit
+- _OBJC_IVAR_$_WBSTrialSearchParameters._characterThresholdForStartOfURL
+- _OBJC_IVAR_$_WBSTrialSearchParameters._characterThresholdForStartOfURLPathComponent
+- _OBJC_IVAR_$_WBSTrialSearchParameters._enableCompletionListHistoryDeduplicationSwitchToTabValue
+- _OBJC_IVAR_$_WBSTrialSearchParameters._enableCompletionListHistoryDeduplicationValue
+- _OBJC_IVAR_$_WBSTrialSearchParameters._isDedupeThroughAlternativeURLsEnabled
+- _OBJC_IVAR_$_WBSTrialSearchParameters._isResultFilteringDisabled
+- _OBJC_IVAR_$_WBSTrialSearchParameters._matchingWordsInTitleThreshold
+- _OBJC_IVAR_$_WBSTrialSearchParameters._maxBookmarksAndHistoryItems
+- _OBJC_IVAR_$_WBSTrialSearchParameters._normalizedTopSitesScoreAndVisitCountMultiplier
+- _OBJC_IVAR_$_WBSTrialSearchParameters._percentageThresholdForAnywhereInTitle
+- _OBJC_IVAR_$_WBSTrialSearchParameters._percentageThresholdForAnywhereInURL
+- _OBJC_IVAR_$_WBSTrialSearchParameters._strengthenAutocompleteTriggerExtensionMatching
+- _OBJC_IVAR_$__WBSOneTimeCodeObserver._handler
+- _OBJC_METACLASS_$__WBSOneTimeCodeObserver
+- _TRIAL_characterThresholdForAnywhereInTitleOrURL
+- _TRIAL_characterThresholdForStartOfTitle
+- _TRIAL_characterThresholdForStartOfTitleWord
+- _TRIAL_characterThresholdForStartOfURL
+- _TRIAL_characterThresholdForStartOfURLPathComponent
+- _TRIAL_enableCompletionListHistoryDeduplication
+- _TRIAL_enableDedupeThroughAlternativeURLs
+- _TRIAL_enableGraphicIconsInCompletionList
+- _TRIAL_enableTopQueryIntent
+- _TRIAL_matchingWordsInTitleThreshold
+- _TRIAL_maxBookmarksAndHistoryItems
+- _TRIAL_normalizedTopSitesScoreAndVisitCountMultiplier
+- _TRIAL_percentageThresholdForAnywhereInTitle
+- _TRIAL_percentageThresholdForAnywhereInURL
+- _TRIAL_shouldPromoteRecentSearchesStartPageModuleBelowFavorites
+- _TRIAL_shouldPromoteRecentSearchesStartPageModuleToTheTop
+- _TRIAL_strengthenAutocompleteTriggerExtensionMatching
+- _WBSAutomaticPasswordChangeOneTimeCodeDeliveryTimeout
+- _WBSDebugDisableAgentTimeouts
+- _WBSDisableTrial
+- _WBSFormMetadataControlSuspectedMaskedEmailAddressForOneTimeCodeKey
+- _WBSFormMetadataControlSuspectedProvenanceOfOneTimeCodeKey
+- _WBSOSLogAutomaticPasswordChange
+- _WBSOSLogCertificates
+- _WBSSearchRelevanceOverrideDefaults
+- _WBSSearchRelevanceStrengthenAutocompleteTriggerExtensionMatching
+- __OBJC_$_CLASS_METHODS_WBSCertificateBypassManager
+- __OBJC_$_CLASS_PROP_LIST_WBSCertificateBypassManager
+- __OBJC_$_INSTANCE_METHODS_WBSCertificateBypassManager
+- __OBJC_$_INSTANCE_METHODS__WBSOneTimeCodeObserver
+- __OBJC_$_INSTANCE_VARIABLES_WBSCertificateBypassManager
+- __OBJC_$_INSTANCE_VARIABLES__WBSOneTimeCodeObserver
+- __OBJC_$_PROP_LIST__WBSOneTimeCodeObserver
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SFAppAutoFillOneTimeCodeProviderObserver
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SFAppAutoFillOneTimeCodeProviderObserver
+- __OBJC_$_PROTOCOL_REFS_SFAppAutoFillOneTimeCodeProviderObserver
+- __OBJC_CLASS_PROTOCOLS_$__WBSOneTimeCodeObserver
+- __OBJC_CLASS_RO_$_WBSCertificateBypassManager
+- __OBJC_CLASS_RO_$__WBSOneTimeCodeObserver
+- __OBJC_LABEL_PROTOCOL_$_SFAppAutoFillOneTimeCodeProviderObserver
+- __OBJC_METACLASS_RO_$_WBSCertificateBypassManager
+- __OBJC_METACLASS_RO_$__WBSOneTimeCodeObserver
+- __OBJC_PROTOCOL_$_SFAppAutoFillOneTimeCodeProviderObserver
+- __ZL14_urlForStoragev
+- __ZN12SafariShared18ReaderJSController14loadNewArticleEv
+- __ZN12SafariShared18ReaderJSController15scrollToSummaryEv
+- __ZN12SafariShared18ReaderJSController16setArticleLocaleEP8NSString
+- __ZN12SafariShared18ReaderJSController16setConfigurationEP12NSDictionary
+- __ZN12SafariShared18ReaderJSController17setArticleSummaryEP8NSStringS2_S2_S2_P7NSArrayIS2_ES5_S5_iS2_
+- __ZN12SafariShared18ReaderJSController17setReaderIsActiveEb
+- __ZN12SafariShared18ReaderJSController19stopLoadingNextPageEv
+- __ZN12SafariShared18ReaderJSController21nextPageArticleFinderEv
+- __ZN12SafariShared18ReaderJSController22resetToSummarizeButtonEv
+- __ZN12SafariShared18ReaderJSController24beginReaderSummarizationEv
+- __ZN12SafariShared18ReaderJSController25readerWillEnterBackgroundEv
+- __ZN12SafariShared18ReaderJSController26clearNextPageArticleFinderEv
+- __ZN12SafariShared18ReaderJSController27updateSummaryTextVisibilityEb
+- __ZN12SafariShared18ReaderJSController28insertSummaryTextPlaceholderEv
+- __ZN12SafariShared18ReaderJSController33setOnDeviceSummaryButtonWithTitleEP8NSString
+- __ZN12SafariShared18ReaderJSController36isReaderViewInSeparateProcessEnabledEv
+- __ZN12SafariShared18ReaderJSController39setIsReaderViewInSeparateProcessEnabledEb
+- __ZN12SafariSharedL11jsGoForwardEPK15OpaqueJSContextP13OpaqueJSValueS4_mPKPKS3_PS6_
+- __ZN12SafariSharedL16jsIsInStickyModeEPK15OpaqueJSContextP13OpaqueJSValueS4_mPKPKS3_PS6_
+- __ZN12SafariSharedL17jsArticleScrolledEPK15OpaqueJSContextP13OpaqueJSValueS4_mPKPKS3_PS6_
+- __ZN12SafariSharedL19jsReportReaderEventEPK15OpaqueJSContextP13OpaqueJSValueS4_mPKPKS3_PS6_
+- __ZN12SafariSharedL21jsReaderOperationModeEPK15OpaqueJSContextP13OpaqueJSValueS4_mPKPKS3_PS6_
+- __ZN12SafariSharedL22jsInitialConfigurationEPK15OpaqueJSContextP13OpaqueJSValueS4_mPKPKS3_PS6_
+- __ZN12SafariSharedL22jsNextPageLoadCompleteEPK15OpaqueJSContextP13OpaqueJSValueS4_mPKPKS3_PS6_
+- __ZN12SafariSharedL22jsPrepareNextPageFrameEPK15OpaqueJSContextP13OpaqueJSValueS4_mPKPKS3_PS6_
+- __ZN12SafariSharedL23jsCachedTopScrollOffsetEPK15OpaqueJSContextP13OpaqueJSValueS4_mPKPKS3_PS6_
+- __ZN12SafariSharedL23jsDoneLoadingReaderPageEPK15OpaqueJSContextP13OpaqueJSValueS4_mPKPKS3_PS6_
+- __ZN12SafariSharedL23jsNextPageArticleFinderEPK15OpaqueJSContextP13OpaqueJSValueS4_mPKPKS3_PS6_
+- __ZN12SafariSharedL23jsOriginalArticleFinderEPK15OpaqueJSContextP13OpaqueJSValueS4_mPKPKS3_PS6_
+- __ZN12SafariSharedL23jsReportSummaryFeedbackEPK15OpaqueJSContextP13OpaqueJSValueS4_mPKPKS3_PS6_
+- __ZN12SafariSharedL24jsRequestOnDeviceSummaryEPK15OpaqueJSContextP13OpaqueJSValueS4_mPKPKS3_PS6_
+- __ZN12SafariSharedL25jsSetArticleBaseURLStringEPK15OpaqueJSContextP13OpaqueJSValueS4_mPKPKS3_PS6_
+- __ZN12SafariSharedL26jsContentIsReadyForDisplayEPK15OpaqueJSContextP13OpaqueJSValueS4_mPKPKS3_PS6_
+- __ZN12SafariSharedL28jsClearNextPageArticleFinderEPK15OpaqueJSContextP13OpaqueJSValueS4_mPKPKS3_PS6_
+- __ZN12SafariSharedL30jsInitialArticleScrollPositionEPK15OpaqueJSContextP13OpaqueJSValueS4_mPKPKS3_PS6_
+- __ZN12SafariSharedL31jsDidChangeNextPageLoadingStateEPK15OpaqueJSContextP13OpaqueJSValueS4_mPKPKS3_PS6_
+- __ZN12SafariSharedL31jsMaxDistanceForLoadingNextPageEPK15OpaqueJSContextP13OpaqueJSValueS4_mPKPKS3_PS6_
+- __ZN12SafariSharedL35jsReplaceSimpleTweetsWithRichTweetsEPK15OpaqueJSContextP13OpaqueJSValueS4_mPKPKS3_PS6_
+- __ZN12SafariSharedL35jsRequestDeactivationFromUserActionEPK15OpaqueJSContextP13OpaqueJSValueS4_mPKPKS3_PS6_
+- __ZN12SafariSharedL38g_isReaderViewInSeparateProcessEnabledE
+- __ZN12SafariSharedL8jsGoBackEPK15OpaqueJSContextP13OpaqueJSValueS4_mPKPKS3_PS6_
+- __ZN3WTF9HashTableIN12SafariShared21URLCompletionEntryKeyENS1_18URLCompletionEntryENS1_30URLCompletionEntryKeyExtractorENS1_22URLCompletionEntryHashENS1_29URLCompletionEntryValueTraitsENS1_27URLCompletionEntryKeyTraitsENS_10FastMallocEE11validateKeyILNS_17ShouldValidateKeyE1EEEvRKS3_
+- __ZNK12SafariShared18ReaderJSController21cachedTopScrollOffsetEv
+- __ZNK12SafariShared18ReaderJSController29maxDistanceForLoadingNextPageEv
+- __ZNK12SafariShared22ExtensionURLTranslator23decodeAndResolveFileURLEP5NSURL
+- __ZZ44+[WBSCertificateBypassManager sharedManager]E7manager
+- __ZZ44+[WBSCertificateBypassManager sharedManager]E9onceToken
+- __ZZL14_urlForStoragevE15settingsFileURL
+- ___100-[WBSBulkClassificationController _runClassificationForURL:viewportSize:delegate:completionHandler:]_block_invoke
+- ___102-[WBSFormDataController _currentOneTimeCodeFromProvider:forURL:receivedAfterDate:fieldClassification:]_block_invoke
+- ___103-[WBSFormMetadataController autoFillOneTimeCodeFieldsInFrame:withValue:shouldSubmit:completionHandler:]_block_invoke
+- ___103-[WBSFormMetadataController autoFillOneTimeCodeFieldsInFrame:withValue:shouldSubmit:completionHandler:]_block_invoke_2
+- ___127-[WBSFormDataController _waitForOneTimeCodeWithProvider:receivedAfterDate:timeout:atURL:fieldClassification:completionHandler:]_block_invoke
+- ___127-[WBSFormDataController _waitForOneTimeCodeWithProvider:receivedAfterDate:timeout:atURL:fieldClassification:completionHandler:]_block_invoke_2
+- ___127-[WBSFormDataController _waitForOneTimeCodeWithProvider:receivedAfterDate:timeout:atURL:fieldClassification:completionHandler:]_block_invoke_3
+- ___155-[WBSFormMetadataController autoFillFormInFrame:withValues:setAutoFilled:focusFieldAfterFilling:fieldToFocus:fieldsToObscure:submitForm:completionHandler:]_block_invoke
+- ___155-[WBSFormMetadataController autoFillFormInFrame:withValues:setAutoFilled:focusFieldAfterFilling:fieldToFocus:fieldsToObscure:submitForm:completionHandler:]_block_invoke_2
+- ___162-[WBSFormDataController _getOneTimeCodeForField:atURL:snapshottedGenerator:oneTimeCodeProvider:receivedAfterDate:staleOneTimeCodeThresholdDate:completionHandler:]_block_invoke
+- ___232-[WBSFormDataController autoFillValuesForAutomaticPasswordChangeWithAccountInfo:formContexts:savedAccountContext:options:generatedPassword:oneTimeCodeProvider:earliestOneTimeCodeDate:staleOneTimeCodeThresholdDate:completionHandler:]_block_invoke
+- ___232-[WBSFormDataController autoFillValuesForAutomaticPasswordChangeWithAccountInfo:formContexts:savedAccountContext:options:generatedPassword:oneTimeCodeProvider:earliestOneTimeCodeDate:staleOneTimeCodeThresholdDate:completionHandler:]_block_invoke_2
+- ___232-[WBSFormDataController autoFillValuesForAutomaticPasswordChangeWithAccountInfo:formContexts:savedAccountContext:options:generatedPassword:oneTimeCodeProvider:earliestOneTimeCodeDate:staleOneTimeCodeThresholdDate:completionHandler:]_block_invoke_3
+- ___232-[WBSFormDataController autoFillValuesForAutomaticPasswordChangeWithAccountInfo:formContexts:savedAccountContext:options:generatedPassword:oneTimeCodeProvider:earliestOneTimeCodeDate:staleOneTimeCodeThresholdDate:completionHandler:]_block_invoke_4
+- ___232-[WBSFormDataController autoFillValuesForAutomaticPasswordChangeWithAccountInfo:formContexts:savedAccountContext:options:generatedPassword:oneTimeCodeProvider:earliestOneTimeCodeDate:staleOneTimeCodeThresholdDate:completionHandler:]_block_invoke_5
+- ___232-[WBSFormDataController autoFillValuesForAutomaticPasswordChangeWithAccountInfo:formContexts:savedAccountContext:options:generatedPassword:oneTimeCodeProvider:earliestOneTimeCodeDate:staleOneTimeCodeThresholdDate:completionHandler:]_block_invoke_6
+- ___232-[WBSFormDataController autoFillValuesForAutomaticPasswordChangeWithAccountInfo:formContexts:savedAccountContext:options:generatedPassword:oneTimeCodeProvider:earliestOneTimeCodeDate:staleOneTimeCodeThresholdDate:completionHandler:]_block_invoke_7
+- ___232-[WBSFormDataController autoFillValuesForAutomaticPasswordChangeWithAccountInfo:formContexts:savedAccountContext:options:generatedPassword:oneTimeCodeProvider:earliestOneTimeCodeDate:staleOneTimeCodeThresholdDate:completionHandler:]_block_invoke_8
+- ___35-[WBSCertificateBypassManager init]_block_invoke
+- ___44+[WBSCertificateBypassManager sharedManager]_block_invoke
+- ___56-[WBSBiomeDonationManager _clearEventsDonatedSinceDate:]_block_invoke_11
+- ___73-[WBSCertificateBypassManager _clearBypassesInRelationToDate:comparison:]_block_invoke
+- ___84-[WBSCertificateBypassManager clearCertificateBypassesForHostIfNecessary:withTrust:]_block_invoke
+- ___86-[WBSAutoFillTestController runTest:bundle:storeResultsIn:tryCount:completionHandler:]_block_invoke
+- ___86-[WBSAutoFillTestController runTest:bundle:storeResultsIn:tryCount:completionHandler:]_block_invoke_2
+- ___block_descriptor_104_e8_32s40s48s56s64s72s80s88s96bs_e29_v24?0"NSArray"8"NSError"16ls32l8s40l8s48l8s56l8s96l8s64l8s72l8s80l8s88l8
+- ___block_descriptor_32_e26_B24?0"BMStoreEvent"8^B16l
+- ___block_descriptor_40_e8_32s_e35_"NSString"16?0"WBSFormMetadata"8ls32l8
+- ___block_descriptor_40_ea8_32s_e31_B16?0"SFAutoFillOneTimeCode"8ls32l8
+- ___block_descriptor_40_ea8_32s_e32_B16?0"WBSFormControlMetadata"8ls32l8
+- ___block_descriptor_40_ea8_32w_e26_"NSMutableDictionary"8?0lw32l8
+- ___block_descriptor_48_e8_32s40s_e38_v32?0"<WBSTestBundle>"8Q16?<v?B>24ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e48_v32?0"_WKFrameHandle"8"WBSFormMetadata"16^B24ls32l8s40l8
+- ___block_descriptor_48_ea8_32s40bs_e31_v16?0"SFAutoFillOneTimeCode"8ls32l8s40l8
+- ___block_descriptor_48_ea8_32s40s_e8_B16?0Q8ls32l8s40l8
+- ___block_descriptor_56_ea8_32s40s48bs_e31_v16?0"SFAutoFillOneTimeCode"8ls32l8s40l8s48l8
+- ___block_descriptor_56_ea8_32s40s_e39_v32?0"NSString"8"NSDictionary"16^B24ls32l8s40l8
+- ___block_descriptor_56_ea8_32s40s_e5_B8?0ls32l8s40l8
+- ___block_descriptor_57_ea8_32s_e21_^{OpaqueJSValue=}8?0ls32l8
+- ___block_descriptor_64_e8_32s40s48s56r_e32_v32?0"<WBSTest>"8Q16?<v?B>24ls32l8s40l8r56l8s48l8
+- ___block_descriptor_64_ea8_32s40bs48r56r_e31_v16?0"SFAutoFillOneTimeCode"8lr48l8s32l8r56l8s40l8
+- ___block_descriptor_64_ea8_32s40s48s56bs_e18_v16?0"NSString"8ls32l8s40l8s48l8s56l8
+- ___block_descriptor_75_ea8_32s40s_e21_^{OpaqueJSValue=}8?0ls32l8s40l8
+- ___block_descriptor_80_e8_32s40s48s56s64bs_e5_v8?0ls32l8s40l8s48l8s56l8s64l8
+- ___block_descriptor_80_e8_32s40s48s56s64s72bs_e5_v8?0ls32l8s40l8s48l8s56l8s64l8s72l8
+- ___block_descriptor_80_ea8_32s40s48s56bs64w_e5_v8?0lw64l8s56l8s32l8s40l8s48l8
+- ___block_descriptor_88_e8_32s40s48s56s64s72bs_e48_v24?0"<WBSFormsMetadataProvider>"8"NSError"16ls32l8s40l8s48l8s56l8s72l8s64l8
+- ___swift_closure_destructor.179Tm
+- ___swift_closure_destructor.21Tm
+- ___swift_closure_destructor.321Tm
+- ___swift_closure_destructor.57Tm
+- ___unnamed_41
+- ___unnamed_64
+- _automaticPasswordsSource
+- _automaticPasswordsSourceLength
+- _formMetadataClassificationSource
+- _formMetadataClassificationSourceLength
+- _formMetadataSource
+- _formMetadataSourceLength
+- _formMetadataUtilitiesSource
+- _formMetadataUtilitiesSourceLength
+- _keypath_get_selector_accountInfo
+- _keypath_get_selector_encryptionKey
+- _keypath_get_selector_sessionID
+- _keypath_get_selector_usesElementActionClassifier
+- _nodePathSource
+- _nodePathSourceLength
+- _passwordRulesParserJSSource
+- _passwordRulesParserJSSourceLength
+- _patternRegexpToPasswordRulesConverterSource
+- _patternRegexpToPasswordRulesConverterSourceLength
+- _strcmp
+- _symbolic G0R4_
+- _symbolic Say_____yxGG 12SafariShared25WBSBookmarksFolderClusterV
+- _symbolic SbSo7NSErrorCSgIeyByy_
+- _symbolic _____y___________p_G Scs12ContinuationV 16GenerativeAgents15TranscriptEventV s5ErrorP
+- _symbolic _____y___________p__G Scs12ContinuationV11YieldResultO 16GenerativeAgents15TranscriptEventV s5ErrorP
+- _symbolic _____y___________p__G Scs12ContinuationV15BufferingPolicyO 16GenerativeAgents15TranscriptEventV s5ErrorP
+CStrings:
++ "\nBEGIN\n    INSERT OR REPLACE INTO "
++ "\f"
++ " AND sync_state != "
++ " BLOB,\n    FOREIGN KEY ("
++ " INTEGER NOT NULL DEFAULT 0"
++ " INTEGER NOT NULL DEFAULT 1"
++ " INTEGER NOT NULL,\n    "
++ " INTEGER NOT NULL,\n    FOREIGN KEY ("
++ " INTEGER PRIMARY KEY AUTOINCREMENT,\n    "
++ " INTEGER PRIMARY KEY,\n    "
++ " IS NOT NULL\n    AND "
++ " REAL NOT NULL,\n    "
++ " Safari/605.1.15"
++ " TEXT NOT NULL UNIQUE,\n    "
++ " TEXT NOT NULL,\n    "
++ " TEXT PRIMARY KEY,\n    "
++ " [web content pid "
++ "\"\n  notificationMessage: \""
++ "\"\n  pollingFrequency: "
++ "\"\n  profileIdentifier: \""
++ "\"\n  publicPrompt: \""
++ "\"\n  shortcutName: \""
++ "\"\n  userQuery: \""
++ "\"\n  warningDisplayText: \""
++ "\"\n  websiteTitle: \""
++ "%#@numberOfTopics@ and %#@numberOfURLs@"
++ "%@ (%#@numberOfURLs@)"
++ "%@%@: %@"
++ "%@/%@"
++ "%@]"
++ "%@}"
++ "%lu Topics and %lu URLs"
++ "(Advanced) Custom Prompt:"
++ "(Short date) at (time). Relative label for the next Notify Me When check time. Ex: Mar 25 at 9:00AM."
++ "(Weekday name) at (time). Relative label for the next Notify Me When check time. Ex: Monday at 9:00AM."
++ ")\n    VALUES (NEW."
++ ")\nVALUES (?, ?, ?, ?)"
++ ")\nVALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"
++ ") ON DELETE CASCADE\n)"
++ ") ON DELETE CASCADE,\n    FOREIGN KEY ("
++ ",\n"
++ "-sf-tel-digit"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.3.Internal.sdk/usr/local/include/wtf/HashTable.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.3.Internal.sdk/usr/local/include/wtf/StdLibExtras.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.3.Internal.sdk/usr/local/include/wtf/Vector.h"
++ "466600"
++ "8626.1.12.10.3"
++ "@\"NSDictionary\"16@?0@\"WBSFormMetadata\"8"
++ "ALTER TABLE automation_info ADD COLUMN crdt_generation TEXT"
++ "ALTER TABLE automation_info ADD COLUMN last_notified_for_update_at REAL"
++ "ALTER TABLE automation_info ADD COLUMN notification_message TEXT"
++ "ALTER TABLE automation_info ADD COLUMN polling_frequency_data BLOB"
++ "ALTER TABLE automation_info ADD COLUMN profile_identifier TEXT"
++ "ALTER TABLE automation_info ADD COLUMN prompt TEXT"
++ "ALTER TABLE automation_info ADD COLUMN public_prompt TEXT"
++ "ALTER TABLE automation_info ADD COLUMN search_texts BLOB"
++ "ALTER TABLE automation_info ADD COLUMN shortcut_name TEXT"
++ "ALTER TABLE automation_info ADD COLUMN sync_data BLOB"
++ "ALTER TABLE automation_info ADD COLUMN sync_id TEXT"
++ "ALTER TABLE automation_info ADD COLUMN user_query TEXT"
++ "ALTER TABLE automation_info ADD COLUMN website_title TEXT"
++ "Adaptive Dark Mode Off"
++ "Adaptive Dark Mode On"
++ "Adding sync columns to %{public}s"
++ "Agent (%{public}s) failed while %{public}s after %{public}s — can't be retried, exiting with error: %{private}@."
++ "Agent (%{public}s) received a transcript event that is neither a model response nor a tool result; recording it as `unexpected` and not counting it as a turn."
++ "Agent Error (Notify Me When automation state)"
++ "Agent has timed out, having taken %{public}s to process."
++ "All set! Safari will:\n%1$@\nNotify you %2$@"
++ "All set! Safari will:\n%@"
++ "An item is back in stock."
++ "An item price drop was detected."
++ "An update was detected on this page."
++ "Assigned initial sync generations, highest is %lld"
++ "Attempting to get AutomationInfo for %{private}s"
++ "AutoDarkMode"
++ "AutoDarkModePreference"
++ "Automation creation confirmation condition text for back in stock (Notify Me When)"
++ "Automation creation confirmation condition text for custom prompt monitoring (Notify Me When). %@ is the custom prompt the user entered."
++ "Automation creation confirmation condition text for event registration (Notify Me When)"
++ "Automation creation confirmation condition text for price drop (Notify Me When)"
++ "AutomationInfo not found"
++ "Back in Stock (Notify me When)"
++ "Backfilled %{public}s = %{public}ld for %ld pre-existing automation(s)"
++ "Bailing before donating search engine choice because Biome stream donation is not available"
++ "Bailing before donating search engine choice because search engine identifier is nil"
++ "Bailing before donating search engine choice because the event object could not be created"
++ "Bailing before donating search engine choice because this code is running in STP"
++ "BypassedInvalidCertificateWarningV2.plist"
++ "CREATE INDEX IF NOT EXISTS automation_info_sync_generation_index ON "
++ "CREATE TABLE IF NOT EXISTS "
++ "CREATE TRIGGER updateLatestLog AFTER INSERT ON "
++ "Cannot migrate to schema version %{public}d: database is not open"
++ "Check daily at approximately %@"
++ "Check every %1$@ at approximately %2$@"
++ "Check every %1$@ of the month at approximately %2$@"
++ "Check every hour"
++ "Checked by Another Device"
++ "Checked by Another Device (Notify Me When automation state)"
++ "Confirmation message shown after a Notify Me When automation is created. %1$@ is the check schedule, e.g. 'Check daily at 9:00AM'. %2$@ is the condition, e.g. 'when the item price drops'."
++ "Confirmation message shown after a Notify Me When automation is created. %@ is the check schedule, e.g. 'Check daily at 9:00AM'."
++ "ControlPhoneNumberMask"
++ "Could not get url for credential bypass store."
++ "Could not initialize credential bypass store: %@"
++ "Creating New Database"
++ "Creation Successful"
++ "Creation Successful (Notify Me When automation state)"
++ "DELETE FROM automation_info\nWHERE shortcuts_uuid = ?"
++ "DELETE FROM automation_log\nWHERE time_since_reference_date < ?"
++ "Daily Frequency String Format (Notify Me When)"
++ "Darkened"
++ "Darkened despite known issues"
++ "Database is not open"
++ "DateComponents failed to compute days in month for Year:%ld Month:%ld, falling back to %ld days. (not accounting for leap year)"
++ "Debug description letting user know that the notification schedule for Notify Me When will be checked every few minutes. Ex: [Debug] Check every 10 minutes."
++ "DebugSetDefaultBrowserBannerAssumesSafariIsNotDefault"
++ "Decoded search texts were not an array of strings"
++ "Description letting user know that the notification schedule for Notify Me When will be checked once every hour. Ex: Check every hour."
++ "Did not get automation info via UUID: %s, falling back to URL lookup: %@"
++ "Donating search engine choice to Biome"
++ "Expected version \""
++ "Fail to fetch language eligibility for topic generation. %{public}s"
++ "Failed V2 data migration from Shortcuts: %s"
++ "Failed to INERT INTO %{public}s with %{public}ld, %{public}f, %{public}ld"
++ "Failed to INERT INTO %{public}s with %{public}s, %{sensitive}s"
++ "Failed to add %ld day(s) to %s, falling back to now"
++ "Failed to add %ld minutes for debugVeryFrequently, falling back to now"
++ "Failed to add 1 hour for hourly nextCheckDate, falling back to now+1h"
++ "Failed to add sync columns: %s"
++ "Failed to check for automation with shortcutsUUID %{public}s: %s"
++ "Failed to cleanup old logs: %s"
++ "Failed to compute hourly nextCheckDate from components: %s, falling back to now+1h"
++ "Failed to construct monthly date from components: %s, falling back to now"
++ "Failed to create worker: %@"
++ "Failed to decode pollingFrequency for automation at row %{public}d: %s"
++ "Failed to decode search texts: %s"
++ "Failed to encode WBSNotifyMeWhenPollingFrequency: %s"
++ "Failed to encode search texts: %s"
++ "Failed to fetch Notify Me When shortcuts: %@"
++ "Failed to fetch all automations: %s"
++ "Failed to log %{public}s for infoID %{public}ld: %s"
++ "Failed to log %{public}s for shortcutsUUID %{public}s: %s"
++ "Failed to migrate to schema version 2: %s"
++ "Failed to migrate to schema version 3: %s"
++ "Failed to migrate to schema version 4: %s"
++ "Failed to migrate to schema version 5: %s"
++ "Failed to migrate to schema version 6: %s"
++ "Failed to migrate to schema version 7: %s"
++ "Failed to move time:%{public}s to minute %{public}ld. Using the exact time instead."
++ "Fetched %ld items."
++ "Framework Error (Notify Me When automation state)"
++ "G"
++ "General Error (Notify Me When automation state)"
++ "Generic notification message shown when a Notify Me When condition is met."
++ "Giving up on CloudKit operation after attempt %ld; a %f second backoff would exceed the deadline%{public}s"
++ "Giving up on CloudKit operation; the retry deadline passed after %ld attempt(s)%{public}s"
++ "H"
++ "Invalid data for field '"
++ "Invalid key"
++ "Invalid log type value: %ld, using sqlError"
++ "Invalid or malformed page URL"
++ "Invalid port"
++ "Invalid time-of-day trigger"
++ "Label for Advanced Trigger (Notify Me When)"
++ "Label showing when the next Notify Me When check will run. Ex: Next Check: Tomorrow at 9:00AM."
++ "Latest log entry not found for automation ID "
++ "MaskedEmailAddressForOneTimeCode"
++ "MaskedEmailAddressRegularExpression"
++ "MaskedPhoneNumberForOneTimeCode"
++ "Migrating to schema version 2"
++ "Migrating to schema version 3"
++ "Migrating to schema version 4"
++ "Migrating to schema version 5"
++ "Migrating to schema version 6"
++ "Migrating to schema version 7"
++ "Missing calendarDateTrigger.date when creating WBSNotifyMeWhenPollingFrequency."
++ "Monthly Frequency String Format (Notify Me When)"
++ "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Safari/605.1.15"
++ "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/"
++ "Network Error (Notify Me When automation state)"
++ "No Requested Update"
++ "No Requested Update (Notify Me When automation state)"
++ "No migration path to schema version %{public}d"
++ "Not darkened"
++ "Not in an experiment or rollout; resetting cached Trial parameters to defaults"
++ "Notification message when a price drop is detected (Notify Me When)"
++ "Notification message when an item is back in stock (Notify Me When)"
++ "Notification message when event registration opens (Notify Me When)"
++ "Notified for Update"
++ "Notified for Update (Notify Me When automation state)"
++ "Off"
++ "Off (Adaptive Dark Mode page menu)"
++ "Off (Adaptive Dark Mode per-site setting)"
++ "Off for This Website"
++ "Off for This Website (Adaptive Dark Mode page menu)"
++ "Off for website"
++ "On (Adaptive Dark Mode page menu)"
++ "On (Adaptive Dark Mode per-site setting)"
++ "Out of bounds day of the month"
++ "PRAGMA table_info("
++ "PRAGMA table_info(automation_info)"
++ "PRAGMA user_version = 2"
++ "PRAGMA user_version = 3"
++ "PRAGMA user_version = 4"
++ "PRAGMA user_version = 5"
++ "PRAGMA user_version = 6"
++ "PRAGMA user_version = 7"
++ "PerSitePreferencesAutoDarkMode"
++ "Price Drops (Notify Me When)"
++ "ProvenanceOfOneTimeCode"
++ "Refreshing Trial experiment state now that Safari is in the background"
++ "Registration Open"
++ "Registration Open (Notify me When)"
++ "Registration is now open."
++ "SELECT 1\nFROM automation_info\nWHERE shortcuts_uuid = ?\nLIMIT 1"
++ "SELECT COUNT(*) FROM automation_info WHERE sync_state != "
++ "SELECT COUNT(*) FROM automation_log"
++ "SELECT IFNULL(MAX(sync_generation), 0) FROM automation_info"
++ "SELECT crdt_generation\nFROM automation_info\nWHERE shortcuts_uuid = ?"
++ "SELECT id, shortcuts_uuid\nFROM automation_info\nWHERE schema_version < 2"
++ "SELECT last_notified_for_update_at\nFROM automation_info\nWHERE id = ?"
++ "SELECT name FROM sqlite_master WHERE type='table'"
++ "SELECT sync_id\nFROM automation_info\nWHERE shortcuts_uuid = ?"
++ "SQL Error (Notify Me When automation state)"
++ "SafariShared/WBSAutoDarkModePreferenceManager.swift"
++ "SafariShared/WBSAutomaticPasswordChangeRequestContext.swift"
++ "SafariShared/WBSFormMetadataPasswordRules.swift"
++ "SafariShared/WBSHdbscanCluster.swift"
++ "SafariShared/WBSManagedWebsiteSettingsController.swift"
++ "SafariShared/WBSPageLevelAutoFillSuppliedOneTimeCode.swift"
++ "Shortcut <%{public}s> has no usable time trigger, so its reported schedule is a placeholder: %{public}s"
++ "Shortcut <%{public}s> schedule from Shortcuts: %{public}s"
++ "Shortcuts SPI is unavailable on this OS version"
++ "Skipped Check: Inactivity"
++ "Skipped Check: Inactivity (Notify Me When automation state)"
++ "Skipped Check: Low Power Mode"
++ "Skipped Check: Low Power Mode (Notify Me When automation state)"
++ "Skipped Check: Thermal State"
++ "Skipped Check: Thermal State (Notify Me When automation state)"
++ "Successfully created automation with identifier: %{public}s for syncID=%s"
++ "Successfully deleted automation with identifier: %s"
++ "Successfully updated automation with identifier: %s"
++ "Today at (time). Relative label for the next Notify Me When check time. Ex: Today at 9:00AM."
++ "Tomorrow at (time). Relative label for the next Notify Me When check time. Ex: Tomorrow at 9:00AM."
++ "UPDATE automation_info\nSET last_notified_for_update_at = ?\nWHERE id = ?"
++ "UPDATE automation_info\nSET previous_context = ?\nWHERE shortcuts_uuid = ?"
++ "UPDATE automation_info\nSET sync_state = ?, sync_generation = ?\nWHERE shortcuts_uuid = ?"
++ "UPDATE automation_info SET sync_generation = id"
++ "URLString Length: "
++ "Unable to apply timeOfDay values to nextCheckDate given components: %s %s."
++ "Unrecognized recurrence rule frequency: %{public}s, defaulting to daily"
++ "Unrecognized weekday in recurrence rule: %{public}s"
++ "Unsupported website"
++ "UnusableAlternateAuthenticationKeywordsForAutomaticPasswordChange"
++ "Updating Trial parameters based on information from the experiment or rollout"
++ "User Deleted Automation"
++ "User Disabled Automation (Notify Me When automation state)"
++ "V2 migration: failed to update row id=%{public}ld: %s"
++ "V2 migration: missing shortcuts_uuid for row id=%{public}ld"
++ "V2 migration: skipping row id=%{public}ld — no Shortcuts data for uuid=%{public}s"
++ "WBSAutoDarkModeCustomizeTipGeneration"
++ "WBSAutoDarkModeEnabled"
++ "WBSAutoDarkModeEnabledIndicatorDomains"
++ "WBSAutoDarkModeKnownIssuesAtChoice"
++ "WBSAutoDarkModeLastDailyReportTime"
++ "WBSAutoDarkModePreviewForcesDarkAppearance"
++ "WBSAutoDarkModePreviewSource"
++ "WBSAutoDarkModePreviewing"
++ "WBSAutoDarkModeSuggestionDismissalCount"
++ "WBSAutoDarkModeSuggestionLastShownDate"
++ "WBSDidCompleteAutoDarkModeOnboarding"
++ "WBSEnableGlobalPrivacyControl"
++ "WBSEnableRecentSearchesStartPageModuleBelowFavoritesKey"
++ "WBSNotifyMeWhenSQLiteStoreDidUpdateAutomationsRemotely"
++ "WBSNotifyMeWhenShortcutsAutomation(\n  identifier: \""
++ "WBSNotifyMeWhenShortcutsCreationRequest(\n  shortcutName: \""
++ "WBSOrderedTestResults received a report for unknown test key '%{public}@'"
++ "Webpage Did Not Change"
++ "Webpage Did Not Change (Notify Me When automation state)"
++ "Webpage Error (Notify Me When automation state)"
++ "Weekly Frequency String Format (Notify Me When)"
++ "[\n"
++ "[Debug] Check every %d minutes. Ignores the Time field."
++ "[]"
++ "_maskedEmailAddressForOneTimeCode"
++ "_maskedPhoneNumberForOneTimeCode"
++ "_phoneNumberMask"
++ "abandoned"
++ "addAutomationInfoV1ForTesting(shortcutsUUID:url:targetNodeData:previousContext:)"
++ "and %#@numberOfTopics@ (+%#@numberOfURLs@)"
++ "and %lu more topics (+%lu URLs)"
++ "appearance.darkmode.inverse"
++ "authoring_user_agent"
++ "autoDarkModeEnabledDidChange"
++ "autoDarkModeQuirksDidChange"
++ "autoDarkModeState"
++ "changedUserMediaPreferenceIdentifier"
++ "changedUserMediaPreferenceValue"
++ "clearsCachedOneTimeCodePatternMatches"
++ "com.apple.SafariShared.WBSAutoDarkModeQuirksManager"
++ "com.apple.SafariShared.WBSOrderedTestResults.%p.internalQueue"
++ "compacted"
++ "countAutomationInfos()"
++ "createShortcutsAutomation FAILED for syncID=%s: %s"
++ "createShortcutsAutomation FAILED for syncID=%s: Shortcuts SPI unavailable"
++ "createShortcutsAutomation FAILED for syncID=%s: invalid page URL"
++ "createShortcutsAutomation FAILED for syncID=%s: invalid time-of-day trigger"
++ "crx3.PackageHeader"
++ "crx3.SignedMetadata"
++ "daily"
++ "dayOfTheMonthToCheck"
++ "daysOfTheWeekToCheck"
++ "debugVeryFrequently"
++ "deleteAutomation changed syncState of shortcutsUUID=%{public}s to deleted at syncGeneration=%lld, rowFound=%{bool}d. Awaiting syncAgent to process the deletion."
++ "deleteAutomation hard-deleted shortcutsUUID=%{public}s (never synced), rowFound=%{bool}d"
++ "deleteAutomation(shortcutsUUID:)"
++ "deleteLogsOlderThan(timeSinceReferenceDate:)"
++ "diff"
++ "domainWithChangedGeolocationPreference"
++ "domainWithChangedUserMediaPreference"
++ "domainWithModifiedAutoDarkModePreference"
++ "enteringOneTimeCode"
++ "entirePageElements"
++ "errorDescription"
++ "fetchNotifyMeWhenShortcuts SPI not available"
++ "frequency"
++ "full"
++ "getColumnNames(forTable:)"
++ "getTotalLogCount()"
++ "hasAutomation(withShortcutsUUID:)"
++ "hourly"
++ "ids_automation_coordination"
++ "insertAutomation(shortcutsUUID:url:targetNodeData:previousContext:searchTexts:shortcutName:prompt:notificationMessage:pollingFrequency:userQuery:websiteTitle:publicPrompt:profileIdentifier:authoringUserAgent:syncID:)"
++ "insertLogEntry(infoID:timeSinceReferenceDate:type:userInfo:)"
++ "invalidTypeValue"
++ "isForVoiceSearch"
++ "isGraphicIconsInCompletionListEnabled"
++ "lastNotifiedForUpdateAt(forInfoID:)"
++ "last_notified_for_update_at"
++ "last_peer_device"
++ "last_peer_message"
++ "last_peer_outcome"
++ "last_peer_poll_at"
++ "last_peer_received_at"
++ "last_peer_started_at"
++ "latest_automation_log"
++ "manualInterventions"
++ "maskedEmailAddressForOneTimeCode"
++ "maskedPhoneNumberForOneTimeCode"
++ "migrateDataFromShortcutsIfNeeded(_:)"
++ "migrateToEnableSyncIfNeeded()"
++ "monthly"
++ "notification_message"
++ "ok"
++ "passwordFieldTypeHint"
++ "perSiteAutoDarkModePreferenceDidChange"
++ "perSiteGeolocationPreferenceDidChange"
++ "perSiteUserMediaPreferenceDidChange"
++ "polling_frequency_data"
++ "previous_context"
++ "price dropped from current value"
++ "product is back in stock"
++ "profile_identifier"
++ "registration opened"
++ "regularExpressionForMaskedEmailAddress"
++ "retried"
++ "saveChangesButtonLabelPatternMatchers"
++ "selectAllAutomationsWithLatestLog()"
++ "selectAllLogEntries(infoID:)"
++ "selectAutomation(whereColumn:equals:)"
++ "selectLatestLogEntry(infoID:)"
++ "shouldBoostPebbleItems"
++ "shouldPromoteRecentSearchesStartPageModuleBelowFavorites"
++ "silentlyWaitingForManuallyEnteredOneTimeCode"
++ "simplified"
++ "supportedManualInterventions"
++ "timeOfDay"
++ "time_since_reference_date"
++ "today at (time). Relative label for the next Notify Me When check time. Ex: today at 9:00AM."
++ "tomorrow at (time). Relative label for the next Notify Me When check time. Ex: tomorrow at 9:00AM."
++ "transientDiffs"
++ "transientElements"
++ "updateAutomationInfoFields(shortcutsUUID:shortcutName:prompt:notificationMessage:pollingFrequency:userQuery:publicPrompt:profileIdentifier:)"
++ "updatePreviousContextField(shortcutsUUID:previousContext:)"
++ "updateTargetNodeFields(shortcutsUUID:targetNodeData:searchTexts:authoringUserAgent:)"
++ "v16@?0@\"<WBSTestResults>\"8"
++ "v16@?0@\"WBSFormContext\"8"
++ "v16@?0@\"WBSPageLevelAutoFillSuppliedOneTimeCode\"8"
++ "v24@?0@\"<WBSPageTestWorker>\"8@\"NSError\"16"
++ "v24@?0@8@\"NSError\"16"
++ "verificationCode"
++ "viewportElements"
++ "viewportElementsFormat"
++ "void WTF::memcpySpan(std::span<T, TExtent>, std::span<U, UExtent>) [T = int, TExtent = 18446744073709551615UL, U = const int, UExtent = 18446744073709551615UL] [[clang::annotate_type(...)]]"
++ "waitingForManuallyEnteredOneTimeCode"
++ "waitingForManuallySolvedCaptcha"
++ "webContentPIDAtStart"
++ "weekly"
++ "when Safari finds “%@” on the page"
++ "when the event registration opens"
++ "when the item comes back in stock"
++ "when the item price drops"
++ "{\n"
++ "{}"
++ "⏱️ Turn %{public}s %{public}s %{public}s%{public}s%{public}s"
++ "⏳ Agent (%{public}s) received a tool result past its total timeout; allowing one final turn to call '%{public}s'"
++ "⚠️ Retrying after retryable inference error while %{public}s; attempt %{public}ld burned %{public}s; %ld retries remaining: %{private}@"
++ "⛔️ Agent (%{public}s) asked for something other than '%{public}s' past its total timeout; ending without running it."
++ "⛔️ Agent (%{public}s) exceeded its per-request timeout of %{public}s while %{public}s — treating the connection as wedged."
++ "⛔️ Agent (%{public}s) ran out of its final turn past the total timeout while %{public}s."
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/local/include/wtf/HashTable.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/local/include/wtf/StdLibExtras.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.Internal.sdk/usr/local/include/wtf/Vector.h"
+- "8625.2.8.10.6"
+- "@\"NSMutableDictionary\"8@?0"
+- "@\"NSString\"16@?0@\"WBSFormMetadata\"8"
+- "Agent (%{public}s) can't be retried, exiting with error: %{public}s."
+- "Agent (%{public}s) exceeded its per-request timeout of %{public}s while performing %{public}s."
+- "Agent has timed out, having taken %s to process."
+- "AutomaticPassword.js"
+- "B16@?0@\"SFAutoFillOneTimeCode\"8"
+- "Cannot access article finder. Reader view and original web view are in separate processes."
+- "CloudKit operation reached its retry deadline after %ld retries%{public}s; not retrying."
+- "Could not get certificate bypass plist URL"
+- "Existing one-time code (source: %d) was received %.1f seconds before the last click; waiting longer for a new code"
+- "Failed to create script %{public}s: line %i: %{public}@"
+- "FormMetadata.js"
+- "FormMetadataClassification.js"
+- "FormMetadataClassificationJS"
+- "FormMetadataUtilities.js"
+- "FormMetadataUtilitiesJS"
+- "Mo"
+- "NF"
+- "No forms exist on this page.\n"
+- "NodePath.js"
+- "Not in an experiment, so we are skipping the step to update Trial factors"
+- "PasswordRulesParserJS.js"
+- "PatternRegexpToPasswordRulesConverter"
+- "PatternRegexpToPasswordRulesConverter.js"
+- "ReaderJSController::jsClearNextPageArticleFinder called"
+- "ReaderJSController::jsNextPageArticleFinder called"
+- "ReaderJSController::jsPrepareNextPageFrame called"
+- "ReaderJSController::originalArticleFinder called"
+- "Received one-time code after waiting"
+- "SafariShared.WBSHdbscanCluster"
+- "SafariShared.WBSManagedWebsiteSettings"
+- "SafariShared_Private.WBSAutomaticPasswordChangeRequestContext"
+- "SafariShared_Private.WBSAutomaticPasswordChangeResult"
+- "SafariShared_Private.WBSFormMetadataPasswordRules"
+- "SuspectedMaskedEmailAddressForOneTimeCode"
+- "SuspectedProvenanceOfOneTimeCode"
+- "Timed out waiting for one-time code"
+- "Unsupported when reader view and original web view are in separate processes."
+- "Updating Trial parameters based on information from the experiment"
+- "Using TOTP code from snapshotted seed"
+- "Using existing delivered one-time code (source: %d)"
+- "WAS"
+- "WBSDisableTrial"
+- "WBSSearchRelevanceOverrideDefaults"
+- "WBSSearchRelevanceStrengthenAutocompleteTriggerExtensionMatching"
+- "Waiting up to %f seconds for one-time code delivery..."
+- "_suspectedMaskedEmailAddressForOneTimeCode"
+- "articleScrolled"
+- "autoFillControlsByID"
+- "autoFillOneTimeCodeFieldsWithValue"
+- "beginReaderSummarization"
+- "cachedTopScrollOffset"
+- "characterThresholdForAnywhereInTitleOrURL"
+- "characterThresholdForStartOfTitle"
+- "characterThresholdForStartOfTitleWord"
+- "characterThresholdForStartOfTitleWordMatchLongEnoughForTopHit"
+- "characterThresholdForStartOfURL"
+- "characterThresholdForStartOfURLPathComponent"
+- "clearNextPageArticleFinder"
+- "codeAppearsToHaveBeenFilledInItsEntirety"
+- "contentIsReadyForDisplay"
+- "didChangeNextPageLoadingState"
+- "doneLoadingReaderPage"
+- "enableCompletionListHistoryDeduplication"
+- "enableCompletionListHistoryDeduplicationSwitchToTabValue"
+- "enableCompletionListHistoryDeduplicationValue"
+- "enableDedupeThroughAlternativeURLs"
+- "enableTopQueryIntent"
+- "external"
+- "formMetadata"
+- "goBack"
+- "goForward"
+- "initialArticleScrollPosition"
+- "initialConfiguration"
+- "insertSummaryTextPlaceholder"
+- "isDedupeThroughAlternativeURLsEnabled"
+- "isInStickyMode"
+- "isResultFilteringDisabled"
+- "isValidKey(value)"
+- "loadNewArticle"
+- "matchingWordsInTitleThreshold"
+- "maxBookmarksAndHistoryItems"
+- "maxDistanceForLoadingNextPage"
+- "nextPageArticleFinder"
+- "nextPageLoadComplete"
+- "normalizedTopSitesScoreAndVisitCountMultiplier"
+- "originalArticleFinder"
+- "parsePasswordRules"
+- "percentageThresholdForAnywhereInTitle"
+- "percentageThresholdForAnywhereInURL"
+- "prepareNextPageFrame"
+- "readerOperationMode"
+- "readerWillEnterBackground"
+- "replaceSimpleTweetsWithRichTweets"
+- "reportReaderEvent"
+- "reportSummaryFeedback"
+- "requestDeactivationFromUserAction"
+- "requestOnDeviceSummary"
+- "resetToSummarizeButton"
+- "scrollToSummary"
+- "setArticleBaseURLString"
+- "setArticleLocale"
+- "setArticleSummary"
+- "setConfiguration"
+- "setOnDeviceSummaryButtonWithTitle"
+- "setReaderIsActive"
+- "shouldSubmit"
+- "stopLoadingNextPage"
+- "strengthenAutocompleteTriggerExtensionMatching"
+- "updateSummaryTextVisibility"
+- "v16@?0@\"SFAutoFillOneTimeCode\"8"
+- "void WTF::HashTable<OpaqueFormAutoFillFrame *, WTF::KeyValuePair<OpaqueFormAutoFillFrame *, std::unique_ptr<SafariShared::FrameMetadata>>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<OpaqueFormAutoFillFrame *, std::unique_ptr<SafariShared::FrameMetadata>>>, WTF::DefaultHash<OpaqueFormAutoFillFrame *>, WTF::HashMap<OpaqueFormAutoFillFrame *, std::unique_ptr<SafariShared::FrameMetadata>>::KeyValuePairTraits, WTF::HashTraits<OpaqueFormAutoFillFrame *>>::validateKey(const ValueType &) [Key = OpaqueFormAutoFillFrame *, Value = WTF::KeyValuePair<OpaqueFormAutoFillFrame *, std::unique_ptr<SafariShared::FrameMetadata>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<OpaqueFormAutoFillFrame *, std::unique_ptr<SafariShared::FrameMetadata>>>, HashFunctions = WTF::DefaultHash<OpaqueFormAutoFillFrame *>, Traits = WTF::HashMap<OpaqueFormAutoFillFrame *, std::unique_ptr<SafariShared::FrameMetadata>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<OpaqueFormAutoFillFrame *>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes]"
+- "void WTF::HashTable<OpaqueJSContext *, WTF::KeyValuePair<OpaqueJSContext *, OpaqueJSWeakObjectMap *>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<OpaqueJSContext *, OpaqueJSWeakObjectMap *>>, WTF::DefaultHash<OpaqueJSContext *>, WTF::HashMap<OpaqueJSContext *, OpaqueJSWeakObjectMap *>::KeyValuePairTraits, WTF::HashTraits<OpaqueJSContext *>>::validateKey(const ValueType &) [Key = OpaqueJSContext *, Value = WTF::KeyValuePair<OpaqueJSContext *, OpaqueJSWeakObjectMap *>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<OpaqueJSContext *, OpaqueJSWeakObjectMap *>>, HashFunctions = WTF::DefaultHash<OpaqueJSContext *>, Traits = WTF::HashMap<OpaqueJSContext *, OpaqueJSWeakObjectMap *>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<OpaqueJSContext *>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes]"
+- "void WTF::memcpySpan(std::span<T, TExtent>, std::span<U, UExtent>) [T = int, TExtent = 18446744073709551615UL, U = const int, UExtent = 18446744073709551615UL]"
+- "waitingForOneTimeCode"
+- "⚠️ Retrying after retryable inference error; %ld retries remaining: %{public}s"
+```

@@ -1,0 +1,550 @@
+## AppIntents
+
+> `/System/Library/Frameworks/AppIntents.framework/AppIntents`
+
+```diff
+
+-301.1.16.0.0
+-  __TEXT.__text: 0x4d55e4
+-  __TEXT.__objc_methlist: 0x18d8
++301.2.7.2.0
++  __TEXT.__text: 0x4eaee8
++  __TEXT.__objc_methlist: 0x18f8
+   __TEXT.__dlopen_cstrs: 0xf7
+-  __TEXT.__const: 0x360c0
+-  __TEXT.__constg_swiftt: 0x13a2c
+-  __TEXT.__swift5_typeref: 0x13a4c
+-  __TEXT.__swift5_builtin: 0x618
+-  __TEXT.__swift5_reflstr: 0x8f0b
+-  __TEXT.__swift5_fieldmd: 0xbb84
+-  __TEXT.__swift5_assocty: 0x52d8
+-  __TEXT.__oslogstring: 0x7925
+-  __TEXT.__swift5_mpenum: 0x1f8
+-  __TEXT.__cstring: 0x6f66
+-  __TEXT.__swift5_proto: 0x29d0
+-  __TEXT.__swift5_types: 0xe70
+-  __TEXT.__swift5_protos: 0x4e8
+-  __TEXT.__swift5_capture: 0x67a0
+-  __TEXT.__swift_as_entry: 0x182c
+-  __TEXT.__swift_as_ret: 0x1b4c
+-  __TEXT.__swift_as_cont: 0x27bc
++  __TEXT.__const: 0x376c0
++  __TEXT.__constg_swiftt: 0x145d4
++  __TEXT.__swift5_typeref: 0x141ee
++  __TEXT.__swift5_builtin: 0x604
++  __TEXT.__swift5_reflstr: 0x922b
++  __TEXT.__swift5_fieldmd: 0xc0a4
++  __TEXT.__swift5_assocty: 0x54f8
++  __TEXT.__oslogstring: 0x7c85
++  __TEXT.__swift5_mpenum: 0x1e8
++  __TEXT.__cstring: 0x70c6
++  __TEXT.__swift5_proto: 0x2ae4
++  __TEXT.__swift5_types: 0xef4
++  __TEXT.__swift5_protos: 0x510
++  __TEXT.__swift5_capture: 0x67fc
++  __TEXT.__swift_as_entry: 0x1908
++  __TEXT.__swift_as_ret: 0x1c1c
++  __TEXT.__swift_as_cont: 0x28c8
+   __TEXT.__swift5_types2: 0x4
+   __TEXT.__gcc_except_tab: 0x19c
+-  __TEXT.__unwind_info: 0x1c438
+-  __TEXT.__eh_frame: 0x3281c
++  __TEXT.__unwind_info: 0x1cc80
++  __TEXT.__eh_frame: 0x33904
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x17e0
+-  __DATA_CONST.__objc_classlist: 0x250
+-  __DATA_CONST.__objc_catlist: 0x8
+-  __DATA_CONST.__objc_protolist: 0x100
++  __DATA_CONST.__const: 0x1898
++  __DATA_CONST.__objc_classlist: 0x258
++  __DATA_CONST.__objc_catlist: 0x10
++  __DATA_CONST.__objc_protolist: 0x108
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x2640
+-  __DATA_CONST.__objc_protorefs: 0x68
++  __DATA_CONST.__objc_selrefs: 0x26a8
++  __DATA_CONST.__objc_protorefs: 0x70
+   __DATA_CONST.__objc_superrefs: 0x38
+-  __DATA_CONST.__got: 0x18b0
+-  __AUTH_CONST.__const: 0x27428
++  __DATA_CONST.__got: 0x1938
++  __AUTH_CONST.__const: 0x28168
+   __AUTH_CONST.__cfstring: 0x280
+-  __AUTH_CONST.__objc_const: 0x5698
+-  __AUTH_CONST.__auth_got: 0x2570
++  __AUTH_CONST.__objc_const: 0x57d8
++  __AUTH_CONST.__auth_got: 0x2638
+   __AUTH.__objc_data: 0x8c0
+-  __AUTH.__data: 0x8c30
++  __AUTH.__data: 0x9140
+   __DATA.__objc_ivar: 0x7c
+-  __DATA.__data: 0xf6c0
+-  __DATA.__common: 0x2f8
++  __DATA.__data: 0x10240
++  __DATA.__common: 0x308
+   __DATA_DIRTY.__objc_data: 0x538
+-  __DATA_DIRTY.__data: 0x4bf0
+-  __DATA_DIRTY.__bss: 0x81f0
++  __DATA_DIRTY.__data: 0x4bc0
++  __DATA_DIRTY.__bss: 0x8170
+   __DATA_DIRTY.__common: 0x228
+   - /System/Library/Frameworks/ActivityKit.framework/ActivityKit
+   - /System/Library/Frameworks/AppIntentsTypeSupport.framework/AppIntentsTypeSupport
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 37115
+-  Symbols:   8249
+-  CStrings:  1264
++  Functions: 38029
++  Symbols:   8427
++  CStrings:  1277
+ 
+Symbols:
++ +[LNAppConnectionListener defaultClientConnectionQueue]
++ -[LNClientConnection fetchEntitySnippetForValue:snippetType:environment:completionHandler:]
++ -[LNClientConnection linkAppUndoManager:undoToken:completionHandler:]
++ GCC_except_table312
++ GCC_except_table318
++ GCC_except_table333
++ GCC_except_table336
++ GCC_except_table338
++ GCC_except_table390
++ GCC_except_table405
++ _CFURLCreateFilePathURL
++ _CFURLCreateFileReferenceURL
++ _CFURLCreateWithString
++ _CFURLGetString
++ _LNPlatformAppKit
++ _LNPlatformUIKit
++ _LNSpotlightAppEntityKeyDisplayRepresentationImageColorization
++ _OBJC_CLASS_$_LNActionSideEffect
++ _OBJC_CLASS_$_LNArchivedColor
++ _OBJC_CLASS_$_LNAssetCatalogColor
++ _OBJC_CLASS_$_LNColor
++ _OBJC_CLASS_$_LNColorRepresentation
++ _OBJC_CLASS_$_LNColorSpace
++ _OBJC_CLASS_$_LNComponentsColor
++ _OBJC_CLASS_$_LNSemanticColor
++ _OBJC_CLASS_$_LNSystemNamedColor
++ _OBJC_CLASS_$_LNUndoContext
++ _OBJC_CLASS_$__NSAuxiliaryUndoManagerReference
++ __CATEGORY_CLASS_METHODS_LNValue_$_AppIntents
++ __CATEGORY_LNValue_$_AppIntents
++ __DATA__TtC10AppIntentsP33_43704530094BC1FD69CD654E77A7475721AppNotificationOutbox
++ __IVARS__TtC10AppIntentsP33_43704530094BC1FD69CD654E77A7475721AppNotificationOutbox
++ __METACLASS_DATA__TtC10AppIntentsP33_43704530094BC1FD69CD654E77A7475721AppNotificationOutbox
++ __OBJC_$_INSTANCE_METHODS_LNAppContext(AppIntents|AppIntents1|AppIntents2|AppIntents3|AppIntents4|AppIntents5|AppIntents6|AppIntents7|AppIntents8|AppIntents9|AppIntents10|AppIntents11|AppIntents12|AppIntents13|AppIntents14|AppIntents15|AppIntents16|AppIntents17|AppIntents18|AppIntents19|AppIntents20|AppIntents21|AppIntents22|AppIntents23|AppIntents24|AppIntents25|AppIntents26|AppIntents27|AppIntents28|AppIntents29|AppIntents30)
++ __OBJC_$_INSTANCE_METHODS_LNValue(AppIntents|AppIntents1)
++ __PROTOCOL_CLASS_METHODS__TtP10AppIntents27_PlatformColorValueResolver_
++ __PROTOCOL_METHOD_TYPES__TtP10AppIntents27_PlatformColorValueResolver_
++ __PROTOCOL__TtP10AppIntents27_PlatformColorValueResolver_
++ ___69-[LNClientConnection linkAppUndoManager:undoToken:completionHandler:]_block_invoke
++ ___69-[LNClientConnection linkAppUndoManager:undoToken:completionHandler:]_block_invoke_2
++ ___69-[LNClientConnection linkAppUndoManager:undoToken:completionHandler:]_block_invoke_3
++ ___69-[LNClientConnection linkAppUndoManager:undoToken:completionHandler:]_block_invoke_4
++ ___69-[LNClientConnection linkAppUndoManager:undoToken:completionHandler:]_block_invoke_5
++ ___91-[LNClientConnection fetchEntitySnippetForValue:snippetType:environment:completionHandler:]_block_invoke
++ ___91-[LNClientConnection fetchEntitySnippetForValue:snippetType:environment:completionHandler:]_block_invoke_2
++ ___91-[LNClientConnection fetchEntitySnippetForValue:snippetType:environment:completionHandler:]_block_invoke_3
++ ___91-[LNClientConnection fetchEntitySnippetForValue:snippetType:environment:completionHandler:]_block_invoke_4
++ ___91-[LNClientConnection fetchEntitySnippetForValue:snippetType:environment:completionHandler:]_block_invoke_5
++ ___block_descriptor_72_e8_32s40s48s56bs_e5_v8?0ls32l8s40l8s48l8s56l8
++ ___swift_closure_destructor.13Tm
++ ___swift_closure_destructor.31Tm
++ ___swift_closure_destructor.55Tm
++ ___swift_closure_destructor.58Tm
++ _associated conformance 10AppIntents018IntentFileToSystemC16ValueSetResolver33_5ED6F01CEDA5590B0BBCC8E7C345EC41LLVyxGAA0I0AA5InputAaFP_AA01_cG0
++ _associated conformance 10AppIntents018IntentFileToSystemC16ValueSetResolver33_5ED6F01CEDA5590B0BBCC8E7C345EC41LLVyxGAA0I0AA6OutputAaFP_AA01_cG0
++ _associated conformance 10AppIntents018IntentFileToSystemC16ValueSetResolver33_5ED6F01CEDA5590B0BBCC8E7C345EC41LLVyxGSHAASQ
++ _associated conformance 10AppIntents030StringArrayToSystemIntentValueD8Resolver33_5ED6F01CEDA5590B0BBCC8E7C345EC41LLVyxGAA0I0AA5InputAaFP_AA01_gH0
++ _associated conformance 10AppIntents030StringArrayToSystemIntentValueD8Resolver33_5ED6F01CEDA5590B0BBCC8E7C345EC41LLVyxGAA0I0AA6OutputAaFP_AA01_gH0
++ _associated conformance 10AppIntents030StringArrayToSystemIntentValueD8Resolver33_5ED6F01CEDA5590B0BBCC8E7C345EC41LLVyxGSHAASQ
++ _associated conformance 10AppIntents09TransientA28EntityConvertibleSetResolver33_5ED6F01CEDA5590B0BBCC8E7C345EC41LLVyxGAA0G0AA5InputAaFP_AA12_IntentValue
++ _associated conformance 10AppIntents09TransientA28EntityConvertibleSetResolver33_5ED6F01CEDA5590B0BBCC8E7C345EC41LLVyxGAA0G0AA6OutputAaFP_AA12_IntentValue
++ _associated conformance 10AppIntents09TransientA28EntityConvertibleSetResolver33_5ED6F01CEDA5590B0BBCC8E7C345EC41LLVyxGSHAASQ
++ _associated conformance 10AppIntents0A12EntityTraitsV4Kind33_695704A99F61B7394F87BABDFF12199CLLOSHAASQ
++ _associated conformance 10AppIntents0A12EntityTraitsVs10SetAlgebraAASQ
++ _associated conformance 10AppIntents0A12EntityTraitsVs10SetAlgebraAAs25ExpressibleByArrayLiteral
++ _associated conformance 10AppIntents0A12IntentTraitsV4Kind020_B5F8F7B7A570B23F334I11D800C67391BLLOSHAASQ
++ _associated conformance 10AppIntents0A12IntentTraitsVs10SetAlgebraAASQ
++ _associated conformance 10AppIntents0A12IntentTraitsVs10SetAlgebraAAs25ExpressibleByArrayLiteral
++ _associated conformance 10AppIntents16IntentVisibilityVSHAASQ
++ _associated conformance 10AppIntents17_IntentSideEffectV01_C10ChangeKindV10ImpactTypeOSHAASQ
++ _associated conformance 10AppIntents17_IntentSideEffectV01_C10ChangeKindV12CreationTypeOSHAASQ
++ _associated conformance 10AppIntents17_IntentSideEffectV01_C10ChangeKindV15DestructiveTypeOSHAASQ
++ _associated conformance 10AppIntents18_IntentColorEntityV16CoreTransferable0G0AA14RepresentationAdEP_AD08TransferH0
++ _associated conformance 10AppIntents18_IntentColorEntityVAA01_C5ValueAA0F4TypeAaDP_AaD
++ _associated conformance 10AppIntents18_IntentColorEntityVAA01_C5ValueAA13SpecificationAaDP_AA08ResolverG0
++ _associated conformance 10AppIntents18_IntentColorEntityVAA01_C5ValueAA13UnwrappedTypeAaDP_AaD
++ _associated conformance 10AppIntents18_IntentColorEntityVAA06Systemc16ValueConvertibleE0AA6ResultAaDP_AA09TransientaehcG0
++ _associated conformance 10AppIntents18_IntentColorEntityVAA0aE0AA12DefaultQueryAaDP_AA0eG0
++ _associated conformance 10AppIntents18_IntentColorEntityVAA0aE0AA2IDs12IdentifiableP_AA0E21IdentifierConvertible
++ _associated conformance 10AppIntents18_IntentColorEntityVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 10AppIntents19IntentColorResolver33_5CBA91766E55CB8981CB448C61348AE7LLVyxGAA0E0AA5InputAaFP_AA01_C5Value
++ _associated conformance 10AppIntents19IntentColorResolver33_5CBA91766E55CB8981CB448C61348AE7LLVyxGAA0E0AA6OutputAaFP_AA01_C5Value
++ _associated conformance 10AppIntents19IntentColorResolver33_5CBA91766E55CB8981CB448C61348AE7LLVyxGSHAASQ
++ _associated conformance 10AppIntents20FileEntityIdentifierV7Storage33_464E414641D0C821850E344794B2A7C2LLO0C10CodingKeysOSHAASQ
++ _associated conformance 10AppIntents20FileEntityIdentifierV7Storage33_464E414641D0C821850E344794B2A7C2LLO0C10CodingKeysOs0N3KeyAAs23CustomStringConvertible
++ _associated conformance 10AppIntents20FileEntityIdentifierV7Storage33_464E414641D0C821850E344794B2A7C2LLO0C10CodingKeysOs0N3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10AppIntents23_IntentColorEntityErrorOSHAASQ
++ _associated conformance 10AppIntents24BoxedIntentColorResolver33_5CBA91766E55CB8981CB448C61348AE7LLVyxGAA0F0AA5InputAaFP_AA01_D5Value
++ _associated conformance 10AppIntents24BoxedIntentColorResolver33_5CBA91766E55CB8981CB448C61348AE7LLVyxGAA0F0AA6OutputAaFP_AA01_D5Value
++ _associated conformance 10AppIntents24BoxedIntentColorResolver33_5CBA91766E55CB8981CB448C61348AE7LLVyxGSHAASQ
++ _associated conformance 10AppIntents25TupleEntitySnippetContentVyxq_GAA0deF0AA0D0AaEP_AA0aD0
++ _associated conformance 10AppIntents27StringToIntentColorResolver33_5CBA91766E55CB8981CB448C61348AE7LLVyxGAA0G0AA5InputAaFP_AA01_E5Value
++ _associated conformance 10AppIntents27StringToIntentColorResolver33_5CBA91766E55CB8981CB448C61348AE7LLVyxGAA0G0AA6OutputAaFP_AA01_E5Value
++ _associated conformance 10AppIntents27StringToIntentColorResolver33_5CBA91766E55CB8981CB448C61348AE7LLVyxGSHAASQ
++ _associated conformance 10AppIntents29ColorContainerElementResolver33_E0739A617D493CDCA2DC605FCCF3135FLLVyxG0aB11TypeSupport0dE9ResolvingA2A07_IntentC16ConvertibleValueRzrl06TargetM0AfGP_AF0prQ0
++ _associated conformance 10AppIntents32_IntentColorRepresentationEntityV4KindVSHAASQ
++ _associated conformance 10AppIntents32_IntentColorRepresentationEntityVAA01_C5ValueAA0G4TypeAaDP_AaD
++ _associated conformance 10AppIntents32_IntentColorRepresentationEntityVAA01_C5ValueAA13SpecificationAaDP_AA08ResolverH0
++ _associated conformance 10AppIntents32_IntentColorRepresentationEntityVAA01_C5ValueAA13UnwrappedTypeAaDP_AaD
++ _associated conformance 10AppIntents32_IntentColorRepresentationEntityVAA0aF0AA12DefaultQueryAaDP_AA0fH0
++ _associated conformance 10AppIntents32_IntentColorRepresentationEntityVAA0aF0AA2IDs12IdentifiableP_AA0F21IdentifierConvertible
++ _associated conformance 10AppIntents32_IntentColorRepresentationEntityVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 10AppIntents41StringArrayToSystemIntentValueSetResolver33_5ED6F01CEDA5590B0BBCC8E7C345EC41LLVyxGAA0J0AA5InputAaFP_AA01_gH0
++ _associated conformance 10AppIntents41StringArrayToSystemIntentValueSetResolver33_5ED6F01CEDA5590B0BBCC8E7C345EC41LLVyxGAA0J0AA6OutputAaFP_AA01_gH0
++ _associated conformance 10AppIntents41StringArrayToSystemIntentValueSetResolver33_5ED6F01CEDA5590B0BBCC8E7C345EC41LLVyxGSHAASQ
++ _associated conformance So10CGColorRefa10AppIntents09TransientC28EntityConvertibleIntentValueAC0F0AcDP_AC06SystemhigF0
++ _associated conformance So10CGColorRefa10AppIntents12_IntentValueAC0F4TypeAcDP_AcD
++ _associated conformance So10CGColorRefa10AppIntents12_IntentValueAC13SpecificationAcDP_AC08ResolverG0
++ _associated conformance So10CGColorRefa10AppIntents12_IntentValueAC13UnwrappedTypeAcDP_AcD
++ _associated conformance So10CGColorRefa21AppIntentsTypeSupport22IntentValueConvertible0cD0AC0gH10Expressing
++ _associated conformance So10LNPlatformaSHSCSQ
++ _associated conformance So10LNPlatformas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So10LNPlatformas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _default assoc type Say6Entity_____QzG 10AppIntents12DeleteIntentP
++ _default associated conformance6Target10AppIntents12DeleteIntentP_AB0B21EntityCollectionValue
++ _get_enum_tag_for_layout_string 10AppIntents26DeferredPropertyResolutionO7OutcomeO
++ _get_enum_tag_for_layout_string xs5Error_pRi_zRi0_zlyxIseghHnzo_Sg
++ _get_witness_table 10AppIntents28_IntentColorConvertibleValueRzlAA28ResolverSpecificationBuilderO0H0Vyx_xAA05BoxedcdG033_5CBA91766E55CB8981CB448C61348AE7LLVyxG_AA0cdG0AHLLVyxGAA08StringTocdG0AHLLVyxGQPGAA0gH0HPyHC
++ _get_witness_table 6EntityQyd__Rsz10AppIntents0A14SnippetContentRd__AcDRd_0_AAQyd_0_ABRSr_0_lAC05TupleadE0Vyqd__qd_0_GAcDHPyHC
++ _get_witness_table 6EntityQyd__Rsz10AppIntents0A14SnippetContentRd__r__lqd__AcDHD1_
++ _swift_dynamicCastTypeToObjCProtocolConditional
++ _swift_dynamicCastUnknownClass
++ _symbolic $s10AppIntents0A21EntityCollectionValueP
++ _symbolic $s10AppIntents10ToolIntentP
++ _symbolic $s10AppIntents13ToolIntent_V2P
++ _symbolic $s10AppIntents15GenerableEntityP
++ _symbolic $s10AppIntents18GenerableEntity_V2P
++ _symbolic $s10AppIntents20EntitySnippetContentP
++ _symbolic $s10AppIntents22_IntentColorCollectionP
++ _symbolic $s10AppIntents26SnippetRepresentableEntityP
++ _symbolic $s10AppIntents27_PlatformColorValueResolverP
++ _symbolic $s10AppIntents28EntityPropertyValuesQuery_V1P
++ _symbolic $s10AppIntents28_IntentColorConvertibleValueP
++ _symbolic $s10AppIntents30_SystemIntentValueSetResolvingP
++ _symbolic 4Body_____Qz 10AppIntents26SnippetRepresentableEntityP
++ _symbolic 4Body______6Entity_____QZ 10AppIntents26SnippetRepresentableEntityP AA0eC7ContentP
++ _symbolic 6Entity_____Qy_ 10AppIntents20EntitySnippetContentP
++ _symbolic 6Entity_____Qyd0__ 10AppIntents20EntitySnippetContentP
++ _symbolic 6Entity_____Qyd_0_ 10AppIntents20EntitySnippetContentP
++ _symbolic 6Entity_____Qyd__ 10AppIntents20EntitySnippetContentP
++ _symbolic 6Entity_____Qz 10AppIntents20EntitySnippetContentP
++ _symbolic 6Target_____Qz 10AppIntents12DeleteIntentP
++ _symbolic S2S_So7LNValueCSgtSgIeghHnr_
++ _symbolic SDy__________G 10Foundation4UUIDV 10AppIntents16UndoManagerCacheC11TokenRecordV
++ _symbolic SS3key_______p5valuetSg 10AppIntents12_IntentValueP
++ _symbolic SS4name______Sg9bundleURLt 10Foundation3URLV
++ _symbolic SS_So7LNValueCSgt
++ _symbolic SS_So7LNValueCSgtSg
++ _symbolic SS_So7LNValueCSgtSgIeAgHr_
++ _symbolic SS_______pt 10AppIntents12_IntentValueP
++ _symbolic SS_______ptSg 10AppIntents12_IntentValueP
++ _symbolic SaySS_So7LNValueCSgtG
++ _symbolic SaySdGSg
++ _symbolic SaySdGSgm
++ _symbolic SaySo22LNAppNotificationEventCG
++ _symbolic SaySo7LNColorCG
++ _symbolic Say_____G 10AppIntents0A18NotificationOutbox33_43704530094BC1FD69CD654E77A74757LLC12PendingBatchV
++ _symbolic Say_____G 10AppIntents32_IntentColorRepresentationEntityV
++ _symbolic Say_____GSg 10AppIntents32_IntentColorRepresentationEntityV
++ _symbolic Say_____Gm 10AppIntents32_IntentColorRepresentationEntityV
++ _symbolic Say______pG6values_AA_pXp8metatypet 10AppIntents0A6EntityP
++ _symbolic Sb32onlyWithOwnershipProvidingEntity_t
++ _symbolic ScCy__________G 10AppIntents26DeferredPropertyResolutionO7OutcomeO s5NeverO
++ _symbolic Shy_____G 10AppIntents0A12EntityTraitsV4Kind33_695704A99F61B7394F87BABDFF12199CLLO
++ _symbolic Shy_____G 10AppIntents0A12IntentTraitsV4Kind020_B5F8F7B7A570B23F334I11D800C67391BLLO
++ _symbolic So20LNSnippetEnvironmentCSg
++ _symbolic So32_NSAuxiliaryUndoManagerReferenceCSg
++ _symbolic So6NSUUIDCSg
++ _symbolic So7LNColorC
++ _symbolic So7LNColorCSg
++ _symbolic _____ 10AppIntents018IntentFileToSystemC16ValueSetResolver33_5ED6F01CEDA5590B0BBCC8E7C345EC41LLV
++ _symbolic _____ 10AppIntents030StringArrayToSystemIntentValueD8Resolver33_5ED6F01CEDA5590B0BBCC8E7C345EC41LLV
++ _symbolic _____ 10AppIntents09TransientA28EntityConvertibleSetResolver33_5ED6F01CEDA5590B0BBCC8E7C345EC41LLV
++ _symbolic _____ 10AppIntents0A12EntityTraitsV
++ _symbolic _____ 10AppIntents0A12EntityTraitsV4Kind33_695704A99F61B7394F87BABDFF12199CLLO
++ _symbolic _____ 10AppIntents0A12IntentTraitsV
++ _symbolic _____ 10AppIntents0A12IntentTraitsV4Kind020_B5F8F7B7A570B23F334I11D800C67391BLLO
++ _symbolic _____ 10AppIntents0A18NotificationOutbox33_43704530094BC1FD69CD654E77A74757LLC
++ _symbolic _____ 10AppIntents0A18NotificationOutbox33_43704530094BC1FD69CD654E77A74757LLC12PendingBatchV
++ _symbolic _____ 10AppIntents13PropertyBatch33_2EA7AB98EC634E688AD7104FAB932020LLV
++ _symbolic _____ 10AppIntents16IntentVisibilityV
++ _symbolic _____ 10AppIntents16UndoManagerCacheC11TokenRecordV
++ _symbolic _____ 10AppIntents17_IntentSideEffectV01_C10ChangeKindV10ImpactTypeO
++ _symbolic _____ 10AppIntents17_IntentSideEffectV01_C10ChangeKindV12CreationTypeO
++ _symbolic _____ 10AppIntents17_IntentSideEffectV01_C10ChangeKindV15DestructiveTypeO
++ _symbolic _____ 10AppIntents18_IntentColorEntityV
++ _symbolic _____ 10AppIntents19IntentColorResolver33_5CBA91766E55CB8981CB448C61348AE7LLV
++ _symbolic _____ 10AppIntents20EntityPropertyKey_V1V
++ _symbolic _____ 10AppIntents20FileEntityIdentifierV7Storage33_464E414641D0C821850E344794B2A7C2LLO0C10CodingKeysO
++ _symbolic _____ 10AppIntents22ConfirmationSideEffectV
++ _symbolic _____ 10AppIntents22UndoFinalizationResultV
++ _symbolic _____ 10AppIntents23EntityPropertyValues_V1V
++ _symbolic _____ 10AppIntents23EntityPropertyValues_V1V5EntryV
++ _symbolic _____ 10AppIntents23_IntentColorEntityErrorO
++ _symbolic _____ 10AppIntents24BoxedIntentColorResolver33_5CBA91766E55CB8981CB448C61348AE7LLV
++ _symbolic _____ 10AppIntents25TupleEntitySnippetContentV
++ _symbolic _____ 10AppIntents26DeferredPropertyResolutionO
++ _symbolic _____ 10AppIntents26DeferredPropertyResolutionO7OutcomeO
++ _symbolic _____ 10AppIntents27EntitySnippetContentBuilderO
++ _symbolic _____ 10AppIntents27StringToIntentColorResolver33_5CBA91766E55CB8981CB448C61348AE7LLV
++ _symbolic _____ 10AppIntents27_EntitySnippetContent_InputV
++ _symbolic _____ 10AppIntents28RequestedEntityProperties_V1V
++ _symbolic _____ 10AppIntents28_EntitySnippetContent_OutputV
++ _symbolic _____ 10AppIntents28_EntitySnippetContent_OutputV6ResultO
++ _symbolic _____ 10AppIntents29ColorContainerElementResolver33_E0739A617D493CDCA2DC605FCCF3135FLLV
++ _symbolic _____ 10AppIntents32SystemIntentValueConversionErrorV
++ _symbolic _____ 10AppIntents32_IntentColorRepresentationEntityV
++ _symbolic _____ 10AppIntents32_IntentColorRepresentationEntityV4KindV
++ _symbolic _____ 10AppIntents41StringArrayToSystemIntentValueSetResolver33_5ED6F01CEDA5590B0BBCC8E7C345EC41LLV
++ _symbolic _____ So10CGColorRefa
++ _symbolic _____ So10LNPlatforma
++ _symbolic _____3url_SSSg13fileReferencet 10Foundation3URLV
++ _symbolic _____IeghHr_ 10AppIntents26DeferredPropertyResolutionO7OutcomeO
++ _symbolic _____Igo_ 10AppIntents13PropertyBatch33_2EA7AB98EC634E688AD7104FAB932020LLV
++ _symbolic _____Sg 10AppIntents16UndoManagerCacheC11TokenRecordV
++ _symbolic _____Sg 10AppIntents17IntentApplicationV
++ _symbolic _____Sg So21LNColorRepresentationC12LinkMetadataE4KindO
++ _symbolic _____Sgm 10Foundation3URLV
++ _symbolic ___________8platformt 10Foundation4DataV So10LNPlatforma
++ _symbolic ______p 10AppIntents17_SideEffectIntentP
++ _symbolic ______p 10AppIntents26SnippetRepresentableEntityP
++ _symbolic ______p 10AppIntents28EntityPropertyValuesQuery_V1P
++ _symbolic ______p5value_AA_pXp8metatypet 10AppIntents0A6EntityP
++ _symbolic ______pSg 10AppIntents22_IntentColorCollectionP
++ _symbolic ______pSg 10AppIntents28_IntentColorConvertibleValueP
++ _symbolic _____ySO_____G s17_NativeDictionaryV 10AppIntents13PropertyBatch33_2EA7AB98EC634E688AD7104FAB932020LLV
++ _symbolic _____ySS_So7LNValueCSgtG s23_ContiguousArrayStorageC
++ _symbolic _____ySS_So7LNValueCSgtSg_G ScG8IteratorV
++ _symbolic _____ySS_____G s17_NativeDictionaryV 10AppIntents0C18NotificationOutbox33_43704530094BC1FD69CD654E77A74757LLC
++ _symbolic _____ySS______pG s18_DictionaryStorageC 10AppIntents12_IntentValueP
++ _symbolic _____ySaySdGSgG 10AppIntents14EntityPropertyC
++ _symbolic _____ySaySdGSgG 10AppIntents24_EntityPropertyContainerC
++ _symbolic _____ySay_____GG 10AppIntents14EntityPropertyC AA026_IntentColorRepresentationC0V
++ _symbolic _____ySay_____GG 10AppIntents24_EntityPropertyContainerC AA026_IntentColorRepresentationC0V
++ _symbolic _____ySiSDySSSo7LNValueCGG s17_NativeDictionaryV
++ _symbolic _____ySi______pG s17_NativeDictionaryV 10AppIntents0C6EntityP
++ _symbolic _____y_____G 10AppIntents010_TransientA11EntityQueryV AA012_IntentColorD0V
++ _symbolic _____y_____G 10AppIntents010_TransientA11EntityQueryV AA026_IntentColorRepresentationD0V
++ _symbolic _____y_____G 10AppIntents15IntentParameterC AA0C11ApplicationV
++ _symbolic _____y_____G 10AppIntents19IntentColorResolver33_5CBA91766E55CB8981CB448C61348AE7LLV AA0cD0V
++ _symbolic _____y_____G 10AppIntents19IntentColorResolver33_5CBA91766E55CB8981CB448C61348AE7LLV So10CGColorRefa
++ _symbolic _____y_____G 10AppIntents24BoxedIntentColorResolver33_5CBA91766E55CB8981CB448C61348AE7LLV AA0dE0V
++ _symbolic _____y_____G 10AppIntents24BoxedIntentColorResolver33_5CBA91766E55CB8981CB448C61348AE7LLV So10CGColorRefa
++ _symbolic _____y_____G 10AppIntents26EmptyResolverSpecificationV AA18_IntentColorEntityV
++ _symbolic _____y_____G 10AppIntents26EmptyResolverSpecificationV AA32_IntentColorRepresentationEntityV
++ _symbolic _____y_____G 16CoreTransferable18DataRepresentationV 10AppIntents18_IntentColorEntityV
++ _symbolic _____y_____G s11_SetStorageC 10AppIntents0C12EntityTraitsV4Kind33_695704A99F61B7394F87BABDFF12199CLLO
++ _symbolic _____y_____G s11_SetStorageC 10AppIntents0C12IntentTraitsV4Kind020_B5F8F7B7A570B23F334K11D800C67391BLLO
++ _symbolic _____y_____G s11_SetStorageC 10AppIntents32_IntentColorRepresentationEntityV4KindV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10AppIntents20FileEntityIdentifierV7Storage33_464E414641D0C821850E344794B2A7C2LLO0F10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10AppIntents20FileEntityIdentifierV7Storage33_464E414641D0C821850E344794B2A7C2LLO0F10CodingKeysO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10AppIntents0D12EntityTraitsV4Kind33_695704A99F61B7394F87BABDFF12199CLLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10AppIntents0D12IntentTraitsV4Kind020_B5F8F7B7A570B23F334L11D800C67391BLLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10AppIntents0D18NotificationOutbox33_43704530094BC1FD69CD654E77A74757LLC12PendingBatchV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10AppIntents32_IntentColorRepresentationEntityV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10AppIntents32_IntentColorRepresentationEntityV4KindV
++ _symbolic _____y_____SgG 10AppIntents14EntityPropertyC 10Foundation3URLV
++ _symbolic _____y_____SgG 10AppIntents24_EntityPropertyContainerC 10Foundation3URLV
++ _symbolic _____y______AB_____yABG______yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA11IntentColorV AA05BoxedfgC033_5CBA91766E55CB8981CB448C61348AE7LLV AA0fgC0AILLV AA08StringTofgC0AILLV
++ _symbolic _____y______AB_____yABG______yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V So10CGColorRefa AA016BoxedIntentColorC033_5CBA91766E55CB8981CB448C61348AE7LLV AA0ijC0AILLV AA08StringToijC0AILLV
++ _symbolic _____y__________G s17_NativeDictionaryV 10Foundation4UUIDV 10AppIntents16UndoManagerCacheC11TokenRecordV
++ _symbolic _____yqd__qd_0_G 10AppIntents25TupleEntitySnippetContentV
++ _symbolic _____yx_x_____yxG______yxG_____yxGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA016BoxedIntentColorC033_5CBA91766E55CB8981CB448C61348AE7LLV AA0ghC0AGLLV AA08StringToghC0AGLLV
++ _symbolic yxYaYbKcSg
++ _type_layout_string 10AppIntents0A12EntityTraitsV
++ _type_layout_string 10AppIntents0A12IntentTraitsV
++ _type_layout_string 10AppIntents0A18NotificationOutbox33_43704530094BC1FD69CD654E77A74757LLC12PendingBatchV
++ _type_layout_string 10AppIntents0A6EntityRzAA12_IntentValueR_s8SendableR_r0_lAA0C14PropertyKey_V1Vyxq_G
++ _type_layout_string 10AppIntents0A6EntityRzlAA09RequestedC13Properties_V1VyxG
++ _type_layout_string 10AppIntents0A6EntityRzlAA0C17PropertyValues_V1V5EntryVyx_G
++ _type_layout_string 10AppIntents0A6IntentRzlAA22ConfirmationSideEffectVyxG
++ _type_layout_string 10AppIntents13PropertyBatch33_2EA7AB98EC634E688AD7104FAB932020LLV
++ _type_layout_string 10AppIntents16IntentVisibilityV
++ _type_layout_string 10AppIntents16UndoManagerCacheC11TokenRecordV
++ _type_layout_string 10AppIntents18_IntentColorEntityV
++ _type_layout_string 10AppIntents26DeferredPropertyResolutionO7OutcomeO
++ _type_layout_string 10AppIntents28_EntitySnippetContent_OutputV
++ _type_layout_string 10AppIntents28_EntitySnippetContent_OutputV6ResultO
++ _type_layout_string 10AppIntents32SystemIntentValueConversionErrorV
++ _type_layout_string 10AppIntents32_IntentColorRepresentationEntityV
++ _type_layout_string 10AppIntents32_IntentColorRepresentationEntityV4KindV
+- -[LNClientConnection fetchStateForAppIntentIdentifiers:completionHandler:]
+- -[LNClientConnection linkAppUndoManager:completionHandler:]
+- GCC_except_table320
+- GCC_except_table326
+- GCC_except_table337
+- GCC_except_table340
+- GCC_except_table342
+- GCC_except_table394
+- GCC_except_table409
+- _OBJC_CLASS_$_LNIntentEnablement
+- _OBJC_CLASS_$_LNNLGDialog
+- _OBJC_CLASS_$_LNNLGRepresentation
+- _OBJC_CLASS_$_LNSymbolImageColorSpecification
+- __OBJC_$_INSTANCE_METHODS_LNAppContext(AppIntents|AppIntents1|AppIntents2|AppIntents3|AppIntents4|AppIntents5|AppIntents6|AppIntents7|AppIntents8|AppIntents9|AppIntents10|AppIntents11|AppIntents12|AppIntents13|AppIntents14|AppIntents15|AppIntents16|AppIntents17|AppIntents18|AppIntents19|AppIntents20|AppIntents21|AppIntents22|AppIntents23|AppIntents24|AppIntents25|AppIntents26|AppIntents27|AppIntents28|AppIntents29|AppIntents30|AppIntents31)
+- ___59-[LNClientConnection linkAppUndoManager:completionHandler:]_block_invoke
+- ___59-[LNClientConnection linkAppUndoManager:completionHandler:]_block_invoke_2
+- ___59-[LNClientConnection linkAppUndoManager:completionHandler:]_block_invoke_3
+- ___59-[LNClientConnection linkAppUndoManager:completionHandler:]_block_invoke_4
+- ___59-[LNClientConnection linkAppUndoManager:completionHandler:]_block_invoke_5
+- ___74-[LNClientConnection fetchStateForAppIntentIdentifiers:completionHandler:]_block_invoke
+- ___74-[LNClientConnection fetchStateForAppIntentIdentifiers:completionHandler:]_block_invoke_2
+- ___74-[LNClientConnection fetchStateForAppIntentIdentifiers:completionHandler:]_block_invoke_3
+- ___74-[LNClientConnection fetchStateForAppIntentIdentifiers:completionHandler:]_block_invoke_4
+- ___74-[LNClientConnection fetchStateForAppIntentIdentifiers:completionHandler:]_block_invoke_5
+- ___79-[LNClientConnection fetchEntitySnippetForValue:snippetType:completionHandler:]_block_invoke
+- ___79-[LNClientConnection fetchEntitySnippetForValue:snippetType:completionHandler:]_block_invoke_2
+- ___79-[LNClientConnection fetchEntitySnippetForValue:snippetType:completionHandler:]_block_invoke_3
+- ___79-[LNClientConnection fetchEntitySnippetForValue:snippetType:completionHandler:]_block_invoke_4
+- ___79-[LNClientConnection fetchEntitySnippetForValue:snippetType:completionHandler:]_block_invoke_5
+- ___swift_closure_destructor.22Tm
+- ___swift_exist.box.addr_destructor.43Tm
+- _associated conformance 10AppIntents15ColorSourceTypeOSHAASQ
+- _associated conformance 10AppIntents17IntentColorEntityV16CoreTransferable0G0AA14RepresentationAdEP_AD08TransferH0
+- _associated conformance 10AppIntents17IntentColorEntityVAA01_C5ValueAA0F4TypeAaDP_AaD
+- _associated conformance 10AppIntents17IntentColorEntityVAA01_C5ValueAA13SpecificationAaDP_AA08ResolverG0
+- _associated conformance 10AppIntents17IntentColorEntityVAA01_C5ValueAA13UnwrappedTypeAaDP_AaD
+- _associated conformance 10AppIntents17IntentColorEntityVAA06Systemc16ValueConvertibleE0AA6ResultAaDP_AA09TransientaehcG0
+- _associated conformance 10AppIntents17IntentColorEntityVAA0aE0AA12DefaultQueryAaDP_AA0eG0
+- _associated conformance 10AppIntents17IntentColorEntityVAA0aE0AA2IDs12IdentifiableP_AA0E21IdentifierConvertible
+- _associated conformance 10AppIntents17IntentColorEntityVs12IdentifiableAA2IDsADP_SH
+- _associated conformance 10AppIntents23SemanticColorIdentifierV10CodingKeys33_E2EF971E23BF257BB0A493C7A619DCD8LLOSHAASQ
+- _associated conformance 10AppIntents23SemanticColorIdentifierV10CodingKeys33_E2EF971E23BF257BB0A493C7A619DCD8LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 10AppIntents23SemanticColorIdentifierV10CodingKeys33_E2EF971E23BF257BB0A493C7A619DCD8LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 10AppIntents23SemanticColorIdentifierVSHAASQ
+- _associated conformance 10AppIntents28IntentStatePersistenceClientV6ErrorsOSHAASQ
+- _associated conformance So21LNSymbolImagePlatformaSHSCSQ
+- _associated conformance So21LNSymbolImagePlatformas20_SwiftNewtypeWrapperSCSY
+- _associated conformance So21LNSymbolImagePlatformas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
+- _fmod
+- _get_enum_tag_for_layout_string 10AppIntents21DisplayRepresentationV5ImageV18ColorSpecificationO
+- _get_enum_tag_for_layout_string 10AppIntents21DisplayRepresentationV5ImageV18ColorSpecificationOSg
+- _get_enum_tag_for_layout_string 10Foundation4DataVSg
+- _get_witness_table 10AppIntents26EmptyResolverSpecificationVyAA11IntentColorVGAA0dE0HPyHC
+- _symbolic $s10AppIntents31IntentStatePersistenceProvidingP
+- _symbolic S2S_So7LNValueCtSgIeghHnr_
+- _symbolic SDySSSo18LNIntentEnablementCGSg
+- _symbolic SDySSSo18LNIntentEnablementCGSgz_Xx
+- _symbolic SDySS_____G 10AppIntents0A16IntentEnablementO
+- _symbolic SS_Sbt
+- _symbolic SS_So7LNValueCt
+- _symbolic SS_So7LNValueCtSg
+- _symbolic SS_So7LNValueCtSgIeAgHr_
+- _symbolic SaySS_So7LNValueCtG
+- _symbolic Say_____G 10AppIntents0A17NotificationEventV
+- _symbolic Say______pG 10AppIntents29SnippetRepresentableEntity_V0P
+- _symbolic Say______pG6values_AA_pXp8metatypet 10AppIntents29SnippetRepresentableEntity_V0P
+- _symbolic ScCy______pSg_____G 10AppIntents12_IntentValueP s5NeverO
+- _symbolic So18LNSystemNamedColorC
+- _symbolic _____ 10AppIntents15ColorSourceTypeO
+- _symbolic _____ 10AppIntents17IntentColorEntityV
+- _symbolic _____ 10AppIntents21DisplayRepresentationV5ImageV18ColorSpecificationO
+- _symbolic _____ 10AppIntents23SemanticColorIdentifierV
+- _symbolic _____ 10AppIntents23SemanticColorIdentifierV10CodingKeys33_E2EF971E23BF257BB0A493C7A619DCD8LLO
+- _symbolic _____ 10AppIntents28IntentStatePersistenceClientV
+- _symbolic _____ 10AppIntents28IntentStatePersistenceClientV6ErrorsO
+- _symbolic _____ So21LNSymbolImagePlatforma
+- _symbolic _____3key______5valuet 10Foundation4UUIDV 10AppIntents16UndoManagerCacheC6RecordV
+- _symbolic _____Sg 10AppIntents0A16IntentEnablementO
+- _symbolic _____Sg 10AppIntents15ColorSourceTypeO
+- _symbolic _____Sg 10AppIntents17IntentColorEntityV
+- _symbolic _____Sg 10AppIntents21DisplayRepresentationV5ImageV18ColorSpecificationO
+- _symbolic _____Sg 10AppIntents23SemanticColorIdentifierV
+- _symbolic _____Sg_ABt 10AppIntents0A16IntentEnablementO
+- _symbolic ___________8platformt 10Foundation4DataV So21LNSymbolImagePlatforma
+- _symbolic ______p 10AppIntents31IntentStatePersistenceProvidingP
+- _symbolic ______p5value_AA_pXp8metatypet 10AppIntents29SnippetRepresentableEntity_V0P
+- _symbolic ______pSgIeghHr_ 10AppIntents12_IntentValueP
+- _symbolic _____ySDySS_____GG 15Synchronization5MutexVAARi_zrlE 10AppIntents0C16IntentEnablementO
+- _symbolic _____ySSSbG s17_NativeDictionaryV
+- _symbolic _____ySS_SbtG s23_ContiguousArrayStorageC
+- _symbolic _____ySS_So7LNValueCtSg_G ScG8IteratorV
+- _symbolic _____ySS_____G s17_NativeDictionaryV 10AppIntents0C16IntentEnablementO
+- _symbolic _____y_____G 10AppIntents010_TransientA11EntityQueryV AA011IntentColorD0V
+- _symbolic _____y_____G 10AppIntents26EmptyResolverSpecificationV AA11IntentColorV
+- _symbolic _____y_____G 10AppIntents26EmptyResolverSpecificationV AA17IntentColorEntityV
+- _symbolic _____y_____G 16CoreTransferable18DataRepresentationV 10AppIntents17IntentColorEntityV
+- _symbolic _____y_____G s22KeyedDecodingContainerV 10AppIntents23SemanticColorIdentifierV10CodingKeys33_E2EF971E23BF257BB0A493C7A619DCD8LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 10AppIntents23SemanticColorIdentifierV10CodingKeys33_E2EF971E23BF257BB0A493C7A619DCD8LLO
+- _symbolic _____y______pG s23_ContiguousArrayStorageC 10AppIntents29SnippetRepresentableEntity_V0P
+- _symbolic _____y______pG s23_ContiguousArrayStorageC s7CVarArgP
+- _type_layout_string 10AppIntents17IntentColorEntityV
+- _type_layout_string 10AppIntents21DisplayRepresentationV5ImageV18ColorSpecificationO
+- _type_layout_string 10AppIntents23SemanticColorIdentifierV
+CStrings:
++ " cannot be expressed as "
++ " must implement 'target' because its type isn't ["
++ "A color needs at least one representation this build can understand"
++ "A value of type "
++ "AppIntents._IntentColorEntity"
++ "AppIntents._IntentColorRepresentationEntity"
++ "AppIntents/DeleteIntent.swift"
++ "Archive Encoding"
++ "Asset Catalog Name"
++ "Bundle Sandbox Extension Token"
++ "Color Representation"
++ "Color Space Profile"
++ "CoreGraphics.CGColor"
++ "Could not archive an entity's declared symbol colorization for Spotlight"
++ "Declining %{public}s: the top group carries no undo token, so it can't be matched to the requested token %{public}s."
++ "Declining %{public}s: the top group carries token %{public}s, not the requested token %{public}s. Another action was registered after the intent's execution."
++ "Delivery failed for %s (attempt %ld/%ld), retrying in %ldms: %@"
++ "Dropping %ld events for %s after %ld retries: %@"
++ "Exported content exceeds the %ld-byte limit"
++ "Linked undo group carries token %{public}s, not undo token %{public}s; an undo with this token will be declined."
++ "Linked undo group carries undo token %{public}s"
++ "Releasing UndoManager for undo token %{public}s"
++ "Retaining UndoManager for undo token %{public}s (placeholder: %{bool,public}d, auxiliary: %{bool,public}d)"
++ "The exported content is too large to return."
++ "The undo group opened for this intent execution was already removed"
++ "Unable to encode App Entity identifier to JSON: %@"
++ "XPC: Failed to register for observation status changes for %s/%s: %@ — finishing stream"
++ "[%{public}s %{public}s] Side Effect confirmation deferred by LinkServices to the intent's confirmation closure"
++ "_AppIntentsAppKitColorValueResolver"
++ "_AppIntentsUIKitColorValueResolver"
++ "securityScope"
++ "sendAppNotificationEvents(events:bundleIdentifier:)"
++ "storage"
++ "url fileReference "
+- "AppIntents.IntentColorEntity"
+- "Could not locate AppIntent for identifier: %s"
+- "Could not persist intent enablement to daemon: %@"
+- "Could not retrieve persisted intent enablements from daemon: %@"
+- "Intent Color Entity"
+- "Semantic Identifier"
+- "Unable to decode App Entity identifier from JSON: %@"
+- "Unable to get bookmark data for url: %s"
+- "XPC: Failed to register for observation status changes for %s/%s"
+- "controlBackgroundColor"
+- "nsColor"
+- "quaternaryLabelColor"
+- "secondaryLabelColor"
+- "secondarySystemBackground"
+- "swiftUIColor"
+- "systemBackground"
+- "tertiaryLabelColor"
+- "tertiarySystemBackground"
+- "uiColor"
+- "underPageBackgroundColor"
+- "windowBackgroundColor"
+```

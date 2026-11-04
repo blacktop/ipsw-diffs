@@ -1,0 +1,2578 @@
+## TeaFoundation
+
+> `/System/Library/PrivateFrameworks/TeaFoundation.framework/TeaFoundation`
+
+```diff
+
+-1517.0.0.0.0
+-  __TEXT.__text: 0x185988
++1556.0.0.0.0
++  __TEXT.__text: 0x1b8c04
+   __TEXT.__objc_methlist: 0xe90
+-  __TEXT.__const: 0xeae8
+-  __TEXT.__cstring: 0x1be7
++  __TEXT.__const: 0xfb38
++  __TEXT.__cstring: 0x1ca7
+   __TEXT.__oslogstring: 0x28e0
+-  __TEXT.__constg_swiftt: 0x6040
+-  __TEXT.__swift5_typeref: 0x4e28
+-  __TEXT.__swift5_reflstr: 0x2d67
+-  __TEXT.__swift5_fieldmd: 0x4550
++  __TEXT.__constg_swiftt: 0x67bc
++  __TEXT.__swift5_typeref: 0x5164
++  __TEXT.__swift5_reflstr: 0x3207
++  __TEXT.__swift5_fieldmd: 0x4bfc
+   __TEXT.__swift5_builtin: 0x2a8
+-  __TEXT.__swift5_assocty: 0x818
+-  __TEXT.__swift5_proto: 0x86c
+-  __TEXT.__swift5_types: 0x5e8
+-  __TEXT.__swift5_capture: 0x7aa8
++  __TEXT.__swift5_assocty: 0x830
++  __TEXT.__swift5_proto: 0x8e0
++  __TEXT.__swift5_types: 0x674
++  __TEXT.__swift5_capture: 0x7d2c
+   __TEXT.__swift_as_entry: 0x1ac
+   __TEXT.__swift_as_ret: 0x188
+-  __TEXT.__swift_as_cont: 0x2ac
++  __TEXT.__swift_as_cont: 0x2b0
+   __TEXT.__swift5_mpenum: 0x10c
+-  __TEXT.__swift5_protos: 0xfc
+-  __TEXT.__unwind_info: 0x9118
+-  __TEXT.__eh_frame: 0xaeac
++  __TEXT.__swift5_protos: 0x10c
++  __TEXT.__unwind_info: 0x88f8
++  __TEXT.__eh_frame: 0xaf10
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xb70
+-  __DATA_CONST.__objc_classlist: 0x320
++  __DATA_CONST.__const: 0xbf0
++  __DATA_CONST.__objc_classlist: 0x360
+   __DATA_CONST.__objc_catlist: 0x18
+   __DATA_CONST.__objc_protolist: 0x118
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x928
++  __DATA_CONST.__objc_selrefs: 0x930
+   __DATA_CONST.__objc_protorefs: 0x88
+   __DATA_CONST.__objc_superrefs: 0x20
+-  __DATA_CONST.__got: 0xc20
+-  __AUTH_CONST.__const: 0x13fa0
++  __DATA_CONST.__got: 0xc40
++  __AUTH_CONST.__const: 0x14ad8
+   __AUTH_CONST.__cfstring: 0xe0
+-  __AUTH_CONST.__objc_const: 0x6f08
+-  __AUTH_CONST.__auth_got: 0x21a0
++  __AUTH_CONST.__objc_const: 0x7750
++  __AUTH_CONST.__auth_got: 0x2148
+   __AUTH.__objc_data: 0x360
+-  __AUTH.__data: 0x168
++  __AUTH.__data: 0x6e0
+   __DATA.__objc_ivar: 0x24
+-  __DATA.__data: 0x2aa8
+-  __DATA.__common: 0x460
++  __DATA.__data: 0x32b8
++  __DATA.__common: 0x470
+   __DATA_DIRTY.__objc_data: 0xdf0
+-  __DATA_DIRTY.__data: 0x7670
++  __DATA_DIRTY.__data: 0x74b8
+   __DATA_DIRTY.__bss: 0x2720
+   __DATA_DIRTY.__common: 0x518
+   - /System/Library/Frameworks/BackgroundTasks.framework/BackgroundTasks
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  Functions: 12219
+-  Symbols:   2895
+-  CStrings:  360
++  Functions: 9807
++  Symbols:   435
++  CStrings:  363
+ 
+Symbols:
++ _OBJC_CLASS_$_NSRecursiveLock
++ _memcmp
++ _objc_release_x1
++ _objc_retain_x10
++ _swift_conformsToProtocol2
++ _swift_retain_x10
++ _swift_task_localValuePop
++ _swift_task_localValuePush
+- +[NSString(TeaStringFormatValidation) tf_stringWithValidatedFormat:validFormatSpecifiers:formatArguments:error:]
+- +[UNNotification(Bridging) notificationWithRequest:]
+- +[UNNotificationResponse(Bridging) responseWithNotification:]
+- -[TFArchiver archiveDirectory:toLocation:]
+- -[TFArchiver unarchive:toLocation:]
+- -[TFCallbackScope .cxx_destruct]
+- -[TFCallbackScope initWithScope:names:]
+- -[TFCallbackScope names]
+- -[TFCallbackScope scope]
+- -[TFCrashSimulator triggerSIGBUS]
+- -[TFCrashSimulator triggerSIGILL]
+- -[TFCrashSimulator triggerSIGSEGV]
+- -[TFInterprocessNotificationCallback .cxx_destruct]
+- -[TFInterprocessNotificationCallback callback]
+- -[TFInterprocessNotificationCallback dealloc]
+- -[TFInterprocessNotificationCallback initWithNotificationName:callback:]
+- -[TFInterprocessNotificationCallback notificationName]
+- -[TFInterprocessNotificationCallback setNotificationName:]
+- -[TFKey .cxx_destruct]
+- -[TFKey address]
+- -[TFKey copyWithName:]
+- -[TFKey copyWithZone:]
+- -[TFKey description]
+- -[TFKey hash]
+- -[TFKey initWithAddress:type:name:]
+- -[TFKey initWithAddressOfType:name:]
+- -[TFKey initWithTypeName:name:]
+- -[TFKey isEqual:]
+- -[TFKey name]
+- -[TFKey type]
+- -[TFMultiDelegate .cxx_destruct]
+- -[TFMultiDelegate addDelegate:]
+- -[TFMultiDelegate children]
+- -[TFMultiDelegate conformsToProtocol:]
+- -[TFMultiDelegate delegateProtocol]
+- -[TFMultiDelegate delegate]
+- -[TFMultiDelegate forwardInvocation:]
+- -[TFMultiDelegate initWithDelegate:delegateProtocol:]
+- -[TFMultiDelegate methodSignatureForSelector:]
+- -[TFMultiDelegate removeDelegate:]
+- -[TFMultiDelegate replaceDelegate:withDelegate:]
+- -[TFMultiDelegate respondsToSelector:]
+- <redacted>
+- _OBJC_CLASS_$__TtC13TeaFoundation14BridgedContext
+- _OBJC_CLASS_$__TtC13TeaFoundation15BridgedResolver
+- _OBJC_CLASS_$__TtC13TeaFoundation17BridgedDefinition
+- _OBJC_CLASS_$__TtC13TeaFoundation21BridgedProxyContainer
+- _OBJC_CLASS_$__TtC13TeaFoundation27BridgedCallbackRegistration
+- _OBJC_CLASS_$__TtC13TeaFoundation28BridgedRegistrationContainer
+- _OBJC_IVAR_$_TFCallbackScope._names
+- _OBJC_IVAR_$_TFCallbackScope._scope
+- _OBJC_IVAR_$_TFInterprocessNotificationCallback._callback
+- _OBJC_IVAR_$_TFInterprocessNotificationCallback._notificationName
+- _OBJC_IVAR_$_TFKey._address
+- _OBJC_IVAR_$_TFKey._name
+- _OBJC_IVAR_$_TFKey._type
+- _OBJC_IVAR_$_TFMultiDelegate._children
+- _OBJC_IVAR_$_TFMultiDelegate._delegateProtocol
+- _OBJC_METACLASS_$__TtC13TeaFoundation14BridgedContext
+- _OBJC_METACLASS_$__TtC13TeaFoundation15BridgedResolver
+- _OBJC_METACLASS_$__TtC13TeaFoundation17BridgedDefinition
+- _OBJC_METACLASS_$__TtC13TeaFoundation21BridgedProxyContainer
+- _OBJC_METACLASS_$__TtC13TeaFoundation27BridgedCallbackRegistration
+- _OBJC_METACLASS_$__TtC13TeaFoundation28BridgedRegistrationContainer
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_10
+- _OUTLINED_FUNCTION_100
+- _OUTLINED_FUNCTION_101
+- _OUTLINED_FUNCTION_102
+- _OUTLINED_FUNCTION_103
+- _OUTLINED_FUNCTION_104
+- _OUTLINED_FUNCTION_105
+- _OUTLINED_FUNCTION_106
+- _OUTLINED_FUNCTION_107
+- _OUTLINED_FUNCTION_108
+- _OUTLINED_FUNCTION_109
+- _OUTLINED_FUNCTION_11
+- _OUTLINED_FUNCTION_110
+- _OUTLINED_FUNCTION_111
+- _OUTLINED_FUNCTION_112
+- _OUTLINED_FUNCTION_113
+- _OUTLINED_FUNCTION_114
+- _OUTLINED_FUNCTION_115
+- _OUTLINED_FUNCTION_116
+- _OUTLINED_FUNCTION_117
+- _OUTLINED_FUNCTION_118
+- _OUTLINED_FUNCTION_119
+- _OUTLINED_FUNCTION_12
+- _OUTLINED_FUNCTION_120
+- _OUTLINED_FUNCTION_121
+- _OUTLINED_FUNCTION_122
+- _OUTLINED_FUNCTION_123
+- _OUTLINED_FUNCTION_124
+- _OUTLINED_FUNCTION_125
+- _OUTLINED_FUNCTION_126
+- _OUTLINED_FUNCTION_127
+- _OUTLINED_FUNCTION_128
+- _OUTLINED_FUNCTION_129
+- _OUTLINED_FUNCTION_13
+- _OUTLINED_FUNCTION_130
+- _OUTLINED_FUNCTION_131
+- _OUTLINED_FUNCTION_132
+- _OUTLINED_FUNCTION_133
+- _OUTLINED_FUNCTION_134
+- _OUTLINED_FUNCTION_135
+- _OUTLINED_FUNCTION_136
+- _OUTLINED_FUNCTION_137
+- _OUTLINED_FUNCTION_138
+- _OUTLINED_FUNCTION_139
+- _OUTLINED_FUNCTION_14
+- _OUTLINED_FUNCTION_140
+- _OUTLINED_FUNCTION_141
+- _OUTLINED_FUNCTION_142
+- _OUTLINED_FUNCTION_143
+- _OUTLINED_FUNCTION_144
+- _OUTLINED_FUNCTION_145
+- _OUTLINED_FUNCTION_146
+- _OUTLINED_FUNCTION_147
+- _OUTLINED_FUNCTION_148
+- _OUTLINED_FUNCTION_149
+- _OUTLINED_FUNCTION_15
+- _OUTLINED_FUNCTION_150
+- _OUTLINED_FUNCTION_151
+- _OUTLINED_FUNCTION_152
+- _OUTLINED_FUNCTION_153
+- _OUTLINED_FUNCTION_154
+- _OUTLINED_FUNCTION_155
+- _OUTLINED_FUNCTION_156
+- _OUTLINED_FUNCTION_157
+- _OUTLINED_FUNCTION_158
+- _OUTLINED_FUNCTION_159
+- _OUTLINED_FUNCTION_16
+- _OUTLINED_FUNCTION_160
+- _OUTLINED_FUNCTION_161
+- _OUTLINED_FUNCTION_162
+- _OUTLINED_FUNCTION_163
+- _OUTLINED_FUNCTION_164
+- _OUTLINED_FUNCTION_165
+- _OUTLINED_FUNCTION_166
+- _OUTLINED_FUNCTION_167
+- _OUTLINED_FUNCTION_168
+- _OUTLINED_FUNCTION_169
+- _OUTLINED_FUNCTION_17
+- _OUTLINED_FUNCTION_170
+- _OUTLINED_FUNCTION_171
+- _OUTLINED_FUNCTION_18
+- _OUTLINED_FUNCTION_19
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_20
+- _OUTLINED_FUNCTION_21
+- _OUTLINED_FUNCTION_22
+- _OUTLINED_FUNCTION_23
+- _OUTLINED_FUNCTION_24
+- _OUTLINED_FUNCTION_25
+- _OUTLINED_FUNCTION_26
+- _OUTLINED_FUNCTION_27
+- _OUTLINED_FUNCTION_28
+- _OUTLINED_FUNCTION_29
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_30
+- _OUTLINED_FUNCTION_31
+- _OUTLINED_FUNCTION_32
+- _OUTLINED_FUNCTION_33
+- _OUTLINED_FUNCTION_34
+- _OUTLINED_FUNCTION_35
+- _OUTLINED_FUNCTION_36
+- _OUTLINED_FUNCTION_37
+- _OUTLINED_FUNCTION_38
+- _OUTLINED_FUNCTION_39
+- _OUTLINED_FUNCTION_4
+- _OUTLINED_FUNCTION_40
+- _OUTLINED_FUNCTION_41
+- _OUTLINED_FUNCTION_42
+- _OUTLINED_FUNCTION_43
+- _OUTLINED_FUNCTION_44
+- _OUTLINED_FUNCTION_45
+- _OUTLINED_FUNCTION_46
+- _OUTLINED_FUNCTION_47
+- _OUTLINED_FUNCTION_48
+- _OUTLINED_FUNCTION_49
+- _OUTLINED_FUNCTION_5
+- _OUTLINED_FUNCTION_50
+- _OUTLINED_FUNCTION_51
+- _OUTLINED_FUNCTION_52
+- _OUTLINED_FUNCTION_53
+- _OUTLINED_FUNCTION_54
+- _OUTLINED_FUNCTION_55
+- _OUTLINED_FUNCTION_56
+- _OUTLINED_FUNCTION_57
+- _OUTLINED_FUNCTION_58
+- _OUTLINED_FUNCTION_59
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_60
+- _OUTLINED_FUNCTION_61
+- _OUTLINED_FUNCTION_62
+- _OUTLINED_FUNCTION_63
+- _OUTLINED_FUNCTION_64
+- _OUTLINED_FUNCTION_65
+- _OUTLINED_FUNCTION_66
+- _OUTLINED_FUNCTION_67
+- _OUTLINED_FUNCTION_68
+- _OUTLINED_FUNCTION_69
+- _OUTLINED_FUNCTION_7
+- _OUTLINED_FUNCTION_70
+- _OUTLINED_FUNCTION_71
+- _OUTLINED_FUNCTION_72
+- _OUTLINED_FUNCTION_73
+- _OUTLINED_FUNCTION_74
+- _OUTLINED_FUNCTION_75
+- _OUTLINED_FUNCTION_76
+- _OUTLINED_FUNCTION_77
+- _OUTLINED_FUNCTION_78
+- _OUTLINED_FUNCTION_79
+- _OUTLINED_FUNCTION_8
+- _OUTLINED_FUNCTION_80
+- _OUTLINED_FUNCTION_81
+- _OUTLINED_FUNCTION_82
+- _OUTLINED_FUNCTION_83
+- _OUTLINED_FUNCTION_84
+- _OUTLINED_FUNCTION_85
+- _OUTLINED_FUNCTION_86
+- _OUTLINED_FUNCTION_87
+- _OUTLINED_FUNCTION_88
+- _OUTLINED_FUNCTION_89
+- _OUTLINED_FUNCTION_9
+- _OUTLINED_FUNCTION_90
+- _OUTLINED_FUNCTION_91
+- _OUTLINED_FUNCTION_92
+- _OUTLINED_FUNCTION_93
+- _OUTLINED_FUNCTION_94
+- _OUTLINED_FUNCTION_95
+- _OUTLINED_FUNCTION_96
+- _OUTLINED_FUNCTION_97
+- _OUTLINED_FUNCTION_98
+- _OUTLINED_FUNCTION_99
+- _TFArchiverCopyFileFinishedHandler
+- _TFCompletedStartup.startupCompletionState
+- __CLASS_METHODS_TFCapabilities
+- __CLASS_METHODS__TtC13TeaFoundation14AsyncOperation
+- __DATA_TFCapabilities
+- __DATA_TFContainer
+- __DATA_TFDiagnosticData
+- __DATA_TFDiagnosticFileCollectionCoordinator
+- __DATA_TFDiagnosticFileCollector
+- __DATA_TFInterprocessDiagnosticDumpNotifier
+- __DATA_TFInterprocessDiagnosticFileReceiver
+- __DATA_TFTeaFoundationAssembly
+- __DATA_TSBackgroundFetchJournalEntry
+- __DATA__TtC13TeaFoundation10HttpParser
+- __DATA__TtC13TeaFoundation10HttpRouter
+- __DATA__TtC13TeaFoundation10JSONParser
+- __DATA__TtC13TeaFoundation10MockServer
+- __DATA__TtC13TeaFoundation10UnfairLock
+- __DATA__TtC13TeaFoundation12DateProvider
+- __DATA__TtC13TeaFoundation12DeinitSignal
+- __DATA__TtC13TeaFoundation12Synchronizer
+- __DATA__TtC13TeaFoundation13BinaryDecoder
+- __DATA__TtC13TeaFoundation13BinaryEncoder
+- __DATA__TtC13TeaFoundation13CallbackStore
+- __DATA__TtC13TeaFoundation13DisposableBag
+- __DATA__TtC13TeaFoundation13DynamicLocale
+- __DATA__TtC13TeaFoundation13ProxyResolver
+- __DATA__TtC13TeaFoundation13SingletonPool
+- __DATA__TtC13TeaFoundation13TaskScheduler
+- __DATA__TtC13TeaFoundation14BaseDefinition
+- __DATA__TtC13TeaFoundation14BasePoolObject
+- __DATA__TtC13TeaFoundation14BridgedContext
+- __DATA__TtC13TeaFoundation14ContainerStore
+- __DATA__TtC13TeaFoundation14ProxyContainer
+- __DATA__TtC13TeaFoundation14URLSessionPool
+- __DATA__TtC13TeaFoundation15BridgedAssembly
+- __DATA__TtC13TeaFoundation15BridgedResolver
+- __DATA__TtC13TeaFoundation15ManagerAssembly
+- __DATA__TtC13TeaFoundation15ServiceAssembly
+- __DATA__TtC13TeaFoundation15_TeaJSONDecoder
+- __DATA__TtC13TeaFoundation16AuthTokenService
+- __DATA__TtC13TeaFoundation16ContainerWrapper
+- __DATA__TtC13TeaFoundation16ProviderAssembly
+- __DATA__TtC13TeaFoundation16ReferenceDecoder
+- __DATA__TtC13TeaFoundation16ReferenceEncoder
+- __DATA__TtC13TeaFoundation16ReferenceService
+- __DATA__TtC13TeaFoundation16SocketConnection
+- __DATA__TtC13TeaFoundation16StubNetworkProxy
+- __DATA__TtC13TeaFoundation17BridgedDefinition
+- __DATA__TtC13TeaFoundation17ScenePhaseManager
+- __DATA__TtC13TeaFoundation17SceneStateManager
+- __DATA__TtC13TeaFoundation17ThrottleScheduler
+- __DATA__TtC13TeaFoundation17URLHandlerMatcher
+- __DATA__TtC13TeaFoundation18DebugCacheRegistry
+- __DATA__TtC13TeaFoundation18DeviceLockObserver
+- __DATA__TtC13TeaFoundation18DiagnosticAssembly
+- __DATA__TtC13TeaFoundation18ObservableResolver
+- __DATA__TtC13TeaFoundation18StartupTaskManager
+- __DATA__TtC13TeaFoundation18StringDeserializer
+- __DATA__TtC13TeaFoundation19NetworkReachability
+- __DATA__TtC13TeaFoundation20CallbackRegistration
+- __DATA__TtC13TeaFoundation20DeviceStorageManager
+- __DATA__TtC13TeaFoundation21BridgedBundleAssembly
+- __DATA__TtC13TeaFoundation21BridgedProxyContainer
+- __DATA__TtC13TeaFoundation21ContainerStoreWrapper
+- __DATA__TtC13TeaFoundation21HttpConnectionHandler
+- __DATA__TtC13TeaFoundation21HttpResponseConverter
+- __DATA__TtC13TeaFoundation21ReferenceDecodingPool
+- __DATA__TtC13TeaFoundation21ReferenceEncodingPool
+- __DATA__TtC13TeaFoundation21RegistrationContainer
+- __DATA__TtC13TeaFoundation22BackgroundFetchManager
+- __DATA__TtC13TeaFoundation22BaseCallbackDefinition
+- __DATA__TtC13TeaFoundation22NetworkActivitySession
+- __DATA__TtC13TeaFoundation24BackgroundNetworkSession
+- __DATA__TtC13TeaFoundation25RemoteNotificationManager
+- __DATA__TtC13TeaFoundation26ApplicationStateManagerIOS
+- __DATA__TtC13TeaFoundation27BridgedCallbackRegistration
+- __DATA__TtC13TeaFoundation27EmptyBackgroundFetchJournal
+- __DATA__TtC13TeaFoundation28ApplicationStateManagerMacOS
+- __DATA__TtC13TeaFoundation28BridgedRegistrationContainer
+- __DATA__TtC13TeaFoundation28DiagnosticAttachmentResolver
+- __DATA__TtC13TeaFoundation34NetworkOperationURLSessionDelegate
+- __DATA__TtC13TeaFoundation4Gate
+- __DATA__TtC13TeaFoundation4Pool
+- __DATA__TtC13TeaFoundation6Digest
+- __DATA__TtC13TeaFoundation7Context
+- __DATA__TtC13TeaFoundation9Container
+- __DATA__TtC13TeaFoundation9MutexLock
+- __DATA__TtC13TeaFoundationP33_17346160D3C224C5179FD834A829F56019DisposablePurgeable
+- __DATA__TtC13TeaFoundationP33_3E775B95AA8F4C6167C1B13E33C411A69Localized
+- __DATA__TtC13TeaFoundationP33_58CE754FD3D7EFA26685E71567D6D17F17DisposableMonitor
+- __DATA__TtC13TeaFoundationP33_742A028E0C7008CF4F38C8ACD75723DC18DisposableObserver
+- __DATA__TtC13TeaFoundationP33_8939384B78C8A7DB3DBF99D1BF52171817DisposableHandler
+- __DATA__TtC13TeaFoundationP33_89C94C1602C77B8CEBFBCE49D1F8016716DisposableWorker
+- __DATA__TtC13TeaFoundationP33_89C94C1602C77B8CEBFBCE49D1F8016731BlockBasedBackgroundFetchWorker
+- __DATA__TtC13TeaFoundationP33_9A4AE9F343B4505B931B51DC4DC962B027AsyncBlockCancelledReporter
+- __DATA__TtC13TeaFoundationP33_C4005B8CA9A4CC3D720EFCC32F4FA98418DisposableObserver
+- __DATA__TtC13TeaFoundationP33_F9FB6BEC79A4D8EBAD092E817041FFBA17DisposableMonitor
+- __DATA__TtCC13TeaFoundation18StartupTaskManagerP33_DA8F8508DC89BFEAEDF6D12B3608D21B15LazyStartupTask
+- __INSTANCE_METHODS_TFCapabilities
+- __INSTANCE_METHODS_TFContainer
+- __INSTANCE_METHODS_TFDiagnosticData
+- __INSTANCE_METHODS_TFDiagnosticFileCollectionCoordinator
+- __INSTANCE_METHODS_TFDiagnosticFileCollector
+- __INSTANCE_METHODS_TFInterprocessDiagnosticDumpNotifier
+- __INSTANCE_METHODS_TFInterprocessDiagnosticFileReceiver
+- __INSTANCE_METHODS_TFTeaFoundationAssembly
+- __INSTANCE_METHODS_TSBackgroundFetchJournalEntry
+- __INSTANCE_METHODS__TtC13TeaFoundation14AsyncOperation
+- __INSTANCE_METHODS__TtC13TeaFoundation14BridgedContext
+- __INSTANCE_METHODS__TtC13TeaFoundation15BridgedResolver
+- __INSTANCE_METHODS__TtC13TeaFoundation16NetworkOperation
+- __INSTANCE_METHODS__TtC13TeaFoundation17BridgedDefinition
+- __INSTANCE_METHODS__TtC13TeaFoundation18AsyncTaskOperation
+- __INSTANCE_METHODS__TtC13TeaFoundation19AsyncBlockOperation
+- __INSTANCE_METHODS__TtC13TeaFoundation21BridgedProxyContainer
+- __INSTANCE_METHODS__TtC13TeaFoundation24NetworkResponseOperation
+- __INSTANCE_METHODS__TtC13TeaFoundation27BridgedCallbackRegistration
+- __INSTANCE_METHODS__TtC13TeaFoundation27EmptyBackgroundFetchJournal
+- __INSTANCE_METHODS__TtC13TeaFoundation28BridgedRegistrationContainer
+- __INSTANCE_METHODS__TtC13TeaFoundation29AsyncBlockCancellingOperation
+- __INSTANCE_METHODS__TtC13TeaFoundation34NetworkOperationURLSessionDelegate
+- __INSTANCE_METHODS__TtC13TeaFoundation9WeakProxy
+- __IVARS_TFContainer
+- __IVARS_TFDiagnosticData
+- __IVARS_TFDiagnosticFileCollectionCoordinator
+- __IVARS_TFDiagnosticFileCollector
+- __IVARS_TFInterprocessDiagnosticDumpNotifier
+- __IVARS_TFInterprocessDiagnosticFileReceiver
+- __IVARS_TFTeaFoundationAssembly
+- __IVARS_TSBackgroundFetchJournalEntry
+- __IVARS__TtC13TeaFoundation10Definition
+- __IVARS__TtC13TeaFoundation10HttpRouter
+- __IVARS__TtC13TeaFoundation10JSONParser
+- __IVARS__TtC13TeaFoundation10MockServer
+- __IVARS__TtC13TeaFoundation10PoolObject
+- __IVARS__TtC13TeaFoundation10Reportable
+- __IVARS__TtC13TeaFoundation10StoreValue
+- __IVARS__TtC13TeaFoundation10UnfairLock
+- __IVARS__TtC13TeaFoundation10UnsafeLazy
+- __IVARS__TtC13TeaFoundation12DeinitSignal
+- __IVARS__TtC13TeaFoundation12DispatchOnce
+- __IVARS__TtC13TeaFoundation12EventManager
+- __IVARS__TtC13TeaFoundation12StateMachine
+- __IVARS__TtC13TeaFoundation12Synchronizer
+- __IVARS__TtC13TeaFoundation12ThrowingLazy
+- __IVARS__TtC13TeaFoundation13CallbackStore
+- __IVARS__TtC13TeaFoundation13DisposableBag
+- __IVARS__TtC13TeaFoundation13DynamicLocale
+- __IVARS__TtC13TeaFoundation13ProxyResolver
+- __IVARS__TtC13TeaFoundation13SingletonPool
+- __IVARS__TtC13TeaFoundation13TaskScheduler
+- __IVARS__TtC13TeaFoundation13ThreadsafeSet
+- __IVARS__TtC13TeaFoundation14AsyncOperation
+- __IVARS__TtC13TeaFoundation14BridgedContext
+- __IVARS__TtC13TeaFoundation14ContainerStore
+- __IVARS__TtC13TeaFoundation14PromiseDeduper
+- __IVARS__TtC13TeaFoundation14ProxyContainer
+- __IVARS__TtC13TeaFoundation14SyncObservable
+- __IVARS__TtC13TeaFoundation14TestDataLoader
+- __IVARS__TtC13TeaFoundation14URLSessionPool
+- __IVARS__TtC13TeaFoundation14WeakPoolObject
+- __IVARS__TtC13TeaFoundation15AsyncObservable
+- __IVARS__TtC13TeaFoundation15BridgedAssembly
+- __IVARS__TtC13TeaFoundation15BridgedResolver
+- __IVARS__TtC13TeaFoundation15DeferredPromise
+- __IVARS__TtC13TeaFoundation15_TeaJSONDecoder
+- __IVARS__TtC13TeaFoundation16AuthTokenManager
+- __IVARS__TtC13TeaFoundation16AuthTokenService
+- __IVARS__TtC13TeaFoundation16ContainerWrapper
+- __IVARS__TtC13TeaFoundation16DoublyLinkedList
+- __IVARS__TtC13TeaFoundation16NetworkOperation
+- __IVARS__TtC13TeaFoundation16PromiseDebouncer
+- __IVARS__TtC13TeaFoundation16ReferenceService
+- __IVARS__TtC13TeaFoundation16SingleValueStore
+- __IVARS__TtC13TeaFoundation16SocketConnection
+- __IVARS__TtC13TeaFoundation16StubNetworkProxy
+- __IVARS__TtC13TeaFoundation17BridgedDefinition
+- __IVARS__TtC13TeaFoundation17ObjectAssociation
+- __IVARS__TtC13TeaFoundation17ScenePhaseManager
+- __IVARS__TtC13TeaFoundation17SceneStateManager
+- __IVARS__TtC13TeaFoundation17ThrottleScheduler
+- __IVARS__TtC13TeaFoundation17URLHandlerManager
+- __IVARS__TtC13TeaFoundation17URLHandlerMatcher
+- __IVARS__TtC13TeaFoundation18AsyncTaskOperation
+- __IVARS__TtC13TeaFoundation18CallbackDefinition
+- __IVARS__TtC13TeaFoundation18DebugCacheRegistry
+- __IVARS__TtC13TeaFoundation18DeviceLockObserver
+- __IVARS__TtC13TeaFoundation18ObservableProperty
+- __IVARS__TtC13TeaFoundation18ObservableResolver
+- __IVARS__TtC13TeaFoundation18StartupTaskManager
+- __IVARS__TtC13TeaFoundation18StoreComputedValue
+- __IVARS__TtC13TeaFoundation19AsyncBlockOperation
+- __IVARS__TtC13TeaFoundation19NetworkReachability
+- __IVARS__TtC13TeaFoundation19PromiseWeakResolver
+- __IVARS__TtC13TeaFoundation20CallbackRegistration
+- __IVARS__TtC13TeaFoundation20DeviceStorageManager
+- __IVARS__TtC13TeaFoundation20ObjectReuseProtector
+- __IVARS__TtC13TeaFoundation20ReferenceCountedLazy
+- __IVARS__TtC13TeaFoundation21BridgedBundleAssembly
+- __IVARS__TtC13TeaFoundation21BridgedProxyContainer
+- __IVARS__TtC13TeaFoundation21ContainerStoreWrapper
+- __IVARS__TtC13TeaFoundation21HttpConnectionHandler
+- __IVARS__TtC13TeaFoundation21ReferenceDecodingPool
+- __IVARS__TtC13TeaFoundation21ReferenceEncodingPool
+- __IVARS__TtC13TeaFoundation21RegistrationContainer
+- __IVARS__TtC13TeaFoundation22BackgroundFetchManager
+- __IVARS__TtC13TeaFoundation22NetworkActivitySession
+- __IVARS__TtC13TeaFoundation22StateMachineTransition
+- __IVARS__TtC13TeaFoundation23DefinitionConfiguration
+- __IVARS__TtC13TeaFoundation23FloatingPointTranslator
+- __IVARS__TtC13TeaFoundation23OnlyOnceDeferredPromise
+- __IVARS__TtC13TeaFoundation24BackgroundNetworkSession
+- __IVARS__TtC13TeaFoundation24NetworkResponseOperation
+- __IVARS__TtC13TeaFoundation25RemoteNotificationManager
+- __IVARS__TtC13TeaFoundation26ApplicationStateManagerIOS
+- __IVARS__TtC13TeaFoundation26CallbackInstanceDefinition
+- __IVARS__TtC13TeaFoundation27BridgedCallbackRegistration
+- __IVARS__TtC13TeaFoundation28ApplicationStateManagerMacOS
+- __IVARS__TtC13TeaFoundation28BridgedRegistrationContainer
+- __IVARS__TtC13TeaFoundation28DiagnosticAttachmentResolver
+- __IVARS__TtC13TeaFoundation28ParentNetworkActivitySession
+- __IVARS__TtC13TeaFoundation29AsyncBlockCancellingOperation
+- __IVARS__TtC13TeaFoundation34NetworkOperationURLSessionDelegate
+- __IVARS__TtC13TeaFoundation4Gate
+- __IVARS__TtC13TeaFoundation4Lazy
+- __IVARS__TtC13TeaFoundation4Node
+- __IVARS__TtC13TeaFoundation4Pool
+- __IVARS__TtC13TeaFoundation4Seal
+- __IVARS__TtC13TeaFoundation4Weak
+- __IVARS__TtC13TeaFoundation5Cache
+- __IVARS__TtC13TeaFoundation6Atomic
+- __IVARS__TtC13TeaFoundation7Context
+- __IVARS__TtC13TeaFoundation7Promise
+- __IVARS__TtC13TeaFoundation8Accessor
+- __IVARS__TtC13TeaFoundation8LRUCache
+- __IVARS__TtC13TeaFoundation8Throttle
+- __IVARS__TtC13TeaFoundation9Container
+- __IVARS__TtC13TeaFoundation9MutexLock
+- __IVARS__TtC13TeaFoundation9SyncValue
+- __IVARS__TtC13TeaFoundation9WeakProxy
+- __IVARS__TtC13TeaFoundationP33_17346160D3C224C5179FD834A829F56019DisposablePurgeable
+- __IVARS__TtC13TeaFoundationP33_17DAD0BE71214AECEE82E0E0C4B872248Observer
+- __IVARS__TtC13TeaFoundationP33_38CEB3748B83B5BA2380EABECE327C2F12LRUCacheNode
+- __IVARS__TtC13TeaFoundationP33_58CE754FD3D7EFA26685E71567D6D17F17DisposableMonitor
+- __IVARS__TtC13TeaFoundationP33_742A028E0C7008CF4F38C8ACD75723DC18DisposableObserver
+- __IVARS__TtC13TeaFoundationP33_8939384B78C8A7DB3DBF99D1BF52171817DisposableHandler
+- __IVARS__TtC13TeaFoundationP33_89C94C1602C77B8CEBFBCE49D1F8016716DisposableWorker
+- __IVARS__TtC13TeaFoundationP33_89C94C1602C77B8CEBFBCE49D1F8016731BlockBasedBackgroundFetchWorker
+- __IVARS__TtC13TeaFoundationP33_9A4AE9F343B4505B931B51DC4DC962B027AsyncBlockCancelledReporter
+- __IVARS__TtC13TeaFoundationP33_A5B82E417DCB09390E58CAAAA132B0E48Observer
+- __IVARS__TtC13TeaFoundationP33_C4005B8CA9A4CC3D720EFCC32F4FA98418DisposableObserver
+- __IVARS__TtC13TeaFoundationP33_F9FB6BEC79A4D8EBAD092E817041FFBA17DisposableMonitor
+- __IVARS__TtCC13TeaFoundation12EventManagerP33_737A2A6A770DA8502386F7BC93B43F7D12EventTrigger
+- __IVARS__TtCC13TeaFoundation18StartupTaskManagerP33_DA8F8508DC89BFEAEDF6D12B3608D21B15LazyStartupTask
+- __IVARS__TtCC13TeaFoundation26CallbackInstanceDefinitionP33_E687A44C08E4676B420C549F48E480557Wrapper
+- __IVARS__TtCC13TeaFoundation4SealP33_84A54347ED4FE131DA84D0B9CB8DFBEF7Handler
+- __METACLASS_DATA_TFCapabilities
+- __METACLASS_DATA_TFContainer
+- __METACLASS_DATA_TFDiagnosticData
+- __METACLASS_DATA_TFDiagnosticFileCollectionCoordinator
+- __METACLASS_DATA_TFDiagnosticFileCollector
+- __METACLASS_DATA_TFInterprocessDiagnosticDumpNotifier
+- __METACLASS_DATA_TFInterprocessDiagnosticFileReceiver
+- __METACLASS_DATA_TFTeaFoundationAssembly
+- __METACLASS_DATA_TSBackgroundFetchJournalEntry
+- __METACLASS_DATA__TtC13TeaFoundation10HttpParser
+- __METACLASS_DATA__TtC13TeaFoundation10HttpRouter
+- __METACLASS_DATA__TtC13TeaFoundation10JSONParser
+- __METACLASS_DATA__TtC13TeaFoundation10MockServer
+- __METACLASS_DATA__TtC13TeaFoundation10UnfairLock
+- __METACLASS_DATA__TtC13TeaFoundation12DateProvider
+- __METACLASS_DATA__TtC13TeaFoundation12DeinitSignal
+- __METACLASS_DATA__TtC13TeaFoundation12Synchronizer
+- __METACLASS_DATA__TtC13TeaFoundation13BinaryDecoder
+- __METACLASS_DATA__TtC13TeaFoundation13BinaryEncoder
+- __METACLASS_DATA__TtC13TeaFoundation13CallbackStore
+- __METACLASS_DATA__TtC13TeaFoundation13DisposableBag
+- __METACLASS_DATA__TtC13TeaFoundation13DynamicLocale
+- __METACLASS_DATA__TtC13TeaFoundation13ProxyResolver
+- __METACLASS_DATA__TtC13TeaFoundation13SingletonPool
+- __METACLASS_DATA__TtC13TeaFoundation13TaskScheduler
+- __METACLASS_DATA__TtC13TeaFoundation14BaseDefinition
+- __METACLASS_DATA__TtC13TeaFoundation14BasePoolObject
+- __METACLASS_DATA__TtC13TeaFoundation14BridgedContext
+- __METACLASS_DATA__TtC13TeaFoundation14ContainerStore
+- __METACLASS_DATA__TtC13TeaFoundation14ProxyContainer
+- __METACLASS_DATA__TtC13TeaFoundation14URLSessionPool
+- __METACLASS_DATA__TtC13TeaFoundation15BridgedAssembly
+- __METACLASS_DATA__TtC13TeaFoundation15BridgedResolver
+- __METACLASS_DATA__TtC13TeaFoundation15ManagerAssembly
+- __METACLASS_DATA__TtC13TeaFoundation15ServiceAssembly
+- __METACLASS_DATA__TtC13TeaFoundation15_TeaJSONDecoder
+- __METACLASS_DATA__TtC13TeaFoundation16AuthTokenService
+- __METACLASS_DATA__TtC13TeaFoundation16ContainerWrapper
+- __METACLASS_DATA__TtC13TeaFoundation16ProviderAssembly
+- __METACLASS_DATA__TtC13TeaFoundation16ReferenceDecoder
+- __METACLASS_DATA__TtC13TeaFoundation16ReferenceEncoder
+- __METACLASS_DATA__TtC13TeaFoundation16ReferenceService
+- __METACLASS_DATA__TtC13TeaFoundation16SocketConnection
+- __METACLASS_DATA__TtC13TeaFoundation16StubNetworkProxy
+- __METACLASS_DATA__TtC13TeaFoundation17BridgedDefinition
+- __METACLASS_DATA__TtC13TeaFoundation17ScenePhaseManager
+- __METACLASS_DATA__TtC13TeaFoundation17SceneStateManager
+- __METACLASS_DATA__TtC13TeaFoundation17ThrottleScheduler
+- __METACLASS_DATA__TtC13TeaFoundation17URLHandlerMatcher
+- __METACLASS_DATA__TtC13TeaFoundation18DebugCacheRegistry
+- __METACLASS_DATA__TtC13TeaFoundation18DeviceLockObserver
+- __METACLASS_DATA__TtC13TeaFoundation18DiagnosticAssembly
+- __METACLASS_DATA__TtC13TeaFoundation18ObservableResolver
+- __METACLASS_DATA__TtC13TeaFoundation18StartupTaskManager
+- __METACLASS_DATA__TtC13TeaFoundation18StringDeserializer
+- __METACLASS_DATA__TtC13TeaFoundation19NetworkReachability
+- __METACLASS_DATA__TtC13TeaFoundation20CallbackRegistration
+- __METACLASS_DATA__TtC13TeaFoundation20DeviceStorageManager
+- __METACLASS_DATA__TtC13TeaFoundation21BridgedBundleAssembly
+- __METACLASS_DATA__TtC13TeaFoundation21BridgedProxyContainer
+- __METACLASS_DATA__TtC13TeaFoundation21ContainerStoreWrapper
+- __METACLASS_DATA__TtC13TeaFoundation21HttpConnectionHandler
+- __METACLASS_DATA__TtC13TeaFoundation21HttpResponseConverter
+- __METACLASS_DATA__TtC13TeaFoundation21ReferenceDecodingPool
+- __METACLASS_DATA__TtC13TeaFoundation21ReferenceEncodingPool
+- __METACLASS_DATA__TtC13TeaFoundation21RegistrationContainer
+- __METACLASS_DATA__TtC13TeaFoundation22BackgroundFetchManager
+- __METACLASS_DATA__TtC13TeaFoundation22BaseCallbackDefinition
+- __METACLASS_DATA__TtC13TeaFoundation22NetworkActivitySession
+- __METACLASS_DATA__TtC13TeaFoundation24BackgroundNetworkSession
+- __METACLASS_DATA__TtC13TeaFoundation25RemoteNotificationManager
+- __METACLASS_DATA__TtC13TeaFoundation26ApplicationStateManagerIOS
+- __METACLASS_DATA__TtC13TeaFoundation27BridgedCallbackRegistration
+- __METACLASS_DATA__TtC13TeaFoundation27EmptyBackgroundFetchJournal
+- __METACLASS_DATA__TtC13TeaFoundation28ApplicationStateManagerMacOS
+- __METACLASS_DATA__TtC13TeaFoundation28BridgedRegistrationContainer
+- __METACLASS_DATA__TtC13TeaFoundation28DiagnosticAttachmentResolver
+- __METACLASS_DATA__TtC13TeaFoundation34NetworkOperationURLSessionDelegate
+- __METACLASS_DATA__TtC13TeaFoundation4Gate
+- __METACLASS_DATA__TtC13TeaFoundation4Pool
+- __METACLASS_DATA__TtC13TeaFoundation6Digest
+- __METACLASS_DATA__TtC13TeaFoundation7Context
+- __METACLASS_DATA__TtC13TeaFoundation9Container
+- __METACLASS_DATA__TtC13TeaFoundation9MutexLock
+- __METACLASS_DATA__TtC13TeaFoundationP33_17346160D3C224C5179FD834A829F56019DisposablePurgeable
+- __METACLASS_DATA__TtC13TeaFoundationP33_3E775B95AA8F4C6167C1B13E33C411A69Localized
+- __METACLASS_DATA__TtC13TeaFoundationP33_58CE754FD3D7EFA26685E71567D6D17F17DisposableMonitor
+- __METACLASS_DATA__TtC13TeaFoundationP33_742A028E0C7008CF4F38C8ACD75723DC18DisposableObserver
+- __METACLASS_DATA__TtC13TeaFoundationP33_8939384B78C8A7DB3DBF99D1BF52171817DisposableHandler
+- __METACLASS_DATA__TtC13TeaFoundationP33_89C94C1602C77B8CEBFBCE49D1F8016716DisposableWorker
+- __METACLASS_DATA__TtC13TeaFoundationP33_89C94C1602C77B8CEBFBCE49D1F8016731BlockBasedBackgroundFetchWorker
+- __METACLASS_DATA__TtC13TeaFoundationP33_9A4AE9F343B4505B931B51DC4DC962B027AsyncBlockCancelledReporter
+- __METACLASS_DATA__TtC13TeaFoundationP33_C4005B8CA9A4CC3D720EFCC32F4FA98418DisposableObserver
+- __METACLASS_DATA__TtC13TeaFoundationP33_F9FB6BEC79A4D8EBAD092E817041FFBA17DisposableMonitor
+- __METACLASS_DATA__TtCC13TeaFoundation18StartupTaskManagerP33_DA8F8508DC89BFEAEDF6D12B3608D21B15LazyStartupTask
+- __OBJC_$_CATEGORY_CLASS_METHODS_NSString_$_TeaStringFormatValidation
+- __OBJC_$_CATEGORY_CLASS_METHODS_UNNotificationResponse_$_Bridging
+- __OBJC_$_CATEGORY_CLASS_METHODS_UNNotification_$_Bridging
+- __OBJC_$_CATEGORY_NSString_$_TeaStringFormatValidation
+- __OBJC_$_CATEGORY_UNNotificationResponse_$_Bridging
+- __OBJC_$_CATEGORY_UNNotification_$_Bridging
+- __OBJC_$_CLASS_PROP_LIST_NSSecureCoding
+- __OBJC_$_INSTANCE_METHODS_TFArchiver
+- __OBJC_$_INSTANCE_METHODS_TFCallbackScope
+- __OBJC_$_INSTANCE_METHODS_TFCrashSimulator
+- __OBJC_$_INSTANCE_METHODS_TFInterprocessNotificationCallback
+- __OBJC_$_INSTANCE_METHODS_TFKey
+- __OBJC_$_INSTANCE_METHODS_TFMultiDelegate
+- __OBJC_$_INSTANCE_METHODS__TtC13TeaFoundation22BackgroundFetchManager(TeaFoundation)
+- __OBJC_$_INSTANCE_VARIABLES_TFCallbackScope
+- __OBJC_$_INSTANCE_VARIABLES_TFInterprocessNotificationCallback
+- __OBJC_$_INSTANCE_VARIABLES_TFKey
+- __OBJC_$_INSTANCE_VARIABLES_TFMultiDelegate
+- __OBJC_$_PROP_LIST_NSObject
+- __OBJC_$_PROP_LIST_TFArchiver
+- __OBJC_$_PROP_LIST_TFBundleAssembly
+- __OBJC_$_PROP_LIST_TFCallbackScope
+- __OBJC_$_PROP_LIST_TFContainerRegistry
+- __OBJC_$_PROP_LIST_TFInterprocessNotificationCallback
+- __OBJC_$_PROP_LIST_TFKey
+- __OBJC_$_PROP_LIST_TFMultiDelegate
+- __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSURLSessionDownloadDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_CLLocationManagerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSURLSessionDataDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSURLSessionDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSURLSessionDownloadDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSURLSessionTaskDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TFArchiver
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TFAssembly
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TFBundleAssembly
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TFCallbackRegistration
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TFContainerRegistry
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TFContext
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TFDefinition
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TFRegistrationContainer
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TFResolver
+- __OBJC_$_PROTOCOL_METHOD_TYPES_CLLocationManagerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSURLSessionDataDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSURLSessionDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSURLSessionDownloadDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSURLSessionTaskDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TFArchiver
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TFAssembly
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TFBundleAssembly
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TFCallbackRegistration
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TFContainerRegistry
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TFContext
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TFDefinition
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TFRegistrationContainer
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TFResolver
+- __OBJC_$_PROTOCOL_REFS_CLLocationManagerDelegate
+- __OBJC_$_PROTOCOL_REFS_NSSecureCoding
+- __OBJC_$_PROTOCOL_REFS_NSURLSessionDataDelegate
+- __OBJC_$_PROTOCOL_REFS_NSURLSessionDelegate
+- __OBJC_$_PROTOCOL_REFS_NSURLSessionDownloadDelegate
+- __OBJC_$_PROTOCOL_REFS_NSURLSessionTaskDelegate
+- __OBJC_$_PROTOCOL_REFS_TFArchiver
+- __OBJC_$_PROTOCOL_REFS_TFAssembly
+- __OBJC_$_PROTOCOL_REFS_TFBundleAssembly
+- __OBJC_$_PROTOCOL_REFS_TFCallbackRegistration
+- __OBJC_$_PROTOCOL_REFS_TFContainerRegistry
+- __OBJC_$_PROTOCOL_REFS_TFDefinition
+- __OBJC_$_PROTOCOL_REFS_TFRegistrationContainer
+- __OBJC_$_PROTOCOL_REFS_TFResolver
+- __OBJC_CLASS_PROTOCOLS_$_TFArchiver
+- __OBJC_CLASS_PROTOCOLS_$_TFKey
+- __OBJC_CLASS_PROTOCOLS_$__TtC13TeaFoundation22BackgroundFetchManager(TeaFoundation)
+- __OBJC_CLASS_RO_$_TFArchiver
+- __OBJC_CLASS_RO_$_TFCallbackScope
+- __OBJC_CLASS_RO_$_TFCrashSimulator
+- __OBJC_CLASS_RO_$_TFInterprocessNotificationCallback
+- __OBJC_CLASS_RO_$_TFKey
+- __OBJC_CLASS_RO_$_TFMultiDelegate
+- __OBJC_LABEL_PROTOCOL_$_CLLocationManagerDelegate
+- __OBJC_LABEL_PROTOCOL_$_NSCoding
+- __OBJC_LABEL_PROTOCOL_$_NSCopying
+- __OBJC_LABEL_PROTOCOL_$_NSObject
+- __OBJC_LABEL_PROTOCOL_$_NSSecureCoding
+- __OBJC_LABEL_PROTOCOL_$_NSURLSessionDataDelegate
+- __OBJC_LABEL_PROTOCOL_$_NSURLSessionDelegate
+- __OBJC_LABEL_PROTOCOL_$_NSURLSessionDownloadDelegate
+- __OBJC_LABEL_PROTOCOL_$_NSURLSessionTaskDelegate
+- __OBJC_LABEL_PROTOCOL_$_TFArchiver
+- __OBJC_LABEL_PROTOCOL_$_TFAssembly
+- __OBJC_LABEL_PROTOCOL_$_TFBundleAssembly
+- __OBJC_LABEL_PROTOCOL_$_TFCallbackRegistration
+- __OBJC_LABEL_PROTOCOL_$_TFContainerRegistry
+- __OBJC_LABEL_PROTOCOL_$_TFContext
+- __OBJC_LABEL_PROTOCOL_$_TFDefinition
+- __OBJC_LABEL_PROTOCOL_$_TFRegistrationContainer
+- __OBJC_LABEL_PROTOCOL_$_TFResolver
+- __OBJC_METACLASS_RO_$_TFArchiver
+- __OBJC_METACLASS_RO_$_TFCallbackScope
+- __OBJC_METACLASS_RO_$_TFCrashSimulator
+- __OBJC_METACLASS_RO_$_TFInterprocessNotificationCallback
+- __OBJC_METACLASS_RO_$_TFKey
+- __OBJC_METACLASS_RO_$_TFMultiDelegate
+- __OBJC_PROTOCOL_$_CLLocationManagerDelegate
+- __OBJC_PROTOCOL_$_NSCoding
+- __OBJC_PROTOCOL_$_NSCopying
+- __OBJC_PROTOCOL_$_NSObject
+- __OBJC_PROTOCOL_$_NSSecureCoding
+- __OBJC_PROTOCOL_$_NSURLSessionDataDelegate
+- __OBJC_PROTOCOL_$_NSURLSessionDelegate
+- __OBJC_PROTOCOL_$_NSURLSessionDownloadDelegate
+- __OBJC_PROTOCOL_$_NSURLSessionTaskDelegate
+- __OBJC_PROTOCOL_$_TFArchiver
+- __OBJC_PROTOCOL_$_TFAssembly
+- __OBJC_PROTOCOL_$_TFBundleAssembly
+- __OBJC_PROTOCOL_$_TFCallbackRegistration
+- __OBJC_PROTOCOL_$_TFContainerRegistry
+- __OBJC_PROTOCOL_$_TFContext
+- __OBJC_PROTOCOL_$_TFDefinition
+- __OBJC_PROTOCOL_$_TFRegistrationContainer
+- __OBJC_PROTOCOL_$_TFResolver
+- __PROPERTIES_TFContainer
+- __PROPERTIES_TSBackgroundFetchJournalEntry
+- __PROPERTIES__TtC13TeaFoundation14AsyncOperation
+- __PROPERTIES__TtC13TeaFoundation21BridgedProxyContainer
+- __PROPERTIES__TtC13TeaFoundation27EmptyBackgroundFetchJournal
+- __PROTOCOLS__TtC13TeaFoundation14BridgedContext
+- __PROTOCOLS__TtC13TeaFoundation15BridgedResolver
+- __PROTOCOLS__TtC13TeaFoundation16NetworkOperation
+- __PROTOCOLS__TtC13TeaFoundation17BridgedDefinition
+- __PROTOCOLS__TtC13TeaFoundation21BridgedProxyContainer
+- __PROTOCOLS__TtC13TeaFoundation27BridgedCallbackRegistration
+- __PROTOCOLS__TtC13TeaFoundation27EmptyBackgroundFetchJournal
+- __PROTOCOLS__TtC13TeaFoundation28BridgedRegistrationContainer
+- __PROTOCOLS__TtC13TeaFoundation34NetworkOperationURLSessionDelegate
+- __PROTOCOL_INSTANCE_METHODS_TSBackgroundFetchJournalType
+- __PROTOCOL_METHOD_TYPES_TSBackgroundFetchJournalType
+- __PROTOCOL_PROPERTIES_TSBackgroundFetchJournalType
+- __PROTOCOL_TSBackgroundFetchJournalType
+- ___block_descriptor_32_e5_v8?0l
+- ___block_literal_global
+- ___isInternalBuild_block_invoke
+- ___swift__destructor
+- ___swift_allocate_boxed_opaque_existential_0
+- ___swift_allocate_boxed_opaque_existential_1
+- ___swift_allocate_value_buffer
+- ___swift_assignWithCopy_strong
+- ___swift_assignWithTake_strong
+- ___swift_assign_boxed_opaque_existential_0
+- ___swift_async_cont_functlets
+- ___swift_async_entry_functlets
+- ___swift_async_ret_functlets
+- ___swift_closure_destructor
+- ___swift_closure_destructor.101Tm
+- ___swift_closure_destructor.104Tm
+- ___swift_closure_destructor.10Tm
+- ___swift_closure_destructor.11Tm
+- ___swift_closure_destructor.12Tm
+- ___swift_closure_destructor.130Tm
+- ___swift_closure_destructor.134Tm
+- ___swift_closure_destructor.145Tm
+- ___swift_closure_destructor.156Tm
+- ___swift_closure_destructor.15Tm
+- ___swift_closure_destructor.167Tm
+- ___swift_closure_destructor.168Tm
+- ___swift_closure_destructor.174Tm
+- ___swift_closure_destructor.189Tm
+- ___swift_closure_destructor.18Tm
+- ___swift_closure_destructor.20Tm
+- ___swift_closure_destructor.215Tm
+- ___swift_closure_destructor.21Tm
+- ___swift_closure_destructor.222Tm
+- ___swift_closure_destructor.22Tm
+- ___swift_closure_destructor.23Tm
+- ___swift_closure_destructor.241Tm
+- ___swift_closure_destructor.24Tm
+- ___swift_closure_destructor.26Tm
+- ___swift_closure_destructor.277Tm
+- ___swift_closure_destructor.27Tm
+- ___swift_closure_destructor.28Tm
+- ___swift_closure_destructor.30Tm
+- ___swift_closure_destructor.340Tm
+- ___swift_closure_destructor.387Tm
+- ___swift_closure_destructor.41Tm
+- ___swift_closure_destructor.42Tm
+- ___swift_closure_destructor.4Tm
+- ___swift_closure_destructor.58Tm
+- ___swift_closure_destructor.5Tm
+- ___swift_closure_destructor.61Tm
+- ___swift_closure_destructor.66Tm
+- ___swift_closure_destructor.67Tm
+- ___swift_closure_destructor.77Tm
+- ___swift_closure_destructor.7Tm
+- ___swift_closure_destructor.81Tm
+- ___swift_closure_destructor.8Tm
+- ___swift_closure_destructorTm
+- ___swift_destroy_boxed_opaque_existential_0
+- ___swift_destroy_boxed_opaque_existential_0Tm
+- ___swift_destroy_boxed_opaque_existential_1
+- ___swift_destroy_boxed_opaque_existential_1Tm
+- ___swift_destroy_strong
+- ___swift_exist.box.addr_destructor
+- ___swift_getEnumTagSinglePayload
+- ___swift_initWithCopy_strong
+- ___swift_instantiateGenericMetadata
+- ___swift_memcpy0_1
+- ___swift_memcpy16_8
+- ___swift_memcpy17_8
+- ___swift_memcpy1_1
+- ___swift_memcpy24_8
+- ___swift_memcpy25_8
+- ___swift_memcpy32_8
+- ___swift_memcpy33_8
+- ___swift_memcpy40_8
+- ___swift_memcpy41_8
+- ___swift_memcpy48_8
+- ___swift_memcpy49_8
+- ___swift_memcpy4_4
+- ___swift_memcpy56_8
+- ___swift_memcpy57_8
+- ___swift_memcpy64_8
+- ___swift_memcpy72_8
+- ___swift_memcpy80_8
+- ___swift_memcpy81_8
+- ___swift_memcpy8_8
+- ___swift_memcpy9_8
+- ___swift_mutable_project_boxed_opaque_existential_1
+- ___swift_noop_void_return
+- ___swift_project_boxed_opaque_existential_0
+- ___swift_project_boxed_opaque_existential_0Tm
+- ___swift_project_boxed_opaque_existential_1
+- ___swift_project_boxed_opaque_existential_1Tm
+- ___swift_project_value_buffer
+- ___swift_reflection_version
+- ___swift_storeEnumTagSinglePayload
+- ___unnamed_1
+- ___unnamed_10
+- ___unnamed_11
+- ___unnamed_14
+- ___unnamed_16
+- ___unnamed_18
+- ___unnamed_19
+- ___unnamed_2
+- ___unnamed_21
+- ___unnamed_3
+- ___unnamed_4
+- ___unnamed_5
+- ___unnamed_6
+- ___unnamed_7
+- ___unnamed_8
+- ___unnamed_9
+- __swift_FORCE_LOAD_$_swiftCoreFoundation_$_TeaFoundation
+- __swift_FORCE_LOAD_$_swiftCoreLocation_$_TeaFoundation
+- __swift_FORCE_LOAD_$_swiftDispatch_$_TeaFoundation
+- __swift_FORCE_LOAD_$_swiftFoundation_$_TeaFoundation
+- __swift_FORCE_LOAD_$_swiftOSLog_$_TeaFoundation
+- __swift_FORCE_LOAD_$_swiftObjectiveC_$_TeaFoundation
+- __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_TeaFoundation
+- __swift_FORCE_LOAD_$_swiftXPC_$_TeaFoundation
+- __swift_FORCE_LOAD_$_swift_Builtin_float_$_TeaFoundation
+- __swift_FORCE_LOAD_$_swiftos_$_TeaFoundation
+- __swift_implicitisolationactor_to_executor_cast
+- __swift_stdlib_malloc_size
+- _associated conformance 13TeaFoundation10DigestAlgoOSHAASQ
+- _associated conformance 13TeaFoundation10HttpMethodOSHAASQ
+- _associated conformance 13TeaFoundation10ScenePhaseOSHAASQ
+- _associated conformance 13TeaFoundation10UnfairLockC7OptionsVs10SetAlgebraAASQ
+- _associated conformance 13TeaFoundation10UnfairLockC7OptionsVs10SetAlgebraAAs25ExpressibleByArrayLiteral
+- _associated conformance 13TeaFoundation10UnfairLockC7OptionsVs9OptionSetAASY
+- _associated conformance 13TeaFoundation10UnfairLockC7OptionsVs9OptionSetAAs0G7Algebra
+- _associated conformance 13TeaFoundation11JSONPointerVSHAASQ
+- _associated conformance 13TeaFoundation11LazyOptionsVs10SetAlgebraAASQ
+- _associated conformance 13TeaFoundation11LazyOptionsVs10SetAlgebraAAs25ExpressibleByArrayLiteral
+- _associated conformance 13TeaFoundation11LazyOptionsVs9OptionSetAASY
+- _associated conformance 13TeaFoundation11LazyOptionsVs9OptionSetAAs0F7Algebra
+- _associated conformance 13TeaFoundation11ManualClockV7InstantVSHAASQ
+- _associated conformance 13TeaFoundation11ManualClockV7InstantVSLAASQ
+- _associated conformance 13TeaFoundation11ManualClockV7InstantVs0E8ProtocolAA8DurationsAFP_s0gF0
+- _associated conformance 13TeaFoundation11ManualClockV7InstantVs0E8ProtocolAASH
+- _associated conformance 13TeaFoundation11ManualClockV7InstantVs0E8ProtocolAASL
+- _associated conformance 13TeaFoundation11ManualClockVs0D0AA7InstantsADP_s0E8Protocol
+- _associated conformance 13TeaFoundation12CodableErrorV0B013CustomNSErrorAAs0D0
+- _associated conformance 13TeaFoundation12CodableErrorV10CodingKeys33_02478576D0C6E267512DC65C33580ACCLLOSHAASQ
+- _associated conformance 13TeaFoundation12CodableErrorV10CodingKeys33_02478576D0C6E267512DC65C33580ACCLLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 13TeaFoundation12CodableErrorV10CodingKeys33_02478576D0C6E267512DC65C33580ACCLLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13TeaFoundation12HandlerErrorOSHAASQ
+- _associated conformance 13TeaFoundation12ThrowingLazyC6Errors33_92D6C5DFBD81921D75E42D64C520C4AALLOyx_GSHAASQ
+- _associated conformance 13TeaFoundation13BinaryDecoderC5ErrorOSHAASQ
+- _associated conformance 13TeaFoundation13CodableResultO0D4Type33_B05DF90491B4835496D34A5719D702F7LLOyx_GSHAASQ
+- _associated conformance 13TeaFoundation13CodableResultO10CodingKeys33_B05DF90491B4835496D34A5719D702F7LLOyx_GSHAASQ
+- _associated conformance 13TeaFoundation13CodableResultO10CodingKeys33_B05DF90491B4835496D34A5719D702F7LLOyx_Gs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 13TeaFoundation13CodableResultO10CodingKeys33_B05DF90491B4835496D34A5719D702F7LLOyx_Gs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13TeaFoundation13CodableResultO5ErrorOyx_GSHAASQ
+- _associated conformance 13TeaFoundation13DateComponent33_0C5C191A88CA3790962154AC860D51A2LLOSHAASQ
+- _associated conformance 13TeaFoundation13NetworkStatusVs10SetAlgebraAASQ
+- _associated conformance 13TeaFoundation13NetworkStatusVs10SetAlgebraAAs25ExpressibleByArrayLiteral
+- _associated conformance 13TeaFoundation13NetworkStatusVs9OptionSetAASY
+- _associated conformance 13TeaFoundation13NetworkStatusVs9OptionSetAAs0F7Algebra
+- _associated conformance 13TeaFoundation13ReferenceDataV10CodingKeys33_2BAA6B52E3C70EEA7227E85419E20D9FLLOSHAASQ
+- _associated conformance 13TeaFoundation13ReferenceDataV10CodingKeys33_2BAA6B52E3C70EEA7227E85419E20D9FLLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 13TeaFoundation13ReferenceDataV10CodingKeys33_2BAA6B52E3C70EEA7227E85419E20D9FLLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13TeaFoundation13ReferenceTypeVSHAASQ
+- _associated conformance 13TeaFoundation13VersionNumberVSLAASQ
+- _associated conformance 13TeaFoundation14AsyncOperationC5State33_35DC0BF999132CFE935148116D7163B3LLOyx_GSHAASQ
+- _associated conformance 13TeaFoundation14JSONDifferenceVSTAA8IteratorST_St
+- _associated conformance 13TeaFoundation14JSONDifferenceVSlAA11SubSequenceSl_Sl
+- _associated conformance 13TeaFoundation14JSONDifferenceVSlAA5IndexSl_SL
+- _associated conformance 13TeaFoundation14JSONDifferenceVSlAA7IndicesSl_Sl
+- _associated conformance 13TeaFoundation14JSONDifferenceVSlAAST
+- _associated conformance 13TeaFoundation14ManagerOptionsVs10SetAlgebraAASQ
+- _associated conformance 13TeaFoundation14ManagerOptionsVs10SetAlgebraAAs25ExpressibleByArrayLiteral
+- _associated conformance 13TeaFoundation14ManagerOptionsVs9OptionSetAASY
+- _associated conformance 13TeaFoundation14ManagerOptionsVs9OptionSetAAs0F7Algebra
+- _associated conformance 13TeaFoundation15ISO8601DurationVSHAASQ
+- _associated conformance 13TeaFoundation15ISO8601DurationVSLAASQ
+- _associated conformance 13TeaFoundation16AuthTokenRequestV10CodingKeys33_4E9754146128A489480F3568F1448E71LLOSHAASQ
+- _associated conformance 13TeaFoundation16AuthTokenRequestV10CodingKeys33_4E9754146128A489480F3568F1448E71LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 13TeaFoundation16AuthTokenRequestV10CodingKeys33_4E9754146128A489480F3568F1448E71LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13TeaFoundation16RouteMatchResult33_9246709F1818241DABDF435E9CD000DCLLOSHAASQ
+- _associated conformance 13TeaFoundation16SafeishCodingKeyVyxGs0dE0AAs23CustomStringConvertible
+- _associated conformance 13TeaFoundation16SafeishCodingKeyVyxGs0dE0AAs28CustomDebugStringConvertible
+- _associated conformance 13TeaFoundation16StartupTaskGroupVSHAASQ
+- _associated conformance 13TeaFoundation16UniqueCollectionVyxGSTAA8IteratorST_St
+- _associated conformance 13TeaFoundation16UniqueCollectionVyxGSlAA11SubSequenceSl_Sl
+- _associated conformance 13TeaFoundation16UniqueCollectionVyxGSlAA5IndexSl_SL
+- _associated conformance 13TeaFoundation16UniqueCollectionVyxGSlAA7IndicesSl_Sl
+- _associated conformance 13TeaFoundation16UniqueCollectionVyxGSlAAST
+- _associated conformance 13TeaFoundation16VersionQualifierVSLAASQ
+- _associated conformance 13TeaFoundation17AuthTokenResponseV10CodingKeys33_8A927625B8E339BA6360FAAC91792A6DLLOSHAASQ
+- _associated conformance 13TeaFoundation17AuthTokenResponseV10CodingKeys33_8A927625B8E339BA6360FAAC91792A6DLLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 13TeaFoundation17AuthTokenResponseV10CodingKeys33_8A927625B8E339BA6360FAAC91792A6DLLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13TeaFoundation17DeserializerErrorOSHAASQ
+- _associated conformance 13TeaFoundation18ObservableResolverC7Combine0C6ObjectAA0F19WillChangePublisherAdEP_AD0I0
+- _associated conformance 13TeaFoundation18ReferenceContainerO10CodingKeys33_8DBF015209545A1F949A6CDAA2C2A957LLOSHAASQ
+- _associated conformance 13TeaFoundation18ReferenceContainerO10CodingKeys33_8DBF015209545A1F949A6CDAA2C2A957LLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 13TeaFoundation18ReferenceContainerO10CodingKeys33_8DBF015209545A1F949A6CDAA2C2A957LLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13TeaFoundation18ReferenceContainerO10CodingType33_8DBF015209545A1F949A6CDAA2C2A957LLOSHAASQ
+- _associated conformance 13TeaFoundation18StartupTaskManagerC0cD5State33_DA8F8508DC89BFEAEDF6D12B3608D21BLLOSHAASQ
+- _associated conformance 13TeaFoundation18StartupTaskManagerC0cD8GroupKey33_DA8F8508DC89BFEAEDF6D12B3608D21BLLVSHAASQ
+- _associated conformance 13TeaFoundation19AsyncOperationErrorOSHAASQ
+- _associated conformance 13TeaFoundation19PromiseDeduperFlagsVs10SetAlgebraAASQ
+- _associated conformance 13TeaFoundation19PromiseDeduperFlagsVs10SetAlgebraAAs25ExpressibleByArrayLiteral
+- _associated conformance 13TeaFoundation19PromiseDeduperFlagsVs9OptionSetAASY
+- _associated conformance 13TeaFoundation19PromiseDeduperFlagsVs9OptionSetAAs0G7Algebra
+- _associated conformance 13TeaFoundation19ReferenceCodingKeysOSHAASQ
+- _associated conformance 13TeaFoundation19ReferenceCodingKeysOs0D3KeyAAs23CustomStringConvertible
+- _associated conformance 13TeaFoundation19ReferenceCodingKeysOs0D3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13TeaFoundation20EventTriggerBehaviorVs10SetAlgebraAASQ
+- _associated conformance 13TeaFoundation20EventTriggerBehaviorVs10SetAlgebraAAs25ExpressibleByArrayLiteral
+- _associated conformance 13TeaFoundation20EventTriggerBehaviorVs9OptionSetAASY
+- _associated conformance 13TeaFoundation20EventTriggerBehaviorVs9OptionSetAAs0G7Algebra
+- _associated conformance 13TeaFoundation20ObjectReuseProtectorC6ErrorsOyxq__GSHAASQ
+- _associated conformance 13TeaFoundation21AuthTokenManagerError33_FB954AA17CB2E15CD2EA50B08F035129LLOSHAASQ
+- _associated conformance 13TeaFoundation21AuthTokenResponseItemV10CodingKeys33_8496E38CECF77399DD05067BDC22DABFLLOSHAASQ
+- _associated conformance 13TeaFoundation21AuthTokenResponseItemV10CodingKeys33_8496E38CECF77399DD05067BDC22DABFLLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 13TeaFoundation21AuthTokenResponseItemV10CodingKeys33_8496E38CECF77399DD05067BDC22DABFLLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13TeaFoundation21BackgroundFetchResultOSHAASQ
+- _associated conformance 13TeaFoundation21ReferenceEncodingPoolC10CodingKeys33_E6192A436417C7BEB63B51A324FFA9A1LLOSHAASQ
+- _associated conformance 13TeaFoundation21ReferenceEncodingPoolC10CodingKeys33_E6192A436417C7BEB63B51A324FFA9A1LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 13TeaFoundation21ReferenceEncodingPoolC10CodingKeys33_E6192A436417C7BEB63B51A324FFA9A1LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13TeaFoundation22BackgroundFetchTriggerOSHAASQ
+- _associated conformance 13TeaFoundation22BackgroundFetchTriggerOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 13TeaFoundation22DeviceStorageDataClassOSHAASQ
+- _associated conformance 13TeaFoundation22NetworkActivitySessionC5ErrorOSHAASQ
+- _associated conformance 13TeaFoundation25BackgroundFetchConditionsVs10SetAlgebraAASQ
+- _associated conformance 13TeaFoundation25BackgroundFetchConditionsVs10SetAlgebraAAs25ExpressibleByArrayLiteral
+- _associated conformance 13TeaFoundation25BackgroundFetchConditionsVs9OptionSetAASY
+- _associated conformance 13TeaFoundation25BackgroundFetchConditionsVs9OptionSetAAs0G7Algebra
+- _associated conformance 13TeaFoundation25DeviceStoragePurgeUrgencyOSHAASQ
+- _associated conformance 13TeaFoundation25StartupTaskExecutionPhaseOSHAASQ
+- _associated conformance 13TeaFoundation26JSONKeyedDecodingContainer33_505E059B11A426DB0017A05E34BF5D68LLVyxGs05KeyeddE8ProtocolAA3KeysAFP_s06CodingP0
+- _associated conformance 13TeaFoundation28DiagnosticAttachmentResolverC6ErrorsOSHAASQ
+- _associated conformance 13TeaFoundation29ObservablePropertyUntilResultOSHAASQ
+- _associated conformance 13TeaFoundation29RemoteNotificationFetchResultOSHAASQ
+- _associated conformance 13TeaFoundation31ApplicationStateLaunchOptionKeyOSHAASQ
+- _associated conformance 13TeaFoundation31SafeishUnkeyedDecodingContainerV8Anything33_B86B0422DF5D0620022DD0061994BE95LLV10CodingKeysOs0N3KeyAAs23CustomStringConvertible
+- _associated conformance 13TeaFoundation31SafeishUnkeyedDecodingContainerV8Anything33_B86B0422DF5D0620022DD0061994BE95LLV10CodingKeysOs0N3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13TeaFoundation33CopyOnWriteStoragePropertyKeywordOSHAASQ
+- _associated conformance 13TeaFoundation3KeyVSHAASQ
+- _associated conformance 13TeaFoundation4SealC5State33_84A54347ED4FE131DA84D0B9CB8DFBEFLLOyx_GSHAASQ
+- _associated conformance 13TeaFoundation5RouteVSHAASQ
+- _associated conformance 13TeaFoundation5ScopeOSHAASQ
+- _associated conformance 13TeaFoundation5StackVyxGSTAA8IteratorST_St
+- _associated conformance 13TeaFoundation5StackVyxGSlAA11SubSequenceSl_Sl
+- _associated conformance 13TeaFoundation5StackVyxGSlAA5IndexSl_SL
+- _associated conformance 13TeaFoundation5StackVyxGSlAA7IndicesSl_Sl
+- _associated conformance 13TeaFoundation5StackVyxGSlAAST
+- _associated conformance 13TeaFoundation6BidictVyxq_GSTAA8IteratorST_St
+- _associated conformance 13TeaFoundation6BidictVyxq_GSlAA11SubSequenceSl_Sl
+- _associated conformance 13TeaFoundation6BidictVyxq_GSlAA5IndexSl_SL
+- _associated conformance 13TeaFoundation6BidictVyxq_GSlAA7IndicesSl_Sl
+- _associated conformance 13TeaFoundation6BidictVyxq_GSlAAST
+- _associated conformance 13TeaFoundation6ResultO6ErrorsOyx_GSHAASQ
+- _associated conformance 13TeaFoundation7TernaryOSHAASQ
+- _associated conformance 13TeaFoundation7TernaryOs27ExpressibleByBooleanLiteralAA0fG4TypesADP_s01_de7BuiltinfG0
+- _associated conformance 13TeaFoundation7VersionVSLAASQ
+- _associated conformance 13TeaFoundation7_COWBoxVyxGSHAASHRzrlSQ
+- _associated conformance 13TeaFoundation8JSONTypeOSHAASQ
+- _associated conformance 13TeaFoundation8NonEmptyVyxGSHAASHRzrlSQ
+- _associated conformance 13TeaFoundation8NonEmptyVyxGSKAASKRzrl11SubSequenceSl_SK
+- _associated conformance 13TeaFoundation8NonEmptyVyxGSKAASKRzrl7IndicesSl_SK
+- _associated conformance 13TeaFoundation8NonEmptyVyxGSKAASKRzrlSl
+- _associated conformance 13TeaFoundation8NonEmptyVyxGSMAASMRzrl11SubSequenceSl_SM
+- _associated conformance 13TeaFoundation8NonEmptyVyxGSMAASMRzrlSl
+- _associated conformance 13TeaFoundation8NonEmptyVyxGSTAA8IteratorST_St
+- _associated conformance 13TeaFoundation8NonEmptyVyxGSkAASkRzrl11SubSequenceSl_Sk
+- _associated conformance 13TeaFoundation8NonEmptyVyxGSkAASkRzrl7IndicesSl_Sk
+- _associated conformance 13TeaFoundation8NonEmptyVyxGSkAASkRzrlSK
+- _associated conformance 13TeaFoundation8NonEmptyVyxGSlAA11SubSequenceSl_Sl
+- _associated conformance 13TeaFoundation8NonEmptyVyxGSlAA5IndexSl_SL
+- _associated conformance 13TeaFoundation8NonEmptyVyxGSlAA7IndicesSl_Sl
+- _associated conformance 13TeaFoundation8NonEmptyVyxGSlAAST
+- _associated conformance 13TeaFoundation8RouteKeyVSHAASQ
+- _associated conformance 13TeaFoundation8TrieNodeO5ErrorOyxq__GSHAASQ
+- _associated conformance 13TeaFoundation8XPCClassVSHAASQ
+- _associated conformance 13TeaFoundation8_JSONKey33_505E059B11A426DB0017A05E34BF5D68LLVs9CodingKeyAAs23CustomStringConvertible
+- _associated conformance 13TeaFoundation8_JSONKey33_505E059B11A426DB0017A05E34BF5D68LLVs9CodingKeyAAs28CustomDebugStringConvertible
+- _associated conformance 13TeaFoundation9AuthTokenV10CodingKeys33_E5AD3646CEC6F8EBB202B09C38B42A6CLLOSHAASQ
+- _associated conformance 13TeaFoundation9AuthTokenV10CodingKeys33_E5AD3646CEC6F8EBB202B09C38B42A6CLLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 13TeaFoundation9AuthTokenV10CodingKeys33_E5AD3646CEC6F8EBB202B09C38B42A6CLLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13TeaFoundation9ContainerC9TestSuiteOSHAASQ
+- _associated conformance 13TeaFoundation9ContainerC9TestSuiteOs12CaseIterableAA8AllCasessAFP_Sl
+- _associated conformance 13TeaFoundation9QueryItemVSHAASQ
+- _associated conformance SS13TeaFoundationE14FormatArgumentO10CodingKeys33_BCA90573DF7BBB5A0E5A2174645B769CLLOSHAASQ
+- _associated conformance SS13TeaFoundationE14FormatArgumentO10CodingKeys33_BCA90573DF7BBB5A0E5A2174645B769CLLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance SS13TeaFoundationE14FormatArgumentO10CodingKeys33_BCA90573DF7BBB5A0E5A2174645B769CLLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance SS13TeaFoundationE14FormatArgumentO15Int32CodingKeys33_BCA90573DF7BBB5A0E5A2174645B769CLLOSHAASQ
+- _associated conformance SS13TeaFoundationE14FormatArgumentO15Int32CodingKeys33_BCA90573DF7BBB5A0E5A2174645B769CLLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance SS13TeaFoundationE14FormatArgumentO15Int32CodingKeys33_BCA90573DF7BBB5A0E5A2174645B769CLLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance SS13TeaFoundationE14FormatArgumentO16StringCodingKeys33_BCA90573DF7BBB5A0E5A2174645B769CLLOSHAASQ
+- _associated conformance SS13TeaFoundationE14FormatArgumentO16StringCodingKeys33_BCA90573DF7BBB5A0E5A2174645B769CLLOs0F3KeyAAs011CustomDebugE11Convertible
+- _associated conformance SS13TeaFoundationE14FormatArgumentO16StringCodingKeys33_BCA90573DF7BBB5A0E5A2174645B769CLLOs0F3KeyAAs06CustomE11Convertible
+- _associated conformance SS13TeaFoundationE14FormatArgumentO16Uint32CodingKeys33_BCA90573DF7BBB5A0E5A2174645B769CLLOSHAASQ
+- _associated conformance SS13TeaFoundationE14FormatArgumentO16Uint32CodingKeys33_BCA90573DF7BBB5A0E5A2174645B769CLLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance SS13TeaFoundationE14FormatArgumentO16Uint32CodingKeys33_BCA90573DF7BBB5A0E5A2174645B769CLLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance SS13TeaFoundationE14FormatArgumentOSHAASQ
+- _associated conformance SS13TeaFoundationE14FormatArgumentOs26ExpressibleByStringLiteralAA0gH4TypesADP_s01_ef7BuiltingH0
+- _associated conformance SS13TeaFoundationE14FormatArgumentOs26ExpressibleByStringLiteralAAs0ef23ExtendedGraphemeClusterH0
+- _associated conformance SS13TeaFoundationE14FormatArgumentOs27ExpressibleByIntegerLiteralAA0gH4TypesADP_s01_ef7BuiltingH0
+- _associated conformance SS13TeaFoundationE14FormatArgumentOs33ExpressibleByUnicodeScalarLiteralAA0ghI4TypesADP_s01_ef7BuiltinghI0
+- _associated conformance SS13TeaFoundationE14FormatArgumentOs43ExpressibleByExtendedGraphemeClusterLiteralAA0ghiJ4TypesADP_s01_ef7BuiltinghiJ0
+- _associated conformance SS13TeaFoundationE14FormatArgumentOs43ExpressibleByExtendedGraphemeClusterLiteralAAs0ef13UnicodeScalarJ0
+- _associated conformance SS13TeaFoundationE21FormatValidationErrorOSHAASQ
+- _associated conformance So16NSURLResourceKeyaSHSCSQ
+- _associated conformance So16NSURLResourceKeyas20_SwiftNewtypeWrapperSCSY
+- _associated conformance So16NSURLResourceKeyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
+- _associated conformance So35NSDateComponentsFormatterUnitsStyleVSHSCSQ
+- _block_copy_helper
+- _block_descriptor
+- _block_destroy_helper
+- _dummyfunc
+- _dynamic_cast_existential_0_class_conditional
+- _flat unique So10TFAssembly_p
+- _flat unique So10TFResolver_p
+- _flat unique So14NSSecureCoding_p
+- _flat unique So16TFBundleAssembly_p
+- _flat unique So22TFCallbackRegistration_p
+- _flat unique So23TFRegistrationContainer_p
+- _flat unique So28TSBackgroundFetchJournalType_p
+- _flat unique So8NSObject_p
+- _flat unique So9TFContext_p
+- _generic environment SlRzSl7ElementRpzSiAA_5IndexRTzl
+- _get_enum_tag_for_layout_string 10Foundation4DataV15_RepresentationO
+- _get_enum_tag_for_layout_string 13TeaFoundation01_A11JSONDecoderC19KeyDecodingStrategyO
+- _get_enum_tag_for_layout_string 13TeaFoundation01_A11JSONDecoderC20DateDecodingStrategyO
+- _get_enum_tag_for_layout_string 13TeaFoundation10JSONParserC6ErrorsO
+- _get_enum_tag_for_layout_string 13TeaFoundation10QuantifierO
+- _get_enum_tag_for_layout_string 13TeaFoundation12HttpResponseO
+- _get_enum_tag_for_layout_string 13TeaFoundation12HttpResponseO4BodyO
+- _get_enum_tag_for_layout_string 13TeaFoundation12NetworkProxyO
+- _get_enum_tag_for_layout_string 13TeaFoundation12PromiseErrorO
+- _get_enum_tag_for_layout_string 13TeaFoundation12XPCInterfaceVSg
+- _get_enum_tag_for_layout_string 13TeaFoundation13CallbackScopeO
+- _get_enum_tag_for_layout_string 13TeaFoundation13CallbackStoreC0C19DefinitionContainerO
+- _get_enum_tag_for_layout_string 13TeaFoundation14JSONDifferenceV6ChangeO
+- _get_enum_tag_for_layout_string 13TeaFoundation15EventLoadedLazyC0C0Oyxq__G
+- _get_enum_tag_for_layout_string 13TeaFoundation16VersionQualifierVSg
+- _get_enum_tag_for_layout_string 13TeaFoundation17JSONDecodingErrorO
+- _get_enum_tag_for_layout_string 13TeaFoundation17PromiseFetchErrorO
+- _get_enum_tag_for_layout_string 13TeaFoundation17URLHandlerMatcherC6ErrorsO
+- _get_enum_tag_for_layout_string 13TeaFoundation17URLHandlerPatternV5ParamO
+- _get_enum_tag_for_layout_string 13TeaFoundation17URLHandlerPatternV9ConditionO
+- _get_enum_tag_for_layout_string 13TeaFoundation18ReferenceContainerO
+- _get_enum_tag_for_layout_string 13TeaFoundation19DiagnosticTextEntryV0E033_5D9EA4C85C2CA14ECFD0BE093A03CEAFLLO
+- _get_enum_tag_for_layout_string 13TeaFoundation20DiagnosticAttachmentO
+- _get_enum_tag_for_layout_string 13TeaFoundation20ReferenceCodingErrorO
+- _get_enum_tag_for_layout_string 13TeaFoundation21AuthTokenServiceError33_FBBE5ADC03C4EEA987088D28F183E5D7LLO
+- _get_enum_tag_for_layout_string 13TeaFoundation21NetworkOperationEventO
+- _get_enum_tag_for_layout_string 13TeaFoundation21ReferenceServiceErrorO
+- _get_enum_tag_for_layout_string 13TeaFoundation22BackgroundFetchTriggerO
+- _get_enum_tag_for_layout_string 13TeaFoundation29NetworkOperationInternalErrorO
+- _get_enum_tag_for_layout_string 13TeaFoundation29NetworkResponseOperationErrorO
+- _get_enum_tag_for_layout_string 13TeaFoundation31ApplicationStateLaunchOptionKeyO
+- _get_enum_tag_for_layout_string 13TeaFoundation4JSONO
+- _get_enum_tag_for_layout_string 13TeaFoundation6ResultOy0B04DataVGIegg_Sg
+- _get_enum_tag_for_layout_string 13TeaFoundation8TrieNodeOyxq_G
+- _get_enum_tag_for_layout_string 13TeaFoundation8XPCBlockVSg
+- _get_enum_tag_for_layout_string SS13TeaFoundationE14FormatArgumentO
+- _get_enum_tag_for_layout_string So13NSURLResponseCSgSo23NSURLSessionTaskMetricsCSgs5Error_pSgIegggg_Sg
+- _get_enum_tag_for_layout_string s23CustomStringConvertible_pSg
+- _get_enum_tag_for_layout_string ypSg
+- _isInternalBuild.internalBuild
+- _isInternalBuild.onceToken
+- _objc_lookUpClass
+- _objc_retain_x1
+- _parameter-flags
+- _swift_getFunctionTypeMetadata
+- _swift_release_x4
+- _symbolic $s13TeaFoundation012StateMachineC0P
+- _symbolic $s13TeaFoundation020ReferenceTypeServiceD0P
+- _symbolic $s13TeaFoundation10DisposableP
+- _symbolic $s13TeaFoundation10LocaleTypeP
+- _symbolic $s13TeaFoundation11CancellableP
+- _symbolic $s13TeaFoundation11ContextTypeP
+- _symbolic $s13TeaFoundation11VersionableP
+- _symbolic $s13TeaFoundation11XPCFunctionP
+- _symbolic $s13TeaFoundation12AssemblyTypeP
+- _symbolic $s13TeaFoundation12IdentifiableP
+- _symbolic $s13TeaFoundation12ResolverTypeP
+- _symbolic $s13TeaFoundation13ConstructableP
+- _symbolic $s13TeaFoundation13DateProvidingP
+- _symbolic $s13TeaFoundation13ReferenceFreeP
+- _symbolic $s13TeaFoundation14PoolAccessibleP
+- _symbolic $s13TeaFoundation14RequestSigningP
+- _symbolic $s13TeaFoundation14URLHandlerTypeP
+- _symbolic $s13TeaFoundation14URLSessionTypeP
+- _symbolic $s13TeaFoundation15BinaryDecodableP
+- _symbolic $s13TeaFoundation15BinaryEncodableP
+- _symbolic $s13TeaFoundation15StartupTaskTypeP
+- _symbolic $s13TeaFoundation15WeakReferencingP
+- _symbolic $s13TeaFoundation16DeserializerTypeP
+- _symbolic $s13TeaFoundation16OptionalProtocolP
+- _symbolic $s13TeaFoundation16ShortDescribableP
+- _symbolic $s13TeaFoundation16SynchronizerTypeP
+- _symbolic $s13TeaFoundation17KeyValueStoreTypeP
+- _symbolic $s13TeaFoundation17SceneStateMonitorP
+- _symbolic $s13TeaFoundation17StateMachineEventP
+- _symbolic $s13TeaFoundation18BundleAssemblyTypeP
+- _symbolic $s13TeaFoundation18CancelledReportingP
+- _symbolic $s13TeaFoundation18ScenePhaseObserverP
+- _symbolic $s13TeaFoundation18ThrottleSchedulingP
+- _symbolic $s13TeaFoundation19AsyncURLHandlerTypeP
+- _symbolic $s13TeaFoundation19TestDataLocatorTypeP
+- _symbolic $s13TeaFoundation19URLRequestProcessorP
+- _symbolic $s13TeaFoundation20AuthTokenManagerTypeP
+- _symbolic $s13TeaFoundation20AuthTokenServiceTypeP
+- _symbolic $s13TeaFoundation20ProcessInfoValueTypeP
+- _symbolic $s13TeaFoundation20ShortDescriptionTypeP
+- _symbolic $s13TeaFoundation21BackgroundFetchWorkerP
+- _symbolic $s13TeaFoundation21ScenePhaseManagerTypeP
+- _symbolic $s13TeaFoundation21SceneStateManagerTypeP
+- _symbolic $s13TeaFoundation22DeviceStoragePurgeableP
+- _symbolic $s13TeaFoundation22DiagnosticFileProviderP
+- _symbolic $s13TeaFoundation23ApplicationStateMonitorP
+- _symbolic $s13TeaFoundation23NetworkEventHandlerTypeP
+- _symbolic $s13TeaFoundation23NetworkReachabilityTypeP
+- _symbolic $s13TeaFoundation23ThrottleSchedulingQueueP
+- _symbolic $s13TeaFoundation23URLHandlerProcessorTypeP
+- _symbolic $s13TeaFoundation24CallbackRegistrationTypeP
+- _symbolic $s13TeaFoundation24DeviceStorageManagerTypeP
+- _symbolic $s13TeaFoundation24NetworkActivityProvidingP
+- _symbolic $s13TeaFoundation25BackgroundTaskManagerTypeP
+- _symbolic $s13TeaFoundation25RemoteNotificationHandlerP
+- _symbolic $s13TeaFoundation26BackgroundFetchJournalTypeP
+- _symbolic $s13TeaFoundation26FixedSizeTypeBinaryCodableP
+- _symbolic $s13TeaFoundation27ApplicationStateManagerTypeP
+- _symbolic $s13TeaFoundation27DefinitionConfigurationTypeP
+- _symbolic $s13TeaFoundation30CallbackInstanceDefinitionTypeP
+- _symbolic $s13TeaFoundation30NetworkActivitySessionDelegateP
+- _symbolic $s13TeaFoundation32DiagnosticAttachmentResolverTypeP
+- _symbolic $s13TeaFoundation4LockP
+- _symbolic $s13TeaFoundation8DiffableP
+- _symbolic $s7Combine16ObservableObjectP
+- _symbolic $sSK
+- _symbolic $sSM
+- _symbolic $sST
+- _symbolic $sSY
+- _symbolic $sSk
+- _symbolic $sSl
+- _symbolic $ss10SetAlgebraP
+- _symbolic $ss12CaseIterableP
+- _symbolic $ss15InstantProtocolP
+- _symbolic $ss21_ObjectiveCBridgeableP
+- _symbolic $ss25ExpressibleByArrayLiteralP
+- _symbolic $ss26ExpressibleByStringLiteralP
+- _symbolic $ss27ExpressibleByBooleanLiteralP
+- _symbolic $ss27ExpressibleByIntegerLiteralP
+- _symbolic $ss30KeyedDecodingContainerProtocolP
+- _symbolic $ss33ExpressibleByUnicodeScalarLiteralP
+- _symbolic $ss43ExpressibleByExtendedGraphemeClusterLiteralP
+- _symbolic $ss5ClockP
+- _symbolic $ss9OptionSetP
+- _symbolic 11SubSequenceSlQz
+- _symbolic 5IndexSlQz
+- _symbolic 5State_____Qy_ 13TeaFoundation17StateMachineEventP
+- _symbolic 5State_____Qz 13TeaFoundation17StateMachineEventP
+- _symbolic 5Value_____Qz 13TeaFoundation15WeakReferencingP
+- _symbolic 7ElementSTQz
+- _symbolic 7ElementSTQzSb______pIegndzo_ s5ErrorP
+- _symbolic 7ElementSTQzqd_0_qd__Sg______pIegngrzo_ s5ErrorP
+- _symbolic 7ElementSTQzqd_0_qd________pIegngrzo_ s5ErrorP
+- _symbolic 7ElementSTQzqd__IeghHnr_
+- _symbolic 7ElementSTQzqd__Sb______pIegngdzo_ s5ErrorP
+- _symbolic 7ElementSTQzqd__Sg______pIegnrzo_ s5ErrorP
+- _symbolic 7ElementSTQzqd________pIeghHnrzo_ s5ErrorP
+- _symbolic 7ElementSTQzqd________pIegnrzo_ s5ErrorP
+- _symbolic 7ElementST_5IndexSlQZ
+- _symbolic 7IndicesSlQz
+- _symbolic 7Instant_____Qyd__ s5ClockP
+- _symbolic 7Instant_____Qz s5ClockP
+- _symbolic 8IteratorSTQz
+- _symbolic 9ValueType_____Qz 13TeaFoundation17KeyValueStoreTypeP
+- _symbolic B0
+- _symbolic B1
+- _symbolic B10
+- _symbolic B11
+- _symbolic B2
+- _symbolic B3
+- _symbolic B4
+- _symbolic B5
+- _symbolic B6
+- _symbolic B7
+- _symbolic B8
+- _symbolic B9
+- _symbolic BD
+- _symbolic G0G0G1R1___
+- _symbolic G0G0R0__
+- _symbolic G0G0R1__
+- _symbolic G0G0R2__
+- _symbolic G0G0R3__
+- _symbolic G0G0R6__
+- _symbolic G0G1R1__
+- _symbolic G0M1_
+- _symbolic G0R0_
+- _symbolic G0R10_
+- _symbolic G0R11_
+- _symbolic G0R1_
+- _symbolic G0R2_
+- _symbolic G0R3_
+- _symbolic G0R4_
+- _symbolic G0R5_
+- _symbolic G0R6_
+- _symbolic G0R7_
+- _symbolic G0R8_
+- _symbolic G0R9_
+- _symbolic G1G0R3__
+- _symbolic G1G0R6__
+- _symbolic G1M1_
+- _symbolic G1R0_
+- _symbolic G1R1_
+- _symbolic Ieg_
+- _symbolic Ig_
+- _symbolic S2SIeggo_
+- _symbolic S2Sc
+- _symbolic S2ScSg
+- _symbolic S2bIegnd_Sg
+- _symbolic SDyS2SG
+- _symbolic SDySSSaySSGG
+- _symbolic SDySSSay_____GG 13TeaFoundation17URLHandlerPatternV9ConditionO
+- _symbolic SDySS_____G 13TeaFoundation20NetworkOperationTask33_742A028E0C7008CF4F38C8ACD75723DCLLV
+- _symbolic SDySS_____G 13TeaFoundation4JSONO
+- _symbolic SDySS_____G 13TeaFoundation9AuthTokenV
+- _symbolic SDySS_____GIegn_ 13TeaFoundation9AuthTokenV
+- _symbolic SDySS_____GSDy_____AAG______pIegnrzo_ 13TeaFoundation9AuthTokenV 0B03URLV s5ErrorP
+- _symbolic SDySS_____Gyt______pIegnrzo_ 13TeaFoundation9AuthTokenV s5ErrorP
+- _symbolic SDySSxG
+- _symbolic SDySSypG
+- _symbolic SDySiSSG
+- _symbolic SDySiSay_____GG 13TeaFoundation12AnyReferenceV
+- _symbolic SDySi_____G 13TeaFoundation21BackgroundFetchResultO
+- _symbolic SDySi_____G 13TeaFoundation29RemoteNotificationFetchResultO
+- _symbolic SDySixG
+- _symbolic SDySixGz_Say_____G_Say_____yACGGSlRd__ADyxG7ElementSTRtd__r__lXX 13TeaFoundation12AnyReferenceV AA7PromiseC
+- _symbolic SDySixGz_______Say_____yABGGSlRd__ACyxG7ElementSTRtd__r__lXX 13TeaFoundation21BackgroundFetchResultO AA7PromiseC
+- _symbolic SDySixGz_______Say_____yABGGSlRd__ACyxG7ElementSTRtd__r__lXX 13TeaFoundation29RemoteNotificationFetchResultO AA7PromiseC
+- _symbolic SDySixGz_x_qd__SlRd_______yxG7ElementSTRtd__r__lXX 13TeaFoundation7PromiseC
+- _symbolic SDySixGz_yt_Say_____yytGGSlRd__AByxG7ElementSTRtd__r__lXX 13TeaFoundation7PromiseC
+- _symbolic SDySiytG
+- _symbolic SDySuq_G
+- _symbolic SDy_____SDySSypGG 13TeaFoundation13ReferenceTypeV
+- _symbolic SDy_____Say_____GG 13TeaFoundation3KeyV AA13CallbackStoreC0D19DefinitionContainerO
+- _symbolic SDy_____Say______pGG 13TeaFoundation16StartupTaskGroupV AA0cD4TypeP
+- _symbolic SDy_____Say_____yyXlGGG 13TeaFoundation3KeyV AA18CallbackDefinitionC
+- _symbolic SDy_____ShySSGG 13TeaFoundation13ReferenceTypeV
+- _symbolic SDy__________G 10Foundation3URLV 03TeaA09AuthTokenV
+- _symbolic SDy__________G 10Foundation4UUIDV 03TeaA09ContainerC
+- _symbolic SDy__________G 13TeaFoundation18StartupTaskManagerC0cD8GroupKey33_DA8F8508DC89BFEAEDF6D12B3608D21BLLV AC0cD5StateAELLO
+- _symbolic SDy__________G 13TeaFoundation3KeyV AA14BaseDefinitionC
+- _symbolic SDy__________G 13TeaFoundation3KeyV AA14BasePoolObjectC
+- _symbolic SDy__________G 13TeaFoundation8RouteKeyV AA0C0V
+- _symbolic SDy__________GACIeggg_ 10Foundation3URLV 03TeaA09AuthTokenV
+- _symbolic SDy__________GAC_ACt______pIegnrzo_ 10Foundation3URLV 03TeaA09AuthTokenV s5ErrorP
+- _symbolic SDy__________GAC______pIegnrzo_ 10Foundation3URLV 03TeaA09AuthTokenV s5ErrorP
+- _symbolic SDy__________GIegn_ 10Foundation3URLV 03TeaA09AuthTokenV
+- _symbolic SDy__________GSayAAG______pIegnrzo_ 10Foundation3URLV 03TeaA09AuthTokenV s5ErrorP
+- _symbolic SDy__________G_ACt 10Foundation3URLV 03TeaA09AuthTokenV
+- _symbolic SDy__________G_ACtIegn_ 10Foundation3URLV 03TeaA09AuthTokenV
+- _symbolic SDy__________G_ACt_____yACG______pIegnozo_ 10Foundation3URLV 03TeaA09AuthTokenV AD7PromiseC s5ErrorP
+- _symbolic SDy__________G_____yABG______pIegnozo_ 10Foundation3URLV 03TeaA09AuthTokenV AD7PromiseC s5ErrorP
+- _symbolic SDy__________G_____yACGIeggo_ 10Foundation3URLV 03TeaA09AuthTokenV AD7PromiseC
+- _symbolic SDy__________G_____yACG______pIegnozo_ 10Foundation3URLV 03TeaA09AuthTokenV AD7PromiseC s5ErrorP
+- _symbolic SDy__________G_____yAC_ACtG______pIegnozo_ 10Foundation3URLV 03TeaA09AuthTokenV AD7PromiseC s5ErrorP
+- _symbolic SDy__________Gyt______pIegnrzo_ 10Foundation3URLV 03TeaA09AuthTokenV s5ErrorP
+- _symbolic SDy___________pG 13TeaFoundation13ReferenceTypeV AA0cd7ServiceD0P
+- _symbolic SDy__________yxGG 10Foundation4UUIDV 03TeaA023OnlyOnceDeferredPromiseC
+- _symbolic SDy__________yx_GG 10Foundation4UUIDV ScS12ContinuationV
+- _symbolic SDy__________yyXlGG 13TeaFoundation3KeyV AA10DefinitionC
+- _symbolic SDy__________yytGG 13TeaFoundation18StartupTaskManagerC0cD8GroupKey33_DA8F8508DC89BFEAEDF6D12B3608D21BLLV AA15DeferredPromiseC
+- _symbolic SDy_____xSg______pcG 13TeaFoundation9ContainerC9TestSuiteO AA12ResolverTypeP
+- _symbolic SDy_____ypG s17CodingUserInfoKeyV
+- _symbolic SDyq_xG
+- _symbolic SDyqd_______yxGG 13TeaFoundation7PromiseC
+- _symbolic SDyqd__xG
+- _symbolic SDyqd__xGz_x_qd__SHRd__r__lXX
+- _symbolic SDyxSay_____yxq_GGG 13TeaFoundation22StateMachineTransitionC
+- _symbolic SDyx_____G 13TeaFoundation22NetworkActivitySessionC
+- _symbolic SDyx_____y_____yxq_GGG 13TeaFoundation4NodeC AA08LRUCacheC033_38CEB3748B83B5BA2380EABECE327C2FLLC
+- _symbolic SDyx_____yq_GG 13TeaFoundation10CacheEntry33_4F8AE0C233E126B994C5BFF5F58A8872LLV
+- _symbolic SDyx_____yq_GG 13TeaFoundation7PromiseC
+- _symbolic SDyx_____yxq_GG8children_t 13TeaFoundation8TrieNodeO
+- _symbolic SDyxq_G
+- _symbolic SDyxq_GAAIeggg_
+- _symbolic SDyxq_GAA_____yAAGIegggo_ 13TeaFoundation7PromiseC
+- _symbolic SDyxq_G_AAtIegn_
+- _symbolic SDyxq_G_____yAAGIeggo_ 13TeaFoundation7PromiseC
+- _symbolic SE_p_SS4namet
+- _symbolic SIy_____G 13TeaFoundation14JSONDifferenceV
+- _symbolic SIy_____yxGG 13TeaFoundation16UniqueCollectionV
+- _symbolic SIy_____yxGG 13TeaFoundation5StackV
+- _symbolic SIy_____yxq_GG 13TeaFoundation6BidictV
+- _symbolic SJ
+- _symbolic SS
+- _symbolic SS2id______10conditions_____yc12dateProvidert 13TeaFoundation25BackgroundFetchConditionsV 0B04DateV
+- _symbolic SS5cause_t
+- _symbolic SS8expected_SS6actualt
+- _symbolic SS8expected_SSSg6actualt
+- _symbolic SS9condition_t
+- _symbolic SSIego_
+- _symbolic SSSg
+- _symbolic SSSg8expected_AA6actualt
+- _symbolic SSSgIeAgHr_
+- _symbolic SSSgIegg_
+- _symbolic SSSgIegn_
+- _symbolic SSSg_____y_____G______pIegnozo_ 13TeaFoundation7PromiseC 0B010URLRequestV s5ErrorP
+- _symbolic SS_SS4namet
+- _symbolic SS_SSt
+- _symbolic SS_______pSg5valuet s23CustomStringConvertibleP
+- _symbolic SaySSG
+- _symbolic SaySSGIegn_
+- _symbolic SaySSG___________pIegnrzo_ 10Foundation3URLV s5ErrorP
+- _symbolic SaySay_____GG 13TeaFoundation12AnyReferenceV
+- _symbolic SaySay_____GGIegn_ 13TeaFoundation12AnyReferenceV
+- _symbolic SaySay_____GG___________pIegnrzo_ 13TeaFoundation12AnyReferenceV AA0D12DecodingPoolC s5ErrorP
+- _symbolic SaySiG
+- _symbolic SaySo12NSURLSessionCG
+- _symbolic SaySo20RTLocationOfInterestCG
+- _symbolic Say_____G 10Foundation12URLQueryItemV
+- _symbolic Say_____G 10Foundation3URLV
+- _symbolic Say_____G 12CoreLocation9CLMonitorC27CircularGeographicConditionV
+- _symbolic Say_____G 13TeaFoundation11JSONPointerV9ComponentV
+- _symbolic Say_____G 13TeaFoundation11ManualClockV6WakeUp33_41978A03A88C3C8A8E896467A23FBF9ALLV
+- _symbolic Say_____G 13TeaFoundation11XPCArgumentV
+- _symbolic Say_____G 13TeaFoundation11XPCSelectorV
+- _symbolic Say_____G 13TeaFoundation12AnyReferenceV
+- _symbolic Say_____G 13TeaFoundation14JSONDifferenceV6ChangeO
+- _symbolic Say_____G 13TeaFoundation17DisposableHandler33_8939384B78C8A7DB3DBF99D1BF521718LLC
+- _symbolic Say_____G 13TeaFoundation17DisposableMonitor33_58CE754FD3D7EFA26685E71567D6D17FLLC
+- _symbolic Say_____G 13TeaFoundation17DisposableMonitor33_F9FB6BEC79A4D8EBAD092E817041FFBALLC
+- _symbolic Say_____G 13TeaFoundation17URLHandlerPatternV
+- _symbolic Say_____G 13TeaFoundation18DebugCacheRegistryC17UserDefaultsEntry33_C0B77482E7AEE90FCABE8ED5E4B22E8ALLV
+- _symbolic Say_____G 13TeaFoundation18DisposableObserver33_742A028E0C7008CF4F38C8ACD75723DCLLC
+- _symbolic Say_____G 13TeaFoundation18DisposableObserver33_C4005B8CA9A4CC3D720EFCC32F4FA984LLC
+- _symbolic Say_____G 13TeaFoundation19DiagnosticTextEntryV
+- _symbolic Say_____G 13TeaFoundation19DisposablePurgeable33_17346160D3C224C5179FD834A829F560LLC
+- _symbolic Say_____G 13TeaFoundation21AuthTokenResponseItemV
+- _symbolic Say_____G 13TeaFoundation21BackgroundFetchResultO
+- _symbolic Say_____G 13TeaFoundation21HttpConnectionHandlerC
+- _symbolic Say_____G 13TeaFoundation22BackgroundFetchTriggerO
+- _symbolic Say_____G 13TeaFoundation29RemoteNotificationFetchResultO
+- _symbolic Say_____G 13TeaFoundation4JSONO
+- _symbolic Say_____G 13TeaFoundation9ContainerC16LazyRegistration33_B510C01AB6050910DE6F815A556E939ALLV
+- _symbolic Say_____G 13TeaFoundation9ContainerC9TestSuiteO
+- _symbolic Say_____G 13TeaFoundation9QueryItemV
+- _symbolic Say_____G11attachments_SS4namet 13TeaFoundation20DiagnosticAttachmentO
+- _symbolic Say_____GAA______pIegnrzo_ 13TeaFoundation21BackgroundFetchResultO s5ErrorP
+- _symbolic Say_____GAA______pIegnrzo_ 13TeaFoundation29RemoteNotificationFetchResultO s5ErrorP
+- _symbolic Say_____GIeAgHr_ 10Foundation3URLV
+- _symbolic Say_____GIegn_ 10Foundation3URLV
+- _symbolic Say_____GIegn_ 13TeaFoundation12AnyReferenceV
+- _symbolic Say_____GIegn_ 13TeaFoundation21BackgroundFetchResultO
+- _symbolic Say_____GIegn_ 13TeaFoundation29RemoteNotificationFetchResultO
+- _symbolic Say_____GSd_____ySDyAA_____GGIeggyo_ 10Foundation3URLV 03TeaA07PromiseC AD9AuthTokenV
+- _symbolic Say_____GSg 13TeaFoundation17URLHandlerPatternV5ParamO
+- _symbolic Say_____G__________ySDyAA_____GGIeggno_ 10Foundation3URLV 03TeaA011CacheMaxAgeO AD7PromiseC AD9AuthTokenV
+- _symbolic Say_____G_____ySDyAA_____GGIeggo_ 10Foundation3URLV 03TeaA07PromiseC AD9AuthTokenV
+- _symbolic Say_____G_____ySDyAA_____GG______pIegnozo_ 10Foundation3URLV 03TeaA07PromiseC AD9AuthTokenV s5ErrorP
+- _symbolic Say_____Gyt______pIegnrzo_ 13TeaFoundation12AnyReferenceV s5ErrorP
+- _symbolic Say______pG 13TeaFoundation12AssemblyTypeP
+- _symbolic Say______pG 13TeaFoundation19URLRequestProcessorP
+- _symbolic Say______pG 13TeaFoundation22DiagnosticFileProviderP
+- _symbolic Say______pG 13TeaFoundation30CallbackInstanceDefinitionTypeP
+- _symbolic Say______pG s5ErrorP
+- _symbolic Say______pG s9CodingKeyP
+- _symbolic Say______pG10codingPath_AA_p3keySS8expectedSS6actualt s9CodingKeyP
+- _symbolic Say______pG10codingPath_SS5valuet s9CodingKeyP
+- _symbolic Say______pG10codingPath_SS6actualt s9CodingKeyP
+- _symbolic Say______pG10codingPath_SS8expectedSS6actualt s9CodingKeyP
+- _symbolic Say______pG10codingPath_Sd6numberSS4typet s9CodingKeyP
+- _symbolic Say______pG10codingPath_Sd6numbert s9CodingKeyP
+- _symbolic Say______pG10codingPath_Si5indexSS8expectedSS6actualt s9CodingKeyP
+- _symbolic Say______pG10codingPath_So15NSDateFormatterC9formatterSS6actualt s9CodingKeyP
+- _symbolic Say______pG10codingPath_t s9CodingKeyP
+- _symbolic Say______pGAA_pIeggr_ s9CodingKeyP
+- _symbolic Say_____ySDySS_____G_GG 13TeaFoundation4SealC7Handler33_84A54347ED4FE131DA84D0B9CB8DFBEFLLC AA9AuthTokenV
+- _symbolic Say_____ySDy__________G_ADt_GG 13TeaFoundation4SealC7Handler33_84A54347ED4FE131DA84D0B9CB8DFBEFLLC 0B03URLV AA9AuthTokenV
+- _symbolic Say_____ySDy__________G_GG 13TeaFoundation4SealC7Handler33_84A54347ED4FE131DA84D0B9CB8DFBEFLLC 0B03URLV AA9AuthTokenV
+- _symbolic Say_____ySSSg_GG 13TeaFoundation4SealC7Handler33_84A54347ED4FE131DA84D0B9CB8DFBEFLLC
+- _symbolic Say_____ySaySay_____GG_GG 13TeaFoundation4SealC7Handler33_84A54347ED4FE131DA84D0B9CB8DFBEFLLC AA12AnyReferenceV
+- _symbolic Say_____ySay_____GGG 13TeaFoundation7PromiseC AA12AnyReferenceV
+- _symbolic Say_____ySay_____G_GG 13TeaFoundation4SealC7Handler33_84A54347ED4FE131DA84D0B9CB8DFBEFLLC 0B03URLV
+- _symbolic Say_____ySay_____G_GG 13TeaFoundation4SealC7Handler33_84A54347ED4FE131DA84D0B9CB8DFBEFLLC AA21BackgroundFetchResultO
+- _symbolic Say_____ySay_____G_GG 13TeaFoundation4SealC7Handler33_84A54347ED4FE131DA84D0B9CB8DFBEFLLC AA29RemoteNotificationFetchResultO
+- _symbolic Say_____ySayytG_GG 13TeaFoundation4SealC7Handler33_84A54347ED4FE131DA84D0B9CB8DFBEFLLC
+- _symbolic Say_____ySb_GG 13TeaFoundation4SealC7Handler33_84A54347ED4FE131DA84D0B9CB8DFBEFLLC
+- _symbolic Say_____y_____GG 13TeaFoundation7PromiseC AA21BackgroundFetchResultO
+- _symbolic Say_____y_____GG 13TeaFoundation7PromiseC AA29RemoteNotificationFetchResultO
+- _symbolic Say_____y______GG 13TeaFoundation4SealC7Handler33_84A54347ED4FE131DA84D0B9CB8DFBEFLLC 0B010URLRequestV
+- _symbolic Say_____y______GG 13TeaFoundation4SealC7Handler33_84A54347ED4FE131DA84D0B9CB8DFBEFLLC 0B03URLV
+- _symbolic Say_____y______GG 13TeaFoundation4SealC7Handler33_84A54347ED4FE131DA84D0B9CB8DFBEFLLC 0B04DataV
+- _symbolic Say_____y______GG 13TeaFoundation4SealC7Handler33_84A54347ED4FE131DA84D0B9CB8DFBEFLLC 12CoreLocation9CLMonitorC
+- _symbolic Say_____y______GG 13TeaFoundation4SealC7Handler33_84A54347ED4FE131DA84D0B9CB8DFBEFLLC AA17AuthTokenResponseV
+- _symbolic Say_____y______GG 13TeaFoundation4SealC7Handler33_84A54347ED4FE131DA84D0B9CB8DFBEFLLC AA21BackgroundFetchResultO
+- _symbolic Say_____y______GG 13TeaFoundation4SealC7Handler33_84A54347ED4FE131DA84D0B9CB8DFBEFLLC AA21ReferenceDecodingPoolC
+- _symbolic Say_____y______GG 13TeaFoundation4SealC7Handler33_84A54347ED4FE131DA84D0B9CB8DFBEFLLC AA29RemoteNotificationFetchResultO
+- _symbolic Say_____y______GG 13TeaFoundation4SealC7Handler33_84A54347ED4FE131DA84D0B9CB8DFBEFLLC AA9AuthTokenV
+- _symbolic Say_____yxGG 13TeaFoundation13AnyURLHandlerV
+- _symbolic Say_____yxGG 13TeaFoundation13SignpostEntryV
+- _symbolic Say_____yxGG 13TeaFoundation18AnyAsyncURLHandlerV
+- _symbolic Say_____yxGG 13TeaFoundation22AnyURLHandlerProcessorV
+- _symbolic Say_____yxGG 13TeaFoundation8Observer023_17DAD0BE71214AECEE82E0G8C4B87224LLC
+- _symbolic Say_____yxGG 13TeaFoundation8Observer33_A5B82E417DCB09390E58CAAAA132B0E4LLC
+- _symbolic Say_____yxGG 13TeaFoundation8SignpostV
+- _symbolic Say_____yx_GG 13TeaFoundation4SealC7Handler33_84A54347ED4FE131DA84D0B9CB8DFBEFLLC
+- _symbolic Say_____yx_xGG 13TeaFoundation12EventManagerC0C7Trigger030_737A2A6A770DA8502386F7BC93B43J1DLLC
+- _symbolic Say_____yx_xtGG 13TeaFoundation8Observer023_17DAD0BE71214AECEE82E0G8C4B87224LLC
+- _symbolic Say_____yytGG 13TeaFoundation7PromiseC
+- _symbolic Say_____yyt_GG 13TeaFoundation4SealC7Handler33_84A54347ED4FE131DA84D0B9CB8DFBEFLLC
+- _symbolic SayxG
+- _symbolic SayxGSd_____ySDyxq_GGIeggyo_ 13TeaFoundation7PromiseC
+- _symbolic SayxG__________ySDyxq_GGIeggno_ 13TeaFoundation11CacheMaxAgeO AA7PromiseC
+- _symbolic SayxG_____ySDyxq_GGIeggo_ 13TeaFoundation7PromiseC
+- _symbolic SayyXlG
+- _symbolic SayypG
+- _symbolic SayytG
+- _symbolic SayytGIegn_
+- _symbolic SayytGyt______pIegnrzo_ s5ErrorP
+- _symbolic SayyxcG
+- _symbolic SayyycG
+- _symbolic Sb
+- _symbolic SbIegd_
+- _symbolic SbIegn_
+- _symbolic Sb_____yxGc 13TeaFoundation17URLHandlerContextV
+- _symbolic Sbq_cSg
+- _symbolic Sbyt______pIegnrzo_ s5ErrorP
+- _symbolic Sbz_Xx
+- _symbolic ScA_pSg
+- _symbolic ScCyx______pG s5ErrorP
+- _symbolic ScCyyt_____G s5NeverO
+- _symbolic ScTyyt_____GSg s5NeverO
+- _symbolic Sccyx______pGSg s5ErrorP
+- _symbolic Sccyyt______pG s5ErrorP
+- _symbolic Sd
+- _symbolic ShySiG
+- _symbolic Shy_____G 10Foundation3URLV
+- _symbolic Shy_____G 10Foundation4UUIDV
+- _symbolic Shy_____G 13TeaFoundation22BackgroundFetchTriggerO
+- _symbolic Shy_____G 13TeaFoundation8XPCClassV
+- _symbolic Shy_____G14referenceTypes_t 13TeaFoundation13ReferenceTypeV
+- _symbolic Shyq_G
+- _symbolic Shyqd__G
+- _symbolic ShyxG
+- _symbolic Si
+- _symbolic Si10statusCode_SSSg7messaget
+- _symbolic Si4from_Si2tot
+- _symbolic Si4line_Si6columnSS6actualt
+- _symbolic Si4line_Si6columnSS8expectedSS6actualt
+- _symbolic Si4line_Si6columnSS8expectedt
+- _symbolic Si4line_Si6columnSay_____G5bytest s5UInt8V
+- _symbolic Si4line_Si6column_____4datat 10Foundation4DataV
+- _symbolic Si4line_Si6columnt
+- _symbolic Si7ElementSTQzSiqd__IeghHyndr_
+- _symbolic Si7ElementSTQzSiqd________pIeghHyndrzo_ s5ErrorP
+- _symbolic Si8expected_Si6actualt
+- _symbolic SiIegd_
+- _symbolic SiIegr_
+- _symbolic SiSg
+- _symbolic So10NSMapTableCyxSo8NSStringCG
+- _symbolic So11NSOperationC
+- _symbolic So13NSFileManagerC
+- _symbolic So13NSURLResponseCSg
+- _symbolic So14NSUserDefaultsC
+- _symbolic So15NSDateFormatterC
+- _symbolic So15NSRecursiveLockC
+- _symbolic So16NSOperationQueueC
+- _symbolic So16NSURLSessionTaskC
+- _symbolic So16NSURLSessionTaskCSg
+- _symbolic So16NSURLSessionTaskCSgz_Xx
+- _symbolic So17CLLocationManagerCSg
+- _symbolic So17NSHTTPURLResponseC
+- _symbolic So17NSHTTPURLResponseC_So34NSURLSessionTaskTransactionMetricsCt
+- _symbolic So17OS_dispatch_groupC
+- _symbolic So17OS_dispatch_queueC
+- _symbolic So20NSTextCheckingResultCSg_____Spy_____GIggyy_ So15NSMatchingFlagsV 10ObjectiveC8ObjCBoolV
+- _symbolic So20NSURLSessionDataTaskC
+- _symbolic So21OS_dispatch_semaphoreC
+- _symbolic So23NSURLSessionTaskMetricsCSg
+- _symbolic So24NSURLSessionDownloadTaskC
+- _symbolic So6BGTaskC
+- _symbolic So7NSErrorC
+- _symbolic So7NSErrorCSg
+- _symbolic So8NSObjectC
+- _symbolic So8NSObjectCIego_
+- _symbolic So8NSObjectCSbIeggn_
+- _symbolic So8NSObjectCSg
+- _symbolic So8NSObjectCSgIego_
+- _symbolic So8NSObjectCSgXw
+- _symbolic So8NSObjectCSgz_Xx
+- _symbolic So8NSStringC
+- _symbolic So8ProtocolC
+- _symbolic So9OS_os_logC
+- _symbolic Spy_____G So16os_unfair_lock_sV
+- _symbolic Su
+- _symbolic _____ 10Foundation10URLRequestV
+- _symbolic _____ 10Foundation11JSONEncoderC
+- _symbolic _____ 10Foundation14DateComponentsV
+- _symbolic _____ 10Foundation3URLV
+- _symbolic _____ 10Foundation4DataV
+- _symbolic _____ 10Foundation4DateV
+- _symbolic _____ 10Foundation4UUIDV
+- _symbolic _____ 10Foundation6LocaleV
+- _symbolic _____ 10ObjectiveC8SelectorV
+- _symbolic _____ 12CoreLocation9CLMonitorC
+- _symbolic _____ 13TeaFoundation01_A11JSONDecoderC
+- _symbolic _____ 13TeaFoundation01_A11JSONDecoderC19KeyDecodingStrategyO
+- _symbolic _____ 13TeaFoundation01_A11JSONDecoderC20DateDecodingStrategyO
+- _symbolic _____ 13TeaFoundation10AnyInstantV
+- _symbolic _____ 13TeaFoundation10CacheEntry33_4F8AE0C233E126B994C5BFF5F58A8872LLV
+- _symbolic _____ 13TeaFoundation10DefinitionC
+- _symbolic _____ 13TeaFoundation10DigestAlgoO
+- _symbolic _____ 13TeaFoundation10HttpMethodO
+- _symbolic _____ 13TeaFoundation10HttpParserC
+- _symbolic _____ 13TeaFoundation10HttpParserC0D5ErrorO
+- _symbolic _____ 13TeaFoundation10HttpRouterC
+- _symbolic _____ 13TeaFoundation10JSONBridgeV
+- _symbolic _____ 13TeaFoundation10JSONParserC
+- _symbolic _____ 13TeaFoundation10JSONParserC6ErrorsO
+- _symbolic _____ 13TeaFoundation10MockServerC
+- _symbolic _____ 13TeaFoundation10MockServerC0D5ErrorO
+- _symbolic _____ 13TeaFoundation10PoolObjectC
+- _symbolic _____ 13TeaFoundation10QuantifierO
+- _symbolic _____ 13TeaFoundation10ReportableC
+- _symbolic _____ 13TeaFoundation10SafeishSetV
+- _symbolic _____ 13TeaFoundation10ScenePhaseO
+- _symbolic _____ 13TeaFoundation10StoreStateO
+- _symbolic _____ 13TeaFoundation10StoreValueC
+- _symbolic _____ 13TeaFoundation10UnfairLockC
+- _symbolic _____ 13TeaFoundation10UnfairLockC7OptionsV
+- _symbolic _____ 13TeaFoundation10UnsafeLazyC
+- _symbolic _____ 13TeaFoundation10UnsafeLazyC6Loader33_92D6C5DFBD81921D75E42D64C520C4AALLO
+- _symbolic _____ 13TeaFoundation11CacheMaxAgeO
+- _symbolic _____ 13TeaFoundation11CachePolicyO
+- _symbolic _____ 13TeaFoundation11HttpRequestV
+- _symbolic _____ 13TeaFoundation11JSONPointerV
+- _symbolic _____ 13TeaFoundation11JSONPointerV9ComponentV
+- _symbolic _____ 13TeaFoundation11LazyOptionsV
+- _symbolic _____ 13TeaFoundation11MachServiceV
+- _symbolic _____ 13TeaFoundation11ManualClockV
+- _symbolic _____ 13TeaFoundation11ManualClockV5State33_41978A03A88C3C8A8E896467A23FBF9ALLV
+- _symbolic _____ 13TeaFoundation11ManualClockV6WakeUp33_41978A03A88C3C8A8E896467A23FBF9ALLV
+- _symbolic _____ 13TeaFoundation11ManualClockV7InstantV
+- _symbolic _____ 13TeaFoundation11MulticasterV
+- _symbolic _____ 13TeaFoundation11OperationIDV
+- _symbolic _____ 13TeaFoundation11WhenEither233_F65FF1718B9B977F6471C22FB1FB3F9ELLO
+- _symbolic _____ 13TeaFoundation11WhenEither333_F65FF1718B9B977F6471C22FB1FB3F9ELLO
+- _symbolic _____ 13TeaFoundation11WhenEither433_F65FF1718B9B977F6471C22FB1FB3F9ELLO
+- _symbolic _____ 13TeaFoundation11XPCArgumentV
+- _symbolic _____ 13TeaFoundation11XPCSelectorV
+- _symbolic _____ 13TeaFoundation12AddressCacheV
+- _symbolic _____ 13TeaFoundation12AnyReferenceV
+- _symbolic _____ 13TeaFoundation12CapabilitiesC
+- _symbolic _____ 13TeaFoundation12CodableErrorV
+- _symbolic _____ 13TeaFoundation12CodableErrorV10CodingKeys33_02478576D0C6E267512DC65C33580ACCLLO
+- _symbolic _____ 13TeaFoundation12DateProviderC
+- _symbolic _____ 13TeaFoundation12DeinitSignalC
+- _symbolic _____ 13TeaFoundation12DispatchOnceC
+- _symbolic _____ 13TeaFoundation12EventManagerC
+- _symbolic _____ 13TeaFoundation12EventManagerC0C7Trigger030_737A2A6A770DA8502386F7BC93B43J1DLLC
+- _symbolic _____ 13TeaFoundation12HandlerErrorO
+- _symbolic _____ 13TeaFoundation12HttpResponseO
+- _symbolic _____ 13TeaFoundation12HttpResponseO4BodyO
+- _symbolic _____ 13TeaFoundation12LRUCacheNode33_38CEB3748B83B5BA2380EABECE327C2FLLC
+- _symbolic _____ 13TeaFoundation12NetworkProxyO
+- _symbolic _____ 13TeaFoundation12PromiseErrorO
+- _symbolic _____ 13TeaFoundation12SafeishArrayV
+- _symbolic _____ 13TeaFoundation12SafeishErrorO
+- _symbolic _____ 13TeaFoundation12StateMachineC
+- _symbolic _____ 13TeaFoundation12SynchronizerC
+- _symbolic _____ 13TeaFoundation12TaskDeadlineV
+- _symbolic _____ 13TeaFoundation12ThrowingLazyC
+- _symbolic _____ 13TeaFoundation12ThrowingLazyC6Errors33_92D6C5DFBD81921D75E42D64C520C4AALLO
+- _symbolic _____ 13TeaFoundation12XPCInterfaceV
+- _symbolic _____ 13TeaFoundation12_JSONDecoder33_505E059B11A426DB0017A05E34BF5D68LLV
+- _symbolic _____ 13TeaFoundation13AnyURLHandlerV
+- _symbolic _____ 13TeaFoundation13BinaryDecoderC
+- _symbolic _____ 13TeaFoundation13BinaryDecoderC5ErrorO
+- _symbolic _____ 13TeaFoundation13BinaryEncoderC
+- _symbolic _____ 13TeaFoundation13CallbackScopeO
+- _symbolic _____ 13TeaFoundation13CallbackStoreC
+- _symbolic _____ 13TeaFoundation13CallbackStoreC0C19DefinitionContainerO
+- _symbolic _____ 13TeaFoundation13CodableResultO
+- _symbolic _____ 13TeaFoundation13CodableResultO0D4Type33_B05DF90491B4835496D34A5719D702F7LLO
+- _symbolic _____ 13TeaFoundation13CodableResultO10CodingKeys33_B05DF90491B4835496D34A5719D702F7LLO
+- _symbolic _____ 13TeaFoundation13CodableResultO5ErrorO
+- _symbolic _____ 13TeaFoundation13ContainerLockO
+- _symbolic _____ 13TeaFoundation13DateComponent33_0C5C191A88CA3790962154AC860D51A2LLO
+- _symbolic _____ 13TeaFoundation13DisposableBagC
+- _symbolic _____ 13TeaFoundation13DynamicLocaleC
+- _symbolic _____ 13TeaFoundation13NetworkStatusV
+- _symbolic _____ 13TeaFoundation13ProxyResolverC
+- _symbolic _____ 13TeaFoundation13ReferenceDataV
+- _symbolic _____ 13TeaFoundation13ReferenceDataV10CodingKeys33_2BAA6B52E3C70EEA7227E85419E20D9FLLO
+- _symbolic _____ 13TeaFoundation13ReferenceTypeV
+- _symbolic _____ 13TeaFoundation13SignpostEntryV
+- _symbolic _____ 13TeaFoundation13SingletonPoolC
+- _symbolic _____ 13TeaFoundation13TaskSchedulerC
+- _symbolic _____ 13TeaFoundation13ThreadsafeSetC
+- _symbolic _____ 13TeaFoundation13VersionNumberV
+- _symbolic _____ 13TeaFoundation14AsyncOperationC
+- _symbolic _____ 13TeaFoundation14AsyncOperationC5State33_35DC0BF999132CFE935148116D7163B3LLO
+- _symbolic _____ 13TeaFoundation14BaseDefinitionC
+- _symbolic _____ 13TeaFoundation14BasePoolObjectC
+- _symbolic _____ 13TeaFoundation14BridgedContextC
+- _symbolic _____ 13TeaFoundation14ContainerStoreC
+- _symbolic _____ 13TeaFoundation14DiagnosticDataC
+- _symbolic _____ 13TeaFoundation14DiagnosticTextV
+- _symbolic _____ 13TeaFoundation14JSONDifferenceV
+- _symbolic _____ 13TeaFoundation14JSONDifferenceV6ChangeO
+- _symbolic _____ 13TeaFoundation14ManagerOptionsV
+- _symbolic _____ 13TeaFoundation14PromiseDeduperC
+- _symbolic _____ 13TeaFoundation14ProxyContainerC
+- _symbolic _____ 13TeaFoundation14SafeCollectionV
+- _symbolic _____ 13TeaFoundation14SignpostReportV
+- _symbolic _____ 13TeaFoundation14SyncObservableC
+- _symbolic _____ 13TeaFoundation14TestDataLoaderC
+- _symbolic _____ 13TeaFoundation14TestDataLoaderC0cD5ErrorO
+- _symbolic _____ 13TeaFoundation14URLSessionPoolC
+- _symbolic _____ 13TeaFoundation14WeakPoolObjectC
+- _symbolic _____ 13TeaFoundation15AsyncObservableC
+- _symbolic _____ 13TeaFoundation15BridgedAssemblyC
+- _symbolic _____ 13TeaFoundation15BridgedResolverC
+- _symbolic _____ 13TeaFoundation15CodingSafeArrayV
+- _symbolic _____ 13TeaFoundation15DeferredPromiseC
+- _symbolic _____ 13TeaFoundation15EventLoadedLazyC
+- _symbolic _____ 13TeaFoundation15EventLoadedLazyC0C0O
+- _symbolic _____ 13TeaFoundation15ISO8601DurationV
+- _symbolic _____ 13TeaFoundation15ManagerAssemblyC
+- _symbolic _____ 13TeaFoundation15ServiceAssemblyC
+- _symbolic _____ 13TeaFoundation15URLHandlerMatchV
+- _symbolic _____ 13TeaFoundation15URLHandlerMatchV6ValuesV
+- _symbolic _____ 13TeaFoundation15XPCBlockBuilderV
+- _symbolic _____ 13TeaFoundation15XPCClassBuilderV
+- _symbolic _____ 13TeaFoundation16AuthTokenManagerC
+- _symbolic _____ 13TeaFoundation16AuthTokenRequestV
+- _symbolic _____ 13TeaFoundation16AuthTokenRequestV10CodingKeys33_4E9754146128A489480F3568F1448E71LLO
+- _symbolic _____ 13TeaFoundation16AuthTokenServiceC
+- _symbolic _____ 13TeaFoundation16BridgedContainerC
+- _symbolic _____ 13TeaFoundation16CollectionChangeO
+- _symbolic _____ 13TeaFoundation16ContainerWrapperC
+- _symbolic _____ 13TeaFoundation16DisposableWorker33_89C94C1602C77B8CEBFBCE49D1F80167LLC
+- _symbolic _____ 13TeaFoundation16DoublyLinkedListC
+- _symbolic _____ 13TeaFoundation16JSONDeserializerC
+- _symbolic _____ 13TeaFoundation16NetworkOperationC
+- _symbolic _____ 13TeaFoundation16PromiseDebouncerC
+- _symbolic _____ 13TeaFoundation16ProviderAssemblyC
+- _symbolic _____ 13TeaFoundation16ReferenceDecoderC
+- _symbolic _____ 13TeaFoundation16ReferenceEncoderC
+- _symbolic _____ 13TeaFoundation16ReferenceServiceC
+- _symbolic _____ 13TeaFoundation16RouteMatchResult33_9246709F1818241DABDF435E9CD000DCLLO
+- _symbolic _____ 13TeaFoundation16SafeishCodingKeyV
+- _symbolic _____ 13TeaFoundation16ShortDescriptionV
+- _symbolic _____ 13TeaFoundation16SignpostRecorderV
+- _symbolic _____ 13TeaFoundation16SignpostReporterV
+- _symbolic _____ 13TeaFoundation16SingleValueStoreC
+- _symbolic _____ 13TeaFoundation16SocketConnectionC
+- _symbolic _____ 13TeaFoundation16StartupTaskGroupV
+- _symbolic _____ 13TeaFoundation16StubNetworkProxyC
+- _symbolic _____ 13TeaFoundation16UniqueCollectionV
+- _symbolic _____ 13TeaFoundation16VersionQualifierV
+- _symbolic _____ 13TeaFoundation17AuthTokenResponseV
+- _symbolic _____ 13TeaFoundation17AuthTokenResponseV10CodingKeys33_8A927625B8E339BA6360FAAC91792A6DLLO
+- _symbolic _____ 13TeaFoundation17BridgedDefinitionC
+- _symbolic _____ 13TeaFoundation17DeserializerErrorO
+- _symbolic _____ 13TeaFoundation17DisposableHandler33_8939384B78C8A7DB3DBF99D1BF521718LLC
+- _symbolic _____ 13TeaFoundation17DisposableMonitor33_58CE754FD3D7EFA26685E71567D6D17FLLC
+- _symbolic _____ 13TeaFoundation17DisposableMonitor33_F9FB6BEC79A4D8EBAD092E817041FFBALLC
+- _symbolic _____ 13TeaFoundation17FrameworkAssemblyC
+- _symbolic _____ 13TeaFoundation17JSONDecodingErrorO
+- _symbolic _____ 13TeaFoundation17ObjectAssociationC
+- _symbolic _____ 13TeaFoundation17PromiseFetchErrorO
+- _symbolic _____ 13TeaFoundation17SafeishDictionaryV
+- _symbolic _____ 13TeaFoundation17ScenePhaseManagerC
+- _symbolic _____ 13TeaFoundation17SceneStateManagerC
+- _symbolic _____ 13TeaFoundation17StateMachineErrorO
+- _symbolic _____ 13TeaFoundation17TaskDeadlineErrorV
+- _symbolic _____ 13TeaFoundation17ThrottleSchedulerC
+- _symbolic _____ 13TeaFoundation17URLHandlerContextV
+- _symbolic _____ 13TeaFoundation17URLHandlerManagerC
+- _symbolic _____ 13TeaFoundation17URLHandlerMatcherC
+- _symbolic _____ 13TeaFoundation17URLHandlerMatcherC6ErrorsO
+- _symbolic _____ 13TeaFoundation17URLHandlerPatternV
+- _symbolic _____ 13TeaFoundation17URLHandlerPatternV5ParamO
+- _symbolic _____ 13TeaFoundation17URLHandlerPatternV9ConditionO
+- _symbolic _____ 13TeaFoundation18AnyAsyncURLHandlerV
+- _symbolic _____ 13TeaFoundation18AsyncTaskOperationC
+- _symbolic _____ 13TeaFoundation18CacheControlHeaderV
+- _symbolic _____ 13TeaFoundation18CallbackDefinitionC
+- _symbolic _____ 13TeaFoundation18DebugCacheRegistryC
+- _symbolic _____ 13TeaFoundation18DebugCacheRegistryC17UserDefaultsEntry33_C0B77482E7AEE90FCABE8ED5E4B22E8ALLV
+- _symbolic _____ 13TeaFoundation18DeviceLockObserverC
+- _symbolic _____ 13TeaFoundation18DiagnosticAssemblyC
+- _symbolic _____ 13TeaFoundation18DisposableObserver33_742A028E0C7008CF4F38C8ACD75723DCLLC
+- _symbolic _____ 13TeaFoundation18DisposableObserver33_C4005B8CA9A4CC3D720EFCC32F4FA984LLC
+- _symbolic _____ 13TeaFoundation18ObservablePropertyC
+- _symbolic _____ 13TeaFoundation18ObservablePropertyC5Token33_0B99E76DF43061DB25450E2D5CCBCCA0LLC
+- _symbolic _____ 13TeaFoundation18ObservableResolverC
+- _symbolic _____ 13TeaFoundation18ReferenceContainerO
+- _symbolic _____ 13TeaFoundation18ReferenceContainerO10CodingKeys33_8DBF015209545A1F949A6CDAA2C2A957LLO
+- _symbolic _____ 13TeaFoundation18ReferenceContainerO10CodingType33_8DBF015209545A1F949A6CDAA2C2A957LLO
+- _symbolic _____ 13TeaFoundation18StartupTaskManagerC
+- _symbolic _____ 13TeaFoundation18StartupTaskManagerC04LazycD033_DA8F8508DC89BFEAEDF6D12B3608D21BLLC
+- _symbolic _____ 13TeaFoundation18StartupTaskManagerC0cD5State33_DA8F8508DC89BFEAEDF6D12B3608D21BLLO
+- _symbolic _____ 13TeaFoundation18StartupTaskManagerC0cD8GroupKey33_DA8F8508DC89BFEAEDF6D12B3608D21BLLV
+- _symbolic _____ 13TeaFoundation18StoreComputedValueC
+- _symbolic _____ 13TeaFoundation18StringDeserializerC
+- _symbolic _____ 13TeaFoundation18XPCArgumentBuilderV
+- _symbolic _____ 13TeaFoundation18XPCSelectorBuilderV
+- _symbolic _____ 13TeaFoundation19AsyncBlockOperationC
+- _symbolic _____ 13TeaFoundation19AsyncOperationErrorO
+- _symbolic _____ 13TeaFoundation19DiagnosticTextEntryV
+- _symbolic _____ 13TeaFoundation19DiagnosticTextEntryV0E033_5D9EA4C85C2CA14ECFD0BE093A03CEAFLLO
+- _symbolic _____ 13TeaFoundation19DisposablePurgeable33_17346160D3C224C5179FD834A829F560LLC
+- _symbolic _____ 13TeaFoundation19NetworkReachabilityC
+- _symbolic _____ 13TeaFoundation19PromiseDeduperFlagsV
+- _symbolic _____ 13TeaFoundation19PromiseWeakResolverC
+- _symbolic _____ 13TeaFoundation19ReferenceCodingKeysO
+- _symbolic _____ 13TeaFoundation19XPCInterfaceBuilderV
+- _symbolic _____ 13TeaFoundation20CallbackRegistrationC
+- _symbolic _____ 13TeaFoundation20CodingSafeDictionaryV
+- _symbolic _____ 13TeaFoundation20DeviceStorageManagerC
+- _symbolic _____ 13TeaFoundation20DiagnosticAttachmentO
+- _symbolic _____ 13TeaFoundation20EventTriggerBehaviorV
+- _symbolic _____ 13TeaFoundation20NetworkOperationTask33_742A028E0C7008CF4F38C8ACD75723DCLLV
+- _symbolic _____ 13TeaFoundation20ObjectReuseProtectorC
+- _symbolic _____ 13TeaFoundation20ObjectReuseProtectorC6ErrorsO
+- _symbolic _____ 13TeaFoundation20ReferenceCodingErrorO
+- _symbolic _____ 13TeaFoundation20ReferenceCountedLazyC
+- _symbolic _____ 13TeaFoundation21AuthTokenManagerError33_FB954AA17CB2E15CD2EA50B08F035129LLO
+- _symbolic _____ 13TeaFoundation21AuthTokenResponseItemV
+- _symbolic _____ 13TeaFoundation21AuthTokenResponseItemV10CodingKeys33_8496E38CECF77399DD05067BDC22DABFLLO
+- _symbolic _____ 13TeaFoundation21AuthTokenServiceError33_FBBE5ADC03C4EEA987088D28F183E5D7LLO
+- _symbolic _____ 13TeaFoundation21BackgroundFetchResultO
+- _symbolic _____ 13TeaFoundation21BridgedBundleAssemblyC
+- _symbolic _____ 13TeaFoundation21BridgedProxyContainerC
+- _symbolic _____ 13TeaFoundation21ContainerStoreWrapperC
+- _symbolic _____ 13TeaFoundation21HttpConnectionHandlerC
+- _symbolic _____ 13TeaFoundation21HttpResponseConverterC
+- _symbolic _____ 13TeaFoundation21NetworkOperationErrorO
+- _symbolic _____ 13TeaFoundation21NetworkOperationEventO
+- _symbolic _____ 13TeaFoundation21NonCancellingReporterV
+- _symbolic _____ 13TeaFoundation21ReferenceDecodingPoolC
+- _symbolic _____ 13TeaFoundation21ReferenceEncodingPoolC
+- _symbolic _____ 13TeaFoundation21ReferenceEncodingPoolC10CodingKeys33_E6192A436417C7BEB63B51A324FFA9A1LLO
+- _symbolic _____ 13TeaFoundation21ReferenceServiceErrorO
+- _symbolic _____ 13TeaFoundation21RegistrationContainerC
+- _symbolic _____ 13TeaFoundation21URLHandlerOpenOptionsV
+- _symbolic _____ 13TeaFoundation22AnyURLHandlerProcessorV
+- _symbolic _____ 13TeaFoundation22BackgroundFetchManagerC
+- _symbolic _____ 13TeaFoundation22BackgroundFetchTriggerO
+- _symbolic _____ 13TeaFoundation22BaseCallbackDefinitionC
+- _symbolic _____ 13TeaFoundation22DeviceStorageDataClassO
+- _symbolic _____ 13TeaFoundation22EagerCancellationState33_27707480826DA2D1169E89DAF1F77B07LLV
+- _symbolic _____ 13TeaFoundation22NetworkActivitySessionC
+- _symbolic _____ 13TeaFoundation22NetworkActivitySessionC5ErrorO
+- _symbolic _____ 13TeaFoundation22NetworkOperationResultV
+- _symbolic _____ 13TeaFoundation22PatienceTimeoutExpiredV
+- _symbolic _____ 13TeaFoundation22SceneConnectionOptionsV
+- _symbolic _____ 13TeaFoundation22StateMachineTransitionC
+- _symbolic _____ 13TeaFoundation23DefinitionConfigurationC
+- _symbolic _____ 13TeaFoundation23DiagnosticFileCollectorC
+- _symbolic _____ 13TeaFoundation23DiagnosticZipAttachmentV
+- _symbolic _____ 13TeaFoundation23FloatingPointTranslatorC
+- _symbolic _____ 13TeaFoundation23FloatingPointTranslatorC11Translation33_164B71A070A08BBCBC695AA31AC98586LLO
+- _symbolic _____ 13TeaFoundation23OnlyOnceDeferredPromiseC
+- _symbolic _____ 13TeaFoundation24BackgroundNetworkSessionC
+- _symbolic _____ 13TeaFoundation24NetworkResponseOperationC
+- _symbolic _____ 13TeaFoundation25BackgroundFetchConditionsV
+- _symbolic _____ 13TeaFoundation25DeviceStoragePurgeUrgencyO
+- _symbolic _____ 13TeaFoundation25RemoteNotificationManagerC
+- _symbolic _____ 13TeaFoundation25RemoteNotificationPatternO
+- _symbolic _____ 13TeaFoundation25StartupTaskExecutionPhaseO
+- _symbolic _____ 13TeaFoundation26ApplicationStateManagerIOSC
+- _symbolic _____ 13TeaFoundation26CallbackInstanceDefinitionC
+- _symbolic _____ 13TeaFoundation26CallbackInstanceDefinitionC7Wrapper33_E687A44C08E4676B420C549F48E48055LLC
+- _symbolic _____ 13TeaFoundation26JSONKeyedDecodingContainer33_505E059B11A426DB0017A05E34BF5D68LLV
+- _symbolic _____ 13TeaFoundation26ReferenceDecodingContainerV
+- _symbolic _____ 13TeaFoundation26ReferenceEncodingContainerV
+- _symbolic _____ 13TeaFoundation27AsyncBlockCancelledReporter33_9A4AE9F343B4505B931B51DC4DC962B0LLC
+- _symbolic _____ 13TeaFoundation27BackgroundFetchJournalEntryC
+- _symbolic _____ 13TeaFoundation27BridgedCallbackRegistrationC
+- _symbolic _____ 13TeaFoundation27EmptyBackgroundFetchJournalC
+- _symbolic _____ 13TeaFoundation27UniqueParentChildCollectionV
+- _symbolic _____ 13TeaFoundation28ApplicationStateManagerMacOSC
+- _symbolic _____ 13TeaFoundation28BridgedRegistrationContainerC
+- _symbolic _____ 13TeaFoundation28DiagnosticAttachmentResolverC
+- _symbolic _____ 13TeaFoundation28DiagnosticAttachmentResolverC6ErrorsO
+- _symbolic _____ 13TeaFoundation28JSONUnkeyedDecodingContainer33_505E059B11A426DB0017A05E34BF5D68LLV
+- _symbolic _____ 13TeaFoundation28ParentNetworkActivitySessionC
+- _symbolic _____ 13TeaFoundation28ParentNetworkActivitySessionC5ErrorO
+- _symbolic _____ 13TeaFoundation29AsyncBlockCancellingOperationC
+- _symbolic _____ 13TeaFoundation29NetworkOperationInternalErrorO
+- _symbolic _____ 13TeaFoundation29NetworkResponseOperationErrorO
+- _symbolic _____ 13TeaFoundation29ObservablePropertyUntilResultO
+- _symbolic _____ 13TeaFoundation29RemoteNotificationFetchResultO
+- _symbolic _____ 13TeaFoundation29SafeishKeyedDecodingContainerV
+- _symbolic _____ 13TeaFoundation31ApplicationStateLaunchOptionKeyO
+- _symbolic _____ 13TeaFoundation31BlockBasedBackgroundFetchWorker33_89C94C1602C77B8CEBFBCE49D1F80167LLC
+- _symbolic _____ 13TeaFoundation31SafeishUnkeyedDecodingContainerV
+- _symbolic _____ 13TeaFoundation31SafeishUnkeyedDecodingContainerV8Anything33_B86B0422DF5D0620022DD0061994BE95LLV
+- _symbolic _____ 13TeaFoundation31SafeishUnkeyedDecodingContainerV8Anything33_B86B0422DF5D0620022DD0061994BE95LLV10CodingKeysO
+- _symbolic _____ 13TeaFoundation32JSONSingleValueDecodingContainer33_505E059B11A426DB0017A05E34BF5D68LLV
+- _symbolic _____ 13TeaFoundation33CopyOnWriteStoragePropertyKeywordO
+- _symbolic _____ 13TeaFoundation34InterprocessDiagnosticDumpNotifierC
+- _symbolic _____ 13TeaFoundation34InterprocessDiagnosticFileReceiverC
+- _symbolic _____ 13TeaFoundation34NetworkOperationURLSessionDelegateC
+- _symbolic _____ 13TeaFoundation35DiagnosticFileCollectionCoordinatorC
+- _symbolic _____ 13TeaFoundation35SafeishSingleValueDecodingContainerV
+- _symbolic _____ 13TeaFoundation3KeyV
+- _symbolic _____ 13TeaFoundation4GateC
+- _symbolic _____ 13TeaFoundation4JSONO
+- _symbolic _____ 13TeaFoundation4LazyC
+- _symbolic _____ 13TeaFoundation4NodeC
+- _symbolic _____ 13TeaFoundation4PoolC
+- _symbolic _____ 13TeaFoundation4SafeV
+- _symbolic _____ 13TeaFoundation4SealC
+- _symbolic _____ 13TeaFoundation4SealC10Resolution33_84A54347ED4FE131DA84D0B9CB8DFBEFLLO
+- _symbolic _____ 13TeaFoundation4SealC5State33_84A54347ED4FE131DA84D0B9CB8DFBEFLLO
+- _symbolic _____ 13TeaFoundation4SealC7Handler33_84A54347ED4FE131DA84D0B9CB8DFBEFLLC
+- _symbolic _____ 13TeaFoundation4WeakC
+- _symbolic _____ 13TeaFoundation5CacheC
+- _symbolic _____ 13TeaFoundation5RouteV
+- _symbolic _____ 13TeaFoundation5ScopeO
+- _symbolic _____ 13TeaFoundation5StackV
+- _symbolic _____ 13TeaFoundation6AtomicC
+- _symbolic _____ 13TeaFoundation6BidictV
+- _symbolic _____ 13TeaFoundation6DigestC
+- _symbolic _____ 13TeaFoundation6RandomV
+- _symbolic _____ 13TeaFoundation6ResultO
+- _symbolic _____ 13TeaFoundation6ResultO6ErrorsO
+- _symbolic _____ 13TeaFoundation6SemVerO
+- _symbolic _____ 13TeaFoundation7ContextC
+- _symbolic _____ 13TeaFoundation7ManagerC
+- _symbolic _____ 13TeaFoundation7MergingV
+- _symbolic _____ 13TeaFoundation7PromiseC
+- _symbolic _____ 13TeaFoundation7TernaryO
+- _symbolic _____ 13TeaFoundation7VersionV
+- _symbolic _____ 13TeaFoundation7_COWBoxV
+- _symbolic _____ 13TeaFoundation8AccessorC
+- _symbolic _____ 13TeaFoundation8JSONTypeO
+- _symbolic _____ 13TeaFoundation8LRUCacheC
+- _symbolic _____ 13TeaFoundation8NonEmptyV
+- _symbolic _____ 13TeaFoundation8Observer023_17DAD0BE71214AECEE82E0G8C4B87224LLC
+- _symbolic _____ 13TeaFoundation8Observer33_A5B82E417DCB09390E58CAAAA132B0E4LLC
+- _symbolic _____ 13TeaFoundation8QuantityV
+- _symbolic _____ 13TeaFoundation8RouteKeyV
+- _symbolic _____ 13TeaFoundation8SignpostV
+- _symbolic _____ 13TeaFoundation8ThrottleC
+- _symbolic _____ 13TeaFoundation8TrieNodeO
+- _symbolic _____ 13TeaFoundation8TrieNodeO5ErrorO
+- _symbolic _____ 13TeaFoundation8XPCBlockV
+- _symbolic _____ 13TeaFoundation8XPCClassV
+- _symbolic _____ 13TeaFoundation8_JSONKey33_505E059B11A426DB0017A05E34BF5D68LLV
+- _symbolic _____ 13TeaFoundation9AuthTokenV
+- _symbolic _____ 13TeaFoundation9AuthTokenV10CodingKeys33_E5AD3646CEC6F8EBB202B09C38B42A6CLLO
+- _symbolic _____ 13TeaFoundation9ContainerC
+- _symbolic _____ 13TeaFoundation9ContainerC11EnvironmentO
+- _symbolic _____ 13TeaFoundation9ContainerC16LazyRegistration33_B510C01AB6050910DE6F815A556E939ALLV
+- _symbolic _____ 13TeaFoundation9ContainerC9TestSuiteO
+- _symbolic _____ 13TeaFoundation9Localized33_3E775B95AA8F4C6167C1B13E33C411A6LLC
+- _symbolic _____ 13TeaFoundation9MutexLockC
+- _symbolic _____ 13TeaFoundation9QueryItemV
+- _symbolic _____ 13TeaFoundation9ReferenceV
+- _symbolic _____ 13TeaFoundation9SyncValueC
+- _symbolic _____ 13TeaFoundation9WeakProxyC
+- _symbolic _____ 13TeaFoundation9WhenErrorO
+- _symbolic _____ 2os6LoggerV
+- _symbolic _____ 7Combine25ObservableObjectPublisherC
+- _symbolic _____ 7Network10NWActivityC
+- _symbolic _____ 7Network12NWConnectionC
+- _symbolic _____ 7Network13NWPathMonitorC
+- _symbolic _____ SS13TeaFoundationE14FormatArgumentO
+- _symbolic _____ SS13TeaFoundationE14FormatArgumentO10CodingKeys33_BCA90573DF7BBB5A0E5A2174645B769CLLO
+- _symbolic _____ SS13TeaFoundationE14FormatArgumentO15Int32CodingKeys33_BCA90573DF7BBB5A0E5A2174645B769CLLO
+- _symbolic _____ SS13TeaFoundationE14FormatArgumentO16StringCodingKeys33_BCA90573DF7BBB5A0E5A2174645B769CLLO
+- _symbolic _____ SS13TeaFoundationE14FormatArgumentO16Uint32CodingKeys33_BCA90573DF7BBB5A0E5A2174645B769CLLO
+- _symbolic _____ SS13TeaFoundationE21FormatValidationErrorO
+- _symbolic _____ So15NSMatchingFlagsV
+- _symbolic _____ So16NSURLResourceKeya
+- _symbolic _____ So16os_unfair_lock_sV
+- _symbolic _____ So17TFDefinitionScopeV
+- _symbolic _____ So21NSSearchPathDirectoryV
+- _symbolic _____ So22objc_AssociationPolicyV
+- _symbolic _____ So23_opaque_pthread_mutex_tV
+- _symbolic _____ So24os_unfair_lock_options_ta
+- _symbolic _____ So35NSDateComponentsFormatterUnitsStyleV
+- _symbolic _____ s12StaticStringV
+- _symbolic _____ s5Int32V
+- _symbolic _____ s6UInt32V
+- _symbolic _____ s6UInt64V
+- _symbolic _____ s8DurationV
+- _symbolic _____13referenceType_ShySSG11identifierst 13TeaFoundation13ReferenceTypeV
+- _symbolic _____13referenceType_t 13TeaFoundation13ReferenceTypeV
+- _symbolic _____4item______8locationSi5indext 13TeaFoundation4JSONO AA11JSONPointerV
+- _symbolic _____4type_SS10identifiert 13TeaFoundation13ReferenceTypeV
+- _symbolic _____4type_SaySSG11identifierst 13TeaFoundation13ReferenceTypeV
+- _symbolic _____5param_SaySSG6valuest 13TeaFoundation17URLHandlerPatternV5ParamO
+- _symbolic _____5suite_t 13TeaFoundation9ContainerC9TestSuiteO
+- _symbolic _____5value______8locationSS3keyt 13TeaFoundation4JSONO AA11JSONPointerV
+- _symbolic _____8location______ACt 13TeaFoundation11JSONPointerV AA4JSONO
+- _symbolic _____9condition_SS8expectedSS6actualt 13TeaFoundation17URLHandlerPatternV9ConditionO
+- _symbolic _____Iegg_ 10Foundation4DataV
+- _symbolic _____Iegg_ 13TeaFoundation18StartupTaskManagerC
+- _symbolic _____Iegg_ 13TeaFoundation21RegistrationContainerC
+- _symbolic _____Iegn_ 10Foundation10URLRequestV
+- _symbolic _____Iegn_ 10Foundation3URLV
+- _symbolic _____Iegn_ 10Foundation4DataV
+- _symbolic _____Iegn_ 12CoreLocation9CLMonitorC
+- _symbolic _____Iegn_ 13TeaFoundation17AuthTokenResponseV
+- _symbolic _____Iegn_ 13TeaFoundation21BackgroundFetchResultO
+- _symbolic _____Iegn_ 13TeaFoundation21NetworkOperationEventO
+- _symbolic _____Iegn_ 13TeaFoundation29RemoteNotificationFetchResultO
+- _symbolic _____Iegn_ 13TeaFoundation9AuthTokenV
+- _symbolic _____Iegr_ 10Foundation3URLV
+- _symbolic _____Iegr_ 10Foundation4DataV
+- _symbolic _____Iegr_ 10Foundation4DateV
+- _symbolic _____Ign_ 10Foundation3URLV
+- _symbolic _____SDyS2SGSaySS_SStG_____Iegnggr_ 13TeaFoundation11HttpRequestV AA0C8ResponseO
+- _symbolic _____SDyS2SG_____Iegngr_ 13TeaFoundation11HttpRequestV AA0C8ResponseO
+- _symbolic _____SDy__________G______pIegnrzo_ 13TeaFoundation17AuthTokenResponseV 0B03URLV AA0cD0V s5ErrorP
+- _symbolic _____SbIegnd_ 13TeaFoundation9AuthTokenV
+- _symbolic _____Sg 10Foundation10URLRequestV
+- _symbolic _____Sg 10Foundation13URLComponentsV
+- _symbolic _____Sg 10Foundation3URLV
+- _symbolic _____Sg 10Foundation4DataV
+- _symbolic _____Sg 13TeaFoundation12XPCInterfaceV
+- _symbolic _____Sg 13TeaFoundation13VersionNumberV
+- _symbolic _____Sg 13TeaFoundation14ContainerStoreC
+- _symbolic _____Sg 13TeaFoundation16VersionQualifierV
+- _symbolic _____Sg 13TeaFoundation22NetworkActivitySessionC
+- _symbolic _____Sg 13TeaFoundation7ContextC
+- _symbolic _____Sg 13TeaFoundation8XPCBlockV
+- _symbolic _____Sg 13TeaFoundation9ContainerC
+- _symbolic _____Sg 7Network10NWListenerC
+- _symbolic _____Sg 7Network7NWErrorO
+- _symbolic _____Sg 8Dispatch0A8WorkItemC
+- _symbolic _____Sg So21NSSearchPathDirectoryV
+- _symbolic _____Sg s8DurationV
+- _symbolic _____SgSg 10Foundation3URLV
+- _symbolic _____SgSo13NSURLResponseCSgSo23NSURLSessionTaskMetricsCSg______pSgIeggggg_ 10Foundation4DataV s5ErrorP
+- _symbolic _____SgXw 13TeaFoundation14ContainerStoreC
+- _symbolic _____SgXw 13TeaFoundation16AuthTokenServiceC
+- _symbolic _____SgXw 13TeaFoundation16SocketConnectionC
+- _symbolic _____SgXw 13TeaFoundation18DeviceLockObserverC
+- _symbolic _____SgXw 13TeaFoundation18StartupTaskManagerC
+- _symbolic _____SgXw 13TeaFoundation19NetworkReachabilityC
+- _symbolic _____SgXw 13TeaFoundation20DeviceStorageManagerC
+- _symbolic _____SgXw 13TeaFoundation21HttpConnectionHandlerC
+- _symbolic _____SgXw 13TeaFoundation22BackgroundFetchManagerC
+- _symbolic _____SgXw 13TeaFoundation28DiagnosticAttachmentResolverC
+- _symbolic _____SgXw 13TeaFoundation4PoolC
+- _symbolic _____SgXw 13TeaFoundation9ContainerC
+- _symbolic _____SgXwz_Xx 13TeaFoundation16AuthTokenServiceC
+- _symbolic _____SgXwz_Xx 13TeaFoundation16SocketConnectionC
+- _symbolic _____SgXwz_Xx 13TeaFoundation21HttpConnectionHandlerC
+- _symbolic _____SgXwz_Xx 13TeaFoundation22BackgroundFetchManagerC
+- _symbolic _____SgXwz_Xx 13TeaFoundation28DiagnosticAttachmentResolverC
+- _symbolic ______A55At s4Int8V
+- _symbolic ______SS11contentTypet 10Foundation4DataV
+- _symbolic ______SS4nameSS9extensiont 10Foundation4DataV
+- _symbolic ______SS4namet 13TeaFoundation14DiagnosticTextV
+- _symbolic ___________SDyS2SGSay_____Gtc 13TeaFoundation12HttpResponseO AA0C7RequestV AA9QueryItemV
+- _symbolic ___________pIeghHrzo_ 12CoreLocation9CLMonitorC s5ErrorP
+- _symbolic ___________pKc 10Foundation4DateV s7DecoderP
+- _symbolic __________y_____G______pIegnozo_ 10Foundation10URLRequestV 03TeaA07PromiseC AD17AuthTokenResponseV s5ErrorP
+- _symbolic ______p 13TeaFoundation12ResolverTypeP
+- _symbolic ______p 13TeaFoundation13DateProvidingP
+- _symbolic ______p 13TeaFoundation14RequestSigningP
+- _symbolic ______p 13TeaFoundation14URLSessionTypeP
+- _symbolic ______p 13TeaFoundation20AuthTokenServiceTypeP
+- _symbolic ______p 13TeaFoundation22DiagnosticFileProviderP
+- _symbolic ______p 13TeaFoundation27DefinitionConfigurationTypeP
+- _symbolic ______p 13TeaFoundation32DiagnosticAttachmentResolverTypeP
+- _symbolic ______p 13TeaFoundation4LockP
+- _symbolic ______p So10TFAssemblyP
+- _symbolic ______p So10TFResolverP
+- _symbolic ______p So16TFBundleAssemblyP
+- _symbolic ______p So22TFCallbackRegistrationP
+- _symbolic ______p So23TFRegistrationContainerP
+- _symbolic ______p s24UnkeyedDecodingContainerP
+- _symbolic ______p s28SingleValueDecodingContainerP
+- _symbolic ______p s5ErrorP
+- _symbolic ______p3key_SayAA_pG10codingPatht s9CodingKeyP
+- _symbolic ______p5error_t s5ErrorP
+- _symbolic ______pIegg_ So9TFContextP
+- _symbolic ______pIegg_ s5ErrorP
+- _symbolic ______pIego_ s5ErrorP
+- _symbolic ______pIeyBy_ So9TFContextP
+- _symbolic ______pSDy__________GAA_pIeggrzo_ s5ErrorP 10Foundation3URLV 03TeaB09AuthTokenV
+- _symbolic ______pSg 13TeaFoundation10DisposableP
+- _symbolic ______pSg 13TeaFoundation14RequestSigningP
+- _symbolic ______pSg 13TeaFoundation23NetworkEventHandlerTypeP
+- _symbolic ______pSg 13TeaFoundation26BackgroundFetchJournalTypeP
+- _symbolic ______pSg 13TeaFoundation27DefinitionConfigurationTypeP
+- _symbolic ______pSg So8NSObjectP
+- _symbolic ______pSg s5ErrorP
+- _symbolic ______pSgXw 13TeaFoundation17SceneStateMonitorP
+- _symbolic ______pSgXw 13TeaFoundation18ScenePhaseObserverP
+- _symbolic ______pSgXw 13TeaFoundation21BackgroundFetchWorkerP
+- _symbolic ______pSgXw 13TeaFoundation22DeviceStoragePurgeableP
+- _symbolic ______pSgXw 13TeaFoundation23ApplicationStateMonitorP
+- _symbolic ______pSgXw 13TeaFoundation25RemoteNotificationHandlerP
+- _symbolic ______pSgXw 13TeaFoundation30NetworkActivitySessionDelegateP
+- _symbolic ______pSgz_Xx 13TeaFoundation10DisposableP
+- _symbolic ______pXp So14NSSecureCodingP
+- _symbolic ______p_____Iegno_ 13TeaFoundation12ResolverTypeP AA16ReferenceServiceC
+- _symbolic ______p_____yxGAA_pIeggozo_ s5ErrorP 13TeaFoundation7PromiseC
+- _symbolic ______pqd__Ieggg_ s5ErrorP
+- _symbolic ______pqd_______yxGAA_pIegggozo_ s5ErrorP 13TeaFoundation7PromiseC
+- _symbolic ______pqd__xAA_pIegggrzo_ s5ErrorP
+- _symbolic ______pxAA_pIeggrzo_ s5ErrorP
+- _symbolic ______pxIegno_ 13TeaFoundation12ResolverTypeP
+- _symbolic ______pxIegnr_ 13TeaFoundation12ResolverTypeP
+- _symbolic ______pxSgIegnr_ 13TeaFoundation12ResolverTypeP
+- _symbolic ______pyXlIegno_ 13TeaFoundation12ResolverTypeP
+- _symbolic ______pyXlIeyByy_ So10TFResolverP
+- _symbolic ______pyXlSgIegnr_ 13TeaFoundation12ResolverTypeP
+- _symbolic ______pyXlSgIeyBya_ So10TFResolverP
+- _symbolic ______pypIeggn_ So10TFResolverP
+- _symbolic ______pypSgIeggr_ So10TFResolverP
+- _symbolic _____y8Response_____QzG 13TeaFoundation14AsyncOperationC AA16DeserializerTypeP
+- _symbolic _____y8Response_____QzGIegn_ 13TeaFoundation6ResultO AA16DeserializerTypeP
+- _symbolic _____ySDySS_____GG 13TeaFoundation15DeferredPromiseC AA9AuthTokenV
+- _symbolic _____ySDySS_____GG______pIegozo_ 13TeaFoundation7PromiseC AA9AuthTokenV s5ErrorP
+- _symbolic _____ySDySS_____G_ACG 13TeaFoundation4SealC10Resolution33_84A54347ED4FE131DA84D0B9CB8DFBEFLLO AA9AuthTokenV
+- _symbolic _____ySDy__________GG 13TeaFoundation15DeferredPromiseC 0B03URLV AA9AuthTokenV
+- _symbolic _____ySDy__________G_ADG 13TeaFoundation4SealC10Resolution33_84A54347ED4FE131DA84D0B9CB8DFBEFLLO 0B03URLV AA9AuthTokenV
+- _symbolic _____ySDy__________G_ADtG 13TeaFoundation15DeferredPromiseC 0B03URLV AA9AuthTokenV
+- _symbolic _____ySDy__________G_ADt_AD_ADtG 13TeaFoundation4SealC10Resolution33_84A54347ED4FE131DA84D0B9CB8DFBEFLLO 0B03URLV AA9AuthTokenV
+- _symbolic _____ySDyqd__xGG 13TeaFoundation15DeferredPromiseC
+- _symbolic _____ySSSg_ABG 13TeaFoundation4SealC10Resolution33_84A54347ED4FE131DA84D0B9CB8DFBEFLLO
+- _symbolic _____ySS______GIegr_ SD4KeysV 13TeaFoundation20NetworkOperationTask33_742A028E0C7008CF4F38C8ACD75723DCLLV
+- _symbolic _____ySay7ElementSTQyd__GG 13TeaFoundation15DeferredPromiseC
+- _symbolic _____ySay7ElementSTQzGG 13TeaFoundation15DeferredPromiseC
+- _symbolic _____ySaySay_____GGG 13TeaFoundation15DeferredPromiseC AA12AnyReferenceV
+- _symbolic _____ySaySay_____GG_ADG 13TeaFoundation4SealC10Resolution33_84A54347ED4FE131DA84D0B9CB8DFBEFLLO AA12AnyReferenceV
+- _symbolic _____ySay_____GG 13TeaFoundation15DeferredPromiseC 0B03URLV
+- _symbolic _____ySay_____GG 13TeaFoundation15DeferredPromiseC AA21BackgroundFetchResultO
+- _symbolic _____ySay_____GG 13TeaFoundation15DeferredPromiseC AA29RemoteNotificationFetchResultO
+- _symbolic _____ySay_____GG 2os21OSAllocatedUnfairLockV 13TeaFoundation16DisposableWorker33_89C94C1602C77B8CEBFBCE49D1F80167LLC
+- _symbolic _____ySay_____G_ACG 13TeaFoundation4SealC10Resolution33_84A54347ED4FE131DA84D0B9CB8DFBEFLLO 0B03URLV
+- _symbolic _____ySay_____G_ACG 13TeaFoundation4SealC10Resolution33_84A54347ED4FE131DA84D0B9CB8DFBEFLLO AA21BackgroundFetchResultO
+- _symbolic _____ySay_____G_ACG 13TeaFoundation4SealC10Resolution33_84A54347ED4FE131DA84D0B9CB8DFBEFLLO AA29RemoteNotificationFetchResultO
+- _symbolic _____ySayqd__GG 13TeaFoundation15DeferredPromiseC
+- _symbolic _____ySayxGG 13TeaFoundation15DeferredPromiseC
+- _symbolic _____ySayytGG 13TeaFoundation15DeferredPromiseC
+- _symbolic _____ySayytG_ABG 13TeaFoundation4SealC10Resolution33_84A54347ED4FE131DA84D0B9CB8DFBEFLLO
+- _symbolic _____ySbG 13TeaFoundation18ObservablePropertyC
+- _symbolic _____ySbGSgXw 13TeaFoundation18ObservablePropertyC
+- _symbolic _____ySbG_____yxGc 13TeaFoundation7PromiseC AA17URLHandlerContextV
+- _symbolic _____ySb_SbG 13TeaFoundation4SealC10Resolution33_84A54347ED4FE131DA84D0B9CB8DFBEFLLO
+- _symbolic _____yScTyx______pGG 13TeaFoundation4LazyC s5ErrorP
+- _symbolic _____yScTyxq_GSgG 15Synchronization5MutexVAARi_zrlE
+- _symbolic _____yShy_____GSDyAB_____GG 13TeaFoundation14PromiseDeduperC 0B03URLV AA9AuthTokenV
+- _symbolic _____yShyxGSDyxq_GG 13TeaFoundation14PromiseDeduperC
+- _symbolic _____yYaKc8exporter_t 10Foundation3URLV
+- _symbolic _____y_____G 13TeaFoundation10AnyInstantV s8DurationV
+- _symbolic _____y_____G 13TeaFoundation15AsyncObservableC AA25DeviceStoragePurgeUrgencyO
+- _symbolic _____y_____G 13TeaFoundation15DeferredPromiseC 0B010URLRequestV
+- _symbolic _____y_____G 13TeaFoundation15DeferredPromiseC 0B03URLV
+- _symbolic _____y_____G 13TeaFoundation15DeferredPromiseC AA17AuthTokenResponseV
+- _symbolic _____y_____G 13TeaFoundation15DeferredPromiseC AA21BackgroundFetchResultO
+- _symbolic _____y_____G 13TeaFoundation15DeferredPromiseC AA21ReferenceDecodingPoolC
+- _symbolic _____y_____G 13TeaFoundation15DeferredPromiseC AA29RemoteNotificationFetchResultO
+- _symbolic _____y_____G 13TeaFoundation15DeferredPromiseC AA9AuthTokenV
+- _symbolic _____y_____G 13TeaFoundation7PromiseC 12CoreLocation9CLMonitorC
+- _symbolic _____y_____G 13TeaFoundation8AccessorC 0B010URLRequestV
+- _symbolic _____y_____G 13TeaFoundation8AccessorC 0B03URLV
+- _symbolic _____y_____G 13TeaFoundation8Observer33_A5B82E417DCB09390E58CAAAA132B0E4LLC AA13NetworkStatusV
+- _symbolic _____y_____G 13TeaFoundation8Observer33_A5B82E417DCB09390E58CAAAA132B0E4LLC AA25DeviceStoragePurgeUrgencyO
+- _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 13TeaFoundation11ManualClockV5State33_41978A03A88C3C8A8E896467A23FBF9ALLV
+- _symbolic _____y_____G s16IndexingIteratorV 13TeaFoundation14JSONDifferenceV
+- _symbolic _____y_____G s22KeyedDecodingContainerV 13TeaFoundation19ReferenceCodingKeysO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 13TeaFoundation19ReferenceCodingKeysO
+- _symbolic _____y_____G s5SliceV 13TeaFoundation14JSONDifferenceV
+- _symbolic _____y_____GIegn_ 13TeaFoundation6ResultO AA17AuthTokenResponseV
+- _symbolic _____y_____GSg 13TeaFoundation7PromiseC 12CoreLocation9CLMonitorC
+- _symbolic _____y_____G_____c 13TeaFoundation7PromiseC AA21BackgroundFetchResultO AA0dE7TriggerO
+- _symbolic _____y_____SgG 13TeaFoundation8AccessorC 0B03URLV
+- _symbolic _____y______ABG 13TeaFoundation4SealC10Resolution33_84A54347ED4FE131DA84D0B9CB8DFBEFLLO 0B010URLRequestV
+- _symbolic _____y______ABG 13TeaFoundation4SealC10Resolution33_84A54347ED4FE131DA84D0B9CB8DFBEFLLO 0B03URLV
+- _symbolic _____y______ABG 13TeaFoundation4SealC10Resolution33_84A54347ED4FE131DA84D0B9CB8DFBEFLLO 0B04DataV
+- _symbolic _____y______ABG 13TeaFoundation4SealC10Resolution33_84A54347ED4FE131DA84D0B9CB8DFBEFLLO 12CoreLocation9CLMonitorC
+- _symbolic _____y______ABG 13TeaFoundation4SealC10Resolution33_84A54347ED4FE131DA84D0B9CB8DFBEFLLO AA17AuthTokenResponseV
+- _symbolic _____y______ABG 13TeaFoundation4SealC10Resolution33_84A54347ED4FE131DA84D0B9CB8DFBEFLLO AA21BackgroundFetchResultO
+- _symbolic _____y______ABG 13TeaFoundation4SealC10Resolution33_84A54347ED4FE131DA84D0B9CB8DFBEFLLO AA21ReferenceDecodingPoolC
+- _symbolic _____y______ABG 13TeaFoundation4SealC10Resolution33_84A54347ED4FE131DA84D0B9CB8DFBEFLLO AA29RemoteNotificationFetchResultO
+- _symbolic _____y______ABG 13TeaFoundation4SealC10Resolution33_84A54347ED4FE131DA84D0B9CB8DFBEFLLO AA9AuthTokenV
+- _symbolic _____y__________GXMT 13TeaFoundation7ManagerC 0B03URLV AA9AuthTokenV
+- _symbolic _____y______pG 13TeaFoundation4LazyC AA15StartupTaskTypeP
+- _symbolic _____y_____y8Response_____QzGG 13TeaFoundation14AsyncOperationC AA07NetworkD6ResultV AA16DeserializerTypeP
+- _symbolic _____y_____y8Response_____QzGGIegn_ 13TeaFoundation6ResultO AA016NetworkOperationC0V AA16DeserializerTypeP
+- _symbolic _____y_____y_____GGSg 13TeaFoundation4LazyC AA15AsyncObservableC AA13NetworkStatusV
+- _symbolic _____y_____yq_GG 13TeaFoundation15AsyncObservableC AA10StoreStateO
+- _symbolic _____y_____yxGG 2os21OSAllocatedUnfairLockV 13TeaFoundation22EagerCancellationState33_27707480826DA2D1169E89DAF1F77B07LLV
+- _symbolic _____y_____yxGG s16IndexingIteratorV 13TeaFoundation16UniqueCollectionV
+- _symbolic _____y_____yxGG s16IndexingIteratorV 13TeaFoundation5StackV
+- _symbolic _____y_____yxGG s5SliceV 13TeaFoundation16UniqueCollectionV
+- _symbolic _____y_____yxGG s5SliceV 13TeaFoundation5StackV
+- _symbolic _____y_____yxGSgG 15Synchronization5MutexVAARi_zrlE 13TeaFoundation6ResultO
+- _symbolic _____y_____yx_GG 13TeaFoundation6AtomicC AA14AsyncOperationC5State33_35DC0BF999132CFE935148116D7163B3LLO
+- _symbolic _____y_____yxq_GG 13TeaFoundation16DoublyLinkedListC AA12LRUCacheNode33_38CEB3748B83B5BA2380EABECE327C2FLLC
+- _symbolic _____y_____yxq_GG s16IndexingIteratorV 13TeaFoundation6BidictV
+- _symbolic _____y_____yxq_GG s5SliceV 13TeaFoundation6BidictV
+- _symbolic _____yq0_G 13TeaFoundation7PromiseC
+- _symbolic _____yq1_G 13TeaFoundation7PromiseC
+- _symbolic _____yq2_G 13TeaFoundation7PromiseC
+- _symbolic _____yq3_G 13TeaFoundation7PromiseC
+- _symbolic _____yq4_G 13TeaFoundation7PromiseC
+- _symbolic _____yq5_G 13TeaFoundation7PromiseC
+- _symbolic _____yq6_G 13TeaFoundation7PromiseC
+- _symbolic _____yq7_G 13TeaFoundation7PromiseC
+- _symbolic _____yq8_G 13TeaFoundation7PromiseC
+- _symbolic _____yq9_G 13TeaFoundation7PromiseC
+- _symbolic _____yq_G 13TeaFoundation7PromiseC
+- _symbolic _____yq_Gxc 13TeaFoundation7PromiseC
+- _symbolic _____yqd__G 13TeaFoundation15DeferredPromiseC
+- _symbolic _____yqd__G 13TeaFoundation18ObservablePropertyC
+- _symbolic _____yqd__GSgXw 13TeaFoundation14SyncObservableC
+- _symbolic _____yqd__GSgXwz_x_qd__r__lXX 13TeaFoundation14SyncObservableC
+- _symbolic _____ytIegnr_ 13TeaFoundation21NetworkOperationEventO
+- _symbolic _____yt______pIegnrzo_ 10Foundation4DataV s5ErrorP
+- _symbolic _____yt______pIegnrzo_ 12CoreLocation9CLMonitorC s5ErrorP
+- _symbolic _____yt______pIegnrzo_ 13TeaFoundation21BackgroundFetchResultO s5ErrorP
+- _symbolic _____yt______pIegnrzo_ 13TeaFoundation29RemoteNotificationFetchResultO s5ErrorP
+- _symbolic _____yxG 13TeaFoundation10DefinitionC
+- _symbolic _____yxG 13TeaFoundation10StoreStateO
+- _symbolic _____yxG 13TeaFoundation14AsyncOperationC
+- _symbolic _____yxG 13TeaFoundation14TestDataLoaderC
+- _symbolic _____yxG 13TeaFoundation15DeferredPromiseC
+- _symbolic _____yxG 13TeaFoundation16AuthTokenManagerC
+- _symbolic _____yxG 13TeaFoundation16NetworkOperationC
+- _symbolic _____yxG 13TeaFoundation16SingleValueStoreC
+- _symbolic _____yxG 13TeaFoundation18AsyncTaskOperationC
+- _symbolic _____yxG 13TeaFoundation18CallbackDefinitionC
+- _symbolic _____yxG 13TeaFoundation18ObservablePropertyC
+- _symbolic _____yxG 13TeaFoundation28ParentNetworkActivitySessionC
+- _symbolic _____yxG 13TeaFoundation4LazyC
+- _symbolic _____yxG 13TeaFoundation4SealC
+- _symbolic _____yxG 13TeaFoundation7PromiseC
+- _symbolic _____yxG 13TeaFoundation8AccessorC
+- _symbolic _____yxG 13TeaFoundation8Observer33_A5B82E417DCB09390E58CAAAA132B0E4LLC
+- _symbolic _____yxG 2os21OSAllocatedUnfairLockV
+- _symbolic _____yxG s22KeyedDecodingContainerV
+- _symbolic _____yxGIegn_ 13TeaFoundation6ResultO
+- _symbolic _____yxGIegn_Sg 13TeaFoundation6ResultO
+- _symbolic _____yxGIego_ 13TeaFoundation7PromiseC
+- _symbolic _____yxGSg 13TeaFoundation19PromiseWeakResolverC
+- _symbolic _____yxGSg 13TeaFoundation23OnlyOnceDeferredPromiseC
+- _symbolic _____yxGSg 13TeaFoundation4NodeC
+- _symbolic _____yxGSg 13TeaFoundation7PromiseC
+- _symbolic _____yxGSgXw 13TeaFoundation16NetworkOperationC
+- _symbolic _____yxGSgXw 13TeaFoundation16PromiseDebouncerC
+- _symbolic _____yxGSgXw 13TeaFoundation18ObservablePropertyC
+- _symbolic _____yxGSgXw 13TeaFoundation4NodeC
+- _symbolic _____yxGSgXw 13TeaFoundation7PromiseC
+- _symbolic _____yxGSgXw 13TeaFoundation8ThrottleC
+- _symbolic _____yxGSgXwz_Sb_lXX 13TeaFoundation18ObservablePropertyC
+- _symbolic _____yxGSgXwz_x______RzlXX 13TeaFoundation16NetworkOperationC AA16DeserializerTypeP
+- _symbolic _____yxGSgXwz_x______RzlXX 13TeaFoundation8ThrottleC AA0C10SchedulingP
+- _symbolic _____yxGSgXwz_x_lXX 13TeaFoundation16PromiseDebouncerC
+- _symbolic _____yxGSgXwz_x_lXX 13TeaFoundation18ObservablePropertyC
+- _symbolic _____yxG______pIegozo_ 13TeaFoundation7PromiseC s5ErrorP
+- _symbolic _____yxG______pc 13TeaFoundation7PromiseC AA18CancelledReportingP
+- _symbolic _____yxGxYbc 13TeaFoundation10AnyInstantV
+- _symbolic _____yxGyc 13TeaFoundation7PromiseC
+- _symbolic _____yxGytIegnr_ 13TeaFoundation6ResultO
+- _symbolic _____yx_G 13TeaFoundation10UnsafeLazyC6Loader33_92D6C5DFBD81921D75E42D64C520C4AALLO
+- _symbolic _____yx_G 13TeaFoundation23FloatingPointTranslatorC11Translation33_164B71A070A08BBCBC695AA31AC98586LLO
+- _symbolic _____yx_G 13TeaFoundation4SealC5State33_84A54347ED4FE131DA84D0B9CB8DFBEFLLO
+- _symbolic _____yx_GSg 13TeaFoundation18ObservablePropertyC5Token33_0B99E76DF43061DB25450E2D5CCBCCA0LLC
+- _symbolic _____yx_GSgz_x_lXX 13TeaFoundation18ObservablePropertyC5Token33_0B99E76DF43061DB25450E2D5CCBCCA0LLC
+- _symbolic _____yx_____G 13TeaFoundation12DispatchOnceC s5NeverO
+- _symbolic _____yx______pG 13TeaFoundation12DispatchOnceC s5ErrorP
+- _symbolic _____yx_____yqd__GG s7KeyPathC 13TeaFoundation18ObservablePropertyC
+- _symbolic _____yx_____yqd__SgGG s7KeyPathC 13TeaFoundation18ObservablePropertyC
+- _symbolic _____yx_xG 13TeaFoundation4SealC10Resolution33_84A54347ED4FE131DA84D0B9CB8DFBEFLLO
+- _symbolic _____yx_xGSg 13TeaFoundation4SealC10Resolution33_84A54347ED4FE131DA84D0B9CB8DFBEFLLO
+- _symbolic _____yxq_G 13TeaFoundation14PromiseDeduperC
+- _symbolic _____yxq_GSgXw 13TeaFoundation15EventLoadedLazyC
+- _symbolic _____yxq_GSgXw 13TeaFoundation20ObjectReuseProtectorC
+- _symbolic _____yxq_GSgXwz_x_q_RlzCr0_lXX 13TeaFoundation20ObjectReuseProtectorC
+- _symbolic _____yxq_GSgXwz_x_q_SHR_r0_lXX 13TeaFoundation15EventLoadedLazyC
+- _symbolic _____yxq_GXMT 13TeaFoundation7ManagerC
+- _symbolic _____yxq__G SD5IndexV
+- _symbolic _____yxq__xq_G 13TeaFoundation26CallbackInstanceDefinitionC7Wrapper33_E687A44C08E4676B420C549F48E48055LLC
+- _symbolic _____yxxG 13TeaFoundation18StoreComputedValueC
+- _symbolic _____yxytG s13ManagedBufferCsRi__rlE
+- _symbolic _____yyXlG 13TeaFoundation10DefinitionC
+- _symbolic _____yyXlG 13TeaFoundation18CallbackDefinitionC
+- _symbolic _____yy_____yxGcSgG 13TeaFoundation6AtomicC AA6ResultO
+- _symbolic _____yytG 13TeaFoundation15DeferredPromiseC
+- _symbolic _____yytG 13TeaFoundation6ResultO
+- _symbolic _____yyt_____GIegn_ s6ResultOsRi_zRi0_zrlE 7Network7NWErrorO
+- _symbolic _____yyt_____GIegy_ s6ResultOsRi_zRi0_zrlE 13TeaFoundation12HandlerErrorO
+- _symbolic _____yyt_ytG 13TeaFoundation4SealC10Resolution33_84A54347ED4FE131DA84D0B9CB8DFBEFLLO
+- _symbolic _____yyycSgG 13TeaFoundation6AtomicC
+- _symbolic _____z_Xx 10Foundation10URLRequestV
+- _symbolic q0_
+- _symbolic q0_SbIegnd_
+- _symbolic q1_
+- _symbolic q2_
+- _symbolic q3_
+- _symbolic q4_
+- _symbolic q5_
+- _symbolic q6_
+- _symbolic q7_
+- _symbolic q8_
+- _symbolic q9_
+- _symbolic q_
+- _symbolic q_5event_x5statet
+- _symbolic q_SgXw
+- _symbolic q_SgXwz_x_q_Rl_Cr0_lXX
+- _symbolic q_______pIeghHrzo_ s5ErrorP
+- _symbolic q_______pIghHrzo_ s5ErrorP
+- _symbolic q______yxG______pIeggozo_ 13TeaFoundation7PromiseC s5ErrorP
+- _symbolic qd_0_
+- _symbolic qd_0_SgXw
+- _symbolic qd_0_SgXwz_x_qd__qd_0_Rld_0_Cr_0_lXX
+- _symbolic qd_0_SgXwz_x_qd__qd_0_STRzRld_0_Cr_0_lXX
+- _symbolic qd_0_SgXwz_x_qd__qd_0_STRzSHRd__Rld_0_Cr_0_lXX
+- _symbolic qd_0_SgXwz_x_qd__qd_0_STRzSTRd__Rld_0_Cr_0_lXX
+- _symbolic qd_0_qd________pIegggn_ 13TeaFoundation12ResolverTypeP
+- _symbolic qd_1_
+- _symbolic qd__
+- _symbolic qd__7ElementSTQz______pIeglnzo_ s5ErrorP
+- _symbolic qd__7ElementSTQzqd_0_______pIeglngzo_ s5ErrorP
+- _symbolic qd__7ElementSTQzqd_0_qd________pIegnngrzo_ s5ErrorP
+- _symbolic qd__7ElementSTQzqd________pIegnnrzo_ s5ErrorP
+- _symbolic qd__Iegg_
+- _symbolic qd__Iegn_
+- _symbolic qd__SbIegnd_
+- _symbolic qd__SbIegnd_Sg
+- _symbolic qd__SgIegr_
+- _symbolic qd__SgXw
+- _symbolic qd__SgXwz_Sb_So8NSObjectCRld__Cr__lXX
+- _symbolic qd__SgXwz_x_qd__Rld__Cr__lXX
+- _symbolic qd__SgXwz_x_qd__STRzRld__Cr__lXX
+- _symbolic qd__SgXwz_yt______Rld__Cr__lXX 13TeaFoundation18StartupTaskManagerC
+- _symbolic qd__Sgz_x_qd_______RzSeRd__r__lXX 13TeaFoundation19TestDataLocatorTypeP
+- _symbolic qd__qd__SbIegnnd_Sg
+- _symbolic qd__xIeggn_
+- _symbolic qd__x______pIegHgrzo_ s5ErrorP
+- _symbolic x
+- _symbolic x3key_q_5valuet
+- _symbolic x5value_t
+- _symbolic xIeAgHr_
+- _symbolic xIeghHr_
+- _symbolic xIegn_
+- _symbolic xSbIegnd_
+- _symbolic xSbIegnd_Sg
+- _symbolic xSg
+- _symbolic xSgIegr_
+- _symbolic xSgXw
+- _symbolic xSgXwz_x_q_RlzCr0_lXX
+- _symbolic xSgyc
+- _symbolic xSgz_x_lXX
+- _symbolic x_Si7toIndext
+- _symbolic x_____Iegnr_ 13TeaFoundation29ObservablePropertyUntilResultO
+- _symbolic x______pIegHrzo_ s5ErrorP
+- _symbolic x______pIeggn_ 13TeaFoundation12ResolverTypeP
+- _symbolic x______pIeghHrzo_ s5ErrorP
+- _symbolic x______pIegnn_ 13TeaFoundation12ResolverTypeP
+- _symbolic x______pc 13TeaFoundation12ResolverTypeP
+- _symbolic x_____yq0_GSgIegno_ 13TeaFoundation7PromiseC
+- _symbolic x_____yqd__G______pIegnozo_ 13TeaFoundation7PromiseC s5ErrorP
+- _symbolic x_q_tIegn_
+- _symbolic xm
+- _symbolic xq_Ieggn_
+- _symbolic xq_Iegnr_
+- _symbolic xq_Iegrzr_
+- _symbolic xq_______pIeghHnrzo_ s5ErrorP
+- _symbolic xqd_0______yqd__G______pIegngozo_ 13TeaFoundation7PromiseC s5ErrorP
+- _symbolic xqd_0_qd________pIegngrzo_ s5ErrorP
+- _symbolic xqd__Iegnr_
+- _symbolic xqd________pIegggn_ 13TeaFoundation12ResolverTypeP
+- _symbolic xqd________pIegnrzo_ s5ErrorP
+- _symbolic xxIegnn_
+- _symbolic xxIegnr_
+- _symbolic xyYaYbKc
+- _symbolic xyYbKc
+- _symbolic xyYbc
+- _symbolic xyc
+- _symbolic xyc_xxc6mappert
+- _symbolic ySo13NSURLResponseCSg_So23NSURLSessionTaskMetricsCSg______pSgtcSg s5ErrorP
+- _symbolic yXl
+- _symbolic yXlIegr_
+- _symbolic yXlSg
+- _symbolic yXlSgXw
+- _symbolic yXl______pIeggn_ 13TeaFoundation12ResolverTypeP
+- _symbolic yXl______pIeyByy_ So10TFResolverP
+- _symbolic y_____Sg______SgSb_____Sgy_____yyt_____GctcSg 10Foundation4DataV 7Network12NWConnectionC14ContentContextC AD7NWErrorO s6ResultOsRi_zRi0_zrlE 03TeaA012HandlerErrorO
+- _symbolic y______AAtc 13TeaFoundation9ContainerC
+- _symbolic y_____cSg 13TeaFoundation21NetworkOperationEventO
+- _symbolic y_____y_____GcSg 13TeaFoundation6ResultO 0B04DataV
+- _symbolic y_____yxGc 13TeaFoundation17URLHandlerContextV
+- _symbolic y_____yx_xGc 13TeaFoundation4SealC10Resolution33_84A54347ED4FE131DA84D0B9CB8DFBEFLLO
+- _symbolic yp
+- _symbolic ypSg
+- _symbolic yp______pIegng_ So10TFResolverP
+- _symbolic yq_KcSg
+- _symbolic yq________ptc 13TeaFoundation12ResolverTypeP
+- _symbolic yq________ptcSg s5ErrorP
+- _symbolic yq_cSg
+- _symbolic yqd_0__qd________ptc 13TeaFoundation12ResolverTypeP
+- _symbolic yt
+- _symbolic ytIeAgHr_
+- _symbolic ytIegn_
+- _symbolic ytIegr_
+- _symbolic ytSgIeAgHr_
+- _symbolic ytSgIegr_
+- _symbolic yt______pIgrzo_ s5ErrorP
+- _symbolic ytyt______pIegnrzo_ s5ErrorP
+- _symbolic yxScMYcc
+- _symbolic yx_______ptc 13TeaFoundation12ResolverTypeP
+- _symbolic yxc
+- _symbolic yyc
+- _symbolic yycSg
+- _type_layout_string 13TeaFoundation01_A11JSONDecoderC19KeyDecodingStrategyO
+- _type_layout_string 13TeaFoundation01_A11JSONDecoderC20DateDecodingStrategyO
+- _type_layout_string 13TeaFoundation10HttpParserC0D5ErrorO
+- _type_layout_string 13TeaFoundation10JSONParserC6ErrorsO
+- _type_layout_string 13TeaFoundation10MockServerC0D5ErrorO
+- _type_layout_string 13TeaFoundation10QuantifierO
+- _type_layout_string 13TeaFoundation10UnfairLockC7OptionsV
+- _type_layout_string 13TeaFoundation11HttpRequestV
+- _type_layout_string 13TeaFoundation11JSONPointerV
+- _type_layout_string 13TeaFoundation11JSONPointerV9ComponentV
+- _type_layout_string 13TeaFoundation11LazyOptionsV
+- _type_layout_string 13TeaFoundation11MachServiceV
+- _type_layout_string 13TeaFoundation11ManualClockV
+- _type_layout_string 13TeaFoundation11ManualClockV5State33_41978A03A88C3C8A8E896467A23FBF9ALLV
+- _type_layout_string 13TeaFoundation11ManualClockV7InstantV
+- _type_layout_string 13TeaFoundation11OperationIDV
+- _type_layout_string 13TeaFoundation11XPCArgumentV
+- _type_layout_string 13TeaFoundation11XPCSelectorV
+- _type_layout_string 13TeaFoundation12AnyReferenceV
+- _type_layout_string 13TeaFoundation12CodableErrorV
+- _type_layout_string 13TeaFoundation12HttpResponseO
+- _type_layout_string 13TeaFoundation12HttpResponseO4BodyO
+- _type_layout_string 13TeaFoundation12NetworkProxyO
+- _type_layout_string 13TeaFoundation12PromiseErrorO
+- _type_layout_string 13TeaFoundation12SafeishErrorO
+- _type_layout_string 13TeaFoundation12TaskDeadlineV
+- _type_layout_string 13TeaFoundation12XPCInterfaceV
+- _type_layout_string 13TeaFoundation12_JSONDecoder33_505E059B11A426DB0017A05E34BF5D68LLV
+- _type_layout_string 13TeaFoundation13CallbackScopeO
+- _type_layout_string 13TeaFoundation13CallbackStoreC0C19DefinitionContainerO
+- _type_layout_string 13TeaFoundation13ContainerLockO
+- _type_layout_string 13TeaFoundation13NetworkStatusV
+- _type_layout_string 13TeaFoundation13ReferenceDataV
+- _type_layout_string 13TeaFoundation13ReferenceTypeV
+- _type_layout_string 13TeaFoundation13VersionNumberV
+- _type_layout_string 13TeaFoundation14DiagnosticTextV
+- _type_layout_string 13TeaFoundation14JSONDifferenceV
+- _type_layout_string 13TeaFoundation14JSONDifferenceV6ChangeO
+- _type_layout_string 13TeaFoundation14ManagerOptionsV
+- _type_layout_string 13TeaFoundation15URLHandlerMatchV6ValuesV
+- _type_layout_string 13TeaFoundation16AuthTokenRequestV
+- _type_layout_string 13TeaFoundation16StartupTaskGroupV
+- _type_layout_string 13TeaFoundation16VersionQualifierV
+- _type_layout_string 13TeaFoundation17AuthTokenResponseV
+- _type_layout_string 13TeaFoundation17JSONDecodingErrorO
+- _type_layout_string 13TeaFoundation17PromiseFetchErrorO
+- _type_layout_string 13TeaFoundation17TaskDeadlineErrorV
+- _type_layout_string 13TeaFoundation17URLHandlerMatcherC6ErrorsO
+- _type_layout_string 13TeaFoundation17URLHandlerPatternV
+- _type_layout_string 13TeaFoundation17URLHandlerPatternV5ParamO
+- _type_layout_string 13TeaFoundation17URLHandlerPatternV9ConditionO
+- _type_layout_string 13TeaFoundation18CacheControlHeaderV
+- _type_layout_string 13TeaFoundation18CopyOnWriteStorageRzlAA7_COWBoxVyxG
+- _type_layout_string 13TeaFoundation18DebugCacheRegistryC17UserDefaultsEntry33_C0B77482E7AEE90FCABE8ED5E4B22E8ALLV
+- _type_layout_string 13TeaFoundation18ReferenceContainerO
+- _type_layout_string 13TeaFoundation18StartupTaskManagerC0cD8GroupKey33_DA8F8508DC89BFEAEDF6D12B3608D21BLLV
+- _type_layout_string 13TeaFoundation19DiagnosticTextEntryV
+- _type_layout_string 13TeaFoundation19DiagnosticTextEntryV0E033_5D9EA4C85C2CA14ECFD0BE093A03CEAFLLO
+- _type_layout_string 13TeaFoundation19PromiseDeduperFlagsV
+- _type_layout_string 13TeaFoundation19TestDataLocatorTypeRzlAA0cD6LoaderC0cD5ErrorOyx_G
+- _type_layout_string 13TeaFoundation20DiagnosticAttachmentO
+- _type_layout_string 13TeaFoundation20EventTriggerBehaviorV
+- _type_layout_string 13TeaFoundation20NetworkOperationTask33_742A028E0C7008CF4F38C8ACD75723DCLLV
+- _type_layout_string 13TeaFoundation20ReferenceCodingErrorO
+- _type_layout_string 13TeaFoundation21AuthTokenServiceError33_FBBE5ADC03C4EEA987088D28F183E5D7LLO
+- _type_layout_string 13TeaFoundation21NetworkOperationEventO
+- _type_layout_string 13TeaFoundation21NonCancellingReporterV
+- _type_layout_string 13TeaFoundation21ReferenceServiceErrorO
+- _type_layout_string 13TeaFoundation21URLHandlerOpenOptionsV
+- _type_layout_string 13TeaFoundation22BackgroundFetchTriggerO
+- _type_layout_string 13TeaFoundation22PatienceTimeoutExpiredV
+- _type_layout_string 13TeaFoundation22SceneConnectionOptionsV
+- _type_layout_string 13TeaFoundation23DiagnosticZipAttachmentV
+- _type_layout_string 13TeaFoundation25BackgroundFetchConditionsV
+- _type_layout_string 13TeaFoundation25RemoteNotificationPatternO
+- _type_layout_string 13TeaFoundation28JSONUnkeyedDecodingContainer33_505E059B11A426DB0017A05E34BF5D68LLV
+- _type_layout_string 13TeaFoundation29NetworkOperationInternalErrorO
+- _type_layout_string 13TeaFoundation29NetworkResponseOperationErrorO
+- _type_layout_string 13TeaFoundation31ApplicationStateLaunchOptionKeyO
+- _type_layout_string 13TeaFoundation31SafeishUnkeyedDecodingContainerV
+- _type_layout_string 13TeaFoundation32JSONSingleValueDecodingContainer33_505E059B11A426DB0017A05E34BF5D68LLV
+- _type_layout_string 13TeaFoundation35SafeishSingleValueDecodingContainerV
+- _type_layout_string 13TeaFoundation3KeyV
+- _type_layout_string 13TeaFoundation4JSONO
+- _type_layout_string 13TeaFoundation5RouteV
+- _type_layout_string 13TeaFoundation7VersionV
+- _type_layout_string 13TeaFoundation8RouteKeyV
+- _type_layout_string 13TeaFoundation8XPCBlockV
+- _type_layout_string 13TeaFoundation8XPCClassV
+- _type_layout_string 13TeaFoundation8_JSONKey33_505E059B11A426DB0017A05E34BF5D68LLV
+- _type_layout_string 13TeaFoundation9QueryItemV
+- _type_layout_string 13TeaFoundation9WhenErrorO
+- _type_layout_string SHR_r0_l13TeaFoundation15EventLoadedLazyC0C0Oyxq__G
+- _type_layout_string SHRzSHR_r0_l13TeaFoundation6BidictVyxq_G
+- _type_layout_string SHRzr0_l13TeaFoundation8TrieNodeOyxq_G
+- _type_layout_string SQRz13TeaFoundation12IdentifiableRzlAA16UniqueCollectionVyxG
+- _type_layout_string SS13TeaFoundationE14FormatArgumentO
+- _type_layout_string SeRzSERzSHRzs25LosslessStringConvertibleRzSeR_SER_r0_l13TeaFoundation20CodingSafeDictionaryVyxq_G
+- _type_layout_string SeRzSERzl13TeaFoundation12SafeishArrayVyxG
+- _type_layout_string SeRzSERzl13TeaFoundation15CodingSafeArrayVyxG
+- _type_layout_string SlRzSQRz13TeaFoundation12IdentifiableRzSQR_AaBR_7ElementSTQzRs_r0_lAA27UniqueParentChildCollectionVyxq_G
+- _type_layout_string So15NSMatchingFlagsV
+- _type_layout_string So16NSURLResourceKeya
+- _type_layout_string So23_opaque_pthread_mutex_tV
+- _type_layout_string So24os_unfair_lock_options_ta
+- _type_layout_string l13TeaFoundation13AnyURLHandlerVyxG
+- _type_layout_string l13TeaFoundation16ShortDescriptionVyxG
+- _type_layout_string l13TeaFoundation18AnyAsyncURLHandlerVyxG
+- _type_layout_string l13TeaFoundation22AnyURLHandlerProcessorVyxG
+- _type_layout_string l13TeaFoundation22EagerCancellationState33_27707480826DA2D1169E89DAF1F77B07LLVyxG
+- _type_layout_string l13TeaFoundation5StackVyxG
+- _type_layout_string r0_l13TeaFoundation12AddressCacheVyxq_G
+- _type_layout_string s12CaseIterableRzSHRz13TeaFoundation24NetworkActivityProvidingRzlAB06ParenteF7SessionC5ErrorOyx_G
+- _type_layout_string s16DurationProtocolRzl13TeaFoundation10AnyInstantVyxG
+- _type_layout_string s8SendableRzl13TeaFoundation11MulticasterVyxG
+- _type_layout_string s9CodingKeyRzl13TeaFoundation26JSONKeyedDecodingContainer33_505E059B11A426DB0017A05E34BF5D68LLVyxG
+CStrings:
++ "TeaFoundation/DiagnosticModernAssembly.swift"
++ "TeaFoundation/ManagerModernAssembly.swift"
++ "TeaFoundation/ModernContainerStore.swift"
++ "TeaFoundation/ServiceModernAssembly.swift"
+- "Protocol"
+```

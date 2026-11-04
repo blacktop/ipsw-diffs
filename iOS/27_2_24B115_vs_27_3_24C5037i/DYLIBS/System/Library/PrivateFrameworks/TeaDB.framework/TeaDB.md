@@ -1,0 +1,645 @@
+## TeaDB
+
+> `/System/Library/PrivateFrameworks/TeaDB.framework/TeaDB`
+
+```diff
+
+-1517.0.0.0.0
+-  __TEXT.__text: 0x50d10
++1556.0.0.0.0
++  __TEXT.__text: 0x59b68
+   __TEXT.__objc_methlist: 0x104
+-  __TEXT.__const: 0x543c
++  __TEXT.__const: 0x539c
+   __TEXT.__swift5_typeref: 0xd67
+-  __TEXT.__swift5_capture: 0x55c
+-  __TEXT.__cstring: 0xaa5
++  __TEXT.__swift5_capture: 0x56c
++  __TEXT.__cstring: 0xa95
+   __TEXT.__swift5_reflstr: 0xb31
+   __TEXT.__swift5_assocty: 0x200
+   __TEXT.__swift5_fieldmd: 0x1878
+
+   __TEXT.__swift5_types: 0x1e4
+   __TEXT.__swift5_mpenum: 0xa0
+   __TEXT.__oslogstring: 0x1e9
+-  __TEXT.__unwind_info: 0x24c8
+-  __TEXT.__eh_frame: 0x3e50
++  __TEXT.__unwind_info: 0x2128
++  __TEXT.__eh_frame: 0x3c50
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__got: 0x0
+   __AUTH_CONST.__const: 0x5088
+   __AUTH_CONST.__objc_const: 0xe88
+-  __AUTH_CONST.__auth_got: 0xc20
++  __AUTH_CONST.__auth_got: 0xc40
+   __AUTH.__data: 0x28
+-  __DATA.__data: 0x1570
+-  __DATA_DIRTY.__data: 0x1810
++  __DATA.__data: 0x1580
++  __DATA_DIRTY.__data: 0x17f0
+   __DATA_DIRTY.__bss: 0x1080
+   __DATA_DIRTY.__common: 0x38
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 3070
+-  Symbols:   767
+-  CStrings:  109
++  Functions: 2307
++  Symbols:   201
++  CStrings:  108
+ 
+Symbols:
++ _memcmp
++ _objc_release_x26
++ _objc_release_x27
++ _objc_retain_x13
++ _objc_retain_x21
++ _swift_arrayDestroy
++ _swift_arrayInitWithTakeBackToFront
++ _swift_arrayInitWithTakeFrontToBack
++ _swift_retain_x9
+- <redacted>
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_10
+- _OUTLINED_FUNCTION_11
+- _OUTLINED_FUNCTION_12
+- _OUTLINED_FUNCTION_13
+- _OUTLINED_FUNCTION_14
+- _OUTLINED_FUNCTION_15
+- _OUTLINED_FUNCTION_16
+- _OUTLINED_FUNCTION_17
+- _OUTLINED_FUNCTION_18
+- _OUTLINED_FUNCTION_19
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_20
+- _OUTLINED_FUNCTION_21
+- _OUTLINED_FUNCTION_22
+- _OUTLINED_FUNCTION_23
+- _OUTLINED_FUNCTION_24
+- _OUTLINED_FUNCTION_25
+- _OUTLINED_FUNCTION_26
+- _OUTLINED_FUNCTION_27
+- _OUTLINED_FUNCTION_28
+- _OUTLINED_FUNCTION_29
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_30
+- _OUTLINED_FUNCTION_31
+- _OUTLINED_FUNCTION_32
+- _OUTLINED_FUNCTION_33
+- _OUTLINED_FUNCTION_34
+- _OUTLINED_FUNCTION_35
+- _OUTLINED_FUNCTION_36
+- _OUTLINED_FUNCTION_37
+- _OUTLINED_FUNCTION_38
+- _OUTLINED_FUNCTION_39
+- _OUTLINED_FUNCTION_4
+- _OUTLINED_FUNCTION_40
+- _OUTLINED_FUNCTION_41
+- _OUTLINED_FUNCTION_42
+- _OUTLINED_FUNCTION_43
+- _OUTLINED_FUNCTION_44
+- _OUTLINED_FUNCTION_45
+- _OUTLINED_FUNCTION_46
+- _OUTLINED_FUNCTION_47
+- _OUTLINED_FUNCTION_48
+- _OUTLINED_FUNCTION_49
+- _OUTLINED_FUNCTION_5
+- _OUTLINED_FUNCTION_50
+- _OUTLINED_FUNCTION_51
+- _OUTLINED_FUNCTION_52
+- _OUTLINED_FUNCTION_53
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_7
+- _OUTLINED_FUNCTION_8
+- _OUTLINED_FUNCTION_9
+- __DATA__TtC5TeaDB10Connection
+- __DATA__TtC5TeaDB10FastEntity
+- __DATA__TtC5TeaDB12SearchColumn
+- __DATA__TtC5TeaDB14ReadConnection
+- __DATA__TtC5TeaDB17PreparedStatement
+- __DATA__TtC5TeaDB5RowID
+- __DATA__TtC5TeaDB8Database
+- __DATA__TtC5TeaDB9Assertion
+- __IVARS__TtC5TeaDB10Connection
+- __IVARS__TtC5TeaDB10FastColumn
+- __IVARS__TtC5TeaDB10FastEntity
+- __IVARS__TtC5TeaDB10LazyEntity
+- __IVARS__TtC5TeaDB10LazyLoader
+- __IVARS__TtC5TeaDB12SearchColumn
+- __IVARS__TtC5TeaDB13KeyValueStore
+- __IVARS__TtC5TeaDB14ReadConnection
+- __IVARS__TtC5TeaDB17PreparedStatement
+- __IVARS__TtC5TeaDB18MixedKeyValueStore
+- __IVARS__TtC5TeaDB4Drop
+- __IVARS__TtC5TeaDB4Save
+- __IVARS__TtC5TeaDB5Query
+- __IVARS__TtC5TeaDB5RowID
+- __IVARS__TtC5TeaDB5Store
+- __IVARS__TtC5TeaDB5Table
+- __IVARS__TtC5TeaDB6Column
+- __IVARS__TtC5TeaDB6Create
+- __IVARS__TtC5TeaDB6Cursor
+- __IVARS__TtC5TeaDB6Delete
+- __IVARS__TtC5TeaDB6Update
+- __IVARS__TtC5TeaDB8Database
+- __IVARS__TtC5TeaDB8LazyJSON
+- __IVARS__TtC5TeaDB9Assertion
+- __IVARS__TtC5TeaDB9QuerySome
+- __IVARS__TtC5TeaDB9Statement
+- __IVARS__TtCC5TeaDB6Cursor8Iterator
+- __METACLASS_DATA__TtC5TeaDB10Connection
+- __METACLASS_DATA__TtC5TeaDB10FastEntity
+- __METACLASS_DATA__TtC5TeaDB12SearchColumn
+- __METACLASS_DATA__TtC5TeaDB14ReadConnection
+- __METACLASS_DATA__TtC5TeaDB17PreparedStatement
+- __METACLASS_DATA__TtC5TeaDB5RowID
+- __METACLASS_DATA__TtC5TeaDB8Database
+- __METACLASS_DATA__TtC5TeaDB9Assertion
+- __OBJC_$_PROP_LIST_NSObject
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+- __OBJC_$_PROTOCOL_REFS_OS_dispatch_source
+- __OBJC_$_PROTOCOL_REFS_OS_dispatch_source_memorypressure
+- __OBJC_$_PROTOCOL_REFS_OS_dispatch_source_timer
+- __OBJC_LABEL_PROTOCOL_$_NSObject
+- __OBJC_LABEL_PROTOCOL_$_OS_dispatch_source
+- __OBJC_LABEL_PROTOCOL_$_OS_dispatch_source_memorypressure
+- __OBJC_LABEL_PROTOCOL_$_OS_dispatch_source_timer
+- __OBJC_PROTOCOL_$_NSObject
+- __OBJC_PROTOCOL_$_OS_dispatch_source
+- __OBJC_PROTOCOL_$_OS_dispatch_source_memorypressure
+- __OBJC_PROTOCOL_$_OS_dispatch_source_timer
+- ___swift__destructor
+- ___swift_allocate_boxed_opaque_existential_0
+- ___swift_allocate_value_buffer
+- ___swift_closure_destructor
+- ___swift_closure_destructor.10Tm
+- ___swift_destroy_boxed_opaque_existential_0
+- ___swift_destroy_boxed_opaque_existential_1
+- ___swift_getEnumTagSinglePayload
+- ___swift_instantiateGenericMetadata
+- ___swift_memcpy0_1
+- ___swift_memcpy10_8
+- ___swift_memcpy16_8
+- ___swift_memcpy17_8
+- ___swift_memcpy1_1
+- ___swift_memcpy24_8
+- ___swift_memcpy2_1
+- ___swift_memcpy32_8
+- ___swift_memcpy33_8
+- ___swift_memcpy40_8
+- ___swift_memcpy48_8
+- ___swift_memcpy49_8
+- ___swift_memcpy4_4
+- ___swift_memcpy50_8
+- ___swift_memcpy64_8
+- ___swift_memcpy72_8
+- ___swift_memcpy8_8
+- ___swift_memcpy9_8
+- ___swift_mutable_project_boxed_opaque_existential_1
+- ___swift_noop_void_return
+- ___swift_project_boxed_opaque_existential_1
+- ___swift_project_value_buffer
+- ___swift_reflection_version
+- ___swift_storeEnumTagSinglePayload
+- ___unnamed_1
+- ___unnamed_10
+- ___unnamed_13
+- ___unnamed_15
+- ___unnamed_2
+- ___unnamed_3
+- ___unnamed_5
+- ___unnamed_8
+- ___unnamed_9
+- __swift_FORCE_LOAD_$_swiftCoreFoundation_$_TeaDB
+- __swift_FORCE_LOAD_$_swiftCoreLocation_$_TeaDB
+- __swift_FORCE_LOAD_$_swiftDispatch_$_TeaDB
+- __swift_FORCE_LOAD_$_swiftFoundation_$_TeaDB
+- __swift_FORCE_LOAD_$_swiftMetal_$_TeaDB
+- __swift_FORCE_LOAD_$_swiftNaturalLanguage_$_TeaDB
+- __swift_FORCE_LOAD_$_swiftOSLog_$_TeaDB
+- __swift_FORCE_LOAD_$_swiftObjectiveC_$_TeaDB
+- __swift_FORCE_LOAD_$_swiftQuartzCore_$_TeaDB
+- __swift_FORCE_LOAD_$_swiftXPC_$_TeaDB
+- __swift_FORCE_LOAD_$_swift_Builtin_float_$_TeaDB
+- __swift_FORCE_LOAD_$_swiftos_$_TeaDB
+- __swift_FORCE_LOAD_$_swiftsimd_$_TeaDB
+- __swift_stdlib_malloc_size
+- _associated conformance 5TeaDB10FastColumnC10CodingKeys33_3BE36BB55DEFBBB7C7DD3DA0CEF00491LLOyx_GSHAASQ
+- _associated conformance 5TeaDB10FastColumnC10CodingKeys33_3BE36BB55DEFBBB7C7DD3DA0CEF00491LLOyx_Gs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 5TeaDB10FastColumnC10CodingKeys33_3BE36BB55DEFBBB7C7DD3DA0CEF00491LLOyx_Gs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 5TeaDB10LazyEntityC10CodingKeys33_CE64A07D3DA2070D689F20A779438864LLOyx_GSHAASQ
+- _associated conformance 5TeaDB10LazyEntityC10CodingKeys33_CE64A07D3DA2070D689F20A779438864LLOyx_Gs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 5TeaDB10LazyEntityC10CodingKeys33_CE64A07D3DA2070D689F20A779438864LLOyx_Gs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 5TeaDB10MKVSEntity33_5BDBC81F24CE5E5601160448BDAD238ALLV10CodingKeysOyx_GSHAASQ
+- _associated conformance 5TeaDB10MKVSEntity33_5BDBC81F24CE5E5601160448BDAD238ALLV10CodingKeysOyx_Gs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 5TeaDB10MKVSEntity33_5BDBC81F24CE5E5601160448BDAD238ALLV10CodingKeysOyx_Gs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 5TeaDB11SearchOrderV9DirectionOyx_GSHAASQ
+- _associated conformance 5TeaDB11SearchTableV6DeleteV5ErrorOyx__GSHAASQ
+- _associated conformance 5TeaDB11TransactionOSHAASQ
+- _associated conformance 5TeaDB12SearchColumnC10CodingKeysOSHAASQ
+- _associated conformance 5TeaDB12SearchColumnC10CodingKeysOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 5TeaDB12SearchColumnC10CodingKeysOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 5TeaDB13KeyValueStoreC16TranslationError33_51F96BDCFF3319EB2A3F7B77FCB3C5B8LLOyxq__GSHAASQ
+- _associated conformance 5TeaDB13UpdateCommandV6Errors33_7264A724FEC99DFE59608CDBE0873C9ALLOyx_GSHAASQ
+- _associated conformance 5TeaDB15LazyLoaderErrorOSHAASQ
+- _associated conformance 5TeaDB16AssertionOptionsVs10SetAlgebraAASQ
+- _associated conformance 5TeaDB16AssertionOptionsVs10SetAlgebraAAs25ExpressibleByArrayLiteral
+- _associated conformance 5TeaDB16AssertionOptionsVs9OptionSetAASY
+- _associated conformance 5TeaDB16AssertionOptionsVs9OptionSetAAs0F7Algebra
+- _associated conformance 5TeaDB16MigratableEntityV10CodingKeys33_49D9CE12DEB669FC4E7DC4353600CCD1LLOyx_GSHAASQ
+- _associated conformance 5TeaDB16MigratableEntityV10CodingKeys33_49D9CE12DEB669FC4E7DC4353600CCD1LLOyx_Gs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 5TeaDB16MigratableEntityV10CodingKeys33_49D9CE12DEB669FC4E7DC4353600CCD1LLOyx_Gs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 5TeaDB16MigratableEntityVyxGAA0C0AA0D0AaEP_AA0D4Type
+- _associated conformance 5TeaDB17SearchMatchPhraseOs26ExpressibleByStringLiteralAA0hI4TypesADP_s01_fg7BuiltinhI0
+- _associated conformance 5TeaDB17SearchMatchPhraseOs26ExpressibleByStringLiteralAAs0fg23ExtendedGraphemeClusterI0
+- _associated conformance 5TeaDB17SearchMatchPhraseOs33ExpressibleByUnicodeScalarLiteralAA0hiJ4TypesADP_s01_fg7BuiltinhiJ0
+- _associated conformance 5TeaDB17SearchMatchPhraseOs43ExpressibleByExtendedGraphemeClusterLiteralAA0hijK4TypesADP_s01_fg7BuiltinhijK0
+- _associated conformance 5TeaDB17SearchMatchPhraseOs43ExpressibleByExtendedGraphemeClusterLiteralAAs0fg13UnicodeScalarK0
+- _associated conformance 5TeaDB18MixedKeyValueStoreC16TranslationError33_5BDBC81F24CE5E5601160448BDAD238ALLOyx_GSHAASQ
+- _associated conformance 5TeaDB25Unicode61TokenizerOptionsV17UnicodeCategoriesO11PunctuationOSHAASQ
+- _associated conformance 5TeaDB25Unicode61TokenizerOptionsV17UnicodeCategoriesO4MarkOSHAASQ
+- _associated conformance 5TeaDB25Unicode61TokenizerOptionsV17UnicodeCategoriesO6LetterOSHAASQ
+- _associated conformance 5TeaDB25Unicode61TokenizerOptionsV17UnicodeCategoriesO6NumberOSHAASQ
+- _associated conformance 5TeaDB25Unicode61TokenizerOptionsV17UnicodeCategoriesO6SymbolOSHAASQ
+- _associated conformance 5TeaDB25Unicode61TokenizerOptionsV17UnicodeCategoriesO7SpecialOSHAASQ
+- _associated conformance 5TeaDB25Unicode61TokenizerOptionsV17UnicodeCategoriesO9SeparatorOSHAASQ
+- _associated conformance 5TeaDB4JSONV10CodingKeys33_A91950C902DB43BBD77E28BE8B892A70LLOyx_GSHAASQ
+- _associated conformance 5TeaDB4JSONV10CodingKeys33_A91950C902DB43BBD77E28BE8B892A70LLOyx_Gs0D3KeyAAs23CustomStringConvertible
+- _associated conformance 5TeaDB4JSONV10CodingKeys33_A91950C902DB43BBD77E28BE8B892A70LLOyx_Gs0D3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 5TeaDB5RowIDC10CodingKeysOSHAASQ
+- _associated conformance 5TeaDB5RowIDC10CodingKeysOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 5TeaDB5RowIDC10CodingKeysOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 5TeaDB6CursorCyxGSTAA8IteratorST_St
+- _associated conformance 5TeaDB8DataTypeOSHAASQ
+- _associated conformance 5TeaDB8DatabaseC10VacuumModeOSHAASQ
+- _associated conformance 5TeaDB8DatabaseC12RecoveryModeOSHAASQ
+- _associated conformance 5TeaDB8DatabaseC14JournalingModeOSHAASQ
+- _associated conformance 5TeaDB8LazyJSONC10CodingKeys33_B4DFE2769A2CCB32A1211B3DF1C8A156LLOyx_GSHAASQ
+- _associated conformance 5TeaDB8LazyJSONC10CodingKeys33_B4DFE2769A2CCB32A1211B3DF1C8A156LLOyx_Gs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 5TeaDB8LazyJSONC10CodingKeys33_B4DFE2769A2CCB32A1211B3DF1C8A156LLOyx_Gs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 5TeaDB8VersionsV6EntityV10CodingKeys33_4EEA656C15209E4528FAD7E2DB0EC5E9LLOSHAASQ
+- _associated conformance 5TeaDB8VersionsV6EntityV10CodingKeys33_4EEA656C15209E4528FAD7E2DB0EC5E9LLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 5TeaDB8VersionsV6EntityV10CodingKeys33_4EEA656C15209E4528FAD7E2DB0EC5E9LLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 5TeaDB9AssertionC4NameOSHAASQ
+- _associated conformance 5TeaDB9KVSEntity33_51F96BDCFF3319EB2A3F7B77FCB3C5B8LLV10CodingKeysOyx_GSHAASQ
+- _associated conformance 5TeaDB9KVSEntity33_51F96BDCFF3319EB2A3F7B77FCB3C5B8LLV10CodingKeysOyx_Gs0M3KeyAAs23CustomStringConvertible
+- _associated conformance 5TeaDB9KVSEntity33_51F96BDCFF3319EB2A3F7B77FCB3C5B8LLV10CodingKeysOyx_Gs0M3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 5TeaDB9RawEntityV10CodingKeys33_A402924F88A22565B4DEB2C6E9970B6DLLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 5TeaDB9RawEntityV10CodingKeys33_A402924F88A22565B4DEB2C6E9970B6DLLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 5TeaDB9ValueTypeO10CodingKeys33_C3DEA4535F81EC5FB68E08AF0F72471DLLOSHAASQ
+- _associated conformance 5TeaDB9ValueTypeO10CodingKeys33_C3DEA4535F81EC5FB68E08AF0F72471DLLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 5TeaDB9ValueTypeO10CodingKeys33_C3DEA4535F81EC5FB68E08AF0F72471DLLOs0E3KeyAAs28CustomDebugStringConvertible
+- _block_copy_helper
+- _block_descriptor
+- _block_destroy_helper
+- _dynamic_cast_existential_1_conditional
+- _flat unique So33OS_dispatch_source_memorypressure_p
+- _get_enum_tag_for_layout_string 10Foundation4DataV15_RepresentationO
+- _get_enum_tag_for_layout_string 5TeaDB10ExpressionO
+- _get_enum_tag_for_layout_string 5TeaDB11SearchOrderV6SortByOyx_G
+- _get_enum_tag_for_layout_string 5TeaDB12ColumnErrorsO
+- _get_enum_tag_for_layout_string 5TeaDB13BaseTokenizerO
+- _get_enum_tag_for_layout_string 5TeaDB13BaseTokenizerOSg
+- _get_enum_tag_for_layout_string 5TeaDB16ColumnInitErrorsO
+- _get_enum_tag_for_layout_string 5TeaDB16SearchExpressionOyxG
+- _get_enum_tag_for_layout_string 5TeaDB17SearchMatchPhraseO
+- _get_enum_tag_for_layout_string 5TeaDB18StatementOperationO
+- _get_enum_tag_for_layout_string 5TeaDB21SearchMatchExpressionOyxG
+- _get_enum_tag_for_layout_string 5TeaDB6CursorC8IteratorC5State33_CCE39EB41049C8DE7316819889BC395CLLOyx__G
+- _get_enum_tag_for_layout_string 5TeaDB7OrderByO
+- _get_enum_tag_for_layout_string 5TeaDB8DatabaseC6ErrorsO
+- _get_enum_tag_for_layout_string 5TeaDB8DatabaseC8LocationO
+- _get_enum_tag_for_layout_string 5TeaDB8SQLErrorO
+- _get_enum_tag_for_layout_string 5TeaDB8VersionsVSg
+- _get_enum_tag_for_layout_string 5TeaDB9TokenizerO
+- _get_enum_tag_for_layout_string 5TeaDB9ValueTypeO
+- _swift_getObjCClassFromMetadata
+- _symbolic $s13TeaFoundation17KeyValueStoreTypeP
+- _symbolic $s5TeaDB10ColumnTypeP
+- _symbolic $s5TeaDB10EntityTypeP
+- _symbolic $s5TeaDB10MigratableP
+- _symbolic $s5TeaDB11CommandTypeP
+- _symbolic $s5TeaDB13ColumnCodableP
+- _symbolic $s5TeaDB13ConstructTypeP
+- _symbolic $s5TeaDB14ConnectionTypeP
+- _symbolic $s5TeaDB14FastEntityTypeP
+- _symbolic $s5TeaDB14QueryValueTypeP
+- _symbolic $s5TeaDB16SearchEntityTypeP
+- _symbolic $s5TeaDB17PartialEntityTypeP
+- _symbolic $s5TeaDB18StatementChainTypeP
+- _symbolic $s5TeaDB19FastEntityProvidingP
+- _symbolic $s5TeaDB19UpdatableEntityTypeP
+- _symbolic $s5TeaDB23KeyValueStoreDescriptorP
+- _symbolic $s5TeaDB8BaseTypeP
+- _symbolic $s5TeaDB8NullableP
+- _symbolic $sST
+- _symbolic $sSY
+- _symbolic $sSt
+- _symbolic $ss10SetAlgebraP
+- _symbolic $ss25ExpressibleByArrayLiteralP
+- _symbolic $ss26ExpressibleByStringLiteralP
+- _symbolic $ss33ExpressibleByUnicodeScalarLiteralP
+- _symbolic $ss43ExpressibleByExtendedGraphemeClusterLiteralP
+- _symbolic $ss9OptionSetP
+- _symbolic 6Entity_____Qz 5TeaDB10MigratableP
+- _symbolic B0
+- _symbolic B1
+- _symbolic G0R0_
+- _symbolic G0R1_
+- _symbolic G1R0_
+- _symbolic G1R1_
+- _symbolic Ieg_
+- _symbolic Ig_
+- _symbolic SDySS_____yxq_GG 5TeaDB8KVSEntry33_51F96BDCFF3319EB2A3F7B77FCB3C5B8LLV
+- _symbolic SDySS_____yxq_GGz_x_q______RzSeR_SER_r0_lXX 5TeaDB8KVSEntry33_51F96BDCFF3319EB2A3F7B77FCB3C5B8LLV AA23KeyValueStoreDescriptorP
+- _symbolic SDy_____yx_____GSdGSg7weights_t s7KeyPathC 5TeaDB12SearchColumnC
+- _symbolic SS
+- _symbolic SS4name_t
+- _symbolic SS6column_SS5tablet
+- _symbolic SS6column_______p10underlyingt s5ErrorP
+- _symbolic SS6column_t
+- _symbolic SS7message______8locationt 5TeaDB8DatabaseC8LocationO
+- _symbolic SSSg
+- _symbolic SS_Say______pGt 5TeaDB14QueryValueTypeP
+- _symbolic SS_______pt 5TeaDB14QueryValueTypeP
+- _symbolic SaySS3key_______p5valuetG 5TeaDB13ColumnCodableP
+- _symbolic SaySSG
+- _symbolic Say_____G 5TeaDB17SearchMatchPhraseO
+- _symbolic Say_____G 5TeaDB25Unicode61TokenizerOptionsV17UnicodeCategoriesO
+- _symbolic Say_____G8bindings_t 5TeaDB9ValueTypeO
+- _symbolic Say_____G_Si6withint 5TeaDB17SearchMatchPhraseO
+- _symbolic Say_____yxGG 5TeaDB9KVSEntity33_51F96BDCFF3319EB2A3F7B77FCB3C5B8LLV
+- _symbolic Say_____yxGGz_x_q______RzSeR_SER_r0_lXX 5TeaDB9KVSEntity33_51F96BDCFF3319EB2A3F7B77FCB3C5B8LLV AA23KeyValueStoreDescriptorP
+- _symbolic Say_____yx_____GG s7KeyPathC 5TeaDB12SearchColumnC
+- _symbolic SayyyKcG
+- _symbolic Sb
+- _symbolic Sb8inverted_Say_____yx_____GG_____yxGt s7KeyPathC 5TeaDB12SearchColumnC AC0E15MatchExpressionO
+- _symbolic SbSg
+- _symbolic Sd
+- _symbolic Si
+- _symbolic So12RBSAssertionC
+- _symbolic So17OS_dispatch_queueC
+- _symbolic So17OS_dispatch_queueCSg
+- _symbolic Su
+- _symbolic _____ 10Foundation4DataV
+- _symbolic _____ 10Foundation4UUIDV
+- _symbolic _____ 12CoreGraphics7CGFloatV
+- _symbolic _____ 13TeaFoundation10UnfairLockC
+- _symbolic _____ 5TeaDB10ConnectionC
+- _symbolic _____ 5TeaDB10ExpressionO
+- _symbolic _____ 5TeaDB10FastColumnC
+- _symbolic _____ 5TeaDB10FastColumnC10CodingKeys33_3BE36BB55DEFBBB7C7DD3DA0CEF00491LLO
+- _symbolic _____ 5TeaDB10FastEntityC
+- _symbolic _____ 5TeaDB10LazyEntityC
+- _symbolic _____ 5TeaDB10LazyEntityC10CodingKeys33_CE64A07D3DA2070D689F20A779438864LLO
+- _symbolic _____ 5TeaDB10LazyLoaderC
+- _symbolic _____ 5TeaDB10LazyLoaderC9LoadState33_CC582D5685477D4E48F6C89B77DAC287LLO
+- _symbolic _____ 5TeaDB10MKVSEntity33_5BDBC81F24CE5E5601160448BDAD238ALLV
+- _symbolic _____ 5TeaDB10MKVSEntity33_5BDBC81F24CE5E5601160448BDAD238ALLV10CodingKeysO
+- _symbolic _____ 5TeaDB11SearchOrderV
+- _symbolic _____ 5TeaDB11SearchOrderV6SortByO
+- _symbolic _____ 5TeaDB11SearchOrderV9DirectionO
+- _symbolic _____ 5TeaDB11SearchTableV
+- _symbolic _____ 5TeaDB11SearchTableV4SaveV
+- _symbolic _____ 5TeaDB11SearchTableV5QueryV
+- _symbolic _____ 5TeaDB11SearchTableV6CreateV
+- _symbolic _____ 5TeaDB11SearchTableV6DeleteV
+- _symbolic _____ 5TeaDB11SearchTableV6DeleteV5ErrorO
+- _symbolic _____ 5TeaDB11TransactionO
+- _symbolic _____ 5TeaDB12ColumnErrorsO
+- _symbolic _____ 5TeaDB12SearchColumnC
+- _symbolic _____ 5TeaDB12SearchColumnC10CodingKeysO
+- _symbolic _____ 5TeaDB12SearchColumnC5State33_F0B7B0DF5B52221ABB84BA38BAA2E978LLV
+- _symbolic _____ 5TeaDB12SearchSchemaV
+- _symbolic _____ 5TeaDB13BaseTokenizerO
+- _symbolic _____ 5TeaDB13DeleteCommandV
+- _symbolic _____ 5TeaDB13InsertCommandV
+- _symbolic _____ 5TeaDB13KeyValueStoreC
+- _symbolic _____ 5TeaDB13KeyValueStoreC16TranslationError33_51F96BDCFF3319EB2A3F7B77FCB3C5B8LLO
+- _symbolic _____ 5TeaDB13KeyValueStoreC8PromisesV
+- _symbolic _____ 5TeaDB13SelectCommandV
+- _symbolic _____ 5TeaDB13UpdateCommandV
+- _symbolic _____ 5TeaDB13UpdateCommandV6Errors33_7264A724FEC99DFE59608CDBE0873C9ALLO
+- _symbolic _____ 5TeaDB14ReadConnectionC
+- _symbolic _____ 5TeaDB15LazyLoaderErrorO
+- _symbolic _____ 5TeaDB16AddColumnCommandV
+- _symbolic _____ 5TeaDB16AssertionOptionsV
+- _symbolic _____ 5TeaDB16ColumnInitErrorsO
+- _symbolic _____ 5TeaDB16MigratableEntityV
+- _symbolic _____ 5TeaDB16MigratableEntityV10CodingKeys33_49D9CE12DEB669FC4E7DC4353600CCD1LLO
+- _symbolic _____ 5TeaDB16SearchExpressionO
+- _symbolic _____ 5TeaDB17PreparedStatementC
+- _symbolic _____ 5TeaDB17SearchMatchPhraseO
+- _symbolic _____ 5TeaDB18CreateIndexCommandV
+- _symbolic _____ 5TeaDB18CreateTableCommandV
+- _symbolic _____ 5TeaDB18MixedKeyValueStoreC
+- _symbolic _____ 5TeaDB18MixedKeyValueStoreC16TranslationError33_5BDBC81F24CE5E5601160448BDAD238ALLO
+- _symbolic _____ 5TeaDB18MixedKeyValueStoreC8PromisesV
+- _symbolic _____ 5TeaDB18StatementOperationO
+- _symbolic _____ 5TeaDB21AsciiTokenizerOptionsV
+- _symbolic _____ 5TeaDB21SearchMatchExpressionO
+- _symbolic _____ 5TeaDB23TrigramTokenizerOptionsV
+- _symbolic _____ 5TeaDB24CreateSearchTableCommandV
+- _symbolic _____ 5TeaDB25Unicode61TokenizerOptionsV
+- _symbolic _____ 5TeaDB25Unicode61TokenizerOptionsV17UnicodeCategoriesO
+- _symbolic _____ 5TeaDB25Unicode61TokenizerOptionsV17UnicodeCategoriesO11PunctuationO
+- _symbolic _____ 5TeaDB25Unicode61TokenizerOptionsV17UnicodeCategoriesO4MarkO
+- _symbolic _____ 5TeaDB25Unicode61TokenizerOptionsV17UnicodeCategoriesO6LetterO
+- _symbolic _____ 5TeaDB25Unicode61TokenizerOptionsV17UnicodeCategoriesO6NumberO
+- _symbolic _____ 5TeaDB25Unicode61TokenizerOptionsV17UnicodeCategoriesO6SymbolO
+- _symbolic _____ 5TeaDB25Unicode61TokenizerOptionsV17UnicodeCategoriesO7SpecialO
+- _symbolic _____ 5TeaDB25Unicode61TokenizerOptionsV17UnicodeCategoriesO9SeparatorO
+- _symbolic _____ 5TeaDB4DropC
+- _symbolic _____ 5TeaDB4JSONV
+- _symbolic _____ 5TeaDB4JSONV10CodingKeys33_A91950C902DB43BBD77E28BE8B892A70LLO
+- _symbolic _____ 5TeaDB4SaveC
+- _symbolic _____ 5TeaDB5QueryC
+- _symbolic _____ 5TeaDB5RowIDC
+- _symbolic _____ 5TeaDB5RowIDC10CodingKeysO
+- _symbolic _____ 5TeaDB5StoreC
+- _symbolic _____ 5TeaDB5StoreC8PromisesV
+- _symbolic _____ 5TeaDB5TableC
+- _symbolic _____ 5TeaDB6ColumnC
+- _symbolic _____ 5TeaDB6ColumnC4FuncO
+- _symbolic _____ 5TeaDB6CreateC
+- _symbolic _____ 5TeaDB6CreateCA2A10EntityTypeRzrlE0D9MigrationV
+- _symbolic _____ 5TeaDB6CursorC
+- _symbolic _____ 5TeaDB6CursorC8IteratorC
+- _symbolic _____ 5TeaDB6CursorC8IteratorC5State33_CCE39EB41049C8DE7316819889BC395CLLO
+- _symbolic _____ 5TeaDB6DeleteC
+- _symbolic _____ 5TeaDB6UpdateC
+- _symbolic _____ 5TeaDB7OrderByO
+- _symbolic _____ 5TeaDB7ValueOfV
+- _symbolic _____ 5TeaDB8DataTypeO
+- _symbolic _____ 5TeaDB8DatabaseC
+- _symbolic _____ 5TeaDB8DatabaseC10VacuumModeO
+- _symbolic _____ 5TeaDB8DatabaseC12RecoveryModeO
+- _symbolic _____ 5TeaDB8DatabaseC13ConfigurationV
+- _symbolic _____ 5TeaDB8DatabaseC14ConnectionModeO
+- _symbolic _____ 5TeaDB8DatabaseC14JournalingModeO
+- _symbolic _____ 5TeaDB8DatabaseC23SchedulingConfigurationV
+- _symbolic _____ 5TeaDB8DatabaseC6ErrorsO
+- _symbolic _____ 5TeaDB8DatabaseC8LocationO
+- _symbolic _____ 5TeaDB8DatabaseC9CacheSizeO
+- _symbolic _____ 5TeaDB8DatabaseC9SchedulerV
+- _symbolic _____ 5TeaDB8KVSEntry33_51F96BDCFF3319EB2A3F7B77FCB3C5B8LLV
+- _symbolic _____ 5TeaDB8LazyJSONC
+- _symbolic _____ 5TeaDB8LazyJSONC10CodingKeys33_B4DFE2769A2CCB32A1211B3DF1C8A156LLO
+- _symbolic _____ 5TeaDB8SQLErrorO
+- _symbolic _____ 5TeaDB8VersionsV
+- _symbolic _____ 5TeaDB8VersionsV6EntityV
+- _symbolic _____ 5TeaDB8VersionsV6EntityV10CodingKeys33_4EEA656C15209E4528FAD7E2DB0EC5E9LLO
+- _symbolic _____ 5TeaDB9AssertionC
+- _symbolic _____ 5TeaDB9AssertionC07RunningC033_21269579B9523E50A23203502C8A3EB9LLV
+- _symbolic _____ 5TeaDB9AssertionC4NameO
+- _symbolic _____ 5TeaDB9KVSEntity33_51F96BDCFF3319EB2A3F7B77FCB3C5B8LLV
+- _symbolic _____ 5TeaDB9KVSEntity33_51F96BDCFF3319EB2A3F7B77FCB3C5B8LLV10CodingKeysO
+- _symbolic _____ 5TeaDB9MKVSEntry33_5BDBC81F24CE5E5601160448BDAD238ALLV
+- _symbolic _____ 5TeaDB9QuerySomeC
+- _symbolic _____ 5TeaDB9RawEntityV
+- _symbolic _____ 5TeaDB9RawEntityV10CodingKeys33_A402924F88A22565B4DEB2C6E9970B6DLLO
+- _symbolic _____ 5TeaDB9StatementC
+- _symbolic _____ 5TeaDB9TokenizerO
+- _symbolic _____ 5TeaDB9ValueTypeO
+- _symbolic _____ 5TeaDB9ValueTypeO10CodingKeys33_C3DEA4535F81EC5FB68E08AF0F72471DLLO
+- _symbolic _____ So16os_unfair_lock_sV
+- _symbolic _____ So6CGRectV
+- _symbolic _____ So6CGSizeV
+- _symbolic _____ So7CGPointV
+- _symbolic _____ s13OpaquePointerV
+- _symbolic _____ s5Int64V
+- _symbolic _____ s6UInt32V
+- _symbolic _____Sg 5TeaDB10ConnectionC
+- _symbolic _____Sg 5TeaDB13BaseTokenizerO
+- _symbolic _____Sg 5TeaDB14ReadConnectionC
+- _symbolic _____Sg 5TeaDB8VersionsV
+- _symbolic _____Sg s13OpaquePointerV
+- _symbolic _____Sg s5Int32V
+- _symbolic _____SgXw 5TeaDB8DatabaseC
+- _symbolic _____SgXwz_Xx 5TeaDB8DatabaseC
+- _symbolic _____XMT 5TeaDB9AssertionC
+- _symbolic ______AAt 5TeaDB10ExpressionO
+- _symbolic ______AAt 5TeaDB17SearchMatchPhraseO
+- _symbolic ______p 5TeaDB14ConnectionTypeP
+- _symbolic ______p So33OS_dispatch_source_memorypressureP
+- _symbolic ______p s5ErrorP
+- _symbolic ______p10underlying_t s5ErrorP
+- _symbolic ______pIegg_ s5ErrorP
+- _symbolic ______pIegzo_ s5ErrorP
+- _symbolic ______pSg 5TeaDB14ConnectionTypeP
+- _symbolic _____x______pIeggrzo_ 5TeaDB8DatabaseC s5ErrorP
+- _symbolic _____ySSG 5TeaDB10FastColumnC
+- _symbolic _____ySSG 5TeaDB6ColumnC
+- _symbolic _____ySiSgG 2os21OSAllocatedUnfairLockV
+- _symbolic _____yYbc 10Foundation4DateV
+- _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 5TeaDB12SearchColumnC5State33_F0B7B0DF5B52221ABB84BA38BAA2E978LLV
+- _symbolic _____y_____G 5TeaDB4SaveC AA8VersionsV6EntityV
+- _symbolic _____y_____G 5TeaDB5QueryC AA8VersionsV6EntityV
+- _symbolic _____y_____G 5TeaDB6ColumnC 10Foundation4DataV
+- _symbolic _____y_____G 5TeaDB6ColumnC 10Foundation4DateV
+- _symbolic _____y_____G 5TeaDB6CreateC AA8VersionsV6EntityV
+- _symbolic _____y_____yxGG 5TeaDB5TableC AA10MKVSEntity33_5BDBC81F24CE5E5601160448BDAD238ALLV
+- _symbolic _____y_____yxGG 5TeaDB5TableC AA9KVSEntity33_51F96BDCFF3319EB2A3F7B77FCB3C5B8LLV
+- _symbolic _____yq_G 5TeaDB5TableC
+- _symbolic _____yxG 5TeaDB10LazyLoaderC
+- _symbolic _____yxG 5TeaDB10MKVSEntity33_5BDBC81F24CE5E5601160448BDAD238ALLV
+- _symbolic _____yxG 5TeaDB21SearchMatchExpressionO
+- _symbolic _____yxG 5TeaDB6ColumnC
+- _symbolic _____yxG 5TeaDB6CreateC
+- _symbolic _____yxG 5TeaDB9KVSEntity33_51F96BDCFF3319EB2A3F7B77FCB3C5B8LLV
+- _symbolic _____yxGSgXw 5TeaDB18MixedKeyValueStoreC
+- _symbolic _____yxG_AB6butNott 5TeaDB21SearchMatchExpressionO
+- _symbolic _____yxG_ABt 5TeaDB16SearchExpressionO
+- _symbolic _____yxG_ABt 5TeaDB21SearchMatchExpressionO
+- _symbolic _____yx_G 5TeaDB10LazyLoaderC9LoadState33_CC582D5685477D4E48F6C89B77DAC287LLO
+- _symbolic _____yx_G 5TeaDB11SearchOrderV6SortByO
+- _symbolic _____yx_G 5TeaDB6CursorC8IteratorC
+- _symbolic _____yx_GSg 5TeaDB11SearchOrderV9DirectionO
+- _symbolic _____yx_GSg 5TeaDB18MixedKeyValueStoreC8PromisesV
+- _symbolic _____yx_GSg 5TeaDB6ColumnC4FuncO
+- _symbolic _____yx__G 5TeaDB6CursorC8IteratorC5State33_CCE39EB41049C8DE7316819889BC395CLLO
+- _symbolic _____yx_____G s7KeyPathC 5TeaDB12SearchColumnC
+- _symbolic _____yx_____G s7KeyPathC 5TeaDB5RowIDC
+- _symbolic _____yxq_G 5TeaDB13KeyValueStoreC
+- _symbolic _____yxq_GSgXw 5TeaDB13KeyValueStoreC
+- _symbolic _____yxq_GSgXw 5TeaDB5StoreC
+- _symbolic _____yxq_GSgXwz_x_q______RzSeR_SER_r0_lXX 5TeaDB13KeyValueStoreC AA0cdE10DescriptorP
+- _symbolic _____yxq__GSg 5TeaDB13KeyValueStoreC8PromisesV
+- _symbolic _____yxq__GSg 5TeaDB5StoreC8PromisesV
+- _symbolic q_
+- _symbolic qd__
+- _symbolic qd__m
+- _symbolic x
+- _symbolic xIegn_
+- _symbolic xIegr_
+- _symbolic xSg
+- _symbolic xSgqd__Kc
+- _symbolic x______pIegrzo_ s5ErrorP
+- _symbolic xyKc5block_t
+- _symbolic xyc
+- _symbolic ytIegn_
+- _type_layout_string 5TeaDB10EntityTypeRzAaBRd__r__lAA6CreateCA2aBRzrlE0C9MigrationVyx_qd__G
+- _type_layout_string 5TeaDB10ExpressionO
+- _type_layout_string 5TeaDB12ColumnErrorsO
+- _type_layout_string 5TeaDB12SearchColumnC5State33_F0B7B0DF5B52221ABB84BA38BAA2E978LLV
+- _type_layout_string 5TeaDB13BaseTokenizerO
+- _type_layout_string 5TeaDB13ConstructTypeRzlAA6CursorC8IteratorC5State33_CCE39EB41049C8DE7316819889BC395CLLOyx__G
+- _type_layout_string 5TeaDB13InsertCommandV
+- _type_layout_string 5TeaDB16AssertionOptionsV
+- _type_layout_string 5TeaDB16ColumnInitErrorsO
+- _type_layout_string 5TeaDB16SearchEntityTypeRzlAA06CreateC12TableCommandVyxG
+- _type_layout_string 5TeaDB16SearchEntityTypeRzlAA0C10ExpressionOyxG
+- _type_layout_string 5TeaDB16SearchEntityTypeRzlAA0C15MatchExpressionOyxG
+- _type_layout_string 5TeaDB16SearchEntityTypeRzlAA0C5OrderV6SortByOyx_G
+- _type_layout_string 5TeaDB16SearchEntityTypeRzlAA0C5OrderVyxG
+- _type_layout_string 5TeaDB16SearchEntityTypeRzlAA0C5TableV4SaveVyx_G
+- _type_layout_string 5TeaDB16SearchEntityTypeRzlAA0C5TableV5QueryVyx_G
+- _type_layout_string 5TeaDB16SearchEntityTypeRzlAA0C5TableV6CreateVyx_G
+- _type_layout_string 5TeaDB16SearchEntityTypeRzlAA0C5TableV6DeleteVyx_G
+- _type_layout_string 5TeaDB16SearchEntityTypeRzlAA0C5TableVyxG
+- _type_layout_string 5TeaDB16SearchEntityTypeRzlAA0C6SchemaVyxG
+- _type_layout_string 5TeaDB17SearchMatchPhraseO
+- _type_layout_string 5TeaDB18StatementOperationO
+- _type_layout_string 5TeaDB21AsciiTokenizerOptionsV
+- _type_layout_string 5TeaDB23KeyValueStoreDescriptorRzSeR_SER_r0_lAA0cdE0C8PromisesVyxq__G
+- _type_layout_string 5TeaDB23KeyValueStoreDescriptorRzlAA05MixedcdE0C8PromisesVyx_G
+- _type_layout_string 5TeaDB23KeyValueStoreDescriptorRzlAA10MKVSEntity33_5BDBC81F24CE5E5601160448BDAD238ALLVyxG
+- _type_layout_string 5TeaDB23KeyValueStoreDescriptorRzlAA9KVSEntity33_51F96BDCFF3319EB2A3F7B77FCB3C5B8LLVyxG
+- _type_layout_string 5TeaDB23TrigramTokenizerOptionsV
+- _type_layout_string 5TeaDB25Unicode61TokenizerOptionsV
+- _type_layout_string 5TeaDB7OrderByO
+- _type_layout_string 5TeaDB7ValueOfV
+- _type_layout_string 5TeaDB8BaseTypeRzlAA13DeleteCommandVyxG
+- _type_layout_string 5TeaDB8BaseTypeRzlAA13SelectCommandVyxG
+- _type_layout_string 5TeaDB8BaseTypeRzlAA13UpdateCommandVyxG
+- _type_layout_string 5TeaDB8BaseTypeRzlAA16AddColumnCommandVyxG
+- _type_layout_string 5TeaDB8BaseTypeRzlAA18CreateIndexCommandVyxG
+- _type_layout_string 5TeaDB8BaseTypeRzlAA18CreateTableCommandVyxG
+- _type_layout_string 5TeaDB8DatabaseC13ConfigurationV
+- _type_layout_string 5TeaDB8DatabaseC23SchedulingConfigurationV
+- _type_layout_string 5TeaDB8DatabaseC6ErrorsO
+- _type_layout_string 5TeaDB8DatabaseC8LocationO
+- _type_layout_string 5TeaDB8DatabaseC9SchedulerV
+- _type_layout_string 5TeaDB8SQLErrorO
+- _type_layout_string 5TeaDB8VersionsV
+- _type_layout_string 5TeaDB8VersionsV6EntityV
+- _type_layout_string 5TeaDB9AssertionC07RunningC033_21269579B9523E50A23203502C8A3EB9LLV
+- _type_layout_string 5TeaDB9TokenizerO
+- _type_layout_string 5TeaDB9ValueTypeO
+- _type_layout_string SeRzSERz5TeaDB10EntityTypeR_r0_lAA5StoreC8PromisesVyxq__G
+- _type_layout_string So16os_unfair_lock_sV
+- _type_layout_string So6CGRectV
+- _type_layout_string So6CGSizeV
+CStrings:
+- "DROP TABLE table_versions;"
+```

@@ -1,0 +1,195 @@
+## TextInputSwift
+
+> `/System/Library/PrivateFrameworks/TextInputSwift.framework/TextInputSwift`
+
+```diff
+
+-3568.1.8.0.0
+-  __TEXT.__text: 0x14c4
+-  __TEXT.__objc_methlist: 0x2c
+-  __TEXT.__const: 0x9a
+-  __TEXT.__swift5_typeref: 0x7e
++3568.2.4.0.0
++  __TEXT.__text: 0x24c4
++  __TEXT.__objc_methlist: 0x98
++  __TEXT.__const: 0xb2
++  __TEXT.__cstring: 0x40
++  __TEXT.__swift5_typeref: 0x9a
+   __TEXT.__swift5_capture: 0x64
+   __TEXT.__swift_as_entry: 0x14
+   __TEXT.__swift_as_ret: 0x14
+   __TEXT.__swift_as_cont: 0x8
+-  __TEXT.__unwind_info: 0x120
+-  __TEXT.__eh_frame: 0x230
++  __TEXT.__unwind_info: 0x160
++  __TEXT.__eh_frame: 0x228
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x88
+-  __DATA_CONST.__objc_classlist: 0x8
++  __DATA_CONST.__objc_classlist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x18
+-  __DATA_CONST.__got: 0x20
++  __DATA_CONST.__objc_selrefs: 0x48
++  __DATA_CONST.__got: 0x80
+   __AUTH_CONST.__const: 0xc8
+-  __AUTH_CONST.__objc_const: 0x70
+-  __AUTH_CONST.__auth_got: 0x188
+-  __AUTH.__objc_data: 0x48
+-  __DATA.__data: 0x10
++  __AUTH_CONST.__objc_const: 0x1b8
++  __AUTH_CONST.__auth_got: 0x270
++  __AUTH.__objc_data: 0xb8
++  __AUTH.__data: 0x28
++  __DATA.__data: 0x68
+   __DATA_DIRTY.__objc_data: 0x28
+   __DATA_DIRTY.__data: 0x28
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/IntelligenceFlowContext.framework/IntelligenceFlowContext
++  - /System/Library/PrivateFrameworks/UIIntelligenceSupport.framework/UIIntelligenceSupport
+   - /System/Library/PrivateFrameworks/UIIntelligenceSupportAgent.framework/UIIntelligenceSupportAgent
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 34
+-  Symbols:   161
+-  CStrings:  0
++  Functions: 54
++  Symbols:   246
++  CStrings:  2
+ 
+Symbols:
++ _$s21UIIntelligenceSupport19IntelligenceElementV10ScrollableV14scrollableAxesAC4AxisVvg
++ _$s21UIIntelligenceSupport19IntelligenceElementV10ScrollableVMa
++ _$s21UIIntelligenceSupport19IntelligenceElementV16TraversalContextV9ancestorsSayACGvg
++ _$s21UIIntelligenceSupport19IntelligenceElementV18accessibilityLabelSSSgvg
++ _$s21UIIntelligenceSupport19IntelligenceElementV28traverseHierarchyWithContextyyyAC_AC09TraversalH0VtXEF
++ _$s21UIIntelligenceSupport19IntelligenceElementV4AxisV10horizontalAEvgZ
++ _$s21UIIntelligenceSupport19IntelligenceElementV4AxisV8verticalAEvgZ
++ _$s21UIIntelligenceSupport19IntelligenceElementV4AxisVAEs10SetAlgebraAAWL
++ _$s21UIIntelligenceSupport19IntelligenceElementV4AxisVAEs10SetAlgebraAAWlTm
++ _$s21UIIntelligenceSupport19IntelligenceElementV4AxisVMa
++ _$s21UIIntelligenceSupport19IntelligenceElementV4AxisVMn
++ _$s21UIIntelligenceSupport19IntelligenceElementV4AxisVs10SetAlgebraAAMc
++ _$s21UIIntelligenceSupport19IntelligenceElementV4TextV4textSSvg
++ _$s21UIIntelligenceSupport19IntelligenceElementV4TextV8EditableVAGSQAAWL
++ _$s21UIIntelligenceSupport19IntelligenceElementV4TextV8EditableVMa
++ _$s21UIIntelligenceSupport19IntelligenceElementV4TextV8EditableVMn
++ _$s21UIIntelligenceSupport19IntelligenceElementV4TextV8EditableVSQAAMc
++ _$s21UIIntelligenceSupport19IntelligenceElementV4TextV8EditableVSgMR
++ _$s21UIIntelligenceSupport19IntelligenceElementV4TextV8EditableVSgMd
++ _$s21UIIntelligenceSupport19IntelligenceElementV4TextV8EditableVSgWOc
++ _$s21UIIntelligenceSupport19IntelligenceElementV4TextV8EditableVSg_AHtMR
++ _$s21UIIntelligenceSupport19IntelligenceElementV4TextV8EditableVSg_AHtMd
++ _$s21UIIntelligenceSupport19IntelligenceElementV4TextV8editableAE8EditableVSgvg
++ _$s21UIIntelligenceSupport19IntelligenceElementV4TextVMa
++ _$s21UIIntelligenceSupport19IntelligenceElementV7ContentO10scrollableyAeC10ScrollableVcAEmFWC
++ _$s21UIIntelligenceSupport19IntelligenceElementV7ContentO14collectionItemyAeC010CollectionG0VcAEmFWC
++ _$s21UIIntelligenceSupport19IntelligenceElementV7ContentO4baseyA2EmFWC
++ _$s21UIIntelligenceSupport19IntelligenceElementV7ContentO4textyAeC4TextVcAEmFWC
++ _$s21UIIntelligenceSupport19IntelligenceElementV7ContentO6buttonyAeC6ButtonVcAEmFWC
++ _$s21UIIntelligenceSupport19IntelligenceElementV7ContentOMa
++ _$s21UIIntelligenceSupport19IntelligenceElementV7contentAC7ContentOvg
++ _$s21UIIntelligenceSupport19IntelligenceElementVMa
++ _$s26UIIntelligenceSupportAgent012IntelligencebC0C16ElementHierarchyV5rootsSay0aB00dE0VGvg
++ _$sSQ2eeoiySbx_xtFZTj
++ _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ
++ _$sSa034_makeUniqueAndReserveCapacityIfNotB0yyFyXl_Ts5
++ _$sSa10FoundationE19_bridgeToObjectiveCSo7NSArrayCyF
++ _$sSa16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFyXl_Ts5
++ _$sSa37_appendElementAssumeUniqueAndCapacity_03newB0ySi_xntFyXl_Ts5
++ _$sSay21UIIntelligenceSupport19IntelligenceElementV4AxisVGMR
++ _$sSay21UIIntelligenceSupport19IntelligenceElementV4AxisVGMd
++ _$sSay21UIIntelligenceSupport19IntelligenceElementV4AxisVGSayxGSTsWL
++ _$sSay21UIIntelligenceSupport19IntelligenceElementV4AxisVGSayxGSTsWl
++ _$sSayxGSTsMc
++ _$sScPSgWOhTm
++ _$sSo15TIScreenElementC14TextInputSwiftE11elementTypeSo0abG0VvgTo
++ _$sSo15TIScreenElementC14TextInputSwiftE11elementTypeSo0abG0VvpWvd
++ _$sSo15TIScreenElementC14TextInputSwiftE17scrollsVerticallySbvgTo
++ _$sSo15TIScreenElementC14TextInputSwiftE17scrollsVerticallySbvpWvd
++ _$sSo15TIScreenElementC14TextInputSwiftE19scrollsHorizontallySbvgTo
++ _$sSo15TIScreenElementC14TextInputSwiftE19scrollsHorizontallySbvpWvd
++ _$sSo15TIScreenElementC14TextInputSwiftE4textSSSgvgTo
++ _$sSo15TIScreenElementC14TextInputSwiftE4textSSSgvpWvd
++ _$sSo15TIScreenElementC14TextInputSwiftE5depth11elementType4text19scrollsHorizontally0J10VerticallyABSi_So0abH0VSSSgS2btcfcTo
++ _$sSo15TIScreenElementC14TextInputSwiftE5depthSivgTo
++ _$sSo15TIScreenElementC14TextInputSwiftE5depthSivpWvd
++ _$sSo15TIScreenElementC14TextInputSwiftEABycfC
++ _$sSo15TIScreenElementC14TextInputSwiftEABycfc
++ _$sSo15TIScreenElementC14TextInputSwiftEABycfcTo
++ _$sSo15TIScreenElementC14TextInputSwiftE_5depthAB21UIIntelligenceSupport012IntelligenceB0V_SitcfC
++ _$sSo15TIScreenElementCML
++ _$sSo15TIScreenElementCMa
++ _$sSo15TIScreenElementCfETo
++ _$sSo24TIClientContextRetrieverC14TextInputSwiftE24retrieveElementHierarchy11withVerbose4argsSaySo08TIScreenH0CGSb_SaySSGtYaKFTf4nddn_n
++ _$sSo24TIClientContextRetrieverC14TextInputSwiftE24retrieveElementHierarchy11withVerbose4argsSaySo08TIScreenH0CGSb_SaySSGtYaKFTf4nddn_nTQ0_
++ _$sSo24TIClientContextRetrieverC14TextInputSwiftE24retrieveElementHierarchy11withVerbose4argsSaySo08TIScreenH0CGSb_SaySSGtYaKFTf4nddn_nTY1_
++ _$sSo24TIClientContextRetrieverC14TextInputSwiftE24retrieveElementHierarchy11withVerbose4argsSaySo08TIScreenH0CGSb_SaySSGtYaKFTf4nddn_nTY2_
++ _$sSo24TIClientContextRetrieverC14TextInputSwiftE24retrieveElementHierarchy11withVerbose4argsSaySo08TIScreenH0CGSb_SaySSGtYaKFTf4nddn_nTu
++ _$sSo24TIClientContextRetrieverC14TextInputSwiftE24retrieveElementHierarchy11withVerbose4argsSaySo08TIScreenH0CGSb_SaySSGtYaKFTo
++ _$sSo24TIClientContextRetrieverC14TextInputSwiftE24retrieveElementHierarchy11withVerbose4argsSaySo08TIScreenH0CGSb_SaySSGtYaKFy21UIIntelligenceSupport012IntelligenceH0V_AM09TraversalB0VtXEfU_
++ _$sSo24TIClientContextRetrieverC14TextInputSwiftE24retrieveElementHierarchy11withVerbose4argsSaySo08TIScreenH0CGSb_SaySSGtYaKFy21UIIntelligenceSupport012IntelligenceH0V_AM09TraversalB0VtXEfU_TA
++ _$sSo24TIClientContextRetrieverC14TextInputSwiftE24retrieveElementHierarchy11withVerbose4argsSaySo08TIScreenH0CGSb_SaySSGtYaKFyyYacfU_To
++ _$sSo24TIClientContextRetrieverC14TextInputSwiftE24retrieveElementHierarchy11withVerbose4argsSaySo08TIScreenH0CGSb_SaySSGtYaKFyyYacfU_ToTA
++ _$sSo24TIClientContextRetrieverC14TextInputSwiftE24retrieveElementHierarchy11withVerbose4argsSaySo08TIScreenH0CGSb_SaySSGtYaKFyyYacfU_ToTATQ0_
++ _$sSo24TIClientContextRetrieverC14TextInputSwiftE24retrieveElementHierarchy11withVerbose4argsSaySo08TIScreenH0CGSb_SaySSGtYaKFyyYacfU_ToTATu
++ _$sSo24TIClientContextRetrieverC14TextInputSwiftE24retrieveElementHierarchy11withVerbose4argsSaySo08TIScreenH0CGSb_SaySSGtYaKFyyYacfU_ToTQ0_
++ _$sSo24TIClientContextRetrieverC14TextInputSwiftE24retrieveElementHierarchy11withVerbose4argsSaySo08TIScreenH0CGSb_SaySSGtYaKFyyYacfU_ToTu
++ _$sSo24TIClientContextRetrieverC14TextInputSwiftEABycfCTm
++ _$sSo24TIClientContextRetrieverCMaTm
++ _$ss10SetAlgebraP10isSuperset2ofSbx_tFTj
++ _$ss10SetAlgebraPyxqd__ncSTRd__7ElementQyd__ACRtzlufCTj
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tgq5TA.21TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tgq5TA.21Tu
++ _OBJC_CLASS_$_TIScreenElement
++ _OBJC_METACLASS_$_TIScreenElement
++ __DATA_TIScreenElement
++ __INSTANCE_METHODS_TIScreenElement
++ __IVARS_TIScreenElement
++ __METACLASS_DATA_TIScreenElement
++ __PROPERTIES_TIScreenElement
++ ___swift_closure_destructor.7Tm
++ ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
++ __swiftEmptyArrayStorage
++ __swift_stdlib_reportUnimplementedInitializer
++ _objc_autoreleaseReturnValue
++ _objc_release_x22
++ _objc_release_x24
++ _swift_bridgeObjectRetain
++ _swift_getTypeByMangledNameInContextInMetadataState2
++ _swift_getWitnessTable
++ _symbolic Say_____G 21UIIntelligenceSupport19IntelligenceElementV4AxisV
++ _symbolic So7NSArrayCSgSo7NSErrorCSgIeyByy_Sg
++ _symbolic _____Sg 21UIIntelligenceSupport19IntelligenceElementV4TextV8EditableV
++ _symbolic _____Sg_ABt 21UIIntelligenceSupport19IntelligenceElementV4TextV8EditableV
+- _$s26UIIntelligenceSupportAgent012IntelligencebC0C16ElementHierarchyV20recursiveDescriptionSSvg
+- _$sScPSgWOh
+- _$sSo24TIClientContextRetrieverC14TextInputSwiftE24retrieveElementHierarchy11withVerbose4argsSSSb_SaySSGtYaKFTf4nddn_n
+- _$sSo24TIClientContextRetrieverC14TextInputSwiftE24retrieveElementHierarchy11withVerbose4argsSSSb_SaySSGtYaKFTf4nddn_nTQ0_
+- _$sSo24TIClientContextRetrieverC14TextInputSwiftE24retrieveElementHierarchy11withVerbose4argsSSSb_SaySSGtYaKFTf4nddn_nTY1_
+- _$sSo24TIClientContextRetrieverC14TextInputSwiftE24retrieveElementHierarchy11withVerbose4argsSSSb_SaySSGtYaKFTf4nddn_nTY2_
+- _$sSo24TIClientContextRetrieverC14TextInputSwiftE24retrieveElementHierarchy11withVerbose4argsSSSb_SaySSGtYaKFTf4nddn_nTu
+- _$sSo24TIClientContextRetrieverC14TextInputSwiftE24retrieveElementHierarchy11withVerbose4argsSSSb_SaySSGtYaKFTo
+- _$sSo24TIClientContextRetrieverC14TextInputSwiftE24retrieveElementHierarchy11withVerbose4argsSSSb_SaySSGtYaKFyyYacfU_To
+- _$sSo24TIClientContextRetrieverC14TextInputSwiftE24retrieveElementHierarchy11withVerbose4argsSSSb_SaySSGtYaKFyyYacfU_ToTA
+- _$sSo24TIClientContextRetrieverC14TextInputSwiftE24retrieveElementHierarchy11withVerbose4argsSSSb_SaySSGtYaKFyyYacfU_ToTATQ0_
+- _$sSo24TIClientContextRetrieverC14TextInputSwiftE24retrieveElementHierarchy11withVerbose4argsSSSb_SaySSGtYaKFyyYacfU_ToTATu
+- _$sSo24TIClientContextRetrieverC14TextInputSwiftE24retrieveElementHierarchy11withVerbose4argsSSSb_SaySSGtYaKFyyYacfU_ToTQ0_
+- _$sSo24TIClientContextRetrieverC14TextInputSwiftE24retrieveElementHierarchy11withVerbose4argsSSSb_SaySSGtYaKFyyYacfU_ToTu
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tgq5TA.18TQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tgq5TA.18Tu
+- ___swift_closure_destructor.4Tm
+- _objc_release_x25
+- _symbolic So8NSStringCSgSo7NSErrorCSgIeyByy_Sg
+CStrings:
++ "TIImportIntelligenceFlowContext_Internal.TIScreenElement"
++ "init()"
+```

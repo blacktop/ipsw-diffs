@@ -7,6 +7,7 @@
 ## DIFFS
 
 <p><strong>Quick Nav:</strong>
+<a href="#ios-27-3-beta">iOS 27.3 beta</a> ·
 <a href="#ios-26-6">iOS 26.6</a> ·
 <a href="#ios-27-2-beta">iOS 27.2 beta</a> ·
 <a href="#ios-27-0">iOS 27.0</a> ·
@@ -53,6 +54,17 @@
 <a href="#macos-15-4">macOS 15.4</a> ·
 <a href="#macos-15-0-beta">macOS 15.0 beta</a>
 </p>
+
+<a id="ios-27-3-beta"></a>
+
+### iOS 27.3 beta
+
+<details open>
+  <summary>View diffs</summary>
+
+- [27.2 (24B115) .vs 27.3 beta 1 (24C5037i)](iOS/27_2_24B115_vs_27_3_24C5037i/README.md)
+
+</details>
 
 <a id="ios-27-2-beta"></a>
 

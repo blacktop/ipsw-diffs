@@ -1,0 +1,91 @@
+## NewsUI2
+
+> `FileSystem/System/Library/PrivateFrameworks/NewsUI2.framework/Localizable.loctable`
+
+```diff
+
+ en.Add Favorites = "Add Favorites"
+ en.Add to Favorites = "Add to Favorites"
+ en.Alerts from Apple News = "Alerts from Apple News"
++en.All Episodes = "All Episodes"
+ en.All Sports = "All Sports"
+ en.All Titles = "All Titles"
+ en.Allow = "Allow"
+
+ en.Back = "Back"
+ en.Best of News+ = "Best of News+"
+ en.Block %@ = "Block %@"
++en.Block %@… = "Block %@…"
+ en.Block from Today = "Block from Today"
+ en.Blocked = "Blocked"
+ en.Blocked Channels & Topics = "Blocked Channels \u0026 Topics"
+
+ en.Connected to Internet = "Connected to Internet"
+ en.Content Unavailable = "Content Unavailable"
+ en.Continue = "Continue"
++en.Continue Listening = "Continue Listening"
+ en.Continue Playing = "Continue Playing"
+ en.Continue Reading = "Continue Reading"
+ en.Copy Link = "Copy Link"
+
+ en.Filtering by difficulty = "Filtering by difficulty"
+ en.Filtering by play state = "Filtering by play state"
+ en.Filtering by play state and difficulty = "Filtering by play state and difficulty"
++en.Filtering is on. Tap to change filter options = "Filtering is on. Tap to change filter options"
+ en.Filters = "Filters"
+ en.Find Next = "Find Next"
+ en.Find Previous = "Find Previous"
+
+ en.Get show notes while listening to %@. = "Get show notes while listening to %@."
+ en.Go back = "Go back"
+ en.Go to App Store = "Go to App Store"
+-en.Go to Channel  = "Go to Channel "
+ en.Go to Channel = "Go to Channel"
+ en.Go to Issue = "Go to Issue"
+ en.Go to Settings = "Go to Settings"
+
+ en.Play = "Play"
+ en.Play All = "Play All"
+ en.Play Last = "Play Last"
+-en.Play Last from Here = "Play Last from Here"
+ en.Play Next = "Play Next"
+-en.Play Next from Here = "Play Next from Here"
+ en.Play Now = "Play Now"
+-en.Play from Here = "Play from Here"
+ en.Played = "Played"
+ en.Playing = "Playing"
+ en.Please check back later. = "Please check back later."
+
+ en.Results = "Results"
+ en.Save Story = "Save Story"
+ en.Save for Later = "Save for Later"
++en.Saved = "Saved"
+ en.Saved Recipes = "Saved Recipes"
+ en.Saved Recipes Filter = "Saved Recipes Filter"
+ en.Saved Stories = "Saved Stories"
+
+ en.Toggle search completions = "Toggle search completions"
+ en.Top Rated = "Top Rated"
+ en.Top Result = "Top Result"
++en.Top Stories = "Top Stories"
+ en.Top Stories You Can Trust = "Top Stories You Can Trust"
+ en.Topic = "Topic"
+ en.Topics = "Topics"
+
+ en.Unavailable = "Unavailable"
+ en.Unblock %@ = "Unblock %@"
+ en.Unblock = "Unblock"
++en.Unblock the channels and topics you want to see content from. = "Unblock the channels and topics you want to see content from."
+ en.Unblocked %@ = "Unblocked %@"
+ en.Unfollow %@ = "Unfollow %@"
+ en.Unfollow = "Unfollow"
+
+ en.Zoom In = "Zoom In"
+ en.Zoom Out = "Zoom Out"
+ en.feed = "feed"
++en.from Blocked Channels = "from Blocked Channels"
+ en.game = "game"
+ en.https://www.apple.com/apple-news/ = "https://www.apple.com/apple-news/"
+ en.issues = "issues"
+
+```

@@ -1,0 +1,511 @@
+## WeatherData
+
+> `/System/Library/PrivateFrameworks/WeatherData.framework/WeatherData`
+
+```diff
+
+-1474.0.0.0.0
+-  __TEXT.__text: 0x41f74
+-  __TEXT.__const: 0x4070
+-  __TEXT.__cstring: 0x6c4
+-  __TEXT.__swift5_typeref: 0x986
+-  __TEXT.__swift5_reflstr: 0xe90
+-  __TEXT.__swift5_assocty: 0x768
+-  __TEXT.__constg_swiftt: 0x1044
+-  __TEXT.__swift5_fieldmd: 0x19b4
+-  __TEXT.__swift5_proto: 0x630
+-  __TEXT.__swift5_types: 0x1c8
++1508.0.0.0.0
++  __TEXT.__text: 0x412bc
++  __TEXT.__const: 0x3dc0
++  __TEXT.__cstring: 0x5e4
++  __TEXT.__swift5_typeref: 0x938
++  __TEXT.__swift5_reflstr: 0xd30
++  __TEXT.__swift5_assocty: 0x708
++  __TEXT.__constg_swiftt: 0xfb8
++  __TEXT.__swift5_fieldmd: 0x18f8
++  __TEXT.__swift5_proto: 0x5e4
++  __TEXT.__swift5_types: 0x1b4
+   __TEXT.__swift5_protos: 0x34
+   __TEXT.__swift5_builtin: 0x28
+   __TEXT.__swift5_mpenum: 0x18
+-  __TEXT.__unwind_info: 0x1b48
+-  __TEXT.__eh_frame: 0x1ee8
++  __TEXT.__unwind_info: 0x1900
++  __TEXT.__eh_frame: 0x1d98
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+
+   __DATA_CONST.__objc_classlist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x4b90
++  __AUTH_CONST.__const: 0x4828
+   __AUTH_CONST.__objc_const: 0x270
+-  __AUTH_CONST.__auth_got: 0x3a8
+-  __AUTH.__data: 0x7d8
+-  __DATA.__data: 0x300
++  __AUTH_CONST.__auth_got: 0x3a0
++  __AUTH.__data: 0x778
++  __DATA.__data: 0x2f0
+   __DATA_DIRTY.__data: 0x2d8
+-  __DATA_DIRTY.__bss: 0x80
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  Functions: 3028
+-  Symbols:   680
+-  CStrings:  52
++  Functions: 2903
++  Symbols:   660
++  CStrings:  45
+ 
+Symbols:
++ _associated conformance 11WeatherData04WK3_A22HighlightParameterTypeOAA4EnumAA1TAaDP_AA10Verifiable
++ _associated conformance 11WeatherData04WK3_A22HighlightParameterTypeOAA4EnumAA1TAaDP_AA6Scalar
++ _associated conformance 11WeatherData04WK3_A22HighlightParameterTypeOSHAASQ
++ _associated conformance 11WeatherData04WK3_A9ConditionOAA4EnumAA1TAaDP_AA10Verifiable
++ _associated conformance 11WeatherData04WK3_A9ConditionOAA4EnumAA1TAaDP_AA6Scalar
++ _associated conformance 11WeatherData04WK3_A9ConditionOSHAASQ
++ _associated conformance 11WeatherData13WK3_DeviationOAA4EnumAA1TAaDP_AA10Verifiable
++ _associated conformance 11WeatherData13WK3_DeviationOAA4EnumAA1TAaDP_AA6Scalar
++ _associated conformance 11WeatherData13WK3_DeviationOSHAASQ
++ _associated conformance 11WeatherData13WK3_MoonPhaseOAA4EnumAA1TAaDP_AA10Verifiable
++ _associated conformance 11WeatherData13WK3_MoonPhaseOAA4EnumAA1TAaDP_AA6Scalar
++ _associated conformance 11WeatherData13WK3_MoonPhaseOSHAASQ
++ _associated conformance 11WeatherData13WK3_PlacementOAA4EnumAA1TAaDP_AA10Verifiable
++ _associated conformance 11WeatherData13WK3_PlacementOAA4EnumAA1TAaDP_AA6Scalar
++ _associated conformance 11WeatherData13WK3_PlacementOSHAASQ
++ _associated conformance 11WeatherData13WK3_WindUnitsOAA4EnumAA1TAaDP_AA10Verifiable
++ _associated conformance 11WeatherData13WK3_WindUnitsOAA4EnumAA1TAaDP_AA6Scalar
++ _associated conformance 11WeatherData13WK3_WindUnitsOSHAASQ
++ _associated conformance 11WeatherData14WK3_SourceTypeOAA4EnumAA1TAaDP_AA10Verifiable
++ _associated conformance 11WeatherData14WK3_SourceTypeOAA4EnumAA1TAaDP_AA6Scalar
++ _associated conformance 11WeatherData14WK3_SourceTypeOSHAASQ
++ _associated conformance 11WeatherData16WK3_AlertUrgencyOAA4EnumAA1TAaDP_AA10Verifiable
++ _associated conformance 11WeatherData16WK3_AlertUrgencyOAA4EnumAA1TAaDP_AA6Scalar
++ _associated conformance 11WeatherData16WK3_AlertUrgencyOSHAASQ
++ _associated conformance 11WeatherData17WK3_AlertSeverityOAA4EnumAA1TAaDP_AA10Verifiable
++ _associated conformance 11WeatherData17WK3_AlertSeverityOAA4EnumAA1TAaDP_AA6Scalar
++ _associated conformance 11WeatherData17WK3_AlertSeverityOSHAASQ
++ _associated conformance 11WeatherData17WK3_ConditionCodeOAA4EnumAA1TAaDP_AA10Verifiable
++ _associated conformance 11WeatherData17WK3_ConditionCodeOAA4EnumAA1TAaDP_AA6Scalar
++ _associated conformance 11WeatherData17WK3_ConditionCodeOSHAASQ
++ _associated conformance 11WeatherData17WK3_DistanceUnitsOAA4EnumAA1TAaDP_AA10Verifiable
++ _associated conformance 11WeatherData17WK3_DistanceUnitsOAA4EnumAA1TAaDP_AA6Scalar
++ _associated conformance 11WeatherData17WK3_DistanceUnitsOSHAASQ
++ _associated conformance 11WeatherData17WK3_ForecastTokenOAA4EnumAA1TAaDP_AA10Verifiable
++ _associated conformance 11WeatherData17WK3_ForecastTokenOAA4EnumAA1TAaDP_AA6Scalar
++ _associated conformance 11WeatherData17WK3_ForecastTokenOSHAASQ
++ _associated conformance 11WeatherData17WK3_PollutantTypeOAA4EnumAA1TAaDP_AA10Verifiable
++ _associated conformance 11WeatherData17WK3_PollutantTypeOAA4EnumAA1TAaDP_AA6Scalar
++ _associated conformance 11WeatherData17WK3_PollutantTypeOSHAASQ
++ _associated conformance 11WeatherData17WK3_PollutantUnitOAA4EnumAA1TAaDP_AA10Verifiable
++ _associated conformance 11WeatherData17WK3_PollutantUnitOAA4EnumAA1TAaDP_AA6Scalar
++ _associated conformance 11WeatherData17WK3_PollutantUnitOSHAASQ
++ _associated conformance 11WeatherData17WK3_PressureTrendOAA4EnumAA1TAaDP_AA10Verifiable
++ _associated conformance 11WeatherData17WK3_PressureTrendOAA4EnumAA1TAaDP_AA6Scalar
++ _associated conformance 11WeatherData17WK3_PressureTrendOSHAASQ
++ _associated conformance 11WeatherData17WK3_PressureUnitsOAA4EnumAA1TAaDP_AA10Verifiable
++ _associated conformance 11WeatherData17WK3_PressureUnitsOAA4EnumAA1TAaDP_AA6Scalar
++ _associated conformance 11WeatherData17WK3_PressureUnitsOSHAASQ
++ _associated conformance 11WeatherData17WK3_TideEventTypeOAA4EnumAA1TAaDP_AA10Verifiable
++ _associated conformance 11WeatherData17WK3_TideEventTypeOAA4EnumAA1TAaDP_AA6Scalar
++ _associated conformance 11WeatherData17WK3_TideEventTypeOSHAASQ
++ _associated conformance 11WeatherData18WK3_AlertCertaintyOAA4EnumAA1TAaDP_AA10Verifiable
++ _associated conformance 11WeatherData18WK3_AlertCertaintyOAA4EnumAA1TAaDP_AA6Scalar
++ _associated conformance 11WeatherData18WK3_AlertCertaintyOSHAASQ
++ _associated conformance 11WeatherData18WK3_ConditionTokenOAA4EnumAA1TAaDP_AA10Verifiable
++ _associated conformance 11WeatherData18WK3_ConditionTokenOAA4EnumAA1TAaDP_AA6Scalar
++ _associated conformance 11WeatherData18WK3_ConditionTokenOSHAASQ
++ _associated conformance 11WeatherData19WK3_AlertImportanceOAA4EnumAA1TAaDP_AA10Verifiable
++ _associated conformance 11WeatherData19WK3_AlertImportanceOAA4EnumAA1TAaDP_AA6Scalar
++ _associated conformance 11WeatherData19WK3_AlertImportanceOSHAASQ
++ _associated conformance 11WeatherData19WK3_ChangeDirectionOAA4EnumAA1TAaDP_AA10Verifiable
++ _associated conformance 11WeatherData19WK3_ChangeDirectionOAA4EnumAA1TAaDP_AA6Scalar
++ _associated conformance 11WeatherData19WK3_ChangeDirectionOSHAASQ
++ _associated conformance 11WeatherData20WK3_TemperatureUnitsOAA4EnumAA1TAaDP_AA10Verifiable
++ _associated conformance 11WeatherData20WK3_TemperatureUnitsOAA4EnumAA1TAaDP_AA6Scalar
++ _associated conformance 11WeatherData20WK3_TemperatureUnitsOSHAASQ
++ _associated conformance 11WeatherData21WK3_AlertResponseTypeOAA4EnumAA1TAaDP_AA10Verifiable
++ _associated conformance 11WeatherData21WK3_AlertResponseTypeOAA4EnumAA1TAaDP_AA6Scalar
++ _associated conformance 11WeatherData21WK3_AlertResponseTypeOSHAASQ
++ _associated conformance 11WeatherData21WK3_AlertSignificanceOAA4EnumAA1TAaDP_AA10Verifiable
++ _associated conformance 11WeatherData21WK3_AlertSignificanceOAA4EnumAA1TAaDP_AA6Scalar
++ _associated conformance 11WeatherData21WK3_AlertSignificanceOSHAASQ
++ _associated conformance 11WeatherData21WK3_PrecipitationTypeOAA4EnumAA1TAaDP_AA10Verifiable
++ _associated conformance 11WeatherData21WK3_PrecipitationTypeOAA4EnumAA1TAaDP_AA6Scalar
++ _associated conformance 11WeatherData21WK3_PrecipitationTypeOSHAASQ
++ _associated conformance 11WeatherData22WK3_PrecipitationUnitsOAA4EnumAA1TAaDP_AA10Verifiable
++ _associated conformance 11WeatherData22WK3_PrecipitationUnitsOAA4EnumAA1TAaDP_AA6Scalar
++ _associated conformance 11WeatherData22WK3_PrecipitationUnitsOSHAASQ
++ _associated conformance 11WeatherData23WK3_ComparisonConditionOAA4EnumAA1TAaDP_AA10Verifiable
++ _associated conformance 11WeatherData23WK3_ComparisonConditionOAA4EnumAA1TAaDP_AA6Scalar
++ _associated conformance 11WeatherData23WK3_ComparisonConditionOSHAASQ
++ _associated conformance 11WeatherData25WK3_PreviousDayComparisonOAA4EnumAA1TAaDP_AA10Verifiable
++ _associated conformance 11WeatherData25WK3_PreviousDayComparisonOAA4EnumAA1TAaDP_AA6Scalar
++ _associated conformance 11WeatherData25WK3_PreviousDayComparisonOSHAASQ
++ _associated conformance 11WeatherData26WK3_ComparisonBaselineTypeOAA4EnumAA1TAaDP_AA10Verifiable
++ _associated conformance 11WeatherData26WK3_ComparisonBaselineTypeOAA4EnumAA1TAaDP_AA6Scalar
++ _associated conformance 11WeatherData26WK3_ComparisonBaselineTypeOSHAASQ
++ _associated conformance 11WeatherData26WK3_ForecastSummaryContextOAA4EnumAA1TAaDP_AA10Verifiable
++ _associated conformance 11WeatherData26WK3_ForecastSummaryContextOAA4EnumAA1TAaDP_AA6Scalar
++ _associated conformance 11WeatherData26WK3_ForecastSummaryContextOSHAASQ
++ _associated conformance 11WeatherData39WK3_PrecipitationConditionParameterTypeOAA4EnumAA1TAaDP_AA10Verifiable
++ _associated conformance 11WeatherData39WK3_PrecipitationConditionParameterTypeOAA4EnumAA1TAaDP_AA6Scalar
++ _associated conformance 11WeatherData39WK3_PrecipitationConditionParameterTypeOSHAASQ
++ _symbolic _____ 11WeatherData010WK3_HourlyA10StatisticsV
++ _symbolic _____ 11WeatherData011WK3_CurrentA0V
++ _symbolic _____ 11WeatherData011WK3_MonthlyA10StatisticsV
++ _symbolic _____ 11WeatherData013WK3_DayOfYearA10StatisticsV
++ _symbolic _____ 11WeatherData014WK3_HourOfYearA10StatisticsV
++ _symbolic _____ 11WeatherData04WK3_A0V
++ _symbolic _____ 11WeatherData04WK3_A10CollectionV
++ _symbolic _____ 11WeatherData04WK3_A10HighlightsV
++ _symbolic _____ 11WeatherData04WK3_A12AlertSummaryV
++ _symbolic _____ 11WeatherData04WK3_A15AlertCollectionV
++ _symbolic _____ 11WeatherData04WK3_A18HighlightsResponseV
++ _symbolic _____ 11WeatherData04WK3_A19HighlightsStatementV
++ _symbolic _____ 11WeatherData04WK3_A22HighlightParameterTypeO
++ _symbolic _____ 11WeatherData04WK3_A27HighlightsResponseParameterV
++ _symbolic _____ 11WeatherData04WK3_A27HighlightsResponseStatementV
++ _symbolic _____ 11WeatherData04WK3_A7ChangesV
++ _symbolic _____ 11WeatherData04WK3_A9ConditionO
++ _symbolic _____ 11WeatherData04WK3_B6NoticeV
++ _symbolic _____ 11WeatherData07WK3_DayA10ConditionsV
++ _symbolic _____ 11WeatherData08WK3_HourA10ConditionsV
++ _symbolic _____ 11WeatherData09WK3_DailyA10StatisticsV
++ _symbolic _____ 11WeatherData09WK3_MonthA10StatisticsV
++ _symbolic _____ 11WeatherData11WK3_ArticleV
++ _symbolic _____ 11WeatherData12WK3_HourTideV
++ _symbolic _____ 11WeatherData12WK3_LocationV
++ _symbolic _____ 11WeatherData12WK3_MetadataV
++ _symbolic _____ 11WeatherData13WK3_DeviationO
++ _symbolic _____ 11WeatherData13WK3_EventTextV
++ _symbolic _____ 11WeatherData13WK3_MoonPhaseO
++ _symbolic _____ 11WeatherData13WK3_PlacementO
++ _symbolic _____ 11WeatherData13WK3_PollutantV
++ _symbolic _____ 11WeatherData13WK3_QuantilesV
++ _symbolic _____ 11WeatherData13WK3_TideEventV
++ _symbolic _____ 11WeatherData13WK3_WindUnitsO
++ _symbolic _____ 11WeatherData14WK3_AirQualityV
++ _symbolic _____ 11WeatherData14WK3_DaySummaryV
++ _symbolic _____ 11WeatherData14WK3_SourceTypeO
++ _symbolic _____ 11WeatherData14WK3_TideEventsV
++ _symbolic _____ 11WeatherData14WK3_TimePeriodV
++ _symbolic _____ 11WeatherData16WK3_AlertUrgencyO
++ _symbolic _____ 11WeatherData16WK3_CallToActionV
++ _symbolic _____ 11WeatherData16WK3_DailySummaryV
++ _symbolic _____ 11WeatherData16WK3_LocationInfoV
++ _symbolic _____ 11WeatherData17WK3_AlertSeverityO
++ _symbolic _____ 11WeatherData17WK3_ConditionCodeO
++ _symbolic _____ 11WeatherData17WK3_DailyForecastV
++ _symbolic _____ 11WeatherData17WK3_DistanceUnitsO
++ _symbolic _____ 11WeatherData17WK3_ForecastTokenO
++ _symbolic _____ 11WeatherData17WK3_NewsPlacementV
++ _symbolic _____ 11WeatherData17WK3_PollutantTypeO
++ _symbolic _____ 11WeatherData17WK3_PollutantUnitO
++ _symbolic _____ 11WeatherData17WK3_PressureTrendO
++ _symbolic _____ 11WeatherData17WK3_PressureUnitsO
++ _symbolic _____ 11WeatherData17WK3_TideEventTypeO
++ _symbolic _____ 11WeatherData18WK3_AlertCertaintyO
++ _symbolic _____ 11WeatherData18WK3_ConditionTokenO
++ _symbolic _____ 11WeatherData18WK3_ForecastMinuteV
++ _symbolic _____ 11WeatherData18WK3_HourlyForecastV
++ _symbolic _____ 11WeatherData18WK3_TrendDeviationV
++ _symbolic _____ 11WeatherData19WK3_AlertImportanceO
++ _symbolic _____ 11WeatherData19WK3_ChangeDirectionO
++ _symbolic _____ 11WeatherData19WK3_DayPartForecastV
++ _symbolic _____ 11WeatherData19WK3_ForecastSummaryV
++ _symbolic _____ 11WeatherData20WK3_NextHourForecastV
++ _symbolic _____ 11WeatherData20WK3_PeriodicForecastV
++ _symbolic _____ 11WeatherData20WK3_TemperatureUnitsO
++ _symbolic _____ 11WeatherData21WK3_AlertResponseTypeO
++ _symbolic _____ 11WeatherData21WK3_AlertSignificanceO
++ _symbolic _____ 11WeatherData21WK3_ForecastConditionV
++ _symbolic _____ 11WeatherData21WK3_PeriodicForecastsV
++ _symbolic _____ 11WeatherData21WK3_PrecipitationTypeO
++ _symbolic _____ 11WeatherData22WK3_PrecipitationRangeV
++ _symbolic _____ 11WeatherData22WK3_PrecipitationUnitsO
++ _symbolic _____ 11WeatherData22WK3_TimePeriod_MutableV
++ _symbolic _____ 11WeatherData23WK3_ComparisonConditionO
++ _symbolic _____ 11WeatherData24WK3_HistoricalComparisonV
++ _symbolic _____ 11WeatherData24WK3_HourMarineConditionsV
++ _symbolic _____ 11WeatherData25WK3_ForecastPeriodSummaryV
++ _symbolic _____ 11WeatherData25WK3_HistoricalComparisonsV
++ _symbolic _____ 11WeatherData25WK3_PreviousDayComparisonO
++ _symbolic _____ 11WeatherData26WK3_ComparisonBaselineTypeO
++ _symbolic _____ 11WeatherData26WK3_ForecastSummaryContextO
++ _symbolic _____ 11WeatherData26WK3_ForecastSummaryRequestV
++ _symbolic _____ 11WeatherData26WK3_HourlyMarineConditionsV
++ _symbolic _____ 11WeatherData26WK3_PrecipitationTypeRangeV
++ _symbolic _____ 11WeatherData28WK3_ForecastSummaryStatementV
++ _symbolic _____ 11WeatherData35WK3_PrecipitationConditionParameterV
++ _symbolic _____ 11WeatherData39WK3_PrecipitationConditionParameterTypeO
++ _symbolic _____ 11WeatherData8WK3_NewsV
++ _symbolic _____ 11WeatherData8WK3_UUIDV
++ _symbolic _____ 11WeatherData9WK3_RangeV
++ _symbolic _____ 11WeatherData9WK3_SwellV
++ _symbolic _____m 11WeatherData14WK3_TimePeriodV
++ _symbolic _____y_____G 11WeatherData13ForwardOffsetO AA14WK3_TimePeriodV
++ _type_layout_string 11WeatherData010WK3_HourlyA10StatisticsV
++ _type_layout_string 11WeatherData011WK3_MonthlyA10StatisticsV
++ _type_layout_string 11WeatherData04WK3_A0V
++ _type_layout_string 11WeatherData04WK3_A10CollectionV
++ _type_layout_string 11WeatherData04WK3_A12AlertSummaryV
++ _type_layout_string 11WeatherData04WK3_A15AlertCollectionV
++ _type_layout_string 11WeatherData04WK3_A18HighlightsResponseV
++ _type_layout_string 11WeatherData09WK3_DailyA10StatisticsV
++ _type_layout_string 11WeatherData13WK3_QuantilesV
++ _type_layout_string 11WeatherData14WK3_TimePeriodV
++ _type_layout_string 11WeatherData16WK3_DailySummaryV
++ _type_layout_string 11WeatherData19WK3_ForecastSummaryV
++ _type_layout_string 11WeatherData22WK3_TimePeriod_MutableV
++ _type_layout_string 11WeatherData8WK3_UUIDV
+- _OUTLINED_FUNCTION_271
+- _OUTLINED_FUNCTION_272
+- _OUTLINED_FUNCTION_273
+- _OUTLINED_FUNCTION_274
+- _OUTLINED_FUNCTION_275
+- _OUTLINED_FUNCTION_276
+- _OUTLINED_FUNCTION_277
+- _OUTLINED_FUNCTION_278
+- _associated conformance 11WeatherData04WK2_A22HighlightParameterTypeOAA4EnumAA1TAaDP_AA10Verifiable
+- _associated conformance 11WeatherData04WK2_A22HighlightParameterTypeOAA4EnumAA1TAaDP_AA6Scalar
+- _associated conformance 11WeatherData04WK2_A22HighlightParameterTypeOSHAASQ
+- _associated conformance 11WeatherData04WK2_A9ConditionOAA4EnumAA1TAaDP_AA10Verifiable
+- _associated conformance 11WeatherData04WK2_A9ConditionOAA4EnumAA1TAaDP_AA6Scalar
+- _associated conformance 11WeatherData04WK2_A9ConditionOSHAASQ
+- _associated conformance 11WeatherData13WK2_DeviationOAA4EnumAA1TAaDP_AA10Verifiable
+- _associated conformance 11WeatherData13WK2_DeviationOAA4EnumAA1TAaDP_AA6Scalar
+- _associated conformance 11WeatherData13WK2_DeviationOSHAASQ
+- _associated conformance 11WeatherData13WK2_MoonPhaseOAA4EnumAA1TAaDP_AA10Verifiable
+- _associated conformance 11WeatherData13WK2_MoonPhaseOAA4EnumAA1TAaDP_AA6Scalar
+- _associated conformance 11WeatherData13WK2_MoonPhaseOSHAASQ
+- _associated conformance 11WeatherData13WK2_PlacementOAA4EnumAA1TAaDP_AA10Verifiable
+- _associated conformance 11WeatherData13WK2_PlacementOAA4EnumAA1TAaDP_AA6Scalar
+- _associated conformance 11WeatherData13WK2_PlacementOSHAASQ
+- _associated conformance 11WeatherData13WK2_TimeOfDayOAA4EnumAA1TAaDP_AA10Verifiable
+- _associated conformance 11WeatherData13WK2_TimeOfDayOAA4EnumAA1TAaDP_AA6Scalar
+- _associated conformance 11WeatherData13WK2_TimeOfDayOSHAASQ
+- _associated conformance 11WeatherData13WK2_WindUnitsOAA4EnumAA1TAaDP_AA10Verifiable
+- _associated conformance 11WeatherData13WK2_WindUnitsOAA4EnumAA1TAaDP_AA6Scalar
+- _associated conformance 11WeatherData13WK2_WindUnitsOSHAASQ
+- _associated conformance 11WeatherData14WK2_SourceTypeOAA4EnumAA1TAaDP_AA10Verifiable
+- _associated conformance 11WeatherData14WK2_SourceTypeOAA4EnumAA1TAaDP_AA6Scalar
+- _associated conformance 11WeatherData14WK2_SourceTypeOSHAASQ
+- _associated conformance 11WeatherData16WK2_AlertUrgencyOAA4EnumAA1TAaDP_AA10Verifiable
+- _associated conformance 11WeatherData16WK2_AlertUrgencyOAA4EnumAA1TAaDP_AA6Scalar
+- _associated conformance 11WeatherData16WK2_AlertUrgencyOSHAASQ
+- _associated conformance 11WeatherData17WK2_AlertSeverityOAA4EnumAA1TAaDP_AA10Verifiable
+- _associated conformance 11WeatherData17WK2_AlertSeverityOAA4EnumAA1TAaDP_AA6Scalar
+- _associated conformance 11WeatherData17WK2_AlertSeverityOSHAASQ
+- _associated conformance 11WeatherData17WK2_ConditionCodeOAA4EnumAA1TAaDP_AA10Verifiable
+- _associated conformance 11WeatherData17WK2_ConditionCodeOAA4EnumAA1TAaDP_AA6Scalar
+- _associated conformance 11WeatherData17WK2_ConditionCodeOSHAASQ
+- _associated conformance 11WeatherData17WK2_DistanceUnitsOAA4EnumAA1TAaDP_AA10Verifiable
+- _associated conformance 11WeatherData17WK2_DistanceUnitsOAA4EnumAA1TAaDP_AA6Scalar
+- _associated conformance 11WeatherData17WK2_DistanceUnitsOSHAASQ
+- _associated conformance 11WeatherData17WK2_ForecastTokenOAA4EnumAA1TAaDP_AA10Verifiable
+- _associated conformance 11WeatherData17WK2_ForecastTokenOAA4EnumAA1TAaDP_AA6Scalar
+- _associated conformance 11WeatherData17WK2_ForecastTokenOSHAASQ
+- _associated conformance 11WeatherData17WK2_PollutantTypeOAA4EnumAA1TAaDP_AA10Verifiable
+- _associated conformance 11WeatherData17WK2_PollutantTypeOAA4EnumAA1TAaDP_AA6Scalar
+- _associated conformance 11WeatherData17WK2_PollutantTypeOSHAASQ
+- _associated conformance 11WeatherData17WK2_PollutantUnitOAA4EnumAA1TAaDP_AA10Verifiable
+- _associated conformance 11WeatherData17WK2_PollutantUnitOAA4EnumAA1TAaDP_AA6Scalar
+- _associated conformance 11WeatherData17WK2_PollutantUnitOSHAASQ
+- _associated conformance 11WeatherData17WK2_PressureTrendOAA4EnumAA1TAaDP_AA10Verifiable
+- _associated conformance 11WeatherData17WK2_PressureTrendOAA4EnumAA1TAaDP_AA6Scalar
+- _associated conformance 11WeatherData17WK2_PressureTrendOSHAASQ
+- _associated conformance 11WeatherData17WK2_PressureUnitsOAA4EnumAA1TAaDP_AA10Verifiable
+- _associated conformance 11WeatherData17WK2_PressureUnitsOAA4EnumAA1TAaDP_AA6Scalar
+- _associated conformance 11WeatherData17WK2_PressureUnitsOSHAASQ
+- _associated conformance 11WeatherData17WK2_TideEventTypeOAA4EnumAA1TAaDP_AA10Verifiable
+- _associated conformance 11WeatherData17WK2_TideEventTypeOAA4EnumAA1TAaDP_AA6Scalar
+- _associated conformance 11WeatherData17WK2_TideEventTypeOSHAASQ
+- _associated conformance 11WeatherData18WK2_AlertCertaintyOAA4EnumAA1TAaDP_AA10Verifiable
+- _associated conformance 11WeatherData18WK2_AlertCertaintyOAA4EnumAA1TAaDP_AA6Scalar
+- _associated conformance 11WeatherData18WK2_AlertCertaintyOSHAASQ
+- _associated conformance 11WeatherData18WK2_ConditionTokenOAA4EnumAA1TAaDP_AA10Verifiable
+- _associated conformance 11WeatherData18WK2_ConditionTokenOAA4EnumAA1TAaDP_AA6Scalar
+- _associated conformance 11WeatherData18WK2_ConditionTokenOSHAASQ
+- _associated conformance 11WeatherData19WK2_AlertImportanceOAA4EnumAA1TAaDP_AA10Verifiable
+- _associated conformance 11WeatherData19WK2_AlertImportanceOAA4EnumAA1TAaDP_AA6Scalar
+- _associated conformance 11WeatherData19WK2_AlertImportanceOSHAASQ
+- _associated conformance 11WeatherData19WK2_ChangeDirectionOAA4EnumAA1TAaDP_AA10Verifiable
+- _associated conformance 11WeatherData19WK2_ChangeDirectionOAA4EnumAA1TAaDP_AA6Scalar
+- _associated conformance 11WeatherData19WK2_ChangeDirectionOSHAASQ
+- _associated conformance 11WeatherData20WK2_TemperatureUnitsOAA4EnumAA1TAaDP_AA10Verifiable
+- _associated conformance 11WeatherData20WK2_TemperatureUnitsOAA4EnumAA1TAaDP_AA6Scalar
+- _associated conformance 11WeatherData20WK2_TemperatureUnitsOSHAASQ
+- _associated conformance 11WeatherData21WK2_AlertResponseTypeOAA4EnumAA1TAaDP_AA10Verifiable
+- _associated conformance 11WeatherData21WK2_AlertResponseTypeOAA4EnumAA1TAaDP_AA6Scalar
+- _associated conformance 11WeatherData21WK2_AlertResponseTypeOSHAASQ
+- _associated conformance 11WeatherData21WK2_AlertSignificanceOAA4EnumAA1TAaDP_AA10Verifiable
+- _associated conformance 11WeatherData21WK2_AlertSignificanceOAA4EnumAA1TAaDP_AA6Scalar
+- _associated conformance 11WeatherData21WK2_AlertSignificanceOSHAASQ
+- _associated conformance 11WeatherData21WK2_PrecipitationTypeOAA4EnumAA1TAaDP_AA10Verifiable
+- _associated conformance 11WeatherData21WK2_PrecipitationTypeOAA4EnumAA1TAaDP_AA6Scalar
+- _associated conformance 11WeatherData21WK2_PrecipitationTypeOSHAASQ
+- _associated conformance 11WeatherData22WK2_PrecipitationUnitsOAA4EnumAA1TAaDP_AA10Verifiable
+- _associated conformance 11WeatherData22WK2_PrecipitationUnitsOAA4EnumAA1TAaDP_AA6Scalar
+- _associated conformance 11WeatherData22WK2_PrecipitationUnitsOSHAASQ
+- _associated conformance 11WeatherData23WK2_ComparisonConditionOAA4EnumAA1TAaDP_AA10Verifiable
+- _associated conformance 11WeatherData23WK2_ComparisonConditionOAA4EnumAA1TAaDP_AA6Scalar
+- _associated conformance 11WeatherData23WK2_ComparisonConditionOSHAASQ
+- _associated conformance 11WeatherData25WK2_PreviousDayComparisonOAA4EnumAA1TAaDP_AA10Verifiable
+- _associated conformance 11WeatherData25WK2_PreviousDayComparisonOAA4EnumAA1TAaDP_AA6Scalar
+- _associated conformance 11WeatherData25WK2_PreviousDayComparisonOSHAASQ
+- _associated conformance 11WeatherData26WK2_ComparisonBaselineTypeOAA4EnumAA1TAaDP_AA10Verifiable
+- _associated conformance 11WeatherData26WK2_ComparisonBaselineTypeOAA4EnumAA1TAaDP_AA6Scalar
+- _associated conformance 11WeatherData26WK2_ComparisonBaselineTypeOSHAASQ
+- _associated conformance 11WeatherData26WK2_ForecastSummaryContextOAA4EnumAA1TAaDP_AA10Verifiable
+- _associated conformance 11WeatherData26WK2_ForecastSummaryContextOAA4EnumAA1TAaDP_AA6Scalar
+- _associated conformance 11WeatherData26WK2_ForecastSummaryContextOSHAASQ
+- _associated conformance 11WeatherData26WK2_StatementParameterTypeOAA4EnumAA1TAaDP_AA10Verifiable
+- _associated conformance 11WeatherData26WK2_StatementParameterTypeOAA4EnumAA1TAaDP_AA6Scalar
+- _associated conformance 11WeatherData26WK2_StatementParameterTypeOSHAASQ
+- _associated conformance 11WeatherData39WK2_PrecipitationConditionParameterTypeOAA4EnumAA1TAaDP_AA10Verifiable
+- _associated conformance 11WeatherData39WK2_PrecipitationConditionParameterTypeOAA4EnumAA1TAaDP_AA6Scalar
+- _associated conformance 11WeatherData39WK2_PrecipitationConditionParameterTypeOSHAASQ
+- _swift_release_x28
+- _symbolic _____ 11WeatherData010WK2_HourlyA10StatisticsV
+- _symbolic _____ 11WeatherData011WK2_CurrentA0V
+- _symbolic _____ 11WeatherData011WK2_MonthlyA10StatisticsV
+- _symbolic _____ 11WeatherData013WK2_DayOfYearA10StatisticsV
+- _symbolic _____ 11WeatherData014WK2_HourOfYearA10StatisticsV
+- _symbolic _____ 11WeatherData04WK2_A0V
+- _symbolic _____ 11WeatherData04WK2_A10CollectionV
+- _symbolic _____ 11WeatherData04WK2_A10HighlightsV
+- _symbolic _____ 11WeatherData04WK2_A12AlertSummaryV
+- _symbolic _____ 11WeatherData04WK2_A15AlertCollectionV
+- _symbolic _____ 11WeatherData04WK2_A18HighlightsResponseV
+- _symbolic _____ 11WeatherData04WK2_A19HighlightsStatementV
+- _symbolic _____ 11WeatherData04WK2_A22HighlightParameterTypeO
+- _symbolic _____ 11WeatherData04WK2_A27HighlightsResponseParameterV
+- _symbolic _____ 11WeatherData04WK2_A27HighlightsResponseStatementV
+- _symbolic _____ 11WeatherData04WK2_A7ChangesV
+- _symbolic _____ 11WeatherData04WK2_A7OutlookV
+- _symbolic _____ 11WeatherData04WK2_A9ConditionO
+- _symbolic _____ 11WeatherData04WK2_A9StatementV
+- _symbolic _____ 11WeatherData04WK2_B6NoticeV
+- _symbolic _____ 11WeatherData07WK2_DayA10ConditionsV
+- _symbolic _____ 11WeatherData08WK2_HourA10ConditionsV
+- _symbolic _____ 11WeatherData09WK2_DailyA10StatisticsV
+- _symbolic _____ 11WeatherData09WK2_MonthA10StatisticsV
+- _symbolic _____ 11WeatherData11WK2_ArticleV
+- _symbolic _____ 11WeatherData12WK2_HourTideV
+- _symbolic _____ 11WeatherData12WK2_LocationV
+- _symbolic _____ 11WeatherData12WK2_MetadataV
+- _symbolic _____ 11WeatherData13WK2_DeviationO
+- _symbolic _____ 11WeatherData13WK2_EventTextV
+- _symbolic _____ 11WeatherData13WK2_MoonPhaseO
+- _symbolic _____ 11WeatherData13WK2_PlacementO
+- _symbolic _____ 11WeatherData13WK2_PollutantV
+- _symbolic _____ 11WeatherData13WK2_QuantilesV
+- _symbolic _____ 11WeatherData13WK2_TideEventV
+- _symbolic _____ 11WeatherData13WK2_TimeOfDayO
+- _symbolic _____ 11WeatherData13WK2_WindUnitsO
+- _symbolic _____ 11WeatherData14WK2_AirQualityV
+- _symbolic _____ 11WeatherData14WK2_DaySummaryV
+- _symbolic _____ 11WeatherData14WK2_SourceTypeO
+- _symbolic _____ 11WeatherData14WK2_TideEventsV
+- _symbolic _____ 11WeatherData14WK2_TimePeriodV
+- _symbolic _____ 11WeatherData16WK2_AlertUrgencyO
+- _symbolic _____ 11WeatherData16WK2_CallToActionV
+- _symbolic _____ 11WeatherData16WK2_DailySummaryV
+- _symbolic _____ 11WeatherData16WK2_LocationInfoV
+- _symbolic _____ 11WeatherData17WK2_AlertSeverityO
+- _symbolic _____ 11WeatherData17WK2_ConditionCodeO
+- _symbolic _____ 11WeatherData17WK2_DailyForecastV
+- _symbolic _____ 11WeatherData17WK2_DistanceUnitsO
+- _symbolic _____ 11WeatherData17WK2_ForecastTokenO
+- _symbolic _____ 11WeatherData17WK2_NewsPlacementV
+- _symbolic _____ 11WeatherData17WK2_PollutantTypeO
+- _symbolic _____ 11WeatherData17WK2_PollutantUnitO
+- _symbolic _____ 11WeatherData17WK2_PressureTrendO
+- _symbolic _____ 11WeatherData17WK2_PressureUnitsO
+- _symbolic _____ 11WeatherData17WK2_TideEventTypeO
+- _symbolic _____ 11WeatherData18WK2_AlertCertaintyO
+- _symbolic _____ 11WeatherData18WK2_ConditionTokenO
+- _symbolic _____ 11WeatherData18WK2_ForecastMinuteV
+- _symbolic _____ 11WeatherData18WK2_HourlyForecastV
+- _symbolic _____ 11WeatherData18WK2_TrendDeviationV
+- _symbolic _____ 11WeatherData19WK2_AlertImportanceO
+- _symbolic _____ 11WeatherData19WK2_ChangeDirectionO
+- _symbolic _____ 11WeatherData19WK2_DayPartForecastV
+- _symbolic _____ 11WeatherData19WK2_ForecastSummaryV
+- _symbolic _____ 11WeatherData20WK2_NextHourForecastV
+- _symbolic _____ 11WeatherData20WK2_PeriodicForecastV
+- _symbolic _____ 11WeatherData20WK2_TemperatureUnitsO
+- _symbolic _____ 11WeatherData21WK2_AlertResponseTypeO
+- _symbolic _____ 11WeatherData21WK2_AlertSignificanceO
+- _symbolic _____ 11WeatherData21WK2_ForecastConditionV
+- _symbolic _____ 11WeatherData21WK2_PeriodicForecastsV
+- _symbolic _____ 11WeatherData21WK2_PrecipitationTypeO
+- _symbolic _____ 11WeatherData22WK2_PrecipitationRangeV
+- _symbolic _____ 11WeatherData22WK2_PrecipitationUnitsO
+- _symbolic _____ 11WeatherData22WK2_StatementParameterV
+- _symbolic _____ 11WeatherData22WK2_TimePeriod_MutableV
+- _symbolic _____ 11WeatherData23WK2_ComparisonConditionO
+- _symbolic _____ 11WeatherData23WK2_PrecipitationAmountV
+- _symbolic _____ 11WeatherData24WK2_HistoricalComparisonV
+- _symbolic _____ 11WeatherData24WK2_HourMarineConditionsV
+- _symbolic _____ 11WeatherData25WK2_ForecastPeriodSummaryV
+- _symbolic _____ 11WeatherData25WK2_HistoricalComparisonsV
+- _symbolic _____ 11WeatherData25WK2_PreviousDayComparisonO
+- _symbolic _____ 11WeatherData26WK2_ComparisonBaselineTypeO
+- _symbolic _____ 11WeatherData26WK2_ForecastSummaryContextO
+- _symbolic _____ 11WeatherData26WK2_ForecastSummaryRequestV
+- _symbolic _____ 11WeatherData26WK2_HourlyMarineConditionsV
+- _symbolic _____ 11WeatherData26WK2_StatementParameterTypeO
+- _symbolic _____ 11WeatherData28WK2_ForecastSummaryStatementV
+- _symbolic _____ 11WeatherData35WK2_PrecipitationConditionParameterV
+- _symbolic _____ 11WeatherData39WK2_PrecipitationConditionParameterTypeO
+- _symbolic _____ 11WeatherData8WK2_NewsV
+- _symbolic _____ 11WeatherData8WK2_UUIDV
+- _symbolic _____ 11WeatherData9WK2_RangeV
+- _symbolic _____ 11WeatherData9WK2_SwellV
+- _symbolic _____m 11WeatherData14WK2_TimePeriodV
+- _symbolic _____y_____G 11WeatherData13ForwardOffsetO AA14WK2_TimePeriodV
+- _type_layout_string 11WeatherData010WK2_HourlyA10StatisticsV
+- _type_layout_string 11WeatherData011WK2_MonthlyA10StatisticsV
+- _type_layout_string 11WeatherData04WK2_A0V
+- _type_layout_string 11WeatherData04WK2_A10CollectionV
+- _type_layout_string 11WeatherData04WK2_A12AlertSummaryV
+- _type_layout_string 11WeatherData04WK2_A15AlertCollectionV
+- _type_layout_string 11WeatherData04WK2_A18HighlightsResponseV
+- _type_layout_string 11WeatherData09WK2_DailyA10StatisticsV
+- _type_layout_string 11WeatherData14WK2_TimePeriodV
+- _type_layout_string 11WeatherData16WK2_DailySummaryV
+- _type_layout_string 11WeatherData19WK2_ForecastSummaryV
+- _type_layout_string 11WeatherData22WK2_TimePeriod_MutableV
+- _type_layout_string 11WeatherData23WK2_PrecipitationAmountV
+- _type_layout_string 11WeatherData8WK2_UUIDV
+CStrings:
++ "lib-rc-3.0.0-b66"
++ "precipitationAverage"
++ "precipitationType"
++ "snowfallAmountPrevious1h"
++ "snowfallAmountPrevious24h"
++ "snowfallAmountPrevious6h"
+- "averageSnowfallAmount"
+- "lib-rc-2.1.23-b65"
+- "notableConditions"
+- "precipitationAmount1h"
+- "precipitationAmount24h"
+- "precipitationAmount6h"
+- "precipitationAmountNext1h"
+- "precipitationAmountNext24h"
+- "precipitationAmountNext6h"
+- "snowfallAmount1h"
+- "snowfallAmount24h"
+- "snowfallAmount6h"
+- "statementTemplate"
+```

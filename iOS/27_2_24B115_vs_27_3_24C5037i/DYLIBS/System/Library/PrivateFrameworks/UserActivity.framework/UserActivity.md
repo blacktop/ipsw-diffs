@@ -1,0 +1,45 @@
+## UserActivity
+
+> `/System/Library/PrivateFrameworks/UserActivity.framework/UserActivity`
+
+```diff
+
+-630.1.1.0.0
++630.2.1.0.0
+   __TEXT.__text: 0x40248
+   __TEXT.__objc_methlist: 0x2b70
+   __TEXT.__const: 0x1c0
+   __TEXT.__cstring: 0x2881
+-  __TEXT.__oslogstring: 0x4e19
+   __TEXT.__gcc_except_tab: 0x595c
++  __TEXT.__oslogstring: 0x4e19
+   __TEXT.__dof_UA: 0x1c51
+-  __TEXT.__unwind_info: 0x19f0
++  __TEXT.__unwind_info: 0x19f8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __AUTH_CONST.__cfstring: 0x24c0
+   __AUTH_CONST.__objc_const: 0x7340
+   __AUTH_CONST.__weak_auth_got: 0x8
+-  __AUTH_CONST.__objc_arrayobj: 0xd8
+   __AUTH_CONST.__objc_intobj: 0x48
++  __AUTH_CONST.__objc_arrayobj: 0xd8
+   __AUTH_CONST.__objc_dictobj: 0x28
+   __AUTH_CONST.__auth_got: 0x0
+   __AUTH.__objc_data: 0x550
+Symbols:
++ __OBJC_$_CATEGORY_NSUserActivity_$_NSUserActivityCoreSpotlightInteraction
++ __OBJC_$_CLASS_METHODS_NSUserActivity(NSUserActivityCoreSpotlightInteraction|NSUserActivityPayloadServicesSupport|UAUserActivityAdditions|NSUserActivitySerializationAdditions|UAUserActivityMatching|NSUserActivityInternalDelegateCalls|CSSearchableItemAttributeSet)
++ __OBJC_$_CLASS_METHODS_UAUserActivity(Legacy|Internal|Nudges|UAUserActivityReminders|UAUserActivityAppLinks|UAUserActivityAppLinksEncoding|MarzipanWrapperSupport|UAUserActivityCoreSpotlightIndexingSupport|UAUserActivityPayloadServicesSupport|UAUserActivitySiriActions)
++ __OBJC_$_INSTANCE_METHODS_NSUserActivity(NSUserActivityCoreSpotlightInteraction|NSUserActivityPayloadServicesSupport|UAUserActivityAdditions|NSUserActivitySerializationAdditions|UAUserActivityMatching|NSUserActivityInternalDelegateCalls|CSSearchableItemAttributeSet)
++ __OBJC_$_INSTANCE_METHODS_UAUserActivity(Legacy|Internal|Nudges|UAUserActivityReminders|UAUserActivityAppLinks|UAUserActivityAppLinksEncoding|MarzipanWrapperSupport|UAUserActivityCoreSpotlightIndexingSupport|UAUserActivityPayloadServicesSupport|UAUserActivitySiriActions)
++ __OBJC_CLASS_PROTOCOLS_$_UAUserActivity(Legacy|Internal|Nudges|UAUserActivityReminders|UAUserActivityAppLinks|UAUserActivityAppLinksEncoding|MarzipanWrapperSupport|UAUserActivityCoreSpotlightIndexingSupport|UAUserActivityPayloadServicesSupport|UAUserActivitySiriActions)
+- __OBJC_$_CATEGORY_NSUserActivity_$_CSSearchableItemAttributeSet
+- __OBJC_$_CLASS_METHODS_NSUserActivity(CSSearchableItemAttributeSet|NSUserActivityCoreSpotlightInteraction|NSUserActivityPayloadServicesSupport|UAUserActivityAdditions|NSUserActivitySerializationAdditions|UAUserActivityMatching|NSUserActivityInternalDelegateCalls)
+- __OBJC_$_CLASS_METHODS_UAUserActivity(Legacy|Internal|Nudges|UAUserActivityReminders|UAUserActivityAppLinks|UAUserActivityAppLinksEncoding|MarzipanWrapperSupport|UAUserActivityCoreSpotlightIndexingSupport|UAUserActivitySiriActions|UAUserActivityPayloadServicesSupport)
+- __OBJC_$_INSTANCE_METHODS_NSUserActivity(CSSearchableItemAttributeSet|NSUserActivityCoreSpotlightInteraction|NSUserActivityPayloadServicesSupport|UAUserActivityAdditions|NSUserActivitySerializationAdditions|UAUserActivityMatching|NSUserActivityInternalDelegateCalls)
+- __OBJC_$_INSTANCE_METHODS_UAUserActivity(Legacy|Internal|Nudges|UAUserActivityReminders|UAUserActivityAppLinks|UAUserActivityAppLinksEncoding|MarzipanWrapperSupport|UAUserActivityCoreSpotlightIndexingSupport|UAUserActivitySiriActions|UAUserActivityPayloadServicesSupport)
+- __OBJC_CLASS_PROTOCOLS_$_UAUserActivity(Legacy|Internal|Nudges|UAUserActivityReminders|UAUserActivityAppLinks|UAUserActivityAppLinksEncoding|MarzipanWrapperSupport|UAUserActivityCoreSpotlightIndexingSupport|UAUserActivitySiriActions|UAUserActivityPayloadServicesSupport)
+```

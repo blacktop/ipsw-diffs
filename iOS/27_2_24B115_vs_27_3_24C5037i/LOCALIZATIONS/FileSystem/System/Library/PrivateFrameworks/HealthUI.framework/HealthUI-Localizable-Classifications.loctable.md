@@ -1,0 +1,48 @@
+## HealthUI
+
+> `FileSystem/System/Library/PrivateFrameworks/HealthUI.framework/HealthUI-Localizable-Classifications.loctable`
+
+```diff
+
+ en.%lld of %lld = "%lld of %lld"
+ en.ANSWER = "Answer"
+ en.According to the International Federation of Gynecology and Obstetrics (FIGO). = "According to the International Federation of Gynecology and Obstetrics (FIGO)."
+-en.Continue Watching = "Continue Watching"
+ en.For You = "For You"
+-en.MADE FOR YOU = "MADE FOR YOU"
+-en.Mute = "Mute"
+-en.Next = "Next"
+ en.Pregnancy can have an impact on this part of your health. = "Pregnancy can have an impact on this part of your health."
+-en.Unmute = "Unmute"
+-en.Your %@ = "Your %@"
+-en.Your %@ Results = "Your %@ Results"
++en.Your Hearing Results Are Excellent = "Your Hearing Results Are Excellent"
++en.Your Hearing Results Are Fair = "Your Hearing Results Are Fair"
++en.Your Hearing Results Are Good = "Your Hearing Results Are Good"
++en.Your Hearing Results Need Attention = "Your Hearing Results Need Attention"
++en.Your Heart Results Are Excellent = "Your Heart Results Are Excellent"
++en.Your Heart Results Are Fair = "Your Heart Results Are Fair"
++en.Your Heart Results Are Good = "Your Heart Results Are Good"
++en.Your Heart Results Need Attention = "Your Heart Results Need Attention"
++en.Your Mental Wellbeing Results Are Excellent = "Your Mental Wellbeing Results Are Excellent"
++en.Your Mental Wellbeing Results Are Fair = "Your Mental Wellbeing Results Are Fair"
++en.Your Mental Wellbeing Results Are Good = "Your Mental Wellbeing Results Are Good"
++en.Your Mental Wellbeing Results Need Attention = "Your Mental Wellbeing Results Need Attention"
++en.Your Metabolic Health Results Are Excellent = "Your Metabolic Health Results Are Excellent"
++en.Your Metabolic Health Results Are Fair = "Your Metabolic Health Results Are Fair"
++en.Your Metabolic Health Results Are Good = "Your Metabolic Health Results Are Good"
++en.Your Metabolic Health Results Need Attention = "Your Metabolic Health Results Need Attention"
++en.Your Movement Results Are Excellent = "Your Movement Results Are Excellent"
++en.Your Movement Results Are Fair = "Your Movement Results Are Fair"
++en.Your Movement Results Are Good = "Your Movement Results Are Good"
++en.Your Movement Results Need Attention = "Your Movement Results Need Attention"
++en.Your Nutrition Results Are Excellent = "Your Nutrition Results Are Excellent"
++en.Your Nutrition Results Are Fair = "Your Nutrition Results Are Fair"
++en.Your Nutrition Results Are Good = "Your Nutrition Results Are Good"
++en.Your Nutrition Results Need Attention = "Your Nutrition Results Need Attention"
++en.Your Sleep Results Are Excellent = "Your Sleep Results Are Excellent"
++en.Your Sleep Results Are Fair = "Your Sleep Results Are Fair"
++en.Your Sleep Results Are Good = "Your Sleep Results Are Good"
++en.Your Sleep Results Need Attention = "Your Sleep Results Need Attention"
+
+```

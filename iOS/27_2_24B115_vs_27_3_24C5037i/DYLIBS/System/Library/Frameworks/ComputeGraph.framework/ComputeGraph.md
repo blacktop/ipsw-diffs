@@ -1,0 +1,243 @@
+## ComputeGraph
+
+> `/System/Library/Frameworks/ComputeGraph.framework/ComputeGraph`
+
+```diff
+
+-30.40.1.0.0
+-  __TEXT.__text: 0x13f7b0
++30.60.1.0.0
++  __TEXT.__text: 0x140174
+   __TEXT.__objc_methlist: 0x12cc
+-  __TEXT.__const: 0x1e944
+-  __TEXT.__swift5_typeref: 0x43fc
+-  __TEXT.__cstring: 0x691c
+-  __TEXT.__swift5_reflstr: 0x34d0
++  __TEXT.__const: 0x1ed14
++  __TEXT.__swift5_typeref: 0x443a
++  __TEXT.__cstring: 0x695c
++  __TEXT.__swift5_reflstr: 0x3500
+   __TEXT.__swift5_assocty: 0xb60
+-  __TEXT.__constg_swiftt: 0x40ec
+-  __TEXT.__swift5_fieldmd: 0x60d4
+-  __TEXT.__swift5_proto: 0x111c
+-  __TEXT.__swift5_types: 0x83c
++  __TEXT.__constg_swiftt: 0x419c
++  __TEXT.__swift5_fieldmd: 0x6178
++  __TEXT.__swift5_proto: 0x116c
++  __TEXT.__swift5_types: 0x84c
+   __TEXT.__swift5_builtin: 0x424
+-  __TEXT.__swift5_protos: 0x54
++  __TEXT.__swift5_protos: 0x58
+   __TEXT.__swift5_mpenum: 0x168
+   __TEXT.__swift5_capture: 0x3b4
+   __TEXT.__oslogstring: 0x1ca
+
+   __TEXT.__swift_as_ret: 0x5c
+   __TEXT.__swift_as_cont: 0x170
+   __TEXT.__swift5_types2: 0x14
+-  __TEXT.__unwind_info: 0x6150
+-  __TEXT.__eh_frame: 0x95c8
++  __TEXT.__unwind_info: 0x61f8
++  __TEXT.__eh_frame: 0x9848
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x4d8
+-  __DATA_CONST.__objc_classlist: 0xa0
++  __DATA_CONST.__objc_classlist: 0xa8
+   __DATA_CONST.__objc_protolist: 0x110
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0xca0
+   __DATA_CONST.__objc_protorefs: 0x88
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x11db0
+-  __AUTH_CONST.__objc_const: 0x32c8
+-  __AUTH_CONST.__auth_got: 0x1138
+-  __AUTH.__data: 0x12a0
++  __AUTH_CONST.__const: 0x11fc0
++  __AUTH_CONST.__objc_const: 0x3380
++  __AUTH_CONST.__auth_got: 0x1148
++  __AUTH.__data: 0x1340
+   __DATA.__data: 0x2ab8
+   __DATA.__common: 0x568
+   __DATA_DIRTY.__data: 0x28
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 7399
+-  Symbols:   20537
+-  CStrings:  879
++  Functions: 7435
++  Symbols:   20660
++  CStrings:  881
+ 
+Symbols:
++ _$s10Foundation13__DataStorageC22withUnsafeMutableBytes2in5applyq_SnySiG_q_SwxYKXEtxYKs5ErrorRzRi__r0_lFq_SwxYKXEfU_
++ _$s10Foundation13__DataStorageC22withUnsafeMutableBytes2in5applyq_SnySiG_q_SwxYKXEtxYKs5ErrorRzRi__r0_lFq_SwxYKXEfU_TA
++ _$s10Foundation13__DataStorageC22withUnsafeMutableBytes2in5applyq_SnySiG_q_SwxYKXEtxYKs5ErrorRzRi__r0_lFq_SwxYKXEfU_TATm
++ _$s10Foundation4DataV06InlineB0V22withUnsafeMutableBytesyq_q_SwxYKXExYKs5ErrorRzRi__r0_lFq_SwxYKXEfU_
++ _$s10Foundation4DataV06InlineB0V22withUnsafeMutableBytesyq_q_SwxYKXExYKs5ErrorRzRi__r0_lFq_SwxYKXEfU_TA
++ _$s10Foundation4DataV15_RepresentationO22withUnsafeMutableBytesyq_q_SwxYKXExYKs5ErrorRzRi__r0_lFq_SwxYKXEfU_
++ _$s10Foundation4DataV15_RepresentationO22withUnsafeMutableBytesyq_q_SwxYKXExYKs5ErrorRzRi__r0_lFq_SwxYKXEfU_TA
++ _$s10Foundation4DataV7subdata2inACSnySiG_tF
++ _$s12ComputeGraph0a4NodeB0V15ArrayDefinitionV06decodeD04from4intoys7Decoder_p_AA15MutableDataSpanVtKF
++ _$s12ComputeGraph0a4NodeB0V15ArrayDefinitionV06encodeD02to4fromys7Encoder_p_AA8DataSpanVtKF
++ _$s12ComputeGraph0a4NodeB0V15StructureLayoutV06decodeD04from4intoys7Decoder_p_AA15MutableDataSpanVtKF
++ _$s12ComputeGraph0a4NodeB0V15StructureLayoutV06encodeD02to4fromys7Encoder_p_AA8DataSpanVtKF
++ _$s12ComputeGraph15MutableDataSpanV04withC5Bytesyq_q_s0c3RawE0VzxYKXExYKs5ErrorRzRi__r0_lF
++ _$s12ComputeGraph15MutableDataSpanV04withC5Bytesyq_q_s0c3RawE0VzxYKXExYKs5ErrorRzRi__r0_lFq_SwxYKXEfU_
++ _$s12ComputeGraph15MutableDataSpanV04withC5Bytesyq_q_s0c3RawE0VzxYKXExYKs5ErrorRzRi__r0_lFq_SwxYKXEfU_TA
++ _$s12ComputeGraph15MutableDataSpanV10extracting13droppingFirstACSi_tKF
++ _$s12ComputeGraph15MutableDataSpanV10extractingyACSnySiGKF
++ _$s12ComputeGraph15MutableDataSpanV4data10Foundation0D0Vvg
++ _$s12ComputeGraph15MutableDataSpanV4data10Foundation0D0VvpMV
++ _$s12ComputeGraph15MutableDataSpanV5countACSi_tcfC
++ _$s12ComputeGraph15MutableDataSpanV5countSivg
++ _$s12ComputeGraph15MutableDataSpanV5countSivpMV
++ _$s12ComputeGraph15MutableDataSpanV7Storage33_39532E25C3590EBF0622EF21AAA729D7LLC4data10Foundation0D0VvpWvd
++ _$s12ComputeGraph15MutableDataSpanV7Storage33_39532E25C3590EBF0622EF21AAA729D7LLCMF
++ _$s12ComputeGraph15MutableDataSpanV7Storage33_39532E25C3590EBF0622EF21AAA729D7LLCMXX
++ _$s12ComputeGraph15MutableDataSpanV7Storage33_39532E25C3590EBF0622EF21AAA729D7LLCMa
++ _$s12ComputeGraph15MutableDataSpanV7Storage33_39532E25C3590EBF0622EF21AAA729D7LLCMf
++ _$s12ComputeGraph15MutableDataSpanV7Storage33_39532E25C3590EBF0622EF21AAA729D7LLCMm
++ _$s12ComputeGraph15MutableDataSpanV7Storage33_39532E25C3590EBF0622EF21AAA729D7LLCMn
++ _$s12ComputeGraph15MutableDataSpanV7Storage33_39532E25C3590EBF0622EF21AAA729D7LLCN
++ _$s12ComputeGraph15MutableDataSpanV7Storage33_39532E25C3590EBF0622EF21AAA729D7LLCfD
++ _$s12ComputeGraph15MutableDataSpanVMF
++ _$s12ComputeGraph15MutableDataSpanVMa
++ _$s12ComputeGraph15MutableDataSpanVMf
++ _$s12ComputeGraph15MutableDataSpanVMn
++ _$s12ComputeGraph15MutableDataSpanVN
++ _$s12ComputeGraph15MutableDataSpanVWV
++ _$s12ComputeGraph15MutableDataSpanVwet
++ _$s12ComputeGraph15MutableDataSpanVwst
++ _$s12ComputeGraph20RawBufferOffsetErrorV11descriptionSSvg
++ _$s12ComputeGraph20RawBufferOffsetErrorV11descriptionSSvpMV
++ _$s12ComputeGraph20RawBufferOffsetErrorVACs0F0AAWL
++ _$s12ComputeGraph20RawBufferOffsetErrorVACs0F0AAWl
++ _$s12ComputeGraph20RawBufferOffsetErrorVMF
++ _$s12ComputeGraph20RawBufferOffsetErrorVMa
++ _$s12ComputeGraph20RawBufferOffsetErrorVMf
++ _$s12ComputeGraph20RawBufferOffsetErrorVMn
++ _$s12ComputeGraph20RawBufferOffsetErrorVN
++ _$s12ComputeGraph20RawBufferOffsetErrorVWV
++ _$s12ComputeGraph20RawBufferOffsetErrorVs0F0AAMc
++ _$s12ComputeGraph20RawBufferOffsetErrorVs0F0AAMcMK
++ _$s12ComputeGraph20RawBufferOffsetErrorVs0F0AAsADP19_getEmbeddedNSErroryXlSgyFTW
++ _$s12ComputeGraph20RawBufferOffsetErrorVs0F0AAsADP5_codeSivgTW
++ _$s12ComputeGraph20RawBufferOffsetErrorVs0F0AAsADP7_domainSSvgTW
++ _$s12ComputeGraph20RawBufferOffsetErrorVs0F0AAsADP9_userInfoyXlSgvgTW
++ _$s12ComputeGraph20RawBufferOffsetErrorVs23CustomStringConvertibleAAMc
++ _$s12ComputeGraph20RawBufferOffsetErrorVs23CustomStringConvertibleAAMcMK
++ _$s12ComputeGraph20RawBufferOffsetErrorVs23CustomStringConvertibleAAsADP11descriptionSSvgTW
++ _$s12ComputeGraph20RawBufferOffsetErrorVwet
++ _$s12ComputeGraph20RawBufferOffsetErrorVwst
++ _$s12ComputeGraph23StateTypeDecoderInPlaceV4from13configurationACs0E0_p_AC6ConfigVtKcfcys14MutableRawSpanVzXEfU_TA
++ _$s12ComputeGraph26MatrixConvertibleFromBytesMp
++ _$s12ComputeGraph26MatrixConvertibleFromBytes_pMF
++ _$s12ComputeGraph8DataSpanV10extracting13droppingFirstACSi_tKF
++ _$s12ComputeGraph8DataSpanV10extractingyACSnySiGKF
++ _$s12ComputeGraph8DataSpanV4data10Foundation0C0Vvg
++ _$s12ComputeGraph8DataSpanV4data10Foundation0C0VvpMV
++ _$s12ComputeGraph8DataSpanV5bytess03RawD0Vvg
++ _$s12ComputeGraph8DataSpanV5countSivg
++ _$s12ComputeGraph8DataSpanV5countSivpMV
++ _$s12ComputeGraph8DataSpanV6prefixyACSiF
++ _$s12ComputeGraph8DataSpanVMF
++ _$s12ComputeGraph8DataSpanVMa
++ _$s12ComputeGraph8DataSpanVMf
++ _$s12ComputeGraph8DataSpanVMn
++ _$s12ComputeGraph8DataSpanVN
++ _$s12ComputeGraph8DataSpanVWV
++ _$s12ComputeGraph8DataSpanVwet
++ _$s12ComputeGraph8DataSpanVwst
++ _$s12ComputeGraph8DataSpanVyAC10Foundation0C0VcfC
++ _$s12ComputeGraph9ParameterV15decodeStructure4from4intoys7Decoder_p_AA15MutableDataSpanVtKF
++ _$s12ComputeGraph9ParameterV15encodeStructure2to7loadingys7Encoder_p_AA8DataSpanVtKF
++ _$s12ComputeGraph9ParameterV15loadExistential4fromypSgAA8DataSpanV_tF
++ _$s12ComputeGraph9ParameterV24loadExistentialStructure33_724600A97336C17A1B6B5D99A9984681LL4fromSDySSypGAA8DataSpanV_tF
++ _$s12ComputeGraph9ParameterV6encode2to13configurationys7Encoder_p_AA8DataSpanVtKF
++ _$s12ComputeGraph9ParameterV6encode2to7loadingys7Encoder_p_AA8DataSpanVtKF
++ _$sSo11MTLDataTypeV12ComputeGraphE6decode4from4intoys7Decoder_p_AC15MutableDataSpanVtKF
++ _$sSo11MTLDataTypeV12ComputeGraphE6decode4from4intoys7Decoder_p_AC15MutableDataSpanVtKFys0i3RawK0VzKXEfU_TA
++ _$sSo11MTLDataTypeV12ComputeGraphE6encode2to4fromys7Encoder_p_AC8DataSpanVtKF
++ _$sSo12simd_half2x2a12ComputeGraph26MatrixConvertibleFromBytesACMc
++ _$sSo12simd_half2x2a12ComputeGraph26MatrixConvertibleFromBytesACWP
++ _$sSo12simd_half2x3a12ComputeGraph26MatrixConvertibleFromBytesACMc
++ _$sSo12simd_half2x3a12ComputeGraph26MatrixConvertibleFromBytesACWP
++ _$sSo12simd_half2x4a12ComputeGraph26MatrixConvertibleFromBytesACMc
++ _$sSo12simd_half2x4a12ComputeGraph26MatrixConvertibleFromBytesACWP
++ _$sSo12simd_half3x2a12ComputeGraph26MatrixConvertibleFromBytesACMc
++ _$sSo12simd_half3x2a12ComputeGraph26MatrixConvertibleFromBytesACWP
++ _$sSo12simd_half3x3a12ComputeGraph26MatrixConvertibleFromBytesACMc
++ _$sSo12simd_half3x3a12ComputeGraph26MatrixConvertibleFromBytesACWP
++ _$sSo12simd_half3x4a12ComputeGraph26MatrixConvertibleFromBytesACMc
++ _$sSo12simd_half3x4a12ComputeGraph26MatrixConvertibleFromBytesACWP
++ _$sSo12simd_half4x2a12ComputeGraph26MatrixConvertibleFromBytesACMc
++ _$sSo12simd_half4x2a12ComputeGraph26MatrixConvertibleFromBytesACWP
++ _$sSo12simd_half4x3a12ComputeGraph26MatrixConvertibleFromBytesACMc
++ _$sSo12simd_half4x3a12ComputeGraph26MatrixConvertibleFromBytesACWP
++ _$sSo12simd_half4x4a12ComputeGraph26MatrixConvertibleFromBytesACMc
++ _$sSo12simd_half4x4a12ComputeGraph26MatrixConvertibleFromBytesACWP
++ _$sSo13simd_float2x2a12ComputeGraph26MatrixConvertibleFromBytesACMc
++ _$sSo13simd_float2x2a12ComputeGraph26MatrixConvertibleFromBytesACWP
++ _$sSo13simd_float2x3a12ComputeGraph26MatrixConvertibleFromBytesACMc
++ _$sSo13simd_float2x3a12ComputeGraph26MatrixConvertibleFromBytesACWP
++ _$sSo13simd_float2x4a12ComputeGraph26MatrixConvertibleFromBytesACMc
++ _$sSo13simd_float2x4a12ComputeGraph26MatrixConvertibleFromBytesACWP
++ _$sSo13simd_float3x2a12ComputeGraph26MatrixConvertibleFromBytesACMc
++ _$sSo13simd_float3x2a12ComputeGraph26MatrixConvertibleFromBytesACWP
++ _$sSo13simd_float3x3a12ComputeGraph26MatrixConvertibleFromBytesACMc
++ _$sSo13simd_float3x3a12ComputeGraph26MatrixConvertibleFromBytesACWP
++ _$sSo13simd_float3x4a12ComputeGraph26MatrixConvertibleFromBytesACMc
++ _$sSo13simd_float3x4a12ComputeGraph26MatrixConvertibleFromBytesACWP
++ _$sSo13simd_float4x2a12ComputeGraph26MatrixConvertibleFromBytesACMc
++ _$sSo13simd_float4x2a12ComputeGraph26MatrixConvertibleFromBytesACWP
++ _$sSo13simd_float4x3a12ComputeGraph26MatrixConvertibleFromBytesACMc
++ _$sSo13simd_float4x3a12ComputeGraph26MatrixConvertibleFromBytesACWP
++ _$sSo13simd_float4x4a12ComputeGraph26MatrixConvertibleFromBytesACMc
++ _$sSo13simd_float4x4a12ComputeGraph26MatrixConvertibleFromBytesACWP
++ _$ss22withUnsafeMutableBytes2of_q0_xz_q0_Swq_YKXEtq_YKs5ErrorR_Ri_zRi0_zRi_0_r1_lF
++ _$ss7RawSpanV12ComputeGraphE4load14fromByteOffset2asxSi_xmtAC26MatrixConvertibleFromBytesRzs15BitwiseCopyableRzlF
++ _$ss7RawSpanV12ComputeGraphE4load14fromByteOffset2asxSi_xmtAC26MatrixConvertibleFromBytesRzs15BitwiseCopyableRzlFfA_
++ __DATA__TtCV12ComputeGraph15MutableDataSpanP33_39532E25C3590EBF0622EF21AAA729D77Storage
++ __IVARS__TtCV12ComputeGraph15MutableDataSpanP33_39532E25C3590EBF0622EF21AAA729D77Storage
++ __METACLASS_DATA__TtCV12ComputeGraph15MutableDataSpanP33_39532E25C3590EBF0622EF21AAA729D77Storage
++ ___swift_memcpy120_8
++ _swift_retain_x11
++ _symbolic $s12ComputeGraph26MatrixConvertibleFromBytesP
++ _symbolic _____ 12ComputeGraph15MutableDataSpanV
++ _symbolic _____ 12ComputeGraph15MutableDataSpanV7Storage33_39532E25C3590EBF0622EF21AAA729D7LLC
++ _symbolic _____ 12ComputeGraph20RawBufferOffsetErrorV
++ _symbolic _____ 12ComputeGraph8DataSpanV
++ _type_layout_string 12ComputeGraph15MutableDataSpanV
++ _type_layout_string 12ComputeGraph23StateTypeEncoderInPlaceV6ConfigV
++ _type_layout_string 12ComputeGraph8DataSpanV
++ _type_layout_string SnySiG
+- _$s12ComputeGraph0a4NodeB0V15ArrayDefinitionV06decodeD04from4intoys7Decoder_p_SwtKF
+- _$s12ComputeGraph0a4NodeB0V15ArrayDefinitionV06encodeD02to4fromys7Encoder_p_SWtKF
+- _$s12ComputeGraph0a4NodeB0V15StructureLayoutV06decodeD04from4intoys7Decoder_p_SwtKF
+- _$s12ComputeGraph0a4NodeB0V15StructureLayoutV06decodeD04from4intoys7Decoder_p_s14MutableRawSpanVztKF
+- _$s12ComputeGraph0a4NodeB0V15StructureLayoutV06encodeD02to4fromys7Encoder_p_SWtKF
+- _$s12ComputeGraph0a4NodeB0V15StructureLayoutV06encodeD02to4fromys7Encoder_p_s7RawSpanVtKF
+- _$s12ComputeGraph23StateTypeDecoderInPlaceV6ConfigVwetTm
+- _$s12ComputeGraph23StateTypeDecoderInPlaceV6ConfigVwstTm
+- _$s12ComputeGraph23StateTypeEncoderInPlaceV6ConfigVWOh
+- _$s12ComputeGraph9ParameterV15decodeStructure4from4intoys7Decoder_p_SwtKF
+- _$s12ComputeGraph9ParameterV15encodeStructure2to7loadingys7Encoder_p_SWtKF
+- _$s12ComputeGraph9ParameterV15loadExistential4fromypSgSW_tF
+- _$s12ComputeGraph9ParameterV24loadExistentialStructure33_724600A97336C17A1B6B5D99A9984681LL4fromSDySSypGSW_tF
+- _$s12ComputeGraph9ParameterV6encode2to13configurationys7Encoder_p_SWtKF
+- _$s12ComputeGraph9ParameterV6encode2to7loadingys7Encoder_p_SWtKF
+- _$sSo11MTLDataTypeV12ComputeGraphE6decode4from4intoys7Decoder_p_SwtKF
+- _$sSo11MTLDataTypeV12ComputeGraphE6encode2to4fromys7Encoder_p_SWtKF
+- _symbolic SW
+- _symbolic Sw
+CStrings:
++ " in a buffer of "
++ "Cannot access byte offset "
+```

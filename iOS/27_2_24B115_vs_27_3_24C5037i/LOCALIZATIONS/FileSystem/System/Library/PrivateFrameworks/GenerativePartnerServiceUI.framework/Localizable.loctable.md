@@ -1,0 +1,55 @@
+## GenerativePartnerServiceUI
+
+> `FileSystem/System/Library/PrivateFrameworks/GenerativePartnerServiceUI.framework/Localizable.loctable`
+
+```diff
+
+ en.Continue = "Continue"
+ en.Create text or images from just a description. = "Create text or images from just a description."
+ en.Custom = "Custom"
+-en.DEVICE_DISPLAY_NAME can use %@ or %@ to extend Apple Intelligence..NSStringDeviceSpecificRuleType.applevision = "Apple Vision Pro can use %1$@ or %2$@ to extend Apple Intelligence."
+-en.DEVICE_DISPLAY_NAME can use %@ or %@ to extend Apple Intelligence..NSStringDeviceSpecificRuleType.ipad = "iPad can use %1$@ or %2$@ to extend Apple Intelligence."
+-en.DEVICE_DISPLAY_NAME can use %@ or %@ to extend Apple Intelligence..NSStringDeviceSpecificRuleType.iphone = "iPhone can use %1$@ or %2$@ to extend Apple Intelligence."
+-en.DEVICE_DISPLAY_NAME can use %@ or %@ to extend Apple Intelligence..NSStringDeviceSpecificRuleType.mac = "Mac can use %1$@ or %2$@ to extend Apple Intelligence."
+-en.DEVICE_DISPLAY_NAME can use %@ or %@ to extend Apple Intelligence..NSStringDeviceSpecificRuleType.other = "N/A"
+-en.DEVICE_DISPLAY_NAME can use %@ to extend Apple Intelligence..NSStringDeviceSpecificRuleType.applevision = "Apple Vision Pro can use %@ to extend Apple Intelligence."
+-en.DEVICE_DISPLAY_NAME can use %@ to extend Apple Intelligence..NSStringDeviceSpecificRuleType.ipad = "iPad can use %@ to extend Apple Intelligence."
+-en.DEVICE_DISPLAY_NAME can use %@ to extend Apple Intelligence..NSStringDeviceSpecificRuleType.iphone = "iPhone can use %@ to extend Apple Intelligence."
+-en.DEVICE_DISPLAY_NAME can use %@ to extend Apple Intelligence..NSStringDeviceSpecificRuleType.mac = "Mac can use %@ to extend Apple Intelligence."
+-en.DEVICE_DISPLAY_NAME can use %@ to extend Apple Intelligence..NSStringDeviceSpecificRuleType.other = "N/A"
+ en.DEVICE_DISPLAY_NAME can use %@ to help you write text, create an image, answer questions, and more..NSStringDeviceSpecificRuleType.applevision = "Vision Pro can use %@ to help you write text, create an image, answer questions, and more."
+ en.DEVICE_DISPLAY_NAME can use %@ to help you write text, create an image, answer questions, and more..NSStringDeviceSpecificRuleType.ipad = "iPad can use %@ to help you write text, create an image, answer questions, and more."
+ en.DEVICE_DISPLAY_NAME can use %@ to help you write text, create an image, answer questions, and more..NSStringDeviceSpecificRuleType.iphone = "iPhone can use %@ to help you write text, create an image, answer questions, and more."
+ en.DEVICE_DISPLAY_NAME can use %@ to help you write text, create an image, answer questions, and more..NSStringDeviceSpecificRuleType.mac = "Your Mac can use %@ to help you write text, create an image, answer questions, and more."
+ en.DEVICE_DISPLAY_NAME can use %@ to help you write text, create an image, answer questions, and more..NSStringDeviceSpecificRuleType.other = "N/A"
+-en.DEVICE_DISPLAY_NAME can use %@, %@, %@, or %@ to extend Apple Intelligence..NSStringDeviceSpecificRuleType.applevision = "Vision Pro can use %1$@, %2$@, %3$@, or %4$@ to extend Apple Intelligence."
+-en.DEVICE_DISPLAY_NAME can use %@, %@, %@, or %@ to extend Apple Intelligence..NSStringDeviceSpecificRuleType.ipad = "iPad can use %1$@, %2$@, %3$@, or %4$@ to extend Apple Intelligence."
+-en.DEVICE_DISPLAY_NAME can use %@, %@, %@, or %@ to extend Apple Intelligence..NSStringDeviceSpecificRuleType.iphone = "iPhone can use %1$@, %2$@, %3$@, or %4$@ to extend Apple Intelligence."
+-en.DEVICE_DISPLAY_NAME can use %@, %@, %@, or %@ to extend Apple Intelligence..NSStringDeviceSpecificRuleType.mac = "Mac can use %1$@, %2$@, %3$@, or %4$@ to extend Apple Intelligence."
+-en.DEVICE_DISPLAY_NAME can use %@, %@, %@, or %@ to extend Apple Intelligence..NSStringDeviceSpecificRuleType.other = "N/A"
+-en.DEVICE_DISPLAY_NAME can use %@, %@, or %@ to extend Apple Intelligence..NSStringDeviceSpecificRuleType.applevision = "Vision Pro can use %1$@, %2$@, or %3$@ to extend Apple Intelligence."
+-en.DEVICE_DISPLAY_NAME can use %@, %@, or %@ to extend Apple Intelligence..NSStringDeviceSpecificRuleType.ipad = "iPad can use %1$@, %2$@, or %3$@ to extend Apple Intelligence."
+-en.DEVICE_DISPLAY_NAME can use %@, %@, or %@ to extend Apple Intelligence..NSStringDeviceSpecificRuleType.iphone = "iPhone can use %1$@, %2$@, or %3$@ to extend Apple Intelligence."
+-en.DEVICE_DISPLAY_NAME can use %@, %@, or %@ to extend Apple Intelligence..NSStringDeviceSpecificRuleType.mac = "Mac can use %1$@, %2$@, or %3$@ to extend Apple Intelligence."
+-en.DEVICE_DISPLAY_NAME can use %@, %@, or %@ to extend Apple Intelligence..NSStringDeviceSpecificRuleType.other = "N/A"
+ en.DEVICE_DISPLAY_NAME works with %@ in a way that preserves your privacy..NSStringDeviceSpecificRuleType.applevision = "Apple Vision Pro works with %@ in a way that preserves your privacy."
+ en.DEVICE_DISPLAY_NAME works with %@ in a way that preserves your privacy..NSStringDeviceSpecificRuleType.ipad = "iPad works with %@ in a way that preserves your privacy."
+ en.DEVICE_DISPLAY_NAME works with %@ in a way that preserves your privacy..NSStringDeviceSpecificRuleType.iphone = "iPhone works with %@ in a way that preserves your privacy."
+
+ en.Extensions are not available to children 13 or younger. = "Extensions are not available to children 13 or younger."
+ en.Extensions are protected by a Screen Time passcode. = "Extensions are protected by a Screen Time passcode."
+ en.Extensions require enabling Apple Intelligence first. = "Extensions require enabling Apple Intelligence first."
+-en.Extensions to Apple Intelligence are currently unavailable. = "Extensions to Apple Intelligence are currently unavailable."
+ en.If %@ can help, DEVICE_DISPLAY_NAME will confirm the request before sending anything to %@. Sending a file will always require a confirmation..NSStringDeviceSpecificRuleType.applevision = "If %1$@ can help, Apple Vision Pro will confirm the request before sending anything to %2$@. Sending a file will always require a confirmation."
+ en.If %@ can help, DEVICE_DISPLAY_NAME will confirm the request before sending anything to %@. Sending a file will always require a confirmation..NSStringDeviceSpecificRuleType.ipad = "If %1$@ can help, iPad will confirm the request before sending anything to %2$@. Sending a file will always require a confirmation."
+ en.If %@ can help, DEVICE_DISPLAY_NAME will confirm the request before sending anything to %@. Sending a file will always require a confirmation..NSStringDeviceSpecificRuleType.iphone = "If %1$@ can help, iPhone will confirm the request before sending anything to %2$@. Sending a file will always require a confirmation."
+
+ en.Signing In… = "Signing In…"
+ en.Signing Out… = "Signing Out…"
+ en.Skip and Enable %@ = "Skip and Enable %@"
++en.Something went wrong. = "Something went wrong."
+ en.There was a problem signing in to your account. = "There was a problem signing in to your account."
+ en.This feature is not available. = "This feature is not available."
+ en.This platform is not supported = "This platform is not supported"
+
+```

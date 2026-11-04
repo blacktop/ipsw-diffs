@@ -1,0 +1,139 @@
+## XavierCore
+
+> `/System/Library/PrivateFrameworks/XavierCore.framework/XavierCore`
+
+```diff
+
+-5971.0.0.0.0
++6006.0.0.0.0
+   __TEXT.__text: 0x79a8
+   __TEXT.__const: 0xac8
+   __TEXT.__cstring: 0x84
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   Functions: 312
+-  Symbols:   173
++  Symbols:   55
+   CStrings:  5
+ 
+Symbols:
+- <redacted>
+- ___swift_closure_destructor
+- ___swift_destroy_boxed_opaque_existential_1
+- ___swift_instantiateConcreteTypeFromMangledNameV2
+- ___swift_memcpy0_1
+- ___swift_memcpy16_8
+- ___swift_memcpy17_8
+- ___swift_memcpy1_1
+- ___swift_memcpy9_8
+- ___swift_noop_void_return
+- ___swift_project_boxed_opaque_existential_1
+- ___swift_reflection_version
+- ___unnamed_2
+- ___unnamed_7
+- __swift_FORCE_LOAD_$_swiftCoreFoundation_$_XavierCore
+- __swift_FORCE_LOAD_$_swiftDispatch_$_XavierCore
+- __swift_FORCE_LOAD_$_swiftFoundation_$_XavierCore
+- __swift_FORCE_LOAD_$_swiftObjectiveC_$_XavierCore
+- __swift_FORCE_LOAD_$_swiftXPC_$_XavierCore
+- __swift_FORCE_LOAD_$_swift_Builtin_float_$_XavierCore
+- __swift_FORCE_LOAD_$_swiftos_$_XavierCore
+- _associated conformance 10Foundation4DateV10XavierCore8DiffableAD4DiffAdEP_SE
+- _associated conformance 10Foundation4DateV10XavierCore8DiffableAD4DiffAdEP_Se
+- _associated conformance 10XavierCore14NumberDiffableVyxGAA0D0AA4DiffAaEP_SE
+- _associated conformance 10XavierCore14NumberDiffableVyxGAA0D0AA4DiffAaEP_Se
+- _associated conformance SD10XavierCoreSeRzSERzSeR_SER_AA8DiffableR_rlE4DiffV10CodingKeys33_4F80C934304AB099B642AEC4A5008D9ALLOyxq___GSHAASQ
+- _associated conformance SD10XavierCoreSeRzSERzSeR_SER_AA8DiffableR_rlE4DiffV10CodingKeys33_4F80C934304AB099B642AEC4A5008D9ALLOyxq___Gs0E3KeyAAs23CustomStringConvertible
+- _associated conformance SD10XavierCoreSeRzSERzSeR_SER_AA8DiffableR_rlE4DiffV10CodingKeys33_4F80C934304AB099B642AEC4A5008D9ALLOyxq___Gs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance SDyxq_G10XavierCore8DiffableABSeRzSERzSeR_SER_AbCR_rl4DiffAbCP_SE
+- _associated conformance SDyxq_G10XavierCore8DiffableABSeRzSERzSeR_SER_AbCR_rl4DiffAbCP_Se
+- _associated conformance SS10XavierCore8DiffableAA4DiffAaBP_SE
+- _associated conformance SS10XavierCore8DiffableAA4DiffAaBP_Se
+- _associated conformance Sa10XavierCoreSeRzSERzAA8DiffableRzlE4DiffV10CodingKeys33_6422FC39DB415738C832BDA9B5FF6ED9LLOyx__GSHAASQ
+- _associated conformance Sa10XavierCoreSeRzSERzAA8DiffableRzlE4DiffV10CodingKeys33_6422FC39DB415738C832BDA9B5FF6ED9LLOyx__Gs0E3KeyAAs23CustomStringConvertible
+- _associated conformance Sa10XavierCoreSeRzSERzAA8DiffableRzlE4DiffV10CodingKeys33_6422FC39DB415738C832BDA9B5FF6ED9LLOyx__Gs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance Sa10XavierCoreSeRzSERzAA8DiffableRzlE4DiffV4TailO10CodingKeysOyx___GSHAASQ
+- _associated conformance Sa10XavierCoreSeRzSERzAA8DiffableRzlE4DiffV4TailO10CodingKeysOyx___Gs0F3KeyAAs23CustomStringConvertible
+- _associated conformance Sa10XavierCoreSeRzSERzAA8DiffableRzlE4DiffV4TailO10CodingKeysOyx___Gs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance Sa10XavierCoreSeRzSERzAA8DiffableRzlE4DiffV4TailO6ErrorsOyx___GSHAASQ
+- _associated conformance SayxG10XavierCore8DiffableABSeRzSERzAbCRzl4DiffAbCP_SE
+- _associated conformance SayxG10XavierCore8DiffableABSeRzSERzAbCRzl4DiffAbCP_Se
+- _associated conformance Sd10XavierCore8DiffableAA4DiffAaBP_SE
+- _associated conformance Sd10XavierCore8DiffableAA4DiffAaBP_Se
+- _associated conformance Sf10XavierCore8DiffableAA4DiffAaBP_SE
+- _associated conformance Sf10XavierCore8DiffableAA4DiffAaBP_Se
+- _associated conformance Sh10XavierCoreSeRzSERzrlE4DiffV10CodingKeys33_C504BC2D4880BAD865EC63C0A832C48DLLOyx__GSHAASQ
+- _associated conformance Sh10XavierCoreSeRzSERzrlE4DiffV10CodingKeys33_C504BC2D4880BAD865EC63C0A832C48DLLOyx__Gs0D3KeyAAs23CustomStringConvertible
+- _associated conformance Sh10XavierCoreSeRzSERzrlE4DiffV10CodingKeys33_C504BC2D4880BAD865EC63C0A832C48DLLOyx__Gs0D3KeyAAs28CustomDebugStringConvertible
+- _associated conformance ShyxG10XavierCore8DiffableABSeRzSERzrl4DiffAbCP_SE
+- _associated conformance ShyxG10XavierCore8DiffableABSeRzSERzrl4DiffAbCP_Se
+- _associated conformance Si10XavierCore8DiffableAA4DiffAaBP_SE
+- _associated conformance Si10XavierCore8DiffableAA4DiffAaBP_Se
+- _get_enum_tag_for_layout_string Sa10XavierCoreSeRzSERzAA8DiffableRzlE4DiffV4TailOyx__G
+- _symbolic $s10XavierCore8DiffableP
+- _symbolic 4Diff_____Qz 10XavierCore8DiffableP
+- _symbolic B0
+- _symbolic B1
+- _symbolic B2
+- _symbolic G0G1R3__
+- _symbolic G0R3_
+- _symbolic G0R5_
+- _symbolic G1R5_
+- _symbolic G1R6_
+- _symbolic G1R7_
+- _symbolic G1R8_
+- _symbolic SD
+- _symbolic SDySi4Diff_____QzG 10XavierCore8DiffableP
+- _symbolic SDyx4Diff_____Qy_G 10XavierCore8DiffableP
+- _symbolic SDyxq_G
+- _symbolic SS
+- _symbolic Sa
+- _symbolic SayxG
+- _symbolic SayxG8elements_t
+- _symbolic Sayyx_q_q0_tcG
+- _symbolic Sd
+- _symbolic Sf
+- _symbolic Sh
+- _symbolic ShyxG
+- _symbolic Si
+- _symbolic Si5count_t
+- _symbolic Si_4Diff_____Qzt 10XavierCore8DiffableP
+- _symbolic So9OS_os_logC
+- _symbolic _____ 10Foundation4DateV
+- _symbolic _____ 10XavierCore14NumberDiffableV
+- _symbolic _____ SD10XavierCoreSeRzSERzSeR_SER_AA8DiffableR_rlE4DiffV
+- _symbolic _____ SD10XavierCoreSeRzSERzSeR_SER_AA8DiffableR_rlE4DiffV10CodingKeys33_4F80C934304AB099B642AEC4A5008D9ALLO
+- _symbolic _____ Sa10XavierCoreSeRzSERzAA8DiffableRzlE4DiffV
+- _symbolic _____ Sa10XavierCoreSeRzSERzAA8DiffableRzlE4DiffV10CodingKeys33_6422FC39DB415738C832BDA9B5FF6ED9LLO
+- _symbolic _____ Sa10XavierCoreSeRzSERzAA8DiffableRzlE4DiffV4TailO
+- _symbolic _____ Sa10XavierCoreSeRzSERzAA8DiffableRzlE4DiffV4TailO10CodingKeysO
+- _symbolic _____ Sa10XavierCoreSeRzSERzAA8DiffableRzlE4DiffV4TailO6ErrorsO
+- _symbolic _____ Sa10XavierCoreSeRzSERzAA8DiffableRzlE6ErrorsO
+- _symbolic _____ Sh10XavierCoreSeRzSERzrlE4DiffV
+- _symbolic _____ Sh10XavierCoreSeRzSERzrlE4DiffV10CodingKeys33_C504BC2D4880BAD865EC63C0A832C48DLLO
+- _symbolic _____y______pG s23_ContiguousArrayStorageC s7CVarArgP
+- _symbolic _____yq0_q_SgG s7KeyPathC
+- _symbolic _____yq5_q1_G s7KeyPathC
+- _symbolic _____yq5_q2_G s7KeyPathC
+- _symbolic _____yq5_q3_G s7KeyPathC
+- _symbolic _____yq5_q4_G s7KeyPathC
+- _symbolic _____yx_G Sa10XavierCoreSeRzSERzAA8DiffableRzlE4DiffV
+- _symbolic _____yx_G Sh10XavierCoreSeRzSERzrlE4DiffV
+- _symbolic _____yx__G Sa10XavierCoreSeRzSERzAA8DiffableRzlE4DiffV4TailO
+- _symbolic _____yxq__G SD10XavierCoreSeRzSERzSeR_SER_AA8DiffableR_rlE4DiffV
+- _symbolic q0_
+- _symbolic q1_
+- _symbolic q2_
+- _symbolic q3_
+- _symbolic q4_
+- _symbolic q5_
+- _symbolic q_
+- _symbolic x
+- _symbolic xq_q0_Iegnnn_
+- _symbolic xq_q1_q4_q2_q3_Iegnnnnnn_
+- _type_layout_string SeRzSERz10XavierCore8DiffableRzlSaAASeRzSERzAaBRzlE4DiffV4TailOyx__G
+- _type_layout_string SeRzSERz10XavierCore8DiffableRzlSaAASeRzSERzAaBRzlE4DiffVyx_G
+- _type_layout_string SeRzSERzSHRzSeR_SER_10XavierCore8DiffableR_r0_lSDAASeRzSERzSeR_SER_AaBR_rlE4DiffVyxq__G
+- _type_layout_string SeRzSERzSHRzlSh10XavierCoreSeRzSERzrlE4DiffVyx_G
+```
