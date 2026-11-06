@@ -1,0 +1,81 @@
+## com.apple.driver.AppleEthernetAquantiaAqtion
+
+> `com.apple.driver.AppleEthernetAquantiaAqtion`
+
+```diff
+
+-264.0.0.0.0
+-  __TEXT.__cstring: 0x611f
++268.40.2.0.0
++  __TEXT.__cstring: 0x6178
+   __TEXT.__os_log: 0xa6f
+   __TEXT.__const: 0x480
+-  __TEXT_EXEC.__text: 0x28af0
++  __TEXT_EXEC.__text: 0x28e68
+   __TEXT_EXEC.__auth_stubs: 0x910
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x1f0
+   __DATA.__bss: 0x18
+   __DATA_CONST.__mod_init_func: 0x50
+   __DATA_CONST.__mod_term_func: 0x50
+-  __DATA_CONST.__const: 0x8b10
++  __DATA_CONST.__const: 0x8b28
+   __DATA_CONST.__kalloc_type: 0x680
+   __DATA_CONST.__kalloc_var: 0x280
+   __DATA_CONST.__auth_got: 0x488
+   __DATA_CONST.__got: 0x130
+-  Functions: 638
+-  Symbols:   1581
+-  CStrings:  807
++  Functions: 643
++  Symbols:   1585
++  CStrings:  810
+ 
+Symbols:
++ _OUTLINED_FUNCTION_24
++ _OUTLINED_FUNCTION_25
++ __ZL9zerosAddr
++ __ZN27AppleEthernetAquantiaAqtion18setHardwareAddressEPK17IOEthernetAddress
++ __ZN30AppleEthernetAquantiaAqtion10724handleSetHardwareAddressEv
++ __ZN30AppleEthernetAquantiaAqtion11324handleSetHardwareAddressEv
++ __ZZN27AppleEthernetAquantiaAqtion13alloc_rx_ringEjE21kalloc_type_view_3730
++ __ZZN27AppleEthernetAquantiaAqtion13alloc_tx_ringEjE21kalloc_type_view_3341
++ __ZZN27AppleEthernetAquantiaAqtion13freeAvbPacketEPvjE21kalloc_type_view_6077
++ __ZZN27AppleEthernetAquantiaAqtion13freePtpPacketEPN20IOEthernetController19IOEthernetAVBPacketEE21kalloc_type_view_6153
++ __ZZN27AppleEthernetAquantiaAqtion14allocAvbPacketEjE21kalloc_type_view_6022
++ __ZZN27AppleEthernetAquantiaAqtion14allocPtpPacketEjE21kalloc_type_view_6119
++ __ZZN27AppleEthernetAquantiaAqtion14alloc_rx_ringsEvE21kalloc_type_view_3536
++ __ZZN27AppleEthernetAquantiaAqtion14alloc_tx_ringsEvE21kalloc_type_view_3191
++ __ZZN27AppleEthernetAquantiaAqtion15destroy_rx_ringEjE21kalloc_type_view_3903
++ __ZZN27AppleEthernetAquantiaAqtion15destroy_tx_ringEjE21kalloc_type_view_3502
++ __ZZN27AppleEthernetAquantiaAqtion16destroy_rx_ringsEvE21kalloc_type_view_3587
++ __ZZN27AppleEthernetAquantiaAqtion16destroy_tx_ringsEvE21kalloc_type_view_3241
++ __ZZN30AppleEthernetAquantiaAqtion10716doFirmwareUpdateEPhE20kalloc_type_view_984
++ __ZZN30AppleEthernetAquantiaAqtion10716doFirmwareUpdateEPhE21kalloc_type_view_1044
++ __ZZN30AppleEthernetAquantiaAqtion11323commitExtLOMConfigGatedEvE21kalloc_type_view_2354
++ __ZZN30AppleEthernetAquantiaAqtion11330mergeFirmwareExtendedLOMConfigEPhjE21kalloc_type_view_2387
++ __ZZN30AppleEthernetAquantiaAqtion11330mergeFirmwareExtendedLOMConfigEPhjE21kalloc_type_view_2417
+- __ZN20IOEthernetController18setHardwareAddressEPK17IOEthernetAddress
+- __ZZN27AppleEthernetAquantiaAqtion10get_lladdrEvE9zerosAddr
+- __ZZN27AppleEthernetAquantiaAqtion13alloc_rx_ringEjE21kalloc_type_view_3695
+- __ZZN27AppleEthernetAquantiaAqtion13alloc_tx_ringEjE21kalloc_type_view_3306
+- __ZZN27AppleEthernetAquantiaAqtion13freeAvbPacketEPvjE21kalloc_type_view_6042
+- __ZZN27AppleEthernetAquantiaAqtion13freePtpPacketEPN20IOEthernetController19IOEthernetAVBPacketEE21kalloc_type_view_6118
+- __ZZN27AppleEthernetAquantiaAqtion14allocAvbPacketEjE21kalloc_type_view_5987
+- __ZZN27AppleEthernetAquantiaAqtion14allocPtpPacketEjE21kalloc_type_view_6084
+- __ZZN27AppleEthernetAquantiaAqtion14alloc_rx_ringsEvE21kalloc_type_view_3501
+- __ZZN27AppleEthernetAquantiaAqtion14alloc_tx_ringsEvE21kalloc_type_view_3156
+- __ZZN27AppleEthernetAquantiaAqtion15destroy_rx_ringEjE21kalloc_type_view_3868
+- __ZZN27AppleEthernetAquantiaAqtion15destroy_tx_ringEjE21kalloc_type_view_3467
+- __ZZN27AppleEthernetAquantiaAqtion16destroy_rx_ringsEvE21kalloc_type_view_3552
+- __ZZN27AppleEthernetAquantiaAqtion16destroy_tx_ringsEvE21kalloc_type_view_3206
+- __ZZN30AppleEthernetAquantiaAqtion10716doFirmwareUpdateEPhE20kalloc_type_view_963
+- __ZZN30AppleEthernetAquantiaAqtion10716doFirmwareUpdateEPhE21kalloc_type_view_1023
+- __ZZN30AppleEthernetAquantiaAqtion11323commitExtLOMConfigGatedEvE21kalloc_type_view_2302
+- __ZZN30AppleEthernetAquantiaAqtion11330mergeFirmwareExtendedLOMConfigEPhjE21kalloc_type_view_2361
+- __ZZN30AppleEthernetAquantiaAqtion11330mergeFirmwareExtendedLOMConfigEPhjE21kalloc_type_view_2391
+CStrings:
++ "!ETHER_IS_MULTICAST(addr->bytes)"
++ "addr"
++ "bcmp(addr, zerosAddr, kIOEthernetAddressSize) != 0"
+```

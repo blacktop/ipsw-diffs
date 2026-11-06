@@ -1,0 +1,23 @@
+## Engram
+
+> `/System/Library/PrivateFrameworks/Engram.framework/Versions/A/Engram`
+
+```diff
+
+-1138.100.1.0.0
++1138.200.21.0.0
+   __TEXT.__text: 0xe5d8
+   __TEXT.__objc_methlist: 0xfcc
+   __TEXT.__const: 0xa0
+
+   __AUTH_CONST.__objc_const: 0x2c50
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__objc_ivar: 0xb4
+-  __DATA.__data: 0x308
+   __DATA.__bss: 0x80
+   __DATA_DIRTY.__objc_data: 0x640
++  __DATA_DIRTY.__data: 0x308
+   - /System/Library/Frameworks/CoreData.framework/Versions/A/CoreData
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+```

@@ -1,0 +1,90 @@
+## RAQLThumbnailExtension
+
+> `/System/Library/PrivateFrameworks/AssetViewer.framework/PlugIns/RAQLThumbnailExtension.appex/Contents/MacOS/RAQLThumbnailExtension`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__const`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_capture`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__unwind_info`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA.__objc_const`
+- `__DATA.__objc_data`
+
+```diff
+
+-567.0.7.0.0
++567.41.1.0.0
+   __TEXT.__text: 0x54cbc
+   __TEXT.__auth_stubs: 0x2640
+   __TEXT.__objc_stubs: 0xc80
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_superrefs: 0x10
+   __DATA_CONST.__auth_got: 0x1328
+-  __DATA_CONST.__got: 0x4d8
++  __DATA_CONST.__got: 0x4e8
+   __DATA_CONST.__auth_ptr: 0x4f8
+   __DATA.__objc_const: 0x1258
+   __DATA.__objc_selrefs: 0x368
+   __DATA.__objc_ivar: 0x24
+   __DATA.__objc_data: 0x5d0
+-  __DATA.__data: 0x18b8
++  __DATA.__data: 0x18c8
+   __DATA.__common: 0x118
+   __DATA.__bss: 0x1c90
+   - /System/Library/Frameworks/Combine.framework/Versions/A/Combine
+
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+   Functions: 1281
+-  Symbols:   3783
++  Symbols:   3785
+   CStrings:  475
+ 
+Symbols:
++ $s22RAQLThumbnailExtension10SignposterC11endInterval_7sceneIDyAA8SignpostO_SStFyyYaAC0C5Actor33_AFE65D619B078A1CAC6E81BEF4020531LLCYccfU_TA.88TQ0_
++ $s22RAQLThumbnailExtension10SignposterC11endInterval_7sceneIDyAA8SignpostO_SStFyyYaAC0C5Actor33_AFE65D619B078A1CAC6E81BEF4020531LLCYccfU_TA.88Tu
++ $s22RAQLThumbnailExtension10SignposterC13beginInterval_7sceneIDyAA8SignpostO_SStFyyYaAC0C5Actor33_AFE65D619B078A1CAC6E81BEF4020531LLCYccfU_TA.78TQ0_
++ $s22RAQLThumbnailExtension10SignposterC13beginInterval_7sceneIDyAA8SignpostO_SStFyyYaAC0C5Actor33_AFE65D619B078A1CAC6E81BEF4020531LLCYccfU_TA.78Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.83TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.83Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.93TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.93Tu
++ _$s10RealityKit14ModelComponentV0A10Foundation028_ImplicitlyAnimatableBuiltinD0ADMc
++ _$s10RealityKit14ModelComponentVAC0A10Foundation028_ImplicitlyAnimatableBuiltinD0ADWL
++ _$s17RealityFoundation20SceneOriginComponentV0A3Kit0E0AAMc
++ _$s17RealityFoundation20SceneOriginComponentVAC0A3Kit0E0AAWL
++ _$s22RAQLThumbnailExtension11AssetLoaderV18importModelFileCDM33_949B66ADD6691901E0B7DE8624DE5738LL4info9modelType10completion9RealityIO5StageCSgAC15LoadInformationV_AC0G8MetadataV0gQ0Oys6ResultOyAP_AC05SceneW0Vts5Error_pGctFZ
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVy22RAQLThumbnailExtension17MRQLConfigurationVG_Tg504$s22f63Extension19VariantsServiceImplC23calculateConfigurationsSayAA17H21VGyYaKFSbAF_AFtXEfU0_Tf1nnc_n
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVy22RAQLThumbnailExtension18LineUpScenesHelperV9SceneDataVG_Tg504$s22f11Extension18hijk50V04linedE17InAscendingHeight6scenes7spacingySayAC9lM21VG_SftFZSbAH_AHtXEfU_Tf1nnc_n
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVySS3key_SS5valuetG_Tg5161$s22RAQLThumbnailExtension19VariantsServiceImplC14LoaderCacheKey33_FF1137BF8EF58C890DFF5FD204C38EFELLV4hash4intoys6HasherVz_tFSbSS3key_SS5valuet_SSAK_SSALttXEfU_Tf1nnc_n
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVySSG_Tg5
++ __swift_closure_destructor.54Tm
++ __swift_closure_destructor.70Tm
+- $s22RAQLThumbnailExtension10SignposterC11endInterval_7sceneIDyAA8SignpostO_SStFyyYaAC0C5Actor33_AFE65D619B078A1CAC6E81BEF4020531LLCYccfU_TA.85TQ0_
+- $s22RAQLThumbnailExtension10SignposterC11endInterval_7sceneIDyAA8SignpostO_SStFyyYaAC0C5Actor33_AFE65D619B078A1CAC6E81BEF4020531LLCYccfU_TA.85Tu
+- $s22RAQLThumbnailExtension10SignposterC13beginInterval_7sceneIDyAA8SignpostO_SStFyyYaAC0C5Actor33_AFE65D619B078A1CAC6E81BEF4020531LLCYccfU_TA.75TQ0_
+- $s22RAQLThumbnailExtension10SignposterC13beginInterval_7sceneIDyAA8SignpostO_SStFyyYaAC0C5Actor33_AFE65D619B078A1CAC6E81BEF4020531LLCYccfU_TA.75Tu
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.80TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.80Tu
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.90TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.90Tu
+- _$s10RealityKit14ModelComponentV0A10Foundation028_ImplicitlyAnimatableBuiltinD0ADWP
+- _$s17RealityFoundation20SceneOriginComponentV0A3Kit0E0AAWP
+- _$s22RAQLThumbnailExtension11AssetLoaderV18importModelFileCDM33_949B66ADD6691901E0B7DE8624DE5738LL4info9modelType10completion9RealityIO5StageCSgAC15LoadInformationV_AC0G8MetadataV0gQ0Oys6ResultOyAP_AC05SceneW0Vts5Error_pGctFZ04$s22a11Extension11cd32V8loadFile4info10completionyAC15vw5V_ys6y7OyAC0F8x6V_AC05Z26J0Vts5Error_pGctFZyAPcfU1_ALz_XxAXIegg_Tf1nnEn_n
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKF22RAQLThumbnailExtension17MRQLConfigurationV_Tg504$s22e26Extension19VariantsServicec33C23calculateConfigurationsSayAA17G21VGyYaKFSbAF_AFtXEfU0_Tf1cn_n
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKF22RAQLThumbnailExtension18LineUpScenesHelperV9SceneDataV_Tg504$s22e11Extension18ghij50V04linedE17InAscendingHeight6scenes7spacingySayAC9kL21VG_SftFZSbAH_AHtXEfU_Tf1cn_n
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKFSS3key_SS5valuet_Tg5043$s22RAQLThumbnailExtension19VariantsServiceC114C14LoaderCacheKey33_FF1137BF8EF58C890DFF5FD204C38EFELLV4hash4intoys6HasherVz_tFSbSS3key_SS5valuet_SSAK_SSALttXEfU_Tf1cn_n
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKFSS_Tg5
+- __swift_closure_destructor.106Tm
+- __swift_closure_destructor.67Tm
+```

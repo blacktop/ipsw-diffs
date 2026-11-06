@@ -1,0 +1,16 @@
+## Apps
+
+> `/System/Applications/Apps.app/Contents/MacOS/Apps`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+
+```diff
+
+-102.0.3.0.0
++102.1.3.0.0
+   __TEXT.__text: 0x28
+   __TEXT.__auth_stubs: 0x10
+   __TEXT.__const: 0x38
+```
