@@ -9,9 +9,18 @@
  
 +(deny asr-parser-enter)
 +(allow asr-parser-enter
-+	(require-any
-+		(asr-parser-name "com.apple.imageio.png")
++	(asr-parser-name "com.apple.imageio.png")
++)
++(allow asr-parser-enter
++	(require-all
++		(require-not (asr-parser-name "com.apple.imageio.png"))
 +		(require-not (asr-parser-domain ASR_DOMAIN_IMAGES))
++	)
++)
++(deny asr-parser-enter
++	(require-all
++		(asr-parser-domain ASR_DOMAIN_IMAGES)
++		(require-not (asr-parser-name "com.apple.imageio.png"))
 +	)
 +)
 +

@@ -5,18 +5,27 @@
 ```diff
 
  
- (allow default)
- 
--(deny asr-parser-enter
--	(require-any
--		(require-not (asr-parser-domain ASR_DOMAIN_IMAGES))
+ (allow asr-parser-enter
+ 	(require-all
+-		(asr-parser-domain ASR_DOMAIN_IMAGES)
+ 		(asr-parser-name "com.apple.imageio.png")
++		(asr-parser-domain ASR_DOMAIN_IMAGES)
+ 	)
+ )
+ (deny asr-parser-enter
+ 	(require-all
+-		(asr-parser-domain ASR_DOMAIN_IMAGES)
 -		(require-not (asr-parser-name "com.apple.imageio.png"))
--	)
--)
-+(deny asr-parser-enter)
++		(asr-parser-name "com.apple.imageio.png")
++		(require-not (asr-parser-domain ASR_DOMAIN_IMAGES))
+ 	)
+ )
+ (deny asr-parser-enter
+-	(require-not (asr-parser-domain ASR_DOMAIN_IMAGES))
++	(require-not (asr-parser-name "com.apple.imageio.png"))
+ )
  
  (deny file-ioctl)
- (allow file-ioctl
 
  		(require-not (global-name "com.apple.captiveagent"))
  		(require-not (global-name "com.apple.usymptomsd"))
