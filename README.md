@@ -9,6 +9,7 @@
 <p><strong>Quick Nav:</strong>
 <a href="#ios-27-3-beta">iOS 27.3 beta</a> ·
 <a href="#ios-26-6">iOS 26.6</a> ·
+<a href="#ios-27-2">iOS 27.2</a> ·
 <a href="#ios-27-2-beta">iOS 27.2 beta</a> ·
 <a href="#ios-27-0">iOS 27.0</a> ·
 <a href="#ios-27-0-beta">iOS 27.0 beta</a> ·
@@ -63,6 +64,17 @@
   <summary>View diffs</summary>
 
 - [27.2 (24B115) .vs 27.3 beta 1 (24C5037i)](iOS/27_2_24B115_vs_27_3_24C5037i/README.md)
+
+</details>
+
+<a id="ios-27-2"></a>
+
+### iOS 27.2
+
+<details open>
+  <summary>View diffs</summary>
+
+- [27.2 (24B115) .vs 27.2.1 (24B156)](iOS/27_2_24B115_vs_27_2_1_24B156/README.md)
 
 </details>
 
