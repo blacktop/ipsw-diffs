@@ -1,0 +1,181 @@
+## _PhotosUI_SwiftUI
+
+> `/System/Library/Frameworks/_PhotosUI_SwiftUI.framework/Versions/A/_PhotosUI_SwiftUI`
+
+```diff
+
+-911.0.134.0.0
+-  __TEXT.__text: 0x30e28
+-  __TEXT.__objc_methlist: 0x524
+-  __TEXT.__swift5_typeref: 0x1d47
+-  __TEXT.__const: 0x34b0
+-  __TEXT.__swift5_capture: 0x700
+-  __TEXT.__constg_swiftt: 0x1dfc
++916.58.114.0.0
++  __TEXT.__text: 0x33628
++  __TEXT.__objc_methlist: 0x53c
++  __TEXT.__swift5_typeref: 0x1e29
++  __TEXT.__const: 0x3710
++  __TEXT.__swift5_capture: 0x6f0
++  __TEXT.__constg_swiftt: 0x2018
+   __TEXT.__swift5_builtin: 0xc8
+-  __TEXT.__swift5_reflstr: 0x97a
+-  __TEXT.__swift5_fieldmd: 0x9ec
++  __TEXT.__swift5_reflstr: 0x9fa
++  __TEXT.__swift5_fieldmd: 0xa5c
+   __TEXT.__swift5_assocty: 0x6b8
+-  __TEXT.__swift5_proto: 0x180
+-  __TEXT.__swift5_types: 0x108
++  __TEXT.__swift5_proto: 0x198
++  __TEXT.__swift5_types: 0x114
+   __TEXT.__swift_as_entry: 0x3c
+   __TEXT.__swift_as_cont: 0x38
+-  __TEXT.__cstring: 0x72b
+-  __TEXT.__oslogstring: 0x405
++  __TEXT.__cstring: 0x70b
++  __TEXT.__oslogstring: 0x645
+   __TEXT.__swift_as_ret: 0x10
+-  __TEXT.__unwind_info: 0xe28
+-  __TEXT.__eh_frame: 0x84c
++  __TEXT.__unwind_info: 0xeb0
++  __TEXT.__eh_frame: 0x8bc
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0xb8
+-  __DATA_CONST.__objc_classlist: 0x20
++  __DATA_CONST.__objc_classlist: 0x28
+   __DATA_CONST.__objc_protolist: 0x40
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x4d8
++  __DATA_CONST.__objc_selrefs: 0x520
+   __DATA_CONST.__objc_protorefs: 0x28
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x19b0
+-  __AUTH_CONST.__objc_const: 0x800
+-  __AUTH_CONST.__auth_got: 0xc78
+-  __AUTH_CONST.__auth_ptr: 0x740
+-  __AUTH.__objc_data: 0x220
+-  __AUTH.__data: 0x688
+-  __DATA.__data: 0xff0
+-  __DATA.__bss: 0x2ac0
++  __AUTH_CONST.__const: 0x19f0
++  __AUTH_CONST.__objc_const: 0x920
++  __AUTH_CONST.__auth_got: 0xce8
++  __AUTH_CONST.__auth_ptr: 0x770
++  __AUTH.__objc_data: 0x288
++  __AUTH.__data: 0x7b0
++  __DATA.__data: 0x10f8
++  __DATA.__bss: 0x2dc0
+   __DATA.__common: 0x10
+   __DATA_DIRTY.__objc_data: 0x50
+-  __DATA_DIRTY.__data: 0x7f0
++  __DATA_DIRTY.__data: 0x800
+   __DATA_DIRTY.__bss: 0x680
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+   - /System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+   - /System/Library/Frameworks/CoreTransferable.framework/Versions/A/CoreTransferable
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
++  - /System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO
+   - /System/Library/Frameworks/Photos.framework/Versions/A/Photos
+   - /System/Library/Frameworks/PhotosUI.framework/Versions/A/PhotosUI
+   - /System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 1652
+-  Symbols:   973
+-  CStrings:  67
++  Functions: 1714
++  Symbols:   1011
++  CStrings:  74
+ 
+Symbols:
++ _CGImageDestinationAddImage
++ _CGImageDestinationCreateWithURL
++ _CGImageDestinationFinalize
++ _CGImageGetHeight
++ _CGImageGetWidth
++ _OBJC_CLASS_$_NSFileManager
++ _OBJC_CLASS_$_PVSAdjustedImageSurface
++ __DATA__TtC17_PhotosUI_SwiftUI20PVSAdjustedImageFile
++ __IVARS__TtC17_PhotosUI_SwiftUI20PVSAdjustedImageFile
++ __METACLASS_DATA__TtC17_PhotosUI_SwiftUI20PVSAdjustedImageFile
++ __swift_closure_destructor.35Tm
++ __swift_closure_destructor.72Tm
++ _associated conformance So10CGImageRefa14CoreFoundation9_CFObjectSCSH
++ _associated conformance So10CGImageRefaSHSCSQ
++ _associated conformance So11CFStringRefa14CoreFoundation9_CFObjectSCSH
++ _associated conformance So11CFStringRefaSHSCSQ
++ _kCGImagePropertyTIFFCompression
++ _kCGImagePropertyTIFFDictionary
++ _objc_msgSend$angelPhotoLibrary
++ _objc_msgSend$createDirectoryAtURL:withIntermediateDirectories:attributes:error:
++ _objc_msgSend$defaultManager
++ _objc_msgSend$height
++ _objc_msgSend$initWithImage:
++ _objc_msgSend$removeItemAtURL:error:
++ _objc_msgSend$setAdjustedImageSurface:reply:
++ _objc_msgSend$setAdjustedImageURL:sandboxExtensionToken:reply:
++ _objc_msgSend$temporaryDirectory
++ _objc_msgSend$width
++ _symbolic SDy_____SiG So11CFStringRefa
++ _symbolic So23PVSAdjustedImageSurfaceCSgSg
++ _symbolic _____ 015_PhotosUI_SwiftB020PVSAdjustedImageFileC
++ _symbolic _____ So10CGImageRefa
++ _symbolic _____3url_SS21sandboxExtensionTokent 10Foundation3URLV
++ _symbolic _____3url_SS21sandboxExtensionTokentSg 10Foundation3URLV
++ _symbolic _____Sg 015_PhotosUI_SwiftB019PVSAlbumWrapperViewV
++ _symbolic _____Sg So10CGImageRefa
++ _symbolic _____SgSg 015_PhotosUI_SwiftB020PVSAdjustedImageFileC
++ _symbolic _____yAAyAAyAAyAAy__________ySiSgGGACy_____GG_____G_____G_____G 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AE14TruncationModeO AA14_PaddingLayoutV AA14_OpacityEffectV AA010_FlexFrameM0V
++ _symbolic _____yAAyAAyAAy__________ySiSgGGACy_____GG_____G_____G 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AE14TruncationModeO AA14_PaddingLayoutV AA14_OpacityEffectV
++ _symbolic _____yAAyAAyAAy_____y_____yAAy_____y__________G_____G______y_____yAFG______Qo_AAyAM_____ySbGGQPGG_____y_____GGASy_____GG_____GAOG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA6SliderV AA9EmptyViewV AA4TextV AA12_FrameLayoutV AA0I0PAAE11toggleStyleyQrqd__AA06ToggleN0Rd__lFQO AA0O0V AA06ButtonoN0V AA32_EnvironmentKeyTransformModifierV AA01_qr7WritingT0V AA11ControlSizeO AA0P11BorderShapeV AA08_PaddingL0V
++ _symbolic _____yAAyAAy_____y_____yAAy_____y__________G_____G______y_____yAFG______Qo_AAyAM_____ySbGGQPGG_____y_____GGASy_____GG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA6SliderV AA9EmptyViewV AA4TextV AA12_FrameLayoutV AA0I0PAAE11toggleStyleyQrqd__AA06ToggleN0Rd__lFQO AA0O0V AA06ButtonoN0V AA32_EnvironmentKeyTransformModifierV AA01_qr7WritingT0V AA11ControlSizeO AA0P11BorderShapeV AA08_PaddingL0V
++ _symbolic _____yAAy_____y_____yAAy_____y__________G_____G______y_____yAFG______Qo_AAyAM_____ySbGGQPGG_____y_____GGASy_____GG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA6SliderV AA9EmptyViewV AA4TextV AA12_FrameLayoutV AA0I0PAAE11toggleStyleyQrqd__AA06ToggleN0Rd__lFQO AA0O0V AA06ButtonoN0V AA32_EnvironmentKeyTransformModifierV AA01_qr7WritingT0V AA11ControlSizeO AA0P11BorderShapeV
++ _symbolic _____y_____G______Sgt 7SwiftUI21_ViewModifier_ContentV 07_Photosb1_aB008PVSAlbumD0V AD0g7WrapperC0V
++ _symbolic _____y______SDyABSiGtG s23_ContiguousArrayStorageC So11CFStringRefa
++ _symbolic _____y______SitG s23_ContiguousArrayStorageC So11CFStringRefa
++ _symbolic _____y___________y_____y_____G______SgQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA12TupleContentV AA01_d9Modifier_I0V 07_Photosb1_aB008PVSAlbumJ0V AL0l7WrapperD0V
++ _symbolic _____y___________y_____y_____y__________G_____G______y_____yAGG______Qo_ADyAN_____ySbGGQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA12TupleContentV AA08ModifiedI0V AA6SliderV AA05EmptyD0V AA4TextV AA06_FrameG0V AA0D0PAAE11toggleStyleyQrqd__AA06ToggleP0Rd__lFQO AA0Q0V AA06ButtonqP0V AA32_EnvironmentKeyTransformModifierV
++ _symbolic _____y_____y__________G_____G______y_____yADG______Qo_AAyAK_____ySbGGt 7SwiftUI15ModifiedContentV AA6SliderV AA9EmptyViewV AA4TextV AA12_FrameLayoutV AA0G0PAAE11toggleStyleyQrqd__AA06ToggleL0Rd__lFQO AA0M0V AA06ButtonmL0V AA32_EnvironmentKeyTransformModifierV
++ _symbolic _____y_____y_____yAAy_____y__________G_____G______y_____yAFG______Qo_AAyAM_____ySbGGQPGG_____y_____GG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA6SliderV AA9EmptyViewV AA4TextV AA12_FrameLayoutV AA0I0PAAE11toggleStyleyQrqd__AA06ToggleN0Rd__lFQO AA0O0V AA06ButtonoN0V AA32_EnvironmentKeyTransformModifierV AA01_qr7WritingT0V AA11ControlSizeO
++ _symbolic _____y_____y_____y_____G______Qo______ySbGG 7SwiftUI15ModifiedContentV AA4ViewPAAE11toggleStyleyQrqd__AA06ToggleG0Rd__lFQO AA0H0V AA4TextV AA06ButtonhG0V AA32_EnvironmentKeyTransformModifierV
++ _symbolic _____y_____y_____y_____G______SgQPGG 7SwiftUI6ZStackV AA12TupleContentV AA014_ViewModifier_E0V 07_Photosb1_aB008PVSAlbumG0V AH0i7WrapperF0V
++ _symbolic _____y_____y_____y_____y__________G_____G______y_____yAFG______Qo_ACyAM_____ySbGGQPGG 7SwiftUI6HStackV AA12TupleContentV AA08ModifiedE0V AA6SliderV AA9EmptyViewV AA4TextV AA12_FrameLayoutV AA0I0PAAE11toggleStyleyQrqd__AA06ToggleN0Rd__lFQO AA0O0V AA06ButtonoN0V AA32_EnvironmentKeyTransformModifierV
++ get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyAA6HStackVyAA05TupleD0VyACyAA6SliderVyAA9EmptyViewVAA4TextVGAA12_FrameLayoutVG_AA0I0PAAE11toggleStyleyQrqd__AA06ToggleN0Rd__lFQOyAA0O0VyAMG_AA06ButtonoN0VQo_ACyA_AA32_EnvironmentKeyTransformModifierVySbGGQPGGAA01_qr7WritingT0VyAA11ControlSizeOGGA7_yAA0P11BorderShapeVGGAA08_PaddingL0VGA2_GAaRHPA18_AaRHPA15_AaRHPA11_AaRHPA5_AaRHPyHC_A10_AA0iT0HPyHCHC_A14_AAA20_HPyHCHC_A17_AAA20_HPyHCHC_A2_AAA20_HPyHCHC
++ get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACyAA4TextVAA30_EnvironmentKeyWritingModifierVySiSgGGAGyAE14TruncationModeOGGAA14_PaddingLayoutVGAA14_OpacityEffectVGAA010_FlexFrameM0VGAA4ViewHPAtaXHPAqaXHPAnaXHPAjaXHPAeaXHPyHC_AiA0rI0HPyHCHC_AmaYHPyHCHC_ApaYHPyHCHC_AsaYHPyHCHC_AvaYHPyHCHC
++ get_witness_table 7SwiftUI6ZStackVyAA12TupleContentVyAA014_ViewModifier_E0Vy07_Photosb1_aB008PVSAlbumG0VG_AH0i7WrapperF0VSgQPGGAA0F0HPyHC
+- __swift_closure_destructor.26Tm
+- __swift_closure_destructor.69Tm
+- _objc_msgSend$imagePickerPhotoLibrary
+- _symbolic _____yAAyAAyAAy__________ySiSgGGACy_____GG_____G_____G 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AE14TruncationModeO AA14_PaddingLayoutV AA010_FlexFrameM0V
+- _symbolic _____yAAyAAyAAy_____y_____yAAy_____y__________G_____G______y_____yAFG______Qo_AAy_____yAJy_____G_ALQo______ySbGGQPGG_____y_____GGAVy_____GG_____GARG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA6SliderV AA9EmptyViewV AA4TextV AA12_FrameLayoutV AA0I0PAAE11toggleStyleyQrqd__AA06ToggleN0Rd__lFQO AA0O0V AA06ButtonoN0V AqAEARyQrqd__AaSRd__lFQO AA5ImageV AA32_EnvironmentKeyTransformModifierV AA01_rs7WritingU0V AA11ControlSizeO AA0P11BorderShapeV AA08_PaddingL0V
+- _symbolic _____yAAyAAy_____y_____yAAy_____y__________G_____G______y_____yAFG______Qo_AAy_____yAJy_____G_ALQo______ySbGGQPGG_____y_____GGAVy_____GG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA6SliderV AA9EmptyViewV AA4TextV AA12_FrameLayoutV AA0I0PAAE11toggleStyleyQrqd__AA06ToggleN0Rd__lFQO AA0O0V AA06ButtonoN0V AqAEARyQrqd__AaSRd__lFQO AA5ImageV AA32_EnvironmentKeyTransformModifierV AA01_rs7WritingU0V AA11ControlSizeO AA0P11BorderShapeV AA08_PaddingL0V
+- _symbolic _____yAAy_____y_____yAAy_____y__________G_____G______y_____yAFG______Qo_AAy_____yAJy_____G_ALQo______ySbGGQPGG_____y_____GGAVy_____GG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA6SliderV AA9EmptyViewV AA4TextV AA12_FrameLayoutV AA0I0PAAE11toggleStyleyQrqd__AA06ToggleN0Rd__lFQO AA0O0V AA06ButtonoN0V AqAEARyQrqd__AaSRd__lFQO AA5ImageV AA32_EnvironmentKeyTransformModifierV AA01_rs7WritingU0V AA11ControlSizeO AA0P11BorderShapeV
+- _symbolic _____y_____G 7SwiftUI6ToggleV AA5ImageV
+- _symbolic _____y___________y_____y_____y__________G_____G______y_____yAGG______Qo_ADy_____yAKy_____G_AMQo______ySbGGQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA12TupleContentV AA08ModifiedI0V AA6SliderV AA05EmptyD0V AA4TextV AA06_FrameG0V AA0D0PAAE11toggleStyleyQrqd__AA06ToggleP0Rd__lFQO AA0Q0V AA06ButtonqP0V AuAEAVyQrqd__AaWRd__lFQO AA5ImageV AA32_EnvironmentKeyTransformModifierV
+- _symbolic _____y_____y_____G______Qo_ 7SwiftUI4ViewPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQO AA01_C16Modifier_ContentV 07_Photosb1_aB008PVSAlbumK0V AN0n7WrapperC0V
+- _symbolic _____y_____y__________G_____G______y_____yADG______Qo_AAy_____yAHy_____G_AJQo______ySbGGt 7SwiftUI15ModifiedContentV AA6SliderV AA9EmptyViewV AA4TextV AA12_FrameLayoutV AA0G0PAAE11toggleStyleyQrqd__AA06ToggleL0Rd__lFQO AA0M0V AA06ButtonmL0V AmAEANyQrqd__AaORd__lFQO AA5ImageV AA32_EnvironmentKeyTransformModifierV
+- _symbolic _____y_____y_____yAAy_____y__________G_____G______y_____yAFG______Qo_AAy_____yAJy_____G_ALQo______ySbGGQPGG_____y_____GG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA6SliderV AA9EmptyViewV AA4TextV AA12_FrameLayoutV AA0I0PAAE11toggleStyleyQrqd__AA06ToggleN0Rd__lFQO AA0O0V AA06ButtonoN0V AqAEARyQrqd__AaSRd__lFQO AA5ImageV AA32_EnvironmentKeyTransformModifierV AA01_rs7WritingU0V AA11ControlSizeO
+- _symbolic _____y_____y_____y_____G______Qo______ySbGG 7SwiftUI15ModifiedContentV AA4ViewPAAE11toggleStyleyQrqd__AA06ToggleG0Rd__lFQO AA0H0V AA5ImageV AA06ButtonhG0V AA32_EnvironmentKeyTransformModifierV
+- _symbolic _____y_____y_____y_____y__________G_____G______y_____yAFG______Qo_ACy_____yAJy_____G_ALQo______ySbGGQPGG 7SwiftUI6HStackV AA12TupleContentV AA08ModifiedE0V AA6SliderV AA9EmptyViewV AA4TextV AA12_FrameLayoutV AA0I0PAAE11toggleStyleyQrqd__AA06ToggleN0Rd__lFQO AA0O0V AA06ButtonoN0V AqAEARyQrqd__AaSRd__lFQO AA5ImageV AA32_EnvironmentKeyTransformModifierV
+- get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyAA4TextVAA30_EnvironmentKeyWritingModifierVySiSgGGAGyAE14TruncationModeOGGAA14_PaddingLayoutVGAA010_FlexFrameM0VGAA4ViewHPAqaUHPAnaUHPAjaUHPAeaUHPyHC_AiA0pI0HPyHCHC_AmaVHPyHCHC_ApaVHPyHCHC_AsaVHPyHCHC
+- get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyAA6HStackVyAA05TupleD0VyACyAA6SliderVyAA9EmptyViewVAA4TextVGAA12_FrameLayoutVG_AA0I0PAAE11toggleStyleyQrqd__AA06ToggleN0Rd__lFQOyAA0O0VyAMG_AA06ButtonoN0VQo_ACyAsAEATyQrqd__AaURd__lFQOyAWyAA5ImageVG_AZQo_AA32_EnvironmentKeyTransformModifierVySbGGQPGGAA01_rs7WritingU0VyAA11ControlSizeOGGA11_yAA0P11BorderShapeVGGAA08_PaddingL0VGA6_GAaRHPA22_AaRHPA19_AaRHPA15_AaRHPA9_AaRHPyHC_A14_AA0iU0HPyHCHC_A18_AAA24_HPyHCHC_A21_AAA24_HPyHCHC_A6_AAA24_HPyHCHC
+- get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQOyAA01_C16Modifier_ContentVy07_Photosb1_aB008PVSAlbumK0VG_AN0n7WrapperC0VQo_HO
+CStrings:
++ "Adjusted image XPC connection replied with success: %{bool}d"
++ "Adjusted image could neither be shared as a surface nor staged on disk; the viewer will show the unadjusted photo."
++ "Failed to create a sandbox extension token for the adjusted image: %s"
++ "Failed to create an image destination for the adjusted image."
++ "Failed to create temporary directory for adjusted image: %s"
++ "Failed to write the %ldx%ld adjusted image; its pixel data may be unreadable."
++ "Sending adjusted image at %{public}s"
++ "Sending the adjusted image's %ldx%ld surface"
++ "adjusted-image.tiff"
+- "%s"
+- "Failed to start accessing security scoped resource"
+```

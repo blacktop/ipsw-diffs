@@ -1,0 +1,61 @@
+## AirDropHandoffIntentsExtension
+
+> `FileSystem/System/Library/ExtensionKit/Extensions/AirDropHandoffIntentsExtension.appex/Contents/Resources/Localizable.loctable`
+
+```diff
+
+ en.%@ (%@) = "%1$@ (%2$@)"
+ en.AirDrop & Continuity = "AirDrop \u0026 Continuity"
++en.AirDrop & Continuity Settings = "AirDrop \u0026 Continuity Settings"
+ en.AirDrop = "AirDrop"
+ en.AirDrop Contacts = "AirDrop Contacts"
+ en.AirDrop to update = "AirDrop to update"
+
+ en.AirPlay Receiver Enabled = "AirPlay Receiver Enabled"
+ en.AirPlay Requires Password = "AirPlay Requires Password"
+ en.Allow AirPlay for = "Allow AirPlay for"
++en.Allow Handoff = "Allow Handoff"
+ en.Allow Handoff between this Mac and your iCloud devices = "Allow Handoff between this Mac and your iCloud devices"
+ en.Allow nearby Apple devices to send video and audio content to your Mac with AirPlay. = "Allow nearby Apple devices to send video and audio content to your Mac with AirPlay."
+ en.Anyone on the Same Network = "Anyone on the Same Network"
+
+ en.Change the iPhone Widgets value of iPhone Widgets = "Change the iPhone Widgets value of iPhone Widgets"
+ en.Check who can AirPlay to this computer = "Check who can AirPlay to this computer"
+ en.Contacts Only = "Contacts Only"
+-en.Continuity = "Continuity"
+ en.Current User = "Current User"
+ en.Everyone = "Everyone"
+ en.General → AirDrop & Continuity = "General → AirDrop \u0026 Continuity"
+
+ en.Handoff = "Handoff"
+ en.Handoff Enabled = "Handoff Enabled"
+ en.No One = "No One"
+-en.Open AirDrop & Continuity = "Open AirDrop \u0026 Continuity"
++en.Open AirDrop & Continuity Settings = "Open AirDrop \u0026 Continuity Settings"
+ en.Settings = "Settings"
+-en.The “AirDrop & Continuity” setting is in macOS System Settings app under General settings. This setting allows users to change AirDrop, Continuity and AirPlay settings. = "The “AirDrop \u0026 Continuity” setting is in macOS System Settings app under General settings. This setting allows users to change AirDrop, Continuity and AirPlay settings."
+ en.The “AirDrop” setting is in macOS System Settings app under “General” and “AirDrop & Continuity” settings. This setting allows users to specify who can AirDrop to this Mac. = "The “AirDrop” setting is in macOS System Settings app under “General” and “AirDrop \u0026 Continuity” settings. This setting allows users to specify who can AirDrop to this Mac."
+ en.Unknown = "Unknown"
+ en.Update AirDrop = "Update AirDrop"
+ en.Update iPhone Widgets = "Update iPhone Widgets"
+-en.airplay = "airplay"
++en.audio = "audio"
++en.cast = "cast"
++en.contacts = "contacts"
++en.discover = "discover"
++en.discoverable = "discoverable"
++en.everyone = "everyone"
++en.iPhone Mirroring = "iPhone Mirroring"
+ en.iPhone Widgets = "iPhone Widgets"
+ en.iPhone Widgets to update = "iPhone Widgets to update"
+ en.iPhone Widgets to update on iPhone Widgets = "iPhone Widgets to update on iPhone Widgets"
+-en.iPhone mirroring = "iPhone mirroring"
+-en.receiver = "receiver"
++en.icloud = "icloud"
++en.mac = "mac"
++en.receive = "receive"
++en.send = "send"
+ en.share = "share"
++en.video = "video"
+
+```

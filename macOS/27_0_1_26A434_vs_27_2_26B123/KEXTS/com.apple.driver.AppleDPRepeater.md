@@ -1,0 +1,352 @@
+## com.apple.driver.AppleDPRepeater
+
+> `com.apple.driver.AppleDPRepeater`
+
+```diff
+
+-325.0.0.0.0
+-  __TEXT.__cstring: 0x195f
+-  __TEXT.__const: 0xeb
+-  __TEXT.__os_log: 0x1ae5
+-  __TEXT_EXEC.__text: 0x115a8
+-  __TEXT_EXEC.__auth_stubs: 0x3e0
++328.0.0.0.0
++  __TEXT.__cstring: 0x1307
++  __TEXT.__os_log: 0x1240
++  __TEXT.__const: 0xcb
++  __TEXT_EXEC.__text: 0xaf70
++  __TEXT_EXEC.__auth_stubs: 0x2a0
+   __DATA.__data: 0xc8
+-  __DATA.__common: 0x128
++  __DATA.__common: 0xd8
+   __DATA.__bss: 0x4
+-  __DATA_CONST.__mod_init_func: 0x38
+-  __DATA_CONST.__mod_term_func: 0x38
+-  __DATA_CONST.__const: 0x7688
+-  __DATA_CONST.__kalloc_type: 0x1c0
+-  __DATA_CONST.__auth_got: 0x1f0
+-  __DATA_CONST.__got: 0xc0
+-  Functions: 586
+-  Symbols:   1351
+-  CStrings:  254
++  __DATA_CONST.__mod_init_func: 0x28
++  __DATA_CONST.__mod_term_func: 0x28
++  __DATA_CONST.__const: 0x58a8
++  __DATA_CONST.__kalloc_type: 0x140
++  __DATA_CONST.__auth_got: 0x150
++  __DATA_CONST.__got: 0x80
++  Functions: 420
++  Symbols:   1111
++  CStrings:  186
+ 
+Symbols:
+- _GLOBAL__sub_I_AppleSTDP2700.cpp
+- _GLOBAL__sub_I_AppleSTDP2700UpdatePlaceholder.cpp
+- _IOAVAudioGetChannelAllocationDefault
+- _IOAVAudioSampleRateEnum
+- _IOAVAudioSampleSizeEnum
+- _IOAVCPCapabilitiesContain
+- _IOAVRecoverableError
+- _ZN13AppleSTDP270014startAudioLinkEPK12IOAVLinkData
+- _ZN13AppleSTDP270015handleDownReplyEv
+- _ZN13AppleSTDP270018cecReceiveOccurredEP13IOEventSource
+- _ZN13AppleSTDP270018handleDidStartLinkEP12IOAVLinkData14IOAVLinkSourcej
+- _ZN13AppleSTDP270018handleWillStopLinkEP12IOAVLinkData14IOAVLinkSourcej
+- _ZN13AppleSTDP270020handleCECRxInterruptEv
+- _ZN13AppleSTDP270026handleIRQSinkSpecificGatedEv
+- __Z13IOAVSerializeP11OSSerializePKc
+- __Z29IOAVAudioGetChannelStatusBitsPK17IOAVAudioLinkData
+- __ZL17AppleSTDP2700_ktv
+- __ZL34AppleSTDP2700UpdatePlaceholder_ktv
+- __ZN11IOAVService11getLinkDataE12IOAVLinkTypeP12IOAVLinkData14IOAVLinkSource
+- __ZN11IOAVService13getLinkStatusE12IOAVLinkType14IOAVLinkSource
+- __ZN11IOAVService14handleStopLinkEP12IOAVLinkData14IOAVLinkSourcej
+- __ZN11IOAVService15handleStartLinkEP12IOAVLinkData14IOAVLinkSourcej
+- __ZN11IOAVService17getLinkStatusMaskE14IOAVLinkSource
+- __ZN11IOAVService17handlePrepareLinkEP12IOAVLinkData14IOAVLinkSourcej
+- __ZN11IOAVService24getHDMIScramblingEnabledEPb
+- __ZN11IOAVService24setHDMIScramblingEnabledEb
+- __ZN11IOAVService26getSCDCTransactionsEnabledEPb
+- __ZN11IOAVService26setSCDCTransactionsEnabledEb
+- __ZN11IOAVService29validateColorFormatConversionEPK18IOAVVideoColorDataS2_
+- __ZN11IOAVService30validateTimingFormatConversionEPK19IOAVVideoTimingDataS2_PK18IOAVVideoColorData
+- __ZN11IOAVService32hdmiCharacterErrorDetectionResetEv
+- __ZN11IOAVService33getSupportsTimingFormatConversionEv
+- __ZN11IOAVService34getHDMILinkStatusMonitoringEnabledEPb
+- __ZN11IOAVService34setHDMILinkStatusMonitoringEnabledEb
+- __ZN11IOAVService41copyUpstreamTimingFormatConversionElementEPK22IOAVVideoTimingElement
+- __ZN11IODPService10gMetaClassE
+- __ZN11IODPService14acknowledgeIRQE11IODPIRQMask
+- __ZN11IODPService17enableCECMessagesEv
+- __ZN11IODPService18disableCECMessagesEv
+- __ZN11IODPService21getCECSnoopingEnabledEv
+- __ZN11IODPService22handleDeviceServiceIRQEv
+- __ZN11IODPService23handleCacheCapabilitiesEv
+- __ZN11IODPService26handleIRQLinkStatusChangedEv
+- __ZN11IODPServiceC2EPK11OSMetaClass
+- __ZN11IODPServiceD2Ev
+- __ZN12IOAVAUPState17initWithAUPPacketEP6OSData
+- __ZN13AppleSTDP270010gMetaClassE
+- __ZN13AppleSTDP270010handleStopEP9IOService
+- __ZN13AppleSTDP270010superClassE
+- __ZN13AppleSTDP270011getAUPStateEv
+- __ZN13AppleSTDP270011handleStartEP9IOService
+- __ZN13AppleSTDP270011protectLinkEv
+- __ZN13AppleSTDP270012getInfoFrameEP13IOAVInfoFrame14IOAVLinkSource
+- __ZN13AppleSTDP270012sendCECGatedEPK10IOCECFrame
+- __ZN13AppleSTDP270012validateLinkEP12IOAVLinkData14IOAVLinkSourceb
+- __ZN13AppleSTDP270013stopAudioLinkEPK12IOAVLinkData
+- __ZN13AppleSTDP270013stopInfoFrameEP13IOAVInfoFrame14IOAVLinkSource
+- __ZN13AppleSTDP270013stopLinkGatedEP12IOAVLinkData14IOAVLinkSourcePj
+- __ZN13AppleSTDP270013unprotectLinkEv
+- __ZN13AppleSTDP270013willTerminateEP9IOServicej
+- __ZN13AppleSTDP270014setHDCPEnabledEb
+- __ZN13AppleSTDP270014startAudioLinkEPK12IOAVLinkData
+- __ZN13AppleSTDP270014startInfoFrameEP13IOAVInfoFrame14IOAVLinkSource
+- __ZN13AppleSTDP270014startLinkGatedEP12IOAVLinkData14IOAVLinkSourcePj
+- __ZN13AppleSTDP270015createAUPPacketEP6OSData
+- __ZN13AppleSTDP270015handleDownReplyEv
+- __ZN13AppleSTDP270015sendCECInternalEPK10IOCECFrame
+- __ZN13AppleSTDP270016getAUPStateGatedEP12IOAVAUPState
+- __ZN13AppleSTDP270016setAVMUTEEnabledEb
+- __ZN13AppleSTDP270016setupCalibrationEP9IOService
+- __ZN13AppleSTDP270016setupCalibrationEv
+- __ZN13AppleSTDP270017setCECAddressMaskEt
+- __ZN13AppleSTDP270018cecReceiveOccurredEP13IOEventSource
+- __ZN13AppleSTDP270018handleDidStartLinkEP12IOAVLinkData14IOAVLinkSourcej
+- __ZN13AppleSTDP270018handleWillStopLinkEP12IOAVLinkData14IOAVLinkSourcej
+- __ZN13AppleSTDP270018sendMailboxMessageEhPKvmPvPm
+- __ZN13AppleSTDP270019getProtectionStatusEP20IOAVProtectionStatus
+- __ZN13AppleSTDP270020createAUPPacketGatedEP6OSDataPS1_
+- __ZN13AppleSTDP270020handleCECRxInterruptEv
+- __ZN13AppleSTDP270020handleCECTxInterruptEv
+- __ZN13AppleSTDP270020handleGetSupportsCECEv
+- __ZN13AppleSTDP270020shouldWriteSourceOUIEv
+- __ZN13AppleSTDP270021handleIRQSinkSpecificEv
+- __ZN13AppleSTDP270021updateCPConfigurationEv
+- __ZN13AppleSTDP270022getDownstreamInfoFrameEP13IOAVInfoFrame
+- __ZN13AppleSTDP270022setupContentProtectionE19IOAVCPConfigurationPK11OSMetaClass
+- __ZN13AppleSTDP270023performMailboxOperationEPKNS_16MailboxOperationE
+- __ZN13AppleSTDP270023sendMailboxMessageGatedEPKNS_16MailboxOperationE
+- __ZN13AppleSTDP270023signalCECTXAvailabilityEv
+- __ZN13AppleSTDP270023stopDownstreamInfoFrameEPK13IOAVInfoFrame
+- __ZN13AppleSTDP270024startDownstreamInfoFrameEPK13IOAVInfoFrame
+- __ZN13AppleSTDP270024waitForCECTXAvailabilityEv
+- __ZN13AppleSTDP270025completeSendCECWithStatusEi
+- __ZN13AppleSTDP270025shutdownContentProtectionEv
+- __ZN13AppleSTDP270025signalMailboxAvailabilityEv
+- __ZN13AppleSTDP270026handleIRQSinkSpecificGatedEv
+- __ZN13AppleSTDP270026stopDownstreamAVIInfoFrameEPK17IOAVVideoLinkData
+- __ZN13AppleSTDP270026waitForMailboxAvailabilityEv
+- __ZN13AppleSTDP270027startDownstreamAVIInfoFrameEPK17IOAVVideoLinkData
+- __ZN13AppleSTDP270028handleSerializeProtectionAUPEPvP11OSSerialize
+- __ZN13AppleSTDP270028stopDownstreamAudioInfoFrameEPK17IOAVAudioLinkData
+- __ZN13AppleSTDP270029setDownstreamInfoFrameEnabledEPK13IOAVInfoFrameb
+- __ZN13AppleSTDP270029startDownstreamAudioInfoFrameEPK17IOAVAudioLinkData
+- __ZN13AppleSTDP270038handleGetContentProtectionCapabilitiesEv
+- __ZN13AppleSTDP27004freeEv
+- __ZN13AppleSTDP27007sendCECEPK10IOCECFrameh
+- __ZN13AppleSTDP27008stopLinkEP12IOAVLinkData14IOAVLinkSourcej
+- __ZN13AppleSTDP27009MetaClassC1Ev
+- __ZN13AppleSTDP27009MetaClassC2Ev
+- __ZN13AppleSTDP27009MetaClassD0Ev
+- __ZN13AppleSTDP27009MetaClassD1Ev
+- __ZN13AppleSTDP27009metaClassE
+- __ZN13AppleSTDP27009startLinkEP12IOAVLinkData14IOAVLinkSourcej
+- __ZN13AppleSTDP2700C1EPK11OSMetaClass
+- __ZN13AppleSTDP2700C1Ev
+- __ZN13AppleSTDP2700C2EPK11OSMetaClass
+- __ZN13AppleSTDP2700C2Ev
+- __ZN13AppleSTDP2700D0Ev
+- __ZN13AppleSTDP2700D1Ev
+- __ZN13AppleSTDP2700D2Ev
+- __ZN13AppleSTDP2700dlEPvm
+- __ZN13AppleSTDP2700nwEm
+- __ZN13IOEventSource8openGateEv
+- __ZN13IOEventSource9closeGateEv
+- __ZN20IOAVAsyncEventSource16asyncEventSourceEP8OSObjectPFvS1_PS_Ej
+- __ZN24IOAVIISAudioLinkDelegate9metaClassE
+- __ZN30AppleSTDP2700UpdatePlaceholder10gMetaClassE
+- __ZN30AppleSTDP2700UpdatePlaceholder10superClassE
+- __ZN30AppleSTDP2700UpdatePlaceholder7messageEjP9IOServicePv
+- __ZN30AppleSTDP2700UpdatePlaceholder9MetaClassC1Ev
+- __ZN30AppleSTDP2700UpdatePlaceholder9MetaClassC2Ev
+- __ZN30AppleSTDP2700UpdatePlaceholder9MetaClassD0Ev
+- __ZN30AppleSTDP2700UpdatePlaceholder9MetaClassD1Ev
+- __ZN30AppleSTDP2700UpdatePlaceholder9metaClassE
+- __ZN30AppleSTDP2700UpdatePlaceholderC1EPK11OSMetaClass
+- __ZN30AppleSTDP2700UpdatePlaceholderC1Ev
+- __ZN30AppleSTDP2700UpdatePlaceholderC2EPK11OSMetaClass
+- __ZN30AppleSTDP2700UpdatePlaceholderC2Ev
+- __ZN30AppleSTDP2700UpdatePlaceholderD0Ev
+- __ZN30AppleSTDP2700UpdatePlaceholderD1Ev
+- __ZN30AppleSTDP2700UpdatePlaceholderD2Ev
+- __ZN30AppleSTDP2700UpdatePlaceholderdlEPvm
+- __ZN30AppleSTDP2700UpdatePlaceholdernwEm
+- __ZN8OSNumber9metaClassE
+- __ZN9IOService10gMetaClassE
+- __ZN9IOService10handleOpenEPS_jPv
+- __ZN9IOService11handleCloseEPS_j
+- __ZN9IOService12didTerminateEPS_jPb
+- __ZN9IOService13newUserClientEP4taskPvjP12OSDictionaryPP12IOUserClient
+- __ZN9IOService13willTerminateEPS_j
+- __ZN9IOService15registerServiceEj
+- __ZN9IOService18matchPropertyTableEP12OSDictionaryPi
+- __ZN9IOService20callPlatformFunctionEPK8OSSymbolbPvS3_S3_S3_
+- __ZN9IOService4freeEv
+- __ZN9IOService4initEP12OSDictionary
+- __ZN9IOService4stopEPS_
+- __ZN9IOService5startEPS_
+- __ZN9IOService6attachEPS_
+- __ZN9IOServiceC2EPK11OSMetaClass
+- __ZN9IOServiceD2Ev
+- __ZNK11IOAVService20getLinkSourceSupportE12IOAVLinkType14IOAVLinkSource
+- __ZNK11IOAVService20getSupportsInfoFrameE23IOAVInfoFrameDescriptor
+- __ZNK11IOAVService30getSupportsPassThroughYCbCr420Ev
+- __ZNK11IOAVService30getSupportsPassThroughYCbCr422Ev
+- __ZNK11IOAVService32getSupportsHDMIScramblingControlEv
+- __ZNK11IOAVService35getSupportsHDMILinkStatusMonitoringEv
+- __ZNK11IOAVService39getSupportsYCbCr422ConversionToYCbCr420Ev
+- __ZNK11IOAVService39getSupportsYCbCr444ConversionToYCbCr420Ev
+- __ZNK11IOAVService39getSupportsYCbCr444ConversionToYCbCr422Ev
+- __ZNK13AppleSTDP270012getMetaClassEv
+- __ZNK13AppleSTDP27009MetaClass5allocEv
+- __ZNK30AppleSTDP2700UpdatePlaceholder12getMetaClassEv
+- __ZNK30AppleSTDP2700UpdatePlaceholder9MetaClass5allocEv
+- __ZNK9IOService10isInactiveEv
+- __ZNK9IOService12handleIsOpenEPKS_
+- __ZTV11IODPService
+- __ZTV13AppleSTDP2700
+- __ZTV30AppleSTDP2700UpdatePlaceholder
+- __ZTV9IOService
+- __ZTVN13AppleSTDP27009MetaClassE
+- __ZTVN30AppleSTDP2700UpdatePlaceholder9MetaClassE
+- __ZThn1096_N13AppleSTDP2700D0Ev
+- __ZThn1096_N13AppleSTDP2700D1Ev
+- __ZThn136_N11IOAVService11getLinkDataE12IOAVLinkTypeP12IOAVLinkData14IOAVLinkSource
+- __ZThn136_N13AppleSTDP270013stopInfoFrameEP13IOAVInfoFrame14IOAVLinkSource
+- __ZThn136_N13AppleSTDP270014startInfoFrameEP13IOAVInfoFrame14IOAVLinkSource
+- __ZThn136_N13AppleSTDP270019getProtectionStatusEP20IOAVProtectionStatus
+- __ZThn136_N13AppleSTDP27008stopLinkEP12IOAVLinkData14IOAVLinkSourcej
+- __ZThn136_N13AppleSTDP27009startLinkEP12IOAVLinkData14IOAVLinkSourcej
+- __ZThn136_N13AppleSTDP2700D0Ev
+- __ZThn136_N13AppleSTDP2700D1Ev
+- __ZThn144_N13AppleSTDP2700D0Ev
+- __ZThn144_N13AppleSTDP2700D1Ev
+- __ZZN13AppleSTDP270012sendCECGatedEPK10IOCECFrameE11_os_log_fmt
+- __ZZN13AppleSTDP270013stopAudioLinkEPK12IOAVLinkDataE11_os_log_fmt
+- __ZZN13AppleSTDP270014startAudioLinkEPK12IOAVLinkDataE11_os_log_fmt
+- __ZZN13AppleSTDP270014startAudioLinkEPK12IOAVLinkDataE11_os_log_fmt_0
+- __ZZN13AppleSTDP270014startLinkGatedEP12IOAVLinkData14IOAVLinkSourcePjE11_os_log_fmt
+- __ZZN13AppleSTDP270015handleDownReplyEvE11_os_log_fmt
+- __ZZN13AppleSTDP270015handleDownReplyEvE11_os_log_fmt_0
+- __ZZN13AppleSTDP270015handleDownReplyEvE11_os_log_fmt_1
+- __ZZN13AppleSTDP270015sendCECInternalEPK10IOCECFrameE11_os_log_fmt
+- __ZZN13AppleSTDP270015sendCECInternalEPK10IOCECFrameE11_os_log_fmt_0
+- __ZZN13AppleSTDP270016setupCalibrationEvE11_os_log_fmt
+- __ZZN13AppleSTDP270018cecReceiveOccurredEP13IOEventSourceE11_os_log_fmt
+- __ZZN13AppleSTDP270018cecReceiveOccurredEP13IOEventSourceE11_os_log_fmt_0
+- __ZZN13AppleSTDP270018handleDidStartLinkEP12IOAVLinkData14IOAVLinkSourcejE11_os_log_fmt
+- __ZZN13AppleSTDP270018handleWillStopLinkEP12IOAVLinkData14IOAVLinkSourcejE11_os_log_fmt
+- __ZZN13AppleSTDP270018handleWillStopLinkEP12IOAVLinkData14IOAVLinkSourcejE11_os_log_fmt_0
+- __ZZN13AppleSTDP270020createAUPPacketGatedEP6OSDataPS1_E11_os_log_fmt
+- __ZZN13AppleSTDP270020handleCECRxInterruptEvE11_os_log_fmt
+- __ZZN13AppleSTDP270020handleCECRxInterruptEvE11_os_log_fmt_0
+- __ZZN13AppleSTDP270020handleCECTxInterruptEvE11_os_log_fmt
+- __ZZN13AppleSTDP270023performMailboxOperationEPKNS_16MailboxOperationEE11_os_log_fmt
+- __ZZN13AppleSTDP270023performMailboxOperationEPKNS_16MailboxOperationEE11_os_log_fmt_0
+- __ZZN13AppleSTDP270023performMailboxOperationEPKNS_16MailboxOperationEE11_os_log_fmt_1
+- __ZZN13AppleSTDP270023performMailboxOperationEPKNS_16MailboxOperationEE11_os_log_fmt_2
+- __ZZN13AppleSTDP270023sendMailboxMessageGatedEPKNS_16MailboxOperationEE11_os_log_fmt
+- __ZZN13AppleSTDP270023signalCECTXAvailabilityEvE11_os_log_fmt
+- __ZZN13AppleSTDP270024waitForCECTXAvailabilityEvE11_os_log_fmt
+- __ZZN13AppleSTDP270024waitForCECTXAvailabilityEvE11_os_log_fmt_0
+- __ZZN13AppleSTDP270024waitForCECTXAvailabilityEvE11_os_log_fmt_1
+- __ZZN13AppleSTDP270025signalMailboxAvailabilityEvE11_os_log_fmt
+- __ZZN13AppleSTDP270026handleIRQSinkSpecificGatedEvE11_os_log_fmt
+- __ZZN13AppleSTDP270026handleIRQSinkSpecificGatedEvE11_os_log_fmt_0
+- __ZZN13AppleSTDP270026waitForMailboxAvailabilityEvE11_os_log_fmt
+- __ZZN13AppleSTDP270026waitForMailboxAvailabilityEvE11_os_log_fmt_0
+- __ZZN13AppleSTDP270026waitForMailboxAvailabilityEvE11_os_log_fmt_1
+- __ZZN13AppleSTDP270029setDownstreamInfoFrameEnabledEPK13IOAVInfoFramebE11_os_log_fmt
+- __ZZN13AppleSTDP270029setDownstreamInfoFrameEnabledEPK13IOAVInfoFramebE11_os_log_fmt_0
+- __ZZN13AppleSTDP270029setDownstreamInfoFrameEnabledEPK13IOAVInfoFramebE11_os_log_fmt_1
+- __ZZN13AppleSTDP270029setDownstreamInfoFrameEnabledEPK13IOAVInfoFramebE11_os_log_fmt_2
+- __ZZN13AppleSTDP270029setDownstreamInfoFrameEnabledEPK13IOAVInfoFramebE11_os_log_fmt_3
+- __ZZN13AppleSTDP270029setDownstreamInfoFrameEnabledEPK13IOAVInfoFramebE11_os_log_fmt_4
+- _bzero
+- _ffs
+- _gIOServicePlane
+- _kIOAVContentProtectionHDCP1
+- _panic
+- _snprintf
+CStrings:
+- "\"closeGate() with no work loop\" @%s:%d"
+- "\"openGate() with no work loop\" @%s:%d"
+- "%*D"
+- "12111112122212121"
+- "12111112122212121112222211111111112221222221222222212222212222212222222222222222222222222222222222222222222222222221111111112111111112222111111222222222222222222222222122222222222222222222222211122212222222122222222222222222222222222222222222222"
+- "AppleSTDP2700"
+- "AppleSTDP2700UpdatePlaceholder"
+- "Down Request timed out!\n"
+- "IOAVCommandGate.h"
+- "IOAV[%d] %s<0x%llx>::%s: Down Request timed out!\n"
+- "IOAV[%d] %s<0x%llx>::%s: MCA_I2S_RX_MEASUREMENT_STATUS=0x%02x\n"
+- "IOAV[%d] %s<0x%llx>::%s: _mailboxMessageStatus=0x%08x time=%lld ms\n"
+- "IOAV[%d] %s<0x%llx>::%s: _mailboxPendingOperation=%p\n"
+- "IOAV[%d] %s<0x%llx>::%s: ack packet ret=0x%08x\n"
+- "IOAV[%d] %s<0x%llx>::%s: acknowledge ret=0x%08x\n"
+- "IOAV[%d] %s<0x%llx>::%s: error: request for unauthenticated HDCP response not permitted.\n"
+- "IOAV[%d] %s<0x%llx>::%s: length=%u:\n <%s>"
+- "IOAV[%d] %s<0x%llx>::%s: overrun (%s)\n"
+- "IOAV[%d] %s<0x%llx>::%s: signalling\n"
+- "IOAV[%d] %s<0x%llx>::%s: status=0x%x\n"
+- "IOAV[%d] %s<0x%llx>::%s: warning: failed to start downstream audio InfoFrame ret=0x%08x (ignored)\n"
+- "IOAV[%d] %s<0x%llx>::%s: warning: failed to start downstream audio ret=0x%08x\n"
+- "IOAV[%d] %s<0x%llx>::%s: warning: failed to start pending downstream audio ret=0x%08x (ignored)\n"
+- "IOAV[%d] %s<0x%llx>::%s: warning: failed to stop downstream audio InfoFrame ret=0x%08x (ignored)\n"
+- "IOAV[%d] %s<0x%llx>::%s: warning: failed to stop downstream audio ret=0x%08x (ignored)\n"
+- "IOAV[%d] %s<0x%llx>::%s: warning: invald _mclk_rate_sel: %uxFS; audio will be disabled.\n"
+- "MCA_I2S_RX_MEASUREMENT_STATUS=0x%02x\n"
+- "Not requested"
+- "_mailboxMessageStatus=0x%08x time=%lld ms\n"
+- "_mailboxPendingOperation=%p\n"
+- "ack packet ret=0x%08x\n"
+- "acknowledge ret=0x%08x\n"
+- "before RX"
+- "cecReceiveOccurred"
+- "createAUPPacketGated"
+- "during RX"
+- "error: request for unauthenticated HDCP response not permitted.\n"
+- "handleCECRxInterrupt"
+- "handleCECTxInterrupt"
+- "handleDownReply"
+- "handleIRQSinkSpecificGated"
+- "hdmi_drive_setting_0"
+- "hdmi_drive_setting_1"
+- "hdmi_drive_setting_2"
+- "length=%u:\n"
+- "overrun (%s)\n"
+- "performMailboxOperation"
+- "sendCECGated"
+- "sendCECInternal"
+- "sendMailboxMessageGated"
+- "setupCalibration"
+- "signalCECTXAvailability"
+- "signalMailboxAvailability"
+- "signalling\n"
+- "site.AppleSTDP2700"
+- "site.AppleSTDP2700UpdatePlaceholder"
+- "startAudioLink"
+- "startLinkGated"
+- "status=0x%x\n"
+- "stopAudioLink"
+- "waitForCECTXAvailability"
+- "waitForMailboxAvailability"
+- "warning: failed to start downstream audio InfoFrame ret=0x%08x (ignored)\n"
+- "warning: failed to start downstream audio ret=0x%08x\n"
+- "warning: failed to start pending downstream audio ret=0x%08x (ignored)\n"
+- "warning: failed to stop downstream audio InfoFrame ret=0x%08x (ignored)\n"
+- "warning: failed to stop downstream audio ret=0x%08x (ignored)\n"
+- "warning: invald _mclk_rate_sel: %uxFS; audio will be disabled.\n"
+```

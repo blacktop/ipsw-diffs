@@ -1,0 +1,27 @@
+## t8103ciofw.im4p
+
+> `Firmware/t8103ciofw.im4p`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT._rtk_mtab`
+- `__DATA.__data`
+- `__DATA._rtk_patchbay`
+
+```diff
+
+-  __TEXT.__text: 0x25514
++  __TEXT.__text: 0x25518
+   __TEXT._rtk_vtor: 0x324
+-  __TEXT.__const: 0x1020
++  __TEXT.__const: 0x1030
+   __TEXT._rtk_mtab: 0xfc
+-  __TEXT.__cstring: 0x965
++  __TEXT.__cstring: 0x966
+   __TEXT.__constructor: 0x0
+   __TEXT.__rebase_info: 0x0
+   __DATA.__data: 0x1a38
+CStrings:
++ "AppleCIOFirmware-480~10483__2026-10-07-21:52:30-PDT__t8103"
+- "AppleCIOFirmware-480~8882__2026-08-08-14:57:47-PDT__t8103"
+```

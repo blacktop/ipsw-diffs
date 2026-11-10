@@ -1,0 +1,1963 @@
+## CMCapture
+
+> `/System/Library/PrivateFrameworks/CMCapture.framework/Versions/A/CMCapture`
+
+```diff
+
+-764.21.3.0.0
+-  __TEXT.__text: 0x40e500
+-  __TEXT.__objc_methlist: 0x2ac7c
+-  __TEXT.__const: 0x143060
+-  __TEXT.__cstring: 0x67742
+-  __TEXT.__oslogstring: 0x2edd8
+-  __TEXT.__gcc_except_tab: 0x16a0
++764.41.11.0.0
++  __TEXT.__text: 0x426588
++  __TEXT.__objc_methlist: 0x2b47c
++  __TEXT.__const: 0x143090
++  __TEXT.__cstring: 0x690c6
++  __TEXT.__oslogstring: 0x31611
++  __TEXT.__gcc_except_tab: 0x1840
+   __TEXT.__dlopen_cstrs: 0x23e
+-  __TEXT.__ustring: 0xc
+-  __TEXT.__unwind_info: 0xa1f8
++  __TEXT.__ustring: 0x6ea
++  __TEXT.__unwind_info: 0xa388
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x6168
+-  __DATA_CONST.__objc_classlist: 0x13f8
++  __DATA_CONST.__const: 0x6220
++  __DATA_CONST.__objc_classlist: 0x1400
+   __DATA_CONST.__objc_catlist: 0x18
+-  __DATA_CONST.__objc_protolist: 0x378
++  __DATA_CONST.__objc_protolist: 0x380
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x12be0
++  __DATA_CONST.__objc_selrefs: 0x12f90
+   __DATA_CONST.__objc_protorefs: 0x10
+-  __DATA_CONST.__objc_superrefs: 0x12a0
+-  __DATA_CONST.__objc_arraydata: 0x1688
+-  __DATA_CONST.__got: 0x66c0
+-  __AUTH_CONST.__const: 0x5570
+-  __AUTH_CONST.__cfstring: 0x3dd20
+-  __AUTH_CONST.__objc_const: 0x78d00
+-  __AUTH_CONST.__objc_intobj: 0x4110
++  __DATA_CONST.__objc_superrefs: 0x12a8
++  __DATA_CONST.__objc_arraydata: 0x1690
++  __DATA_CONST.__got: 0x67a8
++  __AUTH_CONST.__const: 0x5688
++  __AUTH_CONST.__cfstring: 0x3ea60
++  __AUTH_CONST.__objc_const: 0x7a210
++  __AUTH_CONST.__objc_intobj: 0x4200
+   __AUTH_CONST.__objc_arrayobj: 0x1218
+   __AUTH_CONST.__objc_floatobj: 0x1b0
+   __AUTH_CONST.__objc_doubleobj: 0x280
+   __AUTH_CONST.__objc_dictobj: 0x118
+   __AUTH_CONST.__auth_got: 0x2198
+   __AUTH_CONST.__auth_ptr: 0x0
+-  __AUTH.__objc_data: 0x2f30
+-  __AUTH.__data: 0x110
+-  __DATA.__objc_ivar: 0x91a0
+-  __DATA.__data: 0x2bfc
+-  __DATA.__common: 0xe80
+-  __DATA.__bss: 0x11a8
+-  __DATA_DIRTY.__objc_data: 0x9880
+-  __DATA_DIRTY.__data: 0x1048
++  __AUTH.__objc_data: 0x320
++  __DATA.__objc_ivar: 0x93a8
++  __DATA.__data: 0x21c
++  __DATA.__common: 0xf40
++  __DATA.__bss: 0x11d8
++  __DATA_DIRTY.__objc_data: 0xc4e0
++  __DATA_DIRTY.__data: 0x3bc0
+   __DATA_DIRTY.__common: 0x120
+-  __DATA_DIRTY.__bss: 0xa30
++  __DATA_DIRTY.__bss: 0xa10
+   - /System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio
+   - /System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate
+   - /System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox
+
+   - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 24846
+-  Symbols:   49390
+-  CStrings:  13743
++  Functions: 25218
++  Symbols:   49969
++  CStrings:  13977
+ 
+Symbols:
++ +[BWExposureAnalyticsMonitor initialize]
++ +[BWFocusSegmentationMaskConverterNode initialize]
++ -[BWBackgroundBlurNode _createStillImageOutputSampleBufferFromStashedVideoBuffersWithInputSampleBuffer:targetPts:]
++ -[BWBackgroundBlurNode _stashSampleBufferForStillImageCaptureRequests:withPts:]
++ -[BWBravoStreamSelector _conditionsAllowSwitchToRecommendedMasterStream:debugInfo:]
++ -[BWBravoStreamSelector _exposureAndFocusStableForSwitchOverTo:forFrameStatisticsByPortType:debugInfo:]
++ -[BWBravoStreamSelector _preferredMasterStreamForFrameStatisticsByPortType:zoomFactor:isAutoFlashScene:digitalFlashMode:isStationary:debugInfo:ignoreEligibleFallbackPortTypes:requiresFocusExposeStabilityOut:selectionReasonOut:]
++ -[BWBravoStreamSelector _selectionBehaviorAllowsSwitchOverTo:forFrameStatisticsByPortType:zoomFactor:blockedByExposureFocusStability:debugInfo:]
++ -[BWBravoStreamSelector _telephotoLimitsReachedForFrameStatisticsByPortType:debugInfo:]
++ -[BWBravoStreamSelector _updateSceneChangeMonitorWithFrameStatisticsByPortType:fromMasterStream:zoomFactor:digitalFlashMode:debugInfo:]
++ -[BWCinematicVideoMetadataNode initWithMetadataMode:]
++ -[BWDeferredCaptureContainerManager setUsesReducedPriorityFlushQueue:]
++ -[BWDeferredCaptureContainerManager usesReducedPriorityFlushQueue]
++ -[BWDroppedSample originatedFromISP]
++ -[BWExposureAnalyticsMonitor _reset]
++ -[BWExposureAnalyticsMonitor _updateDurationsAndFrameCountsForPTS:fNumber:AESignals:exposureMode:portType:]
++ -[BWExposureAnalyticsMonitor addMetadataFromSampleBuffer:]
++ -[BWExposureAnalyticsMonitor aperturePlusShutterPriorityModeDuration]
++ -[BWExposureAnalyticsMonitor aperturePriorityModeDuration]
++ -[BWExposureAnalyticsMonitor dealloc]
++ -[BWExposureAnalyticsMonitor fullAutoExposureModeDuration]
++ -[BWExposureAnalyticsMonitor fullManualModeDuration]
++ -[BWExposureAnalyticsMonitor initWithName:]
++ -[BWExposureAnalyticsMonitor reset]
++ -[BWExposureAnalyticsMonitor shutterPriorityModeDuration]
++ -[BWExposureAnalyticsMonitor startMonitoringWithApertureBuckets:]
++ -[BWExposureAnalyticsMonitor stopMonitoring]
++ -[BWExposureAnalyticsMonitor totalDuration]
++ -[BWExposureAnalyticsMonitor totalVariableApertureCameraDuration]
++ -[BWExposureAnalyticsMonitor variableApertureCameraBucketDurations]
++ -[BWFigCaptureSynchronizedStreamsGroup invalidateCachedProperties]
++ -[BWFigVideoCaptureDevice _applySystemPressureFrameRateMitigationIfNeeded]
++ -[BWFigVideoCaptureDevice _resetStillImageSceneMonitoring]
++ -[BWFigVideoCaptureDevice _setAutoImageControlMode:videoDataConsumersChanged:attachedMovieFileSinkPipelineChanged:completionHandler:]
++ -[BWFigVideoCaptureDevice _setExposureConfigurationOnStreamNowInternal]
++ -[BWFigVideoCaptureDevice _setManualWhiteBalanceOnStreamNowInternal]
++ -[BWFigVideoCaptureDevice _updateApertureFlickerMitigationOnAutofocusQueue]
++ -[BWFigVideoCaptureDevice _updateApertureFlickerMitigation]
++ -[BWFigVideoCaptureDevice decrementAttachedMovieFileSinkPipelineCountWasRecording:]
++ -[BWFigVideoCaptureDevice decrementStreamingVideoDataOutputConsumerCount]
++ -[BWFigVideoCaptureDevice hasAttachedMovieFileSinkPipeline]
++ -[BWFigVideoCaptureDevice hasStreamingVideoDataOutputConsumer]
++ -[BWFigVideoCaptureDevice incrementAttachedMovieFileSinkPipelineCount]
++ -[BWFigVideoCaptureDevice incrementStreamingVideoDataOutputConsumerCount]
++ -[BWFigVideoCaptureDevice portTypesWithLCBStreamingCorrectionEnabled]
++ -[BWFigVideoCaptureDevice recommendedLensApertures]
++ -[BWFigVideoCaptureDevice resendCurrentAndPreferredMasterStreamNotifications]
++ -[BWFigVideoCaptureDevice setPortTypesWithLCBStreamingCorrectionEnabled:]
++ -[BWFigVideoCaptureDevice setSoftISPMode:]
++ -[BWFigVideoCaptureDevice softISPMode]
++ -[BWFigVideoCaptureStream _setSuspended:updatedVideoOutputConfigurations:]
++ -[BWFigVideoCaptureStream activeBayerBinningFactor]
++ -[BWFigVideoCaptureStream pixelFormatIsPackedBayerRaw]
++ -[BWFigVideoCaptureStream resumeWithVideoOutputConfigurations:]
++ -[BWFigVideoCaptureStream setPixelFormatIsPackedBayerRaw:]
++ -[BWFileCoordinatorNode _setRecordingState:]
++ -[BWFocusSegmentationMaskConverterNode _correctRectangleInFocusTrackedObject:fromFocusSegmentationMaskSampleBuffer:]
++ -[BWFocusSegmentationMaskConverterNode _createFocusTrackedObjectsSampleBufferFromSourceSampleBuffer:]
++ -[BWFocusSegmentationMaskConverterNode _createOutputSampleBufferForSourceSampleBuffer:focusTrackedObject:focusSegmentationMask:]
++ -[BWFocusSegmentationMaskConverterNode _updateSubjectAcquiredState:]
++ -[BWFocusSegmentationMaskConverterNode configurationWithID:updatedFormat:didBecomeLiveForInput:]
++ -[BWFocusSegmentationMaskConverterNode dealloc]
++ -[BWFocusSegmentationMaskConverterNode didReachEndOfDataForConfigurationID:input:]
++ -[BWFocusSegmentationMaskConverterNode didStopContinuousAutoFocusTracking]
++ -[BWFocusSegmentationMaskConverterNode focusTrackedObjectsOutput]
++ -[BWFocusSegmentationMaskConverterNode initWithSubjectAcquiredChangedHandler:]
++ -[BWFocusSegmentationMaskConverterNode nodeSubType]
++ -[BWFocusSegmentationMaskConverterNode nodeType]
++ -[BWFocusSegmentationMaskConverterNode rectOfInterest]
++ -[BWFocusSegmentationMaskConverterNode renderSampleBuffer:forInput:]
++ -[BWFocusSegmentationMaskConverterNode setRectOfInterest:]
++ -[BWGraph startLiveExtensionSourceNodes:]
++ -[BWGraph stopLiveExtensionSourceNodes:]
++ -[BWGraphLiveExtension sourceNodes]
++ -[BWHVSCandidateFrameManager _candidateHasDeferredRemovalObligation:]
++ -[BWHVSCandidateFrameManager _clearRemovalObligationsForCandidateID:]
++ -[BWHVSCandidateFrameManager _dupsToRemoveWithinRemovalBudget:similarities:removalsSoFar:frameID:checkName:]
++ -[BWHVSCandidateFrameManager _isDuplicateOfFrame:comparedToFrameDict:dampedSimilarity:]
++ -[BWHVSCandidateFrameManager _payOffPendingRemovalsForCandidate:]
++ -[BWHVSCandidateFrameManager _resolvePromotedFrameDuplicatesForFrame:removeOnWin:deferredRemovalsOut:]
++ -[BWHVSCandidateFrameManager earliestAllowedStillImageCaptureHostPTS]
++ -[BWHVSCandidateFrameManager setEarliestAllowedStillImageCaptureHostPTS:]
++ -[BWHVSCandidateFrameManager setWaitForEarliestAllowedStillImageCaptureHostPTS:]
++ -[BWHVSCandidateFrameManager waitForEarliestAllowedStillImageCaptureHostPTS]
++ -[BWHVSScoringNode _shouldDropYUVInputSampleBufferForThermalMitigation:]
++ -[BWHVSScoringNode initWithCaptureMode:captureDevice:inferenceScheduler:threadPriority:livePhotoCaptureEnabled:delegate:]
++ -[BWHVSScoringNode updateEarliestAllowedStillImageCaptureHostPTS:]
++ -[BWHistogramStats reset]
++ -[BWImageQueueSinkNode _createContextForBuffer:bufferId:framePTS:blackenedDueToIndicatorCheck:blackenedForCameraAccess:]
++ -[BWImageQueueSinkNode _storePreviewPTS:withHostTime:isOverCaptureFrame:isBlackenedFrame:blackenedDueToIndicatorCheck:blackenedForCameraAccess:numIndicatorCheckBlackenedFramesReceivedInInterval:]
++ -[BWMedianStats reset]
++ -[BWMovieFileOutputAnalyticsPayload durationAperturePlusShutterPriorityExposure]
++ -[BWMovieFileOutputAnalyticsPayload durationAperturePriorityExposure]
++ -[BWMovieFileOutputAnalyticsPayload durationFullAutoExposure]
++ -[BWMovieFileOutputAnalyticsPayload durationFullManualExposure]
++ -[BWMovieFileOutputAnalyticsPayload durationShutterPriorityExposure]
++ -[BWMovieFileOutputAnalyticsPayload durationVariableApertureCamera]
++ -[BWMovieFileOutputAnalyticsPayload lowLightVideoNoiseReductionAppliedChangedCount]
++ -[BWMovieFileOutputAnalyticsPayload lowLightVideoNoiseReductionAppliedDurationPercentage]
++ -[BWMovieFileOutputAnalyticsPayload lowLightVideoNoiseReductionApplied]
++ -[BWMovieFileOutputAnalyticsPayload setDurationAperturePlusShutterPriorityExposure:]
++ -[BWMovieFileOutputAnalyticsPayload setDurationAperturePriorityExposure:]
++ -[BWMovieFileOutputAnalyticsPayload setDurationFullAutoExposure:]
++ -[BWMovieFileOutputAnalyticsPayload setDurationFullManualExposure:]
++ -[BWMovieFileOutputAnalyticsPayload setDurationShutterPriorityExposure:]
++ -[BWMovieFileOutputAnalyticsPayload setDurationVariableApertureCamera:]
++ -[BWMovieFileOutputAnalyticsPayload setLowLightVideoNoiseReductionApplied:]
++ -[BWMovieFileOutputAnalyticsPayload setLowLightVideoNoiseReductionAppliedChangedCount:]
++ -[BWMovieFileOutputAnalyticsPayload setLowLightVideoNoiseReductionAppliedDurationPercentage:]
++ -[BWMovieFileOutputAnalyticsPayload setVariableApertureCameraBucketDurations:]
++ -[BWMovieFileOutputAnalyticsPayload variableApertureCameraBucketDurations]
++ -[BWMovingWindowStats reset]
++ -[BWMultiStreamCameraSourceNode setDeviceProximityDetectionDeviceTypes:]
++ -[BWMultiStreamCameraSourceNode setDeviceProximityDetectionTargetFrameRate:]
++ -[BWMultiStreamCameraSourceNode setLightSourceEstimationAmbientLuminance:]
++ -[BWMultiStreamCameraSourceNode setLightSourceEstimationTargetFrameRate:]
++ -[BWNondisruptiveSwitchingFormatSelector initWithPortType:supportFormats:quadraSubPixelSwitchingParameters:baseZoomFactor:zoomFactorToNondisruptiveSwitchingFormatIndexSIFRBinned:zoomFactorToNondisruptiveSwitchingFormatIndexMainAndSIFRBinned:zoomFactorToNondisruptiveSwitchingFormatIndexSIFRNonBinned:zoomFactorToNondisruptiveSwitchingFormatIndexSecureSigning:ultraHighResolutionSecureSigningNondisruptiveStreamingFormatIndex:ultraHighResolutionNondisruptiveStreamingFormatIndex:mainFormatSIFRBinningFactor:]
++ -[BWPhotoEncoderController _waitUntilTimeoutForInferenceGroupToCompleteAndReturnStatus]
++ -[BWPixelBufferPool enumerateAllSurfacesUsingBlock:]
++ -[BWPixelTransferNode _ensurePixelBufferTransferRendererForOutputFormat:]
++ -[BWPreviewStitcherRenderer _getInputRect:outputRect:inputShiftAppliedInOutputRect:toTransferPixelBuffer:rect:intoPixelBufferDimensions:rect:withInputShift:shiftOutsideBoundingRectAllowed:scale:forFinalOutput:]
++ -[BWQuickTimeMovieFileSinkNode lowLightVideoNoiseReductionEnabled]
++ -[BWQuickTimeMovieFileSinkNode setLowLightVideoNoiseReductionEnabled:]
++ -[BWQuickTimeMovieFileSinkNode setSourceRecommendedLensApertures:]
++ -[BWQuickTimeMovieFileSinkNode sourceRecommendedLensApertures]
++ -[BWRingLightController brightnessCommitUpdate:]
++ -[BWRingLightController notifyQueue]
++ -[BWSecureMetadataOutputConfiguration deviceProximityDetectionDeviceTypes]
++ -[BWSecureMetadataOutputConfiguration deviceProximityDetectionEnabled]
++ -[BWSecureMetadataOutputConfiguration deviceProximityDetectionTargetFrameRate]
++ -[BWSecureMetadataOutputConfiguration lightSourceEstimationAmbientLuminance]
++ -[BWSecureMetadataOutputConfiguration lightSourceEstimationEnabled]
++ -[BWSecureMetadataOutputConfiguration lightSourceEstimationTargetFrameRate]
++ -[BWSecureMetadataOutputConfiguration perceptionTestModeEnabled]
++ -[BWSecureMetadataOutputConfiguration perceptionThumbnailChannelMetadataObjectTypes]
++ -[BWSecureMetadataOutputConfiguration perceptionThumbnailChannelTargetFrameRate]
++ -[BWSecureMetadataOutputConfiguration setDeviceProximityDetectionDeviceTypes:]
++ -[BWSecureMetadataOutputConfiguration setDeviceProximityDetectionEnabled:]
++ -[BWSecureMetadataOutputConfiguration setDeviceProximityDetectionTargetFrameRate:]
++ -[BWSecureMetadataOutputConfiguration setLightSourceEstimationAmbientLuminance:]
++ -[BWSecureMetadataOutputConfiguration setLightSourceEstimationEnabled:]
++ -[BWSecureMetadataOutputConfiguration setLightSourceEstimationTargetFrameRate:]
++ -[BWSecureMetadataOutputConfiguration setPerceptionTestModeEnabled:]
++ -[BWSecureMetadataOutputConfiguration setPerceptionThumbnailChannelMetadataObjectTypes:]
++ -[BWSecureMetadataOutputConfiguration setPerceptionThumbnailChannelTargetFrameRate:]
++ -[BWSensorConfiguration initWithPortType:sensorIDString:sensorIDDictionary:cameraInfoProvider:moduleCalibration:]
++ -[BWSinkNode _currentState]
++ -[BWSinkNode isIdle]
++ -[BWSmartCropNode _renderMetadataSampleBuffer:forInput:]
++ -[BWSmartCropNode _renderVideoSampleBuffer:forInput:]
++ -[BWSmartCropNode _updateSampleBufferMetadataAfterWarping:]
++ -[BWSmartCropNode cameraExtrinsicMatrix]
++ -[BWSmartCropNode setCameraExtrinsicMatrix:]
++ -[BWStats reset]
++ -[BWStillImageAnalyticsPayloadCommon segmentFocusTrackingEnabled]
++ -[BWStillImageAnalyticsPayloadCommon segmentFocusTrackingFocusBias]
++ -[BWStillImageAnalyticsPayloadCommon segmentFocusTrackingMaskConfidence]
++ -[BWStillImageAnalyticsPayloadCommon segmentFocusTrackingObjectID]
++ -[BWStillImageAnalyticsPayloadCommon segmentFocusTrackingTotalPoints]
++ -[BWStillImageAnalyticsPayloadCommon segmentFocusTrackingValidCoverage]
++ -[BWStillImageAnalyticsPayloadCommon setSegmentFocusTrackingEnabled:]
++ -[BWStillImageAnalyticsPayloadCommon setSegmentFocusTrackingFocusBias:]
++ -[BWStillImageAnalyticsPayloadCommon setSegmentFocusTrackingMaskConfidence:]
++ -[BWStillImageAnalyticsPayloadCommon setSegmentFocusTrackingObjectID:]
++ -[BWStillImageAnalyticsPayloadCommon setSegmentFocusTrackingTotalPoints:]
++ -[BWStillImageAnalyticsPayloadCommon setSegmentFocusTrackingValidCoverage:]
++ -[BWStillImageCaptureMetadata duplicateInfo]
++ -[BWStillImageCaptureMetadata setDuplicateInfo:]
++ -[BWStillImageCoordinatorNode _calibrationCaptureSensorRawReleasedForRequest:]
++ -[BWStillImageCoordinatorNode _prepareSensorRawBufferPoolsForCalibrationCaptureWithSettings:]
++ -[BWStillImageDuplicateInfo hash]
++ -[BWStillImageDuplicateInfo isEqual:]
++ -[BWStreamingSessionAnalyticsPayload durationAperturePlusShutterPriorityExposure]
++ -[BWStreamingSessionAnalyticsPayload durationAperturePriorityExposure]
++ -[BWStreamingSessionAnalyticsPayload durationFullAutoExposure]
++ -[BWStreamingSessionAnalyticsPayload durationFullManualExposure]
++ -[BWStreamingSessionAnalyticsPayload durationShutterPriorityExposure]
++ -[BWStreamingSessionAnalyticsPayload durationVariableApertureCamera]
++ -[BWStreamingSessionAnalyticsPayload setDurationAperturePlusShutterPriorityExposure:]
++ -[BWStreamingSessionAnalyticsPayload setDurationAperturePriorityExposure:]
++ -[BWStreamingSessionAnalyticsPayload setDurationFullAutoExposure:]
++ -[BWStreamingSessionAnalyticsPayload setDurationFullManualExposure:]
++ -[BWStreamingSessionAnalyticsPayload setDurationShutterPriorityExposure:]
++ -[BWStreamingSessionAnalyticsPayload setDurationVariableApertureCamera:]
++ -[BWStreamingSessionAnalyticsPayload setVariableApertureCameraBucketDurations:]
++ -[BWStreamingSessionAnalyticsPayload variableApertureCameraBucketDurations]
++ -[BWVideoCompressorNode encoderPriorityInversionFixEnabled]
++ -[BWVideoCompressorNode setEncoderPriorityInversionFixEnabled:]
++ -[BWVideoNoiseReductionNode _releaseResources]
++ -[BWVideoNoiseReductionNode didReachEndOfDataForConfigurationID:input:]
++ -[FigCaptureCameraParameters lcbSupportedForPortType:sensorIDString:]
++ -[FigCaptureCameraSourcePipeline setDeviceProximityDetectionDeviceTypes:]
++ -[FigCaptureCameraSourcePipeline setDeviceProximityDetectionTargetFrameRate:]
++ -[FigCaptureCameraSourcePipeline setLightSourceEstimationAmbientLuminance:]
++ -[FigCaptureCameraSourcePipeline setLightSourceEstimationTargetFrameRate:]
++ -[FigCaptureCustomFocusConfiguration description]
++ -[FigCaptureDisplayLayout interfaceOrientation]
++ -[FigCaptureDisplayLayout setInterfaceOrientation:]
++ -[FigCaptureMovieFileSinkPipeline liveReconfigureForRotationDegrees:needToTransposeVISPipeline:cameraExtrinsicMatrix:]
++ -[FigCaptureMovieFileSinkTailPipeline _appendCinematicVideoMetadataNodeToPreviousVideoOutput:previousCinematicVideoMetadataOutput:graph:parentPipeline:pipelineStage:useRawCinematography:metadataMode:error:]
++ -[FigCaptureMovieFileSinkTailPipelineConfiguration lowLightVideoNoiseReductionEnabled]
++ -[FigCaptureMovieFileSinkTailPipelineConfiguration setLowLightVideoNoiseReductionEnabled:]
++ -[FigCapturePreviewSinkPipeline liveReconfigureForRotationDegrees:cameraExtrinsicMatrix:]
++ -[FigCaptureProprietaryDefaults migrateDefaultsFromAppBundleID:toAppBundleID:]
++ -[FigCaptureSessionConfiguration initWithXPCEncoding:clientAuditToken:]
++ -[FigCaptureSourceAttributes moduleSealedState]
++ -[FigCaptureSourceAttributes supportedMetadataIdentifiersForPerceptionThumbnailChannel]
++ -[FigCaptureSourceConfiguration initWithXPCEncoding:clientAuditToken:]
++ -[FigCaptureSourceManager activateVideoSources:activationOptions:clientApplicationID:tccIdentity:mediaEnvironment:captureDevicesByID:stereoVideoCaptureEnabled:multiCamClientCompositingEnabled:rebuildingGraphForTrueVideoTeleTransition:devicesOut:]
++ -[FigCaptureSourceVideoFormat _lcbCalibrationConfiguration]
++ -[FigCaptureSourceVideoFormat lcbStreamingCorrectionSupported]
++ -[FigCaptureSourceVideoFormat lcbStreamingDetectionSupported]
++ -[FigCaptureStillImageSettings activePipelineDimensions]
++ -[FigCaptureStillImageSettings setActivePipelineDimensions:]
++ -[FigCaptureVISPipeline setCameraExtrinsicMatrix:]
++ -[FigCaptureVideoDataSinkPipeline liveReconfigureForRotationDegrees:needToTransposeVISPipeline:cameraExtrinsicMatrix:]
++ -[FigMetadataObjectCaptureConnectionConfiguration deviceProximityDetectionDeviceTypes]
++ -[FigMetadataObjectCaptureConnectionConfiguration deviceProximityDetectionTargetFrameRate]
++ -[FigMetadataObjectCaptureConnectionConfiguration lightSourceEstimationAmbientLuminance]
++ -[FigMetadataObjectCaptureConnectionConfiguration lightSourceEstimationTargetFrameRate]
++ -[FigMetadataObjectCaptureConnectionConfiguration metadataIdentifiersForPerceptionThumbnailChannel]
++ -[FigMetadataObjectCaptureConnectionConfiguration perceptionTestModeEnabled]
++ -[FigMetadataObjectCaptureConnectionConfiguration setDeviceProximityDetectionDeviceTypes:]
++ -[FigMetadataObjectCaptureConnectionConfiguration setDeviceProximityDetectionTargetFrameRate:]
++ -[FigMetadataObjectCaptureConnectionConfiguration setLightSourceEstimationAmbientLuminance:]
++ -[FigMetadataObjectCaptureConnectionConfiguration setLightSourceEstimationTargetFrameRate:]
++ -[FigMetadataObjectCaptureConnectionConfiguration setMetadataIdentifiersForPerceptionThumbnailChannel:]
++ -[FigMetadataObjectCaptureConnectionConfiguration setPerceptionTestModeEnabled:]
++ -[FigVideoCaptureConnectionConfiguration additionalContentRotationDegrees]
++ -[FigVideoCaptureConnectionConfiguration setAdditionalContentRotationDegrees:]
++ BWCreateSampleBufferWithDeviceProximityDetectionDictionary
++ BWCreateSampleBufferWithLightSourceEstimationDictionary
++ FigVideoCaptureSourceCopyUnderlyingCaptureSourceForPortType
++ GCC_except_table102
++ GCC_except_table111
++ GCC_except_table150
++ GCC_except_table191
++ GCC_except_table234
++ GCC_except_table258
++ GCC_except_table28
++ GCC_except_table309
++ GCC_except_table353
++ GCC_except_table354
++ GCC_except_table366
++ GCC_except_table385
++ GCC_except_table418
++ GCC_except_table445
++ GCC_except_table447
++ GCC_except_table45
++ GCC_except_table464
++ GCC_except_table474
++ GCC_except_table527
++ GCC_except_table569
++ GCC_except_table579
++ GCC_except_table58
++ GCC_except_table589
++ GCC_except_table591
++ GCC_except_table593
++ GCC_except_table60
++ GCC_except_table75
++ GCC_except_table757
++ GCC_except_table91
++ GCC_except_table95
++ GCC_except_table96
++ OBJC_IVAR_$_BWBroadcastVideoSinkNode._cachedPipelineDevice
++ OBJC_IVAR_$_BWBroadcastVideoSinkNode._cachedRenderPipelineStatesByPixelFormat
++ OBJC_IVAR_$_BWBroadcastVideoSinkNode._cachedSamplerState
++ OBJC_IVAR_$_BWBroadcastVideoSinkNode._cachedShaderLibrary
++ OBJC_IVAR_$_BWBroadcastVideoSinkNode._cachedVertexBuffer
++ OBJC_IVAR_$_BWBroadcastVideoSinkNode._hasLivePipeConfiguration
++ OBJC_IVAR_$_BWBroadcastVideoSinkNode._livePipeBitDepth
++ OBJC_IVAR_$_BWBroadcastVideoSinkNode._livePipeFrameRate
++ OBJC_IVAR_$_BWBroadcastVideoSinkNode._livePipeIs444
++ OBJC_IVAR_$_BWBroadcastVideoSinkNode._livePipeIsFullRange
++ OBJC_IVAR_$_BWBroadcastVideoSinkNode._livePipeIsHDRRequired
++ OBJC_IVAR_$_BWBroadcastVideoSinkNode._livePipeSourceDimensions
++ OBJC_IVAR_$_BWDeferredCaptureContainerManager._flushQueueReducedPriority
++ OBJC_IVAR_$_BWDeferredCaptureContainerManager._usesReducedPriorityFlushQueue
++ OBJC_IVAR_$_BWExposureAnalyticsMonitor._apertureBucketCounts
++ OBJC_IVAR_$_BWExposureAnalyticsMonitor._apertureBucketDurations
++ OBJC_IVAR_$_BWExposureAnalyticsMonitor._apertureBuckets
++ OBJC_IVAR_$_BWExposureAnalyticsMonitor._aperturePlusShutterPriorityDuration
++ OBJC_IVAR_$_BWExposureAnalyticsMonitor._aperturePlusShutterPriorityFrameCount
++ OBJC_IVAR_$_BWExposureAnalyticsMonitor._aperturePriorityDuration
++ OBJC_IVAR_$_BWExposureAnalyticsMonitor._aperturePriorityFrameCount
++ OBJC_IVAR_$_BWExposureAnalyticsMonitor._fullAutoExposureDuration
++ OBJC_IVAR_$_BWExposureAnalyticsMonitor._fullAutoFrameCount
++ OBJC_IVAR_$_BWExposureAnalyticsMonitor._fullManualDuration
++ OBJC_IVAR_$_BWExposureAnalyticsMonitor._fullManualFrameCount
++ OBJC_IVAR_$_BWExposureAnalyticsMonitor._name
++ OBJC_IVAR_$_BWExposureAnalyticsMonitor._numApertureBuckets
++ OBJC_IVAR_$_BWExposureAnalyticsMonitor._previousFrameAESignals
++ OBJC_IVAR_$_BWExposureAnalyticsMonitor._previousFrameDuration
++ OBJC_IVAR_$_BWExposureAnalyticsMonitor._previousFrameExposureMode
++ OBJC_IVAR_$_BWExposureAnalyticsMonitor._previousFrameFNumber
++ OBJC_IVAR_$_BWExposureAnalyticsMonitor._previousFramePTS
++ OBJC_IVAR_$_BWExposureAnalyticsMonitor._previousFramePortType
++ OBJC_IVAR_$_BWExposureAnalyticsMonitor._shutterPriorityDuration
++ OBJC_IVAR_$_BWExposureAnalyticsMonitor._shutterPriorityFrameCount
++ OBJC_IVAR_$_BWExposureAnalyticsMonitor._started
++ OBJC_IVAR_$_BWExposureAnalyticsMonitor._stateLock
++ OBJC_IVAR_$_BWExposureAnalyticsMonitor._totalDuration
++ OBJC_IVAR_$_BWExposureAnalyticsMonitor._totalFrameCount
++ OBJC_IVAR_$_BWFigVideoCaptureDevice._apertureFlickerMitigationEngaged
++ OBJC_IVAR_$_BWFigVideoCaptureDevice._attachedMovieFileSinkPipelineCount
++ OBJC_IVAR_$_BWFigVideoCaptureDevice._exposureAnalyticsMonitor
++ OBJC_IVAR_$_BWFigVideoCaptureDevice._fullAutoExposureModeActive
++ OBJC_IVAR_$_BWFigVideoCaptureDevice._portTypesWithLCBStreamingCorrectionEnabled
++ OBJC_IVAR_$_BWFigVideoCaptureDevice._sceneMonitoringLock
++ OBJC_IVAR_$_BWFigVideoCaptureDevice._softISPMode
++ OBJC_IVAR_$_BWFigVideoCaptureDevice._stillImageCaptureWithNondisruptiveSwitchingDeclined
++ OBJC_IVAR_$_BWFigVideoCaptureDevice._stillImageCaptureWithNondisruptiveSwitchingNotYetServiced
++ OBJC_IVAR_$_BWFigVideoCaptureDevice._stillImageCaptureWithNondisruptiveSwitchingRetryFrameCount
++ OBJC_IVAR_$_BWFigVideoCaptureDevice._streamingVideoDataOutputConsumerCount
++ OBJC_IVAR_$_BWFigVideoCaptureDevice._ultraHighResolutionZeroShutterLagSpeedOverQualitySwitchOverNotYetServiced
++ OBJC_IVAR_$_BWFigVideoCaptureDevice._ultraHighResolutionZeroShutterLagSpeedOverQualitySwitchOverRequiredPreventingStillCapture
++ OBJC_IVAR_$_BWFigVideoCaptureStream._pixelFormatIsPackedBayerRaw
++ OBJC_IVAR_$_BWFileCoordinatorNode._startRecordingTimeoutInSeconds
++ OBJC_IVAR_$_BWFileCoordinatorNode._startRecordingTimer
++ OBJC_IVAR_$_BWFocusSegmentationMaskConverterNode._configurationLock
++ OBJC_IVAR_$_BWFocusSegmentationMaskConverterNode._focusTrackedObjectsOutput
++ OBJC_IVAR_$_BWFocusSegmentationMaskConverterNode._rectOfInterest
++ OBJC_IVAR_$_BWFocusSegmentationMaskConverterNode._subjectAcquired
++ OBJC_IVAR_$_BWFocusSegmentationMaskConverterNode._subjectAcquiredChangedHandler
++ OBJC_IVAR_$_BWFocusSegmentationMaskConverterNode._subjectNotAcquiredFrameCount
++ OBJC_IVAR_$_BWGraphLiveExtension._sourceNodes
++ OBJC_IVAR_$_BWHVSCandidateFrameManager._candidateIDsDiscardedByPendingRemoval
++ OBJC_IVAR_$_BWHVSCandidateFrameManager._deferredPromotedRemovalsByCandidateID
++ OBJC_IVAR_$_BWHVSCandidateFrameManager._earliestAllowedStillImageCaptureHostPTS
++ OBJC_IVAR_$_BWHVSCandidateFrameManager._maxDuplicatesRemovedPerPromotion
++ OBJC_IVAR_$_BWHVSCandidateFrameManager._pendingCandidateRemovalsByCandidateID
++ OBJC_IVAR_$_BWHVSCandidateFrameManager._pendingMaxScoreReplacementFrameID
++ OBJC_IVAR_$_BWHVSCandidateFrameManager._pendingMaxScoreReplacementInfo
++ OBJC_IVAR_$_BWHVSCandidateFrameManager._waitForEarliestAllowedStillImageCaptureHostPTS
++ OBJC_IVAR_$_BWHVSScoringNode._earliestAllowedStillImageCaptureHostPTS
++ OBJC_IVAR_$_BWHVSScoringNode._frameSkippingThermalMitigationEnabled
++ OBJC_IVAR_$_BWHVSScoringNode._lastProcessedCaptureID
++ OBJC_IVAR_$_BWImageQueueSinkNode._didFileBlackenedFrameRadar
++ OBJC_IVAR_$_BWImageQueueSinkNode._displayingIndicatorCheckBlackenedFrames
++ OBJC_IVAR_$_BWImageQueueSinkNode._indicatorCheckToleranceBaselinePTS
++ OBJC_IVAR_$_BWImageQueueSinkNode._numIndicatorCheckBlackenedFramesDisplayedInInterval
++ OBJC_IVAR_$_BWImageQueueSinkNode._numIndicatorCheckBlackenedFramesReceivedInInterval
++ OBJC_IVAR_$_BWImageQueueSinkNode._receivingIndicatorCheckBlackenedFrames
++ OBJC_IVAR_$_BWMovieFileOutputAnalyticsPayload._durationAperturePlusShutterPriorityExposure
++ OBJC_IVAR_$_BWMovieFileOutputAnalyticsPayload._durationAperturePriorityExposure
++ OBJC_IVAR_$_BWMovieFileOutputAnalyticsPayload._durationFullAutoExposure
++ OBJC_IVAR_$_BWMovieFileOutputAnalyticsPayload._durationFullManualExposure
++ OBJC_IVAR_$_BWMovieFileOutputAnalyticsPayload._durationShutterPriorityExposure
++ OBJC_IVAR_$_BWMovieFileOutputAnalyticsPayload._durationVariableApertureCamera
++ OBJC_IVAR_$_BWMovieFileOutputAnalyticsPayload._lowLightVideoNoiseReductionApplied
++ OBJC_IVAR_$_BWMovieFileOutputAnalyticsPayload._lowLightVideoNoiseReductionAppliedChangedCount
++ OBJC_IVAR_$_BWMovieFileOutputAnalyticsPayload._lowLightVideoNoiseReductionAppliedDurationPercentage
++ OBJC_IVAR_$_BWMovieFileOutputAnalyticsPayload._variableApertureCameraBucketDurations
++ OBJC_IVAR_$_BWMultiStreamCameraSourceNode._deviceProximityDetectionOutput
++ OBJC_IVAR_$_BWMultiStreamCameraSourceNode._lightSourceEstimationOutput
++ OBJC_IVAR_$_BWNondisruptiveSwitchingFormatSelector._lastQuadraBinningFactor
++ OBJC_IVAR_$_BWNondisruptiveSwitchingFormatSelector._supportedFormats
++ OBJC_IVAR_$_BWPixelTransferNode._pixelBufferTransferRenderer
++ OBJC_IVAR_$_BWPreviewStitcherNode._numConsecutiveFramesDroppedByBackpressure
++ OBJC_IVAR_$_BWQuickTimeMovieFileSinkNode._exposureAnalyticsMonitor
++ OBJC_IVAR_$_BWQuickTimeMovieFileSinkNode._lastLowLightVideoNoiseReductionApplied
++ OBJC_IVAR_$_BWQuickTimeMovieFileSinkNode._lowLightVideoNoiseReductionAppliedChangedCount
++ OBJC_IVAR_$_BWQuickTimeMovieFileSinkNode._lowLightVideoNoiseReductionAppliedDuration
++ OBJC_IVAR_$_BWQuickTimeMovieFileSinkNode._lowLightVideoNoiseReductionEnabled
++ OBJC_IVAR_$_BWQuickTimeMovieFileSinkNode._lowLightVideoNoiseReductionFirstFrameReceived
++ OBJC_IVAR_$_BWQuickTimeMovieFileSinkNode._numberOfFramesDroppedDueToISP
++ OBJC_IVAR_$_BWQuickTimeMovieFileSinkNode._sourceRecommendedLensApertures
++ OBJC_IVAR_$_BWRingLightController._cbClient
++ OBJC_IVAR_$_BWRingLightController._displayBrightnessClientSupportsSDRNits
++ OBJC_IVAR_$_BWRingLightController._notifyQueue
++ OBJC_IVAR_$_BWRingLightController._receivedBrightnessCommitUpdate
++ OBJC_IVAR_$_BWRingLightController._ringLightEnabledLock
++ OBJC_IVAR_$_BWSecureMetadataOutputConfiguration._deviceProximityDetectionDeviceTypes
++ OBJC_IVAR_$_BWSecureMetadataOutputConfiguration._deviceProximityDetectionEnabled
++ OBJC_IVAR_$_BWSecureMetadataOutputConfiguration._deviceProximityDetectionTargetFrameRate
++ OBJC_IVAR_$_BWSecureMetadataOutputConfiguration._lightSourceEstimationAmbientLuminance
++ OBJC_IVAR_$_BWSecureMetadataOutputConfiguration._lightSourceEstimationEnabled
++ OBJC_IVAR_$_BWSecureMetadataOutputConfiguration._lightSourceEstimationTargetFrameRate
++ OBJC_IVAR_$_BWSecureMetadataOutputConfiguration._perceptionTestModeEnabled
++ OBJC_IVAR_$_BWSecureMetadataOutputConfiguration._perceptionThumbnailChannelMetadataObjectTypes
++ OBJC_IVAR_$_BWSecureMetadataOutputConfiguration._perceptionThumbnailChannelTargetFrameRate
++ OBJC_IVAR_$_BWSensorConfiguration._cameraInfoLock
++ OBJC_IVAR_$_BWSensorConfiguration._cameraInfoProvider
++ OBJC_IVAR_$_BWSmartCropNode._pendingCameraExtrinsicMatrix
++ OBJC_IVAR_$_BWStillImageAnalyticsPayloadCommon._segmentFocusTrackingEnabled
++ OBJC_IVAR_$_BWStillImageAnalyticsPayloadCommon._segmentFocusTrackingFocusBias
++ OBJC_IVAR_$_BWStillImageAnalyticsPayloadCommon._segmentFocusTrackingMaskConfidence
++ OBJC_IVAR_$_BWStillImageAnalyticsPayloadCommon._segmentFocusTrackingObjectID
++ OBJC_IVAR_$_BWStillImageAnalyticsPayloadCommon._segmentFocusTrackingTotalPoints
++ OBJC_IVAR_$_BWStillImageAnalyticsPayloadCommon._segmentFocusTrackingValidCoverage
++ OBJC_IVAR_$_BWStillImageCaptureMetadata._duplicateInfo
++ OBJC_IVAR_$_BWStreamingSessionAnalyticsPayload._durationAperturePlusShutterPriorityExposure
++ OBJC_IVAR_$_BWStreamingSessionAnalyticsPayload._durationAperturePriorityExposure
++ OBJC_IVAR_$_BWStreamingSessionAnalyticsPayload._durationFullAutoExposure
++ OBJC_IVAR_$_BWStreamingSessionAnalyticsPayload._durationFullManualExposure
++ OBJC_IVAR_$_BWStreamingSessionAnalyticsPayload._durationShutterPriorityExposure
++ OBJC_IVAR_$_BWStreamingSessionAnalyticsPayload._durationVariableApertureCamera
++ OBJC_IVAR_$_BWStreamingSessionAnalyticsPayload._variableApertureCameraBucketDurations
++ OBJC_IVAR_$_BWVideoCompressorNode._encoderPriorityInversionFixEnabled
++ OBJC_IVAR_$_FigCaptureDisplayLayout._interfaceOrientation
++ OBJC_IVAR_$_FigCaptureMetadataSinkPipeline._focusSegmentationMaskConverterNode
++ OBJC_IVAR_$_FigCaptureMovieFileSinkTailPipelineConfiguration._lowLightVideoNoiseReductionEnabled
++ OBJC_IVAR_$_FigCaptureSourceAttributes._moduleSealedState
++ OBJC_IVAR_$_FigCaptureSourceAttributes._supportedMetadataIdentifiersForPerceptionThumbnailChannel
++ OBJC_IVAR_$_FigCaptureStillImageSettings._activePipelineDimensions
++ OBJC_IVAR_$_FigCaptureVISPipeline._cameraExtrinsicMatrix
++ OBJC_IVAR_$_FigCaptureVideoDataSinkPipeline._countedAsStreamingVideoDataOutputConsumer
++ OBJC_IVAR_$_FigMetadataObjectCaptureConnectionConfiguration._deviceProximityDetectionDeviceTypes
++ OBJC_IVAR_$_FigMetadataObjectCaptureConnectionConfiguration._deviceProximityDetectionTargetFrameRate
++ OBJC_IVAR_$_FigMetadataObjectCaptureConnectionConfiguration._lightSourceEstimationAmbientLuminance
++ OBJC_IVAR_$_FigMetadataObjectCaptureConnectionConfiguration._lightSourceEstimationTargetFrameRate
++ OBJC_IVAR_$_FigMetadataObjectCaptureConnectionConfiguration._metadataIdentifiersForPerceptionThumbnailChannel
++ OBJC_IVAR_$_FigMetadataObjectCaptureConnectionConfiguration._perceptionTestModeEnabled
++ OBJC_IVAR_$_FigVideoCaptureConnectionConfiguration._additionalContentRotationDegrees
++ _AVGQYAZ5B33ZE4BGIQMFXF6U6KBUJQ
++ _BSInterfaceOrientationDescription
++ _BWCreateSampleBufferWithDeviceProximityDetectionDictionary
++ _BWCreateSampleBufferWithLightSourceEstimationDictionary
++ _BWExposureModeToShortString
++ _BWFocusTrackedObjectFromFocusSegmentationMaskSbuf
++ _BWGetStillImageProcessingReducedFigThreadPriority
++ _BWNodeSubTypeFocusSegmentationMaskConverter
++ _BWRowMajorDataFrom3x3Matrix
++ _FigCaptureClientApplicationIDIsFaceTimeVariant
++ _FigCaptureClientApplicationIdentifierPerceptiond
++ _FigCaptureClientApplicationIdentifierVoiceOver
++ _FigCaptureLCBModeForPortType
++ _FigCaptureLCBModeToShortString
++ _FigCaptureMetadataObjectConfigurationRequiresDeviceProximityDetection
++ _FigCaptureMetadataObjectConfigurationRequiresLightSourceEstimation
++ _FigCaptureProprietaryDefaultsContinuityCaptureEnabledOnMacKey
++ _FigCaptureProprietaryDefaultsRingLightOnboardingTipSignalKey
++ _FigCaptureRadarOptionSkipIfTailspinUnavailableKey
++ _FigCaptureSkipTTR
++ _FigCaptureSoftISPCalibrationEnabledForPortType
++ _FigCaptureSoftISPModeToShortString
++ _FigCaptureSourceFormatKey_SoftISPCalibrationConfiguration
++ _FigCaptureSourceModuleSealedStateFromCoreRepairStatus
++ _FigCaptureStreamUtilitiesGetBayerBinningFactors
++ _FigImageControl_Exposure_SetNow
++ _FigImageControl_SetApertureFlickerMitigation
++ _FigImageControl_WhiteBalance_SetNow
++ _FigRemoteQueueReceiverReleaseIOSurfaceIDs
++ _FigRemoteQueueSenderUnregisterIOSurfaceIDs
++ _FigSampleBufferAutofocusProcessorSetExposureConfigurationNow
++ _FigSampleBufferAutofocusProcessorSetManualWhiteBalanceNow
++ _OBJC_CLASS_$_BWExposureAnalyticsMonitor
++ _OBJC_CLASS_$_BWFocusSegmentationMaskConverterNode
++ _OBJC_METACLASS_$_BWExposureAnalyticsMonitor
++ _OBJC_METACLASS_$_BWFocusSegmentationMaskConverterNode
++ _OUTLINED_FUNCTION_486
++ _OUTLINED_FUNCTION_487
++ _OUTLINED_FUNCTION_488
++ _OUTLINED_FUNCTION_489
++ _OUTLINED_FUNCTION_490
++ _OUTLINED_FUNCTION_491
++ _OUTLINED_FUNCTION_492
++ _OUTLINED_FUNCTION_493
++ _OUTLINED_FUNCTION_494
++ _OUTLINED_FUNCTION_495
++ _OUTLINED_FUNCTION_496
++ _OUTLINED_FUNCTION_497
++ _OUTLINED_FUNCTION_498
++ _OUTLINED_FUNCTION_499
++ _OUTLINED_FUNCTION_500
++ _OUTLINED_FUNCTION_501
++ _OUTLINED_FUNCTION_502
++ _OUTLINED_FUNCTION_503
++ _OUTLINED_FUNCTION_504
++ _OUTLINED_FUNCTION_505
++ _OUTLINED_FUNCTION_506
++ _OUTLINED_FUNCTION_507
++ _OUTLINED_FUNCTION_508
++ _OUTLINED_FUNCTION_509
++ _OUTLINED_FUNCTION_510
++ _OUTLINED_FUNCTION_511
++ _OUTLINED_FUNCTION_512
++ _OUTLINED_FUNCTION_513
++ _OUTLINED_FUNCTION_514
++ _OUTLINED_FUNCTION_515
++ _OUTLINED_FUNCTION_516
++ _OUTLINED_FUNCTION_517
++ _OUTLINED_FUNCTION_518
++ _OUTLINED_FUNCTION_519
++ _OUTLINED_FUNCTION_520
++ _OUTLINED_FUNCTION_521
++ _OUTLINED_FUNCTION_522
++ _OUTLINED_FUNCTION_523
++ _OUTLINED_FUNCTION_524
++ _OUTLINED_FUNCTION_525
++ _OUTLINED_FUNCTION_526
++ _OUTLINED_FUNCTION_527
++ _OUTLINED_FUNCTION_528
++ _OUTLINED_FUNCTION_529
++ _OUTLINED_FUNCTION_530
++ _OUTLINED_FUNCTION_531
++ _OUTLINED_FUNCTION_532
++ _OUTLINED_FUNCTION_533
++ _OUTLINED_FUNCTION_534
++ _OUTLINED_FUNCTION_535
++ _OUTLINED_FUNCTION_536
++ _OUTLINED_FUNCTION_537
++ _OUTLINED_FUNCTION_538
++ _OUTLINED_FUNCTION_539
++ __133-[BWFigVideoCaptureDevice _setAutoImageControlMode:videoDataConsumersChanged:attachedMovieFileSinkPipelineChanged:completionHandler:]_block_invoke
++ __302-[BWFileCoordinatorNode initWithNumberOfVideoInputs:numberOfAudioInputs:numberOfMetadataInputs:numberOfActionOnlyOutputs:overCaptureEnabled:cinematicAudioEnabled:allowLowLatencyWhenPossible:timewarpTargetFramerate:useTrueVideoFileRecordingStaging:motionDataTimeMachine:videoRecordingPrimingQueueLimit:]_block_invoke
++ __53-[BWBroadcastVideoSinkNode _setupExternalDisplayPipe]_block_invoke
++ __71-[FigCaptureSessionConfiguration initWithXPCEncoding:clientAuditToken:]_block_invoke
++ __91-[BWFigVideoCaptureDevice setExposureModeCustomWithConfiguration:normalizedRectOfInterest:]_block_invoke
++ __OBJC_$_CLASS_METHODS_BWExposureAnalyticsMonitor
++ __OBJC_$_CLASS_METHODS_BWFocusSegmentationMaskConverterNode
++ __OBJC_$_INSTANCE_METHODS_BWExposureAnalyticsMonitor
++ __OBJC_$_INSTANCE_METHODS_BWFocusSegmentationMaskConverterNode
++ __OBJC_$_INSTANCE_VARIABLES_BWExposureAnalyticsMonitor
++ __OBJC_$_INSTANCE_VARIABLES_BWFocusSegmentationMaskConverterNode
++ __OBJC_$_PROP_LIST_BWDeferredCaptureContainerManager
++ __OBJC_$_PROP_LIST_BWFocusSegmentationMaskConverterNode
++ __OBJC_$_PROP_LIST_BWRingLightDisplayBrightnessObserver
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_BWRingLightDisplayBrightnessObserver
++ __OBJC_$_PROTOCOL_METHOD_TYPES_BWRingLightDisplayBrightnessObserver
++ __OBJC_$_PROTOCOL_REFS_BWRingLightDisplayBrightnessObserver
++ __OBJC_CLASS_PROTOCOLS_$_BWFocusSegmentationMaskConverterNode
++ __OBJC_CLASS_PROTOCOLS_$_BWRingLightController
++ __OBJC_CLASS_RO_$_BWExposureAnalyticsMonitor
++ __OBJC_CLASS_RO_$_BWFocusSegmentationMaskConverterNode
++ __OBJC_LABEL_PROTOCOL_$_BWRingLightDisplayBrightnessObserver
++ __OBJC_METACLASS_RO_$_BWExposureAnalyticsMonitor
++ __OBJC_METACLASS_RO_$_BWFocusSegmentationMaskConverterNode
++ __OBJC_PROTOCOL_$_BWRingLightDisplayBrightnessObserver
++ ___108-[BWHVSCandidateFrameManager _dupsToRemoveWithinRemovalBudget:similarities:removalsSoFar:frameID:checkName:]_block_invoke
++ ___121-[BWHVSScoringNode initWithCaptureMode:captureDevice:inferenceScheduler:threadPriority:livePhotoCaptureEnabled:delegate:]_block_invoke
++ ___133-[BWFigVideoCaptureDevice _setAutoImageControlMode:videoDataConsumersChanged:attachedMovieFileSinkPipelineChanged:completionHandler:]_block_invoke
++ ___145-[BWFigCaptureSession hvsScoringNode:didFinishPersonalPhotographerSessionWithCapturesToKeep:capturesToDelete:stillImageCoordinatorNode:settings:]_block_invoke
++ ___227-[BWBravoStreamSelector _preferredMasterStreamForFrameStatisticsByPortType:zoomFactor:isAutoFlashScene:digitalFlashMode:isStationary:debugInfo:ignoreEligibleFallbackPortTypes:requiresFocusExposeStabilityOut:selectionReasonOut:]_block_invoke
++ ___44-[BWSmartCropNode setCameraExtrinsicMatrix:]_block_invoke
++ ___48-[BWFigVideoCaptureDevice setExposureModeLocked]_block_invoke_2
++ ___52-[BWPixelBufferPool enumerateAllSurfacesUsingBlock:]_block_invoke
++ ___59-[BWStillImageCoordinatorNode renderSampleBuffer:forInput:]_block_invoke_2
++ ___66-[BWFigVideoCaptureDevice setCustomWhiteBalanceWithConfiguration:]_block_invoke_3
++ ___70-[BWFigVideoCaptureDevice _setExposureModeAutoWithRect:isDefaultRect:]_block_invoke_2
++ ___71-[FigCaptureSessionConfiguration initWithXPCEncoding:clientAuditToken:]_block_invoke
++ ___75-[BWFigVideoCaptureDevice _updateApertureFlickerMitigationOnAutofocusQueue]_block_invoke
++ ___78-[BWStillImageCoordinatorNode _calibrationCaptureSensorRawReleasedForRequest:]_block_invoke
++ ___78-[FigCaptureProprietaryDefaults migrateDefaultsFromAppBundleID:toAppBundleID:]_block_invoke
++ ___FigCaptureClientApplicationIDIsFaceTimeVariant_block_invoke
++ ___FigRemoteQueueReceiverReleaseIOSurfaceIDs_block_invoke
++ ___block_descriptor_112_e8_32o40o48o56o64o_e8_v12?0B8l
++ ___block_descriptor_36_e5_v8?0l
++ ___block_descriptor_40_e8_32o_e39_q24?0"NSDictionary"8"NSDictionary"16l
++ ___block_descriptor_49_e8_32r40r_e35_v40?0^{__CFDictionary=}8{?=qiIq}16l
++ ___block_descriptor_56_e8_32o40o48o_e15_v32?0816^B24l
++ ___block_descriptor_70_e8_32o40r48r56r_e5_v8?0l
++ ___block_descriptor_72_e8_32o40o48r56r64w_e5_v8?0l
++ ___block_descriptor_72_e8_32o_e36_B24?0Q8"NSObject<OS_xpc_object>"16l
++ ___block_descriptor_88_e16_80w_e5_v8?0l
++ ___block_descriptor_91_e8_32o40o_e5_v8?0l
++ ___captureSession_stopRunningInternal_block_invoke
++ ___copy_helper_block_e16_80w
++ ___copy_helper_block_e8_32o40o48r56r64w
++ ___copy_helper_block_e8_32o40r48r56r
++ ___destroy_helper_block_e16_80w
++ ___destroy_helper_block_e8_32o40o48r56r64w
++ ___destroy_helper_block_e8_32o40r48r56r
++ _af_sbp_getCurrentFigCaptureExposureMode
++ _applyOrClearApertureFlickerMitigation
++ _applyWhiteBalance
++ _captureSession_updateInflightConfigurationWithVideoConnectionPropertyForKey
++ _captureSource_migrateDefaultsFromOldAppBundleIDToNewAppBundleID
++ _cmclsc_ensureSourceConfigRequiredFormatIs10BitIfSupported
++ _cs_clientSpecifiedParsedCameraSourceConfigurationsFromParsedConfiguration
++ _gBWExposureAnalyticsMonitorTrace
++ _gBWFocusSegmentationMaskConverterNodeTrace
++ _gBWFocusTrackedObjectUtilitiesTrace
++ _gFigExposureProcessorTrace
++ _gFigFocusProcessorTrace
++ _gFigToneMappingProcessorTrace
++ _kCVPixelBufferPoolScanFreeIOSurfaces
++ _kCVPixelBufferPoolScanUsedIOSurfaces
++ _kFigAppleMakerNote_SegmentFocusTracking
++ _kFigAppleMakerNote_SegmentFocusTrackingKey_Enabled
++ _kFigAppleMakerNote_SegmentFocusTrackingKey_FocusBias
++ _kFigAppleMakerNote_SegmentFocusTrackingKey_MaskConfidence
++ _kFigAppleMakerNote_SegmentFocusTrackingKey_ObjectID
++ _kFigAppleMakerNote_SegmentFocusTrackingKey_TotalPoints
++ _kFigAppleMakerNote_SegmentFocusTrackingKey_ValidCoverage
++ _kFigCaptureFlatDictionaryAppleMakerNote_SegmentFocusTracking
++ _kFigCaptureFlatDictionaryAppleMakerNote_SegmentFocusTracking_opaque
++ _kFigCaptureFlatDictionaryAppleMakerNote_SegmentFocusTracking_string
++ _kFigCaptureSampleBufferAttachmentKey_DeviceProximityDetection
++ _kFigCaptureSampleBufferAttachmentKey_LightSourceEstimation
++ _kFigCaptureSampleBufferMetadata_LowLightVideoNoiseReductionApplied
++ _kFigCaptureSessionDidFinishPersonalPhotographerSessionCaptureKey_PresentationTimestamp
++ _kFigCaptureSessionDidFinishPersonalPhotographerSessionCaptureKey_SettingsID
++ _kFigCaptureSessionWillBeginCaptureNotificationPayloadKey_PersonalPhotographerDuplicateInfo
++ _kFigCaptureSourceAttributeKey_ModuleSealedState
++ _kFigCaptureSourceAttributeKey_SupportedMetadataIdentifiersForPerceptionThumbnailChannel
++ _kFigCaptureStreamMetadataOutputConfigurationKey_SecureDeviceProximityDetectionConfiguration
++ _kFigCaptureStreamMetadataOutputConfigurationKey_SecureDeviceProximityDetectionEnabled
++ _kFigCaptureStreamMetadataOutputConfigurationKey_SecureLightSourceEstimationConfiguration
++ _kFigCaptureStreamMetadataOutputConfigurationKey_SecureLightSourceEstimationEnabled
++ _kFigCaptureStreamMetadataOutputKey_SecureDetectedProximityDevices
++ _kFigCaptureStreamMetadataOutputKey_SecureLightSourceEstimation
++ _kFigCaptureStreamMetadata_SmartTapAlgorithmMetadata
++ _kFigCaptureStreamSecureDeviceProximityDetectionConfigurationKey_DeviceTypes
++ _kFigCaptureStreamSecureDeviceProximityDetectionConfigurationKey_TargetFrameRate
++ _kFigCaptureStreamSecureFaceIDKey_FrameType
++ _kFigCaptureStreamSecureFaceIDKey_ProjectornMode
++ _kFigCaptureStreamSecureLightSourceEstimationConfigurationKey_AmbientLuminance
++ _kFigCaptureStreamSecureLightSourceEstimationConfigurationKey_TargetFrameRate
++ _kFigCaptureStreamSecureObjectDetectionConfigurationKey_PerceptionTestModeEnabled
++ _kFigCaptureStreamSecureObjectDetectionConfigurationKey_PerceptionThumbnailChannelMetadataObjectTypes
++ _kFigCaptureStreamSecureObjectDetectionConfigurationKey_PerceptionThumbnailChannelTargetFrameRate
++ _kFigCaptureStreamSecureObjectDetectionConfigurationKey_TargetFrameRate
++ _kFigCaptureStreamSegmentFocusTrackingDataKey_FocusBias
++ _kFigCaptureStreamSegmentFocusTrackingDataKey_MaskConfidence
++ _kFigCaptureStreamSegmentFocusTrackingDataKey_ObjectID
++ _kFigCaptureStreamSegmentFocusTrackingDataKey_TotalPoints
++ _kFigCaptureStreamSegmentFocusTrackingDataKey_ValidCoverage
++ _kFigImageControlSampleBufferProcessorProperty_ApertureFlickerMitigationEngaged
++ _kFigMetadataIdentifier_QuickTimeMetadataDeviceProximityDetection
++ _kFigMetadataIdentifier_QuickTimeMetadataLightSourceEstimation
++ _kHVSCandidateConfigKeyMaxDuplicatesRemovedPerPromotion
++ _multiStreamCameraSourceNode_secureDeviceProximityDetectionServiceQueueCallback
++ _multiStreamCameraSourceNode_secureLightSourceEstimationServiceQueueCallback
++ _objc_msgSend$_candidateHasDeferredRemovalObligation:
++ _objc_msgSend$_clearRemovalObligationsForCandidateID:
++ _objc_msgSend$_correctRectangleInFocusTrackedObject:fromFocusSegmentationMaskSampleBuffer:
++ _objc_msgSend$_createFocusTrackedObjectsSampleBufferFromSourceSampleBuffer:
++ _objc_msgSend$_createOutputSampleBufferForSourceSampleBuffer:focusTrackedObject:focusSegmentationMask:
++ _objc_msgSend$_dupsToRemoveWithinRemovalBudget:similarities:removalsSoFar:frameID:checkName:
++ _objc_msgSend$_getInputRect:outputRect:inputShiftAppliedInOutputRect:toTransferPixelBuffer:rect:intoPixelBufferDimensions:rect:withInputShift:shiftOutsideBoundingRectAllowed:scale:forFinalOutput:
++ _objc_msgSend$_isDuplicateOfFrame:comparedToFrameDict:dampedSimilarity:
++ _objc_msgSend$_payOffPendingRemovalsForCandidate:
++ _objc_msgSend$_renderMetadataSampleBuffer:forInput:
++ _objc_msgSend$_renderVideoSampleBuffer:forInput:
++ _objc_msgSend$_reset
++ _objc_msgSend$_resolvePromotedFrameDuplicatesForFrame:removeOnWin:deferredRemovalsOut:
++ _objc_msgSend$_updateDurationsAndFrameCountsForPTS:fNumber:AESignals:exposureMode:portType:
++ _objc_msgSend$_updateSampleBufferMetadataAfterWarping:
++ _objc_msgSend$_updateSubjectAcquiredState:
++ _objc_msgSend$_waitUntilTimeoutForInferenceGroupToCompleteAndReturnStatus
++ _objc_msgSend$activateVideoSources:activationOptions:clientApplicationID:tccIdentity:mediaEnvironment:captureDevicesByID:stereoVideoCaptureEnabled:multiCamClientCompositingEnabled:rebuildingGraphForTrueVideoTeleTransition:devicesOut:
++ _objc_msgSend$activeBayerBinningFactor
++ _objc_msgSend$activePipelineDimensions
++ _objc_msgSend$addMetadataFromSampleBuffer:
++ _objc_msgSend$additionalContentRotationDegrees
++ _objc_msgSend$aperturePlusShutterPriorityModeDuration
++ _objc_msgSend$aperturePriorityModeDuration
++ _objc_msgSend$colorSpaceIsAppleLog
++ _objc_msgSend$currentSDRNitsWithError:
++ _objc_msgSend$decrementAttachedMovieFileSinkPipelineCountWasRecording:
++ _objc_msgSend$decrementStreamingVideoDataOutputConsumerCount
++ _objc_msgSend$deviceProximityDetectionDeviceTypes
++ _objc_msgSend$deviceProximityDetectionEnabled
++ _objc_msgSend$deviceProximityDetectionTargetFrameRate
++ _objc_msgSend$focusTrackedObjectsOutput
++ _objc_msgSend$fullAutoExposureModeDuration
++ _objc_msgSend$fullManualModeDuration
++ _objc_msgSend$hasAttachedMovieFileSinkPipeline
++ _objc_msgSend$incrementAttachedMovieFileSinkPipelineCount
++ _objc_msgSend$incrementStreamingVideoDataOutputConsumerCount
++ _objc_msgSend$initWithMetadataMode:
++ _objc_msgSend$initWithPortType:supportFormats:quadraSubPixelSwitchingParameters:baseZoomFactor:zoomFactorToNondisruptiveSwitchingFormatIndexSIFRBinned:zoomFactorToNondisruptiveSwitchingFormatIndexMainAndSIFRBinned:zoomFactorToNondisruptiveSwitchingFormatIndexSIFRNonBinned:zoomFactorToNondisruptiveSwitchingFormatIndexSecureSigning:ultraHighResolutionSecureSigningNondisruptiveStreamingFormatIndex:ultraHighResolutionNondisruptiveStreamingFormatIndex:mainFormatSIFRBinningFactor:
++ _objc_msgSend$initWithSubjectAcquiredChangedHandler:
++ _objc_msgSend$initWithXPCEncoding:clientAuditToken:
++ _objc_msgSend$interfaceOrientation
++ _objc_msgSend$invalidateCachedProperties
++ _objc_msgSend$isIdle
++ _objc_msgSend$isRingLightEnabledWithError:
++ _objc_msgSend$lcbStreamingCorrectionSupported
++ _objc_msgSend$lcbStreamingDetectionSupported
++ _objc_msgSend$lcbSupportedForPortType:sensorIDString:
++ _objc_msgSend$lightSourceEstimationAmbientLuminance
++ _objc_msgSend$lightSourceEstimationEnabled
++ _objc_msgSend$lightSourceEstimationTargetFrameRate
++ _objc_msgSend$liveReconfigureForRotationDegrees:cameraExtrinsicMatrix:
++ _objc_msgSend$maxSDRDisplayNitsWithError:
++ _objc_msgSend$metadataIdentifiersForPerceptionThumbnailChannel
++ _objc_msgSend$originalPresentationTimestamp
++ _objc_msgSend$originatedFromISP
++ _objc_msgSend$perceptionTestModeEnabled
++ _objc_msgSend$perceptionThumbnailChannelMetadataObjectTypes
++ _objc_msgSend$perceptionThumbnailChannelTargetFrameRate
++ _objc_msgSend$pixelFormatIsPackedBayerRaw
++ _objc_msgSend$recommendedLensApertures
++ _objc_msgSend$rectOfInterest
++ _objc_msgSend$registerBrightnessObserver:
++ _objc_msgSend$resendCurrentAndPreferredMasterStreamNotifications
++ _objc_msgSend$resumeWithVideoOutputConfigurations:
++ _objc_msgSend$sbufPresentationTimestamp
++ _objc_msgSend$setActivePipelineDimensions:
++ _objc_msgSend$setAdditionalContentRotationDegrees:
++ _objc_msgSend$setDeviceProximityDetectionDeviceTypes:
++ _objc_msgSend$setDeviceProximityDetectionEnabled:
++ _objc_msgSend$setDeviceProximityDetectionTargetFrameRate:
++ _objc_msgSend$setDurationAperturePlusShutterPriorityExposure:
++ _objc_msgSend$setDurationAperturePriorityExposure:
++ _objc_msgSend$setDurationFullAutoExposure:
++ _objc_msgSend$setDurationFullManualExposure:
++ _objc_msgSend$setDurationShutterPriorityExposure:
++ _objc_msgSend$setDurationVariableApertureCamera:
++ _objc_msgSend$setEarliestAllowedStillImageCaptureHostPTS:
++ _objc_msgSend$setEncoderPriorityInversionFixEnabled:
++ _objc_msgSend$setInterfaceOrientation:
++ _objc_msgSend$setLightSourceEstimationAmbientLuminance:
++ _objc_msgSend$setLightSourceEstimationEnabled:
++ _objc_msgSend$setLightSourceEstimationTargetFrameRate:
++ _objc_msgSend$setLowLightVideoNoiseReductionApplied:
++ _objc_msgSend$setLowLightVideoNoiseReductionAppliedChangedCount:
++ _objc_msgSend$setLowLightVideoNoiseReductionAppliedDurationPercentage:
++ _objc_msgSend$setMetadataIdentifiersForPerceptionThumbnailChannel:
++ _objc_msgSend$setPerceptionTestModeEnabled:
++ _objc_msgSend$setPerceptionThumbnailChannelMetadataObjectTypes:
++ _objc_msgSend$setPerceptionThumbnailChannelTargetFrameRate:
++ _objc_msgSend$setPixelFormatIsPackedBayerRaw:
++ _objc_msgSend$setPortTypesWithLCBStreamingCorrectionEnabled:
++ _objc_msgSend$setSegmentFocusTrackingEnabled:
++ _objc_msgSend$setSegmentFocusTrackingFocusBias:
++ _objc_msgSend$setSegmentFocusTrackingMaskConfidence:
++ _objc_msgSend$setSegmentFocusTrackingObjectID:
++ _objc_msgSend$setSegmentFocusTrackingTotalPoints:
++ _objc_msgSend$setSegmentFocusTrackingValidCoverage:
++ _objc_msgSend$setSourceRecommendedLensApertures:
++ _objc_msgSend$setVariableApertureCameraBucketDurations:
++ _objc_msgSend$setWaitForEarliestAllowedStillImageCaptureHostPTS:
++ _objc_msgSend$shutterPriorityModeDuration
++ _objc_msgSend$softISPMode
++ _objc_msgSend$sourceNodes
++ _objc_msgSend$startLiveExtensionSourceNodes:
++ _objc_msgSend$startMonitoringWithApertureBuckets:
++ _objc_msgSend$stopLiveExtensionSourceNodes:
++ _objc_msgSend$totalVariableApertureCameraDuration
++ _objc_msgSend$unregisterBrightnessObserver:
++ _objc_msgSend$updateEarliestAllowedStillImageCaptureHostPTS:
++ _objc_msgSend$variableApertureCameraBucketDurations
++ applyOrClearApertureFlickerMitigation
++ captureSession_updateInflightConfigurationWithVideoConnectionPropertyForKey
++ captureSource_migrateDefaultsFromOldAppBundleIDToNewAppBundleID
++ cs_updatePhotographicStyleSupport
++ enumerateAllSurfacesUsingBlock:.onceToken
++ enumerateAllSurfacesUsingBlock:.scanOptions
++ getNSWorkspaceClass.softClass
++ getNSWorkspaceOpenConfigurationClass.softClass
++ getTapToRadarServiceClass.softClass
+- +[BWSemanticMasksConverterNode initialize]
+- -[BWBackgroundBlurNode _createMatchingPixelBufferFromSavedVideoBuffersWithTargetPts:]
+- -[BWBackgroundBlurNode _savePixelBufferForStillImageCaptureRequests:withPts:]
+- -[BWBravoStreamSelector _conditionsAllowSwitchToRecommendedMasterStream:debugOverlayInfo:]
+- -[BWBravoStreamSelector _exposureAndFocusStableForSwitchOverTo:forFrameStatisticsByPortType:debugOverlayInfo:]
+- -[BWBravoStreamSelector _preferredMasterStreamForFrameStatisticsByPortType:zoomFactor:isAutoFlashScene:digitalFlashMode:isStationary:debugOverlayInfo:ignoreEligibleFallbackPortTypes:requiresFocusExposeStabilityOut:selectionReasonOut:]
+- -[BWBravoStreamSelector _selectionBehaviorAllowsSwitchOverTo:forFrameStatisticsByPortType:zoomFactor:blockedByExposureFocusStability:debugOverlayInfo:]
+- -[BWBravoStreamSelector _telephotoLimitsReachedForFrameStatisticsByPortType:debugOverlayInfo:]
+- -[BWBravoStreamSelector _updateSceneChangeMonitorWithFrameStatisticsByPortType:fromMasterStream:zoomFactor:digitalFlashMode:debugOverlayInfo:]
+- -[BWBroadcastVideoSinkNode _cleanupMetalRenderingPipeline]
+- -[BWFigVideoCaptureDevice _applySystemPressureFrameRateMitigationIfNeeded:]
+- -[BWFigVideoCaptureDevice _setAutoImageControlMode:completionHandler:]
+- -[BWFigVideoCaptureDevice setSoftISPEnabled:]
+- -[BWGraph startLiveExtensionSourceNodes]
+- -[BWGraph stopLiveExtensionSourceNodes]
+- -[BWHVSCandidateFrameManager _resolvePromotedFrameDuplicatesForFrame:]
+- -[BWHVSFrame duplicateInfo]
+- -[BWHVSFrame setDuplicateInfo:]
+- -[BWHVSScoringNode initWithCaptureMode:captureDevice:inferenceScheduler:threadPriority:delegate:]
+- -[BWImageQueueSinkNode _createContextForBuffer:bufferId:framePTS:]
+- -[BWImageQueueSinkNode _storePreviewPTS:withHostTime:isOverCaptureFrame:isBlackenedFrame:]
+- -[BWNondisruptiveSwitchingFormatSelector initWithPortType:quadraSubPixelSwitchingParameters:baseZoomFactor:zoomFactorToNondisruptiveSwitchingFormatIndexSIFRBinned:zoomFactorToNondisruptiveSwitchingFormatIndexMainAndSIFRBinned:zoomFactorToNondisruptiveSwitchingFormatIndexSIFRNonBinned:zoomFactorToNondisruptiveSwitchingFormatIndexSecureSigning:ultraHighResolutionSecureSigningNondisruptiveStreamingFormatIndex:ultraHighResolutionNondisruptiveStreamingFormatIndex:mainFormatSIFRBinningFactor:]
+- -[BWPhotoEncoderController _waitUntilTimeoutForInferenceGroupToCompleteAndReturnSuccess]
+- -[BWPreviewStitcherRenderer _getInputRect:outputRect:inputShiftAppliedInOutputRect:toTransferPixelBuffer:rect:intoPixelBufferDimensions:rect:withInputShift:shiftOutsideBoundingRectAllowed:ignoreBounds:scale:forFinalOutput:]
+- -[BWSemanticMasksConverterNode _correctRectanglesInDetectedObjectsInfo:derivedFromAttachedMedia:]
+- -[BWSemanticMasksConverterNode _createDetectedObjectsSampleBufferFromSemanticMasksSampleBuffer:]
+- -[BWSemanticMasksConverterNode configurationWithID:updatedFormat:didBecomeLiveForInput:]
+- -[BWSemanticMasksConverterNode dealloc]
+- -[BWSemanticMasksConverterNode detectedObjectsOutput]
+- -[BWSemanticMasksConverterNode didReachEndOfDataForConfigurationID:input:]
+- -[BWSemanticMasksConverterNode didStopContinuousAutoFocusTracking]
+- -[BWSemanticMasksConverterNode focusTrackedObjectOutputEnabled]
+- -[BWSemanticMasksConverterNode initWithEnabledSemanticMaskTypes:detectedObjectsMetadataIdentifiers:subjectAcquiredChangedHandler:]
+- -[BWSemanticMasksConverterNode nodeSubType]
+- -[BWSemanticMasksConverterNode nodeType]
+- -[BWSemanticMasksConverterNode rectOfInterest]
+- -[BWSemanticMasksConverterNode renderSampleBuffer:forInput:]
+- -[BWSemanticMasksConverterNode setFocusTrackedObjectOutputEnabled:]
+- -[BWSemanticMasksConverterNode setRectOfInterest:]
+- -[BWSmartCropNode renderMetadataSampleBuffer:forInput:]
+- -[BWSmartCropNode renderVideoSampleBuffer:forInput:]
+- -[FigCaptureCameraParameters lcbCorrectionEnabledForPortType:sensorIDString:]
+- -[FigCaptureCustomExposureConfiguration lensAperture]
+- -[FigCaptureMovieFileSinkPipeline liveReconfigureForRotationDegrees:needToTransposeVISPipeline:]
+- -[FigCaptureMovieFileSinkTailPipeline _appendCinematicVideoMetadataNodeToPreviousVideoOutput:previousCinematicVideoMetadataOutput:graph:parentPipeline:pipelineStage:useRawCinematography:error:]
+- -[FigCapturePreviewSinkPipeline liveReconfigureForRotationDegrees:]
+- -[FigCaptureSourceManager activateVideoSources:activationOptions:clientApplicationID:tccIdentity:mediaEnvironment:captureDevicesByID:stereoVideoCaptureEnabled:multiCamClientCompositingEnabled:rebuildingGraphForTrueVideoTransition:devicesOut:]
+- -[FigCaptureVideoDataSinkPipeline liveReconfigureForRotationDegrees:needToTransposeVISPipeline:]
+- BWCinematicVideoMetadataGetFormatDescriptionAndLocalIDs.sLocalIDForStabilization_BE
+- FigDepthBlurEffectRenderingMaximumSimulatedAperture
+- FigDepthBlurEffectRenderingMinimumSimulatedAperture
+- GCC_except_table101
+- GCC_except_table106
+- GCC_except_table147
+- GCC_except_table188
+- GCC_except_table202
+- GCC_except_table232
+- GCC_except_table252
+- GCC_except_table303
+- GCC_except_table347
+- GCC_except_table348
+- GCC_except_table359
+- GCC_except_table374
+- GCC_except_table406
+- GCC_except_table432
+- GCC_except_table434
+- GCC_except_table451
+- GCC_except_table468
+- GCC_except_table520
+- GCC_except_table555
+- GCC_except_table57
+- GCC_except_table570
+- GCC_except_table572
+- GCC_except_table582
+- GCC_except_table586
+- GCC_except_table63
+- GCC_except_table68
+- GCC_except_table73
+- GCC_except_table742
+- GCC_except_table84
+- GCC_except_table86
+- GCC_except_table94
+- OBJC_IVAR_$_BWCinematicVideoMetadataNode._localIDForStabilizationMetadata_BE
+- OBJC_IVAR_$_BWFigVideoCaptureDevice._pendingLensApertureChange
+- OBJC_IVAR_$_BWFigVideoCaptureDevice._softISPEnabled
+- OBJC_IVAR_$_BWFigVideoCaptureDevice._ultraHighResolutionZeroShutterLagSpeedOverQualitySwitchOverInProgressPreventingStillCapture
+- OBJC_IVAR_$_BWGraph._liveExtensionSourceNodes
+- OBJC_IVAR_$_BWHVSFrame._duplicateInfo
+- OBJC_IVAR_$_BWMultiStreamCameraSourceNode._lastPrimaryStreamingOutputISPAppliedZoomFactor
+- OBJC_IVAR_$_BWRingLightController._displayBrightnessClientRingLightEnabled
+- OBJC_IVAR_$_BWRingLightController._displayBrightnessClientRingLightEnabledLock
+- OBJC_IVAR_$_BWSemanticMasksConverterNode._configurationLock
+- OBJC_IVAR_$_BWSemanticMasksConverterNode._detectedObjectsOutput
+- OBJC_IVAR_$_BWSemanticMasksConverterNode._enabledSemanticMaskTypes
+- OBJC_IVAR_$_BWSemanticMasksConverterNode._focusTrackedObjectOutputEnabled
+- OBJC_IVAR_$_BWSemanticMasksConverterNode._rectOfInterest
+- OBJC_IVAR_$_BWSemanticMasksConverterNode._subjectAcquired
+- OBJC_IVAR_$_BWSemanticMasksConverterNode._subjectAcquiredChangedHandler
+- OBJC_IVAR_$_BWSemanticMasksConverterNode._subjectNotAcquiredFrameCount
+- OBJC_IVAR_$_BWVideoDepthNode._depthPaddingPipelineState
+- OBJC_IVAR_$_BWVideoDepthNode._paddedDisparityPool
+- OBJC_IVAR_$_FigCaptureMetadataSinkPipeline._semanticMasksConverterNode
+- _BWNodeSubTypeSemanticMasksConverter
+- _FigCFDictionaryGetArrayValue
+- _FigCaptureIsDebuggerInAnyProcessOrSlowAllocationPathEnabled
+- _FigCaptureProprietaryDefaultsRingLightAutoColorEnabledKey
+- _FigCaptureProprietaryDefaultsRingLightBiasKey
+- _FigCaptureProprietaryDefaultsRingLightRecommendedColorKey
+- _FigCaptureRingLightAutoColorEnabledDefault
+- _FigCaptureRingLightBiasDefault
+- _FigCaptureRingLightRecommendedColorDefault
+- _FigDepthBlurEffectRenderingMaximumSimulatedAperture
+- _FigDepthBlurEffectRenderingMinimumSimulatedAperture
+- _OBJC_CLASS_$_BWSemanticMasksConverterNode
+- _OBJC_METACLASS_$_BWSemanticMasksConverterNode
+- __115-[BWFigVideoCaptureDevice _serviceDeferredAutofocusProcessorPropertiesFromCaptureStream:frameStatisticsByPortType:]_block_invoke
+- __54-[FigCaptureSessionConfiguration initWithXPCEncoding:]_block_invoke
+- __70-[BWFigVideoCaptureDevice _setAutoImageControlMode:completionHandler:]_block_invoke
+- __OBJC_$_CLASS_METHODS_BWSemanticMasksConverterNode
+- __OBJC_$_INSTANCE_METHODS_BWSemanticMasksConverterNode
+- __OBJC_$_INSTANCE_VARIABLES_BWSemanticMasksConverterNode
+- __OBJC_$_PROP_LIST_BWSemanticMasksConverterNode
+- __OBJC_CLASS_PROTOCOLS_$_BWSemanticMasksConverterNode
+- __OBJC_CLASS_RO_$_BWSemanticMasksConverterNode
+- __OBJC_METACLASS_RO_$_BWSemanticMasksConverterNode
+- ___234-[BWBravoStreamSelector _preferredMasterStreamForFrameStatisticsByPortType:zoomFactor:isAutoFlashScene:digitalFlashMode:isStationary:debugOverlayInfo:ignoreEligibleFallbackPortTypes:requiresFocusExposeStabilityOut:selectionReasonOut:]_block_invoke
+- ___26-[BWSmartCropNode dealloc]_block_invoke
+- ___54-[FigCaptureSessionConfiguration initWithXPCEncoding:]_block_invoke
+- ___70-[BWFigVideoCaptureDevice _setAutoImageControlMode:completionHandler:]_block_invoke
+- ___96-[BWSemanticMasksConverterNode _createDetectedObjectsSampleBufferFromSemanticMasksSampleBuffer:]_block_invoke
+- ___97-[BWHVSScoringNode initWithCaptureMode:captureDevice:inferenceScheduler:threadPriority:delegate:]_block_invoke
+- ___block_descriptor_104_e8_32o40o48o56o_e8_v12?0B8l
+- ___block_descriptor_40_e8_32o_e47_v16?0"FigCaptureMagneticInterferenceMonitor"8l
+- ___block_descriptor_48_e8_32r40r_e35_v40?0^{__CFDictionary=}8{?=qiIq}16l
+- ___block_descriptor_81_e8_32o40o_e5_v8?0l
+- _createDetectedObjectsSampleBufferFromSemanticMasksSampleBuffer:.sOnceToken
+- _kFigAppleMakerNote_LCBMitigationKey_CorrectedLCBs
+- _kFigAppleMakerNote_LCBMitigationKey_DetectionCountHistogram
+- _kFigAppleMakerNote_LCBMitigationKey_NumberDetected
+- _kFigCaptureSampleBufferMetadata_LCBMitigationKey_CorrectedLCBs
+- _kFigCaptureSegmentFocusTrackingSalientObjectMetadata_MaskAttachedMediaKey
+- _kFigCaptureSegmentFocusTrackingSalientObjectMetadata_TrackedForContinuousAutoFocus
+- _kFigCaptureStreamStreamingObjectDetectionConfigurationKey_TargetFrameRate
+- _objc_msgSend$_coreImageMetalLibraryURL
+- _objc_msgSend$_correctRectanglesInDetectedObjectsInfo:derivedFromAttachedMedia:
+- _objc_msgSend$_createDetectedObjectsSampleBufferFromSemanticMasksSampleBuffer:
+- _objc_msgSend$_getInputRect:outputRect:inputShiftAppliedInOutputRect:toTransferPixelBuffer:rect:intoPixelBufferDimensions:rect:withInputShift:shiftOutsideBoundingRectAllowed:ignoreBounds:scale:forFinalOutput:
+- _objc_msgSend$_handleMagneticInterferenceChange:
+- _objc_msgSend$_resolvePromotedFrameDuplicatesForFrame:
+- _objc_msgSend$_waitUntilTimeoutForInferenceGroupToCompleteAndReturnSuccess
+- _objc_msgSend$activateVideoSources:activationOptions:clientApplicationID:tccIdentity:mediaEnvironment:captureDevicesByID:stereoVideoCaptureEnabled:multiCamClientCompositingEnabled:rebuildingGraphForTrueVideoTransition:devicesOut:
+- _objc_msgSend$cachedKernelWithFunctionName:fromMetalLibrary:error:
+- _objc_msgSend$depthPaddingPipelineStateWithDevice:bundle:error:
+- _objc_msgSend$initWithEnabledSemanticMaskTypes:detectedObjectsMetadataIdentifiers:subjectAcquiredChangedHandler:
+- _objc_msgSend$initWithPortType:quadraSubPixelSwitchingParameters:baseZoomFactor:zoomFactorToNondisruptiveSwitchingFormatIndexSIFRBinned:zoomFactorToNondisruptiveSwitchingFormatIndexMainAndSIFRBinned:zoomFactorToNondisruptiveSwitchingFormatIndexSIFRNonBinned:zoomFactorToNondisruptiveSwitchingFormatIndexSecureSigning:ultraHighResolutionSecureSigningNondisruptiveStreamingFormatIndex:ultraHighResolutionNondisruptiveStreamingFormatIndex:mainFormatSIFRBinningFactor:
+- _objc_msgSend$lcbCorrectionEnabledForPortType:sensorIDString:
+- _objc_msgSend$liveReconfigureForRotationDegrees:
+- _objc_msgSend$magneticInterferenceMitigationRequired
+- _objc_msgSend$metalCommandBuffer
+- _objc_msgSend$renderMetadataSampleBuffer:forInput:
+- _objc_msgSend$renderVideoSampleBuffer:forInput:
+- _objc_msgSend$setFocusTrackedObjectOutputEnabled:
+- _objc_msgSend$setMagneticInterferenceHandler:
+- _objc_msgSend$startLiveExtensionSourceNodes
+- _objc_msgSend$stopLiveExtensionSourceNodes
+CStrings:
++ " APD:%dx%d"
++ " [%@: focusPosition:%@]"
++ "! CGRectIsNull( validPixelRect )"
++ "%@ %p: ID:%d lensPosition:%@ clampToHyperfocal:%d commandSubmitted:%d"
++ "%@ %p: captureID:%lld '%.4s'('%.4s')%@ %dx%d R:%d%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@"
++ "%@: %p: %.4lf: black filling border of %@ outside of valid rect %@"
++ "%@[%@]: validBufferRect is empty"
++ "%P"
++ ", E:%d, VIS:%d,%d, M:%d,%@ R:%d, DOC:%d, ACR:%d, RBC:%d, CIM:%d"
++ ", deviceProximityDetection:{deviceTypes: %@"
++ ", lightSourceEstimation:{ambientLuminance:%d"
++ ", metadataIdentifiersForPerception:%lu, testMode:%d"
++ ", targetFrameRate:%.2f}"
++ "-[BWExposureAnalyticsMonitor _updateDurationsAndFrameCountsForPTS:fNumber:AESignals:exposureMode:portType:]"
++ "-[BWFigCaptureSession imageQueueSinkNodeDidDisplayFirstFrame:atHostTime:]_block_invoke"
++ "-[BWFigVideoCaptureDevice _serviceDeferredAutofocusProcessorPropertiesFromCaptureStream:frameStatisticsByPortType:]_block_invoke"
++ "-[BWFigVideoCaptureDevice _serviceRetryStillImageCaptureUsingFrameStatisticsByPortType:]"
++ "-[BWFigVideoCaptureDevice _setAutoImageControlMode:videoDataConsumersChanged:attachedMovieFileSinkPipelineChanged:completionHandler:]"
++ "-[BWFigVideoCaptureDevice _shouldDeferAutofocusProcessorProperty:value:]"
++ "-[BWFigVideoCaptureStream _setMaximumFrameRate:]"
++ "-[BWFigVideoCaptureStream _setMinimumFrameRate:]"
++ "-[BWFocusSegmentationMaskConverterNode _createOutputSampleBufferForSourceSampleBuffer:focusTrackedObject:focusSegmentationMask:]"
++ "-[BWFocusSegmentationMaskConverterNode _updateSubjectAcquiredState:]"
++ "-[BWFocusSegmentationMaskConverterNode didStopContinuousAutoFocusTracking]"
++ "-[BWGlobalTextureStyleRenderer renderUsingParameters:inputPixelBuffer:inputSampleBuffer:processedPixelBuffer:completionHandler:]"
++ "-[BWGlowTextureStyleRenderer renderUsingParameters:inputPixelBuffer:inputSampleBuffer:processedPixelBuffer:completionHandler:]"
++ "-[BWGraph startLiveExtensionSourceNodes:]"
++ "-[BWGraph stopLiveExtensionSourceNodes:]"
++ "-[BWHVSScoringNode updateEarliestAllowedStillImageCaptureHostPTS:]"
++ "-[BWImageQueueSinkNode _storePreviewPTS:withHostTime:isOverCaptureFrame:isBlackenedFrame:blackenedDueToIndicatorCheck:blackenedForCameraAccess:numIndicatorCheckBlackenedFramesReceivedInInterval:]"
++ "-[BWNodeConnection _resolveCommonVideoBufferFormatForAttachedMediaKey:]"
++ "-[BWNodeConnection resolveCommonBufferFormat]"
++ "-[BWNodeOutput makeConfiguredFormatLive]"
++ "-[BWPixelTransferNode _ensurePixelBufferTransferRendererForOutputFormat:]"
++ "-[BWSecureSigningUtilityManager isSecureSigningCertificateAvailableWithTimeout:]"
++ "-[BWStillImageCoordinatorNode _calibrationCaptureSensorRawReleasedForRequest:]_block_invoke"
++ "-[BWStillImageCoordinatorNode _prepareSensorRawBufferPoolsForCalibrationCaptureWithSettings:]"
++ "-[FigCaptureSourceManager activateVideoSources:activationOptions:clientApplicationID:tccIdentity:mediaEnvironment:captureDevicesByID:stereoVideoCaptureEnabled:multiCamClientCompositingEnabled:rebuildingGraphForTrueVideoTeleTransition:devicesOut:]"
++ "/%@/"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/CameraCapture/CMCapture/Sources/Graph/Base/BWNodeConnection.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/CameraCapture/CMCapture/Sources/Graph/Nodes/BWBaselineTextureStyleRenderer.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/CameraCapture/CMCapture/Sources/Graph/Nodes/BWGlobalTextureStyleRenderer.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/CameraCapture/CMCapture/Sources/Graph/Nodes/BWGlowTextureStyleRenderer.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/CameraCapture/CMCapture/Sources/Graph/Nodes/BWSkinTextureStyleRenderer.m"
++ "21:43:54"
++ "<<<< BWBaselineTextureStyleRenderer >>>> %s: [Texture Styles] presetTuningParameters is nil in BWBaselineTextureStyleRenderer"
++ "<<<< BWBravoStreamSelector >>>> %s: Preferred master stream changing from %{public}@ to %{public}@."
++ "<<<< BWBravoStreamSelector >>>> %s: Recommended stream selection reason changed from %d to %d for %{public}@."
++ "<<<< BWBravoStreamSelector >>>> %s: Recommending stream switch from %{public}@ to %{public}@ based on reason %d."
++ "<<<< BWBroadcastVideoSinkNode >>>> %s: Compiled new render pipeline state for pixel format %lu (cache miss)"
++ "<<<< BWBroadcastVideoSinkNode >>>> %s: Compiled shader library from source (cache miss)"
++ "<<<< BWBroadcastVideoSinkNode >>>> %s: External display pipe already configured for this source format/frame rate; skipping teardown and rebuild"
++ "<<<< BWBroadcastVideoSinkNode >>>> %s: Metal device changed; invalidating cached shader library/pipeline state"
++ "<<<< BWBroadcastVideoSinkNode >>>> %s: Metal device unchanged; reusing cached vertex buffer/shader library/sampler state/texture cache"
++ "<<<< BWBroadcastVideoSinkNode >>>> %s: No display mode could be selected (availableModes=%lu); leaving external display pipe torn down"
++ "<<<< BWBroadcastVideoSinkNode >>>> %s: No display modes available yet (attempt %lu/%lu); retrying in %.1fs"
++ "<<<< BWBroadcastVideoSinkNode >>>> %s: Posted video settings did change notification to delegate (node=%p sinkID=%@ settings=%@)"
++ "<<<< BWBroadcastVideoSinkNode >>>> %s: Reusing cached render pipeline state for pixel format %lu (cache hit)"
++ "<<<< BWExposureAnalyticsMonitor >>>> %s: %@: %@ pts:%lld/%d expMode:%@ signals:%@ FA:%d(%llu) FM:%d(%llu) AP:%d(%llu) SP:%d(%llu) APSP:%d(%llu)"
++ "<<<< BWExposureAnalyticsMonitor >>>> Fig"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: %@: Changed image control mode %d -> %d. Streaming intent %{public}@ (needs update:%d)"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: %{public}@ -> %{public}@: %{public}@: LTM curve:%d, minimumFrameRate:%.3f, maximumFrameRate:%.3f, aeMaxGain:%.3f. Low Light Video AE Table:%d. Time-lapse: AE table:%d, update:%d, config:%{public}@, aeStability:%{public}@"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: %{public}@, Capture: %{public}@ (%{public}@). Coarse Scan In Progress: %{public}@. Focusing Method: %{public}@. Exceeded Timeout: %{public}@ (%d / %d)"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: %{public}@, set TW recording in progress to false"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: %{public}@: set TW configuration to %{public}@"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: %{public}@: set TW configuration to OFF %{public}@"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: %{public}@: set TW recording in progress to false"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: %{public}@: set TW recording in progress to true"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: A nondisruptive switch-over was never initiated for a capture expecting it. Terminating capture, the still image has been lost (captureID:%lld)"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: Creating sensor raw buffer pool[%{public}@] with a capacity of %d (retained:%d + stream:%d (retained:%d))"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: Digital Flash sphere offsets. Frame count '%d', step in pixels '%d' and microns '%.3f', offsets (%d):%{public}@"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: Exposure waiting for additional frame stats (have %{public}@, expecting %{public}@)"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: Firmware time machine for portType '%{public}@' suspended with PTS range; from %.5fs to %.5fs"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: Got shading FPN correction image '%{public}@' for port type '%{public}@'%{public}@"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: Locked streams to %{public}@, %{public}@ for over capture camera fallback from %{public}@"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: Nondisruptive switch-over complete: %{public}@"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: Nondisruptive switch-over in progress: %{public}@"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: Overriding streaming image intent from %{public}@ to %{public}@"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: Reporting streaming session analytics data for device %{public}@ with total running time %.2f seconds"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: Restoring streaming image intent to %{public}@ before device start"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: Reverting streaming image intent to %{public}@ after device stop"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: Secondary firmware time machine for '%{public}@' suspended with PTS range; from %.5fs to %.5fs"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: Set device ZSL/UHR properties for active Omaha constituent (portType %{public}@) : zeroShutterLagEnabled=%d zeroShutterLagTimeMachineBufferCapacity=%d ultraHighResolutionZeroShutterLagSupportEnabled=%d autoFullFullUltraHighResolutionZeroShutterLagEnabled=%d ultraHighResolutionZeroShutterLagEnabled=%d"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: Speed over quality capture is not a Zero Shutter Lag capture. Changing capture type to %{public}@ from %{public}@"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: Speed over quality capture. Changing capture type to %{public}@ from %{public}@"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: Still image capture nondisruptive switch-over was initiated after %d frames, waiting for it to complete"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: Still image capture nondisruptive switch-over was not initiated after %d frames, waiting up to %d frames for it to be initiated after all"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: Stopping streaming with moment video recording intent, global tone mapping enabled '%d' and streaming digital flash mode '%d', setting next streaming instent to %{public}@"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: Submitted deferred custom exposure %{public}@ after %llu frames on '%{public}@', err %d"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: Submitted deferred exposure lock after %llu frames on '%{public}@', err %d"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: Submitted deferred manual white balance gains %{public}@ after %llu frames on '%{public}@', err %d"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: Time machine frames metadata invalid: Count mismatch. Got:%d. Expected:%d (total:%d)"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: Time machine frames metadata invalid: Manual exposure is not supported%{public}@"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: Time machine frames metadata invalid: Missing metadata for secondary stream with port type '%{public}@'"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: Time machine frames metadata invalid: Port type '%{public}@' of time machine frame doesn't match primary port type '%{public}@'"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: Time machine frames metadata invalid: SIFR skipped mismatch (primary:%d, secondary:%d) metadata for secondary stream with port type '%{public}@'"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: Ultra high resolution speed over quality switch-over was not initiated, cancel preventing still image capture (enabled:%d, primary stream %{public}@)"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: Updating SmartFramingFieldOfView to ( %{public}@ )"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: Variable frame rate video is enabled for portTypes %{public}@."
++ "<<<< BWFigVideoCaptureDevice >>>> %s: WB waiting for additional frame stats (have %{public}@, expecting %{public}@)"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: Zero Shutter Lag misconfiguration: The minimum required valid count is '%d'"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: Zero Shutter Lag misconfiguration: The valid range '%{public}@' does not support the minimum required valid count '%d'"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: [%{public}@] Inconsistent nondisruptive switching command ID, metadata ID %d is greater than active ID %d"
++ "<<<< BWFigVideoCaptureDevice >>>> %s: [%{public}@] Updating sensor raw buffer pool[%{public}@] capacity from %zu --> %d (retained:%d + stream:%d)"
++ "<<<< BWFigVideoCaptureStream >>>> %s: %{public}@"
++ "<<<< BWFigVideoCaptureStream >>>> %s: Camera capture thermal mitigation: %{public}@: updating framerates for thermal level %d:  thermal limited framerate changing from %.4lf to %.4lf, client set min %.4lf, client set max %.4lf, current min %.4lf, current max %.4lf, limited min %.4lf (update needed %c), limited max %.4lf (update needed %c)"
++ "<<<< BWFigVideoCaptureStream >>>> %s: Failed to set kFigCaptureStreamProperty_NondisruptiveSwitchingFormatIndex to %{public}@ with ID:%d (err=%d)"
++ "<<<< BWFigVideoCaptureStream >>>> %s: [%{public}@] Capturing still image from Core Media Time Machine for captureID:%lld"
++ "<<<< BWFigVideoCaptureStream >>>> %s: [%{public}@] Nondisruptive switching format set to %{public}@ with ID:%d, previous %d, minFrameRate %d, maxFrameRate %d, maximumAllowedFrameRate %d, isSecondary %d, secureSigningMode %d (%d), format %{public}@"
++ "<<<< BWFigVideoCaptureSynchronizedStreamsGroup >>>> %s: Setting primary stream to '%{public}@'. Secondary stream configuration: %{public}@"
++ "<<<< BWFileCoordinatorNode >>>> %s: %@"
++ "<<<< BWFocusSegmentationMaskConverterNode >>>> %s: <%p> Continuous auto focus tracking stopped -- resetting subject acquired state"
++ "<<<< BWFocusSegmentationMaskConverterNode >>>> %s: <%p> Error creating outputSBuf: %d"
++ "<<<< BWFocusSegmentationMaskConverterNode >>>> %s: <%p> Subject acquired changed to %d (consecutiveNotAcquiredFrames threshold:%d)"
++ "<<<< BWGlobalTextureStyleRenderer >>>> %s: [Texture Styles] presetTuningParameters is nil in BWGlobalTextureStyleRenderer"
++ "<<<< BWGlowTextureStyleRenderer >>>> %s: [Texture Styles] presetTuningParameters is nil in BWGlowTextureStyleRenderer"
++ "<<<< BWGraph >>>> %s: <%p> Sink node <%p, %@, %{public}@> is %{public}@ despite all inputs being %{public}@, preventing graph %@ from completing"
++ "<<<< BWHVSScoringNode >>>> %s: %{public}@ Received earliestAllowedStillImageCaptureHostPTS:%.4fs"
++ "<<<< BWImageQueueSinkNode >>>> %s: %{public}@: Began displaying indicator light check blackened frames %.3f seconds into the stream, %.3f seconds past the tolerance baseline (PTS: %.3f)"
++ "<<<< BWImageQueueSinkNode >>>> %s: %{public}@: Stopped displaying indicator light check blackened frames, ending an interval in which %lu such frames were received and %lu were displayed"
++ "<<<< BWImageQueueSinkNode >>>> %s: Camera indicator light check blackened frames which were displayed in preview (after %.3f sec tolerance)"
++ "<<<< BWMultiStreamCameraSourceNode >>>> %s: %@[%@]: validBufferRect is empty"
++ "<<<< BWMultiStreamCameraSourceNode >>>> %s: Received Face ID Result <rawFrameId: %@, metadataFrameId: %@, refFrameId: %@, frameType: %d, projectorMode: %d> %@"
++ "<<<< BWNodeConnection >>>> %s: Failed to set up camera session (failed BWGraph configuration)"
++ "<<<< BWNodeConnection >>>> %s: Input primary format missing media properties. Output: %{public}@, input: %{public}@"
++ "<<<< BWNodeConnection >>>> %s: Invalid mediatype for node output.  Output: %{public}@, input: %{public}@, mediaType: %{public}@"
++ "<<<< BWNodeConnection >>>> %s: Missing output requirements for the primary format.  Output: %{public}@, input: %{public}@"
++ "<<<< BWNodeConnection >>>> %s: No format for node output, this is required for outputs.  Output: %{public}@, input: %{public}@, mediaType: %{public}@"
++ "<<<< BWNodeConnection >>>> %s: No primary input requirements.  Output: %{public}@, input: %{public}@"
++ "<<<< BWNodeConnection >>>> %s: Output primary format missing media properties. Output: %{public}@, input: %{public}@"
++ "<<<< BWNodeConnection >>>> %s: Passthrough outputs are supposed to have a non-nil format (since its the same as their upstream input's format).  Output: %{public}@, input: %{public}@, node %{public}@, forAttachedMediaKey: %{public}@"
++ "<<<< BWNodeOutput >>>> %s: %@ is live for configurationID %lld and is being made live again for configurationID %lld without reaching EOD/EOC. This might hang the graph! Continuing anyway."
++ "<<<< BWPixelTransferNode >>>> %s: %@: %p: created pixel buffer transfer renderer %p for %@ output (compressed %d)"
++ "<<<< BWQuickTimeMovieFileSinkNode >>>> %s: %p %@: Setting early termination error code for dropped frame (%d) (cameraCapture=%llu, ISP=%llu, writerQueueFull=%llu)."
++ "<<<< BWRingLightController >>>> %s: ringlight init: s:%d, e:%d, a:%d, snf:%f, w:%f, c:%f, as:%d, m:%lu, os:%lu, osc:%i, optt:%@"
++ "<<<< BWSecureSigningUtilityManager >>>> %s: SecureSigning: BAA certificate availability check timed out after %g seconds"
++ "<<<< BWSkinTextureStyleRenderer >>>> %s: [Texture Styles] presetTuningParameters is nil in BWSkinTextureStyleRenderer"
++ "<<<< BWStillImageCoordinatorNode >>>> %s: Active Omaha constituent device type has changed from '%{public}@' to '%{public}@' for captureID:%{public}lld. Updating settings"
++ "<<<< BWStillImageCoordinatorNode >>>> %s: Got %{public}d still image request(s) while inactive. Servicing now."
++ "<<<< BWStillImageCoordinatorNode >>>> %s: SoftISPCal: Completing calibration with captureID:%lld (err:%d as no client will acknowledge the emitted errors"
++ "<<<< BWStillImageCoordinatorNode >>>> %s: SoftISPCal: Failed to size the sensor raw buffer pools for captureID:%lld (err:%d)"
++ "<<<< BWStillImageCoordinatorNode >>>> %s: SoftISPCal: Sensor raw released [%d / %d] for captureID:%lld"
++ "<<<< BWStillImageCoordinatorNode >>>> %s: SoftISPCal: Sized the sensor raw buffer pools for captureID:%{public}lld:%d, %@:%d, %@:%d"
++ "<<<< CMCaptureLocalSessionController >>>> %s: %{public}@ Empty video capture source deviceFormats array (deviceType:%d uniqueID:%{public}@) (returned err code = %d)"
++ "<<<< CMCaptureLocalSessionController >>>> %s: %{public}@ Error %d creating a new video capture session (deviceType:%d uniqueID:%{public}@)"
++ "<<<< CMCaptureLocalSessionController >>>> %s: %{public}@ Error %d when to lock capture source (deviceType:%d uniqueID:%{public}@)"
++ "<<<< CMCaptureLocalSessionController >>>> %s: %{public}@ Invalidated while waiting on queue to run!"
++ "<<<< CMCaptureLocalSessionController >>>> %s: %{public}@ Multiple metadata sources found (deviceType:%d uniqueID:%{public}@), only one is supported"
++ "<<<< CMCaptureLocalSessionController >>>> %s: %{public}@ Multiple video sources found (deviceType:%d uniqueID:%{public}@), only one is supported"
++ "<<<< CMCaptureLocalSessionController >>>> %s: %{public}@ No video capture session available to start"
++ "<<<< CMCaptureLocalSessionController >>>> %s: %{public}@ _createCaptureSessions finished without a video capture session; any later request to start a video/DeskCam stream on this daemon will fail"
++ "<<<< FigCaptureRadarUtils >>>> %s: No response to Tap-to-Radar prompt within %.0f sec (err %d) -- cancelling so we don't file a report without usable logs"
++ "<<<< FigCaptureRadarUtils >>>> %s: No response to manual Tap-to-Radar dialog within %.0f sec (err %d) -- cancelling"
++ "<<<< FigCaptureRadarUtils >>>> %s: Skipping TTR/fault because a debugger is attached or a slow allocation path is enabled."
++ "<<<< FigCaptureRadarUtils >>>> %s: Skipping TTR/fault because the current process is xctest."
++ "<<<< FigCaptureRadarUtils >>>> %s: Skipping Tap-to-Radar prompt because a tailspin was requested but is not available."
++ "<<<< FigCaptureSession >>>> %s: %s ToF-AF for FTDC"
++ "<<<< FigCaptureSession >>>> %s: %{public}@ %{public}@: %{public}@"
++ "<<<< FigCaptureSession >>>> %s: %{public}@ Added pending iris recording in pending queue for Personal Photographer captureID:%lld. Current index in queue: %d. Request: %@"
++ "<<<< FigCaptureSession >>>> %s: %{public}@ LCB mode for '%{public}@': %{public}@"
++ "<<<< FigCaptureSession >>>> %s: %{public}@ Set irisMovieInfo for iris recording request captureID:%lld in pending queue. Current index in queue: %d. Request: %@"
++ "<<<< FigCaptureSession >>>> %s: %{public}@ Unexpectedly starting an iris recording without a prior pendingIrisRecordingRequest. Added pending iris recording in pending queue captureID:%lld. Current index in queue: %d. Request: %@"
++ "<<<< FigCaptureSession >>>> %s: Slow camera launch: %d ms (> %d)"
++ "<<<< FigCaptureSession >>>> %s: Slow camera mode switch: %d ms (> %d)"
++ "<<<< FigCaptureSource >>>> %s: not supported!"
++ "<not retrieved yet>"
++ "A nondisruptive switch-over was never initiated for a capture expecting it. Terminating capture, the still image has been lost (captureID:%lld)"
++ "AVGQYAZ5B33ZE4BGIQMFXF6U6KBUJQ"
++ "AVMetadataObjectTypeDeviceProximityDetection"
++ "AVMetadataObjectTypeLightSourceEstimation"
++ "ApertureFlickerMitigationEngaged"
++ "BWExposureAnalyticsMonitor.m"
++ "BWTextureStyleTuning returned no preset tuning parameters for portType[%@] captureMode[%@] captureType[%i] preset[%@] style[%@]. Global texture style effects will fall back to default parameters — this should never happen."
++ "BWTextureStyleTuning returned no preset tuning parameters for portType[%@] captureMode[%@] captureType[%i] preset[%@] style[%@]. Glow texture style effect will fall back to default parameters — this should never happen."
++ "BWTextureStyleTuning returned no preset tuning parameters for portType[%@] captureMode[%@] captureType[%i] preset[%@] style[%@]. Skin texture style effects will fall back to default parameters — this should never happen."
++ "BWTextureStyleTuning returned no preset tuning parameters for portType[%@] captureMode[%@] captureType[%i] preset[%@]. Baseline texture style effects will fall back to default parameters — this should never happen."
++ "Camera indicator light check blackened frames which were displayed in preview (after %.3f sec tolerance)"
++ "Can't set max frame rate: %@ is not in the supported range %.2f-%.2f for %@ activeFormatIndex %d (%d). Use -supportedFormats."
++ "Can't set min frame rate: %@ is not in the supported range %.2f-%.2f for %@ activeFormatIndex %d (%d). Use -supportedFormats."
++ "ContinuousAutoFocusTracking120FPSSupported"
++ "ContinuousAutoFocusTrackingBinnedFormatUnsupported"
++ "DeviceProximityDetection"
++ "Disabling"
++ "Failed to set up camera session (failed BWGraph configuration)"
++ "FigCaptureSessionSlowCameraLaunch"
++ "FigCaptureSessionSlowCameraModeSwitch"
++ "FigCaptureSkipTTR"
++ "FigImageControl_Exposure"
++ "FigImageControl_Exposure_SetNow"
++ "FigImageControl_Focus"
++ "FigImageControl_SetExposureBias"
++ "Focus Segmentation Mask Converter"
++ "FocusSegmentationMaskConverter"
++ "IndicatorCheckBlackenedFrames"
++ "Inner"
++ "Inner Ultra Wide Camera"
++ "Inner Wide Camera"
++ "LastShownBuild:BWBaselineTextureStyleRenderer.m:204"
++ "LastShownBuild:BWFigVideoCaptureDevice.m:10162"
++ "LastShownBuild:BWFigVideoCaptureDevice.m:10655"
++ "LastShownBuild:BWFigVideoCaptureDevice.m:11239"
++ "LastShownBuild:BWFigVideoCaptureDevice.m:11690"
++ "LastShownBuild:BWFigVideoCaptureDevice.m:11725"
++ "LastShownBuild:BWFigVideoCaptureDevice.m:11914"
++ "LastShownBuild:BWFigVideoCaptureDevice.m:11923"
++ "LastShownBuild:BWFigVideoCaptureDevice.m:11935"
++ "LastShownBuild:BWFigVideoCaptureDevice.m:11942"
++ "LastShownBuild:BWFigVideoCaptureDevice.m:11976"
++ "LastShownBuild:BWFigVideoCaptureDevice.m:12042"
++ "LastShownBuild:BWFigVideoCaptureDevice.m:12211"
++ "LastShownBuild:BWFigVideoCaptureDevice.m:13107"
++ "LastShownBuild:BWFigVideoCaptureDevice.m:13205"
++ "LastShownBuild:BWFigVideoCaptureDevice.m:16370"
++ "LastShownBuild:BWFigVideoCaptureDevice.m:19235"
++ "LastShownBuild:BWFigVideoCaptureDevice.m:19623"
++ "LastShownBuild:BWFigVideoCaptureDevice.m:2049"
++ "LastShownBuild:BWFigVideoCaptureDevice.m:20506"
++ "LastShownBuild:BWFigVideoCaptureDevice.m:20930"
++ "LastShownBuild:BWFigVideoCaptureDevice.m:20932"
++ "LastShownBuild:BWFigVideoCaptureDevice.m:20934"
++ "LastShownBuild:BWFigVideoCaptureDevice.m:22835"
++ "LastShownBuild:BWFigVideoCaptureDevice.m:24235"
++ "LastShownBuild:BWFigVideoCaptureDevice.m:24267"
++ "LastShownBuild:BWFigVideoCaptureDevice.m:24423"
++ "LastShownBuild:BWFigVideoCaptureDevice.m:25177"
++ "LastShownBuild:BWFigVideoCaptureDevice.m:25202"
++ "LastShownBuild:BWFigVideoCaptureDevice.m:25451"
++ "LastShownBuild:BWFigVideoCaptureDevice.m:25808"
++ "LastShownBuild:BWFigVideoCaptureDevice.m:6249"
++ "LastShownBuild:BWFigVideoCaptureDevice.m:7946"
++ "LastShownBuild:BWFigVideoCaptureDevice.m:7955"
++ "LastShownBuild:BWFigVideoCaptureDevice.m:9038"
++ "LastShownBuild:BWFigVideoCaptureDevice.m:9039"
++ "LastShownBuild:BWFigVideoCaptureDevice.m:9058"
++ "LastShownBuild:BWFigVideoCaptureDevice.m:9073"
++ "LastShownBuild:BWFigVideoCaptureDevice.m:9348"
++ "LastShownBuild:BWFigVideoCaptureStream.m:3950"
++ "LastShownBuild:BWFigVideoCaptureStream.m:4370"
++ "LastShownBuild:BWFileCoordinatorNode.m:1360"
++ "LastShownBuild:BWFileCoordinatorNode.m:478"
++ "LastShownBuild:BWGlobalTextureStyleRenderer.m:195"
++ "LastShownBuild:BWGlowTextureStyleRenderer.m:202"
++ "LastShownBuild:BWGraph.m:2684"
++ "LastShownBuild:BWGraph.m:3594"
++ "LastShownBuild:BWGraph.m:3597"
++ "LastShownBuild:BWGraph.m:3610"
++ "LastShownBuild:BWGraph.m:3613"
++ "LastShownBuild:BWGraph.m:3616"
++ "LastShownBuild:BWHVSScoringNode.m:1205"
++ "LastShownBuild:BWHVSScoringNode.m:2906"
++ "LastShownBuild:BWHVSScoringNode.m:2911"
++ "LastShownBuild:BWHVSScoringNode.m:2914"
++ "LastShownBuild:BWHVSScoringNode.m:2983"
++ "LastShownBuild:BWHVSScoringNode.m:3503"
++ "LastShownBuild:BWImageQueueSinkNode.m:1150"
++ "LastShownBuild:BWImageQueueSinkNode.m:2096"
++ "LastShownBuild:BWImageQueueSinkNode.m:341"
++ "LastShownBuild:BWMultiStreamCameraSourceNode.m:13942"
++ "LastShownBuild:BWMultiStreamCameraSourceNode.m:13958"
++ "LastShownBuild:BWMultiStreamCameraSourceNode.m:2789"
++ "LastShownBuild:BWMultiStreamCameraSourceNode.m:4515"
++ "LastShownBuild:BWMultiStreamCameraSourceNode.m:4522"
++ "LastShownBuild:BWMultiStreamCameraSourceNode.m:4529"
++ "LastShownBuild:BWNodeConnection.m:284"
++ "LastShownBuild:BWNodeConnection.m:295"
++ "LastShownBuild:BWNodeConnection.m:308"
++ "LastShownBuild:BWNodeConnection.m:325"
++ "LastShownBuild:BWNodeConnection.m:382"
++ "LastShownBuild:BWNodeConnection.m:428"
++ "LastShownBuild:BWNodeConnection.m:485"
++ "LastShownBuild:BWPhotoEncoderController.m:1311"
++ "LastShownBuild:BWPhotoEncoderController.m:1314"
++ "LastShownBuild:BWPhotoEncoderController.m:1705"
++ "LastShownBuild:BWPhotoEncoderController.m:1710"
++ "LastShownBuild:BWPhotoEncoderController.m:1958"
++ "LastShownBuild:BWPhotoEncoderController.m:2097"
++ "LastShownBuild:BWPhotoEncoderController.m:2113"
++ "LastShownBuild:BWPhotoEncoderController.m:2123"
++ "LastShownBuild:BWPhotoEncoderController.m:3287"
++ "LastShownBuild:BWPhotoEncoderController.m:4672"
++ "LastShownBuild:BWPhotoEncoderController.m:6435"
++ "LastShownBuild:BWPixelBufferTransferRenderer.m:645"
++ "LastShownBuild:BWPreviewStitcherNode.m:3432"
++ "LastShownBuild:BWSkinTextureStyleRenderer.m:215"
++ "LastShownBuild:BWStillImageCoordinatorNode.m:1480"
++ "LastShownBuild:BWStillImageCoordinatorNode.m:1487"
++ "LastShownBuild:BWStillImageCoordinatorNode.m:1557"
++ "LastShownBuild:BWStillImageCoordinatorNode.m:1663"
++ "LastShownBuild:BWStillImageCoordinatorNode.m:1674"
++ "LastShownBuild:BWStillImageCoordinatorNode.m:2320"
++ "LastShownBuild:BWStillImageCoordinatorNode.m:3975"
++ "LastShownBuild:BWStillImageMetadataUtilities.m:1002"
++ "LastShownBuild:BWStillImageMetadataUtilities.m:1008"
++ "LastShownBuild:BWStillImageMetadataUtilities.m:1020"
++ "LastShownBuild:BWStillImageMetadataUtilities.m:134"
++ "LastShownBuild:BWStillImageMetadataUtilities.m:2345"
++ "LastShownBuild:BWStillImageMetadataUtilities.m:2352"
++ "LastShownBuild:BWStillImageMetadataUtilities.m:2358"
++ "LastShownBuild:BWStillImageMetadataUtilities.m:2381"
++ "LastShownBuild:BWStillImageMetadataUtilities.m:2569"
++ "LastShownBuild:BWStillImageMetadataUtilities.m:3181"
++ "LastShownBuild:BWStillImageMetadataUtilities.m:3211"
++ "LastShownBuild:BWStillImageMetadataUtilities.m:670"
++ "LastShownBuild:BWStillImageMetadataUtilities.m:888"
++ "LastShownBuild:BWTextureStyleTuning.m:262"
++ "LastShownBuild:BWUtilities.m:1084"
++ "LastShownBuild:CMCaptureLocalSessionController.m:907"
++ "LastShownBuild:FigCaptureMetadataUtilities.m:1546"
++ "LastShownBuild:FigCaptureMetadataUtilities.m:6327"
++ "LastShownBuild:FigCaptureSession.m:1018"
++ "LastShownBuild:FigCaptureSession.m:11394"
++ "LastShownBuild:FigCaptureSession.m:11589"
++ "LastShownBuild:FigCaptureSession.m:19395"
++ "LastShownBuild:FigCaptureSession.m:20960"
++ "LastShownBuild:FigCaptureSession.m:20963"
++ "LastShownBuild:FigCaptureSession.m:26340"
++ "LastShownBuild:FigCaptureSession.m:26353"
++ "LastShownBuild:FigCaptureSession.m:29436"
++ "LastShownBuild:FigCaptureSession.m:5225"
++ "LastShownBuild:FigCaptureSession.m:9293"
++ "LastShownBuild:FigCaptureSession.m:9299"
++ "LastShownBuild:FigCaptureSession.m:9302"
++ "LastShownBuild:FigCaptureSession.m:9305"
++ "LastShownBuild:FigCaptureSession.m:9308"
++ "LastShownBuild:FigCaptureSession.m:9319"
++ "LastShownBuild:FigCaptureSession.m:9322"
++ "LastShownBuild:FigCaptureSession.m:9330"
++ "LastShownBuild:FigCaptureSession.m:9393"
++ "LastShownBuild:FigCaptureSession.m:9397"
++ "LastShownBuild:FigCaptureSession.m:9421"
++ "LastShownBuild:FigCaptureSession.m:9436"
++ "LastShownBuild:FigCaptureSession.m:9440"
++ "LastShownBuild:FigCaptureSession.m:9443"
++ "LastShownBuild:FigCaptureSession.m:9567"
++ "LastShownBuild:FigCaptureSession.m:9573"
++ "LastShownBuild:FigCaptureSession.m:9599"
++ "LastShownBuild:FigCaptureSession.m:9611"
++ "LastShownBuild:FigCaptureSessionPipelines.m:718"
++ "LastShownBuild:FigCaptureSourceBackingsProvider.m:2735"
++ "LastShownBuild:FigSampleBufferProcessor_Autofocus.m:937"
++ "LastShownDate:BWBaselineTextureStyleRenderer.m:204"
++ "LastShownDate:BWFigVideoCaptureDevice.m:10162"
++ "LastShownDate:BWFigVideoCaptureDevice.m:10655"
++ "LastShownDate:BWFigVideoCaptureDevice.m:11239"
++ "LastShownDate:BWFigVideoCaptureDevice.m:11690"
++ "LastShownDate:BWFigVideoCaptureDevice.m:11725"
++ "LastShownDate:BWFigVideoCaptureDevice.m:11914"
++ "LastShownDate:BWFigVideoCaptureDevice.m:11923"
++ "LastShownDate:BWFigVideoCaptureDevice.m:11935"
++ "LastShownDate:BWFigVideoCaptureDevice.m:11942"
++ "LastShownDate:BWFigVideoCaptureDevice.m:11976"
++ "LastShownDate:BWFigVideoCaptureDevice.m:12042"
++ "LastShownDate:BWFigVideoCaptureDevice.m:12211"
++ "LastShownDate:BWFigVideoCaptureDevice.m:13107"
++ "LastShownDate:BWFigVideoCaptureDevice.m:13205"
++ "LastShownDate:BWFigVideoCaptureDevice.m:16370"
++ "LastShownDate:BWFigVideoCaptureDevice.m:19235"
++ "LastShownDate:BWFigVideoCaptureDevice.m:19623"
++ "LastShownDate:BWFigVideoCaptureDevice.m:2049"
++ "LastShownDate:BWFigVideoCaptureDevice.m:20506"
++ "LastShownDate:BWFigVideoCaptureDevice.m:20930"
++ "LastShownDate:BWFigVideoCaptureDevice.m:20932"
++ "LastShownDate:BWFigVideoCaptureDevice.m:20934"
++ "LastShownDate:BWFigVideoCaptureDevice.m:22835"
++ "LastShownDate:BWFigVideoCaptureDevice.m:24235"
++ "LastShownDate:BWFigVideoCaptureDevice.m:24267"
++ "LastShownDate:BWFigVideoCaptureDevice.m:24423"
++ "LastShownDate:BWFigVideoCaptureDevice.m:25177"
++ "LastShownDate:BWFigVideoCaptureDevice.m:25202"
++ "LastShownDate:BWFigVideoCaptureDevice.m:25451"
++ "LastShownDate:BWFigVideoCaptureDevice.m:25808"
++ "LastShownDate:BWFigVideoCaptureDevice.m:6249"
++ "LastShownDate:BWFigVideoCaptureDevice.m:7946"
++ "LastShownDate:BWFigVideoCaptureDevice.m:7955"
++ "LastShownDate:BWFigVideoCaptureDevice.m:9038"
++ "LastShownDate:BWFigVideoCaptureDevice.m:9039"
++ "LastShownDate:BWFigVideoCaptureDevice.m:9058"
++ "LastShownDate:BWFigVideoCaptureDevice.m:9073"
++ "LastShownDate:BWFigVideoCaptureDevice.m:9348"
++ "LastShownDate:BWFigVideoCaptureStream.m:3950"
++ "LastShownDate:BWFigVideoCaptureStream.m:4370"
++ "LastShownDate:BWFileCoordinatorNode.m:1360"
++ "LastShownDate:BWFileCoordinatorNode.m:478"
++ "LastShownDate:BWGlobalTextureStyleRenderer.m:195"
++ "LastShownDate:BWGlowTextureStyleRenderer.m:202"
++ "LastShownDate:BWGraph.m:2684"
++ "LastShownDate:BWGraph.m:3594"
++ "LastShownDate:BWGraph.m:3597"
++ "LastShownDate:BWGraph.m:3610"
++ "LastShownDate:BWGraph.m:3613"
++ "LastShownDate:BWGraph.m:3616"
++ "LastShownDate:BWHVSScoringNode.m:1205"
++ "LastShownDate:BWHVSScoringNode.m:2906"
++ "LastShownDate:BWHVSScoringNode.m:2911"
++ "LastShownDate:BWHVSScoringNode.m:2914"
++ "LastShownDate:BWHVSScoringNode.m:2983"
++ "LastShownDate:BWHVSScoringNode.m:3503"
++ "LastShownDate:BWImageQueueSinkNode.m:1150"
++ "LastShownDate:BWImageQueueSinkNode.m:2096"
++ "LastShownDate:BWImageQueueSinkNode.m:341"
++ "LastShownDate:BWMultiStreamCameraSourceNode.m:13942"
++ "LastShownDate:BWMultiStreamCameraSourceNode.m:13958"
++ "LastShownDate:BWMultiStreamCameraSourceNode.m:2789"
++ "LastShownDate:BWMultiStreamCameraSourceNode.m:4515"
++ "LastShownDate:BWMultiStreamCameraSourceNode.m:4522"
++ "LastShownDate:BWMultiStreamCameraSourceNode.m:4529"
++ "LastShownDate:BWNodeConnection.m:284"
++ "LastShownDate:BWNodeConnection.m:295"
++ "LastShownDate:BWNodeConnection.m:308"
++ "LastShownDate:BWNodeConnection.m:325"
++ "LastShownDate:BWNodeConnection.m:382"
++ "LastShownDate:BWNodeConnection.m:428"
++ "LastShownDate:BWNodeConnection.m:485"
++ "LastShownDate:BWPhotoEncoderController.m:1311"
++ "LastShownDate:BWPhotoEncoderController.m:1314"
++ "LastShownDate:BWPhotoEncoderController.m:1705"
++ "LastShownDate:BWPhotoEncoderController.m:1710"
++ "LastShownDate:BWPhotoEncoderController.m:1958"
++ "LastShownDate:BWPhotoEncoderController.m:2097"
++ "LastShownDate:BWPhotoEncoderController.m:2113"
++ "LastShownDate:BWPhotoEncoderController.m:2123"
++ "LastShownDate:BWPhotoEncoderController.m:3287"
++ "LastShownDate:BWPhotoEncoderController.m:4672"
++ "LastShownDate:BWPhotoEncoderController.m:6435"
++ "LastShownDate:BWPixelBufferTransferRenderer.m:645"
++ "LastShownDate:BWPreviewStitcherNode.m:3432"
++ "LastShownDate:BWSkinTextureStyleRenderer.m:215"
++ "LastShownDate:BWStillImageCoordinatorNode.m:1480"
++ "LastShownDate:BWStillImageCoordinatorNode.m:1487"
++ "LastShownDate:BWStillImageCoordinatorNode.m:1557"
++ "LastShownDate:BWStillImageCoordinatorNode.m:1663"
++ "LastShownDate:BWStillImageCoordinatorNode.m:1674"
++ "LastShownDate:BWStillImageCoordinatorNode.m:2320"
++ "LastShownDate:BWStillImageCoordinatorNode.m:3975"
++ "LastShownDate:BWStillImageMetadataUtilities.m:1002"
++ "LastShownDate:BWStillImageMetadataUtilities.m:1008"
++ "LastShownDate:BWStillImageMetadataUtilities.m:1020"
++ "LastShownDate:BWStillImageMetadataUtilities.m:134"
++ "LastShownDate:BWStillImageMetadataUtilities.m:2345"
++ "LastShownDate:BWStillImageMetadataUtilities.m:2352"
++ "LastShownDate:BWStillImageMetadataUtilities.m:2358"
++ "LastShownDate:BWStillImageMetadataUtilities.m:2381"
++ "LastShownDate:BWStillImageMetadataUtilities.m:2569"
++ "LastShownDate:BWStillImageMetadataUtilities.m:3181"
++ "LastShownDate:BWStillImageMetadataUtilities.m:3211"
++ "LastShownDate:BWStillImageMetadataUtilities.m:670"
++ "LastShownDate:BWStillImageMetadataUtilities.m:888"
++ "LastShownDate:BWTextureStyleTuning.m:262"
++ "LastShownDate:BWUtilities.m:1084"
++ "LastShownDate:CMCaptureLocalSessionController.m:907"
++ "LastShownDate:FigCaptureMetadataUtilities.m:1546"
++ "LastShownDate:FigCaptureMetadataUtilities.m:6327"
++ "LastShownDate:FigCaptureSession.m:1018"
++ "LastShownDate:FigCaptureSession.m:11394"
++ "LastShownDate:FigCaptureSession.m:11589"
++ "LastShownDate:FigCaptureSession.m:19395"
++ "LastShownDate:FigCaptureSession.m:20960"
++ "LastShownDate:FigCaptureSession.m:20963"
++ "LastShownDate:FigCaptureSession.m:26340"
++ "LastShownDate:FigCaptureSession.m:26353"
++ "LastShownDate:FigCaptureSession.m:29436"
++ "LastShownDate:FigCaptureSession.m:5225"
++ "LastShownDate:FigCaptureSession.m:9293"
++ "LastShownDate:FigCaptureSession.m:9299"
++ "LastShownDate:FigCaptureSession.m:9302"
++ "LastShownDate:FigCaptureSession.m:9305"
++ "LastShownDate:FigCaptureSession.m:9308"
++ "LastShownDate:FigCaptureSession.m:9319"
++ "LastShownDate:FigCaptureSession.m:9322"
++ "LastShownDate:FigCaptureSession.m:9330"
++ "LastShownDate:FigCaptureSession.m:9393"
++ "LastShownDate:FigCaptureSession.m:9397"
++ "LastShownDate:FigCaptureSession.m:9421"
++ "LastShownDate:FigCaptureSession.m:9436"
++ "LastShownDate:FigCaptureSession.m:9440"
++ "LastShownDate:FigCaptureSession.m:9443"
++ "LastShownDate:FigCaptureSession.m:9567"
++ "LastShownDate:FigCaptureSession.m:9573"
++ "LastShownDate:FigCaptureSession.m:9599"
++ "LastShownDate:FigCaptureSession.m:9611"
++ "LastShownDate:FigCaptureSessionPipelines.m:718"
++ "LastShownDate:FigCaptureSourceBackingsProvider.m:2735"
++ "LastShownDate:FigSampleBufferProcessor_Autofocus.m:937"
++ "LightSourceEstimation"
++ "Locked"
++ "MFSN"
++ "MachThreadPriorityForThreadEmittingFrames"
++ "ModuleSealedState"
++ "Oct  8 2026"
++ "Outer"
++ "Outer Ultra Wide Camera"
++ "Outer Wide Camera"
++ "PersonalPhotographerDuplicateInfo"
++ "Slow camera launch: %d ms (> %d)"
++ "Slow camera mode switch: %d ms (> %d)"
++ "SoftISPCalibrationConfiguration"
++ "Spot"
++ "StreamingCorrectionSupported"
++ "StreamingDetectionSupported"
++ "SupportedMetadataIdentifiersForPerceptionThumbnailChannel"
++ "Unknown <%d>"
++ "VCD%d-%d"
++ "Zero Shutter Lag misconfiguration: The minimum required valid count is '%d'"
++ "[Texture Styles] presetTuningParameters is nil in BWBaselineTextureStyleRenderer"
++ "[Texture Styles] presetTuningParameters is nil in BWGlobalTextureStyleRenderer"
++ "[Texture Styles] presetTuningParameters is nil in BWGlowTextureStyleRenderer"
++ "[Texture Styles] presetTuningParameters is nil in BWSkinTextureStyleRenderer"
++ "_started"
++ "activePipelineDimensionsHeight"
++ "activePipelineDimensionsWidth"
++ "additionalContentRotationDegrees"
++ "additionalContentRotationDegrees (%d -> %d)"
++ "af_sbp_setPropertiesForStreams"
++ "applyWhiteBalance"
++ "bwexposureanalyticsmonitor_trace"
++ "bwfocussegmentationmaskconverternode_trace"
++ "bwfocustrackedobjectutilities_trace"
++ "bwmscsn_printMetadataPayload"
++ "captureSession_updateInflightConfigurationWithVideoConnectionPropertyForKey"
++ "captureSource_migrateDefaultsFromOldAppBundleIDToNewAppBundleID"
++ "clearing aperture lock mitigation exposure configuration failed"
++ "com.apple.ClockFacePosters.DimensionalAnalogPosterExtension"
++ "com.apple.TelephonyUtilities"
++ "com.apple.VoiceOverTouch"
++ "com.apple.coremedia.bwringlightcontroller.brightnessobserver"
++ "com.apple.coremedia.deferred.containermanager.flush.reduced-priority"
++ "com.apple.fatool"
++ "com.apple.homepodsensed"
++ "com.apple.perceptiond"
++ "com.google.paisa"
++ "cross-context"
++ "description=CameraCapture-764.41.11"
++ "deviceProximityDetection"
++ "deviceProximityDetectionDeviceTypes"
++ "deviceProximityDetectionSupported"
++ "deviceProximityDetectionTargetFrameRate"
++ "deviceProximityDetectionTargetFrameRate (%g -> %g)"
++ "did not transition to recording after %d seconds"
++ "doLockFocusNow"
++ "duplicateInfo"
++ "durationAperturePlusShutterPriorityExposure"
++ "durationAperturePriorityExposure"
++ "durationFullAutoExposure"
++ "durationFullManualExposure"
++ "durationShutterPriorityExposure"
++ "durationVariableApertureCamera"
++ "exposure_trace"
++ "focus_trace"
++ "global/continuitycapture/enabled-on-mac"
++ "interfaceOrientation: %@"
++ "ispMetadataDictionary != ((void *)0)"
++ "lightSourceEstimation"
++ "lightSourceEstimationAmbientLuminance"
++ "lightSourceEstimationAmbientLuminance (%u -> %u)"
++ "lightSourceEstimationTargetFrameRate"
++ "lightSourceEstimationTargetFrameRate (%g -> %g)"
++ "lite_shareddata"
++ "lockAEnow"
++ "lowLightVideoNoiseReductionApplied"
++ "lowLightVideoNoiseReductionAppliedChangedCount"
++ "lowLightVideoNoiseReductionAppliedDurationPercentage"
++ "max_duplicates_removed_per_promotion"
++ "metadataIdentifiersForPerceptionThumbnailChannel"
++ "perceptionTestModeEnabled"
++ "perceptionTestModeEnabled (%d -> %d)"
++ "perceptionThumbnailChannelSupported"
++ "pixelBufferTransferRenderer"
++ "same-context"
++ "segmentFocusTrackingEnabled"
++ "segmentFocusTrackingFocusBias"
++ "segmentFocusTrackingMaskConfidence"
++ "segmentFocusTrackingObjectID"
++ "segmentFocusTrackingTotalPoints"
++ "segmentFocusTrackingValidCoverage"
++ "setting aperture lock mitigation exposure configuration failed"
++ "signal/ringlight-request-onboarding-tip"
++ "skipIfTailspinUnavailable"
++ "targetFNumber != 0"
++ "tonemapping_trace"
++ "tracked_faces"
++ "unlockAEnow"
++ "variableApertureCameraApertureBucket%d"
++ "|___ fsbp_Autofocus ___| %s: Error %d for stream %{public}@ setting property %{public}@ = %{public}@"
++ "|___ fsbp_IC_Exposure ___| %s: Clearing exposure configuration before the stream starts: %@"
++ "|___ fsbp_IC_Exposure ___| %s: Locking auto exposure"
++ "|___ fsbp_IC_Exposure ___| %s: Setting custom exposure configuration to %{public}@"
++ "|___ fsbp_IC_Exposure ___| %s: Setting exposure bias to %{public}@ (%.2f EV)"
++ "|___ fsbp_IC_Exposure ___| %s: Submitting now: %@"
++ "|___ fsbp_IC_Exposure ___| %s: Unlocking auto exposure"
++ "|___ fsbp_IC_Focus ___| %s: Locking auto focus"
++ "|___ fsbp_IC_Focus ___| %s: Setting manual focus to %{public}@"
++ "|___ fsbp_IC_ToneMapping ___| %s: Locking auto white balance"
++ "|___ fsbp_IC_ToneMapping ___| %s: Setting manual white balance gains to %{public}@"
++ "|___ fsbp_IC_ToneMapping ___| %s: Unlocking auto white balance"
++ "\xf0\xf0\xf0\xf01"
++ "\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0a\xf0\xf0\x81"
+- "%@ %p: captureID:%lld '%.4s'('%.4s')%@ %dx%d R:%d%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@"
+- "*maximumSimulatedAperture > 0.0f"
+- "*minimumSimulatedAperture > 0.0f"
+- ", E:%d, VIS:%d,%d, M:%d,%@ R:%d, DOC:%d, RBC:%d, CIM:%d"
+- "-[BWFigVideoCaptureDevice _setAutoImageControlMode:completionHandler:]"
+- "-[BWGraph startLiveExtensionSourceNodes]"
+- "-[BWGraph stopLiveExtensionSourceNodes]"
+- "-[FigCaptureSourceManager activateVideoSources:activationOptions:clientApplicationID:tccIdentity:mediaEnvironment:captureDevicesByID:stereoVideoCaptureEnabled:multiCamClientCompositingEnabled:rebuildingGraphForTrueVideoTransition:devicesOut:]"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/CameraCapture/CMCapture/Sources/Graph/Base/BWInvalidFramesChecker.m"
+- "0 == (effectiveVersion >> 16 )"
+- "16:27:22"
+- "<<<< BWBravoStreamSelector >>>> %s: Preferred master stream changing from %@ to %@."
+- "<<<< BWBravoStreamSelector >>>> %s: Recommended stream selection reason changed from %d to %d for %@."
+- "<<<< BWBravoStreamSelector >>>> %s: Recommending stream switch from %@ to %@ based on reason %d."
+- "<<<< BWBroadcastVideoSinkNode >>>> %s: Posted video settings did change notification to delegate"
+- "<<<< BWFigVideoCaptureDevice >>>> %s: %@ -> %@: %@: LTM curve:%d, minimumFrameRate:%.3f, maximumFrameRate:%.3f, aeMaxGain:%.3f. Low Light Video AE Table:%d. Time-lapse: AE table:%d, update:%d, config:%@, aeStability:%@"
+- "<<<< BWFigVideoCaptureDevice >>>> %s: %@, Capture: %@ (%@). Coarse Scan In Progress: %@. Focusing Method: %@. Exceeded Timeout: %@ (%d / %d)"
+- "<<<< BWFigVideoCaptureDevice >>>> %s: Changed image control mode %d -> %d. Streaming intent %@ (needs update:%d)"
+- "<<<< BWFigVideoCaptureDevice >>>> %s: Creating sensor raw buffer pool[%@] with a capacity of %d (retained:%d + stream:%d (retained:%d))"
+- "<<<< BWFigVideoCaptureDevice >>>> %s: Digital Flash sphere offsets. Frame count '%d', step in pixels '%d' and microns '%.3f', offsets (%d):%@"
+- "<<<< BWFigVideoCaptureDevice >>>> %s: Firmware time machine for portType '%@' suspended with PTS range; from %.5fs to %.5fs"
+- "<<<< BWFigVideoCaptureDevice >>>> %s: For capture stream %{public}@, set TW configuration to %{public}@"
+- "<<<< BWFigVideoCaptureDevice >>>> %s: For capture stream %{public}@, set TW configuration to OFF %{public}@"
+- "<<<< BWFigVideoCaptureDevice >>>> %s: For capture stream %{public}@, set TW recording in progress to false"
+- "<<<< BWFigVideoCaptureDevice >>>> %s: Got shading FPN correction image '%@' for port type '%@'%@"
+- "<<<< BWFigVideoCaptureDevice >>>> %s: Locked streams to %@, %@ for over capture camera fallback from %@"
+- "<<<< BWFigVideoCaptureDevice >>>> %s: Nondisruptive switch-over complete: %@"
+- "<<<< BWFigVideoCaptureDevice >>>> %s: Nondisruptive switch-over in progress: %@"
+- "<<<< BWFigVideoCaptureDevice >>>> %s: Overriding streaming image intent from %@ to %@"
+- "<<<< BWFigVideoCaptureDevice >>>> %s: Reporting streaming session analytics data for device %@ with total running time %.2f seconds"
+- "<<<< BWFigVideoCaptureDevice >>>> %s: Restoring streaming image intent to %@ before device start"
+- "<<<< BWFigVideoCaptureDevice >>>> %s: Reverting streaming image intent to %@ after device stop"
+- "<<<< BWFigVideoCaptureDevice >>>> %s: Secondary firmware time machine for '%@' suspended with PTS range; from %.5fs to %.5fs"
+- "<<<< BWFigVideoCaptureDevice >>>> %s: Set TW recording in progress to false"
+- "<<<< BWFigVideoCaptureDevice >>>> %s: Set TW recording in progress to true"
+- "<<<< BWFigVideoCaptureDevice >>>> %s: Set device ZSL/UHR properties for active Omaha constituent (portType %@) : zeroShutterLagEnabled=%d zeroShutterLagTimeMachineBufferCapacity=%d ultraHighResolutionZeroShutterLagSupportEnabled=%d autoFullFullUltraHighResolutionZeroShutterLagEnabled=%d ultraHighResolutionZeroShutterLagEnabled=%d"
+- "<<<< BWFigVideoCaptureDevice >>>> %s: Speed over quality capture is not a Zero Shutter Lag capture. Changing capture type to %@ from %@"
+- "<<<< BWFigVideoCaptureDevice >>>> %s: Speed over quality capture. Changing capture type to %@ from %@"
+- "<<<< BWFigVideoCaptureDevice >>>> %s: Stopping streaming with moment video recording intent, global tone mapping enabled '%d' and streaming digital flash mode '%d', setting next streaming instent to %@"
+- "<<<< BWFigVideoCaptureDevice >>>> %s: Time machine frames metadata invalid: Count mismatch. Got:%ld. Expected:%ld"
+- "<<<< BWFigVideoCaptureDevice >>>> %s: Time machine frames metadata invalid: Manual exposure is not supported%@"
+- "<<<< BWFigVideoCaptureDevice >>>> %s: Time machine frames metadata invalid: Missing metadata for secondary stream with port type '%@'"
+- "<<<< BWFigVideoCaptureDevice >>>> %s: Time machine frames metadata invalid: Port type '%@' of time machine frame doesn't match primary port type '%@'"
+- "<<<< BWFigVideoCaptureDevice >>>> %s: Time machine frames metadata invalid: SIFR skipped mismatch (primary:%d, secondary:%d) metadata for secondary stream with port type '%@'"
+- "<<<< BWFigVideoCaptureDevice >>>> %s: Updating SmartFramingFieldOfView to ( %@ )"
+- "<<<< BWFigVideoCaptureDevice >>>> %s: Variable frame rate video is enabled for portTypes %@."
+- "<<<< BWFigVideoCaptureDevice >>>> %s: [%@] Inconsistent nondisruptive switching command ID, metadata ID %d is greater than active ID %d"
+- "<<<< BWFigVideoCaptureDevice >>>> %s: [%@] Updating sensor raw buffer pool[%@] capacity from %zu --> %d (retained:%d + stream:%d)"
+- "<<<< BWFigVideoCaptureStream >>>> %s: Camera capture thermal mitigation: %@: updating framerates for thermal level %d:  thermal limited framerate changing from %.4lf to %.4lf, client set min %.4lf, client set max %.4lf, current min %.4lf, current max %.4lf, limited min %.4lf (update needed %c), limited max %.4lf (update needed %c)"
+- "<<<< BWFigVideoCaptureStream >>>> %s: Failed to set kFigCaptureStreamProperty_NondisruptiveSwitchingFormatIndex to %@ with ID:%d (err=%d)"
+- "<<<< BWFigVideoCaptureStream >>>> %s: [%@] Capturing still image from Core Media Time Machine for captureID:%lld"
+- "<<<< BWFigVideoCaptureStream >>>> %s: [%@] Nondisruptive switching format set to %@ with ID:%d, previous %d, minFrameRate %d, maxFrameRate %d, maximumAllowedFrameRate %d, isSecondary %d, secureSigningMode %d (%d), format %@"
+- "<<<< BWFigVideoCaptureSynchronizedStreamsGroup >>>> %s: Setting primary stream to '%@'. Secondary stream configuration: %@"
+- "<<<< BWGraph >>>> %s: <%p> Sink node <%p, %@, %{public}@> is %{public}@ despite all inputs being %{public}@, preventing graph stop completion"
+- "<<<< BWRingLightController >>>> %s: ringlight init: s:%d, e:%d, a:%d, b:%f, snf:%f, w:%f, c:%f, ace:%d, rc:%f, as:%d, m:%lu, os:%lu, osc:%i, optt:%@"
+- "<<<< BWStillImageCoordinatorNode >>>> %s: Active Omaha constituent device type has changed from '%{public}@' to '%{public}@' for captureID:%{public}lld with capture device %{public}@ primary capture stream %{public}@"
+- "<<<< BWStillImageCoordinatorNode >>>> %s: Got %{public}d still image request(s) while inactive. Servicing now"
+- "<<<< CMCaptureLocalSessionController >>>> %s: %@ Error creating a new video capture session %d"
+- "<<<< CMCaptureLocalSessionController >>>> %s: %{public}@ Unable to lock capture source. Error %d"
+- "<<<< FigCaptureRadarUtils >>>> %s: Skipping Tap-to-Radar prompt because a debugger is attached or a slow allocation path is enabled."
+- "<<<< FigCaptureRadarUtils >>>> %s: Skipping Tap-to-Radar prompt because the current process is xctest."
+- "<<<< FigCaptureSession >>>> %s: %{public}@ Set irisMovieInfo for iris recording request captureID:%lld in pending queue. Current index: %d in queue. Request: %@"
+- "<<<< FigCaptureSession >>>> %s: %{public}@ Unexpectedly starting an iris recording without a prior pendingIrisRecordingRequest. Added pending iris recording in queue captureID:%lld"
+- "AdjustGamma"
+- "Aug  8 2026"
+- "Boston Ultra Wide Camera"
+- "Boston Wide Camera"
+- "Camera indicator light check blackened %d frames (%.3f seconds) at start of stream"
+- "Camera indicator light check blackened a total of %d frames after the first valid frame"
+- "Can't set max frame rate: because the frame rate is not in range (%d). Use -supportedFormats."
+- "Can't set min frame rate: because the frame rate is not in range (%d). Use -supportedFormats."
+- "ComputeGamma"
+- "FigCapturePleaseFileRadar"
+- "Input primary format has no requirements BWNodeInput %p node: %@"
+- "Invalid mediatype for node output %@"
+- "Invalid value for kFigCaptureStreamMetadata_ValidBufferRect"
+- "LastShownBuild:BWFigVideoCaptureDevice.m:10479"
+- "LastShownBuild:BWFigVideoCaptureDevice.m:11061"
+- "LastShownBuild:BWFigVideoCaptureDevice.m:11512"
+- "LastShownBuild:BWFigVideoCaptureDevice.m:11547"
+- "LastShownBuild:BWFigVideoCaptureDevice.m:11736"
+- "LastShownBuild:BWFigVideoCaptureDevice.m:11745"
+- "LastShownBuild:BWFigVideoCaptureDevice.m:11757"
+- "LastShownBuild:BWFigVideoCaptureDevice.m:11764"
+- "LastShownBuild:BWFigVideoCaptureDevice.m:11798"
+- "LastShownBuild:BWFigVideoCaptureDevice.m:11864"
+- "LastShownBuild:BWFigVideoCaptureDevice.m:12033"
+- "LastShownBuild:BWFigVideoCaptureDevice.m:12972"
+- "LastShownBuild:BWFigVideoCaptureDevice.m:16028"
+- "LastShownBuild:BWFigVideoCaptureDevice.m:18863"
+- "LastShownBuild:BWFigVideoCaptureDevice.m:19251"
+- "LastShownBuild:BWFigVideoCaptureDevice.m:20110"
+- "LastShownBuild:BWFigVideoCaptureDevice.m:2017"
+- "LastShownBuild:BWFigVideoCaptureDevice.m:20532"
+- "LastShownBuild:BWFigVideoCaptureDevice.m:20534"
+- "LastShownBuild:BWFigVideoCaptureDevice.m:20536"
+- "LastShownBuild:BWFigVideoCaptureDevice.m:22437"
+- "LastShownBuild:BWFigVideoCaptureDevice.m:23828"
+- "LastShownBuild:BWFigVideoCaptureDevice.m:23860"
+- "LastShownBuild:BWFigVideoCaptureDevice.m:24016"
+- "LastShownBuild:BWFigVideoCaptureDevice.m:24784"
+- "LastShownBuild:BWFigVideoCaptureDevice.m:25030"
+- "LastShownBuild:BWFigVideoCaptureDevice.m:25387"
+- "LastShownBuild:BWFigVideoCaptureDevice.m:6077"
+- "LastShownBuild:BWFigVideoCaptureDevice.m:7758"
+- "LastShownBuild:BWFigVideoCaptureDevice.m:7767"
+- "LastShownBuild:BWFigVideoCaptureDevice.m:8874"
+- "LastShownBuild:BWFigVideoCaptureDevice.m:8875"
+- "LastShownBuild:BWFigVideoCaptureDevice.m:8894"
+- "LastShownBuild:BWFigVideoCaptureDevice.m:8909"
+- "LastShownBuild:BWFigVideoCaptureDevice.m:9184"
+- "LastShownBuild:BWFigVideoCaptureDevice.m:9998"
+- "LastShownBuild:BWFigVideoCaptureStream.m:3895"
+- "LastShownBuild:BWFigVideoCaptureStream.m:4315"
+- "LastShownBuild:BWFileCoordinatorNode.m:1340"
+- "LastShownBuild:BWGraph.m:2691"
+- "LastShownBuild:BWGraph.m:3601"
+- "LastShownBuild:BWGraph.m:3604"
+- "LastShownBuild:BWGraph.m:3617"
+- "LastShownBuild:BWGraph.m:3620"
+- "LastShownBuild:BWGraph.m:3623"
+- "LastShownBuild:BWHVSScoringNode.m:1172"
+- "LastShownBuild:BWHVSScoringNode.m:2777"
+- "LastShownBuild:BWHVSScoringNode.m:2782"
+- "LastShownBuild:BWHVSScoringNode.m:2785"
+- "LastShownBuild:BWHVSScoringNode.m:2854"
+- "LastShownBuild:BWHVSScoringNode.m:3362"
+- "LastShownBuild:BWImageQueueSinkNode.m:1078"
+- "LastShownBuild:BWImageQueueSinkNode.m:286"
+- "LastShownBuild:BWInvalidFramesChecker.m:168"
+- "LastShownBuild:BWInvalidFramesChecker.m:420"
+- "LastShownBuild:BWInvalidFramesChecker.m:427"
+- "LastShownBuild:BWMultiStreamCameraSourceNode.m:13860"
+- "LastShownBuild:BWMultiStreamCameraSourceNode.m:2767"
+- "LastShownBuild:BWMultiStreamCameraSourceNode.m:4480"
+- "LastShownBuild:BWMultiStreamCameraSourceNode.m:4487"
+- "LastShownBuild:BWMultiStreamCameraSourceNode.m:4494"
+- "LastShownBuild:BWPhotoEncoderController.m:1307"
+- "LastShownBuild:BWPhotoEncoderController.m:1310"
+- "LastShownBuild:BWPhotoEncoderController.m:1701"
+- "LastShownBuild:BWPhotoEncoderController.m:1706"
+- "LastShownBuild:BWPhotoEncoderController.m:1954"
+- "LastShownBuild:BWPhotoEncoderController.m:2093"
+- "LastShownBuild:BWPhotoEncoderController.m:2109"
+- "LastShownBuild:BWPhotoEncoderController.m:2119"
+- "LastShownBuild:BWPhotoEncoderController.m:3279"
+- "LastShownBuild:BWPhotoEncoderController.m:4664"
+- "LastShownBuild:BWPhotoEncoderController.m:6427"
+- "LastShownBuild:BWPixelBufferTransferRenderer.m:642"
+- "LastShownBuild:BWPreviewStitcherNode.m:3395"
+- "LastShownBuild:BWStillImageCoordinatorNode.m:1465"
+- "LastShownBuild:BWStillImageCoordinatorNode.m:1472"
+- "LastShownBuild:BWStillImageCoordinatorNode.m:1542"
+- "LastShownBuild:BWStillImageCoordinatorNode.m:1648"
+- "LastShownBuild:BWStillImageCoordinatorNode.m:1659"
+- "LastShownBuild:BWStillImageCoordinatorNode.m:2296"
+- "LastShownBuild:BWStillImageCoordinatorNode.m:3879"
+- "LastShownBuild:BWStillImageMetadataUtilities.m:1004"
+- "LastShownBuild:BWStillImageMetadataUtilities.m:1016"
+- "LastShownBuild:BWStillImageMetadataUtilities.m:130"
+- "LastShownBuild:BWStillImageMetadataUtilities.m:2203"
+- "LastShownBuild:BWStillImageMetadataUtilities.m:2210"
+- "LastShownBuild:BWStillImageMetadataUtilities.m:2216"
+- "LastShownBuild:BWStillImageMetadataUtilities.m:2239"
+- "LastShownBuild:BWStillImageMetadataUtilities.m:2427"
+- "LastShownBuild:BWStillImageMetadataUtilities.m:3039"
+- "LastShownBuild:BWStillImageMetadataUtilities.m:3069"
+- "LastShownBuild:BWStillImageMetadataUtilities.m:666"
+- "LastShownBuild:BWStillImageMetadataUtilities.m:884"
+- "LastShownBuild:BWStillImageMetadataUtilities.m:998"
+- "LastShownBuild:BWTextureStyleTuning.m:256"
+- "LastShownBuild:BWUtilities.m:1065"
+- "LastShownBuild:CMCaptureLocalSessionController.m:888"
+- "LastShownBuild:FigCaptureMetadataUtilities.m:1547"
+- "LastShownBuild:FigCaptureMetadataUtilities.m:6285"
+- "LastShownBuild:FigCaptureSession.m:1007"
+- "LastShownBuild:FigCaptureSession.m:11039"
+- "LastShownBuild:FigCaptureSession.m:11234"
+- "LastShownBuild:FigCaptureSession.m:18876"
+- "LastShownBuild:FigCaptureSession.m:20425"
+- "LastShownBuild:FigCaptureSession.m:20428"
+- "LastShownBuild:FigCaptureSession.m:28801"
+- "LastShownBuild:FigCaptureSession.m:5105"
+- "LastShownBuild:FigCaptureSession.m:9074"
+- "LastShownBuild:FigCaptureSession.m:9080"
+- "LastShownBuild:FigCaptureSession.m:9083"
+- "LastShownBuild:FigCaptureSession.m:9086"
+- "LastShownBuild:FigCaptureSession.m:9089"
+- "LastShownBuild:FigCaptureSession.m:9100"
+- "LastShownBuild:FigCaptureSession.m:9103"
+- "LastShownBuild:FigCaptureSession.m:9111"
+- "LastShownBuild:FigCaptureSession.m:9129"
+- "LastShownBuild:FigCaptureSession.m:9174"
+- "LastShownBuild:FigCaptureSession.m:9178"
+- "LastShownBuild:FigCaptureSession.m:9202"
+- "LastShownBuild:FigCaptureSession.m:9217"
+- "LastShownBuild:FigCaptureSession.m:9221"
+- "LastShownBuild:FigCaptureSession.m:9224"
+- "LastShownBuild:FigCaptureSession.m:9354"
+- "LastShownBuild:FigCaptureSession.m:9380"
+- "LastShownBuild:FigCaptureSession.m:9392"
+- "LastShownBuild:FigCaptureSessionPipelines.m:711"
+- "LastShownBuild:FigCaptureSourceBackingsProvider.m:2732"
+- "LastShownBuild:FigSampleBufferProcessor_Autofocus.m:931"
+- "LastShownDate:BWFigVideoCaptureDevice.m:10479"
+- "LastShownDate:BWFigVideoCaptureDevice.m:11061"
+- "LastShownDate:BWFigVideoCaptureDevice.m:11512"
+- "LastShownDate:BWFigVideoCaptureDevice.m:11547"
+- "LastShownDate:BWFigVideoCaptureDevice.m:11736"
+- "LastShownDate:BWFigVideoCaptureDevice.m:11745"
+- "LastShownDate:BWFigVideoCaptureDevice.m:11757"
+- "LastShownDate:BWFigVideoCaptureDevice.m:11764"
+- "LastShownDate:BWFigVideoCaptureDevice.m:11798"
+- "LastShownDate:BWFigVideoCaptureDevice.m:11864"
+- "LastShownDate:BWFigVideoCaptureDevice.m:12033"
+- "LastShownDate:BWFigVideoCaptureDevice.m:12972"
+- "LastShownDate:BWFigVideoCaptureDevice.m:16028"
+- "LastShownDate:BWFigVideoCaptureDevice.m:18863"
+- "LastShownDate:BWFigVideoCaptureDevice.m:19251"
+- "LastShownDate:BWFigVideoCaptureDevice.m:20110"
+- "LastShownDate:BWFigVideoCaptureDevice.m:2017"
+- "LastShownDate:BWFigVideoCaptureDevice.m:20532"
+- "LastShownDate:BWFigVideoCaptureDevice.m:20534"
+- "LastShownDate:BWFigVideoCaptureDevice.m:20536"
+- "LastShownDate:BWFigVideoCaptureDevice.m:22437"
+- "LastShownDate:BWFigVideoCaptureDevice.m:23828"
+- "LastShownDate:BWFigVideoCaptureDevice.m:23860"
+- "LastShownDate:BWFigVideoCaptureDevice.m:24016"
+- "LastShownDate:BWFigVideoCaptureDevice.m:24784"
+- "LastShownDate:BWFigVideoCaptureDevice.m:25030"
+- "LastShownDate:BWFigVideoCaptureDevice.m:25387"
+- "LastShownDate:BWFigVideoCaptureDevice.m:6077"
+- "LastShownDate:BWFigVideoCaptureDevice.m:7758"
+- "LastShownDate:BWFigVideoCaptureDevice.m:7767"
+- "LastShownDate:BWFigVideoCaptureDevice.m:8874"
+- "LastShownDate:BWFigVideoCaptureDevice.m:8875"
+- "LastShownDate:BWFigVideoCaptureDevice.m:8894"
+- "LastShownDate:BWFigVideoCaptureDevice.m:8909"
+- "LastShownDate:BWFigVideoCaptureDevice.m:9184"
+- "LastShownDate:BWFigVideoCaptureDevice.m:9998"
+- "LastShownDate:BWFigVideoCaptureStream.m:3895"
+- "LastShownDate:BWFigVideoCaptureStream.m:4315"
+- "LastShownDate:BWFileCoordinatorNode.m:1340"
+- "LastShownDate:BWGraph.m:2691"
+- "LastShownDate:BWGraph.m:3601"
+- "LastShownDate:BWGraph.m:3604"
+- "LastShownDate:BWGraph.m:3617"
+- "LastShownDate:BWGraph.m:3620"
+- "LastShownDate:BWGraph.m:3623"
+- "LastShownDate:BWHVSScoringNode.m:1172"
+- "LastShownDate:BWHVSScoringNode.m:2777"
+- "LastShownDate:BWHVSScoringNode.m:2782"
+- "LastShownDate:BWHVSScoringNode.m:2785"
+- "LastShownDate:BWHVSScoringNode.m:2854"
+- "LastShownDate:BWHVSScoringNode.m:3362"
+- "LastShownDate:BWImageQueueSinkNode.m:1078"
+- "LastShownDate:BWImageQueueSinkNode.m:286"
+- "LastShownDate:BWInvalidFramesChecker.m:168"
+- "LastShownDate:BWInvalidFramesChecker.m:420"
+- "LastShownDate:BWInvalidFramesChecker.m:427"
+- "LastShownDate:BWMultiStreamCameraSourceNode.m:13860"
+- "LastShownDate:BWMultiStreamCameraSourceNode.m:2767"
+- "LastShownDate:BWMultiStreamCameraSourceNode.m:4480"
+- "LastShownDate:BWMultiStreamCameraSourceNode.m:4487"
+- "LastShownDate:BWMultiStreamCameraSourceNode.m:4494"
+- "LastShownDate:BWPhotoEncoderController.m:1307"
+- "LastShownDate:BWPhotoEncoderController.m:1310"
+- "LastShownDate:BWPhotoEncoderController.m:1701"
+- "LastShownDate:BWPhotoEncoderController.m:1706"
+- "LastShownDate:BWPhotoEncoderController.m:1954"
+- "LastShownDate:BWPhotoEncoderController.m:2093"
+- "LastShownDate:BWPhotoEncoderController.m:2109"
+- "LastShownDate:BWPhotoEncoderController.m:2119"
+- "LastShownDate:BWPhotoEncoderController.m:3279"
+- "LastShownDate:BWPhotoEncoderController.m:4664"
+- "LastShownDate:BWPhotoEncoderController.m:6427"
+- "LastShownDate:BWPixelBufferTransferRenderer.m:642"
+- "LastShownDate:BWPreviewStitcherNode.m:3395"
+- "LastShownDate:BWStillImageCoordinatorNode.m:1465"
+- "LastShownDate:BWStillImageCoordinatorNode.m:1472"
+- "LastShownDate:BWStillImageCoordinatorNode.m:1542"
+- "LastShownDate:BWStillImageCoordinatorNode.m:1648"
+- "LastShownDate:BWStillImageCoordinatorNode.m:1659"
+- "LastShownDate:BWStillImageCoordinatorNode.m:2296"
+- "LastShownDate:BWStillImageCoordinatorNode.m:3879"
+- "LastShownDate:BWStillImageMetadataUtilities.m:1004"
+- "LastShownDate:BWStillImageMetadataUtilities.m:1016"
+- "LastShownDate:BWStillImageMetadataUtilities.m:130"
+- "LastShownDate:BWStillImageMetadataUtilities.m:2203"
+- "LastShownDate:BWStillImageMetadataUtilities.m:2210"
+- "LastShownDate:BWStillImageMetadataUtilities.m:2216"
+- "LastShownDate:BWStillImageMetadataUtilities.m:2239"
+- "LastShownDate:BWStillImageMetadataUtilities.m:2427"
+- "LastShownDate:BWStillImageMetadataUtilities.m:3039"
+- "LastShownDate:BWStillImageMetadataUtilities.m:3069"
+- "LastShownDate:BWStillImageMetadataUtilities.m:666"
+- "LastShownDate:BWStillImageMetadataUtilities.m:884"
+- "LastShownDate:BWStillImageMetadataUtilities.m:998"
+- "LastShownDate:BWTextureStyleTuning.m:256"
+- "LastShownDate:BWUtilities.m:1065"
+- "LastShownDate:CMCaptureLocalSessionController.m:888"
+- "LastShownDate:FigCaptureMetadataUtilities.m:1547"
+- "LastShownDate:FigCaptureMetadataUtilities.m:6285"
+- "LastShownDate:FigCaptureSession.m:1007"
+- "LastShownDate:FigCaptureSession.m:11039"
+- "LastShownDate:FigCaptureSession.m:11234"
+- "LastShownDate:FigCaptureSession.m:18876"
+- "LastShownDate:FigCaptureSession.m:20425"
+- "LastShownDate:FigCaptureSession.m:20428"
+- "LastShownDate:FigCaptureSession.m:28801"
+- "LastShownDate:FigCaptureSession.m:5105"
+- "LastShownDate:FigCaptureSession.m:9074"
+- "LastShownDate:FigCaptureSession.m:9080"
+- "LastShownDate:FigCaptureSession.m:9083"
+- "LastShownDate:FigCaptureSession.m:9086"
+- "LastShownDate:FigCaptureSession.m:9089"
+- "LastShownDate:FigCaptureSession.m:9100"
+- "LastShownDate:FigCaptureSession.m:9103"
+- "LastShownDate:FigCaptureSession.m:9111"
+- "LastShownDate:FigCaptureSession.m:9129"
+- "LastShownDate:FigCaptureSession.m:9174"
+- "LastShownDate:FigCaptureSession.m:9178"
+- "LastShownDate:FigCaptureSession.m:9202"
+- "LastShownDate:FigCaptureSession.m:9217"
+- "LastShownDate:FigCaptureSession.m:9221"
+- "LastShownDate:FigCaptureSession.m:9224"
+- "LastShownDate:FigCaptureSession.m:9354"
+- "LastShownDate:FigCaptureSession.m:9380"
+- "LastShownDate:FigCaptureSession.m:9392"
+- "LastShownDate:FigCaptureSessionPipelines.m:711"
+- "LastShownDate:FigCaptureSourceBackingsProvider.m:2732"
+- "LastShownDate:FigSampleBufferProcessor_Autofocus.m:931"
+- "Maximum simulated aperture invalid."
+- "Minimum simulated aperture invalid."
+- "Missing output requirements for the primary format.  BWNodeOutput %p node: %@"
+- "No format for node output %@, this is required for outputs"
+- "No primary input requirements"
+- "Output primary format has no requirements BWNodeOutput %p node: %@"
+- "Passthrough outputs are supposed to have a non-nil format (since its the same as their upstream input's format).  BWNodeOutput %p node: %@ forAttachedMediaKey: %@"
+- "Reno Ultra Wide Camera"
+- "Reno Wide Camera"
+- "Semantic Masks Converter"
+- "SemanticMasksConverter"
+- "Stuck with invalid (blackened) frames for more than %.3f seconds"
+- "TwoY"
+- "Unsupported SDOFRendering parameters version"
+- "Unsupported version of SDOF; cannot re-use v4 struct."
+- "description=CameraCapture-764.21.3"
+- "global/videoeffects/ringlight-autocolorenabled"
+- "global/videoeffects/ringlight-bias"
+- "global/videoeffects/ringlight-recommendedcolor"
+- "maximumSimulatedAperture"
+- "mdta/com.apple.quicktime.cinematic-video.stabilization"
+- "minimumSimulatedAperture"
+- "minimumSimulatedAperture is NULL"
+- "not active"
+- "renderingParametersData.bytes"
+- "renderingParametersData.length == renderingParameters->header.size"
+- "renderingParametersData.length >= sizeof( FigDepthBlurEffectRenderingParametersHeader )"
+- "v16@?0@\"FigCaptureMagneticInterferenceMonitor\"8"
+- "\xf0\xf0\xf0\x81"
+- "\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0A\xf0\xf0q"
+```

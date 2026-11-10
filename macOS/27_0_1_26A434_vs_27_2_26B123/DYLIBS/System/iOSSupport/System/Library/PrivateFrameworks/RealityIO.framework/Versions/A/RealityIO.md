@@ -1,0 +1,72 @@
+## RealityIO
+
+> `/System/iOSSupport/System/Library/PrivateFrameworks/RealityIO.framework/Versions/A/RealityIO`
+
+```diff
+
+-235.0.6.0.0
+-  __TEXT.__text: 0xfd848
++235.40.2.0.0
++  __TEXT.__text: 0xfddbc
+   __TEXT.__objc_methlist: 0x29c
+   __TEXT.__const: 0xb060
+   __TEXT.__constg_swiftt: 0x41d8
+
+   __TEXT.__swift5_mpenum: 0x20
+   __TEXT.__swift5_protos: 0x118
+   __TEXT.__gcc_except_tab: 0xec
+-  __TEXT.__unwind_info: 0x3f10
++  __TEXT.__unwind_info: 0x3f28
+   __TEXT.__eh_frame: 0x2488
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+
+   __AUTH_CONST.__auth_ptr: 0x1108
+   __AUTH.__data: 0xf80
+   __DATA.__objc_ivar: 0x24
+-  __DATA.__data: 0x25b0
++  __DATA.__data: 0x25e0
+   __DATA.__bss: 0xc720
+   __DATA.__common: 0x2e0
+   __DATA_DIRTY.__objc_data: 0x2d0
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 7462
+-  Symbols:   16655
++  Functions: 7467
++  Symbols:   16664
+   CStrings:  439
+ 
+Symbols:
++ _$s10RealityKit18SpotLightComponentV0A10Foundation028_ImplicitlyAnimatableBuiltinE0ADMc
++ _$s10RealityKit18SpotLightComponentVAC0A10Foundation028_ImplicitlyAnimatableBuiltinE0ADWL
++ _$s10RealityKit25DirectionalLightComponentV0A10Foundation028_ImplicitlyAnimatableBuiltinE0ADMc
++ _$s10RealityKit25DirectionalLightComponentVAC0A10Foundation028_ImplicitlyAnimatableBuiltinE0ADWL
++ _$s10RealityKit9TransformV0A10Foundation14AnimatableDataADMc
++ _$s10RealityKit9TransformVAC0A10Foundation14AnimatableDataADWL
++ _$s10RealityKit9TransformVAC0A10Foundation14AnimatableDataADWl
++ _$s17RealityFoundation20CustomComponentProxyV0A3Kit0D0AAMc
++ _$s17RealityFoundation20CustomComponentProxyVAC0A3Kit0D0AAWL
++ _$s17RealityFoundation20CustomComponentProxyVAC0A3Kit0D0AAWl
++ _$s17RealityFoundation23ModelSortGroupComponentV0A3Kit0F0AAMc
++ _$s17RealityFoundation23ModelSortGroupComponentVAC0A3Kit0F0AAWL
++ _$s17RealityFoundation23ModelSortGroupComponentVAC0A3Kit0F0AAWlTm
++ _$s17RealityFoundation25AnimationLibraryComponentV0A3Kit0E0AAMc
++ _$s17RealityFoundation25AnimationLibraryComponentVAC0A3Kit0E0AAWL
++ _$s17RealityFoundation25AnimationLibraryComponentVAC0A3Kit0E0AAWlTm
++ _$s9RealityIO7BuilderPAAE12addComponent9componentyqd___t0A3Kit0E0Rd__lFAA08TimelineC0C_0A10Foundation016AnimationLibraryE0VTg5Tm
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFySryADGzKXEfU_s15ContiguousArrayVy10RealityKit17AnimationResourceC04animI0_Si11trackNumbertG_Tg503$s9f62IO15TimelineBuilderC3run6inputsyAA6InputsC_tFyyXEfU_Sb0A3Kit17hi37C04animJ0_Si11trackNumbert_AjK_SiALttU3U2_Tf1nnc_n
++ _$ss13_UnsafeBitsetV027_withTemporaryUninitializedB09wordCount4bodyxSi_xABq_YKXEtq_YKs5ErrorR_r0_lFZxSryAB4WordVGq_YKXEfU_s17_NativeDictionaryVySo19REComponentClassPtraSo8RETypeIDaG_s5NeverOTg506$ss13_ab8V013withd36B08capacity4bodyxSi_xABq_YKXEtq_YKs5i9R_r0_lFZxw12_YKXEfU_s17_kl6VySo19mn7PtraSo8p7IDaG_s5R4OTG5ABq_xRi_zRi0_zRi__Ri0__r0_lyArPIsgyrzr_Tf1nc_n06$ss17_kl47V6filteryAByxq_GSbx3key_q_5valuet_tqd__YKXEqd__yi12Rd__lFADs13_ab16Vqd__YKXEfU_So19mn8Ptra_So8p5IDas5R4OTG5APxq_Sbq0_Ri_zRi0_zRi__Ri0__Ri_0_Ri0_0_r1_lyAmoRIsgnndzr_Tf1nc_n
+- _$s10RealityKit18SpotLightComponentV0A10Foundation028_ImplicitlyAnimatableBuiltinE0ADWP
+- _$s10RealityKit25DirectionalLightComponentV0A10Foundation028_ImplicitlyAnimatableBuiltinE0ADWP
+- _$s10RealityKit6EntityC15ChildCollectionVAESTAAWl
+- _$s10RealityKit9TransformV0A10Foundation14AnimatableDataADWP
+- _$s17RealityFoundation17AnimationFillModeVACs10SetAlgebraAAWlTm
+- _$s17RealityFoundation20CustomComponentProxyV0A3Kit0D0AAWP
+- _$s17RealityFoundation23ModelSortGroupComponentV0A3Kit0F0AAWP
+- _$s17RealityFoundation25AnimationLibraryComponentV0A3Kit0E0AAWP
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKF10RealityKit17AnimationResourceC04animH0_Si11trackNumbert_Tg503$s9e62IO15TimelineBuilderC3run6inputsyAA6InputsC_tFyyXEfU_Sb0A3Kit17gh37C04animJ0_Si11trackNumbert_AjK_SiALttT3U2_Tf1cn_n
+- _$ss13_UnsafeBitsetV027_withTemporaryUninitializedB09wordCount4bodyxSi_xABq_YKXEtq_YKs5ErrorR_r0_lFZxSryAB4WordVGq_YKXEfU_s17_NativeDictionaryVySo19REComponentClassPtraSo8RETypeIDaG_s5NeverOTg506$ss17_kl51V6filteryAByxq_GSbx3key_q_5valuet_tqd__YKXEqd__YKs5i12Rd__lFADs13_ab16Vqd__YKXEfU_So19mn8Ptra_So8p5IDas5R4OTG5APxq_Sbq0_Ri_zRi0_zRi__Ri0__Ri_0_Ri0_0_r1_lyAmoRIsgnndzr_Tf1nc_n
+```
