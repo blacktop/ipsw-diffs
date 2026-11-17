@@ -1,0 +1,174 @@
+## PhotosGenerativeServices
+
+> `/System/Library/PrivateFrameworks/PhotosGenerativeServices.framework/PhotosGenerativeServices`
+
+```diff
+
+-920.7.110.0.0
+-  __TEXT.__text: 0xbc598
++920.12.210.0.0
++  __TEXT.__text: 0xbfdc8
+   __TEXT.__objc_methlist: 0x10d4
+-  __TEXT.__const: 0x9950
+-  __TEXT.__swift5_typeref: 0x2c6a
+-  __TEXT.__cstring: 0x5ba5
+-  __TEXT.__swift5_reflstr: 0x1b68
+-  __TEXT.__swift5_assocty: 0xcc8
+-  __TEXT.__constg_swiftt: 0x26f8
+-  __TEXT.__swift5_fieldmd: 0x2c30
++  __TEXT.__const: 0x9ca0
++  __TEXT.__swift5_typeref: 0x2ccc
++  __TEXT.__cstring: 0x5dc5
++  __TEXT.__swift5_reflstr: 0x1c18
++  __TEXT.__swift5_assocty: 0xc78
++  __TEXT.__constg_swiftt: 0x2790
++  __TEXT.__swift5_fieldmd: 0x2d20
+   __TEXT.__swift5_builtin: 0x104
+-  __TEXT.__swift5_proto: 0x5dc
+-  __TEXT.__swift5_types: 0x38c
++  __TEXT.__swift5_proto: 0x624
++  __TEXT.__swift5_types: 0x398
+   __TEXT.__swift5_mpenum: 0x10
+   __TEXT.__swift5_capture: 0x76c
+   __TEXT.__oslogstring: 0x58e
+-  __TEXT.__swift_as_entry: 0x15c
+-  __TEXT.__swift_as_ret: 0x158
+-  __TEXT.__swift_as_cont: 0x324
++  __TEXT.__swift_as_entry: 0x160
++  __TEXT.__swift_as_ret: 0x15c
++  __TEXT.__swift_as_cont: 0x32c
+   __TEXT.__swift5_protos: 0x8
+-  __TEXT.__unwind_info: 0x3b88
+-  __TEXT.__eh_frame: 0x5fcc
++  __TEXT.__unwind_info: 0x3cd0
++  __TEXT.__eh_frame: 0x64cc
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x160
+-  __DATA_CONST.__objc_classlist: 0xf0
++  __DATA_CONST.__objc_classlist: 0xf8
+   __DATA_CONST.__objc_protolist: 0xa0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xe58
++  __DATA_CONST.__objc_selrefs: 0xe60
+   __DATA_CONST.__objc_protorefs: 0x50
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x5d98
+-  __AUTH_CONST.__objc_const: 0x2ed0
+-  __AUTH_CONST.__auth_got: 0x1760
+-  __AUTH.__data: 0x2180
+-  __DATA.__data: 0x1f58
++  __AUTH_CONST.__const: 0x5eb8
++  __AUTH_CONST.__objc_const: 0x2fc0
++  __AUTH_CONST.__auth_got: 0x1768
++  __AUTH.__data: 0x2218
++  __DATA.__data: 0x2030
+   __DATA.__common: 0x30
+   __DATA_DIRTY.__objc_data: 0x880
+-  __DATA_DIRTY.__data: 0x1a60
++  __DATA_DIRTY.__data: 0x1a80
+   __DATA_DIRTY.__bss: 0x300
+   __DATA_DIRTY.__common: 0x18
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 5819
+-  Symbols:   1816
+-  CStrings:  476
++  Functions: 5877
++  Symbols:   1852
++  CStrings:  493
+ 
+Symbols:
++ __DATA__TtCZFE24PhotosGenerativeServicesCSo8NSBundleg24photosGenerativeServicesS0_L_7Locator
++ __METACLASS_DATA__TtCZFE24PhotosGenerativeServicesCSo8NSBundleg24photosGenerativeServicesS0_L_7Locator
++ ___swift_get_extra_inhabitant_index.104Tm
++ ___swift_get_extra_inhabitant_index.119Tm
++ ___swift_get_extra_inhabitant_index.160Tm
++ ___swift_get_extra_inhabitant_index.167Tm
++ ___swift_store_extra_inhabitant_index.105Tm
++ ___swift_store_extra_inhabitant_index.120Tm
++ ___swift_store_extra_inhabitant_index.161Tm
++ ___swift_store_extra_inhabitant_index.168Tm
++ _associated conformance 24PhotosGenerativeServices17ReframeHomographyV0A9Rendering21ControlDataDigestibleAASH
++ _associated conformance 24PhotosGenerativeServices17ReframeHomographyV0A9Rendering23OpaqueDataRepresentableAaD07ControlhI0
++ _associated conformance 24PhotosGenerativeServices17ReframeHomographyV0A9Rendering24ControlDataRepresentableAASH
++ _associated conformance 24PhotosGenerativeServices17ReframeHomographyVSHAASQ
++ _associated conformance 24PhotosGenerativeServices17TileCropProcessorV0A9Rendering015CoreImageRenderF0AA9InterfaceAD17PipelineBuildableP_7OutputsAD0lK0PAD0hijF14OutputChannels
++ _associated conformance 24PhotosGenerativeServices17TileCropProcessorV9InterfaceV7OutputsV0A9Rendering015CoreImageRenderF14OutputChannelsAaH08PipelineN0
++ _associated conformance 24PhotosGenerativeServices20InpaintMaskProcessorV0A9Rendering015CoreImageRenderF0AA9InterfaceAD17PipelineBuildableP_7OutputsAD0lK0PAD0hijF14OutputChannels
++ _associated conformance 24PhotosGenerativeServices20InpaintMaskProcessorV9InterfaceV7OutputsV0A9Rendering015CoreImageRenderF14OutputChannelsAaH08PipelineN0
++ _associated conformance 24PhotosGenerativeServices20OutfillMaskProcessorV0A9Rendering015CoreImageRenderF0AA9InterfaceAD17PipelineBuildableP_7OutputsAD0lK0PAD0hijF14OutputChannels
++ _associated conformance 24PhotosGenerativeServices20OutfillMaskProcessorV9InterfaceV7OutputsV0A9Rendering015CoreImageRenderF14OutputChannelsAaH08PipelineN0
++ _associated conformance 24PhotosGenerativeServices21OutfillUVMapProcessorV0A9Rendering015CoreImageRenderF0AA9InterfaceAD17PipelineBuildableP_7OutputsAD0lK0PAD0hijF14OutputChannels
++ _associated conformance 24PhotosGenerativeServices21OutfillUVMapProcessorV9InterfaceV7OutputsV0A9Rendering015CoreImageRenderF14OutputChannelsAaH08PipelineN0
++ _associated conformance 24PhotosGenerativeServices21ReframeUVMapProcessorV0A9Rendering015CoreImageRenderF0AA9InterfaceAD17PipelineBuildableP_7OutputsAD0lK0PAD0hijF14OutputChannels
++ _associated conformance 24PhotosGenerativeServices21ReframeUVMapProcessorV9InterfaceV7OutputsV0A9Rendering015CoreImageRenderF14OutputChannelsAaH08PipelineN0
++ _associated conformance 24PhotosGenerativeServices22DivideGainMapProcessorV0A9Rendering015CoreImageRenderG0AA9InterfaceAD17PipelineBuildableP_7OutputsAD0mL0PAD0ijkG14OutputChannels
++ _associated conformance 24PhotosGenerativeServices22DivideGainMapProcessorV9InterfaceV7OutputsV0A9Rendering015CoreImageRenderG14OutputChannelsAaH08PipelineO0
++ _associated conformance 24PhotosGenerativeServices22TileCompositeProcessorV0A9Rendering015CoreImageRenderF0AA9InterfaceAD17PipelineBuildableP_7OutputsAD0lK0PAD0hijF14OutputChannels
++ _associated conformance 24PhotosGenerativeServices22TileCompositeProcessorV9InterfaceV7OutputsV0A9Rendering015CoreImageRenderF14OutputChannelsAaH08PipelineN0
++ _associated conformance 24PhotosGenerativeServices24MultiplyGainMapProcessorV0A9Rendering015CoreImageRenderG0AA9InterfaceAD17PipelineBuildableP_7OutputsAD0mL0PAD0ijkG14OutputChannels
++ _associated conformance 24PhotosGenerativeServices24MultiplyGainMapProcessorV9InterfaceV7OutputsV0A9Rendering015CoreImageRenderG14OutputChannelsAaH08PipelineO0
++ _associated conformance 24PhotosGenerativeServices25SeamlessBlendingProcessorV0A9Rendering015CoreImageRenderF0AA9InterfaceAD17PipelineBuildableP_7OutputsAD0lK0PAD0hijF14OutputChannels
++ _associated conformance 24PhotosGenerativeServices25SeamlessBlendingProcessorV9InterfaceV7OutputsV0A9Rendering015CoreImageRenderF14OutputChannelsAaH08PipelineN0
++ _associated conformance 24PhotosGenerativeServices26ReframeHomographyProcessorV0A9Rendering014GeneralComputeF0AA9InterfaceAD17PipelineBuildableP_7OutputsAD0kJ0PAD15ControlChannels
++ _associated conformance 24PhotosGenerativeServices26ReframeHomographyProcessorV9InterfaceV7OutputsV0A9Rendering15ControlChannelsAaH08PipelineK0
++ _associated conformance 24PhotosGenerativeServices26SignedMetadataSigningErrorOSHAASQ
++ _associated conformance 24PhotosGenerativeServices29ReframeGainMapSwitchProcessorV0A9Rendering015CoreImageRenderH0AA9InterfaceAD17PipelineBuildableP_7OutputsAD0nM0PAD0jklH14OutputChannels
++ _associated conformance 24PhotosGenerativeServices29ReframeGainMapSwitchProcessorV9InterfaceV7OutputsV0A9Rendering015CoreImageRenderH14OutputChannelsAaH08PipelineP0
++ _associated conformance 24PhotosGenerativeServices31ReframeHomographyImageProcessorV0A9Rendering04Coref6RenderG0AA9InterfaceAD17PipelineBuildableP_7OutputsAD0lK0PAD0ifjG14OutputChannels
++ _associated conformance 24PhotosGenerativeServices31ReframeHomographyImageProcessorV9InterfaceV7OutputsV0A9Rendering04Coref6RenderG14OutputChannelsAaH08PipelineN0
++ _symbolic $s15PhotosRendering23OpaqueDataRepresentableP
++ _symbolic So8NSBundleC
++ _symbolic _____ 24PhotosGenerativeServices21SignedMetadataSigningO
++ _symbolic _____ 24PhotosGenerativeServices26SignedMetadataSigningErrorO
++ _symbolic _____ So8NSBundleC24PhotosGenerativeServicesE06photoscD0ABvgZ7LocatorL_C
++ _symbolic ______p 15PhotosRendering14ControlChannelP
++ _symbolic ______p 15PhotosRendering15PipelineChannelP
++ _symbolic ______p 15PhotosRendering37CoreImageRenderProcessorOutputChannelP
++ _symbolic _____y_____G 15PhotosRendering10SourcePortV 0A18GenerativeServices17ReframeHomographyV
++ _symbolic _____y_____G 15PhotosRendering18OptionalDescriptorV AA07BooleanD0V
++ _symbolic _____y_____G 15PhotosRendering19OptionalMediaFormatV AA05ImagedE0V
++ _symbolic _____y_____G 15PhotosRendering20OpaqueDataDescriptorV 0A18GenerativeServices17ReframeHomographyV
++ _symbolic _____y_____G 15PhotosRendering24StructuredDataDescriptorV AA11RenderMediaV8GeometryV
+- _associated conformance 24PhotosGenerativeServices17ReframeHomographyV0A9Rendering17OpaqueControlDataAaD0hI13Representable
+- _associated conformance 24PhotosGenerativeServices26ReframeHomographyProcessorV0A9Rendering014GeneralComputeF0AA13ComputedValueAdEP_AD24ControlDataRepresentable
+- _symbolic $s15PhotosRendering17OpaqueControlDataP
+- _symbolic $s15PhotosRendering23GeneralComputeProcessorP
+- _symbolic _____ 15PhotosRendering13ControlFormatV
+- _symbolic ______p 15PhotosRendering10AnyChannelP
+- _symbolic _____ySbG 15PhotosRendering18OptionalDescriptorV
+- _symbolic _____y_____G 15PhotosRendering12ComputedDataV 0A18GenerativeServices17ReframeHomographyV
+- _symbolic _____y_____G 15PhotosRendering16OpaqueDescriptorV 0A18GenerativeServices17ReframeHomographyV
+- _symbolic _____y______pG 15PhotosRendering15DynamicChannelsV AA10AnyChannelP
+- _symbolic _____y_____y_____GG 15PhotosRendering10SourcePortV AA12ComputedDataV 0A18GenerativeServices17ReframeHomographyV
+- _symbolic _____y_____y_____GG 15PhotosRendering15DynamicChannelsV AA7ChannelV AA10ImageMediaO
+- _symbolic _____y_____y_____GG 15PhotosRendering7ChannelV AA12ComputedDataV 0A18GenerativeServices17ReframeHomographyV
+- _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 15PhotosRendering7ChannelV AC10ImageMediaO
+- _symbolic _____y_____y_____y_____GGG 15PhotosRendering15DynamicChannelsV AA7ChannelV AA12ComputedDataV 0A18GenerativeServices17ReframeHomographyV
+- _symbolic _____y_____y_____y_____GGG s23_ContiguousArrayStorageC 15PhotosRendering7ChannelV AC12ComputedDataV 0D18GenerativeServices17ReframeHomographyV
+CStrings:
++ ".DivideGainMapProcessor"
++ ".InpaintMaskProcessor"
++ ".MultiplyGainMapProcessor"
++ ".OutfillMaskProcessor"
++ ".OutfillUVMapProcessor"
++ ".ReframeGainMapSwitchProcessor"
++ ".ReframeHomographyImageProcessor"
++ ".ReframeHomographyProcessor"
++ ".ReframeUVMapProcessor"
++ ".SeamlessBlendingProcessor"
++ ".TileCompositeProcessor"
++ ".TileCropProcessor"
++ "CILinearGradient"
++ "CIMaximumCompositing"
++ "CIMultiplyCompositing"
++ "PGSOutfillMaskOverlap"
++ "ReframeHomography{"
+```

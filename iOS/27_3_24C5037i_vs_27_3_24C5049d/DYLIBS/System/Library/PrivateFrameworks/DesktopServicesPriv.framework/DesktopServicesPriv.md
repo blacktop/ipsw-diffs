@@ -1,0 +1,748 @@
+## DesktopServicesPriv
+
+> `/System/Library/PrivateFrameworks/DesktopServicesPriv.framework/DesktopServicesPriv`
+
+```diff
+
+-1857.2.6.0.0
+-  __TEXT.__text: 0x1a363c
+-  __TEXT.__objc_methlist: 0x4b6c
+-  __TEXT.__gcc_except_tab: 0x299d0
+-  __TEXT.__const: 0x9140
+-  __TEXT.__cstring: 0x6fb4
+-  __TEXT.__oslogstring: 0x91b8
++1857.2.10.0.0
++  __TEXT.__text: 0x1a79d8
++  __TEXT.__objc_methlist: 0x4bb4
++  __TEXT.__gcc_except_tab: 0x2a154
++  __TEXT.__const: 0x9150
++  __TEXT.__cstring: 0x7136
++  __TEXT.__oslogstring: 0x9440
+   __TEXT.__ustring: 0x24
+-  __TEXT.__unwind_info: 0xd658
++  __TEXT.__unwind_info: 0xd808
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_protolist: 0x90
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__weak_got: 0x10
+-  __DATA_CONST.__objc_selrefs: 0x2988
++  __DATA_CONST.__objc_selrefs: 0x29b0
+   __DATA_CONST.__objc_protorefs: 0x38
+   __DATA_CONST.__objc_superrefs: 0x1b8
+   __DATA_CONST.__objc_arraydata: 0x88
+-  __DATA_CONST.__got: 0xb68
+-  __AUTH_CONST.__const: 0x9898
+-  __AUTH_CONST.__cfstring: 0x3dc0
+-  __AUTH_CONST.__objc_const: 0x73f0
++  __DATA_CONST.__got: 0xb70
++  __AUTH_CONST.__const: 0x9958
++  __AUTH_CONST.__cfstring: 0x3ea0
++  __AUTH_CONST.__objc_const: 0x7400
+   __AUTH_CONST.__weak_auth_got: 0x28
+-  __AUTH_CONST.__objc_intobj: 0x138
++  __AUTH_CONST.__objc_intobj: 0x120
+   __AUTH_CONST.__objc_dictobj: 0x28
+   __AUTH_CONST.__objc_arrayobj: 0x30
+-  __AUTH_CONST.__auth_got: 0x1138
++  __AUTH_CONST.__auth_got: 0x1158
+   __AUTH.__objc_data: 0x1db0
+   __AUTH.__thread_vars: 0x30
+-  __AUTH.__thread_bss: 0x10
++  __AUTH.__thread_data: 0x10
++  __AUTH.__thread_bss: 0x8
+   __DATA.__objc_ivar: 0x418
+-  __DATA.__data: 0xcd0
++  __DATA.__data: 0xce0
+   __DATA.__common: 0x120
+   __DATA_DIRTY.__objc_data: 0x50
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/PrivateFrameworks/CacheDelete.framework/CacheDelete
+   - /System/Library/PrivateFrameworks/CloudDocs.framework/CloudDocs
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
++  - /System/Library/PrivateFrameworks/DiskArbitration.framework/DiskArbitration
+   - /System/Library/PrivateFrameworks/IconServices.framework/IconServices
+   - /System/Library/PrivateFrameworks/MetadataUtilities.framework/MetadataUtilities
+   - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
+
+   - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 7988
+-  Symbols:   12911
+-  CStrings:  1944
++  Functions: 8043
++  Symbols:   12992
++  CStrings:  1970
+ 
+Symbols:
++ -[FIMoveToTrashOperation progressItems]
++ -[FIMoveToTrashOperation progressNodes]
++ -[FIOperation progressItems]
++ -[FIOperation progressNodes]
++ GCC_except_table1002
++ GCC_except_table1003
++ GCC_except_table1004
++ GCC_except_table1005
++ GCC_except_table1011
++ GCC_except_table1027
++ GCC_except_table1035
++ GCC_except_table1036
++ GCC_except_table1037
++ GCC_except_table1038
++ GCC_except_table1053
++ GCC_except_table1057
++ GCC_except_table1058
++ GCC_except_table1059
++ GCC_except_table1060
++ GCC_except_table1061
++ GCC_except_table1063
++ GCC_except_table1064
++ GCC_except_table1065
++ GCC_except_table1088
++ GCC_except_table1089
++ GCC_except_table1090
++ GCC_except_table1091
++ GCC_except_table1092
++ GCC_except_table1093
++ GCC_except_table1098
++ GCC_except_table1108
++ GCC_except_table1113
++ GCC_except_table1118
++ GCC_except_table1119
++ GCC_except_table1125
++ GCC_except_table1129
++ GCC_except_table1137
++ GCC_except_table1141
++ GCC_except_table1145
++ GCC_except_table1147
++ GCC_except_table1148
++ GCC_except_table1157
++ GCC_except_table1178
++ GCC_except_table1180
++ GCC_except_table1181
++ GCC_except_table1182
++ GCC_except_table1183
++ GCC_except_table1186
++ GCC_except_table1190
++ GCC_except_table1201
++ GCC_except_table1202
++ GCC_except_table1203
++ GCC_except_table1208
++ GCC_except_table1209
++ GCC_except_table1210
++ GCC_except_table1211
++ GCC_except_table1212
++ GCC_except_table1213
++ GCC_except_table1214
++ GCC_except_table1219
++ GCC_except_table1220
++ GCC_except_table1221
++ GCC_except_table1231
++ GCC_except_table1238
++ GCC_except_table1239
++ GCC_except_table1242
++ GCC_except_table1269
++ GCC_except_table163
++ GCC_except_table214
++ GCC_except_table217
++ GCC_except_table225
++ GCC_except_table311
++ GCC_except_table319
++ GCC_except_table321
++ GCC_except_table336
++ GCC_except_table366
++ GCC_except_table381
++ GCC_except_table382
++ GCC_except_table422
++ GCC_except_table424
++ GCC_except_table427
++ GCC_except_table442
++ GCC_except_table459
++ GCC_except_table460
++ GCC_except_table462
++ GCC_except_table468
++ GCC_except_table470
++ GCC_except_table491
++ GCC_except_table499
++ GCC_except_table529
++ GCC_except_table530
++ GCC_except_table537
++ GCC_except_table545
++ GCC_except_table546
++ GCC_except_table548
++ GCC_except_table549
++ GCC_except_table550
++ GCC_except_table559
++ GCC_except_table561
++ GCC_except_table564
++ GCC_except_table565
++ GCC_except_table567
++ GCC_except_table570
++ GCC_except_table578
++ GCC_except_table579
++ GCC_except_table586
++ GCC_except_table608
++ GCC_except_table609
++ GCC_except_table618
++ GCC_except_table629
++ GCC_except_table630
++ GCC_except_table645
++ GCC_except_table655
++ GCC_except_table663
++ GCC_except_table664
++ GCC_except_table665
++ GCC_except_table671
++ GCC_except_table673
++ GCC_except_table674
++ GCC_except_table677
++ GCC_except_table684
++ GCC_except_table694
++ GCC_except_table714
++ GCC_except_table737
++ GCC_except_table738
++ GCC_except_table739
++ GCC_except_table740
++ GCC_except_table741
++ GCC_except_table743
++ GCC_except_table744
++ GCC_except_table746
++ GCC_except_table749
++ GCC_except_table762
++ GCC_except_table768
++ GCC_except_table771
++ GCC_except_table779
++ GCC_except_table789
++ GCC_except_table790
++ GCC_except_table795
++ GCC_except_table798
++ GCC_except_table805
++ GCC_except_table818
++ GCC_except_table823
++ GCC_except_table826
++ GCC_except_table828
++ GCC_except_table829
++ GCC_except_table830
++ GCC_except_table836
++ GCC_except_table855
++ GCC_except_table859
++ GCC_except_table861
++ GCC_except_table866
++ GCC_except_table874
++ GCC_except_table875
++ GCC_except_table880
++ GCC_except_table881
++ GCC_except_table890
++ GCC_except_table957
++ GCC_except_table965
++ GCC_except_table971
++ GCC_except_table986
++ GCC_except_table994
++ _DADiskGetBSDName
++ _NSURLVolumeURLKey
++ _PurgeSpaceIfNeeded
++ __CFVolumeObserverCreate
++ __CFVolumeObserverInvalidateWithCompletionHandler
++ __Z11Description3$_0
++ __Z13FormatDetailsIdJEENSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEERKNS0_17basic_string_viewIcS3_EERKT_DpRKT0_
++ __Z13FormatDetailsIdJU8__strongP16FPProviderDomainEENSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEERKNS3_17basic_string_viewIcS6_EERKT_DpRKT0_
++ __Z13FormatDetailsIyJ7TStringEENSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKNS1_17basic_string_viewIcS4_EERKT_DpRKT0_
++ __Z13HexFromBufferIhLb0EE7TStringPKT_m
++ __Z16FormatOneDetailsI3$_0ENSt3__14pairI15FormatOneResult11PrintFormatEERNS1_17basic_string_viewIcNS1_11char_traitsIcEEEERNS1_12basic_stringIcS8_NS1_9allocatorIcEEEERKT_
++ __Z16FormatOneDetailsIdENSt3__14pairI15FormatOneResult11PrintFormatEERNS0_17basic_string_viewIcNS0_11char_traitsIcEEEERNS0_12basic_stringIcS7_NS0_9allocatorIcEEEERKT_
++ __Z19kTStringLiteralDataIJLc107ELc67ELc70ELc86ELc111ELc108ELc117ELc109ELc101ELc79ELc98ELc115ELc101ELc114ELc118ELc101ELc114ELc69ELc118ELc101ELc110ELc116ELc123EEE
++ __Z19kTStringLiteralDataIJLc115ELc109ELc98EEE
++ __Z19kTStringLiteralDataIJLc125EEE
++ __Z19kTStringLiteralDataIJLc48ELc120EEE
++ __Z19kTStringLiteralDataIJLc60ELc110ELc111ELc110ELc101ELc62EEE
++ __Z19kTStringLiteralDataIJLc60ELc110ELc111ELc32ELc118ELc111ELc108ELc117ELc109ELc101ELc32ELc105ELc110ELc102ELc111ELc62EEE
++ __Z19kTStringLiteralDataIJLc78ELc111ELc116ELc104ELc105ELc110ELc103ELc72ELc97ELc112ELc112ELc101ELc110ELc101ELc100EEE
++ __ZGVZL22PathEligibleForSyncing7TStringE12allowedPaths
++ __ZGVZN12ROSPVolumeID12HomeVolumeIDEvE13sHomeVolumeID
++ __ZGVZN12ROSPVolumeID15GetMountNumbersEvE13sMountNumbers
++ __ZL12NodeVolumeIDRK8TNodePtr
++ __ZL22PathEligibleForSyncing7TString
++ __ZN12ROSPVolumeID11SetVolumeIDEPK8__CFData
++ __ZN12ROSPVolumeID12HomeVolumeIDEv
++ __ZN12ROSPVolumeID14MountNumberKeyEPK8__CFData
++ __ZN12ROSPVolumeID15GetMountNumbersEv
++ __ZN12ROSPVolumeID16VolumeDidUnmountERKS_
++ __ZN12ROSPVolumeIDC1EPK7__CFURL
++ __ZN12ROSPVolumeIDC2EPK7__CFURL
++ __ZN13TFSVolumeInfo19FlushPropertyStoresEv
++ __ZN14TPropertyValueC1IPK7__CFURLEERKT_
++ __ZN23TSystemNotificationTaskC2Ev
++ __ZN23TSystemNotificationTaskD2Ev
++ __ZN4TRefIP17_CFVolumeObserver20TRetainReleasePolicyIS1_EED2Ev
++ __ZN5TNode21AddVolumesToSuperRootEv
++ __ZN5TNode24CFVolumeObserverCallbackEP8__DADiskmPK7__CFURLPK10__CFString
++ __ZN7StDeferIZ38-[FIOperation waitForProgressToFinish]E3$_3ED1Ev
++ __ZN7StDeferIZZ41-[FIOperation handleCancelBeforeSchedule]ENK3$_1clEvEUlvE_ED1Ev
++ __ZN7StDeferIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_8clEP17FIOperationRecordEUlvE0_ED1Ev
++ __ZNK10TCFURLInfo7SetModeEt
++ __ZNK12ROSPVolumeID11DescriptionEv
++ __ZNK12ROSPVolumeID5ValidEv
++ __ZNK12ROSPVolumeIDeqERKS_
++ __ZNK5TNode16IsOnSystemVolumeEv
++ __ZNKSt3__110__function6__funcIZ29-[FIOperation createProgress]E3$_0FvvEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ29-[FIOperation createProgress]E3$_0FvvEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ29-[FIOperation createProgress]E3$_0FvvEE7__cloneEPNS0_6__baseIS3_EE
++ __ZNKSt3__110__function6__funcIZ29-[FIOperation createProgress]E3$_0FvvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ33-[DSFileProgress startObserving:]E3$_2FvvEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ33-[DSFileProgress startObserving:]E3$_2FvvEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ33-[DSFileProgress startObserving:]E3$_2FvvEE7__cloneEPNS0_6__baseIS3_EE
++ __ZNKSt3__110__function6__funcIZ33-[DSFileProgress startObserving:]E3$_2FvvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ38-[FIOperation waitForProgressToFinish]E3$_5FvvEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ38-[FIOperation waitForProgressToFinish]E3$_5FvvEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ38-[FIOperation waitForProgressToFinish]E3$_5FvvEE7__cloneEPNS0_6__baseIS3_EE
++ __ZNKSt3__110__function6__funcIZ38-[FIOperation waitForProgressToFinish]E3$_5FvvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_9FvP12NSDictionaryIP8NSStringP8NSObjectEEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_9FvP12NSDictionaryIP8NSStringP8NSObjectEEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_9FvP12NSDictionaryIP8NSStringP8NSObjectEEE7__cloneEPNS0_6__baseISA_EE
++ __ZNKSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_9FvP12NSDictionaryIP8NSStringP8NSObjectEEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_12FvvEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_12FvvEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_12FvvEE7__cloneEPNS0_6__baseIS3_EE
++ __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_12FvvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_20FvP12NSDictionaryIP8NSStringP8NSObjectEEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_20FvP12NSDictionaryIP8NSStringP8NSObjectEEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_20FvP12NSDictionaryIP8NSStringP8NSObjectEEE7__cloneEPNS0_6__baseISA_EE
++ __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_20FvP12NSDictionaryIP8NSStringP8NSObjectEEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_8clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EE11target_typeEv
++ __ZNKSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_8clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_8clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EE7__cloneEPNS0_6__baseIS9_EE
++ __ZNKSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_8clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EE7__cloneEv
++ __ZNKSt3__113__string_hashIcNS_9allocatorIcEEEclB9fqe220106ERKNS_12basic_stringIcNS_11char_traitsIcEES2_EE
++ __ZNKSt3__121__murmur2_or_cityhashImLm64EEclB9fqe220106EPKvm
++ __ZNKSt3__18equal_toINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB9fqe220106ERKS6_S9_
++ __ZNSt3__110__function6__funcIZ29-[FIOperation createProgress]E3$_0FvvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ29-[FIOperation createProgress]E3$_0FvvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ29-[FIOperation createProgress]E3$_0FvvEED0Ev
++ __ZNSt3__110__function6__funcIZ29-[FIOperation createProgress]E3$_0FvvEED1Ev
++ __ZNSt3__110__function6__funcIZ29-[FIOperation createProgress]E3$_0FvvEEclEv
++ __ZNSt3__110__function6__funcIZ33-[DSFileProgress startObserving:]E3$_2FvvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ33-[DSFileProgress startObserving:]E3$_2FvvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ33-[DSFileProgress startObserving:]E3$_2FvvEED0Ev
++ __ZNSt3__110__function6__funcIZ33-[DSFileProgress startObserving:]E3$_2FvvEED1Ev
++ __ZNSt3__110__function6__funcIZ33-[DSFileProgress startObserving:]E3$_2FvvEEclEv
++ __ZNSt3__110__function6__funcIZ38-[FIOperation waitForProgressToFinish]E3$_5FvvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ38-[FIOperation waitForProgressToFinish]E3$_5FvvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ38-[FIOperation waitForProgressToFinish]E3$_5FvvEED0Ev
++ __ZNSt3__110__function6__funcIZ38-[FIOperation waitForProgressToFinish]E3$_5FvvEED1Ev
++ __ZNSt3__110__function6__funcIZ38-[FIOperation waitForProgressToFinish]E3$_5FvvEEclEv
++ __ZNSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_9FvP12NSDictionaryIP8NSStringP8NSObjectEEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_9FvP12NSDictionaryIP8NSStringP8NSObjectEEE7destroyEv
++ __ZNSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_9FvP12NSDictionaryIP8NSStringP8NSObjectEEED0Ev
++ __ZNSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_9FvP12NSDictionaryIP8NSStringP8NSObjectEEED1Ev
++ __ZNSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_9FvP12NSDictionaryIP8NSStringP8NSObjectEEEclEOU8__strongS9_
++ __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_12FvvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_12FvvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_12FvvEED0Ev
++ __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_12FvvEED1Ev
++ __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_12FvvEEclEv
++ __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_20FvP12NSDictionaryIP8NSStringP8NSObjectEEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_20FvP12NSDictionaryIP8NSStringP8NSObjectEEE7destroyEv
++ __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_20FvP12NSDictionaryIP8NSStringP8NSObjectEEEC1B9fqe220106ERKS2_
++ __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_20FvP12NSDictionaryIP8NSStringP8NSObjectEEED0Ev
++ __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_20FvP12NSDictionaryIP8NSStringP8NSObjectEEED1Ev
++ __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_20FvP12NSDictionaryIP8NSStringP8NSObjectEEEclEOU8__strongS9_
++ __ZNSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_8clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_8clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EE7destroyEv
++ __ZNSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_8clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EED0Ev
++ __ZNSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_8clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EED1Ev
++ __ZNSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_8clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EEclES8_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEyEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_yEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE11__do_rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEyEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_yEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE4findIS7_EENS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEERKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEyEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_yEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE5eraseENS_21__hash_const_iteratorIPNS_11__hash_nodeIS8_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEyEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_yEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE6removeENS_21__hash_const_iteratorIPNS_11__hash_nodeIS8_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEyEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_yEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE8__rehashILb1EEEvm
++ __ZNSt3__116__if_likely_elseB9fqe220106IZNS_6vectorI12ROSPVolumeIDNS_9allocatorIS2_EEE12emplace_backIJS2_EEERS2_DpOT_EUlvE_ZNS6_IJS2_EEES7_SA_EUlvE0_EEvbT_T0_
++ __ZNSt3__121__murmur2_or_cityhashImLm64EE18__hash_len_0_to_16B9fqe220106EPKcm
++ __ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_17_to_32B9fqe220106EPKcm
++ __ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_33_to_64B9fqe220106EPKcm
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEyEEPvEEEEEclB9fqe220106EPSB_
++ __ZTINSt3__110__function6__funcIZ29-[FIOperation createProgress]E3$_0FvvEEE
++ __ZTINSt3__110__function6__funcIZ33-[DSFileProgress startObserving:]E3$_2FvvEEE
++ __ZTINSt3__110__function6__funcIZ38-[FIOperation waitForProgressToFinish]E3$_5FvvEEE
++ __ZTINSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_9FvP12NSDictionaryIP8NSStringP8NSObjectEEEE
++ __ZTINSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_12FvvEEE
++ __ZTINSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_20FvP12NSDictionaryIP8NSStringP8NSObjectEEEE
++ __ZTINSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_8clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EEE
++ __ZTIZ29-[FIOperation createProgress]E3$_0
++ __ZTIZ33-[DSFileProgress startObserving:]E3$_2
++ __ZTIZ38-[FIOperation waitForProgressToFinish]E3$_5
++ __ZTIZ45-[FIOperation startFractionCompletedObserver]E3$_9
++ __ZTIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_20
++ __ZTIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_8clEP17FIOperationRecordEUlT_E_
++ __ZTSNSt3__110__function6__funcIZ29-[FIOperation createProgress]E3$_0FvvEEE
++ __ZTSNSt3__110__function6__funcIZ33-[DSFileProgress startObserving:]E3$_2FvvEEE
++ __ZTSNSt3__110__function6__funcIZ38-[FIOperation waitForProgressToFinish]E3$_5FvvEEE
++ __ZTSNSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_9FvP12NSDictionaryIP8NSStringP8NSObjectEEEE
++ __ZTSNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_12FvvEEE
++ __ZTSNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_20FvP12NSDictionaryIP8NSStringP8NSObjectEEEE
++ __ZTSNSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_8clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EEE
++ __ZTSZ29-[FIOperation createProgress]E3$_0
++ __ZTSZ33-[DSFileProgress startObserving:]E3$_2
++ __ZTSZ38-[FIOperation waitForProgressToFinish]E3$_5
++ __ZTSZ45-[FIOperation startFractionCompletedObserver]E3$_9
++ __ZTSZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_20
++ __ZTSZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_8clEP17FIOperationRecordEUlT_E_
++ __ZTVNSt3__110__function6__funcIZ29-[FIOperation createProgress]E3$_0FvvEEE
++ __ZTVNSt3__110__function6__funcIZ33-[DSFileProgress startObserving:]E3$_2FvvEEE
++ __ZTVNSt3__110__function6__funcIZ38-[FIOperation waitForProgressToFinish]E3$_5FvvEEE
++ __ZTVNSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_9FvP12NSDictionaryIP8NSStringP8NSObjectEEEE
++ __ZTVNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_12FvvEEE
++ __ZTVNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_20FvP12NSDictionaryIP8NSStringP8NSObjectEEEE
++ __ZTVNSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_8clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EEE
++ __ZZ13HexFromBufferIhLb0EE7TStringPKT_mE4sHex
++ __ZZ34-[DSFileProgress progressChanged:]EN3$_4D1Ev
++ __ZZ52-[FIOperation registerChildProgress:subscribedNode:]EN4$_20D1Ev
++ __ZZL22PathEligibleForSyncing7TStringE12allowedPaths
++ __ZZN11TCopyWriter12CopyMetaDataERKNS_19TCopyMetaDataParamsEEN3$_2clEv
++ __ZZN12ROSPVolumeID12HomeVolumeIDEvE13sHomeVolumeID
++ __ZZN12ROSPVolumeID12HomeVolumeIDEvENK3$_0clEv
++ __ZZN12ROSPVolumeID15GetMountNumbersEvE13sMountNumbers
++ __ZZN5TNode24CFVolumeObserverCallbackEP8__DADiskmPK7__CFURLPK10__CFStringE14alreadyMounted
++ __ZZN5TNode24CFVolumeObserverCallbackEP8__DADiskmPK7__CFURLPK10__CFStringEN3$_1C1ERKS8_
++ __ZZN5TNode24CFVolumeObserverCallbackEP8__DADiskmPK7__CFURLPK10__CFStringENK3$_0clEv
++ ___PurgeSpaceIfNeeded_block_invoke
++ ____ZN23TSystemNotificationTaskC2Ev_block_invoke
++ ____ZN5TNode24CFVolumeObserverCallbackEP8__DADiskmPK7__CFURLPK10__CFString_block_invoke
++ ____ZZ34-[DSFileProgress progressChanged:]ENK3$_3cvU13block_pointerFvvEEv_block_invoke
++ ____ZZ55-[FIMoveToTrashOperation configureDeleteImmediatelyOp:]ENK3$_8clEP11FIOperationP7NSArrayIP6FINodeE_block_invoke
++ ___block_descriptor_33_ea8_32c41_ZTSKZN23TSystemNotificationTaskC1EvE3$_0_e51_v40?0^{__DADisk=}8Q16^{__CFURL=}24^{__CFString=}32l
++ ___block_descriptor_33_ea8_32c41_ZTSKZN23TSystemNotificationTaskC1EvE3$_1_e5_v8?0l
++ ___block_descriptor_40_ea8_32c50_ZTSKZ37-[DSProvidersObserver startObserving]E3$_7_e34_v24?0"NSDictionary"8"NSError"16l
++ ___block_descriptor_40_ea8_32c53_ZTSKZ39-[DSFPItemStatusObserver stopObserving]E4$_12_e5_v8?0l
++ ___block_descriptor_40_ea8_32c75_ZTSKZ61-[DSFPItemStatusObserver startObserving:forParent:withQueue:]E4$_11_e5_v8?0l
++ ___block_descriptor_40_ea8_32c80_ZTSKZN5TNode24CFVolumeObserverCallbackEP8__DADiskmPK7__CFURLPK10__CFStringE3$_1_e5_v8?0l
++ ___block_descriptor_48_ea8_32c113_ZTSKZZ55-[FIMoveToTrashOperation configureDeleteImmediatelyOp:]ENK3$_8clEP11FIOperationP7NSArrayIP6FINodeEEUlvE__e5_v8?0l
++ ___block_descriptor_48_ea8_32c54_ZTSKZ41-[FIOperation handleCancelBeforeSchedule]E3$_1_e5_v8?0l
++ ___block_descriptor_72_ea8_32c47_ZTSKZ34-[DSFileProgress progressChanged:]E3$_4_e5_v8?0l
++ ___copy_helper_block_ea8_32c113_ZTSKZZ55-[FIMoveToTrashOperation configureDeleteImmediatelyOp:]ENK3$_8clEP11FIOperationP7NSArrayIP6FINodeEEUlvE_
++ ___copy_helper_block_ea8_32c41_ZTSKZN23TSystemNotificationTaskC1EvE3$_0
++ ___copy_helper_block_ea8_32c41_ZTSKZN23TSystemNotificationTaskC1EvE3$_1
++ ___copy_helper_block_ea8_32c47_ZTSKZ34-[DSFileProgress progressChanged:]E3$_4
++ ___copy_helper_block_ea8_32c50_ZTSKZ37-[DSProvidersObserver startObserving]E3$_7
++ ___copy_helper_block_ea8_32c53_ZTSKZ39-[DSFPItemStatusObserver stopObserving]E4$_12
++ ___copy_helper_block_ea8_32c54_ZTSKZ41-[FIOperation handleCancelBeforeSchedule]E3$_1
++ ___copy_helper_block_ea8_32c75_ZTSKZ61-[DSFPItemStatusObserver startObserving:forParent:withQueue:]E4$_11
++ ___copy_helper_block_ea8_32c80_ZTSKZN5TNode24CFVolumeObserverCallbackEP8__DADiskmPK7__CFURLPK10__CFStringE3$_1
++ ___destroy_helper_block_ea8_32c113_ZTSKZZ55-[FIMoveToTrashOperation configureDeleteImmediatelyOp:]ENK3$_8clEP11FIOperationP7NSArrayIP6FINodeEEUlvE_
++ ___destroy_helper_block_ea8_32c47_ZTSKZ34-[DSFileProgress progressChanged:]E3$_4
++ ___destroy_helper_block_ea8_32c50_ZTSKZ37-[DSProvidersObserver startObserving]E3$_7
++ ___destroy_helper_block_ea8_32c53_ZTSKZ39-[DSFPItemStatusObserver stopObserving]E4$_12
++ ___destroy_helper_block_ea8_32c54_ZTSKZ41-[FIOperation handleCancelBeforeSchedule]E3$_1
++ ___destroy_helper_block_ea8_32c75_ZTSKZ61-[DSFPItemStatusObserver startObserving:forParent:withQueue:]E4$_11
++ ___destroy_helper_block_ea8_32c80_ZTSKZN5TNode24CFVolumeObserverCallbackEP8__DADiskmPK7__CFURLPK10__CFStringE3$_1
++ _getmntinfo_r_np
+- GCC_except_table1013
+- GCC_except_table1017
+- GCC_except_table1018
+- GCC_except_table1021
+- GCC_except_table1022
+- GCC_except_table1023
+- GCC_except_table1024
+- GCC_except_table1030
+- GCC_except_table1033
+- GCC_except_table1034
+- GCC_except_table1039
+- GCC_except_table1043
+- GCC_except_table1049
+- GCC_except_table1050
+- GCC_except_table1051
+- GCC_except_table1074
+- GCC_except_table1075
+- GCC_except_table1077
+- GCC_except_table1078
+- GCC_except_table1079
+- GCC_except_table1080
+- GCC_except_table1084
+- GCC_except_table1099
+- GCC_except_table1101
+- GCC_except_table1104
+- GCC_except_table1105
+- GCC_except_table1111
+- GCC_except_table1123
+- GCC_except_table1127
+- GCC_except_table1131
+- GCC_except_table1133
+- GCC_except_table1134
+- GCC_except_table1139
+- GCC_except_table1143
+- GCC_except_table1154
+- GCC_except_table1162
+- GCC_except_table1164
+- GCC_except_table1166
+- GCC_except_table1169
+- GCC_except_table1172
+- GCC_except_table1187
+- GCC_except_table1188
+- GCC_except_table1189
+- GCC_except_table1194
+- GCC_except_table1195
+- GCC_except_table1196
+- GCC_except_table1197
+- GCC_except_table1198
+- GCC_except_table1199
+- GCC_except_table1200
+- GCC_except_table1205
+- GCC_except_table1206
+- GCC_except_table1207
+- GCC_except_table1217
+- GCC_except_table1224
+- GCC_except_table1225
+- GCC_except_table1228
+- GCC_except_table1255
+- GCC_except_table152
+- GCC_except_table303
+- GCC_except_table313
+- GCC_except_table328
+- GCC_except_table331
+- GCC_except_table332
+- GCC_except_table347
+- GCC_except_table362
+- GCC_except_table363
+- GCC_except_table380
+- GCC_except_table386
+- GCC_except_table446
+- GCC_except_table482
+- GCC_except_table483
+- GCC_except_table507
+- GCC_except_table533
+- GCC_except_table534
+- GCC_except_table543
+- GCC_except_table558
+- GCC_except_table569
+- GCC_except_table574
+- GCC_except_table575
+- GCC_except_table583
+- GCC_except_table585
+- GCC_except_table588
+- GCC_except_table601
+- GCC_except_table605
+- GCC_except_table606
+- GCC_except_table620
+- GCC_except_table623
+- GCC_except_table626
+- GCC_except_table627
+- GCC_except_table631
+- GCC_except_table632
+- GCC_except_table637
+- GCC_except_table647
+- GCC_except_table650
+- GCC_except_table651
+- GCC_except_table653
+- GCC_except_table669
+- GCC_except_table679
+- GCC_except_table683
+- GCC_except_table687
+- GCC_except_table690
+- GCC_except_table692
+- GCC_except_table695
+- GCC_except_table696
+- GCC_except_table702
+- GCC_except_table703
+- GCC_except_table707
+- GCC_except_table708
+- GCC_except_table717
+- GCC_except_table722
+- GCC_except_table723
+- GCC_except_table724
+- GCC_except_table725
+- GCC_except_table726
+- GCC_except_table727
+- GCC_except_table728
+- GCC_except_table730
+- GCC_except_table755
+- GCC_except_table765
+- GCC_except_table773
+- GCC_except_table793
+- GCC_except_table796
+- GCC_except_table799
+- GCC_except_table804
+- GCC_except_table812
+- GCC_except_table814
+- GCC_except_table815
+- GCC_except_table816
+- GCC_except_table819
+- GCC_except_table822
+- GCC_except_table841
+- GCC_except_table847
+- GCC_except_table850
+- GCC_except_table857
+- GCC_except_table862
+- GCC_except_table864
+- GCC_except_table865
+- GCC_except_table867
+- GCC_except_table870
+- GCC_except_table871
+- GCC_except_table942
+- GCC_except_table943
+- GCC_except_table955
+- GCC_except_table970
+- GCC_except_table978
+- GCC_except_table981
+- GCC_except_table985
+- GCC_except_table989
+- GCC_except_table990
+- GCC_except_table991
+- __Z13FormatDetailsINSt3__16chrono8durationIdNS0_5ratioILl1ELl1EEEEEJEENS0_12basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEERKNS0_17basic_string_viewIcS8_EERKT_DpRKT0_
+- __Z13FormatDetailsINSt3__16chrono8durationIdNS0_5ratioILl1ELl1EEEEEJU8__strongP16FPProviderDomainEENS0_12basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEERKNS0_17basic_string_viewIcSB_EERKT_DpRKT0_
+- __Z16FormatOneDetailsINSt3__16chrono8durationIdNS0_5ratioILl1ELl1EEEEEENS0_4pairI15FormatOneResult11PrintFormatEERNS0_17basic_string_viewIcNS0_11char_traitsIcEEEERNS0_12basic_stringIcSC_NS0_9allocatorIcEEEERKT_
+- __Z22PathEligibleForSyncingRK7TString
+- __ZGVZ22PathEligibleForSyncingRK7TStringE12allowedPaths
+- __ZN10TCFURLInfo19GetVolumeIdentifierEPK7__CFURL
+- __ZN7StDeferIZ38-[FIOperation waitForProgressToFinish]E3$_2ED1Ev
+- __ZN7StDeferIZZ41-[FIOperation handleCancelBeforeSchedule]ENK3$_0clEvEUlvE_ED1Ev
+- __ZN7StDeferIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_7clEP17FIOperationRecordEUlvE0_ED1Ev
+- __ZNKSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_20FvvEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_20FvvEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_20FvvEE7__cloneEPNS0_6__baseIS3_EE
+- __ZNKSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_20FvvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ33-[DSFileProgress startObserving:]E3$_0FvvEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ33-[DSFileProgress startObserving:]E3$_0FvvEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ33-[DSFileProgress startObserving:]E3$_0FvvEE7__cloneEPNS0_6__baseIS3_EE
+- __ZNKSt3__110__function6__funcIZ33-[DSFileProgress startObserving:]E3$_0FvvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ38-[FIOperation waitForProgressToFinish]E3$_3FvvEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ38-[FIOperation waitForProgressToFinish]E3$_3FvvEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ38-[FIOperation waitForProgressToFinish]E3$_3FvvEE7__cloneEPNS0_6__baseIS3_EE
+- __ZNKSt3__110__function6__funcIZ38-[FIOperation waitForProgressToFinish]E3$_3FvvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_8FvP12NSDictionaryIP8NSStringP8NSObjectEEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_8FvP12NSDictionaryIP8NSStringP8NSObjectEEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_8FvP12NSDictionaryIP8NSStringP8NSObjectEEE7__cloneEPNS0_6__baseISA_EE
+- __ZNKSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_8FvP12NSDictionaryIP8NSStringP8NSObjectEEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_11FvvEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_11FvvEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_11FvvEE7__cloneEPNS0_6__baseIS3_EE
+- __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_11FvvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_12FvP12NSDictionaryIP8NSStringP8NSObjectEEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_12FvP12NSDictionaryIP8NSStringP8NSObjectEEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_12FvP12NSDictionaryIP8NSStringP8NSObjectEEE7__cloneEPNS0_6__baseISA_EE
+- __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_12FvP12NSDictionaryIP8NSStringP8NSObjectEEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_7clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EE11target_typeEv
+- __ZNKSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_7clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_7clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EE7__cloneEPNS0_6__baseIS9_EE
+- __ZNKSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_7clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EE7__cloneEv
+- __ZNKSt3__121__unordered_map_equalI9VolumeKeyNS_4pairIKS1_NS_8weak_ptrI13TFSVolumeInfoEEEENS_8equal_toIS1_EE15VolumeKeyHasherEclB9fqe220106ERKS7_RS3_
+- __ZNSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_20FvvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_20FvvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_20FvvEED0Ev
+- __ZNSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_20FvvEED1Ev
+- __ZNSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_20FvvEEclEv
+- __ZNSt3__110__function6__funcIZ33-[DSFileProgress startObserving:]E3$_0FvvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ33-[DSFileProgress startObserving:]E3$_0FvvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ33-[DSFileProgress startObserving:]E3$_0FvvEED0Ev
+- __ZNSt3__110__function6__funcIZ33-[DSFileProgress startObserving:]E3$_0FvvEED1Ev
+- __ZNSt3__110__function6__funcIZ33-[DSFileProgress startObserving:]E3$_0FvvEEclEv
+- __ZNSt3__110__function6__funcIZ38-[FIOperation waitForProgressToFinish]E3$_3FvvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ38-[FIOperation waitForProgressToFinish]E3$_3FvvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ38-[FIOperation waitForProgressToFinish]E3$_3FvvEED0Ev
+- __ZNSt3__110__function6__funcIZ38-[FIOperation waitForProgressToFinish]E3$_3FvvEED1Ev
+- __ZNSt3__110__function6__funcIZ38-[FIOperation waitForProgressToFinish]E3$_3FvvEEclEv
+- __ZNSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_8FvP12NSDictionaryIP8NSStringP8NSObjectEEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_8FvP12NSDictionaryIP8NSStringP8NSObjectEEE7destroyEv
+- __ZNSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_8FvP12NSDictionaryIP8NSStringP8NSObjectEEED0Ev
+- __ZNSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_8FvP12NSDictionaryIP8NSStringP8NSObjectEEED1Ev
+- __ZNSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_8FvP12NSDictionaryIP8NSStringP8NSObjectEEEclEOU8__strongS9_
+- __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_11FvvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_11FvvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_11FvvEED0Ev
+- __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_11FvvEED1Ev
+- __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_11FvvEEclEv
+- __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_12FvP12NSDictionaryIP8NSStringP8NSObjectEEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_12FvP12NSDictionaryIP8NSStringP8NSObjectEEE7destroyEv
+- __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_12FvP12NSDictionaryIP8NSStringP8NSObjectEEED0Ev
+- __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_12FvP12NSDictionaryIP8NSStringP8NSObjectEEED1Ev
+- __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_12FvP12NSDictionaryIP8NSStringP8NSObjectEEEclEOU8__strongS9_
+- __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_19FvP12NSDictionaryIP8NSStringP8NSObjectEEEC1B9fqe220106ERKS2_
+- __ZNSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_7clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_7clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EE7destroyEv
+- __ZNSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_7clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EED0Ev
+- __ZNSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_7clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EED1Ev
+- __ZNSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_7clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EEclES8_
+- __ZTINSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_20FvvEEE
+- __ZTINSt3__110__function6__funcIZ33-[DSFileProgress startObserving:]E3$_0FvvEEE
+- __ZTINSt3__110__function6__funcIZ38-[FIOperation waitForProgressToFinish]E3$_3FvvEEE
+- __ZTINSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_8FvP12NSDictionaryIP8NSStringP8NSObjectEEEE
+- __ZTINSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_11FvvEEE
+- __ZTINSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_12FvP12NSDictionaryIP8NSStringP8NSObjectEEEE
+- __ZTINSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_7clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EEE
+- __ZTIZ32-[FIOperation configureProgress]E4$_20
+- __ZTIZ33-[DSFileProgress startObserving:]E3$_0
+- __ZTIZ38-[FIOperation waitForProgressToFinish]E3$_3
+- __ZTIZ45-[FIOperation startFractionCompletedObserver]E3$_8
+- __ZTIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_11
+- __ZTIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_7clEP17FIOperationRecordEUlT_E_
+- __ZTSNSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_20FvvEEE
+- __ZTSNSt3__110__function6__funcIZ33-[DSFileProgress startObserving:]E3$_0FvvEEE
+- __ZTSNSt3__110__function6__funcIZ38-[FIOperation waitForProgressToFinish]E3$_3FvvEEE
+- __ZTSNSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_8FvP12NSDictionaryIP8NSStringP8NSObjectEEEE
+- __ZTSNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_11FvvEEE
+- __ZTSNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_12FvP12NSDictionaryIP8NSStringP8NSObjectEEEE
+- __ZTSNSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_7clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EEE
+- __ZTSZ32-[FIOperation configureProgress]E4$_20
+- __ZTSZ33-[DSFileProgress startObserving:]E3$_0
+- __ZTSZ38-[FIOperation waitForProgressToFinish]E3$_3
+- __ZTSZ45-[FIOperation startFractionCompletedObserver]E3$_8
+- __ZTSZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_11
+- __ZTSZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_7clEP17FIOperationRecordEUlT_E_
+- __ZTVNSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_20FvvEEE
+- __ZTVNSt3__110__function6__funcIZ33-[DSFileProgress startObserving:]E3$_0FvvEEE
+- __ZTVNSt3__110__function6__funcIZ38-[FIOperation waitForProgressToFinish]E3$_3FvvEEE
+- __ZTVNSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_8FvP12NSDictionaryIP8NSStringP8NSObjectEEEE
+- __ZTVNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_11FvvEEE
+- __ZTVNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_12FvP12NSDictionaryIP8NSStringP8NSObjectEEEE
+- __ZTVNSt3__110__function6__funcIZZ44-[FIOperation conflictHandler:conflictIter:]ENK3$_7clEP17FIOperationRecordEUlT_E_FvRU8__strongKS4_EEE
+- __ZZ22PathEligibleForSyncingRK7TStringE12allowedPaths
+- __ZZ34-[DSFileProgress progressChanged:]EN3$_2D1Ev
+- __ZZ52-[FIOperation registerChildProgress:subscribedNode:]EN4$_19D1Ev
+- ___52-[DSNSHelperContext ensureFreeSpace:onVolume:error:]_block_invoke
+- ____ZN10TOperation18PurgeSpaceOnVolumeENSt3__110shared_ptrI13TFSVolumeInfoEEybRK7TString_block_invoke
+- ____ZZ34-[DSFileProgress progressChanged:]ENK3$_2cvU13block_pointerFvvEEv_block_invoke
+- ___block_descriptor_40_ea8_32c50_ZTSKZ37-[DSProvidersObserver startObserving]E3$_6_e34_v24?0"NSDictionary"8"NSError"16l
+- ___block_descriptor_40_ea8_32c53_ZTSKZ39-[DSFPItemStatusObserver stopObserving]E4$_11_e5_v8?0l
+- ___block_descriptor_40_ea8_32c74_ZTSKZ61-[DSFPItemStatusObserver startObserving:forParent:withQueue:]E3$_9_e5_v8?0l
+- ___block_descriptor_48_ea8_32c54_ZTSKZ41-[FIOperation handleCancelBeforeSchedule]E3$_0_e5_v8?0l
+- ___block_descriptor_72_ea8_32c47_ZTSKZ34-[DSFileProgress progressChanged:]E3$_2_e5_v8?0l
+- ___copy_helper_block_ea8_32c47_ZTSKZ34-[DSFileProgress progressChanged:]E3$_2
+- ___copy_helper_block_ea8_32c50_ZTSKZ37-[DSProvidersObserver startObserving]E3$_6
+- ___copy_helper_block_ea8_32c53_ZTSKZ39-[DSFPItemStatusObserver stopObserving]E4$_11
+- ___copy_helper_block_ea8_32c54_ZTSKZ41-[FIOperation handleCancelBeforeSchedule]E3$_0
+- ___copy_helper_block_ea8_32c74_ZTSKZ61-[DSFPItemStatusObserver startObserving:forParent:withQueue:]E3$_9
+- ___destroy_helper_block_ea8_32c47_ZTSKZ34-[DSFileProgress progressChanged:]E3$_2
+- ___destroy_helper_block_ea8_32c50_ZTSKZ37-[DSProvidersObserver startObserving]E3$_6
+- ___destroy_helper_block_ea8_32c53_ZTSKZ39-[DSFPItemStatusObserver stopObserving]E4$_11
+- ___destroy_helper_block_ea8_32c54_ZTSKZ41-[FIOperation handleCancelBeforeSchedule]E3$_0
+- ___destroy_helper_block_ea8_32c74_ZTSKZ61-[DSFPItemStatusObserver startObserving:forParent:withQueue:]E3$_9
+CStrings:
++ "0x%lx %{public}s"
++ "<no volume info>"
++ "<none>"
++ "Home directory is on the boot volume: %{public}@"
++ "No path for url passed to CFVolumeObserverCallback %{public}@"
++ "NodeDSCreateOperation failed status=%d"
++ "NothingHappened"
++ "SetMode failed: %{public}s %{public}@"
++ "TNode::CFVolumeObserverCallback %{public}s %{public}@: %{public}@ %{public}@ (%{public}@)"
++ "TNode::CFVolumeObserverCallback invalid volume ID (%{public}@) for event %{public}s, %{public}@"
++ "TNode::GetVolumeNode failed (%{public}@)"
++ "TNode::RemoveVolume: Couldn't find volume %{public}@"
++ "Unexpected volume format: %{public}@"
++ "Unmounting the boot or home volume. Event: %{public}s, url: %{public}@, name: %{public}@, volume ID: %{public}s"
++ "_CFVolumeObserverCreate failed"
++ "kCFVolumeObserverEventAboutToUnmount"
++ "kCFVolumeObserverEventExistingVolumeEventsSent"
++ "kCFVolumeObserverEventMounted"
++ "kCFVolumeObserverEventRenamed"
++ "kCFVolumeObserverEventUnmountFailed"
++ "kCFVolumeObserverEventUnmounted"
++ "kCFVolumeObserverEvent{"
++ "mountNumber: %llu, volumeID: %s"
++ "smb"
++ "v40@?0^{__DADisk=}8Q16^{__CFURL=}24^{__CFString=}32"
++ "}"
+```

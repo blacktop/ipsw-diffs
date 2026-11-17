@@ -1,0 +1,84 @@
+## CipherML
+
+> `/System/Library/PrivateFrameworks/CipherML.framework/CipherML`
+
+```diff
+
+ 383.60.4.0.0
+-  __TEXT.__text: 0x1eec54
++  __TEXT.__text: 0x1ef134
+   __TEXT.__objc_methlist: 0x145c
+   __TEXT.__const: 0x13d90
+   __TEXT.__cstring: 0x3776
+
+   __TEXT.__swift5_mpenum: 0x50
+   __TEXT.__swift5_protos: 0x28
+   __TEXT.__unwind_info: 0x9f48
+-  __TEXT.__eh_frame: 0x13fe4
++  __TEXT.__eh_frame: 0x13fec
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __AUTH_CONST.__const: 0x6bc0
+   __AUTH_CONST.__cfstring: 0xaa0
+   __AUTH_CONST.__objc_const: 0x3e90
+-  __AUTH_CONST.__auth_got: 0x1a28
++  __AUTH_CONST.__auth_got: 0x1a20
+   __AUTH.__data: 0x1a8
+   __DATA.__objc_ivar: 0xdc
+   __DATA.__data: 0x29c0
+
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+   Functions: 10522
+-  Symbols:   22414
++  Symbols:   22413
+   CStrings:  586
+ 
+Symbols:
+- _swift_release_x10
+Functions:
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs6UInt32V_Tg5 : 248 -> 272
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_8CipherML15AspireApiConfigVt_Tg5 : 452 -> 480
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5 : 256 -> 280
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10Foundation4DataV_Tg5 : 256 -> 280
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSaySo18CMLSimilarityScoreCG_Tg5Tm : 296 -> 320
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10Foundation4DataVSg_Tg5 : 296 -> 320
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF8CipherML15RequestsManagerC5IndexO_Tg5 : 256 -> 280
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF8CipherML19SymmetricPirKeywordV_Tg5 : 256 -> 280
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSi_Tg5Tm : 240 -> 264
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF16CryptoKitPrivate2HEO10RlweParamsO_Tg5Tm : 432 -> 476
+~ _$s8CipherML20AspireNetworkManagerC25prepareProxyConfigRequest10Foundation10URLRequestVyF : 1788 -> 1792
+~ _$s8CipherML15RequestsManagerC17rotateKeysOffline7useCase9keyStatus17networkDelegation10Foundation4DataVSgSS_AA012AspireApiKeyK0VAA07NetworkM6ConfigOtYaKFTY2_ : 400 -> 412
+~ _$s8CipherML15RequestsManagerC18decryptPIRResponse17encryptedResponse5index7context10Foundation4DataVAJ_AC5IndexOAA14RequestContextVyAA19StaticPIRParametersVGtYaKFTY2_ : 672 -> 696
+~ _$s8CipherML13DatabaseTablePAA21InternalSwiftProtobuf7Message5ValueRpzrlE3set3key5value2iny3KeyQz_AGSg0F4Data12ModelContextCtKFZAA06ConfigD0O_Tt2g5 : 636 -> 644
+~ _$s8CipherML13DatabaseTablePAA21InternalSwiftProtobuf7Message5ValueRpzrlE3set3key5value2iny3KeyQz_AGSg0F4Data12ModelContextCtKFZAA010Evaluationn6ConfigD0O_Tt2g5 : 652 -> 660
+~ _$s8CipherML15RequestsManagerC9loadCache33_41F16A2FC88180D043F1A82F0CBA100CLL14requestContextAA08KeyValueF0_pSgAA07RequestP0VyAA19StaticPIRParametersVG_tFTf4nd_n : 756 -> 880
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSnySiG_Tgq5 : 252 -> 276
+~ _$s8CipherML12StoredConfigC14schemaMetadataSay9SwiftData6SchemaC08PropertyF0VGvgZ : 692 -> 712
+~ _$s8CipherML17StoredPreparedKeyC14schemaMetadataSay9SwiftData6SchemaC08PropertyG0VGvgZTf4d_n : 532 -> 560
+~ _$s8CipherML23StoredPreparedKeyDemandC14schemaMetadataSay9SwiftData6SchemaC08PropertyH0VGvgZTf4d_n : 324 -> 336
+~ _$s8CipherML25StoredEvaluationKeyConfigC14schemaMetadataSay9SwiftData6SchemaC08PropertyH0VGvgZTf4d_n : 584 -> 608
+~ _$s8CipherML20AllowListMigrationV2O0cD6FormatV7migrateAA0cD10Migratable_pyKF : 1440 -> 1592
+~ _$s8CipherML11SqliteCacheC8setValue33_4769F09039CC90D71F9562645891F76BLL7keyword03newF0y10Foundation4DataV_AJSgtKF : 3828 -> 3888
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSaySo18CMLSimilarityScoreCG_Tg5 : 300 -> 324
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5 : 260 -> 284
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF8CipherML10TokenCacheC06CachedQ0V_Tg5Tm : 436 -> 480
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10Foundation4DataV7keyword_SSSg7shardIdt_Tg5 : 300 -> 324
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF8CipherML15RequestsManagerC5IndexO_Tg5 : 260 -> 284
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10Foundation4DataV_Tg5 : 260 -> 284
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF8CipherML19SymmetricPirKeywordV_Tg5 : 260 -> 284
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSiSg_Tg5 : 248 -> 272
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSi_Tg5 : 252 -> 276
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS4name_Says5UInt8VG16existingConfigIdt_Tg5 : 316 -> 352
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCSS_Tt1g5Tm : 120 -> 144
+~ _$s8CipherML12TokenFetcherV17tokenDirectoryURL33_BD0C5630996361E1FDE806BA0BB9D37CLL10Foundation0G0VyKF : 940 -> 944
+~ _$s8CipherML15RequestsManagerC33encryptDifferentiallyPrivateFakes15batchOfElements10shardIndex0L5Count9pecConfig7contextSay10Foundation4DataVGAM_S2iSo12CMLPECConfigCAA14RequestContextVyAA19StaticPECParametersVGtYaKFTY1_ : 4096 -> 4168
+~ _$s8CipherML15RequestsManagerC10PECContextV11requestData0F007networkD0SaySaySo18CMLSimilarityScoreCGGAA16AspireApiRequestV_AA07NetworkD0_ptYaKFTY0_ : 1192 -> 1200
+~ _$s8CipherML11KeyRotationC10uploadKeys6userId19keyStatusesToUpload20networkManagerConfigyAA14UserIdentifierV_SayAA09AspireApiC6StatusVGAA07NetworknO0VtYaKFyAA0rs10EvaluationF0VzXEfU_Tm : 224 -> 228
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tt1gq5 : 112 -> 124
+~ _$s8CipherML11KeyRotationC12activeGroups0E8UseCasesShySSGAF_tYaFTf4dn_nTY0_ : 1256 -> 1264
+~ _$s8CipherML13DatabaseTablePAA21InternalSwiftProtobuf7Message5ValueRpzrlE3set3key5value2iny3KeyQz_AGSg0F4Data12ModelContextCtKFZ : 980 -> 1076
+~ _$s8CipherML5CacheC18consumePreparedKey5group10configHash12notOlderThan10Foundation4UUIDV4uuid_AA06SecretF0V06secretF0tSgSS_AH4DataVAH4DateVSgtKF : 2396 -> 2380
+```

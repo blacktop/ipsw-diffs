@@ -1,0 +1,110 @@
+## CoreNavigation
+
+> `/System/Library/PrivateFrameworks/CoreNavigation.framework/CoreNavigation`
+
+```diff
+
+-427.0.2.0.0
+-  __TEXT.__text: 0x35879c
++429.0.1.0.0
++  __TEXT.__text: 0x359330
+   __TEXT.__objc_methlist: 0x198
+-  __TEXT.__const: 0x51fb1
+-  __TEXT.__cstring: 0x38404
++  __TEXT.__const: 0x52061
++  __TEXT.__cstring: 0x3851c
+   __TEXT.__oslogstring: 0x51
+-  __TEXT.__gcc_except_tab: 0x1676c
+-  __TEXT.__unwind_info: 0x10638
++  __TEXT.__gcc_except_tab: 0x167a0
++  __TEXT.__unwind_info: 0x10698
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_superrefs: 0x18
+   __DATA_CONST.__objc_arraydata: 0x10
+   __DATA_CONST.__got: 0x240
+-  __AUTH_CONST.__const: 0x1e898
++  __AUTH_CONST.__const: 0x1e928
+   __AUTH_CONST.__cfstring: 0xa0
+   __AUTH_CONST.__objc_const: 0x2e8
+   __AUTH_CONST.__weak_auth_got: 0xc0
+
+   __AUTH_CONST.__auth_got: 0xaf0
+   __DATA.__objc_ivar: 0xc
+   __DATA.__data: 0xa0
+-  __DATA.__common: 0x670
++  __DATA.__common: 0x678
+   __DATA_DIRTY.__objc_data: 0xf0
+   __DATA_DIRTY.__common: 0x658
+   __DATA_DIRTY.__bss: 0x1cf8
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libprotobuf-lite.dylib
+   - /usr/lib/libprotobuf.dylib
+-  Functions: 15554
+-  Symbols:   13564
+-  CStrings:  3919
++  Functions: 15580
++  Symbols:   13615
++  CStrings:  3923
+ 
+Symbols:
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData17SvBandCorrections45kIonosphericReplacedByExternalToolFieldNumberE
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData21DaemonLocationPrivate49kNumRavenAcceptedGnssRangeMeasurementsFieldNumberE
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData23GnssFailureStatusUpdate10SharedCtorEv
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData23GnssFailureStatusUpdate10SharedDtorEv
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData23GnssFailureStatusUpdate10Status_MAXE
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData23GnssFailureStatusUpdate10Status_MINE
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData23GnssFailureStatusUpdate12GFSU_UNKNOWNE
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData23GnssFailureStatusUpdate14GFSU_CONFIRMEDE
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData23GnssFailureStatusUpdate16Status_ARRAYSIZEE
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData23GnssFailureStatusUpdate16default_instanceEv
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData23GnssFailureStatusUpdate17default_instance_E
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData23GnssFailureStatusUpdate18kStatusFieldNumberE
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData23GnssFailureStatusUpdate21CheckTypeAndMergeFromERKN20wireless_diagnostics6google8protobuf11MessageLiteE
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData23GnssFailureStatusUpdate21InitAsDefaultInstanceEv
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData23GnssFailureStatusUpdate27MergePartialFromCodedStreamEPN20wireless_diagnostics6google8protobuf2io16CodedInputStreamE
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData23GnssFailureStatusUpdate31kDominantOrientationFieldNumberE
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData23GnssFailureStatusUpdate4SwapEPS3_
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData23GnssFailureStatusUpdate5ClearEv
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData23GnssFailureStatusUpdate8CopyFromERKS3_
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData23GnssFailureStatusUpdate9GFSU_NONEE
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData23GnssFailureStatusUpdate9MergeFromERKS3_
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData23GnssFailureStatusUpdateC1ERKS3_
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData23GnssFailureStatusUpdateC1Ev
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData23GnssFailureStatusUpdateC2ERKS3_
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData23GnssFailureStatusUpdateC2Ev
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData23GnssFailureStatusUpdateD0Ev
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData23GnssFailureStatusUpdateD1Ev
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData23GnssFailureStatusUpdateD2Ev
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData36OtaEphemerisCrossCheckToFile_IsValidEi
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData38GnssFailureStatusUpdate_Status_IsValidEi
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData6SvInfo40kOtaEphemerisCrossCheckToFileFieldNumberE
++ __ZN14CoreNavigation3CLP8LogEntry5Raven17RavenPlatformInfo10HW_3004005E
++ __ZN14CoreNavigation3CLP8LogEntry5Raven17RavenPlatformInfo10HW_3004006E
++ __ZN14CoreNavigation3CLP8LogEntry5Raven17RavenPlatformInfo10HW_4001014E
++ __ZN14CoreNavigation3CLP8LogEntry5Raven17RavenPlatformInfo10HW_4001015E
++ __ZN14CoreNavigation3CLP8LogEntry5Raven17RavenPlatformInfo10HW_4001016E
++ __ZN14CoreNavigation3CLP8LogEntry5Raven17RavenPlatformInfo10HW_4001017E
++ __ZN14CoreNavigation3CLP8LogEntry5Raven17RavenPlatformInfo10HW_4001018E
++ __ZN14CoreNavigation3CLP8LogEntry5Raven17RavenPlatformInfo10HW_4001019E
++ __ZN14CoreNavigation3CLP8LogEntry5Raven17RavenPlatformInfo10HW_4002001E
++ __ZN14CoreNavigation3CLP8LogEntry5Raven17RavenPlatformInfo10HW_4002002E
++ __ZN14CoreNavigation3CLP8LogEntry5Raven17RavenPlatformInfo10HW_4002003E
++ __ZNK14CoreNavigation3CLP8LogEntry11PrivateData23GnssFailureStatusUpdate11GetTypeNameEv
++ __ZNK14CoreNavigation3CLP8LogEntry11PrivateData23GnssFailureStatusUpdate13IsInitializedEv
++ __ZNK14CoreNavigation3CLP8LogEntry11PrivateData23GnssFailureStatusUpdate13SetCachedSizeEi
++ __ZNK14CoreNavigation3CLP8LogEntry11PrivateData23GnssFailureStatusUpdate24SerializeWithCachedSizesEPN20wireless_diagnostics6google8protobuf2io17CodedOutputStreamE
++ __ZNK14CoreNavigation3CLP8LogEntry11PrivateData23GnssFailureStatusUpdate3NewEv
++ __ZNK14CoreNavigation3CLP8LogEntry11PrivateData23GnssFailureStatusUpdate8ByteSizeEv
++ __ZTIN14CoreNavigation3CLP8LogEntry11PrivateData23GnssFailureStatusUpdateE
++ __ZTSN14CoreNavigation3CLP8LogEntry11PrivateData23GnssFailureStatusUpdateE
++ __ZTVN14CoreNavigation3CLP8LogEntry11PrivateData23GnssFailureStatusUpdateE
+CStrings:
++ "::CoreNavigation::CLP::LogEntry::PrivateData::GnssFailureStatusUpdate_Status_IsValid(value)"
++ "::CoreNavigation::CLP::LogEntry::PrivateData::OtaEphemerisCrossCheckToFile_IsValid(value)"
++ "CoreNavigation.CLP.LogEntry.PrivateData.GnssFailureStatusUpdate"
++ "set_ota_ephemeris_cross_check_to_file"
+```

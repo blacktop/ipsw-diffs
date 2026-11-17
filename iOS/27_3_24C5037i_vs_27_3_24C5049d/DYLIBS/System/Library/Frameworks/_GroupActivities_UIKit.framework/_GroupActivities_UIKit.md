@@ -1,0 +1,24 @@
+## _GroupActivities_UIKit
+
+> `/System/Library/Frameworks/_GroupActivities_UIKit.framework/_GroupActivities_UIKit`
+
+```diff
+
+-309.300.31.0.0
+-  __TEXT.__text: 0x5e508
++309.300.41.0.0
++  __TEXT.__text: 0x5e5dc
+   __TEXT.__objc_methlist: 0xacc
+   __TEXT.__const: 0x41b8
+   __TEXT.__swift5_typeref: 0x4726
+Functions:
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF22_GroupActivities_UIKit20ReactionHistoryEntryV_Tg5 : 272 -> 308
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5 : 256 -> 280
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFySbScMYcc_Tg5Tm : 292 -> 316
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tt1gq5 : 112 -> 124
+~ _$ss30_copySequenceToContiguousArrayys0dE0Vy7ElementQzGxSTRzlFs010EnumeratedB0VySaySSGG_Tg5 : 412 -> 452
+~ _$s22_GroupActivities_UIKit0A36SessionPreviewPresentationControllerCACycfc : 764 -> 776
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfC14CopresenceCore24GroupActivityAssociationC_Tt1g5 : 132 -> 156
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCSS_Tt1g5 : 128 -> 152
+~ _$s22_GroupActivities_UIKit25ReactionPickerOverlayViewV4bodyQrvg7SwiftUI0G0PAEE19allowsSecureDrawingQryFQOyAgEE15safeAreaPaddingyQrAE4EdgeO3SetV_12CoreGraphics7CGFloatVSgtFQOyAgEE19presentationDetentsyQrShyAE18PresentationDetentVGFQOyAE6VStackVyAE12TupleContentVyAA0dE6BubbleV_AYyAgEE7paddingyQrAM_AQtFQOyAgEE10background_011ignoresSafeO5EdgesQrqd___AMtAE10ShapeStyleRd__lFQOyAE7DividerV_AE5ColorVQo__Qo__AE03AnyG0VQPGSgQPGG_Qo__Qo__Qo_ycfU0_ : 684 -> 700
+```

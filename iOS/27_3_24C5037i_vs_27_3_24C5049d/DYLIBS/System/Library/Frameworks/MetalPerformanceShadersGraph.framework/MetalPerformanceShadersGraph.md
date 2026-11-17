@@ -1,0 +1,29 @@
+## MetalPerformanceShadersGraph
+
+> `/System/Library/Frameworks/MetalPerformanceShadersGraph.framework/MetalPerformanceShadersGraph`
+
+```diff
+
+ 7.3.8.0.0
+-  __TEXT.__text: 0x2202e8c
++  __TEXT.__text: 0x2202fc0
+   __TEXT.__mpsgraph_init_: 0x40
+   __TEXT.__objc_methlist: 0x8614
+   __TEXT.__const: 0x6f888
+Functions:
+~ _$s28MetalPerformanceShadersGraph22MPSGraphDelegateKernelC18_coreAI_inferValueyySo16MPSCommandBufferC_13CoreAIRuntime11OwnedInputsVAG0P7OutputsVzAG0P16ExecutionContextVtKFySo010MTLCommandM0_pYbcfU7_ : 5688 -> 5664
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSo12IOSurfaceRefa_Sit_Tg5 : 300 -> 324
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCSS_Tt1g5 : 128 -> 152
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCSi_Tt1g5 : 128 -> 152
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tt1gq5 : 112 -> 124
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSi_Tgq5Tm : 248 -> 272
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFyp_Tg5 : 260 -> 284
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF12CoreAICommon8LogEventV_Tg5 : 432 -> 460
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF12CoreAICommon8LogEventV_Tg5 : 428 -> 456
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs6UInt64V_Tg5 : 248 -> 272
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5 : 260 -> 284
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSi_Tg5 : 252 -> 276
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSs_Tg5 : 260 -> 284
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSo8NSNumberC_Tgq5 : 304 -> 328
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSaySo30MPSGraphIntermediateIdentifierCG_Tg5 : 296 -> 320
+```

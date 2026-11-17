@@ -1,0 +1,132 @@
+## MomentsUIService
+
+> `/Applications/MomentsUIService.app/MomentsUIService`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__const`
+- `__TEXT.__gcc_except_tab`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__swift5_entry`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_intobj`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
+```diff
+
+-504.0.7.0.0
+-  __TEXT.__text: 0x27f0e4
++504.0.8.0.0
++  __TEXT.__text: 0x27f6cc
+   __TEXT.__auth_stubs: 0x4ac0
+   __TEXT.__objc_stubs: 0x9520
+   __TEXT.__objc_methlist: 0x40dc
+
+   __TEXT.__swift_as_cont: 0x720
+   __TEXT.__swift5_protos: 0x48
+   __TEXT.__unwind_info: 0x93c0
+-  __TEXT.__eh_frame: 0x8698
++  __TEXT.__eh_frame: 0x8680
+   __DATA_CONST.__const: 0x105c8
+   __DATA_CONST.__cfstring: 0x2140
+   __DATA_CONST.__objc_classlist: 0x550
+Functions:
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSd_Tg5 : 252 -> 276
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5 : 260 -> 284
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSo6CGRectV_Tg5 : 252 -> 276
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSo23MOEventBundleSourceTypea_Tg5 : 288 -> 312
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF16MomentsUIService34MOMusicPlaybackCoordinatorDelegate_p_Tg5 : 316 -> 352
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF16MomentsUIService07MOAssetD9MediaTypeV_Sit_Tg5 : 300 -> 324
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSo33BMMomentsEngagementSuggestionTypeV_Tg5 : 252 -> 276
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF16MomentsUIService20MOProtectedAppSourceV_Tg5 : 260 -> 284
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF16MomentsUIService26MOSuggestionAssetReferenceC_Sit_Tg5Tm : 300 -> 324
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFyyc_Tg5 : 300 -> 324
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF16MomentsUIService27MOClientPresentationDetailsV012presentationS0_ySaySo13MOEventBundleCG_ShySSGSgtc7handlert_Tg5 : 300 -> 324
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFyp_Tg5 : 264 -> 288
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF16MomentsUIService38MOSuggestionAssetMediaAlbumArtProviderC15QueuableRequest33_15720FFAFF6C490D807E9EF804F12153LLV_Tg5 : 284 -> 320
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF16MomentsUIService29MOSuggestionAssetCacheManagerC0qR22CompletionResultHolderV_Tg5 : 260 -> 284
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSi_Tg5Tm : 244 -> 268
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF16MomentsUIService30MOSuggestionAssetMapsClustererC7ClusterV_Tg5Tm : 436 -> 480
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSaySdG_Tg5Tm : 300 -> 324
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCSS_Tt1g5 : 128 -> 152
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfC16MomentsUIService42MOSuggestionInterstitialListAssetViewModelC_Tt1g5Tm : 132 -> 156
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfC16MomentsUIService30MOSuggestionAssetMapsClustererC7ClusterV_Tt1g5Tm : 228 -> 268
+~ _$s16MomentsUIService42MOSuggestionInterstitialListAssetViewModelC17stateOfMindAssets15bundleStartDate0m3EndO0ACSgSaySo0cF0CyyXlGG_10Foundation0O0VANtcfC : 5208 -> 5232
+~ _$s16MomentsUIService42MOSuggestionInterstitialListAssetViewModelC13contactAssets15bundleStartDate0k3EndM0ACSgSaySo0cF0CyyXlGG_10Foundation0M0VANtcfC : 3932 -> 3964
+~ _$s16MomentsUIService30MOSuggestionSheetAssetGridViewC6reload5indexySi_tF : 816 -> 820
+~ _$s16MomentsUIService30MOSuggestionSheetAssetGridViewC10reloadWith05assetG5Model5indexyAA0cdegK0C_SitF : 904 -> 908
+~ _$s16MomentsUIService25MOSuggestionOnboardingTipV7optionsSay0E3Kit0E6Option_pGvg : 624 -> 628
+~ _$s16MomentsUIService25MOSuggestionOnboardingTipV5rulesSay0E3Kit4TipsO4RuleVGvg : 496 -> 500
+~ _$s16MomentsUIService25MOSuggestionOnboardingTipV7actionsSay0E3Kit4TipsO6ActionVGvgTf4d_n : 456 -> 460
+~ _$s16MomentsUIService13MOAppDelegateCACycfc : 988 -> 1000
+~ _$s16MomentsUIService38MOSuggestionAssetActivityRingsProviderC03getD016workoutStartDate0i3EndK05index10completiony10Foundation0K0V_AKSiySi_So17HKActivitySummaryCSgtctF : 2676 -> 2668
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tt1gq5 : 112 -> 124
+~ _$s16MomentsUIService42MOSuggestionInterstitialListAssetViewModelC011multiPinMapF0ACSgSo0cF0CyyXlG_tcfC : 5472 -> 5484
+~ _$s16MomentsUIService29PresenterServerViewControllerC29didReceivePresentationRequest4with6clienty0A2UI015SuggestionSheetC7OptionsC_AG6ClientVtFyyYacfU_TY0_ : 356 -> 368
+~ _$s16MomentsUIService29PresenterServerViewControllerC29didReceivePresentationRequest4with6clienty0A2UI015SuggestionSheetC7OptionsC_AG6ClientVtFyyYacfU_TY3_ : 308 -> 316
+~ _$s16MomentsUIService29PresenterServerViewControllerC026presentPendingSheetContenteF0yyYaFTY0_ : 1452 -> 1468
+~ _$s16MomentsUIService29PresenterServerViewControllerC026presentPendingSheetContenteF0yyYaFTY2_ : 1056 -> 1072
+~ _$s16MomentsUIService29PresenterServerViewControllerC026presentPendingSheetContenteF0yyYaFyycfU_yyYacfU_TY0_ : 456 -> 468
+~ _$s16MomentsUIService29PresenterServerViewControllerC026presentPendingSheetContenteF0yyYaFyycfU_yyYacfU_TY3_ : 432 -> 436
+~ _$s16MomentsUIService29PresenterServerViewControllerC026presentPendingSheetContenteF0yyYaFyycfU_yyYacfU_TY5_ : 308 -> 316
+~ _$s16MomentsUIService22MOSuggestionPrivacyTipV7optionsSay0E3Kit0E6Option_pGvg : 624 -> 628
+~ _$s16MomentsUIService22MOSuggestionPrivacyTipV5rulesSay0E3Kit4TipsO4RuleVGvg : 496 -> 500
+~ _$s16MomentsUIService22MOSuggestionPrivacyTipV7actionsSay0E3Kit4TipsO6ActionVGvgTf4d_n : 452 -> 456
+~ _$s16MomentsUIService42MOSuggestionInterstitialListAssetViewModelC012workoutGroupF0ACSgSo0cF0CyyXlG_tcfC : 4368 -> 4364
+~ _$s16MomentsUIService19EngagementAnalyticsC4send15engagementEventySo09BMMomentsC0C_tFSDySSSo8NSObjectCGSgycfU_ : 4616 -> 4644
+~ _$ss32_copyCollectionToContiguousArrayys0dE0Vy7ElementQzGxSlRzlFs0E5SliceVySo7PHAssetCG_Tg5Tm : 252 -> 276
+~ _$ss32_copyCollectionToContiguousArrayys0dE0Vy7ElementQzGxSlRzlFs0E5SliceVy9MomentsUI5AssetCG_Tg5Tm : 236 -> 260
+~ _$s16MomentsUIService42MOSuggestionInterstitialListAssetViewModelC07workoutF0ACSgSo0cF0CyyXlG_tcfC : 3572 -> 3604
+~ _$sSo13MOEventBundleC16MomentsUIServiceE24constructedLocationAsset9resources12suggestionIDSay0C2UI0G0CGSgSaySo10MOResourceCG_10Foundation4UUIDVtYaFZTf4nnd_nTY1_ : 2952 -> 2992
+~ _$s16MomentsUIService26MOSuggestionCollectionViewC14layoutSubviewsyyFy10Foundation9IndexPathVcfU0_yyScMYccfU_ : 352 -> 364
+~ _$s16MomentsUIService24MOAngelControllerWrapperC14selectedBundle_13modifiedTitle28isPromptElligibleForTransfer12forContainerySo07MOEventG0C_SSSgSbSStF : 1452 -> 1472
+~ _$s16MomentsUIService24MOAngelControllerWrapperC14quickAddBundle_13modifiedTitle28isPromptElligibleForTransfer12forContainerySo07MOEventH0C_SSSgSbSStF : 1420 -> 1428
+~ _$s16MomentsUIService24MOAngelControllerWrapperC18logInterstitialTap_12forContainerySo13MOEventBundleC_SStF : 808 -> 820
+~ _$s16MomentsUIService24MOAngelControllerWrapperC12removeBundle_12forContainerySo07MOEventG0C_SStF : 820 -> 832
+~ _$s16MomentsUIService24MOAngelControllerWrapperC15logViewedBundle_12forContainerySo07MOEventH0C_SStF : 632 -> 644
+~ _$s16MomentsUIService24MOAngelControllerWrapperC23getBundleRankingContext33_258D16EB7982AC32449DBA8A7FF21D35LLySDySo07MOUsageI4TypeaypGSo07MOEventG0CFTf4nd_n : 664 -> 668
+~ _$s16MomentsUIService42MOSuggestionInterstitialExpandableListViewC19configureDataSourceyyFyAA0cdefG4CellC_10Foundation9IndexPathVAA0cdf5AssetG5ModelCtcfU_ : 1696 -> 1716
+~ _$s16MomentsUIService18MOProcessingServerC17setOnboardedAsync4flagSo8NSNumberCSgAG_tYaKFTY0_ : 1108 -> 1124
+~ _$s16MomentsUIService18MOProcessingServerC17setOnboardedAsync4flagSo8NSNumberCSgAG_tYaKFTY4_ : 680 -> 696
+~ _$s16MomentsUIService18MOProcessingServerC17setOnboardedAsync4flagSo8NSNumberCSgAG_tYaKFTY6_ : 1256 -> 1272
+~ _$s16MomentsUIService18MOProcessingServerC17setOnboardedAsync4flagSo8NSNumberCSgAG_tYaKFTY8_ : 260 -> 276
+~ _$s16MomentsUIService18MOProcessingServerC12keepUIActiveyyYaKFTf4d_nTY0_ : 572 -> 588
+~ _$s16MomentsUIService18MOProcessingServerC12keepUIActiveyyYaKFTf4d_nTY4_ : 252 -> 268
+~ _$s16MomentsUIService18MOProcessingServerC12keepUIActiveyyYaKFTf4d_nTY5_ : 276 -> 292
+~ _$s16MomentsUIService18MOProcessingServerC25testInjectBadRecordChanges5Error_pSgyYaFTf4d_nTY0_ : 768 -> 784
+~ _$s16MomentsUIService24MOSuggestionCarouselViewC10reloadCell_5indexySayAA0c10SheetAssetE5ModelCG_SitF : 812 -> 816
+~ _$s16MomentsUIService24MOSuggestionCarouselViewC14reloadCellWith_5indexyAA0c10SheetAssetE5ModelC_SitF : 1192 -> 1196
+~ _$s16MomentsUIService26MOSuggestionStateOfMindTipV7optionsSay0G3Kit0G6Option_pGvg : 624 -> 628
+~ _$s16MomentsUIService26MOSuggestionStateOfMindTipV7actionsSay0G3Kit4TipsO6ActionVGvg : 340 -> 348
+~ _$s16MomentsUIService26MOSuggestionStateOfMindTipV0G3Kit0G0AadEP7actionsSayAD4TipsO6ActionVGvgTW : 340 -> 352
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF6TipKit4TipsO6ActionV_Tgq5 : 428 -> 456
+~ _$s16MomentsUIService17MOPresenterServerC28evictPriorScenePresentations9forClient6exceptySS_10Foundation4UUIDVtFyyXEfU_ : 1056 -> 1080
+~ _$s16MomentsUIService17MOPresenterServerC18removeConnectionID010connectionG0y10Foundation4UUIDVSg_tFyyYacfU0_TY0_ : 328 -> 340
+~ _$s16MomentsUIService17MOPresenterServerC19retrieveUrlForToken_4type10Foundation3URLVSgSS_SStF : 3672 -> 3688
+~ _$s16MomentsUIService42MOSuggestionInterstitialListAssetViewModelC12motionAssetsACSgSaySo0cF0CyyXlGG_tcfC : 6700 -> 6696
+~ _$s16MomentsUIService42MOSuggestionInterstitialListAssetViewModelC11mediaAssetsACSgSaySo0cF0CyyXlGG_tcfC : 7736 -> 7712
+~ _$s16MomentsUIService42MOSuggestionInterstitialListAssetViewModelC11photoAssetsACSgSaySo0cF0CyyXlGG_tcfC : 5292 -> 5308
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSo22CLLocationCoordinate2DV_Tg5 : 248 -> 272
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5 : 256 -> 280
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF16MomentsUIService30MOSuggestionAssetVisualSubTypeO_Sit_Tg5 : 248 -> 272
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSi_Tg5 : 248 -> 272
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSo6CGRectV_Tg5 : 248 -> 272
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF16MomentsUIService07MOAssetE9MediaTypeV_Sit_Tg5 : 296 -> 320
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSd_Tg5 : 248 -> 272
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSo22MOSuggestionAssetsTypea_Tg5 : 284 -> 308
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF16MomentsUIService26MOSuggestionAssetReferenceC_Sit_Tg5Tm : 296 -> 320
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF16MomentsUIService30MOSuggestionAssetMapsClustererC7ClusterV_Tg5Tm : 432 -> 476
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF16MomentsUIService29MOSuggestionAssetCacheManagerC0rS22CompletionResultHolderV_Tg5 : 256 -> 280
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSnySiG_Tgq5 : 252 -> 276
+```

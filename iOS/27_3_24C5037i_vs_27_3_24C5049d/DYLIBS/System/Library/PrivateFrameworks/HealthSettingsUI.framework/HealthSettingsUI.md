@@ -1,0 +1,99 @@
+## HealthSettingsUI
+
+> `/System/Library/PrivateFrameworks/HealthSettingsUI.framework/HealthSettingsUI`
+
+```diff
+
+-7027.2.13.0.0
+-  __TEXT.__text: 0x1fb9c
++7027.2.519.2.2
++  __TEXT.__text: 0x213f4
+   __TEXT.__objc_methlist: 0x98c
+-  __TEXT.__const: 0xac8
++  __TEXT.__const: 0xb98
+   __TEXT.__gcc_except_tab: 0xf4
+   __TEXT.__cstring: 0x91a
+   __TEXT.__oslogstring: 0x596
+-  __TEXT.__constg_swiftt: 0x434
+-  __TEXT.__swift5_typeref: 0x68e
++  __TEXT.__constg_swiftt: 0x478
++  __TEXT.__swift5_typeref: 0x6ba
+   __TEXT.__swift5_builtin: 0x3c
+-  __TEXT.__swift5_reflstr: 0x29d
++  __TEXT.__swift5_reflstr: 0x2ad
+   __TEXT.__swift5_assocty: 0x98
+-  __TEXT.__swift5_proto: 0x2c
+-  __TEXT.__swift5_types: 0x3c
+-  __TEXT.__swift5_fieldmd: 0x238
+-  __TEXT.__swift5_capture: 0x390
+-  __TEXT.__swift_as_entry: 0x48
++  __TEXT.__swift5_proto: 0x30
++  __TEXT.__swift5_types: 0x40
++  __TEXT.__swift5_fieldmd: 0x26c
++  __TEXT.__swift5_capture: 0x3c8
++  __TEXT.__swift_as_entry: 0x4c
+   __TEXT.__swift_as_ret: 0x4c
+-  __TEXT.__swift_as_cont: 0x94
++  __TEXT.__swift_as_cont: 0x98
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0xc30
+-  __TEXT.__eh_frame: 0xc44
++  __TEXT.__unwind_info: 0xcc8
++  __TEXT.__eh_frame: 0xd1c
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x3a8
+-  __DATA_CONST.__objc_classlist: 0x60
++  __DATA_CONST.__objc_classlist: 0x68
+   __DATA_CONST.__objc_catlist: 0x10
+   __DATA_CONST.__objc_protolist: 0x38
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x758
+   __DATA_CONST.__objc_protorefs: 0x8
+   __DATA_CONST.__objc_superrefs: 0x20
+-  __DATA_CONST.__got: 0x5c8
+-  __AUTH_CONST.__const: 0x9c8
++  __DATA_CONST.__got: 0x5d8
++  __AUTH_CONST.__const: 0xa40
+   __AUTH_CONST.__cfstring: 0x360
+-  __AUTH_CONST.__objc_const: 0xf28
+-  __AUTH_CONST.__auth_got: 0xc80
++  __AUTH_CONST.__objc_const: 0x1020
++  __AUTH_CONST.__auth_got: 0xca0
+   __AUTH.__objc_data: 0x398
+-  __AUTH.__data: 0x2e8
++  __AUTH.__data: 0x398
+   __DATA.__objc_ivar: 0x48
+-  __DATA.__data: 0x8c0
++  __DATA.__data: 0x8e8
+   __DATA.__common: 0x18
+   __DATA_DIRTY.__objc_data: 0x1e0
+   __DATA_DIRTY.__data: 0x1c0
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 747
+-  Symbols:   696
++  Functions: 783
++  Symbols:   705
+   CStrings:  96
+ 
+Symbols:
++ __DATA__TtC16HealthSettingsUIP33_C35C8B5B8093AFE903D17BEDE03B242813OptInObserver
++ __IVARS__TtC16HealthSettingsUIP33_C35C8B5B8093AFE903D17BEDE03B242813OptInObserver
++ __METACLASS_DATA__TtC16HealthSettingsUIP33_C35C8B5B8093AFE903D17BEDE03B242813OptInObserver
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOyAeAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaDRd_0_AaDRd_1_r1_lFQOyAeAE29navigationBarTitleDisplayModeyQrAA010NavigationR4ItemV0stU0OFQOyAeAE0qS0yQrqd__SyRd__lFQOyACyACyAA4ListVys5NeverOAA05TupleD0VyAA7SectionVyAA05EmptyE0VACyAA6VStackVyA2_yACyACyACyACyACyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAA24_ForegroundStyleModifierVyAA5ColorVGGAA12_FrameLayoutVGAA34_InsettableBackgroundShapeModifierVyA21_AA16RoundedRectangleVGGAA31AccessibilityAttachmentModifierVG_AA4TextVA37_QPGGAA14_PaddingLayoutVGA6_G_A4_yA37_ACyAA6ToggleVyA37_GAA32_EnvironmentKeyTransformModifierVySbGGA37_GQPGGAA19_BackgroundModifierVy014HealthSettingsB0010Presentinge16ControllerAnchorE033_C35C8B5B8093AFE903D17BEDE03B2428LLVGGA12_yAA13OpenURLActionVGG_SSQo__Qo__SSA2_yAA6ButtonVyA37_G_A70_QPGA37_Qo__Qo_AA25_AppearanceActionModifierVGAaDHPqd__AaDHD2_A73_HO_A75_AA0E8ModifierHPyHCHC
++ _swift_release_n
++ _swift_retain_x9
++ _symbolic _____ 16HealthSettingsUI13OptInObserver33_C35C8B5B8093AFE903D17BEDE03B2428LLC
++ _symbolic _____Sg 16HealthSettingsUI13OptInObserver33_C35C8B5B8093AFE903D17BEDE03B2428LLC
++ _symbolic _____SgXw 16HealthSettingsUI023PersonalizedSuggestionsB8ProviderC
++ _symbolic _____y_____y_____y_____y_____yAAyAAy_____y__________y_____y_____AAy_____yADyAAyAAyAAyAAyAAy__________y_____SgGG_____y_____GG_____G_____yAO_____GG_____G______AZQPGG_____GAFG_AEyAzAy_____yAZG_____ySbGGAZGQPGG_____y_____GGAIy_____GG_SSQo__Qo__SSADy_____yAZG_A22_QPGAZQo__Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AeAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaDRd_0_AaDRd_1_r1_lFQO AeAE29navigationBarTitleDisplayModeyQrAA010NavigationR4ItemV0stU0OFQO AeAE0qS0yQrqd__SyRd__lFQO AA4ListV s5NeverO AA05TupleD0V AA7SectionV AA05EmptyE0V AA6VStackV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA24_ForegroundStyleModifierV AA5ColorV AA12_FrameLayoutV AA34_InsettableBackgroundShapeModifierV AA16RoundedRectangleV AA31AccessibilityAttachmentModifierV AA4TextV AA14_PaddingLayoutV AA6ToggleV AA32_EnvironmentKeyTransformModifierV AA19_BackgroundModifierV 014HealthSettingsB0010Presentinge16ControllerAnchorE033_C35C8B5B8093AFE903D17BEDE03B2428LLV AA13OpenURLActionV AA6ButtonV AA25_AppearanceActionModifierV
++ _symbolic ySbYbScMYcc
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOyAcAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQOyAcAE29navigationBarTitleDisplayModeyQrAA010NavigationP4ItemV0qrS0OFQOyAcAE0oQ0yQrqd__SyRd__lFQOyAA15ModifiedContentVyAXyAA4ListVys5NeverOAA05TupleW0VyAA7SectionVyAA05EmptyC0VAXyAA6VStackVyA2_yAXyAXyAXyAXyAXyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAA24_ForegroundStyleModifierVyAA5ColorVGGAA12_FrameLayoutVGAA34_InsettableBackgroundShapeModifierVyA21_AA16RoundedRectangleVGGAA31AccessibilityAttachmentModifierVG_AA4TextVA37_QPGGAA14_PaddingLayoutVGA6_G_A4_yA37_AXyAA6ToggleVyA37_GAA32_EnvironmentKeyTransformModifierVySbGGA37_GQPGGAA19_BackgroundModifierVy014HealthSettingsB0010Presentingc16ControllerAnchorC033_C35C8B5B8093AFE903D17BEDE03B2428LLVGGA12_yAA13OpenURLActionVGG_SSQo__Qo__SSA2_yAA6ButtonVyA37_G_A70_QPGA37_Qo__Qo_HO
+- _symbolic _____y_____y_____y_____y_____yAAy_____y__________y_____y_____AAy_____yADyAAyAAyAAyAAyAAy__________y_____SgGG_____y_____GG_____G_____yAO_____GG_____G______AZQPGG_____GAFG_AEyAzAy_____yAZG_____ySbGGAZGQPGG_____y_____GGAIy_____GG_SSQo__Qo__SSADy_____yAZG_A22_QPGAZQo__Qo_ 7SwiftUI4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AcAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQO AcAE29navigationBarTitleDisplayModeyQrAA010NavigationP4ItemV0qrS0OFQO AcAE0oQ0yQrqd__SyRd__lFQO AA15ModifiedContentV AA4ListV s5NeverO AA05TupleW0V AA7SectionV AA05EmptyC0V AA6VStackV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA24_ForegroundStyleModifierV AA5ColorV AA12_FrameLayoutV AA34_InsettableBackgroundShapeModifierV AA16RoundedRectangleV AA31AccessibilityAttachmentModifierV AA4TextV AA14_PaddingLayoutV AA6ToggleV AA32_EnvironmentKeyTransformModifierV AA19_BackgroundModifierV 014HealthSettingsB0010Presentingc16ControllerAnchorC033_C35C8B5B8093AFE903D17BEDE03B2428LLV AA13OpenURLActionV AA6ButtonV
+```

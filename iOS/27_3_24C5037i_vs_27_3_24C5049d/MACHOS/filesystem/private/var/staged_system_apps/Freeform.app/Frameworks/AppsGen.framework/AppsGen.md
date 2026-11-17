@@ -1,0 +1,87 @@
+## AppsGen
+
+> `/private/var/staged_system_apps/Freeform.app/Frameworks/AppsGen.framework/AppsGen`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__const`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__unwind_info`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
+```diff
+
+-656.60.5.0.0
+-  __TEXT.__text: 0x18caf4
++656.60.8.0.0
++  __TEXT.__text: 0x18cfb4
+   __TEXT.__auth_stubs: 0x27b0
+   __TEXT.__objc_stubs: 0x9a0
+   __TEXT.__objc_methlist: 0x35c
+Symbols:
++ /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/Freeform/install/TempContent/Objects/AppsGen.build/AppsGen.build/Objects-normal/arm64e/Provenance-139ee991a3a04186940e7b2cc1c7affd.o
+- /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/Freeform/install/TempContent/Objects/AppsGen.build/AppsGen.build/Objects-normal/arm64e/Provenance-af88ae75970191705e24e168c866cedc.o
+Functions:
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5 : 256 -> 280
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF7AppsGen27AGModelInvocationDetailDataV_Tg5 : 284 -> 320
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_7AppsGen13ModelProviderOt_Tg5 : 312 -> 348
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF7AppsGen12SafetyRatingV_Tg5 : 256 -> 272
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF7AppsGen13SafetySettingV_Tg5 : 272 -> 308
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF7AppsGen16CostTokenUtilityC11MoneyRecordV_Tg5 : 428 -> 456
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF7AppsGen18ModalityTokenCountV_Tg5 : 272 -> 308
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF7AppsGen3LLMO6OpenAIV9ResponsesV8ResponseV6OutputV7ContentV_Tg5 : 272 -> 308
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF7AppsGen3LLMO6OpenAIV9ResponsesV8ResponseV6OutputV_Tg5 : 256 -> 280
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF7AppsGen3LLMO14FileAttachmentO_Tg5 : 256 -> 280
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS3key_SS5valuet_Tg5 : 296 -> 320
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF7AppsGen22OpenAICostTokenUtilityC8ToolCostVSg_Tg5 : 260 -> 296
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSd_Tg5 : 248 -> 272
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF7AppsGen10AnyCodableV_Tg5 : 272 -> 308
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFyp_Tg5 : 260 -> 284
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSi_Tg5 : 248 -> 272
+~ _$s7AppsGen30FloodgateAuthorizationProviderC15queryParameters33_F3A08C573D832723F08A9F9154C90F2DLL_WZ : 464 -> 492
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCSS_Tt1g5 : 128 -> 152
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCSS3key_SS5valuet_Tt1g5 : 128 -> 152
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF7AppsGen3LLMO5UsageV_Tg5 : 292 -> 324
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF7AppsGen3LLMO20TokenStreamingParserO5StateO_Tg5Tm : 276 -> 312
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5 : 260 -> 284
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF7AppsGen16FunctionCallPartV_Tg5 : 260 -> 276
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF7AppsGen14InlineDataPartV_Tg5 : 284 -> 320
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF7AppsGen12InternalPartV_Tg5 : 260 -> 276
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF7AppsGen17GroundingMetadataV0Q7SupportV_Tg5 : 276 -> 312
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSd_Tg5 : 252 -> 276
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSs_Tg5 : 260 -> 284
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF7AppsGen16PromptServerToolV_Tg5 : 276 -> 312
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF7AppsGen3LLMO6OpenAIV9ResponsesV8ResponseV6OutputV7ContentV10AnnotationV_Tg5 : 276 -> 312
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF7AppsGen3LLMO6OpenAIV9ResponsesV8ResponseV6OutputV7ContentV_Tg5 : 276 -> 312
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSay7AppsGen3LLMO6OpenAIV9ResponsesV8ResponseV6OutputV7ContentV10AnnotationVG_Tg5Tm : 300 -> 324
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF7AppsGen3LLMO6OpenAIV9ResponsesV7RequestV4ToolO_Tg5 : 284 -> 316
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF7AppsGen3LLMO6OpenAIV9ResponsesV5InputO7MessageV_Tg5 : 260 -> 284
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF7AppsGen20ReportAConcernHelperV16FeedbackDataFileV_Tg5 : 276 -> 312
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10Foundation12URLQueryItemV_Tg5Tm : 436 -> 480
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF7AppsGen4Part_p_Tg5Tm : 316 -> 352
+~ _$s7AppsGen3LLMO6OpenAIV0D9AIRequestPAAE10urlRequest10Foundation10URLRequestVyKFAE11GenerationsV0H0V_TB5 : 3212 -> 3180
+~ _$s7AppsGen3LLMO6OpenAIV0D9AIRequestPAAE10urlRequest10Foundation10URLRequestVyKFAE10ModerationV0H0V_TB5 : 3184 -> 3152
+~ _$s7AppsGen3LLMO6OpenAIV0D9AIRequestPAAE10urlRequest10Foundation10URLRequestVyKFAE9ResponsesV0H0V_Tg5 : 2720 -> 2724
+~ _$s7AppsGen3LLMO6OpenAIV0D9AIRequestPAAE10urlRequest10Foundation10URLRequestVyKFAE6CancelV0H0V_TB5 : 2956 -> 2968
+~ _$s7AppsGen3LLMO6OpenAIV0D9AIRequestPAAE10urlRequest10Foundation10URLRequestVyKFAE11CompletionsV0H0V_TB5 : 3004 -> 3024
+~ _$s7AppsGen3LLMO6OpenAIV14RequestBuilderV10buildInputyAE9ResponsesV0I0OSSSg_SayAC14FileAttachmentOGSgtKFZ : 1388 -> 1400
+~ _$s7AppsGen3LLMO6GeminiV0D7RequestPAAE03urlE010Foundation10URLRequestVyKFAE9ResponsesV0E0V_TB5 : 2692 -> 2704
+~ _$s7AppsGen3LLMO6GeminiV0D7RequestPAAE03urlE010Foundation10URLRequestVyKF : 2988 -> 3000
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSnySiG_Tgq5 : 252 -> 276
+~ _$s7AppsGen3LLMO6OpenAIV0D9AIRequestPAAE10urlRequest10Foundation10URLRequestVyKF : 3128 -> 3156
+~ _$s7AppsGen3LLMO6OpenAIV13generateImage5input13configuration9streaming17generationOptions7sessionAC0G16GenerationResultVAC11PromptInputO_AC0gN13ConfigurationVSbAC0nL0VSgAA0aB7SessionCSgtYaKFTY14_ : 2400 -> 2404
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tt1gq5 : 112 -> 124
+~ _$s7AppsGen26RemoteConfigurationServiceC14resolveSettingyqd__SgAExXElF : 1432 -> 1484
+```

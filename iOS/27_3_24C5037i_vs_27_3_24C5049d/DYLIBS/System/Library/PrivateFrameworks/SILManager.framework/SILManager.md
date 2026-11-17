@@ -1,0 +1,81 @@
+## SILManager
+
+> `/System/Library/PrivateFrameworks/SILManager.framework/SILManager`
+
+```diff
+
+-68.17.0.0.0
+-  __TEXT.__text: 0x687a0
++68.19.0.0.0
++  __TEXT.__text: 0x68ab0
+   __TEXT.__objc_methlist: 0x740
+-  __TEXT.__const: 0x4ebc
++  __TEXT.__const: 0x4e8c
+   __TEXT.__cstring: 0x2917
+   __TEXT.__oslogstring: 0x2c88
+   __TEXT.__gcc_except_tab: 0x7cc
+-  __TEXT.__swift5_typeref: 0xc78
++  __TEXT.__swift5_typeref: 0xc6a
+   __TEXT.__swift5_capture: 0x120
+   __TEXT.__swift5_reflstr: 0x141c
+   __TEXT.__swift5_assocty: 0x1b8
+
+   __AUTH_CONST.__objc_const: 0x21d8
+   __AUTH_CONST.__weak_auth_got: 0x18
+   __AUTH_CONST.__auth_got: 0xd58
+-  __DATA.__data: 0x5b0
++  __DATA.__data: 0x5a8
+   __DATA.__common: 0x38
+   __DATA_DIRTY.__objc_data: 0xd58
+   __DATA_DIRTY.__data: 0x1400
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 1804
+-  Symbols:   4410
++  Functions: 1803
++  Symbols:   4406
+   CStrings:  523
+ 
+Symbols:
+- _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10SILManager12SILValidatorC14FBIEnforcementV_Tg5
+- _$ss23_ContiguousArrayStorageCy10SILManager12SILValidatorC14FBIEnforcementVGMR
+- _$ss23_ContiguousArrayStorageCy10SILManager12SILValidatorC14FBIEnforcementVGMd
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 10SILManager12SILValidatorC14FBIEnforcementV
+Functions:
+~ _$s10SILManager12SILValidatorC22checkFallbackIndicator6states8rendererAC16FBITriggeredTypeOAC0E6StatesV_AA11SILRendererCtF : 5180 -> 5316
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSb5dirty_10SILManager12SILValidatorC11RegionStateVSgt_Tg5 : 324 -> 356
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10SILManager12SILValidatorC14CommittedStateVSg_Tg5 : 272 -> 308
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10SILManager12SILValidatorC11RegionStateVSg_Tg5 : 316 -> 352
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10SILManager12SILValidatorC14FBIEnforcementVSg_Tg5 : 264 -> 300
+- _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10SILManager12SILValidatorC14FBIEnforcementV_Tg5
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tt1gq5 : 112 -> 124
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSb5dirty_10SILManager12SILValidatorC11RegionStateVSgt_Tg5 : 320 -> 352
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10SILManager14SILBoundingBoxV_Tg5 : 260 -> 296
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10SILManager12SILValidatorC11RegionStateVSg_Tg5 : 312 -> 348
+~ _$s10SILManager11SILManifestC10indicators7cursorsACSayAA16SILIndicatorDescCG_SayAA09SILCursorF0CGtcfc : 3388 -> 3432
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFyp_Tg5 : 264 -> 288
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10SILManager16SILIndicatorDescC_Sit_Tg5 : 300 -> 324
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10SILManager13SILFileHandle_p_Tg5 : 316 -> 352
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCSS_Tt1g5 : 128 -> 152
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCSi_Tt1g5 : 128 -> 152
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10SILManager14SILBoundingBoxV_Tg5Tm : 252 -> 288
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5 : 256 -> 280
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSo6CGRectV_Tg5 : 248 -> 272
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10SILManager13SILFileHandle_p_Tg5 : 312 -> 348
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_SSt_Tg5 : 296 -> 320
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS3key_10SILManager13SILCursorDescC5valuet_Tg5 : 312 -> 348
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSi_Tg5 : 248 -> 272
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSnySiG_Tgq5 : 252 -> 276
+~ _$s10SILManager11SILRendererC4swap9region_id13indicator_idx8position9zRotation12frame_number7opacity10glyphScale19isFallbackIndicators6UInt64VSi_SiSo7CGPointVAA0I0Os6UInt16VS2fSbtKF : 18952 -> 18960
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSrys5UInt8VG_Tg5 : 252 -> 276
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10SILManager13IOSurfaceLike_pSg_Tg5 : 316 -> 352
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSi_Tg5 : 252 -> 276
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10SILManager11SILRendererC6RegionC11PageContentV_Tg5Tm : 264 -> 300
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10SILManager0O15CommittedSwapTBV_Tg5 : 252 -> 268
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10SILManager13IOSurfaceLike_pSg_Tg5 : 312 -> 348
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10SILManager14SILEXDataCacheC0Q4Slot33_D08FA8C5252B9C3FD89A8A3EBD2903ECLLV_Tg5 : 284 -> 320
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10SILManager0P15CommittedSwapTBV_Tg5 : 248 -> 264
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSf_Tg5 : 248 -> 272
+```

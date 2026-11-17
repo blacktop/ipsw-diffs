@@ -1,0 +1,68 @@
+## TipKit
+
+> `/System/Library/Frameworks/TipKit.framework/TipKit`
+
+```diff
+
+-129.2.1.0.0
+-  __TEXT.__text: 0x6c098
++129.2.2.0.0
++  __TEXT.__text: 0x6c344
+   __TEXT.__objc_methlist: 0x528
+-  __TEXT.__const: 0x5f40
+-  __TEXT.__swift5_typeref: 0x570e
++  __TEXT.__const: 0x5f50
++  __TEXT.__swift5_typeref: 0x579c
+   __TEXT.__swift5_capture: 0x8ac
+   __TEXT.__constg_swiftt: 0x2a64
+   __TEXT.__swift5_fieldmd: 0x1878
+
+   __TEXT.__swift5_protos: 0x28
+   __TEXT.__swift5_mpenum: 0x8
+   __TEXT.__oslogstring: 0x85
+-  __TEXT.__unwind_info: 0x2d10
++  __TEXT.__unwind_info: 0x2d18
+   __TEXT.__eh_frame: 0x1d4c
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+
+   __DATA_CONST.__got: 0xb00
+   __AUTH_CONST.__const: 0x4020
+   __AUTH_CONST.__objc_const: 0xbf8
+-  __AUTH_CONST.__auth_got: 0x1b50
++  __AUTH_CONST.__auth_got: 0x1b58
+   __AUTH.__objc_data: 0x1f8
+   __AUTH.__data: 0xf0
+-  __DATA.__data: 0xf00
++  __DATA.__data: 0xf58
+   __DATA.__common: 0x18
+   __DATA_DIRTY.__objc_data: 0x528
+-  __DATA_DIRTY.__data: 0x2738
++  __DATA_DIRTY.__data: 0x26f8
+   __DATA_DIRTY.__bss: 0x4030
+   __DATA_DIRTY.__common: 0x18
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 3817
+-  Symbols:   1422
++  Functions: 3818
++  Symbols:   1424
+   CStrings:  84
+ 
+Symbols:
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE11hoverEffect_9isEnabledQrqd___SbtAA011CustomHoverG0Rd__lFQOyACyAeAE11buttonStyleyQrqd__AA015PrimitiveButtonM0Rd__lFQOyAA0O0VyACyACyACyACyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAPyAA5ColorVSgGGAPyAA19SymbolRenderingModeVSgGGAA01_d9ShapeKindT0VyAA9RectangleV6_InsetVGGG_AA05PlainoM0VQo_A5_yAA6CircleVGG_AA09AutomatickG0VQo_AA023AccessibilityAttachmentT0VGAaDHPqd0__AaDHD3_A22_HO_A24_AA0eT0HPyHCHC
++ _symbolic _____yAAyAAyAAy__________y_____SgGGACy_____SgGGACy_____SgGG_____y_____GG 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AA19SymbolRenderingModeV AA01_d9ShapeKindI0V AA9RectangleV6_InsetV
++ _symbolic _____y_____G 7SwiftUI25_ContentShapeKindModifierV AA9RectangleV6_InsetV
++ _symbolic _____y_____yAAy_____y_____yAAyAAyAAyAAy__________y_____SgGGADy_____SgGGADy_____SgGG_____y_____GGG______Qo_AQy_____GG______Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE11hoverEffect_9isEnabledQrqd___SbtAA011CustomHoverG0Rd__lFQO AeAE11buttonStyleyQrqd__AA015PrimitiveButtonM0Rd__lFQO AA0O0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AA19SymbolRenderingModeV AA01_d9ShapeKindT0V AA9RectangleV6_InsetV AA05PlainoM0V AA6CircleV AA09AutomatickG0V AA023AccessibilityAttachmentT0V
++ _symbolic _____y_____yAByAByABy__________y_____SgGGADy_____SgGGADy_____SgGG_____y_____GGG 7SwiftUI6ButtonV AA15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AA19SymbolRenderingModeV AA01_e9ShapeKindJ0V AA9RectangleV6_InsetV
++ _symbolic _____y_____y_____yAAyAAyAAyAAy__________y_____SgGGADy_____SgGGADy_____SgGG_____y_____GGG______Qo_AQy_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonG0Rd__lFQO AA0I0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AA19SymbolRenderingModeV AA01_d9ShapeKindN0V AA9RectangleV6_InsetV AA05PlainiG0V AA6CircleV
++ _symbolic _____y_____y_____y_____yAAyAAyAAyAAy__________y_____SgGGADy_____SgGGADy_____SgGG_____y_____GGG______Qo_AQy_____GG______Qo_ 7SwiftUI4ViewPAAE11hoverEffect_9isEnabledQrqd___SbtAA011CustomHoverE0Rd__lFQO AA15ModifiedContentV AcAE11buttonStyleyQrqd__AA015PrimitiveButtonM0Rd__lFQO AA0O0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AA19SymbolRenderingModeV AA01_k9ShapeKindT0V AA9RectangleV6_InsetV AA05PlainoM0V AA6CircleV AA09AutomaticiE0V
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE11hoverEffect_9isEnabledQrqd___SbtAA011CustomHoverG0Rd__lFQOyACyAeAE11buttonStyleyQrqd__AA015PrimitiveButtonM0Rd__lFQOyAA0O0VyACyACyACyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAPyAA5ColorVSgGGAPyAA19SymbolRenderingModeVSgGGG_AA05PlainoM0VQo_AA01_d9ShapeKindT0VyAA6CircleVGG_AA09AutomatickG0VQo_AA023AccessibilityAttachmentT0VGAaDHPqd0__AaDHD3_A16_HO_A18_AA0eT0HPyHCHC
+- _symbolic _____y_____yAAy_____y_____yAAyAAyAAy__________y_____SgGGADy_____SgGGADy_____SgGGG______Qo______y_____GG______Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE11hoverEffect_9isEnabledQrqd___SbtAA011CustomHoverG0Rd__lFQO AeAE11buttonStyleyQrqd__AA015PrimitiveButtonM0Rd__lFQO AA0O0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AA19SymbolRenderingModeV AA05PlainoM0V AA01_d9ShapeKindT0V AA6CircleV AA09AutomatickG0V AA023AccessibilityAttachmentT0V
+- _symbolic _____y_____yAByABy__________y_____SgGGADy_____SgGGADy_____SgGGG 7SwiftUI6ButtonV AA15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AA19SymbolRenderingModeV
+- _symbolic _____y_____y_____yAAyAAyAAy__________y_____SgGGADy_____SgGGADy_____SgGGG______Qo______y_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonG0Rd__lFQO AA0I0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AA19SymbolRenderingModeV AA05PlainiG0V AA01_d9ShapeKindN0V AA6CircleV
+- _symbolic _____y_____y_____y_____yAAyAAyAAy__________y_____SgGGADy_____SgGGADy_____SgGGG______Qo______y_____GG______Qo_ 7SwiftUI4ViewPAAE11hoverEffect_9isEnabledQrqd___SbtAA011CustomHoverE0Rd__lFQO AA15ModifiedContentV AcAE11buttonStyleyQrqd__AA015PrimitiveButtonM0Rd__lFQO AA0O0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AA19SymbolRenderingModeV AA05PlainoM0V AA01_k9ShapeKindT0V AA6CircleV AA09AutomaticiE0V
+```

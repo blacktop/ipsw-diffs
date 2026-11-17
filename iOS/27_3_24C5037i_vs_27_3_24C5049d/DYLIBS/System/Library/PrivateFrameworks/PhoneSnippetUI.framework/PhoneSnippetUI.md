@@ -1,0 +1,35 @@
+## PhoneSnippetUI
+
+> `/System/Library/PrivateFrameworks/PhoneSnippetUI.framework/PhoneSnippetUI`
+
+```diff
+
+-3610.8.1.1.1
+-  __TEXT.__text: 0xb72a8
++3610.11.2.0.0
++  __TEXT.__text: 0xb7428
+   __TEXT.__const: 0xc178
+   __TEXT.__swift5_typeref: 0xc0a8
+   __TEXT.__swift5_capture: 0x860
+Functions:
+~ _$s14PhoneSnippetUI18AppDescriptionViewV07appIconF033_0D6A7F0C026611849F1139985DEBE643LL05SwiftC003AnyF0Vvg : 888 -> 896
+~ _$s14PhoneSnippetUI22CallHistoryPreviewDataO10allRecords_WZ : 768 -> 792
+~ _$s14PhoneSnippetUI22CallHistoryPreviewDataO13allVoicemails_WZ : 568 -> 584
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5 : 260 -> 284
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF14PhoneSnippetUI17DisplayableHandleV_Tg5 : 284 -> 320
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSJ_Tg5 : 260 -> 284
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tt1gq5 : 112 -> 124
+~ _$s14PhoneSnippetUI17ContactHeaderViewV4bodyQrvg05SwiftC012TupleContentVyAE012_ConditionalJ0VyAE0F0PAEE11environmentyQrs15WritableKeyPathCyAE17EnvironmentValuesVqd__G_qd__tlFQOy0bC0012ImageElementF0V_0B3Kit0rS0V0R5StyleOSgQo_AC9thumbnail33_85B2B4D95A5A5236D70B75957E25CB14LLQrvpQOy_Qo_G_AkEE5frame8minWidth10idealWidth8maxWidth9minHeight11idealHeight9maxHeight9alignmentQr12CoreGraphics7CGFloatVSg_A15_A15_A15_A15_A15_AE9AlignmentVtFQOyAE4TextV_Qo_QPGyXEfU_ : 1744 -> 1736
+~ _$s14PhoneSnippetUI17ContactHeaderViewV9thumbnail33_85B2B4D95A5A5236D70B75957E25CB14LLQrvg : 1324 -> 1328
+~ _$s14PhoneSnippetUI32ShowCallHistoryListView_PreviewsV22missedAndIncomingModel33_FCF4400B1364C8C69E467123426F659DLL_WZ : 788 -> 800
+~ _$s14PhoneSnippetUI32ShowCallHistoryListView_PreviewsV18facetimeCallsModel33_FCF4400B1364C8C69E467123426F659DLL_WZ : 788 -> 800
+~ _$s14PhoneSnippetUI32ShowCallHistoryListView_PreviewsV18whatsappCallsModel33_FCF4400B1364C8C69E467123426F659DLL_WZ : 788 -> 800
+~ _$s14PhoneSnippetUI21CallHistoryAvatarViewV4bodyQrvg : 1052 -> 1064
+~ _$s14PhoneSnippetUI34ShowPlayVoicemailListView_PreviewsV15unseenOnlyModel33_256A40D495277E3A45A9DE9F54A841F6LL_WZ : 436 -> 448
+~ _$s14PhoneSnippetUI34ShowPlayVoicemailListView_PreviewsV13seenOnlyModel33_256A40D495277E3A45A9DE9F54A841F6LL_WZ : 436 -> 448
+~ _$ss30_copySequenceToContiguousArrayys0dE0Vy7ElementQzGxSTRzlFs010EnumeratedB0VySay14PhoneSnippetUI21SingleCallRecordModelVGG_Tg5 : 816 -> 864
+~ _$ss30_copySequenceToContiguousArrayys0dE0Vy7ElementQzGxSTRzlFs010EnumeratedB0VySay14PhoneSnippetUI20SingleVoicemailModelVGG_Tg5 : 816 -> 864
+~ _$s14PhoneSnippetUI18ContactAvatarImageV4bodyQrvg : 860 -> 884
+~ _$ss32_copyCollectionToContiguousArrayys0dE0Vy7ElementQzGxSlRzlFs0E5SliceVy14PhoneSnippetUI17DisplayableHandleVG_Tg5 : 244 -> 280
+~ _$s14PhoneSnippetUI19StackedButtonsModelV19buttonConfiguration7useCaseAcA06ButtonhF0V_AC03UseJ0OtcfC : 196 -> 212
+```

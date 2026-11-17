@@ -1,0 +1,356 @@
+## AXCoreUtilities
+
+> `/System/Library/PrivateFrameworks/AXCoreUtilities.framework/AXCoreUtilities`
+
+```diff
+
+-3245.8.14.0.0
+-  __TEXT.__text: 0x1635cc
++3245.8.23.0.0
++  __TEXT.__text: 0x16736c
+   __TEXT.__objc_methlist: 0x2ed4
+-  __TEXT.__const: 0xe264
++  __TEXT.__const: 0xe254
+   __TEXT.__dlopen_cstrs: 0x447
+-  __TEXT.__swift5_typeref: 0x379a
+-  __TEXT.__constg_swiftt: 0x36d8
+-  __TEXT.__swift5_reflstr: 0x25ec
+-  __TEXT.__swift5_fieldmd: 0x3294
++  __TEXT.__swift5_typeref: 0x37c2
++  __TEXT.__constg_swiftt: 0x36f0
++  __TEXT.__swift5_reflstr: 0x26cc
++  __TEXT.__swift5_fieldmd: 0x32d0
+   __TEXT.__swift5_builtin: 0x230
+   __TEXT.__swift5_assocty: 0x708
+   __TEXT.__swift5_proto: 0xa48
+   __TEXT.__swift5_types: 0x3a8
+-  __TEXT.__swift5_capture: 0x2754
+-  __TEXT.__cstring: 0x87b4
+-  __TEXT.__swift_as_entry: 0x2a4
+-  __TEXT.__swift_as_ret: 0x29c
+-  __TEXT.__swift_as_cont: 0x4ac
++  __TEXT.__swift5_capture: 0x2810
++  __TEXT.__cstring: 0x842f
++  __TEXT.__swift_as_entry: 0x2ac
++  __TEXT.__swift_as_ret: 0x2a0
++  __TEXT.__swift_as_cont: 0x4c4
+   __TEXT.__swift5_protos: 0x70
+   __TEXT.__oslogstring: 0x1a71
+   __TEXT.__swift5_mpenum: 0x48
+   __TEXT.__gcc_except_tab: 0x6bc
+   __TEXT.__ustring: 0x8
+-  __TEXT.__unwind_info: 0x7eb8
+-  __TEXT.__eh_frame: 0xab28
++  __TEXT.__unwind_info: 0x8020
++  __TEXT.__eh_frame: 0xae08
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1800
++  __DATA_CONST.__const: 0x1820
+   __DATA_CONST.__objc_classlist: 0x378
+   __DATA_CONST.__objc_catlist: 0x60
+   __DATA_CONST.__objc_protolist: 0x80
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1ed8
++  __DATA_CONST.__objc_selrefs: 0x1ee8
+   __DATA_CONST.__objc_protorefs: 0x38
+   __DATA_CONST.__objc_superrefs: 0x88
+   __DATA_CONST.__objc_arraydata: 0x38
+-  __DATA_CONST.__got: 0xb78
+-  __AUTH_CONST.__const: 0xd840
+-  __AUTH_CONST.__cfstring: 0x5d80
+-  __AUTH_CONST.__objc_const: 0x7838
++  __DATA_CONST.__got: 0xba8
++  __AUTH_CONST.__const: 0xd9a8
++  __AUTH_CONST.__cfstring: 0x5d60
++  __AUTH_CONST.__objc_const: 0x78d8
+   __AUTH_CONST.__objc_doubleobj: 0x50
+   __AUTH_CONST.__objc_arrayobj: 0x30
+   __AUTH_CONST.__objc_intobj: 0x18
+-  __AUTH_CONST.__auth_got: 0x20d0
++  __AUTH_CONST.__auth_got: 0x2128
+   __AUTH.__objc_data: 0x1638
+   __AUTH.__data: 0x2128
+   __DATA.__objc_ivar: 0x1c4
+-  __DATA.__data: 0x3bf0
++  __DATA.__data: 0x3c60
+   __DATA.__common: 0xb8
+-  __DATA_DIRTY.__objc_data: 0xd58
++  __DATA_DIRTY.__objc_data: 0xd78
+   __DATA_DIRTY.__data: 0xe08
+-  __DATA_DIRTY.__bss: 0xa98
++  __DATA_DIRTY.__bss: 0xa78
+   __DATA_DIRTY.__common: 0x98
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswift_DarwinFoundation2.dylib
+   - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  Functions: 8967
+-  Symbols:   20578
+-  CStrings:  1509
++  Functions: 9033
++  Symbols:   20724
++  CStrings:  1515
+ 
+Symbols:
++ GCC_except_table112
++ GCC_except_table173
++ GCC_except_table199
++ GCC_except_table204
++ GCC_except_table217
++ GCC_except_table233
++ GCC_except_table235
++ GCC_except_table262
++ GCC_except_table297
++ GCC_except_table302
++ GCC_except_table447
++ GCC_except_table449
++ GCC_except_table467
++ GCC_except_table479
++ GCC_except_table482
++ GCC_except_table523
++ GCC_except_table650
++ GCC_except_table657
++ GCC_except_table662
++ GCC_except_table664
++ _$s10Foundation12CharacterSetV11whitespacesACvgZ
++ _$s10Foundation17URLResourceValuesV14isSymbolicLinkSbSgvg
++ _$s10Foundation17URLResourceValuesV23contentModificationDateAA0F0VSgvg
++ _$s15AXCoreUtilities10ResumeGate33_21276CD0495B56C1DC2EA71B8AAFD743LLC6resumeySbAA27AXDiagnosticDeadlineOutcomeOyxGFScCyAHs5NeverOGSg_ScTyytAJGSgtyXEfU_TA
++ _$s15AXCoreUtilities14withNextChangeyxxycYaKlFxyYaKXEfU_yScCyxs5Error_pGXEfU_xyXEfU_SbSg_TG5
++ _$s15AXCoreUtilities14withNextChangeyxxycYaKlFxyYaKXEfU_yScCyxs5Error_pGXEfU_xyXEfU_SbSg_TG5TA
++ _$s15AXCoreUtilities14withNextChangeyxxycYaKlFxyYaKXEfU_yScCyxs5Error_pGXEfU_y11Observation0G8TrackingVYbcfU0_SbSg_Tg5
++ _$s15AXCoreUtilities14withNextChangeyxxycYaKlFxyYaKXEfU_yScCyxs5Error_pGXEfU_y11Observation0G8TrackingVYbcfU0_SbSg_Tg5TA
++ _$s15AXCoreUtilities14withNextChangeyxxycYaKlFxyYaKXEfU_yScCyxs5Error_pGXEfU_y11Observation0G8TrackingVYbcfU0_yyYacfU_SbSg_Tg5
++ _$s15AXCoreUtilities14withNextChangeyxxycYaKlFxyYaKXEfU_yScCyxs5Error_pGXEfU_y11Observation0G8TrackingVYbcfU0_yyYacfU_SbSg_Tg5TA
++ _$s15AXCoreUtilities14withNextChangeyxxycYaKlFxyYaKXEfU_yScCyxs5Error_pGXEfU_y11Observation0G8TrackingVYbcfU0_yyYacfU_SbSg_Tg5TATQ0_
++ _$s15AXCoreUtilities14withNextChangeyxxycYaKlFxyYaKXEfU_yScCyxs5Error_pGXEfU_y11Observation0G8TrackingVYbcfU0_yyYacfU_SbSg_Tg5TATu
++ _$s15AXCoreUtilities14withNextChangeyxxycYaKlFxyYaKXEfU_yScCyxs5Error_pGXEfU_y11Observation0G8TrackingVYbcfU0_yyYacfU_SbSg_Tg5TY0_
++ _$s15AXCoreUtilities14withNextChangeyxxycYaKlFxyYaKXEfU_yScCyxs5Error_pGXEfU_y11Observation0G8TrackingVYbcfU0_yyYacfU_SbSg_Tg5Tu
++ _$s15AXCoreUtilities15AXSettingRecordC12currentValue33_E2D93E7C407CFD94E6AD54626134A879LLxvgSbSg_Tg5
++ _$s15AXCoreUtilities15AXSettingRecordC12currentValue33_E2D93E7C407CFD94E6AD54626134A879LLxvsSbSg_Tg5
++ _$s15AXCoreUtilities15AXSettingRecordC12encodedValues11AnyHashableVSgvgSbSg_Tg5
++ _$s15AXCoreUtilities15AXSettingRecordC12encodedValues11AnyHashableVSgvgyycfU_SbSg_Tg5
++ _$s15AXCoreUtilities15AXSettingRecordC12encodedValues11AnyHashableVSgvgyycfU_SbSg_Tg5TA
++ _$s15AXCoreUtilities15AXSettingRecordC12encodedValues11AnyHashableVSgvgyycfU_yyXEfU_SbSg_Tg5TA
++ _$s15AXCoreUtilities15AXSettingRecordC12encodedValues11AnyHashableVSgvgyycfU_yyXEfU_Sb_Tg5Tm
++ _$s15AXCoreUtilities15AXSettingRecordC12encodedValues11AnyHashableVSgvsyyXEfU_SbSg_Tg5TA
++ _$s15AXCoreUtilities15AXSettingRecordC16_cacheGeneration33_E2D93E7C407CFD94E6AD54626134A879LLs6UInt64Vvg
++ _$s15AXCoreUtilities15AXSettingRecordC5owner12defaultValue3key6domain6didSet04willK010attributes0L3GetACyxGqd___xycS2SSgyxcSgxxcSgAA20AXSettingsAttributesVxSgxcSgtcSeRzSERzAA20AXObservableSettingsRd__lufcARs11AnyHashableVSgcfU_AM_So0aR0CAAE9VoiceOverCTG5TA.213Tm
++ _$s15AXCoreUtilities15AXSettingRecordC5owner12defaultValue3key6domain6didSet04willK010attributes0L3GetACyxGqd___xycS2SSgyxcSgxxcSgAA20AXSettingsAttributesVxSgxcSgtcSeRzSERzAA20AXObservableSettingsRd__lufcARs11AnyHashableVSgcfU_SbSg_So0aR0CAAE9VoiceOverCTG5TA
++ _$s15AXCoreUtilities15AXSettingRecordC5owner12defaultValue3key6domain6didSet04willK010attributes0L3GetACyxGqd___xycS2SSgyxcSgxxcSgAA20AXSettingsAttributesVxSgxcSgtcSeRzSERzAA20AXObservableSettingsRd__lufcARs11AnyHashableVSgcfU_SbSg_So0aR0CAAE9VoiceOverCTg5
++ _$s15AXCoreUtilities15AXSettingRecordC5owner12defaultValue3key6domain6didSet04willK010attributes0L3GetACyxGqd___xycS2SSgyxcSgxxcSgAA20AXSettingsAttributesVxSgxcSgtcSeRzSERzAA20AXObservableSettingsRd__lufcs11AnyHashableVSgxcfU0_SbSg_So0aR0CAAE9VoiceOverCTG5
++ _$s15AXCoreUtilities15AXSettingRecordC5valuexvgSbSg_Tg5
++ _$s15AXCoreUtilities15AXSettingRecordC5valuexvgxSg_s6UInt64VtyXEfU_
++ _$s15AXCoreUtilities15AXSettingRecordC5valuexvgyyXEfU0_
++ _$s15AXCoreUtilities15AXSettingRecordC5valuexvsSbSg_Tg5
++ _$s15AXCoreUtilities15AXSettingRecordC5valuexvsyycfU_SbSg_Tg5
++ _$s15AXCoreUtilities15AXSettingRecordCySSGACyxGAA0C8ProtocolAAWlTm
++ _$s15AXCoreUtilities15AXSettingRecordCySbSgGACyxG11Observation10ObservableAAWL
++ _$s15AXCoreUtilities15AXSettingRecordCySbSgGACyxGAA0C8ProtocolAAWL
++ _$s15AXCoreUtilities15AXSettingRecordCySbSgGMR
++ _$s15AXCoreUtilities15AXSettingRecordCySbSgGMd
++ _$s15AXCoreUtilities15AXSettingRecordCySdGACyxG11Observation10ObservableAAWlTm
++ _$s15AXCoreUtilities18AXDiagnosticBrokerO15ansiEscapeRegex33_7BA41779AEC6C7F0F392B915B680203DLLSo19NSRegularExpressionCSgvpZ
++ _$s15AXCoreUtilities18AXDiagnosticBrokerO15ansiEscapeRegex33_7BA41779AEC6C7F0F392B915B680203DLL_WZ
++ _$s15AXCoreUtilities18AXDiagnosticBrokerO15ansiEscapeRegex33_7BA41779AEC6C7F0F392B915B680203DLL_Wz
++ _$s15AXCoreUtilities18AXDiagnosticBrokerO18collectedDirectory19fromCollectorOutput10Foundation3URLVSgSS_tFZ
++ _$s15AXCoreUtilities18AXDiagnosticBrokerO21automaticOutputPrefixSSvgZ
++ _$s15AXCoreUtilities18AXDiagnosticBrokerO21automaticOutputPrefixSSvpZMV
++ _$s15AXCoreUtilities18AXDiagnosticBrokerO31pruneAutomaticOutputDirectories2in3now9olderThanSi10Foundation3URLVSg_AH4DateVSdtFZ
++ _$s15AXCoreUtilities18AXDiagnosticBrokerO31staleAutomaticOutputDirectories2in3now9olderThanSay10Foundation3URLVGAJ_AH4DateVSdtFZ
++ _$s15AXCoreUtilities18AXDiagnosticBrokerO31staleAutomaticOutputDirectories2in3now9olderThanSay10Foundation3URLVGAJ_AH4DateVSdtFZTf4nnnd_n
++ _$s15AXCoreUtilities18AXMigratingDecoderC6decodeyxxmKSeRzlFSbSg_Tt0g5
++ _$s15AXCoreUtilities18AXMigratingEncoderC6encodeys11AnyHashableVSgxKSERzlFSbSg_Tg5
++ _$s15AXCoreUtilities19AXDiagnosticRequestV11budgetRangeSNySdGvgZ
++ _$s15AXCoreUtilities19AXDiagnosticRequestV11budgetRangeSNySdGvpZMV
++ _$s15AXCoreUtilities19AXDiagnosticRequestV6budget4froms8DurationVSgSDyS2SG_tFZ
++ _$s15AXCoreUtilities19AXDiagnosticRequestV6budget4froms8DurationVSgSDyS2SG_tFZTf4nd_n
++ _$s15AXCoreUtilities19AXDiagnosticRequestV6budgets8DurationVSgvg
++ _$s15AXCoreUtilities19AXDiagnosticRequestV6budgets8DurationVSgvpMV
++ _$s15AXCoreUtilities24AXDiagnosticParameterKeyO13budgetSecondsSSvgZ
++ _$s15AXCoreUtilities24AXDiagnosticParameterKeyO13budgetSecondsSSvpZMV
++ _$s15AXCoreUtilities27axObservationTrackingStreamyScSyxGxyclFyScS12ContinuationVyx_GXEfU_SbSg_Tg5
++ _$s15AXCoreUtilities27axObservationTrackingStreamyScSyxGxyclFyScS12ContinuationVyx_GXEfU_SbSg_Tg5TA
++ _$s15AXCoreUtilities27axObservationTrackingStreamyScSyxGxyclFyScS12ContinuationVyx_GXEfU_yAE11TerminationOyx__GYbcfU0_SbSg_Tg5TA
++ _$s15AXCoreUtilities27axObservationTrackingStreamyScSyxGxyclFyScS12ContinuationVyx_GXEfU_yyYaKcfU_SbSg_Tg5
++ _$s15AXCoreUtilities27axObservationTrackingStreamyScSyxGxyclFyScS12ContinuationVyx_GXEfU_yyYaKcfU_SbSg_Tg5TA
++ _$s15AXCoreUtilities27axObservationTrackingStreamyScSyxGxyclFyScS12ContinuationVyx_GXEfU_yyYaKcfU_SbSg_Tg5TATQ0_
++ _$s15AXCoreUtilities27axObservationTrackingStreamyScSyxGxyclFyScS12ContinuationVyx_GXEfU_yyYaKcfU_SbSg_Tg5TATu
++ _$s15AXCoreUtilities27axObservationTrackingStreamyScSyxGxyclFyScS12ContinuationVyx_GXEfU_yyYaKcfU_SbSg_Tg5TQ1_
++ _$s15AXCoreUtilities27axObservationTrackingStreamyScSyxGxyclFyScS12ContinuationVyx_GXEfU_yyYaKcfU_SbSg_Tg5TY0_
++ _$s15AXCoreUtilities27axObservationTrackingStreamyScSyxGxyclFyScS12ContinuationVyx_GXEfU_yyYaKcfU_SbSg_Tg5TY2_
++ _$s15AXCoreUtilities27axObservationTrackingStreamyScSyxGxyclFyScS12ContinuationVyx_GXEfU_yyYaKcfU_SbSg_Tg5TY3_
++ _$s15AXCoreUtilities27axObservationTrackingStreamyScSyxGxyclFyScS12ContinuationVyx_GXEfU_yyYaKcfU_SbSg_Tg5TY4_
++ _$s15AXCoreUtilities27axObservationTrackingStreamyScSyxGxyclFyScS12ContinuationVyx_GXEfU_yyYaKcfU_SbSg_Tg5TY5_
++ _$s15AXCoreUtilities27axObservationTrackingStreamyScSyxGxyclFyScS12ContinuationVyx_GXEfU_yyYaKcfU_SbSg_Tg5Tu
++ _$sSS5IndexVMn
++ _$sSbSEsWP
++ _$sSbSesWP
++ _$sScCySbSgs5Error_pGMR
++ _$sScCySbSgs5Error_pGMd
++ _$sScS12ContinuationV11YieldResultOySbSg__GMR
++ _$sScS12ContinuationV11YieldResultOySbSg__GMd
++ _$sScS12ContinuationV15BufferingPolicyOySbSg__GMR
++ _$sScS12ContinuationV15BufferingPolicyOySbSg__GMd
++ _$sScS12ContinuationVySbSg_GMR
++ _$sScS12ContinuationVySbSg_GMd
++ _$sSdySdSgxcSyRzlufCSS_Tt0g5
++ _$sSdySdSgxcSyRzlufcSbSpySdGXEfU_SbSPys4Int8VGXEfU_TA
++ _$sShyShyxGqd__nc7ElementQyd__RszSTRd__lufCSo16NSURLResourceKeya_SayAEGTt0g5Tf4g_n
++ _$sSlsE5first7ElementQzSgvgSS17UnicodeScalarViewV_Tgq5
++ _$sSlsEy11SubSequenceQzqd__cSXRd__5BoundQyd__5IndexRtzluigSS_s16PartialRangeFromVySSAEVGTg5
++ _$sSnySS5IndexVGMR
++ _$sSnySS5IndexVGMd
++ _$sSnySS5IndexVGSnyxGSXsWL
++ _$sSnySS5IndexVGSnyxGSXsWl
++ _$sSnyxGSXsMc
++ _$sSo14AXCoreSettingsC0A9UtilitiesE9VoiceOverC26brailleAutoAdvanceDuration12CoreGraphics7CGFloatVvgTm
++ _$sSo14AXCoreSettingsC0A9UtilitiesE9VoiceOverC33brailleAlwaysShowsTextFieldLabelsSbvM
++ _$sSo14AXCoreSettingsC0A9UtilitiesE9VoiceOverC33brailleAlwaysShowsTextFieldLabelsSbvM.resume
++ _$sSo14AXCoreSettingsC0A9UtilitiesE9VoiceOverC33brailleAlwaysShowsTextFieldLabelsSbvg
++ _$sSo14AXCoreSettingsC0A9UtilitiesE9VoiceOverC33brailleAlwaysShowsTextFieldLabelsSbvpMV
++ _$sSo14AXCoreSettingsC0A9UtilitiesE9VoiceOverC33brailleAlwaysShowsTextFieldLabelsSbvs
++ _$sSo14AXCoreSettingsC0A9UtilitiesE9VoiceOverC33brailleAlwaysUseNemethCodeForMathSbSgvM
++ _$sSo14AXCoreSettingsC0A9UtilitiesE9VoiceOverC33brailleAlwaysUseNemethCodeForMathSbSgvM.resume
++ _$sSo14AXCoreSettingsC0A9UtilitiesE9VoiceOverC33brailleAlwaysUseNemethCodeForMathSbSgvg
++ _$sSo14AXCoreSettingsC0A9UtilitiesE9VoiceOverC33brailleAlwaysUseNemethCodeForMathSbSgvpAETK
++ _$sSo14AXCoreSettingsC0A9UtilitiesE9VoiceOverC33brailleAlwaysUseNemethCodeForMathSbSgvpAETk
++ _$sSo14AXCoreSettingsC0A9UtilitiesE9VoiceOverC33brailleAlwaysUseNemethCodeForMathSbSgvpMV
++ _$sSo14AXCoreSettingsC0A9UtilitiesE9VoiceOverC33brailleAlwaysUseNemethCodeForMathSbSgvs
++ _$sSo14AXCoreSettingsC0A9UtilitiesE9VoiceOverC35_$brailleAlwaysShowsTextFieldLabelsAC15AXSettingRecordCySbGvg
++ _$sSo14AXCoreSettingsC0A9UtilitiesE9VoiceOverC35_$brailleAlwaysShowsTextFieldLabelsAC15AXSettingRecordCySbGvgAIyYbXEfU_
++ _$sSo14AXCoreSettingsC0A9UtilitiesE9VoiceOverC35_$brailleAlwaysShowsTextFieldLabelsAC15AXSettingRecordCySbGvgAIyYbXEfU_SbycfU_
++ _$sSo14AXCoreSettingsC0A9UtilitiesE9VoiceOverC35_$brailleAlwaysShowsTextFieldLabelsAC15AXSettingRecordCySbGvpMV
++ _$sSo14AXCoreSettingsC0A9UtilitiesE9VoiceOverC35_$brailleAlwaysUseNemethCodeForMathAC15AXSettingRecordCySbSgGvg
++ _$sSo14AXCoreSettingsC0A9UtilitiesE9VoiceOverC35_$brailleAlwaysUseNemethCodeForMathAC15AXSettingRecordCySbSgGvgAJyYbXEfU_
++ _$sSo14AXCoreSettingsC0A9UtilitiesE9VoiceOverC35_$brailleAlwaysUseNemethCodeForMathAC15AXSettingRecordCySbSgGvgAJyYbXEfU_AIycfU_
++ _$sSo14AXCoreSettingsC0A9UtilitiesE9VoiceOverC35_$brailleAlwaysUseNemethCodeForMathAC15AXSettingRecordCySbSgGvpMV
++ _$sSo14AXCoreSettingsC0A9UtilitiesE9VoiceOverC39brailleAlwaysShowsTextFieldLabelsStreamScSySbGvg
++ _$sSo14AXCoreSettingsC0A9UtilitiesE9VoiceOverC39brailleAlwaysShowsTextFieldLabelsStreamScSySbGvgSbycfU_TA
++ _$sSo14AXCoreSettingsC0A9UtilitiesE9VoiceOverC39brailleAlwaysShowsTextFieldLabelsStreamScSySbGvpMV
++ _$sSo14AXCoreSettingsC0A9UtilitiesE9VoiceOverC39brailleAlwaysUseNemethCodeForMathStreamScSySbSgGvg
++ _$sSo14AXCoreSettingsC0A9UtilitiesE9VoiceOverC39brailleAlwaysUseNemethCodeForMathStreamScSySbSgGvgAGycfU_
++ _$sSo14AXCoreSettingsC0A9UtilitiesE9VoiceOverC39brailleAlwaysUseNemethCodeForMathStreamScSySbSgGvgAGycfU_TA
++ _$sSo14AXCoreSettingsC0A9UtilitiesE9VoiceOverC39brailleAlwaysUseNemethCodeForMathStreamScSySbSgGvpMV
++ _$sSo14AXCoreSettingsC0A9UtilitiesE9VoiceOverC40_$lock_brailleAlwaysShowsTextFieldLabels33_DE18B84F641ED83274772A063ACE8FB4LL2os21OSAllocatedUnfairLockVyytGvpWvd
++ _$sSo14AXCoreSettingsC0A9UtilitiesE9VoiceOverC40_$lock_brailleAlwaysUseNemethCodeForMath33_DE18B84F641ED83274772A063ACE8FB4LL2os21OSAllocatedUnfairLockVyytGvpWvd
++ _$sSo14AXCoreSettingsC0A9UtilitiesE9VoiceOverC43_$brailleAlwaysShowsTextFieldLabels_Storage33_DE18B84F641ED83274772A063ACE8FB4LLAC15AXSettingRecordCySbGSgvpWvd
++ _$sSo14AXCoreSettingsC0A9UtilitiesE9VoiceOverC43_$brailleAlwaysUseNemethCodeForMath_Storage33_DE18B84F641ED83274772A063ACE8FB4LLAC15AXSettingRecordCySbSgGSgvpWvd
++ _$sSo16NSURLResourceKeyaABSHSCWlTm
++ _$sSo19NSRegularExpressionC7pattern7optionsABSS_So0aB7OptionsVtKcfcTO
++ _$sSo8_NSRangeV10FoundationE_2inABx_q_tcSXRzSyR_SS5IndexV5BoundRtzr0_lufC
++ _$sSs5index5afterSS5IndexVAD_tF
++ _$sSsySJSS5IndexVcig
++ _$sSsySsSnySS5IndexVGcig
++ _$sSy10FoundationE18trimmingCharacters2inSSAA12CharacterSetV_tF
++ _$sSy10FoundationE5range2of7optionsAB6localeSnySS5IndexVGSgqd___So22NSStringCompareOptionsVAiA6LocaleVSgtSyRd__lF
++ _$ss11_StringGutsV15scalarAlignSlowySS5IndexVAEF
++ _$ss11_StringGutsV16_slowWithCStringyxxSPys4Int8VGq_YKXEq_YKs5ErrorR_r0_lFAFq_xRi_zRi0_zRi__Ri0__r0_lysAG_pxIsgyrzr_ABxsAG_psAG_pRs_r0_lIetMggrzo_Tpq5Sb_Tg507$sSPys4f5VGxs5G34_pIgyrzo_ACxsAD_pIegyrzr_lTRSb_TG5AFSbsAG_pIgyrzo_Tf1cn_n
++ _$ss11_StringGutsV18foreignScalarAlignySS5IndexVAEF
++ _$ss11_StringGutsV19validateScalarIndexySS0E0VAEF
++ _$ss11_StringGutsV22validateSubscalarIndexySS0E0VAEF
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.185TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.185Tu
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.206TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.206Tu
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.248TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.248Tu
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.291TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.291Tu
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.334TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.334Tu
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.360TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.360Tu
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.381TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.381Tu
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.402TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.402Tu
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.416TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.416Tu
++ _AXDeviceIsHomeView
++ _NSURLContentModificationDateKey
++ _NSURLIsSymbolicLinkKey
++ _OBJC_CLASS_$_NSRegularExpression
++ ___swift_closure_destructor.77Tm
++ __swift_stdlib_strtod_clocale
++ _keypath_get.137Tm
++ _keypath_getTm
++ _keypath_set.138Tm
++ _keypath_setTm
++ _symbolic SbSgAASgIegnr_Sg
++ _symbolic SbSgIegr_
++ _symbolic ScCySbSg______pG s5ErrorP
++ _symbolic Sny_____G SS5IndexV
++ _symbolic _____ s6UInt64V
++ _symbolic _____ySbSgG 15AXCoreUtilities15AXSettingRecordC
++ _symbolic _____ySbSgGSg 15AXCoreUtilities15AXSettingRecordC
++ _symbolic _____ySbSgGSgXw 15AXCoreUtilities15AXSettingRecordC
++ _symbolic _____ySbSg_G ScS12ContinuationV
++ _symbolic _____ySbSg__G ScS12ContinuationV11YieldResultO
++ _symbolic _____ySbSg__G ScS12ContinuationV15BufferingPolicyO
+- GCC_except_table113
+- GCC_except_table174
+- GCC_except_table200
+- GCC_except_table205
+- GCC_except_table218
+- GCC_except_table234
+- GCC_except_table236
+- GCC_except_table263
+- GCC_except_table298
+- GCC_except_table304
+- GCC_except_table448
+- GCC_except_table450
+- GCC_except_table468
+- GCC_except_table480
+- GCC_except_table483
+- GCC_except_table524
+- GCC_except_table651
+- GCC_except_table658
+- GCC_except_table663
+- GCC_except_table665
+- _$s10Foundation6LocaleV6ScriptVAESHAAWlTm
+- _$s15AXCoreUtilities15AXSettingRecordC11cachedValuexSgvg
+- _$s15AXCoreUtilities15AXSettingRecordC11cachedValuexSgvgAEyXEfU_TA
+- _$s15AXCoreUtilities15AXSettingRecordC12encodedValues11AnyHashableVSgvgyycfU_yyXEfU_AA23LiveRecognitionSettingsC22PreferredOneShotSourceO_Tg5TATm
+- _$s15AXCoreUtilities15AXSettingRecordC5owner12defaultValue3key6domain6didSet04willK010attributes0L3GetACyxGqd___xycS2SSgyxcSgxxcSgAA20AXSettingsAttributesVxSgxcSgtcSeRzSERzAA20AXObservableSettingsRd__lufcARs11AnyHashableVSgcfU_AM_So0aR0CAAE9VoiceOverCTG5TA.197Tm
+- _$s15AXCoreUtilities15AXSettingRecordCySbGACyxG11Observation10ObservableAAWlTm
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.184TQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.184Tu
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.205TQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.205Tu
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.226TQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.226Tu
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.247TQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.247Tu
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.312TQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.312Tu
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.338TQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.338Tu
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.359TQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.359Tu
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.380TQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.380Tu
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.394TQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.394Tu
+- _AXInvertColorsDarkModeDetectionJavascript
+- ___swift_closure_destructor.69Tm
+- _keypath_get.127Tm
+- _keypath_get.99Tm
+- _keypath_set.100Tm
+- _keypath_set.128Tm
+CStrings:
++ "$brailleAlwaysShowsTextFieldLabels"
++ "$brailleAlwaysUseNemethCodeForMath"
++ "AXDiagnosticBudgetSeconds"
++ "All attachments copied to:"
++ "VoiceOverBrailleAlwaysShowsTextFieldLabels"
++ "\\x1B\\[[0-9;]*[a-zA-Z]"
++ "voiceOverAlwaysUseNemethCodeForMathEnabled"
+- "function luminance(color) {  if (color.length == 4 && color[3] == 0) { return 1; } for (var k = 0; k < 3; k++) { var adjusted = 0;  var value = color[k] / 255;  if (value < 0.03928) {        value = value / 12.92;    } else {        value = (value + .055) / 1.055;        value = Math.pow(value, 2.4); } color[k] = value;   } return (color[0] * .2126) + (color[1] * .7152) + (color[2] * .0722); }\nfunction dm() { var supportedSchemes = document.head.querySelector(\"meta[name='supported-color-schemes']\");\nvar supportedSchemesDM = (supportedSchemes && supportedSchemes.content && supportedSchemes.content.includes('dark'));\nvar colorSchemes = document.head.querySelector(\"meta[name='color-scheme']\");\nvar colorSchemesDM = (supportedSchemes && supportedSchemes.content && supportedSchemes.content.includes('dark'));\nvar classListDM = document.documentElement.classList.contains('apple-mail-implicit-dark-support');\nvar bgColor = document.body && window.getComputedStyle(document.body).getPropertyValue('background-color');\nbgColor = bgColor.replace(/[^\\d,]/g, '').split(',');\nvar luma = bgColor ? luminance(bgColor) : .99;\nreturn (supportedSchemesDM || colorSchemesDM || classListDM || (luma < .3)) }\ndm();"
+```

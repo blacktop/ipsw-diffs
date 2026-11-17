@@ -1,0 +1,806 @@
+## _CoreSpotlight_FoundationModels
+
+> `/System/Library/Frameworks/_CoreSpotlight_FoundationModels.framework/_CoreSpotlight_FoundationModels`
+
+```diff
+
+-2465.2.7.101.0
+-  __TEXT.__text: 0x40c19c
+-  __TEXT.__objc_methlist: 0x23c
+-  __TEXT.__const: 0xac562
+-  __TEXT.__constg_swiftt: 0xdf6c
+-  __TEXT.__swift5_typeref: 0x11842
+-  __TEXT.__swift5_builtin: 0x7e4
+-  __TEXT.__swift5_reflstr: 0x5417
+-  __TEXT.__swift5_fieldmd: 0x13874
++2465.2.13.0.0
++  __TEXT.__text: 0x45ec08
++  __TEXT.__objc_methlist: 0x29c
++  __TEXT.__const: 0xaf2b2
++  __TEXT.__constg_swiftt: 0xe6a8
++  __TEXT.__swift5_typeref: 0x122bc
++  __TEXT.__swift5_builtin: 0x820
++  __TEXT.__swift5_reflstr: 0x5867
++  __TEXT.__swift5_fieldmd: 0x14068
+   __TEXT.__swift5_assocty: 0x4930
+-  __TEXT.__swift5_proto: 0x685c
+-  __TEXT.__swift5_types: 0x1830
+-  __TEXT.__cstring: 0x2c353
+-  __TEXT.__swift5_capture: 0x212c
+-  __TEXT.__swift5_protos: 0x28
+-  __TEXT.__swift_as_entry: 0x508
+-  __TEXT.__swift_as_ret: 0x610
+-  __TEXT.__swift_as_cont: 0x4d4
+-  __TEXT.__swift5_mpenum: 0xbb8
+-  __TEXT.__oslogstring: 0x175
+-  __TEXT.__unwind_info: 0x17cf0
+-  __TEXT.__eh_frame: 0x1a2f8
++  __TEXT.__swift5_proto: 0x68cc
++  __TEXT.__swift5_types: 0x18e4
++  __TEXT.__cstring: 0x2b023
++  __TEXT.__swift5_capture: 0x20c4
++  __TEXT.__swift5_protos: 0x2c
++  __TEXT.__swift_as_entry: 0x5bc
++  __TEXT.__swift_as_ret: 0x6f8
++  __TEXT.__swift_as_cont: 0x4f4
++  __TEXT.__swift5_mpenum: 0xc04
++  __TEXT.__oslogstring: 0x2d1
++  __TEXT.__unwind_info: 0x18a60
++  __TEXT.__eh_frame: 0x1c6f0
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1e0
+-  __DATA_CONST.__objc_classlist: 0xe8
++  __DATA_CONST.__const: 0x250
++  __DATA_CONST.__objc_classlist: 0x130
+   __DATA_CONST.__objc_protolist: 0x60
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x890
++  __DATA_CONST.__objc_selrefs: 0x8f0
+   __DATA_CONST.__objc_protorefs: 0x30
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x36c98
+-  __AUTH_CONST.__objc_const: 0x1e80
+-  __AUTH_CONST.__auth_got: 0x12a8
+-  __AUTH.__objc_data: 0x280
+-  __AUTH.__data: 0x9d00
+-  __DATA.__data: 0x11368
+-  __DATA.__common: 0x40
++  __AUTH_CONST.__const: 0x38408
++  __AUTH_CONST.__objc_const: 0x2750
++  __AUTH_CONST.__auth_got: 0x1530
++  __AUTH.__objc_data: 0x3c8
++  __AUTH.__data: 0xa540
++  __DATA.__data: 0x11a20
++  __DATA.__common: 0x100
+   __DATA_DIRTY.__bss: 0x100
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 28030
+-  Symbols:   9152
+-  CStrings:  2136
++  Functions: 28817
++  Symbols:   9407
++  CStrings:  2082
+ 
+Symbols:
++ _OBJC_CLASS_$__TtC31_CoreSpotlight_FoundationModels16ToolStageHandler
++ _OBJC_METACLASS_$__TtC31_CoreSpotlight_FoundationModels16ToolStageHandler
++ __DATA__TtC31_CoreSpotlight_FoundationModels10CallClient
++ __DATA__TtC31_CoreSpotlight_FoundationModels14CustomArmCache
++ __DATA__TtC31_CoreSpotlight_FoundationModels16ToolStageHandler
++ __DATA__TtC31_CoreSpotlight_FoundationModels20PublicStageSideTable
++ __DATA__TtC31_CoreSpotlight_FoundationModels23AvailabilitySampleCache
++ __DATA__TtC31_CoreSpotlight_FoundationModels9AsyncGate
++ __DATA__TtC31_CoreSpotlight_FoundationModels9QueryCall
++ __DATA__TtCV31_CoreSpotlight_FoundationModels13PromptedStageP33_5143EE1B23E1B3CB1137A3A5754F6F707CutMark
++ __DATA__TtCV31_CoreSpotlight_FoundationModels13PromptedStageP33_5143EE1B23E1B3CB1137A3A5754F6F708RunState
++ __INSTANCE_METHODS__TtC31_CoreSpotlight_FoundationModels16ToolStageHandler
++ __IVARS__TtC31_CoreSpotlight_FoundationModels10CallClient
++ __IVARS__TtC31_CoreSpotlight_FoundationModels14CustomArmCache
++ __IVARS__TtC31_CoreSpotlight_FoundationModels16ToolStageHandler
++ __IVARS__TtC31_CoreSpotlight_FoundationModels20PublicStageSideTable
++ __IVARS__TtC31_CoreSpotlight_FoundationModels23AvailabilitySampleCache
++ __IVARS__TtC31_CoreSpotlight_FoundationModels9AsyncGate
++ __IVARS__TtC31_CoreSpotlight_FoundationModels9QueryCall
++ __IVARS__TtC31_CoreSpotlight_FoundationModelsP33_BFD20209575D551621CA4A381A5CDD9410ResultSlot
++ __IVARS__TtCV31_CoreSpotlight_FoundationModels13PromptedStageP33_5143EE1B23E1B3CB1137A3A5754F6F707CutMark
++ __IVARS__TtCV31_CoreSpotlight_FoundationModels13PromptedStageP33_5143EE1B23E1B3CB1137A3A5754F6F708RunState
++ __METACLASS_DATA__TtC31_CoreSpotlight_FoundationModels10CallClient
++ __METACLASS_DATA__TtC31_CoreSpotlight_FoundationModels14CustomArmCache
++ __METACLASS_DATA__TtC31_CoreSpotlight_FoundationModels16ToolStageHandler
++ __METACLASS_DATA__TtC31_CoreSpotlight_FoundationModels20PublicStageSideTable
++ __METACLASS_DATA__TtC31_CoreSpotlight_FoundationModels23AvailabilitySampleCache
++ __METACLASS_DATA__TtC31_CoreSpotlight_FoundationModels9AsyncGate
++ __METACLASS_DATA__TtC31_CoreSpotlight_FoundationModels9QueryCall
++ __METACLASS_DATA__TtCV31_CoreSpotlight_FoundationModels13PromptedStageP33_5143EE1B23E1B3CB1137A3A5754F6F707CutMark
++ __METACLASS_DATA__TtCV31_CoreSpotlight_FoundationModels13PromptedStageP33_5143EE1B23E1B3CB1137A3A5754F6F708RunState
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT__CSPromptedStageHandler
++ __OBJC_CLASS_PROTOCOLS_$__TtC31_CoreSpotlight_FoundationModels16ToolStageHandler(_CoreSpotlight_FoundationModels|_CoreSpotlight_FoundationModels1)
++ ___swift_allocate_boxed_opaque_existential_1Tm
++ ___swift_allocate_value_buffer
++ ___swift_closure_destructor.13Tm
++ ___swift_closure_destructor.19Tm
++ ___swift_closure_destructor.34Tm
++ ___swift_closure_destructor.368Tm
++ ___swift_closure_destructor.372Tm
++ ___swift_closure_destructor.42Tm
++ ___swift_closure_destructor.796Tm
++ ___swift_closure_destructor.896Tm
++ ___swift_closure_destructor.959Tm
++ ___swift_deallocate_boxed_opaque_existential_1
++ ___swift_exist.box.addr_destructor.31Tm
++ ___swift_exist.box.addr_destructor.347Tm
++ ___swift_exist.box.addr_destructor.62Tm
++ ___swift_get_extra_inhabitant_index.114Tm
++ ___swift_get_extra_inhabitant_index.137Tm
++ ___swift_get_extra_inhabitant_index.161Tm
++ ___swift_get_extra_inhabitant_index.177Tm
++ ___swift_memcpy1056_8
++ ___swift_memcpy1057_8
++ ___swift_memcpy161_8
++ ___swift_memcpy208_8
++ ___swift_memcpy272_8
++ ___swift_memcpy3144_8
++ ___swift_memcpy3224_8
++ ___swift_memcpy4497_8
++ ___swift_memcpy560_8
++ ___swift_project_boxed_opaque_existential_0Tm
++ ___swift_project_value_buffer
++ ___swift_store_extra_inhabitant_index.115Tm
++ ___swift_store_extra_inhabitant_index.138Tm
++ ___swift_store_extra_inhabitant_index.162Tm
++ ___swift_store_extra_inhabitant_index.178Tm
++ ___unnamed_10
++ ___unnamed_102
++ ___unnamed_104
++ ___unnamed_114
++ ___unnamed_133
++ ___unnamed_137
++ ___unnamed_138
++ ___unnamed_139
++ ___unnamed_140
++ ___unnamed_61
++ ___unnamed_82
++ ___unnamed_97
++ __swift_stdlib_reportUnimplementedInitializer
++ _associated conformance 31_CoreSpotlight_FoundationModels13PromptedStageV10ReduceStopOSHAASQ
++ _associated conformance 31_CoreSpotlight_FoundationModels18PromptedStageErrorO0C009LocalizedG0AAs0G0
++ _associated conformance 31_CoreSpotlight_FoundationModels20PipelinePayloadCodecO0G5ErrorOSHAASQ
++ _associated conformance 31_CoreSpotlight_FoundationModels20PipelinePayloadCodecO6ScoresV9StableKey33_86B5BEAF66C9E059E12CDC8559595859LLVSHAASQ
++ _associated conformance 31_CoreSpotlight_FoundationModels24PromptedModelClientErrorOSHAASQ
++ _associated conformance 31_CoreSpotlight_FoundationModels25CustomStageExecutionErrorV4CodeOSHAASQ
++ _associated conformance 31_CoreSpotlight_FoundationModels8OperatorO20SlowSuffixCodingKeys022_999925041B73B6C2FAE27L9B20113E28LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 31_CoreSpotlight_FoundationModels8OperatorO20SlowSuffixCodingKeys022_999925041B73B6C2FAE27L9B20113E28LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 31_CoreSpotlight_FoundationModels9QueryCallC13CancelOutcomeOSHAASQ
++ _get_enum_tag_for_layout_string 31_CoreSpotlight_FoundationModels16SchemaUnionPruneO0G5ErrorO
++ _get_enum_tag_for_layout_string 31_CoreSpotlight_FoundationModels18PromptedStageErrorO
++ _get_enum_tag_for_layout_string 31_CoreSpotlight_FoundationModels19EBNFNotationEmitterO7Payload33_F5408AFEE815CBD472383931F0CF8A63LLO
++ _get_enum_tag_for_layout_string 31_CoreSpotlight_FoundationModels19PromptedInputBoundsO5BoundO
++ _get_enum_tag_for_layout_string 31_CoreSpotlight_FoundationModels23PipelineValidationErrorO
++ _get_enum_tag_for_layout_string 31_CoreSpotlight_FoundationModels27FullArgumentsSchemaVariantsO14CustomArmErrorO
++ _get_enum_tag_for_layout_string 31_CoreSpotlight_FoundationModels28LanguageModelSessionProtocol_AA08PromptedG0pIeghr_Sg
++ _objc_retain_x28
++ _realpath$DARWIN_EXTSN
++ _strlen
++ _swift_allocateGenericClassMetadata
++ _swift_cvw_initEnumMetadataSinglePayloadWithLayoutString
++ _swift_cvw_singlePayloadEnumGeneric_destructiveInjectEnumTag
++ _swift_cvw_singlePayloadEnumGeneric_getEnumTag
++ _swift_initClassMetadata2
++ _swift_isClassType
++ _swift_release_x9
++ _swift_retain_x10
++ _swift_task_addCancellationHandler
++ _swift_task_removeCancellationHandler
++ _swift_unknownObjectWeakInit
++ _swift_unknownObjectWeakLoadStrong
++ _swift_willThrowTypedImpl
++ _symbolic $s31_CoreSpotlight_FoundationModels15PromptedSessionP
++ _symbolic BA_____ySo7NSArrayC4rows______6outputtG______pIeNghHgILrzo_ 31_CoreSpotlight_FoundationModels12UncheckedBoxV AA13PromptedStageV6OutputV s5ErrorP
++ _symbolic BA_____y_____G______pIeNghHgILrzo_ 31_CoreSpotlight_FoundationModels12UncheckedBoxV AA18PublicStageAdapterV3RunV s5ErrorP
++ _symbolic BA_____yypG______pIeNghHgILrzo_ 31_CoreSpotlight_FoundationModels12UncheckedBoxV s5ErrorP
++ _symbolic SDySOSdG
++ _symbolic SDySSShySSGG
++ _symbolic SDySSSi8sequence______4datatG 31_CoreSpotlight_FoundationModels18SearchPipelineDataV
++ _symbolic SDySS_____G 16FoundationModels16GeneratedContentV
++ _symbolic SDy_____ScTyyt_____GG s6UInt64V s5NeverO
++ _symbolic SDy_____SdSgG 31_CoreSpotlight_FoundationModels20PipelinePayloadCodecO6ScoresV9StableKey33_86B5BEAF66C9E059E12CDC8559595859LLV
++ _symbolic SNySiG
++ _symbolic SO3key______5valuet 31_CoreSpotlight_FoundationModels12SessionGatesO5Entry33_6C28F8A28B0BD57AF8042AB8C1B68FB5LLV
++ _symbolic SS2id______6schemat 10Foundation4DataV
++ _symbolic SS3key_SS4namet
++ _symbolic SS3key_Si8sequence______4datat5valuet 31_CoreSpotlight_FoundationModels18SearchPipelineDataV
++ _symbolic SS3key______5valuet 16FoundationModels16GeneratedContentV
++ _symbolic SS7stageId______9argumentst 16FoundationModels16GeneratedContentV
++ _symbolic SS7stageId______9argumentstSg 16FoundationModels16GeneratedContentV
++ _symbolic SS7stageId_t
++ _symbolic SS_ShySSGt
++ _symbolic SS______4from_AA2totSgt 31_CoreSpotlight_FoundationModels22SearchPipelineDataTypeO
++ _symbolic SS______t 16FoundationModels16GeneratedContentV
++ _symbolic SS______t 31_CoreSpotlight_FoundationModels22OverlayStageDescriptorV
++ _symbolic SS______t 31_CoreSpotlight_FoundationModels8PipelineO5StageV
++ _symbolic SaySaySiGG
++ _symbolic SaySaySiSgGG
++ _symbolic SaySbG
++ _symbolic SaySiSgG
++ _symbolic SaySsG
++ _symbolic Say_____6ticket_ScCyyt______pG12continuationtG s6UInt64V s5ErrorP
++ _symbolic Say_____G 31_CoreSpotlight_FoundationModels13PromptedStageV7CutMark33_5143EE1B23E1B3CB1137A3A5754F6F70LLC
++ _symbolic Say_____G 31_CoreSpotlight_FoundationModels18PublicStageCatalogV5EntryV
++ _symbolic Say_____G 31_CoreSpotlight_FoundationModels20PipelinePayloadCodecO6ScoresV5Layer33_86B5BEAF66C9E059E12CDC8559595859LLV
++ _symbolic Say_____G s5UInt8V
++ _symbolic Say_____G s7UnicodeO6ScalarV
++ _symbolic Say_____GSg s5UInt8V
++ _symbolic SbyYbc
++ _symbolic ScCy___________pGSg 31_CoreSpotlight_FoundationModels6NativeO13QueryResponseV s5ErrorP
++ _symbolic ScCyyt______pGSg s5ErrorP
++ _symbolic Shy_____G s6UInt64V
++ _symbolic Si6offset______7elementt 31_CoreSpotlight_FoundationModels22OverlayStageDescriptorV
++ _symbolic _____ 10Foundation4DataV
++ _symbolic _____ 31_CoreSpotlight_FoundationModels10CallClientC
++ _symbolic _____ 31_CoreSpotlight_FoundationModels10ResultSlot33_BFD20209575D551621CA4A381A5CDD94LLC
++ _symbolic _____ 31_CoreSpotlight_FoundationModels12SessionGatesO
++ _symbolic _____ 31_CoreSpotlight_FoundationModels12SessionGatesO5Entry33_6C28F8A28B0BD57AF8042AB8C1B68FB5LLV
++ _symbolic _____ 31_CoreSpotlight_FoundationModels12UncheckedBoxV
++ _symbolic _____ 31_CoreSpotlight_FoundationModels13PromptedStageV
++ _symbolic _____ 31_CoreSpotlight_FoundationModels13PromptedStageV10ReduceStopO
++ _symbolic _____ 31_CoreSpotlight_FoundationModels13PromptedStageV4Work33_5143EE1B23E1B3CB1137A3A5754F6F70LLV
++ _symbolic _____ 31_CoreSpotlight_FoundationModels13PromptedStageV6OutputV
++ _symbolic _____ 31_CoreSpotlight_FoundationModels13PromptedStageV7CutMark33_5143EE1B23E1B3CB1137A3A5754F6F70LLC
++ _symbolic _____ 31_CoreSpotlight_FoundationModels13PromptedStageV8RunState33_5143EE1B23E1B3CB1137A3A5754F6F70LLC
++ _symbolic _____ 31_CoreSpotlight_FoundationModels14CustomArmCacheC
++ _symbolic _____ 31_CoreSpotlight_FoundationModels15PersonBroadenerO
++ _symbolic _____ 31_CoreSpotlight_FoundationModels15PersonBroadenerO11NamedFilter014_7390F4D254FF0I17B0C96A758DEFEA810LLV
++ _symbolic _____ 31_CoreSpotlight_FoundationModels15PersonBroadenerO4PlanV
++ _symbolic _____ 31_CoreSpotlight_FoundationModels16SchemaUnionPruneO
++ _symbolic _____ 31_CoreSpotlight_FoundationModels16SchemaUnionPruneO0G5ErrorO
++ _symbolic _____ 31_CoreSpotlight_FoundationModels16SchemaUnionPruneO6PrunedV
++ _symbolic _____ 31_CoreSpotlight_FoundationModels16ToolStageHandlerC
++ _symbolic _____ 31_CoreSpotlight_FoundationModels16ToolStageHandlerC6ReportV
++ _symbolic _____ 31_CoreSpotlight_FoundationModels18PromptedStageErrorO
++ _symbolic _____ 31_CoreSpotlight_FoundationModels18PublicStageAdapterV
++ _symbolic _____ 31_CoreSpotlight_FoundationModels18PublicStageAdapterV3RunV
++ _symbolic _____ 31_CoreSpotlight_FoundationModels18PublicStageCatalogV
++ _symbolic _____ 31_CoreSpotlight_FoundationModels18PublicStageCatalogV5EntryV
++ _symbolic _____ 31_CoreSpotlight_FoundationModels19EBNFNotationEmitterO
++ _symbolic _____ 31_CoreSpotlight_FoundationModels19EBNFNotationEmitterO11MemberGroup33_F5408AFEE815CBD472383931F0CF8A63LLV
++ _symbolic _____ 31_CoreSpotlight_FoundationModels19EBNFNotationEmitterO7Payload33_F5408AFEE815CBD472383931F0CF8A63LLO
++ _symbolic _____ 31_CoreSpotlight_FoundationModels19EBNFNotationEmitterO8Renderer33_F5408AFEE815CBD472383931F0CF8A63LLV
++ _symbolic _____ 31_CoreSpotlight_FoundationModels19PromptedInputBoundsO
++ _symbolic _____ 31_CoreSpotlight_FoundationModels19PromptedInputBoundsO5BoundO
++ _symbolic _____ 31_CoreSpotlight_FoundationModels19PromptedInputBoundsO5ShapeV
++ _symbolic _____ 31_CoreSpotlight_FoundationModels19PromptedModelClientV
++ _symbolic _____ 31_CoreSpotlight_FoundationModels19PromptedModelClientV7BackendV
++ _symbolic _____ 31_CoreSpotlight_FoundationModels20PipelinePayloadCodecO
++ _symbolic _____ 31_CoreSpotlight_FoundationModels20PipelinePayloadCodecO0G5ErrorO
++ _symbolic _____ 31_CoreSpotlight_FoundationModels20PipelinePayloadCodecO6ScoresV
++ _symbolic _____ 31_CoreSpotlight_FoundationModels20PipelinePayloadCodecO6ScoresV5Layer33_86B5BEAF66C9E059E12CDC8559595859LLV
++ _symbolic _____ 31_CoreSpotlight_FoundationModels20PipelinePayloadCodecO6ScoresV9StableKey33_86B5BEAF66C9E059E12CDC8559595859LLV
++ _symbolic _____ 31_CoreSpotlight_FoundationModels20PromptedAvailabilityV
++ _symbolic _____ 31_CoreSpotlight_FoundationModels20PublicStageSideTableC
++ _symbolic _____ 31_CoreSpotlight_FoundationModels20PublicStageSideTableC5State33_C87B52C9DFC7AB0277939BBCBC9A3EA1LLV
++ _symbolic _____ 31_CoreSpotlight_FoundationModels21InjectedSessionClientV
++ _symbolic _____ 31_CoreSpotlight_FoundationModels23AvailabilitySampleCacheC
++ _symbolic _____ 31_CoreSpotlight_FoundationModels23AvailabilitySampleCacheC0F033_92CC99465A0846282A89DC5617DC2B0CLLV
++ _symbolic _____ 31_CoreSpotlight_FoundationModels23PipelineValidationErrorO
++ _symbolic _____ 31_CoreSpotlight_FoundationModels24PromptedModelClientErrorO
++ _symbolic _____ 31_CoreSpotlight_FoundationModels25CustomStageExecutionErrorV
++ _symbolic _____ 31_CoreSpotlight_FoundationModels25CustomStageExecutionErrorV4CodeO
++ _symbolic _____ 31_CoreSpotlight_FoundationModels27FullArgumentsSchemaVariantsO
++ _symbolic _____ 31_CoreSpotlight_FoundationModels27FullArgumentsSchemaVariantsO14CustomArmErrorO
++ _symbolic _____ 31_CoreSpotlight_FoundationModels27FullArgumentsSchemaVariantsO8OfferingV
++ _symbolic _____ 31_CoreSpotlight_FoundationModels8OperatorO20SlowSuffixCodingKeys022_999925041B73B6C2FAE27L9B20113E28LLO
++ _symbolic _____ 31_CoreSpotlight_FoundationModels9AsyncGateC
++ _symbolic _____ 31_CoreSpotlight_FoundationModels9AsyncGateC5State33_6C28F8A28B0BD57AF8042AB8C1B68FB5LLV
++ _symbolic _____ 31_CoreSpotlight_FoundationModels9QueryCallC
++ _symbolic _____ 31_CoreSpotlight_FoundationModels9QueryCallC13CancelOutcomeO
++ _symbolic _____ 31_CoreSpotlight_FoundationModels9QueryCallC5State014_7390F4D254FF0H17B0C96A758DEFEA810LLO
++ _symbolic _____3key_Say_____G5valuet 13CoreSpotlight23SearchableItemAttributeV AA0cD0V
++ _symbolic _____6ticket_ScCyyt______pG12continuationt s6UInt64V s5ErrorP
++ _symbolic _____SSSgYbc 16FoundationModels20LanguageModelSessionC
++ _symbolic _____SS_SaySDySSypGGABtYaKYCcSg 31_CoreSpotlight_FoundationModels13PromptedStageV6OutputV
++ _symbolic _____Sg 10Foundation3URLV
++ _symbolic _____Sg 16FoundationModels16GeneratedContentV
++ _symbolic _____Sg 16FoundationModels16GenerationSchemaV
++ _symbolic _____Sg 31_CoreSpotlight_FoundationModels12SessionGatesO5Entry33_6C28F8A28B0BD57AF8042AB8C1B68FB5LLV
++ _symbolic _____Sg 31_CoreSpotlight_FoundationModels13PromptedStageV10ReduceStopO
++ _symbolic _____Sg 31_CoreSpotlight_FoundationModels15PersonBroadenerO4PlanV
++ _symbolic _____Sg 31_CoreSpotlight_FoundationModels16SchemaUnionPruneO6PrunedV
++ _symbolic _____Sg 31_CoreSpotlight_FoundationModels16ToolStageHandlerC
++ _symbolic _____Sg 31_CoreSpotlight_FoundationModels18PublicStageCatalogV5EntryV
++ _symbolic _____Sg 31_CoreSpotlight_FoundationModels19PromptedInputBoundsO5BoundO
++ _symbolic _____Sg 31_CoreSpotlight_FoundationModels19PromptedInputBoundsO5ShapeV
++ _symbolic _____SgSay_____G_SbtYbc 31_CoreSpotlight_FoundationModels16SchemaUnionPruneO6PrunedV AA18PublicStageCatalogV5EntryV
++ _symbolic _____SgSg 31_CoreSpotlight_FoundationModels16SchemaUnionPruneO6PrunedV
++ _symbolic _____Sg_ABt 16FoundationModels16GeneratedContentV
++ _symbolic _____Sg_ABt 31_CoreSpotlight_FoundationModels8TemporalO
++ _symbolic ______ScCy___________pGSgt 31_CoreSpotlight_FoundationModels9QueryCallC13CancelOutcomeO AA6NativeO0E8ResponseV s5ErrorP
++ _symbolic ___________pSg 31_CoreSpotlight_FoundationModels28LanguageModelSessionProtocolP AA08PromptedG0P
++ _symbolic ___________pyYbc 31_CoreSpotlight_FoundationModels28LanguageModelSessionProtocolP AA08PromptedG0P
++ _symbolic ___________pyYbcSg 31_CoreSpotlight_FoundationModels28LanguageModelSessionProtocolP AA08PromptedG0P
++ _symbolic ___________t 31_CoreSpotlight_FoundationModels18SearchResultsTableV6ColumnV AC5ValueO
++ _symbolic ______p 31_CoreSpotlight_FoundationModels15PromptedSessionP
++ _symbolic ______p 31_CoreSpotlight_FoundationModels23ContextClearableSessionP
++ _symbolic ______pSg_____Ieggr_ s5ErrorP 31_CoreSpotlight_FoundationModels6NativeO13QueryResponseV
++ _symbolic ______pXp s5ErrorP
++ _symbolic ______ypt 31_CoreSpotlight_FoundationModels18SearchResultsTableV9ValueTypeO
++ _symbolic _____yS2iG s18_DictionaryStorageC
++ _symbolic _____ySDySO_____G_____G s13ManagedBufferCsRi__rlE 31_CoreSpotlight_FoundationModels12SessionGatesO5Entry33_6C28F8A28B0BD57AF8042AB8C1B68FB5LLV So16os_unfair_lock_sV
++ _symbolic _____ySDySb_____SgGG 2os21OSAllocatedUnfairLockV 31_CoreSpotlight_FoundationModels16SchemaUnionPruneO6PrunedV
++ _symbolic _____ySDySb_____SgG_____G s13ManagedBufferCsRi__rlE 31_CoreSpotlight_FoundationModels16SchemaUnionPruneO6PrunedV So16os_unfair_lock_sV
++ _symbolic _____ySDy_____ypG10parameters_SayypG5inputtG 31_CoreSpotlight_FoundationModels12UncheckedBoxV s11AnyHashableV
++ _symbolic _____ySOSdG s18_DictionaryStorageC
++ _symbolic _____ySO_____G s18_DictionaryStorageC 31_CoreSpotlight_FoundationModels12SessionGatesO5Entry33_6C28F8A28B0BD57AF8042AB8C1B68FB5LLV
++ _symbolic _____ySS2id______6schematG s23_ContiguousArrayStorageC 10Foundation4DataV
++ _symbolic _____ySS3key_SS4nametG s23_ContiguousArrayStorageC
++ _symbolic _____ySS3key_Si8sequence______4datat5valuetG s23_ContiguousArrayStorageC 31_CoreSpotlight_FoundationModels18SearchPipelineDataV
++ _symbolic _____ySS4name_SNySdG5rangetG s23_ContiguousArrayStorageC
++ _symbolic _____ySS4name_Sd5valuetG s23_ContiguousArrayStorageC
++ _symbolic _____ySSSay_____GG s18_DictionaryStorageC 31_CoreSpotlight_FoundationModels16PipelineDataTypeO
++ _symbolic _____ySSSi8sequence______4datatG s18_DictionaryStorageC 31_CoreSpotlight_FoundationModels18SearchPipelineDataV
++ _symbolic _____ySS_ShySSGtG s23_ContiguousArrayStorageC
++ _symbolic _____ySS_SitG s23_ContiguousArrayStorageC
++ _symbolic _____ySS_____G s18_DictionaryStorageC 16FoundationModels16GeneratedContentV
++ _symbolic _____ySS______tG s23_ContiguousArrayStorageC 16FoundationModels16GeneratedContentV
++ _symbolic _____ySS______tG s23_ContiguousArrayStorageC 31_CoreSpotlight_FoundationModels8PipelineO5StageV
++ _symbolic _____ySaySDySSypGGG s23_ContiguousArrayStorageC
++ _symbolic _____ySaySbGG s23_ContiguousArrayStorageC
++ _symbolic _____ySaySiSgGG s23_ContiguousArrayStorageC
++ _symbolic _____ySay_____GG s11_SetStorageC s5UInt8V
++ _symbolic _____ySay_____GG s23_ContiguousArrayStorageC s5UInt8V
++ _symbolic _____ySayypGG 31_CoreSpotlight_FoundationModels12UncheckedBoxV
++ _symbolic _____ySbG s23_ContiguousArrayStorageC
++ _symbolic _____ySb_____SgG s18_DictionaryStorageC 31_CoreSpotlight_FoundationModels16SchemaUnionPruneO6PrunedV
++ _symbolic _____yScTyyt_____GG s23_ContiguousArrayStorageC s5NeverO
++ _symbolic _____ySdG 10Foundation24FloatingPointFormatStyleV
++ _symbolic _____ySi6offset______7elementtG s23_ContiguousArrayStorageC 31_CoreSpotlight_FoundationModels22OverlayStageDescriptorV
++ _symbolic _____ySiSgG s23_ContiguousArrayStorageC
++ _symbolic _____ySo22NSISO8601DateFormatterC_____G s13ManagedBufferCsRi__rlE So16os_unfair_lock_sV
++ _symbolic _____ySo7NSArrayC4rows______6outputtG 31_CoreSpotlight_FoundationModels10ResultSlot33_BFD20209575D551621CA4A381A5CDD94LLC AA13PromptedStageV6OutputV
++ _symbolic _____yYbc s6UInt64V
++ _symbolic _____y_____3key_Say_____G5valuetG s23_ContiguousArrayStorageC 13CoreSpotlight23SearchableItemAttributeV AC0fG0V
++ _symbolic _____y_____6ticket_ScCyyt______pG12continuationtG s23_ContiguousArrayStorageC s6UInt64V s5ErrorP
++ _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 31_CoreSpotlight_FoundationModels20PublicStageSideTableC5State33_C87B52C9DFC7AB0277939BBCBC9A3EA1LLV
++ _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 31_CoreSpotlight_FoundationModels9AsyncGateC5State33_6C28F8A28B0BD57AF8042AB8C1B68FB5LLV
++ _symbolic _____y_____G 31_CoreSpotlight_FoundationModels10ResultSlot33_BFD20209575D551621CA4A381A5CDD94LLC AA18PublicStageAdapterV3RunV
++ _symbolic _____y_____G s11_SetStorageC 31_CoreSpotlight_FoundationModels16PipelineDataTypeO
++ _symbolic _____y_____G s11_SetStorageC 31_CoreSpotlight_FoundationModels22SearchPipelineDataTypeO
++ _symbolic _____y_____G s11_SetStorageC s6UInt64V
++ _symbolic _____y_____G s22KeyedDecodingContainerV 31_CoreSpotlight_FoundationModels8OperatorO20SlowSuffixCodingKeys022_999925041B73B6C2FAE27O9B20113E28LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 31_CoreSpotlight_FoundationModels8OperatorO20SlowSuffixCodingKeys022_999925041B73B6C2FAE27O9B20113E28LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation3URLV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13CoreSpotlight23SearchableItemAttributeV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 16FoundationModels16GeneratedContentV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 31_CoreSpotlight_FoundationModels13PromptedStageV4Work33_5143EE1B23E1B3CB1137A3A5754F6F70LLV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 31_CoreSpotlight_FoundationModels15PersonBroadenerO11NamedFilter014_7390F4D254FF0L17B0C96A758DEFEA810LLV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 31_CoreSpotlight_FoundationModels16PipelineDataTypeO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 31_CoreSpotlight_FoundationModels18PublicStageCatalogV5EntryV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 31_CoreSpotlight_FoundationModels18SearchPipelineDataV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 31_CoreSpotlight_FoundationModels19EBNFNotationEmitterO11MemberGroup33_F5408AFEE815CBD472383931F0CF8A63LLV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 31_CoreSpotlight_FoundationModels19PromptedInputBoundsO5BoundO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 31_CoreSpotlight_FoundationModels19PromptedInputBoundsO5ShapeV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 31_CoreSpotlight_FoundationModels20PipelinePayloadCodecO6ScoresV5Layer33_86B5BEAF66C9E059E12CDC8559595859LLV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 31_CoreSpotlight_FoundationModels20ScoredSearchableItemV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 31_CoreSpotlight_FoundationModels22SearchPipelineDataTypeO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s7UnicodeO6ScalarV
++ _symbolic _____y_____ScTyyt_____GG s18_DictionaryStorageC s6UInt64V s5NeverO
++ _symbolic _____y_____SdSgG s18_DictionaryStorageC 31_CoreSpotlight_FoundationModels20PipelinePayloadCodecO6ScoresV9StableKey33_86B5BEAF66C9E059E12CDC8559595859LLV
++ _symbolic _____y_____SgG 2os21OSAllocatedUnfairLockV 31_CoreSpotlight_FoundationModels23AvailabilitySampleCacheC0J033_92CC99465A0846282A89DC5617DC2B0CLLV
++ _symbolic _____y_____SgG s23_ContiguousArrayStorageC 31_CoreSpotlight_FoundationModels19PromptedInputBoundsO5BoundO
++ _symbolic _____y_____SgG s23_ContiguousArrayStorageC 31_CoreSpotlight_FoundationModels19PromptedInputBoundsO5ShapeV
++ _symbolic _____y_____Sg_____G s13ManagedBufferCsRi__rlE 31_CoreSpotlight_FoundationModels23AvailabilitySampleCacheC0H033_92CC99465A0846282A89DC5617DC2B0CLLV So16os_unfair_lock_sV
++ _symbolic _____y______G 16FoundationModels20LanguageModelSessionC8ResponseV 015_CoreSpotlight_aB019PromptedStageResultV
++ _symbolic _____y__________G s13ManagedBufferCsRi__rlE 31_CoreSpotlight_FoundationModels20PublicStageSideTableC5State33_C87B52C9DFC7AB0277939BBCBC9A3EA1LLV So16os_unfair_lock_sV
++ _symbolic _____y__________G s13ManagedBufferCsRi__rlE 31_CoreSpotlight_FoundationModels9AsyncGateC5State33_6C28F8A28B0BD57AF8042AB8C1B68FB5LLV So16os_unfair_lock_sV
++ _symbolic _____y_____ySo7NSArrayC4rows______6outputtG______pG s6ResultOsRi_zRi0_zrlE 31_CoreSpotlight_FoundationModels12UncheckedBoxV AC13PromptedStageV6OutputV s5ErrorP
++ _symbolic _____y_____yxG______pG s6ResultOsRi_zRi0_zrlE 31_CoreSpotlight_FoundationModels12UncheckedBoxV s5ErrorP
++ _symbolic _____y_____yypG______pG s6ResultOsRi_zRi0_zrlE 31_CoreSpotlight_FoundationModels12UncheckedBoxV s5ErrorP
++ _symbolic _____yypG 31_CoreSpotlight_FoundationModels10ResultSlot33_BFD20209575D551621CA4A381A5CDD94LLC
++ _symbolic yXlSgXw
++ _type_layout_string 31_CoreSpotlight_FoundationModels12SessionGatesO5Entry33_6C28F8A28B0BD57AF8042AB8C1B68FB5LLV
++ _type_layout_string 31_CoreSpotlight_FoundationModels13PromptedStageV
++ _type_layout_string 31_CoreSpotlight_FoundationModels13PromptedStageV4Work33_5143EE1B23E1B3CB1137A3A5754F6F70LLV
++ _type_layout_string 31_CoreSpotlight_FoundationModels13PromptedStageV6OutputV
++ _type_layout_string 31_CoreSpotlight_FoundationModels15PersonBroadenerO11NamedFilter014_7390F4D254FF0I17B0C96A758DEFEA810LLV
++ _type_layout_string 31_CoreSpotlight_FoundationModels15PersonBroadenerO4PlanV
++ _type_layout_string 31_CoreSpotlight_FoundationModels16SchemaUnionPruneO0G5ErrorO
++ _type_layout_string 31_CoreSpotlight_FoundationModels16ToolStageHandlerC6ReportV
++ _type_layout_string 31_CoreSpotlight_FoundationModels18PromptedStageErrorO
++ _type_layout_string 31_CoreSpotlight_FoundationModels18PublicStageAdapterV3RunV
++ _type_layout_string 31_CoreSpotlight_FoundationModels18PublicStageCatalogV
++ _type_layout_string 31_CoreSpotlight_FoundationModels19EBNFNotationEmitterO11MemberGroup33_F5408AFEE815CBD472383931F0CF8A63LLV
++ _type_layout_string 31_CoreSpotlight_FoundationModels19EBNFNotationEmitterO7Payload33_F5408AFEE815CBD472383931F0CF8A63LLO
++ _type_layout_string 31_CoreSpotlight_FoundationModels19EBNFNotationEmitterO8Renderer33_F5408AFEE815CBD472383931F0CF8A63LLV
++ _type_layout_string 31_CoreSpotlight_FoundationModels19PromptedInputBoundsO5BoundO
++ _type_layout_string 31_CoreSpotlight_FoundationModels19PromptedInputBoundsO5ShapeV
++ _type_layout_string 31_CoreSpotlight_FoundationModels19PromptedModelClientV
++ _type_layout_string 31_CoreSpotlight_FoundationModels19PromptedModelClientV7BackendV
++ _type_layout_string 31_CoreSpotlight_FoundationModels20PipelinePayloadCodecO6ScoresV
++ _type_layout_string 31_CoreSpotlight_FoundationModels20PipelinePayloadCodecO6ScoresV5Layer33_86B5BEAF66C9E059E12CDC8559595859LLV
++ _type_layout_string 31_CoreSpotlight_FoundationModels20PipelinePayloadCodecO6ScoresV9StableKey33_86B5BEAF66C9E059E12CDC8559595859LLV
++ _type_layout_string 31_CoreSpotlight_FoundationModels20PromptedAvailabilityV
++ _type_layout_string 31_CoreSpotlight_FoundationModels20PublicStageSideTableC5State33_C87B52C9DFC7AB0277939BBCBC9A3EA1LLV
++ _type_layout_string 31_CoreSpotlight_FoundationModels21InjectedSessionClientV
++ _type_layout_string 31_CoreSpotlight_FoundationModels23AvailabilitySampleCacheC0F033_92CC99465A0846282A89DC5617DC2B0CLLV
++ _type_layout_string 31_CoreSpotlight_FoundationModels23PipelineValidationErrorO
++ _type_layout_string 31_CoreSpotlight_FoundationModels25CustomStageExecutionErrorV
++ _type_layout_string 31_CoreSpotlight_FoundationModels27FullArgumentsSchemaVariantsO14CustomArmErrorO
++ _type_layout_string 31_CoreSpotlight_FoundationModels9AsyncGateC5State33_6C28F8A28B0BD57AF8042AB8C1B68FB5LLV
+- ___swift_closure_destructor.20Tm
+- ___swift_closure_destructor.379Tm
+- ___swift_closure_destructor.383Tm
+- ___swift_closure_destructor.72Tm
+- ___swift_closure_destructor.797Tm
+- ___swift_closure_destructor.897Tm
+- ___swift_closure_destructor.961Tm
+- ___swift_exist.box.addr_destructor.63Tm
+- ___swift_get_extra_inhabitant_index.115Tm
+- ___swift_get_extra_inhabitant_index.136Tm
+- ___swift_get_extra_inhabitant_index.158Tm
+- ___swift_get_extra_inhabitant_index.178Tm
+- ___swift_get_extra_inhabitant_index.91Tm
+- ___swift_memcpy1024_8
+- ___swift_memcpy1025_8
+- ___swift_memcpy160_8
+- ___swift_memcpy256_8
+- ___swift_memcpy280_8
+- ___swift_memcpy3112_8
+- ___swift_memcpy3192_8
+- ___swift_memcpy4465_8
+- ___swift_store_extra_inhabitant_index.116Tm
+- ___swift_store_extra_inhabitant_index.137Tm
+- ___swift_store_extra_inhabitant_index.159Tm
+- ___swift_store_extra_inhabitant_index.179Tm
+- ___swift_store_extra_inhabitant_index.92Tm
+- ___unnamed_105
+- ___unnamed_110
+- ___unnamed_115
+- ___unnamed_129
+- ___unnamed_130
+- ___unnamed_131
+- ___unnamed_56
+- ___unnamed_73
+- ___unnamed_88
+- ___unnamed_93
+- ___unnamed_95
+- _associated conformance 31_CoreSpotlight_FoundationModels10OptionFlag33_B5BD6FC775643F4FEDB184B3E66E9030LLOSHAASQ
+- _associated conformance 31_CoreSpotlight_FoundationModels22CompactNotationEmitterV16FieldOverrideKeyVSHAASQ
+- _associated conformance 31_CoreSpotlight_FoundationModels22CompactNotationEmitterV7CaseKeyVSHAASQ
+- _get_enum_tag_for_layout_string 31_CoreSpotlight_FoundationModels20ConditionalBlockSpec33_B5BD6FC775643F4FEDB184B3E66E9030LLV0F9ConditionO
+- _get_enum_tag_for_layout_string 31_CoreSpotlight_FoundationModels20TransformedFenceSpec33_B5BD6FC775643F4FEDB184B3E66E9030LLV12TransformKeyO
+- _get_enum_tag_for_layout_string 31_CoreSpotlight_FoundationModels5Block33_B5BD6FC775643F4FEDB184B3E66E9030LLO
+- _swift_retain_x9
+- _symbolic SDy_____SSG 31_CoreSpotlight_FoundationModels22CompactNotationEmitterV7CaseKeyV
+- _symbolic SS3tag_SS4linet
+- _symbolic SS6prefix_t
+- _symbolic SS8typeName_t
+- _symbolic SS______t 31_CoreSpotlight_FoundationModels11SchemaFieldV
+- _symbolic SaySDySSypGGSS_______pAbAtYaKYCcSg 31_CoreSpotlight_FoundationModels28LanguageModelSessionProtocolP
+- _symbolic Say_____G 31_CoreSpotlight_FoundationModels5Block33_B5BD6FC775643F4FEDB184B3E66E9030LLO
+- _symbolic _____ 31_CoreSpotlight_FoundationModels10OptionFlag33_B5BD6FC775643F4FEDB184B3E66E9030LLO
+- _symbolic _____ 31_CoreSpotlight_FoundationModels11SectionSpec33_B5BD6FC775643F4FEDB184B3E66E9030LLV
+- _symbolic _____ 31_CoreSpotlight_FoundationModels14InlineEnumSpec33_B5BD6FC775643F4FEDB184B3E66E9030LLV
+- _symbolic _____ 31_CoreSpotlight_FoundationModels14UnionFenceSpec33_B5BD6FC775643F4FEDB184B3E66E9030LLV
+- _symbolic _____ 31_CoreSpotlight_FoundationModels14UnionFenceSpec33_B5BD6FC775643F4FEDB184B3E66E9030LLV8JoinModeO
+- _symbolic _____ 31_CoreSpotlight_FoundationModels20ConditionalBlockSpec33_B5BD6FC775643F4FEDB184B3E66E9030LLV
+- _symbolic _____ 31_CoreSpotlight_FoundationModels20ConditionalBlockSpec33_B5BD6FC775643F4FEDB184B3E66E9030LLV0F9ConditionO
+- _symbolic _____ 31_CoreSpotlight_FoundationModels20TransformedFenceSpec33_B5BD6FC775643F4FEDB184B3E66E9030LLV
+- _symbolic _____ 31_CoreSpotlight_FoundationModels20TransformedFenceSpec33_B5BD6FC775643F4FEDB184B3E66E9030LLV12TransformKeyO
+- _symbolic _____ 31_CoreSpotlight_FoundationModels22CompactNotationEmitterV16FieldOverrideKeyV
+- _symbolic _____ 31_CoreSpotlight_FoundationModels22CompactNotationEmitterV7CaseKeyV
+- _symbolic _____ 31_CoreSpotlight_FoundationModels5Block33_B5BD6FC775643F4FEDB184B3E66E9030LLO
+- _symbolic _____Sg 31_CoreSpotlight_FoundationModels10OptionFlag33_B5BD6FC775643F4FEDB184B3E66E9030LLO
+- _symbolic ______SStSg 31_CoreSpotlight_FoundationModels10OptionFlag33_B5BD6FC775643F4FEDB184B3E66E9030LLO
+- _symbolic _____ySS3tag_SS4linetG s23_ContiguousArrayStorageC
+- _symbolic _____ySS_____G s18_DictionaryStorageC 31_CoreSpotlight_FoundationModels11SchemaFieldV
+- _symbolic _____ySS______tG s23_ContiguousArrayStorageC 31_CoreSpotlight_FoundationModels11SchemaFieldV
+- _symbolic _____ySiSSG s18_DictionaryStorageC
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 31_CoreSpotlight_FoundationModels11SectionSpec33_B5BD6FC775643F4FEDB184B3E66E9030LLV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 31_CoreSpotlight_FoundationModels5Block33_B5BD6FC775643F4FEDB184B3E66E9030LLO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC s11AnyHashableV
+- _symbolic _____y_____SSG s18_DictionaryStorageC 31_CoreSpotlight_FoundationModels22CompactNotationEmitterV7CaseKeyV
+- _symbolic _____y_____SbG s18_DictionaryStorageC 31_CoreSpotlight_FoundationModels22CompactNotationEmitterV16FieldOverrideKeyV
+- _symbolic ypXp
+- _type_layout_string 31_CoreSpotlight_FoundationModels11SectionSpec33_B5BD6FC775643F4FEDB184B3E66E9030LLV
+- _type_layout_string 31_CoreSpotlight_FoundationModels14InlineEnumSpec33_B5BD6FC775643F4FEDB184B3E66E9030LLV
+- _type_layout_string 31_CoreSpotlight_FoundationModels14UnionFenceSpec33_B5BD6FC775643F4FEDB184B3E66E9030LLV
+- _type_layout_string 31_CoreSpotlight_FoundationModels14UnionFenceSpec33_B5BD6FC775643F4FEDB184B3E66E9030LLV8JoinModeO
+- _type_layout_string 31_CoreSpotlight_FoundationModels20ConditionalBlockSpec33_B5BD6FC775643F4FEDB184B3E66E9030LLV
+- _type_layout_string 31_CoreSpotlight_FoundationModels20ConditionalBlockSpec33_B5BD6FC775643F4FEDB184B3E66E9030LLV0F9ConditionO
+- _type_layout_string 31_CoreSpotlight_FoundationModels20TransformedFenceSpec33_B5BD6FC775643F4FEDB184B3E66E9030LLV
+- _type_layout_string 31_CoreSpotlight_FoundationModels20TransformedFenceSpec33_B5BD6FC775643F4FEDB184B3E66E9030LLV12TransformKeyO
+- _type_layout_string 31_CoreSpotlight_FoundationModels22CompactNotationEmitterV16FieldOverrideKeyV
+- _type_layout_string 31_CoreSpotlight_FoundationModels22CompactNotationEmitterV7CaseKeyV
+- _type_layout_string 31_CoreSpotlight_FoundationModels5Block33_B5BD6FC775643F4FEDB184B3E66E9030LLO
+- _type_layout_string 31_CoreSpotlight_FoundationModels8PipelineO8PromptedV
+- _type_layout_string 31_CoreSpotlight_FoundationModels8PipelineO9StageKindO19DiscriminatedCustom33_0B7B885B2FA563F52D868A96E3EB2696LLV
+CStrings:
++ "  \"N <unit> ago\" with days, weeks or months → on(reference: relative(now), offset: -N <unit>): one unit, N back. With years → on(absolute year: current year − N). Not after."
++ "  An offset with `after` means since; use `on` or `between` for around-then."
++ "  Root: %{private}@"
++ "  Source: %{private}@"
++ "  Stage %{public}d: %{private}@"
++ "  Stage %{public}d: groupBy(id=%{private}@, from=%{private}@, attribute=%{private}@)"
++ "  Stage %{public}d: limit(id=%{private}@, from=%{private}@, limit=%{public}d, sortBy=%{private}@)"
++ "  Stage %{public}d: query(id=%{private}@, limit=%{public}@)"
++ "  Stage %{public}d: valueCount(id=%{private}@, from=%{private}@)"
++ "  ⚠️ When the user names a duration (\"last N <unit>\", \"in the past N\"), the temporal node MUST include an offset; `after(reference: relative(now))` with no offset matches future content, not the duration the user asked for."
++ " (sample). All shown to user."
++ " item(s) not hydrated: no matching input item."
++ " item(s) truncated to fit a model call."
++ " request(s) failed: "
++ "#/$defs/DiscriminatedCustom__"
++ "%{public}@ declares %{public}@ in inputTypes but does not implement %{public}@"
++ "%{public}s"
++ "' is invalid: use 1 to 64 characters from A-Z, a-z, 0-9, '_', '.', '-'."
++ "' reduce output does not shrink."
++ "' requires limit or sampling of at most "
++ "': instruction too long for the model's context window."
++ "': on-device model unavailable."
++ "**Custom stages:**"
++ "**PromptedStage:** LLM pass over input, batched. Requires limit or sampling of at most "
++ "**Zero results + broadenedResults:** When a fuzzy temporal query (today/this week/last month/yesterday/lastWeek/lastMonth) returns 0 results, the tool auto-retries with a wider window. If nearby results exist, `broadenedResults` is set. Write a structural answer: \"No [X] [primaryWindow]. Nearest match: [broadenedWindow] — [item summary].\" Do NOT ask the user if they want to try a broader search; answer directly. Same when a person filter returns 0: it is retried as a name text search; label it: \"No [X] from [name]. Items mentioning [name]: ...\""
++ ". Events and documents before this date are in the past.\n"
++ "Content type identifier - friendly name OR system UTI. Examples: 'email', 'messages', 'documents', 'text', 'pdf', 'presentations', 'spreadsheets', 'photos', 'images', 'videos', 'music', 'crash-report', 'log', 'source-code', 'event', 'contact', 'note', 'bookmark', 'application', 'com.adobe.pdf', 'com.microsoft.word.doc'. Validated at runtime against UTType registry."
++ "DiscriminatedAllText"
++ "DiscriminatedCustom__"
++ "Duplicate values for key: '"
++ "EBNF of the call arguments (Args). str int num bool; X*=list; f?=optional; a|b=one of; lowercase bare words=literal strings; t(x)={\"type\":\"<t>\",\"value\":x}; t{f:T}={\"type\":\"<t>\",f:T}; (*note*)"
++ "ERROR: AgentPredicate: unparseable date string %{private}@ — date predicate will not match as intended."
++ "ERROR: Failed to compute start of week from components: yearForWeekOfYear=%{private}d, weekOfYear=%{private}d"
++ "ERROR: Invalid date components: year=%{private}d, month=%{private}d, day=%{private}d"
++ "ERROR: Temporal.toObjC: unbound variable '%{private}@' in day field."
++ "ERROR: Temporal.toObjC: unbound variable '%{private}@' in hour field."
++ "ERROR: Temporal.toObjC: unbound variable '%{private}@' in minute field."
++ "ERROR: Temporal.toObjC: unbound variable '%{private}@' in month field."
++ "ERROR: Temporal.toObjC: unbound variable '%{private}@' in recurring day field."
++ "ERROR: Temporal.toObjC: unbound variable '%{private}@' in recurring month field."
++ "ERROR: Temporal.toObjC: unbound variable '%{private}@' in recurring weekOfYear field."
++ "ERROR: Temporal.toObjC: unbound variable '%{private}@' in recurring weekday field."
++ "ERROR: Temporal.toObjC: unbound variable '%{private}@' in second field."
++ "ERROR: Temporal.toObjC: unbound variable '%{private}@' in year field. Variables must be bound before conversion to ObjC."
++ "FoundationModels.LanguageModelSession.GenerationError"
++ "FullArguments schema failed to encode; the tool description will carry no schema"
++ "FullArguments schema variant with custom stages failed: %{public}s"
++ "FullArguments schema variant without "
++ "Hydration stage '"
++ "LanguageModelError."
++ "Pass1: stage '%{private}s' from='%{private}s' → '%{private}s' (type hint: %{public}s)"
++ "Pass2: injecting bindVariable='%{private}s' on '%{private}s' for consumer '%{private}s'"
++ "Pass2: no aggregation stage found upstream of '%{private}s' for variable '%{private}s'"
++ "Pass2: stage '%{private}s' already binds '%{private}s'; cannot rebind for '%{private}s'"
++ "Pass4: stripped limit from '%{private}s' (was %d)"
++ "Prompted stage '"
++ "Public custom stage %{public}@ returned %{public}@ but declares output type %{public}@; converted"
++ "Public custom stage %{public}@ returned %{public}@ but declares output type %{public}@; no conversion exists"
++ "Public custom stage failed: %{private}@"
++ "Spotlight Search (Native + JSON API)\nExecute Spotlight queries to search files, emails, calendar events, and other indexed content.\n\n📚 Help/Schema Queries (JSON):\nFor schema introspection and help, use schemaQuery or helpQuery parameters:\n- schemaQuery: \"{\"describe\": \"schema\"}\" - List all attributes\n- helpQuery: \"{\"help\": true}\" - Get help system introduction\n\nSearch capabilities: Files by name, content, type, metadata - Calendar events, emails, contacts - Answer \"what files do I have that...\" questions - Complex multi-stage queries (grouping, aggregation, analytics)\n\nResults are automatically paginated to prevent context overflow (default: 15 items per page).\n\nResponse format:\n{\n  \"items\": [...],            // Array of search results (this page)\n  \"count\": 124,              // Total results found\n  \"hasMore\": true,           // More pages available\n  \"cursor\": \"page_1\"         // Pass this back to get the next page\n}\n\nWhen hasMore is true, you MUST call the tool again with the cursor value to retrieve remaining results before answering the user. Incomplete data leads to wrong answers.\nThe cursor is opaque: send it back unchanged in query.cursor with the same query and pageSize. It is ignored for pipelines.\n\n🚀 Quick Start: Use the Built-In Help System!\nThe search tool has a comprehensive interactive help system. Start here instead of guessing!\n\nStep 1: Get oriented\n\n{\"help\": true}\nReturns: Welcome message, available topics, quick examples, discovery queries\n\nStep 2: Explore topics based on your need\n\nFor common use cases: json {\"help\": \"quickstart\"} Shows: Email frequency, content search, grouping/counting patterns\n\nFor understanding operators: json {\"help\": \"operators\"} Shows: Fast vs slow operators, performance characteristics, examples\n\nFor discovering attributes (RECOMMENDED APPROACH): json { \"pipeline\": [ { \"id\": \"discover\", \"type\": \"query\", \"find\": {\"attribute\": \"kMDItemContentType\", \"operator\": \"equals\", \"value\": \"public.email-message\"}, \"fetch\": [\"_kMDItemSDBInfo\"], \"limit\": 1 } ] } Returns: Complete schema for email objects - ALL available field names and their values! This is much more accurate than the static schema list.\n\nFor static schema list (fallback): json {\"describe\": \"schema\"} Lists all 827+ available attributes across all schemas (but may be incomplete)\n\nFor complex queries (pipelines): json {\"help\": \"pipelines\"} Shows: Multi-stage queries (query → group → compute), patterns, examples\n\nFor smart queries with world knowledge: json {\"help\": \"smart_queries\"} Shows: Travel bookings, shopping receipts, medical appointments, using entity knowledge\n\nStep 3: Get specific help\n\nFind attribute details: json {\"describe\": \"attribute\", \"attribute\": \"kMDItemAuthors\"} Returns: Type, multi-valued flag, example values, common content types, next steps\n\nExplore content type attributes: json {\"describe\": \"content_type\", \"uti\": \"public.email-message\"} Returns: All attributes available for emails\n\nLearn reusable patterns: json {\"help\": \"pipelines.patterns.find_top_n\"} Returns: Template for \"most frequent sender\", \"largest file\", etc.\n\nBasic Query Format\nSimple query:\n\n{\n  \"find\": {\n    \"attribute\": \"any\",\n    \"operator\": \"prefix\",\n    \"value\": \"keyword\"\n  }\n}\nMulti-condition query:\n\n{\n  \"find\": {\n    \"match\": \"all\",\n    \"conditions\": [\n      {\"attribute\": \"kMDItemContentType\", \"operator\": \"equals\", \"value\": \"com.adobe.pdf\"},\n      {\"attribute\": \"any\", \"operator\": \"prefix\", \"value\": \"report\"}\n    ]\n  }\n}\nPipeline query (advanced):\n\n{\n  \"pipeline\": [\n    {\n      \"id\": \"find_emails\",\n      \"type\": \"query\",\n      \"find\": {\"attribute\": \"kMDItemContentType\", \"operator\": \"equals\", \"value\": \"public.email-message\"},\n      \"fetch\": [\"kMDItemAuthors\"]\n    },\n    {\n      \"id\": \"group_by_sender\",\n      \"type\": \"groupby\",\n      \"groupBy\": \"kMDItemAuthors\",\n      \"aggregations\": [{\"function\": \"count\", \"outputField\": \"email_count\"}]\n    },\n    {\n      \"id\": \"find_most_frequent\",\n      \"type\": \"compute\",\n      \"expression\": \"max({{group_by_sender}}, \"email_count\")\",\n      \"outputFields\": [\"most_frequent_sender\", \"most_frequent_sender_value\"]\n    }\n  ]\n}\nKey Operators (Quick Reference)\n⚡ Fast (use these first): - equals - Exact match - prefix - Word-start match (use instead of slow_infix!) - in - Match any value in list - range - Numeric/date range\n\n🐌 Slow (avoid): - slow_infix - Substring anywhere (scans all documents!)\n\n💡 Tip: Query {\"help\": \"operators\"} for full details and performance tips!\n\nKey Attributes (Quick Reference)\n⭐ Recommended for broad search: - \"any\" - Search all fields including body text (fastest) - \"*\" - Search all metadata (no body text)\n\n📋 Common specific attributes: - kMDItemDisplayName - File/item name - kMDItemContentType - File type - kMDItemAuthors - Authors/senders - kMDItemTitle - Title (emails, docs, events)\n\n💡 Tip: Query {\"describe\": \"schema\"} to see all 827+ attributes!\n\nExecution\n\nDetermine what kind of query you need:\n\nUnknown? → Query {\"help\": true} first\nCommon pattern? → Query {\"help\": \"quickstart\"}\nNeed attribute? → Query {\"describe\": \"schema\"}\nReady to query? → Build your JSON query\n\nWorkflow for Complex Queries\nExample: \"Who sends me the most emails?\"\n\nAsk for help → {\"help\": \"quickstart\"}\nFind matching use case → \"email_frequency\"\nGet pattern details → {\"help\": \"pipelines.patterns.find_top_n\"}\nExecute the pipeline → Use the provided 3-stage example\nDone! Results show most frequent sender\nExample: \"Find PDFs by a specific author\"\n\nFind attribute → {\"describe\": \"schema\"} → Find \"kMDItemAuthors\"\nGet attribute details → {\"describe\": \"attribute\", \"attribute\": \"kMDItemAuthors\"}\nBuild query → Combine with kMDItemContentType\nExecute!\nExample: \"What fields are available for calendar events?\"\n\nDiscover schema dynamically → json { \"pipeline\": [ { \"id\": \"discover\", \"type\": \"query\", \"find\": {\"attribute\": \"kMDItemContentType\", \"operator\": \"equals\", \"value\": \"com.apple.ical.Event\"}, \"fetch\": [\"_kMDItemSDBInfo\"], \"limit\": 1 } ] }\nExtract field names → Look at keys in _kMDItemSDBInfo result\nUse discovered fields → Build query using real field names\nDone! No guessing needed!\nBest Practices for LLMs\n🎯 Use the help system proactively - Don't guess, query!\n📚 Start with quickstart - Common patterns are already documented\n🔍 Discover schema dynamically - Use _kMDItemSDBInfo to see REAL fields, not guessed ones\n⚡ Prefer fast operators - prefix not slow_infix\n🌐 Use world knowledge - Check smart_queries for travel, shopping, medical queries\n🔗 Follow next_steps - Every help response suggests what to learn next\nSchema Discovery Pattern (NEW!)\nProblem: Don't know what fields are available for emails/PDFs/events?\n\nSolution: Fetch _kMDItemSDBInfo to see the ACTUAL schema!\n\n{\n  \"pipeline\": [\n    {\n      \"id\": \"discover\",\n      \"type\": \"query\",\n      \"find\": {\"attribute\": \"kMDItemContentType\", \"operator\": \"equals\", \"value\": \"public.email-message\"},\n      \"fetch\": [\"_kMDItemSDBInfo\"],\n      \"limit\": 1\n    }\n  ]\n}\nResult: Object with ~100+ field names and values showing: - Standard fields (kMDItemDisplayName, kMDItemAuthors, etc.) - Private fields (_kMDItemBundleID, kMDItemDomainIdentifier, etc.) - App-specific fields (comapplemaildateReceived, etc.) - Type information (values show if field is string, number, array, date)\n\nWorkflow: 1. Fetch _kMDItemSDBInfo once per content type 2. Cache field names for that content type 3. Use discovered fields to construct queries/aggregations 4. Never guess field names again!\n\nCommon Mistakes to Avoid\n❌ Guessing attribute names → ✅ Query {\"describe\": \"schema\"} first ❌ Using slow_infix → ✅ Use prefix instead ❌ OR-ing many attributes → ✅ Use \"any\" to search all fields ❌ Reinventing patterns → ✅ Check {\"help\": \"pipelines.patterns\"} ❌ Vague searches → ✅ Use {\"help\": \"smart_queries\"} for entity-based queries\n\nExamples You Can Copy-Paste\nSearch for keyword anywhere: json {\"find\": {\"attribute\": \"any\", \"operator\": \"prefix\", \"value\": \"neurology\"}}\n\nFind recent PDFs: json { \"find\": { \"match\": \"all\", \"conditions\": [ {\"attribute\": \"kMDItemContentType\", \"operator\": \"equals\", \"value\": \"com.adobe.pdf\"}, {\"attribute\": \"kMDItemContentModificationDate\", \"operator\": \"range\", \"value\": [\"2024-01-01\", \"2024-12-31\"]} ] } }\n\nFind most frequent email sender: json { \"pipeline\": [ {\"id\": \"emails\", \"type\": \"query\", \"find\": {\"attribute\": \"kMDItemContentType\", \"operator\": \"equals\", \"value\": \"public.email-message\"}, \"fetch\": [\"kMDItemAuthors\"]}, {\"id\": \"grouped\", \"type\": \"groupby\", \"groupBy\": \"kMDItemAuthors\", \"aggregations\": [{\"function\": \"count\", \"outputField\": \"count\"}]}, {\"id\": \"top\", \"type\": \"compute\", \"expression\": \"max({{grouped}}, \"count\")\", \"outputFields\": [\"sender\", \"count\"]} ] }\n\nLearning Path for New Users\n1. {\"help\": true}\n   ↓\n2. {\"help\": \"quickstart\"}  (if matching common use case)\n   OR\n   {\"help\": \"operators\"}    (if building simple query)\n   OR\n   {\"help\": \"pipelines\"}    (if need grouping/aggregation)\n   ↓\n3. {\"describe\": \"schema\"}   (to discover attributes)\n   ↓\n4. Build and execute query\n   ↓\n5. {\"help\": \"performance_tips\"} (to optimize)\nRemember\nThe search tool is self-documenting! When in doubt, query the help system. It's interactive, cross-linked, and designed specifically for LLMs to learn efficiently (3-4 queries to go from zero to executing complex queries)."
++ "SpotlightSearchTool: %d custom stage(s) configured with a focused guide are never offered to the model."
++ "SpotlightSearchTool: %d custom stage(s) not offered: empty name or no input type this tool can produce."
++ "SpotlightSearchTool: yielding output-node reply %d/%d status=%{public}@ stage=%{private}@."
++ "Swift/NativeDictionary.swift"
++ "The requested folders are outside the folders this search may use. Search again without scopes, or with folders the user named."
++ "True: show all results to the user now; you get a top-5 sample."
++ "_CoreSpotlight_FoundationModels.ToolStageHandler"
++ "com.apple.corespotlight.agentic.stage"
++ "contextSizeExceeded"
++ "exceededContextWindowSize"
++ "execute(groupedItems:)"
++ "execute(scoredItems:)"
++ "execute(statistic:value:)"
++ "executeSearchQuery(_:autoDisplay:modelFetchAttributes:publicArguments:)"
++ "guardrailViolation"
++ "init()"
++ "kMDItemDescription"
++ "map"
++ "map: batches=%ld limit=%ld batchSize=%ld"
++ "maxTokensPerBatch"
++ "prompted stage done: requests=%ld in=%ld out=%ld truncated=%ld"
++ "reduce"
++ "reduce level done: batches=%ld answers=%ld in=%ld out=%ld"
++ "slowSuffix"
++ "stage-specific fields; a stage reads earlier stages by id"
++ "stageExecutionFailed"
++ "stageInputMismatch"
++ "unsupportedCapability"
++ "unsupportedGenerationGuide"
++ "unsupportedLanguageOrLocale"
++ "unsupportedTranscriptContent"
++ "ℹ️ AnswerGrounderAgent: %{private}@"
++ "ℹ️ DataAvailabilityDiscovererAgent: %{private}@"
++ "ℹ️ HypothesisGeneratorAgent: %{private}@"
++ "ℹ️ IntentExtractorAgent: %{private}@"
++ "ℹ️ IterativeExplorerAgent: %{private}@"
++ "⚠️ AnswerGrounderAgent: %{private}@"
++ "⚠️ DataAvailabilityDiscovererAgent: %{private}@"
++ "⚠️ HypothesisGeneratorAgent: %{private}@"
++ "⚠️ IterativeExplorerAgent: %{private}@"
++ "🔍     Stage %{public}@: %{public}@ bindVariable=%{private}@ extractValue.bindVariable=%{private}@"
++ "🔍   - root: %{private}@"
++ "🔍   - source: %{private}@"
++ "🔍 PipelineSpecification.toObjC: Collected outputNodes from explicit output fields=%{private}@ (userOnly=%{public}@)"
++ "🔍 [PipelineTypes] Created queryObjC: %{private}@ (class=%{public}@)"
++ "🔍 [Pipeline] Inferred processingMode=%{public}@ for prompted stage '%{private}@' (terminal=%{public}@)"
++ "🔧 Converted query predicate to string: '%{private}@'"
++ "🔧 FIXING pipeline: Removing limit=%{public}@ from query stage '%{private}@' (aggregation follows)"
++ "🔧 OPTIMIZATION: Converted sort+limit to temporal-adjacency ranking (sortBy=%{private}@, order=%{public}@, weight=%{public}f)"
++ "🔧 Rewriting stage '%{private}@' inputStageId: '%{private}@' → '%{private}@' (absorbed groupBy)"
++ "🔧 TOOL_CALL_START[%{public}@]: type=help topic=%{private}@"
++ "🔧 [post-mutation]     Stage %{public}@: %{public}@ bindVariable=%{private}@ extractValue.bindVariable=%{private}@"
++ "🚀 ORCHESTRATOR_QUERY_START: user_request='%{private}@' timestamp=%{public}@"
+- "           | {absoluteReference:full}"
+- "           | {absoluteReference:onDevice}"
+- "        | {\"type\":\"namedPerson\", \"value\":{\"name\":\"<str>\"}}"
+- "        | {\"type\":\"organization\", \"value\":{\"name\":\"<str>\"}}"
+- "  \"autoDisplay\"?: <bool>               — true: send results to user display, LLM gets count only. Use for \"show me all X\" queries."
+- "  \"fetchAttributes\"?: [\"<str>\"]        — attributes to return (e.g. \"title\", \"contentCreationDate\", \"authorNames\")"
+- "  \"label\"?: \"<str>\"                    — short human-readable title for the query"
+- "  \"modelComposition\": <ModelComposition>"
+- "  \"pageSize\"?: <int>                   — results per page (default: 15)"
+- "  \"postFilters\"?: [\"<str>\"]            — post-query attribute filters"
+- "  \"rankingMetadata\"?: {\"rankingType\":\"recency|relevance|alphabetical\", \"sortAttribute\"?:\"<str>\", \"sortDirection\"?:\"ascending|descending\", \"wasExplicit\"?:<bool>}"
+- "  \"root\": <QueryNode>"
+- "  \"scopes\"?: [\"<str>\"]                 — directory paths to filter (e.g. \"/Users/john/Downloads\")"
+- "  \"source\"?: \"coreSpotlight|fileSystem|photos|all|both\"  — data source (default: \"both\")"
+- "  // optional: \"pipeline\": {\"stages\":[<Stage>]}  — for aggregation/counting"
+- "  Root: %{public}@"
+- "  Source: %{public}@"
+- "  Stage %{public}d: %{public}@"
+- "  Stage %{public}d: groupBy(id=%{public}@, from=%{public}@, attribute=%{public}@)"
+- "  Stage %{public}d: limit(id=%{public}@, from=%{public}@, limit=%{public}d, sortBy=%{public}@)"
+- "  Stage %{public}d: query(id=%{public}@, limit=%{public}@)"
+- "  Stage %{public}d: valueCount(id=%{public}@, from=%{public}@)"
+- "  ⚠️ When the user names a duration (\"last N <unit>\", \"N <unit> ago\", \"in the past N\"), the temporal node MUST include an offset; `after(reference: relative(now))` with no offset matches future content, not the duration the user asked for."
+- " buffered items: "
+- " declares .count in inputTypes but does not implement execute(count:)"
+- " declares .groupedItems in inputTypes but does not implement execute(groupedItems:)"
+- " declares .items in inputTypes but does not implement execute(items:)"
+- " declares .scoredItems in inputTypes but does not implement execute(scoredItems:)"
+- " declares .statistic in inputTypes but does not implement execute(statistic:value:)"
+- " declares .table in inputTypes but does not implement execute(table:)"
+- " declares .text in inputTypes but does not implement execute(text:)"
+- " items from agentResult.updatedContext (context contained "
+- "\",\"value\":{\"value\":<int>}}"
+- "\"extractValue\":{\"selector\":{\"type\":\"selectMaxBy|selectMinBy\",\"field\":\"<attr>\"},\"extractField\":\"<attr>\",\"bindVariable\":\"<name>\"}"
+- "' (query stages are entry points and don't require an input)"
+- "' on query stage '"
+- "' unrecognized result type: "
+- "**Call format** (top-level JSON object):\n"
+- "**ModelComposition** — required on every query:\n"
+- "**Pipeline** — `\"pipeline\":{\"stages\":[<Stage>]}`{annotation-space:Pipeline}\n"
+- "**PromptedStage:** Incurs a second LLM call. Use only when server-side extraction is required."
+- "**QueryNode** — recursive, pick one form{annotation:QueryNode}:\n"
+- "**Temporal**{annotation:Temporal}:\n"
+- "**Value** — pick one form:\n"
+- "**Zero results + broadenedResults:** When a fuzzy temporal query (today/this week/last month/yesterday/lastWeek/lastMonth) returns 0 results, the tool auto-retries with a wider window. If nearby results exist, `broadenedResults` is set. Write a structural answer: \"No [X] [primaryWindow]. Nearest match: [broadenedWindow] — [item summary].\" Do NOT ask the user if they want to try a broader search; answer directly."
+- ". Skipping pipeline."
+- "...\", inputCount: "
+- "<Entity>: {\"type\":\"user\"}"
+- "<Model>: {\"type\":\""
+- "<PersonMePredicate>:{annotation:PersonMePredicate}"
+- "<PersonPredicate>:{annotation:PersonPredicate}"
+- "<Reference>: {\"type\":\"relative\",\"value\":\"lastWeek|lastMonth|lastYear|today|yesterday|thisWeek\"}"
+- "<Reference>: {\"type\":\"relative\",\"value\":\"{enumValues:DiscriminatedRelative.value}\"}"
+- "<Stage>: {\"id\":\"<str>\", \"header\"?:\"<str>\", \"output\"?:<StageOutput>, \"kind\":<StageKind>}"
+- "<TemporalModel>: {\"type\":\"recency|upcoming|temporalAdjacency\", \"value\":{\"multiplier\":1.0}}"
+- "<TimeOffset>: {\"value\":<int>, \"unit\":\"{enumValues:TimeOffset.unit}\"}"
+- "Content type identifier - friendly name OR system UTI. Examples: 'email', 'messages', 'documents', 'text', 'pdf', 'presentations', 'spreadsheets', 'photos', 'images', 'videos', 'music', 'crash-report', 'log', 'event', 'contact', 'note', 'bookmark', 'application', 'com.adobe.pdf', 'com.microsoft.word.doc'. Validated at runtime against UTType registry."
+- "DiscriminatedKeywords"
+- "ERROR: AgentPredicate: unparseable date string %{public}@ — date predicate will not match as intended."
+- "ERROR: Failed to compute start of week from components: yearForWeekOfYear=%{public}d, weekOfYear=%{public}d"
+- "ERROR: Invalid date components: year=%{public}d, month=%{public}d, day=%{public}d"
+- "ERROR: Temporal.toObjC: unbound variable '%{public}@' in day field."
+- "ERROR: Temporal.toObjC: unbound variable '%{public}@' in hour field."
+- "ERROR: Temporal.toObjC: unbound variable '%{public}@' in minute field."
+- "ERROR: Temporal.toObjC: unbound variable '%{public}@' in month field."
+- "ERROR: Temporal.toObjC: unbound variable '%{public}@' in recurring day field."
+- "ERROR: Temporal.toObjC: unbound variable '%{public}@' in recurring month field."
+- "ERROR: Temporal.toObjC: unbound variable '%{public}@' in recurring weekOfYear field."
+- "ERROR: Temporal.toObjC: unbound variable '%{public}@' in recurring weekday field."
+- "ERROR: Temporal.toObjC: unbound variable '%{public}@' in second field."
+- "ERROR: Temporal.toObjC: unbound variable '%{public}@' in year field. Variables must be bound before conversion to ObjC."
+- "Maximum input items (default 100). If upstream produces more, the stage returns an error asking you to add a Limit stage. Increase only when absolutely necessary."
+- "ModelComposition"
+- "No session factory configured for prompted stages. Call setSessionFactory() before using prompted stages."
+- "Pass1: stage '%{public}s' from='%{public}s' → '%{public}s' (type hint: %{public}s)"
+- "Pass2: injecting bindVariable='%{public}s' on '%{public}s' for consumer '%{public}s'"
+- "Pass2: no aggregation stage found upstream of '%{public}s' for variable '%{public}s'"
+- "Pass2: stage '%{public}s' already binds '%{public}s'; cannot rebind for '%{public}s'"
+- "Pass4: stripped limit from '%{public}s' (was %d)"
+- "Spotlight Search (Native + JSON API)\nExecute Spotlight queries to search files, emails, calendar events, and other indexed content.\n\n📚 Help/Schema Queries (JSON):\nFor schema introspection and help, use schemaQuery or helpQuery parameters:\n- schemaQuery: \"{\"describe\": \"schema\"}\" - List all attributes\n- helpQuery: \"{\"help\": true}\" - Get help system introduction\n\nSearch capabilities: Files by name, content, type, metadata - Calendar events, emails, contacts - Answer \"what files do I have that...\" questions - Complex multi-stage queries (grouping, aggregation, analytics)\n\nResults are automatically paginated to prevent context overflow (default: 15 items per page).\n\nResponse format:\n{\n  \"items\": [...],            // Array of search results (this page)\n  \"count\": 124,              // Total results found\n  \"hasMore\": true,           // More pages available\n  \"cursor\": \"page_1\"         // Pass this back to get the next page\n}\n\nWhen hasMore is true, you MUST call the tool again with the cursor value to retrieve remaining results before answering the user. Incomplete data leads to wrong answers.\n\n🚀 Quick Start: Use the Built-In Help System!\nThe search tool has a comprehensive interactive help system. Start here instead of guessing!\n\nStep 1: Get oriented\n\n{\"help\": true}\nReturns: Welcome message, available topics, quick examples, discovery queries\n\nStep 2: Explore topics based on your need\n\nFor common use cases: json {\"help\": \"quickstart\"} Shows: Email frequency, content search, grouping/counting patterns\n\nFor understanding operators: json {\"help\": \"operators\"} Shows: Fast vs slow operators, performance characteristics, examples\n\nFor discovering attributes (RECOMMENDED APPROACH): json { \"pipeline\": [ { \"id\": \"discover\", \"type\": \"query\", \"find\": {\"attribute\": \"kMDItemContentType\", \"operator\": \"equals\", \"value\": \"public.email-message\"}, \"fetch\": [\"_kMDItemSDBInfo\"], \"limit\": 1 } ] } Returns: Complete schema for email objects - ALL available field names and their values! This is much more accurate than the static schema list.\n\nFor static schema list (fallback): json {\"describe\": \"schema\"} Lists all 827+ available attributes across all schemas (but may be incomplete)\n\nFor complex queries (pipelines): json {\"help\": \"pipelines\"} Shows: Multi-stage queries (query → group → compute), patterns, examples\n\nFor smart queries with world knowledge: json {\"help\": \"smart_queries\"} Shows: Travel bookings, shopping receipts, medical appointments, using entity knowledge\n\nStep 3: Get specific help\n\nFind attribute details: json {\"describe\": \"attribute\", \"attribute\": \"kMDItemAuthors\"} Returns: Type, multi-valued flag, example values, common content types, next steps\n\nExplore content type attributes: json {\"describe\": \"content_type\", \"uti\": \"public.email-message\"} Returns: All attributes available for emails\n\nLearn reusable patterns: json {\"help\": \"pipelines.patterns.find_top_n\"} Returns: Template for \"most frequent sender\", \"largest file\", etc.\n\nBasic Query Format\nSimple query:\n\n{\n  \"find\": {\n    \"attribute\": \"any\",\n    \"operator\": \"prefix\",\n    \"value\": \"keyword\"\n  }\n}\nMulti-condition query:\n\n{\n  \"find\": {\n    \"match\": \"all\",\n    \"conditions\": [\n      {\"attribute\": \"kMDItemContentType\", \"operator\": \"equals\", \"value\": \"com.adobe.pdf\"},\n      {\"attribute\": \"any\", \"operator\": \"prefix\", \"value\": \"report\"}\n    ]\n  }\n}\nPipeline query (advanced):\n\n{\n  \"pipeline\": [\n    {\n      \"id\": \"find_emails\",\n      \"type\": \"query\",\n      \"find\": {\"attribute\": \"kMDItemContentType\", \"operator\": \"equals\", \"value\": \"public.email-message\"},\n      \"fetch\": [\"kMDItemAuthors\"]\n    },\n    {\n      \"id\": \"group_by_sender\",\n      \"type\": \"groupby\",\n      \"groupBy\": \"kMDItemAuthors\",\n      \"aggregations\": [{\"function\": \"count\", \"outputField\": \"email_count\"}]\n    },\n    {\n      \"id\": \"find_most_frequent\",\n      \"type\": \"compute\",\n      \"expression\": \"max({{group_by_sender}}, \"email_count\")\",\n      \"outputFields\": [\"most_frequent_sender\", \"most_frequent_sender_value\"]\n    }\n  ]\n}\nKey Operators (Quick Reference)\n⚡ Fast (use these first): - equals - Exact match - prefix - Word-start match (use instead of slow_infix!) - in - Match any value in list - range - Numeric/date range\n\n🐌 Slow (avoid): - slow_infix - Substring anywhere (scans all documents!)\n\n💡 Tip: Query {\"help\": \"operators\"} for full details and performance tips!\n\nKey Attributes (Quick Reference)\n⭐ Recommended for broad search: - \"any\" - Search all fields including body text (fastest) - \"*\" - Search all metadata (no body text)\n\n📋 Common specific attributes: - kMDItemDisplayName - File/item name - kMDItemContentType - File type - kMDItemAuthors - Authors/senders - kMDItemTitle - Title (emails, docs, events)\n\n💡 Tip: Query {\"describe\": \"schema\"} to see all 827+ attributes!\n\nExecution\n\nDetermine what kind of query you need:\n\nUnknown? → Query {\"help\": true} first\nCommon pattern? → Query {\"help\": \"quickstart\"}\nNeed attribute? → Query {\"describe\": \"schema\"}\nReady to query? → Build your JSON query\n\nWorkflow for Complex Queries\nExample: \"Who sends me the most emails?\"\n\nAsk for help → {\"help\": \"quickstart\"}\nFind matching use case → \"email_frequency\"\nGet pattern details → {\"help\": \"pipelines.patterns.find_top_n\"}\nExecute the pipeline → Use the provided 3-stage example\nDone! Results show most frequent sender\nExample: \"Find PDFs by a specific author\"\n\nFind attribute → {\"describe\": \"schema\"} → Find \"kMDItemAuthors\"\nGet attribute details → {\"describe\": \"attribute\", \"attribute\": \"kMDItemAuthors\"}\nBuild query → Combine with kMDItemContentType\nExecute!\nExample: \"What fields are available for calendar events?\"\n\nDiscover schema dynamically → json { \"pipeline\": [ { \"id\": \"discover\", \"type\": \"query\", \"find\": {\"attribute\": \"kMDItemContentType\", \"operator\": \"equals\", \"value\": \"com.apple.ical.Event\"}, \"fetch\": [\"_kMDItemSDBInfo\"], \"limit\": 1 } ] }\nExtract field names → Look at keys in _kMDItemSDBInfo result\nUse discovered fields → Build query using real field names\nDone! No guessing needed!\nBest Practices for LLMs\n🎯 Use the help system proactively - Don't guess, query!\n📚 Start with quickstart - Common patterns are already documented\n🔍 Discover schema dynamically - Use _kMDItemSDBInfo to see REAL fields, not guessed ones\n⚡ Prefer fast operators - prefix not slow_infix\n🌐 Use world knowledge - Check smart_queries for travel, shopping, medical queries\n🔗 Follow next_steps - Every help response suggests what to learn next\nSchema Discovery Pattern (NEW!)\nProblem: Don't know what fields are available for emails/PDFs/events?\n\nSolution: Fetch _kMDItemSDBInfo to see the ACTUAL schema!\n\n{\n  \"pipeline\": [\n    {\n      \"id\": \"discover\",\n      \"type\": \"query\",\n      \"find\": {\"attribute\": \"kMDItemContentType\", \"operator\": \"equals\", \"value\": \"public.email-message\"},\n      \"fetch\": [\"_kMDItemSDBInfo\"],\n      \"limit\": 1\n    }\n  ]\n}\nResult: Object with ~100+ field names and values showing: - Standard fields (kMDItemDisplayName, kMDItemAuthors, etc.) - Private fields (_kMDItemBundleID, kMDItemDomainIdentifier, etc.) - App-specific fields (comapplemaildateReceived, etc.) - Type information (values show if field is string, number, array, date)\n\nWorkflow: 1. Fetch _kMDItemSDBInfo once per content type 2. Cache field names for that content type 3. Use discovered fields to construct queries/aggregations 4. Never guess field names again!\n\nCommon Mistakes to Avoid\n❌ Guessing attribute names → ✅ Query {\"describe\": \"schema\"} first ❌ Using slow_infix → ✅ Use prefix instead ❌ OR-ing many attributes → ✅ Use \"any\" to search all fields ❌ Reinventing patterns → ✅ Check {\"help\": \"pipelines.patterns\"} ❌ Vague searches → ✅ Use {\"help\": \"smart_queries\"} for entity-based queries\n\nExamples You Can Copy-Paste\nSearch for keyword anywhere: json {\"find\": {\"attribute\": \"any\", \"operator\": \"prefix\", \"value\": \"neurology\"}}\n\nFind recent PDFs: json { \"find\": { \"match\": \"all\", \"conditions\": [ {\"attribute\": \"kMDItemContentType\", \"operator\": \"equals\", \"value\": \"com.adobe.pdf\"}, {\"attribute\": \"kMDItemContentModificationDate\", \"operator\": \"range\", \"value\": [\"2024-01-01\", \"2024-12-31\"]} ] } }\n\nFind most frequent email sender: json { \"pipeline\": [ {\"id\": \"emails\", \"type\": \"query\", \"find\": {\"attribute\": \"kMDItemContentType\", \"operator\": \"equals\", \"value\": \"public.email-message\"}, \"fetch\": [\"kMDItemAuthors\"]}, {\"id\": \"grouped\", \"type\": \"groupby\", \"groupBy\": \"kMDItemAuthors\", \"aggregations\": [{\"function\": \"count\", \"outputField\": \"count\"}]}, {\"id\": \"top\", \"type\": \"compute\", \"expression\": \"max({{grouped}}, \"count\")\", \"outputFields\": [\"sender\", \"count\"]} ] }\n\nLearning Path for New Users\n1. {\"help\": true}\n   ↓\n2. {\"help\": \"quickstart\"}  (if matching common use case)\n   OR\n   {\"help\": \"operators\"}    (if building simple query)\n   OR\n   {\"help\": \"pipelines\"}    (if need grouping/aggregation)\n   ↓\n3. {\"describe\": \"schema\"}   (to discover attributes)\n   ↓\n4. Build and execute query\n   ↓\n5. {\"help\": \"performance_tips\"} (to optimize)\nRemember\nThe search tool is self-documenting! When in doubt, query the help system. It's interactive, cross-linked, and designed specifically for LLMs to learn efficiently (3-4 queries to go from zero to executing complex queries)."
+- "SpotlightSearchTool: yielding output-node reply %d/%d status=%{public}@ stage=%{public}@."
+- "True: display results, return count only."
+- "Use `{\"type\":\"variable\",\"value\":\"<name>\"}` in a downstream predicate value to reference it.\n\n"
+- "Variable binding in query stage — extract a value and use it in a downstream query:\n"
+- "[CustomStageBridge] ERROR: No session factory configured!"
+- "[CustomStageBridge] ERROR: executePromptedStage failed - prompt: \""
+- "[CustomStageBridge] ERROR: executeStage failed - stageType: "
+- "[CustomStageBridge] INSTRUMENTATION: Agent execution completed in "
+- "[CustomStageBridge] INSTRUMENTATION: Agent execution started at "
+- "[CustomStageBridge] INSTRUMENTATION: Created AgentContext with "
+- "[CustomStageBridge] INSTRUMENTATION: Creating LLM session for agent: CustomStage-"
+- "[CustomStageBridge] INSTRUMENTATION: Creating session via factory for prompted stage"
+- "[CustomStageBridge] INSTRUMENTATION: Extracted "
+- "[CustomStageBridge] INSTRUMENTATION: Factory returned session of type: "
+- "[CustomStageBridge] INSTRUMENTATION: PromptedStage execution completed in "
+- "[CustomStageBridge] INSTRUMENTATION: PromptedStage execution started at "
+- "[CustomStageBridge] INSTRUMENTATION: Registry lookup for stage: "
+- "[CustomStageBridge] INSTRUMENTATION: Registry lookup successful"
+- "[CustomStageBridge] INSTRUMENTATION: executePromptedStage END - mode: "
+- "[CustomStageBridge] INSTRUMENTATION: executePromptedStage END - success: false, duration: "
+- "[CustomStageBridge] INSTRUMENTATION: executePromptedStage START - prompt: \""
+- "[CustomStageBridge] INSTRUMENTATION: executeStage END - resultCount: "
+- "[CustomStageBridge] INSTRUMENTATION: executeStage END - success: false, duration: "
+- "[CustomStageBridge] INSTRUMENTATION: executeStage START - stageType: "
+- "[Pipeline section:]\n\n"
+- "_CoreSpotlight_FoundationModels/Pipeline.swift"
+- "batchSize, temperature, modelSelection."
+- "buildCompactSchema: generationSchema encoding FAILED — schema will be empty\n"
+- "groupBy stage outputs use `_groupKey` as the group label field. valueCount outputs `_count`, valueSum outputs `_sum`, valueAverage outputs `_avg`, valueMax outputs `_max`, valueMin outputs `_min`, valueMedian outputs `_median`, valueStddev outputs `_stddev`, itemSelect outputs `_select`.\n"
+- "handleSearchQuery(_:autoDisplay:modelFetchAttributes:)"
+- "map (default) or reduce."
+- "multiplier: 0.5=mild, 1.0=standard, 2.0=strong\n"
+- "range tests both array elements; point tests each individually.\n\n"
+- "s, success: true"
+- "weight: 0.1=minor, 0.5=significant, 1.0=major\n\n"
+- "{\"type\":\"absolute\",\"value\":{"
+- "{\"type\":\"absolute\",\"value\":{\"year\":"
+- "{\"type\":\"absolute\",\"value\":{\"year\":{\"type\":\"concrete\",\"value\":<int>}}}"
+- "{\"type\":\"between\", \"startOffset\":<TimeOffset>, \"endOffset\":<TimeOffset>, \"startReference\"?:<Reference>, \"endReference\"?:<Reference>}"
+- "{\"type\":\"concrete\",\"value\":<int>}"
+- "{absoluteReference:full}"
+- "{absoluteReference:onDevice}"
+- "{annotation-space:"
+- "{enumValues:"
+- "{gated:modelComposition}"
+- "{gated:pipeline}"
+- "{gated:rankingMetadata}"
+- "— multi-part questions: one pipeline. Stage has id + output; kind has stage-specific fields."
+- "ℹ️ AnswerGrounderAgent: %{public}@"
+- "ℹ️ DataAvailabilityDiscovererAgent: %{public}@"
+- "ℹ️ HypothesisGeneratorAgent: %{public}@"
+- "ℹ️ IntentExtractorAgent: %{public}@"
+- "ℹ️ IterativeExplorerAgent: %{public}@"
+- "⚠️ AnswerGrounderAgent: %{public}@"
+- "⚠️ Cardinality analysis failed: "
+- "⚠️ DataAvailabilityDiscovererAgent: %{public}@"
+- "⚠️ HypothesisGeneratorAgent: %{public}@"
+- "⚠️ IterativeExplorerAgent: %{public}@"
+- "⚠️ NativeSpotlightSearchTool: Partial query failure but continuing with "
+- "⚠️ NativeSpotlightSearchTool: Stage '"
+- "⚠️ NativeSpotlightSearchTool: stripped dangling from '"
+- "⚠️ ORCHESTRATOR: Partial failure but continuing with "
+- "⚠️ PAGINATION: Partial failure but continuing with "
+- "❌ NativeSpotlightSearchTool: "
+- "❌ NativeSpotlightSearchTool: Query failed with error (0 items buffered, no pipeline results): "
+- "❌ ORCHESTRATOR: Pipeline failed - "
+- "❌ ORCHESTRATOR: Query failed with error (0 items buffered): "
+- "❌ PAGINATION: JSON serialization failed: "
+- "❌ PAGINATION: Query failed with error (0 items buffered): "
+- "❌ QUERY: Failed to convert native query - "
+- "❌ QUERY: Failed to handle help query - "
+- "❌ QUERY: Failed to handle schema query - "
+- "❌ QUERY: Schema query failed - "
+- "🔍     Stage %{public}@: %{public}@ bindVariable=%{public}@ extractValue.bindVariable=%{public}@"
+- "🔍   - root: %{public}@"
+- "🔍   - source: %{public}@"
+- "🔍 PipelineSpecification.toObjC: Collected outputNodes from explicit output fields=%{public}@ (userOnly=%{public}@)"
+- "🔍 [PipelineTypes] Created queryObjC: %{public}@ (class=%{public}@)"
+- "🔍 [Pipeline] Inferred processingMode=%{public}@ for prompted stage '%{public}@' (terminal=%{public}@)"
+- "🔧 Converted query predicate to string: '%{public}@'"
+- "🔧 FIXING pipeline: Removing limit=%{public}@ from query stage '%{public}@' (aggregation follows)"
+- "🔧 OPTIMIZATION: Converted sort+limit to temporal-adjacency ranking (sortBy=%{public}@, order=%{public}@, weight=%{public}f)"
+- "🔧 Rewriting stage '%{public}@' inputStageId: '%{public}@' → '%{public}@' (absorbed groupBy)"
+- "🔧 TOOL_CALL_START[%{public}@]: type=help topic=%{public}@"
+- "🔧 [CustomStageBridge] Prompted input: %{public}d raw elements → %{public}d converted items (types: %{public}@)"
+- "🔧 [post-mutation]     Stage %{public}@: %{public}@ bindVariable=%{public}@ extractValue.bindVariable=%{public}@"
+- "🚀 ORCHESTRATOR_QUERY_START: user_request='%{public}@' timestamp=%{public}@"
+```

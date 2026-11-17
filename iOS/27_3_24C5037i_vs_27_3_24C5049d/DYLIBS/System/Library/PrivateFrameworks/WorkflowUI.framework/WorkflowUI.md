@@ -1,0 +1,375 @@
+## WorkflowUI
+
+> `/System/Library/PrivateFrameworks/WorkflowUI.framework/WorkflowUI`
+
+```diff
+
+-5203.0.1.0.0
+-  __TEXT.__text: 0x28c934
+-  __TEXT.__objc_methlist: 0x99fc
+-  __TEXT.__const: 0x1ef50
++5206.0.3.0.0
++  __TEXT.__text: 0x282604
++  __TEXT.__objc_methlist: 0x98cc
++  __TEXT.__const: 0x1f060
+   __TEXT.__dlopen_cstrs: 0x64
+-  __TEXT.__cstring: 0xbb93
+-  __TEXT.__swift5_typeref: 0x2b63a
+-  __TEXT.__oslogstring: 0x215e
+-  __TEXT.__constg_swiftt: 0xa830
+-  __TEXT.__swift5_fieldmd: 0x6c74
+-  __TEXT.__swift5_builtin: 0x5c8
+-  __TEXT.__swift5_reflstr: 0x6333
+-  __TEXT.__swift5_assocty: 0x1d60
+-  __TEXT.__swift5_proto: 0xcd0
+-  __TEXT.__swift5_types: 0x7e4
+-  __TEXT.__swift5_capture: 0x43f4
+-  __TEXT.__swift_as_entry: 0x190
+-  __TEXT.__swift_as_cont: 0x37c
++  __TEXT.__cstring: 0xb783
++  __TEXT.__swift5_typeref: 0x2b228
++  __TEXT.__oslogstring: 0x209e
++  __TEXT.__constg_swiftt: 0xa3f4
++  __TEXT.__swift5_fieldmd: 0x6a54
++  __TEXT.__swift5_builtin: 0x5dc
++  __TEXT.__swift5_reflstr: 0x6153
++  __TEXT.__swift5_assocty: 0x1d18
++  __TEXT.__swift5_proto: 0xcb8
++  __TEXT.__swift5_types: 0x7c8
++  __TEXT.__swift5_capture: 0x4344
++  __TEXT.__swift_as_entry: 0x174
++  __TEXT.__swift_as_cont: 0x358
+   __TEXT.__swift5_protos: 0x84
+-  __TEXT.__swift5_mpenum: 0x2c8
+-  __TEXT.__swift_as_ret: 0x184
++  __TEXT.__swift5_mpenum: 0x2d8
++  __TEXT.__swift_as_ret: 0x168
+   __TEXT.__gcc_except_tab: 0xa6c
+   __TEXT.__ustring: 0x128
+-  __TEXT.__unwind_info: 0xd808
+-  __TEXT.__eh_frame: 0x729c
++  __TEXT.__unwind_info: 0xd4a8
++  __TEXT.__eh_frame: 0x6ea4
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1bc8
+-  __DATA_CONST.__objc_classlist: 0x7a0
++  __DATA_CONST.__const: 0x1b60
++  __DATA_CONST.__objc_classlist: 0x778
+   __DATA_CONST.__objc_catlist: 0x118
+-  __DATA_CONST.__objc_protolist: 0x498
++  __DATA_CONST.__objc_protolist: 0x488
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x6d88
+-  __DATA_CONST.__objc_protorefs: 0x1f0
++  __DATA_CONST.__objc_selrefs: 0x6ca0
++  __DATA_CONST.__objc_protorefs: 0x1e8
+   __DATA_CONST.__objc_superrefs: 0x260
+   __DATA_CONST.__objc_arraydata: 0x30
+-  __DATA_CONST.__got: 0x28c8
+-  __AUTH_CONST.__const: 0x13490
++  __DATA_CONST.__got: 0x2868
++  __AUTH_CONST.__const: 0x13520
+   __AUTH_CONST.__cfstring: 0x2420
+-  __AUTH_CONST.__objc_const: 0x15bc8
+-  __AUTH_CONST.__objc_intobj: 0xf0
++  __AUTH_CONST.__objc_const: 0x15708
++  __AUTH_CONST.__objc_intobj: 0xd8
+   __AUTH_CONST.__objc_arrayobj: 0x48
+   __AUTH_CONST.__objc_doubleobj: 0x70
+-  __AUTH_CONST.__auth_got: 0x38b0
+-  __AUTH.__objc_data: 0x7d88
+-  __AUTH.__data: 0x6608
+-  __DATA.__objc_ivar: 0x65c
+-  __DATA.__data: 0xc850
++  __AUTH_CONST.__auth_got: 0x3838
++  __AUTH.__objc_data: 0x7a78
++  __AUTH.__data: 0x6258
++  __DATA.__objc_ivar: 0x658
++  __DATA.__data: 0xc620
+   __DATA.__objc_stublist: 0x8
+-  __DATA.__common: 0x168
+-  __DATA_DIRTY.__objc_data: 0xd68
+-  __DATA_DIRTY.__data: 0x29d8
+-  __DATA_DIRTY.__bss: 0x1cd0
+-  __DATA_DIRTY.__common: 0xd0
++  __DATA.__common: 0x150
++  __DATA_DIRTY.__objc_data: 0xcc8
++  __DATA_DIRTY.__data: 0x24f0
++  __DATA_DIRTY.__bss: 0x1b50
++  __DATA_DIRTY.__common: 0xc0
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/AVKit.framework/AVKit
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 19888
+-  Symbols:   10159
+-  CStrings:  1439
++  Functions: 19648
++  Symbols:   10104
++  CStrings:  1409
+ 
+Symbols:
++ +[WFCompactPlatterPresentationController platterWidthForContainerSize:safeAreaInsets:]
++ +[WFCompactPlatterPresentationController platterWidthForUsableFrame:]
++ -[WFCompactPlatterPresentationController containerSizeForPlatterPresentation:]
++ -[WFCompactPlatterPresentationController safeAreaInsetsForPlatterPresentation:]
++ -[WFSystemOverlayViewController containerSizeForPlatterPresentation:]
++ -[WFSystemOverlayViewController platterContainerSize]
++ -[WFSystemOverlayViewController safeAreaInsetsForPlatterPresentation:]
++ GCC_except_table1002
++ GCC_except_table1038
++ GCC_except_table1140
++ GCC_except_table1198
++ GCC_except_table1245
++ GCC_except_table1293
++ GCC_except_table1302
++ GCC_except_table1411
++ GCC_except_table1421
++ GCC_except_table1500
++ GCC_except_table1618
++ GCC_except_table1625
++ GCC_except_table1640
++ GCC_except_table1657
++ GCC_except_table1690
++ GCC_except_table1710
++ GCC_except_table1721
++ GCC_except_table1750
++ GCC_except_table1796
++ GCC_except_table1812
++ GCC_except_table1908
++ GCC_except_table1913
++ GCC_except_table1916
++ GCC_except_table549
++ GCC_except_table599
++ GCC_except_table824
++ GCC_except_table971
++ GCC_except_table994
++ _OUTLINED_FUNCTION_248
++ _OUTLINED_FUNCTION_249
++ _OUTLINED_FUNCTION_250
++ _OUTLINED_FUNCTION_251
++ _OUTLINED_FUNCTION_252
++ _OUTLINED_FUNCTION_253
++ _OUTLINED_FUNCTION_254
++ _OUTLINED_FUNCTION_255
++ _OUTLINED_FUNCTION_256
++ _OUTLINED_FUNCTION_257
++ _OUTLINED_FUNCTION_258
++ _OUTLINED_FUNCTION_259
++ _OUTLINED_FUNCTION_260
++ _OUTLINED_FUNCTION_261
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_WFCompactPlatterContentContainer
++ ___swift_closure_destructor.124Tm
++ ___swift_closure_destructor.65Tm
++ ___swift_closure_destructor.93Tm
++ ___swift_memcpy106_8
++ _get_enum_tag_for_layout_string 10WorkflowUI21LibrarySectionOptionsV6HeaderO
++ _get_enum_tag_for_layout_string 10WorkflowUI22LibraryEditingBehaviorO
++ _get_enum_tag_for_layout_string 10WorkflowUI25RootNavigationDestinationO
++ _get_enum_tag_for_layout_string 10WorkflowUI28GalleryNavigationDestinationOSg
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6ZStackVyAA05TupleD0VyACy08WorkflowB015ShortcutChicletV9RunButtonVAA14_OpacityEffectVG_AA4ViewPAAE27accessibilityRepresentation14representationQrqd__yXE_tAaPRd__lFQOyACyAA5GroupVyAA012_ConditionalD0Vy0G10UIServices04IconN0VAA05EmptyN0VGGANG_ALQo_QPGGAA18_AnimationModifierVySbGGAaPHPA6_AaPHPyHC_A9_AA0nX0HPyHCHC
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA15ModifiedContentVy07SnippetB015ArchiveRendererVySo06WFLinkJ13DialogRequestCAmI0K6Source08WorkflowB0yHCg_GAA20_TransactionModifierVG_So15LNSuccessResultCSgQo_HO
++ _symbolic _____Sg 10WorkflowUI14WFGridViewCellC
++ _symbolic _____Sg So6UIViewC18WorkflowUIServicesE14DivisionRegionV
++ _symbolic _____SgXw 10WorkflowUI27WFDrawerEmbeddedToolbarViewC
++ _symbolic _______________Xj r0_l10WorkflowUI20WFGridViewDataSource_pq_4ItemRts_x7SectionRtsXPXG AA012WFIconPickerH0O AA0ijG0O
++ _symbolic _______________Xj r0_l10WorkflowUI20WFGridViewDataSource_pq_4ItemRts_x7SectionRtsXPXG AA014WFFolderConfigH0O AA0ijG0O
++ _symbolic _______________Xj r0_l10WorkflowUI20WFGridViewDataSource_pq_4ItemRts_x7SectionRtsXPXG AA017WFAddToHomeScreenH0O AA0ijklG0O
++ _symbolic _____xq_Xj r0_l10WorkflowUI20WFGridViewDataSource_pq_4ItemRts_x7SectionRtsXPXG
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10WorkflowUI13GalleryLoaderC12loadMainPage33_747875FE15808AC7570FEB5CCE03EC69LLSo09WFGalleryJ0CyYaKF0F9ComponentL_O
++ _symbolic _____y__________G 7SwiftUI19_ConditionalContentV 18WorkflowUIServices8IconViewV AA05EmptyH0V
++ _symbolic _____y__________G______yAAy_____y_____y__________GGACG_ABQo_t 7SwiftUI15ModifiedContentV 08WorkflowB015ShortcutChicletV9RunButtonV AA14_OpacityEffectV AA4ViewPAAE27accessibilityRepresentation14representationQrqd__yXE_tAaKRd__lFQO AA5GroupV AA012_ConditionalD0V 0E10UIServices04IconL0V AA05EmptyL0V
++ _symbolic _____y___________G 7SwiftUI19_ConditionalContentV7StorageO 18WorkflowUIServices8IconViewV AA05EmptyI0V
++ _symbolic _____y___________y_____y__________G______yADy_____y_____y__________GGAFG_AEQo_QPGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA12TupleContentV AA08ModifiedI0V 08WorkflowB015ShortcutChicletV9RunButtonV AA14_OpacityEffectV AA0D0PAAE27accessibilityRepresentation14representationQrqd__yXE_tAaSRd__lFQO AA5GroupV AA012_ConditionalI0V 0K10UIServices04IconD0V AA05EmptyD0V
++ _symbolic _____y_____ySo26WFLinkSnippetDialogRequestCAD_____10WorkflowUIyHCg_G_____G 7SwiftUI15ModifiedContentV 07SnippetB015ArchiveRendererV AD0F6SourceP AA20_TransactionModifierV
++ _symbolic _____y_____y__________GG 7SwiftUI5GroupV AA19_ConditionalContentV 18WorkflowUIServices8IconViewV AA05EmptyI0V
++ _symbolic _____y_____y_____yAAy__________G______yAAy_____y_____y__________GGAEG_ADQo_QPGG_____ySbGG 7SwiftUI15ModifiedContentV AA6ZStackV AA05TupleD0V 08WorkflowB015ShortcutChicletV9RunButtonV AA14_OpacityEffectV AA4ViewPAAE27accessibilityRepresentation14representationQrqd__yXE_tAaORd__lFQO AA5GroupV AA012_ConditionalD0V 0G10UIServices04IconN0V AA05EmptyN0V AA18_AnimationModifierV
++ _symbolic _____y_____y_____ySo26WFLinkSnippetDialogRequestCAD_____10WorkflowUIyHCg_G_____G_So15LNSuccessResultCSgQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA15ModifiedContentV 07SnippetB015ArchiveRendererV AI0K6SourceP AA20_TransactionModifierV
++ _symbolic _____y_____y_____y__________GG_____G 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V 18WorkflowUIServices8IconViewV AA05EmptyJ0V AA14_OpacityEffectV
++ _symbolic _____y_____y_____y__________G______yACy_____y_____y__________GGAEG_ADQo_QPGG 7SwiftUI6ZStackV AA12TupleContentV AA08ModifiedE0V 08WorkflowB015ShortcutChicletV9RunButtonV AA14_OpacityEffectV AA4ViewPAAE27accessibilityRepresentation14representationQrqd__yXE_tAaORd__lFQO AA5GroupV AA012_ConditionalE0V 0G10UIServices04IconN0V AA05EmptyN0V
++ _symbolic _____y_____y_____y_____y__________GG_____G______Qo_ 7SwiftUI4ViewPAAE27accessibilityRepresentation14representationQrqd__yXE_tAaBRd__lFQO AA15ModifiedContentV AA5GroupV AA012_ConditionalH0V 18WorkflowUIServices04IconC0V AA05EmptyC0V AA14_OpacityEffectV 0kB015ShortcutChicletV9RunButtonV
++ _type_layout_string 10WorkflowUI20LibraryConfigurationV
++ _type_layout_string 10WorkflowUI21LibrarySectionOptionsV0D4TypeO
++ _type_layout_string 10WorkflowUI21LibrarySectionOptionsV6HeaderO
++ _type_layout_string 10WorkflowUI22LibraryEditingBehaviorO
++ _type_layout_string 10WorkflowUI25RootNavigationDestinationO
+- -[WFLibraryRunCoordinator runAppShortcut:withLNAction:andMetadata:]
+- -[WFLibraryRunCoordinator runningAppShortcut]
+- -[WFLibraryRunCoordinator setRunningAppShortcut:]
+- GCC_except_table1034
+- GCC_except_table1139
+- GCC_except_table1197
+- GCC_except_table1244
+- GCC_except_table1291
+- GCC_except_table1301
+- GCC_except_table1409
+- GCC_except_table1420
+- GCC_except_table1498
+- GCC_except_table1614
+- GCC_except_table1621
+- GCC_except_table1636
+- GCC_except_table1653
+- GCC_except_table1686
+- GCC_except_table1706
+- GCC_except_table1717
+- GCC_except_table1746
+- GCC_except_table1792
+- GCC_except_table1808
+- GCC_except_table1904
+- GCC_except_table1909
+- GCC_except_table1912
+- GCC_except_table545
+- GCC_except_table595
+- GCC_except_table820
+- GCC_except_table967
+- GCC_except_table990
+- GCC_except_table998
+- _OBJC_CLASS_$_WFBooleanSubstitutableState
+- _OBJC_CLASS_$_WFExecutableAppShortcut
+- _OBJC_CLASS_$_WFLLMActionAvailabilityResource
+- _OBJC_CLASS_$_WFMTASupport
+- _OBJC_CLASS_$__TtC10WorkflowUI18AutoShortcutsGroup
+- _OBJC_CLASS_$__TtC10WorkflowUI25LinkSnippetActionExecutor
+- _OBJC_IVAR_$_WFLibraryRunCoordinator._runningAppShortcut
+- _OBJC_METACLASS_$__TtC10WorkflowUI18AutoShortcutsGroup
+- _OBJC_METACLASS_$__TtC10WorkflowUI25LinkSnippetActionExecutor
+- _WFLastViewedAutoShortcutsAtTimeKey
+- _WFWorkflowRunSourceAutoShortcut
+- __DATA__TtC10WorkflowUI18AutoShortcutsGroup
+- __DATA__TtC10WorkflowUI25LinkSnippetActionExecutor
+- __DATA__TtC10WorkflowUI27AutoShortcutsSidebarSection
+- __DATA__TtC10WorkflowUI31LinkSnippetDialogRenderingModel
+- __DATA__TtCV10WorkflowUI24AutoShortcutsSettingView5Model
+- __INSTANCE_METHODS__TtC10WorkflowUI18AutoShortcutsGroup
+- __INSTANCE_METHODS__TtC10WorkflowUI25LinkSnippetActionExecutor
+- __IVARS__TtC10WorkflowUI18AutoShortcutsGroup
+- __IVARS__TtC10WorkflowUI25LinkSnippetActionExecutor
+- __IVARS__TtC10WorkflowUI27AutoShortcutsSidebarSection
+- __IVARS__TtC10WorkflowUI31LinkSnippetDialogRenderingModel
+- __IVARS__TtCV10WorkflowUI24AutoShortcutsSettingView5Model
+- __METACLASS_DATA__TtC10WorkflowUI18AutoShortcutsGroup
+- __METACLASS_DATA__TtC10WorkflowUI25LinkSnippetActionExecutor
+- __METACLASS_DATA__TtC10WorkflowUI27AutoShortcutsSidebarSection
+- __METACLASS_DATA__TtC10WorkflowUI31LinkSnippetDialogRenderingModel
+- __METACLASS_DATA__TtCV10WorkflowUI24AutoShortcutsSettingView5Model
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_LNActionExecutorDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_LNActionExecutorDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_LNActionExecutorDelegate
+- __OBJC_$_PROTOCOL_REFS_LNActionExecutorDelegate
+- __OBJC_LABEL_PROTOCOL_$_LNActionExecutorDelegate
+- __OBJC_PROTOCOL_$_LNActionExecutorDelegate
+- __PROTOCOLS__TtC10WorkflowUI25LinkSnippetActionExecutor
+- ___swift_closure_destructor.22Tm
+- ___swift_closure_destructor.27Tm
+- ___swift_closure_destructor.92Tm
+- _associated conformance 10WorkflowUI24AutoShortcutsSettingViewV05SwiftB00F0AA4BodyAdEP_AdE
+- _associated conformance 10WorkflowUI24AutoShortcutsSettingViewV5ModelC7Combine16ObservableObjectAA0J19WillChangePublisherAfGP_AF0M0
+- _associated conformance 10WorkflowUI27AutoShortcutsSidebarSectionCs12IdentifiableAA2IDsADP_SH
+- _get_enum_tag_for_layout_string 10WorkflowUI07RunningA0V0A4TypeO
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA6ZStackVyAA05TupleD0VyACy08WorkflowB015ShortcutChicletV9RunButtonVAA14_OpacityEffectVG_AA4ViewPAAE27accessibilityRepresentation14representationQrqd__yXE_tAaPRd__lFQOyACyAA5GroupVyAA012_ConditionalD0VyAWy0G10UIServices04IconN0VAZGAA05EmptyN0VGGANG_ALQo_QPGGAA18_AnimationModifierVySbGGAaPHPA7_AaPHPyHC_A10_AA0nX0HPyHCHC
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE010navigationC5StyleyQrqd__AA010NavigationcE0Rd__lFQOyAA0fC0VyAcAE0D19BarTitleDisplayModeyQrAA0fG4ItemV0hiJ0OFQOyAcAE0dH0yQrqd__SyRd__lFQOyAcAE7toolbar7contentQrqd__yXE_tAaBRd__lFQOyAA4FormVyAA6ToggleVyAA5LabelVyAA4TextV18WorkflowUIServices04IconC0VGGG_AA15ModifiedContentVyAA6ButtonVyAA07DefaultwP0VGAA31AccessibilityAttachmentModifierVGQo__SSQo__Qo_G_AA05StackfcE0VQo_HO
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOy07SnippetB015ArchiveRendererVySo06WFLinkH13DialogRequestCAkG0I6Source08WorkflowB0yHCg_G_So15LNSuccessResultCSgQo_HO
+- _swift_release_x6
+- _symbolic IeAgH_
+- _symbolic IeghH_
+- _symbolic SS7appName_t
+- _symbolic Say_____GSg 11WorkflowKit15AutoShortcutAppV
+- _symbolic ScCySo15LNSuccessResultC______pG s5ErrorP
+- _symbolic ScCySo15LNSuccessResultC______pGSg s5ErrorP
+- _symbolic So16LNActionExecutorC
+- _symbolic So20LNSnippetEnvironmentCSgIeyBhy_
+- _symbolic So23WFExecutableAppShortcutC
+- _symbolic So26WFAutoShortcutsPreferencesCSg
+- _symbolic So26WFLinkSnippetDialogRequestC
+- _symbolic So8LNActionC
+- _symbolic _____ 10WorkflowUI18AutoShortcutsGroupC
+- _symbolic _____ 10WorkflowUI24AutoShortcutsSettingViewV
+- _symbolic _____ 10WorkflowUI24AutoShortcutsSettingViewV5ModelC
+- _symbolic _____ 10WorkflowUI25LinkSnippetActionExecutorC
+- _symbolic _____ 10WorkflowUI27AutoShortcutsSidebarSectionC
+- _symbolic _____ 10WorkflowUI31LinkSnippetDialogRenderingModelC
+- _symbolic _____ 10WorkflowUI31LinkSnippetDialogRenderingModelC5StateO
+- _symbolic _____ 11WorkflowKit15AutoShortcutAppV
+- _symbolic _____ 11WorkflowKit27AutoShortcutsAppsDataSourceC
+- _symbolic _____ 7SwiftUI13_ArchivedViewV
+- _symbolic _____Sg 10WorkflowUI21LibrarySectionOptionsV6HeaderO
+- _symbolic _____Sg 11WorkflowKit15AggregatedEntryO
+- _symbolic _____Sg 11WorkflowKit15AutoShortcutAppV
+- _symbolic _____Sg 11WorkflowKit27AutoShortcutsAppsDataSourceC
+- _symbolic _____SgXw 10WorkflowUI17AllShortcutsGroupC
+- _symbolic _____SgXw 10WorkflowUI18AutoShortcutsGroupC
+- _symbolic _____SgXw 10WorkflowUI24AutoShortcutsSettingViewV5ModelC
+- _symbolic _____SgXwz_Xx 10WorkflowUI18AutoShortcutsGroupC
+- _symbolic _____SgXwz_Xx 10WorkflowUI24AutoShortcutsSettingViewV5ModelC
+- _symbolic _____Sg_ABt 10WorkflowUI21LibrarySectionOptionsV6HeaderO
+- _symbolic _____Sg_ABt 10WorkflowUI25RootNavigationDestinationO
+- _symbolic ______AAt 10WorkflowUI21LibrarySectionOptionsV0D4TypeO
+- _symbolic ______AAt 10WorkflowUI22LibraryEditingBehaviorO
+- _symbolic ______Sb10isExpandedt 11WorkflowKit15AutoShortcutAppV
+- _symbolic ______Sb10isExpandedt 11WorkflowKit22AutoShortcutAppSectionV
+- _symbolic ______p 10WorkflowUI12LibraryGroupP
+- _symbolic ______pSg 10WorkflowUI22SidebarSectionDelegateP
+- _symbolic _____yAAy_____ABG_____G 7SwiftUI19_ConditionalContentV 18WorkflowUIServices8IconViewV AA05EmptyH0V
+- _symbolic _____ySS_SStG s23_ContiguousArrayStorageC
+- _symbolic _____ySay_____G_G 7Combine9PublishedV9PublisherV 11WorkflowKit15AutoShortcutAppV
+- _symbolic _____y_____ABG 7SwiftUI19_ConditionalContentV 18WorkflowUIServices8IconViewV
+- _symbolic _____y_____AB_G 7SwiftUI19_ConditionalContentV7StorageO 18WorkflowUIServices8IconViewV
+- _symbolic _____y_____G 7SwiftUI14ObservedObjectV 08WorkflowB024AutoShortcutsSettingViewV5ModelC
+- _symbolic _____y__________G______yAAy_____y_____yAFy_____AGG_____GGACG_ABQo_t 7SwiftUI15ModifiedContentV 08WorkflowB015ShortcutChicletV9RunButtonV AA14_OpacityEffectV AA4ViewPAAE27accessibilityRepresentation14representationQrqd__yXE_tAaKRd__lFQO AA5GroupV AA012_ConditionalD0V 0E10UIServices04IconL0V AA05EmptyL0V
+- _symbolic _____y___________y_____y__________G______yADy_____y_____yAIy_____AJG_____GGAFG_AEQo_QPGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA12TupleContentV AA08ModifiedI0V 08WorkflowB015ShortcutChicletV9RunButtonV AA14_OpacityEffectV AA0D0PAAE27accessibilityRepresentation14representationQrqd__yXE_tAaSRd__lFQO AA5GroupV AA012_ConditionalI0V 0K10UIServices04IconD0V AA05EmptyD0V
+- _symbolic _____y_____yABy_____ACG_____GG 7SwiftUI5GroupV AA19_ConditionalContentV 18WorkflowUIServices8IconViewV AA05EmptyI0V
+- _symbolic _____y_____ySo26WFLinkSnippetDialogRequestCAC_____10WorkflowUIyHCg_G_So15LNSuccessResultCSgQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO 07SnippetB015ArchiveRendererV AG0I6SourceP
+- _symbolic _____y_____y_____ACG______G 7SwiftUI19_ConditionalContentV7StorageO AC 18WorkflowUIServices8IconViewV AA05EmptyI0V
+- _symbolic _____y_____y_____G_____G 7SwiftUI15ModifiedContentV AA6ButtonV AA07DefaultE5LabelV AA31AccessibilityAttachmentModifierV
+- _symbolic _____y_____y__________GG 7SwiftUI6ToggleV AA5LabelV AA4TextV 18WorkflowUIServices8IconViewV
+- _symbolic _____y_____y_____yAAy__________G______yAAy_____y_____yAHy_____AIG_____GGAEG_ADQo_QPGG_____ySbGG 7SwiftUI15ModifiedContentV AA6ZStackV AA05TupleD0V 08WorkflowB015ShortcutChicletV9RunButtonV AA14_OpacityEffectV AA4ViewPAAE27accessibilityRepresentation14representationQrqd__yXE_tAaORd__lFQO AA5GroupV AA012_ConditionalD0V 0G10UIServices04IconN0V AA05EmptyN0V AA18_AnimationModifierV
+- _symbolic _____y_____y_____yACy_____ADG_____GG_____G 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V 18WorkflowUIServices8IconViewV AA05EmptyJ0V AA14_OpacityEffectV
+- _symbolic _____y_____y_____y__________GGG 7SwiftUI4FormV AA6ToggleV AA5LabelV AA4TextV 18WorkflowUIServices8IconViewV
+- _symbolic _____y_____y_____y__________G______yACy_____y_____yAHy_____AIG_____GGAEG_ADQo_QPGG 7SwiftUI6ZStackV AA12TupleContentV AA08ModifiedE0V 08WorkflowB015ShortcutChicletV9RunButtonV AA14_OpacityEffectV AA4ViewPAAE27accessibilityRepresentation14representationQrqd__yXE_tAaORd__lFQO AA5GroupV AA012_ConditionalE0V 0G10UIServices04IconN0V AA05EmptyN0V
+- _symbolic _____y_____y_____y_____yACy_____ADG_____GG_____G______Qo_ 7SwiftUI4ViewPAAE27accessibilityRepresentation14representationQrqd__yXE_tAaBRd__lFQO AA15ModifiedContentV AA5GroupV AA012_ConditionalH0V 18WorkflowUIServices04IconC0V AA05EmptyC0V AA14_OpacityEffectV 0kB015ShortcutChicletV9RunButtonV
+- _symbolic _____y_____y_____y_____y__________GGG______y_____y_____G_____GQo_ 7SwiftUI4ViewPAAE7toolbar7contentQrqd__yXE_tAaBRd__lFQO AA4FormV AA6ToggleV AA5LabelV AA4TextV 18WorkflowUIServices04IconC0V AA15ModifiedContentV AA6ButtonV AA07DefaultoH0V AA31AccessibilityAttachmentModifierV
+- _symbolic _____y_____y_____y_____y_____y__________GGG______y_____y_____G_____GQo__SSQo_ 7SwiftUI4ViewPAAE15navigationTitleyQrqd__SyRd__lFQO AcAE7toolbar7contentQrqd__yXE_tAaBRd__lFQO AA4FormV AA6ToggleV AA5LabelV AA4TextV 18WorkflowUIServices04IconC0V AA15ModifiedContentV AA6ButtonV AA07DefaultqJ0V AA31AccessibilityAttachmentModifierV
+- _symbolic _____y_____y_____y_____y_____y_____y__________GGG______y_____y_____G_____GQo__SSQo__Qo_ 7SwiftUI4ViewPAAE29navigationBarTitleDisplayModeyQrAA010NavigationE4ItemV0fgH0OFQO AcAE0dF0yQrqd__SyRd__lFQO AcAE7toolbar7contentQrqd__yXE_tAaBRd__lFQO AA4FormV AA6ToggleV AA5LabelV AA4TextV 18WorkflowUIServices04IconC0V AA15ModifiedContentV AA6ButtonV AA07DefaultvO0V AA31AccessibilityAttachmentModifierV
+- _symbolic _____y_____y_____y_____y_____y_____y_____y__________GGG______y_____y_____G_____GQo__SSQo__Qo_G 7SwiftUI14NavigationViewV AA0D0PAAE29navigationBarTitleDisplayModeyQrAA0cF4ItemV0ghI0OFQO AeAE0eG0yQrqd__SyRd__lFQO AeAE7toolbar7contentQrqd__yXE_tAaDRd__lFQO AA4FormV AA6ToggleV AA5LabelV AA4TextV 18WorkflowUIServices04IconD0V AA15ModifiedContentV AA6ButtonV AA07DefaultvO0V AA31AccessibilityAttachmentModifierV
+- _symbolic _____y_____y_____y_____y_____y_____y_____y_____y__________GGG______y_____y_____G_____GQo__SSQo__Qo_G______Qo_ 7SwiftUI4ViewPAAE010navigationC5StyleyQrqd__AA010NavigationcE0Rd__lFQO AA0fC0V AcAE0D19BarTitleDisplayModeyQrAA0fG4ItemV0hiJ0OFQO AcAE0dH0yQrqd__SyRd__lFQO AcAE7toolbar7contentQrqd__yXE_tAaBRd__lFQO AA4FormV AA6ToggleV AA5LabelV AA4TextV 18WorkflowUIServices04IconC0V AA15ModifiedContentV AA6ButtonV AA07DefaultwP0V AA31AccessibilityAttachmentModifierV AA05StackfcE0V
+CStrings:
++ "+"
+- " isExpanded "
+- "%@ Shortcuts"
+- ","
+- "Allow “%@” to appear in Search. This shortcut will also appear when searching for “%@.”"
+- "Auto Shortcuts Siri setting title"
+- "Auto Shortcuts preferences title"
+- "Auto Shortcuts section header"
+- "Auto Shortcuts settings done button title"
+- "Auto shortcut data source changed, reloading"
+- "Done (Auto Shortcuts Preferences)"
+- "Explanatory text explaining to the user that this shortcut will be visible in Search, and also in the Search results for the name of the app that associated with this workflow."
+- "Fallback Smart Action Picker Use Model title"
+- "Follow Up"
+- "Model"
+- "Siri"
+- "Smart Action Picker Use Model parameterized title"
+- "Suffix appended to Cloud and On-Device model names"
+- "Unable to get App Shortcut app: %@"
+- "Unable to get App Shortcut for app: %@"
+- "Unable to set Siri auto shortcuts setting: %s"
+- "Use %@"
+- "Use Model"
+- "Use Model Mode"
+- "Use Model…"
+- "WFAskLLMModelParameter"
+- "WFSwitchParameter"
+- "WorkflowUI.AutoShortcutsGroup"
+- "WorkflowUI.LinkSnippetActionExecutor"
+- "app-shortcut-add-home-screen"
+- "app-shortcut-create-workflow"
+- "com.apple.shortcuts"
+```

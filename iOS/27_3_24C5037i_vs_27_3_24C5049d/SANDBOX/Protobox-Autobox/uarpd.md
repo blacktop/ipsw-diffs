@@ -1,0 +1,33 @@
+## uarpd
+
+> Group: ⬆️ Updated
+
+```diff
+
+ 
+ (deny socket-ioctl)
+ (allow socket-ioctl
+-	(ioctl-command CTLIOCGINFO SIOCGCONNINFO)
++	(ioctl-command
++		CTLIOCGINFO
++		SIOCGCONNINFO
++		SIOCGIFCONSTRAINED
++		SIOCGIFDELEGATE
++		SIOCGIFEXPENSIVE
++		SIOCGIFFLAGS
++		SIOCGIFFUNCTIONALTYPE
++		SIOCGIFLINKQUALITYMETRIC
++		SIOCGIFMTU
++		SIOCGIFULTRACONSTRAINED)
+ )
+ 
+ (deny syscall-unix
+
+ 		semaphore_create
+ 		semaphore_destroy
+ 		task_set_exc_guard_behavior
++		task_create_identity_token
+ 		thread_info
+ 		thread_policy
+ 		vm_copy
+```

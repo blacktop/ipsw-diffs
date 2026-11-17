@@ -1,0 +1,189 @@
+## HomeExtensions
+
+> `/System/Library/Frameworks/HomeExtensions.framework/HomeExtensions`
+
+```diff
+
+-1284.1.0.0.6
+-  __TEXT.__text: 0x1d1454
+-  __TEXT.__objc_methlist: 0x100c
+-  __TEXT.__const: 0x109f0
+-  __TEXT.__swift5_typeref: 0x13642
+-  __TEXT.__constg_swiftt: 0x47d0
+-  __TEXT.__swift5_builtin: 0x118
+-  __TEXT.__swift5_reflstr: 0x3e4b
+-  __TEXT.__swift5_fieldmd: 0x48f0
+-  __TEXT.__swift5_assocty: 0xe40
+-  __TEXT.__oslogstring: 0x6861
+-  __TEXT.__swift5_capture: 0x1bec
+-  __TEXT.__cstring: 0x3258
+-  __TEXT.__swift5_proto: 0x86c
+-  __TEXT.__swift5_types: 0x460
+-  __TEXT.__swift_as_entry: 0x3f4
+-  __TEXT.__swift_as_cont: 0x8c0
++1284.3.8.1.1
++  __TEXT.__text: 0x1dfb68
++  __TEXT.__objc_methlist: 0x1044
++  __TEXT.__const: 0x10f40
++  __TEXT.__swift5_typeref: 0x13a18
++  __TEXT.__constg_swiftt: 0x48dc
++  __TEXT.__swift5_builtin: 0x12c
++  __TEXT.__swift5_reflstr: 0x3f1b
++  __TEXT.__swift5_fieldmd: 0x49d0
++  __TEXT.__swift5_assocty: 0xea8
++  __TEXT.__oslogstring: 0x68e1
++  __TEXT.__swift5_capture: 0x1e18
++  __TEXT.__cstring: 0x3298
++  __TEXT.__swift5_proto: 0x884
++  __TEXT.__swift5_types: 0x46c
++  __TEXT.__swift_as_entry: 0x42c
++  __TEXT.__swift_as_cont: 0x950
+   __TEXT.__swift5_protos: 0x64
+-  __TEXT.__swift_as_ret: 0x428
++  __TEXT.__swift_as_ret: 0x46c
+   __TEXT.__swift5_mpenum: 0x24
+-  __TEXT.__unwind_info: 0x7990
+-  __TEXT.__eh_frame: 0xbef8
++  __TEXT.__unwind_info: 0x7d20
++  __TEXT.__eh_frame: 0xcbc0
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x5e0
+-  __DATA_CONST.__objc_classlist: 0x1f0
++  __DATA_CONST.__objc_classlist: 0x1f8
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0xc0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xb08
++  __DATA_CONST.__objc_selrefs: 0xb38
+   __DATA_CONST.__objc_protorefs: 0x70
+-  __DATA_CONST.__got: 0x1100
+-  __AUTH_CONST.__const: 0xa078
+-  __AUTH_CONST.__objc_const: 0x54c0
+-  __AUTH_CONST.__auth_got: 0x26c8
+-  __AUTH.__objc_data: 0x2210
+-  __AUTH.__data: 0x3b80
+-  __DATA.__data: 0x5628
++  __DATA_CONST.__got: 0x1140
++  __AUTH_CONST.__const: 0xa488
++  __AUTH_CONST.__objc_const: 0x5660
++  __AUTH_CONST.__auth_got: 0x2728
++  __AUTH.__objc_data: 0x2308
++  __AUTH.__data: 0x3ca8
++  __DATA.__data: 0x57a8
+   __DATA.__objc_stublist: 0x8
+-  __DATA.__common: 0x408
++  __DATA.__common: 0x410
+   __DATA_DIRTY.__objc_data: 0x50
+   __DATA_DIRTY.__data: 0x308
+   __DATA_DIRTY.__common: 0x48
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 8222
+-  Symbols:   2921
+-  CStrings:  761
++  Functions: 8411
++  Symbols:   2973
++  CStrings:  762
+ 
+Symbols:
++ _NSURLTotalFileAllocatedSizeKey
++ _OBJC_CLASS_$_AVPlayerLayer
++ _OBJC_CLASS_$_NSHTTPURLResponse
++ _OBJC_METACLASS_$__TtCVV14HomeExtensions18WebVideoPlayerViewP33_F46843C61CE56431F080412AACF6D0D518StandInPlayerLayer9LayerView
++ __CLASS_METHODS__TtCVV14HomeExtensions18WebVideoPlayerViewP33_F46843C61CE56431F080412AACF6D0D518StandInPlayerLayer9LayerView
++ __CLASS_PROPERTIES__TtCVV14HomeExtensions18WebVideoPlayerViewP33_F46843C61CE56431F080412AACF6D0D518StandInPlayerLayer9LayerView
++ __DATA__TtCVV14HomeExtensions18WebVideoPlayerViewP33_F46843C61CE56431F080412AACF6D0D518StandInPlayerLayer9LayerView
++ __INSTANCE_METHODS__TtCVV14HomeExtensions18WebVideoPlayerViewP33_F46843C61CE56431F080412AACF6D0D518StandInPlayerLayer9LayerView
++ __METACLASS_DATA__TtCVV14HomeExtensions18WebVideoPlayerViewP33_F46843C61CE56431F080412AACF6D0D518StandInPlayerLayer9LayerView
++ ___swift_closure_destructor.100Tm
++ ___swift_closure_destructor.109Tm
++ ___swift_closure_destructor.122Tm
++ ___swift_closure_destructor.164Tm
++ ___swift_closure_destructor.22Tm
++ ___swift_closure_destructor.30Tm
++ ___swift_closure_destructor.36Tm
++ ___swift_closure_destructor.54Tm
++ ___swift_closure_destructor.93Tm
++ _associated conformance 14HomeExtensions18WebVideoPlayerViewV07StandInE5Layer33_F46843C61CE56431F080412AACF6D0D5LLV7SwiftUI0F0AA4BodyAgHP_AgH
++ _associated conformance 14HomeExtensions18WebVideoPlayerViewV07StandInE5Layer33_F46843C61CE56431F080412AACF6D0D5LLV7SwiftUI19UIViewRepresentableAaG0F0
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyAA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA5GroupVyAA012_ConditionalD0Vy14HomeExtensions016MediaPlaceholderE0VACyAA6ZStackVyAA05TupleD0VyAM014WebVideoPlayerE0V07StandInT5Layer33_F46843C61CE56431F080412AACF6D0D5LLVSg_ACyAU6BridgeAWLLVAA14_OpacityEffectVGQPGGAA16_OverlayModifierVyAM0rs7LoadingE0VSgGGGG_AA10ScenePhaseOQo_AA25_AppearanceActionModifierVGA18_GAaDHPA19_AaDHPqd0__AaDHD3_A16_HO_A18_AA0E8ModifierHPyHCHC_A18_AAA21_HPyHCHC
++ _get_witness_table SHRzr0_lSSSHHPyHC
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOyAA15ModifiedContentVy14HomeExtensions22MediaPlatterBackgroundVAA16_OverlayModifierVyAKyAA08ProgressC0VyAA05EmptyC0VATGAA013_TraitWritingQ0VyAA010TransitionT3KeyVGGSgGG_Qo_HO
++ _keypath_get_selector_timeControlStatus
++ _keypath_set.158Tm
++ _swift_dynamicCastObjCClassUnconditional
++ _symbolic SDy_____ScTyAASg_____GG 10Foundation3URLV s5NeverO
++ _symbolic Say_____G 10Foundation3URLV
++ _symbolic ScCy_____SgSg_____G 10Foundation3URLV s5NeverO
++ _symbolic ScTy_____Sg_____G 10Foundation3URLV s5NeverO
++ _symbolic So8AVPlayerC
++ _symbolic So8AVPlayerCSg
++ _symbolic _____ 14HomeExtensions18WebVideoPlayerViewV07StandInE5Layer33_F46843C61CE56431F080412AACF6D0D5LLV
++ _symbolic _____ 14HomeExtensions18WebVideoPlayerViewV07StandInE5Layer33_F46843C61CE56431F080412AACF6D0D5LLV0iF0C
++ _symbolic _____ So25AVPlayerTimeControlStatusV
++ _symbolic _____3url______8modifiedSi4sizet 10Foundation3URLV AA4DateV
++ _symbolic _____Sg 10Foundation17URLResourceValuesV
++ _symbolic _____Sg 10Foundation6LocaleV
++ _symbolic _____SgIeAgHr_ 10Foundation3URLV
++ _symbolic _____SgSg 10Foundation3URLV
++ _symbolic _____Sg______y__________Gt 14HomeExtensions18WebVideoPlayerViewV07StandInE5Layer33_F46843C61CE56431F080412AACF6D0D5LLV 7SwiftUI15ModifiedContentV AC6BridgeAELLV AG14_OpacityEffectV
++ _symbolic _____XDXMT 14HomeExtensions21VideoPlayerControllerC
++ _symbolic _____yAAy__________yAAy_____y_____AEG_____y_____GGSgGG_____G 7SwiftUI15ModifiedContentV 14HomeExtensions22MediaPlatterBackgroundV AA16_OverlayModifierV AA12ProgressViewV AA05EmptyM0V AA013_TraitWritingK0V AA010TransitionO3KeyV AA14_TaskModifier2V
++ _symbolic _____yAAy_____y_____y_____y_____AAy_____y_____y_____Sg_AAy__________GQPGG_____y_____SgGGGG______Qo______GAWG 7SwiftUI15ModifiedContentV AA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA5GroupV AA012_ConditionalD0V 14HomeExtensions016MediaPlaceholderE0V AA6ZStackV AA05TupleD0V AM014WebVideoPlayerE0V07StandInT5Layer33_F46843C61CE56431F080412AACF6D0D5LLV AU6BridgeAWLLV AA14_OpacityEffectV AA16_OverlayModifierV AM0rs7LoadingE0V AA10ScenePhaseO AA25_AppearanceActionModifierV
++ _symbolic _____yS2S_G SD4KeysV
++ _symbolic _____ySbGSg 7SwiftUI7BindingV
++ _symbolic _____ySo8AVPlayerCSgG 7SwiftUI7BindingV
++ _symbolic _____ySo8AVPlayerCSgG 7SwiftUI9LazyStateV
++ _symbolic _____ySo8AVPlayerCSgGSg 7SwiftUI7BindingV
++ _symbolic _____ySo8AVPlayerCSg_G 7SwiftUI9LazyStateV7StorageO
++ _symbolic _____ySo8AVPlayerCSg_G_yXlSgt 7SwiftUI9LazyStateV7StorageO
++ _symbolic _____y_____3url______8modifiedSi4sizetG s23_ContiguousArrayStorageC 10Foundation3URLV AC4DateV
++ _symbolic _____y_____ScTyABSg_____GG s18_DictionaryStorageC 10Foundation3URLV s5NeverO
++ _symbolic _____y_____SgG s23_ContiguousArrayStorageC 14HomeExtensions14LocaleKeyedAMBV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 14HomeExtensions18WebVideoPlayerViewV6Bridge33_F46843C61CE56431F080412AACF6D0D5LLV AA14_OpacityEffectV
++ _symbolic _____y___________y_____Sg______y__________GQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA12TupleContentV 14HomeExtensions014WebVideoPlayerD0V07StandInN5Layer33_F46843C61CE56431F080412AACF6D0D5LLV AA08ModifiedI0V AL6BridgeANLLV AA14_OpacityEffectV
++ _symbolic _____y__________yAAy_____y_____AEG_____y_____GGSgGG 7SwiftUI15ModifiedContentV 14HomeExtensions22MediaPlatterBackgroundV AA16_OverlayModifierV AA12ProgressViewV AA05EmptyM0V AA013_TraitWritingK0V AA010TransitionO3KeyV
++ _symbolic _____y__________y_____y_____y_____Sg_ACy__________GQPGG_____y_____SgGGG 7SwiftUI19_ConditionalContentV 14HomeExtensions20MediaPlaceholderViewV AA08ModifiedD0V AA6ZStackV AA05TupleD0V AD014WebVideoPlayerI0V07StandInO5Layer33_F46843C61CE56431F080412AACF6D0D5LLV AN6BridgeAPLLV AA14_OpacityEffectV AA16_OverlayModifierV AD0mn7LoadingI0V
++ _symbolic _____y__________y_____y_____y_____Sg_ACy__________GQPGG_____y_____SgGG_G 7SwiftUI19_ConditionalContentV7StorageO 14HomeExtensions20MediaPlaceholderViewV AA08ModifiedD0V AA6ZStackV AA05TupleD0V AF014WebVideoPlayerJ0V07StandInP5Layer33_F46843C61CE56431F080412AACF6D0D5LLV AP6BridgeARLLV AA14_OpacityEffectV AA16_OverlayModifierV AF0no7LoadingJ0V
++ _symbolic _____y_____y_____ACG_____y_____GG 7SwiftUI15ModifiedContentV AA12ProgressViewV AA05EmptyF0V AA21_TraitWritingModifierV AA010TransitionH3KeyV
++ _symbolic _____y_____y_____Sg______y__________GQPGG 7SwiftUI6ZStackV AA12TupleContentV 14HomeExtensions18WebVideoPlayerViewV07StandInJ5Layer33_F46843C61CE56431F080412AACF6D0D5LLV AA08ModifiedE0V AH6BridgeAJLLV AA14_OpacityEffectV
++ _symbolic _____y_____y__________yAAy_____y_____AEG_____y_____GGSgGG_Qo_ 7SwiftUI4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AA15ModifiedContentV 14HomeExtensions22MediaPlatterBackgroundV AA16_OverlayModifierV AA08ProgressC0V AA05EmptyC0V AA013_TraitWritingQ0V AA010TransitionT3KeyV
++ _symbolic _____y_____y__________y_____y_____y_____Sg_ADy__________GQPGG_____y_____SgGGGG 7SwiftUI5GroupV AA19_ConditionalContentV 14HomeExtensions20MediaPlaceholderViewV AA08ModifiedE0V AA6ZStackV AA05TupleE0V AF014WebVideoPlayerJ0V07StandInP5Layer33_F46843C61CE56431F080412AACF6D0D5LLV AP6BridgeARLLV AA14_OpacityEffectV AA16_OverlayModifierV AF0no7LoadingJ0V
++ _symbolic _____y_____y_____y_____ADG_____y_____GGSgG 7SwiftUI16_OverlayModifierV AA15ModifiedContentV AA12ProgressViewV AA05EmptyH0V AA013_TraitWritingD0V AA010TransitionJ3KeyV
++ _symbolic _____y_____y_____y_____Sg_AAy__________GQPGG_____y_____SgGG 7SwiftUI15ModifiedContentV AA6ZStackV AA05TupleD0V 14HomeExtensions18WebVideoPlayerViewV07StandInK5Layer33_F46843C61CE56431F080412AACF6D0D5LLV AJ6BridgeALLLV AA14_OpacityEffectV AA16_OverlayModifierV AH0ij7LoadingL0V
++ _symbolic _____y_____y_____y_____y_____AAy_____y_____y_____Sg_AAy__________GQPGG_____y_____SgGGGG______Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA5GroupV AA012_ConditionalD0V 14HomeExtensions016MediaPlaceholderE0V AA6ZStackV AA05TupleD0V AM014WebVideoPlayerE0V07StandInT5Layer33_F46843C61CE56431F080412AACF6D0D5LLV AU6BridgeAWLLV AA14_OpacityEffectV AA16_OverlayModifierV AM0rs7LoadingE0V AA10ScenePhaseO AA25_AppearanceActionModifierV
++ _type_layout_string 14HomeExtensions18WebVideoPlayerViewV07StandInE5Layer33_F46843C61CE56431F080412AACF6D0D5LLV
+- ___swift_closure_destructor.118Tm
+- ___swift_closure_destructor.51Tm
+- ___swift_closure_destructor.55Tm
+- ___swift_closure_destructor.75Tm
+- _get_witness_table 7SwiftUI15ModifiedContentVy14HomeExtensions22MediaPlatterBackgroundVAA16_OverlayModifierVyAA12ProgressViewVyAA05EmptyM0VALGGGAA0M0HPAfaPHPyHC_AnA0mK0HPyHCHC
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyAA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA5GroupVyAA012_ConditionalD0Vy14HomeExtensions016MediaPlaceholderE0VACyAM014WebVideoPlayerE0V6Bridge33_F46843C61CE56431F080412AACF6D0D5LLVAA16_OverlayModifierVyAM0pq7LoadingE0VSgGGGG_AA10ScenePhaseOQo_AA25_AppearanceActionModifierVGA6_GAaDHPA7_AaDHPqd0__AaDHD3_A4_HO_A6_AA0E8ModifierHPyHCHC_A6_AAA9_HPyHCHC
+- _keypath_set.154Tm
+- _symbolic _____yAAy_____y_____y_____y_____AAy__________y_____SgGGGG______Qo______GAOG 7SwiftUI15ModifiedContentV AA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA5GroupV AA012_ConditionalD0V 14HomeExtensions016MediaPlaceholderE0V AM014WebVideoPlayerE0V6Bridge33_F46843C61CE56431F080412AACF6D0D5LLV AA16_OverlayModifierV AM0pq7LoadingE0V AA10ScenePhaseO AA25_AppearanceActionModifierV
+- _symbolic _____y__________y_____SgGG 7SwiftUI15ModifiedContentV 14HomeExtensions18WebVideoPlayerViewV6Bridge33_F46843C61CE56431F080412AACF6D0D5LLV AA16_OverlayModifierV AD0gh7LoadingJ0V
+- _symbolic _____y__________y__________y_____SgGGG 7SwiftUI19_ConditionalContentV 14HomeExtensions20MediaPlaceholderViewV AA08ModifiedD0V AD014WebVideoPlayerI0V6Bridge33_F46843C61CE56431F080412AACF6D0D5LLV AA16_OverlayModifierV AD0kl7LoadingI0V
+- _symbolic _____y__________y__________y_____SgGG_G 7SwiftUI19_ConditionalContentV7StorageO 14HomeExtensions20MediaPlaceholderViewV AA08ModifiedD0V AF014WebVideoPlayerJ0V6Bridge33_F46843C61CE56431F080412AACF6D0D5LLV AA16_OverlayModifierV AF0lm7LoadingJ0V
+- _symbolic _____y__________y_____y_____AEGGG 7SwiftUI15ModifiedContentV 14HomeExtensions22MediaPlatterBackgroundV AA16_OverlayModifierV AA12ProgressViewV AA05EmptyM0V
+- _symbolic _____y_____y_____ACGG 7SwiftUI16_OverlayModifierV AA12ProgressViewV AA05EmptyF0V
+- _symbolic _____y_____y__________y__________y_____SgGGGG 7SwiftUI5GroupV AA19_ConditionalContentV 14HomeExtensions20MediaPlaceholderViewV AA08ModifiedE0V AF014WebVideoPlayerJ0V6Bridge33_F46843C61CE56431F080412AACF6D0D5LLV AA16_OverlayModifierV AF0lm7LoadingJ0V
+- _symbolic _____y_____y_____y_____y_____AAy__________y_____SgGGGG______Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA5GroupV AA012_ConditionalD0V 14HomeExtensions016MediaPlaceholderE0V AM014WebVideoPlayerE0V6Bridge33_F46843C61CE56431F080412AACF6D0D5LLV AA16_OverlayModifierV AM0pq7LoadingE0V AA10ScenePhaseO AA25_AppearanceActionModifierV
+CStrings:
++ "Download fallback failed, showing placeholder"
++ "Downloading %{public}s"
++ "Video download failed: %{public}s"
++ "View.task @ HomeExtensions/WebVideoPlayerView.swift:"
++ "[Coordinator] App Clip installed: %{bool,public}d, vendor app installed: %{bool,public}d, but no Home extension attached; not requesting the App Clip"
++ "[localizer] bundle strings: %s"
+- "Cache miss, downloading %{public}s"
+- "Download fallback failed, showing placeholder: %{public}s"
+- "[localizedCatalog] Using bundle"
+- "[localizedCatalog] Using summary"
+- "key value "
+```

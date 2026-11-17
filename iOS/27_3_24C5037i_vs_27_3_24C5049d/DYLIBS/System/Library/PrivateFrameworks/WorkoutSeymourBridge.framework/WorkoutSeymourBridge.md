@@ -1,0 +1,53 @@
+## WorkoutSeymourBridge
+
+> `/System/Library/PrivateFrameworks/WorkoutSeymourBridge.framework/WorkoutSeymourBridge`
+
+```diff
+
+-2027.2.25.0.0
+-  __TEXT.__text: 0x7bee0
++2027.2.34.0.0
++  __TEXT.__text: 0x7c0e0
+   __TEXT.__objc_methlist: 0x79c
+   __TEXT.__const: 0x1b24
+-  __TEXT.__swift5_typeref: 0xf86
++  __TEXT.__swift5_typeref: 0xf8a
+   __TEXT.__constg_swiftt: 0xd9c
+   __TEXT.__swift5_builtin: 0x50
+   __TEXT.__swift5_reflstr: 0x10e9
+
+   __AUTH_CONST.__auth_got: 0x17a0
+   __AUTH.__objc_data: 0x9a0
+   __AUTH.__data: 0x458
+-  __DATA.__data: 0x10b8
++  __DATA.__data: 0x10c8
+   __DATA.__common: 0x158
+   __DATA_DIRTY.__objc_data: 0x408
+   __DATA_DIRTY.__data: 0x128
+
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+   Functions: 1640
+-  Symbols:   4402
++  Symbols:   4403
+   CStrings:  191
+ 
+Symbols:
++ _$s13SeymourClient21ActivityRingsQuerying_AA29HealthCharacteristicsProtocolAA0F17StoreCloudSyncingAA0fI8UpdatingAA15WorkoutBuildingpMR
++ _$s13SeymourClient21ActivityRingsQuerying_AA29HealthCharacteristicsProtocolAA0F17StoreCloudSyncingAA0fI8UpdatingAA15WorkoutBuildingpMd
++ _$s13SeymourClient21ActivityRingsQuerying_AA29HealthCharacteristicsProtocolAA0F17StoreCloudSyncingAA0fI8UpdatingAA15WorkoutBuildingpWOb
++ _$s13SeymourClient21ActivityRingsQuerying_AA29HealthCharacteristicsProtocolAA0F17StoreCloudSyncingAA0fI8UpdatingAA15WorkoutBuildingpWOc
++ _$s13SeymourClient23HealthStoreCloudSyncingMp
++ _$s20WorkoutSeymourBridge0B18SessionCoordinatorC11healthStore0B6Client21ActivityRingsQuerying_AE29HealthCharacteristicsProtocolAE0lG12CloudSyncingAE0lG8UpdatingAE0A8Buildingpvg
++ _$s20WorkoutSeymourBridge0B18SessionCoordinatorC11healthStore0B6Client21ActivityRingsQuerying_AE29HealthCharacteristicsProtocolAE0lG12CloudSyncingAE0lG8UpdatingAE0A8BuildingpvpMV
++ _$s20WorkoutSeymourBridge0B18SessionCoordinatorC11healthStore0B6Client21ActivityRingsQuerying_AE29HealthCharacteristicsProtocolAE0lG12CloudSyncingAE0lG8UpdatingAE0A8BuildingpvpWvd
++ _symbolic __________________________p 13SeymourClient21ActivityRingsQueryingP AA29HealthCharacteristicsProtocolP AA0F17StoreCloudSyncingP AA0fI8UpdatingP AA15WorkoutBuildingP
+- _$s13SeymourClient21ActivityRingsQuerying_AA29HealthCharacteristicsProtocolAA0F13StoreUpdatingAA15WorkoutBuildingpMR
+- _$s13SeymourClient21ActivityRingsQuerying_AA29HealthCharacteristicsProtocolAA0F13StoreUpdatingAA15WorkoutBuildingpMd
+- _$s13SeymourClient21ActivityRingsQuerying_AA29HealthCharacteristicsProtocolAA0F13StoreUpdatingAA15WorkoutBuildingpWOb
+- _$s13SeymourClient21ActivityRingsQuerying_AA29HealthCharacteristicsProtocolAA0F13StoreUpdatingAA15WorkoutBuildingpWOc
+- _$s20WorkoutSeymourBridge0B18SessionCoordinatorC11healthStore0B6Client21ActivityRingsQuerying_AE29HealthCharacteristicsProtocolAE0lG8UpdatingAE0A8Buildingpvg
+- _$s20WorkoutSeymourBridge0B18SessionCoordinatorC11healthStore0B6Client21ActivityRingsQuerying_AE29HealthCharacteristicsProtocolAE0lG8UpdatingAE0A8BuildingpvpMV
+- _$s20WorkoutSeymourBridge0B18SessionCoordinatorC11healthStore0B6Client21ActivityRingsQuerying_AE29HealthCharacteristicsProtocolAE0lG8UpdatingAE0A8BuildingpvpWvd
+- _symbolic _____________________p 13SeymourClient21ActivityRingsQueryingP AA29HealthCharacteristicsProtocolP AA0F13StoreUpdatingP AA15WorkoutBuildingP
+```

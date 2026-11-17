@@ -1,0 +1,61 @@
+## WeatherKit
+
+> `FileSystem/System/Library/Frameworks/WeatherKit.framework/Localizable.loctable`
+
+```diff
+
+ en.Hurricane expected = "Hurricane expected"
+ en.Hurricane_phrase = "Hurricane"
+ en.Hurricane_phrase_expected = "Hurricane expected"
++en.Isolated Showers = "Isolated Showers"
++en.Isolated Snow Showers = "Isolated Snow Showers"
+ en.Isolated Thunderstorms = "Isolated Thunderstorms"
++en.Isolated showers_phrase = "Isolated showers"
++en.Isolated showers_phrase_expected = "Isolated showers expected"
++en.Isolated snow showers_phrase = "Isolated snow showers"
++en.Isolated snow showers_phrase_expected = "Isolated snow showers expected"
+ en.Isolated thunderstorms_phrase = "Isolated thunderstorms"
+ en.Isolated thunderstorms_phrase_expected = "Isolated thunderstorms expected"
+ en.Last Quarter = "Last Quarter"
+
+ en.SSE = "SSE"
+ en.SSW = "SSW"
+ en.SW = "SW"
++en.Scattered Showers = "Scattered Showers"
++en.Scattered Snow Showers = "Scattered Snow Showers"
+ en.Scattered Thunderstorms = "Scattered Thunderstorms"
++en.Scattered showers_phrase = "Scattered showers"
++en.Scattered showers_phrase_expected = "Scattered showers expected"
++en.Scattered snow showers_phrase = "Scattered snow showers"
++en.Scattered snow showers_phrase_expected = "Scattered snow showers expected"
+ en.Scattered thunderstorms_phrase = "Scattered thunderstorms"
+ en.Scattered thunderstorms_phrase_expected = "Scattered thunderstorms expected"
+ en.Severe Thunderstorm = "Severe Thunderstorm"
+
+ en.hurricane expected = "hurricane expected"
+ en.hurricane_phrase = "hurricane"
+ en.hurricane_phrase_expected = "hurricane expected"
++en.isolated showers = "isolated showers"
++en.isolated showers_phrase = "isolated showers"
++en.isolated showers_phrase_expected = "isolated showers expected"
++en.isolated snow showers = "isolated snow showers"
++en.isolated snow showers_phrase = "isolated snow showers"
++en.isolated snow showers_phrase_expected = "isolated snow showers expected"
+ en.isolated thunderstorms = "isolated thunderstorms"
+ en.isolated thunderstorms_phrase = "isolated thunderstorms"
+ en.isolated thunderstorms_phrase_expected = "isolated thunderstorms expected"
+
+ en.rainy conditions = "rainy conditions"
+ en.rainy conditions expected = "rainy conditions expected"
+ en.rising = "rising"
++en.scattered showers = "scattered showers"
++en.scattered showers_phrase = "scattered showers"
++en.scattered showers_phrase_expected = "scattered showers expected"
++en.scattered snow showers = "scattered snow showers"
++en.scattered snow showers_phrase = "scattered snow showers"
++en.scattered snow showers_phrase_expected = "scattered snow showers expected"
+ en.scattered thunderstorms = "scattered thunderstorms"
+ en.scattered thunderstorms_phrase = "scattered thunderstorms"
+ en.scattered thunderstorms_phrase_expected = "scattered thunderstorms expected"
+
+```

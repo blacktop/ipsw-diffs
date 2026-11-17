@@ -1,0 +1,87 @@
+## AGXCompilerCore
+
+> `/System/Library/PrivateFrameworks/AGXCompilerCore.framework/AGXCompilerCore`
+
+```diff
+
+-363.3.0.0.0
+-  __TEXT.__text: 0x27b2a0
+-  __TEXT.__const: 0x41cf0
+-  __TEXT.__cstring: 0x1d31a
++363.5.3.0.0
++  __TEXT.__text: 0x27d898
++  __TEXT.__const: 0x41d00
++  __TEXT.__cstring: 0x1d42e
+   __TEXT.__oslogstring: 0x5fc
+-  __TEXT.__unwind_info: 0x5b50
++  __TEXT.__unwind_info: 0x5b98
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_methname: 0x0
+-  __DATA_CONST.__const: 0x9038
++  __DATA_CONST.__const: 0x90d8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__weak_got: 0x10
+   __DATA_CONST.__objc_selrefs: 0x40
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x7a740
++  __AUTH_CONST.__const: 0x7a780
+   __AUTH_CONST.__cfstring: 0xa0
+   __AUTH_CONST.__weak_auth_got: 0xe8
+-  __AUTH_CONST.__auth_got: 0x13e8
++  __AUTH_CONST.__auth_got: 0x13f8
+   __AUTH.__data: 0x58
+   __AUTH.__thread_vars: 0x30
+   __AUTH.__thread_bss: 0x30
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 8409
+-  Symbols:   11347
+-  CStrings:  4794
++  Functions: 8428
++  Symbols:   11378
++  CStrings:  4801
+ 
+Symbols:
++ __ZN12_GLOBAL__N_111replaceCallEPN4llvm8CallInstENS0_9StringRefEPNS0_12FunctionTypeENS0_8ArrayRefIPNS0_5ValueEEE
++ __ZN12_GLOBAL__N_112renamedForASEPKN4llvm8CallInstEN10agc_tensor8TensorASE
++ __ZN12_GLOBAL__N_116retargetAccessorEPN4llvm8CallInstEN10agc_tensor8TensorASE
++ __ZN12_GLOBAL__N_117isTrackableCalleeEPKN4llvm8FunctionE
++ __ZN4llvm13PassInfoMixinI30AGCTensorAccessorAddrSpacePassE4nameEv
++ __ZN4llvm15SmallVectorImplIN10agc_tensor10TensorCallEEaSEOS3_
++ __ZN4llvm15SmallVectorImplIjE6appendIPKjvEEvT_S5_
++ __ZN4llvm18EquivalenceClassesIPNS_5ValueENSt3__14lessIS2_EEE9unionSetsERKS2_S8_
++ __ZN4llvm20getUnderlyingObjectsEPKNS_5ValueERNS_15SmallVectorImplIS2_EEPNS_8LoopInfoEj
++ __ZN4llvm23SmallVectorTemplateBaseIN10agc_tensor10TensorCallELb1EE9push_backES2_
++ __ZN4llvm6detail9PassModelINS_6ModuleE30AGCTensorAccessorAddrSpacePassNS_17PreservedAnalysesENS_15AnalysisManagerIS2_JEEEJEE13printPipelineERNS_11raw_ostreamENS_12function_refIFNS_9StringRefESB_EEE
++ __ZN4llvm6detail9PassModelINS_6ModuleE30AGCTensorAccessorAddrSpacePassNS_17PreservedAnalysesENS_15AnalysisManagerIS2_JEEEJEE3runERS2_RS6_
++ __ZN4llvm6detail9PassModelINS_6ModuleE30AGCTensorAccessorAddrSpacePassNS_17PreservedAnalysesENS_15AnalysisManagerIS2_JEEEJEED0Ev
++ __ZN4llvm6detail9PassModelINS_6ModuleE30AGCTensorAccessorAddrSpacePassNS_17PreservedAnalysesENS_15AnalysisManagerIS2_JEEEJEED1Ev
++ __ZN4llvm8DenseMapIPNS_5ValueEjNS_12DenseMapInfoIS2_vEENS_6detail12DenseMapPairIS2_jEEE4growEj
++ __ZN4llvm8DenseMapIPNS_8CallInstEPNS_5ValueENS_12DenseMapInfoIS2_vEENS_6detail12DenseMapPairIS2_S4_EEE4growEj
++ __ZN4llvm9IRBuilderINS_14ConstantFolderENS_24IRBuilderDefaultInserterEEC2EPNS_11InstructionEPNS_6MDNodeENS_8ArrayRefINS_17OperandBundleDefTIPNS_5ValueEEEEE
++ __ZN4llvm9MapVectorIPNS_5ValueEN12_GLOBAL__N_115DescriptorGroupENS_8DenseMapIS2_jNS_12DenseMapInfoIS2_vEENS_6detail12DenseMapPairIS2_jEEEENSt3__16vectorINSC_4pairIS2_S4_EENSC_9allocatorISF_EEEEEixERKS2_
++ __ZNK4llvm11Instruction20isLifetimeStartOrEndEv
++ __ZNK4llvm12DenseMapBaseINS_8DenseMapIPNS_5ValueEjNS_12DenseMapInfoIS3_vEENS_6detail12DenseMapPairIS3_jEEEES3_jS5_S8_E15LookupBucketForIS3_EEbRKT_RPKS8_
++ __ZNK4llvm12DenseMapBaseINS_8DenseMapIPNS_8CallInstEPNS_5ValueENS_12DenseMapInfoIS3_vEENS_6detail12DenseMapPairIS3_S5_EEEES3_S5_S7_SA_E15LookupBucketForIS3_EEbRKT_RPKSA_
++ __ZNK4llvm18EquivalenceClassesIPNS_5ValueENSt3__14lessIS2_EEE10findLeaderERKS2_
++ __ZNK4llvm18EquivalenceClassesIPNS_5ValueENSt3__14lessIS2_EEE7ECValue9getLeaderEv
++ __ZNK4llvm6detail9PassModelINS_6ModuleE30AGCTensorAccessorAddrSpacePassNS_17PreservedAnalysesENS_15AnalysisManagerIS2_JEEEJEE10isRequiredEv
++ __ZNK4llvm6detail9PassModelINS_6ModuleE30AGCTensorAccessorAddrSpacePassNS_17PreservedAnalysesENS_15AnalysisManagerIS2_JEEEJEE4nameEv
++ __ZNSt3__13setIN4llvm18EquivalenceClassesIPNS1_5ValueENS_4lessIS4_EEE7ECValueENS7_17ECValueComparatorENS_9allocatorIS8_EEE6insertB9fqn220106EOS8_
++ __ZNSt3__16__treeIN4llvm18EquivalenceClassesIPNS1_5ValueENS_4lessIS4_EEE7ECValueENS7_17ECValueComparatorENS_9allocatorIS8_EEE14__tree_deleterclB9fqn220106EPNS_11__tree_nodeIS8_PvEE
++ __ZNSt3__16vectorINS_4pairIPN4llvm5ValueEN12_GLOBAL__N_115DescriptorGroupEEENS_9allocatorIS7_EEE20__throw_length_errorB9fqn220106Ev
++ __ZTVN4llvm6detail9PassModelINS_6ModuleE30AGCTensorAccessorAddrSpacePassNS_17PreservedAnalysesENS_15AnalysisManagerIS2_JEEEJEEE
++ __ZZN10agc_tensor17addressSpaceTableEvE5table
++ __ZZNSt3__16vectorINS_4pairIPN4llvm5ValueEN12_GLOBAL__N_115DescriptorGroupEEENS_9allocatorIS7_EEE12emplace_backIJS7_EEERS7_DpOT_ENKUlvE0_clEv
+CStrings:
++ "AGCTensorAccessorAddrSpacePass"
++ "StringRef llvm::getTypeName() [DesiredTypeName = AGCTensorAccessorAddrSpacePass]"
++ "agx.set_private_tensor_data_pointer."
++ "air.get_data_pointer_private_tensor."
++ "air.slice_private_tensor_global_tensor."
++ "air.slice_private_tensor_private_tensor."
++ "constant"
+```

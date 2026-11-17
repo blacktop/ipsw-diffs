@@ -1,0 +1,86 @@
+## RealityCoreRenderer
+
+> `/System/Library/SubFrameworks/RealityCoreRenderer.framework/RealityCoreRenderer`
+
+```diff
+
+ 24.40.1.0.0
+-  __TEXT.__text: 0xbb8ac
++  __TEXT.__text: 0xbc218
+   __TEXT.__objc_methlist: 0x1a24
+-  __TEXT.__const: 0x86f4
++  __TEXT.__const: 0x8764
+   __TEXT.__constg_swiftt: 0x2fdc
+-  __TEXT.__swift5_typeref: 0x1d22
++  __TEXT.__swift5_typeref: 0x1dcc
+   __TEXT.__swift5_reflstr: 0x313c
+   __TEXT.__swift5_fieldmd: 0x38cc
+   __TEXT.__swift5_builtin: 0x410
+
+   __TEXT.__swift_as_cont: 0x25b4
+   __TEXT.__swift5_types2: 0x24
+   __TEXT.__oslogstring: 0x3
+-  __TEXT.__unwind_info: 0x49a8
++  __TEXT.__unwind_info: 0x49c8
+   __TEXT.__eh_frame: 0x4a08
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+
+   __AUTH_CONST.__auth_got: 0xf20
+   __AUTH.__data: 0x358
+   __DATA.__objc_ivar: 0xc
+-  __DATA.__data: 0x15f0
++  __DATA.__data: 0x16a0
+   __DATA.__common: 0x40
+   __DATA_DIRTY.__objc_data: 0x410
+   __DATA_DIRTY.__data: 0x2578
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 5442
+-  Symbols:   10888
++  Functions: 5457
++  Symbols:   10926
+   CStrings:  182
+ 
+Symbols:
++ _$s19RealityCoreRenderer23LowLevelTextureResourceCSgMR
++ _$s19RealityCoreRenderer23LowLevelTextureResourceCSgMd
++ _$sSo22MTLRenderPipelineState_pSgMR
++ _$sSo22MTLRenderPipelineState_pSgMd
++ _$sSo27MTLRenderPipelineReflectionCSgMR
++ _$sSo27MTLRenderPipelineReflectionCSgMd
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF19RealityCoreRenderer020LowLevelMeshInstanceA0CSg_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF19RealityCoreRenderer08DrawCallA0CSg_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF19RealityCoreRenderer12MeshInstanceCSg_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF19RealityCoreRenderer20LowLevelMeshInstanceCSg_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF19RealityCoreRenderer23LowLevelTextureResourceCSg_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF19RealityCoreRenderer23LowLevelTextureResourceCSg_Tg5Tm
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSo11MTLFunction_pSg_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSo22MTLRenderPipelineState_pSg_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSo27MTLRenderPipelineReflectionCSg_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNewAByxGyF19RealityCoreRenderer23LowLevelTextureResourceCSg_Tg5
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtF19RealityCoreRenderer23LowLevelTextureResourceCSg_Tg5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF19RealityCoreRenderer23LowLevelTextureResourceCSg_Tg5
++ _$ss23_ContiguousArrayStorageCy19RealityCoreRenderer020LowLevelMeshInstanceB0CSgGMR
++ _$ss23_ContiguousArrayStorageCy19RealityCoreRenderer020LowLevelMeshInstanceB0CSgGMd
++ _$ss23_ContiguousArrayStorageCy19RealityCoreRenderer08DrawCallB0CSgGMR
++ _$ss23_ContiguousArrayStorageCy19RealityCoreRenderer08DrawCallB0CSgGMd
++ _$ss23_ContiguousArrayStorageCy19RealityCoreRenderer23LowLevelTextureResourceCSgGMR
++ _$ss23_ContiguousArrayStorageCy19RealityCoreRenderer23LowLevelTextureResourceCSgGMd
++ _$ss23_ContiguousArrayStorageCySo11MTLFunction_pSgGMR
++ _$ss23_ContiguousArrayStorageCySo11MTLFunction_pSgGMd
++ _$ss23_ContiguousArrayStorageCySo22MTLRenderPipelineState_pSgGMR
++ _$ss23_ContiguousArrayStorageCySo22MTLRenderPipelineState_pSgGMd
++ _$ss23_ContiguousArrayStorageCySo27MTLRenderPipelineReflectionCSgGMR
++ _$ss23_ContiguousArrayStorageCySo27MTLRenderPipelineReflectionCSgGMd
++ _symbolic So27MTLRenderPipelineReflectionCSg
++ _symbolic _____Sg 19RealityCoreRenderer23LowLevelTextureResourceC
++ _symbolic _____ySo27MTLRenderPipelineReflectionCSgG s23_ContiguousArrayStorageC
++ _symbolic _____y_____SgG s23_ContiguousArrayStorageC 19RealityCoreRenderer020LowLevelMeshInstanceB0C
++ _symbolic _____y_____SgG s23_ContiguousArrayStorageC 19RealityCoreRenderer08DrawCallB0C
++ _symbolic _____y_____SgG s23_ContiguousArrayStorageC 19RealityCoreRenderer23LowLevelTextureResourceC
++ _symbolic _____y______pSgG s23_ContiguousArrayStorageC So11MTLFunctionP
++ _symbolic _____y______pSgG s23_ContiguousArrayStorageC So22MTLRenderPipelineStateP
+```

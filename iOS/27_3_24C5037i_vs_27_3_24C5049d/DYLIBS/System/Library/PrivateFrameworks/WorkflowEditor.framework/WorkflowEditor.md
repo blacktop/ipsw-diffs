@@ -1,0 +1,216 @@
+## WorkflowEditor
+
+> `/System/Library/PrivateFrameworks/WorkflowEditor.framework/WorkflowEditor`
+
+```diff
+
+-5203.0.1.0.0
+-  __TEXT.__text: 0x2a64a0
+-  __TEXT.__objc_methlist: 0xb5f4
+-  __TEXT.__const: 0x1feb0
++5206.0.3.0.0
++  __TEXT.__text: 0x2abf38
++  __TEXT.__objc_methlist: 0xb62c
++  __TEXT.__const: 0x20080
+   __TEXT.__dlopen_cstrs: 0x52
+-  __TEXT.__swift5_typeref: 0x203c2
+-  __TEXT.__swift5_capture: 0x5b54
+-  __TEXT.__cstring: 0xb2f1
+-  __TEXT.__constg_swiftt: 0xe600
+-  __TEXT.__swift5_reflstr: 0x882c
+-  __TEXT.__swift5_fieldmd: 0x8b0c
++  __TEXT.__swift5_typeref: 0x20b46
++  __TEXT.__swift5_capture: 0x5bc4
++  __TEXT.__cstring: 0xb311
++  __TEXT.__constg_swiftt: 0xe6e8
++  __TEXT.__swift5_reflstr: 0x88cc
++  __TEXT.__swift5_fieldmd: 0x8b80
+   __TEXT.__swift5_builtin: 0x3fc
+-  __TEXT.__swift5_assocty: 0x1c00
+-  __TEXT.__swift5_proto: 0xbf8
+-  __TEXT.__swift5_types: 0x934
+-  __TEXT.__swift_as_entry: 0x208
+-  __TEXT.__swift_as_cont: 0x4c0
++  __TEXT.__swift5_assocty: 0x1c18
++  __TEXT.__swift5_proto: 0xbfc
++  __TEXT.__swift5_types: 0x93c
++  __TEXT.__swift_as_entry: 0x214
++  __TEXT.__swift_as_cont: 0x4e8
+   __TEXT.__swift5_protos: 0x80
+-  __TEXT.__oslogstring: 0x2152
+-  __TEXT.__swift_as_ret: 0x204
++  __TEXT.__oslogstring: 0x21d2
++  __TEXT.__swift_as_ret: 0x224
+   __TEXT.__swift5_mpenum: 0x90
+   __TEXT.__gcc_except_tab: 0x44c
+   __TEXT.__ustring: 0x15e
+-  __TEXT.__unwind_info: 0xe1f0
+-  __TEXT.__eh_frame: 0x7ae4
++  __TEXT.__unwind_info: 0xe390
++  __TEXT.__eh_frame: 0x7eb4
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x1650
+-  __DATA_CONST.__objc_classlist: 0x7f0
++  __DATA_CONST.__objc_classlist: 0x7f8
+   __DATA_CONST.__objc_catlist: 0x1b0
+   __DATA_CONST.__objc_protolist: 0x5d8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x7508
++  __DATA_CONST.__objc_selrefs: 0x7548
+   __DATA_CONST.__objc_protorefs: 0x278
+   __DATA_CONST.__objc_superrefs: 0x180
+   __DATA_CONST.__objc_arraydata: 0x98
+-  __DATA_CONST.__got: 0x2bb0
+-  __AUTH_CONST.__const: 0x18178
++  __DATA_CONST.__got: 0x2bc8
++  __AUTH_CONST.__const: 0x18268
+   __AUTH_CONST.__cfstring: 0x1740
+-  __AUTH_CONST.__objc_const: 0x18108
++  __AUTH_CONST.__objc_const: 0x18218
+   __AUTH_CONST.__objc_intobj: 0xf0
+   __AUTH_CONST.__objc_arrayobj: 0x60
+   __AUTH_CONST.__objc_dictobj: 0x50
+   __AUTH_CONST.__objc_floatobj: 0x20
+-  __AUTH_CONST.__auth_got: 0x4220
+-  __AUTH.__objc_data: 0xca70
+-  __AUTH.__data: 0x8428
++  __AUTH_CONST.__auth_got: 0x42b8
++  __AUTH.__objc_data: 0xcd28
++  __AUTH.__data: 0x8438
+   __DATA.__objc_ivar: 0x550
+-  __DATA.__data: 0xe698
++  __DATA.__data: 0xe7a8
+   __DATA.__objc_stublist: 0x10
+-  __DATA.__common: 0x408
++  __DATA.__common: 0x3f0
+   __DATA_DIRTY.__objc_data: 0xf0
+   __DATA_DIRTY.__bss: 0x10
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/Frameworks/UniformTypeIdentifiers.framework/UniformTypeIdentifiers
+-  - /System/Library/Frameworks/_AppIntents_UIKit.framework/_AppIntents_UIKit
+   - /System/Library/Frameworks/_LocationEssentials.framework/_LocationEssentials
+   - /System/Library/PrivateFrameworks/BaseBoard.framework/BaseBoard
+   - /System/Library/PrivateFrameworks/CalendarUIKit.framework/CalendarUIKit
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 20763
+-  Symbols:   10354
+-  CStrings:  1342
++  Functions: 20885
++  Symbols:   10398
++  CStrings:  1346
+ 
+Symbols:
++ -[WFParameterValuePickerViewController collectionByExcludingHiddenStates:]
++ GCC_except_table1113
++ GCC_except_table1121
++ GCC_except_table1130
++ GCC_except_table1135
++ GCC_except_table1217
++ GCC_except_table1575
++ GCC_except_table1579
++ GCC_except_table1582
++ GCC_except_table1627
++ GCC_except_table1636
++ GCC_except_table875
++ GCC_except_table888
++ _OBJC_CLASS_$_WFPCCLimitMessageAction
++ _OBJC_METACLASS_$_UITableView
++ _OBJC_METACLASS_$__TtCV14WorkflowEditorP33_CD2E7F73860E12984BEFDB4AFFBF8AE011WFTableView25SafeAreaIgnoringTableView
++ _OUTLINED_FUNCTION_449
++ _OUTLINED_FUNCTION_450
++ __DATA__TtCV14WorkflowEditorP33_CD2E7F73860E12984BEFDB4AFFBF8AE011WFTableView25SafeAreaIgnoringTableView
++ __INSTANCE_METHODS__TtCV14WorkflowEditorP33_CD2E7F73860E12984BEFDB4AFFBF8AE011WFTableView25SafeAreaIgnoringTableView
++ __METACLASS_DATA__TtCV14WorkflowEditorP33_CD2E7F73860E12984BEFDB4AFFBF8AE011WFTableView25SafeAreaIgnoringTableView
++ __PROPERTIES__TtCV14WorkflowEditorP33_CD2E7F73860E12984BEFDB4AFFBF8AE011WFTableView25SafeAreaIgnoringTableView
++ ___74-[WFParameterValuePickerViewController collectionByExcludingHiddenStates:]_block_invoke
++ ___PCCMetering_isAvailable
++ ___swift_closure_destructor.104Tm
++ ___swift_closure_destructor.138Tm
++ ___swift_closure_destructor.150Tm
++ ___swift_closure_destructor.161Tm
++ ___swift_closure_destructor.322Tm
++ ___swift_closure_destructor.631Tm
++ ___swift_closure_destructor.85Tm
++ ___swift_closure_destructor.94Tm
++ __os_feature_enabled_impl
++ _associated conformance 14WorkflowEditor13PCCUpsellViewV7SwiftUI0D0AA4BodyAdEP_AdE
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE12onTapGesture5count7performQrSi_yyctFQOyAA15ModifiedContentVyAHyAHyAHyAA6HStackVyAA05TupleJ0VyAA5ImageV_AHyAHyAHyAA6VStackVyALyAA4TextVSg_ASQPGGAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAA16_FlexFrameLayoutVGAA08_PaddingW0VGQPGGAWyAA5ColorVSgGGA5_GA5_GAA016_BackgroundStyleS0VyA10_GG_Qo_HO
++ _symbolic So17WFPCCLimitMessageC
++ _symbolic So17WFPCCLimitMessageCSg
++ _symbolic So18NSLayoutConstraintCSg
++ _symbolic So23WFPCCLimitMessageActionC
++ _symbolic _____ 14WorkflowEditor11WFTableView33_CD2E7F73860E12984BEFDB4AFFBF8AE0LLV021SafeAreaIgnoringTableD0C
++ _symbolic _____ 14WorkflowEditor13PCCUpsellViewV
++ _symbolic _____Sg 11WorkflowKit14WFPCCModelTierO
++ _symbolic _____Sg So6UIViewC18WorkflowUIServicesE14DivisionRegionV
++ _symbolic _____SgXwz_Xx 14WorkflowEditor15ActionViewModelC
++ _symbolic _____XDXMT 14WorkflowEditor15ActionViewModelC
++ _symbolic ______pSg 11WorkflowKit24WFPCCQuotaCheckingActionP
++ _symbolic _____yAAyAAyAAyAAyAAyAAyAAyAAy__________G_____y_____SgGGAEy_____SgGGAEy______pSgGG_____GAEy_____ySo6UIViewCGSgGG_____ySSGG_____GARG 7SwiftUI15ModifiedContentV 14WorkflowEditor16ParameterRowViewV AD28DisabledWhileRunningModifier33_B3A2D298447CAF2463BB59A9BDEDDEE5LLV AA022_EnvironmentKeyWritingM0V AD0eF7OptionsC AD0eF7ResultsC So19WFUserInterfaceHostP AA30_SafeAreaRegionsIgnoringLayoutV 19VoiceShortcutClient13WeakReferenceV AA016_CoordinateSpaceM0V AA16_FlexFrameLayoutV
++ _symbolic _____yAAyAAyAAyAAyAAyAAyAAy__________G_____y_____SgGGAEy_____SgGGAEy______pSgGG_____GAEy_____ySo6UIViewCGSgGG_____ySSGG_____G 7SwiftUI15ModifiedContentV 14WorkflowEditor16ParameterRowViewV AD28DisabledWhileRunningModifier33_B3A2D298447CAF2463BB59A9BDEDDEE5LLV AA022_EnvironmentKeyWritingM0V AD0eF7OptionsC AD0eF7ResultsC So19WFUserInterfaceHostP AA30_SafeAreaRegionsIgnoringLayoutV 19VoiceShortcutClient13WeakReferenceV AA016_CoordinateSpaceM0V AA16_FlexFrameLayoutV
++ _symbolic _____yAAyAAyAAyAAyAAyAAy__________G_____y_____SgGGAEy_____SgGGAEy______pSgGG_____GAEy_____ySo6UIViewCGSgGG_____ySSGG 7SwiftUI15ModifiedContentV 14WorkflowEditor16ParameterRowViewV AD28DisabledWhileRunningModifier33_B3A2D298447CAF2463BB59A9BDEDDEE5LLV AA022_EnvironmentKeyWritingM0V AD0eF7OptionsC AD0eF7ResultsC So19WFUserInterfaceHostP AA30_SafeAreaRegionsIgnoringLayoutV 19VoiceShortcutClient13WeakReferenceV AA016_CoordinateSpaceM0V
++ _symbolic _____yAAyAAyAAyAAyAAy__________GACG_____y_____SgGGAFy_____SgGGAFy______pSgGG_____G 7SwiftUI15ModifiedContentV 14WorkflowEditor23ActionResourceErrorViewV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AD0eF7OptionsC AD0eF7ResultsC So19WFUserInterfaceHostP AA024_SafeAreaRegionsIgnoringL0V
++ _symbolic _____yAAyAAyAAyAAyAAy__________G_____y_____SgGGAEy_____SgGGAEy______pSgGG_____GAEy_____ySo6UIViewCGSgGG 7SwiftUI15ModifiedContentV 14WorkflowEditor16ParameterRowViewV AD28DisabledWhileRunningModifier33_B3A2D298447CAF2463BB59A9BDEDDEE5LLV AA022_EnvironmentKeyWritingM0V AD0eF7OptionsC AD0eF7ResultsC So19WFUserInterfaceHostP AA30_SafeAreaRegionsIgnoringLayoutV 19VoiceShortcutClient13WeakReferenceV
++ _symbolic _____yAAyAAyAAyAAy__________G_____y_____SgGGAEy_____SgGGAEy______pSgGG_____G 7SwiftUI15ModifiedContentV 14WorkflowEditor16ParameterRowViewV AD28DisabledWhileRunningModifier33_B3A2D298447CAF2463BB59A9BDEDDEE5LLV AA022_EnvironmentKeyWritingM0V AD0eF7OptionsC AD0eF7ResultsC So19WFUserInterfaceHostP AA30_SafeAreaRegionsIgnoringLayoutV
++ _symbolic _____yAAyAAyAAyAAy__________G_____y_____SgGGAEy_____SgGGAEy______pSgGG_____G 7SwiftUI15ModifiedContentV 14WorkflowEditor32ActionParameterSelectionListViewV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AD0eF7OptionsC AD0eF7ResultsC So19WFUserInterfaceHostP AA024_SafeAreaRegionsIgnoringM0V
++ _symbolic _____yAAyAAyAAy_____yABy_____y______AAyAAy__________GAFGQPGAByAAy_____AFGAAyAAy_____AFGAFGGGAByAnAyAAy_____yACy______ARQPGGAFGAFGGG_____y_____SgGGAYy_____SgGGAYy______pSgGG_____G 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA05TupleD0V AA7DividerV 14WorkflowEditor17ActionMissingViewV AA14_PaddingLayoutV AJ06Scriptj13ResourceErrorL0V AJ0jpqL0V AA6VStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AJ0hI7OptionsC AJ0hI7ResultsC So19WFUserInterfaceHostP AA024_SafeAreaRegionsIgnoringN0V
++ _symbolic _____yAAyAAyAAy_____y_____y______AAyAAyAAy_____yACy_____Sg_AGQPGG_____y_____SgGG_____G_____GQPGGAJy_____SgGGAQGAQG_____yAUGG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA5ImageV AA6VStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV AA16_FlexFrameLayoutV AA08_PaddingQ0V AA5ColorV AA016_BackgroundStyleM0V
++ _symbolic _____yAAyAAy_____y_____y_____Sg_AEQPGG_____y_____SgGG_____G_____G 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV AA16_FlexFrameLayoutV AA08_PaddingO0V
++ _symbolic _____yAAyAAy_____y_____y______AAyAAyAAy_____yACy_____Sg_AGQPGG_____y_____SgGG_____G_____GQPGGAJy_____SgGGAQGAQG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA5ImageV AA6VStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV AA16_FlexFrameLayoutV AA08_PaddingQ0V AA5ColorV
++ _symbolic _____yAAy_____y_____yACyACy_____AAyAAyAAy__________y_____SgGGAFy_____SgGG_____GGACyAdByACyACyAAyAAyAAyAE_____GAOG_____yAKGGAAyAT_____yA2KGGGACyAAyAT_____yA3KGGATGGGGGACyAdAy_____y_____AKGAOGGGG_____G_____G 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V 18WorkflowUIServices8IconViewV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AA12_FrameLayoutV AA012_AspectRatioS0V AA016_ForegroundStyleO0V AA01_vW9Modifier2V AA01_vW9Modifier3V AA06_ShapeJ0V AA16RoundedRectangleV AA16_GrayscaleEffectV AA024_SafeAreaRegionsIgnoringS0V
++ _symbolic _____yAAy_____y_____y_____Sg_AEQPGG_____y_____SgGG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV AA16_FlexFrameLayoutV
++ _symbolic _____yAAy_____y_____y______AAyAAyAAy_____yACy_____Sg_AGQPGG_____y_____SgGG_____G_____GQPGGAJy_____SgGGAQG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA5ImageV AA6VStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV AA16_FlexFrameLayoutV AA08_PaddingQ0V AA5ColorV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA7AnyViewV AA30_SafeAreaRegionsIgnoringLayoutV
++ _symbolic _____y______pSgG s23_ContiguousArrayStorageC So16WFParameterStateP
++ _symbolic _____y_____yAAyAAyAAy_____y_____y______AAyAAyAAy_____yACy_____Sg_AGQPGG_____y_____SgGG_____G_____GQPGGAJy_____SgGGAQGAQG_____yAUGG_Qo_ 7SwiftUI4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AA15ModifiedContentV AA6HStackV AA05TupleJ0V AA5ImageV AA6VStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV AA16_FlexFrameLayoutV AA08_PaddingW0V AA5ColorV AA016_BackgroundStyleS0V
++ _symbolic _____y_____yAByAByAByAByAByABy__________G_____y_____SgGGAFy_____SgGGAFy______pSgGG_____GAFy_____ySo6UIViewCGSgGG_____ySSGGG 14WorkflowEditor22FrameLayoutHostingView33_B3A2D298447CAF2463BB59A9BDEDDEE5LLC 7SwiftUI15ModifiedContentV AA012ParameterRowF0V AA28DisabledWhileRunningModifierACLLV AE022_EnvironmentKeyWritingW0V AA0aB7OptionsC AA0aB7ResultsC So19WFUserInterfaceHostP AE024_SafeAreaRegionsIgnoringD0V 19VoiceShortcutClient13WeakReferenceV AE016_CoordinateSpaceW0V
++ _symbolic _____y_____yAByAByABy__________y_____SgGGADy_____SgGGADy______pSgGG_____GG 7SwiftUI14_UIHostingViewC AA15ModifiedContentV AA03AnyD0V AA30_EnvironmentKeyWritingModifierV 14WorkflowEditor0lM7OptionsC AJ0lM7ResultsC So19WFUserInterfaceHostP AA30_SafeAreaRegionsIgnoringLayoutV
++ _symbolic _____y_____y___________yADyADy_____yABy_____Sg_AGQPGG_____y_____SgGG_____G_____GQPGG 7SwiftUI6HStackV AA12TupleContentV AA5ImageV AA08ModifiedE0V AA6VStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV AA16_FlexFrameLayoutV AA08_PaddingQ0V
++ _symbolic _____y_____y_____y_____Sg_AEQPGG_____y_____SgGG 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV
++ _symbolic _____y_____y_____y______AAyAAyAAy_____yACy_____Sg_AGQPGG_____y_____SgGG_____G_____GQPGGAJy_____SgGG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA5ImageV AA6VStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV AA16_FlexFrameLayoutV AA08_PaddingQ0V AA5ColorV
++ _type_layout_string 14WorkflowEditor13PCCUpsellViewV
+- GCC_except_table1111
+- GCC_except_table1119
+- GCC_except_table1128
+- GCC_except_table1133
+- GCC_except_table1215
+- GCC_except_table1573
+- GCC_except_table1577
+- GCC_except_table1580
+- GCC_except_table1625
+- GCC_except_table1634
+- GCC_except_table873
+- GCC_except_table886
+- _OBJC_CLASS_$_WFMTASupport
+- ___swift_closure_destructor.136Tm
+- ___swift_closure_destructor.146Tm
+- ___swift_closure_destructor.159Tm
+- ___swift_closure_destructor.321Tm
+- ___swift_closure_destructor.601Tm
+- ___swift_closure_destructor.83Tm
+- ___swift_closure_destructor.88Tm
+- ___swift_closure_destructor.97Tm
+- _symbolic _____yAAyAAyAAyAAyAAyAAy__________G_____y_____SgGGAEy_____SgGGAEy______pSgGGAEy_____ySo6UIViewCGSgGG_____ySSGG_____G 7SwiftUI15ModifiedContentV 14WorkflowEditor16ParameterRowViewV AD28DisabledWhileRunningModifier33_B3A2D298447CAF2463BB59A9BDEDDEE5LLV AA022_EnvironmentKeyWritingM0V AD0eF7OptionsC AD0eF7ResultsC So19WFUserInterfaceHostP 19VoiceShortcutClient13WeakReferenceV AA016_CoordinateSpaceM0V AA16_FlexFrameLayoutV
+- _symbolic _____yAAyAAyAAyAAyAAy__________G_____y_____SgGGAEy_____SgGGAEy______pSgGGAEy_____ySo6UIViewCGSgGG_____ySSGG 7SwiftUI15ModifiedContentV 14WorkflowEditor16ParameterRowViewV AD28DisabledWhileRunningModifier33_B3A2D298447CAF2463BB59A9BDEDDEE5LLV AA022_EnvironmentKeyWritingM0V AD0eF7OptionsC AD0eF7ResultsC So19WFUserInterfaceHostP 19VoiceShortcutClient13WeakReferenceV AA016_CoordinateSpaceM0V
+- _symbolic _____yAAyAAyAAyAAy__________G_____y_____SgGGAEy_____SgGGAEy______pSgGGAEy_____ySo6UIViewCGSgGG 7SwiftUI15ModifiedContentV 14WorkflowEditor16ParameterRowViewV AD28DisabledWhileRunningModifier33_B3A2D298447CAF2463BB59A9BDEDDEE5LLV AA022_EnvironmentKeyWritingM0V AD0eF7OptionsC AD0eF7ResultsC So19WFUserInterfaceHostP 19VoiceShortcutClient13WeakReferenceV
+- _symbolic _____y_____yAByAByAByAByABy__________G_____y_____SgGGAFy_____SgGGAFy______pSgGGAFy_____ySo6UIViewCGSgGG_____ySSGGG 14WorkflowEditor22FrameLayoutHostingView33_B3A2D298447CAF2463BB59A9BDEDDEE5LLC 7SwiftUI15ModifiedContentV AA012ParameterRowF0V AA28DisabledWhileRunningModifierACLLV AE022_EnvironmentKeyWritingW0V AA0aB7OptionsC AA0aB7ResultsC So19WFUserInterfaceHostP 19VoiceShortcutClient13WeakReferenceV AE016_CoordinateSpaceW0V
+CStrings:
++ "FoundationModels"
++ "Not presenting customized limit reached alert: no server-provided alert"
++ "PCCMetering"
++ "Performing iCloudQuota action from action view"
++ "Performing iCloudQuota action from alert"
++ "Presenting customized error alert for iCloud+ required error: %@"
+- "Not presenting customized rate limit error for model %s"
+- "Presenting customized error alert for rate limit error: %@"
+```

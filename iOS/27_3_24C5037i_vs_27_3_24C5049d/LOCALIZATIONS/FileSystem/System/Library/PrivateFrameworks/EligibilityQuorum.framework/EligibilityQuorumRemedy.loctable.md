@@ -1,0 +1,39 @@
+## EligibilityQuorum
+
+> `FileSystem/System/Library/PrivateFrameworks/EligibilityQuorum.framework/EligibilityQuorumRemedy.loctable`
+
+```diff
+
++en.REMEDY_ALERT_MESSAGE_ASSETS = "You can enable Siri Recap when the update is complete."
+ en.REMEDY_ALERT_MESSAGE_ICLOUD_TERMS = "To enable Siri Recap, accept the updated iCloud Terms and Conditions in Apple Account settings."
+ en.REMEDY_ALERT_MESSAGE_INTELLIGENCE = "Turn on Apple Intelligence to enable Siri Recap."
++en.REMEDY_ALERT_MESSAGE_LANGUAGE = "Siri Recap requires that iPhone, Apple Watch, and Siri are set to the same supported language."
+ en.REMEDY_ALERT_MESSAGE_NO_ACCOUNT = "To enable Siri Recap, sign in with your Apple Account."
+ en.REMEDY_ALERT_MESSAGE_PHONE_PASSCODE = "Siri Recap requires a passcode to help protect your information."
+ en.REMEDY_ALERT_MESSAGE_WATCH_PASSCODE = "Siri Recap requires a passcode on your Apple Watch to help protect your information."
+ en.REMEDY_ALERT_MESSAGE_WRIST_DETECTION = "Siri Recap requires Wrist Detection to keep your Apple Watch secure when you're not wearing it."
++en.REMEDY_ALERT_TITLE_ASSETS = "Siri Is Updating"
+ en.REMEDY_ALERT_TITLE_ICLOUD_TERMS = "iCloud Terms Updated"
+ en.REMEDY_ALERT_TITLE_INTELLIGENCE = "Apple Intelligence Required"
++en.REMEDY_ALERT_TITLE_LANGUAGE = "Language Not Supported"
+ en.REMEDY_ALERT_TITLE_NO_ACCOUNT = "Sign In with Your Apple Account"
+ en.REMEDY_ALERT_TITLE_PHONE_PASSCODE = "iPhone Passcode Required"
+ en.REMEDY_ALERT_TITLE_WATCH_PASSCODE = "Apple Watch Passcode Required"
+ en.REMEDY_ALERT_TITLE_WRIST_DETECTION = "Wrist Detection Required"
++en.REMEDY_CONFIRM_ASSETS = "Settings"
+ en.REMEDY_CONFIRM_ICLOUD_TERMS = "Settings"
+ en.REMEDY_CONFIRM_INTELLIGENCE = "Settings"
++en.REMEDY_CONFIRM_LANGUAGE = "Settings"
+ en.REMEDY_CONFIRM_NO_ACCOUNT = "Sign In"
+ en.REMEDY_CONFIRM_PHONE_PASSCODE = "Turn On"
+ en.REMEDY_CONFIRM_WATCH_PASSCODE = "Turn On"
+ en.REMEDY_CONFIRM_WRIST_DETECTION = "Turn On"
++en.REMEDY_TITLE_ASSETS = "View Update Status"
+ en.REMEDY_TITLE_ICLOUD_TERMS = "Review iCloud Terms"
+ en.REMEDY_TITLE_INTELLIGENCE = "Turn Apple Intelligence On"
++en.REMEDY_TITLE_LANGUAGE = "Change iPhone Siri Language"
+ en.REMEDY_TITLE_NO_ACCOUNT = "Sign In to Apple Account"
+ en.REMEDY_TITLE_PHONE_PASSCODE = "Turn iPhone Passcode On"
+ en.REMEDY_TITLE_WATCH_PASSCODE = "Turn Apple Watch Passcode On"
+
+```

@@ -1,0 +1,359 @@
+## BrailleServer
+
+> `/System/Library/PrivateFrameworks/BrailleServer.framework/BrailleServer`
+
+```diff
+
+-467.3.12.0.0
+-  __TEXT.__text: 0x5acdc
+-  __TEXT.__objc_methlist: 0x464
+-  __TEXT.__const: 0x1598
+-  __TEXT.__swift5_typeref: 0xb55
+-  __TEXT.__constg_swiftt: 0x1034
+-  __TEXT.__swift5_reflstr: 0xa68
+-  __TEXT.__swift5_fieldmd: 0xbec
+-  __TEXT.__swift5_builtin: 0x64
+-  __TEXT.__swift5_assocty: 0x60
+-  __TEXT.__swift5_capture: 0x4f0
+-  __TEXT.__swift5_proto: 0x68
+-  __TEXT.__swift5_types: 0x9c
+-  __TEXT.__cstring: 0x2fe
+-  __TEXT.__swift5_mpenum: 0x8
++467.3.22.0.0
++  __TEXT.__text: 0x60f4c
++  __TEXT.__objc_methlist: 0x47c
++  __TEXT.__const: 0x17a8
++  __TEXT.__swift5_typeref: 0xbe3
++  __TEXT.__constg_swiftt: 0x1178
++  __TEXT.__swift5_reflstr: 0xbd8
++  __TEXT.__swift5_fieldmd: 0xd60
++  __TEXT.__swift5_builtin: 0x78
++  __TEXT.__swift5_assocty: 0x78
++  __TEXT.__swift5_capture: 0x548
++  __TEXT.__swift5_proto: 0x88
++  __TEXT.__swift5_types: 0xb4
++  __TEXT.__cstring: 0x32e
++  __TEXT.__oslogstring: 0x1b4
++  __TEXT.__swift5_mpenum: 0x10
+   __TEXT.__swift5_protos: 0x10
+-  __TEXT.__swift_as_entry: 0x90
++  __TEXT.__swift_as_entry: 0x94
+   __TEXT.__swift_as_ret: 0xb0
+-  __TEXT.__swift_as_cont: 0x108
+-  __TEXT.__oslogstring: 0x3
+-  __TEXT.__unwind_info: 0xee8
+-  __TEXT.__eh_frame: 0x1468
++  __TEXT.__swift_as_cont: 0x110
++  __TEXT.__unwind_info: 0xfe0
++  __TEXT.__eh_frame: 0x1510
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_classlist: 0x60
+   __DATA_CONST.__objc_protolist: 0x30
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x290
++  __DATA_CONST.__objc_selrefs: 0x2a0
+   __DATA_CONST.__objc_protorefs: 0x18
+   __DATA_CONST.__objc_superrefs: 0x8
+-  __DATA_CONST.__got: 0x250
+-  __AUTH_CONST.__const: 0x16d0
+-  __AUTH_CONST.__objc_const: 0x1298
+-  __AUTH_CONST.__auth_got: 0xb80
++  __DATA_CONST.__got: 0x270
++  __AUTH_CONST.__const: 0x1998
++  __AUTH_CONST.__objc_const: 0x12c8
++  __AUTH_CONST.__auth_got: 0xc08
+   __AUTH.__objc_data: 0x180
+-  __AUTH.__data: 0x6d0
++  __AUTH.__data: 0x880
+   __DATA.__objc_ivar: 0x8
+-  __DATA.__data: 0x7b0
+-  __DATA.__common: 0x60
++  __DATA.__data: 0x828
++  __DATA.__common: 0x78
+   __DATA_DIRTY.__objc_data: 0x2c8
+-  __DATA_DIRTY.__data: 0x1218
++  __DATA_DIRTY.__data: 0x1298
+   __DATA_DIRTY.__common: 0x50
+   - /System/Library/Frameworks/CloudKit.framework/CloudKit
+   - /System/Library/Frameworks/CoreBluetooth.framework/CoreBluetooth
+
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
++  - /usr/lib/swift/libswiftObservation.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftSynchronization.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 991
+-  Symbols:   2644
+-  CStrings:  21
++  Functions: 1074
++  Symbols:   2841
++  CStrings:  30
+ 
+Symbols:
++ _$s10Foundation16AttributedStringV07BrailleA0E28markingTechnicalTextAsNemethACyF
++ _$s10Foundation16AttributedStringVMn
++ _$s10Foundation16AttributedStringV_10attributesACSS_AA18AttributeContainerVtcfC
++ _$s10Foundation18AttributeContainerVACycfC
++ _$s10Foundation18AttributeContainerVMa
++ _$s11Observation04withA8Tracking_8onChangexxyXE_yyYbcyXKtlF
++ _$s13BrailleServer12PlanarWindowC12requestFocus33_FB6754137C144D03503B029BFC8702CCLL_9directionAA13PagePanResultOAA0oN7RequestO_AA18TraversalDirectionOtF
++ _$s13BrailleServer12PlanarWindowC13pagePanResult33_FB6754137C144D03503B029BFC8702CCLLyAA04PagefG0OAA18TraversalDirectionOF
++ _$s13BrailleServer12PlanarWindowC13pageToTopLine33_FB6754137C144D03503B029BFC8702CCLL_4from9directionAA13PagePanResultOSi_SiAA18TraversalDirectionOtF
++ _$s13BrailleServer12PlanarWindowC13setScrollArea06scrollG0yAA0fG0C_tFyACYbcfU0_
++ _$s13BrailleServer12PlanarWindowC14panPageRequestAA03PanfG0OSgvgTq
++ _$s13BrailleServer12PlanarWindowC15currentTextLine33_FB6754137C144D03503B029BFC8702CCLL2inSiSgAA10ScrollAreaCSg_tFZTf4nd_n
++ _$s13BrailleServer12PlanarWindowC16pagePanHandshake33_FB6754137C144D03503B029BFC8702CCLLAA04PagefG0VvpWvd
++ _$s13BrailleServer12PlanarWindowC17lastPagePanResultAA0fgH0OSgvgTq
++ _$s13BrailleServer12PlanarWindowC17lastPagePanResultAA0fgH0OSgvpWvd
++ _$s13BrailleServer12PlanarWindowC18scrollToShowCursor33_FB6754137C144D03503B029BFC8702CCLLyyF
++ _$s13BrailleServer12PlanarWindowC19takeReleasedPagePanAA18TraversalDirectionOSgyFTq
++ _$s13BrailleServer12PlanarWindowC23currentElementLineRange33_FB6754137C144D03503B029BFC8702CCLLSnySiGSgyF
++ _$s13BrailleServer12PlanarWindowC4rows4cols8settings19pageResponseTimeoutACSi_Si0A10Foundation0A8Settings_p8Dispatch0M12TimeIntervalOtcfCTf4nnenn_nAH0aL8ObserverC_Tt3g5
++ _$s13BrailleServer12PlanarWindowC4rows4cols8settings19pageResponseTimeoutACSi_Si0A10Foundation0A8Settings_p8Dispatch0M12TimeIntervalOtcfCTq
++ _$s13BrailleServer12PlanarWindowC6pageUp33_FB6754137C144D03503B029BFC8702CCLL11fromTopLineAA13PagePanResultOSi_tF
++ _$s13BrailleServer12PlanarWindowC8pageDown33_FB6754137C144D03503B029BFC8702CCLL11fromTopLineAA13PagePanResultOSi_tF
++ _$s13BrailleServer12PlanarWindowC9panByPage33_FB6754137C144D03503B029BFC8702CCLLySbAA18TraversalDirectionOF
++ _$s13BrailleServer13LayoutManagerC14_appendElement030_A3C1971585B694E832B4E8360B6D2N1BLL_2to7focused09isCurrentF0y0A10Foundation0acF0V_SayAC0C13ObjectBuilderAELLVGzS2btF01_E5LabelL_yyF
++ _$s13BrailleServer13LayoutManagerC14_appendElement030_A3C1971585B694E832B4E8360B6D2N1BLL_2to7focused09isCurrentF0y0A10Foundation0acF0V_SayAC0C13ObjectBuilderAELLVGzS2btF01_E5ValueL__AGy0S016AttributedStringV_SbtF
++ _$s13BrailleServer13LayoutManagerC42_refreshWhenDotsSevenAndEightCursorChanges030_A3C1971585B694E832B4E8360B6D2T1BLLyyFyyXEfU_
++ _$s13BrailleServer13LayoutManagerC42_refreshWhenDotsSevenAndEightCursorChanges030_A3C1971585B694E832B4E8360B6D2T1BLLyyFyyXEfU_TA
++ _$s13BrailleServer13LayoutManagerC42_refreshWhenDotsSevenAndEightCursorChanges030_A3C1971585B694E832B4E8360B6D2T1BLLyyFyyYbcyXEfu_
++ _$s13BrailleServer13LayoutManagerC42_refreshWhenDotsSevenAndEightCursorChanges030_A3C1971585B694E832B4E8360B6D2T1BLLyyFyyYbcyXEfu_TA
++ _$s13BrailleServer13LayoutManagerC42_refreshWhenDotsSevenAndEightCursorChanges030_A3C1971585B694E832B4E8360B6D2T1BLLyyFyyYbcyXEfu_yyYbcfU0_
++ _$s13BrailleServer13LayoutManagerC42_refreshWhenDotsSevenAndEightCursorChanges030_A3C1971585B694E832B4E8360B6D2T1BLLyyFyyYbcyXEfu_yyYbcfU0_TA
++ _$s13BrailleServer13LayoutManagerC42_refreshWhenDotsSevenAndEightCursorChanges030_A3C1971585B694E832B4E8360B6D2T1BLLyyFyyYbcyXEfu_yyYbcfU0_yyYaYbScMYccfU_
++ _$s13BrailleServer13LayoutManagerC42_refreshWhenDotsSevenAndEightCursorChanges030_A3C1971585B694E832B4E8360B6D2T1BLLyyFyyYbcyXEfu_yyYbcfU0_yyYaYbScMYccfU_TA
++ _$s13BrailleServer13LayoutManagerC42_refreshWhenDotsSevenAndEightCursorChanges030_A3C1971585B694E832B4E8360B6D2T1BLLyyFyyYbcyXEfu_yyYbcfU0_yyYaYbScMYccfU_TATQ0_
++ _$s13BrailleServer13LayoutManagerC42_refreshWhenDotsSevenAndEightCursorChanges030_A3C1971585B694E832B4E8360B6D2T1BLLyyFyyYbcyXEfu_yyYbcfU0_yyYaYbScMYccfU_TATu
++ _$s13BrailleServer13LayoutManagerC42_refreshWhenDotsSevenAndEightCursorChanges030_A3C1971585B694E832B4E8360B6D2T1BLLyyFyyYbcyXEfu_yyYbcfU0_yyYaYbScMYccfU_TY0_
++ _$s13BrailleServer13LayoutManagerC42_refreshWhenDotsSevenAndEightCursorChanges030_A3C1971585B694E832B4E8360B6D2T1BLLyyFyyYbcyXEfu_yyYbcfU0_yyYaYbScMYccfU_Tu
++ _$s13BrailleServer13LayoutManagerC7refreshyyFyyYacfU_TQ1_
++ _$s13BrailleServer13LayoutManagerC7refreshyyFyyYacfU_TY0_
++ _$s13BrailleServer13LayoutManagerC7refreshyyFyyYacfU_TY2_
++ _$s13BrailleServer13PagePanResultO2eeoiySbAC_ACtFZTf4nnd_n
++ _$s13BrailleServer13PagePanResultOMF
++ _$s13BrailleServer13PagePanResultOMa
++ _$s13BrailleServer13PagePanResultOMf
++ _$s13BrailleServer13PagePanResultOMn
++ _$s13BrailleServer13PagePanResultON
++ _$s13BrailleServer13PagePanResultOSQAAMc
++ _$s13BrailleServer13PagePanResultOSQAAMcMK
++ _$s13BrailleServer13PagePanResultOSQAASQ2eeoiySbx_xtFZTW
++ _$s13BrailleServer13PagePanResultOWV
++ _$s13BrailleServer13PagePanResultOwet
++ _$s13BrailleServer13PagePanResultOwst
++ _$s13BrailleServer13PagePanResultOwug
++ _$s13BrailleServer13PagePanResultOwui
++ _$s13BrailleServer13PagePanResultOwup
++ _$s13BrailleServer14PanPageRequestOMB
++ _$s13BrailleServer14PanPageRequestOMF
++ _$s13BrailleServer14PanPageRequestOMa
++ _$s13BrailleServer14PanPageRequestOMf
++ _$s13BrailleServer14PanPageRequestOMn
++ _$s13BrailleServer14PanPageRequestON
++ _$s13BrailleServer14PanPageRequestOSQAAMc
++ _$s13BrailleServer14PanPageRequestOSQAAMcMK
++ _$s13BrailleServer14PanPageRequestOSQAASQ2eeoiySbx_xtFZTW
++ _$s13BrailleServer14PanPageRequestOWV
++ _$s13BrailleServer14PanPageRequestOwet
++ _$s13BrailleServer14PanPageRequestOwst
++ _$s13BrailleServer14PanPageRequestOwug
++ _$s13BrailleServer14PanPageRequestOwui
++ _$s13BrailleServer14PanPageRequestOwup
++ _$s13BrailleServer16PagePanHandshakeV05beginD0yAC9AdmissionOAA18TraversalDirectionOF
++ _$s13BrailleServer16PagePanHandshakeV14defaultTimeout8Dispatch0H12TimeIntervalOvpZ
++ _$s13BrailleServer16PagePanHandshakeV14defaultTimeout_WZ
++ _$s13BrailleServer16PagePanHandshakeV14defaultTimeout_Wz
++ _$s13BrailleServer16PagePanHandshakeV18clientStateArrived19focusedElementTokenAC6AnswerOSu_tF
++ _$s13BrailleServer16PagePanHandshakeV5StateO2eeoiySbAE_AEtFZTf4nnd_n
++ _$s13BrailleServer16PagePanHandshakeV5StateOMF
++ _$s13BrailleServer16PagePanHandshakeV5StateOMa
++ _$s13BrailleServer16PagePanHandshakeV5StateOMaTm
++ _$s13BrailleServer16PagePanHandshakeV5StateOMf
++ _$s13BrailleServer16PagePanHandshakeV5StateOMl
++ _$s13BrailleServer16PagePanHandshakeV5StateOMn
++ _$s13BrailleServer16PagePanHandshakeV5StateOMr
++ _$s13BrailleServer16PagePanHandshakeV5StateON
++ _$s13BrailleServer16PagePanHandshakeV5StateOSQAAMc
++ _$s13BrailleServer16PagePanHandshakeV5StateOSQAAMcMK
++ _$s13BrailleServer16PagePanHandshakeV5StateOSQAASQ2eeoiySbx_xtFZTW
++ _$s13BrailleServer16PagePanHandshakeV5StateOWOcTm
++ _$s13BrailleServer16PagePanHandshakeV5StateOWOd
++ _$s13BrailleServer16PagePanHandshakeV5StateOWOh
++ _$s13BrailleServer16PagePanHandshakeV5StateOWOhTm
++ _$s13BrailleServer16PagePanHandshakeV5StateOWV
++ _$s13BrailleServer16PagePanHandshakeV5StateO_AEtMR
++ _$s13BrailleServer16PagePanHandshakeV5StateO_AEtMd
++ _$s13BrailleServer16PagePanHandshakeV5StateO_AEtWOh
++ _$s13BrailleServer16PagePanHandshakeV5StateOwet
++ _$s13BrailleServer16PagePanHandshakeV5StateOwst
++ _$s13BrailleServer16PagePanHandshakeV5StateOwup
++ _$s13BrailleServer16PagePanHandshakeV7PendingV2eeoiySbAE_AEtFZTf4nnd_n
++ _$s13BrailleServer16PagePanHandshakeV7PendingVMF
++ _$s13BrailleServer16PagePanHandshakeV7PendingVMa
++ _$s13BrailleServer16PagePanHandshakeV7PendingVMf
++ _$s13BrailleServer16PagePanHandshakeV7PendingVMl
++ _$s13BrailleServer16PagePanHandshakeV7PendingVMn
++ _$s13BrailleServer16PagePanHandshakeV7PendingVMr
++ _$s13BrailleServer16PagePanHandshakeV7PendingVN
++ _$s13BrailleServer16PagePanHandshakeV7PendingVSQAAMc
++ _$s13BrailleServer16PagePanHandshakeV7PendingVSQAAMcMK
++ _$s13BrailleServer16PagePanHandshakeV7PendingVSQAASQ2eeoiySbx_xtFZTW
++ _$s13BrailleServer16PagePanHandshakeV7PendingVWOb
++ _$s13BrailleServer16PagePanHandshakeV7PendingVWV
++ _$s13BrailleServer16PagePanHandshakeV7PendingVwet
++ _$s13BrailleServer16PagePanHandshakeV7PendingVwst
++ _$s13BrailleServer16PagePanHandshakeV7timeout3nowAC8Dispatch0H12TimeIntervalO_AF0hI0VyctcfcfA0_AJycfU_
++ _$s13BrailleServer16PagePanHandshakeVMF
++ _$s13BrailleServer16PagePanHandshakeVMa
++ _$s13BrailleServer16PagePanHandshakeVMf
++ _$s13BrailleServer16PagePanHandshakeVMl
++ _$s13BrailleServer16PagePanHandshakeVMn
++ _$s13BrailleServer16PagePanHandshakeVMr
++ _$s13BrailleServer16PagePanHandshakeVN
++ _$s13BrailleServer16PagePanHandshakeVWV
++ _$s13BrailleServer16PagePanHandshakeVwet
++ _$s13BrailleServer16PagePanHandshakeVwst
++ _$s13BrailleServer18TraversalDirectionO8rawValueACSgSS_tcfCTv_r
++ _$s13BrailleServer18TraversalDirectionO9direction_Si5counttML
++ _$s13BrailleServer18TraversalDirectionO9direction_Si5counttMa
++ _$s13BrailleServer18TraversalDirectionOACSQAAWL
++ _$s13BrailleServer18TraversalDirectionOACSQAAWl
++ _$s13BrailleServer18TraversalDirectionOMF
++ _$s13BrailleServer18TraversalDirectionOMa
++ _$s13BrailleServer18TraversalDirectionOMf
++ _$s13BrailleServer18TraversalDirectionOMn
++ _$s13BrailleServer18TraversalDirectionON
++ _$s13BrailleServer18TraversalDirectionOSHAAMc
++ _$s13BrailleServer18TraversalDirectionOSHAAMcMK
++ _$s13BrailleServer18TraversalDirectionOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s13BrailleServer18TraversalDirectionOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s13BrailleServer18TraversalDirectionOSHAASH9hashValueSivgTW
++ _$s13BrailleServer18TraversalDirectionOSHAASQWb
++ _$s13BrailleServer18TraversalDirectionOSQAAMc
++ _$s13BrailleServer18TraversalDirectionOSQAAMcMK
++ _$s13BrailleServer18TraversalDirectionOSQAASQ2eeoiySbx_xtFZTW
++ _$s13BrailleServer18TraversalDirectionOSYAAMA
++ _$s13BrailleServer18TraversalDirectionOSYAAMc
++ _$s13BrailleServer18TraversalDirectionOSYAAMcMK
++ _$s13BrailleServer18TraversalDirectionOSYAASY8rawValue03RawF0QzvgTW
++ _$s13BrailleServer18TraversalDirectionOSYAASY8rawValuexSg03RawF0Qz_tcfCTW
++ _$s13BrailleServer18TraversalDirectionOWV
++ _$s13BrailleServer18TraversalDirectionOs23CustomStringConvertibleAAMc
++ _$s13BrailleServer18TraversalDirectionOs23CustomStringConvertibleAAMcMK
++ _$s13BrailleServer18TraversalDirectionOs23CustomStringConvertibleAAsADP11descriptionSSvgTW
++ _$s13BrailleServer18TraversalDirectionOwet
++ _$s13BrailleServer18TraversalDirectionOwst
++ _$s13BrailleServer18TraversalDirectionOwug
++ _$s13BrailleServer18TraversalDirectionOwui
++ _$s13BrailleServer18TraversalDirectionOwup
++ _$s17BrailleFoundation012CachingBatchA10TranslatorC9translateySayAA0A10StringPairVGSay0B0010AttributedG0VGYaFTjTu
++ _$s17BrailleFoundation0A13LayoutElementV17isKeyboardFocusedSbvg
++ _$s17BrailleFoundation0A8SettingsP27alwaysUsesNemethCodeForMathSbvgTj
++ _$s17BrailleFoundation17EditableTextStyleO11unbracketedyA2CmFWC
++ _$s8Dispatch0A12TimeIntervalO12millisecondsyACSicACmFWC
++ _$s8Dispatch0A12TimeIntervalOMn
++ _$s8Dispatch0A4TimeV2eeoiySbAC_ACtFZ
++ _$sSS10describingSSx_tclufC
++ _$sSo9BRLWindowC13BrailleServerE14panPageRequestSo06BRLPaneF0Vvg
++ _$sSo9BRLWindowC13BrailleServerE14panPageRequestSo06BRLPaneF0VvgTo
++ _$sSo9BRLWindowC13BrailleServerE19panPageRequestTokenSuvgTo
++ _$sSo9BRLWindowC13BrailleServerE29takeReleasedPagePanIsBackwardySbSpy10ObjectiveC8ObjCBoolVGF
++ _$sSo9BRLWindowC13BrailleServerE29takeReleasedPagePanIsBackwardySbSpy10ObjectiveC8ObjCBoolVGFTo
++ _$sSuSgML
++ _$sSuSgMa
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtF10Foundation16AttributedStringV_Tg5
++ _$ss21_findStringSwitchCase5cases6stringSiSays06StaticB0VG_SStF
++ _$ss23CustomStringConvertibleMp
++ _$ss23CustomStringConvertibleP11descriptionSSvgTq
++ _$ss23_ContiguousArrayStorageCy10Foundation16AttributedStringVGMR
++ _$ss23_ContiguousArrayStorageCy10Foundation16AttributedStringVGMd
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRytSg_TG5TA.172TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRytSg_TG5TA.172Tu
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.121TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.121Tu
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.126TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.126Tu
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.141TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.141Tu
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.151TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.151Tu
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.161TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.161Tu
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.189TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.189Tu
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.201TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.201Tu
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.210TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.210Tu
++ _$syycML
++ _$syycMa
++ ___swift_destroy_boxed_opaque_existential_0Tm
++ _associated conformance 13BrailleServer18TraversalDirectionOSHAASQ
++ _objc_release_x10
++ _objc_retain_x22
++ _objc_retain_x28
++ _swift_deallocBox
++ _swift_getFunctionTypeMetadata0
++ _swift_release_n
++ _swift_retain_x27
++ _symbolic _____ 10Foundation16AttributedStringV
++ _symbolic _____ 13BrailleServer13PagePanResultO
++ _symbolic _____ 13BrailleServer14PanPageRequestO
++ _symbolic _____ 13BrailleServer16PagePanHandshakeV
++ _symbolic _____ 13BrailleServer16PagePanHandshakeV5StateO
++ _symbolic _____ 13BrailleServer16PagePanHandshakeV7PendingV
++ _symbolic _____ 13BrailleServer18TraversalDirectionO
++ _symbolic _____ 8Dispatch0A12TimeIntervalO
++ _symbolic _____ 8Dispatch0A4TimeV
++ _symbolic _____9direction_Si5countt 13BrailleServer18TraversalDirectionO
++ _symbolic _____Sg 13BrailleServer13PagePanResultO
++ _symbolic _____SgXwz_Xx 13BrailleServer13LayoutManagerC
++ _symbolic ______AAt 13BrailleServer16PagePanHandshakeV5StateO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation16AttributedStringV
++ _symbolic _____yc 8Dispatch0A4TimeV
+- _$s13BrailleServer12PlanarWindowC13setScrollArea06scrollG0yAA0fG0C_tFyACYbcfU_
+- _$s13BrailleServer12PlanarWindowC20panFocusRequestTokenSuvgTq
+- _$s13BrailleServer12PlanarWindowC20panFocusRequestTokenSuvpWvd
+- _$s13BrailleServer12PlanarWindowC4rows4cols8settingsACSi_Si0A10Foundation0A8Settings_ptcfCTq
+- _$s13BrailleServer12PlanarWindowC4rows4cols8settingsACSi_Si0A10Foundation0A8Settings_ptcfcTf4nnen_nAG0aI8ObserverC_Tg5
+- _$s13BrailleServer12PlanarWindowC7panLeftSbyF
+- _$s13BrailleServer12PlanarWindowC8panRightSbyF
+- _$s13BrailleServer13LayoutManagerC14_appendElement030_A3C1971585B694E832B4E8360B6D2N1BLL_2to7focused09isCurrentF0y0A10Foundation0acF0V_SayAC0C13ObjectBuilderAELLVGzS2btF01_E5ValueL__AGySS_SbtF
+- _$s13BrailleServer13LayoutManagerC7refreshyyFyyYacfU_TQ0_
+- _$s13BrailleServer13LayoutManagerC7refreshyyFyyYacfU_TY1_
+- _$sSo9BRLWindowC13BrailleServerE20panFocusRequestTokenSuvgTo
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRytSg_TG5TA.171TQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRytSg_TG5TA.171Tu
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.120TQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.120Tu
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.125TQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.125Tu
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.140TQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.140Tu
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.150TQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.150Tu
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.160TQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.160Tu
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.188TQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.188Tu
+CStrings:
++ "backward"
++ "direction count "
++ "forward"
++ "planar page pan begin: %{public}s, focus %{public}lu, %{public}s"
++ "planar page pan end: %{public}s"
++ "planar page pan: focus %{public}lu answers request; replaying %{public}ld queued pans"
++ "planar page pan: no page to move from; asking the client to move past focus"
++ "planar page pan: other direction drops %{public}ld queued pans"
++ "planar page pan: request for %{public}lu went unanswered; dropping %{public}ld queued pans"
+```

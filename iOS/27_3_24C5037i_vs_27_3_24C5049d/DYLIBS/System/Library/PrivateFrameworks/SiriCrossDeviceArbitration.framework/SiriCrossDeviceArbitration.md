@@ -1,0 +1,939 @@
+## SiriCrossDeviceArbitration
+
+> `/System/Library/PrivateFrameworks/SiriCrossDeviceArbitration.framework/SiriCrossDeviceArbitration`
+
+```diff
+
+-3610.8.1.0.0
+-  __TEXT.__text: 0x3df00
+-  __TEXT.__objc_methlist: 0x3f14
+-  __TEXT.__const: 0x2e8
++3610.15.1.0.0
++  __TEXT.__text: 0x63fe0
++  __TEXT.__objc_methlist: 0x435c
++  __TEXT.__const: 0x2098
+   __TEXT.__dlopen_cstrs: 0x15c
+-  __TEXT.__constg_swiftt: 0x54
+-  __TEXT.__swift5_typeref: 0x5f
+-  __TEXT.__swift5_builtin: 0x14
+-  __TEXT.__swift5_types: 0x8
+-  __TEXT.__cstring: 0x7686
+-  __TEXT.__swift5_capture: 0x10
+-  __TEXT.__swift5_reflstr: 0x18
+-  __TEXT.__swift5_fieldmd: 0x28
+-  __TEXT.__swift_as_entry: 0x4
+-  __TEXT.__swift_as_ret: 0x4
+-  __TEXT.__swift_as_cont: 0x4
+-  __TEXT.__swift5_assocty: 0x18
+-  __TEXT.__swift5_proto: 0x4
+-  __TEXT.__gcc_except_tab: 0x4c0
+-  __TEXT.__oslogstring: 0x7e48
+-  __TEXT.__unwind_info: 0x1698
+-  __TEXT.__eh_frame: 0x70
++  __TEXT.__swift5_typeref: 0x969
++  __TEXT.__cstring: 0x7e35
++  __TEXT.__swift5_reflstr: 0x474
++  __TEXT.__swift5_assocty: 0xc0
++  __TEXT.__constg_swiftt: 0x790
++  __TEXT.__swift5_fieldmd: 0x778
++  __TEXT.__swift5_builtin: 0x3c
++  __TEXT.__swift5_proto: 0x198
++  __TEXT.__swift5_types: 0xa4
++  __TEXT.__oslogstring: 0x8fb3
++  __TEXT.__swift5_capture: 0x290
++  __TEXT.__swift_as_entry: 0x60
++  __TEXT.__swift_as_ret: 0x6c
++  __TEXT.__swift_as_cont: 0x90
++  __TEXT.__swift5_mpenum: 0x8
++  __TEXT.__swift5_protos: 0xc
++  __TEXT.__gcc_except_tab: 0x510
++  __TEXT.__unwind_info: 0x2698
++  __TEXT.__eh_frame: 0x19b8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x15f8
+-  __DATA_CONST.__objc_classlist: 0x1d0
+-  __DATA_CONST.__objc_protolist: 0xa0
++  __DATA_CONST.__const: 0x16d0
++  __DATA_CONST.__objc_classlist: 0x210
++  __DATA_CONST.__objc_protolist: 0xd8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x2518
+-  __DATA_CONST.__objc_protorefs: 0x10
+-  __DATA_CONST.__objc_superrefs: 0x190
++  __DATA_CONST.__objc_selrefs: 0x2750
++  __DATA_CONST.__objc_protorefs: 0x30
++  __DATA_CONST.__objc_superrefs: 0x1a0
+   __DATA_CONST.__objc_arraydata: 0x60
+-  __DATA_CONST.__got: 0x3c0
+-  __AUTH_CONST.__const: 0x578
+-  __AUTH_CONST.__cfstring: 0x39e0
+-  __AUTH_CONST.__objc_const: 0x6e80
+-  __AUTH_CONST.__objc_intobj: 0x108
++  __DATA_CONST.__got: 0x4f0
++  __AUTH_CONST.__const: 0x1b38
++  __AUTH_CONST.__cfstring: 0x3a60
++  __AUTH_CONST.__objc_const: 0x79d0
++  __AUTH_CONST.__objc_intobj: 0x120
+   __AUTH_CONST.__objc_dictobj: 0x78
+-  __AUTH_CONST.__auth_got: 0x578
+-  __AUTH.__objc_data: 0x50
+-  __DATA.__objc_ivar: 0x65c
+-  __DATA.__data: 0x90
++  __AUTH_CONST.__auth_got: 0xa78
++  __AUTH.__objc_data: 0x398
++  __AUTH.__data: 0x850
++  __DATA.__objc_ivar: 0x6b8
++  __DATA.__data: 0x838
++  __DATA.__common: 0x48
+   __DATA_DIRTY.__objc_data: 0x11d0
+-  __DATA_DIRTY.__data: 0x748
++  __DATA_DIRTY.__data: 0x750
+   __DATA_DIRTY.__bss: 0x18
+   __DATA_DIRTY.__common: 0x10
+   - /System/Library/Frameworks/CoreBluetooth.framework/CoreBluetooth
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 1634
+-  Symbols:   3063
+-  CStrings:  1347
++  Functions: 3002
++  Symbols:   3708
++  CStrings:  1438
+ 
+Symbols:
++ +[SCDAElectionCandidate candidatesFromReplies:nameResolver:localDeviceWon:]
++ +[SCDAFeatureFlags isSiriDeviceRoutingCapabilitiesEnabled]
++ +[SCDAFeatureFlags setSiriDeviceRoutingCapabilitiesEnabledOverride:]
++ +[SCDAUtilities isLocalStandbyTarget]
++ +[SCDAUtilities setIsHorsemanOverride:]
++ +[SCDAUtilities shouldAdvertiseEmergencyContinuationInOdeonGroup:]
++ +[SCDAUtilities standbyFollowsAssistantd]
++ +[SCDAVoiceTriggerCalculation calculateRepeatVoiceTrigger:withOldRecord:device:adjustment:constantGoodness:evaluator:andContext:mediaPlaying:]
++ -[SCDAAssistantPreferences nextCapabilityLaunchSequence]
++ -[SCDACoordinator _clearEmergencyContinuationDecision]
++ -[SCDACoordinator _decideEmergencyContinuationIfNeeded]
++ -[SCDACoordinator _shouldAdvertiseEmergencyContinuation]
++ -[SCDACoordinator setRepliesForTesting:]
++ -[SCDACoordinator(SiriDeviceRoutingStandby) _abandonPendingStandbyToAssistantd]
++ -[SCDACoordinator(SiriDeviceRoutingStandby) _awaitStandbyAnswer]
++ -[SCDACoordinator(SiriDeviceRoutingStandby) _cancelStandbyAnswerTimer]
++ -[SCDACoordinator(SiriDeviceRoutingStandby) _endPendingStandbyForNewDecision]
++ -[SCDACoordinator(SiriDeviceRoutingStandby) _standbyAnswerDeadlinePassedForGeneration:]
++ -[SCDACoordinator(SiriDeviceRoutingStandby) handleRoutingTargetHoldEngagedForGeneration:]
++ -[SCDACoordinator(SiriDeviceRoutingStandby) handleRoutingTargetReleaseWithLost:generation:]
++ -[SCDACoordinator(SiriDeviceRoutingStandby) setStandbyAnswerDeadline:]
++ -[SCDACoordinator(SiriDeviceRoutingStandby) standbyAnswerDeadline]
++ -[SCDAEarlyHoldConfirmation .cxx_destruct]
++ -[SCDAEarlyHoldConfirmation confirmedPHash]
++ -[SCDAEarlyHoldConfirmation initWithStandbyVersion:confirmedPHash:launchIdentifier:senderIdsId:]
++ -[SCDAEarlyHoldConfirmation launchIdentifier]
++ -[SCDAEarlyHoldConfirmation senderIdsId]
++ -[SCDAEarlyHoldConfirmation standbyVersion]
++ -[SCDAElectionDataPublisher publishElectionDataFromReplies:generation:localDeviceWon:]
++ -[SCDAGoodnessScoreEvaluator isInOdeonGroup]
++ -[SCDAHoldController _cancelConfirmationTimerOnQueue]
++ -[SCDAHoldController _releaseOnQueue:ending:suppressNotification:]
++ -[SCDAHoldController _startConfirmationTimerOnQueueWithMatcher:]
++ -[SCDAHoldController confirmHoldWithStandbyVersion:confirmedPHash:launchIdentifier:fromSenderIdsId:]
++ -[SCDAHoldController confirmationDeadline]
++ -[SCDAHoldController confirmationMatcher]
++ -[SCDAHoldController confirmationTimer]
++ -[SCDAHoldController electionPHash]
++ -[SCDAHoldController endingHandler]
++ -[SCDAHoldController evaluateAndHoldIfNeededWithEligibility:generation:expectedSenderIdsId:confirmationMatcher:electionPHash:onRelease:]
++ -[SCDAHoldController isAwaitingConfirmation]
++ -[SCDAHoldController postDeclineForGeneration:]
++ -[SCDAHoldController postEngagedForGeneration:]
++ -[SCDAHoldController releaseHoldLocallyForGeneration:]
++ -[SCDAHoldController setConfirmationDeadline:]
++ -[SCDAHoldController setConfirmationMatcher:]
++ -[SCDAHoldController setConfirmationTimer:]
++ -[SCDAHoldController setElectionPHash:]
++ -[SCDAHoldController setEndingHandler:]
++ -[SCDAMonitor _acknowledgeHoldConfirmationFromSenderIdsId:electionPHash:]
++ -[SCDAMonitor _observeNotHolding]
++ -[SCDAMonitor _replayEarlyConfirmations:]
++ -[SCDAMonitor _resultsSeen:generation:fromNotification:]
++ -[SCDAMonitor capabilityDecider]
++ -[SCDAMonitor confirmRoutingTargetHoldWithStandbyVersion:confirmedPHash:launchIdentifier:fromSenderIdsId:]
++ -[SCDAMonitor holdAcknowledger]
++ -[SCDAMonitor setCapabilityDecider:]
++ -[SCDAMonitor setHoldAcknowledger:]
++ -[SCDAMonitor setStandbyAbandonedObserver:]
++ -[SCDAMonitor standbyAbandonedObserver]
++ -[SCDARecord generateAirPodsMediaPlayingConfidence]
++ -[SCDARecord isInEarMediaPlayingTrump]
++ -[SCDAStandbyHoldCoordinator _observeHoldEndings]
++ -[SCDAStandbyHoldCoordinator answerLossWithHoldEngaged:generation:]
++ -[SCDAStandbyHoldCoordinator cancelHoldForGeneration:]
++ -[SCDAStandbyHoldCoordinator capabilityDecider]
++ -[SCDAStandbyHoldCoordinator confirmHoldWithStandbyVersion:confirmedPHash:launchIdentifier:fromSenderIdsId:]
++ -[SCDAStandbyHoldCoordinator initWithHoldController:]
++ -[SCDAStandbyHoldCoordinator notHoldingHandler]
++ -[SCDAStandbyHoldCoordinator setCapabilityDecider:]
++ -[SCDAStandbyHoldCoordinator setNotHoldingHandler:]
++ -[SCDAStandbyHoldDecision .cxx_destruct]
++ -[SCDAStandbyHoldDecision action]
++ -[SCDAStandbyHoldDecision confirmationMatcher]
++ -[SCDAStandbyHoldDecision initWithAction:confirmationMatcher:]
++ GCC_except_table1000
++ GCC_except_table1003
++ GCC_except_table1029
++ GCC_except_table1034
++ GCC_except_table1039
++ GCC_except_table1080
++ GCC_except_table1098
++ GCC_except_table1171
++ GCC_except_table1224
++ GCC_except_table1227
++ GCC_except_table1231
++ GCC_except_table1236
++ GCC_except_table1263
++ GCC_except_table1307
++ GCC_except_table1327
++ GCC_except_table1348
++ GCC_except_table1415
++ GCC_except_table1416
++ GCC_except_table1533
++ GCC_except_table1536
++ GCC_except_table1548
++ GCC_except_table1585
++ GCC_except_table1589
++ GCC_except_table1675
++ GCC_except_table1676
++ GCC_except_table1682
++ GCC_except_table249
++ GCC_except_table255
++ GCC_except_table520
++ GCC_except_table756
++ GCC_except_table765
++ GCC_except_table946
++ GCC_except_table991
++ GCC_except_table995
++ _OBJC_CLASS_$_SCDACapabilityHoldAcknowledger
++ _OBJC_CLASS_$_SCDACapabilityHoldDecider
++ _OBJC_CLASS_$_SCDAEarlyHoldConfirmation
++ _OBJC_CLASS_$_SCDAHoldConfirmationMatcher
++ _OBJC_CLASS_$_SCDAStandbyHoldDecision
++ _OBJC_CLASS_$__TtCs12_SwiftObject
++ _OBJC_IVAR_$_SCDACoordinator._advertisesEmergencyContinuation
++ _OBJC_IVAR_$_SCDACoordinator._hasDecidedEmergencyContinuation
++ _OBJC_IVAR_$_SCDACoordinator._incomingMediaPlaying
++ _OBJC_IVAR_$_SCDACoordinator._pendingStandbyAnswerTimer
++ _OBJC_IVAR_$_SCDACoordinator._standbyAnswerDeadline
++ _OBJC_IVAR_$_SCDAEarlyHoldConfirmation._confirmedPHash
++ _OBJC_IVAR_$_SCDAEarlyHoldConfirmation._launchIdentifier
++ _OBJC_IVAR_$_SCDAEarlyHoldConfirmation._senderIdsId
++ _OBJC_IVAR_$_SCDAEarlyHoldConfirmation._standbyVersion
++ _OBJC_IVAR_$_SCDAHoldController._confirmationDeadline
++ _OBJC_IVAR_$_SCDAHoldController._confirmationMatcher
++ _OBJC_IVAR_$_SCDAHoldController._confirmationTimer
++ _OBJC_IVAR_$_SCDAHoldController._electionPHash
++ _OBJC_IVAR_$_SCDAHoldController._endingHandler
++ _OBJC_IVAR_$_SCDAMonitor._earlyConfirmations
++ _OBJC_IVAR_$_SCDAMonitor._holdAcknowledger
++ _OBJC_IVAR_$_SCDAMonitor._standbyAbandonedObserver
++ _OBJC_IVAR_$_SCDAStandbyHoldCoordinator._capabilityDecider
++ _OBJC_IVAR_$_SCDAStandbyHoldCoordinator._decidedGeneration
++ _OBJC_IVAR_$_SCDAStandbyHoldCoordinator._decidedWinnerIdsId
++ _OBJC_IVAR_$_SCDAStandbyHoldCoordinator._notHoldingHandler
++ _OBJC_IVAR_$_SCDAStandbyHoldDecision._action
++ _OBJC_IVAR_$_SCDAStandbyHoldDecision._confirmationMatcher
++ _OBJC_METACLASS_$_SCDACapabilityHoldAcknowledger
++ _OBJC_METACLASS_$_SCDACapabilityHoldDecider
++ _OBJC_METACLASS_$_SCDAEarlyHoldConfirmation
++ _OBJC_METACLASS_$_SCDAHoldConfirmationMatcher
++ _OBJC_METACLASS_$_SCDAStandbyHoldDecision
++ _OBJC_METACLASS_$__TtCs12_SwiftObject
++ _OUTLINED_FUNCTION_1
++ _OUTLINED_FUNCTION_10
++ _OUTLINED_FUNCTION_100
++ _OUTLINED_FUNCTION_101
++ _OUTLINED_FUNCTION_102
++ _OUTLINED_FUNCTION_103
++ _OUTLINED_FUNCTION_104
++ _OUTLINED_FUNCTION_105
++ _OUTLINED_FUNCTION_106
++ _OUTLINED_FUNCTION_107
++ _OUTLINED_FUNCTION_108
++ _OUTLINED_FUNCTION_109
++ _OUTLINED_FUNCTION_11
++ _OUTLINED_FUNCTION_110
++ _OUTLINED_FUNCTION_111
++ _OUTLINED_FUNCTION_112
++ _OUTLINED_FUNCTION_113
++ _OUTLINED_FUNCTION_114
++ _OUTLINED_FUNCTION_115
++ _OUTLINED_FUNCTION_116
++ _OUTLINED_FUNCTION_117
++ _OUTLINED_FUNCTION_118
++ _OUTLINED_FUNCTION_119
++ _OUTLINED_FUNCTION_12
++ _OUTLINED_FUNCTION_120
++ _OUTLINED_FUNCTION_121
++ _OUTLINED_FUNCTION_122
++ _OUTLINED_FUNCTION_123
++ _OUTLINED_FUNCTION_124
++ _OUTLINED_FUNCTION_125
++ _OUTLINED_FUNCTION_126
++ _OUTLINED_FUNCTION_127
++ _OUTLINED_FUNCTION_128
++ _OUTLINED_FUNCTION_129
++ _OUTLINED_FUNCTION_13
++ _OUTLINED_FUNCTION_130
++ _OUTLINED_FUNCTION_131
++ _OUTLINED_FUNCTION_132
++ _OUTLINED_FUNCTION_133
++ _OUTLINED_FUNCTION_134
++ _OUTLINED_FUNCTION_135
++ _OUTLINED_FUNCTION_136
++ _OUTLINED_FUNCTION_137
++ _OUTLINED_FUNCTION_138
++ _OUTLINED_FUNCTION_139
++ _OUTLINED_FUNCTION_14
++ _OUTLINED_FUNCTION_140
++ _OUTLINED_FUNCTION_141
++ _OUTLINED_FUNCTION_142
++ _OUTLINED_FUNCTION_143
++ _OUTLINED_FUNCTION_144
++ _OUTLINED_FUNCTION_145
++ _OUTLINED_FUNCTION_146
++ _OUTLINED_FUNCTION_147
++ _OUTLINED_FUNCTION_148
++ _OUTLINED_FUNCTION_149
++ _OUTLINED_FUNCTION_15
++ _OUTLINED_FUNCTION_150
++ _OUTLINED_FUNCTION_151
++ _OUTLINED_FUNCTION_152
++ _OUTLINED_FUNCTION_153
++ _OUTLINED_FUNCTION_154
++ _OUTLINED_FUNCTION_155
++ _OUTLINED_FUNCTION_156
++ _OUTLINED_FUNCTION_157
++ _OUTLINED_FUNCTION_158
++ _OUTLINED_FUNCTION_159
++ _OUTLINED_FUNCTION_16
++ _OUTLINED_FUNCTION_160
++ _OUTLINED_FUNCTION_17
++ _OUTLINED_FUNCTION_18
++ _OUTLINED_FUNCTION_19
++ _OUTLINED_FUNCTION_2
++ _OUTLINED_FUNCTION_20
++ _OUTLINED_FUNCTION_21
++ _OUTLINED_FUNCTION_22
++ _OUTLINED_FUNCTION_23
++ _OUTLINED_FUNCTION_24
++ _OUTLINED_FUNCTION_25
++ _OUTLINED_FUNCTION_26
++ _OUTLINED_FUNCTION_27
++ _OUTLINED_FUNCTION_28
++ _OUTLINED_FUNCTION_29
++ _OUTLINED_FUNCTION_3
++ _OUTLINED_FUNCTION_30
++ _OUTLINED_FUNCTION_31
++ _OUTLINED_FUNCTION_32
++ _OUTLINED_FUNCTION_33
++ _OUTLINED_FUNCTION_34
++ _OUTLINED_FUNCTION_35
++ _OUTLINED_FUNCTION_36
++ _OUTLINED_FUNCTION_37
++ _OUTLINED_FUNCTION_38
++ _OUTLINED_FUNCTION_39
++ _OUTLINED_FUNCTION_4
++ _OUTLINED_FUNCTION_40
++ _OUTLINED_FUNCTION_41
++ _OUTLINED_FUNCTION_42
++ _OUTLINED_FUNCTION_43
++ _OUTLINED_FUNCTION_44
++ _OUTLINED_FUNCTION_45
++ _OUTLINED_FUNCTION_46
++ _OUTLINED_FUNCTION_47
++ _OUTLINED_FUNCTION_48
++ _OUTLINED_FUNCTION_49
++ _OUTLINED_FUNCTION_5
++ _OUTLINED_FUNCTION_50
++ _OUTLINED_FUNCTION_51
++ _OUTLINED_FUNCTION_52
++ _OUTLINED_FUNCTION_53
++ _OUTLINED_FUNCTION_54
++ _OUTLINED_FUNCTION_55
++ _OUTLINED_FUNCTION_56
++ _OUTLINED_FUNCTION_57
++ _OUTLINED_FUNCTION_58
++ _OUTLINED_FUNCTION_59
++ _OUTLINED_FUNCTION_6
++ _OUTLINED_FUNCTION_60
++ _OUTLINED_FUNCTION_61
++ _OUTLINED_FUNCTION_62
++ _OUTLINED_FUNCTION_63
++ _OUTLINED_FUNCTION_64
++ _OUTLINED_FUNCTION_65
++ _OUTLINED_FUNCTION_66
++ _OUTLINED_FUNCTION_67
++ _OUTLINED_FUNCTION_68
++ _OUTLINED_FUNCTION_69
++ _OUTLINED_FUNCTION_7
++ _OUTLINED_FUNCTION_70
++ _OUTLINED_FUNCTION_71
++ _OUTLINED_FUNCTION_72
++ _OUTLINED_FUNCTION_73
++ _OUTLINED_FUNCTION_74
++ _OUTLINED_FUNCTION_75
++ _OUTLINED_FUNCTION_76
++ _OUTLINED_FUNCTION_77
++ _OUTLINED_FUNCTION_78
++ _OUTLINED_FUNCTION_79
++ _OUTLINED_FUNCTION_8
++ _OUTLINED_FUNCTION_80
++ _OUTLINED_FUNCTION_81
++ _OUTLINED_FUNCTION_82
++ _OUTLINED_FUNCTION_83
++ _OUTLINED_FUNCTION_84
++ _OUTLINED_FUNCTION_85
++ _OUTLINED_FUNCTION_86
++ _OUTLINED_FUNCTION_87
++ _OUTLINED_FUNCTION_88
++ _OUTLINED_FUNCTION_89
++ _OUTLINED_FUNCTION_9
++ _OUTLINED_FUNCTION_90
++ _OUTLINED_FUNCTION_91
++ _OUTLINED_FUNCTION_92
++ _OUTLINED_FUNCTION_93
++ _OUTLINED_FUNCTION_94
++ _OUTLINED_FUNCTION_95
++ _OUTLINED_FUNCTION_96
++ _OUTLINED_FUNCTION_97
++ _OUTLINED_FUNCTION_98
++ _OUTLINED_FUNCTION_99
++ _SCDAHoldDefaultWatchdogTimeout
++ _SCDAPostRoutingTargetRelease
++ _SCDAPostRoutingTargetRelease.lostToken
++ _SCDAPostRoutingTargetRelease.onceToken
++ _SCDAPostRoutingTargetRelease.wonToken
++ _SCDAPostStandbyAbandoned
++ _SCDAPostStandbyAbandoned.abandonedToken
++ _SCDAPostStandbyAbandoned.onceToken
++ _SCDARoutingTargetHoldEngagedGeneration
++ _SCDARoutingTargetHoldEngagedGeneration.engagedToken
++ _SCDARoutingTargetHoldEngagedGeneration.onceToken
++ _SCDARoutingTargetReleaseGeneration
++ _SCDARoutingTargetReleaseGeneration.lostToken
++ _SCDARoutingTargetReleaseGeneration.onceToken
++ _SCDARoutingTargetReleaseGeneration.wonToken
++ __DATA_SCDACapabilityHoldAcknowledger
++ __DATA_SCDACapabilityHoldDecider
++ __DATA_SCDAHoldConfirmationMatcher
++ __DATA__TtC26SiriCrossDeviceArbitration18CapabilityExchange
++ __DATA__TtC26SiriCrossDeviceArbitration19CapabilityPeerStore
++ __DATA__TtC26SiriCrossDeviceArbitration24LocalCapabilityPublisher
++ __INSTANCE_METHODS_SCDACapabilityHoldAcknowledger
++ __INSTANCE_METHODS_SCDACapabilityHoldDecider
++ __INSTANCE_METHODS_SCDAHoldConfirmationMatcher
++ __IVARS_SCDACapabilityHoldAcknowledger
++ __IVARS_SCDACapabilityHoldDecider
++ __IVARS_SCDAHoldConfirmationMatcher
++ __IVARS__TtC26SiriCrossDeviceArbitration18CapabilityExchange
++ __IVARS__TtC26SiriCrossDeviceArbitration19CapabilityPeerStore
++ __IVARS__TtC26SiriCrossDeviceArbitration24LocalCapabilityPublisher
++ __METACLASS_DATA_SCDACapabilityHoldAcknowledger
++ __METACLASS_DATA_SCDACapabilityHoldDecider
++ __METACLASS_DATA_SCDAHoldConfirmationMatcher
++ __METACLASS_DATA__TtC26SiriCrossDeviceArbitration18CapabilityExchange
++ __METACLASS_DATA__TtC26SiriCrossDeviceArbitration19CapabilityPeerStore
++ __METACLASS_DATA__TtC26SiriCrossDeviceArbitration24LocalCapabilityPublisher
++ __OBJC_$_INSTANCE_METHODS_SCDAEarlyHoldConfirmation
++ __OBJC_$_INSTANCE_METHODS_SCDAStandbyHoldDecision
++ __OBJC_$_INSTANCE_VARIABLES_SCDAEarlyHoldConfirmation
++ __OBJC_$_INSTANCE_VARIABLES_SCDAStandbyHoldDecision
++ __OBJC_$_PROP_LIST_SCDAEarlyHoldConfirmation
++ __OBJC_$_PROP_LIST_SCDAStandbyHoldDecision
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_SCDAHoldAcknowledging
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_SCDAHoldConfirmationMatching
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_SCDAStandbyHoldDeciding
++ __OBJC_$_PROTOCOL_METHOD_TYPES_SCDAHoldAcknowledging
++ __OBJC_$_PROTOCOL_METHOD_TYPES_SCDAHoldConfirmationMatching
++ __OBJC_$_PROTOCOL_METHOD_TYPES_SCDAStandbyHoldDeciding
++ __OBJC_$_PROTOCOL_REFS_SCDAHoldAcknowledging
++ __OBJC_$_PROTOCOL_REFS_SCDAHoldConfirmationMatching
++ __OBJC_$_PROTOCOL_REFS_SCDAStandbyHoldDeciding
++ __OBJC_CLASS_RO_$_SCDAEarlyHoldConfirmation
++ __OBJC_CLASS_RO_$_SCDAStandbyHoldDecision
++ __OBJC_LABEL_PROTOCOL_$_SCDAHoldAcknowledging
++ __OBJC_LABEL_PROTOCOL_$_SCDAHoldConfirmationMatching
++ __OBJC_LABEL_PROTOCOL_$_SCDAStandbyHoldDeciding
++ __OBJC_METACLASS_RO_$_SCDAEarlyHoldConfirmation
++ __OBJC_METACLASS_RO_$_SCDAStandbyHoldDecision
++ __OBJC_PROTOCOL_$_SCDAHoldAcknowledging
++ __OBJC_PROTOCOL_$_SCDAHoldConfirmationMatching
++ __OBJC_PROTOCOL_$_SCDAStandbyHoldDeciding
++ __PROTOCOLS_SCDACapabilityHoldAcknowledger
++ __PROTOCOLS_SCDACapabilityHoldDecider
++ __PROTOCOLS_SCDAHoldConfirmationMatcher
++ __SCDAHoldEngagedCallback
++ ___100-[SCDAHoldController confirmHoldWithStandbyVersion:confirmedPHash:launchIdentifier:fromSenderIdsId:]_block_invoke
++ ___106-[SCDAMonitor confirmRoutingTargetHoldWithStandbyVersion:confirmedPHash:launchIdentifier:fromSenderIdsId:]_block_invoke
++ ___136-[SCDAHoldController evaluateAndHoldIfNeededWithEligibility:generation:expectedSenderIdsId:confirmationMatcher:electionPHash:onRelease:]_block_invoke
++ ___33-[SCDAMonitor _observeNotHolding]_block_invoke
++ ___44-[SCDAHoldController isAwaitingConfirmation]_block_invoke
++ ___47-[SCDAHoldController postDeclineForGeneration:]_block_invoke
++ ___47-[SCDAHoldController postEngagedForGeneration:]_block_invoke
++ ___49-[SCDAStandbyHoldCoordinator _observeHoldEndings]_block_invoke
++ ___54-[SCDAHoldController releaseHoldLocallyForGeneration:]_block_invoke
++ ___56-[SCDAAssistantPreferences nextCapabilityLaunchSequence]_block_invoke
++ ___64-[SCDACoordinator(SiriDeviceRoutingStandby) _awaitStandbyAnswer]_block_invoke
++ ___64-[SCDAHoldController _startConfirmationTimerOnQueueWithMatcher:]_block_invoke
++ ___75+[SCDAElectionCandidate candidatesFromReplies:nameResolver:localDeviceWon:]_block_invoke
++ ___89-[SCDACoordinator(SiriDeviceRoutingStandby) handleRoutingTargetHoldEngagedForGeneration:]_block_invoke
++ ___91-[SCDACoordinator(SiriDeviceRoutingStandby) handleRoutingTargetReleaseWithLost:generation:]_block_invoke
++ ___SCDAPostRoutingTargetRelease_block_invoke
++ ___SCDAPostStandbyAbandoned_block_invoke
++ ___SCDARoutingTargetHoldEngagedGeneration_block_invoke
++ ___SCDARoutingTargetReleaseGeneration_block_invoke
++ ____SCDAHoldEngagedCallback_block_invoke
++ ___block_descriptor_40_e8_32s_e42_B32?0"SCDAEarlyHoldConfirmation"8Q16^B24ls32l8
++ ___block_descriptor_40_e8_32w_e21_v20?0"NSString"8S16lw32l8
++ ___block_descriptor_40_e8_32w_e24_v28?0"NSString"8S16q20lw32l8
++ ___block_descriptor_49_e8_32s_e5_v8?0ls32l8
++ ___block_descriptor_70_e8_32s40s48s56r_e5_v8?0ls32l8s40l8s48l8r56l8
++ ___block_descriptor_83_e8_32s40s48s56bs64r_e5_v8?0lr64l8s32l8s40l8s56l8s48l8
++ ___swift_allocate_boxed_opaque_existential_1
++ ___swift_allocate_value_buffer
++ ___swift_closure_destructorTm
++ ___swift_destroy_boxed_opaque_existential_1
++ ___swift_destroy_boxed_opaque_existential_1Tm
++ ___swift_getEnumTagSinglePayload
++ ___swift_instantiateGenericMetadata
++ ___swift_memcpy0_1
++ ___swift_memcpy1_1
++ ___swift_memcpy48_8
++ ___swift_memcpy4_4
++ ___swift_memcpy5_4
++ ___swift_memcpy8_4
++ ___swift_memcpy8_8
++ ___swift_mutable_project_boxed_opaque_existential_1
++ ___swift_noop_void_return
++ ___swift_project_boxed_opaque_existential_1
++ ___swift_project_value_buffer
++ ___swift_storeEnumTagSinglePayload
++ __isHorsemanOverride
++ __siriDeviceRoutingCapabilitiesEnabledOverride
++ __swiftEmptyArrayStorage
++ __swiftEmptyDictionarySingleton
++ __swiftEmptySetSingleton
++ __swift_stdlib_bridgeErrorToNSError
++ __swift_stdlib_malloc_size
++ __swift_stdlib_reportUnimplementedInitializer
++ _associated conformance 26SiriCrossDeviceArbitration010CapabilityA13ConfigurationVSHAASQ
++ _associated conformance 26SiriCrossDeviceArbitration11HoldDeclineV10CodingKeys33_829D6C0B374602DC71FEB78299A619FDLLOSHAASQ
++ _associated conformance 26SiriCrossDeviceArbitration11HoldDeclineV10CodingKeys33_829D6C0B374602DC71FEB78299A619FDLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 26SiriCrossDeviceArbitration11HoldDeclineV10CodingKeys33_829D6C0B374602DC71FEB78299A619FDLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 26SiriCrossDeviceArbitration11HoldDeclineVSHAASQ
++ _associated conformance 26SiriCrossDeviceArbitration14CapabilityRoleVSHAASQ
++ _associated conformance 26SiriCrossDeviceArbitration15CapabilityEntryV10CodingKeys33_FB0D29737306A279F1ECA6DC28FA873FLLOSHAASQ
++ _associated conformance 26SiriCrossDeviceArbitration15CapabilityEntryV10CodingKeys33_FB0D29737306A279F1ECA6DC28FA873FLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 26SiriCrossDeviceArbitration15CapabilityEntryV10CodingKeys33_FB0D29737306A279F1ECA6DC28FA873FLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 26SiriCrossDeviceArbitration15CapabilityEntryVSHAASQ
++ _associated conformance 26SiriCrossDeviceArbitration16HoldConfirmationV10CodingKeys33_D35BD9C8EBE7E93F54E9D5214DF69C10LLOSHAASQ
++ _associated conformance 26SiriCrossDeviceArbitration16HoldConfirmationV10CodingKeys33_D35BD9C8EBE7E93F54E9D5214DF69C10LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 26SiriCrossDeviceArbitration16HoldConfirmationV10CodingKeys33_D35BD9C8EBE7E93F54E9D5214DF69C10LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 26SiriCrossDeviceArbitration16HoldConfirmationVSHAASQ
++ _associated conformance 26SiriCrossDeviceArbitration17CapabilityFeatureVSHAASQ
++ _associated conformance 26SiriCrossDeviceArbitration17NegotiatedRoutingOSHAASQ
++ _associated conformance 26SiriCrossDeviceArbitration18CapabilityDocumentV10CodingKeys33_FB0D29737306A279F1ECA6DC28FA873FLLOSHAASQ
++ _associated conformance 26SiriCrossDeviceArbitration18CapabilityDocumentV10CodingKeys33_FB0D29737306A279F1ECA6DC28FA873FLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 26SiriCrossDeviceArbitration18CapabilityDocumentV10CodingKeys33_FB0D29737306A279F1ECA6DC28FA873FLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 26SiriCrossDeviceArbitration18CapabilityDocumentVSHAASQ
++ _associated conformance 26SiriCrossDeviceArbitration19CapabilityAgreementOSHAASQ
++ _associated conformance 26SiriCrossDeviceArbitration19HoldAcknowledgementV10CodingKeys33_829D6C0B374602DC71FEB78299A619FDLLOSHAASQ
++ _associated conformance 26SiriCrossDeviceArbitration19HoldAcknowledgementV10CodingKeys33_829D6C0B374602DC71FEB78299A619FDLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 26SiriCrossDeviceArbitration19HoldAcknowledgementV10CodingKeys33_829D6C0B374602DC71FEB78299A619FDLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 26SiriCrossDeviceArbitration19HoldAcknowledgementVSHAASQ
++ _associated conformance 26SiriCrossDeviceArbitration21CapabilityMessageKindOSHAASQ
++ _associated conformance 26SiriCrossDeviceArbitration21LocalCapabilityInputsVSHAASQ
++ _associated conformance 26SiriCrossDeviceArbitration22CapabilityVersionRangeV10CodingKeys33_FB0D29737306A279F1ECA6DC28FA873FLLOSHAASQ
++ _associated conformance 26SiriCrossDeviceArbitration22CapabilityVersionRangeV10CodingKeys33_FB0D29737306A279F1ECA6DC28FA873FLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 26SiriCrossDeviceArbitration22CapabilityVersionRangeV10CodingKeys33_FB0D29737306A279F1ECA6DC28FA873FLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 26SiriCrossDeviceArbitration22CapabilityVersionRangeVSHAASQ
++ _associated conformance 26SiriCrossDeviceArbitration27HoldConfirmationExpectationVSHAASQ
++ _malloc_size
++ _memmove
++ _objc_allocWithZone
++ _objc_setProperty_atomic
++ _objc_setProperty_atomic_copy
++ _postEngagedForGeneration:.engagedToken
++ _postEngagedForGeneration:.onceToken
++ _swift_allocBox
++ _swift_allocError
++ _swift_arrayDestroy
++ _swift_arrayInitWithCopy
++ _swift_arrayInitWithTakeBackToFront
++ _swift_arrayInitWithTakeFrontToBack
++ _swift_beginAccess
++ _swift_bridgeObjectRelease_n
++ _swift_bridgeObjectRetain
++ _swift_bridgeObjectRetain_n
++ _swift_coroFrameAlloc
++ _swift_cvw_allocateGenericValueMetadataWithLayoutString
++ _swift_cvw_initEnumMetadataSinglePayloadWithLayoutString
++ _swift_cvw_initStructMetadataWithLayoutString
++ _swift_cvw_initWithTake
++ _swift_cvw_singlePayloadEnumGeneric_destructiveInjectEnumTag
++ _swift_cvw_singlePayloadEnumGeneric_getEnumTag
++ _swift_deallocClassInstance
++ _swift_defaultActor_deallocate
++ _swift_defaultActor_destroy
++ _swift_defaultActor_initialize
++ _swift_deletedAsyncMethodErrorTu
++ _swift_deletedMethodError
++ _swift_dynamicCastClass
++ _swift_endAccess
++ _swift_errorRelease
++ _swift_errorRetain
++ _swift_getEnumTagSinglePayloadGeneric
++ _swift_getGenericMetadata
++ _swift_getObjectType
++ _swift_getSingletonMetadata
++ _swift_initStackObject
++ _swift_isUniquelyReferenced_nonNull_native
++ _swift_lookUpClassMethod
++ _swift_makeBoxUnique
++ _swift_once
++ _swift_release_n
++ _swift_release_x1
++ _swift_release_x19
++ _swift_release_x21
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x27
++ _swift_retain
++ _swift_retain_n
++ _swift_retain_x1
++ _swift_retain_x19
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x8
++ _swift_retain_x9
++ _swift_setDeallocating
++ _swift_slowAlloc
++ _swift_slowDealloc
++ _swift_storeEnumTagSinglePayloadGeneric
++ _swift_task_create
++ _swift_unknownObjectRelease
++ _swift_unknownObjectRetain
++ _swift_updateClassMetadata2
++ _swift_willThrow
++ _symbolic $s26SiriCrossDeviceArbitration17CapabilityPayloadP
++ _symbolic $s26SiriCrossDeviceArbitration19CapabilityTransportP
++ _symbolic $s26SiriCrossDeviceArbitration25HoldConfirmationReceivingP
++ _symbolic $sSY
++ _symbolic BD
++ _symbolic S2SYbc
++ _symbolic SDySSSay_____13electionPHash______10identifiertGG s6UInt16V 10Foundation4UUIDV
++ _symbolic SDySS_____G 26SiriCrossDeviceArbitration15CapabilityEntryV
++ _symbolic SDySS_____G 26SiriCrossDeviceArbitration20HoldAcknowledgements33_6500384B9112AD06390C586B436E31ADLLV8ElectionV
++ _symbolic SDySS_____G 26SiriCrossDeviceArbitration22CapabilityVersionRangeV
++ _symbolic SDySS_____y_____GG 26SiriCrossDeviceArbitration7Lenient33_FB0D29737306A279F1ECA6DC28FA873FLLV AA15CapabilityEntryV
++ _symbolic SDySS_____y_____GG 26SiriCrossDeviceArbitration7Lenient33_FB0D29737306A279F1ECA6DC28FA873FLLV AA22CapabilityVersionRangeV
++ _symbolic SDy__________G 26SiriCrossDeviceArbitration14CapabilityRoleV AA0E12VersionRangeV
++ _symbolic SDy__________G 26SiriCrossDeviceArbitration17CapabilityFeatureV AA0E12VersionRangeV
++ _symbolic SDy__________G 26SiriCrossDeviceArbitration17CapabilityFeatureV AA0E5EntryV
++ _symbolic SS
++ _symbolic SSIego_
++ _symbolic SSSg
++ _symbolic SS_____Ieghgy_ s6UInt16V
++ _symbolic SS______Sgt 26SiriCrossDeviceArbitration16HoldConfirmationV
++ _symbolic SS______t 26SiriCrossDeviceArbitration15CapabilityEntryV
++ _symbolic SS______t 26SiriCrossDeviceArbitration16HoldConfirmationV
++ _symbolic SS______t 26SiriCrossDeviceArbitration22CapabilityVersionRangeV
++ _symbolic SS_____ytIeghnnr_ s6UInt16V
++ _symbolic SaySS______tG 26SiriCrossDeviceArbitration16HoldConfirmationV
++ _symbolic Say_____13electionPHash______10identifiertG s6UInt16V 10Foundation4UUIDV
++ _symbolic Sb11shouldReply_t
++ _symbolic SbIegd_
++ _symbolic ScA_pSg
++ _symbolic ScPSg
++ _symbolic ShySSG
++ _symbolic Si9byteCount_t
++ _symbolic So8NSObjectC
++ _symbolic So8NSObjectCSg
++ _symbolic _____ 10Foundation4UUIDV
++ _symbolic _____ 26SiriCrossDeviceArbitration010CapabilityA13ConfigurationV
++ _symbolic _____ 26SiriCrossDeviceArbitration11HoldDeclineV
++ _symbolic _____ 26SiriCrossDeviceArbitration11HoldDeclineV10CodingKeys33_829D6C0B374602DC71FEB78299A619FDLLO
++ _symbolic _____ 26SiriCrossDeviceArbitration14CapabilityRoleV
++ _symbolic _____ 26SiriCrossDeviceArbitration15CapabilityEntryV
++ _symbolic _____ 26SiriCrossDeviceArbitration15CapabilityEntryV10CodingKeys33_FB0D29737306A279F1ECA6DC28FA873FLLO
++ _symbolic _____ 26SiriCrossDeviceArbitration16HoldConfirmationV
++ _symbolic _____ 26SiriCrossDeviceArbitration16HoldConfirmationV10CodingKeys33_D35BD9C8EBE7E93F54E9D5214DF69C10LLO
++ _symbolic _____ 26SiriCrossDeviceArbitration17CapabilityFeatureV
++ _symbolic _____ 26SiriCrossDeviceArbitration17CapabilityReceiptO
++ _symbolic _____ 26SiriCrossDeviceArbitration17CapabilitySupportO
++ _symbolic _____ 26SiriCrossDeviceArbitration17NegotiatedRoutingO
++ _symbolic _____ 26SiriCrossDeviceArbitration17StandbyHoldPolicyO
++ _symbolic _____ 26SiriCrossDeviceArbitration18CapabilityDocumentV
++ _symbolic _____ 26SiriCrossDeviceArbitration18CapabilityDocumentV10CodingKeys33_FB0D29737306A279F1ECA6DC28FA873FLLO
++ _symbolic _____ 26SiriCrossDeviceArbitration18CapabilityExchangeC
++ _symbolic _____ 26SiriCrossDeviceArbitration18StandbyHoldVerdictO
++ _symbolic _____ 26SiriCrossDeviceArbitration19CapabilityAgreementO
++ _symbolic _____ 26SiriCrossDeviceArbitration19CapabilityPeerStateO
++ _symbolic _____ 26SiriCrossDeviceArbitration19CapabilityPeerStoreC
++ _symbolic _____ 26SiriCrossDeviceArbitration19CapabilityPeerStoreC0F033_1408B2D48BCCFEEC914417E1F9EFFB50LLV
++ _symbolic _____ 26SiriCrossDeviceArbitration19HoldAcknowledgementV
++ _symbolic _____ 26SiriCrossDeviceArbitration19HoldAcknowledgementV10CodingKeys33_829D6C0B374602DC71FEB78299A619FDLLO
++ _symbolic _____ 26SiriCrossDeviceArbitration20HoldAcknowledgements33_6500384B9112AD06390C586B436E31ADLLV
++ _symbolic _____ 26SiriCrossDeviceArbitration20HoldAcknowledgements33_6500384B9112AD06390C586B436E31ADLLV8ElectionV
++ _symbolic _____ 26SiriCrossDeviceArbitration21CapabilityHoldDeciderC
++ _symbolic _____ 26SiriCrossDeviceArbitration21CapabilityMessageKindO
++ _symbolic _____ 26SiriCrossDeviceArbitration21CapabilityNegotiationO
++ _symbolic _____ 26SiriCrossDeviceArbitration21LocalCapabilityInputsV
++ _symbolic _____ 26SiriCrossDeviceArbitration22CapabilityPayloadErrorO
++ _symbolic _____ 26SiriCrossDeviceArbitration22CapabilityVersionRangeV
++ _symbolic _____ 26SiriCrossDeviceArbitration22CapabilityVersionRangeV10CodingKeys33_FB0D29737306A279F1ECA6DC28FA873FLLO
++ _symbolic _____ 26SiriCrossDeviceArbitration23HoldConfirmationMatcherC
++ _symbolic _____ 26SiriCrossDeviceArbitration24LocalCapabilityPublisherC
++ _symbolic _____ 26SiriCrossDeviceArbitration24MonitorHoldConfirmationsV
++ _symbolic _____ 26SiriCrossDeviceArbitration26CapabilityHoldAcknowledgerC
++ _symbolic _____ 26SiriCrossDeviceArbitration27HoldConfirmationExpectationV
++ _symbolic _____ 26SiriCrossDeviceArbitration7Lenient33_FB0D29737306A279F1ECA6DC28FA873FLLV
++ _symbolic _____ So16os_unfair_lock_sV
++ _symbolic _____ s15ContinuousClockV7InstantV
++ _symbolic _____ s6UInt16V
++ _symbolic _____ s6UInt32V
++ _symbolic _____ s6UInt64V
++ _symbolic _____13electionPHash______10identifiert s6UInt16V 10Foundation4UUIDV
++ _symbolic _____13electionPHash______10identifiertSg s6UInt16V 10Foundation4UUIDV
++ _symbolic _____5state_Sb11isOnChannelt 26SiriCrossDeviceArbitration19CapabilityPeerStateO
++ _symbolic _____5state_Sb11isOnChanneltSg 26SiriCrossDeviceArbitration19CapabilityPeerStateO
++ _symbolic _____7version_t s6UInt32V
++ _symbolic _____Iegd_ s5Int32V
++ _symbolic _____Iegd_ s6UInt32V
++ _symbolic _____Iegr_ s5Int32V
++ _symbolic _____Iegr_ s6UInt32V
++ _symbolic _____Sg 10Foundation4UUIDV
++ _symbolic _____Sg 26SiriCrossDeviceArbitration010CapabilityA13ConfigurationV
++ _symbolic _____Sg 26SiriCrossDeviceArbitration18CapabilityDocumentV
++ _symbolic _____Sg 26SiriCrossDeviceArbitration19CapabilityPeerStoreC0F033_1408B2D48BCCFEEC914417E1F9EFFB50LLV
++ _symbolic _____Sg 26SiriCrossDeviceArbitration20HoldAcknowledgements33_6500384B9112AD06390C586B436E31ADLLV8ElectionV
++ _symbolic _____Sg 26SiriCrossDeviceArbitration22CapabilityVersionRangeV
++ _symbolic _____Sg_ABt 10Foundation4UUIDV
++ _symbolic _____Sg_ABt 26SiriCrossDeviceArbitration18CapabilityDocumentV
++ _symbolic ______AAt 26SiriCrossDeviceArbitration18StandbyHoldVerdictO
++ _symbolic ______AAt 26SiriCrossDeviceArbitration19CapabilityPeerStateO
++ _symbolic ______Sbt 26SiriCrossDeviceArbitration19CapabilityPeerStateO
++ _symbolic ______p 26SiriCrossDeviceArbitration19CapabilityTransportP
++ _symbolic ______p 26SiriCrossDeviceArbitration25HoldConfirmationReceivingP
++ _symbolic _____ySDySS_____GG 2os21OSAllocatedUnfairLockV 26SiriCrossDeviceArbitration19CapabilityPeerStoreC0J033_1408B2D48BCCFEEC914417E1F9EFFB50LLV
++ _symbolic _____ySDySS_____G_____G s13ManagedBufferCsRi__rlE 26SiriCrossDeviceArbitration19CapabilityPeerStoreC0H033_1408B2D48BCCFEEC914417E1F9EFFB50LLV So16os_unfair_lock_sV
++ _symbolic _____ySSG s11_SetStorageC
++ _symbolic _____ySSG s23_ContiguousArrayStorageC
++ _symbolic _____ySSSay_____13electionPHash______10identifiertGG s17_NativeDictionaryV s6UInt16V 10Foundation4UUIDV
++ _symbolic _____ySS_____G s17_NativeDictionaryV 26SiriCrossDeviceArbitration15CapabilityEntryV
++ _symbolic _____ySS_____G s17_NativeDictionaryV 26SiriCrossDeviceArbitration19CapabilityPeerStoreC0H033_1408B2D48BCCFEEC914417E1F9EFFB50LLV
++ _symbolic _____ySS_____G s17_NativeDictionaryV 26SiriCrossDeviceArbitration20HoldAcknowledgements33_6500384B9112AD06390C586B436E31ADLLV8ElectionV
++ _symbolic _____ySS_____G s17_NativeDictionaryV 26SiriCrossDeviceArbitration22CapabilityVersionRangeV
++ _symbolic _____ySS______SgtG s23_ContiguousArrayStorageC 26SiriCrossDeviceArbitration16HoldConfirmationV
++ _symbolic _____ySS______tG s23_ContiguousArrayStorageC 26SiriCrossDeviceArbitration15CapabilityEntryV
++ _symbolic _____ySS______tG s23_ContiguousArrayStorageC 26SiriCrossDeviceArbitration16HoldConfirmationV
++ _symbolic _____ySS______tG s23_ContiguousArrayStorageC 26SiriCrossDeviceArbitration22CapabilityVersionRangeV
++ _symbolic _____ySnySiGG s23_ContiguousArrayStorageC
++ _symbolic _____yYbc s15ContinuousClockV7InstantV
++ _symbolic _____y_____13electionPHash______10identifiertG s23_ContiguousArrayStorageC s6UInt16V 10Foundation4UUIDV
++ _symbolic _____y_____G 26SiriCrossDeviceArbitration7Lenient33_FB0D29737306A279F1ECA6DC28FA873FLLV AA15CapabilityEntryV
++ _symbolic _____y_____G 26SiriCrossDeviceArbitration7Lenient33_FB0D29737306A279F1ECA6DC28FA873FLLV AA22CapabilityVersionRangeV
++ _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 26SiriCrossDeviceArbitration18CapabilityDocumentV
++ _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 26SiriCrossDeviceArbitration20HoldAcknowledgements33_6500384B9112AD06390C586B436E31ADLLV
++ _symbolic _____y_____G s11_SetStorageC 26SiriCrossDeviceArbitration17CapabilityFeatureV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 26SiriCrossDeviceArbitration11HoldDeclineV10CodingKeys33_829D6C0B374602DC71FEB78299A619FDLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 26SiriCrossDeviceArbitration15CapabilityEntryV10CodingKeys33_FB0D29737306A279F1ECA6DC28FA873FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 26SiriCrossDeviceArbitration16HoldConfirmationV10CodingKeys33_D35BD9C8EBE7E93F54E9D5214DF69C10LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 26SiriCrossDeviceArbitration18CapabilityDocumentV10CodingKeys33_FB0D29737306A279F1ECA6DC28FA873FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 26SiriCrossDeviceArbitration19HoldAcknowledgementV10CodingKeys33_829D6C0B374602DC71FEB78299A619FDLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 26SiriCrossDeviceArbitration22CapabilityVersionRangeV10CodingKeys33_FB0D29737306A279F1ECA6DC28FA873FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 26SiriCrossDeviceArbitration11HoldDeclineV10CodingKeys33_829D6C0B374602DC71FEB78299A619FDLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 26SiriCrossDeviceArbitration15CapabilityEntryV10CodingKeys33_FB0D29737306A279F1ECA6DC28FA873FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 26SiriCrossDeviceArbitration16HoldConfirmationV10CodingKeys33_D35BD9C8EBE7E93F54E9D5214DF69C10LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 26SiriCrossDeviceArbitration18CapabilityDocumentV10CodingKeys33_FB0D29737306A279F1ECA6DC28FA873FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 26SiriCrossDeviceArbitration19HoldAcknowledgementV10CodingKeys33_829D6C0B374602DC71FEB78299A619FDLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 26SiriCrossDeviceArbitration22CapabilityVersionRangeV10CodingKeys33_FB0D29737306A279F1ECA6DC28FA873FLLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 26SiriCrossDeviceArbitration17CapabilityFeatureV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s5UInt8V
++ _symbolic _____y_____Sg_____G s13ManagedBufferCsRi__rlE 26SiriCrossDeviceArbitration18CapabilityExchangeC So16os_unfair_lock_sV
++ _symbolic _____y__________G s13ManagedBufferCsRi__rlE 26SiriCrossDeviceArbitration18CapabilityDocumentV So16os_unfair_lock_sV
++ _symbolic _____y__________G s13ManagedBufferCsRi__rlE 26SiriCrossDeviceArbitration20HoldAcknowledgements33_6500384B9112AD06390C586B436E31ADLLV So16os_unfair_lock_sV
++ _symbolic _____y__________G s17_NativeDictionaryV 26SiriCrossDeviceArbitration14CapabilityRoleV AC0G12VersionRangeV
++ _symbolic _____y__________G s17_NativeDictionaryV 26SiriCrossDeviceArbitration17CapabilityFeatureV AC0G5EntryV
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 26SiriCrossDeviceArbitration17CapabilityFeatureV AC0H12VersionRangeV
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 26SiriCrossDeviceArbitration17CapabilityFeatureV AC0H5EntryV
++ _symbolic _____yySS______tYbcSgG 2os21OSAllocatedUnfairLockV s6UInt16V
++ _symbolic _____yySS______tYbcSg_____G s13ManagedBufferCsRi__rlE s6UInt16V So16os_unfair_lock_sV
++ _symbolic _____yySpy_____Gz_SpySo8NSObjectCSgGSgzSpyypGSgztcG s23_ContiguousArrayStorageC s5UInt8V
++ _symbolic x
++ _symbolic xSg
++ _symbolic y_____YaYbKc s8DurationV
++ _symbolic ytIeAgHr_
++ _symbolic yyc
++ _type_layout_string 26SiriCrossDeviceArbitration15CapabilityEntryV
++ _type_layout_string 26SiriCrossDeviceArbitration17CapabilityFeatureV
++ _type_layout_string 26SiriCrossDeviceArbitration20HoldAcknowledgements33_6500384B9112AD06390C586B436E31ADLLV
++ _type_layout_string 26SiriCrossDeviceArbitration21LocalCapabilityInputsV
++ _type_layout_string 26SiriCrossDeviceArbitration22CapabilityVersionRangeV
++ _type_layout_string So16os_unfair_lock_sV
+- +[SCDAUtilities shouldAdvertiseEmergencyContinuation]
+- -[SCDACoordinator(SiriDeviceRoutingStandby) handleRoutingTargetReleaseWithLost:]
+- -[SCDAElectionDataPublisher publishElectionDataFromReplies:generation:]
+- -[SCDAHoldController _releaseOnQueue:]
+- -[SCDAHoldController _releaseOnQueue:suppressNotification:]
+- GCC_except_table1033
+- GCC_except_table1106
+- GCC_except_table1158
+- GCC_except_table1161
+- GCC_except_table1165
+- GCC_except_table1170
+- GCC_except_table1197
+- GCC_except_table1241
+- GCC_except_table1261
+- GCC_except_table1282
+- GCC_except_table1346
+- GCC_except_table1347
+- GCC_except_table1450
+- GCC_except_table1453
+- GCC_except_table1465
+- GCC_except_table1498
+- GCC_except_table1500
+- GCC_except_table1582
+- GCC_except_table1588
+- GCC_except_table245
+- GCC_except_table251
+- GCC_except_table514
+- GCC_except_table750
+- GCC_except_table759
+- GCC_except_table918
+- GCC_except_table950
+- GCC_except_table954
+- GCC_except_table959
+- GCC_except_table962
+- GCC_except_table985
+- ___102-[SCDAHoldController evaluateAndHoldIfNeededWithEligibility:generation:expectedSenderIdsId:onRelease:]_block_invoke
+- ___80-[SCDACoordinator(SiriDeviceRoutingStandby) handleRoutingTargetReleaseWithLost:]_block_invoke
+- ___block_descriptor_73_e8_32s40s48bs56r_e5_v8?0lr56l8s32l8s40l8s48l8
+CStrings:
++ " for another winner"
++ " is empty or starts at 0."
++ "%s #scda attention record is already a trump, advertising unchanged: %@"
++ "%s routing target hold engaged for election generation %llu, but no standby for it is pending (pending %llu); abandoning it."
++ "%s routing target hold engaged with no election generation ignored."
++ "%s routing target release for election generation %llu ignored — standby is pending for generation %llu."
++ "%s routing target standby for election generation %llu abandoned, but assistantd couldn't be told."
++ "%s routing target standby for election generation %llu ended — a newer election was decided."
++ "%s routing target standby for election generation %llu had no answer from assistantd within %.1f s; taking the ordinary loss"
++ "%s routing target standby for election generation %llu kept at the answer deadline — assistantd already said it holds."
++ "%s routing target standby for election generation %llu kept — assistantd holds for it"
++ "%s routing target standby for election generation %llu resolved Won at the answer deadline — the release was already posted."
++ "%s siriDeviceRouting standby engaged for election generation %llu%s; suppressing abort delegate"
++ "%s siriDeviceRouting: abandoned standby for election generation %llu ignored — the hold is for %llu."
++ "%s siriDeviceRouting: cancelling the hold for election generation %llu — the coordinator's process couldn't be told of it."
++ "%s siriDeviceRouting: confirmed the hold with the confirmation that arrived before it engaged."
++ "%s siriDeviceRouting: could not tag the %s release with election generation %llu."
++ "%s siriDeviceRouting: could not tag the hold engaged signal with election generation %llu; not posting it."
++ "%s siriDeviceRouting: declined the hold for election generation %llu — releasing the coordinator's standby."
++ "%s siriDeviceRouting: discarding %lu signal(s) and %lu hold confirmation(s) kept while pending — no hold engaged."
++ "%s siriDeviceRouting: hold confirmation arrived while the Myriad decision is pending — keeping it until the hold engages."
++ "%s siriDeviceRouting: hold confirmation for election generation %llu %s — the hold isn't waiting for one."
++ "%s siriDeviceRouting: hold confirmation for standby v%u ignored — no hold is active."
++ "%s siriDeviceRouting: hold confirmation rejected for election generation %llu — it is for another election, launch or standby version (v%u)."
++ "%s siriDeviceRouting: hold confirmation rejected for election generation %llu — sender is not this election's winner (senderIdsId=%s)."
++ "%s siriDeviceRouting: hold confirmed for election generation %llu at standby v%u."
++ "%s siriDeviceRouting: holding for election generation %llu — telling the coordinator's process to keep its standby."
++ "%s siriDeviceRouting: no hold confirmation within %.1fs for election generation %llu — the winner can't release this hold."
++ "%s siriDeviceRouting: preempting the hold for election generation %llu — generation %llu arrived%s."
++ "%s siriDeviceRouting: releasing the hold for election generation %llu — the coordinator's process abandoned its standby."
++ "%s siriDeviceRouting: revoking routing eligibility for election generation %llu — a confirmation was required without a matcher."
++ "%s siriDeviceRouting: revoking routing eligibility for election generation %llu — no capability decider is installed yet."
++ "%s siriDeviceRouting: revoking routing eligibility for election generation %llu — the winner's capabilities don't support standby with this device."
++ "+[SCDAVoiceTriggerCalculation calculateRepeatVoiceTrigger:withOldRecord:device:adjustment:constantGoodness:evaluator:andContext:mediaPlaying:]"
++ ", pending assistantd's answer"
++ "-[SCDACoordinator(SiriDeviceRoutingStandby) _endPendingStandbyForNewDecision]"
++ "-[SCDACoordinator(SiriDeviceRoutingStandby) _standbyAnswerDeadlinePassedForGeneration:]"
++ "-[SCDACoordinator(SiriDeviceRoutingStandby) handleRoutingTargetHoldEngagedForGeneration:]_block_invoke"
++ "-[SCDACoordinator(SiriDeviceRoutingStandby) handleRoutingTargetReleaseWithLost:generation:]_block_invoke"
++ "-[SCDAElectionDataPublisher publishElectionDataFromReplies:generation:localDeviceWon:]"
++ "-[SCDAHoldController _releaseOnQueue:ending:suppressNotification:]"
++ "-[SCDAHoldController _startConfirmationTimerOnQueueWithMatcher:]_block_invoke"
++ "-[SCDAHoldController confirmHoldWithStandbyVersion:confirmedPHash:launchIdentifier:fromSenderIdsId:]_block_invoke"
++ "-[SCDAHoldController evaluateAndHoldIfNeededWithEligibility:generation:expectedSenderIdsId:confirmationMatcher:electionPHash:onRelease:]_block_invoke"
++ "-[SCDAHoldController postDeclineForGeneration:]"
++ "-[SCDAHoldController postEngagedForGeneration:]"
++ "-[SCDAHoldController releaseHoldLocallyForGeneration:]_block_invoke"
++ "-[SCDAMonitor _replayEarlyConfirmations:]"
++ "-[SCDAMonitor _resultsSeen:generation:fromNotification:]"
++ "-[SCDAMonitor confirmRoutingTargetHoldWithStandbyVersion:confirmedPHash:launchIdentifier:fromSenderIdsId:]_block_invoke"
++ "-[SCDAStandbyHoldCoordinator answerLossWithHoldEngaged:generation:]"
++ "B32@?0@\"SCDAEarlyHoldConfirmation\"8Q16^B24"
++ "Capability Launch Sequence"
++ "In-Ear Override (media playing)"
++ "SCDAPostRoutingTargetRelease"
++ "SCDAPostStandbyAbandoned"
++ "SiriCrossDeviceArbitration.CapabilityHoldAcknowledger"
++ "SiriCrossDeviceArbitration.CapabilityHoldDecider"
++ "SiriCrossDeviceArbitration.HoldConfirmationMatcher"
++ "accepted a hold confirmation from %{private}s that this exchange didn't receive; not acknowledged"
++ "acknowledged"
++ "com.apple.siri.myriad.runner_up.hold.engaged"
++ "com.apple.siri.myriad.runner_up.standby.abandoned"
++ "configurationGeneration"
++ "confirmationIdentifier"
++ "couldn't ask %{private}s for its document: %{private}@"
++ "couldn't encode a %{public}s for %{private}s: %{private}@"
++ "couldn't send a %{public}s to %{private}s (attempt %ld of %ld): %{private}@"
++ "couldn't send the local document to %{private}s: %{private}@"
++ "document"
++ "document from %{private}s: %{public}s"
++ "documentRequest"
++ "exchange already started; returning it rather than starting a second"
++ "exchange started, launch %llu, standby target=%{bool}d, source declared=%{bool}d"
++ "features"
++ "hold acknowledgement from %{private}s recorded=%{bool}d"
++ "hold confirmation v%u from %{private}s accepted=%{bool}d"
++ "hold decline from %{private}s recorded=%{bool}d"
++ "holdAcknowledgement"
++ "holdConfirmation"
++ "holdDecline"
++ "init()"
++ "launchIdentifier"
++ "launchSequence"
++ "maximum"
++ "minimum"
++ "not holding for a winner with no document that isn't on the capability channel: it can't release this device"
++ "rejected as another election's"
++ "roles"
++ "siriConfiguration"
++ "siriDeviceRoutingCapabilities"
++ "undecodable hold acknowledgement from %{private}s"
++ "undecodable hold confirmation from %{private}s"
++ "undecodable hold decline from %{private}s"
++ "v20@?0@\"NSString\"8S16"
++ "v28@?0@\"NSString\"8S16q20"
++ "won with a fixed trigger hash; no hold confirmations sent, since none could be told apart from another election's"
++ "won, but this device doesn't claim the standby source role; no hold confirmations sent"
++ "won: loser %ld negotiates %{public}s"
+- "%s siriDeviceRouting standby engaged for election generation %llu; suppressing abort delegate"
+- "%s siriDeviceRouting: discarding %lu signal(s) kept while pending — no hold engaged."
+- "%s siriDeviceRouting: preempting the hold for election generation %llu — generation %llu arrived."
+- "+[SCDAVoiceTriggerCalculation calculateRepeatVoiceTrigger:withOldRecord:device:adjustment:constantGoodness:evaluator:andContext:]"
+- "-[SCDAElectionDataPublisher publishElectionDataFromReplies:generation:]"
+- "-[SCDAHoldController _releaseOnQueue:suppressNotification:]"
+- "-[SCDAHoldController evaluateAndHoldIfNeededWithEligibility:generation:expectedSenderIdsId:onRelease:]_block_invoke"
+- "-[SCDAMonitor _resultsSeen:generation:]"
+```

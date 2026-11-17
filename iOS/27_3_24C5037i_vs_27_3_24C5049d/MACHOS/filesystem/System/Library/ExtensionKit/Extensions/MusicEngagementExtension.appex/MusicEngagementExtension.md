@@ -1,0 +1,234 @@
+## MusicEngagementExtension
+
+> `/System/Library/ExtensionKit/Extensions/MusicEngagementExtension.appex/MusicEngagementExtension`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_entry`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_mpenum`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__objc_data`
+- `__DATA.__objc_stublist`
+
+```diff
+
+-4026.300.17.0.0
+-  __TEXT.__text: 0x4be0b8
+-  __TEXT.__auth_stubs: 0x9b60
++4026.310.28.1.0
++  __TEXT.__text: 0x4c0d8c
++  __TEXT.__auth_stubs: 0x9bb0
+   __TEXT.__objc_stubs: 0xce60
+   __TEXT.__objc_methlist: 0x3d64
+-  __TEXT.__swift5_typeref: 0x1b1a8
+-  __TEXT.__const: 0x2ac48
+-  __TEXT.__cstring: 0xbef4
+-  __TEXT.__constg_swiftt: 0x10fd4
+-  __TEXT.__swift5_reflstr: 0xc722
+-  __TEXT.__swift5_fieldmd: 0xdf04
++  __TEXT.__swift5_typeref: 0x1b206
++  __TEXT.__const: 0x2ac58
++  __TEXT.__cstring: 0xbee4
++  __TEXT.__constg_swiftt: 0x10fc0
++  __TEXT.__swift5_reflstr: 0xc712
++  __TEXT.__swift5_fieldmd: 0xdee8
+   __TEXT.__swift5_proto: 0x1980
+-  __TEXT.__swift5_types: 0xff0
++  __TEXT.__swift5_types: 0xfec
+   __TEXT.__swift5_entry: 0x8
+   __TEXT.__objc_classname: 0x2b1f
+   __TEXT.__objc_methname: 0x11095
+   __TEXT.__objc_methtype: 0x2d68
+-  __TEXT.__swift5_capture: 0x935c
++  __TEXT.__swift5_capture: 0x9370
+   __TEXT.__oslogstring: 0x9008
+   __TEXT.__swift_as_entry: 0x888
+   __TEXT.__swift_as_ret: 0x7cc
+
+   __TEXT.__swift5_protos: 0x128
+   __TEXT.__swift5_mpenum: 0x1b8
+   __TEXT.__ustring: 0xec
+-  __TEXT.__unwind_info: 0x142c0
+-  __TEXT.__eh_frame: 0x16204
+-  __DATA_CONST.__const: 0x32958
++  __TEXT.__unwind_info: 0x14310
++  __TEXT.__eh_frame: 0x1626c
++  __DATA_CONST.__const: 0x32938
+   __DATA_CONST.__cfstring: 0x120
+   __DATA_CONST.__objc_classlist: 0x500
+   __DATA_CONST.__objc_catlist: 0xd0
+
+   __DATA_CONST.__objc_protorefs: 0x1c8
+   __DATA_CONST.__objc_superrefs: 0x20
+   __DATA_CONST.__objc_doubleobj: 0x20
+-  __DATA_CONST.__auth_got: 0x4db8
+-  __DATA_CONST.__got: 0x3798
+-  __DATA_CONST.__auth_ptr: 0x4130
++  __DATA_CONST.__auth_got: 0x4de0
++  __DATA_CONST.__got: 0x37a0
++  __DATA_CONST.__auth_ptr: 0x4148
+   __DATA.__objc_const: 0x15b40
+   __DATA.__objc_selrefs: 0x3fa0
+   __DATA.__objc_ivar: 0x5c
+   __DATA.__objc_data: 0x8208
+-  __DATA.__data: 0x17708
++  __DATA.__data: 0x17728
+   __DATA.__objc_stublist: 0x18
+   __DATA.__common: 0x4448
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 24032
+-  Symbols:   61241
+-  CStrings:  5245
++  Functions: 24048
++  Symbols:   61281
++  CStrings:  5244
+ 
+Symbols:
++ _$s11MusicCoreUI11ImagePickerV11CoordinatorC06PhotosC030PHPickerViewControllerDelegateAafGP29pickerDidPerformPrimaryActionyySo0hiJ0CFTW
++ _$s11MusicCoreUI11ImagePickerV11CoordinatorC06PhotosC030PHPickerViewControllerDelegateAafGP31pickerDidPerformSecondaryActionyySo0hiJ0CFTW
++ _$s11MusicCoreUI20VerticalToggleSliderC11DesignSpecsO16preferredOpacity8disabled0B8Graphics7CGFloatVSb_tFZ
++ _$s7LyricsX0A0C08_catalogA08songInfoACypSg_So013MSVLyricsSongD0Ctc023_023C7B06612B00822B4518G8EDD9DC67Llfc21MusicSwiftCollections10OrderedSetVySSGycfu20_TA
++ _$s7LyricsX0A0C08_catalogA08songInfoACypSg_So013MSVLyricsSongD0Ctc023_023C7B06612B00822B4518G8EDD9DC67Llfc21MusicSwiftCollections10OrderedSetVySSGycfu20_Tm
++ _$s7LyricsX0A0C08_catalogA08songInfoACypSg_So013MSVLyricsSongD0Ctc023_023C7B06612B00822B4518G8EDD9DC67Llfc21MusicSwiftCollections10OrderedSetVySSGycfu21_TA
++ _$s7LyricsX0A0C08_catalogA08songInfoACypSg_So013MSVLyricsSongD0Ctc023_023C7B06612B00822B4518G8EDD9DC67LlfcAC23LineTranslationMetadataAILLVSo0eM0C_SStcfU1_TA
++ _$s7LyricsX0A0C08_catalogA08songInfoACypSg_So013MSVLyricsSongD0Ctc023_023C7B06612B00822B4518G8EDD9DC67LlfcSSycfu15_
++ _$s7LyricsX0A0C08_catalogA08songInfoACypSg_So013MSVLyricsSongD0Ctc023_023C7B06612B00822B4518G8EDD9DC67LlfcSSycfu16_Tm
++ _$s7LyricsX0A0C08_catalogA08songInfoACypSg_So013MSVLyricsSongD0Ctc023_023C7B06612B00822B4518G8EDD9DC67LlfcSSycfu18_TA
++ _$s7LyricsX0A0C08_catalogA08songInfoACypSg_So013MSVLyricsSongD0Ctc023_023C7B06612B00822B4518G8EDD9DC67LlfcSSycfu19_TA
++ _$s7LyricsX0A5SpecsV11updateFonts21fromMainFontPointSizey12CoreGraphics7CGFloatV_tF
++ _$s7SwiftUI5ColorV09MusicCoreB0E0D4TintO013prominentTextC0ACvau
++ _$s7SwiftUI5ColorV09MusicCoreB0E0D4TintO013prominentTextC0ACvgZ
++ _$s7SwiftUI5ColorV09MusicCoreB0E0D4TintO013prominentTextC0ACvpZ
++ _$s7SwiftUI5ColorV09MusicCoreB0E0D4TintO013prominentTextC0ACvpZMV
++ _$s7SwiftUI5ColorV09MusicCoreB0E0D4TintO013prominentTextC0_WZ
++ _$s7SwiftUI5ColorV09MusicCoreB0E0D4TintO013prominentTextC0_Wz
++ _$s7SwiftUI5ColorV09MusicCoreB0E0D4TintO019prominentBackgroundC0ACvau
++ _$s7SwiftUI5ColorV09MusicCoreB0E0D4TintO019prominentBackgroundC0ACvgZ
++ _$s7SwiftUI5ColorV09MusicCoreB0E0D4TintO019prominentBackgroundC0ACvpZ
++ _$s7SwiftUI5ColorV09MusicCoreB0E0D4TintO019prominentBackgroundC0ACvpZMV
++ _$s7SwiftUI5ColorV09MusicCoreB0E0D4TintO019prominentBackgroundC0_WZ
++ _$s7SwiftUI5ColorV09MusicCoreB0E0D4TintO019prominentBackgroundC0_Wz
++ _$s8PhotosUI30PHPickerViewControllerDelegateP29pickerDidPerformPrimaryActionyySo0cdE0CFTq
++ _$s8PhotosUI30PHPickerViewControllerDelegateP31pickerDidPerformSecondaryActionyySo0cdE0CFTq
++ _$s8PhotosUI30PHPickerViewControllerDelegatePAAE29pickerDidPerformPrimaryActionyySo0cdE0CF
++ _$s8PhotosUI30PHPickerViewControllerDelegatePAAE31pickerDidPerformSecondaryActionyySo0cdE0CF
++ _$sSa13_adoptStorage_5countSayxG_SpyxGts016_ContiguousArrayB0CyxGn_SitFZySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztc_Tt1g5
++ _$sSa37_appendElementAssumeUniqueAndCapacity_03newB0ySi_xntF7LyricsX0H0C15TransliterationV_Tg5Tm
++ _$sSa9_getCountSiyF7LyricsX0C0C8TextLineV_Tg5
++ _$sSi6offset_So6UIViewC5UIKitE14ReservedRegionV7elementtMR
++ _$sSi6offset_So6UIViewC5UIKitE14ReservedRegionV7elementtMd
++ _$sSi6offset_So6UIViewC5UIKitE14ReservedRegionV7elementtWOb
++ _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFSaySo19MSVLyricsSongWriterCG_SSs5NeverOTg5047$s7LyricsX0A0C08_catalogA08songInfoACypSg_So013de53D0Ctc023_023C7B06612B00822B4518G8EDD9DC67LlfcSSSo0eF6F7CXEfU4_Tf1cn_n
++ _$sSo10UIRectEdgeVSQSCSQ2eeoiySbx_xtFZTW
++ _$sSo10UIRectEdgeVSYSCSY8rawValue03RawD0QzvgTW
++ _$sSo10UIRectEdgeVs10SetAlgebraSCsACP10isSuperset2ofSbx_tFTW
++ _$sSo10UIRectEdgeVs10SetAlgebraSCsACP12intersectionyxxFTW
++ _$sSo10UIRectEdgeVs10SetAlgebraSCsACP16formIntersectionyyxFTW
++ _$sSo10UIRectEdgeVs10SetAlgebraSCsACP6insertySb8inserted_7ElementQz17memberAfterInserttAHnFTW
++ _$sSo10UIRectEdgeVs10SetAlgebraSCsACP8containsySb7ElementQzFTW
++ _$sSo10UIRectEdgeVs10SetAlgebraSCsACP8isSubset2ofSbx_tFTW
++ _$sSo10UIRectEdgeVs10SetAlgebraSCsACPxycfCTW
++ _$sSo10UIRectEdgeVs9OptionSetSCsACP8rawValuex03RawF0Qz_tcfCTW
++ _$sSo13UIMenuElementCSgMR
++ _$sSo13UIMenuElementCSgMd
++ _$sSo6UIViewC11MusicCoreUIE24prominentReservedRegions4kind7optionsSayAB5UIKitE0F6RegionVGAI4KindV_AI12QueryOptionsVtF
++ _$sSo6UIViewC5UIKitE14ReservedRegionV11MusicCoreUIE10edgeInsets11overlapping2on10overExtentSo06UIEdgeI0VSo6CGRectV_So6UIAxisV0F8Graphics7CGFloatVtF
++ _$sSo6UIViewC5UIKitE14ReservedRegionV11MusicCoreUIE5edges11overlapping2onSo10UIRectEdgeVSo6CGRectV_So6UIAxisVtF
++ _$sSo6UIViewC5UIKitE14ReservedRegionV5frameSo6CGRectVvg
++ _$sSo6UIViewC5UIKitE14ReservedRegionVMa
++ _$sSo6UIViewC5UIKitE14ReservedRegionVMn
++ _$sSo6UIViewC5UIKitE15reservedRegions4kind7optionsSayAbCE14ReservedRegionVGAH4KindV_AH12QueryOptionsVtF
++ _$sSo7UIColorC11MusicCoreUIE0B4TintO18prominentTextColorABvau
++ _$sSo7UIColorC11MusicCoreUIE0B4TintO18prominentTextColorABvgZ
++ _$sSo7UIColorC11MusicCoreUIE0B4TintO18prominentTextColorABvpZ
++ _$sSo7UIColorC11MusicCoreUIE0B4TintO18prominentTextColorABvpZMV
++ _$sSo7UIColorC11MusicCoreUIE0B4TintO18prominentTextColorABvpZfiABSo17UITraitCollectionCcfU_
++ _$sSo7UIColorC11MusicCoreUIE0B4TintO18prominentTextColor_WZ
++ _$sSo7UIColorC11MusicCoreUIE0B4TintO18prominentTextColor_Wz
++ _$sSo7UIColorC11MusicCoreUIE0B4TintO24prominentBackgroundColorABvau
++ _$sSo7UIColorC11MusicCoreUIE0B4TintO24prominentBackgroundColorABvgZ
++ _$sSo7UIColorC11MusicCoreUIE0B4TintO24prominentBackgroundColorABvpZ
++ _$sSo7UIColorC11MusicCoreUIE0B4TintO24prominentBackgroundColorABvpZMV
++ _$sSo7UIColorC11MusicCoreUIE0B4TintO24prominentBackgroundColor_WZ
++ _$sSo7UIColorC11MusicCoreUIE0B4TintO24prominentBackgroundColor_Wz
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSo6UIViewC5UIKitE14ReservedRegionV_Tg5Tm
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFSo13UIMenuElementCSg_Tg5
++ _$ss17_NativeDictionaryV9mapValuesyAByxqd__Gqd__q_qd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFSS_So13MSVLyricsLineC7LyricsX0H0C0G19TranslationMetadata023_023C7B06612B00822B4518K8EDD9DC67LLVs5NeverOTg503$s7h38X0A0C08_catalogA08songInfoACypSg_So013f16SongD0Ctc023_023klmn2G8op8LlfcAC23giJ18AILLVSo0eM0CXEfU3_AGSSAMIegggo_So0F15TransliterationCTf1cn_n
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF9MusicCore30SongBylineAttributionComponentO_Tg5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSo13UIMenuElementCSg_Tg5
++ _$ss23_ContiguousArrayStorageCySo13UIMenuElementCSgGMR
++ _$ss23_ContiguousArrayStorageCySo13UIMenuElementCSgGMd
++ _$ss23_ContiguousArrayStorageCySo6UIViewC5UIKitE14ReservedRegionVGMR
++ _$ss23_ContiguousArrayStorageCySo6UIViewC5UIKitE14ReservedRegionVGMd
++ ___swift_closure_destructor.144Tm
++ ___swift_closure_destructor.243Tm
++ _symbolic Si6offset______7elementt So6UIViewC5UIKitE14ReservedRegionV
++ _symbolic So13UIMenuElementCSg
++ _symbolic _____XDXMT 7LyricsX0A0C
++ _symbolic _____ySo13UIMenuElementCSgG s23_ContiguousArrayStorageC
++ _symbolic _____y_____G s23_ContiguousArrayStorageC So6UIViewC5UIKitE14ReservedRegionV
+- /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI-t.build/Objects-normal/arm64e/ColorSpecs.o
+- ColorSpecs.swift
+- _$s11MusicCoreUI20VerticalToggleSliderC11DesignSpecsO21disabledSymbolOpacity0B8Graphics7CGFloatVvau
+- _$s11MusicCoreUI20VerticalToggleSliderC11DesignSpecsO21disabledSymbolOpacity0B8Graphics7CGFloatVvgZ
+- _$s11MusicCoreUI20VerticalToggleSliderC11DesignSpecsO21disabledSymbolOpacity0B8Graphics7CGFloatVvpZ
+- _$s11MusicCoreUI20VerticalToggleSliderC11DesignSpecsO21disabledSymbolOpacity0B8Graphics7CGFloatVvpZMV
+- _$s11MusicCoreUI20VerticalToggleSliderC11DesignSpecsO22disabledPlatterOpacity0B8Graphics7CGFloatVvau
+- _$s11MusicCoreUI20VerticalToggleSliderC11DesignSpecsO22disabledPlatterOpacity0B8Graphics7CGFloatVvgZ
+- _$s11MusicCoreUI20VerticalToggleSliderC11DesignSpecsO22disabledPlatterOpacity0B8Graphics7CGFloatVvpZ
+- _$s11MusicCoreUI20VerticalToggleSliderC11DesignSpecsO22disabledPlatterOpacity0B8Graphics7CGFloatVvpZMV
+- _$s11MusicCoreUI2HIO5ColorO013prominentTextE0So7UIColorCvau
+- _$s11MusicCoreUI2HIO5ColorO013prominentTextE0So7UIColorCvgZ
+- _$s11MusicCoreUI2HIO5ColorO013prominentTextE0So7UIColorCvgZTm
+- _$s11MusicCoreUI2HIO5ColorO013prominentTextE0So7UIColorCvpZ
+- _$s11MusicCoreUI2HIO5ColorO013prominentTextE0So7UIColorCvpZMV
+- _$s11MusicCoreUI2HIO5ColorO013prominentTextE0So7UIColorCvpZfiAHSo17UITraitCollectionCcfU_
+- _$s11MusicCoreUI2HIO5ColorO013prominentTextE0So7UIColorCvpZfiAHSo17UITraitCollectionCcfU_Tm
+- _$s11MusicCoreUI2HIO5ColorO013prominentTextE0_WZ
+- _$s11MusicCoreUI2HIO5ColorO013prominentTextE0_WZTm
+- _$s11MusicCoreUI2HIO5ColorO013prominentTextE0_Wz
+- _$s11MusicCoreUI2HIO5ColorO019prominentBackgroundE0So7UIColorCvau
+- _$s11MusicCoreUI2HIO5ColorO019prominentBackgroundE0So7UIColorCvgZ
+- _$s11MusicCoreUI2HIO5ColorO019prominentBackgroundE0So7UIColorCvpZ
+- _$s11MusicCoreUI2HIO5ColorO019prominentBackgroundE0So7UIColorCvpZMV
+- _$s11MusicCoreUI2HIO5ColorO019prominentBackgroundE0So7UIColorCvpZfiAHSo17UITraitCollectionCcfU_
+- _$s11MusicCoreUI2HIO5ColorO019prominentBackgroundE0_WZ
+- _$s11MusicCoreUI2HIO5ColorO019prominentBackgroundE0_Wz
+- _$s11MusicCoreUI2HIO5ColorOMF
+- _$s11MusicCoreUI2HIO5ColorOMa
+- _$s11MusicCoreUI2HIO5ColorOMf
+- _$s11MusicCoreUI2HIO5ColorOMn
+- _$s11MusicCoreUI2HIO5ColorON
+- _$s7LyricsX0A0C08_catalogA08songInfoACypSg_So013MSVLyricsSongD0Ctc023_023C7B06612B00822B4518G8EDD9DC67Llfc21MusicSwiftCollections10OrderedSetVySSGycfu18_TA
+- _$s7LyricsX0A0C08_catalogA08songInfoACypSg_So013MSVLyricsSongD0Ctc023_023C7B06612B00822B4518G8EDD9DC67Llfc21MusicSwiftCollections10OrderedSetVySSGycfu18_Tm
+- _$s7LyricsX0A0C08_catalogA08songInfoACypSg_So013MSVLyricsSongD0Ctc023_023C7B06612B00822B4518G8EDD9DC67Llfc21MusicSwiftCollections10OrderedSetVySSGycfu19_TA
+- _$s7LyricsX0A0C08_catalogA08songInfoACypSg_So013MSVLyricsSongD0Ctc023_023C7B06612B00822B4518G8EDD9DC67LlfcSSycfu13_
+- _$s7LyricsX0A0C08_catalogA08songInfoACypSg_So013MSVLyricsSongD0Ctc023_023C7B06612B00822B4518G8EDD9DC67LlfcSSycfu13_TA
+- _$s7LyricsX0A0C08_catalogA08songInfoACypSg_So013MSVLyricsSongD0Ctc023_023C7B06612B00822B4518G8EDD9DC67LlfcSSycfu14_TA
+- _$s7LyricsX0A0C08_catalogA08songInfoACypSg_So013MSVLyricsSongD0Ctc023_023C7B06612B00822B4518G8EDD9DC67LlfcSSycfu14_Tm
+- _$sSa9_getCountSiyFSo20MSVLyricsTranslationC_Tg5
+- _$sSa9_getCountSiyFSo24MSVLyricsTransliterationC_Tg5
+- ___swift_closure_destructor.154Tm
+- _symbolic _____ 11MusicCoreUI2HIO5ColorO
+CStrings:
+- "jordan"
+```

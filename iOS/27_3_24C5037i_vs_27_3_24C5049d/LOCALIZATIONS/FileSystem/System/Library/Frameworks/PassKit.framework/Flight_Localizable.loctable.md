@@ -1,0 +1,19 @@
+## PassKit
+
+> `FileSystem/System/Library/Frameworks/PassKit.framework/Flight_Localizable.loctable`
+
+```diff
+
+ en.FLIGHT_SHARE_BUBBLE_FOLLOW_BUTTON = "Follow"
+ en.FLIGHT_SHARE_BUBBLE_SUBTITLE_FORMAT = "%@ %@ • Flight Status"
+ en.FLIGHT_SHARE_SHEET_SUBTITLE = "Flight Status • Valid until %@"
++en.FLIGHT_SMALL_GATE = "Gate %@"
++en.FLIGHT_SMALL_LABEL_BAGGAGE = "BAGGAGE"
++en.FLIGHT_SMALL_LABEL_TERMINAL = "TERMINAL"
++en.FLIGHT_SMALL_TERMINAL = "Terminal %@"
++en.FLIGHT_SMALL_TERMINAL_AND_GATE = "Terminal %1$@ • Gate %2$@"
+ en.PASS_CAPABILITY_BADGE_EXTRA_CARRYON = "EXTRA CARRY-ON"
+ en.PASS_CAPABILITY_BADGE_LAP_INFANT = "WITH INFANT"
+ en.PASS_CAPABILITY_BADGE_NO_CARRYON = "NO CARRY-ON"
+
+```

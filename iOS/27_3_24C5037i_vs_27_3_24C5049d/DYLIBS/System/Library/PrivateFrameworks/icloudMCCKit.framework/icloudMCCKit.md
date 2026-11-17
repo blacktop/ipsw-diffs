@@ -1,0 +1,270 @@
+## icloudMCCKit
+
+> `/System/Library/PrivateFrameworks/icloudMCCKit.framework/icloudMCCKit`
+
+```diff
+
+-2027.1.2.0.0
+-  __TEXT.__text: 0x34e54
++2027.2.1.0.0
++  __TEXT.__text: 0x37084
+   __TEXT.__objc_methlist: 0xbd8
+-  __TEXT.__const: 0x17b8
+-  __TEXT.__cstring: 0x1724
++  __TEXT.__const: 0x1936
++  __TEXT.__cstring: 0x17a9
+   __TEXT.__gcc_except_tab: 0x35c
+-  __TEXT.__oslogstring: 0x1ad2
+-  __TEXT.__swift5_typeref: 0x518
++  __TEXT.__oslogstring: 0x1c5d
++  __TEXT.__swift5_typeref: 0x570
+   __TEXT.__swift5_capture: 0x74
+-  __TEXT.__constg_swiftt: 0x86c
+-  __TEXT.__swift5_reflstr: 0xa19
+-  __TEXT.__swift5_fieldmd: 0x87c
++  __TEXT.__constg_swiftt: 0x8dc
++  __TEXT.__swift5_reflstr: 0xa6d
++  __TEXT.__swift5_fieldmd: 0x904
+   __TEXT.__swift5_builtin: 0x3c
+   __TEXT.__swift5_assocty: 0xa8
+-  __TEXT.__swift5_proto: 0xe0
+-  __TEXT.__swift5_types: 0x80
++  __TEXT.__swift5_proto: 0xf0
++  __TEXT.__swift5_types: 0x90
+   __TEXT.__swift_as_entry: 0xc
+   __TEXT.__swift_as_ret: 0x8
+   __TEXT.__swift_as_cont: 0x10
+   __TEXT.__swift5_protos: 0x8
+-  __TEXT.__unwind_info: 0xe50
+-  __TEXT.__eh_frame: 0x6a0
++  __TEXT.__unwind_info: 0xef0
++  __TEXT.__eh_frame: 0x6c8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x6b8
++  __DATA_CONST.__const: 0x6e8
+   __DATA_CONST.__objc_classlist: 0x98
+   __DATA_CONST.__objc_protolist: 0x40
+   __DATA_CONST.__objc_imageinfo: 0x8
+
+   __DATA_CONST.__objc_protorefs: 0x18
+   __DATA_CONST.__objc_superrefs: 0x30
+   __DATA_CONST.__got: 0x488
+-  __AUTH_CONST.__const: 0xfa8
++  __AUTH_CONST.__const: 0x1108
+   __AUTH_CONST.__cfstring: 0x820
+   __AUTH_CONST.__objc_const: 0x21d8
+-  __AUTH_CONST.__auth_got: 0x9e8
++  __AUTH_CONST.__auth_got: 0xa00
+   __AUTH.__objc_data: 0x178
+-  __AUTH.__data: 0x6a0
++  __AUTH.__data: 0x6a8
+   __DATA.__objc_ivar: 0xc4
+-  __DATA.__data: 0x5b8
+-  __DATA.__common: 0x70
++  __DATA.__data: 0x5f0
++  __DATA.__common: 0x79
+   __DATA_DIRTY.__objc_data: 0x488
+   __DATA_DIRTY.__data: 0x338
+   __DATA_DIRTY.__bss: 0x28
+
+   - /System/Library/Frameworks/NaturalLanguage.framework/NaturalLanguage
+   - /System/Library/Frameworks/TabularData.framework/TabularData
+   - /System/Library/Frameworks/UIKit.framework/UIKit
++  - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+   - /System/Library/PrivateFrameworks/Trial.framework/Trial
++  - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 1323
+-  Symbols:   3156
+-  CStrings:  312
++  Functions: 1384
++  Symbols:   3300
++  CStrings:  322
+ 
+Symbols:
++ _$s12FeatureFlags02isA7EnabledySbAA0aB3Key_pF
++ _$s12FeatureFlags0aB3KeyMp
++ _$s12FeatureFlags0aB3KeyP6domains12StaticStringVvgTq
++ _$s12FeatureFlags0aB3KeyP7features12StaticStringVvgTq
++ _$s12icloudMCCKit0B25CategorizationFeatureFlagO0D5Flags0dF3KeyAAMc
++ _$s12icloudMCCKit0B25CategorizationFeatureFlagO0D5Flags0dF3KeyAAMcMK
++ _$s12icloudMCCKit0B25CategorizationFeatureFlagO0D5Flags0dF3KeyAadEP6domains12StaticStringVvgTW
++ _$s12icloudMCCKit0B25CategorizationFeatureFlagO0D5Flags0dF3KeyAadEP7features12StaticStringVvgTW
++ _$s12icloudMCCKit0B25CategorizationFeatureFlagO2eeoiySbAC_ACtFZ
++ _$s12icloudMCCKit0B25CategorizationFeatureFlagO4hash4intoys6HasherVz_tF
++ _$s12icloudMCCKit0B25CategorizationFeatureFlagO6domains12StaticStringVvg
++ _$s12icloudMCCKit0B25CategorizationFeatureFlagO6domains12StaticStringVvpMV
++ _$s12icloudMCCKit0B25CategorizationFeatureFlagO7features12StaticStringVvg
++ _$s12icloudMCCKit0B25CategorizationFeatureFlagO7features12StaticStringVvpMV
++ _$s12icloudMCCKit0B25CategorizationFeatureFlagO9hashValueSivg
++ _$s12icloudMCCKit0B25CategorizationFeatureFlagO9hashValueSivpMV
++ _$s12icloudMCCKit0B25CategorizationFeatureFlagO9isEnabledSbvg
++ _$s12icloudMCCKit0B25CategorizationFeatureFlagO9isEnabledSbvpMV
++ _$s12icloudMCCKit0B25CategorizationFeatureFlagOAC0D5Flags0dF3KeyAAWL
++ _$s12icloudMCCKit0B25CategorizationFeatureFlagOAC0D5Flags0dF3KeyAAWl
++ _$s12icloudMCCKit0B25CategorizationFeatureFlagOACSQAAWL
++ _$s12icloudMCCKit0B25CategorizationFeatureFlagOACSQAAWl
++ _$s12icloudMCCKit0B25CategorizationFeatureFlagOMF
++ _$s12icloudMCCKit0B25CategorizationFeatureFlagOMa
++ _$s12icloudMCCKit0B25CategorizationFeatureFlagOMf
++ _$s12icloudMCCKit0B25CategorizationFeatureFlagOMn
++ _$s12icloudMCCKit0B25CategorizationFeatureFlagON
++ _$s12icloudMCCKit0B25CategorizationFeatureFlagOSHAAMc
++ _$s12icloudMCCKit0B25CategorizationFeatureFlagOSHAAMcMK
++ _$s12icloudMCCKit0B25CategorizationFeatureFlagOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s12icloudMCCKit0B25CategorizationFeatureFlagOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s12icloudMCCKit0B25CategorizationFeatureFlagOSHAASH9hashValueSivgTW
++ _$s12icloudMCCKit0B25CategorizationFeatureFlagOSHAASQWb
++ _$s12icloudMCCKit0B25CategorizationFeatureFlagOSQAAMc
++ _$s12icloudMCCKit0B25CategorizationFeatureFlagOSQAAMcMK
++ _$s12icloudMCCKit0B25CategorizationFeatureFlagOSQAASQ2eeoiySbx_xtFZTW
++ _$s12icloudMCCKit0B25CategorizationFeatureFlagOWV
++ _$s12icloudMCCKit0B25CategorizationFeatureFlagOwet
++ _$s12icloudMCCKit0B25CategorizationFeatureFlagOwst
++ _$s12icloudMCCKit0B25CategorizationFeatureFlagOwug
++ _$s12icloudMCCKit0B25CategorizationFeatureFlagOwui
++ _$s12icloudMCCKit0B25CategorizationFeatureFlagOwup
++ _$s12icloudMCCKit11TrialLoaderC15getModelFactors3forSayAA0F6FactorVGAA014CategorizationF0O_tFZ
++ _$s12icloudMCCKit11TrialLoaderC20requestAssetDownload3for10completionyAA19CategorizationModelO_ys6ResultOySbAC5ErrorOGctF
++ _$s12icloudMCCKit11TrialLoaderC20requestAssetDownload3for10completionyAA19CategorizationModelO_ys6ResultOySbAC5ErrorOGctFTj
++ _$s12icloudMCCKit11TrialLoaderC20requestAssetDownload3for10completionyAA19CategorizationModelO_ys6ResultOySbAC5ErrorOGctFTq
++ _$s12icloudMCCKit11TrialLoaderCAA13ModelProtocolA2aDP20requestAssetDownload3for10completionyAA014CategorizationE0O_ys6ResultOySbAC5ErrorOGctFTW
++ _$s12icloudMCCKit12LocaleHelperC25isCategorizationSupported03forC00E9UEMActiveSbSgSS_SbyXKtFZ
++ _$s12icloudMCCKit12LocaleHelperC25isCategorizationSupported03forC0SbSgSS_tFZTf4nd_n
++ _$s12icloudMCCKit13ModelProtocolP20requestAssetDownload3for10completionyAA014CategorizationC0O_ys6ResultOySbAA11TrialLoaderC5ErrorOGctFTj
++ _$s12icloudMCCKit13ModelProtocolP20requestAssetDownload3for10completionyAA014CategorizationC0O_ys6ResultOySbAA11TrialLoaderC5ErrorOGctFTq
++ _$s12icloudMCCKit15BlackPearlModelVSg014categorizationE0_AD010highImpactE0tMR
++ _$s12icloudMCCKit15BlackPearlModelVSg014categorizationE0_AD010highImpactE0tMd
++ _$s12icloudMCCKit15BlackPearlModelVSgML
++ _$s12icloudMCCKit15BlackPearlModelVSgMR
++ _$s12icloudMCCKit15BlackPearlModelVSgMa
++ _$s12icloudMCCKit15BlackPearlModelVSgMd
++ _$s12icloudMCCKit15BlackPearlModelVSgWOb
++ _$s12icloudMCCKit15BlackPearlModelVSgWOc
++ _$s12icloudMCCKit15BlackPearlModelVSgWOd
++ _$s12icloudMCCKit15BlackPearlModelVSgWOf
++ _$s12icloudMCCKit15UEMAvailabilityO8isActiveSbvgZ
++ _$s12icloudMCCKit15UEMAvailabilityO8isActiveSbvpZMV
++ _$s12icloudMCCKit15UEMAvailabilityOMF
++ _$s12icloudMCCKit15UEMAvailabilityOMa
++ _$s12icloudMCCKit15UEMAvailabilityOMf
++ _$s12icloudMCCKit15UEMAvailabilityOMn
++ _$s12icloudMCCKit15UEMAvailabilityON
++ _$s12icloudMCCKit16BlackPearlLevelsV13modelMetadata09mCatModelG001mh8CJKModelG006senderiG002tsiG008mHIModelG0011mHICJKModelG07version9threshold15bloomFilterData16domainLookupFile0l7SubjectuV00l6SenderuV003catuV0014personalDomainuV004saasxuV0011mbertDomainuV003uemhiG003uemmG0AcA0cdI0V_A6xA0cD7VersionVAA0cD9ThresholdVAA05BloomrS0V10Foundation3URLVA5_A5_A5_A5_A5_A5_AXSgA6_tcfC
++ _$s12icloudMCCKit16BlackPearlLevelsV18uemHIModelMetadataAA0cD5ModelVSgvM
++ _$s12icloudMCCKit16BlackPearlLevelsV18uemHIModelMetadataAA0cD5ModelVSgvM.resume
++ _$s12icloudMCCKit16BlackPearlLevelsV18uemHIModelMetadataAA0cD5ModelVSgvg
++ _$s12icloudMCCKit16BlackPearlLevelsV18uemHIModelMetadataAA0cD5ModelVSgvpMV
++ _$s12icloudMCCKit16BlackPearlLevelsV18uemHIModelMetadataAA0cD5ModelVSgvs
++ _$s12icloudMCCKit16BlackPearlLevelsV19uemCatModelMetadataAA0cdH0VSgvM
++ _$s12icloudMCCKit16BlackPearlLevelsV19uemCatModelMetadataAA0cdH0VSgvM.resume
++ _$s12icloudMCCKit16BlackPearlLevelsV19uemCatModelMetadataAA0cdH0VSgvg
++ _$s12icloudMCCKit16BlackPearlLevelsV19uemCatModelMetadataAA0cdH0VSgvpMV
++ _$s12icloudMCCKit16BlackPearlLevelsV19uemCatModelMetadataAA0cdH0VSgvs
++ _$s12icloudMCCKit16BlackPearlLevelsV21isModelAssetAvailable3forSbAA014CategorizationG0O_tF
++ _$s12icloudMCCKit16BlackPearlLevelsV24isUEMModelAssetAvailable33_1EFCEB03124731BADD0AB8AEC7332C81LLSbyF
++ _$s12icloudMCCKit16BlackPearlLevelsVWOh
++ _$s12icloudMCCKit17BlackPearlFactorsV14uemHIModelNameSSvau
++ _$s12icloudMCCKit17BlackPearlFactorsV14uemHIModelNameSSvgZ
++ _$s12icloudMCCKit17BlackPearlFactorsV14uemHIModelNameSSvpZ
++ _$s12icloudMCCKit17BlackPearlFactorsV14uemHIModelNameSSvpZMV
++ _$s12icloudMCCKit17BlackPearlFactorsV15uemCatModelNameSSvau
++ _$s12icloudMCCKit17BlackPearlFactorsV15uemCatModelNameSSvgZ
++ _$s12icloudMCCKit17BlackPearlFactorsV15uemCatModelNameSSvpZ
++ _$s12icloudMCCKit17BlackPearlFactorsV15uemCatModelNameSSvpZMV
++ _$s12icloudMCCKit17BlackPearlFactorsV23modelUEMHIPackageFactorSSvau
++ _$s12icloudMCCKit17BlackPearlFactorsV23modelUEMHIPackageFactorSSvgZ
++ _$s12icloudMCCKit17BlackPearlFactorsV23modelUEMHIPackageFactorSSvpZ
++ _$s12icloudMCCKit17BlackPearlFactorsV23modelUEMHIPackageFactorSSvpZMV
++ _$s12icloudMCCKit17BlackPearlFactorsV24modelUEMCatPackageFactorSSvau
++ _$s12icloudMCCKit17BlackPearlFactorsV24modelUEMCatPackageFactorSSvgZ
++ _$s12icloudMCCKit17BlackPearlFactorsV24modelUEMCatPackageFactorSSvpZ
++ _$s12icloudMCCKit17BlackPearlFactorsV24modelUEMCatPackageFactorSSvpZMV
++ _$s12icloudMCCKit17LanguageDetectionC16uemOnlyLanguagesSaySo10NLLanguageaGvau
++ _$s12icloudMCCKit17LanguageDetectionC16uemOnlyLanguagesSaySo10NLLanguageaGvgZ
++ _$s12icloudMCCKit17LanguageDetectionC16uemOnlyLanguagesSaySo10NLLanguageaGvpZ
++ _$s12icloudMCCKit17LanguageDetectionC16uemOnlyLanguagesSaySo10NLLanguageaGvpZMV
++ _$s12icloudMCCKit17LanguageDetectionC16uemOnlyLanguages_WZ
++ _$s12icloudMCCKit17LanguageDetectionC16uemOnlyLanguages_Wz
++ _$s12icloudMCCKit17LanguageDetectionC7predict4text11isUEMActiveAA0C5ModelO08selectedI0_So10NLLanguagea08detectedC0tSS_SbtF
++ _$s12icloudMCCKit17LanguageDetectionC7predict4text11isUEMActiveAA0C5ModelO08selectedI0_So10NLLanguagea08detectedC0tSS_SbtFTj
++ _$s12icloudMCCKit17LanguageDetectionC7predict4text11isUEMActiveAA0C5ModelO08selectedI0_So10NLLanguagea08detectedC0tSS_SbtFTq
++ _$s12icloudMCCKit19CategorizationModelO2eeoiySbAC_ACtFZ
++ _$s12icloudMCCKit19CategorizationModelO2eeoiySbAC_ACtFZTf4nnd_n
++ _$s12icloudMCCKit19CategorizationModelO3uemyA2CmFWC
++ _$s12icloudMCCKit19CategorizationModelO5mBERTyAcA08LanguageD0OcACmFWC
++ _$s12icloudMCCKit19CategorizationModelO7englishyA2CmFWC
++ _$s12icloudMCCKit19CategorizationModelOMF
++ _$s12icloudMCCKit19CategorizationModelOMa
++ _$s12icloudMCCKit19CategorizationModelOMf
++ _$s12icloudMCCKit19CategorizationModelOMn
++ _$s12icloudMCCKit19CategorizationModelON
++ _$s12icloudMCCKit19CategorizationModelOSQAAMc
++ _$s12icloudMCCKit19CategorizationModelOSQAAMcMK
++ _$s12icloudMCCKit19CategorizationModelOSQAASQ2eeoiySbx_xtFZTW
++ _$s12icloudMCCKit19CategorizationModelOWV
++ _$s12icloudMCCKit19CategorizationModelOwet
++ _$s12icloudMCCKit19CategorizationModelOwst
++ _$s12icloudMCCKit19CategorizationModelOwug
++ _$s12icloudMCCKit19CategorizationModelOwui
++ _$s12icloudMCCKit19CategorizationModelOwup
++ _$s12icloudMCCKit20UEMDeviceEligibilityO10isEligibleSbvau
++ _$s12icloudMCCKit20UEMDeviceEligibilityO10isEligibleSbvgZ
++ _$s12icloudMCCKit20UEMDeviceEligibilityO10isEligibleSbvpZ
++ _$s12icloudMCCKit20UEMDeviceEligibilityO10isEligibleSbvpZMV
++ _$s12icloudMCCKit20UEMDeviceEligibilityO10isEligibleSbvpZfiSbyXEfU_
++ _$s12icloudMCCKit20UEMDeviceEligibilityO10isEligible_WZ
++ _$s12icloudMCCKit20UEMDeviceEligibilityO10isEligible_Wz
++ _$s12icloudMCCKit20UEMDeviceEligibilityOMF
++ _$s12icloudMCCKit20UEMDeviceEligibilityOMa
++ _$s12icloudMCCKit20UEMDeviceEligibilityOMf
++ _$s12icloudMCCKit20UEMDeviceEligibilityOMn
++ _$s12icloudMCCKit20UEMDeviceEligibilityON
++ _$s12icloudMCCKit21BlackPearlTrialLevelsV15createUEMModels33_C6E3A0D63E98C7808712AB24F924F744LL11trialClient7versionAA0cD5ModelVSg014categorizationU0_AJ010highImpactU0tSo9TRIClientC_SStFZ
++ _$s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_s5Int32V_Tg5
++ _$s2os18OSLogInterpolationV06appendC0_6format7privacyySbyXA_AA0B10BoolFormatOAA0B7PrivacyVtFs5Int32Vycfu_
++ _$s2os18OSLogInterpolationV06appendC0_6format7privacyys5Int32VyXA_AA0bG14ExtendedFormatOAA0B7PrivacyVtFAHycfu_
++ _$s2os9serialize_2atyx_Spys5UInt8VGzts17FixedWidthIntegerRzlFySWXEfU_
++ _$ss5Int32VIegd_ABIegr_TR
++ _$sytWV
++ _MobileGestalt_get_current_device
++ _MobileGestalt_get_deviceSupportsGenerativeModelSystems
++ _associated conformance 12icloudMCCKit0B25CategorizationFeatureFlagOSHAASQ
++ _symbolic _____ 12icloudMCCKit0B25CategorizationFeatureFlagO
++ _symbolic _____ 12icloudMCCKit15UEMAvailabilityO
++ _symbolic _____ 12icloudMCCKit19CategorizationModelO
++ _symbolic _____ 12icloudMCCKit20UEMDeviceEligibilityO
++ _symbolic _____Sg 12icloudMCCKit15BlackPearlModelV
++ _symbolic _____Sg19categorizationModel_AB010highImpactB0t 12icloudMCCKit15BlackPearlModelV
+- _$s12icloudMCCKit11TrialLoaderC20requestAssetDownload16forLanguageModel10completionyAA0iJ0O_ys6ResultOySbAC5ErrorOGctF
+- _$s12icloudMCCKit11TrialLoaderC20requestAssetDownload16forLanguageModel10completionyAA0iJ0O_ys6ResultOySbAC5ErrorOGctFTj
+- _$s12icloudMCCKit11TrialLoaderC20requestAssetDownload16forLanguageModel10completionyAA0iJ0O_ys6ResultOySbAC5ErrorOGctFTq
+- _$s12icloudMCCKit11TrialLoaderCAA13ModelProtocolA2aDP20requestAssetDownload011forLanguageE010completionyAA0kE0O_ys6ResultOySbAC5ErrorOGctFTW
+- _$s12icloudMCCKit13ModelProtocolP20requestAssetDownload011forLanguageC010completionyAA0iC0O_ys6ResultOySbAA11TrialLoaderC5ErrorOGctFTj
+- _$s12icloudMCCKit13ModelProtocolP20requestAssetDownload011forLanguageC010completionyAA0iC0O_ys6ResultOySbAA11TrialLoaderC5ErrorOGctFTq
+- _$s12icloudMCCKit16BlackPearlLevelsV13modelMetadata09mCatModelG001mh8CJKModelG006senderiG002tsiG008mHIModelG0011mHICJKModelG07version9threshold15bloomFilterData16domainLookupFile0l7SubjectuV00l6SenderuV003catuV0014personalDomainuV004saasxuV0011mbertDomainuV0AcA0cdI0V_A6vA0cD7VersionVAA0cD9ThresholdVAA05BloomrS0V10Foundation3URLVA3_A3_A3_A3_A3_A3_tcfC
+- _$s12icloudMCCKit17LanguageDetectionC7predict4textAA0C5ModelO08selectedG0_So10NLLanguagea08detectedC0tSS_tF
+- _$s12icloudMCCKit17LanguageDetectionC7predict4textAA0C5ModelO08selectedG0_So10NLLanguagea08detectedC0tSS_tFTj
+- _$s12icloudMCCKit17LanguageDetectionC7predict4textAA0C5ModelO08selectedG0_So10NLLanguagea08detectedC0tSS_tFTq
+CStrings:
++ "BlackPearlAEMCat"
++ "BlackPearlAEMCatModelPackage"
++ "BlackPearlAEMHiModelPackage"
++ "MCCKitCategorization"
++ "UEM"
++ "UEM Cat model factor not found, UEM unavailable"
++ "UEM HI model factor not found, UEM HI unavailable (category-only for now)"
++ "UEM device eligibility: DeviceSupportsGenerativeModelSystems=%{bool,public}d"
++ "UEM model asset check: catAvailable=%{bool,public}d hiAvailable=%{bool,public}d"
++ "UEM model asset unavailable: Trial factors not loaded (cat=%{bool,public}d hi=%{bool,public}d)"
+```

@@ -1,0 +1,585 @@
+## AnnounceAppIntents
+
+> `/System/Library/PrivateFrameworks/AnnounceAppIntents.framework/AnnounceAppIntents`
+
+```diff
+
+-344.3.0.0.1
+-  __TEXT.__text: 0x0
+-  __TEXT.__const: 0x42
+-  __DATA_CONST.__const: 0xb8
++344.3.1.0.0
++  __TEXT.__text: 0x1fa7c
++  __TEXT.__const: 0x25c8
++  __TEXT.__constg_swiftt: 0x44c
++  __TEXT.__swift5_typeref: 0xaca
++  __TEXT.__swift5_fieldmd: 0x3d0
++  __TEXT.__swift5_proto: 0x1dc
++  __TEXT.__swift5_types: 0x48
++  __TEXT.__cstring: 0xa7a
++  __TEXT.__oslogstring: 0x4ba
++  __TEXT.__swift5_reflstr: 0x66a
++  __TEXT.__swift5_assocty: 0x390
++  __TEXT.__swift_as_entry: 0xc4
++  __TEXT.__swift_as_ret: 0xd4
++  __TEXT.__swift_as_cont: 0x98
++  __TEXT.__swift5_capture: 0x30
++  __TEXT.__swift5_protos: 0x4
++  __TEXT.__unwind_info: 0xcb8
++  __TEXT.__eh_frame: 0xf40
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x178
+   __DATA_CONST.__objc_imageinfo: 0x8
++  __DATA_CONST.__objc_selrefs: 0x120
++  __DATA_CONST.__got: 0x0
++  __AUTH_CONST.__const: 0x68a
++  __AUTH_CONST.__auth_got: 0x8d8
++  __AUTH.__data: 0x208
++  __DATA.__data: 0x530
++  __DATA.__common: 0x10
++  __DATA_DIRTY.__data: 0x640
++  __DATA_DIRTY.__bss: 0x1100
++  - /System/Library/Frameworks/AppIntents.framework/AppIntents
++  - /System/Library/Frameworks/CoreSpotlight.framework/CoreSpotlight
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/HomeKit.framework/HomeKit
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/PrivateFrameworks/Announce.framework/Announce
++  - /System/Library/PrivateFrameworks/AppIntentsServices.framework/AppIntentsServices
++  - /System/Library/PrivateFrameworks/LinkServices.framework/LinkServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
++  - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreAudio_Private.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
++  - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 0
+-  Symbols:   49
+-  CStrings:  0
++  Functions: 810
++  Symbols:   461
++  CStrings:  95
+ 
+Symbols:
++ <redacted>
++ _ANFileExtensionCaf
++ _ANTestAnnounceDate
++ _ANTestAnnouncer
++ _ANTestHomeName
++ _ANTestTranscriptionText
++ _ANTestUUIDString
++ _OBJC_CLASS_$_ANAnnounce
++ _OBJC_CLASS_$_ANAnnouncementContext
++ _OBJC_CLASS_$_ANDevice
++ _OBJC_CLASS_$_ANFiles
++ _OBJC_CLASS_$_ANHomeManager
++ _OBJC_CLASS_$_ANUtils
++ _OBJC_CLASS_$_CSSearchableItemAttributeSet
++ _OBJC_CLASS_$_HMHome
++ _OBJC_CLASS_$_HMRoom
++ _OBJC_CLASS_$_HMZone
++ _OBJC_CLASS_$_LNEnvironment
++ _OBJC_CLASS_$_NSNumber
++ __Block_copy
++ __Block_release
++ __NSConcreteStackBlock
++ ___chkstk_darwin
++ ___stack_chk_fail
++ ___stack_chk_guard
++ ___swift_allocate_value_buffer
++ ___swift_async_cont_functlets
++ ___swift_async_entry_functlets
++ ___swift_async_ret_functlets
++ ___swift_closure_destructor
++ ___swift_destroy_boxed_opaque_existential_0
++ ___swift_destroy_boxed_opaque_existential_0Tm
++ ___swift_destroy_boxed_opaque_existential_1
++ ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
++ ___swift_instantiateConcreteTypeFromMangledNameV2
++ ___swift_memcpy0_1
++ ___swift_memcpy16_8
++ ___swift_memcpy1_1
++ ___swift_noop_void_return
++ ___swift_project_boxed_opaque_existential_0
++ ___swift_project_value_buffer
++ __os_log_impl
++ __swiftEmptyArrayStorage
++ __swiftEmptyDictionarySingleton
++ __swiftEmptySetSingleton
++ __swiftImmortalRefCount
++ __swift_stdlib_bridgeErrorToNSError
++ __swift_stdlib_malloc_size
++ _associated conformance 18AnnounceAppIntents17DestinationEntityV0D5QueryV0bC0010EnumerableeF0AaF0eF0
++ _associated conformance 18AnnounceAppIntents17DestinationEntityV0D5QueryV0bC00e6StringF0AaF0eF0
++ _associated conformance 18AnnounceAppIntents17DestinationEntityV0D5QueryV0bC00eF0AA0E0AfGP_AF0bE0
++ _associated conformance 18AnnounceAppIntents17DestinationEntityV0D5QueryV0bC00eF0AaF22DynamicOptionsProvider
++ _associated conformance 18AnnounceAppIntents17DestinationEntityV0D5QueryV0bC00eF0AaF24PersistentlyIdentifiable
++ _associated conformance 18AnnounceAppIntents17DestinationEntityV0D5QueryV0bC022DynamicOptionsProviderAA12DefaultValueAfGP_AF07_IntentK0
++ _associated conformance 18AnnounceAppIntents17DestinationEntityV0D5QueryV0bC022DynamicOptionsProviderAA6ResultAfGP_AF17ResultsCollection
++ _associated conformance 18AnnounceAppIntents17DestinationEntityV0D5QueryV0bC022DynamicOptionsProviderAaF09_SupportsB12Dependencies
++ _associated conformance 18AnnounceAppIntents17DestinationEntityV0bC0015AssistantSchemaE0AaD0fE0
++ _associated conformance 18AnnounceAppIntents17DestinationEntityV0bC008SyncableE0AaD0bE0
++ _associated conformance 18AnnounceAppIntents17DestinationEntityV0bC009AssistantE0AaD0bE0
++ _associated conformance 18AnnounceAppIntents17DestinationEntityV0bC00B5ValueAaD07_IntentF0
++ _associated conformance 18AnnounceAppIntents17DestinationEntityV0bC00B5ValueAaD24PersistentlyIdentifiable
++ _associated conformance 18AnnounceAppIntents17DestinationEntityV0bC00B5ValueAaD24TypeDisplayRepresentable
++ _associated conformance 18AnnounceAppIntents17DestinationEntityV0bC00bE0AA12DefaultQueryAdEP_AD0eG0
++ _associated conformance 18AnnounceAppIntents17DestinationEntityV0bC00bE0AA2IDs12IdentifiableP_AD0E21IdentifierConvertible
++ _associated conformance 18AnnounceAppIntents17DestinationEntityV0bC00bE0AAs12Identifiable
++ _associated conformance 18AnnounceAppIntents17DestinationEntityV0bC00bE0AaD0B5Value
++ _associated conformance 18AnnounceAppIntents17DestinationEntityV0bC00bE0AaD20DisplayRepresentable
++ _associated conformance 18AnnounceAppIntents17DestinationEntityV0bC012_IntentValueAA0G4TypeAdEP_AdE
++ _associated conformance 18AnnounceAppIntents17DestinationEntityV0bC012_IntentValueAA13SpecificationAdEP_AD08ResolverH0
++ _associated conformance 18AnnounceAppIntents17DestinationEntityV0bC012_IntentValueAA13UnwrappedTypeAdEP_AdE
++ _associated conformance 18AnnounceAppIntents17DestinationEntityV0bC019_ModelRepresentableAA19_FullRepresentationAdEP_AD05_TextI0
++ _associated conformance 18AnnounceAppIntents17DestinationEntityV0bC019_ModelRepresentableAA22_SummaryRepresentationAdEP_AD05_TextI0
++ _associated conformance 18AnnounceAppIntents17DestinationEntityV0bC019_ModelRepresentableAaD0bE0
++ _associated conformance 18AnnounceAppIntents17DestinationEntityV0bC020DisplayRepresentableAaD04TypefG0
++ _associated conformance 18AnnounceAppIntents17DestinationEntityV0bC020DisplayRepresentableAaD08InstancefG0
++ _associated conformance 18AnnounceAppIntents17DestinationEntityV0bC028InstanceDisplayRepresentableAA10Foundation40CustomLocalizedStringResourceConvertible
++ _associated conformance 18AnnounceAppIntents17DestinationEntityVSHAASQ
++ _associated conformance 18AnnounceAppIntents17DestinationEntityVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 18AnnounceAppIntents18AnnouncementEntityV0D5QueryV0bC0010EnumerableeF0AaF0eF0
++ _associated conformance 18AnnounceAppIntents18AnnouncementEntityV0D5QueryV0bC00e6StringF0AaF0eF0
++ _associated conformance 18AnnounceAppIntents18AnnouncementEntityV0D5QueryV0bC00eF0AA0E0AfGP_AF0bE0
++ _associated conformance 18AnnounceAppIntents18AnnouncementEntityV0D5QueryV0bC00eF0AaF22DynamicOptionsProvider
++ _associated conformance 18AnnounceAppIntents18AnnouncementEntityV0D5QueryV0bC00eF0AaF24PersistentlyIdentifiable
++ _associated conformance 18AnnounceAppIntents18AnnouncementEntityV0D5QueryV0bC022DynamicOptionsProviderAA12DefaultValueAfGP_AF07_IntentK0
++ _associated conformance 18AnnounceAppIntents18AnnouncementEntityV0D5QueryV0bC022DynamicOptionsProviderAA6ResultAfGP_AF17ResultsCollection
++ _associated conformance 18AnnounceAppIntents18AnnouncementEntityV0D5QueryV0bC022DynamicOptionsProviderAaF09_SupportsB12Dependencies
++ _associated conformance 18AnnounceAppIntents18AnnouncementEntityV0bC0015AssistantSchemaE0AaD0fE0
++ _associated conformance 18AnnounceAppIntents18AnnouncementEntityV0bC007IndexedE0AaD0bE0
++ _associated conformance 18AnnounceAppIntents18AnnouncementEntityV0bC008SyncableE0AaD0bE0
++ _associated conformance 18AnnounceAppIntents18AnnouncementEntityV0bC009AssistantE0AaD0bE0
++ _associated conformance 18AnnounceAppIntents18AnnouncementEntityV0bC00B5ValueAaD07_IntentF0
++ _associated conformance 18AnnounceAppIntents18AnnouncementEntityV0bC00B5ValueAaD24PersistentlyIdentifiable
++ _associated conformance 18AnnounceAppIntents18AnnouncementEntityV0bC00B5ValueAaD24TypeDisplayRepresentable
++ _associated conformance 18AnnounceAppIntents18AnnouncementEntityV0bC00bE0AA12DefaultQueryAdEP_AD0eG0
++ _associated conformance 18AnnounceAppIntents18AnnouncementEntityV0bC00bE0AA2IDs12IdentifiableP_AD0E21IdentifierConvertible
++ _associated conformance 18AnnounceAppIntents18AnnouncementEntityV0bC00bE0AAs12Identifiable
++ _associated conformance 18AnnounceAppIntents18AnnouncementEntityV0bC00bE0AaD0B5Value
++ _associated conformance 18AnnounceAppIntents18AnnouncementEntityV0bC00bE0AaD20DisplayRepresentable
++ _associated conformance 18AnnounceAppIntents18AnnouncementEntityV0bC012IntentResultAA05OpensbF0AdEP_AD0bF0
++ _associated conformance 18AnnounceAppIntents18AnnouncementEntityV0bC012IntentResultAA5ValueAdEP_AD01_fH0
++ _associated conformance 18AnnounceAppIntents18AnnouncementEntityV0bC012_IntentValueAA0G4TypeAdEP_AdE
++ _associated conformance 18AnnounceAppIntents18AnnouncementEntityV0bC012_IntentValueAA13SpecificationAdEP_AD08ResolverH0
++ _associated conformance 18AnnounceAppIntents18AnnouncementEntityV0bC012_IntentValueAA13UnwrappedTypeAdEP_AdE
++ _associated conformance 18AnnounceAppIntents18AnnouncementEntityV0bC019_ModelRepresentableAA19_FullRepresentationAdEP_AD05_TextI0
++ _associated conformance 18AnnounceAppIntents18AnnouncementEntityV0bC019_ModelRepresentableAA22_SummaryRepresentationAdEP_AD05_TextI0
++ _associated conformance 18AnnounceAppIntents18AnnouncementEntityV0bC019_ModelRepresentableAaD0bE0
++ _associated conformance 18AnnounceAppIntents18AnnouncementEntityV0bC020DisplayRepresentableAaD04TypefG0
++ _associated conformance 18AnnounceAppIntents18AnnouncementEntityV0bC020DisplayRepresentableAaD08InstancefG0
++ _associated conformance 18AnnounceAppIntents18AnnouncementEntityV0bC028InstanceDisplayRepresentableAA10Foundation40CustomLocalizedStringResourceConvertible
++ _associated conformance 18AnnounceAppIntents18AnnouncementEntityVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 18AnnounceAppIntents18IntercomHomeEntityV0E5QueryV0bC0010EnumerablefG0AaF0fG0
++ _associated conformance 18AnnounceAppIntents18IntercomHomeEntityV0E5QueryV0bC00f6StringG0AaF0fG0
++ _associated conformance 18AnnounceAppIntents18IntercomHomeEntityV0E5QueryV0bC00fG0AA0F0AfGP_AF0bF0
++ _associated conformance 18AnnounceAppIntents18IntercomHomeEntityV0E5QueryV0bC00fG0AaF22DynamicOptionsProvider
++ _associated conformance 18AnnounceAppIntents18IntercomHomeEntityV0E5QueryV0bC00fG0AaF24PersistentlyIdentifiable
++ _associated conformance 18AnnounceAppIntents18IntercomHomeEntityV0E5QueryV0bC022DynamicOptionsProviderAA12DefaultValueAfGP_AF07_IntentL0
++ _associated conformance 18AnnounceAppIntents18IntercomHomeEntityV0E5QueryV0bC022DynamicOptionsProviderAA6ResultAfGP_AF17ResultsCollection
++ _associated conformance 18AnnounceAppIntents18IntercomHomeEntityV0E5QueryV0bC022DynamicOptionsProviderAaF09_SupportsB12Dependencies
++ _associated conformance 18AnnounceAppIntents18IntercomHomeEntityV0bC0015AssistantSchemaF0AaD0gF0
++ _associated conformance 18AnnounceAppIntents18IntercomHomeEntityV0bC008SyncableF0AaD0bF0
++ _associated conformance 18AnnounceAppIntents18IntercomHomeEntityV0bC009AssistantF0AaD0bF0
++ _associated conformance 18AnnounceAppIntents18IntercomHomeEntityV0bC00B5ValueAaD07_IntentG0
++ _associated conformance 18AnnounceAppIntents18IntercomHomeEntityV0bC00B5ValueAaD24PersistentlyIdentifiable
++ _associated conformance 18AnnounceAppIntents18IntercomHomeEntityV0bC00B5ValueAaD24TypeDisplayRepresentable
++ _associated conformance 18AnnounceAppIntents18IntercomHomeEntityV0bC00bF0AA12DefaultQueryAdEP_AD0fH0
++ _associated conformance 18AnnounceAppIntents18IntercomHomeEntityV0bC00bF0AA2IDs12IdentifiableP_AD0F21IdentifierConvertible
++ _associated conformance 18AnnounceAppIntents18IntercomHomeEntityV0bC00bF0AAs12Identifiable
++ _associated conformance 18AnnounceAppIntents18IntercomHomeEntityV0bC00bF0AaD0B5Value
++ _associated conformance 18AnnounceAppIntents18IntercomHomeEntityV0bC00bF0AaD20DisplayRepresentable
++ _associated conformance 18AnnounceAppIntents18IntercomHomeEntityV0bC012_IntentValueAA0H4TypeAdEP_AdE
++ _associated conformance 18AnnounceAppIntents18IntercomHomeEntityV0bC012_IntentValueAA13SpecificationAdEP_AD08ResolverI0
++ _associated conformance 18AnnounceAppIntents18IntercomHomeEntityV0bC012_IntentValueAA13UnwrappedTypeAdEP_AdE
++ _associated conformance 18AnnounceAppIntents18IntercomHomeEntityV0bC019_ModelRepresentableAA19_FullRepresentationAdEP_AD05_TextJ0
++ _associated conformance 18AnnounceAppIntents18IntercomHomeEntityV0bC019_ModelRepresentableAA22_SummaryRepresentationAdEP_AD05_TextJ0
++ _associated conformance 18AnnounceAppIntents18IntercomHomeEntityV0bC019_ModelRepresentableAaD0bF0
++ _associated conformance 18AnnounceAppIntents18IntercomHomeEntityV0bC020DisplayRepresentableAaD04TypegH0
++ _associated conformance 18AnnounceAppIntents18IntercomHomeEntityV0bC020DisplayRepresentableAaD08InstancegH0
++ _associated conformance 18AnnounceAppIntents18IntercomHomeEntityV0bC028InstanceDisplayRepresentableAA10Foundation40CustomLocalizedStringResourceConvertible
++ _associated conformance 18AnnounceAppIntents18IntercomHomeEntityVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 18AnnounceAppIntents18IntercomQueryErrorOSHAASQ
++ _associated conformance 18AnnounceAppIntents19DestinationTypeEnumO0bC0015AssistantSchemaF0AaD0gF0
++ _associated conformance 18AnnounceAppIntents19DestinationTypeEnumO0bC009AssistantF0AaD0bF0
++ _associated conformance 18AnnounceAppIntents19DestinationTypeEnumO0bC00B5ValueAaD07_IntentG0
++ _associated conformance 18AnnounceAppIntents19DestinationTypeEnumO0bC00B5ValueAaD0E20DisplayRepresentable
++ _associated conformance 18AnnounceAppIntents19DestinationTypeEnumO0bC00B5ValueAaD24PersistentlyIdentifiable
++ _associated conformance 18AnnounceAppIntents19DestinationTypeEnumO0bC00bF0AA8RawValueSY_s25LosslessStringConvertible
++ _associated conformance 18AnnounceAppIntents19DestinationTypeEnumO0bC00bF0AASY
++ _associated conformance 18AnnounceAppIntents19DestinationTypeEnumO0bC00bF0AaD0B5Value
++ _associated conformance 18AnnounceAppIntents19DestinationTypeEnumO0bC00bF0AaD26StaticDisplayRepresentable
++ _associated conformance 18AnnounceAppIntents19DestinationTypeEnumO0bC012_IntentValueAA09UnwrappedE0AdEP_AdE
++ _associated conformance 18AnnounceAppIntents19DestinationTypeEnumO0bC012_IntentValueAA0hE0AdEP_AdE
++ _associated conformance 18AnnounceAppIntents19DestinationTypeEnumO0bC012_IntentValueAA13SpecificationAdEP_AD08ResolverI0
++ _associated conformance 18AnnounceAppIntents19DestinationTypeEnumO0bC024CaseDisplayRepresentableAA10Foundation40CustomLocalizedStringResourceConvertible
++ _associated conformance 18AnnounceAppIntents19DestinationTypeEnumO0bC024CaseDisplayRepresentableAASH
++ _associated conformance 18AnnounceAppIntents19DestinationTypeEnumO0bC024CaseDisplayRepresentableAAs0G8Iterable
++ _associated conformance 18AnnounceAppIntents19DestinationTypeEnumO0bC026StaticDisplayRepresentableAaD04CasehI0
++ _associated conformance 18AnnounceAppIntents19DestinationTypeEnumO0bC026StaticDisplayRepresentableAaD0ehI0
++ _associated conformance 18AnnounceAppIntents19DestinationTypeEnumOSHAASQ
++ _associated conformance 18AnnounceAppIntents19DestinationTypeEnumOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 18AnnounceAppIntents23IntercomDismissalReasonO0bC8Services0B18EnumRepresentationAA8RawValueSY_s25LosslessStringConvertible
++ _associated conformance 18AnnounceAppIntents23IntercomDismissalReasonO0bC8Services0B18EnumRepresentationAASY
++ _associated conformance 18AnnounceAppIntents23IntercomDismissalReasonO0bC8Services0B18EnumRepresentationAAs12CaseIterable
++ _associated conformance 18AnnounceAppIntents23IntercomDismissalReasonO0bC8Services0B18EnumRepresentationAaD27IntentValueTypeIdentifiable
++ _associated conformance 18AnnounceAppIntents23IntercomDismissalReasonO0bC8Services0B18EnumRepresentationAaD28IntentValueOptionalWrappable
++ _associated conformance 18AnnounceAppIntents23IntercomDismissalReasonO0bC8Services11IntentValueAaD23EntityPropertyWrappable
++ _associated conformance 18AnnounceAppIntents23IntercomDismissalReasonO0bC8Services26IntentValueSequenceElementAaD0hI0
++ _associated conformance 18AnnounceAppIntents23IntercomDismissalReasonO0bC8Services27IntentValueTypeIdentifiableAaD0hI15SequenceElement
++ _associated conformance 18AnnounceAppIntents23IntercomDismissalReasonO0bC8Services28IntentValueOptionalWrappableAaD0hI0
++ _associated conformance 18AnnounceAppIntents23IntercomDismissalReasonOSHAASQ
++ _associated conformance 18AnnounceAppIntents23IntercomDismissalReasonOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 18AnnounceAppIntents25ReadAnnouncementErrorCodeOSHAASQ
++ _associated conformance 18AnnounceAppIntents25SendAnnouncementErrorCodeO10Foundation09LocalizedF0AAs0F0
++ _associated conformance 18AnnounceAppIntents25SendAnnouncementErrorCodeO10Foundation13CustomNSErrorAAs0F0
++ _associated conformance 18AnnounceAppIntents31ReadAnnouncementAssistantIntentV0bC00bG0AA13PerformResultAdEP_AD0gI0
++ _associated conformance 18AnnounceAppIntents31ReadAnnouncementAssistantIntentV0bC00bG0AA14SummaryContentAdEP_AD09ParameterH0
++ _associated conformance 18AnnounceAppIntents31ReadAnnouncementAssistantIntentV0bC00bG0AaD09_SupportsB12Dependencies
++ _associated conformance 18AnnounceAppIntents31ReadAnnouncementAssistantIntentV0bC00bG0AaD24PersistentlyIdentifiable
++ _associated conformance 18AnnounceAppIntents31ReadAnnouncementAssistantIntentV0bC00f6SchemaG0AaD0fG0
++ _associated conformance 18AnnounceAppIntents31ReadAnnouncementAssistantIntentV0bC00fG0AaD0bG0
++ _associated conformance 18AnnounceAppIntents31SendAnnouncementAssistantIntentV0bC00bG0AA13PerformResultAdEP_AD0gI0
++ _associated conformance 18AnnounceAppIntents31SendAnnouncementAssistantIntentV0bC00bG0AA14SummaryContentAdEP_AD09ParameterH0
++ _associated conformance 18AnnounceAppIntents31SendAnnouncementAssistantIntentV0bC00bG0AaD09_SupportsB12Dependencies
++ _associated conformance 18AnnounceAppIntents31SendAnnouncementAssistantIntentV0bC00bG0AaD24PersistentlyIdentifiable
++ _associated conformance 18AnnounceAppIntents31SendAnnouncementAssistantIntentV0bC00f6SchemaG0AaD0fG0
++ _associated conformance 18AnnounceAppIntents31SendAnnouncementAssistantIntentV0bC00fG0AaD0bG0
++ _associated conformance 18AnnounceAppIntents31StopAnnouncementAssistantIntentV0bC00bG0AA13PerformResultAdEP_AD0gI0
++ _associated conformance 18AnnounceAppIntents31StopAnnouncementAssistantIntentV0bC00bG0AA14SummaryContentAdEP_AD09ParameterH0
++ _associated conformance 18AnnounceAppIntents31StopAnnouncementAssistantIntentV0bC00bG0AaD09_SupportsB12Dependencies
++ _associated conformance 18AnnounceAppIntents31StopAnnouncementAssistantIntentV0bC00bG0AaD24PersistentlyIdentifiable
++ _associated conformance 18AnnounceAppIntents31StopAnnouncementAssistantIntentV0bC00f6SchemaG0AaD0fG0
++ _associated conformance 18AnnounceAppIntents31StopAnnouncementAssistantIntentV0bC00fG0AaD0bG0
++ _associated conformance 18AnnounceAppIntents32ReplyAnnouncementAssistantIntentV0bC00bG0AA13PerformResultAdEP_AD0gI0
++ _associated conformance 18AnnounceAppIntents32ReplyAnnouncementAssistantIntentV0bC00bG0AA14SummaryContentAdEP_AD09ParameterH0
++ _associated conformance 18AnnounceAppIntents32ReplyAnnouncementAssistantIntentV0bC00bG0AaD09_SupportsB12Dependencies
++ _associated conformance 18AnnounceAppIntents32ReplyAnnouncementAssistantIntentV0bC00bG0AaD24PersistentlyIdentifiable
++ _associated conformance 18AnnounceAppIntents32ReplyAnnouncementAssistantIntentV0bC00f6SchemaG0AaD0fG0
++ _associated conformance 18AnnounceAppIntents32ReplyAnnouncementAssistantIntentV0bC00fG0AaD0bG0
++ _block_copy_helper
++ _block_descriptor
++ _block_destroy_helper
++ _bzero
++ _free
++ _get_enum_tag_for_layout_string 18AnnounceAppIntents25SendAnnouncementErrorCodeO
++ _get_witness_table 10AppIntents21IntentResultContainerVy08AnnounceaB018AnnouncementEntityVs5NeverOA2HGAA12ReturnsValueHPyHC
++ _get_witness_table 10AppIntents21IntentResultContainerVys5NeverOA3EGAA0cD0HPyHC
++ _get_witness_table 10AppIntents27_TextualModelRepresentationVy08AnnounceaB017DestinationEntityVGAA05_TextE0HPyHC
++ _get_witness_table 10AppIntents27_TextualModelRepresentationVy08AnnounceaB018AnnouncementEntityVGAA05_TextE0HPyHC
++ _get_witness_table 10AppIntents27_TextualModelRepresentationVy08AnnounceaB018IntercomHomeEntityVGAA05_TextE0HPyHC
++ _kAnnounceDaemonBundleId
++ _kIntercomAppBundleId
++ _malloc_size
++ _memcpy
++ _memmove
++ _objc_allocWithZone
++ _objc_msgSend
++ _objc_opt_self
++ _objc_release
++ _objc_release_x19
++ _objc_release_x20
++ _objc_release_x21
++ _objc_release_x22
++ _objc_release_x23
++ _objc_release_x24
++ _objc_release_x25
++ _objc_release_x26
++ _objc_release_x27
++ _objc_release_x28
++ _objc_release_x8
++ _objc_release_x9
++ _objc_retainAutoreleasedReturnValue
++ _objc_retain_x19
++ _objc_retain_x20
++ _objc_retain_x21
++ _objc_retain_x22
++ _objc_retain_x25
++ _objc_retain_x26
++ _objc_retain_x28
++ _objc_retain_x8
++ _os_log_type_enabled
++ _swift_allocError
++ _swift_allocObject
++ _swift_arrayDestroy
++ _swift_arrayInitWithCopy
++ _swift_arrayInitWithTakeBackToFront
++ _swift_arrayInitWithTakeFrontToBack
++ _swift_beginAccess
++ _swift_bridgeObjectRelease
++ _swift_bridgeObjectRelease_n
++ _swift_bridgeObjectRetain
++ _swift_continuation_await
++ _swift_continuation_init
++ _swift_continuation_resume
++ _swift_coroFrameAlloc
++ _swift_cvw_assignWithCopy
++ _swift_cvw_assignWithTake
++ _swift_cvw_destroy
++ _swift_cvw_enumFn_getEnumTag
++ _swift_cvw_initStructMetadataWithLayoutString
++ _swift_cvw_initWithCopy
++ _swift_cvw_initWithTake
++ _swift_cvw_initializeBufferWithCopyOfBuffer
++ _swift_deallocClassInstance
++ _swift_deallocObject
++ _swift_deletedMethodError
++ _swift_endAccess
++ _swift_errorRelease
++ _swift_errorRetain
++ _swift_getEnumTagSinglePayloadGeneric
++ _swift_getKeyPath
++ _swift_getObjCClassMetadata
++ _swift_getObjectType
++ _swift_getOpaqueTypeConformance2
++ _swift_getSingletonMetadata
++ _swift_getTypeByMangledNameInContext2
++ _swift_getTypeByMangledNameInContextInMetadataState2
++ _swift_getWitnessTable
++ _swift_isUniquelyReferenced_nonNull_native
++ _swift_once
++ _swift_release
++ _swift_release_n
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x25
++ _swift_release_x28
++ _swift_release_x8
++ _swift_retain
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x24
++ _swift_setDeallocating
++ _swift_slowAlloc
++ _swift_slowDealloc
++ _swift_storeEnumTagSinglePayloadGeneric
++ _swift_task_alloc
++ _swift_task_dealloc
++ _swift_task_switch
++ _swift_unknownObjectRetain
++ _swift_willThrow
++ _symbolic $s10AppIntents0A6EntityP
++ _symbolic $s10AppIntents0A6IntentP
++ _symbolic $s10AppIntents11EntityQueryP
++ _symbolic $s10AppIntents12IntentResultP
++ _symbolic $s10AppIntents12_IntentValueP
++ _symbolic $s10AppIntents19_ModelRepresentableP
++ _symbolic $s10AppIntents22DynamicOptionsProviderP
++ _symbolic $s18AnnounceAppIntents15HomeDestinationP
++ _symbolic $s18AppIntentsServices0A20IntentRepresentationP
++ _symbolic $sSY
++ _symbolic $ss12CaseIterableP
++ _symbolic $ss12IdentifiableP
++ _symbolic 5Value_____Qz 10AppIntents12IntentResultP
++ _symbolic SS
++ _symbolic SS4room_t
++ _symbolic SaySo6HMHomeCG
++ _symbolic Say_____G 18AnnounceAppIntents17DestinationEntityV
++ _symbolic Say_____G 18AnnounceAppIntents18AnnouncementEntityV
++ _symbolic Say_____G 18AnnounceAppIntents18IntercomHomeEntityV
++ _symbolic Say_____G 18AnnounceAppIntents19DestinationTypeEnumO
++ _symbolic Say_____G 18AnnounceAppIntents23IntercomDismissalReasonO
++ _symbolic SccySaySo21ANAnnouncementContextCG_____G s5NeverO
++ _symbolic Shy_____G 18AnnounceAppIntents17DestinationEntityV
++ _symbolic So10ANAnnounceC
++ _symbolic So13ANHomeManagerC
++ _symbolic So8NSObjectCSg
++ _symbolic _____ 10Foundation4UUIDV
++ _symbolic _____ 18AnnounceAppIntents0abC7PackageV
++ _symbolic _____ 18AnnounceAppIntents17DestinationEntityV
++ _symbolic _____ 18AnnounceAppIntents17DestinationEntityV0D5QueryV
++ _symbolic _____ 18AnnounceAppIntents18AnnouncementEntityV
++ _symbolic _____ 18AnnounceAppIntents18AnnouncementEntityV0D5QueryV
++ _symbolic _____ 18AnnounceAppIntents18IntercomHomeEntityV
++ _symbolic _____ 18AnnounceAppIntents18IntercomHomeEntityV0E5QueryV
++ _symbolic _____ 18AnnounceAppIntents18IntercomQueryErrorO
++ _symbolic _____ 18AnnounceAppIntents19DestinationTypeEnumO
++ _symbolic _____ 18AnnounceAppIntents22DismissIntercomForSiriV
++ _symbolic _____ 18AnnounceAppIntents23IntercomDismissalReasonO
++ _symbolic _____ 18AnnounceAppIntents25ReadAnnouncementErrorCodeO
++ _symbolic _____ 18AnnounceAppIntents25SendAnnouncementErrorCodeO
++ _symbolic _____ 18AnnounceAppIntents26AssistantIntentQueryHelperV
++ _symbolic _____ 18AnnounceAppIntents31ReadAnnouncementAssistantIntentV
++ _symbolic _____ 18AnnounceAppIntents31SendAnnouncementAssistantIntentV
++ _symbolic _____ 18AnnounceAppIntents31StopAnnouncementAssistantIntentV
++ _symbolic _____ 18AnnounceAppIntents32ReplyAnnouncementAssistantIntentV
++ _symbolic _____ 2os6LoggerV
++ _symbolic _____ s5NeverO
++ _symbolic _____6entity______4datet 18AnnounceAppIntents18AnnouncementEntityV 10Foundation4DateV
++ _symbolic _____6entity______4datetSg 18AnnounceAppIntents18AnnouncementEntityV 10Foundation4DateV
++ _symbolic _____Sg 10AppIntents10IntentFileV
++ _symbolic _____Sg 10AppIntents12IntentDialogV
++ _symbolic _____Sg 10AppIntents12UserIdentityV
++ _symbolic _____Sg 10AppIntents21DisplayRepresentationV5ImageV
++ _symbolic _____Sg 10Foundation23LocalizedStringResourceV
++ _symbolic _____Sg 10Foundation3URLV
++ _symbolic _____Sg 10Foundation4DateV
++ _symbolic _____Sg 10Foundation4UUIDV
++ _symbolic _____Sg 18AnnounceAppIntents18AnnouncementEntityV
++ _symbolic _____Sg 18AnnounceAppIntents18IntercomHomeEntityV
++ _symbolic _____Sg 18AppIntentsServices18SnippetEnvironmentV
++ _symbolic _____Sg 22UniformTypeIdentifiers6UTTypeV
++ _symbolic ___________t 18AnnounceAppIntents19DestinationTypeEnumO 0bC021DisplayRepresentationV
++ _symbolic ___________t 8Announce34SendAnnouncementIntentResponseCodeO 0A10AppIntents0bc5ErrorF0O
++ _symbolic _____ySSG 10AppIntents14EntityPropertyC
++ _symbolic _____ySSG s23_ContiguousArrayStorageC
++ _symbolic _____ySbG 10AppIntents14EntityPropertyC
++ _symbolic _____yShy_____GG 10AppIntents15IntentParameterC 08AnnounceaB017DestinationEntityV
++ _symbolic _____ySnySiGG s23_ContiguousArrayStorageC
++ _symbolic _____y_____6entity______4datetG s23_ContiguousArrayStorageC 18AnnounceAppIntents18AnnouncementEntityV 10Foundation4DateV
++ _symbolic _____y_____A3BG 10AppIntents21IntentResultContainerV s5NeverO
++ _symbolic _____y_____G 10AppIntents14EntityPropertyC 08AnnounceaB0012IntercomHomeC0V
++ _symbolic _____y_____G 10AppIntents14EntityPropertyC 08AnnounceaB019DestinationTypeEnumO
++ _symbolic _____y_____G 10AppIntents14EntityPropertyC 10Foundation4DateV
++ _symbolic _____y_____G 10AppIntents15IntentParameterC 08AnnounceaB018AnnouncementEntityV
++ _symbolic _____y_____G 10AppIntents15IntentParameterC 08AnnounceaB018IntercomHomeEntityV
++ _symbolic _____y_____G 10AppIntents15IntentParameterC AA0C4FileV
++ _symbolic _____y_____G 10AppIntents26EmptyResolverSpecificationV 08AnnounceaB017DestinationEntityV
++ _symbolic _____y_____G 10AppIntents26EmptyResolverSpecificationV 08AnnounceaB018AnnouncementEntityV
++ _symbolic _____y_____G 10AppIntents26EmptyResolverSpecificationV 08AnnounceaB018IntercomHomeEntityV
++ _symbolic _____y_____G 10AppIntents27_TextualModelRepresentationV 08AnnounceaB017DestinationEntityV
++ _symbolic _____y_____G 10AppIntents27_TextualModelRepresentationV 08AnnounceaB018AnnouncementEntityV
++ _symbolic _____y_____G 10AppIntents27_TextualModelRepresentationV 08AnnounceaB018IntercomHomeEntityV
++ _symbolic _____y_____G 10AppIntents33_ModelRepresentationTextComponentV 08AnnounceaB017DestinationEntityV
++ _symbolic _____y_____G 10AppIntents33_ModelRepresentationTextComponentV 08AnnounceaB018AnnouncementEntityV
++ _symbolic _____y_____G 10AppIntents33_ModelRepresentationTextComponentV 08AnnounceaB018IntercomHomeEntityV
++ _symbolic _____y_____G 18AppIntentsServices0A19IntentSuccessResultV s5NeverO
++ _symbolic _____y_____G 18AppIntentsServices15IntentParameterC 08AnnounceaB023IntercomDismissalReasonO
++ _symbolic _____y_____G s11_SetStorageC 18AnnounceAppIntents17DestinationEntityV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 18AnnounceAppIntents17DestinationEntityV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 18AnnounceAppIntents18AnnouncementEntityV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 18AnnounceAppIntents18IntercomHomeEntityV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22UniformTypeIdentifiers6UTTypeV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s5UInt8V
++ _symbolic _____y_____SgG 10AppIntents14EntityPropertyC 10Foundation4DateV
++ _symbolic _____y______Qo_ 10AppIntents0A4EnumPAAE28defaultResolverSpecificationQrvpZQO 08AnnounceaB0015DestinationTypeC0O
++ _symbolic _____y______Qo_ 10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQO 08AnnounceaB0025ReadAnnouncementAssistantC0V
++ _symbolic _____y______Qo_ 10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQO 08AnnounceaB0025SendAnnouncementAssistantC0V
++ _symbolic _____y______Qo_ 10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQO 08AnnounceaB0025StopAnnouncementAssistantC0V
++ _symbolic _____y______Qo_ 10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQO 08AnnounceaB0026ReplyAnnouncementAssistantC0V
++ _symbolic _____y__________A2CG 10AppIntents21IntentResultContainerV 08AnnounceaB018AnnouncementEntityV s5NeverO
++ _symbolic _____y__________G s18_DictionaryStorageC 18AnnounceAppIntents19DestinationTypeEnumO 0dE021DisplayRepresentationV
++ _symbolic _____y__________G s18_DictionaryStorageC 8Announce34SendAnnouncementIntentResponseCodeO 0C10AppIntents0de5ErrorH0O
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 18AnnounceAppIntents19DestinationTypeEnumO 0eF021DisplayRepresentationV
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 8Announce34SendAnnouncementIntentResponseCodeO 0D10AppIntents0ef5ErrorI0O
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 10AppIntents29_ModelRepresentationComponentP
++ _symbolic _____yyXlG s23_ContiguousArrayStorageC
++ _symbolic x
++ _type_layout_string 18AnnounceAppIntents22DismissIntercomForSiriV
++ _type_layout_string 18AnnounceAppIntents25SendAnnouncementErrorCodeO
+CStrings:
++ "Addressed to the sender, not the recipients."
++ "AnnouncementEntity/"
++ "AnnouncementEntityQuery"
++ "AssistantIntentQueryHelper"
++ "Based on your settings, this HomePod is in "
++ "Based on your settings, this device is in "
++ "Based on your settings, you can only use Intercom at Home."
++ "DestinationEntityQuery"
++ "Device does not support Announce"
++ "DismissIntercomIntent"
++ "Failed to confirm intent (%s)"
++ "Failed to dismiss Intercom after send: %@"
++ "Failed to write %ld payload byte(s) to disk"
++ "IntercomHomeEntity"
++ "IntercomHomeEntityQuery"
++ "No announcement record id"
++ "No announcement record returned"
++ "No devices are available right now."
++ "No other devices are available right now."
++ "None of those rooms have Intercom turned on."
++ "Original Message"
++ "Payload has neither a file URL nor data"
++ "Perform completed for %s with response %s"
++ "Perform completed with response %s"
++ "Perform failed to resolve announcement: %s"
++ "Perform failed to resolve announcements: %s"
++ "Perform failed to resolve recipients with error %@"
++ "Perform failed with error %@"
++ "Perform start"
++ "Play Intercom Message"
++ "Play an Intercom message you received."
++ "Queried for all announcements"
++ "Queried for all destinations"
++ "Queried for all homes"
++ "Queried for announcements with IDs %s"
++ "Queried for destinations named %s"
++ "Queried for destinations with IDs %s"
++ "Queried for homes named %s"
++ "Queried for homes with IDs %s"
++ "Queried for string match - returning all entities"
++ "Reply to Intercom Message"
++ "Reply to an Intercom message you received."
++ "Returning %ld announcements"
++ "Returning %ld destinations"
++ "Returning %ld homes"
++ "Returning success for test"
++ "Send Intercom Message"
++ "Send a spoken Intercom message to a home."
++ "Spoken on the announcing HomePod, about the rest of the home."
++ "Spoken on the announcing HomePod, about the rest of the home. The placeholder is an Apple product name."
++ "Stop Playing Intercom Messages"
++ "Stop playing Intercom messages."
++ "That location doesn’t have any HomePod speakers or "
++ "That location doesn’t have any HomePod speakers."
++ "The Intercom message being replied to."
++ "The Intercom message to play."
++ "The home to send the Intercom message to."
++ "The placeholder is an Apple product name."
++ "The placeholder is the room the sender is already in, which they just tried to send to."
++ "The recorded message to send as the reply."
++ "The recorded message to send."
++ "The rooms or zones to send the Intercom message to."
++ "There was a problem with Intercom. Please try again later."
++ "To do that, turn on Intercom in the Home settings of your Home app."
++ "To do that, you’ll need to open the Home app."
++ "To do that, you’ll need to update the software for your HomePod or "
++ "To do that, you’ll need to update the software for your HomePod."
++ "Using Test Announcement"
++ "Using Test Home"
++ "Using Test destination"
++ "Wrote %ld payload byte(s) to disk"
++ "You don’t have any HomePod speakers or "
++ "You don’t have any HomePod speakers."
++ "You don’t have any other rooms with HomePod speakers or "
++ "You don’t have any other rooms with HomePod speakers."
++ "cancelled"
++ "com.apple.announced"
++ "com.apple.appintents.entity"
++ "com.apple.homeaccessory-1"
++ "com.apple.intercom"
++ "completed"
++ "contact"
++ "device"
++ "failure"
++ "failureAnnouncingToSelf"
++ "failureNoAnnouncementsToRead"
++ "failureRequiringAppLaunch"
++ "intercom.announcement"
++ "intercom.destination"
++ "intercom.destinationType"
++ "intercom.stopPlayback"
++ "last_played_date"
++ "room"
++ "transcription_text"
++ "zone"
+```

@@ -1,0 +1,17 @@
+## Enhanced Logging
+
+> `FileSystem/Applications/Enhanced Logging.app/Localizable-DEDescriptions.loctable`
+
+```diff
+
+ en.ENHANCED_LOGGING_NEBULA_WATCH = "Sleep Apnea / Breathing Disturbances"
+ en.ENHANCED_LOGGING_NEBULA_WATCH_DESCRIPTION = "The generated files may include breathing disturbance value, the start and end date used to compute the value, and sysdiagnose logs which may include information such as your name, your username, your email address and email settings, features enabled on your Apple Watch, and other details including health feature availability, state, settings for certain Health features (e.g., Heart Rate settings), limited Cycle Tracking data, and ECG app usage data. These logs may include data that could personally identify you."
+ en.ENHANCED_LOGGING_NEBULA_WATCH_SENSITIVE_INFORMATION = "Breathing disturbance value, start and end date used to compute the breathing disturbance value, limited Cycle tracking data…"
++en.ENHANCED_LOGGING_PERCEPTION = "HomeView Recognition Logs"
++en.ENHANCED_LOGGING_PERCEPTION_DESCRIPTION = "Apple is requesting your permission to collect additional diagnostic information about the Recognition feature on your HomeView, to help us investigate and fix a specific problem you’ve reported or that Apple has identified.\n\nWith your consent, and for a limited time, this device will collect and send to Apple data about Recognition on your HomeView, including: whether a person is present in front of the device and their approximate position, movement, and attention (e.g., whether they appear to be looking at the device); whether a detected person is matched against the Recognition profiles of the people who have enrolled on this device, and with what confidence; and metadata about those Recognition profiles. This may include information about people other than you who are near the device, including guests and other members of your household.\nIt may also include information such as which apps are open and when, or what icons are shown on the display.\n\nNone of the collected data includes photos of you or other people near the device, nor raw camera footage, nor the mathematical representations of each user’s face and voice created during Recognition enrollment. Photos, footage, and mathematical representations all remain on your device and are never accessible to Apple.\n\nInformation about Recognition will be collected regardless of whether you or others are actively using the device. For example, it may include periods when someone is detected by the device even if that person is not interacting with it. If someone is actively using the device, the logs may also contain information such as who has used which apps at which times, as well as the position of app icons and windows on the device’s display.\n\nYou may decline this collection without affecting your ability to use your HomeView or its other features."
++en.ENHANCED_LOGGING_PERCEPTION_SENSITIVE_INFORMATION = "User presence, position, attention, voice and face similarity…"
+ en.ENHANCED_LOGGING_PERFORMANCE = "Performance Logs"
+ en.ENHANCED_LOGGING_PERFORMANCE_DESCRIPTION = "The generated files may contain some of your personal information, including information about the system (such as the OS version and hardware model) and details about the applications running and accessories in use. This may reveal what you were doing when system performance issues occurred."
+ en.ENHANCED_LOGGING_PERFORMANCE_SENSITIVE_INFORMATION = "Detailed recent app activity and accessory use…"
+
+```

@@ -1,0 +1,20 @@
+## CoreTransferable
+
+> `/System/Library/Frameworks/CoreTransferable.framework/CoreTransferable`
+
+```diff
+
+ 8.0.39.0.0
+-  __TEXT.__text: 0x33168
++  __TEXT.__text: 0x3320c
+   __TEXT.__objc_methlist: 0x304
+   __TEXT.__const: 0x16f4
+   __TEXT.__gcc_except_tab: 0x40
+Functions:
+~ _$s16CoreTransferable0B0PAAE23resolvedRepresentations33_EC6CF6E99B5CDA12F08FC57AEE4E2958LL3forSayAA30ResolvedTransferRepresentationVG22UniformTypeIdentifiers6UTTypeVSg_tFZ : 772 -> 796
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tt1gq5 : 112 -> 124
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF22UniformTypeIdentifiers6UTTypeV_Tg5Tm : 432 -> 476
+~ _$s16CoreTransferable30_TransferRepresentationOutputsV11contentType17suggestedFileName26shouldAttemptToOpenInPlace8exporter8importerAC07UniformG11Identifiers6UTTypeV_SSSgSbSgq_xYaYbKcSgxq0_YaYbKcSgtcAA0B0RzAA0B8CurrencyR_AaQR0_r1_lufC : 536 -> 560
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF16CoreTransferable30ResolvedTransferRepresentationV_Tg5 : 432 -> 460
+~ _$s16CoreTransferable30_TransferRepresentationOutputsV11contentType17suggestedFileName26shouldAttemptToOpenInPlace9exporting9importingAC07UniformG11Identifiers6UTTypeV_SSSgSbSgq_xYaYbKcSgxq0_YaYbKcSgtcAA0B0RzAA0B8CurrencyR_AaQR0_r1_lufC : 456 -> 488
+```

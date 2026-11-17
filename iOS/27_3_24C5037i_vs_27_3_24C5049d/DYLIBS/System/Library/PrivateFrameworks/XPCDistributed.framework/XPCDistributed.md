@@ -1,0 +1,28 @@
+## XPCDistributed
+
+> `/System/Library/PrivateFrameworks/XPCDistributed.framework/XPCDistributed`
+
+```diff
+
+ 167.0.2.0.0
+-  __TEXT.__text: 0x5ce80
++  __TEXT.__text: 0x5cfec
+   __TEXT.__const: 0x46f0
+   __TEXT.__cstring: 0x1e2c
+   __TEXT.__constg_swiftt: 0x14a8
+Functions:
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSe_SEp_Tg5 : 316 -> 352
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFypXp_Tg5 : 252 -> 276
+~ _$s14XPCDistributed9XPCSystemC7SessionC14sendInvocation2to6target10invocationxAC7ActorIDV_11Distributed16RemoteCallTargetVAC0E7EncoderVztYaAC0lE17CancellationErrorVYKSeRzSERzlFTY0_ : 3820 -> 3832
+~ _$s14XPCDistributed9XPCSystemC17InvocationEncoderV023transformValueForDirectC0_13senderSession08receiverJ0xx_AC0J0CAJtKSeRzSERzlFZ : 980 -> 1012
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSe_SEp_Tg5 : 312 -> 348
+~ _$s14XPCDistributed9XPCSystemC7SessionC21handleReceivedRequest_10replyUsingyAC9TransportC6PacketV7PayloadV_yAMctF : 6856 -> 6860
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF14XPCDistributed9SwiftTypeV_Tg5 : 276 -> 312
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFypXp_Tg5 : 248 -> 272
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFScTy14XPCDistributed9XPCSystemC7SessionC14LocalInterfaceV15ActivationTokenVs5NeverOG_Tg5 : 300 -> 324
+~ _$s19CollectionsInternal5DequeV8_StorageV15_makeUniqueCopyyyF14XPCDistributed19BackpressureManagerC14PendingRequestVyAG4ID64V_G_Tg5 : 156 -> 180
+~ _$s19CollectionsInternal5DequeV8_StorageV13_ensureUnique02isF015minimumCapacity12linearGrowthySb_SiSbtF14XPCDistributed19BackpressureManagerC14PendingRequestVyAJ4ID64V_G_Tg5 : 464 -> 528
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF19CollectionsInternal5DequeVy14XPCDistributed19BackpressureManagerC14PendingRequestVyAK4ID64V_GG_Tg5 : 300 -> 324
+~ _$sSD14XPCDistributeds17CodingUserInfoKeyVRszypRs_rlE7session9xpcSystemSDyACypGyp_AA9XPCSystemCtcfC : 448 -> 460
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tt1gq5 : 112 -> 124
+```

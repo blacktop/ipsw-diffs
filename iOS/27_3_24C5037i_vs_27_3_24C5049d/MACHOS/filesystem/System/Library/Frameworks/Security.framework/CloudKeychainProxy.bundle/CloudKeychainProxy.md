@@ -1,0 +1,16 @@
+## CloudKeychainProxy
+
+> `/System/Library/Frameworks/Security.framework/CloudKeychainProxy.bundle/CloudKeychainProxy`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+
+```diff
+
+-62460.60.42.502.1
++62460.60.60.0.1
+   __TEXT.__text: 0xc168
+   __TEXT.__auth_stubs: 0xbd0
+   __TEXT.__objc_stubs: 0x1920
+```

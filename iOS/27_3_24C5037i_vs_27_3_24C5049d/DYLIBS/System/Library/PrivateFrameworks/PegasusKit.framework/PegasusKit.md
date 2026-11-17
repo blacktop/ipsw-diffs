@@ -1,0 +1,297 @@
+## PegasusKit
+
+> `/System/Library/PrivateFrameworks/PegasusKit.framework/PegasusKit`
+
+```diff
+
+-3610.11.1.0.0
+-  __TEXT.__text: 0x103708
++3610.18.2.0.0
++  __TEXT.__text: 0x1147d8
+   __TEXT.__objc_methlist: 0x518
+-  __TEXT.__const: 0x4f72
+-  __TEXT.__constg_swiftt: 0x2a50
+-  __TEXT.__swift5_typeref: 0x329c
+-  __TEXT.__swift5_reflstr: 0x1a3e
+-  __TEXT.__swift5_fieldmd: 0x1c7c
++  __TEXT.__const: 0x5e94
++  __TEXT.__constg_swiftt: 0x2eec
++  __TEXT.__swift5_typeref: 0x363e
++  __TEXT.__swift5_reflstr: 0x1d07
++  __TEXT.__swift5_fieldmd: 0x2268
+   __TEXT.__swift5_builtin: 0x64
+-  __TEXT.__cstring: 0x2261
+-  __TEXT.__swift5_capture: 0x443c
+-  __TEXT.__oslogstring: 0x37bc
++  __TEXT.__swift5_capture: 0x4548
++  __TEXT.__oslogstring: 0x398c
++  __TEXT.__cstring: 0x2441
+   __TEXT.__swift5_protos: 0x7c
+-  __TEXT.__swift5_proto: 0x230
+-  __TEXT.__swift5_types: 0x1ec
+-  __TEXT.__swift_as_entry: 0x290
+-  __TEXT.__swift_as_ret: 0x2f8
+-  __TEXT.__swift_as_cont: 0x5d8
+-  __TEXT.__swift5_assocty: 0x1a0
++  __TEXT.__swift5_proto: 0x324
++  __TEXT.__swift5_types: 0x258
++  __TEXT.__swift_as_entry: 0x27c
++  __TEXT.__swift_as_ret: 0x2dc
++  __TEXT.__swift_as_cont: 0x59c
++  __TEXT.__swift5_assocty: 0x220
+   __TEXT.__swift5_mpenum: 0x18
+   __TEXT.__swift5_types2: 0x4
+-  __TEXT.__unwind_info: 0x3ae0
+-  __TEXT.__eh_frame: 0x7ca0
++  __TEXT.__unwind_info: 0x3ff8
++  __TEXT.__eh_frame: 0x7cb8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x1c8
+-  __DATA_CONST.__objc_classlist: 0x158
++  __DATA_CONST.__objc_classlist: 0x180
+   __DATA_CONST.__objc_protolist: 0xb0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x5d8
++  __DATA_CONST.__objc_selrefs: 0x5f8
+   __DATA_CONST.__objc_protorefs: 0x60
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0xc288
+-  __AUTH_CONST.__objc_const: 0x27b0
+-  __AUTH_CONST.__auth_got: 0x1dc8
+-  __AUTH.__objc_data: 0x50
+-  __AUTH.__data: 0x6f0
+-  __DATA.__data: 0xf08
+-  __DATA.__common: 0x128
++  __AUTH_CONST.__const: 0xcdf8
++  __AUTH_CONST.__objc_const: 0x2b98
++  __AUTH_CONST.__auth_got: 0x1fc8
++  __AUTH.__objc_data: 0xf0
++  __AUTH.__data: 0xf20
++  __DATA.__data: 0x1370
++  __DATA.__common: 0x140
+   __DATA_DIRTY.__objc_data: 0x670
+-  __DATA_DIRTY.__data: 0x7630
++  __DATA_DIRTY.__data: 0x75d0
+   __DATA_DIRTY.__common: 0xe0
+   __DATA_DIRTY.__bss: 0xe00
+   - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 6148
+-  Symbols:   1852
+-  CStrings:  515
++  Functions: 6603
++  Symbols:   1945
++  CStrings:  542
+ 
+Symbols:
++ _SecTaskCopyValueForEntitlement
++ _SecTaskCreateFromSelf
++ __DATA__TtC10PegasusKit13MovableExpiry
++ __DATA__TtC10PegasusKit20PegasusUsageObserver
++ __DATA__TtC10PegasusKitP33_C2257E0E4C7BF84F9FA648FBF092AD2C13DeadlineTimer
++ __DATA__TtCC10PegasusKit20UsageTelemetryHelperP33_8B53693B8F214FD36A6D1F413D902AF113CallRecording
++ __DATA__TtCC10PegasusKit20UsageTelemetryHelperP33_8B53693B8F214FD36A6D1F413D902AF115RecordedMetrics
++ __IVARS__TtC10PegasusKit13MovableExpiry
++ __IVARS__TtC10PegasusKit20PegasusUsageObserver
++ __IVARS__TtC10PegasusKitP33_C2257E0E4C7BF84F9FA648FBF092AD2C13DeadlineTimer
++ __IVARS__TtCC10PegasusKit20UsageTelemetryHelperP33_8B53693B8F214FD36A6D1F413D902AF113CallRecording
++ __IVARS__TtCC10PegasusKit20UsageTelemetryHelperP33_8B53693B8F214FD36A6D1F413D902AF115RecordedMetrics
++ __METACLASS_DATA__TtC10PegasusKit13MovableExpiry
++ __METACLASS_DATA__TtC10PegasusKit20PegasusUsageObserver
++ __METACLASS_DATA__TtC10PegasusKitP33_C2257E0E4C7BF84F9FA648FBF092AD2C13DeadlineTimer
++ __METACLASS_DATA__TtCC10PegasusKit20UsageTelemetryHelperP33_8B53693B8F214FD36A6D1F413D902AF113CallRecording
++ __METACLASS_DATA__TtCC10PegasusKit20UsageTelemetryHelperP33_8B53693B8F214FD36A6D1F413D902AF115RecordedMetrics
++ ___swift_closure_destructor.302Tm
++ ___swift_closure_destructor.413Tm
++ ___swift_closure_destructor.421Tm
++ ___swift_closure_destructor.426Tm
++ ___swift_get_extra_inhabitant_index.527Tm
++ ___swift_memcpy2_1
++ ___swift_memcpy32_8
++ ___swift_memcpy45_8
++ ___swift_store_extra_inhabitant_index.528Tm
++ _associated conformance 10PegasusKit0A11CallMetricsV10CodingKeys33_3B6AA3B3BF2C6DAFB8C530F2F583699BLLOSHAASQ
++ _associated conformance 10PegasusKit0A11CallMetricsV10CodingKeys33_3B6AA3B3BF2C6DAFB8C530F2F583699BLLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 10PegasusKit0A11CallMetricsV10CodingKeys33_3B6AA3B3BF2C6DAFB8C530F2F583699BLLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10PegasusKit0A11PhaseTimingV10CodingKeys33_4598496F45502B6F13D1ABBA0D0AE448LLOSHAASQ
++ _associated conformance 10PegasusKit0A11PhaseTimingV10CodingKeys33_4598496F45502B6F13D1ABBA0D0AE448LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 10PegasusKit0A11PhaseTimingV10CodingKeys33_4598496F45502B6F13D1ABBA0D0AE448LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10PegasusKit0A12SetupMetricsV10CodingKeys33_4598496F45502B6F13D1ABBA0D0AE448LLOSHAASQ
++ _associated conformance 10PegasusKit0A12SetupMetricsV10CodingKeys33_4598496F45502B6F13D1ABBA0D0AE448LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 10PegasusKit0A12SetupMetricsV10CodingKeys33_4598496F45502B6F13D1ABBA0D0AE448LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10PegasusKit0A14NetworkMetricsV10CodingKeys33_4598496F45502B6F13D1ABBA0D0AE448LLOSHAASQ
++ _associated conformance 10PegasusKit0A14NetworkMetricsV10CodingKeys33_4598496F45502B6F13D1ABBA0D0AE448LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 10PegasusKit0A14NetworkMetricsV10CodingKeys33_4598496F45502B6F13D1ABBA0D0AE448LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10PegasusKit0A15PATFetchMetricsV10CodingKeys33_4598496F45502B6F13D1ABBA0D0AE448LLOSHAASQ
++ _associated conformance 10PegasusKit0A15PATFetchMetricsV10CodingKeys33_4598496F45502B6F13D1ABBA0D0AE448LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 10PegasusKit0A15PATFetchMetricsV10CodingKeys33_4598496F45502B6F13D1ABBA0D0AE448LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10PegasusKit0A19ConnectivityMetricsV10CodingKeys33_4598496F45502B6F13D1ABBA0D0AE448LLOSHAASQ
++ _associated conformance 10PegasusKit0A19ConnectivityMetricsV10CodingKeys33_4598496F45502B6F13D1ABBA0D0AE448LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 10PegasusKit0A19ConnectivityMetricsV10CodingKeys33_4598496F45502B6F13D1ABBA0D0AE448LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10PegasusKit0A19ContextFetchMetricsV10CodingKeys33_4598496F45502B6F13D1ABBA0D0AE448LLOSHAASQ
++ _associated conformance 10PegasusKit0A19ContextFetchMetricsV10CodingKeys33_4598496F45502B6F13D1ABBA0D0AE448LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 10PegasusKit0A19ContextFetchMetricsV10CodingKeys33_4598496F45502B6F13D1ABBA0D0AE448LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10PegasusKit13EncodablePath33_4598496F45502B6F13D1ABBA0D0AE448LLV10CodingKeysOSHAASQ
++ _associated conformance 10PegasusKit13EncodablePath33_4598496F45502B6F13D1ABBA0D0AE448LLV10CodingKeysOs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 10PegasusKit13EncodablePath33_4598496F45502B6F13D1ABBA0D0AE448LLV10CodingKeysOs0L3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10PegasusKit24NetworkPathObservedEventV16KnowledgeTracing04SpanF0AA10DispatcherAdEP_AD0F11Dispatching
++ _associated conformance 10PegasusKit24NetworkPathObservedEventV16KnowledgeTracing04SpanF0AA18SignpostDispatcherAdEP_AD0J11Dispatching
++ _associated conformance 10PegasusKit24NetworkPathObservedEventV16KnowledgeTracing04SpanF0AaD0F10Describing
++ _associated conformance 10PegasusKit24NetworkPathObservedEventV16KnowledgeTracing04SpanF0AaD12TracePayload
++ _symbolic $s16GRPCCoreInternal19MessageDeserializerP
++ _symbolic $s16KnowledgeTracing9SpanEventP
++ _symbolic Iegh_
++ _symbolic SDySSSo8NSNumberCG
++ _symbolic ScTyyt_____GSg s5NeverO
++ _symbolic _____ 10Foundation4DateV
++ _symbolic _____ 10PegasusAPI41Apple_Parsec_Sam_V1alpha_SAMAgentResponseV
++ _symbolic _____ 10PegasusKit0A11CallMetricsV10CodingKeys33_3B6AA3B3BF2C6DAFB8C530F2F583699BLLO
++ _symbolic _____ 10PegasusKit0A11PhaseTimingV10CodingKeys33_4598496F45502B6F13D1ABBA0D0AE448LLO
++ _symbolic _____ 10PegasusKit0A12SetupMetricsV10CodingKeys33_4598496F45502B6F13D1ABBA0D0AE448LLO
++ _symbolic _____ 10PegasusKit0A12WarmupPolicyO
++ _symbolic _____ 10PegasusKit0A13UsageObserverC
++ _symbolic _____ 10PegasusKit0A14NetworkMetricsV10CodingKeys33_4598496F45502B6F13D1ABBA0D0AE448LLO
++ _symbolic _____ 10PegasusKit0A15CallObservationV
++ _symbolic _____ 10PegasusKit0A15CallObservationV10ChunkTally33_FEFE532FF8707EDC18B53E02B9E36A83LLV
++ _symbolic _____ 10PegasusKit0A15CallObservationV12InterimEventO
++ _symbolic _____ 10PegasusKit0A15CallObservationV5Fetch33_FEFE532FF8707EDC18B53E02B9E36A83LLV
++ _symbolic _____ 10PegasusKit0A15CallObservationV5PhaseV
++ _symbolic _____ 10PegasusKit0A15CallObservationV9PathTally33_FEFE532FF8707EDC18B53E02B9E36A83LLV
++ _symbolic _____ 10PegasusKit0A15PATFetchMetricsV10CodingKeys33_4598496F45502B6F13D1ABBA0D0AE448LLO
++ _symbolic _____ 10PegasusKit0A19ConnectivityMetricsV10CodingKeys33_4598496F45502B6F13D1ABBA0D0AE448LLO
++ _symbolic _____ 10PegasusKit0A19ContextFetchMetricsV10CodingKeys33_4598496F45502B6F13D1ABBA0D0AE448LLO
++ _symbolic _____ 10PegasusKit0A27ProxyForSAMIntelligenceFlowC34ResponseChunkMeasuringDeserializer33_741D857747BF1BC1BE5319684A04D94ELLV
++ _symbolic _____ 10PegasusKit0A9EarlyDataO
++ _symbolic _____ 10PegasusKit13DeadlineTimer33_C2257E0E4C7BF84F9FA648FBF092AD2CLLC
++ _symbolic _____ 10PegasusKit13DeadlineTimer33_C2257E0E4C7BF84F9FA648FBF092AD2CLLC5StateV
++ _symbolic _____ 10PegasusKit13EncodablePath33_4598496F45502B6F13D1ABBA0D0AE448LLV
++ _symbolic _____ 10PegasusKit13EncodablePath33_4598496F45502B6F13D1ABBA0D0AE448LLV10CodingKeysO
++ _symbolic _____ 10PegasusKit13MovableExpiryC
++ _symbolic _____ 10PegasusKit13MovableExpiryC5State33_C2257E0E4C7BF84F9FA648FBF092AD2CLLV
++ _symbolic _____ 10PegasusKit20UsageTelemetryHelperC10SearchCallV
++ _symbolic _____ 10PegasusKit20UsageTelemetryHelperC13CallRecording33_8B53693B8F214FD36A6D1F413D902AF1LLC
++ _symbolic _____ 10PegasusKit20UsageTelemetryHelperC15RecordedMetrics33_8B53693B8F214FD36A6D1F413D902AF1LLC
++ _symbolic _____ 10PegasusKit20UsageTelemetryHelperC15RecordedMetrics33_8B53693B8F214FD36A6D1F413D902AF1LLC7StorageV
++ _symbolic _____ 10PegasusKit22UnavailableTrialClientV
++ _symbolic _____ 10PegasusKit24NetworkPathObservedEventV
++ _symbolic _____ 16KnowledgeTracing6SpanIDV
++ _symbolic _____ 16KnowledgeTracing7TraceIDV
++ _symbolic _____ 20PegasusConfiguration12NetworkStateO8SnapshotV
++ _symbolic _____ 20PegasusConfiguration23NetworkMonitorAwareSpanC
++ _symbolic _____Sg 10PegasusKit0A11CallMetricsV
++ _symbolic _____Sg 10PegasusKit0A15CallObservationV12InterimEventO
++ _symbolic _____Sg 10PegasusKit0A15CallObservationV5PhaseV
++ _symbolic _____Sg 16KnowledgeTracing6SpanIDV
++ _symbolic _____Sg 20PegasusConfiguration12NetworkStateO8SnapshotV
++ _symbolic _____Sg 20PegasusConfiguration17ResourceAccessEndV
++ _symbolic _____Sg 20PegasusConfiguration19ResourceAccessStartV
++ _symbolic _____Sg 20PegasusConfiguration21ResourceAccessOutcomeO
++ _symbolic _____Sg5bytes_t s6UInt64V
++ _symbolic _____SgXw 10PegasusKit13DeadlineTimer33_C2257E0E4C7BF84F9FA648FBF092AD2CLLC
++ _symbolic _____SgXwz_Xx 10PegasusKit13DeadlineTimer33_C2257E0E4C7BF84F9FA648FBF092AD2CLLC
++ _symbolic _____Sg_ABt 16KnowledgeTracing6SpanIDV
++ _symbolic _____Sg_ABt 20PegasusConfiguration21ResourceAccessOutcomeO
++ _symbolic ______p 20PegasusConfiguration16NetworkPathStateP
++ _symbolic _____ySS_So8NSNumberCtG s23_ContiguousArrayStorageC
++ _symbolic _____ySS______tG s23_ContiguousArrayStorageC 16KnowledgeTracing14AttributeValueO
++ _symbolic _____y_____G 15Synchronization5MutexVAARi_zrlE 10PegasusKit13DeadlineTimer33_C2257E0E4C7BF84F9FA648FBF092AD2CLLC5StateV
++ _symbolic _____y_____G 15Synchronization5MutexVAARi_zrlE 10PegasusKit13MovableExpiryC5State33_C2257E0E4C7BF84F9FA648FBF092AD2CLLV
++ _symbolic _____y_____G 15Synchronization5MutexVAARi_zrlE 10PegasusKit20UsageTelemetryHelperC15RecordedMetrics33_8B53693B8F214FD36A6D1F413D902AF1LLC7StorageV
++ _symbolic _____y_____G 15Synchronization5_CellVAARi_zrlE 10PegasusKit13MovableExpiryC5State33_C2257E0E4C7BF84F9FA648FBF092AD2CLLV
++ _symbolic _____y_____G 15Synchronization5_CellVAARi_zrlE 10PegasusKit20UsageTelemetryHelperC15RecordedMetrics33_8B53693B8F214FD36A6D1F413D902AF1LLC7StorageV
++ _symbolic _____y_____G 15Synchronization6AtomicV s6UInt64V
++ _symbolic _____y_____G 16KnowledgeTracing19NoOpEventDispatcherV 10PegasusKit019NetworkPathObservedE0V
++ _symbolic _____y_____G 16KnowledgeTracing21NoOpWriteAheadStorageV 20PegasusConfiguration06ParsecB6ConfigV
++ _symbolic _____y_____G 16KnowledgeTracing22NoOpSignpostDispatcherV 10PegasusKit24NetworkPathObservedEventV
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10PegasusKit0D11CallMetricsV10CodingKeys33_3B6AA3B3BF2C6DAFB8C530F2F583699BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10PegasusKit0D11PhaseTimingV10CodingKeys33_4598496F45502B6F13D1ABBA0D0AE448LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10PegasusKit0D12SetupMetricsV10CodingKeys33_4598496F45502B6F13D1ABBA0D0AE448LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10PegasusKit0D14NetworkMetricsV10CodingKeys33_4598496F45502B6F13D1ABBA0D0AE448LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10PegasusKit0D15PATFetchMetricsV10CodingKeys33_4598496F45502B6F13D1ABBA0D0AE448LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10PegasusKit0D19ConnectivityMetricsV10CodingKeys33_4598496F45502B6F13D1ABBA0D0AE448LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10PegasusKit0D19ContextFetchMetricsV10CodingKeys33_4598496F45502B6F13D1ABBA0D0AE448LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10PegasusKit13EncodablePath33_4598496F45502B6F13D1ABBA0D0AE448LLV10CodingKeysO
++ _symbolic y_____Ybc 10PegasusKit0A11CallMetricsV
++ _symbolic yyYbcSg
++ _type_layout_string 10PegasusKit13DeadlineTimer33_C2257E0E4C7BF84F9FA648FBF092AD2CLLC5StateV
++ _type_layout_string 10PegasusKit13EncodablePath33_4598496F45502B6F13D1ABBA0D0AE448LLV
++ _type_layout_string 10PegasusKit17SAMStreamDeadlineC5State33_741D857747BF1BC1BE5319684A04D94ELLV
+- _OUTLINED_FUNCTION_547
+- _OUTLINED_FUNCTION_548
+- _OUTLINED_FUNCTION_549
+- _OUTLINED_FUNCTION_550
+- _OUTLINED_FUNCTION_551
+- _OUTLINED_FUNCTION_552
+- _OUTLINED_FUNCTION_553
+- _OUTLINED_FUNCTION_554
+- _OUTLINED_FUNCTION_555
+- _OUTLINED_FUNCTION_556
+- _OUTLINED_FUNCTION_557
+- _OUTLINED_FUNCTION_558
+- _OUTLINED_FUNCTION_559
+- _OUTLINED_FUNCTION_560
+- _OUTLINED_FUNCTION_561
+- _OUTLINED_FUNCTION_562
+- _OUTLINED_FUNCTION_563
+- _OUTLINED_FUNCTION_564
+- _OUTLINED_FUNCTION_565
+- _OUTLINED_FUNCTION_566
+- _OUTLINED_FUNCTION_567
+- _OUTLINED_FUNCTION_568
+- _OUTLINED_FUNCTION_569
+- _OUTLINED_FUNCTION_570
+- _OUTLINED_FUNCTION_571
+- _OUTLINED_FUNCTION_572
+- ___swift_closure_destructor.309Tm
+- ___swift_closure_destructor.420Tm
+- ___swift_closure_destructor.428Tm
+- ___swift_get_extra_inhabitant_index.523Tm
+- ___swift_memcpy24_8
+- ___swift_store_extra_inhabitant_index.524Tm
+- _swift_cvw_instantiateLayoutString
+- _symbolic _____ 10PegasusKit34Apple_Parsec_Sam_V1alpha_SAMSearchO6ClientV
+- _symbolic _____Ieghr_ s15ContinuousClockV7InstantV
+- _symbolic _____y_____G 15Synchronization5_CellVAARi_zrlE 10PegasusKit17SAMStreamDeadlineC5State33_741D857747BF1BC1BE5319684A04D94ELLV
+- _symbolic _____y______G 10PegasusKit34Apple_Parsec_Sam_V1alpha_SAMSearchO6ClientV 31GRPCURLSessionTransportInternal010URLSessionJ0C
+- _symbolic _____yxG 16GRPCCoreInternal10GRPCClientC
+- _type_layout_string 16GRPCCoreInternal15ClientTransportRzl10PegasusKit34Apple_Parsec_Sam_V1alpha_SAMSearchO0C0Vy_xG
+CStrings:
++ " after it started; treating it as stalled. "
++ " old when the search arrived, "
++ "No transaction metrics available for %{public}s; timing data is empty"
++ "Process lacks the %{public}s entitlement for Trial namespace %{public}s; using default factor values"
++ "Skipping warmup for session: %s, disabled by Trial"
++ "_kCFNTimingDataTCPFastOpenStats"
++ "a search call began while another search call was running; no metrics for either"
++ "chunkCount"
++ "com.apple.PegasusConfiguration"
++ "com.apple.trial.client"
++ "connectivity"
++ "contextFetch"
++ "downloadedKilobytes"
++ "failureReason"
++ "finalState"
++ "finalStateOffsetMs"
++ "firstChunkOffsetMs"
++ "initialState"
++ "network"
++ "network-path-observed"
++ "patFetch"
++ "periodic_warmup_disabled"
++ "sam-response-chunk"
++ "setup"
++ "so the search waited "
++ "the attributes of a chunk event could not be read: %s"
++ "the usage observer could not be attached: %s"
++ "timing"
++ "unsatisfiedReason"
+- " after it started; treating it as stalled"
+- "_kCFNTimingDataRedirectCount"
+```

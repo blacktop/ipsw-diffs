@@ -1,0 +1,80 @@
+## PaperKit
+
+> `FileSystem/System/Library/Frameworks/PaperKit.framework/Localizable.loctable`
+
+```diff
+
++en.%ld pt = "%ld pt"
+ en.%lu of %lu = "%lu of %lu"
+ en.Add App Link = "Add App Link"
+ en.Add Form Item to PDF = "Add Form Item to PDF"
+
+ en.Color (Page Filter) = "Color"
+ en.Color Picker = "Color Picker"
+ en.Color Picker, Current Color: %@ = "Color Picker, Current Color: %@"
++en.Color Picker, Current Color: (AXNameFromColor(cgColor)) = "Color Picker, Current Color: (AXNameFromColor(cgColor))"
+ en.Control Handle = "Control Handle"
+ en.Convert to Handwriting = "Convert to Handwriting"
+ en.Copy (Crop) = "Copy"
+
+ en.Custom Tool = "Custom Tool"
+ en.Custom color = "Custom color"
+ en.Cut = "Cut"
++en.Decrease Font Size = "Decrease Font Size"
+ en.Delete (Accessibility) = "Delete"
+ en.Delete = "Delete"
+ en.Delete Page = "Delete Page"
+
+ en.Diagnostics = "Diagnostics"
+ en.Double tap to open custom color picker = "Double tap to open custom color picker"
+ en.Draw a circle with Image Wand to create a new image inspired by your note. = "Draw a circle with Image Wand to create a new image inspired by your note."
++en.Drawing Color = "Drawing Color"
++en.Drawing Tools = "Drawing Tools"
+ en.Drawing tool = "Drawing tool"
+ en.Duplicate = "Duplicate"
+ en.Edit Attachment = "Edit Attachment"
+
+ en.Image = "Image"
+ en.Image Description = "Image Description"
+ en.Image Description Title = "Image Description"
++en.Increase Font Size = "Increase Font Size"
++en.Info = "Info"
+ en.Initials = "Initials"
+ en.Insert Blank Page = "Insert Blank Page"
+ en.Insert Space = "Insert Space"
+
+ en.Line Arrow = "Line Arrow"
+ en.Line Ends = "Line Ends"
+ en.Looks Good = "Looks Good"
++en.Make readonly = "Make readonly"
+ en.Medium = "Medium"
+ en.Minus = "Minus"
+ en.Modify Strokes = "Modify Strokes"
+ en.More Text Colors = "More Text Colors"
++en.Multiple = "Multiple"
+ en.New Quick Note = "New Quick Note"
+ en.New Signature = "New Signature"
+ en.Nickname = "Nickname"
+
+ en.Recreate = "Recreate"
+ en.Rectangle (Shape Name) = "Rectangle"
+ en.Rectangle = "Rectangle"
++en.Rectangular Selection = "Rectangular Selection"
+ en.Redact = "Redact"
+ en.Refine = "Refine"
+ en.Regular Polygon = "Regular Polygon"
+
+ en.Selection tool = "Selection tool"
+ en.Send to Back = "Send to Back"
+ en.Set Inks = "Set Inks"
++en.Set synthetic strokes = "Set synthetic strokes"
+ en.Shape %@ = "Shape %@"
++en.Shapes = "Shapes"
+ en.Share = "Share"
+ en.Show/Hide Below = "Show/Hide Below"
++en.Sign = "Sign"
+ en.Sign your name using your Pencil or finger = "Sign your name using your Pencil or finger"
+ en.Sign your name using your finger = "Sign your name using your finger"
+ en.Signature = "Signature"
+
+```

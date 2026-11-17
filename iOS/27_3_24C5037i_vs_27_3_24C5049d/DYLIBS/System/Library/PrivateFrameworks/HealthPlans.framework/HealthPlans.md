@@ -1,0 +1,129 @@
+## HealthPlans
+
+> `/System/Library/PrivateFrameworks/HealthPlans.framework/HealthPlans`
+
+```diff
+
+-7027.2.13.0.0
+-  __TEXT.__text: 0xcbd54
++7027.2.519.2.2
++  __TEXT.__text: 0xc86f0
+   __TEXT.__objc_methlist: 0x44
+-  __TEXT.__const: 0xd726
+-  __TEXT.__cstring: 0x1a16
+-  __TEXT.__constg_swiftt: 0x24dc
+-  __TEXT.__swift5_typeref: 0x1aff
+-  __TEXT.__swift5_reflstr: 0x1e15
+-  __TEXT.__swift5_fieldmd: 0x2cd8
++  __TEXT.__const: 0xca86
++  __TEXT.__cstring: 0x1a56
++  __TEXT.__constg_swiftt: 0x22b0
++  __TEXT.__swift5_typeref: 0x198b
++  __TEXT.__swift5_reflstr: 0x1dd5
++  __TEXT.__swift5_fieldmd: 0x2b0c
+   __TEXT.__swift5_builtin: 0x64
+   __TEXT.__swift5_assocty: 0x438
+-  __TEXT.__swift5_proto: 0xd58
+-  __TEXT.__swift5_types: 0x3a4
++  __TEXT.__swift5_proto: 0xc7c
++  __TEXT.__swift5_types: 0x368
+   __TEXT.__oslogstring: 0x92f
+-  __TEXT.__swift5_protos: 0x48
++  __TEXT.__swift5_protos: 0x44
+   __TEXT.__swift5_mpenum: 0x20
+   __TEXT.__swift5_capture: 0x1dc
+-  __TEXT.__swift_as_entry: 0x208
+-  __TEXT.__swift_as_ret: 0x1d8
+-  __TEXT.__swift_as_cont: 0x2d4
+-  __TEXT.__unwind_info: 0x48a0
+-  __TEXT.__eh_frame: 0x5d74
++  __TEXT.__swift_as_entry: 0x1f8
++  __TEXT.__swift_as_ret: 0x1c4
++  __TEXT.__swift_as_cont: 0x2b0
++  __TEXT.__unwind_info: 0x45f0
++  __TEXT.__eh_frame: 0x59a4
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_selrefs: 0x178
+   __DATA_CONST.__objc_protorefs: 0x8
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x6aa8
++  __AUTH_CONST.__const: 0x6610
+   __AUTH_CONST.__objc_const: 0x7d8
+   __AUTH_CONST.__auth_got: 0x1058
+   __AUTH.__objc_data: 0xf0
+-  __AUTH.__data: 0x2138
+-  __DATA.__data: 0x2d08
++  __AUTH.__data: 0x2048
++  __DATA.__data: 0x2af0
+   __DATA.__common: 0x18
+   __DATA_DIRTY.__data: 0x28
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 5056
+-  Symbols:   1102
+-  CStrings:  243
++  Functions: 4882
++  Symbols:   1056
++  CStrings:  245
+ 
+Symbols:
+- _associated conformance 11HealthPlans29ActionSuggestionFeatureStatusV10CodingKeys33_0ECC305CD770D27552466947DA515251LLOSHAASQ
+- _associated conformance 11HealthPlans29ActionSuggestionFeatureStatusV10CodingKeys33_0ECC305CD770D27552466947DA515251LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 11HealthPlans29ActionSuggestionFeatureStatusV10CodingKeys33_0ECC305CD770D27552466947DA515251LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 11HealthPlans29ActionSuggestionFeatureStatusV5StateO10CodingKeys33_0ECC305CD770D27552466947DA515251LLOSHAASQ
+- _associated conformance 11HealthPlans29ActionSuggestionFeatureStatusV5StateO10CodingKeys33_0ECC305CD770D27552466947DA515251LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 11HealthPlans29ActionSuggestionFeatureStatusV5StateO10CodingKeys33_0ECC305CD770D27552466947DA515251LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 11HealthPlans29ActionSuggestionFeatureStatusV5StateO17EnabledCodingKeys33_0ECC305CD770D27552466947DA515251LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 11HealthPlans29ActionSuggestionFeatureStatusV5StateO17EnabledCodingKeys33_0ECC305CD770D27552466947DA515251LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 11HealthPlans29ActionSuggestionFeatureStatusV5StateO18DisabledCodingKeys33_0ECC305CD770D27552466947DA515251LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 11HealthPlans29ActionSuggestionFeatureStatusV5StateO18DisabledCodingKeys33_0ECC305CD770D27552466947DA515251LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 11HealthPlans29ActionSuggestionFeatureStatusV5StateO23NotDeterminedCodingKeys33_0ECC305CD770D27552466947DA515251LLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 11HealthPlans29ActionSuggestionFeatureStatusV5StateO23NotDeterminedCodingKeys33_0ECC305CD770D27552466947DA515251LLOs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 11HealthPlans29ActionSuggestionFeatureStatusV5StateOSHAASQ
+- _associated conformance 11HealthPlans29ActionSuggestionFeatureStatusVSHAASQ
+- _associated conformance 11HealthPlans35LegacyActionSuggestionFeatureStatusV10CodingKeys33_1305B051866CF7C4C1292C89F91A9B60LLOSHAASQ
+- _associated conformance 11HealthPlans35LegacyActionSuggestionFeatureStatusV10CodingKeys33_1305B051866CF7C4C1292C89F91A9B60LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 11HealthPlans35LegacyActionSuggestionFeatureStatusV10CodingKeys33_1305B051866CF7C4C1292C89F91A9B60LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 11HealthPlans35LegacyActionSuggestionFeatureStatusV5StateO10CodingKeys33_1305B051866CF7C4C1292C89F91A9B60LLOSHAASQ
+- _associated conformance 11HealthPlans35LegacyActionSuggestionFeatureStatusV5StateO10CodingKeys33_1305B051866CF7C4C1292C89F91A9B60LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 11HealthPlans35LegacyActionSuggestionFeatureStatusV5StateO10CodingKeys33_1305B051866CF7C4C1292C89F91A9B60LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 11HealthPlans35LegacyActionSuggestionFeatureStatusV5StateO17EnabledCodingKeys33_1305B051866CF7C4C1292C89F91A9B60LLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 11HealthPlans35LegacyActionSuggestionFeatureStatusV5StateO17EnabledCodingKeys33_1305B051866CF7C4C1292C89F91A9B60LLOs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 11HealthPlans35LegacyActionSuggestionFeatureStatusV5StateO18DisabledCodingKeys33_1305B051866CF7C4C1292C89F91A9B60LLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 11HealthPlans35LegacyActionSuggestionFeatureStatusV5StateO18DisabledCodingKeys33_1305B051866CF7C4C1292C89F91A9B60LLOs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 11HealthPlans35LegacyActionSuggestionFeatureStatusV5StateO23NotDeterminedCodingKeys33_1305B051866CF7C4C1292C89F91A9B60LLOs0K3KeyAAs23CustomStringConvertible
+- _associated conformance 11HealthPlans35LegacyActionSuggestionFeatureStatusV5StateO23NotDeterminedCodingKeys33_1305B051866CF7C4C1292C89F91A9B60LLOs0K3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 11HealthPlans35LegacyActionSuggestionFeatureStatusV5StateOSHAASQ
+- _associated conformance 11HealthPlans35LegacyActionSuggestionFeatureStatusVSHAASQ
+- _objc_release_x28
+- _symbolic $s11HealthPlans38ActionSuggestionFeatureStatusProvidingP
+- _symbolic _____ 11HealthPlans29ActionSuggestionFeatureStatusV
+- _symbolic _____ 11HealthPlans29ActionSuggestionFeatureStatusV10CodingKeys33_0ECC305CD770D27552466947DA515251LLO
+- _symbolic _____ 11HealthPlans29ActionSuggestionFeatureStatusV5StateO
+- _symbolic _____ 11HealthPlans29ActionSuggestionFeatureStatusV5StateO10CodingKeys33_0ECC305CD770D27552466947DA515251LLO
+- _symbolic _____ 11HealthPlans29ActionSuggestionFeatureStatusV5StateO17EnabledCodingKeys33_0ECC305CD770D27552466947DA515251LLO
+- _symbolic _____ 11HealthPlans29ActionSuggestionFeatureStatusV5StateO18DisabledCodingKeys33_0ECC305CD770D27552466947DA515251LLO
+- _symbolic _____ 11HealthPlans29ActionSuggestionFeatureStatusV5StateO23NotDeterminedCodingKeys33_0ECC305CD770D27552466947DA515251LLO
+- _symbolic _____ 11HealthPlans35LegacyActionSuggestionFeatureStatusV
+- _symbolic _____ 11HealthPlans35LegacyActionSuggestionFeatureStatusV10CodingKeys33_1305B051866CF7C4C1292C89F91A9B60LLO
+- _symbolic _____ 11HealthPlans35LegacyActionSuggestionFeatureStatusV5StateO
+- _symbolic _____ 11HealthPlans35LegacyActionSuggestionFeatureStatusV5StateO10CodingKeys33_1305B051866CF7C4C1292C89F91A9B60LLO
+- _symbolic _____ 11HealthPlans35LegacyActionSuggestionFeatureStatusV5StateO17EnabledCodingKeys33_1305B051866CF7C4C1292C89F91A9B60LLO
+- _symbolic _____ 11HealthPlans35LegacyActionSuggestionFeatureStatusV5StateO18DisabledCodingKeys33_1305B051866CF7C4C1292C89F91A9B60LLO
+- _symbolic _____ 11HealthPlans35LegacyActionSuggestionFeatureStatusV5StateO23NotDeterminedCodingKeys33_1305B051866CF7C4C1292C89F91A9B60LLO
+- _symbolic _____ 11HealthPlans37ActionSuggestionFeatureStatusProviderV
+- _type_layout_string 11HealthPlans37ActionSuggestionFeatureStatusProviderV
+CStrings:
++ " from HealthPlans, "
++ " reported by the generator)"
++ "generatorFailureCount"
++ "healthPlansFailureCount"
+- " successive failures)"
+- "totalFailureCount"
+```

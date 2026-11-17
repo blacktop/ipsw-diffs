@@ -1,0 +1,63 @@
+## FitnessMachineServices
+
+> `/System/Library/PrivateFrameworks/FitnessMachineServices.framework/FitnessMachineServices`
+
+```diff
+
+-2027.2.25.0.0
+-  __TEXT.__text: 0x3d830
++2027.2.34.0.0
++  __TEXT.__text: 0x3d8b8
+   __TEXT.__objc_methlist: 0x15a8
+   __TEXT.__const: 0x2d18
+   __TEXT.__cstring: 0x2073
+   __TEXT.__gcc_except_tab: 0x39c
+   __TEXT.__oslogstring: 0x1ca5
+   __TEXT.__constg_swiftt: 0xfc4
+-  __TEXT.__swift5_typeref: 0x3fa4
++  __TEXT.__swift5_typeref: 0x3fae
+   __TEXT.__swift5_fieldmd: 0x958
+   __TEXT.__swift5_reflstr: 0xcce
+   __TEXT.__swift5_builtin: 0x140
+
+   __DATA_CONST.__objc_selrefs: 0xe18
+   __DATA_CONST.__objc_protorefs: 0x88
+   __DATA_CONST.__objc_superrefs: 0x30
+-  __DATA_CONST.__got: 0x6b8
++  __DATA_CONST.__got: 0x6c0
+   __AUTH_CONST.__const: 0x2138
+   __AUTH_CONST.__cfstring: 0x920
+   __AUTH_CONST.__objc_const: 0x2868
+
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+   Functions: 1573
+-  Symbols:   4734
++  Symbols:   4736
+   CStrings:  335
+ 
+Symbols:
++ _$s13SeymourClient11HealthStoreVAA0cD12CloudSyncingAAWP
++ _$s13SeymourClient21ActivityRingsQuerying_AA29HealthCharacteristicsProtocolAA0F17StoreCloudSyncingAA0fI8UpdatingAA15WorkoutBuildingpMR
++ _$s13SeymourClient21ActivityRingsQuerying_AA29HealthCharacteristicsProtocolAA0F17StoreCloudSyncingAA0fI8UpdatingAA15WorkoutBuildingpMd
++ _$s13SeymourClient23HealthStoreCloudSyncingMp
++ _$s21SeymourCoreFoundation10DependencyVy0A6Client21ActivityRingsQuerying_AD29HealthCharacteristicsProtocolAD0I17StoreCloudSyncingAD0iL8UpdatingAD15WorkoutBuildingpGACyxGAA0D10DescriptorAAWL
++ _$s21SeymourCoreFoundation10DependencyVy0A6Client21ActivityRingsQuerying_AD29HealthCharacteristicsProtocolAD0I17StoreCloudSyncingAD0iL8UpdatingAD15WorkoutBuildingpGMR
++ _$s21SeymourCoreFoundation10DependencyVy0A6Client21ActivityRingsQuerying_AD29HealthCharacteristicsProtocolAD0I17StoreCloudSyncingAD0iL8UpdatingAD15WorkoutBuildingpGMd
++ _symbolic __________________________p 13SeymourClient21ActivityRingsQueryingP AA29HealthCharacteristicsProtocolP AA0F17StoreCloudSyncingP AA0fI8UpdatingP AA15WorkoutBuildingP
++ _symbolic _____y__________________________pG 21SeymourCoreFoundation10DependencyV 0A6Client21ActivityRingsQueryingP AD29HealthCharacteristicsProtocolP AD0I17StoreCloudSyncingP AD0iL8UpdatingP AD15WorkoutBuildingP
+- _$s13SeymourClient21ActivityRingsQuerying_AA29HealthCharacteristicsProtocolAA0F13StoreUpdatingAA15WorkoutBuildingpMR
+- _$s13SeymourClient21ActivityRingsQuerying_AA29HealthCharacteristicsProtocolAA0F13StoreUpdatingAA15WorkoutBuildingpMd
+- _$s21SeymourCoreFoundation10DependencyVy0A6Client21ActivityRingsQuerying_AD29HealthCharacteristicsProtocolAD0I13StoreUpdatingAD15WorkoutBuildingpGACyxGAA0D10DescriptorAAWL
+- _$s21SeymourCoreFoundation10DependencyVy0A6Client21ActivityRingsQuerying_AD29HealthCharacteristicsProtocolAD0I13StoreUpdatingAD15WorkoutBuildingpGMR
+- _$s21SeymourCoreFoundation10DependencyVy0A6Client21ActivityRingsQuerying_AD29HealthCharacteristicsProtocolAD0I13StoreUpdatingAD15WorkoutBuildingpGMd
+- _symbolic _____________________p 13SeymourClient21ActivityRingsQueryingP AA29HealthCharacteristicsProtocolP AA0F13StoreUpdatingP AA15WorkoutBuildingP
+- _symbolic _____y_____________________pG 21SeymourCoreFoundation10DependencyV 0A6Client21ActivityRingsQueryingP AD29HealthCharacteristicsProtocolP AD0I13StoreUpdatingP AD15WorkoutBuildingP
+Functions:
+~ _$s21SeymourCoreFoundation12DependenciesC22FitnessMachineServicesE12machineAlert24wheelchairStatusProvider5queueAC07WorkoutB024WOWheelchairUseProviding_p_So012OS_dispatch_M0CtFZACyXEfU_ : 1608 -> 1616
+~ _$s22FitnessMachineServices0B21GuidedWorkoutLauncherC06launchdE018machineSessionUUID17workoutIdentifier9startTime10completionySS_SSSdys5Error_pSgYbctF : 2988 -> 3036
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tt1gq5 : 112 -> 124
+~ _$s22FitnessMachineServices0B21GuidedWorkoutLauncherC06launchdE018machineSessionUUID17workoutIdentifier9startTime10completionySS_SSSdys5Error_pSgYbctF024$sSo7NSErrorCSgIeyBhy_s5P12_pSgIeghg_TRSo0S0CSgIeyBhy_Tf1nnnEn_nTf4nnndg_n : 2864 -> 2888
+~ _$s22FitnessMachineServices0B33GuidedWorkoutPickerViewControllerC12catalogStore19dependenciesWrapper15mediaTypeBridgeACSo09SMCatalogJ0C_So14SMDependenciesCSo0p5MediaN0Vtcfc : 3196 -> 3204
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_s8Sendable_pt_Tg5 : 312 -> 348
+```

@@ -1,0 +1,150 @@
+## _USDKit_RealityKit
+
+> `/System/Library/Frameworks/_USDKit_RealityKit.framework/_USDKit_RealityKit`
+
+```diff
+
+-106.60.1.0.0
+-  __TEXT.__text: 0x1154a0
++106.60.2.0.0
++  __TEXT.__text: 0x115fb0
+   __TEXT.__objc_methlist: 0x5d4
+   __TEXT.__const: 0x6ac8
+-  __TEXT.__gcc_except_tab: 0x955c
+-  __TEXT.__constg_swiftt: 0x1cd0
++  __TEXT.__gcc_except_tab: 0x9580
++  __TEXT.__constg_swiftt: 0x1cd8
+   __TEXT.__swift5_typeref: 0x1c8b
+   __TEXT.__swift5_builtin: 0x104
+   __TEXT.__swift5_reflstr: 0x222f
+
+   __TEXT.__swift_as_entry: 0xbc
+   __TEXT.__swift_as_ret: 0x104
+   __TEXT.__swift_as_cont: 0x1bc
+-  __TEXT.__oslogstring: 0x1e0e
++  __TEXT.__oslogstring: 0x1ece
+   __TEXT.__swift5_assocty: 0x1a0
+   __TEXT.__swift5_protos: 0x8
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x4718
+-  __TEXT.__eh_frame: 0x67b8
++  __TEXT.__unwind_info: 0x4728
++  __TEXT.__eh_frame: 0x6830
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __AUTH.__objc_data: 0x230
+   __AUTH.__tf_func: 0xc0
+   __AUTH.__data: 0x2588
+-  __DATA.__data: 0x17f0
++  __DATA.__data: 0x1800
+   __DATA.__common: 0x3a8
+   __DATA_DIRTY.__tf_func: 0x0
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/usd/libusd_ms.dylib
+-  Functions: 3974
+-  Symbols:   10346
+-  CStrings:  1055
++  Functions: 3975
++  Symbols:   10350
++  CStrings:  1057
+ 
+Symbols:
++ GCC_except_table105
++ GCC_except_table126
++ GCC_except_table133
++ GCC_except_table141
++ GCC_except_table291
++ GCC_except_table296
++ GCC_except_table303
++ GCC_except_table324
++ GCC_except_table351
++ GCC_except_table357
++ GCC_except_table361
++ GCC_except_table407
++ GCC_except_table418
++ GCC_except_table419
++ GCC_except_table456
++ _$s12HdRealityKit13REKitMeshInfoC16DeformationStateVSgWOcTm
++ _$s12HdRealityKit13REKitMeshInfoC16DeformationStateVSgWOhTm
++ _$s12HdRealityKit18HydraDeferredTasksC29blendShapeOffsetsBufferLength11forPrimPathSiSgSS_tF
++ _$s12HdRealityKit18HydraDeferredTasksC29blendShapeOffsetsBufferLength11forPrimPathSiSgSS_tFTq
+- GCC_except_table107
+- GCC_except_table288
+- GCC_except_table293
+- GCC_except_table300
+- GCC_except_table321
+- GCC_except_table349
+- GCC_except_table353
+- GCC_except_table359
+- GCC_except_table363
+- GCC_except_table413
+- GCC_except_table414
+- GCC_except_table452
+- GCC_except_table455
+- _$sSo019pxrInternal__aapl__A10Reserved__O7TfTokenVSgWOcTm
+- _$sSo019pxrInternal__aapl__A10Reserved__O7TfTokenVSgWOhTm
+Functions:
+~ _$s18_USDKit_RealityKit14USDStageSystemV17bboxCachePurposes33_E55880C9795360912CECB78E32499708LL_WZ : 272 -> 288
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF18_USDKit_RealityKit14USDRenderErrorV_Tg5 : 260 -> 284
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF18_USDKit_RealityKit9USDPlayerC16TextureLevelInfoV_Tg5 : 268 -> 304
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF18_USDKit_RealityKit16UsdRenderMessageV_Tg5Tm : 436 -> 480
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF18_USDKit_RealityKit14USDRenderErrorV_Tg5 : 264 -> 288
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF18_USDKit_RealityKit9USDPlayerC16TextureLevelInfoV_Tg5 : 272 -> 308
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF18_USDKit_RealityKit9USDPlayerC10MaterialIDV_Tg5Tm : 440 -> 484
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFScCy18_USDKit_RealityKit17USDStageComponentV12RenderResultVs5NeverOG_Tg5Tm : 452 -> 504
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF18_USDKit_RealityKit17UsdStageComponentV15adjustParenting4root6tuplesy0pQ06EntityC_SayAP_0O07SdfPathVtGtFZ0Y6ParentL_V_Tg5 : 280 -> 316
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10RealityKit9Component_p_Tg5 : 320 -> 356
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tt1gq5 : 112 -> 124
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSnySiG_Tgq5 : 256 -> 280
++ _$s12HdRealityKit18HydraDeferredTasksC29blendShapeOffsetsBufferLength11forPrimPathSiSgSS_tF
+~ _$s12HdRealityKit13REKitMeshInfoC12updateEntity10meshUpdate13materialTable22enableGroundingShadowsyAA0a4RKitE5SwiftC_SDySS0B10Foundation19ShaderGraphMaterialVGSbtF : 10556 -> 10696
+~ _$s12HdRealityKit18HydraDeferredTasksC15renderToTexture_05depthI05width6height16activeCameraPath16projectionMatrix04viewQ0SbSo10MTLTexture_p_SoAK_pSgS2iSSSaySo8NSNumberCGSgAPtYaFTf4nnddnnnn_nTY1_ : 4772 -> 4784
+~ _$s12HdRealityKit6boxify6entity3min3maxy0bC06EntityC_s5SIMD3VySfGAKtF : 2520 -> 2568
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_12HdRealityKit0P16RKitTextureSwiftCt_Tg5 : 316 -> 352
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5SIMD3VySfG_Tg5 : 252 -> 276
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10RealityKit9TransformV_Tg5 : 268 -> 304
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10RealityKit8Material_p_Tg5 : 316 -> 352
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5 : 260 -> 284
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF17RealityFoundation12LowLevelMeshC14VertexSemanticO_Tg5 : 432 -> 460
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs6UInt32V_Tg5 : 252 -> 276
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSf_Tg5 : 252 -> 276
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS3key_12HdRealityKit0Q13RKitMeshSwiftC19VertexAttributeInfoV5valuet_Tg5 : 300 -> 316
+~ _$s12HdRealityKit18HydraDeferredTasksC24buildDeformationPipeline7context8meshData10descriptor0b4CoreH008LowLevelH0C0I0CAH0opH7ContextC_AA0A13RKitMeshSwiftC0B10Foundation0opS0C10DescriptorVtYaKFTf4nnnd_nTY0_ : 2424 -> 2464
+~ _$s12HdRealityKit18HydraDeferredTasksC21buildDeformationState7context8pipeline8meshData10descriptor6deviceAA13REKitMeshInfoC0hI0V0b4CoreH008LowLevelH7ContextC_AN0tuH0C8PipelineCAA0a4RKitQ5SwiftC0B10Foundation0tuQ0C10DescriptorVSo9MTLDevice_ptKFTf4nnnnnd_n : 2560 -> 2576
+~ _$s12HdRealityKit18HydraDeferredTasksC22writeBlendShapeOffsets33_8A3BB310B4566E4D2DFF8F0C34E8DBC4LL_6deltas11vertexCountySo9MTLBuffer_p_SaySays5SIMD3VySfGGGSitFTf4nnnd_n : 304 -> 1176
+~ _$s12HdRealityKit21floatDataToFloatArray11valuesCount7dataPtrSaySfGs6UInt64V_SPySfGtF : 160 -> 184
+~ _$s12HdRealityKit0A13RKitMeshSwiftC14mSemanticTable_WZ : 1352 -> 1388
+~ _$s12HdRealityKit0A13RKitMeshSwiftC07processe11ForLowLevelE004geomE023materialBindingsPerFaceySo03OS_K8_mp_meshC_Says6UInt32VGtF : 13148 -> 13160
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs6UInt32V_Tt1g5 : 128 -> 152
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCSS3key_12HdRealityKit0I13RKitMeshSwiftC19VertexAttributeInfoV5valuet_Tt1g5 : 128 -> 144
+~ _$s12HdRealityKit0A13RKitMeshSwiftC37mLlmShouldPopulateRenormalizationDataSbvg : 1260 -> 1284
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_12HdRealityKit0O16RKitTextureSwiftCt_Tg5Tm : 320 -> 356
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5 : 264 -> 288
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSays5SIMD3VySfGG_Says6UInt16VGt_Tg5 : 304 -> 328
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs6UInt16V_Tg5 : 248 -> 260
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10Foundation4DataV_Tg5 : 264 -> 288
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSo13simd_float4x4a_Tg5 : 256 -> 272
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Si_SStt_Tg5 : 320 -> 356
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSo3stdO3__1O0088basic_stringCCharstd__1char_traitsCCharstd__1allocatorCChar_cyHBywaEDexaCidvdFCgAayGjzaaV_Si_AMtt_Tg5 : 408 -> 444
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_12HdRealityKit17MeshFailureReasonOt_Tg5Tm : 304 -> 328
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_12HdRealityKit20TextureFailureReasonOt_Tg5 : 320 -> 356
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSf_Tg5 : 256 -> 280
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5SIMD2VySfG_Tg5 : 256 -> 280
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5SIMD3VySfG_Tg5Tm : 248 -> 272
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10RealityKit11BoundingBoxV_Tg5 : 256 -> 280
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSays5SIMD3VySfGG_Tg5 : 304 -> 328
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10RealityKit8Material_p_Tg5Tm : 320 -> 356
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSi_Tg5 : 256 -> 280
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10RealityKit15TextureResourceC0O10FoundationE8ContentsV11MipmapLevelV_Tg5Tm : 440 -> 484
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs6UInt32V_Tg5Tm : 248 -> 272
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10RealityKit9TransformV_Tg5 : 272 -> 308
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF12HdRealityKit0O16RKitTextureSwiftC12MipLevelInfoV_Tg5 : 272 -> 308
+CStrings:
++ "[Deformation] Blend shape offsets exceed buffer capacity; dropping target %ld and later"
++ "[Deformation] Blend shape offsets(size: %ld) exceed vertex count(size: %ld for target %ld"
+```

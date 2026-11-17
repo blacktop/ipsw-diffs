@@ -1,0 +1,29 @@
+## RealityFoundationCloth
+
+> `/System/Library/SubFrameworks/RealityFoundationCloth.framework/RealityFoundationCloth`
+
+```diff
+
+-453.42.1.0.1
+-  __TEXT.__text: 0x1bfa8
++453.60.2.0.2
++  __TEXT.__text: 0x1c104
+   __TEXT.__objc_methlist: 0x244
+   __TEXT.__const: 0x2d98
+   __TEXT.__swift5_typeref: 0x950
+Functions:
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF22RealityFoundationCloth0Q13BodyComponentV11TargetShapeV_Tg5 : 276 -> 312
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs6UInt32V_Tg5 : 252 -> 276
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF22RealityFoundationCloth0Q14ColliderEventsO0F14BodyCollisionsV9CollisionV_Tg5Tm : 288 -> 312
+~ _$s22RealityFoundationCloth0C17ComponentRegistryC25registerBuiltInComponentsyyy0A3Kit0D0_pXp_So19REComponentClassPtraSgSo0K4TypeVSg0aB00D4InfoV6AccessOAO12AvailabilityVtXEFZ : 1556 -> 1580
+~ _$s10RealityKit12MeshResourceC0A15FoundationClothE4fromAcD0fcD2V2C_tYacfCTY0_ : 784 -> 804
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs6UInt32V_Tt1g5 : 128 -> 152
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCSS3key_22RealityFoundationCloth0K19SimulationComponentV8MaterialO5valuet_Tt1g5 : 140 -> 176
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfC22RealityFoundationCloth0J19SimulationComponentV27FrictionOverridesCollectionV3KeyV3key_AJ5ValueV5valuet_Tt1g5Tm : 132 -> 168
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5SIMD3VySfG_Tt1g5 : 128 -> 152
+~ _$s10RealityKit12MeshResourceC0A15FoundationClothE4fromAcD0fcD0C_tYacfCTY0_ : 832 -> 852
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs13OpaquePointerV_Tg5 : 248 -> 272
+~ _$s22RealityFoundationCloth0C19SimulationComponentV29FrictionOverridesCollectionV3VSlAASly7ElementQz5IndexQzcirTW : 148 -> 168
+~ _$s22RealityFoundationCloth0C19SimulationComponentV27FrictionOverridesCollectionVSlAASly7ElementQz5IndexQzcirTW : 148 -> 168
+~ _$s22RealityFoundationCloth0C19SimulationComponentV29FrictionOverridesCollectionV3VSlAASly7ElementQz5IndexQzcirTW.resume.0Tm : 60 -> 76
+```
