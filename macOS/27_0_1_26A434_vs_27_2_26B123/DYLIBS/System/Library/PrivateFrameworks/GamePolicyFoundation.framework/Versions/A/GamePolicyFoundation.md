@@ -1,0 +1,43 @@
+## GamePolicyFoundation
+
+> `/System/Library/PrivateFrameworks/GamePolicyFoundation.framework/Versions/A/GamePolicyFoundation`
+
+```diff
+
+-4.0.8.0.0
+-  __TEXT.__text: 0x3f658
++4.1.2.0.0
++  __TEXT.__text: 0x3f664
+   __TEXT.__objc_methlist: 0x6a8
+-  __TEXT.__const: 0x2290
++  __TEXT.__const: 0x22a0
+   __TEXT.__cstring: 0x178a
+   __TEXT.__oslogstring: 0x5c0
+-  __TEXT.__constg_swiftt: 0x189c
++  __TEXT.__constg_swiftt: 0x18a8
+   __TEXT.__swift5_typeref: 0x726
+   __TEXT.__swift5_fieldmd: 0x13f0
+   __TEXT.__swift5_builtin: 0xa0
+
+   __AUTH_CONST.__objc_const: 0x2928
+   __AUTH_CONST.__auth_got: 0x850
+   __AUTH_CONST.__auth_ptr: 0x380
+-  __AUTH.__objc_data: 0xb48
+-  __AUTH.__data: 0x13a8
+-  __DATA.__data: 0x6b0
++  __AUTH.__objc_data: 0x50
++  __AUTH.__data: 0x428
++  __DATA.__data: 0x5d0
+   __DATA.__bss: 0x2430
+   __DATA.__common: 0xd0
+-  __DATA_DIRTY.__objc_data: 0x9c8
+-  __DATA_DIRTY.__data: 0xaf8
++  __DATA_DIRTY.__objc_data: 0x14c0
++  __DATA_DIRTY.__data: 0x1b38
+   __DATA_DIRTY.__bss: 0x10
+   __DATA_DIRTY.__common: 0x198
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+Functions:
+~ sub_2471a79d4 -> sub_20d7ef9d4 : 124 -> 128
+~ sub_2471adb30 -> sub_20d7f5b34 : 284 -> 292
+```

@@ -1,0 +1,1113 @@
+## AudioTranscriptionAnalysis
+
+> `/System/Library/PrivateFrameworks/AudioTranscriptionAnalysis.framework/Versions/A/AudioTranscriptionAnalysis`
+
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__objc_imageinfo`
+
+```diff
+
+-10.10.0.0.0
+-  __TEXT.__text: 0x278cc
+-  __TEXT.__objc_methlist: 0x1b88
+-  __TEXT.__const: 0xc8
+-  __TEXT.__cstring: 0x4575
+-  __TEXT.__oslogstring: 0x607b
+-  __TEXT.__gcc_except_tab: 0x5f8
+-  __TEXT.__unwind_info: 0xac0
++30.4.0.0.0
++  __TEXT.__text: 0x78ba8
++  __TEXT.__objc_methlist: 0x1d80
++  __TEXT.__const: 0x2c96
++  __TEXT.__cstring: 0x5083
++  __TEXT.__oslogstring: 0x88ae
++  __TEXT.__gcc_except_tab: 0x6b0
++  __TEXT.__swift5_typeref: 0x10df
++  __TEXT.__constg_swiftt: 0xdb8
++  __TEXT.__swift5_builtin: 0xdc
++  __TEXT.__swift5_mpenum: 0x38
++  __TEXT.__swift5_reflstr: 0xf39
++  __TEXT.__swift5_fieldmd: 0xf5c
++  __TEXT.__swift5_proto: 0x25c
++  __TEXT.__swift5_types: 0x14c
++  __TEXT.__swift5_capture: 0x470
++  __TEXT.__swift5_assocty: 0xf0
++  __TEXT.__swift_as_entry: 0xa8
++  __TEXT.__swift_as_ret: 0xa0
++  __TEXT.__swift_as_cont: 0xe8
++  __TEXT.__swift5_protos: 0x2c
++  __TEXT.__unwind_info: 0x1c08
++  __TEXT.__eh_frame: 0x2000
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xb0
+-  __DATA_CONST.__objc_classlist: 0xd8
++  __DATA_CONST.__const: 0x180
++  __DATA_CONST.__objc_classlist: 0x110
+   __DATA_CONST.__objc_catlist: 0x10
+   __DATA_CONST.__objc_protolist: 0x90
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xe50
++  __DATA_CONST.__objc_selrefs: 0xf00
+   __DATA_CONST.__objc_protorefs: 0x28
+-  __DATA_CONST.__objc_superrefs: 0xb0
++  __DATA_CONST.__objc_superrefs: 0xb8
+   __DATA_CONST.__objc_arraydata: 0x40
+-  __DATA_CONST.__got: 0x180
+-  __AUTH_CONST.__const: 0xb00
+-  __AUTH_CONST.__cfstring: 0xfa0
+-  __AUTH_CONST.__objc_const: 0x2ea8
++  __DATA_CONST.__got: 0x368
++  __AUTH_CONST.__const: 0x2e48
++  __AUTH_CONST.__cfstring: 0x1020
++  __AUTH_CONST.__objc_const: 0x3978
+   __AUTH_CONST.__objc_arrayobj: 0x48
+-  __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x730
+-  __DATA.__objc_ivar: 0x1d0
+-  __DATA.__data: 0x6c0
+-  __DATA.__bss: 0xd0
++  __AUTH_CONST.__auth_got: 0x998
++  __AUTH_CONST.__auth_ptr: 0x358
++  __AUTH.__objc_data: 0x928
++  __AUTH.__data: 0xa60
++  __DATA.__objc_ivar: 0x1ec
++  __DATA.__data: 0xcc8
++  __DATA.__bss: 0x2dc0
++  __DATA.__common: 0xa8
+   __DATA_DIRTY.__objc_data: 0x140
+-  __DATA_DIRTY.__bss: 0x378
++  __DATA_DIRTY.__bss: 0x3a8
+   - /System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia
+
+   - /System/Library/PrivateFrameworks/SpeechTranslation.framework/Versions/A/SpeechTranslation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 1038
+-  Symbols:   1724
+-  CStrings:  694
++  - /usr/lib/swift/libswiftCore.dylib
++  - /usr/lib/swift/libswiftCoreAudio.dylib
++  - /usr/lib/swift/libswiftCoreFoundation.dylib
++  - /usr/lib/swift/libswiftCoreMIDI.dylib
++  - /usr/lib/swift/libswiftDispatch.dylib
++  - /usr/lib/swift/libswiftIOKit.dylib
++  - /usr/lib/swift/libswiftMetal.dylib
++  - /usr/lib/swift/libswiftObjectiveC.dylib
++  - /usr/lib/swift/libswiftSynchronization.dylib
++  - /usr/lib/swift/libswiftXPC.dylib
++  - /usr/lib/swift/libswift_Builtin_float.dylib
++  - /usr/lib/swift/libswift_Concurrency.dylib
++  - /usr/lib/swift/libswiftos.dylib
++  - /usr/lib/swift/libswiftsimd.dylib
++  Functions: 2468
++  Symbols:   2333
++  CStrings:  895
+ 
+Symbols:
++ +[_ATATranslationClientList _computeOutputFrameCountForInputFrames:inputSampleRate:outputSampleRate:]
++ +[_ATATranslationClientList _convertBuffer:usingConverter:toFormat:]
++ +[_ATATranslationClientList _transcriptionResultFromSpeechResult:]
++ +[_ATATranslationClientList _translationResultFromBackendResult:]
++ -[ATASpeechAnalyzerBackend utteranceIdentity]
++ -[ATATranscriptionClient _initWithPeerContext:delegate:delegateQueue:error:]
++ -[ATATranscriptionClient _initWithPeerProvider:peerContext:delegate:delegateQueue:error:]
++ -[ATATranscriptionClient _setUpPeerProviderWhileLocked:withContext:error:]
++ -[ATATranscriptionClient initWithTranscriptionIdentifier:delegate:delegateQueue:error:]
++ -[ATATranscriptionResult initWithText:isFinal:identifier:]
++ -[ATATranslationClient _initWithPeerContext:delegate:delegateQueue:error:]
++ -[ATATranslationClient _initWithPeerProvider:peerContext:delegate:delegateQueue:error:]
++ -[ATATranslationClient _setUpPeerProviderWhileLocked:withContext:error:]
++ -[ATATranslationClient initWithTranslationIdentifier:delegate:delegateQueue:error:]
++ -[ATAUtteranceIdentityTracker .cxx_destruct]
++ -[ATAUtteranceIdentityTracker identifierForResultIsFinal:]
++ -[ATAUtteranceIdentityTracker init]
++ -[ATAUtteranceIdentityTracker reset]
++ -[_ATATranscriptionClientList _joinRefusalWhileDispatched]
++ -[_ATATranscriptionClientList addSecondaryClientPeer:withXPCConnection:inReply:]
++ -[_ATATranscriptionServiceManager _addToClientListWithIdentifier:clientPeer:xpcConnection:inReply:]
++ -[_ATATranscriptionServiceManager _installPrimaryDisconnectHandlersForConnection:clientPeer:]
++ -[_ATATranscriptionServiceManager _remoteObjectProxyForConnection:]
++ -[_ATATranslationClientList _convertAudioBufferIfNeeded:]
++ -[_ATATranslationClientList _joinRefusalWhileDispatched]
++ -[_ATATranslationClientList addSecondaryClientPeer:withXPCConnection:inReply:]
++ -[_ATATranslationServiceManager _addToClientListWithIdentifier:clientPeer:xpcConnection:inReply:]
++ -[_ATATranslationServiceManager _installPrimaryDisconnectHandlersForConnection:clientPeer:]
++ -[_ATATranslationServiceManager _remoteObjectProxyForConnection:]
++ -[_ATAXPCClient _fetchRemoteServicePeerWithError:]
++ -[_ATAXPCClient _notifyConnectionInvalidatedOnce]
++ -[_ATAXPCClient didNotifyConnectionInvalidated]
++ -[_ATAXPCClient onConnectionInvalidated]
++ -[_ATAXPCClient setDidNotifyConnectionInvalidated:]
++ -[_ATAXPCClient setOnConnectionInvalidated:]
++ -[_ATAXPCClient setUpPeerForDelegate:context:error:]
++ ATACurrentProcessIsEntitledToHost
++ ATAFeatureFlagSwiftAPIEnabled
++ ATAFeatureFlagSwiftAPIEnabled.warnToken
++ GCC_except_table110
++ GCC_except_table111
++ GCC_except_table12
++ GCC_except_table18
++ GCC_except_table25
++ GCC_except_table3
++ GCC_except_table34
++ GCC_except_table35
++ GCC_except_table44
++ GCC_except_table46
++ GCC_except_table5
++ GCC_except_table51
++ GCC_except_table58
++ GCC_except_table59
++ GCC_except_table64
++ GCC_except_table67
++ GCC_except_table7
++ GCC_except_table70
++ GCC_except_table75
++ GCC_except_table80
++ GCC_except_table85
++ GCC_except_table87
++ GCC_except_table9
++ GCC_except_table94
++ GCC_except_table98
++ OBJC_IVAR_$_ATASpeechAnalyzerBackend._utteranceIdentity
++ OBJC_IVAR_$_ATAUtteranceIdentityTracker._identityLock
++ OBJC_IVAR_$_ATAUtteranceIdentityTracker._openUtteranceIdentifier
++ OBJC_IVAR_$__ATATranslationClientList._audioConverter
++ OBJC_IVAR_$__ATATranslationClientList._preferredInputAudioFormat
++ OBJC_IVAR_$__ATATranslationClientList._preferredTranslatedAudioFormat
++ OBJC_IVAR_$__ATAXPCClient._didNotifyConnectionInvalidated
++ OBJC_IVAR_$__ATAXPCClient._onConnectionInvalidated
++ _ATACurrentProcessIsEntitledToHost
++ _ATAErrorDomain
++ _ATAFeatureFlagSwiftAPIEnabled
++ _ATAPauseReasonAudioRouteChange
++ _ATAPauseReasonUserInitiated
++ _ATASwiftAPIFeatureFlagEnabled.enabled
++ _ATASwiftAPIFeatureFlagEnabled.onceToken
++ _ATATranslationClientList_ConvertBuffer
++ _CFBooleanGetTypeID
++ _CFBooleanGetValue
++ _CFGetTypeID
++ _CFPreferencesAppSynchronize
++ _CFPreferencesCopyAppValue
++ _CFPreferencesSetAppValue
++ _OBJC_CLASS_$_ATAUtteranceIdentityTracker
++ _OBJC_CLASS_$_OS_dispatch_queue
++ _OBJC_CLASS_$__TtC26AudioTranscriptionAnalysis20_ObjCDelegateAdapter
++ _OBJC_CLASS_$__TtCs12_SwiftObject
++ _OBJC_METACLASS_$_ATAUtteranceIdentityTracker
++ _OBJC_METACLASS_$__TtC26AudioTranscriptionAnalysis20_ObjCDelegateAdapter
++ _OBJC_METACLASS_$__TtCs12_SwiftObject
++ __50-[_ATAXPCClient _fetchRemoteServicePeerWithError:]_block_invoke
++ __72-[ATATranslationClient _setUpPeerProviderWhileLocked:withContext:error:]_block_invoke
++ __74-[ATATranscriptionClient _setUpPeerProviderWhileLocked:withContext:error:]_block_invoke
++ __78-[_ATATranslationClientList addSecondaryClientPeer:withXPCConnection:inReply:]_block_invoke
++ __80-[_ATATranscriptionClientList addSecondaryClientPeer:withXPCConnection:inReply:]_block_invoke
++ __91-[_ATATranslationServiceManager _installPrimaryDisconnectHandlersForConnection:clientPeer:]_block_invoke
++ __93-[_ATATranscriptionServiceManager _installPrimaryDisconnectHandlersForConnection:clientPeer:]_block_invoke
++ __ATAFeatureFlagSwiftAPIEnabled_block_invoke
++ __ATATranslationClientList_ConvertBuffer
++ __Block_copy
++ __Block_release
++ __DATA__TtC26AudioTranscriptionAnalysis14_ServiceBridge
++ __DATA__TtC26AudioTranscriptionAnalysis18_PauseReasonLedger
++ __DATA__TtC26AudioTranscriptionAnalysis20_ObjCDelegateAdapter
++ __DATA__TtC26AudioTranscriptionAnalysis21_AudioSequenceTracker
++ __DATA__TtC26AudioTranscriptionAnalysis22_ServiceBridgeTokenMap
++ __DATA__TtC26AudioTranscriptionAnalysis24_SessionEventBroadcaster
++ __INSTANCE_METHODS__TtC26AudioTranscriptionAnalysis20_ObjCDelegateAdapter
++ __IVARS__TtC26AudioTranscriptionAnalysis14_ServiceBridge
++ __IVARS__TtC26AudioTranscriptionAnalysis16ATASessionClient
++ __IVARS__TtC26AudioTranscriptionAnalysis18_PauseReasonLedger
++ __IVARS__TtC26AudioTranscriptionAnalysis20ATASessionController
++ __IVARS__TtC26AudioTranscriptionAnalysis20_ObjCDelegateAdapter
++ __IVARS__TtC26AudioTranscriptionAnalysis21_AudioSequenceTracker
++ __IVARS__TtC26AudioTranscriptionAnalysis22_ServiceBridgeTokenMap
++ __IVARS__TtC26AudioTranscriptionAnalysis24_SessionEventBroadcaster
++ __METACLASS_DATA__TtC26AudioTranscriptionAnalysis14_ServiceBridge
++ __METACLASS_DATA__TtC26AudioTranscriptionAnalysis18_PauseReasonLedger
++ __METACLASS_DATA__TtC26AudioTranscriptionAnalysis20_ObjCDelegateAdapter
++ __METACLASS_DATA__TtC26AudioTranscriptionAnalysis21_AudioSequenceTracker
++ __METACLASS_DATA__TtC26AudioTranscriptionAnalysis22_ServiceBridgeTokenMap
++ __METACLASS_DATA__TtC26AudioTranscriptionAnalysis24_SessionEventBroadcaster
++ __OBJC_$_INSTANCE_METHODS_ATAUtteranceIdentityTracker
++ __OBJC_$_INSTANCE_VARIABLES_ATAUtteranceIdentityTracker
++ __OBJC_CLASS_RO_$_ATAUtteranceIdentityTracker
++ __OBJC_METACLASS_RO_$_ATAUtteranceIdentityTracker
++ ___36-[ATAUtteranceIdentityTracker reset]_block_invoke
++ ___50-[_ATAXPCClient _fetchRemoteServicePeerWithError:]_block_invoke
++ ___58-[ATAUtteranceIdentityTracker identifierForResultIsFinal:]_block_invoke
++ ___72-[ATATranslationClient _setUpPeerProviderWhileLocked:withContext:error:]_block_invoke
++ ___74-[ATATranscriptionClient _setUpPeerProviderWhileLocked:withContext:error:]_block_invoke
++ ___78-[_ATATranslationClientList addSecondaryClientPeer:withXPCConnection:inReply:]_block_invoke
++ ___80-[_ATATranscriptionClientList addSecondaryClientPeer:withXPCConnection:inReply:]_block_invoke
++ ___87-[ATATranslationClient _initWithPeerProvider:peerContext:delegate:delegateQueue:error:]_block_invoke
++ ___89-[ATATranscriptionClient _initWithPeerProvider:peerContext:delegate:delegateQueue:error:]_block_invoke
++ ___91-[_ATATranslationServiceManager _installPrimaryDisconnectHandlersForConnection:clientPeer:]_block_invoke
++ ___93-[_ATATranscriptionServiceManager _installPrimaryDisconnectHandlersForConnection:clientPeer:]_block_invoke
++ ___97-[_ATATranslationServiceManager _addToClientListWithIdentifier:clientPeer:xpcConnection:inReply:]_block_invoke
++ ___99-[_ATATranscriptionServiceManager _addToClientListWithIdentifier:clientPeer:xpcConnection:inReply:]_block_invoke
++ ___ATAFeatureFlagSwiftAPIEnabled_block_invoke
++ ____ATASwiftAPIFeatureFlagEnabled_block_invoke
++ ____ATATranslationClientList_ConvertBuffer_block_invoke
++ ___block_descriptor_48_e8_32r40r_e46_v24?0"<_ATATranslationService>"8"NSError"16l
++ ___block_descriptor_48_e8_32r40r_e48_v24?0"<_ATATranscriptionService>"8"NSError"16l
++ ___block_descriptor_48_e8_32s40r_e27_"AVAudioBuffer"20?0I8^q12l
++ ___block_descriptor_49_e8_32s40r_e5_v8?0l
++ ___block_descriptor_64_e8_32s40s48s56bs_e5_v8?0l
++ ___block_descriptor_72_e8_32s40s48s56s64bs_e5_v8?0l
++ ___block_descriptor_80_e8_32s40s48s56r64r72r_e5_v8?0l
++ ___chkstk_darwin
++ ___copy_helper_block_e8_32r40r
++ ___copy_helper_block_e8_32s40s48s56b
++ ___copy_helper_block_e8_32s40s48s56r64r72r
++ ___copy_helper_block_e8_32s40s48s56s64b
++ ___destroy_helper_block_e8_32r40r
++ ___destroy_helper_block_e8_32s40s48s56r64r72r
++ ___destroy_helper_block_e8_32s40s48s56s64s
++ ___swift__destructor
++ ___swift_allocate_boxed_opaque_existential_1
++ ___swift_allocate_value_buffer
++ ___swift_async_cont_functlets
++ ___swift_async_entry_functlets
++ ___swift_async_ret_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructorTm
++ ___swift_destroy_boxed_opaque_existential_0
++ ___swift_destroy_boxed_opaque_existential_1
++ ___swift_destroy_boxed_opaque_existential_1Tm
++ ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
++ ___swift_instantiateConcreteTypeFromMangledNameV2
++ ___swift_instantiateGenericMetadata
++ ___swift_memcpy0_1
++ ___swift_memcpy16_8
++ ___swift_memcpy17_8
++ ___swift_memcpy1_1
++ ___swift_memcpy32_8
++ ___swift_memcpy4_4
++ ___swift_memcpy64_8
++ ___swift_memcpy8_8
++ ___swift_memcpy9_8
++ ___swift_noop_void_return
++ ___swift_project_boxed_opaque_existential_1
++ ___swift_project_value_buffer
++ ___swift_reflection_version
++ ___unnamed_2
++ ___unnamed_3
++ __os_feature_enabled_impl
++ __swiftEmptyArrayStorage
++ __swiftEmptyDictionarySingleton
++ __swiftEmptySetSingleton
++ __swiftImmortalRefCount
++ __swift_FORCE_LOAD_$_swiftCoreAudio
++ __swift_FORCE_LOAD_$_swiftCoreAudio_$_AudioTranscriptionAnalysis
++ __swift_FORCE_LOAD_$_swiftCoreFoundation
++ __swift_FORCE_LOAD_$_swiftCoreFoundation_$_AudioTranscriptionAnalysis
++ __swift_FORCE_LOAD_$_swiftCoreMIDI
++ __swift_FORCE_LOAD_$_swiftCoreMIDI_$_AudioTranscriptionAnalysis
++ __swift_FORCE_LOAD_$_swiftDispatch
++ __swift_FORCE_LOAD_$_swiftDispatch_$_AudioTranscriptionAnalysis
++ __swift_FORCE_LOAD_$_swiftFoundation
++ __swift_FORCE_LOAD_$_swiftFoundation_$_AudioTranscriptionAnalysis
++ __swift_FORCE_LOAD_$_swiftIOKit
++ __swift_FORCE_LOAD_$_swiftIOKit_$_AudioTranscriptionAnalysis
++ __swift_FORCE_LOAD_$_swiftMetal
++ __swift_FORCE_LOAD_$_swiftMetal_$_AudioTranscriptionAnalysis
++ __swift_FORCE_LOAD_$_swiftObjectiveC
++ __swift_FORCE_LOAD_$_swiftObjectiveC_$_AudioTranscriptionAnalysis
++ __swift_FORCE_LOAD_$_swiftXPC
++ __swift_FORCE_LOAD_$_swiftXPC_$_AudioTranscriptionAnalysis
++ __swift_FORCE_LOAD_$_swift_Builtin_float
++ __swift_FORCE_LOAD_$_swift_Builtin_float_$_AudioTranscriptionAnalysis
++ __swift_FORCE_LOAD_$_swiftos
++ __swift_FORCE_LOAD_$_swiftos_$_AudioTranscriptionAnalysis
++ __swift_FORCE_LOAD_$_swiftsimd
++ __swift_FORCE_LOAD_$_swiftsimd_$_AudioTranscriptionAnalysis
++ __swift_closure_destructor
++ __swift_closure_destructor.109Tm
++ __swift_closure_destructor.34Tm
++ __swift_implicitisolationactor_to_executor_cast
++ __swift_stdlib_malloc_size
++ _associated conformance 26AudioTranscriptionAnalysis0A14OutputSequenceVSHAASQ
++ _associated conformance 26AudioTranscriptionAnalysis0B6ResultV10CodingKeys33_1CF7FEE1BCE3F3309630ED874F4C119FLLOSHAASQ
++ _associated conformance 26AudioTranscriptionAnalysis0B6ResultV10CodingKeys33_1CF7FEE1BCE3F3309630ED874F4C119FLLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 26AudioTranscriptionAnalysis0B6ResultV10CodingKeys33_1CF7FEE1BCE3F3309630ED874F4C119FLLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 26AudioTranscriptionAnalysis0B6ResultVSHAASQ
++ _associated conformance 26AudioTranscriptionAnalysis10StopReasonOSHAASQ
++ _associated conformance 26AudioTranscriptionAnalysis12SessionErrorV10Foundation09LocalizedE0AAs0E0
++ _associated conformance 26AudioTranscriptionAnalysis12SessionErrorV4CodeOSHAASQ
++ _associated conformance 26AudioTranscriptionAnalysis12SessionErrorV4CodeOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 26AudioTranscriptionAnalysis12SessionPhaseOSHAASQ
++ _associated conformance 26AudioTranscriptionAnalysis12SessionTokenV10CodingKeys33_C1E1D8038B1E399E86B59A8316B5761ELLOSHAASQ
++ _associated conformance 26AudioTranscriptionAnalysis12SessionTokenV10CodingKeys33_C1E1D8038B1E399E86B59A8316B5761ELLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 26AudioTranscriptionAnalysis12SessionTokenV10CodingKeys33_C1E1D8038B1E399E86B59A8316B5761ELLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 26AudioTranscriptionAnalysis12SessionTokenVSHAASQ
++ _associated conformance 26AudioTranscriptionAnalysis12_BridgePhaseOSHAASQ
++ _associated conformance 26AudioTranscriptionAnalysis12_BridgePhaseOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 26AudioTranscriptionAnalysis17TranslationResultV10CodingKeys33_1CF7FEE1BCE3F3309630ED874F4C119FLLOSHAASQ
++ _associated conformance 26AudioTranscriptionAnalysis17TranslationResultV10CodingKeys33_1CF7FEE1BCE3F3309630ED874F4C119FLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 26AudioTranscriptionAnalysis17TranslationResultV10CodingKeys33_1CF7FEE1BCE3F3309630ED874F4C119FLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 26AudioTranscriptionAnalysis17TranslationResultVSHAASQ
++ _associated conformance 26AudioTranscriptionAnalysis20ATASessionControllerC13_PerServiceOp33_3F91087488EADFC852BF14FBC7024AD8LLOyx_GSHAASQ
++ _associated conformance 26AudioTranscriptionAnalysis24TranslationConfigurationV8TaskHintOSHAASQ
++ _associated conformance 26AudioTranscriptionAnalysis8ATAErrorO10Foundation13CustomNSErrorAAs5Error
++ _associated conformance 26AudioTranscriptionAnalysis8ATAErrorO10Foundation14LocalizedErrorAAs0G0
++ _associated conformance So14ATAPauseReasonaSHSCSQ
++ _associated conformance So14ATAPauseReasonas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So14ATAPauseReasonas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _associated conformance So14ATAServiceTypeVSHSCSQ
++ _associated conformance So20ATAServiceOutputTypeVSHSCSQ
++ _block_copy_helper
++ _block_descriptor
++ _block_destroy_helper
++ _bzero
++ _dispatch_resume
++ _dispatch_suspend
++ _get_enum_tag_for_layout_string 26AudioTranscriptionAnalysis0A10InputErrorO
++ _get_enum_tag_for_layout_string 26AudioTranscriptionAnalysis10_StopClaim33_3F91087488EADFC852BF14FBC7024AD8LLO
++ _get_enum_tag_for_layout_string 26AudioTranscriptionAnalysis16DiagnosticsErrorO
++ _get_enum_tag_for_layout_string 26AudioTranscriptionAnalysis18_PauseReasonLedgerC14ResumeDecisionO
++ _get_enum_tag_for_layout_string 26AudioTranscriptionAnalysis21SessionLifecycleEventO
++ _get_enum_tag_for_layout_string 26AudioTranscriptionAnalysis8ATAErrorO
++ _malloc_size
++ _memcpy
++ _memmove
++ _objc_allocWithZone
++ _objc_msgSend$_addToClientListWithIdentifier:clientPeer:xpcConnection:inReply:
++ _objc_msgSend$_fetchRemoteServicePeerWithError:
++ _objc_msgSend$_initWithPeerContext:delegate:delegateQueue:error:
++ _objc_msgSend$_initWithPeerProvider:peerContext:delegate:delegateQueue:error:
++ _objc_msgSend$_installPrimaryDisconnectHandlersForConnection:clientPeer:
++ _objc_msgSend$_joinRefusalWhileDispatched
++ _objc_msgSend$_notifyConnectionInvalidatedOnce
++ _objc_msgSend$_remoteObjectProxyForConnection:
++ _objc_msgSend$_setUpPeerProviderWhileLocked:withContext:error:
++ _objc_msgSend$_transcriptionResultFromSpeechResult:
++ _objc_msgSend$_translationResultFromBackendResult:
++ _objc_msgSend$addSecondaryClientPeer:withXPCConnection:inReply:
++ _objc_msgSend$channelCount
++ _objc_msgSend$code
++ _objc_msgSend$didNotifyConnectionInvalidated
++ _objc_msgSend$domain
++ _objc_msgSend$identifierForResultIsFinal:
++ _objc_msgSend$initWithText:isFinal:identifier:
++ _objc_msgSend$initWithTranscriptionIdentifier:delegate:delegateQueue:error:
++ _objc_msgSend$initWithTranslationIdentifier:delegate:delegateQueue:error:
++ _objc_msgSend$initWithUUIDString:
++ _objc_msgSend$lookUpPreferredInputAudioFormatWithCompletionHandler:
++ _objc_msgSend$onConnectionInvalidated
++ _objc_msgSend$preferredTranslatedAudioFormat
++ _objc_msgSend$reset
++ _objc_msgSend$serverDidDisconnect
++ _objc_msgSend$setContextualStrings:
++ _objc_msgSend$setDidNotifyConnectionInvalidated:
++ _objc_msgSend$setOnConnectionInvalidated:
++ _objc_msgSend$setShouldReportPartialResults:
++ _objc_msgSend$setUpPeerForDelegate:context:error:
++ _objc_msgSend$startTranscriptionWithCompletionHandler:
++ _objc_msgSend$startTranslationWithCompletionHandler:
++ _objc_msgSend$transcribeAudioSamples:
++ _objc_msgSend$transcriptionIdentifier
++ _objc_msgSend$translateAudioSamples:
++ _objc_msgSend$triggerDiagnosticsWithCompletionHandler:
++ _objc_msgSend$userInfo
++ _objc_opt_self
++ _objc_sync_enter
++ _objc_sync_exit
++ _swift_allocBox
++ _swift_allocError
++ _swift_allocObject
++ _swift_allocateGenericClassMetadata
++ _swift_arrayDestroy
++ _swift_arrayInitWithCopy
++ _swift_arrayInitWithTakeBackToFront
++ _swift_arrayInitWithTakeFrontToBack
++ _swift_beginAccess
++ _swift_bridgeObjectRelease
++ _swift_bridgeObjectRelease_n
++ _swift_bridgeObjectRetain
++ _swift_bridgeObjectRetain_n
++ _swift_continuation_await
++ _swift_continuation_init
++ _swift_cvw_allocateGenericValueMetadataWithLayoutString
++ _swift_cvw_assignWithCopy
++ _swift_cvw_assignWithTake
++ _swift_cvw_destroy
++ _swift_cvw_enumFn_getEnumTag
++ _swift_cvw_initEnumMetadataMultiPayloadWithLayoutString
++ _swift_cvw_initStructMetadataWithLayoutString
++ _swift_cvw_initWithCopy
++ _swift_cvw_initWithTake
++ _swift_cvw_initializeBufferWithCopyOfBuffer
++ _swift_cvw_multiPayloadEnumGeneric_destructiveInjectEnumTag
++ _swift_cvw_multiPayloadEnumGeneric_getEnumTag
++ _swift_deallocClassInstance
++ _swift_deallocObject
++ _swift_deallocPartialClassInstance
++ _swift_defaultActor_deallocate
++ _swift_defaultActor_destroy
++ _swift_defaultActor_initialize
++ _swift_dynamicCast
++ _swift_dynamicCastObjCClass
++ _swift_dynamicCastObjCClassUnconditional
++ _swift_endAccess
++ _swift_errorRelease
++ _swift_errorRetain
++ _swift_getAssociatedConformanceWitness
++ _swift_getAssociatedTypeWitness
++ _swift_getEnumCaseMultiPayload
++ _swift_getEnumTagSinglePayloadGeneric
++ _swift_getErrorValue
++ _swift_getForeignTypeMetadata
++ _swift_getGenericMetadata
++ _swift_getMetatypeMetadata
++ _swift_getObjCClassMetadata
++ _swift_getObjectType
++ _swift_getSingletonMetadata
++ _swift_getTupleTypeMetadata2
++ _swift_getTypeByMangledNameInContext2
++ _swift_getTypeByMangledNameInContextInMetadataState2
++ _swift_getWitnessTable
++ _swift_initClassMetadata2
++ _swift_initStackObject
++ _swift_isUniquelyReferenced_nonNull_native
++ _swift_lookUpClassMethod
++ _swift_once
++ _swift_release
++ _swift_release_n
++ _swift_retain
++ _swift_retain_n
++ _swift_slowAlloc
++ _swift_slowDealloc
++ _swift_storeEnumTagMultiPayload
++ _swift_storeEnumTagSinglePayloadGeneric
++ _swift_taskGroup_wait_next_throwing
++ _swift_task_addCancellationHandler
++ _swift_task_alloc
++ _swift_task_create
++ _swift_task_dealloc
++ _swift_task_isCurrentExecutor
++ _swift_task_removeCancellationHandler
++ _swift_task_reportUnexpectedExecutor
++ _swift_task_switch
++ _swift_unknownObjectRelease
++ _swift_unknownObjectRetain
++ _swift_updateClassMetadata2
++ _swift_weakDestroy
++ _swift_weakInit
++ _swift_weakLoadStrong
++ _swift_willThrow
++ _swift_willThrowTypedImpl
++ _symbolic $s26AudioTranscriptionAnalysis08SupportsA5InputP
++ _symbolic $s26AudioTranscriptionAnalysis08SupportsA6OutputP
++ _symbolic $s26AudioTranscriptionAnalysis10CapabilityP
++ _symbolic $s26AudioTranscriptionAnalysis10TextResultP
++ _symbolic $s26AudioTranscriptionAnalysis13ServiceResultP
++ _symbolic $s26AudioTranscriptionAnalysis14SessionControlP
++ _symbolic $s26AudioTranscriptionAnalysis16_BackendBridgingP
++ _symbolic $s26AudioTranscriptionAnalysis17SupportsTextInputP
++ _symbolic $s26AudioTranscriptionAnalysis18SupportsTextOutputP
++ _symbolic $s26AudioTranscriptionAnalysis20ServiceConfigurationP
++ _symbolic $s26AudioTranscriptionAnalysis21_ObjCConfigBridgeableP
++ _symbolic $sSY
++ _symbolic $ss12CaseIterableP
++ _symbolic $ss21_ObjectiveCBridgeableP
++ _symbolic B0
++ _symbolic BD
++ _symbolic Iegh_
++ _symbolic SDyS2SG
++ _symbolic SDy_____ScCySo13AVAudioFormatC______pGG 10Foundation4UUIDV s5ErrorP
++ _symbolic SDy__________G 10Foundation4UUIDV 26AudioTranscriptionAnalysis24_SessionEventBroadcasterC
++ _symbolic SDy__________G 10Foundation4UUIDV 26AudioTranscriptionAnalysis24_SessionEventBroadcasterC13_Registration33_6FCC1857F0A3CC99E2726905A60CB603LLV
++ _symbolic SDy__________G So14ATAServiceTypeV 10Foundation4UUIDV
++ _symbolic SDy__________G So14ATAServiceTypeV 26AudioTranscriptionAnalysis12SessionPhaseO
++ _symbolic SDy__________G So14ATAServiceTypeV 26AudioTranscriptionAnalysis14_ServiceBridgeC
++ _symbolic SDy___________pG So14ATAServiceTypeV 26AudioTranscriptionAnalysis20ServiceConfigurationP
++ _symbolic SDy__________y______GG 10Foundation4UUIDV ScS12ContinuationV 26AudioTranscriptionAnalysis21SessionLifecycleEventO
++ _symbolic SDy_____xG So14ATAServiceTypeV
++ _symbolic SS
++ _symbolic SSSg
++ _symbolic SaySSG
++ _symbolic SaySSGSg
++ _symbolic SayScCySo13AVAudioFormatC______pGG s5ErrorP
++ _symbolic Say_____G 26AudioTranscriptionAnalysis12SessionErrorV4CodeO
++ _symbolic Say_____G 26AudioTranscriptionAnalysis12_BridgePhaseO
++ _symbolic Say_____G So17OS_dispatch_queueC8DispatchE10AttributesV
++ _symbolic Sb
++ _symbolic Sb_ScCyyt______pGSg_____t s5ErrorP 26AudioTranscriptionAnalysis12_BridgePhaseO
++ _symbolic Sb_____YbcSg 26AudioTranscriptionAnalysis12SessionEventO
++ _symbolic Sb______t 26AudioTranscriptionAnalysis15_ParkedRequestsV
++ _symbolic ScA_pSg
++ _symbolic ScCySo13AVAudioFormatC______pG s5ErrorP
++ _symbolic ScCySo13AVAudioFormatC______pGSg s5ErrorP
++ _symbolic ScCyyt______pG s5ErrorP
++ _symbolic ScCyyt______pGSg s5ErrorP
++ _symbolic ScPSg
++ _symbolic ScSySo16AVAudioPCMBufferCGyYbc
++ _symbolic ScSy_____G 26AudioTranscriptionAnalysis12SessionEventO
++ _symbolic ScSy_____G 26AudioTranscriptionAnalysis21SessionLifecycleEventO
++ _symbolic ScSy_____GyYbc 26AudioTranscriptionAnalysis0A14OutputSequenceV
++ _symbolic ScSy_____GyYbc 26AudioTranscriptionAnalysis0B6ResultV
++ _symbolic ScSy_____GyYbc 26AudioTranscriptionAnalysis17TranslationResultV
++ _symbolic ScTyyt_____G s5NeverO
++ _symbolic ScTyyt_____GSg s5NeverO
++ _symbolic Scgyyt______pG s5ErrorP
++ _symbolic Shy_____G So14ATAPauseReasona
++ _symbolic Shy_____G So20ATAServiceOutputTypeV
++ _symbolic Si
++ _symbolic Si4code_______pSg10underlyingt s5ErrorP
++ _symbolic So13AVAudioFormatCSg_____Ybc So14ATAServiceTypeV
++ _symbolic So13AVAudioFormatC_____YaYbKc So14ATAServiceTypeV
++ _symbolic So16AVAudioPCMBufferC______Sg8sequencet 10Foundation4UUIDV
++ _symbolic So17OS_dispatch_queueC
++ _symbolic So17OS_dispatch_queueCSg
++ _symbolic So8NSObjectC
++ _symbolic So8NSStringC
++ _symbolic _____ 10Foundation4DateV
++ _symbolic _____ 10Foundation4UUIDV
++ _symbolic _____ 10Foundation6LocaleV
++ _symbolic _____ 26AudioTranscriptionAnalysis01_A15SequenceTrackerC
++ _symbolic _____ 26AudioTranscriptionAnalysis04FullA0O
++ _symbolic _____ 26AudioTranscriptionAnalysis06SpeechA8PipelineO
++ _symbolic _____ 26AudioTranscriptionAnalysis0A10InputErrorO
++ _symbolic _____ 26AudioTranscriptionAnalysis0A10OutputOnlyO
++ _symbolic _____ 26AudioTranscriptionAnalysis0A11OutputErrorO
++ _symbolic _____ 26AudioTranscriptionAnalysis0A14OutputSequenceV
++ _symbolic _____ 26AudioTranscriptionAnalysis0A5InputV
++ _symbolic _____ 26AudioTranscriptionAnalysis0A6OutputV
++ _symbolic _____ 26AudioTranscriptionAnalysis0A9InputOnlyO
++ _symbolic _____ 26AudioTranscriptionAnalysis0B13ConfigurationV
++ _symbolic _____ 26AudioTranscriptionAnalysis0B6ResultV
++ _symbolic _____ 26AudioTranscriptionAnalysis0B6ResultV10CodingKeys33_1CF7FEE1BCE3F3309630ED874F4C119FLLO
++ _symbolic _____ 26AudioTranscriptionAnalysis10StopReasonO
++ _symbolic _____ 26AudioTranscriptionAnalysis10TextOutputV
++ _symbolic _____ 26AudioTranscriptionAnalysis10_StopClaim33_3F91087488EADFC852BF14FBC7024AD8LLO
++ _symbolic _____ 26AudioTranscriptionAnalysis11DiagnosticsV
++ _symbolic _____ 26AudioTranscriptionAnalysis12SessionErrorV
++ _symbolic _____ 26AudioTranscriptionAnalysis12SessionErrorV4CodeO
++ _symbolic _____ 26AudioTranscriptionAnalysis12SessionEventO
++ _symbolic _____ 26AudioTranscriptionAnalysis12SessionPhaseO
++ _symbolic _____ 26AudioTranscriptionAnalysis12SessionTokenV
++ _symbolic _____ 26AudioTranscriptionAnalysis12SessionTokenV10CodingKeys33_C1E1D8038B1E399E86B59A8316B5761ELLO
++ _symbolic _____ 26AudioTranscriptionAnalysis12SpeechToTextO
++ _symbolic _____ 26AudioTranscriptionAnalysis12TextToSpeechO
++ _symbolic _____ 26AudioTranscriptionAnalysis12_BridgePhaseO
++ _symbolic _____ 26AudioTranscriptionAnalysis13TextInputOnlyO
++ _symbolic _____ 26AudioTranscriptionAnalysis14FullCapabilityO
++ _symbolic _____ 26AudioTranscriptionAnalysis14TextInputErrorO
++ _symbolic _____ 26AudioTranscriptionAnalysis14TextOutputOnlyO
++ _symbolic _____ 26AudioTranscriptionAnalysis14_ServiceBridgeC
++ _symbolic _____ 26AudioTranscriptionAnalysis14_ServiceBridgeC5StateV
++ _symbolic _____ 26AudioTranscriptionAnalysis15_ParkedRequestsV
++ _symbolic _____ 26AudioTranscriptionAnalysis15_TypedClientOps33_1F6ABA6175FD31A70308E384E1E35574LLO
++ _symbolic _____ 26AudioTranscriptionAnalysis15_TypedClientOps33_1F6ABA6175FD31A70308E384E1E35574LLO14CreationResultV
++ _symbolic _____ 26AudioTranscriptionAnalysis16ATASessionClientC
++ _symbolic _____ 26AudioTranscriptionAnalysis16ATASessionClientC20_ObservedPhaseUpdateO
++ _symbolic _____ 26AudioTranscriptionAnalysis16DiagnosticsErrorO
++ _symbolic _____ 26AudioTranscriptionAnalysis17DiagnosticsReportV
++ _symbolic _____ 26AudioTranscriptionAnalysis17TranslationResultV
++ _symbolic _____ 26AudioTranscriptionAnalysis17TranslationResultV10CodingKeys33_1CF7FEE1BCE3F3309630ED874F4C119FLLO
++ _symbolic _____ 26AudioTranscriptionAnalysis17_OutputProductionO
++ _symbolic _____ 26AudioTranscriptionAnalysis18ServiceFeatureFlagO
++ _symbolic _____ 26AudioTranscriptionAnalysis18_PauseReasonLedgerC
++ _symbolic _____ 26AudioTranscriptionAnalysis18_PauseReasonLedgerC0D8DecisionO
++ _symbolic _____ 26AudioTranscriptionAnalysis18_PauseReasonLedgerC14ResumeDecisionO
++ _symbolic _____ 26AudioTranscriptionAnalysis19_InputFormatWaitersV
++ _symbolic _____ 26AudioTranscriptionAnalysis19_OutputSubscriptionO
++ _symbolic _____ 26AudioTranscriptionAnalysis20ATASessionControllerC
++ _symbolic _____ 26AudioTranscriptionAnalysis20ATASessionControllerC13_PerServiceOp33_3F91087488EADFC852BF14FBC7024AD8LLO
++ _symbolic _____ 26AudioTranscriptionAnalysis20_ObjCDelegateAdapterC
++ _symbolic _____ 26AudioTranscriptionAnalysis21SessionLifecycleEventO
++ _symbolic _____ 26AudioTranscriptionAnalysis22_ServiceBridgeTokenMapC
++ _symbolic _____ 26AudioTranscriptionAnalysis24TranslationConfigurationV
++ _symbolic _____ 26AudioTranscriptionAnalysis24TranslationConfigurationV8TaskHintO
++ _symbolic _____ 26AudioTranscriptionAnalysis24_CapabilityHandleFactoryO
++ _symbolic _____ 26AudioTranscriptionAnalysis24_SessionEventBroadcasterC
++ _symbolic _____ 26AudioTranscriptionAnalysis24_SessionEventBroadcasterC13_Registration33_6FCC1857F0A3CC99E2726905A60CB603LLV
++ _symbolic _____ 26AudioTranscriptionAnalysis8ATAErrorO
++ _symbolic _____ 26AudioTranscriptionAnalysis8FullTextO
++ _symbolic _____ 26AudioTranscriptionAnalysis9TextInputV
++ _symbolic _____ So13ATASourceTypeV
++ _symbolic _____ So14ATAPauseReasona
++ _symbolic _____ So14ATAServiceTypeV
++ _symbolic _____ So16os_unfair_lock_sV
++ _symbolic _____ So20ATAServiceOutputTypeV
++ _symbolic _____ s5UInt8V
++ _symbolic _____ s6UInt32V
++ _symbolic _____3key______5valuet 10Foundation4UUIDV 26AudioTranscriptionAnalysis24_SessionEventBroadcasterC13_Registration33_6FCC1857F0A3CC99E2726905A60CB603LLV
++ _symbolic _____3key______5valuet So14ATAServiceTypeV 10Foundation4UUIDV
++ _symbolic _____3key______y______G5valuet 10Foundation4UUIDV ScS12ContinuationV 26AudioTranscriptionAnalysis21SessionLifecycleEventO
++ _symbolic _____4next______6parkedt 26AudioTranscriptionAnalysis12_BridgePhaseO AA15_ParkedRequestsV
++ _symbolic _____6reason_t 26AudioTranscriptionAnalysis10StopReasonO
++ _symbolic _____Sg 10Foundation3URLV
++ _symbolic _____Sg 10Foundation4UUIDV
++ _symbolic _____Sg 10Foundation6LocaleV
++ _symbolic _____Sg 26AudioTranscriptionAnalysis0A14OutputSequenceV
++ _symbolic _____Sg 26AudioTranscriptionAnalysis0B6ResultV
++ _symbolic _____Sg 26AudioTranscriptionAnalysis12SessionEventO
++ _symbolic _____Sg 26AudioTranscriptionAnalysis15_ParkedRequestsV
++ _symbolic _____Sg 26AudioTranscriptionAnalysis17TranslationResultV
++ _symbolic _____Sg 26AudioTranscriptionAnalysis24_SessionEventBroadcasterC13_Registration33_6FCC1857F0A3CC99E2726905A60CB603LLV
++ _symbolic _____Sg So14ATAPauseReasona
++ _symbolic _____Sg8sequence_______pSg5errort 10Foundation4UUIDV s5ErrorP
++ _symbolic _____SgXw 26AudioTranscriptionAnalysis14_ServiceBridgeC
++ _symbolic _____Sg_ABt 10Foundation4UUIDV
++ _symbolic _____Sg______t 26AudioTranscriptionAnalysis15_ParkedRequestsV AA12_BridgePhaseO
++ _symbolic _____So16AVAudioPCMBufferCSgIeghnr_ 26AudioTranscriptionAnalysis12SessionEventO
++ _symbolic ______ScCySo13AVAudioFormatC______pGt 10Foundation4UUIDV s5ErrorP
++ _symbolic ______Shy_____Gt So14ATAServiceTypeV So0a6OutputB0V
++ _symbolic __________SgIeghnr_ 26AudioTranscriptionAnalysis12SessionEventO AA0A14OutputSequenceV
++ _symbolic __________SgIeghnr_ 26AudioTranscriptionAnalysis12SessionEventO AA0B6ResultV
++ _symbolic __________SgIeghnr_ 26AudioTranscriptionAnalysis12SessionEventO AA17TranslationResultV
++ _symbolic __________YaYbKc 26AudioTranscriptionAnalysis17DiagnosticsReportV So14ATAServiceTypeV
++ _symbolic ___________Sg6reasont So14ATAServiceTypeV So14ATAPauseReasona
++ _symbolic ____________pSg5errort So14ATAServiceTypeV s5ErrorP
++ _symbolic ___________t 10Foundation4UUIDV 26AudioTranscriptionAnalysis24_SessionEventBroadcasterC
++ _symbolic ___________t 10Foundation4UUIDV 26AudioTranscriptionAnalysis24_SessionEventBroadcasterC13_Registration33_6FCC1857F0A3CC99E2726905A60CB603LLV
++ _symbolic ___________t So14ATAServiceTypeV 10Foundation4UUIDV
++ _symbolic ___________t So14ATAServiceTypeV 26AudioTranscriptionAnalysis12SessionPhaseO
++ _symbolic ___________tSg So14ATAServiceTypeV 10Foundation4UUIDV
++ _symbolic ___________y______Gt 10Foundation4UUIDV ScS12ContinuationV 26AudioTranscriptionAnalysis21SessionLifecycleEventO
++ _symbolic ______p 26AudioTranscriptionAnalysis10TextResultP
++ _symbolic ______p 26AudioTranscriptionAnalysis20ServiceConfigurationP
++ _symbolic ______p 26AudioTranscriptionAnalysis21_ObjCConfigBridgeableP
++ _symbolic ______p s5ErrorP
++ _symbolic ______p10underlying_t s5ErrorP
++ _symbolic ______pSg 26AudioTranscriptionAnalysis20ServiceConfigurationP
++ _symbolic ______pSg s5ErrorP
++ _symbolic ______pSg10underlying_t s5ErrorP
++ _symbolic ______pSg5error_t s5ErrorP
++ _symbolic _____xSgIeghnr_ 26AudioTranscriptionAnalysis12SessionEventO
++ _symbolic _____yS2SG s18_DictionaryStorageC
++ _symbolic _____ySDy__________GG 15Synchronization5MutexVAARi_zrlE 10Foundation4UUIDV 26AudioTranscriptionAnalysis24_SessionEventBroadcasterC
++ _symbolic _____ySDy__________GG 15Synchronization5MutexVAARi_zrlE So14ATAServiceTypeV 26AudioTranscriptionAnalysis12SessionPhaseO
++ _symbolic _____ySDy__________GG 15Synchronization5MutexVAARi_zrlE So14ATAServiceTypeV 26AudioTranscriptionAnalysis14_ServiceBridgeC
++ _symbolic _____ySSG s23_ContiguousArrayStorageC
++ _symbolic _____ySSypG s18_DictionaryStorageC
++ _symbolic _____ySbG 15Synchronization5MutexVAARi_zrlE
++ _symbolic _____yScCySo13AVAudioFormatC______pGG s23_ContiguousArrayStorageC s5ErrorP
++ _symbolic _____yScTyyt_____GSgG 15Synchronization5MutexVAARi_zrlE s5NeverO
++ _symbolic _____yShy_____GG 15Synchronization5MutexVAARi_zrlE So14ATAPauseReasona
++ _symbolic _____ySnySiGG s23_ContiguousArrayStorageC
++ _symbolic _____ySo16AVAudioPCMBufferC_G ScS12ContinuationV
++ _symbolic _____ySo16AVAudioPCMBufferC__G ScS12ContinuationV11YieldResultO
++ _symbolic _____ySo16AVAudioPCMBufferC__G ScS12ContinuationV15BufferingPolicyO
++ _symbolic _____y_____G 15Synchronization5MutexVAARi_zrlE 26AudioTranscriptionAnalysis12SessionPhaseO
++ _symbolic _____y_____G 15Synchronization5MutexVAARi_zrlE 26AudioTranscriptionAnalysis14_ServiceBridgeC5StateV
++ _symbolic _____y_____G 15Synchronization5_CellVAARi_zrlE 26AudioTranscriptionAnalysis14_ServiceBridgeC5StateV
++ _symbolic _____y_____G 15Synchronization6AtomicV s5UInt8V
++ _symbolic _____y_____G s11_SetStorageC So14ATAPauseReasona
++ _symbolic _____y_____G s11_SetStorageC So14ATAServiceTypeV
++ _symbolic _____y_____G s11_SetStorageC So20ATAServiceOutputTypeV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 26AudioTranscriptionAnalysis0E6ResultV10CodingKeys33_1CF7FEE1BCE3F3309630ED874F4C119FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 26AudioTranscriptionAnalysis12SessionTokenV10CodingKeys33_C1E1D8038B1E399E86B59A8316B5761ELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 26AudioTranscriptionAnalysis17TranslationResultV10CodingKeys33_1CF7FEE1BCE3F3309630ED874F4C119FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 26AudioTranscriptionAnalysis0E6ResultV10CodingKeys33_1CF7FEE1BCE3F3309630ED874F4C119FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 26AudioTranscriptionAnalysis12SessionTokenV10CodingKeys33_C1E1D8038B1E399E86B59A8316B5761ELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 26AudioTranscriptionAnalysis17TranslationResultV10CodingKeys33_1CF7FEE1BCE3F3309630ED874F4C119FLLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 26AudioTranscriptionAnalysis12_BridgePhaseO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s5UInt8V
++ _symbolic _____y_____ScCySo13AVAudioFormatC______pGG s18_DictionaryStorageC 10Foundation4UUIDV s5ErrorP
++ _symbolic _____y_____SgG 15Synchronization5MutexVAARi_zrlE 10Foundation4UUIDV
++ _symbolic _____y_____SgG 15Synchronization5_CellVAARi_zrlE 10Foundation4UUIDV
++ _symbolic _____y_____Shy_____GG s18_DictionaryStorageC So14ATAServiceTypeV So0c6OutputD0V
++ _symbolic _____y______G ScS12ContinuationV 26AudioTranscriptionAnalysis0B14OutputSequenceV
++ _symbolic _____y______G ScS12ContinuationV 26AudioTranscriptionAnalysis0C6ResultV
++ _symbolic _____y______G ScS12ContinuationV 26AudioTranscriptionAnalysis12SessionEventO
++ _symbolic _____y______G ScS12ContinuationV 26AudioTranscriptionAnalysis17TranslationResultV
++ _symbolic _____y______G ScS12ContinuationV 26AudioTranscriptionAnalysis21SessionLifecycleEventO
++ _symbolic _____y______G ScS8IteratorV 26AudioTranscriptionAnalysis12SessionEventO
++ _symbolic _____y______G ScS8IteratorV 26AudioTranscriptionAnalysis21SessionLifecycleEventO
++ _symbolic _____y______GSg ScS12ContinuationV 26AudioTranscriptionAnalysis21SessionLifecycleEventO
++ _symbolic _____y_______G ScS12ContinuationV11YieldResultO 26AudioTranscriptionAnalysis011TranslationC0V
++ _symbolic _____y_______G ScS12ContinuationV11YieldResultO 26AudioTranscriptionAnalysis0D14OutputSequenceV
++ _symbolic _____y_______G ScS12ContinuationV11YieldResultO 26AudioTranscriptionAnalysis0eC0V
++ _symbolic _____y_______G ScS12ContinuationV11YieldResultO 26AudioTranscriptionAnalysis12SessionEventO
++ _symbolic _____y_______G ScS12ContinuationV11YieldResultO 26AudioTranscriptionAnalysis21SessionLifecycleEventO
++ _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO 26AudioTranscriptionAnalysis0D14OutputSequenceV
++ _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO 26AudioTranscriptionAnalysis0E6ResultV
++ _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO 26AudioTranscriptionAnalysis12SessionEventO
++ _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO 26AudioTranscriptionAnalysis17TranslationResultV
++ _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO 26AudioTranscriptionAnalysis21SessionLifecycleEventO
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV 26AudioTranscriptionAnalysis24_SessionEventBroadcasterC
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV 26AudioTranscriptionAnalysis24_SessionEventBroadcasterC13_Registration33_6FCC1857F0A3CC99E2726905A60CB603LLV
++ _symbolic _____y__________G s18_DictionaryStorageC So14ATAServiceTypeV 10Foundation4UUIDV
++ _symbolic _____y__________G s18_DictionaryStorageC So14ATAServiceTypeV 26AudioTranscriptionAnalysis12SessionPhaseO
++ _symbolic _____y__________G s18_DictionaryStorageC So14ATAServiceTypeV 26AudioTranscriptionAnalysis12_BridgePhaseO
++ _symbolic _____y__________G s18_DictionaryStorageC So14ATAServiceTypeV 26AudioTranscriptionAnalysis14_ServiceBridgeC
++ _symbolic _____y___________G SD6ValuesV So14ATAServiceTypeV 26AudioTranscriptionAnalysis12_BridgePhaseO
++ _symbolic _____y___________pG s18_DictionaryStorageC So14ATAServiceTypeV 26AudioTranscriptionAnalysis20ServiceConfigurationP
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC So14ATAServiceTypeV 10Foundation4UUIDV
++ _symbolic _____y__________y______GG s18_DictionaryStorageC 10Foundation4UUIDV ScS12ContinuationV 26AudioTranscriptionAnalysis21SessionLifecycleEventO
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 26AudioTranscriptionAnalysis20ServiceConfigurationP
++ _symbolic _____yxGSgXw 26AudioTranscriptionAnalysis16ATASessionClientC
++ _symbolic _____yxGSgXw 26AudioTranscriptionAnalysis20ATASessionControllerC
++ _symbolic _____yxGSgXwz_x______RzlXX 26AudioTranscriptionAnalysis16ATASessionClientC AA10CapabilityP
++ _symbolic _____yxGSgXwz_x______RzlXX 26AudioTranscriptionAnalysis20ATASessionControllerC AA10CapabilityP
++ _symbolic _____yxGXDXMT 26AudioTranscriptionAnalysis16ATASessionClientC
++ _symbolic _____yx_G ScS12ContinuationV
++ _symbolic _____yyyYbcSgG 15Synchronization5MutexVAARi_zrlE
++ _symbolic x
++ _symbolic ySS______tYbKc So14ATAServiceTypeV
++ _symbolic ySo13AVAudioFormatCSg______tYb_____YKc So14ATAServiceTypeV 26AudioTranscriptionAnalysis0C11OutputErrorO
++ _symbolic ySo16AVAudioPCMBufferCYbKc
++ _symbolic ySo16AVAudioPCMBufferCYbcSg
++ _symbolic ySo20ATATranslationResultCYbcSg
++ _symbolic ySo22ATATranscriptionResultCYbcSg
++ _symbolic ySo25ATAGeneratedAudioMetadataCYbcSg
++ _symbolic yXl
++ _symbolic y_____SgYbcSg So14ATAPauseReasona
++ _symbolic y______pSgYbcSg s5ErrorP
++ _symbolic ytIeAgHr_
++ _symbolic ytIeghr_
++ _symbolic yyYbcSg
++ _symbolic yyc
++ _symbolic yycSg
++ _type_layout_string 26AudioTranscriptionAnalysis0A10InputErrorO
++ _type_layout_string 26AudioTranscriptionAnalysis0A5InputV
++ _type_layout_string 26AudioTranscriptionAnalysis0A6OutputV
++ _type_layout_string 26AudioTranscriptionAnalysis10TextOutputV
++ _type_layout_string 26AudioTranscriptionAnalysis10_StopClaim33_3F91087488EADFC852BF14FBC7024AD8LLO
++ _type_layout_string 26AudioTranscriptionAnalysis11DiagnosticsV
++ _type_layout_string 26AudioTranscriptionAnalysis12SessionErrorV
++ _type_layout_string 26AudioTranscriptionAnalysis14TextInputErrorO
++ _type_layout_string 26AudioTranscriptionAnalysis16DiagnosticsErrorO
++ _type_layout_string 26AudioTranscriptionAnalysis18_PauseReasonLedgerC14ResumeDecisionO
++ _type_layout_string 26AudioTranscriptionAnalysis19_InputFormatWaitersV
++ _type_layout_string 26AudioTranscriptionAnalysis21SessionLifecycleEventO
++ _type_layout_string 26AudioTranscriptionAnalysis8ATAErrorO
++ _type_layout_string 26AudioTranscriptionAnalysis9TextInputV
++ _type_layout_string So14ATAPauseReasona
++ _type_layout_string So16os_unfair_lock_sV
++ block_copy_helper
++ block_descriptor
++ block_destroy_helper
+- -[ATATranscriptionClient _initWithPeerContext:delegate:delegateQueue:]
+- -[ATATranscriptionClient _initWithPeerProvider:peerContext:delegate:delegateQueue:]
+- -[ATATranscriptionClient _setUpPeerProviderWhileLocked:withContext:]
+- -[ATATranslationClient _initWithPeerContext:delegate:delegateQueue:]
+- -[ATATranslationClient _initWithPeerProvider:peerContext:delegate:delegateQueue:]
+- -[ATATranslationClient _setUpPeerProviderWhileLocked:withContext:]
+- -[_ATATranscriptionClientList addSecondaryClientPeer:withXPCConnection:]
+- -[_ATATranscriptionServiceManager _addToClientListWithIdentifier:clientPeer:xpcConnection:]
+- -[_ATATranscriptionServiceManager _remoteObjectProxyForConnection:isPrimary:]
+- -[_ATATranslationClientList addSecondaryClientPeer:withXPCConnection:]
+- -[_ATATranslationServiceManager _addToClientListWithIdentifier:clientPeer:xpcConnection:]
+- -[_ATATranslationServiceManager _remoteObjectProxyForConnection:isPrimary:]
+- -[_ATAXPCClient _fetchRemoteServicePeer]
+- -[_ATAXPCClient setUpPeerForDelegate:context:]
+- GCC_except_table108
+- GCC_except_table109
+- GCC_except_table14
+- GCC_except_table17
+- GCC_except_table20
+- GCC_except_table29
+- GCC_except_table39
+- GCC_except_table4
+- GCC_except_table41
+- GCC_except_table49
+- GCC_except_table56
+- GCC_except_table57
+- GCC_except_table6
+- GCC_except_table62
+- GCC_except_table65
+- GCC_except_table68
+- GCC_except_table73
+- GCC_except_table78
+- GCC_except_table8
+- GCC_except_table83
+- GCC_except_table92
+- GCC_except_table96
+- OBJC_IVAR_$__ATATranslationClientList._preferredFormat
+- _ATAServerSharedXPCServer
+- __40-[_ATAXPCClient _fetchRemoteServicePeer]_block_invoke
+- __70-[_ATATranslationClientList addSecondaryClientPeer:withXPCConnection:]_block_invoke
+- __72-[_ATATranscriptionClientList addSecondaryClientPeer:withXPCConnection:]_block_invoke
+- __75-[_ATATranslationServiceManager _remoteObjectProxyForConnection:isPrimary:]_block_invoke
+- __77-[_ATATranscriptionServiceManager _remoteObjectProxyForConnection:isPrimary:]_block_invoke
+- __ATAServerSharedXPCServer
+- ___40-[_ATAXPCClient _fetchRemoteServicePeer]_block_invoke
+- ___66-[ATATranslationClient _setUpPeerProviderWhileLocked:withContext:]_block_invoke
+- ___68-[ATATranscriptionClient _setUpPeerProviderWhileLocked:withContext:]_block_invoke
+- ___70-[_ATATranslationClientList addSecondaryClientPeer:withXPCConnection:]_block_invoke
+- ___72-[_ATATranscriptionClientList addSecondaryClientPeer:withXPCConnection:]_block_invoke
+- ___75-[_ATATranslationServiceManager _remoteObjectProxyForConnection:isPrimary:]_block_invoke
+- ___77-[_ATATranscriptionServiceManager _remoteObjectProxyForConnection:isPrimary:]_block_invoke
+- ___81-[ATATranslationClient _initWithPeerProvider:peerContext:delegate:delegateQueue:]_block_invoke
+- ___83-[ATATranscriptionClient _initWithPeerProvider:peerContext:delegate:delegateQueue:]_block_invoke
+- ___89-[_ATATranslationServiceManager _addToClientListWithIdentifier:clientPeer:xpcConnection:]_block_invoke
+- ___91-[_ATATranscriptionServiceManager _addToClientListWithIdentifier:clientPeer:xpcConnection:]_block_invoke
+- ___block_descriptor_40_e8_32r_e34_v16?0"<_ATATranslationService>"8l
+- ___block_descriptor_40_e8_32r_e36_v16?0"<_ATATranscriptionService>"8l
+- ___block_descriptor_64_e8_32s40s48s56r_e5_v8?0l
+- ___copy_helper_block_e8_32s40s48s56r
+- ___destroy_helper_block_e8_32s40s48s56r
+- _objc_msgSend$_addToClientListWithIdentifier:clientPeer:xpcConnection:
+- _objc_msgSend$_fetchRemoteServicePeer
+- _objc_msgSend$_initWithPeerContext:delegate:delegateQueue:
+- _objc_msgSend$_initWithPeerProvider:peerContext:delegate:delegateQueue:
+- _objc_msgSend$_remoteObjectProxyForConnection:isPrimary:
+- _objc_msgSend$_setUpPeerProviderWhileLocked:withContext:
+- _objc_msgSend$addSecondaryClientPeer:withXPCConnection:
+- _objc_msgSend$setUpPeerForDelegate:context:
+CStrings:
++ " error "
++ " reason "
++ " sequence "
++ "%{public}s:%d Created audio converter: %{public}@ -> %{public}@"
++ "%{public}s:%d Failed to fetch remote service peer for context: %{public}@ error: %{public}@"
++ "%{public}s:%d No client list to invalidate for key: %{public}@ (identifier: %{public}@)"
++ "%{public}s:%d Refusing secondary client for session: %{public}@ key: %{public}@ connection: %{public}@ error: %{public}@"
++ "%{public}s:%d Refusing secondary client for session: %{public}@ key: %{public}@ error: %{public}@"
++ "%{public}s:%d clientList: %{public}@ audio conversion failed status=%ld error=%{public}@"
++ "%{public}s:%d clientList: %{public}@ failed to allocate output buffer"
++ "%{public}s:%d clientList: %{public}@ failed to create audio converter from %{public}@ to %{public}@"
++ "%{public}s:%d swiftAPIEnabled is set but is not a boolean; ignoring it and using the feature flag. Use `defaults write com.apple.audiotranscriptionanalysis swiftAPIEnabled -bool YES`."
++ "-[ATATranscriptionClient _initWithPeerContext:delegate:delegateQueue:error:]"
++ "-[ATATranscriptionClient _initWithPeerProvider:peerContext:delegate:delegateQueue:error:]"
++ "-[ATATranscriptionClient _setUpPeerProviderWhileLocked:withContext:error:]"
++ "-[ATATranscriptionClient initWithTranscriptionIdentifier:delegate:delegateQueue:error:]"
++ "-[ATATranslationClient _initWithPeerContext:delegate:delegateQueue:error:]"
++ "-[ATATranslationClient _initWithPeerProvider:peerContext:delegate:delegateQueue:error:]"
++ "-[ATATranslationClient _setUpPeerProviderWhileLocked:withContext:error:]"
++ "-[ATATranslationClient initWithTranslationIdentifier:delegate:delegateQueue:error:]"
++ "-[_ATATranscriptionClientList addSecondaryClientPeer:withXPCConnection:inReply:]"
++ "-[_ATATranscriptionClientList addSecondaryClientPeer:withXPCConnection:inReply:]_block_invoke"
++ "-[_ATATranscriptionServiceManager _addToClientListWithIdentifier:clientPeer:xpcConnection:inReply:]"
++ "-[_ATATranscriptionServiceManager _installPrimaryDisconnectHandlersForConnection:clientPeer:]_block_invoke"
++ "-[_ATATranscriptionServiceManager _remoteObjectProxyForConnection:]"
++ "-[_ATATranslationClientList _convertAudioBufferIfNeeded:]"
++ "-[_ATATranslationClientList addSecondaryClientPeer:withXPCConnection:inReply:]_block_invoke"
++ "-[_ATATranslationServiceManager _addToClientListWithIdentifier:clientPeer:xpcConnection:inReply:]"
++ "-[_ATATranslationServiceManager _installPrimaryDisconnectHandlersForConnection:clientPeer:]_block_invoke"
++ "-[_ATATranslationServiceManager _remoteObjectProxyForConnection:]"
++ "-[_ATAXPCClient _fetchRemoteServicePeerWithError:]"
++ "-[_ATAXPCClient _fetchRemoteServicePeerWithError:]_block_invoke"
++ "-[_ATAXPCClient setUpPeerForDelegate:context:error:]"
++ "AVAudioPCMBuffer *_ATATranslationClientList_ConvertBuffer(_ATATranslationClientList * _Nullable __strong, AVAudioConverter *__strong, AVAudioPCMBuffer *__strong, AVAudioFormat *__strong)"
++ "Audio buffer is empty or invalid."
++ "Audio buffer serialization failed."
++ "Audio format is not supported."
++ "Audio output sequence finished: service=%{public}s, sequence=%{public}s"
++ "Audio output sequence started: service=%{public}s, sequence=%{public}s"
++ "AudioTranscriptionAnalysis"
++ "AudioTranscriptionAnalysis/ATASessionController.swift"
++ "AudioTranscriptionAnalysis/ServiceBridge.swift"
++ "BOOL ATACurrentProcessIsEntitledToHost(void)"
++ "BOOL ATAFeatureFlagSwiftAPIEnabled(void)_block_invoke"
++ "Backend start failed: service=%{public}s, drainedWaiters=%{public}ld, %{public}s"
++ "Backend start failure dropped: service=%{public}s, phase=%{public}s, %{public}s"
++ "Bridge create rejected: no backend for service=%{public}s"
++ "Bridge create rejected: service=%{public}s configuration has no ObjC representation"
++ "Bridge create rejected: transcription configuration is of the wrong ObjC type"
++ "Bridge create rejected: translation configuration is of the wrong ObjC type"
++ "Bridge create: service=%{public}s, locales=%{public}s, sourceType=%{public}s"
++ "Bridge created: service=%{public}s, identifier=%{public}s, producesTranslatedAudio=%{bool,public}d"
++ "Bridge delivery set: service=%{public}s, kinds=%{public}s"
++ "Bridge invalidate: service=%{public}s, drainedWaiters=%{public}ld"
++ "Bridge join rejected: malformed identifier for service=%{public}s"
++ "Bridge join rejected: no backend for service=%{public}s"
++ "Bridge join: service=%{public}s, identifier=%{public}s"
++ "Bridge joined: service=%{public}s, identifier=%{public}s"
++ "Bridge pause dispatching to backend: service=%{public}s, reason=%{public}s"
++ "Bridge pause recorded, backend already paused: service=%{public}s, reason=%{public}s"
++ "Bridge pause rejected: service=%{public}s, reason=%{public}s, code=%{public}ld"
++ "Bridge phase %{public}s -> %{public}s [%{public}s] service=%{public}s"
++ "Bridge production set: service=%{public}s, kinds=%{public}s"
++ "Bridge resume cleared one reason, still paused: service=%{public}s, reason=%{public}s, remainingReasons=%{public}ld"
++ "Bridge resume dispatching to backend: service=%{public}s, reason=%{public}s"
++ "Bridge resume rejected: service=%{public}s, reason=%{public}s, code=%{public}ld"
++ "Bridge start abandoned before dispatch: service=%{public}s, code=%{public}ld"
++ "Bridge start cancelled: service=%{public}s"
++ "Bridge start dispatching to backend: service=%{public}s"
++ "Bridge start failed: no backend for service=%{public}s"
++ "Bridge start rejected: service=%{public}s, code=%{public}ld"
++ "Bridge stop abandoned before dispatch: service=%{public}s, code=%{public}ld"
++ "Bridge stop cancelled: service=%{public}s"
++ "Bridge stop dispatching to backend: service=%{public}s"
++ "Bridge stop failed: no backend for service=%{public}s"
++ "Bridge stop rejected: service=%{public}s, code=%{public}ld"
++ "CancellationError"
++ "Client invalidate: session=%{public}s, bridges=%{public}ld"
++ "Client is already invalidated."
++ "Client join binds no service: requested=[%{public}s] does not intersect tokenServices=[%{public}s]"
++ "Client join failed: %{public}s; tearing down %{public}ld bridge(s)"
++ "Client join rejected: Swift API feature flag is off"
++ "Client join rejected: token names no joinable service"
++ "Client join requested: capability=%{public}s, session=%{public}s, tokenServices=[%{public}s], filter=%{public}s, swiftAPIEnabled=%{bool,public}d"
++ "Client join resolved: services=[%{public}s]"
++ "Client join: mintingControllerInProcess=%{bool,public}d"
++ "Configuration is invalid or incomplete."
++ "Configuration is invalid."
++ "Controller init failed: %{public}s; tearing down %{public}ld bridge(s), session=%{public}s"
++ "Controller init rejected: Swift API feature flag is off"
++ "Controller init rejected: duplicate configuration for service=%{public}s"
++ "Controller init rejected: no service configurations supplied"
++ "Controller init: capability=%{public}s, services=[%{public}s], swiftAPIEnabled=%{bool,public}d"
++ "Controller invalidate: session=%{public}s, bridges=%{public}ld"
++ "Controller ready: session=%{public}s, services=[%{public}s]"
++ "Diagnostics completed: service=%{public}s"
++ "Diagnostics failed: service=%{public}s, %{public}s"
++ "Diagnostics rejected: no diagnostics backend for service=%{public}s"
++ "Diagnostics rejected: service=%{public}s is not on this session"
++ "Diagnostics rejected: service=%{public}s, code=%{public}ld"
++ "Diagnostics requested: service=%{public}s"
++ "Duplicate broadcaster registration for session=%{public}s; trapping"
++ "Fatal error"
++ "Feature is not yet implemented."
++ "Invalid parameter: "
++ "Invalid state for operation."
++ "Join to transcription service failed: identifier=%{public}s, %{public}s"
++ "Join to translation service failed: identifier=%{public}s, %{public}s"
++ "Locale is not supported."
++ "ObjC transcription client init returned nil; XPC peer setup failed"
++ "ObjC translation client init returned nil; XPC peer setup failed"
++ "Operation attempted in an invalid state."
++ "Operation lost the race to invalidate(): session is invalidated"
++ "Operation timed out."
++ "Output format request rejected: service=%{public}s is absent or synthesizes no audio"
++ "Output format request rejected: service=%{public}s, format is not linear PCM"
++ "Output format request rejected: service=%{public}s, phase=%{public}s"
++ "Pause reason is not holding this service paused."
++ "Per-service %{public}s rejected: service=%{public}s, phase=%{public}s, code=%{public}ld"
++ "Preferred input format rejected: service=%{public}s is not on this session"
++ "Preferred input format rejected: service=%{public}s, code=%{public}ld"
++ "Preferred input format request cancelled: service=%{public}s"
++ "Preferred input format requested: service=%{public}s"
++ "Preferred input format resolved: service=%{public}s, sampleRate=%{public}f, channels=%{public}u, waiters=%{public}ld"
++ "Preferred input format unavailable: backend returned none for service=%{public}s, waiters=%{public}ld"
++ "Preferred input format unavailable: no backend for service=%{public}s"
++ "Preferred output format set: service=%{public}s, sampleRate=%{public}f, channels=%{public}u, serverChooses=%{bool,public}d"
++ "Process is not entitled to host the XPC server."
++ "Process is not entitled."
++ "ResourceCoordinator"
++ "Result delivered: kind=%{public}s, service=%{public}s, identifier=%{public}s, isFinal=false"
++ "Result delivered: kind=%{public}s, service=%{public}s, identifier=%{public}s, isFinal=true"
++ "Server disconnect already handled on this bridge: service=%{public}s"
++ "Server disconnect: this bridge is the elected session-level emitter, service=%{public}s"
++ "Server disconnected: service=%{public}s, drainedWaiters=%{public}ld"
++ "Server is not available."
++ "Service cannot stop producing the omitted output type."
++ "Service does not produce the requested output type."
++ "Service is not available."
++ "Service is unavailable."
++ "Service lookup failed: service=%{public}s is not configured on this session"
++ "Service lookup rejected: service=%{public}s, session already invalidated"
++ "Service operation failed."
++ "Service stopped with error: service=%{public}s, %{public}s"
++ "Service was cancelled."
++ "Session has already run and stopped."
++ "Session identifier is already registered."
++ "Session identifier not found."
++ "Session is already invalidated."
++ "Session is already started."
++ "Session is not started."
++ "Session not found."
++ "Session phase %{public}s -> %{public}s [%{public}s] session=%{public}s"
++ "Source or target locale is not supported."
++ "Source-locale parity violated: service=%{public}s expects %{public}s, session already expects %{public}s"
++ "Speech recognition authorization denied."
++ "Speech.framework is not available."
++ "SwiftAPI"
++ "Text input rejected: text input is not supported, service=%{public}s"
++ "The Swift API is not available in this build configuration."
++ "Transcription run was cancelled."
++ "TranscriptionConfiguration bridging failed: the ObjC configuration rejected locale=%{public}s"
++ "TranscriptionConfiguration invalid: locale is empty"
++ "Translation run was cancelled."
++ "TranslationConfiguration invalid: sourceLocale is empty"
++ "TranslationConfiguration invalid: targetLocale is empty, sourceLocale=%{public}s"
++ "Unknown ATA error (code "
++ "Unrecognized service identifier entry \""
++ "XPC connection failed or was interrupted."
++ "XPC connection failed."
++ "XPC server is not available."
++ "addService lost the race to invalidate(): tearing down the new %{public}s bridge"
++ "addService rejected: code=%{public}ld, bridges=[%{public}s]"
++ "addService rejected: service=%{public}s is already configured"
++ "addService requested: service=%{public}s, locales=%{public}s, phase=%{public}s"
++ "addService succeeded: service=%{public}s, services=%{public}ld"
++ "audioRouteChange"
++ "availableServices rejected: token names no joinable service, session=%{public}s"
++ "backend start failure"
++ "com.apple.ata.bridge."
++ "didPause dropped: service=%{public}s, phase=%{public}s"
++ "didResume dropped: service=%{public}s, phase=%{public}s"
++ "didStart dropped: service=%{public}s, phase=%{public}s"
++ "didStop dropped: service=%{public}s, phase=%{public}s"
++ "duplicate broadcaster registration for "
++ "originSessionID"
++ "pause requested: service=%{public}s, reason=%{public}s"
++ "preferredInputFormat()"
++ "removeService rejected: code=%{public}ld, bridges=[%{public}s]"
++ "removeService rejected: service=%{public}s is not configured on this session"
++ "removeService requested: service=%{public}s, phase=%{public}s"
++ "removeService succeeded: service=%{public}s, services=%{public}ld"
++ "resume requested: service=%{public}s, reason=%{public}s"
++ "sequence error "
++ "server disconnect"
++ "serverDisconnected"
++ "serviceIdentifiers"
++ "setProducedOutputTypes rejected: service=%{public}s cannot produce %{public}s"
++ "setProducedOutputTypes rejected: service=%{public}s cannot stop producing %{public}s"
++ "setProducedOutputTypes rejected: service=%{public}s is not on this session"
++ "setProducedOutputTypes rejected: session is invalidated, service=%{public}s"
++ "setProducedOutputTypes requested: service=%{public}s, kinds=%{public}s"
++ "setSubscribedOutputTypes rejected: service=%{public}s cannot produce %{public}s"
++ "setSubscribedOutputTypes rejected: service=%{public}s is not on this session"
++ "setSubscribedOutputTypes rejected: session is invalidated, service=%{public}s"
++ "setSubscribedOutputTypes requested: service=%{public}s, kinds=%{public}s"
++ "start() completed"
++ "start() could not complete its transition: code=%{public}ld"
++ "start() failed: %{public}s; invalidating the session"
++ "start() rejected: code=%{public}ld"
++ "start() requested: services=%{public}ld, phase=%{public}s"
++ "start() unsupported service"
++ "start(service:) failed: service=%{public}s, %{public}s; invalidating this bridge only"
++ "start(service:) requested: service=%{public}s"
++ "start(service:) succeeded: service=%{public}s"
++ "stop() completed"
++ "stop() failed: %{public}s, asked %{public}ld bridge(s)"
++ "stop() lost the race to invalidate(): code=%{public}ld"
++ "stop() rejected: code=%{public}ld"
++ "stop() requested: reason=%{public}s, phase=%{public}s"
++ "stop(_:) requested: service=%{public}s"
++ "swiftAPIEnabled"
++ "triggerDiagnostics()"
++ "userInitiated"
++ "v24@?0@\"<_ATATranscriptionService>\"8@\"NSError\"16"
++ "v24@?0@\"<_ATATranslationService>\"8@\"NSError\"16"
++ "\xd1"
+- "%{public}s:%d Failed to fetch remote service peer for context: %{public}@"
+- "%{public}s:%d No client list to invalidate for key: %{public}@ (already cleaned up)"
+- "-[ATATranscriptionClient _initWithPeerContext:delegate:delegateQueue:]"
+- "-[ATATranscriptionClient _initWithPeerProvider:peerContext:delegate:delegateQueue:]"
+- "-[ATATranscriptionClient _setUpPeerProviderWhileLocked:withContext:]"
+- "-[ATATranscriptionClient initWithTranscriptionIdentifier:delegate:delegateQueue:]"
+- "-[ATATranslationClient _initWithPeerContext:delegate:delegateQueue:]"
+- "-[ATATranslationClient _initWithPeerProvider:peerContext:delegate:delegateQueue:]"
+- "-[ATATranslationClient _setUpPeerProviderWhileLocked:withContext:]"
+- "-[ATATranslationClient initWithTranslationIdentifier:delegate:delegateQueue:]"
+- "-[_ATATranscriptionClientList addSecondaryClientPeer:withXPCConnection:]"
+- "-[_ATATranscriptionClientList addSecondaryClientPeer:withXPCConnection:]_block_invoke"
+- "-[_ATATranscriptionServiceManager _addToClientListWithIdentifier:clientPeer:xpcConnection:]"
+- "-[_ATATranscriptionServiceManager _remoteObjectProxyForConnection:isPrimary:]"
+- "-[_ATATranscriptionServiceManager _remoteObjectProxyForConnection:isPrimary:]_block_invoke"
+- "-[_ATATranslationClientList addSecondaryClientPeer:withXPCConnection:]_block_invoke"
+- "-[_ATATranslationServiceManager _addToClientListWithIdentifier:clientPeer:xpcConnection:]"
+- "-[_ATATranslationServiceManager _remoteObjectProxyForConnection:isPrimary:]"
+- "-[_ATATranslationServiceManager _remoteObjectProxyForConnection:isPrimary:]_block_invoke"
+- "-[_ATAXPCClient _fetchRemoteServicePeer]"
+- "-[_ATAXPCClient _fetchRemoteServicePeer]_block_invoke"
+- "-[_ATAXPCClient setUpPeerForDelegate:context:]"
+- "BOOL _ATAServerCurrentProcessIsEntitledToHost(void)"
+- "v16@?0@\"<_ATATranscriptionService>\"8"
+- "v16@?0@\"<_ATATranslationService>\"8"
+- "\xb1"
+```

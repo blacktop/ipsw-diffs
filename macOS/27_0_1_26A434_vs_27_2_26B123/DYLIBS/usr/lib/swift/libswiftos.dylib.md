@@ -1,0 +1,100 @@
+## libswiftos.dylib
+
+> `/usr/lib/swift/libswiftos.dylib`
+
+```diff
+
+-1090.0.0.0.0
+-  __TEXT.__text: 0x160b0
+-  __TEXT.__const: 0x1900
+-  __TEXT.__cstring: 0xb16
++1090.40.3.0.0
++  __TEXT.__text: 0x168e4
++  __TEXT.__const: 0x1980
++  __TEXT.__cstring: 0xb36
+   __TEXT.__constg_swiftt: 0x608
+-  __TEXT.__swift5_typeref: 0x5fa
++  __TEXT.__swift5_typeref: 0x610
+   __TEXT.__swift5_builtin: 0x3c
+   __TEXT.__swift5_reflstr: 0x693
+-  __TEXT.__swift5_fieldmd: 0x934
++  __TEXT.__swift5_fieldmd: 0x940
+   __TEXT.__swift5_types: 0xb8
+   __TEXT.__swift5_assocty: 0x1a0
+-  __TEXT.__swift5_mpenum: 0x10
++  __TEXT.__swift5_mpenum: 0x8
+   __TEXT.__swift5_proto: 0xf8
+   __TEXT.__swift5_capture: 0x280
+-  __TEXT.__unwind_info: 0x7f8
+-  __TEXT.__eh_frame: 0x328
++  __TEXT.__unwind_info: 0x820
++  __TEXT.__eh_frame: 0x298
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__got: 0x0
+   __AUTH_CONST.__const: 0x1cb0
+   __AUTH_CONST.__objc_const: 0x128
+-  __AUTH_CONST.__auth_got: 0x3d8
++  __AUTH_CONST.__auth_got: 0x3e0
+   __AUTH_CONST.__auth_ptr: 0x368
+-  __DATA.__data: 0x4fc
++  __DATA.__data: 0x4f4
+   __DATA.__common: 0x1
+   __DATA.__bss: 0x1d00
+-  __DATA_DIRTY.__data: 0x210
++  __DATA_DIRTY.__data: 0x218
+   __DATA_DIRTY.__bss: 0x200
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  Functions: 935
+-  Symbols:   2218
+-  CStrings:  118
++  Functions: 955
++  Symbols:   2243
++  CStrings:  119
+ 
+Symbols:
++ $s2os0A9_signpost_3dso3log4name0B2ID__ySo0a1_B7_type_ta_SVSo03OS_a1_D0Cs12StaticStringVAA010OSSignpostF0VALs7CVarArg_pdtFySRys5UInt8VGXEfU_ySPys4Int8VGXEfU_yARXEfU_TA
++ _$s2os0A4_log_3dso0B04type_ys12StaticStringV_SVSgSo03OS_a1_B0CSo0a1_b1_D2_tas7CVarArg_pdtFySRys5UInt8VGXEfU_
++ _$s2os0A4_log_3dso0B04type_ys12StaticStringV_SVSgSo03OS_a1_B0CSo0a1_b1_D2_tas7CVarArg_pdtFySRys5UInt8VGXEfU_TA
++ _$s2os0A4_log_3dso0B0__ySo0a1_B7_type_ta_SVSo03OS_a1_B0Cs12StaticStringVs7CVarArg_pdtFySRys5UInt8VGXEfU_
++ _$s2os0A4_log_3dso0B0__ySo0a1_B7_type_ta_SVSo03OS_a1_B0Cs12StaticStringVs7CVarArg_pdtFySRys5UInt8VGXEfU_TA
++ _$s2os0A4_log_3dso0B0__ySo0a1_B7_type_ta_SVSo03OS_a1_B0Cs12StaticStringVs7CVarArg_pdtFySRys5UInt8VGXEfU_TATm
++ _$s2os0A9_signpost_3dso3log4name0B2ID__ySo0a1_B7_type_ta_SVSo03OS_a1_D0Cs12StaticStringVAA010OSSignpostF0VALs7CVarArg_pdtFySRys5UInt8VGXEfU_
++ _$s2os0A9_signpost_3dso3log4name0B2ID__ySo0a1_B7_type_ta_SVSo03OS_a1_D0Cs12StaticStringVAA010OSSignpostF0VALs7CVarArg_pdtFySRys5UInt8VGXEfU_TA
++ _$s2os0A9_signpost_3dso3log4name0B2ID__ySo0a1_B7_type_ta_SVSo03OS_a1_D0Cs12StaticStringVAA010OSSignpostF0VALs7CVarArg_pdtFySRys5UInt8VGXEfU_ySPys4Int8VGXEfU_yARXEfU_
++ _$s2os0A9_signpost_3dso3log4name0B2ID__ySo0a1_B7_type_ta_SVSo03OS_a1_D0Cs12StaticStringVAA010OSSignpostF0VALs7CVarArg_pdtFySRys5UInt8VGXEfU_ySPys4Int8VGXEfU_yARXEfU_TA
++ _$s2os0A9_signpost_3dso3log4name0B2ID__ySo0a1_B7_type_ta_SVSo03OS_a1_D0Cs12StaticStringVAA010OSSignpostF0VALs7CVarArg_pdtFySRys5UInt8VGXEfU_ySPys4Int8VGXEfU_yARXEfU_TATm
++ _$s2os0A9_signpost_3dso3log4name0B2IDySo0a1_B7_type_ta_SVSo03OS_a1_D0Cs12StaticStringVAA010OSSignpostF0VtFySRys5UInt8VGXEfU_
++ _$s2os0A9_signpost_3dso3log4name0B2IDySo0a1_B7_type_ta_SVSo03OS_a1_D0Cs12StaticStringVAA010OSSignpostF0VtFySRys5UInt8VGXEfU_TA
++ _$s2os14OSMetricBridgeV5group5label10dimensions4type5level4bins9intervals5flagsACySdGAA0B5GroupV_SSAA0B10DimensionsVAA0B4TypeOAA0B16StatisticalLevelOs5UInt8VSays6UInt64VGAVtcSdRszlufC
++ _$s2os14OSMetricBridgeV5group5label10dimensions4type5level4bins9intervals5flagsACys5Int64VGAA0B5GroupV_SSAA0B10DimensionsVAA0B4TypeOAA0B16StatisticalLevelOs5UInt8VSays6UInt64VGAXtcAMRszlufC
++ _$s2os14OSMetricBridgeV5group5label10dimensions4type5level4bins9intervals5flagsACys5Int64VGAA0B5GroupV_SSAA0B10DimensionsVAA0B4TypeOAA0B16StatisticalLevelOs5UInt8VSays6UInt64VGAXtcAMRszlufCTm
++ _$s2os14OSMetricBridgeV5group5label10dimensions4type5level4bins9intervals5flagsACys6UInt64VGAA0B5GroupV_SSAA0B10DimensionsVAA0B4TypeOAA0B16StatisticalLevelOs5UInt8VSayAMGAXtcAMRszlufC
++ _$s2os15OSMetricBinTypeO6customyACSays6UInt64VG_tcACmFWC
++ _$s2os15OSMetricBinTypeO7bridgeds5UInt8V5count_s6UInt32V8intervalSays6UInt64VGSg9intervalstvg
++ _$s2os15OSMetricBinTypeOWOe
++ _$s2os15OSMetricBinTypeOWOy
++ _$s2os28animationBeginSignpostHelper3dso3log4name10signpostID19formatStringPointer9argumentsySV_So03OS_a1_G0Cs06StaticL0VAA010OSSignpostJ0VSPys4Int8VGSays7CVarArg_pGtFySRys5UInt8VGXEfU_
++ _$s2os28animationBeginSignpostHelper3dso3log4name10signpostID19formatStringPointer9argumentsySV_So03OS_a1_G0Cs06StaticL0VAA010OSSignpostJ0VSPys4Int8VGSays7CVarArg_pGtFySRys5UInt8VGXEfU_TA
++ _$ss7UnicodeO6ScalarV17withUTF8CodeUnitsyxxSRys5UInt8VGq_YKXEq_YKs5ErrorR_r0_lFAHq_xRi_zRi0_zRi__Ri0__r0_lys5NeverOxIsgyrzr_ADxA2KRs_r0_lIetMgyrzo_Tpq5yt_Tg5024$ss12StaticStringV14withd14BufferyxxSRys5G20VGXElFxAFXEfU_yt_TG5AHxRi_zRi0_zlyytIsgyr_Tf1ncn_n
++ ___swift_memcpy9_8
++ _get_enum_tag_for_layout_string 2os15OSMetricBinTypeO
++ _swift_bridgeObjectRelease_n
++ _swift_cvw_enumFn_getEnumTag
++ _symbolic Say_____G9intervals_t s6UInt64V
++ _type_layout_string 2os15OSMetricBinTypeO
+- _$s2os15OSMetricBinTypeOwug
+- _$ss7UnicodeO6ScalarV17withUTF8CodeUnitsyxxSRys5UInt8VGq_YKXEq_YKs5ErrorR_r0_lFAHq_xRi_zRi0_zRi__Ri0__r0_lys5NeverOxIsgyrzr_ADxA2KRs_r0_lIetMgyrzo_Tpq5yt_Tg50127$s2os0A9_signpost_3dso3log4name0B2ID__ySo0a1_B7_type_ta_SVSo03OS_a1_D0Cs12StaticStringVAA010OSSignpostF0VALs7CVarArg_pdtFySRys5G7VGXEfU_s0yZ0VSays7CVarArg_pGS2VSgSo0U7_os_logCSo03os_l1_R2_ta2os010OSSignpostO0VTf1ncn_n
+- _$ss7UnicodeO6ScalarV17withUTF8CodeUnitsyxxSRys5UInt8VGq_YKXEq_YKs5ErrorR_r0_lFAHq_xRi_zRi0_zRi__Ri0__r0_lys5NeverOxIsgyrzr_ADxA2KRs_r0_lIetMgyrzo_Tpq5yt_Tg5052$s2os0A4_log_3dso0B0__ySo0a1_B7_type_ta_SVSo03OS_a1_n37Cs12StaticStringVs7CVarArg_pdtFySRys5G7VGXEfU_Says0Z3Arg_pGS2VSgSo0t4_os_L0CSo03os_l1_Q2_taTf1ncn_n
+- _$ss7UnicodeO6ScalarV17withUTF8CodeUnitsyxxSRys5UInt8VGq_YKXEq_YKs5ErrorR_r0_lFAHq_xRi_zRi0_zRi__Ri0__r0_lys5NeverOxIsgyrzr_ADxA2KRs_r0_lIetMgyrzo_Tpq5yt_Tg5095$s2os0A4_log_3dso0B04type_ys12StaticStringV_SVSgSo03OS_a1_B0CSo0a1_b1_D2_tas7CVarArg_pdtFySRys5G7VGXEfU_Says7CVarArg_pGSVSgAOSo0t4_os_L0CSo03os_L7_type_taTf1ncn_n
+- ___swift_memcpy8_4
+CStrings:
++ "os/os_signpost.swift"
+```

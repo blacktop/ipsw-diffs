@@ -1,0 +1,20 @@
+## catutil
+
+> `/System/Library/PrivateFrameworks/DialogEngine.framework/catutil`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+- `__TEXT.__cstring`
+
+```diff
+
+-3600.23.9.0.0
++3605.10.1.0.0
+   __TEXT.__text: 0x60a50
+   __TEXT.__auth_stubs: 0x16c0
+   __TEXT.__objc_stubs: 0xe0
+CStrings:
++ "3605.10.1"
+- "3600.23.9"
+```

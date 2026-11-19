@@ -1,0 +1,2103 @@
+## HSTouchHIDService
+
+> `/System/Library/HIDPlugins/ServicePlugins/HSTouchHIDService.plugin/Contents/MacOS/HSTouchHIDService`
+
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_intobj`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__objc_arrayobj`
+- `__DATA_CONST.__objc_dictobj`
+
+```diff
+
+-10400.44.0.0.0
+-  __TEXT.__text: 0xd8dd8
+-  __TEXT.__auth_stubs: 0x1d70
+-  __TEXT.__objc_stubs: 0x7a60
+-  __TEXT.__init_offsets: 0x14e4
+-  __TEXT.__objc_methlist: 0x5448
+-  __TEXT.__const: 0x4470
+-  __TEXT.__gcc_except_tab: 0xe7a4
+-  __TEXT.__cstring: 0xcc2c
+-  __TEXT.__oslogstring: 0x4c9f
+-  __TEXT.__objc_methname: 0x8fb5
+-  __TEXT.__objc_classname: 0xca7
+-  __TEXT.__objc_methtype: 0x5731
+-  __TEXT.__swift5_typeref: 0x2de
+-  __TEXT.__constg_swiftt: 0x254
+-  __TEXT.__swift5_reflstr: 0x33a
+-  __TEXT.__swift5_fieldmd: 0x2b0
+-  __TEXT.__swift5_proto: 0x3c
+-  __TEXT.__swift5_types: 0x34
+-  __TEXT.__swift5_capture: 0x60
+-  __TEXT.__swift5_builtin: 0x14
+-  __TEXT.__swift5_assocty: 0x18
+-  __TEXT.__unwind_info: 0x6cb8
+-  __TEXT.__eh_frame: 0xa8
+-  __DATA_CONST.__const: 0x2548
+-  __DATA_CONST.__cfstring: 0x74e0
+-  __DATA_CONST.__objc_classlist: 0x3f0
++10410.4.0.0.0
++  __TEXT.__text: 0xf03b0
++  __TEXT.__auth_stubs: 0x2350
++  __TEXT.__objc_stubs: 0x7dc0
++  __TEXT.__init_offsets: 0x1504
++  __TEXT.__objc_methlist: 0x5658
++  __TEXT.__const: 0x5a00
++  __TEXT.__gcc_except_tab: 0xea40
++  __TEXT.__cstring: 0xd80c
++  __TEXT.__oslogstring: 0x4d7f
++  __TEXT.__objc_methname: 0x9575
++  __TEXT.__objc_classname: 0x1027
++  __TEXT.__objc_methtype: 0x57cb
++  __TEXT.__swift5_typeref: 0x882
++  __TEXT.__constg_swiftt: 0xc80
++  __TEXT.__swift5_reflstr: 0x82a
++  __TEXT.__swift5_fieldmd: 0xb00
++  __TEXT.__swift5_capture: 0xc8
++  __TEXT.__swift5_types: 0xc8
++  __TEXT.__swift5_protos: 0xc
++  __TEXT.__swift5_proto: 0x15c
++  __TEXT.__swift5_assocty: 0x90
++  __TEXT.__swift5_builtin: 0x28
++  __TEXT.__unwind_info: 0x7538
++  __TEXT.__eh_frame: 0x644
++  __DATA_CONST.__const: 0x3210
++  __DATA_CONST.__cfstring: 0x75e0
++  __DATA_CONST.__objc_classlist: 0x478
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x58
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x18
+-  __DATA_CONST.__objc_superrefs: 0x2d0
++  __DATA_CONST.__objc_superrefs: 0x2d8
+   __DATA_CONST.__objc_intobj: 0x6f0
+   __DATA_CONST.__objc_doubleobj: 0xc0
+   __DATA_CONST.__objc_arraydata: 0x550
+   __DATA_CONST.__objc_arrayobj: 0x180
+   __DATA_CONST.__objc_floatobj: 0x20
+   __DATA_CONST.__objc_dictobj: 0x258
+-  __DATA_CONST.__auth_got: 0xec8
+-  __DATA_CONST.__got: 0x388
+-  __DATA_CONST.__auth_ptr: 0x138
+-  __DATA.__objc_const: 0xa1c0
+-  __DATA.__objc_selrefs: 0x23c8
+-  __DATA.__objc_ivar: 0x70c
+-  __DATA.__objc_data: 0x27a0
+-  __DATA.__data: 0x18b0
+-  __DATA.__bss: 0x910
+-  __DATA.__common: 0x890
++  __DATA_CONST.__auth_got: 0x11b8
++  __DATA_CONST.__got: 0x478
++  __DATA_CONST.__auth_ptr: 0x258
++  __DATA.__objc_const: 0xae88
++  __DATA.__objc_selrefs: 0x2490
++  __DATA.__objc_ivar: 0x738
++  __DATA.__objc_data: 0x2d28
++  __DATA.__data: 0x2e78
++  __DATA.__bss: 0x2f10
++  __DATA.__common: 0x8a0
+   - /AppleInternal/Library/Frameworks/HIDSensingInternalSupport.framework/Versions/A/HIDSensingInternalSupport
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /System/Library/Frameworks/Security.framework/Versions/A/Security
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics
+   - /System/Library/PrivateFrameworks/HID.framework/Versions/A/HID
++  - /System/Library/PrivateFrameworks/HIDPreferences.framework/Versions/A/HIDPreferences
+   - /System/Library/PrivateFrameworks/MultitouchSupport.framework/Versions/A/MultitouchSupport
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIOKit.dylib
++  - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  Functions: 5462
+-  Symbols:   8418
+-  CStrings:  4204
++  Functions: 6067
++  Symbols:   10162
++  CStrings:  4364
+ 
+Symbols:
++ $s17HSTouchHIDService17GestureStatisticsV8timebase33_74BEAF6E5D66B601B7FA88C8791B2415LLSo05mach_E5_infoVvpZ
++ $s17HSTouchHIDService17GestureUsageStatsC16dockSwipeStartedSbvM.resume
++ $s17HSTouchHIDService17GestureUsageStatsC7payloadAC0C6CountsVvM.resume
++ $s17HSTouchHIDService17GestureUsageStatsCAA22PointerAnalyticsClientA2aDP7payload7PayloadQzvMTW.resume
++ $s17HSTouchHIDService20PointerActivityStatsC7payloadAC0dE0VvM.resume
++ $s17HSTouchHIDService20PointerActivityStatsC8timebase016_D6C9457CF237393G15D43878AE8B5719ELLSo05mach_F5_infoVvpZ
++ $s17HSTouchHIDService20PointerActivityStatsCAA0C15AnalyticsClientA2aDP7payload7PayloadQzvMTW.resume
++ $s17HSTouchHIDService21GranularGestureClientC7payloadAA0cD7PayloadVvM.resume
++ $s17HSTouchHIDService21GranularGestureClientCAA016PointerAnalyticsE0A2aDP7payload7PayloadQzvMTW.resume
++ -[AnalyticsGeneratorStage .cxx_destruct]
++ -[AnalyticsGeneratorStage analyticsManager]
++ -[AnalyticsGeneratorStage builtIn]
++ -[AnalyticsGeneratorStage dealloc]
++ -[AnalyticsGeneratorStage deviceID]
++ -[AnalyticsGeneratorStage deviceType]
++ -[AnalyticsGeneratorStage dispatch:]
++ -[AnalyticsGeneratorStage dispatchAnalyticsEventWithName:payload:]
++ -[AnalyticsGeneratorStage handleActivateEvent:]
++ -[AnalyticsGeneratorStage handleConsume:]
++ -[AnalyticsGeneratorStage handleDebugDisableGranularEventLimit:]
++ -[AnalyticsGeneratorStage handleDebugReportingPeriodOverride:]
++ -[AnalyticsGeneratorStage handleGetDebugEvent:]
++ -[AnalyticsGeneratorStage handleHIDEvents:]
++ -[AnalyticsGeneratorStage handleSetPropertyEvent:]
++ -[AnalyticsGeneratorStage initWithQueue:deviceType:log:]
++ -[AnalyticsGeneratorStage log]
++ -[AnalyticsGeneratorStage queue]
++ -[AnalyticsGeneratorStage setAnalyticsManager:]
++ -[AnalyticsGeneratorStage setBuiltIn:]
++ -[AnalyticsGeneratorStage setDeviceID:]
++ -[AnalyticsGeneratorStage setDeviceType:]
++ -[AnalyticsGeneratorStage setLog:]
++ -[AnalyticsGeneratorStage setQueue:]
++ -[AnalyticsGeneratorStage setupAnalyticsManager]
++ -[MTTrackpadUberAlg initWithConfig:actuationHandler:coreAnalyticsCallback:builtIn:supportsForce:supportsDeepPress:]
++ -[MouseSettings toDictionary]
++ -[PointerSettings toDictionary]
++ -[TrackpadAlgButtonStateManager .cxx_destruct]
++ -[TrackpadAlgButtonStateManager coreAnalyticsCallback]
++ -[TrackpadAlgButtonStateManager fwDebouncedButtonReleasedDuringMitigation]
++ -[TrackpadAlgButtonStateManager initWithCoreAnalyticsCallback:]
++ -[TrackpadAlgButtonStateManager preventedFalseReleaseForThisDelay]
++ -[TrackpadAlgButtonStateManager setCoreAnalyticsCallback:]
++ -[TrackpadAlgButtonStateManager setFwDebouncedButtonReleasedDuringMitigation:]
++ -[TrackpadAlgButtonStateManager setPreventedFalseReleaseForThisDelay:]
++ -[TrackpadSettings .cxx_destruct]
++ -[TrackpadSettings toDictionary]
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.Internal.sdk/usr/local/lib/libHIDSensingPipeline.a(HSMachPortListener.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.Internal.sdk/usr/local/lib/libHIDSensingPipeline.a(HSObserverStage.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.Internal.sdk/usr/local/lib/libHIDSensingPipeline.a(HSPUtil.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.Internal.sdk/usr/local/lib/libHIDSensingPipeline.a(HSPlaybackStage.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.Internal.sdk/usr/local/lib/libHIDSensingPipeline.a(HSPreferenceStage.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.Internal.sdk/usr/local/lib/libHIDSensingPipeline.a(HSRecordingPlaybackStage+Remote.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.Internal.sdk/usr/local/lib/libHIDSensingPipeline.a(HSRecordingPlaybackStage.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.Internal.sdk/usr/local/lib/libHIDSensingPipeline.a(HSRecordingStage.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.Internal.sdk/usr/local/lib/libHIDSensingPipeline.a(HSRemoteObject+Additions.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.Internal.sdk/usr/local/lib/libHIDSensingPipeline.a(HSRemoteObject.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.Internal.sdk/usr/local/lib/libHIDSensingPipeline.a(HSServerStage.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.Internal.sdk/usr/local/lib/libHIDSensingPipeline.a(HSServiceDirectory.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.Internal.sdk/usr/local/lib/libHIDSensingPipeline.a(HSSocketListener.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.Internal.sdk/usr/local/lib/libHIDSensingPipeline.a(HSStage+Util.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.Internal.sdk/usr/local/lib/libHIDSensingPipeline.a(HSStage.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.Internal.sdk/usr/local/lib/libHIDSensingPipeline.a(HSStageProxy.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.Internal.sdk/usr/local/lib/libHIDSensingUtil.a(HSCoder.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.Internal.sdk/usr/local/lib/libHIDSensingUtil.a(HSSocket.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.Internal.sdk/usr/local/lib/libHIDSensingUtil.a(HSTime.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/Multitouch_executables/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/AnalyticsGeneratorStage.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/Multitouch_executables/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/DispatchScheduler.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/Multitouch_executables/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/GestureStatistics.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/Multitouch_executables/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/GestureUsageStats.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/Multitouch_executables/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/GranularGestureClient.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/Multitouch_executables/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/GranularGestureClients.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/Multitouch_executables/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HIDEvent+Analytics.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/Multitouch_executables/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HIDServicePreferences.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/Multitouch_executables/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTouchHIDService.swiftmodule
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/Multitouch_executables/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/PeriodicReporter.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/Multitouch_executables/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/PointerActivityStats.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/Multitouch_executables/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/PointerAnalyticsManager.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Multitouch_executables/MT2TPHIDService/HSTrackpad/PostAlg/AnalyticsGeneratorStage/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Multitouch_executables/Utility/
++ AnalyticsGeneratorStage.mm
++ DispatchScheduler.swift
++ GCC_except_table158
++ GCC_except_table166
++ GestureStatistics.swift
++ GestureUsageStats.swift
++ GranularGestureClient.swift
++ GranularGestureClients.swift
++ HIDEvent+Analytics.swift
++ HIDServicePreferences.swift
++ OBJC_IVAR_$_AnalyticsGeneratorStage._analyticsManager
++ OBJC_IVAR_$_AnalyticsGeneratorStage._builtIn
++ OBJC_IVAR_$_AnalyticsGeneratorStage._deviceID
++ OBJC_IVAR_$_AnalyticsGeneratorStage._deviceType
++ OBJC_IVAR_$_AnalyticsGeneratorStage._log
++ OBJC_IVAR_$_AnalyticsGeneratorStage._queue
++ OBJC_IVAR_$_MTTrackpadUberAlg._coreAnalyticsCallback
++ OBJC_IVAR_$_TrackpadAlgButtonStateManager._coreAnalyticsCallback
++ OBJC_IVAR_$_TrackpadAlgButtonStateManager._fwDebouncedButtonReleasedDuringMitigation
++ OBJC_IVAR_$_TrackpadAlgButtonStateManager._preventedFalseReleaseForThisDelay
++ OBJC_IVAR_$_TrackpadSettings._debug
++ PeriodicReporter.swift
++ PointerActivityStats.swift
++ PointerAnalyticsManager.swift
++ _$s10Foundation19PropertyListDecoderC6decode_4fromxxm_AA4DataVtKSeRzlFTj
++ _$s10Foundation19PropertyListDecoderCACycfc
++ _$s10Foundation19PropertyListDecoderCMa
++ _$s10Foundation19PropertyListEncoderC12outputFormatSo010NSPropertycF0VvsTj
++ _$s10Foundation19PropertyListEncoderC6encodeyAA4DataVxKSERzlFTj
++ _$s10Foundation19PropertyListEncoderCACycfc
++ _$s10Foundation19PropertyListEncoderCMa
++ _$s10Foundation22_convertNSErrorToErrorys0E0_pSo0C0CSgF
++ _$s10Foundation4DataV15_RepresentationOWOe
++ _$s10Foundation4DataV15_RepresentationOWOy
++ _$s10Foundation4DataV19_bridgeToObjectiveCSo6NSDataCyF
++ _$s10Foundation4DataV36_unconditionallyBridgeFromObjectiveCyACSo6NSDataCSgFZ
++ _$s10Foundation4DataVACSEAAWL
++ _$s10Foundation4DataVACSEAAWl
++ _$s10Foundation4DataVACSeAAWL
++ _$s10Foundation4DataVACSeAAWl
++ _$s10Foundation4DataVMn
++ _$s10Foundation4DataVN
++ _$s10Foundation4DataVSEAAMc
++ _$s10Foundation4DataVSeAAMc
++ _$s10Foundation4DataVSgWOe
++ _$s10Foundation4DateV11descriptionSSvg
++ _$s10Foundation4DateV17timeIntervalSinceySdACF
++ _$s10Foundation4DateV18addingTimeIntervalyACSdF
++ _$s10Foundation4DateV20timeIntervalSinceNowSdvg
++ _$s10Foundation4DateV2geoiySbAC_ACtFZ
++ _$s10Foundation4DateV3nowACvgZ
++ _$s10Foundation4DateVACSEAAWL
++ _$s10Foundation4DateVACSeAAWL
++ _$s10Foundation4DateVACs23CustomStringConvertibleAAWL
++ _$s10Foundation4DateVMa
++ _$s10Foundation4DateVMn
++ _$s10Foundation4DateVSEAAMc
++ _$s10Foundation4DateVSeAAMc
++ _$s10Foundation4DateVSgML
++ _$s10Foundation4DateVSgMR
++ _$s10Foundation4DateVSgMa
++ _$s10Foundation4DateVSgMd
++ _$s10Foundation4DateVSgWOc
++ _$s10Foundation4DateVSgWOd
++ _$s10Foundation4DateVSgWOh
++ _$s10Foundation4DateVs23CustomStringConvertibleAAMc
++ _$s10Foundation4UUIDVACycfC
++ _$s10Foundation4UUIDVMa
++ _$s10Foundation4UUIDVMn
++ _$s17HSTouchHIDService0B11PreferencesC03allC0025_312447ABCA8C6E2618A0BD04H6BB8BABLLSDySSypGSgyF
++ _$s17HSTouchHIDService0B11PreferencesC10preference6forKeyypSgSS_tF
++ _$s17HSTouchHIDService0B11PreferencesC10preference6forKeyypSgSS_tFTq
++ _$s17HSTouchHIDService0B11PreferencesC19preferencesInstance025_312447ABCA8C6E2618A0BD04I6BB8BABLLyXlSgvpWvd
++ _$s17HSTouchHIDService0B11PreferencesC6domain025_312447ABCA8C6E2618A0BD04H6BB8BABLLSSvg
++ _$s17HSTouchHIDService0B11PreferencesC6logger025_312447ABCA8C6E2618A0BD04H6BB8BABLL2os6LoggerVvpWvd
++ _$s17HSTouchHIDService0B11PreferencesC6update3key7toValueySS_ypSgtF
++ _$s17HSTouchHIDService0B11PreferencesC6update3key7toValueySS_ypSgtFTq
++ _$s17HSTouchHIDService0B11PreferencesC9domainKey025_312447ABCA8C6E2618A0BD04I6BB8BABLLSSvpWvd
++ _$s17HSTouchHIDService0B11PreferencesC9domainKeyACSS_tcfC
++ _$s17HSTouchHIDService0B11PreferencesC9domainKeyACSS_tcfCTq
++ _$s17HSTouchHIDService0B11PreferencesC9domainKeyACSS_tcfc
++ _$s17HSTouchHIDService0B11PreferencesCMF
++ _$s17HSTouchHIDService0B11PreferencesCMU
++ _$s17HSTouchHIDService0B11PreferencesCMa
++ _$s17HSTouchHIDService0B11PreferencesCMf
++ _$s17HSTouchHIDService0B11PreferencesCMl
++ _$s17HSTouchHIDService0B11PreferencesCMm
++ _$s17HSTouchHIDService0B11PreferencesCMn
++ _$s17HSTouchHIDService0B11PreferencesCMr
++ _$s17HSTouchHIDService0B11PreferencesCN
++ _$s17HSTouchHIDService0B11PreferencesCfD
++ _$s17HSTouchHIDService0B11PreferencesCmMR
++ _$s17HSTouchHIDService0B11PreferencesCmMd
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOAFSQAAWL
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOAFSQAAWl
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOAFs0E3KeyAAWL
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOAFs0E3KeyAAWl
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOAFs23CustomStringConvertibleAAWL
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOAFs23CustomStringConvertibleAAWl
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOAFs28CustomDebugStringConvertibleAAWL
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOAFs28CustomDebugStringConvertibleAAWl
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOMF
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOMXX
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOMa
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOMf
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOMn
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOSHAAMc
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOSHAAMcMK
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOSHAASH9hashValueSivgTW
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOSHAASQWb
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOSQAAMc
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOSQAAMcMK
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOSQAASQ2eeoiySbx_xtFZTW
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOWV
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs0E3KeyAAMc
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs0E3KeyAAMcMK
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs0E3KeyAAs23CustomStringConvertiblePWb
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs0E3KeyAAs28CustomDebugStringConvertiblePWb
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs0E3KeyAAsAGP11stringValueSSvgTW
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs0E3KeyAAsAGP11stringValuexSgSS_tcfCTW
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs0E3KeyAAsAGP8intValueSiSgvgTW
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs0E3KeyAAsAGP8intValuexSgSi_tcfCTW
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs23CustomStringConvertibleAAMc
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs23CustomStringConvertibleAAMcMK
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs23CustomStringConvertibleAAsAGP11descriptionSSvgTW
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs28CustomDebugStringConvertibleAAMc
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs28CustomDebugStringConvertibleAAMcMK
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs28CustomDebugStringConvertibleAAsAGP16debugDescriptionSSvgTW
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOwet
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOwetTm
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOwst
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOwstTm
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOwug
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOwui
++ _$s17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOwup
++ _$s17HSTouchHIDService11BoundingBoxV4fromACs7Decoder_p_tKcfCTf4nd_n
++ _$s17HSTouchHIDService11BoundingBoxV6encode2toys7Encoder_p_tKF
++ _$s17HSTouchHIDService11BoundingBoxVACSEAAWL
++ _$s17HSTouchHIDService11BoundingBoxVACSEAAWl
++ _$s17HSTouchHIDService11BoundingBoxVACSeAAWL
++ _$s17HSTouchHIDService11BoundingBoxVACSeAAWl
++ _$s17HSTouchHIDService11BoundingBoxVMF
++ _$s17HSTouchHIDService11BoundingBoxVMa
++ _$s17HSTouchHIDService11BoundingBoxVMf
++ _$s17HSTouchHIDService11BoundingBoxVMn
++ _$s17HSTouchHIDService11BoundingBoxVN
++ _$s17HSTouchHIDService11BoundingBoxVSEAAMc
++ _$s17HSTouchHIDService11BoundingBoxVSEAAMcMK
++ _$s17HSTouchHIDService11BoundingBoxVSEAASE6encode2toys7Encoder_p_tKFTW
++ _$s17HSTouchHIDService11BoundingBoxVSeAAMc
++ _$s17HSTouchHIDService11BoundingBoxVSeAAMcMK
++ _$s17HSTouchHIDService11BoundingBoxVSeAASe4fromxs7Decoder_p_tKcfCTW
++ _$s17HSTouchHIDService11BoundingBoxVWV
++ _$s17HSTouchHIDService11BoundingBoxVwet
++ _$s17HSTouchHIDService11BoundingBoxVwst
++ _$s17HSTouchHIDService11GestureTypeO8rawValueACSgSi_tcfCTf4nd_n
++ _$s17HSTouchHIDService11GestureTypeOACSEAAWL
++ _$s17HSTouchHIDService11GestureTypeOACSEAAWl
++ _$s17HSTouchHIDService11GestureTypeOACSQAAWL
++ _$s17HSTouchHIDService11GestureTypeOACSQAAWl
++ _$s17HSTouchHIDService11GestureTypeOACSYAAWL
++ _$s17HSTouchHIDService11GestureTypeOACSYAAWl
++ _$s17HSTouchHIDService11GestureTypeOACSeAAWL
++ _$s17HSTouchHIDService11GestureTypeOACSeAAWl
++ _$s17HSTouchHIDService11GestureTypeOMF
++ _$s17HSTouchHIDService11GestureTypeOMa
++ _$s17HSTouchHIDService11GestureTypeOMf
++ _$s17HSTouchHIDService11GestureTypeOMn
++ _$s17HSTouchHIDService11GestureTypeON
++ _$s17HSTouchHIDService11GestureTypeOSEAAMc
++ _$s17HSTouchHIDService11GestureTypeOSEAAMcMK
++ _$s17HSTouchHIDService11GestureTypeOSEAASE6encode2toys7Encoder_p_tKFTW
++ _$s17HSTouchHIDService11GestureTypeOSHAAMc
++ _$s17HSTouchHIDService11GestureTypeOSHAAMcMK
++ _$s17HSTouchHIDService11GestureTypeOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s17HSTouchHIDService11GestureTypeOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s17HSTouchHIDService11GestureTypeOSHAASH9hashValueSivgTW
++ _$s17HSTouchHIDService11GestureTypeOSHAASQWb
++ _$s17HSTouchHIDService11GestureTypeOSQAAMc
++ _$s17HSTouchHIDService11GestureTypeOSQAAMcMK
++ _$s17HSTouchHIDService11GestureTypeOSQAASQ2eeoiySbx_xtFZTW
++ _$s17HSTouchHIDService11GestureTypeOSYAAMA
++ _$s17HSTouchHIDService11GestureTypeOSYAAMc
++ _$s17HSTouchHIDService11GestureTypeOSYAAMcMK
++ _$s17HSTouchHIDService11GestureTypeOSYAASY8rawValue03RawF0QzvgTW
++ _$s17HSTouchHIDService11GestureTypeOSYAASY8rawValuexSg03RawF0Qz_tcfCTW
++ _$s17HSTouchHIDService11GestureTypeOSeAAMc
++ _$s17HSTouchHIDService11GestureTypeOSeAAMcMK
++ _$s17HSTouchHIDService11GestureTypeOSeAASe4fromxs7Decoder_p_tKcfCTW
++ _$s17HSTouchHIDService11GestureTypeOWV
++ _$s17HSTouchHIDService11GestureTypeOwet
++ _$s17HSTouchHIDService11GestureTypeOwst
++ _$s17HSTouchHIDService11GestureTypeOwug
++ _$s17HSTouchHIDService11GestureTypeOwui
++ _$s17HSTouchHIDService11GestureTypeOwup
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOAFSQAAWL
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOAFSQAAWl
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOAFs0M3KeyAAWL
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOAFs0M3KeyAAWl
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOAFs23CustomStringConvertibleAAWL
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOAFs23CustomStringConvertibleAAWl
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOAFs28CustomDebugStringConvertibleAAWL
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOAFs28CustomDebugStringConvertibleAAWl
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOMF
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOMa
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOMf
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOMn
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOSHAAMc
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOSHAAMcMK
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOSHAASH9hashValueSivgTW
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOSHAASQWb
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOSQAAMc
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOSQAAMcMK
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOSQAASQ2eeoiySbx_xtFZTW
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOWV
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOs0M3KeyAAMc
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOs0M3KeyAAMcMK
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOs0M3KeyAAs23CustomStringConvertiblePWb
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOs0M3KeyAAs28CustomDebugStringConvertiblePWb
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOs0M3KeyAAsAGP11stringValueSSvgTW
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOs0M3KeyAAsAGP11stringValuexSgSS_tcfCTW
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOs0M3KeyAAsAGP8intValueSiSgvgTW
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOs0M3KeyAAsAGP8intValuexSgSi_tcfCTW
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOs23CustomStringConvertibleAAMc
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOs23CustomStringConvertibleAAMcMK
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOs23CustomStringConvertibleAAsAGP11descriptionSSvgTW
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOs28CustomDebugStringConvertibleAAMc
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOs28CustomDebugStringConvertibleAAMcMK
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOs28CustomDebugStringConvertibleAAsAGP16debugDescriptionSSvgTW
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOwet
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOwst
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOwug
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOwui
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOwup
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV4fromADs7Decoder_p_tKcfC
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV4save8deviceId11windowStart7clients3logySS_10Foundation4DateVSayAA22PointerAnalyticsClient_pGSo06OS_os_S0CtFZTf4nnnnd_n
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV6encode2toys7Encoder_p_tKF
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV8deviceIdADSgSS_tcfC
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLVADSEAAWL
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLVADSEAAWlTm
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLVADSeAAWL
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLVMF
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLVMXX
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLVMa
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLVMf
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLVMl
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLVMn
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLVMr
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLVSEAAMc
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLVSEAAMcMK
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLVSEAASE6encode2toys7Encoder_p_tKFTW
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLVSeAAMc
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLVSeAAMcMK
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLVSeAASe4fromxs7Decoder_p_tKcfCTW
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLVSgMR
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLVSgMd
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLVWOb
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLVWOc
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLVWOh
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLVWV
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLVmMR
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLVmMd
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLVwet
++ _$s17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLVwst
++ _$s17HSTouchHIDService16PeriodicReporterC12lastReported33_7B5D062403F9C796C4F59710E2577B57LL10Foundation4DateVSgvpWvd
++ _$s17HSTouchHIDService16PeriodicReporterC12nextFireDate33_7B5D062403F9C796C4F59710E2577B57LL10Foundation0G0VSgvpWvd
++ _$s17HSTouchHIDService16PeriodicReporterC12scheduleNext33_7B5D062403F9C796C4F59710E2577B57LLyyF
++ _$s17HSTouchHIDService16PeriodicReporterC12scheduleNext33_7B5D062403F9C796C4F59710E2577B57LLyyFyycfU_TA
++ _$s17HSTouchHIDService16PeriodicReporterC12startupDelay33_7B5D062403F9C796C4F59710E2577B57LLSdvpWvd
++ _$s17HSTouchHIDService16PeriodicReporterC15scheduledReport33_7B5D062403F9C796C4F59710E2577B57LL8Dispatch0O8WorkItemCSgvpWvd
++ _$s17HSTouchHIDService16PeriodicReporterC3log33_7B5D062403F9C796C4F59710E2577B57LL2os6LoggerVvpZ
++ _$s17HSTouchHIDService16PeriodicReporterC3log33_7B5D062403F9C796C4F59710E2577B57LL_WZ
++ _$s17HSTouchHIDService16PeriodicReporterC3log33_7B5D062403F9C796C4F59710E2577B57LL_Wz
++ _$s17HSTouchHIDService16PeriodicReporterC4emit33_7B5D062403F9C796C4F59710E2577B57LLyyF
++ _$s17HSTouchHIDService16PeriodicReporterC4stopyyF
++ _$s17HSTouchHIDService16PeriodicReporterC5debugSDySSypGvg
++ _$s17HSTouchHIDService16PeriodicReporterC5label33_7B5D062403F9C796C4F59710E2577B57LLSSvpWvd
++ _$s17HSTouchHIDService16PeriodicReporterC5label8interval12startupDelay9scheduler6reportACSS_S2dSgAA17DispatchScheduler_pyyYbctcfC
++ _$s17HSTouchHIDService16PeriodicReporterC5label8interval12startupDelay9scheduler6reportACSS_S2dSgAA17DispatchScheduler_pyyYbctcfCTq
++ _$s17HSTouchHIDService16PeriodicReporterC5startyyF
++ _$s17HSTouchHIDService16PeriodicReporterC6report33_7B5D062403F9C796C4F59710E2577B57LLyyYbcvpWvd
++ _$s17HSTouchHIDService16PeriodicReporterC8interval33_7B5D062403F9C796C4F59710E2577B57LLSdvpWvd
++ _$s17HSTouchHIDService16PeriodicReporterC9isRunning33_7B5D062403F9C796C4F59710E2577B57LLSbvpWvd
++ _$s17HSTouchHIDService16PeriodicReporterC9scheduler33_7B5D062403F9C796C4F59710E2577B57LLAA17DispatchScheduler_pvpWvd
++ _$s17HSTouchHIDService16PeriodicReporterCMF
++ _$s17HSTouchHIDService16PeriodicReporterCMU
++ _$s17HSTouchHIDService16PeriodicReporterCMa
++ _$s17HSTouchHIDService16PeriodicReporterCMf
++ _$s17HSTouchHIDService16PeriodicReporterCMl
++ _$s17HSTouchHIDService16PeriodicReporterCMm
++ _$s17HSTouchHIDService16PeriodicReporterCMn
++ _$s17HSTouchHIDService16PeriodicReporterCMr
++ _$s17HSTouchHIDService16PeriodicReporterCN
++ _$s17HSTouchHIDService16PeriodicReporterCfD
++ _$s17HSTouchHIDService17DispatchSchedulerMp
++ _$s17HSTouchHIDService17DispatchSchedulerTL
++ _$s17HSTouchHIDService17DispatchScheduler_pMF
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLO11stringValueAFSgSS_tcfCTf4nd_n
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOAFSQAAWL
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOAFSQAAWl
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOAFs0E3KeyAAWL
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOAFs0E3KeyAAWl
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOAFs23CustomStringConvertibleAAWL
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOAFs23CustomStringConvertibleAAWl
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOAFs28CustomDebugStringConvertibleAAWL
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOAFs28CustomDebugStringConvertibleAAWl
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOMF
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOMXX
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOMa
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOMf
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOMn
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOSHAAMc
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOSHAAMcMK
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOSHAASH9hashValueSivgTW
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOSHAASQWb
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOSQAAMc
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOSQAAMcMK
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOSQAASQ2eeoiySbx_xtFZTW
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOWV
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs0E3KeyAAMc
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs0E3KeyAAMcMK
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs0E3KeyAAs23CustomStringConvertiblePWb
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs0E3KeyAAs28CustomDebugStringConvertiblePWb
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs0E3KeyAAsAGP11stringValueSSvgTW
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs0E3KeyAAsAGP11stringValuexSgSS_tcfCTW
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs0E3KeyAAsAGP8intValueSiSgvgTW
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs0E3KeyAAsAGP8intValuexSgSi_tcfCTW
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs23CustomStringConvertibleAAMc
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs23CustomStringConvertibleAAMcMK
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs23CustomStringConvertibleAAsAGP11descriptionSSvgTW
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs28CustomDebugStringConvertibleAAMc
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs28CustomDebugStringConvertibleAAMcMK
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs28CustomDebugStringConvertibleAAsAGP16debugDescriptionSSvgTW
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOwet
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOwst
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOwug
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOwui
++ _$s17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOwup
++ _$s17HSTouchHIDService17GestureStatisticsV4fromACs7Decoder_p_tKcfCTf4nd_n
++ _$s17HSTouchHIDService17GestureStatisticsV6encode2toys7Encoder_p_tKF
++ _$s17HSTouchHIDService17GestureStatisticsV6ingest8hidEventySo8HIDEventC_tF
++ _$s17HSTouchHIDService17GestureStatisticsV8durationSdvg
++ _$s17HSTouchHIDService17GestureStatisticsV8timebase33_74BEAF6E5D66B601B7FA88C8791B2415LL_WZ
++ _$s17HSTouchHIDService17GestureStatisticsV8timebase33_74BEAF6E5D66B601B7FA88C8791B2415LL_Wz
++ _$s17HSTouchHIDService17GestureStatisticsVACSEAAWL
++ _$s17HSTouchHIDService17GestureStatisticsVACSEAAWl
++ _$s17HSTouchHIDService17GestureStatisticsVACSeAAWL
++ _$s17HSTouchHIDService17GestureStatisticsVACSeAAWl
++ _$s17HSTouchHIDService17GestureStatisticsVACycfC
++ _$s17HSTouchHIDService17GestureStatisticsVMF
++ _$s17HSTouchHIDService17GestureStatisticsVMa
++ _$s17HSTouchHIDService17GestureStatisticsVMf
++ _$s17HSTouchHIDService17GestureStatisticsVMn
++ _$s17HSTouchHIDService17GestureStatisticsVN
++ _$s17HSTouchHIDService17GestureStatisticsVSEAAMc
++ _$s17HSTouchHIDService17GestureStatisticsVSEAAMcMK
++ _$s17HSTouchHIDService17GestureStatisticsVSEAASE6encode2toys7Encoder_p_tKFTW
++ _$s17HSTouchHIDService17GestureStatisticsVSeAAMc
++ _$s17HSTouchHIDService17GestureStatisticsVSeAAMcMK
++ _$s17HSTouchHIDService17GestureStatisticsVSeAASe4fromxs7Decoder_p_tKcfCTW
++ _$s17HSTouchHIDService17GestureStatisticsVSgMR
++ _$s17HSTouchHIDService17GestureStatisticsVSgMd
++ _$s17HSTouchHIDService17GestureStatisticsVSgWOcTm
++ _$s17HSTouchHIDService17GestureStatisticsVSgWOdTm
++ _$s17HSTouchHIDService17GestureStatisticsVSgWOg
++ _$s17HSTouchHIDService17GestureStatisticsVSgWOhTm
++ _$s17HSTouchHIDService17GestureStatisticsVSgWOi0_
++ _$s17HSTouchHIDService17GestureStatisticsVSgWOi_
++ _$s17HSTouchHIDService17GestureStatisticsVWOc
++ _$s17HSTouchHIDService17GestureStatisticsVWOh
++ _$s17HSTouchHIDService17GestureStatisticsVWV
++ _$s17HSTouchHIDService17GestureStatisticsVwet
++ _$s17HSTouchHIDService17GestureStatisticsVwst
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLO11stringValueAHSgSS_tcfCTf4nd_n
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLO11stringValueSSvg
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOAHSQAAWL
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOAHSQAAWl
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOAHs0G3KeyAAWL
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOAHs0G3KeyAAWl
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOAHs23CustomStringConvertibleAAWL
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOAHs23CustomStringConvertibleAAWl
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOAHs28CustomDebugStringConvertibleAAWL
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOAHs28CustomDebugStringConvertibleAAWl
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOMF
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOMXX
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOMa
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOMf
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOMn
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOSHAAMc
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOSHAAMcMK
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOSHAASH9hashValueSivgTW
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOSHAASQWb
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOSQAAMc
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOSQAAMcMK
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOSQAASQ2eeoiySbx_xtFZTW
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOWV
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOs0G3KeyAAMc
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOs0G3KeyAAMcMK
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOs0G3KeyAAs23CustomStringConvertiblePWb
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOs0G3KeyAAs28CustomDebugStringConvertiblePWb
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOs0G3KeyAAsAIP11stringValueSSvgTW
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOs0G3KeyAAsAIP11stringValuexSgSS_tcfCTW
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOs0G3KeyAAsAIP8intValueSiSgvgTW
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOs0G3KeyAAsAIP8intValuexSgSi_tcfCTW
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOs23CustomStringConvertibleAAMc
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOs23CustomStringConvertibleAAMcMK
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOs23CustomStringConvertibleAAsAIP11descriptionSSvgTW
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOs28CustomDebugStringConvertibleAAMc
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOs28CustomDebugStringConvertibleAAMcMK
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOs28CustomDebugStringConvertibleAAsAIP16debugDescriptionSSvgTW
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOwet
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOwst
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOwug
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOwui
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOwup
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV11annotationsSaySSGvpZ
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV11annotations_WZ
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV11annotations_Wz
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV12toDictionarySo12NSDictionaryCyF
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV4fromAEs7Decoder_p_tKcfCTf4nd_n
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsV6encode2toys7Encoder_p_tKF
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsVAA23PointerAnalyticsPayloadA2aFP10isPeriodicSbvgZTW
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsVAA23PointerAnalyticsPayloadA2aFP11annotationsSaySSGvgZTW
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsVAA23PointerAnalyticsPayloadA2aFP12toDictionarySo12NSDictionaryCyFTW
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsVAA23PointerAnalyticsPayloadA2aFP9eventNameSSvgZTW
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsVAA23PointerAnalyticsPayloadAAMc
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsVAA23PointerAnalyticsPayloadAAMcMK
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsVAA23PointerAnalyticsPayloadAAWI
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsVAA23PointerAnalyticsPayloadAAWP
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsVAESEAAWL
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsVAESEAAWl
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsVAESeAAWL
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsVAESeAAWl
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsVAeA23PointerAnalyticsPayloadAAWL
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsVAeA23PointerAnalyticsPayloadAAWl
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsVMF
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsVMa
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsVMf
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsVMn
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsVN
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsVSEAAMc
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsVSEAAMcMK
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsVSEAASE6encode2toys7Encoder_p_tKFTW
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsVSeAAMc
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsVSeAAMcMK
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsVSeAASe4fromxs7Decoder_p_tKcfCTW
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsVWV
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsVwet
++ _$s17HSTouchHIDService17GestureUsageStatsC0C6CountsVwst
++ _$s17HSTouchHIDService17GestureUsageStatsC16dockSwipeStartedSbvM
++ _$s17HSTouchHIDService17GestureUsageStatsC16dockSwipeStartedSbvMTq
++ _$s17HSTouchHIDService17GestureUsageStatsC16dockSwipeStartedSbvg
++ _$s17HSTouchHIDService17GestureUsageStatsC16dockSwipeStartedSbvgTq
++ _$s17HSTouchHIDService17GestureUsageStatsC16dockSwipeStartedSbvpWvd
++ _$s17HSTouchHIDService17GestureUsageStatsC16dockSwipeStartedSbvs
++ _$s17HSTouchHIDService17GestureUsageStatsC16dockSwipeStartedSbvsTq
++ _$s17HSTouchHIDService17GestureUsageStatsC5debugSDySSypGyF
++ _$s17HSTouchHIDService17GestureUsageStatsC5debugSDySSypGyFTq
++ _$s17HSTouchHIDService17GestureUsageStatsC5resetyyF
++ _$s17HSTouchHIDService17GestureUsageStatsC5resetyyFTq
++ _$s17HSTouchHIDService17GestureUsageStatsC6handle8hidEventAA23PointerAnalyticsPayload_pSgSo8HIDEventC_tF
++ _$s17HSTouchHIDService17GestureUsageStatsC6handle8hidEventAA23PointerAnalyticsPayload_pSgSo8HIDEventC_tFTq
++ _$s17HSTouchHIDService17GestureUsageStatsC7payloadAC0C6CountsVvM
++ _$s17HSTouchHIDService17GestureUsageStatsC7payloadAC0C6CountsVvMTq
++ _$s17HSTouchHIDService17GestureUsageStatsC7payloadAC0C6CountsVvg
++ _$s17HSTouchHIDService17GestureUsageStatsC7payloadAC0C6CountsVvgTq
++ _$s17HSTouchHIDService17GestureUsageStatsC7payloadAC0C6CountsVvpWvd
++ _$s17HSTouchHIDService17GestureUsageStatsC7payloadAC0C6CountsVvs
++ _$s17HSTouchHIDService17GestureUsageStatsC7payloadAC0C6CountsVvsTq
++ _$s17HSTouchHIDService17GestureUsageStatsCAA22PointerAnalyticsClientA2aDP13preferenceKeySSvgZTW
++ _$s17HSTouchHIDService17GestureUsageStatsCAA22PointerAnalyticsClientA2aDP5debugSDySSypGyFTW
++ _$s17HSTouchHIDService17GestureUsageStatsCAA22PointerAnalyticsClientA2aDP5resetyyFTW
++ _$s17HSTouchHIDService17GestureUsageStatsCAA22PointerAnalyticsClientA2aDP6handle8hidEventAA0fG7Payload_pSgSo8HIDEventC_tFTW
++ _$s17HSTouchHIDService17GestureUsageStatsCAA22PointerAnalyticsClientA2aDP7payload7PayloadQzvMTW
++ _$s17HSTouchHIDService17GestureUsageStatsCAA22PointerAnalyticsClientA2aDP7payload7PayloadQzvgTW
++ _$s17HSTouchHIDService17GestureUsageStatsCAA22PointerAnalyticsClientA2aDP7payload7PayloadQzvsTW
++ _$s17HSTouchHIDService17GestureUsageStatsCAA22PointerAnalyticsClientA2aDP7restore7payloady7PayloadQz_tFTW
++ _$s17HSTouchHIDService17GestureUsageStatsCAA22PointerAnalyticsClientAA7PayloadAaDP_AA0fgI0PWT
++ _$s17HSTouchHIDService17GestureUsageStatsCAA22PointerAnalyticsClientAAMA
++ _$s17HSTouchHIDService17GestureUsageStatsCAA22PointerAnalyticsClientAAMc
++ _$s17HSTouchHIDService17GestureUsageStatsCAA22PointerAnalyticsClientAAMcMK
++ _$s17HSTouchHIDService17GestureUsageStatsCAA22PointerAnalyticsClientAAWP
++ _$s17HSTouchHIDService17GestureUsageStatsCACycfC
++ _$s17HSTouchHIDService17GestureUsageStatsCACycfCTq
++ _$s17HSTouchHIDService17GestureUsageStatsCAcA22PointerAnalyticsClientAAWL
++ _$s17HSTouchHIDService17GestureUsageStatsCMF
++ _$s17HSTouchHIDService17GestureUsageStatsCMa
++ _$s17HSTouchHIDService17GestureUsageStatsCMf
++ _$s17HSTouchHIDService17GestureUsageStatsCMm
++ _$s17HSTouchHIDService17GestureUsageStatsCMn
++ _$s17HSTouchHIDService17GestureUsageStatsCN
++ _$s17HSTouchHIDService17GestureUsageStatsCfD
++ _$s17HSTouchHIDService18GranularZoomClientC11gestureType18maxEventsPerWindow5start3endAcA07GestureG0O_SiSbSo8HIDEventCcSbAKctcfC
++ _$s17HSTouchHIDService18GranularZoomClientCAA0c7GestureE0CAA016PointerAnalyticsE0AAWL
++ _$s17HSTouchHIDService18GranularZoomClientCACycfC
++ _$s17HSTouchHIDService18GranularZoomClientCACycfCTq
++ _$s17HSTouchHIDService18GranularZoomClientCACycfcSbSo8HIDEventCcfU0_
++ _$s17HSTouchHIDService18GranularZoomClientCACycfcSbSo8HIDEventCcfU_
++ _$s17HSTouchHIDService18GranularZoomClientCMF
++ _$s17HSTouchHIDService18GranularZoomClientCMU
++ _$s17HSTouchHIDService18GranularZoomClientCMa
++ _$s17HSTouchHIDService18GranularZoomClientCMf
++ _$s17HSTouchHIDService18GranularZoomClientCMl
++ _$s17HSTouchHIDService18GranularZoomClientCMm
++ _$s17HSTouchHIDService18GranularZoomClientCMn
++ _$s17HSTouchHIDService18GranularZoomClientCMr
++ _$s17HSTouchHIDService18GranularZoomClientCN
++ _$s17HSTouchHIDService18GranularZoomClientCfD
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLO11stringValueAFSgSS_tcfCTf4nd_n
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOAFSQAAWL
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOAFSQAAWl
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOAFs0E3KeyAAWL
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOAFs0E3KeyAAWl
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOAFs23CustomStringConvertibleAAWL
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOAFs23CustomStringConvertibleAAWl
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOAFs28CustomDebugStringConvertibleAAWL
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOAFs28CustomDebugStringConvertibleAAWl
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOMF
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOMXX
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOMa
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOMf
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOMn
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOSHAAMc
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOSHAAMcMK
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOSHAASH9hashValueSivgTW
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOSHAASQWb
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOSQAAMc
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOSQAAMcMK
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOSQAASQ2eeoiySbx_xtFZTW
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOWV
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs0E3KeyAAMc
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs0E3KeyAAMcMK
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs0E3KeyAAs23CustomStringConvertiblePWb
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs0E3KeyAAs28CustomDebugStringConvertiblePWb
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs0E3KeyAAsAGP11stringValueSSvgTW
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs0E3KeyAAsAGP11stringValuexSgSS_tcfCTW
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs0E3KeyAAsAGP8intValueSiSgvgTW
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs0E3KeyAAsAGP8intValuexSgSi_tcfCTW
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs23CustomStringConvertibleAAMc
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs23CustomStringConvertibleAAMcMK
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs23CustomStringConvertibleAAsAGP11descriptionSSvgTW
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs28CustomDebugStringConvertibleAAMc
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs28CustomDebugStringConvertibleAAMcMK
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs28CustomDebugStringConvertibleAAsAGP16debugDescriptionSSvgTW
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOwet
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOwst
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOwug
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOwui
++ _$s17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOwup
++ _$s17HSTouchHIDService19DigitizerStatisticsV4fromACs7Decoder_p_tKcfCTf4nd_n
++ _$s17HSTouchHIDService19DigitizerStatisticsV6encode2toys7Encoder_p_tKF
++ _$s17HSTouchHIDService19DigitizerStatisticsVACSEAAWL
++ _$s17HSTouchHIDService19DigitizerStatisticsVACSEAAWl
++ _$s17HSTouchHIDService19DigitizerStatisticsVACSeAAWL
++ _$s17HSTouchHIDService19DigitizerStatisticsVACSeAAWl
++ _$s17HSTouchHIDService19DigitizerStatisticsVMF
++ _$s17HSTouchHIDService19DigitizerStatisticsVMa
++ _$s17HSTouchHIDService19DigitizerStatisticsVMf
++ _$s17HSTouchHIDService19DigitizerStatisticsVMn
++ _$s17HSTouchHIDService19DigitizerStatisticsVN
++ _$s17HSTouchHIDService19DigitizerStatisticsVSEAAMc
++ _$s17HSTouchHIDService19DigitizerStatisticsVSEAAMcMK
++ _$s17HSTouchHIDService19DigitizerStatisticsVSEAASE6encode2toys7Encoder_p_tKFTW
++ _$s17HSTouchHIDService19DigitizerStatisticsVSeAAMc
++ _$s17HSTouchHIDService19DigitizerStatisticsVSeAAMcMK
++ _$s17HSTouchHIDService19DigitizerStatisticsVSeAASe4fromxs7Decoder_p_tKcfCTW
++ _$s17HSTouchHIDService19DigitizerStatisticsVWV
++ _$s17HSTouchHIDService19DigitizerStatisticsVwet
++ _$s17HSTouchHIDService19DigitizerStatisticsVwst
++ _$s17HSTouchHIDService20GranularRotateClientC11gestureType18maxEventsPerWindow5start3endAcA07GestureG0O_SiSbSo8HIDEventCcSbAKctcfC
++ _$s17HSTouchHIDService20GranularRotateClientCAA0c7GestureE0CAA016PointerAnalyticsE0AAWL
++ _$s17HSTouchHIDService20GranularRotateClientCACycfC
++ _$s17HSTouchHIDService20GranularRotateClientCACycfCTq
++ _$s17HSTouchHIDService20GranularRotateClientCACycfcSbSo8HIDEventCcfU0_
++ _$s17HSTouchHIDService20GranularRotateClientCACycfcSbSo8HIDEventCcfU_
++ _$s17HSTouchHIDService20GranularRotateClientCMF
++ _$s17HSTouchHIDService20GranularRotateClientCMU
++ _$s17HSTouchHIDService20GranularRotateClientCMa
++ _$s17HSTouchHIDService20GranularRotateClientCMf
++ _$s17HSTouchHIDService20GranularRotateClientCMl
++ _$s17HSTouchHIDService20GranularRotateClientCMm
++ _$s17HSTouchHIDService20GranularRotateClientCMn
++ _$s17HSTouchHIDService20GranularRotateClientCMr
++ _$s17HSTouchHIDService20GranularRotateClientCN
++ _$s17HSTouchHIDService20GranularRotateClientCfD
++ _$s17HSTouchHIDService20GranularScrollClientC11gestureType18maxEventsPerWindow5start3endAcA07GestureG0O_SiSbSo8HIDEventCcSbAKctcfC
++ _$s17HSTouchHIDService20GranularScrollClientCAA0c7GestureE0CAA016PointerAnalyticsE0AAWL
++ _$s17HSTouchHIDService20GranularScrollClientCACycfC
++ _$s17HSTouchHIDService20GranularScrollClientCACycfCTq
++ _$s17HSTouchHIDService20GranularScrollClientCACycfcSbSo8HIDEventCcfU0_
++ _$s17HSTouchHIDService20GranularScrollClientCACycfcSbSo8HIDEventCcfU_
++ _$s17HSTouchHIDService20GranularScrollClientCMF
++ _$s17HSTouchHIDService20GranularScrollClientCMU
++ _$s17HSTouchHIDService20GranularScrollClientCMa
++ _$s17HSTouchHIDService20GranularScrollClientCMf
++ _$s17HSTouchHIDService20GranularScrollClientCMl
++ _$s17HSTouchHIDService20GranularScrollClientCMm
++ _$s17HSTouchHIDService20GranularScrollClientCMn
++ _$s17HSTouchHIDService20GranularScrollClientCMr
++ _$s17HSTouchHIDService20GranularScrollClientCN
++ _$s17HSTouchHIDService20GranularScrollClientCfD
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOAHSQAAWL
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOAHSQAAWl
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOAHs0F3KeyAAWL
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOAHs0F3KeyAAWl
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOAHs23CustomStringConvertibleAAWL
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOAHs23CustomStringConvertibleAAWl
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOAHs28CustomDebugStringConvertibleAAWL
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOAHs28CustomDebugStringConvertibleAAWl
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOMF
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOMXX
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOMa
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOMf
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOMn
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOSHAAMc
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOSHAAMcMK
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOSHAASH9hashValueSivgTW
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOSHAASQWb
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOSQAAMc
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOSQAAMcMK
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOSQAASQ2eeoiySbx_xtFZTW
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOWV
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOs0F3KeyAAMc
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOs0F3KeyAAMcMK
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOs0F3KeyAAs23CustomStringConvertiblePWb
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOs0F3KeyAAs28CustomDebugStringConvertiblePWb
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOs0F3KeyAAsAIP11stringValueSSvgTW
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOs0F3KeyAAsAIP11stringValuexSgSS_tcfCTW
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOs0F3KeyAAsAIP8intValueSiSgvgTW
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOs0F3KeyAAsAIP8intValuexSgSi_tcfCTW
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOs23CustomStringConvertibleAAMc
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOs23CustomStringConvertibleAAMcMK
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOs23CustomStringConvertibleAAsAIP11descriptionSSvgTW
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOs28CustomDebugStringConvertibleAAMc
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOs28CustomDebugStringConvertibleAAMcMK
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOs28CustomDebugStringConvertibleAAsAIP16debugDescriptionSSvgTW
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOwet
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOwst
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOwug
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOwui
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOwup
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V11TimeBuckets016_D6C9457CF237393H15D43878AE8B5719ELLO6bucket3forAHSd_tFZTf4nd_n
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V11TimeBuckets016_D6C9457CF237393H15D43878AE8B5719ELLO8allCasesSayAHGvgZTv_r
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V12toDictionarySo12NSDictionaryCyF
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V9eventNameSSvau
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0V9eventNameSSvpZ
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0VAA0C16AnalyticsPayloadA2aFP10isPeriodicSbvgZTW
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0VAA0C16AnalyticsPayloadA2aFP11annotationsSaySSGvgZTW
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0VAA0C16AnalyticsPayloadA2aFP12toDictionarySo12NSDictionaryCyFTW
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0VAA0C16AnalyticsPayloadA2aFP9eventNameSSvgZTW
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0VAA0C16AnalyticsPayloadAAMc
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0VAA0C16AnalyticsPayloadAAMcMK
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0VAA0C16AnalyticsPayloadAAWI
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0VAA0C16AnalyticsPayloadAAWP
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0VAESEAAWL
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0VAESEAAWl
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0VAESeAAWL
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0VAESeAAWl
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0VAeA0C16AnalyticsPayloadAAWL
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0VAeA0C16AnalyticsPayloadAAWl
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0VMF
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0VMa
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0VMf
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0VMn
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0VN
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0VSEAAMc
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0VSEAAMcMK
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0VSEAASE6encode2toys7Encoder_p_tKFTW
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0VSeAAMc
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0VSeAAMcMK
++ _$s17HSTouchHIDService20PointerActivityStatsC0dE0VSeAASe4fromxs7Decoder_p_tKcfCTW
++ _$s17HSTouchHIDService20PointerActivityStatsC13lastTimestamp016_D6C9457CF237393H15D43878AE8B5719ELLs6UInt64VSgvM
++ _$s17HSTouchHIDService20PointerActivityStatsC13lastTimestamp016_D6C9457CF237393H15D43878AE8B5719ELLs6UInt64VSgvg
++ _$s17HSTouchHIDService20PointerActivityStatsC13lastTimestamp016_D6C9457CF237393H15D43878AE8B5719ELLs6UInt64VSgvpWvd
++ _$s17HSTouchHIDService20PointerActivityStatsC13lastTimestamp016_D6C9457CF237393H15D43878AE8B5719ELLs6UInt64VSgvs
++ _$s17HSTouchHIDService20PointerActivityStatsC5debugSDySSypGyF
++ _$s17HSTouchHIDService20PointerActivityStatsC5debugSDySSypGyFTq
++ _$s17HSTouchHIDService20PointerActivityStatsC5resetyyF
++ _$s17HSTouchHIDService20PointerActivityStatsC5resetyyFTq
++ _$s17HSTouchHIDService20PointerActivityStatsC6handle8hidEventAA0C16AnalyticsPayload_pSgSo8HIDEventC_tF
++ _$s17HSTouchHIDService20PointerActivityStatsC6handle8hidEventAA0C16AnalyticsPayload_pSgSo8HIDEventC_tFTq
++ _$s17HSTouchHIDService20PointerActivityStatsC7payloadAC0dE0VvM
++ _$s17HSTouchHIDService20PointerActivityStatsC7payloadAC0dE0VvMTq
++ _$s17HSTouchHIDService20PointerActivityStatsC7payloadAC0dE0Vvg
++ _$s17HSTouchHIDService20PointerActivityStatsC7payloadAC0dE0VvgTq
++ _$s17HSTouchHIDService20PointerActivityStatsC7payloadAC0dE0VvpWvd
++ _$s17HSTouchHIDService20PointerActivityStatsC7payloadAC0dE0Vvs
++ _$s17HSTouchHIDService20PointerActivityStatsC7payloadAC0dE0VvsTq
++ _$s17HSTouchHIDService20PointerActivityStatsC8timebase016_D6C9457CF237393G15D43878AE8B5719ELL_WZ
++ _$s17HSTouchHIDService20PointerActivityStatsC8timebase016_D6C9457CF237393G15D43878AE8B5719ELL_Wz
++ _$s17HSTouchHIDService20PointerActivityStatsCAA0C15AnalyticsClientA2aDP13preferenceKeySSvgZTW
++ _$s17HSTouchHIDService20PointerActivityStatsCAA0C15AnalyticsClientA2aDP5debugSDySSypGyFTW
++ _$s17HSTouchHIDService20PointerActivityStatsCAA0C15AnalyticsClientA2aDP5resetyyFTW
++ _$s17HSTouchHIDService20PointerActivityStatsCAA0C15AnalyticsClientA2aDP6handle8hidEventAA0cF7Payload_pSgSo8HIDEventC_tFTW
++ _$s17HSTouchHIDService20PointerActivityStatsCAA0C15AnalyticsClientA2aDP7payload7PayloadQzvMTW
++ _$s17HSTouchHIDService20PointerActivityStatsCAA0C15AnalyticsClientA2aDP7payload7PayloadQzvgTW
++ _$s17HSTouchHIDService20PointerActivityStatsCAA0C15AnalyticsClientA2aDP7payload7PayloadQzvsTW
++ _$s17HSTouchHIDService20PointerActivityStatsCAA0C15AnalyticsClientA2aDP7restore7payloady7PayloadQz_tFTW
++ _$s17HSTouchHIDService20PointerActivityStatsCAA0C15AnalyticsClientAA7PayloadAaDP_AA0cfH0PWT
++ _$s17HSTouchHIDService20PointerActivityStatsCAA0C15AnalyticsClientAAMA
++ _$s17HSTouchHIDService20PointerActivityStatsCAA0C15AnalyticsClientAAMc
++ _$s17HSTouchHIDService20PointerActivityStatsCAA0C15AnalyticsClientAAMcMK
++ _$s17HSTouchHIDService20PointerActivityStatsCAA0C15AnalyticsClientAAWP
++ _$s17HSTouchHIDService20PointerActivityStatsCACycfC
++ _$s17HSTouchHIDService20PointerActivityStatsCACycfCTq
++ _$s17HSTouchHIDService20PointerActivityStatsCAcA0C15AnalyticsClientAAWL
++ _$s17HSTouchHIDService20PointerActivityStatsCMF
++ _$s17HSTouchHIDService20PointerActivityStatsCMa
++ _$s17HSTouchHIDService20PointerActivityStatsCMf
++ _$s17HSTouchHIDService20PointerActivityStatsCMm
++ _$s17HSTouchHIDService20PointerActivityStatsCMn
++ _$s17HSTouchHIDService20PointerActivityStatsCN
++ _$s17HSTouchHIDService20PointerActivityStatsCfD
++ _$s17HSTouchHIDService21GranularGestureClientC11gestureType18maxEventsPerWindow5start3endAcA0dG0O_SiSbSo8HIDEventCcSbAKctcfC
++ _$s17HSTouchHIDService21GranularGestureClientC11gestureType18maxEventsPerWindow5start3endAcA0dG0O_SiSbSo8HIDEventCcSbAKctcfCTq
++ _$s17HSTouchHIDService21GranularGestureClientC11gestureType18maxEventsPerWindow5start3endAcA0dG0O_SiSbSo8HIDEventCcSbAKctcfc
++ _$s17HSTouchHIDService21GranularGestureClientC11gestureTypeAA0dG0OvpWvd
++ _$s17HSTouchHIDService21GranularGestureClientC12alwaysReport33_65CFA74706A3BDA83ADB3076B6B20D9ELLSbvM
++ _$s17HSTouchHIDService21GranularGestureClientC12alwaysReport33_65CFA74706A3BDA83ADB3076B6B20D9ELLSbvg
++ _$s17HSTouchHIDService21GranularGestureClientC12alwaysReport33_65CFA74706A3BDA83ADB3076B6B20D9ELLSbvpWvd
++ _$s17HSTouchHIDService21GranularGestureClientC12alwaysReport33_65CFA74706A3BDA83ADB3076B6B20D9ELLSbvs
++ _$s17HSTouchHIDService21GranularGestureClientC12endCondition33_65CFA74706A3BDA83ADB3076B6B20D9ELLySbSo8HIDEventCcvpWvd
++ _$s17HSTouchHIDService21GranularGestureClientC14startCondition33_65CFA74706A3BDA83ADB3076B6B20D9ELLySbSo8HIDEventCcvpWvd
++ _$s17HSTouchHIDService21GranularGestureClientC15minEmitInterval33_65CFA74706A3BDA83ADB3076B6B20D9ELLSdvpWvd
++ _$s17HSTouchHIDService21GranularGestureClientC18maxEventsPerWindow33_65CFA74706A3BDA83ADB3076B6B20D9ELLSivpWvd
++ _$s17HSTouchHIDService21GranularGestureClientC5debugSDySSypGyF
++ _$s17HSTouchHIDService21GranularGestureClientC5debugSDySSypGyFTq
++ _$s17HSTouchHIDService21GranularGestureClientC5resetyyF
++ _$s17HSTouchHIDService21GranularGestureClientC5resetyyFTq
++ _$s17HSTouchHIDService21GranularGestureClientC6handle8hidEventAA23PointerAnalyticsPayload_pSgSo8HIDEventC_tF
++ _$s17HSTouchHIDService21GranularGestureClientC6handle8hidEventAA23PointerAnalyticsPayload_pSgSo8HIDEventC_tFTq
++ _$s17HSTouchHIDService21GranularGestureClientC7payloadAA0cD7PayloadVvM
++ _$s17HSTouchHIDService21GranularGestureClientC7payloadAA0cD7PayloadVvMTq
++ _$s17HSTouchHIDService21GranularGestureClientC7payloadAA0cD7PayloadVvg
++ _$s17HSTouchHIDService21GranularGestureClientC7payloadAA0cD7PayloadVvgTq
++ _$s17HSTouchHIDService21GranularGestureClientC7payloadAA0cD7PayloadVvpWvd
++ _$s17HSTouchHIDService21GranularGestureClientC7payloadAA0cD7PayloadVvs
++ _$s17HSTouchHIDService21GranularGestureClientC7payloadAA0cD7PayloadVvsTq
++ _$s17HSTouchHIDService21GranularGestureClientC7restore7payloadyAA0cD7PayloadV_tF
++ _$s17HSTouchHIDService21GranularGestureClientC7restore7payloadyAA0cD7PayloadV_tFTq
++ _$s17HSTouchHIDService21GranularGestureClientC8lastEmit33_65CFA74706A3BDA83ADB3076B6B20D9ELL10Foundation4DateVSgvM
++ _$s17HSTouchHIDService21GranularGestureClientC8lastEmit33_65CFA74706A3BDA83ADB3076B6B20D9ELL10Foundation4DateVSgvg
++ _$s17HSTouchHIDService21GranularGestureClientC8lastEmit33_65CFA74706A3BDA83ADB3076B6B20D9ELL10Foundation4DateVSgvpWvd
++ _$s17HSTouchHIDService21GranularGestureClientC8lastEmit33_65CFA74706A3BDA83ADB3076B6B20D9ELL10Foundation4DateVSgvs
++ _$s17HSTouchHIDService21GranularGestureClientCAA016PointerAnalyticsE0A2aDP13preferenceKeySSvgZTW
++ _$s17HSTouchHIDService21GranularGestureClientCAA016PointerAnalyticsE0A2aDP5debugSDySSypGyFTW
++ _$s17HSTouchHIDService21GranularGestureClientCAA016PointerAnalyticsE0A2aDP5resetyyFTW
++ _$s17HSTouchHIDService21GranularGestureClientCAA016PointerAnalyticsE0A2aDP6handle8hidEventAA0fG7Payload_pSgSo8HIDEventC_tFTW
++ _$s17HSTouchHIDService21GranularGestureClientCAA016PointerAnalyticsE0A2aDP7payload7PayloadQzvMTW
++ _$s17HSTouchHIDService21GranularGestureClientCAA016PointerAnalyticsE0A2aDP7payload7PayloadQzvgTW
++ _$s17HSTouchHIDService21GranularGestureClientCAA016PointerAnalyticsE0A2aDP7payload7PayloadQzvsTW
++ _$s17HSTouchHIDService21GranularGestureClientCAA016PointerAnalyticsE0A2aDP7restore7payloady7PayloadQz_tFTW
++ _$s17HSTouchHIDService21GranularGestureClientCAA016PointerAnalyticsE0AA7PayloadAaDP_AA0fgH0PWT
++ _$s17HSTouchHIDService21GranularGestureClientCAA016PointerAnalyticsE0AAMA
++ _$s17HSTouchHIDService21GranularGestureClientCAA016PointerAnalyticsE0AAMc
++ _$s17HSTouchHIDService21GranularGestureClientCAA016PointerAnalyticsE0AAMcMK
++ _$s17HSTouchHIDService21GranularGestureClientCAA016PointerAnalyticsE0AAWP
++ _$s17HSTouchHIDService21GranularGestureClientCMF
++ _$s17HSTouchHIDService21GranularGestureClientCMU
++ _$s17HSTouchHIDService21GranularGestureClientCMa
++ _$s17HSTouchHIDService21GranularGestureClientCMf
++ _$s17HSTouchHIDService21GranularGestureClientCMl
++ _$s17HSTouchHIDService21GranularGestureClientCMm
++ _$s17HSTouchHIDService21GranularGestureClientCMn
++ _$s17HSTouchHIDService21GranularGestureClientCMr
++ _$s17HSTouchHIDService21GranularGestureClientCN
++ _$s17HSTouchHIDService21GranularGestureClientCfD
++ _$s17HSTouchHIDService21GranularGestureClientCfd
++ _$s17HSTouchHIDService21GranularGestureClientCmMR
++ _$s17HSTouchHIDService21GranularGestureClientCmMd
++ _$s17HSTouchHIDService21MockDispatchSchedulerC3now33_464DAD3202B0D8D482946E171135457DLL10Foundation4DateVvpWvd
++ _$s17HSTouchHIDService21MockDispatchSchedulerC5async7executey0D00D8WorkItemC_tF
++ _$s17HSTouchHIDService21MockDispatchSchedulerC7pending33_464DAD3202B0D8D482946E171135457DLLSayAC9ScheduledAELLVGvpWvd
++ _$s17HSTouchHIDService21MockDispatchSchedulerC9Scheduled33_464DAD3202B0D8D482946E171135457DLLVMF
++ _$s17HSTouchHIDService21MockDispatchSchedulerC9Scheduled33_464DAD3202B0D8D482946E171135457DLLVMXX
++ _$s17HSTouchHIDService21MockDispatchSchedulerC9Scheduled33_464DAD3202B0D8D482946E171135457DLLVMa
++ _$s17HSTouchHIDService21MockDispatchSchedulerC9Scheduled33_464DAD3202B0D8D482946E171135457DLLVMaTm
++ _$s17HSTouchHIDService21MockDispatchSchedulerC9Scheduled33_464DAD3202B0D8D482946E171135457DLLVMf
++ _$s17HSTouchHIDService21MockDispatchSchedulerC9Scheduled33_464DAD3202B0D8D482946E171135457DLLVMl
++ _$s17HSTouchHIDService21MockDispatchSchedulerC9Scheduled33_464DAD3202B0D8D482946E171135457DLLVMn
++ _$s17HSTouchHIDService21MockDispatchSchedulerC9Scheduled33_464DAD3202B0D8D482946E171135457DLLVMr
++ _$s17HSTouchHIDService21MockDispatchSchedulerC9Scheduled33_464DAD3202B0D8D482946E171135457DLLVWOb
++ _$s17HSTouchHIDService21MockDispatchSchedulerC9Scheduled33_464DAD3202B0D8D482946E171135457DLLVWV
++ _$s17HSTouchHIDService21MockDispatchSchedulerC9Scheduled33_464DAD3202B0D8D482946E171135457DLLVwet
++ _$s17HSTouchHIDService21MockDispatchSchedulerC9Scheduled33_464DAD3202B0D8D482946E171135457DLLVwst
++ _$s17HSTouchHIDService21MockDispatchSchedulerCAA0dE0A2aDP10asyncAfter4date7executey10Foundation4DateV_0D00D8WorkItemCtFTW
++ _$s17HSTouchHIDService21MockDispatchSchedulerCAA0dE0A2aDP5async7executey0D00D8WorkItemC_tFTW
++ _$s17HSTouchHIDService21MockDispatchSchedulerCAA0dE0AAMc
++ _$s17HSTouchHIDService21MockDispatchSchedulerCAA0dE0AAWP
++ _$s17HSTouchHIDService21MockDispatchSchedulerCACycfC
++ _$s17HSTouchHIDService21MockDispatchSchedulerCACycfCTq
++ _$s17HSTouchHIDService21MockDispatchSchedulerCMF
++ _$s17HSTouchHIDService21MockDispatchSchedulerCMU
++ _$s17HSTouchHIDService21MockDispatchSchedulerCMa
++ _$s17HSTouchHIDService21MockDispatchSchedulerCMf
++ _$s17HSTouchHIDService21MockDispatchSchedulerCMl
++ _$s17HSTouchHIDService21MockDispatchSchedulerCMm
++ _$s17HSTouchHIDService21MockDispatchSchedulerCMn
++ _$s17HSTouchHIDService21MockDispatchSchedulerCMr
++ _$s17HSTouchHIDService21MockDispatchSchedulerCN
++ _$s17HSTouchHIDService21MockDispatchSchedulerCfD
++ _$s17HSTouchHIDService22DispatchQueueSchedulerC5queue33_464DAD3202B0D8D482946E171135457DLLSo012OS_dispatch_F0CvpWvd
++ _$s17HSTouchHIDService22DispatchQueueSchedulerCAA0cE0A2aDP10asyncAfter4date7executey10Foundation4DateV_0C00C8WorkItemCtFTW
++ _$s17HSTouchHIDService22DispatchQueueSchedulerCAA0cE0A2aDP5async7executey0C00C8WorkItemC_tFTW
++ _$s17HSTouchHIDService22DispatchQueueSchedulerCAA0cE0AAMc
++ _$s17HSTouchHIDService22DispatchQueueSchedulerCAA0cE0AAWP
++ _$s17HSTouchHIDService22DispatchQueueSchedulerCMF
++ _$s17HSTouchHIDService22DispatchQueueSchedulerCMa
++ _$s17HSTouchHIDService22DispatchQueueSchedulerCMf
++ _$s17HSTouchHIDService22DispatchQueueSchedulerCMm
++ _$s17HSTouchHIDService22DispatchQueueSchedulerCMn
++ _$s17HSTouchHIDService22DispatchQueueSchedulerCN
++ _$s17HSTouchHIDService22DispatchQueueSchedulerCfD
++ _$s17HSTouchHIDService22DispatchQueueSchedulerCyACSo17OS_dispatch_queueCcfC
++ _$s17HSTouchHIDService22DispatchQueueSchedulerCyACSo17OS_dispatch_queueCcfCTq
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLO11stringValueAFSgSS_tcfCTf4nd_n
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOAFSQAAWL
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOAFSQAAWl
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOAFs0F3KeyAAWL
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOAFs0F3KeyAAWl
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOAFs23CustomStringConvertibleAAWL
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOAFs23CustomStringConvertibleAAWl
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOAFs28CustomDebugStringConvertibleAAWL
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOAFs28CustomDebugStringConvertibleAAWl
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOMF
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOMXX
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOMa
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOMf
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOMn
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOSHAAMc
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOSHAAMcMK
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOSHAASH9hashValueSivgTW
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOSHAASQWb
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOSQAAMc
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOSQAAMcMK
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOSQAASQ2eeoiySbx_xtFZTW
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOWV
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOs0F3KeyAAMc
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOs0F3KeyAAMcMK
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOs0F3KeyAAs23CustomStringConvertiblePWb
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOs0F3KeyAAs28CustomDebugStringConvertiblePWb
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOs0F3KeyAAsAGP11stringValueSSvgTW
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOs0F3KeyAAsAGP11stringValuexSgSS_tcfCTW
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOs0F3KeyAAsAGP8intValueSiSgvgTW
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOs0F3KeyAAsAGP8intValuexSgSi_tcfCTW
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOs23CustomStringConvertibleAAMc
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOs23CustomStringConvertibleAAMcMK
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOs23CustomStringConvertibleAAsAGP11descriptionSSvgTW
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOs28CustomDebugStringConvertibleAAMc
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOs28CustomDebugStringConvertibleAAMcMK
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOs28CustomDebugStringConvertibleAAsAGP16debugDescriptionSSvgTW
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOwet
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOwst
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOwug
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOwui
++ _$s17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOwup
++ _$s17HSTouchHIDService22GranularGesturePayloadV12toDictionarySo12NSDictionaryCyF
++ _$s17HSTouchHIDService22GranularGesturePayloadV4fromACs7Decoder_p_tKcfCTf4nd_n
++ _$s17HSTouchHIDService22GranularGesturePayloadV6encode2toys7Encoder_p_tKF
++ _$s17HSTouchHIDService22GranularGesturePayloadVAA016PointerAnalyticsE0A2aDP10isPeriodicSbvgZTW
++ _$s17HSTouchHIDService22GranularGesturePayloadVAA016PointerAnalyticsE0A2aDP11annotationsSaySSGvgZTW
++ _$s17HSTouchHIDService22GranularGesturePayloadVAA016PointerAnalyticsE0A2aDP12toDictionarySo12NSDictionaryCyFTW
++ _$s17HSTouchHIDService22GranularGesturePayloadVAA016PointerAnalyticsE0A2aDP9eventNameSSvgZTW
++ _$s17HSTouchHIDService22GranularGesturePayloadVAA016PointerAnalyticsE0AAMc
++ _$s17HSTouchHIDService22GranularGesturePayloadVAA016PointerAnalyticsE0AAMcMK
++ _$s17HSTouchHIDService22GranularGesturePayloadVAA016PointerAnalyticsE0AAWI
++ _$s17HSTouchHIDService22GranularGesturePayloadVAA016PointerAnalyticsE0AAWP
++ _$s17HSTouchHIDService22GranularGesturePayloadVACSEAAWL
++ _$s17HSTouchHIDService22GranularGesturePayloadVACSEAAWl
++ _$s17HSTouchHIDService22GranularGesturePayloadVACSeAAWL
++ _$s17HSTouchHIDService22GranularGesturePayloadVACSeAAWl
++ _$s17HSTouchHIDService22GranularGesturePayloadVAcA016PointerAnalyticsE0AAWL
++ _$s17HSTouchHIDService22GranularGesturePayloadVAcA016PointerAnalyticsE0AAWl
++ _$s17HSTouchHIDService22GranularGesturePayloadVMF
++ _$s17HSTouchHIDService22GranularGesturePayloadVMa
++ _$s17HSTouchHIDService22GranularGesturePayloadVMf
++ _$s17HSTouchHIDService22GranularGesturePayloadVMn
++ _$s17HSTouchHIDService22GranularGesturePayloadVN
++ _$s17HSTouchHIDService22GranularGesturePayloadVSEAAMc
++ _$s17HSTouchHIDService22GranularGesturePayloadVSEAAMcMK
++ _$s17HSTouchHIDService22GranularGesturePayloadVSEAASE6encode2toys7Encoder_p_tKFTW
++ _$s17HSTouchHIDService22GranularGesturePayloadVSeAAMc
++ _$s17HSTouchHIDService22GranularGesturePayloadVSeAAMcMK
++ _$s17HSTouchHIDService22GranularGesturePayloadVSeAASe4fromxs7Decoder_p_tKcfCTW
++ _$s17HSTouchHIDService22GranularGesturePayloadVWOc
++ _$s17HSTouchHIDService22GranularGesturePayloadVWOh
++ _$s17HSTouchHIDService22GranularGesturePayloadVWV
++ _$s17HSTouchHIDService22GranularGesturePayloadVwet
++ _$s17HSTouchHIDService22GranularGesturePayloadVwst
++ _$s17HSTouchHIDService22PointerAnalyticsClientMp
++ _$s17HSTouchHIDService22PointerAnalyticsClientP7PayloadAC_AA0cdF0Tn
++ _$s17HSTouchHIDService22PointerAnalyticsClientPAAE13preferenceKeySSvgZ
++ _$s17HSTouchHIDService22PointerAnalyticsClientPAAE14restorePayload33_BE58EC63C9881A066BD656518E6C8D57LL4from3logyAA12DeviceRecordAELLV_So06OS_os_Q0CtF
++ _$s17HSTouchHIDService22PointerAnalyticsClientPAAE7restore7payloady7PayloadQz_tF
++ _$s17HSTouchHIDService22PointerAnalyticsClientTL
++ _$s17HSTouchHIDService22PointerAnalyticsClient_pMF
++ _$s17HSTouchHIDService22PointerAnalyticsDeviceV4KindOAESQAAWL
++ _$s17HSTouchHIDService22PointerAnalyticsDeviceV4KindOAESQAAWl
++ _$s17HSTouchHIDService22PointerAnalyticsDeviceV4KindOMF
++ _$s17HSTouchHIDService22PointerAnalyticsDeviceV4KindOMa
++ _$s17HSTouchHIDService22PointerAnalyticsDeviceV4KindOMf
++ _$s17HSTouchHIDService22PointerAnalyticsDeviceV4KindOMn
++ _$s17HSTouchHIDService22PointerAnalyticsDeviceV4KindON
++ _$s17HSTouchHIDService22PointerAnalyticsDeviceV4KindOSHAAMc
++ _$s17HSTouchHIDService22PointerAnalyticsDeviceV4KindOSHAAMcMK
++ _$s17HSTouchHIDService22PointerAnalyticsDeviceV4KindOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s17HSTouchHIDService22PointerAnalyticsDeviceV4KindOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s17HSTouchHIDService22PointerAnalyticsDeviceV4KindOSHAASH9hashValueSivgTW
++ _$s17HSTouchHIDService22PointerAnalyticsDeviceV4KindOSHAASQWb
++ _$s17HSTouchHIDService22PointerAnalyticsDeviceV4KindOSQAAMc
++ _$s17HSTouchHIDService22PointerAnalyticsDeviceV4KindOSQAAMcMK
++ _$s17HSTouchHIDService22PointerAnalyticsDeviceV4KindOSQAASQ2eeoiySbx_xtFZTW
++ _$s17HSTouchHIDService22PointerAnalyticsDeviceV4KindOSYAAMA
++ _$s17HSTouchHIDService22PointerAnalyticsDeviceV4KindOSYAAMc
++ _$s17HSTouchHIDService22PointerAnalyticsDeviceV4KindOSYAAMcMK
++ _$s17HSTouchHIDService22PointerAnalyticsDeviceV4KindOSYAASY8rawValue03RawH0QzvgTW
++ _$s17HSTouchHIDService22PointerAnalyticsDeviceV4KindOSYAASY8rawValuexSg03RawH0Qz_tcfCTW
++ _$s17HSTouchHIDService22PointerAnalyticsDeviceV4KindOWV
++ _$s17HSTouchHIDService22PointerAnalyticsDeviceV4KindOwet
++ _$s17HSTouchHIDService22PointerAnalyticsDeviceV4KindOwst
++ _$s17HSTouchHIDService22PointerAnalyticsDeviceV4KindOwug
++ _$s17HSTouchHIDService22PointerAnalyticsDeviceV4KindOwui
++ _$s17HSTouchHIDService22PointerAnalyticsDeviceV4KindOwup
++ _$s17HSTouchHIDService22PointerAnalyticsDeviceVMF
++ _$s17HSTouchHIDService22PointerAnalyticsDeviceVMa
++ _$s17HSTouchHIDService22PointerAnalyticsDeviceVMf
++ _$s17HSTouchHIDService22PointerAnalyticsDeviceVMn
++ _$s17HSTouchHIDService22PointerAnalyticsDeviceVN
++ _$s17HSTouchHIDService22PointerAnalyticsDeviceVWV
++ _$s17HSTouchHIDService22PointerAnalyticsDeviceVwet
++ _$s17HSTouchHIDService22PointerAnalyticsDeviceVwst
++ _$s17HSTouchHIDService23GranularDockSwipeClientC11gestureType18maxEventsPerWindow5start3endAcA07GestureH0O_SiSbSo8HIDEventCcSbAKctcfC
++ _$s17HSTouchHIDService23GranularDockSwipeClientCAA0c7GestureF0CAA016PointerAnalyticsF0AAWL
++ _$s17HSTouchHIDService23GranularDockSwipeClientCACycfC
++ _$s17HSTouchHIDService23GranularDockSwipeClientCACycfCTq
++ _$s17HSTouchHIDService23GranularDockSwipeClientCACycfcSbSo8HIDEventCcfU0_
++ _$s17HSTouchHIDService23GranularDockSwipeClientCACycfcSbSo8HIDEventCcfU_
++ _$s17HSTouchHIDService23GranularDockSwipeClientCMF
++ _$s17HSTouchHIDService23GranularDockSwipeClientCMU
++ _$s17HSTouchHIDService23GranularDockSwipeClientCMa
++ _$s17HSTouchHIDService23GranularDockSwipeClientCMf
++ _$s17HSTouchHIDService23GranularDockSwipeClientCMl
++ _$s17HSTouchHIDService23GranularDockSwipeClientCMm
++ _$s17HSTouchHIDService23GranularDockSwipeClientCMn
++ _$s17HSTouchHIDService23GranularDockSwipeClientCMr
++ _$s17HSTouchHIDService23GranularDockSwipeClientCN
++ _$s17HSTouchHIDService23GranularDockSwipeClientCfD
++ _$s17HSTouchHIDService23GranularTranslateClientC11gestureType18maxEventsPerWindow5start3endAcA07GestureG0O_SiSbSo8HIDEventCcSbAKctcfC
++ _$s17HSTouchHIDService23GranularTranslateClientCAA0c7GestureE0CAA016PointerAnalyticsE0AAWL
++ _$s17HSTouchHIDService23GranularTranslateClientCACycfC
++ _$s17HSTouchHIDService23GranularTranslateClientCACycfCTq
++ _$s17HSTouchHIDService23GranularTranslateClientCACycfcSbSo8HIDEventCcfU0_
++ _$s17HSTouchHIDService23GranularTranslateClientCACycfcSbSo8HIDEventCcfU_
++ _$s17HSTouchHIDService23GranularTranslateClientCMF
++ _$s17HSTouchHIDService23GranularTranslateClientCMU
++ _$s17HSTouchHIDService23GranularTranslateClientCMa
++ _$s17HSTouchHIDService23GranularTranslateClientCMf
++ _$s17HSTouchHIDService23GranularTranslateClientCMl
++ _$s17HSTouchHIDService23GranularTranslateClientCMm
++ _$s17HSTouchHIDService23GranularTranslateClientCMn
++ _$s17HSTouchHIDService23GranularTranslateClientCMr
++ _$s17HSTouchHIDService23GranularTranslateClientCN
++ _$s17HSTouchHIDService23GranularTranslateClientCfD
++ _$s17HSTouchHIDService23PointerAnalyticsManagerC012emitPeriodicD033_BE58EC63C9881A066BD656518E6C8D57LLyyF
++ _$s17HSTouchHIDService23PointerAnalyticsManagerC10isTornDown33_BE58EC63C9881A066BD656518E6C8D57LL2os21OSAllocatedUnfairLockVySbGvpWvd
++ _$s17HSTouchHIDService23PointerAnalyticsManagerC10isTornDown33_BE58EC63C9881A066BD656518E6C8D57LL2os21OSAllocatedUnfairLockVySbGvpfi
++ _$s17HSTouchHIDService23PointerAnalyticsManagerC10queueGroup33_BE58EC63C9881A066BD656518E6C8D57LLSo17OS_dispatch_groupCvpWvd
++ _$s17HSTouchHIDService23PointerAnalyticsManagerC10queueGroup33_BE58EC63C9881A066BD656518E6C8D57LLSo17OS_dispatch_groupCvpfi
++ _$s17HSTouchHIDService23PointerAnalyticsManagerC10saveRecord33_BE58EC63C9881A066BD656518E6C8D57LLyyF
++ _$s17HSTouchHIDService23PointerAnalyticsManagerC11windowStart33_BE58EC63C9881A066BD656518E6C8D57LL10Foundation4DateVvM
++ _$s17HSTouchHIDService23PointerAnalyticsManagerC11windowStart33_BE58EC63C9881A066BD656518E6C8D57LL10Foundation4DateVvg
++ _$s17HSTouchHIDService23PointerAnalyticsManagerC11windowStart33_BE58EC63C9881A066BD656518E6C8D57LL10Foundation4DateVvpWvd
++ _$s17HSTouchHIDService23PointerAnalyticsManagerC11windowStart33_BE58EC63C9881A066BD656518E6C8D57LL10Foundation4DateVvs
++ _$s17HSTouchHIDService23PointerAnalyticsManagerC15reportingPeriod33_BE58EC63C9881A066BD656518E6C8D57LLSdvpWvd
++ _$s17HSTouchHIDService23PointerAnalyticsManagerC23setDebugReportingPeriod_3logySd_So06OS_os_J0CtFZ
++ _$s17HSTouchHIDService23PointerAnalyticsManagerC23setDebugReportingPeriod_3logySd_So06OS_os_J0CtFZTo
++ _$s17HSTouchHIDService23PointerAnalyticsManagerC32debugGranularEventLimitsDisabledSbyFZ
++ _$s17HSTouchHIDService23PointerAnalyticsManagerC35setDebugGranularEventLimitsDisabled_3logySb_So06OS_os_L0CtFZ
++ _$s17HSTouchHIDService23PointerAnalyticsManagerC35setDebugGranularEventLimitsDisabled_3logySb_So06OS_os_L0CtFZTo
++ _$s17HSTouchHIDService23PointerAnalyticsManagerC3log16deviceIdentifier0G4Type7builtIn8callbackACSgSo06OS_os_F0C_s6UInt64Vs5UInt8VSbySS_So12NSDictionaryCtctcfC
++ _$s17HSTouchHIDService23PointerAnalyticsManagerC3log16deviceIdentifier0G4Type7builtIn8callbackACSgSo06OS_os_F0C_s6UInt64Vs5UInt8VSbySS_So12NSDictionaryCtctcfCTq
++ _$s17HSTouchHIDService23PointerAnalyticsManagerC3log16deviceIdentifier0G4Type7builtIn8callbackACSgSo06OS_os_F0C_s6UInt64Vs5UInt8VSbySS_So12NSDictionaryCtctcfc
++ _$s17HSTouchHIDService23PointerAnalyticsManagerC3log16deviceIdentifier0G4Type7builtIn8callbackACSgSo06OS_os_F0C_s6UInt64Vs5UInt8VSbySS_So12NSDictionaryCtctcfcTo
++ _$s17HSTouchHIDService23PointerAnalyticsManagerC3log16deviceIdentifier0G4Type7builtIn8callbackACSgSo06OS_os_F0C_s6UInt64Vs5UInt8VSbySS_So12NSDictionaryCtctcfcyyYbcfU_TA
++ _$s17HSTouchHIDService23PointerAnalyticsManagerC3log33_BE58EC63C9881A066BD656518E6C8D57LLSo06OS_os_F0CvpWvd
++ _$s17HSTouchHIDService23PointerAnalyticsManagerC4emit33_BE58EC63C9881A066BD656518E6C8D57LL5event7payloadySS_So12NSDictionaryCtF
++ _$s17HSTouchHIDService23PointerAnalyticsManagerC4emit33_BE58EC63C9881A066BD656518E6C8D57LL7payloadyAA0cD7Payload_p_tF
++ _$s17HSTouchHIDService23PointerAnalyticsManagerC5debugSo12NSDictionaryCyF
++ _$s17HSTouchHIDService23PointerAnalyticsManagerC5debugSo12NSDictionaryCyFTo
++ _$s17HSTouchHIDService23PointerAnalyticsManagerC5debugSo12NSDictionaryCyFTq
++ _$s17HSTouchHIDService23PointerAnalyticsManagerC5queue33_BE58EC63C9881A066BD656518E6C8D57LLSo012OS_dispatch_F0CvpWvd
++ _$s17HSTouchHIDService23PointerAnalyticsManagerC5queue33_BE58EC63C9881A066BD656518E6C8D57LLSo012OS_dispatch_F0Cvpfi
++ _$s17HSTouchHIDService23PointerAnalyticsManagerC6device33_BE58EC63C9881A066BD656518E6C8D57LLAA0cD6DeviceVvpWvd
++ _$s17HSTouchHIDService23PointerAnalyticsManagerC6handle8hidEventySo8HIDEventC_tF
++ _$s17HSTouchHIDService23PointerAnalyticsManagerC6handle8hidEventySo8HIDEventC_tFTo
++ _$s17HSTouchHIDService23PointerAnalyticsManagerC6handle8hidEventySo8HIDEventC_tFTq
++ _$s17HSTouchHIDService23PointerAnalyticsManagerC6handle8hidEventySo8HIDEventC_tFyyYbcfU_TA
++ _$s17HSTouchHIDService23PointerAnalyticsManagerC7clients33_BE58EC63C9881A066BD656518E6C8D57LLSayAA0cD6Client_pGvpWvd
++ _$s17HSTouchHIDService23PointerAnalyticsManagerC8callback33_BE58EC63C9881A066BD656518E6C8D57LLyySS_So12NSDictionaryCtcvpWvd
++ _$s17HSTouchHIDService23PointerAnalyticsManagerC8reporter33_BE58EC63C9881A066BD656518E6C8D57LLAA16PeriodicReporterCSgvM
++ _$s17HSTouchHIDService23PointerAnalyticsManagerC8reporter33_BE58EC63C9881A066BD656518E6C8D57LLAA16PeriodicReporterCSgvg
++ _$s17HSTouchHIDService23PointerAnalyticsManagerC8reporter33_BE58EC63C9881A066BD656518E6C8D57LLAA16PeriodicReporterCSgvpWvd
++ _$s17HSTouchHIDService23PointerAnalyticsManagerC8reporter33_BE58EC63C9881A066BD656518E6C8D57LLAA16PeriodicReporterCSgvpfi
++ _$s17HSTouchHIDService23PointerAnalyticsManagerC8reporter33_BE58EC63C9881A066BD656518E6C8D57LLAA16PeriodicReporterCSgvs
++ _$s17HSTouchHIDService23PointerAnalyticsManagerC9annotated33_BE58EC63C9881A066BD656518E6C8D57LL4base4with4from3forSo12NSDictionaryCAK_SaySSGSDySSAKGSStF
++ _$s17HSTouchHIDService23PointerAnalyticsManagerCACycfC
++ _$s17HSTouchHIDService23PointerAnalyticsManagerCACycfc
++ _$s17HSTouchHIDService23PointerAnalyticsManagerCACycfcTo
++ _$s17HSTouchHIDService23PointerAnalyticsManagerCMF
++ _$s17HSTouchHIDService23PointerAnalyticsManagerCMU
++ _$s17HSTouchHIDService23PointerAnalyticsManagerCMa
++ _$s17HSTouchHIDService23PointerAnalyticsManagerCMaTm
++ _$s17HSTouchHIDService23PointerAnalyticsManagerCMf
++ _$s17HSTouchHIDService23PointerAnalyticsManagerCMl
++ _$s17HSTouchHIDService23PointerAnalyticsManagerCMn
++ _$s17HSTouchHIDService23PointerAnalyticsManagerCMr
++ _$s17HSTouchHIDService23PointerAnalyticsManagerCN
++ _$s17HSTouchHIDService23PointerAnalyticsManagerCfD
++ _$s17HSTouchHIDService23PointerAnalyticsManagerCfDTo
++ _$s17HSTouchHIDService23PointerAnalyticsManagerCfETo
++ _$s17HSTouchHIDService23PointerAnalyticsManagerCmMR
++ _$s17HSTouchHIDService23PointerAnalyticsManagerCmMd
++ _$s17HSTouchHIDService23PointerAnalyticsPayloadMp
++ _$s17HSTouchHIDService23PointerAnalyticsPayloadPAAE10isPeriodicSbvgZ
++ _$s17HSTouchHIDService23PointerAnalyticsPayloadPAAE11annotationsSaySSGvgZ
++ _$s17HSTouchHIDService23PointerAnalyticsPayloadPAAE6decode33_BE58EC63C9881A066BD656518E6C8D57LL4from3logxSg10Foundation4DataVSg_So06OS_os_P0CtFZ
++ _$s17HSTouchHIDService23PointerAnalyticsPayloadPAAE6encode3log10Foundation4DataVSgSo06OS_os_G0C_tF
++ _$s17HSTouchHIDService23PointerAnalyticsPayloadPSETb
++ _$s17HSTouchHIDService23PointerAnalyticsPayloadPSeTb
++ _$s17HSTouchHIDService23PointerAnalyticsPayloadTL
++ _$s17HSTouchHIDService23PointerAnalyticsPayload_pMF
++ _$s17HSTouchHIDService23PointerAnalyticsPayload_pSgMR
++ _$s17HSTouchHIDService23PointerAnalyticsPayload_pSgMd
++ _$s17HSTouchHIDService23PointerAnalyticsPayload_pWOb
++ _$s17HSTouchHIDService26GranularPrimaryClickClientC11gestureType18maxEventsPerWindow5start3endAcA07GestureH0O_SiSbSo8HIDEventCcSbAKctcfC
++ _$s17HSTouchHIDService26GranularPrimaryClickClientCAA0c7GestureF0CAA016PointerAnalyticsF0AAWL
++ _$s17HSTouchHIDService26GranularPrimaryClickClientCACycfC
++ _$s17HSTouchHIDService26GranularPrimaryClickClientCACycfCTm
++ _$s17HSTouchHIDService26GranularPrimaryClickClientCACycfCTq
++ _$s17HSTouchHIDService26GranularPrimaryClickClientCACycfcSbSo8HIDEventCcfU0_
++ _$s17HSTouchHIDService26GranularPrimaryClickClientCACycfcSbSo8HIDEventCcfU0_Tm
++ _$s17HSTouchHIDService26GranularPrimaryClickClientCACycfcSbSo8HIDEventCcfU_
++ _$s17HSTouchHIDService26GranularPrimaryClickClientCMF
++ _$s17HSTouchHIDService26GranularPrimaryClickClientCMU
++ _$s17HSTouchHIDService26GranularPrimaryClickClientCMa
++ _$s17HSTouchHIDService26GranularPrimaryClickClientCMaTm
++ _$s17HSTouchHIDService26GranularPrimaryClickClientCMf
++ _$s17HSTouchHIDService26GranularPrimaryClickClientCMl
++ _$s17HSTouchHIDService26GranularPrimaryClickClientCMm
++ _$s17HSTouchHIDService26GranularPrimaryClickClientCMn
++ _$s17HSTouchHIDService26GranularPrimaryClickClientCMr
++ _$s17HSTouchHIDService26GranularPrimaryClickClientCMrTm
++ _$s17HSTouchHIDService26GranularPrimaryClickClientCN
++ _$s17HSTouchHIDService26GranularPrimaryClickClientCfD
++ _$s17HSTouchHIDService26GranularPrimaryClickClientCfDTm
++ _$s17HSTouchHIDService28GranularSecondaryClickClientC11gestureType18maxEventsPerWindow5start3endAcA07GestureH0O_SiSbSo8HIDEventCcSbAKctcfC
++ _$s17HSTouchHIDService28GranularSecondaryClickClientCAA0c7GestureF0CAA016PointerAnalyticsF0AAWL
++ _$s17HSTouchHIDService28GranularSecondaryClickClientCACycfC
++ _$s17HSTouchHIDService28GranularSecondaryClickClientCACycfCTq
++ _$s17HSTouchHIDService28GranularSecondaryClickClientCACycfcSbSo8HIDEventCcfU0_
++ _$s17HSTouchHIDService28GranularSecondaryClickClientCACycfcSbSo8HIDEventCcfU_
++ _$s17HSTouchHIDService28GranularSecondaryClickClientCMF
++ _$s17HSTouchHIDService28GranularSecondaryClickClientCMU
++ _$s17HSTouchHIDService28GranularSecondaryClickClientCMa
++ _$s17HSTouchHIDService28GranularSecondaryClickClientCMf
++ _$s17HSTouchHIDService28GranularSecondaryClickClientCMl
++ _$s17HSTouchHIDService28GranularSecondaryClickClientCMm
++ _$s17HSTouchHIDService28GranularSecondaryClickClientCMn
++ _$s17HSTouchHIDService28GranularSecondaryClickClientCMr
++ _$s17HSTouchHIDService28GranularSecondaryClickClientCN
++ _$s17HSTouchHIDService28GranularSecondaryClickClientCfD
++ _$s17HSTouchHIDService37GranularNotificationCenterSwipeClientC11gestureType18maxEventsPerWindow5start3endAcA07GestureI0O_SiSbSo8HIDEventCcSbAKctcfC
++ _$s17HSTouchHIDService37GranularNotificationCenterSwipeClientCAA0c7GestureG0CAA016PointerAnalyticsG0AAWL
++ _$s17HSTouchHIDService37GranularNotificationCenterSwipeClientCACycfC
++ _$s17HSTouchHIDService37GranularNotificationCenterSwipeClientCACycfCTq
++ _$s17HSTouchHIDService37GranularNotificationCenterSwipeClientCACycfcSbSo8HIDEventCcfU0_Tf4nd_n
++ _$s17HSTouchHIDService37GranularNotificationCenterSwipeClientCACycfcSbSo8HIDEventCcfU_Tf4nd_n
++ _$s17HSTouchHIDService37GranularNotificationCenterSwipeClientCACycfcSbSo8HIDEventCcfU_Tf4nd_nTm
++ _$s17HSTouchHIDService37GranularNotificationCenterSwipeClientCMF
++ _$s17HSTouchHIDService37GranularNotificationCenterSwipeClientCMU
++ _$s17HSTouchHIDService37GranularNotificationCenterSwipeClientCMa
++ _$s17HSTouchHIDService37GranularNotificationCenterSwipeClientCMf
++ _$s17HSTouchHIDService37GranularNotificationCenterSwipeClientCMl
++ _$s17HSTouchHIDService37GranularNotificationCenterSwipeClientCMm
++ _$s17HSTouchHIDService37GranularNotificationCenterSwipeClientCMn
++ _$s17HSTouchHIDService37GranularNotificationCenterSwipeClientCMr
++ _$s17HSTouchHIDService37GranularNotificationCenterSwipeClientCN
++ _$s17HSTouchHIDService37GranularNotificationCenterSwipeClientCfD
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOAFSQAAWL
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOAFSQAAWl
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOAFs0D3KeyAAWL
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOAFs0D3KeyAAWl
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOAFs23CustomStringConvertibleAAWL
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOAFs23CustomStringConvertibleAAWl
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOAFs28CustomDebugStringConvertibleAAWL
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOAFs28CustomDebugStringConvertibleAAWl
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOMF
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOMXX
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOMa
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOMf
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOMn
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOSHAAMc
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOSHAAMcMK
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOSHAASH13_rawHashValue4seedS2i_tFTWTm
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOSHAASH9hashValueSivgTW
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOSHAASH9hashValueSivgTWTm
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOSHAASQWb
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOSQAAMc
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOSQAAMcMK
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOSQAASQ2eeoiySbx_xtFZTW
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOWV
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs0D3KeyAAMc
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs0D3KeyAAMcMK
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs0D3KeyAAs23CustomStringConvertiblePWb
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs0D3KeyAAs28CustomDebugStringConvertiblePWb
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs0D3KeyAAsAGP11stringValueSSvgTW
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs0D3KeyAAsAGP11stringValuexSgSS_tcfCTW
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs0D3KeyAAsAGP8intValueSiSgvgTW
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs0D3KeyAAsAGP8intValuexSgSi_tcfCTW
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs23CustomStringConvertibleAAMc
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs23CustomStringConvertibleAAMcMK
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs23CustomStringConvertibleAAsAGP11descriptionSSvgTW
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs28CustomDebugStringConvertibleAAMc
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs28CustomDebugStringConvertibleAAMcMK
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs28CustomDebugStringConvertibleAAsAGP16debugDescriptionSSvgTW
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOwet
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOwst
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOwug
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOwui
++ _$s17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOwup
++ _$s17HSTouchHIDService8PositionV4fromACs7Decoder_p_tKcfCTf4nd_n
++ _$s17HSTouchHIDService8PositionV6encode2toys7Encoder_p_tKF
++ _$s17HSTouchHIDService8PositionVACSEAAWL
++ _$s17HSTouchHIDService8PositionVACSEAAWl
++ _$s17HSTouchHIDService8PositionVACSeAAWL
++ _$s17HSTouchHIDService8PositionVACSeAAWl
++ _$s17HSTouchHIDService8PositionVMF
++ _$s17HSTouchHIDService8PositionVMa
++ _$s17HSTouchHIDService8PositionVMf
++ _$s17HSTouchHIDService8PositionVMn
++ _$s17HSTouchHIDService8PositionVN
++ _$s17HSTouchHIDService8PositionVSEAAMc
++ _$s17HSTouchHIDService8PositionVSEAAMcMK
++ _$s17HSTouchHIDService8PositionVSEAASE6encode2toys7Encoder_p_tKFTW
++ _$s17HSTouchHIDService8PositionVSeAAMc
++ _$s17HSTouchHIDService8PositionVSeAAMcMK
++ _$s17HSTouchHIDService8PositionVSeAASe4fromxs7Decoder_p_tKcfCTW
++ _$s17HSTouchHIDService8PositionVWV
++ _$s17HSTouchHIDService8PositionVwet
++ _$s17HSTouchHIDService8PositionVwst
++ _$s17HSTouchHIDServiceMXM
++ _$s2os0A4_log_3dso0B0__ySo0a1_B7_type_ta_SVSo03OS_a1_B0Cs12StaticStringVs7CVarArg_pdtF
++ _$s2os21OSAllocatedUnfairLockVMn
++ _$s7Payload17HSTouchHIDService22PointerAnalyticsClientPTl
++ _$s8Dispatch0A13TimeoutResultO2eeoiySbAC_ACtFZ
++ _$s8Dispatch0A13WorkItemFlagsVACs10SetAlgebraAAWlTm
++ _$s8Dispatch0A8WorkItemC5flags5blockAcA0abC5FlagsV_yyXBtcfc
++ _$s8Dispatch0A8WorkItemC6cancelyyFTj
++ _$s8Dispatch0A8WorkItemCMa
++ _$s8Dispatch0A8WorkItemCMn
++ _$sBbWV
++ _$sIeg_IeyB_TR
++ _$sS2Ss7CVarArg10FoundationWL
++ _$sS2Ss7CVarArg10FoundationWl
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_10Foundation4DataVTt0g5Tf4g_n
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_So12NSDictionaryCTt0g5Tf4g_n
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_ypTt0g5Tf4g_n
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSi_17HSTouchHIDService19DigitizerStatisticsVTt0g5Tf4g_n
++ _$sSD8_VariantV11removeValue6forKeyq_Sgx_tFSS_ypTg5
++ _$sSDMa
++ _$sSDySS10Foundation4DataVGML
++ _$sSDySS10Foundation4DataVGMR
++ _$sSDySS10Foundation4DataVGMa
++ _$sSDySS10Foundation4DataVGMd
++ _$sSDySS10Foundation4DataVGSDyxq_GSEsSERzSER_rlWL
++ _$sSDySS10Foundation4DataVGSDyxq_GSesSeRzSeR_rlWL
++ _$sSDySS10Foundation4DataVGSDyxq_GSesSeRzSeR_rlWlTm
++ _$sSDySSypGMR
++ _$sSDySSypGMd
++ _$sSDySi17HSTouchHIDService19DigitizerStatisticsVGMR
++ _$sSDySi17HSTouchHIDService19DigitizerStatisticsVGMd
++ _$sSDySi17HSTouchHIDService19DigitizerStatisticsVGSDyxq_GSEsSERzSER_rlWL
++ _$sSDySi17HSTouchHIDService19DigitizerStatisticsVGSDyxq_GSEsSERzSER_rlWlTm
++ _$sSDySi17HSTouchHIDService19DigitizerStatisticsVGSDyxq_GSesSeRzSeR_rlWL
++ _$sSDyxq_GSEsSERzSER_rlMc
++ _$sSDyxq_GSesSeRzSeR_rlMc
++ _$sSE6encode2toys7Encoder_p_tKFTq
++ _$sSEMp
++ _$sSSSEsWP
++ _$sSSSesWP
++ _$sSS_yptMR
++ _$sSS_yptMd
++ _$sSS_yptWOh
++ _$sSS_yptWOhTm
++ _$sSSs7CVarArg10FoundationMc
++ _$sSYsSERzSi8RawValueSYRtzrlE6encode2toys7Encoder_p_tKF
++ _$sSYsSeRzSi8RawValueSYRtzrlE4fromxs7Decoder_p_tKcfC
++ _$sSa10FoundationE36_unconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ
++ _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGMR
++ _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGMd
++ _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGSayxGSTsWL
++ _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGSayxGSTsWlTm
++ _$sSdN
++ _$sSds7CVarArgsWP
++ _$sSe4fromxs7Decoder_p_tKcfCTq
++ _$sSeMp
++ _$sSiSEsWP
++ _$sSiSesWP
++ _$sSo12NSDictionaryC10FoundationE10dictionaryA2Bh_tcfC
++ _$sSo12NSDictionaryC10FoundationE12makeIteratorAbCE0D0CyF
++ _$sSo12NSDictionaryC10FoundationE17dictionaryLiteralAByp_yptd_tcfC
++ _$sSo12NSDictionaryC10FoundationE8IteratorC4nextyp3key_yp5valuetSgyF
++ _$sSo12NSDictionaryCML
++ _$sSo12NSDictionaryCMa
++ _$sSo12NSDictionaryCMaTm
++ _$sSo13os_log_type_ta0A0E7defaultABvgZ
++ _$sSo16os_unfair_lock_sVMB
++ _$sSo16os_unfair_lock_sVMF
++ _$sSo16os_unfair_lock_sVML
++ _$sSo16os_unfair_lock_sVMa
++ _$sSo16os_unfair_lock_sVMf
++ _$sSo16os_unfair_lock_sVMn
++ _$sSo16os_unfair_lock_sVWV
++ _$sSo16os_unfair_lock_sVwet
++ _$sSo16os_unfair_lock_sVwst
++ _$sSo17OS_dispatch_groupC8DispatchE4wait7timeoutAC0D13TimeoutResultOAC0D4TimeV_tF
++ _$sSo17OS_dispatch_queueC8DispatchE10AttributesVAEs10SetAlgebraACWL
++ _$sSo17OS_dispatch_queueC8DispatchE10AttributesVAEs10SetAlgebraACWlTm
++ _$sSo17OS_dispatch_queueC8DispatchE10AttributesVMa
++ _$sSo17OS_dispatch_queueC8DispatchE10AttributesVMn
++ _$sSo17OS_dispatch_queueC8DispatchE10AttributesVs10SetAlgebraACMc
++ _$sSo17OS_dispatch_queueC8DispatchE10asyncAfter8deadline7executeyAC0D4TimeV_AC0D8WorkItemCtF
++ _$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyO7inherityA2EmFWC
++ _$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyOMa
++ _$sSo17OS_dispatch_queueC8DispatchE5async5group3qos5flags7executeySo0a1_b1_F0CSg_AC0D3QoSVAC0D13WorkItemFlagsVyyXBtF
++ _$sSo17OS_dispatch_queueC8DispatchE5async7executeyAC0D8WorkItemC_tF
++ _$sSo17OS_dispatch_queueC8DispatchE5label3qos10attributes20autoreleaseFrequency6targetABSS_AC0D3QoSVAbCE10AttributesVAbCE011AutoreleaseI0OABSgtcfC
++ _$sSo17OS_dispatch_queueCML
++ _$sSo17OS_dispatch_queueCMaTm
++ _$sSo19NSMutableDictionaryCML
++ _$sSo8HIDEventC17HSTouchHIDServiceE10buttonMaskSuSgvg
++ _$sSo8HIDEventC17HSTouchHIDServiceE10isTouchingSbvg
++ _$sSo8HIDEventC17HSTouchHIDServiceE10phaseBegan12forChildTypeSbSi_tF
++ _$sSo8HIDEventC17HSTouchHIDServiceE10phaseBeganSbvg
++ _$sSo8HIDEventC17HSTouchHIDServiceE10phaseEnded12forChildTypeSbSi_tF
++ _$sSo8HIDEventC17HSTouchHIDServiceE13phaseIsEndingSbvg
++ _$sSo8HIDEventC17HSTouchHIDServiceE15childButtonMaskSuSgvg
++ _$sSo8HIDEventC17HSTouchHIDServiceE15isDigitizerPathSbvg
++ _$sSo8HIDEventC17HSTouchHIDServiceE19isVerticalDockSwipeSbvg
++ _$sSo8HIDEventC17HSTouchHIDServiceE21isDigitizerCollectionSbvg
++ _$sSo8HIDEventC17HSTouchHIDServiceE21isHorizontalDockSwipeSbvg
++ _$sSo8HIDEventC17HSTouchHIDServiceE23digitizerGestureStartedSbvg
++ _$sSo8HIDEventC17HSTouchHIDServiceE33isNotificationCenterFromRightEdgeSbvg
++ _$sSo8HIDEventC17HSTouchHIDServiceE5event2ofABSgSi_tF
++ _$sSo8HIDEventC17HSTouchHIDServiceE5phases6UInt32Vvg
++ _$sSo8HIDEventC17HSTouchHIDServiceE8conforms2toSbSi_tF
++ _$sSo8HIDEventC17HSTouchHIDServiceE8isButtonSbvg
++ _$sSo8HIDEventC17HSTouchHIDServiceE9isRestingSbvg
++ _$sSo8HIDEventCML
++ _$sSo8HIDEventCMa
++ _$sSo8NSNumberCML
++ _$sSo8NSObjectCs7CVarArg10ObjectiveCMc
++ _$sSo8NSStringCML
++ _$sSo8NSStringCSo12NSDictionaryCIeyByy_SSADIeggg_TRTA
++ _$sSo8NSStringCSo8NSObjectCs7CVarArg10ObjectiveCWL
++ _$sSo8NSStringCSo8NSObjectCs7CVarArg10ObjectiveCWl
++ _$sSqMa
++ _$ss018_bridgeAnyObjectToB0yypyXlSgF
++ _$ss11AnyHashableV13_rawHashValue4seedS2i_tF
++ _$ss11AnyHashableVSHsWP
++ _$ss12_ArrayBufferV19_getElementSlowPathyyXlSiFyXl_Ts5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF17HSTouchHIDService21MockDispatchSchedulerC9Scheduled33_464DAD3202B0D8D482946E171135457DLLV_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSu_Tg5
++ _$ss13ManagedBufferCMn
++ _$ss13ManagedBufferCySbSo16os_unfair_lock_sVGMR
++ _$ss13ManagedBufferCySbSo16os_unfair_lock_sVGMd
++ _$ss15ContiguousArrayV034_makeUniqueAndReserveCapacityIfNotD0yyFyXl_Ts5
++ _$ss15ContiguousArrayV12_endMutationyyFyXl_Ts5
++ _$ss15ContiguousArrayV36_reserveCapacityAssumingUniqueBuffer8oldCountySi_tFyXl_Ts5
++ _$ss15ContiguousArrayV37_appendElementAssumeUniqueAndCapacity_03newD0ySi_xntFyXl_Ts5
++ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_10Foundation4DataVTg5
++ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_So12NSDictionaryCTg5
++ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_ypTg5
++ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSi_17HSTouchHIDService19DigitizerStatisticsVTg5
++ _$ss17_NativeDictionaryV4copyyyFSS_10Foundation4DataVTg5
++ _$ss17_NativeDictionaryV4copyyyFSS_So12NSDictionaryCTg5
++ _$ss17_NativeDictionaryV4copyyyFSS_ypTg5
++ _$ss17_NativeDictionaryV4copyyyFSi_17HSTouchHIDService19DigitizerStatisticsVTg5
++ _$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tFSS_ypTg5
++ _$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tFSi_17HSTouchHIDService19DigitizerStatisticsVTg5
++ _$ss17_NativeDictionaryV7_insert2at3key5valueys10_HashTableV6BucketV_xnq_ntFSS_ypTg5
++ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSS_ypTg5
++ _$ss17_dictionaryUpCastySDyq0_q1_GSDyxq_GSHRzSHR0_r2_lFSS_yps11AnyHashableVypTg5
++ _$ss18_CocoaArrayWrapperV8endIndexSivg
++ _$ss18_DictionaryStorageCySS10Foundation4DataVGMR
++ _$ss18_DictionaryStorageCySS10Foundation4DataVGMd
++ _$ss18_DictionaryStorageCySSSo12NSDictionaryCGMR
++ _$ss18_DictionaryStorageCySSSo12NSDictionaryCGMd
++ _$ss18_DictionaryStorageCySSypGMR
++ _$ss18_DictionaryStorageCySSypGMd
++ _$ss18_DictionaryStorageCySi17HSTouchHIDService19DigitizerStatisticsVGMR
++ _$ss18_DictionaryStorageCySi17HSTouchHIDService19DigitizerStatisticsVGMd
++ _$ss18_DictionaryStorageCys11AnyHashableVypGMR
++ _$ss18_DictionaryStorageCys11AnyHashableVypGMd
++ _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeyqd__Sgqd__m_xtKSeRd__lF
++ _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeys6UInt64VSgAFm_xtKF
++ _$ss22KeyedDecodingContainerV6decode_6forKeyS2dm_xtKF
++ _$ss22KeyedDecodingContainerV6decode_6forKeyS2im_xtKF
++ _$ss22KeyedDecodingContainerV6decode_6forKeyqd__qd__m_xtKSeRd__lF
++ _$ss22KeyedDecodingContainerV6decode_6forKeys6UInt32VAFm_xtKF
++ _$ss22KeyedDecodingContainerVMn
++ _$ss22KeyedDecodingContainerVy17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOGMR
++ _$ss22KeyedDecodingContainerVy17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOGMd
++ _$ss22KeyedDecodingContainerVy17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOGMR
++ _$ss22KeyedDecodingContainerVy17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOGMd
++ _$ss22KeyedDecodingContainerVy17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOGMR
++ _$ss22KeyedDecodingContainerVy17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOGMd
++ _$ss22KeyedDecodingContainerVy17HSTouchHIDService17GestureUsageStatsC0F6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOGMR
++ _$ss22KeyedDecodingContainerVy17HSTouchHIDService17GestureUsageStatsC0F6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOGMd
++ _$ss22KeyedDecodingContainerVy17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOGMR
++ _$ss22KeyedDecodingContainerVy17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOGMd
++ _$ss22KeyedDecodingContainerVy17HSTouchHIDService20PointerActivityStatsC0gH0V10CodingKeys016_D6C9457CF237393K15D43878AE8B5719ELLOGMR
++ _$ss22KeyedDecodingContainerVy17HSTouchHIDService20PointerActivityStatsC0gH0V10CodingKeys016_D6C9457CF237393K15D43878AE8B5719ELLOGMd
++ _$ss22KeyedDecodingContainerVy17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOGMR
++ _$ss22KeyedDecodingContainerVy17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOGMd
++ _$ss22KeyedDecodingContainerVy17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOGMR
++ _$ss22KeyedDecodingContainerVy17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOGMd
++ _$ss22KeyedEncodingContainerV15encodeIfPresent_6forKeyyqd__Sg_xtKSERd__lF
++ _$ss22KeyedEncodingContainerV15encodeIfPresent_6forKeyys6UInt64VSg_xtKF
++ _$ss22KeyedEncodingContainerV6encode_6forKeyySd_xtKF
++ _$ss22KeyedEncodingContainerV6encode_6forKeyySi_xtKF
++ _$ss22KeyedEncodingContainerV6encode_6forKeyyqd___xtKSERd__lF
++ _$ss22KeyedEncodingContainerV6encode_6forKeyys6UInt32V_xtKF
++ _$ss22KeyedEncodingContainerVMn
++ _$ss22KeyedEncodingContainerVy17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOGMR
++ _$ss22KeyedEncodingContainerVy17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOGMd
++ _$ss22KeyedEncodingContainerVy17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOGMR
++ _$ss22KeyedEncodingContainerVy17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOGMd
++ _$ss22KeyedEncodingContainerVy17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOGMR
++ _$ss22KeyedEncodingContainerVy17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOGMd
++ _$ss22KeyedEncodingContainerVy17HSTouchHIDService17GestureUsageStatsC0F6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOGMR
++ _$ss22KeyedEncodingContainerVy17HSTouchHIDService17GestureUsageStatsC0F6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOGMd
++ _$ss22KeyedEncodingContainerVy17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOGMR
++ _$ss22KeyedEncodingContainerVy17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOGMd
++ _$ss22KeyedEncodingContainerVy17HSTouchHIDService20PointerActivityStatsC0gH0V10CodingKeys016_D6C9457CF237393K15D43878AE8B5719ELLOGMR
++ _$ss22KeyedEncodingContainerVy17HSTouchHIDService20PointerActivityStatsC0gH0V10CodingKeys016_D6C9457CF237393K15D43878AE8B5719ELLOGMd
++ _$ss22KeyedEncodingContainerVy17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOGMR
++ _$ss22KeyedEncodingContainerVy17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOGMd
++ _$ss22KeyedEncodingContainerVy17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOGMR
++ _$ss22KeyedEncodingContainerVy17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOGMd
++ _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSi_Tg5
++ _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSi_Tg5
++ _$ss23_ContiguousArrayStorageCy17HSTouchHIDService21MockDispatchSchedulerC9Scheduled33_464DAD3202B0D8D482946E171135457DLLVGMR
++ _$ss23_ContiguousArrayStorageCy17HSTouchHIDService21MockDispatchSchedulerC9Scheduled33_464DAD3202B0D8D482946E171135457DLLVGMd
++ _$ss23_ContiguousArrayStorageCy17HSTouchHIDService22PointerAnalyticsClient_pGMR
++ _$ss23_ContiguousArrayStorageCy17HSTouchHIDService22PointerAnalyticsClient_pGMd
++ _$ss23_ContiguousArrayStorageCySS_SStGMR
++ _$ss23_ContiguousArrayStorageCySS_SStGMd
++ _$ss23_ContiguousArrayStorageCySS_yptGMR
++ _$ss23_ContiguousArrayStorageCySS_yptGMd
++ _$ss23_ContiguousArrayStorageCyyp_yptGMR
++ _$ss23_ContiguousArrayStorageCyyp_yptGMd
++ _$ss27_bridgeAnythingToObjectiveCyyXlxlF
++ _$ss28CustomDebugStringConvertibleMp
++ _$ss28CustomDebugStringConvertibleP16debugDescriptionSSvgTq
++ _$ss5ErrorP10FoundationE20localizedDescriptionSSvg
++ _$ss6UInt64Vs23CustomStringConvertiblesWP
++ _$ss7DecoderP9container7keyedBys22KeyedDecodingContainerVyqd__Gqd__m_tKs9CodingKeyRd__lFTj
++ _$ss7EncoderP9container7keyedBys22KeyedEncodingContainerVyqd__Gqd__m_ts9CodingKeyRd__lFTj
++ _$ss9CodingKeyMp
++ _$ss9CodingKeyP11stringValueSSvgTq
++ _$ss9CodingKeyP11stringValuexSgSS_tcfCTq
++ _$ss9CodingKeyP8intValueSiSgvgTq
++ _$ss9CodingKeyP8intValuexSgSi_tcfCTq
++ _$ss9CodingKeyPs23CustomStringConvertibleTb
++ _$ss9CodingKeyPs28CustomDebugStringConvertibleTb
++ _$ss9CodingKeyPsE11descriptionSSvg
++ _$ss9CodingKeyPsE16debugDescriptionSSvg
++ _$syXlN
++ _$syp3key_yp5valuetMR
++ _$syp3key_yp5valuetMd
++ _$syp3key_yp5valuetSgMR
++ _$syp3key_yp5valuetSgMd
++ _$syp3key_yp5valuetWOc
++ _$sypSgMR
++ _$sypSgMd
++ _$sypSgWOh
++ _$syycWV
++ _HIDPreferencesCopyForInstance
++ _HIDPreferencesCreateInstance
++ _HIDPreferencesSetForInstance
++ _HIDPreferencesSynchronizeForInstance
++ _IOHIDEventConformsTo
++ _IOHIDEventGetEvent
++ _OBJC_CLASS_$_AnalyticsGeneratorStage
++ _OBJC_CLASS_$_OS_dispatch_queue
++ _OBJC_CLASS_$__TtC17HSTouchHIDService23PointerAnalyticsManager
++ _OBJC_METACLASS_$_AnalyticsGeneratorStage
++ _OBJC_METACLASS_$__TtC17HSTouchHIDService23PointerAnalyticsManager
++ __33-[TrackpadAlgStage buildUberAlgs]_block_invoke
++ __CLASS_METHODS__TtC17HSTouchHIDService23PointerAnalyticsManager
++ __DATA__TtC17HSTouchHIDService16PeriodicReporter
++ __DATA__TtC17HSTouchHIDService17GestureUsageStats
++ __DATA__TtC17HSTouchHIDService18GranularZoomClient
++ __DATA__TtC17HSTouchHIDService20GranularRotateClient
++ __DATA__TtC17HSTouchHIDService20GranularScrollClient
++ __DATA__TtC17HSTouchHIDService20PointerActivityStats
++ __DATA__TtC17HSTouchHIDService21GranularGestureClient
++ __DATA__TtC17HSTouchHIDService21HIDServicePreferences
++ __DATA__TtC17HSTouchHIDService21MockDispatchScheduler
++ __DATA__TtC17HSTouchHIDService22DispatchQueueScheduler
++ __DATA__TtC17HSTouchHIDService23GranularDockSwipeClient
++ __DATA__TtC17HSTouchHIDService23GranularTranslateClient
++ __DATA__TtC17HSTouchHIDService23PointerAnalyticsManager
++ __DATA__TtC17HSTouchHIDService26GranularPrimaryClickClient
++ __DATA__TtC17HSTouchHIDService28GranularSecondaryClickClient
++ __DATA__TtC17HSTouchHIDService37GranularNotificationCenterSwipeClient
++ __INSTANCE_METHODS__TtC17HSTouchHIDService23PointerAnalyticsManager
++ __IVARS__TtC17HSTouchHIDService16PeriodicReporter
++ __IVARS__TtC17HSTouchHIDService17GestureUsageStats
++ __IVARS__TtC17HSTouchHIDService20PointerActivityStats
++ __IVARS__TtC17HSTouchHIDService21GranularGestureClient
++ __IVARS__TtC17HSTouchHIDService21HIDServicePreferences
++ __IVARS__TtC17HSTouchHIDService21MockDispatchScheduler
++ __IVARS__TtC17HSTouchHIDService22DispatchQueueScheduler
++ __IVARS__TtC17HSTouchHIDService23PointerAnalyticsManager
++ __METACLASS_DATA__TtC17HSTouchHIDService16PeriodicReporter
++ __METACLASS_DATA__TtC17HSTouchHIDService17GestureUsageStats
++ __METACLASS_DATA__TtC17HSTouchHIDService18GranularZoomClient
++ __METACLASS_DATA__TtC17HSTouchHIDService20GranularRotateClient
++ __METACLASS_DATA__TtC17HSTouchHIDService20GranularScrollClient
++ __METACLASS_DATA__TtC17HSTouchHIDService20PointerActivityStats
++ __METACLASS_DATA__TtC17HSTouchHIDService21GranularGestureClient
++ __METACLASS_DATA__TtC17HSTouchHIDService21HIDServicePreferences
++ __METACLASS_DATA__TtC17HSTouchHIDService21MockDispatchScheduler
++ __METACLASS_DATA__TtC17HSTouchHIDService22DispatchQueueScheduler
++ __METACLASS_DATA__TtC17HSTouchHIDService23GranularDockSwipeClient
++ __METACLASS_DATA__TtC17HSTouchHIDService23GranularTranslateClient
++ __METACLASS_DATA__TtC17HSTouchHIDService23PointerAnalyticsManager
++ __METACLASS_DATA__TtC17HSTouchHIDService26GranularPrimaryClickClient
++ __METACLASS_DATA__TtC17HSTouchHIDService28GranularSecondaryClickClient
++ __METACLASS_DATA__TtC17HSTouchHIDService37GranularNotificationCenterSwipeClient
++ __OBJC_$_INSTANCE_METHODS_AnalyticsGeneratorStage
++ __OBJC_$_INSTANCE_VARIABLES_AnalyticsGeneratorStage
++ __OBJC_$_PROP_LIST_AnalyticsGeneratorStage
++ __OBJC_CLASS_RO_$_AnalyticsGeneratorStage
++ __OBJC_METACLASS_RO_$_AnalyticsGeneratorStage
++ __ZN11HSTPipeline21StaticMousePropertiesEP8NSString
++ __ZN11HSTPipeline24StaticTrackpadPropertiesEP8NSString
++ ___48-[AnalyticsGeneratorStage setupAnalyticsManager]_block_invoke
++ ___66-[AnalyticsGeneratorStage dispatchAnalyticsEventWithName:payload:]_block_invoke
++ ___block_descriptor_64_ea8_32s40s48s56w_e5_v8?0l
++ ___copy_helper_block_ea8_32s40s48s56w
++ ___destroy_helper_block_ea8_32s40s48s56w
++ ___swift_allocate_boxed_opaque_existential_1
++ ___swift_assign_boxed_opaque_existential_0
++ ___swift_destroy_boxed_opaque_existential_0Tm
++ ___swift_destroy_boxed_opaque_existential_1
++ ___swift_memcpy0_1
++ ___swift_memcpy184_8
++ ___swift_memcpy1_1
++ ___swift_memcpy200_8
++ ___swift_memcpy32_8
++ ___swift_memcpy56_4
++ ___swift_memcpy9_8
++ ___swift_project_boxed_opaque_existential_1
++ ___swift_project_boxed_opaque_existential_1Tm
++ __swift_FORCE_LOAD_$_swiftCoreFoundation_$_HSTouchHIDService
++ __swift_FORCE_LOAD_$_swiftDispatch_$_HSTouchHIDService
++ __swift_FORCE_LOAD_$_swiftFoundation_$_HSTouchHIDService
++ __swift_FORCE_LOAD_$_swiftIOKit_$_HSTouchHIDService
++ __swift_FORCE_LOAD_$_swiftOSLog
++ __swift_FORCE_LOAD_$_swiftOSLog_$_HSTouchHIDService
++ __swift_FORCE_LOAD_$_swiftObjectiveC_$_HSTouchHIDService
++ __swift_FORCE_LOAD_$_swiftXPC_$_HSTouchHIDService
++ __swift_FORCE_LOAD_$_swift_Builtin_float_$_HSTouchHIDService
++ __swift_FORCE_LOAD_$_swiftos_$_HSTouchHIDService
++ __swift_dead_method_stub
++ __swift_exist.box.addr_destructor
++ _associated conformance 17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOSHAASQ
++ _associated conformance 17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 17HSTouchHIDService11GestureTypeOSHAASQ
++ _associated conformance 17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOSHAASQ
++ _associated conformance 17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOs0M3KeyAAs23CustomStringConvertible
++ _associated conformance 17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysOs0M3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOSHAASQ
++ _associated conformance 17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOSHAASQ
++ _associated conformance 17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 17HSTouchHIDService17GestureUsageStatsCAA22PointerAnalyticsClientAA7PayloadAaDP_AA0fgI0
++ _associated conformance 17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOSHAASQ
++ _associated conformance 17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOSHAASQ
++ _associated conformance 17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 17HSTouchHIDService20PointerActivityStatsCAA0C15AnalyticsClientAA7PayloadAaDP_AA0cfH0
++ _associated conformance 17HSTouchHIDService21GranularGestureClientCAA016PointerAnalyticsE0AA7PayloadAaDP_AA0fgH0
++ _associated conformance 17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOSHAASQ
++ _associated conformance 17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 17HSTouchHIDService22PointerAnalyticsDeviceV4KindOSHAASQ
++ _associated conformance 17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOSHAASQ
++ _associated conformance 17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLOs0D3KeyAAs28CustomDebugStringConvertible
++ _dispatch_group_create
++ _kCFPreferencesAnyHost
++ _kCFPreferencesCurrentUser
++ _objc_msgSend$addEntriesFromDictionary:
++ _objc_msgSend$analyticsManager
++ _objc_msgSend$boolForKey:
++ _objc_msgSend$coreAnalyticsCallback
++ _objc_msgSend$dispatchAnalyticsEventWithName:payload:
++ _objc_msgSend$fwDebouncedButtonReleasedDuringMitigation
++ _objc_msgSend$handleDebugDisableGranularEventLimit:
++ _objc_msgSend$handleDebugReportingPeriodOverride:
++ _objc_msgSend$handleWithHidEvent:
++ _objc_msgSend$init
++ _objc_msgSend$initWithBool:
++ _objc_msgSend$initWithConfig:actuationHandler:coreAnalyticsCallback:builtIn:supportsForce:supportsDeepPress:
++ _objc_msgSend$initWithCoreAnalyticsCallback:
++ _objc_msgSend$initWithDictionary:copyItems:
++ _objc_msgSend$initWithDouble:
++ _objc_msgSend$initWithLog:deviceIdentifier:deviceType:builtIn:callback:
++ _objc_msgSend$initWithQueue:deviceType:log:
++ _objc_msgSend$initWithSuiteName:
++ _objc_msgSend$log
++ _objc_msgSend$preventedFalseReleaseForThisDelay
++ _objc_msgSend$serialize:error:
++ _objc_msgSend$setAnalyticsManager:
++ _objc_msgSend$setDebugGranularEventLimitsDisabled:log:
++ _objc_msgSend$setDebugReportingPeriod:log:
++ _objc_msgSend$setFwDebouncedButtonReleasedDuringMitigation:
++ _objc_msgSend$setPreventedFalseReleaseForThisDelay:
++ _objc_msgSend$setupAnalyticsManager
++ _objc_msgSend$toDictionary
++ _swift_allocBox
++ _swift_arrayInitWithCopy
++ _swift_arrayInitWithTakeBackToFront
++ _swift_arrayInitWithTakeFrontToBack
++ _swift_coroFrameAlloc
++ _swift_cvw_initStructMetadataWithLayoutString
++ _swift_cvw_initWithTake
++ _swift_getAssociatedConformanceWitness
++ _swift_getAssociatedTypeWitness
++ _swift_getDynamicType
++ _swift_getEnumTagSinglePayloadGeneric
++ _swift_getErrorValue
++ _swift_getMetatypeMetadata
++ _swift_isaMask
++ _swift_storeEnumTagSinglePayloadGeneric
++ _swift_unknownObjectRelease
++ _swift_weakDestroy
++ _swift_weakInit
++ _swift_weakLoadStrong
++ _symbolic $s17HSTouchHIDService17DispatchSchedulerP
++ _symbolic $s17HSTouchHIDService22PointerAnalyticsClientP
++ _symbolic $s17HSTouchHIDService23PointerAnalyticsPayloadP
++ _symbolic 7Payload_____Qz 17HSTouchHIDService22PointerAnalyticsClientP
++ _symbolic SDySS_____G 10Foundation4DataV
++ _symbolic SDySSypG
++ _symbolic SDySi_____G 17HSTouchHIDService19DigitizerStatisticsV
++ _symbolic SS_ypt
++ _symbolic Say_____G 17HSTouchHIDService21MockDispatchSchedulerC9Scheduled33_464DAD3202B0D8D482946E171135457DLLV
++ _symbolic Say_____G So17OS_dispatch_queueC8DispatchE10AttributesV
++ _symbolic Say______pG 17HSTouchHIDService22PointerAnalyticsClientP
++ _symbolic SbSo8HIDEventCc
++ _symbolic So17OS_dispatch_groupC
++ _symbolic So8NSStringCSo12NSDictionaryCIeyByy_
++ _symbolic So9OS_os_logC
++ _symbolic _____ 10Foundation4DataV
++ _symbolic _____ 10Foundation4DateV
++ _symbolic _____ 10Foundation4UUIDV
++ _symbolic _____ 17HSTouchHIDService0B11PreferencesC
++ _symbolic _____ 17HSTouchHIDService11BoundingBoxV
++ _symbolic _____ 17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLO
++ _symbolic _____ 17HSTouchHIDService11GestureTypeO
++ _symbolic _____ 17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV
++ _symbolic _____ 17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysO
++ _symbolic _____ 17HSTouchHIDService16PeriodicReporterC
++ _symbolic _____ 17HSTouchHIDService17GestureStatisticsV
++ _symbolic _____ 17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLO
++ _symbolic _____ 17HSTouchHIDService17GestureUsageStatsC
++ _symbolic _____ 17HSTouchHIDService17GestureUsageStatsC0C6CountsV
++ _symbolic _____ 17HSTouchHIDService17GestureUsageStatsC0C6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLO
++ _symbolic _____ 17HSTouchHIDService18GranularZoomClientC
++ _symbolic _____ 17HSTouchHIDService19DigitizerStatisticsV
++ _symbolic _____ 17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLO
++ _symbolic _____ 17HSTouchHIDService20GranularRotateClientC
++ _symbolic _____ 17HSTouchHIDService20GranularScrollClientC
++ _symbolic _____ 17HSTouchHIDService20PointerActivityStatsC
++ _symbolic _____ 17HSTouchHIDService20PointerActivityStatsC0dE0V
++ _symbolic _____ 17HSTouchHIDService20PointerActivityStatsC0dE0V10CodingKeys016_D6C9457CF237393H15D43878AE8B5719ELLO
++ _symbolic _____ 17HSTouchHIDService21GranularGestureClientC
++ _symbolic _____ 17HSTouchHIDService21MockDispatchSchedulerC
++ _symbolic _____ 17HSTouchHIDService21MockDispatchSchedulerC9Scheduled33_464DAD3202B0D8D482946E171135457DLLV
++ _symbolic _____ 17HSTouchHIDService22DispatchQueueSchedulerC
++ _symbolic _____ 17HSTouchHIDService22GranularGesturePayloadV
++ _symbolic _____ 17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLO
++ _symbolic _____ 17HSTouchHIDService22PointerAnalyticsDeviceV
++ _symbolic _____ 17HSTouchHIDService22PointerAnalyticsDeviceV4KindO
++ _symbolic _____ 17HSTouchHIDService23GranularDockSwipeClientC
++ _symbolic _____ 17HSTouchHIDService23GranularTranslateClientC
++ _symbolic _____ 17HSTouchHIDService23PointerAnalyticsManagerC
++ _symbolic _____ 17HSTouchHIDService26GranularPrimaryClickClientC
++ _symbolic _____ 17HSTouchHIDService28GranularSecondaryClickClientC
++ _symbolic _____ 17HSTouchHIDService37GranularNotificationCenterSwipeClientC
++ _symbolic _____ 17HSTouchHIDService8PositionV
++ _symbolic _____ 17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLO
++ _symbolic _____ 8Dispatch0A8WorkItemC
++ _symbolic _____ So16os_unfair_lock_sV
++ _symbolic _____Sg 10Foundation4DateV
++ _symbolic _____Sg 17HSTouchHIDService11BoundingBoxV
++ _symbolic _____Sg 17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV
++ _symbolic _____Sg 17HSTouchHIDService16PeriodicReporterC
++ _symbolic _____Sg 17HSTouchHIDService17GestureStatisticsV
++ _symbolic _____Sg 17HSTouchHIDService19DigitizerStatisticsV
++ _symbolic _____Sg 8Dispatch0A8WorkItemC
++ _symbolic _____Sg s6UInt64V
++ _symbolic _____SgXw 17HSTouchHIDService16PeriodicReporterC
++ _symbolic _____SgXw 17HSTouchHIDService23PointerAnalyticsManagerC
++ _symbolic _____SgXwz_Xx 17HSTouchHIDService23PointerAnalyticsManagerC
++ _symbolic _____XDXMT 17HSTouchHIDService23PointerAnalyticsManagerC
++ _symbolic ______p 17HSTouchHIDService17DispatchSchedulerP
++ _symbolic ______pSg 17HSTouchHIDService23PointerAnalyticsPayloadP
++ _symbolic _____m 17HSTouchHIDService0B11PreferencesC
++ _symbolic _____m 17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV
++ _symbolic _____m 17HSTouchHIDService21GranularGestureClientC
++ _symbolic _____m 17HSTouchHIDService23PointerAnalyticsManagerC
++ _symbolic _____ySSSo12NSDictionaryCG s18_DictionaryStorageC
++ _symbolic _____ySS_SStG s23_ContiguousArrayStorageC
++ _symbolic _____ySS_____G s18_DictionaryStorageC 10Foundation4DataV
++ _symbolic _____ySS_yptG s23_ContiguousArrayStorageC
++ _symbolic _____ySSypG s18_DictionaryStorageC
++ _symbolic _____ySbG 2os21OSAllocatedUnfairLockV
++ _symbolic _____ySb_____G s13ManagedBufferCsRi__rlE So16os_unfair_lock_sV
++ _symbolic _____ySi_____G s18_DictionaryStorageC 17HSTouchHIDService19DigitizerStatisticsV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 17HSTouchHIDService17GestureUsageStatsC0F6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 17HSTouchHIDService20PointerActivityStatsC0gH0V10CodingKeys016_D6C9457CF237393K15D43878AE8B5719ELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 17HSTouchHIDService11BoundingBoxV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 17HSTouchHIDService12DeviceRecord33_BE58EC63C9881A066BD656518E6C8D57LLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 17HSTouchHIDService17GestureStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 17HSTouchHIDService17GestureUsageStatsC0F6CountsV10CodingKeys33_E1787D0B0081A2D844B4D6714A253430LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 17HSTouchHIDService19DigitizerStatisticsV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 17HSTouchHIDService20PointerActivityStatsC0gH0V10CodingKeys016_D6C9457CF237393K15D43878AE8B5719ELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 17HSTouchHIDService22GranularGesturePayloadV10CodingKeys33_65CFA74706A3BDA83ADB3076B6B20D9ELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 17HSTouchHIDService8PositionV10CodingKeys33_74BEAF6E5D66B601B7FA88C8791B2415LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 17HSTouchHIDService21MockDispatchSchedulerC9Scheduled33_464DAD3202B0D8D482946E171135457DLLV
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 17HSTouchHIDService22PointerAnalyticsClientP
++ _symbolic _____y_____ypG s18_DictionaryStorageC s11AnyHashableV
++ _symbolic _____yyp_yptG s23_ContiguousArrayStorageC
++ _symbolic x
++ _symbolic ySS_So12NSDictionaryCtc
++ _symbolic yp3key_yp5valuet
++ _symbolic yp3key_yp5valuetSg
++ _symbolic ypSg
++ _symbolic yyYbc
++ _type_layout_string 17HSTouchHIDService11BoundingBoxV
++ _type_layout_string 17HSTouchHIDService17GestureStatisticsV
++ _type_layout_string 17HSTouchHIDService17GestureUsageStatsC0C6CountsV
++ _type_layout_string 17HSTouchHIDService19DigitizerStatisticsV
++ _type_layout_string 17HSTouchHIDService20PointerActivityStatsC0dE0V
++ _type_layout_string 17HSTouchHIDService22GranularGesturePayloadV
++ _type_layout_string 17HSTouchHIDService22PointerAnalyticsDeviceV
++ _type_layout_string 17HSTouchHIDService8PositionV
++ _type_layout_string So16os_unfair_lock_sV
+- -[MTTrackpadUberAlg initWithConfig:actuationHandler:builtIn:supportsForce:supportsDeepPress:]
+- -[MouseBridge handleGetPropertyEvent:]
+- -[MouseSettings debug]
+- -[PointerSettings debug]
+- -[TrackpadAlgButtonStateManager init]
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/lib/libHIDSensingPipeline.a(HSMachPortListener.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/lib/libHIDSensingPipeline.a(HSObserverStage.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/lib/libHIDSensingPipeline.a(HSPUtil.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/lib/libHIDSensingPipeline.a(HSPlaybackStage.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/lib/libHIDSensingPipeline.a(HSPreferenceStage.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/lib/libHIDSensingPipeline.a(HSRecordingPlaybackStage+Remote.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/lib/libHIDSensingPipeline.a(HSRecordingPlaybackStage.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/lib/libHIDSensingPipeline.a(HSRecordingStage.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/lib/libHIDSensingPipeline.a(HSRemoteObject+Additions.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/lib/libHIDSensingPipeline.a(HSRemoteObject.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/lib/libHIDSensingPipeline.a(HSServerStage.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/lib/libHIDSensingPipeline.a(HSServiceDirectory.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/lib/libHIDSensingPipeline.a(HSSocketListener.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/lib/libHIDSensingPipeline.a(HSStage+Util.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/lib/libHIDSensingPipeline.a(HSStage.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/lib/libHIDSensingPipeline.a(HSStageProxy.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/lib/libHIDSensingUtil.a(HSCoder.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/lib/libHIDSensingUtil.a(HSSocket.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/lib/libHIDSensingUtil.a(HSTime.o)
+- GCC_except_table159
+- GCC_except_table173
+- _objc_msgSend$initWithConfig:actuationHandler:builtIn:supportsForce:supportsDeepPress:
+CStrings:
++ "-[AnalyticsGeneratorStage handleGetDebugEvent:]"
++ "10410.4"
++ "@\"_TtC17HSTouchHIDService23PointerAnalyticsManager\""
++ "@24@0:8@?16"
++ "@36@0:8@16C24@28"
++ "@48@0:8@16Q24C32B36@?40"
++ "@52@0:8@16@?24@?32B40B44B48"
++ "AnalyticsGeneratorStage"
++ "AnalyticsGeneratorStage.mm"
++ "AnalyticsManager"
++ "BoundingBoxMaxXCell"
++ "BoundingBoxMaxYCell"
++ "BoundingBoxMinXCell"
++ "BoundingBoxMinYCell"
++ "BucketedActiveSeconds"
++ "Configured to set up async IO queue from default multitouch properties"
++ "DisableGranularEventLimits"
++ "EmittedThisWindow"
++ "Failed to create preferences instance"
++ "GestureTypeDescription"
++ "HSTAnalyticsDebugDisableGranularEventLimits"
++ "HSTAnalyticsDebugReportingPeriod"
++ "HSTouchHIDService.GranularDockSwipeClient"
++ "HSTouchHIDService.GranularNotificationCenterSwipeClient"
++ "HSTouchHIDService.GranularPrimaryClickClient"
++ "HSTouchHIDService.GranularRotateClient"
++ "HSTouchHIDService.GranularScrollClient"
++ "HSTouchHIDService.GranularSecondaryClickClient"
++ "HSTouchHIDService.GranularTranslateClient"
++ "HSTouchHIDService.GranularZoomClient"
++ "HSTouchHIDService.PointerAnalyticsManager"
++ "HandDistanceTravelledX"
++ "HandDistanceTravelledY"
++ "LastEventTimestamp"
++ "MTDisableDebugUserDevice"
++ "MTDisableDebugUserDevice set; skipping debug HID user device creation"
++ "MaxEventsPerWindow"
++ "MaxPathDistanceTravelledX"
++ "MaxPathDistanceTravelledY"
++ "MaxTouchingPaths"
++ "MultitouchSettings"
++ "NotificationCenterEdgeSwipes"
++ "NotificationCenterSwipe"
++ "OneFingerSecondaryClicks"
++ "OverriddenReportingPeriod"
++ "PreventedFalseRelease"
++ "PrimaryTapClicks"
++ "SecondaryTapClicks"
++ "T@\"NSDictionary\",R,N,V_debug"
++ "T@\"_TtC17HSTouchHIDService23PointerAnalyticsManager\",&,N,V_analyticsManager"
++ "T@?,C,N,V_coreAnalyticsCallback"
++ "TB,N,V_fwDebouncedButtonReleasedDuringMitigation"
++ "TB,N,V_preventedFalseReleaseForThisDelay"
++ "TC,N,V_deviceType"
++ "TwoFingerSecondaryClicks"
++ "[%{public}@] Annotation key conflict '%{public}@' merging %{public}@ into %{public}@"
++ "[%{public}@] Cleared debug reporting period override for device %llu"
++ "[%{public}@] Clearing analytics queue timed out!"
++ "[%{public}@] Disabled granular event cap"
++ "[%{public}@] Failed to decode payload for %{public}@: %{public}@"
++ "[%{public}@] Failed to deserialize HIDEvent"
++ "[%{public}@] Failed to encode analytics device record"
++ "[%{public}@] Failed to encode payload for %{public}@"
++ "[%{public}@] Failed to serialize HIDEvent: %{public}@"
++ "[%{public}@] Missing annotation source %{public}@ for event %{public}@"
++ "[%{public}@] Persisted debug reporting period override of %.1fs for device %llu"
++ "[%{public}@] Re-enabled granular event cap"
++ "[%{public}@] Using custom reporting period override of %.1fs (default %.1fs)"
++ "[%{public}s] Next report scheduled for %{public}s"
++ "_TtC17HSTouchHIDService16PeriodicReporter"
++ "_TtC17HSTouchHIDService17GestureUsageStats"
++ "_TtC17HSTouchHIDService18GranularZoomClient"
++ "_TtC17HSTouchHIDService20GranularRotateClient"
++ "_TtC17HSTouchHIDService20GranularScrollClient"
++ "_TtC17HSTouchHIDService20PointerActivityStats"
++ "_TtC17HSTouchHIDService21GranularGestureClient"
++ "_TtC17HSTouchHIDService21HIDServicePreferences"
++ "_TtC17HSTouchHIDService21MockDispatchScheduler"
++ "_TtC17HSTouchHIDService22DispatchQueueScheduler"
++ "_TtC17HSTouchHIDService23GranularDockSwipeClient"
++ "_TtC17HSTouchHIDService23GranularTranslateClient"
++ "_TtC17HSTouchHIDService23PointerAnalyticsManager"
++ "_TtC17HSTouchHIDService26GranularPrimaryClickClient"
++ "_TtC17HSTouchHIDService28GranularSecondaryClickClient"
++ "_TtC17HSTouchHIDService37GranularNotificationCenterSwipeClient"
++ "_analyticsManager"
++ "_coreAnalyticsCallback"
++ "_debug"
++ "_fwDebouncedButtonReleasedDuringMitigation"
++ "_preventedFalseReleaseForThisDelay"
++ "absoluteDistanceTravelledX"
++ "absoluteDistanceTravelledY"
++ "addEntriesFromDictionary:"
++ "alwaysReport"
++ "analyticsManager"
++ "boolForKey:"
++ "clients"
++ "com.apple.Multitouch."
++ "com.apple.Multitouch.Analytics"
++ "com.apple.Multitouch.Analytics.debug"
++ "com.apple.Multitouch.DailyPointerUsageStats"
++ "com.apple.Multitouch.GranularGesture"
++ "com.apple.Multitouch.GranularGesture."
++ "com.apple.Multitouch.PointerActivityStats"
++ "com.apple.Multitouch.SessionFilter"
++ "com.apple.trackpad.dragReleaseDelay"
++ "com.apple.windowserver"
++ "dispatchAnalyticsEventWithName:payload:"
++ "dockSwipeStarted"
++ "domainKey"
++ "emittedThisWindow"
++ "endCondition"
++ "fwDebouncedButtonReleasedDuringMitigation"
++ "gestureType"
++ "handleDebugDisableGranularEventLimit:"
++ "handleDebugReportingPeriodOverride:"
++ "handleWithHidEvent:"
++ "init(gestureType:maxEventsPerWindow:start:end:)"
++ "initWithBool:"
++ "initWithConfig:actuationHandler:coreAnalyticsCallback:builtIn:supportsForce:supportsDeepPress:"
++ "initWithCoreAnalyticsCallback:"
++ "initWithDictionary:copyItems:"
++ "initWithDouble:"
++ "initWithLog:deviceIdentifier:deviceType:builtIn:callback:"
++ "initWithQueue:deviceType:log:"
++ "initWithSuiteName:"
++ "interval"
++ "isRunning"
++ "isTornDown"
++ "label"
++ "lastEmit"
++ "lastReported"
++ "lastTimestamp"
++ "maxEventsPerWindow"
++ "maxInstantaneousForce"
++ "maxTouchingPaths"
++ "minEmitInterval"
++ "nextFireDate"
++ "notificationCenterEdgeSwipes"
++ "oneFingerSecondaryClicks"
++ "pending"
++ "preferencesInstance"
++ "preventedFalseReleaseForThisDelay"
++ "primaryTapClicks"
++ "queueGroup"
++ "reporter"
++ "reportingPeriod"
++ "scheduledReport"
++ "scheduler"
++ "secondaryTapClicks"
++ "serialize:error:"
++ "setAnalyticsManager:"
++ "setDebugGranularEventLimitsDisabled:log:"
++ "setDebugReportingPeriod:log:"
++ "setDeviceType:"
++ "setFwDebouncedButtonReleasedDuringMitigation:"
++ "setPreventedFalseReleaseForThisDelay:"
++ "setupAnalyticsManager"
++ "startCondition"
++ "startupDelay"
++ "toDictionary"
++ "twoFingerSecondaryClicks"
++ "v28@0:8B16@20"
++ "v32@0:8d16@24"
++ "windowStart"
++ "\xf0\xd2A"
+- "10400.44"
+- "@44@0:8@16@?24B32B36B40"
+- "DefaultMultitouchProperties"
+- "Setting up async IO queue"
+- "initWithConfig:actuationHandler:builtIn:supportsForce:supportsDeepPress:"
+- "\xf0\xd1A"
+```

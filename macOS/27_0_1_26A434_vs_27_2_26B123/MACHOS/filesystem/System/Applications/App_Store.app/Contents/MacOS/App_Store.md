@@ -1,0 +1,550 @@
+## App Store
+
+> `/System/Applications/App Store.app/Contents/MacOS/App Store`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_mpenum`
+- `__TEXT.__swift5_entry`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_catlist2`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+
+```diff
+
+-27.0.75.0.0
+-  __TEXT.__text: 0x46b408
+-  __TEXT.__auth_stubs: 0xf980
+-  __TEXT.__objc_stubs: 0x8660
+-  __TEXT.__objc_methlist: 0x640c
+-  __TEXT.__objc_classname: 0x6138
+-  __TEXT.__objc_methname: 0x14e45
+-  __TEXT.__cstring: 0x90fb
+-  __TEXT.__objc_methtype: 0x519b
+-  __TEXT.__const: 0x20844
+-  __TEXT.__constg_swiftt: 0x104e4
+-  __TEXT.__swift5_typeref: 0xb114
+-  __TEXT.__swift5_fieldmd: 0xa5dc
++27.1.24.0.0
++  __TEXT.__text: 0x469eb4
++  __TEXT.__auth_stubs: 0xfa90
++  __TEXT.__objc_stubs: 0x8620
++  __TEXT.__objc_methlist: 0x646c
++  __TEXT.__objc_classname: 0x62e8
++  __TEXT.__objc_methname: 0x14f95
++  __TEXT.__cstring: 0x933b
++  __TEXT.__objc_methtype: 0x513b
++  __TEXT.__const: 0x21744
++  __TEXT.__constg_swiftt: 0x10b30
++  __TEXT.__swift5_typeref: 0xb4bc
++  __TEXT.__swift5_fieldmd: 0xa8b4
+   __TEXT.__swift5_builtin: 0x30c
+-  __TEXT.__swift5_reflstr: 0xc38c
+-  __TEXT.__swift5_assocty: 0x18c8
++  __TEXT.__swift5_reflstr: 0xc5ec
++  __TEXT.__swift5_assocty: 0x19e8
+   __TEXT.__swift5_protos: 0x158
+-  __TEXT.__swift5_proto: 0x1458
+-  __TEXT.__swift5_types: 0xa98
+-  __TEXT.__swift5_capture: 0x4c48
+-  __TEXT.__swift_as_entry: 0xf4
+-  __TEXT.__swift_as_ret: 0xb8
+-  __TEXT.__swift_as_cont: 0x10c
++  __TEXT.__swift5_proto: 0x14bc
++  __TEXT.__swift5_types: 0xadc
++  __TEXT.__swift5_capture: 0x4c3c
++  __TEXT.__swift_as_entry: 0x130
++  __TEXT.__swift_as_ret: 0xdc
++  __TEXT.__swift_as_cont: 0x12c
+   __TEXT.__oslogstring: 0x85
+   __TEXT.__swift5_mpenum: 0x10
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__unwind_info: 0xe940
+-  __TEXT.__eh_frame: 0x1f54
+-  __DATA_CONST.__const: 0x13eb0
++  __TEXT.__unwind_info: 0xed00
++  __TEXT.__eh_frame: 0x2270
++  __DATA_CONST.__const: 0x14490
+   __DATA_CONST.__cfstring: 0x380
+-  __DATA_CONST.__objc_classlist: 0x6e0
++  __DATA_CONST.__objc_classlist: 0x700
+   __DATA_CONST.__objc_catlist: 0x28
+   __DATA_CONST.__objc_catlist2: 0x38
+   __DATA_CONST.__objc_protolist: 0x340
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x1b0
+   __DATA_CONST.__objc_superrefs: 0x10
+-  __DATA_CONST.__auth_got: 0x7cc8
+-  __DATA_CONST.__got: 0x37d8
+-  __DATA_CONST.__auth_ptr: 0x5088
+-  __DATA.__objc_const: 0x43e80
+-  __DATA.__objc_selrefs: 0x3770
++  __DATA_CONST.__auth_got: 0x7d50
++  __DATA_CONST.__got: 0x37c8
++  __DATA_CONST.__auth_ptr: 0x51f8
++  __DATA.__objc_const: 0x44338
++  __DATA.__objc_selrefs: 0x3760
+   __DATA.__objc_ivar: 0x8
+-  __DATA.__objc_data: 0x19c20
+-  __DATA.__data: 0x19ec0
+-  __DATA.__objc_stublist: 0x658
+-  __DATA.__bss: 0x20388
+-  __DATA.__common: 0x4c78
++  __DATA.__objc_data: 0x19e18
++  __DATA.__data: 0x1a300
++  __DATA.__objc_stublist: 0x668
++  __DATA.__bss: 0x21038
++  __DATA.__common: 0x4c38
+   - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+   - /System/Library/Frameworks/AVKit.framework/Versions/A/AVKit
+   - /System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+
+   - /System/Library/PrivateFrameworks/AskPermission.framework/Versions/A/AskPermission
+   - /System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/AuthKit
+   - /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/CommerceKit
+-  - /System/Library/PrivateFrameworks/FamilyCircle.framework/Versions/A/FamilyCircle
+-  - /System/Library/PrivateFrameworks/FamilyCircleUI.framework/Versions/A/FamilyCircleUI
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/Versions/A/FeatureFlags
+   - /System/Library/PrivateFrameworks/GameCenterUI.framework/Versions/A/GameCenterUI
+   - /System/Library/PrivateFrameworks/JetEngine.framework/Versions/A/JetEngine
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 17490
+-  Symbols:   6893
+-  CStrings:  4916
++  Functions: 17752
++  Symbols:   6936
++  CStrings:  4943
+ 
+Symbols:
++ _$s10AppIntents0A11IntentErrorV13UnrecoverableO14entityNotFoundACvgZ
++ _$s10AppIntents0A11IntentErrorV13UnrecoverableO7unknownACvgZ
++ _$s10AppIntents0A11IntentErrorVMa
++ _$s10AppIntents0A11IntentErrorVs0D0AAMc
++ _$s10AppIntents13IndexedEntityMp
++ _$s10AppIntents13IndexedEntityP12attributeSetSo025CSSearchableItemAttributeF0CvgTq
++ _$s10AppIntents13IndexedEntityP15hideInSpotlightSbvgTq
++ _$s10AppIntents13IndexedEntityPAA0aD0Tb
++ _$s10AppIntents13IndexedEntityPAAE12attributeSetSo025CSSearchableItemAttributeF0Cvg
++ _$s10AppIntents13IndexedEntityPAAE15hideInSpotlightSbvg
++ _$s10AppIntents14EntityPropertyCAA10Foundation3URLV9ValueTypeRtzrlE5titleACyxGAD23LocalizedStringResourceV_tcfC
++ _$s10AppIntents14EntityPropertyCAASS9ValueTypeRtzrlEACyxGycfC
++ _$s10AppIntents14EntityPropertyCAASd9ValueTypeRtzrlE5titleACyxG10Foundation23LocalizedStringResourceV_tcfC
++ _$s10AppIntents14EntityPropertyCAASi9ValueTypeRtzrlE5titleACyxG10Foundation23LocalizedStringResourceV_tcfC
++ _$s10AppIntents14SyncableEntityMp
++ _$s10AppIntents14SyncableEntityPAA0aD0Tb
++ _$s10AppIntents15AssistantEntityMp
++ _$s10AppIntents15AssistantEntityPAA0aD0Tb
++ _$s10AppIntents15IntentParameterCA2A0A6Entity9ValueTypeRpzrlE11description7default07requestF6Dialog0j14DisambiguationK023inputConnectionBehaviorACyxG10Foundation23LocalizedStringResourceVSg_09UnwrappedG0QzSgAA0cK0VSgAvA05InputnO0OYttcfC
++ _$s10AppIntents21AssistantSchemaEntityMp
++ _$s10AppIntents21AssistantSchemaEntityP02isC4OnlySbvgZTq
++ _$s10AppIntents21AssistantSchemaEntityPAA0cE0Tb
++ _$s10AppIntents21AssistantSchemaEntityPAAE02isC4OnlySbvgZ
++ _$s10AppIntents21AssistantSchemaEntityPAAE25typeDisplayRepresentationAA04TypegH0VvgZ
++ _$s10Foundation4DateV2geoiySbAC_ACtFZ
++ _$s10Foundation4DateV2leoiySbAC_ACtFZ
++ _$s10Foundation4UUIDV19_bridgeToObjectiveCSo6NSUUIDCyF
++ _$s10NSViewType7SwiftUI0A13RepresentablePTl
++ _$s11AppStoreKit12ActionLayoutV7MetricsV11artworkSize010maxArtworkH00G6Margin09labelWithj7LeadingK009accessoryK00L10FontSource0l8VerticalK0017searchAdButtonTopK00stunK028shouldLabelFitAvailableWidthAeA11ConditionalVy5JetUI19JetTraitEnvironment_pSo6CGSizeVG_AVSgAR12AnyDimension_pArX_pArX_pAR0pQ0OArX_pArX_pArX_pSbtcfC
++ _$s11AppStoreKit12CarouselViewV11currentPage9pageWidth21interactionAreaInsets0H5Count0H7ContentACyxG7SwiftUI7BindingVySiG_12CoreGraphics7CGFloatVAJ04EdgeL0VSixSictcfC
++ _$s11AppStoreKit12CarouselViewVMn
++ _$s11AppStoreKit12CarouselViewVyxG7SwiftUI0E0AAMc
++ _$s11AppStoreKit12PlayableViewP16playbackPriorityAA08PlaybackG0OvgTq
++ _$s11AppStoreKit12PlayableViewPAAE16playbackPriorityAA08PlaybackG0Ovg
++ _$s11AppStoreKit13ArtworkLoaderC10cacheLimit12renderIntent10urlSession24windowResizeStateMonitorACSi_So014ASKImageRenderI0VAA0dE10URLSessionCAA06WindowmnO0CSgtcfC
++ _$s11AppStoreKit13TaskThrottlerC6runNow9isolation_yScA_pSgYi_yyYaYbctF
++ _$s11AppStoreKit13TaskThrottlerC8intervalACs8DurationV_tcfc
++ _$s11AppStoreKit13TaskThrottlerC8schedule9isolation_yScA_pSgYi_yyYaYbctF
++ _$s11AppStoreKit13TaskThrottlerCMa
++ _$s11AppStoreKit13TaskThrottlerCMn
++ _$s11AppStoreKit15UpdateAllActionC2id8ordering5title13actionMetricsACs11AnyHashableVSg_SayAA6AdamIdV04adamO0_SS06bundleO0tGSgSSSg9JetEngine0fK0Vtcfc
++ _$s11AppStoreKit16PageGridProviderPAAE08resolvedE9Direction3for13containerSize14safeAreaInsets11environmentAA0dE0V0H0O9JetEngine12ReadOnlyLensVyAA5ShelfCG_So6CGSizeVSo06NSEdgeN0VAA0D11EnvironmentVtF
++ _$s11AppStoreKit16PlaybackPriorityO7defaultyA2CmFWC
++ _$s11AppStoreKit16PlaybackPriorityOMa
++ _$s11AppStoreKit16ProductMediaItemC11aspectRatio5JetUI06AspectH0VSgvgTj
++ _$s11AppStoreKit17LockupMediaLayoutV7MetricsV16interItemSpacing11displayType16mediaAspectRatio08boundingnO023allowsVerticalCentering013hugsLandscapeE0AE5JetUI12AnyDimension_p_AC07DisplayL0OAL0nO0VAQSgS2btcfC
++ _$s11AppStoreKit17VideoViewProtocolP15prepareForReuseyyFTq
++ _$s11AppStoreKit17VideoViewProtocolPAAE16playbackPriorityAA08PlaybackH0Ovg
++ _$s11AppStoreKit18ShelfLayoutContextV19layoutConfigurationAA0D0C0eH0VSgvg
++ _$s11AppStoreKit18VideoConfigurationV8fillMode11aspectRatio16playbackControls016autoPlayPlaybackK003canM10FullScreen010allowsAutoM07looping14roundedCorners24deviceCornerRadiusFactor28ignoresSafeAreaForVisibility0J8PriorityAcA0d4FillG0O_5JetUI06AspectI0VSgAA0dK0VAVS4bSdSgSbAA0N8PriorityOtcfC
++ _$s11AppStoreKit19LegacyClickableViewC12clickHandleryycSgvgTj
++ _$s11AppStoreKit19LegacyClickableViewC12clickHandleryycSgvsTj
++ _$s11AppStoreKit19LegacyClickableViewC12performClickyyypSgFTj
++ _$s11AppStoreKit19LegacyClickableViewC13isHighlightedSbvgTj
++ _$s11AppStoreKit19LegacyClickableViewC13isHighlightedSbvsTj
++ _$s11AppStoreKit19LegacyClickableViewC14didChangeStateyyFTq
++ _$s11AppStoreKit19LegacyClickableViewC14trackingBoundsSo6CGRectVvgTq
++ _$s11AppStoreKit19LegacyClickableViewC15isTrackingMouseSbvgTj
++ _$s11AppStoreKit19LegacyClickableViewC19cancelEventTrackingyyFTj
++ _$s11AppStoreKit19LegacyClickableViewC24isUserInteractionEnabledSbvMTq
++ _$s11AppStoreKit19LegacyClickableViewC24isUserInteractionEnabledSbvgTq
++ _$s11AppStoreKit19LegacyClickableViewC24isUserInteractionEnabledSbvsTj
++ _$s11AppStoreKit19LegacyClickableViewC24isUserInteractionEnabledSbvsTq
++ _$s11AppStoreKit19LegacyClickableViewC6action10ObjectiveC8SelectorVSgvMTq
++ _$s11AppStoreKit19LegacyClickableViewC6action10ObjectiveC8SelectorVSgvgTj
++ _$s11AppStoreKit19LegacyClickableViewC6action10ObjectiveC8SelectorVSgvgTq
++ _$s11AppStoreKit19LegacyClickableViewC6action10ObjectiveC8SelectorVSgvsTj
++ _$s11AppStoreKit19LegacyClickableViewC6action10ObjectiveC8SelectorVSgvsTq
++ _$s11AppStoreKit19LegacyClickableViewC6targetyXlSgvMTq
++ _$s11AppStoreKit19LegacyClickableViewC6targetyXlSgvgTq
++ _$s11AppStoreKit19LegacyClickableViewC6targetyXlSgvsTj
++ _$s11AppStoreKit19LegacyClickableViewC6targetyXlSgvsTq
++ _$s11AppStoreKit19LegacyClickableViewC9isEnabledSbvgTj
++ _$s11AppStoreKit19LegacyClickableViewC9isEnabledSbvsTj
++ _$s11AppStoreKit19LegacyClickableViewCMa
++ _$s11AppStoreKit19LegacyClickableViewCMn
++ _$s11AppStoreKit19LegacyClickableViewCMu
++ _$s11AppStoreKit21CarouselViewConstantsO26minimumDragGestureDistance12CoreGraphics7CGFloatVvgZ
++ _$s11AppStoreKit21FlowAnimationBehaviorO6alwaysyA2CmFWC
++ _$s11AppStoreKit23AutoScrollConfigurationV04autoE12RestartDelaySdvg
++ _$s11AppStoreKit23OfferConfirmationActionC03buyF0AA0F0Cvg
++ _$s11AppStoreKit23OfferConfirmationActionCMa
++ _$s11AppStoreKit23SmallSearchLockupLayoutV7metrics11artworkView11headingText05titleL008subtitleL0013tertiaryTitleL005offerL00Q6Button010userRatingJ016ratingCountLabel013editorsChoiceJ002adR011description15includesRatings014metadataRibbonJ0016searchTagsRibbonJ022includesMetadataRibbon08includesE10TagsRibbon029includesMetadataInformationInF00Z9BadgeSizeA2C7MetricsV_5JetUI0gJ0_pAZ0glJ0_pSgAZA0__pAZA0__pA1_A1_AZA__pAZA__pSgA1_A2_A2_AZA0__pSbA2_A2_S3bAA11AdBadgeSizeOtcfC
++ _$s11AppStoreKit23TitledButtonStackLayoutV7MetricsV12buttonHeight24horizontalInterItemSpace08verticallmN007maximumE5Width16isLeadingAligned37stacksVerticallyForAccessibilitySizesAE5JetUI12AnyDimension_p_AlM_pAlM_pAlM_pSgS2btcfC
++ _$s11AppStoreKit23TitledButtonStackLayoutV7metrics5items10lineBreaks11columnCountA2C7MetricsV_Say5JetUI0G4View_pGAA11ConditionalVyAJ0O16TraitEnvironment_p10Foundation8IndexSetVGSgSiSgtcfC
++ _$s11AppStoreKit24StorefrontLanguageOptionV11countryNameSSvg
++ _$s11AppStoreKit24StorefrontLanguageOptionV12languageNameSSvg
++ _$s11AppStoreKit24StorefrontLanguageOptionVMa
++ _$s11AppStoreKit24StorefrontLanguageOptionVMn
++ _$s11AppStoreKit26ShelfLayoutSpacingProviderPAAE13bottomPadding2in5JetUI12AnyDimension_pAA0dE7ContextV_tF
++ _$s11AppStoreKit29StorefrontPickerPagePresenterC10allOptionsSayAA0D14LanguageOptionVGvgZ
++ _$s11AppStoreKit29StorefrontPickerPagePresenterC16optionsByCountrySaySS7country_SayAA0D14LanguageOptionVG0H0tGvgZ
++ _$s11AppStoreKit29StorefrontPickerPagePresenterC9didSelectyyAA0D14LanguageOptionVFTj
++ _$s11AppStoreKit31ProductMediaGalleryDiffablePageC8pageDataAcA0defhJ0V_tcfC
++ _$s11AppStoreKit31ProductMediaGalleryDiffablePageCMa
++ _$s11AppStoreKit31ProductMediaGalleryDiffablePageCMn
++ _$s11AppStoreKit40ProductMediaGalleryDiffablePagePresenterC11objectGraph010sidePackedH0AC9JetEngine010BaseObjectK0C_AA0defgH0Ctcfc
++ _$s11AppStoreKit40ProductMediaGalleryDiffablePagePresenterC11offerActionAA0K0CSgvg
++ _$s11AppStoreKit40ProductMediaGalleryDiffablePagePresenterC12initialIndexSivg
++ _$s11AppStoreKit40ProductMediaGalleryDiffablePagePresenterC22offerDisplayPropertiesAA05OfferkL0CSgvg
++ _$s11AppStoreKit40ProductMediaGalleryDiffablePagePresenterC5titleSSSgvg
++ _$s11AppStoreKit40ProductMediaGalleryDiffablePagePresenterC6lockupAA6LockupCSgvg
++ _$s11AppStoreKit40ProductMediaGalleryDiffablePagePresenterCMa
++ _$s11AppStoreKit40ProductMediaGalleryDiffablePagePresenterCMn
++ _$s11AppStoreKit44ChartOrCategoryBrickCollectionViewCellLayoutV7context09badgeTextI005titlenI007artworkI017textExclusionRect010useChicletI0AcA0defG7ContextV_5JetUI0knI0_pSgAnL0kI0_pSgSo6CGRectVSgSbtcfC
++ _$s11AppStoreKit5ShelfC19LayoutConfigurationV13rowsPerColumnSiSgvg
++ _$s11AppStoreKit5ShelfC19LayoutConfigurationVMa
++ _$s11AppStoreKit5ShelfC19LayoutConfigurationVMn
++ _$s11AppStoreKit7ArtworkC6config5using14compatibleWithAA0D12LoaderConfigCSo6CGSizeV_So17JUTraitCollectionCSgtF
++ _$s11AppStoreKit7ArtworkC6config5using16cropCodeOverride19prefersLayeredImage14compatibleWithAA0D12LoaderConfigCSo6CGSizeV_AC4CropVSgSbSo17JUTraitCollectionCSgtF
++ _$s11AppStoreKit7ArtworkC6config_4mode19prefersLayeredImage14compatibleWithAA0D12LoaderConfigCSo6CGSizeV_AC11ContentModeOSbSo17JUTraitCollectionCSgtF
++ _$s11AppStoreKit7FeatureO5macOSO25hero_carousel_swiftui_27ByA2EmFWC
++ _$s11AppStoreKit7FeatureO5macOSO37shelves_2_0_product_media_gallery_27ByA2EmFWC
++ _$s11AppStoreKit8BaseViewC16drawsBorderLayerSbvgTq
++ _$s11AppStoreKit8PageGridV10BreakpointV5range11columnWidth16interColumnSpace0j3RowL017horizontalMarginsAESny12CoreGraphics7CGFloatVG_AC16DirectionalValueVy_AMGA2qC010HorizontalO0OtcfC
++ _$s11AppStoreKit9ParagraphC23suppressVerticalMarginsSbvg
++ _$s11Coordinator7SwiftUI19NSViewRepresentablePTl
++ _$s12CoreGraphics7CGFloatV11AppStoreKit14InterpolatableADMc
++ _$s12CoreGraphics7CGFloatV5JetUI12AnyDimensionADMc
++ _$s31AppleMediaServicesUIKitInternal27AMSUIKitAccountHubConstantsV13contentHeight12CoreGraphics7CGFloatVvgZ
++ _$s7SwiftUI11TransactionV18disablesAnimationsSbvs
++ _$s7SwiftUI12_FrameLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI12_FrameLayoutVN
++ _$s7SwiftUI14FillShapeStyleVAA0dE0AAMc
++ _$s7SwiftUI15withTransactionyxAA0D0V_xyKXEtKlF
++ _$s7SwiftUI16_FlexFrameLayoutVAA12ViewModifierAAMc
++ _$s7SwiftUI16_FlexFrameLayoutVN
++ _$s7SwiftUI19NSViewRepresentableMp
++ _$s7SwiftUI19NSViewRepresentableP04makeC07context0C4TypeQzAA0cD7ContextVyxG_tFTq
++ _$s7SwiftUI19NSViewRepresentableP06_resetC0_11coordinator7destroyy0C4TypeQz_11CoordinatorQzyyXEtFTq
++ _$s7SwiftUI19NSViewRepresentableP06updateC0_7contexty0C4TypeQz_AA0cD7ContextVyxGtFTq
++ _$s7SwiftUI19NSViewRepresentableP09dismantleC0_11coordinatory0C4TypeQz_11CoordinatorQztFZTq
++ _$s7SwiftUI19NSViewRepresentableP12sizeThatFits_6nsView7contextSo6CGSizeVSgAA08ProposedI4SizeV_0C4TypeQzAA0cD7ContextVyxGtFTq
++ _$s7SwiftUI19NSViewRepresentableP14_layoutOptionsyAA013_PlatformViewd6LayoutF0V0C4TypeQzFZTq
++ _$s7SwiftUI19NSViewRepresentableP15makeCoordinator0F0QzyFTq
++ _$s7SwiftUI19NSViewRepresentableP19_identifiedViewTree2inAA011_IdentifiedfG0O0C4TypeQz_tFTq
++ _$s7SwiftUI19NSViewRepresentableP21_overrideLayoutTraits_3foryAA01_fG0Vz_0C4TypeQztFTq
++ _$s7SwiftUI19NSViewRepresentableP21_overrideSizeThatFits_2in6nsViewySo6CGSizeVz_AA09_ProposedF0V0C4TypeQztFTq
++ _$s7SwiftUI19NSViewRepresentableP24_modifyBridgedViewInputsyyAA01_gH0VzFZTq
++ _$s7SwiftUI19NSViewRepresentableP35_invalidatesSizeOnConstraintChangesSbvgZTq
++ _$s7SwiftUI19NSViewRepresentablePAA4ViewTb
++ _$s7SwiftUI19NSViewRepresentablePAAE06_resetC0_11coordinator7destroyy0C4TypeQz_11CoordinatorQzyyXEtF
++ _$s7SwiftUI19NSViewRepresentablePAAE09dismantleC0_11coordinatory0C4TypeQz_11CoordinatorQztFZ
++ _$s7SwiftUI19NSViewRepresentablePAAE12sizeThatFits_6nsView7contextSo6CGSizeVSgAA08ProposedI4SizeV_0C4TypeQzAA0cD7ContextVyxGtF
++ _$s7SwiftUI19NSViewRepresentablePAAE13_makeViewList4view6inputsAA01_fG7OutputsVAA11_GraphValueVyxG_AA01_fG6InputsVtFZ
++ _$s7SwiftUI19NSViewRepresentablePAAE14_layoutOptionsyAA013_PlatformViewd6LayoutF0V0C4TypeQzFZ
++ _$s7SwiftUI19NSViewRepresentablePAAE19_identifiedViewTree2inAA011_IdentifiedfG0O0C4TypeQz_tF
++ _$s7SwiftUI19NSViewRepresentablePAAE21_overrideLayoutTraits_3foryAA01_fG0Vz_0C4TypeQztF
++ _$s7SwiftUI19NSViewRepresentablePAAE21_overrideSizeThatFits_2in6nsViewySo6CGSizeVz_AA09_ProposedF0V0C4TypeQztF
++ _$s7SwiftUI19NSViewRepresentablePAAE24_modifyBridgedViewInputsyyAA01_gH0VzFZ
++ _$s7SwiftUI19NSViewRepresentablePAAE35_invalidatesSizeOnConstraintChangesSbvgZ
++ _$s7SwiftUI19NSViewRepresentablePAAE4bodys5NeverOvg
++ _$s7SwiftUI19NSViewRepresentablePAAE9_makeView4view6inputsAA01_F7OutputsVAA11_GraphValueVyxG_AA01_F6InputsVtFZ
++ _$s7SwiftUI19NSViewRepresentablePAAyt11CoordinatorRtzrlE04makeE0yyF
++ _$s7SwiftUI4TextVAA4ViewAAMc
++ _$s7SwiftUI4ViewPAAE24onScrollVisibilityChange9threshold_QrSd_ySbctF
++ _$s7SwiftUI4ViewPAAE24onScrollVisibilityChange9threshold_QrSd_ySbctFQOMQ
++ _$s7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lF
++ _$s7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOMQ
++ _$s7SwiftUI5ColorVAA10ShapeStyleAAMc
++ _$s7SwiftUI5ImageVAA4ViewAAMc
++ _$s7SwiftUI5ImageVN
++ _$s7SwiftUI5StateV12wrappedValuexvg
++ _$s7SwiftUI6IDViewVMn
++ _$s7SwiftUI6IDViewVyxq_GAA4ViewAAMc
++ _$s7SwiftUI7BindingV13dynamicMemberACyqd__Gs15WritableKeyPathCyxqd__G_tcluig
++ _$sSJ8isNumberSbvg
++ _$sSS8IteratorV4nextSJSgyF
++ _$sSiSQsWP
++ _$ss5NeverO7SwiftUI4ViewACMc
++ _$ss8DurationV7secondsyABSdFZ
++ _OBJC_CLASS_$_NSCursor
++ _OBJC_CLASS_$_NSTouch
++ _OBJC_METACLASS_$_NSPanGestureRecognizer
++ _OBJC_METACLASS_$__TtC11AppStoreKit19LegacyClickableView
++ _hypot
+- _$s10AppIntents15_SyncableEntityMp
+- _$s10AppIntents15_SyncableEntityPAA0aD0Tb
+- _$s10Foundation20PersonNameComponentsV05givenC0SSSgvs
+- _$s10Foundation20PersonNameComponentsV06familyC0SSSgvs
+- _$s10Foundation20PersonNameComponentsV19_bridgeToObjectiveCSo08NSPersoncD0CyF
+- _$s10Foundation20PersonNameComponentsVACycfC
+- _$s10Foundation20PersonNameComponentsVMa
+- _$s10Foundation4DataVN
+- _$s10Foundation4DateVSLAAMc
+- _$s11AppStoreKit11ImageButtonC11clickActionAA0G0CSgvgTj
+- _$s11AppStoreKit12ActionLayoutV7MetricsV11artworkSize010maxArtworkH00G6Margin0g7LeadingK009labelWithjlK009accessoryK00M10FontSource0m8VerticalK0017searchAdButtonTopK00stulK028shouldLabelFitAvailableWidthAeA11ConditionalVy5JetUI19JetTraitEnvironment_pSo6CGSizeVG_AWSgAS12AnyDimension_pAsY_pAsY_pAsY_pAS0pQ0OAsY_pAsY_pAsY_pSbtcfC
+- _$s11AppStoreKit12RestrictionsC16DidChangeMessageV4nameSo18NSNotificationNameavgZ
+- _$s11AppStoreKit13ArtworkLoaderC10cacheLimit12renderIntent10urlSessionACSi_So014ASKImageRenderI0VAA0dE10URLSessionCtcfC
+- _$s11AppStoreKit13ClickableViewC12clickHandleryycSgvgTj
+- _$s11AppStoreKit13ClickableViewC12clickHandleryycSgvsTj
+- _$s11AppStoreKit13ClickableViewC13isHighlightedSbvgTj
+- _$s11AppStoreKit13ClickableViewC13isHighlightedSbvsTj
+- _$s11AppStoreKit13ClickableViewC14trackingBoundsSo6CGRectVvgTq
+- _$s11AppStoreKit13ClickableViewC24isUserInteractionEnabledSbvMTq
+- _$s11AppStoreKit13ClickableViewC24isUserInteractionEnabledSbvgTq
+- _$s11AppStoreKit13ClickableViewC24isUserInteractionEnabledSbvsTj
+- _$s11AppStoreKit13ClickableViewC24isUserInteractionEnabledSbvsTq
+- _$s11AppStoreKit13ClickableViewC6action10ObjectiveC8SelectorVSgvMTq
+- _$s11AppStoreKit13ClickableViewC6action10ObjectiveC8SelectorVSgvgTj
+- _$s11AppStoreKit13ClickableViewC6action10ObjectiveC8SelectorVSgvgTq
+- _$s11AppStoreKit13ClickableViewC6action10ObjectiveC8SelectorVSgvsTq
+- _$s11AppStoreKit13ClickableViewC6targetyXlSgvMTq
+- _$s11AppStoreKit13ClickableViewC6targetyXlSgvgTq
+- _$s11AppStoreKit13ClickableViewC6targetyXlSgvsTq
+- _$s11AppStoreKit15UpdateAllActionC8ordering13actionMetricsACSayAA6AdamIdV04adamK0_SS06bundleK0tGSg_9JetEngine0fI0Vtcfc
+- _$s11AppStoreKit17LockupMediaLayoutV7MetricsV16interItemSpacing11displayType16mediaAspectRatio08boundingnO023allowsVerticalCenteringAE5JetUI12AnyDimension_p_AC07DisplayL0OAK0nO0VAPSgSbtcfC
+- _$s11AppStoreKit17TitleHeaderLayoutV28AccessoryHorizontalAlignmentO07followsD0yA2EmFWC
+- _$s11AppStoreKit18VideoConfigurationV8fillMode11aspectRatio16playbackControls016autoPlayPlaybackK003canM10FullScreen010allowsAutoM07looping14roundedCorners24deviceCornerRadiusFactor28ignoresSafeAreaForVisibilityAcA0d4FillG0O_5JetUI06AspectI0VSgAA0dK0VAUS4bSdSgSbtcfC
+- _$s11AppStoreKit20AccountPagePresenterC05wantsA14AdoptionHeader3forSbSi_tFTj
+- _$s11AppStoreKit20AccountPagePresenterC11objectGraph07accountB018appStateController15purchaseHistory12appleSilicon34gameCenterFriendRequestCoordinator3bagAC9JetEngine010BaseObjectH0C_So09ACAccountB0CAA0aK11Controlling_pAA08PurchaseN8Protocol_pAA05AppleP0CAA04GamerstU0CAA14ASKBagContractCtcfc
+- _$s11AppStoreKit20AccountPagePresenterC12hidePurchase2aty10Foundation9IndexPathV_tFTj
+- _$s11AppStoreKit20AccountPagePresenterC12profileImage3forSo7NSImageCSgSo15AMSFamilyMemberC_tFTj
+- _$s11AppStoreKit20AccountPagePresenterC13HeaderButtonsV5itemsSayAA11ImageButtonCGvg
+- _$s11AppStoreKit20AccountPagePresenterC13HeaderButtonsVMa
+- _$s11AppStoreKit20AccountPagePresenterC13familyMembersSaySo15AMSFamilyMemberCGSgvgTj
+- _$s11AppStoreKit20AccountPagePresenterC13headerButtonsAC06HeaderH0VvgTj
+- _$s11AppStoreKit20AccountPagePresenterC16canHidePurchasesSbvgTj
+- _$s11AppStoreKit20AccountPagePresenterC16hasAdoptableAppsSbvgTj
+- _$s11AppStoreKit20AccountPagePresenterC16hasFamilyMembersSbvgTj
+- _$s11AppStoreKit20AccountPagePresenterC17uninstallPurchase2aty10Foundation9IndexPathV_tFTj
+- _$s11AppStoreKit20AccountPagePresenterC20canUninstallPurchase2atSb10Foundation9IndexPathV_tFTj
+- _$s11AppStoreKit20AccountPagePresenterC20selectedFamilyMemberSo09AMSFamilyI0CSgvgTj
+- _$s11AppStoreKit20AccountPagePresenterC21platformSwitcherTitle3forSSSi_tFTj
+- _$s11AppStoreKit20AccountPagePresenterC21purchasesSectionIndexSiSgvgTj
+- _$s11AppStoreKit20AccountPagePresenterC21selectedPlatformIndexSivgTj
+- _$s11AppStoreKit20AccountPagePresenterC21selectedPlatformIndexSivsTj
+- _$s11AppStoreKit20AccountPagePresenterC21wantsPlatformSwitcher3forSbSi_tFTj
+- _$s11AppStoreKit20AccountPagePresenterC22platformSwitcherLabelsSaySSGvgTj
+- _$s11AppStoreKit20AccountPagePresenterC23wantsFamilyMemberPicker3forSbSi_tFTj
+- _$s11AppStoreKit20AccountPagePresenterC4viewAA0deF4View_pSgvsTj
+- _$s11AppStoreKit20AccountPagePresenterC6select12familyMember6andUseySo09AMSFamilyI0CSg_AA0A16StateControlling_ptFTj
+- _$s11AppStoreKit20AccountPagePresenterC9pageTitleSSvgTj
+- _$s11AppStoreKit20AccountPagePresenterCMa
+- _$s11AppStoreKit20AccountPagePresenterCMn
+- _$s11AppStoreKit20RestrictionsProtocolP31isAccountModificationRestrictedSbvgTj
+- _$s11AppStoreKit23SmallSearchLockupLayoutV7metrics11artworkView11headingText05titleL008subtitleL0013tertiaryTitleL005offerL00Q6Button010userRatingJ016ratingCountLabel013editorsChoiceJ002adR011description15includesRatings014metadataRibbonJ0016searchTagsRibbonJ022includesMetadataRibbon08includesE10TagsRibbon029includesMetadataInformationInF0A2C7MetricsV_5JetUI0gJ0_pAY0glJ0_pSgAYA__pAYA__pA0_A0_AyZ_pAyZ_pSgA0_A1_A1_AYA__pSbA1_A1_S3btcfC
+- _$s11AppStoreKit23TitledButtonStackLayoutV7MetricsV12buttonHeight24horizontalInterItemSpace08verticallmN007maximumE5WidthAE5JetUI12AnyDimension_p_AjK_pAjK_pAjK_pSgtcfC
+- _$s11AppStoreKit23TitledButtonStackLayoutV7metrics5items10lineBreaksA2C7MetricsV_Say5JetUI0G4View_pGAA11ConditionalVyAI0M16TraitEnvironment_p10Foundation8IndexSetVGSgtcfC
+- _$s11AppStoreKit24AccountPagePresenterViewMp
+- _$s11AppStoreKit24AccountPagePresenterViewP05fetchD6Images3forSDySo15AMSFamilyMemberCSo7NSImageCGSayAGG_tFTq
+- _$s11AppStoreKit24AccountPagePresenterViewP19reloadHeaderButtonsyyFTq
+- _$s11AppStoreKit24AccountPagePresenterViewPAA016PurchasesContentfG0Tb
+- _$s11AppStoreKit24AccountPagePresenterViewPAA0a8AdoptionfG0Tb
+- _$s11AppStoreKit25HorizontalAlignmentLayoutV0D7GravityO7leadingyA2EmFWC
+- _$s11AppStoreKit25HorizontalAlignmentLayoutV0D7GravityO8trailingyA2EmFWC
+- _$s11AppStoreKit25HorizontalAlignmentLayoutV0D7GravityOMa
+- _$s11AppStoreKit25HorizontalAlignmentLayoutV12SizingPolicyV6policy8priority13constrainedToA2E8PriorityO_So6CGSizeVSgtFZ
+- _$s11AppStoreKit25HorizontalAlignmentLayoutV12SizingPolicyV8PriorityO7defaultyA2GmFWC
+- _$s11AppStoreKit25HorizontalAlignmentLayoutV12SizingPolicyV8PriorityOMa
+- _$s11AppStoreKit25HorizontalAlignmentLayoutV12SizingPolicyVMa
+- _$s11AppStoreKit25HorizontalAlignmentLayoutV13placeChildren10relativeTo2in5JetUI0F4RectVSo6CGRectV_AG0L16TraitEnvironment_ptF
+- _$s11AppStoreKit25HorizontalAlignmentLayoutV14VerticalAnchorV6anchor5child2atAeC17ChildSourceOffsetO_AC020ContainerDestinationN0OtFZ
+- _$s11AppStoreKit25HorizontalAlignmentLayoutV14VerticalAnchorVMa
+- _$s11AppStoreKit25HorizontalAlignmentLayoutV17ChildSourceOffsetO12lastBaselineyA2EmFWC
+- _$s11AppStoreKit25HorizontalAlignmentLayoutV17ChildSourceOffsetO4minYyA2EmFWC
+- _$s11AppStoreKit25HorizontalAlignmentLayoutV17ChildSourceOffsetOMa
+- _$s11AppStoreKit25HorizontalAlignmentLayoutV26ContainerDestinationOffsetO8absoluteyAE12CoreGraphics7CGFloatV_tcAEmFWC
+- _$s11AppStoreKit25HorizontalAlignmentLayoutV26ContainerDestinationOffsetOMa
+- _$s11AppStoreKit25HorizontalAlignmentLayoutV5ChildV5child4view12leadingSpace08trailingK014verticalAnchor17horizontalGravity12sizingPolicyAE5JetUI0F4View_Xl_AM12AnyDimension_pAmO_pAC08VerticalN0VAC0dP0OAC06SizingR0VtFZ
+- _$s11AppStoreKit25HorizontalAlignmentLayoutV5ChildVMa
+- _$s11AppStoreKit25HorizontalAlignmentLayoutV5ChildVMn
+- _$s11AppStoreKit25HorizontalAlignmentLayoutV8childrenACSayAC5ChildVG_tcfC
+- _$s11AppStoreKit25HorizontalAlignmentLayoutVMa
+- _$s11AppStoreKit29StorefrontPickerPagePresenterC16didSelectCountry2atySi_tFTj
+- _$s11AppStoreKit29StorefrontPickerPagePresenterC17didSelectLanguage2atySi_tFTj
+- _$s11AppStoreKit29StorefrontPickerPagePresenterC17numberOfCountriesSivgTj
+- _$s11AppStoreKit29StorefrontPickerPagePresenterC17numberOfLanguagesSivgTj
+- _$s11AppStoreKit29StorefrontPickerPagePresenterC7country2atSSSi_tFTj
+- _$s11AppStoreKit29StorefrontPickerPagePresenterC8language2at3forSSSgSi_AGtFTj
+- _$s11AppStoreKit44ChartOrCategoryBrickCollectionViewCellLayoutV7context09badgeTextI005titlenI007artworkI017textExclusionRectAcA0defG7ContextV_5JetUI0knI0_pSgAmK0kI0_pSgSo6CGRectVSgtcfC
+- _$s11AppStoreKit7ArtworkC6config5using16cropCodeOverride19prefersLayeredImageAA0D12LoaderConfigCSo6CGSizeV_AC4CropVSgSbtF
+- _$s11AppStoreKit7ArtworkC6config5usingAA0D12LoaderConfigCSo6CGSizeV_tF
+- _$s11AppStoreKit7ArtworkC6config_4mode19prefersLayeredImageAA0D12LoaderConfigCSo6CGSizeV_AC11ContentModeOSbtF
+- _$s11AppStoreKit7FeatureO5macOSO23unified_account_hub_27AyA2EmFWC
+- _$s11AppStoreKit7FeatureO5macOSO29sidecar_refresh_control_2025AyA2EmFWC
+- _$s12CoreGraphics7CGFloatV11AppStoreKit14InterpolatableADWP
+- _$s12CoreGraphics7CGFloatV5JetUI12AnyDimensionADWP
+- _$s31AppleMediaServicesUIKitInternal27AMSUIKitAccountHubConstantsV13defaultHeight12CoreGraphics7CGFloatVvgZ
+- _$s7SwiftUI12_FrameLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI14FillShapeStyleVAA0dE0AAWP
+- _$s7SwiftUI16_FlexFrameLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI4TextVAA4ViewAAWP
+- _$s7SwiftUI5ColorVAA10ShapeStyleAAWP
+- _$s7SwiftUI5ImageVAA4ViewAAWP
+- _$s9JetEngine7AccountV13dynamicMemberxs7KeyPathCySo9ACAccountCxG_tcluig
+- _$s9JetEngine7AccountVMa
+- _$s9JetEngine7AccountVMn
+- _$sSL2geoiySbx_xtFZTj
+- _$sSL2leoiySbx_xtFZTj
+- _$sSo14ACAccountStoreC9JetEngineE13activeAccountAC0F0VSgvg
+- _$sSo17OS_dispatch_groupC8DispatchE4waityyF
+- _$ss17__CocoaDictionaryV12makeIteratorAB0D0CyF
+- _$ss17__CocoaDictionaryV5countSivg
+- _$ss17__CocoaDictionaryV6lookupyyXlSgyXlF
+- _$ss17__CocoaDictionaryV8IteratorC4nextyXl3key_yXl5valuetSgyF
+- _$ss18_DictionaryStorageC7convert_8capacityAByxq_Gs07__CocoaA0V_SitFZ
+- _$ss5NeverO7SwiftUI4ViewACWP
+- _OBJC_CLASS_$_AMSFamilyMember
+- _OBJC_CLASS_$_CNAvatarImageRenderer
+- _OBJC_CLASS_$_CNAvatarImageRenderingScope
+- _OBJC_CLASS_$_FAFamilyMember
+- _OBJC_CLASS_$_FAFetchFamilyCircleRequest
+- _OBJC_CLASS_$_FAProfilePictureStore
+- _OBJC_CLASS_$_NSBehindWindowVibrancyKillingView
+- _OBJC_CLASS_$_NSPersonNameComponentsFormatter
+- _dispatch_group_create
+- _dispatch_group_enter
+- _dispatch_group_leave
+CStrings:
++ "App_Store.HeroCarouselItemHost"
++ "B24@?0@\"NSTouch\"8@\"NSEvent\"16"
++ "Install Application"
++ "InstallApplicationIntent armed install for adamId "
++ "InstallApplicationIntent failed to resolve a navigation controller for adamId "
++ "InstallApplicationIntent failed with nil appDelegate"
++ "InstallApplicationIntent presented the product page but found no ProductDiffablePageViewController for adamId "
++ "InstallApplicationIntent received a non-numeric adamId "
++ "Performing InstallApplicationIntent for adamId "
++ "T@\"NSUUID\",N,R"
++ "The concrete application to install, identified by bundleId, adamId, marketplaceId, and name."
++ "_TtC9App_Store19NotesSharingService"
++ "_TtC9App_Store23HeroCarouselSwiftUIView"
++ "_TtC9App_Store40ProductMediaGalleryLayoutSectionProvider"
++ "_TtC9App_Store41ProductMediaGalleryItemCollectionViewCell"
++ "_TtC9App_Store45ProductMediaGalleryDiffablePageViewController"
++ "_TtC9App_Store45ProductMediaGalleryShelfSupplementaryProvider"
++ "_TtC9App_Store52ProductMediaGalleryShelfComponentTypeMappingProvider"
++ "_TtC9App_StoreP33_600C4EC7C8E1D5169E85C9BA101212B831TouchSwipeBackGestureRecognizer"
++ "_TtC9App_StoreP33_DFD8AF963F2D36DFFC690497B909FB3417CarouselViewModel"
++ "_TtC9App_StoreP33_DFD8AF963F2D36DFFC690497B909FB3420HeroCarouselItemHost"
++ "_currentPage"
++ "_isHidden"
++ "_items"
++ "_offsetForOrthogonalScrollingSection:"
++ "_onPageChange"
++ "_onPageSettled"
++ "_pageHeight"
++ "_pageWidth"
++ "_shouldRecognizeForDelta:"
++ "addLocalMonitorForTouchBegan:"
++ "baseWritingDirection"
++ "com.apple.Notes.SharingExtension"
++ "currentItem"
++ "dismissEventsMonitors"
++ "drawsBorderLayer"
++ "fullRange"
++ "handleTouchSwipe:"
++ "hasScrolledToInitialIndex"
++ "indexPathsForVisibleItems"
++ "installIntentState"
++ "isAutoPaging"
++ "isRestoringPendingAnchor"
++ "isSnappingHorizontalShelves"
++ "isTouchSwipeNavigationEnabled"
++ "lastObservedContainerWidth"
++ "lastShelfSnapSize"
++ "layoutSize"
++ "layoutSubtreeIfNeeded"
++ "legacyDesignGridA"
++ "legacyDesignGridB"
++ "legacyDesignGridC"
++ "legacyDesignGridD"
++ "mediaSection"
++ "mouseDownLocation"
++ "pendingAnchor"
++ "q32@0:8{CGPoint=dd}16"
++ "scheduleAutoScrollWithDelay:"
++ "screenshotDisplayConfiguration"
++ "setAllowsEdgeAntialiasing:"
++ "setParagraphStyle:"
++ "setUsesPredominantAxisScrolling:"
++ "shelfScrollStates"
++ "shouldBeRequiredToFailByGestureRecognizer:"
++ "touchInteractivePop"
++ "touchesBeganWithEvent:"
++ "touchesMatchingPhase:inView:"
++ "updateThrottler"
++ "viewModel"
++ "visibleSupplementaryViewsOfKind:"
+- " on 'PurchasesHeaderView' but it doesn't support it"
+- "$__lazy_storage_$_longPressGestureRecognizer"
+- "App_Store/PurchasesHeaderView.swift"
+- "ShelfCollectionView.longPressGesture"
+- "_TtC9App_Store19PurchasesHeaderView"
+- "_TtC9App_Store22AccountShelfDataSource"
+- "_TtC9App_Store25AccountPageViewController"
+- "_TtCC9App_Store19ShelfCollectionViewP33_DEDA8A7412BCDE05FC726425418A89E928GestureRecognizerCoordinator"
+- "aosui_profilePicture"
+- "artworkDisplaySize"
+- "blurBlockingView"
+- "carouselDelegate"
+- "fetchProfileImagesWithCompletion:"
+- "firstName"
+- "gestureRecognizerCoordinator"
+- "handleLongPress:"
+- "headerButtonViewPool"
+- "headerButtonsStackView"
+- "iCloudDSID"
+- "iTunesDSID"
+- "initWithData:"
+- "initWithFamilyCircle:"
+- "lastName"
+- "localizedStringFromPersonNameComponents:style:options:"
+- "loggedInUserAppStateController"
+- "memberForDSID:"
+- "profilePictureForFamilyMember:pictureDiameter:"
+- "purchaseHeaderTitle"
+- "purchaseTitleLabelView"
+- "removeArrangedSubview:"
+- "renderMonogramForString:scope:imageHandler:"
+- "scopeWithPointSize:scale:rightToLeft:style:"
+- "selectedSegmentChangedClosure"
+- "setCachePolicy:"
+- "setMinimumPressDuration:"
+- "setName:"
+- "startRequestWithCompletionHandler:"
+- "storeAccountsDidChange"
+- "updateAccountViewVisibility"
+- "v16@?0@\"NSImage\"8"
+- "v24@?0@\"FAFamilyCircle\"8@\"NSError\"16"
+- "v24@?0@\"NSDictionary\"8@\"NSError\"16"
+- "widthWhenDisappeared"
+```

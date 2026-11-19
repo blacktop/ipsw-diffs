@@ -1,0 +1,53 @@
+## AskToCore
+
+> `FileSystem/System/Library/PrivateFrameworks/AskToCore.framework/Versions/Current/Resources/Localizable.loctable`
+
+```diff
+
+ en.AskToChatWithName = "Ask to Chat With “%@”"
+ en.AskToChatWithNameOnApp = "Ask to Chat With “%@” on %@"
+ en.AskToCommunicate = "Ask to Communicate"
++en.AskToCommunicateAlertBodyLocalizationKey = "You need permission from a parent or guardian to contact “%@”."
+ en.AskToCommunicateMultiple = "Ask to Communicate With %@ People"
+ en.AskToCommunicateMultipleOnApp = "Ask to Communicate With %@ People on %@"
+ en.AskToCommunicateOnApp = "Ask to Communicate on %@"
+
+ en.AskToVideoChatOnApp = "Ask to Video Call on %@"
+ en.AskToVideoChatWithName = "Ask to Video Call “%@”"
+ en.AskToVideoChatWithNameOnApp = "Ask to Video Call “%@” on %@"
+-en.Communication limits are not enabled = "Communication limits are not enabled"
+-en.Communication limits need to be enabled before you can send messages. = "Communication limits need to be enabled before you can send messages."
+-en.Contact syncing is not set up = "Contact syncing is not set up"
+-en.Contact syncing needs to be configured before you can send messages. = "Contact syncing needs to be configured before you can send messages."
+-en.Family identity is missing = "Family identity is missing"
++en.Communication Limits are not enabled. = "Communication Limits are not enabled."
++en.Communication limits need to be enabled before you can send Communication Limits requests. = "Communication limits need to be enabled before you can send Communication Limits requests."
++en.Contact syncing is not set up. = "Contact syncing is not set up."
++en.Contact syncing needs to be configured before you can send Communication Limits requests. = "Contact syncing needs to be configured before you can send Communication Limits requests."
++en.Family Sharing group information is missing. = "Family Sharing group information is missing."
+ en.Please check your Family Sharing settings. = "Please check your Family Sharing settings."
+-en.Please contact your family organizer to set up your account properly. = "Please contact your family organizer to set up your account properly."
+-en.Please enable communication limits in Screen Time settings. = "Please enable communication limits in Screen Time settings."
++en.Please contact your Family Sharing organizer to set up your account properly. = "Please contact your Family Sharing organizer to set up your account properly."
++en.Please enable Communication Limits in Screen Time settings. = "Please enable Communication Limits in Screen Time settings."
+ en.Please enable contact syncing in Settings. = "Please enable contact syncing in Settings."
+-en.Please ensure the user is in an eligible region. = "Please ensure the user is in an eligible region."
++en.Please ensure you are in an eligible region. = "Please ensure you are in an eligible region."
+ en.RequestFromX = "Request from %@"
+ en.RequestFromYourChild = "Request from Your Child"
++en.SignificantAppUpdateAlertBodyLocalizationKey = "You need your parent or guardian’s approval to continue."
+ en.SignificantChangesSummary = "The developer has made significant changes to “%@”. %@ needs your approval to continue using it."
+ en.SignificantChangesSummaryNoAppName = "The developer has made significant changes to their app. %@ needs your approval to continue using it."
+ en.SignificantChangesSummaryNoAppNameNoRequesterName = "The developer has made significant changes to their app. Your child needs your approval to continue using it."
+ en.SignificantChangesSummaryNoRequesterName = "The developer has made significant changes to “%@”. Your child needs your approval to continue using it."
+-en.The user is in a region that does not support this type of ask. = "The user is in a region that does not support this type of ask."
+-en.The user must be in a supported region to use this feature. = "The user must be in a supported region to use this feature."
+-en.This feature is only available for children and teens = "This feature is only available for children and teens"
++en.The current region does not support this type of ask. = "The current region does not support this type of ask."
++en.This feature is only available for children and teens. = "This feature is only available for children and teens."
++en.You must be in a supported region to use this feature. = "You must be in a supported region to use this feature."
++en.Your Family Sharing group information could not be retrieved. = "Your Family Sharing group information could not be retrieved."
+ en.Your account is not configured as a child or teen account. = "Your account is not configured as a child or teen account."
+-en.Your family identity could not be found. = "Your family identity could not be found."
+
+```

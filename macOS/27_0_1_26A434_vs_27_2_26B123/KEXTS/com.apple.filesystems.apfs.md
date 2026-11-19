@@ -1,0 +1,566 @@
+## com.apple.filesystems.apfs
+
+> `com.apple.filesystems.apfs`
+
+```diff
+
+-3288.1.3.0.0
++3288.41.1.0.0
+   __TEXT.__const: 0xa00
+-  __TEXT.__cstring: 0x54fba
+-  __TEXT_EXEC.__text: 0x166c84
++  __TEXT.__cstring: 0x5537d
++  __TEXT_EXEC.__text: 0x167640
+   __TEXT_EXEC.__auth_stubs: 0x2630
+-  __DATA.__data: 0x75c
+-  __DATA.__bss: 0xb90
++  __DATA.__data: 0x7bc
++  __DATA.__bss: 0xb10
+   __DATA_CONST.__mod_init_func: 0x10
+   __DATA_CONST.__mod_term_func: 0x10
+   __DATA_CONST.__const: 0x9ac0
+
+   __DATA_CONST.__auth_got: 0x1318
+   __DATA_CONST.__got: 0x160
+   __DATA_CONST.__auth_ptr: 0x8
+-  Functions: 2502
+-  Symbols:   4569
+-  CStrings:  7318
++  Functions: 2506
++  Symbols:   4576
++  CStrings:  7332
+ 
+Symbols:
++ __ZZ16container_unloadE21kalloc_type_view_2144
++ __ZZ21delta_teardown_threadPviE22kalloc_type_view_10042
++ __ZZ22apfs_vek_get_aks_stateE21kalloc_type_view_1238
++ __ZZ22apfs_vek_get_aks_stateE21kalloc_type_view_1247
++ __ZZ22apfs_vek_get_aks_stateE21kalloc_type_view_1256
++ __ZZ22apfs_vek_get_aks_stateE21kalloc_type_view_1263
++ __ZZ23apfs_vek_get_sidp_stateE21kalloc_type_view_1298
++ __ZZ23apfs_vek_get_sidp_stateE21kalloc_type_view_1307
++ __ZZ23apfs_vek_get_sidp_stateE21kalloc_type_view_1316
++ __ZZ23apfs_vek_get_sidp_stateE21kalloc_type_view_1324
++ __ZZ28container_load_with_callbackE21kalloc_type_view_1899
++ __ZZ28container_load_with_callbackE21kalloc_type_view_1907
++ __ZZ28container_load_with_callbackE21kalloc_type_view_1910
++ __ZZ28container_load_with_callbackE21kalloc_type_view_1938
++ __ZZ28container_load_with_callbackE21kalloc_type_view_2054
++ __ZZL19free_placeholder_nxP2nxE21kalloc_type_view_1808
++ __ZZL19free_placeholder_nxP2nxE21kalloc_type_view_1810
++ __ZZL20alloc_placeholder_nxP15dev_init_paramsiPvPP2nxE21kalloc_type_view_1743
++ __ZZL20alloc_placeholder_nxP15dev_init_paramsiPvPP2nxE21kalloc_type_view_1750
++ __ZZL20alloc_placeholder_nxP15dev_init_paramsiPvPP2nxE21kalloc_type_view_1785
++ __ZZL23apfs_keycache_operationPKh13apfs_key_typeiPP3cpxbE22kalloc_type_view_13436
++ __ZZL23apfs_keycache_operationPKh13apfs_key_typeiPP3cpxbE22kalloc_type_view_13446
++ __ZZL23apfs_keycache_operationPKh13apfs_key_typeiPP3cpxbE22kalloc_type_view_13468
++ __ZZN15AppleAPFSVolume15asyncCryptoReadEP18AppleAPFSContaineryyPyaybE21kalloc_type_view_8920
++ __ZZN15AppleAPFSVolume15asyncCryptoReadEP18AppleAPFSContaineryyPyaybE21kalloc_type_view_9037
++ __ZZN15AppleAPFSVolume27asyncCryptoReadFinishHelperEP24multikey_crypto_io_entryPyE21kalloc_type_view_9076
++ __ZZN18AppleAPFSContainer16lockerDataGetSetEb9klckr_ctxPhyP4taskE22kalloc_type_view_14910
++ __ZZN18AppleAPFSContainer16lockerDataGetSetEb9klckr_ctxPhyP4taskE22kalloc_type_view_14913
++ __ZZN18AppleAPFSContainer19deltaCreateTeardownEP18delta_create_ctx_tE21kalloc_type_view_7876
++ __ZZN18AppleAPFSContainer20deltaRestoreTeardownEP19delta_restore_ctx_tE21kalloc_type_view_8070
++ __ZZN18AppleAPFSContainer27containerGetKeyLockerRangesEjj9klckr_ctxyPjP20vol_keylocker_rangesE22kalloc_type_view_14731
++ __ZZN18AppleAPFSContainer27containerGetKeyLockerRangesEjj9klckr_ctxyPjP20vol_keylocker_rangesE22kalloc_type_view_14762
++ __ZZN19AppleAPFSUserClient19methodKeyCacheEvictEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_11842
++ __ZZN19AppleAPFSUserClient24methodDeltaCreatePrepareEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_11255
++ __ZZN19AppleAPFSUserClient24methodDeltaCreatePrepareEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_11279
++ __ZZN19AppleAPFSUserClient25methodDeltaRestorePrepareEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_11381
++ __ZZN19AppleAPFSUserClient25methodDeltaRestorePrepareEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_11410
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10701
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10702
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10703
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10709
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10710
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10711
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10776
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10779
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10788
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10791
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10799
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10802
++ __ZZN19AppleAPFSUserClient4stopEP9IOServiceE22kalloc_type_view_10056
++ __ZZN19AppleAPFSUserClient4stopEP9IOServiceE22kalloc_type_view_10066
++ _apfs_set_tmp_checkpoint_protection
++ _apfs_sysctl__vfs_generic_apfs_tmpchkprotected_chain
++ _cp_open_needs_crypto
++ _decrement_dstream_id_for_deletion
++ _fs_add_xattr.kalloc_type_view_23507
++ _fs_add_xattr.kalloc_type_view_23516
++ _fs_add_xattr.kalloc_type_view_23570
++ _fs_add_xattr.kalloc_type_view_23571
++ _g_temp_checkpoint_protected
++ _jcrypto_state_is_missing
++ _reject_hole_on_sealed_volume
++ _spaceman_calculate_free_spaces
++ _sysctl__vfs_generic_apfs_tmpchkprotected
++ apfs_drop_allocated_unwritten_ranges.kalloc_type_view_16907
++ apfs_find_gaps_in_rangelist.kalloc_type_view_12205
++ apfs_flush_allocated_unwritten_ranges.kalloc_type_view_14216
++ apfs_flush_allocated_unwritten_ranges.kalloc_type_view_14308
++ apfs_io_common.kalloc_type_view_18838
++ apfs_io_common.kalloc_type_view_18876
++ apfs_io_common.kalloc_type_view_18887
++ apfs_io_common.kalloc_type_view_18905
++ apfs_io_common.kalloc_type_view_18923
++ apfs_io_common.kalloc_type_view_18943
++ apfs_io_common.kalloc_type_view_18970
++ apfs_io_common.kalloc_type_view_19053
++ apfs_io_common.kalloc_type_view_19085
++ apfs_io_common.kalloc_type_view_19103
++ apfs_io_common.kalloc_type_view_19122
++ apfs_io_common.kalloc_type_view_19135
++ apfs_io_common.kalloc_type_view_19156
++ apfs_io_common.kalloc_type_view_19168
++ apfs_io_common.kalloc_type_view_19175
++ apfs_iodone.kalloc_type_view_18316
++ apfs_iodone.kalloc_type_view_18355
++ apfs_punch_out_ranges_in_fext.kalloc_type_view_21802
++ apfs_punch_out_ranges_in_fext.kalloc_type_view_21809
++ apfs_reallocate_range.kalloc_type_view_2348
++ apfs_reallocate_range.kalloc_type_view_2350
++ apfs_release_io_context.kalloc_type_view_18553
++ apfs_release_io_context.kalloc_type_view_18563
++ apfs_rr_async_read_callback.kalloc_type_view_1350
++ apfs_rr_move_data.kalloc_type_view_1455
++ apfs_rr_move_data.kalloc_type_view_1545
++ apfs_trim_ranges_in_region.kalloc_type_view_17520
++ apfs_update_ranges_on_allocation.kalloc_type_view_17611
++ apfs_update_reserved_ranges.kalloc_type_view_21945
++ apfs_update_reserved_ranges.kalloc_type_view_21950
++ apfs_vnop_blockmap.kalloc_type_view_17961
++ apfs_vnop_blockmap.kalloc_type_view_18249
++ apfs_vnop_getattrlistbulk.kalloc_type_view_19824
++ apfs_vnop_getattrlistbulk.kalloc_type_view_19837
++ apfs_vnop_getattrlistbulk.kalloc_type_view_19894
++ apfs_vnop_getattrlistbulk.kalloc_type_view_19918
++ apfs_vnop_readdir.kalloc_type_view_16533
++ apfs_vnop_readdir.kalloc_type_view_16555
++ apfs_vnop_readdir.kalloc_type_view_16647
++ apfs_vnop_readdir.kalloc_type_view_16657
++ apfs_vnop_readdir.kalloc_type_view_16678
++ arle_alloc_pending_entry.kalloc_type_view_21388
++ bt_merge_up.kalloc_type_view_4602
++ bt_merge_up.kalloc_type_view_4715
++ btree_evict_range.kalloc_type_view_7040
++ btree_evict_range.kalloc_type_view_7047
++ btree_evict_range.kalloc_type_view_7191
++ btree_iterate_nodes.kalloc_type_view_6480
++ btree_iterate_nodes.kalloc_type_view_6629
++ change_crypto_id_prot_class.kalloc_type_view_9820
++ change_crypto_id_prot_class.kalloc_type_view_9886
++ create_new_crypto_state_for_id.kalloc_type_view_7577
++ create_new_crypto_state_for_id.kalloc_type_view_7582
++ create_new_crypto_state_for_id.kalloc_type_view_7602
++ create_sibling_link.kalloc_type_view_11683
++ create_sibling_link.kalloc_type_view_11699
++ dft_alloc.kalloc_type_view_51
++ dft_alloc.kalloc_type_view_56
++ dft_alloc.kalloc_type_view_63
++ dft_alloc.kalloc_type_view_71
++ dft_free.kalloc_type_view_107
++ dir_rec_alloc_with_hash.kalloc_type_view_11318
++ dir_rec_alloc_with_hash.kalloc_type_view_11324
++ dir_rec_alloc_with_hash.kalloc_type_view_11348
++ dump_extents_of_stream.kalloc_type_view_18890
++ ek_to_crypto_state.kalloc_type_view_33003
++ er_state_allocate_roll_buffers.kalloc_type_view_8198
++ er_state_destroy_obj.kalloc_type_view_8837
++ er_state_free_roll_buffers.kalloc_type_view_8160
++ er_state_obj_create_phys_from_previous_version.kalloc_type_view_8240
++ er_state_upgrade_version.kalloc_type_view_8393
++ extent_evict_range.kalloc_type_view_26286
++ extent_evict_range.kalloc_type_view_26386
++ fext_collector.kalloc_type_view_14449
++ fext_collector_cleanup.kalloc_type_view_14412
++ fext_collector_reset.kalloc_type_view_14401
++ free_linkids.kalloc_type_view_11875
++ fs_get_xattr_ext.kalloc_type_view_23611
++ fs_get_xattr_ext.kalloc_type_view_23631
++ fs_iterate_snapshots.kalloc_type_view_27197
++ fs_iterate_snapshots.kalloc_type_view_27244
++ fs_map_file_offset_ext.kalloc_type_view_22357
++ fs_map_file_offset_ext.kalloc_type_view_22389
++ fs_map_file_offset_ext.kalloc_type_view_22427
++ fs_map_file_offset_ext.kalloc_type_view_22450
++ fs_remove_xattr_with_nstream_inode.kalloc_type_view_23714
++ fs_remove_xattr_with_nstream_inode.kalloc_type_view_23736
++ fs_remove_xattr_with_nstream_inode.kalloc_type_view_23757
++ fs_remove_xattr_with_nstream_inode.kalloc_type_view_23921
++ icp_new_crypto.kalloc_type_view_7978
++ icp_new_crypto.kalloc_type_view_7990
++ icp_new_crypto.kalloc_type_view_7992
++ icp_new_crypto.kalloc_type_view_8026
++ icp_new_crypto.kalloc_type_view_8051
++ icp_new_crypto.kalloc_type_view_8066
++ insert_linkid.kalloc_type_view_11823
++ jobj_allocate.kalloc_type_view_2683
++ jobj_allocate.kalloc_type_view_2687
++ jobj_allocate.kalloc_type_view_2693
++ jobj_allocate.kalloc_type_view_2697
++ jobj_allocate.kalloc_type_view_2703
++ jobj_allocate.kalloc_type_view_2706
++ jobj_allocate.kalloc_type_view_2709
++ jobj_allocate.kalloc_type_view_2719
++ jobj_allocate.kalloc_type_view_2722
++ jobj_allocate.kalloc_type_view_2732
++ jobj_allocate.kalloc_type_view_2735
++ jobj_allocate.kalloc_type_view_2744
++ jobj_allocate.kalloc_type_view_2747
++ jobj_allocate.kalloc_type_view_2750
++ jobj_release.kalloc_type_view_2772
++ jobj_release.kalloc_type_view_2775
++ jobj_release.kalloc_type_view_2778
++ jobj_release.kalloc_type_view_2787
++ jobj_release.kalloc_type_view_2790
++ jobj_release.kalloc_type_view_2807
++ jobj_release.kalloc_type_view_2810
++ jobj_release.kalloc_type_view_2827
++ jobj_release.kalloc_type_view_2837
++ jobj_release.kalloc_type_view_2841
++ jobj_release.kalloc_type_view_2847
++ legacy_get_ek.kalloc_type_view_34438
++ lookup_purgeable_drec_as_record.kalloc_type_view_1335
++ lookup_unfoldable_name_iterator.kalloc_type_view_18488
++ lookup_unfoldable_name_iterator.kalloc_type_view_18494
++ lookup_unfoldable_name_iterator.kalloc_type_view_18506
++ nx_get_minimal_size.kalloc_type_view_5118
++ nx_get_minimal_size.kalloc_type_view_5226
++ nx_unmount_internal.kalloc_type_view_1844
++ obj_get_async_read.kalloc_type_view_3914
++ obj_get_async_read.kalloc_type_view_3926
++ obj_get_async_read.kalloc_type_view_3938
++ obj_get_callback.kalloc_type_view_3877
++ obj_get_callback.kalloc_type_view_3879
++ obj_list_add.kalloc_type_view_5203
++ obj_list_async_wait.kalloc_type_view_5230
++ obj_mem_mgr_init.kalloc_type_view_7503
++ obj_mem_mgr_init.kalloc_type_view_7543
++ obj_mem_mgr_init.kalloc_type_view_7557
++ obj_mem_mgr_shutdown.kalloc_type_view_7591
++ obj_type_alloc.kalloc_type_view_6378
++ obj_type_alloc.kalloc_type_view_6385
++ obj_type_alloc.kalloc_type_view_6394
++ obj_type_alloc.kalloc_type_view_6397
++ obj_type_alloc.kalloc_type_view_6400
++ obj_type_alloc.kalloc_type_view_6403
++ obj_type_alloc.kalloc_type_view_6406
++ obj_type_alloc.kalloc_type_view_6409
++ obj_type_alloc.kalloc_type_view_6412
++ obj_type_alloc.kalloc_type_view_6415
++ obj_type_alloc.kalloc_type_view_6419
++ obj_type_alloc.kalloc_type_view_6422
++ obj_type_alloc.kalloc_type_view_6426
++ obj_type_free.kalloc_type_view_6440
++ obj_type_free.kalloc_type_view_6447
++ obj_type_free.kalloc_type_view_6458
++ obj_type_free.kalloc_type_view_6471
++ obj_type_free.kalloc_type_view_6476
++ obj_type_free.kalloc_type_view_6481
++ obj_type_free.kalloc_type_view_6486
++ obj_type_free.kalloc_type_view_6491
++ obj_type_free.kalloc_type_view_6496
++ obj_type_free.kalloc_type_view_6501
++ obj_type_free.kalloc_type_view_6506
++ obj_type_free.kalloc_type_view_6512
++ obj_type_free.kalloc_type_view_6516
++ obj_type_free.kalloc_type_view_6520
++ purge_files_with_ino.kalloc_type_view_8339
++ purge_files_with_ino.kalloc_type_view_8349
++ purge_files_with_ino.kalloc_type_view_8593
++ purge_single_file.kalloc_type_view_10859
++ purge_single_file.kalloc_type_view_10863
++ purge_single_file.kalloc_type_view_10865
++ purge_single_file.kalloc_type_view_10904
++ purge_single_file.kalloc_type_view_10905
++ simple_remove_xattr.kalloc_type_view_23650
++ simple_remove_xattr.kalloc_type_view_23663
++ update_parent_xattr.kalloc_type_view_20867
++ update_parent_xattr.kalloc_type_view_20997
++ xattr_cloner.kalloc_type_view_17115
++ xattr_cloner.kalloc_type_view_17164
++ xattr_ek_to_crypto_state.kalloc_type_view_33651
+- __ZL27upgrade_container_if_neededP8nx_entryP11vfs_context
+- __ZZ16container_unloadE21kalloc_type_view_2156
+- __ZZ21delta_teardown_threadPviE22kalloc_type_view_10079
+- __ZZ22apfs_vek_get_aks_stateE21kalloc_type_view_1241
+- __ZZ22apfs_vek_get_aks_stateE21kalloc_type_view_1250
+- __ZZ22apfs_vek_get_aks_stateE21kalloc_type_view_1259
+- __ZZ22apfs_vek_get_aks_stateE21kalloc_type_view_1266
+- __ZZ23apfs_vek_get_sidp_stateE21kalloc_type_view_1301
+- __ZZ23apfs_vek_get_sidp_stateE21kalloc_type_view_1310
+- __ZZ23apfs_vek_get_sidp_stateE21kalloc_type_view_1319
+- __ZZ23apfs_vek_get_sidp_stateE21kalloc_type_view_1327
+- __ZZ28container_load_with_callbackE21kalloc_type_view_1911
+- __ZZ28container_load_with_callbackE21kalloc_type_view_1919
+- __ZZ28container_load_with_callbackE21kalloc_type_view_1922
+- __ZZ28container_load_with_callbackE21kalloc_type_view_1950
+- __ZZ28container_load_with_callbackE21kalloc_type_view_2066
+- __ZZL19free_placeholder_nxP2nxE21kalloc_type_view_1811
+- __ZZL19free_placeholder_nxP2nxE21kalloc_type_view_1813
+- __ZZL20alloc_placeholder_nxP15dev_init_paramsiPvPP2nxE21kalloc_type_view_1746
+- __ZZL20alloc_placeholder_nxP15dev_init_paramsiPvPP2nxE21kalloc_type_view_1753
+- __ZZL20alloc_placeholder_nxP15dev_init_paramsiPvPP2nxE21kalloc_type_view_1791
+- __ZZL23apfs_keycache_operationPKh13apfs_key_typeiPP3cpxbE22kalloc_type_view_13473
+- __ZZL23apfs_keycache_operationPKh13apfs_key_typeiPP3cpxbE22kalloc_type_view_13483
+- __ZZL23apfs_keycache_operationPKh13apfs_key_typeiPP3cpxbE22kalloc_type_view_13505
+- __ZZN15AppleAPFSVolume15asyncCryptoReadEP18AppleAPFSContaineryyPyaybE21kalloc_type_view_8957
+- __ZZN15AppleAPFSVolume15asyncCryptoReadEP18AppleAPFSContaineryyPyaybE21kalloc_type_view_9074
+- __ZZN15AppleAPFSVolume27asyncCryptoReadFinishHelperEP24multikey_crypto_io_entryPyE21kalloc_type_view_9113
+- __ZZN18AppleAPFSContainer16lockerDataGetSetEb9klckr_ctxPhyP4taskE22kalloc_type_view_14947
+- __ZZN18AppleAPFSContainer16lockerDataGetSetEb9klckr_ctxPhyP4taskE22kalloc_type_view_14950
+- __ZZN18AppleAPFSContainer19deltaCreateTeardownEP18delta_create_ctx_tE21kalloc_type_view_7913
+- __ZZN18AppleAPFSContainer20deltaRestoreTeardownEP19delta_restore_ctx_tE21kalloc_type_view_8107
+- __ZZN18AppleAPFSContainer27containerGetKeyLockerRangesEjj9klckr_ctxyPjP20vol_keylocker_rangesE22kalloc_type_view_14768
+- __ZZN18AppleAPFSContainer27containerGetKeyLockerRangesEjj9klckr_ctxyPjP20vol_keylocker_rangesE22kalloc_type_view_14799
+- __ZZN19AppleAPFSUserClient19methodKeyCacheEvictEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_11879
+- __ZZN19AppleAPFSUserClient24methodDeltaCreatePrepareEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_11292
+- __ZZN19AppleAPFSUserClient24methodDeltaCreatePrepareEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_11316
+- __ZZN19AppleAPFSUserClient25methodDeltaRestorePrepareEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_11418
+- __ZZN19AppleAPFSUserClient25methodDeltaRestorePrepareEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_11447
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10738
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10739
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10740
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10746
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10747
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10748
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10813
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10816
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10825
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10828
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10836
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10839
+- __ZZN19AppleAPFSUserClient4stopEP9IOServiceE22kalloc_type_view_10093
+- __ZZN19AppleAPFSUserClient4stopEP9IOServiceE22kalloc_type_view_10103
+- _decrement_dstream_id_for_deletion_ex
+- _fs_add_xattr.kalloc_type_view_23450
+- _fs_add_xattr.kalloc_type_view_23456
+- _fs_add_xattr.kalloc_type_view_23459
+- _fs_add_xattr.kalloc_type_view_23514
+- apfs_drop_allocated_unwritten_ranges.kalloc_type_view_16829
+- apfs_find_gaps_in_rangelist.kalloc_type_view_12125
+- apfs_flush_allocated_unwritten_ranges.kalloc_type_view_14138
+- apfs_flush_allocated_unwritten_ranges.kalloc_type_view_14230
+- apfs_io_common.kalloc_type_view_18737
+- apfs_io_common.kalloc_type_view_18775
+- apfs_io_common.kalloc_type_view_18786
+- apfs_io_common.kalloc_type_view_18804
+- apfs_io_common.kalloc_type_view_18822
+- apfs_io_common.kalloc_type_view_18842
+- apfs_io_common.kalloc_type_view_18869
+- apfs_io_common.kalloc_type_view_18952
+- apfs_io_common.kalloc_type_view_18973
+- apfs_io_common.kalloc_type_view_18984
+- apfs_io_common.kalloc_type_view_19002
+- apfs_io_common.kalloc_type_view_19021
+- apfs_io_common.kalloc_type_view_19034
+- apfs_io_common.kalloc_type_view_19055
+- apfs_io_common.kalloc_type_view_19067
+- apfs_iodone.kalloc_type_view_18215
+- apfs_iodone.kalloc_type_view_18254
+- apfs_punch_out_ranges_in_fext.kalloc_type_view_21745
+- apfs_punch_out_ranges_in_fext.kalloc_type_view_21752
+- apfs_reallocate_range.kalloc_type_view_2328
+- apfs_reallocate_range.kalloc_type_view_2330
+- apfs_release_io_context.kalloc_type_view_18452
+- apfs_release_io_context.kalloc_type_view_18462
+- apfs_rr_async_read_callback.kalloc_type_view_1349
+- apfs_rr_move_data.kalloc_type_view_1454
+- apfs_rr_move_data.kalloc_type_view_1544
+- apfs_trim_ranges_in_region.kalloc_type_view_17442
+- apfs_update_ranges_on_allocation.kalloc_type_view_17533
+- apfs_update_reserved_ranges.kalloc_type_view_21888
+- apfs_update_reserved_ranges.kalloc_type_view_21893
+- apfs_vnop_blockmap.kalloc_type_view_17867
+- apfs_vnop_blockmap.kalloc_type_view_18148
+- apfs_vnop_getattrlistbulk.kalloc_type_view_19723
+- apfs_vnop_getattrlistbulk.kalloc_type_view_19736
+- apfs_vnop_getattrlistbulk.kalloc_type_view_19793
+- apfs_vnop_getattrlistbulk.kalloc_type_view_19817
+- apfs_vnop_readdir.kalloc_type_view_16455
+- apfs_vnop_readdir.kalloc_type_view_16477
+- apfs_vnop_readdir.kalloc_type_view_16569
+- apfs_vnop_readdir.kalloc_type_view_16579
+- apfs_vnop_readdir.kalloc_type_view_16600
+- arle_alloc_pending_entry.kalloc_type_view_21331
+- bt_merge_up.kalloc_type_view_4567
+- bt_merge_up.kalloc_type_view_4680
+- btree_evict_range.kalloc_type_view_7005
+- btree_evict_range.kalloc_type_view_7012
+- btree_evict_range.kalloc_type_view_7156
+- btree_iterate_nodes.kalloc_type_view_6445
+- btree_iterate_nodes.kalloc_type_view_6594
+- change_crypto_id_prot_class.kalloc_type_view_9813
+- change_crypto_id_prot_class.kalloc_type_view_9879
+- create_new_crypto_state_for_id.kalloc_type_view_7570
+- create_new_crypto_state_for_id.kalloc_type_view_7575
+- create_new_crypto_state_for_id.kalloc_type_view_7595
+- create_sibling_link.kalloc_type_view_11676
+- create_sibling_link.kalloc_type_view_11692
+- dft_alloc.kalloc_type_view_50
+- dft_alloc.kalloc_type_view_55
+- dft_alloc.kalloc_type_view_62
+- dft_alloc.kalloc_type_view_70
+- dft_free.kalloc_type_view_106
+- dir_rec_alloc_with_hash.kalloc_type_view_11311
+- dir_rec_alloc_with_hash.kalloc_type_view_11317
+- dir_rec_alloc_with_hash.kalloc_type_view_11341
+- dump_extents_of_stream.kalloc_type_view_18833
+- ek_to_crypto_state.kalloc_type_view_32945
+- er_state_allocate_roll_buffers.kalloc_type_view_8191
+- er_state_destroy_obj.kalloc_type_view_8830
+- er_state_free_roll_buffers.kalloc_type_view_8153
+- er_state_obj_create_phys_from_previous_version.kalloc_type_view_8233
+- er_state_upgrade_version.kalloc_type_view_8386
+- extent_evict_range.kalloc_type_view_26228
+- extent_evict_range.kalloc_type_view_26328
+- fext_collector.kalloc_type_view_14435
+- fext_collector_cleanup.kalloc_type_view_14405
+- fext_collector_reset.kalloc_type_view_14394
+- free_linkids.kalloc_type_view_11868
+- fs_get_xattr_ext.kalloc_type_view_23554
+- fs_get_xattr_ext.kalloc_type_view_23574
+- fs_iterate_snapshots.kalloc_type_view_27139
+- fs_iterate_snapshots.kalloc_type_view_27186
+- fs_map_file_offset_ext.kalloc_type_view_22300
+- fs_map_file_offset_ext.kalloc_type_view_22332
+- fs_map_file_offset_ext.kalloc_type_view_22370
+- fs_map_file_offset_ext.kalloc_type_view_22393
+- fs_remove_xattr_with_nstream_inode.kalloc_type_view_23657
+- fs_remove_xattr_with_nstream_inode.kalloc_type_view_23679
+- fs_remove_xattr_with_nstream_inode.kalloc_type_view_23700
+- fs_remove_xattr_with_nstream_inode.kalloc_type_view_23864
+- icp_new_crypto.kalloc_type_view_7971
+- icp_new_crypto.kalloc_type_view_7983
+- icp_new_crypto.kalloc_type_view_7985
+- icp_new_crypto.kalloc_type_view_8019
+- icp_new_crypto.kalloc_type_view_8044
+- icp_new_crypto.kalloc_type_view_8059
+- insert_linkid.kalloc_type_view_11816
+- jobj_allocate.kalloc_type_view_2673
+- jobj_allocate.kalloc_type_view_2676
+- jobj_allocate.kalloc_type_view_2686
+- jobj_allocate.kalloc_type_view_2690
+- jobj_allocate.kalloc_type_view_2696
+- jobj_allocate.kalloc_type_view_2699
+- jobj_allocate.kalloc_type_view_2702
+- jobj_allocate.kalloc_type_view_2705
+- jobj_allocate.kalloc_type_view_2708
+- jobj_allocate.kalloc_type_view_2718
+- jobj_allocate.kalloc_type_view_2728
+- jobj_allocate.kalloc_type_view_2737
+- jobj_allocate.kalloc_type_view_2740
+- jobj_allocate.kalloc_type_view_2743
+- jobj_release.kalloc_type_view_2765
+- jobj_release.kalloc_type_view_2768
+- jobj_release.kalloc_type_view_2771
+- jobj_release.kalloc_type_view_2776
+- jobj_release.kalloc_type_view_2780
+- jobj_release.kalloc_type_view_2789
+- jobj_release.kalloc_type_view_2800
+- jobj_release.kalloc_type_view_2806
+- jobj_release.kalloc_type_view_2830
+- jobj_release.kalloc_type_view_2834
+- jobj_release.kalloc_type_view_2840
+- legacy_get_ek.kalloc_type_view_34380
+- lookup_purgeable_drec_as_record.kalloc_type_view_1340
+- lookup_unfoldable_name_iterator.kalloc_type_view_18439
+- lookup_unfoldable_name_iterator.kalloc_type_view_18445
+- lookup_unfoldable_name_iterator.kalloc_type_view_18453
+- nx_get_minimal_size.kalloc_type_view_5092
+- nx_get_minimal_size.kalloc_type_view_5200
+- nx_unmount_internal.kalloc_type_view_1820
+- obj_get_async_read.kalloc_type_view_3913
+- obj_get_async_read.kalloc_type_view_3925
+- obj_get_async_read.kalloc_type_view_3937
+- obj_get_callback.kalloc_type_view_3876
+- obj_get_callback.kalloc_type_view_3878
+- obj_list_add.kalloc_type_view_5202
+- obj_list_async_wait.kalloc_type_view_5229
+- obj_mem_mgr_init.kalloc_type_view_7502
+- obj_mem_mgr_init.kalloc_type_view_7542
+- obj_mem_mgr_init.kalloc_type_view_7556
+- obj_mem_mgr_shutdown.kalloc_type_view_7590
+- obj_type_alloc.kalloc_type_view_6377
+- obj_type_alloc.kalloc_type_view_6384
+- obj_type_alloc.kalloc_type_view_6393
+- obj_type_alloc.kalloc_type_view_6396
+- obj_type_alloc.kalloc_type_view_6399
+- obj_type_alloc.kalloc_type_view_6402
+- obj_type_alloc.kalloc_type_view_6405
+- obj_type_alloc.kalloc_type_view_6408
+- obj_type_alloc.kalloc_type_view_6411
+- obj_type_alloc.kalloc_type_view_6414
+- obj_type_alloc.kalloc_type_view_6418
+- obj_type_alloc.kalloc_type_view_6421
+- obj_type_alloc.kalloc_type_view_6425
+- obj_type_free.kalloc_type_view_6439
+- obj_type_free.kalloc_type_view_6446
+- obj_type_free.kalloc_type_view_6457
+- obj_type_free.kalloc_type_view_6470
+- obj_type_free.kalloc_type_view_6475
+- obj_type_free.kalloc_type_view_6480
+- obj_type_free.kalloc_type_view_6485
+- obj_type_free.kalloc_type_view_6490
+- obj_type_free.kalloc_type_view_6495
+- obj_type_free.kalloc_type_view_6500
+- obj_type_free.kalloc_type_view_6505
+- obj_type_free.kalloc_type_view_6511
+- obj_type_free.kalloc_type_view_6515
+- obj_type_free.kalloc_type_view_6519
+- purge_files_with_ino.kalloc_type_view_8372
+- purge_files_with_ino.kalloc_type_view_8382
+- purge_files_with_ino.kalloc_type_view_8625
+- purge_single_file.kalloc_type_view_10891
+- purge_single_file.kalloc_type_view_10895
+- purge_single_file.kalloc_type_view_10897
+- purge_single_file.kalloc_type_view_10936
+- purge_single_file.kalloc_type_view_10937
+- simple_remove_xattr.kalloc_type_view_23593
+- simple_remove_xattr.kalloc_type_view_23606
+- update_parent_xattr.kalloc_type_view_20766
+- update_parent_xattr.kalloc_type_view_20896
+- xattr_cloner.kalloc_type_view_17074
+- xattr_cloner.kalloc_type_view_17123
+- xattr_ek_to_crypto_state.kalloc_type_view_33593
+CStrings:
++ "%s:%d: %s Cannot decompress data from inode %lld on a sealed volume\n"
++ "%s:%d: %s Detected a hole on a sealed volume at offset %lld in %lld\n"
++ "%s:%d: %s Failed to invalidate and push %llu:%llu for ino %llu, err %d\n"
++ "%s:%d: %s IP base %lld:%lld is not free in the bitmap! error %d isallocated %d\n"
++ "%s:%d: %s IP bm base %lld:%lld is not free in the bitmap! error %d isallocated %d\n"
++ "%s:%d: %s Missing dstream %lld of inode %lld on a sealed volume\n"
++ "%s:%d: %s apfs_rr: cleanup 0 failed to decrement head split crypto refcount (ret %d) \n"
++ "%s:%d: %s apfs_rr: cleanup first failed to decrement crypto refcount (ret %d) \n"
++ "%s:%d: %s apfs_rr: cleanup last failed to decrement crypto refcount (ret %d) \n"
++ "%s:%d: %s applied dstream workaround inode %llu\n"
++ "%s:%d: %s failed to remove extents iteratively\n"
++ "%s:%d: %s find_new_metadata(old_block_count %lld, resize_block_count %lld)\n"
++ "%s:%d: %s ino %llu '%s' cp_open() failed with EILSEQ\n"
++ "%s:%d: %s ino %llu, failed to get region covering %llu+%zu, error %d\n"
++ "%s:%d: %s punch hole dstream and file size mismatch: [%llu, %llu); ino %llu, file_size %llu, dstream exists %d, size %llu, alloced_size %llu\n"
++ "%s:%d: %s request flags: 0x%llx type: 0x%llx min_size: %lld: max_age %lld desired_amt: %lld (age-for-urgency: %lld, requesting uid: %d, search_start_time: %llu)\n"
++ "%s:%d: Temp checkpoint protection: refusing regular checkpoint mount\n"
++ "2026/10/14"
++ "23:04:40"
++ "3288.41.1"
++ "Oct 14 2026"
++ "Temp checkpoint overwrite protection"
++ "apfs-3288.41.1"
++ "btree_node_compact"
++ "decrement_dstream_id_for_deletion"
++ "tmpchkprotected"
+- "%s:%d: %s Failed to invalidate %llu:%llu for ino %llu, err %d\n"
+- "%s:%d: %s Failed to msync for ino %llu\n"
+- "%s:%d: %s find_new_metadata(available_block_index %lld, nxr_st->resize_block_count %lld)\n"
+- "%s:%d: %s request flags: 0x%llx type: 0x%llx min_size: %lld: max_age %lld desired_amt: %lld (age-for-urgency: %lld, requesting uid: %d)\n"
+- "%s:%d: container is locked to be loadable only by pid <%d>, refusing request to load the container by pid <%d> device = %s\n"
+- "18:52:12"
+- "18:52:13"
+- "2026/08/30"
+- "3288.1.3"
+- "Aug 30 2026"
+- "apfs-3288.1.3"
+- "decrement_dstream_id_for_deletion_ex"
+```

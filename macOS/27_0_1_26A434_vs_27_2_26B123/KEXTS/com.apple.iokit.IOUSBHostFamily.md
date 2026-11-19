@@ -1,0 +1,118 @@
+## com.apple.iokit.IOUSBHostFamily
+
+> `com.apple.iokit.IOUSBHostFamily`
+
+```diff
+
+-1617.0.12.0.0
+-  __TEXT.__cstring: 0xa478
++1617.40.10.0.0
++  __TEXT.__cstring: 0xa4be
+   __TEXT.__os_log: 0x873b
+   __TEXT.__const: 0x2018
+-  __TEXT_EXEC.__text: 0x9c3f4
++  __TEXT_EXEC.__text: 0x9c5a4
+   __TEXT_EXEC.__auth_stubs: 0xd50
+   __DATA.__data: 0x1f0
+-  __DATA.__common: 0x970
++  __DATA.__common: 0x980
+   __DATA.__bss: 0x10
+   __DATA_CONST.__mod_init_func: 0xf0
+   __DATA_CONST.__mod_term_func: 0xe8
+
+   __DATA_CONST.__got: 0x1f0
+   Functions: 2337
+   Symbols:   4175
+-  CStrings:  1160
++  CStrings:  1162
+ 
+Symbols:
++ __ZZN16AppleUSBHostPort12didTerminateEP9IOServicejPbE21kalloc_type_view_1099
++ __ZZN16AppleUSBHostPort12didTerminateEP9IOServicejPbE21kalloc_type_view_1118
++ __ZZN16AppleUSBHostPort12didTerminateEP9IOServicejPbE21kalloc_type_view_1129
++ __ZZN16AppleUSBHostPort13willTerminateEP9IOServicejE21kalloc_type_view_1002
++ __ZZN16AppleUSBHostPort13willTerminateEP9IOServicejE21kalloc_type_view_1022
++ __ZZN16AppleUSBHostPort13willTerminateEP9IOServicejE21kalloc_type_view_1031
++ __ZZN16AppleUSBHostPort16terminateServiceEP9IOServiceE21kalloc_type_view_3165
++ __ZZN16AppleUSBHostPort16terminateServiceEP9IOServiceE21kalloc_type_view_3240
++ __ZZN16AppleUSBHostPort22didTerminateThreadCallEPNS_23tPortTerminateArgumentsEE21kalloc_type_view_1153
++ __ZZN16AppleUSBHostPort23willTerminateThreadCallEPNS_23tPortTerminateArgumentsEE21kalloc_type_view_1069
++ __ZZN16AppleUSBHostPort26terminateServiceThreadCallEPNS_30tPortTerminateServiceArgumentsEP11thread_callE21kalloc_type_view_3265
++ __ZZN17IOUSBHostIOSource12destroyGatedEvE20kalloc_type_view_254
+- __ZZN16AppleUSBHostPort12didTerminateEP9IOServicejPbE21kalloc_type_view_1097
+- __ZZN16AppleUSBHostPort12didTerminateEP9IOServicejPbE21kalloc_type_view_1116
+- __ZZN16AppleUSBHostPort12didTerminateEP9IOServicejPbE21kalloc_type_view_1127
+- __ZZN16AppleUSBHostPort13willTerminateEP9IOServicejE21kalloc_type_view_1000
+- __ZZN16AppleUSBHostPort13willTerminateEP9IOServicejE21kalloc_type_view_1020
+- __ZZN16AppleUSBHostPort13willTerminateEP9IOServicejE21kalloc_type_view_1029
+- __ZZN16AppleUSBHostPort16terminateServiceEP9IOServiceE21kalloc_type_view_3159
+- __ZZN16AppleUSBHostPort16terminateServiceEP9IOServiceE21kalloc_type_view_3234
+- __ZZN16AppleUSBHostPort22didTerminateThreadCallEPNS_23tPortTerminateArgumentsEE21kalloc_type_view_1151
+- __ZZN16AppleUSBHostPort23willTerminateThreadCallEPNS_23tPortTerminateArgumentsEE21kalloc_type_view_1067
+- __ZZN16AppleUSBHostPort26terminateServiceThreadCallEPNS_30tPortTerminateServiceArgumentsEP11thread_callE21kalloc_type_view_3259
+- __ZZN17IOUSBHostIOSource12destroyGatedEvE20kalloc_type_view_236
+Functions:
+~ __ZN11StandardUSB25validateEndpointBurstSizeEjPKNS_18EndpointDescriptorEPKNS_37SuperSpeedEndpointCompanionDescriptorEPKNS_52SuperSpeedPlusIsochronousEndpointCompanionDescriptorE : 1912 -> 1900
+~ __ZN11StandardUSB22getEndpointBurstSize32EjPKNS_18EndpointDescriptorEPKNS_37SuperSpeedEndpointCompanionDescriptorEPKNS_52SuperSpeedPlusIsochronousEndpointCompanionDescriptorE : 144 -> 188
+~ __ZN11StandardUSB15getEndpointMultEjPKNS_18EndpointDescriptorEPKNS_37SuperSpeedEndpointCompanionDescriptorEPKNS_52SuperSpeedPlusIsochronousEndpointCompanionDescriptorE : 164 -> 196
+~ __ZN11StandardUSB28getEndpointMaxStreamsEncodedEjPKNS_18EndpointDescriptorEPKNS_37SuperSpeedEndpointCompanionDescriptorE : 48 -> 56
+~ __ZN11StandardUSB21getEndpointMaxStreamsEjPKNS_18EndpointDescriptorEPKNS_37SuperSpeedEndpointCompanionDescriptorE : 60 -> 64
+~ __ZN16AppleUSBHostPort14fullDisconnectENS_37AppleUSBHostPortTerminateDeviceReasonE : 1604 -> 1584
+~ __ZN16AppleUSBHostPort24serializeStatisticsGatedEP12OSDictionaryP11OSSerialize : 840 -> 872
+~ _GLOBAL__sub_I_AppleUSBHostPort.cpp : 1004 -> 1036
+~ __ZN17IOUSBHostIOSource5closeEv : 280 -> 340
+~ __ZN17IOUSBHostIOSource7destroyEv : 280 -> 340
+~ __ZN15IOUSBHostDevice21_GetDescriptor_InvokeE5IORPCP15OSMetaClassBasePFiS2_hhthhP18IOMemoryDescriptorPtE : 252 -> 256
+~ __ZN15IOUSBHostDevice11Open_InvokeE5IORPCP15OSMetaClassBasePFiS2_P9IOServicejmE : 236 -> 240
+~ __ZN15IOUSBHostDevice12Close_InvokeE5IORPCP15OSMetaClassBasePFiS2_P9IOServicejE : 232 -> 236
+~ __ZN15IOUSBHostDevice21CreateIOBuffer_InvokeE5IORPCP15OSMetaClassBasePFiS2_jyPP24IOBufferMemoryDescriptorE : 192 -> 196
+~ __ZN15IOUSBHostDevice25AsyncDeviceRequest_InvokeE5IORPCP15OSMetaClassBasePFiS2_P9IOServicehhtttP18IOMemoryDescriptorP8OSActionjE : 368 -> 372
+~ __ZN15IOUSBHostDevice20DeviceRequest_InvokeE5IORPCP15OSMetaClassBasePFiS2_P9IOServicehhtttP18IOMemoryDescriptorPtjE : 316 -> 320
+~ __ZN15IOUSBHostDevice26AbortDeviceRequests_InvokeE5IORPCP15OSMetaClassBasePFiS2_P9IOServicejiE : 232 -> 236
+~ __ZN15IOUSBHostDevice23SetConfiguration_InvokeE5IORPCP15OSMetaClassBasePFiS2_hbE : 176 -> 180
+~ __ZN15IOUSBHostDevice17GetAddress_InvokeE5IORPCP15OSMetaClassBasePFiS2_PhE : 164 -> 168
+~ __ZN15IOUSBHostDevice15GetSpeed_InvokeE5IORPCP15OSMetaClassBasePFiS2_PhE : 164 -> 168
+~ __ZN15IOUSBHostDevice21GetFrameNumber_InvokeE5IORPCP15OSMetaClassBasePFiS2_PyS3_E : 172 -> 176
+~ __ZN15IOUSBHostDevice24CurrentMicroframe_InvokeE5IORPCP15OSMetaClassBasePFiS2_PyS3_E : 172 -> 176
+~ __ZN15IOUSBHostDevice26ReferenceMicroframe_InvokeE5IORPCP15OSMetaClassBasePFiS2_PyS3_E : 172 -> 176
+~ __ZN15IOUSBHostDevice20GetPortStatus_InvokeE5IORPCP15OSMetaClassBasePFiS2_PjE : 164 -> 168
+~ __ZN15IOUSBHostDevice12Reset_InvokeE5IORPCP15OSMetaClassBasePFiS2_E : 156 -> 160
+~ __ZN15IOUSBHostDevice30CreateInterfaceIterator_InvokeE5IORPCP15OSMetaClassBasePFiS2_PmE : 164 -> 168
+~ __ZN15IOUSBHostDevice31DestroyInterfaceIterator_InvokeE5IORPCP15OSMetaClassBasePFiS2_mE : 164 -> 168
+~ __ZN15IOUSBHostDevice20CopyInterface_InvokeE5IORPCP15OSMetaClassBasePFiS2_mPP18IOUSBHostInterfaceE : 188 -> 192
+~ __ZN15IOUSBHostDevice33CompleteAsyncDeviceRequest_InvokeE5IORPCP15OSMetaClassBasePFvS2_P8OSActionijEPK11OSMetaClass : 196 -> 200
+~ __ZN18IOUSBHostInterface36_GetInterfaceDescriptorHeader_InvokeE5IORPCP15OSMetaClassBasePFiS2_P24IOUSBInterfaceDescriptorE : 164 -> 168
+~ __ZN18IOUSBHostInterface11Open_InvokeE5IORPCP15OSMetaClassBasePFiS2_P9IOServicejPhE : 236 -> 240
+~ __ZN18IOUSBHostInterface12Close_InvokeE5IORPCP15OSMetaClassBasePFiS2_P9IOServicejE : 232 -> 236
+~ __ZN18IOUSBHostInterface21GetFrameNumber_InvokeE5IORPCP15OSMetaClassBasePFiS2_PyS3_E : 172 -> 176
+~ __ZN18IOUSBHostInterface24CurrentMicroframe_InvokeE5IORPCP15OSMetaClassBasePFiS2_PyS3_E : 172 -> 176
+~ __ZN18IOUSBHostInterface26ReferenceMicroframe_InvokeE5IORPCP15OSMetaClassBasePFiS2_PyS3_E : 172 -> 176
+~ __ZN18IOUSBHostInterface15CopyPipe_InvokeE5IORPCP15OSMetaClassBasePFiS2_hPP13IOUSBHostPipeE : 188 -> 192
+~ __ZN18IOUSBHostInterface29SelectAlternateSetting_InvokeE5IORPCP15OSMetaClassBasePFiS2_hE : 164 -> 168
+~ __ZN18IOUSBHostInterface20GetPortStatus_InvokeE5IORPCP15OSMetaClassBasePFiS2_PjE : 164 -> 168
+~ __ZN18IOUSBHostInterface20SetIdlePolicy_InvokeE5IORPCP15OSMetaClassBasePFiS2_jE : 164 -> 168
+~ __ZN18IOUSBHostInterface20GetIdlePolicy_InvokeE5IORPCP15OSMetaClassBasePFiS2_PjE : 164 -> 168
+~ __ZN18IOUSBHostInterface17CopyDevice_InvokeE5IORPCP15OSMetaClassBasePFiS2_PP15IOUSBHostDeviceE : 180 -> 184
+~ __ZN13IOUSBHostPipe15GetSpeed_InvokeE5IORPCP15OSMetaClassBasePFiS2_PhE : 164 -> 168
+~ __ZN13IOUSBHostPipe23GetDeviceAddress_InvokeE5IORPCP15OSMetaClassBasePFiS2_PhE : 164 -> 168
+~ __ZN13IOUSBHostPipe12Abort_InvokeE5IORPCP15OSMetaClassBasePFiS2_jiP9IOServiceE : 232 -> 236
+~ __ZN13IOUSBHostPipe17AdjustPipe_InvokeE5IORPCP15OSMetaClassBasePFiS2_PK32IOUSBStandardEndpointDescriptorsE : 164 -> 168
+~ __ZN13IOUSBHostPipe21GetDescriptors_InvokeE5IORPCP15OSMetaClassBasePFiS2_P32IOUSBStandardEndpointDescriptors33IOUSBGetEndpointDescriptorOptionsE : 172 -> 176
+~ __ZN13IOUSBHostPipe20SetIdlePolicy_InvokeE5IORPCP15OSMetaClassBasePFiS2_jE : 164 -> 168
+~ __ZN13IOUSBHostPipe20GetIdlePolicy_InvokeE5IORPCP15OSMetaClassBasePFiS2_PjE : 164 -> 168
+~ __ZN13IOUSBHostPipe17ClearStall_InvokeE5IORPCP15OSMetaClassBasePFiS2_bE : 168 -> 172
+~ __ZN13IOUSBHostPipe14AsyncIO_InvokeE5IORPCP15OSMetaClassBasePFiS2_P18IOMemoryDescriptorjP8OSActionjE : 276 -> 280
+~ __ZN13IOUSBHostPipe9IO_InvokeE5IORPCP15OSMetaClassBasePFiS2_P18IOMemoryDescriptorjPjjE : 236 -> 240
+~ __ZN13IOUSBHostPipe14IsochIO_InvokeE5IORPCP15OSMetaClassBasePFiS2_P18IOMemoryDescriptorS4_yP8OSActionE : 328 -> 332
+~ __ZN13IOUSBHostPipe33CreateMemoryDescriptorRing_InvokeE5IORPCP15OSMetaClassBasePFiS2_jE : 164 -> 168
+~ __ZN13IOUSBHostPipe26SetMemoryDescriptor_InvokeE5IORPCP15OSMetaClassBasePFiS2_P18IOMemoryDescriptorjE : 232 -> 236
+~ __ZN13IOUSBHostPipe21AsyncIOBundled_InvokeE5IORPCP15OSMetaClassBasePFiS2_jjPjPKjiP8OSActionjE : 264 -> 268
+~ __ZN13IOUSBHostPipe22CompleteAsyncIO_InvokeE5IORPCP15OSMetaClassBasePFvS2_P8OSActionijyEPK11OSMetaClass : 200 -> 204
+~ __ZN13IOUSBHostPipe27CompleteAsyncIsochIO_InvokeE5IORPCP15OSMetaClassBasePFvS2_P8OSActioniEPK11OSMetaClass : 196 -> 200
+~ __ZN13IOUSBHostPipe29CompleteAsyncIOBundled_InvokeE5IORPCP15OSMetaClassBasePFvS2_P8OSActionjjPKjiPKiiEPK11OSMetaClass : 248 -> 252
+CStrings:
++ "1211111212221212112222222122222222222222222222222222222222222222222222222222212211111222211121122222222222111221121111111111111"
++ "kPortStatUSB3LinkFailureCount"
++ "kPortStatUSB3LinkFailureCountForDevice"
+- "121111121222121211222222212222222222222222222222222222222222222222222222222221221111122221112112222222222111221121111111111111"
+```

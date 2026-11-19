@@ -1,0 +1,141 @@
+## libswiftAVFoundation.dylib
+
+> `/usr/lib/swift/libswiftAVFoundation.dylib`
+
+```diff
+
+-2450.77.5.1.0
+-  __TEXT.__text: 0x404bc
++2475.13.5.1.0
++  __TEXT.__text: 0x3fefc
+   __TEXT.__objc_methlist: 0x27c
+-  __TEXT.__const: 0x3974
+-  __TEXT.__swift5_typeref: 0x18a2
++  __TEXT.__const: 0x3834
++  __TEXT.__swift5_typeref: 0x18ba
+   __TEXT.__swift5_reflstr: 0xab5
+   __TEXT.__swift5_assocty: 0x488
+   __TEXT.__constg_swiftt: 0x16b4
+
+   __TEXT.__swift5_builtin: 0x258
+   __TEXT.__swift5_proto: 0x17c
+   __TEXT.__swift5_types: 0x17c
+-  __TEXT.__swift5_capture: 0x3ec
+-  __TEXT.__cstring: 0xa5d
++  __TEXT.__swift5_capture: 0x334
++  __TEXT.__cstring: 0x92d
+   __TEXT.__swift5_protos: 0x8
+-  __TEXT.__swift_as_entry: 0x12c
+-  __TEXT.__swift_as_ret: 0x128
+-  __TEXT.__swift_as_cont: 0x184
++  __TEXT.__swift_as_entry: 0x130
++  __TEXT.__swift_as_ret: 0x12c
++  __TEXT.__swift_as_cont: 0x174
+   __TEXT.__swift5_mpenum: 0x30
+-  __TEXT.__unwind_info: 0x13b0
+-  __TEXT.__eh_frame: 0x24f8
++  __TEXT.__unwind_info: 0x1378
++  __TEXT.__eh_frame: 0x2530
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_catlist: 0x10
+   __DATA_CONST.__objc_protolist: 0x80
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x980
++  __DATA_CONST.__objc_selrefs: 0x998
+   __DATA_CONST.__objc_protorefs: 0x40
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x2de0
++  __AUTH_CONST.__const: 0x2ca0
+   __AUTH_CONST.__objc_const: 0x2368
+-  __AUTH_CONST.__auth_got: 0x840
+-  __AUTH_CONST.__auth_ptr: 0x4e8
+-  __AUTH.__objc_data: 0x50
+-  __AUTH.__data: 0x880
+-  __DATA.__data: 0x11b8
+-  __DATA.__bss: 0x2c68
++  __AUTH_CONST.__auth_got: 0x848
++  __AUTH_CONST.__auth_ptr: 0x4f8
++  __DATA.__data: 0xe40
++  __DATA.__bss: 0x2c28
+   __DATA.__common: 0x9
+-  __DATA_DIRTY.__data: 0xa80
++  __DATA_DIRTY.__objc_data: 0x50
++  __DATA_DIRTY.__data: 0x1668
+   __DATA_DIRTY.__bss: 0x100
+   - /System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 1803
+-  Symbols:   4707
+-  CStrings:  64
++  Functions: 1786
++  Symbols:   4711
++  CStrings:  58
+ 
+Symbols:
++ $sSo18AVAssetWriterInputC12AVFoundationE19PixelBufferReceiverC17appendImmediately_4withSb9CoreVideo010CVReadOnlyeF0C_So6CMTimeatKFSbyXEfU_SbSo11CVBufferRefaYTXEfU_TA
++ $sSo18AVAssetWriterInputC12AVFoundationE20SampleBufferReceiverC17appendImmediatelyySb9CoreMedia07CMReadyeF0VySo08CMSampleF3RefaAGE14DynamicContentOGKFSbyXEfU_SbAKYTXEfU_TA
++ $sSo18AVAssetWriterInputC12AVFoundationE30TaggedPixelBufferGroupReceiverC17appendImmediately_4withSbSay9CoreMedia015CMTaggedDynamicG0VG_So6CMTimeatKFSbyXEfU_SbSayAH0oG0VGYTXEfU_TA
++ _$s12AVFoundation26untilReadyForMoreMediaData2onySo18AVAssetWriterInputC_tYaF
++ _$s12AVFoundation26untilReadyForMoreMediaData2onySo18AVAssetWriterInputC_tYaFTQ0_
++ _$s12AVFoundation26untilReadyForMoreMediaData2onySo18AVAssetWriterInputC_tYaFTY1_
++ _$s12AVFoundation26untilReadyForMoreMediaData2onySo18AVAssetWriterInputC_tYaFTu
++ _$s12AVFoundation26untilReadyForMoreMediaData2onySo18AVAssetWriterInputC_tYaFyScCyyts5NeverOGXEfU_yycfU_TA
++ _$s15Synchronization5_CellVys12ContinuationVySbs5NeverOGSgGMR
++ _$s15Synchronization5_CellVys12ContinuationVySbs5NeverOGSgGMd
++ _$sSo18AVAssetWriterInputC12AVFoundationE19PixelBufferReceiverC17appendImmediately_4withSb9CoreVideo010CVReadOnlyeF0C_So6CMTimeatKFSbyXEfU_SbSo11CVBufferRefaYTXEfU_TA
++ _$sSo18AVAssetWriterInputC12AVFoundationE19PixelBufferReceiverC17appendImmediately_4withSb9CoreVideo010CVReadOnlyeF0C_So6CMTimeatKFSbyXEfU_SbSo11CVBufferRefaYTXEfU_TATm
++ _$sSo18AVAssetWriterInputC12AVFoundationE20SampleBufferReceiverC17appendImmediatelyySb9CoreMedia07CMReadyeF0VySo08CMSampleF3RefaAGE14DynamicContentOGKFSbyXEfU_SbAKYTXEfU_TA
++ _$sSo18AVAssetWriterInputC12AVFoundationE30TaggedPixelBufferGroupReceiverC17appendImmediately_4withSbSay9CoreMedia015CMTaggedDynamicG0VG_So6CMTimeatKFSbyXEfU_SbSayAH0oG0VGYTXEfU_
++ _$sSo18AVAssetWriterInputC12AVFoundationE30TaggedPixelBufferGroupReceiverC17appendImmediately_4withSbSay9CoreMedia015CMTaggedDynamicG0VG_So6CMTimeatKFSbyXEfU_SbSayAH0oG0VGYTXEfU_TA
++ _$sSo30AVPlayerItemSampleBufferOutputC12AVFoundationE04nextcD0AbCE0cD10InSequenceVSgyYaFTY3_
++ _$sSo30AVPlayerItemSampleBufferOutputC12AVFoundationE04nextcD12Availability33_A31DF704E58B5D27F7B7A77FC0B44A61LLSbyYaFSbyYaXEfU_ys12ContinuationVySbs5NeverOGnXEfU_ySbYbcfU0_
++ _$sSo30AVPlayerItemSampleBufferOutputC12AVFoundationE04nextcD12Availability33_A31DF704E58B5D27F7B7A77FC0B44A61LLSbyYaFSbyYaXEfU_ys12ContinuationVySbs5NeverOGnXEfU_ySbYbcfU0_TA
++ _$sSo30AVPlayerItemSampleBufferOutputC12AVFoundationE04nextcD12Availability33_A31DF704E58B5D27F7B7A77FC0B44A61LLSbyYaFyyXEfU0_
++ _$sSo30AVPlayerItemSampleBufferOutputC12AVFoundationE04nextcD12Availability33_A31DF704E58B5D27F7B7A77FC0B44A61LLSbyYaFyyXEfU0_TA
++ _$ss12ContinuationVMn
++ _$ss12ContinuationVsRi_zrlEfD
++ _objc_msgSend$_canBecomeReadyForMoreMediaDataAndReturnError:
++ _objc_msgSend$_errorForNotReadyForMoreMediaData
++ _objc_msgSend$_invokeWhenReadyForMoreMediaDataUsingBlock:
++ _symbolic _____y_____ySb_____GSgG 15Synchronization5MutexVAARi_zrlE s12ContinuationVsRi_zrlE s5NeverO
++ _symbolic _____y_____ySb_____GSgG 15Synchronization5_CellVAARi_zrlE s12ContinuationVsRi_zrlE s5NeverO
+- $s12AVFoundation26untilReadyForMoreMediaData3forySo18AVAssetWriterInputC_tYaFyScCyyts5NeverOGXEfU_yAE_10Foundation24NSKeyValueObservedChangeVySbGtYbcfU_TA
+- $sSo18AVAssetWriterInputC12AVFoundationE19PixelBufferReceiverC17appendImmediately_4withSb9CoreVideo010CVReadOnlyeF0C_So6CMTimeatKFSbSo11CVBufferRefaYTXEfU_TA
+- $sSo18AVAssetWriterInputC12AVFoundationE20SampleBufferReceiverC17appendImmediatelyySb9CoreMedia07CMReadyeF0VySo08CMSampleF3RefaAGE14DynamicContentOGKFSbAKYTXEfU_TA
+- $sSo18AVAssetWriterInputC12AVFoundationE30TaggedPixelBufferGroupReceiverC17appendImmediately_4withSbSay9CoreMedia015CMTaggedDynamicG0VG_So6CMTimeatKFSbSayAH0oG0VGYTXEfU_TA
+- _$s12AVFoundation26untilReadyForMoreMediaData3forySo18AVAssetWriterInputC_tYaFyScCyyts5NeverOGXEfU_yAE_10Foundation24NSKeyValueObservedChangeVySbGtYbcfU_
+- _$s12AVFoundation26untilReadyForMoreMediaData3forySo18AVAssetWriterInputC_tYaFyScCyyts5NeverOGXEfU_yAE_10Foundation24NSKeyValueObservedChangeVySbGtYbcfU_TA
+- _$s12AVFoundation26untilReadyForMoreMediaData3forySo18AVAssetWriterInputC_tYaFyScCyyts5NeverOGXEfU_yAE_10Foundation24NSKeyValueObservedChangeVySbGtYbcfU_TATm
+- _$sSo18AVAssetWriterInputC12AVFoundationE15CaptionReceiverC6appendyySo14AVCaptionGroupCYaKFTY1_
+- _$sSo18AVAssetWriterInputC12AVFoundationE15CaptionReceiverC6appendyySo9AVCaptionCYaKFTY1_
+- _$sSo18AVAssetWriterInputC12AVFoundationE16MetadataReceiverC6appendyySo07AVTimedE5GroupCYaKFTY1_
+- _$sSo18AVAssetWriterInputC12AVFoundationE19PixelBufferReceiverC17appendImmediately_4withSb9CoreVideo010CVReadOnlyeF0C_So6CMTimeatKFSbSo11CVBufferRefaYTXEfU_TA
+- _$sSo18AVAssetWriterInputC12AVFoundationE19PixelBufferReceiverC17appendImmediately_4withSb9CoreVideo010CVReadOnlyeF0C_So6CMTimeatKFSbSo11CVBufferRefaYTXEfU_TATm
+- _$sSo18AVAssetWriterInputC12AVFoundationE19PixelBufferReceiverC6append_4withy9CoreVideo010CVReadOnlyeF0C_So6CMTimeatYaKFTY1_
+- _$sSo18AVAssetWriterInputC12AVFoundationE20SampleBufferReceiverC17appendImmediatelyySb9CoreMedia07CMReadyeF0VySo08CMSampleF3RefaAGE14DynamicContentOGKFSbAKYTXEfU_TA
+- _$sSo18AVAssetWriterInputC12AVFoundationE20SampleBufferReceiverC6appendyy9CoreMedia07CMReadyeF0VySo08CMSampleF3RefaAGE14DynamicContentOGYaKFTY1_
+- _$sSo18AVAssetWriterInputC12AVFoundationE30TaggedPixelBufferGroupReceiverC17appendImmediately_4withSbSay9CoreMedia015CMTaggedDynamicG0VG_So6CMTimeatKFSbSayAH0oG0VGYTXEfU_
+- _$sSo18AVAssetWriterInputC12AVFoundationE30TaggedPixelBufferGroupReceiverC17appendImmediately_4withSbSay9CoreMedia015CMTaggedDynamicG0VG_So6CMTimeatKFSbSayAH0oG0VGYTXEfU_TA
+- _$sSo18AVAssetWriterInputC12AVFoundationE30TaggedPixelBufferGroupReceiverC6append_4withySay9CoreMedia015CMTaggedDynamicG0VG_So6CMTimeatYaKFTY1_
+- _$sSo18AVAssetWriterInputC23isReadyForMoreMediaDataSbvpABTK
+- _$sSo30AVPlayerItemSampleBufferOutputC12AVFoundationE04nextcD0AbCE0cD10InSequenceVSgyYaFyyXEfU0_TA
+- _keypath_get_selector_isReadyForMoreMediaData
+- _symbolic _____ySiG 15Synchronization5MutexVAARi_zrlE
+- _symbolic _____ySiG_Xx 15Synchronization5MutexVAARi_zrlE
+CStrings:
++ "untilReadyForMoreMediaData(on:)"
+- "AVFoundation/CaptionReceiver.swift"
+- "AVFoundation/MetadataReceiver.swift"
+- "AVFoundation/PixelBufferReceiver.swift"
+- "AVFoundation/SampleBufferReceiver.swift"
+- "AVFoundation/TaggedPixelBufferGroupReceiver.swift"
+- "Internal inconsistency"
+- "untilReadyForMoreMediaData(for:)"
+```

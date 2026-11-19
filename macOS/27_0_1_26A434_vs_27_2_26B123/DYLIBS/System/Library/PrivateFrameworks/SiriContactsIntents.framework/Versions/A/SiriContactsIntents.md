@@ -1,0 +1,54 @@
+## SiriContactsIntents
+
+> `/System/Library/PrivateFrameworks/SiriContactsIntents.framework/Versions/A/SiriContactsIntents`
+
+```diff
+
+-3600.11.1.0.0
+-  __TEXT.__text: 0x10ac24
++3605.8.1.0.0
++  __TEXT.__text: 0x10ade0
+   __TEXT.__objc_methlist: 0xcb0
+   __TEXT.__const: 0x7510
+   __TEXT.__oslogstring: 0x83fb
+
+   __TEXT.__swift5_mpenum: 0x8
+   __TEXT.__swift5_protos: 0x4c
+   __TEXT.__unwind_info: 0x3b48
+-  __TEXT.__eh_frame: 0x9354
++  __TEXT.__eh_frame: 0x93a4
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__got: 0x0
+   __AUTH_CONST.__const: 0x70b0
+   __AUTH_CONST.__objc_const: 0x5f40
+-  __AUTH_CONST.__auth_got: 0x2150
++  __AUTH_CONST.__auth_got: 0x2168
+   __AUTH_CONST.__auth_ptr: 0xf08
+   __AUTH.__objc_data: 0x1928
+   __AUTH.__data: 0x2eb8
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 6159
+-  Symbols:   11640
++  Functions: 6161
++  Symbols:   11645
+   CStrings:  1040
+ 
+Symbols:
++ _$s11SiriKitFlow11DeviceStateP15isHomeAccessorySbvgTj
++ _$s13SiriUtilities0A11EnvironmentC13currentDeviceAA07CurrentE0Cvg
++ _$s13SiriUtilities13CurrentDeviceC15isHomeAccessorySbvgTj
++ _$s19SiriContactsIntents23RedirectToCompanionFlowCAC0A9Utilities0A19EnvironmentLocatingAAWlTm
++ _$ss10_NativeSetV12intersectionyAByxGADFADs13_UnsafeBitsetVXEfU_SS_TG5
++ _$ss10_NativeSetV12intersectionyAByxGADFADs13_UnsafeBitsetVXEfU_SS_TG5TA
++ _$ss13_UnsafeBitsetV027_withTemporaryUninitializedB09wordCount4bodyxSi_xABq_YKXEtq_YKs5ErrorR_r0_lFZxSryAB4WordVGq_YKXEfU_AiBq_xRi_zRi0_zRi__Ri0__r0_lys5NeverOxIsgyrzr_xA2KRs_r0_lIetygrzo_Tpq5s10_NativeSetVySSG_Tg506$ss13_ab8V013withd36B08capacity4bodyxSi_xABq_YKXEtq_YKs5i9R_r0_lFZxr23_YKXEfU_A2Bq_xRi_zRi0_zz7__Ri0__u5_lys5k11OxIsgyrzr_xx4HRs_u19_lIetygrzo_TPq5s10_lM9VySSG_TG5ABq_xRi_zRi0_zRi__Ri0__r0_lyAkNIsgyrzr_Tf1nc_n
++ _$ss13_UnsafeBitsetV027_withTemporaryUninitializedB09wordCount4bodyxSi_xABq_YKXEtq_YKs5ErrorR_r0_lFZxSryAB4WordVGq_YKXEfU_s17_NativeDictionaryVySSSaySSGG_s5NeverOTg506$ss13_ab8V013withd36B08capacity4bodyxSi_xABq_YKXEtq_YKs5i9R_r0_lFZxr12_YKXEfU_s17_kl14VySSSaySSGG_s5M4OTG5ABq_xRi_zRi0_zRi__Ri0__r0_lyAoMIsgyrzr_Tf1nc_n06$ss17_kl47V6filteryAByxq_GSbx3key_q_5valuet_tqd__YKXEqd__ti12Rd__lFADs13_ab5Vqd__w13U_SS_SaySSGs5M4OTG5AMxq_Sbq0_Ri_zRi0_zRi__Ri0__Ri_0_Ri0_0_r1_lySSAlOIsgnndzr_Tf1nc_n
+- _$s19SiriContactsIntents21SimpleHandoffStrategyCAC0A7KitFlow0e18SessionToCompanionhF5AsyncAAWlTm
+- _$ss13_UnsafeBitsetV027_withTemporaryUninitializedB09wordCount4bodyxSi_xABq_YKXEtq_YKs5ErrorR_r0_lFZxSryAB4WordVGq_YKXEfU_AiBq_xRi_zRi0_zRi__Ri0__r0_lys5NeverOxIsgyrzr_xA2KRs_r0_lIetygrzo_Tpq5s10_NativeSetVySSG_Tg506$ss10_lm30V12intersectionyAByxGADFADs13_aB12VXEfU_SS_TG5A2NTf1nc_n
+- _$ss13_UnsafeBitsetV027_withTemporaryUninitializedB09wordCount4bodyxSi_xABq_YKXEtq_YKs5ErrorR_r0_lFZxSryAB4WordVGq_YKXEfU_s17_NativeDictionaryVySSSaySSGG_s5NeverOTg506$ss17_kl51V6filteryAByxq_GSbx3key_q_5valuet_tqd__YKXEqd__YKs5i12Rd__lFADs13_ab23Vqd__YKXEfU_SS_SaySSGs5M4OTG5AMxq_Sbq0_Ri_zRi0_zRi__Ri0__Ri_0_Ri0_0_r1_lySSAlOIsgnndzr_Tf1nc_n
+```
